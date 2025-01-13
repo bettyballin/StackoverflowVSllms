@@ -1,1 +1,0 @@
-// Assume you have a mechanism to listen for database notifications\n   void OnDatabaseUpdateNotification()\n   {\n       // Invalidate or refresh the cache\n       context.ChangeTracker.Clear();\n       var updatedEntities = context.YourEntities.Where(predicate).ToList();\n   }

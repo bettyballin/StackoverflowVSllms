@@ -1,0 +1,1 @@
+<?php\n// -*- coding: utf-8 -*-

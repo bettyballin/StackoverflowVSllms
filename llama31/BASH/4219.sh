@@ -1,0 +1,1 @@
+peimg /install=dotnetfx.exe /image=<path_to_your_windows_pe_image>

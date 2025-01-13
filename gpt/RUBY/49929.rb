@@ -1,1 +1,0 @@
-def destroy\n  @user = User.find(params[:id])\n  @user.destroy\n  redirect_to users_path, notice: 'User was successfully deleted.'\nend

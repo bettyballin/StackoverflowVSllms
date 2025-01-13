@@ -1,0 +1,1 @@
+$query1 = 'CREATE TABLE IF NOT EXISTS `data` ...';\n$query2 = 'INSERT INTO `data` ...';\n\n$stmt1 = $mysqli->prepare($query1);\n$stmt2 = $mysqli->prepare($query2);\n\nif ($stmt1->execute()) {\n    $stmt2->execute();\n    return true;\n} else {\n    return false;\n}

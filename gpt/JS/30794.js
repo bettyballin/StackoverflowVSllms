@@ -1,1 +1,0 @@
-// Example usage of Firebug to inspect an element\ndocument.querySelector('element').inspect();

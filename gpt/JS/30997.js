@@ -1,1 +1,0 @@
-# Example using a build tool like Gulp\n    gulp.task('styles', () => {\n      return gulp.src('src/scss/**/*.scss')\n        .pipe(sass().on('error', sass.logError))\n        .pipe(cleanCSS())\n        .pipe(concat('style.min.css'))\n        .pipe(gulp.dest('dist/css'));\n    });

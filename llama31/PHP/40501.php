@@ -1,0 +1,1 @@
+$result = $mysqli->query("SELECT points FROM data");\n$points = array();\nwhile ($row = $result->fetch_assoc()) {\n    $points[] = $row['points'];\n}\n$sum = array_sum($points);

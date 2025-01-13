@@ -1,1 +1,0 @@
-CREATE TABLE EmailQueue (\n        Id INT PRIMARY KEY IDENTITY,\n        RecipientEmail NVARCHAR(255),\n        Subject NVARCHAR(255),\n        Body NVARCHAR(MAX),\n        ScheduledDateTime DATETIME,\n        IsSent BIT DEFAULT 0\n    );

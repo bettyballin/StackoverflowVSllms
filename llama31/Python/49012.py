@@ -1,0 +1,1 @@
+dict_of_lists = {\n    'object_a': [['1241000884000', 3], ['1241004212000', 4], ['1241006473000', 11]],\n    'object_b': [['1241004212000', 2]]\n}\n\nfor key, list_a in dict_of_lists.items():\n    list_c = merge_lists(list_a, list_x)\n    print(f"{key}: {list_c}")

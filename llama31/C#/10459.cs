@@ -1,0 +1,1 @@
+public static FileStream Open(string path, FileMode mode, FileAccess access)\n{\n    // Some checks and validation on the input parameters...\n    return new FileStream(path, mode, access);\n}

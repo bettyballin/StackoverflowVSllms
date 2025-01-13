@@ -1,0 +1,1 @@
+INSERT INTO user_roles (user_id, role_id) VALUES (1, 1); // User 1 has Client Management role\nINSERT INTO user_roles (user_id, role_id) VALUES (1, 2); // User 1 also has Invoice Management role

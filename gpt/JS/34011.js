@@ -1,1 +1,0 @@
-<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.8.2/angular.min.js"></script>\n   <div ng-app="myApp" ng-controller="myCtrl">\n     <input ng-model="name" />\n     <p>{{ name }}</p>\n   </div>\n\n   <script>\n     var app = angular.module('myApp', []);\n     app.controller('myCtrl', function($scope) {\n       $scope.name = 'John Doe';\n     });\n   </script>

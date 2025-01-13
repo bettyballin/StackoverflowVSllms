@@ -1,0 +1,1 @@
+Dim myRequest As HttpWebRequest = WebRequest.Create("http://www.example.com/sample.php")\nDim myResponse As HttpWebResponse = myRequest.GetResponse()\n\n' read the response stream using UTF-8 encoding\nDim myReader As New StreamReader(myResponse.GetResponseStream(), System.Text.Encoding.UTF8)\n\n' read the entire output in one block\nDim theOutput As String = myReader.ReadToEnd()

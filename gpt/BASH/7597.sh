@@ -1,1 +1,0 @@
-appcmd set apppool /apppool.name:YourAppPoolName /processModel.idleTimeout:00:20:00

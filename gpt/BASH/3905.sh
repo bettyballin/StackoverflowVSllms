@@ -1,1 +1,0 @@
-sudo tcpdump -i em0 tcp -w capture.pcap

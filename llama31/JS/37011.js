@@ -1,0 +1,1 @@
+var apngTest = new Image();\napngTest.onerror = function() {\n    // If an error occurred, the browser doesn't support APNG\n    alert("Your browser does not support animated PNG images.");\n};\napngTest.src = "apng_test.png";

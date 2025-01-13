@@ -1,0 +1,1 @@
+// Safe digit to int conversion\nif (isdigit(c)) {\n    int digit = c - '0';\n    // use digit\n}

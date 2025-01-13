@@ -1,1 +1,0 @@
-ping -6 [Teredo IPv6 address of the other host]

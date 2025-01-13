@@ -1,0 +1,1 @@
+string protectedToken = // retrieve from storage\nstring token = TokenStorage.Unprotect(protectedToken);

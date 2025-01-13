@@ -1,0 +1,1 @@
+# test_helper.rb or spec_helper.rb\nFacebooker::VERSION = nil

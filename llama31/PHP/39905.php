@@ -1,0 +1,1 @@
+// About.php\nclass About extends MY_Controller {\n    public function index() {\n        $this->data['about_content'] = $this->load->view('pages/about_content','',true);\n        $this->load->vars($this->data);\n        $this->load->view('pages/about_view');\n    }\n}

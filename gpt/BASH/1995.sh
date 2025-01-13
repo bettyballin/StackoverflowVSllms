@@ -1,1 +1,0 @@
-xsltproc stylesheet.xsl input.html

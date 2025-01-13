@@ -1,0 +1,1 @@
+# Automatically start a screen session on login\nif [ -z "$STY" ]; then\n  screen -d -R\nfi

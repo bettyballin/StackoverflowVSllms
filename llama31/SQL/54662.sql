@@ -1,0 +1,1 @@
+SELECT \n  people.*,\n  IF(favourite_colour = 'Red', 1, 0) + \n  IF(country = 'United States', 1, 0) + \n  IF(age_group = '18-25', 1, 0) AS score\nFROM people\nWHERE favourite_colour = 'Red' OR country = 'United States' OR age_group = '18-25'\nORDER BY score DESC;

@@ -1,0 +1,1 @@
+ln -s /path/to/jboss/server/tmp/deploy/tmp23241AMF-gateway-exp.war/ /path/to/jboss/server/deploy/amf-gateway

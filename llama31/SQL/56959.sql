@@ -1,0 +1,1 @@
+SELECT \n  t.id, \n  t.title, \n  u.username AS author, \n  COUNT(r.id) AS reply_count\nFROM \n  Topic t\n  LEFT JOIN Reply r ON t.id = r.topic_id\n  LEFT JOIN User u ON t.author_id = u.id\nGROUP BY \n  t.id, \n  t.title, \n  u.username\nORDER BY \n  t.id\nLIMIT 30;

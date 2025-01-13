@@ -1,0 +1,1 @@
+$options = array(\n    'soap_wsdl_cache_ttl' => 0, // disable caching\n);\n\n$client = new SoapClient('http://example.com/wsdl', $options);\n\n// make a request to refresh the cache\n$client->__getFunctions();\n\n// re-enable caching\n$options['soap_wsdl_cache_ttl'] = 86400; // cache for 1 day\n\n$client = new SoapClient('http://example.com/wsdl', $options);

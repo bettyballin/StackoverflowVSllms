@@ -1,0 +1,1 @@
+// Always validate user input and be cautious of code snippets from unknown sources\nstring userInput = "example";\nif (!string.IsNullOrEmpty(userInput))\n{\n    // Sanitize input before using it in your code\n    userInput = userInput.Trim();\n}

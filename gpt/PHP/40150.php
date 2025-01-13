@@ -1,1 +1,0 @@
-class User {\n    private $pdo;\n\n    public function __construct($pdo) {\n        $this->pdo = $pdo;\n    }\n\n    public function getUserByEmail($email) {\n        $stmt = $this->pdo->prepare('SELECT * FROM users WHERE email = :email');\n        $stmt->execute(['email' => $email]);\n        return $stmt->fetch();\n    }\n}

@@ -1,0 +1,1 @@
+double currentBalance = 1234567.89;\nstring formattedBalance = currentBalance.ToString("N2");

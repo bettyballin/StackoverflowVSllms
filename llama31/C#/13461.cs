@@ -1,0 +1,1 @@
+var myEntity = connection.Query<MyEntity>("SELECT * FROM MyTable", splitOn: "Id1, Id2");

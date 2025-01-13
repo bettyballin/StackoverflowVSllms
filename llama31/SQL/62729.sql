@@ -1,0 +1,1 @@
+WITH RECURSIVE dates AS (\n  SELECT '2009-02-05 08:00:00' AS date\n  UNION ALL\n  SELECT date + INTERVAL '5 seconds'\n  FROM dates\n  WHERE date < '2009-02-05 08:01:00'\n)\nSELECT date\nFROM dates;

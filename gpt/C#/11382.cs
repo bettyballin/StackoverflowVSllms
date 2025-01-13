@@ -1,1 +1,0 @@
-public class YourDbContext : DbContext\n    {\n        public DbSet<YourEntity> YourEntities { get; set; }\n\n        protected override void OnModelCreating(DbModelBuilder modelBuilder)\n        {\n            modelBuilder.Entity<YourEntity>()\n                .ToTable("YourViewName");\n\n            base.OnModelCreating(modelBuilder);\n        }\n    }

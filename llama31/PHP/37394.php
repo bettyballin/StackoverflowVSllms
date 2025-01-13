@@ -1,0 +1,1 @@
+<?php\nsession_start();\nif (isset($_SESSION['loginid'])) {\n    echo "Welcome, " . $_SESSION['loginid'];\n} else {\n    echo "Please login first";\n}\n?>

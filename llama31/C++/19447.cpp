@@ -1,0 +1,1 @@
+#include <iostream>\n\nvoid myFunction() {\n    std::cout << "Current function: " << __func__ << std::endl;\n}

@@ -1,0 +1,1 @@
+class UsersController < ApplicationController\n  def update\n    @user = User.find(params[:id])\n    @user.update!(user_params)\n    # assume a callback or validation raises an error here\n  end\nend

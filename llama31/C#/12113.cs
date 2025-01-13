@@ -1,0 +1,1 @@
+[HttpPost]\npublic ActionResult Save(FormCollection form)\n{\n    var items = new List<Item>();\n    for (int i = 0; i < form.Count; i++)\n    {\n        var item = new Item();\n        item.PropertyName = form[i]["PropertyName"];\n        // ...\n        items.Add(item);\n    }\n    // ...\n}

@@ -1,1 +1,0 @@
-# Create a tar archive\ntar -cvf archive.tar /path/to/files\n\n# Compress the tar archive using gzip\ngzip archive.tar\n\n# The result is an archive.tar.gz file

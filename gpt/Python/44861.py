@@ -1,1 +1,0 @@
-from django.test import TestCase\n    from django.contrib.auth.models import User\n    from django.urls import reverse\n    from yourapp.models import YourModel  # Replace with your actual model

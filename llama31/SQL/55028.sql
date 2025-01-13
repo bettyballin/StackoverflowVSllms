@@ -1,0 +1,1 @@
+SELECT \n  SUM(CASE WHEN id1 = 1 THEN 1 ELSE 0 END) AS id1_count,\n  SUM(CASE WHEN id2 = 1 THEN 1 ELSE 0 END) AS id2_count,\n  SUM(CASE WHEN id3 = 1 THEN 1 ELSE 0 END) AS id3_count,\n  SUM(CASE WHEN id4 = 1 THEN 1 ELSE 0 END) AS id4_count,\n  `year`\nFROM \n  your_table_name\nGROUP BY \n  `year`\nORDER BY \n  `year`;

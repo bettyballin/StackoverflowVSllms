@@ -1,0 +1,1 @@
+Imports System.Net\n\nPublic Function GetPublicIP() As String\n    Using wc As New WebClient()\n        Return wc.DownloadString("http://icanhazip.com/").Trim()\n    End Using\nEnd Functio

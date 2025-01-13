@@ -1,0 +1,1 @@
+case WM_INITDIALOG:\n    updateOkButton(hwnd);\n    break;

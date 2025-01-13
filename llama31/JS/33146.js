@@ -1,0 +1,1 @@
+// dynamic.js.twig\nvar myVariable = '{{ my_variable|json_encode }}';

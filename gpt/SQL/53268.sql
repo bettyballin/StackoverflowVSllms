@@ -1,1 +1,0 @@
-SELECT \n    m.id AS main_id,\n    m.meta_data,\n    GROUP_CONCAT(s.another_table_id SEPARATOR ',') AS another_table_ids\nFROM \n    main m\nJOIN \n    sub s ON m.id = s.main_id\nWHERE \n    m.id = some_main_id -- replace with your specific condition\nGROUP BY \n    m.id, m.meta_data;

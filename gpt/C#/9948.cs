@@ -1,1 +1,0 @@
-[Authorize(Roles = "Admin")]\n    public class AdminController : Controller\n    {\n        public IActionResult Index()\n        {\n            return View();\n        }\n    }

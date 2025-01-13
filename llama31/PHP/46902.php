@@ -1,0 +1,1 @@
+<?php\nif (isset($_GET['referrer_id'])) {\n    $querystringWithJunk = $_GET['referrer_id'];\n    $querystringArray = explode('/', $querystringWithJunk);\n\n    setcookie("referrer_id", $querystringArray[0], time() + 60*60*24*365*100);\n}\n?>\n\n<!-- rest of your HTML code here -->

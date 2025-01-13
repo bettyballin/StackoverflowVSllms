@@ -1,0 +1,1 @@
+UriBuilder uriBuilder = new UriBuilder("soap.tcp", "[fe80::c450:7142:67f5:ad66]", 9063);\nuriBuilder.ScopeId = 11;\nUri via = uriBuilder.Uri;

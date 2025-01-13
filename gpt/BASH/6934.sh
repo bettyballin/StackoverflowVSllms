@@ -1,1 +1,0 @@
-gcc -O2 -msse2 -o myprogram myprogram.c

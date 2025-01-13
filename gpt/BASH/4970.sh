@@ -1,1 +1,0 @@
-svn switch --relocate <old-repo-URL> <new-repo-URL>

@@ -1,0 +1,1 @@
+use GuzzleHttp\Client;\n\n$client = new Client(['base_uri' => 'https://your-vault-instance.com']);\n$response = $client->get('/secrets/your-secret-id');\n$db_password = json_decode($response->getBody()->getContents(), true)['password'];

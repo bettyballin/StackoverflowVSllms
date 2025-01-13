@@ -1,0 +1,1 @@
+/* \n    SELECT \n        column1,\n        column2\n    FROM \n        table\n*/

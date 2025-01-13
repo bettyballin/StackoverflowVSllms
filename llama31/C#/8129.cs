@@ -1,0 +1,1 @@
+public PartialViewResult TestAction(string TextBox)\n{\n    return PartialView("YourPartialViewName", TextBox);\n}

@@ -1,1 +1,0 @@
-SELECT c.ClaimNumber, a.ItemDate, c.DTN, b.FilePath\n    FROM items a\n    JOIN itempages b ON a.ItemNum = b.ItemNum\n    JOIN keygroupdata c ON b.ItemNum = c.ItemNum\n    WHERE a.ItemType IN (112, 115, 189, 241)\n    ORDER BY a.DateStored DESC\n    FETCH FIRST 100 ROWS ONLY;

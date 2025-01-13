@@ -1,0 +1,1 @@
+$.ajax({\n  type: "POST",\n  url: "/update-data",\n  data: { /* only send necessary data */ },\n  success: function(data) {\n    /* update specific page elements with received data */\n  }\n});

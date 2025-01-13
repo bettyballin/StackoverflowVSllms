@@ -1,0 +1,1 @@
+[AfterTest]\npublic void AfterTest()\n{\n    ie.Close();\n    ie.Dispose();\n}

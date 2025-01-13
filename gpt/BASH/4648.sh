@@ -1,1 +1,0 @@
-xmllint --noout --schema path/to/your/schema.xsd path/to/your/large.xml

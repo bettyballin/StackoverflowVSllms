@@ -1,0 +1,1 @@
+tidy -i -q --show-errors 0 input.html > output.html

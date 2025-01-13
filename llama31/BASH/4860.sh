@@ -1,0 +1,1 @@
+sudo service apache2 restart\nsudo service ssh restart

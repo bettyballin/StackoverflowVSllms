@@ -1,0 +1,1 @@
+for (int i = 0; i < 100; i++) {\n    // do work 1\n    // do work 2\n}

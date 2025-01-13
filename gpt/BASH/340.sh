@@ -1,1 +1,0 @@
-sqlite3 path/to/your/database.sqlite3

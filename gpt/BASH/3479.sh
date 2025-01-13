@@ -1,1 +1,0 @@
-#!/bin/sh\n   REPO_PATH="$1"\n   REV="$2"\n   WORKING_COPY="/path/to/development/server/working/copy"\n\n   svn update $WORKING_COPY

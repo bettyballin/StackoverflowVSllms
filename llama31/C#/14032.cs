@@ -1,0 +1,1 @@
+using System.Runtime.InteropServices;\n\n// Check if OLE DB DLLs are present\nif (!File.Exists("oledb32.dll") || !File.Exists("oledb32r.dll"))\n{\n    // Register OLE DB DLLs\n    using (var reg = Registry.LocalMachine.OpenSubKey("SOFTWARE\\Microsoft\\Jet\\4.0\\Engines", true))\n    {\n        reg.SetValue("OLEDB", "msjetoledb40.dll");\n    }\n}

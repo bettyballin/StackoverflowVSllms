@@ -1,0 +1,1 @@
+function printPage() {\n  window.print();\n}

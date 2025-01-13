@@ -1,0 +1,1 @@
+-- Create a stored procedure\nCREATE OR REPLACE PROCEDURE p_getdate\nIS\nBEGIN\n    DBMS_OUTPUT.PUT_LINE(TO_CHAR(SYSDATE, 'MM-DD-YYYY HH24:MI:SS'));\nEND;\n\n-- Execute the stored procedure\nBEGIN\n    p_getdate;\nEND;

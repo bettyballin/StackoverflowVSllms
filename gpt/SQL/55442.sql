@@ -1,1 +1,0 @@
--- Assume the table name is 'pets'\nWITH PetData AS (\n    SELECT\n        MAX(CASE WHEN attribute = 'name' THEN value END) AS Name,\n        MAX(CASE WHEN attribute = 'species' THEN value END) AS Species\n    FROM pets\n)\nSELECT\n    Name + ' ' + Species AS ConcatenatedResult\nFROM\n    PetData;

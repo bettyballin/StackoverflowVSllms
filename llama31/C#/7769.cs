@@ -1,0 +1,1 @@
+using System.Diagnostics;\n\nclass Program\n{\n    static void Main()\n    {\n        if (Process.GetProcessesByName(Process.GetCurrentProcess().ProcessName).Length > 1)\n        {\n            Console.WriteLine("Another instance of this process is already running.");\n            return;\n        }\n\n        // your program logic here\n    }\n}

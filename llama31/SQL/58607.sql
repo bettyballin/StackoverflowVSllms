@@ -1,0 +1,1 @@
+ALTER TABLE your_table_name\nADD COLUMN new_field_name TEXT(255);

@@ -1,0 +1,1 @@
+DECLARE\n  prmName VARCHAR2(100) := 'John';\n  prmSortField VARCHAR2(100) := 'Name';\n  CURSOR cur IS\n    SELECT * \n    FROM Names \n    WHERE Name = :prmName \n    ORDER BY :prmSortField;\nBEGIN\n  OPEN cur USING prmName, prmSortField;\n  FETCH cur INTO ...;  -- fetch into your variables\n  CLOSE cur;\nEND;

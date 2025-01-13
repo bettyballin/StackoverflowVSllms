@@ -1,0 +1,1 @@
+$randomBytes = random_bytes(128); // 1024-bit\n$hashedString = hash('sha256', $randomBytes);\n$encodedString = base64_encode($hashedString);\n$secureUrl = substr($encodedString, 0, 128); // trim to 128 characters

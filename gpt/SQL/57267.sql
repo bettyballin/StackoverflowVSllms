@@ -1,1 +1,0 @@
-DELIMITER //\n\nCREATE TRIGGER before_delete_item\nBEFORE DELETE ON item\nFOR EACH ROW\nBEGIN\n    UPDATE item SET rank = rank - 1 WHERE rank > OLD.rank;\nEND;\n//\n\nDELIMITER ;

@@ -1,0 +1,1 @@
+$stmt = $mysqli->prepare("UPDATE members SET userrole = ? WHERE member_id = ?");\n\nforeach ($userrole as $key => $role) {\n    $stmt->bind_param("si", $role, $member_id[$key]);\n    $stmt->execute();\n}\n\n$stmt->close();

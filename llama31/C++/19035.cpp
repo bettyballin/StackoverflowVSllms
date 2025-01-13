@@ -1,0 +1,1 @@
+template<class T> class Bar {\npublic:\n  Bar() : ptr_(NULL) {}\n  // ...\nprivate:\n  T* ptr_;\n};\n\nBar<Foo*> foo_and_bar_whatever_it_means_;

@@ -1,0 +1,1 @@
+void RegisterRoutes(RouteCollection routes)\n{\n    routes.MapPageRoute("Questions", "questions/{action}", "~/questions/{action}.aspx");\n}

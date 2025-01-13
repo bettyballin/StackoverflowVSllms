@@ -1,0 +1,1 @@
+std::string frame = "MESSAGE\nheader:value\n\nbody\0";\nframe.replace(frame.find('\0'), 1, "\\x00");\n// transmit the frame over the socket

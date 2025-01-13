@@ -1,0 +1,1 @@
+// ...\n\nif (parent == null)\n{\n    Log("Parent process stopped/killed.  Terminating self.");\n    Process.GetCurrentProcess().Kill();\n}

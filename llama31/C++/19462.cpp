@@ -1,0 +1,1 @@
+[id(5), helpstring("Returns true if the object is in a valid state.")]\nHRESULT IsValid([out, retval] VARIANT_BOOL* bValid);

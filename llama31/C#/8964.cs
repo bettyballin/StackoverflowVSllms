@@ -1,0 +1,1 @@
+/// <summary>\n/// This is a summary of my function.\n/// </summary>\n/// <param name="myParam">This is a description of my parameter.</param>\n/// <returns>This is what my function returns.</returns>\npublic string MyFunction(string myParam)\n{\n    // function code here\n}

@@ -1,0 +1,1 @@
+SELECT \n  s.*, \n  b.*, \n  sec.*, \n  l.*, \n  f.* \nFROM \n  tbl_student s \n  INNER JOIN tbl_batch b ON s.college_id = b.college_id \n  INNER JOIN tbl_section sec ON s.college_id = sec.college_id \n  INNER JOIN tbl_level l ON s.college_id = l.college_id \n  INNER JOIN tbl_faculty f ON s.college_id = f.college_id;

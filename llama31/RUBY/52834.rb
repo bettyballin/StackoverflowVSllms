@@ -1,0 +1,1 @@
+require 'prawn'\n\npdfs = Dir["[0-9][0-9]_*"].sort\n\nPrawn::Document.generate("combined.pdf") do\n  pdfs.each do |pdf|\n    start_new_page\n    render_file pdf\n  end\nend

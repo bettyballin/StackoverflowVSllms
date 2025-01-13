@@ -1,0 +1,1 @@
+$image_data = file_get_contents(PHPTHUMB."?src=/".$this->image_path);\n$this->img = imagecreatefromstring($image_data);

@@ -1,0 +1,1 @@
+#include <stdio.h>\n#include <stdlib.h>\n#include <unistd.h>\n\nint main() {\n    pid_t pid = fork();\n    if (pid == 0) {\n        // Child process\n        execl("/usr/bin/open", "open", "-a", "Terminal", "/path/to/your/executable", NULL);\n    } else {\n        // Parent process\n        printf("Child process launched\n");\n    }\n    return 0;\n}

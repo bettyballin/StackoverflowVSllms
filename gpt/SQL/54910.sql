@@ -1,1 +1,0 @@
-UPDATE ratings SET rating = ? WHERE user_id = ? AND game_id = ?;

@@ -1,1 +1,0 @@
-using Novacode;\n\n     private void ExportToWord(string htmlContent, string outputPath)\n     {\n         using (var document = DocX.Create(outputPath))\n         {\n             document.InsertHtml(htmlContent);\n             document.Save();\n         }\n     }

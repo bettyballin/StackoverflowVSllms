@@ -1,0 +1,1 @@
+DEFINE aVariable = '&aVariable'\n\nSELECT * \n  FROM A_TABLE \n  WHERE A_COLUMN = aVariable\n    UNION\nSELECT * \n  FROM A_TABLE \n  WHERE B_COLUMN = aVariable;

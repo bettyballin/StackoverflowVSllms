@@ -1,1 +1,0 @@
-chmod +x script/start_my_service

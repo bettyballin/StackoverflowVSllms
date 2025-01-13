@@ -1,0 +1,1 @@
+#ifndef MODULE2_H_\n#define MODULE2_H_\n\nint get1(int handler, int date, int time, int *data, int& datasize, int& rowsize);\nint put1(int handler, int* data, int datasize);\n\n#endif /*MODULE2_H_*/

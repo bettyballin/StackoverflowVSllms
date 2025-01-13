@@ -1,0 +1,1 @@
+var query = encodeURIComponent("your query string");

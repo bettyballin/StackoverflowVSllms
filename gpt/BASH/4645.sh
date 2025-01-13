@@ -1,1 +1,0 @@
-@echo off\nset source=\\central\share\webfiles\nset dest1=\\IISServer1\webroot\nset dest2=\\IISServer2\webroot\nset dest3=\\IISServer3\webroot\nset dest4=\\IISServer4\webroot\n\nrobocopy %source% %dest1% /MIR\nrobocopy %source% %dest2% /MIR\nrobocopy %source% %dest3% /MIR\nrobocopy %source% %dest4% /MIR

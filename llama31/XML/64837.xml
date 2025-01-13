@@ -1,0 +1,1 @@
+<configProtectedData>\n  <providers>\n    <add name="RsaProtectedConfigurationProvider"\n         type="System.Configuration.RsaProtectedConfigurationProvider, System.Configuration, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a"\n         keyContainerName="MyCustomKeyContainer"\n         useMachineContainer="true" />\n  </providers>\n</configProtectedData>

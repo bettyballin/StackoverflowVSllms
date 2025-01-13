@@ -1,1 +1,0 @@
-aspnet_regiis.exe -pc "<KeyContainerName>" -exp\n   aspnet_regiis.exe -pa "<KeyContainerName>" "NT AUTHORITY\NETWORK SERVICE"

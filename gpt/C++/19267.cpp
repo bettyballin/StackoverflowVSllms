@@ -1,1 +1,0 @@
-#ifndef PHP_HELLO_H\n#define PHP_HELLO_H 1\n\nextern "C" {\n#include "php.h"\n}\n\n#define PHP_HELLO_WORLD_VERSION "1.0"\n#define PHP_HELLO_WORLD_EXTNAME "hello"\n\nextern "C" {\nPHP_FUNCTION(hello_world);\nextern zend_module_entry hello_module_entry;\n#define phpext_hello_ptr &hello_module_entry\n}\n\n#endif

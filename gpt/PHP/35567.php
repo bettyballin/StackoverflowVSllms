@@ -1,1 +1,0 @@
-spl_autoload_register(function ($class) {\n        include 'src/' . str_replace('\\', '/', $class) . '.php';\n    });

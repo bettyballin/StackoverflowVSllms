@@ -1,1 +1,0 @@
-ALTER LOGIN sa WITH PASSWORD = 'new_complex_password';

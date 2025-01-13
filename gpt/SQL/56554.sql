@@ -1,1 +1,0 @@
-SELECT a.*, b.*\n   FROM table_a a\n   JOIN table_b b ON a.id = b.a_id;

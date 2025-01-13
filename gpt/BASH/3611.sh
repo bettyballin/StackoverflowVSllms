@@ -1,1 +1,0 @@
-cd /home/iopener/webapps/myapp.com\ncake -app /home/iopener/webapps/myapp.com/app

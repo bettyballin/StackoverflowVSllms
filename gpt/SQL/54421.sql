@@ -1,1 +1,0 @@
-CREATE TABLE Person (\n        PersonID INT PRIMARY KEY,\n        Name VARCHAR(100),\n        BirthDate DATE\n    );

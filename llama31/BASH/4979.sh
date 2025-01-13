@@ -1,0 +1,1 @@
+sed -i 's/c:\/\/temp/\/\/home\/\/some\/\/blah/g' your_sql_file.sql

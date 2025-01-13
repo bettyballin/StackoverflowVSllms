@@ -1,1 +1,0 @@
-// In bootstrap.php or at the beginning of your controller action\nset_time_limit(60);  // Increase to 60 seconds or more

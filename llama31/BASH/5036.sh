@@ -1,0 +1,1 @@
+rdr pass on en0 proto tcp from any to any port 2222 -> <target_machine_ip> port 22

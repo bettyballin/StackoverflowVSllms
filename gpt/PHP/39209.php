@@ -1,1 +1,0 @@
-// In your ItemsController\npublic function index()\n{\n    $this->paginate = [\n        'limit' => 50,\n        'page' => $this->request->getQuery('page', 1)\n    ];\n    $items = $this->paginate($this->Items->find());\n    $this->set(compact('items'));\n}

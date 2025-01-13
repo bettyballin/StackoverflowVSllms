@@ -1,0 +1,1 @@
+SELECT *\nFROM your_table\nORDER BY COALESCE(priority, 10) DESC;

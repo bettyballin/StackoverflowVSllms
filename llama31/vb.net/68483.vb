@@ -1,0 +1,1 @@
+VATCombo.Items.Clear()\nFor Each Rate As JCVATRate In VATCol\n    VATCombo.Items.Add(Rate.str.VATRate)\nNext

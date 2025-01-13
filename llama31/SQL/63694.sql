@@ -1,0 +1,1 @@
+GRANT CLUSTER ON userB.cluster_name TO userA;

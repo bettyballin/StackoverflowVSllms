@@ -1,1 +1,0 @@
-#include <stdio.h>\n\nvoid check_stack_growth(int *initial_address) {\n    int current_variable;\n    if (initial_address > &current_variable) {\n        printf("Stack grows downwards.\n");\n    } else {\n        printf("Stack grows upwards.\n");\n    }\n}\n\nint main() {\n    int initial_variable;\n    check_stack_growth(&initial_variable);\n    return 0;\n}

@@ -1,1 +1,0 @@
-g++ -W -Wall test.cc -o test

@@ -1,0 +1,1 @@
+.popup {\n  position: absolute;\n  top: -1px;\n  background-color: white;\n  border: 1px solid black;\n  overflow: visible;\n  padding: 10px;\n  width: auto;\n  z-index: 1000; /* very high z-index value */\n  zoom: 1; /* IE 6 and 7 hack */\n}\n\nli {\n  margin: 2px 0;\n  padding: 0 0 2px 5px;\n  white-space: nowrap;\n  z-index: 1; /* lower z-index value */\n}

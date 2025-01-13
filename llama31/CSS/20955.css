@@ -1,0 +1,1 @@
+#header {\n  display: flex;\n  justify-content: space-between;\n  align-items: center;\n  position: absolute;\n  top: 0;\n  left: 0;\n  width: 100%;\n  height: 24px;\n  overflow: hidden;\n}

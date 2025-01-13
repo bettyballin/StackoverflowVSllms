@@ -1,1 +1,0 @@
-import asyncio\n\nasync def handle_client():\n    reader, writer = await asyncio.open_connection('localhost', 12345)\n    writer.write(b'Hello, Server!\n')\n    data = await reader.read(100)\n    print(f'Received: {data.decode()}')\n    writer.close()\n\nasync def main():\n    tasks = [handle_client() for _ in range(10000)]\n    await asyncio.gather(*tasks)\n\nasyncio.run(main())

@@ -1,0 +1,1 @@
+aspnet_regiis.exe -pef "connectionStrings" "path/to/your/config/file"

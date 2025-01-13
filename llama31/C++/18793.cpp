@@ -1,0 +1,1 @@
+template <typename T>\nclass Comparable {\npublic:\n    virtual int Compare(T& other) = 0;\n};\n\nclass B : public Comparable<B> {\npublic:\n    int Compare(B& other) override {\n        // Implement comparison logic here\n    }\n};\n\nclass C : public Comparable<C> {\npublic:\n    int Compare(C& other) override {\n        // Implement comparison logic here\n    }\n};

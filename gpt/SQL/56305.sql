@@ -1,1 +1,0 @@
-SELECT dbo.PadLeft('123', 10, '0') AS PaddedString

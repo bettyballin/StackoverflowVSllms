@@ -1,1 +1,0 @@
-let br_regex = /<br>/g;\nlet input_content = "This is a line.<br>This is another line.<br>And another one.";\ninput_content = input_content.replace(br_regex, "\n");\n\nconsole.log(input_content);

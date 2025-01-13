@@ -1,0 +1,1 @@
+$string = "asfasdfasdfasdfasdf[[sometextomatch]]asfkjasdfjaskldfj";\n\n$regex1 = "/\[\[(.*)\]\]/"; // greedy\n$regex2 = "/\[\[(.+?)\]\]/"; // non-greedy\n\npreg_match($regex1, $string, $matches1);\npreg_match($regex2, $string, $matches2);\n\nprint_r($matches1); // matches the entire string from "[[" to "]]"\nprint_r($matches2); // matches only "sometextomatch"

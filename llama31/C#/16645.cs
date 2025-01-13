@@ -1,0 +1,1 @@
+try {\n    fi.MoveTo(getHistoryFileName());\n} catch (IOException ex) {\n    // Handle the IOException here\n    Debug.Write("IOException occurred: " + ex.Message);\n} finally {\n    Debug.Write("Move operation complete");\n}

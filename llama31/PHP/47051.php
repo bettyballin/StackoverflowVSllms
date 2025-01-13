@@ -1,0 +1,1 @@
+// galleryGarden.blade.php\n<h1><?= $translatedUrl ?></h1>

@@ -1,0 +1,1 @@
+DECLARE @sql as nvarchar(100);\nDECLARE @bob as nvarchar(50);\n\nSET @bob = 'SweetDB';\n\nSET @sql = N'USE ' + QUOTENAME(@bob) + N'; -- Your query here';\n\nEXEC sp_executesql @sql;

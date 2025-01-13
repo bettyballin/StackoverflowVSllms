@@ -1,1 +1,0 @@
-[Table(Name = "Customers")]\npublic partial class Customer\n{\n    [Column(IsPrimaryKey = true)]\n    public int CustomerID { get; set; }\n\n    [Column]\n    public string CustomerName { get; set; }\n\n    [Column]\n    public string ContactName { get; set; }\n\n    [Column]\n    public string Country { get; set; }\n}

@@ -1,0 +1,1 @@
+$string = "Hello, World!";\n$binaryString = '';\nforeach (str_split($string) as $char) {\n    $binaryString .= sprintf('%08b', ord($char));\n}\n\necho $binaryString;

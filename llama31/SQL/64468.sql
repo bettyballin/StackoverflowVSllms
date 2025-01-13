@@ -1,0 +1,1 @@
+SELECT *\nFROM your_table\nWHERE CONCAT(column1, column2) = 'search_string';

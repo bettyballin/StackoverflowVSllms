@@ -1,0 +1,1 @@
+public string TrimmedText => Text.Trim();

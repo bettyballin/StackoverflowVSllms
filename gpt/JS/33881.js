@@ -1,1 +1,0 @@
-$(document).ready(function() {\n    $("#SomeDropdown").on('mouseenter', 'option', function() {\n        var theVal = $(this).val();\n        $("#SomeDiv_" + theVal).css("visibility", "visible");\n    }).on('mouseleave', 'option', function() {\n        var theVal = $(this).val();\n        $("#SomeDiv_" + theVal).css("visibility", "hidden");\n    });\n});

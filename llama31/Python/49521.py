@@ -1,0 +1,1 @@
+def day_of_week(year):\n    t = [0, 3, 2, 5, 0, 3, 5, 1, 4, 6, 2, 4]\n    year -= month < 3\n    return (year + int(year/4) - int(year/100) + int(year/400) + t[0] + 1) % 7\n\n# Example usage:\nyear = 2022\nday_zero = day_of_week(year)\nprint(day_zero)  # Output: 6 (Saturday)

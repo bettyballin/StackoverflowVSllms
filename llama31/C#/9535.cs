@@ -1,0 +1,1 @@
+[HttpPost]\npublic ActionResult Create(User user)\n{\n    var validator = new UserValidator();\n    var results = validator.Validate(user);\n    if (results.IsValid)\n    {\n        // Save user to database\n        return RedirectToAction("Index");\n    }\n    return View(user);\n}

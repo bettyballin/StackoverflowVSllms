@@ -1,0 +1,1 @@
+$client = new SoapClient($wsdlPath, array(\n    // ... other options ...\n    'trace' => 1,\n    'exceptions' => true,\n));

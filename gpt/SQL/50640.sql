@@ -1,1 +1,0 @@
--- Update statistics for the table\n    UPDATE STATISTICS Department;

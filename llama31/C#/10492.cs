@@ -1,0 +1,1 @@
+GraphFun = Graphics.FromImage(Image)

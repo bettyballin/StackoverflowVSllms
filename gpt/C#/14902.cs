@@ -1,1 +1,0 @@
-// Retrieve user ID from session\nstring userId = Session["UserID"] as string;

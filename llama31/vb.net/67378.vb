@@ -1,0 +1,1 @@
+Dim str As String = "123"\nDim nullableShort As Short? = str.ToNullable(Of Short)()\nDim nullableByte As Byte? = str.ToNullable(Of Byte)()\nDim nullableLong As Long? = str.ToNullable(Of Long)()

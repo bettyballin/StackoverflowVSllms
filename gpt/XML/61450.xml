@@ -1,1 +1,0 @@
-<Target Name="AfterBuild">\n    <Exec Command="&quot;$(SolutionDir)packages\ilmerge\tools\ILMerge.exe&quot; /out:$(TargetDir)MergedAssembly.dll $(TargetPath) $(TargetDir)Subsonic.dll $(TargetDir)Ajax.dll" />\n  </Target>

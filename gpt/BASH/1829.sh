@@ -1,1 +1,0 @@
-# Create a feature branch\nsvn copy http://svn.example.com/repo/trunk http://svn.example.com/repo/branches/feature-branch -m "Creating feature branch for next release"\n\n# Switch to the feature branch\nsvn switch http://svn.example.com/repo/branches/feature-branch\n\n# Commit changes to the feature branch\nsvn commit -m "Work on feature XYZ"

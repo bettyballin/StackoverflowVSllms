@@ -1,0 +1,1 @@
+void procedure(inputs) {\n    bar();\n    foo();\n}

@@ -1,1 +1,0 @@
-<collection>\n  <customer>\n    <cust_id>2</cust_id>\n    <fname>John</fname>\n    <lname>Doe</lname>\n  </customer>\n  <purchase_order>\n    <order_id>2</order_id>\n    <cust_id>2</cust_id>\n    <shipped>7/7/2009</shipped>\n  </purchase_order>\n  <line_item>\n    <line_id>2</line_id>\n    <order_id>2</order_id>\n    <quantity>7</quantity>\n  </line_item>\n</collection>

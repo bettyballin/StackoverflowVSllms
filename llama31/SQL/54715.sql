@@ -1,0 +1,1 @@
+SELECT * INTO #temp\nFROM OPENROWSET('Microsoft.ACE.OLEDB.12.0',\n                'Excel 12.0;Database=C:\Path\To\Your\ExcelFile.xls',\n                'SELECT * FROM [Sheet1$]')\n\n-- Then, you can create a new table from the temp table\nSELECT * INTO YourNewTable\nFROM #temp\n\nDROP TABLE #temp

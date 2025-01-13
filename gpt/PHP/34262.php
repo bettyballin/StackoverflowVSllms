@@ -1,1 +1,0 @@
-substr($string, 0, $length);

@@ -1,0 +1,1 @@
+import quandl\n\nquandl.ApiConfig.api_key = "YOUR_API_KEY"\nreit_data = quandl.get("YAHOO/AX_UN.TO")\nprint(reit_data)

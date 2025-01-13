@@ -1,0 +1,1 @@
+amed_scope :has_red_and_7yo_cat, lambda {\n  { :conditions => ["EXISTS (SELECT 1 FROM cats WHERE cats.wife_id = wives.id AND cats.color = 'red') AND EXISTS (SELECT 1 FROM cats WHERE cats.wife_id = wives.id AND cats.age = 7)"] }\n}

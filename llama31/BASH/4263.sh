@@ -1,0 +1,1 @@
+set NLS_LANG=language_territory.character_set

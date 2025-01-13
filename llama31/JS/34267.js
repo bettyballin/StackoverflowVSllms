@@ -1,0 +1,1 @@
+$(document).ready(function() {\n    $('a[data-code]').on('click', function() {\n        var code = $(this).data('code');\n        pop_item(code, 1);\n    });\n});

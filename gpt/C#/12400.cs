@@ -1,1 +1,0 @@
-string connectionString = "Data Source=Instance; User Id=user; Proxy User Id=prxy_usr; Proxy Password=prxy_pass; Min Pool Size=0; Connection Timeout=30;";

@@ -1,0 +1,1 @@
+aspnet_regiis -pc "NetFrameworkConfigurationKey"\naspnet_regiis -pa "NetFrameworkConfigurationKey" "C:\Path\To\Key.xml"

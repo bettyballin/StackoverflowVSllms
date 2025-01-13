@@ -1,0 +1,1 @@
+$input = "0333 452-123-4";\n$filteredInput = preg_replace('/\D/', '', $input);\n\necho $filteredInput; // outputs "03334521234"

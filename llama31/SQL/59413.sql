@@ -1,0 +1,1 @@
+SELECT * FROM V$TRANSACTION WHERE XIDUSN = <xidusn_from_v_lock>;

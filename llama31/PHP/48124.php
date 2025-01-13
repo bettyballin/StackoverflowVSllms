@@ -1,0 +1,1 @@
+public function setUp()\n{\n    Doctrine_Manager::connection('mysql://user:pass@localhost/testdb');\n    Doctrine::reset(); // Clear the cached schema\n    Doctrine::createDatabases();\n    Doctrine::createTablesFromModels('../../application/models');\n}

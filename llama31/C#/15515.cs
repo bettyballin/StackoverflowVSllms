@@ -1,0 +1,1 @@
+using System.CodeDom.Compiler;\n\npublic bool IsValidClassName(string className)\n{\n    var codeProvider = new CSharpCodeProvider();\n    return codeProvider.IsValidIdentifier(className);\n}

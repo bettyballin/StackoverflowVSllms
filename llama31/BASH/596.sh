@@ -1,0 +1,1 @@
+java -Xmx1024m -Xms1024m -XX:+UseConcMarkSweepGC -XX:+CMSIncrementalMode -XX:+CMSClassUnloadingEnabled

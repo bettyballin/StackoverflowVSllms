@@ -1,0 +1,1 @@
+var xmlDoc = new Sys.Xml.XmlDocument();\nvar xhr = new Sys.Net.WebRequest();\nxhr.set_url("example.xml");\nxhr.set_httpVerb("GET");\nxhr.add_completed(function() {\n    xmlDoc.loadXML(xhr.get_responseData());\n});\nxhr.invoke();

@@ -1,0 +1,1 @@
+class TestClass {\n    private $data = array();\n\n    public function __construct() {\n        $this->data['firstValue'] = "cheese";\n    }\n\n    public function getData($key) {\n        return array_key_exists($key, $this->data) ? $this->data[$key] : null;\n    }\n}

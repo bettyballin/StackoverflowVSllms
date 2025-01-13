@@ -1,0 +1,1 @@
+// Using BSTR\nBSTR bstr = SysAllocString(L"Hello, World!");\nif (bstr != NULL) {\n    // use bstr\n    SysFreeString(bstr);\n}\n\n// Using _bstr_t\n_bstr_t bstr(L"Hello, World!");\n// use bstr, no need to worry about memory management

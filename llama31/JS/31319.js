@@ -1,0 +1,1 @@
+const observer = new IntersectionObserver((entries) => {\n  if (entries[0].isIntersecting) {\n    // divs are overlapping, invoke your function here\n    console.log('Divs are overlapping');\n  }\n}, { threshold: 1.0 });\n\nconst div1 = document.getElementById('div1');\nconst div2 = document.getElementById('div2');\n\nobserver.observe(div1);\nobserver.observe(div2);

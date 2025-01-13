@@ -1,0 +1,1 @@
+CREATE OR REPLACE FUNCTION encrypted_procedure()\nRETURNS void AS $$\nDECLARE\n  encrypted_code text;\nBEGIN\n  encrypted_code := pgcrypto.encrypt('my_secret_procedure_code', 'my_secret_key');\n  EXECUTE encrypted_code;\nEND;\n$$ LANGUAGE plpgsql;

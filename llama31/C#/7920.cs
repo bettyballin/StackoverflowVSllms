@@ -1,0 +1,1 @@
+using System.Reflection;\n\n// Get the embedded resource stream\nStream tlbStream = Assembly.GetExecutingAssembly().GetManifestResourceStream("YourTlbFile.tlb");\n\n// Use the stream as needed

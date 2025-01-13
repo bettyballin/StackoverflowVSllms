@@ -1,0 +1,1 @@
+<root>\n  <myNode>\n    <id>1</id>\n    <value>Value 1</value>\n  </myNode>\n  <myNode>\n    <id>2</id>\n    <value>Value 2</value>\n  </myNode>\n  <myNode>\n    <id>3</id>\n    <value>Value 3</value>\n  </myNode>\n</root>

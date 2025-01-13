@@ -1,1 +1,0 @@
-UPDATE ejl_registration\nSET end_date = DATE(CONCAT(YEAR(start_date), '-12-31'))\nWHERE end_date IS NULL OR end_date = '0000-00-00';

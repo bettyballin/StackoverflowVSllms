@@ -1,0 +1,1 @@
+DbParameter prm = comm.CreateParameter();\nprm.ParameterName = "@Price";\nprm.DbType = DbType.Decimal;\nprm.TypeName = "decimal(18, 8)"; // specify precision and scale\nprm.Direction = ParameterDirection.Output;\ncomm.Parameters.Add(prm);

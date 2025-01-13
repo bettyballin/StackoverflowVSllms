@@ -1,1 +1,0 @@
-sudo criu restore -D /tmp/checkpoint --shell-job

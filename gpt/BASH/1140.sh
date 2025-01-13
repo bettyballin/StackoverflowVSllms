@@ -1,1 +1,0 @@
-cd /folder_to_backup\ntar --exclude='./large_directory' --exclude='./another_directory' --exclude='./specific_file.txt' -zcvf /backup/filename.tgz .

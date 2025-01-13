@@ -1,0 +1,1 @@
+$w_time_no = '2022-01-01 22:00:00';\necho strtotime($w_time_no); // outputs a timestamp

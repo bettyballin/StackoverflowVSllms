@@ -1,1 +1,0 @@
-public class MyDbContext : DbContext\n{\n    public DbSet<MyEntity> MyEntities { get; set; }\n    \n    protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)\n    {\n        optionsBuilder.UseSqlServer("YourConnectionString");\n    }\n}

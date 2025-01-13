@@ -1,0 +1,1 @@
+using System.Net;\nusing System.Net.Sockets;\n\n// Create a socket\nSocket socket = new Socket(AddressFamily.InterNetwork, SocketType.Stream, ProtocolType.Tcp);\n\n// Bind the socket to the desired source IP address\nsocket.Bind(new IPEndPoint(IPAddress.Parse("10.10.10.1"), 0));\n\n// Connect to the destination IP address\nsocket.Connect("10.10.10.15", 80);

@@ -1,1 +1,0 @@
-composer require --dev phpstan/phpstan\n   vendor/bin/phpstan analyse src

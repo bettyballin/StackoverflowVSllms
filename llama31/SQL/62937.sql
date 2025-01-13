@@ -1,0 +1,1 @@
+CREATE TABLE Orders (\n    OrderID INT,\n    CustomerID INT,\n    OrderDate DATE,\n    PRIMARY KEY (OrderID, CustomerID)\n);

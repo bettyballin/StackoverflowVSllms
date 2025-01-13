@@ -1,0 +1,1 @@
+// Example usage:\n// Run JXplorer with the following command\njava -jar jxplorer.jar

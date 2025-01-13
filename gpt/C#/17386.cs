@@ -1,1 +1,0 @@
-services.AddAuthorization(options =>\n   {\n       options.AddPolicy("ReadOnlyPolicy", policy =>\n           policy.RequireClaim("Permission", "Read"));\n   });\n\n   [Authorize(Policy = "ReadOnlyPolicy")]\n   public IActionResult YourAction()\n   {\n       // Action code here\n   }

@@ -1,0 +1,1 @@
+<script type="text/javascript">\n  var rows = <?= $json_rows ?>;\n</script>

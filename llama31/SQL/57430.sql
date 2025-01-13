@@ -1,0 +1,1 @@
+CREATE TABLE user_date_preferences (\n  user_id INT NOT NULL,\n  date_id INT NOT NULL,\n  is_selected BOOLEAN NOT NULL DEFAULT FALSE,\n  PRIMARY KEY (user_id, date_id),\n  FOREIGN KEY (user_id) REFERENCES users(id),\n  FOREIGN KEY (date_id) REFERENCES dates(id)\n);

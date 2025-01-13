@@ -1,1 +1,0 @@
-gdb example_binary\n(gdb) info variables\n(gdb) info functions

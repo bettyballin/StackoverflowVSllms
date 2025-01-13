@@ -1,1 +1,0 @@
-[ServiceContract]\npublic interface IReportingService\n{\n    [OperationContract]\n    ReportData GetReportData(ReportRequest request);\n}

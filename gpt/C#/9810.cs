@@ -1,1 +1,0 @@
-// Example usage in a WebForm\n\nprotected void Page_Load(object sender, EventArgs e)\n{\n    try\n    {\n        TimeSpan sessionAge = GetSessionAge();\n        Response.Write($"Session age: {sessionAge.TotalMinutes} minutes");\n    }\n    catch (InvalidOperationException ex)\n    {\n        Response.Write(ex.Message);\n    }\n}

@@ -1,1 +1,0 @@
-public class ApplicationUser : IdentityUser\n{\n    public int RoleId { get; set; }\n    public Role Role { get; set; }\n}

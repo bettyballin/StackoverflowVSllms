@@ -1,0 +1,1 @@
+import pyautogui\n\n# Move mouse pointer to coordinates (x, y)\npyautogui.moveTo(100, 100)\n\n# Click at current mouse position\npyautogui.click()\n\n# Click at specific coordinates (x, y)\npyautogui.click(200, 200)

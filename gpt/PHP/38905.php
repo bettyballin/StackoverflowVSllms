@@ -1,1 +1,0 @@
-<?php\nif (isset($_GET['x']) && isset($_GET['y'])) {\n    $x = intval($_GET['x']);\n    $y = intval($_GET['y']);\n    // Process coordinates as needed\n    echo "Coordinates are: X = $x, Y = $y";\n} else {\n    echo "No coordinates received.";\n}\n?>

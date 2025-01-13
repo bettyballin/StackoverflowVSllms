@@ -1,0 +1,1 @@
+BOOL enable_dep() {\n    return SetProcessDEPPolicy(GetCurrentProcess(), PROCESS_DEP_ENABLE);\n}

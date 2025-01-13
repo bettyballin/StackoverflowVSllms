@@ -1,1 +1,0 @@
-delegate void myHandler(int i);\nmyHandler myHandlerContainer;\n...\nforeach (Delegate @delegate in myHandlerContainer.GetInvocationList())\n{\n    ...\n}

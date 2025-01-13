@@ -1,1 +1,0 @@
-"C:\Path\To\tiffprint.exe" "%1"

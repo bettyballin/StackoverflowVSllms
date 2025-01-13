@@ -1,1 +1,0 @@
-// JavaScript equivalent\n    var pattern = /abc/i;

@@ -1,0 +1,1 @@
+g++ -o DisplaySocket DisplaySocket.cpp -lsocket++

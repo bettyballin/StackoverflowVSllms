@@ -1,0 +1,1 @@
+#include <sys/prctl.h>\n#include <signal.h>\n\nint main() {\n    pid_t pid = fork();\n\n    if (pid == -1) {\n        // handle error\n    } else if (pid == 0) {\n        // child process\n        prctl(PR_SET_PDEATHSIG, SIGTERM);\n        // ...\n    } else {\n        // parent process\n        // ...\n    }\n\n    return 0;\n}

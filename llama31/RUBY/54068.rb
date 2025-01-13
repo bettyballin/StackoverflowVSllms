@@ -1,0 +1,1 @@
+class MyMailer < ActionMailer::Base\n  def my_email\n    from "me@mydomain.com"\n    reply_to "mygmailaddress@gmail.com"\n    # ...\n  end\nend

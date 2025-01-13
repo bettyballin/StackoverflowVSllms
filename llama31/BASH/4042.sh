@@ -1,0 +1,1 @@
+setfattr -n user.unique_id -v "some_unique_value" filename\ngetfattr -n user.unique_id filename

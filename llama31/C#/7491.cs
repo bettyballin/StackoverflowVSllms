@@ -1,0 +1,1 @@
+xlApp.Interactive = false;\nworksheet.Shapes.AddPicture(filename, Microsoft.Office.Core.MsoTriState.msoFalse, Microsoft.Office.Core.MsoTriState.msoTrue);\nxlApp.Interactive = true;

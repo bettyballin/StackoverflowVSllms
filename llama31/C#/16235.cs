@@ -1,0 +1,1 @@
+public class MvcApplication : HttpApplication\n{\n    protected void Application_Start()\n    {\n        // ...\n        GlobalFilters.Filters.Add(new HostHeaderFilter());\n    }\n}

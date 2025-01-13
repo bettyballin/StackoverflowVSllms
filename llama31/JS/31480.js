@@ -1,0 +1,1 @@
+var img = document.querySelector('img'); // or use getElementById, getElementsByClassName, etc.\nvar selection = window.getSelection();\nselection.removeAllRanges();\nvar range = document.createRange();\nrange.selectNode(img);\nselection.addRange(range);

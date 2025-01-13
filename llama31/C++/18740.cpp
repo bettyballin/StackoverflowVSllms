@@ -1,0 +1,1 @@
+#include <kakoune/plugin.h>\n\nnamespace kakoune {\nclass MyPlugin : public Plugin {\npublic:\n    MyPlugin(Env& env) : Plugin(env) {}\n\n    void init() override {\n        // Register a command\n        env.commands().add("my-command", [](Env& env) {\n            // Do something\n        });\n    }\n};\n}

@@ -1,1 +1,0 @@
-using (var connection = new OracleConnection(connectionString))\n   {\n       var command = new OracleCommand("SELECT * FROM Users WHERE UserId = :userId", connection);\n       command.Parameters.Add(new OracleParameter("userId", userId));\n       connection.Open();\n       var reader = command.ExecuteReader();\n       // Process results\n   }

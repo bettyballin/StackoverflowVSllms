@@ -1,0 +1,1 @@
+$db = new Database('my_database_config');\n$model = new MyModel($db);\n$model->doSomething();

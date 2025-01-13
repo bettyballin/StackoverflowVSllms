@@ -1,0 +1,1 @@
+DECLARE @string NVARCHAR(100)\nSET @string = 'Hello' + NCHAR(13) + NCHAR(10) + 'World'\nPRINT @string

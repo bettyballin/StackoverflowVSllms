@@ -1,0 +1,1 @@
+STDAPI DllRegisterServer(void) {\n    // Register COM object and interface\n    // (use the code above)\n    return S_OK;\n}\n\nSTDAPI DllUnregisterServer(void) {\n    // Unregister COM object and interface\n    // (use the code above, but with RegDeleteKeyEx instead of RegCreateKeyEx)\n    return S_OK;\n}

@@ -1,1 +1,0 @@
-EXEC sp_detach_db @dbname = 'your_database_name';

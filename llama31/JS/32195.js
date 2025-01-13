@@ -1,0 +1,1 @@
+var encodedText = '<?php echo urlencode($htmlText); ?>'; // encoded text from PHP\nvar decodedText = decodeURIComponent(encodedText.replace(/\+/g, ' '));

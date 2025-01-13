@@ -1,0 +1,1 @@
+$('tr').addClass('red');

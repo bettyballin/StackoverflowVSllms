@@ -1,0 +1,1 @@
+-- Example query using the Northwind database\nSELECT * FROM Customers\nWHERE Country = 'USA';

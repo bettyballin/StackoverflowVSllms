@@ -1,1 +1,0 @@
-// In the Controller\n    $acl = new Zend_Acl();\n    // Define roles, resources, and permissions here\n    if ($acl->isAllowed($role, $resource)) {\n        $this->view->canViewSegment = true;\n    } else {\n        $this->view->canViewSegment = false;\n    }

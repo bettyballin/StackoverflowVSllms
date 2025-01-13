@@ -1,0 +1,1 @@
+$settings = new Settings('settings.json');\n\n// Retrieve a setting\n$username = $settings->getConfig('Database', 'AccessSettings', 'Username');\n\n// Update a setting\n$settings->setConfig('Database', 'AccessSettings', 'Username', 'new_username');

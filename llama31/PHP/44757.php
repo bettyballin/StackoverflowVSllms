@@ -1,0 +1,1 @@
+require_once 'vendor/autoload.php';\nuse LayerShifter\TLDExtract\Extract;\n\n$extractor = new Extract();\n\n$urls = [\n    'http://www.google.com/foo',\n    'http://www.google.co.uk/foo',\n];\n\nforeach ($urls as $url) {\n    $extracted = $extractor->parse($url);\n    echo $extracted->getHostname() . "\n";\n}

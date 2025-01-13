@@ -1,1 +1,0 @@
-# Attach WinDbg to the running .NET application\n   .loadby sos clr\n   !eeheap -gc\n   !eeheap -jit

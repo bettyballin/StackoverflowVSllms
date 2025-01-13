@@ -1,1 +1,0 @@
-pvk2pfx -pvk mycert.pvk -spc mycert.cer -pfx mycert.pfx -po <password>

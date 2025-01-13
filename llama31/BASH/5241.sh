@@ -1,0 +1,1 @@
+// Example: GCC optimization flags\ngcc -O2 -c mycode.c  // Release build with optimization\ngcc -g -c mycode.c   // Debug build with debug symbols

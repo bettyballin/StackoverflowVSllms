@@ -1,0 +1,1 @@
+$app = new \Slim\Slim();\n\n$app->post('/tickets', function () {\n    // Create a new ticket\n    $ticket = new Ticket();\n    $ticket->save();\n    return $ticket->getId();\n});\n\n$app->get('/tickets/:id', function ($id) {\n    // Get a ticket by ID\n    $ticket = Ticket::find($id);\n    return $ticket->toArray();\n});\n\n$app->run();

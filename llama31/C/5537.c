@@ -1,0 +1,1 @@
+#include <stdio.h>\n\nint main() {\n    char buffer[10];\n    int num1 = 1;\n    int num2 = 1;\n\n    sprintf(buffer, "%d%d", num1, num2);\n\n    printf("%s\n", buffer);  // Outputs: 11\n\n    return 0;\n}

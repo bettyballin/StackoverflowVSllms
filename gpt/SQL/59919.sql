@@ -1,1 +1,0 @@
-SELECT TABLE_NAME, CREATE_OPTIONS \n    FROM information_schema.tables \n    WHERE TABLE_SCHEMA = 'your_database_name' \n      AND TABLE_NAME = 'my_table';

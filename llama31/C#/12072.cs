@@ -1,0 +1,1 @@
+WeakReference layerRef = new WeakReference(layer);\n\n// ...\n\n visibilityChangedEvent += (visible) =>\n {\n     ILayer layer = (ILayer)layerRef.Target;\n     if (layer != null)\n     {\n         // Use the layer object\n     }\n };

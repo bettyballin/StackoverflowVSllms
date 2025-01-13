@@ -1,1 +1,0 @@
-#pragma once\n\n#ifdef TEST_EXPORTS\n#define TEST_API __declspec(dllexport)\n#else\n#define TEST_API __declspec(dllimport)\n#endif\n\nextern "C" {\n    TEST_API void set(int num);\n    TEST_API int get();\n}

@@ -1,0 +1,1 @@
+string[] args = Environment.GetCommandLineArgs();\nif (args.Contains("/debug"))\n{\n    // Running in Debug configuration\n}

@@ -1,1 +1,0 @@
-composer require greenlion/php-sql-parser

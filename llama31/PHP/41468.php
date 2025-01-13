@@ -1,0 +1,1 @@
+$date = '0000-00-00';\n$isValid = checkdate($date);\nif (!$isValid) {\n    echo "Invalid date: $date";\n}

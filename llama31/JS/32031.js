@@ -1,0 +1,1 @@
+var selector = document.getElementById('selectorId');\nfor (var i = 0; i < data.length; ++i) {\n  var opt = document.createElement('option');\n  opt.value = data[i].id;\n  opt.text = data[i].name;\n  selector.add(opt, null); // Use add() instead of appendChild()\n}

@@ -1,1 +1,0 @@
-CREATE INDEX IX_TableName_DateColumn\nON TableName (DateColumn);

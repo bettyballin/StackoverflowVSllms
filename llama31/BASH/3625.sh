@@ -1,0 +1,1 @@
+docx2xml input.docx output.xml

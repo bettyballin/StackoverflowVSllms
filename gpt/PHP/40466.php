@@ -1,1 +1,0 @@
-<?php\n// PHP script to run Node.js Puppeteer script\nexec('node screenshot.js', $output, $return_var);\n\nif ($return_var === 0) {\n    echo "Screenshot taken successfully.";\n} else {\n    echo "Failed to take screenshot.";\n}\n?>

@@ -1,0 +1,1 @@
+iisvdir /create "Default Web Site" /vdir "MyVirtualDirectory" /path "C:\Path\To\Your\WebApp"

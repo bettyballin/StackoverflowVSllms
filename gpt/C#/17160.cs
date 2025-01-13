@@ -1,1 +1,0 @@
-public ActionResult GetList()\n   {\n       var model = ... // create your model\n       return PartialView("_CategoryList", model);\n   }

@@ -1,0 +1,1 @@
+$mysqli = new mysqli("localhost", "username", "password", "database_name");\n\nif ($mysqli->connect_errno) {\n    printf("Connect failed: %s\n", $mysqli->connect_error);\n    exit();\n}\n\n$stmt = $mysqli->prepare("SELECT COUNT(*) FROM News");\n$stmt->execute();\n$stmt->bind_result($count);\n$stmt->fetch();\n\n$size = $count;\n\n$stmt->close();\n$mysqli->close();

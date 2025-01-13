@@ -1,1 +1,0 @@
-protected void SomeEvent_Handler(object sender, EventArgs e)\n{\n    // Retrieve the unique key from ViewState\n    string uniqueKey = ViewState["UniqueKey"].ToString();\n    // Retrieve the object from Session using the unique key\n    MyObject obj = (MyObject)Session[uniqueKey];\n\n    // Do something with the object\n}

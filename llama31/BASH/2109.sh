@@ -1,0 +1,1 @@
+ulimit -s 1048576\ngcc your_file.cpp -o your_file

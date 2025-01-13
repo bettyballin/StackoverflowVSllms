@@ -1,0 +1,1 @@
+TRegistry *reg = new TRegistry;\ntry {\n  reg->RootKey = HKEY_CURRENT_USER;\n  reg->OpenKey("Software\\YourCompany\\YourApp", false);\n  String lastDir = reg->ReadString("LastDirectory");\n  reg->CloseKey();\n} catch (Exception &e) {\n  // handle exception\n}\ndelete reg;

@@ -1,1 +1,0 @@
-EXEC GetRecordsGreaterThan @Threshold = 8;

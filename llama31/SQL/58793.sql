@@ -1,0 +1,1 @@
+CREATE PROCEDURE ReportQuery\nAS\nBEGIN\n    -- Your report query here\n    SELECT * FROM YourTable;\nEND;

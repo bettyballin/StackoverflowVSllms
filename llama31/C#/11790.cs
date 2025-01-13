@@ -1,0 +1,1 @@
+TransformHTML = RawHTML.Text.Replace("\n", "<br />").Replace("\r", "");\nBEHtml.Text = TransformHTML;

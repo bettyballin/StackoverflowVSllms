@@ -1,1 +1,0 @@
-export LD_LIBRARY_PATH=/path/to/instantclient:$LD_LIBRARY_PATH

@@ -1,1 +1,0 @@
-$ cppcheck --enable=all source_code.c

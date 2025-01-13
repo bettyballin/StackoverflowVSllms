@@ -1,1 +1,0 @@
-public class YourEntity\n{\n    [MaxLength(5)]\n    public string YourProperty { get; set; }\n\n    // Other properties...\n}

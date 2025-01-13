@@ -1,0 +1,1 @@
+Array\n(\n    [John] => 10\n    [Jane] => 20\n    [Bob] => 30\n)

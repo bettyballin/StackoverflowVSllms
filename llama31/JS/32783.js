@@ -1,0 +1,1 @@
+function validateSomething(callback) {\n  $.post("something.php", {x:y}, function(data) {\n    if (isSomething(data)) {\n      callback(true);\n    } else {\n      callback(false);\n    }\n  });\n}\n\n// Usage\nvalidateSomething(function(valid) {\n  if (valid) {\n    // Form is valid, submit it\n  } else {\n    // Form is not valid, show error message\n  }\n});

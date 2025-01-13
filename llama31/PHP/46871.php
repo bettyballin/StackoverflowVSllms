@@ -1,0 +1,1 @@
+$headers['Content-Transfer-Encoding'] = 'base64';

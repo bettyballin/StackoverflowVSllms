@@ -1,1 +1,0 @@
-string encryptedUserId = Request.QueryString["userID"];\nstring userId = Decrypt(encryptedUserId);

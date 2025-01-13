@@ -1,0 +1,1 @@
+SELECT t1.* \nFROM your_table t1 \nJOIN your_table t2 ON t1.brand = t2.brand \nWHERE t2.id = 300;

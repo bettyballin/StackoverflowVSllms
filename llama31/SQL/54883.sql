@@ -1,0 +1,1 @@
+CREATE TABLE MyTable (\n    MyColumn numeric(10, 2)\n);

@@ -1,1 +1,0 @@
-regsvr32 /u "%ProgramFiles%\Common Files\Microsoft Shared\VS7DEBUG\msdbg2.dll"\n    regsvr32 "%ProgramFiles%\Common Files\Microsoft Shared\VS7DEBUG\msdbg2.dll"

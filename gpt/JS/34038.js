@@ -1,1 +1,0 @@
-const userInfo = await axios.get(`https://api.stackexchange.com/2.2/me?site=stackoverflow&access_token=${accessToken}&key=YOUR_API_KEY`);

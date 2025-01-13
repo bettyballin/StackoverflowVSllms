@@ -1,0 +1,1 @@
+SELECT date, value, check\nFROM (\n  SELECT date, value, check,\n         SUM(CASE WHEN check = 0 THEN 1 ELSE 0 END) OVER (ORDER BY date DESC) AS has_zero\n  FROM your_table\n)\nWHERE has_zero = 0\nORDER BY date DESC;

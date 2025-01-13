@@ -1,0 +1,1 @@
+[HttpPost]\npublic JsonResult MyAction(int id)\n{\n    // Do something with the id\n    return Json(new { success = true });\n}

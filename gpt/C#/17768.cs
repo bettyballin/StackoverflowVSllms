@@ -1,1 +1,0 @@
-public class MyEntity\n{\n    public virtual int Id { get; set; }\n\n    [Length(Max = 255)]\n    public virtual string ShortString { get; set; }\n\n    [Text]\n    public virtual string LongString { get; set; }\n}

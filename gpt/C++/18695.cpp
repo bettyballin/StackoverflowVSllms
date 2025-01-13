@@ -1,1 +1,0 @@
-// Short name with a descriptive comment\nint cnt; // count of items in the list\n\n// Descriptive name\nint countOfItemsInList;

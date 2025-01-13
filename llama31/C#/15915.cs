@@ -1,0 +1,1 @@
+List<Account> accounts = new List<Account>();\nList<Detail> details = new List<Detail>();\nList<AccEntry> accEntries = new List<AccEntry>();

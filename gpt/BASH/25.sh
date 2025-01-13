@@ -1,1 +1,0 @@
-ssh user@remote_host 'dd if=/path/to/remote/file bs=1 skip=100 count=50'

@@ -1,0 +1,1 @@
+INSERT INTO your_table (column_name)\nVALUES ('J' || CHR(38) || 'J Construction');

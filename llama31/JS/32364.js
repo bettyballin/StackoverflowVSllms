@@ -1,0 +1,1 @@
+var _mySpecialVariable = 'Hello, World!';\nconsole.log(_mySpecialVariable);

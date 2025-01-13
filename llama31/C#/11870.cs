@@ -1,0 +1,1 @@
+[ScriptResource("get_events", "YourNamespace.YourScript", "YourScript.js")]\npublic class YourScriptControl : ScriptControl\n{\n    // ...\n}

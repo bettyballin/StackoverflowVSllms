@@ -1,0 +1,1 @@
+CREATE TABLE YourTable (\n    DateColumn datetime,\n    DateWithoutTime AS (CONVERT(datetime, CONVERT(varchar(10), DateColumn, 101)))\n);

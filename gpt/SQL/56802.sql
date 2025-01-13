@@ -1,1 +1,0 @@
-SELECT\n    person_id,\n    company_id,\n    financial_year,\n    COUNT(*) as cnt\nFROM\n    Role\nGROUP BY\n    person_id,\n    company_id,\n    financial_year\nHAVING\n    cnt > 1;

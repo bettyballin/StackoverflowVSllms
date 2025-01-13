@@ -1,0 +1,1 @@
+// Example React component\nimport React from 'react';\n\nfunction Hello() {\n  return <h1>Hello World!</h1>;\n}

@@ -1,1 +1,0 @@
-aws s3 ls s3://your-bucket-name --recursive | awk '{print $4}' | while read key; do\n        aws s3api put-object-acl --bucket your-bucket-name --key "$key" --acl public-read\n    done

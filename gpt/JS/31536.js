@@ -1,1 +1,0 @@
-function IsValidURI(str) {\n    try {\n        new URL(str);\n        return true;\n    } catch (_) {\n        return false;\n    }\n}\n\n// Example usage\nlet userInput = "https://www.example.com";\nif (IsValidURI(userInput)) {\n    console.log("Valid URI");\n} else {\n    console.log("Invalid URI");\n}

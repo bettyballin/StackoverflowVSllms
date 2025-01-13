@@ -1,0 +1,1 @@
+input[type="button"] {\n  box-sizing: border-box;\n  padding: 0 10px;\n  width: auto; /* Add this to override IE's default width calculation */\n}

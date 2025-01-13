@@ -1,1 +1,0 @@
-# Open PowerShell with administrative privileges and run the following command:\nImport-Module ServerManager\nAdd-WindowsFeature Web-Server, Web-Asp-Net, Web-ISAPI-Filter, Web-ISAPI-Ext

@@ -1,1 +1,0 @@
-# Install necessary development tools\nchoco install visualstudio2019community\nchoco install git\nchoco install nodejs\n\n# Enable Hyper-V for virtualization (if needed)\nEnable-WindowsOptionalFeature -Online -FeatureName Microsoft-Hyper-V -All\n\n# Configure IIS for web development\nInstall-WindowsFeature Web-Server -IncludeManagementTools

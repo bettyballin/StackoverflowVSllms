@@ -1,1 +1,0 @@
-[WebMethod]\npublic static string GetServerTime()\n{\n    return DateTime.Now.ToString();\n}

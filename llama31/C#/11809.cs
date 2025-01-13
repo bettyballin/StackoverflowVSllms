@@ -1,0 +1,1 @@
+using (var conn = new SqlConnection("Data Source=.;Initial Catalog=DBNAME;Integrated Security=True;Pooling=False"))

@@ -1,1 +1,0 @@
-$route['404_override'] = 'errors/error404';\n$route['translate_uri_dashes'] = FALSE;

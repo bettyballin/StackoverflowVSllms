@@ -1,1 +1,0 @@
-group :test do\n  gem 'omniauth'\n  gem 'omniauth-twitter'\n  gem 'rspec-rails', '~> 5.0'\n  gem 'cucumber-rails', require: false\n  gem 'database_cleaner-active_record'\n  gem 'capybara'\n  gem 'selenium-webdriver'\nend

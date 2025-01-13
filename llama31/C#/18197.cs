@@ -1,0 +1,1 @@
+// Example usage of the Microsoft.VisualBasic namespace\nusing Microsoft.VisualBasic;\n\nclass Program\n{\n    static void Main(string[] args)\n    {\n        // Use the MsgBox function from the Microsoft.VisualBasic namespace\n        Interaction.MsgBox("Hello, World!");\n    }\n}

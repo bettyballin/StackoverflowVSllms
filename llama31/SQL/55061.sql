@@ -1,0 +1,1 @@
+SELECT \n    groupid,\n    AVG(CASE WHEN flag = 1 THEN 1.0 ELSE 0 END) AS ratio\nFROM \n    #tableA\nGROUP BY \n    groupid

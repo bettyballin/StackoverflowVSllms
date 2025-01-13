@@ -1,0 +1,1 @@
+library(psych)\n\n# assuming 'x' is your data\nVSS(x, n = 1:10, rotate = "varimax", diagonal = FALSE, fm = "pa", \n    n.obs = NULL, plot = TRUE, title = "MAP Criterion")\n\n# look for the number of factors that minimizes the MAP criterio

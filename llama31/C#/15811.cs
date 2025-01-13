@@ -1,0 +1,1 @@
+SortedList<string, string> sortedList = new SortedList<string, string>(\n    list.ToDictionary(x => x, x => x)\n        .OrderBy(x => x.Key)\n        .ToDictionary(x => x.Key, x => x.Value)\n);

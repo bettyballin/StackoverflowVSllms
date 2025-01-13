@@ -1,0 +1,1 @@
+using ExceptionFilter;\n\n// ...\n\ntry\n{\n    // code that might throw an exception\n}\ncatch (Exception ex)\n{\n    if (ExceptionFilter.CatchWhen(ex, ex2 => FilterException(ex2)))\n    {\n        // handle the exception\n    }\n    else\n    {\n        throw;\n    }\n}

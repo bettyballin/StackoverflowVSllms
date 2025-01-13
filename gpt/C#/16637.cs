@@ -1,1 +1,0 @@
-intA = (int)obj.GetStr("xxx");

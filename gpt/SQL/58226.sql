@@ -1,1 +1,0 @@
-SELECT * \nFROM table \nWHERE LOCATE(domain, 'www.google.com') > 0;

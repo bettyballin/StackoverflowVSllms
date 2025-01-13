@@ -1,1 +1,0 @@
-LOAD DATA\nINFILE 'badges.xml'\nINTO TABLE badges_xml\nAPPEND\nFIELDS TERMINATED BY ','\n(\n    xml_data LOBFILE(CONSTANT 'badges.xml') TERMINATED BY EOF\n)

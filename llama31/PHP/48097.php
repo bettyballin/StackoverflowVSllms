@@ -1,0 +1,1 @@
+$config = array(\n    'mysql_username' => 'jimbo',\n    'mysql_password' => 'secret',\n    // other config variables\n);\n\nclass DB {\n    private $config;\n\n    public function __construct(array $config) {\n        $this->config = $config;\n    }\n\n    // use $this->config['mysql_username'] to access the config variables\n}

@@ -1,0 +1,1 @@
+exec("useradd -p $hashed_pw newusername");

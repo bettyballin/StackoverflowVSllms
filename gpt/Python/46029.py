@@ -1,1 +1,0 @@
-import calendar\nparseddate = (2009, 7, 17, 1, 21, 0, 4, 198, 0)\ntimestamp_seconds = calendar.timegm(parseddate)\nprint(timestamp_seconds)  # Output: 1247793660

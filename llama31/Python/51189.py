@@ -1,0 +1,1 @@
+# Model/base.py (updated)\nclass BaseModel:\n    def __init__(self, db):\n        self.db = db\n\n    def save(self):\n        # Use the injected database instance to perform queries\n        self.db.query('INSERT INTO ...')

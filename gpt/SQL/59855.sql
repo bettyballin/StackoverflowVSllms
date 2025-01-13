@@ -1,1 +1,0 @@
-UPDATE documents SET membersOnly = 0;

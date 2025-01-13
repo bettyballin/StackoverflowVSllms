@@ -1,0 +1,1 @@
+#include <stdio.h>\n#include <stdlib.h>\n#include <string.h>\n\nint main() {\n    char src[] = "Hello, World!";\n    char dest[20];\n\n    strcpy(dest, src);\n    printf("%s\n", dest);\n\n    return 0;\n}

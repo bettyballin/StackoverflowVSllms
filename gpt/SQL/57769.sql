@@ -1,1 +1,0 @@
-DELETE t1 FROM your_table t1\nINNER JOIN your_table t2\nWHERE \n    t1.id > t2.id AND \n    t1.column1 = t2.column1 AND \n    t1.column2 = t2.column2 AND \n    t1.column3 = t2.column3;

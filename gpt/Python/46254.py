@@ -1,1 +1,0 @@
-query = 'SELECT * FROM your_table_name'\n   df_access = pd.read_sql(query, conn)

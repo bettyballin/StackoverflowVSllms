@@ -1,1 +1,0 @@
-SqlCommand: SELECT ID FROM DimensionTable WHERE DateTime = ?\nParameter Mapping: Input Column (e.g., SourceDateTime) -> Parameter0

@@ -1,0 +1,1 @@
+print(seq_in_seq([5, 6], [4, 'a', 3, 5, 6]))  # Output: 3\nprint(seq_in_seq([5, 7], [4, 'a', 3, 5, 6]))  # Output: -1

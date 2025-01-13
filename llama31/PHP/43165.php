@@ -1,0 +1,1 @@
+function logCaughtException(Exception $e) {\n    error_log("Caught exception: " . get_class($e) . " - " . $e->getMessage());\n}\n\ntry {\n    // Code that might throw an exception\n} catch (Exception $e) {\n    logCaughtException($e);\n    // Handle the exception\n}

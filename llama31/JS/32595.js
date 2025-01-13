@@ -1,0 +1,1 @@
+var formData = $('#myForm').serializeArray();\n$('#myForm :disabled').each(function() {\n  formData.push({ name: $(this).attr('name'), value: $(this).val() });\n});\n$.ajax({\n  type: 'POST',\n  url: '/your/url',\n  data: formData,\n  // ...\n});

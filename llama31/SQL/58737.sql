@@ -1,0 +1,1 @@
+CREATE TRIGGER duplicate_id\nBEFORE INSERT ON your_table\nFOR EACH ROW\nBEGIN\n  SET NEW.duplicate_id = NEW.id;\nEND;

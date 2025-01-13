@@ -1,1 +1,0 @@
-using System.Xml.Xsl;\n\n   public class MyExtensions\n   {\n       public string Replace(string input, string pattern, string replacement)\n       {\n           return System.Text.RegularExpressions.Regex.Replace(input, pattern, replacement);\n       }\n   }

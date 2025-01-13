@@ -1,0 +1,1 @@
+if (ob_get_level() > 0) {\n    ob_end_clean(); // discard buffer contents\n}

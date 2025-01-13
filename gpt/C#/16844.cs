@@ -1,1 +1,0 @@
-public async Task<ActionResult> YourAction()\n   {\n       var data = await SomeAsyncMethod();\n       return View(data);\n   }

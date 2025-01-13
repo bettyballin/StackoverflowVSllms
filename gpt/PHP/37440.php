@@ -1,1 +1,0 @@
-session_start();\n     if (!isset($_COOKIE['guest_id'])) {\n         $guest_id = bin2hex(random_bytes(16));\n         setcookie('guest_id', $guest_id, time() + (86400 * 30), "/"); // 30 days expiration\n     } else {\n         $guest_id = $_COOKIE['guest_id'];\n     }\n     $_SESSION['guest_id'] = $guest_id;

@@ -1,0 +1,1 @@
+$db_path = $_SERVER['DOCUMENT_ROOT'] . '\WebUpdate\\' . $file_name . '.mdb';\n\ntry {\n    $dao = new COM('DAO.DBEngine.36');\n    $db = $dao->OpenDatabase($db_path);\n} catch (Exception $e) {\n    echo 'Connection failed: ' . $e->getMessage();\n    exit();\n}

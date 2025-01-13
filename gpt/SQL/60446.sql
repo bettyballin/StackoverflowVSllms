@@ -1,1 +1,0 @@
-CREATE TABLE Table1 (\n    ID UNIQUEIDENTIFIER PRIMARY KEY,\n    -- other columns\n);\n\nCREATE TABLE Table2 (\n    ID VARCHAR(50),\n    -- other columns\n);

@@ -1,1 +1,0 @@
-if [ -n "${VAR}" ]; then\n   # do something\n   export VAR=#something\nfi

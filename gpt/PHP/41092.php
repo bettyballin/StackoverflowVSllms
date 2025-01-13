@@ -1,1 +1,0 @@
-$doc->resolveExternals = false;\n$doc->substituteEntities = false;\nlibxml_disable_entity_loader(true);

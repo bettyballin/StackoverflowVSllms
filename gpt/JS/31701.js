@@ -1,1 +1,0 @@
-if (Object.prototype.toString.call(myFunc) === '[object Function]') {\n    // myFunc is a function\n}

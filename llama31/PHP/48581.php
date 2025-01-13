@@ -1,0 +1,1 @@
+$classMap = [\n    'MyNamespace\ClassName' => __DIR__ . '/path/to/ClassName.php',\n    'MyNamespace\OtherClass' => __DIR__ . '/path/to/OtherClass.php',\n];\n\nspl_autoload_register(function ($class) use ($classMap) {\n    if (isset($classMap[$class])) {\n        include $classMap[$class];\n    }\n});

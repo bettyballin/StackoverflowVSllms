@@ -1,0 +1,1 @@
+export DB_USERNAME=myuser\nexport DB_PASSWORD=mypassword

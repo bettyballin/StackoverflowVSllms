@@ -1,1 +1,0 @@
-#!/bin/bash\n# restore.sh - Restore a database backup\n\nBACKUP_DIR="/path/to/backups/$1"\nMYSQL_USER="user"\nMYSQL_PASSWORD="password"\nMYSQL_DATABASE="database"\n\nif [ -d "$BACKUP_DIR" ]; then\n  mysql --user=$MYSQL_USER --password=$MYSQL_PASSWORD $MYSQL_DATABASE < "$BACKUP_DIR/database.sql"\nelse\n  echo "Backup directory $BACKUP_DIR does not exist"\nfi

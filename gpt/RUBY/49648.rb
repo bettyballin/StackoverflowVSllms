@@ -1,1 +1,0 @@
-# Load the psych package\nlibrary(psych)\n\n# Your data matrix 'x'\n# x <- ...\n\n# Applying Velicer's MAP criterion\nvss_result <- VSS(x, n = 8, rotate = "varimax", fm = "pa", n.obs = NULL, plot = TRUE, title = "Very Simple Structure", map = TRUE)\n\n# Print the results\nprint(vss_result)

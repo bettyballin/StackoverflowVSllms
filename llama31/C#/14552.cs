@@ -1,0 +1,1 @@
+int colorInt = ColorDialog1.Color.ToArgb();

@@ -1,0 +1,1 @@
+// Validate user input using Drupal's validate_string function\n$validated_input = validate_string($user_input);\n\n// Sanitize user input using Drupal's filter_xss function\n$sanitized_input = filter_xss($user_input);

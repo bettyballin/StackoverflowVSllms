@@ -1,0 +1,1 @@
+// JavaScript example\nconst pipe = {};\npipe.needInspection = true;

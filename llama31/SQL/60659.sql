@@ -1,0 +1,1 @@
+CREATE TABLE People (\n    id INT IDENTITY(1,1) PRIMARY KEY,\n    name VARCHAR(10),\n    DoB DATETIME,\n    Height INT\n);\n\nCREATE TABLE Phone_Number (\n    id INT,\n    number VARCHAR(15),\n    CONSTRAINT FK_Phone_Number_People FOREIGN KEY (id) REFERENCES People(id)\n);

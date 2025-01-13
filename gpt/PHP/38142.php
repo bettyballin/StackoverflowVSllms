@@ -1,1 +1,0 @@
-$sql = "SELECT flags FROM my_objects WHERE id = :id";\n$stmt = $pdo->prepare($sql);\n$stmt->execute([':id' => $objectId]);\n$flags = $stmt->fetchColumn();\n\n$obj = new MyObject($flags);

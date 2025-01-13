@@ -1,0 +1,1 @@
+if ($_POST['PHPSESSID'] !== session_id()) {\n    // Handle invalid Session ID\n}

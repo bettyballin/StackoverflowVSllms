@@ -1,0 +1,1 @@
+SELECT *\nFROM (\n  SELECT *, \n         -- Generate a random number between 0 and 1 for each row\n         RANDOM() * weight AS weighted_random\n  FROM items\n  WHERE -- Optional filter conditions\n) AS weighted_items\nORDER BY weighted_random DESC\nLIMIT 1; -- Select the top item based on the weighted random value

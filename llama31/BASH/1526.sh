@@ -1,0 +1,1 @@
+logparser -i:iisw3c -recurse -o:csv "SELECT * FROM 'C:\inetpub\logs\LogFiles\W3SVC1\*.log'" -q:o

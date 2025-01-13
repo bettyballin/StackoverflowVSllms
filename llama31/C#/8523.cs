@@ -1,0 +1,1 @@
+using System.Diagnostics;\n\npublic partial class MyPage : System.Web.UI.Page\n{\n    protected void Page_Load(object sender, EventArgs e)\n    {\n        var stopwatch = new Stopwatch();\n        stopwatch.Start();\n\n        // Your page logic here\n\n        stopwatch.Stop();\n        Trace.Write("Page execution time: " + stopwatch.ElapsedMilliseconds);\n    }\n}

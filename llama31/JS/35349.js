@@ -1,0 +1,1 @@
+const lang = document.documentElement.lang;\nconsole.log(lang);

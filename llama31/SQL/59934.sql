@@ -1,0 +1,1 @@
+SELECT CONVERT(NVARCHAR(MAX), description) AS description\nFROM OPENQUERY(ADSI, 'SELECT description FROM ''LDAP://DC=yourdomain,DC=com'' WHERE objectClass=''user''')

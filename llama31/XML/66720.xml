@@ -1,0 +1,1 @@
+<hibernate-configuration>\n    <session-factory>\n        <property name="connection.datasource">your.DataSource.instance</property>\n        ...\n    </session-factory>\n</hibernate-configuration>

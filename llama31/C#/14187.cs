@@ -1,0 +1,1 @@
+var merger = new ImageMerger();\nmerger.MergeImages("background.jpg", "text.jpg", "output.jpg");

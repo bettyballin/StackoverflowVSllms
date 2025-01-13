@@ -1,0 +1,1 @@
+// IIS web.config\n<connectionStrings>\n  <add name="MyDB" connectionString="Server=mySQLServer;Database=myDB;Trusted_Connection=True;" providerName="System.Data.SqlClient" />\n</connectionStrings>

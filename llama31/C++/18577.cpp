@@ -1,0 +1,1 @@
+IHTMLDocument2* pDoc;\n// assuming pDoc is a valid pointer to the IHTMLDocument2 interface\n\nBSTR bstrFile = SysAllocString(L"C:\\example.mht");\nif (bstrFile)\n{\n    pDoc->execCommand(L"SaveAs", VARIANT_TRUE, bstrFile);\n    SysFreeString(bstrFile);\n}

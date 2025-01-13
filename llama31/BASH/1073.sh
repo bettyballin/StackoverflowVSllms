@@ -1,0 +1,1 @@
+rsync --daemon --config=/path/to/rsync.conf

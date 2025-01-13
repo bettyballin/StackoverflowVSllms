@@ -1,1 +1,0 @@
-$ch = curl_init();\n    curl_setopt($ch, CURLOPT_URL, "http://google.com");\n    curl_setopt($ch, CURLOPT_RETURNTRANSFER, 1);\n    $contents = curl_exec($ch);\n    curl_close($ch);\n    \n    if ($contents === false) {\n        echo 'cURL Error: ' . curl_error($ch);\n    } else {\n        echo $contents;\n    }

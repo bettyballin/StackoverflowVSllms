@@ -1,1 +1,0 @@
-CREATE TABLE comments (\n    id INT AUTO_INCREMENT PRIMARY KEY,\n    parent_id INT DEFAULT 0,\n    username VARCHAR(50) NOT NULL,\n    comment TEXT NOT NULL,\n    created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP\n);

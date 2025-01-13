@@ -1,0 +1,1 @@
+try\n{\n    byte[] data = webClient.DownloadData(url);\n}\ncatch (WebException ex)\n{\n    if (ex.Response != null && ex.Response.StatusCode == HttpStatusCode.ProxyAuthenticationRequired)\n    {\n        // Prompt the user to enter their proxy credentials manually\n    }\n}

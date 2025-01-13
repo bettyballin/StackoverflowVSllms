@@ -1,1 +1,0 @@
-[HttpPost]\npublic ActionResult Harwood(string filter)\n{\n    // Your logic here based on the filter value\n    // For example, filtering items and returning a partial view\n\n    // Return a JSON response\n    return Json(new { success = true, message = "Filter applied successfully." });\n}

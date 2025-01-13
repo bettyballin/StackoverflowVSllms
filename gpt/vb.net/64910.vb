@@ -1,1 +1,0 @@
-' Set cookie\nResponse.Cookies("type").Value = "3"\nResponse.Cookies("type").Expires = DateTime.Now.AddMinutes(30)\n\n' Get cookie\nDim type As String = Request.Cookies("type").Value

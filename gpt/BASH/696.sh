@@ -1,1 +1,0 @@
-#!/bin/sh\n\nAPP_HOME="$(dirname "$0")"\nUSER_DIR="${APP_HOME}/userdir-$(date +%s%N)"\n\n"${APP_HOME}/bin/netbeans" --userdir "${USER_DIR}"

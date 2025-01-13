@@ -1,0 +1,1 @@
+// Example usage:\nMicrosoft.Maps.MapControl.Map map = new Microsoft.Maps.MapControl.Map();\nmap.Mode = new Microsoft.Maps.MapControl.RoadMode();

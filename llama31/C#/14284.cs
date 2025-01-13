@@ -1,0 +1,1 @@
+public class MyModel\n{\n    public User User { get; set; }\n    public string AdditionalData { get; set; }\n}

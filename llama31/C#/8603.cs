@@ -1,0 +1,1 @@
+MyUserControl myControl = (MyUserControl)Page.FindControl("myUserControlId");\nLabel label1 = myControl.MyLabel;

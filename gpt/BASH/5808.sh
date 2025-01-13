@@ -1,1 +1,0 @@
-scp database_dump.sql.gz user@destination_host:/path/to/destination/

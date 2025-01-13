@@ -1,1 +1,0 @@
-using System;\nusing System.Runtime.InteropServices;\n\nclass Program\n{\n    [DllImport("MyCppLibrary.dll", CallingConvention = CallingConvention.Cdecl)]\n    public static extern int MyCppFunction(int a, int b);\n\n    static void Main()\n    {\n        int result = MyCppFunction(5, 3);\n        Console.WriteLine("Result: " + result);\n    }\n}

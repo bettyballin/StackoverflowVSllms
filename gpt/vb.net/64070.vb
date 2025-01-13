@@ -1,1 +1,0 @@
-Dim strArray(5) As String

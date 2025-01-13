@@ -1,1 +1,0 @@
-#!/bin/bash\n\n# Find all conflicted files\nconflicted_files=$(svn status | grep '^C' | awk '{print $2}')\n\n# Resolve conflicts by accepting incoming changes (trunk)\nfor file in $conflicted_files; do\n    svn resolve --accept working "$file"\n    svn revert "$file"\n    svn update --accept theirs-full "$file"\ndone

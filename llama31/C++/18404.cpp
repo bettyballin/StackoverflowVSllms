@@ -1,0 +1,1 @@
+#define POST_CALL(func) \\n    PostCall<void (*)()> call(func); \\n    call();\n\nclass Foo {\npublic:\n    void f1() {\n        POST_CALL(f1);\n    }\n\n    void f2() {\n        POST_CALL(f2);\n    }\n};

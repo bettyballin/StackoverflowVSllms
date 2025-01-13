@@ -1,0 +1,1 @@
+foreach (People someone in Peoples.TakeWhile(p => p.Name != "foo"))\n{\n    // rest of your code\n}

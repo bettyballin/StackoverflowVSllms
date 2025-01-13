@@ -1,1 +1,0 @@
-# Download and unzip Grav\n   # Copy files to USB stick

@@ -1,1 +1,0 @@
-<?php\n\ninclude_once('lib/php/com/DataStrip.php');\n\n$projCat = "Sample Data";\n\necho $projCat;\n$a = new DataStrip();\n$result = $a->stripVars($projCat);\necho $result;\n\n// If you want to echo the object, it will now use the __toString() method\necho $a;\n\n?>

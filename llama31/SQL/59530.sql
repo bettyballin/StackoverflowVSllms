@@ -1,0 +1,1 @@
+BIGINT[(length)] [UNSIGNED] [ZEROFILL]

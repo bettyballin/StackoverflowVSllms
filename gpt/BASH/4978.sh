@@ -1,1 +1,0 @@
-docker run -itd --name db2 --privileged=true -p 50000:50000 -e LICENSE=accept -e DB2INST1_PASSWORD=<DB2_PASSWORD> -e DBNAME=testdb -v <YOUR_DB2_FILE>:/database ibmcom/db2

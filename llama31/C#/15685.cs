@@ -1,0 +1,1 @@
+ParentContentType = action.ParentContentType != null \n    ? (ContentType)Enum.ToObject(typeof(ContentType), action.ParentContentType) \n    : (ContentType?)null

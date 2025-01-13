@@ -1,1 +1,0 @@
-$command = "mount -t cifs //serverB/sharedfolder /mnt/sharedfolder -o username=domain\\username,password=password";\n   exec($command);\n   $object->Output('/mnt/sharedfolder/file.dummy');

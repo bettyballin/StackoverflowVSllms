@@ -1,0 +1,1 @@
+add_filter('rewrite_rules', 'my_plugin_rewrite_rules');\nfunction my_plugin_rewrite_rules($rules) {\n    $new_rules = array();\n    $new_rules['foo/(.*)$'] = 'index.php?my_plugin=foo&path=$matches[1]';\n    return array_merge($rules, $new_rules);\n}

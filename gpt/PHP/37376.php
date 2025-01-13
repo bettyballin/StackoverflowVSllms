@@ -1,1 +1,0 @@
-// In index.php and Authenticate.php\n   header('Access-Control-Allow-Origin: *'); // Adjust the * to the specific domains if needed

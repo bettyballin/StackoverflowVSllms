@@ -1,0 +1,1 @@
+CREATE TABLE bad_words (\n  id INT PRIMARY KEY,\n  word VARCHAR(255) NOT NULL\n);\n\nINSERT INTO bad_words (word) VALUES ('foo'), ('bar'), ...;\n\nSELECT * FROM bad_words;

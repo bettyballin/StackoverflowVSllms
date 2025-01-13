@@ -1,0 +1,1 @@
+using System.Web.Security;\n\nstring username = "your_username";\nMembershipUser user = Membership.GetUser(username);\n\nif (user != null)\n{\n    // User is registered\n}\nelse\n{\n    // User is not registered\n}

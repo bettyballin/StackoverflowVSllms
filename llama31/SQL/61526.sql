@@ -1,0 +1,1 @@
+SELECT r.code, r.name\nFROM Region r\nJOIN LogTable l ON (r.code = l.regionCode)\nWHERE r.districtCode = :districtCode;

@@ -1,0 +1,1 @@
+HttpCookie cookie = new HttpCookie("MyCookie");\ncookie.Value = "MyValue";\ncookie.Domain = "yourdomain.com"; // Adjust based on your domain\ncookie.Path = "/"; // Applies to all paths within your domain\ncookie.HttpOnly = true; // Helps mitigate XSS attacks\ncookie.Secure = true; // Only transmit cookie over HTTPS\n\nResponse.Cookies.Add(cookie);

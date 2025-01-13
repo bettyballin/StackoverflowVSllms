@@ -1,1 +1,0 @@
-CREATE TABLE ObjectCounters (\n    ObjectId INT PRIMARY KEY,\n    NumViews BIGINT\n);

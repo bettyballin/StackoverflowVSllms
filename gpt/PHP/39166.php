@@ -1,1 +1,0 @@
-// Get the temporary directory\n$tmpDir = sys_get_temp_dir();\n\n// Get the temporary file name\n$tmpFileName = $_FILES['upfile']['tmp_name'];\n\n// Combine them to get the full path\n$fullTmpFilePath = $tmpDir . DIRECTORY_SEPARATOR . basename($tmpFileName);\n\n// Now you can use $fullTmpFilePath as the full path to the uploaded file\necho $fullTmpFilePath;

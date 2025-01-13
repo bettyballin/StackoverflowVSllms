@@ -1,0 +1,1 @@
+mysqldump -h your_host -u your_user -p your_password your_database your_table --extended-insert=100 > dump.sql

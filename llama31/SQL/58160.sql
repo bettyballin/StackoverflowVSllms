@@ -1,0 +1,1 @@
+SELECT * FROM get_compatible_articles(ARRAY['A', 'B', 'C']);

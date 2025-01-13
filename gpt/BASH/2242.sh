@@ -1,1 +1,0 @@
-java -XX:+HeapDumpOnOutOfMemoryError -XX:HeapDumpPath=/path/to/heapdump.hprof -jar your-application.jar

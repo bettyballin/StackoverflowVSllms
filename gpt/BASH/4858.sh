@@ -1,1 +1,0 @@
-if [ -v mystr ]; then\n  echo "The variable 'mystr' is defined."\nelse\n  echo "The variable 'mystr' is not defined."\nfi

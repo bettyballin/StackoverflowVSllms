@@ -1,1 +1,0 @@
-SELECT COUNT(*)\nFROM (SELECT DISTINCT a, b FROM MyTable WHERE c = 'foo') AS SubTable;

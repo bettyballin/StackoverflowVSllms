@@ -1,0 +1,1 @@
+$.ajax({\n  url: "wait.php",\n  dataType: "script",\n  success: function() {\n    loadxml();\n  }\n});

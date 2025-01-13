@@ -1,0 +1,1 @@
+ALTER TABLE tGeoAnswers\nADD CONSTRAINT FK_Answer_Location\nFOREIGN KEY (locationId)\nREFERENCES tLocations(id);

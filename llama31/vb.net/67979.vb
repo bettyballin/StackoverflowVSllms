@@ -1,0 +1,1 @@
+Public Declare Function SHCreateTaskbarList Lib "shell32" Alias "#60" (ByRef ppv As ITaskbarList3) As Long\n\nDim iTaskBarVB3 As ShellLib.ITaskbarList3\nDim rc As Long\n\nrc = SHCreateTaskbarList(iTaskBarVB3)

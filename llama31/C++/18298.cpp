@@ -1,0 +1,1 @@
+#include <iostream>\n\nclass name {\npublic:\n    int a;\n    name() : a(0) {}\n};\n\nvoid add(name* pname) {\n    pname = NULL;\n}\n\nint main() {\n    name varName{};  // Create an instance of the name class\n    name* pName = new name();\n    add(pName);\n    add(&varName);  // This should now work correctly\n    return 0;\n}

@@ -1,1 +1,0 @@
-sudo a2ensite nextcloud.conf\n    sudo a2enmod rewrite headers env dir mime\n    sudo systemctl restart apache2

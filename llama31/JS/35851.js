@@ -1,0 +1,1 @@
+tinymce.init({\n  selector: 'textarea',\n  plugins: 'advlist autolink lists link image charmap print preview anchor',\n  toolbar: 'undo redo | styleselect | bold italic underline | alignleft aligncenter alignright alignjustify | bullist numlist outdent indent | link image'\n});

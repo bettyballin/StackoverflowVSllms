@@ -1,0 +1,1 @@
+SELECT \n    c.session_id, \n    c.net_transport, \n    c.client_net_address, \n    c.client_tcp_port\nFROM \n    sys.dm_exec_connections c

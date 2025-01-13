@@ -1,0 +1,1 @@
+$.ajax({\n  type: 'POST',\n  url: 'your_php_script.php',\n  data: {email: $('#email').val()},\n  success: function(response) {\n    // Handle the response from the PHP script\n    console.log(response);\n  }\n});

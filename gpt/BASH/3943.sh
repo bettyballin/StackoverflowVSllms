@@ -1,1 +1,0 @@
-# Start the Sendmail service\nsudo service sendmail start\n\n# Enable Sendmail to start on boot\nsudo systemctl enable sendmail\n\n# Check the status of Sendmail\nsudo systemctl status sendmail

@@ -1,1 +1,0 @@
-SELECT plprofiler_start();\n   \n   -- Run your function or code to be profiled\n   SELECT your_function();\n   \n   SELECT plprofiler_stop();

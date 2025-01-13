@@ -1,1 +1,0 @@
-setspn -L DomainUser

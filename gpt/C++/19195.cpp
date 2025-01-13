@@ -1,1 +1,0 @@
-STDMETHODIMP CMyActiveXCtrl::MyMethod(BSTR input, BSTR* output)\n   {\n       CString strInput(input);\n       CString strOutput = strInput.MakeUpper(); // Example: convert input to uppercase\n\n       *output = strOutput.AllocSysString();\n       return S_OK;\n   }

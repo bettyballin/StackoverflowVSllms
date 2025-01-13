@@ -1,0 +1,1 @@
+template<unsigned int A, unsigned int B>\nint foo() {\n  int v = 1;\n  const int x = A - B;\n  v = (x > 0) ? (v << x) : v;\n  bar(v);\n}

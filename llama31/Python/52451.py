@@ -1,0 +1,1 @@
+from google.appengine.ext import ndb\n\nrelated_foos = Foo.query(Foo.bars.IN([bar_entity1, bar_entity2, ...])).filter(ndb.GenericProperty('bars').count() >= N).fetch(fetch_count)

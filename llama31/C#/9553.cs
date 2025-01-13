@@ -1,0 +1,1 @@
+using Devart.Data.Oracle;\n\nstring connectionString = "Data Source=your_host;Port=your_port;Service Name=your_service_name;User Id=your_username;Password=your_password;";\nusing (OracleConnection connection = new OracleConnection(connectionString))\n{\n    connection.Open();\n    // execute queries\n}

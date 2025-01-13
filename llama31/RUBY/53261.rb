@@ -1,0 +1,1 @@
+<!-- dashboard.html.erb -->\n<div id="graph1">\n  <%= render :partial => 'graph1' %>\n</div>\n\n<div id="graph2">\n  <%= render :partial => 'graph2' %>\n</div>

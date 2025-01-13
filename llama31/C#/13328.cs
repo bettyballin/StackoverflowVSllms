@@ -1,0 +1,1 @@
+public partial class MyUserControl : System.Web.UI.UserControl\n{\n    public DropDownList MyDropDownList { get; set; }\n\n    protected void Page_Load(object sender, EventArgs e)\n    {\n        MyDropDownList = (DropDownList)FindControl("MyDropDownList");\n    }\n}

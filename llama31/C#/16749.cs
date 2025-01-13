@@ -1,0 +1,1 @@
+sequenceID = Convert.ToInt64(getIDcmd.ExecuteScalar());

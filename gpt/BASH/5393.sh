@@ -1,1 +1,0 @@
-git add .\n    git commit -m "Add new official version of classes"

@@ -1,0 +1,1 @@
+$password = preg_replace('/[^ -~]/', '', $password);

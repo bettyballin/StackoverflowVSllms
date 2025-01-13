@@ -1,1 +1,0 @@
-for ($i = 1; $i < $num_args; $i++) {\n        $parameter = func_get_arg($i);

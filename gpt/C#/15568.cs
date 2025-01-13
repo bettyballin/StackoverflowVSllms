@@ -1,1 +1,0 @@
-// Avoid this\n   var key = Registry.LocalMachine.OpenSubKey("Software\\SomeKey");

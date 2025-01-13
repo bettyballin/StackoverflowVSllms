@@ -1,0 +1,1 @@
+DELIMITER //\n\nCREATE PROCEDURE my_procedure()\nBEGIN\n  DECLARE my_var INT;\n  SET my_var = 5;\n  SELECT 'my_var = ', @my_var;\n  -- rest of the procedure\nEND //\n\nDELIMITER ;

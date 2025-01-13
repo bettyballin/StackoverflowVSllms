@@ -1,1 +1,0 @@
-javac -cp .:path/to/mypackage.jar -d bin src/NewConsoleApp.java

@@ -1,1 +1,0 @@
-ALTER FUNCTION udf_CappedDate\n(\n    @DateTimeIn datetime\n)\nRETURNS datetime\nWITH SCHEMABINDING\nAS\nBEGIN\n    IF @DateTimeIn < '1900-01-01'\n        RETURN CAST('1900-01-01' AS datetime)\n    ELSE IF @DateTimeIn > '2100-01-01'\n        RETURN CAST('2100-01-01' AS datetime)\n\n    RETURN @DateTimeIn\nEND

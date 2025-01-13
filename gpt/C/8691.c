@@ -1,1 +1,0 @@
-#include <jni.h>\n#include <stdio.h>\n\nJNIEXPORT void JNICALL Java_NativeLibrary_printMessage(JNIEnv *env, jobject obj) {\n    printf("Hello from C!\n");\n}

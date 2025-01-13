@@ -1,0 +1,1 @@
+# Convert the ACL back to a binary value\nvalue = acl.to_bytes()\n\n# Write the updated value to the registry\nwin32api.RegSetValueEx(key, 'DefaultLaunchPermission', 0, win32api.REG_BINARY, value)

@@ -1,1 +1,0 @@
-max = Math.max(max, sample);

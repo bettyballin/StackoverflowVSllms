@@ -1,0 +1,1 @@
+Dim variable As CustomType = CustomType.CreateDefault()

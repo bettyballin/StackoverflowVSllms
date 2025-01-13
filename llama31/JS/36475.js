@@ -1,0 +1,1 @@
+// Set a value\nlocalStorage.setItem('todoList', JSON.stringify(todoArray));\n\n// Get a value\nvar todoList = JSON.parse(localStorage.getItem('todoList'));

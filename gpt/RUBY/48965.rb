@@ -1,1 +1,0 @@
-Rails.application.routes.draw do\n     get 'generate_pdf', to: 'reports#generate_pdf'\n   end

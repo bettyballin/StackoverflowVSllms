@@ -1,0 +1,1 @@
+wget -r -k -E -p http://example.com

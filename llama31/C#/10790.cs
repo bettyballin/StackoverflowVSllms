@@ -1,0 +1,1 @@
+bool IsPerfectSquare(long input)\n{\n    if (input < 0) return false;\n    long sqrt = (long)Math.Sqrt(input);\n    return sqrt * sqrt == input;\n}

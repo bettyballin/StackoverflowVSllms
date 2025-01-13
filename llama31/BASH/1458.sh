@@ -1,0 +1,1 @@
+echo 0 > /sys/power/pm_suspend

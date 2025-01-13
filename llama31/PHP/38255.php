@@ -1,0 +1,1 @@
+// template1.php\n<h1><?= $tmpl_title ?></h1>\n<p><?= $tmpl_content ?></p>\n<img src="<?= $tmpl_image ?>" alt="">

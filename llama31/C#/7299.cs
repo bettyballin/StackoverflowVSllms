@@ -1,0 +1,1 @@
+string xmlInput = "your_xml_input_string";\nstring xsltPath = "path_to_your_xslt_file.xslt";\nstring csvOutput = XmlToCsvConverter.ConvertXmlToCsv(xmlInput, xsltPath);\nConsole.WriteLine(csvOutput);

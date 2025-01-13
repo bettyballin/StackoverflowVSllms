@@ -1,1 +1,0 @@
-SELECT GROUP_CONCAT(hobbies ORDER BY hobbies SEPARATOR ', ') AS combined_hobbies\nFROM peoples_hobbies\nWHERE person_id = 5;

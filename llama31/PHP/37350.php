@@ -1,0 +1,1 @@
+$db = new PDO('sqlite:your_database.db');\n$stmt = $db->prepare($query);\n$stmt->execute();\n$result = $stmt->fetchAll();

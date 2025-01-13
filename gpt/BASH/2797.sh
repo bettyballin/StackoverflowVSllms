@@ -1,1 +1,0 @@
-reg add "HKLM\Software\Microsoft\Exchange\EventSinks\SMTP Protocol\OnArrival" /v email_sink /t REG_SZ /d "email_sink.vbs"

@@ -1,1 +1,0 @@
-#ifndef some_file_h\n#define some_file_h\n\n// Content of some/file.h\n\n#endif // some_file_h

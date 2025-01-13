@@ -1,0 +1,1 @@
+public static readonly DateTime ADate = DateTime.Parse("12/31/04", CultureInfo.InvariantCulture);

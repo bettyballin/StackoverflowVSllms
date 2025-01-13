@@ -1,1 +1,0 @@
-tcpdump -i <interface> tcp port 3690 -w svn_traffic.pcap

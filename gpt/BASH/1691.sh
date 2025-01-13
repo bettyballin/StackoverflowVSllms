@@ -1,1 +1,0 @@
-ssh user@hostname 'your_command_here'

@@ -1,1 +1,0 @@
-WITH EmployeeCTE AS (\n    SELECT EmployeeID, FirstName, LastName, DepartmentID, ROW_NUMBER() OVER (PARTITION BY DepartmentID ORDER BY LastName) AS RowNum\n    FROM Employees\n)\nSELECT * \nFROM EmployeeCTE\nWHERE RowNum = 1;

@@ -1,0 +1,1 @@
+string processName = "myprocess"; // replace with the name of the process you want to attach to\nProcess[] processes = Process.GetProcessesByName(processName);\nif (processes.Length > 0)\n{\n    Process process = processes[0];\n    // ...\n}

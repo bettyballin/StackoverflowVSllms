@@ -1,0 +1,1 @@
+ALTER TABLE MyTable ADD BrandNewName [datatype]\nUPDATE MyTable SET BrandNewName = SomeColumn\nALTER TABLE MyTable DROP COLUMN SomeColum

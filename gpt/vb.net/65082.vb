@@ -1,1 +1,0 @@
-Private Shared Function MakeArray(Of T)(ByVal ParamArray args() As T) As T()\n    Return args\nEnd Function\n\nPublic Sub PrintNames(names() As String)\n    For Each name As String In names\n        Console.WriteLine(name)\n    Next\nEnd Sub\n\nPrintNames(MakeArray("Hans", "Luke", "Lia"))

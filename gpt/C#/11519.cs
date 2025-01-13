@@ -1,1 +1,0 @@
-public interface IProvider\n{\n    string Name { get; }\n    Stream GetDataStream();\n    // Add other common properties and methods\n}

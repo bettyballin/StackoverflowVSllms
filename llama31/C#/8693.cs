@@ -1,0 +1,1 @@
+using System.Security.Cryptography;\n\nclass Program\n{\n    static void Main()\n    {\n        byte[] data = Encoding.UTF8.GetBytes("Hello, World!");\n        using (var sha512 = new SHA512Cng())\n        {\n            byte[] hash = sha512.ComputeHash(data);\n            Console.WriteLine(BitConverter.ToString(hash));\n        }\n    }\n}

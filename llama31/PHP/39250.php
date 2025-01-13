@@ -1,0 +1,1 @@
+$login = str_replace("'", "", $_SESSION['login']);

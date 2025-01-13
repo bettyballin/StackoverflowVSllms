@@ -1,0 +1,1 @@
+if ($_POST['submit'] == "Next" && is_array($_POST['info']) && count($_POST['info']) > 1) {\n    foreach(array_slice($_POST['info'], 1) as $key => $value) {\n        echo $value;\n    }\n}

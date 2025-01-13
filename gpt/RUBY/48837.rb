@@ -1,1 +1,0 @@
-//= require jquery\n    //= require jquery_ujs

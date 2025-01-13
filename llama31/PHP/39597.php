@@ -1,0 +1,1 @@
+$params['column1'] = $tempParams['newColumns'] ?? 'default value';

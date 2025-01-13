@@ -1,0 +1,1 @@
+#container {\n  width: 80vw; /* 80% of the viewport width */\n  display: flex;\n  justify-content: space-between;\n  gap: 10px; /* separation between inner divs */\n}\n\n#col1, #col2 {\n  flex-basis: 50%; /* take up equal space */\n  background-color: lightgray; /* for demo purposes */\n}

@@ -1,0 +1,1 @@
+using (var process = new Process())\n{\n    process.StartInfo.FileName = "your_exe.exe";\n    process.Start();\n    // Wait for the process to complete or timeout\n    process.WaitForExit(10000); // 10 second timeout\n}

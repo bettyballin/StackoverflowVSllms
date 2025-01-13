@@ -1,1 +1,0 @@
-/* Ensure floats are cleared */\n.clearfix::after {\n    content: "";\n    display: table;\n    clear: both;\n}\n\n/* Apply clearfix to parent element */\n#right-content {\n    zoom: 1; /* IE6 hasLayout trigger */\n    overflow: hidden; /* Another way to ensure proper rendering */\n}

@@ -1,0 +1,1 @@
+svn commit -m "Recovered from backup" /path/to/restored/repo

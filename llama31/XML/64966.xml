@@ -1,0 +1,1 @@
+<!-- DataLayer.config -->\n<connectionStrings>\n  <add name="DataLayer" connectionString="..." />\n</connectionStrings>

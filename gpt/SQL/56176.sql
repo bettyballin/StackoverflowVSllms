@@ -1,1 +1,0 @@
-SELECT t.day, t.id\nFROM test t\nJOIN (\n    SELECT day\n    FROM test\n    GROUP BY day\n    HAVING COUNT(*) > 1\n) dup ON t.day = dup.day\nORDER BY t.day, t.id;

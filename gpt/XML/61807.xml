@@ -1,1 +1,0 @@
-<dependency>\n    <groupId>org.subethamail</groupId>\n    <artifactId>subethasmtp</artifactId>\n    <version>3.1.7</version>\n</dependency>

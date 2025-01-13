@@ -1,0 +1,1 @@
+mv /ssi/filename.html /ssi/filename.shtml

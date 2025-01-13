@@ -1,0 +1,1 @@
+import re\n\nreg = re.compile(r"<tr><td\s+width\s*=\s*60\s+bgcolor\s*=\s*'#ffffcc'\s*><b>([^<]*)</b></td><td\s+align\s*=\s*center\s+width\s*=\s*80\s*>")\nvalue = reg.search(htmlbody)\nif value:\n    print('Value is', value.group(1))

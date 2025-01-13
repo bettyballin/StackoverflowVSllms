@@ -1,1 +1,0 @@
-string connectionString = "Provider=SQLOLEDB;Data Source=ServerName;Initial Catalog=DatabaseName;User ID=Username;Password=Password;";

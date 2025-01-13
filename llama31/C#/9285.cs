@@ -1,0 +1,1 @@
+DataGridViewColumnCollection dgv = myDataGridView.Columns;\ndgv.GetFirstColumn(\n     DataGridViewElementStates.Visible, \n     DataGridViewElementStates.Frozen);

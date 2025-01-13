@@ -1,0 +1,1 @@
+#!/bin/bash\n\nssh -t -l username hostname pytho

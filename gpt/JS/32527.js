@@ -1,1 +1,0 @@
-// Example using express-rate-limit in Node.js\n    const rateLimit = require('express-rate-limit');\n\n    const apiLimiter = rateLimit({\n        windowMs: 15 * 60 * 1000, // 15 minutes\n        max: 100 // limit each IP to 100 requests per windowMs\n    });\n\n    app.use('/api/', apiLimiter);

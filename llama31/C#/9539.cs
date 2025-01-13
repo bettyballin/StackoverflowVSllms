@@ -1,0 +1,1 @@
+ServicePointManager.ServerCertificateValidationCallback += \n    (sender, certificate, chain, sslPolicyErrors) => true;\n\n// Your HttpWebRequest and HttpWebResponse code here

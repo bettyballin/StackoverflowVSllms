@@ -1,0 +1,1 @@
+$descriptorspec = array(\n    0 => array("pipe", "r"),  // stdin\n    1 => array("pipe", "w"),  // stdout\n    2 => array("pipe", "w")   // stderr\n);\n\n$process = proc_open('your_command', $descriptorspec, $pipes);\n\n$status = proc_get_status($process);\n$pid = $status['pid'];\n\n// Store the PID in a database or file for later use

@@ -1,0 +1,1 @@
+launcher.ExitQTP(qtpApp);\nGC.KeepAlive(qtpApp);

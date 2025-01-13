@@ -1,0 +1,1 @@
+pear push /path/to/package com.example.pear

@@ -1,0 +1,1 @@
+exec('schtasks /run /tn "Restart Apache"');

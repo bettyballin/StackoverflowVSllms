@@ -1,1 +1,0 @@
-$pattern = '/^\d{4}-\d{2}-\d{2} \d{2}:\d{2}:\d{2}$/';\n$string = '2008-09-01 12:35:45';\n\nif (preg_match($pattern, $string)) {\n    echo "Valid datetime format.";\n} else {\n    echo "Invalid datetime format.";\n}

@@ -1,0 +1,1 @@
+void MyMethod(out int x)\n{\n    x = 10; // must assign a value to x\n}\n\nint myVar;\nMyMethod(out myVar);\nConsole.WriteLine(myVar); // prints 10

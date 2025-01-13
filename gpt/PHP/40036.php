@@ -1,1 +1,0 @@
-$fetched = "name=myName zip=420424 country=myCountry"; // Example string\npreg_match('/zip=([0-9]+)/', $fetched, $matches);\n\nif(isset($matches[1])) {\n    $zip = $matches[1];\n    echo "The extracted zip code is: " . $zip;\n} else {\n    echo "No zip code found.";\n}

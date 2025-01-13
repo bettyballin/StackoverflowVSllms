@@ -1,1 +1,0 @@
-sudo cp remote_server_cert.pem /usr/local/share/ca-certificates/

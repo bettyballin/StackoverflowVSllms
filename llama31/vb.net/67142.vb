@@ -1,0 +1,1 @@
+Dim currentDate As Date = DateTime.Now.Date

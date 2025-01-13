@@ -1,0 +1,1 @@
+[Assembly: System.Resources.AssemblyResource("log4net.dll")]

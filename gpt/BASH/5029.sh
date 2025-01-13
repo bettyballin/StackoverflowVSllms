@@ -1,1 +1,0 @@
-#!/bin/bash\n\n# Change to the directory containing your git repository\ncd /path/to/your/repo\n\n# Fetch and prune origin branches to keep it clean\ngit fetch --prune origin\n\n# Iterate over all local branches\nfor branch in $(git for-each-ref --format='%(refname:short)' refs/heads/); do\n    # Push each branch to the backup remote\n    git push backup-remote $branch\ndone

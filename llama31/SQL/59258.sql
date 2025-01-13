@@ -1,0 +1,1 @@
+DECLARE @TableVariable TABLE (\n    ID INT,\n    -- other columns\n    PRIMARY KEY (ID)\n);\n\nINSERT INTO @TableVariable\nSELECT * FROM YourTable;\n\nDECLARE @ID INT;\nSET @ID = (SELECT MIN(ID) FROM @TableVariable);\n\nWHILE @ID IS NOT NULL\nBEGIN\n    -- process each row\n    PRINT @ID;\n\n    SET @ID = (SELECT MIN(ID) FROM @TableVariable WHERE ID > @ID);\nEND;

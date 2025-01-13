@@ -1,1 +1,0 @@
-SELECT * FROM myTable WHERE UPPER(myField) = UPPER('sOmeVal')

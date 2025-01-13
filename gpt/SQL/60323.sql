@@ -1,1 +1,0 @@
-GRANT CTXAPP TO your_user;

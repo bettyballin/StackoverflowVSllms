@@ -1,0 +1,1 @@
+DELETE FROM map\nWHERE itemId = ? AND catId NOT IN (SELECT catId FROM categories WHERE catName IN ('each', 'category', 'name'));

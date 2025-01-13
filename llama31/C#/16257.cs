@@ -1,0 +1,1 @@
+// Example of using Doxygen to generate documentation for a C# method\n/// <summary>\n/// Example method\n/// </summary>\n/// <param name="param1">First parameter</param>\n/// <returns>Return value</returns>\npublic int ExampleMethod(int param1)\n{\n    // Method implementation\n}

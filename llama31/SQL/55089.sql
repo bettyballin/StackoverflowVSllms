@@ -1,0 +1,1 @@
+UPDATE your_table\nSET priority = \n    CASE priority\n        WHEN 1 THEN 5\n        WHEN 2 THEN 4\n        WHEN 3 THEN 3\n        WHEN 4 THEN 2\n        WHEN 5 THEN 1\n    END;

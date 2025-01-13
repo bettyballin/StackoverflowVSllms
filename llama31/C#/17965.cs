@@ -1,0 +1,1 @@
+foreach (var item in collection) {\n    Console.WriteLine(item);\n}

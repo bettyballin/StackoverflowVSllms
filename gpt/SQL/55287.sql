@@ -1,1 +1,0 @@
-CREATE INDEX IDX_FieldW ON A(FieldW);

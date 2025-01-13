@@ -1,1 +1,0 @@
-svn import /local/path/to/app1 file:///path/to/repo/app1 -m "Initial import of app1"\n   svn import /local/path/to/app2 file:///path/to/repo/app2 -m "Initial import of app2"\n   svn import /local/path/to/app3 file:///path/to/repo/app3 -m "Initial import of app3"\n   svn import /local/path/to/shared file:///path/to/repo/shared -m "Initial import of shared"

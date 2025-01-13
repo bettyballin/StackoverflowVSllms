@@ -1,1 +1,0 @@
-public interface IHasDimensions\n{\n    Dimensions Dimensions { get; }\n}

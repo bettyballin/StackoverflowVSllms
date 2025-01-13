@@ -1,1 +1,0 @@
-static void Main(string[] args)\n    {\n        ServiceHost host = new ServiceHost(typeof(MyService));\n        host.Open();\n        Console.WriteLine("Service is running...");\n        Console.ReadLine();\n        host.Close();\n    }

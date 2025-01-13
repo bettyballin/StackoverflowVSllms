@@ -1,0 +1,1 @@
+# Create a new repository for shared code\ngit init shared-code\n# Add shared code to the repository\ngit add .\ngit commit -m "Initial commit"\n\n# Create a new repository for a site\ngit init site-1\n# Add the shared code as a submodule\ngit submodule add git@github.com:your-username/shared-code.git\n# Commit the submodule\ngit commit -m "Added shared code submodule"

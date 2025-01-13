@@ -1,0 +1,1 @@
+phpunit --debug your_test_suite.php

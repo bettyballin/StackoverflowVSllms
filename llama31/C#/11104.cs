@@ -1,0 +1,1 @@
+using log4net.Config;\n\n// ...\n\nXmlConfigurator.Configure(new FileInfo("Log.config"));

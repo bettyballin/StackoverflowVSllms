@@ -1,0 +1,1 @@
+$array = array('a', 'b', 'c', 'd');\n\narray_reduce($array, function ($carry, $item) use (&$isLastElem) {\n    $isLastElem = $item === end($array);\n    // do something\n});

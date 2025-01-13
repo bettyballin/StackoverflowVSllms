@@ -1,0 +1,1 @@
+RECT rectWindow, rectClient;\nGetWindowRect(hWnd, &rectWindow);\nGetClientRect(hWnd, &rectClient);\n\nint borderPaddingX = (rectWindow.right - rectWindow.left) - (rectClient.right - rectClient.left);\nint borderPaddingY = (rectWindow.bottom - rectWindow.top) - (rectClient.bottom - rectClient.top);

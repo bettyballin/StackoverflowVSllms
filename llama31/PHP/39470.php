@@ -1,0 +1,1 @@
+$array = array('id' => 1, 'name' => 'John', 'age' => 30);\n\nforeach (array_filter($array, function($key) { return $key != 'id'; }, ARRAY_FILTER_USE_KEY) as $key => $value) {\n    // whatever\n    echo "$key: $value\n";\n}

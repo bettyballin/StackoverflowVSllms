@@ -1,1 +1,0 @@
-Log("Creating server socket on port {0}", LogType.Info, _port);\n_serversocket = new Socket(AddressFamily.InterNetworkV6, SocketType.Stream, ProtocolType.Tcp);\n_serversocket.Bind(new IPEndPoint(IPAddress.IPv6Any, _port));\n_serversocket.Listen(10);

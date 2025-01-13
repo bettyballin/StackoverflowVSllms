@@ -1,0 +1,1 @@
+const express = require('express');\nconst app = express();\n\n// ...\n\nconst cookieOptions = {\n  httpOnly: true,\n  secure: true,\n  sameSite: 'strict', // or 'lax' if you need to allow some cross-site requests\n  maxAge: 86400000, // 1 day, adjust to your desired expiration time\n};\n\nres.cookie('persistentLogin', token, cookieOptions);

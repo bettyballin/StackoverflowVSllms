@@ -1,0 +1,1 @@
+function get_cached_table($group_id) {\n  $sql = "SELECT html FROM cached_tables WHERE group_id = :group_id";\n  $stmt = $pdo->prepare($sql);\n  $stmt->execute(['group_id' => $group_id]);\n  return $stmt->fetchColumn();\n}

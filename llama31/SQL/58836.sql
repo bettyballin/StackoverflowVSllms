@@ -1,0 +1,1 @@
+CREATE OR REPLACE PROCEDURE mainSP AS\nBEGIN\n    callSP1;\n    callSP2;\n    callSP3;\nEND;\n\nCREATE OR REPLACE PROCEDURE callSP1 AS\nBEGIN\n    -- some code here\nEND;\n\nCREATE OR REPLACE PROCEDURE callSP2 AS\nBEGIN\n    -- some code here\nEND;\n\nCREATE OR REPLACE PROCEDURE callSP3 AS\nBEGIN\n    -- some code here\nEND;

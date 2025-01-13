@@ -1,0 +1,1 @@
+curl -X GET 'https://lookups.twilio.com/v1/PhoneNumbers/+1234567890?Type=carrier' \\n-u your_account_sid:your_auth_toke

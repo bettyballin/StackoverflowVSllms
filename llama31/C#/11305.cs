@@ -1,0 +1,1 @@
+using System.Web;\n\npublic class MyClass\n{\n    public void MyMethod()\n    {\n        var session = HttpContext.Current.Session;\n        var value = session["SessionKey1"];\n        // use the value\n    }\n}

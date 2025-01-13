@@ -1,0 +1,1 @@
+DENY SELECT ON dbo.mytable TO [specific_user];

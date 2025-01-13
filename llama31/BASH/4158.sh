@@ -1,0 +1,1 @@
+# Using backslash to escape single quote\nsed -e 's/\'foo\'/bar/g'\n\n# Using character class to match single quote\nsed -e 's/[\'"]foo[\'"]/bar/g'

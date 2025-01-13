@@ -1,0 +1,1 @@
+const xhr = new XMLHttpRequest();\nxhr.open('GET', '/data', true);\nxhr.onload = function() {\n  if (xhr.status === 200) {\n    const data = JSON.parse(xhr.responseText);\n    // Process the data\n  }\n};\nxhr.send();

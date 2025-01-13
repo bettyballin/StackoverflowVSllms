@@ -1,0 +1,1 @@
+for (iter = characters.begin(); iter != characters.end(); iter++) {\n    std::vector<coords>& cha = *iter; // notice the dereference operator *\n    coords& first = cha.at(0);\n    // or\n    coords& first = (*iter).at(0);\n}

@@ -1,1 +1,0 @@
-DirectoryEntry entry = new DirectoryEntry("LDAP://your-ldap-path");\nDisplayProperties(entry);

@@ -1,1 +1,0 @@
-gcc -o dump_registers dump_registers.c\n./dump_registers

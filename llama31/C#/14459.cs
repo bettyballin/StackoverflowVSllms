@@ -1,0 +1,1 @@
+class Program\n{\n    static void Main(string[] args)\n    {\n        RunHook runHook = new RunHook();\n        Application.Run();\n    }\n}

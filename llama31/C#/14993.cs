@@ -1,0 +1,1 @@
+[ComRegisterFunction]\npublic static void Register(Type type)\n{\n    RegistryKey key = Registry.ClassesRoot.CreateSubKey("CLSID\\" + type.GUID.ToString("B"));\n    key.SetValue("InprocServer32", @"C:\Path\To\Your\Assembly.dll");\n    key.SetValue("ThreadingModel", "Both");\n    key.Close();\n}

@@ -1,0 +1,1 @@
+protected void tb_Search_TextChanged(object sender, EventArgs e)\n{\n    UpdateGrid(sender, e);\n}

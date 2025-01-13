@@ -1,1 +1,0 @@
-sudo yum install libssh2 libssh2-devel

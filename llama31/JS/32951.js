@@ -1,0 +1,1 @@
+$("a[rel=more]").live("click", function(){\n    ...\n    show_var = end_var+1; // remove var keyword\n    ...\n});

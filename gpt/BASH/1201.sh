@@ -1,1 +1,0 @@
-svn checkout https://your-svn-repo-url /path/to/your/website

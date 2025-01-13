@@ -1,1 +1,0 @@
-sqlines -s=sqlserver -t=mysql input_file.sql -o=output_file.sql

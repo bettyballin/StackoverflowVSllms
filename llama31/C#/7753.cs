@@ -1,0 +1,1 @@
+public struct ImagePacket\n{\n    public ushort SequenceNumber;\n    public ushort TotalPackets;\n    public byte[] ImageData; // 1500 bytes\n}

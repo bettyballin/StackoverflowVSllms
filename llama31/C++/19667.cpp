@@ -1,0 +1,1 @@
+QSqlTableModel *model = new QSqlTableModel(this);\nmodel->setTable("mytable");\nmodel->select();\n\nQTableView *tableView = new QTableView(this);\ntableView->setModel(model);

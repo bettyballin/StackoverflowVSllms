@@ -1,0 +1,1 @@
+using System.Web.Services.Protocols;\n\n// assume 'url' is the dynamically received URL\nstring url = "http://someapp1.com/UpdateData";\n\n// create a new SoapHttpClientProtocol instance\nSoapHttpClientProtocol client = new SoapHttpClientProtocol();\nclient.Url = url;\n\n// invoke the service method\nstring response = client.Invoke("UpdateData", xmlData);

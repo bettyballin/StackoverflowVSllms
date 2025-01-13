@@ -1,0 +1,1 @@
+<configuration>\n  <system.web>\n    <authorization>\n      <allow roles="YourADGroupName" />\n      <deny users="*" />\n    </authorization>\n  </system.web>\n</configuration>

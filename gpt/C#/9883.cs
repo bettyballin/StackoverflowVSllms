@@ -1,1 +1,0 @@
-// In CoreProject\nnamespace CoreNamespace\n{\n    public class CoreClass\n    {\n        public string CoreMethod()\n        {\n            return "Hello from Core!";\n        }\n    }\n}

@@ -1,0 +1,1 @@
+using System.Reflection;\n\n// Load the assembly\nAssembly assembly = Assembly.LoadFrom("YourProject.dll");\n\n// Get all types in the assembly\nType[] types = assembly.GetTypes();\n\n// Filter out non-class types\nvar classes = types.Where(t => t.IsClass);\n\n// Print the names of all classes\nforeach (var clazz in classes)\n{\n    Console.WriteLine(clazz.Name);\n}

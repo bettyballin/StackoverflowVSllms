@@ -1,0 +1,1 @@
+SELECT \n  t2.Text,\n  s1.Desc AS Desc1,\n  s1.AAAA AS AAAA1,\n  s2.Desc AS Desc2,\n  s2.AAAA AS AAAA2,\n  s3.Desc AS Desc3,\n  s3.AAAA AS AAAA3\nFROM \n  Table2 t2\n  INNER JOIN Source s1 ON t2.ID1 = s1.ID\n  INNER JOIN Source s2 ON t2.ID2 = s2.ID\n  INNER JOIN Source s3 ON t2.ID3 = s3.ID;

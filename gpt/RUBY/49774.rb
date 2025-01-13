@@ -1,1 +1,0 @@
-# In your Rails controller\nbefore_action :restrict_access_by_ip\n\nprivate\n\ndef restrict_access_by_ip\n  allowed_ips = ['192.168.1.100', '192.168.1.101'] # Replace with your allowed local IPs\n  unless allowed_ips.include?(request.remote_ip)\n    render json: { error: 'Forbidden' }, status: :forbidden\n  end\nend

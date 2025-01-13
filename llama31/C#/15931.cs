@@ -1,0 +1,1 @@
+var person = new Person();\nperson.Name = "John";\nperson.Age = 30;\nperson.City = "New York";

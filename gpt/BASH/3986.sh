@@ -1,1 +1,0 @@
-java -Xmx512m -Xss1m -jar untrusted-code.jar

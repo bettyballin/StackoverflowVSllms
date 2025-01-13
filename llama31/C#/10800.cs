@@ -1,0 +1,1 @@
+[DllImport("yourdll.dll")]\nstatic extern void YourCFunction(IntPtr data);

@@ -1,1 +1,0 @@
-[Test]\nvoid Test_Something_That_Throws_Exception()\n{\n    Assert::Throws<ArgumentOutOfRangeException^>(gcnew TestDelegate(this, &YourTestClass::MethodThatThrows));\n}\n\nvoid MethodThatThrows()\n{\n    throw gcnew ArgumentOutOfRangeException("Some more detail");\n}

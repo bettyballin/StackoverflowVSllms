@@ -1,1 +1,0 @@
-gcc -c yourfunction.c -o yourfunction.o\n    gcc -shared -o yourdllname.dll yourfunction.o -Wl,--output-def,exports.def

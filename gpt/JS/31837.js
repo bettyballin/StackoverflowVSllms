@@ -1,1 +1,0 @@
-fetch('http://www.foo.com/blah.html', {\n     credentials: 'include'\n   })\n   .then(response => response.text())\n   .then(html => {\n     document.getElementById('myDiv').innerHTML = html;\n   })\n   .catch(error => console.error('Error:', error));

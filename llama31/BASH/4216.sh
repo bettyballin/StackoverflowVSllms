@@ -1,0 +1,1 @@
+msiexec /i vssdk.msi ADDLOCAL=Core,Tools

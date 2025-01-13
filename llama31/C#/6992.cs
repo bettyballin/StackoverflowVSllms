@@ -1,0 +1,1 @@
+m_bt_Save.Attributes.Add("OnClick", "if (typeof(Page_ClientValidate) != 'function' ||  Page_ClientValidate()) __doPostBack('m_bt_Save','')");

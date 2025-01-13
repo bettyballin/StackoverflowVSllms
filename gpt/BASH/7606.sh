@@ -1,1 +1,0 @@
-# Download and install the .tar.gz file from the official site\n   wget -qO- https://update.code.visualstudio.com/latest/linux-x64/stable | tar -xzf - -C /opt/\n   ln -s /opt/VSCode-linux-x64/code /usr/local/bin/code

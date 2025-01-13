@@ -1,0 +1,1 @@
+[Test]\npublic void BaseMethod_should_call_correct_child_method()\n{\n    // Arrange\n    var mockTestBase = new Mock<TestBase>();\n    mockTestBase.Protected().Setup("ChildMethod1");\n    mockTestBase.Object.runMethod1 = true;\n\n    // Act\n    mockTestBase.Object.BaseMethod();\n\n    // Assert\n    mockTestBase.Protected().Verify("ChildMethod1", Times.Once);\n}

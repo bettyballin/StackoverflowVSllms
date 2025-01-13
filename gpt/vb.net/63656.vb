@@ -1,1 +1,0 @@
-Public Function Details(id As String) As ActionResult\n    ' Your logic here\n    Return View()\nEnd Functio

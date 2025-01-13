@@ -1,1 +1,0 @@
-import importlib\nimport pkgutil\n\n# Dynamically import all modules in the 'providers' package\nfor loader, module_name, is_pkg in pkgutil.walk_packages(__path__):\n    importlib.import_module(f'.{module_name}', package=__name__)

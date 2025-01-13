@@ -1,0 +1,1 @@
+SELECT cs-uri-stem, cs-method, sc-status, COUNT(*) AS Attempts\nFROM [LOGFILE]\nWHERE sc-status = 401\nGROUP BY cs-uri-stem, cs-method, sc-status\nORDER BY Attempts DESC

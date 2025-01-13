@@ -1,1 +1,0 @@
-$ a=0 ; while test $a -lt 10 ; do ./MyCode | wc -l ; a=`expr $a + 1` ; done

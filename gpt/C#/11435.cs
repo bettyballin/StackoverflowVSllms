@@ -1,1 +1,0 @@
-[HttpPost]\n[ValidateAntiForgeryToken]\npublic ActionResult SubmitForm(MyModel model)\n{\n    if (ModelState.IsValid)\n    {\n        // Process the form submission\n    }\n    else\n    {\n        // Handle validation errors\n    }\n    return View(model);\n}

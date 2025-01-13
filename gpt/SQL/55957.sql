@@ -1,1 +1,0 @@
-SELECT users.name, orders.product\nFROM users\nJOIN orders ON users.id = orders.user_id;

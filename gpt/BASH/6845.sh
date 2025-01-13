@@ -1,1 +1,0 @@
-RewriteEngine On\nRewriteBase /\n\n# Match language code followed by PHP or PHP5 file\nRewriteRule ^([a-zA-Z0-9-]+)/(.+\.php5?)$ /$2?lang=$1 [QSA,L]\n\n# If you want to make sure only certain language codes are accepted,\n# you can specify them in the regex:\n# RewriteRule ^(en|ch-ZH)/(.+\.php5?)$ /$2?lang=$1 [QSA,L]

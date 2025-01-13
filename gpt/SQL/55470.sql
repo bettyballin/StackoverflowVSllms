@@ -1,1 +1,0 @@
-SELECT *,\n       CASE \n           WHEN u.email = (SELECT email FROM companies WHERE Id = 1) THEN 1 \n           ELSE 2 \n       END AS SortMeFirst \nFROM Users u \nWHERE u.companyId = 1 \nORDER BY SortMeFirst;

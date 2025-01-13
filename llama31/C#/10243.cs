@@ -1,0 +1,1 @@
+Response.Redirect("http://example.com/path");

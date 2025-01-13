@@ -1,1 +1,0 @@
-// MyClass.cs\nusing System;\n\nnamespace MyNamespace\n{\n    public class MyClass\n    {\n        public string SayHello(string name)\n        {\n            return $"Hello, {name}!";\n        }\n    }\n}

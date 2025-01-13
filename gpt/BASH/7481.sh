@@ -1,1 +1,0 @@
-ls -al /path/to/your/httpdocs

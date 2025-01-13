@@ -1,0 +1,1 @@
+php -d include_path=".:/usr/local/PEAR" /usr/local/bin/phpunit

@@ -1,0 +1,1 @@
+#include <stdint.h>\n\n// Define a function to prefetch data\nvoid prefetch_data(void* addr) {\n    __builtin_prefetch(addr);\n}\n\n// Example usage\nint main() {\n    int data[10];\n    prefetch_data(data);\n\n    // Use the prefetched data\n    for (int i = 0; i < 10; i++) {\n        data[i] = i;\n    }\n\n    return 0;\n}

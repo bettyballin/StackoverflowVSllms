@@ -1,1 +1,0 @@
-from xmldiff import main, formatting\n\ndiff = main.diff_files('previous_month.xml', 'current_month.xml', formatter=formatting.XMLFormatter())\nprint(diff)

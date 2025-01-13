@@ -1,0 +1,1 @@
+Imports System\n\nClass Program\n    Shared Sub Main()\n        Dim s As String = "test " + "this " + "function"\n        Console.WriteLine(s)\n    End Sub\nEnd Class

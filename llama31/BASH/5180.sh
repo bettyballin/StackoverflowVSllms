@@ -1,0 +1,1 @@
+# Update Grav core\nbin/grav update\n\n# Update plugins\nbin/grav update --plugins

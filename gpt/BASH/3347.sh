@@ -1,1 +1,0 @@
-chmod +x change-svn-wc-format.py

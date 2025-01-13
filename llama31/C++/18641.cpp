@@ -1,0 +1,1 @@
+struct WrappedInt {\n    int v;\n    constexpr WrappedInt(int val) : v(val) {}\n    // ...\n};

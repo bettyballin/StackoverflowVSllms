@@ -1,0 +1,1 @@
+using (var session = NHibernateHelper.OpenSession()) {\n    var query = session.QueryOver<User>()\n        .Where(u => u.Username == username)\n        .List();\n\n    // Use parameterized query to avoid SQL injection\n    session.CreateSQLQuery("SELECT * FROM Users WHERE Username = :username")\n        .SetString("username", username)\n        .List<User>();\n}

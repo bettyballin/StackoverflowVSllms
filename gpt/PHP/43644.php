@@ -1,1 +1,0 @@
-// Determine the base URL for navigation\n   $base_url = (strpos($_SERVER['REQUEST_URI'], '/admin') === 0) ? '../' : '/';\n\n   // Use the base URL in your navigation links\n   echo '<a href="' . $base_url . 'index.php">Home</a>';\n   echo '<a href="' . $base_url . 'about.php">About</a>';

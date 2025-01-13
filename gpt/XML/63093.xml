@@ -1,1 +1,0 @@
-<flow ... start-state="stateA">\n    <var name="flowBean" class="demo.webflow.WebFlowBean" />\n    <view-state id="stateA" view="fooView">\n        <transition on="submit" to="changeA" />\n    </view-state>\n    <action-state id="changeA">\n        <evaluate expression="flowScope.flowBean.setA(requestParameters.value)" />\n        ...\n    </action-state>\n</flow>

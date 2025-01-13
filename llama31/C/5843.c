@@ -1,0 +1,1 @@
+// Session layer example (simplified)\nint session_id = establish_session(remote_host, remote_port);\nsend_data(session_id, "Hello, world!");\nreceive_data(session_id, buffer);\nterminate_session(session_id);

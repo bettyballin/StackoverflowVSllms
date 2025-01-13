@@ -1,1 +1,0 @@
-public interface IDatabase\n{\n    void OpenConnection();\n    void CloseConnection();\n    DataTable ExecuteQuery(string query);\n    void ExecuteNonQuery(string query);\n    // Add more methods as required\n}

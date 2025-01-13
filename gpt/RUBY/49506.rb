@@ -1,1 +1,0 @@
-After do\n  Article.delete_all\nend

@@ -1,0 +1,1 @@
+$db = new Database('localhost', 'username', 'password', 'database');\n$result = $db->query('SELECT * FROM table');\n$db->close();

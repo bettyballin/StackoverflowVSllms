@@ -1,0 +1,1 @@
+def create\n  @model = MyModel.new(params[:my_model])\n  @model.resubmit = params[:commit] == "Resubmit"\n  # ...\nend

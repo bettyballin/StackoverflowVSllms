@@ -1,0 +1,1 @@
+# Run the recording script\nscript/performance/recording

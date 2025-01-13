@@ -1,0 +1,1 @@
+public class MyService : IMyService\n{\n    public string SayHello(string name)\n    {\n        return "Hello, " + name + "!";\n    }\n}

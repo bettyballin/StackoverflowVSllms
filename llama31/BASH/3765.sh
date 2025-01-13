@@ -1,0 +1,1 @@
+sudo apt update\nsudo apt install -y git curl openjdk-8-jdk php7.4-cli

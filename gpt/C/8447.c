@@ -1,1 +1,0 @@
-void my_free(void* ptr) {\n    // Your free implementation\n    assert(free_list_invariant());\n}\n\nbool free_list_invariant() {\n    // Check that the free list is correctly coalesced and sorted\n    // Return true if invariant holds, false otherwise\n}

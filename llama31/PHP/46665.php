@@ -1,0 +1,1 @@
+while($row = mysql_fetch_row($result)) {\n    echo "<tr>";\n\n    foreach($row as $cell) {\n        echo "<td><a href=\"$cell\">$cell</a></td>";\n    }\n\n    echo "</tr>\n";\n}

@@ -1,0 +1,1 @@
+[WebMethod]\npublic static string GetCustomObject()\n{\n    CustomObject obj = new CustomObject();\n    // populate obj properties\n    JavaScriptSerializer serializer = new JavaScriptSerializer();\n    string json = serializer.Serialize(obj);\n    return json;\n}

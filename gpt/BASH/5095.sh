@@ -1,1 +1,0 @@
-ld -T mylinker.ld -o libmylib.so mylib.o

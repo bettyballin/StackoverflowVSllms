@@ -1,1 +1,0 @@
-CREATE INDEX idx_table1_id_name ON table1(id, name);

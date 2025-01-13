@@ -1,0 +1,1 @@
+ftp -inv $FTP_HOST << EOF\nuser $FTP_USER $FTP_PASS\ncd $FTP_DIR\nls -rt | tail -n +11 | xargs rm\nEOF

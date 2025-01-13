@@ -1,0 +1,1 @@
+UPDATE dependent_table\nSET foreign_key_column = foreign_key_column + 1\nWHERE foreign_key_column IN (SELECT Id FROM your_table);

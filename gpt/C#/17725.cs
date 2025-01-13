@@ -1,1 +1,0 @@
-FormsAuthentication.SignOut();\nResponse.Cache.SetCacheability(HttpCacheability.NoCache);\nResponse.Cache.SetExpires(DateTime.UtcNow.AddMinutes(-1));\nResponse.Cache.SetNoStore();\nResponse.AppendHeader("Pragma", "no-cache");\nResponse.Redirect("Login.aspx"); // Redirect to the login page or any other public page

@@ -1,0 +1,1 @@
+$data = array('name' => 'John', 'age' => 30);\n$json = json_encode($data);\n\n// Deserialize data\n$deserializedData = json_decode($json, true);

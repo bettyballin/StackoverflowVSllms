@@ -1,1 +1,0 @@
-Response.Cache.SetCacheability(HttpCacheability.NoCache);\nResponse.Cache.SetNoStore();\nResponse.Cache.SetExpires(DateTime.MinValue);\nResponse.Cache.SetRevalidation(HttpCacheRevalidation.AllCaches);

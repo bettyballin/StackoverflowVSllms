@@ -1,1 +1,0 @@
-pgloader --type mysql --with "data only" \\n  mysql://user:password@localhost/source_database \\n  postgresql://user:password@localhost/target_database

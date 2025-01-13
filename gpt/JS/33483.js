@@ -1,1 +1,0 @@
-$(document).ready(function() {\n  $(".scrollable-element").overlayScrollbars({});\n});

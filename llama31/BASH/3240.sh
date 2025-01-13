@@ -1,0 +1,1 @@
+svnadmin load /path/to/repo < backup.sv

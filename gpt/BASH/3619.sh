@@ -1,1 +1,0 @@
-echo $CC\n   echo $CFLAGS\n   echo $LDFLAGS

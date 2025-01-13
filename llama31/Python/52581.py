@@ -1,0 +1,1 @@
+from lxml import etree\n\nxml = etree.parse('example.xml')\nresult = xml.xpath('//book[@id="bk101"]/author/text()')\nprint(result)

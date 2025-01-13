@@ -1,1 +1,0 @@
-DECLARE\n    v_ids number_table_type := number_table_type(1, 2, 3, ..., 1001, 1002, ...);\nBEGIN\n    FOR rec IN (\n        SELECT * FROM table1 \n        WHERE ID MEMBER OF v_ids\n    ) LOOP\n        -- Process each record\n        DBMS_OUTPUT.PUT_LINE(rec.column_name);\n    END LOOP;\nEND;\n/

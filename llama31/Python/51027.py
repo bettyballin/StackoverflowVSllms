@@ -1,0 +1,1 @@
+urls = [...]  # your list of URLs\n\ncontent_item_urls = [url for url in urls if 'CONTENT_ITEM_ID' in url]\n\nprint(content_item_urls)

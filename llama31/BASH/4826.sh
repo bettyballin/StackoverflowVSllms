@@ -1,0 +1,1 @@
+@echo off\npowershell -File C:\path\to\your\script.ps1

@@ -1,0 +1,1 @@
+setcookie ($cookie_name, 'username='.$username., time() + $cookie_time);

@@ -1,1 +1,0 @@
-try\n    {\n        // Code that may throw an exception\n    }\n    catch (IndexOutOfRangeException ex)\n    {\n        // Log the exception or perform some action\n        throw new MyException("Some error occurred", ex); // Wrap the original exception\n    }

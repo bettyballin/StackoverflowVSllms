@@ -1,0 +1,1 @@
+ICorProfilerInfo* profilerInfo = ...; // get the ICorProfilerInfo interface\nUINT_PTR nativeIP = ...; // get the native instruction pointer\n\nCOR_IL_MAP ilMap;\nprofilerInfo->GetILInfo(nativeIP, &ilMap);\nUINT ilOffset = ilMap.ilOffset;

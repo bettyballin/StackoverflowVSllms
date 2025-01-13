@@ -1,1 +1,0 @@
-svn proplist -v --yourfile.txt

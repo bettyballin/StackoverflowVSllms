@@ -1,1 +1,0 @@
-aximp YourActiveXControl.ocx /out:AxYourActiveXControl.dll

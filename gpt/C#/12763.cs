@@ -1,1 +1,0 @@
-[HttpGet]\n   public IHttpActionResult GetCatalogData(int id)\n   {\n       var data = catalogService.GetCatalogData(id);\n       return Ok(data);\n   }

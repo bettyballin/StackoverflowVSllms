@@ -1,0 +1,1 @@
+SELECT * FROM dbo.GetTransformedData(123);

@@ -1,1 +1,0 @@
-@echo off\n    set /p ReportDate="Enter the report date (YYYY-MM-DD): "\n    bcp "EXEC YourDatabase.dbo.ExportData '%ReportDate%'" queryout "C:\Path\To\YourFile.csv" -c -t, -T -S YourServerName\n    pause

@@ -1,1 +1,0 @@
-// Lazy loading\n   var customer = session.Get<Customer>(customerId);\n   var orders = customer.Orders; // Orders are loaded only when accessed\n\n   // Eager loading\n   var customerWithOrders = session.Query<Customer>()\n                                   .Fetch(c => c.Orders)\n                                   .SingleOrDefault(c => c.Id == customerId);

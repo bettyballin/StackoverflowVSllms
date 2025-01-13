@@ -1,1 +1,0 @@
-$result->free();\n    $mysqli->close();

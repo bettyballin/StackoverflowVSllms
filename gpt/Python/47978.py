@@ -1,1 +1,0 @@
-def round_to_nearest_factor(x, y):\n    return round(x / y) * y\n\n# Examples\nprint(round_to_nearest_factor(1.002, 0.1))  # Output: 1.0\nprint(round_to_nearest_factor(0.348, 0.1))  # Output: 0.3\nprint(round_to_nearest_factor(0.50, 1))     # Output: 1.0\nprint(round_to_nearest_factor(0.32, 0.05))  # Output: 0.35

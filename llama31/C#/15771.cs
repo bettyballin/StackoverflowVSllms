@@ -1,0 +1,1 @@
+<%= Ajax.ActionLink("Link Text", "ActionName", new AjaxOptions { UpdateTargetId = "divId" }) %>\n<noscript>\n    <%= Html.ActionLink("Link Text", "ActionName") %>\n</noscript>

@@ -1,0 +1,1 @@
+$password = 'mysecretpassword';\n$hashedPassword = password_hash($password, PASSWORD_BCRYPT);

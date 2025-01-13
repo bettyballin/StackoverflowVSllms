@@ -1,0 +1,1 @@
+SELECT \n  ngram, \n  COUNT(*) as frequency\nFROM \n  (SELECT \n     CONCAT_WS(' ', \n       REGEXP_SUBSTR(text_column, '\\w+', 1, 1), \n       REGEXP_SUBSTR(text_column, '\\w+', 1, 2), \n       REGEXP_SUBSTR(text_column, '\\w+', 1, 3)\n     ) as ngram\n   FROM \n     your_table) as ngrams\nGROUP BY \n  ngram\nORDER BY \n  frequency DESC\nLIMIT 10;

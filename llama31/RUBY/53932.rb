@@ -1,0 +1,1 @@
+class MyModel < ApplicationRecord\n  attr_accessor :resubmit\n\n  validates_uniqueness_of :value1, :value2, :unless => Proc.new { |model| model.resubmit }\nend

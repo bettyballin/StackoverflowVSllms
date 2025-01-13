@@ -1,1 +1,0 @@
-public void ProcessFileUpload(byte[] fileBytes, string fileName)\n   {\n       DocumentIndexer indexer = new DocumentIndexer();\n       indexer.IndexDocument(fileBytes, fileName);\n   }

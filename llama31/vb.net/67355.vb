@@ -1,0 +1,1 @@
+Public Class MyClass \n    Inherits MyBaseClass \n    Implements IMyInterface1, IMyInterface2 \nEnd Class

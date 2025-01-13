@@ -1,1 +1,0 @@
-WITH cte AS (\n    SELECT (SELECT 1 FROM table WHERE somereallycomplicatedclause = 'something') AS subselectresult\n)\nSELECT subselectresult\nFROM cte\nWHERE subselectresult = 1;

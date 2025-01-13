@@ -1,0 +1,1 @@
+routes.MapRoute(\n    name:="Default",\n    template:="{controller}/{action}/{id}",\n    defaults:=New With {.controller = "Home", .action = "Index", .id = UrlParameter.Optional},\n    constraints:=New With {.id = "[a-zA-Z0-9]+"} ' allows alphanumeric characters\n)

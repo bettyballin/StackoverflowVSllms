@@ -1,0 +1,1 @@
+function testFunction() {\n    echo "Test function executed!\n";\n    return "Test result";\n}\n\n$file = testFunction();\n$anotherVariable = $file;\n\n// Print the values\necho $file . "\n";\necho $anotherVariable . "\n";

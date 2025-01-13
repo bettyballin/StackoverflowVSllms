@@ -1,0 +1,1 @@
+public function is_ajax()\n{\n    return ($this->headers['X-Requested-With'] === 'XMLHttpRequest');\n}

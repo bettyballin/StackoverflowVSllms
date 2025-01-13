@@ -1,1 +1,0 @@
-SELECT * FROM dba_errors WHERE name = 'ALTERSESSION_TRG';

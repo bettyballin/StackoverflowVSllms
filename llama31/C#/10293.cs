@@ -1,0 +1,1 @@
+[WebMethod]\npublic MyResponse HelloWorld()\n{\n    MyResponse response = new MyResponse();\n    response.Value1 = "Hello World";\n    response.Value2 = "Hello World Again!";\n    return response;\n}\n\npublic class MyResponse\n{\n    public string Value1 { get; set; }\n    public string Value2 { get; set; }\n}

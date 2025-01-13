@@ -1,1 +1,0 @@
-SELECT /*+ INDEX(your_table idx_not_null_ourcolumn) */\n   *\n   FROM your_table\n   WHERE OurColumn IS NOT NULL;

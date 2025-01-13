@@ -1,0 +1,1 @@
+$pattern = '/[\w-]+@([\w-]+\.)+[\w-]+/i';\npreg_match_all($pattern, $site, $array);\n$array = array_unique($array[0]);

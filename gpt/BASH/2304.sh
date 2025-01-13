@@ -1,1 +1,0 @@
-tar -xzf binutils-2.36.tar.gz\n    tar -xzf gcc-10.2.0.tar.gz\n    tar -xzf newlib-4.1.0.tar.gz

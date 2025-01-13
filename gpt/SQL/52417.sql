@@ -1,1 +1,0 @@
-SELECT * FROM your_table WHERE string_column = CAST(17 AS CHAR);

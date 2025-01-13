@@ -1,1 +1,0 @@
-SELECT DATEPART(hour, YourDateTimeColumn) AS Hour\nFROM YourTable;

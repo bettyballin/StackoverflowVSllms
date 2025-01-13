@@ -1,0 +1,1 @@
+public class MyController : Controller\n{\n    public ActionResult MyAction()\n    {\n        var myModel = new MyModel();\n        myModel.MySelectList = new SelectList(Resources.MyResourceFile.MyResourceKey, "Key", "Value");\n        return View(myModel);\n    }\n}

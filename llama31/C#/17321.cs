@@ -1,0 +1,1 @@
+using System.Reflection;\n\n// Create an AssemblyName instance with the DLL name and location\nAssemblyName assemblyName = new AssemblyName("YourDLL");\nassemblyName.CodeBase = @"file:///C:/Path/To/Your/DLL.dll";\n\n// Load the DLL\nAssembly assembly = Assembly.Load(assemblyName);\n\n// Use the types from the loaded DLL\nType type = assembly.GetType("YourNamespace.YourType");

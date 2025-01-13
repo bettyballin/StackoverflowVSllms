@@ -1,1 +1,0 @@
-powershell -File run_script.ps1

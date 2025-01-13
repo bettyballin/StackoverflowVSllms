@@ -1,1 +1,0 @@
-var result = A.GroupJoin(\n    B,\n    a => a.ID,\n    b => b.ID,\n    (a, b) => new { a, b }\n)\n.SelectMany(\n    x => x.b.DefaultIfEmpty(),\n    (x, b) => new { A = x.a, B = b }\n)\n.Where(x => x.B == null)\n.Select(x => x.A);

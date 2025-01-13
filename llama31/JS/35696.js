@@ -1,0 +1,1 @@
+$('#addcomment').click(function(e) {\n    e.preventDefault();\n    $('#divComments').slideDown(2000);\n});

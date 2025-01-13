@@ -1,0 +1,1 @@
+window.onload = function() {\n  const link = document.getElementById('myLink');\n  if (link) {\n    link.click();\n  }\n};

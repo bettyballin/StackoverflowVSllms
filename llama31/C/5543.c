@@ -1,0 +1,1 @@
+#include <stdint.h>\n\nint main() {\n    // Initialize the UART for output\n    UART_Init();\n\n    // Print "Hello, World!" to the UART\n    printf("Hello, World!\n");\n\n    // Loop indefinitely\n    while (1);\n}

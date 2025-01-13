@@ -1,0 +1,1 @@
+protected void Application_Start()\n{\n    ControllerBuilder.Current.SetControllerFactory(new GenericControllerFactory());\n    // ...\n}

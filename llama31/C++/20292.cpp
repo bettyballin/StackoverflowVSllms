@@ -1,0 +1,1 @@
+#include <Windows.h>\n\nint WINAPI WinMain(HINSTANCE hInstance, HINSTANCE hPrevInstance, LPSTR lpCmdLine, int nCmdShow)\n{\n    // Set the DPI awareness to 96 DPI\n    SetProcessDpiAwareness(PROCESS_DPI_AWARENESS::PROCESS_DPI_UNAWARE);\n\n    // ... rest of your code ...\n}

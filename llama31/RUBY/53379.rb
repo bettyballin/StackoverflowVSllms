@@ -1,0 +1,1 @@
+# config/initializers/session_store.rb\nRails.application.config.session_store :active_record_store

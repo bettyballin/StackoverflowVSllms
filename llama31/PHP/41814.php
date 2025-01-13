@@ -1,0 +1,1 @@
+$mysqli = new mysqli('host', 'username', 'password', 'database');\n$mysqli->set_charset('utf8mb4');

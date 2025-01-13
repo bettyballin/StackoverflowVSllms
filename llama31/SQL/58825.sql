@@ -1,0 +1,1 @@
+SELECT M.ID, M.MDESC, \n       COALESCE((SELECT ', ' + D.DID \n                 FROM DETAIL D \n                 WHERE D.MID = M.ID \n                 FOR XML PATH('')), '') AS DetailList\nFROM MASTER M

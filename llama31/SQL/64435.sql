@@ -1,0 +1,1 @@
+SELECT t.column1, your_udf(t.column1) AS udf_result\nFROM your_table t;

@@ -1,0 +1,1 @@
+protected void Page_Load(object sender, EventArgs e)\n{\n    LinqDataSource1.WhereParameters["DateField"].DefaultValue = DateTime.Now.ToString();\n}

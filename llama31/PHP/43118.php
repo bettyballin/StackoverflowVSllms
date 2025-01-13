@@ -1,0 +1,1 @@
+function flatten_array($array) {\n    $result = array();\n    foreach ($array as $key => $value) {\n        if (is_array($value)) {\n            $result = array_merge($result, flatten_array($value));\n        } else {\n            $result[$key] = $value;\n        }\n    }\n    return $result;\n}

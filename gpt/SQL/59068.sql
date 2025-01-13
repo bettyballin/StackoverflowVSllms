@@ -1,1 +1,0 @@
--- Step 1: Get the session ID (SID) and serial number of the current session\nSELECT sid, serial# \nFROM v$session \nWHERE audsid = SYS_CONTEXT('USERENV', 'SESSIONID');\n\n-- Step 2: Kill the session using the obtained SID and serial number\nBEGIN\n   DBMS_SESSION.KILL_SESSION('sid,serial#');\nEND;\n/

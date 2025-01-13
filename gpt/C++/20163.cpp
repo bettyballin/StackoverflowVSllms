@@ -1,1 +1,0 @@
-#ifdef HOST_EXPORTS\n#define HOST_API __declspec(dllexport)\n#else\n#define HOST_API __declspec(dllimport)\n#endif

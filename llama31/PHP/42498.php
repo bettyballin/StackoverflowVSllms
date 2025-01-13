@@ -1,0 +1,1 @@
+class ParentClass {\n    public static $name = 'Parent';\n\n    public static function getName() {\n        return static::$name; // Using 'static' instead of 'self'\n    }\n}\n\nclass ChildClass extends ParentClass {\n    public static $name = 'Child';\n}\n\necho ChildClass::getName(); // Outputs: Child

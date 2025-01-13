@@ -1,0 +1,1 @@
+function One() {\n  return $('div#animateTest1').animate({ left: '+=200' }, 2000).promise();\n}\n\nfunction Two() {\n  return $('div#animateTest2').animate({ width: '+=200' }, 2000).promise();\n}\n\n// Chain the functions\nOne().then(Two);

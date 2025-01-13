@@ -1,0 +1,1 @@
+const csvString = "LA_1;LA_2;LE_3;";\nconst regex = /^LA_[^;]*$/;\nconst rights = csvString.split(";");\n\nfor (const right of rights) {\n  if (regex.test(right)) {\n    console.log(right); // prints "LA_1"\n    break;\n  }\n}

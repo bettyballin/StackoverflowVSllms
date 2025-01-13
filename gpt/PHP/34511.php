@@ -1,1 +1,0 @@
-ini_set('upload_max_filesize', '2M');\nini_set('post_max_size', '2M');

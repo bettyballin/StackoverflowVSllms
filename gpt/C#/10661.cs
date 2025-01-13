@@ -1,1 +1,0 @@
-var result = from a in context.TableA\n             where (from b in context.TableB\n                    join c in context.TableC on b.Id equals c.Id\n                    select b.xx).Contains(a.Id)\n             select new { a.Id, a.Name };

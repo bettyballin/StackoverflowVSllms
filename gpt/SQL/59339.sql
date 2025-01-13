@@ -1,1 +1,0 @@
-SELECT id, title\nFROM documents\nWHERE CONTAINS(content, 'first') > 0;

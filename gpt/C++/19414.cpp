@@ -1,1 +1,0 @@
-#include "shared.h"\n\ntemplate <class Type>\nvoid myclass<Type>::setx(Type y) {\n    x = y;\n}\n\ntemplate <class Type>\nType myclass<Type>::getx() {\n    return x;\n}\n\n// Explicit instantiation of the template for the required type\ntemplate class myclass<int>;

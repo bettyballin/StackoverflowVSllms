@@ -1,0 +1,1 @@
+# Create a new feature branch\ngit checkout -b feature/new-feature\n\n# Work on the feature and commit changes\ngit add .\ngit commit -m "New feature changes"\n\n# Switch to the main branch and merge the feature branch\ngit checkout main\ngit merge feature/new-feature\n\n# Push changes to the remote repository\ngit push origin mai

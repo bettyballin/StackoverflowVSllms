@@ -1,0 +1,1 @@
+<filter-mapping>\n    <filter-name>ExcelFilter</filter-name>\n    <url-pattern>*.xls</url-pattern>\n    <dispatcher>REQUEST</dispatcher>\n</filter-mapping>

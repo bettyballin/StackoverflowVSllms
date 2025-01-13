@@ -1,0 +1,1 @@
+$abc = array();\n$abc[0] = "asd";\n$abc[1] = "sadaf";\n$abc[2] = "sfadaf";\n\n$count = count($abc);\necho $count; // Output: 3

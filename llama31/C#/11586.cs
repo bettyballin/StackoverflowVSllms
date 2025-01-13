@@ -1,0 +1,1 @@
+public bool IsList(object value)\n{\n    Type type = value.GetType();\n    return type.IsGenericType && type.GetGenericTypeDefinition() == typeof(List<>);\n}

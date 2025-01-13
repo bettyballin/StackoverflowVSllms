@@ -1,0 +1,1 @@
+SELECT \n    CONVERT(TIME, DATEADD(ms, SUM(DATEDIFF(ms, '00:00:00', runtime)), '00:00:00')) AS TotalTime\nFROM \n    YourTableName;

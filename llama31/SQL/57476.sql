@@ -1,0 +1,1 @@
+UPDATE "tablename"\nSET status = 'success'\nWHERE status = 'progress';

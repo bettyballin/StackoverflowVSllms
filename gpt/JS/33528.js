@@ -1,1 +1,0 @@
-const { NodeVM } = require('vm2');\n    const vm = new NodeVM({\n        console: 'inherit',\n        sandbox: {}\n    });\n\n    try {\n        vm.run(userProvidedCode);\n    } catch (err) {\n        console.error('Error running user code:', err);\n    }

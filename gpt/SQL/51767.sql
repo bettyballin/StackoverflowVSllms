@@ -1,1 +1,0 @@
-SELECT \n       s.sid,\n       s.serial#,\n       s.username,\n       s.osuser,\n       s.machine,\n       q.sql_text\n   FROM \n       v$session s\n   JOIN \n       v$sql q ON s.sql_id = q.sql_id\n   WHERE \n       s.sid IN (SELECT session_id FROM dba_blockers);

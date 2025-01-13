@@ -1,0 +1,1 @@
+if (txtPackage.Text != string.Empty && txtPackage.Text == "abc")\n{\n    // code here\n}

@@ -1,0 +1,1 @@
+xhr.onerror = function() {\n  console.log("Connection closed");\n  // Print a message and erase the page\n};

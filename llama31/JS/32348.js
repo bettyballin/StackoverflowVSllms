@@ -1,0 +1,1 @@
+this.XMLHttpRequestObject.open(this.RequestMethod, this.DestinationURL);

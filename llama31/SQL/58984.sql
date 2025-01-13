@@ -1,0 +1,1 @@
+UPDATE credits\nSET creds = creds - 150\nWHERE user_id = 1\nRETURNING creds;

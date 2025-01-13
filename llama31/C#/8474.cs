@@ -1,0 +1,1 @@
+using System;\nusing System.IO;\n\npublic class TempFileGenerator\n{\n    public static string CreateTempFile(string extension)\n    {\n        string tempDir = Path.GetTempPath();\n        string fileName = $"{Guid.NewGuid()}{extension}";\n        string filePath = Path.Combine(tempDir, fileName);\n        return filePath;\n    }\n}

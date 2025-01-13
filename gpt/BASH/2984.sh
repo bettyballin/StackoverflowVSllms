@@ -1,1 +1,0 @@
-git remote add origin your-remote-repo-url

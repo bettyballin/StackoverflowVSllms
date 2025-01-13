@@ -1,1 +1,0 @@
-CREATE TABLE customer (\n    id SERIAL PRIMARY KEY,\n    fname VARCHAR(100),\n    lname VARCHAR(100)\n);\n\nCREATE TABLE address (\n    id SERIAL PRIMARY KEY,\n    customer_id INTEGER REFERENCES customer(id),\n    address_detail VARCHAR(255)\n);

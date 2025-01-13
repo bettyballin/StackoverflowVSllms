@@ -1,1 +1,0 @@
-SELECT *\nFROM YourTable\nWHERE YourPrimaryKey NOT IN (\n    SELECT TOP 10 YourPrimaryKey\n    FROM YourTable\n    ORDER BY YourSortingColumn\n)\nORDER BY YourSortingColumn;

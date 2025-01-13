@@ -1,0 +1,1 @@
+if (FileUpload1.HasFile)\n{\n    string allowedFolder = @"C:\YourSpecificFolder";\n    string uploadedFile = FileUpload1.FileName;\n    string fullPath = Path.Combine(allowedFolder, uploadedFile);\n    FileUpload1.SaveAs(fullPath);\n}

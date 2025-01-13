@@ -1,1 +1,0 @@
-#include <map>\n   #include <mutex>\n\n   class urllib {\n       // Class definition\n   };\n\n   static std::map<int, urllib> url_container;\n   static std::mutex url_container_mutex;\n\n   extern "C" __declspec(dllexport) void add_url(int ucid) {\n       std::lock_guard<std::mutex> guard(url_container_mutex);\n       url_container[ucid] = urllib();\n   }

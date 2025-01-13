@@ -1,0 +1,1 @@
+SELECT \n  row_number() OVER (ORDER BY column_name) AS row_num,\n  column1,\n  column2,\n  ...\nFROM \n  your_table\nGROUP BY \n  column1, column2, ...\nORDER BY \n  column_name;

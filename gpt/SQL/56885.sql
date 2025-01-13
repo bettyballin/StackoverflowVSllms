@@ -1,1 +1,0 @@
-GRANT EXECUTE ON dbo.YourStoredProcedure TO YourUser;

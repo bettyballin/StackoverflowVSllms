@@ -1,1 +1,0 @@
-CREATE TABLE salesforce_orders (\n         order_id INT PRIMARY KEY,\n         tenant_id INT,\n         order_details TEXT,\n         ...\n     );\n\n     CREATE TABLE otherapp_orders (\n         order_id INT PRIMARY KEY,\n         tenant_id INT,\n         order_details TEXT,\n         ...\n     );

@@ -1,1 +1,0 @@
-SELECT *\nFROM YourTable\nWHERE CHARINDEX('abcd', PrimaryKeyColumn) > 0 OR CHARINDEX('12345', PrimaryKeyColumn) > 0;

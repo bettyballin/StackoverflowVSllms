@@ -1,0 +1,1 @@
+DateTime localTime = DateTime.Now;\nDateTime utcTime = localTime.ToUniversalTime();\n\nConsole.WriteLine(localTime); // prints local time\nConsole.WriteLine(utcTime); // prints UTC time

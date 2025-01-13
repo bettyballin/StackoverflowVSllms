@@ -1,0 +1,1 @@
+#include <stdio.h>\n\nvoid printHello() {\n    printf("Hello from C!\n");\n}

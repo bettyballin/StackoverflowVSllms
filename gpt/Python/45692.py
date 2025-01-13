@@ -1,1 +1,0 @@
-import cProfile\n\ndef my_function():\n    # Your code here\n    for i in range(1000000):\n        pass\n\n# Profile the function\ncProfile.run('my_function()')

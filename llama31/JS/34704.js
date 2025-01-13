@@ -1,0 +1,1 @@
+function baseAjaxCall(url, data, successCallback, errorCallback) {\n  $.ajax({\n    type: 'POST', // or GET based on requirement\n    url: url,\n    data: data,\n    success: function(result) {\n      successCallback(result);\n    },\n    error: function(xhr, status, error) {\n      errorCallback(xhr, status, error);\n    }\n  });\n}

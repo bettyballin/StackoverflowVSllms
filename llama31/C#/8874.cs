@@ -1,0 +1,1 @@
+ultraGrid1.AfterCellUpdate += ultraGrid1_AfterCellUpdate;

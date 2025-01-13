@@ -1,0 +1,1 @@
+_application.Session.RemoveStore(_personalFolder);\n\n// Release COM object\nMarshal.FinalReleaseComObject(_personalFolder);\n_personalFolder = null;\n\n// Try to delete the file\ntry\n{\n    File.Delete(pstFilePath);\n}\ncatch (IOException ex)\n{\n    // Handle exception\n}

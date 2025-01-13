@@ -1,0 +1,1 @@
+private bool IsValidObjectId(DataObjectType type, int id)\n{\n    // Query your database to check if the object exists\n    // Return true if it exists, false otherwise\n}

@@ -1,0 +1,1 @@
+#include <unistd.h>\n\nint main() {\n    int fd = open("example.txt", O_RDWR);\n    if (fd == -1) {\n        perror("open");\n        return 1;\n    }\n\n    // Set the length of the file to 1024 bytes\n    if (ftruncate(fd, 1024) == -1) {\n        perror("ftruncate");\n        close(fd);\n        return 1;\n    }\n\n    close(fd);\n    return 0;\n}

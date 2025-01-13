@@ -1,0 +1,1 @@
+WHERE \n    provider = x AND \n    date >= 'YYYY-MM-01' AND \n    date < 'YYYY-MM-01' + INTERVAL 1 MONTH

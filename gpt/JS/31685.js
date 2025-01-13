@@ -1,1 +1,0 @@
-context.arc(x, y, radius, startAngle, endAngle, counterclockwise);

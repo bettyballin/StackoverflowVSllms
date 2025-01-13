@@ -1,0 +1,1 @@
+icacls C:\Windows\System32\winevt\Logs /grant:r "NT AUTHORITY\NETWORK SERVICE":W

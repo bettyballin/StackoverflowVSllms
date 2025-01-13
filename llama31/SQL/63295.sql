@@ -1,0 +1,1 @@
+WITH Ranked AS (\n  SELECT Name, Id,\n         ROW_NUMBER() OVER (PARTITION BY Name ORDER BY Id) AS RowNum\n  FROM YourTable\n)\nSELECT \n  MAX(CASE WHEN Name = 'N1' THEN Id END) AS Name1,\n  MAX(CASE WHEN Name = 'N2' THEN Id END) AS Name2,\n  MAX(CASE WHEN Name = 'N3' THEN Id END) AS Name3,\n  MAX(CASE WHEN Name = 'N4' THEN Id END) AS Name4\nFROM Ranked\nGROUP BY RowNum;

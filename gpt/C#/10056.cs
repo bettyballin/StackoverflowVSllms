@@ -1,1 +1,0 @@
-if (!IsPostBack)\n   {\n       // Only add link to Page1.aspx when appropriate\n       if (Session["UserAuthenticated"] != null && (bool)Session["UserAuthenticated"] == true)\n       {\n           // Add link to Page1.aspx\n       }\n   }

@@ -1,0 +1,1 @@
+Dim xmlSettings As New XmlWriterSettings()\nxmlSettings.Indent = False\n\nDim xmlNode As XPathNodeIterator\nxmlNode = xmlNav.Select("/books/chapter[page[@process='True']]", xmlSettings)

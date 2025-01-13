@@ -1,1 +1,0 @@
-Dim number = 10 ' The compiler infers that number is an Integer

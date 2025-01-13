@@ -1,0 +1,1 @@
+$data = array('foo' => 'bar', 'awesome' => '', 'ninja' => 'pirate');

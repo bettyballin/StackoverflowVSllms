@@ -1,1 +1,0 @@
-using System;\nusing System.Net.NetworkInformation;\n\nclass Program\n{\n    static void Main()\n    {\n        foreach (NetworkInterface ni in NetworkInterface.GetAllNetworkInterfaces())\n        {\n            Console.WriteLine(ni.Name);\n        }\n    }\n}

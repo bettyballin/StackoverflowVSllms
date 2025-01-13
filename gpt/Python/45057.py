@@ -1,1 +1,0 @@
-import os\n    import sys\n\n    # Set ORACLE_HOME and update PATH\n    os.environ['ORACLE_HOME'] = r'C:\path\to\oracle\instantclient'\n    os.environ['PATH'] = r'C:\path\to\oracle\instantclient;' + os.environ['PATH']

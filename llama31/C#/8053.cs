@@ -1,0 +1,1 @@
+FastZip fZip = new FastZip();\ntry\n{\n    fZip.CreateEmptyDirectories = true;\n    fZip.CreateZip(filesPath + "\\" + this.zipName, filesPath, false, this.zipFilter);\n}\ncatch (Exception)\n{\n}\nfinally\n{\n    fZip = null;\n    GC.Collect();\n    GC.WaitForPendingFinalizers();\n}

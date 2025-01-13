@@ -1,0 +1,1 @@
+[Route("api/[controller]")]\npublic class MyController : Controller\n{\n    [HttpGet]\n    public IActionResult GetData()\n    {\n        // Return data in JSON format\n        return Json(new { data = "Hello from Web API!" });\n    }\n}

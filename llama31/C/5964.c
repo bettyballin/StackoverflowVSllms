@@ -1,0 +1,1 @@
+#include <nss.h>\n#include <pk11func.h>\n\nPK11SlotInfo *slot = PK11_GetInternalSlot();\nunsigned char buffer[32];\nSECStatus rv = PK11_GenerateRandom(slot, buffer, 32);\nif (rv != SECSuccess) {\n    // error handling\n}

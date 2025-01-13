@@ -1,1 +1,0 @@
-// Open Command Prompt (Run as Administrator)\nsetx PATH "%PATH%;C:\Path\To\Your\Dlls"

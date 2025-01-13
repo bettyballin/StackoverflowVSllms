@@ -1,0 +1,1 @@
+@echo off\nfor %%f in (*) do echo %%~ff

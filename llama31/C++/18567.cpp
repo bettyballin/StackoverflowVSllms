@@ -1,0 +1,1 @@
+// CFunExt.hpp\n#ifndef CFUN_EXT_HPP\n#define CFUN_EXT_HPP\n\n#include "CFun.hpp"\n\nvoid hello(CFun& obj) {\n    std::cout << "hello" << std::endl;\n}\n\n#endif // CFUN_EXT_HPP

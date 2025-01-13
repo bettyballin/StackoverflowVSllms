@@ -1,1 +1,0 @@
-<bindings>\n      <basicHttpBinding>\n        <binding name="streamedBinding" transferMode="Streamed">\n          <readerQuotas maxArrayLength="2147483647" maxBytesPerRead="4096" maxDepth="32" maxNameTableCharCount="2147483647" maxStringContentLength="2147483647" />\n        </binding>\n      </basicHttpBinding>\n    </bindings>

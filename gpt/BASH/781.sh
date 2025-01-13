@@ -1,1 +1,0 @@
-openssl genrsa -out client.key 2048\n   openssl req -new -key client.key -out client.csr

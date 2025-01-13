@@ -1,0 +1,1 @@
+<?php\n$includingServerHost = INCLUDING_SERVER_HOST;\necho "This file is included by: $includingServerHost";\n?>

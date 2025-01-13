@@ -1,1 +1,0 @@
-time_threshold = 1.hour.ago\norders = Order.joins(:shipments)\n              .where('shipments.created_at > ?', time_threshold)\n              .group('orders.id')\n              .having('MAX(shipments.created_at) > ?', time_threshold)

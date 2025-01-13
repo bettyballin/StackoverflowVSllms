@@ -1,0 +1,1 @@
+$(".flash_photo embed").attr({\n    src: changed_url\n});

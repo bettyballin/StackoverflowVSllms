@@ -1,1 +1,0 @@
-Dim losSPResults As List(Of spGetDataResults) = m_dcDataClasses.spGetData.ToList()\nDim loTupleKeys = From t In losSPResults \n                  Select New TupleKey(t.key1, t.key2)\n\nDim loTupleExistingKeys = From t In m_losSPResults \n                          Select New TupleKey(t.key3, t.key4)

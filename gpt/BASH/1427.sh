@@ -1,1 +1,0 @@
-# Open PowerShell with administrative privileges and run the following command:\nSet-Content -Path "C:\path\to\your\logfile.txt" -Value $null

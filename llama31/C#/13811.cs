@@ -1,0 +1,1 @@
+try\n{\n    if (dr.Table.Columns.Contains("column") && dr["column"] != DBNull.Value)\n    {\n        this.value = (type)dr["column"];\n    }\n    else\n    {\n        this.value = null;\n    }\n}\ncatch (Exception ex)\n{\n    Log.Error(ex);\n    // Handle the error or rethrow it\n}

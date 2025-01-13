@@ -1,1 +1,0 @@
-use Doctrine\Common\Util\Debug;\n\n    $object = $connection->query();\n    Debug::dump($object);

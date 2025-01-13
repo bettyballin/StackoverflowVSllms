@@ -1,0 +1,1 @@
+Socket socket = new Socket();\nsocket.setOption(SocketOptions.SO_TCP_CHECKSUM_OFFLOAD, false);

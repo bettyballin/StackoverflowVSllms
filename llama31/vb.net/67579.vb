@@ -1,0 +1,1 @@
+Imports MyCSharpProject\n\nPublic Class MyVBClass\n    Public Sub MyMethod()\n        Dim myCSharpObject As New MyCSharpClass()\n        myCSharpObject.MyCSharpMethod()\n    End Sub\nEnd Class

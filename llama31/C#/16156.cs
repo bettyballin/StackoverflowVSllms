@@ -1,0 +1,1 @@
+public interface IVisioApi\n{\n    void DoSomething();\n}\n\npublic class VisioApiWrapper : IVisioApi\n{\n    private Microsoft.Office.Interop.Visio.Class _visioInstance;\n\n    public VisioApiWrapper()\n    {\n        _visioInstance = new Microsoft.Office.Interop.Visio.Class();\n    }\n\n    public void DoSomething()\n    {\n        _visioInstance.DoSomething();\n    }\n}

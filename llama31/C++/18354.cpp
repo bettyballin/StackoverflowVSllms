@@ -1,0 +1,1 @@
+HGLOBAL hGlobal = ...;\nvoid* pData = GlobalLock(hGlobal);\nif (pData)\n{\n    // pData now points to the JPEG data\n    // Don't forget to call GlobalUnlock when you're done with the data\n}

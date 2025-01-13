@@ -1,1 +1,0 @@
-document.addEventListener('DOMContentLoaded', function() {\n    var items = document.querySelectorAll('ul.phone_numbers li');\n    for (var i = 0; i < items.length - 1; i++) {\n        items[i].innerHTML += ',';\n    }\n});

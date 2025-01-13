@@ -1,1 +1,0 @@
-if ($_SERVER["REQUEST_METHOD"] == "POST") {\n    $data = $_POST["data"];\n    $decoded_data = htmlspecialchars_decode($data, ENT_QUOTES);\n    echo $decoded_data;\n}

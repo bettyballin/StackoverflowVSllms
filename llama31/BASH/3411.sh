@@ -1,0 +1,1 @@
+echo "<FilesMatch \"\.(php|php[0-9]|phtml)$\">" >> /etc/apache2/httpd.conf\necho "    SetHandler application/x-httpd-php" >> /etc/apache2/httpd.conf\necho "</FilesMatch>" >> /etc/apache2/httpd.conf

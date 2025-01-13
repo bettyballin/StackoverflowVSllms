@@ -1,1 +1,0 @@
-int add(int a, int b) {\n        return a + b;\n    }\n\n    int main() {\n        int sum = add(5, 3);\n        cout << "Sum: " << sum << endl;\n        return 0;\n    }

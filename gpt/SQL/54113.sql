@@ -1,1 +1,0 @@
-SELECT City AS Keyword, Country AS Sideinfo\nFROM your_table\nWHERE City LIKE 'keyword%'\n \nUNION\n\nSELECT DISTINCT Country AS Keyword, 'Country' AS Sideinfo\nFROM your_table\nWHERE Country LIKE 'keyword%';

@@ -1,1 +1,0 @@
-[DllImport("yourdll.dll", CallingConvention = CallingConvention.Cdecl)]\n    private static extern void FuncX();

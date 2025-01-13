@@ -1,1 +1,0 @@
-axios.get('your-endpoint-url')\n    .then(response => console.log('Success:', response.data))\n    .catch(error => console.error('Error:', error));

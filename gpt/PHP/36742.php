@@ -1,1 +1,0 @@
-$dom = new DOMDocument();\n$dom->load("example.xml");\n$nodes = $dom->getElementsByTagName("tagname");\n\nforeach ($nodes as $node) {\n    echo $node->nodeValue;\n}

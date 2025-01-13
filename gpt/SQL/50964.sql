@@ -1,1 +1,0 @@
-CREATE TABLE Artist_Group (\n    GroupID INT PRIMARY KEY AUTO_INCREMENT\n);

@@ -1,0 +1,1 @@
+public class ClientDataClient {\n public void UpdateClient(ClientData clientData) {\n ClientDataWebService webService = new ClientDataWebService();\n ClientDataResponse response = webService.UpdateClient(clientData);\n if (response.Status != 0) {\n throw new Exception(response.Message);\n }\n }\n}

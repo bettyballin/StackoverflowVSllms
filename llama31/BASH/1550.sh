@@ -1,0 +1,1 @@
+HG_USERNAME="your-username"\nHG_PASSWORD="your-password"

@@ -1,1 +1,0 @@
-sudo apt-get update\n   sudo apt-get install php5-dev libmysqlclient15-dev

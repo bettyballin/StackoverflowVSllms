@@ -1,0 +1,1 @@
+SELECT * FROM people_active\nUNION ALL\nSELECT * FROM people_inactive;

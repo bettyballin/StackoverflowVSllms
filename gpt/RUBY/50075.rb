@@ -1,1 +1,0 @@
-# Gemfile\n    gem 'cancancan'\n\n    # app/models/ability.rb\n    class Ability\n      include CanCan::Ability\n\n      def initialize(user)\n        user ||= User.new # guest user (not logged in)\n        if user.admin?\n          can :manage, :all\n        else\n          can :read, :all\n        end\n      end\n    end

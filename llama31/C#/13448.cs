@@ -1,0 +1,1 @@
+using System.Web.Http;\n\npublic class DataController : ApiController\n{\n    public IHttpActionResult GetData()\n    {\n        // Your data\n        var data = new { Name = "John Doe", Age = 30 };\n\n        // Return JSON data\n        return Json(data);\n    }\n}

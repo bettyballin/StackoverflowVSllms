@@ -1,1 +1,0 @@
-CREATE TABLE sitePage (\n        id INT AUTO_INCREMENT PRIMARY KEY,\n        pageName VARCHAR(255) NOT NULL,\n        controller VARCHAR(255) NOT NULL,\n        action VARCHAR(255) NOT NULL,\n        module VARCHAR(255) NOT NULL\n    );

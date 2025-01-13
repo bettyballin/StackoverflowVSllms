@@ -1,1 +1,0 @@
-[DataContract]\npublic class Example\n{\n    [DataMember]\n    public string Timestamp { get; set; } // ISO 8601 format\n\n    public Example(DateTime dateTime)\n    {\n        Timestamp = dateTime.ToString("o"); // "o" is the round-trip format specifier\n    }\n}

@@ -1,0 +1,1 @@
+// index.php\nrequire_once 'MyClass.php';\n\nuse MyNamespace\MyClass;\n\n$myClass = new MyClass();\n$myClass->performAction();

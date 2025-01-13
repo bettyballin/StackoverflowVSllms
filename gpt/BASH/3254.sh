@@ -1,1 +1,0 @@
-gcc -fPIC -shared -o liboverride.so override.c -ldl

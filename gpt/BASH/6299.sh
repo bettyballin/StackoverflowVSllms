@@ -1,1 +1,0 @@
-g++ -Wshadow -o your_program your_program.cpp

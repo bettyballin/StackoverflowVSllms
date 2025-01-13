@@ -1,0 +1,1 @@
+this.value = dr["column"]?.Equals(DBNull.Value) ? null : (type)dr["column"];

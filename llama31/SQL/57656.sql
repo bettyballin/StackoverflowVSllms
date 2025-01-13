@@ -1,0 +1,1 @@
+SELECT p.*\nFROM Properties p\nWHERE p.Country_ID NOT IN (SELECT CountryID FROM Countries)\n   OR p.RegionID NOT IN (SELECT RegionID FROM Regions)\n   OR p.AreaID NOT IN (SELECT AreaID FROM Areas);

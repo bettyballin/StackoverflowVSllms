@@ -1,0 +1,1 @@
+# Assuming your MAMP installation is in /Applications/MAMP\n# and your Dropbox folder is in ~/Dropbox\n\n# Create a folder in Dropbox to hold the db folder\nmkdir ~/Dropbox/MAMP_DB\n\n# Symlink the db folder to the Dropbox folder\nln -s ~/Dropbox/MAMP_DB /Applications/MAMP/db

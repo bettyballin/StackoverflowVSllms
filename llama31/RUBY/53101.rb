@@ -1,0 +1,1 @@
+page["calendar_inner_div_#{i}_#{j}"].replace_html '<td class="available">Available</td>'

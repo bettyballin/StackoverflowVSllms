@@ -1,1 +1,0 @@
-UPDATE LinkedServerName.DatabaseName.dbo.TableName\nSET Column1 = Value1, Column2 = Value2, ...\nWHERE SomeColumn = SomeValue;

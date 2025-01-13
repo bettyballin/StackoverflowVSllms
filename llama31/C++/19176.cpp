@@ -1,0 +1,1 @@
+// app_interface.h\n#ifndef APP_INTERFACE_H\n#define APP_INTERFACE_H\n\nclass AppInterface {\npublic:\n    virtual QWidget* getGui() = 0;\n    // Add other functions/data that plugins might need to access\n};\n\n#endif  // APP_INTERFACE_H

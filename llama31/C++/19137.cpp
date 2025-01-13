@@ -1,0 +1,1 @@
+// client.cpp\n#include "mydll.h"\n#include "myexception.h"\n\nint main() {\n    try {\n        MyFunction();\n    } catch (const MyException& e) {\n        std::cerr << "Caught exception: " << e.what() << std::endl;\n    }\n    return 0;\n}

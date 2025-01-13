@@ -1,0 +1,1 @@
+CREATE TRIGGER AccountChecker\nBEFORE DELETE ON student\nREFERENCING OLD AS old_student\nFOR EACH ROW \nBEGIN\nDECLARE @acc CHAR(4);\n\nSELECT @acc=account.account_number FROM account\nWHERE account.student_id = old_student.student_id;\n\nIF @acc IS NOT NULL\nBEGIN\n    RAISERROR 99999 'Cannot delete student with existing account'\nEND\nEND

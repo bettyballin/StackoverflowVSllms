@@ -1,0 +1,1 @@
+void sum(float* data, int len) {\n    __m128 sum = _mm_set1_ps(0.0f);\n    for (int i = 0; i < len; i += 4) {\n        __m128 chunk = _mm_loadu_ps(&data[i]);\n        sum = _mm_add_ps(sum, chunk);\n    }\n    // do something with sum\n}

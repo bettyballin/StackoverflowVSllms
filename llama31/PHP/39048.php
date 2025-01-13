@@ -1,0 +1,1 @@
+mysql_query("TRUNCATE TABLE userRanks");\nmysql_query("INSERT INTO userRanks (userid) SELECT id FROM users WHERE status = '1' ORDER BY month_score DESC");\nmysql_query("UPDATE users u JOIN userRanks r ON u.id = r.userid SET u.month_rank = r.rank");

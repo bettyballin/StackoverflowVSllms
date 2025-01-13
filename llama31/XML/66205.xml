@@ -1,0 +1,1 @@
+<rewrite>\n  <rules>\n    <rule name="Secure Login" stopProcessing="true">\n      <match url="^Secure/Login\.aspx$" />\n      <conditions>\n        <add input="{HTTPS}" pattern="off" />\n      </conditions>\n      <action type="Redirect" url="https://{HTTP_HOST}{REQUEST_URI}" />\n    </rule>\n  </rules>\n</rewrite>

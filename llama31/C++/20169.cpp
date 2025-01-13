@@ -1,0 +1,1 @@
+// Before: Overanalyzed solution with multiple classes\nclass DataProcessor {\n    // ...\n};\n\nclass DataTransformer {\n    // ...\n};\n\nclass DataLoader {\n    // ...\n};\n\n// After: Simplified solution with a single method and a struct\nstruct Data {\n    int id;\n    string name;\n};\n\nvoid processData(Data data) {\n    // Simple processing logic here\n}

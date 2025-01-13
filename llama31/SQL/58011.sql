@@ -1,0 +1,1 @@
+-- Shrink a database\nDBCC SHRINKDATABASE ('mydatabase', 10);  -- 10% free space\n\n-- Rebuild indexes\nALTER INDEX ALL ON mytable REBUILD;

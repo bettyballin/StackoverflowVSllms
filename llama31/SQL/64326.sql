@@ -1,0 +1,1 @@
+SELECT\n  CASE\n    WHEN LOWER(Product) IN ('apple', 'orange', 'banana') THEN 'Fruit'\n    ELSE Product\n  END AS Product,\n  Quantity\nFROM\n  Table

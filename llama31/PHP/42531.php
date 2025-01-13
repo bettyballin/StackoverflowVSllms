@@ -1,0 +1,1 @@
+$subtemplate_output = file_get_contents('http://example.com/subtemplate.php');

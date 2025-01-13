@@ -1,1 +1,0 @@
-ffmpeg -i input.mp3 -af loudnorm=I=-23:TP=-1.5:LRA=11 output.mp3

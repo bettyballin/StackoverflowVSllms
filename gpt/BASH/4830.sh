@@ -1,1 +1,0 @@
-sc create myuniqueapache binPath= "C:\path\to\apache\bin\httpd.exe -k runservice"

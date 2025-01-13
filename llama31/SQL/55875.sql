@@ -1,0 +1,1 @@
+EXPLAIN SELECT * FROM transactions WHERE id = somenumber;

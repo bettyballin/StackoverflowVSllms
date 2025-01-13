@@ -1,1 +1,0 @@
-$('#selectBox').append('<option value="option5">option5</option>');

@@ -1,0 +1,1 @@
+ssh -t user@host 'cd /path/to/somewhere; /usr/bin/env BASH_ENV= bash'

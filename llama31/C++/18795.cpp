@@ -1,0 +1,1 @@
+int sign(int i) {\n    if(i > 0) return 1;\n    if(i == 0) return 0;\n    if(i < 0) return -1;\n    // this line should never be reached\n    assert(false);\n    return 0; // or throw an exception, depending on your requirements\n}

@@ -1,0 +1,1 @@
+/**\n * Sends a request to the server to retrieve user data\n *\n * @param {number} userId User ID\n * @return {Promise} Promise resolving with user data\n */\nfunction getUserData(userId) {\n    // code here\n}

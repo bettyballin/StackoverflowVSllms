@@ -1,1 +1,0 @@
-Public Sub MyGenericSub(Of T)(param As T)\n    ' Your code here\n    Console.WriteLine(param.ToString())\nEnd Sub\n\nPublic Function MyGenericFunction(Of T)(param As T) As T\n    ' Your code here\n    Return param\nEnd Functio

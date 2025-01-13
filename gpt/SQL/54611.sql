@@ -1,1 +1,0 @@
-ALTER TABLE YourTable DROP COLUMN TimestampCopy;

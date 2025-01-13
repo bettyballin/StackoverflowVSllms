@@ -1,0 +1,1 @@
+const element = document.getElementById('myElement');\nconst html = element.outerHTML;\nalert(html);

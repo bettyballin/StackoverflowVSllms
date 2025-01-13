@@ -1,0 +1,1 @@
+// foo.php\nfunction foo($p, $x) {\n    include_once($p);\n}\n\n// index.php\n$x = 42;\nfoo("bar.php", $x);

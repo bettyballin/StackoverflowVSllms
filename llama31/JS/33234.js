@@ -1,0 +1,1 @@
+// In your JavaScript code\nvar version = SomeObject.GetVersion();

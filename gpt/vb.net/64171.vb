@@ -1,1 +1,0 @@
-Imports System.Data.SqlClient\n\nPublic Function GetSqlConnection() As SqlConnection\n    Dim connectionString As String = "Data Source=YourServer;Initial Catalog=YourDatabase;Integrated Security=True;"\n    Return New SqlConnection(connectionString)\nEnd Functio

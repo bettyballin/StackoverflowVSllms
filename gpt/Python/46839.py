@@ -1,1 +1,0 @@
-widget.connect("size-allocate", on_size_allocate, scrolled_window)\n\ndef on_size_allocate(widget, allocation, scrolled_window):\n    vadjustment = scrolled_window.get_vadjustment()\n    vadjustment.set_value(vadjustment.get_upper())

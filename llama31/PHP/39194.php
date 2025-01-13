@@ -1,0 +1,1 @@
+<?php\nrequire_once 'Smarty.class.php';\n\n$smarty = new Smarty();\n\n$smarty->assign('events', array(\n    array('title' => 'Event 1', 'date' => '2023-03-01'),\n    array('title' => 'Event 2', 'date' => '2023-03-15'),\n));\n\n$smarty->display('events.tpl');\n?>

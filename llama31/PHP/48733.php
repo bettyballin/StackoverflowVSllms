@@ -1,0 +1,1 @@
+try {\n    #include "verification.php"\n    /* process/do task */\n    ...\n} catch (Exception $e) {\n    #include "exception_handling.php"\n    /* handle exception */\n    ...\n}

@@ -1,0 +1,1 @@
+setspn -l <SQL_Server_Service_Account>

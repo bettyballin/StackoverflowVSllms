@@ -1,0 +1,1 @@
+$('label[for="myCb1"]:not(:first)').hide();

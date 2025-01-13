@@ -1,0 +1,1 @@
+<extension id="my.server" point="org.example.servers">\n    <server id="my.server" host="localhost" port="8080" username="user" password="pass"/>\n</extension>

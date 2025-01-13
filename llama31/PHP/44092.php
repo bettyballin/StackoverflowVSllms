@@ -1,0 +1,1 @@
+$parsed = array();\nparse_str($_SERVER['QUERY_STRING'], $parsed);\n\n$options = array();\nforeach ($parsed as $key => $value) {\n    if ($key == 'option') {\n        $options[] = $value;\n    }\n}\n\n// $options now contains all the selected values

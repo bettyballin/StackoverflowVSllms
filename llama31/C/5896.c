@@ -1,0 +1,1 @@
+// a.h\nvoid print_matrix();\n\n// a.c\n#include "a.h"\nvoid print_matrix() {\n    // function implementation\n}\n\n// main.c\n#include "a.h"\nint main() {\n    print_matrix();\n    return 0;\n}

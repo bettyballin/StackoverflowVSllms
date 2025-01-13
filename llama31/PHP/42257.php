@@ -1,0 +1,1 @@
+// example.php\nfunction mymodule_important_calculation() {\n    $result = /* ... long and complex calculation ... */;\n    return $resukt;\n}\n\n// Run PHPStan\nvendor/bin/phpstan analyze example.php

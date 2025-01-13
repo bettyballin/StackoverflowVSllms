@@ -1,0 +1,1 @@
+Person p = new Person\n{\n    Name = (string)dataRow["Name"],\n    Amount = dataRow.IsNull("Amount") ? (decimal?)null : (decimal)dataRow["Amount"]\n}

@@ -1,1 +1,0 @@
-var element = document.getElementById("0");\nvar computedStyle = window.getComputedStyle(element);\nalert(computedStyle.width);

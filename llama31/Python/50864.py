@@ -1,0 +1,1 @@
+self.iface_list_store.clear()\nself.iface_list_store.append(["new item 1"])\nself.iface_list_store.append(["new item 2"])

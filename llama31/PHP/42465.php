@@ -1,0 +1,1 @@
+require_once 'jqgrid.php';\n\n$grid = new jqGrid();\n$grid->setUrl('data.php');\n$grid->setColModel(array(\n    array('name'=>'id', 'index'=>'id', 'width'=>50),\n    array('name'=>'name', 'index'=>'name', 'width'=>200),\n    array('name'=>'email', 'index'=>'email', 'width'=>200)\n));\n$grid->renderGrid();

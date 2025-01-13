@@ -1,0 +1,1 @@
+ClientRect rect = element.getBoundingClientRect();\nint top = rect.top;\nint left = rect.left;

@@ -1,1 +1,0 @@
-// Select the stylesheet\nconst stylesheet = document.styleSheets[0];\n\n// Add a new rule or modify an existing one\nstylesheet.insertRule('body { background-color: lightblue; }', stylesheet.cssRules.length);\n\n// Alternatively, you can modify an existing rule directly\n// stylesheet.cssRules[0].style.backgroundColor = 'lightblue';

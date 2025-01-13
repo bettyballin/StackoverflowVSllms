@@ -1,0 +1,1 @@
+ld -r -o c.so a.so b.so

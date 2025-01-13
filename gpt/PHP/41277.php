@@ -1,1 +1,0 @@
-<?php\n$array = ['one' => 1, 'two' => [2, 3], 'three' => (object)['a' => 'A', 'b' => 'B']];\n\n// Using print_r\necho "<pre>";\nprint_r($array);\necho "</pre>";\n\n// Using var_dump\necho "<pre>";\nvar_dump($array);\necho "</pre>";\n?>

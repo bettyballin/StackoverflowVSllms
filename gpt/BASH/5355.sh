@@ -1,1 +1,0 @@
-./svn_wrapper.sh commit\n./svn_wrapper.sh checkout

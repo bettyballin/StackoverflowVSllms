@@ -1,0 +1,1 @@
+$approot = substr($_SERVER['REQUEST_URI'], 0, strpos($_SERVER['REQUEST_URI'], $_SERVER['SCRIPT_NAME']));

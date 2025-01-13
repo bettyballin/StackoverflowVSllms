@@ -1,0 +1,1 @@
+msiexec /X {product_code} /q

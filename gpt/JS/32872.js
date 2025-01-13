@@ -1,1 +1,0 @@
-$(document).ready(function() {\n  $('#myForm :radio').change(function() {\n    var selectedValue = $('#myForm :radio:checked').val();\n    console.log(selectedValue); // You can use this value for further processing\n  });\n});

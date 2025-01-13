@@ -1,0 +1,1 @@
+g++ -o mysqlTest mysqlTest.cpp -lmysqlpp

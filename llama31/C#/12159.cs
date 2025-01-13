@@ -1,0 +1,1 @@
+// Register the RibbonExtensibility class\n[ComRegisterFunction]\npublic static void RegisterRibbonExtensibility(Type type)\n{\n    ComShim.RegisterClass(type);\n}

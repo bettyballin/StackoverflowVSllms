@@ -1,0 +1,1 @@
+gcc -Wno-unused-variable your_code.c -o your_code

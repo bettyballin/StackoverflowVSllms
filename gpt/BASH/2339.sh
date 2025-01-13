@@ -1,1 +1,0 @@
-addr2line -e yourfile.o address

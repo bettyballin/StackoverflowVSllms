@@ -1,0 +1,1 @@
+// Set error reporting level\nerror_reporting(E_ALL);\n\n// Disable error display on production server\nini_set('display_errors', 0);

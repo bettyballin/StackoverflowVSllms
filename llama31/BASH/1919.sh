@@ -1,0 +1,1 @@
+# Create a PAR file with the required dependencies\npp -M My::Module -o myapp.par myapp.pl

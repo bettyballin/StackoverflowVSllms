@@ -1,0 +1,1 @@
+# build the extension\nswig -php libfoo.i\ngcc -shared -o libfoo.so libfoo_wrap.c -lfoo

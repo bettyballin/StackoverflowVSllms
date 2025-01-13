@@ -1,0 +1,1 @@
+$f = $_GET["f"];\nif (!$f) {\n    $f = "/";\n}\n\n$allowedDir = '/path/to/allowed/directory';\n$realPath = realpath($allowedDir . '/' . $f);\n\nif ($realPath === false || strpos($realPath, $allowedDir) !== 0) {\n    // Path is not safe\n    $unsafe = true;\n} else {\n    // Path is safe\n    $unsafe = false;\n}

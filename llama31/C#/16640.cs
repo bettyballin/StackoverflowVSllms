@@ -1,0 +1,1 @@
+string fileContents = File.ReadAllText(strPath);\nusing (var sr = new StringReader(fileContents))\n{\n    // ...\n}

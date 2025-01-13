@@ -1,1 +1,0 @@
-Location: /usr/bin/python\nWorking Directory: ${workspace_loc:/YourProjectName}\nArguments: waf build

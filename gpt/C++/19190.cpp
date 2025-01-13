@@ -1,1 +1,0 @@
-#include <windows.h>\n#include <iostream>\n\nint main() {\n    BOOL result = CopyFile(L"C:\\source\\file.txt", L"C:\\destination\\file.txt", FALSE);\n\n    if (result) {\n        std::wcout << L"File copied successfully." << std::endl;\n    } else {\n        std::wcout << L"Failed to copy file. Error: " << GetLastError() << std::endl;\n    }\n\n    return 0;\n}

@@ -1,0 +1,1 @@
+CREATE TABLE my_table (\n    id VARCHAR2(32) PRIMARY KEY DEFAULT SYS_GUID(),\n    -- other columns\n);

@@ -1,1 +1,0 @@
-sudo chcon -t bin_t /data/myapp/current/script/runner\n    sudo chcon -t bin_t /data/myapp/current/script/myscript.rb

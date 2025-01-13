@@ -1,0 +1,1 @@
+mysqlcheck -u[your_username] -p[your_password] [your_database_name]

@@ -1,1 +1,0 @@
-<?php\n\n$a = 'some_path1/some_path2/some_path3'; // unix type path\n$b = 'some_path1\\some_path2\\some_path3'; // MS-DOS type path\n\n$pattern = '/[\/\\\\]/'; // Regex pattern to match both '/' and '\'\n\n$foo_a = preg_split($pattern, $a);\n$foo_b = preg_split($pattern, $b);\n\nprint_r($foo_a);\nprint_r($foo_b);\n\n?>

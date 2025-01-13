@@ -1,1 +1,0 @@
-<?php\n$variables = [$variable1, $variable2, $variable3, $variable4, $variable5];\n\nforeach ($variables as $variable) {\n    echo $variable . "\n";\n}\n?>

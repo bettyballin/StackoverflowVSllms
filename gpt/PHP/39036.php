@@ -1,1 +1,0 @@
-$headers = getallheaders();\n\nif (isset($headers['Authorization'])) {\n    $authHeader = $headers['Authorization'];\n    // Process the Authorization header as needed\n    echo "Authorization Header: " . $authHeader;\n} else {\n    echo "Authorization header is not set.";\n}

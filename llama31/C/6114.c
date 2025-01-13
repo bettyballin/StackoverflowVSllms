@@ -1,0 +1,1 @@
+HANDLE hModule = GetModuleHandleA("your_module.dll");\n\nMODULEINFO mi;\nDWORD size = sizeof(mi);\n\nif (!GetModuleInformation(GetCurrentProcess(), hModule, &mi, size)) {\n    // Handle error\n}\n\nif (mi.lpBaseOfDll != NULL) {\n    // Module is still loaded\n} else {\n    // Module is not loaded\n}

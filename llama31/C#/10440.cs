@@ -1,0 +1,1 @@
+[AttributeUsage(AttributeTargets.Class | AttributeTargets.Method, Inherited = true, AllowMultiple = false)]\npublic class CustomAuthorizeAttribute : AuthorizeAttribute\n{\n    protected override void HandleUnauthorizedRequest(AuthorizationContext filterContext)\n    {\n        filterContext.Result = new HttpUnauthorizedResult();\n    }\n}

@@ -1,1 +1,0 @@
-SELECT \n    CASE \n        WHEN unsigned_value > 2147483647 \n        THEN unsigned_value - 4294967296 \n        ELSE unsigned_value \n    END AS signed_value\nFROM your_table;

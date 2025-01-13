@@ -1,1 +1,0 @@
-# Generate private key\nopenssl genpkey -algorithm RSA -out private_key.pem\n\n# Generate public key from the private key\nopenssl rsa -pubout -in private_key.pem -out public_key.pem

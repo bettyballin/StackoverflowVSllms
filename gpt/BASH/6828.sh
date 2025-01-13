@@ -1,1 +1,0 @@
-attrib -r +s "C:\path\to\your\folder" /S /D

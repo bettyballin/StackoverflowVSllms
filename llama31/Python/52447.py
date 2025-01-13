@@ -1,0 +1,1 @@
+import shutil\n\n# Copy the file to the build directory\nshutil.copy(src_file, dst_file)\n\n# Close the file handle\nimport ctypes\nctypes.windll.kernel32.CloseHandle(ctypes.c_void_p(src_file))

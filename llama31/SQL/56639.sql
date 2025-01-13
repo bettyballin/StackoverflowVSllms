@@ -1,0 +1,1 @@
+CREATE FUNCTION getItemType (@code varchar(18))\nRETURNS int\nAS\nBEGIN\n    Declare @Type tinyint\n    Select @Type = \n        case \n            WHEN len(@code) IN (12, 14, 17) THEN 1\n            WHEN len(@code) IN (13, 15, 18) THEN 2\n            WHEN len(@code) IN (8, 10) THEN 3\n            ELSE  0\n        END\n    RETURN (@Type)\nEND

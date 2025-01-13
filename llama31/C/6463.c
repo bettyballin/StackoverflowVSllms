@@ -1,0 +1,1 @@
+#include <stdio.h>\n\nint main() {\n    puts("Hello, World!");  // No newline character appended\n    return 0;\n}

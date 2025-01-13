@@ -1,0 +1,1 @@
+sed '32,~15 s/^/#\n&/' input.txt > output.txt

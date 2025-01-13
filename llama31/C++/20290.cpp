@@ -1,0 +1,1 @@
+std::map<int, Blorgus> mymap = ...;\nforeach_value(v, mymap) {\n  v.foo();\n}

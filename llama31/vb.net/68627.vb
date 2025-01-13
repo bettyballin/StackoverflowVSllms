@@ -1,0 +1,1 @@
+Namespace My\n    Public Class MyFramework\n        Public Shared ReadOnly Property MyService() As MyService\n            Get\n                Return New MyService()\n            End Get\n        End Property\n    End Class\nEnd Namespace\n\nPublic Class MyService\n    Public Sub DoSomething()\n        ' Your framework's functionality here\n    End Sub\nEnd Class

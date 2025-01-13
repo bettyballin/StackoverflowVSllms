@@ -1,0 +1,1 @@
+# Install Grav via composer\ncomposer create-project getgrav/grav ~/grav-site

@@ -1,1 +1,0 @@
-CREATE OR REPLACE DIRECTORY BFILE_DIR AS '/path/to/your/directory';

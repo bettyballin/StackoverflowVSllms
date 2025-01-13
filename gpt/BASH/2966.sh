@@ -1,1 +1,0 @@
-if [ -n "$GNOME_TERMINAL_SCREEN" ]; then\n  echo "Running inside Gnome Terminal."\nelse\n  echo "Not running inside Gnome Terminal."\nfi

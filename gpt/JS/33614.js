@@ -1,1 +1,0 @@
-// Get the user's local time\nconst userLocalTime = new Date();\n\n// Get the timezone offset in minutes and convert to hours\nconst timezoneOffset = -userLocalTime.getTimezoneOffset() / 60;\n\nconsole.log("User's Local Time:", userLocalTime);\nconsole.log("Timezone Offset (hours):", timezoneOffset);

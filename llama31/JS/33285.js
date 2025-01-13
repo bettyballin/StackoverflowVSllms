@@ -1,0 +1,1 @@
+$.ajax({\n    type: "POST",\n    url: "Orders.aspx/GetMailPieceGroupsByAdFundTypeId",\n    data: myDataToSend,\n    contentType: "application/json; charset=utf-8",\n    dataType: "json",\n    headers: {\n        "Authorization": "Basic " + btoa(username + ":" + password)\n    },\n    success: function(data, textStatus){ ... }\n});

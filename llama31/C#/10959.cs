@@ -1,0 +1,1 @@
+var catalog = new AssemblyCatalog(typeof(YourAssembly).Assembly);\nvar container = new CompositionContainer(catalog);

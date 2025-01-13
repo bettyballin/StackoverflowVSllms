@@ -1,1 +1,0 @@
-brew update\n     brew install mailhog

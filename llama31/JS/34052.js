@@ -1,0 +1,1 @@
+const socket = io.connect('http://localhost:3000');\n\nsocket.on('update', (data) => {\n  console.log('Received update:', data);\n  // Update the UI accordingly\n});

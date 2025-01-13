@@ -1,0 +1,1 @@
+<query>\n  <query>prefix:field_name:"search_term"</query>\n</query>

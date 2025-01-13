@@ -1,1 +1,0 @@
-tail -f /path/to/your/logfile.log

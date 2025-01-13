@@ -1,0 +1,1 @@
+#include <Windows.h>\n\nint main() {\n    HMODULE hModule = LoadLibraryEx("yourdll.dll", NULL, LOAD_LIBRARY_SEARCH_DEFAULT_DIRS);\n    if (hModule == NULL) {\n        DWORD errorCode = GetLastError();\n        // Handle error code\n    }\n    return 0;\n}

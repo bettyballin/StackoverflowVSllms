@@ -1,0 +1,1 @@
+$array = array();\n$index = 123;\n\n$array[$index] = 'Integer key';\n$array["$index"] = 'String key';\n$array["{$index}"] = 'String key with curly braces';\n\nprint_r($array);

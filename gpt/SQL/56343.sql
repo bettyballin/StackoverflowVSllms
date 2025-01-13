@@ -1,1 +1,0 @@
-CREATE TABLE example (\n    id INT UNSIGNED NOT NULL AUTO_INCREMENT PRIMARY KEY,\n    name VARCHAR(255) NOT NULL,\n    birth_date DATE,\n    salary DECIMAL(10,2),\n    is_active TINYINT(1) DEFAULT 1,\n    created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP,\n    preferences JSON\n);

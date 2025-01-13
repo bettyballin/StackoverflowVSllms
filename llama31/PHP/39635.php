@@ -1,0 +1,1 @@
+$chk = 1;\nif ($chk == 1) {\n    echo '<script>document.addEventListener("DOMContentLoaded", function() { testing(); });</script>';\n}

@@ -1,0 +1,1 @@
+for (int i = 0; i < local_population_size; i++) {\n    local_population[i] = received_population[i];\n}

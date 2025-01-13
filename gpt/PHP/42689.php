@@ -1,1 +1,0 @@
-<?php\n\nfunction sprintf3($str, $vars) {\n    return strtr($str, $vars);\n}\n\necho sprintf3('The %site% site %adj% because it %adj%', array('%site%' => 'Stackoverflow', '%adj%' => 'rocks'));\n\n?>

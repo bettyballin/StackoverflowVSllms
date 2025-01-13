@@ -1,0 +1,1 @@
+string uploadPath = @"\\fileserver\uploads";\nstring fileName = "example.txt";\n\nusing (var fileStream = new FileStream(Path.Combine(uploadPath, fileName), FileMode.Create))\n{\n    // Save the uploaded file to the file stream\n}

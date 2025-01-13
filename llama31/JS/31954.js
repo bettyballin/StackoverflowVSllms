@@ -1,0 +1,1 @@
+function hideAndProcessMultiSelectBox(parm1, parm2) {\n  hideIFrame();\n  setTimeout(function() {\n    processMultiSelectBox(parm1, parm2);\n  }, 0);\n}

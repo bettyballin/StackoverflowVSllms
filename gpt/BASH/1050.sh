@@ -1,1 +1,0 @@
-cl /EHsc /link ole32.lib guidgen.cpp

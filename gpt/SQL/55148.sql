@@ -1,1 +1,0 @@
-CREATE OR REPLACE FUNCTION update_modified_column()\n   RETURNS TRIGGER AS $$\n   BEGIN\n       NEW.modified = NOW();\n       RETURN NEW;\n   END;\n   $$ LANGUAGE plpgsql;

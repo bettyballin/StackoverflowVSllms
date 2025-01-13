@@ -1,1 +1,0 @@
-# Check permissions\nls -la /var/***/your_script_directory\nls -la /Library/WebServer/Documents\n\n# Check php.ini for disable_functions and open_basedir\ngrep "disable_functions" /path/to/php.ini\ngrep "open_basedir" /path/to/php.ini\n\n# Verify the include_path in php.ini\ngrep "include_path" /path/to/php.ini\n\n# Check loaded PHP modules\nphp -m | grep imap

@@ -1,0 +1,1 @@
+CREATE TABLE strings (\n  id INT PRIMARY KEY,\n  value VARCHAR(255) UNIQUE\n);\n\nCREATE TABLE my_table (\n  string_id INT,\n  int_column INT,\n  PRIMARY KEY (string_id, int_column),\n  FOREIGN KEY (string_id) REFERENCES strings(id)\n);

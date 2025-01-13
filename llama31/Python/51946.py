@@ -1,0 +1,1 @@
+import math\nfrom nltk.tokenize import word_tokenize\n\ndef entropy_analysis(text):\n    words = word_tokenize(text)\n    freq = collections.Counter(words)\n    entropy = 0\n    for word in freq:\n        prob = freq[word] / len(words)\n        entropy -= prob * math.log2(prob)\n    return entropy

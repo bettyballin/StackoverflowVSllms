@@ -1,0 +1,1 @@
+CREATE PROCEDURE common_get_user_by_id\n    @user_id INT\nAS\nBEGIN\n    SELECT * FROM users WHERE id = @user_id\nEND\nGO

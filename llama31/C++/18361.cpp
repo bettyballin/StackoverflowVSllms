@@ -1,0 +1,1 @@
+std::vector<MyClass>::iterator last = std::upper_bound(myClass.begin(), myClass.end(), x, Compare());

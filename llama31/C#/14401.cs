@@ -1,0 +1,1 @@
+X509Certificate2 native_cert = new X509Certificate2(\n    pkcs12_buf /*byte array*/,\n    password,\n    X509KeyStorageFlags.MachineKeySet |\n    X509KeyStorageFlags.Exportable\n);

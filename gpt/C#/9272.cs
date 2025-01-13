@@ -1,1 +1,0 @@
-using (var connection = new SqlConnection(connectionString))\n   {\n       string sql = "SELECT * FROM Customers WHERE City = @City";\n       var customers = connection.Query<Customer>(sql, new { City = "London" });\n\n       foreach (var customer in customers)\n       {\n           Console.WriteLine(customer.Name);\n       }\n   }

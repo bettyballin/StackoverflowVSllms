@@ -1,1 +1,0 @@
-// Set cookie parameters manually before starting the session\nsession_set_cookie_params(0, "/", "subdomain.example.net", false, false);\n\n// Now start the session\nsession_start();

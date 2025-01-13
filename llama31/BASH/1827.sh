@@ -1,0 +1,1 @@
+# Run the request profiler with the session script\nscript/performance/request -s login_and_dashboard.rb

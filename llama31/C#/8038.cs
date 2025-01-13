@@ -1,0 +1,1 @@
+using RegQuery;\n\n// Create a new RegQuery instance\nRegQuery rq = new RegQuery();\n\n// Execute a query\nDataTable results = rq.Execute("SELECT * FROM HKEY_CURRENT_USER\\Software\\MyApp");\n\n// Iterate over the results\nforeach (DataRow row in results.Rows)\n{\n    Console.WriteLine(row["KeyName"] + ": " + row["KeyValue"]);\n}

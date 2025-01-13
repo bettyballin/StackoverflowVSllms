@@ -1,0 +1,1 @@
+ALTER TABLE huge_table\nADD new_column INT DEFAULT 0 WITH (ONLINE = ON);

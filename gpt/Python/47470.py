@@ -1,1 +1,0 @@
-from macros import macro, expand\n\n@macro\ndef repeat(n):\n    def wrapper(code_block):\n        return "\n".join([code_block for _ in range(n)])\n    return wrapper\n\n# Usage\n@expand(repeat(3))\ndef sample():\n    print("This is a repeated line.")

@@ -1,1 +1,0 @@
-[Route("api/[controller]")]\n     [ApiController]\n     public class ValuesController : ControllerBase\n     {\n         [HttpGet]\n         public ActionResult<IEnumerable<string>> Get()\n         {\n             return new string[] { "value1", "value2" };\n         }\n     }

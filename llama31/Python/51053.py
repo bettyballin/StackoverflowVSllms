@@ -1,0 +1,1 @@
+def gcd(a, b):\n    while b:\n        a, b = b, a % b\n    return a\n\ndef lcm(a, b):\n    return a * b // gcd(a, b)\n\ndef lcm_range(start, end):\n    result = start\n    for i in range(start + 1, end + 1):\n        result = lcm(result, i)\n    return result\n\nprint(lcm_range(1, 20))  # Output: 232792560

@@ -1,0 +1,1 @@
+int minIndex = 0;\nint maxIndex = 0;\nMyClass min = list[0];\nMyClass max = list[0];\n\nfor (int i = 1; i < list.Count; i++)\n{\n    if (list[i].CompareTo(min) < 0)\n    {\n        min = list[i];\n        minIndex = i;\n    }\n    else if (list[i].CompareTo(max) > 0)\n    {\n        max = list[i];\n        maxIndex = i;\n    }\n}

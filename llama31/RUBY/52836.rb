@@ -1,0 +1,1 @@
+contacts = Contact.where(user_id: user.id)

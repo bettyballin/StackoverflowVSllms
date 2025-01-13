@@ -1,0 +1,1 @@
+[ --enable-hello   Enable Hello World support])\n\nif test "$PHP_HELLO" = "yes"; then\n  AC_DEFINE(HAVE_HELLO, 1, [Whether you have Hello World])\n  CXXFLAGS="$CXXFLAGS -I."\n  PHP_NEW_EXTENSION(hello, hello.cpp, $ext_shared,, $CXX)\nfi

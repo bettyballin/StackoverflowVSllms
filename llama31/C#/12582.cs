@@ -1,0 +1,1 @@
+OleDbCommand cmd = new OleDbCommand("INSERT INTO [table] (field1, field2, ...) VALUES (@param1, @param2, ...)", connection);\n\n// Add multiple sets of parameters\ncmd.Parameters.Add("@param1", value1);\ncmd.Parameters.Add("@param2", value2);\n// ...\ncmd.Parameters.Add("@param250", value250);\n\n// Execute the batch update\ncmd.ExecuteNonQuery();

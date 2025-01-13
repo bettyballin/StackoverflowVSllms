@@ -1,1 +1,0 @@
-html, body {\n    height: 100%;\n    margin: 0;\n    padding: 0;\n}\n\n#container {\n    height: 100%;\n    width: 100%;\n}\n\n#container #mainContentsWrapper {\n    float: left;\n    height: 100%;\n    width: 70%;\n    margin: 0;\n    padding: 0;\n}\n\n#container #sidebarWrapper {\n    float: right;\n    height: 100%;\n    width: 29.7%;\n    margin: 0;\n    padding: 0;\n}

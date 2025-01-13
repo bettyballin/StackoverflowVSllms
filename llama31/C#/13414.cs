@@ -1,0 +1,1 @@
+using System.Data.SqlClient;\n\nSqlConnection connection = new SqlConnection("your_connection_string");\nconnection.Open();\n\nSqlCommand command = new SqlCommand("SELECT SERVERPROPERTY('Edition')", connection);\nstring edition = (string)command.ExecuteScalar();\n\nconnection.Close();

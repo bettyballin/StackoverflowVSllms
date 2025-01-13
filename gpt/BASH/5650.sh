@@ -1,1 +1,0 @@
-rsync -avz -e ssh path/to/local/file.zip user@remote-host:path/to/remote/dir

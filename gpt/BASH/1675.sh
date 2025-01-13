@@ -1,1 +1,0 @@
-htop -p $(pgrep apache2)

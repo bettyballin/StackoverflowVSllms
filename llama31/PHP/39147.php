@@ -1,0 +1,1 @@
+use php_base64\Base64;\n\n$encoded_string = 'your_base64_encoded_string_here';\n$decoder = new Base64\Decoder();\n\n// Write the decoded string to a file\n$file = fopen('output.txt', 'wb');\nwhile ($chunk = $decoder->decode($encoded_string, 1024)) {\n    fwrite($file, $chunk);\n}\nfclose($file);

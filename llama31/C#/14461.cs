@@ -1,0 +1,1 @@
+using System;\nusing EnvDTE;\n\nclass ResetVisualStudioSettings\n{\n    static void Main(string[] args)\n    {\n        DTE dte = (DTE)Activator.CreateInstance(Type.GetTypeFromProgID("VisualStudio.DTE.9.0"));\n        dte.ExecuteCommand("Tools.ImportandExportSettings", "/reset");\n    }\n}

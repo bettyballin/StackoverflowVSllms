@@ -1,1 +1,0 @@
-convert -density 300 input.eps -resize 800x600 output.png

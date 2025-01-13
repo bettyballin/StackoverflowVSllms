@@ -1,0 +1,1 @@
+import win32com.client\n\n# Create an instance of the python.Interpreter COM object\ninterp = win32com.client.Dispatch("Python.Interpreter")\n\n# Execute some Python code\ninterp.Exec("print('Hello, World!')")\n\n# Get the result of the execution\nresult = interp.Eval("1 + 2")\nprint(result)  # prints 3

@@ -1,0 +1,1 @@
+Dim i As Integer\nDim l As Integer\n\nFor i = 0 To 19\n    l = i ' or some other initialization\n    ' your code here\nNext

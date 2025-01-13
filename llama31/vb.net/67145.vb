@@ -1,0 +1,1 @@
+Imports YourApp.ErrorMessages\n\nIf returnedString = My.Resources.FailedBecauseIDontKnowAboutIt Then\n    'do something'\nEnd If

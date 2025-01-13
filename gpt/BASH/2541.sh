@@ -1,1 +1,0 @@
-export GCC_SPEC_FILE=$HOME/custom_gcc_specs

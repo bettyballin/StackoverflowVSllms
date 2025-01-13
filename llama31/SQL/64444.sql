@@ -1,0 +1,1 @@
+CREATE FUNCTION FormatText (@input nvarchar(max))\nRETURNS nvarchar(max)\nAS\nBEGIN\n    DECLARE @formattedText nvarchar(max)\n    \n    SET @formattedText = REPLACE(@input, CHAR(13) + CHAR(10), '</p><p>')\n    SET @formattedText = '<p>' + @formattedText + '</p>'\n    \n    RETURN @formattedText\nEND

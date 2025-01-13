@@ -1,0 +1,1 @@
+stsadm -o setsitelock -url <site_collection_url> -lock noaccess

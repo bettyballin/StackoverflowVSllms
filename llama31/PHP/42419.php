@@ -1,0 +1,1 @@
+$answers = $mysqli->query(\n  "SELECT answers.id, answers.answer \n   FROM answers, a_lookup \n   WHERE answers.id = a_lookup.a_id AND '$i' = a_lookup.q_id;"\n);

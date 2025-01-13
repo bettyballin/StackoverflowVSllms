@@ -1,0 +1,1 @@
+$fingerprint = sha1($_SERVER['HTTP_USER_AGENT'] . $_SERVER['HTTP_ACCEPT'] . $_SERVER['HTTP_ACCEPT_LANGUAGE']);\n// Store $fingerprint in your database with the user's vote

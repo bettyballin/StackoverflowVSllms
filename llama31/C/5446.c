@@ -1,0 +1,1 @@
+#if defined(__ARM_ARCH_6__) || defined(__ARM_ARCH_7__)\n    // FTOSI instruction is available\n#else\n    // FTOSI instruction is not available\n#endif

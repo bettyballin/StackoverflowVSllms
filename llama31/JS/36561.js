@@ -1,0 +1,1 @@
+// Example Cypress code\ncy.visit('https://example.com')\n  .get('a[href="/login"]')\n  .click()\n  .get('input[name="username"]')\n  .type('username')\n  .get('input[name="password"]')\n  .type('password')\n  .get('button[type="submit"]')\n  .click()

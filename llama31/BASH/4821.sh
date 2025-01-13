@@ -1,0 +1,1 @@
+set SVN_HTTP_PROXY=http://your-proxy-host:your-proxy-port

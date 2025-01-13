@@ -1,1 +1,0 @@
-public PartialViewResult SaveUser([Bind(Prefix = "User")] User NewUser)\n{\n    // Your logic here\n}

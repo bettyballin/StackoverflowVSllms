@@ -1,0 +1,1 @@
+jQuery(function() {\n  // your code here\n});

@@ -1,0 +1,1 @@
+$advertiser = new stdClass();\n$advertiser->name = 'Advertiser Name';\n$advertiser->email = 'advertiser@example.com';\n\n$soapClient = new SoapClient('http://example.com/service?wsdl');\n$soapVar = new SoapVar($advertiser, SOAP_ENC_OBJECT, 'Advertiser', 'http://example.com/namespace');\n$response = $soapClient->CreateAdvertiser($soapVar);

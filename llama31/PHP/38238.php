@@ -1,0 +1,1 @@
+function encode_php_tags($str) {\n    return str_replace(array('<?php', '<?PHP', '<?', '?>'), array('&lt;?php', '&lt;?PHP', '&lt;?', '?&gt;'), $str);\n}

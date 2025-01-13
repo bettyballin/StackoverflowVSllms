@@ -1,1 +1,0 @@
-./configure --enable-languages=c,c++

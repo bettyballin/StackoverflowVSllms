@@ -1,1 +1,0 @@
-using (var context = new YourDataContext())\n{\n    context.Log = Console.Out; // This will output SQL to the console\n    \n    var query = from item in context.YourTable\n                where item.SomeColumn == someValue\n                select item;\n    \n    var results = query.ToList(); // Execute the query\n}

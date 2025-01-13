@@ -1,1 +1,0 @@
-strace -f -o trace.log php your_script.php

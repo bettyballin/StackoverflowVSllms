@@ -1,0 +1,1 @@
+public class MainForm\n{\n    private DownloadWorker _downloadWorker;\n\n    public MainForm()\n    {\n        _downloadWorker = new DownloadWorker();\n    }\n\n    private void StartDownloadButton_Click(object sender, EventArgs e)\n    {\n        _downloadWorker.StartDownload();\n    }\n}

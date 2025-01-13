@@ -1,0 +1,1 @@
+pid_t p = fork();\nif (p == -1) {\n    /* handle error */\n} else if (p == 0) {\n    /* child code */\n} else {\n    /* parent code */\n}

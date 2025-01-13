@@ -1,0 +1,1 @@
+$(".hdr a[id]").each(function() {\n  this.addEventListener("mousedown", function(e) {\n    var url = "/g/click/" + this.id;\n    $.get(url);\n  }, true); // capture = true\n});

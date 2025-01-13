@@ -1,0 +1,1 @@
+update table\nset default = 'N'\nwhere user_id = 'abc'\nand default = 'Y'

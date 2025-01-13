@@ -1,1 +1,0 @@
-<configuration>\n     <system.web>\n       <authentication mode="Windows"/>\n       <authorization>\n         <deny users="?"/>\n       </authorization>\n       <identity impersonate="true"/>\n     </system.web>\n   </configuration>

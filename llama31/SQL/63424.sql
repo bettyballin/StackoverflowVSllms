@@ -1,0 +1,1 @@
+-- Create a read-only service on the standby database\nCREATE SERVICE read_only_service_name\n  ON DATABASE standby_database_name\n  USING 'read_only_service_name'\n  WITH OPTIONS (SERVICE_ROLE = 'READ_ONLY');

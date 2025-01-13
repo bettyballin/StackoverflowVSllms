@@ -1,0 +1,1 @@
+$row['field'] = htmlspecialchars($row['field'], ENT_QUOTES);

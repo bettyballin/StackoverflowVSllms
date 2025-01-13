@@ -1,0 +1,1 @@
+// MyComInterface.cpp\n#include "MyComInterface.h"\n\nclass CMyComInterface : public IMyComInterface\n{\npublic:\n    HRESULT SendCommand(BSTR command)\n    {\n        // Implement sending command to device\n        return S_OK;\n    }\n\n    HRESULT GetData(BSTR* data)\n    {\n        // Implement getting data from device\n        return S_OK;\n    }\n};

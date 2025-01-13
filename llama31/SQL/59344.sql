@@ -1,0 +1,1 @@
+SELECT dbo.NextDate(Month, Day) FROM YourTable

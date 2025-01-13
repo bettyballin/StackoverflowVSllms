@@ -1,1 +1,0 @@
-// Example of applying a patch\n    public void applyPatch() {\n        // Fix specific bug or vulnerability\n    }

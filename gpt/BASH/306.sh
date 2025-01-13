@@ -1,1 +1,0 @@
-g++ -O2 -S your_file.cpp -o your_file.s

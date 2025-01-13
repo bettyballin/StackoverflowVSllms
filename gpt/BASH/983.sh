@@ -1,1 +1,0 @@
-regsvr32 path\to\your\vb6dll.dll

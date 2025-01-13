@@ -1,0 +1,1 @@
+SELECT \n  column1,\n  column2,\n  VERSIONS_STARTTIME AS start_time,\n  VERSIONS_ENDTIME AS end_time\nFROM \n  table_name\n  VERSIONS BETWEEN TIMESTAMP :start_date AND TIMESTAMP :end_date;

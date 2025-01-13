@@ -1,0 +1,1 @@
+using System;\n\npublic class Rfc3986Escaper\n{\n    public static string Escape(string value)\n    {\n        var uri = new Uri("http://example.com");\n        var escaped = uri.EscapeDataString(value);\n        return escaped;\n    }\n}

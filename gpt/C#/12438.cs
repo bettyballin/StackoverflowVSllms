@@ -1,1 +1,0 @@
-using System;\nusing System.Web;\n\npublic partial class Custom404 : System.Web.UI.Page\n{\n    protected void Page_Load(object sender, EventArgs e)\n    {\n        string requestedUrl = Request.RawUrl;\n        // Implement your redirection logic based on requestedUrl\n        // For example, redirect to the home page\n        // Response.Redirect("~/");\n    }\n}

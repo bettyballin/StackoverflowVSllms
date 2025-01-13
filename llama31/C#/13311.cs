@@ -1,0 +1,1 @@
+using System.Data.Linq;\n\nMyDatabaseDataContext db = new MyDatabaseDataContext();\n\nvar myQuery = from myTable in db.MyTable\n              where myTable.Column == "value"\n              select myTable;\n\nforeach (var item in myQuery)\n{\n    Console.WriteLine(item);\n}

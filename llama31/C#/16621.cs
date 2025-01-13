@@ -1,0 +1,1 @@
+public struct Int32Point\n{\n    public int X { get; set; }\n    public int Y { get; set; }\n\n    public Int32Point(int x, int y)\n    {\n        X = x;\n        Y = y;\n    }\n}

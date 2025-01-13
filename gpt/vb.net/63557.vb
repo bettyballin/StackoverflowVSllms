@@ -1,1 +1,0 @@
-Public Class CustomValidationException\n    Inherits Exception\n\n    Public Sub New(message As String)\n        MyBase.New(message)\n    End Sub\nEnd Class

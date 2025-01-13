@@ -1,0 +1,1 @@
+yum install gcc-32bit glibc-devel-32bit

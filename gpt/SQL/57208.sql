@@ -1,1 +1,0 @@
-CREATE TABLE DimTime (\n       TimeID INT PRIMARY KEY,\n       Date DATE,\n       Hour INT,\n       DayOfWeek VARCHAR(50),\n       -- Additional time-related attributes\n   );

@@ -1,0 +1,1 @@
+Dim i As Integer = 0\nDim increment As Integer = 1\nDim upperBound As Integer = 10\n\nDo While (i <= upperBound)\n    Console.WriteLine(i)\n    i += increment\nLoop

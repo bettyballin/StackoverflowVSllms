@@ -1,1 +1,0 @@
-caspol -m -ag 1.2 -url file://Z:\* FullTrust\ncaspol -m -ag 1.2 -url file://\\computername\sharedfolder\* FullTrust

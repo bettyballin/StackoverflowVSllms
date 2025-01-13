@@ -1,0 +1,1 @@
+const dpi = window.matchMedia('(resolution: 96dpi)').matches ? 96 : \n           window.matchMedia('(resolution: 120dpi)').matches ? 120 : \n           window.matchMedia('(resolution: 144dpi)').matches ? 144 : \n           // ... add more resolutions as needed

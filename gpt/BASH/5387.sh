@@ -1,1 +1,0 @@
-#!/bin/bash\n\n# Start foo in the background\nfoo &\nfoo_pid=$!\n\n# Start bar in the background\nbar &\nbar_pid=$!\n\n# Define a function to kill both processes\ncleanup() {\n  echo "Killing processes..."\n  kill $foo_pid $bar_pid\n}\n\n# Trap SIGINT (Ctrl-C) and call the cleanup function\ntrap cleanup SIGINT\n\n# Wait for both processes to finish\nwait $foo_pid\nwait $bar_pid

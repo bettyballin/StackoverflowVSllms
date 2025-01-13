@@ -1,0 +1,1 @@
+SELECT j.name, ja.run_status, ja.last_run_outcome\nFROM msdb.dbo.sysjobs j\nINNER JOIN msdb.dbo.sysjobactivity ja ON j.job_id = ja.job_id\nWHERE ja.run_status = 2

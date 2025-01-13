@@ -1,1 +1,0 @@
-@if (ViewBag.LoggedUser != null)\n{\n    <p>Welcome, @ViewBag.LoggedUser.Name</p>\n}\nelse\n{\n    <p>Welcome, Guest</p>\n}

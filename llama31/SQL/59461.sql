@@ -1,0 +1,1 @@
+DECLARE\n  v_version_number VARCHAR2(50);\nBEGIN\n  get_exe_version('your_exe_file_blob');\n  DBMS_OUTPUT.PUT_LINE(v_version_number);\nEND;

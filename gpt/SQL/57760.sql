@@ -1,1 +1,0 @@
--- Anti-pattern\n   CREATE TABLE orders (\n       id INT,\n       customer_id INT,\n       delivery_date DATE DEFAULT NULL\n   );\n\n   -- Better approach\n   CREATE TABLE orders (\n       id INT,\n       customer_id INT,\n       delivery_date DATE NOT NULL\n   );

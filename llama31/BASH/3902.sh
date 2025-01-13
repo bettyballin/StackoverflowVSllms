@@ -1,0 +1,1 @@
+sed -n '1,100p' large_file.csv > shortened_file.csv

@@ -1,1 +1,0 @@
-protected void BindImages(string[] imageurls)\n{\n    for (int i = 0; i < imageurls.Length; i++)\n    {\n        imageurls[i] = ResolveUrl(imageurls[i]);\n    }\n    dlImages.DataSource = imageurls;\n    dlImages.DataBind();\n}

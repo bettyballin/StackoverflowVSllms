@@ -1,1 +1,0 @@
--- Insert valid codes\nINSERT INTO codes (code_value) VALUES ('CODE123'), ('CODE456');\n\n-- Insert user entries\nINSERT INTO user_entries (user_code) VALUES ('CODE123');  -- This will succeed\nINSERT INTO user_entries (user_code) VALUES ('INVALID');  -- This will fail

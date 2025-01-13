@@ -1,0 +1,1 @@
+mysqlpump -h localhost -u username -p password mydatabase > /backup/mydatabase.sql

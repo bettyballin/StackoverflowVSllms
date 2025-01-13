@@ -1,1 +1,0 @@
-// CPU 1\nacquire_cache_line_ownership(address);\nwrite_to_cache(address, data);\ninvalidate_other_caches(address);\nwrite_back_to_RAM(address, data);\n\n// CPU 2\nacquire_cache_line_ownership(address);\nwrite_to_cache(address, new_data);\ninvalidate_other_caches(address);\nwrite_back_to_RAM(address, new_data);

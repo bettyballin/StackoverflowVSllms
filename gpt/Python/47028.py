@@ -1,1 +1,0 @@
-# This is an illustrative example, not actual Python syntax\n@macro\ndef with_open_file(filename, mode):\n    with open(filename, mode) as file:\n        $body$\n\n# Usage of the macro\nwith_open_file('example.txt', 'r'):\n    print(file.read())

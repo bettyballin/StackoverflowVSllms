@@ -1,1 +1,0 @@
-cd /path/to/mysql++\nmake clean\nmake\nsudo make install

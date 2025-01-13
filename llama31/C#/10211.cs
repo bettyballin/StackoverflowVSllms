@@ -1,0 +1,1 @@
+var factory = new WebChannelFactory<IFooFinder>(new Uri("http://api.example.com"));\nfactory.Endpoint.Behaviors.Add(new CustomClientMessageInspector());

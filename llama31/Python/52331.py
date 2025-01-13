@@ -1,0 +1,1 @@
+import os\n\nos.environ['ORACLE_HOME'] = '/oracledb/10.2.0/'\nos.environ['LD_LIBRARY_PATH'] = '/oracledb/10.2.0/lib'

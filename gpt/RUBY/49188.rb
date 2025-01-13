@@ -1,1 +1,0 @@
-class Thing < ApplicationRecord\n  belongs_to :total\n\n  after_update :update_total_sum\n\n  private\n\n  def update_total_sum\n    if saved_change_to_amount?\n      old_amount = amount_before_last_save\n      new_amount = amount\n      difference = new_amount - old_amount\n      total.increment!(:sum, difference)\n    end\n  end\nend

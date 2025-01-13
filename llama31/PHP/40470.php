@@ -1,0 +1,1 @@
+Route::set('posts', '(<controller>(/<action>(/<id>)))')\n    ->defaults(array(\n        'controller' => 'posts',\n        'action'     => 'index',\n    ))\n    ->methods('GET', 'HEAD');

@@ -1,1 +1,0 @@
-extern "C" __declspec(dllexport) void CallManagedCode()\n   {\n       Wrapper^ wrapper = gcnew Wrapper();\n       wrapper->CallYourMethod();\n   }

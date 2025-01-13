@@ -1,0 +1,1 @@
+public static Type GetUnderlyingType(Type type)\n{\n    if (type.IsGenericType && type.GetGenericTypeDefinition() == typeof(Nullable<>))\n    {\n        return type.GetGenericArguments()[0];\n    }\n    return type;\n}

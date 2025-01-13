@@ -1,0 +1,1 @@
+#include <sstream>\n#include <string>\n\nstd::string padLeft(const std::string& str, size_t width, char padChar = ' ') {\n    std::stringstream ss;\n    ss.width(width);\n    ss << std::left << std::setfill(padChar) << str;\n    return ss.str();\n}

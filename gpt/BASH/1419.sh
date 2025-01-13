@@ -1,1 +1,0 @@
-# Load the SQL Server module\nImport-Module 'SQLPS' -DisableNameChecking\n\n# Enable TCP/IP protocol\n$instanceName = "MSSQLSERVER" # Change to your instance name if needed\n$wmi = Get-WmiObject -namespace "root\Microsoft\SqlServer\ComputerManagement10" -query "select * from ServerNetworkProtocol where InstanceName='$instanceName' and ProtocolName='Tcp'"\n$wmi.SetEnable(1)

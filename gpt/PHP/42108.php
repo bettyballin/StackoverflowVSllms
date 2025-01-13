@@ -1,1 +1,0 @@
-class Mysql {\n    private $mysqli;\n\n    public function __construct(ConfigInterface $config) {\n        $this->mysqli = new Mysqli(\n            $config->getHost(),\n            $config->getUsername(),\n            $config->getPassword()\n        );\n    }\n\n    // Other methods...\n}

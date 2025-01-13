@@ -1,1 +1,0 @@
-git checkout main\n   git merge develop\n   git tag -a v1.0 -m "Release version 1.0"\n   git push origin main --tags

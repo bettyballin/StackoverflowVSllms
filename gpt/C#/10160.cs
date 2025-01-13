@@ -1,1 +1,0 @@
-enum AppState { STARTUP, IDLE, ACTIVE };\n   AppState currentState = STARTUP;\n\n   void logStateTransition(AppState newState) {\n       logPerformanceMetrics("State Transition");\n       currentState = newState;\n   }\n\n   // Example state transition\n   logStateTransition(IDLE);

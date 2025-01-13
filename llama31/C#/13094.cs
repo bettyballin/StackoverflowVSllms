@@ -1,0 +1,1 @@
+void Application_Start(object sender, EventArgs e)\n{\n    RouteTable.Routes.MapPageRoute("abc", "abc", "~/default.aspx?article=abc");\n}

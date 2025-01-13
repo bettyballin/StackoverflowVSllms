@@ -1,0 +1,1 @@
+preg_match('/Set-Cookie: ([^;]+)/', $response, $matches);\n$cookie = $matches[1];

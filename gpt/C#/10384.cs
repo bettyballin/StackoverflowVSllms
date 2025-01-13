@@ -1,1 +1,0 @@
-public class MyService : IMyService\n{\n    public string HelloWorld()\n    {\n        return "Hello, World!";\n    }\n}

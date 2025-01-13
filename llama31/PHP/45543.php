@@ -1,0 +1,1 @@
+echo $element->renderViewHelper();

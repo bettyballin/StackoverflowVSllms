@@ -1,0 +1,1 @@
+// assume the VB DLL has a function called "MyFunction"\n// and the mangled name is "_MyFunction"\n\n// use the non-underscored name\nextern "C" __declspec(dllimport) void MyFunction();\n\nint main() {\n    MyFunction(); // call the function using the non-underscored name\n    return 0;\n}

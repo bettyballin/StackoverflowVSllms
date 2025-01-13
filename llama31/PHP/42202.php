@@ -1,0 +1,1 @@
+if (class_exists('DOMDocument')) {\n    echo "DOMDocument class is available";\n} else {\n    echo "DOMDocument class is not available";\n}

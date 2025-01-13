@@ -1,1 +1,0 @@
-$route['default_controller'] = 'main'; // Assuming 'main' is your main controller\n$route['provider1'] = 'main/provider1'; // Add this route if needed\n$route['404_override'] = '';\n$route['translate_uri_dashes'] = FALSE;

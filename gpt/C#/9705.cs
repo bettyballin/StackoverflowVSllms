@@ -1,1 +1,0 @@
-[Serializable]\n[DataContract]\npublic class SomeClass\n{\n    [DataMember]\n    public string PropertyA { get; set; }\n\n    [DataMember]\n    public string PropertyB { get; private set; }\n\n    // Constructor to set PropertyB, since it is read-only outside the class\n    public SomeClass()\n    {\n        PropertyB = "Hi There";\n    }\n}

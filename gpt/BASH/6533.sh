@@ -1,1 +1,0 @@
-ss History $/ -R -L"LabelName" -Yusername,password

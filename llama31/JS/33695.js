@@ -1,0 +1,1 @@
+const div1 = document.querySelector('.div1');\nconst div2 = document.querySelector('.div2');\n\nconst maxHeight = Math.max(div1.offsetHeight, div2.offsetHeight);\n\ndiv1.style.height = `${maxHeight}px`;\ndiv2.style.height = `${maxHeight}px`;

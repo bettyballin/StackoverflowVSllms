@@ -1,0 +1,1 @@
+unsigned int count_bit_transitions(unsigned int n) {\n    unsigned int count = 0;\n    n = n ^ (n >> 1);  // XOR with right-shifted version to mark transitions\n    while (n) {\n        count += n & 1;\n        n >>= 1;\n    }\n    return count;\n}

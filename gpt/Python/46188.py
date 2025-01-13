@@ -1,1 +1,0 @@
-from datetime import datetime\n   import pytz\n\n   utc_now = datetime.now(pytz.utc)\n   local_time = utc_now.astimezone(pytz.timezone('America/New_York'))

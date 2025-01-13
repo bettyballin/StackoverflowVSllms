@@ -1,0 +1,1 @@
+public class UserProfile\n{\n    public int UserId { get; set; } // foreign key to aspnet_Users table\n    public string Address { get; set; }\n    public string PhoneNumber { get; set; }\n}

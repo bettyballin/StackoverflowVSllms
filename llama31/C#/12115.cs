@@ -1,0 +1,1 @@
+Foo myFoo = new Foo();\nint FooBarResult = myFoo.Bar();

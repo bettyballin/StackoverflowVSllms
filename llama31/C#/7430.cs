@@ -1,0 +1,1 @@
+var newEnumerable = enumerable.SelectMany(item => item.Enumerable.Select(item2 => new Item2())).ToList();

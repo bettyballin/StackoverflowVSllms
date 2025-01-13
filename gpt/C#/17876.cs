@@ -1,1 +1,0 @@
-protected void Page_Load(object sender, EventArgs e)\n{\n    string combinedScripts = Request.QueryString["_TSM_CombinedScripts_"];\n    if (!string.IsNullOrEmpty(combinedScripts))\n    {\n        combinedScripts = HttpUtility.HtmlEncode(combinedScripts);\n        // Perform any additional validation or processing\n    }\n}

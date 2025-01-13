@@ -1,0 +1,1 @@
+con.send(stdout + "\n")

@@ -1,0 +1,1 @@
+[Export(typeof(ILogger))]\npublic class Logger { }\n\n[Import(typeof(ILogger))]\npublic class MyComponent\n{\n    public MyComponent(ILogger logger) { }\n}

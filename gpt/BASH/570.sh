@@ -1,1 +1,0 @@
-gcc -shared -o ParallelPortControl.dll ParallelPortControl.c -l inpout32

@@ -1,0 +1,1 @@
+// Domain object (POCO)\nnamespace MyApp.Objects\n{\n    public class User { }\n}\n\n// Table mapping class\nnamespace MyApp.Data.Tables\n{\n    public class User { }\n}

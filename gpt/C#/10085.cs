@@ -1,1 +1,0 @@
-FileSystemWatcher fsw = new FileSystemWatcher(@"C:\", "mylog.log");\n   fsw.NotifyFilter = NotifyFilters.LastWrite | NotifyFilters.FileName | NotifyFilters.Size;\n   fsw.Changed += new FileSystemEventHandler(fsw_Handler);\n   fsw.EnableRaisingEvents = true;

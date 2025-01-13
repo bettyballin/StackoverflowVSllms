@@ -1,0 +1,1 @@
+private volatile bool enabled;

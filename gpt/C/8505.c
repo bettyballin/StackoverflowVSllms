@@ -1,1 +1,0 @@
-// Example code that was vulnerable to Heartbleed\nif (1 + 2 + payload + padding > s->s3->rrec.length) {\n    return 0;\n}

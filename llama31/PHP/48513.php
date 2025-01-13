@@ -1,0 +1,1 @@
+$SGcon = new PDO("mysql:host=localhost;dbname=sGopen", "root", "");\n$PTcon = new PDO("mysql:host=localhost;dbname=pTsecond", "root", "");\n\n$SGcon->query($getQuery);\n$PTcon->query($secondQuery);

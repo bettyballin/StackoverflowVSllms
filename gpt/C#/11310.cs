@@ -1,1 +1,0 @@
-using System;\nusing System.Runtime.InteropServices;\n\nnamespace MyInteropLibrary\n{\n    [ComVisible(true)]\n    [Guid("YOUR-GUID-HERE")]\n    [ClassInterface(ClassInterfaceType.AutoDual)]\n    public class MyClass\n    {\n        public void MyMethod()\n        {\n            // Your implementation here\n        }\n    }\n}

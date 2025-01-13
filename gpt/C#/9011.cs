@@ -1,1 +1,0 @@
-using System;\n    using System.Collections.Generic;\n    using Microsoft.VisualStudio.TextTemplating;\n\n    public class CustomHost : TextTemplatingSessionHost\n    {\n        public CustomHost(List<MyObject> objects)\n        {\n            this.Session["Objects"] = objects;\n        }\n    }

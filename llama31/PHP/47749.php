@@ -1,0 +1,1 @@
+setcookie(\n    'cookie_name', \n    'cookie_value', \n    time() + 3600, // expires in 1 hour\n    '/', \n    'example.com', \n    true, // secure\n    true // httponly\n);

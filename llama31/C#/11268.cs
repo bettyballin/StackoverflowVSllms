@@ -1,0 +1,1 @@
+using (var wrapper = new YourComObjectWrapper(comObject))\n{\n    // Use the COM object...\n}

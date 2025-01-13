@@ -1,0 +1,1 @@
+def cantor_pairing(a, b):\n    return (a + b) * (a + b + 1) // 2 + b

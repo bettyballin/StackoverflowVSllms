@@ -1,1 +1,0 @@
-# WEB-INF/ruby/rubyprogram.rb\nputs "Content-type: text/html\n\n"\nputs "<html><body>"\nputs "<h1>Hello from JRuby!</h1>"\nputs "</body></html>"

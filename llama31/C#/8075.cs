@@ -1,0 +1,1 @@
+using System.Web.Services;\nusing System.Web;\n\n[WebMethod]\npublic static object GetData()\n{\n    var cache = HttpContext.Current.Cache;\n    // use the cache instance to retrieve or store data\n    return data;\n}

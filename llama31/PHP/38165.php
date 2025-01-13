@@ -1,0 +1,1 @@
+$adjacentTweets = getAdjacentTweets('current_key');\n$previousTweet = $adjacentTweets[1]; // note the index is 1, not 0\n$nextTweet = $adjacentTweets[2];

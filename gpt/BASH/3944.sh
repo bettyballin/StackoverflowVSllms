@@ -1,1 +1,0 @@
-#!/bin/bash\n   \n   REPOS="$1"\n   REV="$2"\n   HEADER_FILE="<path_to_your_header_file>/revision.h"\n\n   echo "// This file is auto-generated. Do not modify." > $HEADER_FILE\n   echo "#ifndef REVISION_H" >> $HEADER_FILE\n   echo "#define REVISION_H" >> $HEADER_FILE\n   echo "#define SVN_REVISION $REV" >> $HEADER_FILE\n   echo "#endif // REVISION_H" >> $HEADER_FILE

@@ -1,0 +1,1 @@
+if [ -z "$VAR" ]; then\n  # do something\n  export VAR=something\nfi

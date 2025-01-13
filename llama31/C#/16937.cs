@@ -1,0 +1,1 @@
+try\n{\n    WebRequest request = WebRequest.Create("https://example.com");\n    // ... add client certificate or set authentication level ...\n    request.GetRequestStream();\n}\ncatch (WebException ex)\n{\n    Console.WriteLine(ex.Message);\n    // Handle the exception\n}

@@ -1,1 +1,0 @@
-rdiff patch file1.txt file1_to_file2.delta patched_file.txt

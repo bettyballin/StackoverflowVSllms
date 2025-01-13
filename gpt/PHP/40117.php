@@ -1,1 +1,0 @@
-// Assuming you have a MySQLi connection in $conn\n$stmt = $conn->prepare("SELECT * FROM $tbl_name WHERE username=? AND pwd=? AND priv_level=?");\n$stmt->bind_param("sss", $myusername, $pass, $privlevel);\n$stmt->execute();\n$result = $stmt->get_result();\n\n// Fetch data if needed\nwhile ($row = $result->fetch_assoc()) {\n    // Process the row\n}\n\n$stmt->close();

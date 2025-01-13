@@ -1,0 +1,1 @@
+public class LoginViewModel\n{\n    [Required(ErrorMessage = "Email address is required")]\n    [EmailAddress(ErrorMessage = "Invalid email address")]\n    [ValidDomain(ErrorMessage = "Domain is not registered")]\n    public string EmailAddress { get; set; }\n}

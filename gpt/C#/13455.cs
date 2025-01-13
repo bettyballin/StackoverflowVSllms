@@ -1,1 +1,0 @@
-public void OnMyButtonClick(Office.IRibbonControl control)\n    {\n        // Handle button click event\n    }

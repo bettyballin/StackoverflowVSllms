@@ -1,0 +1,1 @@
+if (IsDebuggerPresent()) {\n    DebugBreak();\n}

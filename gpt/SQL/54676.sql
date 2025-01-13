@@ -1,1 +1,0 @@
-SELECT columnA, columnB, columnC\nFROM CommonData;\n\nSELECT columnA, columnB, columnC\nFROM CommonDataArchive;

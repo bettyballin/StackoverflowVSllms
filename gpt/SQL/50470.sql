@@ -1,1 +1,0 @@
--- Disable foreign key checks\nSET foreign_key_checks = 0;\n\n-- Your data manipulation here\n\n-- Enable foreign key checks\nSET foreign_key_checks = 1;

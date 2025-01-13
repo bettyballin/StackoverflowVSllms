@@ -1,0 +1,1 @@
+$.ajax({\n    type: "POST",\n    url: "GetContent.aspx",\n    data: { action: "Catalog" },\n    success: function(data) {\n        $("#contentRegion").html(data);\n    }\n});

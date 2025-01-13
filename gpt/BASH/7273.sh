@@ -1,1 +1,0 @@
-# October CMS update example using CLI\n# Backup your site before performing updates\n\n# Step 1: Update October CMS via Artisan command\nphp artisan october:update\n\n# Step 2: Clear the application cache\nphp artisan cache:clear

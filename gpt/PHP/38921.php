@@ -1,1 +1,0 @@
-<?php\n$ipHash = 'da39a3ee5e6b4b0d3255bfef95601890afd80709';\n$pdo = new PDO('mysql:host=hostname;dbname=database', 'username', 'password');\n$stmt = $pdo->prepare('SELECT * FROM records WHERE SHA1(IPADDRESS) = :ipHash');\n$stmt->execute(['ipHash' => $ipHash]);\n$records = $stmt->fetchAll(PDO::FETCH_ASSOC);\nforeach ($records as $record) {\n    // Process each record\n}\n?>

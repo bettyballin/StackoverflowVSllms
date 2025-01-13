@@ -1,0 +1,1 @@
+CREATE TABLE product_codes (\n  code char(2) PRIMARY KEY\n)\n\nINSERT INTO product_codes (code) VALUES ('XJ'), ('XD')\n\nCREATE TABLE packages (\n  productCode char(2) FOREIGN KEY REFERENCES product_codes (code),\n  name nvarchar(100),\n  ...\n)

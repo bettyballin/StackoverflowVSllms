@@ -1,0 +1,1 @@
+$dsn = 'sqlite:example.db';\n$conn = new PDO($dsn);\n\n// Set the encoding to UTF-8\n$conn->exec('PRAGMA encoding = "UTF-8"');\n\n// Now the connection should use UTF-8 encoding

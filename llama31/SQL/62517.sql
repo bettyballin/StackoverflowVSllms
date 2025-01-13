@@ -1,0 +1,1 @@
+RESTORE DATABASE [database_name]\nFROM DISK = '\\network_path\backup_file.bak'\nWITH REPLACE,\nMOVE 'logical_file_name' TO 'physical_file_name',\nMOVE 'logical_log_file_name' TO 'physical_log_file_name'

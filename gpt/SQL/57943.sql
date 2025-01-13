@@ -1,1 +1,0 @@
-SELECT \n    COUNT(DISTINCT userid) AS unique_users_online \nFROM \n    bigBrother \nWHERE \n    datetime BETWEEN DATE_SUB(NOW(), INTERVAL 3 MINUTE) AND NOW()\n    AND userid != 0;

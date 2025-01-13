@@ -1,1 +1,0 @@
-def setup\n  @thing = Factory(:thing)\n  assert(@thing.id, "Virtual fixture not valid.")\nend\n\ndef test_create_valid\n  Thing.any_instance.stubs(:valid?).returns(true)\n  post :create\n  new_thing = assigns(:thing)\n  assert_redirected_to thing_path(new_thing)\nend

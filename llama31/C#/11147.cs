@@ -1,0 +1,1 @@
+List<MyObject> myList = new List<MyObject>();\n\n// Convert to IEnumerable<T> for LINQ operations\nIEnumerable<MyObject> myEnumerable = myList;\n\n// Perform LINQ operations (e.g., Sort())\nmyEnumerable = myEnumerable.OrderBy(x => x.MyProperty);\n\n// Convert back to List<T>\nList<MyObject> sortedList = myEnumerable.ToList();

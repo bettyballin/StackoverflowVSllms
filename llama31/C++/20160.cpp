@@ -1,0 +1,1 @@
+// Example code: Web application security specialization\n#include <security/web_application_security.h>\n\nint main() {\n    // Apply existing C++ skills to web application security\n    WebApplicationSecurity specialist;\n    specialist.secureWebApp();\n    return 0;\n}

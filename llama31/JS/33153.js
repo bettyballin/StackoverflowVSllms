@@ -1,0 +1,1 @@
+# In your view or API call, send a PATCH request to /students/:id with the updated classes\n# For example, using jQuery:\n$.ajax({\n  type: 'PATCH',\n  url: '/students/' + student_id,\n  data: { classes: [class1_id, class2_id, ...] },\n  success: function() { console.log('Updated successfully'); }\n});

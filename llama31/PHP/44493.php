@@ -1,0 +1,1 @@
+echo '<a href="#" onclick="pop_item(\''.$_code.'\',1)">Link </a>';

@@ -1,1 +1,0 @@
-wget https://downloads.jboss.org/keycloak/11.0.2/keycloak-11.0.2.tar.gz\n    tar -xvzf keycloak-11.0.2.tar.gz\n    cd keycloak-11.0.2

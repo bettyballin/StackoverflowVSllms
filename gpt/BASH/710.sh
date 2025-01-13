@@ -1,1 +1,0 @@
-./configure CFLAGS="-m32" LDFLAGS="-m32"\n   make\n   make install

@@ -1,0 +1,1 @@
+object myObject = null;\n\nif (myObject == null)\n{\n    Console.WriteLine("Reference equality: True");\n}\n\nif (myObject.Equals(null)) // equivalent to value equality\n{\n    Console.WriteLine("Value equality: True");\n}

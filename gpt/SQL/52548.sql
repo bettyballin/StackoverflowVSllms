@@ -1,1 +1,0 @@
-SELECT * FROM (\n        SELECT\n            ...,\n            row_number() OVER(ORDER BY ID) rn\n        FROM\n            your_table\n        WHERE\n            some_column = :some_value\n    )\n    WHERE rn BETWEEN :start AND :end;

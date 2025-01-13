@@ -1,0 +1,1 @@
+sendmail -odq=4h -oi -f sender recipient

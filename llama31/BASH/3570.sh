@@ -1,0 +1,1 @@
+sed -n '105,115p' .tnsnames.ora | awk '/host|port/ {print $2}'

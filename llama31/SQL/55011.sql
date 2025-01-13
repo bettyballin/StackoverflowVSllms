@@ -1,0 +1,1 @@
+SELECT *\nFROM (\n  SELECT x as x1, y, z FROM a GROUP BY x\n) AS subquery1\nLEFT JOIN (\n  SELECT x as x2, n, o FROM b GROUP BY x\n) AS subquery2\nON subquery1.x1 = subquery2.x2;

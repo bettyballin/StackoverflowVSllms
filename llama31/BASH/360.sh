@@ -1,0 +1,1 @@
+schtasks /create /tn "Run Java Program" /tr "C:\\Program Files\\Java\\jdk1.6.0_14\\bin\\java Importer 1 2 updated.txt 7" /sc minute /mo 1

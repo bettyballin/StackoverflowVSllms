@@ -1,0 +1,1 @@
+$array3 = array_replace($array2, $array1);

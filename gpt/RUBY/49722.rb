@@ -1,1 +1,0 @@
-# Example in Rails to cache a fragment\n    <%= cache do %>\n      <%= render @products %>\n    <% end %>

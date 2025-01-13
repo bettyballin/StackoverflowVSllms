@@ -1,1 +1,0 @@
-git commit -m "Fixes #829 - Corrected null pointer exception in user profile service"

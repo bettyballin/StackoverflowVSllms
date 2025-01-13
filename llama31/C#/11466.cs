@@ -1,0 +1,1 @@
+using System;\nusing System.Security.Cryptography;\n\n// Create a new RSA key pair\nusing (var rsa = RSA.Create())\n{\n    // Export the public key as an X.509 SubjectPublicKeyInfo (SPKI) blob\n    var publicKeyBytes = rsa.ExportSubjectPublicKeyInfo();\n\n    // Save the public key to a file\n    File.WriteAllBytes("public_key.der", publicKeyBytes);\n}

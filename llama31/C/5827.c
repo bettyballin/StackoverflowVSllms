@@ -1,0 +1,1 @@
+int main() {\n    char *pem_cert;\n    char *pem_key;\n\n    create_x509_certificate(&pem_cert, &pem_key);\n\n    printf("Certificate:\n%s\n", pem_cert);\n    printf("Private Key:\n%s\n", pem_key);\n\n    free(pem_cert);\n    free(pem_key);\n\n    return 0;\n}

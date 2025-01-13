@@ -1,0 +1,1 @@
+SELECT COUNT(*) \nFROM OPENROWSET('SQLNCLI', 'Server=(local);Trusted_Connection=yes;', 'EXEC MyStoredProcedure');

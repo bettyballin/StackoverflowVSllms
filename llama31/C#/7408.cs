@@ -1,0 +1,1 @@
+using Markdig;\n\npublic string ConvertMarkdownToHtml(string markdown)\n{\n    var pipeline = new MarkdownPipelineBuilder().Build();\n    var html = Markdig.Markdown.ToHtml(markdown, pipeline);\n    return html;\n}\n\nvar markdown = "Some **bold** text";\nvar output = ConvertMarkdownToHtml(markdown);\n// Output: <p>Some <strong>bold</strong> text</p>

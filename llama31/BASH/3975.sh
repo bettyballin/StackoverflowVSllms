@@ -1,0 +1,1 @@
+logparser -i:IISW3C -extrafields:foo "SELECT c-ip, s-ip FROM my.log"

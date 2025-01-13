@@ -1,1 +1,0 @@
-(echo "Column1,Column2,Column3" && cat yourfile.csv) > temp.csv && mv temp.csv yourfile.csv

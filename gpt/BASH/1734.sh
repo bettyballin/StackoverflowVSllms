@@ -1,1 +1,0 @@
-pg_dump dbname > backup.sql\n   psql dbname < backup.sql

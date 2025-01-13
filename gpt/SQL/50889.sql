@@ -1,1 +1,0 @@
-CREATE EVENT check_table_size_event\nON SCHEDULE EVERY 1 MINUTE  -- Adjust the interval as needed\nDO\nCALL check_table_size();

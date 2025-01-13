@@ -1,1 +1,0 @@
-using MyWcfApplication.Common.Models;\n\nnamespace MyWcfApplication.Data.Repositories\n{\n    public class OrderRepository\n    {\n        public Order GetOrder(int orderId)\n        {\n            // Simulate data retrieval\n            return new Order { OrderId = orderId, ProductName = "Sample Product", Quantity = 1 };\n        }\n    }\n}

@@ -1,1 +1,0 @@
-jarsigner -keystore mykeystore -storepass password -keypass password -signedjar SignedApplet.jar MyApplet.jar alias

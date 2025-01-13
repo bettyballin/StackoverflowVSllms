@@ -1,0 +1,1 @@
+using (var db = new MyDataContext())\n{\n    var results = db.GetXmlData();\n    // process the results\n}

@@ -1,1 +1,0 @@
-rar a -m5 -s archive.rar folder/

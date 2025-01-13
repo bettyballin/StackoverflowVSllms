@@ -1,0 +1,1 @@
+Dim ws As New Service1.Service1()\nDim result As String = ws.HelloWorld("John Doe")\nConsole.WriteLine(result)

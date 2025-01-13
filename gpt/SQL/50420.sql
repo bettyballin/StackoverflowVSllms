@@ -1,1 +1,0 @@
-CREATE TABLE places (\n    id INTEGER PRIMARY KEY AUTOINCREMENT,\n    web_id INTEGER UNIQUE,\n    name TEXT,\n    city_id INTEGER,\n    ...\n);

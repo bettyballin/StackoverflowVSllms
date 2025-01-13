@@ -1,0 +1,1 @@
+var bindingList = new BindingList<MyTable>(dbContext.MyTable.ToList());\ndataGridView1.DataSource = bindingList;\ndataGridView1.ReadOnly = false;

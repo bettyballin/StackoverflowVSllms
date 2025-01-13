@@ -1,0 +1,1 @@
+from database import model\n\nc = model.client()\no = model.order()\ns = model.staff()

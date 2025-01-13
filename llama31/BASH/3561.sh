@@ -1,0 +1,1 @@
+#!/bin/bash\n\n# Define variables\nJDK_VERSION="11.0.6"\nAPP_MODULES="your.app.modules"\nOUTPUT_DIR="myapp-jre"\n\n# Create custom JRE image\njlink --module-path ${JDK_VERSION}/jmods --add-modules ${APP_MODULES} --output ${OUTPUT_DIR}\n\n# Create bundle for each OS\nfor os in linux windows macos; do\n  tar -czf ${OUTPUT_DIR}-${os}.tar.gz ${OUTPUT_DIR}\ndone

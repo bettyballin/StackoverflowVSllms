@@ -1,1 +1,0 @@
-extern alias OldTelerik;\n    extern alias NewTelerik;

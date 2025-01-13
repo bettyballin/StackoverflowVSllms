@@ -1,1 +1,0 @@
-// Delete the cookie by setting its expiration date in the past\nsetcookie("your_cookie_name", "", time() - 3600, "/");

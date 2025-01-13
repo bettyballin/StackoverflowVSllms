@@ -1,0 +1,1 @@
+protected void btnSubmit_Click(object sender, EventArgs e)\n{\n    if (Page.IsValid)\n    {\n        // Registration code here\n    }\n}

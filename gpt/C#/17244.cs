@@ -1,1 +1,0 @@
-[Microsoft.SqlServer.Server.SqlProcedure]\n   public static void GetCalculatedData(SqlString parameter)\n   {\n       // Call the calculation engine and get the data\n       DataSet ds = CalculationEngine.GetCalculatedData(parameter.ToString());\n\n       // Send the data back to SQL Server\n       SqlContext.Pipe.Send(ds.Tables[0].CreateDataReader());\n   }

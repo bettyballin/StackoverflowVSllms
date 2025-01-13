@@ -1,0 +1,1 @@
+// Library project\nusing SomeDll;\n\npublic class SomeDllWrapper\n{\n    public static void DoSomething()\n    {\n        SomeDll.DoSomething();\n    }\n}

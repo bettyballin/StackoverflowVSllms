@@ -1,0 +1,1 @@
+const source = "1234";\nconst comparison = "1000 12345 112345 1234 2000";\n\nconst regex = new RegExp(`\\b${source}\\b`);\nif (regex.test(comparison)) {\n  console.log("Match found");\n} else {\n  console.log("No match found");\n}

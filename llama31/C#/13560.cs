@@ -1,0 +1,1 @@
+var configFileMap = new ExeConfigurationFileMap { ExeConfigFilename = "yourdll.config" };\nvar config = ConfigurationManager.OpenMappedExeConfiguration(configFileMap, ConfigurationUserLevel.None);\nvar connectionString = config.AppSettings.Settings["ConnectString"].Value;\nConsole.WriteLine(connectionString);

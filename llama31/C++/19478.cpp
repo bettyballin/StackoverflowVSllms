@@ -1,0 +1,1 @@
+std::vector<int> moveVecFast(std::vector<int>&& original) {\n    return std::move(original);\n}

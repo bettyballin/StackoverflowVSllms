@@ -1,0 +1,1 @@
+CREATE TABLE posts (\n  id INT PRIMARY KEY,\n  title VARCHAR(255),\n  content TEXT\n);

@@ -1,0 +1,1 @@
+def mouseMotion(self, event):\n    pixelPos = event.pos[Y]\n    odePos = Scroll.pixelPosToOdePos(pixelPos) + Y_OFFSET\n    self.tool.positionChanged(odePos)\n\n#...\n\ndef render(self, screen, image, odePos):\n    pixelPos = self.odePosToPixelPos(odePos - Y_OFFSET)\n    screen.blit(image, pixelPos)

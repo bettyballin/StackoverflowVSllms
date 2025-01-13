@@ -1,1 +1,0 @@
-# spec/factories/bids.rb\nFactoryBot.define do\n  factory :bid do\n    auction\n    user\n    point { 1 }\n  end\nend\n\n# spec/factories/auctions.rb\nFactoryBot.define do\n  factory :auction do\n    # Add necessary attributes here\n  end\nend\n\n# spec/factories/users.rb\nFactoryBot.define do\n  factory :user do\n    # Add necessary attributes here\n  end\nend

@@ -1,0 +1,1 @@
+gcc -Wextra your_file.c

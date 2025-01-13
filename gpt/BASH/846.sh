@@ -1,1 +1,0 @@
-svn checkout http://third-party-repo-url/path/to/folder /local/third-party-repo

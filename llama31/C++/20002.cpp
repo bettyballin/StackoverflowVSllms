@@ -1,0 +1,1 @@
+void Foo::doSomething()\n{\n    // implementation\n}

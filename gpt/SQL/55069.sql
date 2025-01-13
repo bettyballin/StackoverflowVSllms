@@ -1,1 +1,0 @@
-SELECT SYSDATE - 1 AS dateMinusLiteral, \n       TRUNC(SYSDATE) AS midnight\n  FROM DUAL;

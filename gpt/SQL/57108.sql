@@ -1,1 +1,0 @@
-CREATE OR REPLACE FUNCTION update_rows RETURN NUMBER IS\n  rows_affected NUMBER;\nBEGIN\n  UPDATE your_table\n  SET your_column = new_value\n  WHERE your_condition = some_value;\n\n  rows_affected := SQL%ROWCOUNT;\n\n  RETURN rows_affected;\nEND;

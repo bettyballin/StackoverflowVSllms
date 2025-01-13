@@ -1,0 +1,1 @@
+DataTable originalTable = new DataTable();\n// ... populate originalTable ...\n\nDataTable newTable = originalTable.Clone();

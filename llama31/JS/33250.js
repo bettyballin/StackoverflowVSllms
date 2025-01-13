@@ -1,0 +1,1 @@
+var previousValue = 1;\n\ndocument.getElementById('targetQuantity').addEventListener('blur', function() {\n  var currentValue = this.value;\n  var parsedValue = parseInt(currentValue, 10);\n\n  if (isNaN(parsedValue) || parsedValue > 90) {\n    this.value = previousValue;\n  } else {\n    previousValue = parsedValue;\n  }\n});

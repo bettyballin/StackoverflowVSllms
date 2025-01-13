@@ -1,0 +1,1 @@
+using System.ComponentModel.DataAnnotations;\n\npublic class ValidDomainAttribute : ValidationAttribute\n{\n    public override bool IsValid(object value)\n    {\n        var email = value as string;\n        var domain = email.Split('@').Last();\n        // Check if domain is registered in your system\n        return YourDomainValidationLogic(domain);\n    }\n}

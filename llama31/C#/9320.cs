@@ -1,0 +1,1 @@
+using (Process p = Process.Start(command))\n{\n    // ...\n}

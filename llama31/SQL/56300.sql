@@ -1,0 +1,1 @@
+SELECT * FROM sys.event_log WHERE event_type = 'error' AND message LIKE '%connection%';

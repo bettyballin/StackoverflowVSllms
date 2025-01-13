@@ -1,0 +1,1 @@
+import numpy as np\n\ndef dfa_analysis(text):\n    words = word_tokenize(text)\n    time_series = np.array([len(word) for word in words])\n    # Apply DFA to the time series\n    return np.var(time_series)

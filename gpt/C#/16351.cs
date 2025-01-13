@@ -1,1 +1,0 @@
-List<object> mixedList = new List<object>();\n    mixedList.Add(123);  // Boxing occurs here\n    mixedList.Add("Hello");\n    mixedList.Add(true);

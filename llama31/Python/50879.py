@@ -1,0 +1,1 @@
+import ahocorasick\n\n# create a trie from the set of words\ntrie = ahocorasick.AhoCorasick(words)\n\n# search for the words in the text\nmatches = trie.findall(text)

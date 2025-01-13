@@ -1,0 +1,1 @@
+sudo mount -t tmpfs -o size=4G tmpfs /mnt/ramdisk

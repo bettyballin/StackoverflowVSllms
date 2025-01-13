@@ -1,0 +1,1 @@
+void Server::printline()\n{\n   QTcpSocket *client = tcp->nextPendingConnection();\n   QObject::connect(client,SIGNAL(disconnected()),\n                    client,SLOT(deleteLater()));\n\n   QDataStream in(client);\n   in.setVersion(QDataStream::Qt_4_0);\n\n   char data[256];\n   in.readRawData(data, 256);\n   printf("String = %s\n", data);\n}

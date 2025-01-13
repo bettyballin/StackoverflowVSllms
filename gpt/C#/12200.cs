@@ -1,1 +1,0 @@
-string hiddenValue = Request.Form["hiddenSelectUnionDues"];\nbool isCheckboxChecked = hiddenValue == "true";

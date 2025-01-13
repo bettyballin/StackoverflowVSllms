@@ -1,1 +1,0 @@
-ansible-playbook -i inventory.ini manage_keys.yml -u your_user

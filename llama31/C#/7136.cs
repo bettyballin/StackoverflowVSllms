@@ -1,0 +1,1 @@
+DataLoadOptions options = new DataLoadOptions();\noptions.LoadWith<Person>(p => p.Notes);\n\ndb.LoadOptions = options;\n\nPerson myPerson = db.PersonGet(pnID).Single();

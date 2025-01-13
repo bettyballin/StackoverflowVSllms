@@ -1,0 +1,1 @@
+# Create a new virtual network interface\nVBoxManage modifyvm <VM_NAME> --nic1 hostonly\n\n# Configure the VM to use the new network interface\nVBoxManage modifyvm <VM_NAME> --hostonlyadapter1 vboxnet0

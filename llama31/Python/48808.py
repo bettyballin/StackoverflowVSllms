@@ -1,0 +1,1 @@
+import Levenshtein\n\ndef levenshtein_distance(s1, s2):\n    return Levenshtein.distance(s1, s2)\n\ndef similarity_percentage(s1, s2):\n    distance = levenshtein_distance(s1, s2)\n    max_len = max(len(s1), len(s2))\n    return (1 - distance / max_len) * 100\n\n# Example usage\ns1 = "kitten"\ns2 = "sitting"\nprint(similarity_percentage(s1, s2))  # Output: 57.142857142857146

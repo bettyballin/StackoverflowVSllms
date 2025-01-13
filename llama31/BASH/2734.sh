@@ -1,0 +1,1 @@
+TMOUT=300  # set timeout to 5 minutes

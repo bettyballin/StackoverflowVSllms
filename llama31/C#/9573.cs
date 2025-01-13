@@ -1,0 +1,1 @@
+var errors = resps.GetRuleViolations();\nif (errors.Any())\n{\n    // handle errors\n}

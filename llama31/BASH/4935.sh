@@ -1,0 +1,1 @@
+gawk -f csv_parser.gawk yourfile.csv

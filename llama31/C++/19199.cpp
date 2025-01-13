@@ -1,0 +1,1 @@
+// Set memory protection\nDWORD oldProtection;\nVirtualProtect(pMemoryAddress, dwSize, PAGE_EXECUTE_READ, &oldProtection);\n\n// Set thread context\nCONTEXT context;\nGetThreadContext(hThread, &context);\ncontext.ContextFlags = CONTEXT_FULL;\nSetThreadContext(hThread, &context);

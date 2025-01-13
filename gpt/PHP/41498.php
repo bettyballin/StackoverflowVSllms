@@ -1,1 +1,0 @@
-<?php\n// Assuming you have a PDO connection in $pdo\n$input = $_POST['user_input'];\n\n// Using prepared statements and parameterized queries\n$stmt = $pdo->prepare("INSERT INTO table_name (column_name) VALUES (:input)");\n$stmt->bindParam(':input', $input, PDO::PARAM_STR);\n$stmt->execute();\n?>

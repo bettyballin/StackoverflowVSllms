@@ -1,0 +1,1 @@
+CFLAGS = -Wl,--stack=1048576

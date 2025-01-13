@@ -1,0 +1,1 @@
+$ch = curl_init($URL);\ncurl_setopt($ch, CURLOPT_RETURNTRANSFER, 1);\ncurl_setopt($ch, CURLOPT_POST, 1);\n\n$file_path = '/path/to/your/file.csv';\n$post_data = array('file' => '@' . $file_path);\n\ncurl_setopt($ch, CURLOPT_POSTFIELDS, $post_data);\n\n$response = curl_exec($ch);\ncurl_close($ch);

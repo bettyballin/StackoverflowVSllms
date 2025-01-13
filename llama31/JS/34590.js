@@ -1,0 +1,1 @@
+// Add event listener to table to synchronize scrolling of thead and tbody\ndocument.getElementById('myTable').addEventListener('scroll', function() {\n  var thead = this.querySelector('thead');\n  var tbody = this.querySelector('tbody');\n  tbody.style.marginLeft = -this.scrollLeft + 'px';\n});

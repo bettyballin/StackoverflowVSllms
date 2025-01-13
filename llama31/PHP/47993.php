@@ -1,0 +1,1 @@
+$sql = mysql_query("\n  (SELECT * FROM posts ORDER BY date ASC LIMIT 1)\n  UNION ALL\n  (SELECT * FROM posts ORDER BY date DESC LIMIT $limit, $max)\n");

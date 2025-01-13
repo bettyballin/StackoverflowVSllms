@@ -1,1 +1,0 @@
-from bitarray import bitarray\n   ba = bitarray(128)\n   ba.setall(0)\n   ba[0] = 1 # set the first bit\n   ba[65] = 1 # set the 65th bit\n   is_set = ba[65] # check if the 65th bit is set

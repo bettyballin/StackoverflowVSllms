@@ -1,0 +1,1 @@
+function determine(event) {\n    var target = event.target || event.srcElement;\n    console.log(target.href); // prints the href of the clicked link\n}

@@ -1,0 +1,1 @@
+protected void ScriptManager1_AsyncPostBackError(object sender, AsyncPostBackErrorEventArgs e)\n{\n    WebBaseErrorEvent errorEvent = new WebBaseErrorEvent(\n        "AsyncPostBackError",\n        this,\n        e.Exception);\n\n    WebBaseEvent.Raise(errorEvent);\n}

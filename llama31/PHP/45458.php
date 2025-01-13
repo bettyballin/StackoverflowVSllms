@@ -1,0 +1,1 @@
+$uniqueFilename = bin2hex(random_bytes(16)) . '.jpg';

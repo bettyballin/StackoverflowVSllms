@@ -1,0 +1,1 @@
+<?php\n$cygwin_bin_dir = 'C:\cygwin\bin';\n$command = 'pdftex --version';\n\n// Add Cygwin bin directory to PATH\n$env_path = getenv('PATH');\nputenv("PATH=$env_path;$cygwin_bin_dir");\n\n// Execute command using Cygwin shell\n$output = shell_exec("bash -c '$command'");\n\nprint $output;\n?>

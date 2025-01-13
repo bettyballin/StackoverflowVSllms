@@ -1,1 +1,0 @@
-public class SecureController : Controller\n{\n    [Authorize]\n    public ActionResult Index()\n    {\n        // Redirect to the secure path where client certificate is required.\n        return Redirect("/secure/index.html");\n    }\n}

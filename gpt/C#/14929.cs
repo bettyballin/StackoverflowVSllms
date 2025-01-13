@@ -1,1 +1,0 @@
-var numbers = new List<int> { 1, 2, 3, 4, 5 };\nvar query = numbers.Where(n => n % 2 == 0); // No data processed here\nforeach(var num in query) // Data is processed here\n{\n    Console.WriteLine(num);\n}

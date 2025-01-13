@@ -1,0 +1,1 @@
+import os\n\ndef log(log_string):\n    app_name = get_current_module_name()\n    log_dir = os.path.join("/home/hare/app_logs", app_name)\n    if not os.path.exists(log_dir):\n        os.makedirs(log_dir)\n    log_file = os.path.join(log_dir, "log.txt")\n    with open(log_file, "a") as f:\n        f.write(log_string + "\n")

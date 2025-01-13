@@ -1,1 +1,0 @@
-SET DEFINE OFF;\n\nINSERT INTO your_table (your_column)\nVALUES ('J&J Construction');

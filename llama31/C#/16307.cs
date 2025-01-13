@@ -1,0 +1,1 @@
+[AfterTest]\npublic void AfterTest()\n{\n    foreach (var process in Process.GetProcessesByName("iexplore"))\n    {\n        process.Kill();\n    }\n}

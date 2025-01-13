@@ -1,0 +1,1 @@
+#include <sys/wait.h>\n\n// ...\n\npid_t pid = fork();\n\nif (pid == 0) {\n    // child process\n    // ...\n} else {\n    int status;\n    waitpid(pid, &status, 0);\n\n    if (WIFSIGNALED(status) && WTERMSIG(status) == SIGKILL) {\n        printf("Child process was killed by OOM killer\n");\n    } else {\n        printf("Child process exited normally\n");\n    }\n}

@@ -1,0 +1,1 @@
+class Item(models.Model):\n    # ...\n    location = models.ForeignKey(Location, on_delete=models.CASCADE)\n\n    @property\n    def location_string(self):\n        return f"{self.location.city}, {self.location.state}, {self.location.country}"

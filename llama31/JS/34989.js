@@ -1,0 +1,1 @@
+function getElementChild(element) {\n   var child = element.firstChild;\n   while (child && child.nodeType === 3 && child.textContent.trim() === '') {\n      child = child.nextSibling;\n   }\n   return child;\n}

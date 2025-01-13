@@ -1,1 +1,0 @@
-Action a = TestMethod;\nAction b = TestMethod;\nAction c = b;\nb += a;

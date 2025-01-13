@@ -1,1 +1,0 @@
-lvcreate --size 1G --snapshot --name mysql-snap /dev/vg0/mysql\n    mount /dev/vg0/mysql-snap /mnt/mysql-snapshot\n    rsync -a /mnt/mysql-snapshot /path/to/backup/\n    umount /mnt/mysql-snapshot\n    lvremove /dev/vg0/mysql-snap

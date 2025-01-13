@@ -1,0 +1,1 @@
+-- Example of using a custom font in a report\nSELECT \n  '<font face="YourCustomFontName">Your Report Header</font>' AS ReportHeader

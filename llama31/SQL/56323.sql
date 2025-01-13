@@ -1,0 +1,1 @@
+CREATE INDEX idx_j_test_c3_c1 ON j_test (C3, C1);

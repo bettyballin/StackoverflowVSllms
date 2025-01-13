@@ -1,0 +1,1 @@
+# This will raise a SyntaxError\nlambda x: if x > 5: return x

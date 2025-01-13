@@ -1,1 +1,0 @@
-CREATE NONCLUSTERED INDEX idx_covering\nON table_name (column1)\nINCLUDE (column2, column3);

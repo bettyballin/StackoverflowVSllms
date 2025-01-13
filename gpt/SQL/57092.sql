@@ -1,1 +1,0 @@
-CREATE OR REPLACE PACKAGE example_pkg IS\n  TYPE ref_cursor_type IS REF CURSOR;\n  \n  PROCEDURE get_data(p_cursor OUT ref_cursor_type);\nEND example_pkg;\n/\n\nCREATE OR REPLACE PACKAGE BODY example_pkg IS\n  PROCEDURE get_data(p_cursor OUT ref_cursor_type) IS\n  BEGIN\n    OPEN p_cursor FOR\n      SELECT * FROM some_table;\n  END get_data;\nEND example_pkg;\n/

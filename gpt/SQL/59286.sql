@@ -1,1 +1,0 @@
-CREATE TABLE ip_addresses (\n    ip_address VARCHAR(45) NOT NULL\n);

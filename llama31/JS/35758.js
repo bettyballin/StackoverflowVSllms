@@ -1,0 +1,1 @@
+const outputDiv = document.getElementById('output');\nconst eventSource = new EventSource('install.php');\n\neventSource.onmessage = (event) => {\n  outputDiv.innerHTML += event.data + '<br>';\n};\n\neventSource.onerror = () => {\n  console.log('Error occurred');\n};\n\neventSource.onopen = () => {\n  console.log('Connection established');\n};

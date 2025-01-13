@@ -1,1 +1,0 @@
-MERGE INTO your_table t\nUSING (\n    SELECT 1 AS id, 'value1' AS column1, 'value2' AS column2\n    FROM RDB$DATABASE\n) s\nON (t.id = s.id)\nWHEN MATCHED THEN\n    UPDATE SET t.column1 = s.column1, t.column2 = s.column2\nWHEN NOT MATCHED THEN\n    INSERT (id, column1, column2) VALUES (s.id, s.column1, s.column2);

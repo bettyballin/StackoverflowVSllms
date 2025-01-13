@@ -1,1 +1,0 @@
-etsh int tcp set global retransmitveto=enabled\n   netsh int tcp set global initialRto=3000

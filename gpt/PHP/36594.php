@@ -1,1 +1,0 @@
-$target_dir = "/path/to/upload/dir/";\n$target_file = $target_dir . basename($_FILES["fileToUpload"]["name"]);\n\nif (move_uploaded_file($_FILES["fileToUpload"]["tmp_name"], $target_file)) {\n    echo "The file ". basename( $_FILES["fileToUpload"]["name"]). " has been uploaded.";\n} else {\n    echo "Sorry, there was an error uploading your file.";\n}

@@ -1,0 +1,1 @@
+icacls your_file /deny your_user:F

@@ -1,0 +1,1 @@
+cscript adsutil.vbs ENUM_WEBSITES

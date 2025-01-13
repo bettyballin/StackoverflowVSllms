@@ -1,0 +1,1 @@
+#include <windows.h>\n\nint main() {\n    HMODULE hModule = LoadLibraryA("dwmapi.dll");\n    if (hModule == NULL) {\n        // DWMAPI.DLL is not available, handle the error\n    } else {\n        // DWMAPI.DLL is available, use it\n        FreeLibrary(hModule);\n    }\n    return 0;\n}

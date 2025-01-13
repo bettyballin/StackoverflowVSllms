@@ -1,0 +1,1 @@
+public ActionResult MyAction(MyModel model)\n{\n    // Process the model\n    // ...\n\n    // Redirect to the same page with the scroll position\n    var referrerUrl = Request.UrlReferrer;\n    var returnUrl = string.Format("{0}#{1}", referrerUrl.AbsolutePath, model.ScrollPosition);\n    return Redirect(returnUrl);\n}

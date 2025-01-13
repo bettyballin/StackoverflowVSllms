@@ -1,0 +1,1 @@
+Dim rowPointer As Guid = System.Guid.NewGuid()\nDim rowPointerValue As String = rowPointer.ToString("D") // use the "D" format specifier to get the GUID in the format xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx

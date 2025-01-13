@@ -1,1 +1,0 @@
-// Fetch the UTC time from the database\nDateTime utcTimeFromDb = // your code to fetch DateTime from the database\n\n// Convert UTC time to local time if needed\nDateTime localTimeFromDb = utcTimeFromDb.ToLocalTime();

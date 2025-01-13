@@ -1,0 +1,1 @@
+template <typename S, typename T>\nstruct foo {\n   void bar();\n};\n\ntemplate <typename T>\nstruct foo<int, T> {\n   void bar() {}\n};

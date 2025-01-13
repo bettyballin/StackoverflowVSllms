@@ -1,0 +1,1 @@
+Dim x As Boolean = True\nDim y As Boolean = False\n\nDim result1 As Boolean = x And y ' Evaluates both x and y, then performs AND\nDim result2 As Boolean = x AndAlso y ' Only evaluates y because x is True

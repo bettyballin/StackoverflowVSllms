@@ -1,1 +1,0 @@
-public class FileData\n{\n    public virtual int Id { get; set; }\n    public virtual Person Person { get; set; }\n}\n\npublic class Person\n{\n    public virtual int Id { get; set; }\n    public virtual FileData FileData { get; set; }\n}

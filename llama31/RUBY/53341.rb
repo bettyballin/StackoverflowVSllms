@@ -1,0 +1,1 @@
+# In your config/environment.rb file\nActiveRecord::Base.schema_format = :sql

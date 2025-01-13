@@ -1,1 +1,0 @@
-count = [2]\n    def foo(arr)\n        arr[0] = 3\n    end\n\n    foo(count)\n    puts count[0]  # Outputs: 3

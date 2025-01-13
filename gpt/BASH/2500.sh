@@ -1,1 +1,0 @@
-xampp_stop\n   xampp_start

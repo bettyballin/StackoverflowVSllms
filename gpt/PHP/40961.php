@@ -1,1 +1,0 @@
-$foo = $this->input->post('myParam');\n\nif ($foo === null) {\n    // myParam was not passed in the POST request\n    // Handle the case when myParam is missing\n} else {\n    // myParam is present, proceed with the value of $foo\n}

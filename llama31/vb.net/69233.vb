@@ -1,0 +1,1 @@
+Dim mail As New MailMessage()\nmail.Attachments.Add(New Attachment(pdfFilePath, "application/pdf"))

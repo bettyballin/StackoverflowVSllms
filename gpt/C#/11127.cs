@@ -1,1 +1,0 @@
-// C# example with lambda expression\n    button.Click += (sender, e) => { Console.WriteLine("Button clicked"); };

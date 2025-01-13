@@ -1,0 +1,1 @@
+avigator.mediaDevices.getUserMedia({ video: { mediaSource: 'screen' } })\n  .then(stream => {\n    // Process the stream to capture the screen\n  })\n  .catch(error => {\n    console.error('Error:', error);\n  });

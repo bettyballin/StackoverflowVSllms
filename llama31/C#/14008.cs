@@ -1,0 +1,1 @@
+using System.Text.RegularExpressions;\n\npublic static string ConvertExecSpExecuteSql(string query)\n{\n    var pattern = @"exec sp_executesql\s+N'([^']*)',\s*N'([^']*)',\s*@([^=]*)\s*=\s*(.*)";\n    var replacement = @"DECLARE @$3 $2\nSET @$3 = $4\n\n$1";\n    return Regex.Replace(query, pattern, replacement);\n}

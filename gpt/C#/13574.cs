@@ -1,1 +1,0 @@
-public interface IHost\n{\n    UserSession UserSession { get; }\n}

@@ -1,0 +1,1 @@
+gcc -O3 -march=native -ftree-vectorize

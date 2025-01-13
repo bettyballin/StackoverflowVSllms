@@ -1,0 +1,1 @@
+public class Airport\n{\n    [Browsable(true)]\n    public string Name { get; set; }\n\n    [Browsable(true)]\n    public string Code { get; set; }\n\n    [Browsable(false)]\n    public string InternalId { get; set; }\n}

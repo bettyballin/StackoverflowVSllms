@@ -1,0 +1,1 @@
+java -XX:MaxDirectMemorySize=256m -jar myapp.jar

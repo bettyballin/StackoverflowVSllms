@@ -1,0 +1,1 @@
+Function SanitizeInput(inputString)\n    Dim regEx\n    Set regEx = New RegExp\n    \n    regEx.Pattern = "<.*?>"\n    regEx.Global = True\n    \n    SanitizeInput = regEx.Replace(inputString, "")\nEnd Functio

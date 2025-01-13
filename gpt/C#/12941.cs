@@ -1,1 +1,0 @@
-.Mappings(m => m.FluentMappings.AddFromAssemblyOf<UserMap>())\n.Mappings(m => m.FluentMappings.AddFromAssemblyOf<AnotherMap>())

@@ -1,0 +1,1 @@
+public class Global : HttpApplication\n{\n    protected void Application_End(object sender, EventArgs e)\n    {\n        // Perform any necessary cleanup or logging here\n        // Note: this event is not guaranteed to run to completion, \n        // as the application is being shut down\n    }\n}

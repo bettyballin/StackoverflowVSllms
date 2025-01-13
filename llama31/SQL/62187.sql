@@ -1,0 +1,1 @@
+BULK INSERT KB FROM 'C:\KB.xml' WITH (FirstRow = 1, RowTerminator = '\n', FieldTerminator = '\t', CODEPAGE = 65001)

@@ -1,0 +1,1 @@
+$(document).ready(function(){\n  $("button").click(function () {\n    $("#layoutDiv").fadeToggle();\n  });\n});

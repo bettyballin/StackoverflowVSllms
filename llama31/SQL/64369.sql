@@ -1,0 +1,1 @@
+DECLARE @sql nvarchar(max)\nDECLARE @b VARCHAR(10)\n\n-- ...\n\nSET @sql = N'UPDATE source_temp SET pmt_90_day = pmt_90_day + convert(money, trans_total_' + @b + N') \n             WHERE convert(datetime, effective_date_' + @b + N') <= dateadd(day,90,ORSA_CHARGE_OFF_DATE) \n             AND DRC_FLAG_' + @b + N' = ''C'''\n\nEXEC sp_executesql @sql

@@ -1,0 +1,1 @@
+public class SearchController : Controller\n{\n    public ActionResult titles(string like)\n    {\n        var searchResults = // perform search query\n        return PartialView("Titles", searchResults);\n    }\n}

@@ -1,1 +1,0 @@
-SELECT columns\n     FROM table1\n     INNER JOIN table2\n     ON table1.common_column = table2.common_column;

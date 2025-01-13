@@ -1,1 +1,0 @@
-$this->log($this->Post->getDataSource()->getLog(), 'debug');

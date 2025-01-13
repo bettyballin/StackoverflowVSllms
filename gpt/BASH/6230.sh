@@ -1,1 +1,0 @@
-#!/bin/bash\n# post-checkout script to set file permissions\nfind . -type f -name "yourfile" -exec chmod 755 {} \;

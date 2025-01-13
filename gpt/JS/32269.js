@@ -1,1 +1,0 @@
-// Example of making a secure AJAX request with a token\nvar xhr = new XMLHttpRequest();\nxhr.open("GET", "https://example.com/api/data", true);\nxhr.setRequestHeader("Authorization", "Bearer YOUR_ACCESS_TOKEN_HERE");\n\nxhr.onreadystatechange = function() {\n    if (xhr.readyState === 4 && xhr.status === 200) {\n        console.log(xhr.responseText);\n    }\n};\n\nxhr.send();

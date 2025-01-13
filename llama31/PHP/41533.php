@@ -1,0 +1,1 @@
+$config['base_url'] = 'http://example.com/';\n$config['assets_path'] = 'public/';

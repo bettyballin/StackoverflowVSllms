@@ -1,0 +1,1 @@
+string xmlData = "<root><person><name>John</name><age>30</age></person></root>";\nusing (SqlConnection connection = new SqlConnection(connectionString))\n{\n    connection.Open();\n    SqlCommand command = new SqlCommand("INSERT INTO XmlTable (XmlData) VALUES (@xmlData)", connection);\n    command.Parameters.AddWithValue("@xmlData", xmlData);\n    command.ExecuteNonQuery();\n}

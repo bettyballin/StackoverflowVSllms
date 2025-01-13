@@ -1,1 +1,0 @@
-for lib in $(ldd <executable> | awk '{print $3}'); do\n       echo "Checking $lib for symbol <symbol_name>:"\n       nm -D $lib | grep <symbol_name>\n   done

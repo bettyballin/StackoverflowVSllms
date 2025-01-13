@@ -1,1 +1,0 @@
-CREATE TABLE #TempTable (\n    [ID] int,\n    [CostA] real,\n    [CostB] real,\n    [CostC] real\n);\n\nINSERT INTO #TempTable\nEXECUTE [dbo].[CostProcedure]\n    @RootId = 123,\n    @Rate = 20;\n\n-- Check the contents of the temporary table\nSELECT * FROM #TempTable;\n\n-- Drop the temporary table when done\nDROP TABLE #TempTable;

@@ -1,0 +1,1 @@
+string[] searchTerms = searchBox.Text.Split(new[] { ' ', ',' }, StringSplitOptions.RemoveEmptyEntries);\n\nstring queryString = string.Join(" OR ", searchTerms.Select(t => $"\"{t}\""));\n\nstring sqlQuery = $"SELECT col1 FROM myTable WHERE CONTAINS(fts_column, '({queryString})')";

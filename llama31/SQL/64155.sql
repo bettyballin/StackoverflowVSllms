@@ -1,0 +1,1 @@
+CREATE VIEW user_data AS\nSELECT u.id, u.name, a.address, p.phone\nFROM users u\nJOIN addresses a ON u.id = a.user_id\nJOIN phones p ON u.id = p.user_id;

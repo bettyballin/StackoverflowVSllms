@@ -1,0 +1,1 @@
+Public NotInheritable Class DirectoryHelper\n    Private Sub New()\n    End Sub\n\n    Public Shared Sub Move(source As String, destination As String)\n        ' Implement your move logic here\n    End Sub\n\n    Public Shared Sub Delete(path As String)\n        Directory.Delete(path)\n    End Sub\n\n    ' Add more methods as needed\nEnd Class

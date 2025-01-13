@@ -1,1 +1,0 @@
-# Open Dependency Walker and load the compiled library\ndepends.exe /path/to/your/library.dll

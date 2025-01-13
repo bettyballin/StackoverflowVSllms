@@ -1,1 +1,0 @@
-SET NAMES 'latin5';\n    -- or alternatively\n    SET character_set_client = latin5;\n    SET character_set_results = latin5;\n    SET character_set_connection = latin5;

@@ -1,0 +1,1 @@
+using (OracleConnection conn = new OracleConnection(connectionString))\n{\n    // Perform DB operations\n} // conn will be disposed automatically

@@ -1,0 +1,1 @@
+mstest /testmetadata:"C:\Path\To\Test\Metadata\*"

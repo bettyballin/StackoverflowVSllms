@@ -1,0 +1,1 @@
+const collator = new Intl.Collator('en', { sensitivity: 'base' });\nconst input = 'Lübeck';\nconst normalizedInput = collator.normalize(input);\nconsole.log(normalizedInput); // outputs "Lubeck"

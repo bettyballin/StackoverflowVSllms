@@ -1,1 +1,0 @@
-php c:\test.php

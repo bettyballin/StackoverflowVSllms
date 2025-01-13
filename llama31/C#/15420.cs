@@ -1,0 +1,1 @@
+if (e.Modifiers == Keys.Control)\n{\n    // Ctrl is pressed\n}

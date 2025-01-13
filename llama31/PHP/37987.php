@@ -1,0 +1,1 @@
+class myAuthClass {\n    private $user;\n\n    public function login($username, $password) {\n        if (/* login logic */) {\n            $this->user = new myUserClass($this->getUserId());\n        }\n    }\n\n    public function getUser() {\n        return $this->user;\n    }\n}

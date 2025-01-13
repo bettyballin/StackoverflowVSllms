@@ -1,0 +1,1 @@
+error_log('Before calling shortcode');\n$str = core_wp('foo_shortcode', $post->post_content);\nerror_log('After calling shortcode');

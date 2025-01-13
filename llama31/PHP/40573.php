@@ -1,0 +1,1 @@
+$api_key = 'YOUR_API_KEY_HERE';\n$symbol = 'MSFT';\n\n$ch = curl_init('https://www.alphavantage.co/query?function=GLOBAL_QUOTE&symbol=' . $symbol . '&apikey=' . $api_key);\ncurl_setopt($ch, CURLOPT_RETURNTRANSFER, true);\n$response = curl_exec($ch);\ncurl_close($ch);\n\n$data = json_decode($response, true);\n\necho 'Current Price: ' . $data['Global Quote']['05. price'];

@@ -1,0 +1,1 @@
+// Modify the error handling to call your custom error handler\nset_error_handler(array('_error_handler'));\nfunction _error_handler($severity, $message, $filepath, $line) {\n    // Call your custom error handler\n    $CI =& get_instance();\n    $CI->hooks->call_hook('display_override', $severity, $message, $filepath, $line);\n}

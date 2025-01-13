@@ -1,1 +1,0 @@
-gcc -shared -fPIC -o libredirect.so redirect.c -ldl

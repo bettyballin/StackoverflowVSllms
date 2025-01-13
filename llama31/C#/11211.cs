@@ -1,0 +1,1 @@
+public interface IAuthenticationService\n{\n    bool Authenticate(string username, string password);\n    void SignOut();\n}

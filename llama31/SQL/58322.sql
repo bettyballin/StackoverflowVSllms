@@ -1,0 +1,1 @@
+CREATE TABLE Foo (\n  FooID SERIAL PRIMARY KEY,\n  -- other columns\n);\n\nCREATE TABLE Bar (\n  FooID INTEGER NOT NULL REFERENCES Foo(FooID),\n  BarID SERIAL NOT NULL,\n  PRIMARY KEY (FooID, BarID),\n  -- other columns\n);

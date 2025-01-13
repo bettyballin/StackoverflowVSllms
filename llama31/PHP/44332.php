@@ -1,0 +1,1 @@
+// Add a job to the queue\n$queue = new RabbitMQQueue();\n$queue->addJob(new ScrapeJob($link));\n\n// Worker process\n$queue->consume(function ($job) {\n    // Execute the scrape job\n    $job->execute();\n});

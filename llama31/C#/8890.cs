@@ -1,0 +1,1 @@
+[WebMethod]\npublic bool IsSessionActive()\n{\n    return HttpContext.Current.Session != null && HttpContext.Current.Session.IsNewSession == false;\n}

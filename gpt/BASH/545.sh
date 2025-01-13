@@ -1,1 +1,0 @@
-sed 's/\(regex\)/\n\1/g' inputfile

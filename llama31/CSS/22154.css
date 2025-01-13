@@ -1,0 +1,1 @@
+a {\n  text-decoration: none; /* remove underline */\n}\n\na:hover {\n  color: #00698f; /* change color on hover */\n}

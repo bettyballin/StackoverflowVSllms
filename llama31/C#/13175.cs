@@ -1,0 +1,1 @@
+// Assume this is your enum\npublic enum Color\n{\n    Red,\n    Green,\n    Blue\n}\n\n// Create a new DataColumn with the enum type\nDataColumn column = new DataColumn("Color", typeof(Color));\n\n// Add the column to your DataSet\nDataSet dataSet = new DataSet();\nDataTable table = dataSet.Tables.Add("Table");\ntable.Columns.Add(column);

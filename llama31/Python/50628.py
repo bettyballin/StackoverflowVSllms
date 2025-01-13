@@ -1,0 +1,1 @@
+# config.py\nformations = [\n    Formation('Tight', tightness=1),\n    Formation('Loose', tightness=0.5),\n    # ...\n]\n\nterrain = [\n    Terrain('Forest', tightness_bonus=lambda tightness: 0.5),\n    Terrain('Mountain', tightness_bonus=lambda tightness: 1.5),\n    # ...\n]

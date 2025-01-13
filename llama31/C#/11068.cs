@@ -1,0 +1,1 @@
+public static byte[] ReadFileBytes(string filePath)\n{\n    // ...\n}\n\npublic static void WriteFileBytes(byte[] file, string filePath)\n{\n    // ...\n}

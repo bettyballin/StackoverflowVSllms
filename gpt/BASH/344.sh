@@ -1,1 +1,0 @@
-cppcheck your_program.c

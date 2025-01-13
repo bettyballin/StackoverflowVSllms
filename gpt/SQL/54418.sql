@@ -1,1 +1,0 @@
-SELECT * \nFROM (\n    SELECT EmployeeID, FirstName, LastName, DepartmentID, ROW_NUMBER() OVER (PARTITION BY DepartmentID ORDER BY LastName) AS RowNum\n    FROM Employees\n) AS EmployeeSubQuery\nWHERE RowNum = 1;

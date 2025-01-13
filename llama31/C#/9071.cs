@@ -1,0 +1,1 @@
+using System.Web;\n\npublic class XmlHandler : IHttpHandler\n{\n    public void ProcessRequest(HttpContext context)\n    {\n        // Your C# code here\n        // Use context.Response to output the XML data\n    }\n\n    public bool IsReusable\n    {\n        get { return true; }\n    }\n}

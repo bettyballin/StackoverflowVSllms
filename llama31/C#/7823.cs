@@ -1,0 +1,1 @@
+// C# library\n[ComVisible(true)]\npublic interface ICallback\n{\n    void MyMethod();\n}\n\npublic class MyCSharpClass\n{\n    public void DoSomething(ICallback callback)\n    {\n        callback.MyMethod();\n    }\n}

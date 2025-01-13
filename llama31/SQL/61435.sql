@@ -1,0 +1,1 @@
+DECLARE @value sql_variant = 123;\n\nIF TRY_CAST(@value AS int) IS NOT NULL\n    PRINT 'Value is an integer';\nELSE\n    PRINT 'Value is not an integer';

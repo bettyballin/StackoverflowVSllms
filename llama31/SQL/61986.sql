@@ -1,0 +1,1 @@
+CREATE TABLE MyTable (column1 int, column2 varchar(50))\nWITH (MEMORY_OPTIMIZED = ON, DURABILITY = SCHEMA_AND_DATA);

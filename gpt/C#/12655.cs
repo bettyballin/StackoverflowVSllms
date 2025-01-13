@@ -1,1 +1,0 @@
-// Example of calling Application.DoEvents\n   while (someCondition)\n   {\n       Application.DoEvents();\n       // Your logic here\n   }

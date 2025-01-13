@@ -1,0 +1,1 @@
+$fileHandle = fopen('/document_root/myfile.pdf', 'r');\n   if ($fileHandle !== false) {\n       $fileStats = fstat($fileHandle);\n       echo $fileStats['mtime'];\n       fclose($fileHandle);\n   } else {\n       echo "Failed to open file.";\n   }

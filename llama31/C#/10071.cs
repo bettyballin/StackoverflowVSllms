@@ -1,0 +1,1 @@
+TextBox textBox = new TextBox();\ntextBox.Multiline = true;\ntextBox.ReadOnly = true;\ntextBox.Text = @"This is line 1.\nThis is line 2.\nThis is line 3.";

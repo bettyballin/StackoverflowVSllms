@@ -1,1 +1,0 @@
-for (int i = 0; i < objects.Count; i++)\n{\n    string query1 = $"SELECT * FROM Table1 WHERE ObjectID = {objects[i].ID}";\n    string query2 = $"SELECT * FROM Table2 WHERE ObjectID = {objects[i].ID}";\n    // Execute queries and process the data\n}

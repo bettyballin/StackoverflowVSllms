@@ -1,0 +1,1 @@
+Rectangle rect = new Rectangle();\nIntPtr size = ObjectSizeCalculator.GetObjectSize(rect);

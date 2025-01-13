@@ -1,1 +1,0 @@
-#include <memory>\n\n// Use std::shared_ptr\nstd::shared_ptr<int> ptr(new int(10));

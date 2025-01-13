@@ -1,0 +1,1 @@
+if (Session["EmployeeID"]?.ToString() != null) {\n    _EmployeeID = System.Convert.ToInt32(Session["EmployeeID"]);\n}

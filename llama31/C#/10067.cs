@@ -1,0 +1,1 @@
+myBindingSource.Filter = string.Format("myDateField >= #{0:yyyy-MM-dd}# AND myDateField < #{1:yyyy-MM-dd}#", \n    myDateTime.Date, myDateTime.Date.AddDays(1));

@@ -1,0 +1,1 @@
+using (SqlConnection connection = new SqlConnection(connectionString))\n{\n    connection.Open();\n\n    using (SqlCommand command = new SqlCommand("INSERT INTO mytable (id) VALUES (@id)", connection))\n    {\n        command.Parameters.AddWithValue("@id", bytes);\n        command.ExecuteNonQuery();\n    }\n}

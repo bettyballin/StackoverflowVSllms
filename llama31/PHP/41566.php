@@ -1,0 +1,1 @@
+// assume 'mysalt' is your salt\n$cookieValue = $_COOKIE['test'];\n$salt = 'mysalt';\n\n// create a new hash with the salt\n$newHash = SHA1($salt . $cookieValue);\n\n// now query the database\n$sql = "SELECT * FROM users WHERE SHA1(CONCAT('mysalt', `id`)) = '$newHash'";

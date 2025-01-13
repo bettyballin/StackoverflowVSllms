@@ -1,0 +1,1 @@
+var tags = JSON.parse(testJson, function(key, value) {\n    if (typeof value === 'string') {\n        return value.replace('\\"', '\\\\"');\n    }\n    return value;\n});

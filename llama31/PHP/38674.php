@@ -1,0 +1,1 @@
+// Set token in session and database when user logs in\n$_SESSION['token'] = bin2hex(random_bytes(16));\n$db->updateUserToken($_SESSION['token']);\n\n// Verify token on each page load\nif ($_SESSION['token'] !== $db->getUserToken()) {\n    // Token mismatch; invalidate session and log user out\n    session_destroy();\n    header('Location: login.php');\n    exit;\n}

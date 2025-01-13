@@ -1,0 +1,1 @@
+check_http -H your_host -u your_url -r '(error message regex pattern)'

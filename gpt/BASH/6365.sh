@@ -1,1 +1,0 @@
-kill -3 <WebSphere_PID>

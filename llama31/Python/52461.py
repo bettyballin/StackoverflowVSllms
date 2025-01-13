@@ -1,0 +1,1 @@
+import unicodedata\n\ndef compare_strings(s1, s2):\n    s1_normalized = unicodedata.normalize('NFD', s1).casefold()\n    s2_normalized = unicodedata.normalize('NFD', s2).casefold()\n    return s1_normalized == s2_normalized

@@ -1,0 +1,1 @@
+require 'kint.phar';\n\nKint::dump($variable);

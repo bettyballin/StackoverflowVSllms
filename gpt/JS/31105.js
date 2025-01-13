@@ -1,1 +1,0 @@
-[sourcecode language="javascript"]\n   function helloWorld() {\n       console.log("Hello, world!");\n   }\n   [/sourcecode]

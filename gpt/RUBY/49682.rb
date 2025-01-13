@@ -1,1 +1,0 @@
-class PostsController < ApplicationController\n  def archive\n    @posts_by_month = Post.all.group_by { |post| post.created_at.beginning_of_month }\n  end\nend

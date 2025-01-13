@@ -1,0 +1,1 @@
+public function beforeFilter() {\n    parent::beforeFilter();\n    if ($this->Auth->user() && in_array($this->request->action, array('register', 'other_action'))) {\n        $this->redirect(array('controller' => 'other_controller', 'action' => 'other_action'));\n    }\n}

@@ -1,0 +1,1 @@
+// Check for a specific value\nAssert.That(product.IsValid(), Is.True);\n\n// Check for a range of values\nAssert.That(product.Price, Is.GreaterThan(10).And.LessThan(20));\n\n// Check for null or a specific value\nAssert.That(product.Name, Is.Not.Null.And.EqualTo("Product A"));

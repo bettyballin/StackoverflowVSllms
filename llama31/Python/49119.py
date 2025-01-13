@@ -1,0 +1,1 @@
+import timeit\n\nstart_time = timeit.default_timer()\nsomeSQLOrSomething()\nprint("That took %.3f seconds" % (timeit.default_timer() - start_time))

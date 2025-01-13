@@ -1,0 +1,1 @@
+# Create migrations for the changed model\npython manage.py makemigrations\n\n# Apply the migrations to the database\npython manage.py migrate

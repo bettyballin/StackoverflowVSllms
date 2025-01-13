@@ -1,1 +1,0 @@
-git checkout -b feature-branch\n   git commit -m "Work on feature"\n   git push origin feature-branch

@@ -1,0 +1,1 @@
+Sys.WebForms.PageRequestManager.getInstance().add_endRequest(function(sender, args) {\n    ValidatorEnable(document.getElementById('<%= RequiredFieldValidator1.ClientID %>'), true);\n});

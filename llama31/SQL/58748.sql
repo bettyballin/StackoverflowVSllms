@@ -1,0 +1,1 @@
+SELECT DATEPART(hh, GETDATE()) AS Hour

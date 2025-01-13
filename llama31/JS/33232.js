@@ -1,0 +1,1 @@
+const uniqueId = uuid.v4();\nconst newRow = lineItemTemplateNode.cloneNode(true);\nnewRow.id = uniqueId;

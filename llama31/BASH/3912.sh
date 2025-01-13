@@ -1,0 +1,1 @@
+// ILMerge command\nILMerge /target:winexe /out:merged.exe myapp.exe mywrapper.dll

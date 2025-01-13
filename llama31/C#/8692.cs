@@ -1,0 +1,1 @@
+long unixTimestamp = 1251783433;\nDateTime date = new DateTime(1970, 1, 1, 0, 0, 0, DateTimeKind.Utc).AddSeconds(unixTimestamp);\nConsole.WriteLine(date.ToString("yyyy-MM-dd HH:mm:ss"));

@@ -1,1 +1,0 @@
-killall <process_name>

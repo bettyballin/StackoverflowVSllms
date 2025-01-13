@@ -1,1 +1,0 @@
-git diff > my_patch.diff

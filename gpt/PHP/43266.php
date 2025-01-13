@@ -1,1 +1,0 @@
-<?php\n// Generate a unique token\n$token = bin2hex(random_bytes(16));\n\n// Store the token in the database associated with the user's email\n$stmt = $conn->prepare('UPDATE users SET unsubscribe_token = ? WHERE email = ?');\n$stmt->bind_param('ss', $token, $email);\n$stmt->execute();\n?>

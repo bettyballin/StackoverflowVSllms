@@ -1,1 +1,0 @@
-require 'yaml'\n\ntest = "I'm a b&d string"\nFile.open('test.yaml', 'w') do |out|\n  out.write(YAML.dump(test))\nend

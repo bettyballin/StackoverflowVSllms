@@ -1,1 +1,0 @@
-# Install Django\n   pip install django\n\n   # Create a new project\n   django-admin startproject mysite\n\n   # Create a new app\n   cd mysite\n   python manage.py startapp blog\n\n   # Run the server\n   python manage.py runserver

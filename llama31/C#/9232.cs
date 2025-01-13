@@ -1,0 +1,1 @@
+void MyMethod(string name)\n{\n    Console.WriteLine(name);\n}\n\nvoid MyMethod()\n{\n    MyMethod("Default Name");\n}

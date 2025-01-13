@@ -1,0 +1,1 @@
+$minSize = 1024 * 1024; // 1MB\n\nforeach (glob("*.png") as $filename) {\n    $size = filesize($filename);\n    echo "$filename size $size\n";\n    if ($size > $minSize) {\n        unlink($filename);\n    }\n}

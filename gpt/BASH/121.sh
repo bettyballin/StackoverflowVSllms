@@ -1,1 +1,0 @@
-ar rcs libmylibrary.a file1.o file2.o file3.o

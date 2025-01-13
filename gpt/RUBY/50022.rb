@@ -1,1 +1,0 @@
-Rails.application.routes.draw do\n  resources :entries\n  # Other routes...\nend

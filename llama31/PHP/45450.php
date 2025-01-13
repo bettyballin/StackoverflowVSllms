@@ -1,0 +1,1 @@
+$string = getStringFromDatabase();\n$xml = simplexml_load_string($string, 'SimpleXMLElement', LIBXML_NOCDATA);

@@ -1,0 +1,1 @@
+# Create a new repository in TortoiseSVN\nsvnadmin create /path/to/htdocs\n\n# Create a new project in the repository\nsvn mkdir /path/to/htdocs/myproject\n\n# Configure TortoiseSVN to monitor the htdocs folder\nsvn propset svn:externals "http://svn.example.com/myproject" /path/to/htdocs

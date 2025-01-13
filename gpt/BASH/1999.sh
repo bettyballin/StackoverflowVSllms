@@ -1,1 +1,0 @@
-rm -rf ~/Library/Caches/com.apple.WebKit.Networking/*\n   rm -rf ~/Library/Caches/com.apple.WebKit.WebContent/*

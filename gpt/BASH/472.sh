@@ -1,1 +1,0 @@
-htmlhint yourfile.html

@@ -1,1 +1,0 @@
-function normalizeLineEndings(text) {\n    return text.replace(/\r\n|\r|\n/g, '\n');\n}\n\n// Example usage\nlet userInput = "This is line one.\r\nThis is line two.\rThis is line three.\nThis is line four.";\nlet normalizedInput = normalizeLineEndings(userInput);\nconsole.log(normalizedInput);

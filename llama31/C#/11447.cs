@@ -1,0 +1,1 @@
+using System.Windows.Forms;\n\nOpenFileDialog openFileDialog = new OpenFileDialog();\nFileDialogOptions options = new FileDialogOptions();\noptions.DisableContextMenu = true;\nopenFileDialog.Options = options;\nopenFileDialog.ShowDialog();

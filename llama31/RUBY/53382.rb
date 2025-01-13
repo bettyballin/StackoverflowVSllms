@@ -1,0 +1,1 @@
+class Product < ApplicationRecord\n  def brand\n    read_attribute(:brand).titleize\n  end\nend

@@ -1,0 +1,1 @@
+// Set the include path\nset_include_path(get_include_path() . PATH_SEPARATOR . '/path/to/zend/framework/lib');\n\n// Register the Zend namespace with the autoloader\nZend_Loader_Autoloader::getInstance()->registerNamespace('Zend');\n\n// Run the application\nApp_Main::run('production');

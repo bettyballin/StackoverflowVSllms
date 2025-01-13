@@ -1,0 +1,1 @@
+// mywrapper.cpp\n#include "mywrapper.h"\n#include "myunmanageddll.h"\n\nint MyUnmanagedFunction() {\n    // Implementation of the unmanaged function\n}

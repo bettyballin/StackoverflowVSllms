@@ -1,1 +1,0 @@
-.sympath+ C:\Path\To\Symbols\n.reload /f

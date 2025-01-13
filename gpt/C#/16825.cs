@@ -1,1 +1,0 @@
-using System;\nusing System.Data.SqlTypes;\nusing Microsoft.SqlServer.Server;\n\npublic class SqlClrExample\n{\n    [SqlProcedure]\n    public static void HelloWorld()\n    {\n        SqlContext.Pipe.Send("Hello from CLR!");\n    }\n}

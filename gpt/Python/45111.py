@@ -1,1 +1,0 @@
-import zmq\n\n   context = zmq.Context()\n   socket = context.socket(zmq.REQ)\n   socket.connect("tcp://localhost:5555")\n\n   # Example RPC call\n   request_message = "Hello from client"\n   socket.send(request_message)\n\n   # Get the reply\n   message = socket.recv()\n   print("Received reply: %s" % message)

@@ -1,0 +1,1 @@
+private WeakReference<Panel> _panelRef;\n\nprivate void Button1_Click(object sender, EventArgs e)\n{\n    Panel uc = new Panel();\n    _panelRef = new WeakReference<Panel>(uc);\n    // ...\n}

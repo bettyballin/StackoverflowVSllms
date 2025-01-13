@@ -1,0 +1,1 @@
+import os\nfrom twilio.rest import Client\n\naccount_sid = os.environ['TWILIO_ACCOUNT_SID']\nauth_token = os.environ['TWILIO_AUTH_TOKEN']\nclient = Client(account_sid, auth_token)\n\nmessage = client.messages.create(\n    from_='your_twilio_number',\n    to='recipient_number',\n    body='Hello from your SMS service!'\n)\n\nprint(message.sid)

@@ -1,1 +1,0 @@
--- Assuming you have a job and step created\n   USE msdb;\n   GO\n   EXEC sp_update_jobstep \n       @job_name = 'MyJob', \n       @step_id = 1, \n       @proxy_name = 'MyProxy';\n   GO

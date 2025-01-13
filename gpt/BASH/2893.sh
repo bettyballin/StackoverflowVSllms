@@ -1,1 +1,0 @@
-editbin /rebase:base=0x60000000 yourdll.dll

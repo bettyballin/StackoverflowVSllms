@@ -1,0 +1,1 @@
+// Simple example grammar\npublic class MyDSL : Grammar {\n  public MyDSL() {\n    var program = new NonGrammarProduction("program");\n    program.Rule = MakeStarRule(program, null, "statement");\n    var statement = new NonGrammarProduction("statement");\n    statement.Rule = ToTerm("print") + "string";\n  }\n}

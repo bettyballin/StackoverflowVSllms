@@ -1,0 +1,1 @@
+$name = $_POST['name'];\n$base = $_POST['base'];\n$location = $_POST['location'];

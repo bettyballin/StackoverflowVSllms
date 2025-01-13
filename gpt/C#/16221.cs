@@ -1,1 +1,0 @@
-var controllerActions = MvcInspector.GetControllersAndActions();\n\nforeach (var info in controllerActions)\n{\n    Console.WriteLine($"Controller: {info.ControllerName}, Action: {info.ActionName}");\n}

@@ -1,0 +1,1 @@
+pdffonts foo.pdf

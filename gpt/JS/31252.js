@@ -1,1 +1,0 @@
-$(document).ready(function(){\n    var table = $('#yourTableId'); // Change this to your table's selector\n    table.attr('cellPadding', '0');\n});

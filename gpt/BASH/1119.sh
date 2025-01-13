@@ -1,1 +1,0 @@
-msbuild YourProject.vbproj /p:Configuration=Release /p:Platform=x86

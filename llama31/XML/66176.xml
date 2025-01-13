@@ -1,0 +1,1 @@
+<component type="Microsoft.Ddue.Tools.ExcludeInternalMembersComponent" assembly="${sandcastle.dir}\ProductionTools\BuildComponents.dll">\n  <category>exclude</category>\n</component>

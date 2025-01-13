@@ -1,1 +1,0 @@
-public class ThingResolver\n{\n    private readonly Thing _thing;\n\n    public ThingResolver(Thing thing)\n    {\n        _thing = thing;\n    }\n\n    public void Method(ISession session)\n    {\n        // Perform persistence calls with the provided session\n        // session.SaveOrUpdate(_thing);\n    }\n}

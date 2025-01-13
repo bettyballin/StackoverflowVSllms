@@ -1,0 +1,1 @@
+// In your Silverlight code\nHtmlPage page = HtmlPage.Document;\nHtmlElement control = page.GetElementById("your_COM_control_id");\n\n// Call the COM control's methods using JavaScript\npage.Invoke("SetParameters", param1, param2);\npage.Invoke("Authenticate");

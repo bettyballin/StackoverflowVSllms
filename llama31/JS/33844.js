@@ -1,0 +1,1 @@
+$('#div-container').on('click', '.new-button', function() {\n    // code to handle the click event\n});

@@ -1,1 +1,0 @@
-jpackage --input path/to/input/folder --name MyApp --main-jar myapp.jar --main-class com.example.Main --type app-image

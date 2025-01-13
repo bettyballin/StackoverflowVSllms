@@ -1,1 +1,0 @@
-using (var context = new MyDataContext())\n{\n    var entity = context.MyEntities.FirstOrDefault(e => e.Id == someId);\n    if (entity != null)\n    {\n        entity.SetOriginalValue();\n    }\n}

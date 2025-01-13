@@ -1,0 +1,1 @@
+$headers = array();\nforeach ($_SERVER as $key => $value) {\n    if (strpos($key, 'HTTP_') === 0) {\n        $headers[str_replace('HTTP_', '', $key)] = $value;\n    }\n}

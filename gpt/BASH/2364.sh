@@ -1,1 +1,0 @@
-wsdl2java -d src -p com.example.client -client -wsdlLocation WSDL_URL

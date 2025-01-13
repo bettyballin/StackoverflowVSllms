@@ -1,0 +1,1 @@
+$time = $_POST['time'];\n\n// Validate and convert to strict time format (e.g., 14:00)\nif (!empty($time)) {\n  $time = DateTime::createFromFormat('H:i', $time);\n  if ($time !== false) {\n    // Process the time in strict format\n    // ...\n  } else {\n    // Handle invalid input\n  }\n}

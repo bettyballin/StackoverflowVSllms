@@ -1,0 +1,1 @@
+link.setAttribute('class', 'play_button');

@@ -1,0 +1,1 @@
+./configure --host=arm-apple-darwin9 --target=arm-apple-darwin9\nmake

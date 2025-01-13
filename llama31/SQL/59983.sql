@@ -1,0 +1,1 @@
+CREATE VIEW EntryHierarchy AS\nWITH RecursiveEntries AS (\n    SELECT Id, ParentId, 0 AS Level\n    FROM Entries\n    WHERE ParentId IS NULL\n    UNION ALL\n    SELECT e.Id, e.ParentId, Level + 1\n    FROM Entries e\n    JOIN RecursiveEntries p ON e.ParentId = p.Id\n)\nSELECT * FROM RecursiveEntries

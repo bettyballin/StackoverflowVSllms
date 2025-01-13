@@ -1,0 +1,1 @@
+SELECT *\nFROM your_table\nWHERE client_id IN (\n  SELECT DISTINCT client_id\n  FROM your_table\n  LIMIT 5\n)\nLIMIT 5

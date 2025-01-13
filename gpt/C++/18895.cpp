@@ -1,1 +1,0 @@
-// Calculate the number of padding bytes needed\nint paddingBytes = (4 - (actualWidth % 4)) % 4;\n\n// Create a buffer with zero bytes for padding\nchar padding[3] = {0, 0, 0}; // 3 is the maximum padding needed\n\n// Write the padding bytes to the file\nbmFile.Write(padding, paddingBytes);

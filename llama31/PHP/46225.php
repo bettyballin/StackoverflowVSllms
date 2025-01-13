@@ -1,0 +1,1 @@
+$query = "select username, password from users where username = '".$user->getUsername()."' and password = '".$user->getPassword()."'";

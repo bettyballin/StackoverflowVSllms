@@ -1,0 +1,1 @@
+reg add HKCU\Console /v WindowSize /t REG_DWORD /d 0x00190050 /f\nreg add HKCU\Console /v ScreenBufferSize /t REG_DWORD /d 0x00190050 /f

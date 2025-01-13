@@ -1,0 +1,1 @@
+# Run the Silverlight Debugging Tool\n/Applications/Silverlight Debugging Tool.app/Contents/MacOS/SilverlightDebuggingTool\n\n# Attach to a running Silverlight process\n> attach <process_id>\n\n# Set breakpoints and debug your applicatio

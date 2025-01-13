@@ -1,1 +1,0 @@
-// YourCppCliWrapper.cpp\n   #include "stdafx.h"\n   #using <YourCSharpDll.dll>\n\n   public ref class Wrapper\n   {\n   public:\n       void CallYourMethod()\n       {\n           YourNamespace::YourClass^ obj = gcnew YourNamespace::YourClass();\n           obj->YourMethod();\n       }\n   };

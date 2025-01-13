@@ -1,1 +1,0 @@
-for (i = 0; (i - 1) < n; i++) {\n    char* b = (char*)malloc(12 * sizeof(char)); // Allocate sufficient memory\n    if (b == NULL) {\n        // Handle memory allocation failure\n        fprintf(stderr, "Memory allocation failed\n");\n        exit(1);\n    }\n    sprintf(b, "%d", i);\n    // Use b as needed\n    free(b); // Free the allocated memory\n}

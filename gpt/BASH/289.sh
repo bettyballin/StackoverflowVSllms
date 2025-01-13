@@ -1,1 +1,0 @@
-csvsql --query "SELECT * FROM employees WHERE department = 'Engineering'" employees.csv

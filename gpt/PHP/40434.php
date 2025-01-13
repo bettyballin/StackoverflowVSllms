@@ -1,1 +1,0 @@
-$query = "SELECT * FROM Users WHERE active = 1";\n$stmt = $db->query($query);\n\n$noOfRows = $stmt->rowCount();\n\nwhile ($row = $stmt->fetch()) {\n  // processing\n}

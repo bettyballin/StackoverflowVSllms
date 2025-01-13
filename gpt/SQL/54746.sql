@@ -1,1 +1,0 @@
-BEGIN\n    sqlout('SELECT * FROM DUAL');\nEND;

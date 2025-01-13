@@ -1,0 +1,1 @@
+SET PATH=%PATH%;C:\\Program Files\\Java\\jre6\\bi

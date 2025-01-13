@@ -1,0 +1,1 @@
+SELECT \n  c.ID, \n  c.NAME, \n  p.PROPERTY_KEYWORD AS SPECIALTYPE\nFROM \n  Card c\n  JOIN CardProperty cp ON c.ID = cp.CARD_ID\n  JOIN Property p ON cp.PROPERTY_ID = p.ID\nWHERE \n  c.ID = 1  -- specify the card ID you want to retrieve\nORDER BY \n  c.ID, \n  c.NAME, \n  p.PROPERTY_KEYWORD;

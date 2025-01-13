@@ -1,0 +1,1 @@
+<textarea name="your_textarea" cols="50" rows="10" charset="UTF-8"><?= $your_text ?></textarea>

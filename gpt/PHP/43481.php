@@ -1,1 +1,0 @@
-<?php\n$parent = array(\n    array(0, 0, 0),\n    array(4, 2),\n    array("foo", "bar", "b", "a", "z")\n);\n\nfunction sort_by_length($a, $b) {\n    return count($a) - count($b);\n}\n\nusort($parent, 'sort_by_length');\n\nprint_r($parent);\n?>

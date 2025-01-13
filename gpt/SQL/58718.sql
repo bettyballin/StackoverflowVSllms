@@ -1,1 +1,0 @@
-CREATE TABLE example_table (\n    id NUMBER PRIMARY KEY,\n    event_date DATE\n);\n\nINSERT INTO example_table (id, event_date) VALUES (1, TO_DATE('2023-01-01 10:30:00', 'YYYY-MM-DD HH24:MI:SS'));\n\nSELECT id, event_date FROM example_table;

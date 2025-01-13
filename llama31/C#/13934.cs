@@ -1,0 +1,1 @@
+var config = WebConfigurationManager.OpenWebConfiguration("~");\nvar section = (ConnectionStringsSection)config.GetSection("connectionStrings");\nsection.SectionInformation.ProtectSection("DataProtectionConfigurationProvider");\nconfig.Save();

@@ -1,0 +1,1 @@
+Private Sub Form_Open(Cancel As Integer)\n    Dim db As DAO.Database\n    Dim qdf As DAO.QueryDef\n    Dim strSQL As String\n    \n    Set db = CurrentDb()\n    Set qdf = db.QueryDefs("ShippersQuery")\n    \n    strSQL = "SELECT * FROM Shippers"\n    qdf.SQL = strSQL\n    \n    Me.lstShippers.RowSource = qdf.OpenRecordset()\nEnd Sub

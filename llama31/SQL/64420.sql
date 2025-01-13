@@ -1,0 +1,1 @@
+DECLARE @myTable TABLE (id INT, name VARCHAR(50));\n\nINSERT INTO @myTable (id, name)\nSELECT id, name FROM myTable;\n\n-- Use @myTable in your procedure

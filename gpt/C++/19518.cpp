@@ -1,1 +1,0 @@
-constexpr size_t array_size = 100;\n   int arr[array_size]; // Size is known at compile-time

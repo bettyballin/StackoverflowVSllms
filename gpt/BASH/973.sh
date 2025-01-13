@@ -1,1 +1,0 @@
-jarsigner -keystore myKeystore.jks "C:\my path\myJar.jar" myKeyName

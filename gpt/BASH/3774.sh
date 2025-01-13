@@ -1,1 +1,0 @@
-make CFLAGS="-I/opt/gnu/include" LDFLAGS="-L/opt/gnu/lib"

@@ -1,1 +1,0 @@
-SET SHOWPLAN_XML ON;\n   GO\n   -- Your query here\n   SET SHOWPLAN_XML OFF;\n   GO

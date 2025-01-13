@@ -1,1 +1,0 @@
-# PowerShell command to compute SHA256 checksum\n   Get-FileHash -Algorithm SHA256 -Path "path\to\your\SQL2005.ISO"

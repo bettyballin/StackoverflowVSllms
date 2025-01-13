@@ -1,0 +1,1 @@
+module MyModule\n  def function1\n    puts "function1"\n  end\n\n  def function2\n    puts "function2"\n  end\n\n  def function3\n    puts "function3"\n  end\n\n  module_function :function1, :function2\nend\n\nclass MyClass\n  include MyModule\nend\n\nobj = MyClass.new\nMyModule.function1  # => "function1"\nMyModule.function2  # => "function2"\nobj.function3  # => NoMethodError

@@ -1,0 +1,1 @@
+Guid guid = Guid.NewGuid();\nbyte[] bytes = guid.ToByteArray();

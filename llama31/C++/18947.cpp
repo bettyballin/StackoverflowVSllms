@@ -1,0 +1,1 @@
+std::list< boost::function<T ()> > ::iterator it;

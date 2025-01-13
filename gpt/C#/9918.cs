@@ -1,1 +1,0 @@
-// Example of input validation in C#\n   string userInput = GetUserInput();\n   \n   // Use a whitelist approach\n   if (!Regex.IsMatch(userInput, "^[a-zA-Z0-9-_]+$"))\n   {\n       throw new ArgumentException("Invalid input");\n   }

@@ -1,0 +1,1 @@
+SELECT *\nFROM aTable t1\nWHERE t1.fldInputField IN (SELECT role FROM aTableNormalized);

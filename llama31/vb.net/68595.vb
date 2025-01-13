@@ -1,0 +1,1 @@
+Using ts As New System.Transactions.TransactionScope(TransactionScopeOption.Suppress)\n    ' ...\nEnd Using

@@ -1,0 +1,1 @@
+EXPLAIN SELECT * FROM table1 WHERE condition;\nEXPLAIN SELECT * FROM table1 WHERE condition;

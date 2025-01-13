@@ -1,1 +1,0 @@
-#include <stdio.h>\n    #include <stdlib.h>\n\n    int check_ppp_link() {\n        int status = system("ip link show ppp0 | grep 'state UP' > /dev/null 2>&1");\n        return (status == 0);\n    }

@@ -1,1 +1,0 @@
--- Sample SQL query to generate XML\nSELECT \n    CustomerID,\n    CustomerName,\n    ContactName,\n    Country\nFROM \n    Customers\nFOR XML AUTO, ELEMENTS

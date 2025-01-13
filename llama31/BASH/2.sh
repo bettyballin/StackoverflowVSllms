@@ -1,0 +1,1 @@
+mdb-export -I -q "SELECT * FROM YourQuery" yourdatabase.mdb > output.csv

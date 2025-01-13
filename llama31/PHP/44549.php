@@ -1,0 +1,1 @@
+class URIResolve {\n    private $tablePages;\n\n    public function __construct($tablePages) {\n        $this->tablePages = $tablePages;\n    }\n\n    function process_uri() {\n        $this->category = $this->tablePages;\n    }\n}

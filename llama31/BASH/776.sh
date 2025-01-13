@@ -1,0 +1,1 @@
+hg commit @Name@ --cwd @Path@

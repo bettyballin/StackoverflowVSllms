@@ -1,0 +1,1 @@
+<IPermission\n  class="WebPermission"\n  version="1">\n    <ConnectAccess>\n        <URI uri="$OriginHost$"/>\n        <URI uri="http://localhost/"/>\n    </ConnectAccess>\n</IPermission>

@@ -1,0 +1,1 @@
+public static Expression<Func<DateTime, DateTime>> RiyadhTimeFromUtcExpression()\n{\n    return utcTime => utcTime.AddHours(3);\n}

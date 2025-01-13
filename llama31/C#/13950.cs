@@ -1,0 +1,1 @@
+private void flowLayoutPanel1_Resize(object sender, EventArgs e)\n{\n    flowLayoutPanel1.SuspendLayout();\n\n    // Resize child controls here...\n\n    flowLayoutPanel1.ResumeLayout(true);\n}

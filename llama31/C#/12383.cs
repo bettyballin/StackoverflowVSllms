@@ -1,0 +1,1 @@
+RSACryptoServiceProvider rsa = new RSACryptoServiceProvider();\nrsa.CspParameters.Flags = CspProviderFlags.UseMachineKeyStore;

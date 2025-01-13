@@ -1,0 +1,1 @@
+g++ -shared -o libyourbankingapp.so yourbankingapp.cpp

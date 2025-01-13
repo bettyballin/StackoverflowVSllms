@@ -1,0 +1,1 @@
+$largenum = '95635000009453274121700';\n$result = bcmod($largenum, '97');\necho $result;

@@ -1,0 +1,1 @@
+Partial Public Class Feedback\n    Implements iRuleEntity\n\n    Public Function GetRuleViolations() As System.Collections.Generic.List(Of RuleViolation) Implements iRuleEntity.GetRuleViolations\n        Return Nothing\n    End Function\n\nEnd Class

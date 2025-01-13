@@ -1,0 +1,1 @@
+CREATE TABLE actor_attributes (\n  id SERIAL PRIMARY KEY,\n  actor_id INTEGER NOT NULL REFERENCES actors(id),\n  attribute_name VARCHAR(255),\n  attribute_value TEXT\n);

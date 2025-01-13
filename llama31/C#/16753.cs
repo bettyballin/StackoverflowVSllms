@@ -1,0 +1,1 @@
+TextBox textBox = new TextBox();\ntextBox.Multiline = true;\ntextBox.WordWrap = true;\ntextBox.Text = "This is a very long text that needs to be wrapped.";

@@ -1,1 +1,0 @@
-public class YourDbContext : DbContext\n{\n    protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)\n    {\n        optionsBuilder\n            .UseSqlServer("YourConnectionString")\n            .LogTo(Console.WriteLine); // Logs to console. You can change this to log to a file or other logging framework.\n    }\n}

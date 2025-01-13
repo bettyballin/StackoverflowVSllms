@@ -1,0 +1,1 @@
+if (preg_match_all("/\[\[([^\]]*)\]\]/", $data, $matches, PREG_OFFSET_CAPTURE) !== false) {\n    // process the matches\n} else {\n    // handle regex error\n}

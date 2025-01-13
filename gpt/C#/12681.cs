@@ -1,1 +1,0 @@
-public class MySelectedClass\n{\n    public int ID { get; set; }\n    public string Name { get; set; }\n}\n\n// ...\n\nvar list = queryable\n    .Select(s => new MySelectedClass { ID = s.ID, Name = s.Name })\n    .ToList();

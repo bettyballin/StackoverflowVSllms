@@ -1,0 +1,1 @@
+print_r($variable);\nvar_dump($variable);

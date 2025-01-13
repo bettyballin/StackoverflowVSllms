@@ -1,0 +1,1 @@
+var results = Repository.All().AsEnumerable().Where(r => r.Id == new Guid("088ec7f4-63e8-4e3a-902f-fc6240df0a4b")).ToList();

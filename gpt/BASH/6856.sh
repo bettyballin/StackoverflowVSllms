@@ -1,1 +1,0 @@
-# .htaccess file in your admin directory\n   Header set X-Content-Type-Options nosniff\n   Header set X-Frame-Options "DENY"\n   Header set X-XSS-Protection "1; mode=block"

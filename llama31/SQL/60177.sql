@@ -1,0 +1,1 @@
+/*\nThis is a multiline comment\nthat spans multiple lines\n*/\nSELECT * FROM mytable;

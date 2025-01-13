@@ -1,0 +1,1 @@
+for ($i = 0; $i < count($ftw); $i++) {\n    $odp = $ftw[$i];\n    // do more stuff\n}

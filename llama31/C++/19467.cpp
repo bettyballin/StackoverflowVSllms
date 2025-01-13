@@ -1,0 +1,1 @@
+cpp_quote("enum BAR { BAR_1, BAR_2 };")

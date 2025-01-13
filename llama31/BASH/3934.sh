@@ -1,0 +1,1 @@
+if sudo -l | grep -q '(ALL)'; then\n    echo "User has NOPASSWD access"\nelse\n    echo "User does not have NOPASSWD access"\nfi

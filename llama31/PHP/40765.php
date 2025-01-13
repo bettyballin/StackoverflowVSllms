@@ -1,0 +1,1 @@
+$username = filter_var($_POST['username'], FILTER_SANITIZE_STRING);\necho htmlspecialchars($username, ENT_QUOTES, 'UTF-8');

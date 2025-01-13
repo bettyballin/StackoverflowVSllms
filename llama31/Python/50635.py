@@ -1,0 +1,1 @@
+matches = [match.group(0) for match in current_f if match]

@@ -1,1 +1,0 @@
-#ifdef __cplusplus\nextern "C" {\n#endif\n\n#include <linux/cpumask.h>\n\n#ifdef __cplusplus\n}\n#endif

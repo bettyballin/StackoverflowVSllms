@@ -1,1 +1,0 @@
-<?php\n\nrequire_once 'core/PluginManager.php';\n\n$pluginManager = new PluginManager();\n$pluginManager->loadPlugins(__DIR__ . '/plugins');\n\n// Execute all loaded plugins\n$pluginManager->executePlugins();

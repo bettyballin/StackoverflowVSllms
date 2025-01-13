@@ -1,1 +1,0 @@
-string email = "user@example.com";\n\n// Encrypt email\nstring encryptedEmail = EncryptionHelper.Encrypt(email);\nConsole.WriteLine("Encrypted Email: " + encryptedEmail);\n\n// Decrypt email\nstring decryptedEmail = EncryptionHelper.Decrypt(encryptedEmail);\nConsole.WriteLine("Decrypted Email: " + decryptedEmail);

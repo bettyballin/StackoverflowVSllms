@@ -1,0 +1,1 @@
+public class Rectangle\n{\n    public int X { get; set; }\n    public int Y { get; set; }\n    public int Width { get; set; }\n    public int Height { get; set; }\n\n    public void Inflate(int width, int height)\n    {\n        Width += width;\n        Height += height;\n    }\n}

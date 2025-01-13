@@ -1,0 +1,1 @@
+[ComVisible(true)]\npublic interface IMyComObject\n{\n    DataSet MyMethod();\n}

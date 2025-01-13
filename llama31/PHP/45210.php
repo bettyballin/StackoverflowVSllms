@@ -1,0 +1,1 @@
+$html = '<td><b>Title</td>';\n\n$tidy = tidy_parse_string($html);\ntidy_clean_and_repair($tidy);\n\necho tidy_get_output($tidy);

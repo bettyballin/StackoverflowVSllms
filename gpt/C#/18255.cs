@@ -1,1 +1,0 @@
-using System.Drawing;\nusing System.Windows.Forms;\n\npublic Size MeasureStringWithoutGraphics(string text, Font font)\n{\n    // Use TextRenderer to measure the size of the string\n    Size textSize = TextRenderer.MeasureText(text, font);\n    return textSize;\n}

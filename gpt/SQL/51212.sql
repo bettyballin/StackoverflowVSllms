@@ -1,1 +1,0 @@
-CREATE TABLE keywords_links (\n    id INT AUTO_INCREMENT PRIMARY KEY,\n    keyword VARCHAR(255) NOT NULL,\n    link VARCHAR(255) NOT NULL\n);\n\nINSERT INTO keywords_links (keyword, link) VALUES\n('example', 'http://example.com'),\n('php', 'http://php.net'),\n('mysql', 'http://mysql.com');

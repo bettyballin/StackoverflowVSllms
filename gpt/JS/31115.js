@@ -1,1 +1,0 @@
-code_churn = added_lines + modified_lines + deleted_lines;

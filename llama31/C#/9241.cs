@@ -1,0 +1,1 @@
+using (HttpWebRequest request = (HttpWebRequest)WebRequest.Create("http://example.com/api"))\n{\n    // ...\n}

@@ -1,1 +1,0 @@
-p {\n  position: relative;\n  background-color: rgba(0, 128, 0, 0.6); /* Green color with 60% opacity */\n  padding: 20px; /* Add some padding to see the effect clearly */\n}\n\nspan {\n  color: white;\n}

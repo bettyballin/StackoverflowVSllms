@@ -1,0 +1,1 @@
+$databaseConnection = DatabaseConnection::getInstance();\n$connection = $databaseConnection->getConnection();

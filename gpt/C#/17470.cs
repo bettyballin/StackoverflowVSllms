@@ -1,1 +1,0 @@
-[WebMethod]\npublic string GetExcelFileAsXml()\n{\n    string filePath = HttpContext.Current.Server.MapPath("~/Reports/Report.xml");\n    string fileContent = File.ReadAllText(filePath);\n    return fileContent;\n}

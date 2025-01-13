@@ -1,0 +1,1 @@
+cscript.exe iiscnfg.vbs /import /f <filename>.xml /sp /lm

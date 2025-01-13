@@ -1,1 +1,0 @@
-/* Ensure the logo has a higher z-index */\n#logo {\n    position: relative; /* or absolute/fixed if needed */\n    z-index: 10; /* Higher value ensures it appears on top */\n}\n\n/* Background image with lower z-index */\n#background {\n    position: relative; /* or absolute/fixed if needed */\n    z-index: 1; /* Lower value ensures it appears below the logo */\n}

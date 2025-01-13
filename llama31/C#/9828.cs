@@ -1,0 +1,1 @@
+using (CsvReader csv = new CsvReader(new StreamReader(new FileStream(fullFilePath, FileMode.Open, FileAccess.Read, FileShare.ReadWrite)), false))\n{\n    // Process the file\n}

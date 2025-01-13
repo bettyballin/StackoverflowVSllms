@@ -1,0 +1,1 @@
+require 'yaml'\n\n# Your string\ns = "Hëllö Wörld"\n\n# Ensure it's UTF-8 encoded\ns.force_encoding("UTF-8")\n\n# Dump to YAML, ensure UTF-8 is preserved\nyaml_string = YAML.dump(s)\n\nputs yaml_string

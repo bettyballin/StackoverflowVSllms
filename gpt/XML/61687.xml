@@ -1,1 +1,0 @@
-<!-- App1.csproj -->\n   <ItemGroup>\n     <PackageReference Include="MathLibrary" Version="1.0.0" />\n   </ItemGroup>

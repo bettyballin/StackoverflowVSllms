@@ -1,1 +1,0 @@
-gcc -o myprogram myprogram.c -Wl,-rpath,/path/to/libcurl3 -L/path/to/libcurl3 -lcurl

@@ -1,0 +1,1 @@
+list($minutes, $seconds) = explode(':', $time);\n$hours = floor($minutes / 60);\n$minutes %= 60;\n\n$formattedTime = sprintf("%02d:%02d:%02d", $hours, $minutes, $seconds);

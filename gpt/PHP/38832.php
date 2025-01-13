@@ -1,1 +1,0 @@
-// Retrieve the current user session data\n$user = $this->Auth->user();\n\n// Modify the user session data\n$user['customer_id'] = 4;\n\n// Update the session with the modified data\n$this->Auth->setUser($user);

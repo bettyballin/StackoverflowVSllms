@@ -1,1 +1,0 @@
-// Assuming 'env' is a valid JNIEnv* and 'obj' is the jobject reference\nif (obj != NULL) {\n    jobject globalRef = (*env)->NewGlobalRef(env, obj);\n    if (globalRef == NULL) {\n        // Handle error: NewGlobalRef failed\n    }\n} else {\n    // Handle error: obj is NULL\n}

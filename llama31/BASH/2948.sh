@@ -1,0 +1,1 @@
+compare -fuzz 0 original.jpg output.jpg difference.png

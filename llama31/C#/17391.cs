@@ -1,0 +1,1 @@
+[TypeConverter(typeof(MyTypeConverter))]\npublic class MyClass { ... }

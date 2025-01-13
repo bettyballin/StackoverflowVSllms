@@ -1,0 +1,1 @@
+foreach (DataColumn column in sharedDS.Table1.Columns)\n{\n    Console.WriteLine(column.ColumnName);\n}

@@ -1,1 +1,0 @@
-sudo /path/to/script.sh

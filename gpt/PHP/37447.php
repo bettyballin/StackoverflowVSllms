@@ -1,1 +1,0 @@
-<?php use_helper('DynamicJavascript'); ?>\n\n<?php if ($someCondition): ?>\n  <?php use_dynamic_javascript('file1.js'); ?>\n<?php else: ?>\n  <?php use_dynamic_javascript('file2.js'); ?>\n<?php endif; ?>

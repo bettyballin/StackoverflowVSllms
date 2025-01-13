@@ -1,0 +1,1 @@
+SELECT  a.column_name AS ForeignKeyField,\n        b.column_name AS PrimaryKeyField,\n        b.table_name AS PrimaryTable\nFROM    all_cons_columns a\nJOIN    all_cons_columns b ON a.constraint_name = b.constraint_name\nJOIN    all_constraints c ON a.constraint_name = c.constraint_name\nWHERE   c.table_name = :name AND c.constraint_type = 'R'

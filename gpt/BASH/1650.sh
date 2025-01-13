@@ -1,1 +1,0 @@
-cd /path/to/working/copy\n   svn import . file:///path/to/local/repository -m "Initial import"

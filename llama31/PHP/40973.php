@@ -1,0 +1,1 @@
+$xml = simplexml_load_file('your_rss_file.xml', 'SimpleXMLElement', LIBXML_NOCDATA);\nforeach ($xml->channel->item as $item) {\n    echo $item->description;\n}

@@ -1,1 +1,0 @@
-// In your ASP.Net controller\n[HttpGet]\npublic IActionResult CheckTaskStatus(string taskId)\n{\n    var taskStatus = // Get the task status based on the taskId\n    return Json(taskStatus);\n}

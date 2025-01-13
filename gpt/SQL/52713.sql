@@ -1,1 +1,0 @@
-CREATE TABLE TreeNode (\n    NodeID INT PRIMARY KEY,\n    ParentID INT,\n    NodeName VARCHAR(255),\n    HasChildren BOOLEAN\n);

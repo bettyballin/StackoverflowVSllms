@@ -1,1 +1,0 @@
-string userLevelPath = Path.Combine(Environment.GetFolderPath(Environment.SpecialFolder.ApplicationData), "YourGameName", "UserLevels");

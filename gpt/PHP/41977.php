@@ -1,1 +1,0 @@
-$node0 = new Node;\n$node1 = new Node;\n\n// nodes 1 and 2 have a circular reference to each other\n$node0->addChild($node1);\n\n// Manually break the circular reference if needed\nunset($node0);\nunset($node1);

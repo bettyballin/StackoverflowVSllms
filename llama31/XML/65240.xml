@@ -1,0 +1,1 @@
+<system.web>\n    <pages>\n        <controls>\n            <add tagPrefix="custom" namespace="YourNamespace" assembly="YourAssembly" />\n        </controls>\n    </pages>\n</system.web>

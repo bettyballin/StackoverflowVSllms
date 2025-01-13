@@ -1,0 +1,1 @@
+import gnupg\n\ngpg = gnupg.GPG()\n\n# create a signature\ndata = b"Hello, World!"\nsignature = gpg.sign(data, 'your_key_id')\n\nprint(signature)

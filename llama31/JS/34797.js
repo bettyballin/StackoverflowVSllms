@@ -1,0 +1,1 @@
+var div = $("<div>").addClass("myClass").attr("id", "myId");

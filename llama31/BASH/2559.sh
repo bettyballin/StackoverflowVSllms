@@ -1,0 +1,1 @@
+icacls C:\Windows\System32\scrrun.dll /grant:r "IUSR:(RX)"

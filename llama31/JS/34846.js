@@ -1,0 +1,1 @@
+// client-side (JavaScript)\nvar source = new EventSource('search.php');\nsource.onmessage = function(event) {\n  var searchResults = JSON.parse(event.data);\n  // Update your HTML with the search results\n  console.log(searchResults);\n};

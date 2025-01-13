@@ -1,0 +1,1 @@
+int main() {\n    std::string str = "___this_ is__ th_e str__ing we__ will use__";\n    std::vector<std::string> tokens = splitString(str, '_');\n\n    for (size_t i = 0; i < tokens.size(); ++i) {\n        std::cout << tokens[i] << std::endl;\n    }\n\n    return 0;\n}

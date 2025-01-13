@@ -1,0 +1,1 @@
+label.Font = new Font("Arial", 12);\nlabel.Text = "~";

@@ -1,1 +1,0 @@
-# Example SQLIO command to test disk I/O performance\nsqlio -kR -s300 -frandom -o8 -b8 -LS -Fparam.txt

@@ -1,1 +1,0 @@
-laravel new projectName\n   cd projectName

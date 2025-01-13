@@ -1,1 +1,0 @@
-# Check current settings\n   sysctl -a | grep net.core\n\n   # Example of increasing the maximum number of socket connections\n   sysctl -w net.core.somaxconn=65535

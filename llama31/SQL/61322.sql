@@ -1,0 +1,1 @@
+CREATE TABLE users (\n  id INT PRIMARY KEY,\n  password VARCHAR(255)\n);\n\nINSERT INTO users (id, password) VALUES (1, 'md5_hash_value');\n\nCREATE TABLE users_optimized (\n  id INT PRIMARY KEY,\n  password VARCHAR(32)\n);\n\nINSERT INTO users_optimized (id, password) VALUES (1, 'md5_hash_value');

@@ -1,0 +1,1 @@
+[Route("User/Details/{name}")]\npublic ActionResult Details(string name)\n{\n    MyModelDataContext db = new MyModelDataContext();\n    Product user = db.Products.Single(t => t.Name == name);\n    return View(user);\n}

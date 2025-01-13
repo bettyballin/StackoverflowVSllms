@@ -1,1 +1,0 @@
-for (int i = 0; i < rowCount; i++) {\n    if (tableA[i].contentID == 11) {\n        insertIntoTableB(tableA[i].userID, otherData);\n    }\n}

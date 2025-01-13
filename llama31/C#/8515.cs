@@ -1,0 +1,1 @@
+IList<string> names = "Tom,Scott,Bob".Split(',').Select(s => s.Trim()).Reverse().ToList();

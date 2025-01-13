@@ -1,0 +1,1 @@
+CREATE INDEX idx_text_column ON table_name (text_column) INDEXTYPE IS CTXSYS.CONTEXT;

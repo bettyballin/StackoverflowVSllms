@@ -1,0 +1,1 @@
+ldd your_object_files.o

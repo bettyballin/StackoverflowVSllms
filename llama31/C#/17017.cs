@@ -1,0 +1,1 @@
+using System;\n\nclass MemoryChecker\n{\n    static void Main(string[] args)\n    {\n        var process = System.Diagnostics.Process.GetCurrentProcess();\n        var memory = process.WorkingSet64;\n        Console.WriteLine($"Available memory: {memory / (1024 * 1024)} MB");\n    }\n}

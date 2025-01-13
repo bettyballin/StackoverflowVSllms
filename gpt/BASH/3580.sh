@@ -1,1 +1,0 @@
-vim /etc/named.conf

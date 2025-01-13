@@ -1,1 +1,0 @@
-git clone https://github.com/phpenv/phpenv.git ~/.phpenv\n   echo 'export PATH="$HOME/.phpenv/bin:$PATH"' >> ~/.bashrc\n   echo 'eval "$(phpenv init -)"' >> ~/.bashrc\n   source ~/.bashrc\n   git clone https://github.com/php-build/php-build.git ~/.phpenv/plugins/php-build

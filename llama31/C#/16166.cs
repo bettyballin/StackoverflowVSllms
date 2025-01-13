@@ -1,0 +1,1 @@
+private void TextBox_PreviewLostKeyboardFocus(object sender, RoutedEventArgs e)\n{\n    var box = sender as TextBox;\n    var binding = box.GetBindingExpression(TextBox.TextProperty);\n    if (binding.HasError)\n    {\n        e.Handled = true;\n        box.Focus();\n    }\n}

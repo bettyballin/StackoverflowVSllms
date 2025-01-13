@@ -1,1 +1,0 @@
-python your_selenium_script.py

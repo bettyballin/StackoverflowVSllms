@@ -1,0 +1,1 @@
+formatted = '{:0{width}}/{}'.format(b, a, width=len(str(a)))\nprint(formatted)  # Output: '000005/52500'

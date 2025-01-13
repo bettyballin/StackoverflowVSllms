@@ -1,1 +1,0 @@
-from django.db.models import Q\nfrom myapp.models import Question\n\nquestions = Question.objects.filter(Q(question__icontains='software') & Q(question__icontains='java'))

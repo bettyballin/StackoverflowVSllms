@@ -1,1 +1,0 @@
-if (myFunc instanceof Function) {\n    // myFunc is a function\n}

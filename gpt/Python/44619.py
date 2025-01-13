@@ -1,1 +1,0 @@
-def is_ascii(s):\n    return s.isascii()\n\n# Example usage:\nstring1 = "Hello"\nstring2 = "é"\n\nprint(is_ascii(string1))  # Output: True\nprint(is_ascii(string2))  # Output: False

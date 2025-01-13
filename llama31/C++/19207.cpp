@@ -1,0 +1,1 @@
+// mydll.h\nextern "C" __declspec(dllexport) MyClass* GetSharedInstance();\n\n// mydll.cpp\nMyClass* GetSharedInstance() {\n    static MyClass instance;\n    return &instance;\n}

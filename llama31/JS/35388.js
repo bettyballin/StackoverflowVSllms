@@ -1,0 +1,1 @@
+var url = 'http://example.com/ajax?timestamp=' + new Date().getTime();

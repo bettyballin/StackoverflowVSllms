@@ -1,1 +1,0 @@
-[PartCreationPolicy(CreationPolicy.Shared)]\n[Export(typeof(IAutocompleteRepository))]\n[ExportMetadata("IsTesting", "True")]\nclass FakeAutocompleteRepository : IAutocompleteRepository\n{\n    static int instCount = 0;\n\n    public FakeAutocompleteRepository()\n    {\n        instCount++;\n        // ...\n    }\n}

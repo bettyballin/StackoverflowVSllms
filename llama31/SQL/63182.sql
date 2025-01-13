@@ -1,0 +1,1 @@
+SELECT (10 * 2) / 3;  # Returns 6.67\nSELECT (10 / 2) * 3;  # Returns 15

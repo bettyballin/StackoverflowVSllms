@@ -1,1 +1,0 @@
-require 'mail'\nrequire 'gpgme'\n\ndef decrypt_email(encrypted_message)\n  crypto = GPGME::Crypto.new\n  decrypted = crypto.decrypt(encrypted_message)\n  decrypted.to_s\nend\n\n# Example usage\nencrypted_message = "-----BEGIN PGP MESSAGE-----\n..."\ndecrypted_message = decrypt_email(encrypted_message)\nputs decrypted_message

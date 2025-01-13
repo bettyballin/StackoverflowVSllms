@@ -1,1 +1,0 @@
-Dim Polygon As String = String.Concat(Placemark.<g:Polygon>.Nodes())

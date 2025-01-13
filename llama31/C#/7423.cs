@@ -1,0 +1,1 @@
+[ApiController]\n[Route("api/[controller]")]\npublic class MockServiceController : ControllerBase\n{\n    [HttpPost]\n    public IActionResult Method1([FromBody]RequestType request)\n    {\n        // Return sample data\n        var response = new ResponseType { /* populate with sample data */ };\n        return Ok(response);\n    }\n\n    // Implement other methods similarly\n}

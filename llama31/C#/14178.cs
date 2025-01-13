@@ -1,0 +1,1 @@
+protected void LoginButton_Click(object sender, EventArgs e)\n{\n    // Authenticate user...\n    if (authenticated)\n    {\n        Response.Redirect(Request.Url.GetLeftPart(UriPartial.Authority) + "/Default.aspx");\n    }\n}

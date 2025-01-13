@@ -1,0 +1,1 @@
+.left {\n    float: left;\n    width: 200px; /* Example width */\n}\n\n.right {\n    float: right;\n    width: 200px; /* Example width */\n}\n\n#contentheader, #content {\n    margin: 0 auto; /* This ensures the content is centered */\n    width: calc(100% - 400px); /* Example width; adjust based on the widths of the left and right columns */\n}

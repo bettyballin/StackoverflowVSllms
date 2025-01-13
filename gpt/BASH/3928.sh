@@ -1,1 +1,0 @@
-@echo off\nsetlocal enabledelayedexpansion\n\nset "filename=example.txt"\n\nfor /f "tokens=*" %%A in (%filename%) do (\n    set "line=%%A"\n    echo !line!\n)\n\nendlocal

@@ -1,1 +1,0 @@
-cl /CLR /LD dllcode.cpp /Fe:dllcode.dll\ncl loader.cpp /Fe:loader.exe

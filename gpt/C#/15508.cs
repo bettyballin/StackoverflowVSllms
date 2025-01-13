@@ -1,1 +1,0 @@
-System.Net.WebProxy proxy = new System.Net.WebProxy("http://yourproxyaddress:port", true);

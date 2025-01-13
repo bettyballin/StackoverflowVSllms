@@ -1,0 +1,1 @@
+// Connect to database\n$conn = new mysqli($db_host, $db_username, $db_password, $db_name);\n\n// Execute query\n$result = $conn->query("SELECT * FROM users WHERE id = 1");\n\n// Fetch result\n$user = $result->fetch_assoc();\n\n// Close connection\n$conn->close();

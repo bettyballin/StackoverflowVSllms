@@ -1,0 +1,1 @@
+// myfunctions.h\n#ifndef MYFUNCTIONS_H\n#define MYFUNCTIONS_H\n\nvoid myFunction(int x);\n\n#endif  // MYFUNCTIONS_H

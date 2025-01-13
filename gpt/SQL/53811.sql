@@ -1,1 +1,0 @@
-SELECT \n    CAST(unixtime / 3600 AS UNSIGNED) AS hour, \n    SUM(iface1_in) AS total_iface1_in, \n    SUM(iface1_out) AS total_iface1_out\nFROM (\n    SELECT unixtime, iface1_in, iface1_out FROM router1_20090330\n    UNION ALL\n    SELECT unixtime, iface1_in, iface1_out FROM router1_20090331\n) AS combined_data\nGROUP BY hour\nORDER BY hour;

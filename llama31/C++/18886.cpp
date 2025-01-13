@@ -1,0 +1,1 @@
+#include <Windows.h>\n\nbool GetMMCInfo(const char* drivePath, DWORD& totalSize, DWORD& freeSpace) {\n    if (GetDiskFreeSpaceEx(drivePath, NULL, (PULARGE_INTEGER)&totalSize, (PULARGE_INTEGER)&freeSpace)) {\n        return true;\n    }\n    return false;\n}

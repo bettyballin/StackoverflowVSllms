@@ -1,1 +1,0 @@
-wfLoadExtension( 'Lockdown' );\n\n   // Restrict access to the 'restricted' namespace to users with the 'paid' group\n   $wgNamespacePermissionLockdown[NS_RESTRICTED]['read'] = ['paid'];

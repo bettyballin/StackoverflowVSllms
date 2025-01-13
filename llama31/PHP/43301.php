@@ -1,0 +1,1 @@
+$string = "This is my test case for an example.";\n$words = explode(' ', $string);\n\n$result = array_map(function($key, $value) use ($words) {\n    return $value . ' ' . ($words[$key + 1] ?? '');\n}, array_keys($words), $words);\n\nprint_r($result);

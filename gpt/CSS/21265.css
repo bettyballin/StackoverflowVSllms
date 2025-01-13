@@ -1,1 +1,0 @@
-div {\n  position: relative; /* Ensure the DIV is the containing block for absolute positioning */\n}\n\nul {\n  position: absolute;\n  right: 100%; /* Move UL to the left by 100% of its width */\n  top: 0; /* Adjust as necessary to align vertically */\n}

@@ -1,1 +1,0 @@
-from pywinauto import application\n   app = application.Application().start("your_application.exe")\n   dlg = app.window(title="Your App Title")\n   dlg.Edit.type_keys("Test Input")\n   dlg.Button.click()

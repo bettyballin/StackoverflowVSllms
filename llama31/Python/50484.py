@@ -1,0 +1,1 @@
+# main.py\nfrom django.conf import settings\nfrom django.db import models\nfrom .models import Book\n\n# Initialize the ORM\nsettings.configure(DATABASES=settings.DATABASES)\nmodels.Model._meta.apps = models.Apps()\n\n# Use the ORM\nbooks = Book.objects.all()\nprint(books)

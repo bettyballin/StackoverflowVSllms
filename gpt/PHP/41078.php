@@ -1,1 +1,0 @@
-// In ItemsController.php (Controller)\n     public function view($id) {\n         $itemWithDefaultImage = $this->Item->getItemWithDefaultImage($id);\n         $this->set('item', $itemWithDefaultImage);\n     }

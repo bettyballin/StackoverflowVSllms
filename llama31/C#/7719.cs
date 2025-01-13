@@ -1,0 +1,1 @@
+using System.ServiceModel;\n\nnamespace MyService\n{\n    [ServiceContract]\n    public interface IMyService\n    {\n        [OperationContract]\n        string GetData(int id);\n    }\n}

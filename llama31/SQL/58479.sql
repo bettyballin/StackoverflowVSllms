@@ -1,0 +1,1 @@
+SET @sample_size = 10000;\nSET @i = 0;\n\nSELECT *\nFROM table\nWHERE (@i := @i + 1) <= @sample_size\n  OR RAND() < @sample_size / @i;

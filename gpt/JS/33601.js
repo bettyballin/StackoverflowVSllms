@@ -1,1 +1,0 @@
-// Assuming you get the session value from PHP like this\nvar sessionValue = "<?php echo $_SESSION['session_value']; ?>";\n\n// Set the session value in a cookie\nsetCookie('session_value', sessionValue, 1); // 1 day expiry

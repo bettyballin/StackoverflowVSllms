@@ -1,0 +1,1 @@
+php -d xdebug.profiler_enable=1 your_script.php

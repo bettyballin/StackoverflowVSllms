@@ -1,0 +1,1 @@
+SELECT DISTINCT ON (some_field) some_field \nFROM some_table \nWHERE some_field LIKE 'text%' \nORDER BY some_field \nLIMIT 10;

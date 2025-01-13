@@ -1,0 +1,1 @@
+#include <stdio.h>\n\nint main() {\n    char c;\n\n    // Print uppercase letters\n    for (c = 'A'; c <= 'Z'; c++) {\n        printf("%c (%d)\n", c, (int)c);\n    }\n\n    // Print lowercase letters\n    for (c = 'a'; c <= 'z'; c++) {\n        printf("%c (%d)\n", c, (int)c);\n    }\n\n    return 0;\n}

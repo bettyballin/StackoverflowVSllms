@@ -1,1 +1,0 @@
-rsync -avz --delete /path/to/local/website/ username@remote:/path/to/remote/website/

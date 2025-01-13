@@ -1,0 +1,1 @@
+using NHibernate.REST;\n\n// create an NHibernate session factory\nvar sessionFactory = new NHibernate.Cfg.Configuration().BuildSessionFactory();\n\n// create a REST service instance\nvar restService = new RestService(sessionFactory);\n\n// start the REST service\nrestService.Start();

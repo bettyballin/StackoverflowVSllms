@@ -1,0 +1,1 @@
+CREATE NONCLUSTERED INDEX idx_id ON table (id)

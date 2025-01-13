@@ -1,0 +1,1 @@
+sysbench --test=cpu --cpu-max-prime=20000 --num-threads=10 ru

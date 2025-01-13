@@ -1,0 +1,1 @@
+lblStatus.Text = "Restoring Database";\n\nThread restoreThread = new Thread(() =>\n{\n    Restore fullRestore = new Restore();\n    // Configure fullRestore\n    fullRestore.SqlRestore(_server);\n    fullRestore.Wait();\n});\n\nrestoreThread.Start();

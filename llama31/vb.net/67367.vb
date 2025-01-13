@@ -1,0 +1,1 @@
+Dim query = From contact In db.Contacts\n            Group contact By contact.FullName.Substring(0, 1).ToUpper() Into g\n            Select New With { .Letter = g.Key, .Count = g.Count() }\n\nDim result = query.Where(Function(x) x.Count > 0).OrderBy(Function(x) x.Letter)

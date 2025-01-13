@@ -1,0 +1,1 @@
+debugfs -R "stat <inode_num>" /dev/sdX1

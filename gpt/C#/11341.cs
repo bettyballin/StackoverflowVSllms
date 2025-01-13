@@ -1,1 +1,0 @@
-protected void Repeater1_ItemDataBound(object sender, RepeaterItemEventArgs e)\n{\n    if (e.Item.ItemType == ListItemType.Item || e.Item.ItemType == ListItemType.AlternatingItem)\n    {\n        Label label = (Label)e.Item.FindControl("Label1");\n        label.ID = "Label" + e.Item.ItemIndex;\n    }\n}

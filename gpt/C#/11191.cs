@@ -1,1 +1,0 @@
-YourEntity entity = new YourEntity { Id = 1, Name = "Example" };\nstring filePath = "entity.xml";\n\n// Serialize\nSerializeToXml(entity, filePath);\n\n// Deserialize\nYourEntity deserializedEntity = DeserializeFromXml<YourEntity>(filePath);

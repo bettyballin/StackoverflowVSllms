@@ -1,1 +1,0 @@
-# Example setup for PS2 development on Cygwin\n   export PS2SDK=/path/to/ps2sdk\n   export PATH=$PATH:$PS2SDK/bi

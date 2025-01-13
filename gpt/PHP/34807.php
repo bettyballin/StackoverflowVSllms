@@ -1,1 +1,0 @@
-<?php if ($this->getQuote()->getCouponCode()): ?>\n       <div class="coupon-code">\n           <strong><?php echo $this->__('Coupon Code:'); ?></strong>\n           <?php echo $this->escapeHtml($this->getQuote()->getCouponCode()); ?>\n       </div>\n   <?php endif; ?>

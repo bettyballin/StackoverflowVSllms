@@ -1,0 +1,1 @@
+$url = 'http://example.com/rss';\nif (SimplePie::check_feed_url($url)) {\n    echo 'The URL is a valid feed!';\n} else {\n    echo 'The URL is not a valid feed.';\n}

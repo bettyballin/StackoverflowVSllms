@@ -1,0 +1,1 @@
+List<string> fields = values.Cast<string>().ToList();

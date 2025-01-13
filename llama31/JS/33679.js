@@ -1,0 +1,1 @@
+$.ajax({\n    type: "POST",\n    url: "/MyJsonService",\n    data: { token: token },\n    // ...\n});

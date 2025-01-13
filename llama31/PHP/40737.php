@@ -1,0 +1,1 @@
+// check_session.php\nif (isset($_SESSION['screen_name'])) {\n  echo 'true';\n  // Trigger a callback to the client\n  // e.g., using WebSockets or Server-Sent Events (SSE)\n}

@@ -1,1 +1,0 @@
-SELECT DATEADD(day, DATEDIFF(day, 0, your_datetime_column), 0) AS date_only\nFROM your_table;

@@ -1,0 +1,1 @@
+// load wrapper DLL\nHMODULE hWrapperModule = LoadLibraryEx("wrapper.dll", NULL, LOAD_LIBRARY_AS_DATAFILE);

@@ -1,0 +1,1 @@
+ProxyHelper proxy = new ProxyHelper();\nproxy.SetProxy("myproxyserver", 8080);

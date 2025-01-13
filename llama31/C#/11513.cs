@@ -1,0 +1,1 @@
+var parameters = new DbParameters[]\n{\n    new DbParameters { Name = "@Foo", Value = "bar" },\n    new DbParameters { Name = "@Baz", Value = 42 },\n    // ...\n};\ndataLayer.Commit(parameters);

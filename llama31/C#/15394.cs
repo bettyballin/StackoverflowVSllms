@@ -1,0 +1,1 @@
+public static class Html5Helper\n{\n    public static MvcHtmlString Image(this HtmlHelper helper, string src, string alt)\n    {\n        var builder = new TagBuilder("img");\n        builder.MergeAttribute("src", src);\n        builder.MergeAttribute("alt", alt);\n        return MvcHtmlString.Create(builder.ToString(TagRenderMode.SelfClosing));\n    }\n}

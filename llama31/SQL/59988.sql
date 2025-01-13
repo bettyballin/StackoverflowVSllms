@@ -1,0 +1,1 @@
+SELECT TOP 10 cs-uri-stem, SUM(sc-bytes) AS Bandwidth\nFROM [LOGFILE]\nGROUP BY cs-uri-stem\nORDER BY Bandwidth DESC

@@ -1,0 +1,1 @@
+$dbHost = $_ENV['DB_HOST'];\n$dbUsername = $_ENV['DB_USERNAME'];\n$dbPassword = $_ENV['DB_PASSWORD'];\n$dbName = $_ENV['DB_NAME'];

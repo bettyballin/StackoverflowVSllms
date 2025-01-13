@@ -1,0 +1,1 @@
+public string EncodePassword(string password, string salt)\n{\n    var combined = salt + password;\n    var bytes = Encoding.Unicode.GetBytes(combined);\n    using (var algorithm = HashAlgorithm.Create("SHA1"))\n    {\n        var hash = algorithm.ComputeHash(bytes);\n        return Convert.ToBase64String(hash);\n    }\n}

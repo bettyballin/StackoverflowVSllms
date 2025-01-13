@@ -1,1 +1,0 @@
-// login.php\nglobal $someGlobalVariable;\n// Your legacy code here

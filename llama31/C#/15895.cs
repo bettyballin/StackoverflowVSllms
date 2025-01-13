@@ -1,0 +1,1 @@
+[Serializable]\npublic class StorageObject\n{\n    public string Name { get; set; }\n    public string Birthday { get; set; }\n    public List<NameValuePairs> OtherInfo { get; set; }\n}

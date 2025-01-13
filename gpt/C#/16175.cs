@@ -1,1 +1,0 @@
-using System;\nusing Telerik.Web.UI;\n\npublic partial class FileExplorerExample : System.Web.UI.Page\n{\n    protected void Page_Load(object sender, EventArgs e)\n    {\n        if (!IsPostBack)\n        {\n            RadFileExplorer1.Configuration.ContentProviderTypeName = typeof(CustomFileBrowserContentProvider).AssemblyQualifiedName;\n        }\n    }\n}

@@ -1,1 +1,0 @@
-// Assume MyService is a class you've already created an instance of\nvar myServiceInstance = new MyService();\n\n// Create the Windsor container\nvar container = new WindsorContainer();\n\n// Register the existing instance\ncontainer.Register(Component.For<MyService>().Instance(myServiceInstance));

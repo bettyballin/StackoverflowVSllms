@@ -1,0 +1,1 @@
+import math\n\ndef ways_to_get_exactly_5_same_value():\n    return (math.comb(20, 5) * 7**15 * 8) // 8

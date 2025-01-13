@@ -1,1 +1,0 @@
-RESTORE DATABASE [YourDatabaseName] \n   FROM DISK = 'C:\path\to\your\backupfile.bak' \n   WITH MOVE 'YourDatabaseName_Data' TO 'C:\correct\path\YourDatabaseName.mdf', \n        MOVE 'YourDatabaseName_Log' TO 'C:\correct\path\YourDatabaseName.ldf';

@@ -1,1 +1,0 @@
-string[] parts = preWin2000LoginName.Split('\\');\nstring domain = parts[0];\nstring username = parts[1];

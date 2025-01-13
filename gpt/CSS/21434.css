@@ -1,1 +1,0 @@
-/* Assuming the text element has a class 'highlight' */\ntd:has(.highlight) {\n  background-color: yellow; /* Set your desired background color */\n}

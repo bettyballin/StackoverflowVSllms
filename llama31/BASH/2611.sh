@@ -1,0 +1,1 @@
+#!/bin/sh\n\n# Check if the commit is a database change\nif grep -q "db/" <<< "$GIT_COMMIT"; then\n  # Require a code review for database changes\n  if ! git rev-parse --verify HEAD~1 | grep -q "Reviewed-by"; then\n    echo "Database changes require a code review"\n    exit 1\n  fi\nfi

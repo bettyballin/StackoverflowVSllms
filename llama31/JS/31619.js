@@ -1,0 +1,1 @@
+window.addEvent('domready', function() {\n    $$('a.delete').addEvent('click', function(event) {\n        var parent = this.getParent('.item');\n        var username = parent.getElements('a.view')[0].get('text');\n        if (!confirm("Are you sure you want to remove the user '" + username + "'?")) {\n            event.stop();\n        }\n    });\n});

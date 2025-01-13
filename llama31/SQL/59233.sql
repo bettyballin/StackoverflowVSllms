@@ -1,0 +1,1 @@
+WHERE FREETEXT(k.Keyword, @SearchQ) \n  AND d.IsSearch=1 \n  AND d.IsApproved=1 \n  AND (d.CategoryId = @CategoryId OR @CategoryId NOT IN (1,2,3) OR @CategoryId IS NULL)

@@ -1,1 +1,0 @@
-web_reg_save_param("SessionID",\n                      "LB=SessionID=",\n                      "RB=;",\n                      "Ord=1",\n                      LAST);\n   \n   web_url("request",\n           "URL=http://yourapp.com/page?SessionID={SessionID}",\n           LAST);

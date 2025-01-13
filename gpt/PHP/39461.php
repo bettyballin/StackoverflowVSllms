@@ -1,1 +1,0 @@
-<?php\n// translations.php\n$this->translate('page-error-invalid-username');\n$this->translate('page-error-invalid-password');\n$this->translate('page-error-account-locked');

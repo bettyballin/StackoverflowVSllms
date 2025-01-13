@@ -1,0 +1,1 @@
+SELECT \n    id,\n    STUFF((SELECT ', ' + Name + ':' + CONVERT(VARCHAR, Value)\n           FROM YourTable AS t2\n           WHERE t2.id = t1.id\n           FOR XML PATH('')), 1, 2, '') AS Column\nFROM \n    YourTable AS t1\nGROUP BY \n    id

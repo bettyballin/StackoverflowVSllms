@@ -1,0 +1,1 @@
+SELECT DBMS_LOB.getlength(xmldata) FROM mytable;

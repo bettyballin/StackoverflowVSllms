@@ -1,0 +1,1 @@
+public class WebFormsController : BaseController\n{\n    public override HttpContextBase HttpContext\n    {\n        get { return new HttpContextWrapper(HttpContext.Current); }\n    }\n}

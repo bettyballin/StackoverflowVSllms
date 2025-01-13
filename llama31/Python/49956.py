@@ -1,0 +1,1 @@
+import nltk\nfrom nltk.corpus import brown\n\nnltk.download('brown')\nword_freq = brown.words()\n\nwith open('word_freq.txt', 'w') as f:\n    for word in word_freq:\n        f.write(word + '\n')

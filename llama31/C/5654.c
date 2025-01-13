@@ -1,0 +1,1 @@
+int x = 20;\nint y = 30;\nint z = x + y;

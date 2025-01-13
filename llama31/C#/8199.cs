@@ -1,0 +1,1 @@
+Node root = new Node(1);\nroot.left = new Node(2);\nroot.right = new Node(3);\nroot.left.left = new Node(4);\nroot.left.right = new Node(5);\n\nMorrisTraversal.traverse(root); // prints: 1 2 4 5 3

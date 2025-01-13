@@ -1,1 +1,0 @@
-#include <string.h>\n\nint lookup(char *word, char *array[])\n{\n    register int i;\n\n    for (i = 0; array[i] != NULL; i++)\n    {\n        if (strcmp(word, array[i]) == 0)\n            return i;\n    }\n\n    return -1;\n}

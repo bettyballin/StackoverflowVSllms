@@ -1,1 +1,0 @@
-<?php\n$date = new DateTime();\n\n$date->modify('-3 months');\necho $date->format("M") . "\n";\n\n$date = new DateTime();\n$date->modify('-2 months');\necho $date->format("M") . "\n";\n\n$date = new DateTime();\n$date->modify('-1 month');\necho $date->format("M") . "\n";\n\n$date = new DateTime();\necho $date->format("M") . "\n";\n?>

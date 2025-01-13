@@ -1,0 +1,1 @@
+use Smalot\PdfParser\Parser;\n\n$parser = new Parser();\n$pdf = $parser->parseFile('path/to/example.pdf');\n$html = $pdf->getHtml();

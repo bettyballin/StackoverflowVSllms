@@ -1,0 +1,1 @@
+[TestClass]\npublic class Tests {\n    [TestMethod]\n    [DataRow(null)]\n    [DataRow("")]\n    public void MyMethod_should_fail_if_param_is_invalid(string param) {\n        //...\n        myclass.MyMethod(param);\n        //...\n    }\n}

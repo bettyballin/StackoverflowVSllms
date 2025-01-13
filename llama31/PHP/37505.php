@@ -1,0 +1,1 @@
+// Generate a GUID or hash and store it in the session\n$guid = uuid_create(UUID_TYPE_RANDOM);\n$_SESSION['guid'] = $guid;\n\n// Use the GUID or hash to retrieve the database key\n$db_key = get_db_key_from_guid($guid);

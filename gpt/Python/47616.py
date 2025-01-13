@@ -1,1 +1,0 @@
-cursor.execute("SELECT * FROM your_table")\n    rows = cursor.fetchall()  # Fetch all rows at once

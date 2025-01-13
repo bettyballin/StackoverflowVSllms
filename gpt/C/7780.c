@@ -1,1 +1,0 @@
-for (i = 0; (i - 1) < n; i++) {\n    char b[12]; // Allocate enough space for an integer string representation\n    sprintf(b, "%d", i);\n    // Use b as needed\n}

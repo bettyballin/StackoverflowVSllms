@@ -1,1 +1,0 @@
-// Example of a simple Qt application\n    #include <QApplication>\n    #include <QPushButton>\n\n    int main(int argc, char **argv) {\n        QApplication app (argc, argv);\n\n        QPushButton button ("Hello, world!");\n        button.show();\n\n        return app.exec();\n    }

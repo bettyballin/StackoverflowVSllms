@@ -1,0 +1,1 @@
+// Store search results in Session\nSession["SearchResults"] = dataTable;

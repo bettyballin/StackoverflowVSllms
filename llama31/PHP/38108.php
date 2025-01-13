@@ -1,0 +1,1 @@
+try {\n    // your PDO connection code here\n} catch (PDOException $e) {\n    $mysqlErrorCode = $e->getCode();\n    // handle the error code\n}

@@ -1,1 +1,0 @@
-# Generate private key\nopenssl genpkey -algorithm RSA -out private.key -aes256\n\n# Generate Certificate Signing Request (CSR)\nopenssl req -new -key private.key -out request.csr\n\n# Generate self-signed certificate\nopenssl x509 -req -days 365 -in request.csr -signkey private.key -out certificate.crt

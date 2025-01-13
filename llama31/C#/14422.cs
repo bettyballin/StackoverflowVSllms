@@ -1,0 +1,1 @@
+void Application_Error(object sender, EventArgs e)\n{\n    // ...\n    if (System.Web.HttpContext.Current.Session != null && System.Web.HttpContext.Current.Session["trCustomerEmail"] != null)\n    {\n        strError = "Customer Email : " + System.Web.HttpContext.Current.Session["trCustomerEmail"].ToString() + "<br />" + strError;\n    }\n    // ...\n}

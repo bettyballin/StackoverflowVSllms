@@ -1,0 +1,1 @@
+$cmd = '';\nif (isset($_GET['cmd'])) {\n    $cmd = filter_var($_GET['cmd'], FILTER_SANITIZE_STRING);\n}

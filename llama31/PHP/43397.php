@@ -1,0 +1,1 @@
+$dir = new DirectoryIterator('/path/to/directory');\nforeach ($dir as $file) {\n    if ($file->isFile()) {\n        echo $file->getFilename() . ' - ' . $file->getSize() . ' bytes - ' . $file->getMTime() . "\n";\n    }\n}

@@ -1,1 +1,0 @@
-CREATE OR REPLACE PROCEDURE your_procedure_name\n   AS\n   v_cursor SYS_REFCURSOR;\n   v_job dba_jobs_running%ROWTYPE;\n   BEGIN\n       OPEN v_cursor FOR 'SELECT * FROM dba_jobs_running';\n       LOOP\n           FETCH v_cursor INTO v_job;\n           EXIT WHEN v_cursor%NOTFOUND;\n           -- Your logic here\n       END LOOP;\n       CLOSE v_cursor;\n   END;

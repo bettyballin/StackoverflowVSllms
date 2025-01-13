@@ -1,0 +1,1 @@
+// Get the search block\n$search_block = \Drupal::entityTypeManager()->getStorage('block')->load('search_block');\n\n// Set the index on the search block\n$search_block->setSetting('index', 'rss_feeds');\n$search_block->save();

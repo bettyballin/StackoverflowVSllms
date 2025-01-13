@@ -1,1 +1,0 @@
-# Run tests for a specific app\npython manage.py test my_app

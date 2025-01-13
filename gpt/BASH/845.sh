@@ -1,1 +1,0 @@
-rsync -av --delete /local/third-party-repo/ /local/your-svn-repo/path/to/folder/

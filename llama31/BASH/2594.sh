@@ -1,0 +1,1 @@
+vendor/bin/phpstan analyze src

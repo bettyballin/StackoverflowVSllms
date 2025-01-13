@@ -1,0 +1,1 @@
+[TestMethod]\npublic void DeleteProduct_ValidId_RemovesProduct()\n{\n    // Arrange\n    var product = new Product { Name = "Test Product" };\n    var productId = _productDal.Create(product);\n\n    // Act\n    _productDal.Delete(productId);\n\n    // Assert\n    var retrievedProduct = _productDal.Get(productId);\n    Assert.IsNull(retrievedProduct);\n}

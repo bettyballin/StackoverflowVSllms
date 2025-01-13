@@ -1,1 +1,0 @@
-folder.Item.BreakRoleInheritance(false); // false to not copy parent permissions

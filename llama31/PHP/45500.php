@@ -1,0 +1,1 @@
+$pattern = '/([0-9]{1,3}\.[0-9]{1,2})%[\s]*of[\s]*([^.]+)[\s]*at/';\nif (preg_match_all($pattern, $progress, $matches, PREG_SPLIT_DELIM_CAPTURE)) {\n    $percentage = $matches[1][0];\n    $filesize = $matches[2][0];\n}

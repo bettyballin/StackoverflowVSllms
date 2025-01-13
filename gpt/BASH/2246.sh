@@ -1,1 +1,0 @@
-jstat -gc <pid> 1000

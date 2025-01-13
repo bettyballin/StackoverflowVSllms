@@ -1,0 +1,1 @@
+import System.Linq\n\nfile_infos = [...]  # list of FileInfo objects\n\n# sort the list by CreationTime in descending order\nsorted_file_infos = file_infos.OrderByDescending(lambda x: x.CreationTime).ToList()

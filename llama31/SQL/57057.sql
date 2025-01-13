@@ -1,0 +1,1 @@
+INSERT INTO table_B\nSELECT *\nFROM table_A\nWHERE abc > 10;

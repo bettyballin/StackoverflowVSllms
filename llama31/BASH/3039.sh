@@ -1,0 +1,1 @@
+php -d apc.enabled=1 -d apc.enable_cli=1 -r "require 'your_script.php';"

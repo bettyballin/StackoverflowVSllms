@@ -1,0 +1,1 @@
+SELECT e.* \nFROM Events e \nJOIN Friendships f ON e.user_id = f.friend_id \nWHERE f.user_id = ?  -- current user ID\nORDER BY e.created_at DESC \nLIMIT 10;  -- fetch 10 latest updates

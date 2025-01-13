@@ -1,0 +1,1 @@
+var groupIds = dataTable.AsEnumerable()\n                        .Select(row => row.Field<int>("GroupID"))\n                        .ToList();\n\n// Now you can assert on the list of groupIds\nAssert.AreEqual(expectedGroupIds, groupIds);

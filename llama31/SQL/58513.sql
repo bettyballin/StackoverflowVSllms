@@ -1,0 +1,1 @@
+CREATE INDEX idx_products_id ON products (id);\nCREATE INDEX idx_orderitems_product_id ON orderitems (product_id);\nCREATE INDEX idx_orders_id ON orders (id);\nCREATE INDEX idx_orders_paid ON orders (paid);

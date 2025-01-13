@@ -1,0 +1,1 @@
+sysdig -c topfiles_bytes -p $(pgrep php)\nsysdig -c topprocs_cpu -p $(pgrep php)

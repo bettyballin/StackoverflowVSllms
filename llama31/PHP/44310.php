@@ -1,0 +1,1 @@
+insert_info_requests($uid, $interests);

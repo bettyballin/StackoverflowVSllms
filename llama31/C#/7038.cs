@@ -1,0 +1,1 @@
+var result = SumOfDigits(17463); // result = 21

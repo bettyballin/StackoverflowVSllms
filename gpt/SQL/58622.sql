@@ -1,1 +1,0 @@
-CREATE TABLE Synsets (\n       synset_id INTEGER PRIMARY KEY,\n       pos CHAR(1),\n       definition TEXT\n   );\n\n   CREATE TABLE Words (\n       word_id INTEGER PRIMARY KEY,\n       lemma TEXT\n   );\n\n   CREATE TABLE Senses (\n       synset_id INTEGER,\n       word_id INTEGER,\n       sense_number INTEGER,\n       PRIMARY KEY (synset_id, word_id)\n   );

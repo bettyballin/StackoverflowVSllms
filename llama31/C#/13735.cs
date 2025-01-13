@@ -1,0 +1,1 @@
+public class B\n{\n    public B() { }\n    public B(int x) { }\n}\n\npublic class S : B\n{\n    public S(int x) : base(x) { }\n}

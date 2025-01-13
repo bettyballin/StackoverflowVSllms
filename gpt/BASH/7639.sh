@@ -1,1 +1,0 @@
-mysql -u username -p database_name < create_table.sql

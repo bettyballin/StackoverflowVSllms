@@ -1,0 +1,1 @@
+using System.Security.Permissions;\nusing System.Security.Principal;\n\n// ...\n\nstring groupName = "Users"; // or "Agents", "Approvers", etc.\nstring username = ServiceSecurityContext.Current.WindowsIdentity.Name;\n\nPrincipalPermission permission = new PrincipalPermission(null, groupName);\npermission.Demand();

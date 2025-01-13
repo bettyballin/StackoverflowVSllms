@@ -1,0 +1,1 @@
+using System.Management;\n\nstring userName = Environment.UserName;\nstring processName = "rdpclip";\n\nManagementObjectSearcher searcher = new ManagementObjectSearcher(\n    "SELECT * FROM Win32_Process WHERE Name = '" + processName + "' AND UserName = '" + userName + "'");\n\nforeach (ManagementObject item in searcher.Get())\n{\n    item.InvokeMethod("Terminate", null);\n}

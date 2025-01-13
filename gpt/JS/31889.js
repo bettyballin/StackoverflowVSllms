@@ -1,1 +1,0 @@
-$.post("", { message: msg }, function() {\n    // This function will be executed after the POST request is completed\n});

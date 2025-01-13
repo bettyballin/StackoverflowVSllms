@@ -1,0 +1,1 @@
+var xml = '<root><person><name>John</name><age>30</age></person></root>';\nvar xmlDoc = $.parseXML(xml);\nvar $xml = $(xmlDoc);\n\n$xml.find('person').each(function() {\n  console.log($(this).find('name').text()); // outputs "John"\n  console.log($(this).find('age').text()); // outputs "30"\n});

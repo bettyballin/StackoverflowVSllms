@@ -1,0 +1,1 @@
+$allowedModules = array('dashboard', 'settings', 'users');\n\nif (isset($_GET['page']) && in_array($_GET['page'], $allowedModules)) {\n    include 'zvfpcms-admin-' . $_GET['page'] . '.php';\n} else {\n    // Handle invalid or unauthorized requests\n}

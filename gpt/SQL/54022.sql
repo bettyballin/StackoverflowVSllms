@@ -1,1 +1,0 @@
-INSERT INTO `tableA` (`Col1`, `Col2`, `Timestamp`)\nSELECT `Col1`, `Col2`, NOW()\nFROM `tableB`\nWHERE `Col1` NOT IN (SELECT `Col1` FROM `tableA`);

@@ -1,0 +1,1 @@
+xdebug.profiler_enable();\n// your code here\nxdebug.profiler_disable();

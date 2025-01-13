@@ -1,1 +1,0 @@
-php myprog.php -a varA -b varB -c

@@ -1,0 +1,1 @@
+// C# example\nusing System.Threading;\n\n// Client-side code\nThread.CurrentThread.GetApartmentState() == ApartmentState.STA

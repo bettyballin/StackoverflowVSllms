@@ -1,0 +1,1 @@
+$request_uri = $_SERVER['REQUEST_URI'];\n$p = substr($request_uri, 1); // Remove leading slash\ninclude 'wp-blog-header.php';

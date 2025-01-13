@@ -1,1 +1,0 @@
-wget --spider -r -nd -nv -o wget-log.txt http://example.com\n     grep '404' wget-log.txt

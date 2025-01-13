@@ -1,0 +1,1 @@
+sudo chown -R lampp:lamppusers /path/to/your/project

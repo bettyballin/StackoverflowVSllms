@@ -1,1 +1,0 @@
-def my_random_method(self):\n    return self + 1\n\nint.my_random_method = my_random_method\n\nmy_int = 5\nprint(my_int.my_random_method())  # Output: 6

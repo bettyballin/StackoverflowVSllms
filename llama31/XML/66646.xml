@@ -1,0 +1,1 @@
+<action name="your-update-action" class="YourAction">\n    <result type="json">\n        <param name="root">statusValues</param>\n    </result>\n</action>

@@ -1,1 +1,0 @@
-SELECT \n    DATE_FORMAT(timestamp, '%Y-%m-%d %H:00:00') AS hour,\n    AVG(value) AS hourly_average\nFROM \n    your_table\nGROUP BY \n    DATE_FORMAT(timestamp, '%Y-%m-%d %H')\nORDER BY \n    hour;

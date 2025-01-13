@@ -1,0 +1,1 @@
+renderer->Foo::template drawVertices(4, RenPrimTriangleFan, material, vpc);

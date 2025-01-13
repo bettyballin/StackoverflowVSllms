@@ -1,1 +1,0 @@
-SELECT trigger_name \nFROM user_objects \nWHERE object_type = 'TRIGGER' \nAND status = 'INVALID';

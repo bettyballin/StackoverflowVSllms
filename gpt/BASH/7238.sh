@@ -1,1 +1,0 @@
-git log --follow -M new_file

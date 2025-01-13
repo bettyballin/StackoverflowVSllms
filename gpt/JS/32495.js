@@ -1,1 +1,0 @@
-var element = document.getElementById('yourElementId');\n   alert(element.textContent);

@@ -1,0 +1,1 @@
+$facebook->api_client->profile_setFBML(\n  null, // uid (user ID)\n  128009, // profile (user ID)\n  'profile', // profile type\n  null, // fbml_markup (no changes)\n  'mobile_profile', // profile_action (set to mobile profile)\n  'profile_main' // deprecated, same as profile\n);

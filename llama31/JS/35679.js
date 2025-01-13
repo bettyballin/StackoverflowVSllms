@@ -1,0 +1,1 @@
+so.addParam("allowScriptAccess","sameDomain");

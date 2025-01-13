@@ -1,0 +1,1 @@
+// Assume 'imageData' is the binary image data received from the AJAX response\nvar image = new Image();\nvar blob = new Blob([imageData], {type: 'image/jpeg'});\nvar url = URL.createObjectURL(blob);\nimage.src = url;

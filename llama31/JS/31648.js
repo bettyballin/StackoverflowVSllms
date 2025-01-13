@@ -1,0 +1,1 @@
+function findClosestElement(event) {\n  const clickedElement = event.target;\n  const closestElement = clickedElement.closest('#myId');\n  // manipulate closestElement's data here\n}\n\n// add event listener to element b\ndocument.querySelector('#b').addEventListener('click', findClosestElement);

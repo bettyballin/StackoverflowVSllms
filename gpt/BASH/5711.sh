@@ -1,1 +1,0 @@
-bin/cake bake controller YourModelName

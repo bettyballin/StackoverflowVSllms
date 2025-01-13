@@ -1,0 +1,1 @@
+$url = 'http://example.com/image.php';\n$newName = 'myFlower.jpg';\n\n$ch = curl_init($url);\ncurl_setopt($ch, CURLOPT_RETURNTRANSFER, true);\ncurl_setopt($ch, CURLOPT_BINARYTRANSFER, true);\n$raw = curl_exec($ch);\ncurl_close($ch);\n\nif(file_exists($newName)){\n    unlink($newName);\n}\n\n$fp = fopen($newName,'x');\nfwrite($fp, $raw);\nfclose($fp);

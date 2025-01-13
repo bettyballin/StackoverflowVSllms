@@ -1,1 +1,0 @@
--- Enable Full-Text Search on the database\nUSE YourDatabaseName;\nGO\nEXEC sp_fulltext_database 'enable';\nGO\n\n-- Add Full-Text Index on the Articles table\nCREATE FULLTEXT CATALOG ArticlesCatalog AS DEFAULT;\nGO\n\nCREATE FULLTEXT INDEX ON Articles(ArticleTitle, ArticleContent)\nKEY INDEX PK_Articles ON ArticlesCatalog;\nGO

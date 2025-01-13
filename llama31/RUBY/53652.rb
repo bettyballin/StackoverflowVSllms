@@ -1,0 +1,1 @@
+require 'sequel/model'\n\nDB = Sequel.connect('sqlite://example.db')\n\nclass User < Sequel::Model\n  one_to_many :orders\nend\n\nclass Order < Sequel::Model\n  many_to_one :user\nend\n\nuser = User.find(1)\nputs user.orders.map(&:total)

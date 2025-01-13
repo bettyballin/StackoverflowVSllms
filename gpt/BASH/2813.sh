@@ -1,1 +1,0 @@
-# Convert a raster image to SVG using an online tool or software like Inkscape\n    inkscape input.png --export-plain-svg=output.svg

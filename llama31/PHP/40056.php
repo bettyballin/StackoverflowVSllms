@@ -1,0 +1,1 @@
+function replaceSingleQuotes($data) {\n    return preg_replace("/'/", "&#39;", $data);\n}

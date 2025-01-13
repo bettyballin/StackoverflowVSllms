@@ -1,0 +1,1 @@
+$result = mysql_query($sql);\n$visits = array();\nwhile ($row = mysql_fetch_assoc($result)) {\n    $visits[] = array('hour' => $row['hour'], 'visits' => $row['visits']);\n}

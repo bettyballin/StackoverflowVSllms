@@ -1,0 +1,1 @@
+import openid\n\n# Create an OpenID consumer\nconsumer = openid.consumer.consumer.Consumer(session)\n\n# Start the OpenID authentication process\nauth_req = consumer.begin(openid_url)\n\n# Redirect the user to the OpenID provider\nreturn HttpResponseRedirect(auth_req.redirect_url)

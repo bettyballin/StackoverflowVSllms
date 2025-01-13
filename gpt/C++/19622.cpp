@@ -1,1 +1,0 @@
-// Example pseudo-code for a SOA-based camera control\n   // PanService\n   void panCamera(std::string cameraIP, std::string direction) {\n       // Implementation for panning the camera\n   }\n\n   // TiltService\n   void tiltCamera(std::string cameraIP, std::string direction) {\n       // Implementation for tilting the camera\n   }

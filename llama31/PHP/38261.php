@@ -1,0 +1,1 @@
+// Set session timeout to 1 hour\nini_set('session.gc_maxlifetime', 3600);

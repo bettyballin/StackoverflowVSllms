@@ -1,1 +1,0 @@
-syslog(LOG_INFO, 'This is a test log message.');

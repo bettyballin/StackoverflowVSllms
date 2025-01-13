@@ -1,1 +1,0 @@
-ALTER TABLE Dictionary\nADD CONSTRAINT PK_Dictionary PRIMARY KEY (ID, TYPE);

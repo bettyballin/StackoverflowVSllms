@@ -1,0 +1,1 @@
+string filter = "(objectClass=user)";

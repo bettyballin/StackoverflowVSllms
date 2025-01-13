@@ -1,0 +1,1 @@
+$date = new DateTime($row['date']);\necho $date->format("D F j");

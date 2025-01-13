@@ -1,0 +1,1 @@
+Console.WriteLine("Test: " & deck1.cards(2).face)

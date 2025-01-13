@@ -1,0 +1,1 @@
+ALTER TABLE subscriptions\nADD COLUMN search_query_id INT NULL,\nADD CONSTRAINT fk_search_query_id FOREIGN KEY (search_query_id) REFERENCES search_queries(id);

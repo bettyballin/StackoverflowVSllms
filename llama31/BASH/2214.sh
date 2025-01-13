@@ -1,0 +1,1 @@
+while IFS= read -r file; do\n  find . -type f -not -name "$file" -delete\ndone < list_files

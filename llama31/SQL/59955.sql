@@ -1,0 +1,1 @@
+CREATE TEMPORARY TABLE ordered_ids (id INT, order_index INT AUTO_INCREMENT);\n\nINSERT INTO ordered_ids (id)\nVALUES (1), (2), (3), (4), (5);\n\nSELECT t2.name, t2.description, ...\nFROM table2 t2\nJOIN ordered_ids t1 ON t2.id = t1.id\nORDER BY t1.order_index;

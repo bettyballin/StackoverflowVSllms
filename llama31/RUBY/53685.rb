@@ -1,0 +1,1 @@
+options = { :on => :create }\nvalidates_confirmation_of :password, :email_address, options

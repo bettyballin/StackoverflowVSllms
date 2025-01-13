@@ -1,1 +1,0 @@
-// example.h\n#ifdef _WIN32\n    #ifdef EXPORTING\n        #define DLL_EXPORT __declspec(dllexport)\n    #else\n        #define DLL_EXPORT __declspec(dllimport)\n    #endif\n#else\n    #define DLL_EXPORT\n#endif\n\nclass DLL_EXPORT MyClass {\npublic:\n    void myFunction();\n};

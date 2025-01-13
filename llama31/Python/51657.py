@@ -1,0 +1,1 @@
+import cloudinary\n\ncloudinary.uploader.upload('input.jpg', width=800, height=600)

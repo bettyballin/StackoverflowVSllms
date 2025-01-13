@@ -1,0 +1,1 @@
+ALTER SYSTEM SET wal_level = 'hot_standby';\nALTER SYSTEM SET archive_mode = 'on';\nALTER SYSTEM SET archive_command = 'test ! -f /var/lib/postgresql/9.5/main/archive/%f && cp %p /var/lib/postgresql/9.5/main/archive/%f';

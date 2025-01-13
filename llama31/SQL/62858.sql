@@ -1,0 +1,1 @@
+CREATE INDEX IX_Keywords_KeyId ON Keywords (KeyId);\nCREATE INDEX IX_Keywords_Keyword ON Keywords (Keyword);\nCREATE FULLTEXT INDEX ON Keywords (Keyword);

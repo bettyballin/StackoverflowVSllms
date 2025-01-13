@@ -1,0 +1,1 @@
+const xlsx = require('xlsx');\n\nconst file = 'path/to/your/excel/file.xlsx';\nconst workbook = xlsx.readFile(file);\nconst sheetName = workbook.SheetNames[0];\nconst data = xlsx.utils.sheet_to_json(workbook.Sheets[sheetName]);\n\nconsole.log(data);

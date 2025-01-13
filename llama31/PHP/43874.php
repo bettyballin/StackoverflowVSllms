@@ -1,0 +1,1 @@
+<?php\n// Get the username from the route parameters\n$username = $parts[1];\n\n// Fetch user data from the database or perform other logic\n// ...\n\n// Display the user profile\necho "Welcome, $username!";\n?>

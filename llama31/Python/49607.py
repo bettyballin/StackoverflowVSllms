@@ -1,0 +1,1 @@
+x = 4.0\nvari = [35.0, 21.0, 23.0]\nr = x / sum(vari)\nprint(r)  # approximately 0.050634

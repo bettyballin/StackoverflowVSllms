@@ -1,0 +1,1 @@
+string partialTitle = "Window Title";\nIntPtr handle = WindowHandleFinder.FindWindowHandle(partialTitle);\nif (handle != IntPtr.Zero)\n{\n    Console.WriteLine($"Found window handle: {handle}");\n}\nelse\n{\n    Console.WriteLine("Window not found.");\n}

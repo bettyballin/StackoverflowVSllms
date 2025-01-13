@@ -1,0 +1,1 @@
+using System.Net.Mail;\nusing System.Text;\n\npublic class EmailService\n{\n    public void SendEmail(string to, string subject, string body)\n    {\n        var mail = new MailMessage();\n        mail.To.Add(to);\n        mail.Subject = subject;\n        mail.Body = body;\n\n        using (var smtp = new SmtpClient())\n        {\n            smtp.Send(mail);\n        }\n    }\n}

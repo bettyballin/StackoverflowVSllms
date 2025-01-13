@@ -1,1 +1,0 @@
-var index = $("#tablename tr").length;\nvar newRow = '<tr>' +\n             '<td><input type="text" name="Items[' + index + '].Name" value="NewItem" /></td>' +\n             '<td><input type="number" name="Items[' + index + '].Quantity" value="0" /></td>' +\n             '</tr>';\n$("#tablename tr:last").after(newRow);

@@ -1,0 +1,1 @@
+[AcceptVerbs(HttpVerbs.Post)]\npublic ActionResult Transform(JsonObject data)\n{\n    bool isFoo = data["isFoo"].Value<bool>();\n    string bar = data["bar"].Value<string>();\n    // ...\n}

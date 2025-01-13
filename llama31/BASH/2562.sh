@@ -1,0 +1,1 @@
+g++ -o search_string search_string.cpp\n./search_string file.txt search_string 4

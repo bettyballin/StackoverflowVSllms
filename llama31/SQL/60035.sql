@@ -1,0 +1,1 @@
+-- Don't do this, it's unnecessary\nCREATE INDEX idx_id ON mytable (id);

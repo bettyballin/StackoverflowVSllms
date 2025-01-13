@@ -1,1 +1,0 @@
-identify -ping -format "%wx%h" image.jpg

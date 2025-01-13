@@ -1,0 +1,1 @@
+public function testLoadFile()\n{\n    $this->expectExceptionCode(E_USER_WARNING);\n    $result = load_file('/some/non-existent/file');\n    $this->assertWarning("file /some/non-existent/file does not exist");\n    $this->assertFalse($result);\n}

@@ -1,0 +1,1 @@
+using System.Diagnostics;\n\nclass MyClass\n{\n    public void MyMethod()\n    {\n        var stopwatch = Stopwatch.StartNew();\n        // code to be profiled\n        stopwatch.Stop();\n        Console.WriteLine($"MyMethod executed in {stopwatch.ElapsedMilliseconds}ms");\n    }\n}

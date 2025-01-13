@@ -1,1 +1,0 @@
-DELETE FROM Message WHERE person_id = (SELECT id FROM People WHERE name = 'John');

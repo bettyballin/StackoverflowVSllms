@@ -1,1 +1,0 @@
-SELECT\n    table_name,\n    column_name\nFROM\n    all_tab_columns\nWHERE\n    column_name = 'PROJECTID';

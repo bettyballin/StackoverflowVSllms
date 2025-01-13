@@ -1,0 +1,1 @@
+def f(n):\n    dp = [0]*(n+1)\n    dp[1] = 2\n    dp[2] = 3\n    for i in range(3, n+1):\n        dp[i] = dp[i-1] + dp[i-2]\n    return dp[n]

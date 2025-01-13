@@ -1,1 +1,0 @@
-#!/bin/bash\n# backup.sh - Create a database backup\n\nTIMESTAMP=$(date +"%F")\nBACKUP_DIR="/path/to/backups/$TIMESTAMP"\nMYSQL_USER="user"\nMYSQL_PASSWORD="password"\nMYSQL_DATABASE="database"\n\nmkdir -p "$BACKUP_DIR"\nmysqldump --user=$MYSQL_USER --password=$MYSQL_PASSWORD $MYSQL_DATABASE > "$BACKUP_DIR/database.sql"

@@ -1,0 +1,1 @@
+protected void Page_Init(object sender, EventArgs e)\n{\n    Request.ValidateRequestMode = ValidateRequestMode.Disabled;\n}

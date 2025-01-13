@@ -1,1 +1,0 @@
-SELECT * INTO OriginalDB.dbo.YourTable\n    FROM TempDB.dbo.YourTable;

@@ -1,1 +1,0 @@
-Public Sub SetCustomerData(customer As ICustomerData, name As String, address As String)\n    customer.Name = name\n    customer.Address = address\n    ' Set other properties here\nEnd Sub

@@ -1,0 +1,1 @@
+BEGIN\n    EXECUTE sproc1 WITH (ASYNC = ON);\n    EXECUTE sproc2 WITH (ASYNC = ON);\n    WAITFOR DELAY '00:00:01';  -- wait for 1 second\n    EXECUTE sproc3;\nEND;

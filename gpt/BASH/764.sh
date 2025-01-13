@@ -1,1 +1,0 @@
-gcc -o myprogram myprogram.c -Wl,-Bstatic -lc -Wl,-Bdynamic -lfontconfig

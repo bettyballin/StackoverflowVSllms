@@ -1,0 +1,1 @@
+CREATE TABLE documents_audit (\n  id INT,\n  document_id INT,\n  content TEXT,\n  created_at TIMESTAMP,\n  updated_at TIMESTAMP,\n  deleted_at TIMESTAMP,\n  changed_by VARCHAR(50),\n  operation VARCHAR(10)  -- 'INSERT', 'UPDATE', or 'DELETE'\n);

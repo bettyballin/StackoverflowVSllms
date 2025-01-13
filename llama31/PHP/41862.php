@@ -1,0 +1,1 @@
+$numbers = range(0, 9);\n$squares = array_map(function($x) { return $x**2; }, $numbers);\nprint_r($squares);

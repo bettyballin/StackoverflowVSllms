@@ -1,1 +1,0 @@
-using System.Runtime.InteropServices;\n\n   [Guid("ebc25cf6-9120-4283-b972-0e5520d0000E")]\n   [ComVisible(true)]\n   public enum MyEnum\n   {\n       Value1,\n       Value2,\n       Value3\n   }

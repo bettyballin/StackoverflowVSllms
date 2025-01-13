@@ -1,0 +1,1 @@
+if (XDocument.ViewContext == "View 2") {\n  // ignore validation\n}

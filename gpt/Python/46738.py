@@ -1,1 +1,0 @@
-# Euclidean distance heuristic for a grid\n     def heuristic(node, goal):\n         return ((node.x - goal.x) ** 2 + (node.y - goal.y) ** 2) ** 0.5

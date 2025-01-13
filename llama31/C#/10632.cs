@@ -1,0 +1,1 @@
+host.Operations.Add(new CustomOperationSelector());

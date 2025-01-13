@@ -1,0 +1,1 @@
+IF (@DateStart IS NOT NULL)\nBEGIN\n    SET @DateStart = DATEADD(dd, 0, DATEDIFF(dd, 0, @DateStart)) -- truncate time part\nEND\n\nIF (@DateEnd IS NOT NULL)\nBEGIN\n    SET @DateEnd = DATEADD(ms, -3, DATEADD(dd, 1, DATEDIFF(dd, 0, @DateEnd))) -- set to 23:59:59.997\nEND

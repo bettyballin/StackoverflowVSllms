@@ -1,0 +1,1 @@
+CREATE TABLE mytable (\n  table_identifier_a INTEGER,\n  table_identifier_b INTEGER,\n  table_value1 ...\n);\n\nCREATE UNIQUE INDEX unique_a_value1 ON mytable (table_identifier_a, table_value1)\nWHERE table_identifier_a IS NOT NULL;

@@ -1,0 +1,1 @@
+const encrypted = CryptoJS.RC4.encrypt("message", "secret key");\nconst decrypted = CryptoJS.RC4.decrypt(encrypted, "secret key").toString(CryptoJS.enc.Utf8);

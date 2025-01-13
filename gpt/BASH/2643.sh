@@ -1,1 +1,0 @@
-// Command Prompt\n   del /s /q /f C:\MyProject\Release\*\n   del /s /q /f C:\MyProject\Debug\*

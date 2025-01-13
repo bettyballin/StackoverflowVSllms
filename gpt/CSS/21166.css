@@ -1,1 +1,0 @@
-.selected {\n    width: 150px;\n    display: flex;\n}\n\n.selected .text {\n    background: url(dropdown_text.png);\n    flex-grow: 1;\n}\n\n.selected .arrow {\n    background: url(dropdown_arrow.png);\n    width: 22px;\n}

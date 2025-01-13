@@ -1,0 +1,1 @@
+SELECT a.objectId, a.time, a.x, a.y\nFROM Info a\nJOIN (\n  SELECT objectId, MAX(time) as max_time\n  FROM Info\n  GROUP BY objectId\n) b\nON a.objectId = b.objectId AND a.time = b.max_time;

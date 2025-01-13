@@ -1,0 +1,1 @@
+TypeValue operator*(const TypeValue& lhs, long rhs) const {\n    // implement the multiplication logic here\n}

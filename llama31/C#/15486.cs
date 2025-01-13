@@ -1,0 +1,1 @@
+var numbers = new[] { 1, 2, 3, 4, 5, 6 };\nvar evenNumbers = numbers.Where(n => n % 2 == 0);

@@ -1,0 +1,1 @@
+sc create MyService binPath= "C:\Path\To\MyService.exe" start= auto\nsc sdset MyService D:(A;;CCLCSWRPWPDTLOCRRC;;;SY)(A;;CCDCLCSWRPWPDTLOCRSDRCWDWO;;;BA)(A;;CCLCSWRPWPDTLOCRRC;;;IU)

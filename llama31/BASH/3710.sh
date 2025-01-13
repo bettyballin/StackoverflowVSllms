@@ -1,0 +1,1 @@
+iisreset /stop\ndel /q "C:\Windows\Microsoft.NET\Framework\v2.0.50727\Temporary ASP.NET Files\root\5c377e82\1f883022\*"\niisreset /start

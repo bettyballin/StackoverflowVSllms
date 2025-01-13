@@ -1,0 +1,1 @@
+'providers' => [\n    'wordpress' => [\n        'clientId' => 'your_client_id',\n        'clientSecret' => 'your_client_secret',\n        'authorizationUrl' => 'https://your-wordpress-site.com/oauth/authorize',\n        'tokenUrl' => 'https://your-wordpress-site.com/oauth/token',\n        'introspectionUrl' => 'https://your-wordpress-site.com/oauth/introspect',\n    ],\n],

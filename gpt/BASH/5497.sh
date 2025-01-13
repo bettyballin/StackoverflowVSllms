@@ -1,1 +1,0 @@
-cmd /c start /min perl C:\path\to\your_script.pl

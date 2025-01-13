@@ -1,1 +1,0 @@
-string path = Server.MapPath("~/Ads/test.jpg");\nFile.WriteAllText(path, "test");

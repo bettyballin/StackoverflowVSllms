@@ -1,0 +1,1 @@
+value.xpath("//div[contains(@id, 'eq-') and contains(@id, '_bl-#{my_bl}') and @class='foo']").first

@@ -1,1 +1,0 @@
-<Realm className="com.example.LdapJdbcRealm"\n       connectionURL="ldap://ldaphost:389"\n       resourceName="LDAP Auth"\n       userPattern="uid={0},ou=Portal,dc=example,dc=com"\n       dbConnectionURL="jdbc:oracle:thin:@oracledb:1521:dbname"\n       userTable="db_user" userNameCol="user_id"\n       userRoleTable="db_user_role_xref" roleNameCol="role_id" />

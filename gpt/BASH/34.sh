@@ -1,1 +1,0 @@
-sudo touch /etc/ssh/authorized_keys/ftpuser\n   sudo chown root:root /etc/ssh/authorized_keys/ftpuser\n   sudo chmod 600 /etc/ssh/authorized_keys/ftpuser

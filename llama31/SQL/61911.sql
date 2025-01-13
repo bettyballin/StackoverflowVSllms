@@ -1,0 +1,1 @@
+DELIMITER //\nCREATE TRIGGER limit_rows BEFORE INSERT ON downloads\nFOR EACH ROW\nBEGIN\n    IF (SELECT COUNT(*) FROM downloads) >= 10 THEN\n        DELETE FROM downloads ORDER BY date ASC LIMIT 1;\n    END IF;\nEND;//\nDELIMITER ;

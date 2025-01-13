@@ -1,0 +1,1 @@
+# In your view or API call, send a POST request to /students/:id/add_class or /students/:id/remove_class\n# For example, using jQuery:\n$.ajax({\n  type: 'POST',\n  url: '/students/' + student_id + '/add_class',\n  data: { class_id: class_id },\n  success: function() { console.log('Class added successfully'); }\n});

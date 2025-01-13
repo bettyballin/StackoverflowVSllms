@@ -1,0 +1,1 @@
+public static class DirectoryInfoExtensions\n{\n    public static FileInfo CreateFileInfo(this DirectoryInfo dir, string fileName)\n    {\n        return new FileInfo(Path.Combine(dir.FullName, fileName));\n    }\n}

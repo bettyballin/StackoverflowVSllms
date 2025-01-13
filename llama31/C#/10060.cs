@@ -1,0 +1,1 @@
+private static void DoTwo()\n{\n    List<int> A = new List<int>();\n    for (int i = 0; i < 200; i++) A.Add(i);\n    IList<int> L = A;\n    int s = 0;\n    for (int j = 0; j < 100000; j++)\n    {\n        List<int> concreteList = (List<int>)L; // cast to concrete class type\n        for (int c = 0; c < concreteList.Count; c++) s += concreteList[c];\n    }\n}

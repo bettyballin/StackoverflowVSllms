@@ -1,0 +1,1 @@
+$this->ci->load->library('unit_test');\n$this->ci->unit->run('Home', 'getDbUser', 'foo@gmail.com', 'password');

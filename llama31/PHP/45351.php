@@ -1,0 +1,1 @@
+function days_until($date)\n{\n    $datetime1 = new DateTime();\n    $datetime2 = new DateTime($date);\n\n    $interval = $datetime1->diff($datetime2);\n\n    return $interval->format('%a');\n}

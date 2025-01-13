@@ -1,0 +1,1 @@
+UPDATE X \nSET X_Value = 'O' \nWHERE X_ID IN (\n  SELECT X.X_ID \n  FROM X \n  INNER JOIN Y ON X.Y_ID_F = Y.Y_ID \n  WHERE Y.Y_Value = 'A'\n)

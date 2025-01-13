@@ -1,0 +1,1 @@
+ALTER SESSION SET NLS_SORT = 'BINARY_CI';\nSELECT teacher FROM classes WHERE class = 'math101'

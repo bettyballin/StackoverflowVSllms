@@ -1,0 +1,1 @@
+[TestMethod]\npublic void TestTransactionTimeout_Changed_Value_Is_Used()\n{\n    // Arrange\n    ConfigurationManager.AppSettings["TransactionTimeout"] = "4";\n\n    // Act\n    var transactionManager = new TransactionManager();\n\n    // Assert\n    Assert.AreEqual(TimeSpan.FromMinutes(4), transactionManager.Timeout);\n}

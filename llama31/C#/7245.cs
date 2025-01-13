@@ -1,0 +1,1 @@
+requiredValidator.ValidationGroup = "myValidationGroup";\nregexValidator.ValidationGroup = "myValidationGroup";

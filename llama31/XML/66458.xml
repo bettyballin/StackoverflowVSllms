@@ -1,0 +1,1 @@
+<context-param>\n  <param-name>decoratorMapper</param-name>\n  <param-value>com.example.CustomDecoratorMapper</param-value>\n</context-param>

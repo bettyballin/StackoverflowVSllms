@@ -1,0 +1,1 @@
+template <typename T>\nconcept ListLike = std::is_base_of_v<List, T>;\n\ntemplate <ListLike T>\nclass ObservableList {\n    /* ... */\n};

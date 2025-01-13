@@ -1,1 +1,0 @@
-public string TransactionType { get; private set; }

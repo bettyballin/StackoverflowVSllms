@@ -1,0 +1,1 @@
+-- Create an application role\nCREATE ROLE MyApplicationRole;\n\n-- Grant permissions to the application role\nGRANT EXECUTE ON MyStoredProc TO MyApplicationRole;\n\n-- In your application, activate the application role\nEXEC sp_setapprole 'MyApplicationRole', 'MyAppRolePassword';

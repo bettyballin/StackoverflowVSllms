@@ -1,0 +1,1 @@
+using Microsoft.Web.Administration;\n\nclass Program\n{\n    static void Main(string[] args)\n    {\n        using (ServerManager serverManager = new ServerManager())\n        {\n            ApplicationPool pool = serverManager.ApplicationPools["YourAppPoolName"];\n            pool.Recycle();\n        }\n    }\n}

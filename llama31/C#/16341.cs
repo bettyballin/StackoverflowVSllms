@@ -1,0 +1,1 @@
+public class Employee\n{\n    public string Id { get; set; }\n    public string Name { get; set; }\n    public string DepartmentId { get; set; }\n}

@@ -1,0 +1,1 @@
+$locale = $_SERVER['HTTP_ACCEPT_LANGUAGE'];\n$locale = explode(',', $locale);\n$locale = $locale[0]; // get the first language in the list\n\necho $locale; // outputs something like "en-US" or "en-GB"

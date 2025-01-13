@@ -1,1 +1,0 @@
-template<class T, T initial_t> \nclass Bar {\n  // something\n};\n\n// Define a static constant for null pointer\nstatic Foo* null_foo_ptr = 0;\n\n// Usage\nBar<Foo*, null_foo_ptr> foo_and_bar_whatever_it_means_;

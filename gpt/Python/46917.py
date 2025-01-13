@@ -1,1 +1,0 @@
-import requests\n\n   def test_get_endpoint():\n       response = requests.get('http://example.com/api/endpoint')\n       assert response.status_code == 200\n       assert response.json()['key'] == 'value'

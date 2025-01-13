@@ -1,0 +1,1 @@
+Form2 form2 = new Form2();\nform2.WindowState = FormWindowState.Normal;\nform2.Show();

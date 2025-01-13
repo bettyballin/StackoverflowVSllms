@@ -1,0 +1,1 @@
+$link = mysql_connect('localhost:/var/run/mysqld/mysqld.sock', 'username', 'password');

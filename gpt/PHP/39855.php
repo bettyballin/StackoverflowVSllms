@@ -1,1 +1,0 @@
-// Bootstrap.php\nclass Bootstrap extends Zend_Application_Bootstrap_Bootstrap\n{\n    protected function _initRequest()\n    {\n        $this->bootstrap('frontController');\n        $front = $this->getResource('frontController');\n        $front->setRequest(new CustomRequest());\n    }\n}

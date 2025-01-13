@@ -1,1 +1,0 @@
--- Replace RM_DB_Snapshot with your snapshot name\n   RESTORE DATABASE RM_DB\n   FROM DATABASE_SNAPSHOT = 'RM_DB_Snapshot';

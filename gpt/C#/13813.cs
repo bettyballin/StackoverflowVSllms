@@ -1,1 +1,0 @@
-public class Example {\n    // Good practice: Short and focused function\n    public int add(int a, int b) {\n        return a + b;\n    }\n\n    // Bad practice: Long and complex function (hypothetical example)\n    public void longFunction() {\n        // 600 lines of code doing multiple tasks...\n    }\n}

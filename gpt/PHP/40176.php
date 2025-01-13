@@ -1,1 +1,0 @@
-$autoload['config'] = array('my_config');

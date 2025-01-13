@@ -1,1 +1,0 @@
-$options = array(\n    'preserve-entities' => true,\n    // Include other options if needed\n);\n\n$input = '<td>&nbsp;</td>';\n$output = tidy_repair_string($input, $options, 'UTF8');\n\necho $output;

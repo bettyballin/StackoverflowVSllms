@@ -1,0 +1,1 @@
+# Create a tar archive\ntar -cf archive.tar files/\n\n# Compress the archive with gzip\ngzip archive.tar\n\n# The resulting file is archive.tar.gz

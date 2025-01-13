@@ -1,1 +1,0 @@
-ScriptManager.RegisterStartupScript(this, this.GetType(), "key", "alert('Hello from ScriptManager');", true);

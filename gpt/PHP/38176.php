@@ -1,1 +1,0 @@
-<?php\nsession_start();\n$foo = isset($_SESSION['foo']) ? $_SESSION['foo'] : 'default_value';\nheader("Location: /folder/$foo/file.png");\nexit;\n?>

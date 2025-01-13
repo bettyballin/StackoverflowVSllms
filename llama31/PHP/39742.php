@@ -1,0 +1,1 @@
+$db_user = 'your_username';\n$db_pass = 'your_password';\n$db_name = 'your_database';\n$db_host = 'localhost';\n\n$conn = new mysqli($db_host, $db_user, $db_pass, $db_name);\n\nif ($conn->connect_error) {\n    die("Connection failed: " . $conn->connect_error);\n}\necho "Connected successfully";\n$conn->close();

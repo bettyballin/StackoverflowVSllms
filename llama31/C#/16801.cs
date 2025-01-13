@@ -1,0 +1,1 @@
+using (DbCommand command = db.CreateCommand())\n{\n    // Use the command\n}

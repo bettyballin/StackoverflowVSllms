@@ -1,1 +1,0 @@
-echo "Test email body" | mail -s "Test email subject" your-email@gmail.com

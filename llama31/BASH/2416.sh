@@ -1,0 +1,1 @@
+curl -u username:password http://example.com

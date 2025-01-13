@@ -1,1 +1,0 @@
-using System.Diagnostics;\n\n// Initialize process\nvar prog = new Process();\nprog.StartInfo.FileName = exefile;\n\n// Set the working directory to the directory of the executable\nprog.StartInfo.WorkingDirectory = Path.GetDirectoryName(exefile);\n\n// Start the process\nprog.Start();\nprog.WaitForExit();

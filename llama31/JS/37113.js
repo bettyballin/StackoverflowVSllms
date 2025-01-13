@@ -1,0 +1,1 @@
+// front-end.js\nconst axios = require('axios');\n\nconst checkPermission = async (user, resource, action) => {\n  try {\n    const response = await axios.post('http://localhost:3001/check-permission', {\n      user,\n      resource,\n      action,\n    });\n    return response.data.permission;\n  } catch (error) {\n    console.error(error);\n    return false;\n  }\n};

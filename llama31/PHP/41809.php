@@ -1,0 +1,1 @@
+$userInput = $_POST['input'];\n$cart = array();\n\nif (is_numeric($userInput)) {\n    $cart[] = intval($userInput);\n} elseif (is_string($userInput)) {\n    $cart[] = htmlspecialchars($userInput);\n} else {\n    // handle error\n}

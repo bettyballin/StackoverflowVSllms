@@ -1,1 +1,0 @@
-yum install x11vnc\n   x11vnc -display :0

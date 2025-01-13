@@ -1,1 +1,0 @@
-chmod +x /path/to/your/backup_script.sh

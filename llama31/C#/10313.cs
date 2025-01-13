@@ -1,0 +1,1 @@
+var users = new SubSonic.Select()\n    .From<User>()\n    .InnerJoin<Usergroup>(u => u.Id, ug => ug.UserId)\n    .ExecuteTypedList<User>();\n\nvar groups = new SubSonic.Select()\n    .From<Usergroup>()\n    .InnerJoin<User>(ug => ug.Id, u => u.GroupId)\n    .ExecuteTypedList<Usergroup>();

@@ -1,0 +1,1 @@
+$.ajax({\n    type: 'POST',\n    url: '/user/edit-profile',\n    data: JSON.stringify($('#edit-profile-form').serializeArray()),\n    contentType: 'application/json',\n    success: function(response) {\n        if (response.errors) {\n            // Handle validation errors\n        } else {\n            // Handle success\n        }\n    }\n});

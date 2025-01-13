@@ -1,1 +1,0 @@
-/path/to/gc_patched_ruby/bin/gem install bundler

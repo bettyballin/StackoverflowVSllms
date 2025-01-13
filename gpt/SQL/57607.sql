@@ -1,1 +1,0 @@
-SELECT name \nFROM aggregations \nWHERE element IN (2, 3, 5)\nGROUP BY name \nHAVING COUNT(DISTINCT element) = 3 AND\n       COUNT(DISTINCT CASE WHEN element NOT IN (2, 3, 5) THEN element END) = 0;

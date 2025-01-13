@@ -1,0 +1,1 @@
+<?php\n$file = 'example.txt';\n$uid = posix_getuid();\n$gid = posix_getgid();\n\n$fp = fopen($file, 'w');\nfwrite($fp, 'Hello, World!');\nfclose($fp);\n\nchown($file, $uid);\nchgrp($file, $gid);\n?>

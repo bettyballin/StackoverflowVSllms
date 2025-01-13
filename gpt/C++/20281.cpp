@@ -1,1 +1,0 @@
-template <class T>\nclass Something\n{\n    public:\n        Something(const T &something);\n};

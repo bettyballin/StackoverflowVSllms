@@ -1,1 +1,0 @@
-string connectionString = "User Id=myUsername;Password=myPassword;Data Source=myOracleDB;Pooling=true;";

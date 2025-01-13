@@ -1,1 +1,0 @@
-Dim xml As String = "<xml>" & vbCrLf &\n                    "  <author>Joe the Magnificent</author>" & vbCrLf &\n                    "  <title>Joe Goes Home</title>" & vbCrLf &\n                    "</xml>"

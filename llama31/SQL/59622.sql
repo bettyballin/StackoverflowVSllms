@@ -1,0 +1,1 @@
+SELECT \n  CASE \n    WHEN EXISTS (\n      SELECT 1 \n      FROM your_table \n      WHERE \n        (new_range_start, new_range_end) OVERLAPS (range_start, range_end)\n    ) THEN 'IN LIST'\n    ELSE 'NOT IN LIST'\n  END AS result

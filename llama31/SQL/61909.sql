@@ -1,0 +1,1 @@
+create table anwser_bank\n(\n    anwser_id           uniqueidentifier primary key,\n    anwser_question_id  uniqueidentifier,\n    anwser_text         varchar(1024),\n    anwser_is_correct   bit,\n    constraint FK_anwser_bank_question_bank foreign key (anwser_question_id) references question_bank(question_id)\n);

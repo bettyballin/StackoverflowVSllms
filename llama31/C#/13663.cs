@@ -1,0 +1,1 @@
+public class MyClass {\n    public byte[] MyByteArray { get; set; }\n}

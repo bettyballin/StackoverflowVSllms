@@ -1,0 +1,1 @@
+using System.Security.Permissions;\n\n[assembly: SecurityPermission(SecurityAction.RequestMinimum, Execution = true, UnmanagedCode = true)]

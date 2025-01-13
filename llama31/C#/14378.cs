@@ -1,0 +1,1 @@
+using System.Net.Mail;\n\n// Create a new MailMessage\nMailMessage message = new MailMessage("from@example.com", "to@example.com", "Subject", "Body");\n\n// Add an attachment\nAttachment attachment = new Attachment("path/to/attachment");\nmessage.Attachments.Add(attachment);\n\n// Save the message as an EML file\nmessage.Save("path/to/save/email.eml");

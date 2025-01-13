@@ -1,1 +1,0 @@
-string query = "SELECT * FROM MyTable WHERE column = '" + userInput + "'";

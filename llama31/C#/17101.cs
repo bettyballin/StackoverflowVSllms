@@ -1,0 +1,1 @@
+SqlFunctions.DateAdd("dd", 2, SqlFunctions.GetDate())

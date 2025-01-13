@@ -1,1 +1,0 @@
-<!DOCTYPE hibernate-reverse-engineering PUBLIC\n      "-//Hibernate/Hibernate Reverse Engineering DTD 3.0//EN"\n      "http://hibernate.sourceforge.net/hibernate-reverse-engineering-3.0.dtd">\n<hibernate-reverse-engineering>\n    <schema-selection match-catalog="YOUR_DATABASE_NAME"/>\n    <table-filter match-name="YOUR_TABLE_NAME"/>\n</hibernate-reverse-engineering>

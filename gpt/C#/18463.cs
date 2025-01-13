@@ -1,1 +1,0 @@
-GridView1.DataSource = dataList;\nGridView1.DataBind();

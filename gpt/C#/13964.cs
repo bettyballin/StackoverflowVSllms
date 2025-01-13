@@ -1,1 +1,0 @@
-var app = (Word.Application)Activator.CreateInstance(Type.GetTypeFromCLSID(new Guid("000209FF-0000-0000-C000-000000000046")));

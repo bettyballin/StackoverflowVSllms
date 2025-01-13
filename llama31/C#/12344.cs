@@ -1,0 +1,1 @@
+public interface ICurrentUser\n{\n    string Username { get; }\n}

@@ -1,0 +1,1 @@
+avigator.clipboard.writeText('Your text here').then(() => {\n  console.log('Text copied to clipboard');\n});

@@ -1,1 +1,0 @@
-# Generate a Java client library\n     openapi-generator-cli generate -i api-spec.yaml -g java -o /output/java-client\n    \n     # Generate a C# client library\n     openapi-generator-cli generate -i api-spec.yaml -g csharp -o /output/csharp-client

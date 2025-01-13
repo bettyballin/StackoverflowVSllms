@@ -1,0 +1,1 @@
+// Audit and UserMgmt\nnamespace SecurityContext\n{\n    // EDMX or DBML file for security-related entities\n}\n\n// Human Resource\nnamespace HrContext\n{\n    // EDMX or DBML file for HR-related entities\n}\n\n// Sales\nnamespace SalesContext\n{\n    // EDMX or DBML file for sales-related entities\n}

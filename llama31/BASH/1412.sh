@@ -1,0 +1,1 @@
+#!/bin/bash\n\n# MySQL database backup\nmysqldump -u [username] -p[password] [database_name] > backup.sql\n\n# PHP site backup\ntar -czf backup.tar.gz /path/to/php/site\n\n# Upload to remote FTP\nlftp -u [ftp_username],[ftp_password] [ftp_host] << EOF\nput backup.sql\nput backup.tar.gz\nEOF

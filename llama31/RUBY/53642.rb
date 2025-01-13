@@ -1,0 +1,1 @@
+imap = Net::IMAP.new('mail.xks.com')\nimap.login('web1_xk3', 'pxx2006')\nimap.select('INBOX')\n\nimap.search(["SENTSINCE", (Time.now-1.day).strftime("%d-%b-%Y")]).each do |msgid|\n  body = imap.fetch(msgid, "BODY[TEXT]")[0].attr["BODY[TEXT]"]\n  text = body.value\n  # text is the body text of the email\nend

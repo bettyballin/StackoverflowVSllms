@@ -1,1 +1,0 @@
-# Decrypt a file\nwith open('path/to/encrypted_file.gpg', 'rb') as f:\n    status = gpg.decrypt_file(\n        f, passphrase='your_passphrase', output='path/to/decrypted_file.txt'\n    )\n\n# Check if decryption was successful\nprint(f'Decryption successful: {status.ok}')\nprint(f'Status: {status.status}')\nprint(f'Stderr: {status.stderr}')

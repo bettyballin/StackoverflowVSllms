@@ -1,1 +1,0 @@
-antlr4 -Dlanguage=CSharp Rules.g4 -o Generated

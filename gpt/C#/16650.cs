@@ -1,1 +1,0 @@
-DateTime? closedDate = null;\n\nif (!row.IsNull("Closed_Date"))\n{\n    closedDate = row.Field<DateTime>("Closed_Date");\n}\n\n// Now you can safely use closedDate, which will be null if the field was DBNull

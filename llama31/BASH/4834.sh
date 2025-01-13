@@ -1,0 +1,1 @@
+winhttpcertcfg -g -c LOCAL_MACHINE\My -s "MyCertificate" -a "Network Service"

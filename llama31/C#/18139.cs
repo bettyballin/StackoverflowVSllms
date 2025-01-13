@@ -1,0 +1,1 @@
+Environment.SetEnvironmentVariable("TNS_ADMIN", @"C:\Path\To\TNS\Files");

@@ -1,0 +1,1 @@
+bool isElevated = Process.GetCurrentProcess().IsElevated;

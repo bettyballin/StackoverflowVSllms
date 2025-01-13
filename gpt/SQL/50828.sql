@@ -1,1 +1,0 @@
-CREATE TRIGGER trg_Dimension_Update\nON DimensionTable\nFOR UPDATE\nAS\nBEGIN\n    UPDATE FactTable\n    SET source_id = inserted.id\n    FROM FactTable, inserted, deleted\n    WHERE FactTable.source_id = deleted.id;\n\n    UPDATE FactTable\n    SET target_id = inserted.id\n    FROM FactTable, inserted, deleted\n    WHERE FactTable.target_id = deleted.id;\nEND;

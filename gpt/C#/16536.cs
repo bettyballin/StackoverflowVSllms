@@ -1,1 +1,0 @@
-WebRequest request = WebRequest.Create("https://example.com");\nrequest.Proxy = new WebProxy("http://yourproxy:port", true);\nrequest.Credentials = new NetworkCredential("username", "password");

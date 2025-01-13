@@ -1,1 +1,0 @@
-DECLARE @ptrval binary(16)\nSELECT @ptrval = TEXTPTR(fieldname)\nFROM tablename\nWHERE <condition>\n\nUPDATETEXT tablename.fieldname @ptrval NULL 0 'appended string'

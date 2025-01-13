@@ -1,1 +1,0 @@
-class Album < ApplicationRecord\n  def self.find_albums_with_feature(feature_id)\n    where("id IN (SELECT album_id FROM albums_features WHERE feature_id = ?)", feature_id)\n  end\nend

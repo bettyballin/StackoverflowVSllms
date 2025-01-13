@@ -1,0 +1,1 @@
+xml2ddl -xsd hmsdatablad.xsd -dialect mysql

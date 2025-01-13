@@ -1,0 +1,1 @@
+[WebMethod]\npublic static string GetSessionData(string key)\n{\n    return HttpContext.Current.Session[key].ToString();\n}

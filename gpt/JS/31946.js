@@ -1,1 +1,0 @@
-$.getJSON("json/test.json", function(data) {\n    alert(data[0].test);\n});

@@ -1,0 +1,1 @@
+Disk2Vhd.exe -f floppy_image.vhd -d A:

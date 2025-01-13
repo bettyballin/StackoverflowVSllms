@@ -1,0 +1,1 @@
+# app/controllers/users_controller.rb\nclass UsersController < ApplicationController\n  def upcoming_birthdays\n    @upcoming_birthdays = User.upcoming_birthdays.limit(5)\n  end\nend

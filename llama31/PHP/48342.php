@@ -1,0 +1,1 @@
+// Check if the file is writable\nif (is_writable('.htaccess')) {\n    $new_rewrite_rule = "\nRewriteRule ^new-category$ index.php?category_id=123&category_name=new-category [L]";\n    file_put_contents('.htaccess', $new_rewrite_rule, FILE_APPEND);\n    echo "New rewrite rule added to .htaccess";\n} else {\n    echo ".htaccess file is not writable";\n}

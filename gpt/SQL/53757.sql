@@ -1,1 +1,0 @@
-CREATE TABLE Config (\n        config_name VARCHAR(255),\n        config_value INT\n    );\n\n    INSERT INTO Config (config_name, config_value) VALUES ('NoValue1', 1234), ('NoValue2', 1235);

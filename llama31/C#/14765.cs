@@ -1,0 +1,1 @@
+public override bool Equals(object obj)\n{\n    if (obj == null || GetType() != obj.GetType())\n        return false;\n\n    CustomDataObject other = (CustomDataObject)obj;\n    return Id == other.Id && Name == other.Name;\n}

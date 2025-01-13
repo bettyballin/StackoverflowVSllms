@@ -1,1 +1,0 @@
-date_default_timezone_set('Europe/London'); // Replace with your desired timezone

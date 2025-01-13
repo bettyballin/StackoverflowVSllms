@@ -1,1 +1,0 @@
-# Step 1: Clear Temporary ASP.NET Files\ndel /s /q "C:\Windows\Microsoft.NET\Framework\v2.0.50727\Temporary ASP.NET Files\*"\n\n# Step 2: Recycle Application Pool\niisreset /restart

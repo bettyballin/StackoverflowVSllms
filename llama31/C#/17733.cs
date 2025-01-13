@@ -1,0 +1,1 @@
+string script = SqlServices.GenerateApplicationServicesScripts(true, SqlFeatures.All, _connection.Database);\n\nSqlHelper.ExecuteScript(transaction, script);

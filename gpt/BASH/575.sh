@@ -1,1 +1,0 @@
-magick convert -append page_*.png GLOSS_combined.png

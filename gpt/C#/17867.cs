@@ -1,1 +1,0 @@
-private void Button1_Click(object sender, EventArgs e)\n{\n    Panel uc = new Panel();\n    // Ensure to dispose of the control explicitly when done\n    uc.Dispose();\n    GC.Collect();\n    GC.WaitForPendingFinalizers();\n}

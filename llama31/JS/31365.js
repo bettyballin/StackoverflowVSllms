@@ -1,0 +1,1 @@
+toastr.success('You have new messages!');

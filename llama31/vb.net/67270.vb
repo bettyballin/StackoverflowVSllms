@@ -1,0 +1,1 @@
+b = exSheet.Cells(3, 3).Text

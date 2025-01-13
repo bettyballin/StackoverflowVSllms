@@ -1,0 +1,1 @@
+function validateNum() {\n    var numField = document.getElementById('Num');\n    if (!_CF_checkinteger(numField.value, true)) {\n        _CF_onErrorAlert(new Array('Invalid Value'));\n        return false;\n    }\n    if (!_CF_checkrange(numField.value, 0.0, 1000.0, true)) {\n        _CF_onErrorAlert(new Array('Invalid Value'));\n        return false;\n    }\n    return true;\n}

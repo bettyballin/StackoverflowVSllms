@@ -1,0 +1,1 @@
+// Example of a simple ASP.NET Core "Hello World" application\nusing Microsoft.AspNetCore;\n\npublic class Startup\n{\n    public void Configure(IApplicationBuilder app)\n    {\n        app.Run(async context =>\n        {\n            await context.Response.WriteAsync("Hello, World!");\n        });\n    }\n}

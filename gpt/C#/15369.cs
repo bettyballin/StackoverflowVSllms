@@ -1,1 +1,0 @@
-object value = "123";\nint result = (int)Convert.ChangeType(value, typeof(int));

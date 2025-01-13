@@ -1,0 +1,1 @@
+import subprocess\n\ndef get_fonts(pdf_file):\n    output = subprocess.check_output(["pdffonts", "-f", pdf_file])\n    return output.decode("utf-8")\n\nprint(get_fonts("your_document.pdf"))

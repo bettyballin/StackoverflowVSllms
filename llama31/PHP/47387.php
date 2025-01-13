@@ -1,0 +1,1 @@
+$uploader->addParam('session_id', session_id());

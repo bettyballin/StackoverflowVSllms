@@ -1,0 +1,1 @@
+<Extension()> _\nPublic Sub DoSomethingGeneric(Of T)(ByVal myGenericObj As MyGen(Of T))\n\nEnd Sub

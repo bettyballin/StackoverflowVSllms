@@ -1,1 +1,0 @@
--- Get the estimated execution plan\n   SET SHOWPLAN_XML ON;\n   EXEC YourStoredProcedure;\n   SET SHOWPLAN_XML OFF;

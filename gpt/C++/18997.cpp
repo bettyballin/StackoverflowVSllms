@@ -1,1 +1,0 @@
-class DLL_EXPORT FontManager {\n   private:\n       struct Impl;\n       Impl* pImpl;\n\n   public:\n       FontManager();\n       ~FontManager();\n\n       void addFont(const std::string& name, const tFontInfoRef& fontInfo);\n       tFontInfoRef getFont(const std::string& name) const;\n   };

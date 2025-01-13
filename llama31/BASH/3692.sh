@@ -1,0 +1,1 @@
+#!/bin/bash\n\n# Connect to VPN\npptp <vpn_server> -u <username> -p <password> -n <vpn_name>\n\n# Perform tasks that require VPN connection\n# ...\n\n# Disconnect from VPN\nkillall pppd

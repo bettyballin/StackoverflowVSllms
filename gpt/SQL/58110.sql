@@ -1,1 +1,0 @@
-CREATE FUNCTION dbo.GetNextSequenceValue()\nRETURNS BIGINT\nAS\nBEGIN\n    RETURN NEXT VALUE FOR MySequence;\nEND;

@@ -1,0 +1,1 @@
+$('#left').append(" <span><a href='#' id='dontclick1'>Don't click.</a></span>");\n\n$('#left span').on('click', 'a', function () {\n    var id = $(this).attr('id');\n    var nextId = id.replace(/(\d+)$/, function (match, p1) {\n        return parseInt(p1, 10) + 1;\n    });\n    $(this).parent().html("<a href='#' id='" + nextId + "'>Next message</a>");\n    return false;\n});

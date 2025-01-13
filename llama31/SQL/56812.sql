@@ -1,0 +1,1 @@
+ALTER TABLE dbo.city\nDROP CONSTRAINT fk_city_country

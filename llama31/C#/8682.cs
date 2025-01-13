@@ -1,0 +1,1 @@
+MyClass["myKey"] = "myValue";\nobject value = MyClass["myKey"];

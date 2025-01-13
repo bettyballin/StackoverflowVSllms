@@ -1,1 +1,0 @@
-DataSet dataSet = new DataSet();\n// Load or create your DataSet\n\n// Set captions for the columns\ndataSet.Tables["MyTable"].Columns["Column1"].Caption = "User Friendly Column 1";\ndataSet.Tables["MyTable"].Columns["Column2"].Caption = "User Friendly Column 2";\n\n// Bind the DataSet to your Infragistics grid\nultraGrid.DataSource = dataSet;

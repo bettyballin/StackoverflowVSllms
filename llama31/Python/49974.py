@@ -1,0 +1,1 @@
+photos = [(np.datetime64('2009-01-02'), 'photo1'), (np.datetime64('2009-01-03'), 'photo2'), ...]\nclusters = temporal_dbscan(photos, epsilon=1.0, min_samples=5, time_tolerance=2.0)

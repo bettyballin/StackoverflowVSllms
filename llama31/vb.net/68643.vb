@@ -1,0 +1,1 @@
+Imports System.Text.RegularExpressions\n\nDim input As String = "##RES00012##Some value ##RES00034##Another value"\nDim pattern As String = "(##RES[^#]+##)"\nDim matches As MatchCollection = Regex.Split(input, pattern)\n\nFor Each match As String In matches\n    If match.StartsWith("##RES") Then\n        Console.WriteLine(match)\n    End If\nNext

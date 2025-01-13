@@ -1,1 +1,0 @@
-#!/bin/bash\n\n   # Start Xvfb on display :99\n   Xvfb :99 -screen 0 1024x768x16 &\n\n   # Export the DISPLAY environment variable\n   export DISPLAY=:99\n\n   # Run your Java application\n   java -jar your-java-app.jar\n\n   # Kill Xvfb after your application exits\n   kill %1

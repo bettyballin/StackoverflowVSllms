@@ -1,0 +1,1 @@
+function replaceTagsInFile($filePath, $data) {\n    $content = file_get_contents($filePath);\n    foreach ($data as $tag => $value) {\n        $content = str_replace($tag, $value, $content);\n    }\n    return $content;\n}\n\n// usage:\n$data = array('%fullname%' => 'Joe Bloggs');\necho replaceTagsInFile('email.html', $data);

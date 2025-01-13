@@ -1,1 +1,0 @@
-sed -e 's/.*/& :{\$row[\x27&\x27]} <br>/' inputfile.txt

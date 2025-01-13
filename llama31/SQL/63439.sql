@@ -1,0 +1,1 @@
+DECLARE @deletedData nvarchar(max)\n\nSET @deletedData = (\n    SELECT * \n    FROM Deleted \n    FOR XML PATH(''), ELEMENTS, TYPE\n).value('.','nvarchar(max)')\n\nINSERT INTO LoggingTable (Timestamp, DeletedData)\nVALUES (GETDATE(), @deletedData)

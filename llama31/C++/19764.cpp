@@ -1,0 +1,1 @@
+std::list<Point> getPointsInRadius(int x, int y, int radius, const std::list<Point>& pointList) {\n    std::list<Point> result;\n    for (const auto& point : pointList) {\n        if (distance(x, y, point.x, point.y) <= radius * radius) {\n            result.push_back(point);\n        }\n    }\n    return result;\n}

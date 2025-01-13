@@ -1,1 +1,0 @@
-INSERT INTO OriginalTable\n   SELECT * FROM UnpartitionedTable;

@@ -1,1 +1,0 @@
-private void StartAnalysis()\n{\n    cts = new CancellationTokenSource();\n    analisisManagerController.MakePadrobAnalisis(tipoAnalisis, parametros, cts.Token);\n}

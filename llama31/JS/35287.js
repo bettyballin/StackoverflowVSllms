@@ -1,0 +1,1 @@
+var file = $('#file')[0].files[0];\nvar reader = new FileReader();\nreader.onload = function(event) {\n  var fileName = file.name;\n  // You can now use the file name as needed\n};\nreader.readAsDataURL(file);

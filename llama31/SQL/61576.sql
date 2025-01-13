@@ -1,0 +1,1 @@
+CREATE PROCEDURE MyStoredProcedure\nAS\nBEGIN\n    SET XACT_ABORT ON;\n\n    BEGIN TRANSACTION;\n\n    -- Perform operations here\n\n    COMMIT TRANSACTION;\nEND;

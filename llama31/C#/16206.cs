@@ -1,0 +1,1 @@
+[EnableSession(true)]\npublic partial class MySearchPage : System.Web.UI.Page\n{\n    // ...\n}

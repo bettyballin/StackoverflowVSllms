@@ -1,0 +1,1 @@
+const uuid = require('uuid');\n\nconsole.log(uuid.v4());

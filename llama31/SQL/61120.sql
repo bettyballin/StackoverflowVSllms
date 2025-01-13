@@ -1,0 +1,1 @@
+DECLARE @s VARCHAR(10) = '00001A'\nSELECT SUBSTRING(@s, PATINDEX('%[^0]%', @s), LEN(@s))

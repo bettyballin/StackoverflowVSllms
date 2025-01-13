@@ -1,1 +1,0 @@
-// Default.aspx.cs\nusing System.Web.Services;\n\npublic partial class Default : System.Web.UI.Page\n{\n    [WebMethod]\n    public static string YourMethodName()\n    {\n        return "Hello from PageMethod!";\n    }\n}

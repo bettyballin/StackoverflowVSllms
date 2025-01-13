@@ -1,1 +1,0 @@
-php send_emails.php

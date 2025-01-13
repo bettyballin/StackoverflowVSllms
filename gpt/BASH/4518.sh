@@ -1,1 +1,0 @@
-gcc -o count_packets count_packets.c -lpcap

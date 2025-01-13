@@ -1,0 +1,1 @@
+UPDATE B\nSET B.Amount = B.Amount + A.People\nFROM DB2.TableB B\nINNER JOIN DB1.TableA A ON B.UserId = A.UserId;

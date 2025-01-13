@@ -1,0 +1,1 @@
+from flask import make_response\n\n@app.after_request\ndef add_header(response):\n    response.headers['X-Frame-Options'] = 'SAMEORIGIN'\n    return response

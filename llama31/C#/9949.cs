@@ -1,0 +1,1 @@
+protected override void OnPreRender(EventArgs e)\n{\n    base.OnPreRender(e);\n    ClientScript.RegisterStartupScript(GetType(), Guid.NewGuid().ToString(), script, true);\n}

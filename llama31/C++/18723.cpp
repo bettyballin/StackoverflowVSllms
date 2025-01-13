@@ -1,0 +1,1 @@
+void __attribute__((used)) neverCalled() {\n  Foo<int> f(1);\n}

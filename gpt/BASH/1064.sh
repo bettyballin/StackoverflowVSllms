@@ -1,1 +1,0 @@
-chmod 0777 /path/to/containingfolder

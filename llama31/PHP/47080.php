@@ -1,0 +1,1 @@
+$pdo = new PDO('mysql:host=host;dbname=database', 'user', 'password');\n\n$stmt = $pdo->query('SELECT * FROM table');\n\nwhile ($row = $stmt->fetch(PDO::FETCH_ASSOC)) {\n    $pdo->setAttribute(PDO::ATTR_STRINGIFY_FETCHES, false);\n    // $row now contains ints and datetime strings (not objects)\n}

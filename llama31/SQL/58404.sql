@@ -1,0 +1,1 @@
+RESTORE LOG MyDatabase\n   FROM DISK = 'MyDatabase.bak'\n   WITH RECOVERY, MOVE 'MyDatabase_log' TO 'C:\Program Files\Microsoft SQL Server\MSSQL.1\MSSQL\DATA\MyDatabase_log.LDF'

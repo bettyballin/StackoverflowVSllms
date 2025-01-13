@@ -1,0 +1,1 @@
+var tmpCNoteID = Guid.Parse(dr["CaseNoteID"].ToString());\nvar childRows = cNoteDT.AsEnumerable().Where(row => row.Field<Guid>("ParentNote") == tmpCNoteID).ToArray();

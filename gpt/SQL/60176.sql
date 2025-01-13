@@ -1,1 +1,0 @@
-SELECT \n    Date,\n    StudentName AS Student,\n    RANK() OVER (PARTITION BY Date ORDER BY Score DESC) AS Rank\nFROM \n    Students\nORDER BY \n    Date, Rank;

@@ -1,1 +1,0 @@
-gcc -o slp_example slp_example.c -l slp

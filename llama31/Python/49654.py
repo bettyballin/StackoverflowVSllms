@@ -1,0 +1,1 @@
+from django.shortcuts import redirect\n\ndef my_view(request):\n    # Your code here\n    return redirect('https://www.example.com')

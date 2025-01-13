@@ -1,1 +1,0 @@
-* * * * * flock -n /path_to_file/convert.lock php /path_to_file/convert.php

@@ -1,1 +1,0 @@
-ALTER TABLE person_new RENAME TO person;

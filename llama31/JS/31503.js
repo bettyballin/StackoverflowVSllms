@@ -1,0 +1,1 @@
+const hostname = window.location.hostname;\nconst subdomain = hostname.replace(/([^.]+)\.(?=.*\..*$)/, '$1');\n\nconsole.log(subdomain); // outputs "sample"

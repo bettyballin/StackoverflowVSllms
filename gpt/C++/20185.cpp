@@ -1,1 +1,0 @@
-#include <fstream>\n#include <sstream>\n\nstd::string file_contents(const std::string& file_path) {\n    std::ifstream file(file_path);\n    return std::string((std::istreambuf_iterator<char>(file)), std::istreambuf_iterator<char>());\n}

@@ -1,0 +1,1 @@
+# app/controllers/users_controller.rb\n\ndef create\n  @user = User.new(user_params)\n\n  if @user.save\n    # Success, return 201 Created\n    render json: @user, status: :created\n  else\n    # Validation failed, render new action with form data\n    render :new, status: :unprocessable_entity\n  end\nend

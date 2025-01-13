@@ -1,1 +1,0 @@
-use Cake\Http\Exception\ForbiddenException;\n\npublic function someMethod() {\n    if (!$this->isAuthorized($user)) {\n        throw new ForbiddenException(__('You are not authorized to access this data.'));\n    }\n\n    // Continue with the rest of the method\n}

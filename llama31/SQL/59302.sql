@@ -1,0 +1,1 @@
+CREATE TABLE orders (\n  id INT PRIMARY KEY\n);\n\nCREATE TABLE customers (\n  id INT PRIMARY KEY,\n  name VARCHAR(255)\n);\n\nCREATE TABLE order_customers (\n  order_id INT,\n  customer_id INT,\n  PRIMARY KEY (order_id, customer_id),\n  FOREIGN KEY (order_id) REFERENCES orders(id),\n  FOREIGN KEY (customer_id) REFERENCES customers(id)\n);

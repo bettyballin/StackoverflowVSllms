@@ -1,1 +1,0 @@
-from collections import Counter\n\ndata = [0, 1, 1, 2, 2]\ncounter = Counter(data)\nresult = [item for item in data if counter[item] == 1]\n\nprint(result)  # Output: [0]

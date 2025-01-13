@@ -1,0 +1,1 @@
+.showMore {\n    display: inline;\n    zoom: 1;\n    height: 16px; /* or more, depending on the icon size */\n    color: #0E4B82;\n    padding-left: 18px;\n    background: url("images/icons/add.png") no-repeat 0px 0px;\n}

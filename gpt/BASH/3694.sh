@@ -1,1 +1,0 @@
-makecert -r -pe -n "CN=YourName" -b 01/01/2023 -e 01/01/2033 -eku 1.3.6.1.5.5.7.3.3 -sv MyPrivateKey.pvk MyCertificate.cer

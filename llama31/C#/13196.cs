@@ -1,0 +1,1 @@
+int sumFirstThree = intList.GetRange(0, 3).Sum();\nint sumLastThree = intList.GetRange(3, 3).Sum();

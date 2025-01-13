@@ -1,0 +1,1 @@
+// get address of depends function\nFARPROC pDepends = GetProcAddress(hModule, "depends");\n\n// call depends function to get list of dependencies\nchar** dependencies = (char**)pDepends();

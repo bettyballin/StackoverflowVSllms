@@ -1,1 +1,0 @@
-export PYTHONSTARTUP="$HOME/path/to/pythonstartup.py"

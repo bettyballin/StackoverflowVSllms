@@ -1,1 +1,0 @@
-public class MeetingMap : ClassMap<Meeting>\n{\n    public MeetingMap()\n    {\n        Table("Meetings");\n        DynamicUpdate();\n        // property mappings\n    }\n}

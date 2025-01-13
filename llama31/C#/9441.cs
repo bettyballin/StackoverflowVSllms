@@ -1,0 +1,1 @@
+var hmacsha256 = new HMACSHA256(Encoding.UTF8.GetBytes(password));\nvar hash = hmacsha256.ComputeHash(Encoding.UTF8.GetBytes(filename));\nvar result = BitConverter.ToString(hash).Replace("-", "").ToLower();

@@ -1,1 +1,0 @@
-using System.Web.Mvc;\n\npublic class HomeController : Controller\n{\n    public ActionResult Index()\n    {\n        if (User.Identity.IsAuthenticated)\n        {\n            ViewBag.LoginStatus = "User is logged in";\n        }\n        else\n        {\n            ViewBag.LoginStatus = "User is not logged in";\n        }\n\n        return View();\n    }\n}

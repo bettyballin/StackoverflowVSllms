@@ -1,1 +1,0 @@
-var manager = new XmlNamespaceManager(WorksheetXml.NameTable);\nmanager.AddNamespace("x", @"http://schemas.openxmlformats.org/spreadsheetml/2006/main");\nmanager.AddNamespace("r", @"http://schemas.openxmlformats.org/officeDocument/2006/relationships");\n\nvar nodeList = WorksheetXml.SelectNodes("//x:c[x:f]", manager);

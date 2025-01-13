@@ -1,1 +1,0 @@
-// Clear all session data\nSession.Clear();\n\n// Remove all keys and end the session\nSession.RemoveAll();\nSession.Abandon();\n\n// Optionally, redirect to another page\nResponse.Redirect("Login.aspx");

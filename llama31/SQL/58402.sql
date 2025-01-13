@@ -1,0 +1,1 @@
+SELECT \n  CASE \n    WHEN processed_timestamp IS NULL THEN 'NULL' \n    ELSE 'NOT NULL' \n  END AS processed_status,\n  COUNT(*) AS count\nFROM \n  your_table\nGROUP BY \n  CASE \n    WHEN processed_timestamp IS NULL THEN 'NULL' \n    ELSE 'NOT NULL' \n  END;

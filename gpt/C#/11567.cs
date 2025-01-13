@@ -1,1 +1,0 @@
-// File: MyDataContext.Part1.cs\npublic partial class MyDataContext : DataContext\n{\n    public Table<Customer> Customers;\n    public Table<Order> Orders;\n}\n\n// File: MyDataContext.Part2.cs\npublic partial class MyDataContext : DataContext\n{\n    public Table<Product> Products;\n    public Table<Supplier> Suppliers;\n}

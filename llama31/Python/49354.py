@@ -1,0 +1,1 @@
+print(getattr(my_class, my_var, "Unknown"))  # Output: John (or "Unknown" if attribute doesn't exist)

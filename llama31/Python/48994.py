@@ -1,0 +1,1 @@
+import cffi\n\nffi = cffi.FFI()\nffi.cdef('''\n    int BF_set_key(void *ctx, int len, const unsigned char *key);\n''')\n\nlibcrypto = ffi.dlopen('libcrypto.so')\n\nbf_context = ffi.new('void*')\nlibcrypto.BF_set_key(bf_context, 8, b'my_key_here')

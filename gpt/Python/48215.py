@@ -1,1 +1,0 @@
-# Parallel assignment\na, b, c = 1, 2, 3

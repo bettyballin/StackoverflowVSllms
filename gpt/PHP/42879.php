@@ -1,1 +1,0 @@
-class CustomerQuery extends BaseCustomerQuery\n{\n    public function withCompletedOrdersCount()\n    {\n        return $this\n            ->leftJoinOrder('o')\n            ->withColumn('COUNT(o.ID)', 'CompletedOrdersCount')\n            ->groupBy('Customer.ID');\n    }\n}

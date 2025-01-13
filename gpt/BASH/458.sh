@@ -1,1 +1,0 @@
-# Create a chroot jail\nmkdir -p /sandbox/root\n# Copy necessary binaries and libraries to /sandbox/root\n# Switch to the chroot jail and run the code\nchroot /sandbox/root /path/to/executable

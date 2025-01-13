@@ -1,0 +1,1 @@
+echo -e "\xA9" >> file

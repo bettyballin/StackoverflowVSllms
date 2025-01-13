@@ -1,1 +1,0 @@
-// Example of enabling Blazy module\n   drush en blazy -y

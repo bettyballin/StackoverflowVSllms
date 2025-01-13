@@ -1,0 +1,1 @@
+if (client.State == CommunicationState.Faulted)\n{\n    client.Abort();\n    client = new MyServiceClient();\n}

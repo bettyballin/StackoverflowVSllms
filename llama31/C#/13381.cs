@@ -1,0 +1,1 @@
+private static MyObjectType s_instance;\n\npublic static MyObjectType Instance \n{ \n    get \n    { \n        if (s_instance == null) \n        { \n            s_instance = new MyObjectType(); \n        } \n        return s_instance; \n    } \n}

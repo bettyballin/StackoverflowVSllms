@@ -1,0 +1,1 @@
+$stmt = $pdo->prepare("SELECT pv1.uid FROM profile_values pv1 JOIN profile_values pv2 ON pv1.uid = pv2.uid WHERE pv1.fid = 1 AND pv1.value LIKE :first_name AND pv2.fid = 11 AND pv2.value LIKE :last_name");\n$stmt->bindParam(':first_name', 'S%');\n$stmt->bindParam(':last_name', 'D%');\n$stmt->execute();

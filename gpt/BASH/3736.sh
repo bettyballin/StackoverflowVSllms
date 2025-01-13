@@ -1,1 +1,0 @@
-gcc -I/home/me/development/skia/core \\n    -I/home/me/development/skia/animator \\n    -I/home/me/development/skia/images \\n    -I/home/me/development/skia/ports \\n    -I/home/me/development/skia/svg \\n    -o output_file your_source_file.c

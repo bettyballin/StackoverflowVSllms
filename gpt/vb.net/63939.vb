@@ -1,1 +1,0 @@
-Dim result = IIf(condition, truePart, falsePart)

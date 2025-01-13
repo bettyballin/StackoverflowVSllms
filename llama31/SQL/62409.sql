@@ -1,0 +1,1 @@
+SELECT \n  g.*,\n  (SELECT SUM(vote_value) FROM vote WHERE vote_gallery_ref = g.gallery_id) as score,\n  (SELECT COUNT(picture_id) FROM picture WHERE picture_gallery_ref = g.gallery_id) AS pictures\nFROM \n  gallery g

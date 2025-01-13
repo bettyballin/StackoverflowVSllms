@@ -1,1 +1,0 @@
-sysctl -w net.ipv4.tcp_fin_timeout=30\n   sysctl -w net.ipv4.tcp_tw_reuse=1\n   sysctl -w net.ipv4.tcp_tw_recycle=1\n   sysctl -w net.ipv4.tcp_syncookies=1

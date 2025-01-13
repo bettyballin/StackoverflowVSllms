@@ -1,1 +1,0 @@
-// Configure your DI container\nservices.AddTransient<IProductRepository>(provider => new ProductRepository("your_connection_string"));

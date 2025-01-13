@@ -1,0 +1,1 @@
+// Client-side example using JavaScript and EventSource\nvar es = new EventSource('/updates');\nes.onmessage = function(event) {\n  console.log(event.data);\n};

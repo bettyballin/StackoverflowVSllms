@@ -1,0 +1,1 @@
+DECLARE\n  index_exists NUMBER;\nBEGIN\n  SELECT COUNT(*) INTO index_exists \n  FROM ALL_INDEXES \n  WHERE INDEX_NAME = 'myIndex' \n  AND TABLE_NAME = 'myTableName';\n\n  IF index_exists = 0 THEN\n    -- Create the index\n    EXECUTE IMMEDIATE 'CREATE INDEX myIndex ON myTableName (column_name)';\n  END IF;\nEND;

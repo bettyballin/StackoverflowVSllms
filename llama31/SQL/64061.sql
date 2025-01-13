@@ -1,0 +1,1 @@
+CREATE TABLE mytable (\n  is_active CHAR(1) CHECK(is_active IN ('Y', 'N'))\n);

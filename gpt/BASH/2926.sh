@@ -1,1 +1,0 @@
-dumpbin /EXPORTS mytest.dll

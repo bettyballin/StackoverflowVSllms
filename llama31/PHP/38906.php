@@ -1,0 +1,1 @@
+// In your LocalSettings.php or a custom extension\n$wgHooks['UserLoadFromSession'][] = function ( User &$user ) {\n    // Logic to check if the user has a paid subscription\n    $user->is_paid_member = true; // or false\n};

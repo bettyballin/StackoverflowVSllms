@@ -1,0 +1,1 @@
+$a = gmp_init('9223372036854775807', 10); // maximum 64-bit integer value\n$b = gmp_init('1', 10);\n\n$result = gmp_mul($a, $b);\necho gmp_strval($result, 10);

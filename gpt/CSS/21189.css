@@ -1,1 +1,0 @@
-/* Add horizontal space between all columns */\ntable {\n  border-spacing: 10px 0; /* 10px horizontal space, 0px vertical space */\n}\n\n/* Alternatively, add padding to the cells in the first column */\ntable td:first-child {\n  padding-right: 10px;\n}

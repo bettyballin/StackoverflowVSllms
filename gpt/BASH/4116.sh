@@ -1,1 +1,0 @@
-regsvr32 msxml3.dll\n    regsvr32 msxml6.dll

@@ -1,0 +1,1 @@
+// Register the pipe endpoint on the server\nRpcServerRegisterAuthInfo(NULL, RPC_C_AUTHN_WINNT, RPC_C_AUTHZ_NONE, 0, NULL, 0, NULL);\nRpcServerRegisterEndpoint Protseq = (RPC_WSTR)"ncacn_ip_tcp", Endpoint = (RPC_WSTR)"\\pipe\\my_pipe", NULL);

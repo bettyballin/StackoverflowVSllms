@@ -1,1 +1,0 @@
-phpize\n./configure --with-pdo-mysql=mysqlnd\nmake\nsudo make install

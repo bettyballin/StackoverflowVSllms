@@ -1,0 +1,1 @@
+if (($expr2 % $expr3) === 0) {\n    $expr1 = true;\n} else {\n    $expr1 = false;\n}

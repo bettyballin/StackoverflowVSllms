@@ -1,0 +1,1 @@
+Imports Windows.UI.ViewManagement\n\nModule Module1\n    Sub Main()\n        Dim settings As New UISettings()\n        Dim theme As UIElementTheme = settings.UIElementTheme\n\n        If theme = UIElementTheme.Dark Then\n            ' Dark theme\n        ElseIf theme = UIElementTheme.Light Then\n            ' Light theme\n        End If\n    End Sub\nEnd Module

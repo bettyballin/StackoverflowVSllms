@@ -1,0 +1,1 @@
+header('Location: https://www.example.com/blah1/blah2?token='.$token);\nexit;

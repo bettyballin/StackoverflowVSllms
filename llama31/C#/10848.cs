@@ -1,0 +1,1 @@
+var directoryInfo = new System.IO.DirectoryInfo(@"\\fors343a.ww123.somedomain.net\folder\1");

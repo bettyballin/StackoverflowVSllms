@@ -1,0 +1,1 @@
+if($_GET['reset'] == 'true')\n{\n    $core->Session->Visits = 0;\n    header('Location: index.html');\n    exit();\n}

@@ -1,0 +1,1 @@
+iframe {\n  position: absolute;\n  background-color: #fff; /* or any other color */\n  filter: alpha(opacity=100); /* IE7-specific fix */\n}

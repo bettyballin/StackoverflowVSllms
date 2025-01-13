@@ -1,1 +1,0 @@
-SELECT \n    RIGHT('0' + RTRIM(CONVERT(CHAR(3), DATENAME(month, YourDateColumn))), 3) + ' ' + CONVERT(CHAR(4), YEAR(YourDateColumn)) AS [MonthYear]\nFROM \n    YourTableName\nGROUP BY \n    RIGHT('0' + RTRIM(CONVERT(CHAR(3), DATENAME(month, YourDateColumn))), 3) + ' ' + CONVERT(CHAR(4), YEAR(YourDateColumn))

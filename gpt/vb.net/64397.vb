@@ -1,1 +1,0 @@
-' WebUserControlB.vb\nPublic Class WebUserControlB\n    Inherits System.Web.UI.UserControl\n\n    Public Event MyCustomEvent As EventHandler\n\n    Protected Sub RaiseMyCustomEvent()\n        RaiseEvent MyCustomEvent(Me, EventArgs.Empty)\n    End Sub\nEnd Class

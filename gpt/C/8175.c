@@ -1,1 +1,0 @@
-while (condition) ; // Loop until condition is false

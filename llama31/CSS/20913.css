@@ -1,0 +1,1 @@
+.parent-div {\n  width: 500px; /* assuming parent div has a fixed width */\n}\n\n.child-div {\n  margin-left: calc(-60px + 50%); /* performs the desired arithmetic operation */\n}

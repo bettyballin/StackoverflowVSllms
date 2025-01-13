@@ -1,1 +1,0 @@
-console.log(xmlHttp.responseText); // Check the raw XML\nconsole.log(xmlDoc); // Check the parsed XML document\nconsole.log(xmlRoot); // Check the root element

@@ -1,0 +1,1 @@
+class FlexibleAccess {\n  var $dbName;\n\n  public function __construct() {\n    $this->dbName = $_SESSION['mydatabase'];\n  }\n}

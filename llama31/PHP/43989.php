@@ -1,0 +1,1 @@
+// In your module's hook_menu() implementation\nfunction mymodule_menu() {\n  $items['fund/%/print'] = array(\n    'title' => 'Print-friendly fund page',\n    'page callback' => 'node_view',\n    'page arguments' => array(1, 'print'),\n  );\n  return $items;\n}

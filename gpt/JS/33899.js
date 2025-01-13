@@ -1,1 +1,0 @@
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>\n<script>\n    $(document).ready(function() {\n        $('#<%= DropDownList1.ClientID %> option').each(function() {\n            var htmlText = $(this).html();\n            $(this).html(htmlText);\n        });\n    });\n</script>

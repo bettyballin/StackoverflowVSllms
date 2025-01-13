@@ -1,1 +1,0 @@
-public interface IPlugin\n{\n    void Execute();\n    string Name { get; }\n}

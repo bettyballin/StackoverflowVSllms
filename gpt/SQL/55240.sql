@@ -1,1 +1,0 @@
-SELECT name, size, date\nFROM your_table\nORDER BY name, date;

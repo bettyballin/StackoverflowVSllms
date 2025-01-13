@@ -1,0 +1,1 @@
+clean:\n    -del *.o\n    -del *.d

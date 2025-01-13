@@ -1,0 +1,1 @@
+import html\n\n# assuming p is the paragraph element containing the text\ntext = p.string\ntext = html.unescape(text)\nprint(text)

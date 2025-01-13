@@ -1,1 +1,0 @@
-powershell -ExecutionPolicy Bypass -File "C:\Path\To\Your\Script\CreateSnapshot.ps1"

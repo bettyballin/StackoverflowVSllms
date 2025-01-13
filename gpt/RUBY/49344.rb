@@ -1,1 +1,0 @@
-class AddCustomTimestampsToYourModel < ActiveRecord::Migration[6.1]\n  def change\n    add_column :your_models, :custom_created_at, :datetime\n    add_column :your_models, :custom_updated_at, :datetime\n  end\nend

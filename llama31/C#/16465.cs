@@ -1,0 +1,1 @@
+try\n{\n    // Set error mode to suppress runtime error dialog\n    SetErrorMode(0x0002);\n\n    QuickFix.Symbol Symbol = new QuickFix.Symbol();\n    report.get(Symbol);\n    // ...\n}\ncatch (Exception e)\n{\n    // log the error\n}

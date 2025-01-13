@@ -1,1 +1,0 @@
-int jimmy[15]; // Just an example, make sure to initialize it as needed\narryprnt(jimmy, "PSEUDOJIMMY: ", 15);

@@ -1,0 +1,1 @@
+// Example using Windows Process Notification\n#include <Windows.h>\n#include <psapi.h>\n\nVOID CALLBACK ProcessNotifyRoutine(\n    _In_ HANDLE hProcess,\n    _In_ HANDLE hThread,\n    _In_ DWORD dwEvent\n)\n{\n    // Inspect the process creation request\n    // ...\n    // Allow or block the process creation\n}

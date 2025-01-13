@@ -1,0 +1,1 @@
+$autoloader = new Autoloader($cache);\n$autoloader->addNamespacePrefix('App\\Models', __DIR__ . '/models');\n$autoloader->addNamespacePrefix('App\\Views', __DIR__ . '/views');\n$autoloader->addNamespacePrefix('App\\Controllers', __DIR__ . '/controllers');\n\nspl_autoload_register([$autoloader, 'autoload']);

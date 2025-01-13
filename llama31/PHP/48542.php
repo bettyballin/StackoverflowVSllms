@@ -1,0 +1,1 @@
+mb_internal_encoding('UTF-8');\n\n$str = "bla bla here is my string";\n\n// Now you can use mbstring functions on $str\n$str_length = mb_strlen($str);

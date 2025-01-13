@@ -1,0 +1,1 @@
+public class AppController : Controller\n{\n    private MyService _myService;\n\n    public MyService MyService\n    {\n        get\n        {\n            if (_myService == null)\n            {\n                _myService = new MyService(Server);\n            }\n            return _myService;\n        }\n    }\n}

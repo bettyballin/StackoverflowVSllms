@@ -1,1 +1,0 @@
-SELECT CASE\n       WHEN TRY_CAST(REPLACE(Column1, '"', '') AS FLOAT) IS NOT NULL THEN TRY_CAST(REPLACE(Column1, '"', '') AS FLOAT)\n       ELSE 0\n   END AS NumericValue\nFROM YourTable;

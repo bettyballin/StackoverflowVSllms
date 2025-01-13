@@ -1,1 +1,0 @@
-define(`SMART_HOST', `smtp.example.com')dnl

@@ -1,0 +1,1 @@
+$no_errors = ($_error == 0 || $_error == 3) ? TRUE : FALSE;

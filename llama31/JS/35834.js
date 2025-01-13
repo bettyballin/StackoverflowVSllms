@@ -1,0 +1,1 @@
+<script language="javascript" type="text/javascript">\n    Prototype.BrowserFeatures.XPath = false;\n</script>\n<script language="javascript" type="text/javascript" src="jquery-1.3.2.js"></script>

@@ -1,1 +1,0 @@
-keytool -import -alias serverCert -file server.crt -keystore $JAVA_HOME/lib/security/cacerts

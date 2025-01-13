@@ -1,0 +1,1 @@
+using Microsoft.Xna.Framework.Content;\n\n// Load the level file\nstring levelPath = "Levels/level1";\nstring levelContent = Content.Load<string>(levelPath);

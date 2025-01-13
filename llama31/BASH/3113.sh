@@ -1,0 +1,1 @@
+echo "Test email" | sendmail -v me@mydomain.com

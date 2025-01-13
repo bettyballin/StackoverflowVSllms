@@ -1,0 +1,1 @@
+Array\n(\n    [first] => first\n    [second] => second\n    [third] => third\n)

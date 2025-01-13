@@ -1,0 +1,1 @@
+OracleCommandBuilder cmdBuilder = new OracleCommandBuilder();\ncmdBuilder.Parameters = command.Parameters;\ncmdBuilder.Command = command;\ncmdBuilder.BindByName = true;

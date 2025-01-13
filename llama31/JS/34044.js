@@ -1,0 +1,1 @@
+var adContainer = document.getElementById('ad-container');\n// populate adContainer with ad content

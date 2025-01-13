@@ -1,0 +1,1 @@
+cd /Applications/MAMP/bin/php/php5.x.x/lib\nphpize\n./configure --with-iodbc=/path/to/iodbc/installation\nmake\nmake install

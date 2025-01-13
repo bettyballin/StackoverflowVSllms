@@ -1,0 +1,1 @@
+SELECT DISTINCT \n  dbo.tb_user.familyName,\n  dbo.user_email.email\nFROM \n  dbo.tb_user\n  LEFT JOIN dbo.user_email ON (dbo.tb_user.id = dbo.user_email.userID)

@@ -1,0 +1,1 @@
+$memberInfo->meta_data = json_decode($memberInfo->meta_data, true);\n$memberInfo->meta_data['email_recommendations'] = 'false';

@@ -1,0 +1,1 @@
+[ ScaffoldColumn(false) ]\npublic Guid Id { get; set; }

@@ -1,0 +1,1 @@
+public class CustomHandler : IHttpHandler\n{\n    public void ProcessRequest(HttpContext context)\n    {\n        context.Response.ContentType = "text/plain";\n        string name = context.Request.Form[0];\n        context.Response.Write("Your name is: " + name);\n    }\n\n    public bool IsReusable\n    {\n        get { return false; }\n    }\n}

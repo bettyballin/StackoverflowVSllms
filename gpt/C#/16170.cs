@@ -1,1 +1,0 @@
-// Assuming 'parentPanel' is your container (e.g., Grid, StackPanel)\nvoid AddDynamicControl()\n{\n    var newControl = new CustomControl();\n    parentPanel.Children.Add(newControl);\n\n    // Force layout update\n    parentPanel.UpdateLayout();\n}

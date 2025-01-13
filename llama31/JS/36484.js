@@ -1,0 +1,1 @@
+$('.link a').click(function() {\n    var urlconst = 'changed_url';\n    $(".flash_photo embed").attr({\n        src: changed_url\n    });\n    $("#pano param:first").attr("value", changed_url);\n});

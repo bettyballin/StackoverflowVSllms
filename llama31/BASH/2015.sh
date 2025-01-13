@@ -1,0 +1,1 @@
+stsadm -o createssp -title <new_ssp_title> -url <your_sharepoint_url>

@@ -1,1 +1,0 @@
-# Rails routes.rb\n   Rails.application.routes.draw do\n     resources :tasks\n   end\n\n   # Rails Task model\n   class Task < ApplicationRecord\n     validates :title, presence: true\n   end

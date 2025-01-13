@@ -1,0 +1,1 @@
+$container = new Symfony\Component\DependencyInjection\ContainerBuilder();\n$container->register('service', 'Service');

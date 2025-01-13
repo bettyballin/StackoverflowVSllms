@@ -1,0 +1,1 @@
+-- Create a new database project in SSDT\nCREATE PROJECT MyDatabaseProject\n\n-- Import the first database\nIMPORT DATABASE MyDatabase1\n\n-- Import the second database\nIMPORT DATABASE MyDatabase2\n\n-- Compare the schema and data\nCOMPARE MyDatabase1 MyDatabase2\n\n-- Synchronize the differences (if desired)\nSYNCHRONIZE MyDatabase1 MyDatabase2

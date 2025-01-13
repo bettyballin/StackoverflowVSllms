@@ -1,1 +1,0 @@
-ALTER TABLE YourTable\nADD YourCalculatedColumn AS (CAST(YourExpression AS bit));

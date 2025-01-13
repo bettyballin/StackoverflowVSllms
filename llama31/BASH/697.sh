@@ -1,0 +1,1 @@
+wget http://code.google.com/p/pdfcrop2/downloads/detail?name=pdfcrop2-patches-1.5.tar.gz\ntar xvf pdfcrop2-patches-1.5.tar.gz

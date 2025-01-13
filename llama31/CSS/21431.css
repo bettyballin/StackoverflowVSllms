@@ -1,0 +1,1 @@
+.menu_body {\n  display: none;\n  width: 200px;\n  border-right: 1px solid #998675;\n  border-bottom: 1px solid #998675;\n  border-left: 1px solid #998675;\n  position: absolute;\n  top: 100%; /* position below the image */\n  left: 0; /* align with the left edge of the parent */\n}

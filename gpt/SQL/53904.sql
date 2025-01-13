@@ -1,1 +1,0 @@
-SELECT * \nFROM Users \nWHERE IsAdmin = 1;

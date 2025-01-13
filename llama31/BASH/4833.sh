@@ -1,0 +1,1 @@
+for /f "delims=" %%f in ('dir /b /a-d *.rar') do (\n    copy "%%f" target_directory\\n    goto :eof\n)

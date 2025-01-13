@@ -1,1 +1,0 @@
-CREATE TABLE your_table_name (\n     column1 VARCHAR2(50),\n     column2 NUMBER,\n     column3 DATE,\n     ...\n   );

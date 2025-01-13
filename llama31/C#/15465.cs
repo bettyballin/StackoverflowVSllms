@@ -1,0 +1,1 @@
+var dictionary = new Dictionary<string, int>();\ndictionary.Add(null, 0); // OK

@@ -1,0 +1,1 @@
+from django import template\nfrom .views import get_user_menu\n\nregister = template.Library()\n\n@register.inclusion_tag('menu.html')\ndef user_menu(request):\n    menu = get_user_menu(request)\n    return {'menu': menu}

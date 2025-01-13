@@ -1,1 +1,0 @@
-OPEN SYMMETRIC KEY YourSymmetricKeyName\n     DECRYPTION BY PASSWORD = 'your_strong_password';\n     \n     SELECT CONVERT(varchar, DECRYPTBYKEY(EncryptedColumn)) AS DecryptedData\n     FROM YourTable;\n     \n     CLOSE SYMMETRIC KEY YourSymmetricKeyName;

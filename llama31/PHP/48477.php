@@ -1,0 +1,1 @@
+preg_match_all('#<img[^>]*src="([^"]+)"[^>]*>#i', $content, $match);\n$src = $match[1][0];\nreturn $src;

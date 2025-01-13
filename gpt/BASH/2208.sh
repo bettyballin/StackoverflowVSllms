@@ -1,1 +1,0 @@
-pip uninstall PIL\n    pip install Pillow

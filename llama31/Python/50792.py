@@ -1,0 +1,1 @@
+import requests\n\ndef search_apis(query):\n    api_key = "YOUR_API_KEY"  # replace with your ProgrammableWeb API key\n    url = f"https://api.programmableweb.com/apis/search?q={query}&api_key={api_key}"\n    response = requests.get(url)\n    return response.json()\n\n# Search for web services related to "weather"\nresults = search_apis("weather")\nprint(results)

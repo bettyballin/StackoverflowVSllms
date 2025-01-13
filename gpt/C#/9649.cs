@@ -1,1 +1,0 @@
-protected void Application_AuthenticateRequest(Object sender, EventArgs e)\n{\n    if (User != null && User.Identity.IsAuthenticated)\n    {\n        string username = User.Identity.Name;\n        string defaultRole = "Users";\n\n        if (!Roles.IsUserInRole(username, defaultRole))\n        {\n            Roles.AddUserToRole(username, defaultRole);\n        }\n    }\n}

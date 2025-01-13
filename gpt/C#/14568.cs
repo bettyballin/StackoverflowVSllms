@@ -1,1 +1,0 @@
-protected void btnSubmit_Click(object sender, EventArgs e)\n{\n    string eventId = hfEventID.Value;\n    Session["EditMode"] = "Edit";\n    Response.Redirect($"EventDetails.aspx?EventID={eventId}");\n}

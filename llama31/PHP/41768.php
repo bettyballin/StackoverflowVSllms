@@ -1,0 +1,1 @@
+$thumbPath = dirname(__FILE__) . '/../../img/thumbs/' . $maxWidth . 'x' . $maxHeight . '_' . $filename;\nimagejpeg($tnImage, $thumbPath);

@@ -1,1 +1,0 @@
-<script>\n     window.onload = function() {\n       // WebTrends tracking code\n     };\n   </script>

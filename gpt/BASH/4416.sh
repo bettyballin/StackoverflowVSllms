@@ -1,1 +1,0 @@
-SqlPackage.exe /Action:Extract /SourceDatabaseName:YourDatabaseName /SourceServerName:YourServerName /TargetFile:YourSchema.dacpac /p:TableSelectionCriteria=Table1,Table2

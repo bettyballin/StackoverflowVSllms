@@ -1,0 +1,1 @@
+string userIdString = Request.QueryString["id"];\nGuid userId;\n\nif (Guid.TryParse(userIdString, out userId))\n{\n    // userId now contains the parsed Guid\n}\nelse\n{\n    // handle the case where the string is not a valid Guid\n}

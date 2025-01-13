@@ -1,0 +1,1 @@
+<!-- This is the "index" view, by the way. -->\n<% for membership in @story.memberships %>\n  <% form_for membership, :remote => true do |f| %>\n    <%= f.select :permissions, [['none', 0], ['admin', 9]], \n                 :onchange => "$(this).closest('form').submit()" %>\n  <% end %>\n<% end %>

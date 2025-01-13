@@ -1,1 +1,0 @@
-extern "C" {\n        void mylib_function();\n    }

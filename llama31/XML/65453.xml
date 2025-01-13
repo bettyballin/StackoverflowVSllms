@@ -1,0 +1,1 @@
+<services>\n  <service name="Company.WebAPI.Trade.TradeService">\n    <endpoint address="" binding="webHttpBinding" contract="Company.WebAPI.Trade.ITradeService" />\n  </service>\n</services>

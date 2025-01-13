@@ -1,0 +1,1 @@
+-- example using a CTE in SQL Server\nWITH SalesCTE AS (\n    SELECT product_id, SUM(sales_amount) AS total_sales\n    FROM sales\n    GROUP BY product_id\n)\nSELECT * FROM SalesCTE WHERE total_sales > 1000;

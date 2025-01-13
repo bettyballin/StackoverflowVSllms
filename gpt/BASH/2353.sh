@@ -1,1 +1,0 @@
-gcc $(INCLUDES) -E -MM $(CFLAGS) $(SRC) -MT '$(OBJDIR)/$(<:.c=.o)' -MF $(DEP)

@@ -1,0 +1,1 @@
+alert("a$b".replace(/\\$/g,"k"));

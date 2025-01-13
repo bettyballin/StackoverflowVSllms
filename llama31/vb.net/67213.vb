@@ -1,0 +1,1 @@
+Public Class MyModel\n    Private ReadOnly _container As IWindsorContainer\n\n    Public Sub New(container As IWindsorContainer)\n        _container = container\n    End Sub\n\n    Public Sub DoSomething()\n        ' Use the container\n    End Sub\nEnd Class

@@ -1,0 +1,1 @@
+private OracleDependency SubscribeToTable(string tableName)\n{\n    string sql = "select * from " + tableName;\n    var cmd = new OracleCommand(sql, this.connection);\n    var dep = new OracleDependency(cmd) { AddRowid = true };\n    dep.Notification.IsNotifiedOnce = false;\n    dep.OnChange += this.dep_OnChange;\n    cmd.ExecuteNonQuery();\n    return dep;\n}

@@ -1,1 +1,0 @@
-sudo apt-get install valgrind\n    valgrind ./your_applicatio

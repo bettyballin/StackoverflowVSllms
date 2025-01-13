@@ -1,1 +1,0 @@
-tkprof tracefile.trc outputfile.txt

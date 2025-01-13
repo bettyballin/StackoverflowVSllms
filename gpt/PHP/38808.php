@@ -1,1 +1,0 @@
-$enteredPassword = 'user_input_password';\nif (password_verify($enteredPassword, $hashedPassword)) {\n    // Password is correct\n} else {\n    // Password is incorrect\n}

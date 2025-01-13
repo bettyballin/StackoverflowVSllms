@@ -1,1 +1,0 @@
-public ActionResult SubmitForm(string inputName)\n    {\n        // inputName will contain the form data\n    }

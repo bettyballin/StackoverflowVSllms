@@ -1,1 +1,0 @@
-#!/bin/bash\n\nHEADPHONE_STATE=$(cat /proc/asound/card0/codec#0 | grep -A 7 "Node 0x03" | grep "Pin-ctls" | grep "OUT")\n\nif [ -z "$HEADPHONE_STATE" ]; then\n    echo "Headphones are not connected"\nelse\n    echo "Headphones are connected"\nfi

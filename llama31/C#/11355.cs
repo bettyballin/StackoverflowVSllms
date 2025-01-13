@@ -1,0 +1,1 @@
+using (FileStream file = File.Open("text.txt", FileMode.Create, FileAccess.Write, FileShare.None))\n{\n    // Write to the file\n}

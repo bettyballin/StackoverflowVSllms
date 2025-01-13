@@ -1,1 +1,0 @@
-from django.db.models import Prefetch\n\n# Filter products and use select_related to include related company data\nPrs = Products.objects.filter(PrName__icontains=ss).select_related('PrCompany')\n\n# Access the product name and company name\nfor product in Prs:\n    print(product.PrName, product.PrCompany.ComName)

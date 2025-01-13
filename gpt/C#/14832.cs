@@ -1,1 +1,0 @@
-using (var context = new MyDataContext("YourConnectionString")) {\n        string xpath = "(/Root/CreatedAt)[1]";\n        string expectedValue = "2023-01-01";\n        \n        var authors = QueryAuthorsByXmlField(context, xpath, expectedValue);\n        foreach (var author in authors) {\n            Console.WriteLine($"{author.FirstName} {author.LastName}");\n        }\n    }

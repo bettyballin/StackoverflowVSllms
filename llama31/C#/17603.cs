@@ -1,0 +1,1 @@
+using Raven.Client;\nusing Raven.Client.Embedded;\n\n// Example usage:\nvar store = new EmbeddableDocumentStore { DataDirectory = "your_database" };\nstore.Initialize();\nusing (var session = store.OpenSession())\n{\n    // Perform database operations\n}

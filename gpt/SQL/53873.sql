@@ -1,1 +1,0 @@
-BEGIN TRANSACTION;\n\n-- Delete from Table2 first to avoid foreign key constraints issues\nDELETE FROM Table2\nWHERE ID_XPTO = @ID_XPTO;\n\n-- Delete from Table1\nDELETE FROM Table1\nWHERE ID_XPTO = @ID_XPTO;\n\nCOMMIT TRANSACTION;

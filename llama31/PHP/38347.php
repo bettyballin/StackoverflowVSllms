@@ -1,0 +1,1 @@
+class MyAction extends Action {}\n\necho MyAction::n();  // Outputs: "MyAction"

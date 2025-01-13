@@ -1,1 +1,0 @@
-xxd -p yourfile.pdf > yourfile.hex

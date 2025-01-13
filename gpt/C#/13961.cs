@@ -1,1 +1,0 @@
-[HttpPost]\n    public ActionResult Create(Person personToCreate)\n    {\n        if (ModelState.IsValid)\n        {\n            // Create person here\n            return Json(new { success = true, message = "Person created successfully." });\n        }\n        else\n        {\n            return Json(new { success = false, message = "Model is invalid." });\n        }\n    }

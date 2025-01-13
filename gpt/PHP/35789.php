@@ -1,1 +1,0 @@
-// Load the appropriate language file\n     putenv('LC_ALL=fr_FR');\n     setlocale(LC_ALL, 'fr_FR');\n     bindtextdomain('myapp', './locale');\n     textdomain('myapp');\n     echo gettext('Hello, world!');

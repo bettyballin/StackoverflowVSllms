@@ -1,0 +1,1 @@
+SELECT [Header], [Value]\nFROM \n    (SELECT FieldA, FieldB\n     FROM YourTable) AS SourceTable\nUNPIVOT \n    ([Value] FOR [Header] IN ([FieldA], [FieldB])) AS UnpivotTable;

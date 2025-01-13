@@ -1,0 +1,1 @@
+use Illuminate\Database\Eloquent\Model;\n\nclass User extends Model {\n    protected $table = 'users';\n}

@@ -1,1 +1,0 @@
-ssh -L 2525:localhost:25 workstation.work.com

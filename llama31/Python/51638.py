@@ -1,0 +1,1 @@
+from scapy.all import sniff, TCP, IP\n\ndef packet_callback(packet):\n    if packet.haslayer(TCP) and packet.haslayer(IP):\n        # Analyze SMTP packet here\n        pass\n\nsniff(prn=packet_callback, count=100)

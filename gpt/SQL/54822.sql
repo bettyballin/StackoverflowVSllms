@@ -1,1 +1,0 @@
-USE [master];\nGO\n\n-- Backup database to a network share\nBACKUP DATABASE [YourDatabaseName]\nTO DISK = '\\FileServerName\SQLBackups\YourDatabaseName.bak'\nWITH FORMAT,\n     MEDIANAME = 'SQLServerBackups',\n     NAME = 'Full Backup of YourDatabaseName';\nGO

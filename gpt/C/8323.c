@@ -1,1 +1,0 @@
-#include <shlobj.h>\n   #include <tchar.h>\n\n   TCHAR path[MAX_PATH];\n   if (SUCCEEDED(SHGetFolderPath(NULL, CSIDL_APPDATA, NULL, 0, path))) {\n       // Create your application-specific folder if it doesn't exist\n       _tcscat(path, _T("\\MyProgram"));\n       CreateDirectory(path, NULL);\n       // Use this path to store your INI files\n   }

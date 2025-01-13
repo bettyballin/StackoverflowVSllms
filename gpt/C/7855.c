@@ -1,1 +1,0 @@
-const zend_function_entry my_functions[] = {\n    PHP_FE(TestPassRef, NULL)\n    PHP_FE_END\n};

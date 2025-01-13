@@ -1,1 +1,0 @@
-x = ('a', 'b', 'c')\ny = ('d', 'e', 'f')\nz = ('g', 'e', 'i')\n\nl = [x, y, z]\n\ns = {e for (_, e, _) in l}\n\nprint(s)  # Output: {'b', 'e'}

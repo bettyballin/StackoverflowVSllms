@@ -1,1 +1,0 @@
-chmod -R 750 /home/brianly/svn/test

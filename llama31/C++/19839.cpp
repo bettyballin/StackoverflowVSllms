@@ -1,0 +1,1 @@
+_CommandPtr cmd;\ncmd.CreateInstance(__uuidof(Command));\ncmd->ActiveConnection = cnn;\n\ncmd->PutCommandText("select value from fn_listextendedproperty(null, null, null, null, null, null, null) where name=N'schemaVersion'");\n\nVARIANT varCount;\ncmd->Execute(NULL, NULL, adCmdText);

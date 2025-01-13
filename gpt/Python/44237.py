@@ -1,1 +1,0 @@
-import os\n\n# Example to get server name\nserver_name = os.getenv('SERVER_NAME')\nprint(server_name)

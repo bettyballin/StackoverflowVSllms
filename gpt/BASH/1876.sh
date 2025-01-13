@@ -1,1 +1,0 @@
-pidstat -r -p ALL 1 | grep php

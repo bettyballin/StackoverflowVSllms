@@ -1,0 +1,1 @@
+// Example using AES encryption in PHP\n$encrypted = openssl_encrypt($_POST['card_number'], 'AES-256-CBC', 'YOUR_ENCRYPTION_KEY', 0, 'YOUR_INITIALIZATION_VECTOR');\n\n// Store the encrypted data on your server

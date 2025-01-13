@@ -1,0 +1,1 @@
+class CustomIDispatch : public IDispatch {\npublic:\n    // ...\n    HRESULT GetIDsOfNames(REFIID riid, LPOLESTR* rgszNames, UINT cNames, LCID lcid, DISPID* rgDispId) {\n        // Custom implementation to return DISPIDs without registry lookup\n    }\n};

@@ -1,0 +1,1 @@
+/* styles.css */\nbody {\n    background-color: #f2f2f2;\n}\n\n.container {\n    max-width: 800px;\n    margin: 40px auto;\n    padding: 20px;\n    background-color: #fff;\n    border: 1px solid #ddd;\n    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);\n}

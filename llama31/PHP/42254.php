@@ -1,0 +1,1 @@
+$color = "orange";\nprint("My favorite color is {$color}ish -- at least for now.");

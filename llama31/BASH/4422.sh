@@ -1,0 +1,1 @@
+icacls <old_data_directory> /grant:r <your_username>:F /t

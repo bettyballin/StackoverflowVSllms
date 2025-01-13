@@ -1,1 +1,0 @@
-gcc -o check_zombie check_zombie.c\n./check_zombie <pid>

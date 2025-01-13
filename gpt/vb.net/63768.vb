@@ -1,1 +1,0 @@
-Dim input As String = postRow.Item("Post").ToString()\nDim pattern As String = "\B#\w+"\nDim matches As MatchCollection = System.Text.RegularExpressions.Regex.Matches(input, pattern)\nDim result As New List(Of String)\n\nFor Each match As Match In matches\n    result.Add(match.Value)\nNext\n\nDim myMatches As String() = result.ToArray()

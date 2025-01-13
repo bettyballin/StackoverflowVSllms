@@ -1,0 +1,1 @@
+C-x C-f /plink:user@EC2Instance:~

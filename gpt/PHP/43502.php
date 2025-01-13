@@ -1,1 +1,0 @@
-$q = "[code]<div>html code to display on screen</div>[/code]";\n\n$pattern = '/\[code\](.*?)\[/code\]/si';\n\n$m = preg_match($pattern, $q, $matches);\n\nif ($m) {\n    echo htmlentities($matches[1]);\n} else {\n    echo "No match found.";\n}

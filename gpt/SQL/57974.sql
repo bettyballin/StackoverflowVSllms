@@ -1,1 +1,0 @@
-CREATE PROCEDURE GetCommaSeparatedString\nAS\nBEGIN\n    DECLARE @result NVARCHAR(MAX);\n\n    SELECT @result = STRING_AGG(ColumnName, ',')\n    FROM YourTableName;\n\n    -- Output the result\n    SELECT @result AS CommaSeparatedString;\nEND;

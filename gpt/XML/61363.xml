@@ -1,1 +1,0 @@
-<dependency>\n    <groupId>javax.servlet</groupId>\n    <artifactId>javax.servlet-api</artifactId>\n    <version>4.0.1</version>\n    <scope>provided</scope>\n</dependency>\n<dependency>\n    <groupId>javax.servlet.jsp</groupId>\n    <artifactId>javax.servlet.jsp-api</artifactId>\n    <version>2.3.3</version>\n    <scope>provided</scope>\n</dependency>

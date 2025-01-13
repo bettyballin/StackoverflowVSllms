@@ -1,1 +1,0 @@
-pip install ldap3 flask

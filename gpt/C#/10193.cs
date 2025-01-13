@@ -1,1 +1,0 @@
-dynamic shell = AutomationFactory.CreateObject("WScript.Shell");\nshell.Run("notepad.exe");

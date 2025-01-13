@@ -1,1 +1,0 @@
-<?php\n// Start the session\nsession_start();\n\n// Set a session variable\n$_SESSION['user_id'] = 1;\n?>

@@ -1,0 +1,1 @@
+SELECT \n    Area,\n    geography::EnvelopeAggregate(\n        geography::Point(Lat, Long, 4326)\n    ) AS BoundingPolygon\nFROM \n    YourTable\nGROUP BY \n    Area

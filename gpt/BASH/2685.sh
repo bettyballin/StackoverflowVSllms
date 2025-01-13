@@ -1,1 +1,0 @@
-msiexec /i yourinstaller.msi REINSTALLMODE=amus

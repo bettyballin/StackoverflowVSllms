@@ -1,0 +1,1 @@
+class MyModel < ApplicationRecord\n  validate :validate_date\n\n  private\n\n  def validate_date\n    begin\n      Date.new(year, month, day)\n    rescue ArgumentError\n      errors.add(:date, "Invalid date")\n    end\n  end\nend

@@ -1,0 +1,1 @@
+#include "Poco/Thread.h"\n#include "Poco/Runnable.h"\n\nclass MyRunnable : public Poco::Runnable {\npublic:\n    void run() {\n        // Perform some task\n    }\n};\n\nint main() {\n    Poco::Thread thread;\n    MyRunnable runnable;\n    thread.start(runnable);\n    // ...\n    thread.join();\n    return 0;\n}

@@ -1,0 +1,1 @@
+// not recommended\nif (string.IsNullOrEmpty(RadioButtonList_VolunteerType.SelectedValue))\n{\n    // this may not work as expected\n}

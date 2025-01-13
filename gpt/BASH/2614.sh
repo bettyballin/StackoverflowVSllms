@@ -1,1 +1,0 @@
-sqlplus alice/password@your_db

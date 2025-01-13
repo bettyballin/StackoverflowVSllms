@@ -1,1 +1,0 @@
-sed -i 's%<iframe src="http[s]*://[^"]*"[^>]*style="visibility: hidden"><iframe>%%g' file

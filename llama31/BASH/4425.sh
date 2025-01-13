@@ -1,0 +1,1 @@
+certreq -submit -attrib "CertificateTemplate:TemplateName" csr_file.csr

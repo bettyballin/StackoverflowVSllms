@@ -1,0 +1,1 @@
+function CleanUrl {\n    param (\n        [string]$input\n    )\n    $x = $input.Replace("http://", "")\n    return $x\n}\n\n$HostHeader = "http://example.com"\n$SiteName = CleanUrl -input $HostHeader\necho $SiteName

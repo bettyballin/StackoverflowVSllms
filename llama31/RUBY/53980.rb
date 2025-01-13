@@ -1,0 +1,1 @@
+require 'net/ldap'\n\nldap = Net::LDAP.new(\n  host: 'ldap.example.com',\n  port: 389,\n  base: 'dc=example,dc=com'\n)\n\nfilter = Net::LDAP::Filter.eq('objectClass', 'person')\nbatch_size = 1000\n\nldap.search(filter: filter, batch_size: batch_size) do |entry|\n  # process each entry\nend

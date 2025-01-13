@@ -1,1 +1,0 @@
-// Example .NET object\nvar myObject = new MyObjectType\n{\n    Property1 = "Value1",\n    Property2 = 123\n};\n\n// Serialize .NET object to JSON string\nstring jsonString = SerializeToJson(myObject);\n\n// Call JavaScript function and pass JSON string\nHtmlPage.Window.Invoke("processJson", jsonString);

@@ -1,1 +1,0 @@
-<?php\n     $latexFile = '/path/to/your/latex/file.tex';\n     $output = shell_exec('C:\\cygwin64\\bin\\bash.exe -c "pdftex ' . escapeshellarg($latexFile) . '" 2>&1');\n     echo "<pre>$output</pre>";\n     ?>

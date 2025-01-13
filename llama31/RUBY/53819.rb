@@ -1,0 +1,1 @@
+require 'spreadsheet'\n\nbook = Spreadsheet::Workbook.new\nsheet = book.create_worksheet\nsheet.row(0).replace ["Name", "Description"]\nsheet.row(1).replace ["ø", "ü"]\nbook.write "example.xls"

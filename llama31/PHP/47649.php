@@ -1,0 +1,1 @@
+if ($user->inheritsFrom($module)) {\n    echo "User has access to module";\n}

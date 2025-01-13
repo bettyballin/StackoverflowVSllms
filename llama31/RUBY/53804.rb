@@ -1,0 +1,1 @@
+# app/models/user.rb\nclass User < ApplicationRecord\n  scope :upcoming_birthdays, -> {\n    where("DATE_FORMAT(date_of_birth, '%m%d') BETWEEN ? AND ?",\n          Date.current.strftime("%m%d"),\n          (Date.current + 30.days).strftime("%m%d")\n    ).order("DATE_FORMAT(date_of_birth, '%m%d') ASC")\n  }\nend

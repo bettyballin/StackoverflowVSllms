@@ -1,1 +1,0 @@
-wrk -t12 -c400 -d30s -s put-delete.lua http://example.com

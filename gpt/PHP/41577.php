@@ -1,1 +1,0 @@
-<?php\nclass Box {\n    public $contents;\n\n    public function __construct($contents) {\n        $this->contents = $contents;\n    }\n\n    public function get_whats_inside() {\n        return $this->contents;\n    }\n}\n?>

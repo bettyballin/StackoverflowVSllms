@@ -1,0 +1,1 @@
+<?php\nrequire_once 'Zend/Console/Getopt.php';\n\n$getOpt = new Zend_Console_Getopt(array(\n    'v|version' => 'Print version information'\n));\n\ntry {\n    $getOpt->parse();\n} catch (Zend_Console_Getopt_Exception $e) {\n    echo $e->getMessage() . "\n";\n    exit(1);\n}\n\nif ($getOpt->getOption('v')) {\n    echo "Version 1.xxxxx\n";\n}

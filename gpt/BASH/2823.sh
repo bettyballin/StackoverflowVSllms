@@ -1,1 +1,0 @@
-#!/bin/bash\n\n    # Scan the network for devices with SMB open\n    nmap -p 445 --open -sV 192.168.0.0/24 -oG - | awk '/445\/open/ {print $2}' > smb_hosts.txt\n\n    # Loop through each IP and list shares\n    while read -r ip; do\n        echo "Listing shares on $ip:"\n        smbutil view //user@$ip\n    done < smb_hosts.txt

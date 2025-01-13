@@ -1,0 +1,1 @@
+const _ = require('lodash');\n\nconst myArray = [...]; // your 50 item array\nconst random5 = _.sampleSize(myArray, 5);\nconsole.log(random5);

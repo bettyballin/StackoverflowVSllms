@@ -1,0 +1,1 @@
+<configuration>\n  <system.web>\n    <webServices>\n      <protocols>\n        <add name="Https"/>\n      </protocols>\n    </webServices>\n  </system.web>\n  <system.webServer>\n    <security>\n      <access sslFlags="SslRequireCert" />\n    </security>\n  </system.webServer>\n</configuration>

@@ -1,1 +1,0 @@
-public class ApplicationDbContext : DbContext\n   {\n       public DbSet<Product> Products { get; set; }\n   }

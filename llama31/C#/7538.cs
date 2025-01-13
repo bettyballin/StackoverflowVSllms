@@ -1,0 +1,1 @@
+cfg.AddResources(new[] { "CompanyName.AppName.Data.DataTypes.MSSQLTypes.hbm.xml", "CompanyName.AppName.Data.DataTypes.OracleTypes.hbm.xml" }, assembly);

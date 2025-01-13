@@ -1,0 +1,1 @@
+SELECT *\nFROM addresses\nWHERE ( 3959 * acos( cos( radians(@lat) ) \n                  * cos( radians(lat) ) \n                  * cos( radians(lng) - radians(@lng) ) \n                  + sin( radians(@lat) ) \n                  * sin( radians(lat) ) ) ) <= @radius

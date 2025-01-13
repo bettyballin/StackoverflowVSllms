@@ -1,1 +1,0 @@
-INSERT INTO local_table (id, name)\nSELECT id, name\nFROM federated_table;

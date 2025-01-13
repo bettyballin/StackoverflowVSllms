@@ -1,0 +1,1 @@
+if (resultSet.Rows[0].IsDBNull(resultSet.Columns.IndexOf("fk_id")))\n{\n    // code to handle null value\n}

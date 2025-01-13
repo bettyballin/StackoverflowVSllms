@@ -1,1 +1,0 @@
-#include <stdint.h>\n\n// 8-bit integers\nint8_t myInt8;\nuint8_t myUInt8;\n\n// 16-bit integers\nint16_t myInt16;\nuint16_t myUInt16;\n\n// 32-bit integers\nint32_t myInt32;\nuint32_t myUInt32;\n\n// 64-bit integers\nint64_t myInt64;\nuint64_t myUInt64;

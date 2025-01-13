@@ -1,1 +1,0 @@
-checkmodule -M -m -o httpd_exec.mod httpd_exec.te\n    semodule_package -o httpd_exec.pp -m httpd_exec.mod\n    semodule -i httpd_exec.pp

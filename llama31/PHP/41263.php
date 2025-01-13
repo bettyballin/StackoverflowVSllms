@@ -1,0 +1,1 @@
+use React\EventLoop\Factory;\nuse React\Stream\ReadableResourceStream;\n\n$loop = Factory::create();\n$stream = new ReadableResourceStream(STDIN, $loop);\n\n$loop->run();

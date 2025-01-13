@@ -1,1 +1,0 @@
--- Assuming you have a table named 'Documents' with a column 'Content'\nSELECT d.*, ft.RANK\nFROM Documents d\nINNER JOIN FREETEXTTABLE(Documents, Content, 'search term') AS ft\nON d.DocumentID = ft.[KEY]\nORDER BY ft.RANK DESC, d.Votes DESC, d.CreationDate ASC;

@@ -1,1 +1,0 @@
-void print_timestamps(void) {\n    int i;\n    for (i = 0; i < count; i++) {\n        printf("Timestamp %d: %lu\n", i, timestamps[i]);\n    }\n}

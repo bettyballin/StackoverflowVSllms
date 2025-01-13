@@ -1,0 +1,1 @@
+set @N := (SELECT id FROM table ORDER BY id DESC LIMIT N, 1);\nDELETE FROM table WHERE id < @N;

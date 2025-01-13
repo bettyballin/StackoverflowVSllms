@@ -1,0 +1,1 @@
+// yourlib.h\nextern "C" {\n    void yourFunction();\n}

@@ -1,1 +1,0 @@
-UserSession userSession = new UserSession(); // Retrieve or create the UserSession object\nIHost host = new WindowsHost(userSession);\nvar businessLayer = new BusinessLayer(host);\nbusinessLayer.SomeBusinessMethod();

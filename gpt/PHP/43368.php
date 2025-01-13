@@ -1,1 +1,0 @@
-$rs_meta->Close();\n  $odb_conn->Close();

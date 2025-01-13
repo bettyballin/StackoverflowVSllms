@@ -1,0 +1,1 @@
+<membership>\n  <providers>\n    <add name="CustomMembershipProvider" type="CustomMembershipProvider" />\n  </providers>\n</membership>

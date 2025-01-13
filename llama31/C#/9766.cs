@@ -1,0 +1,1 @@
+using (var context = new MyDataContext())\n{\n    var results = context.ExecuteQuery<OuterProcResult>("EXEC OuterProc");\n    var result = results.GetEnumerator();\n    result.MoveNext();\n    var resultSet = result.Current;\n    // process the result set\n}

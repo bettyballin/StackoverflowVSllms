@@ -1,1 +1,0 @@
-string password = "yourpassword";\nstring salt = "$1$somesalt";\nstring hashedPassword = CryptMD5.Crypt(password, salt);\nConsole.WriteLine(hashedPassword);

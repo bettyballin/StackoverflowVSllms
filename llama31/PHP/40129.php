@@ -1,0 +1,1 @@
+$db = new Database('localhost', 'username', 'password', 'database');\n$result = $db->query('SELECT * FROM users WHERE id = ?', array(1));\nwhile ($row = $result->fetch_assoc()) {\n  echo $row['name'];\n}\n$db->close();

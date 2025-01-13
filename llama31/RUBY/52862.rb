@@ -1,0 +1,1 @@
+def move_user\n  user_id = params[:user_id]\n  from_node_id = params[:from_node_id]\n  # ...\nend

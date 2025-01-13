@@ -1,0 +1,1 @@
+using (var dc = new DataContext())\n{\n    // Delete old specs\n    dc.ExecuteCommand("DELETE FROM ProductSpecs WHERE product_id = {0}", product_id);\n\n    // Insert new specs\n    foreach (var spec in newSpecs)\n    {\n        dc.ProductSpecs.InsertOnSubmit(spec);\n    }\n\n    dc.SubmitChanges();\n}

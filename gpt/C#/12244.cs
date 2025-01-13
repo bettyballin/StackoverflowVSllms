@@ -1,1 +1,0 @@
-// Silverlight Project\npublic partial class MainPage : UserControl\n{\n    private GameLogic game;\n\n    public MainPage()\n    {\n        InitializeComponent();\n        game = new GameLogic();\n        CompositionTarget.Rendering += GameLoop;\n    }\n\n    private void GameLoop(object sender, EventArgs e)\n    {\n        game.Update();\n        game.Draw();\n    }\n}

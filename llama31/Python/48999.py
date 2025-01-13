@@ -1,0 +1,1 @@
+import bleach\n\nallowed_tags = ['p', 'img', 'br', 'strong', 'em']\n\ndef clean_html(html_string):\n    cleaned_string = bleach.clean(html_string, tags=allowed_tags, strip=True)\n    return cleaned_string\n\nhtml_string = "<p>Hello <script>alert('XSS')</script> world!</p>"\ncleaned_string = clean_html(html_string)\nprint(cleaned_string)

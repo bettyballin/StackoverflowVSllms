@@ -1,1 +1,0 @@
-$query = "SELECT update_user_address(:id, :address)";\n$stmt = $db->prepare($query);\n$stmt->bindParam(':id', $userId, PDO::PARAM_INT);\n$stmt->bindParam(':address', $newAddress, PDO::PARAM_STR);\n$stmt->execute();

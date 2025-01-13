@@ -1,1 +1,0 @@
-icacls <PrivateKeyFile> /grant <UserAccount>:R

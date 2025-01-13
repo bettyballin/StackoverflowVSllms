@@ -1,0 +1,1 @@
+.select-container {\n  position: relative;\n  width: 200px;\n  height: 30px;\n}\n\n.select-container select {\n  opacity: 0;\n  position: absolute;\n  top: 0;\n  left: 0;\n  width: 100%;\n  height: 100%;\n  cursor: pointer;\n}

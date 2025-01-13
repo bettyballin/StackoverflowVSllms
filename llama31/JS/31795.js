@@ -1,0 +1,1 @@
+$("#compensation, #textbox2, #textbox3").on("keyup", CalculateTotalOnKeyUpEvent);

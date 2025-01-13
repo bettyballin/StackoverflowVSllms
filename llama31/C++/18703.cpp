@@ -1,0 +1,1 @@
+int a = 1;\nint & b = a; // b is a reference to a

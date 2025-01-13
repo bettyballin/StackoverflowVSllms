@@ -1,0 +1,1 @@
+public interface IRepository\n{\n    IEnumerable<Product> GetAllProducts();\n}

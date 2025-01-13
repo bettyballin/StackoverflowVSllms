@@ -1,1 +1,0 @@
-CREATE TABLE user_photos (\n       id INT PRIMARY KEY AUTO_INCREMENT,\n       user_id INT,\n       photo_url VARCHAR(255),\n       thumbnail_url VARCHAR(255),\n       upload_date TIMESTAMP DEFAULT CURRENT_TIMESTAMP,\n       FOREIGN KEY (user_id) REFERENCES users(id)\n   );

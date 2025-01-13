@@ -1,0 +1,1 @@
+gcc -shared -Wl,-ztextoff your_file.c -o your_library.so

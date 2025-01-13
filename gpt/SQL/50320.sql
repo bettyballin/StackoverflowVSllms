@@ -1,1 +1,0 @@
-EXPORT TO 'result.csv' OF DEL\nSELECT col1, col2, coln FROM testtable;

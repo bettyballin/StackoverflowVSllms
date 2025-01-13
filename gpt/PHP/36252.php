@@ -1,1 +1,0 @@
-$user = $this->getUser();\n$form = new YourForm($user);

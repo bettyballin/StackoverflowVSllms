@@ -1,1 +1,0 @@
-set ORACLE_HOME=C:\oracle\product\11.2.0\client_64\n    set PATH=%ORACLE_HOME%\bin;%PATH%

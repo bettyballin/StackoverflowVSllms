@@ -1,0 +1,1 @@
+<system.webServer>\n    <serverRuntime>\n        <connectionLimits maxConnections="100" />\n    </serverRuntime>\n</system.webServer>

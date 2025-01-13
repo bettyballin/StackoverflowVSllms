@@ -1,0 +1,1 @@
+variant_titles = relationship("VariantWorkTitle", backref="work", lazy='dynamic')

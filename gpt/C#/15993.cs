@@ -1,1 +1,0 @@
-public static class SessionParams\n{\n    public static string SessionParameterName => "HAVE_TO_TYPE_EVERY_TIME";\n}

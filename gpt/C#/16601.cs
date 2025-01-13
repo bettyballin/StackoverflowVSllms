@@ -1,1 +1,0 @@
-PrintReportToNetworkPrinter(@"C:\Reports\MyReport.rpt", @"\\MyNetworkPrinter\HP_LaserJet");

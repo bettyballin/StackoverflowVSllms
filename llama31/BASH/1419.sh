@@ -1,0 +1,1 @@
+jarsigner -keystore /path/to/keystore -storepass password -keypass password jar-file alias

@@ -1,1 +1,0 @@
-# List the object files in the library\nar -t libsamplerate.a\n\n# List the symbols in the library\nnm -s libsamplerate.a

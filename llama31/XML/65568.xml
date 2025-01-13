@@ -1,0 +1,1 @@
+<system.webServer>\n    <handlers>\n        <add name="MvcHandler" path="*" verb="*" type="System.Web.Handlers.TransferRequestHandler" resourceType="Unspecified" requireAccess="None" preCondition="integratedMode" />\n    </handlers>\n</system.webServer>

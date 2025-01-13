@@ -1,0 +1,1 @@
+Dim new_username As String = "your string here"\nDim index As Integer = new_username.IndexOf(" Joined ")\n\nIf index <> -1 AndAlso new_username.Length > index Then\n    new_username = new_username.Substring(0, index)\nElse\n    ' Handle the case where " Joined " is not found or is at the end of the string\nEnd If

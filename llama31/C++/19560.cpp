@@ -1,0 +1,1 @@
+HKEY hKey;\nif (ERROR_SUCCESS == RegOpenKeyEx(HKEY_LOCAL_MACHINE, L"SOFTWARE\\Microsoft\\Windows\\CurrentVersion", 0, KEY_READ, &hKey))\n{\n    std::wstring fullPath = GetRegistryKeyPath(hKey);\n    RegCloseKey(hKey);\n    // Use the fullPath variable\n}

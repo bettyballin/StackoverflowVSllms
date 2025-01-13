@@ -1,1 +1,0 @@
-public ActionResult GetString()\n{\n    string result = "This is a string result";\n    return Content(result);\n}

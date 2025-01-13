@@ -1,0 +1,1 @@
+IF SERVERPROPERTY('Edition') LIKE '%Express%'\n    PRINT 'This is SQL Server Express Edition'\nELSE\n    PRINT 'This is not SQL Server Express Edition'

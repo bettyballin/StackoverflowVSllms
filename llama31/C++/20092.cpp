@@ -1,0 +1,1 @@
+HRESULT CompareComInterfaces(IUnknown* pUnk1, IUnknown* pUnk2)\n{\n    return AtlCompareComInterfaces(pUnk1, pUnk2);\n}

@@ -1,1 +1,0 @@
-export PYTHONPYCACHEPREFIX=/path/to/code_compiled

@@ -1,0 +1,1 @@
+scp username@remote_server:/remote/path/to/file /local/path/to/download

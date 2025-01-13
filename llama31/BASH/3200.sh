@@ -1,0 +1,1 @@
+xwd -name "My Window" | convert - output.jpg

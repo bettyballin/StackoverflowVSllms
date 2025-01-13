@@ -1,0 +1,1 @@
+INSERT INTO CarList (CarColour, CarName, CarCompany)\nSELECT DISTINCT CarColour, CarName, CarCompany\nFROM NewCars\nEXCEPT\nSELECT CarColour, CarName, CarCompany\nFROM CarList

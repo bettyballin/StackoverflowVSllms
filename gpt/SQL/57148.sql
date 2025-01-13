@@ -1,1 +1,0 @@
-SET work_mem = '256MB';  -- Adjust based on your available resources

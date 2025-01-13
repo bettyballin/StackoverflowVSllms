@@ -1,1 +1,0 @@
-cp -r /etc/named /path/to/backup/named\n   cp /etc/named.conf /path/to/backup/named.conf

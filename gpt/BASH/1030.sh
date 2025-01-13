@@ -1,1 +1,0 @@
-etsh interface portproxy add v6tov4 listenport=53289 listenaddress=::1 connectport=53289 connectaddress=127.0.0.1

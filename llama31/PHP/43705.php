@@ -1,0 +1,1 @@
+function validate_phone($phone)\n{\n    $phoneregexp = "/^(\+[1-9][0-9]*(\([0-9]*\)|-[0-9]*-))?[0-9][1-9][0-9\- ]*$/";\n\n    $phonevalid = 0;\n\n    if (preg_match($phoneregexp, $phone))\n    {\n        $phonevalid = 1;\n    } else {\n        $phonevalid = 0;\n    }\n}

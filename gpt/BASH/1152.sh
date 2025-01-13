@@ -1,1 +1,0 @@
-wpr -start GeneralProfile\n     # Reproduce your scenario with explorer.exe\n     wpr -stop output.etl\n     wpa output.etl

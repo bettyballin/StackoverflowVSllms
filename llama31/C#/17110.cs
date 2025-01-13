@@ -1,0 +1,1 @@
+DataSet dataSet = ...; // your DataSet instance\n\n// Get the DataAdapter associated with the GetNotYoungPeople query\nSqlDataAdapter adapter = dataSet.Tables["GetNotYoungPeople"].DataAdapter as SqlDataAdapter;\n\n// Modify the CommandText property\nadapter.SelectCommand.CommandText = "select * from people where age > 17";

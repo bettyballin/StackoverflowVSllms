@@ -1,0 +1,1 @@
+string myValue = dbQueryResult.MyColumn;\nstring result;\nswitch (myValue)\n{\n    case "Y":\n        result = "Yes";\n        break;\n    case "N":\n        result = "No";\n        break;\n    default:\n        result = "Unknown";\n        break;\n}

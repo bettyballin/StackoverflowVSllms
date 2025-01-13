@@ -1,0 +1,1 @@
+class Thing {\n    function __construct(array $props=array()) {\n        $reflectionClass = new ReflectionClass($this);\n        foreach ($props as $key => $value) {\n            $reflectionClass->getProperty($key)->setValue($this, $value);\n        }\n    }\n}\n\n$foo = new Thing(array('bar' => 'baz'));\necho $foo->bar; // outputs "baz"

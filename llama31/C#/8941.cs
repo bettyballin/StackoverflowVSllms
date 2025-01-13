@@ -1,0 +1,1 @@
+public class BookmarkController : Controller\n{\n    [Route("bookmarks")]\n    public ActionResult Index()\n    {\n        // return a list of bookmarks\n    }\n\n    [Route("bookmark/{bookmarkId}")]\n    public ActionResult GetBookmark(int bookmarkId)\n    {\n        // return a single bookmark by id\n    }\n}

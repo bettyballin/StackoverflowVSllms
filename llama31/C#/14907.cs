@@ -1,0 +1,1 @@
+[HttpPost]\npublic ActionResult StoreLocation(string location)\n{\n    if (Session["UserLocation"] == null)\n    {\n        Session["UserLocation"] = location;\n    }\n    return Json(new { success = true });\n}

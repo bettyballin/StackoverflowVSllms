@@ -1,1 +1,0 @@
-var request = (HttpWebRequest)WebRequest.Create("http://yourserver/yourfile");\nrequest.UseDefaultCredentials = true;\n\nusing (var response = (HttpWebResponse)request.GetResponse())\n{\n    using (var stream = new StreamReader(response.GetResponseStream()))\n    {\n        string responseBody = stream.ReadToEnd();\n        Console.WriteLine(responseBody);\n    }\n}

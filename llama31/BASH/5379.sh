@@ -1,0 +1,1 @@
+XCOPY source destination /i /s /z /q /y /c

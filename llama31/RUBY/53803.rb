@@ -1,0 +1,1 @@
+class ActionController::Integration::Session\n  def request_via_redirect(*args)\n    # override the method to raise an exception for external requests\n    if args.first =~ /\Ahttps?:\/\/[^\/]+/\n      raise Webrat::ExternalRequestError.new(args.first)\n    end\n    super\n  end\nend

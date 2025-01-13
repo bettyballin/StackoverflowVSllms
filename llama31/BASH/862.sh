@@ -1,0 +1,1 @@
+convert base_image.jpg \\n  -font TT0590M_.ttf \\n  -fill gray30 \\n  -annotate +0+0 '' -gravity North \\n  \( -annotate +72+32 'ABCDEFGHIJKLM' -blur 0x4 \) \\n  -composite \\n  -fill white \\n  -annotate +72+27 'ABCDEFGHIJKLM' \\n  combined.png

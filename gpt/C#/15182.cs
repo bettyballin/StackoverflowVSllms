@@ -1,1 +1,0 @@
-private static readonly NLog.Logger Logger = NLog.LogManager.GetCurrentClassLogger();\n\npublic void ThreadSafeMethod()\n{\n    try\n    {\n        lock (_lockObject)\n        {\n            // Thread-safe code here\n        }\n    }\n    catch (Exception ex)\n    {\n        Logger.Error(ex, "ThreadSafeMethod encountered an exception.");\n    }\n}

@@ -1,0 +1,1 @@
+public IList<Entities.Customer> GetAll()\n{\n    try\n    {\n        EntityConverter<Dto.Customer, Entities.Customer> converter = new EntityConverter<Dto.Customer, Entities.Customer>();\n        return converter.Convert(base.GetEntities());\n    }\n}

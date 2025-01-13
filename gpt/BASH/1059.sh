@@ -1,1 +1,0 @@
-protoc --proto_path=. --php_out=. --grpc_out=. --plugin=protoc-gen-grpc=/path/to/grpc_php_plugin service.proto

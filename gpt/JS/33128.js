@@ -1,1 +1,0 @@
-<script type="text/javascript">\n  function getCookieValue(name) {\n    let cookieArr = document.cookie.split(";");\n    for(let i = 0; i < cookieArr.length; i++) {\n      let cookiePair = cookieArr[i].split("=");\n      if(name == cookiePair[0].trim()) {\n        return decodeURIComponent(cookiePair[1]);\n      }\n    }\n    return null;\n  }\n</script>

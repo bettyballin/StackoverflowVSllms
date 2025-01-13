@@ -1,0 +1,1 @@
+$firstKey = reset(array_keys($array));\n$lastKey = end(array_keys($array));\n\nforeach($array as $key => $element) {\n    if ($key == $firstKey) {\n        // first iteration\n    }\n    \n    // code\n    \n    if ($key == $lastKey) {\n        // last iteration\n    }\n}

@@ -1,1 +1,0 @@
-CREATE INDEX idx_example ON table(column1, column2, column3);\n   SELECT column1, column2, column3 FROM table WHERE column1 = 'value1';

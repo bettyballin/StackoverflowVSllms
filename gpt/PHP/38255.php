@@ -1,1 +1,0 @@
-function getFruit($str) {\n    if ($str == 'apple') {\n        return 'apple';\n    }\n    return 'not apple';\n}

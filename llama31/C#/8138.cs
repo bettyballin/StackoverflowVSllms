@@ -1,0 +1,1 @@
+var files = Directory.GetFiles(jobDir)\n    .Where(f => !new[] { ".exe", ".dll" }.Contains(Path.GetExtension(f)))\n    .ToArray();

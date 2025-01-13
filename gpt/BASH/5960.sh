@@ -1,1 +1,0 @@
-scp repository-name.dmp username@newserver:/path/to/destinatio

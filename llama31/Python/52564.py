@@ -1,0 +1,1 @@
+expected_output = doctest.normalize('expected output')\nself.assertTrue(checker.check_output(output.getvalue(), expected_output))

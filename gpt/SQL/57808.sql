@@ -1,1 +1,0 @@
-CREATE TABLE Location (\n       ZipCode VARCHAR(10) PRIMARY KEY,\n       City NVARCHAR(100),\n       State NVARCHAR(100)\n   );

@@ -1,1 +1,0 @@
-SELECT userid \nFROM (\n    SELECT userid, status, \n           ROW_NUMBER() OVER (PARTITION BY userid ORDER BY logcreated DESC) as rn\n    FROM status_log\n    WHERE logcreated <= '2008-01-15'\n) sub\nWHERE sub.rn = 1 AND sub.status = 's';

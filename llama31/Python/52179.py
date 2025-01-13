@@ -1,0 +1,1 @@
+def calculate_new_ordinal(prev_ordinal, next_ordinal):\n    return (prev_ordinal + next_ordinal) / 2

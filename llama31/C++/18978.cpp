@@ -1,0 +1,1 @@
+inline namespace ns { class A {}; }

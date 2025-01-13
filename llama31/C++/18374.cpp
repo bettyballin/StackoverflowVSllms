@@ -1,0 +1,1 @@
+HRESULT Foo(BSTR str) {\n    if (str == NULL) {\n        // Handle NULL input, e.g., return an error\n        return E_POINTER;\n    }\n\n    // Handle empty string\n    if (SysStringLen(str) == 0) {\n        // Perform actions for an empty string\n    }\n\n    // Handle non-empty string\n    // ...\n}

@@ -1,0 +1,1 @@
+# Edit your Apache configuration file (e.g., httpd.conf or apache2.conf)\n# Add the following line to disable the redirect limit\nRewriteOptions MaxRedirects 0

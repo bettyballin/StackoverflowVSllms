@@ -1,0 +1,1 @@
+object obj1 = new object();\nobject obj2 = new object();\nAssert.AreNotSame(obj1, obj2); // Passes

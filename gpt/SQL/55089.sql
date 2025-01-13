@@ -1,1 +1,0 @@
-SELECT g.genre\nFROM genres g\nJOIN genres2movies gm ON g.id = gm.genre_id\nWHERE gm.movie_id = ?

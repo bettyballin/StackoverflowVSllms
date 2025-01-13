@@ -1,0 +1,1 @@
+gzip -t SMS.tar.gz

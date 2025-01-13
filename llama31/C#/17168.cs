@@ -1,0 +1,1 @@
+using System.Diagnostics;\n\n// Create a new PerfCounter instance\nvar counter = new PerfCounter("ServiceModelService 4.0.0.0", "OpenConnections", true);\n\n// Get the current value of the counter\nint openConnections = counter.RawValue;

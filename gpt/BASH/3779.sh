@@ -1,1 +1,0 @@
-wget https://releases.wikimedia.org/mediawiki/1.36/mediawiki-1.36.1.tar.gz\n   tar -xvzf mediawiki-1.36.1.tar.gz\n   mv mediawiki-1.36.1 /path/to/your/application/mediawiki

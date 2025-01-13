@@ -1,0 +1,1 @@
+public partial class MyTable\n{\n    [MaxLength(typeof(MyTable), "MyStringField")]\n    public string MyStringField { get; set; }\n}

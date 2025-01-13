@@ -1,0 +1,1 @@
+cmd.Parameters.Add(New SqlParameter("@wholeThing", SqlDbType.NVarChar, -1) With {.Value = wholeThing})

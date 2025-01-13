@@ -1,0 +1,1 @@
+WITH RecursiveTree AS (\n  SELECT Id, ParentId, Visible, 0 AS Level\n  FROM MyTree\n  WHERE ParentId IS NULL AND Visible = 1\n\n  UNION ALL\n\n  SELECT m.Id, m.ParentId, m.Visible, Level + 1\n  FROM MyTree m\n  JOIN RecursiveTree p ON m.ParentId = p.Id\n  WHERE m.Visible = 1\n)\nSELECT * FROM RecursiveTree

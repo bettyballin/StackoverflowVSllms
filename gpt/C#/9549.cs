@@ -1,1 +1,0 @@
-using System;\nusing System.IO;\nusing System.Text;\n\nbyte[] data = ...; // your byte array\nstring filePath = Path.Combine(Application.StartupPath, "B323.txt");\n\nusing (var writer = new StreamWriter(filePath))\n{\n    writer.Write(Encoding.UTF8.GetString(data));\n}

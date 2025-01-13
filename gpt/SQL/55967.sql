@@ -1,1 +1,0 @@
-CREATE TABLE Users (\n       user_id INT PRIMARY KEY,\n       username VARCHAR(255) NOT NULL,\n       password_hash VARCHAR(255) NOT NULL,\n       ...\n   );

@@ -1,1 +1,0 @@
-double x1_new = // your new x1 value from coordinates1\ndouble y1_new = // your new y1 value from coordinates1\n\ndouble x2_new = x1_new * r_x;\ndouble y2_new = y1_new * r_y;

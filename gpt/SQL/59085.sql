@@ -1,1 +1,0 @@
-SELECT * FROM appts \nWHERE dayappt = '$boatdate'\nAND (\n    (timeStart <= '$timeEnd' AND timeEnd >= '$timeStart')\n);

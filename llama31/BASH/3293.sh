@@ -1,0 +1,1 @@
+dtd2xsd your_dtd.dtd -o your_schema.xsd

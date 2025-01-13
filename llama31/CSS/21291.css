@@ -1,0 +1,1 @@
+.container {\n  display: grid;\n  grid-template-rows: 10px 1fr 10px; /* 1fr = fill available space */\n  height: calc(100vh - 20px); /* subtract 20px from viewport height */\n}

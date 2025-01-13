@@ -1,0 +1,1 @@
+public PartialViewResult UpdateSections()\n{\n    // Update your model and other logic here\n    return PartialView("_SectionsPartial");\n}

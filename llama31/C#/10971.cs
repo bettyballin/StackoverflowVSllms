@@ -1,0 +1,1 @@
+public override int GetHashCode()\n{\n    unchecked\n    {\n        int hash = 17;\n        hash = hash * 23 + a.GetHashCode();\n        hash = hash * 23 + b.GetHashCode();\n        return hash;\n    }\n}

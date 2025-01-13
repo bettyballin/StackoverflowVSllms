@@ -1,0 +1,1 @@
+#ifndef __SAL_H_\n#define __SAL_H_\n\n#define __declspec(sal) __declspec(__sal)\n\n#endif  // __SAL_H_

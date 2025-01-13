@@ -1,1 +1,0 @@
-<!-- app/views/ratings/create.js.erb -->\n    $('#current-rating').html('<%= @rateable.ratings.average(:score).to_f.round(2) %> / 5');

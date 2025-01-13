@@ -1,0 +1,1 @@
+$yesterday = strtotime("yesterday");\n$last_week = strtotime("last week");\n$last_month = strtotime("last month");\n\n$start_date = date("Y-m-d H:i:s", $yesterday);  // or $last_week, $last_month

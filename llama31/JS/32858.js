@@ -1,0 +1,1 @@
+const element = document.querySelector('div');\nif (isElementClosed(element)) {\n  console.log('The element is closed.');\n} else {\n  console.log('The element is not closed.');\n}

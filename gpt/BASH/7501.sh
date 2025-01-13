@@ -1,1 +1,0 @@
-sudo nano /var/svn/repositories/my_project/conf/passwd

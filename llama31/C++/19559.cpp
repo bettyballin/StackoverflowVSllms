@@ -1,0 +1,1 @@
+#define FORMAT(items) (std::stringstream() << items).str()

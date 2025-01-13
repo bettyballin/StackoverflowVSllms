@@ -1,1 +1,0 @@
-SELECT *\nFROM your_table\nWHERE column_name REGEXP BINARY '(^|[[:space:]])[aA]'\n   OR column_name REGEXP BINARY '(^|[[:space:]])[cC]'\n   OR column_name REGEXP BINARY '(^|[[:space:]])[gG]'\n   OR column_name REGEXP BINARY '(^|[[:space:]])[jJ]';

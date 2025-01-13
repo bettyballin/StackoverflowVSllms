@@ -1,0 +1,1 @@
+while ($player = mysql_fetch_assoc($homePointsPlayerResult)) {\n    $home_players[] = array(\n        'player_id' => $player['player_id'],\n        'conversions' => $player['conversions']\n    );\n}

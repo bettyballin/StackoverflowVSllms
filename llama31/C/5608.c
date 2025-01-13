@@ -1,0 +1,1 @@
+#ifdef CORE_DATA_BUILD\n    // code here\n#endif

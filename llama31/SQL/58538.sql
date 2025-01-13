@@ -1,0 +1,1 @@
+CREATE TABLE search_queries (\n  id SERIAL PRIMARY KEY,\n  query_text VARCHAR(255) NOT NULL,\n  search_mode VARCHAR(50) NOT NULL CHECK (search_mode IN ('company_name', 'area_code', 'provided_services', ...)),\n  timestamp TIMESTAMP NOT NULL DEFAULT CURRENT_TIMESTAMP,\n  user_id INTEGER,  -- assuming you have a users table\n  FOREIGN KEY (user_id) REFERENCES users(id)\n);

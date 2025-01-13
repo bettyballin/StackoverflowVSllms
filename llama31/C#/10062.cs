@@ -1,0 +1,1 @@
+public class UserNameValidator : AbstractValidator<string>\n{\n    public UserNameValidator()\n    {\n        RuleFor(username => username).NotEmpty().WithMessage("Username is required");\n        RuleFor(username => username).Length(3, 20).WithMessage("Username must be between 3 and 20 characters");\n    }\n}

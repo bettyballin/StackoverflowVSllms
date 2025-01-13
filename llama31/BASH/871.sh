@@ -1,0 +1,1 @@
+svn diff -r A:B > patch.diff

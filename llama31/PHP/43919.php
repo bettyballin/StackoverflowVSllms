@@ -1,0 +1,1 @@
+while ($row = $result->fetch_assoc()) {\n    // process the row\n}

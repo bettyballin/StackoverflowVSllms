@@ -1,0 +1,1 @@
+public static MvcHtmlString CustomValidationSummary(this HtmlHelper helper, string message)\n{\n    var validationSummary = helper.ValidationSummary(message);\n    if (helper.ViewData.ModelState.IsValid)\n    {\n        return MvcHtmlString.Empty;\n    }\n    return MvcHtmlString.Create("<div class=\"validation-summary\">" + validationSummary.ToString() + "</div>");\n}

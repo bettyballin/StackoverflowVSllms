@@ -1,1 +1,0 @@
-<dependency>\n       <groupId>com.nimbusds</groupId>\n       <artifactId>nimbus-jose-jwt</artifactId>\n       <version>9.10</version>\n   </dependency>

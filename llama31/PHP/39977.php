@@ -1,0 +1,1 @@
+$var = NULL;\n$default = 'default value';\n\nvar_dump($var ?? $default); // string(12) "default value"

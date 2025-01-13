@@ -1,0 +1,1 @@
+$scpCommand = Command::createScpCommand('/local/file', 'remote:/path/to/file');\n$scpCommand->execute();

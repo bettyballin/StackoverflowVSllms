@@ -1,0 +1,1 @@
+XmlNamespaceManager nsmgr = new XmlNamespaceManager(siteMapXml.NameTable);\nnsmgr.AddNamespace("sm", "http://schemas.microsoft.com/AspNet/SiteMap-File-1.0");\nXmlNode levRoot = siteMapXml.SelectSingleNode("//sm:siteMapNode[@url=\"~/lev/index.aspx\"]", nsmgr);

@@ -1,0 +1,1 @@
+gem 'ad_manager'

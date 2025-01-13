@@ -1,1 +1,0 @@
-import stun\n\n    nat_type, external_ip, external_port = stun.get_ip_info()\n    \n    print(f"NAT Type: {nat_type}")\n    print(f"External IP: {external_ip}")\n    print(f"External Port: {external_port}")

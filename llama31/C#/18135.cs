@@ -1,0 +1,1 @@
+OracleConnection con = new OracleConnection("your_connection_string");\ncon.Open();\ncon.Trace = true;

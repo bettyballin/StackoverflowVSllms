@@ -1,1 +1,0 @@
-' Class1.vb\nPublic Class Class1\n    ' Class1 implementation\nEnd Class

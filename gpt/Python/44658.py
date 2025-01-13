@@ -1,1 +1,0 @@
-# Example usage of CIncludeChecker\n   python cincludechecker.py file.cpp

@@ -1,1 +1,0 @@
-gcc -shared -fPIC -o my_pass.so my_pass.c `gcc -print-file-name=plugin`

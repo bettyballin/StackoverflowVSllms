@@ -1,0 +1,1 @@
+from django.shortcuts import render\n\ndef colored_response(request):\n    string = 'abcd'\n    background_colors = [0.0, 1.0, 0.5, 1.0]\n\n    return render(request, 'colored_string.html', {'string': string, 'background_colors': background_colors})

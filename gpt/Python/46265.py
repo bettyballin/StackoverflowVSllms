@@ -1,1 +1,0 @@
-def update_elo(winner_rating, loser_rating, k=32):\n       expected_winner = 1 / (1 + 10 ** ((loser_rating - winner_rating) / 400))\n       expected_loser = 1 - expected_winner\n       \n       new_winner_rating = winner_rating + k * (1 - expected_winner)\n       new_loser_rating = loser_rating + k * (0 - expected_loser)\n       \n       return new_winner_rating, new_loser_rating

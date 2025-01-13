@@ -1,0 +1,1 @@
+svn merge -r A:B C

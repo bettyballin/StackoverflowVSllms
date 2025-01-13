@@ -1,1 +1,0 @@
-DBCC CHECKIDENT (SyncSession, RESEED, desired_value - 1);

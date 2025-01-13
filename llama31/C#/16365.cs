@@ -1,0 +1,1 @@
+// Assuming 'shape' is your shape object\nElementListCompartment compartment = shape.NestedChildShapes.OfType<ElementListCompartment>().FirstOrDefault();\nif (compartment != null)\n{\n    compartment.PopulateCompartment();\n}

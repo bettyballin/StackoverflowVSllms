@@ -1,0 +1,1 @@
+ALTER TABLE table1\nDROP CONSTRAINT PK_table1;\n\nALTER TABLE table1\nADD CONSTRAINT PK_table1\nPRIMARY KEY (ScreenId, ActivityItemId, ProductId);

@@ -1,1 +1,0 @@
-sudo chcon -R -t httpd_sys_rw_content_t /path/to/your/directory

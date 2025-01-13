@@ -1,0 +1,1 @@
+// rating.php\nheader('Content-Type: application/json');\n$data = array(\n    'width' => ($value / $votes) * 22,\n    'votes' => $votes\n);\necho json_encode($data);

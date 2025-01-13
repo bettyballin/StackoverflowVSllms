@@ -1,1 +1,0 @@
-if (input_value < MIN_VALUE || input_value > MAX_VALUE) {\n        // Handle invalid input\n    }

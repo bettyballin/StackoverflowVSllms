@@ -1,1 +1,0 @@
-telnet hostip 11300

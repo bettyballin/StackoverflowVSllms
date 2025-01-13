@@ -1,0 +1,1 @@
+aspnet_regiis -pc "MyCustomKey" -exp

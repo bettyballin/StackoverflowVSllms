@@ -1,0 +1,1 @@
+<?php\n// Start of your script\n\n// Your PHP code here...\n\n// Measure the time elapsed since the start of the script\n$timeElapsed = xdebug_time_index();\necho "Time elapsed: $timeElapsed seconds";

@@ -1,0 +1,1 @@
+INSERT INTO mytable (column1, column2) VALUES ('value1', 'value2');\nSELECT DBINFO('sqlca.sqlerrd1') FROM systables WHERE tabname = 'mytable';

@@ -1,0 +1,1 @@
+<body data-view-type="company" data-company-id="<%= @company.id %>">\n  <!-- existing code -->\n</body>

@@ -1,0 +1,1 @@
+Properties.Settings.Default["YourConnectionStringSetting"] = newConnectionString;\nProperties.Settings.Default.Save();

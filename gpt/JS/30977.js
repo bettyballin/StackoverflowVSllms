@@ -1,1 +1,0 @@
-$('#searchButton').click(function() {\n    var randomNum = Math.random(); // Generate a random number\n    var query = $('#query').val();\n    $('#inquiry').load('/portal/?f=searchBilling&pid=' + query + '&_=' + randomNum);\n});

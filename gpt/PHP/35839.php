@@ -1,1 +1,0 @@
-date_default_timezone_set('Your/Timezone'); // Replace 'Your/Timezone' with your local timezone\n$msg = 'Your error message here';\n$phperrorPath = 'path/to/your/logfile.log'; // Replace with the actual path to your log file\nerror_log('[' . date("F j, Y, g:i a") . '] ' . $msg . PHP_EOL, 3, $phperrorPath);

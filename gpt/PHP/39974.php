@@ -1,1 +1,0 @@
-$shoppingcartID = 1; // Example shoppingcart_id value\n\n// Retrieve all rows where shoppingcart_id is equal to the specified value\n$arr = ORM::factory('product_shoppingcart')\n    ->where('shoppingcart_id', '=', $shoppingcartID)\n    ->find_all();\n\n// Iterate through the results\nforeach ($arr as $product_shoppingcart) {\n    // Do something with each $product_shoppingcart\n}

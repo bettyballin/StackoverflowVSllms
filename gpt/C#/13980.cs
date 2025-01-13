@@ -1,1 +1,0 @@
-public bool CanUserVote(HttpContextBase context, int pictureId)\n{\n    var votesCookie = context.Request.Cookies["UserVotes"];\n    var votes = votesCookie?.Value.Split(',').Select(int.Parse).ToList() ?? new List<int>();\n    return !votes.Contains(pictureId);\n}

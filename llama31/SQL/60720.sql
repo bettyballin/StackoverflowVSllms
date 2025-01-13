@@ -1,0 +1,1 @@
+UPDATE table_name\nSET column_name = REPLACE(column_name, '/files/', '/sites/default/files/');

@@ -1,0 +1,1 @@
+string name = Request.Params["name"];

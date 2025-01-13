@@ -1,1 +1,0 @@
-sudo chmod +x /usr/local/bin/svn_backup.sh

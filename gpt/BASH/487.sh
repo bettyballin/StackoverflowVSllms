@@ -1,1 +1,0 @@
-mkdir -p ~/rpmbuild/{BUILD,RPMS,SOURCES,SPECS,SRPMS}\n   echo '%_topdir %(echo $HOME)/rpmbuild' > ~/.rpmmacros

@@ -1,1 +1,0 @@
-pv largefile.xml | wc -l

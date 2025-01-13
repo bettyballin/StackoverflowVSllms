@@ -1,0 +1,1 @@
+' Sample VB.NET code to set report parameter values\nDim report As New Report()\nreport.Parameters.Add(New ReportParameter("StartDate", "2022-01-01"))\nreport.Parameters.Add(New ReportParameter("EndDate", "2022-01-31"))

@@ -1,0 +1,1 @@
+gfortran -fsyntax-only -cpp your_source_file.f90

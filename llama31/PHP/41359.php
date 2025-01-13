@@ -1,0 +1,1 @@
+function sortByProperty($array, $property) {\n    usort($array, function($a, $b) use ($property) {\n        return $a->$property - $b->$property;\n    });\n    return $array;\n}\n\n$sortedObjectArray = sortByProperty($unsortedObjectArray, 'weight');

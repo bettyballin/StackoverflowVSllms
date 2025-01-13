@@ -1,1 +1,0 @@
-#!/bin/bash\n   source myenv/bin/activate\n   python manage.py runserver

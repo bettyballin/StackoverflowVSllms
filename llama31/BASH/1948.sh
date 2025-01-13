@@ -1,0 +1,1 @@
+$path = "E:\Exchange\Databases\Mailbox Database.edb"\n$volume = Get-WmiObject -Class Win32_Volume -Filter "DriveLetter='$(Split-Path -Qualifier $path)'"\necho $volume.DeviceID

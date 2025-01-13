@@ -1,0 +1,1 @@
+string remoteMachineName = "yourRemoteMachineName";\nstring filePath = "C:\\path\\to\\your\\file.txt";\n\ntry\n{\n    string fileContents = RemoteFileReader.ReadRemoteFile(remoteMachineName, filePath);\n    // Process the file contents\n}\ncatch (Exception ex)\n{\n    // Handle the exception\n}

@@ -1,0 +1,1 @@
+// See all hits made from a specific IP\nlogparser -i:IISW3C -o:CSV "SELECT * FROM 'C:\Logs\IIS\*.log' WHERE c-ip = '192.168.1.100'"\n\n// See all hits to a specific ASHX file\nlogparser -i:IISW3C -o:CSV "SELECT * FROM 'C:\Logs\IIS\*.log' WHERE cs-uri-stem = '/path/to/your/file.ashx'"

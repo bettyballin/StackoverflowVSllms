@@ -1,0 +1,1 @@
+SELECT \n  MIN(VALUE) AS range_low,\n  MAX(VALUE) AS range_high,\n  AVG(VALUE) AS average\nFROM \n  your_table;

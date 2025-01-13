@@ -1,0 +1,1 @@
+function is_iphone() {\n$useragent=$_SERVER['HTTP_USER_AGENT'];\nif(preg_match('/iPhone/i',$useragent))\n{\nreturn true;\n}\nelse\n{\nreturn false;\n}\n}

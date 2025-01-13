@@ -1,0 +1,1 @@
+validate :has_at_least_one_user\n\nprivate\n\ndef has_at_least_one_user\n  errors.add(:users, "must have at least one user") if users.empty?\nend

@@ -1,1 +1,0 @@
-gcc -fplugin=./my_pass.so your_source_file.c

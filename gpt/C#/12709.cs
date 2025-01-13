@@ -1,1 +1,0 @@
-public class HomeController : Controller\n   {\n       [HttpPost]\n       public ActionResult ClearSession()\n       {\n           Session.Clear();\n           return new EmptyResult();\n       }\n   }

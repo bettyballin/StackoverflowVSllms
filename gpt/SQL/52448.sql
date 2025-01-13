@@ -1,1 +1,0 @@
-UPDATE users u\nJOIN (\n    SELECT user_id, SUM(points) AS total_score\n    FROM score_events\n    GROUP BY user_id\n) s ON u.user_id = s.user_id\nSET u.score = s.total_score;

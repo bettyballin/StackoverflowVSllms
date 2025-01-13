@@ -1,0 +1,1 @@
+map.resources :websites, :has_many => :dns_records, \n               :constraints => { :id => /[a-zA-Z0-9\.]+/ }

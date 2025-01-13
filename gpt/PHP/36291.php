@@ -1,1 +1,0 @@
-$pdo = new PDO('mysql:host=localhost;dbname=your_database', 'your_username', 'your_password');\n  $stmt = $pdo->prepare("INSERT INTO your_table (column1, column2) VALUES (:value1, :value2)");\n  $stmt->execute(['value1' => 'value1', 'value2' => 'value2']);

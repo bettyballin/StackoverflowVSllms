@@ -1,0 +1,1 @@
+try\n{\n    // code that might throw an exception\n}\ncatch (Exception ex)\n{\n    Debugger.Break();\n}

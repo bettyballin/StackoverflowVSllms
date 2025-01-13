@@ -1,1 +1,0 @@
-gcc --version\n/path/to/your/cross-compiler --versio

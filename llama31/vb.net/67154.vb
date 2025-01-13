@@ -1,0 +1,1 @@
+Dim myString As String = "Hello, World!"

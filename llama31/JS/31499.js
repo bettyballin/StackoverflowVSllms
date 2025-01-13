@@ -1,0 +1,1 @@
+$(document).ready(function() {\n  $('td').hover(function() {\n    var title = $(this).find('span').attr('title');\n    tip(title);\n  }, function() {\n    // Optional: hide the tooltip when mouse is moved out\n    // hideTip(); // Assuming you have a function named hideTip() to hide the tooltip\n  });\n});

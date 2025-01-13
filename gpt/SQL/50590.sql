@@ -1,1 +1,0 @@
--- Check database encoding\nSHOW VARIABLES LIKE 'character_set_database';\n\n-- Check table encoding\nSHOW TABLE STATUS WHERE Name = 'your_table_name';

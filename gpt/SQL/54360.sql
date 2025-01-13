@@ -1,1 +1,0 @@
-UPDATE YourTable\nSET YourColumn = SUBSTRING(\n    YourColumn,\n    CHARINDEX('(', YourColumn) + 1,\n    CHARINDEX(')', YourColumn) - CHARINDEX('(', YourColumn) - 1\n)\nWHERE YourColumn LIKE '%(%)%';

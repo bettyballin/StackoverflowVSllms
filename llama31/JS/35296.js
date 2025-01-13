@@ -1,0 +1,1 @@
+$('#myForm').validate({\n  rules: {\n    email: {\n      required: true,\n      email: true,\n    },\n    password: {\n      required: true,\n      pattern: /(?=.{8,})/\n    }\n  }\n});

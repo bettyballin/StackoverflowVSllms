@@ -1,1 +1,0 @@
-window.onscroll = function() {\n       if ((window.innerHeight + window.scrollY) >= document.body.offsetHeight) {\n           // Load more content here\n       }\n   };

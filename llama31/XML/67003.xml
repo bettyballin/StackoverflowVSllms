@@ -1,0 +1,1 @@
+<!-- Example of user.xml file containing custom snippets -->\n<?xml version="1.0" encoding="UTF-8"?>\n<snippets>\n  <snippet id="my_snippet_1">\n    <name>My Snippet 1</name>\n    <code>SELECT * FROM dual;</code>\n  </snippet>\n  <snippet id="my_snippet_2">\n    <name>My Snippet 2</name>\n    <code>SELECT sysdate FROM dual;</code>\n  </snippet>\n</snippets>

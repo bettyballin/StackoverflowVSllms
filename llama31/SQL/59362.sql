@@ -1,0 +1,1 @@
+SELECT t1.username, t1.email, t1.activation_code\nFROM your_table t1\nINNER JOIN (\n  SELECT DISTINCT email\n  FROM your_table\n) t2\nON t1.email = t2.email;

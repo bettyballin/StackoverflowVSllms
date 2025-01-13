@@ -1,0 +1,1 @@
+document.getElementById('drug_name').addEventListener('keydown', function(event) {\n  if (event.keyCode === 13) { // 13 is the keyCode for Enter\n    event.preventDefault();\n    // Make your AJAX call here\n    // ...\n  }\n});

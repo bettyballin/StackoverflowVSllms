@@ -1,0 +1,1 @@
+table tr:first-child td:nth-child(1):only-child {\n  border-right: none;\n}

@@ -1,0 +1,1 @@
+* Use JOINs to combine data from multiple tables in a single query\n* Use a data access layer (DAL) or an Object-Relational Mapping (ORM) library to simplify data retrieval

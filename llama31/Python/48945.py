@@ -1,0 +1,1 @@
+s = 'arbit'\nstring = '%s hello world %s hello world %s' % ((s,) * 3)

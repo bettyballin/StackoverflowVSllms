@@ -1,1 +1,0 @@
-CREATE TABLE `sessions` (\n    `id` varchar(128) NOT NULL,\n    `data` text NOT NULL,\n    `timestamp` int(10) unsigned NOT NULL,\n    PRIMARY KEY (`id`)\n);

@@ -1,0 +1,1 @@
+svnrdump /path/to/repo > repo.dump\nsvnadmin create /path/to/backup\nsvnadmin load /path/to/backup < repo.dump

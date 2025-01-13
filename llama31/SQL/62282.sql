@@ -1,0 +1,1 @@
+CREATE TABLE tables (\n  id INT PRIMARY KEY,\n  table_data TEXT\n);

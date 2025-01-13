@@ -1,0 +1,1 @@
+document.getElementById("yourVariable").value = yourVariable;

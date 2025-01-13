@@ -1,1 +1,0 @@
-# Initialize a new git repository\ngit init my-repo\ncd my-repo\n\n# Initialize Git LFS\ngit lfs install\n\n# Track binary files with Git LFS (example for .bin files)\ngit lfs track "*.bin"\n\n# Add .gitattributes to the repository\ngit add .gitattributes\n\n# Add your binary files\ngit add *.bin\n\n# Commit the changes\ngit commit -m "Add binary files with Git LFS tracking"

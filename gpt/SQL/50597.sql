@@ -1,1 +1,0 @@
--- Start the jobs\nEXEC msdb.dbo.sp_start_job @job_name='Job_Proc1';\nEXEC msdb.dbo.sp_start_job @job_name='Job_Proc2';

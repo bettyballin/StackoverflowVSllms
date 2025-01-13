@@ -1,0 +1,1 @@
+sudo pecl install <package_name>

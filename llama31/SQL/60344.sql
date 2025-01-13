@@ -1,0 +1,1 @@
+SELECT *\nFROM (\n  SELECT *, ROW_NUMBER() OVER (ORDER BY name) AS row_num\n  FROM sometable\n)\nWHERE row_num BETWEEN 21 AND 30;

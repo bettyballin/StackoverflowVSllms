@@ -1,1 +1,0 @@
-// Example of ODBC connection string for Entity Framework\n   string connectionString = "DSN=YourDSNName;Uid=yourUsername;Pwd=yourPassword;";

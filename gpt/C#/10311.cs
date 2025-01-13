@@ -1,1 +1,0 @@
-amespace MyApp.Tests.LoginTests\n   {\n       public class UserLoginTests\n       {\n           // Test methods\n       }\n   }

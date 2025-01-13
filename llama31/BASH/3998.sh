@@ -1,0 +1,1 @@
+fuser -k /path/to/locked/file

@@ -1,0 +1,1 @@
+$tableName = "friend_friend_$partitionNumber";

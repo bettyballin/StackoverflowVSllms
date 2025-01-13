@@ -1,0 +1,1 @@
+sudo service samba restart

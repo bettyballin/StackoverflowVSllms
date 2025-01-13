@@ -1,1 +1,0 @@
-IList employeesWithAddresses = sess.CreateCriteria(typeof(Employee), "e")\n    .CreateAlias("e.Address", "a")\n    .Add(Restrictions.IsNotNull("a.Id")) // Assuming 'Id' is the primary key of AddressInfo\n    .List();

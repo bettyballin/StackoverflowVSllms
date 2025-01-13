@@ -1,0 +1,1 @@
+ErrorBox.prototype.setUpErrorBox = function(btnClientID) {\n    var self = this;\n    if (btnClientID == null) {\n        setTimeout(function() { self.setUpErrorBox(); }, 1000);\n        return;\n    }\n    Event.observe(btnClientID, 'click', function() { self.setValSummary(); });\n}

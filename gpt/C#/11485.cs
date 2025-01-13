@@ -1,1 +1,0 @@
-#if TOM\nusing DeveloperNamespace.Tom;\n#endif\n\nnamespace MainNamespace\n{\n    public partial class MainClass\n    {\n        public void Execute()\n        {\n#if TOM\n            TomClass tomClass = new TomClass();\n            tomClass.DoSomething();\n#endif\n        }\n    }\n}

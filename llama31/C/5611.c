@@ -1,0 +1,1 @@
+#include <stdio.h>\n\nint main() {\n    unsigned char pixel = 0xFF; // 255\n\n    // Integer arithmetic\n    pixel = pixel / 2;\n\n    // Bitwise operation (shift right)\n    pixel = pixel >> 1;\n\n    printf("%d\n", pixel);\n\n    return 0;\n}

@@ -1,0 +1,1 @@
+$monthlybill = $_GET['monthlybill'];\necho "Your monthly bill was $" . $monthlybill;

@@ -1,1 +1,0 @@
-using (SqlConnection connection = new SqlConnection(connectionString))\n{\n    connection.Open();\n    // Execute your commands here\n}

@@ -1,1 +1,0 @@
-dotfuscator /in:YourAssembly.dll /out:YourAssembly_Obfuscated.dll

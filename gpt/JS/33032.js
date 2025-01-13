@@ -1,1 +1,0 @@
-<script>\n  const eventSource = new EventSource('/events');\n\n  eventSource.onmessage = function (event) {\n    const updates = JSON.parse(event.data);\n    console.log('Received updates:', updates);\n    // Update the page with new values\n  };\n\n  eventSource.onerror = function () {\n    console.log('Error occurred');\n  };\n</script>

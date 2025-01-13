@@ -1,0 +1,1 @@
+#pragma GCC diagnostic push\n#pragma GCC diagnostic ignored "-Wunused-variable"\n// code that triggers the warning\n#pragma GCC diagnostic pop

@@ -1,0 +1,1 @@
+perf record -a -g -p $(pgrep httpd)

@@ -1,0 +1,1 @@
+$xml_data = file_get_contents('php://input');\n\n// Process the XML data\n$xml = simplexml_load_string($xml_data);

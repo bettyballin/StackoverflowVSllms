@@ -1,1 +1,0 @@
-lspci | grep -i vga\n   yum update

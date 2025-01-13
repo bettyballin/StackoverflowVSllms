@@ -1,0 +1,1 @@
+$tmpStr = preg_replace('/([?#^&*()\/$])/', '\\\1', $tmpStr);

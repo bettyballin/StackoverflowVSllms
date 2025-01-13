@@ -1,1 +1,0 @@
-var configuration = new Configuration();\n   configuration.Configure();\n   var schemaUpdate = new SchemaUpdate(configuration);\n   schemaUpdate.Execute(true, true);

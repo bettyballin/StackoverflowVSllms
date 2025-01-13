@@ -1,1 +1,0 @@
-// src/Core/Model.php\nnamespace App\Core;\n\nclass Model {\n    protected static $db;\n\n    public static function init() {\n        self::$db = new \PDO("mysql:host=localhost;dbname=test", "root", "");\n    }\n\n    public static function query($sql, $params = []) {\n        $stmt = self::$db->prepare($sql);\n        $stmt->execute($params);\n        return $stmt;\n    }\n}

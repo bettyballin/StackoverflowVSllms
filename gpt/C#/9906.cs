@@ -1,1 +1,0 @@
-// Example of encoding in C#\n   string safeInput = HttpUtility.UrlEncode(userInput);

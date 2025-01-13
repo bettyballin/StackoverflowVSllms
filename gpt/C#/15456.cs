@@ -1,1 +1,0 @@
-ManualResetEvent manualEvent = new ManualResetEvent(false);\n\n// Thread 1\nmanualEvent.WaitOne(); // Waits for a signal\n\n// Thread 2\nmanualEvent.Set(); // Signals all waiting threads to proceed\n\n// Thread 3\nmanualEvent.Reset(); // Resets the event to an unsignaled state

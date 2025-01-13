@@ -1,1 +1,0 @@
-// Inside the file browser connector script, typically found at editor/filemanager/browser/default/connectors/php/connector.php\n$defaultFolder = 'your_subfolder_name'; // The subfolder you want to start i

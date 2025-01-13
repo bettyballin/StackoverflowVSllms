@@ -1,0 +1,1 @@
+<?php\n  $url = $_GET['url'];\n  $response = file_get_contents($url);\n  echo $response;\n?>

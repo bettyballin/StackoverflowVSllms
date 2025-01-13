@@ -1,0 +1,1 @@
+<Root>\n  <node1>\n    <field1>data1</field1>\n    <field2>data2</field2>\n    <child1>\n      <field3>data3</field3>\n      <field4>data4</field4>\n    </child1>\n    <child1>\n      ...\n    </child1>\n  </node1>\n  <node1>\n    ...\n  </node1>\n</Root>

@@ -1,0 +1,1 @@
+YUI().use('node', function(Y) {\n    var foo = Y.one('#foo');\n    foo.set('innerHTML', 'Hello, World!');\n});

@@ -1,0 +1,1 @@
+textarea {\n  overflow-y: hidden; /* or auto */\n  /* other styles */\n}\n\n/* IE8 specific hack */\n@media all and (min-width:0) {\n  textarea {\n    overflow-y: hidden; /* or auto */\n  }\n}

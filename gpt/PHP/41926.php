@@ -1,1 +1,0 @@
-<?php\n$site = "www.google.com";\n\n// Ensure the URL has a scheme\nif (filter_var($site, FILTER_VALIDATE_URL) === false) {\n    // If the URL is missing a scheme, prepend "http://"\n    $site = "http://" . $site;\n}\n\n$content = @file_get_contents($site);\n\nif ($content === FALSE) {\n    echo "Failed to retrieve contents from $site";\n} else {\n    echo $content;\n}\n?>

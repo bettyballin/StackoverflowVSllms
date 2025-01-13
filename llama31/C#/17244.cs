@@ -1,0 +1,1 @@
+using System.Threading;\n\npublic class MyPage : Page\n{\n    protected void Button1_Click(object sender, EventArgs e)\n    {\n        ThreadPool.QueueUserWorkItem(new WaitCallback(MyLongRunningTask));\n    }\n\n    private void MyLongRunningTask(object state)\n    {\n        // Perform long-running task\n    }\n}

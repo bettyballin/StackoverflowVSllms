@@ -1,1 +1,0 @@
-DROP INDEX IX_BlogPost ON YourTableName;

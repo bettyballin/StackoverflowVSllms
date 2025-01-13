@@ -1,0 +1,1 @@
+SELECT sql_id FROM V$SQL WHERE sql_text LIKE '%my_procedure_name%';

@@ -1,0 +1,1 @@
+SELECT \n    *\nFROM \n    sys.foreign_keys\nWHERE \n    is_disabled = 1 OR is_not_trusted = 1;

@@ -1,0 +1,1 @@
+api = twitter.Api(username="username", password="password")\nuser = api.GetUser(user="username")\nuser.SetLocation('New Location')\napi.UpdateProfile(user)

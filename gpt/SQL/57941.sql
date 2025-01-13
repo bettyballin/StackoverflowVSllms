@@ -1,1 +1,0 @@
-SELECT \n    userid, IP, datetime \nFROM \n    bigBrother \nWHERE \n    datetime BETWEEN DATE_SUB(NOW(), INTERVAL 3 MINUTE) AND NOW()\nGROUP BY \n    userid, IP;

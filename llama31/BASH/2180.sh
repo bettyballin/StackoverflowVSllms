@@ -1,0 +1,1 @@
+$ git add --patch your_file.txt

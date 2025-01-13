@@ -1,0 +1,1 @@
+ViewState["authToken"] = "some-sensitive-token";

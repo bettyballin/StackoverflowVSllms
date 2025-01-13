@@ -1,0 +1,1 @@
+regasm /regfile:myassemblies.reg

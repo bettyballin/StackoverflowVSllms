@@ -1,0 +1,1 @@
+public class DualValue\n{\n    public string Value1 { get; set; }\n    public string Value2 { get; set; }\n}\n\nvar dictionary = new Dictionary<string, DualValue>\n{\n    { "Key", new DualValue { Value1 = "Value1", Value2 = "Value2" } }\n};

@@ -1,1 +1,0 @@
-# Open the Developer Command Prompt for Visual Studio\n# Type the following command to look up a specific HRESULT value\nerrlook 0x80004027

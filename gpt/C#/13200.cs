@@ -1,1 +1,0 @@
-using System.Collections.Generic;\n\nnamespace MyNamespace\n{\n    using IntPair = KeyValuePair<int, int>; // works\n}

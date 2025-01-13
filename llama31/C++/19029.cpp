@@ -1,0 +1,1 @@
+Object obj;\nobj.DoX(5);  // T is int\nobj.DoX(3.14);  // T is double\nobj.DoX("Hello");  // T is const char*

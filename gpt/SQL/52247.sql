@@ -1,1 +1,0 @@
--- On the Teacher server\nCREATE VIEW TeacherPeople AS\nSELECT * FROM People\nWHERE Role = 'Teacher';\n\n-- On the Student server\nCREATE VIEW StudentPeople AS\nSELECT * FROM People\nWHERE Role = 'Student';

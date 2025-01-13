@@ -1,0 +1,1 @@
+convert -quality 100% original_480x360.jpg -resize 484x362! output_484x362.jpg

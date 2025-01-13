@@ -1,0 +1,1 @@
+// In your PHP script\nxdebug_break(); // Set a breakpoint\n\n// In PHPStorm\n// 1. Install the Xdebug extension\n// 2. Configure Xdebug in PHPStorm\n// 3. Start the debugger

@@ -1,0 +1,1 @@
+WITH ranked_rows AS (\n  SELECT *, ROW_NUMBER() OVER (ORDER BY your_column) AS row_num\n  FROM your_table\n)\nSELECT row_num - 1 AS offset\nFROM ranked_rows\nWHERE unique_identifier = X

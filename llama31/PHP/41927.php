@@ -1,0 +1,1 @@
+$locale = 'en_US'; // or any other locale\n$cal = new IntlCalendar($locale);\n$firstDayOfWeek = $cal->getFirstDayOfWeek();\n\nif ($firstDayOfWeek == IntlCalendar::DOW_SUNDAY) {\n    echo "Sunday";\n} elseif ($firstDayOfWeek == IntlCalendar::DOW_MONDAY) {\n    echo "Monday";\n}

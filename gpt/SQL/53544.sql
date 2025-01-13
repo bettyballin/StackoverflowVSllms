@@ -1,1 +1,0 @@
-SELECT t.a, t.b\nFROM t\nWHERE (t.a, t.b) IN ((1, 2), (3, 4));

@@ -1,1 +1,0 @@
-# Copy the file to the server using SCP\nscp importantFile.txt slave@theServerAddress:/pathToFile/importantFile.txt\n\n# Change the ownership of the file to the user who performed the SCP operation\nssh slave@theServerAddress "sudo chown slave:master /pathToFile/importantFile.txt"

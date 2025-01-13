@@ -1,0 +1,1 @@
+CREATE TRIGGER trg_Customers_Insert ON Customers\nAFTER INSERT\nAS\nBEGIN\n    INSERT INTO NewCustomers (CustomerID, CreatedDate)\n    SELECT i.CustomerID, i.CreatedDate\n    FROM inserted i;\nEND;

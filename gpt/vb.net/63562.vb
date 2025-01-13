@@ -1,1 +1,0 @@
-' Define a collection of strings\nPublic MyCollection As New List(Of String) From {\n    "Item 1",\n    "Item 2",\n    "Item 3",\n    "Item 4",\n    "Item 5"\n}\n\n' Example initialization in the constructor or a specific method\nPublic Sub New()\n    InitializeComponent()\n    ' Optionally, add more items to MyCollection here\nEnd Sub

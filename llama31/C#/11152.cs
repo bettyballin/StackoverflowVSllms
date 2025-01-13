@@ -1,0 +1,1 @@
+List<MyObject> myList = new List<MyObject>();\nIEnumerable<MyObject> myEnumerable = myList;

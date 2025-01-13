@@ -1,1 +1,0 @@
-SELECT p1.id AS person_id, p1.first_name AS person_first_name, \n       p2.id AS profile_id, p2.first_name AS profile_first_name\nFROM PEOPLE p1\nLEFT JOIN PEOPLE p2 ON p1.profile_id = p2.id;

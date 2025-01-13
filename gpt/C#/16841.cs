@@ -1,1 +1,0 @@
-public class TestController : Controller\n{\n    [Restricted("RegisteredMember")]\n    public ActionResult DoSomething()\n    {\n        // This code can only be executed if the logged-in user\n        // is a member of the RegisteredMember group.\n        return View();\n    }\n}

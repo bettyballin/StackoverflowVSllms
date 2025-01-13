@@ -1,1 +1,0 @@
-awk 'FNR==1{print ""}1' *.txt > combined_emails.txt

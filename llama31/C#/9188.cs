@@ -1,0 +1,1 @@
+public interface ISomeClass<out T> { }\n\npublic class SomeClass<T> : ISomeClass<T> { }\n\npublic class C\n{\n    private List<ISomeClass<object>> list = new List<ISomeClass<object>>();\n\n    public void Method<T>(SomeClass<T> obj)\n    {\n        list.Add(obj);\n    }\n}

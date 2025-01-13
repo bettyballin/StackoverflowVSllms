@@ -1,0 +1,1 @@
+// Common interface for ADIF writers\nnamespace ADIF.Common\n{\n    public interface IADIFWriter\n    {\n        void WriteFile(string filePath);\n    }\n}

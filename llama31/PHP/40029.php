@@ -1,0 +1,1 @@
+$image_type = exif_imagetype($file_path);

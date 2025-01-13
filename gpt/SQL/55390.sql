@@ -1,1 +1,0 @@
-select count(*) from dual\nwhere exists (\n  select * from people\n  where (<condition A>)\n  and not (NVL(<condition B>, 'some_impossible_value') = 'some_impossible_value')\n);

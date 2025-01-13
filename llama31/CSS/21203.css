@@ -1,0 +1,1 @@
+:root {\n  --med-font-size: 12px;\n}\n\n#message a {\n  font-size: var(--med-font-size);\n  color: blue;\n}\n\n#footer a {\n  font-size: var(--small-font-size);\n}

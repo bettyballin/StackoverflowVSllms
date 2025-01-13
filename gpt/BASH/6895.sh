@@ -1,1 +1,0 @@
-chmod +x /home/www/Init.pm\n   chmod +r /path/to/games_mp.log

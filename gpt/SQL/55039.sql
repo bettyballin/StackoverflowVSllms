@@ -1,1 +1,0 @@
-CREATE TABLE YourTableName (\n       Column1 NVARCHAR(MAX),\n       Column2 NVARCHAR(MAX),\n       -- Add more columns as needed\n   );

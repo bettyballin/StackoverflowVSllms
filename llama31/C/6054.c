@@ -1,0 +1,1 @@
+#include <stdio.h>\n#include <string.h>\n\nvoid vulnerable_function(const char *input) {\n    char *buf = alloca(10);\n    strcpy(buf, input); // No bounds checking\n    printf("%s\n", buf);\n}\n\nint main() {\n    vulnerable_function("Very long string that exceeds the buffer size");\n    return 0;\n}

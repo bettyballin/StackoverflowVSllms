@@ -1,1 +1,0 @@
-#include <windows.h>\n\n   void SomeFunctionInYourDLL()\n   {\n       // Trigger a breakpoint\n       DebugBreak();\n\n       // Your existing code\n       // ...\n   }

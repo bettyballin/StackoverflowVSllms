@@ -1,0 +1,1 @@
+using FakeItEasy;\n\n// Arrange\nvar controller = A.Fake<Controller>();\nvar httpContext = A.Fake<HttpContextBase>();\n\n// Act\nA.CallTo(() => controller.HttpContext).Returns(httpContext);\n\n// Assert\nAssert.AreEqual(httpContext, controller.HttpContext);

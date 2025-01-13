@@ -1,0 +1,1 @@
+$fp = pfopen('example.txt', 'r');

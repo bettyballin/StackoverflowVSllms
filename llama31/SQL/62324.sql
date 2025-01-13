@@ -1,0 +1,1 @@
+-- assume 'mytable' has a blob column named 'myblob'\nUPDATE mytable SET myblob = \n  substr(myblob, 1, X-1) || \n  D || \n  substr(myblob, Y+1)\nWHERE ...;

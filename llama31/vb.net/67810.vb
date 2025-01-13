@@ -1,0 +1,1 @@
+Protected Sub Page_Load(ByVal sender As Object, ByVal e As System.EventArgs) Handles Me.Load\n    Dim ex As Exception = Server.GetLastError()\n    ' Handle the exception\nEnd Sub

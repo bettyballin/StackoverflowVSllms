@@ -1,1 +1,0 @@
-pip install selenium\npip install beautifulsoup4

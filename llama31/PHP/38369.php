@@ -1,0 +1,1 @@
+$arr = array(1 => 'Foo', 5 => 'Bar', 6 => 'Foobar');\n$arr = array_values($arr);\nprint_r($arr);

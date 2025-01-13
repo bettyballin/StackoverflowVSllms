@@ -1,0 +1,1 @@
+from io import StringIO\n\nmy_string = "Hello, World!"\nfile_like_object = StringIO(my_string)\n\n# Now you can use file_like_object like a regular file\nprint(file_like_object.read())

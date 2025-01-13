@@ -1,0 +1,1 @@
+function getMimeType($filePath) {\n    $output = array();\n    $returnCode = 0;\n    exec('file --brief --mime-type ' . escapeshellarg($filePath), $output, $returnCode);\n    if ($returnCode === 0) {\n        return $output[0];\n    } else {\n        return null;\n    }\n}

@@ -1,1 +1,0 @@
-List<MyCustomClass> listCustClass = new List<MyCustomClass>();

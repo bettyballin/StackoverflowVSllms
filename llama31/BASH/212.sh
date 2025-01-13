@@ -1,0 +1,1 @@
+jdeprscan -classpath /path/to/your/application.jar -verbose

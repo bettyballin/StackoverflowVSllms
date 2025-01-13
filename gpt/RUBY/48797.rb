@@ -1,1 +1,0 @@
-<head>\n     <meta name="csrf-token" content="<%= csrf_meta_tags %>">\n   </head>

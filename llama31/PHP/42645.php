@@ -1,0 +1,1 @@
+$items  = "word1 word2 word3 word4";\n$items = explode(" ", $items);\n$items = array_combine($items, $items);

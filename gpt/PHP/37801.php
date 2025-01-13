@@ -1,1 +1,0 @@
-<?php\n// Absolute path of the current file\n$absolutePath = __FILE__;\n\necho $absolutePath;\n?>

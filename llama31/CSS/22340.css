@@ -1,0 +1,1 @@
+select[disabled] {\n  border: 1px red solid;\n  color: black;\n  background-color: #f0f0f0; /* add a background color to override IE's default */\n}\n\n/* IE-specific hack */\nselect[disabled] option {\n  color: black; /* override IE's default text color for disabled options */\n}

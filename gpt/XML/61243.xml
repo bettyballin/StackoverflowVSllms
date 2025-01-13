@@ -1,1 +1,0 @@
-<dependency>\n       <groupId>net.sf.ehcache</groupId>\n       <artifactId>ehcache</artifactId>\n       <version>2.10.9.2</version>\n   </dependency>

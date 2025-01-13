@@ -1,1 +1,0 @@
--- Connect to your master database\nUSE master;\nGO\n\n-- Remove a registered server\nEXEC sp_delete_job @job_name = 'NameOfYourRegisteredServerJob';\nGO

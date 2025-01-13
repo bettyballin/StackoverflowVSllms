@@ -1,0 +1,1 @@
+var tTip = "Hello world";\n$(this).attr("title", tTip);

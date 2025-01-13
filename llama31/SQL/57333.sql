@@ -1,0 +1,1 @@
+SELECT * FROM JSON_TABLE('["2","6","1","8"]', '$[*]' COLUMNS (num NUMBER PATH '$'));

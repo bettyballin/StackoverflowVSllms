@@ -1,0 +1,1 @@
+protected void ddlOptionSelectionChange(object sender, EventArgs e)\n{\n    // Ensure the selected value is not null to prevent potential errors\n    string selectedValue = ddlOptions.SelectedValue ?? string.Empty;\n    \n    // Now you have the selected value from the DataValueField\n    string menuOption = selectedValue;\n    \n    // Use the menuOption as needed\n}

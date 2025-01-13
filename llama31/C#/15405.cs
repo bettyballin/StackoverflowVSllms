@@ -1,0 +1,1 @@
+using System.Security.Cryptography;\n\nstring userPassword = "mysecretpassword";\nstring hashedPassword = PasswordHasher.HashPassword(userPassword);

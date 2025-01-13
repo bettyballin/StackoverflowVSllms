@@ -1,1 +1,0 @@
-ol.widgets {\n  list-style-type: none;\n  padding: 0;\n}\n\nol.widgets li {\n  display: inline-block;\n  background-repeat: no-repeat;\n  background-position: 0 50%;\n  padding-left: 20px; /* Adjust based on the image width */\n  margin-left: 10px;\n}\n\nol.widgets li.l1 {\n  background-image: url('image1.gif');\n}\n\nol.widgets li.l2 {\n  background-image: url('image2.gif');\n}

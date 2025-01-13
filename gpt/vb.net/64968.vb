@@ -1,1 +1,0 @@
-Dim openFileDialog As New OpenFileDialog()\nopenFileDialog.Filter = "Text files (*.txt)|*.txt|All files (*.*)|*.*"\nopenFileDialog.Title = "Open Text File"\n\nIf openFileDialog.ShowDialog() = DialogResult.OK Then\n    Dim filePath As String = openFileDialog.FileName\n    ' Proceed with reading file\nEnd If

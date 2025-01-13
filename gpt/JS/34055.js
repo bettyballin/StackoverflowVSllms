@@ -1,1 +1,0 @@
-var updateProgressDiv = $('#updateProgressDiv');

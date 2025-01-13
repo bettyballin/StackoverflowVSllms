@@ -1,0 +1,1 @@
+$domain = filter_var($_SERVER['HTTP_HOST'], FILTER_VALIDATE_DOMAIN);\nif ($domain) {\n    // valid domain, proceed with the switch statement\n} else {\n    // invalid domain, handle error\n}

@@ -1,0 +1,1 @@
+DATE date_val;  /* or TIMESTAMP timestamp_val; */\nEXEC SQL VAR date_val IS DATE;

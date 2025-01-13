@@ -1,1 +1,0 @@
-// Installing Slim Framework via Composer\n   composer require slim/slim "^4.0"\n\n   // Adding Slim Auth for authentication\n   composer require tuupola/slim-basic-auth\n\n   // Adding Slim Session for session management\n   composer require slim/php-view slim/slim-skeleton slim/csrf slim/sessio

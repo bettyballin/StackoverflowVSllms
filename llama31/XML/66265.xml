@@ -1,0 +1,1 @@
+<Choose>\n  <When Condition="'$(Configuration)' == 'Debug'">\n    <Reference Include="NLog">\n      <HintPath>path\to\NLog.dll</HintPath>\n    </Reference>\n  </When>\n  <Otherwise>\n    <!-- No reference to NLog in Release mode -->\n  </Otherwise>\n</Choose>

@@ -1,0 +1,1 @@
+$(document).ready(function() {\n    $('#myForm').validate({\n        // ...\n        onkeyup: function(element) {\n            $(element).valid();\n        },\n        onblur: function(element) {\n            $(element).valid();\n        }\n    });\n});

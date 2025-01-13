@@ -1,1 +1,0 @@
-class Model_Table_User extends Zend_Db_Table_Abstract\n{\n    protected $_name = 'user';\n    protected $_primary = 'person_id';\n\n    public function findByUserName($userName)\n    {\n        $where = $this->getAdapter()->quoteInto('userName = ?', $userName);\n        return $this->fetchRow($where);\n    }\n}

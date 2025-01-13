@@ -1,0 +1,1 @@
+function loadImageWithFallback(src) {\n  var img = new Image();\n  img.src = src;\n  img.onerror = function() {\n    var englishSrc = src.replace('es/', '');\n    this.src = englishSrc;\n  };\n  return img;\n}

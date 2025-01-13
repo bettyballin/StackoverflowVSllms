@@ -1,1 +1,0 @@
-#include <iostream>\n\nint main() {\n    std::cout << "Your text here";\n    return 0;\n}

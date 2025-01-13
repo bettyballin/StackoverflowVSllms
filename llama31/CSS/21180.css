@@ -1,0 +1,1 @@
+.Layer3 {\n  position: absolute;\n  top: 67%;\n  padding: 20px;\n  width: 100%;\n  pointer-events: none; /* add this */\n}\n\n.Layer3 a {\n  pointer-events: auto; /* add this */\n}

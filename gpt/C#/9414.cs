@@ -1,1 +1,0 @@
-var config = new MapperConfiguration(cfg =>\n{\n    cfg.CreateMap<CustomerDTO, Customer>()\n        .ForMember(dest => dest.Orders, opt => opt.MapFrom(src => src.Orders.ToList()));\n    cfg.CreateMap<OrderDTO, Order>();\n});\n\nIMapper mapper = config.CreateMapper();

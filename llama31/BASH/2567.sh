@@ -1,0 +1,1 @@
+date -s "YYYY-MM-DD HH:MM:SS"\nhwclock -w

@@ -1,1 +1,0 @@
-using OpenQA.Selenium;\nusing OpenQA.Selenium.Chrome;\n\nclass Program\n{\n    static void Main()\n    {\n        IWebDriver driver = new ChromeDriver();\n        driver.Navigate().GoToUrl("http://example.com");\n        IWebElement element = driver.FindElement(By.Name("q"));\n        element.SendKeys("Hello Selenium");\n        element.Submit();\n        driver.Quit();\n    }\n}

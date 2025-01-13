@@ -1,0 +1,1 @@
+ideviceinstaller -u <your-device-udid> -i YourApp.ipa

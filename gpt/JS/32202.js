@@ -1,1 +1,0 @@
-var nullString = null;\ndocument.getElementById('myInput').value = nullString ?? '';

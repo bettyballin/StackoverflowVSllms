@@ -1,0 +1,1 @@
+// Select all elements with the class "remove-tag"\n$('.remove-tag').on('click', function() {\n  // When an element with the class "remove-tag" is clicked, remove the parent element\n  $(this).parent().remove();\n});

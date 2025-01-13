@@ -1,0 +1,1 @@
+$string = 'nÖ§9q1Fª£';\n$byte_values = '';\nfor ($i = 0; $i < strlen($string); $i++) {\n    $byte_values .= ord($string[$i]) . ' ';\n}\nfile_put_contents('output.txt', $byte_values);

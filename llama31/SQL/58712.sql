@@ -1,0 +1,1 @@
+CREATE NONCLUSTERED INDEX IX_MatchId ON MatchResult (MatchId);\nCREATE NONCLUSTERED INDEX IX_MatchId ON MatchEvent (MatchId);

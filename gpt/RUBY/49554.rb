@@ -1,1 +1,0 @@
-# Add BOM to CSV content\nbom = "\uFEFF"\ncsv_content = <<~CSV\n  name,city,age\n  Jürgen,München,33\n  Øyvind,Oslo,28\n  李,上海,25\nCSV\n\n# Combine BOM and CSV content\ncsv_with_bom = bom + csv_content\n\n# Save to file\nFile.write('utf8_with_bom.csv', csv_with_bom)

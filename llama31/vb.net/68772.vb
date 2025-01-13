@@ -1,0 +1,1 @@
+Dim MyArr() As String = MyString.Split(",").OrderBy(Function(s) s).ToArray()

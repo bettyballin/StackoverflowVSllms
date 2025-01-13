@@ -1,0 +1,1 @@
+openssl verify -CAfile publickey.crt publickey.crt

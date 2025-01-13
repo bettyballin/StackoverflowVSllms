@@ -1,1 +1,0 @@
-echo "finisht/" >> .git/info/sparse-checkout

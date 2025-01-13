@@ -1,1 +1,0 @@
-protected void Application_Start()\n{\n    AreaRegistration.RegisterAllAreas();\n    FilterConfig.RegisterGlobalFilters(GlobalFilters.Filters);\n    RouteConfig.RegisterRoutes(RouteTable.Routes);\n    // Other configurations\n}

@@ -1,1 +1,0 @@
-LIBS += -lssl -lcrypto

@@ -1,0 +1,1 @@
+ServicePointManager.SecurityProtocol = SecurityProtocolType.Tls;

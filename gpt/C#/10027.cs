@@ -1,1 +1,0 @@
-public class Site1BasePage : System.Web.UI.Page\n{\n    protected override void OnLoad(EventArgs e)\n    {\n        base.OnLoad(e);\n\n        if (Application["username"] == null)\n        {\n            Response.Redirect("/site1/login.aspx");\n        }\n    }\n}

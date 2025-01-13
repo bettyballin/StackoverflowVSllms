@@ -1,0 +1,1 @@
+chmod 644 /usr/lib/php/extensions/no-debug-non-zts-20060613/memcache.so

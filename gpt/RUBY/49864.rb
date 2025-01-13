@@ -1,1 +1,0 @@
-class TrashTable < ApplicationRecord\n  def restore\n    # Logic to restore the resource from the trash\n    self.update(deleted_at: nil)\n    Resource.create(self.attributes.except("id", "deleted_at"))\n    self.destroy\n  end\nend

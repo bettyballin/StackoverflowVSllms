@@ -1,0 +1,1 @@
+openssl x509 -req -days 3650 -in wildcard.csr -signkey wildcard.key -out wildcard.cer

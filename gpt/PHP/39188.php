@@ -1,1 +1,0 @@
-<?php\nif (isset($_POST['message'])) {\n    $message = strip_tags($_POST['message']); // Basic sanitization\n    $filename = 'chat.txt';\n\n    $fp = fopen($filename, 'a');\n    fwrite($fp, $message . "\n");\n    fclose($fp);\n}\n?>

@@ -1,0 +1,1 @@
+SELECT *\nFROM your_table\nWHERE pline != 10 OR option = 'option1';

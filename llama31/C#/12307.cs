@@ -1,0 +1,1 @@
+XmlNodeList leaf2Nodes = xmlDoc.SelectNodes("/root/child[anotherChild/key='2']/leaf2");\nforeach (XmlNode leaf2Node in leaf2Nodes) {\n    string leaf2Value = leaf2Node.InnerText;\n    // process the value\n}

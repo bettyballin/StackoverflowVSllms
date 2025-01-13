@@ -1,1 +1,0 @@
-import random\n\ndef weighted_random_with_replacement(elements, weights, k):\n    return random.choices(elements, weights=weights, k=k)\n\n# Example usage\nelements = ['a', 'b', 'c', 'd']\nweights = [0.1, 0.2, 0.3, 0.4]\nk = 5  # Number of selections\n\nresult = weighted_random_with_replacement(elements, weights, k)\nprint(result)

@@ -1,1 +1,0 @@
--- Assume you have a column named 'id' that you can use for ordering.\n-- Skip the first X rows and take the next Y rows.\n\nSELECT TOP 10 *\nFROM (\n    SELECT TOP 20 *\n    FROM table\n    ORDER BY id\n) AS subquery\nORDER BY id DESC

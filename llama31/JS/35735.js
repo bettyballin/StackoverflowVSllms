@@ -1,0 +1,1 @@
+$('#hiddenInput').on('input', function() {\n  console.log('Hidden input value changed to:', $(this).val());\n  // Call your second JavaScript function here\n});

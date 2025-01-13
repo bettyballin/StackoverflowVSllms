@@ -1,1 +1,0 @@
--- Simulate a long-running query\nWAITFOR DELAY '00:05:00'; -- Wait for 5 minutes

@@ -1,1 +1,0 @@
-public interface IMyDbContext\n{\n    DbSet<MyEntity> MyEntities { get; set; }\n    Task<int> SaveChangesAsync(CancellationToken cancellationToken = default);\n}\n\npublic interface IDbSet<T> where T : class\n{\n    Task<T> FindAsync(params object[] keyValues);\n    Task AddAsync(T entity, CancellationToken cancellationToken = default);\n    // Add other necessary methods\n}

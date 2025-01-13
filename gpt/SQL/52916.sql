@@ -1,1 +1,0 @@
-SELECT COALESCE(c1, c2) AS result_column\nFROM MyTable;

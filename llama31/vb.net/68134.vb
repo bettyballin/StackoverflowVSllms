@@ -1,0 +1,1 @@
+Dim rs As New ADODB.Recordset\nrs.Open "SELECT * FROM YourTable", YourConnection, adOpenDynamic, adLockOptimistic\n\n' Add multiple rows to the recordset\nFor i = 1 To 10\n    rs.AddNew\n    rs!Field1 = "Value1"\n    rs!Field2 = "Value2"\nNext\n\n' Update the database in a single operation\nrs.UpdateBatch

@@ -1,1 +1,0 @@
-while ($row = mysql_fetch_array($result, MYSQL_ASSOC)) {\n    $postContent = $row['value']; // Extract the 'value' part of the array\n    echo $postContent;\n}

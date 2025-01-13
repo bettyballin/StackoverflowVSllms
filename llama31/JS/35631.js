@@ -1,0 +1,1 @@
+$(document).ready(function() {\n  $('.thumbnail').hover(function() {\n    $(this).find('.overlay').fadeIn();\n  }, function() {\n    $(this).find('.overlay').fadeOut();\n  });\n});

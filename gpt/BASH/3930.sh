@@ -1,1 +1,0 @@
-@echo off\nset "batch_file_path=C:\path\to\your\batchfile.bat"\n\n:: Add to registry\nreg add "HKCU\Software\Microsoft\Windows\CurrentVersion\Run" /v "MyBatchFile" /t REG_SZ /d "%batch_file_path%" /f\n\necho Batch file added to startup.

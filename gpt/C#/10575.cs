@@ -1,1 +1,0 @@
-if (!myReader.IsDBNull(myReader.GetOrdinal("Additional")))\n{\n    string additional = myReader["Additional"].ToString();\n    if (!string.IsNullOrEmpty(additional))\n    {\n        ltlAdditional.Text = "contains data";\n    }\n    else\n    {\n        ltlAdditional.Text = "is null or empty";\n    }\n}\nelse\n{\n    ltlAdditional.Text = "is null";\n}

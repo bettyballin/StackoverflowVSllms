@@ -1,0 +1,1 @@
+$all_values = "";\nwhile loop {\n  $value = "...";\n  $all_values .= $value . ",";\n}\n\n$reversed_values = implode(",", array_reverse(explode(",", rtrim($all_values, ","))));

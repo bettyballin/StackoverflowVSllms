@@ -1,1 +1,0 @@
-// Assuming you have a Firestore instance initialized\n   const db = firebase.firestore();\n   db.collection("users").add({ firstName: "Allain" });\n   db.collection("users").add({ firstName: "Bob", lastName: "Loblaw" });

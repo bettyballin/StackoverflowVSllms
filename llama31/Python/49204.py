@@ -1,0 +1,1 @@
+with open('output.txt', 'w', encoding='utf-8') as f:\n    f.write('78,45,New things,200, Number of columns,2.00,5\n')

@@ -1,1 +1,0 @@
-[ServiceContract]\npublic interface ITwitterService\n{\n    [OperationContract]\n    [WebGet(UriTemplate = "statuses/user_timeline.json?screen_name={username}&count=5", ResponseFormat = WebMessageFormat.Json)]\n    List<Tweet> GetLatestTweets(string username);\n}

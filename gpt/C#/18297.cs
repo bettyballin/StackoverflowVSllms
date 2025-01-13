@@ -1,1 +1,0 @@
-[AcceptVerbs(HttpVerbs.Post), CustomAuthorize]\npublic ActionResult Create(int siteId, Comment comment)\n{\n    // Your action method logic here\n}

@@ -1,0 +1,1 @@
+function attack() {\n    ScriptServiceMadness.Chewbacca.ShootImperialProbeDroid(true, speak, youvefailedme, { async: false });\n}\n\nfunction speak(result) {\n    alert(result);\n}\n\nfunction youvefailedme(error) {\n    alert(error);\n}

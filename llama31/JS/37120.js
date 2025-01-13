@@ -1,0 +1,1 @@
+function printDiv(divId) {\n  var printWindow = window.open('', '', 'height=500,width=800');\n  printWindow.document.write('<html><head><title>Print</title>');\n  printWindow.document.write('</head><body>');\n  printWindow.document.write(document.getElementById(divId).innerHTML);\n  printWindow.document.write('</body></html>');\n  printWindow.print();\n  printWindow.close();\n}

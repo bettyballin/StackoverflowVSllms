@@ -1,0 +1,1 @@
+<location path="elmah.axd">\n  <system.web>\n    <httpHandlers>\n      <add verb="*" path="elmah.axd" type="Elmah.ErrorLogPageFactory, Elmah"/>\n    </httpHandlers>\n  </system.web>\n</location>

@@ -1,1 +1,0 @@
-$(document).ready(function() {\n       $('#your-textarea').editable({\n           type: 'textarea',\n           onblur: 'submit',\n           callback: function() {\n               autosize(this);\n           }\n       });\n       autosize($('#your-textarea'));\n   });

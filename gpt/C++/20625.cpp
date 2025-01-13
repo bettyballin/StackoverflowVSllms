@@ -1,1 +1,0 @@
-// logoff.h\n   #ifndef LOGOFF_H\n   #define LOGOFF_H\n\n   void logoff();\n\n   #endif // LOGOFF_H

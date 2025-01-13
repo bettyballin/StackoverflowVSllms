@@ -1,0 +1,1 @@
+HttpContext.Current.Session.Abandon();

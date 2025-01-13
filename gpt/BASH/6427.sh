@@ -1,1 +1,0 @@
-awk 'BEGIN { RS="\n\n+"; ORS="\n" } /cat/ { print }' logfile

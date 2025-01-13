@@ -1,1 +1,0 @@
-@using (Html.BeginForm())\n{\n    @Html.AntiForgeryToken()\n    // Form fields go here\n}\n\n[HttpPost]\n[ValidateAntiForgeryToken]\npublic ActionResult Submit(FormCollection form)\n{\n    // Handle form submission\n}

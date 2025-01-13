@@ -1,1 +1,0 @@
-#!/bin/bash\n\n# URL of the remote image\nIMAGE_URL="https://example.com/image.jpg"\n\n# Download the image using curl\ncurl -o downloaded_image.jpg "$IMAGE_URL"\n\n# Get the dimensions of the image using ImageMagick's identify command\ndimensions=$(identify -format "%wx%h" downloaded_image.jpg)\n\n# Output the dimensions\necho "Dimensions: $dimensions"

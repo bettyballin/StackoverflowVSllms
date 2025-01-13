@@ -1,0 +1,1 @@
+ServiceHost host = new ServiceHost(typeof(UserService));\nhost.Open();

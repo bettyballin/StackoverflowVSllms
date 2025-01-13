@@ -1,1 +1,0 @@
-WITH CTE AS (\n    SELECT \n        value, \n        attribute_definition_id, \n        value_rk,\n        ROW_NUMBER() OVER (PARTITION BY value ORDER BY (SELECT NULL)) AS row_num\n    FROM \n        attribute_values\n)\nSELECT \n    value, \n    attribute_definition_id, \n    value_rk\nFROM \n    CTE\nWHERE \n    row_num = 1\nORDER BY \n    attribute_definition_id;

@@ -1,0 +1,1 @@
+Dim stream As New MemoryStream(width * height * 4)\nDim buffer As Byte() = stream.ToArray()

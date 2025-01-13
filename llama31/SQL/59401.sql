@@ -1,0 +1,1 @@
+CREATE OR REPLACE PROCEDURE get_exe_version(p_exe_file BLOB)\nAS LANGUAGE JAVA\nNAME 'GetExeVersion.getVersionNumber(java.sql.Blob)';

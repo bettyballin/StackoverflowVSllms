@@ -1,0 +1,1 @@
+for file in *.txt; do\n  iconv -f UTF-8 -t ASCII//TRANSLIT "$file" -o "${file%.txt}_ascii.txt"\ndone

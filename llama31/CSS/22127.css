@@ -1,0 +1,1 @@
+.class1 {\n  color: #000;\n  background-image: url('1.jpg');\n  font-size: 0;\n}\n\n.class1 span {\n  display: none;\n}\n\n.class2 {\n  color: #00f;\n  background-image: url('2.jpg');\n  font-size: 0;\n}\n\n.class2 span {\n  display: none;\n}\n\n.class3 {\n  color: #0f0;\n  background-image: url('1.jpg');\n  font-size: 0;\n}\n\n.class3 span {\n  display: none;\n}

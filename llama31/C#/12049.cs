@@ -1,0 +1,1 @@
+public class MyController : Controller\n{\n    public void DownloadZip()\n    {\n        var zipGenerator = new ZipFileGenerator();\n        zipGenerator.GenerateAndSendZip(Response);\n    }\n}

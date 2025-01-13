@@ -1,1 +1,0 @@
-public class ManyToManyTable\n{\n    [Column(IsPrimaryKey = true, IsDbGenerated = true)]\n    public int Id { get; set; }\n\n    public int ForeignKey1 { get; set; }\n    public int ForeignKey2 { get; set; }\n}

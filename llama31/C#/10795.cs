@@ -1,0 +1,1 @@
+protected void BindImages(string[] imageurls)\n{\n    dlImages.DataSource = imageurls;\n    dlImages.DataBind();\n}

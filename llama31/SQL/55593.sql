@@ -1,0 +1,1 @@
+SELECT *\nFROM sampleUserTable u\nWHERE LTRIM(RTRIM(LOWER(u.username))) = LTRIM(RTRIM(LOWER(@username)));

@@ -1,1 +1,0 @@
-break main\nrun\nset MyClass::dude = 42\ncontinue

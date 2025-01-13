@@ -1,1 +1,0 @@
-function hasOverflowed(element) {\n    return element.scrollHeight > element.clientHeight || element.scrollWidth > element.clientWidth;\n}\n\n// Example usage:\nconst myElement = document.getElementById('myElement');\nif (hasOverflowed(myElement)) {\n    console.log('The content has overflowed.');\n} else {\n    console.log('The content has not overflowed.');\n}

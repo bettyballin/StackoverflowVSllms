@@ -1,1 +1,0 @@
-com = CloneSqlCommand((SqlCommand)HttpContext.Current.Cache["mycommand"], con);

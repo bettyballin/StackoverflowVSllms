@@ -1,0 +1,1 @@
+function bar() {\n    if (something()) {\n        global $fu;\n        $fu->doSomething();\n    } else {\n        global $bah;\n        $bah->doSomething();\n    }\n}

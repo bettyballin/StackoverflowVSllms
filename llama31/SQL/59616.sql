@@ -1,0 +1,1 @@
+SELECT t.[key] AS someValue\nFROM YourTable t\nLEFT JOIN CONTAINSTABLE(YourTable, columnName, 'thisWord') c\n    ON t.[key] = c.[key]\nWHERE c.[key] IS NULL

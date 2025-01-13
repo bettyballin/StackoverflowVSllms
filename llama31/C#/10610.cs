@@ -1,0 +1,1 @@
+cmd.CommandText = "select * from myTable where myColumn IS NULL";

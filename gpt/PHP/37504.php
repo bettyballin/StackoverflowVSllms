@@ -1,1 +1,0 @@
-class Config {\n    private static $settings = [];\n\n    public static function set($key, $value) {\n        self::$settings[$key] = $value;\n    }\n\n    public static function get($key) {\n        return isset(self::$settings[$key]) ? self::$settings[$key] : null;\n    }\n}

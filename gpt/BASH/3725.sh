@@ -1,1 +1,0 @@
-mkdir -p myproject/tests/extensions

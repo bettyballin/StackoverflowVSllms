@@ -1,0 +1,1 @@
+gifsicle -U input.gif -w watermark.png -g bottom-right output.gif\n\n# remove every 2nd frame\ngifsicle -U input.gif -d 2 output.gif

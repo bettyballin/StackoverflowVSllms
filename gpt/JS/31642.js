@@ -1,1 +1,0 @@
-// Assuming xmlHttp.responseText contains the new value\nvar newValue = xmlHttp.responseText;\n\n// Get all elements with the class name 'tumme'\nvar elements = document.getElementsByClassName('tumme');\n\n// Loop through each element and update its innerHTML\nfor (var i = 0; i < elements.length; i++) {\n    elements[i].innerHTML = newValue;\n}

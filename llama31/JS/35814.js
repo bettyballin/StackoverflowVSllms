@@ -1,0 +1,1 @@
+const input = document.getElementById('date-input');\n\ninput.addEventListener('input', () => {\n  const value = input.value;\n  const pattern = /^(\d{2})\/(\d{2})\/(\d{4})$/;\n  if (!pattern.test(value)) {\n    input.value = '';\n  }\n});

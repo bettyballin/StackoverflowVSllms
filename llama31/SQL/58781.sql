@@ -1,0 +1,1 @@
+SELECT *\nFROM t3\nLEFT JOIN t2 ON t3.k3 = t2.k3\nLEFT JOIN t1 ON t2.k2 = t1.k2

@@ -1,1 +1,0 @@
-CC = gcc\n    CFLAGS = -Wall -g\n    SOURCES = main.c\n    OBJECTS = $(SOURCES:.c=.o)\n    EXECUTABLE = myprogram\n\n    all: $(EXECUTABLE)\n\n    $(EXECUTABLE): $(OBJECTS)\n        $(CC) $(OBJECTS) -o $@\n\n    .c.o:\n        $(CC) $(CFLAGS) -c $< -o $@\n\n    clean:\n        rm -f $(OBJECTS) $(EXECUTABLE)

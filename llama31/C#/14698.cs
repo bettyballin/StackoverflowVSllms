@@ -1,0 +1,1 @@
+container.Register(Component.For<MyClass>().Instance(myInstance).ExternallyOwned());

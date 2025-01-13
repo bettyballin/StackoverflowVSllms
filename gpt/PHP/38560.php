@@ -1,1 +1,0 @@
-$delete = array();\nforeach ( $testarray as $v ) {\n    for ( $b = 2; $b < $v; $b++ ) {\n        if ( $v % $b == 0 ) {\n            $delete []= $v;\n            break; // Exit the for loop as soon as the condition is met\n        }\n    }\n}

@@ -1,0 +1,1 @@
+using System.ServiceProcess;\n\npublic class JabberClientService : ServiceBase\n{\n    protected override void OnStart(string[] args)\n    {\n        // Start your Jabber client logic here\n    }\n\n    protected override void OnStop()\n    {\n        // Stop your Jabber client logic here\n    }\n}

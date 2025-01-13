@@ -1,0 +1,1 @@
+#Load the test data\ndata_test = pd.read_csv(r"C:\Users\Asus\Downloads\archive\test.csv", engine = 'python', encoding = 'latin1' )

@@ -1,1 +1,0 @@
-# Installing Symfony via Composer\n   composer create-project symfony/website-skeleton myproject\n\n   # Setting up security and authentication\n   composer require symfony/security-bundle

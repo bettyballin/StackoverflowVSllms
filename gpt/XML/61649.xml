@@ -1,1 +1,0 @@
-<CustomAction Id="RegisterMyAssembly" FileKey="regasm.exe" ExeCommand="MyAssembly.dll" Execute="deferred" Return="check" Impersonate="no" />

@@ -1,1 +1,0 @@
-import requests\n\nurl = "https://example.com/resource"\nresponse = requests.get(url)\n\nif response.status_code == 200:\n    print("Success:", response.content)\nelse:\n    print("Error:", response.status_code)

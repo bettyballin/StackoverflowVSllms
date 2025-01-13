@@ -1,0 +1,1 @@
+from PIL import Image\nimport subprocess\n\n# Open the image file\nimg = Image.open('input.jpg')\n\n# Add a white border using ImageMagick\nsubprocess.run(['convert', 'input.jpg', '-bordercolor', 'white', '-border', '5x5', 'output.jpg'])

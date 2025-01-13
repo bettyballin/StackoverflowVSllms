@@ -1,1 +1,0 @@
-pdftk A=input1.pdf B=input2.pdf cat A1 B1 output output.pdf

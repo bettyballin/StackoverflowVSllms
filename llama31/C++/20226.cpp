@@ -1,0 +1,1 @@
+// Example: using explicitly signed or unsigned types\nsigned char s_char = -1;\nunsigned char u_char = 255;\n\n// Avoid using plain char for arithmetic\nchar char_value = -1; // may be signed or unsigned, depending on the platform

@@ -1,0 +1,1 @@
+// Example of using ASP.NET's built-in caching API\nusing System.Web.Caching;\n\n// Create a cache\nCache cache = new Cache();\n\n// Store data in the cache\ncache.Insert("key", "value");\n\n// Retrieve data from the cache\nstring value = (string)cache["key"];

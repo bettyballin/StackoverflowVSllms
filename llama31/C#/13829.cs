@@ -1,0 +1,1 @@
+public class BaseClassProxy\n{\n    private BaseClass _baseClass;\n\n    public BaseClassProxy()\n    {\n        _baseClass = new BaseClass();\n    }\n\n    public void SomeMethod()\n    {\n        _baseClass.SomeMethod();\n    }\n}

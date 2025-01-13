@@ -1,1 +1,0 @@
-// main.c\n   #include "logoff.h"\n\n   int main() {\n       // your code\n       return 0;\n   }

@@ -1,0 +1,1 @@
+// Controller\nclass UsersController extends AppController {\n    public function index() {\n        $users = $this->Users->find('all');\n        $this->set('users', $users);\n    }\n}\n\n// View\nforeach ($users as $user) {\n    echo $user->name;\n}

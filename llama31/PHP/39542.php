@@ -1,0 +1,1 @@
+define('APP_ROOT', '/path/to/your/application');

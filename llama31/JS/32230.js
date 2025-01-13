@@ -1,0 +1,1 @@
+var citySelect = $('city');\ncitySelect.length = 0; // clear existing options\n\nvar options = [\n  { text: 'Option 1', value: '1' },\n  { text: 'Option 2', value: '2' },\n  { text: 'Option 3', value: '3' }\n];\n\noptions.each(function(option) {\n  citySelect.add(new Option(option.text, option.value));\n});

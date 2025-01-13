@@ -1,0 +1,1 @@
+SELECT \n  pool_name, \n  bytes_used, \n  bytes_free, \n  bytes_total \nFROM \n  v$sgastat \nWHERE \n  pool_name = 'shared pool';

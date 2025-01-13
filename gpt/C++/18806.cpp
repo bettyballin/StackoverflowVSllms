@@ -1,1 +1,0 @@
-#include <iostream>\n#include <boost/format.hpp>\n#include <string>\n\nint main() {\n    std::wcout << boost::wformat(L"Wide format: %1% %2%") % L"Hello" % L"World" << std::endl;\n\n    std::wstring s = boost::str(boost::wformat(L"Wide format in string: %1% %2%") % L"Hello" % L"World");\n    std::wcout << s << std::endl;\n\n    return 0;\n}

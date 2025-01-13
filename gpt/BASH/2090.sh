@@ -1,1 +1,0 @@
-appcmd stop site /site.name: "SiteName"\nappcmd start site /site.name: "SiteName"

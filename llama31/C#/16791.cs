@@ -1,0 +1,1 @@
+// Store search criteria in session\nSession["SearchCriteria"] = new Dictionary<string, string>\n{\n    { "Parameter1", txtParameter1.Text },\n    { "Parameter2", txtParameter2.Text }\n};\n\n// Retrieve search criteria from session\nvar searchCriteria = (Dictionary<string, string>)Session["SearchCriteria"];

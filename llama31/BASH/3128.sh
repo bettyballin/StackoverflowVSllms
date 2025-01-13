@@ -1,0 +1,1 @@
+openssl x509 -in keystore.pem -out certificate.pem\n\nopenssl rsa -in keystore.pem -out privatekey.pem

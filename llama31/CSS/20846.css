@@ -1,0 +1,1 @@
+#topNav li ul {\n  width: auto;\n  /* ... other styles ... */\n}\n\n#topNav li li {\n  width: 100%;\n  /* ... other styles ... */\n}

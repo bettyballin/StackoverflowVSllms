@@ -1,0 +1,1 @@
+using HtmlAgilityPack;\n\n// Load HTML from a string\nvar html = "<html><body><a href='https://example.com'>Example</a></body></html>";\nvar doc = new HtmlDocument();\ndoc.LoadHtml(html);\n\n// Extract links\nvar links = doc.DocumentNode.SelectNodes("//a[@href]");\nforeach (var link in links)\n{\n    Console.WriteLine(link.GetAttributeValue("href", string.Empty));\n}

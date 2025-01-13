@@ -1,0 +1,1 @@
+Action hello = () => Console.WriteLine("Hello!");

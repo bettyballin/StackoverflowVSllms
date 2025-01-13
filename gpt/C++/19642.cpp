@@ -1,1 +1,0 @@
-// exception.cpp\n#include <iostream>\n\nclass MyException {\npublic:\n    MyException() {}\n    virtual ~MyException() {}\n};\n\nvoid gTest() {\n    throw MyException();\n}\n\nint main() {\n    try {\n        gTest();\n    } catch(const MyException &ex) {\n        std::cout << "exception was caught" << std::endl;\n    }\n    return 0;\n}

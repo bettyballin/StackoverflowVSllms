@@ -1,0 +1,1 @@
+string response = // your REST response string\n\n// Trim non-XML characters from the response\nint startIndex = response.IndexOf("<?xml");\nint endIndex = response.LastIndexOf(">");\nstring trimmedResponse = response.Substring(startIndex, endIndex - startIndex + 1);\n\n// Create an XDocument from the trimmed response\nXDocument xmlDoc = XDocument.Parse(trimmedResponse);

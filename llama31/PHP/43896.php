@@ -1,0 +1,1 @@
+exec('perl /home/www/Init.pm -f games_mp.log', $output, $return_var);

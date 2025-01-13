@@ -1,0 +1,1 @@
+$array = array('a', 'b', 'c', 'd');\n$i = 0;\nforeach ($array as $value) {\n    $isLastElem = $i == count($array) - 1;\n    // do something\n    $i++;\n}

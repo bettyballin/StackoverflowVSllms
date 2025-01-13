@@ -1,0 +1,1 @@
+from django.db.models.expressions import RawSQL\n\ncomments = django_comments.objects.raw(\n    RawSQL("SELECT dc.user_id, mp.image_path, dc.comment "\n           "FROM django_comments dc "\n           "JOIN myapp_profile mp ON dc.user_id = mp.user_id", ())\n)

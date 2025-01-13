@@ -1,1 +1,0 @@
-using remote.service.namespace;\n\n   // Your code to call the service

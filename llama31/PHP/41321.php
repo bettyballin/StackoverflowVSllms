@@ -1,0 +1,1 @@
+$obj = (object) ['foo' => 'bla', 'bar' => 2];

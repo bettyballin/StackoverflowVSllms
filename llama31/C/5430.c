@@ -1,0 +1,1 @@
+// Writer process (Linux)\n...\nmkdir("/nas_lock", 0755);\n// update the file\nrmdir("/nas_lock");\n\n// Reader process (Windows)\n...\nif (GetFileAttributes("\\\\nas\\lock") != INVALID_FILE_ATTRIBUTES) {\n    // lock file exists, wait or abort\n} else {\n    // lock file doesn't exist, read the file\n    ...\n}

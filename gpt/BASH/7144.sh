@@ -1,1 +1,0 @@
-#!/bin/bash\n\nfor file in "$PATH_TO_SOMEWHERE"/*; do\n    if [ -d "$file" ]; then\n        # do something directory-ish\n        echo "Directory: $file"\n    else\n        if [[ "$file" == *.txt ]]; then\n            # do something txt-ish\n            echo "Text file: $file"\n        fi\n    fi\ndone

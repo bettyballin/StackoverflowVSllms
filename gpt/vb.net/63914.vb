@@ -1,1 +1,0 @@
-Dim session1 As Object\nDim session2 As Object\n\nSet session1 = CreateObject("MyLib.MyComObject")\nsession1.Connect "service1"\n\nSet session2 = CreateObject("MyLib.MyComObject")\nsession2.Connect "service2"\n\n' Do some stuff with session1 and session2\n\nsession1.Disconnect\nsession2.Disconnect\n\nSet session1 = Nothing\nSet session2 = Nothing

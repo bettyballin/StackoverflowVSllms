@@ -1,0 +1,1 @@
+#!/bin/bash\n\n# Set the paths to your certificates\nROOT_CERT="/path/to/root/cert.pem"\nINTERMEDIATE_CERT="/path/to/intermediate/cert.pem"\nNEW_CERT="/path/to/new/cert.pem"\n\n# Verify the certificate chain\nopenssl verify -CAfile "$ROOT_CERT" -untrusted "$INTERMEDIATE_CERT" "$NEW_CERT"

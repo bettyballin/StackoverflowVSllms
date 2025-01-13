@@ -1,1 +1,0 @@
-gcc -framework DiskArbitration -framework CoreFoundation disk_watcher.c -o disk_watcher

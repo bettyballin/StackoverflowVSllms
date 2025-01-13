@@ -1,0 +1,1 @@
+CREATE INDEX idx_I3_Identity ON your_table (I3_Identity)\nINCLUDE (column1, column2, column3)

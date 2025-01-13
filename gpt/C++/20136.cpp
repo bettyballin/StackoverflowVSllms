@@ -1,1 +1,0 @@
-// In Visual Studio: Project Properties -> C/C++ -> Preprocessor -> Preprocessor Definitions\n// Add HOST_EXPORTS

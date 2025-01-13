@@ -1,0 +1,1 @@
+Private Sub ucboPatientInfo_RowSelected(ByVal sender As Object, ByVal e As Infragistics.Win.UltraWinGrid.RowSelectedEventArgs) Handles ucboPatientInfo.RowSelected\n    Dim selectedRow As UltraGridRow = ucboPatientInfo.SelectedRow\n    LastName = selectedRow.Cells("LastName").Value.ToString()\nEnd Sub

@@ -1,1 +1,0 @@
--- Replace RM_DB_New with your desired new database name\n   BACKUP DATABASE RM_DB\n   TO DISK = 'C:\Backups\RM_DB.bak';

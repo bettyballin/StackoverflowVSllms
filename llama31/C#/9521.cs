@@ -1,0 +1,1 @@
+public partial class MyForm : Form\n{\n    [Required]\n    [Regex(@"^\d{5}(-\d{4})?$")]\n    public string ZipCode { get; set; }\n\n    // ...\n}

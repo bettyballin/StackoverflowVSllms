@@ -1,1 +1,0 @@
-class registerActions extends sfActions\n{\n  public function executeIndex(sfWebRequest $request)\n  {\n    // your action code here\n  }\n}

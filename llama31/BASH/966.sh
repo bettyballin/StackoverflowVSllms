@@ -1,0 +1,1 @@
+mysql -uroot -p -e "SET GLOBAL general_log = 1; SET GLOBAL log_output = 'TABLE';"

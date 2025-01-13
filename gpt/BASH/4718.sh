@@ -1,1 +1,0 @@
-chmod +x generate_disk_usage_graph.sh\n./generate_disk_usage_graph.sh

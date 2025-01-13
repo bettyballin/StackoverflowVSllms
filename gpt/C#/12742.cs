@@ -1,1 +1,0 @@
-using (var context = new YourDbContext())\n{\n    var yourEntity = new YourEntity\n    {\n        YourDateTimeField = DateTime.Now\n    };\n\n    context.YourEntities.Add(yourEntity);\n    context.SaveChanges();\n}

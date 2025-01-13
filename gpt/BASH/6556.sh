@@ -1,1 +1,0 @@
-cd "$(ProjectDir)" && perl generate_files.pl

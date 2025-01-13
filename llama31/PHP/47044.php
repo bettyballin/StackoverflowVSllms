@@ -1,0 +1,1 @@
+$pattern = '#<td id="descriptionArea">(.*?)</td>#s';\npreg_match($pattern, $text, $matches);\nprint_r($matches);

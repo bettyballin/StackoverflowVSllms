@@ -1,1 +1,0 @@
-public class SamplePlugin : IPlugin\n{\n    public void Execute()\n    {\n        // Plugin execution code here\n    }\n\n    public string Name\n    {\n        get { return "Sample Plugin"; }\n    }\n}

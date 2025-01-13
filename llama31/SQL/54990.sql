@@ -1,0 +1,1 @@
+SELECT \n    CustomerID, \n    Sum(InvoiceTotal) AS SumOfInvoiceTotal, \n    Sum(AmountPaid) AS SumOfAmountPaid \nFROM tblInvoices WITH (INDEX(CustomerID))\nWHERE CustomerID = 2112 \nGROUP BY customerID;

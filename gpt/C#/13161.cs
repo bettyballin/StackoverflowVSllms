@@ -1,1 +1,0 @@
-using Antlr4.Runtime.Misc;\n\npublic class SQLCustomVisitor : SQLBaseVisitor<object>\n{\n    public override object VisitLoopStatement([NotNull] SQLParser.LoopStatementContext context)\n    {\n        Console.WriteLine("Found a loop statement");\n        return base.VisitLoopStatement(context);\n    }\n\n    // Implement other visit methods as needed...\n}

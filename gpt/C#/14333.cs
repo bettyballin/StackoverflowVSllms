@@ -1,1 +1,0 @@
-public class MyApp\n{\n    public void UpdateObject(int id, int newValue)\n    {\n        CppCliWrapper::UpdateObject(id, newValue);\n        // Update C# object as well\n    }\n}

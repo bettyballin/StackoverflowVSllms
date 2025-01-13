@@ -1,0 +1,1 @@
+$string = getStringFromDatabase();\n$hexString = bin2hex($string);\necho $hexString;

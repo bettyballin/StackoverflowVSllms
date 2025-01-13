@@ -1,1 +1,0 @@
-using System;\nusing System.IO;\n\nclass Program\n{\n    static void Main()\n    {\n        string path1 = @"C:\folder1";\n        string path2 = "folder2\\file.txt";\n        \n        string combinedPath = Path.Combine(path1, path2);\n        \n        Console.WriteLine(combinedPath);\n    }\n}

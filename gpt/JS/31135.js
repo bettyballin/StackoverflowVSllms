@@ -1,1 +1,0 @@
-// Example of setting up an AJAX request with a JWT token\n   $.ajax({\n       url: 'your_web_service_url',\n       type: 'GET',\n       headers: {\n           'Authorization': 'Bearer ' + your_jwt_token\n       },\n       success: function(data) {\n           console.log(data);\n       },\n       error: function(err) {\n           console.log(err);\n       }\n   });

@@ -1,1 +1,0 @@
-// Assuming 'sessionData' is your session identifier\nlocalStorage.setItem('sessionData', 'your-session-data');

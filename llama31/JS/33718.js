@@ -1,0 +1,1 @@
+const editableDiv = document.getElementById('editable-div');\n\neditableDiv.addEventListener('input', (e) => {\n  const userInput = e.target.innerHTML;\n  // Basic validation: remove script tags and on* attributes\n  const sanitizedInput = userInput.replace(/<script.*?>.*?<\/script>/gi, '')\n    .replace(/on\w+/gi, '');\n  e.target.innerHTML = sanitizedInput;\n});

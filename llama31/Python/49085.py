@@ -1,0 +1,1 @@
+from django import forms\nfrom .models import MyModel\n\nclass MyForm(forms.Form):\n    my_field = forms.ModelChoiceField(queryset=MyModel.objects.all(), widget=forms.RadioSelect)

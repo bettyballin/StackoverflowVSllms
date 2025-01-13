@@ -1,0 +1,1 @@
+[OperationContract]\npublic List<ProductDetail> GetProductDetails(List<int> productIds)\n{\n    // Fetch product details from database or data storage\n    var productDetails = dbContext.ProductDetails\n        .Where(pd => productIds.Contains(pd.ProductId))\n        .ToList();\n\n    return productDetails;\n}

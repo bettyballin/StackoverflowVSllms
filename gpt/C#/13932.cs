@@ -1,1 +1,0 @@
-[DataContract]\n[KnownType(typeof(System.Drawing.Bitmap))]\npublic class YourClass\n{\n    [DataMember]\n    public Image Image { get; set; }\n}

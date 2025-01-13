@@ -1,0 +1,1 @@
+#centered-div {\n  width: 800px; /* or whatever width you have set */\n  margin: 0 auto;\n  background-color: #your-color;\n  overflow: auto; /* or height: auto !important; height: 100%; */\n}

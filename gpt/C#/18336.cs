@@ -1,1 +1,0 @@
-public class MyClass\n{\n    public void MyMethod()\n    {\n        // Ensure HttpContext is not null\n        if (HttpContext.Current != null)\n        {\n            // Access session data\n            var sessionValue = HttpContext.Current.Session["SessionKey1"];\n            // Do something with the session value\n        }\n    }\n}

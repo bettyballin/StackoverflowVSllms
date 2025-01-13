@@ -1,0 +1,1 @@
+[\n    uuid(00000000-0000-0000-0000-000000000000),\n    version(1.0)\n]\ninterface IRTDServer : IUnknown\n{\n    HRESULT GetRealTimeData(\n        [in] BSTR symbol,\n        [out] VARIANT* data\n    );\n};

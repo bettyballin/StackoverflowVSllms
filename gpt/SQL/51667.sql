@@ -1,1 +1,0 @@
-DECLARE @email VARCHAR(MAX)\nSELECT\n    @email = ISNULL(@email + '; ', '') + EmailAddress\nFROM\n    accounts

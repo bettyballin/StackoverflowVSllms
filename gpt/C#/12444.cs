@@ -1,1 +1,0 @@
-using System;\nusing System.Runtime.InteropServices;\nusing System.Windows.Forms;\n\n[Guid("YOUR-GUID-HERE"), ClassInterface(ClassInterfaceType.None)]\npublic class PhonyOposDevice : IPhonyOposDevice\n{\n    public void SendKeyPress(string key)\n    {\n        // Simulate key press\n        SendKeys.SendWait(key);\n    }\n}

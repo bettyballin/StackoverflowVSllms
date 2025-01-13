@@ -1,1 +1,0 @@
-regsvr32 email_sink.vbs

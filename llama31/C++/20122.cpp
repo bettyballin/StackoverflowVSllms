@@ -1,0 +1,1 @@
+#include <tbb/tbb.h>\n\nvoid scale_array(double* arr, int size, double factor) {\n  tbb::parallel_for(tbb::blocked_range<int>(0, size),\n    [&](tbb::blocked_range<int> r) {\n      for (int i = r.begin(); i != r.end(); ++i) {\n        arr[i] *= factor;\n      }\n    }\n  );\n}

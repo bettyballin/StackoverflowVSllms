@@ -1,1 +1,0 @@
-sudo useradd -r -s /sbin/nologin php-cgi-user

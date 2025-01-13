@@ -1,1 +1,0 @@
-<?php\n// Render the 'paginator' partial view\necho $this->partial('partials/paginator.phtml', ['paginator' => $paginator]);\n?>

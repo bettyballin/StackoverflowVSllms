@@ -1,1 +1,0 @@
-# Start the Rails console\nrails console\n\n# Create an instance of ApplicationController to access view context\nview = ApplicationController.new.view_context\n\n# Call a helper method\nview.your_helper_method

@@ -1,1 +1,0 @@
-public bool IsSomeFieldNull() {\n    return this.IsNull(this.tableName.SomeFieldColumn);\n}

@@ -1,0 +1,1 @@
+using System.Xml;\n\n// assume xmlDoc is an XmlDocument object containing the XML\nXmlNode leaf2Node = xmlDoc.SelectSingleNode("/root/child[anotherChild/key='2']/leaf2");\nstring leaf2Value = leaf2Node.InnerText;

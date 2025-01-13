@@ -1,0 +1,1 @@
+$stmt = $pdo->prepare('SELECT * FROM users WHERE id IN (:ids)');\n$stmt->bindParam(':ids', $comma_separated);\n$stmt->execute();

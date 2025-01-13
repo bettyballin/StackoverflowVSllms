@@ -1,0 +1,1 @@
+alter table LIST_ITEM add (\n  virtual_column1 as (case status when 'cancel' then null else LIST_KEY end),\n  virtual_column2 as (case status when 'cancel' then null else ENTRY_NO end)\n);\n\nalter table LIST_ITEM add constraint LIST_ITEM_ENTRY_NO_UNIQ\nunique (virtual_column1, virtual_column2) deferrable initially deferred;

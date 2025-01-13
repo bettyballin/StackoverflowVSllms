@@ -1,0 +1,1 @@
+DECLARE\n  l_xml XMLType;\nBEGIN\n  l_xml := XMLType(p_xmldata);\n  l_xml.validate();\n  IF l_xml.is_valid() THEN\n    INSERT INTO mytable (id, xmldata) VALUES (p_id, l_xml);\n  ELSE\n    DBMS_OUTPUT.put_line('XML is not valid');\n  END IF;\nEND;

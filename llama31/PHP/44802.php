@@ -1,0 +1,1 @@
+if ($domNode->nodeType === XML_ELEMENT_NODE) {\n    // it's an element node\n}

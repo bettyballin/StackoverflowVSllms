@@ -1,1 +1,0 @@
-function abc($i = 3) {\n    $results = [];\n    \n    for ($a = 1; $a <= $i; $a++) {\n        $name = 't' . $a;\n        $$name = "ae" . $a;\n        $results[] = $$name;\n    }\n\n    return $results;\n}

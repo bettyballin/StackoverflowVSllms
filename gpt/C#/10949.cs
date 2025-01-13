@@ -1,1 +1,0 @@
-var someObject = new SomeClass\n{\n    Property1 = "Value1",\n    Property2 = "Value2"\n};\nsomeObject.Method1();

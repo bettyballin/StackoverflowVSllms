@@ -1,1 +1,0 @@
-// When creating the COM object\n   extern void DllAddRef();\n   DllAddRef();\n\n   // When releasing the COM object\n   extern void DllRelease();\n   DllRelease();

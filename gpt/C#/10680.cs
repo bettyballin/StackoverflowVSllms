@@ -1,1 +1,0 @@
-public override void Install(IDictionary stateSaver)\n   {\n       string parameter = Context.Parameters["MyParameter"];\n       if (!string.IsNullOrEmpty(parameter))\n       {\n           // Process the parameter\n           Console.WriteLine($"Parameter received: {parameter}");\n       }\n       base.Install(stateSaver);\n   }

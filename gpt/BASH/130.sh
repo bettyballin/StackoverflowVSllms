@@ -1,1 +1,0 @@
-tsqllint path/to/your/database/schema.sql

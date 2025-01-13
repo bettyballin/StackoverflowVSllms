@@ -1,0 +1,1 @@
+xxd -p file1.txt > file1.hex\nxxd -p file2.txt > file2.hex\ndiff file1.hex file2.hex

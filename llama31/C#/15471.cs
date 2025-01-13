@@ -1,0 +1,1 @@
+[assembly: AssemblyKeyFile("MyKey.snk")]\n[assembly: AssemblyDelaySign(false)]\n[assembly: AllowPartiallyTrustedCallers]

@@ -1,1 +1,0 @@
-public class WindowsHost : IHost\n{\n    private UserSession _userSession;\n\n    public WindowsHost(UserSession userSession)\n    {\n        _userSession = userSession;\n    }\n\n    public UserSession UserSession\n    {\n        get\n        {\n            return _userSession;\n        }\n    }\n}

@@ -1,0 +1,1 @@
+Dim sftp\nSet sftp = Server.CreateObject("Chilkat.SFtp")\nsftp.Username = "username"\nsftp.Password = "password"\nsftp.Connect "example.com", 22\nsftp.PutFile "C:\localfile.txt", "/remotefile.txt"\nsftp.GetFile "/remotefile.txt", "C:\localfile.txt"\nsftp.Disconnect\nSet sftp = Nothing

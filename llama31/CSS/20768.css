@@ -1,0 +1,1 @@
+td {\n  background-color: inherit;\n}\n\ntd > span[style*="background-color"] {\n  background-color: inherit;\n}\n\ntd:has(> span[style*="background-color"]) {\n  background-color: #your-color;\n}

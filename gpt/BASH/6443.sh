@@ -1,1 +1,0 @@
-echo "0000:00:1b.0" > /sys/bus/pci/devices/0000:00:1b.0/driver/unbind\n   echo "8086 1c20" > /sys/bus/pci/drivers/vfio-pci/new_id

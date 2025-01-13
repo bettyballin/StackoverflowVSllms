@@ -1,0 +1,1 @@
+CREATE TABLE ColorPalette (\n    Color char(10) PRIMARY KEY\n);\n\nINSERT INTO ColorPalette (Color)\nVALUES ('Black'), ('White'), ('Red'), ('Blue');\n\nCREATE TABLE YourTable (\n    Color char(10) FOREIGN KEY REFERENCES ColorPalette(Color)\n);

@@ -1,0 +1,1 @@
+public class Global : HttpApplication\n{\n    protected void Application_Start(object sender, EventArgs e)\n    {\n        RouteTable.Routes.MapPageRoute("default", "", "~/default.aspx");\n    }\n}

@@ -1,1 +1,0 @@
-<quiz>\n       <question content="What is 2 + 2?">\n           <answer>3</answer>\n           <answer>4</answer>\n           <answer>5</answer>\n       </question>\n       <question content="What is the capital of France?">\n           <answer>London</answer>\n           <answer>Paris</answer>\n           <answer>Berlin</answer>\n       </question>\n   </quiz>

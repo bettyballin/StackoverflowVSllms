@@ -1,0 +1,1 @@
+foreach (string file in Directory.EnumerateFiles(drive, "*" + extension, SearchOption.AllDirectories))\n{\n    try\n    {\n        Console.WriteLine(file);\n    }\n    catch (UnauthorizedAccessException ex)\n    {\n        Console.WriteLine("Access denied: " + ex.Message);\n    }\n}

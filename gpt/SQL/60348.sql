@@ -1,1 +1,0 @@
-CREATE TABLE VENDOR (\n    no INT(6) NOT NULL,\n    -- other columns here\n    PRIMARY KEY (no)\n) ENGINE=INNODB;

@@ -1,0 +1,1 @@
+.section-heading-cap {\n  position: relative;\n}\n\n.section-heading-cap img {\n  position: absolute;\n  top: -20px; /* adjust this value to position the image above the container */\n  left: 0;\n}

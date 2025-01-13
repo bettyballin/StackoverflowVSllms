@@ -1,1 +1,0 @@
-class MainController:\n    def __init__(self):\n        # Initialize models and other controllers\n        pass\n\n    # Define callback methods and other controller logic here

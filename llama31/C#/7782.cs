@@ -1,0 +1,1 @@
+using (var dc = new DataContext("your_connection_string"))\n{\n    var query = "SELECT * from myTable WHERE typeOfSelect = @type";\n    var results = dc.ExecuteQuery<MyTable>(query, new { type = "your_type" });\n}

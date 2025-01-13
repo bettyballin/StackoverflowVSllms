@@ -1,1 +1,0 @@
-Dim ServiceOff As Storyboard = DirectCast(FindResource("ServiceStopped"), Storyboard)\nServiceOff.Begin(Me) ' 'Me' refers to the current window or user control

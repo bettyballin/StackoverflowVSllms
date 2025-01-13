@@ -1,0 +1,1 @@
+ls -led /path/to/Public

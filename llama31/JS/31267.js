@@ -1,0 +1,1 @@
+$(document).ready(function() {\n    $('a[data-news-id]').on('click', function() {\n        var newsId = $(this).data('news-id');\n        showhideComments(newsId);\n    });\n});

@@ -1,0 +1,1 @@
+using System.Diagnostics;\n\nProcess process = new Process();\nprocess.StartInfo.FileName = "fsutil";\nprocess.StartInfo.Arguments = $"file setvaliddata {filename} {f.Length}";\nprocess.Start();\nprocess.WaitForExit();

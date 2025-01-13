@@ -1,0 +1,1 @@
+<?php\ninclude '../connection.php';\n\n$ID = $_GET['id'];\n\n$query = "SELECT * FROM `images` WHERE `image_id` = '$ID'";\n$result = mysql_query($query);\n$row = mysql_fetch_array($result);\n\n$image = $row['image'];\n$image_type = $row['image_type'];\n\nheader('Content-Type: ' . $image_type);\nheader('Content-Length: ' . strlen($image));\necho $image;\nexit;\n?>

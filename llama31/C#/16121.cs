@@ -1,0 +1,1 @@
+[StructLayout(LayoutKind.Sequential)]\npublic struct COSERVERINFO\n{\n    public uint dwReserved1;\n    [MarshalAs(UnmanagedType.LPWStr)]\n    public string pwszName;\n    public IntPtr pContext;\n    public uint dwReserved2;\n}

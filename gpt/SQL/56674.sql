@@ -1,1 +1,0 @@
-ALTER TABLE Customers ADD COLUMN Website HYPERLINK;

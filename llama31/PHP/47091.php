@@ -1,0 +1,1 @@
+$query = mysql_query("SELECT threads.id AS thread_id, users.id AS user_id, ... \n                      FROM threads\n                      INNER JOIN users\n                      ON threads.poster = users.id\n                      WHERE threads.forum_id = 11");

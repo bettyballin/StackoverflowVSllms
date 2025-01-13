@@ -1,1 +1,0 @@
-INSERT INTO table1 ([columnname1], columnname2) VALUES (val1, val2);

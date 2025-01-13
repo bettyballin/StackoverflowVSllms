@@ -1,0 +1,1 @@
+// myclass.h\nclass MyClass {\npublic:\n    void __thiscall foo();\n};\n\n// myclass.cpp\n#include "myclass.h"\n\nvoid __thiscall MyClass::foo() {\n    // implementation\n}\n\n// exports.def\nLIBRARY mydll\nEXPORTS\n    MyClass::foo

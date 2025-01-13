@@ -1,1 +1,0 @@
-# Example using 7-Zip\n   & "C:\Program Files\7-Zip\7z.exe" x path\to\your\SQL2005.ISO -oC:\path\to\extracted\folder

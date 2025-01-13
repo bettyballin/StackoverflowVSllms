@@ -1,1 +1,0 @@
-zip -r -Z bzip2 archive.zip folder/

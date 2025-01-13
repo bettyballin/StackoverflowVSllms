@@ -1,1 +1,0 @@
-// Example with a DI container like Autofac\nbuilder.RegisterType<MyDataContext>().InstancePerLifetimeScope();\nbuilder.RegisterType<User>().InstancePerDependency();

@@ -1,0 +1,1 @@
+java -cp "/path/to/bar.jar:/path/to/foo.jar" your.main.Class

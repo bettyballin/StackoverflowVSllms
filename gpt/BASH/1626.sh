@@ -1,1 +1,0 @@
-sqlplus "[uname]/[pw]" @"../database/My Schema/create_sequence.sql"

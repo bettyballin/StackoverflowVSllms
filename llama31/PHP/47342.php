@@ -1,0 +1,1 @@
+use Doctrine\ORM\Mapping as ORM;\n\n/**\n * @ORM\Entity\n * @ORM\Table(name="my_table")\n * @ORM\Index(name="search_index", columns={"name", "description"})\n */\nclass MyEntity\n{\n    // ...\n}

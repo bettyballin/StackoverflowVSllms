@@ -1,0 +1,1 @@
+public ActionResult GetPerson()\n{\n    var person = new Person { FirstName = "John", LastName = "Doe" };\n    var html = PartialView("Person", person).ToString();\n    var jsonData = new { person.FirstName, person.LastName };\n    return new HtmlJsonResult { Html = html, JsonData = jsonData };\n}

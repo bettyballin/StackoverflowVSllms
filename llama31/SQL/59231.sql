@@ -1,0 +1,1 @@
+SET XACT_ABORT ON\nBEGIN TRANSACTION\n    EXEC spStoredProcedure\n    -- other operations...\nCOMMIT TRANSACTION

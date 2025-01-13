@@ -1,1 +1,0 @@
-bcp "SELECT Data FROM [dbo].[tblData]" queryout "C:\path\to\output.txt" -c -C65001 -T -S servername

@@ -1,0 +1,1 @@
+CREATE TABLE log (\n  id INT PRIMARY KEY,\n  user_id INT,\n  user_name VARCHAR(255),\n  reference_id INT,\n  reference_type ENUM('user', 'service', ...),\n  message VARCHAR(255)\n);

@@ -1,0 +1,1 @@
+rpmbuild -bb foobar.spec

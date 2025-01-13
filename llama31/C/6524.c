@@ -1,0 +1,1 @@
+HKEY hKey;\nLONG lResult = RegOpenKeyEx(HKEY_CURRENT_USER, "Software\\MyApp", 0, KEY_READ, &hKey);\nif (lResult == ERROR_SUCCESS) {\n    // Use the key...\n    RegCloseKey(hKey); // Close the key handle when done\n}

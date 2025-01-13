@@ -1,0 +1,1 @@
+Imports System.Text\n\nDim test As String = "ΓΕΡ"\nDim encodedFilename As String = test & ".gif"\nMy.Computer.Network.DownloadFile("http://www.example.com/Images/" & encodedFilename, Application.StartupPath & ImageDir & fileName, Encoding.UTF8)

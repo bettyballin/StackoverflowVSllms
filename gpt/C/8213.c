@@ -1,1 +1,0 @@
-#ifndef CORE_DATA_BUILD\n   #define CORE_DATA_BUILD\n   #endif

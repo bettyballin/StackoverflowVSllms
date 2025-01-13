@@ -1,0 +1,1 @@
+require_once 'lib/Swift.php';\n\n$email = 'user@example.com';\n$address = new Swift_Address($email);\nif ($address->isValid()) {\n    echo "$email is valid";\n} else {\n    echo "$email is not valid";\n}

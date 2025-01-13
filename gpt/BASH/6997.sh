@@ -1,1 +1,0 @@
-pip install django\n   pip install djangorestframework

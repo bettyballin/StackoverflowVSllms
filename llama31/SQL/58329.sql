@@ -1,0 +1,1 @@
+SET @sample_size = 10000;\nSET @table_size = (SELECT COUNT(*) FROM table);\nSET @rand_low = RAND() * (@table_size - @sample_size);\nSET @rand_high = @rand_low + @sample_size;\n\nSELECT *\nFROM table\nWHERE RAND() BETWEEN @rand_low AND @rand_high\nLIMIT @sample_size;

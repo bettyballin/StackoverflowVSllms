@@ -1,0 +1,1 @@
+SELECT email\nFROM your_table\nWHERE email LIKE '%@%' AND (email NOT LIKE '%@%.%' OR email LIKE '%..%' OR email LIKE '%@%-%');

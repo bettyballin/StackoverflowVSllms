@@ -1,1 +1,0 @@
-# Add this function to your .bashrc or .bash_profile\nfunction connect_screen() {\n  local server="$1"\n  local session_name="$2"\n  ssh -t "$server" "screen -S $session_name -dr || screen -S $session_name"\n}\n\n# Usage: connect_screen server.com session_name

@@ -1,0 +1,1 @@
+CC = psp-gcc\nCFLAGS = -Wall -O2 -G0\nLDFLAGS = -L$(PSPSDK)/lib -lpspdebug

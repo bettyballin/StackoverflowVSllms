@@ -1,0 +1,1 @@
+[AcceptVerbs(HttpVerbs.Post)]\npublic ActionResult MyActionAjax(MyModel model)\n{\n    // Handle AJAX request\n}

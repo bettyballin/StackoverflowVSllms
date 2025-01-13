@@ -1,1 +1,0 @@
-#!/bin/bash\n\nexport BUNDLE_WITHOUT="development"\nbundle install\nbundle exec rspec

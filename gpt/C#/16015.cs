@@ -1,1 +1,0 @@
-[HttpPost]\npublic ActionResult TrackUserDisconnection()\n{\n    // Handle disconnection logic here\n    return new HttpStatusCodeResult(200);\n}

@@ -1,1 +1,0 @@
-include_path = ".;C:\Program Files\Apache Group\Apache2\htdocs"

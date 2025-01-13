@@ -1,0 +1,1 @@
+$loginHandler = new LoginHandler();\n$loginHandler->login();\n// Access variables: $loginHandler->dbHost, $loginHandler->username, etc.

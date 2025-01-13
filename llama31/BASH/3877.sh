@@ -1,0 +1,1 @@
+cscript adsutil.vbs SET W3SVC/Filters/Compression/Parameters/HcDoDynamicCompression TRUE

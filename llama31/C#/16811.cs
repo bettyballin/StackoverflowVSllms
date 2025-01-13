@@ -1,0 +1,1 @@
+OpenIdRelyingParty openid = new OpenIdRelyingParty();\nIAuthenticationRequest req = openid.CreateRequest(openid_identifier.Text);\n\nClaimsRequest fetch = new ClaimsRequest();\nfetch.Email = DemandLevel.Require;\nfetch.Nickname = DemandLevel.Require;\nfetch.FullName = DemandLevel.Request;\nfetch.Gender = DemandLevel.Request;\n\nreq.AddExtension(fetch);\nreq.RedirectToProvider();

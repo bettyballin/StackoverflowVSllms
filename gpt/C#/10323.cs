@@ -1,1 +1,0 @@
-// Logout.aspx.cs\nusing System;\n\npublic partial class Logout : System.Web.UI.Page\n{\n    protected void Page_Load(object sender, EventArgs e)\n    {\n        // Destroy the session\n        Session.Clear();\n        Session.Abandon();\n        \n        // Redirect to the login page or homepage\n        Response.Redirect("login.aspx");\n    }\n}

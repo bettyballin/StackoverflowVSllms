@@ -1,1 +1,0 @@
-# Clone a disk\n     sudo clonezilla

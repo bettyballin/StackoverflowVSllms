@@ -1,0 +1,1 @@
+# Assuming $ds is your DataSet and you want to access the first table and the first column\nforeach ($row in $ds.Tables[1].Rows) {\n    Write-Host "Value is: $($row[0])"\n}

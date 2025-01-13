@@ -1,0 +1,1 @@
+try\n{\n    // Do something\n    using (var file = new FileStream("example.txt", FileMode.Open))\n    {\n        // Use the file\n    }\n}\ncatch (Exception ex)\n{\n    // Handle exception\n}\nfinally\n{\n    // Ensure the file is closed\n    file.Close();\n}

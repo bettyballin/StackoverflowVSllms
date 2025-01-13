@@ -1,0 +1,1 @@
+$stmt = $pdo->prepare('SELECT id FROM table_name WHERE name = :name');\n\n$names = array('John Doe', 'Jane Doe', 'Bob Smith');\n\nforeach ($names as $name) {\n    $stmt->bindParam(':name', $name);\n    $stmt->execute();\n    $result = $stmt->fetch();\n    // ...\n}

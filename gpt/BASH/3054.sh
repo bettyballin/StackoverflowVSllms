@@ -1,1 +1,0 @@
-/usr/bin/time -v ./your_program

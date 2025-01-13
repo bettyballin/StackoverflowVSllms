@@ -1,0 +1,1 @@
+EXEC xp_cmdshell 'dir /b "C:\Your\Directory"';

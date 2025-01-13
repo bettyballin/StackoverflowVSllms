@@ -1,1 +1,0 @@
-./vendor/bin/phpdoc -d /path/to/your/project -t /path/to/output/directory

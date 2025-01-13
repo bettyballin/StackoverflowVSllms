@@ -1,0 +1,1 @@
+// application/modules/module1/config/module.config.php\nreturn array(\n    'module1' => array(\n        'foo' => 'bar',\n    ),\n);

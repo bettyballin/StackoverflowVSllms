@@ -1,0 +1,1 @@
+DECLARE\n  TYPE nested_table IS TABLE OF VARCHAR2(20);\n  my_table nested_table := nested_table('value1', 'value2', 'value3');\nBEGIN\n  FOR i IN 1..my_table.COUNT LOOP\n    DBMS_OUTPUT.PUT_LINE(my_table(i));\n  END LOOP;\nEND;

@@ -1,0 +1,1 @@
+string query = @"\n    SELECT id, startDateTime, endDateTime \n    FROM tb_bookings \n    WHERE buildingID IN (@buildingIDs) \n      AND startDateTime <= @fromDate";\n\nSqlCommand cmd = new SqlCommand(query);\ncmd.Parameters.AddWithValue("@buildingIDs", SqlDbType.IntArray, buildingIDs);\ncmd.Parameters.AddWithValue("@fromDate", SqlDbType.DateTime, fromDate);

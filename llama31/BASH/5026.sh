@@ -1,0 +1,1 @@
+cp /usr/local/bin/xinc /var/www/usr/local/bin/\ncp /usr/local/lib/libxinc.so.* /var/www/usr/local/lib/

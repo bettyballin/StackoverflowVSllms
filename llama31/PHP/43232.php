@@ -1,0 +1,1 @@
+$fullUrl = $this->getRequest()->getRequestUri();\n\n// or\n$uri = new Zend_Uri_Http($this->getRequest()->getRequestUri());\n$subdomain = $uri->getHost();\n$domain = $uri->getHost();\n$directories = $uri->getPath();

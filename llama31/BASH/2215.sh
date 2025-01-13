@@ -1,0 +1,1 @@
+# Create a batch of files with similar content\nfor i in {1..10}; do\n  cp template.pdf file-$i.pdf\n  # make some small changes to file-$i.pdf\ndone\n\n# Compress the batch using delta compression\nxz --delta=template.pdf file-*.pdf

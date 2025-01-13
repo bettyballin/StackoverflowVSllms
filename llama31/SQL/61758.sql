@@ -1,0 +1,1 @@
+CREATE FUNCTION [dbo].[GetInvoiceClients]\n(\n    @startDate datetime,\n    @endDate datetime\n)\nRETURNS TABLE\nAS\nRETURN\n(\n    -- your stored procedure code here\n)\n\nCREATE VIEW [dbo].[v_ReportInvoiceClientsThisMonth]\nAS\nSELECT * FROM [dbo].[GetInvoiceClients]('2009-03-01', '2009-04-01')

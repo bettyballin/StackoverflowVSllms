@@ -1,1 +1,0 @@
-from django.http import HttpResponse\n\ndef my_view(request):\n    response = HttpResponse(status=303)\n    response['Location'] = 'https://example.com/new-url'\n    return response

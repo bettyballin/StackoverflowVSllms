@@ -1,0 +1,1 @@
+chmod -R 755 sites/default/files

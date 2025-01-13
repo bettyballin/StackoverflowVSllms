@@ -1,0 +1,1 @@
+IISManager iisManager = new IISManager();\niisManager.AddHostHeader("MySite", "example.com", "192.168.1.100", 80);

@@ -1,1 +1,0 @@
-<?php\nif ($_SERVER['REQUEST_METHOD'] === 'POST') {\n    if (isset($_POST['myVar'])) {\n        $myVar = $_POST['myVar'];\n        echo 'POST data received: ' . htmlspecialchars($myVar);\n    } else {\n        echo 'No POST data received.';\n    }\n} else {\n    echo 'Not a POST request.';\n}\n?>

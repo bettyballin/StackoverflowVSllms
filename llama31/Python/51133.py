@@ -1,0 +1,1 @@
+def mark_item_as_read(user_id, item_id):\n    # Get the feed ID for this item\n    feed_id = Item.objects.get(id=item_id).feed_id\n\n    # Decrement unread count for this user-feed combination\n    unread_counts[user_id][feed_id] -= 1

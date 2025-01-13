@@ -1,0 +1,1 @@
+using System;\nusing System.Windows.Forms;\nusing System.Windows.Forms.Design;\n\n[Designer(typeof(MyControlDesigner))]\npublic class MyControl : Control\n{\n    // ...\n}\n\npublic class MyControlDesigner : ControlDesigner\n{\n    public override void Initialize(IComponent component)\n    {\n        base.Initialize(component);\n        // Add design-time support here\n    }\n}

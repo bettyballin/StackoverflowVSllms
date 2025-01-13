@@ -1,0 +1,1 @@
+$.ajax({\n  url: 'http://whateverorigin.org/get?url=' + encodeURIComponent('example.com'),\n  dataType: 'jsonp',\n  success: function(data) {\n    console.log(data.contents);\n  }\n});

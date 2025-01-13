@@ -1,1 +1,0 @@
-$matches = [\n    1 => [\n        0 => "example",\n        1 => "string",\n    ]\n];\n\n$i = 0;\n\nif (is_array($matches[1])) {\n    $val = $matches[1][$i]; // This will correctly assign "example" to $val when $i = 0\n} else {\n    echo "Error: $matches[1] is not an array.";\n}\n\necho $val; // Outputs: example

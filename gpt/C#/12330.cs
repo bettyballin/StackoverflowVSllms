@@ -1,1 +1,0 @@
-[System.Web.Script.Services.ScriptService]\npublic class MyService : System.Web.Services.WebService\n{\n    [WebMethod]\n    public string HelloWorld()\n    {\n        return "Hello, world!";\n    }\n}

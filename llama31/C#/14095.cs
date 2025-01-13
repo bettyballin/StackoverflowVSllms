@@ -1,0 +1,1 @@
+// example of getting the current Z-order\nint currentZIndex = Canvas.GetZIndex(myUserControl);

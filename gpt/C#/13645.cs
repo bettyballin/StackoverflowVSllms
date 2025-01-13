@@ -1,1 +1,0 @@
-string connectionString = "your_connection_string_here";\nDatabaseHelper dbHelper = new DatabaseHelper(connectionString);\n\n// For non-query execution:\ndbHelper.ExecuteQuery("INSERT INTO YourTable (Column1, Column2) VALUES ('Value1', 'Value2')");\n\n// For query execution:\nDataTable results = dbHelper.ExecuteQueryWithResults("SELECT * FROM YourTable");

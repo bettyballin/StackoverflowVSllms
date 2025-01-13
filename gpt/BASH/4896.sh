@@ -1,1 +1,0 @@
-sudo apt-get install wget\npip install beautifulsoup4 requests

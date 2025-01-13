@@ -1,0 +1,1 @@
+public function render($name = 'index')\n{\n    return $this->_engine->fetch(strtolower($name));\n}

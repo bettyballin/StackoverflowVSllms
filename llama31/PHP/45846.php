@@ -1,0 +1,1 @@
+$keys = array('f', 'b', 'g');\nif (isset($arr[$keys[0]][$keys[1]][$keys[2]])) {\n    // key exists\n}

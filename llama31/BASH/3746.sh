@@ -1,0 +1,1 @@
+g++ -o output /path/to/source.cpp

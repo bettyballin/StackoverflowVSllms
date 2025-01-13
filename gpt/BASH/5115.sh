@@ -1,1 +1,0 @@
-export DEVELOPER_DIR=/Developer/Platforms/MacOSX.platform/Developer

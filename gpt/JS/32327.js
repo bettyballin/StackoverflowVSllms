@@ -1,1 +1,0 @@
-// Example: Get the first <div> element\nvar firstDivElement = document.querySelector('div');\n\n// Example: Get an element by ID\nvar elementById = document.querySelector('#elementId');\n\n// Example: Get the first element by class name\nvar firstElementByClassName = document.querySelector('.className');

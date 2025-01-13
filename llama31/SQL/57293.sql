@@ -1,0 +1,1 @@
+SELECT * FROM widget\nWHERE LOWER(name) >= 'ba' AND LOWER(name) < 'bi'\nOR LOWER(name) LIKE 'bi%'

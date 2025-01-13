@@ -1,0 +1,1 @@
+// Create a new shared project\nusing System;\nusing System.Collections.Generic;\n\nnamespace MyBusinessLogic\n{\n    public class MyBusinessLogicClass\n    {\n        public int DoSomething()\n        {\n            // Your business logic here\n            return 42;\n        }\n    }\n}

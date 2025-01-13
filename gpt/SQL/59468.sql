@@ -1,1 +1,0 @@
-CREATE TABLE access (\n    user_id INT NOT NULL,\n    resource_id INT NOT NULL,\n    PRIMARY KEY (user_id, resource_id),\n    FOREIGN KEY (user_id) REFERENCES users(id),\n    FOREIGN KEY (resource_id) REFERENCES resources(id)\n);\n\nCREATE INDEX idx_user_resource ON access (user_id, resource_id);

@@ -1,1 +1,0 @@
-ALTER TABLE Results ADD Value JSON;

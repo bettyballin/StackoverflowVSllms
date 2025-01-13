@@ -1,0 +1,1 @@
+$result = $netClass->YourMethod('arg1', 'arg2');

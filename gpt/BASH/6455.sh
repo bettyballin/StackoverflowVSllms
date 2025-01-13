@@ -1,1 +1,0 @@
-GIT_SSH_COMMAND='ssh -o SendEnv=PATH' PATH=/usr/local/bin:$PATH git clone me@me.mydevbox.com:/home/chris/myproject

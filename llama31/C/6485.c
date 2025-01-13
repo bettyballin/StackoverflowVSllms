@@ -1,0 +1,1 @@
+// __cdecl calling convention (default)\nint add(int a, int b) {\n    return a + b;\n}\n\n// __stdcall calling convention (with CALLBACK)\nint CALLBACK add_stdcall(int a, int b) {\n    return a + b;\n}

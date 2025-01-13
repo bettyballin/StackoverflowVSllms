@@ -1,0 +1,1 @@
+class ApplicationController < ActionController::Base\n  before_action :check_capacity\n\n  private\n\n  def check_capacity\n    cpu_usage = `top -bn1 | awk '/Cpu\(s\)/ {print $2}'`.to_f\n    if cpu_usage > 0.8\n      render status: 503, text: 'Service Unavailable'\n    end\n  end\nend

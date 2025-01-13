@@ -1,1 +1,0 @@
-# Fetching the case object, for example with id 1\ncase_object = Case.find(1)\n\n# Access the object that has the case\nthing_that_has_a_case = case_object.caseable

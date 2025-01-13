@@ -1,0 +1,1 @@
+SELECT \n  p.Period,\n  COALESCE(pi.Profit, 0) AS Profit\nFROM \n  GENERATE_SERIES(1, 24) AS p(Period)\n  LEFT JOIN Projections pi ON p.Period = pi.Period;

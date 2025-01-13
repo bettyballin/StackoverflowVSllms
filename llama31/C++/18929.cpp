@@ -1,0 +1,1 @@
+#include <objbase.h>\n\nGUID guid;\nHRESULT hr = CoCreateGuid(&guid);\nif (SUCCEEDED(hr)) {\n    // Use the generated GUID\n    SHNOTIFICATIONDATA data;\n    data.clsid = guid;\n    // ...\n}

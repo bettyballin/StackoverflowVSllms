@@ -1,0 +1,1 @@
+$result = array_values(array_diff($arrayB, $arrayA));

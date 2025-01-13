@@ -1,0 +1,1 @@
+strip -g example

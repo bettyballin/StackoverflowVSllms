@@ -1,1 +1,0 @@
-[HttpPost]\npublic ActionResult YourAction(YourViewModel model)\n{\n    // Now you have the initialHour, finalHour, and weekday values in the model\n    var initialHour = model.InitialHour;\n    var finalHour = model.FinalHour;\n    var weekday = model.Weekday;\n\n    // Your logic here\n\n    return View(model);\n}

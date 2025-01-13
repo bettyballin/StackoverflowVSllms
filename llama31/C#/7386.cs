@@ -1,0 +1,1 @@
+using Microsoft.Win32;\n\nRegistryKey key = Registry.LocalMachine.OpenSubKey(@"SOFTWARE\Microsoft\NET Framework Setup\NDP\v4\Full");\nstring version = (string)key.GetValue("Version");

@@ -1,0 +1,1 @@
+// users.js\nimport apiEndpoints from './config';\n\nconst getUsers = () => {\n  const url = apiEndpoints.users.getAll;\n  // make AJAX request to url\n};\n\nconst getUserById = (id) => {\n  const url = apiEndpoints.users.getById.replace('{id}', id);\n  // make AJAX request to url\n};

@@ -1,1 +1,0 @@
-csvlook large_file.csv  # To display the CSV file in a tabular format

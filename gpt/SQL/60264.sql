@@ -1,1 +1,0 @@
-SELECT\n       id,\n       zip_code,\n       ( 3959 * acos( cos( radians(:latitude) ) * cos( radians( latitude ) ) \n       * cos( radians( longitude ) - radians(:longitude) ) + sin( radians(:latitude) ) \n       * sin( radians( latitude ) ) ) ) AS distance\n   FROM zip_codes\n   HAVING distance < :radius\n   ORDER BY distance;

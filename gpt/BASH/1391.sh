@@ -1,1 +1,0 @@
-# If the library is in some other directory\nLIBS += -L"C:/path/to/directory"\nLIBS += -lnewmat\n\n# Ensure the library file exists\n!exists("C:/path/to/directory/libnewmat.a") {\n    error("libnewmat.a does not exist")\n}

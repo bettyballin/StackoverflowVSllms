@@ -1,1 +1,0 @@
-// Code-behind or Controller\npublic void SomeMethod()\n{\n    var userId = HttpContext.Current.Session["UserId"];\n    var businessLayer = new BusinessLayer();\n    businessLayer.ProcessData(userId);\n}\n\n// Business Layer\npublic class BusinessLayer\n{\n    public void ProcessData(object userId)\n    {\n        // Business logic using userId\n    }\n}

@@ -1,0 +1,1 @@
+gcc -S -fverbose-asm -o example.s example.c

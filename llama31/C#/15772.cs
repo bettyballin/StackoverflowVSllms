@@ -1,0 +1,1 @@
+<%@ Control Language="C#" Inherits="System.Web.Mvc.ViewUserControl<IEnumerable<SearchResult>>" %>\n\n<div id="question-suggestions">\n    <% foreach (var result in Model) { %>\n        <div class="answer-summary" style="width: 610px;">\n            <a href="<%= result.Url %>">\n                <%= result.Title %>\n            </a>\n        </div>\n    <% } %>\n</div>

@@ -1,1 +1,0 @@
-[Authorize]\n   [ApiController]\n   public class SecureController : ControllerBase\n   {\n       [HttpGet("secure-data")]\n       public IActionResult GetSecureData()\n       {\n           // Fetch and return secure data\n       }\n   }

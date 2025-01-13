@@ -1,1 +1,0 @@
-public class Entity\n{\n    public virtual int Id { get; set; }\n    public virtual uint Count { get; set; }\n}

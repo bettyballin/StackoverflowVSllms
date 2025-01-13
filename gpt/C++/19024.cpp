@@ -1,1 +1,0 @@
-// Correct usage: default parameters are last\nvoid exampleFunction(int a, int b = 10);\n\n// Incorrect usage: default parameters are not last\nvoid exampleFunction(int a = 10, int b);

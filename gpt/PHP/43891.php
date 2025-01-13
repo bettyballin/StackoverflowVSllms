@@ -1,1 +1,0 @@
-$userId = 1; // Replace with the actual user ID\n\n$sql = "\n    SELECT a.*\n    FROM Activities a\n    JOIN Followers f ON a.user_id = f.follower_id\n    WHERE f.user_id = ?\n    ORDER BY a.activity_type, a.node_id;\n";\n\n$stmt = $pdo->prepare($sql);\n$stmt->execute([$userId]);\n$activities = $stmt->fetchAll(PDO::FETCH_ASSOC);

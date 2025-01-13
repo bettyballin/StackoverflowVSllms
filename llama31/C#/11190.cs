@@ -1,0 +1,1 @@
+var years = new List<SelectListItem>();\nfor (int year = DateTime.Now.Year - 10; year <= DateTime.Now.Year + 1; year++)\n{\n    years.Add(new SelectListItem { Value = year.ToString(), Text = year.ToString() });\n}

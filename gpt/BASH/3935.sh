@@ -1,1 +1,0 @@
-schtasks /create /tn "SVN Backup" /tr "powershell.exe -File C:\path\to\backup_script.ps1" /sc daily /st 02:00

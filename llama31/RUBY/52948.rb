@@ -1,0 +1,1 @@
+# app/controllers/assets_controller.rb\nclass AssetsController < ApplicationController\n  before_action :authenticate_user!\n\n  def swf\n    send_file Rails.root.join('app', 'assets', 'secure', 'your_swf_file.swf'), type: 'application/x-shockwave-flash'\n  end\nend

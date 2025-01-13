@@ -1,0 +1,1 @@
+using System;\nusing System.Diagnostics;\n\nclass Program\n{\n    static void Main()\n    {\n        Process process = Process.GetCurrentProcess();\n        IntPtr handle = process.MainWindowHandle;\n\n        Console.WriteLine("Handle: " + handle);\n    }\n}

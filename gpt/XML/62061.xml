@@ -1,1 +1,0 @@
-<system.webServer>\n  <applicationPools>\n    <add name="MyAppPool" managedRuntimeVersion="v4.0" pipelineMode="Integrated" />\n  </applicationPools>\n</system.webServer>

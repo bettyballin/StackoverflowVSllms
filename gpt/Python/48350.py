@@ -1,1 +1,0 @@
-import redis\n     import json\n\n     r = redis.Redis()\n\n     event_data = {\n         'remote_extension': '1234',\n         'local_extension': '5678',\n         'call_direction': 'inbound',\n         'channel_status': 'active',\n         'start_time': '2021-08-01T12:00:00Z',\n         'end_time': None\n     }\n\n     r.publish('events', json.dumps(event_data))

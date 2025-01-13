@@ -1,0 +1,1 @@
+li:not(ol li) {\n  list-style-type: square;\n}

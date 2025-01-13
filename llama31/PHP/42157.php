@@ -1,0 +1,1 @@
+if (move_uploaded_file($_FILES['file']['tmp_name'], $uploaddir . $_FILES['file']['name'])) {\n    // uploaded file was moved and renamed succesfully. Display a message.\n    $fileUrl = "http://example.org/" . str_replace(' ', '_', $_FILES["file"]["name"]);\n    $emailLink = "mailto:?body=" . urlencode($fileUrl);\n    echo "Link: <a href=\"$emailLink\">$fileUrl</a>";\n}

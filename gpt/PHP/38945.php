@@ -1,1 +1,0 @@
-// In a view script\necho $this->translate('hello_world');\n\n// In a controller\n$translate = Zend_Registry::get('Zend_Translate');\necho $translate->_('hello_world');

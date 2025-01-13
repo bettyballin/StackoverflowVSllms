@@ -1,1 +1,0 @@
-echo '<a href="page.php?' . SID . '">Link with Session ID</a>';

@@ -1,1 +1,0 @@
-Imports System.Web\n\nModule Module1\n    Sub Main()\n        Dim originalString As String = "This is a test string with special characters: &%$#@!"\n        Dim encodedString As String = HttpUtility.UrlEncode(originalString)\n        Console.WriteLine(encodedString)\n    End Sub\nEnd Module

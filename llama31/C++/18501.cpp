@@ -1,0 +1,1 @@
+#include <iostream>\n\nint main() {\n    std::cout << \"Hello, World!\\n\";\n}

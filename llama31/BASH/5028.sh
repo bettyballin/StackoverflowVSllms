@@ -1,0 +1,1 @@
+# Enable the Repository Browser\nsvn propset svn:repository-browser "http://svn.example.com/myproject" /path/to/htdocs

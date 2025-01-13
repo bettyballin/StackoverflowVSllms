@@ -1,0 +1,1 @@
+public partial class User\n{\n    // ... other properties ...\n\n    public int CompanyId { get; set; }\n\n    // No navigation property for Company\n}

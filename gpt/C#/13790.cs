@@ -1,1 +1,0 @@
-var client = new MongoClient("mongodb://localhost:27017");\n   var database = client.GetDatabase("yourDatabase");\n   var collection = database.GetCollection<BsonDocument>("processedData");\n   \n   var document = new BsonDocument\n   {\n       { "processedField1", processedValue1 },\n       { "processedField2", processedValue2 }\n   };\n   collection.InsertOne(document);

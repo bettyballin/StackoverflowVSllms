@@ -1,1 +1,0 @@
-scp avalys@remote_host:/home/avalys/html/welcome.msg /path/to/local/destinatio

@@ -1,1 +1,0 @@
-# List all certificates in the Java keystore\nkeytool -list -keystore $JAVA_HOME/lib/security/cacerts -storepass changeit\n\n# Print the details of your certificate\nkeytool -printcert -file your_certificate.pem

@@ -1,1 +1,0 @@
-HANDLE CreateFile2(\n      LPCWSTR                           lpFileName,\n      DWORD                             dwDesiredAccess,\n      DWORD                             dwShareMode,\n      DWORD                             dwCreationDisposition,\n      LPCREATEFILE2_EXTENDED_PARAMETERS pCreateExParams\n    );

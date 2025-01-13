@@ -1,1 +1,0 @@
-tasklist /FI "IMAGENAME eq processname.exe"

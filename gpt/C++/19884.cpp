@@ -1,1 +1,0 @@
-BEGIN_MESSAGE_MAP(CClassWnd, CBaseClassWnd)\n       ...\n       ON_WM_SIZE()\n       ...\n   END_MESSAGE_MAP()

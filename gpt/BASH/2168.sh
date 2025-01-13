@@ -1,1 +1,0 @@
-tlbimp MyLibrary.dll /out:Interop.MyLibrary.dll

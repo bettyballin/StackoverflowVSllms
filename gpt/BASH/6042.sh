@@ -1,1 +1,0 @@
-msbuild YourProjectFile.csproj /p:Configuration=Release

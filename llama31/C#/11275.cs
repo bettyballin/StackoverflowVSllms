@@ -1,0 +1,1 @@
+// In your form\n@Html.AntiForgeryToken()\n\n// On your controller action\n[HttpPost]\n[ValidateAntiForgeryToken]\npublic ActionResult MyAction(MyModel model)\n{\n    // Action code here\n}

@@ -1,1 +1,0 @@
-sudo yast2 -i php5-5.2.*

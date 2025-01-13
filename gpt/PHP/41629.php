@@ -1,1 +1,0 @@
-$sql = "SELECT FROM_UNIXTIME(timecode, '%Y') AS year, COUNT(*) AS count\n        FROM timecodeTable\n        GROUP BY year";

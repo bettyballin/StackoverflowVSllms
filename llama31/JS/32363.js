@@ -1,0 +1,1 @@
+var canvas = document.createElement('canvas');\nvar ctx = canvas.getContext('2d');\n// ...\ncanvas.toBlob(function(blob) {\n  // Handle the blob\n});

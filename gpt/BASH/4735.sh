@@ -1,1 +1,0 @@
-./configure --with-apxs=/usr/sbin/apxs\n    make\n    make install

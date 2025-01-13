@@ -1,0 +1,1 @@
+using System.Runtime.InteropServices;\n\n[ComVisible(true)]\npublic class MyComVisibleClass\n{\n    [ComVisible(true)]\n    public void MyComVisibleMethod()\n    {\n        Console.WriteLine("Hello from C#!");\n    }\n}

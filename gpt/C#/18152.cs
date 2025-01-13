@@ -1,1 +1,0 @@
-amespace YourCompany.YourSolution.Domain.Customer\n  {\n      public class Customer { ... }\n  }\n\n  namespace YourCompany.YourSolution.Services.CustomerService\n  {\n      public class CustomerService { ... }\n  }\n\n  namespace YourCompany.YourSolution.Utilities.Logging\n  {\n      public class Logger { ... }\n  }

@@ -1,0 +1,1 @@
+public partial class VotingPolls : System.Web.UI.UserControl\n{\n    public bool Visible\n    {\n        get { return this.Visible; }\n        set { this.Visible = value; }\n    }\n    // ...\n}

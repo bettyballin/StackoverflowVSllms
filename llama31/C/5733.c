@@ -1,0 +1,1 @@
+char* my_function ( char *p_in_string, int *status ) {\n    char result[1024]; // or some other fixed-size buffer\n    // ...\n    return result; // WRONG! Returning a local variable's address\n}

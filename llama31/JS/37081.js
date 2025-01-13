@@ -1,0 +1,1 @@
+$.validator.unobtrusive.adapters.add("email", function(options) {\n    var element = $(options.element);\n    var errorMessage = "Email required.";\n    element.rules("add", {\n        required: true,\n        messages: {\n            required: errorMessage\n        }\n    });\n});

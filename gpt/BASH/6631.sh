@@ -1,1 +1,0 @@
-sudo a2enmod cache\n    sudo a2enmod cache_disk\n    sudo a2enmod expires\n    sudo systemctl restart apache2

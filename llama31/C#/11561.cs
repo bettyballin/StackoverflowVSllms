@@ -1,0 +1,1 @@
+e = (E)Convert.ChangeType(o, typeof(E));

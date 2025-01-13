@@ -1,1 +1,0 @@
-$.ajax({\n  type: "POST",\n  url: "YourWebService.asmx/YourMethod",\n  data: JSON.stringify({ param1: value1, param2: value2 }),\n  contentType: "application/json; charset=utf-8",\n  dataType: "json",\n  success: function(result) {\n    // Safely access the data\n    $("#div").html(result.d);\n  },\n  error: function(error) {\n    console.error("Error: ", error);\n  }\n});

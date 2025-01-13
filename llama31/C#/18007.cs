@@ -1,0 +1,1 @@
+using System;\nusing System.Threading;\n\nclass Program\n{\n    static void Main()\n    {\n        for (int i = 0; i <= 100; i++)\n        {\n            Console.Write("\rProcessing... {0}%", i);\n            Thread.Sleep(50); // simulate work\n        }\n        Console.WriteLine(); // move to next line\n    }\n}

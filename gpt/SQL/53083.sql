@@ -1,1 +1,0 @@
-SELECT count_rows_in_table('mytable');

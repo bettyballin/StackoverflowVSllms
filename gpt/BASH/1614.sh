@@ -1,1 +1,0 @@
-chcon -t httpd_sys_script_exec_t /home/webtest/help/ask_us.php

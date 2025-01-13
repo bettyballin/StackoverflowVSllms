@@ -1,1 +1,0 @@
-cat /proc/sys/kernel/sem

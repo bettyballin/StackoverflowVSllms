@@ -1,0 +1,1 @@
+UPDATE table_name\nSET \n  column1 = CASE\n    WHEN table_name.type = 'volunteer' THEN 'new_value1'\n    ELSE column1\n  END,\n  column2 = CASE\n    WHEN table_name.type = 'volunteer' THEN 'new_value2'\n    ELSE column2\n  END,\n  column3 = CASE\n    WHEN table_name.type = 'mailing_list' THEN 'new_value3'\n    ELSE column3\n  END\nWHERE id = 'record_id';

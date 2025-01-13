@@ -1,0 +1,1 @@
+using (StreamReader outputReader = new StreamReader(gameServerProcess.StandardOutput.BaseStream))\n{\n    string output = outputReader.ReadToEnd();\n    // Process output\n}

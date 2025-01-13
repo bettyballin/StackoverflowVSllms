@@ -1,0 +1,1 @@
+awk -i inplace '{if ((NR-32) % 15 == 0) print "#"; print}' input.txt

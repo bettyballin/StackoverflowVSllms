@@ -1,0 +1,1 @@
+ldapmodify -x -D "cn=admin,dc=example,dc=com" -W -f restricted-admin-acl.ldif

@@ -1,1 +1,0 @@
-struct ExampleAligned {\n    char a;\n    int b;\n    char c;\n    short d;\n} __attribute__((aligned(8)));

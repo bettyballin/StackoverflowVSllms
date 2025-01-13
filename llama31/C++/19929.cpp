@@ -1,0 +1,1 @@
+// myclass.cpp\n#define MYCLASS_EXPORTS\n#include "myclass.h"\n\nMyClass::MyClass() {}\nMyClass::~MyClass() {}\nvoid MyClass::myMethod() {}

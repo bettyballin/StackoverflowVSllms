@@ -1,1 +1,0 @@
-class ClassA {\n  private $collection = array();\n  public $value;\n\n  function __get($item) {\n    if (array_key_exists($item, $this->collection)) {\n      return $this->collection[$item];\n    }\n    return null; // or throw an exception if preferred\n  }\n}

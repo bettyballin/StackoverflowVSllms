@@ -1,0 +1,1 @@
+using Oracle.DataAccess.Client;\n\n// Set the DllPath property\nOracleConfiguration.OracleDataAccessClient.DllPath = "oracle_client";\n\n// Create an OracleConnection instance\nOracleConnection conn = new OracleConnection("your_connection_string");

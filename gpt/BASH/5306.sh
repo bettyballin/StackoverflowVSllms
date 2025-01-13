@@ -1,1 +1,0 @@
-ssh your_user@your_server 'bash /path/to/deploy.sh'

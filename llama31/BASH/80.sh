@@ -1,0 +1,1 @@
+// Example usage:\n// Run Apache Directory Studio with the following command\njava -jar ApacheDirectoryStudio.jar

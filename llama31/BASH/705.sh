@@ -1,0 +1,1 @@
+impdp system/manager DIRECTORY=/path/to/import DUMPFILE=zeus.dmp FULL=Y

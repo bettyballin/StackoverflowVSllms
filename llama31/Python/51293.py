@@ -1,0 +1,1 @@
+import socket\nsock = socket.create_connection(("www.example.com", 80))

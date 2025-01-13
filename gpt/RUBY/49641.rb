@@ -1,1 +1,0 @@
-class SessionsControllerTest < ActionController::TestCase\n  test "should get user" do\n    user = users(:stan)\n    # Your test code goes here\n  end\nend

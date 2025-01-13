@@ -1,1 +1,0 @@
-class Post < ActiveRecord::Base\n  has_many :comments, dependent: :destroy\nend\n\nclass Comment < ActiveRecord::Base\n  belongs_to :post, counter_cache: true\nend

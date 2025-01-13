@@ -1,1 +1,0 @@
-' In EXE\nPublic Class MyDataContext\n    Inherits DataContext\n    Implements IDataContext\n\n    ' Implement interface members\n    Public Sub SubmitChanges() Implements IDataContext.SubmitChanges\n        MyBase.SubmitChanges()\n    End Sub\n\n    ' Implement other necessary methods and properties\nEnd Class

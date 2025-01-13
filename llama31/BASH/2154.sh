@@ -1,0 +1,1 @@
+mysql -u root -p\nALTER USER 'root'@'localhost' IDENTIFIED BY 'new_password';\nFLUSH PRIVILEGES;

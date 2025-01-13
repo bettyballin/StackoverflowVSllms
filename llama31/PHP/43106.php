@@ -1,0 +1,1 @@
+$xml = simplexml_load_string($text_all);\n\n$result = $xml->Criterions->asXML();

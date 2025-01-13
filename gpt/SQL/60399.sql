@@ -1,1 +1,0 @@
--- Disable all foreign key constraints\nEXEC sp_msforeachtable 'ALTER TABLE ? NOCHECK CONSTRAINT ALL';\n\n-- Drop the tables\nDROP TABLE IF EXISTS Table1, Table2, Table3;\n\n-- Enable all foreign key constraints\nEXEC sp_msforeachtable 'ALTER TABLE ? WITH CHECK CHECK CONSTRAINT ALL';

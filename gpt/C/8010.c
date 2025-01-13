@@ -1,1 +1,0 @@
-// Implementation file: foo.c\n#include "foo.h"\n\nenum Foo testFunc(void) {\n    return BAR;\n}

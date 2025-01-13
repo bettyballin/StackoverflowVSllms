@@ -1,1 +1,0 @@
-fl.trace("Hello, Flash!");\n\nvar doc = fl.getDocumentDOM();\nif (doc) {\n    // Perform operations on the document\n    doc.addNewLayer("NewLayer");\n    doc.addNewSymbol("movie clip", "NewSymbol");\n}

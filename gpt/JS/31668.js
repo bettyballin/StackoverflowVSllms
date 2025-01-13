@@ -1,1 +1,0 @@
-document.getElementById('myDiv').style.transform = 'rotate(45deg)';

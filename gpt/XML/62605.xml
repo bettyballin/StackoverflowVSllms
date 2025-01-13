@@ -1,1 +1,0 @@
-<profile>\n  <properties>\n    <add name="FirstName" type="String" />\n    <add name="LastName" type="String" />\n    <!-- Additional properties -->\n  </properties>\n</profile>

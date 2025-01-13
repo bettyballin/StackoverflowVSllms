@@ -1,1 +1,0 @@
-# Example command to use Apache FOP\n   fop -xml input.xml -xsl docbook.xsl -pdf output.pdf

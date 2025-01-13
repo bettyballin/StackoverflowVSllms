@@ -1,1 +1,0 @@
-sudo su - postgres\n   /usr/local/postgresql-8.3.6/bin/initdb -D /usr/local/postgresql-8.3.6/data

@@ -1,0 +1,1 @@
+$postArray = array(\n    'one' => array('foo', 'bar'),\n    'two' => array('key' => 'something')\n);\n\n$postString = http_build_query($postArray);\n\necho $postString;

@@ -1,1 +1,0 @@
-xcopy "$(SolutionDir)ProjectB\bin\$(ConfigurationName)\native.dll" "$(TargetDir)" /Y

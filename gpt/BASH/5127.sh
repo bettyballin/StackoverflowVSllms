@@ -1,1 +1,0 @@
-composer require jumbojett/openid-connect-php

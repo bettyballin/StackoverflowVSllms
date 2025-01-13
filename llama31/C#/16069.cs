@@ -1,0 +1,1 @@
+XmlTextWriter writer = new XmlTextWriter("filename.xml", null);\n\nwriter.WriteStartElement("User");\nwriter.WriteStartElement("Username");\nwriter.WriteCData(inputUserName);\nwriter.WriteEndElement();\nwriter.WriteStartElement("Email");\nwriter.WriteCData(inputEmail);\nwriter.WriteEndElement();\nwriter.WriteEndElement();\n\nwriter.Close();

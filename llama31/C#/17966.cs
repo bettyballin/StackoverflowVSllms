@@ -1,0 +1,1 @@
+var dir = new DirectoryInfo(@"C:\Temp");\nvar file = dir.CreateFileInfo("file.ext");

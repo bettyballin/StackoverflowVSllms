@@ -1,0 +1,1 @@
+var pipeline = new MarkdownPipelineBuilder()\n    .UseHtmlEscape()\n    .Build();

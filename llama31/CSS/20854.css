@@ -1,0 +1,1 @@
+.container {\n  display: flex;\n  flex-direction: column;\n  justify-content: space-between;\n}\n\n.bottom-right {\n  align-self: flex-end;\n}

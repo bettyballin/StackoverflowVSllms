@@ -1,1 +1,0 @@
-<?php\nheader('Content-Type: text/event-stream');\nheader('Cache-Control: no-cache');\n\n// Send a message every second\nwhile (true) {\n    echo "data: The server time is: " . date("H:i:s") . "\n\n";\n    ob_flush();\n    flush();\n    sleep(1);\n}\n?>

@@ -1,0 +1,1 @@
+<root>\n  <child>\n    <grandchild attr1="myVal"/>\n  </child>\n</root>

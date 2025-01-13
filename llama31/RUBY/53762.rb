@@ -1,0 +1,1 @@
+cgi.assign = ( ".php" => "sudo -u phpuser -g phpgrp /usr/bin/php-cgi -c /path/to/php.ini" )

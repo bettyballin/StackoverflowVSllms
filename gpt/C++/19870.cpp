@@ -1,1 +1,0 @@
-extern "C" {\n    __declspec(dllexport) int Foo(int a);\n    __declspec(dllexport) int Foo(int a, int b);\n    __declspec(dllexport) void Bar(int foo);\n}

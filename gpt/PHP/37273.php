@@ -1,1 +1,0 @@
-add_action('wp_login', 'generate_jwt_token', 10, 2);\n   function generate_jwt_token($user_login, $user) {\n       $jwt_token = generate_token($user); // Implement JWT token generation here\n       setcookie('jwt_token', $jwt_token, time() + (86400 * 7), "/", "", true, true); // Set secure cookie\n   }

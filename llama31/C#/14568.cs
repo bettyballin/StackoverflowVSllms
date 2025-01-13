@@ -1,0 +1,1 @@
+[DisplayName("My Decorator Display Name")]\npublic string MyDecoratorProperty { get; set; }

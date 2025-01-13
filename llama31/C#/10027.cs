@@ -1,0 +1,1 @@
+@Html.ActionLink("Link text", "Index", "MyController", new { id = 1 }, null)

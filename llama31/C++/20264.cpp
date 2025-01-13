@@ -1,0 +1,1 @@
+#include <cstdint>\n\nclass SimpleRNG {\npublic:\n    SimpleRNG(uint32_t seed) : state(seed) {}\n\n    uint32_t next() {\n        state = (1664525 * state + 1013904223) % 0xFFFFFFFF;\n        return state;\n    }\n\nprivate:\n    uint32_t state;\n};

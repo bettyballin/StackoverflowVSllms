@@ -1,1 +1,0 @@
-$('#content').load('getContent.php?tab=' + tabId);

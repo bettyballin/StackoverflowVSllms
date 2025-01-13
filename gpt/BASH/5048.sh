@@ -1,1 +1,0 @@
-cp /etc/php/apache2/php.ini /etc/php/cli/php.ini

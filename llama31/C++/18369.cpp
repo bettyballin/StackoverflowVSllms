@@ -1,0 +1,1 @@
+template <typename T> class MyClass {}; // external linkage

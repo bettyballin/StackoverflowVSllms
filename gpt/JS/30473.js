@@ -1,1 +1,0 @@
-document.body.style.userSelect = 'none';\ndocument.body.style.mozUserSelect = 'none';\ndocument.body.style.webkitUserSelect = 'none';\ndocument.body.style.msUserSelect = 'none';

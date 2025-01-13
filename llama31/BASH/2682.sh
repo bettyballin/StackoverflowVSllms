@@ -1,0 +1,1 @@
+if [ -z ${mystr+x} ]; then\n    echo "mystr is not defined"\nfi

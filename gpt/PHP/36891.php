@@ -1,1 +1,0 @@
-require_once '/path/to/vendor/autoload.php';\n\n$loader = new \Twig\Loader\FilesystemLoader('/path/to/templates');\n$twig = new \Twig\Environment($loader);\n\necho $twig->render('template.html.twig', [\n    'title' => 'My Website',\n    'heading' => 'Welcome to My Website',\n    'content' => 'This is a sample content section.'\n]);

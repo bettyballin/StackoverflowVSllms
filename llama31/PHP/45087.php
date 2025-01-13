@@ -1,0 +1,1 @@
+require_once 'phpQuery.php';\n\n$html = file_get_contents('https://example.com');\n$doc = phpQuery::newDocumentHTML($html);\n\n$elements = $doc->find('.my-selector');\n\nforeach ($elements as $element) {\n    // do something with $element\n}

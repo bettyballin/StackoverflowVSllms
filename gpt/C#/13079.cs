@@ -1,1 +1,0 @@
-public class FooChild : FooBase\n{\n    public void UpdateStatus(string newStatus)\n    {\n        this.StatusText = newStatus;\n    }\n}

@@ -1,0 +1,1 @@
+// Correct declaration\nint main() {\n    // program code\n    return 0; // indicate successful execution\n}\n\n// Incorrect declaration (avoid using void main)\nvoid main() {\n    // program code\n}

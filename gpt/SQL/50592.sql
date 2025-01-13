@@ -1,1 +1,0 @@
-SELECT \n    res.UserID, \n    res.QuizID, \n    res.QuizResult, \n    u.UserLogin, \n    q.QuizName, \n    q.QuizFile\nFROM \n    results res\nINNER JOIN \n    users u ON res.UserID = u.UserID\nINNER JOIN \n    quiz q ON res.QuizID = q.QuizID;

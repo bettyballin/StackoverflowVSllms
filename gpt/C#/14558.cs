@@ -1,1 +1,0 @@
-[ApiVersion("1.0")]\n[Route("api/v{version:apiVersion}/[controller]")]\npublic class MyControllerV1 : ControllerBase\n{\n    // Version 1.0 methods\n}\n\n[ApiVersion("2.0")]\n[Route("api/v{version:apiVersion}/[controller]")]\npublic class MyControllerV2 : ControllerBase\n{\n    // Version 2.0 methods\n}

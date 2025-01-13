@@ -1,1 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>\n<mx:Application xmlns:mx="http://www.adobe.com/2006/mxml" xmlns:local="*" layout="vertical">\n    <mx:HBox width="200">\n        <local:TruncateLabel maxWidth="150" truncateToFit="true" text="Really long text.Really long text.Really long text.Really long text.Really long text"/>\n    </mx:HBox>\n</mx:Application>

@@ -1,1 +1,0 @@
-import win32api\n\n# Display a message box with an OK button\nwin32api.MessageBox(0, 'Hello, World!', 'Title', 0x00000000)

@@ -1,1 +1,0 @@
-sudo a2enmod auth_basic\n   sudo a2enmod ssl

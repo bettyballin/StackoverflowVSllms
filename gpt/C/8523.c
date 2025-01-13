@@ -1,1 +1,0 @@
-BYTE hash[20]; // SHA1 produces a 20-byte hash\nDWORD hashLen = 20;

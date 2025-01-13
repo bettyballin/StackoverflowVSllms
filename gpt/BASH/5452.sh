@@ -1,1 +1,0 @@
-chmod +x show_message.sh

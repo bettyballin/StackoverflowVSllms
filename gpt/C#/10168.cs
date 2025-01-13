@@ -1,1 +1,0 @@
-<%@ Page Language="C#" %>\n<!DOCTYPE html>\n<html>\n<head>\n    <title>Secure Connection Test</title>\n</head>\n<body>\n    <h1>Is Secure Connection: <%= Request.IsSecureConnection %></h1>\n</body>\n</html>

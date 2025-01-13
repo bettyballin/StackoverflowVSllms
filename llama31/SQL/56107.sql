@@ -1,0 +1,1 @@
+ALTER TABLE your_table\nADD CONSTRAINT chk_billable_date CHECK (\n    (billable = 0 AND billabledate IS NULL) OR \n    (billable = 1 AND billabledate IS NOT NULL)\n)

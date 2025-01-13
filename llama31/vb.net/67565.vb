@@ -1,0 +1,1 @@
+Dim selectedValue As MyEnum = GetEnumSelection(Of MyEnum)(Me, "Select a value")

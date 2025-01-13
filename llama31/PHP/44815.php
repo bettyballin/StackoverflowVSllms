@@ -1,0 +1,1 @@
+$brand = trim($brand);

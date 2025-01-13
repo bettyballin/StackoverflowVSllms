@@ -1,1 +1,0 @@
-#!/bin/bash\n\n# Export the environment variables\nexport THIN_OPTIONS="-a 127.0.0.1 -e production -l /var/log/thin/thin.log -P /var/run/thin/thin.pid -c /path/to/rails/app -p 8010 -u someuser -g somegroup -s 2"\n\n# Start thin server\nexec /usr/local/bin/thin $THIN_OPTIONS start

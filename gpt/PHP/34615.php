@@ -1,1 +1,0 @@
-$xml = new SimpleXMLElement('<root><node id="123">Value</node></root>');\n$node = $xml->node;\n$id = $node['id']; // This is a SimpleXMLElement object\n\n// Converting to string\n$idString = strval($id); // or (string) $id\necho $idString; // Outputs: 123

@@ -1,1 +1,0 @@
-from bs4 import BeautifulSoup\n\nhtml = '''\n<div>\n  <p>Some <span>nested</span> content</p>\n</div>\n'''\n\nsoup = BeautifulSoup(html, 'html.parser')\nfor tag in soup.find_all('p'):\n    print(tag.text)

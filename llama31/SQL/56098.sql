@@ -1,0 +1,1 @@
+DECLARE @tableVariable TABLE;\n\nSELECT * INTO #tempTable FROM yourTable; -- Replace with your actual query\n\nDECLARE cur CURSOR FOR SELECT * FROM #tempTable;\n\n-- ... rest of your cursor logic ...\n\nDROP TABLE #tempTable;

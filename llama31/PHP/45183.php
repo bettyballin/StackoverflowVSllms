@@ -1,0 +1,1 @@
+$array = [\n    ['max' => 5, 'year' => 2007],\n    ['max' => 6.05, 'year' => 2008],\n    ['max' => 7, 'year' => 2009],\n];\n\n$result = array_column($array, 'max', 'year');\n\nprint_r($result);

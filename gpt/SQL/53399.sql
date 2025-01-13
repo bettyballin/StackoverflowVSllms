@@ -1,1 +1,0 @@
-SELECT replace_special_chars('Your string with special characters')\nFROM dual;

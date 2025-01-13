@@ -1,1 +1,0 @@
-gsk8capicmd_64 -cert -receive -db yourkey.kdb -label "your_cert_label" -file your_new_cert.arm -stashed

@@ -1,0 +1,1 @@
+Dim i As Integer = 0\nFor Each PropertyActor As JCPropertyActor In MyProperty.PropertyActors\n    ' Use PropertyActor and i as needed\n    i += 1\nNext

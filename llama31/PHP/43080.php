@@ -1,0 +1,1 @@
+$stmt = $pdo->prepare('CALL get_user_by_id(:id)');\n$stmt->bindParam(':id', $userId);\n$stmt->execute();

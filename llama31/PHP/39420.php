@@ -1,0 +1,1 @@
+$url = urlencode("http://example.com/path/to/resource");

@@ -1,0 +1,1 @@
+# Example test case from Chromium\n# File: src/third_party/blink/renderer/bindings/core/v8/test/test_v8.js\nfunction testFunction() {\n  // Test that the function is called with the correct arguments.\n  assertEquals('test', arguments[0]);\n  assertEquals(42, arguments[1]);\n}

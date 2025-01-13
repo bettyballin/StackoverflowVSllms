@@ -1,1 +1,0 @@
-#include <stdexcept>\n\nclass MyObject {\npublic:\n    bool func() {\n        if (this == nullptr) {\n            throw std::runtime_error("Null pointer exception");\n        }\n        // Your method logic here\n        return true;\n    }\n};

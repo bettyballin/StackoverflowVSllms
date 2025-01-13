@@ -1,0 +1,1 @@
+const express = require('express');\nconst app = express();\n\napp.post('/api/foobar/login', (req, res) => {\n  const { username, password } = req.body;\n  // Validate credentials and return a token or error\n  if (/* credentials are valid */) {\n    res.json({ token: '...' });\n  } else {\n    res.status(401).json({ error: 'Invalid credentials' });\n  }\n});

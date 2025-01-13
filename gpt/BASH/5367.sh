@@ -1,1 +1,0 @@
-dism /online /enable-feature /featurename:IIS-WebServerRole /all

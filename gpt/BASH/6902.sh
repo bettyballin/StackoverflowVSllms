@@ -1,1 +1,0 @@
-dotnet build\ndotnet ru

@@ -1,1 +1,0 @@
-openssl pkcs12 -export -out wildcard.pfx -inkey wildcard.key -in wildcard.crt -certfile wildcard.crt

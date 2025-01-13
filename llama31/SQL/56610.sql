@@ -1,0 +1,1 @@
+TO_DATE(\n  LPAD(MOD(SUBSTR(TO_CHAR(a.A_DATE, 'DD.MM.YYYY'), 4, 2), 12), 2, '0') || '.' ||\n  SUBSTR(TO_CHAR(a.A_DATE, 'DD.MM.YYYY'), 1, 2) || \n  SUBSTR(TO_CHAR(a.A_DATE, 'DD.MM.YYYY'), 6, 4),\n  'DD.MM.YYYY'\n)

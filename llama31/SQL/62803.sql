@@ -1,0 +1,1 @@
+CREATE TABLE large_table (\n  id INT PRIMARY KEY,\n  some_string_field VARCHAR(255)\n);\n\nCREATE INDEX idx_some_string_field ON large_table (some_string_field);

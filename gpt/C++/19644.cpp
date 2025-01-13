@@ -1,1 +1,0 @@
-class CCredentials : public CDialog\n{\n    // Other declarations\n    \n    MyCug m_PList;\n};

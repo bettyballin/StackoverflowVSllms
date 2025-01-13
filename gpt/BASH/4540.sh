@@ -1,1 +1,0 @@
-ldapsearch -x -b "OU=Primary OU,DC=example,DC=com" -s subtree "(&(objectClass=user)(objectCategory=person)(!(distinguishedName=*,OU=Primary OU,DC=example,DC=com)))"

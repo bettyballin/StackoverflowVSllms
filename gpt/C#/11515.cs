@@ -1,1 +1,0 @@
-cmd.FetchSize = 100;  // Adjust this value based on your needs

@@ -1,0 +1,1 @@
+find /usr/some/ -type f -name "*.class" -print0 | xargs -0 -I {} scp {} user@localhost:/usr/project/backup/{}"

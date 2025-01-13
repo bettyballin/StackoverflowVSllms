@@ -1,1 +1,0 @@
-public override void VerifyRenderingInServerForm(Control control)\n   {\n       // Confirms that an HtmlForm control is rendered for the specified ASP.NET\n       // server control at run time.\n   }

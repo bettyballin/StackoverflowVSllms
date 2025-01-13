@@ -1,0 +1,1 @@
+pdfinfo file.pdf | grep Pages: | awk '{print $2}'

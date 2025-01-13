@@ -1,0 +1,1 @@
+using System.Data.SqlClient;\n\n// ...\n\nfrom subscription in dbContext.Subscriptions\nwhere subscription.Expires > SqlFunctions.GetDate()\nselect subscriptio

@@ -1,0 +1,1 @@
+foreach (MimeKit.MimeEntity attachment in mailMessage.Attachments)\n{\n    var base64String = attachment.ContentBase64;\n    var bytes = Convert.FromBase64String(base64String);\n    var fileSize = bytes.Length;\n    // Use the file size as needed\n}

@@ -1,0 +1,1 @@
+var modalOpened = false;\n\n// When the modal popup button is clicked\nmodalOpened = true;\n\n// On page refresh\nif (performance.navigation.type == 1) {\n    modalOpened = false;\n}\n\n// When the page loads\nif (modalOpened) {\n    // Show the modal popup\n} else {\n    // Hide the modal popup\n}

@@ -1,0 +1,1 @@
+using System.IO;\n\npublic bool HasReadAccessToShare(string sharePath)\n{\n    try\n    {\n        if (!Directory.Exists(sharePath))\n        {\n            return false;\n        }\n\n        string[] files = Directory.GetFiles(sharePath);\n        return true;\n    }\n    catch (UnauthorizedAccessException)\n    {\n        return false;\n    }\n}

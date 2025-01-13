@@ -1,1 +1,0 @@
-powercfg /change standby-timeout-ac 0\npowercfg /change standby-timeout-dc 0

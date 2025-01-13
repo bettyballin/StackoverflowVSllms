@@ -1,1 +1,0 @@
-bin/magento cache:clean\nbin/magento setup:static-content:deploy

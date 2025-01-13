@@ -1,1 +1,0 @@
-INSERT INTO Temp_Customer_IDs (customer_id)\nVALUES ('1234');\n\n-- Repeat the above insert statement for each customer_id you need to update.\n-- Alternatively, you can use a single insert statement with multiple values if you have the list in hand.

@@ -1,1 +1,0 @@
-using(DataTable dt = sql.ExecuteSomeQuery())\n{\n    foreach (DataRow dr in dt.Rows)\n    {\n        var something = (string)dr["something"];\n        var somethingelse = (int)dr["somethingelse"];\n    }\n}

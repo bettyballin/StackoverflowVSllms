@@ -1,0 +1,1 @@
+file=$(find "$dir" -maxdepth 1 -type f -print0 | sort --zero-terminated --random-sort | head -z -n 1)\npath=$(realpath "$file")\necho "The randomly-selected file is: $path"

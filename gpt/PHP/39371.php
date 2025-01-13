@@ -1,1 +1,0 @@
-// Load the node you want to display\n$node = node_load($nid);\n\n// Prepare the node for the teaser display\n$node_teaser = node_view($node, 'teaser');\n\n// Render the node teaser\n$html = drupal_render($node_teaser);\n\n// Output the HTML\nprint $html;

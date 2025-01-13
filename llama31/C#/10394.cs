@@ -1,0 +1,1 @@
+protected void Page_Load(object sender, EventArgs e)\n{\n    string keyword = Request.QueryString["keyword"];\n\n    RSSFeedDataSource.XPath = "/rss/channel/item[contains(title, '" + keyword + "')]";\n}

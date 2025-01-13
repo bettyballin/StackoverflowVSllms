@@ -1,1 +1,0 @@
-SELECT \n    SEC_TO_TIME(seconds) AS human_readable_time\nFROM \n    your_table;

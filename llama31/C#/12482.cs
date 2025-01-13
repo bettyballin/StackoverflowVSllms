@@ -1,0 +1,1 @@
+Response.Cache.SetCacheability(HttpCacheability.Public);\nResponse.Cache.SetMaxAge(TimeSpan.FromDays(365)); // cache for 1 year

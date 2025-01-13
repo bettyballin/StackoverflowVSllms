@@ -1,0 +1,1 @@
+if (!empty($fi[2])) {\n    $xml[$page] = new SimpleXMLElement($fi[2]);\n} else {\n    // handle the case where the string is empty\n    echo "Error: Empty response from Twitter API";\n    die();\n}

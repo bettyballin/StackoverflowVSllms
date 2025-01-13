@@ -1,1 +1,0 @@
-./configure --target=ia64-hp-hpux11.31-64

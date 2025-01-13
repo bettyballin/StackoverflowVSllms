@@ -1,0 +1,1 @@
+$db = new DB('localhost', 'mydb', 'myuser', 'mypassword');\n$result = $db->query('SELECT * FROM mytable WHERE id = ?', array('i', 1));\nwhile ($row = $result->fetch_assoc()) {\n    // do something with $row\n}\n$db->close();

@@ -1,0 +1,1 @@
+-- Add a new column to an existing table\nALTER TABLE MyTable\nADD NewColumn INT;

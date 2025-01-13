@@ -1,0 +1,1 @@
+module DateFormatter\n  extend ActiveSupport::Concern\n\n  module ClassMethods\n    def date_fields(*fields)\n      fields.each do |field|\n        define_method "formatted_#{field}" do\n          self[field] ? self[field].to_s(:date) : nil\n        end\n      end\n    end\n  end\nend

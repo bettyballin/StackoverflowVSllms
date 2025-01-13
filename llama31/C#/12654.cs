@@ -1,0 +1,1 @@
+HtmlElementCollection elements = webBrowser1.Document.GetElementsByTagName("//div[@class='XYZ']/ABC");\nforeach (HtmlElement element in elements)\n{\n    HtmlElementCollection links = element.GetElementsByTagName("a");\n    foreach (HtmlElement link in links)\n    {\n        string href = link.GetAttribute("href");\n        // Get other information as needed\n    }\n}

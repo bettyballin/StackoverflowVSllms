@@ -1,1 +1,0 @@
-rcctl restart httpd

@@ -1,1 +1,0 @@
-java -cp .:bar path.to.YourMainClass

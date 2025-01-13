@@ -1,0 +1,1 @@
+$url = 'http://site.com/site.com/files/images/img 2 (5).jpg';\n$encoded_url = urlencode($url);

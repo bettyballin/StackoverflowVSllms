@@ -1,0 +1,1 @@
+SELECT u.UserId, u.Value\nFROM YourTable u\nJOIN (\n  SELECT UserId, MAX(Date) as MaxDate\n  FROM YourTable\n  GROUP BY UserId\n) m ON u.UserId = m.UserId AND u.Date = m.MaxDate;

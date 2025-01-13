@@ -1,1 +1,0 @@
-HRESULT CALLBACK DllRegisterServer()\n   {\n       OutputDebugString(L"DllRegisterServer called\n");\n       // Your registration code here\n       return S_OK;\n   }

@@ -1,1 +1,0 @@
-<configuration>\n  <system.web>\n    <httpRuntime tempDirectory="C:\YourCustomTempDirectory" />\n  </system.web>\n</configuration>

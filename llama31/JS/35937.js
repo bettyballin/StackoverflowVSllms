@@ -1,0 +1,1 @@
+var cbh = document.getElementById('cb');\nvar val = '1';\nvar cap = 'Jan';\n\nvar cb = document.createElement('input');\ncb.type = 'checkbox';\ncb.name = val;\ncb.value = val; // Note: value should be the same as name for checkboxes\n\nvar label = document.createElement('label');\nlabel.appendChild(cb);\nlabel.appendChild(document.createTextNode(cap));\n\ncbh.appendChild(label);

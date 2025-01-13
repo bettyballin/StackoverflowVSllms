@@ -1,0 +1,1 @@
+SELECT D.*, C.*\nFROM D\nLEFT JOIN Junction ON D.id = Junction.D_id\nLEFT JOIN C ON Junction.C_id = C.id;

@@ -1,0 +1,1 @@
+arm-wince-cegcc --versio

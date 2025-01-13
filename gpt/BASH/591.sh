@@ -1,1 +1,0 @@
-sudo apt-get install xvfb x11-apps imagemagick

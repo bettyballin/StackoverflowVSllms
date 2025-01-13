@@ -1,1 +1,0 @@
-SELECT MAX(last_updated) as last_updated_time FROM your_table;

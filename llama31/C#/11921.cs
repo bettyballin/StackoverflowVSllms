@@ -1,0 +1,1 @@
+private void SpawnParticle(Ellipse ellipse)\n{\n    // ...\n\n    if (ellipse == null)\n    {\n        ellipse = new Ellipse();\n        ParticleHost.Children.Add(ellipse);\n    }\n\n    // ...\n}

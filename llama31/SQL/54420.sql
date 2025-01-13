@@ -1,0 +1,1 @@
+SELECT blocking_session FROM DBA_BLOCKERS;

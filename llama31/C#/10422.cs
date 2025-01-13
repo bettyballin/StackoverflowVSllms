@@ -1,0 +1,1 @@
+[Export(typeof(IEventAggregator))]\npublic class EventAggregator : IEventAggregator\n{\n    private readonly Dictionary<Type, List<Action<object>>> _subscriptions = new Dictionary<Type, List<Action<object>>>();\n\n    public void Publish<T>(T message)\n    {\n        // ...\n    }\n\n    public void Subscribe<T>(Action<T> action)\n    {\n        // ...\n    }\n}

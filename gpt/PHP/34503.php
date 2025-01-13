@@ -1,1 +1,0 @@
-function text($var)   \n{\n    if ( ! $var) {\n        return;\n    }\n    do_something();\n}\n\n$var = text('');

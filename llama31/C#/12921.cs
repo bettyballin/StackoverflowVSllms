@@ -1,0 +1,1 @@
+string connectionString = "Data Source=(DESCRIPTION=(ADDRESS=(PROTOCOL=tcps)(HOST=your_host)(PORT=your_port))(SECURITY=(SSLServerCertDN=your_cert_dn)));User Id=your_username;Password=your_password;";\nusing (OracleConnection conn = new OracleConnection(connectionString))\n{\n    // Perform DB operations\n}

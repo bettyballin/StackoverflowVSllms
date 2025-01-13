@@ -1,0 +1,1 @@
+Public Class frmMyForm\n    Private WithEvents m_Popup As IDoSomething\n\n    Public Sub New()\n        ' ...\n        m_Popup = CType(GetBusinessObjectUsingPopup(Of IDoSomething, frmPopup)(Nothing), IDoSomething)\n    End Sub\n\n    Public Sub m_Popup_AddFilter() Handles m_Popup.AddFilter\n        MsgBox("I'm in")\n    End Sub\nEnd Class

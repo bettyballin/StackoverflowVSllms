@@ -1,1 +1,0 @@
-CREATE SCHEMA schema1;\n   CREATE SCHEMA schema2;

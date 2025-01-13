@@ -1,1 +1,0 @@
-chmod 755 /path/to/file\n      chown user:group /path/to/file

@@ -1,0 +1,1 @@
+-- patches/001.sql\nALTER TABLE mytable ADD COLUMN newcolumn VARCHAR(255);

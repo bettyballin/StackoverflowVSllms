@@ -1,0 +1,1 @@
+public class ClassD : ClassB, ClassA<ClassC>

@@ -1,1 +1,0 @@
-using System;\nusing System.Collections;\nusing System.ComponentModel;\nusing System.Configuration.Install;\n\n[RunInstaller(true)]\npublic partial class CustomInstaller : Installer\n{\n    public override void Install(IDictionary stateSaver)\n    {\n        base.Install(stateSaver);\n        Context.Parameters["REINSTALLMODE"] = "amus";\n    }\n}

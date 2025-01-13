@@ -1,0 +1,1 @@
+cl.exe /EHsc /Fe:hello.exe hello.cpp

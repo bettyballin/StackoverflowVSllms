@@ -1,0 +1,1 @@
+export SERVER_ENV=production\nexport SERVER_NAME=server1

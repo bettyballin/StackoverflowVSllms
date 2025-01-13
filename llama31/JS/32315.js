@@ -1,0 +1,1 @@
+// application.js\nvar rsh = new ReallySimpleHistory();\n\n// Add a new state to the history stack when the user clicks a link\n$('a').click(function() {\n  rsh.add('new-state', function() {\n    // Handle the new state here\n  });\n});\n\n// Handle the back button\nrsh.onPopState(function(state) {\n  // Handle the popped state here\n});

@@ -1,1 +1,0 @@
-etsh advfirewall firewall add rule name="SSRS" protocol=TCP dir=in localport=8080 action=allow

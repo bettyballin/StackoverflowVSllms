@@ -1,1 +1,0 @@
-[HttpPost]\npublic ActionResult YourAction(List<AddressViewModel> addresses)\n{\n    if (ModelState.IsValid)\n    {\n        // Process the addresses\n    }\n\n    return View(addresses);\n}

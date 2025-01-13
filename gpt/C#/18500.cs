@@ -1,1 +1,0 @@
-protected void Application_Start(object sender, EventArgs e)\n   {\n       log4net.Config.XmlConfigurator.Configure();\n   }

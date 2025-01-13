@@ -1,1 +1,0 @@
-# Backup\n   couchbackup --url http://localhost:5984 --db mydb > backup.txt\n\n   # Restore\n   couchrestore --url http://localhost:5984 --db mydb < backup.txt

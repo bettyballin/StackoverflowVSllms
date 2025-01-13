@@ -1,0 +1,1 @@
+std::list<Request> requests = std::move(log_manipulator.getAsRequestList());

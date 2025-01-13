@@ -1,1 +1,0 @@
-SELECT *\nFROM your_table\nORDER BY created_on;

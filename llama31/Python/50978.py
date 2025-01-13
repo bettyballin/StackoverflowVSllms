@@ -1,0 +1,1 @@
+import pydbus\n\n# Create a D-Bus service\nbus = pydbus.SessionBus()\nservice = bus.publish("org.example.MyService")\n\n# Define a method\ndef hello(name):\n    print(f"Hello, {name}!")\n    return "Hello, " + name + "!"\n\n# Register the method\nservice.add_method("org.example.MyService", "hello", hello)\n\n# Start the service\nservice.start()

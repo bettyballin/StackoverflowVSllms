@@ -1,0 +1,1 @@
+tree.xpath('//block[title="Text 1"]/content/text()')

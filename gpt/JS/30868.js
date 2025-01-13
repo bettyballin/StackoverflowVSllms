@@ -1,1 +1,0 @@
-function sanitizeString(str) {\n    var temp = document.createElement('div');\n    temp.textContent = str;\n    return temp.innerHTML;\n}\n\n// Example usage:\nvar userInput = "<script>alert('XSS');</script>";\nvar safeContent = sanitizeString(userInput);\n\nvar div = document.createElement('div');\ndiv.innerHTML = safeContent;\ndocument.body.appendChild(div);

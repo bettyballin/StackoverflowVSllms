@@ -1,0 +1,1 @@
+decimal originalNumber = 7.6m;\ndecimal increment = 2.5m;\ndecimal roundedNumber = RoundToIncrement(originalNumber, increment);\nConsole.WriteLine(roundedNumber); // Outputs: 10.0

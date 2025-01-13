@@ -1,0 +1,1 @@
+byte[] reportBytes = GetReportBytes(); // assume this is your report data\n\nResponse.Clear();\nResponse.ContentType = "application/octet-stream";\nResponse.AppendHeader("Content-Disposition", "attachment; filename=report.pdf");\n\nusing (Stream output = Response.OutputStream)\n{\n    output.Write(reportBytes, 0, reportBytes.Length);\n}\nResponse.End();

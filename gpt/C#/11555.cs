@@ -1,1 +1,0 @@
-[ValidateAntiForgeryToken]\n   public ActionResult SubmitForm(FormModel model)\n   {\n       // Handle form submission...\n   }

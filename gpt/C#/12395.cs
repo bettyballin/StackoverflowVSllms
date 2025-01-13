@@ -1,1 +1,0 @@
-using System.ComponentModel.DataAnnotations;\nusing System.ComponentModel.DataAnnotations.Schema;\n\npublic class Bird\n{\n    [Key]\n    public int Id { get; set; }\n\n    public double Length { get; set; }\n    \n    public int Age { get; set; }\n}

@@ -1,0 +1,1 @@
+SELECT t.column1, t.column2 FROM table t;

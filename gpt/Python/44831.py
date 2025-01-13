@@ -1,1 +1,0 @@
-from django.conf import settings\n\nif settings.DATABASES['default']['ENGINE'] == 'django.db.backends.sqlite3':\n    # SQLite-specific logic\nelse:\n    # PostgreSQL-specific logic

@@ -1,0 +1,1 @@
+-- Use efficient data types to minimize space usage\nCREATE TABLE example (\n  id INT PRIMARY KEY,\n  data1 SMALLINT,  -- 2 bytes per row (instead of 4 for INT)\n  data2 VARCHAR(20),  -- variable-length string\n  data3 TINYINT  -- 1 byte per row (instead of 4 for INT)\n);

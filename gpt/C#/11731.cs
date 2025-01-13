@@ -1,1 +1,0 @@
-bw.Write(value.ToCharArray()); // Writes 3 bytes

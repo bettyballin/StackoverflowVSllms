@@ -1,0 +1,1 @@
+public class CustomProfile : ProfileBase\n{\n    public string CustomSetting1 { get; set; }\n    public int CustomSetting2 { get; set; }\n}

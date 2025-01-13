@@ -1,0 +1,1 @@
+public class Add : ICalculationPlugin\n{\n    public double Calculate(double num1, double num2)\n    {\n        return num1 + num2;\n    }\n}\n\npublic class Subtract : ICalculationPlugin\n{\n    public double Calculate(double num1, double num2)\n    {\n        return num1 - num2;\n    }\n}

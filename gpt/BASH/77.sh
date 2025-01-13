@@ -1,1 +1,0 @@
-perf stat -e cache-references,cache-misses ./your_program

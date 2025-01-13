@@ -1,0 +1,1 @@
+#include <iostream>\n\nvoid add(int result) {\n    std::cout << "Result: " << result << std::endl;\n}\n\nint main() {\n    superFor(1, [&]() {\n        add(1 + 2);\n    });\n    return 0;\n}

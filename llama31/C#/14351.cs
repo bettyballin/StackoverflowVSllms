@@ -1,0 +1,1 @@
+<%@ Page Language="C#" %>\n\n<script runat="server">\n    protected void Page_Load(object sender, EventArgs e)\n    {\n        Response.Write("Page_Load executed!");\n    }\n</script>

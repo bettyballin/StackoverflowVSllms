@@ -1,0 +1,1 @@
+int getBet () {\n    int bet;\n    if (scanf("%d", &bet) != 1) {\n        // Handle input error\n        return -1;  // or some other error value\n    }\n    return bet;\n}

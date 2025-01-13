@@ -1,0 +1,1 @@
+using System.Diagnostics;\n\n// ...\n\nprivate void Method1()\n{\n    try\n    {\n        // Your code here\n    }\n    catch (Exception ex)\n    {\n        EventLog.WriteEntry("MyService", ex.Message, EventLogEntryType.Error);\n    }\n}

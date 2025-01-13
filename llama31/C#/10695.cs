@@ -1,0 +1,1 @@
+public Customer GetCustomer(int id)\n{\n    return DataContext.Customers.Find(id);\n}

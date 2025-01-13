@@ -1,0 +1,1 @@
+# Generate precompiled header\ngcc -x c-header stdafx.h -o stdafx.h.gch\n\n# Use precompiled header\ngcc -include stdafx.h.gch your_source_file.c -o your_output_file

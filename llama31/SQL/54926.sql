@@ -1,0 +1,1 @@
+NUMBER(p,s) where p is precision and s is scale

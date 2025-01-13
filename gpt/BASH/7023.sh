@@ -1,1 +1,0 @@
-cp /mnt/VMwareTools-*.tar.gz /tmp/\n    cd /tmp\n    tar -zxvf VMwareTools-*.tar.gz\n    cd vmware-tools-distrib\n    sudo ./vmware-install.pl -d\n    sudo reboot

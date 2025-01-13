@@ -1,1 +1,0 @@
-public class MyDbInitializer : DropCreateDatabaseIfModelChanges<MyDbContext>\n{\n    protected override void Seed(MyDbContext context)\n    {\n        // Seed the database with initial data if needed\n        base.Seed(context);\n    }\n}

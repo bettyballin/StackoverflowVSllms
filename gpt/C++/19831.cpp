@@ -1,1 +1,0 @@
-#include <vector>\n\nstd::vector<GLfloat> array(x * y * z);

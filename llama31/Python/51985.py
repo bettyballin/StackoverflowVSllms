@@ -1,0 +1,1 @@
+# mod_call.py\nclass CallableModule:\n    def __call__(self):\n        return 42\n\ncallable_mod = CallableModule()

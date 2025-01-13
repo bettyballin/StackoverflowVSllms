@@ -1,0 +1,1 @@
+$(document).ready(function(){\n  jQuery('input.email, input.url').each(function(){\n    this.setAttribute('autocapitalize', 'off');\n  });\n});

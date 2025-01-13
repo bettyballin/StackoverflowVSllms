@@ -1,1 +1,0 @@
-CREATE TABLE addresses (\n    postal_code VARCHAR2(12)\n);

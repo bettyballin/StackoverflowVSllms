@@ -1,1 +1,0 @@
-void foo(int i, std::vector<int>& optional) {\n    // process and modify vector\n}

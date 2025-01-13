@@ -1,0 +1,1 @@
+int main() {\n    void* obj = my_api_create();\n    // use obj\n    my_api_destroy(obj);\n    return 0;\n}

@@ -1,1 +1,0 @@
-plink myusername@myhost.com

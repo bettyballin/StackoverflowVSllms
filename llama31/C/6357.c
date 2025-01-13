@@ -1,0 +1,1 @@
+// main.c\nstatic int main() { // Error! main cannot be static\n    return 0;\n}

@@ -1,1 +1,0 @@
-public override int GetHashCode()\n{\n    // Use the hash code of the Id if it has a value, otherwise return 0\n    return Id.HasValue ? Id.Value.GetHashCode() : 0;\n}

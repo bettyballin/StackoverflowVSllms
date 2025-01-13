@@ -1,1 +1,0 @@
-sudo mount /dev/mapper/encrypted_drive /mnt/encrypted

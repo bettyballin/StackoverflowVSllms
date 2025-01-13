@@ -1,0 +1,1 @@
+$headers = apache_request_headers();\n$batchCount = $headers['BATCH_COUNT'];\n$vendorId = $headers['VENDOR_ID'];

@@ -1,0 +1,1 @@
+echo "Some information";\nflush();\nob_flush();

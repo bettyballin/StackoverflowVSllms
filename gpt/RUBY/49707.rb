@@ -1,1 +1,0 @@
-# db/migrate/20211010120000_create_users.rb\nclass CreateUsers < ActiveRecord::Migration[6.1]\n  def change\n    create_table :users do |t|\n      t.string :name\n      t.string :email\n\n      t.timestamps\n    end\n  end\nend\n\n# Run the migration\n$ bundle exec rake db:migrate

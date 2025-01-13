@@ -1,0 +1,1 @@
+BACKUP LOG [database_name] TO DISK = 'backup_file_location'

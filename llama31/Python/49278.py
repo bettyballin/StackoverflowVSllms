@@ -1,0 +1,1 @@
+import riak\n\n# Connect to Riak\nclient = riak.RiakClient()\n\n# Store a value\nclient.put('user:1', {'name': 'John Doe', 'email': 'johndoe@example.com'})\n\n# Retrieve a value\nuser = client.get('user:1')\nprint(user.data)

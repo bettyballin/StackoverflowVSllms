@@ -1,0 +1,1 @@
+// In index.php, before defining the ENVIRONMENT constant\nif (gethostbyaddr("127.0.0.1") == 'hello.sabya') {\n    define('ENVIRONMENT', 'production');\n} else {\n    define('ENVIRONMENT', 'development');\n}

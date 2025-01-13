@@ -1,0 +1,1 @@
+/* In your non-language specific CSS file (e.g., global.css) */\ndiv.topHeader p#searchHeader {\n  background: var(--search-header-image) no-repeat scroll center center;\n}\n\n/* In your language-specific CSS files (e.g., en/site.css, de/site.css) */\n:root {\n  --search-header-image: url('/images/en/headers/search_lo.gif');\n}

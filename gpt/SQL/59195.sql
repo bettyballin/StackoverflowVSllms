@@ -1,1 +1,0 @@
-SELECT\n        CASE\n            WHEN velocity BETWEEN -10 AND 0 THEN '(-10 to 0)'\n            WHEN velocity BETWEEN 0 AND 10 THEN '(0 to 10)'\n            WHEN velocity BETWEEN 10 AND 20 THEN '(10 to 20)'\n            ELSE 'Other'\n        END AS velocity_range,\n        COUNT(*)\n    FROM\n        experiment_data\n    GROUP BY\n        velocity_range;

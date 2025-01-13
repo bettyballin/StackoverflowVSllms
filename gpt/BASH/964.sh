@@ -1,1 +1,0 @@
-pear install PEAR_Frontend_Web

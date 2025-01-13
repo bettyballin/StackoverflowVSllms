@@ -1,1 +1,0 @@
-string pattern = @"(?<!<[^>]*)(mystring)(?![^<]*>)";\nstring input = "<a href=\"_mystring_\">\n<a href=\"someotherstring\">_mystring_</a>";\n\nMatchCollection matches = Regex.Matches(input, pattern, RegexOptions.IgnoreCase);\n\nforeach (Match match in matches)\n{\n    Console.WriteLine(match.Value);\n}

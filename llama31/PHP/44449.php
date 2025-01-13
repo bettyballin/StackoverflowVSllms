@@ -1,0 +1,1 @@
+$domNode = $domDocument->getElementsByTagName('tagname')->item(0);\n\nif ($domNode instanceof DOMElement) {\n    $domElement = $domNode;\n    $childElements = $domElement->getElementsByTagName('childtagname');\n    // do something with $childElements\n}

@@ -1,0 +1,1 @@
+// validating and sanitizing user input\n$templateName = filter_var($_POST['template_name'], FILTER_SANITIZE_STRING);\n$templateParams = array_map('filter_var', $_POST['template_params'], [FILTER_SANITIZE_STRING]);

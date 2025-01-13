@@ -1,0 +1,1 @@
+[WebService]\npublic class YourWebService : System.Web.Services.WebService\n{\n    [WebMethod]\n    public void UpdateList(string[] listData)\n    {\n        // Update your data in the database here\n    }\n}

@@ -1,0 +1,1 @@
+SELECT department, AVG(salary) as average_salary\nFROM employees\nGROUP BY department

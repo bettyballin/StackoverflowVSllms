@@ -1,1 +1,0 @@
-g++ -o my_program my_program.o -lboost_system -lboost_filesystem -lstdc++ -lgcc_eh -static-libgcc -static-libstdc++

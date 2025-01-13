@@ -1,0 +1,1 @@
+class User {\n    public function login($username, $password) {\n        // login logic\n        $_SESSION['logged_in'] = true;\n    }\n\n    public function isLoggedIn() {\n        return isset($_SESSION['logged_in']) && $_SESSION['logged_in'];\n    }\n}

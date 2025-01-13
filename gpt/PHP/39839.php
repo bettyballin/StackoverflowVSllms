@@ -1,1 +1,0 @@
-<?php\nrequire_once 'config.php';\n\n$connection = mysqli_connect(DB_SERVER, DB_USERNAME, DB_PASSWORD, DB_NAME);\n\n// Check connection\nif($connection === false){\n    die("ERROR: Could not connect. " . mysqli_connect_error());\n}\n\n// Your database interaction code here\n\nmysqli_close($connection);\n?>

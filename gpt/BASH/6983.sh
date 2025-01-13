@@ -1,1 +1,0 @@
-sudo exportfs -ra\n    sudo systemctl restart nfs-server

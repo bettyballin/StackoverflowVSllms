@@ -1,1 +1,0 @@
-MyManagedClass^ myObject = gcnew MyManagedClass();

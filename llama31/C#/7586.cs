@@ -1,0 +1,1 @@
+base.Text = $"{tempDollarAmount:C}";

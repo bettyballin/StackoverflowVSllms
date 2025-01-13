@@ -1,0 +1,1 @@
+function unsignedToSigned($unsignedInt) {\n    $maxValue = (1 << 31); // 2^31\n    if ($unsignedInt >= $maxValue) {\n        return $unsignedInt - (1 << 32); // 2^32\n    } else {\n        return $unsignedInt;\n    }\n}

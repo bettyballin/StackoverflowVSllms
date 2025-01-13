@@ -1,1 +1,0 @@
-<?php\necho $this->Form->create('User', ['url' => ['controller' => 'Users', 'action' => 'process']]);\necho $this->Form->button('Register', ['name' => 'action', 'value' => 'register']);\necho $this->Form->button('Login', ['name' => 'action', 'value' => 'login']);\necho $this->Form->end();\n?>

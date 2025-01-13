@@ -1,1 +1,0 @@
-# Install Apache\nsudo apt-get update\nsudo apt-get install apache2\n\n# Install MySQL\nsudo apt-get install mysql-server\nsudo mysql_secure_installation\n\n# Install PHP\nsudo apt-get install php libapache2-mod-php php-mysql\n\n# Restart Apache to load PHP module\nsudo systemctl restart apache2\n\n# Verify installation\necho "<?php phpinfo(); ?>" > /var/www/html/info.php

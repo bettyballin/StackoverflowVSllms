@@ -1,1 +1,0 @@
-#include <windows.h>\n\n    __declspec(dllexport) void __stdcall FunctionName()\n    {\n        // Your function implementation\n    }

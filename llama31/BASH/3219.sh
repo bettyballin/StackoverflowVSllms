@@ -1,0 +1,1 @@
+# Capture loopback traffic on the local machine\ntcpdump -i lo -n -vv -s 0 -c 100\n\n# Attempt to capture loopback traffic on the network interface\ntcpdump -i eth0 -n -vv -s 0 -c 100

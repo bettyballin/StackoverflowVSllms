@@ -1,1 +1,0 @@
-<?php\n$file = 'yourfile.csv';\n$header = "Column1,Column2,Column3\n";\n\n// Read the existing content of the file\n$content = file_get_contents($file);\n\n// Prepend the header\n$newContent = $header . $content;\n\n// Write the new content back to the file\nfile_put_contents($file, $newContent);\n?>

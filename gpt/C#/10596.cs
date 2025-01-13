@@ -1,1 +1,0 @@
-try\n{\n    ValidateChanges(context);\n    context.SubmitChanges();\n}\ncatch (Exception ex)\n{\n    // Handle validation errors here\n    Console.WriteLine(ex.Message);\n}

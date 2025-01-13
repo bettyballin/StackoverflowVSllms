@@ -1,1 +1,0 @@
-var url = "http://example.com";\nvar sb = [];\nsb.push("<a href='");\nsb.push(url);\nsb.push("'>click here</a>");\nvar result = sb.join('');

@@ -1,1 +1,0 @@
-$(document).ready(function() {\n    $("tr").hover(\n        function() {\n            // on mouse over\n            var id = $(this).attr('id').split('_')[1];\n            $("#remove_" + id).show();\n        }, \n        function() {\n            // on mouse out\n            var id = $(this).attr('id').split('_')[1];\n            $("#remove_" + id).hide();\n        }\n    );\n});

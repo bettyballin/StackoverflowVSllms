@@ -1,1 +1,0 @@
-class Product < ActiveRecord::Base\n  # Define other model methods and validations if necessary\n\n  def recycled?\n    self.recycled == 'Y'\n  end\n\n  def recycled=(value)\n    self[:recycled] = value ? 'Y' : 'N'\n  end\nend

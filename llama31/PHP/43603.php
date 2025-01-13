@@ -1,0 +1,1 @@
+$opts = array(\n    'socket' => array(\n        'bindto' => 'SERVER_IP:0',\n    ),\n);\n$context = stream_context_create($opts);\n\n$smtp = fsockopen('smtp://SERVER_HOSTNAME', 25, $errno, $errstr, 10, $context);

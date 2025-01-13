@@ -1,0 +1,1 @@
+public void Configure(IApplicationBuilder app, IWebHostEnvironment env)\n{\n    app.UseProxy(new Uri("http://internal-server-url"));\n}

@@ -1,1 +1,0 @@
-export XDEBUG_CONFIG="idekey=zendStudio"\n    export PHP_IDE_CONFIG="serverName=my_dev_server"

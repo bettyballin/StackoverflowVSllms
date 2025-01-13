@@ -1,1 +1,0 @@
-UPDATE orders\nSET order_date = TO_DATE('2023-01-01', 'YYYY-MM-DD')\nWHERE order_date IS NULL;

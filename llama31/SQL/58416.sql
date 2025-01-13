@@ -1,0 +1,1 @@
+sp_rename\nsp_columns\nsp_tables\nsp_indexes\nsp_primarykeys\nsp_foreignkeys\nsp_help\nsp_helpconstraint

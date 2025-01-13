@@ -1,0 +1,1 @@
+// Set the Oracle.DataAccess.dll to use 10g mode\nOracle.DataAccess.Client.OracleConnection.conntype = \n    Oracle.DataAccess.Client.OracleConnectionType.v10g;

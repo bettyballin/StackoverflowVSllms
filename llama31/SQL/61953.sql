@@ -1,0 +1,1 @@
+CREATE TABLE comment (\n  comment_id SERIAL PRIMARY KEY,\n  article_id INTEGER NOT NULL,\n  user_id INTEGER NOT NULL,\n  comment TEXT NOT NULL,\n  timestamp TIMESTAMP NOT NULL DEFAULT CURRENT_TIMESTAMP\n);

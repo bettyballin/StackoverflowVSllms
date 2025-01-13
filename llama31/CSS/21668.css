@@ -1,0 +1,1 @@
+table {\n  width: 600px; /* adjust the width to your needs */\n  border-collapse: collapse;\n}\n\ntd {\n  border: 1px solid #ccc;\n  padding: 5px;\n}\n\ntextarea {\n  width: 100%; /* make the textarea fill the available space */\n  height: 100px; /* adjust the height to your needs */\n}

@@ -1,0 +1,1 @@
+grep -r "oom" /var/log/syslog\njournalctl -g oom

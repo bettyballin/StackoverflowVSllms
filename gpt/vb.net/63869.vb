@@ -1,1 +1,0 @@
-<%\nFunction IncludeFile(filePath)\n    Dim fullPath\n    fullPath = Server.MapPath(filePath)\n    Response.Write "&#60;!--#include file=""" & fullPath & """ --&#62;"\nEnd Function\n%>

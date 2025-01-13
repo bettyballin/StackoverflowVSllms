@@ -1,1 +1,0 @@
-# Set the default ACL to ensure group write permission is inherited\nsetfacl -d -m g::rwx /path/to/directory\n\n# Verify the default ACL\ngetfacl /path/to/directory

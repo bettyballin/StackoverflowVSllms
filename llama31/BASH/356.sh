@@ -1,0 +1,1 @@
+# stop.sh\n#!/bin/bash\nsudo service httpd stop

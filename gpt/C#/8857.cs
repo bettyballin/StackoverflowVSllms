@@ -1,1 +1,0 @@
-public void HeavyOperation()\n{\n    Task.Run(() =>\n    {\n        // Perform heavy operation here\n    });\n}

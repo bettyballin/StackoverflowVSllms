@@ -1,0 +1,1 @@
+public class ConfigurationLoader {\n    public static IConfiguration LoadConfiguration(string environment) {\n        // load configuration file based on environment\n        // return an instance of IConfiguration\n    }\n}

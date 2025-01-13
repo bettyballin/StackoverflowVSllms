@@ -1,0 +1,1 @@
+# Clone the repository locally\ngit clone sftp://user@host/path/to/repo\n\n# Make changes locally\n# ...\n\n# Commit and push changes to the server\ngit commit -m "Your commit message"\ngit push origin master

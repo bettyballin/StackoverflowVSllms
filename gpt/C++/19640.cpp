@@ -1,1 +1,0 @@
-// Assuming 'widget' is your Gtk::Widget instance\nwidget->add_events(Gdk::BUTTON_PRESS_MASK);

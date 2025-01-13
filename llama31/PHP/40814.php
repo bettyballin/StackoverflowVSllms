@@ -1,0 +1,1 @@
+$url = "Here is a funny site http://www.tunyurl.com/34934";\n$url = preg_replace('/(https?:\/\/\S+|www\.\S+)/', '', $url);\necho $url; // outputs "Here is a funny site "\n\n$url = "Here is another funny site www.tinyurl.com/55555";\n$url = preg_replace('/(https?:\/\/\S+|www\.\S+)/', '', $url);\necho $url; // outputs "Here is another funny site "

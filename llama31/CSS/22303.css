@@ -1,0 +1,1 @@
+.container {\n  position: relative;\n  /* other styles */\n}\n\n.container .absolutely-positioned {\n  position: absolute;\n  top: 10px;\n  left: 20px;\n  /* other styles */\n}

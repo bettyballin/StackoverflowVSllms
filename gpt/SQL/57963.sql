@@ -1,1 +1,0 @@
-SELECT Table1.*\nFROM Table1\nLEFT JOIN Table2\nON Table1.Column1 = Table2.Column1\nAND Table1.Column2 = Table2.Column2\n-- Add more columns as needed\nWHERE Table2.Column1 IS NULL\nAND Table2.Column2 IS NULL\n-- Add more columns as needed

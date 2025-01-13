@@ -1,0 +1,1 @@
+SELECT referenced_entity_name\nFROM sys.sql_expression_dependencies\nWHERE referencing_entity_name = 'YourStoredProcedureName';

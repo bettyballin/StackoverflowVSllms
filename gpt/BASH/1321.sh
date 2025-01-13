@@ -1,1 +1,0 @@
-check process passenger_app with pidfile /path/to/passenger_app.pid\n      start program = "/path/to/start_script.sh"\n      stop program  = "/path/to/stop_script.sh"\n      if totalmem > 100.0 MB for 2 cycles then restart\n      if 5 restarts within 5 cycles then timeout

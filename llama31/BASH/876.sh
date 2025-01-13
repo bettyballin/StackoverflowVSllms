@@ -1,0 +1,1 @@
+# Edit /etc/nfs.conf\n[General]\n Proto=Tcp\n\n# Restart the NFS service\nsudo service nfs restart

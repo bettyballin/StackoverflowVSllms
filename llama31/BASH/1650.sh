@@ -1,0 +1,1 @@
+proxychains mysql -h <mysql_server_hostname> -u <username> -p<password>

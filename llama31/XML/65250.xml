@@ -1,0 +1,1 @@
+<class name="GisObject" table="{table_name}">\n  <formula>SELECT table_name FROM meta_table WHERE class_name = 'GisObject'</formula>\n  <!-- ... -->\n</class>

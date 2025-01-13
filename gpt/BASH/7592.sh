@@ -1,1 +1,0 @@
-for i in {2..21}; do\n  docker exec test_container_$i curl http://host.docker.internal:80\ndone

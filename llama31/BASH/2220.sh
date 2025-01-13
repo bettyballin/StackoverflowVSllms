@@ -1,0 +1,1 @@
+curl -X GET 'http://example.com/your_script.php?session_id=your_unique_session_id'

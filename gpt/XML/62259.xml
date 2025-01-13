@@ -1,1 +1,0 @@
-// Example of setting SDK path in FlashDevelop\n<flexSDKs>\n    <sdk label="Flex 3.3" path="C:\Path\To\Flex\3.3\SDK" />\n</flexSDKs>

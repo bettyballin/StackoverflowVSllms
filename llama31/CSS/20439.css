@@ -1,0 +1,1 @@
+.list-item {\n  display: grid;\n  grid-template-columns: 2em 1fr;\n}

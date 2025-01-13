@@ -1,0 +1,1 @@
+mysql -uroot -p -e "SELECT * FROM mysql.general_log;"

@@ -1,0 +1,1 @@
+/* Style for the menu div when it's fixed */\n.fixed {\n  position: fixed;\n  top: 0;\n  left: 0;\n  width: 100%;\n}

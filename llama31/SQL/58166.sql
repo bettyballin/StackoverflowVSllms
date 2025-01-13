@@ -1,0 +1,1 @@
+WITH SelectedItems AS\n(\n    SELECT Id, Row1, Row2, ROW_NUMBER() OVER (ORDER BY Row1) AS Position,\n           COUNT(*) OVER () AS TotalRows\n    FROM Items\n    WHERE Row2 = @Row2\n)\nSELECT Id, Row1, Row2, @TotalRows = TotalRows\nFROM SelectedItems\nWHERE Position BETWEEN @From AND @To

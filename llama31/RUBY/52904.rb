@@ -1,0 +1,1 @@
+class User < ActiveResource::Base\n  self.site = "http://auth-app.com"\n\n  has_many :contacts\n\n  def contacts\n    Contact.where(user_id: id)\n  end\nend

@@ -1,0 +1,1 @@
+rectangles = [(128, 32), (128, 64), (64, 32), (64, 32), (160, 32), (64, 64)]\nmax_size = 256\n\ncontainer_width, container_height = pack_rectangles(rectangles, max_size)\nprint("Container size:", container_width, "x", container_height)

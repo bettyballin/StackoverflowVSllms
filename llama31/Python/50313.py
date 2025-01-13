@@ -1,0 +1,1 @@
+if __name__ == "__main__":\n    getList = input("Enter numbers separated by commas:\n").strip()\n    listOfBubbles = [x.strip() for x in getList.split(',') if x.strip() != '']\n\n    # Filter out non-integer values\n    listOfBubbles = [int(x) for x in listOfBubbles if x.isdigit() or (x[0] == '-' and x[1:].isdigit())]\n\n    print(repr(listOfBubbles))

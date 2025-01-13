@@ -1,1 +1,0 @@
-state_list = [\n    ('ALABAMA', 'AL'),\n    ('ALASKA', 'AK'),\n    ('WISCONSIN', 'WI'),\n    ('WYOMING', 'WY'),\n]\n\nfor state_name, state_abbreviation in state_list:\n    print(f"The abbreviation for {state_name} is {state_abbreviation}.")

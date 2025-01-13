@@ -1,0 +1,1 @@
+SELECT MIN(TIMEDIFF(t1.time, t2.time)) AS smallest_time_diff\nFROM temperatures t1\nJOIN temperatures t2 ON t1.time > t2.time\nWHERE NOT EXISTS (\n  SELECT 1\n  FROM temperatures t3\n  WHERE t3.time > t2.time AND t3.time < t1.time\n);

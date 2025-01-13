@@ -1,1 +1,0 @@
-using System;\nusing System.Management.Instrumentation;\n\n[InstrumentationClass(InstrumentationType.Instance)]\npublic class WebServicePerformanceData\n{\n    public int CallsProcessedPerHour { get; set; }\n    public int TotalCalls { get; set; }\n}

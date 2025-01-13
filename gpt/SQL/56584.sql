@@ -1,1 +1,0 @@
-SELECT TOP 5 * \nFROM news_table \nORDER BY news_date DESC;

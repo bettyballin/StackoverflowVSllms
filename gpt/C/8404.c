@@ -1,1 +1,0 @@
-#include <stdio.h>\n\nint main() {\n    int a = 100;       // 4 bytes\n    short b = 50;      // 2 bytes\n\n    // Using int for operations\n    int c = a + b;\n\n    printf("Result: %d\n", c);\n\n    return 0;\n}

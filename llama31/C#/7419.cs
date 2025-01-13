@@ -1,0 +1,1 @@
+string path = @"C:\MountedFolder";\nbool isMounted = NTFSDetector.IsNTFSMountedFolder(path);\nConsole.WriteLine($"Is '{path}' an NTFS mounted folder? {isMounted}");

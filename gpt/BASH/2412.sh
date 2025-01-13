@@ -1,1 +1,0 @@
-g++ -Wall -Wextra -Werror MyCode.cc -o MyCode

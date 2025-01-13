@@ -1,1 +1,0 @@
-SELECT DECODE(purge_date, NULL, 'SODIUFOSDIUFSDOIFUDSF', purge_date) \nFROM id_rec \nWHERE id = 36581;

@@ -1,0 +1,1 @@
+for (init; condition; increment) {\n    // loop body\n}

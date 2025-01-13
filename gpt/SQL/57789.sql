@@ -1,1 +1,0 @@
--- Employees table\nCREATE TABLE Employees (\n    EmployeeID INT PRIMARY KEY,\n    Name VARCHAR(100),\n    DepartmentID INT,\n    FOREIGN KEY (DepartmentID) REFERENCES Departments(DepartmentID)\n);\n\n-- Departments table\nCREATE TABLE Departments (\n    DepartmentID INT PRIMARY KEY,\n    DepartmentName VARCHAR(100)\n);

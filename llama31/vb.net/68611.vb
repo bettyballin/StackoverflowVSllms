@@ -1,0 +1,1 @@
+SyncLock syncRoot\n    ' do something\nEnd SyncLock

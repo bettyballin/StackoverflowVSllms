@@ -1,0 +1,1 @@
+// Example of when to change a GUID\n// Original type library\n[\n    uuid(12345678-1234-1234-1234-123456789012)\n]\nlibrary MyTypeLibrary\n{\n    // ...\n};\n\n// Changed type library (new GUID)\n[\n    uuid(23456789-2345-2345-2345-234567890123)\n]\nlibrary MyTypeLibrary\n{\n    // ...\n};

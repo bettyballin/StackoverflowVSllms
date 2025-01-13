@@ -1,0 +1,1 @@
+m_writer.Write(StringCache.GetBytes("some fancy long text"));

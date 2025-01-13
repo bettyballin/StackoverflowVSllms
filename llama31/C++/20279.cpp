@@ -1,0 +1,1 @@
+#include <Windows.h>\n\n// ...\n\nbool isMessageSent(UINT msg) {\n    return InSendMessage(msg) != 0;\n}

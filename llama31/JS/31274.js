@@ -1,0 +1,1 @@
+// hide the element\n$("#myElement").hide();\n\n// show the element\n$("#myElement").show();\n\n// toggle the visibility of the element\n$("#myElement").toggle();

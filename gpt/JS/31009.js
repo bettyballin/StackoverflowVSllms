@@ -1,1 +1,0 @@
-document.querySelector('form').addEventListener('submit', function(event) {\n    event.preventDefault();\n    // Explicitly trigger the desired submit button's click event\n    document.querySelector('input[type="submit"][value="Button 1"]').click();\n});

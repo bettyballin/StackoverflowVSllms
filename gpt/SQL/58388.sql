@@ -1,1 +1,0 @@
-WITH t AS (\n  SELECT 450 id, NULL txt, 3488 id_usr FROM dual UNION ALL\n  SELECT 449, NULL, 3488 FROM dual UNION ALL\n  SELECT 79, 'A', 3488 FROM dual UNION ALL\n  SELECT 78, 'X', 3488 FROM dual \n)\nSELECT id,\n       txt,\n       id_usr,\n       FIRST_VALUE(txt) IGNORE NULLS OVER (PARTITION BY id_usr ORDER BY id DESC) first_one\n  FROM t;

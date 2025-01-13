@@ -1,0 +1,1 @@
+$array = /* your large 2D array */;\n\n$serializedData = json_encode($array);\n\n// Store or transmit the serialized data\n\n$unserializedData = json_decode($serializedData, true);

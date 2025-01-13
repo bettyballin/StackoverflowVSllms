@@ -1,0 +1,1 @@
+mkdir ~/myproject\ncd ~/myproject\necho "<?php echo 'Hello, World!'; ?>" > index.php

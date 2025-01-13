@@ -1,0 +1,1 @@
+if (!IsValidEmail(txtEmail.Text))\n{\n    lblError.Text = "Invalid email address";\n    return;\n}

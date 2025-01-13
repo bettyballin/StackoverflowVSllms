@@ -1,0 +1,1 @@
+const fontSize = parseInt(getComputedStyle(document.body).fontSize);\nconst maxLength = Math.floor(50 / fontSize); // adjust to your desired length\n\nconst shortened = input.substring(0, maxLength / 2) + '...' + input.substring(-maxLength / 2);\n\nconst highlighted = shortened.replace(new RegExp(`\\b${match}\\b`, 'gi'), '<span class="highlight">$&</span>');

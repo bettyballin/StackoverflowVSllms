@@ -1,0 +1,1 @@
+http.url = "test.xml?time=" + new Date().getTime();

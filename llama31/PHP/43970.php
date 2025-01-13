@@ -1,0 +1,1 @@
+$userModel = new UserModel();\n$userRow = $userModel->find(1)->current();\n\n$metadataRow = $userModel->getMetadata($userRow->id);\n$passwordRow = $userModel->getPassword($userRow->id);

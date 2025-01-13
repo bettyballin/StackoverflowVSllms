@@ -1,0 +1,1 @@
+<?php\n\n// Autoload the sfLucene class\nsfAutoload::addClass('sfLucene', sfConfig::get('sf_plugins_dir') . '/sfUtilsPlugin/modules/sfSearchLucene/lib/sfLucene.class.php');\n\n?>

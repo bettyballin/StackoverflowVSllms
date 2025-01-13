@@ -1,1 +1,0 @@
-// Example of using Zend-Auth in CodeIgniter\n   $this->load->library('zend');\n   $this->zend->load('Zend/Auth');

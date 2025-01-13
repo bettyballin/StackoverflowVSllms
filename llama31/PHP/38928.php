@@ -1,0 +1,1 @@
+$url = 'http://wapedia.mobi/sv/Gröt';\n$path = '/sv/Gröt';\n$encodedPath = rawurlencode($path);\n$url = 'http://wapedia.mobi' . $encodedPath;\n\n$result = file_get_contents($url);

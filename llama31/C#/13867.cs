@@ -1,0 +1,1 @@
+public class ReadOnlyTextBox : TextBox\n{\n    protected override void Render(HtmlTextWriter writer)\n    {\n        if (!Enabled)\n        {\n            writer.Write("<span>" + Text + "</span>");\n        }\n        else\n        {\n            base.Render(writer);\n        }\n    }\n}

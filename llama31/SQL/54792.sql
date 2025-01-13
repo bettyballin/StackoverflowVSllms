@@ -1,0 +1,1 @@
+SELECT *\nFROM orders o\nINNER JOIN customers c ON o.customer_id = c.customer_id\nLEFT JOIN order_items oi ON o.order_id = oi.order_id\nWHERE o.order_date > '2020-01-01'

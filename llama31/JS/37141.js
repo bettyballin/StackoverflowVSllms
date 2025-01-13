@@ -1,0 +1,1 @@
+else if (!terms) {\n    hideAllErrors();\n    document.getElementById("termsError").style.display = "inline";\n    document.getElementById("terms").focus();\n    return false;\n}

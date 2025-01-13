@@ -1,1 +1,0 @@
-$var = "some value";\n$var = null; // $var is still defined but holds null

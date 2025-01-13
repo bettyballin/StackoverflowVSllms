@@ -1,0 +1,1 @@
+using OfficeOpenXml;\n\npublic string ExtractTextFromDocx(byte[] docxBytes)\n{\n    using (var package = new ExcelPackage(new MemoryStream(docxBytes)))\n    {\n        var workbook = package.Workbook;\n        var sheet = workbook.Worksheets.FirstOrDefault();\n        return sheet.Cells.Select(cell => cell.Value.ToString()).Join(" ");\n    }\n}

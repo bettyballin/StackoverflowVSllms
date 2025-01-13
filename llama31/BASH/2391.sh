@@ -1,0 +1,1 @@
+socat -v tcp-l:2525,fork tcp:ess-smtp-server:25

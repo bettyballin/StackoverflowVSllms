@@ -1,1 +1,0 @@
-/* Hide vertical scrollbar */\ntextarea {\n    overflow-y: hidden;\n}\n\n/* Hide horizontal scrollbar */\ntextarea {\n    overflow-x: hidden;\n}

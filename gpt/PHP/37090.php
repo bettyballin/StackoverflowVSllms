@@ -1,1 +1,0 @@
-global $user;\n   if ($user->uid == 0) {\n       $key = 'foo';\n       $value = 'bar';\n       $_SESSION[$key] = $value;\n   }

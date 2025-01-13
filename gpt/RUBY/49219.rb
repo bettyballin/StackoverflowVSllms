@@ -1,1 +1,0 @@
-text = "hello john\nyour username is: jj\nthanks for signing up\n"\npattern = /your username is: (?<username>.*)/\nmatch = pattern.match(text)\n\nif match\n  username = match[:username]\n  puts username  # Output: jj\nend

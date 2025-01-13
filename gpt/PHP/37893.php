@@ -1,1 +1,0 @@
-<?php\nif (isset($_POST['url'])) {\n    $url = urldecode($_POST['url']);\n    echo "Received URL: " . $url;\n}\n?>

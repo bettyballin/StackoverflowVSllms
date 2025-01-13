@@ -1,0 +1,1 @@
+protected List<Student> GetStudents()\n{\n    // Return the list of students from session state\n    return (List<Student>)Session["Students"];\n}\n\nprotected void UpdateStudent(Student student)\n{\n    // Update the student object in the list\n    List<Student> students = (List<Student>)Session["Students"];\n    students[students.IndexOf(student)] = student;\n}

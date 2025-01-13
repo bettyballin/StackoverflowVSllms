@@ -1,1 +1,0 @@
-static int __init print_timestamps_init(void) {\n    int i;\n    for (i = 0; i < count; i++) {\n        printk(KERN_INFO "Timestamp %d: %lu\n", i, timestamps[i]);\n    }\n    return 0;\n}\n\nstatic void __exit print_timestamps_exit(void) {\n}\n\nmodule_init(print_timestamps_init);\nmodule_exit(print_timestamps_exit);\nMODULE_LICENSE("GPL");

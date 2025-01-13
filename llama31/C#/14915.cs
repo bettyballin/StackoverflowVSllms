@@ -1,0 +1,1 @@
+public static class DbExtensions\n{\n    public static object GetValue(this IDataRecord record, string columnName)\n    {\n        object value = record[columnName];\n        return value == DBNull.Value ? null : value;\n    }\n}

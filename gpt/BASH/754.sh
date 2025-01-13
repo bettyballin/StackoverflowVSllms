@@ -1,1 +1,0 @@
-find /path/to/directory -type f -size 0 -exec rm {} \;

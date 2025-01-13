@@ -1,0 +1,1 @@
+# Example Git hook script\n#!/bin/bash\n\n# Clone repository\ngit clone git@github.com:your_username/your_repo.git /path/to/deployment\n\n# Run Composer install\ncomposer install --no-dev --prefer-dist

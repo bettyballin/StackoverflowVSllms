@@ -1,0 +1,1 @@
+echo "1" > /proc/fs/cifs/cifs_force_unmount\numount -fl --force /mnt/your_cifs_mount

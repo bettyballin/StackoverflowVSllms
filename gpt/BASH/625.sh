@@ -1,1 +1,0 @@
-g++ -Wall -Wextra -Wconversion -Wsign-conversion -pedantic your_file.cpp

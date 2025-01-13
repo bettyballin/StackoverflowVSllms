@@ -1,1 +1,0 @@
-// Example of the 4-tuple in pseudo-code\nstruct Connection {\n    String sourceIP;\n    int sourcePort;\n    String destinationIP;\n    int destinationPort;\n}\n\n// Example connections\nConnection conn1 = new Connection("192.168.1.2", 12345, "93.184.216.34", 80);\nConnection conn2 = new Connection("192.168.1.2", 12346, "93.184.216.34", 80);

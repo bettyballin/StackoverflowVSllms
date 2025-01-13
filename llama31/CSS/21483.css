@@ -1,0 +1,1 @@
+.rounded-corner-box {\n  border-radius: 1em;\n  -moz-border-radius: 1em;\n  -webkit-border-radius: 1em;\n  overflow: hidden;\n}\n\n.rounded-corner-box img {\n  border-radius: 1em;\n  -moz-border-radius: 1em;\n  -webkit-border-radius: 1em;\n}

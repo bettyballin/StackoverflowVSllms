@@ -1,0 +1,1 @@
+class MyPlugin extends PluginAbstract {\n    public function __construct() {\n        parent::__construct('My Plugin', 'This is my plugin');\n    }\n\n    public function init() {\n        // Initialize plugin\n    }\n\n    public function run() {\n        // Run plugin\n    }\n}

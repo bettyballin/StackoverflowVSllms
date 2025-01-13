@@ -1,0 +1,1 @@
+var controller = new OpenVpnController("localhost", 7505);\ncontroller.Disconnect();\ncontroller.Close();

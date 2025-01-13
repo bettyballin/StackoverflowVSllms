@@ -1,1 +1,0 @@
-depends.exe YourApp.exe

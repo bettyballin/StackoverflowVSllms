@@ -1,1 +1,0 @@
-<?php\nforeach (glob("*.txt") as $filename) {\n    $file = $filename;\n    $contents = file_get_contents($file);\n    $formatted_contents = nl2br(htmlspecialchars($contents, ENT_QUOTES, 'UTF-8'));\n    echo "<pre>{$formatted_contents}</pre><br>";\n}\n?>

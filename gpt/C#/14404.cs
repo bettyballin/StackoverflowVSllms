@@ -1,1 +1,0 @@
-string password = "mySecurePassword";\nstring encryptedPassword = EncryptionHelper.EncryptString(password);\nConsole.WriteLine($"Encrypted Password: {encryptedPassword}");\n\nstring decryptedPassword = EncryptionHelper.DecryptString(encryptedPassword);\nConsole.WriteLine($"Decrypted Password: {decryptedPassword}");

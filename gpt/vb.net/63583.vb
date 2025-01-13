@@ -1,1 +1,0 @@
-Private Sub Button2_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles Button2.Click\n    Dim addinSettingsList As New List(Of SharedLibrary.IAddinSettings)\n    For Each executeDoSomething In dos\n        addinSettingsList.Add(DirectCast(executeDoSomething, SharedLibrary.IAddinSettings))\n    Next\n    Dosomethingelse(addinSettingsList)\nEnd Sub

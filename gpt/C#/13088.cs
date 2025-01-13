@@ -1,1 +1,0 @@
-int plaintext_length = 50;\nint block_size = 16;\nint encrypted_size = ((plaintext_length + block_size - 1) / block_size) * block_size;\nConsole.WriteLine(encrypted_size);  // Output: 64

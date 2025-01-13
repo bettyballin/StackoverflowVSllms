@@ -1,1 +1,0 @@
-cat *.txt | sed '/^Subject:/d' > combined_emails.txt

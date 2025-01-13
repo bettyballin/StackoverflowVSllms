@@ -1,0 +1,1 @@
+$ch = curl_init($siteurl.$l.'/moviename-'.$movie);\ncurl_setopt($ch, CURLOPT_RETURNTRANSFER, true);\ncurl_setopt($ch, CURLOPT_TIMEOUT, 5); // 5 second timeout\n$string = curl_exec($ch);\ncurl_close($ch);

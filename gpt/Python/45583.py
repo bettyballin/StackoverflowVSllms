@@ -1,1 +1,0 @@
-import numpy as np\nimport matplotlib.pyplot as plt\n\ndef generate_random_walk(n):\n    steps = np.random.normal(loc=0, scale=1, size=n)\n    return np.cumsum(steps)\n\nn = 100\ntime_series = generate_random_walk(n)\nplt.plot(time_series)\nplt.title('Random Walk Time Series')\nplt.show()

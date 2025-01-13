@@ -1,1 +1,0 @@
-public class Paragraph\n{\n    public int ParagraphID { get; set; }\n    // Other properties\n}\n\npublic class ImageParagraph : Paragraph\n{\n    // Properties specific to ImageParagraph\n}\n\npublic class LinkListParagraph : Paragraph\n{\n    public int LinkID { get; set; }\n    // Properties specific to LinkListParagraph\n}

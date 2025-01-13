@@ -1,0 +1,1 @@
+# Example of setting up GlusterFS on Ubuntu\nsudo apt-get install glusterfs-server\nsudo gluster volume create gv0 replica 2 server1:/brick1 server2:/brick2

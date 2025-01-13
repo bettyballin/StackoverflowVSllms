@@ -1,0 +1,1 @@
+#include <windows.h>\n\nint main() {\n    HANDLE hStdOut = GetStdHandle(STD_OUTPUT_HANDLE);\n    SetConsoleMode(hStdOut, ~ENABLE_LINE_INPUT & ~ENABLE_ECHO_INPUT);\n    // ... rest of your code ...\n}

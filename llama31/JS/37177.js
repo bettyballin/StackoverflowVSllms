@@ -1,0 +1,1 @@
+$(document).ready(function() {\n  $('#toggle-password').click(function() {\n    $('#login-form').toggle();\n    $('#recover-password').toggle();\n  });\n});

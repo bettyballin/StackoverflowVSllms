@@ -1,1 +1,0 @@
--- Change the user context to 'someuser'\nSETUSER 'someuser'\n\n-- Execute your stored procedure\nEXEC your_stored_procedure\n\n-- Revert back to the original user context\nSETUSER

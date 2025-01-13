@@ -1,1 +1,0 @@
-command = "Start"\n\nif command == "Start":\n    print("Starting")\nelif command == "Stop":\n    print("Stopping")\nelse:\n    print("Unknown command")

@@ -1,0 +1,1 @@
+$content = 'Name: '.$name.'<br>';\n$content .= 'Email: '.$email.'<br>';\n$content .= 'Subject: '.$subject.'<br>';\n$content .= 'Message: '.$message.'<br>';

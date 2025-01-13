@@ -1,1 +1,0 @@
-mkdir -p config/ssl\n    openssl req -new -x509 -days 365 -nodes -out config/ssl/server.crt -keyout config/ssl/server.key

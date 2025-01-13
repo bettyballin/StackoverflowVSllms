@@ -1,1 +1,0 @@
-pip install pydub\nbrew install ffmpeg  # or use the package manager for your OS

@@ -1,1 +1,0 @@
-#!/bin/bash\n   PASSWORD=$(security find-generic-password -w -a <username> -s <service>)\n   echo $PASSWORD | hdiutil attach /path/to/your/encrypted.dmg -stdinpass

@@ -1,0 +1,1 @@
+ALTER TABLE myTable\nALTER COLUMN myFloatPrimaryKey int NOT NULL;\n\nALTER TABLE myTable\nADD CONSTRAINT PK_myTable PRIMARY KEY (myFloatPrimaryKey);

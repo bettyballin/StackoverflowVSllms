@@ -1,0 +1,1 @@
+// Select the ul element\nvar ul = $('#move-me ul');\n\n// Unwrap the ul element to remove the div\nul.unwrap();\n\n// Unwrap the li elements to get the links\nvar links = ul.children('li').unwrap();\n\n// Append the links to the sidebar list\nlinks.appendTo('#sidebar-list');

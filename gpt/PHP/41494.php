@@ -1,1 +1,0 @@
-<?php\n// upload.php: Handle file upload and process CSV\n\nif (isset($_FILES['csv_file']) && $_FILES['csv_file']['error'] == 0) {\n    $csvFile = fopen($_FILES['csv_file']['tmp_name'], 'r');\n    $data = [];\n    while (($row = fgetcsv($csvFile)) !== FALSE) {\n        $data[] = $row;\n    }\n    fclose($csvFile);\n    echo json_encode($data);\n}\n?>

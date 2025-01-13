@@ -1,0 +1,1 @@
+CREATE TABLE [User] (\n    -- your columns here\n);

@@ -1,0 +1,1 @@
+SELECT entity_id_b AS related_id\nFROM entity_entity\nWHERE entity_id_a = 4\n\nUNION\n\nSELECT entity_id_a AS related_id\nFROM entity_entity\nWHERE entity_id_b = 4;

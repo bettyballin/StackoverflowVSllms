@@ -1,1 +1,0 @@
-<?php\nheader('X-Internal-Redirect: /path/to/new/file');\n?>

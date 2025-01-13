@@ -1,0 +1,1 @@
+using (var dc = new DataContext("your_connection_string"))\n{\n    var query = "SELECT * from myTable";\n    var results = dc.ExecuteQuery<MyTable>(query);\n}

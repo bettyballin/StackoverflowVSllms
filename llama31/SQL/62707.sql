@@ -1,0 +1,1 @@
+CREATE TABLE object_ordering (\n  id SERIAL PRIMARY KEY,\n  object_id INTEGER NOT NULL REFERENCES objects(id),\n  order_index INTEGER NOT NULL,\n  UNIQUE (object_id, order_index)\n);

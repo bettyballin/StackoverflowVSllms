@@ -1,1 +1,0 @@
-// PHP4\n   function modifyValue(&$value) {\n       $value += 10;\n   }\n   \n   // PHP5\n   function modifyValue(&$value) {\n       $value += 10;\n   }

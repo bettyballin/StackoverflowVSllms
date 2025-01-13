@@ -1,0 +1,1 @@
+// Example usage of SecureZeroMemory()\n#include <windows.h>\n\nint main() {\n    // Allocate memory for sensitive data\n    char* sensitiveData = new char[1024];\n\n    // Use the sensitive data...\n    // ...\n\n    // Overwrite the sensitive data\n    SecureZeroMemory(sensitiveData, 1024);\n\n    // Free the memory\n    delete[] sensitiveData;\n\n    return 0;\n}

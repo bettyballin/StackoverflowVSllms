@@ -1,0 +1,1 @@
+jQuery("img.deleterow").click(function(){\n    var $button = jQuery(this);\n    id = $button.parent().attr("id");\n    jQuery.ajax({\n        type: "POST",\n        data: "id=" +id,\n        url: "ajax_handler.php",\n        success: function(msg){\n            $button.closest('tr').remove();\n        }\n    });\n});

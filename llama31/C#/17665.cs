@@ -1,0 +1,1 @@
+private string getElement(object obj, string propertyName)\n{\n    return obj.GetType().GetProperty(propertyName).GetValue(obj, null).ToString();\n}

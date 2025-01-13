@@ -1,0 +1,1 @@
+public class MyCOM : ServicedComponent\n{\n    public enum MyEnumType\n    {\n        Value1, Value2, Value3\n    }\n    public ArrayList MyList { private set; get; }\n    public MyCOM()\n    {\n        MyList = new ArrayList();\n    }\n    public void AddValue(MyEnumType value)\n    {\n        MyList.Add(value);\n    }\n}

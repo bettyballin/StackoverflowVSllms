@@ -1,1 +1,0 @@
-# Install OpenSSH Server using PowerShell\n   Add-WindowsCapability -Online -Name OpenSSH.Server~~~~0.0.1.0\n\n   # Start OpenSSH Server\n   Start-Service sshd\n\n   # Optional: Set SSH server to start automatically\n   Set-Service -Name sshd -StartupType 'Automatic'

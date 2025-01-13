@@ -1,0 +1,1 @@
+using System;\nusing System.Runtime.InteropServices;\n\n[assembly: ComVisible(true)]\n\nnamespace MyDotNetAssembly\n{\n    [ComVisible(true)]\n    public class MyClass\n    {\n        public string MyMethod()\n        {\n            return "Hello from .NET!";\n        }\n    }\n}

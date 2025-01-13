@@ -1,1 +1,0 @@
-# Load all models\nmodels_path = Rails.root.join('app/models/**/*.rb')\nDir[models_path].each { |file| require_dependency file }\n\n# Get all models\nmodels = ActiveRecord::Base.descendants\n\n# Iterate over each model and print its class name\nmodels.each do |model|\n  puts model.name\nend

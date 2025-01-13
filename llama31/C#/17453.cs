@@ -1,0 +1,1 @@
+SqlCommand command = new SqlCommand("UPDATE Contacts SET Name = @Name, Email = @Email WHERE Id = @Id", connection);\ncommand.Parameters.AddWithValue("@Name", "Jane Doe");\ncommand.Parameters.AddWithValue("@Email", "jane.doe@example.com");\ncommand.Parameters.AddWithValue("@Id", 1);\ncommand.ExecuteNonQuery();

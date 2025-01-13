@@ -1,0 +1,1 @@
+SELECT \n  batch,\n  SUM(CASE WHEN status = 0 THEN 1 ELSE 0 END) AS status0,\n  SUM(CASE WHEN status = 1 THEN 1 ELSE 0 END) AS status1,\n  SUM(CASE WHEN status = 2 THEN 1 ELSE 0 END) AS status2\nFROM \n  your_table\nGROUP BY \n  batch;

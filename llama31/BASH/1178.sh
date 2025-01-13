@@ -1,0 +1,1 @@
+g++ -Wl,--unresolved-symbols=ignore-in-object-files your_file.cpp -o your_file

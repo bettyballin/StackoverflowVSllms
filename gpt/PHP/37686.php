@@ -1,1 +1,0 @@
-<?php\nif (!isset($_SESSION['site_user_country'])) {\n    include 'File1.php';\n}\n?>

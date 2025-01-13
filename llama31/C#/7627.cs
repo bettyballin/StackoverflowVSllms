@@ -1,0 +1,1 @@
+string username = Request.Form["username"];\nif (!string.IsNullOrEmpty(username) && username.Length > 3)\n{\n    // username is valid\n}\nelse\n{\n    // username is invalid\n}

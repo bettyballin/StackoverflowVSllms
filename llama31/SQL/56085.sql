@@ -1,0 +1,1 @@
+SELECT *\nFROM your_table\nORDER BY your_column\nOFFSET :offset ROWS\nFETCH NEXT :limit ROWS ONLY;

@@ -1,0 +1,1 @@
+<div style="width: 95%; margin: 0 auto;">\n  <p style="float: left;">\n    <a href="<? echo $url1 ?>">Back to List of Pages</a>\n  </p>\n  <p style="float: right;">\n    <a href="<? echo $url2 ?>">View this page</a>\n  </p>\n  <div style="clear: both;"></div>\n</div>

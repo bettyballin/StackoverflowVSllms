@@ -1,0 +1,1 @@
+#include <iostream>\n\nint main() {\n    std::cout << "Hello, World!";  // No newline character appended\n    return 0;\n}

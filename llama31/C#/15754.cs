@@ -1,0 +1,1 @@
+[STAThread]\nstatic void Main()\n{\n    ServiceBase[] ServicesToRun;\n    ServicesToRun = new ServiceBase[]\n    {\n        new MyService()\n    };\n    ServiceBase.Run(ServicesToRun);\n}

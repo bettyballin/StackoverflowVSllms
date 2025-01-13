@@ -1,0 +1,1 @@
+FILE* pipe = _popen("command", "r");\nif (pipe) {\n    // read from pipe\n    char buffer[128];\n    while (fgets(buffer, 128, pipe)) {\n        // process buffer\n    }\n    _pclose(pipe);\n}

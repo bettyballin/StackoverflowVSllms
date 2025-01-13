@@ -1,1 +1,0 @@
-a2enmod ssl\n   a2enmod authnz_ldap

@@ -1,1 +1,0 @@
-<dependencies>\n        <dependency>\n            <groupId>com.example</groupId>\n            <artifactId>example-library</artifactId>\n            <version>1.0.0</version>\n        </dependency>\n    </dependencies>

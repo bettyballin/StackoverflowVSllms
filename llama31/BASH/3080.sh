@@ -1,0 +1,1 @@
+#!/bin/bash\n\ndomain="site.com.br"\ntld=".br"\n\nwhile true; do\n  ns=$(dig +short @a.dns.br NS $domain)\n  if [ -n "$ns" ]; then\n    echo "NS records for $domain:"\n    echo "$ns"\n    break\n  fi\n  domain=${domain#*.}\n  if [ "$domain" = "$tld" ]; then\n    break\n  fi\ndone

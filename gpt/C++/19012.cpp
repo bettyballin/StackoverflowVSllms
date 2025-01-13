@@ -1,1 +1,0 @@
-void CMyDialog::OnEnKillFocusEdit1()\n{\n    CString strValue;\n    m_edit1.GetWindowText(strValue);\n\n    if (!IsValidValue(strValue))\n    {\n        AfxMessageBox(_T("Invalid value entered."));\n        m_edit1.SetFocus();\n    }\n}

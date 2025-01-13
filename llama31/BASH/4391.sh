@@ -1,0 +1,1 @@
+arg1="[5111.3$]=5"\n\n# Use printf to escape special characters\nescaped_arg1=$(printf "%q" "$arg1")\n\n# Use the escaped argument in your command\nrunjob specfile.spx "$escaped_arg1"

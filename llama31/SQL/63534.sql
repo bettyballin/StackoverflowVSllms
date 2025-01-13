@@ -1,0 +1,1 @@
+:r $(ProjectDir)\DataScripts\script1.sql\n:r $(ProjectDir)\DataScripts\script2.sql

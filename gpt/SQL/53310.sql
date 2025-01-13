@@ -1,1 +1,0 @@
-SELECT \n    s.session_id,\n    s.login_name,\n    c.client_net_address,\n    c.local_net_address,\n    c.protocol_type,\n    c.auth_scheme,\n    s.host_name,\n    s.program_name,\n    s.client_interface_name\nFROM \n    sys.dm_exec_sessions s\nJOIN \n    sys.dm_exec_connections c\nON \n    s.session_id = c.session_id\nWHERE \n    s.session_id = @@SPID

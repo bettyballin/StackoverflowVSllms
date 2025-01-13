@@ -1,0 +1,1 @@
+private void Form1_FormClosing(object sender, FormClosingEventArgs e)\n{\n    if (e.CloseReason == CloseReason.UserClosing)\n    {\n        // User clicked the Close button or pressed Alt+F4\n        // Perform your actions here\n    }\n}

@@ -1,0 +1,1 @@
+if (condition1) {\n    // code to execute if condition1 is true\n} else if (condition2) {\n    // code to execute if condition1 is false and condition2 is true\n} else if (condition3) {\n    // code to execute if condition1 and condition2 are false and condition3 is true\n} else {\n    // code to execute if all conditions are false\n}

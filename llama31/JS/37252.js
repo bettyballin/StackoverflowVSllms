@@ -1,0 +1,1 @@
+// Example using React Router\nimport { BrowserRouter, Route, Link } from 'react-router-dom';\n\nconst App = () => {\n  return (\n    <BrowserRouter>\n      <Route path="/" component={Home} />\n      <Route path="/about" component={About} />\n    </BrowserRouter>\n  );\n};

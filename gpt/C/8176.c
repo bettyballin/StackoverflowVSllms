@@ -1,1 +1,0 @@
-void upperCaseString(char *_str) {};\n    void upperCaseString(char _str[]) {};

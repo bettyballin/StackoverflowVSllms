@@ -1,1 +1,0 @@
-# Example of a timing attack in Python\n   def check_password(real_password, input_password):\n       for i in range(len(real_password)):\n           if real_password[i] != input_password[i]:\n               return False\n       return True

@@ -1,0 +1,1 @@
+using System.Linq;\n\n// Assuming list is a List<MyClass> and MyClass implements IComparable<MyClass>\nint minIndex = list.IndexOf(list.Min());\nint maxIndex = list.IndexOf(list.Max());

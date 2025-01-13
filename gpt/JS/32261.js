@@ -1,1 +1,0 @@
-$(document).ready(function () {\n    $("#myButton").click(function () {\n        alert("MyButton");\n    });\n});

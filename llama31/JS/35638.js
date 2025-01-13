@@ -1,0 +1,1 @@
+$('a.order_by').livequery('click', function() {\n  $.get(this.href, null, function(data) {\n    var $data = $.parseHTML(data);\n    $("#posts").html($data.find("#posts"));\n    $("#sorting").html($data.find("#sorting"));\n  });\n  return false;\n});

@@ -1,0 +1,1 @@
+// in index.php\nchdir('DIR');\ninclude('main.php');

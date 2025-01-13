@@ -1,0 +1,1 @@
+public class MyWebPart : WebPart\n{\n    // ...\n\n    protected override void OnInit(EventArgs e)\n    {\n        base.OnInit(e);\n        this.CacheTimeout = TimeSpan.FromMinutes(1);\n    }\n}

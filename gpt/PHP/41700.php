@@ -1,1 +1,0 @@
-<?php\n// Password to be hashed\n$password = 'your_password_here';\n\n// Hash the password using bcrypt\n$hashedPassword = password_hash($password, PASSWORD_BCRYPT);\n\n// Output the hashed password\necho $hashedPassword;\n?>

@@ -1,0 +1,1 @@
+// Example of using Web Workers\nconst worker = new Worker('worker.js');\nworker.postMessage('Perform some task');\nworker.onmessage = event => console.log(`Received result: ${event.data}`);

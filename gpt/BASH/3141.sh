@@ -1,1 +1,0 @@
-# Download and extract the MIT/GNU Scheme tarball\nwget http://ftp.gnu.org/gnu/mit-scheme/stable.pkg/11.2/mit-scheme-11.2-x86-64.tar.gz\ntar -xzf mit-scheme-11.2-x86-64.tar.gz\n\n# Navigate to the extracted directory\ncd mit-scheme-11.2-x86-64\n\n# Run the installation script\nsudo ./install.sh\n\n# Start the MIT/GNU Scheme REPL\nmit-scheme

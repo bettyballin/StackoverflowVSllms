@@ -1,1 +1,0 @@
-BULK INSERT [dbo].[KB]\n   FROM 'C:\KB.xml'\n   WITH (\n       FIRSTROW = 1,\n       FIELDTERMINATOR = '\t',\n       ROWTERMINATOR = '\n',\n       CODEPAGE = '65001'\n   );

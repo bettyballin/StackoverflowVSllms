@@ -1,1 +1,0 @@
-<script type="text/javascript">\n    function notifyFlex(message) {\n        if (window.location.href.indexOf("flex") > -1) {\n            var flexApp = window.document.getElementById("yourFlexAppId");\n            if (flexApp) {\n                flexApp.notifyFromHTML(message);\n            }\n        }\n    }\n</script>

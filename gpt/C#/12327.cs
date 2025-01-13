@@ -1,1 +1,0 @@
-using System;\n\n[AttributeUsage(AttributeTargets.Method)]\npublic class SOAPTraceExtensionAttribute : SoapExtensionAttribute\n{\n    public override Type ExtensionType\n    {\n        get { return typeof(SOAPTraceExtension); }\n    }\n\n    public override int Priority { get; set; }\n}

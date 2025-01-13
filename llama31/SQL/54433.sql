@@ -1,0 +1,1 @@
+-- Create temporary table with same structure as destination table\nCREATE TABLE temp_table AS SELECT * FROM DST_Table WHERE 1=0;\n\n-- Exchange partition between temporary table and destination table\nALTER TABLE DST_Table EXCHANGE PARTITION partition_name WITH TABLE temp_table;

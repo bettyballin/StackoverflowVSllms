@@ -1,0 +1,1 @@
+foreach (string item in TempFilesList)\n{\n    string path = Server.MapPath("~/temp/" + item);\n    FileInfo fileDel = new FileInfo(path);\n    fileDel.Delete();\n}

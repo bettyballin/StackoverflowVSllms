@@ -1,1 +1,0 @@
-protected void Application_Start()\n{\n    // Preload assemblies here\n    var assemblies = new[] {\n        typeof(YourFirstAssembly.SomeClass).Assembly,\n        typeof(YourSecondAssembly.AnotherClass).Assembly\n    };\n\n    foreach (var assembly in assemblies)\n    {\n        // Force the assembly to load\n        var types = assembly.GetTypes();\n    }\n}

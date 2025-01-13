@@ -1,0 +1,1 @@
+copy sdl.dll %windir%\SysWOW64

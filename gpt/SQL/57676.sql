@@ -1,1 +1,0 @@
-USE [myDbName]\n   GO\n   EXEC sp_addrolemember N'db_owner', N'NETWORK SERVICE';\n   GO

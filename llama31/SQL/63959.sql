@@ -1,0 +1,1 @@
+SELECT DISTINCT username FROM users WHERE fb_uid IN (123, 456, 789, ...)

@@ -1,1 +1,0 @@
-<?php\n   require 'path/to/php-console/src/PhpConsole/__autoload.php';\n\n   // Initialize PHP Console\n   PhpConsole\Helper::register();\n\n   // Log messages to the console\n   PC::debug('This is a debug message');\n   PC::debug($_POST, 'POST Data');\n   ?>

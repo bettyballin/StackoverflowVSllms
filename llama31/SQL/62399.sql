@@ -1,0 +1,1 @@
+SELECT INITCAP('hello world') AS capitalized_string;

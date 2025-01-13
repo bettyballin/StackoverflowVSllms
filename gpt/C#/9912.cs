@@ -1,1 +1,0 @@
-Truck truck = new Truck();

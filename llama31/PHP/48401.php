@@ -1,0 +1,1 @@
+header('Content-Type: application/octet-stream');\nheader('Content-Disposition: attachment; filename="example.txt"');\nheader('Content-Length: ' . filesize('example.txt'));\n\n// Clear any output buffers\nob_end_clean();\n\n// Read the file and output it\nreadfile('example.txt');\n\n// Exit to prevent any further output\nexit;

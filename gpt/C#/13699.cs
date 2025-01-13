@@ -1,1 +1,0 @@
-[ComVisible(true)]\n    public class YourClass\n    {\n        // Your methods and properties here\n    }

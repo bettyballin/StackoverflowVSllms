@@ -1,0 +1,1 @@
+from django.db import connection\n\n# ... your code ...\n\ntry:\n    model.save()\nexcept Exception as e:\n    print(connection.queries[-1]['sql'])  # prints the last SQL query executed\n    raise

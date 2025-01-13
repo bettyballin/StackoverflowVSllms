@@ -1,1 +1,0 @@
-SELECT \n    ApplicationName, \n    MethodName, \n    AVG(TimeInMs) AS AvgTimeInMs\nFROM \n    YourTableName\nGROUP BY \n    ApplicationName, \n    MethodName;

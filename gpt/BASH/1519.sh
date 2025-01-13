@@ -1,1 +1,0 @@
-# Step 1: Get the CSRF token\ncurl -X GET "https://www.example.com/w/api.php?action=query&meta=tokens&type=csrf&format=json" -b cookies.txt -c cookies.txt

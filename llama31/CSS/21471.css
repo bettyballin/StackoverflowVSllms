@@ -1,0 +1,1 @@
+@media print {\n  .header-banner img {\n    display: none;\n  }\n  .header-banner:after {\n    content: "Your Header Text";\n    font-size: 36px; /* or any other size you prefer */\n    font-weight: bold;\n  }\n}

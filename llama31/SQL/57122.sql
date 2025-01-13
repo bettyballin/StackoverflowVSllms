@@ -1,0 +1,1 @@
+SELECT * FROM sysprocesses\nSELECT * FROM syslocks

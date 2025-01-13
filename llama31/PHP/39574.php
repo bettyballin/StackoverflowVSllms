@@ -1,0 +1,1 @@
+$string = "Hello, ";\n$string .= "World!";\necho $string;  // Outputs: "Hello, World!"

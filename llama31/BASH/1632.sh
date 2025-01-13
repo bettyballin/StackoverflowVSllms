@@ -1,0 +1,1 @@
+ssh-keygen -t rsa -b 4096 -f personal_key

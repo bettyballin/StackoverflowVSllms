@@ -1,0 +1,1 @@
+var wait = new WebDriverWait(driver, TimeSpan.FromSeconds(10));\nwait.Until(ExpectedConditions.ElementToBeClickable(By.CssSelector("[data-test-id='login-button']")));

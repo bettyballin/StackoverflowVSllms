@@ -1,0 +1,1 @@
+var poster = new FilePoster();\nposter.PostFile(fileBytes, "mydocument.doc", "[REMOTE SERVER SAVE URL]", "12345678", "doc");

@@ -1,1 +1,0 @@
-SELECT \n    t.name AS trigger_name,\n    o.name AS table_name,\n    c.text AS trigger_definition\nFROM \n    sysobjects t\nJOIN \n    sysobjects o ON t.parent_obj = o.id\nJOIN \n    syscomments c ON t.id = c.id\nWHERE \n    t.type = 'TR'\n    AND o.name = 'your_table_name'\nORDER BY \n    t.name;

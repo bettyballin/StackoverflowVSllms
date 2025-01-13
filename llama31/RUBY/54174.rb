@@ -1,0 +1,1 @@
+# controller code\nclass MyController < ApplicationController\n  def my_action\n    render :update do |page|\n      page.replace_html 'my_div', :partial => 'my_partial'\n    end\n  end\nend

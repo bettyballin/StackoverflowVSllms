@@ -1,0 +1,1 @@
+canvas.mycanvas {\n  position: absolute;\n  background: transparent;\n  z-index: 10;\n  top: 10px; left: 10px;\n  pointer-events: none;\n}

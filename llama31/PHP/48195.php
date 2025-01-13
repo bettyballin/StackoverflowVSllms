@@ -1,0 +1,1 @@
+exec('ffmpeg -i input.spx -c:a libmp3lame output.mp3');

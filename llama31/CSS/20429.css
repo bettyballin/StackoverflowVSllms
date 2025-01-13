@@ -1,0 +1,1 @@
+ol {\n  list-style-position: inside;\n  padding: 0;\n  margin: 0;\n}\n\nol li {\n  text-indent: -1.5em;\n  margin-left: 1.5em;\n}

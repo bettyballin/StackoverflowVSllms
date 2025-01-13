@@ -1,0 +1,1 @@
+class OtherClass {\n    private $construct;\n\n    public function __construct(Construct $construct) {\n        $this->construct = $construct;\n    }\n\n    public function methodThatMightError() {\n        // ...\n        if ($error) {\n            $this->construct->error($msg);\n        }\n    }\n}

@@ -1,0 +1,1 @@
+UPDATE myTable\nSET myColumn = REPLACE(myColumn, SUBSTRING(myColumn, PATINDEX('%[^0-9]%', myColumn), 1), '')\nWHERE PATINDEX('%[^0-9]%', myColumn) > 0

@@ -1,1 +1,0 @@
-DECLARE @ipAddress NVARCHAR(50);\n   EXEC ResolveHostname 'stackoverflow.com', @ipAddress OUTPUT;\n   SELECT @ipAddress;

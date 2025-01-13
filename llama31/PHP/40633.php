@@ -1,0 +1,1 @@
+$mock = new MockMyClass();\n$mock->expects('get')->with('foo')->returns('bar');\n$mock->expects('set')->with('foo', 'baz');

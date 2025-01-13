@@ -1,0 +1,1 @@
+appcmd list config > iis_config_server1.xml\nappcmd list config > iis_config_server2.xml

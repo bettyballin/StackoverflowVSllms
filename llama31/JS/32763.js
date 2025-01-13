@@ -1,0 +1,1 @@
+function getDivHeight(objName) {\n  return document.getElementById(objName).offsetHeight;\n}

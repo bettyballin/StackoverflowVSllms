@@ -1,0 +1,1 @@
+using System.Text.RegularExpressions;\n\npublic static string Range(int minimum, int maximum)\n{\n    return $"^{Regex.Escape(minimum.ToString().PadLeft(2, '0'))}-{Regex.Escape(maximum.ToString().PadLeft(2, '0'))}$";\n}

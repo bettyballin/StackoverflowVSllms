@@ -1,1 +1,0 @@
-Module Module1\n    Sub Main()\n        Dim i As Integer\n        i = 0\n\n        ' Nested scope using a separate subroutine\n        NestedScope()\n\n        Console.WriteLine("Outer i: " & i)\n    End Sub\n\n    Sub NestedScope()\n        Dim i As Integer\n        i += 1\n        Console.WriteLine("Inner i: " & i)\n    End Sub\nEnd Module

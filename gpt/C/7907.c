@@ -1,1 +1,0 @@
-#include <openssl/ssl.h>\n   #include <openssl/err.h>\n\n   // Initialize OpenSSL\n   SSL_library_init();\n   SSL_load_error_strings();\n   OpenSSL_add_all_algorithms();

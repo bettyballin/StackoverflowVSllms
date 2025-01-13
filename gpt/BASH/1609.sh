@@ -1,1 +1,0 @@
-sudo dd if=/dev/zero of=/swapfile bs=1M count=1024\n   sudo mkswap /swapfile\n   sudo swapon /swapfile

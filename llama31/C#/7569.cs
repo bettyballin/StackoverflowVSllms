@@ -1,0 +1,1 @@
+public bool SendMail(MailMessage message)\n{\n    try\n    {\n        // ...\n        smtp.Send(message);\n        return true;\n    }\n    catch (SmtpException ex)\n    {\n        // Log the exception details\n        return false;\n    }\n    catch (Exception ex)\n    {\n        // Log the exception details\n        return false;\n    }\n}

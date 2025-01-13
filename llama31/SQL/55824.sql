@@ -1,0 +1,1 @@
+CREATE TABLE OrderStatus (\n  OrderStatusID (PK),\n  OrderID (FK referencing Orders),\n  Status (e.g., "Open", "Closed"),\n  CloseReasonID (FK referencing OrderCloseReasons),\n  ClosedAt (timestamp)\n);

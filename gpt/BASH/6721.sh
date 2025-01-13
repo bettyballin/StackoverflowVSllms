@@ -1,1 +1,0 @@
-#!/bin/bash\n\nPEER_CONFIG="/etc/ppp/peers/dynamic-peer"\n\nMODEM=$(/etc/ppp/scripts/get_available_modem.sh)\nif [ $? -ne 0 ]; then\n    echo "Failed to get an available modem"\n    exit 1\nfi\n\n# Start pppd with the selected modem\npppd call $PEER_CONFIG connect "/usr/sbin/chat -v -f /etc/ppp/chat-script" /dev/$MODEM

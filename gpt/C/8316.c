@@ -1,1 +1,0 @@
-#include <stdio.h>\n\nshort f(short x)\n{\n    return x;\n}\n\nint main()\n{\n    long x = 0x10000007;   // bigger than short\n    printf("%d\n", f(x));  // hoping for a warning here\n    return 0;\n}

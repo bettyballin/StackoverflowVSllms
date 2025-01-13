@@ -1,0 +1,1 @@
+function convertToFloats($array) {\n    return array_map(function($value) {\n        if (is_array($value)) {\n            return convertToFloats($value);\n        } else {\n            return floatval($value);\n        }\n    }, $array);\n}\n\n$array = // your array from the database\n$array = convertToFloats($array);

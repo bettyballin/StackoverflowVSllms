@@ -1,0 +1,1 @@
+public async Task MyMethodAsync()\n{\n    // asynchronous code here\n    await Task.Delay(10); // example of asynchronous delay\n}

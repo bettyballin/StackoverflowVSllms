@@ -1,0 +1,1 @@
+using System.Collections.ObjectModel;\n\npublic class MyCollection : ObservableCollection<MyItem>\n{\n    // You can override the OnCollectionChanged method to handle events\n    protected override void OnCollectionChanged(NotifyCollectionChangedEventArgs e)\n    {\n        base.OnCollectionChanged(e);\n        // Handle events here\n    }\n}

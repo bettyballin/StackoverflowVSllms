@@ -1,1 +1,0 @@
-std::vector<int> copyVec(const std::vector<int>& original)\n{\n  return std::vector<int>(original);\n}

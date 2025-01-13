@@ -1,1 +1,0 @@
-AutoResetEvent autoEvent = new AutoResetEvent(false);\n\n// Thread 1\nautoEvent.WaitOne(); // Waits for a signal\n\n// Thread 2\nautoEvent.Set(); // Signals Thread 1 to proceed

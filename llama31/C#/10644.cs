@@ -1,0 +1,1 @@
+using (var context = new OracleDbContext())\n{\n    var results = context.YourTables.ToList();\n    foreach (var row in results)\n    {\n        Console.WriteLine(row.Column1 + " " + row.Column2);\n    }\n}

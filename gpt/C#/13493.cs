@@ -1,1 +1,0 @@
-[TablePermission("CanViewX")]\n   public class TableX\n   {\n       // TableX properties\n   }\n\n   [TablePermission("CanViewY")]\n   public class TableY\n   {\n       // TableY properties\n   }\n\n   [TablePermission("CanViewZ")]\n   public class TableZ\n   {\n       // TableZ properties\n   }

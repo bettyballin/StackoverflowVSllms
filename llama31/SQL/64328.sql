@@ -1,0 +1,1 @@
+EXPLAIN PLAN FOR\nSELECT id, name\nFROM customer\nWHERE period_aded = TO_CHAR(paramDate, 'mm/yyyy');

@@ -1,1 +1,0 @@
-CREATE TABLE products\n   (\n     id serial NOT NULL,\n     "name" character varying(255) NOT NULL,\n     translations JSONB,\n     CONSTRAINT products_pkey PRIMARY KEY (id)\n   );

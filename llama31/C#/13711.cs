@@ -1,0 +1,1 @@
+@Ajax.ActionLink(\n    " ",\n    "AddPictureVote",\n    "Vote",\n    new { id = Model.PictureId },\n    new AjaxOptions { UpdateTargetId = "addvote" },\n    new { @class = "vote-button", style = "background-image: url('your-up-vote-image-url')" }\n)

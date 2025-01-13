@@ -1,0 +1,1 @@
+UPDATE images\nSET entry_order_no = entry_order_no + 1\nWHERE entry_order_no >= 2;\n\nUPDATE images\nSET entry_order_no = 2\nWHERE entry_id = <id_of_item_to_move>;

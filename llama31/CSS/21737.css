@@ -1,0 +1,1 @@
+.container {\n  display: grid;\n  grid-template-columns: 500px 400px;\n  grid-template-rows: 170px 400px;\n  gap: 10px;\n}\n\n.section1 {\n  grid-column: 1;\n  grid-row: 1;\n}\n\n.section2 {\n  grid-column: 2;\n  grid-row: 1 / 3;\n}\n\n#response {\n  grid-column: 1;\n  grid-row: 2;\n}

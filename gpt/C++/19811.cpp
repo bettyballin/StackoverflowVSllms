@@ -1,1 +1,0 @@
-typedef QWidget* (*FindQWidgetFunc)(HWND);\n   HMODULE hMod = LoadLibrary(L"YourDLL.dll");\n   FindQWidgetFunc findQWidget = (FindQWidgetFunc)GetProcAddress(hMod, "findQWidget");\n   if (findQWidget) {\n       QWidget* q = findQWidget(hwnd);\n       // Use q as needed\n   }

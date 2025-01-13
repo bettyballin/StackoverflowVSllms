@@ -1,0 +1,1 @@
+return-type (*pointer-name)(parameter-types)

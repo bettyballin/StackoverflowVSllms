@@ -1,0 +1,1 @@
+EXEC sp_addrolemember @rolename = 'YourRoleName', @membername = 'NT_domain\username'

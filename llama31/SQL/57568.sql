@@ -1,0 +1,1 @@
+CREATE PROCEDURE TransferData\nAS\nBEGIN\n    INSERT INTO tableB (column1, column2, column3)\n    SELECT column1, column2, column3\n    FROM tableA\n    WHERE -- add your conditions here\nEND

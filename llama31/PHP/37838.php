@@ -1,0 +1,1 @@
+$array = array('one' => 1);\nprint_r($array);

@@ -1,0 +1,1 @@
+$obj = new stdClass();\nmagic($obj, 'Name', 'something');\n$get = magic($obj, 'Name');\necho $get; // Output: something

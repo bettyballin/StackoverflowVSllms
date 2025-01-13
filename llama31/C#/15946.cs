@@ -1,0 +1,1 @@
+string formattedBalance = String.Format("{0:N2}", currentBalance);

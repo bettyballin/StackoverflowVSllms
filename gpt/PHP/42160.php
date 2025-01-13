@@ -1,1 +1,0 @@
-$token = "your_token_data"; // Replace with your actual token data\nsetcookie('token', base64_encode(serialize($token)), time() + 10800, '/', '.mydomain.com', true, true);

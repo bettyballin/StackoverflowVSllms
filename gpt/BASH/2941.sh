@@ -1,1 +1,0 @@
-snmpwalk -v 2c -c public your_proxy_server_ip .1.3.6.1.4.1.your_specific_oid_for_ssl_transactions

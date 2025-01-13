@@ -1,0 +1,1 @@
+set SVN_SSH="ssh -t"\nsvn ls svn+ssh://myusername@myhost.com/path/to/svn_repository

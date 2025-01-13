@@ -1,1 +1,0 @@
-#leftcontent {\n    float: left;\n    width: 170px;\n    border: 1px solid #C0C0C0;\n    padding: 2px;\n}\n\n#centercontent {\n    margin-left: 181px; /* 170px + 2px padding * 2 + 1px border * 2 */\n    border: 1px solid #C0C0C0;\n    padding: 2px;\n}

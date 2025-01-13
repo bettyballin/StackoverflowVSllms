@@ -1,1 +1,0 @@
-List<int> list1 = new List<int> { 1, 2, 3 };\n    List<int> list2 = new List<int> { 4, 5, 6 };\n    IEnumerable<int> result = list1.Concat(list2);\n    // result now contains: 1, 2, 3, 4, 5, 6

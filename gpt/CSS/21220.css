@@ -1,1 +1,0 @@
-table.event {\n  border-collapse: collapse;\n  border: 1px solid #000;\n  width: 33%;\n  height: 300px;\n  table-layout: fixed; /* Add this property */\n}\n\ntable.event td {\n  border: 1px solid #000;\n  padding: 2px;\n  height: 100px; /* Add this property to set a specific height for cells */\n}

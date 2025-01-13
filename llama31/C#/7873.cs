@@ -1,0 +1,1 @@
+SqlCommand command = new SqlCommand("SELECT * FROM your_table WHERE column_name = @parameter", connection);\nSqlParameter parameter = new SqlParameter("@parameter", "value");\ncommand.Parameters.Add(parameter);

@@ -1,0 +1,1 @@
+<configuration>\n  <system.webServer>\n    <application path="/MyVirtualDirectory">\n      <virtualDirectory path="/" physicalPath="C:\inetpub\wwwroot\MyVirtualDirectory" />\n    </application>\n  </system.webServer>\n</configuration>

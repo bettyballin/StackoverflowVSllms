@@ -1,0 +1,1 @@
+<jboss-app>\n    <module-order>strict</module-order>\n    <interceptors>\n        <interceptor class="com.yourcompany.DBMSApplicationInfoInterceptor">\n            <advice name="afterBegin" />\n            <advice name="beforeCommit" />\n            <advice name="afterRollback" />\n        </interceptor>\n    </interceptors>\n</jboss-app>

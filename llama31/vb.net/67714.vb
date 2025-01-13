@@ -1,0 +1,1 @@
+Dim rs\nSet rs = objConn.Execute("SELECT ...") ' your query here\n\nDo While Not rs.EOF\n    Response.Write rs("PriceRange") & " (" & rs("ProductCount") & ")" & vbCrLf\n    rs.MoveNext\nLoop\n\nrs.Close\nSet rs = Nothing

@@ -1,0 +1,1 @@
+Imports Outlook = Microsoft.Office.Interop.Outlook\n\nDim olApp As New Outlook.Application()\nDim olNs As Outlook.Namespace = olApp.GetNamespace("MAPI")\nDim olSecurityManager As New Outlook.SecurityManager()\n\nolSecurityManager.DisableOOMWarnings = True\n\n' Send your email here...\n\nolSecurityManager.DisableOOMWarnings = False

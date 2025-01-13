@@ -1,0 +1,1 @@
+using Dapper;\n\n// assume you have a IDbConnection instance\nvar connection = ...;\n\nvar users = connection.Query<User>("SELECT * FROM Users WHERE IsActive = 1");

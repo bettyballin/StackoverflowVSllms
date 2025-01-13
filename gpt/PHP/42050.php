@@ -1,1 +1,0 @@
-function decode_unicode_escape_sequence($str) {\n    return preg_replace_callback('/%u([0-9A-F]{4})/i', function ($matches) {\n        return mb_convert_encoding(pack('H*', $matches[1]), 'UTF-8', 'UCS-2BE');\n    }, $str);\n}\n\n$input = '%u015F'; // Example input\n$decoded = decode_unicode_escape_sequence($input);\necho $decoded; // Outputs: 'ş'

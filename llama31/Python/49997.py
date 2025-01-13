@@ -1,0 +1,1 @@
+import pytest\n\n@pytest.fixture\ndef inner():\n    def _inner():\n        pass\n    return _inner\n\ndef test_inner(inner):\n    inner()  # test the inner functio

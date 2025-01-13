@@ -1,1 +1,0 @@
-Dim connectionString As String = ConfigurationManager.ConnectionStrings("MyDBConnectionString").ConnectionString

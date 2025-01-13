@@ -1,0 +1,1 @@
+using (var dc = new YourDataContext())\n{\n    DataLoadOptions options = new DataLoadOptions();\n    options.LoadWith<Order>(o => o.Product).Select(p => new { p.ProductName });\n    dc.LoadOptions = options;\n\n    var orders = dc.Orders.ToList();\n}

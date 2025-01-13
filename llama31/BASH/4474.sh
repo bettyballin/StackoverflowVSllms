@@ -1,0 +1,1 @@
+objdump -WL --dwarf=decodedline binary_name | grep " DW_TAG_compile_unit"

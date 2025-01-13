@@ -1,0 +1,1 @@
+function isAlphabet(obj) {\n    var alphaExp = /[^a-z0-9_-]/g; // note the 'g' flag to match all occurrences\n    var invalidChars = obj.value.match(alphaExp);\n    if (invalidChars === null) {\n        return true;\n    } else {\n        alert('Invalid characters: ' + invalidChars.join(''));\n        obj.focus();\n        return false;\n    }\n}

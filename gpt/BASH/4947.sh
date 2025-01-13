@@ -1,1 +1,0 @@
-# Create a branch for a specific site\ngit checkout -b site-specific-feature\n\n# Work on the branch and commit changes\ngit add .\ngit commit -m "Custom feature for Site A"\n\n# Push to the remote repository\ngit push origin site-specific-feature

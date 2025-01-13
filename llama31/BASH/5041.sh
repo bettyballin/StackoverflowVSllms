@@ -1,0 +1,1 @@
+htpasswd -c basic-password user

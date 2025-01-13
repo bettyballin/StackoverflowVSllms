@@ -1,0 +1,1 @@
+# Install Active Directory Domain Services\nInstall-WindowsFeature -Name AD-Domain-Services\n\n# Create a new AD forest\nInstall-ADDSForest -DomainName "test.local" -SafeModeAdministratorPassword (ConvertTo-SecureString "P@ssw0rd" -AsPlainText -Force)

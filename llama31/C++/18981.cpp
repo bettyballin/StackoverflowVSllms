@@ -1,0 +1,1 @@
+#include <boost/filesystem.hpp>\n\nbool fileExists(const std::string& filePath) {\n    return boost::filesystem::exists(filePath);\n}

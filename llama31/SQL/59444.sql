@@ -1,0 +1,1 @@
+SELECT CONVERT(varchar(max), ImageColumn, 2) AS ImageData\nFROM YourTable\nWHERE ImageColumn IS NOT NULL

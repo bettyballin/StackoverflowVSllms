@@ -1,1 +1,0 @@
-using System;\nusing System.Runtime.InteropServices;\n\nclass Program\n{\n    [DllImport("kernel32.dll", SetLastError = true)]\n    private static extern IntPtr GetConsoleWindow();\n\n    static void Main(string[] args)\n    {\n        IntPtr handle = GetConsoleWindow();\n        Console.WriteLine("Console Window Handle: " + handle);\n    }\n}

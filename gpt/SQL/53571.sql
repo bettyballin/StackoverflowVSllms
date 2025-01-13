@@ -1,1 +1,0 @@
-SELECT * FROM Node\nWHERE LeftValue BETWEEN (SELECT LeftValue FROM Node WHERE NodeId = @TargetNodeId) AND (SELECT RightValue FROM Node WHERE NodeId = @TargetNodeId);

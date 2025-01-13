@@ -1,0 +1,1 @@
+accum = (accum + NCO_param) % 2^32

@@ -1,1 +1,0 @@
-# Install Vitess\n   # Follow the installation guide on the official Vitess documentation\n   # Deploy and configure Vitess for your MySQL shards

@@ -1,0 +1,1 @@
+Try\n    Await smtp.SendMailAsync(msg)\nCatch '.... perform exception handling, etc...\nEnd Try

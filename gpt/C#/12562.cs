@@ -1,1 +1,0 @@
-using System.Runtime.CompilerServices;\n\n   public class Example\n   {\n       [MethodImpl(MethodImplOptions.AggressiveOptimization)]\n       public void OptimizedMethod()\n       {\n           // Method implementation\n       }\n   }

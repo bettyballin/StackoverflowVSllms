@@ -1,1 +1,0 @@
-using (var context = new YourDbContext())\n{\n    // Retrieve all rows in a single call\n    var data = context.YourTable.ToList();\n\n    // Manipulate data using LINQ\n    var filteredData = data.Where(row => row.SomeProperty == someValue).ToList();\n}

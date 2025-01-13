@@ -1,0 +1,1 @@
+SELECT *\nFROM (\n  SELECT e.*, RANK() OVER (ORDER BY sal DESC) as sal_rank\n  FROM scott.emp e\n  WHERE deptno = 20 AND job = 'CLERK'\n)\nWHERE sal_rank = 1;

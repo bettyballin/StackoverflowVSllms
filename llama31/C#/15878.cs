@@ -1,0 +1,1 @@
+OracleCommand cmd = new OracleCommand("SET TRANSACTION USE ROLLBACK SEGMENT MY_ROLLBACK_SEGMENT", conn);\ncmd.ExecuteNonQuery();\n\n// Begin the transaction\nOracleTransaction trans = conn.BeginTransaction();\n\n// Perform your operations\n// ...\n\n// Commit or rollback the transaction\ntrans.Commit();

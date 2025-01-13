@@ -1,0 +1,1 @@
+$pointer = &$array['docs'];\nif (key($pointer) == '_c') { \n    $pointer = &$pointer['_c']; \n} else {\n    // create an array with '_c' key instead of empty '_v' array\n}

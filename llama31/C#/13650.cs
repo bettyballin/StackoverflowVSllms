@@ -1,0 +1,1 @@
+string guid = Guid.NewGuid().ToString("N"); // convert to hexadecimal string\nOracleCommand cmd = new OracleCommand("INSERT INTO my_table (guid) VALUES (:guid)", conn);\ncmd.Parameters.Add(new OracleParameter("guid", OracleDbType.Raw, 16, guid, ParameterDirection.Input));\ncmd.ExecuteNonQuery();

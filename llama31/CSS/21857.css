@@ -1,0 +1,1 @@
+.attention {\n  transition: background-color 0.5s;\n  background-color: #ff9900; /* orange */\n}\n\n.attention:hover {\n  background-color: #ffcc00; /* light orange */\n}

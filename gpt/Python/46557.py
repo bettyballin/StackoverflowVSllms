@@ -1,1 +1,0 @@
-# my_ipython_script.ipynb or .py\nfrom ipython_module import run_shell_command, run_magic_command\n\n# Example usage\nrun_shell_command('ls -l')\nrun_magic_command('timeit x = 10')

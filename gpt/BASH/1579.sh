@@ -1,1 +1,0 @@
-dll2header yourlibrary.dll

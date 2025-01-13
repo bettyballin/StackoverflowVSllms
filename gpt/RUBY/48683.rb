@@ -1,1 +1,0 @@
-<% for article in @news %>\n  <% @current_date = article.created_at.to_date.strftime("%Y-%m-%d") %>\n  <% if @current_date != @date %>\n    <%= @current_date %>\n    <% @date = @current_date %>\n  <% end %>\n<% end %>

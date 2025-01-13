@@ -1,0 +1,1 @@
+mysqlcheck -u myuser -p mydatabase

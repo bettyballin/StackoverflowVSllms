@@ -1,0 +1,1 @@
+oObject.Name = GetNullableValue(oReader, "Name", String.Empty)\noObject.Value = GetNullableValue(oReader, "Value", 0)

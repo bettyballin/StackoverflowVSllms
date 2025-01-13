@@ -1,0 +1,1 @@
+ALTER TABLESPACE UNDOTBS ADD DATAFILE '/path/to/new/datafile.dbf' SIZE 100M;

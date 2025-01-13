@@ -1,1 +1,0 @@
-// Create a new file named dwmapi.c\n   #include <windows.h>\n\n   // Define a dummy function for each missing export\n   void DummyFunction() {}\n\n   // Export the dummy functions\n   __declspec(dllexport) void DwmExtendFrameIntoClientArea() { DummyFunction(); }\n   __declspec(dllexport) void DwmIsCompositionEnabled() { DummyFunction(); }

@@ -1,0 +1,1 @@
+<ServiceReference>\n  <Service>\n    <Endpoint>\n      <serviceUri>http://your-iis-server/your-virtual-directory/your-webservice.asmx</serviceUri>\n    </Endpoint>\n  </Service>\n</ServiceReference>

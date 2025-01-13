@@ -1,0 +1,1 @@
+#my-container {\n  all: unset; /* or initial */\n  /* your styles here */\n  background-color: #fff !important;\n  padding: 10px !important;\n  border: none !important;\n}

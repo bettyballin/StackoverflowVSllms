@@ -1,0 +1,1 @@
+define('WP_USE_THEMES', false);\nrequire_once($_SERVER['DOCUMENT_ROOT'].'/wp-load.php');\n\nif (is_user_logged_in()) {\n  $current_user = wp_get_current_user();\n  $user_id = $current_user->ID;\n  $username = $current_user->user_login;\n\n  // Do something with $user_id and $username\n} else {\n  // Handle the case where the user is not logged in\n}

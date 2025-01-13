@@ -1,1 +1,0 @@
-sudo systemctl stop mysql\n    # or\n    sudo service mysql stop

@@ -1,0 +1,1 @@
+import os\nimport mymodule\n\nmodule_path = os.path.abspath(mymodule.__file__)\nprint(module_path)

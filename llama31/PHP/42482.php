@@ -1,0 +1,1 @@
+class Conf {\n    public static function get_class_array() {\n        return [\n            new ReflectionClass('Product'),\n            new ReflectionClass('News'),\n            // Add more classes as needed\n        ];\n    }\n}

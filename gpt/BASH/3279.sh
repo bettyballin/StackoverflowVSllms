@@ -1,1 +1,0 @@
-cythonize -i example.pyx

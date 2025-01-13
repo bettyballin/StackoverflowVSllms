@@ -1,0 +1,1 @@
+// In your model class (e.g. MyTable.php)\npublic function setFulltextColumn($parameters)\n{\n    $sql = "UPDATE my_table SET fulltext_column = to_tsvector('english', :text)";\n    $params = array('text' => $parameters);\n    MyTablePeer::executeQuery($sql, $params);\n}

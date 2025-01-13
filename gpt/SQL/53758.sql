@@ -1,1 +1,0 @@
-SELECT SUM(amount) AS TotalLoans\nFROM LoanFact\nWHERE YEAR(loanDate) = 2008;

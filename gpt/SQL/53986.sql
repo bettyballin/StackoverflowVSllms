@@ -1,1 +1,0 @@
-=IIf(Parameters!DataSetChoice.Value = "Option1", \n    "SELECT * FROM Table1", \n    "SELECT * FROM Table2")

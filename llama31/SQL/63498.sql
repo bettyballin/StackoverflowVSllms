@@ -1,0 +1,1 @@
+WHERE CONVERT(date, dateadd(hh, tz.Offset + \n    CASE WHEN ds.LocalTimeZone IS NOT NULL \n    THEN 1 ELSE 0 END, t.TheDateINeedToCheck)) = CONVERT(date, @ActivityDate)

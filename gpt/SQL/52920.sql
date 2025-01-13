@@ -1,1 +1,0 @@
-RESTORE VERIFYONLY FROM DISK = 'path_to_your_backup_file.bak';

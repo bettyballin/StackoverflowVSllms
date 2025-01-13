@@ -1,1 +1,0 @@
-document.getElementById('flash-messages').innerHTML = "<div class='flash notice'>Login successful</div>";

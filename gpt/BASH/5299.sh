@@ -1,1 +1,0 @@
-docker cp db2:/path/to/exported/files /path/on/host

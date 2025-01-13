@@ -1,1 +1,0 @@
-xml2ddl -schema hmsdatablad.xsd -dbtype mysql -output hmsdatablad.sql

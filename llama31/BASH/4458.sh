@@ -1,0 +1,1 @@
+# Verify the updated provisioning profile\nunzip -l YourApp.ipa | grep embedded.mobileprovisio

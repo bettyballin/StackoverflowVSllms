@@ -1,0 +1,1 @@
+SELECT *\nFROM (\n    SELECT \n        CASE \n            WHEN ISNUMERIC(MyVal) = 1 THEN CAST(MyVal AS INT)\n            ELSE NULL\n        END AS MyValInt\n    FROM \n        dbo.TestTable\n) tabela\nWHERE \n    tabela.MyValInt > 6

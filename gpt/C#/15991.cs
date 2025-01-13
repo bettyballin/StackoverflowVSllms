@@ -1,1 +1,0 @@
-protected void Page_Load(object sender, EventArgs e)\n{\n    if (!IsPostBack)\n    {\n        var sessionParam = (SessionParameter)ods.SelectParameters["somename"];\n        sessionParam.SessionField = RM.SessionParams.SessionParameterName;\n    }\n}

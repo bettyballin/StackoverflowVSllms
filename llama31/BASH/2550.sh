@@ -1,0 +1,1 @@
+#!/bin/bash\n\n# Set source and destination directories\nSRC_DIR=/path/to/projects\nDST_DIR=/path/to/external/drive\n\n# Run rsync backup\nrsync -avz $SRC_DIR/ $DST_DIR/\n\n# Run Git push (optional)\ncd $SRC_DIR\ngit push origin master

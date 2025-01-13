@@ -1,0 +1,1 @@
+document.addEventListener('keypress', function(event) {\n  if (event.shiftKey) {\n    // Shift key is pressed\n  } else {\n    // Shift key is not pressed\n  }\n}, false);

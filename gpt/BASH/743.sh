@@ -1,1 +1,0 @@
-/path/to/your/stop-script.sh

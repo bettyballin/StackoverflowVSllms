@@ -1,0 +1,1 @@
+[AcceptVerbs(HttpVerbs.Post)]\npublic ActionResult ContinueToPage(string Number, string Rev)\n{\n    if (ModelState.IsValid)\n    {\n        ViewData["DivIsVisible"] = true;\n    }\n    return View();\n}

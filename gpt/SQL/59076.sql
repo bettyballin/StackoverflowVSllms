@@ -1,1 +1,0 @@
-DELETE FROM LinkedServerName.DatabaseName.dbo.TableName\nWHERE SomeColumn = SomeValue;

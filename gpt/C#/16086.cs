@@ -1,1 +1,0 @@
-protected void Page_Load(object sender, EventArgs e)\n{\n    if (!IsPostBack)\n    {\n        // Example session data\n        Session["UserName"] = "JohnDoe";\n        \n        // Assigning session data to hidden field\n        hiddenFieldSessionData.Value = Session["UserName"].ToString();\n    }\n}

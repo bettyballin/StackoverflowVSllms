@@ -1,0 +1,1 @@
+var str: string = "ab,cd,ef";\nvar lst: list of string;\n\nlst = str.split(",");

@@ -1,0 +1,1 @@
+$sql = "INSERT INTO table VALUES ('', ...)";\n$result = mysql_query($sql, $link) or die(mysql_error());\n$id = mysql_insert_id($link) or die('oops');\necho $id . "\nDone";

@@ -1,0 +1,1 @@
+SET @last_question_id := NULL;\n\nSELECT \n  a.*,\n  @last_question_id AS question_id\nFROM \n  andyasks a\nWHERE \n  a.user != 'Andy'\n  AND (@last_question_id := (SELECT id FROM andyasks WHERE user = 'Andy' AND date_posted < a.date_posted ORDER BY date_posted DESC LIMIT 1)) IS NOT NULL\nORDER BY \n  a.date_posted;

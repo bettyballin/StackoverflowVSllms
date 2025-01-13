@@ -1,1 +1,0 @@
-cursor.execute("SELECT * FROM yourtable WHERE column LIKE %s", (f"%{search_query}%",))\nresults = cursor.fetchall()

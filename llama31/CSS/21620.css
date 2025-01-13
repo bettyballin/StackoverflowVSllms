@@ -1,0 +1,1 @@
+body {\n  margin: 0;\n  padding: 0;\n}\n\n.container {\n  width: 80%; /* adjust the width as needed */\n  margin: 0 auto;\n  position: relative;\n  top: 50%;\n  transform: translateY(-50%);\n}

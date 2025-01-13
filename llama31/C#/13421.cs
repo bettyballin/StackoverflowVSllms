@@ -1,0 +1,1 @@
+[AttributeUsage(AttributeTargets.All, Inherited = false)]\npublic class MyAttribute : ObsoleteAttribute\n{\n    public MyAttribute(string message) : base(message) { }\n}

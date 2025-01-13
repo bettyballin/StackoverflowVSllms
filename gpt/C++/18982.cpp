@@ -1,1 +1,0 @@
-// Directly setting a property (less preferred)\ncomObjectPtr->Value = value;\n\n// Directly getting a property (less preferred)\nTYPE value = comObjectPtr->Value;

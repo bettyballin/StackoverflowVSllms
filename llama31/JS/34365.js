@@ -1,0 +1,1 @@
+function statechangedLogin2() {\n  if (xmlhttp.readyState == 4) {\n    if (xmlhttp.responseText == "Login again") {\n      window.location.href = "http://server.com/profile.html";\n    }\n  }\n}

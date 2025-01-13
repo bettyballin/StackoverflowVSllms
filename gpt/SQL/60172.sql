@@ -1,1 +1,0 @@
-SELECT items.*\nFROM items\nJOIN item_sections ON items.item_id = item_sections.item_id\nWHERE item_sections.section_id = 5;

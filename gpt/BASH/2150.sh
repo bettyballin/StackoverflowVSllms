@@ -1,1 +1,0 @@
-flatpak install myapp.flatpak\n   flatpak run com.example.MyApp

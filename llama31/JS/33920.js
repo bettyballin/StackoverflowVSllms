@@ -1,0 +1,1 @@
+$(function() {\n  $('div.formdiv').bind('click',function() {\n    $('input:radio',this).attr('checked',true);\n    $('div.formdiv').not(this).find('select').attr('selectedIndex',0);\n  });\n});

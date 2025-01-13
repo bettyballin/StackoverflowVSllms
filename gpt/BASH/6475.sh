@@ -1,1 +1,0 @@
-#!/bin/bash\n   /Applications/MAMP/Library/bin/mysqldump -u root -p --all-databases > /path/to/Dropbox/db_backup.sql

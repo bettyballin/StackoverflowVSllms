@@ -1,1 +1,0 @@
-// logoff.c\n   static void logoff() {\n       // function implementation\n   }

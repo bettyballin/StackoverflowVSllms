@@ -1,0 +1,1 @@
+// plugin.cpp\n#include "app_interface.h"\n\n__declspec(dllimport) AppInterface* getAppInterface();\n\nvoid Plugin::init() {\n    AppInterface* appInterface = getAppInterface();\n    // Use the AppInterface to access the application's GUI\n    QWidget* gui = appInterface->getGui();\n    // ...\n}

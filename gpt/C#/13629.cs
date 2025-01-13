@@ -1,1 +1,0 @@
-using System.Management.Automation;\n\n   var script = "Get-Process";\n   using (PowerShell powerShell = PowerShell.Create())\n   {\n       powerShell.AddScript(script);\n       var results = powerShell.Invoke();\n\n       foreach (var result in results)\n       {\n           Console.WriteLine(result);\n       }\n   }

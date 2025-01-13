@@ -1,0 +1,1 @@
+$_SESSION['items'] = array();\nforeach ($_POST['items'] as $item) {\n    $item = filter_var($item, FILTER_SANITIZE_STRING);\n    if (!is_null($item)) {\n        $_SESSION['items'][] = $item;\n    }\n}

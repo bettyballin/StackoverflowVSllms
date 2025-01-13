@@ -1,0 +1,1 @@
+if (document.fullscreenEnabled) {\n  console.log("Full-screen mode is supported");\n}\n\nif (document.fullscreenElement) {\n  console.log("The document is in full-screen mode");\n}

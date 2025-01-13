@@ -1,1 +1,0 @@
-using SlimTune;\n\n   class Program\n   {\n       static void Main(string[] args)\n       {\n           Profiler.Start();\n           // Your application code here\n           Profiler.Stop();\n       }\n   }

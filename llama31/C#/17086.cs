@@ -1,0 +1,1 @@
+[CLSCompliant(true)]\npublic class MyClass\n{\n    public static MyClass operator +(MyClass a, MyClass b) { /* implementation */ }\n\n    public static MyClass Add(MyClass a, MyClass b) { /* implementation */ }\n}

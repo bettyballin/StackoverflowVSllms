@@ -1,1 +1,0 @@
-public class ModuleA : IModule\n{\n    public void OnInitialized(IContainerProvider containerProvider)\n    {\n        // Initialization logic for ModuleA\n    }\n\n    public void RegisterTypes(IContainerRegistry containerRegistry)\n    {\n        // Register types, views, services for ModuleA\n        containerRegistry.RegisterForNavigation<ModuleAView>();\n    }\n}

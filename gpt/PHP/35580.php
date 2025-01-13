@@ -1,1 +1,0 @@
-<?php\ninclude 'session_handler.php';\nsession_start();\n?>

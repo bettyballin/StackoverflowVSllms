@@ -1,0 +1,1 @@
+using Microsoft.SharePoint;\n\nSPWeb web = SPContext.Current.Web;\nweb.AddPage("newpage.aspx", "default.master", SPPageType.Normal);

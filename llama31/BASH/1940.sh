@@ -1,0 +1,1 @@
+# Assuming the DLL is named "thirdparty.dll" and it's located in the current directory\nsymchk.exe /r /v thirdparty.dll

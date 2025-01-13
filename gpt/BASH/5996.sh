@@ -1,1 +1,0 @@
-# Checkout repository\nsvn checkout http://your-svn-repo-url/trunk your-project-folder\n\n# Add new files\nsvn add your-new-file.php\n\n# Commit changes\nsvn commit -m "Added new file"

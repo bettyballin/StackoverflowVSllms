@@ -1,1 +1,0 @@
-sudo strace -p 1234 -c

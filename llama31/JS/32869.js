@@ -1,0 +1,1 @@
+function loadxml() {\n    var name = document.forms["formxml"].elements["xmlname"].value;\n    // do something with the value\n}

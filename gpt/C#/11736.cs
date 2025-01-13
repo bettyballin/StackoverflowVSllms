@@ -1,1 +1,0 @@
-using NHibernate;\n\npublic IList<int> GetViews(ISession session)\n{\n    var hql = @"\n        SELECT v1.Id\n        FROM View v1\n        LEFT JOIN v1.SourceView v2\n        ORDER BY v1.Position\n    ";\n\n    var query = session.CreateQuery(hql);\n    return query.List<int>();\n}

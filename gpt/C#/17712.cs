@@ -1,1 +1,0 @@
-tcpServer.Server.SetSocketOption(SocketOptionLevel.Socket, SocketOptionName.KeepAlive, true);

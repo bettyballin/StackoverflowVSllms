@@ -1,1 +1,0 @@
-document.addEventListener("DOMContentLoaded", function() {\n    var anchor = window.location.hash;\n    if (anchor) {\n        // Redirect to the same URL with a query parameter\n        window.location.href = window.location.pathname + "?anchor=" + anchor.substring(1);\n    }\n});

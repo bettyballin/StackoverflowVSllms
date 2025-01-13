@@ -1,0 +1,1 @@
+using System;\nusing System.Diagnostics;\n\nDateTime start = DateTime.Now;\n\n// do some stuff...\n\nEventLog log = new EventLog("Application");\nlog.Entries.Cast<EventLogEntry>()\n    .Where(e => e.TimeGenerated >= start)\n    .Where(e => !ignoredSources.Contains(e.Source))\n    .ToList()\n    .ForEach(e => Console.WriteLine($"Entry: {e.Message}"));

@@ -1,1 +1,0 @@
-<?php\nif ($_SERVER['REQUEST_METHOD'] != 'POST'){\n    $self = $_SERVER['PHP_SELF'];\n    // Additional code can go here\n}\n?>

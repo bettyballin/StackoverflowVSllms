@@ -1,0 +1,1 @@
+import mms\n\n# Open the resized image file\nwith open('resized_image.png', 'rb') as f:\n    image_data = f.read()\n\n# Encode the image data using MMS\nencoded_image = mms.encode_image(image_data, 'image/png')

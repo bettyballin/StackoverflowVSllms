@@ -1,0 +1,1 @@
+for (int gen = 0; gen < num_generations; gen++) {\n    selection(local_population, local_population_size);\n    crossover(local_population, local_population_size);\n    mutation(local_population, local_population_size);\n}

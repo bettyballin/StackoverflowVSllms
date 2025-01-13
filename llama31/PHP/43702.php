@@ -1,0 +1,1 @@
+require_once 'Testing/Selenium.php';\n\n$browser = new Testing_Selenium("*firefox /usr/lib/firefox-3.0.3/firefox", "https://www.example.com");\n$browser->setHost("localhost");\n$browser->setPort(4444);\n$browser->start();

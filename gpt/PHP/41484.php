@@ -1,1 +1,0 @@
-session_start();\n    // Your code here\n    session_write_close();

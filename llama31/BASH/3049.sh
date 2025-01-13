@@ -1,0 +1,1 @@
+curl -v -H "Accept-Encoding: gzip" http://example.com/your-json-endpoint

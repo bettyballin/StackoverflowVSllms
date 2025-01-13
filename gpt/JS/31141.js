@@ -1,1 +1,0 @@
-// Example pseudocode for phone verification\n   if (phoneNumberIsUnique(userPhoneNumber)) {\n       sendVerificationSMS(userPhoneNumber);\n   } else {\n       showError("Phone number already in use");\n   }

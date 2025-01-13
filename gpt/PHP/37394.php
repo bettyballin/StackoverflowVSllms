@@ -1,1 +1,0 @@
-require 'vendor/autoload.php';\n\n$loop = React\EventLoop\Factory::create();\n$client = new React\HttpClient\Client($loop);\n\n$request = $client->request('GET', 'http://example.com/api/endpoint');\n$request->on('response', function ($response) {\n    $response->on('data', function ($chunk) {\n        echo $chunk;\n    });\n});\n$request->end();\n\n$loop->run();

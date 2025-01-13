@@ -1,0 +1,1 @@
+et stop oracle\nnet stop oracleserviceORCL

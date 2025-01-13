@@ -1,0 +1,1 @@
+SELECT\n    COUNT(*)\nFROM\n    Task_ConditionAssessment T\nWHERE\n    DATEDIFF(dd, T.NextDueDate, @enddate) > 14

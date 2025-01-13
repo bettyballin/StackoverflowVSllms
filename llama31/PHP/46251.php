@@ -1,0 +1,1 @@
+class My_Request extends Zend_Controller_Request_Http\n{\n    public function getParam($name, $default = null)\n    {\n        $filterChain = new Zend_Filter_Input(array(\n            '*' => array('StringTrim', 'StripTags', 'HtmlEntities')\n        ));\n        $filteredParam = $filterChain->filter($this->getParams());\n        return $filteredParam[$name] ?? $default;\n    }\n}

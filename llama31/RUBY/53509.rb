@@ -1,0 +1,1 @@
+require 'sanitize'\n\n# Define allowed tags and attributes\nallowed_tags = ['p', 'code', 'pre']\nallowed_attributes = ['class']\n\n# Sanitize user input\nuser_input = params[:code_snippet]\nsanitized_input = Sanitize.clean(user_input, allowed_tags, allowed_attributes)\n\n# Store sanitized input in database\nCodeSnippet.create(code: sanitized_input)

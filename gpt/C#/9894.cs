@@ -1,1 +1,0 @@
-string editorContent = HtmlEditorExtender1.Content;

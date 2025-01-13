@@ -1,1 +1,0 @@
-g++ -o my_app my_app.cpp -lglog\n   ./my_app

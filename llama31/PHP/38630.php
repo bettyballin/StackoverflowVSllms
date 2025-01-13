@@ -1,0 +1,1 @@
+Configure::write('Session.save', 'database');

@@ -1,0 +1,1 @@
+#progress-bar {\n    width: 0;\n    height: 10px;\n    background-color: #337ab7;\n    border-radius: 5px;\n    transition: width 0.5s;\n}

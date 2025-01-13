@@ -1,1 +1,0 @@
-// File1.cpp\n   int externalVar = 42; // external linkage\n   void externalFunc() {} // external linkage

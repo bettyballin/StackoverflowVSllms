@@ -1,1 +1,0 @@
-g++ -o module1.o -c module1.cpp\ng++ -o module2.o -c module2.cpp\ng++ -fPIC -shared -o library.so module1.o module2.o

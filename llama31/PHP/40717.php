@@ -1,0 +1,1 @@
+abstract class baseClass {\n    static function whoAmI() {\n        echo static::class;\n    }\n}

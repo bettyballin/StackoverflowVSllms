@@ -1,1 +1,0 @@
-ffmpeg -i input.mp3 -af ebur128=peak=true -f null -

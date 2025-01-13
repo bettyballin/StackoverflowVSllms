@@ -1,1 +1,0 @@
-SELECT m.name, p.position_name, t.team_name\nFROM member m\nJOIN member_to_positions mp ON m.member_id = mp.member_id\nJOIN positions p ON mp.position_id = p.position_id\nJOIN team t ON mp.team_id = t.team_id\nWHERE mp.end_date IS NULL;

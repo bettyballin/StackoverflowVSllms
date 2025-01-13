@@ -1,0 +1,1 @@
+Dim ServiceOff As Storyboard = DirectCast(FindResource("ServiceStopped"), Storyboard)\nServiceOff.Begin(Me) ' Assuming Me is the element you want to animate

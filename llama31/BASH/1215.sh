@@ -1,0 +1,1 @@
+UUID=YOUR_UUID_HERE /Volumes/SATA160 ntfs-3g rw,auto 0 0

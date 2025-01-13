@@ -1,0 +1,1 @@
+g++ -c myclass.cpp myclass_c.cpp\ngcc -c main.c\ng++ -o program main.o myclass.o myclass_c.o

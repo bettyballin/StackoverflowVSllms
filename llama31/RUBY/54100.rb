@@ -1,0 +1,1 @@
+require 'irb'\n\n# Create a named pipe\npipe_name = 'irb_pipe'\n`mkfifo #{pipe_name}`\n\n# Run IRB with the named pipe as input and output\nirb = IO.popen("irb --prompt #{pipe_name}", 'r+')\n\n# Send a command to IRB\nirb.puts 'puts "Hello, World!"'\n\n# Get the result from IRB\nresult = irb.gets\nputs result # => "Hello, World!\n"\n\n# Clean up\nirb.close\n`rm #{pipe_name}`

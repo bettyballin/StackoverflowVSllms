@@ -1,0 +1,1 @@
+Imports AutoMapper\n\nPublic Module AutoMapperConfig\n    Public Sub ConfigureMappings()\n        Mapper.Initialize(Sub(config)\n                              config.CreateMap(Of YourPoco, YourEfEntity)()\n                              config.CreateMap(Of YourEfEntity, YourPoco)()\n                          End Sub)\n    End Sub\nEnd Module

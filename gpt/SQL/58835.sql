@@ -1,1 +1,0 @@
--- Example of a stored procedure in SQL Server\nCREATE PROCEDURE GetUserData\n    @UserId INT\nAS\nBEGIN\n    SET NOCOUNT ON;\n    \n    -- Parameterized query to prevent SQL injection\n    SELECT UserId, UserName, Email\n    FROM Users\n    WHERE UserId = @UserId;\nEND\nGO

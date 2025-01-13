@@ -1,0 +1,1 @@
+// Using Waypoints library\nvar waypoint = new Waypoint({\n  element: document.getElementById('empty-box'),\n  handler: function() {\n    // Send AJAX request to fetch new images\n  },\n  offset: 'bottom-in-view'\n});

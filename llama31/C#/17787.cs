@@ -1,0 +1,1 @@
+public class MappingProfile : Profile\n{\n    public MappingProfile()\n    {\n        CreateMap<BookEntity, Book>();\n        CreateMap<BookTypeEntity, BookType>();\n    }\n}

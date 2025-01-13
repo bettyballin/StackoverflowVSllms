@@ -1,0 +1,1 @@
+gcc -m64 -c public01.c -o public01.o\ngcc -m64 -c computation.c -o computation.o\ngcc -m64 -c coreset.c -o coreset.o

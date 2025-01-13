@@ -1,1 +1,0 @@
-class Status < ApplicationRecord\n  has_one :bug\nend

@@ -1,0 +1,1 @@
+caspol.exe -m -ag "LocalIntranet_Zone" -url "file://networkshare/*"

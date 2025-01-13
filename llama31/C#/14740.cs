@@ -1,0 +1,1 @@
+string userInput = Request.QueryString["username"];\nstring query = "SELECT * FROM users WHERE username = '" + userInput + "'";

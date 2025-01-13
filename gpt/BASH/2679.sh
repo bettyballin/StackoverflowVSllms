@@ -1,1 +1,0 @@
-et stop "ColdFusion 8 Application Server"\nnet start "ColdFusion 8 Application Server"

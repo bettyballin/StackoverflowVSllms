@@ -1,1 +1,0 @@
-using System.Web.Http;\n\npublic class MyApiController : ApiController\n{\n    [HttpGet]\n    [Route("api/myendpoint")]\n    public IHttpActionResult GetMyData()\n    {\n        var data = new { Name = "John", Age = 30 };\n        return Ok(data);\n    }\n}

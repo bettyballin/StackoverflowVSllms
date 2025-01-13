@@ -1,0 +1,1 @@
+.parent-div {\n  width: 80%; /* Example width, can be fixed (e.g., 800px) or relative */\n  margin: auto; /* Center the div, optional */\n  overflow-x: auto; /* Adds a horizontal scrollbar if table is wider than div */\n}\n\n.full-width-table {\n  width: 100%;\n}

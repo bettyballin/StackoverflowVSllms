@@ -1,0 +1,1 @@
+$('.container img').wrapAll('<div class="some_class"></div>');

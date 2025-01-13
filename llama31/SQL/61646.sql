@@ -1,0 +1,1 @@
+ALTER TABLE ColorComposition\nADD CONSTRAINT FK_ColorComposition_MotherColor\nFOREIGN KEY (MotherColorId) REFERENCES Colors(Id);\n\nALTER TABLE ColorComposition\nADD CONSTRAINT FK_ColorComposition_ChildColor\nFOREIGN KEY (ChildColorId) REFERENCES Colors(Id);

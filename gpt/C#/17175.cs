@@ -1,1 +1,0 @@
-// Using a public field (not recommended)\npublic class Person\n{\n    public string Name;\n}\n\n// Using a property (recommended)\npublic class Person\n{\n    private string name;\n    \n    public string Name\n    {\n        get { return name; }\n        set { name = value; }\n    }\n}

@@ -1,0 +1,1 @@
+try {\n    throw new int;\n} catch (...) {\n    LogMessage("Caught unknown exception");\n}

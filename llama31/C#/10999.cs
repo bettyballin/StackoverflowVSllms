@@ -1,0 +1,1 @@
+SQLiteConnection con = new SQLiteConnection("Data Source=:memory:");\ncon.Open();

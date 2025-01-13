@@ -1,1 +1,0 @@
-HttpWebRequest request = (HttpWebRequest)WebRequest.Create("http://localhost:yourserviceurl");\nWebProxy proxy = new WebProxy("http://localhost:8888", true);\nrequest.Proxy = proxy;

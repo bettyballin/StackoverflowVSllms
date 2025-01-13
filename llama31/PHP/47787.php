@@ -1,0 +1,1 @@
+$pdo = new PDO('mysql:host=' . $host . ';dbname=' . $database, $username, $password);\n// ...\n$pdo = null; // Close the connectio

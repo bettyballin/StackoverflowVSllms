@@ -1,1 +1,0 @@
-<roleManager enabled="true" defaultProvider="FBARoleProvider">\n       <providers>\n           <add name="FBARoleProvider"\n                type="System.Web.Security.SqlRoleProvider"\n                connectionStringName="FBADB"\n                applicationName="/" />\n       </providers>\n   </roleManager>

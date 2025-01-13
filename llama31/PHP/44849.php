@@ -1,0 +1,1 @@
+$imageUrl = 'http://www.mydomain.com/myimage.jpg';\n$localPath = '/path/to/local/folder/myimage.jpg';\n\nif (copy($imageUrl, $localPath)) {\n    echo 'Image copied successfully!';\n} else {\n    echo 'Error copying image!';\n}

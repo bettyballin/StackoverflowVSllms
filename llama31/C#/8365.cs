@@ -1,0 +1,1 @@
+public static bool ContainsByProperty<T>(this IEnumerable<T> source, T item, Func<T, object> propertySelector)\n{\n    return source.Any(x => propertySelector(x).Equals(propertySelector(item)));\n}

@@ -1,0 +1,1 @@
+input[type="text"], textarea {\n  width: 100%; /* or any specific width you want */\n  box-sizing: border-box;\n  -moz-box-sizing: border-box; /* for Mozilla Firefox */\n  -webkit-box-sizing: border-box; /* for Safari and Chrome */\n}

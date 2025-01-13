@@ -1,1 +1,0 @@
-public class Employee\n{\n    public int Id { get; set; }\n    public string TotalSales2 { get; set; } // Renamed to TotalSales2\n}

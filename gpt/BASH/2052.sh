@@ -1,1 +1,0 @@
-gcc -o encode_jpeg encode_jpeg.c -lturbojpeg

@@ -1,0 +1,1 @@
+HttpPostedFile file = Request.Files["file"];\nstring filePath = Path.Combine(Server.MapPath("~/uploads"), file.FileName);\nfile.SaveAs(filePath);\n\n// Get the last modified date from the client\nDateTime lastModified = file.LastModified;

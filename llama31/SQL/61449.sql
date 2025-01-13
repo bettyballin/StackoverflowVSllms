@@ -1,0 +1,1 @@
+CREATE TABLE ArticleCategories (\n  ArticleID INT,\n  CategoryID INT,\n  PRIMARY KEY (ArticleID, CategoryID),\n  FOREIGN KEY (ArticleID) REFERENCES Articles(ID),\n  FOREIGN KEY (CategoryID) REFERENCES Categories(ID)\n);

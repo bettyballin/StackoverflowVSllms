@@ -1,1 +1,0 @@
-# Start trace with stack walking\nxperf -on Base+CSwitch+Profile -stackwalk Profile+CSwitch\n\n# Perform the actions you want to trace...\n\n# Stop the trace and save to a file\nxperf -d trace.etl

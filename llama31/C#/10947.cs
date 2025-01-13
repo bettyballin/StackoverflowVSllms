@@ -1,0 +1,1 @@
+ServiceSecurity sSec = new ServiceSecurity(hService, AccessControlSections.Audit);\nstring outputData = sSec.GetSecurityDescriptorSddlForm(AccessControlSections.Audit);

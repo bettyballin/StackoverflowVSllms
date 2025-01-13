@@ -1,1 +1,0 @@
-OracleDataAdapter adapter = new OracleDataAdapter(selectCommand, connection);\nadapter.UpdateCommand = new OracleCommand("UPDATE ...", connection);\nadapter.InsertCommand = new OracleCommand("INSERT ...", connection);\nadapter.DeleteCommand = new OracleCommand("DELETE ...", connection);

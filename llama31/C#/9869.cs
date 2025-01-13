@@ -1,0 +1,1 @@
+var downloader = new SharePointFileDownloader(\n    "https://your-sharepoint-site.sharepoint.com",\n    "your-username",\n    "your-password",\n    "/sites/your-site/Shared%20Documents/your-file.xlsx");\n\ndownloader.DownloadFile();

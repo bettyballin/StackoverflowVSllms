@@ -1,1 +1,0 @@
-class PostsController extends AppController {\n    public function index() {\n        // Accessing the Post model to find all posts\n        $posts = $this->Post->find('all');\n        $this->set('posts', $posts);\n    }\n}

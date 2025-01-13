@@ -1,0 +1,1 @@
+using System.IO;\n\nclass FileCopier\n{\n    public static void CopyFile(string sourcePath, string destinationPath)\n    {\n        try\n        {\n            File.Copy(sourcePath, destinationPath);\n        }\n        catch (IOException ex)\n        {\n            Console.WriteLine("Error copying file: " + ex.Message);\n        }\n    }\n}

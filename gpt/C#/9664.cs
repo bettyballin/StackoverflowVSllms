@@ -1,1 +1,0 @@
-public string GetData()\n{\n    using (var connection = new SqlConnection(connectionString))\n    {\n        connection.Open();\n        using (var command = new SqlCommand("SELECT Data FROM Table WHERE Id = 1", connection))\n        {\n            return (string)command.ExecuteScalar();\n        }\n    }\n}

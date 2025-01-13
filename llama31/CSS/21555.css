@@ -1,0 +1,1 @@
+.link-with-border {\n  display: block;\n  width: 100px; /* fixed width */\n  height: 50px; /* fixed height */\n  border: 1px solid #000;\n  padding: 10px;\n  border-radius: 10px;\n}\n\n.link-with-border span {\n  border: 1px solid #ccc;\n  padding: 10px;\n  display: block;\n}

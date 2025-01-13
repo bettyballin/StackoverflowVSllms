@@ -1,1 +1,0 @@
-const array = [1, 2, 3, 4, 5];\nconst commaSeparatedString = array.join(',');\nconsole.log(commaSeparatedString); // Outputs: "1,2,3,4,5"

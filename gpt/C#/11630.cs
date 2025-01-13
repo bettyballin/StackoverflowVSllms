@@ -1,1 +1,0 @@
-string url = "https://" + Request.Url.Host + "/Login.aspx";\nResponse.Redirect(url);

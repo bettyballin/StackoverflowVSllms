@@ -1,1 +1,0 @@
-public partial class PdfViewer : UserControl\n{\n    public PdfViewer()\n    {\n        InitializeComponent();\n        string pdfUrl = "http://example.com/your.pdf";\n        string viewerUrl = "https://docs.google.com/viewer?url=" + System.Web.HttpUtility.UrlEncode(pdfUrl);\n        PdfHost.Navigate(viewerUrl);\n    }\n}

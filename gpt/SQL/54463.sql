@@ -1,1 +1,0 @@
-DELIMITER $$\n\nDROP PROCEDURE IF EXISTS SP1 $$\n\nCREATE PROCEDURE SP1(IN InputCustomerID INT, IN InputOrderID INT)\nBEGIN\n    -- Your SQL statements to process and insert into tb1\n    -- Example:\n    INSERT INTO tb1 (CustomerID, OrderID) VALUES (InputCustomerID, InputOrderID);\nEND $$\n\nDELIMITER ;

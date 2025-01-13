@@ -1,0 +1,1 @@
+sqlmodel->removeColumn(0);

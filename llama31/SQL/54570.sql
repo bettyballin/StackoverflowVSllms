@@ -1,0 +1,1 @@
+DECLARE @sql nvarchar(max)\nDECLARE @target_db nvarchar(50) = 'your_target_database_name'\n\nSELECT @sql = OBJECT_DEFINITION(OBJECT_ID('your_stored_procedure_name'))\n\nEXEC ('USE ' + @target_db + '; ' + @sql)

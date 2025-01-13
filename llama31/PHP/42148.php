@@ -1,0 +1,1 @@
+usort($array, fn($a, $b) => $b->score <=> $a->score);

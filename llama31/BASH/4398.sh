@@ -1,0 +1,1 @@
+sha256sum front2.jpg

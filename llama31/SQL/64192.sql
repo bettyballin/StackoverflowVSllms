@@ -1,0 +1,1 @@
+UPDATE YourTable\nSET YourXmlColumn = YourXmlColumn.query('\n    for $x in /root\n    return\n        <root>\n            {$x/*}\n            <processingInfo>your processing info</processingInfo>\n        </root>\n    ')\nWHERE YourCondition;

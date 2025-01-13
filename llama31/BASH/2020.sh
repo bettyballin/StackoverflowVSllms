@@ -1,0 +1,1 @@
+# Create a counter log to monitor CPU usage\nlogman create counter "CPU Usage" -c "\Processor(_Total)\% Processor Time" -f csv -si 1 -o "C:\Logs\cpu_usage.log"\n\n# Create a trace log to monitor system calls\nlogman create trace "System Calls" -p "Windows Kernel Trace" -f csv -si 1 -o "C:\Logs\system_calls.log"

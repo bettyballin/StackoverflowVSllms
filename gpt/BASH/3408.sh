@@ -1,1 +1,0 @@
-# Set environment variables for Oracle 9i client\nexport ORACLE_HOME=/path/to/oracle9i/client\nexport PATH=$ORACLE_HOME/bin:$PATH\n\n# Now you can use the Oracle 9i client tools to connect to the Oracle 8.0 database\nsqlplus username/password@tns_entry

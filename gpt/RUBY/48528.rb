@@ -1,1 +1,0 @@
-require 'open-uri'\n\nremote_zip = 'http://example.com/remote.zip'\nver_local_zip = 'local.zip'\nftp_proxy = 'http://proxy.example.com:8080'\n\nopen(ver_local_zip, "w+") do |local_file|\n  open(remote_zip, proxy: ftp_proxy) do |remote_file|\n    local_file.write(remote_file.read)\n  end\nend

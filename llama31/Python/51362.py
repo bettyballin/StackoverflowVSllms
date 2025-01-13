@@ -1,0 +1,1 @@
+import os\n\nfile_path = '/var/www/data/yourfile.txt'\nwith open(file_path, 'r') as f:\n    contents = f.read()

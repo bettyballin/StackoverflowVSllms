@@ -1,0 +1,1 @@
+--coverage-html path/to/coverage/report --debug

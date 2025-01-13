@@ -1,0 +1,1 @@
+<webHttpBinding>\n  <binding name="webHttpBinding">\n    <webMessageEncoding>\n      <json />\n    </webMessageEncoding>\n  </binding>\n</webHttpBinding>

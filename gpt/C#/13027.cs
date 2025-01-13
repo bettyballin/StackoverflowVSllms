@@ -1,1 +1,0 @@
-// Example for adding Google authentication\n     services.AddAuthentication().AddGoogle(options =>\n     {\n         options.ClientId = Configuration["Authentication:Google:ClientId"];\n         options.ClientSecret = Configuration["Authentication:Google:ClientSecret"];\n     });

@@ -1,0 +1,1 @@
+Using MyStream As New StreamReader(filelocation)\n    '...\nEnd Using

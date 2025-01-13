@@ -1,1 +1,0 @@
-0 2 * * * /home/yourusername/sync_to_remote.sh

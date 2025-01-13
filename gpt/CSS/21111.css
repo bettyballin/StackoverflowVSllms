@@ -1,1 +1,0 @@
-<style>\n    .left {\n        width: 100px;\n        border: solid black 1px;\n        float: left;\n    }\n\n    .right {\n        width: 100px;\n        border: solid red 1px;\n        float: left;\n    }\n\n    .clear {\n        clear: both;\n    }\n</style>

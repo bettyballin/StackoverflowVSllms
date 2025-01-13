@@ -1,0 +1,1 @@
+using System.Windows.Forms;\n\n// ...\n\nprivate void AutoResizeColumns(ReportViewer reportViewer)\n{\n    foreach (var columnHeader in reportViewer.Header)\n    {\n        var headerText = columnHeader.Text;\n        var font = reportViewer.Font;\n        var textSize = TextRenderer.MeasureText(headerText, font);\n        columnHeader.Width = textSize.Width;\n    }\n}

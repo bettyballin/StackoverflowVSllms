@@ -1,1 +1,0 @@
-With myDropDown\n    .Items.Clear() ' Clear existing items\n\n    For Each dr As Data.DataRow In myDataTable.Rows\n        Dim oItem As New IndexedDropDownItem(dr("key_code").ToString(), dr("descript").ToString())\n        .Items.Add(oItem)\n    Next\nEnd With

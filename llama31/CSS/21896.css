@@ -1,0 +1,1 @@
+#contents {\n  padding-bottom: 160px; /* make space for the image */\n}\n\n#contents img {\n  float: right;\n  margin-top: -160px; /* move the image up */\n}

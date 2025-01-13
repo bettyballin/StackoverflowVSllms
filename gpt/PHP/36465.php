@@ -1,1 +1,0 @@
-while ($row = $stmt->fetch(PDO::FETCH_ASSOC)) {\n    $postContent = $row['value'];\n    echo $postContent;\n}

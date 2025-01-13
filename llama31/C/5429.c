@@ -1,0 +1,1 @@
+#define ARRAY_LEN 4\n\nlong originalArray[ARRAY_LEN] = { 1, 2, 3, 4 };\n\n// Send the array\nwrite(clientSocketFD, originalArray, sizeof(long) * ARRAY_LEN);\n\n// Receive the array\nlong targetArray[ARRAY_LEN];\nread(socketFD, targetArray, sizeof(long) * ARRAY_LEN);

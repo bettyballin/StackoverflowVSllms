@@ -1,0 +1,1 @@
+SELECT \n    timestamp, \n    value, \n    LAG(value) OVER (ORDER BY timestamp) AS LastValue,\n    value - LAG(value) OVER (ORDER BY timestamp) AS Delta\nFROM \n    table

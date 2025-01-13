@@ -1,1 +1,0 @@
-@echo off\nsetlocal\n\nset CONFIG_FILE=%UserProfile%\Desktop\web.config\n\n:: Example: Replace a value in the web.config file\npowershell -Command "& { (Get-Content %CONFIG_FILE%) -replace '<add key=\"SomeKey\" value=\"OldValue\" />', '<add key=\"SomeKey\" value=\"NewValue\" />' | Set-Content %CONFIG_FILE% }"\n\nendlocal

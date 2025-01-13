@@ -1,0 +1,1 @@
+from locust import HttpLocust, TaskSet, task\n\nclass UserBehavior(TaskSet):\n    @task\n    def put_request(self):\n        self.client.put("/path", {"key": "value"})\n\n    @task\n    def delete_request(self):\n        self.client.delete("/path")\n\nclass WebsiteUser(HttpLocust):\n    task_set = UserBehavior\n    min_wait = 5000\n    max_wait = 9000

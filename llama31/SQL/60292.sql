@@ -1,0 +1,1 @@
+BEGIN TRANSACTION;\n\nINSERT OR IGNORE INTO cache (key, generation) VALUES ('your_key', 0);\nUPDATE cache SET generation = generation + 1 WHERE key = 'your_key';\n\nCOMMIT;

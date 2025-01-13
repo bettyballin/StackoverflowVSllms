@@ -1,1 +1,0 @@
-export PATH="/usr/local/opt/mysql-client/bin:$PATH"\nexport PKG_CONFIG_PATH="/usr/local/opt/mysql-client/lib/pkgconfig"

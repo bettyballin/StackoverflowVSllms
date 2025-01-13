@@ -1,1 +1,0 @@
-public class Order : Entity {\n    [NotNull]\n    public virtual Terminal Terminal { get; set; }\n    \n    protected virtual int TerminalId { get; set; } // This property will be used internally\n}

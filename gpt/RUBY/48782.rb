@@ -1,1 +1,0 @@
-<p>Your total is: <%= totalAmount %></p>

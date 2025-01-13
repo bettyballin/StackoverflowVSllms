@@ -1,1 +1,0 @@
-// Example in a middleware-enabled framework\n    $app->add(function ($request, $handler) {\n        $response = $handler->handle($request);\n        return $response->withHeader('X-Security', 'Secure');\n    });

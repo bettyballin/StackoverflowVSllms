@@ -1,0 +1,1 @@
+#include <linux/net.h>\n\n// ...\n\nstatic int my_recvmsg(struct sock *sk, struct msghdr *msg, size_t len)\n{\n    // ...\n    if (msg->msg_flags & MSG_DONTWAIT) {\n        // non-blocking receive, return immediately\n        return -EAGAIN;\n    } else {\n        // blocking receive, notify controller\n        notify_controller();\n        // ...\n    }\n}

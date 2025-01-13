@@ -1,0 +1,1 @@
+import csv\n\nwith open('css-props-index.csv', 'r') as csvfile:\n    reader = csv.DictReader(csvfile)\n    for row in reader:\n        print(row['Property'], row['Description'])

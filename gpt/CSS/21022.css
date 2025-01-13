@@ -1,1 +1,0 @@
-/* Default CSS */\ntable {\n    background: url('your-image.png') no-repeat;\n}\n\n/* CSS hack for IE6 */\n* html table {\n    background: none;\n    filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='your-image.png', sizingMethod='scale');\n}

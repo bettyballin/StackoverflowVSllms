@@ -1,0 +1,1 @@
+IWebBrowser2* pWebBrowser;\n// ...\npWebBrowser->ShowBrowserBar(&vtBandGUID, TRUE, NULL);

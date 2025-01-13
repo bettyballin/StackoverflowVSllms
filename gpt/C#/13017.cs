@@ -1,1 +1,0 @@
-[TestInitialize]\n   public void TestInitialize()\n   {\n       // Code to set up database with test data\n   }\n\n   [TestCleanup]\n   public void TestCleanup()\n   {\n       // Code to clean up database after test\n   }

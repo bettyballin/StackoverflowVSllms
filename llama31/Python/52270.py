@@ -1,0 +1,1 @@
+import redis\n\n# Create a Redis client\nclient = redis.Redis(host='localhost', port=6379, db=0)\n\n# Store some data\nclient.hset('key1', 'name', 'John')\nclient.hset('key1', 'age', 30)\n\n# Access data\nprint(client.hgetall('key1'))  # {'name': 'John', 'age': 30}

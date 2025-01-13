@@ -1,0 +1,1 @@
+<configuration>\n    <system.webServer>\n        <handlers>\n            <add name="CGI-exe" path="*.exe" verb="*" modules="IsapiModule" scriptProcessor="C:\path\to\mapserv.exe" resourceType="Unspecified" requireAccess="None" preCondition="bitness64" />\n        </handlers>\n    </system.webServer>\n</configuration>

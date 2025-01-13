@@ -1,0 +1,1 @@
+with open('file.txt', 'r') as f:\n    num_lines = sum(1 for line in f)\nprint(num_lines)

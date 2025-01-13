@@ -1,0 +1,1 @@
+<transactions>\n    <transaction name="MyTransaction">\n        <headers>\n            <header name="Host" value="mywebserver.com" />\n        </headers>\n    </transaction>\n</transactions>

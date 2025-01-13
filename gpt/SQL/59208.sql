@@ -1,1 +1,0 @@
-BEGIN\n      dbms_utility.compile_schema(schema => 'YOUR_SCHEMA_NAME');\n   END;\n   /

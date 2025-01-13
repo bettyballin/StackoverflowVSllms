@@ -1,0 +1,1 @@
+if (document.cookie) {\n  // JavaScript is enabled\n} else {\n  // JavaScript is disabled\n}

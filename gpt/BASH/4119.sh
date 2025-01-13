@@ -1,1 +1,0 @@
-@echo off\nREM Build Full Version\nmsbuild /p:Configuration=FullBuild\n\nREM Build Partial Version\nmsbuild /p:Configuration=PartialBuild

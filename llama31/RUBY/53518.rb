@@ -1,0 +1,1 @@
+# Test email address parsing\ndescribe EmailAddressParser do\n  it 'parses valid email addresses' do\n    expect(EmailAddressParser.parse('user@example.com')).to eq('user@example.com')\n  end\n\n  it 'rejects invalid email addresses' do\n    expect(EmailAddressParser.parse('invalid_email')).to be_nil\n  end\nend

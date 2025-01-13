@@ -1,0 +1,1 @@
+public void Init(string className, string dllName)\n{\n    Assembly assembly = Assembly.LoadFile(dllName);\n    Type type = assembly.GetType(className);\n    // Instantiate the type and do whatever you need\n}

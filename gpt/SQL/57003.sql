@@ -1,1 +1,0 @@
-CREATE OR REPLACE FUNCTION CalculateTotal (a IN NUMBER, b IN NUMBER) RETURN NUMBER IS\n        total NUMBER;\n    BEGIN\n        total := a + b;\n        RETURN total;\n    END CalculateTotal;

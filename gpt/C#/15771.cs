@@ -1,1 +1,0 @@
-using System.Diagnostics;\n\nstring longParameter = "your very long parameter here";\nEnvironment.SetEnvironmentVariable("LONG_PARAM", longParameter);\n\nProcessStartInfo startInfo = new ProcessStartInfo();\nstartInfo.FileName = "yourProgram.exe";\nProcess.Start(startInfo);

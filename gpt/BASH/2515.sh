@@ -1,1 +1,0 @@
-setspn -A MSSQLSvc/YourSqlServerHostname:1433 YourSqlServiceAccount\n     setspn -A MSSQLSvc/YourSqlServerHostname.YourDomain:1433 YourSqlServiceAccount

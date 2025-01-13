@@ -1,0 +1,1 @@
+CREATE FUNCTION my_function()\nRETURNS @result TABLE (\n    id INT,\n    fake_column UNIQUEIDENTIFIER\n)\nAS\nBEGIN\n    DECLARE @newid UNIQUEIDENTIFIER = NEWID();\n    INSERT INTO @result (id, fake_column)\n    SELECT \n        id,\n        @newid\n    FROM \n        my_table;\n    RETURN;\nEND;

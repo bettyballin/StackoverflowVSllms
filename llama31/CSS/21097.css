@@ -1,0 +1,1 @@
+.container {\n  display: flex;\n}\n\n.content {\n  flex: 1;\n}\n\n.links {\n  list-style: none;\n  padding: 0;\n  margin: 0;\n}\n\n.links li {\n  margin-bottom: 10px;\n}

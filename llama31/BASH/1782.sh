@@ -1,0 +1,1 @@
+bcp "SELECT pdf_column FROM your_table WHERE id = 1" queryout "C:\path\to\output.pdf" -T -c

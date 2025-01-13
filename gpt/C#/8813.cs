@@ -1,1 +1,0 @@
-// Example: Using Application Insights to track performance\nvar telemetryClient = new TelemetryClient();\ntelemetryClient.TrackEvent("PageView");\ntelemetryClient.TrackMetric("QueryExecutionTime", queryExecutionTime);

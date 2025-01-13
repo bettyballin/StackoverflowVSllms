@@ -1,1 +1,0 @@
-# Explicitly convert integer to string\n   integer_value = 123\n   string_value = integer_value.to_s

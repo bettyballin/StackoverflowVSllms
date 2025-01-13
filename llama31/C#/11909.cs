@@ -1,0 +1,1 @@
+try\n{\n    // Open the connection and perform database operations\n}\nfinally\n{\n    // Close the connection\n    connection.Close();\n}

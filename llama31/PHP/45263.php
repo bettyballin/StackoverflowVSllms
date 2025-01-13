@@ -1,0 +1,1 @@
+function replace_keys($array, $lookup) {\n    return array_combine(\n        array_map(function($key) use ($lookup) {\n            return $lookup[$key];\n        }, array_keys($array)),\n        $array\n    );\n}

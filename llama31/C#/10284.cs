@@ -1,0 +1,1 @@
+using System.Xml;\n\nXmlWriterSettings settings = new XmlWriterSettings();\nsettings.Encoding = Encoding.UTF8;\nsettings.CheckCharacters = false;\n\nusing (XmlWriter writer = XmlWriter.Create("output.xml", settings))\n{\n    // write XML data\n}

@@ -1,1 +1,0 @@
-#include "DllWrapper.h"\n\nint main() {\n    try {\n        DllWrapper dllWrapper("DllA.dll", "DllB.dll");\n\n        // Call functions from DLL A and DLL B\n        dllWrapper.OpenApiA();\n        dllWrapper.OpenApiB();\n    } catch (const std::exception& e) {\n        // Handle the error\n        return -1;\n    }\n\n    return 0;\n}

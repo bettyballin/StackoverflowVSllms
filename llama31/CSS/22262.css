@@ -1,0 +1,1 @@
+/* Style the loader */\n#loader {\n    position: fixed;\n    top: 0;\n    left: 0;\n    width: 100%;\n    height: 100%;\n    background-color: #fff;\n    z-index: 1000;\n    display: none;\n}\n\n#loader img {\n    position: absolute;\n    top: 50%;\n    left: 50%;\n    margin-top: -25px;\n    margin-left: -25px;\n}

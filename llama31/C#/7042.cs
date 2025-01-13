@@ -1,0 +1,1 @@
+using (XmlWriter xWriter = XmlWriter.Create(XmlFilePath, new XmlWriterSettings()\n{\n    Indent = true,\n    IndentChars = "\t"\n}, FileMode.Create, FileAccess.Write))\n{\n    // ...\n}

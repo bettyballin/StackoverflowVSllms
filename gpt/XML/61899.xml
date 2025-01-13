@@ -1,1 +1,0 @@
-<!-- Web.config for both WebApp1 and WebApp2 -->\n<configuration>\n  <system.web>\n    <sessionState\n      mode="StateServer"\n      stateConnectionString="tcpip=localhost:42424"\n      cookieless="false"\n      timeout="20"\n      applicationName="/SharedSessionApp" />\n  </system.web>\n</configuration>

@@ -1,0 +1,1 @@
+Dim db As New GenericDatabase("System.Data.SqlClient", "Server=myServer;Database=myDB;User Id=myUser;Password=myPass;", "myUser", "myPass")\nDim table As DataTable = db.ExecuteQuery("SELECT * FROM myTable")

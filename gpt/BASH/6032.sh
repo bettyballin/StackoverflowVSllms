@@ -1,1 +1,0 @@
-# Example: Running OWASP Juice Shop using Docker\ndocker pull bkimminich/juice-shop\ndocker run --rm -p 3000:3000 bkimminich/juice-shop

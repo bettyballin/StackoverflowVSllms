@@ -1,1 +1,0 @@
-wvLibInit();\n   wvOn();

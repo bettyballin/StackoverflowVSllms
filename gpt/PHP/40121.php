@@ -1,1 +1,0 @@
-<?php\nclass URIResolve {\n    private $category = null;\n\n    public function __construct($tablePages) {\n        $this->category = $tablePages;\n    }\n\n    public function process_uri() {\n        // Your logic here\n        echo $this->category; // Example usage\n    }\n}\n?>

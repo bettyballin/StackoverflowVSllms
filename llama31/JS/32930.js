@@ -1,0 +1,1 @@
+const $box = $('#box');\nconst scrollTop = $box.scrollTop();\nconst rowHeight = 15;\nconst scrollPosition = Math.round(scrollTop / rowHeight);\nconsole.log(scrollPosition);

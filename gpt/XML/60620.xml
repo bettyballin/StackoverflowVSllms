@@ -1,1 +1,0 @@
-<Project Sdk="Microsoft.NET.Sdk">\n  <PropertyGroup>\n    <TargetFramework>net5.0</TargetFramework>\n  </PropertyGroup>\n  <ItemGroup>\n    <PackageReference Include="System.Windows.Forms" Version="5.0.2" />\n  </ItemGroup>\n</Project>

@@ -1,0 +1,1 @@
+var SQL = string.Format("SELECT * FROM {0} WHERE {1} LIKE @param", TABLE, NAME);\ncmd.Parameters.AddWithValue("@param", "%" + "JOHN" + "%");

@@ -1,0 +1,1 @@
+class Person\n  def initialize(name)\n    @name = name\n  end\n\n  protected\n\n  def sensitive_info\n    # sensitive information that should not be exposed\n  end\nend\n\nclass User < Person\n  def greet\n    puts "Hello, #{@name}!"\n  end\nend

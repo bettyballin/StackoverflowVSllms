@@ -1,1 +1,0 @@
-from lxml import etree\n\nxml = etree.XML('''\n<root>\n  <element>Text</element>\n</root>\n''')\n\n# Using XPath to traverse the XML structure\nresult = xml.xpath('/root/element')\nfor el in result:\n    print(el.text)

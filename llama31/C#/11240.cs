@@ -1,0 +1,1 @@
+protected override void OnInit(EventArgs e)\n{\n    base.OnInit(e);\n    Session["ViewState"] = null; // Initialize the Session object\n}\n\nprotected override PageStatePersister PageStatePersister\n{\n    get\n    {\n        return new SessionPageStatePersister(this);\n    }\n}

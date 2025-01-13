@@ -1,1 +1,0 @@
-dampenN(lr, x, n) = (1 - lr)^n * x + (1 - (1 - lr)^n)

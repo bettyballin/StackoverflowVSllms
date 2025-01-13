@@ -1,0 +1,1 @@
+#include <stdint.h>\n\nuint8_t convert6bitTo7bit(uint8_t sixBitChar) {\n    return (sixBitChar << 1) | 0x00;\n}

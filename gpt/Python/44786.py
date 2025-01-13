@@ -1,1 +1,0 @@
-# Inside eggs/foo/__init__.py\n   from .submodule import FooClass\n\n   # Inside eggs/bar/a.py\n   from ..foo import FooClass

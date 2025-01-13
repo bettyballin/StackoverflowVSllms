@@ -1,1 +1,0 @@
-CREATE TABLE Users (\n       uid INT(5) AUTO_INCREMENT PRIMARY KEY,\n       username VARCHAR(128),\n       item_id INT(8),\n       item_id_hash VARCHAR(50)\n   );\n\n   CREATE TABLE Items (\n       item_id INT(5) AUTO_INCREMENT PRIMARY KEY,\n       item_name VARCHAR(128),\n       item_id_hash VARCHAR(50)\n   );

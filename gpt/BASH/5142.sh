@@ -1,1 +1,0 @@
-MYSQL_CONFIG=/usr/local/opt/mysql-client/bin/mysql_config pecl install pdo_mysql

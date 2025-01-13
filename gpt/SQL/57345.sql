@@ -1,1 +1,0 @@
-CREATE INDEX idx_profession ON users(profession);

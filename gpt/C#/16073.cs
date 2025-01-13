@@ -1,1 +1,0 @@
-public class SearchParameters\n{\n    public string Query { get; set; }\n    // Other properties...\n}

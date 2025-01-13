@@ -1,1 +1,0 @@
-List<string> input = new List<string> { "c", "d", "c", "d" };\nList<string> result = ReduceSequences(input);\n\nforeach (var item in result)\n{\n    Console.WriteLine(item);\n}

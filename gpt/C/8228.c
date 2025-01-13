@@ -1,1 +1,0 @@
-RegQueryValueEx(hKey, TEXT("ValueName"), NULL, &type, (LPBYTE)&data, &dataSize);

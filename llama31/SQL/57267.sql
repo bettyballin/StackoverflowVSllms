@@ -1,0 +1,1 @@
+INSERT INTO your_table (AssessmentId, ValueId, Value)\nSELECT a.AssessmentId, v.ValueId, NULL\nFROM (\n  SELECT DISTINCT AssessmentId\n  FROM your_table\n) a\nCROSS JOIN (\n  SELECT 710 + LEVEL - 1 AS ValueId\n  FROM DUAL\n  CONNECT BY LEVEL <= 24\n) v;

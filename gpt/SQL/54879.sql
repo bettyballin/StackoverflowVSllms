@@ -1,1 +1,0 @@
-SELECT a, \n       COUNT(DISTINCT ISNULL(b, -1)) AS countdistinctb, \n       SUM(a) AS suma\nFROM (\n    SELECT 1 AS a, 1 AS b UNION ALL\n    SELECT 2, 2 UNION ALL\n    SELECT 2, NULL UNION ALL\n    SELECT 3, 3 UNION ALL\n    SELECT 3, NULL UNION ALL\n    SELECT 3, NULL\n) AS a\nGROUP BY a;

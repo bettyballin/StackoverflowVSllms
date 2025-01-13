@@ -1,0 +1,1 @@
+svn switch ^/branches/my_temp_branch\nsvn patch my_changes.patch

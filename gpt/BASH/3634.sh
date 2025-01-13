@@ -1,1 +1,0 @@
-cd /path/to/your/website\n     git init\n     git remote add origin <your-repo-url>\n     git add .\n     git commit -m "Initial commit"\n     git push -u origin master

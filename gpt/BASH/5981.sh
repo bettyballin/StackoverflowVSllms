@@ -1,1 +1,0 @@
-# Install oletools if you haven't already\npip install oletools\n\n# Analyze the document\nolevba path_to_document.docx

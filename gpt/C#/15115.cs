@@ -1,1 +1,0 @@
-public class MyDataContract\n{\n    public int MyProperty { get; set; }\n    public bool MyPropertySpecified { get; set; }\n}\n\n// Usage\nMyDataContract data = new MyDataContract();\ndata.MyProperty = 123;\ndata.MyPropertySpecified = true; // This ensures the property is serialized

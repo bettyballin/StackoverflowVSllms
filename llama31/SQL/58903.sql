@@ -1,0 +1,1 @@
+SELECT p.* \nFROM posts p \nJOIN post_tags pt ON p.id = pt.post_id \nWHERE pt.tag_id = ?;

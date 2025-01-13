@@ -1,0 +1,1 @@
+CREATE PROCEDURE private_schema.my_private_proc\nAS\nBEGIN\n    -- procedure code\nEND;

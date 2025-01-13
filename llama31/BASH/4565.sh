@@ -1,0 +1,1 @@
+# Install Homebrew\n/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"\n\n# Install Python using Homebrew\nbrew install python\n\n# Install pip using the newly installed Python\npython -m ensurepip

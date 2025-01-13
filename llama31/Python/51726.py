@@ -1,0 +1,1 @@
+import zipimport\n\nImporter = zipimport.zipimporter('C:\\Python25\\lib\\site-packages\\stompservice-0.1.0-py2.5.egg')\nmodule = Importer.load_module('stompservice')

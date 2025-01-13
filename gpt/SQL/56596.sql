@@ -1,1 +1,0 @@
-UPDATE YourTable\nSET Column1 = REPLACE(Column1, 'OldValue', 'NewValue'),\n    Column2 = REPLACE(Column2, 'OldValue', 'NewValue'),\n    Column3 = REPLACE(Column3, 'OldValue', 'NewValue')\nWHERE Column1 LIKE '%OldValue%' \n   OR Column2 LIKE '%OldValue%'\n   OR Column3 LIKE '%OldValue%';

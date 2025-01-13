@@ -1,1 +1,0 @@
-using System;\nusing System.Runtime.InteropServices;\n\nint hr = SomeCOMFunction();\nif (hr < 0) {\n    // Handle error\n}

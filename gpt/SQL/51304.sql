@@ -1,1 +1,0 @@
-SELECT \n    CAST(FLOOR(your_column * 1000000) / 1000000.0 AS DECIMAL(18,6)) AS formatted_value\nFROM \n    your_table;

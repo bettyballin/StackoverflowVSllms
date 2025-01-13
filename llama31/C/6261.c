@@ -1,0 +1,1 @@
+int syn_timeout = 10;\nsetsockopt(sockfd, IPPROTO_TCP, TCP_SYN_RETRANSMIT_TIMEOUT, &syn_timeout, sizeof(syn_timeout));

@@ -1,1 +1,0 @@
-CREATE PROCEDURE ExportData\n        @ReportDate DATE\n    AS\n    BEGIN\n        SET NOCOUNT ON;\n        \n        SELECT * \n        FROM YourTable\n        WHERE DateColumn = @ReportDate;\n    END

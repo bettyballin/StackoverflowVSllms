@@ -1,0 +1,1 @@
+$headers = get_headers('http://example.com/remote/file');\n$lastModifiedGmt = $headers['Last-Modified'];\n\n$gmt = new DateTime($lastModifiedGmt);\n$gmt->setTimezone(new DateTimeZone('Australia/Adelaide'));\n$lastModifiedAdelaide = $gmt->format('d-M-Y H:i');\n\necho $lastModifiedAdelaide;

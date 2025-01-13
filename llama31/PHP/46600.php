@@ -1,0 +1,1 @@
+/content = '<p>Example with <a href="#">Link Name</a> and more.</p>'; // Your content\n\npreg_match_all('/<a[^>]*>(.*?)<\/a>/s', $content, $matches, PREG_PATTERN_ORDER);\n\n$links = $matches[1];\n\nforeach ($links as $link) {\n    echo $link . "\n";\n}

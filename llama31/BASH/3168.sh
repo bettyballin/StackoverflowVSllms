@@ -1,0 +1,1 @@
+msdeploy -verb:sync -source:package='C:\Projects\WebSite' -dest:auto,ComputerName='https://test.lala.com/msdeploy.axd?site=Website1'

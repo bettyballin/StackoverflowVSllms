@@ -1,0 +1,1 @@
+./ptail.pl my_file | fgrep "[ERROR]" | wc -l

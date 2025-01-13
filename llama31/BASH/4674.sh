@@ -1,0 +1,1 @@
+gzip -dc /file/address/file.tar.gz

@@ -1,1 +1,0 @@
-public class StockController : Controller\n{\n    [HttpGet]\n    public ActionResult Index()\n    {\n        return View(new Stock_ViewModel());\n    }\n\n    [HttpPost]\n    public ActionResult Index(Stock_ViewModel svm)\n    {\n        return View(svm);\n    }\n}

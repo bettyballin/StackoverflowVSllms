@@ -1,0 +1,1 @@
+[XmlRpcService]\npublic class MyService : XmlRpcService\n{\n    [XmlRpcMethod]\n    public string MyMethod(int param1, string param2)\n    {\n        // implementation\n    }\n}

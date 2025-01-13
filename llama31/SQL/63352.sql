@@ -1,0 +1,1 @@
+DECLARE @sql NVARCHAR(MAX) = '';\n\nSELECT @sql += '\n  [' + type + '] = MAX(CASE WHEN type = ''' + type + ''' THEN value END),\n'\nFROM (\n  SELECT DISTINCT type\n  FROM contact_attributes\n) AS types;\n\nSET @sql = 'SELECT #profile, ' + @sql + ' FROM contact_attributes GROUP BY #profile';\n\nEXEC sp_executesql @sql;

@@ -1,0 +1,1 @@
+# Update the package list\nzypper refresh\n\n# Upgrade the PHP package to the latest version (5.2)\nzypper update php5

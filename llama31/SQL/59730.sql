@@ -1,0 +1,1 @@
+SELECT\n    A.aID, A.bID, A.aCol1, ..., A.aCol10,\n    B.bID, B.cID, B.bCol1, ..., B.bCol10,\n    C.cID, C.cCol1, C.cCol2, C.col3, ..., C.cCol10\nFROM\n    A\nJOIN\n    B ON A.bID = B.bID\nJOIN\n    (\n        SELECT cID, col3,\n               ROW_NUMBER() OVER (PARTITION BY col3 ORDER BY cID) AS rn\n        FROM C\n    ) C ON B.cID = C.cID AND C.rn = 1\nORDER BY\n    A.aID;

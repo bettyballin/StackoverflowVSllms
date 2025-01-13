@@ -1,0 +1,1 @@
+public class YourDbContext : DbContext\n{\n    public YourDbContext() : base("name=db_ac_motors_testConnectionString")\n    {\n        DataDirectory = @"C:\Path\To\Your\App_Data";\n    }\n}

@@ -1,0 +1,1 @@
+KILL @session_id WITH STATUSONLY

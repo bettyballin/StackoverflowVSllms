@@ -1,0 +1,1 @@
+<rewrite>\n  <rules>\n    <rule name="Image Rewrite" stopProcessing="true">\n      <match url="^images/(.*)" />\n      <conditions>\n        <add input="{HTTPS}" negate="true" />\n      </conditions>\n      <action type="Rewrite" url="https://{HTTP_HOST}/images/{R:1}" />\n    </rule>\n  </rules>\n</rewrite>

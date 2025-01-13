@@ -1,0 +1,1 @@
+using System.DirectoryServices.AccountManagement;\n\n// Create a PrincipalContext object\nPrincipalContext ctx = new PrincipalContext(ContextType.Domain, strDomain);\n\n// Validate the credentials\nbool isValid = ctx.ValidateCredentials(strUser, strPass);

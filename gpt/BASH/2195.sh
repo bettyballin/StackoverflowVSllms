@@ -1,1 +1,0 @@
-curl -X POST https://api.example.com/resource?id=123 \\n     -H "Content-Type: application/json" \\n     -d '{"param1": "value1", "param2": "value2"}'

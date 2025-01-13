@@ -1,1 +1,0 @@
-ln -s /var/www/shared_backend /var/www/site1/backend\n    ln -s /var/www/shared_backend /var/www/site2/backend

@@ -1,1 +1,0 @@
-if (preg_match("/^[a-zA-Z' ]*$/", $username)) {\n       // Valid name\n   } else {\n       // Invalid name\n   }

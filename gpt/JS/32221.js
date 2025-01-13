@@ -1,1 +1,0 @@
-const url = 'https://example.com/endpoint';\nconst data = { username: 'user', password: 'secure_password' };\n\nfetch(url, {\n  method: 'POST',\n  headers: {\n    'Content-Type': 'application/json'\n  },\n  body: JSON.stringify(data)\n})\n.then(response => response.json())\n.then(data => console.log('Success:', data))\n.catch(error => console.error('Error:', error));

@@ -1,1 +1,0 @@
-import os\nfrom pathlib import Path\n\n# Get the directory of the current script\ncurrent_directory = Path(__file__).parent\n\n# Use relative path to the target file\ntarget_file = current_directory / 'foo.py'\n\n# Convert to an absolute path\nabsolute_path = target_file.resolve()\n\nprint(f"Absolute path to the target file: {absolute_path}")

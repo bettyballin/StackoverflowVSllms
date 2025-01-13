@@ -1,1 +1,0 @@
-* * * * * /usr/bin/php /path/to/your/application/scripts/process_email_queue.php

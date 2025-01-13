@@ -1,0 +1,1 @@
+class MyModel < ActiveRecord::Base\n  has_many :ratings, :as => :rateable\n  ajaxful_rateable :stars => 5\nend

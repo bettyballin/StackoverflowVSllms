@@ -1,0 +1,1 @@
+SELECT *\nFROM (\n    SELECT *, \n        (SELECT Table1.Column \n         FROM Table1 \n         INNER JOIN Table2 ON Table1.Table2Id = Table2.Id) as tmp\n    FROM Table2\n) AS derived_table\nWHERE tmp = 1

@@ -1,1 +1,0 @@
-import qbxml\n\n   # Initialize QBXML\n   qb = qbxml.QBXML()\n\n   # Set up request to fetch data\n   request = qb.create_request('CustomerQueryRq')\n\n   # Send request to QuickBooks\n   response = qb.send_request(request)\n\n   # Process the response\n   customers = response['CustomerRet']\n   for customer in customers:\n       print(customer['Name'])

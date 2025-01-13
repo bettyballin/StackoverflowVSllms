@@ -1,0 +1,1 @@
+// src/Controller/HelloController.php\n\nnamespace App\Controller;\n\nuse Cake\Controller\Controller;\n\nclass HelloController extends Controller\n{\n    public function hello()\n    {\n        $this->set('message', 'Hello World!');\n    }\n}

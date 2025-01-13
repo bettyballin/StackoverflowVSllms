@@ -1,0 +1,1 @@
+CREATE TRIGGER trg_UpdateExternalDB\nON [Table1], [Table2], [Table3]\nAFTER INSERT, UPDATE, DELETE\nAS\nBEGIN\n    DECLARE @sql nvarchar(max) = N'\n        UPDATE [ExternalDB].[dbo].[TableA]\n        SET Column1 = ''New Value''\n        WHERE Column2 = '' Condition '';\n    ';\n\n    EXEC OPENQUERY([ExternalDBServer], @sql);\nEND

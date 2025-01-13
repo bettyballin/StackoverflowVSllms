@@ -1,0 +1,1 @@
+// Create a JSON object\nconst userData = {\n  "name": "John Doe",\n  "age": 30,\n  "city": "New York"\n};\n\n// Convert JSON object to string\nconst userDataJson = JSON.stringify(userData);\n\n// Send JSON string to server\nfetch('/api/user', {\n  method: 'POST',\n  headers: { 'Content-Type': 'application/json' },\n  body: userDataJson\n});

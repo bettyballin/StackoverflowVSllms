@@ -1,1 +1,0 @@
-#include <stdio.h>\n\nvoid my_function() {\n    printf("Hello from the dynamically loaded library!\n");\n}

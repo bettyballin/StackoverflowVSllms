@@ -1,1 +1,0 @@
-// resources/lang/en/messages.php\n     return [\n         'welcome' => 'Welcome, :name',\n     ];\n\n     // Using the translation in a controller or view\n     echo __('messages.welcome', ['name' => 'John']);

@@ -1,0 +1,1 @@
+void f1() {\n    auto f1_private = []() {\n        // private function implementation\n    };\n    f1_private();\n}\n\nvoid f2() {\n    // cannot access f1_private\n}

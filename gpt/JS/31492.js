@@ -1,1 +1,0 @@
-document.addEventListener("DOMContentLoaded", function() {\n  var referrer = document.referrer;\n  if (referrer.includes("google.com")) {\n    console.log("Visitor came from a Google search result.");\n    // You can also perform other actions here, like sending an event to your analytics\n  }\n});

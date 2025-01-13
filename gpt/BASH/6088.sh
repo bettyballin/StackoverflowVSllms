@@ -1,1 +1,0 @@
-ldapmodify -Y EXTERNAL -H ldapi:/// -f access_control.ldif

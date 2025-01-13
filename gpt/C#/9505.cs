@@ -1,1 +1,0 @@
-byte[] imageData;\nbyte[] audioData;\nbyte[] textData = Encoding.UTF8.GetBytes("Your text here");

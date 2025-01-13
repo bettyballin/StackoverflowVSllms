@@ -1,0 +1,1 @@
+DataGrid grid = new DataGrid();\n// Bind data to the grid...\ngrid.DataBind();\n\nStringWriter sw = new StringWriter();\nHtmlTextWriter htw = new HtmlTextWriter(sw);\ngrid.RenderControl(htw);\n\nstring htmlOutput = sw.ToString();

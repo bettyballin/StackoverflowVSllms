@@ -1,0 +1,1 @@
+db2export -d <database_name> -s <schema_name> -f <output_file> -t <table_name>

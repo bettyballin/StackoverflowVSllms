@@ -1,1 +1,0 @@
-CREATE TABLE people (\n     id       INTEGER PRIMARY KEY,\n     name     VARCHAR(100),\n     status   VARCHAR(20)  -- e.g., 'active', 'inactive', 'pending'\n   );\n\n   -- Query to get active people\n   SELECT * FROM people WHERE status = 'active';

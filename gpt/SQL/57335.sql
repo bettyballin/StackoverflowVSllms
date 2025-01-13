@@ -1,1 +1,0 @@
-WITH RECURSIVE DateRange AS (\n    SELECT CURRENT_DATE AS DateValue\n    UNION ALL\n    SELECT DateValue - INTERVAL '1 day'\n    FROM DateRange\n    WHERE DateValue > CURRENT_DATE - INTERVAL '364 days'\n)\nSELECT DateValue\nFROM DateRange;

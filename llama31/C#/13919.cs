@@ -1,0 +1,1 @@
+using (var db = new YourDbContext()) {\n  var expiredSessions = db.Sessions\n    .Where(s => s.LastActivity < DateTime.Now.AddMinutes(-30)) // adjust the timeout as needed\n    .ToList();\n  foreach (var session in expiredSessions) {\n    db.Sessions.Remove(session);\n  }\n  db.SaveChanges();\n}

@@ -1,1 +1,0 @@
-$(document).ready(function() {\n    setInterval(function() {\n        $.post('update_lock.php', { record_id: recordId, user_id: userId });\n    }, 60000); // Every 60 seconds\n});

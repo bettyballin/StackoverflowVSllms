@@ -1,0 +1,1 @@
+$array1 = array("gif" => "gif", "jpg" => "jpeg", "jpeg" => "jpeg", "png" =>"png");\n$array2 = array("gif" => "0", "jpg" => "90", "jpeg" => "90", "png" => "8");\n\n$keys = array_keys($array1);\n$values = array_combine($keys, array_map(function($a, $b) { return array($a, $b); }, $array1, $array2));\n\nprint_r($values);

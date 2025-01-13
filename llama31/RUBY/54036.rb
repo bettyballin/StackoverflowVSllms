@@ -1,0 +1,1 @@
+Then /^I should be (editing|viewing) the (\w+) with (\w+) "([^\"]*)"$/ do |action,model,field,value|\n  # ...\n  wait.until { driver.find_element(:css, ".edit-user") } # wait for the edit user button to be present\n  URI.parse(current_url).path.should == eval("#{func}(m)")\nend

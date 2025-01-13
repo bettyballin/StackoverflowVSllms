@@ -1,0 +1,1 @@
+value = text[/your username is: (.*)/, 1] || "default value"

@@ -1,1 +1,0 @@
-string someString;\nsomeString = MagicFunction();\n\nif (!string.IsNullOrEmpty(someString) && someString.Length > 3)\n{\n    // normal string, do whatever\n}\nelse\n{\n   // On a NULL string, it drops to here, because first evaluation of IsNullOrEmpty fails\n   // However, the Length function, if used by itself, would throw an exception.\n}

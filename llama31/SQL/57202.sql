@@ -1,0 +1,1 @@
+DO $$\nDECLARE\n  batch_size INTEGER := 1000;\n  deleted INTEGER;\nBEGIN\n  WHILE TRUE LOOP\n    BEGIN\n      DELETE FROM infoblocks WHERE template_id = 112 LIMIT batch_size;\n      EXIT WHEN NOT FOUND;\n      RAISE NOTICE 'Deleted % rows', batch_size;\n    EXCEPTION WHEN NOT FOUND THEN\n      EXIT;\n    END;\n  END LOOP;\nEND $$;

@@ -1,0 +1,1 @@
+// mydll.h\n#ifndef MYDLL_H\n#define MYDLL_H\n\nextern "C" __declspec(dllexport) int Add(int a, int b);\n\n#endif // MYDLL_H

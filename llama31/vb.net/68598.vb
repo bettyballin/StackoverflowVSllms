@@ -1,0 +1,1 @@
+If Not IsFileInUse(upddir & "\app.exe") Then\n    ' Update the file\nElse\n    ' Handle the case where the file is in use\nEnd If

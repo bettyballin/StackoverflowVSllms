@@ -1,0 +1,1 @@
+$ objdump -x /lib/x86_64-linux-gnu/libc.so.6 | grep -o 'sse[[:digit:]]*'\nsse2\nsse3\nsse4_1\nsse4_2

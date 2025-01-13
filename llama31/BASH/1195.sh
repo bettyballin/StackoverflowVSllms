@@ -1,0 +1,1 @@
+curl -X GET 'https://www.alphavantage.co/query?function=OVERVIEW&symbol=AX-UN.TO&apikey=YOUR_API_KEY'

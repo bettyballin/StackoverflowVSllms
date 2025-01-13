@@ -1,0 +1,1 @@
+cscript.exe iiscnfg.vbs /export /f <filename>.xml /sp /lm

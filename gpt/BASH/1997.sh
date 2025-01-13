@@ -1,1 +1,0 @@
-sudo /Applications/MAMP/bin/startMysql.sh

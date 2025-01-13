@@ -1,1 +1,0 @@
-#include "object.h"\n\nclass MyPluginObject : public Object {\npublic:\n    void doSomething() override {\n        // Plugin-specific implementation\n    }\n};\n\nextern "C" __declspec(dllexport) void PluginInit() {\n    // Register the plugin object with the host application or perform other initialization\n}

@@ -1,1 +1,0 @@
-java -Dcom.sun.management.jmxremote \\n     -Dcom.sun.management.jmxremote.port=9010 \\n     -Dcom.sun.management.jmxremote.authenticate=false \\n     -Dcom.sun.management.jmxremote.ssl=false \\n     -Djava.rmi.server.hostname=127.0.0.1 \\n     -jar your-application.jar

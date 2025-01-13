@@ -1,1 +1,0 @@
-import os\n   from dotenv import load_dotenv\n\n   load_dotenv()\n   fetch_data_query = os.getenv('FETCH_DATA_QUERY')

@@ -1,0 +1,1 @@
+# Install DocBook XSL and Apache FOP\nsudo apt-get install docbook-xsl fop\n\n# Convert DocBook XML to PDF\nxsltproc --nonet /usr/share/docbook-xsl/fo/docbook.xsl your-docbook.xml > your-docbook.fo\nfop your-docbook.fo your-docbook.pdf

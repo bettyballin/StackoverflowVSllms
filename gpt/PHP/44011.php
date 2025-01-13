@@ -1,1 +1,0 @@
-$dbh = new PDO("sqlsrv:Server=$mssql_server;Database=$mssql_db", $mssql_login, $mssql_pwd, array(\n      PDO::SQLSRV_ATTR_ENCODING => PDO::SQLSRV_ENCODING_UTF8\n  ));

@@ -1,0 +1,1 @@
+ln -s /var/data/member-data /var/lib/tomcat/webapps/myapp/member-data

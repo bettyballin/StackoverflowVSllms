@@ -1,1 +1,0 @@
-inotifywait -m -e modify,create,delete /path/to/directory

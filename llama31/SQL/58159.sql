@@ -1,0 +1,1 @@
+SELECT \n  r.rank_id,\n  COUNT(u.user_id) AS count\nFROM _users u\nJOIN ranks r ON u.post_count >= r.min_posts AND (r.max_posts IS NULL OR u.post_count < r.max_posts)\nGROUP BY r.rank_id;

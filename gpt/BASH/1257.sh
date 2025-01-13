@@ -1,1 +1,0 @@
-# Open a PowerShell prompt and check the proxy settings\nGet-ItemProperty -Path "HKCU:\Software\Microsoft\Windows\CurrentVersion\Internet Settings" | Select-Object -Property ProxyServer, ProxyEnable

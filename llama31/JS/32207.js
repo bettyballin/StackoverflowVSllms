@@ -1,0 +1,1 @@
+if ($("input[name='email']").val().length < 1) {\n    // ...\n} else {\n    $("input[name='email']").removeClass("input-validation-error");\n    $("span[data-valmsg-for='email']").hide();\n}

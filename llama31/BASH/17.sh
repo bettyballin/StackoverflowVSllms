@@ -1,0 +1,1 @@
+chmod +x clean_tmp.php

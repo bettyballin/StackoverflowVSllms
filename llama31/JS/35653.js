@@ -1,0 +1,1 @@
+const express = require('express');\nconst app = express();\nconst http = require('http');\n\napp.get('/proxy', (req, res) => {\n  http.get('http://www.foo.com/blah.html', (response) => {\n    res.send(response.body);\n  });\n});

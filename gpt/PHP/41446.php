@@ -1,1 +1,0 @@
-<?php\nrequire 'vendor/autoload.php';\n\nuse Math\Matrix;\n\n$matrixA = new Matrix([\n    [1, 2],\n    [3, 4],\n]);\n\n$matrixB = new Matrix([\n    [5, 6],\n    [7, 8],\n]);\n\n// Matrix Multiplication\n$result = $matrixA->multiply($matrixB);\nprint_r($result->toArray());\n\n// Matrix Inversion\n$invertedMatrix = $matrixA->inverse();\nprint_r($invertedMatrix->toArray());\n\n?>

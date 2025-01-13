@@ -1,0 +1,1 @@
+curl -k https://localhost:443/MyService

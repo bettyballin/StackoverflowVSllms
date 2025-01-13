@@ -1,0 +1,1 @@
+// Get the DataView of the Product DataTable\nDataView dv = ds.Tables["Product"].DefaultView;\n\n// Filter the DataView based on related tables\ndv.RowFilter = "Feature.Name = 'Width' AND Supplier.Name = 'Microsoft'";

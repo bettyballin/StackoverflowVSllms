@@ -1,0 +1,1 @@
+SHOW STATUS LIKE 'last_query_cost';\nSHOW STATUS LIKE 'rows_examined';\nSHOW STATUS LIKE 'rows_returned';\nSHOW STATUS LIKE 'query_time';

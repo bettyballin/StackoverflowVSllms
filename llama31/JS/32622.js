@@ -1,0 +1,1 @@
+// Without caching\n$('#myElement').css('color', 'red').show();\n\n// With caching\nvar $myElement = $('#myElement');\n$myElement.css('color', 'red');\n$myElement.show();

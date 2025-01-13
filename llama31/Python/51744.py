@@ -1,0 +1,1 @@
+USERS = User.objects.filter(groups__name='accountexec')\nlogs = Log.objects.filter(user__in=USERS)

@@ -1,1 +1,0 @@
-// Set the default timezone to UTC or your specific timezone\ndate_default_timezone_set('UTC');\n\n// Now create the timestamps\necho '<p>' . mktime(24, 0, 0, 8, 29, 2009) . ' - 12pm</p>';\necho '<p>' . mktime(23, 0, 0, 8, 29, 2009) . ' - 11pm</p>';\necho '<p>' . mktime(22, 0, 0, 8, 29, 2009) . ' - 10pm</p>';

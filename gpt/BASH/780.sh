@@ -1,1 +1,0 @@
-sshfs user@remote:/path/to/remote/dir /path/to/local/mount

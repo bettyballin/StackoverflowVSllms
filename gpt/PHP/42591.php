@@ -1,1 +1,0 @@
-<?php\n    class MyClass\n    {\n        const CONSTANT = 'Const var';        \n    }\n\n    $classname = 'MyClass';\n    $constants = get_class_vars($classname);\n    echo $constants['CONSTANT'];\n?>

@@ -1,1 +1,0 @@
-/dev/sdX /mnt/yourvolume ext3 defaults,uid=1000,gid=1000,umask=0022 0 0

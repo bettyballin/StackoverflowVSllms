@@ -1,1 +1,0 @@
-# For example, on a Debian-based system:\n   sudo apt-get update\n   sudo apt-get install mercurial

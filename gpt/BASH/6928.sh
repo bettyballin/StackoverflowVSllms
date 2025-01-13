@@ -1,1 +1,0 @@
-sudo mount -t ntfs-3g /dev/sdXn /mnt/ntfs

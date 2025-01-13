@@ -1,0 +1,1 @@
+// Views/YourController/YourAction.cshtml\n@model YourApp.Models.Client\n\n@for (int i = 0; i < Model.Addresses.Count; i++)\n{\n    @Html.EditorFor(m => m.Addresses[i])\n}

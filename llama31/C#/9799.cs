@@ -1,0 +1,1 @@
+[assembly: SecurityRules(SecurityRuleSet.Level2)]

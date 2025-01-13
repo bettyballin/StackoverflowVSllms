@@ -1,0 +1,1 @@
+OracleParameter address2 = new OracleParameter\n     ("i_pAddr2", OracleType.VarChar, 1024);\n address2.Direction = ParameterDirection.Input;\n address1.Value = userDetail.WorkAddress2 ?? String.Empty; // should be address2.Value\n command.Parameters.Add(address2);

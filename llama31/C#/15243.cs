@@ -1,0 +1,1 @@
+var debugMode = Configuration.GetSection("DebugMode").Get<bool>();

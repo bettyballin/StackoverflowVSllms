@@ -1,1 +1,0 @@
-Dim db As New MilkModel()\n\ndb.InventorySnapshotCreate()

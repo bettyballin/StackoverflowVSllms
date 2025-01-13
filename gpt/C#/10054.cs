@@ -1,1 +1,0 @@
-// Simplified example of checking a license file\n    public static bool ValidateLicense(string licenseFilePath)\n    {\n        // Decrypt and validate the license file\n        // Implementation specifics will vary\n    }

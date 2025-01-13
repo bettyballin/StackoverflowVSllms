@@ -1,0 +1,1 @@
+function echoer() {\n    echo 'foo';\n}\n\nob_start();\nechoer();\n$echoed_string = ob_get_contents();\nob_end_clean();\n\necho $echoed_string; // outputs 'foo'

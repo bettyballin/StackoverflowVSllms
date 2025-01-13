@@ -1,0 +1,1 @@
+use Zend\XmlRpc\Client;\n\n$client = new Client($xml_url);\n$xml = $client->call('method', $params);

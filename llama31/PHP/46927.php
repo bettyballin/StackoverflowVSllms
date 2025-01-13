@@ -1,0 +1,1 @@
+$url = 'https://example.com';\n$outputFile = 'screenshot.png';\n\n$command = "wkhtmltoimage --width 1024 --height 768 $url $outputFile";\nexec($command, $output, $returnVar);\n\nif ($returnVar === 0) {\n    echo "Screenshot generated successfully!";\n} else {\n    echo "Error generating screenshot!";\n}

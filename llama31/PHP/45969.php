@@ -1,0 +1,1 @@
+$data = filter_input_array(INPUT_POST, [\n    'name' => FILTER_SANITIZE_STRING,\n    'email' => FILTER_VALIDATE_EMAIL,\n]);

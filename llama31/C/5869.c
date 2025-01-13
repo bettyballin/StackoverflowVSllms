@@ -1,0 +1,1 @@
+typedef struct {\n    unsigned char day  : 5;  // 0-30 (32 possible values)\n    unsigned char hour : 5;  // 0-23 (24 possible values, 3 bits would be enough but we can't use 3 bits in C)\n    unsigned char minute : 6;  // 0-59 (60 possible values)\n} timestamp_t;

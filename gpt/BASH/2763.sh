@@ -1,1 +1,0 @@
-signtool sign /f mycert.pfx /p mypassword /t http://timestamp.digicert.com /v myapp.exe

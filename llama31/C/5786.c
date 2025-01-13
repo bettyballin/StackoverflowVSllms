@@ -1,0 +1,1 @@
+char buffer[10];\nint value = 123;\n\nsprintf(buffer, "%03d", value); // writes "123" to the buffer\nsprintf(buffer + 3, "%03d", value); // writes "123" starting from the 4th character

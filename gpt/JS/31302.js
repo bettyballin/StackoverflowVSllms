@@ -1,1 +1,0 @@
-// Button creation\nvar onew = document.createElement('input');\nonew.setAttribute("type", "button");\nonew.setAttribute("value", "hosts");\n\n// Setting the onclick event handler\nonew.onclick = function() {\n    fnDisplay_Computers("'" + alines[i] + "'");\n};\n\n// Append the button to the div\nodiv.appendChild(onew);

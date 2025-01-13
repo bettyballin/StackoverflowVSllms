@@ -1,1 +1,0 @@
-// math_utils.h\n   #ifndef MATH_UTILS_H\n   #define MATH_UTILS_H\n\n   inline int add(int a, int b) {\n       return a + b;\n   }\n\n   #endif // MATH_UTILS_H

@@ -1,1 +1,0 @@
-var tabControl = new TabControl\n{\n    Property1 = value1,\n    Property2 = value2,\n    Property3 = value3\n};

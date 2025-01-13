@@ -1,0 +1,1 @@
+ViewEngines.Engines.Clear();\nvar razorEngine = new RazorViewEngine();\nrazorEngine.ViewLocationFormats = new[] { "~/Views/Manage/{1}/{0}.cshtml" };\nViewEngines.Engines.Add(razorEngine);

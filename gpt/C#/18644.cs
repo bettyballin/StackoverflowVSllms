@@ -1,1 +1,0 @@
-string connectionString = "Server=myServerAddress;Database=myDataBase;Integrated Security=True;";

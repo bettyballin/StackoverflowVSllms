@@ -1,1 +1,0 @@
-BIO *bio = BIO_new_ssl_connect(ctx);\nBIO_set_conn_hostname(bio, "hostname:port");\nBIO_do_connect(bio); // Connect to the server\nBIO_write(bio, buf, num_bytes); // Write data\nBIO_read(bio, buf, num_bytes); // Read data\nBIO_free_all(bio); // Free the BIO chai

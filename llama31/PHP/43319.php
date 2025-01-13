@@ -1,0 +1,1 @@
+$myrow = fetchRow();\n$somepass = base64_encode($_POST['password']);\n\nif (!hash_equals($myrow[1], $somepass)) {\n    echo 'error';\n} else {\n    echo 'welcome';\n}

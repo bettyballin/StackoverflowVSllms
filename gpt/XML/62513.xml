@@ -1,1 +1,0 @@
-<configuration>\n     <system.web>\n       <securityPolicy>\n         <policyFile fileName="web_mediumtrust.config" />\n       </securityPolicy>\n     </system.web>\n     <location path="YourWebPartPath">\n       <system.web>\n         <trust level="Full" originUrl="" />\n       </system.web>\n     </location>\n   </configuration>

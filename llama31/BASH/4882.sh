@@ -1,0 +1,1 @@
+et use z: \\nas\share /user:admi

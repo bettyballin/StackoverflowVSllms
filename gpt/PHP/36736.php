@@ -1,1 +1,0 @@
-$config['enable_query_strings'] = TRUE;

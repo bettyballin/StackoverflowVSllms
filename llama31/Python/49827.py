@@ -1,0 +1,1 @@
+import hashlib\n\n# Example of hashing a signature image\nsignature_image = b'...'  # Replace with the actual image data\nsignature_hash = hashlib.sha256(signature_image).hexdigest()\nprint(signature_hash)

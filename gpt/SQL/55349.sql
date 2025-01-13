@@ -1,1 +1,0 @@
-SELECT DISTINCT ON (username)\n    username,\n    ip,\n    time_stamp\nFROM\n    your_table_name\nORDER BY\n    username,\n    time_stamp DESC;

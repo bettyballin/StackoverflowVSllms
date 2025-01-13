@@ -1,1 +1,0 @@
-ew Ajax.Request('/your-endpoint', {\n  method: 'get',\n  contentType: 'application/json',\n  onSuccess: function(response) {\n    var json = response.responseText.evalJSON();\n    console.log(json);\n  },\n  onFailure: function() {\n    alert('Something went wrong!');\n  }\n});

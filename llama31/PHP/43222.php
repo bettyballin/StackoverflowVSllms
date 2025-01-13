@@ -1,0 +1,1 @@
+$fullString = "ignore everything except this (text)";\npreg_match('/\(([^)]+)\)/', $fullString, $matches);\n$shortString = $matches[1];

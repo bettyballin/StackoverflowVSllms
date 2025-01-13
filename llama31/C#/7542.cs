@@ -1,0 +1,1 @@
+using Imgur.API;\n\n// Initialize Imgur client\nvar client = new ImgurClient("YOUR_CLIENT_ID", "YOUR_CLIENT_SECRET");\n\n// Upload an image\nvar image = new Image("image.jpg", "image/jpeg");\nvar result = client.UploadImage(image);

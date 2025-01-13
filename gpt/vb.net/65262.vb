@@ -1,1 +1,0 @@
-Dim slotDates As New LimitedList(Of Date)(7)\n\nTry\n    slotDates.Add(Date.Now)\n    ' Add more items...\nCatch ex As InvalidOperationException\n    Console.WriteLine(ex.Message)\nEnd Try

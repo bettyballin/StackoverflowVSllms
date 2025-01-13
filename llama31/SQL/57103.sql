@@ -1,0 +1,1 @@
+-- Enable tracing on a specific session\nALTER SESSION SET SQL_TRACE = TRUE;\n\n-- Enable tracing on a specific process\nALTER SYSTEM SET SQL_TRACE = TRUE SCOPE=MEMORY;

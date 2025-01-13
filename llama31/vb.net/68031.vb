@@ -1,0 +1,1 @@
+Private Sub cmdSubmit_Click()\n    DoCmd.RunCommand acCmdSaveRecord\nEnd Sub

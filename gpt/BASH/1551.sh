@@ -1,1 +1,0 @@
-mysql -u username -p < dumpfile.sql

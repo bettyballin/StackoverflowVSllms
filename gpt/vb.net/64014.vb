@@ -1,1 +1,0 @@
-Dim expectedParameters As String() = {"val1", "val2", "id"}\n\nFor Each param As String In expectedParameters\n    Dim paramValue As Object = If(Request.QueryString(param), DBNull.Value)\n    Command.Parameters.AddWithValue("@" & param, paramValue)\nNext

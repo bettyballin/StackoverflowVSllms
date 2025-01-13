@@ -1,0 +1,1 @@
+$bannedIPs = array('127.0.0.1','72.189.218.85');\n\nfunction ipban($bannedIPs) {\n    if (in_array($_SERVER['REMOTE_ADDR'], $bannedIPs)) { \n        echo 'test';\n    }   \n}\n\nipban($bannedIPs);

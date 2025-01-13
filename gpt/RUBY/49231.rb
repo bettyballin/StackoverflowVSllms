@@ -1,1 +1,0 @@
-class JobsController < ApplicationController\n  def index\n    @jobs = Job.all\n    @var = TableB.all\n  end\nend

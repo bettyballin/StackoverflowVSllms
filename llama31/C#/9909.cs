@@ -1,0 +1,1 @@
+ultraDateTimeEditor1.Format = Infragistics.Win.UltraWinEditors.DateTimeEditorFormat.DateTime;

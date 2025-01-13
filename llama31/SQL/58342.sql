@@ -1,0 +1,1 @@
+SELECT AVG(position) AS avg_position\nFROM search_results\nWHERE result_type = 'company' AND result_id = <company_id>;

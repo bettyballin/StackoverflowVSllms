@@ -1,0 +1,1 @@
+sudo gem install yard\nyardoc rails --no-ri --include-dependencies

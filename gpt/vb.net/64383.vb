@@ -1,1 +1,0 @@
-Dim result As String = If(user.IsAdmin, "Welcome Admin", "Welcome User")

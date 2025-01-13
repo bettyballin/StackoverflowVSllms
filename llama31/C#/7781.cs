@@ -1,0 +1,1 @@
+[HasSelfValidation]\npublic class MyClass\n{\n    [RangeValidator(1, 100)]\n    public int MyProperty { get; set; }\n\n    [SelfValidation]\n    public void Validate(ValidationResults results)\n    {\n        // custom validation logic here\n    }\n}

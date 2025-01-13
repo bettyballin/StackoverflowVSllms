@@ -1,0 +1,1 @@
+Array (\n    [1] => Categorie 1\n    [5] => Categorie 2\n)

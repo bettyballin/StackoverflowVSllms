@@ -1,0 +1,1 @@
+string input = "The big <bpt i=\"1\" x=\"1\" type=\"bold\"><b></bpt>black<ept i=\"1\"></b></ept> <bpt i=\"2\" x=\"2\" type=\"ulined\"><u></bpt>cat<ept i=\"2\"></u></ept> sleeps.";\nstring output = System.Text.RegularExpressions.Regex.Replace(input, @"<bpt.*?>.*?<\/bpt>|<ept.*?>.*?<\/ept>", "");\nConsole.WriteLine(output);

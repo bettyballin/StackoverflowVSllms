@@ -1,0 +1,1 @@
+$fp = fopen($logfile, 'r');\n fseek($fp, -1024, SEEK_END);\n $line = fgets($fp);\n fclose($fp);

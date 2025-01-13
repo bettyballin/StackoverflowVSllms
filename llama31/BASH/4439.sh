@@ -1,0 +1,1 @@
+rmdir /s /q <old_data_directory>

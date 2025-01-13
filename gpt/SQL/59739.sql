@@ -1,1 +1,0 @@
-SELECT\n  A, B,\n  A = B AS equal,\n  A IS NOT DISTINCT FROM B AS is_not_distinct,\n  A <> B AS not_equal,\n  A IS DISTINCT FROM B AS is_distinct\nFROM ( \n  VALUES\n  (NULL, NULL),\n  (NULL, 'john'),\n  (NULL, 'paul'),\n  ('john', NULL),\n  ('john', 'john'),\n  ('john', 'paul'),\n  ('paul', NULL),\n  ('paul', 'john'),\n  ('paul', 'paul')\n) AS x(A, B);

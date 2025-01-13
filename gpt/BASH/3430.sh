@@ -1,1 +1,0 @@
-osql -S server_name -U username -P password -Q "SELECT * FROM database_name.dbo.table_name"

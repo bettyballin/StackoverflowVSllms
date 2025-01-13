@@ -1,0 +1,1 @@
+sed -r '1h;1!H;${;g;s///<<.*?TAG\>>>//g;p;}' test.txt

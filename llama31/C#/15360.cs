@@ -1,0 +1,1 @@
+using (var db = new MyDataContext())\n{\n    db.Log = Console.Out; // or db.Log = new StringWriter(sb); to log to a string\n    // ...\n    db.SubmitChanges();\n}

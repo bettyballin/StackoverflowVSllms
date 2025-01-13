@@ -1,0 +1,1 @@
+PerfView collect -providers Microsoft-Windows-Synchronization\nPerfView analyze -etw -events Microsoft-Windows-Synchronization/SyncBlockContentio

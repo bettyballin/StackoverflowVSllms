@@ -1,1 +1,0 @@
-<form method="post" action="<?php echo htmlspecialchars(preg_replace('/[^a-zA-Z0-9\/\?=&]/', '', $_SERVER['REQUEST_URI']), ENT_QUOTES, 'UTF-8'); ?>">

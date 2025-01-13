@@ -1,0 +1,1 @@
+$select = $db->select()\n             ->from('bar')\n             ->where('a = ?', 1)\n             ->where(array('b = ?' => 2, 'OR b = ?' => 3));

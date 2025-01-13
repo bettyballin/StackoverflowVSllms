@@ -1,1 +1,0 @@
-orchadmin dump -name <dataset name> > output.txt

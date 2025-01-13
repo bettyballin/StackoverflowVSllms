@@ -1,1 +1,0 @@
-If myboolean = False Then\n    ' Your code here\nEnd If

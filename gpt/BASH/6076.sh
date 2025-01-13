@@ -1,1 +1,0 @@
-pv -tpreb /dev/source_disk | dd of=/dev/dest_disk bs=32M iflag=fullblock oflag=direct

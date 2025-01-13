@@ -1,1 +1,0 @@
-Set _NT_SYMBOL_PATH=srv*d:\SymbolCache*\\server1\Third-Party-PDB;srv*d:\SymbolCache*\\server2\Windows\Symbols*http://msdl.microsoft.com/download/symbols

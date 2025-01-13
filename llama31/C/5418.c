@@ -1,0 +1,1 @@
+#include <linux/random.h>\n\nunsigned char buffer[32];\nint ret = getrandom(buffer, 32, 0);\nif (ret != 32) {\n    // error handling\n}

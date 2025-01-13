@@ -1,0 +1,1 @@
+public class MyEntity : ITypedList\n{\n    public PropertyDescriptorCollection GetItemProperties(PropertyDescriptor[] listAccessors)\n    {\n        // Return a collection of property descriptors for your entity class\n    }\n\n    public string GetListName(PropertyDescriptor[] listAccessors)\n    {\n        // Return the name of your entity class\n    }\n}

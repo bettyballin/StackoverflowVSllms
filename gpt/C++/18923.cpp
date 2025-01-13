@@ -1,1 +1,0 @@
-#include <vector>\n\nstd::vector<int> Foo() {\n    std::vector<int> result;\n    result.push_back(1);\n    return result;  // RVO/NRVO can optimize this\n}\n\nstd::vector<int> Bar() {\n    return Foo();  // No additional copy, Foo()'s return value is moved\n}\n\nint main() {\n    std::vector<int> v = Bar();  // v is directly constructed from Foo()'s result\n    return 0;\n}

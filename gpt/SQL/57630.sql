@@ -1,1 +1,0 @@
-SELECT \n    a.BankName AS Bank, \n    a.AcctNumber AS AcctNum, \n    a.Balance, \n    ConcatenateGroups(a.id) AS Groups\nFROM \n    Accounts a;

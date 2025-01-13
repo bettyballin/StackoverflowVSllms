@@ -1,0 +1,1 @@
+case WM_COMMAND:\n    switch (LOWORD(wParam)) {\n        case ID_TEXTO2:\n            updateOkButton(hwnd);\n            break;\n    }\n    break;

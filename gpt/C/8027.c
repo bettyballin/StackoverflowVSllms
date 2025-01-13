@@ -1,1 +1,0 @@
-SetWindowLong(handle, GWL_HWNDPARENT, foo);

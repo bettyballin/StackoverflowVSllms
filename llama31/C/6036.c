@@ -1,0 +1,1 @@
+// Instead of:\na = b / c;\n\n// Use:\nd = 1 / c;\na = b * d;

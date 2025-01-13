@@ -1,0 +1,1 @@
+function sanitizeInput($input) {\n    $input = htmlspecialchars($input, ENT_QUOTES, 'UTF-8');\n    $config = HTMLPurifier_Config::createDefault();\n    $purifier = new HTMLPurifier($config);\n    return $purifier->purify($input);\n}\n\n$userInput = sanitizeInput($_POST['input']);

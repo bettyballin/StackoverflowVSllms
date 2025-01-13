@@ -1,1 +1,0 @@
-DELETE FROM YourTable\nWHERE DateColumn < DATEADD(DAY, -30, GETDATE());

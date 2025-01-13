@@ -1,1 +1,0 @@
-public ActionResult SubmitForm(FormCollection form)\n    {\n        string value = form["inputName"];\n    }

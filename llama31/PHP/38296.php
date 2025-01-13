@@ -1,0 +1,1 @@
+$text = preg_replace('|A(?:(?!A).)*C|', 'foo$0bar', $text);

@@ -1,0 +1,1 @@
+require 'bunny'\n\n# Connect to RabbitMQ\nconn = Bunny.new('amqp://localhost')\nconn.start\n\n# Create a channel\nchannel = conn.create_channel\n\n# Publish a message to the exchange\nchannel.basic_publish(\n  exchange: 'events',\n  routing_key: 'pbx_call',\n  body: { remote_extension: '1234', local_extension: '5678' }.to_json\n)

@@ -1,0 +1,1 @@
+$myObject = new MyIteratorObject();\n$myObject->rewind(); // reset the iterator\necho my_current($myObject); // get the current value\nmy_next($myObject); // move to the next element\necho my_key($myObject); // get the current key

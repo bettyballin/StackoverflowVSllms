@@ -1,1 +1,0 @@
-python3 -m venv myenv\n   source myenv/bin/activate  # On Windows use `myenv\Scripts\activate`

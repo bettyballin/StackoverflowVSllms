@@ -1,0 +1,1 @@
+class Program\n{\n    static void Main()\n    {\n        ServiceController.StartService("mysql");\n        ServiceController.StopService("mysql");\n    }\n}

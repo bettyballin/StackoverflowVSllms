@@ -1,0 +1,1 @@
+$registrations = $model->query($sql);\nforeach ($registrations as $registration) {\n    $people = explode(',', $registration['people']);\n    $entries = explode(',', $registration['entries']);\n    // Process the people and entries arrays as needed\n}

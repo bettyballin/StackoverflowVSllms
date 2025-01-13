@@ -1,1 +1,0 @@
-import importlib.resources as pkg_resources\nimport foo\n\n# Accessing an image file\nwith pkg_resources.open_binary(foo.resources, 'image1.png') as image_file:\n    image_data = image_file.read()\n\n# Accessing a JSON file\nwith pkg_resources.open_text(foo.resources, 'data.json') as json_file:\n    json_data = json_file.read()

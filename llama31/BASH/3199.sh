@@ -1,0 +1,1 @@
+# Compile and archive\ngcc -c mylib.c\nar rcs mylib.lib mylib.o

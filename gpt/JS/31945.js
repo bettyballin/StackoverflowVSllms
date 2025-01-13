@@ -1,1 +1,0 @@
-// Getting the text of an element\n   var elementText = $('#myElement').text();\n   \n   // Setting the text of an element\n   $('#myElement').text('new text');

@@ -1,0 +1,1 @@
+# Enumerate subdomains using dig\ndig +nocmd example.com ANY +multiline +noall +answer

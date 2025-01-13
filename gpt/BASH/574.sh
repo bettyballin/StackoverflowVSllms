@@ -1,1 +1,0 @@
-TESTNAME="your_custom_test"\n   NCV_your_custom_test="column1:GAUGE,column2:GAUGE"

@@ -1,1 +1,0 @@
-./sigcheck.exe -n C:\Windows\System32\kernel32.dll

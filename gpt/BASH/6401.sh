@@ -1,1 +1,0 @@
-#!/bin/bash\n\nLOG_FILE="/path/to/batch_process.log"\nif grep -q "ERROR" "$LOG_FILE"; then\n    echo "CRITICAL: Batch process failed"\n    exit 2\nelif grep -q "SUCCESS" "$LOG_FILE"; then\n    echo "OK: Batch process succeeded"\n    exit 0\nelse\n    echo "UNKNOWN: Batch process status unknown"\n    exit 3\nfi

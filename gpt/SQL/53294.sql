@@ -1,1 +1,0 @@
-INSERT INTO MyTable (Id, MyDecimalColumn) VALUES (1, 123.66);

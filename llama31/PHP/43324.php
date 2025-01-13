@@ -1,0 +1,1 @@
+$handle = fopen("file.txt", "rb");

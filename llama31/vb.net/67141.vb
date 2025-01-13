@@ -1,0 +1,1 @@
+Dim colorValues As String() = TextBox1.Text.Split(", ")\nDim colors As Integer() = colorValues.Select(Function(x) Integer.Parse(x)).ToArray()\nColorDialog1.CustomColors = colors

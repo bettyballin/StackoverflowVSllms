@@ -1,0 +1,1 @@
+.breadcrumbs a:before {\n  content: '\00a0';\n}

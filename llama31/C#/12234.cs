@@ -1,0 +1,1 @@
+[ValidateAntiForgeryToken]\npublic abstract class BaseController : Controller\n{\n    // ...\n}

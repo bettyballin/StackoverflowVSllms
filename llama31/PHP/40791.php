@@ -1,0 +1,1 @@
+class Dealer extends AppModel {\n    var $name = 'Dealer';\n    var $hasMany = array (\n        'Product' => array(\n            'className' => 'Product',\n            'conditions' => null, // or ''\n            'order' => null, // or ''\n            'foreignKey' => 'dealer_id'\n        )\n    );\n}

@@ -1,0 +1,1 @@
+#!/usr/bin/python\n\nimport cgi\nimport cgitb\n\ncgitb.enable()\n\nprint("Content-Type: text/html")\nprint()\n\nform = cgi.FieldStorage()\n\nname = form.getvalue("name")\nage = form.getvalue("age")\n\nprint("<h1>Hello, %s!</h1>" % name)\nprint("<p>You are %s years old.</p>" % age)

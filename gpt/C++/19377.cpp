@@ -1,1 +1,0 @@
-#pragma once\n\n#ifdef __cplusplus\nextern "C" {\n#endif\n\ntypedef struct IRefCounted IRefCounted;\ntypedef struct IClass IClass;\n\nstruct IRefCounted {\n    void (*AddRef)(IRefCounted* self);\n    void (*Release)(IRefCounted* self);\n};\n\nstruct IClass {\n    IRefCounted refCounted;\n    void (*PrintSomething)(IClass* self);\n};\n\n#ifdef __cplusplus\n}\n#endif

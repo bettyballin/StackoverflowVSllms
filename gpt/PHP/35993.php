@@ -1,1 +1,0 @@
-<?php\necho '<?xml version="1.0" encoding="UTF-8"?>';\necho '<root>';\nwhile ($row = mysqli_fetch_assoc($result)) {\n    echo '<item>';\n    echo '<name>' . htmlspecialchars($row['name'], ENT_QUOTES, 'UTF-8') . '</name>';\n    echo '<description>' . htmlspecialchars($row['description'], ENT_QUOTES, 'UTF-8') . '</description>';\n    echo '</item>';\n}\necho '</root>';\n?>

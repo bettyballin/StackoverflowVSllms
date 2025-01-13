@@ -1,1 +1,0 @@
-# In your Rails model or controller\nres.size == 0 ? raise(LibTH::Error::IDNotFound) : res

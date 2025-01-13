@@ -1,1 +1,0 @@
-c -zv oz.some.server.edu 465

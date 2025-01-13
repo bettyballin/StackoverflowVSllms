@@ -1,0 +1,1 @@
+<system.net>\n  <mailSettings>\n    <smtp>\n      <network\n        host="smtp.gmail.com"\n        port="587"\n        enableSsl="true"\n        userName="your-email@gmail.com"\n        password="your-password" />\n    </smtp>\n  </mailSettings>\n</system.net>

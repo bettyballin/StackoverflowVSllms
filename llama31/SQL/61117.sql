@@ -1,0 +1,1 @@
+CREATE TABLE MaintenanceMode (\n    IsMaintenanceMode bit DEFAULT 0\n);

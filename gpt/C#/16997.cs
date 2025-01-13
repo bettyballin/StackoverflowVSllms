@@ -1,1 +1,0 @@
-bool isIntegratedPipeline = HttpRuntime.UsingIntegratedPipeline;

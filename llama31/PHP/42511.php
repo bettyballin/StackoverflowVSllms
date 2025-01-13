@@ -1,0 +1,1 @@
+$tim = time();\nmysql_query("REPLACE INTO users SET ip = '$uip', lastcheck = FROM_UNIXTIME($tim)") or throwerror("part2 ".mysql_error());

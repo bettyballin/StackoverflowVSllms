@@ -1,1 +1,0 @@
-var entireContent = document.documentElement.outerHTML;\nconsole.log(entireContent);

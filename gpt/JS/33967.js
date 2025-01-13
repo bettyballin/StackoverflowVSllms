@@ -1,1 +1,0 @@
-// Example auto-save using AJAX\n   function autoSave() {\n       $.ajax({\n           url: '/saveDraft',\n           type: 'POST',\n           data: $('#form').serialize(),\n           success: function(response) {\n               console.log('Draft saved');\n           }\n       });\n   }\n\n   setInterval(autoSave, 300000); // Save every 5 minutes

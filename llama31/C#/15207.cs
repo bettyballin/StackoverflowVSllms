@@ -1,0 +1,1 @@
+// Use an obfuscation tool like Dotfuscator

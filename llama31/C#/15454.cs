@@ -1,0 +1,1 @@
+if (System.Diagnostics.Debugger.IsAttached)\n{\n    // Running under debugger, likely in Visual Studio\n    // Run main method directly\n}\nelse\n{\n    // Not running under debugger, likely installed as a service\n    // Use OnStart method to run main method\n}

@@ -1,0 +1,1 @@
+class A {\n    public function a() {\n        echo "Hello, World!";\n    }\n}\n\n(new A())->a();  // Outputs: Hello, World!

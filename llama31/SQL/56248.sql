@@ -1,0 +1,1 @@
+UPDATE b\nSET b.f2 = c.f2,\n    b.f3 = CONVERT(VARCHAR, c.f3, 101)\nFROM Table1 b\nINNER JOIN (\n    SELECT f1, f2, f3,\n    ROW_NUMBER() OVER (PARTITION BY f1 ORDER BY f3 DESC) as rn\n    FROM Server.DB.dbo.Table2\n) c ON b.f1 = c.f1 AND c.rn = 1;

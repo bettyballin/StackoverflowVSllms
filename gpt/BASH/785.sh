@@ -1,1 +1,0 @@
-/var/log/apache2/*.log {\n    weekly\n    rotate 52\n    compress\n    delaycompress\n    missingok\n    notifempty\n    create 0640 root adm\n    sharedscripts\n    postrotate\n        if [ -f /var/run/apache2.pid ]; then\n            /usr/sbin/apachectl graceful > /dev/null\n        fi\n    endscript\n}

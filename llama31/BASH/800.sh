@@ -1,0 +1,1 @@
+p4 delete //path/to/your/files/*

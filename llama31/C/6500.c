@@ -1,0 +1,1 @@
+for (int i = 0; i < 100; i += 5) {\n    // do work for i, i+1, i+2, i+3, i+4\n}

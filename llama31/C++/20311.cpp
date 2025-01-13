@@ -1,0 +1,1 @@
+#pragma omp parallel for\nfor (int i = 0; i < numElements; i++) {\n    // do work on element i\n}

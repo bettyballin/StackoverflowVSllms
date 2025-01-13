@@ -1,0 +1,1 @@
+<class name="ICompanyProperty" table="CompanyProperty" discriminator-value="BASE">\n    ...\n</class>

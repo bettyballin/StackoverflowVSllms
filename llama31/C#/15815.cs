@@ -1,0 +1,1 @@
+using System.Collections.Generic;\n\npublic class MyClass\n{\n    public List<string> GetListOfStrings()\n    {\n        List<string> listOfStrings = new List<string>();\n        listOfStrings.Add("String1");\n        listOfStrings.Add("String2");\n        listOfStrings.Add("String3");\n        return listOfStrings;\n    }\n}

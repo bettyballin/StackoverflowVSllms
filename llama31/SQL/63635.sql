@@ -1,0 +1,1 @@
+SELECT FORMAT(YourDateColumn, 'dd/MM/yyyy HH:mm:ss') AS FormattedDate\nFROM YourTable;

@@ -1,1 +1,0 @@
--- Check if the table has a primary key\nSHOW KEYS FROM your_table_name WHERE Key_name = 'PRIMARY';\n\n-- If no primary key exists, add one (assuming 'id' is a suitable column)\nALTER TABLE your_table_name ADD PRIMARY KEY (id);

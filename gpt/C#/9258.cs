@@ -1,1 +1,0 @@
-int price = (int)dr["Price"];

@@ -1,0 +1,1 @@
+# Add the gem to your Gemfile\ngem 'acts_as_taggable_on'\n\n# Run the generator to create the necessary tables\nrails generate acts_as_taggable_on:migration\n\n# Run the migration\nrake db:migrate\n\n# Add the acts_as_taggable_on method to your Question model\nclass Question < ApplicationRecord\n  acts_as_taggable_on :tags\nend

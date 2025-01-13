@@ -1,1 +1,0 @@
-try\n{\n    // Attempt to create an Excel application instance\n    var excelApp = new Microsoft.Office.Interop.Excel.Application();\n}\ncatch (COMException ex)\n{\n    Console.WriteLine("Excel is not installed on this machine.");\n    // Handle the exception accordingly\n}

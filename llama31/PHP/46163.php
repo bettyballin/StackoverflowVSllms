@@ -1,0 +1,1 @@
+error_log('Memory usage: ' . memory_get_usage() . ' bytes');

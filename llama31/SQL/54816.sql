@@ -1,0 +1,1 @@
+DECLARE @string nvarchar(50) = 'Hello, World!';\nDECLARE @value_to_remove nvarchar(10) = 'World';\n\nSET @string = REPLACE(@string, @value_to_remove, '');\nSELECT @string;  -- Returns 'Hello, !'

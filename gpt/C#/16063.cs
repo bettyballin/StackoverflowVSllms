@@ -1,1 +1,0 @@
-// Example using Serilog\n   Log.Logger = new LoggerConfiguration()\n       .WriteTo.Console()\n       .WriteTo.File("logs\\myapp.txt", rollingInterval: RollingInterval.Day)\n       .CreateLogger();\n\n   Log.Information("This is a log message.");

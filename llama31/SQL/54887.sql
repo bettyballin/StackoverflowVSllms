@@ -1,0 +1,1 @@
+CREATE TABLE ratings (\n  id INT PRIMARY KEY,\n  user_id INT,\n  rating_instance_id INT,\n  rating TINYINT,\n  created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP\n);

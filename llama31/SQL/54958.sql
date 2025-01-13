@@ -1,0 +1,1 @@
+select * from question_answer@abcd where id = '45'

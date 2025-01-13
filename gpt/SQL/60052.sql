@@ -1,1 +1,0 @@
-CREATE TRIGGER before_user_insert\n     BEFORE INSERT ON users_tb\n     FOR EACH ROW\n     BEGIN\n         DECLARE person_exists INT;\n         SELECT COUNT(*) INTO person_exists FROM people_tb WHERE person_id = NEW.person_id;\n         IF person_exists = 0 THEN\n             SIGNAL SQLSTATE '45000' SET MESSAGE_TEXT = 'Person does not exist';\n         END IF;\n     END;

@@ -1,1 +1,0 @@
-template<class T, T initial_t> \nclass Bar {\n  // something\n};\n\n// Usage\nBar<Foo*, nullptr> foo_and_bar_whatever_it_means_;

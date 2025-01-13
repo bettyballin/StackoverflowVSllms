@@ -1,1 +1,0 @@
-scp -r /path/to/checkpoint user@target_machine:/path/to/checkpoint

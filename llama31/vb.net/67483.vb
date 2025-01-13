@@ -1,0 +1,1 @@
+Dim tags As String = TextBox1.Text\nDim tagArray() As String = tags.Split(New Char() {" "c}, StringSplitOptions.RemoveEmptyEntries)

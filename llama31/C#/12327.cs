@@ -1,0 +1,1 @@
+public static int[] FindIndexes(string source, string pattern)\n{\n    List<int> indexes = new List<int>();\n    int index = source.IndexOf(pattern);\n    while (index != -1)\n    {\n        indexes.Add(index);\n        index = source.IndexOf(pattern, index + 1);\n    }\n    return indexes.ToArray();\n}

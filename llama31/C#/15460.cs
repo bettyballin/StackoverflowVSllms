@@ -1,0 +1,1 @@
+public interface ISessionHost\n{\n    UserSession UserSession { get; }\n    // Add other session-related properties/methods as needed\n}

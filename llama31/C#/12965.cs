@@ -1,0 +1,1 @@
+string html = "<html><body><h1>Hello World!</h1></body></html>";\nBitmap image = HtmlToImage.ConvertHtmlToImage(html);\nimage.Save("image.png", ImageFormat.Png);

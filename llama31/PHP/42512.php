@@ -1,0 +1,1 @@
+function remove_special_chars($string) {\n    return preg_replace('/[^\w\s]/', '', $string);\n}\n\n$string = '&nbsp; &amp; &copy;';\n$string = remove_special_chars(html_entity_decode($string, ENT_QUOTES | ENT_HTML5));\n\necho $string;

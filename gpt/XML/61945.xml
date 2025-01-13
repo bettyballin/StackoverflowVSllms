@@ -1,1 +1,0 @@
-<weblogic-web-app>\n    <container-descriptor>\n        <prefer-application-packages>\n            <package-name>com.bea.content.manager.internal.*</package-name>\n        </prefer-application-packages>\n    </container-descriptor>\n</weblogic-web-app>

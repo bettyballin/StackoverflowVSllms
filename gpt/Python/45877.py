@@ -1,1 +1,0 @@
-from selenium import webdriver\n\n# Set up the WebDriver\ndriver = webdriver.Chrome(executable_path='/path/to/chromedriver')\n\n# Navigate to a website\ndriver.get('https://www.example.com')\n\n# Perform actions on the website\nelement = driver.find_element_by_name('q')\nelement.send_keys('Selenium')\nelement.submit()\n\n# Close the browser\ndriver.quit()

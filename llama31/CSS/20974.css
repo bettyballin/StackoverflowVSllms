@@ -1,0 +1,1 @@
+#header {\n  width: 100%;\n  max-width: inherit;\n}\n\n#body {\n  width: 800px; /* or any other width */\n}\n\n#header, #body, #footer {\n  display: block;\n  margin: 0 auto;\n}

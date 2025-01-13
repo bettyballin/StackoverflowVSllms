@@ -1,0 +1,1 @@
+// Client-side load balancing using JavaScript\nfunction getServer() {\n  var servers = ['a17.ticketreservation.com', 'a18.ticketreservation.com', 'a19.ticketreservation.com'];\n  var index = Math.floor(Math.random() * servers.length);\n  return servers[index];\n}\n\n// Redirect user to a specific server\nwindow.location.href = 'http://' + getServer();

@@ -1,1 +1,0 @@
-BEGIN\n    EXECUTE IMMEDIATE 'DROP TABLE foo';\nEXCEPTION\n    WHEN OTHERS THEN\n        IF SQLCODE != -942 THEN\n            RAISE;\n        END IF;\nEND;\n/\n\nCREATE TABLE foo (\n    id NUMBER,\n    title VARCHAR2(4000) DEFAULT 'Default Title'\n);

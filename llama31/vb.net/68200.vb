@@ -1,0 +1,1 @@
+Public Function task(value As Object, toType As Type) As Object\n    Return CType(value, toType)\nEnd Functio

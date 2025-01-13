@@ -1,1 +1,0 @@
-void objc_runtime_assert(const char* file, int line, int expression, const char* func) {\n    if (!expression) {\n        fprintf(stderr, "Assertion failed: %s, function %s, file %s, line %d.\n", "expression", func, file, line);\n        abort();\n    }\n}

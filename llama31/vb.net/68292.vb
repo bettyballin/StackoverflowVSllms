@@ -1,0 +1,1 @@
+Imports System.Diagnostics\n\nPublic Class MyService\n    Protected Overrides Sub OnStart(args() As String)\n        Debugger.Launch() ' Launch the debugger\n        ' Your service initialization code here\n    End Sub\nEnd Class

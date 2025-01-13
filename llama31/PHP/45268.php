@@ -1,0 +1,1 @@
+$title = get_the_title();\necho str_replace(" ","-",strtolower($title));

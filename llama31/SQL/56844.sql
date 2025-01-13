@@ -1,0 +1,1 @@
+SELECT ListsId\nFROM ListHasNames\nWHERE NamesId IN (\n  SELECT Id\n  FROM Names\n  WHERE Name IN ('Paul', 'Joe', 'Jenny')\n)\nGROUP BY ListsId\nHAVING COUNT(DISTINCT NamesId) = 3\nAND COUNT(*) = 3;

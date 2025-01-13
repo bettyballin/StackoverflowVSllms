@@ -1,0 +1,1 @@
+<?php\nheader('Content-Type: text/xml; charset=UTF-8');\nmysql_query("SET NAMES 'utf8'");\n// retrieve data from database and generate XML\n?>

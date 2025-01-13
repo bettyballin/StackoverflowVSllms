@@ -1,1 +1,0 @@
-svn import /path/to/most-up-to-date-working-copy file:///path/to/new/repo/trunk -m "Initial import"

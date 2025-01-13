@@ -1,1 +1,0 @@
-// Using the custom constructor\nvar adapter = new YourNamespace.MyTableAdapter("your-connection-string");\n\n// Using the method to set the connection string\nvar adapter = new YourNamespace.MyTableAdapter();\nadapter.SetConnectionString("your-connection-string");

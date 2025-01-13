@@ -1,1 +1,0 @@
-session_cache_expire(15);  // 15 minutes

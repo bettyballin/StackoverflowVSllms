@@ -1,1 +1,0 @@
-git checkout master\n   git merge feature-branch

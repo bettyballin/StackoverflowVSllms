@@ -1,1 +1,0 @@
-pm install uglify-js -g\n   uglifyjs script.js -o script.min.js

@@ -1,1 +1,0 @@
-<Project Sdk="Microsoft.NET.Sdk.WindowsDesktop">\n\n  <PropertyGroup>\n    <OutputType>WinExe</OutputType>\n    <TargetFramework>net5.0-windows</TargetFramework>\n    <UseWPF>true</UseWPF>\n  </PropertyGroup>\n\n</Project>

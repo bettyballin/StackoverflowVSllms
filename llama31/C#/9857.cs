@@ -1,0 +1,1 @@
+using Microsoft.TeamFoundation.Context;\n\n// Get the current workspace\nvar workspace = Context.Current.Workspace;

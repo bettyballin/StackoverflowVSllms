@@ -1,1 +1,0 @@
-g++ -fno-access-control -o test_program test_program.cpp

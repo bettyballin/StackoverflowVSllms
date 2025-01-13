@@ -1,0 +1,1 @@
+function getSessionLife() {\n    if (!isset($_SESSION['start_time'])) {\n        $_SESSION['start_time'] = time();\n    }\n    return time() - $_SESSION['start_time'];\n}\n\n// Usage:\necho "Session has been alive for " . getSessionLife() . " seconds.";

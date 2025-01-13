@@ -1,0 +1,1 @@
+$sql = "SELECT * FROM users ORDER BY id";\n$result = mysql_query($sql);\nwhile ($row = mysql_fetch_array($result)) {\n    $dir = "C:/xampp/htdocs/freehosting/" . $row['name'];\n    $availableSpace = disk_free_space($dir);\n    echo "Name: " . $row['name'] . "\n";\n    echo "Email: " . $row['email'] . "\n";\n    echo "Diskspace Available: " . $availableSpace . "\n";\n}

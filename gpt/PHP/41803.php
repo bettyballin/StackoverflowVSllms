@@ -1,1 +1,0 @@
-<?php\n\n// Define the class\nclass cBar {\n    // Method declaration\n    public function foobar() {\n        // Code\n    }\n}\n\n// Instantiate the class\n$bar = new cBar();\n\n// Call the method\n$bar->foobar();\n\n?>

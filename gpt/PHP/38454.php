@@ -1,1 +1,0 @@
-function markNewsAsRead($userId, $newsId, $pdo) {\n    $stmt = $pdo->prepare("INSERT INTO user_read_news (user_id, news_id) VALUES (?, ?) ON DUPLICATE KEY UPDATE read_at = NOW()");\n    $stmt->execute([$userId, $newsId]);\n}

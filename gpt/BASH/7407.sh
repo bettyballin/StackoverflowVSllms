@@ -1,1 +1,0 @@
-sudo apt-get install certbot\n   sudo certbot certonly --standalone -d yourdomain.com

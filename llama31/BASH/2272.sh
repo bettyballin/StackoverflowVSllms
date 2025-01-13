@@ -1,0 +1,1 @@
+msbuild /p:PlatformTarget=x86

@@ -1,1 +1,0 @@
-<!DOCTYPE html>\n<html>\n<head>\n    <title>Widgets</title>\n</head>\n<body>\n    <h1>Widgets</h1>\n    <ul>\n        {% for widget in widgets %}\n            <li><a href="{% url 'get_item' service_name='widgets' item_id=widget.id %}">{{ widget.name }}</a></li>\n        {% endfor %}\n    </ul>\n</body>\n</html>

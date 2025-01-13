@@ -1,0 +1,1 @@
+object o = null;\nType T = typeof(Point);\n\n// Using Convert.ChangeType\no = Convert.ChangeType(o, T);\n\n// Using FormatterServices.GetUninitializedObject\no = FormatterServices.GetUninitializedObject(T);

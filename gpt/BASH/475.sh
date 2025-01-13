@@ -1,1 +1,0 @@
-split -b 1G largefile.txt part_

@@ -1,1 +1,0 @@
-protected void CallWithCreditCardCheckbox_CheckedChanged(object sender, EventArgs e)\n{\n    bool isChecked = CallWithCreditCardCheckbox.Checked;\n    RequiredFieldValidatorId.Enabled = !isChecked;\n    CustomValidatorId.Enabled = !isChecked;\n}

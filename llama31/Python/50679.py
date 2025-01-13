@@ -1,0 +1,1 @@
+import unittest\n\ndef create_test_suite():\n    test_suite = unittest.TestSuite()\n    for module in get_modules():\n        test_loader = unittest.TestLoader()\n        test_suite.addTests(test_loader.loadTestsFromModule(module))\n    return test_suite

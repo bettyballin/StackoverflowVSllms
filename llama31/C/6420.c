@@ -1,0 +1,1 @@
+ulong gf2random(ulong low, ulong high, ulong p) {\n    ulong r = (ulong)rand() % (high - low + 1); // generate random integer between 0 and high - low\n    while (r--) {\n        low = gf2step(low, p);\n    }\n    return low;\n}

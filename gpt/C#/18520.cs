@@ -1,1 +1,0 @@
-public static void RegisterRoutes(RouteCollection routes)\n   {\n       routes.MapPageRoute("TestRoute", "test", "~/test.aspx");\n       routes.MapPageRoute("AnotherRoute", "another", "~/another.aspx");\n       // Add more routes as needed\n   }

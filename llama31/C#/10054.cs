@@ -1,0 +1,1 @@
+// Create a new instance of the data repository\nvar repository = new MyRepository();\n\n// Retrieve a list of customers\nvar customers = repository.GetCustomers();\n\n// Update a customer\nvar customer = customers[0];\ncustomer.Name = "Updated Name";\nrepository.UpdateCustomer(customer);

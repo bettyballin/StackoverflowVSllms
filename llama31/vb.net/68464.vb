@@ -1,0 +1,1 @@
+Public Shared Sub Sort(Of T As IComparable(Of T))(ByVal values() As T)\n    ' implementation\nEnd Sub

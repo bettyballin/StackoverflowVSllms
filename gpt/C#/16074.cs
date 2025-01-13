@@ -1,1 +1,0 @@
-public async Task<IActionResult> GetDataAsync()\n{\n    var data = await GetDataFromDatabaseAsync();\n    return View(data);\n}\n\nprivate async Task<DataModel> GetDataFromDatabaseAsync()\n{\n    // Simulate a long-running database call\n    await Task.Delay(1000);\n    return new DataModel();\n}

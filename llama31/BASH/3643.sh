@@ -1,0 +1,1 @@
+#!/bin/bash\n\n# Mount the USS filesystem using sshfs\nsshfs user@mainframe:/path/to/uss/filesystem /mnt/uss\n\n# Convert EBCDIC files to ASCII/Unicode using iconv\nfind /mnt/uss -type f -exec iconv -f EBCDIC-US -t UTF-8 {} \;

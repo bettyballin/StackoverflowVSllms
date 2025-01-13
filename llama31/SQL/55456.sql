@@ -1,0 +1,1 @@
+CREATE TABLE integer_values (\n    id SERIAL PRIMARY KEY,\n    entity_id INTEGER NOT NULL,\n    key_id INTEGER NOT NULL,\n    value INTEGER NOT NULL\n);\n\nCREATE TABLE string_values (\n    id SERIAL PRIMARY KEY,\n    entity_id INTEGER NOT NULL,\n    key_id INTEGER NOT NULL,\n    value VARCHAR(255) NOT NULL\n);

@@ -1,0 +1,1 @@
+string inputDate = "24-08-2022";\nDateTime dateObject = DateTime.ParseExact(inputDate, "dd-MM-yyyy", null);

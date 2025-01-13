@@ -1,0 +1,1 @@
+public class CustomScrollView : ScrollView\n{\n    protected override void OnKeyDown(KeyEventArgs e)\n    {\n        // Call your event handler here\n        base.OnKeyDown(e);\n    }\n}

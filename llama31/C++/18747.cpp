@@ -1,0 +1,1 @@
+template<typename _Tp>\ntypename list<_Tp>::size_type\nlist<_Tp>::size() const _GLIBCXX_NOEXCEPT\n{ return this->_M_impl._M_node._M_data._M_size; }

@@ -1,0 +1,1 @@
+import subprocess\n\ncmd = "waitsome.py"\nproc = subprocess.Popen(cmd, shell=True, bufsize=256, stdout=subprocess.PIPE)\n\nwhile True:\n    line = proc.stdout.readline()\n    if not line:\n        break\n    print(">>> " + line.rstrip())

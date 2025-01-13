@@ -1,1 +1,0 @@
-L_000c: castclass myModelTestarea.Foo\nL_0011: ret

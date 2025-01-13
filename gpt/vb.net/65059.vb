@@ -1,1 +1,0 @@
-Class MainWindow\n    Private Sub Button1_Click(sender As Object, e As RoutedEventArgs)\n        MessageBox.Show("Hello, WPF!")\n    End Sub\nEnd Class

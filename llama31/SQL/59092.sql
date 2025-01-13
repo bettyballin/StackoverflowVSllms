@@ -1,0 +1,1 @@
+SELECT \n  f.*,\n  COUNT(fl.file_id) as file_count\nFROM \n  folders f\n  LEFT JOIN files fl ON f.folder_id = fl.folder_id\nWHERE \n  f.user_id = 16\nGROUP BY \n  f.folder_id

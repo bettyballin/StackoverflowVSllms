@@ -1,1 +1,0 @@
-signtool sign /f "path\to\your\certificate.pfx" /p "yourPfxPassword" /tr http://timestamp.digicert.com /td sha256 /fd sha256 "path\to\your\application.exe"

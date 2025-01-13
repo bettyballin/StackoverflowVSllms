@@ -1,0 +1,1 @@
+stat -c "%a %n" /path/to/file

@@ -1,0 +1,1 @@
+one:\n  name: My Recipe\n  cookbook: <%= fixture(:one, :cookbooks) %>\n\ntwo:\n  name: Another Recipe\n  cookbook: <%= fixture(:two, :cookbooks) %>

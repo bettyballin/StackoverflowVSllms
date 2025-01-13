@@ -1,0 +1,1 @@
+IEnumerable<Team> drew = fixtures\n    .Where(f => f.Played && f.HomeScore == f.AwayScore)\n    .Select(f => f.HomeTeam)\n    .Concat(fixtures\n        .Where(f => f.Played && f.HomeScore == f.AwayScore)\n        .Select(f => f.AwayTeam));

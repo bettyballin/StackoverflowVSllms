@@ -1,1 +1,0 @@
-require 'vendor/autoload.php';\n\n    $dotenv = Dotenv\Dotenv::createImmutable(__DIR__);\n    $dotenv->load();\n\n    $sitename = getenv('SITENAME');\n    $dbHost = getenv('DB_HOST');

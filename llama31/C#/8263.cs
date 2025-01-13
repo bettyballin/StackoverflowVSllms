@@ -1,0 +1,1 @@
+Response.AppendHeader("Access-Control-Allow-Origin", "*");\nResponse.AppendHeader("Access-Control-Allow-Methods", "GET, POST, OPTIONS");

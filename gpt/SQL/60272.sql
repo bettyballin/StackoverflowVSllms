@@ -1,1 +1,0 @@
-SELECT DISTINCT table_schema \nFROM information_schema.schema_privileges \nWHERE grantee = CONCAT('\'', USER(), '\'@\'', HOST(), '\'') \nAND privilege_type IN ('SELECT', 'ALL');

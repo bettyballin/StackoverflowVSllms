@@ -1,0 +1,1 @@
+jQuery('#storeListTable tr').click(function() {\n  var storeID = this.cells[0].innerHTML;\n\n  jQuery.post("get_storeData.php", { sID: storeID },\n    function(data){\n      alert(data[0].name);\n    }, "json");\n});

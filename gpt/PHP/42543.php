@@ -1,1 +1,0 @@
-<?php\nfunction getUserData($userId) {\n    // Code to fetch user data from the database\n}\n\nfunction displayUserData($userData) {\n    // Code to display user data\n}\n\n$userId = 1;\n$userData = getUserData($userId);\ndisplayUserData($userData);\n?>

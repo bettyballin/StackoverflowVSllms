@@ -1,0 +1,1 @@
+import secrets\n\n# Your list of image URLs or paths\nimage_list = [...]\n\n# Select 5 random images using secrets.choice()\nrandom_images = secrets.sample(image_list, 5)\n\n# Display the selected images\nfor image in random_images:\n    print(image)

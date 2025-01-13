@@ -1,1 +1,0 @@
-var newEntity = new MyEntity\n{\n    Id = SequentialGuid.NewSequentialGuid(),\n    // other properties\n};\ndbContext.MyEntities.InsertOnSubmit(newEntity);\ndbContext.SubmitChanges();

@@ -1,1 +1,0 @@
-SELECT SUM(myIntColumn + 0) as foo FROM myTable;

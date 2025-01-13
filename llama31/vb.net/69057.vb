@@ -1,0 +1,1 @@
+Dim letter As Char = "z"c\nIf letter = "z"c Then\n    letter = "a"c\nElse\n    letter = Chr(Asc(letter) + 1)\nEnd If\nConsole.WriteLine(letter) ' Outputs: a

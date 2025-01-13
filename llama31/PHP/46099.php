@@ -1,0 +1,1 @@
+// In your controller function\nif ($condition) {\n    // Instead of $this->redirect(['action' => 'target']);\n    $this->set('redirect', Router::url(['action' => 'target'], true));\n    $this->set('_serialize', ['redirect']);\n}

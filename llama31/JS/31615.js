@@ -1,0 +1,1 @@
+$.ajax({\n  type: "GET",\n  url: "/your-endpoint",\n  data: { param1: "value1" },\n  success: function(data) {\n    console.log(data);\n  },\n  error: function(xhr, status, error) {\n    console.error(xhr, status, error);\n  }\n});

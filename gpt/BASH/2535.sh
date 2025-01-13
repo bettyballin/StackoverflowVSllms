@@ -1,1 +1,0 @@
-signtool verify /pa "path\to\your\application.exe"

@@ -1,0 +1,1 @@
+mcli d wifi connect <SSID> password <password>

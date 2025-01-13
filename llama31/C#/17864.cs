@@ -1,0 +1,1 @@
+static void Main(string[] args)\n{\n  ServiceSoapClient s = new ServiceSoapClient();\n  s.ClientCredentials.Windows.ClientCredential.UserName = @"username";\n  s.ClientCredentials.Windows.ClientCredential.Password = @"password";\n\n  Service.RawGpsData[] result = s.GetRawGpsData(0);\n  Console.WriteLine(String.Format("done:{0}",result.Length));\n  Console.ReadLine();\n}

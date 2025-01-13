@@ -1,0 +1,1 @@
+using System.Net;\nusing System.Net.Sockets;\n\npublic static int GetAvailableTcpPort()\n{\n    using (var socket = new Socket(AddressFamily.InterNetwork, SocketType.Stream, ProtocolType.Tcp))\n    {\n        socket.Bind(new IPEndPoint(IPAddress.Loopback, 0));\n        return ((IPEndPoint)socket.LocalEndPoint).Port;\n    }\n}

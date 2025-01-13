@@ -1,1 +1,0 @@
-<configuration>\n     <system.webServer>\n       <httpErrors errorMode="Custom">\n         <remove statusCode="400" subStatusCode="-1" />\n         <error statusCode="400" path="/path-to-your-custom-error-page.html" responseMode="ExecuteURL" />\n       </httpErrors>\n     </system.webServer>\n   </configuration>

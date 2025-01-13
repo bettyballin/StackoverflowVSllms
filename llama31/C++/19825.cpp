@@ -1,0 +1,1 @@
+// constants.h\n#ifndef CONSTANTS_H\n#define CONSTANTS_H\n\nconstexpr char const* str1 = "message1";\nconstexpr char const* str2 = "message2";\nconstexpr char const* str3 = "message3";\n\n#endif  // CONSTANTS_H

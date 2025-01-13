@@ -1,0 +1,1 @@
+DECLARE\n  v_oracle_home VARCHAR2(255);\nBEGIN\n  DBMS_SYSTEM.KSDWRT(v_oracle_home, 'ORACLE_HOME');\n  DBMS_OUTPUT.PUT_LINE(v_oracle_home);\nEND;

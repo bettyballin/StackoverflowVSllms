@@ -1,0 +1,1 @@
+public class StringLengthValidator\n{\n    public bool IsValid(object value, int maxLength)\n    {\n        if (value == null) return true;\n        string strValue = value.ToString();\n        return strValue.Length <= maxLength;\n    }\n}

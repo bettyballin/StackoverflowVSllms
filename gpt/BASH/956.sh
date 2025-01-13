@@ -1,1 +1,0 @@
-jarsigner -verify "C:\my path\myJar.jar"

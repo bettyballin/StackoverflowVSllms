@@ -1,1 +1,0 @@
-[FileIOPermission(SecurityAction.LinkDemand, Read = @"C:\example.txt")]\n    public void ReadFile()\n    {\n        // Method implementation\n    }

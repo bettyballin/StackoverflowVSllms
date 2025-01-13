@@ -1,0 +1,1 @@
+SELECT * FROM questions\nWHERE id > :cursor\nORDER BY id DESC\nLIMIT :limit;

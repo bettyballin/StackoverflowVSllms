@@ -1,1 +1,0 @@
-UPDATE YourTableName\nSET address = REPLACE(REPLACE(address, CHAR(13), ''), CHAR(10), '')

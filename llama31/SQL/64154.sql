@@ -1,0 +1,1 @@
+GRANT PROXY_USERS TO <proxy_user>;

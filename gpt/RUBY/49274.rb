@@ -1,1 +1,0 @@
-Rails.application.routes.draw do\n  resources :sites do\n    resources :buildings, only: [:create, :destroy] do\n      resources :meters, only: [:create, :destroy] do\n        resources :values, only: [:create, :destroy]\n      end\n    end\n  end\n\n  get 'site_manager', to: 'site_manager#index'\nend

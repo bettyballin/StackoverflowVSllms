@@ -1,0 +1,1 @@
+var query = session.Query<User>()\n    .Where(u => u.Country == country)\n    .ToList();

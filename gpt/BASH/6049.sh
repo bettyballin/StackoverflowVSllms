@@ -1,1 +1,0 @@
-sudo smem -c "pid user command pss" | grep <process_name>

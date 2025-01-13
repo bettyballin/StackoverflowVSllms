@@ -1,1 +1,0 @@
-public class UserDialogService : IUserDialogService\n{\n    public string ShowModalDialog(string question)\n    {\n        // Implementation for showing a dialog and getting user input\n        // For example, using a MessageBox in WPF:\n        return MessageBox.Show(question, "Question", MessageBoxButton.YesNo) == MessageBoxResult.Yes ? "Yes" : "No";\n    }\n}

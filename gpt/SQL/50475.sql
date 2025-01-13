@@ -1,1 +1,0 @@
-UPDATE \n       [YourTableName]\n   SET \n       [YourDateField] = CDate(Mid([YourTextDateField], 1, InStr([YourTextDateField], " ") - 1) & " " & Mid([YourTextDateField], InStr([YourTextDateField], " ") + 1))\n   WHERE \n       IsDate([YourTextDateField]) = True;

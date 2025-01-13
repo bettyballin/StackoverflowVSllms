@@ -1,0 +1,1 @@
+# Write a small, self-contained function\ndef validate_user_input(input_str):\n    if len(input_str) < 5:\n        raise ValueError("Input string is too short")\n    return input_str\n\n# Test the function immediately\ntry:\n    validate_user_input("hello")\n    print("Test passed")\nexcept ValueError as e:\n    print(f"Test failed: {e}")

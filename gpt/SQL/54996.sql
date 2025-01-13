@@ -1,1 +1,0 @@
-BEGIN TRANSACTION;\n\n-- Your SQL operations here\n\nCOMMIT;\n-- or\n-- ROLLBACK;

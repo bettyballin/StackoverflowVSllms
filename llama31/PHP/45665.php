@@ -1,0 +1,1 @@
+ini_set('memory_limit', '64M'); // set memory limit to 64MB

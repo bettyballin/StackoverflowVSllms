@@ -1,1 +1,0 @@
-#include <stdint.h>\n\nint32_t myInt32; // 32-bit integer\nint64_t myInt64; // 64-bit integer

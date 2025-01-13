@@ -1,1 +1,0 @@
-sudo m4 /etc/mail/sendmail.mc > /etc/mail/sendmail.cf\n   sudo systemctl restart sendmail

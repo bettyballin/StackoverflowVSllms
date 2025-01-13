@@ -1,0 +1,1 @@
+var xmldata = (function() {\n    new Ajax('xmldata.jsp?time='+$time(), {\n        method: 'get',\n        onComplete: dataLoaded,\n        autoCancel: true\n    }).request();\n    // Call CollectGarbage() every 10 minutes\n    setTimeout(function() {\n        CollectGarbage();\n    }, 600000); // 10 minutes\n}).periodical(10000);

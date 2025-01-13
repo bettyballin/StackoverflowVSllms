@@ -1,1 +1,0 @@
-SELECT * \nFROM books \nWHERE title LIKE "%text%" OR description LIKE "%text%" \nORDER BY (title LIKE "%text%") DESC, date

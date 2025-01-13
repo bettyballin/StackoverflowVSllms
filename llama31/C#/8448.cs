@@ -1,0 +1,1 @@
+public interface ISerializableConstraint\n{\n    bool IsSerializable();\n}\n\npublic class SerializableConstraint<T> : ISerializableConstraint\n{\n    public bool IsSerializable()\n    {\n        return typeof(T).IsSerializable;\n    }\n}\n\npublic class MyClass<T> where T : ISerializableConstraint\n{\n    // Implementation\n}

@@ -1,0 +1,1 @@
+// Example subscription management class\nclass SubscriptionManager {\n    public function createSubscription( User $user, $plan ) {\n        // Create a subscription and update the user's is_paid_member property\n    }\n\n    public function updateSubscription( User $user, $status ) {\n        // Update the subscription status and user's is_paid_member property\n    }\n}

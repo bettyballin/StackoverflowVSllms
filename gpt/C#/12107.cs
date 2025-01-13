@@ -1,1 +1,0 @@
-public void ProcessDogOwner(DogOwner owner)\n{\n    NHibernateUtil.Initialize(owner.OwnedAnimal);\n    Dog dog = (Dog)owner.OwnedAnimal;\n    // your processing logic here\n}

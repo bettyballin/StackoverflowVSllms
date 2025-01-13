@@ -1,0 +1,1 @@
+Dim number As Double = 12.53467345\nDim truncatedNumber As Double = Math.Truncate(number)\nConsole.WriteLine(truncatedNumber)  ' Outputs: 12

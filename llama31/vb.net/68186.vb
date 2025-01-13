@@ -1,0 +1,1 @@
+Dim tableToFill As New DataTable()\ntableToFill.Capacity = 100 ' Set the capacity to a smaller value\nadapter.Fill(tableToFill)

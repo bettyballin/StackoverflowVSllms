@@ -1,0 +1,1 @@
+SELECT * FROM [Customer]\nWHERE [LastName] = 'Torres'\nAND COALESCE([MiddleName], '') = COALESCE(@MiddleName, '')

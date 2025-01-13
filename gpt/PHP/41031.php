@@ -1,1 +1,0 @@
-class My_Form_Element_CustomButton extends Zend_Form_Element_Submit\n{\n    public function init()\n    {\n        $this->setAttrib('class', 'my-custom-button-class');\n        $this->setLabel('My Custom Button');\n    }\n}\n\n// Usage:\n$form = new Zend_Form();\n$customButton = new My_Form_Element_CustomButton('myButton');\n$form->addElement($customButton);

@@ -1,1 +1,0 @@
-use Symfony\Component\HttpFoundation\Response;\n\n    $response = new Response('Content', Response::HTTP_OK, ['content-type' => 'text/html']);\n    $response->send();

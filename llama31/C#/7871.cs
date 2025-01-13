@@ -1,0 +1,1 @@
+// Function type\ninterface StringToInt {\n    int apply(String s);\n}\n\n// Closure\nStringToInt length = (String s) => s.length();\n\n// Using the closure\nint lengthOfHello = length.apply("Hello");

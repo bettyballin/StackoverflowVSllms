@@ -1,0 +1,1 @@
+INSERT INTO mytable (myfield) VALUES (' ');  -- insert a space

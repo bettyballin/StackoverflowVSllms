@@ -1,0 +1,1 @@
+telnet mail.example.com 25

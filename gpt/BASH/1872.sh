@@ -1,1 +1,0 @@
-mysql -u yourusername -p yourdatabase -e "INSERT INTO yourtable (id, data) VALUES (1, 0x$(cat yourfile.hex));"

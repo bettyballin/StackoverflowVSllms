@@ -1,0 +1,1 @@
+public List<object> CategoriesToList()\n{\n  return this.Values.Cast<object>().ToList();\n}

@@ -1,0 +1,1 @@
+[HttpGet]\npublic JsonResult GetLatestData()\n{\n    // Retrieve the latest data from the database table\n    var data = db.TableName.OrderByDescending(x => x.Id).Take(10).ToList();\n\n    // Return the data as JSON\n    return Json(data, JsonRequestBehavior.AllowGet);\n}

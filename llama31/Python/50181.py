@@ -1,0 +1,1 @@
+import hmac\nimport hashlib\nimport time\n\nsecret_key = "your_shared_secret_key"\nsite_url = "https://calling-site.com"\ntimestamp = int(time.time())\n\nsignature = hmac.new(secret_key.encode(), (site_url + str(timestamp)).encode(), hashlib.sha256).hexdigest()

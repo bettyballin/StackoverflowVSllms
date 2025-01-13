@@ -1,0 +1,1 @@
+import hmac\nimport hashlib\n\n# Shared secret key established through secure key exchange\nshared_secret_key = b"your_shared_secret_key_here"\n\n# Message to be signed\nmessage = b"User's high score: 1000"\n\n# Generate HMAC\nhmac_signature = hmac.new(shared_secret_key, message, hashlib.sha256).digest()\n\n# Send the message and HMAC signature to the server

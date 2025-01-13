@@ -1,1 +1,0 @@
-php artisan make:model ModelName\n   php artisan make:controller ControllerName\n   php artisan make:migration create_table_name

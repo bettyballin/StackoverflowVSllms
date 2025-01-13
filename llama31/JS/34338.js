@@ -1,0 +1,1 @@
+// Example usage:\nvar viewer = new ViewerJS({\n  container: document.getElementById('pdf-container'),\n  pdf: 'path/to/your/pdf/file.pdf',\n  logo: 'path/to/your/company/logo.png'\n});

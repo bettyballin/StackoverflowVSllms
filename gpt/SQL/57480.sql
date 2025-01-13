@@ -1,1 +1,0 @@
-ALTER TABLE your_table ADD COLUMN sort_value VARCHAR(255);

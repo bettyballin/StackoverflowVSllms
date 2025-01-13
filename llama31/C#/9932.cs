@@ -1,0 +1,1 @@
+using WatiN.Core.DialogHandlers;\n\n// Set the DialogWatcher to throw an exception when an unhandled dialog appears\nSettings.AutoCloseDialogs = false;\nSettings.ThrowExceptionOnUnhandledDialog = true;

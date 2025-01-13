@@ -1,1 +1,0 @@
-using System.Diagnostics;\n\nProcess app = new Process();\napp.StartInfo.FileName = @"bin\convert.exe";\napp.StartInfo.Arguments = TheArgs;\napp.Start(); // Start the process first\n\n// Now set the priority\napp.PriorityClass = ProcessPriorityClass.BelowNormal;

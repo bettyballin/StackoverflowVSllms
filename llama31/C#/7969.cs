@@ -1,0 +1,1 @@
+protected void Application_Start(object sender, EventArgs e)\n{\n    // Disable IIS authentication\n    HttpContext.Current.GetOwinContext().Authentication.AuthenticationMode = AuthenticationMode.None;\n}

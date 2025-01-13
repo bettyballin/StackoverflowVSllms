@@ -1,1 +1,0 @@
-SELECT \n    CAST(seconds / 86400 AS VARCHAR) + ':' + \n    RIGHT('0' + CAST((seconds % 86400) / 3600 AS VARCHAR), 2) AS human_readable_time\nFROM \n    your_table;

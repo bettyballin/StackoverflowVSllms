@@ -1,0 +1,1 @@
+foreach ($results as $result) {\n    $item_id = $result['id'];\n    $checked = in_array($item_id, $_SESSION['selected_items']) ? 'checked' : '';\n    echo '<input type="checkbox" name="select_item[]" value="' . $item_id . '" ' . $checked . '>';\n}

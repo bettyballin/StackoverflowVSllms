@@ -1,1 +1,0 @@
-SELECT Nz(Field1, 0) AS Field1, Nz(Field2, '') AS Field2, Nz(Field3, 0) AS Field3\nFROM [qry vaBaseQuery-S2]\nUNION ALL\nSELECT Nz(Field1, 0) AS Field1, Nz(Field2, '') AS Field2, Nz(Field3, 0) AS Field3\nFROM [qry BaseQuery];

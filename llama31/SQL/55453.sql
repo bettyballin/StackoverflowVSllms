@@ -1,0 +1,1 @@
+SELECT word, synonym\nFROM table\nORDER BY word;

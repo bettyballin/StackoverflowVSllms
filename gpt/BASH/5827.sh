@@ -1,1 +1,0 @@
-gsk8capicmd_64 -certreq -create -db yourkey.kdb -label "your_cert_label" -dn "CN=your_common_name" -size 2048 -stashed

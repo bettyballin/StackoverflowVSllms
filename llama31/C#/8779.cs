@@ -1,0 +1,1 @@
+string text = "Your text here";\nFont font = new Font("Arial", 12);\nSize printArea = new Size(200, 200);\nSize textSize = MeasureString(text, font, printArea);

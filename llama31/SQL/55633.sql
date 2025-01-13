@@ -1,0 +1,1 @@
+SELECT *\nFROM Products\nINNER JOIN Services USING (IdService)

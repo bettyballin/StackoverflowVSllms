@@ -1,0 +1,1 @@
+// Check if the PEAR/PECL module is available\nif (extension_loaded('module_name')) {\n    // Use the PEAR/PECL module\n    require_once 'PEAR/Module.php';\n    $module = new Module();\n    // ...\n} else {\n    // Fallback to native PHP implementation\n    require_once 'Fallback/Implementation.php';\n    $fallback = new FallbackImplementation();\n    // ...\n}

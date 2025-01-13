@@ -1,1 +1,0 @@
-#ifndef FILE_NAME_H\n    #define FILE_NAME_H\n    // Class definitions and declarations\n    #endif // FILE_NAME_H

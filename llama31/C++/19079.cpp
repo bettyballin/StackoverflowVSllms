@@ -1,0 +1,1 @@
+while (fgets(cLine, sizeof(cLine), file)) {\n    str.append((string)cLine);\n    // Remove newline character\n    if (!str.empty() && str.back() == '\n') {\n        str.pop_back();\n    }\n}\nfputs(str.c_str(), file);\n_chsize(fileno(file), (int)str.size());

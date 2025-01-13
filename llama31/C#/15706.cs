@@ -1,0 +1,1 @@
+DataTable dt = // retrieve data from SQL Server...\n\nforeach (DataRow row in dt.Rows)\n{\n    DateTime utcDate = DateTime.SpecifyKind((DateTime)row["DateColumn"], DateTimeKind.Utc);\n    row["DateColumn"] = utcDate.ToLocalTime();\n}

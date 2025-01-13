@@ -1,0 +1,1 @@
+Func<string, bool> RegexValidate = s => System.Text.RegularExpressions.Regex.IsMatch(s, @"\d(?:\D*\d){6,}");

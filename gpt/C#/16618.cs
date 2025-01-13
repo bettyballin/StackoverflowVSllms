@@ -1,1 +1,0 @@
-// Right-click on your project in Solution Explorer -> Properties -> Build\n   // Set Platform target to x86

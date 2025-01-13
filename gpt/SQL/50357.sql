@@ -1,1 +1,0 @@
--- Using <>\nSELECT * FROM Employees WHERE Salary <> 50000;\n\n-- Using !=\nSELECT * FROM Employees WHERE Salary != 50000;

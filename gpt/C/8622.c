@@ -1,1 +1,0 @@
-if (ABS(p43.x)  < EPS && ABS(p43.y)  < EPS && ABS(p43.z)  < EPS) return(FALSE);

@@ -1,0 +1,1 @@
+// ManagedDLL.h\n#pragma once\n\nclass __declspec(dllexport) UnmanagedClass {\npublic:\n    UnmanagedClass();\n    ~UnmanagedClass();\n    void DoSomething();\n};\n\n// ManagedDLL.cpp\n#include "ManagedDLL.h"\n\nUnmanagedClass::UnmanagedClass() {}\nUnmanagedClass::~UnmanagedClass() {}\nvoid UnmanagedClass::DoSomething() {}

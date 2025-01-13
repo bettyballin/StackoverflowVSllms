@@ -1,0 +1,1 @@
+[Authorize]\npublic class ProtectedController : Controller\n{\n  [HttpGet]\n  public ActionResult ProtectedEndpoint()\n  {\n    // Only accessible if the user is authenticated\n  }\n}

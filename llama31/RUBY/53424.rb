@@ -1,0 +1,1 @@
+# controllers/application_controller.rb\nclass ApplicationController < ActionController::API\n  before_action :rate_limit\nend\n\n# lib/rate_limit.rb\nclass RateLimit\n  def initialize(request)\n    @request = request\n  end\n\n  def call\n    # Rate limit the request\n  end\nend

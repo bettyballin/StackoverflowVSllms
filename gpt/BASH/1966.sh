@@ -1,1 +1,0 @@
-sqlplus / as sysdba @kill_sessions.sql

@@ -1,0 +1,1 @@
+using (TransactionScope ts = new TransactionScope())\n{\n    try\n    {\n        // Perform database operations here\n        // ...\n        ts.Complete();\n    }\n    catch (Exception ex)\n    {\n        // Handle exception and rollback transaction\n        ts.Dispose();\n        throw;\n    }\n}

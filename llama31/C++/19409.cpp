@@ -1,0 +1,1 @@
+// Fractal midpoint displacement algorithm\nfloat fractalMidpointDisplacement(float x, float y, float roughness, float lacunarity) {\n  // ...\n}

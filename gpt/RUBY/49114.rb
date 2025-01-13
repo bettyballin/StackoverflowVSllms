@@ -1,1 +1,0 @@
-Rails.application.routes.draw do\n     resources :countries do\n       collection do\n         get 'search'\n         get 'index_full'\n       end\n       member do\n         get 'show_by_name'\n       end\n     end\n   end

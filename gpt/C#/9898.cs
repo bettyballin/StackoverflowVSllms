@@ -1,1 +1,0 @@
-var method = new DynamicMethod("MyMethod", typeof(void), new Type[] { typeof(TextWriter), typeof(MyClass) }, typeof(MyClass).Module, true);

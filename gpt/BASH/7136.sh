@@ -1,1 +1,0 @@
-# Open Services.msc\n   # Check for services like "Visual Studio Team Foundation Background Job Agent" and make sure they are running

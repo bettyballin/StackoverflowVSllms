@@ -1,0 +1,1 @@
+string requestedUrl = Request.Url.OriginalString;

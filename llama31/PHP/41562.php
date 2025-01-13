@@ -1,0 +1,1 @@
+header('Content-Disposition: attachment; filename="your_file.pdf"');

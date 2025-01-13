@@ -1,1 +1,0 @@
-with open('large_file.txt', 'r', buffering=8192) as file:\n       contents = file.read()

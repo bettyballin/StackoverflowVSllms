@@ -1,1 +1,0 @@
--- Examples\n   GetCustomer (for a single customer)\n   GetCustomers (for multiple customers)

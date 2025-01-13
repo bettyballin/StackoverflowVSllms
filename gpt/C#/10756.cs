@@ -1,1 +1,0 @@
-using (var context = new YourDataContext())\n{\n    var query = from t in context.TypeTable\n                select new\n                {\n                    t.ID,\n                    t.Name\n                };\n\n    foreach (var item in query)\n    {\n        TypeEnum typeEnum = GetTypeEnum(item.ID);\n        // Use the typeEnum as needed\n    }\n}

@@ -1,0 +1,1 @@
+Public Class MyEnumClass(Of T)\n    Public MyValue As T\n\n    Public Function GetIntegerValue() As Integer\n        If GetType(T).IsEnum Then\n            Return Convert.ToInt32(MyValue)\n        Else\n            Throw New InvalidOperationException("T is not an enumeration type")\n        End If\n    End Function\nEnd Class

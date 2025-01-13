@@ -1,1 +1,0 @@
-// With error suppression\n$connect = @mysql_connect('localhost', 'root', 'password');\n\n// Without error suppression\n$connect = mysql_connect('localhost', 'root', 'password');

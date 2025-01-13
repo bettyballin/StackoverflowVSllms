@@ -1,0 +1,1 @@
+// Specify a specific version of a shared component\n<PackageReference Include="SharedComponent" Version="1.2.3" />

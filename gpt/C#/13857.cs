@@ -1,1 +1,0 @@
-// Encrypt the data using AES\nbyte[] encryptedData = aesEncrypt(data, symmetricKey);\n\n// Create a digital signature using HMAC\nbyte[] signature = hmacSign(encryptedData, hmacKey);\n\n// Combine the encrypted data and the signature\nToken token = new Token(encryptedData, signature);\n\n// Send the token to the recipient\nsend(token);

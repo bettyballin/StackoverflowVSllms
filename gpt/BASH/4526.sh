@@ -1,1 +1,0 @@
-paste -d '' - - - - < yourfile.txt > unfolded_file.txt

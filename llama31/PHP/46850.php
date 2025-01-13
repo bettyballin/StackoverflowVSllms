@@ -1,0 +1,1 @@
+$template_file = 'path/to/template.php';\n$parent_template_file = 'path/to/parent/template.php';\n\n$view = new View($template_file);\n$view->template->extend($parent_template_file);\n\necho $view->render();

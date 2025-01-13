@@ -1,0 +1,1 @@
+CREATE TABLE example (\n  id INT PRIMARY KEY,\n  is_active BIT,\n  status TINYINT\n);

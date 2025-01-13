@@ -1,1 +1,0 @@
-sudo apt install libapache2-mod-security2\n    sudo a2enmod security2\n    sudo systemctl restart apache2\n\n    sudo apt install libapache2-mod-evasive\n    sudo a2enmod evasive\n    sudo systemctl restart apache2

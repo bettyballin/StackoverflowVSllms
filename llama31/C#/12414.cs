@@ -1,0 +1,1 @@
+private bool ValidateServerCertificate(object sender, X509Certificate certificate, X509Chain chain, SslPolicyErrors sslPolicyErrors)\n{\n    // Implement your own certificate validation logic here\n    return true; // or false, depending on your validation result\n}

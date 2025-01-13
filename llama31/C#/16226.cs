@@ -1,0 +1,1 @@
+using System;\nusing System.Runtime.InteropServices;\n\nnamespace MyLinuxService\n{\n    [DllImport("libc")]\n    public static extern int getpid();\n\n    public class MyService\n    {\n        public void DoSomething()\n        {\n            int pid = getpid();\n            Console.WriteLine($"Process ID: {pid}");\n        }\n    }\n}

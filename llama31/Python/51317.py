@@ -1,0 +1,1 @@
+def backup_chatbot_training_data(data):\n    # Backup data to prevent data loss\n    backup_data(data)\n    return True

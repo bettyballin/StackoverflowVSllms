@@ -1,0 +1,1 @@
+using System.Web.Mobile;\n\n// Check if the request is from a mobile device\nif (Request.Browser.IsMobileDevice)\n{\n    // Serve mobile-specific content\n}

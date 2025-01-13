@@ -1,0 +1,1 @@
+li::marker {\n  content: url('your-bullet-image.png');\n  vertical-align: middle;\n}

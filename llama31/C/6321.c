@@ -1,0 +1,1 @@
+#include <stdio.h>\n#include <string.h>\n\nint main() {\n    char dest[10];\n    const char *src = "Hello, World!";\n\n    // Using strcpy_s from TR 24731-1\n    strcpy_s(dest, sizeof(dest), src);\n\n    printf("%s\n", dest);\n\n    return 0;\n}

@@ -1,0 +1,1 @@
+document.getElementById("radioButtonId").innerHTML = "New Text";

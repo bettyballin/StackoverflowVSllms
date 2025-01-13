@@ -1,0 +1,1 @@
+$a = new Foo;\n$a->bar();\n$a->baz->fromBaz();

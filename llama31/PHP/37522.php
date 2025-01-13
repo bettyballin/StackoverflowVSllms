@@ -1,0 +1,1 @@
+use PhpZip\ZipFile;\n\n$zipFile = new ZipFile('example.zip');\n$zipFile->extract('path/to/extract');

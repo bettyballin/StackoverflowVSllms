@@ -1,1 +1,0 @@
-[HttpPost]\n    [ValidateAntiForgeryToken]\n    public ActionResult SubmitForm(Model model)\n    {\n        // Process form\n    }

@@ -1,1 +1,0 @@
-<system.webServer>\n     <modules runAllManagedModulesForAllRequests="true"/>\n     <handlers>\n       <remove name="BlockViewHandler"/>\n       <add name="BlockViewHandler" path="*" verb="*" preCondition="integratedMode" type="System.Web.HttpNotFoundHandler" />\n     </handlers>\n   </system.webServer>

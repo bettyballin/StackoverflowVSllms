@@ -1,1 +1,0 @@
-chmod 700 /path/to/directory

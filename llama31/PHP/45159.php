@@ -1,0 +1,1 @@
+// File: example.php\necho "Hello, World!";\n\n// Main script\ninclude 'example.php';\nfile_put_contents('example.php', '<?php echo "Goodbye, World!";');\ninclude 'example.php';

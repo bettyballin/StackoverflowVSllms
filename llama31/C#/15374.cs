@@ -1,0 +1,1 @@
+string dllPath = @"C:\Path\To\DAL.dll";\nAssembly dalAssembly = Assembly.LoadFrom(dllPath);

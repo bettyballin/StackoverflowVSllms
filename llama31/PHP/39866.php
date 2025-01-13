@@ -1,0 +1,1 @@
+$this->addElement('text', 'audience_total', array(\n    'label'      => 'Audience Total :',\n    'required'   => true,\n    'filters'    => array('Digits'),\n    'size'       => 15,\n    'validators' => array(\n        'Digits',\n        array('GreaterThan', false, array('min' => 10)) // validate if input is greater than 10\n    )\n));

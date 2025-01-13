@@ -1,1 +1,0 @@
-window.onbeforeunload = function() {\n       sessionStorage.removeItem('searchResults');\n       sessionStorage.removeItem('searchTerm');\n   };

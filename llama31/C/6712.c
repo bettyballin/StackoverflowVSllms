@@ -1,0 +1,1 @@
+if (pVol->dbcv_devicetype == DBT_DEVTYP_VOLUME) {\n    // Handle the volume arrival\n}

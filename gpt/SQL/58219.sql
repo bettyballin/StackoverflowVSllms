@@ -1,1 +1,0 @@
-INSERT INTO example (id, column1) VALUES (UUID(), 'test');

@@ -1,0 +1,1 @@
+use PHPUnit\Framework\TestCase;\n\nclass MyTestCase extends TestCase\n{\n    private $object;\n\n    protected function setUp(): void\n    {\n        $this->object = new MyObject();\n    }\n\n    public function testUseObject()\n    {\n        // use the object\n        // assertions\n    }\n\n    protected function tearDown(): void\n    {\n        // destroy the object\n    }\n}

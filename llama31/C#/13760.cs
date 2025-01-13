@@ -1,0 +1,1 @@
+[CustomAuthorize]\npublic class MyController : Controller\n{\n    public ActionResult MyAction()\n    {\n        // This action will only be accessible if the user is authorized\n    }\n}

@@ -1,0 +1,1 @@
+#include <malloc.h>\n\n// ...\n\nsize_t size = malloc_usable_size(translatedArray[i]);\nprintf("Allocated size: %zu\n", size);

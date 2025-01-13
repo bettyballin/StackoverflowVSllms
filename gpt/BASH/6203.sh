@@ -1,1 +1,0 @@
-ytprofhtml\n   firefox nytprof/index.html

@@ -1,0 +1,1 @@
+// a.c\nstatic void print_matrix() {\n    // function implementation\n}\n\n// main.c\n#include "a.c"\nint main() {\n    print_matrix(); // Error: print_matrix is not visible\n    return 0;\n}

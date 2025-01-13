@@ -1,0 +1,1 @@
+#include <curl/curl.h>\n\n// Example: Send a GET request to control pan\nCURL *curl;\ncurl_global_init(CURL_GLOBAL_DEFAULT);\ncurl = curl_easy_init();\nif(curl) {\n    curl_easy_setopt(curl, CURLOPT_URL, "http://camera_ip:port/pan?angle=45");\n    curl_easy_perform(curl);\n    curl_easy_cleanup(curl);\n}\ncurl_global_cleanup();

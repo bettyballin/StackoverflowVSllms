@@ -1,0 +1,1 @@
+_m.cacheClean(MageSessionProvider.GetSession(), "catalog_product_" + product.SKU);

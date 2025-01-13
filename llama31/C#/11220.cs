@@ -1,0 +1,1 @@
+var context = HttpContext.Current;\nvar user = context.User; // gets the IPrincipal object representing the user\nvar request = context.Request; // gets the HttpRequest object representing the current request\nvar url = request.Url; // gets the URL of the current request

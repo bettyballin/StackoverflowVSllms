@@ -1,1 +1,0 @@
-// Example in PHP\n    try {\n        // Your email sending logic here\n    } catch (Exception $e) {\n        error_log($e->getMessage());\n        die("An error occurred, please try again later");\n    }

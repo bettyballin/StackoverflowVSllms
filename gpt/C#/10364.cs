@@ -1,1 +1,0 @@
-String connStr = "Data Source=DB;User id=<USER>;Password=<PASSWORD>;Connection Timeout=30;";

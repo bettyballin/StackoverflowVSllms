@@ -1,1 +1,0 @@
-DECLARE @total_seconds INT\nSET @total_seconds = 3661  -- example total seconds value\n\nDECLARE @hours INT\nDECLARE @minutes INT\nDECLARE @seconds INT\n\nSET @hours = @total_seconds / 3600\nSET @minutes = (@total_seconds % 3600) / 60\nSET @seconds = @total_seconds % 60\n\nSELECT @hours AS Hours, @minutes AS Minutes, @seconds AS Seconds

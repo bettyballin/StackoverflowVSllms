@@ -1,1 +1,0 @@
-protected void Session_End(Object sender, EventArgs e)\n{\n    // Cleanup code here\n}

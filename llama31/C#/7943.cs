@@ -1,0 +1,1 @@
+public static class Queries\n{\n    private const string GetUserQuery = @"\n        SELECT *\n        FROM users\n        WHERE id = @id\n    ";\n\n    // Other queries...\n}

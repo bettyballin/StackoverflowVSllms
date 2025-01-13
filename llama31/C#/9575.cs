@@ -1,0 +1,1 @@
+using System.Diagnostics;\n\n// Create an event log source with a custom permission set\nEventLogSource source = new EventLogSource("MyEventLogSource", "MyLog");\nsource.PermissionSet = new EventLogPermissionSet(EventLogPermissionAccess.Write);

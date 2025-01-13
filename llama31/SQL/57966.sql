@@ -1,0 +1,1 @@
+SELECT * \nFROM your_table \nWHERE DATE >= CURDATE() \nAND DATE < DATE_FORMAT($nextWeek, '%Y-%m-%d');

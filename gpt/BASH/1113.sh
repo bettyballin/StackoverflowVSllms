@@ -1,1 +1,0 @@
-tcset --device eth0 --rate 1Mbps --delay 100ms

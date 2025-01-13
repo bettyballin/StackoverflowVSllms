@@ -1,0 +1,1 @@
+using System.IO.MemoryMappedFiles;\n\n// Create a memory-mapped file\nusing (var mmf = MemoryMappedFile.CreateNew("myMMF", 1024))\n{\n    // Write the integer to the MMF\n    using (var stream = mmf.CreateViewStream())\n    {\n        using (var writer = new BinaryWriter(stream))\n        {\n            writer.Write(42);\n        }\n    }\n}

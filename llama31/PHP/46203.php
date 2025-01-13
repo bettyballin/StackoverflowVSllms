@@ -1,0 +1,1 @@
+$input = "Hello ' World";\n$escaped_input = mysql_real_escape_string($input); // outputs "Hello \' World"\nmysql_query("INSERT INTO table (column) VALUES ('$escaped_input')");\n\n// when you retrieve the data\n$result = mysql_query("SELECT column FROM table");\n$data = mysql_fetch_row($result);\necho $data[0]; // outputs "Hello ' World" (without escape characters)

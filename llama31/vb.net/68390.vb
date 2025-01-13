@@ -1,0 +1,1 @@
+[RequiresSTA]\nPublic Sub MyTest()\n    ' Your test code here\nEnd Sub

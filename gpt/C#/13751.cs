@@ -1,1 +1,0 @@
-// Store user ID in session\nSession["UserID"] = userId;

@@ -1,1 +1,0 @@
-DECLARE @location_ids NVARCHAR(MAX) = '2,3,4,5'\n\nSELECT DISTINCT name, location_id, application_id \nFROM apps\nWHERE ((application_id IS NULL) OR (application_id = '4'))\nAND ((location_id IS NULL) OR (location_id IN (SELECT number FROM iter$simple_intlist_to_tbl(@location_ids))))

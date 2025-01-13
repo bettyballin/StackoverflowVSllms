@@ -1,0 +1,1 @@
+/* Add the following CSS rules to fix the issue in IE */\n\ndiv.dd {\n  overflow: hidden; /* add this to contain the floated elements */\n}\n\ndiv.dd div.blue, div.dd div.green, div.dd div.red {\n  display: inline-block; /* change from block to inline-block */\n  float: none; /* remove float */\n  vertical-align: top; /* add vertical alignment */\n}

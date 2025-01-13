@@ -1,1 +1,0 @@
-0 * * * * /usr/bin/unison -batch

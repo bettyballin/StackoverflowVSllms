@@ -1,1 +1,0 @@
-CREATE TABLE MyPartitionedTable (\n       ID int,\n       Data varchar(100)\n   ) ON MyPartitionScheme(ID);

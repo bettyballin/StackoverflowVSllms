@@ -1,0 +1,1 @@
+from PIL import Image\n\n# Create a new image with a resolution of 300 PPI\nimg = Image.new('RGB', (1024, 768), resolution=(300, 300))\n\n# Save the image as a PNG file\nimg.save('image.png')

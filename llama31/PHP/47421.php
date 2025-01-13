@@ -1,0 +1,1 @@
+$args = array('arg1', 'arg2');\ncall_user_func_array(array($obj, $methodName), $args);

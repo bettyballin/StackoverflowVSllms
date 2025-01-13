@@ -1,1 +1,0 @@
-amespace YourNamespace\n{\n    class Program\n    {\n        static void Main(string[] args)\n        {\n            string outputPath = Path.GetTempPath();\n            DllLoader.LoadEmbeddedDll("YourNamespace.Skype4COM.dll", outputPath);\n\n            // Your code that uses Skype4COM.dll\n        }\n    }\n}

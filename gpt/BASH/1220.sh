@@ -1,1 +1,0 @@
-# Example of installing MinGW on Windows using MSYS2\npacman -S mingw-w64-x86_64-gcc

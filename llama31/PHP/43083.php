@@ -1,0 +1,1 @@
+<?php\n$referer = $_GET['referer'];\n$end = $_GET['end'];\n\nif (!preg_match('#^(http|https|ftp)://#', $referer) || !preg_match('#^(http|https|ftp)://#', $end)) {\n    header('HTTP/1.1 400 Bad Request');\n    exit;\n}\n\nheader('Referer: ' . $referer);\nheader('Location: ' . $end);\nexit;\n?>

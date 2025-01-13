@@ -1,0 +1,1 @@
+$category_id = get_cat_ID('teen'); // Replace 'teen' with your category slug\n$posts = get_posts(array(\n    'category' => $category_id,\n    'numberposts' => -1 // Load all posts in the category\n));\n\nforeach ($posts as $post) {\n    // Render the post content\n    the_title();\n    the_content();\n}

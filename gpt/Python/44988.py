@@ -1,1 +1,0 @@
-import urllib2\n\nresponse = urllib2.urlopen('http://example.com')\npage_content = response.read()\nprint(page_content)

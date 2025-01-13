@@ -1,0 +1,1 @@
+ls -l /bin\nls -l /lib\nls -l /usr/lib\nls -l /sbi

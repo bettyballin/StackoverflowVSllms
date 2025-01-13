@@ -1,1 +1,0 @@
-def find_model_as_with_all_model_bs(model_b_ids)\n  ModelA.joins(:model_bs)\n        .where(model_bs: { id: model_b_ids })\n        .group('model_as.id')\n        .having('COUNT(model_bs.id) = ?', model_b_ids.size)\nend

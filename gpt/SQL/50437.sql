@@ -1,1 +1,0 @@
-SELECT \n    value,\n    value - LAG(value, 1) OVER (ORDER BY id) AS difference\nFROM \n    table_name;

@@ -1,1 +1,0 @@
-<?php\n// Define the path to your .bat file\n$batFilePath = "C:\\path\\to\\your\\file.bat";\n\n// Use the 'popen' function to execute the .bat file\npopen("start /B cmd.exe /C $batFilePath", "r");\n?>

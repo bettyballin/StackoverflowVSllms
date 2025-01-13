@@ -1,0 +1,1 @@
+// Example in C\nuint8_t opcode_indices[256];\n\nvoid execute_opcode(uint8_t opcode) {\n    uint8_t index = opcode_indices[opcode];\n    switch (index) {\n        case 0:\n            // handle opcode 0\n            break;\n        case 1:\n            // handle opcode 1\n            break;\n        ...\n    }\n}

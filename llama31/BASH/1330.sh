@@ -1,0 +1,1 @@
+ssh user@IP "source ~/.bashrc && env"

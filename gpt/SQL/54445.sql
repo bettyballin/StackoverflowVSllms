@@ -1,1 +1,0 @@
-INSERT OR REPLACE INTO cache (key, generation)\nVALUES ('your_key', COALESCE((SELECT generation + 1 FROM cache WHERE key = 'your_key'), 0));

@@ -1,0 +1,1 @@
+// Get the PolicyManager\nCORBA::PolicyManager_var pm = orb->get_policy_manager();\n\n// Create a TimeoutPolicy\nCORBA::TimeoutPolicy_var tp = pm->create_timeout_policy(30000); // 30 seconds\n\n// Apply the policy to your CORBA object\nyour_corba_object->_set_policy_overrides(tp, CORBA::POLICY_OVERRIDE_ALL);

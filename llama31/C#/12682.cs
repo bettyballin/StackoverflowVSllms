@@ -1,0 +1,1 @@
+da.RowUpdated += (sender, e) => {\n    if (e.StatementType == StatementType.Insert) {\n        // execute a separate query to retrieve the @@IDENTITY value\n        SqlCommand getIdCmd = new SqlCommand("SELECT @@IDENTITY", da.SelectCommand.Connection);\n        int newId = (int)getIdCmd.ExecuteScalar();\n        // do something with the new id...\n    }\n};

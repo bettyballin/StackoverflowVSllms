@@ -1,0 +1,1 @@
+.container {\n  display: flex;\n  flex-direction: column;\n  height: calc(100vh - 20px); /* subtract 20px from viewport height */\n}\n\n.middle-cell {\n  flex-grow: 1; /* fill available space */\n}\n\n.top-cell, .bottom-cell {\n  height: 10px;\n}

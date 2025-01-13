@@ -1,1 +1,0 @@
-cscript c:\InetPub\AdminScripts\adsutil.vbs CREATE /P W3SVC/1/Root/YourVirtualDirectoryName IIsWebVirtualDir\n   cscript c:\InetPub\AdminScripts\adsutil.vbs SET /P W3SVC/1/Root/YourVirtualDirectoryName/Path PhysicalPath

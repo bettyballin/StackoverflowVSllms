@@ -1,0 +1,1 @@
+-- Use snapshot isolation\nALTER DATABASE mydatabase SET ALLOW_SNAPSHOT_ISOLATION ON;\n\n-- Use row-level versioning\nALTER TABLE mytable SET (READ_COMMITTED_SNAPSHOT = ON);

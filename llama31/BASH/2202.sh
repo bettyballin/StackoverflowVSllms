@@ -1,0 +1,1 @@
+aspnet_compiler -v / -p "C:\Path\To\Website" -f "C:\Path\To\Output"

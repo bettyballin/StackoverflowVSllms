@@ -1,0 +1,1 @@
+ALTER TABLESPACE <tablespace_name> SHRINK SPACE;

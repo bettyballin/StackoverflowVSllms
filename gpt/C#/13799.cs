@@ -1,1 +1,0 @@
-ICriteria criteria = session.CreateCriteria(typeof(YourEntity));\ncriteria.SetMaxResults(15);\nIList<YourEntity> result = criteria.List<YourEntity>();

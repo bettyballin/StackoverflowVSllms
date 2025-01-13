@@ -1,0 +1,1 @@
+certmgr -add -f ClickOnceCert.cer -s -r localmachine -root

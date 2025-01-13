@@ -1,0 +1,1 @@
+function foo() {\n  alert('foo');\n}\n\nvar test = 'foo';\n\nwindow[test]();  // This calls foo()

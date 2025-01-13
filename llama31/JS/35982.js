@@ -1,0 +1,1 @@
+$("#the_div ul li").each(function(index) {\n  $(this).text("Item " + (index + 1));\n});

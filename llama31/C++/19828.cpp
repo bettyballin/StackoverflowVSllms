@@ -1,0 +1,1 @@
+#include "myfunctions.h"\n\n// Another function that uses myFunction\nvoid anotherFunction() {\n    myFunction(5);\n}\n\n// Definition of myFunction\nvoid myFunction(int x) {\n    // Function body\n}

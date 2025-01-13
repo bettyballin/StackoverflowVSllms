@@ -1,0 +1,1 @@
+public string RemoveAttribute(string source, string tag, string attribute)\n{\n    string pattern = string.Format(@"<{0}[^>]*\b{1}=""[^""]*""", tag, attribute);\n    return System.Text.RegularExpressions.Regex.Replace(source, pattern, match =>\n    {\n        return match.Value.Replace(attribute + "=\"\"", "");\n    });\n}

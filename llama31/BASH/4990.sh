@@ -1,0 +1,1 @@
+svn --proxy=http://<proxy_host>:<proxy_port> checkout <svn_url>

@@ -1,0 +1,1 @@
+create temp table _results (group_ser int, item_ser int, restype char(4));\n\ninsert into _results (group_ser, item_ser, restype)\nselect \n      group_ser, item_ser, CAST(NULL AS CHAR(4))\nfrom\n      sometable

@@ -1,0 +1,1 @@
+output.Rows[r][c] = int.Parse(input.Rows[c - 1][r + 1].ToString()).ToString("N0");

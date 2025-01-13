@@ -1,0 +1,1 @@
+adsutil set w3svc/1/ServerBindings ":80:site1.local"\nadsutil set w3svc/2/ServerBindings ":80:site2.local"

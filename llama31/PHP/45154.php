@@ -1,0 +1,1 @@
+public function beforeValidate($options = array()) {\n    $controllers = App::objects('Controller');\n    $controllerNames = array_keys($controllers);\n    if (in_array($this->data['User']['username'], $controllerNames)) {\n        return false;\n    }\n    // ... rest of your validation logic ...\n}

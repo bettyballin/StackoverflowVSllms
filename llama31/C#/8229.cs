@@ -1,0 +1,1 @@
+public class Customer\n{\n    public int CustomerId { get; set; } // maps to int primary key in database\n    // other properties...\n}

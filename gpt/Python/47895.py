@@ -1,1 +1,0 @@
-import os\nimport glob\n\nfor file in glob.glob('**/*.tex', recursive=True):\n    new_name = file[:-4]  # Removes the '.tex' extension\n    os.rename(file, new_name)

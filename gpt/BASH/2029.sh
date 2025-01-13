@@ -1,1 +1,0 @@
-sudo dtrace -c ./real_program -o out.dtrace\n     dtrace -s script.d -o profile.out

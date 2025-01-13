@@ -1,0 +1,1 @@
+div#collection {\n    margin: 0 0 0 0;\n    padding: 0 0 0 0;\n    border: 0 0 0 0;\n    float: right;\n    width: 200px;\n    min-height: 200px; /* adjust this value as needed */\n    background: white;\n    overflow-y: auto;\n}

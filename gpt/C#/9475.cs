@@ -1,1 +1,0 @@
-public class SampleController : BaseController\n{\n    public ActionResult Index()\n    {\n        // Perform validation and add warnings\n        if (someConditionForWarning)\n        {\n            CustomViewData.ModelStateWarnings.AddModelError("WarningKey", "This is a warning message.");\n        }\n\n        return View();\n    }\n}

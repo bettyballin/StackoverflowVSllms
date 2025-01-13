@@ -1,0 +1,1 @@
+SELECT B.column_b_1_descr AS COLUMN1, A.*\nFROM TRANSACTION_TABLE A\nJOIN CATEGORY_TABLE B\n  ON A.column1 = B.column_b_1 AND B.FIELDNAME = 'column1'\nWHERE A.column1 IS NOT NULL AND A.column1 <> ' ';

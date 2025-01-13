@@ -1,0 +1,1 @@
+# Before\n$ ls -l\n-rwxr-x index.php\n\n# Try to write to the file\n$ echo "Hello World!" >> index.php\n-bash: index.php: Permission denied\n\n# After changing the Apache user or ownership\n$ ls -l\n-rwxr-x index.php\n\n$ echo "Hello World!" >> index.php\n# No permission denied error!

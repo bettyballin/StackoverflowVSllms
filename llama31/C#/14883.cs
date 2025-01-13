@@ -1,0 +1,1 @@
+using MvvmCross.Plugin.Messenger;\n\npublic class ChatViewModel : MvxViewModel\n{\n    private readonly IMvxMessenger _messenger;\n\n    public ChatViewModel(IMvxMessenger messenger)\n    {\n        _messenger = messenger;\n    }\n\n    public void SendMessage(string message)\n    {\n        _messenger.Publish(new Message(this, message));\n    }\n}

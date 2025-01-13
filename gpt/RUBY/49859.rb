@@ -1,1 +1,0 @@
-gem 'jquery-rails'\ngem 'jquery-ui-rails'

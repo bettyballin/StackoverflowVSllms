@@ -1,0 +1,1 @@
+SELECT * \nFROM orders o\nWHERE o.orderdate BETWEEN @startdate AND @enddate\nAND (@Closed = 1 AND o.ClosedDate IS NULL) OR (@Closed = 0 AND o.ClosedDate IS NOT NULL)

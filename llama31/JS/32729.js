@@ -1,0 +1,1 @@
+$.ajax({\n    type: 'GET',\n    url: 'your-php-page.php',\n    dataType: 'html',\n    success: function(response) {\n        // response will be UTF-8 encoded\n        $('#your-element').html(response);\n    }\n});

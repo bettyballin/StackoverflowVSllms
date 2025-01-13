@@ -1,0 +1,1 @@
+SELECT sid, serial#, username, sql_text \nFROM v$session \nWHERE sql_text LIKE '%BEGIN%' \n  OR sql_text LIKE '%CALL%';

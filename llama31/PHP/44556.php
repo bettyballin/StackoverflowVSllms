@@ -1,0 +1,1 @@
+<?php\n  mb_internal_encoding("UTF-8");\n  echo "mb_internal_encoding: " . mb_internal_encoding();\n?>

@@ -1,0 +1,1 @@
+if (mysql_num_rows($result) > 0) {\n    for ($i = 1; $row = mysql_fetch_array($result); $i++) {\n        $output .= "<keyword>" . $_POST['keyword'] . "</keyword><name>" . $row['url'] . "</name><occur>" . $row['occurrences'] . "</occur><queryTime>" . (substr($end_time - $start_time, 0, 5)) . "</queryTime>";\n    }\n} else {\n    $output .= "no";\n}

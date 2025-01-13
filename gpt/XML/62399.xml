@@ -1,1 +1,0 @@
-<configuration>\n  <system.web>\n    <sessionState cookieName="SecureSessionId" cookiePath="/Secure" />\n  </system.web>\n</configuration>

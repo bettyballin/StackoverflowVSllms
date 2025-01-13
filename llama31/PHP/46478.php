@@ -1,0 +1,1 @@
+$string = "my name is xyz(25)";\n$pattern = '/\((\d+)\)/';\npreg_match($pattern, $string, $match);\n$value = $match[1];\necho $value; // outputs: 25

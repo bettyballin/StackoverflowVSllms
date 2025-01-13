@@ -1,0 +1,1 @@
+Dim request As HttpWebRequest = CType(WebRequest.Create(msgURL), HttpWebRequest)\nDim response As HttpWebResponse = CType(request.GetResponse(), HttpWebResponse)\nDim stream As Stream = response.GetResponseStream()

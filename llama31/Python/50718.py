@@ -1,0 +1,1 @@
+# example_project.py\n\n"""\nExample project using Django.\n\nAuthor: [Developer Name]\nDate: [Date]\n"""\n\nimport os\nimport django\n\n# Define project settings\nPROJECT_ROOT = os.path.dirname(os.path.abspath(__file__))\nSECRET_KEY = 'your_secret_key_here'\n\n# Set up Django\ndjango.setup()\n\n# Define models, views, and templates according to Django best practices

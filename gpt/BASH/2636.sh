@@ -1,1 +1,0 @@
-sqlldr user/pass control=control.ctl

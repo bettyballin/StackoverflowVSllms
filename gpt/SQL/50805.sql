@@ -1,1 +1,0 @@
-SELECT DISTINCT [typeName]\n    FROM [types] WITH (INDEX(IX_TypeName));

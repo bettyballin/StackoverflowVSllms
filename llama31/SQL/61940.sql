@@ -1,0 +1,1 @@
+CREATE TABLE Example (\n    Id BIGINT IDENTITY(1,1) PRIMARY KEY,\n    Data VARCHAR(50)\n);\n\n-- Insert some data...\nINSERT INTO Example (Data) VALUES ('A'), ('C'), ('B');\n\n-- Query without ORDER BY\nSELECT * FROM Example;\n\n-- Query with ORDER BY\nSELECT * FROM Example ORDER BY Id;

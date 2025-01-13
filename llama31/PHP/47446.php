@@ -1,0 +1,1 @@
+$search_keywords = mysqli_real_escape_string($conn, $_GET["search_keywords"]);

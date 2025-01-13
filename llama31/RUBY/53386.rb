@@ -1,0 +1,1 @@
+class AddAvatarToUsers < ActiveRecord::Migration[6.0]\n  def change\n    add_column :users, :avatar, :binary\n  end\nend

@@ -1,0 +1,1 @@
+BEGIN\n  DBMS_JAVA.SET_CLASSPATH('<schema_name>.<jar_file_name>');\nEND;\n/

@@ -1,0 +1,1 @@
+// Example usage:\nvar canvas = new fabric.Canvas('myCanvas');\ncanvas.setWidth(500);\ncanvas.setHeight(500);\n\nvar rect = new fabric.Rect({\n  left: 100,\n  top: 100,\n  width: 100,\n  height: 100,\n  fill: 'rgba(255,0,0,0.5)'\n});\ncanvas.add(rect);

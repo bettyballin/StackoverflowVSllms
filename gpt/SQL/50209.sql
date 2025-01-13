@@ -1,1 +1,0 @@
-CREATE INDEX idx_old_table_record ON old_table (record_id, data_field);\n     CREATE INDEX idx_new_table_record ON new_table (record_id, data_field);\n     CREATE INDEX idx_new_table_index ON new_table_index (index_id);

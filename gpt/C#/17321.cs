@@ -1,1 +1,0 @@
-// Retrieve dataset from session\nif (Session["MyDataSet"] != null)\n{\n    DataSet myDataSet = (DataSet)Session["MyDataSet"];\n}\nelse\n{\n    // Handle the case where the session has expired or dataset is not available\n}

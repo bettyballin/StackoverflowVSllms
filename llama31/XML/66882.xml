@@ -1,0 +1,1 @@
+<rewrite>\n  <rules>\n    <rule name="Redirect Old Page" stopProcessing="true">\n      <match url="old-page.html" />\n      <action type="Rewrite" url="new-page.aspx" />\n    </rule>\n  </rules>\n</rewrite>

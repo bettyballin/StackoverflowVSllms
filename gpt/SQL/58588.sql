@@ -1,1 +1,0 @@
-BEGIN TRANSACTION\nSELECT * FROM table1 WITH (UPDLOCK) WHERE condition\nINSERT INTO table2 (columns) VALUES (values)\nUPDATE table1 SET pointer = value WHERE condition\nCOMMIT TRANSACTION

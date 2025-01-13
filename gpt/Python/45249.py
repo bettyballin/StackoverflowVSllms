@@ -1,1 +1,0 @@
-#!/usr/bin/env python3\n\nimport cgi\nimport cgitb\n\n# Enable debugging\ncgitb.enable()\n\nprint("Content-type: text/html\n")\nprint("<html><head>")\nprint("<title>CGI Script</title>")\nprint("</head><body>")\nprint("<h2>Hello, CGI World!</h2>")\nprint("</body></html>")

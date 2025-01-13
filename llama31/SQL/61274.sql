@@ -1,0 +1,1 @@
+CREATE OR REPLACE TYPE tablea_rec IS OBJECT (id NUMBER, b NUMBER, c NUMBER);\nCREATE OR REPLACE TYPE tablea_tab IS TABLE OF tablea_rec;\n\nCREATE OR REPLACE PROCEDURE bulk_insert_tablea(p_data IN tablea_tab) AS\nBEGIN\n    FORALL i IN p_data.FIRST .. p_data.LAST\n    INSERT INTO tablea (id, b, c) VALUES (tablea_seq.nextval, p_data(i).b, p_data(i).c);\nEND;

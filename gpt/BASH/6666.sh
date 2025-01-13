@@ -1,1 +1,0 @@
-*/5 * * * * /path/to/process_queue.sh

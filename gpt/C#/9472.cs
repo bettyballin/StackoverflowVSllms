@@ -1,1 +1,0 @@
-XmlNodeList kvpsList = pattern.SelectNodes(@"*/*");

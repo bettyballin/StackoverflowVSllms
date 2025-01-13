@@ -1,0 +1,1 @@
+Kohana::init(array(\n    'base_url'   => '/',\n    'index_file' => FALSE,\n    'public'     => 'public',\n));

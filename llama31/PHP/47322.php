@@ -1,0 +1,1 @@
+$loadavg = sys_getloadavg();\nif ($loadavg[0] > 0.7) { // adjust the threshold value as needed\n    echo "Server is busy";\n} else {\n    echo "Server is not busy";\n}

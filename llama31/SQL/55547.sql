@@ -1,0 +1,1 @@
+INSERT INTO myView (myColumn, anotherColumn)\nVALUES (@myColumn, @anotherColumn);

@@ -1,0 +1,1 @@
+DECLARE @sql nvarchar(max) = ''\n\nSELECT @sql += 'UPDATE ' + TABLE_NAME + ' SET ' + COLUMN_NAME + ' = DATEADD(year, 1, ' + COLUMN_NAME + ');'\nFROM INFORMATION_SCHEMA.COLUMNS\nWHERE DATA_TYPE = 'datetime'\n\nEXEC sp_executesql @sql

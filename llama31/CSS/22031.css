@@ -1,0 +1,1 @@
+.element {\n    zoom: 1;\n    *zoom: 1; /* for IE6 */\n}

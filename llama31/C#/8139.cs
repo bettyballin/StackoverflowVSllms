@@ -1,0 +1,1 @@
+using System.IO;\nusing System.Text;\nusing System.Web.UI;\n\npublic string GetHtml(UserControl control)\n{\n    var writer = new StringWriter();\n    control.RenderControl(new HtmlTextWriter(writer));\n    return writer.ToString();\n}

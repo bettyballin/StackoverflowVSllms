@@ -1,0 +1,1 @@
+tuples = [\n    ('url#id1', 'url#predicate1', 'value1'),\n    ('url#id1', 'url#predicate2', 'value2'),\n    ('url#id1', 'url#predicate3', 'value3'),\n    ('url#id2', 'url#predicate1', 'value4'),\n    ('url#id2', 'url#predicate2', 'value5')\n]\n\ntable = format_tuples(tuples)\nprint(table)

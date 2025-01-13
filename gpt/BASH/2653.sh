@@ -1,1 +1,0 @@
-winscp.com /command "open ftp://username:password@ftp.example.com -proxy=socks5://proxy.example.com:1080" "put localfile.txt remotefile.txt" "exit"

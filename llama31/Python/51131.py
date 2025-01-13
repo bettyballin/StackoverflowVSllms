@@ -1,0 +1,1 @@
+import glob\nimport fnmatch\n\ndirectory = '/path/to/your/folder'\npattern = '*tmp*.log'\n\nfiles = [f for f in glob.glob(directory + '/**/*', recursive=True) \n         if fnmatch.fnmatch(f.lower(), pattern.lower())]\n\nfor file in files:\n    print(file)

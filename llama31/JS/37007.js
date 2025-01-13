@@ -1,0 +1,1 @@
+var src = '{ &#034;menu&#034;: &#034;Reallocate:&#034;} ';\nvar decodedSrc = src.replace(/&#034;/g, '"');\nvar data = JSON.parse(decodedSrc);

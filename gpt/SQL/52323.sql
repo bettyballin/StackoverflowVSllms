@@ -1,1 +1,0 @@
-CREATE TABLE users (\n    id INT AUTO_INCREMENT PRIMARY KEY,\n    username VARCHAR(255) NOT NULL UNIQUE,\n    password_hash VARCHAR(255) NOT NULL\n);\n\nCREATE TABLE sessions (\n    session_id VARCHAR(255) PRIMARY KEY,\n    user_id INT,\n    expires_at DATETIME,\n    FOREIGN KEY (user_id) REFERENCES users(id)\n);

@@ -1,1 +1,0 @@
-Button btn = new Button();\n// Set properties for the button\nbtn.Text = "Click Me";\nbtn.Location = new Point(10, 10);\n// Add the button to the form's control collection\nthis.Controls.Add(btn);

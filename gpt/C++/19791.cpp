@@ -1,1 +1,0 @@
-#import "path\to\output\mydll.tlb" rename("PropertyA", "get_PropertyA")

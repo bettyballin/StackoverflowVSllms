@@ -1,1 +1,0 @@
-CREATE INDEX content_idx ON documents(content) INDEXTYPE IS CTXSYS.CONTEXT;

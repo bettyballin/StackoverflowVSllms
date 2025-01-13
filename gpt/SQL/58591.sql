@@ -1,1 +1,0 @@
-SELECT DISTINCT r1.idCustomer \nFROM reservations r1\nLEFT JOIN (\n  SELECT DISTINCT idCustomer \n  FROM reservations \n  WHERE DATEPART(hour, insertDate) < 2 \n  AND idCustomer IS NOT NULL\n) r2 ON r1.idCustomer = r2.idCustomer\nWHERE r2.idCustomer IS NULL

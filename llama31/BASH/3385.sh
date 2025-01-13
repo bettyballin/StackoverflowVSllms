@@ -1,0 +1,1 @@
+phpdoc -d path/to/project -t path/to/output

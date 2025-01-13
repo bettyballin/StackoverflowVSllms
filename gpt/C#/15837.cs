@@ -1,1 +1,0 @@
-class Program\n{\n    static void Main(string[] args)\n    {\n        ICoreService coreService = new CoreService();\n        IPlugin plugin = new PluginImplementation(coreService);\n\n        plugin.Run();\n    }\n}

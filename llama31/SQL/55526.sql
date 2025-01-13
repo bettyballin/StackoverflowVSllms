@@ -1,0 +1,1 @@
+SELECT CASE\n       WHEN EXISTS (\n              SELECT 1\n              FROM [dbo].[TEST_TABLE]\n              WHERE refID = @refID\n              AND (newFirstName IS NOT NULL OR newLastName IS NOT NULL)\n       ) THEN 1\n       ELSE 0\nEND AS HasSuggestedChanges

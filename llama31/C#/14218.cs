@@ -1,0 +1,1 @@
+bool a = true;\nbool b = false;\n\n// Bitwise OR\nbool result1 = a | b;  // Evaluates both a and b\nConsole.WriteLine(result1);  // Outputs: True\n\n// Logical OR\nbool result2 = a || b;  // Short-circuits, only evaluates a\nConsole.WriteLine(result2);  // Outputs: True

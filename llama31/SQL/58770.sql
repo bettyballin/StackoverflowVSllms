@@ -1,0 +1,1 @@
+SELECT *\nFROM YourMainTable\nINNER JOIN (\n  SELECT YourPK, YourAggregateField\n  FROM YourSubqueryTable\n  GROUP BY YourPK\n  HAVING YourCondition\n) AS DerivedTable\nON YourMainTable.YourPK = DerivedTable.YourPK

@@ -1,1 +1,0 @@
-Using cn As New System.Data.SqlClient.SqlConnection()\n    cn.Open()\n    ' {do a bunch of other stuff with commands and datareaders here}\n    ' No need to call cn.Close()\nEnd Using

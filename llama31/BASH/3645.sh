@@ -1,0 +1,1 @@
+* `curl` with the `--write-out` option: `curl -o /dev/null -s -w %{time_total} http://example.com`\n* `ab` (Apache Bench): `ab -n 100 -c 10 http://example.com/`\n* `siege`: `siege -c10 -t30s http://example.com/`

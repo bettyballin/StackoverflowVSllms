@@ -1,1 +1,0 @@
-SELECT usename, count(*) as active_connections\nFROM pg_stat_activity\nGROUP BY usename\nORDER BY active_connections DESC;

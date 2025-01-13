@@ -1,0 +1,1 @@
+// Set secure cookie for real session\nsession_start();\nsession_regenerate_id(true);\nsetcookie('session_id', session_id(), ['secure' => true, 'httponly' => true]);\n\n// Set non-secure cookie as flag for login status\nsetcookie('logged_in', 'yes', ['secure' => false, 'httponly' => false]);

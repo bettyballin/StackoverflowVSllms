@@ -1,1 +1,0 @@
-IQuery listQuery = this.Session.GetNamedQuery("SearchStuff");\nlistQuery.SetInt32(0, param1);\nlistQuery.SetDateTime(1, param2);\nlistQuery.SetString(2, param3);  // Assume param3 is already string and handles null\nIList<ResultEntity> results = listQuery.List<ResultEntity>();

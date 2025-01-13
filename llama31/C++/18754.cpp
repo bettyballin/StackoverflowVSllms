@@ -1,0 +1,1 @@
+#include <atlcomcli.h>\n\n// ...\n\nHRESULT hr = // some COM function that returns an HRESULT\nif (FAILED(hr)) {\n    _com_error err(hr);\n    // err.Description() now contains a human-readable description of the error\n}

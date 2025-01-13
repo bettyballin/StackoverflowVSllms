@@ -1,1 +1,0 @@
-SELECT AVG(vote) AS average_vote FROM votes WHERE gid = $gid;

@@ -1,1 +1,0 @@
-chown -R apache:apache /path/to/your/repositories\n    chmod -R 770 /path/to/your/repositories

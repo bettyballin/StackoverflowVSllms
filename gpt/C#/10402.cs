@@ -1,1 +1,0 @@
-<%= Html.TextBoxFor(model => model.MyControl, new { @class = ViewData.ModelState["mycontrol"].Errors.Any() ? "input-validation-error" : "" }) %>\n    <%= Html.ValidationMessageFor(model => model.MyControl) %>

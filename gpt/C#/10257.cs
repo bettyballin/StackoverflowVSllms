@@ -1,1 +1,0 @@
-public class TestController : Controller\n{\n    [HttpPost]\n    public JsonResult GetTestJsonData([FromBody] Metadata data)\n    {\n        return new JsonResult(data);\n    }\n}

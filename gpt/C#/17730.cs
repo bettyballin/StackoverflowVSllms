@@ -1,1 +1,0 @@
-public JsonResult YourActionMethod()\n{\n    var data = new\n    {\n        Variable1 = "value1",\n        Variable2 = "value2"\n    };\n\n    return Json(data, JsonRequestBehavior.AllowGet);\n}

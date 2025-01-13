@@ -1,1 +1,0 @@
-SELECT *\nFROM (\n    SELECT *\n    FROM MM.test_1(dbo.test_2(kp.id))\n) AS derivedTable\nWHERE derivedTable.id = 4679;

@@ -1,0 +1,1 @@
+require_once 'nusoap.php';\n\n$client = new nusoap_client('http://example.com/soap/wsdl', true);\n$client->soap_defencoding = 'UTF-8';\n$client->decode_utf8 = false;\n\n$multipart = array(\n    'filename' => 'example.txt',\n    'filedata' => file_get_contents('example.txt')\n);\n\n$result = $client->call('uploadFile', $multipart);

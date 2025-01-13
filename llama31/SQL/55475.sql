@@ -1,0 +1,1 @@
+DECLARE\n  file_handle UTL_FILE.FILE_TYPE;\nBEGIN\n  file_handle := UTL_FILE.FOPEN('/path/to/output/file.txt', 'w');\n  FOR cur_rec IN (SELECT * FROM TEST) LOOP\n    UTL_FILE.PUT_LINE(file_handle, cur_rec.column1 || ',' || cur_rec.column2 || ',' || ...);\n  END LOOP;\n  UTL_FILE.FCLOSE(file_handle);\nEND;\n/

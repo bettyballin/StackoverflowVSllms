@@ -1,1 +1,0 @@
-DB_NAME="your_database"\nUSER="username"\nPASSWORD="password"\nEXCLUDED_TABLES="table1 table2"\n\n# List all tables and exclude the ones specified\nTABLES=$(mysql -u $USER -p$PASSWORD -Nse 'SHOW TABLES' $DB_NAME | grep -v -E "$(echo $EXCLUDED_TABLES | sed 's/ /|/g')")\n\n# Dump the remaining tables\nmysqldump -u $USER -p$PASSWORD $DB_NAME $TABLES > database.sql

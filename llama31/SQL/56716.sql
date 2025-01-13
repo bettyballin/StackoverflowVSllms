@@ -1,0 +1,1 @@
+ALTER TABLE table1\nADD COLUMN field2 text DEFAULT 'value';

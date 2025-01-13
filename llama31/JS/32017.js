@@ -1,0 +1,1 @@
+document.addEventListener('DOMContentLoaded', function() {\n  var userSelect = document.querySelector('select[name="user"]');\n  userSelect.addEventListener('keydown', function() {\n    setTimeout(SetLocationOptions, 0);\n  });\n});

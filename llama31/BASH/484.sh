@@ -1,0 +1,1 @@
+rsync -avz --delete --backup --backup-dir=/path/to/backup/repo /path/to/source/ /path/to/destination/

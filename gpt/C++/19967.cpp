@@ -1,1 +1,0 @@
-#include "K.h"\n\nint main() {\n    K::a = 10;\n    K::b = 20;\n    // Use the static members as needed\n    return 0;\n}

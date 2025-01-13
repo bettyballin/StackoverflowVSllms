@@ -1,0 +1,1 @@
+public class CustomUserNameValidator : UserNamePasswordValidator\n{\n    public override void Validate(string userName, string password)\n    {\n        // Validate the username and password against your database or authentication system\n    }\n}

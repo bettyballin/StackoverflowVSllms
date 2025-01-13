@@ -1,0 +1,1 @@
+string labelText = date.ToString("yyyy-MM-dd HH:mm:ss");

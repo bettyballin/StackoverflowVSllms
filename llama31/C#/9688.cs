@@ -1,0 +1,1 @@
+// Use the generated parser\nusing Antlr4.Runtime;\n\nclass MyDslParser\n{\n    public void Parse(string input)\n    {\n        var lexer = new MyDslLexer(new AntlrInputStream(input));\n        var parser = new MyDslParser(new CommonTokenStream(lexer));\n        var tree = parser.prog();\n        // Process the abstract syntax tree (AST)\n    }\n}

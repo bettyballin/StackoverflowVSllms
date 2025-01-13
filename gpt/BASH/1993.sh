@@ -1,1 +1,0 @@
-g++ -o add_exif_to_jpeg add_exif_to_jpeg.cpp -lexiv2

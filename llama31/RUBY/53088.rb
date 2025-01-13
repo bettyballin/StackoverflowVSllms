@@ -1,0 +1,1 @@
+test "activation creates initial objects" do\n  user = Factory.create(:user)\n  post :activate, :id => user.id\n  # Verify that the initial objects were created\nend

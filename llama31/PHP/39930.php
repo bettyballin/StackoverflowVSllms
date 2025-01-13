@@ -1,0 +1,1 @@
+echo '<textarea>';\necho $_GET['whuh_you_say'];\necho '</textarea>';

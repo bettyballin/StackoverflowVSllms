@@ -1,1 +1,0 @@
-from appscript import app, k\n\n    # Replace 'Finder' with the application you want to send the Apple Event to\n    finder = app('Finder')\n\n    # Example: Open a new Finder window\n    finder.make(new=k.Finder_window)

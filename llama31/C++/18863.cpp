@@ -1,0 +1,1 @@
+HDC hdc = dc.GetSafeHdc();\nif (hdc != NULL) {\n    // Use hdc\n} else {\n    // Handle error\n}

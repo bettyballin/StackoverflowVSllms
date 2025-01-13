@@ -1,0 +1,1 @@
+document.addEventListener('DOMContentLoaded', () => {\n  const injectScriptButton = document.getElementById('inject-script');\n  injectScriptButton.addEventListener('click', () => {\n    browser.runtime.sendMessage({ action: 'injectScript' });\n  });\n});

@@ -1,1 +1,0 @@
-CREATE TABLE sub_posts_data (\n        id INT PRIMARY KEY,\n        body TEXT NOT NULL,\n        FULLTEXT (body),\n        FOREIGN KEY (id) REFERENCES sub_posts_meta(id)\n    );

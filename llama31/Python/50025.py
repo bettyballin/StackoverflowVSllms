@@ -1,0 +1,1 @@
+with open('english2german.txt', 'r') as english2german:\n    # ... rest of the code

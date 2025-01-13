@@ -1,1 +1,0 @@
-SELECT\n    CASE\n        WHEN EXISTS (\n            SELECT 1\n            FROM date_ranges\n            WHERE '1983-06-06' <= range_end\n              AND '1983-06-18' >= range_start\n        ) THEN 'IN LIST'\n        ELSE 'NOT IN LIST'\n    END AS result;

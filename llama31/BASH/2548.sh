@@ -1,0 +1,1 @@
+ln -s ~/cakephp-app/app/webroot ~/public_html

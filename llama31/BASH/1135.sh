@@ -1,0 +1,1 @@
+# Install Microsoft Network Monitor on your web server\nsudo apt-get install microsoft-network-monitor\n\n# Capture network traffic on the interface used to connect to SQL Server\nsudo nmcap /network <interface_name> /capture "tcp port 1433"

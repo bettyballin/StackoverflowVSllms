@@ -1,1 +1,0 @@
-$escaped_string = addslashes($input_string);

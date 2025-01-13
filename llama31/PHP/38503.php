@@ -1,0 +1,1 @@
+$image = imagecreatefromstring($image_string);\n$width = imagesx($image);\n$height = imagesy($image);

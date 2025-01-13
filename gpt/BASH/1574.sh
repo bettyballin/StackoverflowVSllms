@@ -1,1 +1,0 @@
-$ gcc traits2.cpp -lstdc++

@@ -1,0 +1,1 @@
+string logFile = "path/to/log/file.xml";\nstring nodeName = "MyNode";\nstring nodeValue = "MyValue";\n\nstring xmlMessage = XmlLogExtractor.ExtractXmlMessage(logFile, nodeName, nodeValue);\n\nif (xmlMessage != null)\n{\n    Console.WriteLine(xmlMessage);\n}

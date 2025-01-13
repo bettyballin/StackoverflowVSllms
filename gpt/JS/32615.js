@@ -1,1 +1,0 @@
-// Example of on method for direct binding\n   $('button').on('click', function() {\n       alert('Button clicked!');\n   });\n\n   // Example of on method for delegated binding\n   $(document).on('click', 'button', function() {\n       alert('Button clicked!');\n   });

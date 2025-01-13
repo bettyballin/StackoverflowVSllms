@@ -1,0 +1,1 @@
+mysql -u <username> -p<password> --init-file=<query_file>

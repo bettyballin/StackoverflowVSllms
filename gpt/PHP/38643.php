@@ -1,1 +1,0 @@
-if (isset($_REQUEST['input_name'])) {\n    $input_value = $_REQUEST['input_name'];\n\n    if (!empty($input_value)) {\n        // Process the form input as it is set and not empty\n    } else {\n        // Handle the case where the input is empty\n    }\n} else {\n    // Handle the case where the input is not set\n}

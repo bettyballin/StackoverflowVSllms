@@ -1,1 +1,0 @@
-boost::asio::io_service io_service;\n     boost::asio::io_service::work work(io_service);\n     std::vector<std::thread> threads;\n     \n     for (std::size_t i = 0; i < std::thread::hardware_concurrency(); ++i) {\n         threads.push_back(std::thread([&io_service]() { io_service.run(); }));\n     }\n     \n     for (auto& thread : threads) {\n         thread.join();\n     }

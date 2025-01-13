@@ -1,0 +1,1 @@
+SELECT field1, field2, field3\nFROM (\n  SELECT field1, field2, field3,\n         ROW_NUMBER() OVER (PARTITION BY field1, field2, field3 ORDER BY field1) AS row_num\n  FROM table1\n) AS subquery\nWHERE row_num = 1;

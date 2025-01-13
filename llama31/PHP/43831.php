@@ -1,0 +1,1 @@
+function hasNonZeroValue(array $array): bool\n{\n    $hasNonZero = function (array $carry, $item) use (&$hasNonZero) {\n        if (is_array($item)) {\n            return $hasNonZero($item) || $carry;\n        }\n        return $carry || (bool) $item;\n    };\n\n    return array_reduce($array, $hasNonZero, false);\n}

@@ -1,0 +1,1 @@
+p4 delete -c changelist_number //path/to/your/file

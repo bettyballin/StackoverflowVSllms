@@ -1,1 +1,0 @@
-if (sensor_reading_failed()) {\n        use_backup_sensor();\n    }

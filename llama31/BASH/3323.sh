@@ -1,0 +1,1 @@
+xmlvalidate -n -s schema.xsd input.xml

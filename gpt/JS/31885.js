@@ -1,1 +1,0 @@
-$(document).ready(function(){\n    $('#myAnchor').attr('href', 'http://example.com').removeClass('disabled');\n});

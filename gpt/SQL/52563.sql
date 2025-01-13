@@ -1,1 +1,0 @@
--- Add a comment to a stored procedure using Extended Properties\nEXEC sys.sp_addextendedproperty \n    @name = N'MS_Description', \n    @value = N'Auto-Generated Procedure DO NOT MODIFY', \n    @level0type = N'SCHEMA', @level0name = 'dbo',\n    @level1type = N'PROCEDURE', @level1name = 'MyProc';

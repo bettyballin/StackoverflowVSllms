@@ -1,0 +1,1 @@
+class MyClass\n  def to_yaml_properties\n    instance_variables.reject { |var| var.to_s.start_with?('@lock') }\n  end\nend

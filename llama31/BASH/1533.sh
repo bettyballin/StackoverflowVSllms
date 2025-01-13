@@ -1,0 +1,1 @@
+exiftool -all= -overwrite_original /path/to/image/directory

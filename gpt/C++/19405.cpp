@@ -1,1 +1,0 @@
-#include <windows.h>\n\n// Example of sending a message\nSendMessage(hWnd, WM_PAINT, 0, 0);\n\n// Example of posting a message\nPostMessage(hWnd, WM_KEYDOWN, VK_RETURN, 0);

@@ -1,1 +1,0 @@
-var items = from dbt in database.Items\n            where stringList.Any(s => dbt.Text.Contains(s))\n            select dbt;

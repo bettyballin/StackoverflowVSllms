@@ -1,0 +1,1 @@
+[ComVisible(true)]\npublic class FooImpl : IFoo, IFooCom\n{\n    // ...\n\n    public string Bar => GetBar();\n}

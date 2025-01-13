@@ -1,1 +1,0 @@
-# Locate the php.ini file\nphp --ini\n\n# Open the php.ini file in a text editor\nsudo nano /path/to/php.ini\n\n# Find and change the enable_dl directive to On\nenable_dl = On\n\n# Save and exit the editor (Ctrl+O, Enter, Ctrl+X for nano)\n\n# Restart the web server\nsudo systemctl restart apache2 # For Apache\n# or\nsudo systemctl restart nginx # For Nginx

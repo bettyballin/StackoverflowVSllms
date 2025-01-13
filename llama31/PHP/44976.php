@@ -1,0 +1,1 @@
+define('APP_PATH', dirname(__FILE__));\n\n// In header.php\n<img src="<?php echo APP_PATH; ?>/images/image.jpg" alt="Image">

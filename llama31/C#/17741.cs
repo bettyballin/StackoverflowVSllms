@@ -1,0 +1,1 @@
+List<string> list = new List<string> { "dog", "cat", "apple", "banana" };\n\nSortedList<string, string> sortedList = new SortedList<string, string>(\n    list.OrderBy(x => x)\n        .ToDictionary(x => x, x => x)\n);

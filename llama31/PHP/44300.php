@@ -1,0 +1,1 @@
+<?php\n  $url = 'http://searchprovider.com/search?q=' . $_GET['q'];\n  $response = file_get_contents($url);\n  echo $response;\n?>

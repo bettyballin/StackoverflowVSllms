@@ -1,1 +1,0 @@
-' Add reference to the COM object\nImports MyJavaLibraryCOM\n\nModule Module1\n    Sub Main()\n        Dim myLib As New MyJavaLibrary()\n        Dim result As Integer = myLib.add(5, 3)\n        Console.WriteLine("Result: " & result)\n    End Sub\nEnd Module

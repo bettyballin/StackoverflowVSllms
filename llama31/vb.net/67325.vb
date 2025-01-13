@@ -1,0 +1,1 @@
+Dim btn As New Button\nbtn.Image = YourImage\nbtn.Tag = "YourTextValue" ' Store the text value in the Tag property\nbtn.Text = "" ' Set the Text property to an empty string\nbtn.TextImageRelation = TextImageRelation.ImageAboveText

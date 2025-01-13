@@ -1,0 +1,1 @@
+$pattern = '/(?<percent>\d{1,3}\.\d{1,2})%\s+of\s+(?<filesize>[\d.]+[kBM])\s+at\s+(?<speed>[\d.]+[kBM\/s])\s+ETA\s+(?<eta>[\d:]+)/';

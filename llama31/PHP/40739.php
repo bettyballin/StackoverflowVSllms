@@ -1,0 +1,1 @@
+$x[1] = array('parent');\n$x[1][] = 'child';

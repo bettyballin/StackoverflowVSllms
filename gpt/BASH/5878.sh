@@ -1,1 +1,0 @@
-# Example using tmux\n    tmux new -s mysession\n    ./myscript.sh\n    # Detach with Ctrl+B, then D

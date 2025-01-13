@@ -1,0 +1,1 @@
+IISHelper.AddScriptMap("Default Web Site", ".custom", @"C:\Path\To\CustomExecutable.exe");\nIISHelper.RemoveScriptMap("Default Web Site", ".custom");

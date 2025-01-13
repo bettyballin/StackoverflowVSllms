@@ -1,0 +1,1 @@
+a = []\nif not a:\n    print("List is empty")

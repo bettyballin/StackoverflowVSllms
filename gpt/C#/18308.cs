@@ -1,1 +1,0 @@
-public ActionResult Index()\n{\n    // Set a message\n    TempData["Message"] = "This is a message box example!";\n    return View();\n}

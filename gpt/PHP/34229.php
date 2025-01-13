@@ -1,1 +1,0 @@
-ini_set('memory_limit', '512M'); // or a higher limit if necessary\n$file = "test1.html";\n$dom = DOMDocument::loadHTMLFile($file);\n$xml = simplexml_import_dom($dom);\n\n// Check if the conversion was successful\nif ($xml === false) {\n    echo "Failed to convert DOM to SimpleXML";\n} else {\n    print_r($xml);\n}

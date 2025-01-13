@@ -1,0 +1,1 @@
+gcc -shared -o override.so override.c -ldl

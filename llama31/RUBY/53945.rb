@@ -1,0 +1,1 @@
+class Invoice < ApplicationRecord\n  after_initialize do\n    instance_eval { freeze }\n  end\n\n  def address_id=(value)\n    raise "Cannot modify address_id"\n  end\nend

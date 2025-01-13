@@ -1,0 +1,1 @@
+CREATE FUNCTION dbo.CheckTransposedValues (@Id1 int, @Id2 int)\nRETURNS bit\nAS\nBEGIN\n    IF EXISTS (\n        SELECT 1\n        FROM MyTable\n        WHERE (Id1 = @Id2 AND Id2 = @Id1)\n    )\n    RETURN 0;\n    RETURN 1;\nEND;\nGO\n\nALTER TABLE MyTable\nADD CONSTRAINT CK_TransposedValues CHECK (dbo.CheckTransposedValues(Id1, Id2) = 1);

@@ -1,0 +1,1 @@
+var txtBoxId = '<%= txtBox.ClientID %>';\n$('#' + txtBoxId).val('Hello World!');

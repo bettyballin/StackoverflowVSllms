@@ -1,0 +1,1 @@
+sed -i '5i Your_string_here' file.txt

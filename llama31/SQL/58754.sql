@@ -1,0 +1,1 @@
+DECLARE @required_tags TABLE (tagid INT);\nINSERT INTO @required_tags (tagid) VALUES (334), (338), (342);\n\nDECLARE @expected_count INT = (SELECT COUNT(*) FROM @required_tags);\n\nSELECT contentid\nFROM tags\nWHERE tagid IN (SELECT tagid FROM @required_tags)\nGROUP BY contentid\nHAVING COUNT(DISTINCT tagid) = @expected_count;

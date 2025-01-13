@@ -1,0 +1,1 @@
+window.onload = function() {\n  var win = window.open('', '', 'width=500,height=500');\n  win.addEventListener('resize', function() {\n    if (win.outerWidth < 400 || win.outerHeight < 400) {\n      win.resizeTo(400, 400);\n    }\n  }, false);\n};

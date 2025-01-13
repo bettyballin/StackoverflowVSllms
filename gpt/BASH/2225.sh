@@ -1,1 +1,0 @@
-sudo systemctl disable service_name

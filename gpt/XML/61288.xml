@@ -1,1 +1,0 @@
-<dependency>\n    <groupId>com.itextpdf</groupId>\n    <artifactId>itext7-core</artifactId>\n    <version>7.1.15</version>\n</dependency>\n<dependency>\n    <groupId>com.itextpdf</groupId>\n    <artifactId>html2pdf</artifactId>\n    <version>2.1.4</version>\n</dependency>

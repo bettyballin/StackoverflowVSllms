@@ -1,0 +1,1 @@
+$.getJSON("http://localhost:17245/Service.svc/?format=json&callback=?", function(data) {\n  alert(data.id);\n});

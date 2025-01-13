@@ -1,0 +1,1 @@
+SELECT *\nFROM fn_my_permissions('storedProcedureName', 'EXECUTE');

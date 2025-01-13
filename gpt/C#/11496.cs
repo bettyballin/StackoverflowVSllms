@@ -1,1 +1,0 @@
-[HttpPost]\npublic JsonResult Create(string name)\n{\n    string hash = repo.addName(name);\n    return Json(new { data = hash });\n}

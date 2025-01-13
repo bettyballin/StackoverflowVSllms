@@ -1,0 +1,1 @@
+// Store search results in Cache with a unique key\nCache["SearchResults_" + userId] = dataTable;

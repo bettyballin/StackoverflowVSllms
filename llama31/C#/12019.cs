@@ -1,0 +1,1 @@
+Uri uri = new Uri("http://example.com/path#key=value&anotherKey=anotherValue");\nstring value = uri.GetQueryValue("key");\nstring anotherValue = uri.GetQueryValue("anotherKey");

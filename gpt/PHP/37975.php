@@ -1,1 +1,0 @@
-class Parser {\n    public function fetchAndParse($url) {\n        $this->loadUrl($url);\n        $this->parse();\n    }\n\n    public function loadUrl($url) {\n        // Implementation of loadUrl\n    }\n\n    public function parse() {\n        // Implementation of parse\n    }\n}

@@ -1,1 +1,0 @@
-DECLARE\n    l_xml CLOB;\nBEGIN\n    Serialize_Row_To_XML('your_table_name', your_row_id, l_xml);\n    DBMS_OUTPUT.PUT_LINE(l_xml);\nEND;\n/

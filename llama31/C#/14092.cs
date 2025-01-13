@@ -1,0 +1,1 @@
+DataTable importDataTable = // your DataTable instance\n\nvar duplicateRows = DuplicateFinder.FindDuplicates(importDataTable);\n\nforeach (var row in duplicateRows)\n{\n    Console.WriteLine($"Duplicate row found: import_id = {row["import_id"]}");\n}

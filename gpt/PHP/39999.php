@@ -1,1 +1,0 @@
-// In a file in your project, e.g., "smarty_plugins/modifier.gettext.php"\n   function smarty_modifier_gettext($string) {\n       return gettext($string);\n   }

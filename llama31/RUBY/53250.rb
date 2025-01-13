@@ -1,0 +1,1 @@
+<!-- app/views/users/upcoming_birthdays.html.erb -->\n<h1>Upcoming Birthdays</h1>\n\n<ul>\n  <% @upcoming_birthdays.each do |user| %>\n    <li>\n      <%= user.name %> - <%= user.date_of_birth.strftime("%B %d") %>\n    </li>\n  <% end %>\n</ul>

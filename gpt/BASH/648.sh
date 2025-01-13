@@ -1,1 +1,0 @@
-sudo apt-get install ccache\n    export CC="ccache gcc"

@@ -1,0 +1,1 @@
+LIBS += -L/path/to/thirdparty/lib -Wl,-w

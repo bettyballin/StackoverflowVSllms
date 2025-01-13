@@ -1,0 +1,1 @@
+@echo off\n\nset ORACLE_HOME=C:\Oracle\product\11.2.0\client_1\nset PATH=%ORACLE_HOME%\bin;%PATH%\n\ntnsping MYDB

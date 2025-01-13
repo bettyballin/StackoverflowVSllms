@@ -1,1 +1,0 @@
-CREATE PROCEDURE [YourProcedureName]\n   AS EXTERNAL NAME [YourAssemblyName].[YourNamespace.YourClassName].[YourMethodName];

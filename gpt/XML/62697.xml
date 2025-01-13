@@ -1,1 +1,0 @@
-<RuleEnforcement>\n  <Rule Name="StrongNames" Enabled="true" />\n  <Rule Name="CultureInfo" Enabled="true" />\n  <Rule Name="VariableCase" Enabled="true" />\n  ...\n</RuleEnforcement>

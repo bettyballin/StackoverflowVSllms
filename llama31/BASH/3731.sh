@@ -1,0 +1,1 @@
+sqlnet /diag /tcp / hostname <server_hostname> port <server_port>

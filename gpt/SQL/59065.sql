@@ -1,1 +1,0 @@
-CREATE TABLE Location (\n    Id INT PRIMARY KEY,\n    Latitude DECIMAL(9, 6),\n    Longitude DECIMAL(9, 6)\n);

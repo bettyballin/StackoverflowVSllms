@@ -1,0 +1,1 @@
+#include <pdcurses.h>\n\nint main() {\n    PDC_init();\n    initscr();\n    noecho();\n    curs_set(0);\n\n    printw("Hello, world!\n");\n    refresh();\n    getch();\n\n    endwin();\n    return 0;\n}

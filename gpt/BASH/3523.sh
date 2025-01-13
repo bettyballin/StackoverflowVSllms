@@ -1,1 +1,0 @@
-java -Xms128m -Xmx512m -jar your-application.jar

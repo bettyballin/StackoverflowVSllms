@@ -1,0 +1,1 @@
+if (address.AddressFamily == AddressFamily.InterNetwork && !IPAddress.IsLoopback(address))\n{\n    Console.WriteLine(address.ToString());\n}

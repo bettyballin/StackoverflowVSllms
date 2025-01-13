@@ -1,0 +1,1 @@
+// List.php (model)\npublic function getRelatedLists() {\n    // logic to determine related lists goes here\n}

@@ -1,0 +1,1 @@
+witadmin updatewitd /collection:http://your-tfs-server:8080/tfs/YourCollection /id:workitemid1,workitemid2,workitemid3 /fields:"FieldToUpdate=ValueToUpdate"

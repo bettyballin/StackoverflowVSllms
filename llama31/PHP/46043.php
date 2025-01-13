@@ -1,0 +1,1 @@
+$clean_var = filter_input(INPUT_GET, 'var_name', FILTER_SANITIZE_STRING);

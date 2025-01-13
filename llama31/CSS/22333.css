@@ -1,0 +1,1 @@
+div, input {\n  box-sizing: border-box; /* include padding and border in width calculation */\n  border: 1px solid #000;\n  margin: 2px;\n  padding: 3px;\n  width: 100px;\n}

@@ -1,0 +1,1 @@
+boost::asio::error_code ec;\nulRead = boost::asio::read(spCon->socket(), boost::asio::buffer(_requestHeader, _requestHeader.size()), boost::asio::transfer_at_least(_requestHeader.size()), ec);\nif (ec) {\n    // handle error\n}

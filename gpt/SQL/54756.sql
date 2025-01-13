@@ -1,1 +1,0 @@
-USE master;\n    EXEC sp_replicationdboption @dbname = 'YourDatabase', @optname = 'merge publish', @value = 'true';\n    EXEC sp_addmergepublication @publication = 'YourPublication';\n    EXEC sp_addmergesubscription @publication = 'YourPublication', @subscriber = 'ExtranetServer', @subscriber_db = 'YourDatabase';

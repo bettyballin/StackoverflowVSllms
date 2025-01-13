@@ -1,0 +1,1 @@
+SqlQuery qry = DB.Select().From<Product>()\n                 .Where(Products.Columns.Name).IsEqualTo("Productname");\n\nstring plainSql = qry.ToPlainSql();\nConsole.WriteLine(plainSql);

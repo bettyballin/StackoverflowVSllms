@@ -1,0 +1,1 @@
+try\n{\n    f_oType.InvokeMember("Process", BindingFlags.InvokeMethod, null, f_oInstance, new object[] { param1, param2, param3, param4 });\n}\ncatch (TargetInvocationException ex)\n{\n    if (ex.InnerException != null)\n    {\n        int errorCode = Marshal.GetHRForException(ex.InnerException);\n        // Log or handle the error code\n    }\n}

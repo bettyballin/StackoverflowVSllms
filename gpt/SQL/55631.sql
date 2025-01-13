@@ -1,1 +1,0 @@
-WITH RandomQuestions AS (\n    SELECT *,\n           ROW_NUMBER() OVER (PARTITION BY Team ORDER BY NEWID()) AS rn\n    FROM Question\n)\nSELECT Question, Answer, Team\nFROM RandomQuestions\nWHERE rn = 1\nORDER BY NEWID()\nOFFSET 0 ROWS FETCH NEXT 5 ROWS ONLY;

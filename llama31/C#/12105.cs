@@ -1,0 +1,1 @@
+// Set the session lifetime to 30 minutes\nint sessionLifetime = 30 * 60; // 30 minutes in seconds

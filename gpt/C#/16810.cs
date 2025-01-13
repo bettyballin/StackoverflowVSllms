@@ -1,1 +1,0 @@
-OracleConnection conn = new OracleConnection(connectionString);\n    conn.ConnectionTimeout = 300; // Set to 5 minutes\n    OracleCommand cmd = conn.CreateCommand();\n    cmd.CommandTimeout = 300; // Set to 5 minutes

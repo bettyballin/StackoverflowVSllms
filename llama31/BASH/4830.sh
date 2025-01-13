@@ -1,0 +1,1 @@
+set "str=your complex string with quotes"\n\necho %str:"=%

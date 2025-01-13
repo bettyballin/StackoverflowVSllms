@@ -1,1 +1,0 @@
-# On your Mac, find your IP address\nifconfig | grep inet\n\n# Note down the IP address, e.g., 192.168.1.10\n\n# On Windows in Parallels, open IE and navigate to\nhttp://192.168.1.10:5000/

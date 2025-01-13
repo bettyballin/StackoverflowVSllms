@@ -1,1 +1,0 @@
-$file = "test1.html";\n$dom = new DOMDocument();\n$dom->loadHTMLFile($file);\n\n// Example of using DOMDocument methods directly\n$spans = $dom->getElementsByTagName('span');\nforeach ($spans as $span) {\n    echo $dom->saveHTML($span);\n}

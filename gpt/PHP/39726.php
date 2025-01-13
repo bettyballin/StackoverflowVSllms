@@ -1,1 +1,0 @@
-<?php\n$host = 'localhost';\n$db = 'database';\n$user = 'username';\n$pass = 'password';\n\n$mysqli = new mysqli($host, $user, $pass, $db);\n\nif ($mysqli->connect_error) {\n    die('Connect Error (' . $mysqli->connect_errno . ') ' . $mysqli->connect_error);\n}\n?>

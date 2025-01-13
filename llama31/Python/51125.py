@@ -1,0 +1,1 @@
+def on_menu_realize(menu):\n    gtk.grab_add(menu)\n\ndef on_menu_unrealize(menu):\n    gtk.grab_remove(menu)\n\n# Connect the realize and unrealize events to the handlers\nmenu.connect("realize", on_menu_realize)\nmenu.connect("unrealize", on_menu_unrealize)

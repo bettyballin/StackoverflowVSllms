@@ -1,0 +1,1 @@
+<?php\nputenv('LD_LIBRARY_PATH=' . $_SERVER['HOME'] . '/lib');\ndl($_SERVER['HOME'] . '/lib/libmcrypt.so');\n\n// Test mcrypt functions\n$encrypted = mcrypt_encrypt('rijndael-256', 'secret key', 'Hello, World!');\necho $encrypted;

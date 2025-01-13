@@ -1,0 +1,1 @@
+public interface IMyInterface\n{\n    void Initialize(Engine engine);\n    // other methods and properties\n}

@@ -1,1 +1,0 @@
-<?php\n$zip = new ZipArchive();\n$filename = "./test.zip";\n\nif ($zip->open($filename) === TRUE) {\n    $zip->extractTo('./extract_path/');\n    $zip->close();\n    echo 'Extraction successful!';\n} else {\n    exit("Cannot open <$filename>\n");\n}\n?>

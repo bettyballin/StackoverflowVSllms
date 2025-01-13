@@ -1,0 +1,1 @@
+@login_required\n   def protected_route():\n       return render_template('protected.html')

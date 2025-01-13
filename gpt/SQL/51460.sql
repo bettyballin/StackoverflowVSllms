@@ -1,1 +1,0 @@
--- Create a physical table\nCREATE TABLE TempTable (\n    ID INT,\n    Name NVARCHAR(50)\n);\n\n-- Insert data into the physical table\nINSERT INTO TempTable (ID, Name)\nVALUES (1, 'John Doe'), (2, 'Jane Smith');\n\n-- Select data from the physical table\nSELECT * FROM TempTable;\n\n-- Drop the physical table when done\nDROP TABLE TempTable;

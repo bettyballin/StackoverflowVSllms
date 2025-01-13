@@ -1,0 +1,1 @@
+public TripleDESEncryption(int keySizeInBits) {\n    engine = new TripleDESCryptoServiceProvider { KeySize = keySizeInBits, Padding = PaddingMode.None };\n    engine.GenerateKey();\n}

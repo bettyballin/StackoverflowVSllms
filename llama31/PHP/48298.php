@@ -1,0 +1,1 @@
+// Define the string with a context\n$this->translate('page-error', 'invalid-password');\n\n// Use gettext() with the context\n$errorType = 'invalid-password';\n$message = $this->translate('page-error', $errorType);

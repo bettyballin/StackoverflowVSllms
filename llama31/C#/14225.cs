@@ -1,0 +1,1 @@
+string title = "My page's title from México";\nstring encodedTitle = HttpUtility.HtmlEncode(title);\n// Output: "My page&#39;s title from M&eacute;xico"

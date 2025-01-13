@@ -1,1 +1,0 @@
-CREATE TABLE saved_tables (\n    id INT PRIMARY KEY AUTO_INCREMENT,\n    table_data JSON\n);\n\nINSERT INTO saved_tables (table_data) VALUES ('<table_json>');

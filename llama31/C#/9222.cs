@@ -1,0 +1,1 @@
+using System.Net;\n\nstring hostName = Dns.GetHostName();\nfinalUrl = "https://" + hostName + "/home.aspx";

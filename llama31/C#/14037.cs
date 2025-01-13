@@ -1,0 +1,1 @@
+string encryptedText = Encrypter.Encrypt("Hello, World!", "NewHighTechEncryptingAlgorithm");

@@ -1,0 +1,1 @@
+cp -r server/minimal server/myconfig

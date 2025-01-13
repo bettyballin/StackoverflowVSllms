@@ -1,0 +1,1 @@
+// Start the session\nsession_start();\n\n// Retrieve the token from the query string\n$token = $_GET['token'];\n\n// Verify the token against the session\nif ($token === $_SESSION['token']) {\n    // Token is valid, proceed with the action\n} else {\n    // Token is invalid, handle the error\n}

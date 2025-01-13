@@ -1,1 +1,0 @@
-public class ProductController : Controller\n   {\n       [HttpPost]\n       public ActionResult Create(Product product)\n       {\n           if (ModelState.IsValid)\n           {\n               // Save the product to the database\n               return RedirectToAction("Index");\n           }\n           return View(product);\n       }\n   }

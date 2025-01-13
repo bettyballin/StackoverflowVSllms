@@ -1,0 +1,1 @@
+from PIL import Image\n\nimage = Image.open(output_file)\nthumbnail_width = 200\nthumbnail_height = 150\nimage.thumbnail((thumbnail_width, thumbnail_height))\nimage.save('thumbnail.png')

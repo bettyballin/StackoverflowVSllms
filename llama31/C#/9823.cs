@@ -1,0 +1,1 @@
+using YamlDotNet.Serialization;\n\npublic class Configuration\n{\n    public string Server { get; set; }\n    public int Port { get; set; }\n}\n\nvar deserializer = new DeserializerBuilder().Build();\nvar configuration = deserializer.Deserialize<Configuration>(File.ReadAllText("config.yaml"));

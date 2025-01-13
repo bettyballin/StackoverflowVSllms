@@ -1,1 +1,0 @@
-SELECT *\nFROM events\nWHERE start_time <= '2009-02-18 16:27:12'\nAND end_time >= '2009-02-18 16:27:12';

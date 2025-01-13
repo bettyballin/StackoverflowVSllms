@@ -1,1 +1,0 @@
-<configuration>\n     <system.web>\n       <pages enableViewStateMac="true" />\n     </system.web>\n   </configuration>

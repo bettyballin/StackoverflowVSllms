@@ -1,0 +1,1 @@
+* { margin: 0; padding: 0; font-family: Arial; }\nbody { font-size: 36px; } /* use a fixed unit like px */\nh1 { font-size: inherit; } /* inherit the font size from the body */

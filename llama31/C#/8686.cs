@@ -1,0 +1,1 @@
+bool isTooltipShown = toolTip1.GetToolTip(control).IsVisible;

@@ -1,0 +1,1 @@
+$cache = new Redis();\n$cache->set('user_data', $userData);

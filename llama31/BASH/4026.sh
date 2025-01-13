@@ -1,0 +1,1 @@
+qpdf --decrypt --password=your_password input.pdf output.pdf

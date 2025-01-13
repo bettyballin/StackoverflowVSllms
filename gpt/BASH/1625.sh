@@ -1,1 +1,0 @@
-java -Xms1g -Xmx1g -XX:+UseG1GC -jar yourapp.jar

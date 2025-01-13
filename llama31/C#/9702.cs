@@ -1,0 +1,1 @@
+using TimeZoneConverter;\n\nclass TimeZoneConfig\n{\n    public static void SetTimeZone()\n    {\n        TimeZoneConverter.TZConvert.SetTimeZone("TimeZone B's IANA name");\n    }\n}

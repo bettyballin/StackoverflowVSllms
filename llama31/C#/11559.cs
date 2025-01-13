@@ -1,0 +1,1 @@
+string input = "hello world this is a test";\nstring[] args = input.Split(new[] { ' ' }, StringSplitOptions.RemoveEmptyEntries);

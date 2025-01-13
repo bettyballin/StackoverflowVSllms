@@ -1,1 +1,0 @@
-mysqldump --single-transaction -u [username] -p[password] [database_name] > weekly_backup.sql

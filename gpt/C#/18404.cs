@@ -1,1 +1,0 @@
-Queue<string> tasks = new Queue<string>();\n   tasks.Enqueue("Task1");\n   string nextTask = tasks.Dequeue();

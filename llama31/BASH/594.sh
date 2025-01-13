@@ -1,0 +1,1 @@
+./b2 --with-cpu-32 --toolset=gcc-arm --prefix=/path/to/installation install

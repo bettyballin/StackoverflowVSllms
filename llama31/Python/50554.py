@@ -1,0 +1,1 @@
+import mmap\nimport os\n\n# Create a memory map\nwith mmap.mmap(-1, 1024, access=mmap.ACCESS_WRITE) as mem:\n    # Store the password in the memory map\n    password = b'mysecretpassword'\n    mem.write(password)\n\n    # Use the password as needed\n    # ...\n\n    # When done, clear the memory map\n    mem[:] = b'\0' * len(mem)

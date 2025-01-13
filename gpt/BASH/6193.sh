@@ -1,1 +1,0 @@
-svn co svn://hostname/repo

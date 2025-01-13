@@ -1,1 +1,0 @@
-sed 's/[^[:print:]\t]//g' inputfile.txt > cleanfile.txt

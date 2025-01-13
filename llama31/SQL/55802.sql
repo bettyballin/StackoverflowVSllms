@@ -1,0 +1,1 @@
+DECLARE @xml_text xml\nSET @xml_text = 'your large xml string here'\nSELECT * FROM @xml_text.nodes('/your/xpath') AS nodes(node)

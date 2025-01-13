@@ -1,0 +1,1 @@
+<rewrite>\n    <rules>\n        <rule name="Add Expires header" patternSyntax="Wildcard">\n            <match url="*.css|*.js" />\n            <action type="Rewrite" url="{R:0}" />\n            <set property="Expires" value="A31536000" />\n        </rule>\n    </rules>\n</rewrite>

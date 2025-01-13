@@ -1,0 +1,1 @@
+SELECT \n    Operation,\n    Context,\n    [Transaction ID],\n    [Begin Time],\n    [End Time]\nFROM \n    fn_dblog(NULL, NULL)\nWHERE \n    Operation = 'EXECUTE' AND\n    Context = 'Stored Procedure' AND\n    [Begin Time] >= 'YYYY-MM-DD HH:MM:SS' AND\n    [Begin Time] <= 'YYYY-MM-DD HH:MM:SS'

@@ -1,0 +1,1 @@
+arm-none-linux-gnueabi-gcc -o test_socket_create test_socket_create.c -lcunit

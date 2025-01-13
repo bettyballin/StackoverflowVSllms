@@ -1,0 +1,1 @@
+CREATE TABLE SampleTable (\n    Id INT IDENTITY(1,1) PRIMARY KEY,\n    Data VARCHAR(100)\n);\n\nINSERT INTO SampleTable (Data)\nVALUES ('Record 1'), ('Record 2'), ('Record 3');\n\nSELECT * FROM SampleTable ORDER BY Id;

@@ -1,1 +1,0 @@
-EXEC xp_cmdshell 'C:\Path\To\refresh_linked_tables.bat';

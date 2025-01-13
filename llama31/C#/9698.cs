@@ -1,0 +1,1 @@
+// ASP.Net MVC controller example\n[HttpPost]\npublic ActionResult MyAction(MyModel model)\n{\n    string name = model.Name;\n    // Process the input...\n    return View(model);\n}

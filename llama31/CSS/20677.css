@@ -1,0 +1,1 @@
+#nav li:hover ul {\n  display: block;\n}\n\n#nav li ul:hover {\n  background-color: #333; /* or whatever the active/hover color is */\n}\n\n#nav li ul:hover a {\n  color: #fff; /* or whatever the active/hover text color is */\n}

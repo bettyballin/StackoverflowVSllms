@@ -1,0 +1,1 @@
+CREATE TABLE table_name (\n  column1 data_type,\n  column2 data_type,\n  PRIMARY KEY (column1, column2)\n);

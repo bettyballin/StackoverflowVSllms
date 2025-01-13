@@ -1,1 +1,0 @@
-public void LoadRequiredAssemblies()\n{\n    var requiredAssemblies = new List<string>\n    {\n        "Assembly1.dll",\n        "Assembly2.dll"\n        // Add other required assemblies here\n    };\n\n    foreach (var assemblyName in requiredAssemblies)\n    {\n        Assembly.LoadFrom(assemblyName);\n    }\n}

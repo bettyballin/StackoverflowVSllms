@@ -1,0 +1,1 @@
+SET @random_offset = FLOOR(RAND() * (SELECT COUNT(*) FROM table_name));\nSELECT * FROM table_name LIMIT 1 OFFSET @random_offset;

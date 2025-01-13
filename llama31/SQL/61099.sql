@@ -1,0 +1,1 @@
+-- Example stored procedure\nCREATE PROCEDURE sp_DeleteRecord\n    @id int,\n    @ApplicationUserId uniqueidentifier\nAS\nBEGIN\n    DELETE FROM Records WHERE Id = @id\n    SET @ApplicationUserId = @ApplicationUserId  -- Pass the application user ID to the trigger\nEND

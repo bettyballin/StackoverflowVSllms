@@ -1,1 +1,0 @@
-public class MyDbContext : DbContext\n{\n    public MyDbContext() : base("name=MyDbContext")\n    {\n    }\n\n    public virtual DbSet<Person> Persons { get; set; }\n}

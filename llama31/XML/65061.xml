@@ -1,0 +1,1 @@
+<serviceHostingEnvironment>\n  <serviceActivations>\n    <add relativeAddress="YourService.svc" \n         service="YourService" \n         factory="System.ServiceModel.Activation.WebServiceHostFactory"/>\n  </serviceActivations>\n</serviceHostingEnvironment>

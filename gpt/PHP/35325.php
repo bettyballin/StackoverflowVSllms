@@ -1,1 +1,0 @@
-// Check if the 'gender' key exists in the $_GET array and is not NULL\nif (isset($_GET['gender'])) {\n    // The 'gender' key is set\n}\n\n// Check if the 'gender' key exists in the $_GET array and is not empty\nif (!empty($_GET['gender'])) {\n    // The 'gender' key is set and not empty\n}

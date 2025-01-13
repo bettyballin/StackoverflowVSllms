@@ -1,1 +1,0 @@
-# Set the PATH environment variable to include the directory where SQL*Plus Instant Client is located\nexport PATH=/path/to/instantclient_19_8:$PATH\n\n# Connect using SQL*Plus\nsqlplus username/password@//hostname:port/service_name

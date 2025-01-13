@@ -1,1 +1,0 @@
-setcookie('session', $sessionId, [\n        'httponly' => true,\n        'secure' => true,\n        'samesite' => 'Strict'\n    ]);

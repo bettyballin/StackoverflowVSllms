@@ -1,1 +1,0 @@
-# For branch1\n   cd eggs_branch1\n   source venv_branch1/bin/activate\n   export PYTHONPATH=$(pwd):$PYTHONPATH\n   python -m eggs.bar.a\n\n   # For branch2\n   cd ../eggs_branch2\n   source venv_branch2/bin/activate\n   export PYTHONPATH=$(pwd):$PYTHONPATH\n   python -m eggs.bar.a

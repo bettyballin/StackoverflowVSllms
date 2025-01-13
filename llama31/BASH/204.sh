@@ -1,0 +1,1 @@
+# Example: Create a Docker image for an old Ubuntu version\nFROM ubuntu:8.04\n\n# Install dependencies and applications\nRUN apt-get update && apt-get install -y ...\n\n# Set environment variables and configure the system\nENV ...\n\n# Run the application\nCMD ["my-application"]

@@ -1,0 +1,1 @@
+rules: {\n  email: {\n    required: true,\n    email: true,\n    remote: {\n      url: "/check-email",\n      type: "post",\n      data: {\n        email: function() {\n          return $("#email").val();\n        }\n      }\n    }\n  }\n}

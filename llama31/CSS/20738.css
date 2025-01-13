@@ -1,0 +1,1 @@
+/* Example of using CSS prefixes */\n-webkit-border-radius: 10px; /* Chrome and Safari */\n-moz-border-radius: 10px; /* Firefox */\n-ms-border-radius: 10px; /* IE 9 and above */\n-o-border-radius: 10px; /* Opera */\nborder-radius: 10px; /* Standard property */

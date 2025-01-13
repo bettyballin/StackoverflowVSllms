@@ -1,1 +1,0 @@
-// Setting data in localStorage\nconst preferences = {\n    theme: 'dark',\n    fontSize: '14px',\n    language: 'en'\n};\n\nlocalStorage.setItem('userPreferences', JSON.stringify(preferences));\n\n// Retrieving data from localStorage\nconst storedPreferences = JSON.parse(localStorage.getItem('userPreferences') || '{}');\nconsole.log(storedPreferences);

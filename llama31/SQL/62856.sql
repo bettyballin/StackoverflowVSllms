@@ -1,0 +1,1 @@
+SELECT foo\nFROM your_table\nORDER BY REGEXP_REPLACE(foo, '([0-9]+)', LPAD('\1', 10, '0'));

@@ -1,0 +1,1 @@
+$className = 'MyClass'; // replace with your class name\n$reflectionClass = new ReflectionClass($className);\n$isAbstract = $reflectionClass->isAbstract();\n\nif ($isAbstract) {\n    echo "$className is an abstract class";\n} else {\n    echo "$className is not an abstract class";\n}

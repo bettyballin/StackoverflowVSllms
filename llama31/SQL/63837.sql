@@ -1,0 +1,1 @@
+CREATE PROCEDURE GetUserData\n    @UserName nvarchar(50)\nAS\nBEGIN\n    DECLARE @SQL nvarchar(max) = N'SELECT * FROM Users WHERE UserName = ''' + @UserName + '''';\n    EXEC (@SQL);  -- vulnerable to SQL injection\nEND;

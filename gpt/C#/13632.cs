@@ -1,1 +1,0 @@
-// Call this method after user authentication\n    public void RegenerateSessionId()\n    {\n        string oldSessionId = Session.SessionID;\n        Session.Abandon();\n        // Create a new session\n        HttpContext.Current.Session.Add("__MySessionID", oldSessionId);\n    }

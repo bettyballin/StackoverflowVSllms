@@ -1,0 +1,1 @@
+function validateInput(input) {\n    // Remove any malicious characters\n    input = input.replace(/[^a-zA-Z0-9]/g, '');\n    return input;\n}\n\n// Example usage:\nvar userInput = window.prompt('Enter your name:');\nvar validatedInput = validateInput(userInput);

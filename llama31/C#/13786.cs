@@ -1,0 +1,1 @@
+string connectionString = "DRIVER={Ingres ODBC Driver};SERVER=your_server;DATABASE=your_database;Integrated Security=True;";

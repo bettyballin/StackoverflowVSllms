@@ -1,0 +1,1 @@
+adsutil.vbs SET_W3SVC/AppPools/DefaultAppPool/WamUserPass Anonymous\nadsutil.vbs SET_W3SVC/AppPools/DefaultAppPool/AuthFlags 1

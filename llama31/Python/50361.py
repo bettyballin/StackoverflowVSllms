@@ -1,0 +1,1 @@
+import xml.etree.ElementTree as ET\n\n# Load the XML file\ntree = ET.parse('your_data.xml')\nroot = tree.getroot()\n\n# Example query to retrieve data\nfor elem in root.findall('.//your_tag'):\n    if elem.text == 'your_value':\n        # Process the data\n        pass

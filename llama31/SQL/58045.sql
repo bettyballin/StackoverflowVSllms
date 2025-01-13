@@ -1,0 +1,1 @@
+SELECT \n    country, \n    state, \n    city, \n    MIN(postalcode) AS postalcode, \n    MIN(areacode) AS areacode\nFROM \n    your_table\nGROUP BY \n    country, \n    state, \n    city;

@@ -1,0 +1,1 @@
+$xml = simplexml_load_string($your_xml_string);\n\n$client = $xml->xpath("//client[@name='foo']");\n\nforeach ($client as $c) {\n    foreach ($c->src as $src) {\n        echo $src . '<br />';\n    }\n}

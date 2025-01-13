@@ -1,1 +1,0 @@
-<Host name="example1.com" authType="shibboleth" requireSession="true"/>\n<Host name="example2.com" authType="shibboleth" requireSession="true"/>\n<Host name="example3.com" authType="shibboleth" requireSession="true"/>

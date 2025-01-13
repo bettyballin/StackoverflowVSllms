@@ -1,1 +1,0 @@
-public void ProcessRequest(HttpContext context)\n{\n    string userID = context.Request.QueryString["userID"];\n    if (!string.IsNullOrEmpty(userID))\n    {\n        // Generate the image based on the userID\n    }\n}

@@ -1,0 +1,1 @@
+$sql = 'SELECT * FROM users_with_permissions';\n$result = $connector->query($sql)->fetchAll();

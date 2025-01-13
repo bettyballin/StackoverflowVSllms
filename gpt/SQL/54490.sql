@@ -1,1 +1,0 @@
-SELECT s.user_id\nFROM subscribers s\nWHERE s.season_id = 185181\n  AND NOT EXISTS (\n    SELECT 1\n    FROM bio b\n    WHERE b.user_id = s.user_id\n  )\n  AND NOT EXISTS (\n    SELECT 1\n    FROM shirtsize ss\n    JOIN bio b ON b.bio_id = ss.bio_id\n    WHERE b.user_id = s.user_id\n  );

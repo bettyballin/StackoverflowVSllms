@@ -1,0 +1,1 @@
+using Microsoft.Web.Administration;\n\nusing (ServerManager serverManager = new ServerManager())\n{\n    ApplicationPoolCollection appPools = serverManager.ApplicationPools;\n    ApplicationPool appPool = appPools["MyAppPool"];\n    appPool.Recycle();\n}

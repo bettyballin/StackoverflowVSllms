@@ -1,1 +1,0 @@
-UPDATE item SET rank = 2 WHERE link = 1;

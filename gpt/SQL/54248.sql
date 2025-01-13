@@ -1,1 +1,0 @@
-SELECT \n    s.Title,\n    q.QuestionText,\n    a.AnswerText\nFROM \n    Surveys s\nJOIN \n    Questions q ON s.SurveyID = q.SurveyID\nJOIN \n    Answers a ON q.QuestionID = a.QuestionID\nJOIN \n    Responses r ON a.ResponseID = r.ResponseID\nWHERE \n    s.SurveyID = 1;

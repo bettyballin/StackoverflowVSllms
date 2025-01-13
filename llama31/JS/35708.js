@@ -1,0 +1,1 @@
+$('.blanket').height(contentHeight);

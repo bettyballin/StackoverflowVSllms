@@ -1,0 +1,1 @@
+[TestFixture]\npublic class CustomerTests\n{\n    [Test]\n    public void TestCustomerName()\n    {\n        // Arrange\n        var customer = new Customer();\n        customer.Name = "John Doe";\n\n        // Act\n        var result = customer.Save();\n\n        // Assert\n        Assert.IsTrue(result);\n    }\n}

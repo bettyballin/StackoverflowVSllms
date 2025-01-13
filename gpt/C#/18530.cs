@@ -1,1 +1,0 @@
-[Serializable]\n     public class AuthenticateAspect : OnMethodBoundaryAspect\n     {\n         public override void OnEntry(MethodExecutionArgs args)\n         {\n             if (!Thread.CurrentPrincipal.Identity.IsAuthenticated)\n             {\n                 throw new UnauthorizedAccessException("User is not authenticated");\n             }\n         }\n     }

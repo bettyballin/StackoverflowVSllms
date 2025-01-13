@@ -1,0 +1,1 @@
+@page {\n  counter-reset: page 1; /* resets the page counter to 1, so the first page will be 2 */\n  @top-right {\n    content: "Page " counter(page) " of " counter(pages);\n  }\n}

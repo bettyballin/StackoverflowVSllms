@@ -1,1 +1,0 @@
-// Consider two algorithms:\n   // Algorithm A: O(n)\n   for (int i = 0; i < n; i++) {\n       // some operation with a large constant time\n   }\n   \n   // Algorithm B: O(n^2)\n   for (int i = 0; i < n; i++) {\n       for (int j = 0; j < n; j++) {\n           // some operation with a small constant time\n       }\n   }

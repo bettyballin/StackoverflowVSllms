@@ -1,0 +1,1 @@
+myFunction('required value');  // $optionalParam will be 'default value'\nmyFunction('required value', 'optional value');  // $optionalParam will be 'optional value'

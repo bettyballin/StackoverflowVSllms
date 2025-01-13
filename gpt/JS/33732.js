@@ -1,1 +1,0 @@
-// src/calculator.js\nfunction add(a, b) {\n    return a + b;\n}\nmodule.exports = add;\n\n// tests/calculator.test.js\nconst add = require('../src/calculator');\n\ntest('adds 2 + 2 to equal 4', () => {\n    expect(add(2, 2)).toBe(4);\n});

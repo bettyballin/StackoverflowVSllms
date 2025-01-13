@@ -1,1 +1,0 @@
-# validate-site.sh\n    html-validator --validator https://validator.w3.org/nu/ --file your-site-directory/index.html --verbose\n    css-validator your-site-directory/styles.css

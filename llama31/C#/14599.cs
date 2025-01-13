@@ -1,0 +1,1 @@
+object obj = ComWrapper.CreateInstance("Excel.Application");

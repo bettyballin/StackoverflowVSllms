@@ -1,0 +1,1 @@
+svn propget "startup-form" your_project.vbproj > startup_form.txt\nset /p STARTUP_FORM= < startup_form.txt\necho $(StartupForm) = %STARTUP_FORM%

@@ -1,0 +1,1 @@
+DECLARE @sql NVARCHAR(MAX) = '';\n\nSELECT @sql += 'KILL ' + CONVERT(VARCHAR(5), spid) + ';'\nFROM sys.sysprocesses\nWHERE dbid = DB_ID('your_database_name');\n\nEXEC sp_executesql @sql;

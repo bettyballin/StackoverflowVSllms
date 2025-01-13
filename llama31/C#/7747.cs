@@ -1,0 +1,1 @@
+public interface IMap {\n    bool IsColliding();\n}\n\npublic class Map : IMap {\n    // implementation\n}\n\npublic class Player {\n    private readonly IMap _map;\n\n    public Player(IMap map) {\n        _map = map;\n    }\n\n    public void Jump() {\n        if (_map.IsColliding()) {\n            // Do something\n        }\n    }\n}

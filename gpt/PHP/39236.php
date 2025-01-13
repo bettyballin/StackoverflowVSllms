@@ -1,1 +1,0 @@
-$uri = $_SERVER['REQUEST_URI'];\n$segments = explode('/', trim($uri, '/'));\n\n$params = [];\nfor ($i = 2; $i < count($segments); $i += 2) {\n    if (isset($segments[$i + 1])) {\n        $params[$segments[$i]] = $segments[$i + 1];\n    }\n}\n\nprint_r($params); // This will show you the parsed parameters

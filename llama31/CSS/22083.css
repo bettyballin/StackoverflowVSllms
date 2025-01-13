@@ -1,0 +1,1 @@
+DIV#Footer {\n    padding: 10px;\n    color: #fff;\n    background-color: #484848;\n    position: relative;\n    text-align: left; /* <--- Add this */\n}

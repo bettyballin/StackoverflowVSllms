@@ -1,1 +1,0 @@
-MyFuncClass->MyFunc(GetNumber(), &BigClass::PassThis, BigClassInstance, GetArgs(), TheType);

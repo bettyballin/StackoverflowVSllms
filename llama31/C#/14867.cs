@@ -1,0 +1,1 @@
+using System.Resources;\n\npublic class MyClass\n{\n    public void MyMethod()\n    {\n        string loginSuccessMessage = Resources.Messages.LOGINSUCCESS;\n        // Use the message as needed\n    }\n}

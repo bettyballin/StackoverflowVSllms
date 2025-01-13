@@ -1,1 +1,0 @@
-// Invalid function overloading based on return type\nint function(int x) {\n    return x;\n}\n\ndouble function(int x) { // This will cause a compilation error\n    return static_cast<double>(x);\n}

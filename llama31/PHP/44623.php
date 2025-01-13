@@ -1,0 +1,1 @@
+$array = [];\n$array[] = 'new value';

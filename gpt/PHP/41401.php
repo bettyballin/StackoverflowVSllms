@@ -1,1 +1,0 @@
-try {\n    $pdo = new PDO("mysql:host=$host;dbname=$dbname", $user, $pass);\n    // set the PDO error mode to exception\n    $pdo->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);\n} catch (PDOException $e) {\n    die("Connection failed: " . $e->getMessage());\n}

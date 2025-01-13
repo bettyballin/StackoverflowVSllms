@@ -1,0 +1,1 @@
+const iframe = document.createElement('iframe');\niframe.addEventListener('DOMContentLoaded', () => {\n  console.log('IFRAME HTML loaded');\n});\niframe.src = 'https://example.com';\ndocument.body.appendChild(iframe);

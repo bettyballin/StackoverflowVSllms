@@ -1,0 +1,1 @@
+using WebSupergoo.ABCpdf8;\n\n// Create a new document\nDoc doc = new Doc();\n\n// Create a content area\nContentArea ca = new ContentArea(doc);\n\n// Set the indent to 0\nca.Indent = 0;\n\n// Add text to the content area\nca.AddText("Your text here...");\n\n// Chain the text to the next content area\nca.ChainNext = true;

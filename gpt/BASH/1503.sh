@@ -1,1 +1,0 @@
-top -p $(pgrep apache2) -d 1\n# or\nhtop -p $(pgrep apache2)

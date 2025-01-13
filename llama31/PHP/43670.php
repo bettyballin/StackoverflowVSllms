@@ -1,0 +1,1 @@
+$password = 'user_input_password';\n$stmt = $mysqli->prepare('CALL GetImportantData(?)');\n$stmt->bind_param('s', $password);\n$stmt->execute();

@@ -1,0 +1,1 @@
+app.UseCookieAuthentication(new CookieAuthenticationOptions\n{\n    Domain = ".cookies.com",\n    // ...\n});

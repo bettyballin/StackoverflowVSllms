@@ -1,1 +1,0 @@
-import hashlib\n\ndef hash_data(data):\n    sha256 = hashlib.sha256()\n    sha256.update(data.encode('utf-8'))\n    return sha256.hexdigest()\n\n# Example usage\ndata = "example data"\nhashed_data = hash_data(data)\nprint(f"SHA-256 hash: {hashed_data}")

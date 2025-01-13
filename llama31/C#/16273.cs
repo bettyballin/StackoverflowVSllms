@@ -1,0 +1,1 @@
+[DllImport("user32")]\npublic static extern int GetSystemMetrics(SystemMetric smIndex);\n\npublic static bool IsRemoteSession()\n{\n    return GetSystemMetrics(SystemMetric.SM_REMOTESESSION) != 0;\n}

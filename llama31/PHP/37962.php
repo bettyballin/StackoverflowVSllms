@@ -1,0 +1,1 @@
+use Cake\Datasource\ConnectionManager;\n\n$connection = ConnectionManager::get('default');\n$query = $connection->newQuery();\n$query->select('timezone')->from('your_table_name');\n$result = $query->execute()->fetch('assoc');\n\nif ($result) {\n    putenv("TZ={$result['timezone']}");\n}

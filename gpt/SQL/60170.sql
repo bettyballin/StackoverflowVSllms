@@ -1,1 +1,0 @@
-SELECT a.*\nFROM TableA a\nJOIN TableB b ON a.id = b.id

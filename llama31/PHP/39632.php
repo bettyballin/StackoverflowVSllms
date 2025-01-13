@@ -1,0 +1,1 @@
+// In GamePlayer.php\npublic $primaryKey = false;

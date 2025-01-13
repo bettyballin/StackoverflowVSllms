@@ -1,1 +1,0 @@
-<!-- app/views/assets/_edit_form.html.erb -->\n<%= form_for @asset, remote: true do |f| %>\n  <div class="field">\n    <%= f.label :name %>\n    <%= f.text_field :name %>\n  </div>\n  <div class="field">\n    <%= f.label :description %>\n    <%= f.text_area :description %>\n  </div>\n  <div class="actions">\n    <%= f.submit %>\n  </div>\n<% end %>

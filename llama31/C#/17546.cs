@@ -1,0 +1,1 @@
+public class MyObject\n{\n    public string Title { get; set; }\n}\n\npublic class MyControl : Control\n{\n    public MyObject MyObject { get; set; }\n}\n\nvar binder = new Binder();\nvar control = new MyControl();\nvar obj = new MyObject();\n\nbinder.BindControl(control, x => x.MyObject.Title);

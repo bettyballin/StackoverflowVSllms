@@ -1,0 +1,1 @@
+string tableName = Request.Form["myTable"];

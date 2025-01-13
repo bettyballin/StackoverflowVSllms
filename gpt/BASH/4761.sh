@@ -1,1 +1,0 @@
-pids=$(perf script -i perf.data | grep -oP '^\d+ ' | sort | uniq)\n   for pid in $pids; do\n     perf report -i perf.data --pid=$pid > report_$pid.txt\n   done

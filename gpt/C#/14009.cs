@@ -1,1 +1,0 @@
-// C# Example\nprivate async void UpdateControlAsync()\n{\n    await Task.Run(() => {\n        // Perform background work here\n    });\n\n    // Update UI control on the UI thread\n    MyControl.Text = "Updated Text";\n}

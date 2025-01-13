@@ -1,1 +1,0 @@
-# Install Node.js (if not already installed)\n    sudo apt-get install nodejs\n    sudo apt-get install npm\n\n    # Install showdown\n    npm install showdow

@@ -1,0 +1,1 @@
+CREATE PROCEDURE [MyScheme].[Tenants_InsertTenant]\n    @username nvarchar(2048),\n    @password nvarchar(2048)\nAS\nBEGIN\n    SET NOCOUNT ON;\n\n    DECLARE @sql nvarchar(max) = N'CREATE LOGIN ' + QUOTENAME(@username) + N' WITH PASSWORD = ''' + @password + '''';\n    EXEC sp_executesql @sql;\nEND

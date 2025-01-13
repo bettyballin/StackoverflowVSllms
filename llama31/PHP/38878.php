@@ -1,0 +1,1 @@
+$mysqli = new mysqli('localhost', 'username', 'password', 'database');\n$mysqli->set_opt(MYSQLI_OPT_COMPRESS, true);

@@ -1,0 +1,1 @@
+$config = HTMLPurifier_Config::createDefault();\n$config->set('Core.ConvertCharacterEntities', false);\n\n$purifier = new HTMLPurifier($config);

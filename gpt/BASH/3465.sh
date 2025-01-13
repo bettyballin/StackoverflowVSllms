@@ -1,1 +1,0 @@
-export MAVEN_OPTS="-Xdebug -Xrunjdwp:transport=dt_socket,server=y,suspend=y,address=8787"\nmvn clean test

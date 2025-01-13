@@ -1,1 +1,0 @@
-sudo mkdir -p /var/svn/repos

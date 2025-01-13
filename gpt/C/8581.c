@@ -1,1 +1,0 @@
-CRITICAL_SECTION cs;\nCONDITION_VARIABLE cv;\n\nInitializeCriticalSection(&cs);\nInitializeConditionVariable(&cv);\n\n// Thread 1\nEnterCriticalSection(&cs);\nwhile (!condition) {\n    SleepConditionVariableCS(&cv, &cs, INFINITE);\n}\nLeaveCriticalSection(&cs);\n\n// Thread 2\nEnterCriticalSection(&cs);\ncondition = TRUE;\nWakeConditionVariable(&cv);\nLeaveCriticalSection(&cs);

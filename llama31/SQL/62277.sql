@@ -1,0 +1,1 @@
+CREATE TABLE Customers (\n    CustomerID int,\n    LastName nvarchar(50),\n    FirstName nvarchar(50),\n    Address nvarchar(100)\n);\n\nCREATE INDEX idx_LastName ON Customers (LastName);

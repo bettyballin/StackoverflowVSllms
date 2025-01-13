@@ -1,0 +1,1 @@
+function onClientPopulated(sender, e) {\n    var items = sender.get_completionList().childNodes;\n    for (var i = 0; i < items.length; i++) {\n        var item = items[i];\n        item.innerHTML = item.innerHTML.toString();\n    }\n}

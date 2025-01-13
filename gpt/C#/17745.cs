@@ -1,1 +1,0 @@
-public override void copy(FileItem destination)\n{\n    if (!IsDirectory) \n    {\n        File.Copy(Path, destination.Path, true); // Corrected the parameter order\n    }\n    else \n    {\n        copyRecursive(destination);\n    }\n}

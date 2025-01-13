@@ -1,0 +1,1 @@
+WITH ExtendedLogs AS (\n  SELECT \n    LogsExtended.*\n  FROM \n    LogsExtended\n  WHERE \n    LogsExtended.LogID IN (SELECT LogID FROM Logs WHERE LogDate >= DATEADD(day, -30, GETDATE()))\n)\nSELECT \n  L.*,\n  EL.*\nFROM \n  Logs L\n  LEFT JOIN ExtendedLogs EL ON L.LogID = EL.LogID\nWHERE \n  L.LogDate >= DATEADD(day, -30, GETDATE())

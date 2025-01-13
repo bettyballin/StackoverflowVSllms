@@ -1,1 +1,0 @@
-yourcommand | tee log.txt

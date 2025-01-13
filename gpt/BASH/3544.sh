@@ -1,1 +1,0 @@
-rsync -avz --exclude-from='.rsync-exclude' /path/to/local/dir/ user@remote_server:/path/to/remote/dir/

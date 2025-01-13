@@ -1,1 +1,0 @@
-$data = preg_replace('/\-/', '', '1234-1234-JB91-8742F');\n\nif (preg_match('/^[A-Z0-9]+$/', $data)) {\n    echo $data;\n} else {\n    exit;\n}

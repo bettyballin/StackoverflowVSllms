@@ -1,0 +1,1 @@
+from django.core.exceptions import ValidationError\n\ndef validate_description(value):\n    if value.strip() == '':\n        raise ValidationError('Only whitespace is not allowed')\n\nclass Item(models.Model):\n    description = models.CharField(max_length=100, validators=[validate_description])\n\nclass ItemForm(ModelForm):\n    class Meta:\n        model = Item

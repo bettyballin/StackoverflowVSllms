@@ -1,0 +1,1 @@
+ALTER TABLE tbl_name\nADD COLUMN column4;\n\nALTER TABLE tbl_name\nREORDER COLUMN column4 AFTER column1;

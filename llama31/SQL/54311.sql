@@ -1,0 +1,1 @@
+SELECT CONCAT(fName1, ' ', IFNULL(mName2, ''), ' ', lName3) AS userName\nFROM users\nWHERE level > 10

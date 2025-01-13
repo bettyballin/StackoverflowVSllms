@@ -1,0 +1,1 @@
+iccconvert -i AdobeRGB1998.icc -o sRGB.icc input.jpg output.jpg

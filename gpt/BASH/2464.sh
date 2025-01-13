@@ -1,1 +1,0 @@
-makecert -r -pe -n "CN=MY COMPANY DEBUG" -sky exchange -ss My -sr LocalMachine -a sha256 -len 2048 -sp "Microsoft RSA SChannel Cryptographic Provider" -sy 12 Debug.cer

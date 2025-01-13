@@ -1,0 +1,1 @@
+List<YourObject> list = ...; // your list of objects\nDataSet dataSet = ConvertListToDataSet(list);\ndataGridView1.DataSource = dataSet.Tables[0];

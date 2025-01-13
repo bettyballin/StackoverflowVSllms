@@ -1,1 +1,0 @@
-Int32   = 1, I\nDouble  = 1.0, R, 1.0e5\nDecimal = 1D, D\nSingle  = 1F, F, !\nInt16   = 1S, S\nUInt64  = 1UL, UL

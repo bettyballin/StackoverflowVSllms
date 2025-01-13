@@ -1,0 +1,1 @@
+$.ajax({\n  type: 'GET',\n  url: '/path/to/content',\n  success: function(data) {\n    $('#tab-content').html(data);\n  }\n});

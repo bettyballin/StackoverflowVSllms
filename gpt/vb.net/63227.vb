@@ -1,1 +1,0 @@
-' Decrypt the file and get the decrypted stream.\nDim decryptedStream As MemoryStream = DecryptFileToStream(m_TheXMLDatasetPath, sKey)\n\n' Load the XML schema.\nds.ReadXmlSchema(m_TheSchemaPath)\n\n' Load the decrypted XML from the stream into the dataset.\nds.ReadXml(decryptedStream, XmlReadMode.IgnoreSchema)

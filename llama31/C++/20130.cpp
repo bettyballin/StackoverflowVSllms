@@ -1,0 +1,1 @@
+v.reserve(m.size());\nfor (MyMap::iterator i = m.begin(); i != m.end(); ++i) {\n    v.push_back(i->first);\n}

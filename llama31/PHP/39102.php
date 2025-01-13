@@ -1,0 +1,1 @@
+$newstitle = stripslashes($_POST['newstitle']);\n$newstext = stripslashes($_POST['newstext']);\n\n$newstitle = mysql_real_escape_string($newstitle);\n$newstext = mysql_real_escape_string($newstext);

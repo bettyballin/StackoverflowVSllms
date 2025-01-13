@@ -1,0 +1,1 @@
+SELECT m.material_id,\n       MAX(file_location) OVER (PARTITION BY m.content_id ORDER BY resolution DESC) special_mat_file_location\n  FROM mat m\n  JOIN con ON con.content_id = m.content_id\n  JOIN con_groups ON con_groups.content_id = con.content_id\n WHERE con_groups.content_group_id = 10;

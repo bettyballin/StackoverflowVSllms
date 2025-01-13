@@ -1,1 +1,0 @@
-class Point {\n    public int X;\n    public int Y;\n}

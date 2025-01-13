@@ -1,0 +1,1 @@
+public class StringRedir : StringWriter, INotifyPropertyChanged\n{\n    // ...\n\n    public override void WriteLine(string x)\n    {\n        Text = x + "\n";\n        Application.Current.Dispatcher.Invoke(DispatcherPriority.Normal, (Action)(() => OnPropertyChanged("Text")));\n    }\n}

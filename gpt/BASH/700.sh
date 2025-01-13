@@ -1,1 +1,0 @@
-pip install imagehash\npip install pillow

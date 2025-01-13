@@ -1,0 +1,1 @@
+#!/bin/bash\n\n# Create a GUI with buttons and a progress bar\ndialog --title "My Script" --gauge "Working..." 0 0\n\n# Update the progress bar\nfor i in {1..100}; do\n  dialog --gauge "Working..." $i 0\n  sleep 0.1\ndone

@@ -1,0 +1,1 @@
+#ifndef DTD_DLL_H\n#define DTD_DLL_H\n\nextern "C" {\n    __declspec(dllexport) const char* getDtd(int id);\n}\n\n#endif

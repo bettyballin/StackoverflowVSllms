@@ -1,0 +1,1 @@
+.container {\n  column-count: 2;\n  column-gap: 10px;\n}\n\n.item {\n  width: 400px;\n  margin-bottom: 10px;\n  break-inside: avoid-column;\n}

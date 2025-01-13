@@ -1,0 +1,1 @@
+$result = exec('perl /path/to/perl/script.pl ' . escapeshellarg($input));

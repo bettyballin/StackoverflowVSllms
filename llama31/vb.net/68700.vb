@@ -1,0 +1,1 @@
+Imports AutoMapper\n\nDim driverProxy As wsDrivers.Driver = mywebserviceinstance.GetDriverByID(1)\nDim driver As Driver = Mapper.Map(Of wsDrivers.Driver, Driver)(driverProxy)

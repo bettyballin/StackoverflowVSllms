@@ -1,0 +1,1 @@
+<?php\nob_start();\nif (!$someCondition) {\n    echo '<p>Error message</p>'; // or any other error message\n    ob_end_flush();\n    exit();\n} else {\n    # Do something\n}\n?>

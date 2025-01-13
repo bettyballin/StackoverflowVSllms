@@ -1,0 +1,1 @@
+$text = 'My sample <a id="keyword" href="someURLkeyword"> test keyword test</a> link this keyword here.';\n$keyword = 'keyword';\n$url = 'http://example.com';\n\n$pattern = '/\b' . preg_quote($keyword, '/') . '\b(?![^<]*<\/a>)/';\n$replacement = '<a href="' . $url . '">' . $keyword . '</a>';\n\n$text = preg_replace($pattern, $replacement, $text);\n\necho $text;

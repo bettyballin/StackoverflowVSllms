@@ -1,0 +1,1 @@
+using System.Xml;\n\n// ...\n\nXmlDocument doc = new XmlDocument();\n// ... populate the XmlDocument object ...\n\nusing (StringWriter writer = new StringWriter())\n{\n    using (XmlWriter xmlWriter = XmlWriter.Create(writer))\n    {\n        doc.WriteTo(xmlWriter);\n    }\n    string xml = writer.ToString();\n    // use the xml string to insert into your database\n}

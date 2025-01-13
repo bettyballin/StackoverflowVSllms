@@ -1,1 +1,0 @@
-# Example for iptables\n   iptables -A INPUT -p tcp --dport 8443 -m state --state NEW,ESTABLISHED -j ACCEPT\n   iptables -A OUTPUT -p tcp --sport 8443 -m state --state ESTABLISHED -j ACCEPT\n\n   # Example for ufw\n   ufw allow 8443/tcp

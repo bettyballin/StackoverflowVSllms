@@ -1,1 +1,0 @@
-class User < ApplicationRecord\n  has_many :posts, dependent: :destroy, extend: RecentPostMethods\n\n  module RecentPostMethods\n    def recent\n      order('created_at DESC').limit(12)\n    end\n  end\nend

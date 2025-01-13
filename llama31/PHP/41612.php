@@ -1,0 +1,1 @@
+$dsn = 'mysql:host=localhost;dbname=mydatabase';\n$username = 'myusername';\n$password = 'mypassword';\n\n$pdo = new PDO($dsn, $username, $password);\n\n$stmt = $pdo->prepare('SELECT * FROM users WHERE name = :name');\n$stmt->bindParam(':name', $_POST['name']);\n$stmt->execute();\n\n$result = $stmt->fetchAll();

@@ -1,0 +1,1 @@
+function postClasses(post) {\n  const classes = ["post"];\n  if (post.recent) classes.push("recent");\n  if (post.repliedTo) classes.push("replied_to");\n  if (post.authorIsAdmin) classes.push("author_is_admin");\n  return classes.join(" ");\n}

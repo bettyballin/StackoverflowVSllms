@@ -1,1 +1,0 @@
-ALTER TABLE YourTableName\nADD CONSTRAINT UQ_Column2_Column3 UNIQUE (Column2, Column3);

@@ -1,0 +1,1 @@
+$array = [\n    ['abc', 'def'],\n    ['ghi', 'jkl'],\n    ['mno', 'pql'],\n    ['abc', 'def'],\n    ['ghi', 'jkl'],\n    ['mno', 'pql'],\n];\n\n// Use serialize to make the sub-arrays comparable, then use array_unique\n$uniqueArray = array_map("unserialize", array_unique(array_map("serialize", $array)));\n\nprint_r($uniqueArray);

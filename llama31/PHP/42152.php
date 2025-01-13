@@ -1,0 +1,1 @@
+// Base64 Encoding Approach\n$imageData = base64_encode($imageBytes);\necho '<img src="data:image/jpeg;base64,' . $imageData . '">';\n\n// Loading an Image File Approach\n$imageUrl = 'path/to/image.jpg';\necho '<img src="' . $imageUrl . '">';

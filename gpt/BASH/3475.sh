@@ -1,1 +1,0 @@
-mvn deploy:deploy-file -DgroupId=org.bar -DartifactId=foo -Dversion=0.5.0 -Dpackaging=jar -Dfile=path/to/foo-0.5.0.jar -Durl=file:///path/to/local/repo

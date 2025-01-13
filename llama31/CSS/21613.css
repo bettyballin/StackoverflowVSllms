@@ -1,0 +1,1 @@
+tr[data-href] {\n  cursor: pointer;\n}\n\ntr[data-href]:hover {\n  /* Optional hover styles */\n}

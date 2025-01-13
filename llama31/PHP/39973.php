@@ -1,0 +1,1 @@
+$tags = explode(',', $_POST['tags']); // assuming 'tags' is the input field name\n\n$tags = array_filter(array_map('trim', $tags)); // remove empty tags and trim whitespace\n\n$tags = preg_filter('/^[a-zA-Z0-9\s]+$/', '$0', $tags); // allow only alphanumeric characters and whitespace\n\n// Now, $tags contains the sanitized and valid tags

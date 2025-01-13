@@ -1,0 +1,1 @@
+@media print {\n  /* override background styles with print-friendly styles */\n  td.profitable {\n    background-image: url('profitable.png');\n  }\n}

@@ -1,0 +1,1 @@
+// example usage:\nusing RedGate.Ants;\nusing NUnit.Framework;\n\n[TestFixture]\npublic class ProfilingTests\n{\n    [Test]\n    public void TestProfiling()\n    {\n        // ...\n    }\n}

@@ -1,1 +1,0 @@
-myList = [0]\n    last_element = myList[-1:][0]  # Creates a sublist and then gets the first element from it\n    last_element += 1  # This does not modify myList\n    print(myList)  # Output: [0]

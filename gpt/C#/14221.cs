@@ -1,1 +1,0 @@
-myButton.Click += new EventHandler(myMemberMethod);

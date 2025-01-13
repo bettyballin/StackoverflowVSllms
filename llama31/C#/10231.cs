@@ -1,0 +1,1 @@
+public class ConditionalValidationRule : ValidationRule\n{\n    public bool Condition { get; set; }\n\n    public override ValidationResult Validate(object value, CultureInfo cultureInfo)\n    {\n        if (!Condition)\n            return ValidationResult.ValidResult;\n\n        // Perform validation here\n        // ...\n    }\n}

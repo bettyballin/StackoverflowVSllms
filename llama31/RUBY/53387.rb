@@ -1,0 +1,1 @@
+require 'nxt'\n\n# Connect to the NXT brick\nnxt = NXT.new\n\n# Turn on motor A\nnxt.motor_a.turn(100)

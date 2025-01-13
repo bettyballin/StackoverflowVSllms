@@ -1,0 +1,1 @@
+rxvt -fn Courier-12 -geometry 80x25 -bg black -fg white

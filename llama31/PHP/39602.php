@@ -1,0 +1,1 @@
+class Test\n{\n    /** @var SomeObj[] */\n    private $someObjInstances;\n}

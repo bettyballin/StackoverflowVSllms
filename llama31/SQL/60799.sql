@@ -1,0 +1,1 @@
+-- Backup the database on the source server\nBACKUP DATABASE [YourDatabaseName] TO DISK = 'C:\Backup\YourDatabaseName.bak'\n\n-- Restore the database on the destination server\nRESTORE DATABASE [YourDatabaseName] FROM DISK = 'C:\Backup\YourDatabaseName.bak'

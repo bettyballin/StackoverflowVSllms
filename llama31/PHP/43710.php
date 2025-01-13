@@ -1,0 +1,1 @@
+// CodeIgniter\nclass MyController extends CI_Controller {\n    public function index() {\n        // ...\n    }\n}\n\n// Kohana\nclass MyController extends Controller {\n    public function action_index() {\n        // ...\n    }\n}

@@ -1,1 +1,0 @@
-set editing-mode vi\n    set keymap vi

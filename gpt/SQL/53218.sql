@@ -1,1 +1,0 @@
-INSERT INTO timesheet (jobid, datebeginning, dateending)\nVALUES (123, '2023-10-01', '2023-10-31')\nON DUPLICATE KEY UPDATE dateending = VALUES(dateending);

@@ -1,0 +1,1 @@
+public static function create($var) {\n    $obj = new Thing($var);\n    $obj->initialize();\n    return $obj;\n}

@@ -1,1 +1,0 @@
-var xhr = new XMLHttpRequest();\n    xhr.open('GET', 'data.json?v=1.0', true);\n    xhr.send();

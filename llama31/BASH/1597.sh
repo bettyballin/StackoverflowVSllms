@@ -1,0 +1,1 @@
+objdump -d -S --disassemble-all your_binary.dll

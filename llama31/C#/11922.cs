@@ -1,0 +1,1 @@
+public struct Particle\n{\n    public Point3D Position;\n    public Point3D Velocity;\n    public double Size;\n    public BlurEffect Blur;\n    public Brush Brush;\n}

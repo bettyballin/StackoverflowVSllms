@@ -1,0 +1,1 @@
+SELECT \n    u.ID,\n    u.Name,\n    STUFF((SELECT ', ' + c.Country\n           FROM Countries c\n           WHERE u.Countries LIKE '%,' + CONVERT(VARCHAR, c.ID) + ',%'\n           FOR XML PATH('')), 1, 2, '') AS CountriesByName\nFROM \n    Users u

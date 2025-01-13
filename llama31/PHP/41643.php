@@ -1,0 +1,1 @@
+function my_function() {\n    try {\n        throw new Exception();\n    } catch (Exception $e) {\n        $trace = $e->getTrace();\n        $caller = $trace[0];\n        echo "Called from file: " . $caller['file'] . "\n";\n        echo "Called from line: " . $caller['line'] . "\n";\n    }\n}

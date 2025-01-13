@@ -1,1 +1,0 @@
-#mainContainer {\n    width: 900px;\n    margin: 20px auto; /* Center the main container */\n    display: flex;\n    justify-content: space-between; /* Ensure there's space between the elements */\n}\n\n#placementContainerLeft {\n    width: 60%; /* Adjust the width as needed */\n}\n\n#placementContainerRight {\n    width: 35%; /* Adjust the width as needed */\n}

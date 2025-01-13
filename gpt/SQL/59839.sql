@@ -1,1 +1,0 @@
-INSERT INTO tblpictures (UsrID, PictureURL, IsDefault)\nVALUES (1, '/uploads/users/1/profile_picture1.jpg', FALSE);

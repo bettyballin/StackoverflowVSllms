@@ -1,0 +1,1 @@
+SELECT a IS NOT DISTINCT FROM b AS is_equal;

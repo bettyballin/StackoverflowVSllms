@@ -1,0 +1,1 @@
+if (PortChecker.IsPortAvailable(port))\n{\n    TcpClient c = new TcpClient(ip, port);\n    // ...\n}\nelse\n{\n    Console.WriteLine("Port is in use.");\n}

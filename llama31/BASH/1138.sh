@@ -1,0 +1,1 @@
+tar --exclude='/full/path/to/exclude/file1.txt' --exclude='/full/path/to/exclude/folder1' -zcvf archive.tar.gz /directory/to/archive

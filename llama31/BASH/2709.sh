@@ -1,0 +1,1 @@
+md5deep find * | awk '{ print $1 }' | grep -v "Is a directory"

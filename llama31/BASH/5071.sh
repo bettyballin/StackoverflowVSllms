@@ -1,0 +1,1 @@
+fsutil volume query "C:" 2>nul | grep "FileRef"\nfsutil volume query "C:" 2>nul | grep "ParentFileRef"\nfsutil volume query "C:" 2>nul | grep "CreationTime"

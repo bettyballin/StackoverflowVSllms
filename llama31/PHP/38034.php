@@ -1,0 +1,1 @@
+if (!isset($_SESSION['id'])) {\n    // display login form\n} else {\n    echo "Logged in";\n}

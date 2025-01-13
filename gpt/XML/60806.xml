@@ -1,1 +1,0 @@
-<node id="node1">\n         <name>Node 1</name>\n     </node>\n     <node id="node2">\n         <name>Node 2</name>\n     </node>\n     <link source="node1" target="node2"/>

@@ -1,1 +1,0 @@
-$pattern = '/(?<percent>[0-9]{1,3}\.[0-9]{1,2})%\s+of\s+(?<filesize>[\d\.]+[KMGT]?B?)\s+at/';

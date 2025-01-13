@@ -1,1 +1,0 @@
-public void ConfigureServices(IServiceCollection services)\n   {\n       // Register Memcached client and cache provider\n       services.AddSingleton<IMemcachedClient>(new MemcachedClient());\n       services.AddSingleton<ICacheProvider, MemcachedCacheProvider>();\n\n       services.AddControllersWithViews();\n   }

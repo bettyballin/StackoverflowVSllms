@@ -1,0 +1,1 @@
+// Validate input data (alphanumerics only)\nif (!preg_match('/^[a-zA-Z0-9]+$/', $_POST['first_name'])) {\n    // Handle invalid input\n}\n\n// Sanitize input data\n$first_name = htmlspecialchars(strip_tags($_POST['first_name']));

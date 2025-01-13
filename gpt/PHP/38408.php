@@ -1,1 +1,0 @@
-<?php\n// Create an array with alphabetic characters A-Z\n$alphabet = range('A', 'Z');\n\n// Loop through the array and display each character\nforeach ($alphabet as $letter) {\n    echo $letter . "\n";\n}\n?>

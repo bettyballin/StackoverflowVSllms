@@ -1,0 +1,1 @@
+public enum Roles\n{\n    Admin,\n    User\n}\n\npublic class Permission\n{\n    public string Name { get; set; }\n    public Roles[] AllowedRoles { get; set; }\n}\n\npublic interface IAuthorizationService\n{\n    bool Authorize(Roles role, string permission);\n}

@@ -1,0 +1,1 @@
+// JavaScript side (e.g., script.js)\nfetch('/api.php')\n  .then(response => response.json())\n  .then(data => console.log(data))\n  .catch(error => console.error(error));

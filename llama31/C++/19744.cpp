@@ -1,0 +1,1 @@
+#include <chrono>\n#include <thread>\n\nwhile (true) {\n    // Do compression work...\n    // ...\n\n    // Check if we've used up our time slice\n    std::this_thread::sleep_for(std::chrono::milliseconds(10));\n}

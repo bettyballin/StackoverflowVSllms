@@ -1,1 +1,0 @@
-openssl verify -CAfile chain.pem server_certificate.pem

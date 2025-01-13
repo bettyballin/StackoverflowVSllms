@@ -1,1 +1,0 @@
-var controllerNames = ControllerHelper.GetControllerNames();\nforeach (var name in controllerNames)\n{\n    Console.WriteLine(name);\n}

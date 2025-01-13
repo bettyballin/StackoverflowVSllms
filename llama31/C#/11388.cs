@@ -1,0 +1,1 @@
+this.myTable.CssClass = "hidden";

@@ -1,0 +1,1 @@
+import inspect\n\ndef func(param1, param2, param3):\n    frame = inspect.currentframe()\n    args, _, _, value_dict = inspect.getargvalues(frame)\n    for arg in args:\n        value_dict[arg] = value_dict[arg] or ''\n    # rest of your function code

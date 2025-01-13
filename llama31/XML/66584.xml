@@ -1,0 +1,1 @@
+<configuration>\n    <runtime>\n        <gcAllowVeryLargeObjects enabled="true"/>\n    </runtime>\n</configuration>

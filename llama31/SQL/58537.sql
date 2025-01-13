@@ -1,0 +1,1 @@
+SELECT sid, serial#, username, sql_text, event \nFROM v$session \nWHERE event = 'SQL*Net message from client' \n  AND wait_class = 'Network';

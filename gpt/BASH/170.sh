@@ -1,1 +1,0 @@
-objdump -W <binary> | grep DW_AT_name

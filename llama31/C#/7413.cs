@@ -1,0 +1,1 @@
+var doc = new HtmlDocument();\ndoc.OptionOutputAsXml = true;\ndoc.LoadHtml(htmlString);

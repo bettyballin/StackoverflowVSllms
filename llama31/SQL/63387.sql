@@ -1,0 +1,1 @@
+SELECT DISTINCT \n    CONVERT(VARCHAR, CASE WHEN Person1 < Person2 THEN Person1 ELSE Person2 END) + ',' + \n    CONVERT(VARCHAR, CASE WHEN Person1 < Person2 THEN Person2 ELSE Person1 END) AS MarriedCouple\nFROM \n    Relationship\nWHERE \n    RelationshipType = 'Married'

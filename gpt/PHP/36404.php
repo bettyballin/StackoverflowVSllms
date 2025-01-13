@@ -1,1 +1,0 @@
-<?php\n// This is a single-line PHP comment\n\n/*\nThis is a multi-line PHP comment\n*/\n?>

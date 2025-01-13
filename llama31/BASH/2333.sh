@@ -1,0 +1,1 @@
+tar -xvf SMS.tar.gz

@@ -1,0 +1,1 @@
+$dateFromDb = '2023-03-01'; // Replace with your actual date from the database\n$thirteenDaysAgo = date('Y-m-d', strtotime('-13 days'));\n\nif ($dateFromDb < $thirteenDaysAgo) {\n    // The date is more than 13 days ago, do something here\n}

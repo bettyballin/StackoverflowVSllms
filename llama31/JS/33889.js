@@ -1,0 +1,1 @@
+$('a.button:has(img)')

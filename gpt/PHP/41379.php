@@ -1,1 +1,0 @@
-// Example to validate parameter lengths\n    function validateNVPString($nvpString) {\n        parse_str($nvpString, $params);\n        foreach ($params as $key => $value) {\n            if (strlen($value) > 255) {\n                return false;\n            }\n        }\n        return true;\n    }

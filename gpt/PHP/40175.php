@@ -1,1 +1,0 @@
-<?php\n   session_start();\n   \n   if (!isset($_SESSION['userid'])) {\n       // Session has expired\n       echo json_encode(['status' => 'session_expired']);\n       exit;\n   }\n\n   // Process the vote logic here\n   $new_vote_value = // ... your logic to compute the new vote value\n\n   echo json_encode(['status' => 'success', 'new_vote_value' => $new_vote_value]);\n   ?>

@@ -1,0 +1,1 @@
+xperf -i -symbol

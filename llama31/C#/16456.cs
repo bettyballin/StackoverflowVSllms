@@ -1,0 +1,1 @@
+public interface ISelectable\n{\n    bool IsSelected { get; set; } // This could be your IsFast, ILikeIt, etc.\n}

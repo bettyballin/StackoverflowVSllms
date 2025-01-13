@@ -1,0 +1,1 @@
+using System.ServiceModel;\n\npublic class MyServiceHost : ServiceHost\n{\n    // ...\n\n    protected override void OnStart(string[] args)\n    {\n        // ...\n\n        try\n        {\n            Open();\n        }\n        catch (Exception ex)\n        {\n            // Handle exception\n            throw new FaultException(ex.Message);\n        }\n    }\n}

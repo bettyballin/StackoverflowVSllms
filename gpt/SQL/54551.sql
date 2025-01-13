@@ -1,1 +1,0 @@
-CREATE DATABASE LINK db2_link\n   CONNECT TO db2_user IDENTIFIED BY db2_password\n   USING 'db2_connection_string';\n   \n   SELECT * \n   FROM accounts@db2_link\n   WHERE accountnum IN (SELECT accountnum FROM local_table);

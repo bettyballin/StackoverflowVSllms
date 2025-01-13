@@ -1,0 +1,1 @@
+Imports System.Data.SqlClient\n\nDim connectionString As String = "Server=myServerAddress;Database=myDataBase;User Id=myUsername;Password=myPassword;"\nDim connection As New SqlConnection(connectionString)

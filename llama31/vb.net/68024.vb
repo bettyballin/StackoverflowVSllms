@@ -1,0 +1,1 @@
+// Example of Roslyn's VB.NET code\nImports Microsoft.CodeAnalysis\nImports Microsoft.CodeAnalysis.VisualBasic\n\nNamespace Microsoft.CodeAnalysis.VisualBasic\n    Public Class VisualBasicSyntaxTree\n        Implements ISyntaxTree\n\n        Public Function GetRoot() As SyntaxNode\n            // ...\n        End Function\n    End Class\nEnd Namespace

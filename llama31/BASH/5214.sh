@@ -1,0 +1,1 @@
+sudo apt-get install certbot\nsudo certbot certonly --standalone -d example.com

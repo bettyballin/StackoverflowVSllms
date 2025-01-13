@@ -1,1 +1,0 @@
-# Install dos2unix (if not already installed)\nsudo apt-get install dos2unix\n\n# Convert a file from DOS to Unix format\ndos2unix filename.txt

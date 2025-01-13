@@ -1,1 +1,0 @@
-$formatted = sprintf("Hex: %x", 255);\n    // Output: Hex: ff

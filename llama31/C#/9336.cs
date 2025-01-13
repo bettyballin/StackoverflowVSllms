@@ -1,0 +1,1 @@
+var indexMap = sortedValuesList.Select((value, index) => new { value, index })\n                               .ToDictionary(x => x.value, x => x.index);\n\nobjectList.Sort((a, b) => indexMap[a.Value].CompareTo(indexMap[b.Value]));

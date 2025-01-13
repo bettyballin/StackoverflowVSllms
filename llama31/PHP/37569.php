@@ -1,0 +1,1 @@
+spl_autoload_register(function ($class) {\n    $file = 'include/' . $class . '.php';\n    if (file_exists($file)) {\n        require_once $file;\n    }\n});

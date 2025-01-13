@@ -1,1 +1,0 @@
-[System.Web.Services.WebMethod]\npublic static string GetSessionData()\n{\n    return HttpContext.Current.Session["UserName"] as string;\n}

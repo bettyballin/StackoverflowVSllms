@@ -1,0 +1,1 @@
+$text = '&#119;';\n$text = urlencode($text);\n$link = '?text=' . $text . '&type=htmldecode&format=text';

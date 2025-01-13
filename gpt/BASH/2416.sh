@@ -1,1 +1,0 @@
-pdftotext yourfile.pdf - | wc -w

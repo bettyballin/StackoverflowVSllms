@@ -1,1 +1,0 @@
-<%\nDim conn\nSet conn = Server.CreateObject("ADODB.Connection")\nconn.Open "YourConnectionString"\n\n' Perform database operations here\n\nconn.Close\nSet conn = Nothing\n%>

@@ -1,1 +1,0 @@
-# Process orders every 15 minutes\n   */15 * * * * /usr/bin/php /path/to/processOrders.php\n\n   # Accept new user registrations every 60 minutes\n   0 * * * * /usr/bin/php /path/to/newUserRegistrations.php\n\n   # Run daily tasks at midnight\n   0 0 * * * /usr/bin/php /path/to/dailyTasks.php

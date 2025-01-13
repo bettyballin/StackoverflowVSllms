@@ -1,0 +1,1 @@
+Dim myNumericVariable As Integer = Integer.Parse(dr.Item(columnName).ToString(), NumberStyles.Integer, CultureInfo.InvariantCulture)

@@ -1,1 +1,0 @@
-sudo chroot /opt/chroot/glibc-2.3.3 /bin/bash\n   export LD_LIBRARY_PATH=/opt/chroot/glibc-2.3.3/lib\n   /path/to/your/applicatio

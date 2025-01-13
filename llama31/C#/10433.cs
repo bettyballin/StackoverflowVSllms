@@ -1,0 +1,1 @@
+using System;\n\nstring baseDirectory = AppDomain.CurrentDomain.BaseDirectory;

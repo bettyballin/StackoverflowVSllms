@@ -1,0 +1,1 @@
+ilmerge /target:winexe /out:MergedAssembly.dll YourAssembly.dll log4net.dll

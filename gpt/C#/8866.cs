@@ -1,1 +1,0 @@
-folder.ParentWeb.AllowUnsafeUpdates = true;\n    folder.Item.BreakRoleInheritance(false);\n    // Your code to add/remove role assignments\n    folder.ParentWeb.AllowUnsafeUpdates = false;

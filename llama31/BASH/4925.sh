@@ -1,0 +1,1 @@
+sed -i 's%brief_description\ \=\ \"none\"\;%brief_description\ \=\ \"'"$DESC"'\"\;%g' temp_next.txt

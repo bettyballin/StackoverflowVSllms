@@ -1,0 +1,1 @@
+echo -ne "\033]0;New Session Name\007"

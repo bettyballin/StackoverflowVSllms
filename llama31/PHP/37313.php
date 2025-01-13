@@ -1,0 +1,1 @@
+$string = "D03:57:16:23";\npreg_match('/^D(\d{2}):(\d{2}):(\d{2}):(\d{2})$/', $string, $matches);\n\nif ($matches) {\n    $values = array_slice($matches, 1); // Remove the full match\n    $values = array_map('intval', $values, array_fill(0, count($values), 10)); // Convert to integers\n    print_r($values); // Output: Array ( [0] => 3 [1] => 57 [2] => 16 [3] => 23 )\n}

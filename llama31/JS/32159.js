@@ -1,0 +1,1 @@
+function stepOne(callback) {\n    // Simulate a long-running operation\n    setTimeout(function() {\n        console.log("Step one completed.");\n        if (typeof callback === 'function') {\n            callback();\n        }\n    }, 30000); // 30 seconds\n}\n\nfunction stepTwo() {\n    console.log("Step two completed.");\n}\n\nstepOne(stepTwo);

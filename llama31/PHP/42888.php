@@ -1,0 +1,1 @@
+$mySql = mysql_query("SELECT itemid, points FROM items WHERE id='1'");\n$result = mysql_fetch_assoc($mySql);\n\n$points = $result['points'];\n\n$mySql = mysql_query("UPDATE accounts SET userpoints = '$points'");

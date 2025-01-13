@@ -1,0 +1,1 @@
+perl -pi -e '\n    open my $log, ">>", "change.log" or die "Cannot open log: $!";\n    s/find/replace/g and print $log "Changed $ARGV: $&\n";\n' $1/*.html

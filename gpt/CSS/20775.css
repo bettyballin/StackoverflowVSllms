@@ -1,1 +1,0 @@
-select, input, td a {\n    border: 1px solid green;\n    width: 25%;\n    height: 25px;\n    font-size: 20px;\n    margin-left: .1em;\n}\n\ninput.myradio {\n    border: none;\n    /* Remove or adjust these properties */\n    width: auto;\n    height: auto;\n    font-size: inherit;\n}

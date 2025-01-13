@@ -1,1 +1,0 @@
-// Example setup for a COM server\n   HRESULT hr = CoInitializeEx(NULL, COINIT_MULTITHREADED);\n   // Register and create COM objects

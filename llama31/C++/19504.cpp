@@ -1,0 +1,1 @@
+std::string s = "Hello world, " + std::to_string(myInt) + " " + niceToSeeYouString + " " + std::string(1, someChar1) + " " + std::to_string(interestingDecimal) + " " + std::string(1, someChar2);

@@ -1,0 +1,1 @@
+$clean = str_ireplace($array, $filter, $str);

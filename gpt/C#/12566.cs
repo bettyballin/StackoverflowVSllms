@@ -1,1 +1,0 @@
-string baseUrl = ConfigurationManager.AppSettings["BaseUrl"];\nstring imageUrl = $"{baseUrl}/photos/{fileName}";

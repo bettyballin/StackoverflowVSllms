@@ -1,1 +1,0 @@
-lsof +D /path/to/mountpoint

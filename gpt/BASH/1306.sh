@@ -1,1 +1,0 @@
-// To start profiling with JProfiler, you can use the following command:\n// $ jprofiler -agentpath:/path/to/jprofiler/libjprofilerti.so=port=8849

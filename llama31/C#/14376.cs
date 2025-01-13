@@ -1,0 +1,1 @@
+DataSet dataSet = new DataSet();\n   // Load the dataset...\n\n   DataRow[] errorRows = dataSet.GetErrors();\n\n   foreach (DataRow errorRow in errorRows)\n   {\n       foreach (DataColumn column in errorRow.GetColumnsInError())\n       {\n           Console.WriteLine($"Error in row {errorRow.RowState} column {column.ColumnName}");\n       }\n   }

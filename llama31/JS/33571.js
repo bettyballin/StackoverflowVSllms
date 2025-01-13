@@ -1,0 +1,1 @@
+const element = document.getElementById('myElement');\nif (isElementDisplayed(element)) {\n  console.log('Element is displayed');\n} else {\n  console.log('Element is not displayed');\n}

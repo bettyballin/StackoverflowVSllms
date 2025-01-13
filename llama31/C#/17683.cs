@@ -1,0 +1,1 @@
+using (var dbContext = new MyDataContext())\n{\n    var customerId = 1;\n    var taskCount = dbContext.NumberOfTasksForCustomer(customerId);\n    var totalInvoiceAmount = dbContext.TotalInvoiceAmountForCustomer(customerId);\n}

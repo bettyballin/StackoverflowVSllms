@@ -1,1 +1,0 @@
-// Example usage of dotTrace for profiling\n    using JetBrains.dotTrace;\n    \n    public void MyMethod()\n    {\n        var snapshot = PerformanceProfiler.Start();\n        // Code to profile\n        PerformanceProfiler.Stop(snapshot);\n    }

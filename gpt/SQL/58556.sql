@@ -1,1 +1,0 @@
-ALTER SESSION ENABLE PARALLEL DML;\n\nUPDATE /*+ PARALLEL(j_test, 4) */ j_test\nSET C3 = 1,\n    C1 = 'NEU';\n\nCOMMIT;

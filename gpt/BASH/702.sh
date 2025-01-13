@@ -1,1 +1,0 @@
-pg_dump -U username -h localhost -Fc dbname > db/backup.dump

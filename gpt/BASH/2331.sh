@@ -1,1 +1,0 @@
-python generate_pdf.py

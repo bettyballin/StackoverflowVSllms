@@ -1,1 +1,0 @@
-REINDEX INDEX your_index_name;

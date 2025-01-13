@@ -1,1 +1,0 @@
--- Disable indexes\n   ALTER INDEX [IndexName] ON YourTable DISABLE;\n\n   -- Perform the update\n   UPDATE YourTable\n   SET ColumnToUpdate = NewValue\n   WHERE SomeCondition;\n\n   -- Rebuild indexes\n   ALTER INDEX [IndexName] ON YourTable REBUILD;

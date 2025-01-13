@@ -1,0 +1,1 @@
+alias stransfer='echo "scp -t %u@%l:%p" | ssh -t user@localhost'

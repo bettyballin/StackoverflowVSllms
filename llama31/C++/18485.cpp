@@ -1,0 +1,1 @@
+int _tmain(int argc, _TCHAR* argv[])\n{\n    cout << "Hello World";\n    cin.get();\n    return 0;\n}

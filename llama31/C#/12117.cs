@@ -1,0 +1,1 @@
+[Test, Timeout(2000)] // timeout in milliseconds\npublic void Test() { ... }

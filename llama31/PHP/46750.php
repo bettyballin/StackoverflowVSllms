@@ -1,0 +1,1 @@
+if (isset($attrs->url)) {\n    $videoURL = (string)$attrs->url;\n} else {\n    // handle the case where the url attribute is missing\n}

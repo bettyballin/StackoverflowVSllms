@@ -1,1 +1,0 @@
-# Generate private key and CSR (Certificate Signing Request)\nopenssl req -newkey rsa:4096 -keyout key.pem -out request.csr -nodes\n\n# Submit CSR to a trusted CA and obtain the certificate

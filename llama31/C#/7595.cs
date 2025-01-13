@@ -1,0 +1,1 @@
+// Assume 'reader' is a SqlDataReader instance\nobject value = reader["column_name"];\nif (value == DBNull.Value) {\n    Console.WriteLine("Database null value");\n} else if (value == null) {\n    Console.WriteLine(".NET null reference");\n} else {\n    Console.WriteLine("Non-null value: " + value);\n}

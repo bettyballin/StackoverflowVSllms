@@ -1,1 +1,0 @@
-// Using an iframe in your PHP file\n   echo '<iframe src="http://yourwebsite.com/blog" width="100%" height="600"></iframe>';

@@ -1,0 +1,1 @@
+from sanic import Sanic\napp = Sanic()\n\n@app.route("/")\nasync def test(request):\n    return "Hello World!"\n\nif __name__ == "__main__":\n    app.run()

@@ -1,0 +1,1 @@
+$link = mssql_connect($server, $username, $password);\nmssql_query("SET NAMES 'utf8'", $link);\nmssql_query("SET CHARACTER SET utf8", $link);

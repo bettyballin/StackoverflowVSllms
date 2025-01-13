@@ -1,1 +1,0 @@
-// included_file.php\nif (!defined('SECURE_INCLUDE') || SECURE_INCLUDE !== true) {\n    // Terminate script execution if accessed directly\n    die('Direct access not permitted');\n}\n\n// The rest of your code goes here

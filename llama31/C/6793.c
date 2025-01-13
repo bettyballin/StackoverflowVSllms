@@ -1,0 +1,1 @@
+#include <ncurses.h>\n\nint main() {\n    initscr();\n    noecho();\n    keypad(stdscr, TRUE);\n    int c = getch();\n    endwin();\n    printf("You pressed: %c\n", c);\n    return 0;\n}

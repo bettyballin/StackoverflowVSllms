@@ -1,1 +1,0 @@
-pirum build /path/to/pear-channel

@@ -1,0 +1,1 @@
+// Example of generating a random salt using a CSPRNG\nconst crypto = window.crypto || window.msCrypto;\nconst salt = crypto.getRandomValues(new Uint8Array(16));

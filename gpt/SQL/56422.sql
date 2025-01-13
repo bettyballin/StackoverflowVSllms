@@ -1,1 +1,0 @@
-EXEC sp_startpublication_snapshot @publication = 'YourPublicationName';

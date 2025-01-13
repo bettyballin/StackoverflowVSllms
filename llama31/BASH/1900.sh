@@ -1,0 +1,1 @@
+# Example Makefile\nCC=gcc\nCFLAGS=-Wall -Werror\nTARGET=myprogram\n\n$(TARGET): $(TARGET).c\n    $(CC) $(CFLAGS) -o $(TARGET) $(TARGET).c\n\nclean:\n    rm -f $(TARGET)

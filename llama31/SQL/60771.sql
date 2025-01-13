@@ -1,0 +1,1 @@
+CREATE TABLE SchemaVersions (\n    Id INT PRIMARY KEY,\n    Version INT NOT NULL,\n    DateApplied DATETIME NOT NULL DEFAULT GETDATE()\n);

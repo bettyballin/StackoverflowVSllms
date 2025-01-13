@@ -1,0 +1,1 @@
+UserControl myControl = new UserControl();\nmyControl.Controls.Add(new TextBox());\n\nstring html = GetHtml(myControl);

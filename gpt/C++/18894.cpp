@@ -1,1 +1,0 @@
-#include <iostream>\n\nstruct A {\n    template<class T> void f(T) {\n        std::cout << "A::f" << std::endl;\n    }\n};\n\nstruct B : A {\n    using A::f;  // Bring all overloads of A::f into B's scope\n};\n\nint main() {\n    B b;\n    b.f(10);  // Calls A::f<int>\n    b.f(3.14);  // Calls A::f<double>\n    return 0;\n}

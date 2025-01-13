@@ -1,0 +1,1 @@
+<?php\n  $xml = file_get_contents('php://input');\n  // Process the XML data\n  // ...\n\n  // Send response XML\n  header('Content-Type: application/xml');\n  echo '<response><message>Success!</message></response>';\n?>

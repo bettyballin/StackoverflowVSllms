@@ -1,1 +1,0 @@
--- Generate all table schemas for the database\n   EXEC sp_MSforeachtable @command1="EXEC sp_executesql N'EXEC sp_helptext N''?'', N'CREATE TABLE [NewDatabase]..[?] AS SELECT * FROM ? WHERE 1=0''"

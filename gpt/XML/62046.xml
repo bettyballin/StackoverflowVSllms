@@ -1,1 +1,0 @@
-<serviceBehavior>\n        <serviceThrottling maxConcurrentCalls="100" maxConcurrentSessions="100" maxConcurrentInstances="100" />\n        <serviceInstanceContextMode instanceContextMode="PerCall" />\n        <serviceConcurrencyMode concurrencyMode="Multiple" />\n    </serviceBehavior>

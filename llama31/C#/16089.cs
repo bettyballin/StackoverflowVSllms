@@ -1,0 +1,1 @@
+var comparer = new EqualityComparer<Person>((x, y) => x.PersonID == y.PersonID && x.PersonName == y.PersonName);\nif (people.Contains(newPerson, comparer))\n{\n    MessageBox.Show("This person is already in the party!");\n    return;\n}

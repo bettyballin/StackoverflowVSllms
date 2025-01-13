@@ -1,1 +1,0 @@
-chmod +x your_script_name.sh

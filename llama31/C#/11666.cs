@@ -1,0 +1,1 @@
+using FsCheck;\n\n[Test]\npublic void MyProperty() \n{\n    Prop.ForAll<int>(x => MyMethod(x) == ExpectedResult(x)).QuickCheckThrowOnFailure();\n}

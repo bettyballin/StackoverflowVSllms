@@ -1,0 +1,1 @@
+using MyCppDll;\n\nclass MyClass\n{\n    public void Test()\n    {\n        MyCppClass obj = new MyCppClass();\n        obj.MyMemberFunction();\n    }\n}

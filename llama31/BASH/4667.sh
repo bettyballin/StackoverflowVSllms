@@ -1,0 +1,1 @@
+openssl s_client -connect oz.some.server.edu:465

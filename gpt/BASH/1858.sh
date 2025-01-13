@@ -1,1 +1,0 @@
-# Mounting the volume\nveracrypt --mount /path/to/volume /mnt/veracrypt1\n\n# Unmounting the volume\nveracrypt --dismount /mnt/veracrypt1

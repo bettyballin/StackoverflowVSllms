@@ -1,0 +1,1 @@
+register_shutdown_function(function () {\n    print_r(get_defined_vars());\n});

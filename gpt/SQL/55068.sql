@@ -1,1 +1,0 @@
--- Assign a value to the variable using a SELECT statement\nSELECT @myVar := column_name FROM table_name WHERE condition LIMIT 1;\n\n-- Use the variable in another query\nSELECT * FROM another_table WHERE some_column = @myVar;

@@ -1,1 +1,0 @@
-$odbc_con = new COM("ADODB.Connection");\n$constr = "DRIVER={Microsoft Access Driver (*.mdb)}; DBQ=" . $db_path . ";";\n$odbc_con->open($constr);\n\n// Query to get the count of records\n$rs_count = $odbc_con->execute("SELECT COUNT(*) AS RecordCount FROM Main");\n$record_count = $rs_count->fields['RecordCount']->value;\n\necho "Number of records: " . $record_count;

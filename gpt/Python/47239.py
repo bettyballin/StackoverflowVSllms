@@ -1,1 +1,0 @@
-import gi\n   gi.require_version('Gtk', '3.0')\n   from gi.repository import Gtk\n\n   class Handler:\n       def onDeleteWindow(self, *args):\n           Gtk.main_quit(*args)\n\n   builder = Gtk.Builder()\n   builder.add_from_file("interface.glade")\n   builder.connect_signals(Handler())\n\n   window = builder.get_object("main_window")\n   window.show_all()\n\n   Gtk.main()

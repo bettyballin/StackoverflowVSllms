@@ -1,0 +1,1 @@
+// Press F12 to open developer tools\n// Select the Elements tab to view HTML source

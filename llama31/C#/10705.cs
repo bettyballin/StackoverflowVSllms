@@ -1,0 +1,1 @@
+private void textBox1_Validating(object sender, CancelEventArgs e)\n{\n    string text = ((TextBox)sender).Text;\n    float value;\n    if (!float.TryParse(text, out value))\n    {\n        e.Cancel = true; // prevent focus change\n        MessageBox.Show("Invalid input");\n    }\n}

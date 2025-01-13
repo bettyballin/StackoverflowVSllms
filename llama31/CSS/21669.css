@@ -1,0 +1,1 @@
+.four-sided-shadow {\n  box-shadow: \n    0px 10px 10px rgba(0, 0, 0, 0.2), /* bottom shadow */\n    -10px 0px 10px rgba(0, 0, 0, 0.2), /* left shadow */\n    10px 0px 10px rgba(0, 0, 0, 0.2), /* right shadow */\n    0px -10px 10px rgba(0, 0, 0, 0.2); /* top shadow */\n}

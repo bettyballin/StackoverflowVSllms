@@ -1,1 +1,0 @@
-tail -f /u01/app/oracle/diag/rdbms/orcl/orcl/trace/alert_orcl.log

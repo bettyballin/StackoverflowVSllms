@@ -1,1 +1,0 @@
-<?php\nsession_start();\n\nif (isset($_SESSION['key'])) {\n    $key = $_SESSION['key'];\n    // Use $key for your database query or other processing\n    echo 'The key is: ' . htmlspecialchars($key);\n} else {\n    echo 'No key found in session.';\n}\n?>

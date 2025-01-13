@@ -1,1 +1,0 @@
-// ProductControl.ascx.cs\npublic partial class ProductControl : System.Web.UI.UserControl\n{\n    public void UpdateProducts(List<string> products)\n    {\n        // Update the product list\n        ProductsGrid.DataSource = products;\n        ProductsGrid.DataBind();\n\n        // Update the internal UpdatePanel\n        ProductsUpdatePanel.Update();\n    }\n}

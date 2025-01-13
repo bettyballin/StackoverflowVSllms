@@ -1,0 +1,1 @@
+using System.Management;\n\nManagementObjectSearcher searcher = new ManagementObjectSearcher("SELECT * FROM Win32_PnPEntity");\nManagementObjectCollection devices = searcher.Get();\n\nforeach (ManagementObject device in devices)\n{\n    Console.WriteLine(device["PNPDeviceID"]);\n}

@@ -1,0 +1,1 @@
+WITH ranked_comments AS (\n  SELECT pri_id, item_id, comment, date,\n         ROW_NUMBER() OVER (PARTITION BY item_id ORDER BY date DESC) AS row_num\n  FROM your_table\n)\nDELETE FROM ranked_comments\nWHERE item_id = ? AND date < ? AND row_num > 15;

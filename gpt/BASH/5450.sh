@@ -1,1 +1,0 @@
-zenity --warning --text="This is a warning message"

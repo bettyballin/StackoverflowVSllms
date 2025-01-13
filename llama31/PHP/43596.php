@@ -1,0 +1,1 @@
+if (json_last_error() !== JSON_ERROR_NONE) {\n    // handle JSON decoding error\n}

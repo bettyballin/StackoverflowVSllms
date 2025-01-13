@@ -1,0 +1,1 @@
+// Sample code from the official docs\n#include <xmlsecurity/keyinfo.h>\n#include <xmlsecurity/signature.h>\n\n// Create a signature context\nxmlSecKeyInfoCtxPtr keyInfoCtx = xmlSecKeyInfoCtxCreate(NULL);\nxmlSecSignatureCtxPtr signatureCtx = xmlSecSignatureCtxCreate(keyInfoCtx, NULL);

@@ -1,1 +1,0 @@
-php clear_apc_cache.php

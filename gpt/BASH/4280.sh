@@ -1,1 +1,0 @@
-find /path/to/source/ -type f | parallel -j 8 cp {} /path/to/destination/

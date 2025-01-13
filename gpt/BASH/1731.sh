@@ -1,1 +1,0 @@
-set PATH=C:\Oracle\product\11.2.0\client_2\bin;%PATH%

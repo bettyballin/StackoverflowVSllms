@@ -1,1 +1,0 @@
-sqlcmd -S <server_name>\<instance_name> -d msdb -Q "DECLARE @job_name NVARCHAR(128); SET @job_name='YourJobName'; EXEC sp_delete_job @job_name = @job_name;"

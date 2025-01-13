@@ -1,0 +1,1 @@
+function autoFitFont(element) {\n  const text = element.textContent;\n  const width = element.offsetWidth;\n  const fontSize = parseFloat(element.style.fontSize);\n\n  while (element.scrollWidth > width) {\n    fontSize -= 0.5;\n    element.style.fontSize = `${fontSize}px`;\n  }\n}\n\n// Usage:\nconst myDiv = document.querySelector('.my-div');\nautoFitFont(myDiv);

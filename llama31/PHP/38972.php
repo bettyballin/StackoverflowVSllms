@@ -1,0 +1,1 @@
+// Validate form data on the server-side\nif ($_SERVER['REQUEST_METHOD'] == 'POST') {\n    // Validate CSRF token\n    if ($_POST['csrf_token'] !== $expected_token) {\n        // Handle invalid token\n    }\n\n    // Validate form data\n    if (!validate_form_data($_POST)) {\n        // Handle invalid form data\n    }\n}

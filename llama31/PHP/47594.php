@@ -1,0 +1,1 @@
+$dateElement = new Zend_Form_Element_Date('date');\n$dateElement->setFormat('dd/mm/yyyy'); // format for user input\n$dateElement->setDbFormat('yyyy-mm-dd'); // format for database storage

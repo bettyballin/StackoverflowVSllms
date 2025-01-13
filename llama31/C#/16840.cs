@@ -1,0 +1,1 @@
+[WebMethod]\npublic static List<User> GetUsers(string searchCriteria)\n{\n    // Retrieve data from database based on search criteria\n    List<User> users = new List<User>();\n    // ...\n    return users;\n}

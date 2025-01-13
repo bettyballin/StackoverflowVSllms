@@ -1,1 +1,0 @@
-SELECT Name, Age, \n       ROW_NUMBER() OVER (ORDER BY Age, Name) AS RelativeOrder\nFROM your_table_name;

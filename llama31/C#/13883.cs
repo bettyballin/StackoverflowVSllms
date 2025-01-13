@@ -1,0 +1,1 @@
+using SimpleOCR;\n\n// Load the image\nusing (var img = new SimpleOCR Img("image.png"))\n{\n    // Recognize the text\n    var text = img.GetText();\n    Console.WriteLine(text);\n}

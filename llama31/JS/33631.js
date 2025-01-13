@@ -1,0 +1,1 @@
+// toggle the active class on the link\n$('a').removeClass('active');\n$(this).addClass('active');

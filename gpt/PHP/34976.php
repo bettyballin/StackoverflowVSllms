@@ -1,1 +1,0 @@
-public function hasCulture($culture)\n   {\n       $i18nRecord = $this->getCurrentLessonsI18n($culture);\n       return !empty($i18nRecord->getTitle()); // Adjust according to the field you want to verify\n   }

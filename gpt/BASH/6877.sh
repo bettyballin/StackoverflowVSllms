@@ -1,1 +1,0 @@
-dumpbin /DISASM yourfile.dll > output.txt

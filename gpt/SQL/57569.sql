@@ -1,1 +1,0 @@
-CREATE TABLE tz_mapping (\n       java_tz_id VARCHAR2(255) PRIMARY KEY,\n       windows_tz_id VARCHAR2(255) NOT NULL\n   );\n\n   INSERT INTO tz_mapping (java_tz_id, windows_tz_id) VALUES ('Pacific/Marquesas', 'UTC-09:30');\n   -- Add other mappings as necessary

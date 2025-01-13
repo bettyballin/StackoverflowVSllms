@@ -1,0 +1,1 @@
+chmod +x php-with-tidy.sh\n./php-with-tidy.sh

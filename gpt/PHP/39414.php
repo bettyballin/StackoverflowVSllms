@@ -1,1 +1,0 @@
-public function yourAjaxAction() {\n    // Your logic here\n\n    // Check if request is AJAX\n    if ($this->request->is('ajax')) {\n        // Render the view without the default layout\n        $this->viewBuilder()->setLayout(false);\n        $this->render('your_view');\n    } else {\n        // Handle non-AJAX requests if necessary\n    }\n}

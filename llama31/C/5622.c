@@ -1,0 +1,1 @@
+#include <utime.h>\n\n// ...\n\nstruct utimbuf times;\ntimes.actime = time(NULL); // access time (not changed)\ntimes.modtime = time(NULL); // modification time\nutime(path, &times);

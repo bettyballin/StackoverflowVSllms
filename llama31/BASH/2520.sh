@@ -1,0 +1,1 @@
+# Example usage:\ngit annex init\ngit annex add <file>\ngit annex sync

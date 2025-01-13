@@ -1,0 +1,1 @@
+[ServiceContract]\npublic interface IMyService\n{\n    [OperationContract]\n    [HeaderInjectingBehavior]\n    MyResponse MyOperation(MyRequest request);\n}

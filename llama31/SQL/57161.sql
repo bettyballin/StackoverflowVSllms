@@ -1,0 +1,1 @@
+CREATE PROCEDURE GetTenantBalance\nAS\nBEGIN\n    SELECT tenant.ID AS TenantID, SUM(ISNULL(trans.Amount,0)) AS TenantBalance\n    FROM tblTenant tenant\n    LEFT JOIN tblTransaction trans\n    ON tenant.ID = trans.TenantID\n    GROUP BY tenant.ID\nEND

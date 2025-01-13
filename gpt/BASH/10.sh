@@ -1,1 +1,0 @@
-sqlcmd -S localhost -d MyDatabase -U sa -P MyPassword -i C:\path\to\your\file.sql

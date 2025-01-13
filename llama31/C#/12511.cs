@@ -1,0 +1,1 @@
+ModelState.AddModelError("availability.StartDate", "Start date must be in the mm/dd/yyyy format.");

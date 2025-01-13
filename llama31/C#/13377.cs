@@ -1,0 +1,1 @@
+// ExternalUser.dll\npublic class ExternalUser\n{\n    public void UseMyApi()\n    {\n        var myProxy = new MyProxy(); // resolved through dependency injection\n        myProxy.DoSomething("hello");\n    }\n}

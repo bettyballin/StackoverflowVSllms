@@ -1,0 +1,1 @@
+_CrtSetDbgFlag(_CRTDBG_ALLOC_MEM_DF);

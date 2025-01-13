@@ -1,1 +1,0 @@
-<?php\n// Define the command to generate a LaTeX PDF\n$command = 'pdflatex yourfile.tex';\n\n// Execute the command and capture the output\n$output = shell_exec($command);\n\n// Display the output\necho $output;\n?>

@@ -1,1 +1,0 @@
-SELECT UserId, Name, to_timestamp(dt, 'YYYY-MM-DD"T"HH24:MI:SS.FF3') dt\n   FROM (\n     SELECT XMLTYPE(bfilename('D', 'tmp.xml'), nls_charset_id('UTF8')) xml_data\n     FROM dual\n   ),\n   XMLTable(\n     '/badges/row'\n     PASSING xml_data\n     COLUMNS\n       UserId NUMBER PATH '@UserId',\n       Name VARCHAR2(50) PATH '@Name',\n       dt VARCHAR2(25) PATH '@Date'\n   );

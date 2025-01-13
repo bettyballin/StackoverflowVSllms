@@ -1,0 +1,1 @@
+// Assuming the third-party DLL function is named "ThirdPartyFunction"\nThirdPartyFunction();

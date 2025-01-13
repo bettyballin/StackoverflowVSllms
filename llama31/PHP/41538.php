@@ -1,0 +1,1 @@
+$frontController->setDispatcher(new Zend_Controller_Dispatcher_Modular());

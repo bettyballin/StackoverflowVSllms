@@ -1,0 +1,1 @@
+DECLARE @count int\nSET @count = 20\n\nSELECT TOP (@count) * FROM SomeTable\nOPTION (RECOMPILE)

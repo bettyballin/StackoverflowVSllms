@@ -1,1 +1,0 @@
-ftp -n <<EOF\nopen ftp.yourserver.com\nuser username password\ncd /path/on/server\nput "$1"\nbye\nEOF

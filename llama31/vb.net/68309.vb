@@ -1,0 +1,1 @@
+If condition1 Then\n    ' code to execute\nElseIf condition2 Then\n    ' code to execute\nElse\n    ' code to execute\nEnd If

@@ -1,0 +1,1 @@
+SHOW COLUMNS FROM your_table_name WHERE Key = 'PRI';

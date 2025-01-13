@@ -1,1 +1,0 @@
-SELECT t1.URL, t1.ID, t1.XML\nFROM T1 t1\nJOIN (\n    SELECT URL, MAX(ID) as MaxID\n    FROM T1\n    GROUP BY URL\n) t2 ON t1.URL = t2.URL AND t1.ID = t2.MaxID;

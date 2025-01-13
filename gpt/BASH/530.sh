@@ -1,1 +1,0 @@
-sudo chown richard:developers /path/to/your/repository/hooks/post-commit\n    sudo chmod +x /path/to/your/repository/hooks/post-commit

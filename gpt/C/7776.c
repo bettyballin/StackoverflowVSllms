@@ -1,1 +1,0 @@
-#pragma GCC diagnostic push\n#pragma GCC diagnostic ignored "-Wdeprecated-declarations"\n\n// Your code that uses mktemp\nchar template[] = "fileXXXXXX";\nchar *filename = mktemp(template);\n\n#pragma GCC diagnostic pop

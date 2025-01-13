@@ -1,0 +1,1 @@
+g++ -Wall -Wextra -O0 MyCode.cc -o MyCode

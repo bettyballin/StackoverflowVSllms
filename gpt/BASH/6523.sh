@@ -1,1 +1,0 @@
-./restart_script.sh

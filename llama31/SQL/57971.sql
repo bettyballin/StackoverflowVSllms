@@ -1,0 +1,1 @@
+ALTER INDEX idx_myindex ON mytable DISABLE;\nDELETE FROM mytable WHERE condition;\nALTER INDEX idx_myindex ON mytable REBUILD;

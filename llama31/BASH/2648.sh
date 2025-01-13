@@ -1,0 +1,1 @@
+perf report --symbol=your_function_name

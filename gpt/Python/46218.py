@@ -1,1 +1,0 @@
-from pronounceable import PronounceableWord\n   \n   password = PronounceableWord().generate()\n   print(password)

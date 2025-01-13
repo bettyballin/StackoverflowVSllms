@@ -1,1 +1,0 @@
-<?php\n$url = "http://example.com/remote-file.php";\n$ch = curl_init($url);\n\ncurl_setopt($ch, CURLOPT_RETURNTRANSFER, true);\n\n$response = curl_exec($ch);\n\nif (curl_errno($ch)) {\n    echo 'Error:' . curl_error($ch);\n} else {\n    echo $response; // Output the fetched content\n}\n\ncurl_close($ch);\n?>

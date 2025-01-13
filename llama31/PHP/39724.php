@@ -1,0 +1,1 @@
+$serverName = "serverName\instanceName";\n$connectionInfo = array( "Database"=>"dbName", "UID"=>"username", "PWD"=>"password");\n$conn = sqlsrv_connect($serverName, $connectionInfo);\n\n$stmt = sqlsrv_prepare($conn, "EXEC my_stored_proc", array());\nsqlsrv_execute($stmt);\n\n$return_code = sqlsrv_errors(SQLSRV_ERR_ERRORS);\nprint $return_code[0]['code'];

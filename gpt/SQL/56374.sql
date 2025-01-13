@@ -1,1 +1,0 @@
--- Enable Change Tracking on the database\nALTER DATABASE YourDatabase\nSET CHANGE_TRACKING = ON\n(CHANGE_RETENTION = 2 DAYS, AUTO_CLEANUP = ON);\n\n-- Enable Change Tracking on the table\nALTER TABLE dbo.YourWarehouseTable\nENABLE CHANGE_TRACKING\nWITH (TRACK_COLUMNS_UPDATED = ON);

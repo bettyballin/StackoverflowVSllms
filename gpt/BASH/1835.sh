@@ -1,1 +1,0 @@
-configure -static -release -platform win32-g++ -prefix <install_path> -opengl desktop

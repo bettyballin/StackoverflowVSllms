@@ -1,0 +1,1 @@
+INSERT IGNORE INTO `DiggerActivity_Searches` (\n  `SearchTerms`,\n  `SearchType`,\n  `NumResults`,\n  `Location`,\n  `Date`,\n  `Time`\n) VALUES (\n  'SearchKeywords',\n  'SearchTypes',\n  'NumberOfResults',\n  'User\'sLocation',\n  'CurDate',\n  'CurTime'\n);

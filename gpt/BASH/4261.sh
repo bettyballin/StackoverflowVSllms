@@ -1,1 +1,0 @@
-@echo off\n   reg delete "HKU\S-1-5-21-1757981266-1960408961-839522115-1003\SOFTWARE\Microsoft\Windows\CurrentVersion\Run" /v kdx /f\n   reg delete "HKLM\SOFTWARE\Microsoft\Windows\CurrentVersion\Run" /v 4oD /f\n   exit

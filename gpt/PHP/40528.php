@@ -1,1 +1,0 @@
-<?php\n// Connect to SQLite database\n$pdo = new PDO('sqlite:mydatabase.db');\n$pdo->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);\n\n// Insert data\n$sql = "INSERT INTO users (name, email) VALUES (:name, :email)";\n$stmt = $pdo->prepare($sql);\n$stmt->execute(['name' => 'John Doe', 'email' => 'john@example.com']);\n\necho "Data inserted successfully!";\n?>

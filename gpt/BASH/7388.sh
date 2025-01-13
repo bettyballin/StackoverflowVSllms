@@ -1,1 +1,0 @@
-sudo diskutil repairPermissions /Volumes/YourVolume

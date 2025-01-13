@@ -1,0 +1,1 @@
+ValidationSettings settings = (ValidationSettings)ConfigurationManager.GetSection("validationSettings", "path/to/validation.config");

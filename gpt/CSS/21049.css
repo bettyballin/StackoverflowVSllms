@@ -1,1 +1,0 @@
-@charset "utf-8";\n/* CSS Document */\n\n#header { \n    float: left; \n    width: 64%;\n    vertical-align: top;\n    margin: 12px;\n}\n\n#header_title { \n    font-family: Arial;\n    font-size: xx-large;\n    font-weight: bold;\n}\n\n#hor_rule {\n    height: 1px;\n    background-color: #999;\n    clear: both; /* Add this line to clear the float */\n}

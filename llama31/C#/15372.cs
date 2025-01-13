@@ -1,0 +1,1 @@
+public class CallbackHandler : ICallbackContract\n{\n    public void UpdateValue(string newValue)\n    {\n        // Update the value on the client-side\n        Console.WriteLine("Updated value: " + newValue);\n    }\n}

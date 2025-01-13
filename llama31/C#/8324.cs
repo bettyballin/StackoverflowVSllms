@@ -1,0 +1,1 @@
+var caller = new StoredProcedureCaller("my_connection_string");\nvar procedure = new MyProcedure(caller);\nvar result = procedure.CallMyProcedure(1, "hello");

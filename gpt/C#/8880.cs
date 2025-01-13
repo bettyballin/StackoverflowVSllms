@@ -1,1 +1,0 @@
-folder.Item.BreakRoleInheritance(true); // Break inheritance and copy parent permissions\n    // Remove all inherited permissions\n    while (folder.Item.RoleAssignments.Count > 0)\n    {\n        folder.Item.RoleAssignments.Remove(0);\n    }

@@ -1,1 +1,0 @@
-#include <malloc.h> // for malloc_trim\n\nint main() {\n    // Your existing code...\n    \n    for (int i = 0; i < 3; i++) {\n        allocate(size);\n        cout << "after free" << endl;\n        malloc_trim(0);  // Force the return of free memory to the OS\n        pause1();\n        size *= 2;\n    }\n\n    return 0;\n}

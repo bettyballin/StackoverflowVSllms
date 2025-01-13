@@ -1,0 +1,1 @@
+SqlCommand cmd = new SqlCommand("UpdatePaid", connection);\n// ...\ncmd.ExecuteNonQuery();

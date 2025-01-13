@@ -1,0 +1,1 @@
+<cscript adsutil.vbs SET_VDIRPROPERTY "UploaderApp/UploaderHandler" "AppPoolId" "UploaderAppPool" />

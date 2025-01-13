@@ -1,1 +1,0 @@
-var result = context.YourEntities\n    .Select(e => new \n    {\n        e.Property1,\n        e.Property2,\n        // Include other necessary properties\n    })\n    .ToList();

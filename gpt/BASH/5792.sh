@@ -1,1 +1,0 @@
-chmod +x bizzaro_diff.sh\n./bizzaro_diff.sh file1.txt file2.txt file3.txt

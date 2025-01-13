@@ -1,1 +1,0 @@
-import unittest\n   import xmlrunner\n\n   class MyTest(unittest.TestCase):\n       def test_example(self):\n           self.assertEqual(1, 1)\n\n   if __name__ == "__main__":\n       with open('test-reports.xml', 'wb') as output:\n           unittest.main(testRunner=xmlrunner.XMLTestRunner(output=output))

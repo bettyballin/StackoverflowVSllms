@@ -1,0 +1,1 @@
+ALTER TABLE your_table_name\nADD recordversion rowversion;

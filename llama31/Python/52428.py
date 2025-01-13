@@ -1,0 +1,1 @@
+glist = []\n\nfor i in big_list:\n    glist.clear()  # Remove all elements from the list\n    glist.extend(blah[:val])  # Append new elements to the list

@@ -1,0 +1,1 @@
+@echo off\n\nsvn export C:\Projects\test C:\Projects\test-build\nrmdir /s /q C:\Projects\test-build\docs\ndel /q C:\Projects\test-build\test.php

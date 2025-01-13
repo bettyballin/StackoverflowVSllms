@@ -1,0 +1,1 @@
+$('.summary').each(function() {\n    $(this).insertBefore($(this).prevAll('.normal').first());\n});

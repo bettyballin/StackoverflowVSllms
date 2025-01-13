@@ -1,1 +1,0 @@
-switch (opcode) {\n         case LOAD_CONST:\n             // Handle LOAD_CONST\n             break;\n         case ADD:\n             // Handle ADD\n             break;\n         // Other opcodes...\n     }

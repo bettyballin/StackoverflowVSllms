@@ -1,0 +1,1 @@
+int value = ...; // your value\nbyte[] data = EndianHelper.GetBytes(value, false); // big endia

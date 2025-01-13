@@ -1,1 +1,0 @@
-Private Sub ReloadEventReferences(sender As Object, e As System.IO.FileSystemEventArgs)\n    ' Your logic here to handle the event\n    Console.WriteLine($"Event Type: {e.ChangeType}, File: {e.FullPath}")\nEnd Sub

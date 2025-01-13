@@ -1,0 +1,1 @@
+SELECT \n  Category,\n  COUNT(*) AS Count\nFROM \n  (\n    SELECT Category FROM Items\n    UNION ALL\n    SELECT Category2 FROM Items\n  ) AS CombinedCategories\nGROUP BY \n  Category

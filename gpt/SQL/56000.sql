@@ -1,1 +1,0 @@
-CREATE TABLE events (event_time TIMESTAMP WITH TIME ZONE);

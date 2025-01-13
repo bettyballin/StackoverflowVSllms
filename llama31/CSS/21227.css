@@ -1,0 +1,1 @@
+.wrapper {\n  min-height: 100vh;\n  position: relative;\n}\n\n.footer {\n  position: absolute;\n  bottom: 0;\n  width: 100%;\n}

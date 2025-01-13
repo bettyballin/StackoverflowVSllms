@@ -1,1 +1,0 @@
--- Connect to MySQL\n   mysql -u root -p\n\n   -- Enforce SSL for a specific user\n   GRANT ALL PRIVILEGES ON *.* TO 'your_user'@'localhost' IDENTIFIED BY 'your_password' REQUIRE SSL;\n   FLUSH PRIVILEGES;

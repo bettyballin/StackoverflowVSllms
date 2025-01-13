@@ -1,0 +1,1 @@
+import MySQLdb\n\n# connect to the database\ndb = MySQLdb.connect(host='localhost', user='username', passwd='password', db='database')\n\n# get user input\nuser_input = raw_input("Enter user input: ")\n\n# escape user input\nescaped_input = db.escape_string(user_input)\n\n# execute query\ncursor = db.cursor()\ncursor.execute("SELECT a FROM b WHERE c = '%s'" % escaped_input)

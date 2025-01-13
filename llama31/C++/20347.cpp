@@ -1,0 +1,1 @@
+#include "dllheader.h"\n\nvoid user_main() {\n    Window *w = new Window();\n    // ...\n}\n\nint main() {\n    setMainFunc(user_main);\n    return 0;\n}

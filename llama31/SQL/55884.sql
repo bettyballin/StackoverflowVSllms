@@ -1,0 +1,1 @@
+SELECT v.*\nFROM views v\nJOIN (\n  SELECT session, MAX(page) as max_page\n  FROM views\n  WHERE user_id = '1'\n  GROUP BY session\n) s ON v.session = s.session AND v.page = s.max_page

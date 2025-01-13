@@ -1,1 +1,0 @@
-regexp_replace(\n  location,\n  '([,\s.-]*PCIA\. BS\. AS[,\s.-]*|[,\s.-]*BUENOS AIRES[,\s.-]*$|[,\s.-]*BS\. AS[,\s.-]*$|[,\s.-]*P\.B\.A[,\s.-]*$)',\n  ''\n)

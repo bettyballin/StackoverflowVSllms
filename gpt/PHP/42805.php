@@ -1,1 +1,0 @@
-$message .= "Name: " . $_POST["fname"] . " " . $_POST["mname"] . " " . $_POST["lname"] . "\n";

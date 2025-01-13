@@ -1,0 +1,1 @@
+SELECT CAST(your_long_raw_column AS VARCHAR2(4000)) AS converted_string\nFROM your_table;

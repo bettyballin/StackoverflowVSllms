@@ -1,0 +1,1 @@
+#include <Windows.h>\n\nbool isConsoleApp() {\n    HWND consoleWindow = GetConsoleWindow();\n    return consoleWindow != NULL;\n}

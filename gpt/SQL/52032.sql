@@ -1,1 +1,0 @@
-CREATE ASSEMBLY [FileSystemAccess]\n   FROM 'C:\path\to\assembly.dll'\n   WITH PERMISSION_SET = UNSAFE;

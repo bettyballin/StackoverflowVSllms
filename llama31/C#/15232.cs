@@ -1,0 +1,1 @@
+// Example of conditional installation rule in a setup project\n[Conditional("INSTALL_ON_XP")]\npublic void InstallTabletPCSDK()\n{\n    // Install the merge module here\n}

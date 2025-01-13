@@ -1,0 +1,1 @@
+// Example of a bitmap index\nstruct BitmapIndex {\n    int size;\n    unsigned char *bitmap;\n};

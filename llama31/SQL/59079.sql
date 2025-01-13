@@ -1,0 +1,1 @@
+DECLARE @dtTopDate datetime\nSET @dtTopDate = (SELECT TOP 1 date_build \n                  FROM database..table \n                  WHERE parent = @Parent AND child = @Child \n                  ORDER BY date_build DESC)

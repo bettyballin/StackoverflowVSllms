@@ -1,0 +1,1 @@
+-- After email verification\nINSERT INTO users (email, password_hash, activated_at)\nSELECT email, password_hash, CURRENT_TIMESTAMP\nFROM registrations\nWHERE verification_token = $1;\n\nDELETE FROM registrations\nWHERE verification_token = $1;

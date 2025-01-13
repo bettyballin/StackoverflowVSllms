@@ -1,1 +1,0 @@
-<?php\n$color = 'red';\n$red = 'yes, I am red';\necho $$color; // Outputs: yes, I am red\n?>

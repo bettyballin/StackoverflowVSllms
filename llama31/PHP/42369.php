@@ -1,0 +1,1 @@
+$form['my_rich_text_field'] = array(\n  '#type' => 'text_format',\n  '#format' => 'filtered_html',\n  '#value' => '<p>My Rich Text</p>',\n);

@@ -1,0 +1,1 @@
+Dim component As Object\nSet component = CreateObject("your_component_progid")\ncomponent.MyMethod

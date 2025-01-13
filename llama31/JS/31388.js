@@ -1,0 +1,1 @@
+$.ajax({\n    type: 'POST',\n    url: '/login',\n    data: {username: 'user', password: 'pass'},\n    headers: {'X-Requested-With': 'XMLHttpRequest'}\n});

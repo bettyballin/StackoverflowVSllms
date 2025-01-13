@@ -1,0 +1,1 @@
+// On domain A\nfunction getCookieFromDomainB() {\n  $.ajax({\n    url: 'https://domainB.com/cookie-jsonp',\n    dataType: 'jsonp',\n    success: function(data) {\n      // Process the cookie value\n    }\n  });\n}\n\n// On domain B\nfunction cookieJsonpCallback() {\n  return {\n    cookieValue: 'some-value'\n  };\n}

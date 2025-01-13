@@ -1,0 +1,1 @@
+// Add this script to the page\n<script type="text/javascript">\n    function anchorToOrderId() {\n        var orderId = '<%= Request.QueryString["OrderId"] %>';\n        if (orderId != '') {\n            var row = document.getElementById('dgOrders').rows[orderId];\n            row.scrollIntoView();\n        }\n    }\n\n    window.onload = anchorToOrderId;\n</script>

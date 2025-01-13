@@ -1,0 +1,1 @@
+def pairwise_distances(points)\n  points.combination(2).map do |p1, p2|\n    (p1 - p2).abs\n  end\nend\n\nx = [2, 5, 8, 33, 58]\ndistances = pairwise_distances(x)\nputs distances

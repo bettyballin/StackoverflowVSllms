@@ -1,1 +1,0 @@
-phpize\n./configure --enable-foo\nmake\nsudo make install

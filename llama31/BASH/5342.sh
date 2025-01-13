@@ -1,0 +1,1 @@
+gcc -c your_file.c\nld -o your_binary -Ttext 0x76543210 --defsym=foobar=0x76543210 your_file.o

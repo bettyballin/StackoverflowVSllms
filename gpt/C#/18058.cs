@@ -1,1 +1,0 @@
-public unsafe class UnsafeCodeExample\n{\n    public void UnsafeMethod()\n    {\n        int number = 42;\n        int* pointer = &number;\n        Console.WriteLine("Value at pointer: " + *pointer);\n    }\n}

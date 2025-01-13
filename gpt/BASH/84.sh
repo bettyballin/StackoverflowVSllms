@@ -1,1 +1,0 @@
-etscape -id 0xa00029 -remote 'openFile(/path/to/html/file)'

@@ -1,1 +1,0 @@
-CREATE INDEX idx_example ON your_table (column_name);

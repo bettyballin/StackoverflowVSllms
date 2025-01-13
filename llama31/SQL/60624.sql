@@ -1,0 +1,1 @@
+SELECT * FROM my_table WHERE my_column = '';  // returns rows where my_column is NULL

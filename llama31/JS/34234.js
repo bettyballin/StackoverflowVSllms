@@ -1,0 +1,1 @@
+function openPopup(url, width, height, left, top) {\n    window.open(url, '_blank', `width=${width},height=${height},left=${left},top=${top},resizable=no`);\n}\n\n// Example usage\nopenPopup('https://example.com', 400, 300, 100, 100);

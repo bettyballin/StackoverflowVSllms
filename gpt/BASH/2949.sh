@@ -1,1 +1,0 @@
-tar -xvf /path_to_backup_directory/base.tar -C /path_to_data_directory

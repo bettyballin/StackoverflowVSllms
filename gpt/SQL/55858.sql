@@ -1,1 +1,0 @@
-GRANT EXECUTE ON FUNCTION databasename.urlfriendly TO 'username'@'localhost';\nFLUSH PRIVILEGES;

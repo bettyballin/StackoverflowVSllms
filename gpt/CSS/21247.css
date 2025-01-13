@@ -1,1 +1,0 @@
-.cell {\n    display: flex;\n    justify-content: center;\n    align-items: center;\n    width: 100px;\n    height: 100px;\n    border: 1px solid #000;\n    font-size: 2em;\n    cursor: pointer;\n    user-select: none; /* Prevent text selection */\n}\n.cell a {\n    text-decoration: none;\n    color: inherit;\n}

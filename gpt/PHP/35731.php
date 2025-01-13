@@ -1,1 +1,0 @@
-// Page (e.g., index.php)\n<?php include("header-nav.php"); ?>\n<table>\n    <tr>\n        <th>Column 1</th>\n        <th>Column 2</th>\n    </tr>\n    <tr>\n        <td>Data Point 1</td>\n        <td>Data Point 2</td>\n    </tr>\n    <tr>\n        <td>Data Point 3</td>\n        <td>Data Point 4</td>\n    </tr>\n</table>\n<?php include("footer.php"); ?>

@@ -1,1 +1,0 @@
-<configuration>\n  <connectionStrings>\n    <add name="PrimaryDatabase" \n         connectionString="Data Source=PrimaryServer;Initial Catalog=YourDatabase;User ID=YourUsername;Password=YourPassword;Failover Partner=SecondaryServer;" \n         providerName="System.Data.SqlClient" />\n  </connectionStrings>\n</configuration>

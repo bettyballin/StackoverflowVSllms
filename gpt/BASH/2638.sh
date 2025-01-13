@@ -1,1 +1,0 @@
-(crontab -l ; echo "*/5 * * * * svnsync sync file:///path/to/mirror-repo") | crontab -

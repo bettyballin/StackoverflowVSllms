@@ -1,0 +1,1 @@
+protected void Page_Load(object sender, EventArgs e)\n{\n    if (!ScriptManager.IsInAsyncPostBack && !Page.IsPostBack)\n    {\n        // Bind the grid here\n        grid.DataSource = yourDataSource;\n        grid.DataBind();\n    }\n}

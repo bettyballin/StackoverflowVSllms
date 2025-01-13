@@ -1,0 +1,1 @@
+Response.Cache.SetCacheability(HttpCacheability.Private);

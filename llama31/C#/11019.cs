@@ -1,0 +1,1 @@
+public JsonResult GetTerms()\n{\n    var terms = _repository.GetTerms();\n    return Json(terms);\n}

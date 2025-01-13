@@ -1,0 +1,1 @@
+BEGIN\n    IF [condition] THEN\n        RAISE PROGRAM_ERROR;\n    END IF;\n    [the rest of the program]\nEXCEPTION\n    WHEN PROGRAM_ERROR THEN\n        NULL;  -- do nothing and exit\nEND;

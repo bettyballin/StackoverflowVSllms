@@ -1,0 +1,1 @@
+// Example mapping using Lucene's DataImportHandler\n<entity name="products" query="SELECT * FROM products">\n  <field column="id" name="id" />\n  <field column="name" name="name" />\n  <field column="description" name="description" />\n</entity>

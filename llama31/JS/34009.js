@@ -1,0 +1,1 @@
+// assuming you have a table with id "mytable" and you want to insert a new row before the third row\nvar newRow = $("<tr>...</tr>");\nvar targetRow = $("#mytable tbody tr:nth-child(3)");\nnewRow.insertBefore(targetRow);

@@ -1,0 +1,1 @@
+$.ajax({\n  type: 'POST',\n  url: '/insert-data',\n  async: true,\n  // ...\n});\n\n$.ajax({\n  type: 'GET',\n  url: '/retrieve-data',\n  async: true,\n  // ...\n});

@@ -1,0 +1,1 @@
+loadScript('https://example.com/script.js', function() {\n  // script has been loaded\n});

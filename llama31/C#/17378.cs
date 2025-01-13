@@ -1,0 +1,1 @@
+int width = 800;\nint height = 600;\nint maxWidth = 400;\nint maxHeight = 300;\n\nCalcNewDimensions(ref width, ref height, maxWidth, maxHeight);\n\nConsole.WriteLine($"New dimensions: {width}x{height}");

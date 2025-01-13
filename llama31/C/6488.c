@@ -1,0 +1,1 @@
+#include <hpdf.h>\n\nint main() {\n    HPDF_Doc pdf;\n    HPDF_Page page;\n    HPDF_Font font;\n\n    pdf = HPDF_New();\n    page = HPDF_AddPage(pdf);\n    font = HPDF_GetFont(pdf, "Helvetica", NULL);\n\n    HPDF_Page_SetFont(page, font);\n    HPDF_Page_TextOut(page, 10, 10, "Hello, World!");\n\n    HPDF_SaveToFile(pdf, "example.pdf");\n    HPDF_Free(pdf);\n\n    return 0;\n}

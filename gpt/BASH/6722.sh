@@ -1,1 +1,0 @@
-chmod +x post-commit

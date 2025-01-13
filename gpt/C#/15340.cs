@@ -1,1 +1,0 @@
-protected void Page_Load(object sender, EventArgs e)\n{\n    // Ensure that the session is maintained and not redirected\n    string sessionUrl = Response.ApplyAppPathModifier("~/ajax/getsomedata.aspx");\n    // You can use sessionUrl as needed in your application\n}

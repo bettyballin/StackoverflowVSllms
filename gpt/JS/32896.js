@@ -1,1 +1,0 @@
-<script type="text/javascript">\nfunction printPdf(pdfPath) {\n    var iframe = document.createElement('iframe');\n    iframe.style.visibility = 'hidden';\n    iframe.src = pdfPath;\n    document.body.appendChild(iframe);\n    iframe.onload = function() {\n        iframe.contentWindow.print();\n    };\n}\n</script>

@@ -1,1 +1,0 @@
-Dim ds As New DataSet("MyTable")\ngridView.DataSource = ds\n\n' Assuming you want to access the first row in the table\nIf ds.Tables("MyTable").Rows.Count > 0 Then\n    Dim dataRow As DataRow = ds.Tables("MyTable").Rows(0)\n    Dim ID_Equipamento As String = dataRow("ID_Equipamento").ToString()\n    Dim ID_Password As String = dataRow("ID_Password").ToString()\nEnd If

@@ -1,1 +1,0 @@
-regsvr32 Interop.RFCOMAPILib.dll

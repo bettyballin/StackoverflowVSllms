@@ -1,1 +1,0 @@
-<configuration>\n      <system.webServer>\n         <security>\n            <ipSecurity allowUnlisted="true">\n               <add ipAddress="192.168.1.100" allowed="true" />\n            </ipSecurity>\n         </security>\n         <limits>\n            <requestLimits maxBandwidth="102400" />\n         </limits>\n      </system.webServer>\n   </configuration>

@@ -1,0 +1,1 @@
+BEGIN TRANSACTION;\n\nDECLARE @AutoKey INT;\n\nUPDATE Numbering\nSET @AutoKey = AutoKey, AutoKey = AutoKey + 1\nWHERE ObjectCode = 4;\n\nINSERT INTO Temp2 (id, fkTemp1, data)\nSELECT @AutoKey, t1.id, t1.data\nFROM Temp1 t1\nLEFT JOIN Temp2 t2 ON t2.fkTemp1 = t1.id\nWHERE t2.id IS NULL;\n\nCOMMIT TRANSACTION;

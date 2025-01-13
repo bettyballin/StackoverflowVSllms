@@ -1,0 +1,1 @@
+import inspect\n\ndef get_current_file_path():\n    return inspect.getfile(inspect.currentframe())\n\nprint(get_current_file_path())

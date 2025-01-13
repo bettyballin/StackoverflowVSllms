@@ -1,0 +1,1 @@
+// inbox.js\n$('#messages li:last').addClass('new-message');\n// Animate the highlighting effect\n$('#messages li.new-message').animate({\n  backgroundColor: '#fff' /* Fade to white */\n}, 2000, function() {\n  $(this).removeClass('new-message');\n});

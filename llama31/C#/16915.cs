@@ -1,0 +1,1 @@
+string connectionString = "uid=NewUserName;pwd=NewUserPassword;Initial Catalog=YourDatabaseName;Data Source=YourServerName";

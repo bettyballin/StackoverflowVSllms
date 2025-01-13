@@ -1,0 +1,1 @@
+etsh advfirewall set rule dir=in action=allow protocol=TCP localport=80 name="HTTP"\nnetsh advfirewall set rule dir=in action=block protocol=TCP localport=3389 name="RDP"

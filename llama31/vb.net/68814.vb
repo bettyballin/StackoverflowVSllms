@@ -1,0 +1,1 @@
+Set(ByVal Value As Integer)\n    Me.integerField = value\nEnd Set

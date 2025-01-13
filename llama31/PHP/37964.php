@@ -1,0 +1,1 @@
+header('Last-Modified: ' . gmdate('D, d M Y H:i:s T', filemtime($file)));\nheader('Content-Type: '.$mime);\nheader('Content-Length: '.filesize($file));\nheader('Etag: '.md5($file));\n\nreadfile($file); // or echo file_get_contents($file);\nexit;

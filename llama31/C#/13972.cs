@@ -1,0 +1,1 @@
+// Model.tt\n<#@ template language="C#" #>\n<#@ output extension=".cs" #>\n\nusing System;\n\nnamespace MyNamespace\n{\n    public class <#= Model.Name #>\n    {\n        <# foreach (var property in Model.Properties) { #>\n        public <#= property.Type #> <#= property.Name #> { get; set; }\n        <# } #>\n    }\n}

@@ -1,0 +1,1 @@
+$dateString = 'next monday at 3pm';\n$format = 'l F d, Y g:i A'; // see format codes: https://secure.php.net/manual/en/function.date.php\n\n$date = DateTimeImmutable::createFromFormat($format, $dateString);\nif (!$date) {\n    // handle invalid date\n}

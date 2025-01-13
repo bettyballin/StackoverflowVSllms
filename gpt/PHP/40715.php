@@ -1,1 +1,0 @@
-if ($user_id >= 0) {\n    $mail_result = $mail_queue->put(\n        $from,\n        $recipient,\n        $headers,\n        $body\n    );\n}

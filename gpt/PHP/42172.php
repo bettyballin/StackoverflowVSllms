@@ -1,1 +1,0 @@
-<?php\n// Example PHP script\necho "This is a message to the Eclipse console.\n";\nprint "Another message to the console.\n";\nvar_dump("Debug message to the console.");\n?>

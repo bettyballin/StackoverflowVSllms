@@ -1,0 +1,1 @@
+SELECT REPLACE(UNHEX('Japón'), 'ó', 'o') AS value_without_accents;

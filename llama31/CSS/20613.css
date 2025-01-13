@@ -1,0 +1,1 @@
+input.wide {\n  display: block;\n  width: calc(100% - 2px); /* assuming 1px border on each side */\n}

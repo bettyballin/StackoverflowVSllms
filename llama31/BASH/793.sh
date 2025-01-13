@@ -1,0 +1,1 @@
+VBoxManage modifyvm <vm-name> --natpf1 "upnp,tcp,192.168.1.100,1900,192.168.1.100,1900"

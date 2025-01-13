@@ -1,0 +1,1 @@
+export LD_LIBRARY_PATH=/opt/oracle/instantclient\nexport TNS_ADMIN=/opt/oracle/instantclient

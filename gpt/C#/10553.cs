@@ -1,1 +1,0 @@
-GC.Collect();\nGC.WaitForPendingFinalizers();\nGC.Collect();

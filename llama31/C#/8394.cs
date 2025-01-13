@@ -1,0 +1,1 @@
+public class ErrorResponse\n{\n    public string ErrorMessage { get; set; }\n    public int ErrorCode { get; set; }\n}\n\npublic ErrorResponse MyFunction()\n{\n    try\n    {\n        // Code that may throw an exception\n    }\n    catch (Exception ex)\n    {\n        return new ErrorResponse { ErrorMessage = ex.Message, ErrorCode = 1 };\n    }\n    return null;\n}

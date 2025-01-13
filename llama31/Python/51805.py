@@ -1,0 +1,1 @@
+def max_non_adjacent_subsequence(arr):\n    if not arr:\n        return 0\n\n    if len(arr) <= 2:\n        return max(arr)\n\n    dp = [0] * len(arr)\n    dp[0] = arr[0]\n    dp[1] = max(arr[0], arr[1])\n\n    for i in range(2, len(arr)):\n        dp[i] = max(dp[i-1], dp[i-2] + arr[i])\n\n    return dp[-1]

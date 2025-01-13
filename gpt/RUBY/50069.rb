@@ -1,1 +1,0 @@
-foo = bar || *zap  # => Syntax Error: unexpected tSTAR

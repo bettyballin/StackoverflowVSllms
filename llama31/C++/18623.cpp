@@ -1,0 +1,1 @@
+int val() const {\n    return this->_val;\n}

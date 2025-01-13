@@ -1,1 +1,0 @@
-public class MyServiceImpl : MyService.MyServiceBase {\n       public override Task<MyResponse> MyMethod(MyRequest request, ServerCallContext context) {\n           // Handle the request and return a response\n           var response = new MyResponse { XmlData = "<response>...</response>", SomeInt = 42 };\n           return Task.FromResult(response);\n       }\n   }

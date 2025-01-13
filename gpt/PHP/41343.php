@@ -1,1 +1,0 @@
-$apiKey = "YOUR_API_KEY";\n$symbol = "AAPL";\n$url = "https://www.alphavantage.co/query?function=TIME_SERIES_INTRADAY&symbol=$symbol&interval=1min&apikey=$apiKey";\n\n$response = file_get_contents($url);\n$data = json_decode($response, true);\n\nprint_r($data);

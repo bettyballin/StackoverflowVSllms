@@ -1,1 +1,0 @@
-user = User.new\n(user.username = "John"; user.hashed_password = "securepassword"; user.first_name = "John"; user.last_name = "Coltrane"; user.email = "john@coltrane.com"; user.display_name = "Johndisplay"; user.user_level = 9)\nuser.save

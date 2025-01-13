@@ -1,0 +1,1 @@
+SELECT document.*, Score(1) as Score\nFROM document\nWHERE CONTAINS(dummy, 'MATCH SCORE(((the_keyword) within documentTitle))*2 + MATCH SCORE(((the_keyword) within documentText))', 1) > 0\nORDER BY Score DESC

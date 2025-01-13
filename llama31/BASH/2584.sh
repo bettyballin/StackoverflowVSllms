@@ -1,0 +1,1 @@
+drush config-set system.theme default new_theme_name

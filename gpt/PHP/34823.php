@@ -1,1 +1,0 @@
-if ($content == "tables") {\n    $result = mysql_query("show tables");\n    $xml = "<tables>";\n    while ($row = mysql_fetch_assoc($result)) {\n        print_r($row);\n        echo "<br />";\n        $xml .= "<table>" . $row['Tables_in_blog'] . "</table>";\n    }\n    $xml .= "</tables>";  // Closing the XML root element\n    header('Content-type: text/xml');\n    echo $xml;\n}

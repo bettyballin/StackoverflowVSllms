@@ -1,0 +1,1 @@
+<?php\nif (extension_loaded('gd')) {\n    echo "GD library is installed";\n} else {\n    echo "GD library is not installed";\n}\n\nif (extension_loaded('imagick')) {\n    echo "ImageMagick is installed";\n} else {\n    echo "ImageMagick is not installed";\n}\n?>

@@ -1,0 +1,1 @@
+CREATE OR REPLACE FUNCTION format_z_code(p_z_code varchar)\nRETURNS varchar AS $$\nBEGIN\n    RETURN regexp_replace(p_z_code, '^Z(\d{2})(\d{3})(\d{3})(\d{3}\.\d)$', 'Z\1/\2/\3/\4');\nEND;\n$$ LANGUAGE plpgsql;

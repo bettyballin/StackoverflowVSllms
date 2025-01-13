@@ -1,0 +1,1 @@
+SELECT t2.State, t2.Product, t2.Version\nFROM Table2 t2\nWHERE NOT EXISTS (\n  SELECT 1\n  FROM Table1 t1\n  WHERE t1.State = t2.State\n  AND t1.Product = t2.Product\n  AND t1.Distributor = 'X'\n)

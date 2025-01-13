@@ -1,0 +1,1 @@
+SELECT SLEEP(30);  -- sleep for 30 seconds

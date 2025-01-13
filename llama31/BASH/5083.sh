@@ -1,0 +1,1 @@
+tasklist /m /fi "imagename eq <your_process_name>.exe"

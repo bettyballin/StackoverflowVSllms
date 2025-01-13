@@ -1,0 +1,1 @@
+gcov-tool --threads your_program

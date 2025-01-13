@@ -1,0 +1,1 @@
+class AbRelationshipsController < ApplicationController\n  def create\n    @a = A.find(params[:a_id])\n    @b = B.find(params[:b_id])\n    @a.bs << @b\n    # ...\n  end\n\n  def destroy\n    @a = A.find(params[:a_id])\n    @b = B.find(params[:b_id])\n    @a.bs.delete(@b)\n    # ...\n  end\nend

@@ -1,1 +1,0 @@
--Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager\n   -Djava.util.logging.config.file=$CATALINA_HOME/conf/logging.properties

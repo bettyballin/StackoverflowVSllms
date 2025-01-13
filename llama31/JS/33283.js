@@ -1,0 +1,1 @@
+$.ajax({\n    type: "GET",\n    url: "/YourHandler.ashx",\n    data: { input: "your_input" },\n    dataType: "json",\n    success: function(data) {\n        // Handle the result\n    }\n});

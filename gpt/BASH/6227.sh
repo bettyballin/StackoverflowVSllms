@@ -1,1 +1,0 @@
-# If using a static library\n   gcc main.o -L/path/to/library -lmylibrary -o my_application\n\n   # If linking directly with object files\n   gcc main.o library_file1.o library_file2.o -o my_applicatio

@@ -1,0 +1,1 @@
+if (defined('STDIN')) {\n    echo 'Running from cli';\n} else {\n    echo 'Running from web server';\n}

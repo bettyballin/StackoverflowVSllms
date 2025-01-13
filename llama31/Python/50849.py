@@ -1,0 +1,1 @@
+def validate_oracle_date(date_string):\n    formats = ['%Y-%m-%d', '%d-%m-%Y', '%m/%d/%Y']  # add more formats as needed\n    for fmt in formats:\n        try:\n            datetime.strptime(date_string, fmt)\n            return True\n        except ValueError:\n            pass\n    return False

@@ -1,0 +1,1 @@
+USE [master];\nGO\nGRANT CONNECT TO [STAR\moorer7];\nGO

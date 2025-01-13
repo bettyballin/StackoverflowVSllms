@@ -1,0 +1,1 @@
+public static AssociateForm associateForm = new AssociateForm();

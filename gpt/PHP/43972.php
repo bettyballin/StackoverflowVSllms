@@ -1,1 +1,0 @@
-// Retrieving and decrypting phone number from the database\n   $user = User::find($userId);\n   $decryptedPhoneNumber = Crypt::decryptString($user->phone_number);

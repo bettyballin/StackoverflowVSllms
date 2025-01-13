@@ -1,1 +1,0 @@
-SET @new_id = LAST_INSERT_ID();

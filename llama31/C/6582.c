@@ -1,0 +1,1 @@
+your_function(&(SetElement){ my_var });

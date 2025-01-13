@@ -1,0 +1,1 @@
+[OperationContract]\n[WebGet(ResponseFormat = WebMessageFormat.Xml, UriTemplate = "SomeRequest?qs1={qs1}")]\nXElement SomeRequest2(string qs1);

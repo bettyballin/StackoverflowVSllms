@@ -1,0 +1,1 @@
+objdump -x -T your_com_dll.dll | grep "Ordinal 5507"

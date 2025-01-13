@@ -1,1 +1,0 @@
-using System;\n\nclass Program\n{\n    static void Main()\n    {\n        #if !DEBUG\n        DoSomething();\n        #endif\n    }\n\n    static void DoSomething()\n    {\n        Console.WriteLine("Not in debug mode!");\n    }\n}

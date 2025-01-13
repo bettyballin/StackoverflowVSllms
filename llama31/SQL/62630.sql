@@ -1,0 +1,1 @@
+ALTER TABLE Friends\nADD SortOrder float;

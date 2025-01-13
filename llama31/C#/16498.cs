@@ -1,0 +1,1 @@
+foreach (People p in ppl.results) {\n    List<string> newList = new List<string>();\n    newList.Add(p.name);\n    newList.Add(p.email);\n    list2d.Add(newList);\n}

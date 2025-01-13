@@ -1,0 +1,1 @@
+-- Bad\nSELECT * FROM users;\n\n-- Good\nSELECT id, name, email FROM users;

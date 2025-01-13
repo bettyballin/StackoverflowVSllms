@@ -1,0 +1,1 @@
+<?php\n$username = htmlspecialchars($twit->user->screen_name);\n?>\n<script>\n  var username = '<?= $username ?>';\n  // ...\n  <a href="#" onclick="addtext('@' + username); return false;">reply</a>\n</script>

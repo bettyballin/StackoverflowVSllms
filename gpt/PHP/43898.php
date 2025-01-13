@@ -1,1 +1,0 @@
-<?php\n// another_script.php\nsession_start();\ninclude 'db_config.php';\n\n// Ensure the user is authenticated\nif (!isset($_SESSION["logged_in"])) {\n    header('Location: login.php');\n    exit;\n}\n\n// Code that uses $dbconn...\n?>

@@ -1,0 +1,1 @@
+# app/models/concerns/custom_timestamps.rb\nmodule CustomTimestamps\n  extend ActiveSupport::Concern\n\n  module ClassMethods\n    def timestamp_attributes_for_create\n      [:created_on, :updated_on]\n    end\n\n    def timestamp_attributes_for_update\n      [:updated_on]\n    end\n  end\nend

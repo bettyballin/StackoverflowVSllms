@@ -1,1 +1,0 @@
-if (isKingExposed(kingPosition)) {\n        score -= KING_SAFETY_PENALTY;\n    }

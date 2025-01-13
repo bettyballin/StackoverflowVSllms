@@ -1,0 +1,1 @@
+CREATE TABLE my_table (\n  my_column empty_string_allowed NOT NULL\n);

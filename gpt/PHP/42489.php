@@ -1,1 +1,0 @@
-<?php\n   if (!class_exists('Gtk')) {\n       die("PHP-GTK not installed correctly.");\n   }\n   $window = new GtkWindow();\n   $window->set_title('PHP-GTK Test');\n   $window->connect_simple('destroy', array('Gtk', 'main_quit'));\n   $window->show_all();\n   Gtk::main();\n   ?>

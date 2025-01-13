@@ -1,0 +1,1 @@
+using System.ServiceProcess;\n\nclass ServiceController\n{\n    public static void StartService(string serviceName)\n    {\n        var service = new ServiceController(serviceName);\n        service.Start();\n    }\n\n    public static void StopService(string serviceName)\n    {\n        var service = new ServiceController(serviceName);\n        service.Stop();\n    }\n}

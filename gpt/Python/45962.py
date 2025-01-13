@@ -1,1 +1,0 @@
-technical_debt = sum(rework_hours);

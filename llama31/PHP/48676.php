@@ -1,0 +1,1 @@
+require_once 'vendor/autoload.php';\nuse Jenssegers\Agent\Agent;\n\n$agent = new Agent();\n$browser = $agent->browser();\necho $browser;

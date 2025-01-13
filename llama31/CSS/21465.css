@@ -1,0 +1,1 @@
+.widgetMain {\n    background: url('/Content/Images/Title_Bar_Left.png') no-repeat left top,\n                url('/Content/Images/Title_Bar_Middle.png') repeat-x left top,\n                url('/Content/Images/Title_Bar_Right.png') no-repeat right top;\n    text-align: left;\n    margin-top: auto;\n    min-height: 100%;\n}

@@ -1,0 +1,1 @@
+var citySelect = $('city');\ncitySelect.length = 0; // clear existing options\n\nvar newOption = new Option('This is a test', 'test');\ncitySelect.add(newOption);

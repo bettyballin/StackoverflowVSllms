@@ -1,1 +1,0 @@
-[HttpPost]\n   [ValidateAntiForgeryToken]\n   public ActionResult Delete(int id)\n   {\n       // Perform authorization checks as shown in the first example\n   }

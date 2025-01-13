@@ -1,0 +1,1 @@
+private readonly IHttpContextAccessor _httpContextAccessor;\n\npublic MyController(IHttpContextAccessor httpContextAccessor)\n{\n    _httpContextAccessor = httpContextAccessor;\n}\n\npublic IActionResult MyAction()\n{\n    var currentUserName = _httpContextAccessor.HttpContext.User.Identity.Name;\n    //...\n}

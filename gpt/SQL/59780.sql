@@ -1,1 +1,0 @@
-SELECT DISTINCT A, ConcatenateValues([A]) AS B_List\nFROM TBL;

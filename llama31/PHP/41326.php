@@ -1,0 +1,1 @@
+foreach ($out_array as $key=>$value) {\n    if (strpos(strtolower($key), $q) !== false) {\n        echo "$key|$value\n";\n    }\n}

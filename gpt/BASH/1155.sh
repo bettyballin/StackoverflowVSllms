@@ -1,1 +1,0 @@
-dlltool -d python26.def -l libpython26.a -D c:\windows\system32\python26.dll

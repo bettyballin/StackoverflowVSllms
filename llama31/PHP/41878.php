@@ -1,0 +1,1 @@
+$string = "Your 75 character string here";\n$lines = 3;\n$length = ceil(strlen($string) / $lines);\n$chunks = str_split($string, $length);\n\necho implode("\n", $chunks);

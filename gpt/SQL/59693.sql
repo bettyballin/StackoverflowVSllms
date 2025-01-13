@@ -1,1 +1,0 @@
--- Example: T-SQL script to call SSRS report rendering\n-- (Note: This is a conceptual example; actual implementation requires SSRS configuration)\nDECLARE @ReportPath NVARCHAR(MAX) = '/Path/To/YourReport'\nDECLARE @OutputPath NVARCHAR(MAX) = 'C:\Path\To\Save\ReportOutput.pdf'\n\nEXEC ReportServer.dbo.AddEvent @EventType='TimedSubscription', @EventData=@ReportPath

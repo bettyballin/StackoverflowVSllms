@@ -1,0 +1,1 @@
+def spanningsets(items):\n    if len(items) == 1:\n        yield [items]\n    else:\n        left_set, last = items[:-1], [items[-1]]\n        for cc in spanningsets(left_set):\n            yield cc + [last]\n            for i, elem in enumerate(cc):\n                yield cc[:i] + [elem + last] + cc[i+1:]

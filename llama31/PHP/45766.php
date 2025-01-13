@@ -1,0 +1,1 @@
+$gate = "00332";\n$gateWithLeadingZeros = (string) $gate;\n$gateWithoutLeadingZeros = (int) $gate;\n\necho "String: $gateWithLeadingZeros\n"; // Outputs: 00332\necho "Integer: $gateWithoutLeadingZeros\n"; // Outputs: 332

@@ -1,1 +1,0 @@
-chmod 644 .htaccess\n    chown youruser:yourgroup .htaccess

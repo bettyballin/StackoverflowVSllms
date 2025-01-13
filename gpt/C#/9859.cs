@@ -1,1 +1,0 @@
-using (var context = new YourDataContext())\n{\n    // Your LINQ-to-SQL queries here\n}

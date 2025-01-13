@@ -1,0 +1,1 @@
+$array = array();\nfor ($i = 0; $i < 5000; $i++) {\n    $array[$i] = 'value_' . $i;\n}\n\n$serializedData = serialize($array);\n\n// Store the serialized data in APC or Memcache\napc_store('friend_list', $serializedData); // APC\n// or\n$memcache->set('friend_list', $serializedData); // Memcache

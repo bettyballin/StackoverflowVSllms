@@ -1,0 +1,1 @@
+WITH RECURSIVE children AS (\n  SELECT id, parent_id, 0 AS level\n  FROM tree\n  WHERE parent_id = ?  -- replace with the desired parent id\n  UNION ALL\n  SELECT t.id, t.parent_id, level + 1\n  FROM tree t\n  JOIN children p ON t.parent_id = p.id\n)\nSELECT id AS children\nFROM children\nWHERE level = 1\nOR (level = 0 AND NOT EXISTS (SELECT 1 FROM children WHERE level = 1));

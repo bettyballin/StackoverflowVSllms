@@ -1,0 +1,1 @@
+// Add hover class on mouseover and remove on mouseout\ndocument.querySelectorAll('.menu').forEach(function (element) {\n    element.addEventListener('mouseover', function () {\n        element.classList.add('hover');\n    });\n    element.addEventListener('mouseout', function () {\n        element.classList.remove('hover');\n    });\n});

@@ -1,0 +1,1 @@
+let foo = 0;\n\nif (foo == null) { console.log("foo is null or undefined"); }  // false\nif (!foo) { console.log("foo is falsy"); }  // true

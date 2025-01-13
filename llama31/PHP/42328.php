@@ -1,0 +1,1 @@
+register_shutdown_function(function() {\n    // cleanup or logging code here\n});

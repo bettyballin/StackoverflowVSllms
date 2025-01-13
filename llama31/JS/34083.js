@@ -1,0 +1,1 @@
+// file.js\nexport function add(a, b) {\n  return a + b;\n}\n\n// main.js\nimport { add } from './file.js';\nconsole.log(add(2, 3)); // outputs 5

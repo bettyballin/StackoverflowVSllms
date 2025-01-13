@@ -1,0 +1,1 @@
+@echo off\nset port=49181\nset path=C:\Path\To\Your\WebSite\n\nstart /B "C:\Program Files\Common Files\Microsoft Shared\DevServer\9.0\WebDev.WebServer.EXE" /port:%port% /path:"%path%"

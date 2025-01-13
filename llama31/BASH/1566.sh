@@ -1,0 +1,1 @@
+XENDOMAINS_RESTORE=/etc/xen/vm

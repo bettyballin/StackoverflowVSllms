@@ -1,1 +1,0 @@
-// Get the full URL including the query string and anchor\nvar fullURL = window.location.href;\n\nconsole.log(fullURL);

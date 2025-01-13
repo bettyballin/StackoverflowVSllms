@@ -1,0 +1,1 @@
+devenv yourproject.sln /clean Release\ndevenv yourproject.sln /build Release

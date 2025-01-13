@@ -1,1 +1,0 @@
-python your_script.py --register

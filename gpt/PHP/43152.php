@@ -1,1 +1,0 @@
-$conn = new mysqli('p:hostname', 'username', 'password', 'database');

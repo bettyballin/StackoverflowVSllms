@@ -1,1 +1,0 @@
-UPDATE YourTable\nSET YourColumn = dbo.ProperCase(YourColumn)

@@ -1,0 +1,1 @@
+<Project Sdk="Microsoft.NET.Sdk">\n  <UsingTask TaskName="MhtConverterTask" AssemblyFile="$(MSBuildThisFileDirectory)MhtConverterTask.dll" />\n  <Target Name="ConvertToMht">\n    <MhtConverterTask\n      InputHtmlFile="path/to/input/html"\n      OutputMhtFile="path/to/output.mht" />\n  </Target>\n</Project>

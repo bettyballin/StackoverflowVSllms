@@ -1,0 +1,1 @@
+INSERT INTO your_table (userid, courseid)\nSELECT userid, 11\nFROM your_table\nWHERE courseid = 6\nAND userid NOT IN (SELECT userid FROM your_table WHERE courseid = 11);

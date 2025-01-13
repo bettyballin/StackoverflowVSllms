@@ -1,0 +1,1 @@
+SELECT HEX(blob_column) AS blob_column FROM table_name;

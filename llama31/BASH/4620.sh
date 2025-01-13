@@ -1,0 +1,1 @@
+checkmodule -M -m -o myapp.mod myapp.te\nsemodule_package -o myapp.pp -m myapp.mod

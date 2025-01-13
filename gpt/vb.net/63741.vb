@@ -1,1 +1,0 @@
-Dim loTupleSetDifference = loTupleKeys.Except(loTupleExistingKeys)

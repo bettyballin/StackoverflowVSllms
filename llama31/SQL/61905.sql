@@ -1,0 +1,1 @@
+CREATE TABLE content (\n  id INT PRIMARY KEY,\n  text TEXT NOT NULL\n);\n\nINSERT INTO content (text) VALUES ('# Heading\n\nThis is a paragraph with **bold** text.');

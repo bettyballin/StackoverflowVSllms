@@ -1,1 +1,0 @@
-using System.ServiceModel;\n\n[ServiceContract]\npublic interface IMyService\n{\n    [OperationContract]\n    string SendMessage(string message);\n}

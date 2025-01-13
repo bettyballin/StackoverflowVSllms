@@ -1,0 +1,1 @@
+import uuid\n\ndef get_key():\n    return str(uuid.uuid4())\n\ndef load_history():\n    key = get_key()\n    try:\n        readline.read_history_file('.python_history_{}'.format(key))\n    except FileNotFoundError:\n        pass\n\ndef save_history():\n    key = get_key()\n    readline.write_history_file('.python_history_{}'.format(key))

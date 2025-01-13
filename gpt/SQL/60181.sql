@@ -1,1 +1,0 @@
-SELECT itemid, colour, size, fabric\nFROM items;

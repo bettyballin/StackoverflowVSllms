@@ -1,1 +1,0 @@
-$url = "path/to/your/xmlfile.xml";\n   $xmlContent = file_get_contents($url);\n\n   if ($xmlContent === false) {\n       die('Error fetching the XML file');\n   }\n\n   $xml = simplexml_load_string($xmlContent);\n   if ($xml === false) {\n       die('Error parsing the XML file');\n   }\n\n   // Continue processing the XML

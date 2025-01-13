@@ -1,0 +1,1 @@
+// In your ItemHelper.php file\nclass ItemHelper extends AppHelper {\n    public function isOwnedByUser($item, $userId) {\n        $itemModel = ClassRegistry::init('Item');\n        return $itemModel->isOwnedByUser($userId, $item['Item']['id']);\n    }\n}

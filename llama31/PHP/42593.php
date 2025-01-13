@@ -1,0 +1,1 @@
+// myFile.php\nif (isset($id)) {\n    // Use the $id variable\n    echo "ID: " . htmlspecialchars($id);\n} else {\n    // Handle the case when $id is not set\n    echo "ID is not set";\n}

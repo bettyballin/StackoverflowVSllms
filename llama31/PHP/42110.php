@@ -1,0 +1,1 @@
+$public_ip = json_decode(file_get_contents('https://api.ipify.org?format=json'), true)['ip'];\necho $public_ip;

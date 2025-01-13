@@ -1,0 +1,1 @@
+$people = new SplObjectStorage();\n\n$person1 = new Person("John", 30);\n$people->attach($person1);\n\n$person2 = new Person("Jane", 25);\n$people->attach($person2);\n\nprint_r($people);

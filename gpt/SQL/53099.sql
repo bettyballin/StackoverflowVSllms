@@ -1,1 +1,0 @@
-CREATE TABLE actor (\n    id SERIAL PRIMARY KEY,\n    type VARCHAR(50),\n    name VARCHAR(100),\n    -- other common fields\n    UNIQUE (id, type)\n);\n\n-- Example of type-specific fields (can be NULL if not applicable)\nALTER TABLE actor ADD COLUMN worker_specific_field VARCHAR(100);\nALTER TABLE actor ADD COLUMN employer_specific_field VARCHAR(100);

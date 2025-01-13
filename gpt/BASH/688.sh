@@ -1,1 +1,0 @@
-sudo systemctl restart zabbix-server zabbix-agent apache2\n   sudo systemctl enable zabbix-server zabbix-agent apache2

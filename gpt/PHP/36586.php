@@ -1,1 +1,0 @@
-<?php\nheader('Content-Type: text/html; charset=ISO-8859-15');\n$content = "Your content with accented characters";\necho iconv("UTF-8", "ISO-8859-15//TRANSLIT", $content);\n?>

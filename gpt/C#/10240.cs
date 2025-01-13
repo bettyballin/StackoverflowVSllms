@@ -1,1 +1,0 @@
-aMission.missionName = missionName;

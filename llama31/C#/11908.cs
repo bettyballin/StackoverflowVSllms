@@ -1,0 +1,1 @@
+using (var connection = new SqlConnection(connectionString))\n{\n    // Perform database operations\n} // connection will be closed automatically

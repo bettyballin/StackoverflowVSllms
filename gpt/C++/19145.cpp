@@ -1,1 +1,0 @@
-someObj->Foo(NULL);

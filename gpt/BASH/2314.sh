@@ -1,1 +1,0 @@
-echo -1000 > /proc/<pid>/oom_score_adj

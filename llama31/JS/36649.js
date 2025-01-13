@@ -1,0 +1,1 @@
+$(function() {\n  var $menu = $('#floating-menu');\n  var menuOffset = $menu.offset().top;\n\n  $(window).scroll(_.debounce(function() {\n    var scrollTop = $(window).scrollTop();\n    if (scrollTop > menuOffset) {\n      $menu.addClass('fixed');\n    } else {\n      $menu.removeClass('fixed');\n    }\n  }, 10)); // adjust the debounce time as needed\n});

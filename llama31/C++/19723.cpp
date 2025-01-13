@@ -1,0 +1,1 @@
+void destroyStaticObjectLast() {\n    static StaticObject obj; // constructs on first call\n    // do something with obj\n}

@@ -1,1 +1,0 @@
-[TestInitialize]\n    public void Setup()\n    {\n        // Code to initialize test data\n    }\n\n    [TestCleanup]\n    public void Teardown()\n    {\n        // Code to clean up test data\n    }

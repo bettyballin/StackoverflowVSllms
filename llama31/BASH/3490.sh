@@ -1,0 +1,1 @@
+cppcheck --enable=unusedFunction your_file.cpp

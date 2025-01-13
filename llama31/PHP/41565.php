@@ -1,0 +1,1 @@
+$stmt = $mysqli->prepare("SELECT * FROM table WHERE dateField1 >= CURDATE() AND dateField2 >= CURDATE()");\n$stmt->execute();\n$result = $stmt->get_result();

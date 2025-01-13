@@ -1,1 +1,0 @@
-[ServiceContract]\npublic interface IMyService\n{\n    [OperationContract]\n    string MyOperation(string param);\n}\n\npublic class MyService : IMyService\n{\n    public string MyOperation(string param)\n    {\n        return "Hello, " + param;\n    }\n}

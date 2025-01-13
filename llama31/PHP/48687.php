@@ -1,0 +1,1 @@
+amespace MyApp\Models;

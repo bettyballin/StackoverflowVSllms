@@ -1,1 +1,0 @@
-ssh -X user@unix_server

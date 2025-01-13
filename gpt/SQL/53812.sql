@@ -1,1 +1,0 @@
-SELECT * \nFROM Routing \nWHERE @Message LIKE RouteRegex;

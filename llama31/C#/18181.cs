@@ -1,0 +1,1 @@
+for (int i = 0; i < _numOrders; i++)\n{\n    Guid newGuid = Guid.NewGuid();\n    Console.WriteLine($"New Guid: {newGuid}");\n    ticket.CacheId = newGuid;\n    Submit(ticket);\n}

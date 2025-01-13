@@ -1,0 +1,1 @@
+SELECT name, address\nFROM people\nSKIP 5\nTOP 10

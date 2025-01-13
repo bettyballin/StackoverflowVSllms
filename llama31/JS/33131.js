@@ -1,0 +1,1 @@
+// Example usage of PDF.co.js\nconst pdfco = require('pdf.co.js');\n\n// Load the PDF file\nconst pdf = pdfco.load('path/to/example.pdf');\n\n// Render the PDF\npdf.renderPage(0, (err, page) => {\n  if (err) {\n    console.error(err);\n  } else {\n    // Send the rendered page as an image to the client\n    res.send(page.getImage());\n  }\n});

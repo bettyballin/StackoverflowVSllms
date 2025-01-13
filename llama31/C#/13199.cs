@@ -1,0 +1,1 @@
+using System.Data;\n\n// assuming 'dr' is your DataReader and 'fpSpread' is your Farpoint Spreadsheet\nDataTable dt = new DataTable();\ndt.Load(dr);\nfpSpread.DataSource = dt;

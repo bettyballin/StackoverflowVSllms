@@ -1,0 +1,1 @@
+[ReliabilityContract(Consistency.WillNotCorruptState, Cer.Success)]\npublic void MyMethod()\n{\n    // Method implementation here\n}

@@ -1,1 +1,0 @@
-ALTER TABLE your_table\nADD CONSTRAINT chk_colExp_digits\nCHECK (PATINDEX('%[^0-9]%', colExp) = 0);

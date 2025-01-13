@@ -1,0 +1,1 @@
+protected void TreeView1_SelectedNodeChanged(object sender, EventArgs e)\n{\n    Label1.Text = TreeView1.SelectedValue;\n    Control previouslySelectedNode = UpdatePanel1.ContentTemplateContainer.FindControl("TreeView1").FindControl("selected");\n    if (previouslySelectedNode != null)\n    {\n        previouslySelectedNode.CssClass = "";\n    }\n}

@@ -1,0 +1,1 @@
+# Compress your backup directory and mail it to your Gmail account\ntar -czf backup.tar.gz /path/to/project\necho "Backup attached" | mail -s "Backup" -a backup.tar.gz your_email@gmail.com

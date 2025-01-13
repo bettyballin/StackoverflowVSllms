@@ -1,1 +1,0 @@
-string name = null;\n   name ??= "Default Name";\n   // name is now "Default Name"

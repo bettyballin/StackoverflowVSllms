@@ -1,0 +1,1 @@
+HashSet<int> bSet = new HashSet<int>(b);\n\nforeach (int num in a)\n{\n    if (bSet.Contains(num))\n    {\n        Console.WriteLine(num); // prints 4\n    }\n}

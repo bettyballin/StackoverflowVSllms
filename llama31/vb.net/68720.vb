@@ -1,0 +1,1 @@
+<TestClass()>\n<Timeout(15 * 60 * 1000)>\nPublic Class MyTest\n    <TestMethod()>\n    Public Sub DoSomething()\n        ' Your test code here\n    End Sub\nEnd Class

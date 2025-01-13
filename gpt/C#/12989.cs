@@ -1,1 +1,0 @@
-while (Marshal.ReleaseComObject(comObject) > 0) { }\ncomObject = null;

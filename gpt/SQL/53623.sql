@@ -1,1 +1,0 @@
-SELECT * FROM Node\nWHERE Path LIKE (SELECT Path FROM Node WHERE NodeId = @TargetNodeId) + '%';

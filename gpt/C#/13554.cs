@@ -1,1 +1,0 @@
-[CaptchaValidator]\n    [AcceptVerbs(HttpVerbs.Post)]\n    public ActionResult Index(FormCollection collection)\n    {\n        // do some stuff ...\n        return RedirectToAction("ThankYou");\n    }

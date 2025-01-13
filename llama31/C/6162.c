@@ -1,0 +1,1 @@
+#include <stdio.h>\n\nint main() {\n    FILE *tty = fopen("/dev/tty", "r");\n    if (tty == NULL) {\n        // Handle error\n    }\n\n    // Use tty to read from the terminal\n    char input[1024];\n    fscanf(tty, "%1023s", input);\n    printf("You entered: %s\n", input);\n\n    fclose(tty);\n    return 0;\n}

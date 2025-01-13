@@ -1,1 +1,0 @@
-BEGIN\n       DBMS_JAVA.grant_permission('MYUSER', 'SYS:java.net.SocketPermission', 'target-host:port', 'connect,resolve');\n       DBMS_JAVA.grant_permission('MYUSER', 'SYS:java.lang.RuntimePermission', 'accessClassInPackage.sun.xml.messaging.saaj.soap', '');\n   END;\n   /

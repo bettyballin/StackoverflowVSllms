@@ -1,1 +1,0 @@
-[\n    {'Name': 'ABC Company', 'Rank': 20},\n    {'Name': 'Woo Company', 'Rank': 15},\n    {'Name': 'TOTAL', 'Rank': 100}\n]

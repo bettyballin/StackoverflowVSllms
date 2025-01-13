@@ -1,1 +1,0 @@
--- Example: Oracle Streams setup\n   BEGIN\n      DBMS_STREAMS_ADM.ADD_TABLE_RULES(\n         table_name      => 'hr.employees',\n         streams_type    => 'capture',\n         streams_name    => 'capture_name'\n      );\n   END;

@@ -1,0 +1,1 @@
+ProcessStartInfo startInfo = new ProcessStartInfo();\nstartInfo.FileName = "EXCEL.EXE";\nstartInfo.Arguments = $"\"{filePath}\""; // enclose the file path in quotes\nProcess.Start(startInfo);

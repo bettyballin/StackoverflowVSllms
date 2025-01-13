@@ -1,0 +1,1 @@
+// Set up the heartbeat signal\nsetInterval(function() {\n  $.ajax({\n    type: "POST",\n    url: "/heartbeat",\n    data: { userId: getCurrentUserId() }\n  });\n}, 60 * 1000); // 1 minute\n\n// Set up the beforeunload event\n$(window).on("beforeunload", function() {\n  $.ajax({\n    type: "POST",\n    url: "/leave-page",\n    data: { userId: getCurrentUserId() }\n  });\n});

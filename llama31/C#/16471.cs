@@ -1,0 +1,1 @@
+using CKEditor.NET;\n\npublic partial class Form1 : Form\n{\n    private CKEditor ckeditor;\n\n    public Form1()\n    {\n        InitializeComponent();\n\n        ckeditor = new CKEditor();\n        ckeditor.Dock = DockStyle.Fill;\n        this.Controls.Add(ckeditor);\n    }\n}

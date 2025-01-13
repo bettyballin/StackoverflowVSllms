@@ -1,0 +1,1 @@
+CREATE APPLICATION ROLE 'MyWebAppRole'\nWITH PASSWORD = 'strong_password',\nDEFAULT_SCHEMA = 'dbo';

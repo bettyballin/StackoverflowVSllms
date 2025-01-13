@@ -1,0 +1,1 @@
+protected override bool ProcessCmdKey(ref Message msg, Keys keyData)\n{\n    if (keyData == Keys.Minimize) // or any other key you want to use\n    {\n        this.WindowState = FormWindowState.Minimized;\n        return true;\n    }\n    return base.ProcessCmdKey(ref msg, keyData);\n}

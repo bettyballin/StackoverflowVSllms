@@ -1,0 +1,1 @@
+bcp "SELECT * FROM [database_name].[schema_name].[table_name]" queryout "C:\export\table_name.bcp" -S [server_name] -U [username] -P [password] -

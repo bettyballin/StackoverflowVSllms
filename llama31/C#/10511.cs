@@ -1,0 +1,1 @@
+sreport.Load(Server.MapPath("~/ClientList.rpt"))

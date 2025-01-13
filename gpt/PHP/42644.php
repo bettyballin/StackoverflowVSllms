@@ -1,1 +1,0 @@
-// In your FilesController.php\npublic function beforeFilter() {\n    parent::beforeFilter();\n    // Add additional code here if needed\n}\n\npublic function index() {\n    // Default action logic\n}\n\npublic function myCustomAction($param = null) {\n    // Custom action logic\n    // Handle $param if necessary\n}\n\n// Add other actions as needed

@@ -1,1 +1,0 @@
-MyDataAdapter.Fill(MyDataset);\nforeach (MyDataSet.MyDataTableRow dr in MyDataset.MyDataTable.Rows)\n{\n    var something = dr.Something;\n    var somethingelse = dr.SomethingElse;\n}

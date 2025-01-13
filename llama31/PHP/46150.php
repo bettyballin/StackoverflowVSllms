@@ -1,0 +1,1 @@
+require 'vendor/autoload.php';\n\nuse Aws\S3\S3Client;\n\n$s3 = new S3Client([\n    'version' => 'latest',\n    'region'  => 'your-region',\n    'credentials' => [\n        'key' => 'YOUR_ACCESS_KEY',\n        'secret' => 'YOUR_SECRET_KEY',\n    ],\n]);\n\n$upload = $s3->upload('your-bucket-name', 'file-name', fopen('path/to/temp/file', 'rb'), 'public-read');

@@ -1,0 +1,1 @@
+printf "\xA9" >> file

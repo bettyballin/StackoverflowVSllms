@@ -1,1 +1,0 @@
-protected void Page_Load(object sender, EventArgs e)\n{\n    if (IsPostBack)\n    {\n        // Check if there are any validation errors\n        if (!Page.IsValid)\n        {\n            // Set a flag in a hidden field or a ViewState\n            ViewState["ExpandDiv"] = true;\n        }\n    }\n}

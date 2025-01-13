@@ -1,0 +1,1 @@
+// Instrument your code with NCover\nncover.console MyProject.dll /output:coverage.xml\n\n// Run your manual tests\n\n// View the coverage results\nncover.reporting coverage.xml

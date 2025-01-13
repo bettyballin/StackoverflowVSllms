@@ -1,0 +1,1 @@
+// Prototype 1.7.3, line 1344\nJSON.parse = function(json) {\n    var result;\n\n    // Use a dedicated JSON parser\n    if (nativeJSON && nativeJSON.parse) {\n        result = nativeJSON.parse(json);\n    } else {\n        // ... (fallback to a manual parsing approach)\n    }\n\n    return result;\n}

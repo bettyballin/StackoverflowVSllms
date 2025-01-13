@@ -1,1 +1,0 @@
-git checkout -b bugfix/bug-id develop

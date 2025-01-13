@@ -1,1 +1,0 @@
-sudo yum install python-pip\n     sudo pip install bloodhound\n     bloodhound_setup

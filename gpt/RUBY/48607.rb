@@ -1,1 +1,0 @@
-require 'pp'\n\n# Create a range from 1 to 10\nrange = 1..10\n\n# Use the splat operator to expand the range into individual arguments\np *range\n\n# This effectively does the same as:\n# p 1, 2, 3, 4, 5, 6, 7, 8, 9, 10

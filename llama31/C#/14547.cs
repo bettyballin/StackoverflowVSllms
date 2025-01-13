@@ -1,0 +1,1 @@
+using System.Diagnostics;\n\nProcess currentProcess = Process.GetCurrentProcess();\nlong memoryUsage = currentProcess.WorkingSet64;\n\nConsole.WriteLine($"Memory usage: {memoryUsage / (1024 * 1024)} MB");

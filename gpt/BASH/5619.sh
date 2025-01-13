@@ -1,1 +1,0 @@
-cd C:\Program Files (x86)\Microsoft SDKs\Windows\v10.0A\Bin\NETFX 4.8 Tools\nWsdl.exe /?

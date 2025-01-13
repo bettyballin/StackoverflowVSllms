@@ -1,0 +1,1 @@
+[root@machine plugins]# export JAVA_HOME=/path/to/jdk

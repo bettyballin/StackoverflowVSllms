@@ -1,1 +1,0 @@
-<?php\nif (isset($_GET['result'])) {\n    // Get the JSON string from the GET parameter\n    $jsonString = $_GET['result'];\n    \n    // Decode the JSON string\n    $array = json_decode(urldecode($jsonString), true);\n\n    // Use the array as needed\n    print_r($array);\n}\n?>

@@ -1,0 +1,1 @@
+INSERT INTO tblGlobalIDMapping (PersonID, DRIMaster, DRIClient)\nSELECT \n    PersonID,\n    [1] AS DRIMaster,\n    [6] AS DRIClient\nFROM \n    (SELECT PersonID, ApplicationID, PersonApplicationID\n     FROM tblApplicationAssociation\n     WHERE ApplicationID IN (1,6)) AS SourceTable\nPIVOT \n    (MAX(PersonApplicationID) FOR ApplicationID IN ([1], [6])) AS PivotTable;

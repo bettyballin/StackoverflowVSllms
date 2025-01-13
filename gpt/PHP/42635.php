@@ -1,1 +1,0 @@
-ob_start();\ninclude('yourfile.php');\n$phpContent = ob_get_clean();

@@ -1,0 +1,1 @@
+#include <cmath>\n\ndouble result = pow(2, 3); // raises 2 to the power of 3

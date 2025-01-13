@@ -1,0 +1,1 @@
+tf labels /collection:<collection_url> <label_name>

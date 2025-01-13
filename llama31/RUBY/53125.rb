@@ -1,0 +1,1 @@
+class SessionsControllerTest < ActionController::TestCase\n\n  def setup\n    @user = users(:stan)\n  end\n\n  # ...\n\nend

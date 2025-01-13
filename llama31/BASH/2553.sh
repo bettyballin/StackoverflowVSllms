@@ -1,0 +1,1 @@
+gcc -o ld ld.c -pg

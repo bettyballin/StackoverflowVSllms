@@ -1,1 +1,0 @@
-Rails.application.routes.draw do\n  resources :users do\n    get 'events/:month', to: 'users#events', as: 'events', constraints: { month: /\d{4}-\d{2}/ }, format: 'html'\n  end\nend

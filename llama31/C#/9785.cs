@@ -1,0 +1,1 @@
+public class MyList<T> : List<T>\n{\n    public override bool Contains(T item)\n    {\n        // Your custom implementation here\n        // For example:\n        return this.Any(i => i.Equals(item));\n    }\n}

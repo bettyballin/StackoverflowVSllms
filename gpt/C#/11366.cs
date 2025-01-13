@@ -1,1 +1,0 @@
-using OtpSharp;\n   using Base32;\n\n   byte[] secretKey = KeyGeneration.GenerateRandomKey(20); // Generates a random 20-byte key\n   string base32Secret = Base32Encoder.Encode(secretKey); // Converts to Base32 string for storage

@@ -1,1 +1,0 @@
-SELECT \n    CASE \n        WHEN FC.CourseId is not null THEN CAST(1 AS bit)\n        ELSE CAST(0 AS bit)\n    END AS IsCoursedBased\nFROM \n    YourTable FC

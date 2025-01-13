@@ -1,0 +1,1 @@
+SELECT *\nFROM (\n  SELECT id, category, insertdate, title,\n    ROW_NUMBER() OVER (PARTITION BY category ORDER BY insertdate DESC) AS row_num\n  FROM your_table\n) AS subquery\nWHERE row_num <= 2;

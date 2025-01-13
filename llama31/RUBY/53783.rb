@@ -1,0 +1,1 @@
+// In your controller\nI18n::translate('Hello, world!');

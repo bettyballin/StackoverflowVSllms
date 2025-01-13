@@ -1,1 +1,0 @@
-svn checkout --depth immediates http://svn.example.com/repo/trunk\ncd trunk\nsvn update --set-depth infinity scripts/perl

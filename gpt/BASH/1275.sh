@@ -1,1 +1,0 @@
-open sftp://user:password@example.com\nlcd C:\local\directory\ncd /remote/directory\nget *\nrm *\nclose\nexit

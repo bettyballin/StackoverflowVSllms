@@ -1,0 +1,1 @@
+$microtime = microtime(true);\n$microseconds = sprintf("%06d", ($microtime - floor($microtime)) * 1000000);\n$dt = new DateTime();\necho $dt->format("Y-m-d\TH:i:s") . "." . $microseconds . "\n";

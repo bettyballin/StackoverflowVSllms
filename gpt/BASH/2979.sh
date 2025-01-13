@@ -1,1 +1,0 @@
-xpra detach\n    xpra attach ssh:remote_server:100

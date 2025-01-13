@@ -1,0 +1,1 @@
+try {\n    MyManagedObject^ obj = gcnew MyManagedObject();\n    // Use the object\n}\ncatch (OutOfMemoryException^ ex) {\n    // Handle the exception\n    Console::WriteLine("Out of memory: " + ex->Message);\n}

@@ -1,0 +1,1 @@
+public class FeatureReceiver : SPFeatureReceiver\n{\n    public override void FeatureActivated(SPFeatureReceiverProperties properties)\n    {\n        SPSite site = properties.Feature.Parent as SPSite;\n        site.EventReceivers.Add(SPEventReceiverType.PermissionChange, new PermissionsMonitor());\n    }\n}

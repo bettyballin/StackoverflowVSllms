@@ -1,1 +1,0 @@
-sudo chmod 775 /path/to/your/directory

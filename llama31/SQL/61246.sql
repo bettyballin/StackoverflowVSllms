@@ -1,0 +1,1 @@
+// Run this query daily to remove hits older than 24 hours\n$query = "DELETE FROM hits WHERE timestamp < UNIX_TIMESTAMP() - 86400";

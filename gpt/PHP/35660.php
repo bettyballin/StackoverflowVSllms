@@ -1,1 +1,0 @@
-<?php\n   $lua = new Lua();\n   $lua->eval('a = 2 + 3');\n   echo $lua->a; // Outputs 5\n   ?>

@@ -1,0 +1,1 @@
+CREATE FUNCTION FormatDecimal (@value numeric(18, 6))\nRETURNS varchar(20)\nAS\nBEGIN\n    DECLARE @formattedValue varchar(20)\n    SET @formattedValue = CONVERT(VARCHAR, CONVERT(DECIMAL(18, 6), @value))\n    RETURN @formattedValue\nEND

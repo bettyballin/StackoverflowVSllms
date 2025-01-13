@@ -1,0 +1,1 @@
+curl -H 'Accept-Encoding: gzip' -v http://example.com/your/url

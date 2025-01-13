@@ -1,1 +1,0 @@
-INSERT /*+ APPEND */ INTO mytable\nSELECT /* Your data source here */;\nCOMMIT;

@@ -1,0 +1,1 @@
+CREATE TABLE example (\n  id INT PRIMARY KEY,\n  my_string VARCHAR(15)\n);\n\nINSERT INTO example (id, my_string) VALUES (1, 'Hello, World!');\n\n-- The length prefix will store the value 13, not 15\nSELECT LENGTH(my_string) FROM example WHERE id = 1;

@@ -1,0 +1,1 @@
+$namespace = md5(__FILE__) . '_' . 'app1';\n$app1Session = new SessionHandler($namespace);

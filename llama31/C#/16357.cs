@@ -1,0 +1,1 @@
+[OperationContract]\n[EncryptedDataContractSerializerOperationBehavior]\nMyResponse MyOperation(MyRequest request);

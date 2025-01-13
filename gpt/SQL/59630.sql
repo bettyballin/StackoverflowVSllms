@@ -1,1 +1,0 @@
--- Set the 3rd flag (bit 2) for a user\n   UPDATE users\n   SET flags = flags | (1 << 2)\n   WHERE user_id = ?;

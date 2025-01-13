@@ -1,1 +1,0 @@
-cd %ORACLE_HOME%\bin\n   copy ocijdbc10.dll ocijdbc9.dll

@@ -1,0 +1,1 @@
+public static IList<T> LoadObjectListAll<T>()\n{\n    ISession session = CheckForExistingSession();\n    var cfg = new NHibernate.Cfg.Configuration().Configure();\n    var returnList = session.CreateCriteria(typeof(T));\n    var list = returnList.List();\n    var castList = list.Cast<T>();\n    return castList;\n}

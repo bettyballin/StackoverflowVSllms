@@ -1,0 +1,1 @@
+ssh -f user@target "cd /some/directory; program-to-execute &"

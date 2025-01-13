@@ -1,1 +1,0 @@
-#include "hdf5.h"\n\nint main() {\n    // Open an existing file\n    hid_t file_id = H5Fopen("example.h5", H5F_ACC_RDWR, H5P_DEFAULT);\n\n    // Delete the dataset\n    H5Ldelete(file_id, "/dataset_name", H5P_DEFAULT);\n\n    // Close the file\n    H5Fclose(file_id);\n\n    return 0;\n}

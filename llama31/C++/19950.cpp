@@ -1,0 +1,1 @@
+// file1.h\n#ifndef FILE1_H\n#define FILE1_H\nvoid func1();\n#endif

@@ -1,1 +1,0 @@
-#!/bin/bash\n# Assuming files to compare are passed as arguments\npaste "$@" | diff -s -

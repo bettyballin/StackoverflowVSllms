@@ -1,1 +1,0 @@
-using System;\nusing System.EnterpriseServices;\n\n[ApplicationName("YourCOMPlusApp")]\n[ApplicationActivation(ActivationOption.Server)]\n[ApplicationAccessControl(false)]\npublic class YourCOMPlusComponent : ServicedComponent\n{\n    public void YourMethod()\n    {\n        // Implementation of your method\n    }\n}

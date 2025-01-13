@@ -1,1 +1,0 @@
-mysqldump -uroot -pPassword123 -hcommercialserver.com mydatabase > dumpfile.sql

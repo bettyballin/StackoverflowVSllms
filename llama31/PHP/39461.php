@@ -1,0 +1,1 @@
+$stmt = $pdo->prepare($query);\n$stmt->execute();\n$results = $stmt->fetchAll();

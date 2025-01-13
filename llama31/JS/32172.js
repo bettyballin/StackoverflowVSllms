@@ -1,0 +1,1 @@
+// Use the signed URL to upload the file\nconst fileInput = document.getElementById('file-input');\nconst file = fileInput.files[0];\nconst xhr = new XMLHttpRequest();\nxhr.open('PUT', signedUrl, true);\nxhr.setRequestHeader('Content-Type', 'video/mp4');\nxhr.send(file);

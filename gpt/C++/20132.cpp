@@ -1,1 +1,0 @@
-STDMETHODIMP YourClass::IsValid(VARIANT_BOOL* bValid)\n{\n    if (bValid == nullptr)\n        return E_POINTER;\n\n    *bValid = (/* your condition here */) ? VARIANT_TRUE : VARIANT_FALSE;\n    return S_OK;\n}

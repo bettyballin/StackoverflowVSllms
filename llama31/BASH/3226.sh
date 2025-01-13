@@ -1,0 +1,1 @@
+icacls HKEY_LOCAL_MACHINE\Software /grant:r IUSR_<machinename>:R

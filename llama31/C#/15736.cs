@@ -1,0 +1,1 @@
+[HttpPost]\npublic ActionResult SaveData(string data)\n{\n    // Process the data...\n    return Json(new { success = true }, JsonRequestBehavior.AllowGet);\n}

@@ -1,0 +1,1 @@
+$url = 'https://example.com/api/data';\n$ch = curl_init($url);\ncurl_setopt($ch, CURLOPT_RETURNTRANSFER, true);\ncurl_setopt($ch, CURLOPT_SSL_VERIFYPEER, true); // Verify the server's certificate\n$response = curl_exec($ch);\ncurl_close($ch);

@@ -1,0 +1,1 @@
+// Add an event listener to the document body\ndocument.body.addEventListener('click', (event) => {\n  if (event.target.tagName === 'A') {\n    // Your tracking code goes here\n    console.log('Link clicked:', event.target.href);\n  }\n});

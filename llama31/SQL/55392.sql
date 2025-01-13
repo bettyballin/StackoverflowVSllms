@@ -1,0 +1,1 @@
+IF EXISTS (SELECT * FROM table1 WHERE col1 = '1')\nBEGIN\n    THROW 51000, 'Script terminated due to existing data', 1\nEND\nGO\nINSERT INTO table1 (col1, col2) VALUES ('1', '2')  -- Won't ru

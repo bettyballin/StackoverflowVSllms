@@ -1,0 +1,1 @@
+class Foo {\n    private $baz;\n\n    function bar() {\n        $this->baz = new Baz;\n        $this->meh = $this->baz->getStuff();\n    }\n\n    function getBaz() {\n        return $this->baz;\n    }\n}

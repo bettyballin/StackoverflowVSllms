@@ -1,0 +1,1 @@
+public class Contact { }\n\npublic class Address : Contact { }\n\npublic class Email : Contact { }\n\npublic class Phone : Contact { }\n\npublic void Add<T>(T obj) \n    where T : Contact\n{\n    if (obj is Address)\n        m_Address.Add(obj as Address);\n    else if (obj is Email)\n        m_Email.Add(obj as Email);\n    else\n        m_Phone.Add(obj as Phone);\n}

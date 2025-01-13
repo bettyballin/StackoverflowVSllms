@@ -1,1 +1,0 @@
-Dim r As Regex = New Regex("\{\w+\}", RegexOptions.IgnoreCase)\nDim matches As MatchCollection = r.Matches("<a href='/Product/Show/{ProductRowID}'>{ProductName}</a>")\n\nFor Each m As Match In matches\n    Console.WriteLine(m.Value)\nNext

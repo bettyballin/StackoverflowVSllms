@@ -1,1 +1,0 @@
-#!/bin/bash\n\n# Define the hostname or IP address of the remote machine\nREMOTE_HOST="hostname"  # Replace 'hostname' with the actual hostname or IP address\n\n# SSH into the remote machine and start a Python shell\nssh -t "${REMOTE_HOST}" "python"

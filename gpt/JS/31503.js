@@ -1,1 +1,0 @@
-function keepSessionAlive() {\n       setInterval(function() {\n           var xhr = new XMLHttpRequest();\n           xhr.open("POST", "/KeepSessionAlive.ashx", true);\n           xhr.send();\n       }, 10000); // Ping every 10 seconds\n   }\n   \n   keepSessionAlive();

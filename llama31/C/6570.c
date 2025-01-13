@@ -1,0 +1,1 @@
+#include <glib.h>\n\n// ...\n\ng_timeout_add_seconds(G_PRIORITY_DEFAULT, 10, your_callback_function, NULL);

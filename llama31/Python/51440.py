@@ -1,0 +1,1 @@
+DATABASES = {\n    'default': {\n        'ENGINE': 'django.db.backends.sqlite3',\n        'NAME': 'mydatabase.db',\n    }\n}

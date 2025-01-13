@@ -1,0 +1,1 @@
+#!/bin/sh\nDISPLAY=$1\njava -jar my.jar

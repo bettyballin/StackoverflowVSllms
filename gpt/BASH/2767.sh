@@ -1,1 +1,0 @@
-sudo tail -f /mnt/log/apache2/error.log\n   sudo tail -f /mnt/log/apache2/access.log

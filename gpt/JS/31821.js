@@ -1,1 +1,0 @@
-// Example modification on jquery.ajaxManager.js (line 75)\nif (q && q[num]) {\n    // existing code for aborting\n} else {\n    console.warn('Queue item is not defined or queue is in an invalid state');\n}

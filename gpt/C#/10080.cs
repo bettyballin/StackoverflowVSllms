@@ -1,1 +1,0 @@
-using (OleDbConnection connection = new OleDbConnection(connectionString))\n   {\n       connection.Open();\n       string query = "UPDATE YourTable SET YourColumn = 'TestValue' WHERE YourCondition = 'SomeCondition'";\n       using (OleDbCommand command = new OleDbCommand(query, connection))\n       {\n           command.ExecuteNonQuery();\n       }\n   }

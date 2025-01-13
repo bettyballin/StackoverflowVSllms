@@ -1,0 +1,1 @@
+public class ReturnValue {\n    public double firstVar;\n    public double secondVar;\n}\n\nReturnValue result = calculateSomeDoubles();\ndouble firstVar = result.firstVar;\ndouble secondVar = result.secondVar;

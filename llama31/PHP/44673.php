@@ -1,0 +1,1 @@
+$stmt = $mysqli->prepare('SELECT * FROM users WHERE id = ? AND password = ?');\n$stmt->bind_param('ss', $_COOKIE['user_id'], $_COOKIE['password']);\n$stmt->execute();

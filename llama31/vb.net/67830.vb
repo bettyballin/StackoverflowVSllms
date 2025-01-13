@@ -1,0 +1,1 @@
+Dim inputString As String\ninputString = "text with ¶ character"\n\nDim cleanedString As String\ncleanedString = Replace(inputString, Chr(10), "")\n\n' cleanedString now contains the input string without the ¶ character

@@ -1,0 +1,1 @@
+X509Certificate2 clientCert = new X509Certificate2("path/to/client/cert.pfx", "password");\nsslStream.ClientCertificate = clientCert;\nsslStream.BeginAuthenticateAsClient("serverName", clientCert, SslProtocols.Tls12, false, ValidateServerCertificate, null);

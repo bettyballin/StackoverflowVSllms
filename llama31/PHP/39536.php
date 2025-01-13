@@ -1,0 +1,1 @@
+use MyClassName;\n$myObject = new MyClassName();

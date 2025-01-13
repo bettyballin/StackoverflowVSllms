@@ -1,1 +1,0 @@
-SELECT \n    FLOOR(mynum / 3) AS interval_group,\n    COUNT(*) AS count\nFROM \n    mytable\nGROUP BY \n    interval_group\nORDER BY \n    interval_group;

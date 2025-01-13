@@ -1,1 +1,0 @@
-interface ProgramInterface {\n    public static function getSelectSQL();\n}\n\nclass TVProgram implements ProgramInterface {\n    public static function getSelectSQL() {\n        // Implementation here\n    }\n}

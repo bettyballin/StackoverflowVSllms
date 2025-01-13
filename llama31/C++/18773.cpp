@@ -1,0 +1,1 @@
+int Wrap(int const kX, int const kLowerBound, int const kUpperBound)\n{\n    int const range = kUpperBound - kLowerBound + 1;\n    return kLowerBound + (kX - kLowerBound + range) % range;\n}

@@ -1,1 +1,0 @@
-SELECT 'Equal' \nWHERE NULL = NULL;  -- This will not return any rows because NULL is not equal to NULL.\n\nSELECT 'Not Equal'\nWHERE NULL <> NULL;  -- This will also not return any rows because NULL is not different from NULL either.

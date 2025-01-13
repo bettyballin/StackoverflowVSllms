@@ -1,0 +1,1 @@
+protected void Application_AuthenticateRequest(object sender, EventArgs e)\n{\n    if (Request.IsAuthenticated)\n    {\n        Trace.TraceInformation("User authenticated: " + HttpContext.Current.User.Identity.Name);\n    }\n    else\n    {\n        Trace.TraceWarning("Authentication failed for user: " + HttpContext.Current.Request.LogonUserIdentity.Name);\n    }\n}

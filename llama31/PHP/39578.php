@@ -1,0 +1,1 @@
+$records = mysql_num_rows($sections_query);\n\nwhile ($row_sections = mysql_fetch_array($sections_query)) {\n    echo "<h3>" . $row_sections['section_name'] . "</h3>";\n}

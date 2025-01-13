@@ -1,0 +1,1 @@
+echo "<p><strong>Article Number: </strong>".$ARTICLE_NO."\n";

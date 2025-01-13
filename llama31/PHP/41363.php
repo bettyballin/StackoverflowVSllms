@@ -1,0 +1,1 @@
+$array = array("$id", "$primary", "$secondary", "$eventContent", "$region");\necho json_encode($array);

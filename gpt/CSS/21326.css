@@ -1,1 +1,0 @@
-/* Apply box-sizing to all elements */\n*,\n*::before,\n*::after {\n  box-sizing: border-box;\n}

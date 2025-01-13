@@ -1,0 +1,1 @@
+declare @msg xml\nset @msg='<root><date>2009-05-09T13:50:59.6361485+08:00</date></root>'\nselect convert(datetime2, @msg.value(N'(//root/date/text())[1]','varchar(50)'))

@@ -1,0 +1,1 @@
+if (is_array($array) && count($array)) {\n    // safely process the array\n}

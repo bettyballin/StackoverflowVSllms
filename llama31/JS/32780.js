@@ -1,0 +1,1 @@
+// Create a Dropzone instance\nvar myDropzone = new Dropzone("div#myDropzone", {\n  url: "/upload", // Upload URL\n  maxFiles: 10, // Maximum number of files allowed\n  maxFilesize: 2, // Maximum file size in MB\n  acceptedFiles: ".jpg, .png, .gif" // Accepted file types\n});

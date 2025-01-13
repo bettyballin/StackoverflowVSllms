@@ -1,0 +1,1 @@
+XmlNodeList entityTypes = edmxFile.DocumentElement.SelectNodes("//*[local-name()='EntityType']", nsMan);

@@ -1,0 +1,1 @@
+ApiExposed apiObj = new ApiExposed();\nobject comWrapper = Marshal.CreateWrapperOfType(apiObj, typeof(ApiExposed));\n\nscript.AddObject("tbapi", comWrapper, true);

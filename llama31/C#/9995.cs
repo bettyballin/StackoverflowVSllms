@@ -1,0 +1,1 @@
+public partial class MainForm : Form\n{\n    private SessionTimeout _sessionTimeout;\n\n    public MainForm()\n    {\n        InitializeComponent();\n        _sessionTimeout = new SessionTimeout();\n    }\n\n    private void button1_Click(object sender, EventArgs e)\n    {\n        _sessionTimeout.ResetTimer();\n        // Add code to handle button click here\n    }\n}

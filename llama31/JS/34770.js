@@ -1,0 +1,1 @@
+function canViewPdf() {\n  var pdf = new Blob([''], {type: 'application/pdf'});\n  return window.URL && window.URL.createObjectURL(pdf) !== null;\n}

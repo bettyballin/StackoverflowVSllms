@@ -1,1 +1,0 @@
-sqlcmd -S localhost -U SA -P 'YourStrong!Passw0rd'

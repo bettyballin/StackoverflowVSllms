@@ -1,0 +1,1 @@
+var textBox = (TextBox)Page.FindControl("txtTotalAmount");

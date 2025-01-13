@@ -1,0 +1,1 @@
+var chunkSize = 100;\nvar query = dbContext.MyTable.AsQueryable();\n\nfor (int i = 0; i < 6; i++)\n{\n    var chunk = query.Skip(i * chunkSize).Take(chunkSize).ToList();\n    // process the chunk\n}

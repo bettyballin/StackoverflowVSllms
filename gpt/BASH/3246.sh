@@ -1,1 +1,0 @@
-java -Xint -XX:-TieredCompilation -XX:CompileThreshold=1000000 YourClass

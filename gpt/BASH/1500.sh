@@ -1,1 +1,0 @@
-sudo service apache2 restart   # On Debian/Ubuntu\n    sudo systemctl restart httpd   # On CentOS/RedHat

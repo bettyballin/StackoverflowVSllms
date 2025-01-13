@@ -1,1 +1,0 @@
-# Download and run Gatling\n   brew install gatling\n   gatling.sh

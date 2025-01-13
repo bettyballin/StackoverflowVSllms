@@ -1,0 +1,1 @@
+SELECT translation\nFROM translations\nWHERE word_id = ? AND lang_id = ?;

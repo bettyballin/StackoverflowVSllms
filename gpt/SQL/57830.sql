@@ -1,1 +1,0 @@
-CREATE TABLE example_table (\n    column1 NUMBER,\n    column2 NUMBER,\n    column3 VARCHAR2(50),\n    CONSTRAINT pk_example PRIMARY KEY (column1, column2)\n);

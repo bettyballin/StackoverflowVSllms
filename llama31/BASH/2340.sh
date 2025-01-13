@@ -1,0 +1,1 @@
+if declare -f __git_ps1 > /dev/null; then\n  PS1='$(__git_ps1) '$PS1\nfi

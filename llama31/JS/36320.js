@@ -1,0 +1,1 @@
+const Fingerprint2 = require('fingerprintjs2');\n\nconst getUniqueIdentifier = () => {\n  const fp = new Fingerprint2();\n  return fp.get().then(result => result.visitorId);\n};

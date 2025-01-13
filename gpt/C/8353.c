@@ -1,1 +1,0 @@
-SQLPrepare(hstmt, (SQLCHAR*)"SELECT (CASE profile WHEN ? THEN 1 ELSE 2 END) AS profile_order FROM engine_properties;", SQL_NTS);\n    SQLBindParameter(hstmt, 1, SQL_PARAM_INPUT, SQL_C_WCHAR, SQL_WVARCHAR, 32, 0, "_default", 18, 16);\n    SQLExecute(hstmt);

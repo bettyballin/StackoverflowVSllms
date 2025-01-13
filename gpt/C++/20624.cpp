@@ -1,1 +1,0 @@
-// Pseudo code for custom loader\n   int LoadModuleWithDependencies(const char* moduleName) {\n       // Load module metadata\n       // Check dependencies\n       // Perform version checks\n       // Load dependencies first\n       // Finally, load the main module\n   }

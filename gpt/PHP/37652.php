@@ -1,1 +1,0 @@
-<?php\n// Assuming you have already calculated $width and $totalVotes\n$width = ($value / $votes) * 22;\n$totalVotes = $votes;\n\n$response = array(\n    'width' => $width,\n    'totalVotes' => $totalVotes\n);\n\necho json_encode($response);\n?>

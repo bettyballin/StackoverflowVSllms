@@ -1,1 +1,0 @@
-VBoxManage snapshot "Your VM Name" take "Initial Setup"

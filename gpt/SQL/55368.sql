@@ -1,1 +1,0 @@
-CREATE DATABASE Some_db \n   ON (FILENAME = 'C:\NewLocation\Some_db.mdf'),\n      (FILENAME = 'C:\NewLocation\Some_db_log.ldf')\n   FOR ATTACH

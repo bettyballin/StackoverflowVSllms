@@ -1,1 +1,0 @@
-OpenFileDialog openFileDialog = new OpenFileDialog();\nif (openFileDialog.ShowDialog() == DialogResult.OK)\n{\n    string fullPath = openFileDialog.FileName;\n    string fileName = System.IO.Path.GetFileName(fullPath);\n    PictureNameTextEdit.Text = fileName;\n}

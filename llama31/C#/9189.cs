@@ -1,0 +1,1 @@
+var distinctObjectNames = fieldList.Select(f => f.objectName).Distinct();

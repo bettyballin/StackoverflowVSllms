@@ -1,0 +1,1 @@
+.grid {\n  display: grid;\n  grid-template-columns: repeat(3, 1fr); /* 3 columns */\n  grid-gap: 10px; /* spacing between grid cells */\n}\n\n.grid img {\n  width: 100%; /* fill grid cell */\n}\n\n.grid a {\n  grid-column: 1 / -1; /* span all columns */\n  text-align: center; /* center links */\n}

@@ -1,0 +1,1 @@
+php tsmarty2c.php -o output.c your/template/directory

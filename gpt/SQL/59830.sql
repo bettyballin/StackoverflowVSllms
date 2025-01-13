@@ -1,1 +1,0 @@
-:r .\myfile.sql

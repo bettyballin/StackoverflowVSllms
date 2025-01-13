@@ -1,0 +1,1 @@
+class MyClass {\n    public function myMethod() {\n        // Do something and return data\n        return json_encode(array('message' => 'Hello, World!'));\n    }\n}

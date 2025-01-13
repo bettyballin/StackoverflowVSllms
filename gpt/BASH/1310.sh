@@ -1,1 +1,0 @@
-aws autoscaling create-auto-scaling-group --auto-scaling-group-name my-asg --launch-configuration-name my-launch-config --min-size 1 --max-size 10 --desired-capacity 2 --vpc-zone-identifier subnet-12345678

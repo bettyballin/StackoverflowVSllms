@@ -1,0 +1,1 @@
+WITH RECURSIVE outcome_tree AS (\n  SELECT id, parent_id, name, 0 AS level\n  FROM outcomes\n  WHERE parent_id IS NULL\n  UNION ALL\n  SELECT o.id, o.parent_id, o.name, level + 1\n  FROM outcomes o\n  JOIN outcome_tree p ON o.parent_id = p.id\n)\nSELECT * FROM outcome_tree;

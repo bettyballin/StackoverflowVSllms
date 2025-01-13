@@ -1,1 +1,0 @@
-<?php\nfunction gcd($a, $b) {\n    while ($b != 0) {\n        $t = $b;\n        $b = $a % $b;\n        $a = $t;\n    }\n    return $a;\n}\n\nfunction lcm($a, $b) {\n    return ($a * $b) / gcd($a, $b);\n}\n\nfunction euler5() {\n    $result = 1;\n    for ($i = 1; $i <= 20; $i++) {\n        $result = lcm($result, $i);\n    }\n    echo $result;\n}\n\neuler5();\n?>

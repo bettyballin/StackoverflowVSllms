@@ -1,0 +1,1 @@
+using System.Net.Http;\n\npublic class RestClient\n{\n    public string MakeGetRequest(string url)\n    {\n        using (var client = new HttpClient())\n        {\n            var response = client.GetAsync(url).Result;\n            return response.Content.ReadAsStringAsync().Result;\n        }\n    }\n}

@@ -1,1 +1,0 @@
-// Example:\n   // Profiling an algorithm to count the number of CPU instructions executed.

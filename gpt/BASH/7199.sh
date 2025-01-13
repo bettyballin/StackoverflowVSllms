@@ -1,1 +1,0 @@
-sudo mkdir -p /var/svn/repositories\n   sudo svnadmin create /var/svn/repositories/my_project\n   sudo chown -R www-data:www-data /var/svn/repositories/my_project

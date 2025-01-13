@@ -1,0 +1,1 @@
+public class Controller1 : Controller\n{\n    public ActionResult Action1()\n    {\n        // Call Action2 from Controller2\n        var controller2 = new Controller2();\n        return controller2.Action2();\n    }\n}\n\npublic class Controller2 : Controller\n{\n    public ActionResult Action2()\n    {\n        // Code for Action2\n    }\n}

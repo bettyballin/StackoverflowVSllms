@@ -1,0 +1,1 @@
+$("a.group").fancybox({\n  'frameWidth': 966,\n  'frameHeight': 547,\n  'hideOnContentClick': false,\n  'afterLoad': function() {\n    hover();\n  }\n});

@@ -1,0 +1,1 @@
+error_reporting(E_ALL);\nini_set('display_errors', 1);\nini_set('log_errors', 1);\nini_set('error_log', 'path/to/error.log');

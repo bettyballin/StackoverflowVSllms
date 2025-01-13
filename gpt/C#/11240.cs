@@ -1,1 +1,0 @@
-app.Use(async (context, next) =>\n    {\n        context.Response.Headers.Add("Content-Security-Policy", "default-src 'self'");\n        await next();\n    });

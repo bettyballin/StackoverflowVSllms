@@ -1,0 +1,1 @@
+string url = ResolveUrl("~/daily/panchang/");

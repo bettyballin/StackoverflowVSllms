@@ -1,1 +1,0 @@
-// Example of setting secure cookies\nHttpCookie sessionCookie = new HttpCookie("SessionID", sessionId);\nsessionCookie.HttpOnly = true;\nsessionCookie.Secure = true; // Ensure SSL/TLS is used\nResponse.Cookies.Add(sessionCookie);

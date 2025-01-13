@@ -1,0 +1,1 @@
+$(document).ready(function() {\n  $('#myForm').validate({\n    rules: {\n      myTextbox: {\n        pattern: /^[a-zA-Z0-9]+$/\n      }\n    },\n    messages: {\n      myTextbox: {\n        pattern: 'Only alphanumeric characters are allowed'\n      }\n    }\n  });\n});

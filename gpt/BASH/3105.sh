@@ -1,1 +1,0 @@
-cpan Email::Sender::Simple Email::Simple Email::Sender::Transport::SMTP::TLS

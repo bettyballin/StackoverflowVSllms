@@ -1,1 +1,0 @@
-char buffer[256]; // Fixed-size buffer with no extra memory overhead

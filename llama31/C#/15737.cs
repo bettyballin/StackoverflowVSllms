@@ -1,0 +1,1 @@
+using System.Diagnostics;\n\nint processId = 1234; // replace with the ID of the process you want to attach to\nProcess process = Process.GetProcessById(processId);

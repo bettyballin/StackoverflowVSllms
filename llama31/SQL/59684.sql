@@ -1,0 +1,1 @@
+SELECT A.column1, B.column2, C.column3\nFROM A\nJOIN B ON A.common_column = B.common_column\nJOIN C ON A.common_column = C.common_colum

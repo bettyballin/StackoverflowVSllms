@@ -1,1 +1,0 @@
--- Search in table and column names\nSELECT owner, table_name, column_name\nFROM dba_tab_columns\nWHERE UPPER(table_name) LIKE UPPER('%search string%')\n   OR UPPER(column_name) LIKE UPPER('%search string%');

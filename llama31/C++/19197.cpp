@@ -1,0 +1,1 @@
+while (pointer->Release() > 0);

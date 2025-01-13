@@ -1,0 +1,1 @@
+$birthday = new DateTime($aPersoonsgegevens['alg_persoonsgegevens_geboortedatum']);\n$today = new DateTime();\n$age = $today->diff($birthday)->y;

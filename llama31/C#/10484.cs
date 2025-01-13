@@ -1,0 +1,1 @@
+strTag = strTag.Normalize(NormalizationForm.FormD)\ntmp = tmp.Normalize(NormalizationForm.FormD)

@@ -1,0 +1,1 @@
+git clone git@your-repo-url.com:username/your-repo-name.git

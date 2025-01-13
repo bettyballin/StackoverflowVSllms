@@ -1,0 +1,1 @@
+if(!validateField(empName1))\n{\n    Alert.show("Error");\n}

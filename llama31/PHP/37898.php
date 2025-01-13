@@ -1,0 +1,1 @@
+$xml = new DOMDocument();\n$xml->load('yourfile.xml');\n\n$xpath = new DOMXPath($xml);\n$elements = $xpath->query("//message[@time='1248083838']");\n\nforeach ($elements as $element) {\n    $element->parentNode->removeChild($element);\n}\n\n$xml->save('yourfile.xml');

@@ -1,0 +1,1 @@
+If IsEmpty(Request.Form("myInput")) Then\n    ' Handle the case when the input field is blank\nElse\n    ' Handle the case when the input field is not blank\nEnd If

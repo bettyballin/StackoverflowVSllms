@@ -1,0 +1,1 @@
+use JMS\Serializer\SerializerBuilder;\n\n$serializer = SerializerBuilder::create()->build();\n\n$jsonData = // get JSON data from REST service\n\n$object = $serializer->deserialize($jsonData, 'MyObject', 'json');

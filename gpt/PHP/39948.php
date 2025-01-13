@@ -1,1 +1,0 @@
-<?php\n   use Magento\Framework\App\Config\ScopeConfigInterface;\n\n   $corporateUrl = $this->_scopeConfig->getValue('general/custom_links/corporate_website_url', \Magento\Store\Model\ScopeInterface::SCOPE_STORE);\n   echo $corporateUrl;\n   ?>

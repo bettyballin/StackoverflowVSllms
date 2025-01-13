@@ -1,0 +1,1 @@
+#define NAMED_OBJECT(name) \\n    public: \\n        const char* getName() const override { \\n            return #name; \\n        }\n\nclass MyObject : public NamedObject {\n    NAMED_OBJECT(MyObject)\n};

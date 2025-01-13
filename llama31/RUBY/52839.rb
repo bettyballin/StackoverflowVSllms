@@ -1,0 +1,1 @@
+class YourModel < ApplicationRecord\n  establish_connection(:development)\nend

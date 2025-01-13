@@ -1,1 +1,0 @@
-#!/bin/bash\n\n# Navigate to the directory containing your Java program\ncd /path/to/your/java/program\n\n# Use nohup to run the Java program in the background\nnohup java -jar your-program.jar > /path/to/your/logfile.log 2>&1 &\n\n# Save the process ID (PID) to a file so you can stop the program later\necho $! > /path/to/your/pidfile.pid

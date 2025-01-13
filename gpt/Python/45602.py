@@ -1,1 +1,0 @@
-print(dir(ole_object))

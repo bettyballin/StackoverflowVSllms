@@ -1,0 +1,1 @@
+WITH numbers AS (\n  SELECT LEVEL - 1 AS num\n  FROM DUAL\n  CONNECT BY LEVEL <= 365\n)\nSELECT SYSDATE - num AS date\nFROM numbers;

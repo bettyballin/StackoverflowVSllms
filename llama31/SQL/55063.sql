@@ -1,0 +1,1 @@
+sp_dropserver 'MyServerABC';\nGO\nsp_addserver 'MyServerDEF', local;\nGO

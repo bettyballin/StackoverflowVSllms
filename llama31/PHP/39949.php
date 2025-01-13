@@ -1,0 +1,1 @@
+$a = 1;\n$b = 2;\n\n$defined_vars = get_defined_vars();\nvar_export($defined_vars);

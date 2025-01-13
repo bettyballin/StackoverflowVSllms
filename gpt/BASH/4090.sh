@@ -1,1 +1,0 @@
-hg resolve -m test.h

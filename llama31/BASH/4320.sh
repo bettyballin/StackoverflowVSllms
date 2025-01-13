@@ -1,0 +1,1 @@
+curl -X POST \\n  https://example.com/path/to/resource \\n  -H 'Content-Type: application/x-www-form-urlencoded' \\n  -H 'Cookie: session=abc123' \\n  -d 'key1=value1&key2=value2'

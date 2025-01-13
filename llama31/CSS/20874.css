@@ -1,0 +1,1 @@
+.fixed-width-span {\n  display: inline-block;\n  width: 4ch; /* adjust this value to your needs */\n  text-align: left;\n}

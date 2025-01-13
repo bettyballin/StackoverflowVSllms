@@ -1,1 +1,0 @@
-wget https://github.com/inspircd/inspircd/archive/v3.11.0.tar.gz\n   tar -xzf v3.11.0.tar.gz\n   cd inspircd-3.11.0

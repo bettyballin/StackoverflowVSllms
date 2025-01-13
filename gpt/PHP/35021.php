@@ -1,1 +1,0 @@
-$object = $connection->query();\n    echo "ID: " . $object->getId() . "\n";\n    echo "Name: " . $object->getName() . "\n";

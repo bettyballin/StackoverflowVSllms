@@ -1,0 +1,1 @@
+string result = Path.Combine(@"C:\x", Path.TrimStart(@"\y", Path.DirectorySeparatorChar));

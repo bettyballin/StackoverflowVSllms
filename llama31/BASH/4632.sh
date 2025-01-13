@@ -1,0 +1,1 @@
+sqlcmd -S my_sql_server -U my_username -P my_password -Q "SELECT * FROM my_table"

@@ -1,1 +1,0 @@
-BaseClass baseRef;\nDerivedClass derivedObj = new DerivedClass();\n\n// Using base class reference\nbaseRef = derivedObj;\nbaseRef.Display(); // Output depends on whether override or new is used in DerivedClass\n\n// Using derived class reference\nderivedObj.Display(); // Always calls DerivedClass.Display()

@@ -1,0 +1,1 @@
+$tidy = new Tidy();\n$tidy->parseString($html, array(\n    Tidy::OPT_DROP_FONT_TAGS => false,\n));

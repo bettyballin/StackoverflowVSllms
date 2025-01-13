@@ -1,0 +1,1 @@
+string filter = "ID = '" + comboBox1.SelectedValue + "' AND TagID = '" + treeNode.Tag + "'";\nint index = bindingSource1.Find(filter);\nif (index != -1)\n{\n    bindingSource1.Position = index;\n}

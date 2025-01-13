@@ -1,0 +1,1 @@
+#Build model\nclf = MultinomialNB()\nclf.fit(train_X_vectors_transformed, train_y)

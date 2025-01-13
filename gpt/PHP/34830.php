@@ -1,1 +1,0 @@
-// Convert dollars to cents\n   $dollars = 100.45;\n   $cents = $dollars * 100;\n\n   // Perform calculations in cents\n   $totalCents = $cents + 20055;\n\n   // Convert back to dollars\n   $totalDollars = $totalCents / 100;\n   echo number_format($totalDollars, 2); // Outputs: 301.00

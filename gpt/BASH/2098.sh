@@ -1,1 +1,0 @@
-chmod +x /path/to/cgi-bin/decision_handler.py

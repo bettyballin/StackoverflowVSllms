@@ -1,0 +1,1 @@
+string input = "Ω π ℵ ∞ ♣ ♥ ♈ ♉ ♊ ♋ ♌ ♍ ♎ ♏ ♐ ♑ ♒ ♓";\nstring encoded = HtmlEncoder.EncodeSpecialChars(input);

@@ -1,1 +1,0 @@
-tidy -m -i -q legacy.html

@@ -1,0 +1,1 @@
+FROM incidents sec_inc\nFROM cause_attack sec_catk\nFROM obscure_table app_obt

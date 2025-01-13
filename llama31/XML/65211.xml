@@ -1,0 +1,1 @@
+<Reference Include="YourUserControl" Condition="'$(Configuration)' == 'Debug'">\n  <HintPath>..\YourUserControl\bin\Debug\YourUserControl.dll</HintPath>\n</Reference>\n<Reference Include="YourUserControl" Condition="'$(Configuration)' == 'Release'">\n  <HintPath>..\YourUserControl\bin\Release\YourUserControl.dll</HintPath>\n</Reference>

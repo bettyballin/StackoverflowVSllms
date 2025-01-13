@@ -1,1 +1,0 @@
-/* Apply box-sizing globally */\n*,\n*::before,\n*::after {\n    box-sizing: border-box;\n}\n\n.element {\n    width: 200px; /* Total width including padding and border */\n    padding: 20px;\n    margin: 10px;\n    border: 5px solid #000;\n}

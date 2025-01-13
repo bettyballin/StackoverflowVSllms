@@ -1,0 +1,1 @@
+// Retrieve all items collected by a user\n$user_id = 1;\n$result = $conn->query("SELECT i.item_name FROM items i JOIN user_items ui ON i.item_id = ui.item_id WHERE ui.user_id = '$user_id'");\nwhile($row = $result->fetch_assoc()) {\n  echo $row["item_name"] . "\n";\n}

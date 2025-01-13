@@ -1,1 +1,0 @@
-wbadmin get versions -backupTarget:<BackupLocation> -machine:<ComputerName>

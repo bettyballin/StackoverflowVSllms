@@ -1,0 +1,1 @@
+for ($i = 0; $row2 = pg_fetch_row($result_tags); $i++) {\n    // do something with $row2\n}

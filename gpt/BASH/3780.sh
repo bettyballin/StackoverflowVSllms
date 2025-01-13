@@ -1,1 +1,0 @@
-dd if=/dev/zero of=largefile bs=1M count=5120

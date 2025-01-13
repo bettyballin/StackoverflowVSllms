@@ -1,0 +1,1 @@
+.example {\n  background-color: var(--clean-color);\n  color: var(--error-color);\n  border-color: var(--warning-color);\n}

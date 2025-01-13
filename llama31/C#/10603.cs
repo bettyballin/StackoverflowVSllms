@@ -1,0 +1,1 @@
+// Using Windows Media Services (WMS) or IIS Media Services\nstring mediaServerUrl = "http://your-media-server.com/video.wmv";

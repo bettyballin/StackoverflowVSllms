@@ -1,1 +1,0 @@
--- Export data from SQLite\nsqlite3 db.sqlite .dump > db.sql\n\n-- Import data into MySQL\nmysql -u username -p database_name < db.sql

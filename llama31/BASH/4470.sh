@@ -1,0 +1,1 @@
+icacls C:\path\to\directory /restore aclfile.txt

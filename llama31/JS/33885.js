@@ -1,0 +1,1 @@
+// Get all marquee elements\nconst marquees = document.querySelectorAll('marquee');\n\n// Replace each marquee with a span\nmarquees.forEach((marquee) => {\n  const span = document.createElement('span');\n  span.innerHTML = marquee.innerHTML;\n  marquee.parentNode.replaceChild(span, marquee);\n});

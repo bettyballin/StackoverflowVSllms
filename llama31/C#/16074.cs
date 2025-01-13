@@ -1,0 +1,1 @@
+public bool HasABCAttribute()\n{\n    var attributes = typeof(MyClass).GetField("textBox1").GetCustomAttributes(typeof(ABCAttribute), false);\n    return attributes.Length > 0;\n}

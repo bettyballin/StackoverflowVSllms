@@ -1,1 +1,0 @@
-# Install DOSBox\nsudo apt-get install dosbox\n\n# Create a directory for your DOS programs\nmkdir ~/dosprog\n\n# Start DOSBox and mount the directory\ndosbox\nmount c ~/dosprog\nc:

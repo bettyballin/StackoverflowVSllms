@@ -1,1 +1,0 @@
-CREATE TABLE transactions (\n       id INT AUTO_INCREMENT PRIMARY KEY,\n       amount_in_cents INT NOT NULL,\n       description VARCHAR(255)\n   );

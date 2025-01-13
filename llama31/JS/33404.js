@@ -1,0 +1,1 @@
+url = url + "?cmd=GetEmployee&sid=" + Math.random();

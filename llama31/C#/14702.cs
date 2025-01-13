@@ -1,0 +1,1 @@
+public class FooChildSpecial\n{\n    public FooChildBase BaseChild { get; set; }\n    public string SpecialChildInfo { get; set; }\n\n    public FooChildSpecial(FooChildBase baseChild)\n    {\n        BaseChild = baseChild;\n    }\n}

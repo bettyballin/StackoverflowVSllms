@@ -1,1 +1,0 @@
-composer require scrivo/highlight.php

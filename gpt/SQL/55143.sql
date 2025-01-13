@@ -1,1 +1,0 @@
-SELECT \n    c.name AS ColumnName,\n    cc.definition AS ComputedFormula\nFROM \n    syscolumns c\nJOIN \n    syscomputedcolumns cc ON c.id = cc.id AND c.colid = cc.colid\nWHERE \n    c.id = OBJECT_ID('your_table_name')

@@ -1,0 +1,1 @@
+l_DbConnection = new OleDbConnection("provider=Microsoft.ACE.OLEDB.12.0; data source=\"" + l_importFileName + "\";Extended Properties=Excel 12.0;");

@@ -1,1 +1,0 @@
-using ChartPlotter;\n\n// Initialize the ChartPlotter control\nvar chartPlotter = new ChartPlotterControl();\n\n// Load the BSB chart\nchartPlotter.LoadChart("path_to_your_bsb_file.kap");\n\n// Display the control in your form\nthis.Controls.Add(chartPlotter);

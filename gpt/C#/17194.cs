@@ -1,1 +1,0 @@
-ReadOnlyCollection<string> readOnlyList = new ReadOnlyCollection<string>(new List<string>());

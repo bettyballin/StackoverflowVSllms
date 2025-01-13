@@ -1,0 +1,1 @@
+$(document).ready(function(){\n  $('#phone').mask('(000) 000-0000 Ext. 00000');\n  $('#date').mask('00/00/0000');\n});

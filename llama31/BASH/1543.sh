@@ -1,0 +1,1 @@
+sqlcmd -S <your_sql_server_instance> -d <your_database_name> -i export.sql

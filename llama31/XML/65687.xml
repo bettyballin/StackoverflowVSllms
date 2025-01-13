@@ -1,0 +1,1 @@
+<servlet-mapping>\n    <servlet-name>RmiServlet</servlet-name>\n    <url-pattern>/rmi/*</url-pattern>\n</servlet-mapping>

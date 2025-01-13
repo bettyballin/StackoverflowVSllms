@@ -1,0 +1,1 @@
+import os\n\n# Get the current working directory\ncurrent_dir = os.getcwd()\n\n# Construct the path to the file\nfile_path = os.path.join(current_dir, 'foo.py')\n\n# Use the file path\nwith open(file_path, 'r') as f:\n    # Do something with the file\n    pass

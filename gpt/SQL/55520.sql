@@ -1,1 +1,0 @@
-EXEC InsertContacts 1, 'A', 'dummy', 'B', 'sam';

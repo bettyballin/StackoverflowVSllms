@@ -1,1 +1,0 @@
-static void Main(string[] args)\n{\n    var converter = new TiffToPdfConverter();\n    converter.ConvertTiffToPdf("path/to/your/multipage.tiff", "path/to/output.pdf");\n}

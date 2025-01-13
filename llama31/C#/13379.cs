@@ -1,0 +1,1 @@
+var curs = xmlDoc.SelectNodes("/frbny:DataSet/frbny:Series/frbny:Key/frbny:CURR", manager);\nvar values = xmlDoc.SelectNodes("/frbny:DataSet/frbny:Series/frbny:Obs/frbny:OBS_VALUE", manager);

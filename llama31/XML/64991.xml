@@ -1,0 +1,1 @@
+<property name="MyBoolProperty" type="bool">\n    <column name="MY_BOOL_COLUMN" />\n    <converter class="MyApp.OracleBoolConverter, MyApp" />\n</property>

@@ -1,0 +1,1 @@
+DEFINE os = '&_O_VERSION'\nIF '&os' LIKE '%MSWIN%' THEN\n  @%ORACLE_HOME%/rdbms/admin/utlrp.sql\nELSE\n  @$ORACLE_HOME/rdbms/admin/utlrp.sql\nEND IF;

@@ -1,1 +1,0 @@
-# Download and install OWASP ZAP\nsudo apt-get install zaproxy\n\n# Start OWASP ZAP\nzap.sh\n\n# Run a basic scan from the command line\nzap-cli quick-scan --self-contained --start-options '-config api.key=yourapikey' http://yourwebsite.com

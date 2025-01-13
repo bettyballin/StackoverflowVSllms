@@ -1,0 +1,1 @@
+$conn = new mysqli($servername, $username, $password, $dbname);\n\nif ($conn->connect_error) {\n    die("Connection failed: " . $conn->connect_error);\n}\n\n$stmt = $conn->prepare("UPDATE qotwVote1a SET Vote1a = ? WHERE QuestionId = ? AND MemberId = ?");\n$stmt->bind_param("iis", $newVote, $questionId, $id);\n$stmt->execute();\n\n$stmt->close();\n$conn->close();

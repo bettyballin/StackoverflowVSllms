@@ -1,0 +1,1 @@
+int sumFirstThree = Enumerable.Range(0, 3).Select(i => intList.ElementAt(i)).Sum();\nint sumLastThree = Enumerable.Range(3, 3).Select(i => intList.ElementAt(i)).Sum();

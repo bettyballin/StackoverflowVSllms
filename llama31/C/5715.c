@@ -1,0 +1,1 @@
+WaitForSingleObject\n   GetExitCodeProcess

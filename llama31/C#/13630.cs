@@ -1,0 +1,1 @@
+// Controllers/YourController.cs\n[HttpPost]\npublic ActionResult YourAction(Client model)\n{\n    // ...\n}

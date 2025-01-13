@@ -1,1 +1,0 @@
-class MyClass {\n    public function myMethod() {\n        return "Hello, World!";\n    }\n}\n\n$array = [new MyClass(), new MyClass(), new MyClass()];\n\n$array2 = array_map(function($obj) {\n    return $obj->myMethod();\n}, $array);\n\nprint_r($array2);

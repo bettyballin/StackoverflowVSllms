@@ -1,0 +1,1 @@
+// GET /transactions/{transactionId}\n[HttpGet]\npublic TransactionStatus GetTransactionStatus(string transactionId) { ... }\n\n// POST /transactions\n[HttpPost]\npublic Transaction CreateTransaction(TransactionData data) { ... }

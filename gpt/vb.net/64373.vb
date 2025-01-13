@@ -1,1 +1,0 @@
-Select Case 2\n    Case 0\n        ' Some logic\n\n    Case 1\n        ' Some other logic\n\n    Case 2, 3\n        Console.WriteLine("hit")\n\nEnd Select

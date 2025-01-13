@@ -1,1 +1,0 @@
-using System.IO.IsolatedStorage;\n\n   public void IncreaseIsolatedStorageQuota()\n   {\n       IsolatedStorageFile isolatedStorageFile = IsolatedStorageFile.GetUserStoreForAssembly();\n       if (isolatedStorageFile.Quota < 16 * 1024 * 1024) // 16MB\n       {\n           isolatedStorageFile.IncreaseQuotaTo(16 * 1024 * 1024);\n       }\n   }

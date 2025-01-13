@@ -1,1 +1,0 @@
-// Initialize and test caching\nset_cache('test_key', 'test_value', 3600);\n$cached_value = get_cache('test_key');\n\nif ($cached_value) {\n    echo "Cache hit: " . $cached_value;\n} else {\n    echo "Cache miss";\n}

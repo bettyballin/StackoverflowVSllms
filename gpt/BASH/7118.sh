@@ -1,1 +1,0 @@
-// Example of setting CPU affinity in a Linux environment\n   # To assign CPU 0 to RTOS and CPU 1 to non-RTOS\n   taskset -c 0 rtos_application\n   taskset -c 1 non_rtos_applicatio

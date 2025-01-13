@@ -1,0 +1,1 @@
+sqlite3 your_database.db\n.read export.sqlite3.sql

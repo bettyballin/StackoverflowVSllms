@@ -1,0 +1,1 @@
+SELECT\n  main.*\nFROM\n  main\nLEFT JOIN\n  child1\nON\n  main.id = child1.main_id AND child1.name = 'child1'\nLEFT JOIN\n  child2\nON\n  main.id = child2.main_id AND child2.name = 'DOES NOT EXIST';

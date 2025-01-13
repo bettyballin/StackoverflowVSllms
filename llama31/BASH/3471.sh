@@ -1,0 +1,1 @@
+$ valac hello.vala -o hello.c\n$ gcc hello.c -o hello\n$ ./hello\nHello, World!

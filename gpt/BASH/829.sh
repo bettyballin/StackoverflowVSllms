@@ -1,1 +1,0 @@
-mage -update <path_to_your_application_manifest_file> -certFile <path_to_your_certificate_file> -password <certificate_password>\n   mage -update <path_to_your_deployment_manifest_file> -appManifest <path_to_your_application_manifest_file> -certFile <path_to_your_certificate_file> -password <certificate_password>

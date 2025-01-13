@@ -1,0 +1,1 @@
+public partial class MyPage : System.Web.UI.Page\n{\n    private int _elapsedSeconds = 0;\n\n    protected void Timer1_Tick(object sender, EventArgs e)\n    {\n        _elapsedSeconds++;\n        if (_elapsedSeconds >= 60) // 1 minute\n        {\n            Timer1.Enabled = false;\n        }\n    }\n}

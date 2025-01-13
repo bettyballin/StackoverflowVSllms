@@ -1,0 +1,1 @@
+BEGIN TRY\n    INSERT INTO tblProducts (ProductCode) VALUES ('12345')\nEND TRY\nBEGIN CATCH\n    IF ERROR_NUMBER() = 2627\n    BEGIN\n        -- Handle duplicate key\n    END\nEND CATCH

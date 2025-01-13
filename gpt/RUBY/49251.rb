@@ -1,1 +1,0 @@
-# Use includes to avoid N+1 queries\n   @photos = Photo.includes(:comments).all

@@ -1,0 +1,1 @@
+# Create a snapshot of the registry on the healthy machine\nregshot -s healthy-machine-registry.txt\n\n# Create a snapshot of the registry on the unhealthy machine\nregshot -s unhealthy-machine-registry.txt\n\n# Compare the two snapshots\nregshot -c healthy-machine-registry.txt unhealthy-machine-registry.txt > diff.txt

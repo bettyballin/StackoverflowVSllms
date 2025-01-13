@@ -1,0 +1,1 @@
+jstat -gc <PID> 1s > memory_usage.txt

@@ -1,1 +1,0 @@
-// module.config.php\n   return [\n       'db' => [\n           'driver' => 'Pdo_Mysql',\n           'dsn' => 'mysql:dbname=your_database_name;host=your_host',\n           'username' => 'your_username',\n           'password' => 'your_password',\n           'charset' => 'utf8mb4',\n       ],\n   ];

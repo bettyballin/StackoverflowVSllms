@@ -1,0 +1,1 @@
+HRESULT OnReceive(SAFEARRAY* pData);

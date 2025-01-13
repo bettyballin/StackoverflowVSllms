@@ -1,0 +1,1 @@
+public class MyClass\n{\n    private string _bar;\n\n    public string Foo { get; private set; } // readonly property\n\n    public MyClass(string bar)\n    {\n        _bar = bar;\n        Foo = bar; // initialize readonly property\n    }\n\n    // Avoid using a function like this:\n    // public string GetFoo() { return _bar; }\n}

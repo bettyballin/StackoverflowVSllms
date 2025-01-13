@@ -1,1 +1,0 @@
-// Example:\n$str = "bla bla here is my string";\n$utf8_length = mb_strlen($str, 'UTF-8'); // Specify 'UTF-8' encoding\necho $utf8_length;

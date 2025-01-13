@@ -1,1 +1,0 @@
-#include <curses.h>\n\n    int main() {\n        initscr();            // Initialize the screen\n        cbreak();             // Disable line buffering\n        noecho();             // Don't echo key presses to the screen\n\n        // Your code here\n\n        endwin();             // End curses mode\n        return 0;\n    }

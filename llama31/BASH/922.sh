@@ -1,0 +1,1 @@
+sudo apt-get update\nsudo apt-get install python2.7

@@ -1,0 +1,1 @@
+// invalidate cache entries for updated data\ncache.Invalidate("MyTable:MyColumn");

@@ -1,0 +1,1 @@
+$json = '{"type": "text", "$t": "Miley and Mandy! KCA VIDEO WINNERS"}';\n$obj = json_decode($json);\necho $obj->{'$t'}; // outputs "Miley and Mandy! KCA VIDEO WINNERS"

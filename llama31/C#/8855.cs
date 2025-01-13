@@ -1,0 +1,1 @@
+public class MyClass\n{\n    public void GetBaseType()\n    {\n        Type myType = typeof(MyClass);\n        Type baseType = myType.BaseType;\n        Console.WriteLine(baseType.Name);\n    }\n}

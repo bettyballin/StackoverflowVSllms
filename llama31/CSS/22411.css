@@ -1,0 +1,1 @@
+#wrapper {\n  display: flex;\n  flex-direction: column;\n  background: #000;\n  width: 50%;\n  float: left;\n}\n\n#box1 {\n  background: #FF0012;\n  width: 65%;\n  flex-shrink: 0;\n}\n\n#box2 {\n  background: #141;\n  width: 35%;\n  flex-grow: 1;\n}\n\n#box3 {\n  background: #AA1232;\n  width: 35%;\n  margin-top: auto; /* push to bottom */\n}

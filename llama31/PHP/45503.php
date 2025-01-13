@@ -1,0 +1,1 @@
+$uglyNumbers = file('uglynumber.txt');\n\nforeach ($uglyNumbers as $line) {\n    $line = preg_replace('/[, ]/', '', $line);\n    preg_match('/\d{9}/', $line, $matches);\n    echo $matches[0] . "\n";\n}

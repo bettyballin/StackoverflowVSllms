@@ -1,1 +1,0 @@
-@echo off\n    setlocal\n    set GCC_PATH=C:\path\to\gcc\n    set PATH=%GCC_PATH%;%PATH%\n    gcc -o %1 %2\n    endlocal

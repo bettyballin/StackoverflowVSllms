@@ -1,0 +1,1 @@
+$xml = simplexml_load_string($xml_results);\nif ($xml === false) {\n    echo "Error parsing XML";\n} else {\n    foreach ($xml->Property as $property) {\n        echo $property->Name . "\n";\n    }\n}

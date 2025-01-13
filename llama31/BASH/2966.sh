@@ -1,0 +1,1 @@
+gcc -Wconversion -Wno-sign-conversion example.cpp

@@ -1,0 +1,1 @@
+[WebService]\npublic class MyService : WebService\n{\n    [WebMethod]\n    public string MyMethod(int param1, string param2)\n    {\n        // implementation\n    }\n}

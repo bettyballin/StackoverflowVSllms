@@ -1,1 +1,0 @@
-<?php\n// Read and parse the config.ini file\n$config = parse_ini_file('config.ini');\n\n// Print the resulting array\nprint_r($config);\n?>

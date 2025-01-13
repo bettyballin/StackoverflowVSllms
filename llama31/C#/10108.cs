@@ -1,0 +1,1 @@
+public class MyWebTest : WebTest\n{\n    public override void PreRequest(object sender, PreRequestEventArgs e)\n    {\n        e.Request.Headers.Add(new WebTestRequestHeader("Cache-Control", "no-cache"));\n    }\n}

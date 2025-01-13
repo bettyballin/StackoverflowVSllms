@@ -1,0 +1,1 @@
+XmlNode locationNode = personNode.SelectSingleNode("ancestor::root/descendant::location[name = current()/name]");

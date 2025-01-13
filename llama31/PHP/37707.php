@@ -1,0 +1,1 @@
+$formatted_time = date('g:i A', strtotime($your_time_field));

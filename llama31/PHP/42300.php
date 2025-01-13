@@ -1,0 +1,1 @@
+header('Content-Type: text/csv; charset=UTF-8');\nheader('Content-Disposition: attachment; filename="example.csv"');\n\n// Output the CSV data\necho "Numéro 1";

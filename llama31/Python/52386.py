@@ -1,0 +1,1 @@
+import libxml2\nimport urllib\n\ndoc = libxml2.parseDoc(\n        urllib.urlopen('http://somemagicwebservice.com/').read())\nctxt = doc.xpathNewContext()\nlistitems = ctxt.xpathEval('//List/ListItem')\nfor item in listitems:\n    title = item.xpathEval('.//ItemAttributes/Title')\n    asin = item.xpathEval('.//Item/ASIN')\nctxt.xpathFreeContext()\ndoc.freeDoc()

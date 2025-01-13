@@ -1,0 +1,1 @@
+import pyproj\n\n# Define the UTM zone (e.g., 32N)\nutm_zone = "32N"\n\n# Define the Latitude/Longitude coordinates\nlat = 40.7128\nlon = -74.0060\n\n# Create a Proj.4 projector\nproj = pyproj.Proj(proj="utm", zone=utm_zone, ellps="WGS84")\n\n# Convert Latitude/Longitude to UTM\nx, y = proj(lon, lat)\n\nprint(f"UTM coordinates: x={x:.2f}, y={y:.2f}")

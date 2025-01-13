@@ -1,0 +1,1 @@
+# Install Postfix on Ubuntu/Debian\nsudo apt-get install postfix\n\n# Configure Postfix to receive emails for your domain\nsudo postconf -e "mydestination = domain.com"\n\n# Restart Postfix\nsudo service postfix restart

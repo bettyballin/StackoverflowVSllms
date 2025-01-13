@@ -1,0 +1,1 @@
+.label-container {\n  position: relative;\n  width: 800px; /* adjust to your paper size */\n  height: 600px; /* adjust to your paper size */\n}\n\n.label {\n  position: absolute;\n  padding: 5px;\n  border: 1px solid #ccc;\n}

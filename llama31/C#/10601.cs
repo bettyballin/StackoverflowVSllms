@@ -1,0 +1,1 @@
+using (var db = new YourDataContext())\n{\n    var existingRecord = db.YourTable\n        .Where(x => x.Column1 == model.Column1 && x.Column2 == model.Column2)\n        .FirstOrDefault();\n\n    if (existingRecord != null)\n    {\n        // Handle duplicate record\n    }\n    else\n    {\n        // Insert new record\n    }\n}

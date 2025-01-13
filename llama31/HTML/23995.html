@@ -1,0 +1,1 @@
+<form action="${url('/users/update/${user.id}')}" method="post">\n    <label for="name">Name:</label>\n    <input type="text" id="name" name="name" value="${user.name}" />\n    <label for="email">Email:</label>\n    <input type="email" id="email" name="email" value="${user.email}" />\n    <input type="submit" value="Update" />\n</form>

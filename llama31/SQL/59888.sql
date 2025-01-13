@@ -1,0 +1,1 @@
+ANALYZE page;\nANALYZE pagelinks;

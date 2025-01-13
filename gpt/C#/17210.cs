@@ -1,1 +1,0 @@
-using (var reader = new StreamReader(csvFilePath))\n   using (var csv = new CsvReader(reader, CultureInfo.InvariantCulture))\n   {\n       var records = csv.GetRecords<dynamic>().ToList();\n   }

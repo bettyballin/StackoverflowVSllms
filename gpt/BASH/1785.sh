@@ -1,1 +1,0 @@
-svn resolve --accept=working conflicted_file.py\n   svn commit -m "Resolved conflicts"

@@ -1,0 +1,1 @@
+import os\nimport sys\npath = sys.argv[1]\nfor file in os.listdir(path):\n    print(file)

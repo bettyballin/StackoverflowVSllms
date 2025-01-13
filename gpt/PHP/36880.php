@@ -1,1 +1,0 @@
-$config['log_threshold'] = 1; // Enable error logging\n   $config['log_path'] = ''; // Default log path

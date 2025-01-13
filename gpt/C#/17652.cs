@@ -1,1 +1,0 @@
-[DataContract]\npublic class SuccessResponse\n{\n    [DataMember]\n    public string Message { get; set; }\n}\n\n[DataContract]\npublic class ErrorResponse\n{\n    [DataMember]\n    public string ErrorMessage { get; set; }\n}

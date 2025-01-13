@@ -1,0 +1,1 @@
+from functools import reduce\n\nprint(reduce(lambda x, y: x or y, [True, True, False]))  # Output: True\nprint(reduce(lambda x, y: x or y, [False, False, False]))  # Output: False

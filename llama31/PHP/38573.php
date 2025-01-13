@@ -1,0 +1,1 @@
+use Zend_Validate;\n\n// Get the input value\n$inputValue = $this->_request->getPost('this');\n\n// Create a validator\n$validator = new Zend_Validate_StringLength(array('min' => 5, 'max' => 20));\n\n// Validate the input value\nif (!$validator->isValid($inputValue)) {\n    // Input is invalid\n    $errors = $validator->getMessages();\n    // Handle errors\n}

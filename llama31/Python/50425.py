@@ -1,0 +1,1 @@
+def count_sum_combinations(n):\n    dp = [0] * (n + 1)\n    dp[0] = 1  # base case: one way to write 0 as a sum of at least two positive integers\n    for i in range(1, n + 1):\n        for j in range(1, i):\n            dp[i] += dp[j] * dp[i - j]\n    return dp[n]

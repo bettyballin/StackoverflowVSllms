@@ -1,0 +1,1 @@
+wget --mirror --convert-links --no-parent http://example.com

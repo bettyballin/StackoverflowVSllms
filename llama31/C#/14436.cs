@@ -1,0 +1,1 @@
+var innerQuery = from b in db.TableB\n                 join c in db.TableC on b.Id equals c.Id\n                 select b.xx;\n\nvar result = from a in db.TableA\n             where innerQuery.Contains(a.Id)\n             select new { a.Id, a.Name };

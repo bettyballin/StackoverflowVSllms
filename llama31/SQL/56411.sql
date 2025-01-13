@@ -1,0 +1,1 @@
+BEGIN;\n\nINSERT INTO groups (name) VALUES ('new group') RETURNING id AS group_id;\nINSERT INTO users (name, group_id) VALUES ('new user', group_id);\n\nCOMMIT;

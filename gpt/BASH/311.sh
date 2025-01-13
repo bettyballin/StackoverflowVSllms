@@ -1,1 +1,0 @@
-java -Djavax.net.ssl.trustStore=path/to/your/local/truststore -Djavax.net.ssl.trustStorePassword=password YourMainClass

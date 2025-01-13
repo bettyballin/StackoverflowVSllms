@@ -1,1 +1,0 @@
-<?php\n$array = array("string1", "string2", "string3", "string4");\n$filteredArray = array();\n\nforeach ($array as $index => $value) {\n    if ($index % 2 != 0) {\n        $filteredArray[] = $value;\n    }\n}\n\nprint_r($filteredArray);\n?>

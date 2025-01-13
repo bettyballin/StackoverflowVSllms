@@ -1,0 +1,1 @@
+# Generate a public-private key pair\nssh-keygen -t rsa -b 2048\n\n# Copy the public key to the remote machine\nssh-copy-id user@remote-machine

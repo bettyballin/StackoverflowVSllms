@@ -1,0 +1,1 @@
+SELECT CONVERT(NVARCHAR(10), order_date, 103) AS formatted_order_date\nFROM orders;

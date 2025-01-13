@@ -1,1 +1,0 @@
-$result = $result ?? check1();\n$result = $result ?? check2();\n$result = $result ?? "default";

@@ -1,0 +1,1 @@
+from pygments import highlight\nfrom pygments.lexers import PythonLexer\nfrom pygments.formatters import HtmlFormatter\n\ncode = """\nprint("Hello, World!")\n"""\n\nformatter = HtmlFormatter()\nlexer = PythonLexer()\nresult = highlight(code, lexer, formatter)\n\nprint(result)

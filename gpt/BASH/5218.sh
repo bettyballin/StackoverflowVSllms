@@ -1,1 +1,0 @@
-sudo rpm --import http://opensource.wandisco.com/RPM-GPG-KEY-WANdisco

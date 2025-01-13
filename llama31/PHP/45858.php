@@ -1,0 +1,1 @@
+// Before\n$string = '/<meta[^>]*name=["|\']description["|\'][^>]*content=["|\'](.*)["|\']\s*\/>/Ui';\n\n// After\n$string = '/<meta[^>]*name=["|\']description["|\'][^>]*content=["|\'](.*?)["|\']\s*\/>/i';

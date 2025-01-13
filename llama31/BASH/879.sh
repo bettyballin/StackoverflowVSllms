@@ -1,0 +1,1 @@
+gpg --encrypt --recipient <your_email> <file_to_encrypt>

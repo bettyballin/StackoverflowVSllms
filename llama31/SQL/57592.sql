@@ -1,0 +1,1 @@
+SELECT ID, Col1, Col2, Col3, \n       IIF(Col1 <= Col2 AND Col1 <= Col3, Col1, \n           IIF(Col2 <= Col1 AND Col2 <= Col3, Col2, Col3)) AS TheMin\nFROM YourTable;

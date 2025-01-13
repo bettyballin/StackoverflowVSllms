@@ -1,0 +1,1 @@
+string page = Request.ApplicationPath + "/ApkRapportPage.aspx?dummy=1";\nResponse.Write("<script language=\"javascript\">window.open('" + page + "','_new');</script>");

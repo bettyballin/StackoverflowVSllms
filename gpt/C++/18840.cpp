@@ -1,1 +1,0 @@
-#include <iostream>\n\nint main() {\n    // Allocate array on the heap\n    int* HR = new(std::nothrow) int[32487834];\n    \n    if (HR == nullptr) {\n        std::cerr << "Memory allocation failed!" << std::endl;\n        return 1;\n    }\n\n    // Use the array...\n\n    // Don't forget to free the allocated memory\n    delete[] HR;\n\n    return 0;\n}

@@ -1,1 +1,0 @@
-__asm__(".att_syntax prefix");\n__asm__("movl $0x1234,0xdeadbeef");\n\n__asm__(".att_syntax noprefix");\n__asm__("movl $0x1234,0xdeadbeef");\n\n// Parentheses are optional\n__asm__("movl $0x1234,(0xdeadbeef)");\n\n// Incorrect usage (will not compile)\n__asm__("movl $0x1234,$0xdeadbeef"); // Error\n__asm__("movl $0x1234,($0xdeadbeef)"); // Emits wrong code

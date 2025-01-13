@@ -1,1 +1,0 @@
-// Example: Remove the phone number element from the DOM\n$("#phone_number_<%= @phone_number.id %>").remove();

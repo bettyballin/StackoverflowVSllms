@@ -1,0 +1,1 @@
+using System.IO;\n\n// ...\n\nstring picturesFolder = Environment.GetFolderPath(Environment.SpecialFolder.MyPictures);\nstring imagePath = Path.Combine(picturesFolder, "image.jpg");\n\n// Create the image file\nusing (FileStream fs = new FileStream(imagePath, FileMode.Create))\n{\n    // Write the image data to the file\n}

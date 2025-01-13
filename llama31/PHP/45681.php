@@ -1,0 +1,1 @@
+// src/Controller/HelloController.php\n\nnamespace App\Controller;\n\nuse Symfony\Component\HttpFoundation\Response;\n\nclass HelloController\n{\n    public function hello()\n    {\n        return new Response('Hello World!');\n    }\n}

@@ -1,0 +1,1 @@
+SELECT COUNT(*) FROM MyTable WHERE IsActive = 1

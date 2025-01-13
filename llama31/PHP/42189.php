@@ -1,0 +1,1 @@
+$result = array_reduce($nodes, function ($carry, $node) {\n    if (empty($node['Child'])) {\n        $carry[$node['Category']['id']] = $node['Category']['name'];\n    }\n    return $carry;\n}, array());

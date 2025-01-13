@@ -1,0 +1,1 @@
+SqlConnection.ClearPool(new SqlConnection("Data Source=.;Initial Catalog=DBNAME;Integrated Security=True"));

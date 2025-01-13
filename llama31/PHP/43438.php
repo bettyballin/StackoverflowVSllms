@@ -1,0 +1,1 @@
+if ($row['firstname'] === null || $row['firstname'] === "") {\n    $row['firstname'] = "No Info";\n}\nif ($row['lastname'] === null || $row['lastname'] === "") {\n    $row['lastname'] = "No Info";\n}

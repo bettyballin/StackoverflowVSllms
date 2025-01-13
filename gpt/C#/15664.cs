@@ -1,1 +1,0 @@
-public ActionResult Index()\n{\n    ViewData["CurrentTab"] = "Home";\n    return View();\n}\n\npublic ActionResult About()\n{\n    ViewData["CurrentTab"] = "About";\n    return View();\n}\n\npublic ActionResult Contact()\n{\n    ViewData["CurrentTab"] = "Contact";\n    return View();\n}

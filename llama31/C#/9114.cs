@@ -1,0 +1,1 @@
+protected void Page_Load(object sender, EventArgs e)\n{\n    if (!IsPostBack)\n    {\n        InventoryDB.SelectCommand = "SELECT [Server], [Customer] FROM [Website] WHERE [Owner] = @Owner";\n        InventoryDB.SelectParameters.Add("Owner", UserManager.getCurrentUser(Request));\n    }\n}

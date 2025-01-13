@@ -1,0 +1,1 @@
+$string = 'first past/ going beyond & then turn';\n$delimiters = '/[\/,]| with |&/';\n$array = preg_split($delimiters, $string);\n$array = array_map('trim', $array);\nprint_r($array);

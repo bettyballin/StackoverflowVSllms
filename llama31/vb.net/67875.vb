@@ -1,0 +1,1 @@
+Dim currentRow As DataGridViewRow = Me.AssetDataGridView.CurrentRow\nDim newAsset As Asset = DirectCast(currentRow.DataBoundItem, Asset).Clone()\nDim oldAsset As Asset = DirectCast(currentRow.DataBoundItem, Asset)

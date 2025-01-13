@@ -1,0 +1,1 @@
+#include <stdio.h>\n\nint main() {\n    // Check for Jazelle support (ARMv6 and later)\n    unsigned int id;\n    asm volatile("mrc p15, 0, %0, c0, c0, 0" : "=r" (id));\n    if ((id >> 16) & 0xf == 0x6) {\n        printf("Jazelle supported\n");\n    } else {\n        printf("Jazelle not supported\n");\n    }\n    return 0;\n}

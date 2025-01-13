@@ -1,1 +1,0 @@
-WITH CountCTE AS (\n    SELECT ID, Color, COUNT(*) AS Count\n    FROM YourTable\n    GROUP BY ID, Color\n)\nSELECT t.ID, t.Color, t.Name, c.Count\nFROM YourTable t\nJOIN CountCTE c ON t.ID = c.ID AND t.Color = c.Color\nORDER BY c.Count DESC;

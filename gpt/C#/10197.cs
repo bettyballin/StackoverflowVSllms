@@ -1,1 +1,0 @@
-string connectionString = @"Provider=Microsoft.Jet.OLEDB.4.0;Data Source=|DataDirectory|\YourDatabase.mdb;Persist Security Info=False;";

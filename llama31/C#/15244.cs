@@ -1,0 +1,1 @@
+// Append search result to query string\nResponse.Redirect("SearchPage.aspx?searchResult=" + JsonConvert.SerializeObject(result));\n\n// Retrieve search result from query string\nstring queryString = Request.QueryString["searchResult"];\nif (!string.IsNullOrEmpty(queryString)) {\n    populatePageWithResult(JsonConvert.DeserializeObject(queryString));\n}

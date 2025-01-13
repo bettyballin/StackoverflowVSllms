@@ -1,1 +1,0 @@
--- Script to generate the schema and data for a single table\n-- Replace 'YourDatabase' with the source database name\n-- Replace 'YourTable' with the table name you want to transfer\n\n-- Step 1: Generate the schema\nUSE YourDatabase;\nGO\nEXEC sp_helptext 'YourTable';\nGO\n\n-- Step 2: Generate the data\nSELECT *\nINTO YourDatabase.dbo.YourTable_copy\nFROM YourTable;\nGO

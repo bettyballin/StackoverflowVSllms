@@ -1,1 +1,0 @@
-# Step 1: Synthesize the RTL code\nsynth_tool -f rtl_code.v -o design.bit\n\n# Step 2: Program the FPGA\nfpga_programmer -b design.bit -p /dev/fpga0\n\n# Step 3: Run the test\n./run_fpga_test

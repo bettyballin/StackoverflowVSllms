@@ -1,0 +1,1 @@
+import math\n\n# Assuming 10M operations in 1 second for O(n)\nbaseline_operations = 10 ** 7\n\n# Calculate the number of operations for O(n^2)\nn_squared_operations = math.sqrt(baseline_operations)\n\nprint(n_squared_operations)  # Output: approximately 3162.28

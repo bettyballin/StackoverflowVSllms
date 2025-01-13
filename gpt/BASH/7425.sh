@@ -1,1 +1,0 @@
-#!/bin/bash\n\n# Progress bar example\n(\n  for i in {1..100}; do\n    echo $i\n    sleep 0.1\n  done\n) | yad --progress --title="Progress Bar" --text="Processing..." --percentage=0\n\n# Form example\nyad --form --title="Input Form" --text="Enter your details" \\n  --field="Name" \\n  --field="Email" \\n  --field="Password:H"

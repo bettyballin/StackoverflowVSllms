@@ -1,0 +1,1 @@
+#sidebar {\n  width: 300px;\n  margin-right: -300px;\n  background: #33C;\n  float: right;  /* Add this line */\n}

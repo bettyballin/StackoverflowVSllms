@@ -1,0 +1,1 @@
+public class MyDbContext : DbContext\n{\n    public DbSet<MyEntity> MyEntities { get; set; }\n\n    protected override void OnModelCreating(DbModelBuilder modelBuilder)\n    {\n        modelBuilder.Entity<MyEntity>()\n            .ToTable("my_table")\n            .Property(e => e.MyProperty)\n            .HasColumnName("my_column");\n    }\n}

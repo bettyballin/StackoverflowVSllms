@@ -1,0 +1,1 @@
+public function testConstruct_ExpectsAnInstanceOfMyOtherObject() {\n    $notAnObject = 'foobar';\n    $this->expectException(TypeError::class);\n    $object = new Object($notAnObject);\n}

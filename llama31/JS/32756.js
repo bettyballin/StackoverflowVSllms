@@ -1,0 +1,1 @@
+function getParent(elem) {\n  var parent = elem.parentNode;\n  // Now you can use the parent variable\n  console.log(parent);\n}

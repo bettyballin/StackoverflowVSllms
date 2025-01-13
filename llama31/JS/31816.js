@@ -1,0 +1,1 @@
+tinyMCE.init({\n  // ... other options ...\n  forced_root_block: 'div',\n  // ... other options ...\n});

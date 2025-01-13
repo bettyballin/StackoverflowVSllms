@@ -1,1 +1,0 @@
-ScriptManager.RegisterClientScriptBlock(this, typeof(LeaveApproval), "ShowSuccess", "window.opener=self; self.close();", true);

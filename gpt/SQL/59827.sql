@@ -1,1 +1,0 @@
-SELECT \n    e.EmployeeName AS "Employee",\n    COUNT(et.TaskID) AS "Number of Tasks",\n    SUM(t.Duration) AS "Time Spent"\nFROM \n    Employees e\nJOIN \n    EmployeeTasks et ON e.EmployeeID = et.EmployeeID\nJOIN \n    Tasks t ON et.TaskID = t.TaskID\nWHERE \n    t.ProjectID = @ProjectID\nGROUP BY \n    e.EmployeeName;

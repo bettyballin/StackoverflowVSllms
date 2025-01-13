@@ -1,0 +1,1 @@
+// Save the user-created level\nstring levelName = "my_level.txt";\nstring levelContent = "..."; // level data as a string\ndevice.SaveFile(userLevelsPath + "/" + levelName, levelContent);

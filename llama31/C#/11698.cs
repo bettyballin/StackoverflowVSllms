@@ -1,0 +1,1 @@
+List<string> urls = new List<string>\n{\n    "/file1.aspx",\n    "/file2.aspx",\n    "/aFolder/file.aspx",\n    "/aFolder/file2.aspx",\n    "/bfolder/file.aspx",\n    "/bFolder/cFolder/file.aspx"\n};\n\nTreeParser parser = new TreeParser();\nList<TreeNode> nodes = parser.ParseUrls(urls);

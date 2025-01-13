@@ -1,1 +1,0 @@
-if ($('#element').is(':visible')) {\n    // Element is visible\n}

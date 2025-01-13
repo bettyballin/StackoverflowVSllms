@@ -1,0 +1,1 @@
+$query = "INSERT INTO `pagehit` (user_id, pageurl, timestamp)\nVALUES ('" . $userid . "', '" . $pageurl . "', NOW())";

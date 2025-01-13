@@ -1,0 +1,1 @@
+SELECT \n    a.identifier,\n    COALESCE(b.participant, '') as participant,\n    a.closedate as start\nFROM \n    performance a\n    LEFT OUTER JOIN performance b\n    ON a.identifier = b.identifier AND b.activity = 2\nWHERE \n    a.activity = 1 -- new\n    AND a.identifier NOT IN (SELECT identifier FROM performance WHERE activity = 4) --closed

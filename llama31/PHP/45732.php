@@ -1,0 +1,1 @@
+function obfuscate($input, $key) {\n    $output = '';\n    for ($i = 0; $i < strlen($input); $i++) {\n        $output .= chr(ord($input[$i]) ^ ord($key[$i % strlen($key)]));\n    }\n    return $output;\n}\n\nfunction unobfuscate($input, $key) {\n    return obfuscate($input, $key);\n}

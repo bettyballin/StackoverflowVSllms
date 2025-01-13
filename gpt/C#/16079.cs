@@ -1,1 +1,0 @@
-public class HtmlString\n{\n    public string Value { get; }\n\n    public HtmlString(string value)\n    {\n        Value = value;\n    }\n\n    public override string ToString()\n    {\n        return Value;\n    }\n}

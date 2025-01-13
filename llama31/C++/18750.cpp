@@ -1,0 +1,1 @@
+#include <iostream>\n\n// Define a function to clear the console\nvoid clearConsole() {\n    #ifdef _WIN32\n        // Windows\n        system("cls");\n    #else\n        // Linux\n        system("clear");\n    #endif\n}\n\nint main() {\n    clearConsole();\n    std::cout << "Console cleared!" << std::endl;\n    return 0;\n}

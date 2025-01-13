@@ -1,0 +1,1 @@
+import xml.etree.ElementTree as ET\n\n# Load the XML file\ntree = ET.parse('example.xml')\n\n# Load the DTD file\ndtd = ET.DTD('example.dtd')\n\n# Validate the XML file against the DTD\nif dtd.validate(tree.getroot()):\n    print("XML is valid")\nelse:\n    print("XML is not valid")

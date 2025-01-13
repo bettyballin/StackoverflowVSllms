@@ -1,0 +1,1 @@
+$form->setProgressBarAdapter($adapter);

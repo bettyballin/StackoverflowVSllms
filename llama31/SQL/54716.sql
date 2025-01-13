@@ -1,0 +1,1 @@
+EDC2.WORLD = (DESCRIPTION = (ADDRESS = (PROTOCOL = TCP)(HOST = your_host)(PORT = your_port))(CONNECT_DATA = (SID = your_sid)))

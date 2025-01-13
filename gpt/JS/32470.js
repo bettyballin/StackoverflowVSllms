@@ -1,1 +1,0 @@
-$.ajax({\n    type: "GET",\n    url: "http://localhost:8000/yourfile.xml",\n    dataType: "xml",\n    success: function(data) {\n        // Process the XML data\n        console.log(data);\n    },\n    error: function(xhr, status, error) {\n        console.error("Error: " + status + " - " + error);\n    }\n});

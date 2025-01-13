@@ -1,0 +1,1 @@
+# Start a master SSH connection\nssh -M -S /tmp/ssh-socket user@host\n\n# Transfer files using the existing connection\nscp -o "ControlPath=/tmp/ssh-socket" file1 user@host:/remotefile1\nscp -o "ControlPath=/tmp/ssh-socket" file2 user@host:/remotefile2\n\n# Close the master connection\nssh -O exit -S /tmp/ssh-socket user@host

@@ -1,0 +1,1 @@
+find . -maxdepth 2 -name "*.tex" -exec sh -c 'mv {} "${0%.tex}"' {} \;

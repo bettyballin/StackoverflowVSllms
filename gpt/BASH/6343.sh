@@ -1,1 +1,0 @@
-aspnet_regiis -pef "connectionStrings" "path\to\your\application"

@@ -1,1 +1,0 @@
-function parseId(variable) {\n    console.log("Variable Name: " + variable.name);\n    console.log("Variable Value: " + variable.value);\n}\n\nlet myId = 123;\nparseId({name: 'myId', value: myId});

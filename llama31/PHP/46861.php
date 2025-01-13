@@ -1,0 +1,1 @@
+// sfProjectConfiguration.class.php\npublic function configure()\n{\n  // ...\n  ini_set('session.gc_probability', 0);\n  ini_set('session.gc_divisor', 0);\n  // ...\n}

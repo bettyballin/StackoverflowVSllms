@@ -1,0 +1,1 @@
+LogEntities db = new LogEntities();\n\nstring sql = "SELECT AUDITLOG.EVENTID_SEQ.NEXTVAL FROM SYSIBM.SYSDUMMY1";\n\ndecimal nextSequenceValue = db.ExecuteStoreQuery<decimal>(sql).FirstOrDefault();

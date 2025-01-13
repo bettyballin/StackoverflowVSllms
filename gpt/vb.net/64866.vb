@@ -1,1 +1,0 @@
-Dim myFormat As Foo.FORMAT = Global.Foo.FORMAT.ONE

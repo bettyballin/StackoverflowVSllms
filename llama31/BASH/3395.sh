@@ -1,0 +1,1 @@
+xsltproc your_xsl_file.xsl your_xml_file.xml > output.html

@@ -1,0 +1,1 @@
+google-pprof --gv ./prime_sum

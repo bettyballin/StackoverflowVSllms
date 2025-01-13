@@ -1,0 +1,1 @@
+Partial Public Class Product\n    Private Sub OnValidate(action As ChangeAction) Handles Me.OnValidate\n        ' Your custom validation code here\n    End Sub\nEnd Class

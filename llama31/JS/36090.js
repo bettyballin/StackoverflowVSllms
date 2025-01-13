@@ -1,0 +1,1 @@
+var obj = { foo: 'bar', baz: [1, 2, 3] };\n\nvar formattedJson = JSON.stringify(obj, null, 2);\n\nconsole.log(formattedJson);

@@ -1,1 +1,0 @@
-protected void Button1_Click(object sender, EventArgs e)\n{\n    if (Page.IsValid)\n    {\n        // Handle form 1 submission\n    }\n}\n\nprotected void Button2_Click(object sender, EventArgs e)\n{\n    if (Page.IsValid)\n    {\n        // Handle form 2 submission\n    }\n}

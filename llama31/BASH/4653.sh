@@ -1,0 +1,1 @@
+sshrc 'source ~/.bash_profile; source ~/.vimrc'

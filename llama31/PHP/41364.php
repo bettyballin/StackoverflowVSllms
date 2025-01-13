@@ -1,0 +1,1 @@
+// layout file (e.g., layout.php)\n<?php $this->load->view('header'); ?>\n\n<div id="content">\n    <?php echo $content; ?>\n</div>\n\n<?php $this->load->view('footer'); ?>

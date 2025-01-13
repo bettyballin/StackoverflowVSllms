@@ -1,1 +1,0 @@
-int sign(int i) {\n    if (i > 0) {\n        return 1;\n    } else if (i == 0) {\n        return 0;\n    } else { // i < 0\n        return -1;\n    }\n}

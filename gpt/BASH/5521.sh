@@ -1,1 +1,0 @@
-echo [ZoneTransfer] > "yourfile.exe:Zone.Identifier"\necho ZoneId=3 >> "yourfile.exe:Zone.Identifier"

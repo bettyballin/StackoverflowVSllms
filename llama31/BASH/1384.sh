@@ -1,0 +1,1 @@
+lftp -u $FTP_USER,$FTP_PASS $FTP_HOST << EOF\ncd $FTP_DIR\nglob -rt | tail -n +11 | xargs rm\nEOF

@@ -1,1 +1,0 @@
-using (var connection = new OracleConnection(connectionString))\n   {\n       var result = connection.Query<YourEntity>("SELECT * FROM YourTable");\n   }

@@ -1,0 +1,1 @@
+if (Session.IsNullOrEmpty("variable"))\n{\n    Session["variable"] = "set this";\n}

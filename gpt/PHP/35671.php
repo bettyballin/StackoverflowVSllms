@@ -1,1 +1,0 @@
-$wgGroupPermissions['Human Resources']['edit'] = true;

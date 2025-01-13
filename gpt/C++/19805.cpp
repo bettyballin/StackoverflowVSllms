@@ -1,1 +1,0 @@
-GLfloat* array = new GLfloat(x * y * z);

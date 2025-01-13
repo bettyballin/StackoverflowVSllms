@@ -1,1 +1,0 @@
-wget http://vault.centos.org/5.2/os/x86_64/CentOS/gcc-4.1.2-42.el5.x86_64.rpm\n   wget http://vault.centos.org/5.2/os/x86_64/CentOS/gcc-c++-4.1.2-42.el5.x86_64.rpm\n   wget http://vault.centos.org/5.2/os/x86_64/CentOS/kernel-devel-2.6.18-92.el5.x86_64.rpm

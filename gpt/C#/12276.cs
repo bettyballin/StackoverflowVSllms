@@ -1,1 +1,0 @@
-string myNewEncryptedString = Encrypter.Encrypt("StringToEncrypt", "SHA256");

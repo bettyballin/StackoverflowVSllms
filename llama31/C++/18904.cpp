@@ -1,0 +1,1 @@
+interface IMyEvent : public IUnknown\n{\n    HRESULT EventTerminated(void);\n};

@@ -1,0 +1,1 @@
+[AttributeUsage(AttributeTargets.Property)]\npublic class MaxLengthAttribute : Attribute\n{\n    public int Length { get; set; }\n}\n\n// Example usage:\n[Table]\npublic class YourTableName\n{\n    [Column]\n    [MaxLength(Length = 50)]\n    public string YourColumnName { get; set; }\n}

@@ -1,0 +1,1 @@
+ALTER TABLE your_table\nADD CONSTRAINT PK_UrlRewrite PRIMARY KEY (URLRewitten, OriginalURL);

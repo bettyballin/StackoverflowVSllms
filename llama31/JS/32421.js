@@ -1,0 +1,1 @@
+// Your JavaScript code\n$.ajax({\n  url: '/proxy/osm/api/0.6/map',\n  data: { /* your params */ },\n  success: function(data) { /* process data */ }\n});

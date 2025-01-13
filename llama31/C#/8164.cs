@@ -1,0 +1,1 @@
+// Password-based key derivation using PBKDF2\nbyte[] derivedKey = pbkdf2.deriveKey(password, salt, iterations);

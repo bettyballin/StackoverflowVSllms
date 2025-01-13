@@ -1,0 +1,1 @@
+unsigned int reverseBits(unsigned int n) {\n    unsigned int result = 0;\n    for (int i = 0; i < sizeof(n) * 8; i++) {\n        result = (result << 1) | (n & 1);\n        n >>= 1;\n    }\n    return result;\n}

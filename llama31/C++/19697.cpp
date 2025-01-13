@@ -1,0 +1,1 @@
+std::once_flag flag;\n\nvoid InitializeCriticalSection(CRITICAL_SECTION& cs) {\n    std::call_once(flag, [&cs]() {\n        InitializeCriticalSection(&cs);\n    });\n}\n\n// Usage:\nCRITICAL_SECTION cs;\nInitializeCriticalSection(cs);\nEnterCriticalSection(&cs);\n// ... critical section code ...\nLeaveCriticalSection(&cs);

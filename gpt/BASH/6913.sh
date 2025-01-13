@@ -1,1 +1,0 @@
-regsvr32 C:\Windows\SysWOW64\yourplugin.dll

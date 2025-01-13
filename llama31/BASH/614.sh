@@ -1,0 +1,1 @@
+# start.sh\n#!/bin/bash\nsudo service httpd start

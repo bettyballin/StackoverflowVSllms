@@ -1,0 +1,1 @@
+import pyclamd\n\n# Create a ClamD instance\nclamd = pyclamd.ClamdNetworkSocket()\n\n# Scan a file\nresult = clamd.scan('file.pdf')\n\n# Check if the file is infected\nif result:\n    print("File is infected:", result)\nelse:\n    print("File is clean")

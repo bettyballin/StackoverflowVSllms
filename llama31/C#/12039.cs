@@ -1,0 +1,1 @@
+var stopwatch = Stopwatch.StartNew();\nvar id = context.Request.Form["id"];\nstopwatch.Stop();\nvar elapsed = stopwatch.ElapsedMilliseconds;\n// Log the elapsed time to diagnose

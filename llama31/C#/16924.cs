@@ -1,0 +1,1 @@
+public static string ToHexString(byte[] bytes)\n{\n    return string.Concat(bytes.Select(b => b.ToString("X2")));\n}\n\nbyte[] header = new byte[] { 255, 216 };\nstring hexString = ToHexString(header);\nConsole.WriteLine(hexString); // Output: FFD8

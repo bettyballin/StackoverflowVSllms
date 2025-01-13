@@ -1,1 +1,0 @@
-CREATE TABLE users (\n       user_id INT AUTO_INCREMENT PRIMARY KEY,\n       username VARCHAR(50) NOT NULL,\n       password VARCHAR(255) NOT NULL, -- Remember to hash passwords\n       role_id INT,\n       FOREIGN KEY (role_id) REFERENCES roles(role_id)\n   );

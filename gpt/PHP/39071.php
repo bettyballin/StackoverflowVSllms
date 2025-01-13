@@ -1,1 +1,0 @@
-<?php\n    $to = 'your-email@example.com';\n    $subject = 'Test Mail';\n    $message = 'This is a test mail.';\n    $headers = 'From: webmaster@example.com';\n\n    if(mail($to, $subject, $message, $headers)) {\n        echo 'Mail sent successfully.';\n    } else {\n        echo 'Mail sending failed.';\n    }\n    ?>

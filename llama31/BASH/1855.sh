@@ -1,0 +1,1 @@
+param ($projectFile)\n\n# Load the project file\n$project = [Microsoft.Build.Construction.ProjectRootElement]::Open($projectFile)\n\n# Switch to Release configuration\n$project.SetProperty("Configuration", "Release")\n\n# Save the project file\n$project.Save()\n\n# Publish the project\nmsbuild $projectFile /t:Publish /p:Configuration=Release

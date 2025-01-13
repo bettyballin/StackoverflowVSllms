@@ -1,0 +1,1 @@
+// Create entity manager\n$em = \Doctrine\ORM\EntityManager::create($connectionOptions, $config);\n\n// Retrieve user entity\n$user = $em->getRepository(User::class)->find(1);

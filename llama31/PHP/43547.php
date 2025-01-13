@@ -1,0 +1,1 @@
+require_once 'geshi.php';\n$geshi = new GeSHi(html_entity_decode($code), 'php');\necho $geshi->parse_code();

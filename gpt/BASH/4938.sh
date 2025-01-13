@@ -1,1 +1,0 @@
-gcc -fprofile-generate -O3 -msse2 -o myprogram myprogram.c\n   ./myprogram   # Run the program to generate profile data\n   gcc -fprofile-use -O3 -msse2 -o myprogram myprogram.c

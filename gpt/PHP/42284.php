@@ -1,1 +1,0 @@
-<?php\n$date1 = new DateTime("2023-01-01 12:00:00");\n$date2 = new DateTime("2023-01-01 14:30:00");\n\n$interval = $date1->diff($date2);\n\n$minutes = ($interval->days * 24 * 60) + ($interval->h * 60) + $interval->i;\n\necho "Difference in minutes: " . $minutes;\n?>

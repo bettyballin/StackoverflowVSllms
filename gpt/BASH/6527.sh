@@ -1,1 +1,0 @@
-alias rename_tab='konsoleprofile "tabTitle=$1"'

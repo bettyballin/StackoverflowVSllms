@@ -1,1 +1,0 @@
-// In AssemblyInfo.cs\n[assembly: InternalsVisibleTo("YourApplicationAssemblyName")]\n\nnamespace YourNamespace\n{\n    internal class YourClass\n    {\n        internal void YourMethod()\n        {\n            // Your code\n        }\n    }\n}

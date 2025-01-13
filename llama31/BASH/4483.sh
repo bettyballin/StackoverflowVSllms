@@ -1,0 +1,1 @@
+openssl verify -CAfile <path_to_root_cert> -untrusted <path_to_intermediate_cert> <path_to_new_cert>

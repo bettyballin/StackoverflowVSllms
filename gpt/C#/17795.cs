@@ -1,1 +1,0 @@
-[Route("api/[controller]")]\n[ApiController]\npublic class MyController : ControllerBase\n{\n    [HttpGet("data")]\n    public IActionResult GetData()\n    {\n        return Ok("Hello, World!");\n    }\n}

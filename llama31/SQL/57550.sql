@@ -1,0 +1,1 @@
+CREATE TABLE items (\n  id SERIAL PRIMARY KEY,\n  name VARCHAR(255) NOT NULL\n);\n\nCREATE TABLE tags (\n  id SERIAL PRIMARY KEY,\n  name VARCHAR(255) NOT NULL\n);\n\nCREATE TABLE item_tags (\n  item_id INTEGER NOT NULL REFERENCES items(id),\n  tag_id INTEGER NOT NULL REFERENCES tags(id),\n  PRIMARY KEY (item_id, tag_id)\n);

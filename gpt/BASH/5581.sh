@@ -1,1 +1,0 @@
-sudo su\n   curl https://packages.microsoft.com/keys/microsoft.asc | apt-key add -\n   curl https://packages.microsoft.com/config/ubuntu/$(lsb_release -rs)/prod.list > /etc/apt/sources.list.d/mssql-release.list\n   exit\n   sudo apt-get update\n   sudo ACCEPT_EULA=Y apt-get install msodbcsql17\n   sudo apt-get install unixodbc-dev

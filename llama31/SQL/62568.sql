@@ -1,0 +1,1 @@
+SELECT '2009-02-05 08:00:00' + (interval '5 seconds' * generate_series(0, 12)) AS date;

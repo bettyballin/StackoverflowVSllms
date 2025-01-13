@@ -1,0 +1,1 @@
+using (var context = new AccessDbContext())\n{\n    var results = context.YourTable1.Where(x => x.Column1 == "filterValue").ToList();\n    // ...\n}

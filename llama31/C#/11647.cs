@@ -1,0 +1,1 @@
+string xmlFilePath = @"C:\Path\To\Your\XmlFile.xml";\nstring connectionString = "Data Source=YourServerName;Initial Catalog=YourDatabaseName;Integrated Security=True";\n\nXmlLoader.LoadXmlFile(xmlFilePath, connectionString);

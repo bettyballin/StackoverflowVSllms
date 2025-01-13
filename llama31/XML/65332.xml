@@ -1,0 +1,1 @@
+<target name="merge-web-xml">\n  <concat destfile="merged-web.xml">\n    <fileset file="web.xml"/>\n    <fileset file="pre-compiled-web.xml"/>\n  </concat>\n</target>

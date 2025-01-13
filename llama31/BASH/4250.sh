@@ -1,0 +1,1 @@
+mogrify -format jpg -quality 80 -resize 1024x768 *.png

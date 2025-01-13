@@ -1,0 +1,1 @@
+./configure --host=$TARGET --build=x86_64-linux-gnu\nmake

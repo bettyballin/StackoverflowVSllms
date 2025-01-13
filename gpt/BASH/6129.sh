@@ -1,1 +1,0 @@
-mysql < /path/to/backup.sql

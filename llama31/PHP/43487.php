@@ -1,0 +1,1 @@
+// Example usage:\ntry {\n    // Code that might throw an exception\n    $db = new Database();\n    $db->connect();\n} catch (Exception $e) {\n    throw $e; // Let the error handler catch it\n}

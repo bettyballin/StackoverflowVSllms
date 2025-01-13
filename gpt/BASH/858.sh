@@ -1,1 +1,0 @@
-echo 'export PATH=/usr/local/php5/bin:$PATH' >> ~/.bashrc\n   source ~/.bashrc

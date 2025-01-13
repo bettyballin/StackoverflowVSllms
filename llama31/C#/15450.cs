@@ -1,0 +1,1 @@
+public class WebSessionHost : ISessionHost\n{\n    public UserSession UserSession\n    {\n        get { return (UserSession)HttpContext.Current.Session["UserSession"]; }\n    }\n}

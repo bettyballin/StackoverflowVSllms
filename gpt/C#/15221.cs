@@ -1,1 +1,0 @@
-using BCrypt.Net;\n\n// Hashing the password\nstring password = "userPassword";\nstring salt = BCrypt.GenerateSalt();\nstring hashedPassword = BCrypt.HashPassword(password, salt);\n\n// Store 'hashedPassword' and 'salt' in the database

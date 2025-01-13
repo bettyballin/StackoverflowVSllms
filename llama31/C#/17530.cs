@@ -1,0 +1,1 @@
+long startTime = ManagementDateTimeConverter.ToDateTime((string)wmisearcherData["StartTime"]).ToUniversalTime().Ticks / TimeSpan.TicksPerSecond;

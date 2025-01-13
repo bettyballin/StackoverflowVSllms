@@ -1,1 +1,0 @@
-using static TestClass;\n\npublic class MainClass\n{\n    public void Main()\n    {\n        Somefunc();\n    }\n}

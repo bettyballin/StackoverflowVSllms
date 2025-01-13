@@ -1,0 +1,1 @@
+DECLARE @date datetime = '2005-03-03 14:23'\n\nSELECT DATEFROMPARTS(YEAR(@date), MONTH(@date), 1) AS FirstDayOfMonth

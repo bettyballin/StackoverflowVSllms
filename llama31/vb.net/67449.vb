@@ -1,0 +1,1 @@
+Public Shared Function HexToByteArray(hex As String) As Byte()\n    Dim bytes As Byte() = New Byte(hex.Length / 2 - 1) {}\n    For i As Integer = 0 To bytes.Length - 1\n        bytes(i) = Convert.ToByte(hex.Substring(i * 2, 2), 16)\n    Next\n    Return bytes\nEnd Functio

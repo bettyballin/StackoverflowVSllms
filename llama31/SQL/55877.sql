@@ -1,0 +1,1 @@
+SELECT \n  authors.stage_name, \n  (SELECT COUNT(*) FROM books WHERE books.author_id = authors.id) AS book_count\nFROM \n  authors;

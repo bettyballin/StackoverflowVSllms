@@ -1,0 +1,1 @@
+use PptParser\PptParser;\n\n$ppt = new PptParser('path/to/presentation.pptx');\n$slides = $ppt->getSlides();\n\nforeach ($slides as $slide) {\n    $text = $slide->getText();\n    echo $text . "\n";\n}

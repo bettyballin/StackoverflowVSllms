@@ -1,0 +1,1 @@
+var count = ProcessHelper.GetChildProcessCount("TheService");\nConsole.WriteLine($"Number of child processes: {count}");

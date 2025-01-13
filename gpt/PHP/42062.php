@@ -1,1 +1,0 @@
-function VerifRegisterEmail($email) {\n    if(empty($email)) {\n        return false;\n    }\n\n    $pattern_email = '/^[\w\.-]+@[\w\.-]+\.[a-zA-Z]{2,3}$/';\n    if(!preg_match($pattern_email, $email)) {\n        echo "emaill";\n        return false;\n    }\n\n    return true;\n}

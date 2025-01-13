@@ -1,0 +1,1 @@
+require 'fileutils'\n\nbegin\n  FileUtils.mv('source_file.txt', 'destination_file.txt')\nrescue Errno::ENOENT => e\n  puts "Error: File not found"\nrescue Errno::EACCES => e\n  puts "Error: Permission denied"\nrescue StandardError => e\n  puts "Error: #{e.message}"\nend

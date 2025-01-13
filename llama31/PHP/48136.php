@@ -1,0 +1,1 @@
+$scoreBetweenValidator->setMessages(array(\n    Zend_Validate_Between::NOT_BETWEEN_STRICT => 'my custom msg',\n    Zend_Validate_Between::NOT_BETWEEN => 'my other custom msg',\n    Zend_Validate_InArray::NOT_IN_ARRAY => 'custom not in array msg'\n));

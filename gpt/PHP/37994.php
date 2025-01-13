@@ -1,1 +1,0 @@
-<?php\n   // index.php or your main entry script\n   session_start();\n   include 'File3.php';\n   ?>

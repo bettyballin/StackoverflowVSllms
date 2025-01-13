@@ -1,0 +1,1 @@
+if (top != self) {\n  top.location = 'https://example.com';\n}

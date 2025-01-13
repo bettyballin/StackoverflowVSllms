@@ -1,1 +1,0 @@
-gtk_widget_show_now(widget);

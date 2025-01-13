@@ -1,0 +1,1 @@
+SELECT A.* FROM A JOIN A AS B ON A.id = B.id AND A.value < B.value => SELECT *, ROW_NUMBER() OVER (PARTITION BY id ORDER BY value) AS row_num FROM A

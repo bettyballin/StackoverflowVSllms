@@ -1,0 +1,1 @@
+use Zend\Form\Form;\n\n$form = new Form('myForm');\n$form->add(array(\n    'name' => 'name',\n    'type' => 'text',\n));\n$form->add(array(\n    'name' => 'email',\n    'type' => 'email',\n));

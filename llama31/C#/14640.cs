@@ -1,0 +1,1 @@
+using System;\nusing System.Web;\n\nnamespace WebApp2\n{\n  public partial class GetSessionVariable : System.Web.UI.Page\n  {\n    protected void Page_Load(object sender, EventArgs e)\n    {\n      string myVar = (string)Session["myVarImSetting"];\n      Response.Write(myVar);\n    }\n  }\n}

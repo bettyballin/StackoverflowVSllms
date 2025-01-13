@@ -1,1 +1,0 @@
-// script.js\ndocument.getElementById('enlargeButton').addEventListener('click', function() {\n    var container = document.querySelector('.video-container');\n    container.classList.toggle('enlarged');\n});

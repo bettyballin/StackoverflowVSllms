@@ -1,1 +1,0 @@
-ISNULL([AccountName]) || TRIM([AccountName]) == "" ? "Unknown" : [AccountName]

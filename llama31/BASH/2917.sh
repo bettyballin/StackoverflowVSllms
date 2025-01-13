@@ -1,0 +1,1 @@
+g++ -o tcp_server tcp_server.cpp\ng++ -o tcp_client tcp_client.cpp\n./tcp_server\n./tcp_client

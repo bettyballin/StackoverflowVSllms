@@ -1,0 +1,1 @@
+#frame {\n  position: relative;\n  width: 400px;\n  border: 1px solid black;\n  overflow: auto; /* add this */\n}

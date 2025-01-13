@@ -1,0 +1,1 @@
+gcc -pg -o myprogram myprogram.c -gmon-out-file=/path/to/profile/data/gmon.out

@@ -1,0 +1,1 @@
+ClassD d = Method<ClassD>();

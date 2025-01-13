@@ -1,0 +1,1 @@
+var host = new CustomServiceHost(typeof(Service));\nhost.Open();

@@ -1,1 +1,0 @@
-*/10 * * * * /path/to/your/script.sh

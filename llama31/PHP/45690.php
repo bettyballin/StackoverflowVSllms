@@ -1,0 +1,1 @@
+$array = array('key1' => 'value1', 'key2' => 'value2');\n\n$ch = curl_init('https://example.com');\ncurl_setopt($ch, CURLOPT_POST, true);\ncurl_setopt($ch, CURLOPT_POSTFIELDS, $array);\ncurl_setopt($ch, CURLOPT_HTTPHEADER, array('Content-Type: application/x-www-form-urlencoded'));\ncurl_exec($ch);\ncurl_close($ch);

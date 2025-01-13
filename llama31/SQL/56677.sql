@@ -1,0 +1,1 @@
+CREATE TABLE search_index (\n  id INT PRIMARY KEY,\n  mytable_id INT,\n  search_data TEXT,\n  FULLTEXT (search_data)\n);\n\nINSERT INTO search_index (mytable_id, search_data)\nSELECT id, CONCAT(title, ' ', description, ' ', keywords)\nFROM mytable;

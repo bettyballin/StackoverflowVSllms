@@ -1,0 +1,1 @@
+// compile the C++ DLL with /MT option\ncl.exe /MT /LD mycppdll.cpp /link /DLL /OUT:mycppdll.dll

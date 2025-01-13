@@ -1,0 +1,1 @@
+servermanagercmd -install Web-Metabase

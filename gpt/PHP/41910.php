@@ -1,1 +1,0 @@
-$client = new SoapClient("some.wsdl", array(\n    'local_cert' => "cert_key_ca.pem",\n    'trace' => 1,  // Optional: for debugging purposes\n    'exceptions' => true // Optional: to throw exceptions on errors\n));\n\ntry {\n    $response = $client->SomeSoapFunction();\n    print_r($response);\n} catch (SoapFault $fault) {\n    echo "Error: {$fault->faultstring}";\n}

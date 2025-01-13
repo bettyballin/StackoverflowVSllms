@@ -1,1 +1,0 @@
-<asp:Button ID="btnEdit" runat="server" Text="Edit" />\n\n   <script runat="server">\n       protected void Page_Load(object sender, EventArgs e)\n       {\n           string userName = User.Identity.Name;\n           btnEdit.Visible = UserHasPermission(userName, "EditPermission");\n       }\n   </script>

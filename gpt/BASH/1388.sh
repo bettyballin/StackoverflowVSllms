@@ -1,1 +1,0 @@
-# Example of forking and maintaining your own version of a library on GitHub\n   # 1. Fork the repository\n   # 2. Clone your fork to your local machine\n   git clone https://github.com/yourusername/libraryname.git\n   # 3. Make your changes and push them to your fork\n   git add .\n   git commit -m "Fixed bug in X"\n   git push origin mai

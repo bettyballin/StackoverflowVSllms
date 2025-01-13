@@ -1,1 +1,0 @@
-public class CustomerDataContext : DataContext\n{\n    public Table<Customer> Customers;\n\n    public CustomerDataContext(string connectionString) : base(connectionString) { }\n}\n\npublic class OrderDataContext : DataContext\n{\n    public Table<Order> Orders;\n\n    public OrderDataContext(string connectionString) : base(connectionString) { }\n}

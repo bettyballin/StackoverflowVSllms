@@ -1,0 +1,1 @@
+*/5 * * * * /usr/bin/svnsync sync --username=slaveuser file:///path/to/slave/repo

@@ -1,0 +1,1 @@
+CREATE TYPE SearchCriteria AS TABLE (ID bigint, MaxDate datetime)\n\nCREATE PROCEDURE mySearchProc\n    @SearchCriteria SearchCriteria READONLY\nAS\nBEGIN\n    SELECT Col1,...,Coln FROM MyTable\n    INNER JOIN @SearchCriteria sc ON (sc.ID IS NULL OR ID = sc.ID)\n                                 AND (sc.MaxDate IS NULL OR Date < sc.MaxDate)\nEND

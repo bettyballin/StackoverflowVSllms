@@ -1,0 +1,1 @@
+$escapedInput = mysql_real_escape_string(stripslashes($userInput));

@@ -1,1 +1,0 @@
-public abstract class MyBaseController<T> : Controller where T : SomeType\n{\n    // Your generic methods and properties here\n}\n\npublic class MyConcreteController : MyBaseController<ConcreteType>\n{\n    // Your concrete controller methods and properties here\n}

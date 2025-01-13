@@ -1,0 +1,1 @@
+CREATE TABLE orders (\n  order_id INT,\n  product_id INT,\n  PRIMARY KEY (order_id, product_id)\n);

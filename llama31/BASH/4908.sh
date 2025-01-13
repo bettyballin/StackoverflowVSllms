@@ -1,0 +1,1 @@
+for repo in $REPO_PATH/*; do\n  if [ -d "$repo" ]; then\n    repo_name=$(basename "$repo")\n    svnadmin hotcopy "$repo" "$repo_name".bak\n  fi\ndone

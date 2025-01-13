@@ -1,0 +1,1 @@
+# projectA\nchmod -R rwxr-x projectA-dev dirA dirB\nchmod -R r-xr-x projectA-readonly dirA dirB\n\n# projectB\nchmod -R rwxr-x projectB-dev dirD dirE

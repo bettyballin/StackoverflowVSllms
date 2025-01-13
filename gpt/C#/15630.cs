@@ -1,1 +1,0 @@
-[ComVisible(true)]\n   [InterfaceType(ComInterfaceType.InterfaceIsIDispatch)]\n   public interface IMyInterface\n   {\n       [DispId(1)]\n       string PropertyA { get; set; }\n\n       [DispId(2)]\n       string PropertyB { get; set; }\n   }

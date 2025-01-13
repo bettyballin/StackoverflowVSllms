@@ -1,0 +1,1 @@
+extern int testlib(int arg1, char *arg2);

@@ -1,1 +1,0 @@
-gcc -include stdafx.h -o my_program my_program.cpp

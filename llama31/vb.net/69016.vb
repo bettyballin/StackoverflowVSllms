@@ -1,0 +1,1 @@
+Dim adapter As New OleDbDataAdapter("SELECT * FROM [Sheet1$]", connectionString)\nDim schema As DataTable = adapter.FillSchema(New DataTable(), SchemaType.Source)\nschema.Columns("ColumnName").DataType = GetType(String)\nadapter.Fill(ds, "anyNameHere")

@@ -1,1 +1,0 @@
-CREATE TRIGGER trg_UpdateAUID\nON dbo.users\nAFTER INSERT, UPDATE\nAS\nBEGIN\n    UPDATE u\n    SET auid = RIGHT('000000000' + CAST(u.user_id AS VARCHAR(9)), 9)\n    FROM dbo.users u\n    INNER JOIN inserted i ON u.user_id = i.user_id;\nEND

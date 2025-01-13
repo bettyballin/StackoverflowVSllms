@@ -1,1 +1,0 @@
-sed 's/SO/so/' so/app.yaml > temp.yaml && mv temp.yaml so/app.yaml

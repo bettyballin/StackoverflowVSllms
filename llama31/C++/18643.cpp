@@ -1,0 +1,1 @@
+bool CharIsHex(char c) {\n    return (c >= '0' && c <= '9') || (c >= 'a' && c <= 'f') || (c >= 'A' && c <= 'F');\n}

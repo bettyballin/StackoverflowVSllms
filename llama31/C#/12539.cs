@@ -1,0 +1,1 @@
+ProgressBar progressBar = new ProgressBar();\nprogressBar.Style = ProgressBarStyle.Marquee;

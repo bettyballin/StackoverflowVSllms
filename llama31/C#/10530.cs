@@ -1,0 +1,1 @@
+myString = String.Format("{0} {1}", "a", "b")

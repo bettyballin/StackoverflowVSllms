@@ -1,0 +1,1 @@
+ato_alphabet = {\n    'A': 'Alpha',\n    'B': 'Bravo',\n    'C': 'Charlie',\n    # ...\n}\n\ndef translate_to_phonetic(password):\n    phonetic_password = ''\n    for char in password:\n        if char.isalpha():\n            phonetic_password += nato_alphabet[char.upper()] + ' '\n        else:\n            phonetic_password += char + ' '\n    return phonetic_password.strip()

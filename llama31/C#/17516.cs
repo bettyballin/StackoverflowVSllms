@@ -1,0 +1,1 @@
+using (var response = Response)\n{\n    repDoc.ExportToHttpResponse(CrystalDecisions.Shared.ExportFormatType.PortableDocFormat, response, true, "StudyReport");\n}

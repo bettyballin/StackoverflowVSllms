@@ -1,0 +1,1 @@
+[CustomAction]\npublic static ActionResult RemoveDlls(Session session)\n{\n    string dirPath = session.CustomActionData["DirPath"];\n    string[] dlls = Directory.GetFiles(dirPath, "*.dll");\n\n    foreach (string dll in dlls)\n    {\n        File.Delete(dll);\n    }\n\n    return ActionResult.Success;\n}

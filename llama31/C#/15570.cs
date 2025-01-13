@@ -1,0 +1,1 @@
+Dictionary<string, Configuration> configDict = new Dictionary<string, Configuration>();\nforeach (Configuration c in Configurations)\n{\n    configDict.Add(c.Name, c);\n}

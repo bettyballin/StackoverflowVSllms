@@ -1,0 +1,1 @@
+// Create a session factory with a minimal configuration\nvar sessionFactory = Fluently.Configure()\n    .Database(MsSqlConfiguration.MsSql2008\n        .ConnectionString(c => c.FromConnectionStringWithKey("LegacyDB")))\n    .Mappings(m => m.FluentMappings.AddFromAssemblyOf<MyNewFeatureMapping>())\n    .BuildSessionFactory();

@@ -1,1 +1,0 @@
-using System;\n\nnamespace YourNamespace\n{\n    public partial class ConfirmPopup : System.Web.UI.UserControl\n    {\n        public string GetShowConfirmScript(string sourceControlClientId)\n        {\n            return $"showConfirm(this, '{theButton.ClientID}', '{div.ClientID}'); return false;";\n        }\n    }\n}

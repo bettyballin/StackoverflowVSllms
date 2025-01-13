@@ -1,1 +1,0 @@
-/* Inserts the node pointed to by "newNode" into the subtree rooted at "treeNode" */\nvoid InsertNode(Node* &treeNode, Node *newNode)\n{\n    if (treeNode == NULL)\n        treeNode = newNode;\n    else if (newNode->key < treeNode->key)\n        InsertNode(treeNode->left, newNode);\n    else\n        InsertNode(treeNode->right, newNode);\n}

@@ -1,0 +1,1 @@
+chmod +x sed-bundle/sed-static

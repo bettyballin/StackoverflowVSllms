@@ -1,1 +1,0 @@
-svn checkout file:///c:/svnrepos/project1 c:\www\project1

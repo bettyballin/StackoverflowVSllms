@@ -1,0 +1,1 @@
+SELECT NVL(name, 'Unknown') FROM customers;

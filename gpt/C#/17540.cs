@@ -1,1 +1,0 @@
-string path1 = @"C:\x";\nstring path2 = @"\y".TrimStart(Path.DirectorySeparatorChar);\nstring combinedPath = Path.Combine(path1, path2);\nConsole.WriteLine(combinedPath); // Outputs: "C:\x\y"

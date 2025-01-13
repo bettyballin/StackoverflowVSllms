@@ -1,0 +1,1 @@
+[DllImport("ole32")]\nprivate static extern int CLSIDFromString(string lpsz, out Guid pclsid);\n\npublic static Boolean TryStrToGuid(String s, out Guid value)\n{\n    const int NOERROR = 0;\n    int result = CLSIDFromString(s, out value);\n    return result == NOERROR;\n}

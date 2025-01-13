@@ -1,1 +1,0 @@
-CREATE TABLE Parent (\n        ParentID INT PRIMARY KEY,\n        ParentData NVARCHAR(100)\n    );\n\n    CREATE TABLE Child (\n        ChildID INT PRIMARY KEY,\n        ParentID INT,\n        ChildData NVARCHAR(100),\n        FOREIGN KEY (ParentID) REFERENCES Parent(ParentID)\n    );

@@ -1,0 +1,1 @@
+List<int> intList = arrayList.OfType<int>().ToList();

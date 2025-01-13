@@ -1,0 +1,1 @@
+-- Create a SQL Server instance with a SAN storage device\nCREATE INSTANCE [SQLInstance]\nON ( NAME = 'SQLData', FILENAME = 'F:\SQLData\SQLData.mdf' )\nLOG ON ( NAME = 'SQLLog', FILENAME = 'F:\SQLLog\SQLLog.ldf' );\n\n-- Configure the SAN storage device\nALTER INSTANCE [SQLInstance]\nSET STORAGE ( TYPE = 'SAN', DEVICE = '\\SAN_Device\SQLStorage' );

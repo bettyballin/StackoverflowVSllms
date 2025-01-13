@@ -1,0 +1,1 @@
+cells.each(function() {\n     $(this).text('New text'); // Change the text of each cell\n   });

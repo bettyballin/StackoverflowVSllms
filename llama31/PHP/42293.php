@@ -1,0 +1,1 @@
+$offers = array(\n    1 => 'Offer 1',\n    2 => 'Offer 2',\n    3 => 'Offer 3',\n);\n\n$offername = $offers[$_GET['id']];\n\necho $offername;

@@ -1,0 +1,1 @@
+var currentTime = new Date();\nvar day = currentTime.getDate() + 5;\nvar year = currentTime.getFullYear();\nvar month = currentTime.getMonth() + 1;\nvar calcdate = day + "/" + month + "/" + year;\n\ndocument.getElementById("sub_date").value = calcdate;

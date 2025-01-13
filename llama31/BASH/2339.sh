@@ -1,0 +1,1 @@
+#!/bin/bash\n\nfollow_symlinks() {\n  local path=$1\n  local links=()\n\n  while [ -L "$path" ]; do\n    links+=("$path -> $(readlink "$path")")\n    path=$(readlink "$path")\n  done\n\n  echo "${links[@]}"\n  echo "Final target: $path"\n}\n\nfollow_symlinks "$1"

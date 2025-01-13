@@ -1,0 +1,1 @@
+diff <(sql query1) <(sql query2)

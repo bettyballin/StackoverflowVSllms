@@ -1,1 +1,0 @@
-git clone https://github.com/cegcc/cegcc.git\n   cd cegcc\n   ./bootstrap\n   ./configure --target=arm-mingw32ce\n   make\n   sudo make install

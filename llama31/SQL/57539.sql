@@ -1,0 +1,1 @@
+UPDATE Transactions\nSET Balance = (\n  SELECT SUM(AmountCharged - AmountPaid) \n  FROM Transactions t2 \n  WHERE t2.Index <= Transactions.Index AND t2.Tenant = Transactions.Tenant\n)

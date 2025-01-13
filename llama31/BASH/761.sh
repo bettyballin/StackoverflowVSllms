@@ -1,0 +1,1 @@
+# Enable ftrace in kernel configuration (e.g., .config file)\nCONFIG_FUNCTION_TRACER=y\n\n# Use trace-cmd to capture the boot sequence\ntrace-cmd record -e boot

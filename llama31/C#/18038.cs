@@ -1,0 +1,1 @@
+for (int i = myStringList.Count - 1; i >= 0; i--)\n{\n    string s = myStringList[i];\n    // Do stuff here\n}\n\n// or\n\nforeach (string s in myStringList.Reverse())\n{\n    // Do stuff here\n}

@@ -1,1 +1,0 @@
--- Declare the variable\nDECLARE @var_name INT;\n\n-- Assign a value to the variable\nSELECT id INTO @var_name FROM table1 WHERE some_column='something' LIMIT 1;\n\n-- Insert the value into table2\nINSERT INTO table2 (`number`) VALUES (@var_name);

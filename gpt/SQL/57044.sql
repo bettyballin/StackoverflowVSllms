@@ -1,1 +1,0 @@
-LOAD DATA\n    INFILE 'path/to/your_file.csv'\n    INTO TABLE your_table\n    FIELDS TERMINATED BY ',' OPTIONALLY ENCLOSED BY '"'\n    (\n        column1,\n        column2,\n        ...\n    )

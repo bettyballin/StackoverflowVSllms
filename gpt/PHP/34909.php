@@ -1,1 +1,0 @@
-// Setting the cache expire time to 30 minutes\n   session_cache_expire(30);\n\n   // Retrieving the current cache expire time\n   $cacheExpire = session_cache_expire();\n   echo "Cache expire time is $cacheExpire minutes.";

@@ -1,1 +1,0 @@
-cd /local/your-svn-repo\n   svn add --force path/to/folder\n   svn commit -m "Sync with third-party repo"

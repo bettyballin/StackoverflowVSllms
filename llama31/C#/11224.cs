@@ -1,0 +1,1 @@
+using Xamarin.Forms;\n\npublic class MyForm : ContentPage\n{\n    public MyForm()\n    {\n        // Initialize form controls and layout\n    }\n}

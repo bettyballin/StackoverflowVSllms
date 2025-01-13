@@ -1,0 +1,1 @@
+INSERT INTO your_table (unique_field, other_field) VALUES ('value1', 'value2')\nON DUPLICATE KEY UPDATE other_field = VALUES(other_field);

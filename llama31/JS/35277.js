@@ -1,0 +1,1 @@
+// Play a beep sound\nfunction playBeep() {\n  var audio = new Audio('beep.mp3'); // replace with your own beep sound file\n  audio.play();\n}

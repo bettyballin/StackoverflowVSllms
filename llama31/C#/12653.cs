@@ -1,0 +1,1 @@
+internal class MVCDemoRegistry : Registry\n{\n    public MVCDemoRegistry()\n    {\n        Scan(x =>\n        {\n            x.Assembly("MVCDemo");\n            x.Assembly("MVCDemo.Infrastructure");\n            x.Assembly("MVCDemo.Services");\n\n            x.AddAllTypesOf(typeof(ISupplyView<>)).OpenGeneric();\n        });\n    }\n}

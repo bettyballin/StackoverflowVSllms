@@ -1,1 +1,0 @@
-#define BUILD_DLL\n#include "ExampleClass.h"

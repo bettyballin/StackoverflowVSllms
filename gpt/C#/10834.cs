@@ -1,1 +1,0 @@
-protected void Page_Load(object sender, EventArgs e)\n{\n    if (!IsPostBack)\n    {\n        // Handle the initial request\n    }\n    else\n    {\n        // Handle the postback\n    }\n}

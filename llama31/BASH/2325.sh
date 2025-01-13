@@ -1,0 +1,1 @@
+sudo /path/to/ZendStudio

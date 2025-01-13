@@ -1,0 +1,1 @@
+if ((mime_content_type($_FILES["image$i"]["tmp_name"]) == "image/gif")\n|| (mime_content_type($_FILES["image$i"]["tmp_name"]) == "image/jpeg")\n|| (mime_content_type($_FILES["image$i"]["tmp_name"]) == "image/png"))\n&& ($_FILES["image$i"]["size"] < 500000))

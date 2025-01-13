@@ -1,1 +1,0 @@
-@echo off\n   taskkill /F /IM ruby.exe\n   cd C:\path\to\your\rails\app\n   ruby script/server

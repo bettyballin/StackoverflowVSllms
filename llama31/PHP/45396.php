@@ -1,0 +1,1 @@
+if (strtoupper(substr(PHP_OS, 0, 3)) === 'WIN') {\n    $newline = "\r\n";\n} elseif (strtoupper(substr(PHP_OS, 0, 6)) === 'DARWIN') {\n    $newline = "\n";\n} else {\n    $newline = "\n";\n}

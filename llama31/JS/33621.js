@@ -1,0 +1,1 @@
+// JavaScript\nfunction showImage(id) {\n  var images = document.getElementById('image-container').children;\n  for (var i = 0; i < images.length; i++) {\n    images[i].style.zIndex = -1;\n  }\n  document.getElementById(id).style.zIndex = 1;\n}

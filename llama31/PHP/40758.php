@@ -1,0 +1,1 @@
+require_once 'amfphp/core/amf_deserializer.php';\n\n$amf_data = file_get_contents('shared_object.amf');\n$deserializer = new AMFDeserializer();\n$shared_object = $deserializer->deserialize($amf_data);\n\nprint_r($shared_object);

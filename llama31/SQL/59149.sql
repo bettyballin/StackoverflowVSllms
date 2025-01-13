@@ -1,0 +1,1 @@
+-- Example: Using Row-Level Security (RLS) in Microsoft SQL Server\nCREATE TABLE employees (\n    id INT PRIMARY KEY,\n    name VARCHAR(50),\n    salary DECIMAL(10, 2)\n);\n\nCREATE SECURITY POLICY rls_employees\n    ADD FILTER PREDICATE securitypredicate(id) ON employees\n    WITH (STATE = ON);

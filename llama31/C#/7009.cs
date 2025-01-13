@@ -1,0 +1,1 @@
+public class LogoutController\n{\n    public ActionResult Logout()\n    {\n        // Clear session variables\n        Session.Clear();\n\n        // Abandon the current session\n        Session.Abandon();\n\n        // Generate a new session ID\n        Session.ID = Guid.NewGuid().ToString();\n\n        return RedirectToAction("Index", "Home");\n    }\n}

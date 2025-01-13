@@ -1,1 +1,0 @@
--- This is your existing implementation\nDELETE FROM TableA WHERE campaignID = @campaignID;\n\nINSERT INTO TableA (columns)\nSELECT columns FROM #TableB;

@@ -1,0 +1,1 @@
+# Install LAMP stack\nsudo apt-get update\nsudo apt-get install lamp-server^\n\n# Install PHPMyAdmin\nsudo apt-get install phpmyadmin\n\n# Install Visual Studio Code\nsudo snap install vscode

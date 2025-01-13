@@ -1,0 +1,1 @@
+<bindings>\n  <netTcpBinding>\n    <binding name="tcpBinding" \n             hostNameComparisonMode="StrongWildcard" \n             maxConnections="10" \n             portSharingEnabled="false">\n      <security mode="None" />\n    </binding>\n  </netTcpBinding>\n</bindings>

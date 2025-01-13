@@ -1,0 +1,1 @@
+// In your controller or helper file\n$this->load->library('auth');

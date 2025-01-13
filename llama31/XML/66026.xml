@@ -1,0 +1,1 @@
+<one-to-one name="EntityA" class="EntityA" cascade="all"/>

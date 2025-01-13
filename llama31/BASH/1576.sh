@@ -1,0 +1,1 @@
+check process my_service with pidfile /var/run/my_service.pid\n  start program = "/usr/bin/my_service"\n  stop program = "/usr/bin/killall my_service"\n  if failed host 127.0.0.1 port 8080 then restart

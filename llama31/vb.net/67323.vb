@@ -1,0 +1,1 @@
+Public Property SelectedServerList As List(Of String) = New List(Of String)

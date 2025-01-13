@@ -1,0 +1,1 @@
+struct ObjectHeader {\n    // 4 bytes on 32-bit, 8 bytes on 64-bit\n    intptr_t method_table;\n\n    // 4 bytes on 32-bit, 8 bytes on 64-bit\n    intptr_t flags;\n\n    // Optional fields, e.g., for arrays or synchronization\n};

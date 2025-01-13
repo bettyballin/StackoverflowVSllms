@@ -1,0 +1,1 @@
+var changeSet = dbContext.GetChangeSet();\n\nforeach (var insert in changeSet.Inserts)\n{\n    // This entity will be inserted\n}\n\nforeach (var update in changeSet.Updates)\n{\n    // This entity will be updated\n}\n\nforeach (var delete in changeSet.Deletes)\n{\n    // This entity will be deleted\n}

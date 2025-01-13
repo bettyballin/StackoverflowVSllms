@@ -1,0 +1,1 @@
+// Core process\nwhile (running) {\n    // Check for expired resources\n    for (resource in resources) {\n        if (resource_expiration_time(resource) < current_time) {\n            // Resource has expired, free it\n            free_resource(resource);\n        }\n    }\n}

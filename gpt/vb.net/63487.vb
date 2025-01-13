@@ -1,1 +1,0 @@
-Dim nInteger As Integer = 0\nIf sText IsNot Nothing Then\n    Integer.TryParse(sText, nInteger)\nEnd If\nReturn nInteger

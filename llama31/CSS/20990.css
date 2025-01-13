@@ -1,0 +1,1 @@
+.clip-text {\n  white-space: nowrap;\n  overflow: hidden;\n  text-overflow: ellipsis;\n  height: 20px; /* adjust to your desired height */\n}

@@ -1,0 +1,1 @@
+SELECT \n  (SELECT SUM(bytes) FROM dba_segments WHERE tablespace_name = 'CATALOG_TBS') AS catalog_tbs_size,\n  (SELECT SUM(bytes) FROM dba_segments WHERE tablespace_name = 'CATALOG_IDX_TBS') AS catalog_idx_tbs_size\nFROM dual;

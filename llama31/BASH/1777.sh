@@ -1,0 +1,1 @@
+sqlcmd -S your_server -d your_database -i large_script.sql -a 1000

@@ -1,1 +1,0 @@
-public void ManualReview()\n    {\n        var reports = GetRecentReports();\n        foreach (var report in reports)\n        {\n            if (IsSuspicious(report))\n            {\n                FlagForReview(report);\n            }\n        }\n    }

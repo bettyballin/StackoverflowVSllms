@@ -1,1 +1,0 @@
-string id = reader.Item("ID").ToString();\nstring htmlCode = "<a href=\"http://www.erate.co.za/CompanyProfile.aspx?ID=" + id + "\">" +\n                  "<img src=\"http://www.erate.co.za/CompanyAdd.bmp\" alt=\"Go rate us on www.eRate.co.za\" " +\n                  "border=\"0\" style=\"width: 136px; height: 88px\" /></a>";\n\ntxtCode.Text = htmlCode;

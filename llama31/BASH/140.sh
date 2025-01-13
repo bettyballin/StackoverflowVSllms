@@ -1,0 +1,1 @@
+rsync -v --progress file1 rsync://user@host/receiver/remote_file1\nrsync -v --progress file2 rsync://user@host/receiver/remote_file2

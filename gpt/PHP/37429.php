@@ -1,1 +1,0 @@
-$query = "SELECT * FROM your_table";\n$result = mysql_query($query);\n\nif (!is_resource($result)) {\n    die('Invalid MySQL result resource');\n}\n\nwhile ($row = mysql_fetch_array($result)) {\n    // Process the row\n}

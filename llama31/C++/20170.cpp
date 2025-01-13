@@ -1,0 +1,1 @@
+// physx.cpp\nextern "C" __declspec(dllexport) void _PhysXCreate() {\n    // implementation\n}\n\nextern "C" __declspec(dllexport) void _PhysXRelease() {\n    // implementation\n}

@@ -1,1 +1,0 @@
-#include <sys/types.h>\n#include <unistd.h>\n#include <stdio.h>\n#include <stdlib.h>\n\nint main() {\n    if (setuid(65534) == -1) { // 65534 is the UID for nobody on many systems\n        perror("setuid");\n        exit(EXIT_FAILURE);\n    }\n    \n    // Your code here\n    while (1);\n\n    return 0;\n}

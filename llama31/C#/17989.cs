@@ -1,0 +1,1 @@
+using System;\nusing System.Data.SqlTypes;\n\npublic partial class JaroWinklerDistance\n{\n    [SqlProcedure]\n    public static SqlDouble Calculate(SqlString input1, SqlString input2)\n    {\n        // Jaro-Winkler distance algorithm implementation\n        // ...\n    }\n}

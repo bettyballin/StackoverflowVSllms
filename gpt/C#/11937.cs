@@ -1,1 +1,0 @@
-[TestFixture]\n     public class CalculatorTests\n     {\n         [Test]\n         public void AddTest()\n         {\n             var calculator = new Calculator();\n             calculator.EnterNumber(1);\n             calculator.EnterNumber(1);\n             var result = calculator.Add();\n             Assert.AreEqual(2, result);\n         }\n     }

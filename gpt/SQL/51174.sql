@@ -1,1 +1,0 @@
-WITH CTE AS (\n    SELECT \n        Name,\n        Date,\n        ROW_NUMBER() OVER (PARTITION BY Name ORDER BY Date DESC) AS RowNum\n    FROM \n        YourTableName\n)\nDELETE FROM YourTableName\nWHERE \n    (Name, Date) IN (\n        SELECT Name, Date\n        FROM CTE\n        WHERE RowNum > 1\n    );

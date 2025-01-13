@@ -1,0 +1,1 @@
+var element = document.getElementById('myElement');\nif (element === document.activeElement) {\n  console.log('myElement has focus');\n}

@@ -1,1 +1,0 @@
-SELECT * \nFROM prices \nWHERE customer IN (SELECT ITEM FROM TABLE(SPLIT(',', ?)))

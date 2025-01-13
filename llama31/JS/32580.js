@@ -1,0 +1,1 @@
+$.ajax({\n  url: 'your-php-page.php',\n  dataType: 'html',\n  success: function(data) {\n    $('#your-div').html(data);\n    // Execute JavaScript code\n    $(data).find('script').each(function() {\n      eval($(this).text());\n    });\n  }\n});

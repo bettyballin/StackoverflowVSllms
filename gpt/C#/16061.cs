@@ -1,1 +1,0 @@
-amespace WrapperLib1\n   {\n       public class MyClass\n       {\n           private Product.Common.Class _lib1Class;\n\n           public MyClass()\n           {\n               _lib1Class = new Product.Common.Class();\n           }\n\n           // Add methods to wrap functionality of _lib1Class\n       }\n   }

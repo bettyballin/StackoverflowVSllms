@@ -1,0 +1,1 @@
+$stringParts = array();\nfor ($i = 0; $i < 10000; $i++) {\n    $stringParts[] = 'Hello, world!';\n}\n$string = implode('', $stringParts);

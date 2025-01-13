@@ -1,1 +1,0 @@
-.sidebar {\n  background: orange; /* Fallback for older browsers */\n  background: linear-gradient(orange, tan); /* Standard browsers */\n  background: -webkit-linear-gradient(orange, tan); /* Safari 5.1-6, Chrome 10-25 */\n  background: -o-linear-gradient(orange, tan); /* Opera 11.1-12 */\n  background: -moz-linear-gradient(orange, tan); /* Firefox 3.6-15 */\n}

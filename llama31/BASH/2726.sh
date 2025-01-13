@@ -1,0 +1,1 @@
+php -c /etc/php.ini -d extension=ldap=Off -d extension=mysql=Off /path/to/script.php

@@ -1,0 +1,1 @@
+// C# example\nusing System.EnterpriseServices;\n\n// Server-side code\nContextUtil.IsInTransaction && ContextUtil.MyTransactionVote == TransactionVote.Commit

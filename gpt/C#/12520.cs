@@ -1,1 +1,0 @@
-routes.MapRoute(\n    name: "AuthReportGetPlans",\n    url: "GetPlans/{rid}/{year}",\n    defaults: new { controller = "Report", action = "GetPlansByYear", rid = UrlParameter.Optional, year = UrlParameter.Optional }\n);

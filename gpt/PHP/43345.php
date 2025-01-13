@@ -1,1 +1,0 @@
-// In your web page or presentation layer\ninclude_once 'libs/db_functions.php';

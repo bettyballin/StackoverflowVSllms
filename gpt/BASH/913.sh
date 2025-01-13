@@ -1,1 +1,0 @@
-sudo chmod 755 /path/to/check_apc.php\n   sudo chmod 1777 /tmp

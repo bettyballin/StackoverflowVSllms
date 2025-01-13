@@ -1,0 +1,1 @@
+protected void Page_Load(object sender, EventArgs e)\n{\n    Repeater1.DataSource = GetData(); // Bind to data source\n    Repeater1.DataBind();\n}

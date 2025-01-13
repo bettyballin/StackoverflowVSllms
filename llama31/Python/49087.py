@@ -1,0 +1,1 @@
+import webbrowser\n\n# Create a URL for the webpage with choices\nurl = "http://example.com/choices.html"\n\n# Open the webpage in the default browser\nwebbrowser.open(url)

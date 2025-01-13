@@ -1,0 +1,1 @@
+using System;\nusing System.Runtime.InteropServices;\n\nclass Program\n{\n    [DllImport("kernel32.dll")]\n    static extern IntPtr GetConsoleWindow();\n\n    [DllImport("user32.dll")]\n    static extern bool SetForegroundWindow(IntPtr hWnd);\n\n    static void Main(string[] args)\n    {\n        IntPtr hWnd = GetConsoleWindow();\n        SetForegroundWindow(hWnd);\n    }\n}

@@ -1,1 +1,0 @@
-Partial Class MyTable\n    Private _context As MyDataContext\n\n    Public Sub OnCreated(context As MyDataContext)\n        _context = context\n        ' Now you can access the context's property\n        Dim contextValue = _context.MyValue\n    End Sub\nEnd Class

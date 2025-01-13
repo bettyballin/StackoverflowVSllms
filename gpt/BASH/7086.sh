@@ -1,1 +1,0 @@
-/usr/local/bin/python2.6 -m ensurepip

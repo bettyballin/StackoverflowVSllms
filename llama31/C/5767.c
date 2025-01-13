@@ -1,0 +1,1 @@
+function string f_get_hello_world() library "shared.dll" extern "C";

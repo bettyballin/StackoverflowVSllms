@@ -1,0 +1,1 @@
+.col-middle .majors-list li {\n  list-style-type: none;\n  width: 50%;\n  float: left;\n  margin-bottom: 2px;\n}\n\n.col-middle .majors-list li:has(.concentrations-list) {\n  margin-bottom: 0;\n}\n\n.col-middle ul.majors-list {\n  margin-left: 0;\n}\n\n.col-middle ul.concentrations-list {\n  overflow: auto;\n}\n\n.col-middle .concentrations-list li {\n  float: none;\n}

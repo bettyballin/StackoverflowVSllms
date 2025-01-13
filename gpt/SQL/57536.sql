@@ -1,1 +1,0 @@
-ALTER TABLE YourTable\n     ADD PRIMARY KEY (YourPrimaryKeyColumn);

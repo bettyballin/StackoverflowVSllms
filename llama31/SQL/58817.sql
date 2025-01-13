@@ -1,0 +1,1 @@
+SELECT * FROM (\n               SELECT * FROM employees\n                WHERE dept_id = 'SALE'\n              )\nSTART WITH manager_id is null\nCONNECT BY PRIOR employee_id = manager_id

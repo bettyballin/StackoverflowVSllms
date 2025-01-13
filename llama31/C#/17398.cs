@@ -1,0 +1,1 @@
+[TestMethod]\npublic void TestMethod1() \n{ \n    var principal = new WindowsPrincipal(WindowsIdentity.GetCurrent());\n    Thread.CurrentThread.SetPrincipal(principal);\n    var c = new MyClass();\n}

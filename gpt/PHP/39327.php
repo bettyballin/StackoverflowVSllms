@@ -1,1 +1,0 @@
-if ($_SERVER['REQUEST_METHOD'] === 'POST') {\n       $history12 = $_POST['history12'];\n       echo $history12;\n   } else {\n       echo 'Form not submitted yet.';\n   }

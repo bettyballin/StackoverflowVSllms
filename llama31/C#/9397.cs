@@ -1,0 +1,1 @@
+[DllImport("yourdllname")]\npublic static extern void Func(\n    [MarshalAs(UnmanagedType.LPArray, SizeParamIndex = 0)] \n    byte[] bytes, \n    int size);

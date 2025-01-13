@@ -1,1 +1,0 @@
-protected override void OnModelCreating(ModelBuilder modelBuilder)\n{\n    modelBuilder.Entity<MyEntity>()\n        .Property(e => e.RowVersion)\n        .IsRowVersion();\n}

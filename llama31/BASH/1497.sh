@@ -1,0 +1,1 @@
+mysql -u username -p password -e "SELECT COUNT(predicate), subject FROM TableA GROUP BY subject FIELDS TERMINATED BY ',';" > output.txt

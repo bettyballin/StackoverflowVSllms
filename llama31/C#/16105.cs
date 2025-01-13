@@ -1,0 +1,1 @@
+using HtmlAgilityPack;\n\nvoid main() {\n    string html = "<html><body>Hello, World!</body></html>";\n    HtmlDocument doc = new HtmlDocument();\n    doc.LoadHtml(html);\n\n    // Do something with the parsed HTML...\n}

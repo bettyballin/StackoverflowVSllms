@@ -1,0 +1,1 @@
+ExecuteQuery(connectionStringA, sqlStatementA);\nExecuteQuery(connectionStringB, sqlStatementB);

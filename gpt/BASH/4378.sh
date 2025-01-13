@@ -1,1 +1,0 @@
-cscript.exe adsutil.vbs set w3svc/WAMUserName IWAM_<MachineName>\n    cscript.exe adsutil.vbs set w3svc/WAMUserPass newpassword

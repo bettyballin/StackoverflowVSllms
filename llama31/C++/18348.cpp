@@ -1,0 +1,1 @@
+#include <atomic>\n\nstd::atomic<int> shared_var;\n\nvoid writer() {\n    shared_var = 42;\n}\n\nvoid reader() {\n    int value = shared_var.load();\n    // use value\n}

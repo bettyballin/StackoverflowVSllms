@@ -1,0 +1,1 @@
+etsh wlan disconnect interface=$interface

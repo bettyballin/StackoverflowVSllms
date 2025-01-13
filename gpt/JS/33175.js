@@ -1,1 +1,0 @@
-var socket = new WebSocket("ws://your-websocket-endpoint");\n\nsocket.onopen = function(event) {\n  console.log("WebSocket is open now.");\n};\n\nsocket.onmessage = function(event) {\n  console.log("WebSocket message received:", event.data);\n};\n\nsocket.onclose = function(event) {\n  console.log("WebSocket is closed now.");\n};

@@ -1,0 +1,1 @@
+$resource = sqlite_popen('example.db', 0666, $error);\ndebug_zval_dump($resource);

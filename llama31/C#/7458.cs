@@ -1,0 +1,1 @@
+using System.Globalization;\n\nCultureInfo culture = new CultureInfo("ja-JP");

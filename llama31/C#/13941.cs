@@ -1,0 +1,1 @@
+var list = new List<MyObj>();\n// ...\nvar comparer = new MyObjComparer();\nif (list.Contains(myObjInstance, comparer))\n{\n    // ...\n}

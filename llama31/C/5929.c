@@ -1,0 +1,1 @@
+#include <mysql/mysql.h>\n#include <string.h>\n\nchar* my_function(UDF_INIT *initid, UDF_ARGS *args, char *result, unsigned long *length, char *is_null, char *error)\n{\n    char *input = args->args[0];\n    char *output = malloc(strlen(input) + 1);\n    strcpy(output, input);\n    // modify the output string as needed\n    return output;\n}

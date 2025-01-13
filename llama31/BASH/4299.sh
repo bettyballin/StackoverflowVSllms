@@ -1,0 +1,1 @@
+yum upgrade --disablerepo=base --disablerepo=updates --enablerepo=rpmforge subversio

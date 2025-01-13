@@ -1,1 +1,0 @@
-class User < ApplicationRecord\n  validate :new_field_inclusion\n\n  private\n\n  def new_field_inclusion\n    return unless new_field.present?\n    errors.add(:new_field, "is not included in the list") unless %w(option1 option2).include?(new_field)\n  end\nend

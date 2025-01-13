@@ -1,1 +1,0 @@
-SELECT id, first_name, last_name, department \nFROM employees \nWHERE department = 'HR';

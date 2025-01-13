@@ -1,1 +1,0 @@
-WALLET_LOCATION =\n       (SOURCE =\n         (METHOD = FILE)\n         (METHOD_DATA =\n           (DIRECTORY = /path/to/wallet)\n         )\n       )\n     SQLNET.WALLET_OVERRIDE = TRUE

@@ -1,0 +1,1 @@
+XXCOPY source destination /clone /z /q /y /c

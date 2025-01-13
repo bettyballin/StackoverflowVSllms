@@ -1,1 +1,0 @@
-zgrep -A 10 '' filename.gz | tail -n 10

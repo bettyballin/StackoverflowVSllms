@@ -1,1 +1,0 @@
-public class FormModel\n   {\n       public string Initials { get; set; }\n       public DateTime Date { get; set; }\n       public string Ticket { get; set; }\n       public string Content { get; set; }\n       public List<string> CCList { get; set; }\n   }

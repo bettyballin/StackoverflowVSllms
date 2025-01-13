@@ -1,0 +1,1 @@
+$unlink = array_unique($linkphoto, SORT_REGULAR);\n\nforeach ($unlink as $link) {\n    echo $link, "<br />";\n}

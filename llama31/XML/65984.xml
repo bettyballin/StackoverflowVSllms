@@ -1,0 +1,1 @@
+<configuration>\n  <connectionStrings>\n    <add name="OracleDbContext" connectionString="Data Source=your_oracle_instance;User ID=your_username;Password=your_password;" providerName="Oracle.ManagedDataAccess.Client"/>\n  </connectionStrings>\n</configuration>

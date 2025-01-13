@@ -1,0 +1,1 @@
+amed-checkconf -z

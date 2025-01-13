@@ -1,1 +1,0 @@
-$myArray = array(\n  array("Apples", 10),\n  array("Oranges", 12),\n  array("Strawberries", 3)\n);\n\nusort($myArray, function($a, $b){\n  return strcmp($a[0], $b[0]);\n});

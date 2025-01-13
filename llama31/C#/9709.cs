@@ -1,0 +1,1 @@
+int x = 0;\n\n// x = x + 1\nx = x + 1;\nConsole.WriteLine(x); // 1\n\n// x += 1\nx += 1;\nConsole.WriteLine(x); // 2

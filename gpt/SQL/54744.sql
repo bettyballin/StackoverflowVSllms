@@ -1,1 +1,0 @@
-SELECT ROUND(45.923, -1) AS RoundedValue;

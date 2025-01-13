@@ -1,0 +1,1 @@
+string userInput = "Hello, <script>alert('XSS')</script>!";\nstring escapedInput = System.Net.WebUtility.HtmlEncode(userInput);

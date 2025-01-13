@@ -1,0 +1,1 @@
+function stateck() {\n    if (httpxml.readyState == 4) {\n        if (httpxml.responseText.indexOf("Username Ok") !== -1) {\n            UserNameOk = true;\n        } else {\n            UserNameOk = false;\n        }\n        checkCanSubmit();\n        document.getElementById("user_div").innerHTML = httpxml.responseText;\n    }\n}

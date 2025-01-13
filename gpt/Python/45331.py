@@ -1,1 +1,0 @@
-from fuzzywuzzy import fuzz\n\nstring1 = "kitten"\nstring2 = "sitting"\nsimilarity_score = fuzz.ratio(string1, string2)\nprint(f"Similarity score between '{string1}' and '{string2}' is {similarity_score}")

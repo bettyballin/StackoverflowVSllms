@@ -1,1 +1,0 @@
-reg query "HKEY_CURRENT_USER\Keyboard Layout\Preload" /v 1

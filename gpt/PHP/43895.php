@@ -1,1 +1,0 @@
-$encryption_key = getenv('ENCRYPTION_KEY');\n   if (!$encryption_key) {\n       die('Encryption key not set');\n   }\n\n   // Use $encryption_key with AES_ENCRYPT/AES_DECRYPT

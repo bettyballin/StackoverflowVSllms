@@ -1,0 +1,1 @@
+with open('helloworld', 'r') as file:\n    contents = file.read()\n    print(contents)

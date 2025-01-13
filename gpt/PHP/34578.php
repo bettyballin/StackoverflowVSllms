@@ -1,1 +1,0 @@
-<?php\n  $whatever = true;\n\n  if ($whatever == true) {\n    echo "file2.php has been included<br />";\n    return; // This returns control to the parent script without stopping it\n  }\n\n  // Additional code here\n?>

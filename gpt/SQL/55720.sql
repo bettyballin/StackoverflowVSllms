@@ -1,1 +1,0 @@
-select r.code, r.name\nfrom Region r\nwhere r.code in (select distinct l.regionCode\n                 from LogTable l)\n      and r.districtCode = :districtCode;

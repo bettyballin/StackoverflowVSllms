@@ -1,0 +1,1 @@
+using System;\nusing System.Xml;\n\npublic class XmlFormatter\n{\n    public static string FormatXml(string xmlString)\n    {\n        XmlDocument xmlDoc = new XmlDocument();\n        xmlDoc.LoadXml(xmlString);\n        return xmlDoc.OuterXml;\n    }\n}

@@ -1,1 +1,0 @@
-$source = "Some text with ampersands & Chinese characters 汉字";\n$output = htmlentities($source, ENT_QUOTES, 'UTF-8');\necho $output; // Output: Some text with ampersands &amp; Chinese characters &#27721;&#23383;

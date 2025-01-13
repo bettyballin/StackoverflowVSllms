@@ -1,0 +1,1 @@
+loadjava -user <username>/<password> -resolve <path_to_your_jar_file>.jar

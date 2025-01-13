@@ -1,0 +1,1 @@
+using Tesseract;\n\n// Initialize Tesseract\nTesseractEngine engine = new TesseractEngine(@"path/to/tesseract.exe");\n\n// Perform OCR on a PDF page\nBitmap pdfPage = new Bitmap("path/to/pdf/page.png");\nstring extractedText = engine.Process(pdfPage);

@@ -1,1 +1,0 @@
-ls -lh vm_image_name.tar.gz

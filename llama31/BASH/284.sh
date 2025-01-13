@@ -1,0 +1,1 @@
+clumsy.exe -i eth0 -b 100kbit -l 50ms -j 10ms -p 5%

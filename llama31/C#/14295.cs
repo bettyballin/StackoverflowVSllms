@@ -1,0 +1,1 @@
+using System.Web.Hosting;\n\n// Get the app domain for the application pool\nvar appDomain = AppDomain.CurrentDomain;\n\n// Get the application pool name\nvar appPoolName = HostingEnvironment.ApplicationPoolName;\n\n// Get the application pool\nvar appPool = new ApplicationPool(appPoolName);\n\n// Recycle the application pool\nappPool.Recycle();

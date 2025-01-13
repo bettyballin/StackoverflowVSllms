@@ -1,0 +1,1 @@
+thud = (int (*)(void *))(foo);

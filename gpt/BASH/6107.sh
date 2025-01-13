@@ -1,1 +1,0 @@
-./jboss-cli.sh --connect command=:reload

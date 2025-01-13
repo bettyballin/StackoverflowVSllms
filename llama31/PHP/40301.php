@@ -1,0 +1,1 @@
+// Example usage:\nrequire_once 'Rbac.php';\n$rbac = new Rbac();\n$rbac->addRole('admin');\n$rbac->addPermission('create_post');\n$rbac->assignPermission('admin', 'create_post');

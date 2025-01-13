@@ -1,1 +1,0 @@
--- On both servers\nCREATE TABLE People (\n    PersonID INT PRIMARY KEY,\n    Name NVARCHAR(100),\n    Role NVARCHAR(50) -- Role could be 'Teacher' or 'Student'\n);

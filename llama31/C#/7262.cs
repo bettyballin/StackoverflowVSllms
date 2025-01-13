@@ -1,0 +1,1 @@
+decimal amount = Decimal.Zero;\nif (totalAmount < Decimal.Zero) \n{\n    // handle negative amount\n}

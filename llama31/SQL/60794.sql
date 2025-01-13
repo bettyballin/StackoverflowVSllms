@@ -1,0 +1,1 @@
+CREATE DATABASE LINK mssql_link CONNECT TO username IDENTIFIED BY password\nUSING 'DRIVER={ODBC Driver 17 for SQL Server};SERVER=mssql_server;DATABASE=mssql_database;UID=username;PWD=password';

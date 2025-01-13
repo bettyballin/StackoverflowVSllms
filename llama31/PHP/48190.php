@@ -1,0 +1,1 @@
+$today = date('Y-m-d');\n\n$query = "SELECT * \n          FROM your_table \n          WHERE '$today' BETWEEN date_from AND date_to";\n\n$result = mysqli_query($conn, $query);\n\nif (mysqli_num_rows($result) > 0) {\n    echo "There are requests for today's date.";\n} else {\n    echo "No requests for today's date.";\n}

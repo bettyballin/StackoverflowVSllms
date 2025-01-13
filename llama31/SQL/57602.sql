@@ -1,0 +1,1 @@
+INSERT INTO Tags (Tag) VALUES ('" & tag & "')

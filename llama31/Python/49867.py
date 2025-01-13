@@ -1,0 +1,1 @@
+import gtk\n\n# Create a gtkrc string that overrides the bg_pixmap for gtk.Window\ngtkrc_string = """\nstyle "my_style" {\n  bg_pixmap[NORMAL] = None\n}\nclass "GtkWidget" style "my_style"\n"""\n\n# Parse the gtkrc string\ngtk.rc_parse_string(gtkrc_string)\n\n# Create your window and widgets as usual\nwindow = gtk.Window()

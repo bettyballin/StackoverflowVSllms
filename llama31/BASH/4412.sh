@@ -1,0 +1,1 @@
+aspnet_compiler -v / -p "C:\Path\To\Your\WebSite" -f "C:\Path\To\Your\DeploymentPackage.zip"

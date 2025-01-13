@@ -1,1 +1,0 @@
-# Download Adobe AIR 2.6 from the official Adobe archive\n   wget https://airdownload.adobe.com/air/lin/download/2.6/AdobeAIRInstaller.bin\n\n   # Make the installer executable\n   chmod +x AdobeAIRInstaller.bin\n\n   # Run the installer\n   sudo ./AdobeAIRInstaller.bi

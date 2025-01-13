@@ -1,1 +1,0 @@
-using System;\nusing System.IO;\nusing System.Reflection;\n\nclass Program\n{\n    static void Main()\n    {\n        string exePath = Assembly.GetExecutingAssembly().GetName().CodeBase;\n        string exeDirectory = Path.GetDirectoryName(exePath);\n        Console.WriteLine("Executable Directory: " + exeDirectory);\n    }\n}

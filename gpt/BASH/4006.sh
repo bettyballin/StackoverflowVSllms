@@ -1,1 +1,0 @@
-chmod +x /etc/db_backup.cro

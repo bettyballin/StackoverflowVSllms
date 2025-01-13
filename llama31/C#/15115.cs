@@ -1,0 +1,1 @@
+public class Order\n{\n    private readonly IList<OrderLine> lines = new List<OrderLine>();\n\n    public IEnumerable<OrderLine> Lines => lines;\n\n    public void AddLine(OrderLine line)\n    {\n        lines.Add(line);\n    }\n}

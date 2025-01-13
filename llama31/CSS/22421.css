@@ -1,0 +1,1 @@
+.content {\n  display: none;\n}\n\n.content.active {\n  display: block;\n}

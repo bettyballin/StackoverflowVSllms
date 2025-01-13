@@ -1,0 +1,1 @@
+public abstract class BaseClass\n{\n    public static void StaticMethod()\n    {\n        var instance = new BaseClass(); // or use a factory method\n        instance.InstanceMethod();\n    }\n\n    protected abstract void InstanceMethod();\n}\n\npublic class ConcreteClass : BaseClass\n{\n    protected override void InstanceMethod()\n    {\n        // implementation\n    }\n}

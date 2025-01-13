@@ -1,0 +1,1 @@
+[ComVisible(true)]\npublic interface ITest\n{\n    string Name { get; }\n    [MarshalAs(UnmanagedType.VariantBool)]\n    DateTime Date { get; }\n}\n\n[Serializable]\n[ComVisible(true)]\npublic class Test : ITest\n{\n    public string Name { get; private set; }\n    public DateTime Date { get; private set; }\n}

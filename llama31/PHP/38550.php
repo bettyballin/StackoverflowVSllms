@@ -1,0 +1,1 @@
+<a href="<?PHP echo $selfurl;?>/?<?PHP echo $qry_str;?>" class="bluelinkbold">Next</a>

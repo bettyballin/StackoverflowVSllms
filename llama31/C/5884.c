@@ -1,0 +1,1 @@
+void rearrange_bst(node* root, int (*compare)(node*, node*)) {\n    node** nodes = malloc(sizeof(node*) * count_nodes(root));\n    int i = 0;\n    inorder_traversal(root, nodes, &i);\n    qsort(nodes, i, sizeof(node*), compare);\n    rebuild_bst(nodes, i);\n    free(nodes);\n}\n\nint compare_freq(node* a, node* b) {\n    return b->freq - a->freq;\n}

@@ -1,1 +1,0 @@
-@receiver(post_save, sender=YourModel)\ndef file_post_save(sender, instance, **kwargs):\n    if instance.your_file_field:\n        set_file_permissions(instance.your_file_field.path)

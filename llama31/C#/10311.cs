@@ -1,0 +1,1 @@
+object result = cmd.ExecuteScalar();\nint value = (result == DBNull.Value) ? 0 : Convert.ToInt32(result);

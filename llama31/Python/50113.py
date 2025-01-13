@@ -1,0 +1,1 @@
+import re\n\ntext = """\n{foreach (...)}\nSome random HTML content <div class="">aklakdls</div> and some {$/r/template} markup inside.\n{/foreach}\n"""\n\npattern = r'{foreach[^}]*}(?:.(?!{/foreach}))*.{/foreach}'\nmatches = re.findall(pattern, text, flags=re.DOTALL)\n\nfor match in matches:\n    print(match)

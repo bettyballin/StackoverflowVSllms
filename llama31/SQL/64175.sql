@@ -1,0 +1,1 @@
+CREATE INDEX idx_check_num_num ON payment_line (TO_NUMBER(check_num));

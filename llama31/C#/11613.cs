@@ -1,0 +1,1 @@
+bool areEqual = list1.Zip(list2, (x, y) => x.Equals(y)).All(b => b);

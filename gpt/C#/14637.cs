@@ -1,1 +1,0 @@
-struct Point\n{\n    public int X { get; }\n    public int Y { get; }\n    \n    public Point(int x, int y)\n    {\n        X = x;\n        Y = y;\n    }\n}

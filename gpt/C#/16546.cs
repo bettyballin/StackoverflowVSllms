@@ -1,1 +1,0 @@
-public ActionResult Index()\n{\n    string userInput = "<script>alert('XSS');</script>"; // Example of user input\n    HtmlString safeOutput = HtmlHelper.Encode(userInput);\n\n    ViewBag.SafeOutput = safeOutput;\n    return View();\n}

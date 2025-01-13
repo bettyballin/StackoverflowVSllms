@@ -1,0 +1,1 @@
+var result = from a in setA\n             join b in setB on a.ID equals b.ID into leftJoin\n             from b in leftJoin.DefaultIfEmpty()\n             where b == null\n             select a;

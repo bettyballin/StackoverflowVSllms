@@ -1,1 +1,0 @@
-<?php\necho "<h1>Races</h1>";\n// Other content specific to the 'races' page\n?>

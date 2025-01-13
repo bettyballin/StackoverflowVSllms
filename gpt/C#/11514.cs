@@ -1,1 +1,0 @@
-parameters.Add("@column1", SqlDbType.Int).Value = 4;

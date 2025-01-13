@@ -1,0 +1,1 @@
+CREATE TABLE transactions (\n  amount DECIMAL(10, 2)\n);

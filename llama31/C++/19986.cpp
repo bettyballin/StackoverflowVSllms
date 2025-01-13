@@ -1,0 +1,1 @@
+HRESULT hr = CoCreateInstance(\n    CLSID_MyObject,  // CLSID of your COM object\n    NULL,            // Outer IUnknown\n    CLSCTX_INPROC_SERVER,  // Context\n    IID_IMyObject,   // IID of the interface you need\n    (LPVOID*)&pMyObject  // Pointer to your object\n);\n\nif (SUCCEEDED(hr)) {\n    // Use pMyObject\n    pMyObject->Release();\n}

@@ -1,0 +1,1 @@
+services.AddTransient<ICurrentUser, HttpContextCurrentUser>();

@@ -1,0 +1,1 @@
+public class ShipmentRequest : AggregateRoot {\n    public ShipmentRequestId Id { get; }\n    // ...\n}

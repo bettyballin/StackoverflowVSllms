@@ -1,1 +1,0 @@
-caspol -machine -addfulltrust "path_to_dll"

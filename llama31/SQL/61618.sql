@@ -1,0 +1,1 @@
+CREATE TABLE PersonAuthors (\n  PersonID INT,\n  AuthorID INT,\n  PRIMARY KEY (PersonID, AuthorID),\n  FOREIGN KEY (PersonID) REFERENCES Persons(PersonID),\n  FOREIGN KEY (AuthorID) REFERENCES Authors(AuthorID)\n);

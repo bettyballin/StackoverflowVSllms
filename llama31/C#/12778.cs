@@ -1,0 +1,1 @@
+public class Queue<T> {\n    private LinkedList<T> list;\n\n    public void Enqueue(T item) {\n        list.AddLast(item);\n    }\n\n    public T Dequeue() {\n        return list.RemoveFirst();\n    }\n}

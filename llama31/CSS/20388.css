@@ -1,0 +1,1 @@
+.fade-in {\n    transition: background-color 0.5s ease-in-out;\n}\n\n.fade-in.warning {\n    background-color: #ffc0c0; /* muted red */\n}

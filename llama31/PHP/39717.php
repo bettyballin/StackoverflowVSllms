@@ -1,0 +1,1 @@
+$dom = new DOMDocument();\n$dom->loadHTML($response);\n$xpath = new DOMXPath($dom);\n// Use XPath expressions to extract the data you need

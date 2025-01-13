@@ -1,0 +1,1 @@
+// Client-side polling example\nsetInterval(function() {\n  $.ajax({\n    type: "GET",\n    url: "/check-status",\n    success: function(data) {\n      if (data.status === "completed") {\n        // Update UI accordingly\n      }\n    }\n  });\n}, 1000); // Poll every 1 second

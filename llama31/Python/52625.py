@@ -1,0 +1,1 @@
+s = "world"\ns = "Hello " + s\n# or\ns = "Hello ".join([s])

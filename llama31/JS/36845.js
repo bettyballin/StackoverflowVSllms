@@ -1,0 +1,1 @@
+const express = require('express');\nconst app = express();\n\napp.get('/resource/:id', (req, res) => {\n  const viewerRole = req.header('X-Viewer-Role');\n  if (viewerRole === 'seller') {\n    // Render seller-specific view\n  } else if (viewerRole === 'buyer') {\n    // Render buyer-specific view\n  } else {\n    // Handle invalid or missing viewer role\n  }\n});

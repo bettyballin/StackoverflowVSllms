@@ -1,1 +1,0 @@
-int[] orderIds = { 1, 4, 5 };\nvar orders = from order in db.Orders\n             where orderIds.Contains(order.OrderID)\n             select order;

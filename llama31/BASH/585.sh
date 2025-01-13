@@ -1,0 +1,1 @@
+alias python='rlwrap python'

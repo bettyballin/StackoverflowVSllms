@@ -1,0 +1,1 @@
+def tit_for_tat(opponent_move, previous_move):\n    if previous_move is None:\n        return "cooperate"\n    elif opponent_move == "cooperate":\n        return "cooperate"\n    else:\n        return "defect"\n\n# Example usage:\nopponent_move = "cooperate"\nprevious_move = None\nmy_move = tit_for_tat(opponent_move, previous_move)\nprint(my_move)  # Output: cooperate

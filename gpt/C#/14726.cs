@@ -1,1 +1,0 @@
-using (var context = new YourDataContext())\n{\n    string searchString = "substring";\n    var query = from user in context.Users\n                where user.Name.Contains(searchString)\n                select user;\n\n    foreach (var user in query)\n    {\n        Console.WriteLine(user.Name);\n    }\n}

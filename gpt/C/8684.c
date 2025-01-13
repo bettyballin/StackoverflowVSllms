@@ -1,1 +1,0 @@
-#define STRINGIFY(x) #x\n#define TOSTRING(x) STRINGIFY(x)\n#define COMPILER_MESSAGE(msg) _Pragma(TOSTRING(message(msg)))\n\nCOMPILER_MESSAGE("This is a compile-time message")

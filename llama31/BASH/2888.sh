@@ -1,0 +1,1 @@
+regsvr32 "C:\Path\To\AxSpreadsheet.ocx"

@@ -1,0 +1,1 @@
+curl http://your-web-server.com/service_control.php?command=start

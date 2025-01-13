@@ -1,0 +1,1 @@
+<?php\necho PHP_INT_SIZE . "\n"; // Should output 8 for 64-bit integers\necho PHP_INT_MAX . "\n";  // Should output a large 64-bit integer value\n?>

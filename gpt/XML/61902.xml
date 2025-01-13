@@ -1,1 +1,0 @@
-<wse:Subscribe>\n       <wse:EndTo>\n           <wsa:Address>http://example.org/events</wsa:Address>\n       </wse:EndTo>\n   </wse:Subscribe>

@@ -1,0 +1,1 @@
+gcc -m32 -c coreset.c -o coreset.o

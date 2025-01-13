@@ -1,0 +1,1 @@
+// ASP.NET (C#)\ntry\n{\n    // your code here\n}\ncatch (Exception ex)\n{\n    Response.Write("An error occurred: " + ex.Message);\n}

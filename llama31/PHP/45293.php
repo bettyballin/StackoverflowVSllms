@@ -1,0 +1,1 @@
+$loginData = getLoginData();\n// Access variables: $loginData['dbHost'], $loginData['username'], etc.

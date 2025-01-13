@@ -1,0 +1,1 @@
+DELETE t1\nFROM dbo.TestTable t1\nINNER JOIN (\n    SELECT ID, MAX(InsertedDate) AS MaxDate\n    FROM dbo.TestTable\n    GROUP BY ID\n) t2\nON t1.ID = t2.ID AND t1.InsertedDate < t2.MaxDate;

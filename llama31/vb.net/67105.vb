@@ -1,0 +1,1 @@
+Dim divClass As String = thediv.Attributes.GetAttribute("class")

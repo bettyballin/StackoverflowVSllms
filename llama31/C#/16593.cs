@@ -1,0 +1,1 @@
+var query = from t in Table\n            let doubleAge = t.Age * 2\n            where doubleAge > 30  // Okay: doubleAge is available here\n            orderby doubleAge    // Okay: doubleAge is available here\n            select new { t.Name, DoubleAge = doubleAge };

@@ -1,0 +1,1 @@
+uint16_t crc16(const uint8_t *data, size_t len) {\n    uint16_t crc = 0xFFFF;\n    for (size_t i = 0; i < len; i++) {\n        crc = (crc >> 8) ^ (crc & 0xFF) ^ data[i];\n    }\n    return crc;\n}

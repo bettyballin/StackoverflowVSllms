@@ -1,1 +1,0 @@
-// Usage example\n$object = new MyTable();\n$object->setFulltextColumn('text to search');\n$object->save();

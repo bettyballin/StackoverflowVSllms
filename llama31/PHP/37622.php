@@ -1,0 +1,1 @@
+<?php\n$data = array(\n    array('STA-VES', 'East', 4500),\n    array('STA-CRF', 'West', 5400)\n);\necho json_encode($data);\n?>

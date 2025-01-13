@@ -1,0 +1,1 @@
+<jsp-config>\n    <jsp-property-group>\n        <url-pattern>*.jsp</url-pattern>\n        <include-prelude>/WEB-INF/jspf/dummy.jspf</include-prelude>\n    </jsp-property-group>\n</jsp-config>

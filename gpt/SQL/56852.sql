@@ -1,1 +1,0 @@
-CREATE TABLE main_table (\n    id INT AUTO_INCREMENT PRIMARY KEY,\n    -- other fields for the main entity\n);\n\nCREATE TABLE words_table (\n    id INT AUTO_INCREMENT PRIMARY KEY,\n    main_id INT,\n    word VARCHAR(255),\n    FOREIGN KEY (main_id) REFERENCES main_table(id)\n);

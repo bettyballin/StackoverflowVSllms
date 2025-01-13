@@ -1,0 +1,1 @@
+SELECT \n  bc.id, \n  bc.title, \n  bc.estimateCurrent, \n  (SELECT COALESCE(SUM(TIME_TO_SEC(TIMEDIFF(dateEnding, dateBeginning))), 0) \n   FROM timesheet \n   WHERE `#case` = bc.id) AS timeusedinsec\nFROM \n  cases bc

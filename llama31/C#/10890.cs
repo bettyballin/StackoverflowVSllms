@@ -1,0 +1,1 @@
+using System.Data.SqlClient;\n\n// Create a transaction\nusing (SqlConnection connection = new SqlConnection(connectionString))\n{\n    connection.Open();\n    SqlTransaction transaction = connection.BeginTransaction();\n\n    try\n    {\n        // Perform database operations\n        transaction.Commit();\n    }\n    catch\n    {\n        transaction.Rollback();\n    }\n}

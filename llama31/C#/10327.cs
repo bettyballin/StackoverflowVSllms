@@ -1,0 +1,1 @@
+// ASP Classic\nResponse.Write("Hello, World!")\n\n// ASP.NET (C#)\nResponse.Write("Hello, World!"); // or\nResponse.Write(@"Hello, World!"); // for verbatim string literals

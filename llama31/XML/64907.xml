@@ -1,0 +1,1 @@
+<dependency>\n    <groupId>org.samba.jcifs</groupId>\n    <artifactId>jcifs</artifactId>\n    <version>1.3.18</version>\n</dependency>

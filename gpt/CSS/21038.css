@@ -1,1 +1,0 @@
-fieldset {\n    padding: 0;\n    margin: 0;\n    background-color: #yourFieldsetBackgroundColor;\n    border: 1px solid #yourBorderColor;\n}\n\nlegend {\n    background-color: #yourPageBackgroundColor;\n    padding: 0;\n}

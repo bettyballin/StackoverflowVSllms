@@ -1,0 +1,1 @@
+function updateChat() {\n    $.ajax({\n        type: "GET",\n        url: "chat_data.php",\n        dataType: "html",\n        success: function(data) {\n            $("#chattable").html(data);\n        }\n    });\n\n    setTimeout(updateChat, 2000);\n}\n\n$(document).ready(function() {\n    updateChat();\n});

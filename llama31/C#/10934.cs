@@ -1,0 +1,1 @@
+using (var fileStream = File.OpenText(Server.MapPath("\cert_key_pem.txt")))\n{\n    dp.SSLCertStore = fileStream.ReadToEnd();\n}

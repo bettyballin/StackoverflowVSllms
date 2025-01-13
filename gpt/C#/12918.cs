@@ -1,1 +1,0 @@
-// Configure Identity in Startup.cs\n     services.AddIdentity<ApplicationUser, IdentityRole>()\n             .AddEntityFrameworkStores<ApplicationDbContext>()\n             .AddDefaultTokenProviders();

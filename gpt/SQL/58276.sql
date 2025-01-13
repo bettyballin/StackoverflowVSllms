@@ -1,1 +1,0 @@
-CREATE TABLE ContentTag (\n    ID INT IDENTITY PRIMARY KEY,\n    contentID INT NOT NULL,\n    tagID INT NOT NULL,\n    CONSTRAINT UC_ContentTag UNIQUE (contentID, tagID)\n);

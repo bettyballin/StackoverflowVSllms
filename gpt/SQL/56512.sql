@@ -1,1 +1,0 @@
-SELECT \n       e.first_name, \n       e.last_name, \n       d.department_name\n   FROM \n       employees e\n   JOIN \n       departments d ON e.department_id = d.department_id;

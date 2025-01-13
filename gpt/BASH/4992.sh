@@ -1,1 +1,0 @@
-py-spy top --pid <PID>

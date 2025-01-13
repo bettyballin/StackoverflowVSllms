@@ -1,0 +1,1 @@
+SELECT CONCAT(c1, DECODE(c1, NULL, c2, '')) FROM MyTable;

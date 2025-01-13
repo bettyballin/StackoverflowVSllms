@@ -1,0 +1,1 @@
+from flask import Flask, request, send_file\nfrom flask import abort\n\napp = Flask(__name__)\n\n@app.route('/static/<path:path>')\ndef serve_static(path):\n    if not is_authenticated(request):\n        abort(401)\n    return send_file('/static/' + path)\n\ndef is_authenticated(request):\n    # Your authentication logic here\n    pass

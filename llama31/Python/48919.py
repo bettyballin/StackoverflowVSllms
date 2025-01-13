@@ -1,0 +1,1 @@
+import os\nimport sys\n\nfrom django.core.management import execute_from_command_line\n\nif __name__ == "__main__":\n    os.environ.setdefault("DJANGO_SETTINGS_MODULE", "your_app.settings")\n    args = sys.argv + ["runserver", "0.0.0.0:8000"]\n    execute_from_command_line(args)

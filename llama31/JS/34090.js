@@ -1,0 +1,1 @@
+document.addEventListener("DOMContentLoaded", function() {\n  document.querySelector(".loader").style.display = "none";\n});

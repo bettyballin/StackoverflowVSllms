@@ -1,1 +1,0 @@
-using System.ServiceModel;\nusing System.ServiceModel.Web;\n\n[ServiceContract]\npublic interface IMyService\n{\n    [OperationContract]\n    [WebGet(ResponseFormat = WebMessageFormat.Json, UriTemplate = "/MethodName?param1={param1}&param2={param2}")]\n    string MethodName(string param1, string param2);\n}

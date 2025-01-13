@@ -1,0 +1,1 @@
+$('#choose-type').change(function() {\n  // ... your code to load new content ...\n  tb_init('.thickbox'); // re-initialize Thickbox on new content\n});

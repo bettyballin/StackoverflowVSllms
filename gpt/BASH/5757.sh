@@ -1,1 +1,0 @@
-pip install TurboGears==1.0.8

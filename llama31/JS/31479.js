@@ -1,0 +1,1 @@
+function unescapeHtml(html) {\n  const parser = new DOMParser();\n  const doc = parser.parseFromString(html, 'text/html');\n  return doc.documentElement.textContent;\n}\n\nconst text = "&lt;&lt;&lt;&amp;&amp;&amp;";\nconsole.log(unescapeHtml(text)); // Output: "<<<&&&"

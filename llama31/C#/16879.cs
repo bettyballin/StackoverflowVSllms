@@ -1,0 +1,1 @@
+try\n{\n    using (SqlConnection connection = new SqlConnection(connectionString))\n    {\n        connection.Open();\n        using (SqlCommand command = new SqlCommand("SELECT 1;", connection))\n        {\n            command.ExecuteNonQuery();\n        }\n    }\n}\ncatch (SqlException ex)\n{\n    // Handle the exception\n}

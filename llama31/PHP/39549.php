@@ -1,0 +1,1 @@
+$email_content = "Selected Radio Button Value: " . $selected_value;

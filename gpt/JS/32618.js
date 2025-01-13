@@ -1,1 +1,0 @@
-// Example of bind method\n   $('button').bind('click', function() {\n       alert('Button clicked!');\n   });

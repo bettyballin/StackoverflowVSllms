@@ -1,1 +1,0 @@
-[FileIOPermission(SecurityAction.InheritanceDemand, Read = @"C:\example.txt")]\n    public class BaseClass\n    {\n        public virtual void ReadFile()\n        {\n            // Method implementation\n        }\n    }

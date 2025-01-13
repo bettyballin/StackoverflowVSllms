@@ -1,0 +1,1 @@
+var searchText = "I am a simple string";\nvar foundElements = $('*:contains("' + searchText + '")');\n\n// do something with the found elements\nfoundElements.css('background-color', 'yellow');

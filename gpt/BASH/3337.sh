@@ -1,1 +1,0 @@
-TfsConfig Accounts /add /accountType:ApplicationTier /account:DOMAIN\Account /password:Password\n   TfsConfig ChangeServerID /SQLInstance:SQLInstance /DatabaseName:DBName

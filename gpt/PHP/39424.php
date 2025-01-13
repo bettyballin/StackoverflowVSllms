@@ -1,1 +1,0 @@
-$originalString = 'abcdefghi';

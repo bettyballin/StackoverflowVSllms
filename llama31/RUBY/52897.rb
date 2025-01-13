@@ -1,0 +1,1 @@
+class ApplicationController < ActionController::Base\n  before_action :clear_session\n\n  private\n\n  def clear_session\n    reset_session\n  end\nend

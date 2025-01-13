@@ -1,0 +1,1 @@
+$count = 0;\nwhile ($line[$count] === '*') {\n    $count++;\n}

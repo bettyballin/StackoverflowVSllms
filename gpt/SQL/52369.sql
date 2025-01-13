@@ -1,1 +1,0 @@
--- Start the transaction in serializable mode\nALTER SESSION SET ISOLATION_LEVEL = SERIALIZABLE;\n\n-- Step 1: Read some data\nSELECT * FROM my_table WHERE id = 1;\n\n-- Step 2: Attempt to update the same data\nUPDATE my_table SET value = 'new_value' WHERE id = 1;\n\n-- Commit the transaction\nCOMMIT;

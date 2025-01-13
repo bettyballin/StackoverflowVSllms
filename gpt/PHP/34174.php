@@ -1,1 +1,0 @@
-$haystack = "Hello World";\n$needle = "world";\n\nif (stripos($haystack, $needle) !== false) {\n    echo "Match found!";\n} else {\n    echo "No match found.";\n}

@@ -1,0 +1,1 @@
+class SuperClass {\n  function __construct() {\n    $reflection = new ReflectionClass($this);\n    echo 'I\'m in file ' . $reflection->getFileName() . "\n";\n  }\n}

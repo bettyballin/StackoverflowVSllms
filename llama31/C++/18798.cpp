@@ -1,0 +1,1 @@
+template <typename X>\nstruct Foo<X, Base<X>, typename enable_if<Base<X>>::type> { enum { value = 0 }; };

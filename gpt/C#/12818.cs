@@ -1,1 +1,0 @@
-System.Diagnostics.Trace.Listeners.Add(new System.Diagnostics.TextWriterTraceListener("trace.log"));\nSystem.Diagnostics.Trace.AutoFlush = true;

@@ -1,1 +1,0 @@
-/* Apply styles to the first-level tables after a specific element */\n.specific-element + table {\n    border: dashed 1px #333333;\n    padding: 2px;\n}\n\n/* No styles for nested tables */\n.specific-element + table table {\n    border: none;\n    padding: 0;\n}

@@ -1,1 +1,0 @@
-// Example pseudo-code for monitoring\n   void monitorLogins(String username, String ipAddress) {\n       // Implement logic to detect unusual login patterns\n       if (isSuspiciousActivity(username, ipAddress)) {\n           sendAlert(username, ipAddress);\n       }\n   }

@@ -1,0 +1,1 @@
+// Production code\nnamespace Company.Website\n{\n    public class MyClass\n    {\n        // ...\n    }\n}\n\n// Test code\nnamespace Company.Website.Tests\n{\n    public class MyClassTests\n    {\n        // ...\n    }\n}

@@ -1,0 +1,1 @@
+sed -n "/^-- Table structure for table \`your_table_name\`/,/^-- Table structure for table/p" your_dump_file.sql | mysql -u your_username -p your_database_name

@@ -1,0 +1,1 @@
+def min_distance(points):\n    points.sort()  # sort points by x-coordinate\n    n = len(points)\n    if n % 2 == 1:  # odd number of points\n        return points[n // 2]\n    else:  # even number of points\n        mid1 = points[n // 2 - 1]\n        mid2 = points[n // 2]\n        return (mid1 + mid2) / 2

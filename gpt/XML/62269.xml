@@ -1,1 +1,0 @@
-<system.web>\n        <machineKey validationKey="AutoGenerate,IsolateApps" decryptionKey="AutoGenerate,IsolateApps" validation="SHA1" decryption="AES" />\n        <pages enableViewStateMac="true" viewStateEncryptionMode="Always" />\n    </system.web>

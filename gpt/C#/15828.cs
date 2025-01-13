@@ -1,1 +1,0 @@
-protected void Application_Error(object sender, EventArgs e)\n{\n    Exception exception = Server.GetLastError();\n    HttpException httpException = exception as HttpException;\n\n    if (httpException != null && httpException.GetHttpCode() == 404)\n    {\n        Server.ClearError();\n        Response.Redirect("~/404.aspx");\n    }\n}

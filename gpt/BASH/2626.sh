@@ -1,1 +1,0 @@
--- For MySQL\n     mysqldump -u yourusername -p yourpassword yourdatabase > /path_to_backup/yourdatabase.sql

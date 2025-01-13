@@ -1,1 +1,0 @@
-condition ? expression1 : expression2

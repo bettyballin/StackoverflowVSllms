@@ -1,1 +1,0 @@
-#!/bin/bash\n\n# Directory where logs are stored\nLOG_DIR="/path/to/logs"\nARCHIVE_DIR="/path/to/archive"\n\n# Compress and move logs older than 7 days\nfind "$LOG_DIR" -type f -mtime +7 -exec waRmZip {} "$ARCHIVE_DIR" \;\n\n# Remove logs older than 1 year from the archive\nfind "$ARCHIVE_DIR" -type f -mtime +365 -exec rm {} \;

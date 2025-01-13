@@ -1,1 +1,0 @@
-# config/environments/production.rb\n   config.action_controller.asset_host = 'https://your-cdn-url.com'

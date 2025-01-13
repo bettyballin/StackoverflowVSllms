@@ -1,0 +1,1 @@
+LOAD DATA INFILE '/tmp/search_results.txt'\nINTO TABLE search_results\nFIELDS TERMINATED BY ','\nLINES TERMINATED BY '\n';

@@ -1,0 +1,1 @@
+const char* path = "/dev/disk3";\nchar        b;\n\nstd::ifstream cf(path, std::ios::in | std::ios::binary | std::ios::ate);\ncf.rdbuf()->pubsetbuf(nullptr, 0); // disable buffering\ncf.seekg(0); // reset the position to the beginning\n\ncf.read(&b, 1);\nbool good = cf.good(); // should now return true

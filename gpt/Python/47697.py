@@ -1,1 +1,0 @@
-import mpmath\n\ndef evaluate_hypergeometric_3F2(a, b, c, d, e):\n    result = mpmath.hyper([a, b, c], [d, e], 1)\n    return result\n\n# Example usage:\na = 2.5\nb = 3.5\nc = 1.0\nd = 5.0\ne = 6.0\n\nresult = evaluate_hypergeometric_3F2(a, b, c, d, e)\nprint(f"The value of 3F2({a}, {b}, {c}; {d}, {e}; 1) is: {result}")

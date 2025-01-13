@@ -1,0 +1,1 @@
+DataView dv = new DataView(yourDataTable);\ndv.Sort = "YourColumnName";\ndv.CustomSort = new OrdinalStringComparer();

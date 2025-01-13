@@ -1,1 +1,0 @@
--- Change isolation level to read committed\nALTER SESSION SET ISOLATION_LEVEL = READ COMMITTED;\n\n-- Perform your operations\nSELECT * FROM my_table WHERE id = 1;\nUPDATE my_table SET value = 'new_value' WHERE id = 1;\nCOMMIT;

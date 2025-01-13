@@ -1,0 +1,1 @@
+.a {\n  background-image: url(a.png);\n}\n\n.b:after {\n  content: '';\n  position: absolute;\n  top: 0;\n  left: 0;\n  width: 100%;\n  height: 100%;\n  background-image: url(b.png);\n  z-index: -1;\n}

@@ -1,1 +1,0 @@
-// Installing Laravel via Composer\n   composer create-project --prefer-dist laravel/laravel myproject\n\n   // Setting up authentication (Laravel 8+)\n   php artisan make:auth

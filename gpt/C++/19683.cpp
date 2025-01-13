@@ -1,1 +1,0 @@
-#include <vector>\n\nvoid foo(int i) {\n    std::vector<int> vec;\n    // fill vec with data\n    foo(i, vec);\n}\n\nvoid foo(int i, const std::vector<int>& optional) {\n    // process vector\n}

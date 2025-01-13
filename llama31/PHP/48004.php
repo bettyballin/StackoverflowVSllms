@@ -1,0 +1,1 @@
+// Example of lazy loading in PHP\nclass User {\n    private $details;\n\n    public function getDetails() {\n        if (!$this->details) {\n            $this->details = new UserDetails();\n        }\n        return $this->details;\n    }\n}

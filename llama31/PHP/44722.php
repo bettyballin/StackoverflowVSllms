@@ -1,0 +1,1 @@
+function make_menu($parent) {\n    global $menu;\n    $html = '<ul>';\n    foreach ($parent as $menu_id => $menu_name) {\n        $html .= '<li>' . $menu_name;\n        if (isset($menu[$menu_id])) {\n            $html .= make_menu($menu[$menu_id]);\n        }\n        $html .= '</li>';\n    }\n    $html .= '</ul>';\n    return $html;\n}

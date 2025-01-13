@@ -1,1 +1,0 @@
-inkscape input.svg --export-type=pdf --export-filename=output.pdf

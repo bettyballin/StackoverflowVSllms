@@ -1,0 +1,1 @@
+gcc -Wsign-compare your_file.c

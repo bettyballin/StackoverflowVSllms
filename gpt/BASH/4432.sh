@@ -1,1 +1,0 @@
-SqlPackage.exe /Action:Script /SourceFile:YourSchema.dacpac /TargetFile:YourScript.sql /p:TableSelectionCriteria=Table1,Table2

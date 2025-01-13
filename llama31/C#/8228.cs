@@ -1,0 +1,1 @@
+public class MyPage : Page {\n    protected void Page_Load(object sender, EventArgs e) {\n        if(!IsPostBack) {\n            user.LoggedIn += new EventHandler(User_LoggedIn);\n        }\n    }\n\n    void User_LoggedIn(object sender, EventArgs e) {\n        // TODO: User_LoggedIn code\n    }\n}

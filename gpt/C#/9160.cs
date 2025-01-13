@@ -1,1 +1,0 @@
-public class CustomerDTO\n{\n    public int Id { get; set; }\n    public string Name { get; set; }\n    public EntitySet<OrderDTO> Orders { get; set; }\n}\n\npublic class OrderDTO\n{\n    public int Id { get; set; }\n    public string ProductName { get; set; }\n    public int Quantity { get; set; }\n}

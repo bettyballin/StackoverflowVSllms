@@ -1,0 +1,1 @@
+<rewrite>\n  <rules>\n    <rule name="Old to New Directory" stopProcessing="true">\n      <match url="^OLDdirname/(.*)" />\n      <action type="Redirect" url="/NEWdirname/{R:1}" />\n    </rule>\n  </rules>\n</rewrite>

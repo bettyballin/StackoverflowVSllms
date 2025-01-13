@@ -1,0 +1,1 @@
+if (criteria.TaxCreditApprovalYear != null && criteria.TaxCreditApprovalYear.Count > 0)\n{\n    OrExpression orExpr = new OrExpression();\n    criteria.TaxCreditApprovalYear.ForEach(year => \n    {\n        orExpr.Or(Property_Overview.Columns.EffectiveDate)\n             .IsBetweenAnd(new DateTime(year, 01, 01), new DateTime(year, 12, 31));\n    });\n    qry.And(orExpr);\n}

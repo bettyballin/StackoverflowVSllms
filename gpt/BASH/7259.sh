@@ -1,1 +1,0 @@
-mv /Volumes/1&1\ Internet/website/.git/hooks/pre-commit.bak /Volumes/1&1\ Internet/website/.git/hooks/pre-commit

@@ -1,0 +1,1 @@
+<definition name="mgmt.base.layout" extends="base.layout">\n  <put-attribute name="body">\n    <definition name="mgmtBody" template="/WEB-INF/mgmt/config/mgmtBody.jsp">\n      <put-attribute name="adminLeft"  value="/WEB-INF/mgmt/config/left.jsp"/>\n      <put-attribute name="adminRight" value="/tiles/blank.html"/>\n    </definition>\n  </put-attribute>\n</definition>

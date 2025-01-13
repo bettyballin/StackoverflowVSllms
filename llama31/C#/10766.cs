@@ -1,0 +1,1 @@
+if (Request.ServerVariables["URL"] == "/" && Request.Url.AbsolutePath == "/Default.aspx")\n{\n    // IIS is applying the default page setting, issue a 301 redirect\n    Response.Status = "301 Moved Permanently";\n    Response.RedirectLocation = "/";\n    Response.End();\n}

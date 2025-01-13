@@ -1,1 +1,0 @@
-<?php\n$inputValue = $_GET["inputname"]; // or $_POST["inputname"] depending on your AJAX request type\n\n// Process the value and generate a response\necho "Received value: " . htmlspecialchars($inputValue);\n?>

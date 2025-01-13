@@ -1,0 +1,1 @@
+string tableName = "MyTable";\nstring query = string.Format("SELECT * FROM {0}", tableName);\nSqlCommand command = new SqlCommand(query, connection);

@@ -1,0 +1,1 @@
+SELECT COUNT(*) + 1 AS position\nFROM your_table\nWHERE your_column < (SELECT your_column FROM your_table WHERE id = ?)

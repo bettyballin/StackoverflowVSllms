@@ -1,0 +1,1 @@
+UPDATE YourTable\nSET PhoneNumber = LTRIM(RTRIM(REPLACE(REPLACE(REPLACE(PhoneNumber, ' ', ''), '-', ''), '/', '')))

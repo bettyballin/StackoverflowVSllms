@@ -1,0 +1,1 @@
+# Install a package using pip\npip install requests\n\n# Freeze dependencies to requirements.txt\npip freeze > requirements.txt

@@ -1,0 +1,1 @@
+'urlbase' => 'http://your-bugzilla-hostname:8080',

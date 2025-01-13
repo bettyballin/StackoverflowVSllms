@@ -1,0 +1,1 @@
+DESCRIBE TABLE your_table_name;

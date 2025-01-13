@@ -1,0 +1,1 @@
+if ($condition) {\n    $arr[] = array("value" => $node->nodeValue);\n} else {\n    $arr[] = array("string" => $node->nodeValue);\n}

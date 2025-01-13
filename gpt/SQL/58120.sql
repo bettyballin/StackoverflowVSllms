@@ -1,1 +1,0 @@
-BEGIN\n   DBMS_RESOURCE_MANAGER.CREATE_SIMPLE_PLAN(\n      plan    => 'LIMITED_PLAN',\n      comment => 'Plan to limit query execution time',\n      group1  => 'LIMITED_GROUP',\n      comment1=> 'Group for limited queries',\n      mgmt_p1 => 100);\nEND;\n/

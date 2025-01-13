@@ -1,0 +1,1 @@
+CREATE INDEX idx_abc ON mytable (a ASC, b ASC, c ASC);

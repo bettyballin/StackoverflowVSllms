@@ -1,0 +1,1 @@
+SELECT * FROM huge_table WHERE email = 'example@example.com';

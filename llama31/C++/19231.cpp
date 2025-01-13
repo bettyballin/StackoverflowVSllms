@@ -1,0 +1,1 @@
+#include <unordered_map>\n\nstd::unordered_map<std::string, int> stats;\n\nvoid incrementStat(const std::string& name) {\n  stats[name]++;\n}\n\nvoid logStats() {\n  for (const auto& stat : stats) {\n    LOG(INFO) << "Stat " << stat.first << ": " << stat.second;\n  }\n}

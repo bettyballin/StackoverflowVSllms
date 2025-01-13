@@ -1,0 +1,1 @@
+Public Class KeyPredicate(Of T As MyClass)\n    Implements Predicate(Of T)\n\n    Private key As String\n\n    Public Sub New(ByVal key As String)\n        Me.key = key\n    End Sub\n\n    Public Function Invoke(ByVal obj As T) As Boolean Implements Predicate(Of T).Invoke\n        Return obj.Key = Me.key\n    End Function\nEnd Class

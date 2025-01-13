@@ -1,0 +1,1 @@
+CREATE TEMPORARY TABLE temp_values (x INT);\nINSERT INTO temp_values (x) VALUES (...a few hundred ints...);\nSELECT t.* FROM table t JOIN temp_values v ON t.x = v.x;

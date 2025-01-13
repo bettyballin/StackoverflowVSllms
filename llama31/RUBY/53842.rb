@@ -1,0 +1,1 @@
+require 'nokogiri'\n\nhtml_string = "<html>...</html>"\ndoc = Nokogiri::HTML(html_string)\nresult = doc.xpath("//a/@href")\nputs result

@@ -1,1 +1,0 @@
-bool a = true;\n     bool b = false;\n     bool result = a || b; // result is true

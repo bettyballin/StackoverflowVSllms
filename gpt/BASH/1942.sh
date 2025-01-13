@@ -1,1 +1,0 @@
-python custom_flake8_plugin.py your_script.py

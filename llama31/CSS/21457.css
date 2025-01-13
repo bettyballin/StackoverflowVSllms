@@ -1,0 +1,1 @@
+td a.fullcell {\n  display: block;\n  width: 100%;\n  height: 100%;\n}\n\ntd a.fullcell::before {\n  content: '';\n  display: block;\n  width: 100%;\n  height: 100%;\n}

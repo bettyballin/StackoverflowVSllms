@@ -1,1 +1,0 @@
-import requests\n\napi_key = 'YOUR_API_KEY'\nphone_number = '14158586273'  # Example phone number\n\nurl = f'http://apilayer.net/api/validate?access_key={api_key}&number={phone_number}'\nresponse = requests.get(url)\ndata = response.json()\n\nprint(data)

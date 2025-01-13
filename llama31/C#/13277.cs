@@ -1,0 +1,1 @@
+[WebMethod()]\n[ScriptMethod()]\npublic static void CancelPlan(int activePlanId, string ntLogin)\n{\n    StrategyRetrievalPresenter presenter = new StrategyRetrievalPresenter();\n    presenter.CancelExistingPlan(offer, ntLogin);            \n}

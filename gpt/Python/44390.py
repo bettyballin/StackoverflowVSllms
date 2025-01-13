@@ -1,1 +1,0 @@
-from sklearn.metrics.pairwise import cosine_similarity\n\n   cosine_sim = cosine_similarity(tfidf_matrix, tfidf_matrix)

@@ -1,0 +1,1 @@
+void __stdcall FooBar(DWORD param1, DWORD param2, DWORD param3, DWORD param4) {\n    // Function implementation\n}

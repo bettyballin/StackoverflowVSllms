@@ -1,0 +1,1 @@
+<?php\n// connect to your database\n// ...\n\nif (isset($_POST['textField'])) {\n  $inputValue = $_POST['textField'];\n  // perform your database query using $inputValue\n  // ...\n\n  // return data in JSON format\n  $data = array(\n    'field1' => 'value1',\n    'field2' => 'value2',\n    // ...\n  );\n  echo json_encode($data);\n}\n?>

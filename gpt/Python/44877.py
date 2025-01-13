@@ -1,1 +1,0 @@
-import pandas as pd\n\n# Sample DataFrame\ndata = {\n    'A': [1, 2, 3],\n    'B': [4, 5, 6]\n}\ndf = pd.DataFrame(data)\n\n# Set value at specified row and column using .at\ndf.at[1, 'B'] = 10\n\n# Set value at specified row and column using .loc\ndf.loc[1, 'B'] = 20\n\nprint(df)

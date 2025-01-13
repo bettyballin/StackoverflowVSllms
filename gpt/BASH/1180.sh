@@ -1,1 +1,0 @@
-echo 1 > /proc/sys/net/ipv4/tcp_keepalive_time\n   echo 1 > /proc/sys/net/ipv4/tcp_keepalive_intvl\n   echo 1 > /proc/sys/net/ipv4/tcp_keepalive_probes

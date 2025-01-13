@@ -1,0 +1,1 @@
+// Example using Barba.js\nimport barba from '@barba/core';\n\nbarba.init({\n  transitions: [\n    {\n      name: 'fade',\n      leave() {\n        // Fade-out current page\n      },\n      enter() {\n        // Fade-in new page\n      },\n    },\n  ],\n});

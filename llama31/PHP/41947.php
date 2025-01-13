@@ -1,0 +1,1 @@
+// Generate CSRF token\n$csrf_token = bin2hex(random_bytes(32));\n$_SESSION['csrf_token'] = $csrf_token;\n\n// Validate CSRF token on AJAX request\nif (isset($_SESSION['csrf_token']) && $_SESSION['csrf_token'] === $_POST['csrf_token']) {\n    // Token is valid, handle the request\n} else {\n    // Token is invalid, handle the error\n}

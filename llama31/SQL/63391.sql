@@ -1,0 +1,1 @@
+SELECT  *\nFROM db1.entry\nWHERE entry_id NOT IN (\n  SELECT COALESCE(entry_id, 0) FROM db2.content\n)

@@ -1,1 +1,0 @@
-<filter>\n    <filter-name>StaticFilesHeaderFilter</filter-name>\n    <filter-class>com.yourpackage.StaticFilesHeaderFilter</filter-class>\n</filter>\n\n<filter-mapping>\n    <filter-name>StaticFilesHeaderFilter</filter-name>\n    <url-pattern>*.doc</url-pattern>\n    <url-pattern>*.docx</url-pattern>\n    <url-pattern>*.pdf</url-pattern>\n</filter-mapping>

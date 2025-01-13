@@ -1,0 +1,1 @@
+$('ul.menu').each(function() {\n  var shim = $('<iframe src="about:blank" frameborder="0" scrolling="no"></iframe>');\n  shim.css({\n    position: 'absolute',\n    zIndex: 999,\n    width: '100%',\n    height: '100%'\n  });\n  $(this).append(shim);\n});

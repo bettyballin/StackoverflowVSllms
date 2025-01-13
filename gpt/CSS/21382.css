@@ -1,1 +1,0 @@
-.container {\n      width: percentage(0.5); // Returns 50%\n      color: lighten(#cc0000, 10%); // Lightens the color by 10%\n    }

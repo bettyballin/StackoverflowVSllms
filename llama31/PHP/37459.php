@@ -1,0 +1,1 @@
+$array = [\n    [\n        'title' => 'Star Trek - Viaje a las estrellas',\n        'country' => 'Venezuela, Spain, long title, poster title'\n    ],\n    [\n        'title' => 'Viaje a Las Estrellas',\n        'country' => 'Venezuela'\n    ]\n];\n\nforeach ($array as &$item) {\n    $item['country'] = array_map('trim', explode(',', $item['country']));\n}\n\nprint_r($array);

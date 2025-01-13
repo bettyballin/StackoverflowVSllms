@@ -1,0 +1,1 @@
+ReportParameter start_date = new ReportParameter("Start_Date");\nstart_date.AllowNull = true;\nmyParams.Add(start_date);

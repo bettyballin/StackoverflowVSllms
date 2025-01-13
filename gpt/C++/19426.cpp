@@ -1,1 +1,0 @@
-// ChildProcess.cpp (Compiled with VC8)\n#include <iostream>\n\nint main() {\n    std::cout << "Hello from Child Process!\n";\n    return 0;\n}

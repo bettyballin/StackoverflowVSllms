@@ -1,1 +1,0 @@
-// Example in ASP.NET\n   [Authorize(Roles = "Admin")]\n   public class AdminController : Controller\n   {\n       public ActionResult Index()\n       {\n           return View();\n       }\n   }

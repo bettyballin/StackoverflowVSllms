@@ -1,1 +1,0 @@
-// Assume ds is your DataSet and you want to remove a column by name\nds.Tables[0].Columns.Remove("ColumnName");\n\n// Or, to remove a column by index\nds.Tables[0].Columns.RemoveAt(1);

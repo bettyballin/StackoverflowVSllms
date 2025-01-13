@@ -1,1 +1,0 @@
-<?php\n    function add($a, $b) {\n        return $a + $b;\n    }\n\n    function subtract($a, $b) {\n        return $a - $b;\n    }\n    ?>

@@ -1,0 +1,1 @@
+Splitter1.BorderStyle = BorderStyle.FixedSingle\nSplitter1.Width = 5

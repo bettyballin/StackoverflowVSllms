@@ -1,0 +1,1 @@
+$xls->writeNumberFormat($row, $col, 0x000E); // Set cell type to DATE

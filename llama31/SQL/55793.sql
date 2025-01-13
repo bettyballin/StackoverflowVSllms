@@ -1,0 +1,1 @@
+DECLARE\n  v_pipe DBMS_PIPE.PIPE_NAME;\nBEGIN\n  v_pipe := DBMS_PIPE.CREATE_PIPE('my_pipe');\n  DBMS_PIPE.PACK_MESSAGE(v_pipe, 'Hello World!');\n  DBMS_PIPE.SEND_MESSAGE(v_pipe);\nEND;

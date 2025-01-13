@@ -1,0 +1,1 @@
+.container {\n  display: grid;\n  place-items: center; /* align both horizontally and vertically */\n}

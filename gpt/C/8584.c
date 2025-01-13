@@ -1,1 +1,0 @@
-int new_socket = accept(server_fd, (struct sockaddr *)&address, (socklen_t*)&addrlen);

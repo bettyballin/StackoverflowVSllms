@@ -1,0 +1,1 @@
+Uri localDtdUri = new Uri("file:///C:/path/to/xhtml11.dtd");

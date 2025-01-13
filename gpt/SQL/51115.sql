@@ -1,1 +1,0 @@
-with foo(parent_id, child_id) as (\n    select parent_id, child_id\n    from #bar\n    where parent_id in (1, 3)\n    union all\n    select #bar.parent_id, #bar.child_id -- Explicit column selection\n    from #bar\n    join foo on #bar.parent_id = foo.child_id\n)\nselect * from foo

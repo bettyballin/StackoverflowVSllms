@@ -1,0 +1,1 @@
+void __attribute__((optimize("O0"))) my_sensitive_function() {\n    // your sensitive code here\n}

@@ -1,1 +1,0 @@
-extension_dir = "/usr/local/lib/php/extensions/no-debug-non-zts-20050922"

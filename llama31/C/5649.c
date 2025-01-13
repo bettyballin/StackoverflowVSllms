@@ -1,0 +1,1 @@
+void gtk_widget_get_allocated_size(GtkWidget *widget, GtkAllocation *allocation);

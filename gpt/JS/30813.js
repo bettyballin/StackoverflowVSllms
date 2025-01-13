@@ -1,1 +1,0 @@
-$.ajax({\n  url: 'https://example.com/api/resource/1',\n  type: 'PUT',\n  data: JSON.stringify({ name: 'New Name' }),\n  contentType: 'application/json',\n  success: function(response) {\n    console.log(response);\n  }\n});

@@ -1,0 +1,1 @@
+f = open('example.txt', 'wua')\nf.write('Hello, World!\n')\nf.close()

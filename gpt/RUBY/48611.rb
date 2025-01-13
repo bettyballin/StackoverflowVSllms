@@ -1,1 +1,0 @@
-class Widget\n  def x # Accessor method for @x\n    @x\n  end\n  protected :x # Make it protected\n\n  def utility_method # Define a method\n    nil\n  end\n  private :utility_method # And make it private\nend

@@ -1,0 +1,1 @@
+INSTALLED_APPS = [\n    # ...\n    'django_tables2',\n    'django_ajax',\n    # ...\n]

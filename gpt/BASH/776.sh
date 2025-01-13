@@ -1,1 +1,0 @@
-./convert_ebcdic_to_ascii.sh

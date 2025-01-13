@@ -1,0 +1,1 @@
+def fibonacci(n):\n    if n < 2:\n        return n\n    if not hasattr(fibonacci, 'memo'):\n        fibonacci.memo = {0: 0, 1: 1}\n    if n not in fibonacci.memo:\n        fibonacci.memo[n] = fibonacci(n-1) + fibonacci(n-2)\n    return fibonacci.memo[n]

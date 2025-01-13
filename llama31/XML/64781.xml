@@ -1,0 +1,1 @@
+<bean id="dynamicRmiProxyFactory" class="com.example.DynamicRmiProxyFactoryBean">\n  <property name="serviceInterface" value="xxx"/>\n  <property name="serviceUrlTemplate" value="rmi://#{HOST}:1099/ServiceUrl"/>\n</bean>

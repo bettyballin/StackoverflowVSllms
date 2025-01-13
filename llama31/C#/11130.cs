@@ -1,0 +1,1 @@
+[Authorize]\npublic ActionResult MyAction()\n{\n    if (/* method was successful */)\n    {\n        return Json(new { success = true, data = /* any additional data */ });\n    }\n    else\n    {\n        return Json(new { success = false, error = /* error message */ });\n    }\n}

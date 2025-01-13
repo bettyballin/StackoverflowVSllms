@@ -1,0 +1,1 @@
+INSERT INTO votes (user_id, rating_instance_id) VALUES (123, 456);\n\nSELECT * FROM votes WHERE user_id = 123 AND rating_instance_id = 456;

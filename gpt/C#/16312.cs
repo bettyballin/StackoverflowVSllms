@@ -1,1 +1,0 @@
-using (var rsa = new RSACryptoServiceProvider())\n   {\n       rsa.ImportParameters(privateKey);\n       string privateKeyPem = Convert.ToBase64String(rsa.ExportPkcs8PrivateKey());\n       System.IO.File.WriteAllText("privateKey.pem", $"-----BEGIN PRIVATE KEY-----\n{privateKeyPem}\n-----END PRIVATE KEY-----");\n   }

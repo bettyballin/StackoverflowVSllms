@@ -1,0 +1,1 @@
+std::list<int> my_list = {1, 2, 3, 4, 5};\nauto it = my_list.begin() + 2; // points to the 3rd element\n\n// shuffle the list\nstd::random_shuffle(my_list.begin(), my_list.end());\n\n// revalidate the iterator\nit = my_list.begin() + 2;\n\n// or use std::advance()\nstd::advance(it, 2);\n\n// now it points to the new 3rd element

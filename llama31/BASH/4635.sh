@@ -1,0 +1,1 @@
+rename -n 's/(Prefix_)(\d{2})(\d{2})(\d{2})\.tex/$1$4$3$2.tex/' *.tex

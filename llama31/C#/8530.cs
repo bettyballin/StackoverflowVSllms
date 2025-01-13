@@ -1,0 +1,1 @@
+using System;\n\nclass Program\n{\n    static void Main(string[] args)\n    {\n        string output = "Hello, World!\x07"; // \x07 is the BEL character\n        string filteredOutput = output.Replace("\x07", string.Empty);\n        Console.WriteLine(filteredOutput);\n    }\n}

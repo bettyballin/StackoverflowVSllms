@@ -1,1 +1,0 @@
-from locust import HttpUser, task\n\n     class MyUser(HttpUser):\n         @task\n         def my_task(self):\n             self.client.get("/my-endpoint")

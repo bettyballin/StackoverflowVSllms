@@ -1,1 +1,0 @@
-$path = "e:\Database Backups\"\n$days = 7\nGet-ChildItem $path -Filter *.7z | Where-Object { $_.LastWriteTime -lt (Get-Date).AddDays(-$days) } | Remove-Item

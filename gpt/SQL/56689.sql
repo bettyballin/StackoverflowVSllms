@@ -1,1 +1,0 @@
-DECLARE @spid INT\nDECLARE cur CURSOR FOR\nSELECT spid \nFROM sys.sysprocesses \nWHERE status = 'sleeping'\n\nOPEN cur\n\nFETCH NEXT FROM cur INTO @spid\nWHILE @@FETCH_STATUS = 0\nBEGIN\n    EXEC ('KILL ' + @spid)\n    FETCH NEXT FROM cur INTO @spid\nEND\n\nCLOSE cur\nDEALLOCATE cur

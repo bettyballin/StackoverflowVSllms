@@ -1,0 +1,1 @@
+CREATE TABLE #BALANCES (\n    -- Your column definitions here\n)\n\nINSERT INTO #BALANCES\nSELECT -- Your select statement here\n\n-- Use the temporary table in your subsequent queries

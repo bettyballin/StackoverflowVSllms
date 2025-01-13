@@ -1,0 +1,1 @@
+SELECT EXTRACT(EPOCH FROM date_uploaded) AS unix_timestamp\nFROM files\nWHERE id = 1;

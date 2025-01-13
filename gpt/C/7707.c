@@ -1,1 +1,0 @@
-static void* dispatch_table[] = { &&op_load_const, &&op_add /*, ... */ };\n     goto *dispatch_table[opcode];\n     \n     op_load_const:\n         // Handle LOAD_CONST\n         goto *dispatch_table[next_opcode];\n     \n     op_add:\n         // Handle ADD\n         goto *dispatch_table[next_opcode];

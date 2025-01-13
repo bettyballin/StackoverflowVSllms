@@ -1,0 +1,1 @@
+btnSubmit.OnClientClick = "if (validate()) {" + ClientScript.GetPostBackEventReference(btnSubmit, string.Empty) + "}; return false;";

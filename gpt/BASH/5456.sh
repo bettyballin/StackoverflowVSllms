@@ -1,1 +1,0 @@
-ffmpeg -i $infile -c:v copy -c:a libmp3lame -ar 44100 -b:a 64k $outfile

@@ -1,0 +1,1 @@
+<%= button_to "Delete", employee_path(@employee), :method => :delete %>

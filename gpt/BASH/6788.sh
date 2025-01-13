@@ -1,1 +1,0 @@
-#!/usr/sbin/dtrace -s\n\nsyscall::open:entry\n{\n    printf("%s is opening %s\n", execname, copyinstr(arg0));\n}

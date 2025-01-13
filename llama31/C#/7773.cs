@@ -1,0 +1,1 @@
+public bool IsValid()\n{\n    return string.IsNullOrEmpty(ValidationHelper.GetError(this));\n}

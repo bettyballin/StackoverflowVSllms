@@ -1,0 +1,1 @@
+var query = from o in db.Orders\n            let odSubquery = from od in db.OrdersDetails\n                             where od.Status == "A"\n                             select od\n            join od in odSubquery on o.Id equals od.OrderId into odGroup\n            from od in odGroup.DefaultIfEmpty()\n            select new { o, od };

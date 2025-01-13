@@ -1,0 +1,1 @@
+mkbundle2 --static yourapp.exe

@@ -1,1 +1,0 @@
-#!/bin/bash\n\nfilename=$1\n\n# Get MIME type\nfile_type=$(file --mime-type -b "$filename")\n\n# Get dimensions\ndimensions=$(identify -ping -format "%wx%h" "$filename")\n\necho "File Type: $file_type"\necho "Dimensions: $dimensions"

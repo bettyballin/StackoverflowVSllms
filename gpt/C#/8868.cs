@@ -1,1 +1,0 @@
-public ActionResult Index()\n{\n    var model = new MyViewModel\n    {\n        LoggedUser = LoggedUser\n        // set other properties\n    };\n\n    return View(model);\n}

@@ -1,1 +1,0 @@
-wbadmin start backup -backupTarget:D: -include:C:\Data -quiet

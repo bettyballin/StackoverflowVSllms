@@ -1,0 +1,1 @@
+public void UpdatePerson(Person person)\n{\n    using (var dataContext = new DataContext())\n    {\n        dataContext.Person.Update(person);\n        dataContext.SaveChanges();\n    }\n}

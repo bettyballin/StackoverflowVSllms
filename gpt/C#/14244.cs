@@ -1,1 +1,0 @@
-using MySql.Data.MySqlClient;\n\nstring connectionString = "Server=localhost;Database=mydatabase;User ID=myusername;Password=mypassword;";\n\nusing (var connection = new MySqlConnection(connectionString))\n{\n    connection.Open();\n    // Your SQL operations here\n}

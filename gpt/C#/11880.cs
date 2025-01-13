@@ -1,1 +1,0 @@
-using System.Security.Permissions;\n\n[ReflectionPermission(SecurityAction.Demand, Flags = ReflectionPermissionFlag.MemberAccess)]\npublic void YourMethod()\n{\n    // Your reflection code here\n}

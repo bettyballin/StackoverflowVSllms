@@ -1,1 +1,0 @@
-pbpaste | python -c 'import sys, time; [sys.stdout.write(line) or time.sleep(0.01) for line in sys.stdin]'

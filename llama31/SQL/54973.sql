@@ -1,0 +1,1 @@
+CREATE SYNONYM [schema].[table] FOR [db1-production].[schema].[table]

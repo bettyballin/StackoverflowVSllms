@@ -1,0 +1,1 @@
+msiexec /x { GUID } /q

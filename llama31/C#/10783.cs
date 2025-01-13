@@ -1,0 +1,1 @@
+using System.Web;\n\npublic class SessionHelper\n{\n    public static void GetSessions()\n    {\n        var module = (SessionStateModule)HttpContext.Current.ApplicationInstance.Modules["Session"];\n        var sessions = module.GetAllSessions();\n\n        foreach (var session in sessions)\n        {\n            // Do something with the session\n        }\n    }\n}

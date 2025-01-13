@@ -1,0 +1,1 @@
+private bool FileAvailable(string fileName)\n{\n    using (FileStream inputStream = File.Open(fileName, FileMode.Open, FileAccess.Read, FileShare.None))\n    {\n        return inputStream.CanRead;\n    }\n}

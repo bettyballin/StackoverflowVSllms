@@ -1,0 +1,1 @@
+CredentialLauncher.LaunchProcessWithCredentials(\n    "username",\n    "domain",\n    "password",\n    "C:\Path\To\Application.exe",\n    "C:\Path\To\Application.exe /arg1 /arg2")

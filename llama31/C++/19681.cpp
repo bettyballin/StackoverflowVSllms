@@ -1,0 +1,1 @@
+// Allocate an object with a specific allocator\nauto obj = alloc<my_allocator>(my_type);\n\n// Allocate an array with a specific allocator\nauto arr = alloc_array<my_allocator>(my_type, 10);\n\n// Placement new with a specific allocator\nauto obj = alloc_at<my_allocator>(my_type, my_ptr);\n\n// Custom deallocation\ndealloc(obj, my_allocator);

@@ -1,0 +1,1 @@
+if ((i += 1) && printf("%d\n", i)) {\n    printf("Done: %d.\n", i);\n}

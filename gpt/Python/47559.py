@@ -1,1 +1,0 @@
-import mysql.connector\n\nconn = mysql.connector.connect(\n    host="your_host",\n    user="your_user",\n    password="your_password",\n    database="your_database"\n)\n\ncursor = conn.cursor()\ncursor.execute("SELECT * FROM your_table")\n\nfor row in cursor.fetchall():\n    print(row)\n\nconn.close()

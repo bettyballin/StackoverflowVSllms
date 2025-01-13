@@ -1,0 +1,1 @@
+[HttpPost]\n[ValidateAntiForgeryToken]\npublic ActionResult Edit(Model model)\n{\n    // ...\n}

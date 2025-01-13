@@ -1,1 +1,0 @@
-using YourNamespace;\n\npublic class HostApplication\n{\n    public void LaunchAddIn()\n    {\n        WpfWindowLauncher.ShowWpfWindow();\n    }\n}

@@ -1,0 +1,1 @@
+function generate_seo_url($id, $slug, $type) {\n  return "/$type/$id/$slug";\n}\n\n// Example usage:\necho generate_seo_url(24443, "quincy-jones", "profile");\n// Output: /profile/24443/quincy-jones

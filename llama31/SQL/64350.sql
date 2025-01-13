@@ -1,0 +1,1 @@
+-- Example of using WITH ENCRYPTION\nCREATE PROCEDURE myProcedure\nWITH ENCRYPTION\nAS\nBEGIN\n    -- sensitive code here\nEND

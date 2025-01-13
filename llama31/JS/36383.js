@@ -1,0 +1,1 @@
+const metaTags = document.querySelectorAll('#obj1 #Meta meta');

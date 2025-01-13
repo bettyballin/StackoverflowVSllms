@@ -1,0 +1,1 @@
+int* HR = new int[32487834];\n// use the array...\ndelete[] HR; // don't forget to free the memory

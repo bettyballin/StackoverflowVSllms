@@ -1,1 +1,0 @@
-public class AppDbContext : DbContext\n   {\n       public AppDbContext(DbContextOptions<AppDbContext> options) : base(options) { }\n\n       public DbSet<Product> Products { get; set; }\n   }

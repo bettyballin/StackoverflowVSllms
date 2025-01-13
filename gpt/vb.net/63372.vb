@@ -1,1 +1,0 @@
-Dim fileSizeInBytes As Long = New FileInfo(FileName).Length\nDim fileSizeInKB As Double = fileSizeInBytes / 1024\nDim roundedFileSizeInKB As Double = Math.Round(fileSizeInKB, 1)\n\nConsole.WriteLine(roundedFileSizeInKB & " KB")

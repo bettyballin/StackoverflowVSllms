@@ -1,1 +1,0 @@
-#include <stdio.h>\n#include <proc/readproc.h>\n\nint main() {\n    PROCTAB* proc = openproc(PROC_FILLARG | PROC_FILLCOM | PROC_FILLSTAT);\n    proc_t proc_info;\n\n    while (readproc(proc, &proc_info) != NULL) {\n        printf("PID: %d, Name: %s\n", proc_info.tid, proc_info.cmd);\n    }\n\n    closeproc(proc);\n    return 0;\n}

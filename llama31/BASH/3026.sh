@@ -1,0 +1,1 @@
+mysql -u username -p -h localhost < dumpfile.sql

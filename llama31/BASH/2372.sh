@@ -1,0 +1,1 @@
+cp -r ZendFramework/library/Zend/CodeGenerator/ /path/to/ZendServer/library/Zend/Tool/

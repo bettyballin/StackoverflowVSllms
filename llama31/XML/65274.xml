@@ -1,0 +1,1 @@
+<dependencies>\n    <dependency>\n        <groupId>org.yaml</groupId>\n        <artifactId>snakeyaml</artifactId>\n        <version>1.29</version>\n    </dependency>\n</dependencies>

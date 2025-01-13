@@ -1,1 +1,0 @@
-scp dumpfile.sql username@privateserver.com:/path/to/destinatio

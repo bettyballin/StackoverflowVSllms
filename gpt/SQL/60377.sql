@@ -1,1 +1,0 @@
-INSERT INTO YourTable (Column1) VALUES ('Value1');\nSELECT @@IDENTITY AS LastIdentity;

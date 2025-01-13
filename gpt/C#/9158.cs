@@ -1,1 +1,0 @@
-PrintAllPilots(typeof(Pilot), "path/to/dbfile");

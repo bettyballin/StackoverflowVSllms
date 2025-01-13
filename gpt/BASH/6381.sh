@@ -1,1 +1,0 @@
-git init\n    git add usp_GetCustomerOrders.sql\n    git commit -m "Initial commit of usp_GetCustomerOrders"

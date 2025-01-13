@@ -1,1 +1,0 @@
-EXEC SQL BEGIN DECLARE SECTION;\n   int column_value;\n   short ind_column_value; // Indicator variable\n   EXEC SQL END DECLARE SECTION;\n\n   EXEC SQL SELECT column_name INTO :column_value:ind_column_value FROM table_name;\n   if (ind_column_value == -1) {\n       // Handle NULL value\n   } else {\n       // Use column_value\n   }

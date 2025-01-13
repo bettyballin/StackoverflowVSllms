@@ -1,0 +1,1 @@
+* In C#, use the `Array.Clear()` method:

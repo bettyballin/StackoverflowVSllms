@@ -1,1 +1,0 @@
-// Example of handling focus after AJAX update\nvar focusedElementId = document.activeElement.id;\n\nfunction performAjaxUpdate() {\n    // Perform AJAX update\n    // ...\n\n    // Restore focus\n    document.getElementById(focusedElementId).focus();\n}

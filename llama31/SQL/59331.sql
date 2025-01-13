@@ -1,0 +1,1 @@
+SELECT *\nFROM table\nOPTION (RESOURCE GOVERNOR 'LowPriorityGroup');

@@ -1,1 +1,0 @@
-public byte[] SerializeList(List<string> list)\n{\n    if (list == null)\n        return null;\n\n    using (MemoryStream ms = new MemoryStream())\n    {\n        BinaryFormatter bf = new BinaryFormatter();\n        bf.Serialize(ms, list);\n        return ms.ToArray();\n    }\n}

@@ -1,0 +1,1 @@
+for directory, file in zip(directories, files):\n    print(f"{directory}/{file}")

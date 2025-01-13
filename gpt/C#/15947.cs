@@ -1,1 +1,0 @@
-// Equivalent of VB's Asc() function in C#\nchar character = 'A';\nint asciiValue = Convert.ToInt32(character);\n\n// Equivalent of VB's Chr() function in C#\nint asciiValue = 65;\nchar character = Convert.ToChar(asciiValue);

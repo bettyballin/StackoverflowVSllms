@@ -1,1 +1,0 @@
-SET SERVEROUTPUT ON;\n\nBEGIN\n   DBMS_OUTPUT.PUT_LINE('Querying Table1');\nEND;\n/\n\nSELECT * FROM Table1;

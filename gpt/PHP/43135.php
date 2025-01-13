@@ -1,1 +1,0 @@
-// Path to where files are uploaded (relative to the document root)\n$Config['UserFilesPath'] = '/userfiles/';\n\n// Absolute path to the above UserFilesPath\n$Config['UserFilesAbsolutePath'] = $_SERVER['DOCUMENT_ROOT'] . '/userfiles/';

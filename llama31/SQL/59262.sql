@@ -1,0 +1,1 @@
+INSERT INTO DestinationTable (column1, column2, column3)\nSELECT column1, column2, column3\nFROM SourceTable\nWHERE condition;

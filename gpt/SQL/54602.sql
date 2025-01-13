@@ -1,1 +1,0 @@
-CREATE TABLE my_table (\n    id INT PRIMARY KEY,\n    is_active BIT NOT NULL\n);

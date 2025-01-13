@@ -1,0 +1,1 @@
+echo $row['boolean_value'];

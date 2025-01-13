@@ -1,1 +1,0 @@
-#pragma GCC diagnostic push\n#pragma GCC diagnostic ignored "-Weffc++"\n#pragma GCC diagnostic ignored "-Wunused-variable"\n\n// Code that triggers the specific warnings you want to suppress\n\n#pragma GCC diagnostic pop\n\n// Code that should not suppress the warnings

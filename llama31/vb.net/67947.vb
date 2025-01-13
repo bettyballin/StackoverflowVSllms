@@ -1,0 +1,1 @@
+Imports System.Configuration\n\nDim config As Configuration = ConfigurationManager.OpenExeConfiguration(ConfigurationUserLevel.None)\nDim connectionString As String = _\n    config.AppSettings.Settings("AppName.DataAccess.ConnectionString").Value\n\nConsole.WriteLine(connectionString)

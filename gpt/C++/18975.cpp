@@ -1,1 +1,0 @@
-void myFunction() {} // external linkage\n  static void myInternalFunction() {} // internal linkage

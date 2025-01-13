@@ -1,0 +1,1 @@
+param = cmd.Parameters.Add("@SmsContent", SqlDbType.NVarChar, 1024);\nparam.Direction = ParameterDirection.Output;\nparam = cmd.Parameters.Add("@ToNumber", SqlDbType.VarChar, 50);\nparam.Direction = ParameterDirection.Output;

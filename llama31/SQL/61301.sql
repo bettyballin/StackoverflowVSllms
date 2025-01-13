@@ -1,0 +1,1 @@
+CREATE INDEX idx_data ON my_large_table (data);

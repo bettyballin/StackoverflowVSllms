@@ -1,0 +1,1 @@
+[return: MarshalAs(UnmanagedType.VariantBool)]\npublic bool IsValid()\n{\n    return true; // or false\n}

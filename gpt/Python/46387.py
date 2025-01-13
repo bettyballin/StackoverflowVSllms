@@ -1,1 +1,0 @@
-import bcrypt\n\ndef hash_username(username):\n    # Generate a salt\n    salt = bcrypt.gensalt()\n    # Hash the username with the salt\n    hashed_username = bcrypt.hashpw(username.encode('utf-8'), salt)\n    return hashed_username\n\n# Example usage\nusername = "exampleUser"\nhashed_username = hash_username(username)\nprint(hashed_username)

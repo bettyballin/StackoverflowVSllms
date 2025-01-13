@@ -1,1 +1,0 @@
-sudo a2enmod dav\n   sudo a2enmod dav_svn\n   sudo systemctl restart apache2

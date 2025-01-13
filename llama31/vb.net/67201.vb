@@ -1,0 +1,1 @@
+Private m_oCreatedPresenter As Object\nPrivate m_presenterDispatcher As System.Windows.Threading.Dispatcher\n\nPrivate Sub CreatePresenter(Of T As {New, Class})()\n    m_oCreatedPresenter = Activator.CreateInstance(Of T)()\n    m_presenterDispatcher = System.Windows.Threading.Dispatcher.CurrentDispatcher\nEnd Sub

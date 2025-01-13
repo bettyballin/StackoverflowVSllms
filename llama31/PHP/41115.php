@@ -1,0 +1,1 @@
+$encrypted = base64_decode(urldecode($encrypted));\n$decrypted = decrypt($encrypted, $salt);

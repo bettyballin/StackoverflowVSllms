@@ -1,1 +1,0 @@
--- Get all related entities for a given entity_id (e.g., id = 1)\nSELECT \n    e.id, e.name\nFROM \n    entities e\nWHERE \n    e.id IN (\n        SELECT entity_id_b FROM entity_entity WHERE entity_id_a = 1\n        UNION\n        SELECT entity_id_a FROM entity_entity WHERE entity_id_b = 1\n    );

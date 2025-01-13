@@ -1,0 +1,1 @@
+public void ProcessRequest(HttpContext context)\n{\n    string originalRequestPath = context.Request.PathInfo;\n    // more code here\n}

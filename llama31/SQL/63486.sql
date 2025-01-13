@@ -1,0 +1,1 @@
+CREATE TABLE Orders (\n    OrderID INT PRIMARY KEY,\n    CustomerID INT,\n    CONSTRAINT FK_Orders_Customers FOREIGN KEY (CustomerID) REFERENCES Customers(CustomerID)\n);\n\nCREATE INDEX IX_CustomerID ON Orders (CustomerID);

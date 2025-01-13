@@ -1,0 +1,1 @@
+$('#myeditable').editable('http://example.com/save.php', {\n    type      : 'textarea',\n    onedit    : function(settings, original) {\n        // recalculate scrollbar here\n        // e.g. $(this).closest('.scroll-pane').jScrollPane();\n    }\n});

@@ -1,1 +1,0 @@
-Public Class Form2\n    Private _data As String\n\n    Public Property Data As String\n        Get\n            Return _data\n        End Get\n        Set(value As String)\n            _data = value\n        End Set\n    End Property\nEnd Class

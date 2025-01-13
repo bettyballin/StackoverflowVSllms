@@ -1,0 +1,1 @@
+SqlCommand cmd = new SqlCommand("SELECT * FROM my_table", conn);\n// Execute a long-running query\ncmd.ExecuteReader();\n\n// To cancel the query\ncmd.Cancel();

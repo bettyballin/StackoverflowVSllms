@@ -1,1 +1,0 @@
-document.addEventListener('DOMContentLoaded', (event) => {\n  const listItems = document.querySelectorAll('#subdiv_3 ul li');\n\n  listItems.forEach((item, index) => {\n    item.addEventListener('click', function() {\n      console.log('Item ' + (index + 1) + ' clicked');\n      // You can call your function here and pass the index as a parameter\n    }, false);\n  });\n});

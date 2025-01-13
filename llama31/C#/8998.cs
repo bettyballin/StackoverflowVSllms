@@ -1,0 +1,1 @@
+string[] arr1 = new string[] { "A", "B", "C", "D", "E", "F", "G" };\nint[] arr2 = new int[] { 1, 2, 3, 4 };\n\nobject[] result = ZipperMerge(arr1, arr2);

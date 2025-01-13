@@ -1,0 +1,1 @@
+$_SESSION['LoggedIn'] = false;\nsession_destroy();

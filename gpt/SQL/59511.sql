@@ -1,1 +1,0 @@
-SELECT * FROM v$object_usage WHERE index_name = 'IDX_EMPLOYEE_LASTNAME';

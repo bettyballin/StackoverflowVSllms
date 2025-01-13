@@ -1,1 +1,0 @@
-from jnius import autoclass\n\n    # Load the Java class\n    MyJavaClass = autoclass('MyJavaClass')\n\n    # Create an instance of the Java class\n    java_instance = MyJavaClass()\n\n    # Call the method\n    java_instance.sayHello()

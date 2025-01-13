@@ -1,1 +1,0 @@
-var query = (from location in context.Locations\n             orderby location.Country, location.City\n             select new { location.City, location.Country })\n            .Distinct();

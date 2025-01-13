@@ -1,1 +1,0 @@
-CREATE TABLE Users (\n    ID INT PRIMARY KEY,\n    UserName NVARCHAR(255),\n    DisplayUserName NVARCHAR(255)\n);

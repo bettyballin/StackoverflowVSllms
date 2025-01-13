@@ -1,0 +1,1 @@
+private void textBox1_Validating(object sender, CancelEventArgs e)\n{\n    string text = ((TextBox)sender).Text;\n    string pattern = @"^[-+]?[0-9]*\.?[0-9]+$";\n    if (!Regex.IsMatch(text, pattern))\n    {\n        e.Cancel = true; // prevent focus change\n        MessageBox.Show("Invalid input");\n    }\n}

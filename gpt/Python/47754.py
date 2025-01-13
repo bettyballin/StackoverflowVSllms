@@ -1,1 +1,0 @@
-import math\n\ndef calculate_point(radius, angle, origin=(0, 0)):\n    x = origin[0] + radius * math.cos(angle)\n    y = origin[1] + radius * math.sin(angle)\n    return (x, y)\n\n# Example usage:\npoint = calculate_point(5, math.radians(45))\nprint(point)  # Output: (3.5355339059327378, 3.5355339059327378)

@@ -1,1 +1,0 @@
-// ConsoleApp.cpp\n#include <iostream>\n#include "MyLibrary.h"\n\nint main() {\n    FunctionForBoth();\n    return 0;\n}

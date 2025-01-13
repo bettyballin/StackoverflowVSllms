@@ -1,1 +1,0 @@
-@echo off\n    ruby %1

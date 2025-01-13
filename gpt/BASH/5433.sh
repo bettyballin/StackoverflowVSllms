@@ -1,1 +1,0 @@
-find /path/to/your/site -type f -name "*.html" -o -name "*.php" -exec sed -i 's/\(<\/\?\)\([A-Z][A-Z]*\)/\1\L\2/g' {} +

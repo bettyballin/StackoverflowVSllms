@@ -1,0 +1,1 @@
+rsync -avz -e ssh /source/folder/ user@remotehost:/destination/folder/

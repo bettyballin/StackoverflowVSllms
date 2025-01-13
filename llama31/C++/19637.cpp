@@ -1,0 +1,1 @@
+// NamedPipeServer.h\n#ifndef NAMEDPIPESERVER_H\n#define NAMEDPIPESERVER_H\n\nclass CNamedPipeServer\n{\npublic:\n    CNamedPipeServer();\n    ~CNamedPipeServer();\n\n    void SendCommand(const char* command);\n    void GetData(char* data);\n};\n\n#endif // NAMEDPIPESERVER_H

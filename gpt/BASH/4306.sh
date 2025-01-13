@@ -1,1 +1,0 @@
-bcp "EXEC YourDatabase.dbo.ExportData '2023-10-05'" queryout "C:\Path\To\YourFile.csv" -c -t, -T -S YourServerName

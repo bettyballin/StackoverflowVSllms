@@ -1,0 +1,1 @@
+int[][] a = new int[50][8]; // This is contiguous in memory.\nint[] b = new int[50];      // This is contiguous in memory.\nint[] c = new int[50];      // This is contiguous in memory.\n...\nint[] h = new int[50];      // This is contiguous in memory.

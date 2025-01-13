@@ -1,0 +1,1 @@
+sed 's/regex/\n&/g'

@@ -1,0 +1,1 @@
+java -Djava.rmi.server.hostname=192.168.13.100 -jar your_rmi_server.jar

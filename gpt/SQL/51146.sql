@@ -1,1 +1,0 @@
-CREATE FUNCTION dbo.MyFunction_Int\n(\n    @param INT\n)\nRETURNS INT\nAS\nBEGIN\n    RETURN @param * 2\nEND\nGO\n\nCREATE FUNCTION dbo.MyFunction_Str\n(\n    @param NVARCHAR(50)\n)\nRETURNS NVARCHAR(50)\nAS\nBEGIN\n    RETURN @param + ' overloaded'\nEND\nGO

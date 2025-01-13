@@ -1,0 +1,1 @@
+SELECT 'attrib1' AS Attribute, SUM(attrib1) AS Count FROM YourTable\nUNION ALL\nSELECT 'attrib2' AS Attribute, SUM(attrib2) AS Count FROM YourTable\n...\nUNION ALL\nSELECT 'attrib30' AS Attribute, SUM(attrib30) AS Count FROM YourTable\nORDER BY Count DESC

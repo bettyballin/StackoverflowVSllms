@@ -1,0 +1,1 @@
+<application>\n  <module>\n    <web>\n      <web-uri>APP1.war</web-uri>\n      <context-root>/app1</context-root>\n    </web>\n  </module>\n  <module>\n    <web>\n      <web-uri>APP2.war</web-uri>\n      <context-root>/app2</context-root>\n    </web>\n  </module>\n  <library-directory>lib</library-directory>\n</application>

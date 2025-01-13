@@ -1,0 +1,1 @@
+1. x = 5;  // definition of x\n2. y = x + 1;  // use of x\n3. x = 10;  // killing definition of x\n4. z = x + 2;  // use of x

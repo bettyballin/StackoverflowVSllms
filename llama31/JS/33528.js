@@ -1,0 +1,1 @@
+// Assuming you have an iframe with id 'myIframe'\nvar iframe = $('#myIframe');\n\n// Get the contents of the division 'contents' and display it in the iframe\niframe.contents().find('body').html($('#contents').html());\n\n// Remove all forms/form elements ONLY in the iframe\niframe.contents().find('form').remove();

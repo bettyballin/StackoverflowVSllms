@@ -1,0 +1,1 @@
+$machineId = hash('sha256', php_uname('s') . php_uname('n') . php_uname('r'));

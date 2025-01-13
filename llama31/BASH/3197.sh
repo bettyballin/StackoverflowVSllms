@@ -1,0 +1,1 @@
+Xvfb :1 -screen 0 1024x768x24 &\nexport DISPLAY=:1\ngtk-application &\nxwd -name "My Window" | convert - output.jpg

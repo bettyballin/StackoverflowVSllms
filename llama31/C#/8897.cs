@@ -1,0 +1,1 @@
+[ValidateXsrfToken]\npublic ActionResult MyAction(MyModel model)\n{\n    // Only allow POST requests\n    if (Request.HttpMethod != "POST")\n    {\n        return HttpNotFound();\n    }\n\n    // Process the request...\n}\n\n// In your view:\n@using (Html.BeginSecureForm("MyAction", "MyController", FormMethod.Post, new { @class = "my-form" }))\n{\n    // Form fields...\n}

@@ -1,0 +1,1 @@
+divControl.CssClass = "new-class"

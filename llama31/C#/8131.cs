@@ -1,0 +1,1 @@
+using System.IO;\nusing System.Linq;\n\nvar files = Directory.GetFiles(jobDir)\n    .Where(f => !f.EndsWith(".exe") && !f.EndsWith(".dll"))\n    .ToArray();

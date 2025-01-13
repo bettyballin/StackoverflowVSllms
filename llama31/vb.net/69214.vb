@@ -1,0 +1,1 @@
+Imports Microsoft.Security.Application\n\n' Encode input\nFunction EncodeInput(input As String) As String\n    Return Encoder.HtmlEncode(input)\nEnd Functio

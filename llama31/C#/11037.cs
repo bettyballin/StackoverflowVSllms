@@ -1,0 +1,1 @@
+XElement carElement = node.XPathSelectElement("//car");\nif (carElement != null)\n{\n    String description = (String)carElement.Attribute("description");\n    // do something with description\n}

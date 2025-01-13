@@ -1,1 +1,0 @@
-sudo apt-get install libapache2-mod-svn\n   sudo a2enmod dav dav_svn\n   sudo nano /etc/apache2/mods-enabled/dav_svn.conf

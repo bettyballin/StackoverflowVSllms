@@ -1,1 +1,0 @@
-Rails.application.routes.draw do\n     namespace :api do\n       namespace :v1 do\n         resources :foo, only: [:index, :show, :create, :update, :destroy]\n       end\n\n       namespace :v2 do\n         resources :foo, only: [:index, :show, :create, :update, :destroy]\n       end\n     end\n   end

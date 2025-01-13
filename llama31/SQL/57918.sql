@@ -1,0 +1,1 @@
+CREATE OR REPLACE PROCEDURE GetData\nAS\nBEGIN\n  SELECT a, b, (SELECT x FROM z) AS c\n  FROM table\n  WHERE ...;\nEND;

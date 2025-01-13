@@ -1,0 +1,1 @@
+CREATE INDEX idx_post_idPost ON post (idPost);\nCREATE INDEX idx_comment_idPost_inputDate ON comment (idPost, inputDate);\nCREATE INDEX idx_postCategory_idPost_idCategory ON postCategory (idPost, idCategory);

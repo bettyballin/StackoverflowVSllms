@@ -1,0 +1,1 @@
+// Compile with instrumentation\ngcc -fprofile-generate -o myprogram myprogram.c\n\n// Run the instrumented code to collect profiling data\n./myprogram\n\n// Recompile with optimizations\ngcc -fprofile-use -o myprogram_optimized myprogram.c

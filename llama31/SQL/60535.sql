@@ -1,0 +1,1 @@
+SELECT object_name, object_type, status\nFROM dba_objects\nWHERE status = 'INVALID';

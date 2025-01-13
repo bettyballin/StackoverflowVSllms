@@ -1,0 +1,1 @@
+$(window).on('hashchange', function() {\n  var hash = window.location.hash.substring(1);\n  if (hash.length > 1) {\n    loadURL(hash);\n  } else {\n    loadURL('news');\n  }\n});

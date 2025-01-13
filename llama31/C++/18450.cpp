@@ -1,0 +1,1 @@
+bool __declspec(dllexport) OpenA(const char* file)\n{\n    std::string strFile(file);\n    // Use strFile as needed\n    return true;\n}

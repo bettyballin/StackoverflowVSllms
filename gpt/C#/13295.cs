@@ -1,1 +1,0 @@
-// Add a service reference to your WCF service in the x64 application\nclass Program\n{\n    static void Main(string[] args)\n    {\n        var client = new ComServiceClient();\n        string result = client.CallComMethod("input data");\n\n        Console.WriteLine(result);\n        client.Close();\n    }\n}

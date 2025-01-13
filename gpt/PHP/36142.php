@@ -1,1 +1,0 @@
-class DataModel {\n    public function getData() {\n        // Fetch data from the database\n        return [\n            'title' => 'Example Title',\n            'content' => 'This is some example content.'\n        ];\n    }\n}

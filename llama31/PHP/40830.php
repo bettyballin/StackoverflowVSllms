@@ -1,0 +1,1 @@
+class Animal {\n    public function sound() {\n        echo "The animal makes a sound.\n";\n    }\n}\n\nclass Dog extends Animal {\n    public function sound() {\n        echo "The dog barks.\n";\n    }\n}\n\n$dog = new Dog();\n$dog->sound(); // Output: The dog barks.

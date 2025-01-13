@@ -1,0 +1,1 @@
+foreach (Form form in Application.OpenForms)\n{\n    if (form is MainForm)\n    {\n        // Now you can call methods on the form\n    }\n}

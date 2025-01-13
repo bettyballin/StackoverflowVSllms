@@ -1,1 +1,0 @@
-<?php\n$song = $_GET['song'];\n// Your existing code to play the song\n?>

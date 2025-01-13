@@ -1,1 +1,0 @@
-mv folder\nmv files*

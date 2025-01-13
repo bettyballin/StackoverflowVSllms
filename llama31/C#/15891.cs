@@ -1,0 +1,1 @@
+myButton.ShortcutKeys = Keys.Alt | Keys.A;

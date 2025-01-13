@@ -1,0 +1,1 @@
+# Run the SVN update command\n`svn update`\n\n# Check the exit status of the command\nif $? == 0\n  # Command executed successfully\nelse\n  # Command failed\nend

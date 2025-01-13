@@ -1,0 +1,1 @@
+public ActionResult MyAction(MyModel model)\n{\n    if (!ModelState.IsValid)\n    {\n        return Json(new { errors = ModelState.Values.SelectMany(x => x.Errors) });\n    }\n    // ...\n}

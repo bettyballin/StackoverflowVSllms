@@ -1,0 +1,1 @@
+[DllImport("ole32.dll", SetLastError = true)]\nstatic extern int CoCreateInstanceEx(\n    [In] ref Guid clsid,\n    [MarshalAs(UnmanagedType.IUnknown)] IntPtr punkOuter,\n    [In] uint context,\n    [In] Guid riid,\n    [MarshalAs(UnmanagedType.LPArray)] byte[] result,\n    out uint pcount,\n    [In] IntPtr pServerInfo,\n    out IntPtr ppv\n);

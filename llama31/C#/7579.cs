@@ -1,0 +1,1 @@
+public ContentResult GetList()\n{\n    // ... create model ...\n    var html = new StringWriter();\n    Html.RenderPartial("CategoryList", model, html);\n    return Content(html.ToString());\n}

@@ -1,0 +1,1 @@
+// In Add.aspx.cs\nprotected void Page_Load(object sender, EventArgs e)\n{\n    string objectType = Request.QueryString["type"]; // or use a dropdown to select the type\n    if (!string.IsNullOrEmpty(objectType))\n    {\n        var userControl = (BaseUserControl)LoadControl(objectType + ".ascx");\n        Form.Controls.Add(userControl);\n    }\n}

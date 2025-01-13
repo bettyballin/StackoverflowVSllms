@@ -1,1 +1,0 @@
-// In another action method\n   public function executeAnotherAction(sfWebRequest $request)\n   {\n       // Your action logic\n       \n       // Set a different body class\n       $this->getResponse()->setSlot('body_class', 'another-page-class');\n   }

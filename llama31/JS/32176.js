@@ -1,0 +1,1 @@
+$(document).ready(function () {\n  $("#table-2").tableDnD({\n    onDrop: function (table, row) {\n      var rows = table.tBodies[0].rows;\n      for (var i = 0; i < rows.length; i++) {\n        var textbox = rows[i].getElementsByTagName('input')[0];\n        textbox.value = i + 1;\n      }\n    },\n  });\n});

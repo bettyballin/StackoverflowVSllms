@@ -1,0 +1,1 @@
+30 22 * * * /usr/bin/php /path/to/your/script.php

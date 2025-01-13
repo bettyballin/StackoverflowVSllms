@@ -1,0 +1,1 @@
+GET /SiteDirectory/ABC/Default.aspx HTTP/1.1\nHost: XYZ

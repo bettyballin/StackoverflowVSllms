@@ -1,0 +1,1 @@
+ObjectFactory.Configure(x =>\n{\n    x.Scan(scan =>\n    {\n        scan.Assembly("YourAssemblyName");\n        scan.WithDefaultConventions();\n    });\n});

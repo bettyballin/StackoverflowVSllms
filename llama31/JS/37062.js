@@ -1,0 +1,1 @@
+function ShowHideElement(clientId) {\n    var ele = document.getElementById(clientId);\n    if (ele != null) {\n        // Get the <img> element inside the <a> element\n        var img = ele.getElementsByTagName('img')[0];\n        if (img != null) {\n            img.src = 'smallPlus.gif';\n        }\n    }\n}

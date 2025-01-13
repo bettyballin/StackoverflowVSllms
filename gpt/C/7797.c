@@ -1,1 +1,0 @@
-set_log_file("my_custom_log_file.elog");

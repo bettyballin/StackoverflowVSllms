@@ -1,0 +1,1 @@
+[AcceptVerbs(HttpVerbs.Post)]\npublic ActionResult SimpleUpdate(int carMake)\n{\n    var carModel = _carDataContext.Models.Where(m => m.MakeId == carMake).ToList();\n    return PartialView("carmodels", carModel);\n}

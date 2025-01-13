@@ -1,0 +1,1 @@
+myList = myList.OrderBy(x => x.Score)\n               .ThenBy(x => Guid.NewGuid())\n               .ToList();

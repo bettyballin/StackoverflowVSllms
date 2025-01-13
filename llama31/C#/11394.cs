@@ -1,0 +1,1 @@
+using System.Web;\n\npublic abstract class BaseController\n{\n    public abstract HttpContextBase HttpContext { get; }\n\n    public virtual void HandleRequest()\n    {\n        // Use HttpContext to handle the request\n    }\n}

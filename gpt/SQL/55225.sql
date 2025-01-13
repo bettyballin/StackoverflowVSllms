@@ -1,1 +1,0 @@
-USE myDatabase;\nGO\nCREATE LOGIN [DevelopmentServerName\ASPNET] FROM WINDOWS;\nGO\nCREATE USER [DevelopmentServerName\ASPNET] FOR LOGIN [DevelopmentServerName\ASPNET];\nGO\nALTER ROLE db_owner ADD MEMBER [DevelopmentServerName\ASPNET];\nGO

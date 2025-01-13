@@ -1,0 +1,1 @@
+@echo off\nset PHP_INCLUDE_PATH=%PHP_INCLUDE_PATH%;/path/to/ZendServer/library/Zend/Tool/

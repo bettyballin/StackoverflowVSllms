@@ -1,1 +1,0 @@
-# Only the web server user should have read/write access to the web application files\nchown -R www-data:www-data /var/www/html\nchmod -R 750 /var/www/html\n\n# Ensure configuration files are not readable by other users\nchmod 600 /var/www/html/config.php

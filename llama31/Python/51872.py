@@ -1,0 +1,1 @@
+import os\n\ndef get_current_file_path():\n    return os.path.abspath(__file__)\n\nprint(get_current_file_path())

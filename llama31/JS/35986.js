@@ -1,0 +1,1 @@
+// Get the input element\nvar inputElement = document.getElementById('your-input-id');\n\n// Set focus to the input element when the DOM is ready\ndocument.addEventListener('DOMContentLoaded', function() {\n  inputElement.focus();\n});

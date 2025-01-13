@@ -1,0 +1,1 @@
+SELECT * \nFROM locations \nINNER JOIN points_of_interest \nON ST_Distance(locations.geom, points_of_interest.geom) < 1000

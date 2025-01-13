@@ -1,0 +1,1 @@
+IntPtr streamPtr = Marshal.GetIUnknownForObject(comStream);\nSystem.IO.Stream stream = new System.IO.Stream(streamPtr);

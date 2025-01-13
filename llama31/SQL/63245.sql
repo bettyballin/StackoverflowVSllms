@@ -1,0 +1,1 @@
+USE msdb\nGO\n\nCREATE JOB MyJob\nBEGIN\n    EXEC sp_add_jobstep @job_name=N'MyJob', @step_name=N'Run Program',\n        @subsystem=N'CmdExec', @command=N'path_to_your_program.exe'\nEND\nGO

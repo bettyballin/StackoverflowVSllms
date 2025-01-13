@@ -1,0 +1,1 @@
+from django.http import JsonResponse\nfrom django.views.decorators.http import require_http_methods\n\n@require_http_methods(['POST'])\ndef add_comment(request):\n    # Process the comment and save it to the database\n    comment = Comment.objects.create(text=request.POST['text'], post_id=request.POST['post_id'])\n    return JsonResponse({'comment': comment.text})

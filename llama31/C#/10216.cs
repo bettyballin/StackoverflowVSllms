@@ -1,0 +1,1 @@
+<%@ Control Language="C#" Inherits="System.Web.Mvc.ViewUserControl<MyModel>" %>\n\n<!-- Your HTML markup here, using the model data -->\n<div>\n    <%= Model.MyProperty %>\n</div>

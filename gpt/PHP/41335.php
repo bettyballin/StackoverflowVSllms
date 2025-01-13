@@ -1,1 +1,0 @@
-<li class="menu-item <?php echo $currentPage == 'B.php' ? 'active' : ''; ?>">B</li>

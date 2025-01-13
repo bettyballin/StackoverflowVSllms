@@ -1,0 +1,1 @@
+using System.Collections.Generic;\nusing System.Linq;\n\nStringCollection stringCollection = ...;\nList<string> list = stringCollection.Cast<string>().ToList();

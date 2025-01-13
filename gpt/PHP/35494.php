@@ -1,1 +1,0 @@
-class SomeController extends Zend_Controller_Action\n{\n    public function indexAction()\n    {\n        $combinedModel = new Application_Model_Combined();\n        $data = $combinedModel->getCombinedData();\n\n        $this->view->data = $data;\n    }\n}

@@ -1,0 +1,1 @@
+$pattern = '/\{[0-9]*\}/';\n$string = '{123} and {456}';\npreg_match_all($pattern, $string, $matches);\nprint_r($matches);

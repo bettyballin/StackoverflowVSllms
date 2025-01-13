@@ -1,0 +1,1 @@
+class Program\n{\n    static async Task Main(string[] args)\n    {\n        string[] prefixes = new string[] { "http://localhost:8080/" };\n        CustomAuthenticator authenticator = new CustomAuthenticator(prefixes);\n        await authenticator.Start();\n    }\n}

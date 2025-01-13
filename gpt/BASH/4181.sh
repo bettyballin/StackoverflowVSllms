@@ -1,1 +1,0 @@
-@echo off\nREM Change to the script directory\ncd /d "%~dp0"\n\nREM Example sed command\nsed.exe -i "s/oldtext/newtext/g" inputfile.txt\n\nREM Additional sed commands can go here

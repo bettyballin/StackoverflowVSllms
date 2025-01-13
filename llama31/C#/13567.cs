@@ -1,0 +1,1 @@
+[SqlProcedure]\npublic static void RemoveNonNumericChars(SqlString input, out SqlString output)\n{\n    output = new SqlString(new string(input.Value.Where(c => char.IsDigit(c)).ToArray()));\n}

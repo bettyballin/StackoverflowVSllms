@@ -1,0 +1,1 @@
+CREATE INDEX idx_Stock_Status ON Stock (Status);\nCREATE INDEX idx_Order_Customer ON Order (Customer);\nCREATE INDEX idx_Order_OrderDate ON Order (OrderDate);

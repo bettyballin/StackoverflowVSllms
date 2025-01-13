@@ -1,1 +1,0 @@
-g++ -o my_program my_program.cpp -L/path/to/library -llog4net

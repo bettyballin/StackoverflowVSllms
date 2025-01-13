@@ -1,1 +1,0 @@
-convert input.tiff -compress zip output.pdf

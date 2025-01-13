@@ -1,1 +1,0 @@
-SET SERVEROUTPUT ON\nDECLARE\n  v_guid RAW(16);\nBEGIN\n  FOR indx IN 1 .. 5 LOOP\n    v_guid := SYS_GUID();\n    DBMS_OUTPUT.put_line (\n      RAWTOHEX(DBMS_RANDOM.STRING('x', 16) || v_guid)\n    );\n  END LOOP;\nEND;\n/

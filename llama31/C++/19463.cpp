@@ -1,0 +1,1 @@
+[\n  uuid(12345678-1234-1234-1234-123456789012),\n  helpstring("My COM Interface")\n]\ninterface IMyInterface : IUnknown\n{\n  HRESULT MyMethod([in] BSTR param1, [out] BSTR* param2);\n};

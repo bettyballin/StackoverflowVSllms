@@ -1,0 +1,1 @@
+irb(main):001:0> require 'mathn'\nirb(main):002:0> Math.methods\n=> [:acos, :acosh, :asin, :asinh, :atan, :atan2, :atanh, :cos, :cosh, :e, :erf, :erfc, :exp, :frexp, :gamma, :hypot, :ldexp, :log, :log10, :log2, :sin, :sinh, :sqrt, :tan, :tanh]

@@ -1,0 +1,1 @@
+using System.Messaging;\n\n// Create a message queue object\nvar queue = new MessageQueue(@".\Private$\ReloadQueue");\n\n// Send a reload message to the queue\nqueue.Send("Reload", MessageQueueTransactionType.Single);

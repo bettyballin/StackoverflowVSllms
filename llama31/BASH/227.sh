@@ -1,0 +1,1 @@
+java SocketApplication config1.properties\njava SocketApplication config2.properties\njava SocketApplication config3.properties

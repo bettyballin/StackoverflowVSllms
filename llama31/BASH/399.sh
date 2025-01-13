@@ -1,0 +1,1 @@
+#!/bin/bash\n\nsqlplus -s /nolog <<EOF\nCONNECT your_username/your_password\nREFRESH MATERIALIZED VIEW search_results;\nEXIT;\nEOF

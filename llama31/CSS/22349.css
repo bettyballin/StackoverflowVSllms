@@ -1,0 +1,1 @@
+div {\n  width: 500px; /* fixed width */\n  overflow: auto; /* use auto instead of scroll */\n  white-space: nowrap; /* prevent wrapping of content */\n  _overflow-x: scroll; /* IE6-specific hack */\n}

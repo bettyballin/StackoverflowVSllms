@@ -1,0 +1,1 @@
+using (XmlReader xr = XmlReader.Create(xmlPath))\n{\n    ds.ReadXml(xr);\n}

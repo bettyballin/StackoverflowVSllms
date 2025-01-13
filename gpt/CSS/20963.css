@@ -1,1 +1,0 @@
-/* Ensure the modal popup has a high z-index */\n#ModalPopupExtender {\n    z-index: 2000;\n    position: absolute; /* or fixed depending on your needs */\n}\n\n/* Assuming the menu has a class of .menu, ensure it has a lower z-index */\n.menu {\n    z-index: 100;\n    position: relative; /* or absolute depending on your layout */\n}

@@ -1,0 +1,1 @@
+// Validate the CSRF token on the server-side\n[HttpPost]\npublic ActionResult GetData(string csrfToken)\n{\n    if (Session["CsrfToken"].ToString() != csrfToken)\n    {\n        // Handle the CSRF attack\n        return new HttpUnauthorizedResult();\n    }\n\n    // Retrieve the data from the database\n    // ...\n}

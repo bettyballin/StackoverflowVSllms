@@ -1,0 +1,1 @@
+tio.c_cc[VMIN] = 1;

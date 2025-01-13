@@ -1,0 +1,1 @@
+$text = 'Lorem ipsum dolor email@foo.com sit amet';\n$emailPattern = '/\b[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}\b/';\n$linkedText = preg_replace_callback($emailPattern, function ($match) {\n    return '<a href="mailto:' . $match[0] . '">' . $match[0] . '</a>';\n}, $text);\n\necho $linkedText;

@@ -1,0 +1,1 @@
+def send_email(self, from_address, to_list, subject, msg_text, msg_html):\n    subject = subject.replace('\r', '').replace('\n', ' ')\n    self.msg = EmailMultiAlternatives(subject, msg_text, from_address, to_list)\n    self.msg.attach_alternative(msg_html, "text/html")\n    self.msg.content_subtype = "mixed"  # Change this line\n    self.msg.send()

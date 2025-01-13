@@ -1,0 +1,1 @@
+<?xml version="1.0" encoding="UTF-8"?>\n<sqlxml:table xmlns:sqlxml="http://www.sqlxml.org">\n  <sqlxml:name>orders</sqlxml:name>\n  <sqlxml:column>\n    <sqlxml:name>order_id</sqlxml:name>\n    <sqlxml:type>varchar</sqlxml:type>\n    <sqlxml:size>20</sqlxml:size>\n  </sqlxml:column>\n  <!-- more columns... -->\n</sqlxml:table>

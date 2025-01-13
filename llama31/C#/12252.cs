@@ -1,0 +1,1 @@
+using System.Diagnostics;\n\npublic class MemoryMonitor\n{\n    public static void LogMemoryUsage()\n    {\n        var process = Process.GetCurrentProcess();\n        var memoryUsage = process.WorkingSet64 / (1024 * 1024); // in MB\n\n        // Log memory usage to your preferred logging mechanism\n        Console.WriteLine($"Memory usage: {memoryUsage} MB");\n    }\n}

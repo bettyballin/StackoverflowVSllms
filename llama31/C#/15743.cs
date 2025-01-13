@@ -1,0 +1,1 @@
+routes.MapRoute(\n  "Elmah",\n  "elmah.axd",\n  new { controller = "Elmah", action = "ErrorLog" }\n);

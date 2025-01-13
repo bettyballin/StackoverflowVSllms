@@ -1,1 +1,0 @@
-/* Reset default margins and padding */\n* {\n    margin: 0;\n    padding: 0;\n    box-sizing: border-box;\n}\n\n/* Additional styling to keep everything in place */\nbody {\n    font-family: Arial, sans-serif;\n}\n\n.container {\n    width: 100%;\n    margin: 0 auto;\n    padding: 20px;\n}\n\np, a {\n    margin: 10px 0;\n}\n\n/* Add your custom styles here */

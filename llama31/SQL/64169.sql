@@ -1,0 +1,1 @@
+SELECT \n    CONVERT(MONEY, ISNULL(YourField, '0.00')) AS ConvertedField\nFROM \n    YourTable;

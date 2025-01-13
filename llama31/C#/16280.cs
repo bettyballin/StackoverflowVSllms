@@ -1,0 +1,1 @@
+container.Register(\n    Component.For<PreviouslyViewedRecordsService>()\n             .UsingFactory<PreviouslyViewedRecordsServiceFactory>()\n             .Lifestyle.Transient\n);

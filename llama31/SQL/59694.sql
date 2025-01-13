@@ -1,0 +1,1 @@
+CREATE TABLE users (\n  id INT PRIMARY KEY,\n  username VARCHAR(255) NOT NULL,\n  -- other columns...\n  UNIQUE KEY (username)\n);

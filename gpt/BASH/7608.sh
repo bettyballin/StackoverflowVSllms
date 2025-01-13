@@ -1,1 +1,0 @@
-# Example using BorgBackup for versioned backups\n   borg init --encryption=repokey /path/to/repo\n   borg create --stats --progress /path/to/repo::backup-$(date +%Y-%m-%d) /path/to/projects

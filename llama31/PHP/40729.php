@@ -1,0 +1,1 @@
+$database = 'your_database_name';\n$username = 'your_database_username';\n$password = 'your_database_password';\n$host = 'your_database_host';\n\n$dumpCommand = "mysqldump -h $host -u $username -p$password $database";\n$dumpOutput = shell_exec($dumpCommand);\n\n$tarCommand = "tar -czf backup.tar.gz backup.sql";\nshell_exec($tarCommand);

@@ -1,1 +1,0 @@
-RESTORE DATABASE [YourDatabaseName]\nFROM DISK = 'C:\Backups\YourDatabaseName.bak'\nWITH FILE = 1, NOUNLOAD, REPLACE, STATS = 10;

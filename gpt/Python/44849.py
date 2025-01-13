@@ -1,1 +1,0 @@
-# settings_test.py\n\nfrom .settings import *\n\nDATABASES = {\n    'default': {\n        'ENGINE': 'django.db.backends.postgresql_psycopg2',\n        'NAME': 'test_db',\n        'USER': 'your_user',\n        'PASSWORD': 'your_password',\n        'HOST': 'localhost',\n        'PORT': '5432',\n    }\n}

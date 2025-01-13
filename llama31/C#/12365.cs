@@ -1,0 +1,1 @@
+using System;\nusing System.IO;\n\npublic class MoneyWriter\n{\n    public static void WriteMoney(BinaryWriter writer, decimal value)\n    {\n        // Convert the decimal value to the number of cents\n        long cents = (long)(value * 100);\n\n        // Write the 8-byte integer value\n        writer.Write(cents);\n    }\n}

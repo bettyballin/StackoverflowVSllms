@@ -1,0 +1,1 @@
+Func<Invoice> createInvoice = () => new Invoice();\nConsole.WriteLine("Before calling createInvoice()");\nInvoice invoice = createInvoice();\nConsole.WriteLine("After calling createInvoice()");

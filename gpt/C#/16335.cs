@@ -1,1 +1,0 @@
-var client = new HttpClient();\n   client.DefaultRequestHeaders.Authorization = new AuthenticationHeaderValue("Bearer", "your-access-token");\n   var response = await client.GetAsync("https://example.com/api/endpoint");

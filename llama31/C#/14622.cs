@@ -1,0 +1,1 @@
+var results = from d in db.Dealer\n              join dc in db.DealerContact on d.DealerID equals dc.DealerID\n              select dc;

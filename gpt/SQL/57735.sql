@@ -1,1 +1,0 @@
-INSERT INTO articles (title, content) VALUES\n('Iphone Applications From Apple', 'Some content about Iphone Applications From Apple'),\n('Apple Make The Best Apple Iphone Applications', 'Some content about Apple Make The Best Apple Iphone Applications'),\n('Iphone Applications', 'Some content about Iphone Applications');

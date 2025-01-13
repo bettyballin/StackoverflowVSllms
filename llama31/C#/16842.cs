@@ -1,0 +1,1 @@
+if (Environment.UserInteractive)\n{\n    // Running as a console application\n}\nelse\n{\n    // Running as a service\n}

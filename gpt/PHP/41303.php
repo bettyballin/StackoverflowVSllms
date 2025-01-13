@@ -1,1 +1,0 @@
-ignore_user_abort(true);\n       ob_start();\n       echo "Page content";\n       header('Connection: close');\n       header('Content-Length: ' . ob_get_length());\n       ob_end_flush();\n       flush();\n\n       // Now send mail\n       $mail = new PHPMailer();\n       // SMTP configuration and sending logic here

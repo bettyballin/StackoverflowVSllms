@@ -1,0 +1,1 @@
+def test_children_association\n  parent = FactoryBot.create(:parent, :with_children)\n  assert_equal 18, parent.children.count, "Parent.children isn't providing the right records"\nend

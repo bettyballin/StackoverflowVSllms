@@ -1,1 +1,0 @@
-git checkout client-xyz-release

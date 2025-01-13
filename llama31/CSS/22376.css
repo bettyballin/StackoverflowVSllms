@@ -1,0 +1,1 @@
+textarea {\n  overflow-y: hidden; /* hide vertical scrollbar */\n  overflow-x: hidden; /* hide horizontal scrollbar */\n}

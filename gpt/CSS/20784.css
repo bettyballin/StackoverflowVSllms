@@ -1,1 +1,0 @@
-img {\n    animation: flickerAnimation 1ms infinite;\n}\n\n@keyframes flickerAnimation {\n    0%   { opacity: 1; }\n    50%  { opacity: 0.99; }\n    100% { opacity: 1; }\n}

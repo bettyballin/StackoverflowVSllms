@@ -1,0 +1,1 @@
+Array\n(\n    [0] => txt1\n    [1] => txt3\n)

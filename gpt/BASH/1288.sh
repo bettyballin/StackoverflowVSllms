@@ -1,1 +1,0 @@
-BINS=file1 file2 file3\n\nall: $(BINS)\n\nclean: \n        rm -f $(BINS) *~\n\n$*: $@.c\n        gcc -g -o $@ $?

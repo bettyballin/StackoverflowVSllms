@@ -1,0 +1,1 @@
+set RSH_USERNAME=myusername\nrsh host.suffix1.company.com command

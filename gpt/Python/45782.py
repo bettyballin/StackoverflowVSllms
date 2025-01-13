@@ -1,1 +1,0 @@
-import requests\n\nresponse = requests.get("https://api.example.com/endpoint")\nif response.status_code == 200:\n    print(response.json())

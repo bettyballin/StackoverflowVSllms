@@ -1,0 +1,1 @@
+<class name="TransactionDetail">\n    <id name="Id" column="Id" type="Int32">\n        <generator class="native"/>\n    </id>\n    <many-to-one name="Transaction" column="Id" class="Transaction" update="false"/>\n</class>

@@ -1,1 +1,0 @@
-# Assuming you have JMeter installed and a test plan ready\n./jmeter -n -t test-plan.jmx -l results.jtl -e -o /path/to/output/folder

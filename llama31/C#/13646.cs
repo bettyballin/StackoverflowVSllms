@@ -1,0 +1,1 @@
+public class MyClass {\n    private ParamA paramA;\n    private ParamB paramB;\n    private ParamC paramC;\n\n    public void Start() {\n        // Use paramA, paramB, and paramC as needed\n    }\n\n    public void Process() {\n        // Use paramA, paramB, and paramC as needed\n    }\n\n    public void Stop() {\n        // Use paramA, paramB, and paramC as needed\n    }\n}

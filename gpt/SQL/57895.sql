@@ -1,1 +1,0 @@
--- Example of purging data older than 2 years from the archive table\nDELETE FROM ArchiveLogEntries\nWHERE EntryDate < DATEADD(YEAR, -2, GETDATE());

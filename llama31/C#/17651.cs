@@ -1,0 +1,1 @@
+protected void Page_Load(object sender, EventArgs e)\n{\n    string script = @"\n        Sys.Application.add_load(function() {\n            // your jQuery code here\n            $('#" + YourSelectControl.ClientID + "').multiselect();\n        });\n    ";\n    Page.ClientScript.RegisterStartupScript(GetType(), " multiselect_" + ClientID, script, true);\n}

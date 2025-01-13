@@ -1,1 +1,0 @@
-const express = require('express');\nconst cors = require('cors');\nconst app = express();\n\napp.use(cors());\n\napp.post('/WebSite1/Default2.aspx', (req, res) => {\n    // Handle the request\n});\n\napp.listen(3000, () => {\n    console.log('Server is running on port 3000');\n});

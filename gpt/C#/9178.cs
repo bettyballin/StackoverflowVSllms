@@ -1,1 +1,0 @@
-using System.Web.Mvc;\n\nnamespace YourNamespace.Controllers\n{\n    [AllowAnonymous]\n    public class RSSController : Controller\n    {\n        public ActionResult Index(string username)\n        {\n            // Your logic to generate the RSS feed\n            return View();\n        }\n    }\n}

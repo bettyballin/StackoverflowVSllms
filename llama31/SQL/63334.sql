@@ -1,0 +1,1 @@
+SELECT CONCAT('Hello', '\n', 'World') AS NewLineText

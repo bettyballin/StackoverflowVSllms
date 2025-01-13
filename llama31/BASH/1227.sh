@@ -1,0 +1,1 @@
+alternatives --set python /usr/local/bin/python2.6

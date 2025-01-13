@@ -1,0 +1,1 @@
+.navigation ul {\n  list-style: none;\n  padding: 0;\n  margin: 0;\n  width: 100%;\n  text-align: center;\n}\n\n.navigation li {\n  float: left;\n  margin: 0 1.15em;\n}\n\n.navigation {\n  text-align: center;\n}\n\n/* Add this to clear the float */\n.navigation:after {\n  content: "";\n  display: table;\n  clear: both;\n}

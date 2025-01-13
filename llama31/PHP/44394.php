@@ -1,0 +1,1 @@
+$site = rtrim($site, '/');

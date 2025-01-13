@@ -1,1 +1,0 @@
-using (var context = new DataContext(connectionString))\n   {\n       var query = from c in context.GetTable<Customer>()\n                   where c.City == "London"\n                   select c;\n\n       foreach (var customer in query)\n       {\n           Console.WriteLine(customer.Name);\n       }\n   }

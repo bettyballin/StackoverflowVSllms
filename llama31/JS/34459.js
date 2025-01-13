@@ -1,0 +1,1 @@
+$("li").click(function() {\n    if ($(this).is("[id^='outer']")) {\n        var current_id = $(this).attr('id');\n        alert(current_id);\n    }\n});

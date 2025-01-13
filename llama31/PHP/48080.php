@@ -1,0 +1,1 @@
+$stmt = $mysqli->prepare("SELECT ... WHERE `orders`.`added_by` = ? AND `orders`.`date` > ?");\n$stmt->bind_param("is", $user_id, $cutoff);\n$stmt->execute();

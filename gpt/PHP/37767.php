@@ -1,1 +1,0 @@
-<?php\nheader('Content-Type: text/css');\n?>\nbody {\n    background-color: <?php echo htmlspecialchars($bgColor); ?>;\n}

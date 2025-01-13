@@ -1,1 +1,0 @@
-class MyController extends Zend_Controller_Action\n{\n    public function init()\n    {\n        $this->_helper->contextSwitch()\n                      ->addActionContext('my-action', 'json')\n                      ->initContext();\n    }\n\n    public function myAction()\n    {\n        // Your action code as before\n    }\n}

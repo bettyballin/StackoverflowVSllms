@@ -1,0 +1,1 @@
+using (SqlConnection connection = new SqlConnection(connectionString))\n{\n    connection.Open();\n    using (SqlCommand command = new SqlCommand("SET ARITHABORT ON", connection))\n    {\n        command.ExecuteNonQuery();\n    }\n\n    // ... rest of your code\n}

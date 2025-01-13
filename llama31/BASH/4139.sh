@@ -1,0 +1,1 @@
+cl /OPT:ICF your_app.cpp

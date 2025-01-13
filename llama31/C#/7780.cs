@@ -1,0 +1,1 @@
+routes.MapRoute(\n    "3rd-party-campaign-route",\n    "v1/campaign/{partnerId}/{campaignId}/{destination}/{custom}",\n    new\n    {\n        controller = "Campaign",\n        action = "Redirect",\n        custom = (string)null // optional\n    }\n);

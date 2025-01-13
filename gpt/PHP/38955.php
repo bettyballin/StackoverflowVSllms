@@ -1,1 +1,0 @@
-amespace Libraries\Archive;\n\ninterface ArchiveInterface {\n    public function extract($filePath);\n    public function compress($files);\n}

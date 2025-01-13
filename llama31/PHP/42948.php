@@ -1,0 +1,1 @@
+$client = new Zend_Http_Client('https://en.wikipedia.org/w/api.php');\n$client->setParameterGet(array(\n    'action' => 'query',\n    'titles' => 'Stadium Name', // replace with your stadium name\n    'prop' => 'extracts',\n    'format' => 'json'\n));\n\n$response = $client->request();\n$data = json_decode($response->getBody(), true);\n\n// parse the response data

@@ -1,0 +1,1 @@
+const innerDiv = document.querySelector('#10 > .5');

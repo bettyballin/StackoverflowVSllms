@@ -1,0 +1,1 @@
+@echo off\n\nreg delete "HKU\S-1-5-21-1757981266-1960408961-839522115-1003\SOFTWARE\Microsoft\Windows\CurrentVersion\Run\kdx" /f\nreg delete "HKLM\SOFTWARE\Microsoft\Windows\CurrentVersion\Run\4oD" /f

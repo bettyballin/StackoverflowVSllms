@@ -1,0 +1,1 @@
+SELECT 'Hello\nWorld' AS NewLineText

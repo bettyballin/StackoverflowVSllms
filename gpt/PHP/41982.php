@@ -1,1 +1,0 @@
-<?php\n// session.php\n// Ensure config.php is included before starting the session\ninclude_once("config.php");\n\n// Start the session\nsession_start();\n\n// Include other necessary classes here\n// Example: include("some_class.php");\n\nob_end_flush();\n?>

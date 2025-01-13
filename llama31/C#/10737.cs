@@ -1,0 +1,1 @@
+public static void MyExtensionMethod(this MyObject obj)\n{\n    if (obj == null)\n    {\n        throw new ArgumentNullException(nameof(obj));\n    }\n    // Rest of the method implementation\n}

@@ -1,0 +1,1 @@
+CREATE TABLE myTable (\n    myDateColumn DATE\n)

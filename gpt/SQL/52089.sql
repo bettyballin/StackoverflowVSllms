@@ -1,1 +1,0 @@
-SELECT \n  old.STYLE_NBR, \n  old.COLOR_NBR \nFROM \n  LEGACY_PRODUCT_TABLE old\nLEFT JOIN \n  MARKETING_PRODUCT_TABLE new\nON \n  old.STYLE_NBR = new.style_number \n  AND old.COLOR_NBR = new.colour_number\nWHERE \n  new.style_number IS NULL \n  AND new.colour_number IS NULL;

@@ -1,1 +1,0 @@
-expdp username/password@database tables=your_table directory=your_directory dumpfile=your_table.dmp logfile=expdp_your_table.log

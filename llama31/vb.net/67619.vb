@@ -1,0 +1,1 @@
+For Each file As String In Request.Files\n    Dim hpf As HttpPostedFileBase = Request.Files(file)\n    If hpf.ContentLength = 0 Then\n        Continue For\n    End If\n    Dim savedFileName As String = Path.Combine(AppDomain.CurrentDomain.BaseDirectory, Path.GetFileName(hpf.FileName))\n    hpf.SaveAs(savedFileName)\nNext

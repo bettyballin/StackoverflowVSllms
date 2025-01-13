@@ -1,0 +1,1 @@
+gcc -o your_binary your_code.c -lcurl

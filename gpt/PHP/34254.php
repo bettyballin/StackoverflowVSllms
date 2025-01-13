@@ -1,1 +1,0 @@
-<?php\n     namespace App\Utils;\n\n     class StringUtils {\n         public static function capitalize($string) {\n             return ucfirst($string);\n         }\n     }

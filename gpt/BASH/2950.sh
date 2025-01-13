@@ -1,1 +1,0 @@
-cp /path_to_wal_archive/* /path_to_data_directory/pg_wal/

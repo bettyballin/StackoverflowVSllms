@@ -1,1 +1,0 @@
-lock (lockObject)\n{\n    Monitor.Pulse(lockObject); // Notifies a waiting thread\n}

@@ -1,1 +1,0 @@
-extern "C" __declspec(dllexport) void Initialize(int version);\n\nvoid Initialize(int version) {\n    if (version != SUPPORTED_VERSION) {\n        // Handle version incompatibility\n    }\n}

@@ -1,0 +1,1 @@
+lst.style.width = lst.offsetWidth + 'px';

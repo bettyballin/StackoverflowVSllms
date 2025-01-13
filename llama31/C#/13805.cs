@@ -1,0 +1,1 @@
+NetworkInformation networkInfo = new NetworkInformation();\nNetworkInterface[] interfaces = networkInfo.GetNetworkInterfaces();\n\nforeach (NetworkInterface nic in interfaces)\n{\n    IPInterfaceProperties ipProps = nic.GetIPProperties();\n    // ... rest of the code ...\n}

@@ -1,1 +1,0 @@
-#!/bin/bash\n\n# Send test email\necho "Test email" | mail -s "Test Email" test@example.com\n\n# Wait for the email to be processed\nsleep 60\n\n# Check if the test email is in the database\nif ruby check_email_in_db.rb; then\n  echo "Email successfully logged"\nelse\n  echo "Email not logged" | mail -s "Alert: Email not logged" you@example.com\nfi

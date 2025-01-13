@@ -1,0 +1,1 @@
+SELECT GROUP_CONCAT(CONCAT(First_Name, ' ', Last_Name)) AS names\nFROM mytable;

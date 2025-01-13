@@ -1,1 +1,0 @@
-// config.h\n#define NUMBER_OF_POTS  2\n#define POTS_CHANNELS {27, 29}

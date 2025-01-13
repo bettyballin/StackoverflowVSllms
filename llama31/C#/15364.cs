@@ -1,0 +1,1 @@
+byte[] encbuff = System.Text.Encoding.UTF8.GetBytes("the string");\nString enc = Convert.ToBase64String(encbuff).Replace("+", "-").Replace("/", "_");

@@ -1,1 +1,0 @@
-// _your_partial.js.erb\n$("#your_div_id").html("<%= escape_javascript(render partial: 'your_partial_content') %>");

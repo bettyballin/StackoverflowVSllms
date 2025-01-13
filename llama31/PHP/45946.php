@@ -1,0 +1,1 @@
+$myVariable = $_POST['myVariable'];

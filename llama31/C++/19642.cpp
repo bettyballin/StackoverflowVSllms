@@ -1,0 +1,1 @@
+// In your C++ code\nSTDMETHODIMP CSomeObject::GetVersion(BSTR* version)\n{\n    *version = SysAllocString(L"1.2.3.4"); // Return the version number as a BSTR\n    return S_OK;\n}

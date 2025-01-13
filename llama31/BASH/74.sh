@@ -1,0 +1,1 @@
+sybmigrate -S <source_server> -D <source_database> -U <username> -P <password> -T <target_server> -d <target_database>

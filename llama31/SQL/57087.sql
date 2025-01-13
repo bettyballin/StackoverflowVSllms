@@ -1,0 +1,1 @@
+SELECT * FROM Requirements\nWHERE Requirements.Release NOT LIKE '%Obsolete%'\nORDER BY \n  ARRAY_TO_INTEGER(STRING_TO_ARRAY(ReqNum, '.')) ASC;

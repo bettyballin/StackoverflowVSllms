@@ -1,0 +1,1 @@
+bind ^x exec $HOME/update_xdisplay.sh

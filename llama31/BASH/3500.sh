@@ -1,0 +1,1 @@
+# Compile with low-level optimization\ngcc -O1 -o myprogram myprogram.c\n\n# Compile with high-level optimization\ngcc -O3 -o myprogram myprogram.c\n\n# Compile with optimization for size\ngcc -Os -o myprogram myprogram.c

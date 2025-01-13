@@ -1,0 +1,1 @@
+SELECT \n  (LENGTH(LOWER(field_value)) - LENGTH(REPLACE(LOWER(field_value), LOWER('one'), ''))) / LENGTH('one') AS count\nFROM \n  your_table;

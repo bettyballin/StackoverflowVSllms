@@ -1,1 +1,0 @@
-svnadmin hotcopy C:\repositories W:\repository_backup --clean-logs

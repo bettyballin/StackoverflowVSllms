@@ -1,0 +1,1 @@
+var test2 = x.Element("find").SafeNavigate(findme => findme.Element("name"));

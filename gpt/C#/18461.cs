@@ -1,1 +1,0 @@
-List<string> nameList = new List<string>();\nDropDownList ddl = new DropDownList();\n\n// Assuming nameList is populated and sorted before this point\nnameList.Sort();\n\nforeach (string name in nameList)\n{\n    ddl.Items.Add(new ListItem(name));\n}

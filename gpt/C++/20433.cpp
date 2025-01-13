@@ -1,1 +1,0 @@
-// C++ COM object\nclass MyObject : public IMyObject {\npublic:\n    void MemAlloc(double** test, int membercount) {\n        *test = new double[membercount];  // or use malloc\n    }\n\n    void MemFree(double* test) {\n        delete[] test;  // or use free if allocated with malloc\n    }\n};

@@ -1,0 +1,1 @@
+def initLookups():\n    global lookup\n    lookup = {}\n    lookup["A"] = "AA"\n    lookup["B"] = "BB"\n    # ... etc ...\n\ndef getlookup(value):\n    if value in lookup:\n        return lookup[value]\n    else:\n        return ""\n\n# Call the functions\ninitLookups()\nprint(getlookup("A"))  # Should print "AA"

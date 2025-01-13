@@ -1,1 +1,0 @@
-public (int, int) Foo(int c) {\n    return (a, b);\n}\n\nvar (a, b) = Foo(c);

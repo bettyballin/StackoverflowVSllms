@@ -1,1 +1,0 @@
-$smarty->clearCache('index.tpl', $cacheId);

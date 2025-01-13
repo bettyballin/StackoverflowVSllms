@@ -1,1 +1,0 @@
-function addAndPrint($x, $y) {\n    $z = $x + $y;\n    echo $z;\n}\n\nfunction foo() {\n    addAndPrint(10, 20);\n}\n\nfunction bar() {\n    addAndPrint(10, 20);\n}

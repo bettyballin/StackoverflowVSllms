@@ -1,1 +1,0 @@
-sudo chmod -R 2775 uploads/

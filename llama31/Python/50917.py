@@ -1,0 +1,1 @@
+import re\n\ndef is_mobile(request):\n    user_agent = request.META.get('HTTP_USER_AGENT')\n    mobile_regex = r'Android|webOS|iPhone|iPad|iPod|BlackBerry|Windows Phone'\n    return re.search(mobile_regex, user_agent)\n\nif is_mobile(request):\n    # Display mobile version\nelse:\n    # Display desktop versio

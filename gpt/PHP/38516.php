@@ -1,1 +1,0 @@
-<?php\n   session_start();\n   if (isset($_SESSION['user'])) {\n       echo "User: " . $_SESSION['user'];\n   } else {\n       echo "No session data found.";\n   }\n   ?>

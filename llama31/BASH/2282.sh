@@ -1,0 +1,1 @@
+mvn2.1 -Dmaven.surefire.args="-Dsystem.test.property=test" test

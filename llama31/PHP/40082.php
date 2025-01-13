@@ -1,0 +1,1 @@
+<?php\n$mobileDetect = new MobileDetect();\n\nif ($mobileDetect->isMobile()) {\n    // redirect to mobile version\n    header('Location: mobile.example.com');\n    exit;\n}

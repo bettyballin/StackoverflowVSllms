@@ -1,1 +1,0 @@
-using Gtk;\nusing WebKit;\n\npublic class MainWindow : Window\n{\n    public MainWindow() : base("GNOME App")\n    {\n        var webView = new WebView();\n        string htmlContent = LocalizedHtmlLoader.LoadLocalizedHtml();\n        webView.LoadHtmlString(htmlContent, "text/html");\n        Add(webView);\n        ShowAll();\n    }\n}

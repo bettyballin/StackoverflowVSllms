@@ -1,1 +1,0 @@
-string appDataPath = Environment.GetFolderPath(Environment.SpecialFolder.ApplicationData);\nstring myAppDataPath = Path.Combine(appDataPath, "MyApp");\nDirectory.CreateDirectory(myAppDataPath);\n\nstring settingsFile = Path.Combine(myAppDataPath, "settings.json");\nFile.WriteAllText(settingsFile, jsonSettings);

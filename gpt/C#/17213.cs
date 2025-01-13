@@ -1,1 +1,0 @@
-using System;\n   using System.Diagnostics;\n\n   class Program\n   {\n       static void Main()\n       {\n           AppDomain.CurrentDomain.ProcessExit += new EventHandler(OnProcessExit);\n           // Your application logic here\n       }\n\n       static void OnProcessExit(object sender, EventArgs e)\n       {\n           Debugger.Break();\n       }\n   }

@@ -1,1 +1,0 @@
-ildasm MyAssembly.dll

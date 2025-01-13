@@ -1,1 +1,0 @@
-// native_crypto.c\n   #include <jni.h>\n   #include "CryptoUtil.h"\n\n   JNIEXPORT jstring JNICALL Java_CryptoUtil_encrypt(JNIEnv *env, jobject obj, jstring data) {\n       // Native encryption logic\n   }\n\n   JNIEXPORT jstring JNICALL Java_CryptoUtil_decrypt(JNIEnv *env, jobject obj, jstring data) {\n       // Native decryption logic\n   }

@@ -1,0 +1,1 @@
+public class User\n{\n    public User(int id, string name)\n    {\n        Id = id;\n        Name = name;\n    }\n\n    public int Id { get; }\n    public string Name { get; }\n}\n\n// In your repository or data access layer\nvar user = connection.QuerySingle<User>("SELECT id, name FROM users WHERE id = @id", new { id = 1 });

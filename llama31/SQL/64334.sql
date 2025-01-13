@@ -1,0 +1,1 @@
+SELECT DISTINCT CONVERT(nvarchar(max), [xml_column]) AS xml_data\nFROM your_table

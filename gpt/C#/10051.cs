@@ -1,1 +1,0 @@
-public ActionResult StoreData()\n   {\n       // Create an instance of your object\n       MyObject myObject = new MyObject();\n       // Store the object in a session variable\n       Session["MyObject"] = myObject;\n\n       return View();\n   }

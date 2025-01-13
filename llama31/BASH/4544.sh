@@ -1,0 +1,1 @@
+etbeans --ui="text/x-php:tpl"

@@ -1,1 +1,0 @@
-from django.urls import path\nfrom . import views\n\nurlpatterns = [\n    path('colored/', views.colored_response, name='colored_response'),\n]

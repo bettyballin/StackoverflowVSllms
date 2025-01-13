@@ -1,1 +1,0 @@
-#!/bin/bash\n\n# Sample list of items to import\nitems=("item1" "item2" "item3")\n\nfor item in "${items[@]}"; do\n    # Simulate import operation\n    # Replace the following line with your actual import command\n    sleep 1 # Simulate time taken for import\n    \n    # Echo success message to the user\n    echo "Successfully imported: $item"\ndone

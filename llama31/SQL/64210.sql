@@ -1,0 +1,1 @@
+UPDATE temp.ChildTable\nSET ParentID = (SELECT ParentID FROM temp.ParentTable WHERE ParentTable.ParentID = ChildTable.ParentID);\n\nUPDATE temp.GrandChildTable\nSET ChildID = (SELECT ChildID FROM temp.ChildTable WHERE ChildTable.ChildID = GrandChildTable.ChildID);

@@ -1,1 +1,0 @@
-SELECT sql_text\nFROM v$sql\nWHERE sql_text LIKE '%your_table_name%' -- Or any other criteria specific to the query you're interested in\nORDER BY last_active_time DESC;

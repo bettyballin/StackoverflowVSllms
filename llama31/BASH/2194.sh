@@ -1,0 +1,1 @@
+git config --global user.name "Your Name"\ngit config --global user.email "your@email.com"

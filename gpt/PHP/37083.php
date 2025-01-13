@@ -1,1 +1,0 @@
-<?php\n//***************** Operating Systems parameters  **************************\nif (PHP_OS == 'WINNT') {\n    define('PATH_SEP', '\\');\n} else {\n    define('PATH_SEP', '/');\n}\n\n//***************** Defining the Home Directory *********************************\n$docuroot = explode(PATH_SEP, getcwd());\n?>

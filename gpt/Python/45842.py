@@ -1,1 +1,0 @@
-from frechetdist import frdist\n\n# Define two line strings as lists of (latitude, longitude) tuples\nline_string1 = [(lat1, lon1), (lat2, lon2), ...]\nline_string2 = [(latA, lonA), (latB, lonB), ...]\n\n# Calculate the Frechet distance\ndistance = frdist(line_string1, line_string2)\n\nprint("Frechet Distance:", distance)

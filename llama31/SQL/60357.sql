@@ -1,0 +1,1 @@
+SELECT REGEXP_REPLACE(TO_CHAR(value, '99990,99'), '^(\d{1,3})(\d{3})', '\1 \2') AS formatted_value\nFROM your_table;

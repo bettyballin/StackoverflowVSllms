@@ -1,0 +1,1 @@
+cat file.txt | uniq -f1

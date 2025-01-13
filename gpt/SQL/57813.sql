@@ -1,1 +1,0 @@
--- First day of the current week\nSELECT DATEADD(WEEK, DATEDIFF(WEEK, 0, GETDATE()), 0) AS FirstDayOfCurrentWeek;\n\n-- First day of the previous week\nSELECT DATEADD(WEEK, DATEDIFF(WEEK, 0, GETDATE()) - 1, 0) AS FirstDayOfLastWeek;

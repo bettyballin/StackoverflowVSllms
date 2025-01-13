@@ -1,1 +1,0 @@
-class Car {\npublic:\n    __declspec(dllexport) Car(); // Exported constructor\n    __declspec(dllexport) void drive(void); // Exported method\n    typedef enum { None, Indented } Formatting; // Not exported\n    void stop(void); // Not exported\n};

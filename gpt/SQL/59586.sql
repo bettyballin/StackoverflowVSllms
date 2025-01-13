@@ -1,1 +1,0 @@
-CREATE VIEW HierarchicalDataView AS\nWITH Hierarchy AS (\n    SELECT Id, ParentId, Name, 0 AS Level\n    FROM Entries\n    WHERE ParentId IS NULL\n    UNION ALL\n    SELECT e.Id, e.ParentId, e.Name, h.Level + 1\n    FROM Entries e\n    INNER JOIN Hierarchy h ON e.ParentId = h.Id\n)\nSELECT Id, ParentId, Name, Level\nFROM Hierarchy;

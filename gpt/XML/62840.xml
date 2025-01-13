@@ -1,1 +1,0 @@
-<PropertyGroup>\n  <OutputPath>$(SolutionDir)Binaries\$(Configuration)\</OutputPath>\n</PropertyGroup>

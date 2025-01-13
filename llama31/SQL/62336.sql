@@ -1,0 +1,1 @@
+SELECT 1 FROM dual\nWHERE NOT EXISTS (\n  SELECT 1 FROM people\n  WHERE (<condition A>)\n  AND NOT (<condition B> OR <condition B> IS NULL)\n);

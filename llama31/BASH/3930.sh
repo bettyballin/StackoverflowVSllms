@@ -1,0 +1,1 @@
+pkg install pg_top

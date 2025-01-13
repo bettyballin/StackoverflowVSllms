@@ -1,0 +1,1 @@
+finally\n{\n    if (ppPres != null)\n    {\n        Marshal.ReleaseComObject(ppPres);\n        ppPres = null;\n    }\n\n    if (ppApp != null)\n    {\n        Marshal.ReleaseComObject(ppApp);\n        ppApp = null;\n    }\n\n    GC.Collect();\n    GC.WaitForPendingFinalizers();\n}

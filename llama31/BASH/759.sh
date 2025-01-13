@@ -1,0 +1,1 @@
+# Make changes to the code\ngit add .\ngit commit -m "Fix bug XYZ"\ngit format-patch origin/master

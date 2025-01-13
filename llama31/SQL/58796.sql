@@ -1,0 +1,1 @@
+INSERT INTO destTable\nSELECT *\nFROM srcTable s\nWHERE NOT EXISTS (\n  SELECT 1\n  FROM destTable d\n  WHERE d.MyKey1 = s.MyKey1 AND d.MyKey2 = s.MyKey2 AND ...\n);

@@ -1,1 +1,0 @@
-SELECT Table1.*\nFROM Table1\nJOIN Table2 ON Table1.id = Table2.id\nORDER BY \n  CASE \n    WHEN Table1.value < Table2.threshold THEN 1\n    ELSE 0\n  END, \n  Table1.id;  -- Additional sorting criteria can be added as needed

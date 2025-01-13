@@ -1,1 +1,0 @@
-sudo apt-get install distcc\n    distcc gcc -o myproject source.c

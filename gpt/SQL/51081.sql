@@ -1,1 +1,0 @@
-CREATE FUNCTION dbo.IsNumeric\n(\n    @value NVARCHAR(4000)\n)\nRETURNS BIT\nAS\nBEGIN\n    DECLARE @isNumeric BIT\n    SET @isNumeric = 0\n\n    -- Check if the value is numeric\n    IF ISNUMERIC(@value) = 1\n        AND @value NOT LIKE '%[^0-9]%'\n        AND @value NOT LIKE '%[-.,]%'\n    BEGIN\n        SET @isNumeric = 1\n    END\n\n    RETURN @isNumeric\nEND\nGO

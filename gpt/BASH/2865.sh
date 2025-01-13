@@ -1,1 +1,0 @@
-tshark -r capture.pcap -q -z io,phs

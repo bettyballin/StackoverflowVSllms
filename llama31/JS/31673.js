@@ -1,0 +1,1 @@
+$.ajax({\n  url: "X.asp",\n  cache: false,\n  type:  "POST",\n  data:  queryString,\n  success: function(data){\n    if (data.status === "OK") {\n      // do something\n    } else {\n      // handle error\n    }\n  }\n});

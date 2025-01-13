@@ -1,1 +1,0 @@
-sudo ./control_launchagent.sh unload

@@ -1,0 +1,1 @@
+# Create a separate directory for dynamic content\nmkdir /var/www/dynamic\n\n# Grant write access to the web server user\nchown www-data:www-data /var/www/dynamic\nchmod 755 /var/www/dynamic\n\n# Configure Apache to serve content from this directory\nAlias /dynamic /var/www/dynamic

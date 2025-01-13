@@ -1,1 +1,0 @@
-sudo usermod -s /usr/local/bin/restricted_shell.sh guestuser

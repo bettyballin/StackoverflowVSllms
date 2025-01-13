@@ -1,0 +1,1 @@
+cmdkey /add:<target_domain> /user:<username> /pass:<password>

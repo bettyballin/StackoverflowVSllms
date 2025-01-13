@@ -1,0 +1,1 @@
+ifort -syntax-only -syntax-verbose your_source_file.f90

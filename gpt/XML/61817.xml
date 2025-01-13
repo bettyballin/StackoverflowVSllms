@@ -1,1 +1,0 @@
-<bean class="org.springframework.web.servlet.view.InternalResourceViewResolver">\n    <property name="prefix" value="/WEB-INF/jsp/"/>\n    <property name="suffix" value=".jsp"/>\n</bean>

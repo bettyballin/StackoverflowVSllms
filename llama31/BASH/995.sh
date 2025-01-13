@@ -1,0 +1,1 @@
+telnet your_smtp_server 25

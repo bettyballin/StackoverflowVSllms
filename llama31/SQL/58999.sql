@@ -1,0 +1,1 @@
+WHERE tblContracts.ContractNo = @ContractNo OR @ContractNo = 0

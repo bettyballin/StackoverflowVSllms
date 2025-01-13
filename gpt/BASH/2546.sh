@@ -1,1 +1,0 @@
-# Open Command Prompt as Administrator\nregsvr32 path\to\Widgets3D.dll

@@ -1,1 +1,0 @@
-import socket\n    import time\n\n    server_address = ('', 12345)\n    sock = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)\n    sock.bind(server_address)\n\n    while True:\n        data, address = sock.recvfrom(4096)\n        current_time = time.time()\n        sock.sendto(str(current_time).encode(), address)

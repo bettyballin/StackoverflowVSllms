@@ -1,0 +1,1 @@
+#!/bin/bash\n\n# Set ownership\nsudo chown -R lampp:lamppusers /path/to/your/project\n\n# Set permissions\nsudo chmod -R u=rwX,g=rwX,o= /path/to/your/project

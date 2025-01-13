@@ -1,0 +1,1 @@
+$username = trim($_POST['username']);\n$email = filter_var($_POST['email'], FILTER_VALIDATE_EMAIL);

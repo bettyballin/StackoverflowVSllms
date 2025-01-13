@@ -1,0 +1,1 @@
+if (substr($newReplacement, 1, 1) === '_') {\n    // ...\n}

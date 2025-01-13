@@ -1,0 +1,1 @@
+<configuration>\n  <entityFramework>\n    <providers>\n      <provider invariantName="Oracle.ManagedDataAccess.Client"\n                type="OracleInternal.Common.ODPMOracleProviderServices, Oracle.ManagedDataAccess.EntityFramework" />\n    </providers>\n  </entityFramework>\n</configuration>

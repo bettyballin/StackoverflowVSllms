@@ -1,1 +1,0 @@
-[AllowAnonymous]\npublic ActionResult CreateAdminRole()\n{\n    if (!Roles.RoleExists("Administrator"))\n    {\n        Roles.CreateRole("Administrator");\n        return Content("Administrator role created successfully.");\n    }\n    else\n    {\n        return Content("Administrator role already exists.");\n    }\n}

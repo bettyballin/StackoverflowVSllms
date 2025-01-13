@@ -1,0 +1,1 @@
+function foo(...$args) {\n    foreach ($args as $i => $arg) {\n        doSomethingWith($arg, $i + 1);\n    }\n}

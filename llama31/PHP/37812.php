@@ -1,0 +1,1 @@
+header('Access-Control-Allow-Origin: *');\n   header('Access-Control-Allow-Methods: POST');\n   header('Access-Control-Allow-Headers: Content-Type');

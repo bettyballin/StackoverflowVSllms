@@ -1,0 +1,1 @@
+BOOL WINAPI CtrlHandler(DWORD fdwCtrlType) {\n    switch (fdwCtrlType) {\n    case CTRL_C_EVENT:\n        // Perform cleanup\n        // ...\n        return TRUE;\n    default:\n        return FALSE;\n    }\n}

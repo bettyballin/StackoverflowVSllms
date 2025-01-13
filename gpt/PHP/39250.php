@@ -1,1 +1,0 @@
-if (password_verify($password, $hashed_password)) {\n         // Password is correct\n     }

@@ -1,1 +1,0 @@
-$array = range(1, 13); // Example array with 13 elements\n\nfor ($i = 1; $i < count($array); $i += 2) {\n    // Perform your operation here\n    // For example, printing the element\n    echo $array[$i] . "\n";\n}

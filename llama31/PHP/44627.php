@@ -1,0 +1,1 @@
+$index = Zend_Search_Lucene::create('path/to/index', new MyAnalyzer());\n\n// When searching\n$query = Zend_Search_Lucene_Search_Query_Wildcard::parse('Foo Bar');\n$search = new Zend_Search_Lucene_Search($index, new MyAnalyzer());\n$results = $search->search($query);

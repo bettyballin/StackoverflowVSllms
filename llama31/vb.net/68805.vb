@@ -1,0 +1,1 @@
+Imports Lib2 = Product.Common\n\nDim obj As New Lib2.Class1()

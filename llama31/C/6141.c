@@ -1,0 +1,1 @@
+#include <sys/file.h>\n\nint fd = open("example.txt", O_RDONLY);\nif (fd == -1) {\n    perror("open");\n    return 1;\n}\n\nif (flock(fd, LOCK_EX) == -1) {\n    perror("flock");\n    return 1;\n}\n\n// Read from the file...\nread(fd, buffer, size);\n\nif (flock(fd, LOCK_UN) == -1) {\n    perror("flock");\n    return 1;\n}\n\nclose(fd);

@@ -1,0 +1,1 @@
+Function Details(ByVal id As Integer) As ActionResult\n    Dim c = SomeGetClientFunction(id)\n    Return View(c)\nEnd Functio

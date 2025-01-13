@@ -1,0 +1,1 @@
+# Add a new cron job to run the script every 10 minutes\ncrontab -e\n*/10 * * * * php /path/to/your/script.php > /dev/null 2>&1 &

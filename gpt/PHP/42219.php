@@ -1,1 +1,0 @@
-use Nette\PhpGenerator\ClassType;\n\n  $class = new ClassType('MyGeneratedClass');\n  $class->addMethod('myMethod')\n        ->setBody('return "Hello World!";');\n\n  echo (new \Nette\PhpGenerator\PsrPrinter)->printClass($class);

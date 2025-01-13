@@ -1,0 +1,1 @@
+#include <Windows.h>\n\nint main() {\n    HANDLE hFile = CreateFile("example.txt", GENERIC_WRITE, 0, NULL, CREATE_ALWAYS, FILE_ATTRIBUTE_NORMAL, NULL);\n    if (hFile == INVALID_HANDLE_VALUE) {\n        // handle error\n    }\n\n    // truncate file to 10 bytes\n    if (!SetEndOfFile(hFile)) {\n        // handle error\n    }\n\n    CloseHandle(hFile);\n    return 0;\n}

@@ -1,1 +1,0 @@
-DateTime createDateUtc = // get the date from database\nTimeZoneInfo centralZone = TimeZoneInfo.FindSystemTimeZoneById("Central Standard Time");\nDateTime createDateCentral = TimeZoneInfo.ConvertTimeFromUtc(createDateUtc, centralZone);\n\n// Use createDateCentral for display purposes

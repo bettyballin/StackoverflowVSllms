@@ -1,0 +1,1 @@
+RewriteRule bla.png folder/%{ENV:SESSION_FOO}/file.png

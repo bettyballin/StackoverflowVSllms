@@ -1,1 +1,0 @@
-const xhr = new XMLHttpRequest();\nxhr.open('POST', 'http://abc.com/some-endpoint', true);\nxhr.setRequestHeader('Content-Type', 'application/json;charset=UTF-8');\n\nxhr.onreadystatechange = function () {\n  if (xhr.readyState === 4 && xhr.status === 200) {\n    console.log(xhr.responseText);\n  }\n};\n\nconst data = JSON.stringify({ key: 'value' });\nxhr.send(data);

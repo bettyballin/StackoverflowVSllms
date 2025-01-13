@@ -1,0 +1,1 @@
+class MyClass {\n    public function myMethod($arg1, $arg2) {\n        echo "myMethod called with args: $arg1, $arg2\n";\n    }\n}\n\n$obj = new MyClass();\n$methodName = 'myMethod';\n\ncall_user_func(array($obj, $methodName), 'arg1', 'arg2');

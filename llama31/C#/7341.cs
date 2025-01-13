@@ -1,0 +1,1 @@
+using (SqlConnection connection = new SqlConnection(connectionString))\n{\n    connection.Open();\n\n    using (SqlCommand command = new SqlCommand("UPDATE table SET blob_field.WRITE(@data, NULL, 0)", connection))\n    {\n        command.Parameters.AddWithValue("@data", new byte[] { /* your data to append */ });\n        command.ExecuteNonQuery();\n    }\n}

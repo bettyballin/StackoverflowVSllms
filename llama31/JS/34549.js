@@ -1,0 +1,1 @@
+var link = document.createElement('a');\nlink.href = 'ms-launch-ie:http://your-url.com';\nlink.click();

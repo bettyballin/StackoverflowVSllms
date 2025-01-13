@@ -1,1 +1,0 @@
-cmd.Parameters.AddWithValue("@Field", GetDbValue(this.Field));

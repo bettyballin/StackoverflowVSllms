@@ -1,0 +1,1 @@
+using (var context = new DataContext())\n{\n    context.Log = Console.Out;\n    var orders = context.Orders.ToList();\n}

@@ -1,0 +1,1 @@
+// MainProgram.cs\nusing SanitizingLibrary;\n\nclass Program\n{\n    static void Main(string[] args)\n    {\n        string userInput = "   Hello, World!   ";\n        string sanitizedInput = Sanitizer.SanitizeString(userInput);\n        Console.WriteLine(sanitizedInput); // Output: "Hello, World!"\n    }\n}

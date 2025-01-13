@@ -1,1 +1,0 @@
-private readonly object _lock = new object();\nprivate List<int> _collection = new List<int>();\n\npublic void AddItem(int item)\n{\n    lock (_lock)\n    {\n        _collection.Add(item);\n    }\n}\n\npublic void ProcessItems()\n{\n    lock (_lock)\n    {\n        foreach (var item in _collection)\n        {\n            // Process item\n        }\n    }\n}

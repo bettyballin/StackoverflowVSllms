@@ -1,1 +1,0 @@
-echo "Test message" | mail -s "Test Subject" requests@website.com

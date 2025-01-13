@@ -1,0 +1,1 @@
+const fileExtension = file.split('.').pop();\nif (fileExtension !== 'xlsx' && fileExtension !== 'xls') {\n  throw new Error('Invalid file type');\n}

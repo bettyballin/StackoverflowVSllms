@@ -1,1 +1,0 @@
-var foo = Stuff.Elements.Foo;\nAction<Foo> updateFoo = f =>\n{\n    f.Name = "Bob Dylan";\n    f.Age = 68;\n    f.Location = "On Tour";\n    f.IsCool = true;\n};\nupdateFoo(foo);

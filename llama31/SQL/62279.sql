@@ -1,0 +1,1 @@
+CREATE TABLE timespans (\n    ...\n    start_time TIME,\n    end_time TIME,\n    CHECK (start_time <= end_time)\n);

@@ -1,1 +1,0 @@
-SELECT *\nFROM Table1 t1\nJOIN Table2 t2\nON t1.StartTime < ISNULL(t2.EndTime, '9999-12-31') AND t1.EndTime > t2.StartTime;

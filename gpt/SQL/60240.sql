@@ -1,1 +1,0 @@
-CREATE TABLE questions (\n    question_id NUMBER PRIMARY KEY,\n    question_text VARCHAR2(255) NOT NULL,\n    parent_question_id NUMBER,\n    answer_option VARCHAR2(255),\n    FOREIGN KEY (parent_question_id) REFERENCES questions(question_id)\n);

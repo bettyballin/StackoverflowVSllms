@@ -1,0 +1,1 @@
+$url = 'http://www.w3schools.com/PHP/func_string_str_split.asp';\n$host = parse_url($url, PHP_URL_HOST);\n$host = str_replace('www.', '', $host);\necho $host; // outputs: w3schools.com

@@ -1,0 +1,1 @@
+beforecreate: function (node, targetNode, type, to) {\n  return jQuery.get('http://example.com/catalog/create/' + targetNode.id + '?name=' + encode(to.inp[0].value))\n    .then(function(result) {\n      if (result.isOk == false) {\n        alert(result.message);\n        return false;\n      }\n    });\n}

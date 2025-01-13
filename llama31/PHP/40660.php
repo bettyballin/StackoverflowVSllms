@@ -1,0 +1,1 @@
+function decrypt($encryptedBase64, $key) {\n    $encryptedBytes = base64_decode($encryptedBase64);\n    $ivBytes = str_repeat("\0", 16);\n    $decryptedBytes = openssl_decrypt($encryptedBytes, 'AES-128-CBC', $key, OPENSSL_RAW_DATA, $ivBytes);\n    return trim($decryptedBytes);\n}

@@ -1,1 +1,0 @@
-chmod +x /path/to/cronjob_script.sh

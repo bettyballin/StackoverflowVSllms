@@ -1,1 +1,0 @@
-session_start();\n\nif (isset($_SESSION['loggedin']) && $_SESSION['loggedin'] === '1234') {\n    if ($_SESSION['user_role'] === 'client') {\n        header("Location: /clients/");\n    } elseif ($_SESSION['user_role'] === 'webmaster') {\n        header("Location: /webmaster/");\n    }\n    exit();\n}\n?>\n<!-- HTML for login forms here -->

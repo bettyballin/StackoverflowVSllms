@@ -1,1 +1,0 @@
-SELECT A AS MyColumn, B AS MyColumn2 FROM your_table\nUNION ALL\nSELECT C AS MyColumn, D AS MyColumn2 FROM your_table\nUNION ALL\nSELECT E AS MyColumn, F AS MyColumn2 FROM your_table;

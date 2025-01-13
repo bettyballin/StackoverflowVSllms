@@ -1,0 +1,1 @@
+for (int l=p+1; l < TagLen; l++) {\n    for (int  c=1; c<=3; c++) {\n        int cval = c;\n        if (nbnumTag[l] == c) {\n            cval = 0;  // Corrected here\n        }\n        vector <int> nbnumTag2 = neighbors(nbnumTag, l, cval);\n        string SnbnumTag2 = Vec2Str(nbnumTag2);\n        cout << "\t" << SnbnumTag2;\n        cout << "\n";\n    }\n}

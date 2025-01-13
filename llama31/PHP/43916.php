@@ -1,0 +1,1 @@
+$fp = fsockopen('ssl://' . $server, 443, $errno, $errstr, 30);

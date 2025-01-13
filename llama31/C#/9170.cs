@@ -1,0 +1,1 @@
+var distinctObjectNamesList = fieldList.Select(f => f.objectName).Distinct(StringComparer.OrdinalIgnoreCase).ToList();

@@ -1,0 +1,1 @@
+$.ajax({\n    type: 'POST',\n    url: 'YourPage.aspx/DestroySession',\n    data: '{}',\n    contentType: 'application/json; charset=utf-8',\n    dataType: 'json',\n    success: function() {\n        // Session variable destroyed\n    }\n});

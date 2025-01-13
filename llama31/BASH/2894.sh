@@ -1,0 +1,1 @@
+if fn_exists init; then\n  echo "init() is defined"\nelse\n  echo "init() is not defined"\nfi

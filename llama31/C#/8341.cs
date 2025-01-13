@@ -1,0 +1,1 @@
+[HttpPost]\npublic ActionResult Post(int id, HttpPostedFileBase file)\n{\n    // Process the file and other form data here\n    return PartialView("_YourPartialView");\n}

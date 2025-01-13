@@ -1,1 +1,0 @@
-java -cp saxon9he.jar net.sf.saxon.Transform -s:input.xml -xsl:stylesheet.xsl -o:output.xml

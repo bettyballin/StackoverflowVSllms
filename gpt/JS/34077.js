@@ -1,1 +1,0 @@
-const loginData = {\n  username: 'yourUsername',\n  password: 'yourPassword'\n};\n\nfetch('https://yourwebsite.com/login', {\n  method: 'POST',\n  headers: {\n    'Content-Type': 'application/json'\n  },\n  body: JSON.stringify(loginData)\n})\n.then(response => response.json())\n.then(data => console.log('Success:', data))\n.catch((error) => console.error('Error:', error));

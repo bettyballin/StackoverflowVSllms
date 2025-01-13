@@ -1,1 +1,0 @@
-// Set PHP to UTC\ndate_default_timezone_set('UTC');\n\n// Convert stored UTC time to user's timezone\n$utcTime = '2023-10-05 12:00:00';\n$userTimezone = new DateTimeZone('America/Los_Angeles');\n$date = new DateTime($utcTime, new DateTimeZone('UTC'));\n$date->setTimezone($userTimezone);\necho $date->format('Y-m-d H:i:s');

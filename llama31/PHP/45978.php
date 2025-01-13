@@ -1,0 +1,1 @@
+stdClass Object\n(\n    [name] => John Doe\n    [age] => 30\n)

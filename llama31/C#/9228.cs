@@ -1,0 +1,1 @@
+[Column(DbType = "BigInt NOT NULL IDENTITY", IsPrimaryKey = true, IsDbGenerated = true, AutoSync = AutoSync.Never)]\npublic long CompanyID { get; set; }

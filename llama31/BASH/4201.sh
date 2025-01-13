@@ -1,0 +1,1 @@
+for file in *; do\n  awk '{print $0, FILENAME}' "$file" > "${file}.modified"\ndone

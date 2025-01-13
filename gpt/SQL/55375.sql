@@ -1,1 +1,0 @@
-EXEC sp_addsubscription @publication = 'YourPublication', @subscriber = 'SubscriberServerName', @destination_db = 'SubscriberDatabase', @subscription_type = N'Push', @sync_type = N'automatic', @article = N'all', @update_mode = N'read only', @subscriber_type = 0;

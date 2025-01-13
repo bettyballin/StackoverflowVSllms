@@ -1,0 +1,1 @@
+var query = session.QueryOver<Entity>()\n    .Fetch(e => e.Relationship).Eager\n    .Fetch(e => e.Relationship1).Eager\n    .Fetch(e => e.Relationship2).Eager\n    .List();

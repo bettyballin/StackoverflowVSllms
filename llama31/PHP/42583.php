@@ -1,0 +1,1 @@
+echo '<script>alert("values:'.htmlspecialchars($_REQUEST["id"]).", ".htmlspecialchars($_REQUEST["add_single"])."");</script>';

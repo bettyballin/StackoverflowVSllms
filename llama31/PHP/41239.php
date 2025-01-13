@@ -1,0 +1,1 @@
+$title = $fetch_content['article_name'];\n$keywords = explode(' ', $title);

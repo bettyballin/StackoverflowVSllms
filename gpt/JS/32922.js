@@ -1,1 +1,0 @@
-$(document).ready(function() {\n    $("#subJobName").data('jVal', {\n        valid: function(val) { \n            return validateSubJobName(val); \n        }, \n        message: 'Name already exists or is longer than 14 characters.', \n        styleType: 'cover'\n    });\n});

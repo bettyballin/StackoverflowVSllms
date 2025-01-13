@@ -1,0 +1,1 @@
+$("#category").on('change', function () {\n  var catId = $(this).val();\n  var secondaryValue = $(this).find('option:selected').attr('data-secondary');\n  // do something with catId and secondaryValue\n});

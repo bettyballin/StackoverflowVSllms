@@ -1,0 +1,1 @@
+MySqlCommand cmd = new MySqlCommand("SELECT * FROM myTable WHERE id = @id", connection);\ncmd.Parameters.AddWithValue("@id", 123);

@@ -1,0 +1,1 @@
+xmldoc = libxml2.parseDoc(gfile_content)\ndroot = xmldoc.children         # Get document root\ndchild = droot.children         # Get child nodes\n\nwhile dchild is not None:\n    if dchild.type == "element":\n        print "\tAn element with ", len(dchild.childNodes()), "child(ren)"\n        print "\tAnd content", repr(dchild.content)\n    dchild = dchild.next\nxmldoc.freeDoc();

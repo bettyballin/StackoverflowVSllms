@@ -1,1 +1,0 @@
-INSERT INTO Ordre (Onr, CPR, Dato, SamletPris)\n   VALUES (1, 1234567890, '2023-10-10 12:00:00', 200.00);

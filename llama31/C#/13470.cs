@@ -1,0 +1,1 @@
+protected void btnSubmit_Click(object sender, EventArgs e)\n{\n    // Update gridview code here...\n\n    ScriptManager.RegisterStartupScript(this.Page, this.GetType(), "reopenModal", "$find('modalPopupExtender').show();", true);\n}

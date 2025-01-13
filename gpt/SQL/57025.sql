@@ -1,1 +1,0 @@
-/*\n * Note: The current database schema was designed by [Co-worker's Name] and has known issues with normalization.\n * This code works around the existing schema, but may not be optimal.\n * For better maintainability and performance, consider normalizing the database schema in the future.\n * Examples of issues include [describe specific issue].\n */

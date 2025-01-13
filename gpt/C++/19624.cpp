@@ -1,1 +1,0 @@
-if (pConnection) {\n       pConnection->Unadvise(dwCookie);\n       pConnection->Release();\n   }\n   if (pEventSink) {\n       pEventSink->Release();\n   }

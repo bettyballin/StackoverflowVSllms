@@ -1,1 +1,0 @@
-// Example of using dotMemory in code\n   using JetBrains.Profiler.Api;\n   ...\n   MemoryProfiler.GetSnapshot("Snapshot description");

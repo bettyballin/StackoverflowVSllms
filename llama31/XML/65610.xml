@@ -1,0 +1,1 @@
+<configuration>\n  <system.web>\n    <httpRuntime maxRequestLength="20480" />\n  </system.web>\n  <system.webServer>\n    <security>\n      <requestFiltering>\n        <requestLimits maxAllowedContentLength="20480000" />\n      </requestFiltering>\n    </security>\n  </system.webServer>\n</configuration>

@@ -1,1 +1,0 @@
-// Define the enum outside the interface\npublic enum MyEnum\n{\n    Yes = 0,\n    No = 1,\n    Maybe = 2\n}\n\n// Define the interface\npublic interface MyInterface\n{\n    MyEnum Number { get; }\n}

@@ -1,1 +1,0 @@
-DELETE FROM your_table WHERE user_id = 'specific_user_id';

@@ -1,0 +1,1 @@
+# Gemfile\ngem 'active_storage'\n\n# Run the migration\nrails active_storage:install\nrails db:migrate

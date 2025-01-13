@@ -1,0 +1,1 @@
+#header {\n  background: transparent url(img/banners/rotate.php) no-repeat 0px 0px; /*rotates images in the banners folder */\n  *background-image: none;\n  _background-image: none;\n  filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='img/banners/rotate.php', sizingMethod='scale');\n  position: relative; z-index: 1;\n}

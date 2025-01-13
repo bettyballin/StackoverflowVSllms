@@ -1,0 +1,1 @@
+Private Sub ExampleProc2(ParamArray Fields())\n    Dim intCancel As Integer, varV As Variant\n    \n    For Each varV In Fields\n        Me.Controls(varV).Value = Null\n        intCancel = False\n        RaiseEvent Me.Controls(varV).BeforeUpdate(intCancel)\n    Next\nEnd Sub

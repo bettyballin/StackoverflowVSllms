@@ -1,0 +1,1 @@
+var p = from c in mytable\n        where c.id = rowNumber\n        select ( new { voidedState = c.@void } );

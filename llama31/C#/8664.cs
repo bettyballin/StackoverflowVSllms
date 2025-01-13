@@ -1,0 +1,1 @@
+Lists lists = new Lists();\nlists.Url = "http://your-sharepoint-site/_vti_bin/Lists.asmx";\nlists.Credentials = new NetworkCredential("username", "password");\n\nXmlNode listTemplates = lists.GetListTemplates(true);\n\nforeach (XmlNode template in listTemplates.SelectNodes("Lists/ListTemplate"))\n{\n    Console.WriteLine(template.Attributes["Name"].Value);\n}

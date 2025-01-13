@@ -1,0 +1,1 @@
+#include <shellapi.h>\n\nint main() {\n    // ...\n\n    SHELLEXECUTEINFO info = {0};\n    info.cbSize = sizeof(SHELLEXECUTEINFO);\n    info.fMask = SEE_MASK_NOCLOSEPROCESS;\n    info.lpVerb = "runas";\n    info.lpFile = "yourprogram.exe";\n    info.lpParameters = "/savekey";\n\n    ShellExecuteEx(&info);\n\n    // ...\n}

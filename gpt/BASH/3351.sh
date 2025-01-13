@@ -1,1 +1,0 @@
-git add .\n     git commit -m "Applied changes from SVN revision 125"

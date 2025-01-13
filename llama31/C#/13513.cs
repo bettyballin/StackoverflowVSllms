@@ -1,0 +1,1 @@
+public class CurrentUser\n{\n    public string Name { get; set; }\n    public string Role { get; set; }\n}\n\npublic class MainForm\n{\n    private readonly CurrentUser _currentUser;\n\n    public MainForm(CurrentUser currentUser)\n    {\n        _currentUser = currentUser;\n    }\n}

@@ -1,0 +1,1 @@
+CREATE PROCEDURE [dbo].[msp_AssociateEvent]\n(\n    @EventId int\n)\n\nAS\n\nINSERT INTO tblFoodMenus (/* columns */) VALUES (/* values */)\n\nUPDATE tblFoodMenus set\nEventID = @EventId\n\nWhere FoodMenuID = SCOPE_IDENTITY()

@@ -1,1 +1,0 @@
-// SharedLibrary/DataContracts.cs\n   using System.Runtime.Serialization;\n\n   [DataContract]\n   public class MyDataContract\n   {\n       [DataMember]\n       public int Id { get; set; }\n\n       [DataMember]\n       public string Name { get; set; }\n   }

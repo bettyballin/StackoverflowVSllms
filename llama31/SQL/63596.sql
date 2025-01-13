@@ -1,0 +1,1 @@
+CREATE INDEX mytable_data_gist_index ON mytable USING GIST (data);

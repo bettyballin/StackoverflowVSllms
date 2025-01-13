@@ -1,0 +1,1 @@
+#main {\n  display: flex;\n  flex-direction: row;\n}\n\n#navigation {\n  flex-grow: 0;\n  flex-shrink: 0;\n  height: 100%;\n  background-color: #f0f0f0; /* for illustration purposes */\n}\n\n#content {\n  flex-grow: 1;\n  flex-shrink: 1;\n  height: 100%;\n  background-color: #ccc; /* for illustration purposes */\n}

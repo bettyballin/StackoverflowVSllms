@@ -1,1 +1,0 @@
-Dim sURL As String = Trim(m_StationInterface.PicLocation)\n\nUsing objwebClient As New WebClient()\n    Using objImage As New MemoryStream(objwebClient.DownloadData(sURL))\n        If m_imgLiftingEye.Image IsNot Nothing Then\n            m_imgLiftingEye.Image.Dispose()\n        End If\n        m_imgLiftingEye.Image = Image.FromStream(objImage)\n    End Using\nEnd Using

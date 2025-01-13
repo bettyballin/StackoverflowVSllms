@@ -1,0 +1,1 @@
+using System.ServiceProcess;\n\npublic class MyServiceInstaller : ServiceProcessInstaller\n{\n    public MyServiceInstaller()\n    {\n        // Set the service to run under the specified username and password\n        this.Account = ServiceAccount.User;\n        this.Username = "DOMAIN\\USERNAME";\n        this.Password = "PASSWORD";\n    }\n}

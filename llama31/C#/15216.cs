@@ -1,0 +1,1 @@
+string htmlContent = editor.GetContent();

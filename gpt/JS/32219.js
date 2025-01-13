@@ -1,1 +1,0 @@
-var obj = {\n    a: 1,\n    b: 2,\n    c: 3\n};\n\nvar numberOfElements = Object.keys(obj).length;\nconsole.log(numberOfElements); // Output: 3

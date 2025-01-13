@@ -1,0 +1,1 @@
+$url = 'http://anysubdomain.example.com/so/this/is/good/wow.php';\nif (preg_match($pattern, $url)) {\n    echo "URL is valid!";\n} else {\n    echo "URL is not valid.";\n}

@@ -1,0 +1,1 @@
+void foo(const std::vector<int>& arr) {\n    // use arr\n}

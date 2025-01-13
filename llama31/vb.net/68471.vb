@@ -1,0 +1,1 @@
+Dim groupedResults = enumerable.GroupBy(Function(x) New CustomKey With {.A = x.Item("A").ToString, .B = x.Item("B").ToString})

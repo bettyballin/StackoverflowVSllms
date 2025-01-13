@@ -1,0 +1,1 @@
+Entry.objects.bulk_create([Entry(a1=item.a1, a2=item.a2) for item in items])

@@ -1,1 +1,0 @@
-<?php\n$safeInput = htmlspecialchars($userInput, ENT_QUOTES, 'UTF-8');\necho $safeInput;\n?>

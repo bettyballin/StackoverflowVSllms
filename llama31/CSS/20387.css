@@ -1,0 +1,1 @@
+#container {\n  display: flex;\n  flex-direction: column;\n  height: 100vh; /* Take full height of the viewport */\n}\n\n#centercolumn {\n  flex: 1; /* Take the remaining space */\n  margin-left: auto;\n  margin-right: auto;\n  width: 800px;\n}\n\n#header {\n  height: 150px;\n}\n\n#footer {\n  height: 50px;\n}

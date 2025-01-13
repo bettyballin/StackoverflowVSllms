@@ -1,1 +1,0 @@
-<?php\n// Set a custom session name\nsession_name('MY_CUSTOM_SESSION_NAME');\n\n// Start the session\nsession_start();\n\n// Your session-related code here\n$_SESSION['key'] = 'value';\n?>

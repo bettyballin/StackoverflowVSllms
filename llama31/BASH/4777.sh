@@ -1,0 +1,1 @@
+gcc -o your_program.exe your_program.c -mwindows

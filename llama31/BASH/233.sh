@@ -1,0 +1,1 @@
+awk '{if (NR>1 && $0~/regexp/) print ""; print prev; prev=$0} END{print $0}' file.txt

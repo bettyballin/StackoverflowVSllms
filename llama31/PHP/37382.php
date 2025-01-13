@@ -1,0 +1,1 @@
+$request_url = "http://exampleurl.com/feed";\n\n$ch = curl_init($request_url);\ncurl_setopt($ch, CURLOPT_RETURNTRANSFER, true);\n$json = curl_exec($ch);\ncurl_close($ch);\n\n$decode = json_decode($json, true);\n\nprint_r($decode);

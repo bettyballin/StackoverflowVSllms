@@ -1,1 +1,0 @@
-public class WebHost : IHost\n{\n    public UserSession UserSession\n    {\n        get\n        {\n            return (UserSession)HttpContext.Current.Session["UserSession"];\n        }\n    }\n}

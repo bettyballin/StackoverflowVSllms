@@ -1,0 +1,1 @@
+<system.web>\n    <authentication mode="Forms">\n        <forms loginUrl="UILogon.aspx" timeout="60" slidingExpiration="true" />\n    </authentication>\n</system.web>

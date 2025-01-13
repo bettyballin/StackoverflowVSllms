@@ -1,0 +1,1 @@
+# Install NLB on Windows Server\nInstall-WindowsFeature NLB\n\n# Create a new NLB cluster\nNew-NlbCluster -HostName "your-cluster-name" -Interface "your-interface-name"\n\n# Add a node to the NLB cluster\nAdd-NlbClusterNode -HostName "your-node-name" -Interface "your-interface-name"

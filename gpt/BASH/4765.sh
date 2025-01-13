@@ -1,1 +1,0 @@
-curl -u username:password https://host/path/to/file -o /path/to/local/destinatio

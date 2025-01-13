@@ -1,0 +1,1 @@
+sudo usermod -s /usr/bin/bash ksbuild

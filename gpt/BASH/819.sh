@@ -1,1 +1,0 @@
-cpanm Plack FCGI::PlackHandler

@@ -1,0 +1,1 @@
+// View\n@using (Html.BeginForm("MyAction", "MyController"))\n{\n    @Html.Hidden("myData", "someValue")\n    <input type="submit" value="Submit" />\n}\n\n// Controller\n[HttpPost]\npublic ActionResult MyAction(string myData)\n{\n    // Process the data\n    return RedirectToAction("Index");\n}

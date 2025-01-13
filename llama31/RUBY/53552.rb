@@ -1,0 +1,1 @@
+before_filter :login_required, \n  :except => lambda { |controller| controller.action_name == 'index' && controller.request.format.js? }

@@ -1,0 +1,1 @@
+$serverName = 'localhost';\n$databaseName = 'mydatabase';\n$uid = 'myusername';\n$pwd = 'mypassword';\n\n$connectionInfo = array(\n    'Database' => $databaseName,\n    'UID' => $uid,\n    'PWD' => $pwd\n);\n\n$conn = sqlsrv_connect($serverName, $connectionInfo);\n\nif ($conn === false) {\n    die(print_r(sqlsrv_errors(), true));\n}

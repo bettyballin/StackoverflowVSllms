@@ -1,0 +1,1 @@
+// VBA code\nSub CalculateSum()\n    Range("A1").Value = Range("A1").Value + 1\nEnd Sub\n\n// JavaScript equivalent using SheetJS\nconst xlsx = require('xlsx');\n\nconst workbook = xlsx.readFile('example.xlsx');\nconst sheet = workbook.Sheets['Sheet1'];\nconst cell = sheet['A1'];\n\ncell.v = parseInt(cell.v) + 1;\nxlsx.writeFile(workbook, 'example.xlsx');

@@ -1,0 +1,1 @@
+using System.Net;\n\n// Create a new instance of the web service client\nMyWebService client = new MyWebService();\n\n// Set the proxy settings\nWebProxy proxy = new WebProxy("http://theproxy:8080");\nproxy.BypassProxyOnLocal = true;\n\n// Set the proxy on the web service client\nclient.Proxy = proxy;\n\n// Call the web service\nclient.MyMethod();

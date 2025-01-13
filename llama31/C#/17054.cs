@@ -1,0 +1,1 @@
+string originalCssLink = "http://www.targetdomain.com/style.css";\nstring proxiedCssLink = originalCssLink.Replace("http://www.targetdomain.com", "http://www.mydomain.com/GetContent.aspx?url=");

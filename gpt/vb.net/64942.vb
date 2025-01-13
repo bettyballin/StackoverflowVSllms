@@ -1,1 +1,0 @@
-Public Class ExampleClass\n    Private _value As Integer\n\n    Public Property RandomValue As Integer\n        Get\n            Return _value\n        End Get\n        Set(ByVal value As Integer)\n            _value = value\n        End Set\n    End Property\nEnd Class

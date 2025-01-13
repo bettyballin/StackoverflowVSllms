@@ -1,1 +1,0 @@
-SSL *ssl = SSL_new(ctx);\nSSL_set_fd(ssl, socket_fd);\nSSL_connect(ssl); // Perform the SSL/TLS handshake\nSSL_write(ssl, buf, num_bytes); // Write data\nSSL_read(ssl, buf, num_bytes); // Read data\nSSL_shutdown(ssl); // Shutdown the SSL/TLS connectio

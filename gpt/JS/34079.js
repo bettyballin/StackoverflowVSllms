@@ -1,1 +1,0 @@
-var π = 3.14; // Greek letter pi\nvar 变量 = "This is a variable"; // Chinese character for "variable"

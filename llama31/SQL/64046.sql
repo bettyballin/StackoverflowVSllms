@@ -1,0 +1,1 @@
+CREATE VIEW lastOrders AS\nSELECT DISTINCT ON (customerID) id, customerID, timestamp\nFROM orders\nORDER BY customerID, timestamp DESC;

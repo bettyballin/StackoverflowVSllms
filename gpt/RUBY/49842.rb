@@ -1,1 +1,0 @@
-# Single-quoted string\nstr1 = 'Hello, World!'\n\n# Double-quoted string with interpolation\nname = "Alice"\nstr2 = "Hello, #{name}!"\n\n# %Q and %q syntax\nstr3 = %Q(Hello, #{name}!)\nstr4 = %q(Hello, World!)\n\n# Here-documents\nstr5 = <<-HEREDOC\nHello, #{name}!\nThis is a multi-line string.\nHEREDOC

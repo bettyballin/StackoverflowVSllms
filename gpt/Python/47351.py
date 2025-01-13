@@ -1,1 +1,0 @@
-from rest_framework.throttling import UserRateThrottle\n    \n    class FileUploadRateThrottle(UserRateThrottle):\n        rate = '5/min'  # Adjust as needed

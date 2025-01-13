@@ -1,0 +1,1 @@
+ode* new_last_node = new node(c);

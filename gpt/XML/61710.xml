@@ -1,1 +1,0 @@
-<configuration>\n     <system.web>\n       <profile>\n         <properties>\n           <add name="SelectedColumns" type="String" />\n         </properties>\n       </profile>\n     </system.web>\n   </configuration>

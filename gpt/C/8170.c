@@ -1,1 +1,0 @@
-// Example setup for Remote Call Profiler\n#include <windows.h>\n\nint main()\n{\n    // Initialize Remote Call Profiler\n    ProfilerStart();\n\n    // Your application code here\n    // ...\n\n    // Stop Remote Call Profiler\n    ProfilerStop();\n\n    return 0;\n}

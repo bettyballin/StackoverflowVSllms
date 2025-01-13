@@ -1,1 +1,0 @@
-CREATE TRIGGER trgAfterInsert\nON StagingTable\nAFTER INSERT\nAS\nBEGIN\n    -- Execute SSIS package or stored procedure\n    EXEC ValidateHierarchy;\n    \n    -- Additional logic to start the SSIS package\nEND

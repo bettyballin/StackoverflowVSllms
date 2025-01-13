@@ -1,1 +1,0 @@
-public class CustomButton : Button\n   {\n       public CustomButton()\n       {\n           this.BackColor = Color.AliceBlue;\n           this.Font = new Font("Arial", 10);\n       }\n   }

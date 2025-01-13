@@ -1,1 +1,0 @@
-SELECT \n    COALESCE(custPrice.price, regPrice.price) AS price\nFROM \n    regPrice\nLEFT JOIN \n    custPrice\nON \n    regPrice.itemID = custPrice.itemID AND custPrice.acct = :passedAcct\nWHERE \n    regPrice.itemID = :passedItemID;

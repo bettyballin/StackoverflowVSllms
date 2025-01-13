@@ -1,0 +1,1 @@
+print(min_chars_to_palindrome("ABBA"))  # 0\nprint(min_chars_to_palindrome("ABB"))   # 1\nprint(min_chars_to_palindrome("FAE"))   # 2\nprint(min_chars_to_palindrome("FOO"))   # 1

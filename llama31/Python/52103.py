@@ -1,0 +1,1 @@
+import cx_Oracle\n\ntry:\n    # Your cx_Oracle code here\n    pass\nexcept cx_Oracle.Error as e:\n    error_code = e.args[0].code\n    error_message = e.args[0].message\n    print(f"Error Code: {error_code}, Error Message: {error_message}")

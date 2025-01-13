@@ -1,1 +1,0 @@
-DECLARE @return_value int\n\nEXEC    @return_value = [dbo].[usp_ReserveBook]\n    @userID = 'AE019609-99E0-4EF5-85BB-AD90DC302E70',\n    @bookID = 7,\n    @dateReserved = N'09/03/2009',\n    @status = 1\n\nSELECT  'Return Value' = @return_value

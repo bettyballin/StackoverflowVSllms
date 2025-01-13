@@ -1,0 +1,1 @@
+SELECT id, name, row_number() OVER (ORDER BY name) AS row_num\nFROM table\nWHERE id = 47;

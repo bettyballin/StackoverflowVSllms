@@ -1,1 +1,0 @@
-CREATE TABLE ExampleTable (\n    id INT AUTO_INCREMENT PRIMARY KEY,\n    name VARCHAR(100) NOT NULL\n);

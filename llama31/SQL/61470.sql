@@ -1,0 +1,1 @@
+CREATE DATABASE RM_DB_NEW\nON (\n    NAME = RM_DB,\n    FILENAME = 'path\to\new\database\file\RmDbNew.mdf'\n)\nAS SNAPSHOT OF RM_DB;

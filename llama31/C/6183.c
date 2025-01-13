@@ -1,0 +1,1 @@
+#include <fcntl.h>\n\n// Open the file\nint fd = open("example.txt", O_RDWR);\n\n// Acquire an exclusive lock\nstruct flock lock;\nlock.l_type = F_WRLCK;\nlock.l_start = 0;\nlock.l_whence = SEEK_SET;\nlock.l_len = 0;\nfcntl(fd, F_SETLK, &lock);

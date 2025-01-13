@@ -1,1 +1,0 @@
-wine your_application.exe

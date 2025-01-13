@@ -1,0 +1,1 @@
+$ch = curl_init();\nwhile($dbo = pg_fetch_object($dbres))\n{\n   curl_reset($ch); // Reset the cURL handle\n   curl_setopt($ch, CURLOPT_URL, $dbo->url);\n   // ...\n}\ncurl_close($ch);

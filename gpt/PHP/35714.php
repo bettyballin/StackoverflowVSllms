@@ -1,1 +1,0 @@
-protected function _initNavigation()\n   {\n       $config = new Zend_Config($configArray); // or load from file\n       $navigation = new Zend_Navigation($config);\n       Zend_Registry::set('Zend_Navigation', $navigation);\n   }

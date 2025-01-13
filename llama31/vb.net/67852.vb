@@ -1,0 +1,1 @@
+Dim objLogParser As Object\nSet objLogParser = CreateObject("MSUtil.LogQuery")

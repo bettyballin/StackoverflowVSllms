@@ -1,0 +1,1 @@
+-- Create database script\nCREATE DATABASE [your_database_name];\nGO\n\n-- Create table script\nCREATE TABLE [your_table_name] (\n    [column1] [data_type],\n    [column2] [data_type],\n    ...\n);\nGO\n\n-- Insert data script\nINSERT INTO [your_table_name] ([column1], [column2], ...)\nVALUES ('value1', 'value2', ...);\nGO

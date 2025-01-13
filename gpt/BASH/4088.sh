@@ -1,1 +1,0 @@
-./sigcheck.exe -n <path_to_dll>

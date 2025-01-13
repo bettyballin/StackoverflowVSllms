@@ -1,1 +1,0 @@
-IQueryable<Event> test3 = this.GetSortedEvents()\n    .Where(e => SqlFunctions.DateAdd("hour", 3, e.FinishDateTime).Value.Date >= SqlFunctions.DateAdd("hour", 3, DateTime.UtcNow).Value.Date);

@@ -1,0 +1,1 @@
+-- Create a materialized view log on the master site\nCREATE MATERIALIZED VIEW LOG ON master_data;\n\n-- Create a materialized view on the snapshot site\nCREATE MATERIALIZED VIEW snapshot_data\nREFRESH COMPLETE ON DEMAND\nAS SELECT * FROM master_data@db_link;

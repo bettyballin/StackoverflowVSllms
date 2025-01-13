@@ -1,0 +1,1 @@
+if (textBox1.Focused)\n{\n    // textBox1 has focus\n}

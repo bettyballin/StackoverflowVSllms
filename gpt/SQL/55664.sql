@@ -1,1 +1,0 @@
-SELECT b.id, b.name\nFROM boxes b\nJOIN thingsinboxes t ON b.id = t.box_id\nGROUP BY b.id, b.name\nHAVING COUNT(CASE WHEN t.thing = 'orange' THEN 1 END) = COUNT(*)\n  AND COUNT(*) > 0;

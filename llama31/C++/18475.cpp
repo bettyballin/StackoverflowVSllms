@@ -1,0 +1,1 @@
+// mylib.h\nextern "C" {\n    void myFunction();\n}\n\n// mylib.cpp\nvoid myFunction() {\n    // C++ implementation\n}

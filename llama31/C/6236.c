@@ -1,0 +1,1 @@
+// Create a memory mapped file\nHANDLE hFileMapping = CreateFileMapping(\n    INVALID_HANDLE_VALUE,\n    NULL,\n    PAGE_READWRITE,\n    0,\n    1024,\n    TEXT("MySharedMemory")\n);\n\n// Map the file into the address space of both processes\nLPVOID pSharedMemory = MapViewOfFile(\n    hFileMapping,\n    FILE_MAP_WRITE,\n    0,\n    0,\n    1024\n);

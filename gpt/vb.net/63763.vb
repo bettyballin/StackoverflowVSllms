@@ -1,1 +1,0 @@
-Imports System.Reflection\n\n   Sub Workbook_Open()\n       LoadCustomAssembly()\n   End Sub\n\n   Private Sub LoadCustomAssembly()\n       Dim assemblyPath As String = "path\to\your\assembly.dll"\n       Assembly.LoadFrom(assemblyPath)\n   End Sub

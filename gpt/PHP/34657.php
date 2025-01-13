@@ -1,1 +1,0 @@
-<?php\n$registry = new Registry();\n$registry->helper->load('external_helper_function_file');\nexternal_helper_function(); // This will call the external helper function\n?>

@@ -1,0 +1,1 @@
+setx ORACLE_HOME "%ORACLE_HOME_32%"

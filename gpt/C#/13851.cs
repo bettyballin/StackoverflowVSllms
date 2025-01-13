@@ -1,1 +1,0 @@
-@using (Html.BeginForm("Delete", "Comments", new { id = Model.CommentID }, FormMethod.Post))\n   {\n       @Html.AntiForgeryToken()\n       <input type="submit" value="Delete" />\n   }

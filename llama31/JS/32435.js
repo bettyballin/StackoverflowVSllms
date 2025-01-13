@@ -1,0 +1,1 @@
+function checkEnteredDate() {\n  var inputDate = document.getElementById('txtDate').value;\n  if (!isValidDate(inputDate)) {\n    alert("Invalid date format.");\n    return;\n  }\n  \n  var formatDate = new Date(inputDate);\n  if (formatDate > TodayDate) {\n    alert("You cannot select a date later than today.");\n    inputDate.value = TodayDate.format("MM/dd/yyyy");\n  }\n}

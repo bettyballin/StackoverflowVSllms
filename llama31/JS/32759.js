@@ -1,0 +1,1 @@
+function preventCustomText(sender, args) {\n    if (args.get_value() !== args.get_text()) {\n        args.set_cancel(true);\n    }\n}

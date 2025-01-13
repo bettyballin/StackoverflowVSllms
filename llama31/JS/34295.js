@@ -1,0 +1,1 @@
+const script = document.createElement('script');\nscript.type = 'text/javascript';\nscript.text = extractedJavaScriptCode; // you need to extract the JavaScript code from the AJAX response\ndocument.body.appendChild(script);

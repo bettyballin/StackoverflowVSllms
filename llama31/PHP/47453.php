@@ -1,0 +1,1 @@
+require 'non_existent_file.php'; // Fatal error: require(): Failed opening required 'non_existent_file.php' (include_path='...')

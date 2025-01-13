@@ -1,0 +1,1 @@
+// example: $('#myDiv').hide();

@@ -1,1 +1,0 @@
-#container {\n    margin: 10px auto;\n    width: 960px;\n    background-color: #dddddd;\n    display: inline-block; /* Change display property to prevent margin collapse */\n}

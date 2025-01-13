@@ -1,0 +1,1 @@
+$table = new Table($rows);\n$table->table();

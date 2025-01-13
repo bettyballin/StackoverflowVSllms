@@ -1,0 +1,1 @@
+render :update do |page|\n  page.hide 'div_id'\nend

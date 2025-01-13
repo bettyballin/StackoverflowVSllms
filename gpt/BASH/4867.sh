@@ -1,1 +1,0 @@
-git add your_stored_procedures.sql

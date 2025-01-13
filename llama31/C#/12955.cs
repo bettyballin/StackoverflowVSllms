@@ -1,0 +1,1 @@
+[DefaultMemberAttribute("Item")]\npublic class MyCollection\n{\n    public object this[int index]\n    {\n        get { return _items[index]; }\n    }\n\n    private object[] _items;\n}

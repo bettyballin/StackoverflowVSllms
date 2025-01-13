@@ -1,0 +1,1 @@
+SELECT * FROM processes WHERE UTL_RAW.COMPARE(foo, :new_blob) = 0;

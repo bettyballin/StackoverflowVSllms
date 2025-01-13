@@ -1,1 +1,0 @@
-[HttpPost]\npublic ActionResult LogIn(MyProject.Website.ViewModels.Shared.LogIn model)\n{\n    if (ModelState.IsValid)\n    {\n        // Code to log in the user\n        return RedirectToAction("Index", "Home");\n    }\n\n    // If we got this far, something failed, redisplay form\n    return View(model);\n}

@@ -1,0 +1,1 @@
+// Client-side example (JavaScript)\nconst sse = new EventSource('/sse');\nsse.addEventListener('votes', (event) => {\n  // Update the page with the received votes data\n});\nsse.addEventListener('comments', (event) => {\n  // Update the page with the received comments data\n});

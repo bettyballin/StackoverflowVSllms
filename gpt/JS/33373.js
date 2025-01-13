@@ -1,1 +1,0 @@
-document.getElementById('edit').innerHTML = unescapeHtml(retrievedContentFromDb);

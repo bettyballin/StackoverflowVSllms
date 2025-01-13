@@ -1,0 +1,1 @@
+class User {\n    function __construct($id = FALSE, $email = FALSE, $username = FALSE) {\n        if (!$id && !$email && !$username) {\n            throw new InvalidArgumentException("At least one of id, email, or username is required");\n        }\n        // rest of your constructor code here\n    }\n}

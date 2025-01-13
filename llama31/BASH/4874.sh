@@ -1,0 +1,1 @@
+@echo off\n\n:: Remove from startup folder\ndel "%APPDATA%\Microsoft\Windows\Start Menu\Programs\Startup\%~n0%~x0"

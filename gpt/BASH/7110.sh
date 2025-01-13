@@ -1,1 +1,0 @@
-svn co http://myrepository/svn/project /path/to/local/project

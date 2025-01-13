@@ -1,1 +1,0 @@
-grep <hex_tid> threaddump.txt -A 30

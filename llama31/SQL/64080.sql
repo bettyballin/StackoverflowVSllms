@@ -1,0 +1,1 @@
+CREATE TABLE mytable (\n  is_active NUMBER(1) CHECK(is_active IN (0, 1))\n);

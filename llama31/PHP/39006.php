@@ -1,0 +1,1 @@
+// Example of using the Zend Framework in a commercial script\nrequire_once 'Zend/Loader.php';\n\n$loader = Zend_Loader::getInstance();\n$loader->registerNamespace('MyApp');\n\n$app = new MyApp_Application();\n$app->run();

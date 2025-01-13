@@ -1,1 +1,0 @@
-phpcbf --standard=phpcs.xml /path/to/your/code

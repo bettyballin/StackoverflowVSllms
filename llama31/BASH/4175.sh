@@ -1,0 +1,1 @@
+mysql -u uid -ppwd -D dbname -e "SELECT id, name FROM students INTO OUTFILE '/path/to/list.csv' FIELDS TERMINATED BY ',' ENCLOSED BY '\"' LINES TERMINATED BY '\n';"

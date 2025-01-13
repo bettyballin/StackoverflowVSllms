@@ -1,1 +1,0 @@
-$array = array(100, 200, 300);\nprint_r($array);\n\n$idx = 0;\n$array[$idx] = 123;\nprint_r($array);\n\n$array["$idx"] = 456;\nprint_r($array);\n\n$array["{$idx}"] = 789;\nprint_r($array);

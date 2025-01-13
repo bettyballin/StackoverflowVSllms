@@ -1,0 +1,1 @@
+using Symantec.EP;\n\n// Create a new Symantec Endpoint Protection client\nvar client = new SEPClient("localhost", 8443);\n\n// Scan a file\nvar result = client.ScanFile("path/to/file");\nif (result.VirusDetected)\n{\n    Console.WriteLine("Virus detected: " + result.VirusName);\n}

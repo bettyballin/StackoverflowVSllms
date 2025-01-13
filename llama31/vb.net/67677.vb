@@ -1,0 +1,1 @@
+Public MustInherit Class BaseAbstractClass(Of Out T As WebControl)\n    Inherits WebControl\n\n    Protected _item As T\n\n    Protected Overrides Sub Render(ByVal writer As System.Web.UI.HtmlTextWriter)\n        _item.RenderControl(writer)\n    End Sub\nEnd Class

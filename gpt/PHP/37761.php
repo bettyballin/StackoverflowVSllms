@@ -1,1 +1,0 @@
-// Example path from the database\n   $imagePath = '0/0/1/image.jpg';\n   $imageUrl = $this->url(array('controller' => 'image', 'action' => 'view', 'path' => $imagePath), null, true);\n   ?>\n\n   <img src="<?php echo $imageUrl; ?>" alt="User Image">

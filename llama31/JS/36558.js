@@ -1,0 +1,1 @@
+$('.hideMe').click(function(){ \n    var $ul = $(this).next('ul');\n    if ($ul.length > 0) {\n        var numChildren = $ul.children().length;\n        alert(numChildren);\n    } else {\n        alert('No ul element found');\n    }\n});

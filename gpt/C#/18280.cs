@@ -1,1 +1,0 @@
-try\n{\n    // Code to allocate and use memory\n}\ncatch (OutOfMemoryException ex)\n{\n    // Handle memory allocation failure\n    Console.WriteLine("Out of memory: " + ex.Message);\n}

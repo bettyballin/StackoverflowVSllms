@@ -1,0 +1,1 @@
+<mbean code="org.jboss.naming.NamingService"\n       name="jboss:service=Naming">\n    <attribute name="Port">1099</attribute>\n</mbean>\n\n<mbean code="org.jboss.remoting.transport.socket.SocketServer"\n       name="jboss.remoting:service=SocketServer">\n    <attribute name="Port">4444</attribute>\n</mbean>

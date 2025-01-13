@@ -1,0 +1,1 @@
+SELECT query_text, COUNT(*) AS frequency\nFROM search_queries\nGROUP BY query_text\nORDER BY frequency DESC\nLIMIT 10;

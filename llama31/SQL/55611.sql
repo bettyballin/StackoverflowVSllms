@@ -1,0 +1,1 @@
+EXEC CreateDynamicSP 'SummaryNone', 'YEAR([sale].[DateTime])', '2020-01-01', '2020-12-31'\nEXEC CreateDynamicSP 'SummaryUser', '[sale].[User]', '2020-01-01', '2020-12-31'\nEXEC CreateDynamicSP 'Summarysale', '[sale].[sale]', '2020-01-01', '2020-12-31'

@@ -1,0 +1,1 @@
+rskeymgmt -a -u localmachine\Scott -r ContentManager,Publisher,Browser

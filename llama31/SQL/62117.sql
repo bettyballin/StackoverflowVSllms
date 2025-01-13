@@ -1,0 +1,1 @@
+SELECT Acct_id, Name FROM MasterList\nEXCEPT\nSELECT Acct_id, Name FROM NewMasterList\n\nUNION\n\nSELECT Acct_id, Name FROM NewMasterList\nEXCEPT\nSELECT Acct_id, Name FROM MasterList

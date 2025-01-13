@@ -1,1 +1,0 @@
-sudo chown -R www-data:www-data /correct/path/to/dir

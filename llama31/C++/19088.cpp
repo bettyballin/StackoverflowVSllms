@@ -1,0 +1,1 @@
+class MyClass {\nprivate:\n    int data_;\npublic:\n    friend std::ostream& operator<<(std::ostream& os, const MyClass& obj);\n};\n\nstd::ostream& operator<<(std::ostream& os, const MyClass& obj) {\n    os << obj.data_;\n    return os;\n}

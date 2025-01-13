@@ -1,0 +1,1 @@
+import filecmp\n\nif filecmp.cmp('file1.txt', 'file2.txt'):\n    print("Files are identical")\nelse:\n    print("Files are different")

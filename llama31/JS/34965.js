@@ -1,0 +1,1 @@
+success: function (data) {\n    // Assuming your GridView has an ID of "GridView1"\n    $("#GridView1").html(data.d);\n}

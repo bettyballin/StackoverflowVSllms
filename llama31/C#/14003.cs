@@ -1,0 +1,1 @@
+using (SqlConnection connection = new SqlConnection(connectionString))\n{\n    try\n    {\n        // use the connection\n    }\n    finally\n    {\n        connection.Dispose(); // or connection.Close();\n    }\n}

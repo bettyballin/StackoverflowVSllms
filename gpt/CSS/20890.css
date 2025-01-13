@@ -1,1 +1,0 @@
-p {\n    -webkit-text-size-adjust: 100%; /* Prevent font scaling in Safari */\n    -ms-text-size-adjust: 100%;     /* Prevent font scaling in IE */\n    text-rendering: optimizeLegibility; /* Improve text rendering */\n}

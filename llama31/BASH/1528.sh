@@ -1,0 +1,1 @@
+svn merge file:///local-repo/branches/local-branch https://codeplex.svn.internet/project

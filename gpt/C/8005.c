@@ -1,1 +1,0 @@
-int call_function(const char *name, const char *params) {\n       // Function call logic based on signature\n   }

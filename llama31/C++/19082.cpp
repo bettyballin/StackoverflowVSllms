@@ -1,0 +1,1 @@
+CFont font;\nfont.CreateFont(12, 0, 0, 0, FW_NORMAL, 0, 0, 0, DEFAULT_CHARSET, OUT_DEFAULT_PRECIS, CLIP_DEFAULT_PRECIS, DEFAULT_QUALITY, DEFAULT_PITCH | FF_FIXED, _T("Courier New"));\n\nCListCtrl& listCtrl = GetDlgItem(IDC_LIST_CTRL);\nlistCtrl.SetFont(&font);

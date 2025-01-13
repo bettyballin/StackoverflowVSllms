@@ -1,0 +1,1 @@
+TimeZoneInfo localZone = TimeZoneInfo.Local;\nDataTable dt = // retrieve data from SQL Server...\n\nforeach (DataRow row in dt.Rows)\n{\n    DateTime utcDate = (DateTime)row["DateColumn"];\n    row["DateColumn"] = TimeZoneInfo.ConvertTimeFromUtc(utcDate, localZone);\n}

@@ -1,0 +1,1 @@
+while ($flag == false) {\n    # code...\n}

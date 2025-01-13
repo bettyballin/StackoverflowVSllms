@@ -1,0 +1,1 @@
+def myFunction(myDict, outerkey):\n    # access the value using myDict[outerkey]

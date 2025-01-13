@@ -1,1 +1,0 @@
-# Set the setgid bit on the directory\nchmod g+s /path/to/directory\n\n# Verify the permissions to ensure the setgid bit is set\nls -ld /path/to/directory

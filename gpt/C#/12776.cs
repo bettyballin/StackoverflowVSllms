@@ -1,1 +1,0 @@
-if (context.Request.ContentLength > 100000) // Adjust the size limit as needed\n{\n    // Handle large form data scenario\n    // You might want to log a warning or return an error response\n    context.Response.StatusCode = 413; // Payload Too Large\n    context.Response.End();\n}\nelse\n{\n    var formData = context.Request.Form["id"];\n    // Proceed with normal processing\n}

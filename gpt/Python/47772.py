@@ -1,1 +1,0 @@
-#!/usr/bin/env python\nimport subprocess\n\ncmd = ["python", "waitsome.py"]\nproc = subprocess.Popen(cmd, stdout=subprocess.PIPE, bufsize=1, universal_newlines=True)\n\nwith proc.stdout:\n    for line in iter(proc.stdout.readline, ''):\n        print(">>> " + line.strip())\n\nproc.wait()

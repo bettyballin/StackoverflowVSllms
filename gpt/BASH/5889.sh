@@ -1,1 +1,0 @@
-sudo ausearch -k process_creatio

@@ -1,1 +1,0 @@
-# On Linux\nsource /opt/intel/vtune_amplifier/amplxe-vars.sh\namplxe-cl -collect hotspots -result-dir r001 -- ./your_application\n\n# On Windows (Command Prompt)\n"C:\Program Files (x86)\IntelSWTools\VTune Amplifier <version>\bin32\amplxe-cl.exe" -collect hotspots -result-dir r001 -- your_application.exe

@@ -1,1 +1,0 @@
-#include <stdio.h>\n#include <math.h>\n\nint main() {\n    double base = 2.0;\n    double exponent = 3.0;\n    double result = pow(base, exponent);\n\n    printf("The result of %.2f raised to the power of %.2f is %.2f\n", base, exponent, result);\n\n    return 0;\n}

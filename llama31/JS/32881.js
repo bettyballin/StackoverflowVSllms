@@ -1,0 +1,1 @@
+document.addEventListener('click', function(event) {\n  event.stopPropagation();\n  event.preventDefault();\n  // your code here\n}, true);

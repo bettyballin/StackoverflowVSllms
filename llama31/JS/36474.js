@@ -1,0 +1,1 @@
+$.ajax({\n  url: "Tabnews.php",\n  success: function(tab1html){\n    var $html = $(tab1html);\n    var title = $html.find('#title').text();\n    var imageSrc = $html.find('#image').attr('src');\n    // Use the title and imageSrc variables as needed\n    $("#tabs-1").html(tab1html);\n  }\n});

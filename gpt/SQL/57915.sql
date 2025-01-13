@@ -1,1 +1,0 @@
--- First day of the current week (assuming week starts on Monday)\nSELECT date_trunc('week', CURRENT_DATE) AS FirstDayOfCurrentWeek;\n\n-- First day of the previous week (assuming week starts on Monday)\nSELECT date_trunc('week', CURRENT_DATE) - interval '1 week' AS FirstDayOfLastWeek;

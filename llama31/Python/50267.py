@@ -1,0 +1,1 @@
+import requests\n\ndef main():\n    url = "http://your-service-url.com/data"\n    response = requests.get(url)\n    print(response.text)\n\nif __name__ == "__main__":\n    main()

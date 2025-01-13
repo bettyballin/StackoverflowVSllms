@@ -1,0 +1,1 @@
+* In PostgreSQL, you can use the `NOT VALID` option when creating a unique constraint to ignore existing records:

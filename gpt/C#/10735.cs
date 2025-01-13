@@ -1,1 +1,0 @@
-<#@ template language="C#" debug="true" #>\n<#@ output extension=".cs" #>\n<#@ import namespace="System.Data" #>\n<#@ import namespace="System.Data.SqlClient" #>\n\nnamespace GeneratedCode\n{\n    public class MyGeneratedClass\n    {\n        public void MyGeneratedMethod()\n        {\n            // Your generated code here\n        }\n    }\n}

@@ -1,1 +1,0 @@
-IO.popen("blender -b mball.blend -o //renders/ -F JPEG -x 1 -f 1", "r") do |blender|\n  while (line = blender.gets)\n    puts line\n    # You can update your progress bar here based on the output line\n  end\nend\nputs "Blender job completed."

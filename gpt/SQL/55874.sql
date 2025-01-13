@@ -1,1 +1,0 @@
--- Example of using open standard SQL for database operations\n    SELECT * FROM users WHERE active = 1;

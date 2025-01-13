@@ -1,0 +1,1 @@
+$.ajax({\n    type: "POST",\n    url: '@Url.Action("MyAction")',\n    data: formData,\n    success: function (result) {\n        if (result.redirect) {\n            window.location.href = result.redirect;\n        } else {\n            // update target id with result\n            $("#UpdateTargetId").html(result);\n        }\n    }\n});

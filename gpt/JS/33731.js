@@ -1,1 +1,0 @@
-document.getElementById('bar').addEventListener('change', function() {\n  if (this.value) {\n    // Perform action based on the selected value\n    console.log('Selected value:', this.value);\n  }\n});

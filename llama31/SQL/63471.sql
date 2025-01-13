@@ -1,0 +1,1 @@
+EXEC standardize_city_names;

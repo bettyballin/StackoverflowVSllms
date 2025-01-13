@@ -1,0 +1,1 @@
+-- Create a materialized view\nCREATE MATERIALIZED VIEW Report_MV\nREFRESH COMPLETE\nAS\nSELECT column1, column2\nFROM Warehouse_Table;

@@ -1,0 +1,1 @@
+IPAddress address = IPAddress.Parse("192.168.0.0");\nIPNetwork network = IPNetwork.Parse("192.168.0.0/16");\n\nif (network.Contains(address))\n{\n    Console.WriteLine("The address is within the network.");\n}

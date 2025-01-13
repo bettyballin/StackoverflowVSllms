@@ -1,1 +1,0 @@
-protected void HiddenButton_Click(object sender, EventArgs e)\n{\n    string hiddenValue = myHidden.Value;\n    // Perform your logic based on the hidden value here\n}

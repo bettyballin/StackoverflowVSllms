@@ -1,0 +1,1 @@
+import hashlib\n\ndata = b"Hello, World!"\ndigest = hashlib.sha256(data).hexdigest()\nprint(digest)

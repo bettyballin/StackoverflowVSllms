@@ -1,0 +1,1 @@
+$doc = new DOMDocument();\n$doc->loadHTMLFile('test.html', LIBXML_NOENT);

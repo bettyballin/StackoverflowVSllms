@@ -1,1 +1,0 @@
-Route::set('default', '(<controller>(/<action>(/<id>)))')\n    ->defaults(array(\n        'controller' => 'welcome',\n        'action'     => 'index',\n    ));

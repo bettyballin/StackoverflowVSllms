@@ -1,1 +1,0 @@
-sudo iotop -o

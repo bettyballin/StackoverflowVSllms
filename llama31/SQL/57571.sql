@@ -1,0 +1,1 @@
+SELECT a\nFROM b\nWHERE a REGEXP '^(a|b|c).*';

@@ -1,0 +1,1 @@
+var acceptedCertificates = new X509Certificate2Collection();\nacceptedCertificates.Add(new X509Certificate2("path/to/trusted/cert1.cer"));\nacceptedCertificates.Add(new X509Certificate2("path/to/trusted/cert2.cer"));\n\nsslStream.AuthenticateAsServer(serverCertificate, acceptedCertificates, true, SslProtocols.Default, false);

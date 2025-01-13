@@ -1,1 +1,0 @@
-// core/Validation.php\nclass Validation {\n    public static function validate($data, $rules) {\n        // Implement validation logic\n    }\n}

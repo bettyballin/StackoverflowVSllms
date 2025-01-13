@@ -1,0 +1,1 @@
+@using (Html.BeginForm("Update", "MyController", FormMethod.Post))\n{\n    @Html.HttpMethodOverride(HttpVerbs.Put)\n    // form fields here\n}

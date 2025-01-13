@@ -1,0 +1,1 @@
+$clubElement->setExtraParams(array('country' => new Zend_Json_Expr('$("#country").val()')));

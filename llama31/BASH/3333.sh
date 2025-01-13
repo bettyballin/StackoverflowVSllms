@@ -1,0 +1,1 @@
+ohup bash your_script.sh &

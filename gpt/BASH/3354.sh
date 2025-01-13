@@ -1,1 +1,0 @@
-asm -f elf32 -o myprogram.o myprogram.asm

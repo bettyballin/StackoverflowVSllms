@@ -1,1 +1,0 @@
-sudo yum install Xvfb xwd ImageMagick

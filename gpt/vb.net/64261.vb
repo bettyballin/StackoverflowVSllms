@@ -1,1 +1,0 @@
-Dim items As Array = str.Split("|")\nIf items IsNot Nothing Then\n    ' The array is not null\nElse\n    ' Handle the case where the array is null\nEnd If

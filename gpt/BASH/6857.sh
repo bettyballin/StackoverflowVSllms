@@ -1,1 +1,0 @@
-RewriteEngine On\n\n# Redirect HTTPS to HTTP for non-checkout pages\nRewriteCond %{HTTPS} on\nRewriteCond %{REQUEST_URI} !^/checkout [NC]\nRewriteRule ^(.*)$ http://%{HTTP_HOST}%{REQUEST_URI} [L,R=301]\n\n# Force HTTPS for checkout pages\nRewriteCond %{HTTPS} off\nRewriteCond %{REQUEST_URI} ^/checkout [NC]\nRewriteRule ^(.*)$ https://%{HTTP_HOST}%{REQUEST_URI} [L,R=301]

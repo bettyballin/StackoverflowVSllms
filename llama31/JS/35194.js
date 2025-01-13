@@ -1,0 +1,1 @@
+<asp:Button runat="server" ID="Button1" \n    OnClientClick="return MyFunction();" \n    OnClick="Button1_Click" \n    Text="Click me" \n/>\n\n<script>\n    function MyFunction() {\n        // Your JavaScript code here\n        return true; // or return false to prevent the postback\n    }\n</script>

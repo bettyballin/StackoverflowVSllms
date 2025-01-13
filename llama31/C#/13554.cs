@@ -1,0 +1,1 @@
+XNamespace xhtml = xDoc.Root.GetNamespaceOfPrefix("");\nvar x = xDoc.Descendants(xhtml + "div");

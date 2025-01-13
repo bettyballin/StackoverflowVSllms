@@ -1,0 +1,1 @@
+[WebMethod]\npublic static bool ValidateLogin(string arg)\n{\n    // Check if the request comes from your own domain\n    if (Request.Headers["Origin"] != "http://www.foo.com")\n    {\n        // Reject the request\n        return false;\n    }\n    // Rest of your validation logic here...\n}

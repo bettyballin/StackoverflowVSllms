@@ -1,1 +1,0 @@
-EXPLAIN ANALYZE SELECT * FROM your_table;

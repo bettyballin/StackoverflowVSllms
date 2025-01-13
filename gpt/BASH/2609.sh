@@ -1,1 +1,0 @@
-# .project file\n   set projectname=MyProject\n   set projectroot=/path/to/your/project\n   set grepprg=grep\ -nH\ $*

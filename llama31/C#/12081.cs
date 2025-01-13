@@ -1,0 +1,1 @@
+var catalog = new DirectoryCatalog(@"C:\Path\To\Extensions", "*.dll");\ncatalog.PrivateBinPath = @"C:\Path\To\PrivateBin";\n\nvar container = new CompositionContainer(catalog);

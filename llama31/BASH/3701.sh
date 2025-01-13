@@ -1,0 +1,1 @@
+find csu -name 'crti.o' -o -name 'crtn.o'

@@ -1,0 +1,1 @@
+using (var dbContext = new MyDataContext())\n{\n    var customerId = 1;\n    var taskCount = dbContext.ExecuteQuery<int>("SELECT dbo.NumberOfTasksForCustomer({0})", customerId).FirstOrDefault();\n    var totalInvoiceAmount = dbContext.ExecuteQuery<decimal>("SELECT dbo.TotalInvoiceAmountForCustomer({0})", customerId).FirstOrDefault();\n}

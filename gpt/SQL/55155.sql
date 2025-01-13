@@ -1,1 +1,0 @@
-SELECT name FROM sys.Tables;\n     EXEC sp_help 'table_name';

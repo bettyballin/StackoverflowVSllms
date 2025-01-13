@@ -1,0 +1,1 @@
+DECLARE\n  v_value VARCHAR2(20);\nBEGIN\n  DBMS_DEBUG.SET_BREAKPOINT('my_package.my_procedure');\n  v_value := 'Hello World';\n  DBMS_DEBUG.PRINT('v_value: ' || v_value);\nEND;

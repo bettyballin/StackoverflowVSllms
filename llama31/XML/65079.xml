@@ -1,0 +1,1 @@
+<form-bean name="myForm" type="com.example.MyForm">\n  <form-property name="myField" type="java.lang.String" validate="false"/>\n</form-bean>

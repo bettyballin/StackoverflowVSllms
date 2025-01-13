@@ -1,1 +1,0 @@
-SELECT policy_name, object_schema, object_name, policy_text\nFROM dba_fga_audit_policies\nWHERE policy_name = 'audit_revoke_policy';

@@ -1,1 +1,0 @@
-encoded_string = "\x66\x75\x6e\x63\x74\x69"\ndecoded_string = bytes.fromhex(encoded_string.replace("\\x", "")).decode('utf-8')\nprint(decoded_string)

@@ -1,0 +1,1 @@
+$print = "50 days,7 hours";\n$cleanedPrint = explode(',', $print)[0];\necho $cleanedPrint; // Outputs: "50 days"

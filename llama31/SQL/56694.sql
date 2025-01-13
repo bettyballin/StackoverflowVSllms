@@ -1,0 +1,1 @@
+SELECT \n  Data,\n  [Date],\n  [Name]\nFROM \n  (\n    SELECT \n      d.Data,\n      m.MetaName,\n      m.MetaData\n    FROM \n      DataTable d\n      LEFT JOIN MetaTable m ON d.DataID = m.DataID\n  ) AS SourceTable\nPIVOT \n  (\n    MAX(MetaData)\n    FOR MetaName IN ([Date], [Name])\n  ) AS PivotTable

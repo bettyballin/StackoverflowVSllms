@@ -1,1 +1,0 @@
-@foreach (var comment in Model.Comments)\n{\n    <div class="comment">\n        @Html.Raw(comment.Content)\n    </div>\n}

@@ -1,0 +1,1 @@
+using Humanizer;\n\n   string userInput = "This is a   bad  input.";\n   string sanitized = userInput.TrimAll();\n   Console.WriteLine(sanitized);

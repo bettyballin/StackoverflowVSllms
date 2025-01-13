@@ -1,1 +1,0 @@
-SELECT table1.*, table2.department, table2.admin_status\nFROM table1\nINNER JOIN table2 ON table1.agent_name = table2.agent_name\nWHERE table2.department = 'desired_department';

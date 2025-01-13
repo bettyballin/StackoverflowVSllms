@@ -1,1 +1,0 @@
-# myproject/tests/extensions/tests.py\n    from django.test import TestCase\n\n    class CustomCommandTests(TestCase):\n        def test_example(self):\n            self.assertTrue(True)

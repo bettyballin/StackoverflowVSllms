@@ -1,0 +1,1 @@
+SELECT * FROM OPENROWSET('SQLNCLI', 'Server=(local);Database=tempdb;Trusted_Connection=yes;', 'SELECT * FROM #Return_Records');

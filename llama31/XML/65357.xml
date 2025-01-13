@@ -1,0 +1,1 @@
+<tag>history</tag>\n<template>\n    <history>\n        <item>\n            <name>{author}</name>\n            <date>{date}</date>\n            <change>{change}</change>\n        </item>\n    </history>\n</template>

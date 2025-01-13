@@ -1,1 +1,0 @@
-public class Metadata\n{\n    public string Name { get; set; }\n}

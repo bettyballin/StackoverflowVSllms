@@ -1,0 +1,1 @@
+amespace VW {\n    Point3D operator+(const Point3D& p1, const Point3D& p2) {\n        // implementation\n    }\n\n    Point3D operator/(const Point3D& p, double d) {\n        // implementation\n    }\n}

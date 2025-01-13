@@ -1,0 +1,1 @@
+import sys\nimport os\n\n# Add your application directory to sys.path\nsys.path.insert(0, os.path.dirname(__file__))\n\n# Import the sqlite3 module\nimport sqlite3

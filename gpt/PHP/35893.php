@@ -1,1 +1,0 @@
-// Original array\n$myArray = array('key1'=>'value1', 'key2'=>'value2');\n\n// Save the array as a string\n$fileContents = serialize($myArray);\n\n// Convert the string back to an array\n$convertedArray = unserialize($fileContents);\n\n// Accessing the elements\necho $convertedArray['key1']; // output: value1\necho $convertedArray['key2']; // output: value2

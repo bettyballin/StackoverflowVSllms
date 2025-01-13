@@ -1,0 +1,1 @@
+public static string Reverse(string text)\n{\n    char[] charArray = text.ToCharArray();\n    Array.Reverse(charArray);\n    return new string(charArray);\n}

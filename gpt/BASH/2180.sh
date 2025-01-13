@@ -1,1 +1,0 @@
-wget https://www.python.org/ftp/python/3.x.x/Python-3.x.x.tgz

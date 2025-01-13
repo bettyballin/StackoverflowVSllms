@@ -1,1 +1,0 @@
-move_uploaded_file($tmpFilePath, $destinationPath);\nchmod($destinationPath, 0644);

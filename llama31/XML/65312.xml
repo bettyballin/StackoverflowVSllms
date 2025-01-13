@@ -1,0 +1,1 @@
+<sch:schema xmlns:sch="http://www.ascc.net/xml/schematron">\n  <sch:pattern id="no-cyclic-references">\n    <sch:rule context="animal">\n      <sch:assert test="not(ancestor::animal[@name=current()/@eats])">\n        Cyclic reference detected\n      </sch:assert>\n    </sch:rule>\n  </sch:pattern>\n</sch:schema>

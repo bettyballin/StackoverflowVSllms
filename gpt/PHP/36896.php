@@ -1,1 +1,0 @@
-$searchreplace_array = array('blah' => 'bleh', 'blarh' => 'blerh');\n$string = 'blah blarh bleh bleh blarh';\n\n$result = strtr($string, $searchreplace_array);\n\necho $result; // Outputs: bleh blerh bleh bleh blerh

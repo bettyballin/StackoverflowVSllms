@@ -1,0 +1,1 @@
+ShellExecute(NULL, L"runas", L"YourApp.exe", NULL, NULL, SW_SHOW);

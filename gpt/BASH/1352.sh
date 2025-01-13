@@ -1,1 +1,0 @@
-# Open PowerShell and define an alias\nSet-Alias myRunNotepad "C:\Windows\System32\notepad.exe"\n\n# Now you can run 'myRunNotepad' in PowerShell to open Notepad\nmyRunNotepad

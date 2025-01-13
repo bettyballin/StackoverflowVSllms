@@ -1,0 +1,1 @@
+try {\n    $result = mail($to, $subject, $message);\n    if (!$result) {\n        throw new Exception('Mail not sent');\n    }\n} catch (Exception $e) {\n    echo 'Error: ' . $e->getMessage();\n}

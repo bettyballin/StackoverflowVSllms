@@ -1,1 +1,0 @@
-wkhtmltoimage example.html output.png

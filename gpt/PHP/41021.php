@@ -1,1 +1,0 @@
-function createAssocArray($array) {\n    return array_combine($array, $array);\n}\n\n$numbers = array('first', 'second', 'third');\n$assocArray = createAssocArray($numbers);\n\nprint_r($assocArray);

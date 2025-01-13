@@ -1,0 +1,1 @@
+SELECT \n    *\nFROM \n    sys.indexes\nWHERE \n    object_id = OBJECT_ID('<table_name>');

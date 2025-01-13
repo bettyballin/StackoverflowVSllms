@@ -1,1 +1,0 @@
-ALTER TABLE your_table_name ADD CONSTRAINT your_constraint_name FOREIGN KEY (your_column) REFERENCES referenced_table(referenced_column);

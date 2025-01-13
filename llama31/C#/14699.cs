@@ -1,0 +1,1 @@
+string token = Request.QueryString["token"];\n// or\nstring token = Request.Headers["X-My-Token"];\n// Use token to retrieve variable value

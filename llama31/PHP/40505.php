@@ -1,0 +1,1 @@
+$ip_address = $_POST['ip_address'];\n// store the ip address in your database

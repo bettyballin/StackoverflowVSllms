@@ -1,0 +1,1 @@
+private void Button1_Click(object sender, EventArgs e)\n{\n    string url = txtUrl.Text;\n    string outputFile = "captured_image.png";\n    WebPageCapture.Capture(url, outputFile);\n}

@@ -1,1 +1,0 @@
-$.get(sourceUrl, data, function(response) {\n    // Handle the parsed JSON data in the response\n    console.log(response);\n}, 'json');

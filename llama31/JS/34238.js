@@ -1,0 +1,1 @@
+const overlayImage = document.querySelector('.overlay-image');\nconst backgroundImage = document.querySelector('.background-image');\n\n// Set coordinates of overlay image\noverlayImage.style.top = 'calc(50% + ' + yOffset + 'px)';\noverlayImage.style.left = 'calc(50% + ' + xOffset + 'px)';

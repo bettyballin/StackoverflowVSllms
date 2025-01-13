@@ -1,1 +1,0 @@
-using System.ServiceModel;\n\n[ServiceContract]\npublic interface IExternalService\n{\n    [OperationContract]\n    string Get();\n}\n\n[ServiceContract]\npublic interface IInternalService : IExternalService\n{\n    [OperationContract]\n    void Save(string data);\n}

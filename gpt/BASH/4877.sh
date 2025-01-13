@@ -1,1 +1,0 @@
-pdfcpu optimize input.pdf output.pdf

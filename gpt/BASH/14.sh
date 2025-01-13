@@ -1,1 +1,0 @@
-sqlcmd -S <ServerName> -d <DatabaseName> -U <Username> -P <Password> -i <PathToSQLFile>

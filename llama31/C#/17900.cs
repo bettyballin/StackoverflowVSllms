@@ -1,0 +1,1 @@
+if (page != null && !page.ClientScript.IsClientScriptBlockRegistered("blockUIAlert"))\n{\n    ScriptManager.RegisterStartupScript(page, typeof(ScriptUtilities), \n        "blockUIAlert", script, true);\n}

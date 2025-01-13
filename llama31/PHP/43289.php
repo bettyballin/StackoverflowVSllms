@@ -1,0 +1,1 @@
+$string = "Hello, World!";\n$hex_dump = bin2hex($string);\necho $hex_dump;

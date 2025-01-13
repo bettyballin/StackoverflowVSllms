@@ -1,1 +1,0 @@
-:r $(BaseDirectory)InsertScript1.sql\n   :r $(BaseDirectory)InsertScript2.sql

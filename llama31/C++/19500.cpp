@@ -1,0 +1,1 @@
+// producer\nvoid push(data)\n{\n  boost::mutex::lock_guard<boost::mutex> lock(access, boost::adopt_lock);\n  if (lock.try_lock()) {\n    // add data to queue\n    cond.notify_one();\n  } else {\n    // handle the case where the lock is already held by another thread\n  }\n}

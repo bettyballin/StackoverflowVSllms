@@ -1,0 +1,1 @@
+SELECT r.roleid\nFROM role r\nJOIN role_permission rp ON r.roleid = rp.roleid\nWHERE rp.permissionid IN (:permission_ids)\nGROUP BY r.roleid\nHAVING COUNT(rp.permissionid) = :num_permissions

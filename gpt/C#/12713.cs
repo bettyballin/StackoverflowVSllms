@@ -1,1 +1,0 @@
-var cfg = new Configuration();\n    cfg.Configure();\n    cfg.AddAssembly(typeof(YourEntityClass).Assembly);\n    ISessionFactory sessionFactory = cfg.BuildSessionFactory();

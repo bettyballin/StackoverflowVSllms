@@ -1,1 +1,0 @@
-[EnableCors(origins: "*", headers: "*", methods: "*")]\npublic class ReviewsController : ApiController\n{\n    [HttpGet]\n    public IHttpActionResult GetReviews()\n    {\n        var reviews = new List<string>\n        {\n            "Review 1",\n            "Review 2",\n            "Review 3"\n        };\n\n        return Ok(reviews);\n    }\n}

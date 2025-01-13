@@ -1,0 +1,1 @@
+using (clientIdentity.Impersonate())\n{\n    using (var context = new WindowsIdentity.ImpersonateContext(clientIdentity, ImpersonationLevel.Impersonate))\n    {\n        // Create the channel factory\n        ChannelFactory<YourServiceContract> channelFactory = new ChannelFactory<YourServiceContract>("YourClientEndpoint");\n        // ...\n    }\n}

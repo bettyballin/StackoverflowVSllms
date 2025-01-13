@@ -1,0 +1,1 @@
+def my_method(*args)\n  p args\nend\n\nmy_method(1, 2, 3)  # prints [1, 2, 3]

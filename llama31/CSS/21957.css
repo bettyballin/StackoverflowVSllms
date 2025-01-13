@@ -1,0 +1,1 @@
+.link-container {\n  display: flex;\n  justify-content: center;\n}\n\n.link-column {\n  flex: 1;\n  margin: 10px;\n}\n\n.link-column ul {\n  list-style: none;\n  padding: 0;\n  margin: 0;\n}\n\n.link-column li {\n  margin-bottom: 10px;\n}

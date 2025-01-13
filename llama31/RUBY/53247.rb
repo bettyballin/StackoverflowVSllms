@@ -1,0 +1,1 @@
+<table>\n  <tr>\n    <td><%= item.name %></td>\n    <td><%= check_box_tag "item_#{item.id}", item.id, item.approved?, data: { remote: true, url: approve_item_path(item), method: 'patch' } %></td>\n  </tr>\n</table>

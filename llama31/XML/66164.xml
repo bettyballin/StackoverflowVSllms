@@ -1,0 +1,1 @@
+<Message version="1.0">\n  <ClientID>1001</ClientID>\n  <Request Type="SMS" Refno="120">\n    <Content encoding="base64">hello world</Content>\n    <MSISDN>27781010102</MSISDN>\n  </Request>\n</Message>

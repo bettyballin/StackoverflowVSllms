@@ -1,1 +1,0 @@
-void test_function() {\n        assert(function_under_test() == expected_result);\n    }

@@ -1,1 +1,0 @@
-var selectedChildren = parents\n    .Where(p => p.Children.Any(c => c.CategoryNumber == 1))\n    .SelectMany(p => p.Children)\n    .Where(c => c.CategoryNumber == 2)\n    .ToList();

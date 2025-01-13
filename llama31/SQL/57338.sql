@@ -1,0 +1,1 @@
+ALTER PROCEDURE [usp_debug_fails]\n    @DATA_DT_ID AS int\nWITH RECOMPILE\nAS\nBEGIN\n    DECLARE @local_DATA_DT_ID AS int\n    SET @local_DATA_DT_ID = @DATA_DT_ID\n\n    -- Stuff here that depends on @local_DATA_DT_ID\nEND

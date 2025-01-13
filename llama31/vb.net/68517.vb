@@ -1,0 +1,1 @@
+' In parent window\nFunction GetParts()\n    ' ... (rest of the function remains the same)\n    Set GetParts = oParts\nEnd Functio

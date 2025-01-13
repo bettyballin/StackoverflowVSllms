@@ -1,1 +1,0 @@
-DECLARE @StartDate DATE = '2023-01-01';\nDECLARE @EndDate DATE = '2023-01-31';\n\nSELECT * FROM MyView WHERE DateColumn BETWEEN @StartDate AND @EndDate;

@@ -1,0 +1,1 @@
+# Create a custom JRE image\njlink --module-path <path-to-modules> --add-modules <your-app-modules> --output <custom-jre-image>\n\n# Create a bundle for your application\ntar -czf myapp-jre.tar.gz <custom-jre-image>

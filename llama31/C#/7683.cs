@@ -1,0 +1,1 @@
+public class ProductProjection\n{\n    public string ProductName { get; set; }\n    public DateTime ExpirationDate { get; set; }\n    public decimal PercentOfSales { get; set; }\n}

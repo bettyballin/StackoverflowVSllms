@@ -1,1 +1,0 @@
-Dim sql As String\nsql = "UPDATE tbltesting SET IsDiff = 'Yes' WHERE empid = " & Me.txtEmpId.Value & " AND testid = " & Me.txtAutoNumber.Value & ";"\nDebug.Print sql\nDoCmd.RunSQL sql

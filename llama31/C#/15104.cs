@@ -1,0 +1,1 @@
+public class WebSocketHandler : HttpTaskAsyncHandler\n{\n    public override async Task ProcessRequestAsync(HttpRequestMessage request)\n    {\n        var webSocket = await request.AcceptWebSocketRequestAsync();\n        // Handle WebSocket messages\n        // ...\n    }\n}

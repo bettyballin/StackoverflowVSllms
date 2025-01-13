@@ -1,1 +1,0 @@
-bool condition = true;\nuint foo = condition ? 1u : 2u; // Explicitly using unsigned literals

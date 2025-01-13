@@ -1,0 +1,1 @@
+try:\n    beanstalk = beanstalkc.Connection(host='hostip', port=11300)\n    tubes = beanstalk.tubes()\nexcept beanstalkc.BeanstalkcException as e:\n    print(f"Error: {e}")

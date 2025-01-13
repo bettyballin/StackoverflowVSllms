@@ -1,0 +1,1 @@
+public bool IsValidConnection(OracleConnection connection)\n{\n    try\n    {\n        using (OracleCommand command = new OracleCommand("SELECT 1 FROM DUAL", connection))\n        {\n            command.ExecuteNonQuery();\n            return true;\n        }\n    }\n    catch (OracleException)\n    {\n        return false;\n    }\n}

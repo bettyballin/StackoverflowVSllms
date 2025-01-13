@@ -1,0 +1,1 @@
+$(input1).attr("id", "lp_name_" + id);

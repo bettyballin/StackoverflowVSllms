@@ -1,1 +1,0 @@
-Try\n       Using connection As New OleDbConnection(connectionString)\n           connection.Open()\n           ' Log connection opened\n           ' Perform database operations\n           ' Log operations\n       End Using\n   Catch ex As Exception\n       ' Log the exception\n   End Try

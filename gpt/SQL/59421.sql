@@ -1,1 +1,0 @@
-ALTER SYSTEM SET smtp_out_server='mymailserver.fake:25' SCOPE=BOTH;

@@ -1,0 +1,1 @@
+php -f script.php 3

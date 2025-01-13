@@ -1,0 +1,1 @@
+using System.Windows.Markup;\nusing System.Windows.Controls;\n\n// assuming fooBox is your TextBox instance\nTextBox fooBox = new TextBox();\n\n// serialize the TextBox to XAML\nstring xaml = XamlWriter.Save(fooBox);

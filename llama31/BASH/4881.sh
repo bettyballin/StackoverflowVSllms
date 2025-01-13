@@ -1,0 +1,1 @@
+cscript adsutil.vbs SET_SMTPRELAY 1\ncscript adsutil.vbs SET_SMTPRELAYIP <IP address>

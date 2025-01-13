@@ -1,0 +1,1 @@
+// processing.php\n?>\n<form id="hiddenForm" action="display.php" method="post">\n    <input type="hidden" name="data" value="<?php echo $processedData; ?>">\n</form>\n<script>\n    document.getElementById('hiddenForm').submit();\n</script>\n<?php

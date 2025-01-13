@@ -1,1 +1,0 @@
-DO $$\nBEGIN\n    BEGIN;\n    INSERT INTO movements (from, to, import) VALUES ('mary', 'steve', 600);\n    UPDATE users SET credit = credit - 600 WHERE name = 'mary';\n    UPDATE users SET credit = credit + 600 WHERE name = 'steve';\n\n    IF (SELECT credit FROM users WHERE name = 'mary') < 0 THEN\n        ROLLBACK;\n    ELSE\n        COMMIT;\n    END IF;\nEND;\n$$;

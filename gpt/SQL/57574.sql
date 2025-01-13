@@ -1,1 +1,0 @@
-DECLARE @Edition NVARCHAR(128);\nSET @Edition = CAST(SERVERPROPERTY('Edition') AS NVARCHAR(128));\n\nIF @Edition LIKE '%Express%'\n    PRINT 'This is an Express Edition of SQL Server.'\nELSE\n    PRINT 'This is NOT an Express Edition of SQL Server.';

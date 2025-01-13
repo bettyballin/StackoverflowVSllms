@@ -1,0 +1,1 @@
+ln -s /var/www/data/yourfile.txt /httpdocs/yourfile.txt

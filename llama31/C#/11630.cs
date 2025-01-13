@@ -1,0 +1,1 @@
+AppDomain.CurrentDomain.AssemblyResolve += (sender, args) =>\n{\n    // Handle missing assembly\n};

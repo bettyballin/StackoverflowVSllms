@@ -1,0 +1,1 @@
+private NullableDateTimePicker nullableDateTimePicker1 = new NullableDateTimePicker();\n\npublic Form1()\n{\n    InitializeComponent();\n    this.Controls.Add(nullableDateTimePicker1);\n}

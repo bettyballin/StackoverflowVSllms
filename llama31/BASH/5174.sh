@@ -1,0 +1,1 @@
+# Create the proxy users file and add users\nsudo htpasswd -c /etc/apache2/proxy_users username

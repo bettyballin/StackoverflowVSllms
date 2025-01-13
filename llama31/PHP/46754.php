@@ -1,0 +1,1 @@
+$headers[] = 'Disposition-Notification-To: your_email@example.com';

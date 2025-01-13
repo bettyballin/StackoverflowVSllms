@@ -1,1 +1,0 @@
-<?php\nif (isset($_GET['anchor']) && $_GET['anchor'] === 'comments') {\n    // Logic to handle showing comments\n    echo '<style>#comments { display: block; }</style>';\n}\n?>

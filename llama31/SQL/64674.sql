@@ -1,0 +1,1 @@
+SET profiling = 1;\nSELECT * FROM table_name;\nSHOW PROFILES;

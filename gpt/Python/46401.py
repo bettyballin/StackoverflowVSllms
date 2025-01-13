@@ -1,1 +1,0 @@
-import bcrypt\n\n    # Generate a salt\n    salt = bcrypt.gensalt()\n    \n    # Hash a password with the salt\n    password = b"my_secure_password"\n    hashed = bcrypt.hashpw(password, salt)\n\n    # Verify a password\n    if bcrypt.checkpw(password, hashed):\n        print("Password matches")\n    else:\n        print("Password does not match")

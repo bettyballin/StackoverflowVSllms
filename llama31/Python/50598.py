@@ -1,0 +1,1 @@
+import pycurl\n\nc = pycurl.Curl()\nc.setopt(pycurl.URL, 'https://example.com')\nc.setopt(pycurl.SSL_VERIFYPEER, 1)\nc.setopt(pycurl.SSL_VERIFYHOST, 2)\nc.perform()\nc.close()

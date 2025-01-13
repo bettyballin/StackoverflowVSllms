@@ -1,0 +1,1 @@
+string password = "mysecretpassword";\nstring encryptedPassword = PasswordEncryptor.EncryptPassword(password);\nConsole.WriteLine(encryptedPassword);\n\nstring decryptedPassword = PasswordEncryptor.DecryptPassword(encryptedPassword);\nConsole.WriteLine(decryptedPassword);

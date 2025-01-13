@@ -1,1 +1,0 @@
-public class MyModel\n    {\n        [Required(ErrorMessage = "Name is required")]\n        public string Name { get; set; }\n\n        [EmailAddress(ErrorMessage = "Invalid Email Address")]\n        public string Email { get; set; }\n\n        [Range(1, 100, ErrorMessage = "Age must be between 1 and 100")]\n        public int Age { get; set; }\n    }

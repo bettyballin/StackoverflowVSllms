@@ -1,0 +1,1 @@
+using (var session = sessionFactory.OpenSession())\n{\n    using (var transaction = session.BeginTransaction())\n    {\n        // Process the message\n        // ...\n\n        transaction.Commit();\n    }\n}

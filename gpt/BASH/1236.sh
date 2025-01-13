@@ -1,1 +1,0 @@
-sqlldr userid=your_username/your_password@your_database control=your_control_file.ctl

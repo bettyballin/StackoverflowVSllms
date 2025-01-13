@@ -1,0 +1,1 @@
+CREATE TABLE eav (\n  entity_id INT,\n  attribute_name VARCHAR(50),\n  value VARCHAR(255),\n  PRIMARY KEY (entity_id, attribute_name)\n);

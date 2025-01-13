@@ -1,0 +1,1 @@
+$stmt = $pdo->prepare("UPDATE A SET type=:type WHERE id=:id");\n$stmt->bindParam(":type", $strType);\n$stmt->bindParam(":id", $ID);\n$stmt->execute();

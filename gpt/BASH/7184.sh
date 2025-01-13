@@ -1,1 +1,0 @@
-sudo dnf install mysql-workbench-community

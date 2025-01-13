@@ -1,0 +1,1 @@
+struct ObjectHeader {\n    // 4 bytes on 32-bit, 8 bytes on 64-bit\n    intptr_t mark_word;\n\n    // 4 bytes on 32-bit, 8 bytes on 64-bit\n    intptr_t klass;\n\n    // Optional fields, e.g., for arrays or synchronization\n};

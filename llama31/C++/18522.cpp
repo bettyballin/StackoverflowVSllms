@@ -1,0 +1,1 @@
+Variant newSheet;\n\nnewSheet = excelSheets.OleProcedure("Add");\nVariant newIndex = newSheet.OlePropertyGet("Index");

@@ -1,0 +1,1 @@
+#include <kludge/kludge.h>\n\n// Load a 3D model using Kludge\nKludge::Model model;\nmodel.load("model.klg");

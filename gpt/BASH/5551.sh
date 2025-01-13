@@ -1,1 +1,0 @@
-cp yourlibrary.dll ~/.wine/drive_c/windows/system32/

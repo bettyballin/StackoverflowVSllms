@@ -1,1 +1,0 @@
-[RegularExpression(@"^[a-zA-Z0-9]*$", ErrorMessage = "Invalid characters.")]\n   public string Username { get; set; }

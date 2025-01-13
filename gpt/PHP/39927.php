@@ -1,1 +1,0 @@
-$p->set_option("optimize=true");

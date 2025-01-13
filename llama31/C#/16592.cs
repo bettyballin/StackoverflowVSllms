@@ -1,0 +1,1 @@
+using System.Drawing;\nusing System.Drawing.Imaging;\n\n// ...\n\n// Resize images\nforeach (string file in Directory.GetFiles(inputFolder))\n{\n    using (Bitmap image = new Bitmap(file))\n    {\n        image.Resize(width, height);\n        image.Save(file);\n    }\n}

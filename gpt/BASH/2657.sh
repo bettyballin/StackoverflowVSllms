@@ -1,1 +1,0 @@
-ILMerge /out:MergedAssembly.dll /internalize API.dll Helper1.dll Helper2.dll

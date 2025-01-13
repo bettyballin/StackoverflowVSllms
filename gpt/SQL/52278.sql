@@ -1,1 +1,0 @@
-CREATE TABLE ChangeLog (\n    ChangeID INT IDENTITY(1,1) PRIMARY KEY,\n    ChangeType NVARCHAR(10),\n    TableName NVARCHAR(128),\n    PrimaryKeyValue INT,\n    ColumnName NVARCHAR(128),\n    OldValue NVARCHAR(MAX),\n    NewValue NVARCHAR(MAX),\n    ChangeDate DATETIME DEFAULT GETDATE(),\n    ChangedBy NVARCHAR(128)\n);

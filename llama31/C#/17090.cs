@@ -1,0 +1,1 @@
+RemoteProcessKiller.KillProcess("remoteMachineName", "processName");

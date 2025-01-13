@@ -1,1 +1,0 @@
-for (int depth = 1; depth <= maxDepth; depth++) {\n        alphaBeta(root, depth, -INFINITY, INFINITY);\n    }

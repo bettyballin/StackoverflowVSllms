@@ -1,1 +1,0 @@
-$uuid = generateUUID();\n$sql = "INSERT INTO your_table (uuid, other_columns) VALUES ('$uuid', 'other_values')";\nmysqli_query($conn, $sql);

@@ -1,0 +1,1 @@
+SELECT 'INSERT INTO TABLE1 (f1, f2, f3, f4 ...) values (' \n       || t.f1 || ',' \n       || DECODE(t.f2, 0, '0', '1') \n       || ',' \n       || ... \nFROM table2 t, table3 t3;

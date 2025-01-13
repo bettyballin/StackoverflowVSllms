@@ -1,1 +1,0 @@
-<?php\nini_set('session.cookie_domain', '.example.com');\nini_set('session.cookie_path', '/');\nini_set('session.cookie_secure', true);\nsession_save_path('/path/to/sessions');\nsession_start();\n?>

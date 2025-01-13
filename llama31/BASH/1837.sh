@@ -1,0 +1,1 @@
+pg_checksums -D your_database_name

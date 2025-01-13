@@ -1,1 +1,0 @@
-SELECT owner, trigger_name \nFROM all_objects \nWHERE object_type = 'TRIGGER' \nAND status = 'INVALID';

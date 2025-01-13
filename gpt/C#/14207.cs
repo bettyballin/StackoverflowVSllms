@@ -1,1 +1,0 @@
-// Example of Entity Framework configuration\n   using (var context = new YourDbContext())\n   {\n       var entity = context.YourEntities.Find(entityId);\n   }

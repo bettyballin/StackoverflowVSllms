@@ -1,0 +1,1 @@
+#include <fstream>\n\nstd::ifstream file("data.txt");\nconst int n = [] {\n    char c;\n    file.seekg(1);\n    file.get(c);\n    return c - '0';\n}();\n\nconst int m = [] {\n    char c;\n    file.seekg(2);\n    file.get(c);\n    return c - '0';\n}();\n\nint main() {\n    // use n and m here\n    return 0;\n}

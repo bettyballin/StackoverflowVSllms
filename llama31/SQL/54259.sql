@@ -1,0 +1,1 @@
+CREATE TABLE outcomes (\n  id INT PRIMARY KEY,\n  parent_id INT,\n  name VARCHAR(255),\n  FOREIGN KEY (parent_id) REFERENCES outcomes(id)\n);

@@ -1,0 +1,1 @@
+// Get all checkboxes in the form\nconst checkboxes = document.querySelectorAll('input[type="checkbox"]');\n\n// Loop through each checkbox and get its name\ncheckboxes.forEach((checkbox) => {\n  const checkboxName = checkbox.name;\n  console.log(checkboxName);\n});

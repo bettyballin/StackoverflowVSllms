@@ -1,1 +1,0 @@
-<configuration>\n     <system.web>\n       <customErrors mode="RemoteOnly" defaultRedirect="ErrorPage.aspx">\n         <error statusCode="404" redirect="NotFound.aspx" />\n       </customErrors>\n     </system.web>\n   </configuration>

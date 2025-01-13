@@ -1,1 +1,0 @@
-SELECT productID, SUM(quantity) as totalQuantity\nFROM sales\nGROUP BY productID;

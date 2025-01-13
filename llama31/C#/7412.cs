@@ -1,0 +1,1 @@
+public class Comment\n{\n    [BindNever]\n    public int ID { get; set; }\n\n    [BindNever]\n    public DateTime CreatedOn { get; set; }\n\n    // Other properties...\n}

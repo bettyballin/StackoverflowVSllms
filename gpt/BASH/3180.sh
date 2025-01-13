@@ -1,1 +1,0 @@
-sudo yum install libXi-devel

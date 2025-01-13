@@ -1,0 +1,1 @@
+#include "crow.h"\n\nint main() {\n    crow::SimpleApp app;\n\n    CROW_ROUTE(app, "/api/data")\n    ([]() {\n        // Return some data\n        return crow::response(200, "{\"key\":\"value\"}");\n    });\n\n    app.port(18080).concurrency(1).run();\n}

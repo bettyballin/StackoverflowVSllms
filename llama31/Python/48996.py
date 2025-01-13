@@ -1,0 +1,1 @@
+def p(n):\n    r = [[1]]\n    for _ in range(n-1):\n        r.append([x + y for x, y in zip([0] + r[-1], r[-1] + [0])])\n    return r

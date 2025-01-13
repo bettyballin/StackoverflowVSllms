@@ -1,0 +1,1 @@
+cacls "C:\Path\To\Application\Folder" /E /G "ASPNET":W

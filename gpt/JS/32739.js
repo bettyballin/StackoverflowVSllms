@@ -1,1 +1,0 @@
-// Define the external function that accepts the grid reference\nfunction externalFunction(grid) {\n    try {\n        var columnCount = grid.getColumnManager().getColumns().length;\n        console.log('Column count: ' + columnCount);\n    } catch (error) {\n        console.error('Error accessing grid columns: ', error);\n    }\n}

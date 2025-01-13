@@ -1,0 +1,1 @@
+using (var connection = new SqlConnection(connectionString))\n{\n    connection.Open();\n    var objects = connection.Query<YourBusinessObject>("YourSprocName", new { param1 = value1, param2 = value2 },\n                                                        commandType: CommandType.StoredProcedure).ToList();\n}

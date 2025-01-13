@@ -1,1 +1,0 @@
-ALTER TABLE MyTable\nADD ParentNameUnique AS (CAST(ParentID AS NVARCHAR(512)) + '_' + Name);

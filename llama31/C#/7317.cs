@@ -1,0 +1,1 @@
+public static string iso8859ToUnicode(string src)\n{\n    Encoding iso = Encoding.GetEncoding("iso-8859-15");\n    Encoding unicode = Encoding.UTF8;\n\n    byte[] isoBytes = iso.GetBytes(src);\n    byte[] unibytes = Encoding.Convert(iso, unicode, isoBytes);\n\n    return Encoding.UTF8.GetString(unibytes);\n}

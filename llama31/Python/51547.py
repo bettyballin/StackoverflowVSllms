@@ -1,0 +1,1 @@
+user_inputs = ["input1", "input2", "input3"]\ndelimited_input = "\x1F".join(user_inputs)\n\n# Store the delimited input in a database field\ndb_field = delimited_input\n\n# Later, when retrieving the input, split it using the delimiter\nretrieved_inputs = db_field.split("\x1F")

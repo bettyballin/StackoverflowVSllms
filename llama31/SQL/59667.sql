@@ -1,0 +1,1 @@
+CREATE TABLE people (name VARCHAR(255), PRIMARY KEY (name));\n\nINSERT INTO people (name) VALUES ('Re0sless');\n\nEXPLAIN SELECT * FROM people WHERE name = 'Re0sless' LIMIT 1;\nEXPLAIN SELECT * FROM people WHERE name = 'Re0sless';

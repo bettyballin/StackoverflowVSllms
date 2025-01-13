@@ -1,1 +1,0 @@
-gcc --version  # To verify the version of GCC being used\ngcc -o my_application my_application.c  # Compile your applicatio

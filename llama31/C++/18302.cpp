@@ -1,0 +1,1 @@
+// myclass.h\nclass MyClass {\npublic:\n    virtual void virtualFunction() = 0; // No export needed\n    void nonVirtualFunction(); // Export needed\n};\n\n// myclass.cpp (inside the DLL)\nvoid MyClass::nonVirtualFunction() {\n    // implementation\n}

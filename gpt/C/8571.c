@@ -1,1 +1,0 @@
-void permute(int[] arr, int l, int r) {\n    if (l == r) {\n        // some constant time operation\n    } else {\n        for (int i = l; i <= r; i++) {\n            swap(arr, l, i);\n            permute(arr, l + 1, r);\n            swap(arr, l, i); // backtrack\n        }\n    }\n}

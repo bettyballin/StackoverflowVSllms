@@ -1,1 +1,0 @@
-host echo Set Oracle Home Path\nhost set ORACLE_HOME_VAR=%ORACLE_HOME%\nhost echo Oracle Home is set to &ORACLE_HOME_VAR.\n\n-- Use the defined variable\n@&ORACLE_HOME_VAR/rdbms/admin/utlrp.sql

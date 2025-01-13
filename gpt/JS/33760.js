@@ -1,1 +1,0 @@
-$.ajax({\n    type: "POST",\n    url: "Service.svc/MyMethod",\n    data: JSON.stringify({ input: "myInputValue" }),\n    contentType: "application/json; charset=utf-8",\n    dataType: "json",\n    success: function (response) {\n        console.log("Response: " + response.d);\n    },\n    error: function (error) {\n        console.log("Error: " + error.responseText);\n    }\n});

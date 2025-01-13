@@ -1,1 +1,0 @@
-// Prefer this\nIList<string> names = new List<string>();\n\n// Over this\nList<string> names = new List<string>();

@@ -1,1 +1,0 @@
-from django.contrib.auth.views import LoginView\nfrom django.urls import reverse_lazy\n\nclass CustomLoginView(LoginView):\n    def get_success_url(self):\n        return reverse_lazy('login_redirect')

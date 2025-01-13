@@ -1,0 +1,1 @@
+public class MyEntityKey\n{\n    public int Id1 { get; set; }\n    public int Id2 { get; set; }\n}\n\npublic class MyEntity\n{\n    public MyEntityKey Id { get; set; }\n}

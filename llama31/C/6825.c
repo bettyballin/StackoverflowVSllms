@@ -1,0 +1,1 @@
+int result = myFunc(1, 2);

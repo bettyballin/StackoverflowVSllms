@@ -1,1 +1,0 @@
-// someScript.js\n     var foo = 1;\n     if (foo == '1') {\n       console.log('Weak equality, should be avoided!');\n     }

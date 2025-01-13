@@ -1,0 +1,1 @@
+lblStatus.Text = "Restoring Database";\n\nBackgroundWorker worker = new BackgroundWorker();\nworker.DoWork += (sender, e) =>\n{\n    Restore fullRestore = new Restore();\n    // Configure fullRestore\n    fullRestore.SqlRestore(_server);\n    fullRestore.Wait();\n};\n\nworker.RunWorkerAsync();

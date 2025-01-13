@@ -1,0 +1,1 @@
+// Using System.Web.Routing\nroutes.MapPageRoute("Page", "Page.html", "~/Page.aspx");

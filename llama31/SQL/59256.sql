@@ -1,0 +1,1 @@
+SELECT TOP (50000 * 0.1) *  -- select 10% of rows\nFROM YourTable\nORDER BY NEWID()

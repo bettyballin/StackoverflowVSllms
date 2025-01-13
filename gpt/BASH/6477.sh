@@ -1,1 +1,0 @@
-# Edit the crontab for the current user\n   crontab -e\n\n   # Add the following lines to schedule the scripts (adjust the paths and timing as needed)\n   0 * * * * /path/to/export_db.sh   # Run the export script every hour\n   5 * * * * /path/to/import_db.sh   # Run the import script 5 minutes after export

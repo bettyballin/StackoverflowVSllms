@@ -1,1 +1,0 @@
-sqlplus sys/password@your_tns_alias as sysdba

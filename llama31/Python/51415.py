@@ -1,0 +1,1 @@
+c = round(a / b);\na = a - c * b;

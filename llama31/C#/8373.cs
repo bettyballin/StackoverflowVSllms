@@ -1,0 +1,1 @@
+DateTime startDate = DateTime.Now; // or the date of purchase\nDateTime expiryDate = startDate.AddMonths(6);

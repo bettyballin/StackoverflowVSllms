@@ -1,1 +1,0 @@
--- Pre-Deployment Script\nALTER TABLE your_table\nADD new_column INT DEFAULT 0;\n\n-- Update the new column with appropriate values if necessary\nUPDATE your_table\nSET new_column = /* appropriate value */\nWHERE /* conditions to identify rows needing updates */;\n\n-- Post-Deployment Script\nALTER TABLE your_table\nALTER COLUMN new_column INT NOT NULL;

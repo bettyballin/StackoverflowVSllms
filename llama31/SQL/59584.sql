@@ -1,0 +1,1 @@
+ALTER DATABASE mydatabase CHARACTER SET utf8 COLLATE utf8_general_ci;\nALTER TABLE mytable CONVERT TO CHARACTER SET utf8 COLLATE utf8_general_ci;

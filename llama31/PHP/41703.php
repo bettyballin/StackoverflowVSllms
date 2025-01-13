@@ -1,0 +1,1 @@
+$a = array_values($a);\n$a[] = 'three';\nprint_r($a);

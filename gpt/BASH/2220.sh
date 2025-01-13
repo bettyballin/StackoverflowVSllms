@@ -1,1 +1,0 @@
-RegAsm.exe yourAssembly.dll /tlb:yourAssembly.tlb

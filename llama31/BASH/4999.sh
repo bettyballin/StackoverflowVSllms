@@ -1,0 +1,1 @@
+$ dd if=/dev/zero of=empty_file bs=1 count=1\n$ ls -l empty_file\n-rw-r--r-- 1 user user 1 Jan 30 10:33 empty_file\n$ du -sh empty_file\n4.0K

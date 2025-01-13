@@ -1,0 +1,1 @@
+from functools import reduce\nfrom django.db.models import Q\n\nd = {'k1': 'v1', 'k2': 'v2'}\n\nq = reduce(lambda x, y: x | Q(**{y[0]: y[1]}), d.items(), Q())\n\nSomeModule.objects.filter(q)

@@ -1,1 +1,0 @@
-mysqlcheck -u root -p --all-databases

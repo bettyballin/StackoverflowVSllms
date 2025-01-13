@@ -1,0 +1,1 @@
+makecert -r -pe -n "CN=xxx" -ss My -sr LocalMachine -sky exchange -sp "Microsoft RSA SChannel Cryptographic Provider" -sy 12

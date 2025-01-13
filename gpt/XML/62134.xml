@@ -1,1 +1,0 @@
-<web-app>\n    <filter>\n        <filter-name>MyFilter</filter-name>\n        <filter-class>com.example.MyFilter</filter-class>\n    </filter>\n    <filter-mapping>\n        <filter-name>MyFilter</filter-name>\n        <url-pattern>/*</url-pattern>\n    </filter-mapping>\n\n    <listener>\n        <listener-class>com.example.MyProgram</listener-class>\n    </listener>\n</web-app>

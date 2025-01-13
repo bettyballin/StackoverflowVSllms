@@ -1,1 +1,0 @@
-public class ImmutableClass\n{\n    public ImmutableClass(int value)\n    {\n        Value = value;\n    }\n\n    public int Value { get; }\n}

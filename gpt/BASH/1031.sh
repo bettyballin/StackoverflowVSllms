@@ -1,1 +1,0 @@
-./c4.5 -f example

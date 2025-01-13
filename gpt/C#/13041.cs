@@ -1,1 +1,0 @@
-public JsonResult CheckUsernameAvailability(string username)\n{\n    bool isAvailable = !db.Users.Any(u => u.Username == username);\n    return Json(new { success = true, token = isAvailable ? "available" : "taken" });\n}

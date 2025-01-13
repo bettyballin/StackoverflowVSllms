@@ -1,0 +1,1 @@
+UPDATE inventoryDetails AS idet\nINNER JOIN BOM_TEMPLATES AS bt\nON idet.modelNumber = bt.bomModelNumber\nSET idet.itemDesc = bt.bomItemDesc

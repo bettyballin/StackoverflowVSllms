@@ -1,1 +1,0 @@
-routing_entry Cnode_router_aodv::consultTable(unsigned int destinationID) {   \n    routing_entry route;\n\n    if (routing_table.find(destinationID) != routing_table.end()) {\n        route = routing_table[destinationID];\n        route.initialized = true;  // Mark as initialized\n    }\n\n    return route; // Will be "empty" and initialized=false if not found\n}

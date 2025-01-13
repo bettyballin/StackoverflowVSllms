@@ -1,0 +1,1 @@
+var sanitizer = new HtmlSanitizer(\n    allowedTags: new[] { "a", "b", "i", "strong", "em" },\n    allowedAttributes: new[] { "href" }\n);

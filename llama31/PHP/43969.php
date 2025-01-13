@@ -1,0 +1,1 @@
+class UserData {\n    public $name;\n\n    public function __construct($id) {\n        $userInfo = getUserInfo($id);\n        $this->name = $userInfo['name'];\n    }\n}\n\n$user24 = new UserData(24);\necho 'Welcome, ' . $user24->name . '!'; // Output: Welcome, Bob!

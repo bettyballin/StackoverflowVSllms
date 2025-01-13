@@ -1,1 +1,0 @@
-$password = "your_input_password_here";\n$filtered_password = preg_replace('/[^\x20-\x7E]/', '', $password);

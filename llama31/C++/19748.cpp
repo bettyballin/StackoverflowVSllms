@@ -1,0 +1,1 @@
+double value = ATmittelMin[zaehlMittel];

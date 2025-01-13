@@ -1,0 +1,1 @@
+#If DEBUG Then\n    ' Your warning message here\n    ' This will be displayed as a compiler warning\n#Else\n    ' This code will be executed when not in DEBUG mode\n#End If

@@ -1,1 +1,0 @@
-<system.serviceModel>\n      <services>\n        <service name="YourNamespace.YourSTS">\n          <endpoint address="mex" binding="mexHttpBinding" contract="IMetadataExchange" />\n          <endpoint address="" binding="ws2007HttpBinding" contract="YourNamespace.IYourSTS" />\n        </service>\n      </services>\n    </system.serviceModel>

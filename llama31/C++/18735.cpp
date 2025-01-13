@@ -1,0 +1,1 @@
+// In the library project (e.g., "mylib.h")\n#import "mylib.tlb"\n\n// In the main project (e.g., "main.cpp")\n#include "mylib.h" // Include the generated .tlh file

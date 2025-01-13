@@ -1,1 +1,0 @@
-git clone --no-checkout <repository-url> <local-directory>\n    cd <local-directory>

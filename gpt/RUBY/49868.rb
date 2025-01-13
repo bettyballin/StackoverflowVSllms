@@ -1,1 +1,0 @@
-def the_truth\n  assert true\nend

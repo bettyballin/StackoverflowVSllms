@@ -1,1 +1,0 @@
-Public Shared Function NewDate(myDate As Object, days As Integer) As String\n    If IsNothing(myDate) OrElse IsDBNull(myDate) Then\n        Return String.Empty\n    Else\n        Return Format(CDate(myDate).AddDays(days), "MMMM dd, yyyy")\n    End If\nEnd Functio

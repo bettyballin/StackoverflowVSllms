@@ -1,1 +1,0 @@
-Dim oCOM As Object\n\n     On Error Resume Next\n     Set oCOM = CreateObject("COMDLL.COMObj")\n     If Err.Number <> 0 Then\n         MsgBox "Error creating COM object: " & Err.Description\n         Exit Sub\n     End If\n     On Error GoTo 0\n\n     ' Use the methods of the COM object\n     ' Example:\n     ' oCOM.SomeMethod

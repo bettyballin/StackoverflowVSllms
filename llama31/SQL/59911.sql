@@ -1,0 +1,1 @@
+CREATE INDEX idx_id ON archive_table (id);

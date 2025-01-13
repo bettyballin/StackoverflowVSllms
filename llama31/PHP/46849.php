@@ -1,0 +1,1 @@
+class View {\n    protected $template;\n\n    public function __construct($template_file) {\n        $this->template = new Template($template_file);\n    }\n\n    public function render() {\n        return $this->template->render();\n    }\n}

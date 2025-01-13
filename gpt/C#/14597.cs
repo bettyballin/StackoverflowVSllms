@@ -1,1 +1,0 @@
-// MyLibrary.cs\nusing System;\n\nnamespace MyLibrary\n{\n    public class MyClass\n    {\n        public void MyMethod()\n        {\n            Console.WriteLine("Hello from C# method!");\n        }\n    }\n}

@@ -1,0 +1,1 @@
+use Illuminate\Support\Str;\n\n$myName = new Str('John Doe');\necho $myName->upper()->trim(); // Output: "JOHN DOE"

@@ -1,1 +1,0 @@
-<configuration>\n     <system.webServer>\n       <modules>\n         <add name="StaticFileModule" type="System.Web.StaticFileModule" />\n       </modules>\n       <handlers>\n         <add name="StaticFile" path="*" verb="*" modules="StaticFileModule" resourceType="File" requireAccess="Read" />\n       </handlers>\n     </system.webServer>\n   </configuration>

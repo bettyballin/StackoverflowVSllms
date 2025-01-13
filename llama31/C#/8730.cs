@@ -1,0 +1,1 @@
+public static double[] CalculateAcceleration(double[] velocityData, double samplingPeriod)\n{\n    double[] accelerationData = new double[velocityData.Length - 1];\n    for (int i = 1; i < velocityData.Length; i++)\n    {\n        accelerationData[i - 1] = (velocityData[i] - velocityData[i - 1]) / samplingPeriod;\n    }\n    return accelerationData;\n}

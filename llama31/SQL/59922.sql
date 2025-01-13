@@ -1,0 +1,1 @@
+SELECT CONVERT(VARCHAR(50), YourColumn, 2) AS YourColumn\nFROM YourTable;

@@ -1,1 +1,0 @@
-SELECT * FROM your_table WHERE your_column LIKE 'a';

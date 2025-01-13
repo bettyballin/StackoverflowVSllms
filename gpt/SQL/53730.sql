@@ -1,1 +1,0 @@
-SELECT it.item_id\nFROM item_tags it\nJOIN tags t ON it.tag_id = t.tag_id\nWHERE t.tag_name IN ('p1', 'p2', ..., 'pn')\nGROUP BY it.item_id\nHAVING COUNT(DISTINCT t.tag_name) = n; -- n is the number of positive tags

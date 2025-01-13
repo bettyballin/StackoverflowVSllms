@@ -1,0 +1,1 @@
+XPathExporter exporter = new XPathExporter();\nXPathNavigator[] nodes = // your array of selected nodes\nexporter.ExportNodes(nodes, "output.xml");

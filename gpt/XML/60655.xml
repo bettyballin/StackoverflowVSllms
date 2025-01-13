@@ -1,1 +1,0 @@
-<Context>\n    <Manager pathname="" /> <!-- This ensures sessions are not persisted to disk -->\n</Context>

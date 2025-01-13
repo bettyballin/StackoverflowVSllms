@@ -1,0 +1,1 @@
+$comServers = @("dbgrid32.ocx", "mydotnetcomserver.dll")\n\nforeach ($comServer in $comServers) {\n  if ($comServer.EndsWith(".ocx")) {\n    & regsvr42 /n /i $comServer /o ($comServer + ".manifest")\n  } elseif ($comServer.EndsWith(".dll")) {\n    & regasm /codebase /tlb:($comServer + ".tlb") $comServer /manifest\n  }\n}

@@ -1,0 +1,1 @@
+SELECT \n  title, desc, date \nFROM \n  tablename \nORDER BY \n  IF(date = '0000-00-00', title, date) ASC, \n  title ASC;

@@ -1,0 +1,1 @@
+// Example of using pointers in C#\nunsafe {\n    int var = 20;\n    int* p = &var; // Pointer to an integer\n    Console.WriteLine(*p); // Prints the value of var\n}

@@ -1,0 +1,1 @@
+int currentPosition = (int)mediaPlayer.Ctlcontrols.currentPosition;

@@ -1,1 +1,0 @@
-Namespace Global.MyCustomNamespace\n    Public Class MyClass\n        ' Class implementation here\n    End Class\nEnd Namespace

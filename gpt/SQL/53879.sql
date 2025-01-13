@@ -1,1 +1,0 @@
-CREATE TABLE DefaultValues (\n       ID INT PRIMARY KEY AUTO_INCREMENT,\n       EntityType VARCHAR(255),  -- e.g., 'User', 'Product'\n       FieldName VARCHAR(255),   -- e.g., 'Username', 'Price'\n       FieldType VARCHAR(50),    -- e.g., 'VARCHAR', 'INT', 'DECIMAL'\n       DefaultValue VARCHAR(255) -- Store value as string but include type info\n   );

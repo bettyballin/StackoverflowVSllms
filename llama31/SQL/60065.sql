@@ -1,0 +1,1 @@
+BEGIN TRANSACTION;\n\n-- Drop new constraints and indexes\nDROP CONSTRAINT [NewConstraint] ON [TableName];\nDROP INDEX [NewIndex] ON [TableName];\n\n-- Alter tables to remove new columns\nALTER TABLE [TableName] DROP COLUMN [NewColumn];\n\n-- Drop added tables\nDROP TABLE [NewTable];\n\n-- Commit transaction\nCOMMIT TRANSACTION;

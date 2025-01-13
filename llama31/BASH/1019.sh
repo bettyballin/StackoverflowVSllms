@@ -1,0 +1,1 @@
+ip netns add ns1\nip link set eth0 netns ns1\nip netns exec ns1 your_program

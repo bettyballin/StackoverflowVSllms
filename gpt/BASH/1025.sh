@@ -1,1 +1,0 @@
-keytool -import -alias mycert -file mycert.crt -keystore $JAVA_HOME/lib/security/cacerts

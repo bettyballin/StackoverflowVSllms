@@ -1,1 +1,0 @@
-import shelve\n   with shelve.open('mydata') as db:\n       db['key'] = {'int': 10, 'float': 9.5, 'string': 'Sample data'}\n       print(db['key'])

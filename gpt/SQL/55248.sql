@@ -1,1 +1,0 @@
-CREATE TABLE YourTable (\n    id INT AUTO_INCREMENT PRIMARY KEY,\n    year_month DATE NOT NULL\n);\n\n-- Insert a record with year 2023 and month 10\nINSERT INTO YourTable (year_month) VALUES ('2023-10-01');

@@ -1,0 +1,1 @@
+#!/bin/bash\n\n# Set the Eclipse project directory and WAR file output path\nPROJECT_DIR=/path/to/your/project\nWAR_FILE=/path/to/output/warfile.war\n\n# Run the Eclipse export WAR file command\neclipse -application org.eclipse.jdt.internal.ui.jarpackager \\n  -data $PROJECT_DIR \\n  -exportDestination $WAR_FILE \\n  -overwrite \\n  -noprompt

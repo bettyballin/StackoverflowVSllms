@@ -1,1 +1,0 @@
-sudo apt-get install imagemagick\n   sudo apt-get install php-imagick\n   sudo service apache2 restart

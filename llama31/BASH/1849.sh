@@ -1,0 +1,1 @@
+sqlcmd -S YourServer -U YourUsername -P YourPassword -Q "SELECT * FROM YourTable" -o "C:\output.csv" -s "," -W

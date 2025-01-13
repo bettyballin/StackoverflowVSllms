@@ -1,1 +1,0 @@
-GRANT SELECT ON view_schema.view_name TO executing_user;

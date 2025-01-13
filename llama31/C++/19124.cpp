@@ -1,0 +1,1 @@
+VARIANT_BOOL vbValue = VARIANT_TRUE; // or VARIANT_FALSE\nbool cppBool = (vbValue != VARIANT_FALSE);

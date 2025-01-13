@@ -1,0 +1,1 @@
+document.getElementById('your_iframe_id').contentWindow.scrollTo(0, 0);

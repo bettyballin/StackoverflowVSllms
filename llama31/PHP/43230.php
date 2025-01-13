@@ -1,0 +1,1 @@
+class MyObject implements ArrayAccess\n{\n    private $data = ['id' => 'foo'];\n\n    public function offsetGet($offset)\n    {\n        return $this->data[$offset];\n    }\n\n    // Other interface methods (offsetSet, offsetExists, offsetUnset)\n}\n\n$obj = new MyObject();\necho $obj['id']; // Output: foo

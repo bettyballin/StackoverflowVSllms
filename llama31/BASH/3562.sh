@@ -1,0 +1,1 @@
+wsdl2php http://example.com/service?wsdl

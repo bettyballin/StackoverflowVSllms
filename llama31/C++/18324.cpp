@@ -1,0 +1,1 @@
+// C++ DLL\nextern "C" __declspec(dllexport) int MyMethod(int value)\n{\n    // implementation\n}\n\nint main()\n{\n    int result = MyMethod(42);\n    return 0;\n}

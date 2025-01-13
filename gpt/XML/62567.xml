@@ -1,1 +1,0 @@
-<phpunit bootstrap="bootstrap.php">\n    <testsuites>\n        <testsuite name="My Test Suite">\n            <directory>./tests</directory>\n        </testsuite>\n    </testsuites>\n</phpunit>

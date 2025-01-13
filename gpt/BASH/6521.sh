@@ -1,1 +1,0 @@
-python3 --version\n   pip3 --versio

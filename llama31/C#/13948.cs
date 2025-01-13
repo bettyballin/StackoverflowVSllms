@@ -1,0 +1,1 @@
+using System.Linq;\n\n// ...\n\nbool hasMatch = ListA.Intersect(ListB).Any();

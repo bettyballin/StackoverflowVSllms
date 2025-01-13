@@ -1,0 +1,1 @@
+jsonSerializer.ReferenceLoopHandling = ReferenceLoopHandling.Ignore;

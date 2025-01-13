@@ -1,0 +1,1 @@
+CREATE TABLE options (\n  id INT PRIMARY KEY,\n  name VARCHAR(255),\n  value VARCHAR(255)\n);\n\nINSERT INTO options (name, value) VALUES ('option1', 'value1');\nINSERT INTO options (name, value) VALUES ('option2', 'value2');

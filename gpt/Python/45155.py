@@ -1,1 +1,0 @@
-import requests\n\nurl = 'https://example.com/api/resource'\ndata = {'key': 'value'}\n\nresponse = requests.post(url, json=data)\nprint(response.status_code)\nprint(response.json())

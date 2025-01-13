@@ -1,1 +1,0 @@
-class ApplicationController < ActionController::Base\n  before_action :set_company\n\n  private\n\n  def set_company\n    @company = params[:company]\n  end\n\n  def default_url_options\n    { company: @company }\n  end\nend

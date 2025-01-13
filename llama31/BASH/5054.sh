@@ -1,0 +1,1 @@
+# On the gateway machine\nsudo iptables -t nat -A PREROUTING -p tcp --dport 2222 -j DNAT --to-destination <target_machine_ip>:22

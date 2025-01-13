@@ -1,1 +1,0 @@
-#include "test.h"\n\nstatic int data = 0;\n\nextern "C" TEST_API void set(int num) {\n    data = num;\n}\n\nextern "C" TEST_API int get() {\n    return data;\n}

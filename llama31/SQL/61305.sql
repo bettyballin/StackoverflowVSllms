@@ -1,0 +1,1 @@
+DECLARE @myTextVariable varchar(max)\n\nDECLARE myCursor CURSOR FOR\nSELECT CONVERT(varchar(max), myTextColumn) AS myTextColumn\nFROM myTable\n\nOPEN myCursor\n\nFETCH NEXT FROM myCursor INTO @myTextVariable\n\nWHILE @@FETCH_STATUS = 0\nBEGIN\n    -- process @myTextVariable here\n    FETCH NEXT FROM myCursor INTO @myTextVariable\nEND\n\nCLOSE myCursor\nDEALLOCATE myCursor

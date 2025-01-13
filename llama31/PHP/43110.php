@@ -1,0 +1,1 @@
+$selectedValues = $_POST['mySelect'];\n\n$userGeneratedOptions = array();\nforeach ($selectedValues as $value) {\n  // check if the option was user-generated\n  if (isset($_POST['mySelect_'.$value.'_user_generated'])) {\n    $userGeneratedOptions[] = $value;\n  }\n}\n\n// do something with the selected values and user-generated options

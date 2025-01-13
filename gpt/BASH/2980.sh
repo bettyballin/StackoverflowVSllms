@@ -1,1 +1,0 @@
-xpra attach ssh:remote_server:100

@@ -1,1 +1,0 @@
-openssl s_client -starttls smtp -connect smtp.example.com:587

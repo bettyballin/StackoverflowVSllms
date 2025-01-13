@@ -1,0 +1,1 @@
+string sidString = "S-1-5-21-1234567890-1234567890-1234567890-1001";\nstring username = SidResolver.ResolveSidToUsername(sidString);\nConsole.WriteLine(username);

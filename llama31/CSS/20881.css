@@ -1,0 +1,1 @@
+#sidepanel {\n    float: right;\n    width: 200px; /* adjust the width to your needs */\n    margin-left: -200px; /* adjust the margin to your needs */\n}\n\n#content {\n    margin-right: 200px; /* adjust the margin to your needs */\n}

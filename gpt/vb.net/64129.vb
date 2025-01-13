@@ -1,1 +1,0 @@
-Public Class SomeTableRecDTO\n    Public Property Field1 As String\n    Public Property Field2 As Integer?\nEnd Class

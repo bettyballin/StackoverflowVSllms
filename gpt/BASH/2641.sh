@@ -1,1 +1,0 @@
-sudo a2ensite default-ssl\nsudo systemctl restart apache2

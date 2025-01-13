@@ -1,0 +1,1 @@
+echo number_format($value, $value % 1 == 0 ? 0 : 1);

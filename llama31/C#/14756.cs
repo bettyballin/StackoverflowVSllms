@@ -1,0 +1,1 @@
+public partial class HistoryDataset {\n    public int? curr_reading {\n        get {\n            // Custom implementation here\n        }\n    }\n}

@@ -1,1 +1,0 @@
-#define MYLIB_EXPORTS\n   #include "K.h"\n\n   int K::a = 0;\n   int K::b = 0;

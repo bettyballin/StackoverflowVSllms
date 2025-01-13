@@ -1,0 +1,1 @@
+CREATE TABLE Contacts (\n    PhoneNumber varchar(30)\n);

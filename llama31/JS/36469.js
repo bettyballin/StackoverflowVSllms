@@ -1,0 +1,1 @@
+var encrypted = CryptoJS.AES.encrypt("12345", "your_secret_key");\n	document.getElementById("number").innerHTML = encrypted.toString();

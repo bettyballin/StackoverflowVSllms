@@ -1,0 +1,1 @@
+$array = [1, 2, 2, 3, 4, 4, 5, 6, 6];\n\n$array = array_values(array_unique($array));\n\nprint_r($array);

@@ -1,0 +1,1 @@
+# Run Valgrind on a specific test suite\nvalgrind --leak-check=full --show-leak-kinds=all ./my_test_suite\n\n# Parse the Valgrind output to detect errors\nif [ $? -ne 0 ]; then\n  echo "Valgrind detected errors"\n  exit 1\nfi

@@ -1,1 +1,0 @@
-pm install -g node-gyp\n    node-gyp configure\n    node-gyp build

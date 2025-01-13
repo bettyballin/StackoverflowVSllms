@@ -1,0 +1,1 @@
+extern alias EktronTelerik;\nextern alias MyTelerik;\n\nusing EktronTelerik::Telerik.Charting;\nusing MyTelerik::Telerik.Charting;

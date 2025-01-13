@@ -1,0 +1,1 @@
+# Set environment variables\nexport DB_USERNAME=myuser\nexport DB_PASSWORD=mypassword\n\n# Use variables in your script\nsqlplus "$DB_USERNAME/$DB_PASSWORD@mydatabase"

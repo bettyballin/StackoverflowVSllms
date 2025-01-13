@@ -1,0 +1,1 @@
+HANDLE hFile = CreateFile("C:\\mylog.log", GENERIC_WRITE, 0, NULL, CREATE_ALWAYS, FILE_ATTRIBUTE_NORMAL, NULL);\nif (hFile != INVALID_HANDLE_VALUE) {\n    WriteFile(hFile, "Hello World!\n", 13, NULL, NULL);\n    CloseHandle(hFile);\n}

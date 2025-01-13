@@ -1,0 +1,1 @@
+// template.html\n<div>\n  <h1>{{title}}</h1>\n  <p>{{description}}</p>\n</div>\n\n// script.js\nvar template = Handlebars.compile($('#template').html());\n$.ajax({\n  url: '/data',\n  success: function(data) {\n    var html = template(data);\n    $('#container').html(html);\n  }\n});

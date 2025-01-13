@@ -1,1 +1,0 @@
-protected void RemoveButton_Click(object sender, EventArgs e)\n{\n    if (myListBox.SelectedIndex != -1)\n    {\n        // An item is selected\n        myListBox.Items.Remove(myListBox.SelectedItem);\n        statusLabel.Text = "Item removed.";\n    }\n    else\n    {\n        // No item is selected\n        statusLabel.Text = "Please select an item to remove.";\n    }\n}

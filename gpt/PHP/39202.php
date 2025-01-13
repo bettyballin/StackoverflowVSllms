@@ -1,1 +1,0 @@
-<?php\nxdebug_start_profiler();\n\n// Your PHP code here\n\necho 'Total execution time: ' . xdebug_time_index();\n\nxdebug_stop_profiler();\n?>

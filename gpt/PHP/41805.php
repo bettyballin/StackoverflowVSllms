@@ -1,1 +1,0 @@
-// In public/index.php\ndefine('BASE_PATH', dirname(__FILE__) . '/../');\n\n// In dbaccess/db1.php\nrequire_once BASE_PATH . 'utils/util1.php';\n\n// In public/blah/page.php\nrequire_once BASE_PATH . 'dbaccess/db1.php';

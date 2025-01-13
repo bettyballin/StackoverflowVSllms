@@ -1,0 +1,1 @@
+if (ctype_digit($_GET['siteID'])) {\n    $siteID = (int) $_GET['siteID'];\n} else {\n    // handle invalid input\n}

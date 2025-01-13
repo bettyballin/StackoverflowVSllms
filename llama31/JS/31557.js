@@ -1,0 +1,1 @@
+// set the data-condition attribute based on conditions\nelement.setAttribute('data-condition', condition);

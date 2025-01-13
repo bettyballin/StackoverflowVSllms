@@ -1,1 +1,0 @@
-<?php\n   // Example: Add a contact\n   $contact = [\n       'GivenName' => 'John',\n       'Surname' => 'Doe',\n       'EmailAddresses' => [\n           'Entry' => [\n               'Key' => 'EmailAddress1',\n               'Value' => 'john.doe@example.com'\n           ]\n       ]\n   ];\n\n   $api->createContact($contact);

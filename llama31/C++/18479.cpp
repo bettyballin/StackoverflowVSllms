@@ -1,0 +1,1 @@
+#include <boost/process.hpp>\n\nnamespace bp = boost::process;\n\nint main()\n{\n    bp::child c(bp::search_path("gcc"), "--version");\n\n    bp::ipstream out;\n    c.output > out;\n\n    std::string line;\n    while (std::getline(out, line))\n        std::cout << line << std::endl;\n\n    c.wait();\n\n    return 0;\n}

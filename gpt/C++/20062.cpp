@@ -1,1 +1,0 @@
-class Bar {\npublic:\n  bool foo(int i) {\n    return foo_(i);\n  }\nprivate:\n  virtual bool foo_(int i) = 0;\n};

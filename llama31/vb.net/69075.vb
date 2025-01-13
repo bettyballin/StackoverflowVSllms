@@ -1,0 +1,1 @@
+Dim number As Decimal = 3.1\nDim result As Decimal = Math.Ceiling(number)\nConsole.WriteLine(result) ' Outputs: 4

@@ -1,1 +1,0 @@
-<?php\n\Magento\Framework\Component\ComponentRegistrar::register(\n    \Magento\Framework\Component\ComponentRegistrar::MODULE,\n    'Vendor_Module',\n    __DIR__\n);

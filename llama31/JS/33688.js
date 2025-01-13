@@ -1,0 +1,1 @@
+// Truncate\nlet floatNum = 3.7;\nlet wholeNumTrunc = Math.trunc(floatNum);\nconsole.log(wholeNumTrunc); // Output: 3\n\n// Round\nlet floatNum2 = 3.7;\nlet wholeNumRound = Math.round(floatNum2);\nconsole.log(wholeNumRound); // Output: 4

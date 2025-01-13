@@ -1,0 +1,1 @@
+SELECT AttemptDate \nFROM dbo.ChangeAttempt \nWHERE CONVERT(date, AttemptDate) = CONVERT(date, GETDATE())

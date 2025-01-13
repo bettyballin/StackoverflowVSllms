@@ -1,0 +1,1 @@
+// These are equivalent\nobject o = null;\nobject o2 = (object)null;\n\n// Both will print "True"\nConsole.WriteLine(o == null);\nConsole.WriteLine(o2 == null);

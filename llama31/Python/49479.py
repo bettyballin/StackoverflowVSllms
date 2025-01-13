@@ -1,0 +1,1 @@
+import re\n\ntext = "My address is 123 Main St, Anytown, USA 12345"\npattern = r"\d+ [A-Za-z]+ [A-Za-z]+, [A-Za-z]+, [A-Za-z]{2} \d{5}"\nmatch = re.search(pattern, text)\n\nif match:\n    print(match.group())

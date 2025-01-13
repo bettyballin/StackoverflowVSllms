@@ -1,1 +1,0 @@
-from lxml import html\n\nhtml_content = '<html><body><p>Hello World</p></body></html>'\ntree = html.fromstring(html_content)\nparagraph = tree.xpath('//p/text()')\nprint(paragraph)  # Output: ['Hello World']

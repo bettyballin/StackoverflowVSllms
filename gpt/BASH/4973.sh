@@ -1,1 +1,0 @@
-curl -X GET "https://jsonplaceholder.typicode.com/posts"

@@ -1,0 +1,1 @@
+OSVERSIONINFO versionInfo;\nversionInfo.dwOSVersionInfoSize = sizeof(OSVERSIONINFO);\nGetVersionEx(&versionInfo);\n\nif (versionInfo.dwMajorVersion >= 6) { // Vista or later\n    // Calculate border padding and adjust window size\n} else { // XP or earlier\n    // No border padding, no adjustment needed\n}

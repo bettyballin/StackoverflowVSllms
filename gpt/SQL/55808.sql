@@ -1,1 +1,0 @@
--- This option should be used with caution\nEXEC sp_configure 'show advanced options', 1;\nRECONFIGURE;\nEXEC sp_configure 'cross db ownership chaining', 1;\nRECONFIGURE;

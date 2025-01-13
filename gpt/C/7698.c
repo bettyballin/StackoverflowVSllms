@@ -1,1 +1,0 @@
-#include <sys/mman.h>\n\nvoid* allocate_executable_memory(size_t size) {\n    return mmap(NULL, size, PROT_READ | PROT_WRITE | PROT_EXEC, MAP_PRIVATE | MAP_ANONYMOUS, -1, 0);\n}

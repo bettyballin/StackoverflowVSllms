@@ -1,0 +1,1 @@
+var host = new ServiceHost(typeof(MyService));\nhost.Credentials.UserNameAuthentication.UserNamePasswordValidationMode = UserNamePasswordValidationMode.Custom;

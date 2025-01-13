@@ -1,0 +1,1 @@
+public static bool operator ==(Region r1, Region r2)\n{\n    if (object.ReferenceEquals(r1, r2)) return true;\n    if (object.ReferenceEquals(r1, null)) return false;\n    if (object.ReferenceEquals(r2, null)) return false;\n\n    return (r1.Cmr.CompareTo(r2.Cmr) == 0 && r1.Id == r2.Id);\n}\n\npublic static bool operator !=(Region r1, Region r2)\n{\n    return !(r1 == r2);\n}

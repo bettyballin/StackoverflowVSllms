@@ -1,1 +1,0 @@
-session_start();\n   session_unset();\n   session_destroy();

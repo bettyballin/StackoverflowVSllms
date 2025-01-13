@@ -1,0 +1,1 @@
+.dropdown-menu {\n    display: none;\n    position: absolute;\n    background-color: #fff;\n    padding: 10px;\n    border: 1px solid #ccc;\n}\n\n.dropdown-menu li {\n    margin-bottom: 10px;\n}\n\n.dropdown-menu a {\n    color: #337ab7;\n    text-decoration: none;\n}\n\n.dropdown-menu a:hover {\n    color: #23527c;\n}\n\n.products:hover .dropdown-menu {\n    display: block;\n}

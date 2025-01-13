@@ -1,1 +1,0 @@
-clang -fprofile-instr-generate -fcoverage-mapping -o my_program my_program.c

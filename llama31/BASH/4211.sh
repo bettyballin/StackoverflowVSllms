@@ -1,0 +1,1 @@
+etstat -tlnp | grep 3307

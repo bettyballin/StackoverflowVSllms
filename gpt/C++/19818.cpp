@@ -1,1 +1,0 @@
-#include <iostream>\n#include <string>\n\nint main() {\n    std::string s1 = "Hello, ";\n    std::string s2 = "world!";\n    std::string result;\n    result.reserve(s1.size() + s2.size());\n    result.append(s1);\n    result.append(s2);\n    std::cout << result << std::endl;\n    return 0;\n}

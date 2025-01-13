@@ -1,1 +1,0 @@
--- Example of a scheduled task to permanently delete records marked as deleted\n    DELETE FROM YourTable WHERE IsDeleted = 1 AND DATEDIFF(day, DeletedDate, GETDATE()) > 30;

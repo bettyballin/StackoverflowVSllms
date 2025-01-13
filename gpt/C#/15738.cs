@@ -1,1 +1,0 @@
-[Route("cars/{carRego}/speed")]\n  public class SpeedController : Controller\n  {\n      [HttpPost("set/{value}")]\n      public IActionResult SetSpeed(string carRego, int value)\n      {\n          // Implementation\n      }\n\n      [HttpGet]\n      public IActionResult GetCurrentSpeed(string carRego)\n      {\n          // Implementation\n      }\n  }

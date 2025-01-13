@@ -1,1 +1,0 @@
-SELECT \n    TO_CHAR(your_timestamp_column AT TIME ZONE 'UTC', 'YYYY-MM-DD HH24:MI:SS.FF6 TZR') AS formatted_timestamp\nFROM \n    your_table;

@@ -1,0 +1,1 @@
+public PartialViewResult List(int count)\n{\n    var announcements = // retrieve announcements\n    return PartialView("_Announcements", announcements);\n}

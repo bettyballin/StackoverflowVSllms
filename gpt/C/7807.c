@@ -1,1 +1,0 @@
-#include "dll_functions.h"\n\nint main() {\n    // Initialize DLL with standard malloc and free\n    Initialize(malloc, free);\n\n    // Allocate memory using DLL function\n    void* ptr = DllAllocateMemory(100);\n    if (ptr) {\n        // Use the allocated memory\n        \n        // Free the allocated memory\n        DllFreeMemory(ptr);\n    }\n\n    return 0;\n}

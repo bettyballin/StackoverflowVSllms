@@ -1,0 +1,1 @@
+double[] distanceData = // get distance data from device\ndouble[] smoothedData = MovingAverage(distanceData, 10);\ndouble[] velocityData = CalculateVelocity(smoothedData, 0.1); // 10 Hz calculation rate\ndouble[] accelerationData = CalculateAcceleration(velocityData, 0.1);

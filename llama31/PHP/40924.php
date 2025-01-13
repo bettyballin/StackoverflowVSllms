@@ -1,0 +1,1 @@
+function db_connect($host, $username, $password, $database) {\n    $conn = new mysqli($host, $username, $password, $database);\n    if ($conn->connect_error) {\n        die("Connection failed: " . $conn->connect_error);\n    }\n    return $conn;\n}

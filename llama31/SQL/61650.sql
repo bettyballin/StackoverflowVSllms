@@ -1,0 +1,1 @@
+CREATE TABLE lookup_metadata (\n  id SERIAL PRIMARY KEY,\n  column_name VARCHAR(50) NOT NULL,\n  lookup_table_name VARCHAR(50) NOT NULL,\n  created_at TIMESTAMP NOT NULL DEFAULT CURRENT_TIMESTAMP\n);

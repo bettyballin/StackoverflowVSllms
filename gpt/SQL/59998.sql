@@ -1,1 +1,0 @@
-CREATE VIEW view_name AS\n     SELECT column1, column2, ...\n     FROM base_table\n     WHERE condition;

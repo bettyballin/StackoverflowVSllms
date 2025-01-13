@@ -1,0 +1,1 @@
+using Newtonsoft.Json;\nusing System.Collections.Generic;\n\npublic ActionResult AddItems(string values)\n{\n    Dictionary<string, object> dictionary = JsonConvert.DeserializeObject<Dictionary<string, object>>(values);\n    // do something with the dictionary\n}

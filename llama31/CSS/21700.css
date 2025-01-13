@@ -1,0 +1,1 @@
+.list-item {\n  float: left;\n  width: 50%; /* assuming you want two columns */\n  overflow: hidden;\n  text-overflow: ellipsis;\n  white-space: nowrap;\n}

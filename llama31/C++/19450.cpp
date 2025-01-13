@@ -1,0 +1,1 @@
+// Java compiler (javac) is written in Java\npublic class JavaCompiler {\n    // ...\n}\n\n// JVM is written in C++

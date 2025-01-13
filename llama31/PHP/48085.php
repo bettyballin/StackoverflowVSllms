@@ -1,0 +1,1 @@
+<?php\n  // Enable Gzip compression\n  ob_start('ob_gzhandler');\n?>

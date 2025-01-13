@@ -1,0 +1,1 @@
+SELECT \n  p.*,\n  (SELECT name FROM cities WHERE id = p.city_id) AS city_name,\n  (SELECT name FROM states WHERE id = p.state_id) AS state_name,\n  (SELECT name FROM countries WHERE id = p.country_id) AS country_name\nFROM people p;

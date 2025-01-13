@@ -1,0 +1,1 @@
+public void addToList(myOtherClass tmp)\n{\n    anewList.Add(new myOtherClass(tmp)); // assuming myOtherClass has a copy constructor\n}

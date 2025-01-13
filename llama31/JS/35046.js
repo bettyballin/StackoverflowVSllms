@@ -1,0 +1,1 @@
+import Parsley from 'parsleyjs';\n\nconst form = document.getElementById('myForm');\nconst parsley = new Parsley(form, {\n  rules: {\n    email: {\n      required: true,\n      email: true,\n    },\n    password: {\n      required: true,\n      pattern: /(?=.{8,})/ // password must be at least 8 characters long\n    }\n  }\n});

@@ -1,1 +1,0 @@
-<configuration>\n  <configSections>\n    <section name="log4net" type="log4net.Config.Log4NetConfigurationSectionHandler, log4net"/>\n  </configSections>\n  <log4net configSource="Log.config" />\n</configuration>

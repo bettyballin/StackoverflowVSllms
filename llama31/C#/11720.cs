@@ -1,0 +1,1 @@
+IPrincipal principal = Thread.CurrentPrincipal;

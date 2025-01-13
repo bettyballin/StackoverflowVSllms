@@ -1,0 +1,1 @@
+pre {\n  overflow: auto;\n  padding-bottom: 20px; /* add some padding to prevent overlap */\n}\n\n/* or, if you want to target only IE7 */\n\n*+html pre {\n  overflow: auto;\n  padding-bottom: 20px;\n}

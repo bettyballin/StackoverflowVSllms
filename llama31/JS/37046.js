@@ -1,0 +1,1 @@
+document.addEventListener("DOMContentLoaded", function() {\n  var fileInputs = document.querySelectorAll("input[type='file']");\n  fileInputs.forEach(function(fileInput) {\n    fileInput.addEventListener("click", function(event) {\n      if (event.target.tagName === "INPUT") {\n        event.preventDefault();\n      }\n    });\n  });\n});

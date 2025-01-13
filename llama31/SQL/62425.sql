@@ -1,0 +1,1 @@
+SELECT 1 FROM x WHERE x.col_a = value_a AND x.col_b = value_b AND ROWNUM = 1;

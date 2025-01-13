@@ -1,0 +1,1 @@
+sudo chown -R www-data:www-data /Applications/xampp/xamppfiles/htdocs/mysite/cache/

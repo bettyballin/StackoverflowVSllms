@@ -1,1 +1,0 @@
-$(document).ready(function() {\n    var newDiv = $('<div class="myClass">This is a div with content</div>');\n    $("body").append(newDiv);\n});

@@ -1,0 +1,1 @@
+[ServiceContract]\npublic interface IFixService\n{\n    [OperationContract]\n    void SendMessage(string message);\n}

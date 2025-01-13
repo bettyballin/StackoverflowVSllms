@@ -1,1 +1,0 @@
-using System;\nusing MyFSharpLibrary.MyModule;  // Ensure the correct namespace and module are used\n\nclass Program\n{\n    static void Main(string[] args)\n    {\n        int result = MyModule.add(3, 4);  // Call the F# function\n        Console.WriteLine($"Result: {result}");\n    }\n}

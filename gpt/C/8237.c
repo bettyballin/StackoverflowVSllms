@@ -1,1 +1,0 @@
-#ifndef MYCLASS_C_API_H\n#define MYCLASS_C_API_H\n\n#ifdef __cplusplus\nextern "C" {\n#endif\n\ntypedef struct MyClass MyClass;\n\nMyClass* MyClass_new();\nvoid MyClass_doSomething(MyClass* instance);\nvoid MyClass_delete(MyClass* instance);\n\n#ifdef __cplusplus\n}\n#endif\n\n#endif // MYCLASS_C_API_H

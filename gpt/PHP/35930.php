@@ -1,1 +1,0 @@
-// app/Http/Kernel.php\n\nprotected $middleware = [\n    // ...\n    \App\Http\Middleware\LogHttpRequests::class,\n];

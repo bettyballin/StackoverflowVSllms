@@ -1,1 +1,0 @@
-// Decode the URL-encoded string\nlet decodedChar = decodeURIComponent('%C2%AE');\n\n// Use the decoded character\nconsole.log(decodedChar); // Output: ®

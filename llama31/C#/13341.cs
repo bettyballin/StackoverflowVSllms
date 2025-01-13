@@ -1,0 +1,1 @@
+// MyProxy.dll\npublic class MyProxy : MarshalByRefObject, IMyApi\n{\n    public void DoSomething(string param)\n    {\n        // implementation details\n    }\n}

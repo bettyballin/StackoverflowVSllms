@@ -1,0 +1,1 @@
+#!/bin/bash\n\nLOCK_FILE="/var/lock/my_script.lock"\n\nif [ -f "$LOCK_FILE" ]; then\n  echo "Another instance is already running. Exiting."\n  exit 1\nfi\n\n# Create the lock file\ntouch "$LOCK_FILE"\n\n# Your script code here...\n\n# Remove the lock file when done\ntrap 'rm -f "$LOCK_FILE"' EXIT

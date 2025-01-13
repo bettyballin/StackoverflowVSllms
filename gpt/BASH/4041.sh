@@ -1,1 +1,0 @@
-sudo yum install php php-devel gtk2-devel libglade2-devel

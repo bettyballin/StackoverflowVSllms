@@ -1,0 +1,1 @@
+[OperationContract]\n[WebGet(UriTemplate = "/MethodName?param1={value1}&param2={value2}")]\nstring MethodName(string value1, string value2);

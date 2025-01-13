@@ -1,0 +1,1 @@
+public delegate Int16 ProcessMessageCallback(\n    UInt16 ServerId,\n    [MarshalAs(UnmanagedType.LPStr)] string RequestMsg,\n    UInt32 RequestSize,\n    [MarshalAs(UnmanagedType.LPStr)] string ResponseMsg,\n    ref UInt32 ResponseSize,\n    ref Int16 AppErrCode);

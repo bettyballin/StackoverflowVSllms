@@ -1,0 +1,1 @@
+var query = context.EntityA\n    .Include(e => e.EntityB)\n    .Include(e => e.EntityC)\n    .Include(e => e.EntityD);\n\n// Load EntityE and EntityF separately\nquery = query.Include(e => e.EntityE);\nquery = query.Include(e => e.EntityF);\n\nvar result = query.ToList();

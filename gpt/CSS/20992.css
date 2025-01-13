@@ -1,1 +1,0 @@
-/* Example of responsive design */\nbody {\n    font-size: 16px;\n}\n\n@media (min-width: 768px) {\n    body {\n        font-size: 18px;\n    }\n}\n\n@media (min-width: 1024px) {\n    body {\n        font-size: 20px;\n    }\n}

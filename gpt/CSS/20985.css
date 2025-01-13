@@ -1,1 +1,0 @@
-div#frame img#header {\n    margin: 0;\n    padding: 0;\n    border: 0;\n    vertical-align: bottom; /* Add this line */\n    display: block; /* Alternatively, add this line */\n}

@@ -1,0 +1,1 @@
+public static long CreateTimestamp(DateTime dateTime)\n{\n    return dateTime.Ticks / TimeSpan.TicksPerMillisecond;\n}

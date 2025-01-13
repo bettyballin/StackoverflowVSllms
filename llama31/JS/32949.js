@@ -1,0 +1,1 @@
+// In your JavaScript code\nfunction setProgress(progress) {\n  // update the progress bar with the given percentage\n  // ...\n}\n\n// You'll need to add a callback function to handle the response from the server\nfunction updateProgressBar(response) {\n  setProgress(response.progress);\n}

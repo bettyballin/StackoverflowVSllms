@@ -1,0 +1,1 @@
+using System;\nusing System.Runtime.InteropServices;\n\npublic class DllAddressFinder\n{\n    [DllImport("kernel32")]\n    private static extern IntPtr GetModuleHandle(string lpModuleName);\n\n    public static IntPtr GetDllAddress(string dllName)\n    {\n        return GetModuleHandle(dllName);\n    }\n}

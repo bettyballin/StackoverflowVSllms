@@ -1,1 +1,0 @@
-objdump -d -S my_program > my_program.asm

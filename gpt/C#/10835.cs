@@ -1,1 +1,0 @@
-public class ExampleClass : IExample\n{\n    public int MyProperty { get; set; }\n\n    public void MyMethod()\n    {\n        // TODO: Implement this method\n    }\n}

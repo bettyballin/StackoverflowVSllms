@@ -1,1 +1,0 @@
-Module ModuleExample\n    Public Counter As Integer = 0\n\n    Public Sub IncrementCounter()\n        Counter += 1\n    End Sub\nEnd Module

@@ -1,0 +1,1 @@
+xperf -start -on base -f explorer.exe

@@ -1,0 +1,1 @@
+INSERT INTO dbo.ParentTable (ParentID, ...)\nSELECT ParentID, ... FROM temp.ParentTable;\n\nINSERT INTO dbo.ChildTable (ChildID, ParentID, ...)\nSELECT ChildID, ParentID, ... FROM temp.ChildTable;\n\nINSERT INTO dbo.GrandChildTable (GrandChildID, ChildID, ...)\nSELECT GrandChildID, ChildID, ... FROM temp.GrandChildTable;

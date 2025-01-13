@@ -1,1 +1,0 @@
-System.IO.File.Encrypt(@"C:\Project\StorageDirectory\file.txt");

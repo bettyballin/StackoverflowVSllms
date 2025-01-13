@@ -1,1 +1,0 @@
-public partial class YourDataSet\n{\n    public void SetConnectionString(string connectionString)\n    {\n        foreach (var tableAdapter in this.TableAdapters)\n        {\n            tableAdapter.Connection.ConnectionString = connectionString;\n        }\n    }\n}

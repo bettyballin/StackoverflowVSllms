@@ -1,0 +1,1 @@
+const iframe = $('#myIframe');\nconst div = iframe.contents().find('#myDiv');\n\n// do something with the div\nconsole.log(div);

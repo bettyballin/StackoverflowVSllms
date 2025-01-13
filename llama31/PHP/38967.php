@@ -1,0 +1,1 @@
+$pattern = '/\n    (?<selector>[A-Za-z]+[\s]*)[\s]*{\n    [\s]*(\n        (?<properties>[A-Za-z0-9-_]+)[\s]*:[\s]*(?<values>[A-Za-z0-9#, ]+);[\s]*\n    )+[\s]*}\n/x';

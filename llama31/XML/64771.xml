@@ -1,0 +1,1 @@
+<definitions \n    xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/"\n    xmlns:tns="http://your-namespace.com"\n    targetNamespace="http://your-namespace.com">\n  <service name="YourService">\n    <port name="YourPort" binding="tns:YourBinding">\n      <soap:address location="http://${SERVER_NAME}/your-soap-endpoint"/>\n    </port>\n  </service>\n</definitions>

@@ -1,1 +1,0 @@
-#include <fstream>\n   #include <unistd.h>\n   #include <sys/types.h>\n   #include <sys/stat.h>\n   #include <fcntl.h>\n\n   std::ofstream logFile;\n   logFile.open("C:\\mylog.log");\n   logFile << "Hello World!" << std::endl;\n   logFile.flush();\n\n   int fd = open("C:\\mylog.log", O_WRONLY);\n   fsync(fd); // Force the changes to disk\n   close(fd);\n\n   logFile.close();

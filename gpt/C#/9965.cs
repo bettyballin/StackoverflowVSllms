@@ -1,1 +1,0 @@
-protected void btnChangeText_Click(object sender, EventArgs e)\n{\n    string newText = "New Radio Button Text";\n    ClientScript.RegisterStartupScript(this.GetType(), "changeText", "changeRadioButtonText('" + newText + "');", true);\n}

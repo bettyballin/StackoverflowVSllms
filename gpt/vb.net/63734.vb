@@ -1,1 +1,0 @@
-Module Module1\n    Sub Main()\n        Dim chars As Char() = {Chr(149)}\n        Dim bytes As Byte() = Encoding.Default.GetBytes(chars)\n        Console.WriteLine(bytes(0))  ' Output: 149\n    End Sub\nEnd Module

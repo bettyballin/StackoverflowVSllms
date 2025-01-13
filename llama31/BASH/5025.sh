@@ -1,0 +1,1 @@
+xenserver-stats --since=yesterday guest_name

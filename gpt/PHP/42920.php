@@ -1,1 +1,0 @@
-function validateURL($url) {\n    $pattern = "/\b((https?|ftp):\/\/[-A-Z0-9+&@#\/%?=~_|!:,.;]*[-A-Z0-9+&@#\/%=~_|])/i";\n\n    if (preg_match($pattern, $url)) {\n        return true;\n    } else {\n        return false;\n    }\n}\n\n// Example usage\n$url = "https://www.example.com";\nif (validateURL($url)) {\n    echo "Valid URL";\n} else {\n    echo "Invalid URL";\n}

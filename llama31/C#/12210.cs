@@ -1,0 +1,1 @@
+using Windows.Storage;\n\nclass Program\n{\n    static async Task Main(string[] args)\n    {\n        StorageDevice device = await StorageDevice.GetDeviceFromIdAsync("Q1/Datacasts");\n        if (device != null)\n        {\n            // Use the device object to access the device's contents\n            // ...\n        }\n    }\n}

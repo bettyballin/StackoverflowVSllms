@@ -1,0 +1,1 @@
+SELECT *\nFROM node_revisions\nWHERE timestamp = (SELECT MAX(timestamp) FROM node_revisions WHERE nid = 51)\nAND nid = 51;

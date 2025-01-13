@@ -1,1 +1,0 @@
-using Microsoft.CodeAnalysis.CSharp.Scripting;\n   using Microsoft.CodeAnalysis.Scripting;\n\n   var script = "System.Console.WriteLine(\"Hello from Roslyn!\");";\n   var result = CSharpScript.RunAsync(script).Result;

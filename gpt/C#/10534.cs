@@ -1,1 +1,0 @@
-var user = DB.Users\n    .SingleOrDefault(u => u.Password == password && u.SINumber == siNumber);

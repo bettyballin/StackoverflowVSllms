@@ -1,1 +1,0 @@
-# Enable STARTTLS on your Exchange Server's Receive Connector\nSet-ReceiveConnector -Identity "Your Receive Connector Name" -AuthMechanism Tls, BasicAuth, BasicAuthRequireTLS, Integrated, ExchangeServer

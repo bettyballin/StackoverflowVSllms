@@ -1,1 +1,0 @@
-public void DoSomething<G>(G generic)\n    where G : ElementDefinition\n{\n    if (generic is DetailElement detail)\n    {\n        detail.DescEN = "Hello people"; // Safe and clear\n    }\n    else\n    {\n        // do other stuff\n    }\n}

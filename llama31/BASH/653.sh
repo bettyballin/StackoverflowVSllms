@@ -1,0 +1,1 @@
+#!/bin/bash\n\nurls=("http://example.com" "http://example.net" "http://example.io")\n\nfor url in "${urls[@]}"; do\n    curl -s -I -o "headers_${url}" "$url" &\ndone\n\nwait

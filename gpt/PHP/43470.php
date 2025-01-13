@@ -1,1 +1,0 @@
-$mysqli->query("LOAD DATA INFILE 'path/to/your/file.txt' INTO TABLE your_table");

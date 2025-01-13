@@ -1,0 +1,1 @@
+-- Create a new role\nINSERT INTO dbo.Roles (Name, Description)\nVALUES ('Subscription Manager', 'Allows users to manage subscriptions');

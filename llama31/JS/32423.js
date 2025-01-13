@@ -1,0 +1,1 @@
+const { app, BrowserWindow } = require('electron');\n\nlet mainWindow;\n\nfunction createWindow() {\n    mainWindow = new BrowserWindow({ width: 800, height: 600 });\n    mainWindow.loadURL(`file://${__dirname}/index.html`);\n    mainWindow.webContents.openDevTools();\n}\n\napp.on('ready', createWindow);

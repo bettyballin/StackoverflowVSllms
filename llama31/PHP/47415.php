@@ -1,0 +1,1 @@
+$wp_http_exthttp = new WP_Http_ExtHTTP();\n$wp_http_exthttp->test();

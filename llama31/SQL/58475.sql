@@ -1,0 +1,1 @@
+SELECT \n  column1,\n  column2,\n  (SELECT TIMESTAMP \n   FROM table_name AS OF TIMESTAMP :date) AS timestamp\nFROM \n  table_name;

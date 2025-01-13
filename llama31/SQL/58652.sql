@@ -1,0 +1,1 @@
+CREATE PROCEDURE InsertParentAndChild\nAS\nBEGIN\n    INSERT INTO ParentTable (TIMESTAMP)\n    VALUES (GETDATE());\n\n    DECLARE @ParentID INT = SCOPE_IDENTITY();\n\n    INSERT INTO ChildTable (ParentID, OtherColumns)\n    VALUES (@ParentID, 'OtherValues');\nEND;

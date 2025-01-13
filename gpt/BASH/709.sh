@@ -1,1 +1,0 @@
-curl https://api.tedslaptop.com:3000/

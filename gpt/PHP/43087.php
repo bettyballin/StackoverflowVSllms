@@ -1,1 +1,0 @@
-<?php\n// Start the output buffer with gzip compression\nob_start("ob_gzhandler");\n\n// Your CSS or HTML content\necho "body { background-color: #f0f0f0; }";\n\n// Flush the buffer and send the compressed output\nob_end_flush();\n?>

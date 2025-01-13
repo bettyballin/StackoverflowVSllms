@@ -1,1 +1,0 @@
-connect(treeView, &QTreeView::expanded, this, &columnViewModel::onExpand);\nconnect(treeView, &QTreeView::collapsed, this, &columnViewModel::onCollapse);

@@ -1,1 +1,0 @@
-# Check if Apache is listening on port 443\n   sudo netstat -tulnp | grep :443\n\n   # Ensure SSL module is enabled\n   sudo a2enmod ssl\n   sudo service apache2 restart

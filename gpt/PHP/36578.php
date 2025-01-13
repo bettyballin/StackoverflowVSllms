@@ -1,1 +1,0 @@
-function trigger($trigger_name, $data = false) {\n    return false;\n}

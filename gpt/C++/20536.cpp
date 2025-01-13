@@ -1,1 +1,0 @@
-HRESULT GetArrayOfStrings([out, retval] SAFEARRAY(BSTR) * rgBstrStringArray);

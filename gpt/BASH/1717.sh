@@ -1,1 +1,0 @@
-java -Xmx2g -jar your-application.jar

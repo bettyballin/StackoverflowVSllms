@@ -1,1 +1,0 @@
-UPDATE foo\nSET time = current_timestamp + (days || ' days')::interval;

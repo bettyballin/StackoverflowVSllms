@@ -1,0 +1,1 @@
+SELECT \n    DATE_FORMAT(eDate, '%U') AS Week,\n    COUNT(CASE WHEN category = 'Category1' THEN errorId END) AS Category1,\n    COUNT(CASE WHEN category = 'Category2' THEN errorId END) AS Category2\nFROM errors\nGROUP BY Week\nORDER BY Week;

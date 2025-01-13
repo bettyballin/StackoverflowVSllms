@@ -1,0 +1,1 @@
+using System.Data.Entity;\nusing Oracle.ManagedDataAccess.EntityFramework;\n\npublic class MyDbContext : DbContext\n{\n    public MyDbContext() : base(new OracleConnection("Data Source=your_database;User Id=your_username;Password=your_password;"))\n    {\n    }\n\n    public DbSet<MyEntity> MyEntities { get; set; }\n}

@@ -1,1 +1,0 @@
-from Alert alert\nwhere alert.expiration > :currentDate\norder by alert.priority, alert.updated, alert.name

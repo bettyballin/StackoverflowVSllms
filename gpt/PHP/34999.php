@@ -1,1 +1,0 @@
-include 'adodb/adodb.inc.php';\n   \n   // Create a connection\n   $db = ADONewConnection('mysqli');\n   \n   // Connect to the database\n   $db->Connect('localhost', 'username', 'password', 'database_name');\n   \n   // Check for connection errors\n   if (!$db) {\n       die('Connection failed: ' . $db->ErrorMsg());\n   }\n   \n   echo 'Connected successfully';

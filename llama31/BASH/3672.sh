@@ -1,0 +1,1 @@
+dig +short mx example.com

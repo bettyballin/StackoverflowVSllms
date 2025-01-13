@@ -1,0 +1,1 @@
+header('Location: /path/to/protected/dir1');\nexit;

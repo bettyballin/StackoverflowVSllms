@@ -1,1 +1,0 @@
-SELECT email\nFROM your_table\nWHERE email NOT LIKE '%_@__%.__%'\n   OR email LIKE '%..%'\n   OR email LIKE '%@%@%'\n   OR email LIKE '%.@%'\n   OR email LIKE '%.@%'\n   OR email LIKE '@%'\n   OR email NOT LIKE '%@%'\n   OR email NOT LIKE '%.%'\n   OR email LIKE '% %';

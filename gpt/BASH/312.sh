@@ -1,1 +1,0 @@
-sudo mv send_sms.php /usr/local/bin/my_custom_send_sms_command

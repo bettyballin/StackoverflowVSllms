@@ -1,1 +1,0 @@
-using System.ComponentModel.DataAnnotations.Schema;\n\npublic class CaseNote\n{\n    [DatabaseGenerated(DatabaseGeneratedOption.Identity)]\n    public Guid CaseNoteID { get; set; }\n    \n    public decimal TimeSpentUnits { get; set; }\n    public bool IsCaseLog { get; set; }\n    public DateTime ContactDate { get; set; }\n    public string ContactDetails { get; set; }\n}

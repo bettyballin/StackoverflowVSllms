@@ -1,1 +1,0 @@
-UPDATE ActivitySegments\nSET activityid = a.activityid\nFROM ActivitySegments AS seg\nJOIN #AggregatedResults AS a\nON seg.ticketid = a.ticketnumber\nWHERE seg.segmentid IN (SELECT segmentid FROM @TempSegmentIds);

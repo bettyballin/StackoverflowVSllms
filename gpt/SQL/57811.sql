@@ -1,1 +1,0 @@
-DELIMITER //\n\n   CREATE TRIGGER after_insert_trigger\n   AFTER INSERT ON your_table_name\n   FOR EACH ROW\n   BEGIN\n       -- You can perform additional actions here if needed\n   END //\n\n   DELIMITER ;

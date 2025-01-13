@@ -1,1 +1,0 @@
-sequel -m db/migrations postgres://user:password@localhost/your_database_name

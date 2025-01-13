@@ -1,1 +1,0 @@
-// Example of API usage in PrestaShop\n   $ch = curl_init();\n   curl_setopt($ch, CURLOPT_URL, 'http://example.com/api/products');\n   curl_setopt($ch, CURLOPT_RETURNTRANSFER, 1);\n   $response = curl_exec($ch);\n   curl_close($ch);

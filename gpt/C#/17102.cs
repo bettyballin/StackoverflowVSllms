@@ -1,1 +1,0 @@
-var person = from p in DataContextObject.Persons\n             where p.PersonsID == 1\n             select new { p.PersonsID, p.PersonsAdress, p.PersonsZipcode };

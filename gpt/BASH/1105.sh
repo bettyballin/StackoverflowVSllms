@@ -1,1 +1,0 @@
-convert input.jpg -alpha set -virtual-pixel transparent \\n  -channel A -morphology Distance Euclidean:1,50! +channel \\n  -compose CopyOpacity -composite output.png

@@ -1,1 +1,0 @@
-public class office_location\n   {\n       public string location_address { get; set; }\n       public string location_name { get; set; }\n   }

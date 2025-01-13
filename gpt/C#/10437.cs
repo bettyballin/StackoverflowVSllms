@@ -1,1 +1,0 @@
-[Table(Name = "Products")]\n   public class Product\n   {\n       [Column(IsPrimaryKey = true, IsDbGenerated = true)]\n       public int Id { get; set; }\n\n       [Column]\n       public string Name { get; set; }\n\n       [Column]\n       public decimal Price { get; set; }\n   }

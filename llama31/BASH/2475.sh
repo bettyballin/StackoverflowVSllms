@@ -1,0 +1,1 @@
+sudo groupadd uploaders\nsudo usermod -aG uploaders <username>

@@ -1,1 +1,0 @@
-chmod +x watch_directory.sh

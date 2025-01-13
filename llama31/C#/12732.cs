@@ -1,0 +1,1 @@
+using System.IO;\nusing System.Runtime.Serialization.Formatters.Binary;\n\n//...\n\nMemoryStream ms = new MemoryStream();\nBinaryFormatter bf = new BinaryFormatter();\nbf.Serialize(ms, Session);\nint sessionSize = (int)ms.Length;

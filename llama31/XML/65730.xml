@@ -1,0 +1,1 @@
+<operation name="SomeOperation">\n  <soap:operation soapAction="SomeOperationAction"/>\n  ...\n</operation>

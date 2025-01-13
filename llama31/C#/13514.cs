@@ -1,0 +1,1 @@
+using Oracle.DataAccess.Client;\n\n// Create a new OracleConnection\nOracleConnection conn = new OracleConnection("Data Source=your_database;User Id=your_user;Password=your_password;");\n\n// Enable tracing\nconn.Trace = true;\n\n// Open the connection\nconn.Open();

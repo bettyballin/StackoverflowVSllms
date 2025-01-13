@@ -1,1 +1,0 @@
--- Enable CLR integration\nsp_configure 'clr enabled', 1;\nRECONFIGURE;\n\n-- Create the assembly\nCREATE ASSEMBLY HtmlUtils \nFROM 'C:\path\to\your\dll\HtmlUtils.dll'\nWITH PERMISSION_SET = SAFE;\n\n-- Create the function\nCREATE FUNCTION dbo.StripHtml(@html NVARCHAR(MAX))\nRETURNS NVARCHAR(MAX)\nAS EXTERNAL NAME HtmlUtils.HtmlUtils.StripHtml;

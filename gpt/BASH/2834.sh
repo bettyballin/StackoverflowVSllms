@@ -1,1 +1,0 @@
-regsvr32 C:\Path\To\Your\DLL\ARBatches.BL_ARBatches.dll

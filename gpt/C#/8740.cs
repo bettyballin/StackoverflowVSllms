@@ -1,1 +1,0 @@
-using (var context = new ProductContext())\n   {\n       var products = context.Products.ToList();\n       foreach (var product in products)\n       {\n           Console.WriteLine($"Product: {product.Name}, Price: {product.Price}");\n       }\n   }

@@ -1,1 +1,0 @@
-gcc -c file1.c -o file1.o\n    gcc -c file2.c -o file2.o\n    gcc -c file3.c -o file3.o

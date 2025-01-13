@@ -1,1 +1,0 @@
-Dim dataSource As New List(Of ClassA) From {\n    New ClassA With {.ClassB = New ClassB With {.SomeProperty = "Value1"}},\n    New ClassA With {.ClassB = New ClassB With {.SomeProperty = "Value2"}}\n}

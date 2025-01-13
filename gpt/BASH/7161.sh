@@ -1,1 +1,0 @@
-sudo sysctl -p

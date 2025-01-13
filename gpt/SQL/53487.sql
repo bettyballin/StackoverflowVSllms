@@ -1,1 +1,0 @@
-USE [YourDatabaseName];\n   EXEC sp_addrolemember 'Visual Studio Schema Modeler', [YourUserName];

@@ -1,0 +1,1 @@
+# Example command to create a basic VM using VirtualBox (you'll need to adjust parameters and install the OS and software afterwards)\n    VBoxManage createvm --name "SandboxVM" --register

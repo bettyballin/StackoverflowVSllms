@@ -1,0 +1,1 @@
+function f() {\n    g.apply(this, arguments);\n}\n\nfunction g(a, b, c) {\n    alert(a + b + c);\n}

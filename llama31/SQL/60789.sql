@@ -1,0 +1,1 @@
+-- Querying the entire row\nSELECT * FROM customers;\n\n-- Querying only the required columns\nSELECT id, name, email, phone, address FROM customers;

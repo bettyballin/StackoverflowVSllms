@@ -1,1 +1,0 @@
-public YourDataContext GetNewContext()\n{\n    return new YourDataContext();\n}

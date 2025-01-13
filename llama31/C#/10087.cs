@@ -1,0 +1,1 @@
+protected void GridView1_RowUpdating(object sender, GridViewUpdateEventArgs e)\n{\n    var dataItem = GridView1.Rows[e.RowIndex].DataItem;\n    var someText = ((DataRowView)dataItem)["SomeText"].ToString();\n    // Perform update operation using someText value\n}

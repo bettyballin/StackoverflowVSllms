@@ -1,1 +1,0 @@
-gfortran -c write_binary.f\ngcc -c write_binary.c\ngfortran -o write_binary write_binary.o write_binary.o

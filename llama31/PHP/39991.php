@@ -1,0 +1,1 @@
+$code = '<?PHP\n// something\nif ($whatsit) {\n    do_something(); # we do something here\n    echo \'<html>Some embedded HTML</html>\';\n}\n/* another long\ncomment\n*/\nsome_more_code();\n?>';\n\n$cleaned_code = remove_comments($code);\necho $cleaned_code;

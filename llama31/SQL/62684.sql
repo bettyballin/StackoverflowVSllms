@@ -1,0 +1,1 @@
+BEGIN\n    procedure_name(array_variable);\nEND;

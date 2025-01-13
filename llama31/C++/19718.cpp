@@ -1,0 +1,1 @@
+// file1.h\nvoid func1();\n\n// file2.h\n#include "file1.h"\nvoid func2();\n\n// file3.h\n#import "file1.h"\nvoid func3();\n\n// main.cpp\n#include "file2.h"\n#import "file3.h"

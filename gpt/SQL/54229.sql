@@ -1,1 +1,0 @@
-UPDATE myTable\nSET columnA = ?, columnB = ?\nWHERE columnC = ?

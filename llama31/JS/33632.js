@@ -1,0 +1,1 @@
+var e = document.querySelector('div#notify-container');\nvar rect = e.getBoundingClientRect();\nconsole.log(rect.top, rect.left);

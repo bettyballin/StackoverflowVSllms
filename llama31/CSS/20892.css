@@ -1,0 +1,1 @@
+.horz_list li {\n    display: inline-block;\n    background-color: #CEE3F8;\n    border-right-style: thin;\n    padding-right: 4px;\n    padding-left: 4px;\n    vertical-align: middle;\n}

@@ -1,1 +1,0 @@
-public class MyFormModel\n    {\n        public string InputName { get; set; }\n    }\n\n    public ActionResult SubmitForm(MyFormModel model)\n    {\n        string value = model.InputName;\n    }

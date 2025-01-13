@@ -1,1 +1,0 @@
-html, body {\n    height: 100%;\n    margin: 0;\n}\n\n.container {\n    display: flex;\n    flex-direction: column;\n    height: 100%;\n}\n\n.header {\n    background-color: #f1f1f1;\n    padding: 10px;\n}\n\n.body {\n    flex: 1;\n    background-color: #e1e1e1;\n    padding: 10px;\n    overflow: auto;\n}\n\n.footer {\n    background-color: #d1d1d1;\n    padding: 10px;\n}

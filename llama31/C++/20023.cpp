@@ -1,0 +1,1 @@
+LPWSTR pszGuid = ...; // GetSessionInstanceIdentifier result\nGUID guid;\nHRESULT hr = CLSIDFromString(pszGuid, &guid);\nif (SUCCEEDED(hr)) {\n    // Use the GUID\n} else {\n    // Handle error\n}

@@ -1,0 +1,1 @@
+alter table MyTable\nadd constraint UK_MyTable_MyUniqueKey unique nonclustered (MyCol COLLATE SQL_Latin1_General_CP1_CS_AS)

@@ -1,0 +1,1 @@
+mountvol P: \\?\Volume{<volume_guid>}

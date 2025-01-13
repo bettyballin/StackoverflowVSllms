@@ -1,0 +1,1 @@
+public class MyWebService : WebService\n{\n    [WebMethod]\n    public void DeleteSomething(int id)\n    {\n        string origin = HttpContext.Current.Request.Headers["Origin"];\n        if (origin != "https://yourdomain.com")\n        {\n            throw new HttpException(403, "Forbidden");\n        }\n        // delete logic here\n    }\n}

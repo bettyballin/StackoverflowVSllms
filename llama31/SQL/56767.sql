@@ -1,0 +1,1 @@
+SELECT * FROM example WHERE value LIKE 'a';

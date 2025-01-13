@@ -1,1 +1,0 @@
-// String.prototype.add = init(5, 6, 7);  // 1)   \n// window.onload = init(5,6,7); // 2)

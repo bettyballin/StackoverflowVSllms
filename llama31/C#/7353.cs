@@ -1,0 +1,1 @@
+using System;\nusing System.Web;\n\npublic class HtmlReceiver\n{\n    public void ReceiveHtml(string encodedHtml)\n    {\n        // Decode the received HTML code\n        string decodedHtml = HttpUtility.HtmlDecode(encodedHtml);\n\n        // Process the decoded HTML code as needed\n        // ...\n    }\n}

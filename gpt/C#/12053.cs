@@ -1,1 +1,0 @@
-public class MyObjectCollection : List<MyObject>\n{\n    public MyObjectCollection() : base() { }\n\n    public MyObjectCollection(IEnumerable<MyObject> collection) : base(collection) { }\n}\n\n// Usage\nList<MyObject> list = this.DoSomethingHere();\nMyObjectCollection collection = new MyObjectCollection(list);

@@ -1,1 +1,0 @@
-pecl download pdo_mysql\ntar -xzf PDO_MYSQL-*.tgz\ncd PDO_MYSQL-*

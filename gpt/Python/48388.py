@@ -1,1 +1,0 @@
-array = ["Hello", "World", "!"]\n\n# Clear the list\narray.clear()

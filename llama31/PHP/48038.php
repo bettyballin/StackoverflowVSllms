@@ -1,0 +1,1 @@
+set_error_handler(function($errno, $errstr) {\n    throw new Exception($errstr, $errno);\n});\ntry {\n    if (!mkdir('/somedir')) {\n        throw new Exception('mkdir failed');\n    }\n} catch (Exception $e) {\n    echo "MKDIR failed, reason: " . $e->getMessage() . "\n";\n}\nrestore_error_handler();

@@ -1,1 +1,0 @@
-Sys.Net.WebServiceProxy.invoke(\n    'YourServiceURL',\n    'YourMethodName',\n    false,\n    { param1: value1, param2: value2 },\n    onSuccess,\n    onFailure\n);\n\nfunction onSuccess(result) {\n    console.log(result);\n}\n\nfunction onFailure(error) {\n    console.error('Error: ' + error.get_message());\n}

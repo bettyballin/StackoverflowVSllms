@@ -1,0 +1,1 @@
+# Example usage:\nxmllint --noout input.xml

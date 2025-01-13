@@ -1,0 +1,1 @@
+using Microsoft.Win32;\n\npublic bool IsNet35Installed()\n{\n    object value = Registry.GetValue(@"HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\NET Framework Setup\NDP\v3.5", "Install", null);\n    return value != null && (int)value == 1;\n}

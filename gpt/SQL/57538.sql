@@ -1,1 +1,0 @@
-SELECT *\nINTO tmpFerdeen\nFROM (\n    SELECT TOP(100) *\n    FROM Customers\n    UNION ALL\n    SELECT TOP(100) *\n    FROM CustomerEurope\n    UNION ALL\n    SELECT TOP(100) *\n    FROM CustomerAsia\n    UNION ALL\n    SELECT TOP(100) *\n    FROM CustomerAmericas\n) AS CombinedResults;

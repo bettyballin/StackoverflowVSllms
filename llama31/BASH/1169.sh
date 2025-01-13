@@ -1,0 +1,1 @@
+# Install Xvfb (on Ubuntu-based systems)\nsudo apt-get install xvfb\n\n# Create a virtual display\nXvfb :99 -ac &\n\n# Set the DISPLAY environment variable to the virtual display\nexport DISPLAY=:99\n\n# Run your Java app\njava your_app.jar\n\n# Kill the Xvfb process when you're done\npkill Xvfb

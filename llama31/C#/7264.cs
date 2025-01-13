@@ -1,0 +1,1 @@
+string response = // your REST response string\n\nusing (StringReader reader = new StringReader(response))\n{\n    XDocument xmlDoc = XDocument.Load(reader);\n    // ...\n}

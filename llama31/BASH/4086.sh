@@ -1,0 +1,1 @@
+jvisualvm --console --openpid <PID> --plugin "VisualVM-MBeans" --setproperty "memory.profiler.interval=1"

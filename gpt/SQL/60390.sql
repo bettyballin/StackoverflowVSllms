@@ -1,1 +1,0 @@
-BEGIN;\n\n-- Lock the row for update\nSELECT creds FROM credits WHERE user_id = 1 FOR UPDATE;\n\n-- Application logic to calculate new value\n-- Assume new_credits is the calculated value\n\n-- Update the credits\nUPDATE credits SET creds = new_credits WHERE user_id = 1;\n\nCOMMIT;

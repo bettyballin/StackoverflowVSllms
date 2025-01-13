@@ -1,0 +1,1 @@
+// Hash a password\n$password = 'my_secret_password';\n$hashed_password = password_hash($password, PASSWORD_DEFAULT);\n\n// Verify a password\n$input_password = 'my_secret_password';\nif (password_verify($input_password, $hashed_password)) {\n    echo 'Password is valid!';\n} else {\n    echo 'Password is invalid!';\n}

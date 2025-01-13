@@ -1,1 +1,0 @@
-SELECT id, name\nFROM (\n    SELECT id, name\n    FROM table1\n    GROUP BY id, name\n)

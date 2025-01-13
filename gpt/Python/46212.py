@@ -1,1 +1,0 @@
-# MyPythonScript.py\nclass MyPythonClass:\n    def __init__(self):\n        self.name = "IronPython Object"\n\n    def greet(self):\n        return f"Hello from {self.name}"

@@ -1,0 +1,1 @@
+label.disabled select {\n  opacity: 0.5;\n  filter: alpha(opacity=50);\n  background-color: #CCC;\n}\n\nlabel.disabled select:focus,\nlabel.disabled select:hover {\n  background-color: #FFF;\n}

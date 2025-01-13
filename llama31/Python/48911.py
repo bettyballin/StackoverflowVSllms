@@ -1,0 +1,1 @@
+import secrets\nimport string\n\ndef generate_validation_key(length=16):\n    alphabet = string.ascii_letters + string.digits\n    key = ''.join(secrets.choice(alphabet) for _ in range(length))\n    return key

@@ -1,1 +1,0 @@
-from sortedcontainers import SortedList\n\nsorted_list = SortedList()\n\n# Add elements\nsorted_list.add(3.5)\nsorted_list.add(1.2)\nsorted_list.add(4.8)\nsorted_list.add(2.1)\n\n# Display sorted list\nprint(sorted_list)

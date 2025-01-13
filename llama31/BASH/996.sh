@@ -1,0 +1,1 @@
+screen -d -m macports_upgrade_command

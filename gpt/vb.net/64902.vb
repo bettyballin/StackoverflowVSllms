@@ -1,1 +1,0 @@
-Public Class Time\n    ' Class implementation remains the same\nEnd Class\n\nPublic Class Times : Inherits List(Of Time)\n    ' Class implementation remains the same\nEnd Class

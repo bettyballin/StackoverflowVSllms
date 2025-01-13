@@ -1,1 +1,0 @@
-mysqldumpslow -t 10 /var/log/mysql/slow.log

@@ -1,0 +1,1 @@
+var x2js = new X2JS();\nvar xmlText = "<root><person><name>John</name><age>30</age></person></root>";\nvar jsonObj = x2js.xml2js(xmlText);\nconsole.log(jsonObj);

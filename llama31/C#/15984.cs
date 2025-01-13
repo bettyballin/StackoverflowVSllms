@@ -1,0 +1,1 @@
+using Excel = Microsoft.Office.Interop.Excel;\n\n// ...\n\nExcel.Application xlApp = (Excel.Application)Marshal.GetActiveObject("Excel.Application");\nxlApp.ScreenUpdating = true;\nxlApp.Calculate();\nxlApp.ScreenUpdating = false;

@@ -1,0 +1,1 @@
+<configuration>\n  <runtime>\n    <assemblyBinding xmlns="urn:schemas-microsoft-com:asm.v1">\n      <probing privatePath="bin;private"/>\n    </assemblyBinding>\n    <httpRuntime maxStackSize="1024000"/>\n  </runtime>\n</configuration>

@@ -1,0 +1,1 @@
+if (!empty($_POST)) {\n    // Process POST data\n}

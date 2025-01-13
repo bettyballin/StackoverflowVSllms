@@ -1,1 +1,0 @@
-DECLARE @XMLData XML\nSET @XMLData = '\n<Root>\n    <Row>\n        <ID>1</ID>\n        <FieldName1>Value1</FieldName1>\n        <FieldName2>100</FieldName2>\n    </Row>\n    <Row>\n        <ID>2</ID>\n        <FieldName1>Value2</FieldName1>\n        <FieldName2>200</FieldName2>\n    </Row>\n</Root>'\n\n-- Execute the stored procedure\nEXEC InsertArrayOfValues @Data = @XMLData;

@@ -1,1 +1,0 @@
-# Download the installer from the official site\n   chmod +x netbeans-<version>-linux.sh\n   ./netbeans-<version>-linux.sh

@@ -1,0 +1,1 @@
+string strConn = @"Provider=Microsoft.ACE.OLEDB.12.0;Data Source=Sample.xlsx;Extended Properties='Excel 12.0;HDR=NO;'";

@@ -1,1 +1,0 @@
-<?php\n    $foo = 'some words';\n\n    // Case 1\n    print "these are $foo";\n\n    // Case 2\n    print "these are {$foo}";\n\n    // Case 3\n    print 'these are ' . $foo;\n?>

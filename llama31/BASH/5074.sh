@@ -1,0 +1,1 @@
+(\n  echo Line 1\n  echo Line 2\n  echo Line 3\n) | REG ADD "HKLM\Path\To\Key" /v "ValueName" /t REG_SZ /d /f

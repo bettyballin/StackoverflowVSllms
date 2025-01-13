@@ -1,1 +1,0 @@
-SELECT \n    bc.id, \n    bc.title, \n    bc.estimateCurrent, \n    IFNULL(SUM(TIME_TO_SEC(TIMEDIFF(t.dateEnding, t.dateBeginning))), 0) AS timeusedinsec \nFROM \n    cases bc \nLEFT JOIN \n    timesheet t \nON \n    bc.id = t.`#case` \nGROUP BY \n    bc.id, bc.title, bc.estimateCurrent;

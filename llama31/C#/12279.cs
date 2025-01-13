@@ -1,0 +1,1 @@
+[HttpPost]\npublic JsonResult MyAction()\n{\n    // Replace with your actual data\n    string variable1 = "value1";\n    int variable2 = 123;\n\n    // Create a JSON object\n    var data = new\n    {\n        var1 = variable1,\n        var2 = variable2\n    };\n\n    return Json(data);\n}

@@ -1,0 +1,1 @@
+if (!ModelState.IsValid)\n{\n    var errors = ModelState.Values.SelectMany(x => x.Errors);\n    if (Request.IsAjaxRequest())\n    {\n        return Json(errors.Select(e => new { Key = e.Exception.Message, Value = e.ErrorMessage }));\n    }\n    else\n    {\n        return View(PostedItem);\n    }\n}

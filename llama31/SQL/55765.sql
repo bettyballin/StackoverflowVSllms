@@ -1,0 +1,1 @@
+CREATE OR REPLACE PROCEDURE my_procedure\nAUTHID schema\nAS\nBEGIN\n  SELECT field FROM view;\nEND;

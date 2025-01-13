@@ -1,1 +1,0 @@
-CREATE TABLE students (\n    student_id INT PRIMARY KEY,\n    name VARCHAR(100) NOT NULL\n);

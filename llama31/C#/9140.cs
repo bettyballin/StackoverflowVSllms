@@ -1,0 +1,1 @@
+public struct myOtherClass\n{\n    // ...\n}\n\npublic void addToList(myOtherClass tmp)\n{\n    anewList.Add(tmp);\n}

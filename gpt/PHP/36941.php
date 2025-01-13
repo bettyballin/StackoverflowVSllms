@@ -1,1 +1,0 @@
-$query = "INSERT INTO comments (comment_text, created_at) VALUES ('Your comment text', '$formattedDate')";\n   // Execute your query using your preferred method (e.g., PDO, MySQLi)

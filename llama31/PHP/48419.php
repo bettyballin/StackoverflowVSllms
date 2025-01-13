@@ -1,0 +1,1 @@
+$array = [\n    'item1' => [\n        'dataset' => [],\n        3 => [],\n        7 => [],\n    ],\n    'item2' => [\n        'dataset' => [],\n        4 => [],\n        19 => [],\n        2 => [],\n    ],\n];\n\nforeach ($array as &$item) {\n    $dataset = $item['dataset'];\n    unset($item['dataset']);\n    $item['dataset'] = $dataset;\n}\n\nprint_r($array);

@@ -1,0 +1,1 @@
+date_default_timezone_set('UTC');\n$mysqldate = date('Y-m-d H:i:s');

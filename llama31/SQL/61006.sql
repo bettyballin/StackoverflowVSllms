@@ -1,0 +1,1 @@
+SELECT file_content INTO v_file\nFROM files\nWHERE id = 1;\n\n-- Read the file contents\nv_file := BFILEOPEN(v_file);\nfile_contents := BFILEGETCONTENT(v_file);\nBFILECLOSE(v_file);

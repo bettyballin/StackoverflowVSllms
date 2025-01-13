@@ -1,0 +1,1 @@
+$fileCount = countFiles('./Dir_A');\necho $fileCount;

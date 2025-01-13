@@ -1,0 +1,1 @@
+@echo off\n\nset SERVICE_NAME=YourServiceName\n\nsc query %SERVICE_NAME% > nul 2>&1\nif %errorlevel% == 0 (\n    echo The service is installed and running\n    net stop %SERVICE_NAME%\n) else (\n    echo The service is not installed or not running\n)

@@ -1,1 +1,0 @@
-class ProductModel {\n    public function getProducts($params) {\n        // Fetch products from the database based on $params\n        // Example: SELECT * FROM products WHERE category = ?\n        // Return the result set\n    }\n}

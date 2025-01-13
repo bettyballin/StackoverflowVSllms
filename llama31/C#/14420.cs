@@ -1,0 +1,1 @@
+Thread thread = new Thread(new ThreadStart(MyMethod), 1024 * 1024); // 1MB stack size\nthread.Start();

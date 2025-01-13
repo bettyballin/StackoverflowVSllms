@@ -1,0 +1,1 @@
+SELECT u.user, g.group, u2g.something\nFROM users u\nJOIN u2g ON u.u = u2g.u\nJOIN groups g ON g.g = u2g.g\nWHERE g.group IN (3, 5)\nGROUP BY u.user\nHAVING COUNT(DISTINCT g.group) = 2;

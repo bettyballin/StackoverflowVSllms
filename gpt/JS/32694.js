@@ -1,1 +1,0 @@
-// Example AJAX request using plain text\n   fetch('https://api.example.com/data.txt')\n     .then(response => response.text())\n     .then(data => console.log(data))\n     .catch(error => console.error('Error:', error));

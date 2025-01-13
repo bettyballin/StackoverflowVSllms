@@ -1,1 +1,0 @@
-bspatch old_directory patched_directory patch_file

@@ -1,1 +1,0 @@
-unzip linuxx64_193000_db_home.zip -d $ORACLE_HOME\n   cd $ORACLE_HOME\n   ./runInstaller

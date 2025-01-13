@@ -1,0 +1,1 @@
+Object('libraries/DB', 'DATABASE', 'USERNAME', 'PASSWORD')->Query(/* Some Query */);

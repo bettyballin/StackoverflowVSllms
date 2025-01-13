@@ -1,0 +1,1 @@
+public void ImportCertificate(byte[] pfxData, string password, StoreName name, StoreLocation loc)\n{\n    X509Certificate2 cert = new X509Certificate2(pfxData, password, X509KeyStorageFlags.Exportable);\n    X509Store certStore = new X509Store(name, loc);\n    certStore.Open(OpenFlags.ReadWrite);\n    certStore.Add(cert);\n    certStore.Close();\n}

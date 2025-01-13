@@ -1,1 +1,0 @@
-cd C:\Oracle\Ora92\rdbms\admi

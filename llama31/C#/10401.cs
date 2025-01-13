@@ -1,0 +1,1 @@
+[WebMethod]\npublic static void SetTotalAmount(string total)\n{\n    ((TextBox)FindControl("txtTotalAmount")).Text = total;\n}

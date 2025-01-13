@@ -1,1 +1,0 @@
--- Create a sample table\nCREATE TABLE test_table (\n  id NUMBER,\n  value VARCHAR2(10)\n);\n\n-- Insert a row with an empty string\nINSERT INTO test_table (id, value) VALUES (1, '');\n\n-- Query the table\nSELECT id, value, LENGTH(value) FROM test_table;\n\n-- Output will show:\n-- ID | VALUE | LENGTH(VALUE)\n-- 1  | NULL  | NULL

@@ -1,0 +1,1 @@
+MailMessage mail = new MailMessage();\nmail.Attachments.Add(new Attachment(pdfFilePath, "application/pdf"));

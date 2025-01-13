@@ -1,1 +1,0 @@
-Sub ListToolWindowGUIDs()\n    Dim window As EnvDTE.Window\n    Dim toolWindows As EnvDTE.Windows = DTE.Windows\n\n    For Each window In toolWindows\n        If window.Type = EnvDTE.vsWindowType.vsWindowTypeToolWindow Then\n            MsgBox("Caption: " & window.Caption & vbCrLf & "GUID: " & window.ObjectKind)\n        End If\n    Next\nEnd Sub

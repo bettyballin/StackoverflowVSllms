@@ -1,1 +1,0 @@
-regasm "C:\path\to\your\addin.dll" /codebase

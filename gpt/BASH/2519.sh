@@ -1,1 +1,0 @@
-vmware-vdiskmanager -r source.vhd -t 0 destination.vmdk

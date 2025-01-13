@@ -1,0 +1,1 @@
+// Native.cpp\n#include "Wrapper.h"\n\nint main()\n{\n    // Create an instance of the wrapper\n    Wrapper^ wrapper = gcnew Wrapper();\n\n    // Call the VB.NET method through the wrapper\n    wrapper->CallVBMethod();\n\n    return 0;\n}

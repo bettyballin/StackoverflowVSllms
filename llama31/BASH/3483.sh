@@ -1,0 +1,1 @@
+jar cvf pacman.jar -C bin . -C assets .

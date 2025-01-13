@@ -1,1 +1,0 @@
-Private Sub Form1_Load(sender As Object, e As EventArgs) Handles MyBase.Load\n    ' Optionally hide from taskbar initially\n    Me.ShowInTaskbar = False\n    ShowWindow(Me.Handle, SW_SHOWNOACTIVATE)\n    ' Optionally show in taskbar again after it's shown\n    Me.ShowInTaskbar = True\nEnd Sub

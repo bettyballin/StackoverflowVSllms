@@ -1,1 +1,0 @@
-regsvr32 C:\Path\To\Your\ComComponent.dll

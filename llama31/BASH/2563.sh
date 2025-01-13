@@ -1,0 +1,1 @@
+javac FileReceiver.java\njava FileReceiver myfile.txt

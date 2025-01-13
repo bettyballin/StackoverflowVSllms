@@ -1,0 +1,1 @@
+<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation">\n    <DrawingImage x:Key="MyImage">\n        <DrawingImage.Drawing>\n            <!-- your XAML image here -->\n        </DrawingImage.Drawing>\n    </DrawingImage>\n</ResourceDictionary>

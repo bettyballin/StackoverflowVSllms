@@ -1,1 +1,0 @@
-// Storing data\n    localStorage.setItem("twitterURL", "https://twitter.com/example");\n\n    // Retrieving data\n    var twitterURL = localStorage.getItem("twitterURL");

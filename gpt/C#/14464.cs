@@ -1,1 +1,0 @@
-protected void ddlExample_DataBound(object sender, EventArgs e)\n   {\n       // Register script to re-enable controls after data is bound\n       ScriptManager.RegisterStartupScript(this, this.GetType(), "enableControls", "enableControls();", true);\n   }

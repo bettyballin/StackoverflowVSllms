@@ -1,1 +1,0 @@
-SELECT * \nFROM tblname \nWHERE column_name LIKE 'Test1%' \n   OR column_name LIKE 'Test2%';

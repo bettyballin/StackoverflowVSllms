@@ -1,1 +1,0 @@
-// Example configuration in index.php or config file\n$allowedReferrers = array(\n    'mywebsite.com',  // Existing allowed referrer\n    'www.mywebsite.com' // Add your domain here\n);\n\n// If your website uses www and non-www, make sure to include both

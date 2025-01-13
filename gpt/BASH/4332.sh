@@ -1,1 +1,0 @@
-docker run -d --name client1 myapp:latest\n   docker run -d --name client2 myapp:latest\n   # Scale as needed

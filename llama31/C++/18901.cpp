@@ -1,0 +1,1 @@
+class B : public A\n{\npublic:\n    using A::DoSomething; // Bring A::DoSomething into scope\n    int DoSomething(int x) {return 1;};\n};

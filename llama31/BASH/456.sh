@@ -1,0 +1,1 @@
+python enctest.py | openssl enc -base64 -d | openssl enc -nosalt -des-ecb -d -nopad -pass pass:abcdefgh

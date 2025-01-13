@@ -1,0 +1,1 @@
+using PdfSharp.Pdf;\nusing System.Windows.Documents;\nusing System.Windows.Printing;\n\n// ...\n\nprivate void PrintPdf(string filePath)\n{\n    PdfDocument pdfDoc = PdfReader.Open(filePath);\n    XpsDocument xpsDoc = new XpsDocument();\n    xpsDoc.AddDocument(pdfDoc);\n    PrintDocument printDoc = new PrintDocument();\n    printDoc.Document = xpsDoc;\n    printDoc.Print();\n}

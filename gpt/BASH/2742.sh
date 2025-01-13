@@ -1,1 +1,0 @@
-# Example: Locust\nlocust -f locustfile.py --host=http://your-app.com

@@ -1,0 +1,1 @@
+string[] files = Directory.GetFiles(view.GetPath(directoryPath), "*.*", SearchOption.AllDirectories);\nforeach (string file in files)\n{\n    try\n    {\n        CCVersion ver = cc.get_Version(file);\n        Console.WriteLine(ver.Path);\n    }\n    catch (Exception) { /* the file is not versioned */ }\n}

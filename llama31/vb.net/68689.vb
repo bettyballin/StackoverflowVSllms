@@ -1,0 +1,1 @@
+' Assuming DataGridView1 is your DataGridView control\n' and you have already added a new row to the data source\n\n' Get the index of the new row\nDim newRowIdx As Integer = DataGridView1.Rows.Count - 1\n\n' Set the current cell to the second cell in the new row\nDataGridView1.CurrentCell = DataGridView1.Rows(newRowIdx).Cells(1)\n\n' Focus the DataGridView\nDataGridView1.Focus()

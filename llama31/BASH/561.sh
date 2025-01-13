@@ -1,0 +1,1 @@
+xmlstarlet tr transform.xsl input.xml

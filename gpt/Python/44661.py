@@ -1,1 +1,0 @@
-import polyline\n\n# Example coordinates\ncoordinates = [(38.5, -120.2), (40.7, -120.95), (43.252, -126.453)]\n\n# Encode coordinates to polyline\nencoded_polyline = polyline.encode(coordinates)\nprint(encoded_polyline)\n\n# Decode polyline to coordinates\ndecoded_coordinates = polyline.decode(encoded_polyline)\nprint(decoded_coordinates)

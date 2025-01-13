@@ -1,0 +1,1 @@
+$.validator.addMethod("noSpecialChars", function(value, element) {\n  return !/[^a-zA-Z0-9]/.test(value);\n}, "No special characters allowed!");\n\n$("#myform").validate({\n  rules: {\n    myfield: {\n      noSpecialChars: true\n    }\n  }\n});

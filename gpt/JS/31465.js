@@ -1,1 +1,0 @@
-// popup.document.attachEvent("onselectstart", IEOnSelectStart);\n    // popup.document.attachEvent("oncontextmenu", IEOnContextMenu);

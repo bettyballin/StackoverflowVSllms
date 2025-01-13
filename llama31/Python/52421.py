@@ -1,0 +1,1 @@
+Prs = Products.objects.select_related('PrCompany').filter(PrName__icontains=ss)

@@ -1,1 +1,0 @@
-sudo grep -E "^<username>.*NOPASSWD" /etc/sudoers

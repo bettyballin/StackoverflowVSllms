@@ -1,0 +1,1 @@
+ini_set('sendmail_path', '/usr/sbin/sendmail -t -i -f yourdomain.com');

@@ -1,0 +1,1 @@
+$baseDIR = 'I:\Development\wamp\www\mySite\wp-content\uploads\slgallery';\n$dirToCheck = $baseDIR . DIRECTORY_SEPARATOR . 'f';\n\nif (is_dir($dirToCheck)) {\n    echo 'DIR exists';\n}

@@ -1,1 +1,0 @@
-SqlConnection sqlConnection = new SqlConnection(connectionString);\n    SqlCommand sqlCommand = new SqlCommand(storedProcedureName, sqlConnection);\n    sqlCommand.CommandTimeout = 60; // Set timeout to 60 seconds

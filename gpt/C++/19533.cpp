@@ -1,1 +1,0 @@
-// This function will be implemented in the DLL and exposed for creating Sprite instances\n    extern "C" __declspec(dllexport) base::Sprite* CreateSpriteInstance();

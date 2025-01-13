@@ -1,1 +1,0 @@
-// If storing the path as a string\nstring userDirectoryPath = @"C:\Users\Example";\n\n// If using a DirectoryInfo object\nDirectoryInfo userDirectory = new DirectoryInfo(@"C:\Users\Example");

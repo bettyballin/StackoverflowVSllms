@@ -1,0 +1,1 @@
+$.ajax({\n  type: 'GET',\n  url: '/your-url',\n  dataType: 'json',\n  beforeSend: function() {\n    // Display loading message here\n    $('#loading-message').show();\n  },\n  success: function(data) {\n    // Process your data here\n    // ...\n  },\n  complete: function() {\n    // Hide loading message here\n    $('#loading-message').hide();\n  }\n});

@@ -1,1 +1,0 @@
-string hostName = System.Net.Dns.GetHostName();

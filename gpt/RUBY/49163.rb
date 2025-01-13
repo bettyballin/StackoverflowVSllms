@@ -1,1 +1,0 @@
-# In your RSpec test\ndescribe YourController, type: :controller do\n  it 'assigns the correct value to @variable' do\n    get :your_action # Replace with the relevant action\n\n    expect(assigns(:variable)).to eq('3.15')\n  end\nend

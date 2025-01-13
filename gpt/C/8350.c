@@ -1,1 +1,0 @@
-#if !defined(HEADER_RANDOM_H)\n#define HEADER_RANDOM_H \nvoid foo()\n{\n//something\n}\n#endif

@@ -1,0 +1,1 @@
+// Set a breakpoint in your Silverlight code\nSystem.Diagnostics.Debugger.Break();\n\n// Run your Silverlight application under the debugger\nF5

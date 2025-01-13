@@ -1,0 +1,1 @@
+SELECT \n  B.BookID,\n  B.BookName,\n  STUFF((SELECT ', ' + CONVERT(VARCHAR, BT.TagID)\n         FROM BookTag BT\n         WHERE BT.BookID = B.BookID\n         FOR XML PATH('')), 1, 2, '') AS Tags\nFROM \n  Book B

@@ -1,1 +1,0 @@
-from sqlalchemy import create_engine\n   from sqlalchemy.orm import sessionmaker\n   from myapp.models import Base\n\n   engine = create_engine('sqlite:///:memory:')\n   Base.metadata.create_all(engine)\n   Session = sessionmaker(bind=engine)\n   session = Session()

@@ -1,1 +1,0 @@
-psexec -i -u "nt authority\network service" "C:\path\to\your\console-application.exe"

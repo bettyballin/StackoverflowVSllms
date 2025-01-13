@@ -1,0 +1,1 @@
+IOleClientSite* pClientSite;\nHRESULT hr = GetClientSite(&pClientSite);\nif (SUCCEEDED(hr))\n{\n    bool bIsIE = IsIEContainer(pClientSite);\n    pClientSite->Release();\n    // ...\n}

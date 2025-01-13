@@ -1,1 +1,0 @@
-openssl s_client -connect your.repo.server:443 -showcerts

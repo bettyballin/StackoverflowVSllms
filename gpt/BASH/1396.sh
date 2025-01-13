@@ -1,1 +1,0 @@
-$ssid = "YourSSID"\n$key = "YourPassword"\n\n# Add the wireless network profile\nnetsh wlan add profile filename="C:\Path\To\Your\Profile.xml"\n\n# Connect to the wireless network\nnetsh wlan connect name=$ssid ssid=$ssid key=$key

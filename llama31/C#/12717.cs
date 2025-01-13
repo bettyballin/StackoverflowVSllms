@@ -1,0 +1,1 @@
+try\n{\n    var response = (ResponseBase)serializer.Deserialize(responseStream);\n    // process response\n}\ncatch (XmlException ex)\n{\n    // handle deserialization error\n}\ncatch (Exception ex)\n{\n    // handle other errors\n}

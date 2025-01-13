@@ -1,0 +1,1 @@
+$output = array();\n$return_var = 0;\nexec('ln -s ' . PLUGIN_DIR . '/.htaccess ' . ABSPATH . '/.htaccess', $output, $return_var);\n\nif ($return_var !== 0) {\n    print("Error: ");\n    print_r($output);\n    die("Error executing command");\n}

@@ -1,1 +1,0 @@
-chmod 664 /home/user/public_html/yesno.txt\n   chmod 664 /home/user/public_html/errors.txt

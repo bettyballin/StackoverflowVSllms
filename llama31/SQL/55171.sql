@@ -1,0 +1,1 @@
+CREATE TABLE mytable (\n  id NUMBER PRIMARY KEY,\n  mytext CLOB\n);

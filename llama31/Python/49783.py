@@ -1,0 +1,1 @@
+import numpy as np\n\nx = np.array([[[1, 2], [3, 4]], [[5, 6], [7, 8]]])\nprint(x[..., 0])  # prints [[1, 3], [5, 7]]

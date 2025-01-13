@@ -1,0 +1,1 @@
+var html = $.parseHTML(data);\nalert( $(html).find('#wrapper').html() );

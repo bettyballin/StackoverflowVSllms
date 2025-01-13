@@ -1,0 +1,1 @@
+// Example usage in JSP\n<div id="calendar"></div>\n<script>\n  $(document).ready(function() {\n    $('#calendar').fullCalendar({\n      events: '/my/events' // fetch events from your Java controller\n    });\n  });\n</script>

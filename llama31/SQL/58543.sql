@@ -1,0 +1,1 @@
+RESTORE TABLE oldest_table FROM DISK = 'C:\Backup\oldest_table.bak';

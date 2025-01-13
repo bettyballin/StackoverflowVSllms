@@ -1,0 +1,1 @@
+public static Account GetCurrentAccount(HttpRequest request)\n{\n    return (Account)request.Cache[ACCOUNT];\n}\n\npublic static void SetCurrentAccount(Account obj, HttpResponse response)\n{\n    response.Cache[ACCOUNT] = obj;\n}

@@ -1,0 +1,1 @@
+protected void btnSubmit_Click(object sender, System.EventArgs e)\n{\n    // ...\n    btnSubmit.Style.Add("position", "absolute");\n    btnSubmit.Style.Add("top", "100px"); // adjust the top position\n    btnSubmit.Style.Add("left", "200px"); // adjust the left position\n    // ...\n}

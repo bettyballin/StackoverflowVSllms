@@ -1,1 +1,0 @@
-// Example of JavaScript to show/hide sections\n   document.querySelectorAll('.section-toggle').forEach(button => {\n       button.addEventListener('click', () => {\n           const section = button.nextElementSibling;\n           section.style.display = section.style.display === 'none' ? 'block' : 'none';\n       });\n   });

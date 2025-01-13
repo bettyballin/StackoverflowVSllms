@@ -1,1 +1,0 @@
-CREATE TABLE external_table (\n      id NUMBER,\n      b NUMBER,\n      c NUMBER\n    )\n    ORGANIZATION EXTERNAL (\n      TYPE ORACLE_LOADER\n      DEFAULT DIRECTORY my_dir\n      ACCESS PARAMETERS (\n        RECORDS DELIMITED BY NEWLINE\n        FIELDS TERMINATED BY ';'\n        (id CHAR, b CHAR, c CHAR)\n      )\n      LOCATION ('data.csv')\n    );

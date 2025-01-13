@@ -1,0 +1,1 @@
+if ($_POST['candidate'] == 'other') {\n    $candidate = $_POST['other_text'];\n} else {\n    $candidate = $_POST['candidate'];\n}

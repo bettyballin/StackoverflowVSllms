@@ -1,0 +1,1 @@
+SELECT\n    SUM(\n        CASE\n            WHEN package = 3 THEN 5\n            WHEN package = 4 THEN 10\n            WHEN package = 1 THEN 1\n            ELSE 0 -- Add an ELSE clause if necessary\n        END\n    ) AS total_value\nFROM your_table_name;

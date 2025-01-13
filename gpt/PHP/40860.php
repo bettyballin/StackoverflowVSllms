@@ -1,1 +1,0 @@
-// Example behavioral analysis\n   function isSuspiciousLogin($username, $currentDevice) {\n       $lastDevice = getLastDevice($username);\n       return $currentDevice !== $lastDevice;\n   }

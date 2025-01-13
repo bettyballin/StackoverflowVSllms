@@ -1,1 +1,0 @@
-void Session_End(object sender, EventArgs e)\n{\n    // Code that runs when a session ends. \n    // Note: The Session_End event is raised only when the sessionstate mode\n    // is set to InProc in the Web.config file. If session mode is set to StateServer \n    // or SQLServer, the event is not raised.\n}

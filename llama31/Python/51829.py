@@ -1,0 +1,1 @@
+for _ in range(200):\n    print('four')

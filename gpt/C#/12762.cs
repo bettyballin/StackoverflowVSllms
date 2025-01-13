@@ -1,1 +1,0 @@
-var query = session.CreateQuery("FROM Employee WHERE EmployeeId = :id");\nquery.SetParameter("id", employeeId);\nvar employee = query.UniqueResult<Employee>();

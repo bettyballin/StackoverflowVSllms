@@ -1,0 +1,1 @@
+RecipientSettings settings = new RecipientSettings();\nSmtpMsg.To.Add(settings.Recipients["support"]);

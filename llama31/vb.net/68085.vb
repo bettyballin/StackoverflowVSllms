@@ -1,0 +1,1 @@
+[mstr.page.vb]\nSession("ConnString") = "RetrievedConnectionString"\nDataAccess.ConnectionString = Session("ConnString")

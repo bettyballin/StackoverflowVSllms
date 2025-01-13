@@ -1,0 +1,1 @@
+var ajaxCount = 0;\n\nfunction processRow(rowNum) {\n  // ...\n  ajaxCount++;\n  $.ajax({\n    // ...\n    success: function(html) {\n      // ...\n      ajaxCount--;\n      if (ajaxCount === 0) {\n        // All AJAX calls are complete, enable/disable the submit button\n        $("input[type='submit']").prop("disabled", false);\n      }\n    }\n  });\n}

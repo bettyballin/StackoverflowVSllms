@@ -1,0 +1,1 @@
+# Generate a test key pair using GnuPG\ngpg --gen-key\n\n# Export the public key\ngpg --export --armor your_email@example.com > public_key.asc\n\n# Encrypt a file using McAfee eBusiness Server\n# (follow McAfee's documentation for this step)\n\n# Try to decrypt the file using GnuPG\ngpg --decrypt encrypted_file.pgp

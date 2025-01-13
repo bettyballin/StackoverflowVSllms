@@ -1,0 +1,1 @@
+SELECT *\nFROM (\n  SELECT customer_id, category, quantity\n  FROM orders\n)\nPIVOT (\n  SUM(quantity)\n  FOR category IN (SELECT DISTINCT category FROM orders)\n);

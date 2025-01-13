@@ -1,1 +1,0 @@
-public class MyDbContext : DbContext\n{\n    public DbSet<Person> Persons { get; set; }\n}

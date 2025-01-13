@@ -1,0 +1,1 @@
+string explorerPath = Path.Combine(Environment.SystemDirectory, "explorer.exe");

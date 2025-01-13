@@ -1,0 +1,1 @@
+ln -s /path/to/utility/scripts /path/to/application/lib

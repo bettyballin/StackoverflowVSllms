@@ -1,0 +1,1 @@
+public static void RegisterRoutes(RouteCollection routes)\n{\n    routes.MapRoute(\n        "Default", // Route name\n        "{controller}.mvc/{action}/{id}", // URL with parameters\n        new { controller = "Home", action = "Index", id = "" } // Parameter defaults\n    );\n}

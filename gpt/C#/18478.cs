@@ -1,1 +1,0 @@
-// HostView.cs\npublic abstract class HostView\n{\n    public abstract string GetName();\n}

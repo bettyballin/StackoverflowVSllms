@@ -1,0 +1,1 @@
+typedef enum {\n    BAR,\n    BAZ\n} Foo;\n\nFoo testFunc() {\n    return BAR;\n}

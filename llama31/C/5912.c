@@ -1,0 +1,1 @@
+#pragma GCC diagnostic push\n#pragma GCC diagnostic ignored "-Wdeprecated-declarations"\n// your code using mktemp() here\n#pragma GCC diagnostic pop

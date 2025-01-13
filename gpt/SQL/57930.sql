@@ -1,1 +1,0 @@
-CREATE TABLE schema_migrations (\n        version VARCHAR(255) PRIMARY KEY,\n        applied_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP\n    );

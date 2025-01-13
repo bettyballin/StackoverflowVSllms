@@ -1,0 +1,1 @@
+# config/routes.rb\nnamespace :api do\n  # API routes go here\nend

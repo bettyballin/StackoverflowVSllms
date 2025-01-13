@@ -1,1 +1,0 @@
-# Original string with latin-1 encoding\noriginal_string = 'add \x93Monitoring\x93 to list '\n\n# Decode the string from 'latin-1'\ndecoded_string = original_string.encode('latin-1').decode('latin-1', 'ignore')\n\n# Encode the string back to 'latin-1' while ignoring errors\nresult = decoded_string.encode('latin-1', 'ignore')\n\nprint(result)

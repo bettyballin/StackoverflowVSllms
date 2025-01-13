@@ -1,1 +1,0 @@
-void func(const Class *myClass) {\n       // *myClass is const, so:\n       // myClass->someMemberVariable = newValue; // Error: cannot modify\n       myClass = someOtherClassPointer; // OK: can change the pointer itself\n   }

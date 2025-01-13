@@ -1,1 +1,0 @@
-$route['rss'] = 'rss';

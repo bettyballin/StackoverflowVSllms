@@ -1,0 +1,1 @@
+function is_request_from_same_host() {\n    $server_ip = gethostbyname($_SERVER['SERVER_NAME']);\n    $client_ip = $_SERVER['REMOTE_ADDR'];\n    return $server_ip === $client_ip;\n}\n\nif (is_request_from_same_host()) {\n    echo "Request is from the same host.";\n} else {\n    echo "Request is not from the same host.";\n}

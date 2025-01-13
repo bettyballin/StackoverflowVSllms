@@ -1,0 +1,1 @@
+chmod($uploadedFile, 0660);

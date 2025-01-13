@@ -1,0 +1,1 @@
+$con = new mysqli($host, $username, $password, $database);\n$sql = "CREATE TABLE qotwQuestion1111 (\n  QuestionId int PRIMARY KEY AUTO_INCREMENT,\n  Question varchar(5000),\n  MemberId varchar(255),\n  PostDate date,\n  Vote int,\n  FOREIGN KEY (MemberId) REFERENCES qotwMember(MemberId)\n)";\n$con->query($sql);

@@ -1,1 +1,0 @@
-rsconfig -e -m <machine-name> -s <instance-name>

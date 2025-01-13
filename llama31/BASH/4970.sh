@@ -1,0 +1,1 @@
+gcc -Wshadow your_file.cpp

@@ -1,0 +1,1 @@
+g++43 -O2 -static-libstdc++ your_source_file.cpp -o your_executable

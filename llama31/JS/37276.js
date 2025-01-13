@@ -1,0 +1,1 @@
+// In your JavaScript file\n$(document).ready(function() {\n  var slides = $('#slideshow .slide');\n  var currentSlide = 0;\n\n  setInterval(function() {\n    slides.eq(currentSlide).hide();\n    currentSlide = (currentSlide + 1) % slides.length;\n    slides.eq(currentSlide).show();\n  }, 3000); // Change the slide every 3 seconds\n});

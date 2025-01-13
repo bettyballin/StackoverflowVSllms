@@ -1,1 +1,0 @@
-CREATE TABLE FactTable (\n    ID INT PRIMARY KEY,\n    Date DATE,\n    OccupancyStatus VARCHAR(10) -- 'occupied' or 'vacant'\n);

@@ -1,0 +1,1 @@
+SqlDatabase db = new SqlDatabase(connectionManager.SqlConnection.ConnectionString);\nusing (SqlCommand cmd = db.GetSqlStringCommand(Enum.GetName(typeof(StoredProcs), storedProc)))\n{\n    cmd.Parameters.AddRange(parameterValues);\n    cmd.CommandTimeout = 180; // Set timeout to 3 minutes\n\n    return db.ExecuteScalar(cmd);\n}

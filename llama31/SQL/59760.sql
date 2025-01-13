@@ -1,0 +1,1 @@
+SELECT \n  'listings' AS source_table,\n  id,\n  title,\n  created_at\nFROM listings\n\nUNION ALL\n\nSELECT \n  'photos' AS source_table,\n  id,\n  caption,\n  created_at\nFROM photos\n\nUNION ALL\n\nSELECT \n  'comments' AS source_table,\n  id,\n  text,\n  created_at\nFROM comments\n\nORDER BY created_at DESC;

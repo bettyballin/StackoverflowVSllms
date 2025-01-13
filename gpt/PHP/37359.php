@@ -1,1 +1,0 @@
-$soapClients = &APIlityClients::getClients();

@@ -1,1 +1,0 @@
-#include <stdio.h>\n#include <stdlib.h>\n#include <sql.h>\n#include <sqlext.h>

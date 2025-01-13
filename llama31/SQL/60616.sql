@@ -1,0 +1,1 @@
+SELECT mid, AVG(rating) as avg_rating\nFROM ratings\nGROUP BY mid\nORDER BY avg_rating DESC\nLIMIT 5;

@@ -1,1 +1,0 @@
-using System.Data.SqlServerCe;\n\n   string connString = "Data Source=MyDatabase.sdf;";\n   using (SqlCeConnection conn = new SqlCeConnection(connString))\n   {\n       conn.Open();\n       // Perform database operations\n   }

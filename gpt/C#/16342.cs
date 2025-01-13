@@ -1,1 +1,0 @@
-public class Startup\n{\n    public void ConfigureServices(IServiceCollection services)\n    {\n        services.AddSingleton<IDatabaseConfig, DatabaseConfig>();\n        services.AddSingleton<ILoggingConfig, LoggingConfig>();\n        // Register other services\n    }\n}

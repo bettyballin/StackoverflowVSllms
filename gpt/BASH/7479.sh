@@ -1,1 +1,0 @@
-git init my_project\n    cd my_project\n    git add .\n    git commit -m "Initial commit"

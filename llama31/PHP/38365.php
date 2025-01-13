@@ -1,0 +1,1 @@
+$image = imagecreatefromjpeg($filePath);\n$thumbWidth = 100;\n$thumbHeight = 100;\n$thumb = imagecreatetruecolor($thumbWidth, $thumbHeight);\nimagecopyresampled($thumb, $image, 0, 0, 0, 0, $thumbWidth, $thumbHeight, imagesx($image), imagesy($image));\nimagejpeg($thumb, $thumbPath);

@@ -1,0 +1,1 @@
+function showDialog(linkText) {\n  // ...\n}

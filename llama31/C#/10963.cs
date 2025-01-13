@@ -1,0 +1,1 @@
+var list = new List<int> { 1, 2, 3 };\nvar wrapper = new EnumerableWrapper<int>(list);\n\n// ...\n\nif (wrapper.IsEnumerating)\n{\n    Console.WriteLine("List is being iterated over");\n}

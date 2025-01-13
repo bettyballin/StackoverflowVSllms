@@ -1,1 +1,0 @@
-export DYLD_LIBRARY_PATH=/path/to/instantclient:$DYLD_LIBRARY_PATH

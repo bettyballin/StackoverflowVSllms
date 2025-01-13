@@ -1,0 +1,1 @@
+fsutil.exe file setzerodata offset=0 <filename>

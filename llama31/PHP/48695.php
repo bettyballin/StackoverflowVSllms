@@ -1,0 +1,1 @@
+function my_next($iterator) {\n    return $iterator->next();\n}\n\nfunction my_reset($iterator) {\n    return $iterator->rewind();\n}\n\nfunction my_current($iterator) {\n    return $iterator->current();\n}\n\nfunction my_key($iterator) {\n    return $iterator->key();\n}

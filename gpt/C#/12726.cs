@@ -1,1 +1,0 @@
-protected void Page_Load(object sender, EventArgs e)\n{\n    if (!IsPostBack)\n    {\n        AddCustomRowToTable();\n    }\n}\n\nprivate void AddCustomRowToTable()\n{\n    MyControl row = (MyControl)LoadControl("~/controls/MyControl.ascx");\n    MyTable.Rows.Add(row);\n}

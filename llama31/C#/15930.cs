@@ -1,0 +1,1 @@
+using System;\nusing System.Net;\n\nclass ProxyChanger\n{\n    public static void SetProxy(string proxyAddress, int port)\n    {\n        WebProxy proxy = new WebProxy(proxyAddress, port);\n        WebRequest.DefaultWebProxy = proxy;\n    }\n}

@@ -1,1 +1,0 @@
-objcopy --only-keep-debug my_program my_program.debug

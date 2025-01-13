@@ -1,0 +1,1 @@
+public class User\n{\n    [Required(ErrorMessage = "Name is required")]\n    public string Name { get; set; }\n\n    [StringLength(100, ErrorMessage = "Email must be 100 characters or less")]\n    public string Email { get; set; }\n\n    [Range(18, 100, ErrorMessage = "Age must be between 18 and 100")]\n    public int Age { get; set; }\n}

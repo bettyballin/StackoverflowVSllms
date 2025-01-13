@@ -1,0 +1,1 @@
+<PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">\n  <DebugSymbols>true</DebugSymbols>\n  <DebugType>full</DebugType>\n  <Optimize>false</Optimize>\n  <OutputPath>bin\Debug\</OutputPath>\n  <DefineConstants>DEBUG;TRACE</DefineConstants>\n  <ErrorReport>prompt</ErrorReport>\n  <WarningLevel>4</WarningLevel>\n</PropertyGroup>

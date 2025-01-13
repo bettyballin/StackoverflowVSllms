@@ -1,0 +1,1 @@
+MsiOpenDatabase("c:\\foo\\bar.msi", MSIDBOPEN_TRANSACT);

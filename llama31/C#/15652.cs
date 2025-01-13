@@ -1,0 +1,1 @@
+IEnumerable<T> items = new T[] { new T("msg") };\nvar list = items.ToList();\nlist.Add(new T("msg2"));\nitems = list;

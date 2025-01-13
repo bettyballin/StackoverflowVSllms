@@ -1,0 +1,1 @@
+from django.contrib import messages\n\nmessages.info(request, "message to user")

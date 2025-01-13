@@ -1,0 +1,1 @@
+#!/bin/bash\n\n# Load the TAP library\n. tap.sh\n\n# Plan the tests\nplan 3\n\n# Test 1\nok "true" "True is true"\n\n# Test 2\nok "false" "False is false" || echo "Expected failure"\n\n# Test 3\nis "hello" "hello" "Hello is hello"\n\n# Output the TAP results\ndone_testing

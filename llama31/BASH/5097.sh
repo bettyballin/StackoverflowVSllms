@@ -1,0 +1,1 @@
+icacls.exe "C:" /grant:r "YourUsername":S

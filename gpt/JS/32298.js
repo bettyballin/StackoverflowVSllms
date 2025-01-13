@@ -1,1 +1,0 @@
-(function($) {\n    $.fn.identify = function(prefix) {\n        return this.each(function(index) {\n            $(this).attr('id', prefix + '_' + (index + 1));\n        });\n    };\n})(jQuery);\n\n// Usage\n$('#foo span').identify('prefix');

@@ -1,1 +1,0 @@
-crontab -e\n# Add the following line to schedule a daily backup at 2 AM\n0 2 * * * /usr/bin/rsnapshot daily

@@ -1,1 +1,0 @@
-WITH OrderedData AS (\n    SELECT \n        *,\n        ROW_NUMBER() OVER (ORDER BY your_timestamp_column) AS row_num\n    FROM \n        your_table\n)\nSELECT \n    *\nFROM \n    OrderedData\nWHERE \n    row_num % 5 = 0;

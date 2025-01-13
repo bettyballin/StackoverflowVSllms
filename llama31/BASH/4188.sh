@@ -1,0 +1,1 @@
+dos2unix your_script.sql

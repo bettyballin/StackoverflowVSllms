@@ -1,1 +1,0 @@
-CREATE TABLE ipv6_addresses (\n    id INT AUTO_INCREMENT PRIMARY KEY,\n    ipv6_address DECIMAL(39,0) NOT NULL\n);

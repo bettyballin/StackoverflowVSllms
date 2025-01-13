@@ -1,0 +1,1 @@
+while (true) {\n    $now = new DateTime();\n    if ($now->format('i') === '00') { // run every hour\n        itstime();\n    }\n    sleep(60); // wait for 1 minute\n}

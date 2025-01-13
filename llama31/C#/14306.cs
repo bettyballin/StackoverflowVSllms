@@ -1,0 +1,1 @@
+public class MyLibrary\n{\n    public void UseSkype()\n    {\n        // Create an instance of the Skype class\n        object skype = skypeAssembly.GetType("Skype4COM.SkypeClass").CreateInstance();\n\n        // Use the Skype object\n        skype.GetType().GetMethod("Connect").Invoke(skype, null);\n    }\n}

@@ -1,0 +1,1 @@
+// Create a new node type\n$node_type = new stdClass();\n$node_type->name = 'group_user';\n$node_type->base = 'node_content';\nnode_type_save($node_type);

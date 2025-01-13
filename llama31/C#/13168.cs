@@ -1,0 +1,1 @@
+ICriteria criteria = session.CreateCriteria(typeof(MyClass));\ncriteria.SetMaxResults(15);\nvar results = criteria.List<MyClass>();

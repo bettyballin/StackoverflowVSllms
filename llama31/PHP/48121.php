@@ -1,0 +1,1 @@
+public function setUp()\n{\n    Doctrine_Manager::connection('mysql://user:pass@localhost/testdb');\n    $this->entityManager = Doctrine::getEntityManager();\n    $this->entityManager->beginTransaction();\n}\n\npublic function tearDown()\n{\n    $this->entityManager->rollback();\n}

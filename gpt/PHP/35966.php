@@ -1,1 +1,0 @@
-define('EMPTY_STRING', '');\n\n// Usage\n$blankVar = EMPTY_STRING;

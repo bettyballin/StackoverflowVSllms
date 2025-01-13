@@ -1,0 +1,1 @@
+sudo chown root:root ttyUSB_wrapper.py\nsudo chmod 755 ttyUSB_wrapper.py

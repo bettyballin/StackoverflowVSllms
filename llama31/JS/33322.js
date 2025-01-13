@@ -1,0 +1,1 @@
+// jQuery code on the client-side\n$.ajax({\n    url: '<s:url action="MyAction"/>',\n    data: 'param1=value1&param2=value2',\n    success: function(data) {\n        // Update UI with received JSON data\n    }\n});

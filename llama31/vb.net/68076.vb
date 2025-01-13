@@ -1,0 +1,1 @@
+Dim regex\nSet regex = New RegExp\nregex.Pattern = ",(?=(?:[^""]|""[^""]*"")*$)"\nregex.Global = True\n\nDim line\nline = inputFile.ReadLine\nDim parts\nparts = regex.Split(line)

@@ -1,1 +1,0 @@
-USE myDatabase;\n   GO\n   CREATE LOGIN myAppUser WITH PASSWORD = 'yourStrong(!)Password';\n   GO\n   CREATE USER myAppUser FOR LOGIN myAppUser;\n   GO\n   ALTER ROLE db_owner ADD MEMBER myAppUser;\n   GO

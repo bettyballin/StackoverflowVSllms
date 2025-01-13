@@ -1,0 +1,1 @@
+private void updateRecord(TableName updatedRecord)\n{\n    using (context db = new context())\n    {\n        TableName originalRecord = db.TableName.Single(r => r.PrimaryKey == updatedRecord.PrimaryKey);\n        updatedRecord.TimeStamp = originalRecord.TimeStamp;\n        db.TableName.Attach(updatedRecord, true);\n        db.SubmitChanges();\n    }\n}

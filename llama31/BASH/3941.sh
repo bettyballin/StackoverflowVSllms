@@ -1,0 +1,1 @@
+# Install Grav\ncomposer create-project getgrav/grav myblog\n\n# Configure FTP/SFTP deployment\nbin/grav ftp://example.com user pass

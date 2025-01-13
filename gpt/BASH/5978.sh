@@ -1,1 +1,0 @@
-cd /opt/ruby-enterprise-1.8.6-20090421/lib/ruby/gems/1.8/gems/actionmailer-2.3.2\nwget https://rails.lighthouseapp.com/attachments/108548/0001-Fix-implicit-multipart-mailer-views-when-RAILS_ROOT.patch -O actionmailer_patch.patch\npatch -p1 < actionmailer_patch.patch

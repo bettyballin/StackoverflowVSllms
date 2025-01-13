@@ -1,1 +1,0 @@
-try\n   {\n       // Code that may throw exceptions\n   }\n   catch (Exception ex)\n   {\n       // Log the exception\n       LogException(ex);\n       // Display a generic error message to the user\n       MessageBox.Show("An error occurred. Please try again later.");\n   }

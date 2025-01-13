@@ -1,0 +1,1 @@
+#checkbox-tree ul {\n  list-style: none;\n  margin: 0;\n  padding: 0;\n}\n\n#checkbox-tree li {\n  margin-left: 20px;\n}\n\n#checkbox-tree input[type="checkbox"] {\n  margin-right: 5px;\n}\n\n#checkbox-tree label {\n  cursor: pointer;\n}\n\n#checkbox-tree ul ul {\n  display: none;\n}\n\n#checkbox-tree input[type="checkbox"]:checked + label + ul {\n  display: block;\n}

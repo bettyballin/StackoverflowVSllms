@@ -1,1 +1,0 @@
-public static IEnumerator<string> strings(IEnumerable<string> args)\n{\n    return new StringsEnumerator(args);\n}

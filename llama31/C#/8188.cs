@@ -1,0 +1,1 @@
+const string htmlLine(string s)\n{\n    s += "<br />";\n    return s;\n}

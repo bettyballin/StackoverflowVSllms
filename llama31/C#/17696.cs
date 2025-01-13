@@ -1,0 +1,1 @@
+byte[] imageData = File.ReadAllBytes("image.jpg");\nbyte[] audioData = File.ReadAllBytes("audio.wav");\nbyte[] textData = Encoding.UTF8.GetBytes("example text");

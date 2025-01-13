@@ -1,1 +1,0 @@
-CREATE TABLE PhoneNumbers (\n    phone_number VARCHAR(40)\n);

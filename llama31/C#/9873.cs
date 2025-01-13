@@ -1,0 +1,1 @@
+string connectionString = "Server=myServerAddress;Database=myDataBase;User Id=myUsername;Password=myPassword;";\nDataSet dataSet = DatabaseHelper.GetAllDataFromDatabase(connectionString);

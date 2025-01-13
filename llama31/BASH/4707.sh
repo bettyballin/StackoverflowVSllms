@@ -1,0 +1,1 @@
+etstat -an | findstr <port_number>

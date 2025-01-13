@@ -1,1 +1,0 @@
-foreach ($organizedData as $location) {\n    echo "Location ID: " . $location['locationid'] . "\n";\n    foreach ($location['sessions'] as $session) {\n        echo "\tSession ID: " . $session['sessionid'] . "\n";\n        foreach ($session['dates'] as $date) {\n            echo "\t\tDate: " . $date . "\n";\n        }\n    }\n}

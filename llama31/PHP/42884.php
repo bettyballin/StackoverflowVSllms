@@ -1,0 +1,1 @@
+class Foo {\n    function doFoo() {\n        include 'Foo2.php';\n        // use variables from Foo2\n    }\n}

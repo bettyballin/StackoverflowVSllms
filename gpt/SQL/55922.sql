@@ -1,1 +1,0 @@
-SELECT DISTINCT i.id, i.created_at\nFROM imports i\nJOIN albums a ON i.id = a.import_id\nJOIN (\n    SELECT album_id\n    FROM songs\n    GROUP BY album_id\n    HAVING COUNT(id) = 1\n) s ON a.id = s.album_id;

@@ -1,0 +1,1 @@
+public static decimal RoundToIncrement(decimal originalNumber, decimal increment)\n{\n    return Math.Ceiling(originalNumber / increment) * increment;\n}

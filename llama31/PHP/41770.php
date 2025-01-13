@@ -1,0 +1,1 @@
+$reader = new XMLReader();\n$reader->open('yourfile.xml');\n\nwhile ($reader->read()) {\n    if ($reader->nodeType == XMLReader::COMMENT) {\n        echo $reader->value . "\n";\n    }\n}

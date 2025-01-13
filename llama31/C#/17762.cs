@@ -1,0 +1,1 @@
+string pemPath = "path/to/your/pem/file.pem";\nRSACryptoServiceProvider rsa = PemReader.ReadPrivateKey(pemPath);\n// Use the rsa object to decrypt data

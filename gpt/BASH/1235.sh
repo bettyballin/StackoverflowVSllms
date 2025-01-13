@@ -1,1 +1,0 @@
-o Execute with "Shell"\n    o Command line: "D:\Program Files\TortoiseHg\hg.exe" commit @Name@ --cwd @Path@\n    o Check off "Show this command in File Bar popup" (optional)\n    o Shortcut: CTL-SHIFT-M (or anything you like)\n    o Check off Redirect Error stream to Log Window and Redirect Output to Window

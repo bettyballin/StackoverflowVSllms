@@ -1,0 +1,1 @@
+# Set the SSH executable path in TortoiseCVS\nssh.exe -i /path/to/your/private/key user@new-repository-ip

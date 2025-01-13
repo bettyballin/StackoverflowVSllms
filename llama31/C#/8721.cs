@@ -1,0 +1,1 @@
+Response.Cache.SetCacheability(HttpCacheability.NoCache);\nResponse.Cache.SetNoStore();\nResponse.AppendHeader("Pragma", "no-cache");

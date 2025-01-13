@@ -1,0 +1,1 @@
+public async Task<string> SendRequestAsync(int timeoutMilliseconds)\n{\n    var cts = new CancellationTokenSource(timeoutMilliseconds);\n    var backgroundTask = Task.Run(() =>\n    {\n        // ...\n    }, cts.Token);\n\n    try\n    {\n        return await _completionSource.Task;\n    }\n    catch (OperationCanceledException)\n    {\n        // Handle timeout\n    }\n}

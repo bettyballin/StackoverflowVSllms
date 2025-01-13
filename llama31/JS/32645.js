@@ -1,0 +1,1 @@
+$.post("changeEntry.php", {post: $(this).val()}, function(data) {\n    $("textarea").val(data);\n    alert('done');\n}, "text");

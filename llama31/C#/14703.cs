@@ -1,0 +1,1 @@
+using Cryptography;\n\n// Example usage:\nPgp pgp = new Pgp();\nPgpPublicKey publicKey = pgp.GetPublicKey();

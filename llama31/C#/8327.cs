@@ -1,0 +1,1 @@
+string currentUserName = HttpContext.Current.User.Identity.Name;

@@ -1,1 +1,0 @@
-SELECT\n       o.object_name,\n       o.object_type,\n       l.session_id,\n       l.locked_mode\n   FROM\n       v$locked_object l,\n       dba_objects o\n   WHERE\n       l.object_id = o.object_id;

@@ -1,1 +1,0 @@
-<ItemGroup>\n     <None Update="path\to\native.dll">\n       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>\n     </None>\n   </ItemGroup>

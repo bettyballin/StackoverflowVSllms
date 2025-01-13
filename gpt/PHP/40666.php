@@ -1,1 +1,0 @@
-if (isset($bigArr['pageContent'])) {\n    echo $bigArr['pageContent'];\n} else {\n    echo 'pageContent key does not exist';\n}

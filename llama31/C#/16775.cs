@@ -1,0 +1,1 @@
+using System;\nusing System.Net.NetworkInformation;\n\nclass WifiScanner {\n    public static void Main(string[] args) {\n        WlanClient wlan = new WlanClient();\n        foreach (WlanInterface iface in wlan.Interfaces) {\n            Console.WriteLine(iface.CurrentConnection.profileName);\n        }\n    }\n}

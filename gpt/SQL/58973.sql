@@ -1,1 +1,0 @@
-ALTER TABLE YourTableName\nADD Version INT NOT NULL DEFAULT 1;

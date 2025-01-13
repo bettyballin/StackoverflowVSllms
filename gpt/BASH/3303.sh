@@ -1,1 +1,0 @@
-sn -k keypair.snk\n    al /out:YourAssembly.dll /keyfile:keypair.snk

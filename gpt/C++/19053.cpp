@@ -1,1 +1,0 @@
-#using <mscorlib.dll>\n#include "windows.h"\n\nextern "C" __declspec(dllexport) void __stdcall sayHello()\n{\n    OutputDebugStringA("Hello from managed code!");\n}

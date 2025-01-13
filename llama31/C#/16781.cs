@@ -1,0 +1,1 @@
+string xpath = $"//*[contains(concat(' ', @class, ' '), ' {className} ')]";

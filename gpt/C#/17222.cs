@@ -1,1 +1,0 @@
-flowLayoutPanel1.Resize += new EventHandler(FlowLayoutPanel_Resize);

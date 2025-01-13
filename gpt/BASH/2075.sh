@@ -1,1 +1,0 @@
-git init\n    git add schema.sql\n    git commit -m "Initial schema setup"

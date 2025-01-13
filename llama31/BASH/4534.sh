@@ -1,0 +1,1 @@
+gcov -b -c -f source_file.cpp | grep "Lines executed"

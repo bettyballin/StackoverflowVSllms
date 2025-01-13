@@ -1,0 +1,1 @@
+echo "<a href='http://".str_replace('http://', '', $sbrow_off["sb_website"])."' target='_blank'>".$sbrow_off["sb_website"]."</a>";

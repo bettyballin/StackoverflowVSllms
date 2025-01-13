@@ -1,0 +1,1 @@
+dd if=/dev/fd0 of=floppy_image.img

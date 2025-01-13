@@ -1,0 +1,1 @@
+$value = filter_var($input, FILTER_VALIDATE_INT);\nif ($value === false) {\n    // handle invalid input\n}

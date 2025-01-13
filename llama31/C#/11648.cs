@@ -1,0 +1,1 @@
+bindingSource1.EndEdit();\nmyDataSet.AcceptChanges();\nmyDataTable.AcceptChanges();

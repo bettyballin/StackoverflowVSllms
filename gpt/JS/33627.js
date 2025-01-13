@@ -1,1 +1,0 @@
-document.querySelectorAll('.reorder-list-item').forEach(function(item, index) {\n    item.id = 'reorder-list-item-' + index;\n});

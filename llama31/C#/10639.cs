@@ -1,0 +1,1 @@
+void Application_Disposed(object sender, EventArgs e)\n{\n    // Handle recycle event\n}

@@ -1,0 +1,1 @@
+icacls yourfile.exe /setowner yourusername\nicacls yourfile.exe /reset\nicacls yourfile.exe /setowner "NT AUTHORITY\SYSTEM"\nicacls yourfile.exe /zone.Identifier=3

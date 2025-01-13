@@ -1,1 +1,0 @@
-<sitemesh>\n       <mapping>\n           <content-type>text/html</content-type>\n           <decorator>layout-main</decorator>\n       </mapping>\n   </sitemesh>

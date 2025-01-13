@@ -1,1 +1,0 @@
-DECLARE @SQL1 NVARCHAR(MAX);\nSET @SQL1 = N'SELECT * INTO #temp FROM YourTable WHERE ...';\n\n-- Execute the dynamic SQL\nEXEC sp_executesql @SQL1;\n\n-- Now you can access the temporary table #temp\nSELECT * FROM #temp;

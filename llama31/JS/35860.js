@@ -1,0 +1,1 @@
+const express = require('express');\nconst handlebars = require('express-handlebars');\n\nconst app = express();\n\napp.engine('handlebars', handlebars());\napp.set('view engine', 'handlebars');\n\napp.get('/ajax-response', (req, res) => {\n  const data = { name: 'John Doe' };\n  res.render('ajax-response-template', data);\n});

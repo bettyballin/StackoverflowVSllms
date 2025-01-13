@@ -1,0 +1,1 @@
+SELECT startTime, endTime,\n       cast(ABS(datediff(hh,starttime,endtime)) as varchar)\n       +':'+\n       cast(ABS(datediff(mi,starttime,endtime)-60*datediff(hh,starttime,endtime)) as varchar) AS RUNTIME\nFROM applog\nWHERE runID = 33871\nORDER BY startTime DESC

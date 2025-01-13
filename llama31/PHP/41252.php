@@ -1,0 +1,1 @@
+$to = "jijodasgupta@gmail.com";\n$subject = "Hi!";\n$body = "Hi,\n\nHow are you?";\n$headers = "From: your_email@example.com\r\n"; // replace with your email address\n\nif (mail($to, $subject, $body, $headers)) {\n  echo("pMessage successfully sent!/p");\n} else {\n  echo("pMessage delivery failed.../p");\n}

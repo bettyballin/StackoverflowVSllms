@@ -1,1 +1,0 @@
-public TypeEnum GetTypeEnum(int typeId)\n{\n    switch (typeId)\n    {\n        case 1: return TypeEnum.Type1;\n        case 2: return TypeEnum.Type2;\n        case 3: return TypeEnum.Type3;\n        // Add other cases as required\n        default: throw new ArgumentOutOfRangeException("Invalid type ID");\n    }\n}

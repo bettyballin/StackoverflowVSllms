@@ -1,1 +1,0 @@
-Doctrine_Manager::getInstance()->getCurrentConnection()->clear();

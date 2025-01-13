@@ -1,0 +1,1 @@
+openssl rsa -inform MS\ PRIVATEKEYBLOB -in your_key.snk -outform PEM -out your_key.pem

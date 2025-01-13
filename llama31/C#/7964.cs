@@ -1,0 +1,1 @@
+bool exitLoop = false;\nfor (int i = 0; i < maxi; ++i) {\n    for (int j = 0; j < maxj; ++j) {\n        if (i == 4 && j == 3) {\n            exitLoop = true;\n            break;\n        }\n    }\n    if (exitLoop) break;\n}

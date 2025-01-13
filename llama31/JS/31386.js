@@ -1,0 +1,1 @@
+// JavaScript code to retrieve JSON data and render it\n$.ajax({\n    type: "GET",\n    url: "/data",\n    dataType: "json",\n    success: function(data) {\n        // Render data using HTML and CSS\n        $("#name").text(data.name);\n        $("#age").text(data.age);\n    }\n});

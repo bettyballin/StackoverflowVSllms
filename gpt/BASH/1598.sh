@@ -1,1 +1,0 @@
-g++43 -O2 -L/usr/lib/gcc/i386-redhat-linux6E/4.3.2 -lstdc++_nonshared -o myapp myapp.cpp

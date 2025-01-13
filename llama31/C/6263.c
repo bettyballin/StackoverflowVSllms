@@ -1,0 +1,1 @@
+#include <unistd.h>\n\nbool isValidPointer(void* ptr) {\n    return access(ptr, F_OK) == 0;\n}

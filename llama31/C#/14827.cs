@@ -1,0 +1,1 @@
+httpResponse.ContentType = "application/vnd.ms-excel";\nhttpResponse.AppendHeader("Content-Disposition", "attachment; filename=\"yourfile.xls\"");

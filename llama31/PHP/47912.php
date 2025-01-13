@@ -1,0 +1,1 @@
+if (!User::exists($userId)) {\n    echo 'Deleted User';\n} else {\n    echo $user->getUsername();\n}

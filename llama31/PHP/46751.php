@@ -1,0 +1,1 @@
+$val = $matches[1][$i];\nif (!is_array($matches[1])) {\n    var_dump($matches); // inspect the structure of $matches\n    exit;\n}

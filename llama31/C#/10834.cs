@@ -1,0 +1,1 @@
+string filePath = @"C:\path\to\xhtml11.dtd";\nUri localDtdUri = new Uri("file://" + Path.GetFullPath(filePath));

@@ -1,0 +1,1 @@
+for (int i = 0; i < HEIGHT; i++) {\n    for (int j = 0; j < WIDTH; j++) {\n        std::cout << grid[i][j];\n    }\n    std::cout << std::endl;\n}

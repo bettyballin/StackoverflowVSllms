@@ -1,0 +1,1 @@
+if (ftp_rename($conn_id, $old_file, $new_file)) {\n    echo "successfully renamed $old_file to $new_file\n";\n} else {\n    $error_message = ftp_last_error($conn_id);\n    echo "There was a problem while renaming $old_file to $new_file: \nthe server says $error_message\n";\n}

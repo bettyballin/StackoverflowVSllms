@@ -1,0 +1,1 @@
+using System.IO;\n\nif (Console.OpenStandardInput().CanRead)\n{\n    // Prompt for input\n}\nelse\n{\n    // Don't prompt for input\n}

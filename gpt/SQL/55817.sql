@@ -1,1 +1,0 @@
-SELECT \n    field_name,\n    CONVERT(VARCHAR(MAX), field_name, 2) AS HexadecimalData\nFROM \n    table_name;

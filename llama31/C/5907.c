@@ -1,0 +1,1 @@
+int main() {\n    int pid = find_pid_by_name("your_process_name");\n    if (pid != -1) {\n        kill(pid, SIGTERM);\n    } else {\n        printf("Process not found\n");\n    }\n    return 0;\n}

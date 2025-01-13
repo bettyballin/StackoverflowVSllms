@@ -1,0 +1,1 @@
+If Me.Controls.OfType(Of TextBox)().Any(Function(tb) tb.Text = "" OrElse tb.Modified = False) Then\n    ' At least one textbox is empty or has not been modified\nEnd If

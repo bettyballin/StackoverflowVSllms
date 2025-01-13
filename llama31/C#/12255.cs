@@ -1,0 +1,1 @@
+// LocalizationResources.dll\nnamespace LocalizationResources\n{\n    public class Resources\n    {\n        public static string GetResource(string resourceName)\n        {\n            // Implement logic to retrieve resource value\n        }\n    }\n}

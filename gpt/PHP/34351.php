@@ -1,1 +1,0 @@
-session_start();\n\nif (!isset($_SESSION['loggedin']) || $_SESSION['loggedin'] !== '1234') {\n    header("Location: /index.php?l=no");\n    exit();\n}

@@ -1,0 +1,1 @@
+config.action_controller.session_store = :cookie_store

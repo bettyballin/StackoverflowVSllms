@@ -1,1 +1,0 @@
-[Test]\n   public void TestPrivateMethod()\n   {\n       var instance = new YourClass();\n       var methodInfo = typeof(YourClass).GetMethod("YourPrivateMethod", BindingFlags.NonPublic | BindingFlags.Instance);\n       var result = methodInfo.Invoke(instance, new object[] { /* parameters */ });\n\n       Assert.AreEqual(expectedResult, result);\n   }

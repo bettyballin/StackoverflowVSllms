@@ -1,0 +1,1 @@
+using Hangfire;\n\n// Create a new job\nBackgroundJob.Enqueue(() => SendEmailsFromQueue());\n\n// Schedule a job to run daily at 2am\nRecurringJob.AddOrUpdate(() => SendEmailsFromQueue(), Cron.Daily(2));

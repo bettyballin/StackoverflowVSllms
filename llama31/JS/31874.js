@@ -1,0 +1,1 @@
+AudioPlayer.embed("audioplayer_1", {\n  soundFile: "http://yoursite.com/path/to/mp3_file.mp3",\n  wmode: "transparent"\n});

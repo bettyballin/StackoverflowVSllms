@@ -1,1 +1,0 @@
-import random\nimport string\n\ndef generate_random_password(length=12):\n    characters = string.ascii_letters + string.digits + string.punctuation\n    password = ''.join(random.choice(characters) for i in range(length))\n    return password\n\n# Generate a 12-character random password\nprint(generate_random_password())

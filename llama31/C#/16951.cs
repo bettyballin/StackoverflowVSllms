@@ -1,0 +1,1 @@
+[assembly: InternalsVisibleTo("MyAssembly, PublicKeyToken= MyPublicKeyToken")]

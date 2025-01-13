@@ -1,0 +1,1 @@
+DataSet dsSource = ...; // source DataSet\nDataSet dsTarget = ...; // target DataSet\n\ndsSource.Tables["master"].DefaultView.RowFilter = "A = 'XXX'";\nDataRow[] filteredRows = dsSource.Tables["master"].DefaultView.ToTable().Rows;\nforeach (DataRow row in filteredRows)\n{\n    dsTarget.Tables["master"].ImportRow(row);\n}

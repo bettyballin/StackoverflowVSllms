@@ -1,0 +1,1 @@
+<body class="<?php echo $sf_response->getParameter('body_class', '') ?>">\n    <?php echo $sf_content ?>\n</body>

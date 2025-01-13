@@ -1,0 +1,1 @@
+#!/bin/bash\n\n# Set backup directory and database credentials\nBACKUP_DIR=/var/backups\nDB_HOST=localhost\nDB_USER=myuser\nDB_PASSWORD=mypassword\n\n# Perform backup\nmysqldump -h $DB_HOST -u $DB_USER -p$DB_PASSWORD mydatabase > $BACKUP_DIR/backup.sql

@@ -1,0 +1,1 @@
+awk '{ print "\""$1"\" :{$row[\""$1"\"]} <br>" }' your_file.txt

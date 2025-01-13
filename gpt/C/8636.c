@@ -1,1 +1,0 @@
-while (((long)(1000*ratio*((long)clock()-(long)t0)) % 100) / 1000 < Data_Read_Rate);

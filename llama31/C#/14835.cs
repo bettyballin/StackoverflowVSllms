@@ -1,0 +1,1 @@
+lblWelcome.Text = "Welcome: " + txtSurname.Text;\nlblWelcome.ForeColor = System.Drawing.Color.White;

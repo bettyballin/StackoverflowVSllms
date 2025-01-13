@@ -1,0 +1,1 @@
+# Use dlltrim to trim the Qt DLLs\ndlltrim QtGui4.dll

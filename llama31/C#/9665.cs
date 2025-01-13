@@ -1,0 +1,1 @@
+foreach (string line in File.ReadLines("path/to/your/file.csv"))\n{\n    string[] fields = Regex.Split(line, @"(?!(?<=(?:^|,)\s*\x22(?:[^\x22]|\x22\x22|\\\x22)*,)(?:[^\x22]|\x22\x22|\\\x22)*\x22\s*(?:,|$))");\n    // Process the fields array\n}

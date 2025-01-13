@@ -1,0 +1,1 @@
+// Add a loading class to the body\n$('body').addClass('loading');\n\n// When document is ready, remove the loading class\n$(document).ready(function() {\n    // Enhance the links with your SoundManager and Youtube popup functionality\n    // ...\n\n    // Remove the loading class\n    $('body').removeClass('loading');\n});

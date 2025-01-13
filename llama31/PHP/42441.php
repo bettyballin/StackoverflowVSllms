@@ -1,0 +1,1 @@
+function foo_user($op) {\n    switch ($op) {\n        case 'after_update':\n            echo "After update\n";\n            break;\n        case 'login':\n            echo "Login\n";\n            break;\n    }\n}\n\nfoo_user('login'); // Output: Logi

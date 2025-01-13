@@ -1,0 +1,1 @@
+Private Sub RadioButton1_CheckedChanged(ByVal sender As System.Object, _\n       ByVal e As System.EventArgs) Handles RadioButton1.CheckedChanged\n\n    Dim radioButton As RadioButton = DirectCast(sender, RadioButton)\n    If radioButton.Checked Then\n        Beep()\n    End If\n\nEnd Sub

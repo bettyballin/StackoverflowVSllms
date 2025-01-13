@@ -1,1 +1,0 @@
-// Potential issue\n   FKeyList.Sort(CompareKeysFunc);\n\n   // Corrected\n   synchronized(FKeyList) {\n       FKeyList.Sort(CompareKeysFunc);\n   }

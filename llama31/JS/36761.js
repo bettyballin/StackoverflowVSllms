@@ -1,0 +1,1 @@
+var ajaxCompleteTriggered = false;\n\n$slider.ajaxComplete(function() {\n    if (!ajaxCompleteTriggered) {\n        console.log("ajaxdone");\n        // items get inserted into the DOM\n        ajaxCompleteTriggered = true;\n    }\n});

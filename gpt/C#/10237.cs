@@ -1,1 +1,0 @@
-// Example of deploying a service pack\n    public void deployServicePack() {\n        // Apply cumulative updates, including all patches and fixes\n    }

@@ -1,0 +1,1 @@
+List<MyObject> myList = new List<MyObject>();\n// populate the list\n\nGridView1.DataSource = myList;\nGridView1.DataBind();

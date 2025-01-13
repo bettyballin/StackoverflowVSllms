@@ -1,1 +1,0 @@
-Sub TestDll()\n       Dim obj As Object\n       Set obj = CreateObject("TestDll.Test")\n       MsgBox obj.HelloWorld\n   End Sub

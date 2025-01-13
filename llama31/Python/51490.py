@@ -1,0 +1,1 @@
+import mmap\nimport os\n\ndef access_shared_memory_block(name):\n    mm = mmap.mmap(-1, 0, access=mmap.ACCESS_READ, tagname=name)\n    data = mm.read()\n    mm.close()\n    return data

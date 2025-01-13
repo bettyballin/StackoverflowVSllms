@@ -1,0 +1,1 @@
+DataContext dc = new DataContext();\ndc.ExecuteCommand("UPDATE Products SET Count = 0 WHERE Type = 1");

@@ -1,1 +1,0 @@
-Public Class Wrapper(Of T)\n    Private _Value As T\n\n    Public Property Value() As T\n        Get\n            Return Me._Value\n        End Get\n        Set(ByVal value As T)\n            Me._Value = value\n        End Set\n    End Property\n\n    Public Sub New(ByVal value As T)\n        Me._Value = value\n    End Sub\nEnd Class

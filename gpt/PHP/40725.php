@@ -1,1 +1,0 @@
-class ImporterFactory {\n    public static function create(string $fetcherType, string $handlerType, string $writerType): DataImporter {\n        $fetcher = new $fetcherType();\n        $handler = new $handlerType();\n        $writer = new $writerType();\n        return new DataImporter($fetcher, $handler, $writer);\n    }\n}

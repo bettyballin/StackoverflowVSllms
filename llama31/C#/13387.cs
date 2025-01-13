@@ -1,0 +1,1 @@
+public class Person\n{\n    public string FirstName { get; set; }\n    public string LastName { get; set; }\n    [JsonIgnore]\n    public Pet MyPet { get; set; }\n}

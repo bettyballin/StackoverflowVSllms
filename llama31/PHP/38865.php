@@ -1,0 +1,1 @@
+$url = 'https://example.com/api/endpoint';\n$data = array('key' => 'value', 'another_key' => 'another_value');\n\n$ch = curl_init($url);\ncurl_setopt($ch, CURLOPT_RETURNTRANSFER, true);\ncurl_setopt($ch, CURLOPT_POST, true);\ncurl_setopt($ch, CURLOPT_POSTFIELDS, http_build_query($data));\n\n$response = curl_exec($ch);\ncurl_close($ch);\n\necho $response;

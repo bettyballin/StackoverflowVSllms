@@ -1,1 +1,0 @@
-cleartool setgroup gA  # Switching to group gA for working on vA\ncleartool setgroup gB  # Switching to group gB for working on vB\ncleartool setgroup gC  # Switching to group gC for working on vC

@@ -1,0 +1,1 @@
+-- Check for NULL values\nSELECT * FROM mytable WHERE mycolumn IS NULL;\n\n-- Check for non-NULL values\nSELECT * FROM mytable WHERE mycolumn IS NOT NULL;

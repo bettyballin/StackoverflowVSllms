@@ -1,1 +1,0 @@
-[WebMethod]\npublic static SearchResult Search(string criteria)\n{\n    // Perform search using criteria\n}

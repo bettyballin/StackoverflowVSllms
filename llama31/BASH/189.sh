@@ -1,0 +1,1 @@
+# Enable mod_rewrite\nRewriteEngine On\n\n# Redirect ASP requests to PHP\nRewriteCond %{REQUEST_FILENAME} \.asp$\nRewriteRule ^(.*)\.asp$ /tracking.php?%{QUERY_STRING} [R=301,L]\n\n# Redirect ASP.NET requests to PHP\nRewriteCond %{REQUEST_FILENAME} \.aspx$\nRewriteRule ^(.*)\.aspx$ /tracking.php?%{QUERY_STRING} [R=301,L]

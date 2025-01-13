@@ -1,0 +1,1 @@
+const element = document.getElementById('myDiv');\nconst width = element.clientWidth;\nconst height = element.clientHeight;

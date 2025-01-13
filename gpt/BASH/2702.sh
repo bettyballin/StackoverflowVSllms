@@ -1,1 +1,0 @@
-icacls "C:\path\to\your\directory" /remove:g IWAM_WIN2K3WEB:(W)

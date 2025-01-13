@@ -1,0 +1,1 @@
+#include <windows.h>\n#include <dbgapi.h>\n\n// ...\n\nDllMain(HANDLE hModule, DWORD dwReason, LPVOID lpReserved)\n{\n    // ...\n    if (dwReason == DLL_PROCESS_ATTACH)\n    {\n        DbgBreakPoint();\n    }\n    // ...\n}

@@ -1,0 +1,1 @@
+SELECT \n    MID(game, {$len}, 1) AS move,\n    COUNT(*) AS games,\n    SUM(win) AS wins,\n    SUM(loss) AS losses\nFROM \n    games\nWHERE \n    game BETWEEN {$something} AND {$something_else}\nGROUP BY \n    MID(game, {$len}, 1);

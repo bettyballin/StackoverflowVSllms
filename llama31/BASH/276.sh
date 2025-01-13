@@ -1,0 +1,1 @@
+./c4.5 -f input_file -u output_file

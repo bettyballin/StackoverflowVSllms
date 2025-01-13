@@ -1,1 +1,0 @@
-dig @new_server_ip example.com

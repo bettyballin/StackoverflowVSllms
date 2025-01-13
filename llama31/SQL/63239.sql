@@ -1,0 +1,1 @@
+SELECT \n  L.LinkName, \n  G.GroupName, \n  SG.SubGroupName\nFROM \n  Links L\n  INNER JOIN Groups G ON L.GroupID = G.GroupID\n  LEFT JOIN SubGroup SG ON L.SubGroupID = SG.SubGroupID

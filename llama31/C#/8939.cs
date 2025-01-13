@@ -1,0 +1,1 @@
+public int? ForeignKeyField { get; set; }

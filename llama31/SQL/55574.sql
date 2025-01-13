@@ -1,0 +1,1 @@
+SELECT t.id, t.title\nFROM threads t\nJOIN comments c ON t.id = c.thread_id\nORDER BY c.date DESC

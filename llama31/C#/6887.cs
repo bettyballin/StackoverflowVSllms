@@ -1,0 +1,1 @@
+var regex = new Regex(@"<li[^>]*>(.*?)(?=</li>|<li>)", RegexOptions.IgnoreCase | RegexOptions.Singleline);

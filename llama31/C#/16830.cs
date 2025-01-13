@@ -1,0 +1,1 @@
+var q = from source in unitOfWork.GetRepository<db_Target>().Find()\n    where source.db_TargetBase.db_Person.fk_Customer == customerID\n    select CreateTarget(source);

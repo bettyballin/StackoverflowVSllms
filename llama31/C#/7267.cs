@@ -1,0 +1,1 @@
+using OfficeOpenXml;\n\n// Create a PDF document\nusing (var package = new ExcelPackage())\n{\n    var worksheet = package.Workbook.Worksheets.Add("Email");\n    worksheet.Cells["A1"].Value = "Email content goes here";\n    package.SaveAs(new FileInfo("email.pdf"));\n}

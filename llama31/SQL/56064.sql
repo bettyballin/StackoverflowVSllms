@@ -1,0 +1,1 @@
+SELECT * FROM (\n  SELECT \n    product_id, \n    SUM(quantity) as total_quantity\n  FROM \n    OrdersProducts\n  GROUP BY \n    product_id\n) AS subquery\nORDER BY \n  total_quantity DESC\nLIMIT 5;

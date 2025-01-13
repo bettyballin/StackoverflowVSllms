@@ -1,0 +1,1 @@
+private static readonly object _cacheLock = new object();\n\npublic void CacheData(string key, object data)\n{\n    lock (_cacheLock)\n    {\n        HttpRuntime.Cache[key] = data;\n    }\n}\n\npublic object GetData(string key)\n{\n    lock (_cacheLock)\n    {\n        return HttpRuntime.Cache[key];\n    }\n}

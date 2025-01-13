@@ -1,0 +1,1 @@
+#container {\n  position: relative;\n  width: 600px;\n  height: 400px;\n  border: 1px solid black;\n}\n\n#container span {\n  position: absolute;\n  font-size: 24px;\n  font-weight: bold;\n  transform-origin: center center;\n}

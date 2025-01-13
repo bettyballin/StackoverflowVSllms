@@ -1,0 +1,1 @@
+If Me.components Is Nothing Then\n    Me.components = New System.ComponentModel.Container()\nEnd If\n\n_LoginErrorProvider = New ErrorLogErrorProvider(Me.components)

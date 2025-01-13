@@ -1,0 +1,1 @@
+if (is_uploaded_file($upltmp)) {\n    // move the uploaded file\n}

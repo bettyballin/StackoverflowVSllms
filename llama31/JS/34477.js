@@ -1,0 +1,1 @@
+$('.add').click(function(){ \n    $('#mylist').append('<li>Item 3 <a class="remove">X</a></li>');\n});\n\n$('#mylist').on('click', '.remove', function(){ \n    $(this).parent().hide('slow').remove();\n});

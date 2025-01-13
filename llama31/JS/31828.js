@@ -1,0 +1,1 @@
+function toggleSubMenu() {\n  var id = $(this).attr('id').replace('-init', '-sub');\n  $('ul#' + id).slideToggle(200);\n}\n\n$('li.alpha-init').click(toggleSubMenu);

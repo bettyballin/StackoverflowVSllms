@@ -1,1 +1,0 @@
-// Pseudo-code for health check endpoint\npublic ActionResult HealthCheck()\n{\n    // Perform necessary health checks\n    return Content("OK");\n}

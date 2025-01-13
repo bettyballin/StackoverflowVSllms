@@ -1,1 +1,0 @@
-CREATE TABLE role_permissions (\n    role_id INT NOT NULL,\n    permission_id INT NOT NULL,\n    PRIMARY KEY (role_id, permission_id),\n    FOREIGN KEY (role_id) REFERENCES roles(role_id),\n    FOREIGN KEY (permission_id) REFERENCES permissions(permission_id)\n);

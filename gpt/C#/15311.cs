@@ -1,1 +1,0 @@
-public class YourController : Controller\n{\n    [HttpPost]\n    public ActionResult YourAction(List<string> ListBox1)\n    {\n        // ListBox1 will contain all items from the list, both selected and unselected\n        // Process your items here\n\n        return View();\n    }\n}

@@ -1,0 +1,1 @@
+<serviceHostingEnvironment>\n  <serviceActivations>\n    <add factory="YourNamespace.CustomServiceHostFactory"\n         relativeAddress="./YourService.svc"\n         service="YourNamespace.YourService"/>\n  </serviceActivations>\n</serviceHostingEnvironment>

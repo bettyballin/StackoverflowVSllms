@@ -1,1 +1,0 @@
-sudo ifconfig eth0:1 192.168.1.2 up\nsudo ifconfig eth0:2 192.168.1.3 up\n# Continue for as many IP aliases as needed

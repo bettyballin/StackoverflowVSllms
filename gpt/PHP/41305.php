@@ -1,1 +1,0 @@
-$stmt = $mysqli->prepare("SELECT * FROM table WHERE column1 = ? AND column2 = ?");\n$stmt->bind_param('si', $stringVar, $intVar); // 's' for string, 'i' for integer\n$stmt->execute();\n$result = $stmt->get_result();

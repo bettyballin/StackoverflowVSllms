@@ -1,0 +1,1 @@
+original_list = [\n    ["apple", "banana", "cherry"],\n    ["date", "elderberry", "fig"],\n    ["grape", "honeydew", "ice cream"]\n]\n\n# Copy a portion of the 2D list to a new list\nnew_list = [row[1:3] for row in original_list[1:3]]\n\nprint(new_list)  # Output: [["elderberry", "fig"], ["honeydew", "ice cream"]]

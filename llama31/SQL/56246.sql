@@ -1,0 +1,1 @@
+SELECT item\nFROM your_table\nWHERE attribute = 'green'\n\nINTERSECT\n\nSELECT item\nFROM your_table\nWHERE attribute = '4 legs';

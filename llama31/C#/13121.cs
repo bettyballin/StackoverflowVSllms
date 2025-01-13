@@ -1,0 +1,1 @@
+public static bool IsNumeric(string str)\n{\n    if (string.IsNullOrEmpty(str)) return false;\n\n    foreach (char c in str)\n    {\n        if (!char.IsDigit(c)) return false;\n    }\n\n    return true;\n}

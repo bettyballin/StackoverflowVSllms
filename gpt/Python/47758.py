@@ -1,1 +1,0 @@
-import subprocess\n\n   # Run the AutoIT script\n   subprocess.call(['path_to_autoit3.exe', 'execute_vbscript.au3'])

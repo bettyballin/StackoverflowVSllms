@@ -1,0 +1,1 @@
+#!/bin/bash\n\nwhile true\ndo\n    php your_script.php\n    sleep 10\ndone

@@ -1,1 +1,0 @@
-#ifdef MYLIB_EXPORTS\n   #define MYLIB_API __declspec(dllexport)\n   #else\n   #define MYLIB_API __declspec(dllimport)\n   #endif\n\n   class MYLIB_API K {\n   public:\n       static int a;\n       static int b;\n   };

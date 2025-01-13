@@ -1,0 +1,1 @@
+Mapping dummyMapping = new Mapping();\nFILES_GetMemoryMapping(MapFile, out size, MapName, out PacketSize, ref dummyMapping, out PagePerSector);

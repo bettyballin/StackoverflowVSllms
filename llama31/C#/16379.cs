@@ -1,0 +1,1 @@
+string folderPath = @"C:\MonitoredFolder";\n\nforeach (string filePath in Directory.GetFiles(folderPath))\n{\n    if (IsFileFullyCopied(filePath))\n    {\n        // Process the file\n    }\n    else\n    {\n        // Wait and try again later\n    }\n}

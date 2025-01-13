@@ -1,0 +1,1 @@
+public static class ResponseExtensions\n{\n    public static void Redirect(this HttpResponse response, string url)\n    {\n        var uri = new Uri(url);\n        var portlessUri = new UriBuilder(uri) { Port = -1 }.Uri;\n        response.Redirect(portlessUri.AbsoluteUri);\n    }\n}

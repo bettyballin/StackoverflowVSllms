@@ -1,0 +1,1 @@
+function updateErrorMessage(newErrorMessage) {\n    var calloutExtender = $find('ValidatorCalloutExtender1');\n    calloutExtender.set_errorMessage(newErrorMessage);\n    calloutExtender.update();\n}

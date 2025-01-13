@@ -1,0 +1,1 @@
+fuser -m /mnt/data

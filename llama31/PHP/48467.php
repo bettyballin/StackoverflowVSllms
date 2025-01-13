@@ -1,0 +1,1 @@
+$js_file = 'path/to/your/javascript/file.js';\n$compressed_js = gzcompress(file_get_contents($js_file), 9);\nheader('Content-Type: text/javascript');\nheader('Content-Encoding: gzip');\necho $compressed_js;

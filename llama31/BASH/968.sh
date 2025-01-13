@@ -1,0 +1,1 @@
+php -c /path/to/custom/php.ini -f propel-gen ./ creole

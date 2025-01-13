@@ -1,0 +1,1 @@
+public class CustomMembershipProvider : MembershipProvider\n{\n    // Implement custom provider logic here\n    // Use an integer-based primary key for the User table\n}

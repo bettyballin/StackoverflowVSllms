@@ -1,0 +1,1 @@
+var ranges = new List<(int Start, int End)>\n{\n    (1000, 20400),\n    (22200, 24444),\n    // ...\n};\n\nvar searcher = new RangeSearcher(ranges);\nConsole.WriteLine(searcher.Contains(15000)); // True\nConsole.WriteLine(searcher.Contains(25000)); // False

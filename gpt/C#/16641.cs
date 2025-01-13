@@ -1,1 +1,0 @@
-var query = from e in Employees\n            join d in Departments on e.DepartmentId equals d.Id\n            where e.Age > 30\n            select new { e.Name, d.DepartmentName };

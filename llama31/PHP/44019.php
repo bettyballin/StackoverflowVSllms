@@ -1,0 +1,1 @@
+class MyForm extends Zend_Form\n{\n    public function init()\n    {\n        // Load the model\n        $model = new MyModel();\n        $elements = $model->getFormElements();\n\n        // Iterate over the elements and add them to the form\n        foreach ($elements as $element) {\n            $this->addElement($element);\n        }\n    }\n}

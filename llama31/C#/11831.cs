@@ -1,0 +1,1 @@
+using (var db = new MyDataContext())\n{\n    // ... perform inserts ...\n\n    var changes = db.GetChangeSet();\n    var insertedCount = changes.Inserts.Count;\n\n    // Use the insertedCount as needed\n}

@@ -1,0 +1,1 @@
+SELECT \n  AQADM.GET_USER_DATA(user_data, 'XML') AS message_xml\nFROM \n  [queue_table];

@@ -1,1 +1,0 @@
-import os\n\ndef read_sector(device, sector_number, sector_size=512):\n    with open(device, 'rb') as disk:\n        disk.seek(sector_number * sector_size)\n        return disk.read(sector_size)\n\nsector_data = read_sector('/dev/disk0', 2)\nwith open('sector2.bin', 'wb') as f:\n    f.write(sector_data)

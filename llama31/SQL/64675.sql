@@ -1,0 +1,1 @@
+UPDATE [dbo].[alerts]\nSET [created_in_variant] = dbo.find_root([id])

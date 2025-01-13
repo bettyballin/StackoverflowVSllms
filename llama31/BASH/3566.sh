@@ -1,0 +1,1 @@
+#!/bin/bash\n\n# Stop the Java app\npkill -f your_java_app\n\n# Update files\n# ...\n\n# Start the Java app again\njava -jar your_java_app.jar

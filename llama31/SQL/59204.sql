@@ -1,0 +1,1 @@
+SELECT CONVERT(VARCHAR(40), HASHBYTES('SHA1', 'your_string'), 2)

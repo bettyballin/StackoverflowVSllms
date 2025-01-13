@@ -1,0 +1,1 @@
+#define M(name, str) str,\n\nconst char *strings[] = {\n    M(STR_YES, "yes")\n    M(STR_NO, "no")\n    M(STR_MAYBE, "maybe")\n};\n\n#undef M\n#define M(name, str) name,\n\nenum indices {\n    M(STR_YES, "yes")\n    M(STR_NO, "no")\n    M(STR_MAYBE, "maybe")\n};

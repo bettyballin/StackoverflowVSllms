@@ -1,0 +1,1 @@
+CREATE TABLE IF NOT EXISTS foo (id NUMBER, title VARCHAR2(4000) DEFAULT 'Default Title');

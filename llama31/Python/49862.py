@@ -1,0 +1,1 @@
+def make_hand(deck, handname):\n    globals()[handname] = []\n    for c in range(5):\n        globals()[handname].append(deck.pop())\n    return globals()[handname]

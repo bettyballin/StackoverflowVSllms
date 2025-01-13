@@ -1,1 +1,0 @@
-from dir2.file2 import ClassOne\n\nmyObject = ClassOne()\nmyObject.reload_module()

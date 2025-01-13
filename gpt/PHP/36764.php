@@ -1,1 +1,0 @@
-class session extends db {\n    public function __construct($dbuser, $dbpassword, $dbname, $dbhost = 'localhost') {\n        parent::__construct($dbuser, $dbpassword, $dbname, $dbhost);\n    }\n\n    // Define your session methods here\n}

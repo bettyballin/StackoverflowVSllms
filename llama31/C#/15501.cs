@@ -1,0 +1,1 @@
+Action originalDelegate = ...;\nAction copy = (Action)Delegate.CreateDelegate(typeof(Action), originalDelegate.Target, originalDelegate.Method);

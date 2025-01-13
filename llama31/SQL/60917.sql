@@ -1,0 +1,1 @@
+INSERT INTO lngnottranslated (lngId, engDef)\nSELECT lngId, 'Welcome'\nFROM lnglngdef\nWHERE lngId NOT IN (SELECT lngId FROM lngnottranslated WHERE engDef = 'Welcome');

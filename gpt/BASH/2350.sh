@@ -1,1 +1,0 @@
-vendor/bin/ppm start

@@ -1,0 +1,1 @@
+void OnProxyConfigSubmit() {\n  CString hostname = hostnameEditBox.GetText();\n  CString port = portEditBox.GetText();\n\n  if (isValidHostname(hostname) && isValidPort(port)) {\n    // Proceed with the valid hostname and port\n  } else {\n    // Display an error message to the user\n  }\n}

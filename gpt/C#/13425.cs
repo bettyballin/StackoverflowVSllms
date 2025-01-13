@@ -1,1 +1,0 @@
-Comparison<T> // Compares two objects of the same type and returns an integer that indicates their relative position in the sort order.\nConverter<TInput, TOutput> // Converts an object of one type to an object of another type.\nAsyncCallback // References a method to be called when a corresponding asynchronous operation completes.

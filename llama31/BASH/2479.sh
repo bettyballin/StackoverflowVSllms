@@ -1,0 +1,1 @@
+cd gcc-arm-none-eabi\ngit checkout gcc-arm-none-eabi-<version> # e.g., gcc-arm-none-eabi-10.3-2021.10

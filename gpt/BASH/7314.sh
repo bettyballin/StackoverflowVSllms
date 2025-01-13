@@ -1,1 +1,0 @@
-mkdir google-search-monitor\ncd google-search-monitor\nnpm init -y\nnpm install express axios

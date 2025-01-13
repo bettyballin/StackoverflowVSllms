@@ -1,0 +1,1 @@
+$.ajax({\n  url: '/your-endpoint',\n  cache: true, // enable caching\n  headers: {\n    'Cache-Control': 'max-age=3600' // 1 hour cache expiration\n  }\n});

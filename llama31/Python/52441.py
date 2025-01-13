@@ -1,0 +1,1 @@
+from distutils.core import setup\nimport py2exe\nimport win32com\n\nsetup(\n    com_server = ["hello"],\n    typelibrary = True\n)

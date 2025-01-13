@@ -1,1 +1,0 @@
-[AjaxAuthorize]\n   public ActionResult PartialViewAction()\n   {\n       // Your action logic here\n       return PartialView();\n   }

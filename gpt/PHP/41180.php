@@ -1,1 +1,0 @@
-$asd = [\n    'a' => 10,\n    'b' => 1,\n    'c' => 6,\n    'd' => 3\n];\n\nasort($asd); // Sort the array by values while maintaining key association\n\n$sortedKeys = array_keys($asd); // Get the keys of the sorted array\n\n$firstFourKeys = array_slice($sortedKeys, 0, 4); // Get the first 4 keys\n\nprint_r($firstFourKeys); // Output the first 4 keys

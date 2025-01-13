@@ -1,0 +1,1 @@
+#include <cstdint>\n\nstruct GUID {\n    uint32_t Data1;\n    uint16_t Data2;\n    uint16_t Data3;\n    uint8_t Data4[8];\n};\n\n// assume guidBytes is the byte array received from Java\nGUID guid;\nmemcpy(&guid, guidBytes, 16);

@@ -1,0 +1,1 @@
+EXECUTE sp_recompile @objname = 'dbo.sp_MyProcedure'

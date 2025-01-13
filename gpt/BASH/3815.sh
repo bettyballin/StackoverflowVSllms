@@ -1,1 +1,0 @@
-ar rcs combinedlib.a *.o

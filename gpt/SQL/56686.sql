@@ -1,1 +1,0 @@
-DECLARE @TableName NVARCHAR(128)\nSET @TableName = 'your_table_name'\n\nEXEC sp_spaceused @TableName

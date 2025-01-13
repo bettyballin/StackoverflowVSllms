@@ -1,1 +1,0 @@
-using NHibernate.Burrow;\n\n   public void ConfigureBurrow()\n   {\n       var burrowFramework = new BurrowFramework();\n       var nhConfig = CreateFluentNHibernateConfig();\n\n       // Set the NHibernate configuration to Burrow\n       burrowFramework.NHConfig = nhConfig;\n\n       // Initialize Burrow\n       burrowFramework.Init();\n   }

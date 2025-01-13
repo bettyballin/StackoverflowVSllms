@@ -1,1 +1,0 @@
-public abstract class BaseEntity\n{\n    public int Id { get; set; }\n    public string Name { get; set; }\n}\n\npublic class Bank : BaseEntity { }\npublic class Country : BaseEntity { }\npublic class Label : BaseEntity { }\npublic class PaymentProvider : BaseEntity { }\npublic class PaymentOption : BaseEntity { }

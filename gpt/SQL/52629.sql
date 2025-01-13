@@ -1,1 +1,0 @@
-ALTER TABLE Contact\n    ALTER COLUMN EmailAddress VARCHAR(255);  -- Adjust the length as needed

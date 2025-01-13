@@ -1,1 +1,0 @@
-WINDOW *win = newwin(10, 30, 5, 5);  // Create a new window\n    box(win, 0, 0);                     // Draw a box around the window\n    wrefresh(win);                      // Refresh the window to show changes\n    delwin(win);                        // Delete the window

@@ -1,0 +1,1 @@
+DbParameter theDate = new OleDbParameter("", DbType.DateTime);\ntheDate.Value = new DateTime(2009, 1, 1);\nDbParameter theFlat = new OleDbParameter("", DbType.Int32);\ntheFlat.Value = 1;

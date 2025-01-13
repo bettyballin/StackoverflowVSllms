@@ -1,1 +1,0 @@
-SELECT a \nFROM table \nWHERE c = 1 \n  AND (c <> 1 OR d = 2);

@@ -1,1 +1,0 @@
-<?php\nfunction linkify_emails($text) {\n    $pattern = '/[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,4}\b/i';\n    $replacement = '<a href="mailto:$0">$0</a>';\n    return preg_replace($pattern, $replacement, $text);\n}\n\n$input_text = "Lorem ipsum dolor email@foo.com sit amet";\n$output_text = linkify_emails($input_text);\n\necho $output_text;\n?>

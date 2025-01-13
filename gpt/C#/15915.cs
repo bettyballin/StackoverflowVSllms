@@ -1,1 +1,0 @@
-public interface ITreeNode\n   {\n       string Name { get; }\n       void Display();\n   }\n\n   public interface IContextAction\n   {\n       string ActionName { get; }\n       void Execute(ITreeNode node);\n   }

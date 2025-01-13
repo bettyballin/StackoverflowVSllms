@@ -1,0 +1,1 @@
+#myInput {\n  display: block;\n}\n\n#instruction {\n  display: block;\n  color: #ccc; /* light grey text color */\n  margin-top: 5px; /* adjust the spacing as needed */\n}\n\n/* No need for clear:both in this case */

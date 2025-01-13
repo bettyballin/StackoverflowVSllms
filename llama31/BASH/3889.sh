@@ -1,0 +1,1 @@
+jpegoptim --strip-all input.jpg

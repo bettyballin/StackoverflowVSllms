@@ -1,0 +1,1 @@
+use Silex\Application;\nuse Symfony\Component\HttpFoundation\JsonResponse;\n\n$app = new Application();\n\n$app->post('/ajax-example', function (Request $request) {\n    $data = $request->getContent();\n    // Process the data...\n    return new JsonResponse(['message' => 'Hello, World!']);\n});\n\n$app->run();

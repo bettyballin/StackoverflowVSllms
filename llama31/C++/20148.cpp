@@ -1,0 +1,1 @@
+#include <pthread.h>\n\npthread_mutex_t new_mutex = PTHREAD_MUTEX_INITIALIZER;\n\nvoid* operator new(size_t size) {\n    pthread_mutex_lock(&new_mutex);\n    void* ptr = malloc(size);\n    pthread_mutex_unlock(&new_mutex);\n    return ptr;\n}\n\nvoid operator delete(void* ptr) {\n    pthread_mutex_lock(&new_mutex);\n    free(ptr);\n    pthread_mutex_unlock(&new_mutex);\n}

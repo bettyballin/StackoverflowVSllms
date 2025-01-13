@@ -1,0 +1,1 @@
+:w >> file.txt

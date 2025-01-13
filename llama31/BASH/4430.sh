@@ -1,0 +1,1 @@
+cmd /k cd C:\path\to\your\rails\app

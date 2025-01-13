@@ -1,0 +1,1 @@
+del /f your_mpg_file.mpg

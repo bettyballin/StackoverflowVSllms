@@ -1,0 +1,1 @@
+function stripHtmlTags(text) {\n    return text.replace(/<\/?[^>]+(>|$)/g, "");\n}\n\n// Example usage:\nvar htmlText = "<p>Hello, <span>world!</span></p>";\nvar plainText = stripHtmlTags(htmlText);\nconsole.log(plainText); // Outputs: "Hello, world!"

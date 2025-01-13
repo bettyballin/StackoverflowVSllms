@@ -1,1 +1,0 @@
-public void AbortFinalizerThread()\n   {\n       var finalizerThread = new Thread(GC.WaitForPendingFinalizers);\n       finalizerThread.Start();\n       if (!finalizerThread.Join(5000)) // Wait for 5 seconds\n       {\n           finalizerThread.Abort();\n           // Handle the abort scenario, e.g., log an error\n       }\n   }

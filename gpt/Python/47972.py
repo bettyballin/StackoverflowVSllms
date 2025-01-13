@@ -1,1 +1,0 @@
-from django.utils.safestring import mark_safe\n    s = mark_safe('<p>Hello!</p>')

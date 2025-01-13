@@ -1,0 +1,1 @@
+$stmt = pg_prepare($pgConnection, "insert_customer", "INSERT INTO customer (name) VALUES ($1) RETURNING id");\n$result = pg_execute($pgConnection, "insert_customer", array('blabla'));\n$last_id_results = pg_fetch_assoc($result);

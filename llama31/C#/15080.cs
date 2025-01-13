@@ -1,0 +1,1 @@
+public bool Foo(Type interfaceType)\n{\n    if (!interfaceType.IsInterface)\n    {\n        throw new ArgumentException("interfaceType must be an interface", nameof(interfaceType));\n    }\n    // ...\n}

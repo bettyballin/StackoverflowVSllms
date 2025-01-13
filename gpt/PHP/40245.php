@@ -1,1 +1,0 @@
-<?php\n$domain = 'example.com';\n$dns_records = dns_get_record($domain, DNS_A);\n\nforeach ($dns_records as $record) {\n    echo 'IP: ' . $record['ip'] . "\n";\n}\n?>

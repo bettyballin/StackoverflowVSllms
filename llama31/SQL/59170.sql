@@ -1,0 +1,1 @@
+INSERT INTO new_table_name \nSELECT * \nFROM your_table_name \nWHERE action LIKE '%bse%';

@@ -1,0 +1,1 @@
+import numpy as np\n\ndef mse(image1, image2):\n    return np.mean((image1 - image2) ** 2)

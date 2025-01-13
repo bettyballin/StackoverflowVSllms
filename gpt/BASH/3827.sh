@@ -1,1 +1,0 @@
-sudo apt-get install screen  # For Debian/Ubuntu\n     sudo yum install screen      # For CentOS/RHEL

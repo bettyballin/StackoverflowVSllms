@@ -1,0 +1,1 @@
+# Install MacPorts\n# Download and install MacPorts from http://www.macports.org/install.php\n\n# Install GCC 4.4\nsudo port install gcc44\n\n# Make GCC 4.4 the default\nsudo port select --set gcc mp-gcc44

@@ -1,0 +1,1 @@
+string path = @"\\machinename\sharename\directory";\nif (IsLocalPath(path))\n{\n    Console.WriteLine("Path is local");\n}\nelse\n{\n    Console.WriteLine("Path is remote");\n}

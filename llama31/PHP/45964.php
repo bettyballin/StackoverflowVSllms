@@ -1,0 +1,1 @@
+$city_id = $_POST['city_id'];\n$area_id = $_POST['area_id'];\n\n$query = "SELECT * FROM tbl_results WHERE result_city = '$city_id' AND result_area = '$area_id'";\n$result = $mysqli->query($query);\n\nwhile($row = $result->fetch_assoc()) {\n    echo 'Result Title: ' . $row['result_title'] . '<br>';\n    echo 'Result Content: ' . $row['result_content'] . '<br><br>';\n}

@@ -1,0 +1,1 @@
+#!/bin/bash\nsudo service tomcat restart

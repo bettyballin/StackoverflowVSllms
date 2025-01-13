@@ -1,1 +1,0 @@
-db2move testdb export -u db2inst1 -p <DB2_PASSWORD>

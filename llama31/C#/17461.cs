@@ -1,0 +1,1 @@
+public class MyClass {\n    private object _lock = new object();\n\n    public void MyMethod() {\n        lock (_lock) {\n            // only one thread can execute this code at a time\n        }\n    }\n}

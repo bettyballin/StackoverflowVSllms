@@ -1,0 +1,1 @@
+IQuery query = session.CreateQuery("from Customer");\nquery.SetFirstResult(10); // start from the 11th record\nquery.SetMaxResults(20); // retrieve 20 records\n\nIList<Customer> customers = query.List<Customer>();

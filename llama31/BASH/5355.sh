@@ -1,0 +1,1 @@
+latex your-document.tex\ndvipdfmx -f 1-2 your-document.dvi

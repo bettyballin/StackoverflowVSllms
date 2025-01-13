@@ -1,1 +1,0 @@
-<system.applicationHost>\n      <applicationPools>\n         <add name="YourAppPoolName" idleTimeout="00:00:00" />\n      </applicationPools>\n   </system.applicationHost>

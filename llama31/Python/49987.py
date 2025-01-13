@@ -1,0 +1,1 @@
+import os\nimport signal\n\n# Get the process group ID of the current process\npgid = os.getpgid(0)\n\n# Send the SIGKILL signal to all members of the process group\nos.killpg(pgid, signal.SIGKILL)

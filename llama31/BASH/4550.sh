@@ -1,0 +1,1 @@
+idevicesyslog -u <your-device-udid> -k YourApp

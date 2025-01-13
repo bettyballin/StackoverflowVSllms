@@ -1,0 +1,1 @@
+SELECT \n    SUM(CASE WHEN it.GroupType = 'A' THEN i.Items ELSE 0 END) AS SumGroupA,\n    SUM(CASE WHEN it.GroupType = 'B' THEN i.Items ELSE 0 END) AS SumGroupB\nFROM \n    ItemTable i\nLEFT OUTER JOIN \n    ItemType it ON i.ItemTypeID = it.ItemTypeID;

@@ -1,0 +1,1 @@
+SELECT i.*, ip.price\nFROM ingredients i\nJOIN (\n  SELECT ingredient_id, price,\n         ROW_NUMBER() OVER (PARTITION BY ingredient_id ORDER BY created_at DESC) as row_num\n  FROM ingredient_prices\n) ip ON i.id = ip.ingredient_id\nWHERE ip.row_num = 1;

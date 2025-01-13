@@ -1,0 +1,1 @@
+CREATE TABLE LargeTable (\n    Id INT PRIMARY KEY,\n    BitField BIT,\n    IntField INT\n);\n\nCREATE INDEX IX_LargeTable_BitField ON LargeTable (BitField);\nCREATE INDEX IX_LargeTable_IntField ON LargeTable (IntField);

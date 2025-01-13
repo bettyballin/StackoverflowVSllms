@@ -1,0 +1,1 @@
+SqlConnection sqlConn = new SqlConnection(...);\nSqlCommand cmd = new SqlCommand(...);\nSqlDataReader sqlData = null;\n\ntry\n{\n    sqlConn.Open();\n    sqlData = cmd.ExecuteReader();\n\n    while (sqlData.Read())\n    {\n        // ...\n    }\n}\nfinally\n{\n    if (sqlData != null) sqlData.Close();\n    if (sqlConn != null) sqlConn.Close();\n}

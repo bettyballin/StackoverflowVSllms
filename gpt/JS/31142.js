@@ -1,1 +1,0 @@
-// Example pseudocode for email verification\n   if (emailIsUnique(userEmail)) {\n       sendVerificationEmail(userEmail);\n   } else {\n       showError("Email already in use");\n   }

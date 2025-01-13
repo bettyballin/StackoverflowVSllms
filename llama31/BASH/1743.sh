@@ -1,0 +1,1 @@
+stsadm -o joinserver -server <New_Server_Name> -database <DB_Server_Name>

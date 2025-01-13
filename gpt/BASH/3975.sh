@@ -1,1 +1,0 @@
-@echo off\nphp path\to\framework.php %*

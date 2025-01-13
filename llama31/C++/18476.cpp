@@ -1,0 +1,1 @@
+int main() {\n    std::string output = ExecuteProcess("dir");\n    printf("%s\n", output.c_str());\n    return 0;\n}

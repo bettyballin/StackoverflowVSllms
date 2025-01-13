@@ -1,0 +1,1 @@
+$string = '123abc456def';\npreg_match_all('/./', $string, $array);\nprint_r($array);

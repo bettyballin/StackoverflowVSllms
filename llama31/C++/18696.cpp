@@ -1,0 +1,1 @@
+d <vtable_address>

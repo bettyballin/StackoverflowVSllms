@@ -1,0 +1,1 @@
+def update_unread_counts(feed_id, new_item_id):\n    # Get all users subscribed to this feed\n    user_ids = User_Feed_Subscriptions.filter(feed_id=feed_id).values_list('user_id')\n\n    # Increment unread count for each user\n    for user_id in user_ids:\n        unread_counts[user_id][feed_id] += 1

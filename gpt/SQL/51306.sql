@@ -1,1 +1,0 @@
-SELECT \n    FORMAT(your_column, '#.00####') AS formatted_value\nFROM \n    your_table;

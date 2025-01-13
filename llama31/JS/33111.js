@@ -1,0 +1,1 @@
+const fileInput = document.getElementById('fileInput');\nconst file = new File(['file contents'], 'file.txt', { type: 'text/plain' });\nconst dataTransfer = new DataTransfer();\ndataTransfer.items.add(file);\nfileInput.files = dataTransfer.files;

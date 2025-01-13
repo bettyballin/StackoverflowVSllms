@@ -1,1 +1,0 @@
-public class MyTable\n{\n    public DateTime Timestamp { get; set; } = DateTime.Now;\n\n    public MyTable()\n    {\n        // Alternatively, you can initialize it in the constructor\n        // Timestamp = DateTime.Now;\n    }\n}

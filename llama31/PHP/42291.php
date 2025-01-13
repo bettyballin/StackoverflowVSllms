@@ -1,0 +1,1 @@
+function TestBlockHTML($replStr) {\n    ob_start();\n    ?>\n    <html>\n    <body><h1><?php echo $replStr; ?></h1>\n    </html>\n    <?php\n    $html = ob_get_contents();\n    ob_end_clean();\n    return $html;\n}

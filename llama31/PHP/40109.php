@@ -1,0 +1,1 @@
+use Wkhtmltopdf\Wkhtmltopdf;\n\n$html = '<html><body>Hello World!</body></html>';\n$pdf = new Wkhtmltopdf();\n$pdf->setHtml($html);\n$pdf->output('output.pdf');

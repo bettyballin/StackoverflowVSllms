@@ -1,0 +1,1 @@
+$results = mysql_query("SELECT * FROM andyasks ORDER BY date");\n\nif (!$results) {\n    die('Invalid query: ' . mysql_error());\n}\n\nwhile ($row = mysql_fetch_array($results, MYSQL_BOTH)) {\n    print($row['questions'] . "\n");\n}

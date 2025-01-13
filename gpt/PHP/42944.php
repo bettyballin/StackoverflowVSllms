@@ -1,1 +1,0 @@
-<?php\ninclude 'config.php';\ninclude 'opendb.php';\n\n$query = "SELECT * FROM contact";\n$result = mysql_query($query);\n\nwhile($row = mysql_fetch_assoc($result)) {\n    foreach ($row as $key => $value) {\n        echo "$key: $value ";\n    }\n    echo "<br>"; // New line for each record\n}\n\ninclude 'closedb.php';\n?>

@@ -1,0 +1,1 @@
+SELECT g.grade, COALESCE(t.count, 0) as count\nFROM (\n  SELECT 1 as grade UNION SELECT 2 UNION SELECT 3 UNION SELECT 4 UNION SELECT 5 UNION SELECT 6\n) g\nLEFT JOIN (\n  SELECT grade, COUNT(*) as count\n  FROM your_table\n  GROUP BY grade\n) t ON g.grade = t.grade\nORDER BY g.grade;

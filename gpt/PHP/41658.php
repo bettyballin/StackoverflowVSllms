@@ -1,1 +1,0 @@
-<?php\n$javaClass = 'YourJavaProgram';\n$output = shell_exec("java $javaClass 2>&1");\necho $output;\n?>

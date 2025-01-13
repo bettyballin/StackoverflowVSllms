@@ -1,0 +1,1 @@
+catch (OperationCanceledException ex)\n{\n    // log error\n}

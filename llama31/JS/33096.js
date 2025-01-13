@@ -1,0 +1,1 @@
+$(document).ready(function() {\n  var $ul = $('ul');\n  var $li = $ul.children('li');\n\n  for (var i = 0; i < $li.length; i += 2) {\n    var $group = $li.slice(i, i + 2).wrapAll('<ul/>').parent();\n    $group.wrap('<li class="li_group"/>');\n  }\n});

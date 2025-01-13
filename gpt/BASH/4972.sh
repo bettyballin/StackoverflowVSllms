@@ -1,1 +1,0 @@
-svnadmin load /path/to/repository < /path/to/backup/dumpfile

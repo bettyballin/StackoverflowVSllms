@@ -1,1 +1,0 @@
-for (int speed = 1; speed <= 10; speed++)\n{\n    double increment = CalculateOpacityIncrement(speed);\n    Console.WriteLine($"Speed: {speed}, Opacity Increment: {increment}");\n}

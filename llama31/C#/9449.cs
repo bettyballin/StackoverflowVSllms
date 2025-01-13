@@ -1,0 +1,1 @@
+var v = from a in AppDomain.CurrentDomain.GetAssemblies()\n        from b in a.GetTypes()\n        select b;

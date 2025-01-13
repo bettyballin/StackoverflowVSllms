@@ -1,1 +1,0 @@
-int foo(int) __attribute__ ((pure));

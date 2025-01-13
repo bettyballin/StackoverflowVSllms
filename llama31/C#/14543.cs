@@ -1,0 +1,1 @@
+public partial class MyWindow : Window\n{\n    public MyWindow()\n    {\n        InitializeComponent();\n        var resourceDictionary = new ResourceDictionary();\n        resourceDictionary.Source = new Uri("pack://application:,,,/YourDllName;component/Themes/Generic.xaml", UriKind.Absolute);\n        Resources.MergedDictionaries.Add(resourceDictionary);\n    }\n}

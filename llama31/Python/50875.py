@@ -1,0 +1,1 @@
+def insert_newline_at_position(file_path, position):\n    with open(file_path, 'r+') as f:\n        content = f.read()\n        f.seek(0)\n        f.write(content[:position] + '\n' + content[position:])\n        f.truncate()\n\n# Example usage:\ninsert_newline_at_position('example.txt', 3)

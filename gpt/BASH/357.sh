@@ -1,1 +1,0 @@
-setspn -S host/myserver:808 mydomain\myserviceaccount

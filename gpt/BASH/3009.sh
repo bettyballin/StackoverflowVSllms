@@ -1,1 +1,0 @@
-openssl ca -in newcert.csr -out newcert.pem -cert demoCA/cacert.pem -keyfile demoCA/private/cakey.pem

@@ -1,1 +1,0 @@
-# Open the crontab editor\ncrontab -e\n\n# Add the following line to schedule the script to run at midnight every day\n0 0 * * * /usr/bin/python3 /path/to/your_script.py

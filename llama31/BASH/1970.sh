@@ -1,0 +1,1 @@
+Test -foo $null\n# Output: Foo was specified, value is \n\nTest\n# Output: Foo was omitted

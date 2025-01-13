@@ -1,1 +1,0 @@
-import imaplib\n\n# Connect to the Gmail IMAP server\nimap = imaplib.IMAP4_SSL('imap.gmail.com', 993)\n\n# Log in to your Gmail account\ntry:\n    imap.login('bobdole@gmail.com', 'your_app_password_here')\n    print("Logged in successfully!")\nexcept imaplib.IMAP4.error as e:\n    print(f"Failed to log in: {e}")\n\n# Don't forget to logout when done\nimap.logout()

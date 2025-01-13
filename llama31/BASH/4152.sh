@@ -1,0 +1,1 @@
+set _NT_SYMBOL_PATH=srv*d:\SymbolCache*http://msdl.microsoft.com/download/symbols

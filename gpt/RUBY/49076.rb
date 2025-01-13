@@ -1,1 +1,0 @@
-describe User do\n       it "is valid with a name and email" do\n         user = User.new(name: "John Doe", email: "john@example.com")\n         expect(user).to be_valid\n       end\n     end

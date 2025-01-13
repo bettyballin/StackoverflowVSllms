@@ -1,0 +1,1 @@
+bool pass = d?.TryGetValue("k", out object value) is true && value is true;

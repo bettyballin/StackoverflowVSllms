@@ -1,1 +1,0 @@
-git remote add backup https://github.com/username/main_repo_backup.git\n    git push backup master

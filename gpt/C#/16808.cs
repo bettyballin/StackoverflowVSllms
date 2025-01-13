@@ -1,1 +1,0 @@
-<asp:GridView ID="GridView1" runat="server" AllowPaging="True" PageSize="20" OnPageIndexChanging="GridView1_PageIndexChanging">\n   </asp:GridView>\n   \n   protected void GridView1_PageIndexChanging(object sender, GridViewPageEventArgs e)\n   {\n       GridView1.PageIndex = e.NewPageIndex;\n       BindGridView(); // Method to bind GridView with data\n   }

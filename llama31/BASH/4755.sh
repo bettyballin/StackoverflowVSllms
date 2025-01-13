@@ -1,0 +1,1 @@
+java -jar signingtool.jar -createDebugToken -keystore <keystore_file> -storepass <store_password> -alias <alias>

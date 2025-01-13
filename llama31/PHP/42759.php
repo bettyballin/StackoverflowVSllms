@@ -1,0 +1,1 @@
+$combinedForms = $Forms + $formsShared;\nforeach ($combinedForms as $r) {\n    // ...\n}

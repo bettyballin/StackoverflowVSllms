@@ -1,1 +1,0 @@
-#include <set>\n#include <iostream>\n\nint main() {\n    std::set<double> sorted_set;\n\n    // Add elements\n    sorted_set.insert(3.5);\n    sorted_set.insert(1.2);\n    sorted_set.insert(4.8);\n    sorted_set.insert(2.1);\n\n    // Display sorted set\n    for (const auto& value : sorted_set) {\n        std::cout << value << " ";\n    }\n    return 0;\n}

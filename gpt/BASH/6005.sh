@@ -1,1 +1,0 @@
-# Open Command Prompt with administrative privileges and run the following command:\necho. > C:\path\to\your\logfile.txt

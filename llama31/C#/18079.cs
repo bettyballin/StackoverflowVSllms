@@ -1,0 +1,1 @@
+using Gallio.Runners;\n\n// Create a parallel test runner\nvar runner = new ParallelTestRunner();\n\n// Add your tests to the runner\nrunner.AddTests(YourTestAssembly);\n\n// Run the tests in parallel\nrunner.Run();

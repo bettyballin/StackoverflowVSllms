@@ -1,0 +1,1 @@
+class MyClass {\n    public static function myMethod() {\n        // ...\n    }\n}\n\nMyClass::myMethod(); // Correct usage of ::

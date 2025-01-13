@@ -1,1 +1,0 @@
-objdump -d yourfile.dll > output.txt

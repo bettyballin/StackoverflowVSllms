@@ -1,1 +1,0 @@
-ano ~/.ssh/authorized_keys

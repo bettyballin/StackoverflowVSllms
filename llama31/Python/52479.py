@@ -1,0 +1,1 @@
+from google.appengine.ext import webapp\nfrom google.appengine.ext.webapp.util import run_wsgi_app\n\nclass Redirect(webapp.RequestHandler):\n    def get(self):\n        self.redirect('http://example.com', permanent=True)\n\napplication = webapp.WSGIApplication([('/.*', Redirect)], debug=True)\n\ndef main():\n    run_wsgi_app(application)\n\nif __name__ == '__main__':\n    main()

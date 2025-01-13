@@ -1,0 +1,1 @@
+public IEnumerable<Entry> GetEntries(int parentId)\n{\n    using (var context = new MyDataContext())\n    {\n        var entries = context.Entries.Where(e => e.ParentId == parentId).ToList();\n        foreach (var entry in entries)\n        {\n            entry.Children = GetEntries(entry.Id).ToList();\n        }\n        return entries;\n    }\n}

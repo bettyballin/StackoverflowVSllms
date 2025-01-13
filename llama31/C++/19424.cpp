@@ -1,0 +1,1 @@
+// myclass_c.h\n#ifndef __cplusplus\ntypedef struct MyClass MyClass;\n#endif\n\n#ifdef __cplusplus\nextern "C" {\n#endif\n\nMyClass* myclass_new();\nvoid myclass_myMethod(MyClass* obj);\nvoid myclass_delete(MyClass* obj);\n\n#ifdef __cplusplus\n}\n#endif

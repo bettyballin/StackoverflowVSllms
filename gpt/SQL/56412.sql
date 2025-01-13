@@ -1,1 +1,0 @@
-SELECT YEAR(record_date) AS year, MONTH(record_date) AS month, COUNT(id) AS count\nFROM stats\nGROUP BY YEAR(record_date), MONTH(record_date);

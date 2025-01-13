@@ -1,0 +1,1 @@
+function retrieveData() {\n  $.ajax({\n    type: 'GET',\n    url: '/retrieve-data',\n    // ...\n  }).done(function() {\n    setTimeout(retrieveData, 5000); // schedule next request\n  });\n}

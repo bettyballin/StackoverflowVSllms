@@ -1,0 +1,1 @@
+class Color {\n    const RED = 1;\n    const GREEN = 2;\n    const BLUE = 3;\n}

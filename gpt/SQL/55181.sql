@@ -1,1 +1,0 @@
-SELECT\n    name,\n    period,\n    value,\n    '1' AS category\nFROM\n    A\nUNION ALL\nSELECT\n    name,\n    period,\n    value,\n    '2' AS category\nFROM\n    B\nORDER BY\n    name, period, category;

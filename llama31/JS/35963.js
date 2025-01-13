@@ -1,0 +1,1 @@
+var body = $("#txtBody")[0].value;

@@ -1,1 +1,0 @@
-Sub Main()\n       Dim animals As List(Of IAnimal) = New List(Of IAnimal) From {\n           New Dog With {.Name = "Buddy"},\n           New Cat With {.Name = "Whiskers"}\n       }\n\n       For Each animal As IAnimal In animals\n           Console.WriteLine($"{animal.Name} says:")\n           animal.MakeSound()\n       Next\n   End Sub

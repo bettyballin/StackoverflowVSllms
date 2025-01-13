@@ -1,0 +1,1 @@
+string[] array = "hello,world,foo,bar".Split(',');\nArrayList list = new ArrayList(array);

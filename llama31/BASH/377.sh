@@ -1,0 +1,1 @@
+openssl verify -CAfile comodo_root_cert.pem your_server_cert.pem

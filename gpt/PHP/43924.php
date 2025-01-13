@@ -1,1 +1,0 @@
-// Using mysql_fetch_assoc()\n  while ($row = mysql_fetch_assoc($result)) {\n      echo $row['column_name'];\n  }\n\n  // Using mysql_fetch_array()\n  while ($row = mysql_fetch_array($result)) {\n      echo $row['column_name'];  // or $row[0] if you want to use numeric index\n  }

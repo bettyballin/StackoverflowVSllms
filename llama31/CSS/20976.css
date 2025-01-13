@@ -1,0 +1,1 @@
+.outerBox {\n  width: 100%;\n  overflow: hidden; /* clearfix */\n}\n\n.innerBoxLeft, .innerBoxRight {\n  float: left;\n  width: 45%;\n  padding-bottom: 10000px; /* magic happens here */\n  margin-bottom: -10000px; /* magic happens here */\n}\n\n.innerBoxLeft {\n  float: left;\n}\n\n.innerBoxRight {\n  float: right;\n}

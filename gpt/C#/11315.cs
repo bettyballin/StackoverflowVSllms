@@ -1,1 +1,0 @@
-protected void RefreshButton_Click(object sender, EventArgs e)\n{\n    // Your logic to refresh the UpdatePanel content\n}

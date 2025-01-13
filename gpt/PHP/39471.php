@@ -1,1 +1,0 @@
-<?php\n$input = "asd";\n\n// Compute the MD5 hash of the input\n$hash = md5($input, true); // true here makes sure the hash is in raw binary format\n\n// Convert the binary hash to a Base64 string\n$output = base64_encode($hash);\n\necho $output; // This should output: eBVpbsvxyW5olLd5RW0zDg==\n?>

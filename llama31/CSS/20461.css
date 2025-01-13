@@ -1,0 +1,1 @@
+#wrap {\n    width: 912px;\n    margin: 0 auto;\n    background: Green;\n    overflow: hidden; /* Add this line */\n}

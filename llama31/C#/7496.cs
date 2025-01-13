@@ -1,0 +1,1 @@
+public class MyClass : IMyInterface\n{\n    #region IMyInterface Members\n\n    public void MyMethod()\n    {\n        throw new NotImplementedException();\n    }\n\n    public int MyProperty\n    {\n        get { throw new NotImplementedException(); }\n        set { throw new NotImplementedException(); }\n    }\n\n    #endregion\n}

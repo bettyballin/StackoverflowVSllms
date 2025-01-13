@@ -1,1 +1,0 @@
-htop\n   vmstat 1\n   iostat -x 1

@@ -1,1 +1,0 @@
-#!/bin/bash\n\n# Extract labels and values\nlabels=$(sed -nr 's/^---(\S+):.*$/\1/p' input.txt | tr '\n' ',')\nvalues=$(sed -nr 's/^---\S+: (\S+)$/\1/p' input.txt | tr '\n' ',')\n\n# Remove the trailing comma\nlabels=${labels%,}\nvalues=${values%,}\n\n# Print the CSV formatted output\necho "$labels"\necho "$values"

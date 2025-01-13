@@ -1,1 +1,0 @@
-git format-patch -1\n     git send-email --to <maintainer-email> --cc linux-kernel@vger.kernel.org 0001-Your-patch-subject.patch

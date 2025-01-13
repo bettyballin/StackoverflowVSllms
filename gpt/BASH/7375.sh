@@ -1,1 +1,0 @@
-git log --graph --oneline --all --decorate --abbrev-commit

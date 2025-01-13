@@ -1,0 +1,1 @@
+#pragma message("This is a compile-time message.")

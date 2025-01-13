@@ -1,0 +1,1 @@
+$validators = array(\n    'salutation' => array(\n        new Zend_Validate_NotEmpty(),\n        Zend_Filter_Input::VALIDATOR_OPTIONS => array(\n            'messages' => array(\n                Zend_Validate_NotEmpty::IS_EMPTY => "Please enter a salutation"\n            )\n        )\n    ),\n    /* ... */\n);

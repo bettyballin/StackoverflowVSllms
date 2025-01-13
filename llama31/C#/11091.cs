@@ -1,0 +1,1 @@
+var ssrsProxy = new SSRSProxy("https://your-ssrs-server.com/ReportServer", "username", "password");\nvar reportViewer = ssrsProxy.GetReportViewer("/YourReportPath");

@@ -1,0 +1,1 @@
+byte[] data = GetFoo();\nResponse.Clear();\nResponse.Buffer = true;\nResponse.ContentType = "application/pdf";\nResponse.AppendHeader("Content-Disposition", "attachment; filename=yourfile.pdf");\nResponse.BinaryWrite(data);\nResponse.End();

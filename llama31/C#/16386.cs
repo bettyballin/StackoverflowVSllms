@@ -1,0 +1,1 @@
+dynamic data = scope.GetVariable("data");\nstring name = data.name; // "John"\nint age = data.age; // 30

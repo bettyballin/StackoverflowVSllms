@@ -1,1 +1,0 @@
-INSERT INTO MIUsInGridAvgs (NumberofMIUs, ProjRSSI, RealRSSI, CenterLat, CenterLong)\nSELECT \n    COUNT(MIUsInGrid.MIUID), \n    AVG(MIUsInGrid.ProjRSSI), \n    AVG(MIUsInGrid.RealRSSI), \n    AVG(Results.Latitude), \n    AVG(Results.Longitude)\nFROM \n    MIUsInGrid \nJOIN \n    Results \nON \n    MIUsInGrid.<join_column> = Results.<join_column>

@@ -1,1 +1,0 @@
-public IList<Customer> ConvertCustomers(IList<CustomerDTO> dtos)\n{\n    return dtos.Select(dto => mapper.Map<Customer>(dto)).ToList();\n}

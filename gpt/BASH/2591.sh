@@ -1,1 +1,0 @@
-pg_badger /path/to/your/postgresql.log -o /path/to/output/report.html

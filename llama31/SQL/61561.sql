@@ -1,0 +1,1 @@
+WHERE database.foobar IS NULL

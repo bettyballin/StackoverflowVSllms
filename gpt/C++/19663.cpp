@@ -1,1 +1,0 @@
-// EXE usage\n#include "MySharedInterface.h"\n#include <iostream>\n#include <vector>\n\nint main() {\n    IVectorProcessor* processor = createVectorProcessor();\n\n    std::vector<int> data = {1, 2, 3, 4, 5};\n    processor->process(data);\n\n    destroyVectorProcessor(processor);\n\n    return 0;\n}

@@ -1,1 +1,0 @@
-signtool sign /a /t http://timestamp.digicert.com /fd SHA256 /f MyCertificate.pfx /p MyPassword MyAssembly.dll

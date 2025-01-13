@@ -1,0 +1,1 @@
+#include <process.h>\n\nint main() {\n    DWORD pid = GetProcessId(GetCurrentProcess());\n    // use pid as needed\n    return 0;\n}

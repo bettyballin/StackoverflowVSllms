@@ -1,0 +1,1 @@
+function autoload($class) {\n    $files = glob(strtolower($class) . '.class.php');\n    if (empty($files)) {\n        $files = glob(ucfirst($class) . '.class.php');\n    }\n    if (!empty($files)) {\n        require_once $files[0];\n    }\n}

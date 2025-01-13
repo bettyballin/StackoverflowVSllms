@@ -1,0 +1,1 @@
+// Assuming $mysqli is your MySQLi connection object\n$result = $mysqli->query("SELECT * FROM your_table");\n\n// Fetch all rows as an associative array\n$multidimensionalArray = $result->fetch_all(MYSQLI_ASSOC);\n\n// Close the result and connection\n$result->close();\n$mysqli->close();

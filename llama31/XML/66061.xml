@@ -1,0 +1,1 @@
+<httpHandlers>\n    <add verb="*" path="RestService.ashx" type="YourNamespace.RestHandler, YourAssembly" />\n</httpHandlers>

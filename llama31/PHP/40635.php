@@ -1,0 +1,1 @@
+$command = 'mysqldump --opt -h localhost -u username --password="password" dbname > \'backup 2009-04-15 09-57-13.sql\'';

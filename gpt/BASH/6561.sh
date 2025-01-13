@@ -1,1 +1,0 @@
-php -r "copy('https://getcomposer.org/installer', 'composer-setup.php');"\n   php composer-setup.php\n   php -r "unlink('composer-setup.php');"

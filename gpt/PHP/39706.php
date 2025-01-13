@@ -1,1 +1,0 @@
-// Assuming $db is your database connection\n$db->query("SET time_zone = 'Australia/ACT'");\n\n$result = $db->fetchRow("SELECT datetime_column FROM your_table");\n$date = new Zend_Date($result['datetime_column'], Zend_Date::ISO_8601);\necho $date->get(Zend_Date::TIME_MEDIUM); // Output will be in the 'Australia/ACT' timezone

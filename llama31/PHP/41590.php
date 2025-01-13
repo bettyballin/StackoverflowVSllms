@@ -1,0 +1,1 @@
+$date = date("D F j", strtotime($row['date']));\necho $date;

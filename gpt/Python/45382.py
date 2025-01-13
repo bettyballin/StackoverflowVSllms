@@ -1,1 +1,0 @@
-import idlelib.pyshell\nidlelib.pyshell.main(['-n', '<path_to_module_file>'])

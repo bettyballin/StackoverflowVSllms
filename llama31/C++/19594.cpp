@@ -1,0 +1,1 @@
+struct DocFile {\n  // File header (16 bytes)\n  uint32_t fileType;\n  uint32_t version;\n  uint32_t reserved1;\n  uint32_t reserved2;\n\n  // FAT (variable length)\n  uint32_t fatSize;\n  uint32_t* fatEntries;\n\n  // Text stream (variable length)\n  uint8_t* textStream;\n\n  // FIB (variable length)\n  uint32_t fibSize;\n  uint8_t* fibData;\n};

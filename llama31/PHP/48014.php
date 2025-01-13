@@ -1,0 +1,1 @@
+$allowedFunctions = array('foo', 'bar');\n$functionName = "foo";\n\nif (in_array($functionName, $allowedFunctions)) {\n    call_user_func($functionName);\n} else {\n    echo "Invalid function name";\n}

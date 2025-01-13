@@ -1,0 +1,1 @@
+<Connector port="8080" protocol="HTTP/1.1">\n  <ProxyPass /http-bind ajp://localhost:8009/http-bind>\n  <ProxyPassReverse /http-bind ajp://localhost:8009/http-bind>\n</Connector>

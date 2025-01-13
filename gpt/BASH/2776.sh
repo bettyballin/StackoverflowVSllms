@@ -1,1 +1,0 @@
-etsh http add sslcert ipport=0.0.0.0:443 certhash=1234567890abcdef1234567890abcdef12345678 appid={00112233-4455-6677-8899-AABBCCDDEEFF}

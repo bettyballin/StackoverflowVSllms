@@ -1,0 +1,1 @@
+pkill -g <PGID> -9

@@ -1,0 +1,1 @@
+$public_key = 'file://path/to/public/key';\n$data = 'received data here';\n$signature = 'received signature here';\n\n$verified = openssl_verify($data, $signature, $public_key);\nif ($verified === 1) {\n    echo "Data verified successfully!";\n} else {\n    echo "Data verification failed!";\n}

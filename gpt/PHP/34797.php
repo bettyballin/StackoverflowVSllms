@@ -1,1 +1,0 @@
-$file = '/document_root/myfile.pdf';\n\nif (file_exists($file)) {\n    echo "The file was last modified on: " . date("F d Y H:i:s.", filemtime($file));\n} else {\n    echo "File does not exist.";\n}

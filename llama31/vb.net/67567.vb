@@ -1,0 +1,1 @@
+Dim dictionary As New Dictionary(Of String, String)\ndictionary.Add("key1", "value1")\ndictionary.Add("key2", "value2")

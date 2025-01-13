@@ -1,1 +1,0 @@
-// Example of using Entity Framework Core\n   using (var context = new YourDbContext())\n   {\n       var query = from item in context.YourDbSet\n                   where item.Property == "value"\n                   select item;\n       \n       foreach (var result in query)\n       {\n           Console.WriteLine(result);\n       }\n   }

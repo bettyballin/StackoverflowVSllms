@@ -1,1 +1,0 @@
-import nxt\nfrom nxt.motor import *\n\nb = nxt.find_one_brick()\nm_left = Motor(b, PORT_B)\nm_right = Motor(b, PORT_C)\n\nm_left.run(power=100)\nm_right.run(power=100)\n\ntime.sleep(2)\n\nm_left.brake()\nm_right.brake()

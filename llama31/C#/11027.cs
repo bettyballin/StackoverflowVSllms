@@ -1,0 +1,1 @@
+using System.Web.Mvc;\n\npublic class MyHelper\n{\n    public string GetResetPasswordUrl()\n    {\n        UrlHelper urlHelper = new UrlHelper(HttpContext.Current.Request.RequestContext);\n        return urlHelper.Action("ResetPassword", "AccountController");\n    }\n}

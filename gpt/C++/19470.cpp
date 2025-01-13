@@ -1,1 +1,0 @@
-#include <comdef.h>\n#include <iostream>\n\nint main() {\n    // Creating a _bstr_t string\n    _bstr_t bstr_t(L"Hello, World!");\n\n    // Using the _bstr_t string\n    wprintf(L"%s\n", (wchar_t*)bstr_t);\n\n    // _bstr_t automatically handles memory deallocation when it goes out of scope\n    return 0;\n}

@@ -1,0 +1,1 @@
+protected override void OnInit(EventArgs e)\n{\n    if (IsPostBack)\n    {\n        // Skip authentication check for postbacks\n        Context.SkipAuthorization = true;\n    }\n    base.OnInit(e);\n}

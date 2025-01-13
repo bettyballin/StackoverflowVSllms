@@ -1,0 +1,1 @@
+# List of binary files to build\nBINS = file1 file2 file3\n\n# Default target: build all binaries\nall: $(BINS)\n\n# Clean target: remove binaries and temporary files\nclean:\n        rm -f $(BINS) *~\n\n# Pattern rule: build a binary from a corresponding .c file\n%: %.c\n        # Use gcc to build the binary with debugging information\n        gcc -g -o $@ $?

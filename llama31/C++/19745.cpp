@@ -1,0 +1,1 @@
+#include <regex>\n#include <string>\n\nstd::string replace_html_entities(const std::string& input) {\n    return std::regex_replace(input, std::regex("&#(\\d+);"),\n        [](const std::smatch& match) {\n            int codepoint = std::stoi(match[1]);\n            return std::string(1, static_cast<char>(codepoint));\n        });\n}

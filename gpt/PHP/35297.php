@@ -1,1 +1,0 @@
-$somepass = $_POST['password'];\n$hashedPass = password_hash($somepass, PASSWORD_DEFAULT);\n\n// Store $hashedPass in the database

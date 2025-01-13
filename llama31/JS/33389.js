@@ -1,0 +1,1 @@
+$.get("/game/getpuzzleinfo?" + new Date().getTime(), null, function(data, status) {\n  // ...\n}, "json");

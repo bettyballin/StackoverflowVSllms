@@ -1,1 +1,0 @@
-$ ./writer "Message from writer 1"\n      $ ./writer "Message from writer 2"

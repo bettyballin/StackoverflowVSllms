@@ -1,0 +1,1 @@
+class QuestionMembership < ActiveRecord::Base\n  default_scope order('position')\n  # ...\nend

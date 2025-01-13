@@ -1,1 +1,0 @@
-def __init__(self, card):\n    # [...]\n    if self.cardFace == -1 or self.cardSuit == -1:\n        raise ValueError(card, 'is not a known card.')

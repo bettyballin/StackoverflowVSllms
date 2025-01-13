@@ -1,0 +1,1 @@
+// Object 1's Code:\nsharedArea = (MyStruct*)mmap(0, fileSize,\n    PROT_READ | PROT_WRITE | PROT_EXEC, MAP_SHARED, sharedFileName, 0);\nif (sharedArea == MAP_FAILED) {\n    // handle error\n}

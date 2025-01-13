@@ -1,0 +1,1 @@
+# Example Monit configuration\ncheck process hudson\n  with pidfile /var/run/hudson.pid\n  start program "/etc/init.d/hudson start"\n  stop program "/etc/init.d/hudson stop"\n  if cpu > 80% for 5 cycles then alert\n  if disk usage > 90% then alert

@@ -1,0 +1,1 @@
+// DataGrid ItemCommand event handler\nprotected void dgOrders_ItemCommand(object source, DataGridCommandEventArgs e)\n{\n    if (e.CommandName == "ViewOrder")\n    {\n        int orderId = Convert.ToInt32(e.CommandArgument);\n        Response.Redirect("PageB.aspx?OrderId=" + orderId);\n    }\n}

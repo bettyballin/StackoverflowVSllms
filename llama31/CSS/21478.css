@@ -1,0 +1,1 @@
+#content {\n  position: relative;\n  z-index: 1;\n}\n\n#footer {\n  position: relative;\n  z-index: 0;\n  margin-top: -100px; /* adjust this value to control the overlap */\n}

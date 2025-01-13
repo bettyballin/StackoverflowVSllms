@@ -1,0 +1,1 @@
+SELECT *\nFROM Product\nORDER BY featured DESC\nLIMIT 1;

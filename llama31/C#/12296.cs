@@ -1,0 +1,1 @@
+public static class MyStaticClass\n{\n    public static int MyProperty { get; set; }\n    public static string AnotherProperty { get; set; }\n\n    public static void Reset()\n    {\n        MyProperty = default(int);\n        AnotherProperty = string.Empty; // or null, depending on the default value you want\n    }\n}

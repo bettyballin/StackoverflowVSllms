@@ -1,0 +1,1 @@
+XmlDocument xmlDoc = new XmlDocument();\nxmlDoc.LoadXml("<command><parameters /></command>");\nstring xmlPayload = xmlDoc.OuterXml;\nbyte[] bytes = Encoding.GetEncoding("ISO-8859-1").GetBytes(xmlPayload);\nrequest.ContentLength = bytes.Length;\nStream requestStream = request.GetRequestStream();\nrequestStream.Write(bytes, 0, bytes.Length);\nrequestStream.Close();

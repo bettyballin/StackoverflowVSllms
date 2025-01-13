@@ -1,0 +1,1 @@
+caspol -m -ag YourAssembly.dll YourPermissio

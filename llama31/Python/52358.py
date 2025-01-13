@@ -1,0 +1,1 @@
+import re\n\n# convert the PyJavaInstance to a string\ndata_str = str(data)\n\n# extract numbers using regular expression\nnumbers = re.findall(r"[-+]?\d*\.\d+|[-+]?\d+", data_str)\n\n# convert the numbers to a Python list of floats\nnumbers_list = [float(x) for x in numbers]

@@ -1,0 +1,1 @@
+using System.IO;\n\nstring sourcePath = @"C:\very\long\path\to\file.txt";\nstring destinationPath = @"C:\new\location\with\long\path\to\file.txt";\n\nLongPath.Copy(sourcePath, destinationPath);

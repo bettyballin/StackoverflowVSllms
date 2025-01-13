@@ -1,0 +1,1 @@
+tinyMCE.init({\n  ...\n  relative_urls : false,\n  remove_script_host : false,\n  ...\n});

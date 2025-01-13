@@ -1,1 +1,0 @@
-chkconfig --add <service_name>

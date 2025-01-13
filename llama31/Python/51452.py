@@ -1,0 +1,1 @@
+import hashlib\n\ndef get_file_hash(file_path):\n    with open(file_path, 'rb') as file:\n        hash = hashlib.md5()\n        while chunk := file.read(4096):\n            hash.update(chunk)\n    return hash.hexdigest()\n\n# Example usage:\nfile_list = ['file1.txt', 'file2.txt', 'file3.txt']\nhash_values = {file: get_file_hash(file) for file in file_list}\nprint(hash_values)

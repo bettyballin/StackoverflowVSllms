@@ -1,1 +1,0 @@
-<a href="/last_page">Back</a> | \n<span class="button-container">\n  <%= button_to 'Continue', next_page_path, method: :post, class: 'button-to' %>\n</span>

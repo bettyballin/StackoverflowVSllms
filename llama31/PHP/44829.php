@@ -1,0 +1,1 @@
+$name = 'StaticClass';\n$name::foo();

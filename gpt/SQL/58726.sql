@@ -1,1 +1,0 @@
--- Insert into Table1\nINSERT INTO Table1 (/* other columns */)\nVALUES (/* other values */);\n\n-- Insert into Table2\nINSERT INTO Table2 (/* other columns */)\nVALUES (/* other values */);

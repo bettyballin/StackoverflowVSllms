@@ -1,0 +1,1 @@
+sysbench --test=oltp --oltp-table-size=100000 --num-threads=10 --time=60 ru

@@ -1,0 +1,1 @@
+gcc -m32 your_assembly_code.s -o output_file

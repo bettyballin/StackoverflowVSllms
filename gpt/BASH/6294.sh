@@ -1,1 +1,0 @@
-sudo cpan install CGI DBI DBD::mysql

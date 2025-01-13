@@ -1,1 +1,0 @@
-function validateEmail(email) {\n       const re = /^(([^<>()\[\]\.,;:\s@"]+(\.[^<>()\[\]\.,;:\s@"]+)*)|(".+"))@(([^<>()[\]\.,;:\s@"]+\.)+[^<>()[\]\.,;:\s@"]{2,})$/i;\n       return re.test(String(email).toLowerCase());\n   }

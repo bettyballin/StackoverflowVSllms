@@ -1,0 +1,1 @@
+SELECT p.*\nFROM posts p\nWHERE NOT EXISTS (\n  SELECT 1\n  FROM comments c\n  WHERE c.post_id = p.id AND c.comment_date >= '2022-01-01'\n);

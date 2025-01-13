@@ -1,0 +1,1 @@
+stsadm -o configdb -create -database <DB_Server_Name> -user <Domain\Username> -password <Password>

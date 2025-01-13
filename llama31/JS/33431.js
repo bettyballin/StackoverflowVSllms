@@ -1,0 +1,1 @@
+// Get the selected cells\nvar selectedCells = $('td:selected');\n\n// Get the table element\nvar table = selectedCells.closest('table');\n\n// Change the border width and color of the table\ntable.css('border-width', '2px');\ntable.css('border-color', '#FF0000');

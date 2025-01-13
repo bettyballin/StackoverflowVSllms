@@ -1,1 +1,0 @@
-mkdir build && cd build\n    cmake .. -G "Ninja"\n    ninja

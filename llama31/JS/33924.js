@@ -1,0 +1,1 @@
+function foo(bar, baz) {\n  console.log(bar); // outputs "hello"\n  console.log(baz); // outputs undefined\n}\n\nfoo("hello");

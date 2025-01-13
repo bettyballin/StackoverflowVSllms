@@ -1,0 +1,1 @@
+$('#tree').tree({\n  data: '/path/to/json/data',\n  loadData: function(node, callback) {\n    // Load data asynchronously\n    $.ajax({\n      url: '/path/to/json/data',\n      data: { id: node.id },\n      success: callback\n    });\n  }\n});

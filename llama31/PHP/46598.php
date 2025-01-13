@@ -1,0 +1,1 @@
+// example of using prepared statements in php\n$stmt = $pdo->prepare('SELECT * FROM report_table_row_counts WHERE table_name = :table_name');\n$stmt->execute(['table_name' => 'my_table']);

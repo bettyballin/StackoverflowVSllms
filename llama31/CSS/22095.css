@@ -1,0 +1,1 @@
+select {\n  -webkit-appearance: none;\n  -moz-appearance: none;\n  appearance: none;\n  background-image: url('down-arrow.png'); /* replace with your own image */\n  background-position: right center;\n  background-repeat: no-repeat;\n  padding-right: 20px; /* adjust padding to fit your image */\n}

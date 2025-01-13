@@ -1,0 +1,1 @@
+SELECT p.* \nFROM Posts p\nJOIN Posts_Tags pt ON p.id = pt.post_id\nJOIN Tags t ON pt.tag_id = t.id\nWHERE t.name = 'team-fortress-2';

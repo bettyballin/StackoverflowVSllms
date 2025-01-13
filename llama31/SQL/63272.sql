@@ -1,0 +1,1 @@
+IF @@VERSION LIKE '%2000%'\nBEGIN\n    SELECT * FROM sysjobs\nEND\nELSE IF @@VERSION LIKE '%2005%'\nBEGIN\n    SELECT * FROM msdb.dbo.sysjobschedules\nEND

@@ -1,0 +1,1 @@
+SELECT p.productId, p.colorsId, p.imgId, i.imgSrc, pc.colorName\nFROM products p\nLEFT JOIN (\n    SELECT imgId, imgSrc, colorId, colorName\n    FROM images\n    CROSS JOIN productcolors\n) ipc ON p.imgId = ipc.imgId AND p.colorsId = ipc.colorId\nWHERE p.productId = 1;  -- Change the productId as needed

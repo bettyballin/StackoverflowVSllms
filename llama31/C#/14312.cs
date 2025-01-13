@@ -1,0 +1,1 @@
+using System.Runtime.InteropServices;\n\npublic class MyLibrary\n{\n    static MyLibrary()\n    {\n        // ...\n\n        // Register the Skype4COM.dll for COM interop\n        RegistrationServices regServices = new RegistrationServices();\n        regServices.RegisterAssembly(skypeAssembly, AssemblyRegistrationFlags.SetCodeBase);\n    }\n}

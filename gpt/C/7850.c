@@ -1,1 +1,0 @@
-SetElement my_element = (SetElement)my_var;\nmy_function(&my_element);

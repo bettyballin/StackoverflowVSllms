@@ -1,1 +1,0 @@
-SELECT n.*\nFROM notifications n\nJOIN user_notifications un ON n.id = un.notification_id\nWHERE un.user_id = ? AND un.status = 'unread';

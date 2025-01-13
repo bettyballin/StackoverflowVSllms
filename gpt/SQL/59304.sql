@@ -1,1 +1,0 @@
-WITH SortedPosts AS (\n    SELECT \n        id, \n        user_id, \n        topic_id, \n        post_date,\n        ROW_NUMBER() OVER (PARTITION BY topic_id ORDER BY post_date) AS row_number\n    FROM \n        posts\n)\nSELECT \n    row_number\nFROM \n    SortedPosts\nWHERE \n    id = :post_id AND topic_id = :topic_id;

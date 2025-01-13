@@ -1,0 +1,1 @@
+CREATE TABLE your_table_name (\n  column1,\n  column2,\n  ...\n)\nORGANIZATION EXTERNAL (\n  TYPE ORACLE_LOADER\n  DEFAULT DIRECTORY your_directory_name\n  ACCESS PARAMETERS (\n    RECORDS DELIMITED BY NEWLINE\n    FIELDS TERMINATED BY ',' OPTIONALLY ENCLOSED BY '\"'\n  )\n  LOCATION ('script.sql')\n);

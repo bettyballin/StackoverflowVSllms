@@ -1,1 +1,0 @@
-import shutil\n\ntry:\n    shutil.rmtree('/folder_name')\n    print("Folder successfully deleted")\nexcept Exception as e:\n    print(f"Error: {e}")

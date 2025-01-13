@@ -1,0 +1,1 @@
+pssh -h hosts.txt -l user -A -c "/path/to/local/file" "/remote/path/"

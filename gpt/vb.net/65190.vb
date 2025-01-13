@@ -1,1 +1,0 @@
-Public MustInherit Class Container(Of T As {New, BaseClass})\n    Inherits ArrayList(Of T)\n    Implements IContainer\n    ' Implement interface methods and properties here\nEnd Class

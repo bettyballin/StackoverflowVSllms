@@ -1,1 +1,0 @@
-<?php\n$encoded_string = "%C5%A1"; // URL-encoded string for "š"\n$decoded_string = urldecode($encoded_string);\necho $decoded_string; // This should output "š"

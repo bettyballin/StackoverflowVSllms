@@ -1,0 +1,1 @@
+<runtime>\n  <assemblyBinding xmlns="urn:schemas-microsoft-com:asm.v1">\n    <dependentAssembly>\n      <assemblyIdentity name="Foo" publicKeyToken="null" culture="neutral" />\n      <bindingRedirect oldVersion="1.0.0.0" newVersion="1.0.0.0" />\n    </dependentAssembly>\n  </assemblyBinding>\n</runtime>

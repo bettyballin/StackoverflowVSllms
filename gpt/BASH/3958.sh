@@ -1,1 +1,0 @@
-for /d /r %%i in (.svn) do @if exist "%%i" rmdir /s /q "%%i"

@@ -1,0 +1,1 @@
+$color = 'red';\n$red = new stdClass();\n$red->attribute = 'yes, I am red';\necho $$color->attribute; // outputs: 'yes, I am red'

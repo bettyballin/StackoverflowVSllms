@@ -1,1 +1,0 @@
-public class Employee\n{\n    public int EmployeeId { get; set; }\n    public string Name { get; set; }\n}\n\n// Usage example\nusing (IDataReader dataReader = /* obtain your data reader from the third party library */)\n{\n    List<Employee> employees = dataReader.ToList<Employee>();\n}

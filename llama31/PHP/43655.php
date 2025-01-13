@@ -1,0 +1,1 @@
+// In your action script (e.g., http://www.123456.com/ac.php)\n$returnUrl = $_POST['return_url'];\n// Validate and sanitize the return URL to prevent XSS attacks\n$returnUrl = filter_var($returnUrl, FILTER_SANITIZE_URL);\n// Now you can redirect the user back to the original page\nheader('Location: ' . $returnUrl);\nexit;

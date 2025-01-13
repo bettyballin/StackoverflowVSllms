@@ -1,0 +1,1 @@
+[HttpPost]\npublic ActionResult Create(Dinner dinner)\n{\n    dinner.Validate(dbContext.ModelBuilder);\n\n    if (dinner.GetRuleViolations().Any())\n    {\n        return View();\n    }\n\n    // Save dinner...\n}

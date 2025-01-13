@@ -1,0 +1,1 @@
+<script type="text/javascript">\n  var editor = new FreeRTE(document.getElementById('editor'));\n  editor.init();\n</script>

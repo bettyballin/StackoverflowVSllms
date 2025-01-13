@@ -1,1 +1,0 @@
-ssh user@computer_name

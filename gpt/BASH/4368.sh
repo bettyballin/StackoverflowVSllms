@@ -1,1 +1,0 @@
-winscp-command-1\nwinscp-command-2\n...\npause

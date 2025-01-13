@@ -1,1 +1,0 @@
-# Example using screen\n    screen -S mysession\n    ./myscript.sh\n    # Detach with Ctrl+A, then D

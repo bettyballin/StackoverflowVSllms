@@ -1,0 +1,1 @@
+#include <stdio.h>\n\nint main() {\n    unsigned int original = 0x20; // 0010 0000 in binary\n    unsigned int reversed = reverseBits(original);\n    printf("0x%X => 0x%X\n", original, reversed); // Output: 0x20 => 0x4\n    return 0;\n}

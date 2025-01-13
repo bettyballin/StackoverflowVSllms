@@ -1,0 +1,1 @@
+$.ajax({\n  async: false,\n  dataType: "json",\n  url: "http://ws.audioscrobbler.com/2.0/?method=artist.getimages&artist=" + artist + "&api_key=" + apiKey + "&format=json",\n  jsonp: false,\n  success: function(html) {\n    imgURL = html.images.image[1].sizes.size[0]["#text"];\n  }\n});

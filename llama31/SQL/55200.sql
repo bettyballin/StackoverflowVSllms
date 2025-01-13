@@ -1,0 +1,1 @@
+SELECT *\nFROM user_records\nWHERE user_id = ?  // Replace with the actual user ID\n  AND id BETWEEN ?  // Replace with the min_id\n  AND ?  // Replace with the max_id\nORDER BY id ASC;

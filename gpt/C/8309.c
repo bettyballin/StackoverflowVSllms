@@ -1,1 +1,0 @@
-const char *command = "PTZControl?pan=left&tilt=up"; // Example command\n   send(ConnectSocket, command, (int)strlen(command), 0);

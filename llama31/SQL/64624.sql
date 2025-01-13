@@ -1,0 +1,1 @@
+SELECT dbo.FormatDecimal(12.550000) AS FormattedValue\nSELECT dbo.FormatDecimal(14.456700) AS FormattedValue\nSELECT dbo.FormatDecimal(15.00) AS FormattedValue

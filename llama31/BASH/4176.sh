@@ -1,0 +1,1 @@
+ssh -o ExitOnForwardFailure=yes remotehost.example.com invokejob.py

@@ -1,0 +1,1 @@
+idContent.document.importStylesheet('your-custom-stylesheet.css');

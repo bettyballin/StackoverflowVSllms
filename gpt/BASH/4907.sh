@@ -1,1 +1,0 @@
-@echo off\n:: Add or modify a string value\nreg add "HKCU\Software\MyApp" /v "MyStringValue" /t REG_SZ /d "NewValue" /f

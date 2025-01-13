@@ -1,1 +1,0 @@
-cd rpmbuild/SOURCES\n   tar czvf mygame-1.0.tar.gz mygame

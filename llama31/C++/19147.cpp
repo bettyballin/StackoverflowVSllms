@@ -1,0 +1,1 @@
+#include <gtkmm.h>\n\nint main() {\n    auto app = Gtk::Application::create("org.gtkmm.example");\n\n    Gtk::Window window;\n    window.set_title("Hello World");\n\n    Gtk::Label label("Hello World!");\n    window.add(label);\n\n    return app->run(window);\n}

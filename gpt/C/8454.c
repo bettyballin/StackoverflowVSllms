@@ -1,1 +1,0 @@
-// In module.c\nstatic void module_specific_function() {\n    // Function implementation\n}\n\n// This function is accessible outside the module\nvoid public_function() {\n    // Function implementation\n}

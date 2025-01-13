@@ -1,0 +1,1 @@
+$cresult = explode(PHP_EOL, $cresult);

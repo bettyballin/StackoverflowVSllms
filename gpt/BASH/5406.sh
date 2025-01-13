@@ -1,1 +1,0 @@
-# Simulate network delay\n   sudo tc qdisc add dev eth0 root netem delay 100ms\n   # Simulate packet loss\n   sudo tc qdisc add dev eth0 root netem loss 1%

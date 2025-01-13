@@ -1,0 +1,1 @@
+gcc -fPIC -c module.c

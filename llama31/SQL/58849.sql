@@ -1,0 +1,1 @@
+ALTER TABLE Table\nADD UniqueID AS (CASE WHEN RecordStatus = 1 THEN ID ELSE NULL END);\n\nCREATE UNIQUE INDEX IX_Table_UniqueID ON Table (UniqueID);

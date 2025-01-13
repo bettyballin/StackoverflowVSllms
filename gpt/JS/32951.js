@@ -1,1 +1,0 @@
-var b;\n    b = alert('test'), 6;\n    alert(b);  // alert undefined\n    b = 5, alert('test2');\n    alert(b);  // alert 5

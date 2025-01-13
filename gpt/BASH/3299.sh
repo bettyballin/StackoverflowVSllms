@@ -1,1 +1,0 @@
-gcc -dD -E yourfile.cc -o preprocessed_output.txt

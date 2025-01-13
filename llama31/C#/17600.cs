@@ -1,0 +1,1 @@
+[Function(Name = "dbo.proc_StatsDay")]\npublic IDataReader proc_EasyDay([Parameter(DbType = "NVarChar(64)")] string columns)\n{\n    IDataReader result = this.ObjectContext.ExecuteStoreQuery("EXEC proc_StatsDay @columns", new SqlParameter("@columns", columns));\n    return result;\n}

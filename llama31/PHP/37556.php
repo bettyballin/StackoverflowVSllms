@@ -1,0 +1,1 @@
+$guests = array();\n$sql = "SELECT * FROM `guestlist`";\n$stmt = $pdo->query($sql);\nwhile ($data = $stmt->fetch(PDO::FETCH_ASSOC)) {\n    $guests[] = $data['name'];\n}

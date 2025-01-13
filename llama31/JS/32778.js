@@ -1,0 +1,1 @@
+// Example of how to sanitize user-inputted data using JavaScript\nconst userInput = 'Some user-inputted data';\nconst sanitizedInput = userInput.replace(/</g, '&lt;').replace(/>/g, '&gt;');

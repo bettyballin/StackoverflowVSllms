@@ -1,0 +1,1 @@
+@echo off\njava -jar yourapplication.jar

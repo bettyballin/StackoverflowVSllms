@@ -1,0 +1,1 @@
+using System.Security.Cryptography;\n\npublic bool ShouldEventHappen()\n{\n    using (var rng = new RNGCryptoServiceProvider())\n    {\n        var randomBytes = new byte[1];\n        rng.GetBytes(randomBytes);\n        var randomInt = (int)randomBytes[0];\n        return randomInt % 100 < 4;\n    }\n}

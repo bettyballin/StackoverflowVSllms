@@ -1,0 +1,1 @@
+$xmlFile = 'https://example.com/data.xml'; // external XML file URL\n$xslFile = 'tabledisplay.xsl'; // your XSLT stylesheet file\n\n$xml = new DOMDocument();\n$xml->load($xmlFile);\n\n$xsl = new DOMDocument();\n$xsl->load($xslFile);\n\n$proc = new XSLTProcessor();\n$proc->importStylesheet($xsl);\n$result = $proc->transformToDoc($xml);\n\necho $result->saveHTML();

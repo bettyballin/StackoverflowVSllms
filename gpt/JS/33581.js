@@ -1,1 +1,0 @@
-/**\n * Parses a string into an integer using base 10.\n * This function should be used instead of parseInt to avoid octal interpretation.\n * @param {string} str - The string to parse.\n * @return {number} The parsed integer.\n */\nfunction parseBaseTenInt(str) {\n  return parseInt(str, 10);\n}

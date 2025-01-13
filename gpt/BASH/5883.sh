@@ -1,1 +1,0 @@
-et use X: \\sshfs\user@192.168.1.10\home\user\documents

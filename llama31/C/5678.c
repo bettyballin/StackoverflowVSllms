@@ -1,0 +1,1 @@
+#include <Python.h>\n\nint main() {\n    Py_SetPrefix("/path/to/custom/prefix");\n    Py_SetPath("/path/to/custom/lib");\n\n    Py_Initialize();\n\n    // Your embedded Python code here\n\n    Py_Finalize();\n    return 0;\n}

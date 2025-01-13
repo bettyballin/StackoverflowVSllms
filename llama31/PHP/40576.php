@@ -1,0 +1,1 @@
+class MyClass {\n    public static function MyMethod() {\n        echo "Hello, World!";\n    }\n}\n\n// Access the static method\nMyClass::MyMethod();

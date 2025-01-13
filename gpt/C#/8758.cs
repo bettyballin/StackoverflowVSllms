@@ -1,1 +1,0 @@
-public class Parent_Type\n{\n    public int Id { get; set; }\n    public string Name { get; set; }\n    public List<Children_Type> Children { get; set; }\n}\n\npublic class Children_Type\n{\n    public int Id { get; set; }\n    public string Name { get; set; }\n    public int ParentId { get; set; }\n}

@@ -1,0 +1,1 @@
+// concat.php\n$files = array('file1.css', 'file2.css', 'file3.css');\n$contents = '';\nforeach ($files as $file) {\n    $contents .= file_get_contents($file);\n}\nheader('Content-Type: text/css');\necho $contents;

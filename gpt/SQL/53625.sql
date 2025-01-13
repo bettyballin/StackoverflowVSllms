@@ -1,1 +1,0 @@
-SELECT A.name, B.marks \nFROM A \nJOIN B \nON A.num = B.num\n\nUNION \n\nSELECT A.name, B.marks \nFROM A, B \nWHERE A.num = 0;

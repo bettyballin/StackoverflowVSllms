@@ -1,1 +1,0 @@
-using Microsoft.Office.Interop.PowerPoint;\n\npublic void PrintPowerPointPresentation(string filePath)\n{\n    Application pptApp = new Application();\n    Presentation presentation = pptApp.Presentations.Open(filePath, WithWindow: MsoTriState.msoFalse);\n    presentation.PrintOut();\n    presentation.Close();\n    pptApp.Quit();\n}

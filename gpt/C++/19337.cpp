@@ -1,1 +1,0 @@
-// In header\nclass Foo {\n    void foo(bar*);\n};\n\n// In cpp\nvoid Foo::foo(bar* const pBar) {\n    // Stuff\n}

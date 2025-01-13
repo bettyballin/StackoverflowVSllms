@@ -1,0 +1,1 @@
+#!/bin/bash\n\n# Check lock files to find an available modem\nfor modem in /dev/modem*; do\n  if [ ! -f "/var/lock/LCK..$modem" ]; then\n    echo "$modem"\n    exit 0\n  fi\ndone\n\n# If no modems are available, exit with an error\nexit 1

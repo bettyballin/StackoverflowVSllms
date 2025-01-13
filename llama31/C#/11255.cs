@@ -1,0 +1,1 @@
+[DllImport("shared.dll")]\nstatic extern string f_get_hello_world();

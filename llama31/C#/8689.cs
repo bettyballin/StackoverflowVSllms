@@ -1,0 +1,1 @@
+string result = list.Aggregate((x, y) => x + delimiter + y);

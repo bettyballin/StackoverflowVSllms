@@ -1,0 +1,1 @@
+$doc = new DOMDocument();\n// ... populate your XML tree ...\n\n$ul = $doc->getElementsByTagName('ul')->item(0);\n$xml = $ul->ownerDocument->saveXML($ul, LIBXML_NOXMLDECL);\necho $xml;

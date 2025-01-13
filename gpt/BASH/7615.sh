@@ -1,1 +1,0 @@
-mkdir -p rpmbuild/{BUILD,RPMS,SOURCES,SPECS,SRPMS}\n   mkdir -p rpmbuild/SOURCES/mygame/usr/local/games/mygame\n   mkdir -p rpmbuild/SOURCES/mygame/usr/share/applications

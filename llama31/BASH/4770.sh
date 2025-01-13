@@ -1,0 +1,1 @@
+etsh trace start capture=yes tracefile=c:\temp\trace.etl

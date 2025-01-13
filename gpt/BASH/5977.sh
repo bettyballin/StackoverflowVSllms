@@ -1,1 +1,0 @@
-rpmbuild -ba ~/rpmbuild/SPECS/foobar.spec

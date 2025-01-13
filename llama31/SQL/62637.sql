@@ -1,0 +1,1 @@
+INSERT INTO table_name (column1, column2) \nVALUES ('value1', 'value2') \nRETURNING id;

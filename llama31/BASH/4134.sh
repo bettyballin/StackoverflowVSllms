@@ -1,0 +1,1 @@
+# Weekly full backup\nsvnadmin dump /path/to/repo > full_backup_$(date +%Y-%m-%d).svndump\n\n# Daily incremental backup\nsvnadmin dump --incremental /path/to/repo > incremental_backup_$(date +%Y-%m-%d).svndump

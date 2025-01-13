@@ -1,0 +1,1 @@
+.container {\n  width: 400px;\n  height: 200px;\n  overflow: auto;\n  position: relative;\n}\n\n.child {\n  position: absolute;\n  width: 100px;\n  height: 50px;\n  background-color: red;\n}

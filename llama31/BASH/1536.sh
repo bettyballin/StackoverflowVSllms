@@ -1,0 +1,1 @@
+# Generate a private key\nopenssl genrsa -out key.pem 2048\n\n# Generate a certificate signing request (CSR)\nopenssl req -new -key key.pem -out csr.pem\n\n# Generate a self-signed certificate\nopenssl x509 -req -days 365 -in csr.pem -signkey key.pem -out cert.pem

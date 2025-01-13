@@ -1,0 +1,1 @@
+$.ajax({\n    type: "POST",\n    url: "/Controller/Action",\n    data: { parameterName: "parameterValue" },\n    success: function(data) {\n        // callback function to handle the response\n    }\n});

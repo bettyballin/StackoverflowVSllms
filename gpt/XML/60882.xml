@@ -1,1 +1,0 @@
-<dependency>\n        <groupId>org.glassfish</groupId>\n        <artifactId>javax.faces</artifactId>\n        <version>2.3.9</version>\n    </dependency>

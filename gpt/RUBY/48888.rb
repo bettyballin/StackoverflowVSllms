@@ -1,1 +1,0 @@
-class User < ApplicationRecord\n  has_many :messages\n\n  def total_messages\n    messages.count\n  end\nend

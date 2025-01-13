@@ -1,0 +1,1 @@
+string sourceCode = File.ReadAllText("example.cs");\nCompiler.CompileAndRun(sourceCode);

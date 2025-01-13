@@ -1,1 +1,0 @@
-SELECT * FROM public.storeopeninghours_tostring(123);

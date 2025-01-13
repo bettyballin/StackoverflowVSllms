@@ -1,1 +1,0 @@
-jar cvf pacman.jar -C C:\java\pacman\src . -C C:\java\pacman assets

@@ -1,1 +1,0 @@
-#!/bin/bash\n\n# Usage: ./svn_update.sh <remote_user> <remote_host> <remote_directory>\n\nREMOTE_USER=$1\nREMOTE_HOST=$2\nREMOTE_DIR=$3\n\nif [ "$#" -ne 3 ]; then\n    echo "Usage: $0 <remote_user> <remote_host> <remote_directory>"\n    exit 1\nfi\n\nssh ${REMOTE_USER}@${REMOTE_HOST} << EOF\ncd ${REMOTE_DIR}\nsvn update\nEOF

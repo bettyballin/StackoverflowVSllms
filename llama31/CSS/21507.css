@@ -1,0 +1,1 @@
+.table-container {\n  display: flex;\n  flex-wrap: wrap;\n  justify-content: space-around;\n}\n\n.side-by-side {\n  flex: 1 1 45%; /* Adjust the percentage as needed */\n  margin: 10px;\n}\n\n/* Media query to stack tables on smaller screens */\n@media (max-width: 1200px) { /* Adjust the max-width as needed */\n  .side-by-side {\n    flex-basis: 100%;\n  }\n}

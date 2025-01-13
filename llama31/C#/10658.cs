@@ -1,0 +1,1 @@
+Properties.Settings.Default.MySetting = "SomeValue";\nProperties.Settings.Default.Save();

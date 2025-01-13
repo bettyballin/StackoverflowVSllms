@@ -1,1 +1,0 @@
-SELECT value FROM v$parameter WHERE name = 'tns_admin';

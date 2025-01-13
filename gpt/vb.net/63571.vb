@@ -1,1 +1,0 @@
-Public Class ReferenceClass\n       Private myBooleanValue As Boolean = False\n       Public Property BooleanValue As Boolean\n           Get\n               Return myBooleanValue\n           End Get\n           Set(value As Boolean)\n               myBooleanValue = value\n           End Set\n       End Property\n   End Class

@@ -1,0 +1,1 @@
+using ClamAvNet;\n\n// Create a new ClamAV client\nvar client = new ClamAvClient("localhost", 3310);\n\n// Scan a file\nvar result = client.ScanFile("path/to/file");\nif (result.VirusDetected)\n{\n    Console.WriteLine("Virus detected: " + result.VirusName);\n}

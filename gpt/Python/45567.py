@@ -1,1 +1,0 @@
-def additive_color_mix(color1, color2):\n    r1, g1, b1 = color1\n    r2, g2, b2 = color2\n\n    r = min(r1 + r2, 255)\n    g = min(g1 + g2, 255)\n    b = min(b1 + b2, 255)\n\n    return (r, g, b)\n\n# Example usage:\ncolor1 = (100, 150, 200)\ncolor2 = (50, 100, 150)\nmixed_color = additive_color_mix(color1, color2)\nprint(mixed_color)  # Output: (150, 250, 255)

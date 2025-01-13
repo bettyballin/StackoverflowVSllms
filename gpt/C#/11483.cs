@@ -1,1 +1,0 @@
-string myStr = "very long string\nanother long string";

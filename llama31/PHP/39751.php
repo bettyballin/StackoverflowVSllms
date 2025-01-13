@@ -1,0 +1,1 @@
+// shared/classes/User.php\n\nnamespace App\Classes;\n\nuse App\Libraries\array_get;\n\nclass User\n{\n    public function getSettings()\n    {\n        $settings = [];\n        // ...\n        return array_get($settings, 'key', 'default value');\n    }\n}

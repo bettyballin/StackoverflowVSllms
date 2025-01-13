@@ -1,1 +1,0 @@
-Public Enum PhoneticType\n    phonSoundex\n    phonDoubleMetaphone\n    noPhonetic\nEnd Enum\n\nPublic Sub LoadDict(ByVal phoneticType As PhoneticType, ByVal strDict As String)\n    ' Implementation of your method\nEnd Sub

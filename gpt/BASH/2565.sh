@@ -1,1 +1,0 @@
-regsvr32 "C:\Program Files\Microsoft SQL Server\90\DTS\Binn\MsDtsSrvr.dll"

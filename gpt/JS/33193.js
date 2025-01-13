@@ -1,1 +1,0 @@
-var eventSource = new EventSource("your-sse-endpoint");\n\neventSource.onmessage = function(event) {\n  console.log("SSE message received:", event.data);\n};\n\neventSource.onerror = function(event) {\n  console.error("SSE error:", event);\n};

@@ -1,1 +1,0 @@
-broker_url = 'pyamqp://guest@localhost//'\n   result_backend = 'rpc://'

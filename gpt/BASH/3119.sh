@@ -1,1 +1,0 @@
-sudo vi /usr/local/etc/postfix/main.cf

@@ -1,1 +1,0 @@
-var configuration = new NHibernate.Cfg.Configuration().Configure();\nvar sessionFactory = configuration\n    .SetInterceptor(new AddressInterceptor())\n    .BuildSessionFactory();

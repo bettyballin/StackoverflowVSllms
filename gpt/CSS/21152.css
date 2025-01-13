@@ -1,1 +1,0 @@
-/* Hide the body initially */\nbody {\n    display: none;\n}\n\n/* Show the body once the page is loaded */\nbody.loaded {\n    display: block;\n    animation: fadeIn 0.5s ease-in;\n}\n\n@keyframes fadeIn {\n    from {\n        opacity: 0;\n    }\n    to {\n        opacity: 1;\n    }\n}

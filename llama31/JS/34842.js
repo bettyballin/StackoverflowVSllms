@@ -1,0 +1,1 @@
+const xmlFile = new File(['<your-xml-content>'], 'yourfile.xml', { type: 'application/xml' });\nfetch('http://example.com/your-endpoint', {\n  method: 'POST',\n  headers: { 'Content-Type': 'application/xml' },\n  body: xmlFile\n});

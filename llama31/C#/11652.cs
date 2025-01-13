@@ -1,0 +1,1 @@
+string sql = "SELECT * FROM users WHERE username = @username AND password = @password";\nSqlCommand cmd = new SqlCommand(sql, conn);\ncmd.Parameters.AddWithValue("@username", username);\ncmd.Parameters.AddWithValue("@password", password);

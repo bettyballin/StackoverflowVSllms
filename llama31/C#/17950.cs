@@ -1,0 +1,1 @@
+using System.Text.RegularExpressions;\n\n// ...\n\nstring input = "I H21 123456 7654321";\nRegex regex = new Regex("I [A-Za-z0-9]{3} \\d{6} \\d{7}");\nMatch match = regex.Match(input);\n\nif (match.Success)\n{\n    Console.WriteLine(match.Value); // Output: "I H21 123456 7654321"\n}

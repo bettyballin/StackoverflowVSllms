@@ -1,0 +1,1 @@
+using Microsoft.Win32;\n\nstring defaultBrowserPath = string.Empty;\n\nusing (RegistryKey key = Registry.ClassesRoot.OpenSubKey(@"http\shell\open\command"))\n{\n    if (key != null)\n    {\n        defaultBrowserPath = key.GetValue(null).ToString();\n    }\n}\n\nConsole.WriteLine(defaultBrowserPath);

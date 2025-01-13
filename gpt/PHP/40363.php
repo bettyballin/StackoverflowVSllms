@@ -1,1 +1,0 @@
-$str = "keyword keyword 'keyword 1 and keyword 2' another 'one more'".'"another keyword" yes,one,two';\n\npreg_match_all('/"([^"]+)"|\'([^\']+)\'|[^\'" ,]+/', $str, $matches);\n\n// Merge the captured groups into a single array\n$keywords = array_merge(array_filter($matches[1]), array_filter($matches[2]), $matches[0]);\n\necho "<pre>"; \nprint_r($keywords); \necho "</pre>";

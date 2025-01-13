@@ -1,0 +1,1 @@
+[OperationContract]\n[WebGet(UriTemplate = "GetData/{id}.{format}")]\npublic ResponseData GetData(string id, string format)\n{\n    // Return a ResponseData object here\n}

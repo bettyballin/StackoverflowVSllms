@@ -1,0 +1,1 @@
+#include <stdio.h>\n#include <unistd.h>\n\nint main() {\n    pid_t pid;\n\n    pid = fork();\n    if (pid == 0) {\n        execl("/bin/sh", "sh", "-c", "pstree $$", (char *)NULL);\n    } else {\n        waitpid(pid, NULL, 0);\n    }\n\n    return 0;\n}

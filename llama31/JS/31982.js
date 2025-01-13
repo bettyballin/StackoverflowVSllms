@@ -1,0 +1,1 @@
+document.querySelector('.closeLink').addEventListener('click', function(event) {\n  event.preventDefault();\n  // your code to close the box here\n});

@@ -1,0 +1,1 @@
+std::transform(secondVec.begin(), secondVec.end(),\n               std::back_inserter(firstVec),\n               [](const Second& sec) { return sec.s1; });

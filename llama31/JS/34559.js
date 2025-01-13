@@ -1,0 +1,1 @@
+const offset = new Date().getTimezoneOffset();\n// Pass the offset to PHP via AJAX or a hidden form field

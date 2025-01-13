@@ -1,0 +1,1 @@
+$(document).ready(function() {\n  var slides = $('#slideshow .slide');\n  var currentSlide = 0;\n\n  function showNextSlide() {\n    slides.eq(currentSlide).slideDown(500).delay(2000).slideUp(500, function() {\n      currentSlide = (currentSlide + 1) % slides.length;\n      showNextSlide();\n    });\n  }\n\n  showNextSlide();\n});

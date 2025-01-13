@@ -1,0 +1,1 @@
+function validate_url($url) {\n    $pattern = '/^(http|https):\/\/([a-zA-Z0-9-]+\.)+[a-zA-Z]{2,}(\/[^\s]*)?$/';\n    if (preg_match($pattern, $url)) {\n        return true;\n    }\n    return false;\n}

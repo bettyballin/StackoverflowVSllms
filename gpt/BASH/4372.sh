@@ -1,1 +1,0 @@
-cscript.exe iiscnfg.vbs /export /f c:\backup.xml /sp /pst /lm /u username /p password

@@ -1,1 +1,0 @@
-CREATE TABLE TEST (\n    test_id NUMBER PRIMARY KEY,\n    -- other TEST fields\n);\n\nCREATE TABLE MEASUREMENT (\n    measurement_id NUMBER PRIMARY KEY,\n    test_id NUMBER REFERENCES TEST(test_id),\n    rec_time DATE,\n    measurement NUMBER\n);\n\nCREATE TABLE RAW_DATA (\n    measurement_id NUMBER REFERENCES MEASUREMENT(measurement_id),\n    raw_data BLOB\n);

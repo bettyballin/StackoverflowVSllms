@@ -1,0 +1,1 @@
+[HttpPost]\npublic ActionResult MyAction()\n{\n    try\n    {\n        // Do something that might throw an exception\n        // ...\n    }\n    catch (Exception ex)\n    {\n        Response.StatusCode = 500; // Set HTTP status code to 500\n        return Json(new { error = ex.Message });\n    }\n    return Json(new { success = true });\n}

@@ -1,0 +1,1 @@
+openssl x509 -in cert.pem -issuer -outform der | openssl asn1parse -inform der -length

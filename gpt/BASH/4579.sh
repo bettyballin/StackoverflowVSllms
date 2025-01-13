@@ -1,1 +1,0 @@
-sudo apt-get install <package>  # Debian/Ubuntu\n     sudo yum install <package>  # RHEL/CentOS\n     brew install <package>  # macOS

@@ -1,0 +1,1 @@
+document.body.style.userSelect = '';\n// or\ndocument.body.style.webkitUserSelect = '';\ndocument.body.style.mozUserSelect = '';\ndocument.body.style.msUserSelect = '';

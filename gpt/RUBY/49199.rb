@@ -1,1 +1,0 @@
-class YourController < ApplicationController\n  before_action :login_required_unless_index_js\n\n  private\n\n  def login_required_unless_index_js\n    unless action_name == 'index' && request.format.js?\n      login_required\n    end\n  end\n\n  def login_required\n    # Your login required logic here\n  end\nend

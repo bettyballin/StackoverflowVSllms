@@ -1,0 +1,1 @@
+SELECT \n  word,\n  MAX(ABS(big), ABS(expensive), ABS(smart), ABS(fast)) AS max_abs_value,\n  CASE \n    WHEN MAX(ABS(big), ABS(expensive), ABS(smart), ABS(fast)) / (big + expensive + smart + fast) > 0.5 THEN ' proportionately large'\n    ELSE 'not proportionately large'\n  END AS proportion_description\nFROM your_table\nGROUP BY word

@@ -1,1 +1,0 @@
-CREATE SYMMETRIC KEY SymmetricKeyName\n   WITH ALGORITHM = AES_256\n   ENCRYPTION BY PASSWORD = 'YourStrongPassword';

@@ -1,1 +1,0 @@
-myDict = {}\n\n# Assign values\nmyDict[12] = 'a'\nmyDict[22] = 'b'\nmyDict[32] = 'c'\nmyDict[42] = 'd'\n\nprint(myDict)

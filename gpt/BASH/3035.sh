@@ -1,1 +1,0 @@
-svn merge https://svn.example.com/repo/branches/bugfix-1.0.1 https://svn.example.com/repo/branches/release-1.0 -m "Merging bug fix from bugfix-1.0.1 to release-1.0"

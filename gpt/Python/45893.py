@@ -1,1 +1,0 @@
-import re\n\nstrings = ["785*()&!~`a", "##$%$~2343", "455frt&*&*"]\npattern = re.compile(r'.*[a-zA-Z].*')\n\nfor s in strings:\n    if pattern.match(s):\n        print(f"Match: {s}")\n    else:\n        print(f"No match: {s}")

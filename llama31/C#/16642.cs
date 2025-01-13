@@ -1,0 +1,1 @@
+public class MyCommand\n{\n    public string Param1 { get; set; }\n    public string Param2 { get; set; }\n    // ...\n}\n\n// ...\n\nvar command = new MyCommand { Param1 = "value1", Param2 = "value2" };\nconnection.Execute("myStoredProcedure", command, commandType: CommandType.StoredProcedure);

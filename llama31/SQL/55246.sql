@@ -1,0 +1,1 @@
+-- Create a table with an encrypted column\nCREATE TABLE MyTable (\n    Id INT PRIMARY KEY,\n    EncryptedData VARBINARY(256) ENCRYPTED WITH (COLUMN_ENCRYPTION_KEY = MyCEK)\n);\n\n-- Create a column encryption key\nCREATE COLUMN ENCRYPTION KEY MyCEK WITH (ALGORITHM = AES_256, ENCRYPTION BY SERVER CERTIFICATE MyCert);

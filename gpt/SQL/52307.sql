@@ -1,1 +1,0 @@
-CREATE TABLE Posts (\n    PostID INT PRIMARY KEY,\n    Title NVARCHAR(100),\n    Content NVARCHAR(MAX),\n    CommentCount INT DEFAULT 0\n);\n\nCREATE TABLE Comments (\n    CommentID INT PRIMARY KEY,\n    PostID INT,\n    Content NVARCHAR(MAX),\n    FOREIGN KEY (PostID) REFERENCES Posts(PostID)\n);

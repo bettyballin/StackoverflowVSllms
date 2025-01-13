@@ -1,0 +1,1 @@
+echo | openssl s_client -servername my.funny.url -connect my.funny.url:443 2>/dev/null | openssl x509 -fingerprint -nokeys

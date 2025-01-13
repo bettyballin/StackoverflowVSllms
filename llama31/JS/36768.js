@@ -1,0 +1,1 @@
+$('#myForm').submit(function() {\n    $('#submitinput').prop('disabled', true);\n});

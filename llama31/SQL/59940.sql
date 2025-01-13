@@ -1,0 +1,1 @@
+INSERT IGNORE INTO your_table (unique_field, other_field) VALUES ('value1', 'value2');

@@ -1,0 +1,1 @@
+public class MyController : ControllerBase\n{\n    private int mVar;\n\n    public MyController()\n    {\n        if (HttpContext.Current.Session["value"] != null)\n        {\n            mVar = (int)HttpContext.Current.Session["value"];\n        }\n    }\n}

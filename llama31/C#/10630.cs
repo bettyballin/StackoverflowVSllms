@@ -1,0 +1,1 @@
+try\n{\n    // Call your sproc here\n}\ncatch (SqlException ex)\n{\n    if (ex.Number == 2601 || ex.Number == 2627)\n    {\n        // Unique key exception, throw your custom error\n        throw new CustomUniqueKeyException();\n    }\n    else\n    {\n        // Re-throw the original exception\n        throw;\n    }\n}

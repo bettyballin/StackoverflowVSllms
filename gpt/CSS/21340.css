@@ -1,1 +1,0 @@
-div#container {\n    height: 275px;\n    width: 1000px;\n    overflow-x: auto;\n    overflow-y: hidden;\n    display: flex;\n    flex-wrap: nowrap;\n}\n\ndiv#container div.block {\n    flex: 0 0 auto; /* Prevents flex items from shrinking or growing */\n    width: 300px;\n    margin: 3px 90px 0 3px;\n}

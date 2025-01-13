@@ -1,0 +1,1 @@
+CREATE TABLE `option` (\n  id INT NOT NULL PRIMARY KEY AUTO_INCREMENT,\n  choice VARCHAR(30)\n);

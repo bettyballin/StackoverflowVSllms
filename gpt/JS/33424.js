@@ -1,1 +1,0 @@
-$(document).ready(function() {\n    var priceText = $('.price').contents().filter(function() {\n        return this.nodeType === 3; // Node type 3 is for text nodes\n    }).text().trim();\n\n    console.log(priceText); // Outputs: "$61.00"\n});

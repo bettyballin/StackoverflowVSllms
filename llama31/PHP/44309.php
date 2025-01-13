@@ -1,0 +1,1 @@
+// In the head tag\n<head>\n    <?php foreach ($css_files as $file) : ?>\n        <link rel="stylesheet" type="text/css" href="<?php echo base_url($file); ?>">\n    <?php endforeach; ?>\n</head>

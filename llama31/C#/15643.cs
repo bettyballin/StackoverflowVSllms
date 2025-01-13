@@ -1,0 +1,1 @@
+string userInput = InputDialog.ShowInputDialog("Enter something", "Input Dialog");\nif (!string.IsNullOrEmpty(userInput))\n{\n    // use the input\n}

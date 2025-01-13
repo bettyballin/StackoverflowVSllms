@@ -1,1 +1,0 @@
-var obj = new Example();\nvar dictionary = new Dictionary<string, object>\n{\n    { "Description", "A description" },\n    { "Id", 123456L },\n    { "MaxPower", 20000.0 }\n};\n\nobj.PopulateProperties(dictionary);\n\nConsole.WriteLine($"Description: {obj.Description}");\nConsole.WriteLine($"Id: {obj.Id}");\nConsole.WriteLine($"MaxPower: {obj.MaxPower}");

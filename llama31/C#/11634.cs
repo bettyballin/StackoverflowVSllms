@@ -1,0 +1,1 @@
+var mockHttpContext = new Mock<HttpContextBase>();\nvar controller = new BaseController { HttpContext = mockHttpContext.Object };

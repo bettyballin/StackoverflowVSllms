@@ -1,0 +1,1 @@
+# Assuming you have an array of records in the format [[b, c], [b, c], ...]\nrecords = [[1, 2], [3, 4], [5, 6]]\n\n# Create an OCI connection and execute the procedure\noci_conn = OCI8.new('username/password@database')\ncursor = oci_conn.parse("BEGIN bulk_insert_tablea(:data); END;")\ncursor.bind_param(:data, records, OCI8::BindType::Array)\ncursor.exec

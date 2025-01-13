@@ -1,0 +1,1 @@
+SELECT *\nFROM (\n  SELECT *, ROW_NUMBER() OVER (ORDER BY column_name) AS row_num\n  FROM table_name\n) AS subquery\nWHERE row_num <= N;

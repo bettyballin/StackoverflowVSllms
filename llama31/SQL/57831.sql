@@ -1,0 +1,1 @@
+SELECT \n  col1, \n  col2, \n  'ABC' AS col3\nFROM \n  Table1 \nWHERE \n  col1 = 0;

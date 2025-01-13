@@ -1,1 +1,0 @@
-for i in $(cat url-list.txt)\ndo\n   wget -c $i\ndone

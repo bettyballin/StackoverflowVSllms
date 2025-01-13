@@ -1,1 +1,0 @@
-<system.web>\n       <authentication mode="Forms">\n           <forms timeout="60" /> <!-- Increase the timeout value as needed -->\n       </forms>\n   </system.web>

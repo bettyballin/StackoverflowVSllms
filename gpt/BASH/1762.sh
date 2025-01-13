@@ -1,1 +1,0 @@
-jcmd <PID> JFR.start name=MyRecording filename=/path/to/recording.jfr

@@ -1,0 +1,1 @@
+set ORACLE_HOME=C:\Oracle\product\11.2.0\client_1

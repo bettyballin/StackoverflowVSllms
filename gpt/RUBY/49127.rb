@@ -1,1 +1,0 @@
-class ApplicationController < ActionController::Base\n  def get_session_cookie_name\n    session_key = Rails.application.config.session_options[:key]\n    render plain: "Session cookie name: #{session_key}"\n  end\nend

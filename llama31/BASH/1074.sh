@@ -1,0 +1,1 @@
+# Install Asterisk on Ubuntu\nsudo apt-get install asterisk

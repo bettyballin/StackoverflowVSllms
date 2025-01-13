@@ -1,1 +1,0 @@
-import array\n\n# Creating an array of integers\nmy_array = array.array('i', [1, 2, 3, 4])\nmy_array.append(5)\nprint(my_array)  # Output: array('i', [1, 2, 3, 4, 5])

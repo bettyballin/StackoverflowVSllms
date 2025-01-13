@@ -1,1 +1,0 @@
-const result = list.join(delimiter);

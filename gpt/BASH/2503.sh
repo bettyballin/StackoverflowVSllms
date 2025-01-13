@@ -1,1 +1,0 @@
-az webapp up --name <YourAppName> --resource-group <YourResourceGroup> --plan <YourAppServicePlan>

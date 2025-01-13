@@ -1,0 +1,1 @@
+string[] values = Parameters["YourParameter"].Value.Split(',');

@@ -1,0 +1,1 @@
+import subprocess\n\nsubprocess.run(["wkhtmltoimage", "--width", "800", "--height", "600", "input.html", "output.png"])

@@ -1,0 +1,1 @@
+public IEnumerable<User> GetAllUsers()\n{\n    // internal implementation uses a List<User>, but only exposes IEnumerable<User>\n    return _internalList;\n}

@@ -1,0 +1,1 @@
+SELECT e.empid, e.dept, e.sal\nFROM emp e\nJOIN (\n  SELECT dept, COUNT(*) as count\n  FROM emp\n  GROUP BY dept\n) d ON e.dept = d.dept\nORDER BY d.count DESC;

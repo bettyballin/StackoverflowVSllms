@@ -1,0 +1,1 @@
+Bitmap bitmap = new Bitmap("image.jpg");\nvar (averageRed, averageGreen, averageBlue) = BitmapHelper.GetAverageRgb(bitmap);

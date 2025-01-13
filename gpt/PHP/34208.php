@@ -1,1 +1,0 @@
-$file = "test1.html";\n$dom = DOMDocument::loadHTMLFile($file);\n$xml = simplexml_import_dom($dom);\n\nif ($xml === false) {\n    echo "Failed to convert DOM to SimpleXML";\n} else {\n    ob_start();\n    print_r($xml);\n    $output = ob_get_clean();\n    echo nl2br(htmlentities($output));\n}

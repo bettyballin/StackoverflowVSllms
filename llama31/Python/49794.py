@@ -1,0 +1,1 @@
+import random\nimport time\n\n# Create a list of 12,000 random integers\nnumbers = [random.randint(0, 1000) for _ in range(12000)]\n\n# Sort the list\nstart_time = time.time()\nnumbers.sort()\nend_time = time.time()\n\nprint(f"Sorting took {end_time - start_time:.2f} seconds")

@@ -1,0 +1,1 @@
+CREATE SEQUENCE mysequence START WITH 1 INCREMENT BY 1;\n\nINSERT INTO mytable (id, name) VALUES (mysequence.NEXTVAL, 'John Doe');

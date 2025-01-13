@@ -1,0 +1,1 @@
+<?php\n$xmldoc = new DOMDocument();\n$xmldoc->load('sample.xml', LIBXML_NOBLANKS);\n\n$atvID = $_POST['activity'];\n\nforeach ($atvID as $id) {\n    $delnode = $xmldoc->getElementsByTagName('activity');\n    $node = $delnode->item($id - 1); // subtract 1 from the $id\n    if ($node) {\n        $node->parentNode->removeChild($node);\n    }\n}\n\n$xmldoc->save('sample.xml');\n?>

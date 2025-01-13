@@ -1,0 +1,1 @@
+ew Ajax.Request('http://localhost/reporeade/Vote/Ajax', {\n  asynchronous: true,\n  evalScripts: true,\n  method: 'post',\n  parameters: {\n    contentType: typez,\n    action: actionz,\n    id: idz\n  }\n});

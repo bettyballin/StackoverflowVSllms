@@ -1,1 +1,0 @@
-// C++/CLI wrapper\npublic ref class MyClassWrapper\n{\npublic:\n    int CallManagedFunction(int value)\n    {\n        return MyNamespace::MyClass::MyFunction(value);\n    }\n};

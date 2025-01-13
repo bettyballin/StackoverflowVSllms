@@ -1,1 +1,0 @@
-SELECT \n    inet_ntoa(ip_mask) AS subnet_mask,\n    LENGTH(REPLACE(BIN(ip_mask), '0', '')) AS cidr\nFROM \n    subnets;

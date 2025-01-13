@@ -1,0 +1,1 @@
+svn copy ^/branches/release-1.0 ^/tags/release-1.0

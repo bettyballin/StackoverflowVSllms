@@ -1,0 +1,1 @@
+public class PasswordResetModel\n{\n    public string Email { get; set; }\n    public string SecurityQuestionAnswer { get; set; }\n}

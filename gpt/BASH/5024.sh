@@ -1,1 +1,0 @@
-g++ -o generate_uuid generate_uuid.cpp -luuid

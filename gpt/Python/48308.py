@@ -1,1 +1,0 @@
-from PIL import Image\nimport pytesseract\n\n# Load the image\nimage = Image.open('scanned_document.png')\n\n# Use Tesseract to extract text\ntext = pytesseract.image_to_string(image)\n\nprint(text)

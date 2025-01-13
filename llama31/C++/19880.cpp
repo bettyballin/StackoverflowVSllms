@@ -1,0 +1,1 @@
+#include <iostream>\n#include <ios>\n\nint main() {\n    std::ostream os1(std::cout.rdbuf());\n    std::ostream os2 = std::move(os1);  // move os1 to os2\n\n    os2 << "Hello, World!" << std::endl;\n\n    return 0;\n}

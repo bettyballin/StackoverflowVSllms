@@ -1,1 +1,0 @@
-DECLARE @StartTime DATETIME = '2009-01-01 06:00';\nDECLARE @EndTime DATETIME = '2009-01-01 12:00';\n\nSELECT dbo.IsTimeRangeCovered(@StartTime, @EndTime) AS IsCovered;

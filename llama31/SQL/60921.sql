@@ -1,0 +1,1 @@
+SELECT type, sum(pages_kb) as total_pages_kb \n   FROM sys.dm_os_memory_clerks \n   WHERE type = 'MEMORYCLERK_CLR'\n   GROUP BY type;

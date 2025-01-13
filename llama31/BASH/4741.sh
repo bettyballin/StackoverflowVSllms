@@ -1,0 +1,1 @@
+exus-backup -u user -p password -url http://localhost:8081/nexus - backupDir /path/to/backup

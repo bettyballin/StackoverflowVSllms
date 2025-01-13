@@ -1,0 +1,1 @@
+$last_night_at_midnight = strtotime('yesterday midnight');\n$tonight_at_midnight = strtotime('midnight');

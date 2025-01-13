@@ -1,1 +1,0 @@
-brew tap instantclient tap\n     brew install instantclient-basiclite instantclient-sdk

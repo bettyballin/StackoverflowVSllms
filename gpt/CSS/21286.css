@@ -1,1 +1,0 @@
-@font-face {\n    font-family: 'MyCustomFont';\n    src: url('path/to/myFont.woff') format('woff');\n}\n\n.dynamic-textfield {\n    font-family: 'MyCustomFont', sans-serif;\n}

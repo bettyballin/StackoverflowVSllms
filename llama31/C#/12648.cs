@@ -1,0 +1,1 @@
+bool[] boolArray = new bool[10];\nConsole.WriteLine(boolArray.GetType().GetElementType().Size); // prints 1

@@ -1,0 +1,1 @@
+<ItemGroup>\n  <Namespaces Include="http://schemas.microsoft.com/wix/2006/wi">\n    <Prefix>wix</Prefix>\n    <Uri>http://schemas.microsoft.com/wix/2006/wi</Uri>\n  </Namespaces>\n  <Namespaces Include="http://schemas.microsoft.com/wix/IIsExtension">\n    <Prefix>iis</Prefix>\n    <Uri>http://schemas.microsoft.com/wix/IIsExtension</Uri>\n  </Namespaces>\n</ItemGroup>

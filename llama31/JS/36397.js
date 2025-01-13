@@ -1,0 +1,1 @@
+function test(num) {\n    num = parseInt(num, 10);\n    alert(num);\n}

@@ -1,0 +1,1 @@
+public static void Main(string[] args)\n{\n    string key = "secret";\n\n    string encrypted = Encrypt("oscar" + "000", key, true);\n    string hex = Base64ToHex(encrypted);\n\n    Console.WriteLine(hex);\n}

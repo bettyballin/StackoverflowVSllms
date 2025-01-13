@@ -1,0 +1,1 @@
+header('Content-Security-Policy: default-src \'self\';'); // define content security policy\nheader('X-Frame-Options: DENY'); // prevent clickjacking\nheader('X-XSS-Protection: 1; mode=block'); // enable XSS protectio

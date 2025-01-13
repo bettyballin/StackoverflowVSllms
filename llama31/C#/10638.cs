@@ -1,0 +1,1 @@
+void Application_End(object sender, EventArgs e)\n{\n    if (HostingEnvironment.ShutdownReason == ShutdownReason.Recycling)\n    {\n        // Handle recycle event\n    }\n}

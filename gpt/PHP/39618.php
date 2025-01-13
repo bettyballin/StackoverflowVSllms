@@ -1,1 +1,0 @@
-$wgGroupPermissions['paid']['read'] = true;\n   $wgGroupPermissions['paid']['edit'] = true; // Adjust as necessary

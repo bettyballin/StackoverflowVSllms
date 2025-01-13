@@ -1,0 +1,1 @@
+Dim i\nFor i = 1 To dt.GetSheet("YourSheetName").GetColumnCount\n    If row1.GetParameter(i).Value <> row2.GetParameter(i).Value Then\n        MsgBox "Rows are not equal"\n        Exit For\n    End If\nNext\nIf i > dt.GetSheet("YourSheetName").GetColumnCount Then\n    MsgBox "Rows are equal"\nEnd If

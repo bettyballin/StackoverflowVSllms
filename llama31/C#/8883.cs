@@ -1,0 +1,1 @@
+using System.Web.Mvc;\n\npublic class MyModel\n{\n    [AllowHtml]\n    public string EditorContent { get; set; }\n}

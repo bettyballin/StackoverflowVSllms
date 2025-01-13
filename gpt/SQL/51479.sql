@@ -1,1 +1,0 @@
-CREATE PROCEDURE dbo.UpdateInventory\n    @ProductID INT,\n    @Quantity INT\nAS\nBEGIN\n    UPDATE Inventory\n    SET Quantity = Quantity - @Quantity\n    WHERE ProductID = @ProductID;\n\n    -- Additional logic can be added here\nEND;

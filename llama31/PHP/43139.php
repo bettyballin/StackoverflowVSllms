@@ -1,0 +1,1 @@
+if (is_null($row['firstname']) || $row['firstname'] == "") {\n    $row['firstname'] = "No Info";\n}\nif ($row['lastname'] == null || $row['lastname'] == "") {\n    $row['lastname'] = "No Info"; // also fixed the field name here\n}

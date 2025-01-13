@@ -1,0 +1,1 @@
+using System;\n\npublic class MyClass\n{\n    public void MyMethod()\n    {\n        if (Environment.UserInteractive)\n        {\n            Console.WriteLine("Running in interactive mode");\n        }\n        else\n        {\n            Console.WriteLine("Running as a service or in non-interactive mode");\n        }\n    }\n}

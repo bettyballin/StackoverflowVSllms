@@ -1,1 +1,0 @@
-CREATE PROCEDURE GetTopRecords\n    @top INT\nAS\nBEGIN\n    DECLARE @sql NVARCHAR(4000)\n    SET @sql = 'SELECT TOP ' + CAST(@top AS NVARCHAR(10)) + ' * FROM SomeTable'\n    EXEC sp_executesql @sql\nEND\nGO

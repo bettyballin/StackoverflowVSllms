@@ -1,1 +1,0 @@
-var client = new QueueClient(connectionString, queueName);\n   var message = new Message(Encoding.UTF8.GetBytes("Hello, World!"));\n   await client.SendAsync(message);

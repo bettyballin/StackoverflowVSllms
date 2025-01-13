@@ -1,1 +1,0 @@
-ktpass -out newkeytab.keytab -princ HTTP/currentmachine.domain.net@DOMAIN.NET -mapuser DOMAIN\serviceAccount -crypto ALL -ptype KRB5_NT_PRINCIPAL -pass *

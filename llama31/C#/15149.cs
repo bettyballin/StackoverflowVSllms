@@ -1,0 +1,1 @@
+// ...\n\nif (parent == null)\n{\n    Log("Parent process stopped/killed.  Terminating self.");\n    Environment.ExitCode = 1; // indicate an error\n    Environment.Exit(1);\n}

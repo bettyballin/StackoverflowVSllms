@@ -1,1 +1,0 @@
-# app/models/blog/entry.rb\nmodule Blog\n  class Entry < ApplicationRecord\n    # model code here\n  end\nend

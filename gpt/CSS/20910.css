@@ -1,1 +1,0 @@
-div {\n    word-break: break-word; /* Breaks long words and wraps them to the next line */\n    overflow-wrap: break-word; /* Ensures that the text wraps within the element */\n}

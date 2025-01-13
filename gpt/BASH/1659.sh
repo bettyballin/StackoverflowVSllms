@@ -1,1 +1,0 @@
-/usr/local/bin/gcc -m64 -v

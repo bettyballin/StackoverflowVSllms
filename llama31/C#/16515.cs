@@ -1,0 +1,1 @@
+using Humanizer;\n\nvar m1 = 123.00.Pounds();\nvar m2 = 123.00.Liters();\n\nvar m1InKg = m1.ToKilograms();\nvar m2InPounds = m2.ToPounds(new Density(7.0, DensityUnit.PoundsPerGallon));

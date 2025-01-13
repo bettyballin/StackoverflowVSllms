@@ -1,0 +1,1 @@
+string csv = "a1,b1,c1\r\na2,b2,c2\r\n";\nstring html = "<table>" + CsvToHtmlTable(csv) + "</table>";

@@ -1,1 +1,0 @@
-chmod +x ~/monitor_emacs_focus.sh

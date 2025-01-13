@@ -1,0 +1,1 @@
+int add(int a, int b) {\n    while (b != 0) {\n        int carry = a & b;\n        a = a ^ b;\n        b = carry << 1;\n    }\n    return a;\n}

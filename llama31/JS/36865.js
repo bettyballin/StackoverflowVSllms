@@ -1,0 +1,1 @@
+var iframe = document.getElementById('additionalTxt_f');\nvar iframeDoc = iframe.contentDocument || iframe.contentWindow.document;\nvar body = iframeDoc.getElementsByTagName("body")[0];\nvar innerHTML = body.innerHTML;

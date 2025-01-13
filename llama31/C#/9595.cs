@@ -1,0 +1,1 @@
+// Server-side (your ASP.NET application)\n[HttpPost]\npublic ActionResult Endpoint(string param1, string param2)\n{\n    string referer = Request.UrlReferrer.ToString();\n    if (!referer.StartsWith("https://customer-domain.com"))\n    {\n        return HttpNotFound();\n    }\n    // Process the request\n}

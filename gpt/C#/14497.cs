@@ -1,1 +1,0 @@
-using (var context = new YourDbContext())\n{\n    var files = context.Files.ToList();\n\n    foreach (var file in files)\n    {\n        file.File_ID = 1;\n    }\n\n    context.SaveChanges();\n}

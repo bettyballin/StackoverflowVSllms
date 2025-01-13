@@ -1,1 +1,0 @@
-amespace QS.DialogManager.Communication.IISHost\n{\n    public class RecipientService : IRecipientService\n    {\n        // Implementation of your service methods\n    }\n}

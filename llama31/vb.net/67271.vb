@@ -1,0 +1,1 @@
+Public Class MyDialog\n    Inherits DialogTemplate\n\n    Public Sub New()\n        MyBase.New()\n\n        Dim cboOptions As New ComboBox With {\n            .Items = {"Option 1", "Option 2", "Option 3"}\n        }\n\n        Me.Controls.Add(cboOptions)\n    End Sub\nEnd Class

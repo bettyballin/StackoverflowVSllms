@@ -1,0 +1,1 @@
+public class Receipt {\n    public string Username { get; set; }\n}\n\n// Assuming Session("receipt") returns an instance of Receipt\nReceipt receipt = (Receipt)Session("receipt");\nstring username = receipt.Username;

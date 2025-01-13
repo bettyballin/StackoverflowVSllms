@@ -1,0 +1,1 @@
+CREATE INDEX idx_DateColumn ON YourTable (DateColumn);

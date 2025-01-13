@@ -1,0 +1,1 @@
+var sort1 = seq.OrderBy(i => i);

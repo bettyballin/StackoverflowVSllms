@@ -1,0 +1,1 @@
+Public Function MyFunction(Of T As Class)( ByVal arg As T) As T\n    ' function implementation\nEnd Functio

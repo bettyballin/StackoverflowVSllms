@@ -1,0 +1,1 @@
+// Using a hidden field for non-sensitive data\nconst express = require('express');\nconst app = express();\n\napp.get('/example', (req, res) => {\n  res.render('example', { action: 'goback' });\n});\n\n// In the template (e.g., EJS)\n<input type="hidden" name="action" value="<%= action %>">

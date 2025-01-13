@@ -1,0 +1,1 @@
+string userInput = Request.QueryString["input"];\nstring encodedInput = HttpUtility.HtmlEncode(userInput);\nResponse.Write(encodedInput);

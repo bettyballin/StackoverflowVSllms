@@ -1,1 +1,0 @@
-<?php\n// Procedural code for database connection and query\n$connection = mysqli_connect("localhost", "user", "password", "database");\n$result = mysqli_query($connection, "SELECT * FROM table");\nwhile ($row = mysqli_fetch_assoc($result)) {\n    echo $row['column'];\n}\nmysqli_close($connection);\n?>

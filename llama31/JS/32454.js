@@ -1,0 +1,1 @@
+// Check for null or undefined\nif (myString === null || myString === undefined) {\n  // handle null or undefined\n}\n\n// Check for empty string\nif (myString === "") {\n  // handle empty string\n}\n\n// Combine checks\nif (!myString) {\n  // handle null, undefined, or empty string\n}

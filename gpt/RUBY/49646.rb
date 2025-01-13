@@ -1,1 +1,0 @@
-# Create a sample list and data.frame\n    my_list <- list(a = 1:5, b = 6:10)\n    my_df <- data.frame(x = 1:3, y = 4:6)\n\n    # Using single brackets with list\n    list_subset <- my_list["a"]  # Returns a list\n\n    # Using single brackets with data.frame\n    df_subset <- my_df["x"]  # Returns a data.frame

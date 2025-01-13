@@ -1,0 +1,1 @@
+while (1) {\n    int bytes_sent = send(sockfd, buf, len, 0);\n    if (bytes_sent == -1) {\n        // handle error\n    } else if (bytes_sent == 0) {\n        // connection closed\n        break;\n    } else {\n        // adjust the buffer and length for the next send call\n        buf += bytes_sent;\n        len -= bytes_sent;\n    }\n}

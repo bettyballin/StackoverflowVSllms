@@ -1,1 +1,0 @@
-HttpCookie authCookie = FormsAuthentication.GetAuthCookie(userName, isPersistent);\n    authCookie.Secure = true;\n    authCookie.HttpOnly = true;\n    Response.Cookies.Add(authCookie);

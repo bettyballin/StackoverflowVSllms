@@ -1,0 +1,1 @@
+function getData() {\n  $location = "http://192.0.2.1/new-data.php"; // Replace with the IP address of the server hosting data.example.com\n  $contents = file_get_contents($location);\n  $jsonVars = json_decode($contents);\n  return $jsonVars;\n}

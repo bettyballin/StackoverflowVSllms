@@ -1,1 +1,0 @@
-<tx:annotation-driven transaction-manager="txManager1"/>\n<tx:annotation-driven transaction-manager="txManager2"/>

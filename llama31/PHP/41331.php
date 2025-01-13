@@ -1,0 +1,1 @@
+$token = bin2hex(random_bytes(16));\n$_SESSION['submit_token'] = $token;

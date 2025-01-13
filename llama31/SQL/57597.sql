@@ -1,0 +1,1 @@
+DELIMITER //\n\nCREATE PROCEDURE update_table()\nBEGIN\n  DECLARE var INT;\n\n  SELECT col1 INTO var FROM tbl2;\n\n  UPDATE tbl2 SET col1 = var + 1;\n\n  SELECT id, var FROM tbl;\nEND //\n\nDELIMITER ;

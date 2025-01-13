@@ -1,0 +1,1 @@
+CREATE TABLE CustomCodeHandlers (\n  Id INT PRIMARY KEY,\n  Name VARCHAR(255) NOT NULL,\n  Description VARCHAR(255),\n  CodeImplementation VARCHAR(255)  // or TEXT, depending on your DBMS\n);

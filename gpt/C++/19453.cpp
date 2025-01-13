@@ -1,1 +1,0 @@
-#define CATCH_CONFIG_MAIN\n   #include "catch.hpp"\n\n   TEST_CASE("Sample test", "[sample]") {\n       REQUIRE(1 == 1);\n       REQUIRE_NOTHROW([](){});\n   }

@@ -1,0 +1,1 @@
+document.getElementById('day').addEventListener('change', function() {\n  if (this.selectedIndex == 0) {\n    bill.pointPartOfWeek = 1;\n  } else {\n    bill.pointPartOfWeek = 2;\n  }\n  updateFields();\n});

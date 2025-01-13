@@ -1,1 +1,0 @@
--- Change the collation of a specific column\nALTER TABLE YourTableName\nALTER COLUMN YourColumnName VARCHAR(100) COLLATE Turkish_CI_AS;\n\n-- Verify the collation change for the column\nSELECT COLUMN_NAME, COLLATION_NAME \nFROM INFORMATION_SCHEMA.COLUMNS\nWHERE TABLE_NAME = 'YourTableName' AND COLUMN_NAME = 'YourColumnName';

@@ -1,1 +1,0 @@
-./jattach <pid> load instrument false /path/to/agent.so

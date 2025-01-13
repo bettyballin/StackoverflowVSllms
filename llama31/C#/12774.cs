@@ -1,0 +1,1 @@
+scp.SshLogLevel = Tamir.SharpSsh.jsch.Logger.DEBUG;

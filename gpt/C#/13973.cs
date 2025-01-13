@@ -1,1 +1,0 @@
-public class BaseClass\n{\n    public void Display()\n    {\n        Console.WriteLine("Display method in BaseClass");\n    }\n}\n\npublic class DerivedClass : BaseClass\n{\n    public new void Display()\n    {\n        Console.WriteLine("Display method in DerivedClass");\n    }\n}

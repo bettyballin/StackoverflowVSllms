@@ -1,0 +1,1 @@
+<?php\n$includingServerHost = $_SERVER['HTTP_REFERER'];\nif (isset($includingServerHost)) {\n    // Attempt to extract the domain\n    $parsedUrl = parse_url($includingServerHost);\n    echo "This file is included by: " . $parsedUrl['host'];\n} else {\n    echo "Could not determine the including server.";\n}\n?>

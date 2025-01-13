@@ -1,0 +1,1 @@
+#myTable {\n    width: 100%;\n    border-collapse: collapse;\n}\n\n#myTable tr {\n    height: 20px; /* adjust to your needs */\n}\n\n#leftArea {\n    width: 50%;\n    float: left;\n}\n\n#rightArea {\n    width: 50%;\n    float: right;\n}

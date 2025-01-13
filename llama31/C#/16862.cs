@@ -1,0 +1,1 @@
+public static (int start, int end) LongestContiguousSubsequenceIndices(Range[] ranges)\n{\n    // ...\n    return (longestStart, longestStart + longestLength - 1);\n}

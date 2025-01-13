@@ -1,1 +1,0 @@
-using System;\nusing System.Threading.Tasks;\n\nclass Program\n{\n    static async Task Main(string[] args)\n    {\n        string[] prefixes = { "http://localhost:8080/" };\n        var webServer = new WebServer(prefixes);\n        await webServer.StartAsync();\n    }\n}

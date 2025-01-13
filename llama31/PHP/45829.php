@@ -1,0 +1,1 @@
+require_once 'po2php/PoParser.php';\n\n$po_file = 'path/to/your.po';\n$parser = new PoParser();\n$catalog = $parser->parseFile($po_file);\n$msgids = array_keys($catalog);\n\nforeach ($msgids as $msgid) {\n    do_something_awesome($msgid);\n}

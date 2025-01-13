@@ -1,1 +1,0 @@
-c1 = [1, 6, 7, 10, 13, 28, 32, 41, 58, 63]\nc2 = [[13, 17, 18, 21, 32], [7, 11, 13, 14, 28], [1, 5, 6, 8, 15, 16]]\n\ndef nested_intersection(flat_list, nested_list):\n    return [[val for val in sublist if val in flat_list] for sublist in nested_list]\n\nc3 = nested_intersection(c1, c2)\nprint(c3)

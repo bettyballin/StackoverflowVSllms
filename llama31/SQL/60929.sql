@@ -1,0 +1,1 @@
+SELECT date, GROUP_CONCAT(id SEPARATOR '\n') as ids\nFROM your_table\nGROUP BY DATE(date)\nORDER BY date;

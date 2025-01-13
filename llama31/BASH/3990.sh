@@ -1,0 +1,1 @@
+gcc -x c++ -E -P -o output.cpp input.cpp | perl your_script.pl

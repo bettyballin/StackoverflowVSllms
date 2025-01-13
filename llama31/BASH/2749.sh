@@ -1,0 +1,1 @@
+awk -F '|' '{if (NF-1 != 35) print NR, $0}' records.txt

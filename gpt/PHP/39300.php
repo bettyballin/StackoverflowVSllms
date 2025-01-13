@@ -1,1 +1,0 @@
-<?php\n// Start output buffering\nob_start();\n\n// Your PHP code here\n\n// Get the contents of the buffer\n$response = ob_get_clean();\n\n// Send the response\necho trim($response);\n?>

@@ -1,1 +1,0 @@
-using System;\nusing System.IO;\nusing System.Xml.Serialization;\n\npublic T DeserializeFromXml<T>(string filePath)\n{\n    XmlSerializer serializer = new XmlSerializer(typeof(T));\n    using (FileStream stream = new FileStream(filePath, FileMode.Open))\n    {\n        return (T)serializer.Deserialize(stream);\n    }\n}

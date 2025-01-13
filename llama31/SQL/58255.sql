@@ -1,0 +1,1 @@
+CREATE OR REPLACE FUNCTION get_hash(p_blob BLOB) RETURN VARCHAR2 IS\n  v_hash VARCHAR2(32);\nBEGIN\n  v_hash := DBMS_CRYPTO.HASH(p_blob, DBMS_CRYPTO.HASH_SH1);\n  RETURN v_hash;\nEND;\n/

@@ -1,1 +1,0 @@
-template<typename T>\n  void myTemplateFunction(T arg) {} // external linkage

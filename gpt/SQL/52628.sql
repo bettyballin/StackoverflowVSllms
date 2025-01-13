@@ -1,1 +1,0 @@
-SELECT\n    SUM(CASE WHEN MONTH(JoinDate) = 1 THEN 1 ELSE 0 END) AS jan,\n    SUM(CASE WHEN MONTH(JoinDate) = 2 THEN 1 ELSE 0 END) AS feb,\n    SUM(CASE WHEN MONTH(JoinDate) = 3 THEN 1 ELSE 0 END) AS mar,\n    SUM(CASE WHEN MONTH(JoinDate) = 4 THEN 1 ELSE 0 END) AS apr\nFROM student;

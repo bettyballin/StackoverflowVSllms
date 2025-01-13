@@ -1,0 +1,1 @@
+tnsping <host>:<port>

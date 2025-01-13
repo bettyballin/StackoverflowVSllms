@@ -1,1 +1,0 @@
-$array = ['blue' => 'Color'];\n$flippedArray = array_flip($array);\n\nprint_r($flippedArray);

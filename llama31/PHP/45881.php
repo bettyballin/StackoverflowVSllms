@@ -1,0 +1,1 @@
+$xml = new DOMDocument();\n$xml->loadXML($xml_string);

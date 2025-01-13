@@ -1,0 +1,1 @@
+import gtk\n\n# Create a label\nlbl = gtk.Label("Hello, World!")\n\n# Set the font size to 14 points\nlbl.modify_font(gtk.gdk.FontDescription("sans-serif 14"))

@@ -1,1 +1,0 @@
-require 'text/format'\n\nformatter = Text::Format.new\nformatter.columns = 40\nformatter.first_indent = 4\nformatter.indent = 2\n\ntext = <<-TEXT\nThis is a long piece of text that should be wrapped and formatted according to the specified column width and indentation rules.\nTEXT\n\nputs formatter.format(text)

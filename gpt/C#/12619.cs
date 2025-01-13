@@ -1,1 +1,0 @@
-Dictionary<KeyObj, TValue> dictionary = new Dictionary<KeyObj, TValue>();\n\n   KeyObj key = new KeyObj { Str1 = "somestring", Str2 = "anotherstring" };\n   TValue value = // your value;\n\n   dictionary[key] = value;

@@ -1,0 +1,1 @@
+erl -name mynode -ssl true -ssl_protocol tls -ssl_keyfile /path/to/keyfile -ssl_certfile /path/to/certfile

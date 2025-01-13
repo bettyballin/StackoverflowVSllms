@@ -1,0 +1,1 @@
+import tarfile\nimport os\n\n# Open the tarfile\nwith tarfile.open('example.tar', 'w') as tar:\n    # Add files to the tarfile\n    tar.add('file1.txt')\n    tar.add('file2.txt')\n    \n    # Get the size of the tarfile\n    size = os.path.getsize('example.tar')\n    print(size)

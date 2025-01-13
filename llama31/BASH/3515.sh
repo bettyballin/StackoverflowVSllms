@@ -1,0 +1,1 @@
+ss -tan | grep <port_number>

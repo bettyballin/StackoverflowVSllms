@@ -1,1 +1,0 @@
-chmod 755 /usr/local/bin/my_parser

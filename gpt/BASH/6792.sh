@@ -1,1 +1,0 @@
-etstat -an | find ":80"

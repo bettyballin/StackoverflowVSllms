@@ -1,0 +1,1 @@
+// Transactional session\nISession session = sessionFactory.OpenSession();\nITransaction transaction = session.BeginTransaction();\n\ntry\n{\n    // Save or update an entity\n    session.SaveOrUpdate(entity);\n\n    // Commit the transaction (will automatically flush the session)\n    transaction.Commit();\n}\ncatch\n{\n    transaction.Rollback();\n}

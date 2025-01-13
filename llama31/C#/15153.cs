@@ -1,0 +1,1 @@
+var dict = ScriptingDictionary.CreateInstance();\ndict.Add("key1", "value1");\ndict["key2"] = "value2";\nint count = dict.Count;

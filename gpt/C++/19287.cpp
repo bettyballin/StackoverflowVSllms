@@ -1,1 +1,0 @@
-CComPtr<IUnknown> pOtherComObject; // Use appropriate COM interface\n\n   // In the singleton constructor or initialization method\n   HRESULT hr = pOtherComObject.CoCreateInstance(CLSID_OtherComObject);\n   // Handle errors and ensure hr is checked\n\n   // pOtherComObject will be released automatically when the singleton is destroyed

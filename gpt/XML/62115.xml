@@ -1,1 +1,0 @@
-<Users>\n    <User>\n        <ID>1</ID>\n        <Username>john_doe</Username>\n        <Email>john@example.com</Email>\n        <CreatedAt>2021-01-01T12:00:00Z</CreatedAt>\n    </User>\n    <User>\n        <ID>2</ID>\n        <Username>jane_doe</Username>\n        <Email>jane@example.com</Email>\n        <CreatedAt>2021-01-02T12:00:00Z</CreatedAt>\n    </User>\n</Users>

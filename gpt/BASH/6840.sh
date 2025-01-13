@@ -1,1 +1,0 @@
-set JAVA_HOME=C:\path\to\your\jdk\nset PATH=%JAVA_HOME%\bin;%PATH%

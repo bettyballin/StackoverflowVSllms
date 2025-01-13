@@ -1,1 +1,0 @@
-# db/seeds.rb\n    ConstantValue.create([\n      { name: 'Value1', description: 'This is value 1' },\n      { name: 'Value2', description: 'This is value 2' },\n      { name: 'Value3', description: 'This is value 3' }\n    ])

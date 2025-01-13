@@ -1,1 +1,0 @@
-@echo off\n    set source=\\source-server\shared-directory\n    set destination=C:\path\to\local-directory\n    robocopy %source% %destination% /MIR /R:5 /W:5 /LOG:C:\path\to\log\robocopy.log

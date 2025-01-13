@@ -1,0 +1,1 @@
+$.ajax({\n  url: 'http://example.com/data',\n  type: 'GET',\n  crossDomain: true,\n  success: function(data) {\n    console.log(data);\n  }\n});

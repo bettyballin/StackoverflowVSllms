@@ -1,0 +1,1 @@
+var results = SessionInstance.Session.CreateCriteria(typeof(EventItem))\n    .Add(Restrictions.Contains("AudienceList", myAudience.ID.ToString()))\n    .List();

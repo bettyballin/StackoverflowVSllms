@@ -1,1 +1,0 @@
-public IList<Customer> GetAll()\n{\n    try\n    {\n        var customerDtos = base.GetEntities(); // Assuming this returns a list of CustomerDTO\n        return ConvertCustomers(customerDtos);\n    }\n    catch (Exception ex)\n    {\n        // Handle exception\n        throw;\n    }\n}

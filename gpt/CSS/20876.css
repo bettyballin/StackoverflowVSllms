@@ -1,1 +1,0 @@
-html, body {\n    margin: 0;\n    padding: 0;\n    height: 100%;\n}\n\n.container {\n    min-height: 100vh;\n    /* Other styles */\n}

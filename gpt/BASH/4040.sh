@@ -1,1 +1,0 @@
-regedit /e file.reg "HKEY_LOCAL_MACHINE\Software\Example"

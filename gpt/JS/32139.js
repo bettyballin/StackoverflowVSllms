@@ -1,1 +1,0 @@
-$('#section').html($(data)); // Set the HTML content\n$('#section').fadeIn();      // Then fade in the element

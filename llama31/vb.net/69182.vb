@@ -1,0 +1,1 @@
+Using connection As New SqlConnection(connectionString)\n    connection.Open()\n\n    Dim command As New SqlCommand("Procedure_All", connection)\n    command.CommandType = CommandType.StoredProcedure\n\n    Try\n        command.ExecuteNonQuery()\n    Catch ex As SqlException\n        ' Handle the exception\n    End Try\nEnd Using

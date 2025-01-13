@@ -1,0 +1,1 @@
+SqlString sqlString = ...; // retrieve the value from the database\nStatusCode statusCode;\nswitch (sqlString.Value[0])\n{\n    case 'U':\n        statusCode = StatusCode.Unknown;\n        break;\n    case 'F':\n        statusCode = StatusCode.Failure;\n        break;\n    // etc.\n    default:\n        throw new FormatException("Invalid status code");\n}

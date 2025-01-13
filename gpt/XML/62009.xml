@@ -1,1 +1,0 @@
-<wsse:Security>\n       <wsse:UsernameToken>\n           <wsse:Username>admin</wsse:Username>\n           <wsse:Password>password</wsse:Password>\n       </wsse:UsernameToken>\n   </wsse:Security>

@@ -1,0 +1,1 @@
+// In your controller\n$data['content_view'] = 'homepage';\n$this->load->view('layout', $data);

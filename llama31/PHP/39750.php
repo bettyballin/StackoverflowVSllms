@@ -1,0 +1,1 @@
+// shared/libraries/Arrays.php\n\nnamespace App\Libraries;\n\nfunction array_get($array, $key, $default = null)\n{\n    // ...\n}

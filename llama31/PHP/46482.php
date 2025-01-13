@@ -1,0 +1,1 @@
+$stmt = $handle->prepare('SELECT * FROM user_id WHERE first_name = ? AND last_name = ?');\n$stmt->execute(array($id, $lname));

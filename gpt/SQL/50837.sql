@@ -1,1 +1,0 @@
-CREATE TABLE music (\n        id INTEGER PRIMARY KEY,\n        filename TEXT NOT NULL,\n        format TEXT,\n        artist TEXT,\n        title TEXT,\n        album TEXT,\n        genre TEXT,\n        length INTEGER,\n        year INTEGER,\n        directory TEXT,\n        size INTEGER,\n        available BOOLEAN\n    );

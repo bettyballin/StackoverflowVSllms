@@ -1,1 +1,0 @@
-public class LicenseManager\n{\n    private static readonly string validLicenseKey = "YOUR_VALID_LICENSE_KEY";\n\n    public static bool ValidateLicense(string licenseKey)\n    {\n        return licenseKey == validLicenseKey;\n    }\n}

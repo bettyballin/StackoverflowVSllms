@@ -1,0 +1,1 @@
+import uuid\n\nguid = uuid.uuid4()\nprint(guid)  # Output: a UUID object, e.g. 4c9a6254-47ae-4f75-88d5-31e0c7d33a14

@@ -1,0 +1,1 @@
+typedef struct _SHELLSTATE_QUICKLAUNCH {\n    DWORD fShowQuickLaunch:1; // Show Quick Launch\n    DWORD iQLIconSize;        // Quick Launch icon size\n} SHELLSTATE_QUICKLAUNCH;

@@ -1,0 +1,1 @@
+class CtrlController < ApplicationController\n  def create\n    @rendering_action = 'create'\n    render(:action=>"update")\n  end\n\n  def update\n    @rendering_action = 'update'\n  end\nend

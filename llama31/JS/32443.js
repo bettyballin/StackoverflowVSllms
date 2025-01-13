@@ -1,0 +1,1 @@
+$.ajax({\n  type: "GET",\n  url: "your/local/xml/file.xml",\n  dataType: "xml",\n  success: function(xml) {\n    // parse the XML here\n  },\n  error: function(xhr, status, error) {\n    // handle error here\n  }\n});

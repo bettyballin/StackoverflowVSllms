@@ -1,0 +1,1 @@
+hash = { a: 1, b: 2 }\np *hash  # prints [:a, 1], [:b, 2]

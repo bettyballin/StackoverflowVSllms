@@ -1,0 +1,1 @@
+pprof --ignore=*dylib /usr/local/bin/jags jags.prof

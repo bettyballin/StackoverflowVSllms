@@ -1,1 +1,0 @@
-cp /path/to/ivy-<version>.jar /usr/share/ant/lib/

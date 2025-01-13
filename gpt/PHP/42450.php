@@ -1,1 +1,0 @@
-$start_time = microtime(true);\n   $start_memory = memory_get_usage();\n   \n   // Your code here\n\n   $end_time = microtime(true);\n   $end_memory = memory_get_usage();\n\n   echo 'Execution time: ' . ($end_time - $start_time) . ' seconds';\n   echo 'Memory usage: ' . ($end_memory - $start_memory) . ' bytes';

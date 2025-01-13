@@ -1,0 +1,1 @@
+myprogram.exe\nexit /b %errorlevel%

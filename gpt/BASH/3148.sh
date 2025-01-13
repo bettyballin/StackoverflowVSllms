@@ -1,1 +1,0 @@
-# Navigate to your working copy directory\ncd /path/to/working/copy\n\n# Create the patch file\nsvn diff > my-bugfix.patch

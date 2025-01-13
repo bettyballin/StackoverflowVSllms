@@ -1,0 +1,1 @@
+from bs4 import BeautifulSoup\n\nhtml_code = "<html>...</html>"  # your malformed HTML code\nsoup = BeautifulSoup(html_code, 'lxml')

@@ -1,0 +1,1 @@
+// Assuming you have a HWND handle and you want to get a pointer to a specific object type\n// Replace 'SpecificObject' with the actual object type\nSpecificObject* pObj = (SpecificObject*)GetWindowLongPtr(hwnd, GWLP_USERDATA);

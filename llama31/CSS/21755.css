@@ -1,0 +1,1 @@
+.outer {\n  background-color: yellow;\n  width: 100px;\n  padding: 8px;\n  position: relative;\n}\n\n.inner {\n  background-color: gray;\n  height: 100%;\n  position: absolute;\n  top: 0;\n  left: 0;\n  right: 0;\n  bottom: 0;\n  margin: auto;\n}

@@ -1,1 +1,0 @@
-public class myClass\n{\n    public List<myOtherClass> anewList = new List<myOtherClass>();\n\n    public void addToList(string value)\n    {\n        myOtherClass tmp = new myOtherClass();\n        tmp.theStringInMyClass = value;\n        anewList.Add(tmp);\n    }\n}\n\npublic class myOtherClass\n{\n    public string theStringInMyClass { get; set; }\n}

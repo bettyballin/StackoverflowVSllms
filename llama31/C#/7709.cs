@@ -1,0 +1,1 @@
+DataTable dt = ...;\n\ndt.DefaultView.Sort = "name ASC";\ndt.DefaultView.RowFilter = "";\n\n// Define a custom sorting function\ndt.DefaultView.Sort = (row1, row2) => {\n  if (specialIds.Contains(row1["id"])) return -1;\n  if (specialIds.Contains(row2["id"])) return 1;\n  return string.Compare(row1["name"].ToString(), row2["name"].ToString());\n};

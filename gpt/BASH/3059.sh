@@ -1,1 +1,0 @@
-find oldcode -type f -links +1 -exec ls -lh {} \;

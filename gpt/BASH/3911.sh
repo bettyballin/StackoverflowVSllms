@@ -1,1 +1,0 @@
-tmux\n    your_command\n    # Press Ctrl+B, then D to detach

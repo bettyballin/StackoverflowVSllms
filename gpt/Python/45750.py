@@ -1,1 +1,0 @@
-with open("utf16be_with_bom.txt", "wb") as f:\n    f.write(b'\xfe\xff')  # Write the BOM for UTF-16 BE\n    f.write("This is a test file.".encode("utf-16-be"))

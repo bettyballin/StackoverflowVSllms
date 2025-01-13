@@ -1,0 +1,1 @@
+// Create a new schema comparison report\nREPORT COMPARISON my_report;\n\n// Add the source and target databases\nADD DATABASE my_source_db;\nADD DATABASE my_target_db;\n\n// Compare the schemas\nCOMPARE SCHEMA my_source_db.my_schema my_target_db.my_schema;\n\n// Generate the comparison report\nGENERATE REPORT my_report;

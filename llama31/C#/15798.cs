@@ -1,0 +1,1 @@
+var waitHandle = new EventWaitHandle(false, EventResetMode.AutoReset);\n// use the wait handle\nwaitHandle.Close();

@@ -1,0 +1,1 @@
+public function __construct($var) {\n    $this->var = $var;\n}\n\npublic function initialize() {\n    // Perform operations on $this->var here\n}

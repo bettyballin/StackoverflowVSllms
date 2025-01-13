@@ -1,1 +1,0 @@
-CREATE TABLE TableA (\n    -- Define your columns here\n    ProductID INT PRIMARY KEY,\n    StockLevel INT\n);\n\nCREATE TABLE TableB (\n    -- Define your columns here\n    ProductID INT PRIMARY KEY,\n    StockLevel INT\n);\n\nCREATE VIEW ActiveTableView AS\nSELECT * FROM TableA;

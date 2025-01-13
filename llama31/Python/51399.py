@@ -1,0 +1,1 @@
+aspectRatio = width / height

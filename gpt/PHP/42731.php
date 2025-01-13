@@ -1,1 +1,0 @@
-// Make sure you have the BCMath extension enabled\n$largeNumber = '123456789012345678901234567890';\n$anotherLargeNumber = '987654321098765432109876543210';\n\n$result = bcadd($largeNumber, $anotherLargeNumber);\necho $result; // Output: 1111111110111111111011111111100

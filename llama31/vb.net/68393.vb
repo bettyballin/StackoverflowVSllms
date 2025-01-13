@@ -1,0 +1,1 @@
+Dim dbContext As New MyDataContext()\n\nDim param1 As New SqlParameter("@param1", SqlDbType.NVarChar, 50)\nparam1.Value = "user input value"\n\nDim param2 As New SqlParameter("@param2", SqlDbType.Int)\nparam2.Value = 123\n\nDim result = dbContext.ExecuteQuery(Of MyResult)("EXEC MyStoredProcedure @param1, @param2", param1, param2)

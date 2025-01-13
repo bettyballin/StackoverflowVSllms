@@ -1,0 +1,1 @@
+$stmt = $pdo->prepare('SELECT p.* FROM posts p JOIN listen l ON p.userid = l.listenid WHERE l.userid = ?');\n$stmt->execute([$activeUserId]);\n$results = $stmt->fetchAll();

@@ -1,1 +1,0 @@
-strTag = strTag.Trim()\ntmp = tmp.Trim()

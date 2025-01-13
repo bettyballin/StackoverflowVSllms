@@ -1,0 +1,1 @@
+// Recommended usage:\n$mysqli = new mysqli($this->DBHost, $this->DBUser, $this->DBPassword, $this->DBDatabase);\n\nif ($mysqli->connect_errno) {\n    // Handle connection error\n}

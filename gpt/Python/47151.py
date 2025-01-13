@@ -1,1 +1,0 @@
-from datetime import datetime\n\n     def calculate_ytd(data, current_date):\n         year_start = datetime(current_date.year, 1, 1)\n         ytd_data = [entry for entry in data if year_start <= entry['date'] <= current_date]\n         ytd_sum = sum(entry['value'] for entry in ytd_data)\n         return ytd_sum

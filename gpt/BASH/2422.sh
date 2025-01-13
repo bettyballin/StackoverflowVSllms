@@ -1,1 +1,0 @@
-svnadmin verify /path/to/repository\n   svnadmin pack /path/to/repository\n   svnadmin upgrade /path/to/repository

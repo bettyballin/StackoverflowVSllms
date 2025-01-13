@@ -1,1 +1,0 @@
-DELETE t\nFROM masterTable t\nJOIN incomingDataTable inc\n    ON t.NormalizedTextField = inc.NormalizedTextField\nWHERE t.NormalizedTextField <> '';

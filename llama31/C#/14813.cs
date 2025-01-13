@@ -1,0 +1,1 @@
+private void CheckPersonData(DataRow row)\n{\n    CompareValues(row, lkuResidenceCounty);\n    CompareValues(row, lkuResponsibleCounty);\n    CompareValues(row, chkHispanic);\n    CompareValues(row, chkCitizen);\n    CompareValues(row, chkVeteran);\n}

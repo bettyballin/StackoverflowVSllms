@@ -1,0 +1,1 @@
+CREATE TABLE example (\n    id INT PRIMARY KEY,\n    dt DATETIME\n);\n\nINSERT INTO example (id, dt) VALUES (1, '1900-01-01 00:00:00');\nINSERT INTO example (id, dt) VALUES (2, '2050-01-01 00:00:00');

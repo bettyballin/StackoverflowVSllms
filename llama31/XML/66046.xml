@@ -1,0 +1,1 @@
+<convert converter="com.example.CustomConverter" match="com.example.MyJavaClass"/>

@@ -1,0 +1,1 @@
+const addressInput = document.getElementById('address');\n\naddressInput.addEventListener('keydown', (e) => {\n  if (e.key === ' ') {\n    addressInput.inputMode = 'text';\n  } else if (e.key.match(/[0-9]/)) {\n    addressInput.inputMode = 'numeric';\n  }\n});

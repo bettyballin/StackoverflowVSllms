@@ -1,0 +1,1 @@
+# Install the sqldf package\ninstall.packages("sqldf")\n\n# Load the sqldf package\nlibrary(sqldf)\n\n# Create a sample data frame\ndf <- data.frame(id = c(1, 2, 3), name = c("John", "Mary", "David"), age = c(25, 31, 42))\n\n# Use SQL commands to manipulate the data frame\nresult <- sqldf("SELECT * FROM df WHERE age > 30")\n\n# Print the result\nprint(result)

@@ -1,0 +1,1 @@
+// Create a LINQ query\nvar query = numbers.Where(n => n % 2 == 0);\n\n// The query is only executed when we iterate over the results\nforeach (var number in query)\n{\n    Console.WriteLine(number);\n}

@@ -1,1 +1,0 @@
-# Example script to delete existing files from the publish directory\nrm /path/to/deployment/directory/default.htm\nrm /path/to/deployment/directory/setup.exe\nrm /path/to/deployment/directory/yourapp.applicatio

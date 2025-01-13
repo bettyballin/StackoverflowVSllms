@@ -1,0 +1,1 @@
+0 * * * * /usr/bin/php /var/www/html/cron.php

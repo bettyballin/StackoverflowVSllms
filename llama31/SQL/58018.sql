@@ -1,0 +1,1 @@
+ALTER TABLE dbo.Event SET (TABLE LOCK ON)

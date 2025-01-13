@@ -1,1 +1,0 @@
-CREATE TABLE PhoneNumbers (\n        id INT PRIMARY KEY,\n        user_id INT,\n        phone_number VARCHAR(15), -- E.164 format\n        FOREIGN KEY (user_id) REFERENCES Users(id)\n    );

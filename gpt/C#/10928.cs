@@ -1,1 +1,0 @@
-protected void Update_OnLoad(object sender, EventArgs e)\n{\n    if (!IsPostBack)\n    {\n        // Initial load logic here\n    }\n}\n\nprotected void btnSubmit_Click(object sender, EventArgs e)\n{\n    // Button click logic here\n    updateFeed.Update();\n}

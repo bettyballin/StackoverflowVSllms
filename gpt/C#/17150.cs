@@ -1,1 +1,0 @@
-protected void Page_Load(object sender, EventArgs e)\n{\n    // Abandon the old session to start a new one\n    Session.Abandon();\n    Session.Clear();\n    // Optionally, you can manually create a new session ID\n    Response.Cookies.Add(new HttpCookie("ASP.NET_SessionId", ""));\n}

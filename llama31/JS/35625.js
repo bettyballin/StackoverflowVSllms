@@ -1,0 +1,1 @@
+$("#addRow").click(function() {\n    newTrack = 'same code as tr.track'\n    $("tbody").append(newTrack);\n    $("#tracks").tableDnD(); // re-initialize the plugin\n    return false;\n});

@@ -1,0 +1,1 @@
+SELECT REPLACE(N'ClΘmentine', N'Θ', N'é')

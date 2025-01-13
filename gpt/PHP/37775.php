@@ -1,1 +1,0 @@
-$query = "INSERT INTO `pagehit` (user_id, pageurl) VALUES ('" . $userid . "', '" . $pageurl . "')";

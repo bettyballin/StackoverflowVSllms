@@ -1,1 +1,0 @@
-<?php\n\n$guest = 1;\n$editor = 2;\n$admin = 4;\n\n// Assign multiple roles to the user\n$user = $editor | $admin;\n\nif (($user & $editor) == $editor) {\n    echo "User has editor permissions.\n";\n}\n\nif (($user & $admin) == $admin) {\n    echo "User has admin permissions.\n";\n}\n\n?>

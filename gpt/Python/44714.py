@@ -1,1 +1,0 @@
-def is_palindrome_iterative(s):\n    left, right = 0, len(s) - 1\n    while left < right:\n        if s[left] != s[right]:\n            return False\n        left += 1\n        right -= 1\n    return True

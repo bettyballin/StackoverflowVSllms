@@ -1,0 +1,1 @@
+EXEC sp_refreshview @viewname = 'your_view_name';

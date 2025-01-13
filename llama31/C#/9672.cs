@@ -1,0 +1,1 @@
+// In web.config\n<sessionState \n    mode="StateServer" \n    cookieless="false" \n    regenerateExpiredSessionId="true" \n    timeout="20" \n    stateConnectionString="tcpip=127.0.0.1:42424" \n/>\n\n// In code\nvoid Session_Start(object sender, EventArgs e)\n{\n    // Use a secure session ID\n    Session.SessionID = Guid.NewGuid().ToString("N");\n}

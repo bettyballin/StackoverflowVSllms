@@ -1,1 +1,0 @@
-$memcache = new Memcache();\n$memcache->connect('127.0.0.1', 11211);\n\n// Reuse $memcache object for all operations within the page

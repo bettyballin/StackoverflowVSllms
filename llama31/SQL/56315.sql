@@ -1,0 +1,1 @@
+REINDEX TABLE person (COLUMN dob, COLUMN 37);

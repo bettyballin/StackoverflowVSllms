@@ -1,1 +1,0 @@
-$array = array("foo" => "bar", 42 => 24);\ndebug($array);

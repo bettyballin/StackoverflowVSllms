@@ -1,1 +1,0 @@
-gacutil -u YourAssembly\ngacutil -i YourAssembly.dll

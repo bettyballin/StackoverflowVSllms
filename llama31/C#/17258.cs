@@ -1,0 +1,1 @@
+var result = list1\n    .Where(t => !list2.Select(x => x.column1).Contains(t.column1));

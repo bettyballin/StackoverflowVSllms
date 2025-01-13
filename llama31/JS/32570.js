@@ -1,0 +1,1 @@
+function formatCurrency(input) {\n  let value = input.value.replace(/,/g, ''); // remove existing commas\n  let numericValue = parseFloat(value);\n  if (!isNaN(numericValue)) {\n    input.value = '$' + numericValue.toLocaleString();\n  }\n}

@@ -1,1 +1,0 @@
-cat MicrosoftWindowsXPEula.txt | python3 extract_quotes.py

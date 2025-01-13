@@ -1,0 +1,1 @@
+[AcceptVerbs(HttpVerbs.Get)]\npublic FilePathResult GetFile()\n{\n    var fileName = "c:\foo.exe";\n    return File(fileName, "application/octet-stream", "installer.exe");\n}

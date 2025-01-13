@@ -1,1 +1,0 @@
-INSERT INTO tab2 (field1, field2, field3, field4)\nSELECT field1, field2, field3, 'default_value'\nFROM tab1;

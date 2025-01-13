@@ -1,1 +1,0 @@
-// After saving the comment\n   Response.Redirect(Request.Url.AbsoluteUri);

@@ -1,1 +1,0 @@
-javac MyClass.java\njavap -c MyClass

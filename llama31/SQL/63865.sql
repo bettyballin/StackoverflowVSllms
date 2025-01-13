@@ -1,0 +1,1 @@
+EXEC sp_changepublication @publication = 'TestReplication', @property = 'verbose_level', @value = 2

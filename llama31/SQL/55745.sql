@@ -1,0 +1,1 @@
+SELECT \n    s.name AS SubscriptionName,\n    s.publisher AS Publisher,\n    s.publication AS Publication,\n    s.last_sync_time AS LastSyncTime\nFROM \n    distribution.dbo.MSsubscriptions s\nINNER JOIN \n    distribution.dbo.MSdistribution_agents da ON s.subscriber_id = da.subscriber_id\nWHERE \n    da.type = 0  -- type 0 is for push subscriptions

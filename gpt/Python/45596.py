@@ -1,1 +1,0 @@
-# models/model.py\nfrom google.appengine.ext import ndb\n\nclass MyModel(ndb.Model):\n    name = ndb.StringProperty(required=True)\n    created = ndb.DateTimeProperty(auto_now_add=True)

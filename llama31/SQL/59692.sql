@@ -1,0 +1,1 @@
+SELECT * \nFROM `Post` AS `p` \nLEFT JOIN `CategoryBinding` AS `cb` ON p.ID = cb.postID \nLEFT JOIN `Category` AS `c` ON cb.categoryID = c.ID\nWHERE p.ID IN (\n  SELECT postID \n  FROM `CategoryBinding` \n  WHERE categoryID = 2  // assuming 2 is the ID of the category 'asp'\n)

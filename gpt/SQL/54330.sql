@@ -1,1 +1,0 @@
-EXEC SelectFromDynamicTable @itemNumber = '123', @itemType = 'A'

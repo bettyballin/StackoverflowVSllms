@@ -1,0 +1,1 @@
+svn propset svn:ignore docs C:\Projects\test

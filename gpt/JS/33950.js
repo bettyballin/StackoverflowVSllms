@@ -1,1 +1,0 @@
-// Example (JavaScript) - Age validation\nif (age < 18 || age > 120) {\n    // Handle invalid age\n}

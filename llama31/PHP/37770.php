@@ -1,0 +1,1 @@
+require_once 'vendor/autoload.php';\n\nuse PhpOffice\PhpWord\PhpWord;\n\n$phpWord = new PhpWord();\n$section = $phpWord->addSection();\n$section->addText($text);\n\n$objWriter = \PhpOffice\PhpWord\IOFactory::createWriter($phpWord, 'Word2007');\n$objWriter->save('document.docx');

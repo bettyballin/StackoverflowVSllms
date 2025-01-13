@@ -1,1 +1,0 @@
-SELECT \n    [Current LSN], \n    [Operation], \n    [Transaction ID], \n    [Begin Time], \n    [Transaction Name], \n    [Transaction SID], \n    [Transaction Name]\nFROM fn_dblog(NULL, NULL)\nWHERE [Begin Time] > DATEADD(day, -1, GETDATE());

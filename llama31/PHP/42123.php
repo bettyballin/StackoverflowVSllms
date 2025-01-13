@@ -1,0 +1,1 @@
+$a = 5;\n$a += 3;  // equivalent to $a = $a + 3;\necho $a;  // outputs 8

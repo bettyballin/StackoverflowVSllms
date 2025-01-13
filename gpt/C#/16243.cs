@@ -1,1 +1,0 @@
-protected void Application_Start()\n   {\n       ViewEngines.Engines.Clear();\n       ViewEngines.Engines.Add(new CustomViewEngine());\n       // Other initialization code...\n   }

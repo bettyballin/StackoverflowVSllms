@@ -1,1 +1,0 @@
-# Example command to backup a Virtual Server using Acronis\n   acronis_backup --source "/path/to/virtual/machine" --destination "/path/to/backup/location" --vss

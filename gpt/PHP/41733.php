@@ -1,1 +1,0 @@
-<?php\n$pattern = "/abcd(™)?/i";\n$subject = "AbCd™  U9+";\n\npreg_match($pattern, $subject, $matches);\nprint_r($matches);\n?>

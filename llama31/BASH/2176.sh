@@ -1,0 +1,1 @@
+xmllint --xpath "//book[@id='bk101']" books.xml

@@ -1,0 +1,1 @@
+SELECT \n  p.ProductID,\n  p.ProductName,\n  MAX(CASE WHEN pm.MetaKey = 'Color' THEN pm.MetaValue END) AS Color,\n  MAX(CASE WHEN pm.MetaKey = 'Size' THEN pm.MetaValue END) AS Size,\n  MAX(CASE WHEN pm.MetaKey = 'Material' THEN pm.MetaValue END) AS Material\nFROM \n  Products p\n  INNER JOIN ProductMeta pm ON p.ProductID = pm.ProductID\nGROUP BY \n  p.ProductID, p.ProductName

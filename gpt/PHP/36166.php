@@ -1,1 +1,0 @@
-php -r "echo file_exists('C:\\xampplite\\php\\pear\\PEAR.php') ? 'PEAR is installed' : 'PEAR is not installed';"

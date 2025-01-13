@@ -1,0 +1,1 @@
+interface DataStructure extends Iterator, Countable\n{\n    // Your methods here\n}

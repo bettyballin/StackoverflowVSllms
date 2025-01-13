@@ -1,1 +1,0 @@
-echo -n | openssl s_client -connect login.website.com:443 | openssl x509 > server.crt

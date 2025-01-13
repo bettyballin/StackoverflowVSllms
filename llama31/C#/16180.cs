@@ -1,0 +1,1 @@
+Dictionary<string, string> myDictionary = (Dictionary<string, string>)Session["myDictionary"];

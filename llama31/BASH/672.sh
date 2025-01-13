@@ -1,0 +1,1 @@
+grep " 404 " access.log | awk '{print $7}' | sort | uniq

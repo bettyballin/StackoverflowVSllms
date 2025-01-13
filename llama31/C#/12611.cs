@@ -1,0 +1,1 @@
+using Microsoft.Practices.EnterpriseLibrary.Validation;\nusing Microsoft.Practices.EnterpriseLibrary.Validation.Validators;\n\n[HasSelfValidation]\npublic class User\n{\n    [NotNullValidator]\n    public string Name { get; set; }\n\n    [RegexValidator(@"^[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}$")]\n    public string Email { get; set; }\n}

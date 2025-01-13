@@ -1,0 +1,1 @@
+$date1 = new DateTime('2009-03-01');\n$date2 = new DateTime('1970-01-01'); // Unix epoch\n$interval = $date1->diff($date2);\necho $interval->days;

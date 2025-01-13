@@ -1,0 +1,1 @@
+sar -u -f /var/log/sysstat/sa$(date +%w) -s 00:00:00 -e 23:59:59

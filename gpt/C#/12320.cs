@@ -1,1 +1,0 @@
-protected void Page_Load(object sender, EventArgs e)\n{\n    // Log session state\n    if (Session != null)\n    {\n        System.Diagnostics.Debug.WriteLine("Session ID: " + Session.SessionID);\n    }\n\n    // Log ViewState\n    if (IsPostBack)\n    {\n        System.Diagnostics.Debug.WriteLine("Postback detected");\n    }\n}

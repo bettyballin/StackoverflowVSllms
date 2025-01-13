@@ -1,0 +1,1 @@
+$.ajax({\n  type: 'GET',\n  url: 'your-url-here',\n  dataType: 'json', // This tells jQuery to parse the JSON for you\n  success: function(data) {\n    $.each(data, function(index, itemData) {\n      // Now you have access to each element\n      console.log(itemData.TEST1);\n      console.log(itemData.TEST2);\n      console.log(itemData.TEST3);\n    });\n  }\n});

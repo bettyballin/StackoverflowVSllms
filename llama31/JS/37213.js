@@ -1,0 +1,1 @@
+function encodePlusSigns(input) {\n    return input.replace(/\+/g, "&#43 ");\n}\n\n// Example usage:\nvar input = "1+2";\nvar encodedInput = encodePlusSigns(input);\n// encodedInput will be "1&#43 2"

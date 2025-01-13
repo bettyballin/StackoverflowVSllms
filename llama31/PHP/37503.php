@@ -1,0 +1,1 @@
+$filename = 'example.txt';\n$ext = pathinfo($filename, PATHINFO_EXTENSION);\necho $ext; // outputs "txt"

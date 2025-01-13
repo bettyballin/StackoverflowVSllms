@@ -1,0 +1,1 @@
+context.Log = Console.Out; // or any other log output\ncontext.SubmitChanges();

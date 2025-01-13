@@ -1,0 +1,1 @@
+if (Page.IsValid == false)\n{\n    ScriptManager.RegisterStartupScript(this, this.GetType(), "expandDiv", "$('#divChangePassword').slideDown();", true);\n}

@@ -1,0 +1,1 @@
+CREATE TABLE product_bill_of_materials\n(\n    parent_product_id INT NOT NULL,\n    child_product_id INT NOT NULL,\n    quantity INT NOT NULL,\n    CONSTRAINT PK_product_bill_of_materials PRIMARY KEY CLUSTERED (parent_product_id, child_product_id)\n)

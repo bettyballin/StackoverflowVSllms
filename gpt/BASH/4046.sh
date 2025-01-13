@@ -1,1 +1,0 @@
-# Manually resolve conflicts in test.h\n\n# Commit the changes\nhg commit -m "Resolved merge conflict in test.h"

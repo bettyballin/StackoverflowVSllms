@@ -1,0 +1,1 @@
+ini_set('precision', 14); // Set precision to 14 decimal places

@@ -1,0 +1,1 @@
+$conn = odbc_connect("DRIVER={iODBC Driver};DBQ=myfile.mdb", "", "");\nif ($conn) {\n    echo "Connected successfully!";\n} else {\n    echo "Connection failed!";\n}

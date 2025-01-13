@@ -1,0 +1,1 @@
+$(document).ready(function() {\n    $('.edit').editable('save.php'); // assuming you have a save.php file to handle the form submission\n});

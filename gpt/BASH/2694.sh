@@ -1,1 +1,0 @@
-cleartool setgroup gC

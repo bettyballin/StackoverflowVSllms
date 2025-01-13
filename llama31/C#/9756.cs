@@ -1,0 +1,1 @@
+var proxy = new GenericProxy<MyClient>(configName => new MyClient(configName), "myConfig");

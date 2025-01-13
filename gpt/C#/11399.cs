@@ -1,1 +1,0 @@
-using System;\nusing System.IO;\n\nclass Program\n{\n    static void Main()\n    {\n        string strOutput = new string('a', 2050); // A string with 2050 'a' characters\n        using (TextWriter textWriter = new StreamWriter("output.txt"))\n        {\n            textWriter.Write(strOutput);\n        }\n    }\n}

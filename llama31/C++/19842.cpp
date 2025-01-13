@@ -1,0 +1,1 @@
+#include <atomic>\n#include <mutex>\n#include <thread>\n\nstd::atomic<int> count(0);\nstd::mutex mtx;\n\nvoid increment() {\n    std::lock_guard<std::mutex> lock(mtx);\n    count++;\n}\n\nint main() {\n    std::thread t1(increment);\n    std::thread t2(increment);\n    t1.join();\n    t2.join();\n    std::cout << count << std::endl; // prints 2\n    return 0;\n}

@@ -1,1 +1,0 @@
-<% \n    Session.LCID = 2057 ' LCID for English (United Kingdom), which uses dd-MMM-yy format\n    %>

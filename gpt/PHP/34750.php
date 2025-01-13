@@ -1,1 +1,0 @@
-$db = Zend_Registry::get('db'); \n\n$username = 'some_username'; // This should come from your input source\n$select = $db->select()\n             ->from('message AS m', array('num' => 'COUNT(*)'))\n             ->where('m.message LIKE ?', $username . ' %');\n\n$row = $db->fetchRow($select);

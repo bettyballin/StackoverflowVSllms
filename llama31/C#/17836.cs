@@ -1,0 +1,1 @@
+TestData testData = new TestData { SomeData = "someTestData" };\nstring data = new JavaScriptSerializer().Serialize(testData);

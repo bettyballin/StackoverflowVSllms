@@ -1,1 +1,0 @@
-// This is a placeholder to indicate the use of SQL Server Profiler.\n// No actual C# code is needed to run SQL Server Profiler as it is a GUI tool.

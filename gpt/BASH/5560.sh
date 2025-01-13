@@ -1,1 +1,0 @@
-docker run --rm --name pgloader dimitri/pgloader:latest pgloader mysql://user:password@host/source_database postgresql://user:password@host/target_database

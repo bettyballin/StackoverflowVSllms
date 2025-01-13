@@ -1,1 +1,0 @@
-services.AddAuthorization(options =>\n   {\n       options.AddPolicy("RequireAdministratorRole",\n           policy => policy.RequireRole("Admin"));\n   });\n\n   [Authorize(Policy = "RequireAdministratorRole")]\n   public IActionResult AdminOnlyAction()\n   {\n       // Action code here\n   }

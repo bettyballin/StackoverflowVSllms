@@ -1,1 +1,0 @@
-using System.Data.Entity; // Make sure to include this namespace\n\nvar result = context.Users\n                    .Include(u => u.GroupMember)\n                    .Where(u => u.Id == someUserId)\n                    .ToList();

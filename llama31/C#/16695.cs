@@ -1,0 +1,1 @@
+// MainForm.cs\npublic partial class MainForm : Form\n{\n    public MainForm()\n    {\n        InitializeComponent();\n\n        var template = new TemplatedUserControl();\n        var content = new MyContentUserControl(); // Your content control\n\n        template.Content = content;\n        this.Controls.Add(template);\n    }\n}

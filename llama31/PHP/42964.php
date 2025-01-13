@@ -1,0 +1,1 @@
+$input = array('a', 'b', 'c', 'd', 'e', 'f', 'g', 'h', 'i', 'j');\n$output = array_reduce($input, function($carry, $item) use ($input) { \n    if (array_search($item, $input) % 2 == 0) $carry[] = $item; \n    return $carry; \n}, []);\n\nvar_dump($output);

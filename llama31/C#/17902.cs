@@ -1,0 +1,1 @@
+[module: ComClassFactory(typeof(MyCustomClassFactory))]

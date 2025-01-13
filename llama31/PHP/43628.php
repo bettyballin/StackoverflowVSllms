@@ -1,0 +1,1 @@
+function prepareString($str) {\n    $str = mb_strtolower(trim(preg_replace('#[^\p{L}\p{Nd}\.]+#u', ' ', $str)));\n\n    return trim(preg_replace('#\s\s+#u', ' ', preg_replace('#([^\12544-\65519\x{0030}-\x{0039}])#u', ' ', $str) . ' ' . implode(' ', preg_split('#([\12544-\65519\s])?#u', $str, -1, PREG_SPLIT_NO_EMPTY))));\n}

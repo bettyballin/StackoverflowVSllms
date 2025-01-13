@@ -1,0 +1,1 @@
+var results = dbContext.Table\n    .Where(t => Regex.IsMatch(t.Field, @"\babc\b"));

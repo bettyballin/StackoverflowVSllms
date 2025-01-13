@@ -1,0 +1,1 @@
+$.post("SendStatusEmail.action", \n       {status: newstatus, id : id }, \n       function(data) {\n         column.text(data);\n         column.addClass("redfont");\n         column.parent().fadeOut(3000, function(){column.parent().remove()});\n       })\n     .fail(function(xhr, status, error) {\n         window.location.href = "error.jsp";\n       });

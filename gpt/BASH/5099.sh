@@ -1,1 +1,0 @@
-/path/to/wildfly/bin/jboss-cli.sh --connect --command="deploy /path/to/yourapp.war --force"

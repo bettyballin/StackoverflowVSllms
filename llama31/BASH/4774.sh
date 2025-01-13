@@ -1,0 +1,1 @@
+svn checkout svn+ssh://username@your-ip-address:8080/svn/myrepo

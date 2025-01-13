@@ -1,0 +1,1 @@
+#!/usr/sbin/dtrace -s\n\nsyscall:::entry\n{\n    @syscalls[probefunc] = count();\n}\n\ntick-1sec\n{\n    printf("%-20s %-10s\n", "Syscall", "Count");\n    printa("%-20s %-10@d\n", @syscalls);\n    trunc(@syscalls, 10);\n}

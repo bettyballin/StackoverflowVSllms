@@ -1,0 +1,1 @@
+SELECT DISTINCT t.tag \nFROM tags t \nJOIN categories c ON t.cid = c.cid \nWHERE c.category = 'manufacture';

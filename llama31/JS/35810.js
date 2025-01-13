@@ -1,0 +1,1 @@
+$("img").mouseover(function() {\n  var src = $(this).attr("src");\n  $(this).attr("src", src.replace(".gif", "over.gif"));\n});\n\n$("img").mouseout(function() {\n  var src = $(this).attr("src");\n  $(this).attr("src", src.replace("over.gif", ".gif"));\n});

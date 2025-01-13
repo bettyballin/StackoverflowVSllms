@@ -1,1 +1,0 @@
-xsltproc /path/to/docbook-xsl/html/docbook.xsl input.docbook -o output.html

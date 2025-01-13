@@ -1,1 +1,0 @@
-<?php\nrequire 'path/to/Recess/Application.php';\nrequire 'path/to/VCL4PHP/Application.php';\n\nuse Recess\Application as RecessApplication;\nuse VCL4PHP\Application as VCLApplication;\n\n$recessApp = new RecessApplication();\n$vclApp = new VCLApplication();

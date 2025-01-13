@@ -1,0 +1,1 @@
+#include <stdio.h>\n\nint main() {\n    // ... your code ...\n    fflush(stdout);\n    // ... rest of your code ...\n}

@@ -1,0 +1,1 @@
+var fileVersionInfo = FileVersionInfo.GetVersionInfo("path\to\your\dll.dll");\n     Console.WriteLine(fileVersionInfo.FileVersion);

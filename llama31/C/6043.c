@@ -1,0 +1,1 @@
+// EBCDIC digit values\n#define EBCDIC_0 0xF0\n#define EBCDIC_1 0xF1\n#define EBCDIC_2 0xF2\n#define EBCDIC_3 0xF3\n#define EBCDIC_4 0xF4\n#define EBCDIC_5 0xF5\n#define EBCDIC_6 0xF6\n#define EBCDIC_7 0xF7\n#define EBCDIC_8 0xF8\n#define EBCDIC_9 0xF9

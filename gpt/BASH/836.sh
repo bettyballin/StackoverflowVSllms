@@ -1,1 +1,0 @@
-javac -cp path/to/ant/lib/resolver.jar CustomXMLValidator.java

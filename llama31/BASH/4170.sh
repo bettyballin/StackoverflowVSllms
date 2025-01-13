@@ -1,0 +1,1 @@
+mysql -u uid -ppwd -D dbname -B -e "SELECT id, name FROM students" | sed 's/\t/,/g;s/^/"/;s/$/"/;s/\n"/"\n"/g' > list.csv

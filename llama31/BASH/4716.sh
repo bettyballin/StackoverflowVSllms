@@ -1,0 +1,1 @@
+# Example ZAP test in CLI mode\n   zap-baseline-scan --url http://your-application-url.com

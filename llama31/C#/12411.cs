@@ -1,0 +1,1 @@
+var options = new SchemaExportOptions();\noptions.Script = false;\noptions.Execute = true;\noptions.JustDrop = false;\noptions.Format = false;\n\nnew SchemaExport(cfg).Execute(options);

@@ -1,0 +1,1 @@
+#include <catch2/catch.hpp>\n\nSCENARIO("MyClass does something") {\n  GIVEN("a MyClass instance") {\n    MyClass obj;\n  }\n  WHEN("I call a method on it") {\n    obj.doSomething();\n  }\n  THEN("something should happen") {\n    // Your assertion code here\n  }\n}

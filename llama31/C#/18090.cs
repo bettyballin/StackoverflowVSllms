@@ -1,0 +1,1 @@
+int blockSize = 16; // 128 bits\nint inputSize = your_input_size; // replace with your input size\n\nint maxEncryptedSize = (inputSize + blockSize) + (blockSize - ((inputSize + blockSize) % blockSize));\n\n// use maxEncryptedSize to set the size of your string fields

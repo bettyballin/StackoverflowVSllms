@@ -1,0 +1,1 @@
+// configs/doctrine.php\nreturn array(\n    'database' => array(\n        'adapter' => 'Mysqli',\n        'params' => array(\n            'host' => 'localhost',\n            'username' => 'username',\n            'password' => 'password',\n            'dbname' => 'database',\n        ),\n    ),\n);

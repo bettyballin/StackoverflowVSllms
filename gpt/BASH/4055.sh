@@ -1,1 +1,0 @@
-sudo adduser --system --shell /bin/bash --gecos 'Git Version Control' --group --disabled-password --home /home/git gitea\nsudo mkdir -p /var/lib/gitea/{custom,data,logs}\nsudo chown -R gitea:gitea /var/lib/gitea/\nsudo chmod -R 750 /var/lib/gitea/\nsudo mkdir /etc/gitea\nsudo chown root:gitea /etc/gitea\nsudo chmod 770 /etc/gitea

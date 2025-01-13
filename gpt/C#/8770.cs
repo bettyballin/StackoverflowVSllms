@@ -1,1 +1,0 @@
-string safeInput = HttpUtility.HtmlEncode(userInput);\n    Response.Write(safeInput);

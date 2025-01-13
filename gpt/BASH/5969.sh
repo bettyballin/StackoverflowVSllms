@@ -1,1 +1,0 @@
-sudo apt-get install sysstat\n     iostat -x 1

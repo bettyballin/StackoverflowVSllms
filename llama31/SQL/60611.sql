@@ -1,0 +1,1 @@
+SELECT \n    Date,\n    Column1,\n    Column2,\n    Column3,\n    Column4,\n    Column3 - COALESCE(LAG(Column3) OVER (ORDER BY Date), 0) AS NewColumn\nFROM \n    YourTable

@@ -1,0 +1,1 @@
+// Original process\nHANDLE hPipe = CreateNamedPipe(L"\\pipe\\myPipe", PIPE_ACCESS_DUPLEX, PIPE_TYPE_BYTE, 1, 0, 0, 0, NULL);\n\n// Remote thread\nHANDLE hPipe = CreateFile(L"\\pipe\\myPipe", GENERIC_READ | GENERIC_WRITE, 0, NULL, OPEN_EXISTING, 0, NULL);

@@ -1,0 +1,1 @@
+<configuration>\n  <system.applicationHost>\n    <serviceAutoStartProviders>\n      <add name="YourCustomProvider" />\n    </serviceAutoStartProviders>\n  </system.applicationHost>\n</configuration>

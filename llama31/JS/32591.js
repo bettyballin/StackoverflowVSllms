@@ -1,0 +1,1 @@
+var formData = $('#myForm').serialize();\n$.ajax({\n  type: 'POST',\n  url: '/your/url',\n  data: formData,\n  // ...\n});

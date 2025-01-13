@@ -1,1 +1,0 @@
-sed -n '105,115p' .tnsnames.ora | sed -n 's/.*\(host=[^)]*\).*/\1/p; s/.*\(port=[^)]*\).*/\1/p'

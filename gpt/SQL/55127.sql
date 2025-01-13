@@ -1,1 +1,0 @@
-USE [Mydatabase];\n    SELECT * FROM [MyView];

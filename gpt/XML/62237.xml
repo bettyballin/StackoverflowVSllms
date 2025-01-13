@@ -1,1 +1,0 @@
-<mx:Component className="NullItemRenderer" xmlns:mx="http://www.adobe.com/2006/mxml">\n    <mx:Label text="{data ? data.label : ''}" />\n</mx:Component>

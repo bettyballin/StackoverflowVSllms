@@ -1,0 +1,1 @@
+Imports System.DirectoryServices\n\n' Create a new DirectoryEntry\nDim entry As New DirectoryEntry("LDAP://CN=NewGroup,OU=Groups,DC=example,DC=com")\n\n' Set the group type to global group\nentry.Properties("groupType").Value = 2 ' ADS_GROUP_TYPE_GLOBAL_GROUP = 2\n\n' Commit the changes\nentry.CommitChanges()

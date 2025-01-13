@@ -1,1 +1,0 @@
-// point3d.h\n\n#ifndef POINT3D_H\n#define POINT3D_H\n\nnamespace VW {\n    class Point3D {\n        // Class members and methods\n    };\n\n    // Declaration of operator+\n    Point3D operator+(const Point3D& lhs, const Point3D& rhs);\n\n    // Declaration of operator/\n    Point3D operator/(const Point3D& lhs, double rhs);\n}\n\n#endif // POINT3D_H

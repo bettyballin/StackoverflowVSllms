@@ -1,1 +1,0 @@
-// file: classb.php\nclass B {\n    public function sayHello() {\n        echo "Hello from B";\n    }\n}\n\n// file: classa.php\ninclude_once 'classb.php';\nclass A extends B {\n    public function greet() {\n        $this->sayHello();\n    }\n}

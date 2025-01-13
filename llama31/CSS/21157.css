@@ -1,0 +1,1 @@
+#customers-table {\n  border-collapse: collapse;\n}\n\n#customers-table th, #customers-table td {\n  border: 1px solid #ddd;\n  padding: 10px;\n}\n\n#customers-table .delete-row {\n  background-color: #f44336;\n  color: #fff;\n  border: none;\n  padding: 5px 10px;\n  cursor: pointer;\n}\n\n#customers-table .delete-row:hover {\n  background-color: #e91e63;\n}

@@ -1,0 +1,1 @@
+void matmul(float *restrict a, float *restrict b, float *restrict c, int n) {\n    for (int i = 0; i < n; i++) {\n        for (int j = 0; j < n; j++) {\n            c[i * n + j] = 0;\n            for (int k = 0; k < n; k++) {\n                c[i * n + j] += a[i * n + k] * b[k * n + j];\n            }\n        }\n    }\n}

@@ -1,0 +1,1 @@
+cat new_lines.txt config_file > temp_file\nmv temp_file config_file

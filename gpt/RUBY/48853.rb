@@ -1,1 +1,0 @@
-rake test\nrake test:units\nrake test:functionals

@@ -1,1 +1,0 @@
-CREATE PROCEDURE dbo.GetEmployeeDetails\n    @DepartmentId INT\nAS\nBEGIN\n    SELECT EmployeeId, FirstName, LastName, DepartmentId\n    FROM Employees\n    WHERE DepartmentId = @DepartmentId;\nEND;

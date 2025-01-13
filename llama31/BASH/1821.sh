@@ -1,0 +1,1 @@
+vsperfcmd /start:sample /output:MyProfile.vsp\nMyApp.exe\nvsperfcmd /shutdow

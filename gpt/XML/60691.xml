@@ -1,1 +1,0 @@
-<action name="ProductVerification" class="com.frontend.ProductVerification">\n    <result name="success">/jsp/product_verification.jsp</result>\n    <result name="input">/jsp/product_verification.jsp</result>\n    <result name="error">/jsp/product_verification.jsp</result>\n</action>

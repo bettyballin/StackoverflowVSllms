@@ -1,1 +1,0 @@
-Dim list As New List(Of String) From {"apple", "banana", "cherry"}

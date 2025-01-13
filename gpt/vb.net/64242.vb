@@ -1,1 +1,0 @@
-Dim n As Integer = 10\nDim VB$t_i4$L1 As Integer = 1\nDim VB$t_i4$L0 As Integer = n\nDim i As Integer = 0\nDo While (((VB$t_i4$L1 >> &H1F) Xor i) <= ((VB$t_i4$L1 >> &H1F) Xor VB$t_i4$L0))\n    Console.WriteLine(i)\n    i = (i + VB$t_i4$L1)\nLoop

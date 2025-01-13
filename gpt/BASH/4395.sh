@@ -1,1 +1,0 @@
-logparser -i:IISW3C -schemaFile:custom_schema.txt "SELECT c-ip, s-ip FROM my.log"

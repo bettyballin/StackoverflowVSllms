@@ -1,0 +1,1 @@
+var a = query\n    .Include(x => x.ForeignKeyProperty)\n    .Where(some foreign key is null);\n\nvar b = query\n    .Where(some foreign key is not null)\n    .Where(and that foreign key has a property which is what I want);

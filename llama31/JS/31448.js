@@ -1,0 +1,1 @@
+ctx.lineCap = 'square';\nctx.lineJoin = 'miter';

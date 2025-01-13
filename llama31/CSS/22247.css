@@ -1,0 +1,1 @@
+table tr:first-child, table tr:last-child {\n  min-height: 7px !important;\n}\n\ntable tr:nth-child(2) {\n  min-height: auto !important;\n}

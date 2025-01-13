@@ -1,0 +1,1 @@
+~ConnectionManager() // finalizer (destructor)\n{\n    Dispose(false); // release unmanaged resources\n}

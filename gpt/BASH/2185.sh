@@ -1,1 +1,0 @@
-tar -xzf Python-3.x.x.tgz -C /path/to/usb-stick

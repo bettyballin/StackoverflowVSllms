@@ -1,0 +1,1 @@
+string acceptEncoding = Request.Headers["Accept-Encoding"];\nif (!string.IsNullOrEmpty(acceptEncoding) && \n    (acceptEncoding.Contains("gzip") || acceptEncoding.Contains("deflate")))\n{\n    // compression is supported by client\n}

@@ -1,0 +1,1 @@
+if (performance.navigation.type == 1) {\n    // Handle page refresh\n    // You can set a flag or call a function here\n}

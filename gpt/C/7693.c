@@ -1,1 +1,0 @@
-typedef struct {\n         void (*handler)(void);\n         void* next;\n     } Instruction;\n     \n     Instruction* ip = program_start;\n     \n     while (ip) {\n         ip->handler();\n         ip = ip->next;\n     }

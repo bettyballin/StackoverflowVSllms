@@ -1,1 +1,0 @@
-protected void CheckBox1_CheckedChanged(object sender, EventArgs e)\n{\n    // Your code to handle the event\n    Label1.Text = "Checkbox state changed!";\n}

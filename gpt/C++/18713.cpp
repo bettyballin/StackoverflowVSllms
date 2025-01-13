@@ -1,1 +1,0 @@
-// Example: Annotating functions for profiling\nvoid function1() {\n    // Function implementation\n}\n\nvoid function2() {\n    // Function implementation\n}\n\nint main() {\n    // A lot of loops, and function uses\n    function1();\n    function2();\n}

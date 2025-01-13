@@ -1,1 +1,0 @@
-using System.Windows.Forms;\n\npublic class ExampleModule : IModule\n{\n    public string Name => "Example Module";\n\n    public Control GetControl()\n    {\n        return new Label() { Text = "This is an example module.", Dock = DockStyle.Fill };\n    }\n}

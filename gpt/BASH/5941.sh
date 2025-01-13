@@ -1,1 +1,0 @@
-for url in $(cat urls.txt); do\n        until wget -c "$url"; do\n            echo "Retrying $url..."\n            sleep 1\n        done\n    done

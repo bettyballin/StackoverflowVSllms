@@ -1,0 +1,1 @@
+<DebuggerDisplay("{ToString()}")>\nPublic myGuid As Guid

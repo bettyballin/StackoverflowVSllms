@@ -1,0 +1,1 @@
+public interface IPlugin\n{\n    string Name { get; }\n    MvcHtmlString GetView();\n}

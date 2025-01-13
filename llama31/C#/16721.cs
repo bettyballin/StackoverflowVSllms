@@ -1,0 +1,1 @@
+string myValue = list.RootFolder.Properties["MyKey"] as string;

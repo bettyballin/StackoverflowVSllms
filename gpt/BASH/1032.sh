@@ -1,1 +1,0 @@
-awk 'NR==32 || NR==47 || NR==62 || NR==77 || ((NR-32)%15)==0 {print "#"} {print}' input_file > output_file

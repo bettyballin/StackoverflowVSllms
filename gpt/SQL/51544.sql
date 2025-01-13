@@ -1,1 +1,0 @@
-SELECT \n  value AS current_load\nFROM \n  v$osstat\nWHERE \n  stat_name = 'LOAD';

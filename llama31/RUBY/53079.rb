@@ -1,0 +1,1 @@
+Dir.glob('/path/to/directory/*.rb').each { |file| require file }

@@ -1,0 +1,1 @@
+if ($licenseKey !== hash('sha256', $machineId . 'your_secret_key')) {\n    exit('Invalid license key');\n}

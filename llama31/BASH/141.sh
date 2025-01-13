@@ -1,0 +1,1 @@
+# Example using curl to test a web API\ncurl -X POST -d "username=john&password=wrong" http://example.com/api/logi

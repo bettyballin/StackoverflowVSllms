@@ -1,0 +1,1 @@
+SELECT CONVERT(VARCHAR(10), YourDateColumn, 103) AS FormattedDate\nFROM YourTable;

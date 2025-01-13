@@ -1,0 +1,1 @@
+IQueryable<MyObject> query = ...; // your IQueryable<> object\n\nList<dynamic> list = query\n    .Select(s => new { ID = s.ID, Name = s.Name })\n    .ToList();

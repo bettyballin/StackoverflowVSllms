@@ -1,1 +1,0 @@
-if ($queryFailed) {\n         echo "An error occurred while processing your request. Please try again later.";\n     }

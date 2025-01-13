@@ -1,1 +1,0 @@
-public class City\n{\n    public virtual int Id { get; set; }\n    public virtual string Name { get; set; }\n}\n\npublic class FooBar\n{\n    public virtual int Id { get; set; }\n    public virtual string Value { get; set; }\n}

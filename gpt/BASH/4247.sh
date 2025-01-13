@@ -1,1 +1,0 @@
-regsvr32.exe /s %WINDIR%\System32\ssleay32.dll\n   regsvr32.exe /s %WINDIR%\System32\libeay32.dll

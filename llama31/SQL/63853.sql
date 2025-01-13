@@ -1,0 +1,1 @@
+GRANT SELECT ANY DICTIONARY TO <username>;

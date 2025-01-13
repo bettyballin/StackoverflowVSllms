@@ -1,1 +1,0 @@
-from django import forms\n\n    class GeneralForm(forms.Form):\n        field1 = forms.IntegerField(required=False)\n        field2 = forms.IntegerField(required=False)

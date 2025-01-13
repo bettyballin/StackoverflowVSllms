@@ -1,0 +1,1 @@
+<bindings>\n  <wsHttpBinding>\n    <binding name="SecureBinding">\n      <security mode="Transport">\n        <transport clientCredentialType="None" />\n      </security>\n    </binding>\n  </wsHttpBinding>\n</bindings>

@@ -1,1 +1,0 @@
-public BaseOrder GetByReference(string reference)\n{\n    using (var session = sessionFactory.OpenSession())\n    {\n        var query = session.Query<BaseOrder>()\n            .Where(bo => bo.Reference == reference);\n        return query.SingleOrDefault();\n    }\n}

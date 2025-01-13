@@ -1,1 +1,0 @@
-<bindings>\n  <webHttpBinding>\n    <binding name="LargeMessageBinding" maxReceivedMessageSize="65536" maxBufferSize="65536">\n      <readerQuotas maxArrayLength="2147483647" maxBytesPerRead="2147483647" maxDepth="32" maxNameTableCharCount="2147483647" maxStringContentLength="2147483647" />\n    </binding>\n  </webHttpBinding>\n</bindings>

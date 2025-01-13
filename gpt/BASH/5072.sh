@@ -1,1 +1,0 @@
-./symadmin --engine sample create-sym-tables\n   ./symadmin --engine sample sync

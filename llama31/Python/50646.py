@@ -1,0 +1,1 @@
+from flask import Blueprint\n\nnew_feature = Blueprint('new_feature', __name__)\n\n@new_feature.route('/api/new-feature', methods=['GET'])\ndef new_feature_endpoint():\n    # New feature logic\n    return jsonify({'message': 'New feature is working!'})\n\n# Register the new feature Blueprint\napp.register_blueprint(new_feature)

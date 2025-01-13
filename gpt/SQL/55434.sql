@@ -1,1 +1,0 @@
--- Assuming you are using PostgreSQL\nEXPLAIN ANALYZE SELECT * FROM a_view WHERE c = 0;\n\nEXPLAIN ANALYZE SELECT * FROM a_view WHERE c = 1;

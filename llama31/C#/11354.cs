@@ -1,0 +1,1 @@
+using System.Windows.Markup;\n\n// Saving\nXamlWriter.Save(richTextBox.Document, stream);\n\n// Loading\nFlowDocument flowDocument = XamlReader.Load(stream) as FlowDocument;

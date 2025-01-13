@@ -1,1 +1,0 @@
-var v = from a in AppDomain.CurrentDomain.GetAssemblies()\n        from b in a.GetExportedTypes()\n        select b;\nv.Count();

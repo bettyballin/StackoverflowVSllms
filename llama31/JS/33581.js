@@ -1,0 +1,1 @@
+$("form :radio").change(function() {\n    var selectedValue = $(this).val();\n    // Do something with the selectedValue\n});

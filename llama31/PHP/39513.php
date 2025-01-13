@@ -1,0 +1,1 @@
+$mysqli = new mysqli("localhost", "username", "password", "database");\n\n$result = $mysqli->query("SELECT * FROM `users` WHERE `id` = '1' ");\n\n$row = $result->fetch_assoc();\n\nprint_r($row);

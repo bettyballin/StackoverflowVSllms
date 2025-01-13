@@ -1,1 +1,0 @@
-import os\n\n# Create a flag file to signal completion\nwith open('flag_file.txt', 'w') as flag_file:\n    flag_file.write('done')

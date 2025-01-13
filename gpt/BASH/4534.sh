@@ -1,1 +1,0 @@
-secret-tool store --label='DB Password' service myapp db_password

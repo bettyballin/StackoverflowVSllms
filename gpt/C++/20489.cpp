@@ -1,1 +1,0 @@
-#import "C:\Windows\Microsoft.NET\Framework\v4.0.30319\mscorlib.tlb" raw_interfaces_only\n#import "path\to\your\server.tlb" raw_interfaces_only, raw_native_types, no_namespace, named_guids

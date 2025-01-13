@@ -1,0 +1,1 @@
+xmlhttp.ontimeout = function() {\n  element(id).innerHTML = "Offline";\n};\n\nxmlhttp.onerror = function() {\n  element(id).innerHTML = "Offline";\n};\n\nxmlhttp.onreadystatechange = function() {\n  if (xmlhttp.readyState == 4) {\n    if (xmlhttp.status == 200) {\n      element(id).innerHTML = "Online";\n    }\n  }\n};

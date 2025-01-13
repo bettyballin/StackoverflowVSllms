@@ -1,0 +1,1 @@
+var inputs = document.getElementsByTagName('input');\nvar selects = document.getElementsByTagName('select');\n\nvar elements = Array.prototype.concat.call(inputs, selects);\n\n// now you can loop through the combined array\nfor (var i = 0; i < elements.length; i++) {\n  // do something with elements[i]\n}

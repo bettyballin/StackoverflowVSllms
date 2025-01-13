@@ -1,1 +1,0 @@
-scp -r C:\repositories username@remote-server:/path/to/backup/

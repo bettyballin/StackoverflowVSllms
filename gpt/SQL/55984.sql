@@ -1,1 +1,0 @@
-SELECT AVG(VSIZE(column1) + VSIZE(column2) + ... + VSIZE(columnN)) AS avg_row_size\n   FROM your_table;

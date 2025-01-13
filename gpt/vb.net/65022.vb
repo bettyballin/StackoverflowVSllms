@@ -1,1 +1,0 @@
-Dim deleteCommand As New SqlCommand("DELETE FROM your_table WHERE id = @id", connection)\n   deleteCommand.Parameters.AddWithValue("@id", id)\n   connection.Open()\n   deleteCommand.ExecuteNonQuery()\n   connection.Close()

@@ -1,0 +1,1 @@
+[Test]\npublic void TableName_IsReturnedCorrectly()\n{\n    // Arrange\n    var mockMapinfo = new Mock<IMapinfo>();\n    mockMapinfo.Setup(m => m.Eval("TableInfo(1,1)")).Returns("Water_Mains");\n\n    var table = new Table(mockMapinfo.Object);\n\n    // Act\n    var tableName = table.Name;\n\n    // Assert\n    Assert.AreEqual("Water_Mains", tableName);\n}

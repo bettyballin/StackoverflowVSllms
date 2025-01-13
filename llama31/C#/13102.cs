@@ -1,0 +1,1 @@
+using System.ServiceModel.Web;\n\n[OperationContract]\n[WebGet(UriTemplate = "/{id}")]\npublic string Get(string id)\n{\n    // ...\n\n    if (/* resource not found */)\n    {\n        throw new WebFaultException(HttpStatusCode.NotFound);\n    }\n\n    // ...\n}

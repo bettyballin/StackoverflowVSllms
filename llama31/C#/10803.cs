@@ -1,0 +1,1 @@
+XmlNode node1 = ...;\nXmlNode node2 = ...;\nXmlNodeEqualityComparer comparer = new XmlNodeEqualityComparer();\nbool areEqual = comparer.Equals(node1, node2);

@@ -1,0 +1,1 @@
+<?php\nif (isset($_GET['example'])) {\n  $example = filter_input(INPUT_GET, 'example', FILTER_SANITIZE_STRING);\n  // Process the request...\n}\n?>

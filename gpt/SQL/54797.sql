@@ -1,1 +1,0 @@
-SELECT DateChanged FROM Table1

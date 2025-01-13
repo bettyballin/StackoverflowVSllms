@@ -1,0 +1,1 @@
+using Microsoft.SqlServer.Management.Smo;\n\nServer server = new Server("your_server_name");\nstring edition = server.Edition.ToString();

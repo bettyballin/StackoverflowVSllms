@@ -1,1 +1,0 @@
-chmod 777 /path/to/your/file.txt

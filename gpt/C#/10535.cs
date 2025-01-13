@@ -1,1 +1,0 @@
-var user = new Select()\n    .From<User>()\n    .Where(User.PasswordColumn).IsEqualTo(password)\n    .And(User.SINumberColumn).IsEqualTo(siNumber)\n    .ExecuteSingle<User>();

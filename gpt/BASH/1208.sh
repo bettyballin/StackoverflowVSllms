@@ -1,1 +1,0 @@
-aspnet_regiis -pdf "connectionStrings" "C:\Path\To\Your\WebApp"

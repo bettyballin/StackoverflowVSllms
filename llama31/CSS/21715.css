@@ -1,0 +1,1 @@
+.container {\n  display: grid;\n  grid-template-columns: 798px 198px;\n  grid-template-rows: 400px 200px;\n  width: 1000px;\n  height: 600px;\n}\n\n.main-content {\n  grid-column: 1;\n  grid-row: 1;\n}\n\n.links-menu {\n  grid-column: 2;\n  grid-row: 1 / 3;\n}

@@ -1,0 +1,1 @@
+items = Item.select(Item.q.name, Item.q.skim).where(Item.q.name.contains('%s') % 'foo')

@@ -1,0 +1,1 @@
+#include <Windows.h>\n\nvoid openConsole() {\n    AllocConsole();\n    freopen("CONOUT$", "w", stdout);\n    freopen("CONIN$", "r", stdin);\n    freopen("CONOUT$", "w", stderr);\n}\n\nvoid closeConsole() {\n    FreeConsole();\n}

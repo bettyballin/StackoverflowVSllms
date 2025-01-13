@@ -1,1 +1,0 @@
-echo returnsAnArray()[0];

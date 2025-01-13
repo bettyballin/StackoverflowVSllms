@@ -1,0 +1,1 @@
+window.onload = function() {\n    var inputField = document.getElementById("yourInputFieldId");\n    inputField.focus();\n    inputField.select();\n}

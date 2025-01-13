@@ -1,0 +1,1 @@
+perfmon /s /c "\Process(w3wp*SiteName)\% Processor Time"

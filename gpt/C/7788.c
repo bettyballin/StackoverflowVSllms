@@ -1,1 +1,0 @@
-sqlite3_enable_shared_cache(0);

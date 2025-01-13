@@ -1,0 +1,1 @@
+[TestFixture, Timeout(2000)]\npublic class MyTestFixture\n{\n    [Test]\n    public void Test1() { ... }\n\n    [Test]\n    public void Test2() { ... }\n}

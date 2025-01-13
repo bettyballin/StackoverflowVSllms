@@ -1,0 +1,1 @@
+import magic\n\ndef identify_file_format(data):\n    return magic.from_buffer(data)

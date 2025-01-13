@@ -1,0 +1,1 @@
+/* hide elements that don't match the condition */\ninput:not([data-condition="true"]) {\n  display: none;\n}

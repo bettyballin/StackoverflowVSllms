@@ -1,1 +1,0 @@
-# Decode from Latin-1\nName = 'w\xf6rner'.decode('latin-1')\nprint('Name: %s - %s' % (Name, type(Name)))

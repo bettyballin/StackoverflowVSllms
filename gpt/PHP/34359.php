@@ -1,1 +1,0 @@
-$pattern = '/<ct:([^\s>\/]+)((?:\s+[^\s>\/]+=("[^"]*"|\'[^\']*\'|[^>\s]*)(?:(?:->|=>)[^>\s]*)?)*)\s*\/?>/';\n$html = '<ct:form/input type="attr1" value="$item->field">';\npreg_match_all($pattern, $html, $matches);\n\nprint_r($matches);

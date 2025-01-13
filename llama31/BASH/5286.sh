@@ -1,0 +1,1 @@
+ss history $/project -R -vdfrom.date.to.date -I > changes.txt

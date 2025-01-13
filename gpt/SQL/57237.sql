@@ -1,1 +1,0 @@
-sql /nolog\nSQL> set sqlformat ansiconsole\nSQL> select * from your_table;

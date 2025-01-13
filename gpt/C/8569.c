@@ -1,1 +1,0 @@
-while (low <= high) {\n       int mid = low + (high - low) / 2;\n       if (array[mid] == target) {\n           return mid;\n       } else if (array[mid] < target) {\n           low = mid + 1; // Ensure proper increment\n       } else {\n           high = mid - 1; // Ensure proper decrement\n       }\n   }

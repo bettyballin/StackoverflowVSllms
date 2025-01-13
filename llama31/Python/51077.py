@@ -1,0 +1,1 @@
+# Update channel 1's currently playing song\nchannel_data[1]["currently_playing"] = "New Song"\n\n# Get channel 2's name\nprint(channel_data[2]["name"])

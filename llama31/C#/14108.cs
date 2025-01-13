@@ -1,0 +1,1 @@
+using Xdelta;\n\npublic class BinaryPatch\n{\n    public static byte[] GeneratePatch(byte[] oldData, byte[] newData)\n    {\n        var xdelta = new Xdelta();\n        return xdelta.Encode(oldData, newData);\n    }\n}

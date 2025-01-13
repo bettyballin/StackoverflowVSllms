@@ -1,1 +1,0 @@
-header('Content-Type: application/json');\necho json_encode(array('done' => '1', 'options' => array(array('message' => 'Example message'), array('message' => 'This is the 2nd example message'))));

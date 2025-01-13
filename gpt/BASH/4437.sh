@@ -1,1 +1,0 @@
-grep 'search_pattern' /path/to/file

@@ -1,0 +1,1 @@
+INSERT INTO target_table (blob_column)\nVALUES (CONVERT(VARBINARY(MAX), '0x' + 'your_hex_string_here'));

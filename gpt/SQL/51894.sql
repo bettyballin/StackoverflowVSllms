@@ -1,1 +1,0 @@
-INSERT INTO users (username, latitude, longitude) VALUES ('JohnDoe', 51.5074, -0.1278);

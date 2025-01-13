@@ -1,0 +1,1 @@
+class MyApplication {\n    private $password;\n\n    public function __construct($password) {\n        $this->password = $password;\n    }\n\n    public function handleRequest($requestData) {\n        // process request data\n    }\n}\n\n// usage\n$app = new MyApplication($_POST['password']);\n$app->handleRequest($_POST);

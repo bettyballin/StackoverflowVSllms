@@ -1,1 +1,0 @@
-using System.ComponentModel.DataAnnotations;\n\n    public class MyViewModel\n    {\n        [Required(ErrorMessage = "You must accept the terms and conditions.")]\n        public bool MyCheckbox { get; set; }\n    }

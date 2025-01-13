@@ -1,1 +1,0 @@
-<?php\n// Directory where cURL files might be left\n$directory = '/path/to/your/directory/';\n\n// Get all files in the directory\n$files = glob($directory . '/*');\n\n// Loop through the files and delete them\nforeach ($files as $file) {\n    if (is_file($file)) {\n        unlink($file);\n    }\n}\n\n// Continue with your cURL request code here\n?>

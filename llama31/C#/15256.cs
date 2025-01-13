@@ -1,0 +1,1 @@
+var query = context.MyTable.Where(x => x.Id == 1);\nvar sql = query.ToString();

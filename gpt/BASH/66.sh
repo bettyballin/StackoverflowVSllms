@@ -1,1 +1,0 @@
-tar --ignore-zeros -xvf SMS_recovered.tar

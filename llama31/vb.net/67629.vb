@@ -1,0 +1,1 @@
+Private Function CString(ByVal lpData As Long) As String\n    Dim buffer As String\n    buffer = Space$(CLng(LenB(lpData)))\n    CopyMemory ByVal StrPtr(buffer), ByVal lpData, CLng(LenB(lpData))\n    CString = buffer\nEnd Functio

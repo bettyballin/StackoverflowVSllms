@@ -1,0 +1,1 @@
+// Use a library like OWASP ESAPI to perform a basic security audit\n$esapi = new ESAPI();\nif ($esapi->hasSecurityIssues()) {\n    die('Security issues detected, please review the audit report');\n}

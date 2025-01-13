@@ -1,1 +1,0 @@
--- SQL table\nCREATE TABLE users (\n    id INT PRIMARY KEY,\n    username VARCHAR(100),\n    email VARCHAR(100)\n);

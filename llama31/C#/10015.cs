@@ -1,0 +1,1 @@
+RemotingConfiguration.RegisterWellKnownClientType(typeof(RemotingTypes.Server), "MyURL", WellKnownObjectMode.Singleton);

@@ -1,0 +1,1 @@
+string infPath = @"C:\Path\To\Printer.inf";\nPrinterInstaller.InstallPrinter(infPath);

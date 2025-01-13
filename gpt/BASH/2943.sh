@@ -1,1 +1,0 @@
-wpr -start generalprofile -start diskio -filemode\n   // Run your Ant build process\n   wpr -stop build_trace.etl

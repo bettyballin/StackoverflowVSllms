@@ -1,1 +1,0 @@
-const xhr = new XMLHttpRequest();\n   xhr.open('GET', 'https://api.example.com/data', true);\n   xhr.onreadystatechange = function() {\n       if (xhr.readyState === 4 && xhr.status === 200) {\n           const data = JSON.parse(xhr.responseText);\n           document.getElementById('output').innerText = data.message;\n       }\n   };\n   xhr.send();

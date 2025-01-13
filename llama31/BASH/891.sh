@@ -1,0 +1,1 @@
+# Configure UptimeRobot to send alerts to Twilio\ncurl -X POST \\n  https://api.uptimerobot.com/v2/integrations \\n  -H 'Content-Type: application/json' \\n  -d '{"integration": {"name": "Twilio SMS", "type": "webhook", "data": {"url": "https://api.twilio.com/2010-04-01/Accounts/YOUR_ACCOUNT_SID/Messages.json", "method": "POST"}}}'

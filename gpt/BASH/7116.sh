@@ -1,1 +1,0 @@
-cl.exe /O1 /GL your_source.cpp /link /OPT:REF /OPT:ICF

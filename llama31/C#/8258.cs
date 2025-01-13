@@ -1,0 +1,1 @@
+using System.Web.Http;\n\nnamespace MyApi.Controllers\n{\n    public class ValuesController : ApiController\n    {\n        public IHttpActionResult Get()\n        {\n            return Ok(new[] { "value1", "value2" });\n        }\n    }\n}

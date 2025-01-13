@@ -1,1 +1,0 @@
-for pid in $(pgrep httpd); do\n       echo "PID: $pid";\n       lsof -p $pid | grep ".php";\n   done

@@ -1,0 +1,1 @@
+$variable1 = 'original value';\n$variable2 =& $variable1;\n$variable2 = 'new value';\necho $variable1; // outputs "new value"

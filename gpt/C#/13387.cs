@@ -1,1 +1,0 @@
-Database db = DatabaseFactory.CreateDatabase("ConnectionStringName");\n    DbCommand cmd = db.GetStoredProcCommand("StoredProcedureName");\n    db.AddInParameter(cmd, "ParameterName", DbType.String, parameterValue);\n    DataSet ds = db.ExecuteDataSet(cmd);

@@ -1,0 +1,1 @@
+document.addEventListener('change', function(event) {\n  if (event.target.tagName === 'SELECT') {\n    // handle the change event\n  }\n}, true);

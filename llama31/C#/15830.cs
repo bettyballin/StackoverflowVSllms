@@ -1,0 +1,1 @@
+protected void TreeView1_SelectedNodeChanged(object sender, EventArgs e)\n{\n    Label1.Text = TreeView1.SelectedValue;\n    ScriptManager.RegisterStartupScript(this, this.GetType(), "RemoveSelectedStyle", "removeSelectedStyle();", true);\n}

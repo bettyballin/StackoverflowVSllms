@@ -1,0 +1,1 @@
+def swap_keys_values(input_dict):\n    return {v: k for k, v in input_dict.items()}\n\n# Example usage:\na = {'one': 1, 'two': 2}\nresult = swap_keys_values(a)\nprint(result)  # Output: {1: 'one', 2: 'two'}

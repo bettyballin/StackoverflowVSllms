@@ -1,0 +1,1 @@
+find . -name 'OneThing-*.extension' -exec sh -c 'cp {} ${0/OneThing/AnotherThing}' \;

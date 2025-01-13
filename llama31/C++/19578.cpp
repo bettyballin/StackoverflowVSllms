@@ -1,0 +1,1 @@
+#include <shellapi.h>\n\nint main() {\n    SHELLEXECUTEINFO sei = { sizeof(sei) };\n    sei.fMask = SEE_MASK_DEFAULT;\n    sei.lpFile = L"https://www.example.com"; // URL to launch\n    sei.nShow = SW_SHOWNORMAL;\n\n    if (ShellExecuteEx(&sei) == TRUE) {\n        // Success!\n    } else {\n        // Error handling\n    }\n\n    return 0;\n}

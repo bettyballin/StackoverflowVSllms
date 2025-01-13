@@ -1,1 +1,0 @@
-public void Main()\n   {\n       // Call the method from the VB6 DLL through the .NET wrapper\n       int result = Vb6Wrapper.Vb6WrapperClass.YourVb6Method();\n       Dts.TaskResult = (int)ScriptResults.Success;\n   }

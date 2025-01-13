@@ -1,0 +1,1 @@
+#pragma comment(lib, "C:\\Path\\To\\Lib\\File.lib")

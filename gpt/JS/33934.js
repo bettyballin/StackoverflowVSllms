@@ -1,1 +1,0 @@
-// Example (JavaScript) - Password strength validation\nconst passwordPattern = /^(?=.*[a-z])(?=.*[A-Z])(?=.*\d)(?=.*[@$!%*?&])[A-Za-z\d@$!%*?&]{8,}$/;\nif (!passwordPattern.test(inputPassword)) {\n    // Handle weak password\n}

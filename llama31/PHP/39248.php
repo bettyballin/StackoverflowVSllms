@@ -1,0 +1,1 @@
+<?php\nsession_auto_start(false);\n?>

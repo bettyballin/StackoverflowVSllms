@@ -1,1 +1,0 @@
-string connectionString = "User Id=<your_user_id>;Password=<your_password>;Server=<your_server>;Direct=True;";

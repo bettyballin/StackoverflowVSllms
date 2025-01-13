@@ -1,0 +1,1 @@
+et use z: \\afp-server\sharename /USER:username password

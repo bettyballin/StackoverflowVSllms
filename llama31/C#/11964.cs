@@ -1,0 +1,1 @@
+Response.ContentType = "application/pdf";\nResponse.AppendHeader("Content-Disposition", "attachment; filename=myfile.pdf");\nResponse.WriteFile(@"\\mypath\myfile.pdf");\nResponse.End();

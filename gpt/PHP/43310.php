@@ -1,1 +1,0 @@
-<?php\n$filename = 'image.jpg';\n\n// Get MIME type\n$fileType = trim(shell_exec("file --mime-type -b " . escapeshellarg($filename)));\n\n// Get dimensions\n$dimensions = trim(shell_exec("identify -ping -format \"%wx%h\" " . escapeshellarg($filename)));\n\necho "File Type: $fileType\n";\necho "Dimensions: $dimensions\n";\n?>

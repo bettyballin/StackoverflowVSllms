@@ -1,1 +1,0 @@
-convert tempFile-*.png -append output.png

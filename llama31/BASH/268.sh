@@ -1,0 +1,1 @@
+pm install -g stylelint\nstylelint --fix path/to/your/css/file.css

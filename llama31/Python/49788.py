@@ -1,0 +1,1 @@
+def migrate_nickname(server1, server2, nickname):\n    # contact server1 and request nickname release\n    server1.release_nickname(nickname)\n    # register nickname on server2\n    server2.register_nickname(nickname)

@@ -1,1 +1,0 @@
-xpra start :100 --start-child=gvim

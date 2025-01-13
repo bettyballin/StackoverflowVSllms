@@ -1,0 +1,1 @@
+def annotate_chatbot_training_data(data):\n    # Annotate data with additional information or context\n    annotated_data = annotate_data(data)\n    return annotated_data

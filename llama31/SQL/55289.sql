@@ -1,0 +1,1 @@
+SELECT schemaname, relname, last_vacuum, last_autovacuum, last_analyze, last_autoanalyze \nFROM pg_stat_user_tables \nWHERE schemaname = 'your_schema_name' AND relname = 'your_table_name';

@@ -1,0 +1,1 @@
+<rewriter>\n    <rewrite url="^/(.+?)/$" to="/$1.aspx" />\n</rewriter>

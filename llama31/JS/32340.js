@@ -1,0 +1,1 @@
+const form = document.getElementById('image-upload-form');\nform.addEventListener('submit', (e) => {\n  e.preventDefault();\n  const formData = new FormData(form);\n  fetch('/upload-image', {\n    method: 'POST',\n    body: formData,\n  })\n  .then((response) => response.json())\n  .then((data) => console.log(data))\n  .catch((error) => console.error(error));\n});

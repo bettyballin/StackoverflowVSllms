@@ -1,0 +1,1 @@
+SELECT *\nFROM (\n  SELECT *, ROW_NUMBER() OVER (PARTITION BY CustomerID ORDER BY Value DESC) as rn\n  FROM Payments\n) p\nWHERE rn = 1;

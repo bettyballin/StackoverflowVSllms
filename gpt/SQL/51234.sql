@@ -1,1 +1,0 @@
-DELIMITER //\n\nCREATE TRIGGER validate_user_code\nBEFORE INSERT ON user_entries\nFOR EACH ROW\nBEGIN\n    DECLARE code_exists INT;\n    SELECT COUNT(*) INTO code_exists FROM codes WHERE code_value = NEW.user_code;\n    IF code_exists = 0 THEN\n        SIGNAL SQLSTATE '45000'\n        SET MESSAGE_TEXT = 'Invalid code entered';\n    END IF;\nEND;\n//\n\nDELIMITER ;

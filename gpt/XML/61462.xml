@@ -1,1 +1,0 @@
-<!-- Example of web.config settings -->\n    <system.webServer>\n        <staticContent>\n            <mimeMap fileExtension=".js" mimeType="application/javascript" />\n        </staticContent>\n    </system.webServer>

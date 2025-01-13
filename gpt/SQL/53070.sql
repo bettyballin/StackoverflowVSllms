@@ -1,1 +1,0 @@
-CREATE TABLE update_audit (\n    audit_id       NUMBER PRIMARY KEY,\n    table_name     VARCHAR2(50),\n    row_id         ROWID,\n    user_name      VARCHAR2(30),\n    update_time    TIMESTAMP,\n    sql_text       CLOB\n);

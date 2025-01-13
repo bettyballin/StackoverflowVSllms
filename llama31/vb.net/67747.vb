@@ -1,0 +1,1 @@
+Imports System.Xml.Linq\n\nDim xml = XDocument.Parse("<MyXML>...</MyXML>") ' Load your XML string\n\nFor Each e In xml.Descendants("event")\n    Dim comment = e.Nodes().OfType(Of XComment)().FirstOrDefault()\n    If comment IsNot Nothing Then\n        Console.WriteLine(comment.Value)\n    End If\nNext

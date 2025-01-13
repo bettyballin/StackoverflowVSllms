@@ -1,0 +1,1 @@
+.parent {\n  position: absolute;\n  top: 0;\n  left: 0;\n  width: 100%;\n  height: 100%;\n  display: flex;\n  flex-direction: column;\n}\n\n.controls {\n  flex: 0 0 auto;\n}\n\n.editable {\n  flex: 1 1 auto;\n  overflow-y: auto;\n}

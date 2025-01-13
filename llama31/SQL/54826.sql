@@ -1,0 +1,1 @@
+INSERT INTO MyTable (Name) VALUES ('John Doe');\nSELECT IDENT_CURRENT('MyTable') AS InsertedId;

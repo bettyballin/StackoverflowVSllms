@@ -1,0 +1,1 @@
+protected void Page_Load(object sender, EventArgs e)\n{\n  if (Session.IsNewSession)\n  {\n    // Session has expired, redirect or handle accordingly\n  }\n  else\n  {\n    // Render the report as usual\n  }\n}

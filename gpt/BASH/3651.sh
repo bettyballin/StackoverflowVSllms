@@ -1,1 +1,0 @@
-# AWK command to replace 'foo' with 'bar' in a file\n  awk '{gsub(/foo/, "bar"); print}' filename.txt > temp && mv temp filename.txt

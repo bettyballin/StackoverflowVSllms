@@ -1,0 +1,1 @@
+sed -nr 's/^---(\S+): (\S+)$/\2/p' | paste -sd "," -\nsed -nr 's/^---(\S+): (\S+)$/\1/p' | paste -sd "," -

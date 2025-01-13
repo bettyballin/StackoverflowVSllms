@@ -1,0 +1,1 @@
+using System;\nusing System.ServiceModel;\n\nclass Program\n{\n    static void Main(string[] args)\n    {\n        using (var client = new MyServiceClient())\n        {\n            client.Open();\n            var result = client.MyMethod();\n            Console.WriteLine(result);\n            client.Close();\n        }\n    }\n}

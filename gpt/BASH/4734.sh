@@ -1,1 +1,0 @@
-perf report -i perf.data --pid=<pid>

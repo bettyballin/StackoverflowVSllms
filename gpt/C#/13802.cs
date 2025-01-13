@@ -1,1 +1,0 @@
-KeyUsage keyUsage = new KeyUsage(KeyUsage.digitalSignature);

@@ -1,0 +1,1 @@
+$file = sys_get_temp_dir() . DIRECTORY_SEPARATOR . 'myfile.txt';\nfile_put_contents($file, 'Hello, world!');

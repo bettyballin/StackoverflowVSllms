@@ -1,0 +1,1 @@
+int position = doc.SelectNodes("a/b[.='tsr']/preceding-sibling::b").Count + 1;

@@ -1,0 +1,1 @@
+import hashlib\n\ndef generate_hash_key(input_string):\n    hash_object = hashlib.sha256(input_string.encode())\n    return hash_object.hexdigest()[:21]\n\ninput_string = "your_input_string"\nkey = generate_hash_key(input_string)\nprint(key)

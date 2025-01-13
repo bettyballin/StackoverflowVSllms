@@ -1,1 +1,0 @@
-WITH SortOrderCTE AS (\n    SELECT\n        item1ID,\n        item2ID,\n        ROW_NUMBER() OVER (PARTITION BY item1ID ORDER BY item2ID) AS newSortOrder\n    FROM\n        your_table\n)\nUPDATE your_table\nSET sortOrder = SortOrderCTE.newSortOrder\nFROM your_table\nJOIN SortOrderCTE\nON your_table.item1ID = SortOrderCTE.item1ID\nAND your_table.item2ID = SortOrderCTE.item2ID;

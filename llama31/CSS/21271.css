@@ -1,0 +1,1 @@
+.content {\n  display: flex;\n  flex-wrap: wrap;\n  justify-content: space-between;\n}\n\n.column {\n  flex-basis: 33.33%;\n}

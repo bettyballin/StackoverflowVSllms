@@ -1,1 +1,0 @@
-INSERT INTO superclass (type, common_field1, common_field2)\nVALUES ('type1', 'value1', 'value2')\nRETURNING id;\n\n-- Suppose the returned id is 1\nINSERT INTO additional_fields (superclass_id, properties)\nVALUES (1, '{"filename": "/file", "some_value": 5}');

@@ -1,1 +1,0 @@
-etsh wlan export profile name="YourSSID" folder="C:\Path\To\Save" key=clear

@@ -1,1 +1,0 @@
-class YourModel < ApplicationRecord\n  before_save :sanitize_text\n\n  private\n\n  def sanitize_text\n    self.your_text_column = your_text_column.encode('UTF-8', invalid: :replace, undef: :replace, replace: '')\n    self.your_text_column = your_text_column.gsub(/[^[:print:]]/, '?')\n  end\nend

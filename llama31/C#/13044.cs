@@ -1,0 +1,1 @@
+foreach (Process proc in Process.GetProcessesByName("iexplore"))\n{\n    if (proc.MainWindowTitle.Contains("YourExpectedTitle"))\n    {\n        IntPtr mainWindowHandle = proc.MainWindowHandle;\n        Console.WriteLine("MainWindowHandle: " + mainWindowHandle);\n    }\n}

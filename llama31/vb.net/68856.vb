@@ -1,0 +1,1 @@
+Imports System.Text.RegularExpressions\n\nPublic Function IsValidInput(input As String) As Boolean\n    Dim pattern As String = "^[a-zA-Z'/_@&.,çÇöÖIıiİğĞşŞüÜ\-'\s\d]{1,50}$"\n    Dim regex As New Regex(pattern)\n    Return regex.IsMatch(input)\nEnd Functio

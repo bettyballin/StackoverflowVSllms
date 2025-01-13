@@ -1,0 +1,1 @@
+let timeoutId;\n\nfunction callFunctionAfterDelay() {\n  // Your function to be called after 1 second\n  console.log("Function called!");\n}\n\ndocument.getElementById("textInput").addEventListener("keyup", function() {\n  clearTimeout(timeoutId);\n  timeoutId = setTimeout(callFunctionAfterDelay, 1000); // 1 second delay\n});

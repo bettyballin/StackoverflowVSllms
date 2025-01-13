@@ -1,1 +1,0 @@
-sudo service apache2 restart  # For Apache\n   sudo systemctl restart svnserve  # For svnserve

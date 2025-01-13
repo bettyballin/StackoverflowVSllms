@@ -1,1 +1,0 @@
-def pascal(n):\n    t=[[1]]\n    for _ in range(1, n):\n        t.append([1]+[sum(i) for i in zip(t[-1][:-1], t[-1][1:])]+[1])\n    return t\n\n# Example usage:\nfor row in pascal(10):\n    print(row)

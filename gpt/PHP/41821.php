@@ -1,1 +1,0 @@
-<?php\nfunction generateToken() {\n    if (empty($_SESSION['token'])) {\n        $_SESSION['token'] = bin2hex(random_bytes(32));\n    }\n    return $_SESSION['token'];\n}\n\nfunction verifyToken($token) {\n    return hash_equals($_SESSION['token'], $token);\n}\n?>

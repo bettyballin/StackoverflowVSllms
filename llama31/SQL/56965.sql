@@ -1,0 +1,1 @@
+ALTER TABLE your_table CONVERT TO CHARACTER SET utf8 COLLATE utf8_unicode_ci;\nALTER TABLE your_table CHANGE COLUMN your_column your_column VARCHAR(255) CHARACTER SET utf8 COLLATE utf8_unicode_ci;

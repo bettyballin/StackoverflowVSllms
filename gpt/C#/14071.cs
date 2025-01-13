@@ -1,1 +1,0 @@
-// C# code compiled as DLL\nnamespace x.y {\n    public static class z {\n        public static string q(this string s) {\n            return s + " " + s;\n        }\n    }\n}

@@ -1,0 +1,1 @@
+-Wl,--enable-new-dtags,-R\$ORIGIN

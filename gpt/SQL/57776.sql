@@ -1,1 +1,0 @@
-CREATE TABLE your_table_name (\n    id INT PRIMARY KEY,\n    your_field_name INT,\n    CONSTRAINT chk_your_field_name_range CHECK (your_field_name BETWEEN 0 AND 100)\n);

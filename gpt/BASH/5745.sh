@@ -1,1 +1,0 @@
-cscript c:\InetPub\AdminScripts\adsutil.vbs ENUM /P W3SVC/1/Root/YourVirtualDirectoryName

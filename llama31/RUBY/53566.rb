@@ -1,0 +1,1 @@
+# spec/factories/parents.rb\nFactoryBot.define do\n  factory :parent do\n    # attributes for a parent\n\n    trait :with_children do\n      after(:create) do |parent|\n        create_list(:child, 18, parent: parent)\n      end\n    end\n  end\nend

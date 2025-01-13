@@ -1,0 +1,1 @@
+before do\n  game = games(:four)\n  game.start\nend

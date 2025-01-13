@@ -1,1 +1,0 @@
-protected void Button1_Click(object sender, EventArgs e)\n{\n    // Simulate long-running query for demonstration purposes\n    System.Threading.Thread.Sleep(3000);\n\n    gvInvoice.DataBind();\n}

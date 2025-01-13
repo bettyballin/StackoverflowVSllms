@@ -1,1 +1,0 @@
-public void ConfigureServices(IServiceCollection services)\n{\n    services.AddSingleton<IConfiguration>(Configuration);\n    services.AddScoped<IUnitOfWork, UnitOfWork>();\n    services.AddScoped<IProductRepository, ProductRepository>();\n    services.AddControllers();\n}

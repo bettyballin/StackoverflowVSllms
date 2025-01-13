@@ -1,1 +1,0 @@
-// Example of using the Performance tab for memory profiling\nconsole.profile("Memory Profile");\n// Your code here\nconsole.profileEnd();

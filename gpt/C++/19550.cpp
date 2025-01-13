@@ -1,1 +1,0 @@
-struct Foo {\n  Foo(int i) {}\n};\n\nint main(void) {\n  std::list<Foo> l = {Foo(1), Foo(2), Foo(3), Foo(4), Foo(5)};\n  return 0;\n}

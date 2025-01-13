@@ -1,1 +1,0 @@
-[BasicAuthServiceBehavior]\npublic class MyService : IMyService\n{\n    public string MyMethod()\n    {\n        return "Hello, authenticated user!";\n    }\n}

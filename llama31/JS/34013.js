@@ -1,0 +1,1 @@
+function load(y) {\n    $.ajax({\n        type: 'GET',\n        url: y,\n        contentType: 'text/html; charset=ISO-8859-15',\n        mimeType: 'text/html; charset=ISO-8859-15',\n        success: function(d) {\n            $("#replace").html(d);\n            mod();\n        }\n    });\n}

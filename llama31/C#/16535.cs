@@ -1,0 +1,1 @@
+if (myList.IsEmpty()) { ... }

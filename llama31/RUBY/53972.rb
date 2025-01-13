@@ -1,0 +1,1 @@
+config.action_view.default_template_handlers[:js] = [:erb]

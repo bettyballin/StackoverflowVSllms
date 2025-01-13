@@ -1,1 +1,0 @@
-INSERT INTO TableName (ID, Name, ItemID)\nVALUES (27, 'John Brown', 102)\nON CONFLICT (ID) DO UPDATE SET\nName = EXCLUDED.Name,\nItemID = EXCLUDED.ItemID;

@@ -1,0 +1,1 @@
+<iframe src="http://your-php-page.com?token=<?php echo generateToken(); ?>"></iframe>\n\nfunction generateToken() {\n    // Implement token generation logic here\n    // For example, you can use a shared secret key to sign the token\n}

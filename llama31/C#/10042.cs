@@ -1,0 +1,1 @@
+private static Regex _whitelist = new Regex(@" \n^&#60;/?(a|b(lockquote)?|code|em|h(1|2|3)|i|li|ol|p(re)?|s(ub|up|trong|trike)?|ul)&#62;$ \n|^&#60;(b|h)r\s?/?&#62;$ \n|^&#60;a(?!&#62;).+?&#62;$ \n|^&#60;img(?!&#62;).+?/?&#62;$ \n^(?!&#60;script)",\n    RegexOptions.Singleline | RegexOptions.IgnorePatternWhitespace | \n    RegexOptions.ExplicitCapture | RegexOptions.Compiled);

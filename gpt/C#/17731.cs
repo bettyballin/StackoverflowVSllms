@@ -1,1 +1,0 @@
-protected void btnSubmit_Click(object sender, EventArgs e)\n{\n    if (Page.IsValid)\n    {\n        // Proceed with the form submission logic\n    }\n}

@@ -1,0 +1,1 @@
+ALTER TABLE [dbo].[EntityAttributeRelship] ADD CONSTRAINT [UC_EntityAttributeRelship] UNIQUE (EntityIdNmb,IsActive)

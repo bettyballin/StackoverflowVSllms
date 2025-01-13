@@ -1,0 +1,1 @@
+SELECT TOP 1 apps.isavailable\nFROM dbo.Applications apps\nWHERE apps.applicationname = @appname\nAND NOT EXISTS (\n    SELECT 1\n    FROM dbo.Holidays hol\n    WHERE hol.applicationid = apps.applicationid\n    AND CONVERT(VARCHAR, GETDATE(), 101) = CONVERT(VARCHAR, hol.holidaydate, 101)\n)

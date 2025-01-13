@@ -1,0 +1,1 @@
+CREATE FULLTEXT INDEX ON YourTable (YourLongColumn);

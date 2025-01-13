@@ -1,0 +1,1 @@
+<!-- XSL-FO template -->\n<fo:root xmlns:fo="http://www.w3.org/1999/XSL/Format">\n  <fo:page-sequence master-reference="template">\n    <fo:flow flow-name="xsl-region-body">\n      <!-- placeholders for data -->\n      <fo:block>#{title}</fo:block>\n      <fo:block>#{content}</fo:block>\n    </fo:flow>\n  </fo:page-sequence>\n</fo:root>

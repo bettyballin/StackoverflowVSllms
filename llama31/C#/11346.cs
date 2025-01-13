@@ -1,0 +1,1 @@
+using System.Web.Services;\n\n[WebService]\npublic class MyService : WebService\n{\n    [WebMethod]\n    public string SayHello(string name)\n    {\n        return "Hello, " + name;\n    }\n}

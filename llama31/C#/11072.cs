@@ -1,0 +1,1 @@
+// Check for modified assemblies\nAssembly assembly = Assembly.GetExecutingAssembly();\nbyte[] hash = ComputeHash(assembly.Location);\nif (!hash.SequenceEqual(GetExpectedHash()))\n{\n    // Tampering detected\n}

@@ -1,1 +1,0 @@
-SELECT username, machine, status, COUNT(*) \n     FROM v$session \n     GROUP BY username, machine, status;

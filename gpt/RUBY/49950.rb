@@ -1,1 +1,0 @@
-class ResourcesController < InheritedResources::Base\n   end

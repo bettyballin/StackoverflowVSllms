@@ -1,0 +1,1 @@
+WebOperationContext.Current.OutgoingResponse.Headers.Add("Content-Disposition", "attachment; filename=document.xlsx");

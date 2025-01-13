@@ -1,0 +1,1 @@
+gendef - python26.dll > python.def

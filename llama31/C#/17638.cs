@@ -1,0 +1,1 @@
+[Function(Name = "dbo.proc_StatsDay")]\npublic DataTable proc_EasyDay([Parameter(DbType = "NVarChar(64)")] string columns)\n{\n    DataTable result = this.ExecuteQuery<DataTable>("EXEC proc_StatsDay @columns", new SqlParameter("@columns", columns));\n    return result;\n}

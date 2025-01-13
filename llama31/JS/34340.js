@@ -1,0 +1,1 @@
+// JavaScript example to detect and handle UTF-16 encoding\nfunction detectEncoding() {\n    const encoding = document.characterSet;\n    if (encoding === 'UTF-16') {\n        // handle UTF-16 encoding\n        console.log('UTF-16 encoding detected');\n    } else {\n        // handle other encodings\n        console.log('Other encoding detected');\n    }\n}\n\ndetectEncoding();

@@ -1,1 +1,0 @@
-candle.exe MyInstaller.wxs\n   light.exe MyInstaller.wixobj -o MyInstaller.msi

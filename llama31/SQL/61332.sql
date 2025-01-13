@@ -1,0 +1,1 @@
+SELECT \n    p.name AS ProcedureName, \n    p.create_date AS CreateDate\nFROM \n    sys.procedures p\nORDER BY \n    p.create_date DESC;

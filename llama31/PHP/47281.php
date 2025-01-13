@@ -1,0 +1,1 @@
+$query = new Zend_Search_Lucene_Search_Query_Fuzzy('name', 'sxample', 0.5); // 0.5 is the default similarity threshold\n$hits = $index->find($query);

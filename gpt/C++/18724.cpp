@@ -1,1 +1,0 @@
-#include <rpclib/rpclib.h>\n   \n   int main() {\n       rpc::client client("localhost", 1234);\n       client.call("remote_command", "any_command");\n       return 0;\n   }

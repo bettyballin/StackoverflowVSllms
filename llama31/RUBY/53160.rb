@@ -1,0 +1,1 @@
+def my_method(a, b, *c)\n  puts c # prints [3, 4, 5]\nend\n\nmy_method(1, 2, 3, 4, 5)\n\na, b, *c = [1, 2, 3, 4, 5]\nputs c # prints [3, 4, 5]

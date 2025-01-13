@@ -1,1 +1,0 @@
-import sys\n   import os\n\n   sys.path.insert(0, '/path/to/your/app')\n\n   from yourapp import app as applicatio

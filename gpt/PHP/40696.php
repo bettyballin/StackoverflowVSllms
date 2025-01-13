@@ -1,1 +1,0 @@
-interface DataFetcherInterface {\n    public function fetch(): string;\n}\n\ninterface DataHandlerInterface {\n    public function handle(string $data): array;\n}\n\ninterface DataWriterInterface {\n    public function write(array $data): void;\n}

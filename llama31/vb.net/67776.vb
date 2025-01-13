@@ -1,0 +1,1 @@
+Dim readFile As FileInfo = New FileInfo(logHourlyName)\nIf readFile.Exists() Then\n   Dim textStream As StreamReader = readFile.OpenText()\n   Dim lines As String() = textStream.ReadToEnd().Split(New String() {Environment.NewLine}, StringSplitOptions.None)\n   If lines.Length > 0 Then\n       lastLine = lines(lines.Length - 1)\n   End If\n   textStream.Close()\nEnd If

@@ -1,1 +1,0 @@
-chmod +x run_process.sh\n./run_process.sh

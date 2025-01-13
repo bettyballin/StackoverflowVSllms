@@ -1,1 +1,0 @@
-mkdir build\ncd build\ncmake ..\nmake\n./cross_platform_example

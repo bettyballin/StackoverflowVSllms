@@ -1,0 +1,1 @@
+msbuild /target:ResolveReferences /verbosity:detailed YourProject.csproj

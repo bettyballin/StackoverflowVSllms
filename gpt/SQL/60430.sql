@@ -1,1 +1,0 @@
-CREATE TABLE file_metadata (\n       id NUMBER PRIMARY KEY,\n       file_name VARCHAR2(255),\n       file_type VARCHAR2(50),\n       file_location BFILE\n   );

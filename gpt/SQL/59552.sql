@@ -1,1 +1,0 @@
-WITH RankedScores AS (\n    SELECT \n        UserId, \n        Points,\n        DENSE_RANK() OVER (ORDER BY Points DESC) AS Rank\n    FROM \n        Users\n)\nSELECT \n    UserId, \n    Points\nFROM \n    RankedScores\nWHERE \n    Rank <= 3;

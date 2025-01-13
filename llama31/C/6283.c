@@ -1,0 +1,1 @@
+#include <stdio.h>\n#include <string.h>\n\nvoid vulnerableFunction(char *input) {\n    char buffer[10];\n    strcpy(buffer, input);\n    printf("%s\n", buffer);\n}\n\nint main() {\n    char userInput[100];\n    printf("Enter a string: ");\n    fgets(userInput, sizeof(userInput), stdin);\n    vulnerableFunction(userInput);\n    return 0;\n}

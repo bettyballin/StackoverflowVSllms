@@ -1,1 +1,0 @@
-SELECT \n    FilePath,\n    Mid(FilePath, Len(FilePath) - InStr(StrReverse(FilePath), "\") + 2) AS FileName\nFROM \n    FileTable;

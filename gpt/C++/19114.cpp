@@ -1,1 +1,0 @@
-std::vector<int> createVector() {\n        std::vector<int> vec = {1, 2, 3};\n        return std::move(vec);\n    }

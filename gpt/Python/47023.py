@@ -1,1 +1,0 @@
-import facebook\n\n# Initialize the Graph API with an access token\ngraph = facebook.GraphAPI(access_token='your-access-token')\n\n# Get information about yourself\nuser = graph.get_object("me")\nprint(user)\n\n# Post a message to your feed\ngraph.put_object(parent_object='me', connection_name='feed', message='Hello, world!')

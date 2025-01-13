@@ -1,1 +1,0 @@
-Response.Clear();\nResponse.ContentType = "application/vnd.ms-excel";\nResponse.AddHeader("Content-Disposition", "attachment; filename=report.csv");\nResponse.WriteFile("path/to/report.csv");\nResponse.End();

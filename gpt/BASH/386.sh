@@ -1,1 +1,0 @@
-cat my_patch.diff new_files_patch.diff > final_patch.diff

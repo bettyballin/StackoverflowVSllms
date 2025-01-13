@@ -1,0 +1,1 @@
+function setOutput(){\n    if(httpObject.readyState == 4){\n        document.getElementById('outputText').innerHTML = httpObject.responseText;\n    }\n}

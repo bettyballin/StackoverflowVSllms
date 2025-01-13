@@ -1,0 +1,1 @@
+use PHPSandbox\PHPSandbox;\n\n$sandbox = new PHPSandbox();\n$sandbox->whitelistFunction('strlen');\n$sandbox->whitelistVariable('foo');\n\n$code = 'echo strlen($foo);';\n$sandbox->execute($code);

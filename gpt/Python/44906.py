@@ -1,1 +1,0 @@
-def extract(d):\n    globals().update(d)\n\n# Example usage\na = {'foo': 'what', 'bar': 'ever', 'baz': 'another'}\nextract(a)\nprint(foo)  # Output: what\nprint(bar)  # Output: ever\nprint(baz)  # Output: another

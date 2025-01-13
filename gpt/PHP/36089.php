@@ -1,1 +1,0 @@
-// Increase maximum file upload size\nini_set('upload_max_filesize', '250M');\n\n// Increase maximum POST size\nini_set('post_max_size', '250M');\n\n// Increase script execution time\nini_set('max_execution_time', '300'); // 5 minutes\n\n// Increase memory limit\nini_set('memory_limit', '512M');

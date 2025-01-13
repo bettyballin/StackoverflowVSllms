@@ -1,0 +1,1 @@
+ld -o main --version-script=version.script libclntsh.so main.o A.so B.so libldap_r.so

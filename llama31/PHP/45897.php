@@ -1,0 +1,1 @@
+$letter = $_POST['letter'];\n// Use the value of $letter to filter your data

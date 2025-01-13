@@ -1,1 +1,0 @@
-public class Particle\n{\n    public Point3D Position { get; set; }\n    public Point3D Velocity { get; set; }\n    public double Size { get; set; }\n    public Brush Brush { get; set; }\n    public double Opacity { get; set; }\n    public double BlurRadius { get; set; }\n}

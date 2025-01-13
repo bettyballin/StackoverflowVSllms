@@ -1,1 +1,0 @@
-CREATE TYPE ID AS OBJECT (\n    value NUMBER(7)\n);

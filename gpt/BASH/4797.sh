@@ -1,1 +1,0 @@
-export LDFLAGS="-L/usr/local/icu/lib"\n   export CPPFLAGS="-I/usr/local/icu/include"

@@ -1,0 +1,1 @@
+class MyClass\n  def my_method\n    puts 'hello'\n  end\nend\n\nobj = MyClass.new\nobj.my_method  # outputs "hello"

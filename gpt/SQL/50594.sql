@@ -1,1 +1,0 @@
-SELECT A, B, MIN(C) AS C, D\nFROM your_table\nGROUP BY A, B, D\nORDER BY A, B, D;

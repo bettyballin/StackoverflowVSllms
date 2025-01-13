@@ -1,0 +1,1 @@
+// config.json (not accessible from the web)\n{\n    "my_var": "my_value"\n}\n\n// Load configuration file\n$config = json_decode(file_get_contents('config.json'), true);\n\n// Access configuration value\necho $config['my_var'];

@@ -1,1 +1,0 @@
-ALTER TABLE TimeDimension\n   ADD is_business_hour BIT;\n\n   UPDATE TimeDimension\n   SET is_business_hour = CASE\n       WHEN DATEPART(HOUR, TimeDimension.hour) BETWEEN 9 AND 17 THEN 1\n       ELSE 0\n   END;

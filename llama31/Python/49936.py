@@ -1,0 +1,1 @@
+import re\nimport sys\n\ntext = sys.stdin.read()\nquotations = re.findall(r'"[^"]*"|“[^”]*”', text)\nfor quotation in quotations:\n    print(quotation)

@@ -1,0 +1,1 @@
+corflags /32bit+ your_executable.exe

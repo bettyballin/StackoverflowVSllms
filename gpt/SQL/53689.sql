@@ -1,1 +1,0 @@
-CREATE TABLE events (\n    id SERIAL PRIMARY KEY,\n    event_datetime TIMESTAMP,\n    has_time BOOLEAN DEFAULT FALSE\n);

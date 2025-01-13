@@ -1,0 +1,1 @@
+public class Startup\n{\n    public void ConfigureServices(IServiceCollection services)\n    {\n        services.AddMvc(options =>\n        {\n            options.Filters.Add(new MaintenanceModeFilter());\n        });\n    }\n}

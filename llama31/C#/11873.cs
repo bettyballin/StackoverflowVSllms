@@ -1,0 +1,1 @@
+using (var stream = new MemoryStream())\n{\n    using (var writer = XmlWriter.Create(stream, new XmlWriterSettings { OmitXmlDeclaration = false }))\n    {\n        dSet.WriteXml(writer);\n    }\n    stream.Seek(0, SeekOrigin.Begin);\n    // Now you can read the stream with the XML declaration included\n}

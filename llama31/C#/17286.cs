@@ -1,0 +1,1 @@
+// MyApi.Interface.dll\npublic interface IMyApi\n{\n    void DoSomething(string param);\n}

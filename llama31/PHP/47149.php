@@ -1,0 +1,1 @@
+$filePath = realpath('../../files/zip.zip');\nheader('Content-disposition: attachment; filename=zip.zip');\nheader('Content-type: application/zip');\nreadfile($filePath);

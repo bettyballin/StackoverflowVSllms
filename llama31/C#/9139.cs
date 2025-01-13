@@ -1,0 +1,1 @@
+using System.Web.UI;\n\npublic class XmlParserFilter : PageParserFilter\n{\n    public override bool AllowCode\n    {\n        get { return true; }\n    }\n\n    public override bool AllowControl\n    {\n        get { return true; }\n    }\n\n    public override bool AllowDirectives\n    {\n        get { return true; }\n    }\n}

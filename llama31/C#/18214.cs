@@ -1,0 +1,1 @@
+// Refactor the component to use dependency injection, making it easier to test.\npublic class Component\n{\n    private readonly IDependency _dependency;\n\n    public Component(IDependency dependency)\n    {\n        _dependency = dependency;\n    }\n\n    public void DoSomething()\n    {\n        // Use the injected dependency\n    }\n}

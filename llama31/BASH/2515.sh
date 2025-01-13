@@ -1,0 +1,1 @@
+# Example OWASP ZAP command\nzap -scan "http://example.com/mywebservice" -quick

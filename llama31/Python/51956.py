@@ -1,0 +1,1 @@
+with open('example.txt', 'wb') as f:\n    # ... write to the file ...\n    size = f.tell()\n    print(size)

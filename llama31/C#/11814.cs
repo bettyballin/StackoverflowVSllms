@@ -1,0 +1,1 @@
+using System.ServiceProcess;\n\n// ...\n\nServiceController dependentService = new ServiceController("MSMQ");\ndependentService.WaitForStatus(ServiceControllerStatus.Running, TimeSpan.FromMinutes(10));\n\n// Start your service

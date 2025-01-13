@@ -1,1 +1,0 @@
-// myscript.php\n    variable_set('site_name', 'My Drupal Site');\n    drupal_execute('node_save', array($node));

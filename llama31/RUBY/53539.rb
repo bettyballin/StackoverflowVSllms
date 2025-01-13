@@ -1,0 +1,1 @@
+class MyDateOnlyModel < ActiveRecord::Base\n  after_find do |model|\n    model.effective_date = model.effective_date.to_date\n  end\nend

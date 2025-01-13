@@ -1,1 +1,0 @@
-SELECT \n    Products.*,\n    Services.IdService AS ServiceIdService,\n    Services.OtherField1,\n    Services.OtherField2,\n    ...\nFROM \n    Products\nINNER JOIN \n    Services ON Products.IdService = Services.IdService;

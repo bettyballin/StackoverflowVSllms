@@ -1,1 +1,0 @@
-@using (Html.BeginForm("ActionName", "ControllerName", FormMethod.Post))\n{\n    @Html.TextBox("firstname", null, new { maxlength = 30 })\n    <button type="submit">Submit</button>\n}

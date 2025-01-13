@@ -1,0 +1,1 @@
+// Refresh the DataSet\nmyDataSet.Refresh();\n\n// Clear the query plan cache\nmyTableAdapter.ClearQueryPlanCache();

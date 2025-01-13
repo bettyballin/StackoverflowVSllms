@@ -1,1 +1,0 @@
-if (window.top !== window.self) {\n       window.top.location = window.self.location;\n   }

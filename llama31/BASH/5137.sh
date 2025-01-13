@@ -1,0 +1,1 @@
+for /f "tokens=*" %%f in ('dir /b /s *.svn') do del /f /q "%%f"

@@ -1,0 +1,1 @@
+import csv\n\nc = "1, 2, 3, 4\n5, 6, 7, 8\n"\nlines = c.splitlines()\ntest = csv.reader(lines)\nfor t in test:\n    print(t)

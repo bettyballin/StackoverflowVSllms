@@ -1,0 +1,1 @@
+DECLARE @Year INT = 2009\nDECLARE @Month INT = 11\nDECLARE @Day INT = 12\n\nDECLARE @Date DATE = DATEFROMPARTS(@Year, @Month, @Day)\n\nSELECT @Date

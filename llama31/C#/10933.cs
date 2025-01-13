@@ -1,0 +1,1 @@
+var fileContent = await File.ReadAllTextAsync(Server.MapPath("\cert_key_pem.txt"));\ndp.SSLCertStore = fileContent;

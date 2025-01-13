@@ -1,0 +1,1 @@
+[ComImport]\n[Guid("xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx")]\npublic interface IService : IDispatch\n{\n    HRESULT DoSomething();\n}\n\n[ComImport]\n[Guid("xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx")]\npublic interface IServiceProvider : IDispatch\n{\n    HRESULT Init(IDispatch* sink, VARIANT_BOOL* result);\n    HRESULT GetService(LONG serviceIndicator, IService** result);\n}

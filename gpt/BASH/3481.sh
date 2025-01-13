@@ -1,1 +1,0 @@
-svn checkout http://your-svn-server/path/to/repo/trunk /path/to/local/working/copy

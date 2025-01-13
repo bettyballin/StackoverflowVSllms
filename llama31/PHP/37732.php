@@ -1,0 +1,1 @@
+// functions.php\nfunction sanitize_input($input) {\n    // Sanitize user input to prevent XSS\n    return htmlspecialchars($input, ENT_QUOTES, 'UTF-8');\n}\n\nfunction validate_email($email) {\n    // Validate an email address\n    if (filter_var($email, FILTER_VALIDATE_EMAIL)) {\n        return true;\n    } else {\n        return false;\n    }\n}

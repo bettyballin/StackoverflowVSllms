@@ -1,0 +1,1 @@
+string connectionString = "Data Source=your_database;User Id=your_username;Password=your_password;ClientId=OraClient11g_home2";\nOracleConnection conn = new OracleConnection(connectionString);

@@ -1,0 +1,1 @@
+HMODULE hModule;\nGetModuleHandleEx(GET_MODULE_HANDLE_EX_FLAG_FROM_ADDRESS, (LPCTSTR)GetCurrentAddress(), &hModule);

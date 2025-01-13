@@ -1,1 +1,0 @@
-curl -F "uploaded_file=@index.html" https://validator.w3.org/check

@@ -1,0 +1,1 @@
+CREATE TABLE MySequence (\n    SequenceValue INT IDENTITY(1,1)\n);\n\nCREATE FUNCTION GetNextSequenceValue()\nRETURNS INT\nAS\nBEGIN\n    INSERT INTO MySequence DEFAULT VALUES;\n    RETURN SCOPE_IDENTITY();\nEND;

@@ -1,0 +1,1 @@
+protected void ScriptManager1_BeginRequest(object sender, EventArgs e)\n{\n    ModalPopupExtender1.Show();\n}

@@ -1,0 +1,1 @@
+if (!DeleteFile(fileName)) {\n    DWORD errorCode = GetLastError();\n    throw std::runtime_error("Error deleting file");\n}

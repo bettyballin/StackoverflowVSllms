@@ -1,1 +1,0 @@
-sudo a2enmod rewrite\nsudo systemctl restart apache2

@@ -1,1 +1,0 @@
-# List contents of the JAR file\njar tf yourfile.jar\n\n# Extract specific class file for inspection\njar xf yourfile.jar path/to/YourClass.class

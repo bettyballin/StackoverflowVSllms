@@ -1,0 +1,1 @@
+import importlib\n\nx = importlib.import_module('x')\ny = importlib.import_module('y')

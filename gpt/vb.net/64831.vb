@@ -1,1 +1,0 @@
-Public Class TreeViewItemModel\n    Public Property Name As String\n    Public Property IsChecked As Boolean\n    Public Property Children As List(Of TreeViewItemModel)\nEnd Class

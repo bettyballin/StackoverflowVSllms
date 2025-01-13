@@ -1,1 +1,0 @@
-export PAYMENT_GATEWAY_API_LOGIN="your_api_login"\n  export PAYMENT_GATEWAY_TRANSACTION_KEY="your_transaction_key"

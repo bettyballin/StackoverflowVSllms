@@ -1,0 +1,1 @@
+int optval = 1;\nsetsockopt(server_socket, SOL_SOCKET, SO_REUSEADDR, &optval, sizeof(optval));

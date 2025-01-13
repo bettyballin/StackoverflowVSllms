@@ -1,0 +1,1 @@
+.game-board {\n  display: grid;\n  grid-template-columns: repeat(3, 1fr);\n  grid-gap: 10px;\n}\n\n.game-cell {\n  width: 50px;\n  height: 50px;\n  background-color: #fff;\n  border: 1px solid #ddd;\n  display: flex;\n  justify-content: center;\n  align-items: center;\n}

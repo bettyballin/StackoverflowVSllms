@@ -1,0 +1,1 @@
+for %%X in (files\*.txt) do (\n  iconv -f UTF-8 -t ASCII//TRANSLIT "%%X" -o "%%X.tmp"\n  move /y "%%X.tmp" "%%X"\n)

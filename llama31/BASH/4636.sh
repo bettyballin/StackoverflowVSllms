@@ -1,0 +1,1 @@
+gcc -W -Wall -Og -c test.c

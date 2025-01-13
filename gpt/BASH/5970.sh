@@ -1,1 +1,0 @@
-gcov my_program.cpp

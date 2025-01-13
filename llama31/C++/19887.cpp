@@ -1,0 +1,1 @@
+LabelAtlas* label = LabelAtlas::create("0123456789", "font.png", 16, 16, '0');\nlabel->setAnchorPoint(ccp(1, 0)); // align to the right

@@ -1,1 +1,0 @@
-INSERT INTO MyTable (ThisDate) VALUES (CONVERT(datetime, '2009-03-17 15:40:48', 120));

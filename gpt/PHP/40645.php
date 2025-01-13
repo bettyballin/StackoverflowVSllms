@@ -1,1 +1,0 @@
-function isValidUTF8($text) {\n    return mb_check_encoding($text, 'UTF-8');\n}

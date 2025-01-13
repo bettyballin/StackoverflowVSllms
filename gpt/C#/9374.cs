@@ -1,1 +1,0 @@
-var obj1 = new object();\nvar anonType = new {};

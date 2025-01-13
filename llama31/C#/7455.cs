@@ -1,0 +1,1 @@
+using (FileStream stream = new FileStream("path/to/assembly.dll", FileMode.Open, FileAccess.Read))\n{\n    Assembly assembly = Assembly.LoadFrom(stream);\n}

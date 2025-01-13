@@ -1,0 +1,1 @@
+var obj = new MyClass().SetProperty1("value1").SetProperty2("value2");

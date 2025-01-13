@@ -1,1 +1,0 @@
-Dim obj As Object\nSet obj = CreateObject("MyInteropLibrary.MyClass")\nobj.MyMethod

@@ -1,1 +1,0 @@
-public class GenericClass<T> where T : IComparable {\n      public T Max(T a, T b) {\n          return a.CompareTo(b) > 0 ? a : b;\n      }\n  }

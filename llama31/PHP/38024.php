@@ -1,0 +1,1 @@
+require_once 'PhpRrdGraph.php';\n\n$graph = new PhpRrdGraph();\n$graph->setTitle('Example Graph');\n$graph->addDataSource('example.rrd');\n$graph->addLine('example', 'Example Data');\n$graph->generateGraph();

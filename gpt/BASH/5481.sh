@@ -1,1 +1,0 @@
-# For Linux\n   sudo systemctl restart mysql\n\n   # For Windows\n   net stop mysql\n   net start mysql

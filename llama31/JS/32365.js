@@ -1,0 +1,1 @@
+(function(appContext) {\n  // your code here\n})(window.appContext = window.appContext || {});

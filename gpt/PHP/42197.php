@@ -1,1 +1,0 @@
-$afid = $this->sessionManager->getAffiliateId();

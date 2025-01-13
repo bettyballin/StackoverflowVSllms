@@ -1,0 +1,1 @@
+// DLL1\n#pragma comment(linker, "/base:0x60000000")\n\n// DLL2\n#pragma comment(linker, "/base:0x61000000")\n\n// DLL3\n#pragma comment(linker, "/base:0x62000000")

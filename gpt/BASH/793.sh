@@ -1,1 +1,0 @@
-mv ~/.bashrc ~/.bashrc.bak\n     mv ~/.profile ~/.profile.bak\n     mv ~/.bash_profile ~/.bash_profile.bak

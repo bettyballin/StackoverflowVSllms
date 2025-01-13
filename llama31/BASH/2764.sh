@@ -1,0 +1,1 @@
+ssh-keyscan -t rsa your-repo-url.com >> ~/.ssh/known_hosts

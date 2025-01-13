@@ -1,0 +1,1 @@
+function updateTextboxes() {\n    document.getElementById('<%= TextBox1.ClientID %>').value = '1';\n    document.getElementById('<%= TextBox2.ClientID %>').value = '1';\n}

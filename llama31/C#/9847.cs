@@ -1,0 +1,1 @@
+public class MyController : Controller\n{\n    protected override void Initialize(RequestContext requestContext)\n    {\n        base.Initialize(requestContext);\n        // Session is now available\n        var session = requestContext.HttpContext.Session;\n        // ...\n    }\n}

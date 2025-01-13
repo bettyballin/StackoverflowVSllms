@@ -1,0 +1,1 @@
+WITH DuplicateRows AS (\n  SELECT *, \n    ROW_NUMBER() OVER (PARTITION BY column1, column2, column3 ORDER BY column1) AS RowNum\n  FROM YourTable\n)\nDELETE FROM DuplicateRows\nWHERE RowNum > 1;

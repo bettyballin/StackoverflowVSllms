@@ -1,0 +1,1 @@
+latex2ascii -t resume.tex

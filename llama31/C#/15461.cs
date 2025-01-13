@@ -1,0 +1,1 @@
+public class GetDataForContainer1 : IHttpHandler\n{\n    public void ProcessRequest(HttpContext context)\n    {\n        // Retrieve the data for container 1\n        string data = GetDataFromDatabaseOrOtherSource();\n\n        context.Response.ContentType = "text/html";\n        context.Response.Write(data);\n    }\n}

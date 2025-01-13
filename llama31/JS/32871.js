@@ -1,0 +1,1 @@
+const seasonDiv = document.getElementById('season-div');\n\nseasonDiv.addEventListener('mousedown', () => {\n  seasonDiv.classList.add('active-class');\n});\n\nseasonDiv.addEventListener('mouseup', () => {\n  seasonDiv.classList.remove('active-class');\n});

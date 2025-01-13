@@ -1,1 +1,0 @@
-[BasicAuthentication]\npublic class YourService : IYourService\n{\n    public string YourServiceMethod()\n    {\n        return "Service response";\n    }\n}

@@ -1,1 +1,0 @@
-<?php\n$users = [\n    ['id' => 'aaa_id', 'pass' => password_hash('aaa_pass', PASSWORD_DEFAULT)],\n    ['id' => 'bbb_id', 'pass' => password_hash('bbb_pass', PASSWORD_DEFAULT)],\n    ['id' => 'ccc_id', 'pass' => password_hash('ccc_pass', PASSWORD_DEFAULT)],\n];\n\n$fp = fopen('id.csv', 'w');\nforeach ($users as $user) {\n    fputcsv($fp, $user);\n}\nfclose($fp);\n?>

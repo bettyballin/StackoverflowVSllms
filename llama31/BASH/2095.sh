@@ -1,0 +1,1 @@
+java -jar symmetric.jar -f symmetric.xml --engine pg2ora

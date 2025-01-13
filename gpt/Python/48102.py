@@ -1,1 +1,0 @@
-def parse_id(variable):\n    print("Variable Name:", variable['name'])\n    print("Variable Value:", variable['value'])\n\nmy_id = 123\nparse_id({'name': 'my_id', 'value': my_id})

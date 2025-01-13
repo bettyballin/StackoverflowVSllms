@@ -1,1 +1,0 @@
--- Compute the hash of the search value\nDECLARE @searchValue NVARCHAR(2000) = 'your search value';\nDECLARE @searchHash BINARY(20) = HASHBYTES('SHA1', @searchValue);\n\n-- Perform the lookup using the hash column\nSELECT *\nFROM YourTable\nWHERE HashColumn = @searchHash AND YourNvarcharColumn = @searchValue;

@@ -1,1 +1,0 @@
-[WebMethod]\n   public static void AddComment(string comment)\n   {\n       // Save the comment to the database\n   }

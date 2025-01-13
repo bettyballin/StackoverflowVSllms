@@ -1,0 +1,1 @@
+private void ValidateButton_Click(object sender, EventArgs e)\n{\n    var validator = new Validator();\n    foreach (Control control in this.Controls)\n    {\n        if (!validator.Validate(control))\n        {\n            MessageBox.Show("Validation failed!");\n            return;\n        }\n    }\n    MessageBox.Show("Validation succeeded!");\n}

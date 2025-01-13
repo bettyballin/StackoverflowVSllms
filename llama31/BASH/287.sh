@@ -1,0 +1,1 @@
+# Install pipenv\npip install pipenv\n\n# Create a new project with pipenv\npipenv --python 3.9

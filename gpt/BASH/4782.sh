@@ -1,1 +1,0 @@
-chown apache:apache /path/to/your/script\nchmod +x /path/to/your/script

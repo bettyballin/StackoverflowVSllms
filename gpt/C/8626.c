@@ -1,1 +1,0 @@
-int foo(int x) {\n  if (x)\n    return -1;\n  else\n    return 0;\n}

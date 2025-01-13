@@ -1,0 +1,1 @@
+// _Part2.cshtml (partial view)\n@model Part2Model\n\n<!-- Part 2 content -->

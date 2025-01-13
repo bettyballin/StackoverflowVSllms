@@ -1,1 +1,0 @@
-int? a;\nif (a.HasValue)\n{\n    // ...\n}

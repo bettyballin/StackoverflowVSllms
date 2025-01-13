@@ -1,1 +1,0 @@
-setspn -Q HTTP/srvnfssol1.dev.local\n   setspn -A HTTP/srvnfssol1.dev.local your_service_account

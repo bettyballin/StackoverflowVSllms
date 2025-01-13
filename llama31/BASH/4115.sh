@@ -1,0 +1,1 @@
+javaws -Xnosplash -wait jnlp_url > output.log 2>&1

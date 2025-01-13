@@ -1,1 +1,0 @@
-# Using echo with escaped octal codes\necho -e '\002\003' > outputfile\n\n# Alternatively, using printf\nprintf '\002\003' > outputfile

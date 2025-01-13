@@ -1,1 +1,0 @@
-# Example of publishing an artifact to AWS CodeArtifact\n   mvn deploy -DrepositoryId=aws-codeartifact -Durl=https://your-domain-123456789012.d.codeartifact.us-west-2.amazonaws.com/maven/repository/

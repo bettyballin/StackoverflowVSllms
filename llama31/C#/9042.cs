@@ -1,0 +1,1 @@
+protected override void OnStart(string[] args)\n{\n    // Initialize and start your service's logic here\n    base.OnStart(args);\n}

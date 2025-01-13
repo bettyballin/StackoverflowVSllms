@@ -1,1 +1,0 @@
-Response.Headers.Add("X-Content-Type-Options", "nosniff");\n    Response.Headers.Add("X-Frame-Options", "DENY");

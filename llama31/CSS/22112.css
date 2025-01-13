@@ -1,0 +1,1 @@
+.contentbox {\n  position: fixed;\n  z-index: 2;\n  top: 0;\n  left: 50%;\n  transform: translateX(-50%);\n  border-image-source: url('border-image.png');\n  border-image-slice: 30 30 30 30;\n  border-image-width: 30px 30px 30px 0;\n  border-image-repeat: stretch;\n  padding: 20px;\n  background-color: #e8e8e8;\n}

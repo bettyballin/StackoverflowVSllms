@@ -1,0 +1,1 @@
+string connectionString = "Server=myServer\\myInstance,1433;Database=myDatabase;User Id=myUser;Password=myPassword;";

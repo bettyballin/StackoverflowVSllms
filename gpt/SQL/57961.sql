@@ -1,1 +1,0 @@
-ALTER TABLE child_table ADD COLUMN new_guid VARCHAR(36);\n    UPDATE child_table SET new_guid = (SELECT new_guid FROM master_table WHERE old_guid = child_table.old_guid);

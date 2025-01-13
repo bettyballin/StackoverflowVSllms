@@ -1,1 +1,0 @@
-SELECT * \nFROM OPENQUERY(YourLinkedServerName, 'SELECT * FROM YourDatabase.dbo.YourTable');

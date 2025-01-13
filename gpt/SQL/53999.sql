@@ -1,1 +1,0 @@
-SELECT\n    q.qid,\n    q.question,\n    q.date,\n    COUNT(c.qid) AS total_comments\nFROM\n    questions q\nLEFT JOIN\n    comments c ON c.qid = q.qid\nGROUP BY\n    q.qid, q.question, q.date\nORDER BY\n    q.date\nLIMIT 1;

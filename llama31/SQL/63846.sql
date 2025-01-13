@@ -1,0 +1,1 @@
+SELECT \n    file_id, \n    last_write\nFROM \n    sys.dm_io_virtual_file_stats(DB_ID('your_database_name'), NULL);

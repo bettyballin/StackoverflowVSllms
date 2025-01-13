@@ -1,0 +1,1 @@
+SELECT * FROM `table` WHERE `datetime_field` IS NULL OR `datetime_field` = '0000-00-00 00:00:00';

@@ -1,1 +1,0 @@
-ab -n 1000 -c 10 http://localhost/your_script.php

@@ -1,0 +1,1 @@
+// Your script code goes here\nconsole.log('Script injected!');\ndocument.body.innerHTML = '<h1>Hello, World!</h1>';

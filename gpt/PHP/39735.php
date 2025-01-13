@@ -1,1 +1,0 @@
-$i = "76561197961384956"; // Store the number as a string\n$s = "i = $i"; // Directly concatenate the string\necho $s;

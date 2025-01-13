@@ -1,0 +1,1 @@
+m -g --defined-only --demangle yourlib.so

@@ -1,0 +1,1 @@
+svn update file:///local-repo/branches/local-branch

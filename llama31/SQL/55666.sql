@@ -1,0 +1,1 @@
+SELECT * \nFROM FREETEXTTABLE(Table, SearchField, 'c#', LANGUAGE N'NEUTRAL') AS ft\nINNER JOIN Table ON Table.PrimaryKey = ft.[KEY]

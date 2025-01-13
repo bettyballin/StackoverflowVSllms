@@ -1,0 +1,1 @@
+perl -e 'print join "\n", @INC'

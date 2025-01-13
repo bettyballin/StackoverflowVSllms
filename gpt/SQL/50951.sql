@@ -1,1 +1,0 @@
-SELECT FLOOR(your_column) AS integer_part\nFROM your_table;

@@ -1,1 +1,0 @@
-DECLARE @ipv6_high BIGINT = 0x20010DB800000000 -- Example high part\nDECLARE @ipv6_low BIGINT = 0x85A3000000000000  -- Example low part\n\nSELECT id\nFROM IPv6Ranges\nWHERE\n    (@ipv6_high > start_high OR (@ipv6_high = start_high AND @ipv6_low >= start_low))\n    AND\n    (@ipv6_high < end_high OR (@ipv6_high = end_high AND @ipv6_low <= end_low));

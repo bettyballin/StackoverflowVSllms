@@ -1,0 +1,1 @@
+using (var tryLock = new TryLock(syncRoot))\n{\n    if (tryLock.IsLockAcquired)\n    {\n        // do something\n    }\n    else\n    {\n        // do something else\n    }\n}

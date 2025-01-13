@@ -1,0 +1,1 @@
+var concurrentBag = new ConcurrentBag<Item>();\n\nforeach (var item in enumerable)\n{\n    foreach (var item2 in item.Enumerable)\n    {\n        concurrentBag.Add(new Item2());\n    }\n}

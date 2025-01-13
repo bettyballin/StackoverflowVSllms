@@ -1,0 +1,1 @@
+stsadm -o deletessp -title <old_ssp_title>

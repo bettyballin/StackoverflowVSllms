@@ -1,0 +1,1 @@
+-- Using BETWEEN\nSELECT * FROM table WHERE column BETWEEN 10 AND 20;\n\n-- Using comparison operators\nSELECT * FROM table WHERE column >= 10 AND column <= 20;

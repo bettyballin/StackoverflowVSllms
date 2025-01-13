@@ -1,1 +1,0 @@
-sudo mkfs.ext4 /dev/mapper/encrypted_drive

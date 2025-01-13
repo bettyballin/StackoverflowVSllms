@@ -1,1 +1,0 @@
-<configuration>\n  <system.web>\n    <httpHandlers>\n      <add verb="*" path="MyRestService.ashx" type="MyRestServiceHandler"/>\n    </httpHandlers>\n  </system.web>\n</configuration>

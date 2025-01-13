@@ -1,0 +1,1 @@
+$(document).ready(function(){\n    // Your global code here\n    $("#more").click(function(){\n        $("#morediv").slideToggle("slow");\n        return false;\n    });\n});

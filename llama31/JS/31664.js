@@ -1,0 +1,1 @@
+$('#myElement').fadeIn('slow');

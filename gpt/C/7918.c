@@ -1,1 +1,0 @@
-#include <stdlib.h>\n\nchar **sequence;\nint seqNum;\n\n// Assuming seqNum is initialized somewhere before this line\nsequence = (char **)malloc(sizeof(char *) * seqNum);

@@ -1,1 +1,0 @@
-# Preprocess the .pc file to comment out #warning directives\nsed 's/^#warning/#warning_removed/' input_file.pc > preprocessed_file.pc\n\n# Now run the Pro*C precompiler on the preprocessed file\nproc preprocessed_file.pc

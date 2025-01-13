@@ -1,0 +1,1 @@
+ffmpeg -i input.mp3 -c:a libfdk_aac -b:a 128k -ar 44100 -f hls -hls_time 10 -hls_list_size 0 output.m3u8

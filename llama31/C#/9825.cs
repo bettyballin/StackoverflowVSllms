@@ -1,0 +1,1 @@
+bool result = listOfStrings.Any(s => myString.StartsWith(s, StringComparison.OrdinalIgnoreCase));

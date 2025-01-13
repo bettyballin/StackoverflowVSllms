@@ -1,1 +1,0 @@
-# Install phpDocumentor\n   composer global require phpdocumentor/phpdocumentor

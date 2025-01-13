@@ -1,1 +1,0 @@
-$link = mysqli_connect('127.0.0.1', 'username', 'password', 'database');\n   if (!$link) {\n       die('Could not connect: ' . mysqli_connect_error());\n   }

@@ -1,1 +1,0 @@
-[Authorize]\npublic JsonResult FindWidgets()\n{\n    var widgets = GetWidgets();\n    return Json(widgets, JsonRequestBehavior.AllowGet);\n}

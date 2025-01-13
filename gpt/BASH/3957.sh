@@ -1,1 +1,0 @@
-robocopy \\SourceServer\Share \\DestinationServer\Share /MIR /R:5 /W:5

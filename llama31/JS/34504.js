@@ -1,0 +1,1 @@
+const DOMPurify = require('dompurify');\n\n// User input\nconst userInput = '<p>Hello, <span style="color: red;">world!</span></p>';\n\n// Sanitize user input\nconst sanitizedHtml = DOMPurify.sanitize(userInput);\n\n// Output sanitized HTML\nconsole.log(sanitizedHtml);

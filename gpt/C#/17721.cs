@@ -1,1 +1,0 @@
-lblError.Style["visibility"] = "visible";\nlblError.Text = "Your error message";

@@ -1,1 +1,0 @@
-Private Sub btnAverage_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles btnAverage.Click\n\n  Dim a As Integer = CInt(txtone.Text)\n  Dim b As Integer = CInt(txtTwo.Text)\n  Dim c As Integer = CInt(txtThree.Text)\n  Dim average As Double\n  average = (a + b + c) / 3.0\n\n  lstOutput.Items.Add(average.ToString())\n\nEnd Sub

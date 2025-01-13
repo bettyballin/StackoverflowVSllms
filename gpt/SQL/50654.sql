@@ -1,1 +1,0 @@
-CREATE TABLE badges (\n    UserId NUMBER,\n    Name VARCHAR2(100),\n    Date TIMESTAMP\n);

@@ -1,0 +1,1 @@
+pg_dump -U username -n source_schema source_database > dump.sql\npsql -U username -d target_database -f dump.sql

@@ -1,0 +1,1 @@
+bool IsFileInUse(string filePath)\n{\n    foreach (Process process in Process.GetProcesses())\n    {\n        if (process.HasExited) continue;\n\n        foreach (ProcessModule module in process.Modules)\n        {\n            if (module.FileName == filePath)\n                return true;\n        }\n    }\n\n    return false;\n}

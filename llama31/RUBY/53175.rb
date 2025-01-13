@@ -1,0 +1,1 @@
+# in your controller or code\nset = ::ActiveRecord::Set.find(1)

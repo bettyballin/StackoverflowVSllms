@@ -1,1 +1,0 @@
-rm -rf vendor/plugins/paperclip

@@ -1,1 +1,0 @@
-if (isset($_POST['select'])) {\n       $select = urldecode($_POST['select']);\n       // Now you can safely use $select in your exec command\n       // Example:\n       // $cmd = "some_command " . escapeshellarg($select);\n       // exec($cmd, $output, $return_var);\n   }

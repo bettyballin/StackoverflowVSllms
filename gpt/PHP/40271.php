@@ -1,1 +1,0 @@
-<?php\nsession_start();\nif (!isset($_SESSION['loggedin']) || $_SESSION['loggedin'] !== true) {\n    header('Location: login.php');\n    exit;\n}\n?>\n<h1>Protected Content</h1>\n<p>This content is protected and only accessible to authenticated users.</p>

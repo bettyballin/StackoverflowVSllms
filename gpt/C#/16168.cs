@@ -1,1 +1,0 @@
-using (HttpClient client = new HttpClient())\n   {\n       string response = await client.GetStringAsync("https://api.example.com/data");\n       Console.WriteLine(response);\n   }

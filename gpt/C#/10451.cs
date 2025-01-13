@@ -1,1 +1,0 @@
-protected void Page_Load(object sender, EventArgs e)\n{\n    // Example to hide the control\n    VotingPolls1.Visible = false;\n\n    // Example to show the control\n    VotingPolls1.Visible = true;\n}

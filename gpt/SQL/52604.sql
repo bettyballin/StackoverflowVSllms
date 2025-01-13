@@ -1,1 +1,0 @@
-SELECT\n    customer_number,\n    customer_name,\n    customer_address\nFROM\n    customers\nGROUP BY\n    customer_number,\n    customer_name,\n    customer_address\nHAVING\n    COUNT(DISTINCT customer_name) = 1\n    AND COUNT(DISTINCT customer_address) = 1;

@@ -1,0 +1,1 @@
+function showhide(layer_ref) {\n    var element = document.getElementById(layer_ref);\n    if (element.style.display === 'block') {\n        element.style.display = 'none';\n    } else {\n        element.style.display = 'block';\n    }\n}

@@ -1,1 +1,0 @@
-using (var session = sessionFactory.OpenSession())\n{\n    using (var transaction = session.BeginTransaction())\n    {\n        var customers = session.Query<Customer>()\n                               .Where(c => c.Name.StartsWith("A"))\n                               .ToList();\n        transaction.Commit();\n    }\n}

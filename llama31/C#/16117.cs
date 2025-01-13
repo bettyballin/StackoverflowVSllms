@@ -1,0 +1,1 @@
+public void StartOAuthAuthorize()\n{\n    var authLink = twitterContext.GetAuthorizationPageLink(\n        new OAuthWebRequest\n        {\n            Callback = "http://your-ngrok-url.com/callback"\n        },\n        false, false);\n\n    // ... rest of the code ...\n}

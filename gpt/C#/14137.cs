@@ -1,1 +1,0 @@
-routes.IgnoreRoute("Content/{*pathInfo}");\nroutes.IgnoreRoute("Scripts/{*pathInfo}");\nroutes.IgnoreRoute("{*favicon}", new { favicon = @"(.*/)?favicon.ico(/.*)?" });

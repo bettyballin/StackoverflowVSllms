@@ -1,1 +1,0 @@
-class UsersController < ApplicationController\n  def events\n    @user = User.find(params[:id])\n    @month = params[:month]\n    # Your logic to handle the events for the user and month\n  end\nend

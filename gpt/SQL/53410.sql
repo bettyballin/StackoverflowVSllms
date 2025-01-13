@@ -1,1 +1,0 @@
--- Check the current storage engine\nSHOW TABLE STATUS WHERE Name = 'my_table';\n\n-- Change the storage engine to InnoDB if it is not already\nALTER TABLE my_table ENGINE=InnoDB;\n\n-- Add the FULLTEXT index\nALTER TABLE my_table ADD FULLTEXT (my_column);

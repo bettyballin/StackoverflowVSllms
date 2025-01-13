@@ -1,0 +1,1 @@
+# In your Rails controller\ndef create\n  # Your code to create the new item...\n  # ...\n\n  # Render the JavaScript callback\n  render :js => "Sortable.create('my_list', { /* Your Sortable options... */ });"\nend

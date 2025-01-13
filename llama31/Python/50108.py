@@ -1,0 +1,1 @@
+original_list = ["apple", "banana", "cherry", "date", "elderberry"]\n\n# Copy a portion of the list to a new list\nnew_list = original_list[1:3]\n\nprint(new_list)  # Output: ["banana", "cherry"]

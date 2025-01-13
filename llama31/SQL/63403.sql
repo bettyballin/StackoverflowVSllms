@@ -1,0 +1,1 @@
+SELECT \n  (SELECT COUNT(*) FROM schema.tab1) AS Count_1,\n  (SELECT COUNT(*) FROM schema.tab2) AS Count_2;

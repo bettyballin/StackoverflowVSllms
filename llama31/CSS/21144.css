@@ -1,0 +1,1 @@
+div.container {\n  display: flex;\n  flex-direction: column;\n}\n\ntable {\n  flex-grow: 1; /* make the table take up the remaining space */\n}

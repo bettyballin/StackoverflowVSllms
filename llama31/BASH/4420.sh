@@ -1,0 +1,1 @@
+svn diff -c revision_number > patch_file.patch

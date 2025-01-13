@@ -1,1 +1,0 @@
-import numpy as np\n\n# Initialize a NumPy array with a fixed size of 100 elements\nfixed_size_array = np.zeros(100)\n\n# Populate the array\nfor i in range(100):\n    fixed_size_array[i] = i

@@ -1,0 +1,1 @@
+require('fpdf.php');\n\n$pdf = new FPDF();\n$pages = $pdf->setSourceFile('path/to/your/file.pdf');\necho $pages;

@@ -1,0 +1,1 @@
+CREATE TABLE MyTable (\n    CaseInsensitiveColumn VARCHAR(50),\n    CaseSensitiveColumn VARCHAR(50) COLLATE Latin1_General_CS_AS\n)

@@ -1,0 +1,1 @@
+setInterval(function() {\n  var currentHash = window.location.hash;\n  if (currentHash !== previousHash) {\n    console.log('Hash changed to:', currentHash);\n    previousHash = currentHash;\n  }\n}, 100);

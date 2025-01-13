@@ -1,0 +1,1 @@
+SELECT s.id, s.name\nFROM source s\nJOIN params p ON s.id = p.source\nWHERE p.value IN (1, 2, 3)\nGROUP BY s.id, s.name\nHAVING COUNT(DISTINCT p.value) = 3;

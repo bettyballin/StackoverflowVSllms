@@ -1,0 +1,1 @@
+appcmd set apppool /apppool.name:MyAppPool /cpu.limit:50

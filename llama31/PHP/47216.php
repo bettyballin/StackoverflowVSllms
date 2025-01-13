@@ -1,0 +1,1 @@
+// apps/frontend/modules/categories/templates/listProductsByCategorySuccess.php\n\nforeach ($products as $product) {\n  // ...\n\n  $form = new CartAddProductForm();\n  $form->setDefault('product_id', $product->getId());\n\n  echo $form->render();\n}

@@ -1,1 +1,0 @@
-import qrcode\n\n# Generate QR code\ndata = "Hello, World!"\nqr = qrcode.QRCode(\n    version=1,\n    error_correction=qrcode.constants.ERROR_CORRECT_L,\n    box_size=10,\n    border=4,\n)\nqr.add_data(data)\nqr.make(fit=True)\n\n# Create an image from the QR code instance\nimg = qr.make_image(fill='black', back_color='white')\nimg.save("qrcode.png")

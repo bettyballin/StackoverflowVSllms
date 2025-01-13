@@ -1,1 +1,0 @@
-#ifndef CLASSB_H\n#define CLASSB_H\n\nclass ClassA;  // Forward declaration of ClassA\n\nclass ClassB {\npublic:\n    ClassB();\n    void setClassA(ClassA* a);\nprivate:\n    ClassA* aPtr;  // Pointer to ClassA\n};\n\n#endif // CLASSB_H

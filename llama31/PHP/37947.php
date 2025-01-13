@@ -1,0 +1,1 @@
+if (isset($_GET['r'])) {\n    $key = $_GET['r'];\n    echo $key;\n} else {\n    // handle invalid input\n}

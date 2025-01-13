@@ -1,1 +1,0 @@
-# Compile the C code\ngcc -shared -o interrupt_handler.so -fPIC interrupt_handler.c\n\n# Compile and run the SystemVerilog simulation (example using VCS)\nvcs -sv register_read.sv register_write.sv interrupt_handler.sv -CFLAGS -fPIC -LDFLAGS "-ldl ./interrupt_handler.so" -o simv\n./simv

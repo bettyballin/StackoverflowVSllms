@@ -1,1 +1,0 @@
-SELECT STRING_AGG(col1, '-') AS concatenated_result\nFROM table1\nWHERE cond1 = true;

@@ -1,0 +1,1 @@
+#include <jemalloc.h>\n\nint main() {\n    void* ptr = je_malloc(32);\n    // ...\n    je_free(ptr);\n    return 0;\n}

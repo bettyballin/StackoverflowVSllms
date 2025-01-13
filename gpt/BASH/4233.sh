@@ -1,1 +1,0 @@
-@echo off\nset REPO_PATH=C:\path\to\your\repository\nset BACKUP_PATH=C:\path\to\your\backup\location\nset TIMESTAMP=%DATE:~10,4%%DATE:~4,2%%DATE:~7,2%_%TIME:~0,2%%TIME:~3,2%%TIME:~6,2%\n\nmkdir %BACKUP_PATH%\backup_%TIMESTAMP%\nsvnadmin hotcopy %REPO_PATH% %BACKUP_PATH%\backup_%TIMESTAMP%\n\necho Backup completed at %TIMESTAMP%

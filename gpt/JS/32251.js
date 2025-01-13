@@ -1,1 +1,0 @@
-console.log(this); // refers to the global object (window in browsers)

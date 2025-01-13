@@ -1,1 +1,0 @@
-if (current_user_can('subscriber')) {\n    // Redirect the subscriber to another page\n    wp_redirect(home_url()); // Redirect to the homepage, for example\n    exit;\n}

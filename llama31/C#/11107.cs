@@ -1,0 +1,1 @@
+protected void Application_Error(object sender, EventArgs e)\n{\n    Exception ex = Server.GetLastError();\n    if (ex is System.Web.HttpException && ex.Message.Contains("Maximum request length exceeded"))\n    {\n        Server.ClearError();\n        Response.Redirect("ErrorPage.aspx");\n    }\n}

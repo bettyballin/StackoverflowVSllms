@@ -1,0 +1,1 @@
+# Receive the message and HMAC signature from the client\n\n# Verify HMAC signature\nexpected_hmac_signature = hmac.new(shared_secret_key, message, hashlib.sha256).digest()\nif hmac_signature == expected_hmac_signature:\n    print("Message is authentic and has not been tampered with")\nelse:\n    print("Message has been tampered with or is not authentic")

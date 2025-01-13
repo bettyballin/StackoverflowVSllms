@@ -1,0 +1,1 @@
+catch throw std::runtime_error

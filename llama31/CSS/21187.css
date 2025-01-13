@@ -1,0 +1,1 @@
+html, body {\n  background: url(images/INF_pageBg.gif) 50% 0 repeat-y #777777;\n  text-align: center;\n}\n\n#container {\n  background-color: #ffffff;\n  width: 960px;\n  text-align: left;\n  margin: 0 auto 0 auto;\n}

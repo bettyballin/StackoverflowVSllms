@@ -1,1 +1,0 @@
-CREATE TABLE Transactions (\n    Id INT PRIMARY KEY,\n    Date DATE,\n    OrderId INT,\n    Quantity INT,\n    ItemName VARCHAR(255),\n    Title VARCHAR(255)\n);

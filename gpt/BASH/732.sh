@@ -1,1 +1,0 @@
-lp /path/to/outputfile.pdf

@@ -1,0 +1,1 @@
+function checkLogin($group, $user = '', $pass = '', $goodRedirect = '', $badRedirect = '')

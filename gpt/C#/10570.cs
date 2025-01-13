@@ -1,1 +1,0 @@
-if (!dr.IsDBNull(0))\n{\n    object value = dr.GetValue(0);\n    if (value is int)\n    {\n        vo.PlacementID = value.ToString();\n    }\n    else if (value is string)\n    {\n        vo.PlacementID = (string)value;\n    }\n    else\n    {\n        throw new InvalidCastException("Unexpected data type for PlacementID");\n    }\n}\nelse\n{\n    vo.PlacementID = null;\n}

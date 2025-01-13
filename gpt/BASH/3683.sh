@@ -1,1 +1,0 @@
-gs -dNOPAUSE -dBATCH -sDEVICE=pdfwrite -sPAPERSIZE=letter -dFIXEDMEDIA -dPDFFitPage -sOutputFile=output.pdf input.pdf

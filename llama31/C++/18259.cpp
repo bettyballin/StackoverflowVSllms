@@ -1,0 +1,1 @@
+#include <boost/thread.hpp>\n#include <boost/process.hpp>\n\n// Get thread identifier\nboost::thread::id getThreadId() {\n    return boost::this_thread::get_id();\n}\n\n// Get process identifier\nboost::process::id getProcessId() {\n    return boost::this_process::get_id();\n}

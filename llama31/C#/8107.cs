@@ -1,0 +1,1 @@
+public void server_recievedErrorStream(object sender, DataReceivedEventArgs args)\n{\n    if (args.Data != null)\n    {\n        BeginInvoke(writeOutput, new object[] { args.Data.ToString() });\n    }\n}

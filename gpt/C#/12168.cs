@@ -1,1 +1,0 @@
-public class SalesService : ISalesService\n{\n    public List<Sales> GetSalesByDate(string start, string end)\n    {\n        // Implementation of the method\n        return new List<Sales>();\n    }\n}

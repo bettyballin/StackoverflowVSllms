@@ -1,0 +1,1 @@
+$ipAddress = $_POST['ip_address'];\n\nif (!filter_var($ipAddress, FILTER_VALIDATE_IP)) {\n    die("Invalid IP address");\n}\n\n$escapedIpAddress = escapeshellarg($ipAddress);\n\n$pingCommand = "ping -c 1 $escapedIpAddress";\nexec($pingCommand, $output, $returnCode);

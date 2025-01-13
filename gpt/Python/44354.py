@@ -1,1 +1,0 @@
-import boto3\n\n    s3 = boto3.client('s3')\n    bucket_name = 'your-bucket-name'\n\n    response = s3.list_objects_v2(Bucket=bucket_name)\n    for obj in response.get('Contents', []):\n        s3.put_object_acl(Bucket=bucket_name, Key=obj['Key'], ACL='public-read')

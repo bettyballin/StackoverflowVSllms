@@ -1,0 +1,1 @@
+`perl -c script.pl 1>stdoutfile 2>stderrfile`;

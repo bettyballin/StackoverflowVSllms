@@ -1,0 +1,1 @@
+class Database {\n    const CONSTANT_VALUE = 1;\n    const ANOTHER_CONSTANT = 2;\n}

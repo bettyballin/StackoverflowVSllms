@@ -1,1 +1,0 @@
-<configuration>\n  <system.webServer>\n    <handlers>\n      <add name="PdfHandler" path="*.pdf" verb="*" type="Namespace.PdfHandler, AssemblyName" resourceType="Unspecified" />\n    </handlers>\n  </system.webServer>\n</configuration>

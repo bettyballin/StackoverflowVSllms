@@ -1,0 +1,1 @@
+.parent-div {\n  width: 200px;\n  height: 200px;\n  position: relative;\n}\n\n.child-img {\n  width: 50px;\n  height: 50px;\n  position: absolute;\n  top: 50%;\n  left: 50%;\n  transform: translate(-50%, -50%);\n}

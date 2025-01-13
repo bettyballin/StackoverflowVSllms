@@ -1,0 +1,1 @@
+public class Header {\n    public int version;\n    public byte type;\n    public int beginOfData;\n    public byte[] id;\n\n    public Header(int version, byte type, int beginOfData, byte[] id) {\n        this.version = version;\n        this.type = type;\n        this.beginOfData = beginOfData;\n        this.id = id;\n    }\n}

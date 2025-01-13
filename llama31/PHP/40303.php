@@ -1,0 +1,1 @@
+$dateString = '2008-02-28T07:56:35.263';\nif ($date = DateTime::createFromFormat('Y-m-d\TH:i:s.v', $dateString)) {\n    echo $date->format('Y-m-d H:i:s.v');\n} else {\n    echo "Invalid date format";\n}

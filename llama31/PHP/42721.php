@@ -1,0 +1,1 @@
+// index.php\n\nuse PluginLoader;\n\n$loader = new PluginLoader(new ClassLoader());\n$plugins = $loader->loadPlugins();\n\nforeach ($plugins as $plugin) {\n    $plugin->doSomething();\n}

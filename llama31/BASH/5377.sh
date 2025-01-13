@@ -1,0 +1,1 @@
+:: Assuming your certificate is installed in the Windows certificate store\nsigntool sign /a /fd SHA256 /td SHA256 /tr http://timestamp.comodoca.com/rfc3161 your_extension.xpi

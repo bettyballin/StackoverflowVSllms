@@ -1,0 +1,1 @@
+function mybio_info() {\n  return array(\n    'content_types' => array(\n      'mybio' => array(\n        // Your content type definition here\n      ),\n    ),\n  );\n}

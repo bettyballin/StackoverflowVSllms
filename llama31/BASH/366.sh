@@ -1,0 +1,1 @@
+openssl s_client -connect your_server:443 -CAfile comodo_root_cert.pem

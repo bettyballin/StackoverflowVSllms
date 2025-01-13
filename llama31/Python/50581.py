@@ -1,0 +1,1 @@
+import csv\n\nwith open('example.csv', 'r') as csvfile:\n    reader = csv.DictReader(csvfile)\n    for row in reader:\n        # Get the last column (d) first\n        d = row['d']\n        c = row['c']\n        b = row['b']\n        a = row['a']\n        # Now you can process the values in reverse order\n        print(f'd: {d}, c: {c}, b: {b}, a: {a}')

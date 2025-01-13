@@ -1,1 +1,0 @@
-ALTER TABLE your_table DROP CONSTRAINT percentage_check;\nALTER TABLE your_table ADD CONSTRAINT percentage_check CHECK (percentage >= 0);

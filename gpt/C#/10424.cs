@@ -1,1 +1,0 @@
-using System.Web.Security;\n\npublic void DeleteUser(string username)\n{\n    bool deleteAllRelatedData = true; // Set to true to delete all related data for the user\n    Membership.DeleteUser(username, deleteAllRelatedData);\n}

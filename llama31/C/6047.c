@@ -1,0 +1,1 @@
+#include <stdio.h>\n#include <stdint.h>\n\nint main() {\n    printf("Size of int: %zu bytes\n", sizeof(int));\n    printf("Size of long: %zu bytes\n", sizeof(long));\n    printf("Size of pointer: %zu bytes\n", sizeof(void*));\n    printf("Size of uint32_t: %zu bytes\n", sizeof(uint32_t));\n    printf("Size of uint64_t: %zu bytes\n", sizeof(uint64_t));\n    return 0;\n}

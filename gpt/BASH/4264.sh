@@ -1,1 +1,0 @@
-@echo off\nfc file1.txt file2.txt > nul\nif %errorlevel% equ 0 (\n    echo Files match\n    rem Perform actions if files match\n) else (\n    echo Files do not match\n    rem Perform actions if files do not match\n)

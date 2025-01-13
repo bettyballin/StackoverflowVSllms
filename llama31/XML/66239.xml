@@ -1,0 +1,1 @@
+<!-- Example of CSRF protection using Struts TokenInterceptor -->\n<interceptors>\n    <interceptor-ref name="token"/>\n</interceptors>

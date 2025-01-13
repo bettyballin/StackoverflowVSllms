@@ -1,1 +1,0 @@
-var totalAge = people.Sum(p => p.Age);

@@ -1,1 +1,0 @@
-$.ajax({\n       url: 'your-server-endpoint',\n       type: 'POST',\n       data: { key: 'value' },\n       success: function(response) {\n           $('#yourElement').html(response);\n       }\n   });

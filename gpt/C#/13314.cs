@@ -1,1 +1,0 @@
-private static string configFile = Directory.GetCurrentDirectory() + "/LoadCell.config";\n   private static string errorLog = Directory.GetCurrentDirectory() + "/LoadCell.log";

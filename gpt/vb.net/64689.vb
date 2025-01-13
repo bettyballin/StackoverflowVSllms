@@ -1,1 +1,0 @@
-Sub SwitchToDevelopmentBackend()\n    RelinkTables "C:\Path\To\Development\Backend.mdb"\nEnd Sub\n\nSub SwitchToLiveBackend()\n    RelinkTables "C:\Path\To\Live\Backend.mdb"\nEnd Sub

@@ -1,1 +1,0 @@
-$.ajax({\n    url: 'your-url-here',\n    type: 'GET',\n    success: function(response) {\n        // Process the response\n        var data = JSON.parse(response);\n        // Update the web page with the response data\n    },\n    error: function(xhr, status, error) {\n        // Handle error\n    }\n});

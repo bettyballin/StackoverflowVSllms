@@ -1,0 +1,1 @@
+<jsp-config>\n    <jsp-property-group>\n        <url-pattern>*.jsp</url-pattern>\n        <buffer-size>1024</buffer-size> <!-- set default buffer size to 1024 -->\n    </jsp-property-group>\n</jsp-config>

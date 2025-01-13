@@ -1,1 +1,0 @@
-BEGIN\n   DBMS_RESOURCE_MANAGER.UPDATE_CONSUMER_GROUP(\n      consumer_group => 'LIMITED_GROUP',\n      new_switch_time => 60); -- Time in seconds\nEND;\n/

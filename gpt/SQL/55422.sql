@@ -1,1 +1,0 @@
-CREATE FULLTEXT INDEX ON YourTableName(YourColumnName)\n   KEY INDEX YourPrimaryKeyIndexName\n   ON YourCatalogName

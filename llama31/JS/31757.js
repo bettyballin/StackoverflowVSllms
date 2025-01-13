@@ -1,0 +1,1 @@
+$('table td').resizable({\n  handles: 'e, s',\n  resize: function(event, ui) {\n    $(this).css({\n      width: ui.size.width + 'px',\n      height: ui.size.height + 'px'\n    });\n  }\n});\n\n// Set table-layout to fixed to prevent resizing from affecting other cells\n$('table').css('table-layout', 'fixed');

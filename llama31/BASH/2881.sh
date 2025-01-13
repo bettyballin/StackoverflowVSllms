@@ -1,0 +1,1 @@
+su -c "/usr/bin/pg_dump -Fc mydatabase > /opt/postgresql/prevac.gz" - postgres

@@ -1,1 +1,0 @@
-$link = mysqli_connect('localhost', 'username', 'password', 'database', null, '/var/run/mysqld/mysqld.sock');\n   if (!$link) {\n       die('Could not connect: ' . mysqli_connect_error());\n   }

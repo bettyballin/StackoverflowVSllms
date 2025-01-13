@@ -1,0 +1,1 @@
+CREATE USER 'selectuser'@'localhost' IDENTIFIED BY PASSWORD(PASSWORD('your_password_string'));\nGRANT SELECT ON myDB.* TO 'selectuser'@'localhost';

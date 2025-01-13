@@ -1,0 +1,1 @@
+cd /usr/local/src/php-5.x.x/ext/gd\nphpize\n./configure --with-gd --with-jpeg-dir=/usr/local --with-png-dir=/usr/local --with-freetype-dir=/usr/local\nmake\nmake install

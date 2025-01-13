@@ -1,1 +1,0 @@
-CREATE INDEX idx_UserID ON MyPartitionedTable (UserID)\n    ON MyPartitionScheme(UserID);

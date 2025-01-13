@@ -1,0 +1,1 @@
+$clean_html = strip_tags($_POST['html']);

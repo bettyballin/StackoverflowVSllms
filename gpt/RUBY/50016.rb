@@ -1,1 +1,0 @@
-# app/models/user.rb\nclass User < ApplicationRecord\n  validates :email, presence: true, format: { with: URI::MailTo::EMAIL_REGEXP }\nend

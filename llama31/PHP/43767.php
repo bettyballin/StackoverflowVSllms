@@ -1,0 +1,1 @@
+$pattern = '/^https?:\/\/(?:www\.)?(?:[a-zA-Z0-9.-]+\.)?example\.com(?:\/[^\s]*)?$/';

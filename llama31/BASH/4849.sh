@@ -1,0 +1,1 @@
+@echo off\nset SERVERNAME=your_server_name\nset DATABASENAME=your_database_name\nset BACKUPFILE=your_backup_file.bak\n\nsqlcmd -S %SERVERNAME% -Q "BACKUP DATABASE [%DATABASENAME%] TO DISK='%BACKUPFILE%'"

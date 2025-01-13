@@ -1,0 +1,1 @@
+$db = new FlatFileDB('data.txt');\n$db->put('foo', 'bar');\necho $db->get('foo'); // Output: bar

@@ -1,0 +1,1 @@
+[assembly: ManifestResource("MyProject.FILES.File1.xml")]\n[assembly: ManifestResource("MyProject.FILES.File2.xml")]

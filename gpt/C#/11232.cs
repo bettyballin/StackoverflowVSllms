@@ -1,1 +1,0 @@
-[assembly: Guid("your-assembly-guid-here")]\n\n    [ComVisible(true)]\n    [Guid("your-interface-guid-here")]\n    public interface IYourInterface\n    {\n        // Your methods here\n    }\n\n    [ComVisible(true)]\n    [Guid("your-class-guid-here")]\n    public class YourClass : IYourInterface\n    {\n        // Implementation of the interface methods\n    }

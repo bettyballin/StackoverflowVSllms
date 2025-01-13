@@ -1,1 +1,0 @@
-public MainForm()\n{\n    InitializeComponent();\n    string appPath = @"C:\Path\To\Your\Application.exe";\n    EmbedProcess(appPath, this.panel1); // Assuming panel1 is the Panel control on your form\n}

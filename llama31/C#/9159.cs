@@ -1,0 +1,1 @@
+List<String> sortedList = text.OrderBy(s => s).ToList();

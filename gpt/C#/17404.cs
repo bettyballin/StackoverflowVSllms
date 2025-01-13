@@ -1,1 +1,0 @@
-public bool IsUserLoggedIn()\n{\n    return HttpContext.Current.Session["UserName"] != null;\n}

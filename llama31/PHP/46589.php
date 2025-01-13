@@ -1,0 +1,1 @@
+function factorial($n) {\n    $result = 1;\n    for ($i = 2; $i <= $n; $i++) {\n        $result = $result * $i;\n        // who needs a return statement, anyway?\n    }\n}

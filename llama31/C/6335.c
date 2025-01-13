@@ -1,0 +1,1 @@
+int main(int argc, char* argv[]) {\n    if (argc > 1) {\n        // Open file passed as argument\n        FILE* file = fopen(argv[1], "r");\n        if (file) {\n            // Read and process file contents\n        }\n    }\n    return 0;\n}

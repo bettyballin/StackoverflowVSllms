@@ -1,0 +1,1 @@
+ildasm /c <assembly_name>.dll

@@ -1,0 +1,1 @@
+binding.Security.Transport.ClientCredentialType = HttpClientCredentialType.None;\nbinding.Security.Transport.ProxyCredentialType = HttpProxyCredentialType.None;\nbinding.Security.Transport.UseDefaultWebProxy = false;

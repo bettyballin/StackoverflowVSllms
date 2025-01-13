@@ -1,0 +1,1 @@
+http_response_code(303);\nheader('Location: /other_page.php');

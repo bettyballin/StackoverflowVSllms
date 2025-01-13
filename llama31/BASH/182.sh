@@ -1,0 +1,1 @@
+#!/bin/csh -m\n\nnewgrp name\nsource /stuff/morestuff/stuffiwant\n( razor -c thread -f Keil1403 -g lib . -o && chmod +x * && ./rz_build* ) &\nset child_pid = $!\nwait $child_pid

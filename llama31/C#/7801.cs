@@ -1,0 +1,1 @@
+SqlCommand command = new SqlCommand("your_stored_procedure", connection);\ncommand.CommandTimeout = 300; // 5 minutes\ncommand.ExecuteNonQuery();

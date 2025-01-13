@@ -1,0 +1,1 @@
+.table-container {\n  display: grid;\n  grid-template-columns: 30% 70%;\n}\n\n.table-left, .table-right {\n  height: 100%;\n}

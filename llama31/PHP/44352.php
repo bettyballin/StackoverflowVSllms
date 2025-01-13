@@ -1,0 +1,1 @@
+$ch = curl_init();\ncurl_setopt($ch, CURLOPT_URL, 'https://www.example.com/link/sublink');\ncurl_setopt($ch, CURLOPT_RETURNTRANSFER, true);\ncurl_setopt($ch, CURLOPT_USERPWD, 'username:password');\ncurl_setopt($ch, CURLOPT_SSL_VERIFYPEER, false);\n$response = curl_exec($ch);\ncurl_close($ch);\n\necho $response;

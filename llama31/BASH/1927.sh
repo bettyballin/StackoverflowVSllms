@@ -1,0 +1,1 @@
+perl -C -p -e 's/\n/ /g; s/\002/\n/g' input_file > output_file

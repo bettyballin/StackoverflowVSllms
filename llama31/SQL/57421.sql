@@ -1,0 +1,1 @@
+CREATE TYPE LocationTableType AS TABLE (location_id INT);\nGO\n\nCREATE PROCEDURE GetApps\n    @locations LocationTableType READONLY\nAS\nBEGIN\n    SELECT DISTINCT name, location_id, application_id \n    FROM apps \n    WHERE location_id IN (SELECT location_id FROM @locations)\nEND\nGO

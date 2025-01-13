@@ -1,0 +1,1 @@
+<behaviors>\n  <serviceBehaviors>\n    <behavior name="CustomServiceBehavior">\n      <serviceAuthorization serviceAuthorizationManagerType="YourNamespace.CustomServiceAuthorizationManager, YourAssembly"/>\n    </behavior>\n  </serviceBehaviors>\n</behaviors>

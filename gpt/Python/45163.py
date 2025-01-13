@@ -1,1 +1,0 @@
-import sqlite3\n\nconnection = sqlite3.connect('database.db')\ncursor = connection.cursor()\nquery = "SELECT * FROM users WHERE username = ? AND password = ?"\ncursor.execute(query, (username, password))\nresult = cursor.fetchall()

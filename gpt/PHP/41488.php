@@ -1,1 +1,0 @@
-$mysqli->close(); // If using mysqli\n    $pdo = null; // If using PDO

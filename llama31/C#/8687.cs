@@ -1,0 +1,1 @@
+[ScriptableType]\npublic partial class Page : UserControl\n{\n    [ScriptableMember]\n    public void Start()\n    {\n        // implementation\n    }\n\n    [ScriptableMember]\n    public void Stop()\n    {\n        // implementation\n    }\n}

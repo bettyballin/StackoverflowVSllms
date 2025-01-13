@@ -1,1 +1,0 @@
-use Symfony\Component\Routing\Annotation\Route;\n\n/**\n * @Route("/your-route/{parameter_name}", name="route_name")\n */\npublic function yourAction($parameter_name)\n{\n    // Your action code\n}

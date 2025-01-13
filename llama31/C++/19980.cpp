@@ -1,0 +1,1 @@
+CAsyncSocket sock;\nsock.Create();\nsock.Connect("non-existent-host.com", 80); // Replace with a non-existent host

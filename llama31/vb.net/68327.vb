@@ -1,0 +1,1 @@
+Dim var1 As Integer\nDim var2 As String\nDim var3 As Boolea

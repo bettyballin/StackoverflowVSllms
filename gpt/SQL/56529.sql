@@ -1,1 +1,0 @@
-SELECT relname, relrowsecurity\n    FROM pg_class\n    WHERE relname = 'uvusers';

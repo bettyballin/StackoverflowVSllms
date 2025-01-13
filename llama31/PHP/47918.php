@@ -1,0 +1,1 @@
+// Fetch graph data from MySQL\n$mysqli = new mysqli("localhost", "username", "password", "database");\n$result = $mysqli->query("SELECT * FROM graph_data");\n\n$graph = new Graph($result->num_rows);\nwhile ($row = $result->fetch_assoc()) {\n    $graph->addEdge($row['node_id'], $row['neighbor_id'], $row['weight']);\n}

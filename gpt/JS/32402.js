@@ -1,1 +1,0 @@
-document.getElementById('injectScript').addEventListener('click', function() {\n  chrome.runtime.sendMessage({ action: 'injectScript' });\n});

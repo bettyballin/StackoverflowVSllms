@@ -1,1 +1,0 @@
-// Example of initializing a git repository inside your project folder\ncd /path/to/your/netbeans/project\ngit init\ngit add .\ngit commit -m "Initial commit"\n\n// Push to a remote repository (e.g., GitHub, GitLab)\ngit remote add origin https://github.com/yourusername/your-repo.git\ngit push -u origin master

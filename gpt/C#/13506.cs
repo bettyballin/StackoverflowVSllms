@@ -1,1 +1,0 @@
-// Assuming 'db' is your DataContext and 'newReview' is the review object to be inserted\nvar existingReview = db.Reviews.SingleOrDefault(r => r.UniqueID == newReview.UniqueID);\nif (existingReview == null)\n{\n    db.Reviews.InsertOnSubmit(newReview);\n    try\n    {\n        db.SubmitChanges();\n    }\n    catch (Exception ex)\n    {\n        // Handle exception\n    }\n}

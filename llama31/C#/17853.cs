@@ -1,0 +1,1 @@
+// You can use ASP.NET MVC on Windows Vista, Windows 7, or Windows Server 2008\n// with IIS 7 for full support\nusing System.Web.Mvc;\n\npublic class MyController : Controller\n{\n    public ActionResult Index()\n    {\n        return View();\n    }\n}

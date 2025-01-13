@@ -1,0 +1,1 @@
+$a = new SimpleXMLElement('<a/>');\n\n// Attribute value is automatically escaped\n$a->addAttribute('b', 'One & Two');\n\n// Text content must be manually escaped\n$a->addChild('c', 'Three &amp; Four');\n\n// Assignment of text content is automatically escaped\n$a->d = 'Five & Six';\n\nprint($a->asXML());

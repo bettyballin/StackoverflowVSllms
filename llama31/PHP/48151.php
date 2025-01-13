@@ -1,0 +1,1 @@
+$allowedTypes = array('image/jpeg', 'image/png', 'image/gif');\n$finfo = finfo_open(FILEINFO_MIME_TYPE);\n$mime = finfo_file($finfo, $_FILES['file']['tmp_name']);\nif (!in_array($mime, $allowedTypes)) {\n    // reject the file\n}

@@ -1,1 +1,0 @@
-// Read the file\nif (!($fp = @fopen($fileName, 'rb'))) {\n    $error = error_get_last();\n    $errStr = "Failed to open '{$fileName}' for read. Error: " . $error['message'];\n    error_log($errStr); // Log the error message\n    break; // try-block\n}

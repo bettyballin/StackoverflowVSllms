@@ -1,1 +1,0 @@
-CREATE VIEW CommonData AS\nSELECT columnA, columnB, columnC\nFROM Data;\n\nCREATE VIEW CommonDataArchive AS\nSELECT columnA, columnB, columnC\nFROM DataArchive;

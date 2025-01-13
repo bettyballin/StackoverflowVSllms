@@ -1,0 +1,1 @@
+# Run a test using the WebPageTest API\ncurl -X POST \\n  https://www.webpagetest.org/runtest.php \\n  -H 'Content-Type: application/x-www-form-urlencoded' \\n  -d 'url=https://example.com&runs=1&location=ec2-us-east-1&network=3G&f=json'

@@ -1,0 +1,1 @@
+#slideshow {\n  position: relative;\n  width: 300px; /* Adjust to your desired width */\n  height: 200px; /* Adjust to your desired height */\n}\n\n.slide {\n  position: absolute;\n  top: 0;\n  left: 0;\n  width: 100%;\n  height: 100%;\n  display: none;\n}\n\n.slide img {\n  width: 100%;\n  height: 100%;\n}

@@ -1,0 +1,1 @@
+saveCompressedHtmlFile("..\\index.html.gz", outputFile);

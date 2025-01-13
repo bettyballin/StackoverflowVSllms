@@ -1,1 +1,0 @@
-kernprof -l manage.py runserver

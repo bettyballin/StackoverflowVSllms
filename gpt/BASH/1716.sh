@@ -1,1 +1,0 @@
-java -XX:+UseG1GC -Xmx2g -jar your-application.jar

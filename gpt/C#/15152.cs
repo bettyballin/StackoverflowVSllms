@@ -1,1 +1,0 @@
-using System.Net;\n\nprotected void Application_Start()\n{\n    // Increase the default connection limit\n    ServicePointManager.DefaultConnectionLimit = 100;\n\n    // Other initialization code...\n}

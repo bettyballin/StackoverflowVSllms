@@ -1,0 +1,1 @@
+- New function: $().removeData() which removes data stored with .data() .

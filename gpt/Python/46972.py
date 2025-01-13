@@ -1,1 +1,0 @@
-import os\n\n# Set the FLAG environment variable\nos.environ['FLAG'] = 'done'

@@ -1,0 +1,1 @@
+// Example: Get the text from a window with a custom class\n#include <Windows.h>\n\nint main() {\n    HWND hWnd = FindWindowEx(NULL, NULL, "CustomClass", NULL);\n    if (hWnd) {\n        char buffer[256];\n        SendMessage(hWnd, WM_GETTEXT, 256, (LPARAM)buffer);\n        printf("%s\n", buffer);\n    }\n    return 0;\n}

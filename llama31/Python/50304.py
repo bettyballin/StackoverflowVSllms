@@ -1,0 +1,1 @@
+# my_script.py\nimport subprocess\n\n# Call a Java program using the API\njava_program = subprocess.Popen(['java', 'MyJavaProgram'])

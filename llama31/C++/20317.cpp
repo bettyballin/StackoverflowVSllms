@@ -1,0 +1,1 @@
+#include <Windows.h>\n#include <WinHttp.h>\n\nint main() {\n    WINHTTP_PROXY_INFO proxyInfo;\n    WinHttpGetProxyForUrl(NULL, "http://example.com", &proxyInfo);\n    if (proxyInfo.dwAccessType == WINHTTP_ACCESS_TYPE_NAMED_PROXY) {\n        printf("Proxy server: %s\n", proxyInfo.lpszProxy);\n    }\n    return 0;\n}

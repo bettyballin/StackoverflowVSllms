@@ -1,1 +1,0 @@
-# encoding: UTF-8\nrequire 'find'\n\ndirs = ["TestDir"]\n\nfor dir in dirs\n  Find.find(dir) do |path|\n    unless FileTest.directory?(path)\n      puts path.encode('UTF-8')\n    end\n  end\nend

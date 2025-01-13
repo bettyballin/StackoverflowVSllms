@@ -1,0 +1,1 @@
+import requests\nfrom bs4 import BeautifulSoup\n\ndef get_page_title(url):\n    try:\n        response = requests.get(url)\n        soup = BeautifulSoup(response.text, 'html.parser')\n        return soup.title.string\n    except Exception as e:\n        return None\n\nurl = "http://example.com"\ntitle = get_page_title(url)\nprint(title)

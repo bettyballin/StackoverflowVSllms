@@ -1,1 +1,0 @@
-0 3 * * * /usr/bin/sqlcmd -S localhost -U sa -P 'YourPassword' -Q "BACKUP DATABASE [YourDB] TO DISK = N'/var/backups/YourDB.bak' WITH NOFORMAT, NOINIT, NAME = 'YourDB-Full Database Backup', SKIP, NOREWIND, NOUNLOAD, STATS = 10"

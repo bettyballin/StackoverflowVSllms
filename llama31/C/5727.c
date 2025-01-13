@@ -1,0 +1,1 @@
+#define STRUCTMEMBER(Member, Value) \\n    *((int *)((char *)&GlobalStructInstance + offsetof(struct GlobalStructType, Member))) = Value

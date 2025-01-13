@@ -1,0 +1,1 @@
+.multicol {\n  -webkit-column-count: 3; /* Chrome, Safari, Opera */\n  -moz-column-count: 3; /* Firefox */\n  column-count: 3;\n}

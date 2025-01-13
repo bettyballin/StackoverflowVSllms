@@ -1,0 +1,1 @@
+<behaviors>\n  <serviceBehaviors>\n    <behavior name="SecureServiceBehavior">\n      <serviceCredentials>\n        <serviceCertificate findValue="YourCertificateSubjectName" storeLocation="LocalMachine" storeName="My" x509FindType="FindBySubjectName" />\n      </serviceCredentials>\n    </behavior>\n  </serviceBehaviors>\n</behaviors>

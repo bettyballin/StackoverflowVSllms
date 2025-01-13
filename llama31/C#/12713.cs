@@ -1,0 +1,1 @@
+using iTextSharp.text.pdf;\nusing iTextSharp.text.pdf.parser;\n\npublic string ExtractTextFromPdf(byte[] pdfBytes)\n{\n    using (var pdfReader = new PdfReader(pdfBytes))\n    {\n        var text = PdfTextExtractor.GetTextFromPage(pdfReader, 1);\n        return text;\n    }\n}

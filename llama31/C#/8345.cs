@@ -1,0 +1,1 @@
+double volume;\nif (double.TryParse(uxVolume.Text, out volume))\n{\n    // do something\n}

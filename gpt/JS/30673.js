@@ -1,1 +1,0 @@
-if (typeof(Sys) === 'undefined') {\n       document.write('<script src="https://ajax.aspnetcdn.com/ajax/3.5/MicrosoftAjax.js" type="text/javascript"><\/script>');\n       document.write('<script src="https://ajax.aspnetcdn.com/ajax/3.5/MicrosoftMvcAjax.js" type="text/javascript"><\/script>');\n   }

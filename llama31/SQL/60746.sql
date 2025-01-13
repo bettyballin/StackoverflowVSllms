@@ -1,0 +1,1 @@
+SELECT \n    u.ID,\n    u.Name,\n    STRING_AGG(c.Country, ', ') AS CountriesByName\nFROM \n    Users u\n    LEFT JOIN Countries c ON u.Countries LIKE '%,' + CONVERT(VARCHAR, c.ID) + ',%'\nGROUP BY \n    u.ID, u.Name

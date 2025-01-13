@@ -1,1 +1,0 @@
-string[] qs = ((string)(Request.QueryString["e"] ?? String.Empty))\n               .Split(new[] { '?' }, StringSplitOptions.RemoveEmptyEntries);

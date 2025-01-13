@@ -1,0 +1,1 @@
+$query = $_GET['query'];\n$sql = "SELECT * FROM search_index WHERE MATCH (text) AGAINST (:query IN BOOLEAN MODE)";\n$stmt = $pdo->prepare($sql);\n$stmt->bindParam(':query', $query);\n$stmt->execute();\n$results = $stmt->fetchAll();

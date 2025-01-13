@@ -1,0 +1,1 @@
+$my_id = $_REQUEST['my_id'] ?? '';\n$another_var = $_REQUEST['another_var'] ?? 42;

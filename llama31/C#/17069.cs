@@ -1,0 +1,1 @@
+using HtmlAgilityPack;\n\n// ...\n\nstring youtubeEmbedHtml = Request.Unvalidated.Form["youtubeEmbedHtml"];\nHtmlDocument doc = new HtmlDocument();\ndoc.LoadHtml(youtubeEmbedHtml);\nstring videoId = doc.DocumentNode.SelectSingleNode("//iframe/@src").GetAttributeValue("src", "");

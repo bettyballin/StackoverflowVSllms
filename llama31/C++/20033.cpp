@@ -1,0 +1,1 @@
+class MySurrogate : public ISurrogate {\npublic:\n    HRESULT LoadDllServer(\n        /* [in] */ BSTR bstrDllName\n    ) {\n        // Load your COM component and apply additional security checks\n        // e.g., check the caller's process ID, username, etc.\n        // Return S_OK if loaded successfully, E_ACCESSDENIED otherwise\n    }\n};

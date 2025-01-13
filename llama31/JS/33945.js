@@ -1,0 +1,1 @@
+// Example of a plugin making an XMLHttpRequest\nconst plugin = {\n  name: 'My Plugin',\n  description: 'Makes an XHR request',\n  run: function() {\n    const xhr = new XMLHttpRequest();\n    xhr.open('GET', 'https://example.com/api/data', true);\n    xhr.onload = function() {\n      console.log(xhr.responseText);\n    };\n    xhr.send();\n  }\n};

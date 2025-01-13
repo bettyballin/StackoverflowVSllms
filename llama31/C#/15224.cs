@@ -1,0 +1,1 @@
+// C#\npublic static class StringExtensions\n{\n    public static int WordCount(this string s)\n    {\n        return s.Split(' ').Length;\n    }\n}

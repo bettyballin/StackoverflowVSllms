@@ -1,1 +1,0 @@
-import cv2\nimport pytesseract\n\n# Load the image\nimage = cv2.imread('id_card.png')\n\n# Convert to grayscale\ngray = cv2.cvtColor(image, cv2.COLOR_BGR2GRAY)\n\n# Apply thresholding\n_, binary_image = cv2.threshold(gray, 150, 255, cv2.THRESH_BINARY)\n\n# Perform OCR\ntext = pytesseract.image_to_string(binary_image, config='--psm 6')\nprint(text)

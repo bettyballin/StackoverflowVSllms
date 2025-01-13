@@ -1,1 +1,0 @@
-composer require php-di/php-di

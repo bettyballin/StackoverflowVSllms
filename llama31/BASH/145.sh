@@ -1,0 +1,1 @@
+svn ls --no-auth-cache svn+ssh://myusername@myhost.com/path/to/svn_repository

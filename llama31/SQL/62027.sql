@@ -1,0 +1,1 @@
+CREATE EVENT SESSION [CaptureLinkedServerQueries] ON SERVER\nADD EVENT sql_batch_completed(\n    ACTION(client_app_name)\n    WHERE client_app_name = 'YourLinkedServerName'\n)\nADD TARGET package0.event_file(SET filename = N'C:\Temp\CaptureLinkedServerQueries.xel');

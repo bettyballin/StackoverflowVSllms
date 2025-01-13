@@ -1,0 +1,1 @@
+MenuItemAdder adder = new MenuItemAdder();\nadder.AddMenuItem();

@@ -1,0 +1,1 @@
+Private Sub Form_Load()\n    ' Enable/disable text boxes based on check box values\n    txtField1.Enabled = chkField1.Value\n    txtField2.Enabled = chkField2.Value\n    txtField3.Enabled = chkField3.Value\nEnd Sub

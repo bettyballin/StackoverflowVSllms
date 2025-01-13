@@ -1,1 +1,0 @@
-INSERT INTO destination (A, B, C)\nSELECT a1, b1, c1 \nFROM source\nWHERE (selectconditions)\nAND NOT EXISTS (\n    SELECT 1 FROM destination \n    WHERE destination.A = source.a1\n);

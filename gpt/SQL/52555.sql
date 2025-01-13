@@ -1,1 +1,0 @@
--- Sample update if the pivoted table shows that for ProductID = 1 and Year = 2020 you need to set SalesAmount to 5000\nDECLARE @ProductID INT = 1;\nDECLARE @Year INT = 2020;\nDECLARE @NewValue DECIMAL(18, 2) = 5000;\n\nUPDATE Sales\nSET SalesAmount = @NewValue\nWHERE ProductID = @ProductID AND Year = @Year;

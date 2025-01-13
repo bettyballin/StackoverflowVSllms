@@ -1,0 +1,1 @@
+BindingOperations.SetBinding(Cntrl, MyUserControl.TitleWidthProperty, \n    new Binding { ElementName = "titleCell", Path = new PropertyPath("ActualWidth"), Mode = BindingMode.OneWay });

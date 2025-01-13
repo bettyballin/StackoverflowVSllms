@@ -1,0 +1,1 @@
+openssl pkcs12 -export -in mycert.crt -inkey mykey.key -out combined.p12

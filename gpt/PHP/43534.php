@@ -1,1 +1,0 @@
-<?php\nvar_dump(5 == '5');  // true, because '5' is converted to 5\nvar_dump(0 == '');   // true, because '' is converted to 0\nvar_dump(false == '0'); // true, because '0' is converted to 0 and false is also considered as 0\n?>

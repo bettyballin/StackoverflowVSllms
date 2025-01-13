@@ -1,0 +1,1 @@
+# Create a new master repository\nmkdir master-repo\ncd master-repo\ngit init\n\n# Add existing repositories as submodules\ngit submodule add ~/code_projects/proj1 proj1\ngit submodule add ~/code_projects/proj2 proj2\n\n# Use git subtree to include the contents of each submodule\ngit subtree add --prefix=proj1 proj1 master\ngit subtree add --prefix=proj2 proj2 master

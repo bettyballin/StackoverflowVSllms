@@ -1,0 +1,1 @@
+#include <intrin.h>\n\nvoid myFunction() {\n    void* returnAddress = _ReturnAddress();\n    // Use the returnAddress as needed\n}

@@ -1,0 +1,1 @@
+SELECT DISTINCT c1.artOne \nFROM Compatible c1\nJOIN Compatible c2 ON c1.artOne = c2.artTwo\nWHERE c2.artOne IN ('A', 'B', ... , 'N');

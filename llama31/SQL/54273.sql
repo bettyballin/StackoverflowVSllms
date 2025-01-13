@@ -1,0 +1,1 @@
+EXEC AssertEqual 'dbo.GetFoo', 'X', 'Check If X';

@@ -1,1 +1,0 @@
-appcmd set site /site.name:"MySite" /+bindings.[protocol='http',bindingInformation='*:80:']

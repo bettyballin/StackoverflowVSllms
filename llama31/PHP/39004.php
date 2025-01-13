@@ -1,0 +1,1 @@
+if (bccomp($storedTotal, $calculatedTotal, 2) !== 0) {\n    # Send an alert\n    mail("admin@domain.com","Total check fail","Stored total:$storedTotal \n\n Calculated total:$calculatedTotal \n\n");\n}

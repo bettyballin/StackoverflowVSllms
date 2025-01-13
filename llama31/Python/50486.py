@@ -1,0 +1,1 @@
+class MyClass:\n    @staticmethod\n    def static_method():\n        print("This is a static method")\n\nMyClass.static_method()  # prints "This is a static method"

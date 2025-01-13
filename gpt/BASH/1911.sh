@@ -1,1 +1,0 @@
-# Example command to run IWYU\n   include-what-you-use -Xiwyu --mapping_file=path/to/mapping/file -Ipath/to/include file.cpp

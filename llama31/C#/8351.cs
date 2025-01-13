@@ -1,0 +1,1 @@
+int amount = -1234;\nstring formattedAmount = (amount < 0) ? "-$" + Math.Abs(amount).ToString("N2") : amount.ToString("C2");

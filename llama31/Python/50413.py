@@ -1,0 +1,1 @@
+import os\n\n# Set your password as an environment variable\n# (e.g., in your shell configuration file or using `export VARIABLE_NAME=password`)\n\n# Access the password in your script\npassword = os.environ['EMAIL_PASSWORD']

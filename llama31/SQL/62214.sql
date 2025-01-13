@@ -1,0 +1,1 @@
+SELECT id\nFROM (\n  SELECT id, @cumulative_sum:=@cumulative_sum + quantity AS cumulative_sum\n  FROM your_table, (SELECT @cumulative_sum:=0) AS init\n  ORDER BY id\n) AS subquery\nWHERE cumulative_sum >= 40\nLIMIT 1;

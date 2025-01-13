@@ -1,1 +1,0 @@
-composer require badoo/php2exe

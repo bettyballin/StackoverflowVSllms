@@ -1,1 +1,0 @@
-import mido\n\n   def process_midi_message(message):\n       print(f"Received message: {message}")\n       # Add your processing logic here\n\n   with mido.open_input('Your MIDI Device Name') as inport:\n       print("Listening for MIDI input...")\n       for message in inport:\n           process_midi_message(message)

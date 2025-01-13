@@ -1,1 +1,0 @@
-ssh username@url.com

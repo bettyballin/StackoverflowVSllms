@@ -1,1 +1,0 @@
-# Example of a cron job for automated backups\n    0 2 * * * /usr/bin/rsync -a /var/www/html /mnt/backup/

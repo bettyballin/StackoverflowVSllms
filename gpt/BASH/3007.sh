@@ -1,1 +1,0 @@
-openssl req -new -key newkey.pem -out newcert.csr

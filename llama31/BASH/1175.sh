@@ -1,0 +1,1 @@
+date -u +"%a %b %d %H:%M:%S %Y %Z%z"

@@ -1,1 +1,0 @@
-$tempDir = getenv('TEMP');\n$filePath = $tempDir . '\\myfile.txt';\nfile_put_contents($filePath, 'Your content here');

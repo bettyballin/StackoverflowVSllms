@@ -1,0 +1,1 @@
+// Example using AesManaged in C#\nusing System.Security.Cryptography;\nusing System.IO;\n\n// ...\n\nAesManaged aes = new AesManaged();\naes.Key = YourSecretKey; // store this securely, see below\naes.IV = YourInitializationVector; // store this securely, see below\n\n// Encrypt your game data files using aes

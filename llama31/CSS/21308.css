@@ -1,0 +1,1 @@
+.grid {\n  border-collapse: collapse;\n  width: 100%;\n}\n\n.grid th, .grid td {\n  border: 1px solid #ddd;\n  padding: 10px;\n  text-align: left;\n}\n\n.grid th {\n  background-color: #f0f0f0;\n}\n\n.grid tbody tr:nth-child(even) {\n  background-color: #f9f9f9;\n}\n\n.grid tbody tr:hover {\n  background-color: #ddd;\n}

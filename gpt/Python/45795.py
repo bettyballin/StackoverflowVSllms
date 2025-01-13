@@ -1,1 +1,0 @@
-from flask import Flask, request, redirect, url_for, session\nfrom flask_session import Session\nimport uuid\n\napp = Flask(__name__)\napp.secret_key = 'super_secret_key'  # Change to a secure random key\napp.config['SESSION_TYPE'] = 'filesystem'\nSession(app)

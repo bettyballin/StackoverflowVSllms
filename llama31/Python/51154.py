@@ -1,0 +1,1 @@
+def classmethod_compat(func):\n    def wrapper(*args, **kwargs):\n        if args:\n            cls = args[0].__class__\n        else:\n            cls = kwargs.get('cls')\n        return func(cls, *args[1:], **kwargs)\n    return wrapper\n\nclass sic:\n    def f(cls):\n        print cls.__name__\n    f = classmethod_compat(f)\n\nsic().f()  # prints: sic\nsic.f()    # prints: sic

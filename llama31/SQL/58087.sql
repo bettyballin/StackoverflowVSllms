@@ -1,0 +1,1 @@
+INSERT INTO ParentChildRelationships (TypeAId, ParentId_INT, ParentType) \nVALUES (1, 123, 'TypeB');\n\nINSERT INTO ParentChildRelationships (TypeAId, ParentId_STRING, ParentType) \nVALUES (2, 'abc', 'TypeC');

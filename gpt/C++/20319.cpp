@@ -1,1 +1,0 @@
-// mydll.cpp\n#include "mydll.h"\n\nvoid MyFunction() {\n    // Your code here\n}

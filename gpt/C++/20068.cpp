@@ -1,1 +1,0 @@
-// MFCApp.cpp\n#include "pch.h"\n#include "framework.h"\n#include "MyLibrary.h"\n\nvoid CMFCApp::SomeFunction() {\n    FunctionForBoth();\n}

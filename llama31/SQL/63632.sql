@@ -1,0 +1,1 @@
+SELECT *\nFROM your_table\nWHERE date_column = DATE_ADD(date_column, INTERVAL 1 DAY) + INTERVAL (WEEKDAY(date_column) >= 4) DAY;

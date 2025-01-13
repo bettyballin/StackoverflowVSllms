@@ -1,0 +1,1 @@
+function build_url(form) {\n  var person_ids = [];\n  $$('input:checked', form).each(function(checkbox) {\n    person_ids.push(checkbox.value);\n  });\n  return '/people/disable/' + person_ids.join(',');\n}

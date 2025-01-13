@@ -1,1 +1,0 @@
-from bs4 import BeautifulSoup\nimport requests\n\n# Fetch the HTML content\nurl = 'http://example.com'\nresponse = requests.get(url)\nhtml_content = response.text\n\n# Parse the HTML\nsoup = BeautifulSoup(html_content, 'html.parser')\n\n# Extract all links\nlinks = soup.find_all('a', href=True)\n\n# Print the links\nfor link in links:\n    print(link['href'])

@@ -1,1 +1,0 @@
-Private Sub Form1_FormClosing(sender As Object, e As FormClosingEventArgs) Handles MyBase.FormClosing\n    My.Settings.Save()\nEnd Sub

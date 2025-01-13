@@ -1,0 +1,1 @@
+IISHelper.RecycleApplicationPool("MyAppPool");

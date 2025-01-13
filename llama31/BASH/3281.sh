@@ -1,0 +1,1 @@
+for prefix in {a..z}{0..9}; do\n  for suffix in {0..9}{a..z}; do\n    echo "$prefix""hello""$suffix"\n  done\ndone > wordlist.txt

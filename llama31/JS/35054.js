@@ -1,0 +1,1 @@
+var oDocument = new ActiveXObject("MSXML2.DOMDocument");\noDocument.loadXML("<root day='12' month='05' year='2022'/>");\n\nvar result = oDocument.evaluate("concat(@day, '-', @month, '-', @year)");\nWScript.Echo(result);

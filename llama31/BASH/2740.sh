@@ -1,0 +1,1 @@
+meld --ignore-columns=10-16 file1.txt file2.txt

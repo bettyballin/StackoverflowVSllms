@@ -1,0 +1,1 @@
+function changeColor(link) {\n    link.style.color = 'red'; // or any other color you want\n}

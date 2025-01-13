@@ -1,0 +1,1 @@
+class MyClass {\n    public function __call($method, $args) {\n        // Call the method\n    }\n}\n\n$obj = new MyClass();\n$method = 'myMethod';\n$args = array('arg1', 'arg2');\n\n$obj->$method($args[0], $args[1]);

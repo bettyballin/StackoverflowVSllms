@@ -1,0 +1,1 @@
+my_dict = {'a': 1, 'b': 2, 'c': 3}\nkeys_list = list(my_dict.keys())\nprint(keys_list)  # Output: ['a', 'b', 'c']

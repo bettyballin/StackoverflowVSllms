@@ -1,1 +1,0 @@
-# Assuming the process ID (PID) is 1234\n   sudo criu dump -t 1234 -D /tmp/checkpoint --shell-job

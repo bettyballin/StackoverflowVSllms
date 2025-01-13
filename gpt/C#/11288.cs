@@ -1,1 +1,0 @@
-using (var context = new YourDataContext())\n{\n    var result = context.OuterProc().ToList();\n    // Process the result as needed\n}

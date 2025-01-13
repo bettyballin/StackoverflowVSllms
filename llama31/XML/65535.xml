@@ -1,0 +1,1 @@
+<!-- Maven -->\n<dependency>\n  <groupId>org.apache.velocity</groupId>\n  <artifactId>velocity</artifactId>\n  <version>1.7</version>\n</dependency>\n\n<!-- Gradle -->\ndependencies {\n  implementation 'org.apache.velocity:velocity:1.7'\n}

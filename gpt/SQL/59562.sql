@@ -1,1 +1,0 @@
-CREATE PROCEDURE GetUserDetails(IN userId INT)\n    BEGIN\n        SELECT * FROM sometable WHERE iUser = userId;\n    END;

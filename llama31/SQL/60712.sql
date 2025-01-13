@@ -1,0 +1,1 @@
+CREATE OR REPLACE PROCEDURE my_procedure AS LANGUAGE JAVA\nNAME 'MyJavaClass.myMethod()'\nCLASSPATH '<schema_name>.<jar_file_name>';

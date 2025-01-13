@@ -1,1 +1,0 @@
-SELECT CAST(ROUND(your_column, 2) AS DECIMAL(10, 2)) AS RoundedValue\n   FROM your_table

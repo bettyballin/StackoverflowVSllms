@@ -1,0 +1,1 @@
+if (myDataSet.HasChanges())\n{\n    // Changes have been made, show confirmation dialog\n}

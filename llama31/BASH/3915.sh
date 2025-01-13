@@ -1,0 +1,1 @@
+aspnet_regiis -pef "appSettings" "C:\Path\To\Your\Web.Config"

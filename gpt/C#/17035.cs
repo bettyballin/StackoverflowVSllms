@@ -1,1 +1,0 @@
-protected void DropDownList1_SelectedIndexChanged(object sender, EventArgs e)\n{\n    ScriptManager.RegisterStartupScript(this, GetType(), "updateValidator", "updateValidator();", true);\n}

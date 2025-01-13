@@ -1,0 +1,1 @@
+-- Implicit join\nSELECT c.name, o.product\nFROM customer c, order o\nWHERE c.id = o.cust_id\nAND o.value = 150\n\n-- Explicit join\nSELECT c.name, o.product\nFROM customer c\nINNER JOIN order o ON c.id = o.cust_id\nWHERE o.value = 150

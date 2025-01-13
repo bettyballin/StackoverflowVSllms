@@ -1,0 +1,1 @@
+// Compile with: gcc -fexceptions -fdwarf2-cfi-asm -o example example.c\n\n#include <stdio.h>\n#include <stdlib.h>\n\nint main() {\n    try {\n        // Code that might throw an exception\n        int *p = NULL;\n        *p = 1;\n    } catch (const char *e) {\n        printf("Caught exception: %s\n", e);\n        return 1;\n    }\n\n    return 0;\n}

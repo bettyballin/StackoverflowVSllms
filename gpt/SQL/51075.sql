@@ -1,1 +1,0 @@
-CREATE FUNCTION dbo.MyFunction\n(\n    @paramInt INT = NULL,\n    @paramStr NVARCHAR(50) = NULL\n)\nRETURNS NVARCHAR(50)\nAS\nBEGIN\n    IF @paramInt IS NOT NULL\n    BEGIN\n        RETURN CAST(@paramInt * 2 AS NVARCHAR(50))\n    END\n\n    IF @paramStr IS NOT NULL\n    BEGIN\n        RETURN @paramStr + ' overloaded'\n    END\n\n    RETURN 'Invalid parameters'\nEND\nGO

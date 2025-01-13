@@ -1,0 +1,1 @@
+document.getElementById('container').innerHTML = ajaxResponse;\nsetTimeout(function() {\n  document.getElementById('dest').value = document.getElementById('source').value;\n}, 0);

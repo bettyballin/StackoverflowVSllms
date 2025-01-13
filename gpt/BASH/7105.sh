@@ -1,1 +1,0 @@
-git checkout -b my-feature-branch\n   git add .\n   git commit -m "Fix for issue #123"\n   git push origin my-feature-branch

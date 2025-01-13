@@ -1,0 +1,1 @@
+string directoryPath = @"C:\Example\Directory";\n\nvar recentlyModifiedFiles = Directory.EnumerateFiles(directoryPath)\n    .Where(file => (DateTime.Now - File.GetLastWriteTime(file)).TotalMinutes <= 10)\n    .ToList();\n\nforeach (var file in recentlyModifiedFiles)\n{\n    Console.WriteLine(file);\n}

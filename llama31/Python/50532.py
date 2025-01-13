@@ -1,0 +1,1 @@
+import sys\nsys.path.insert(0, '/path/to/eggs')

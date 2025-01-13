@@ -1,1 +1,0 @@
-itor = m_ResourceMap.erase(itor);

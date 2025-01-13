@@ -1,1 +1,0 @@
-WITH RECURSIVE category_cte AS (\n    SELECT id, name, parent_id, 1 AS level\n    FROM categories\n    WHERE parent_id IS NULL\n    UNION ALL\n    SELECT c.id, c.name, c.parent_id, cte.level + 1\n    FROM categories c\n    JOIN category_cte cte ON c.parent_id = cte.id\n)\nSELECT * FROM category_cte;

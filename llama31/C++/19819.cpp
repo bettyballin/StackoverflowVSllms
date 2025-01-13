@@ -1,0 +1,1 @@
+#include <Windows.h>\n#include <iostream>\n\nint main() {\n    char driveLetter[] = "A:\\";\n    char volumeInfo[MAX_PATH];\n\n    GetVolumeInformation(driveLetter, volumeInfo, MAX_PATH, NULL, NULL, NULL, NULL, 0);\n\n    std::cout << "Device name for drive " << driveLetter[0] << ": " << volumeInfo << std::endl;\n\n    return 0;\n}

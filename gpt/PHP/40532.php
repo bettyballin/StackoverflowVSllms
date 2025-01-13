@@ -1,1 +1,0 @@
-function readCSV($file) {\n    $handle = fopen($file, 'r');\n    if ($handle === false) {\n        return;\n    }\n    while (($row = fgetcsv($handle, 1000, ",")) !== false) {\n        yield $row;\n    }\n    fclose($handle);\n}

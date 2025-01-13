@@ -1,0 +1,1 @@
+def find_random_point(x1, y1, x2, y2):\n    m = (y2 - y1) / (x2 - x1)\n    x3 = random.randint(min(x1, x2), max(x1, x2))\n    y3 = int(m * (x3 - x1) + y1)\n    return x3, y3\n\n# Example usage:\nx1, y1 = 1952805748, 0\nx2, y2 = 7, 142\nx3, y3 = find_random_point(x1, y1, x2, y2)\nprint(f"Random point: ({x3}, {y3})")

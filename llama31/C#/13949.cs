@@ -1,0 +1,1 @@
+private void flowLayoutPanel1_Resize(object sender, EventArgs e)\n{\n    // Resize child controls here...\n\n    // Force the FlowLayoutPanel to recalculate its layout\n    flowLayoutPanel1.PerformLayout();\n}

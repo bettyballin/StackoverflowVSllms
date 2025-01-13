@@ -1,0 +1,1 @@
+$start_date = new DateTime('2007-03-24');\n$end_date = new DateTime('2009-06-26');\n\n$interval = $start_date->diff($end_date);\n\n$years = $interval->format('%Y');\n$months = $interval->format('%M');\n$days = $interval->format('%D');\n\necho "$years years, $months months and $days days";

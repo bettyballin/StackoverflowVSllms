@@ -1,0 +1,1 @@
+taskList.find("option").eq(taskIndex).prop("selected", true);

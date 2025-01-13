@@ -1,0 +1,1 @@
+// Simple caching example using ASP.NET Cache\nDataSet searchResults = GetSearchResults(query);\nCache["SearchResults"] = searchResults;

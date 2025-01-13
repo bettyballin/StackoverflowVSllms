@@ -1,1 +1,0 @@
-SELECT \n    id,\n    title,\n    hits,\n    created,\n    (hits / GREATEST(DATEDIFF(NOW(), created), 1)) AS avg_hits_per_day\nFROM \n    entries\nWHERE \n    is_published = 1\nORDER BY \n    avg_hits_per_day DESC, \n    hits DESC, \n    created DESC\nLIMIT 10;

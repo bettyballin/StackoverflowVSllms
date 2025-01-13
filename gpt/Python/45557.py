@@ -1,1 +1,0 @@
-{\n    'prefix': 'test!~test@test.com',\n    'command': 'PRIVMSG',\n    'params': ['#channel', 'Hi!']\n}

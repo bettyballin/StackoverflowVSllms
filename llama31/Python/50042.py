@@ -1,0 +1,1 @@
+import itertools\nfrom django.db.models import Q\n\nq_list = [Q(xyz__isnull=True), Q(x__startswith='x')]\n\n# Use itertools.chain to concatenate the Q objects\nq_filter = itertools.chain.from_iterable(q_list)\n\n# Use the resulting Q object in your filter\nModel.objects.filter(*q_filter)

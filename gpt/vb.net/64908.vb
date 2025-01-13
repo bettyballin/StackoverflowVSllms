@@ -1,1 +1,0 @@
-Public Class Example\n        Public Property Name As String\n        Public Function GetAge() As Integer\n            ' Explicit return type\n        End Function\n    End Class

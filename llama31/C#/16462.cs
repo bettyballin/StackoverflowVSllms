@@ -1,0 +1,1 @@
+using MbUnit.Framework;\n\n[TestFixture]\npublic class MyTests\n{\n    [Test]\n    public void TestSomething()\n    {\n        Assert.IsTrue(true, "This should always pass.");\n    }\n}

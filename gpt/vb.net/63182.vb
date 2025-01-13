@@ -1,1 +1,0 @@
-Imports Acme.Business\n\nPublic Class MainModule\n    Sub Main()\n        Dim x As New User()\n        ' Use the User class\n    End Sub\nEnd Class

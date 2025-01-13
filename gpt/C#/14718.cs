@@ -1,1 +1,0 @@
-using System;\nusing PdfiumViewer;\n\nclass Program\n{\n    static void Main()\n    {\n        using (var document = PdfDocument.Load(@"C:\path\to\your\file.pdf"))\n        {\n            using (var printDocument = document.CreatePrintDocument())\n            {\n                printDocument.Print();\n            }\n        }\n    }\n}

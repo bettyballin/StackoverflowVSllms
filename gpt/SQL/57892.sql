@@ -1,1 +1,0 @@
--- Ensure indexes exist\nCREATE INDEX idx_event_time ON A(event_time);\nCREATE INDEX idx_start_time ON B(start_time);\nCREATE INDEX idx_end_time ON B(end_time);\n\n-- Optimized query\nSELECT A.id, B.id\nFROM A\nJOIN B ON A.event_time BETWEEN B.start_time AND B.end_time;

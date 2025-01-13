@@ -1,0 +1,1 @@
+[HttpGet]\npublic JsonResult Autocomplete(string term)\n{\n    using (var db = new YourDbContext())\n    {\n        var results = db.YourTable\n            .Where(t => t.YourColumn.Contains(term))\n            .Select(t => new { label = t.YourColumn, value = t.YourColumn })\n            .ToList();\n\n        return Json(results, JsonRequestBehavior.AllowGet);\n    }\n}

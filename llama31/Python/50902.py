@@ -1,0 +1,1 @@
+import boto3\n\n# Use Amazon S3 or similar services for scalable storage\ns3 = boto3.client('s3')\ns3.upload_file('example.txt', 'my-bucket', 'example.txt')

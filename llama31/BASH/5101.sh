@@ -1,0 +1,1 @@
+@echo off\nphp command.php %*

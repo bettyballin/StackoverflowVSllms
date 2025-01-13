@@ -1,0 +1,1 @@
+$(document).ready(function() {\n  $('#example-field').on('focus', function() {\n    if ($(this).val() === 'Example text') {\n      $(this).val('');\n      $(this).addClass('focused');\n    }\n  });\n\n  $('#example-field').on('blur', function() {\n    if ($(this).val() === '') {\n      $(this).val('Example text');\n      $(this).removeClass('focused');\n    }\n  });\n});

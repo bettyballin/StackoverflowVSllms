@@ -1,1 +1,0 @@
-procdump -ma -s 5 -n 3 <PID>

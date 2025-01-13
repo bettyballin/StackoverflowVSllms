@@ -1,0 +1,1 @@
+var dest = doc.Elements().FirstOrDefault(e => (string)e.Attribute("id") == "ID1");

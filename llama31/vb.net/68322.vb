@@ -1,0 +1,1 @@
+Imports Castle.DynamicProxy\n\nPublic Class InterfaceProxy\n    Public Shared Function CreateProxy(Of T)(target As Object) As T\n        Dim generator = New ProxyGenerator()\n        Dim proxy = generator.CreateClassProxyWithTarget(Of T)(target)\n        Return proxy\n    End Function\nEnd Class

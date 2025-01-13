@@ -1,0 +1,1 @@
+string processName = "myprocess";\nfloat cpuUsagePercent = CpuUsage.GetCpuUsagePercent(processName);\nConsole.WriteLine($"CPU usage for {processName}: {cpuUsagePercent}%");

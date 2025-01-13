@@ -1,1 +1,0 @@
-const PurgeCSS = require('purgecss')\n\n    const purgeCSSResults = new PurgeCSS().purge({\n      content: ['**/*.html', '**/*.tpl'],\n      css: ['**/*.css']\n    })\n\n    console.log(purgeCSSResults)

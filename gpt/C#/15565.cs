@@ -1,1 +1,0 @@
-using System;\nusing System.Globalization;\n\nclass Program\n{\n    static void Main()\n    {\n        string dateString = "April,1,2009";\n        DateTime date = DateTime.ParseExact(dateString, "MMMM,d,yyyy", CultureInfo.InvariantCulture);\n\n        string formattedDate = date.ToString("M/d/yyyy");\n        Console.WriteLine(formattedDate); // Output: 4/1/2009\n    }\n}

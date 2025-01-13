@@ -1,1 +1,0 @@
-<?php\n// Define a DEBUG constant\ndefine('DEBUG', true);\n\nfunction someFoo() {\n    // Your function logic here\n    return "example string";\n}\n\n$returnedStr = someFoo();\n\nif (DEBUG) {\n    // Debugging code\n    error_log("returned string = " . $returnedStr);\n}\n?>

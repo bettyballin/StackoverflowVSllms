@@ -1,1 +1,0 @@
-class Obj:\n    def __str__(self):\n        return 'name'\n\nlist_of_objects = [Obj(), Obj(), Obj()]\nresult = ', '.join(str(obj) for obj in list_of_objects)\nprint(result)  # Output: 'name, name, name'

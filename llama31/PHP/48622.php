@@ -1,0 +1,1 @@
+class MyORM {\n    private $pdo;\n    private $data;\n\n    public function __serialize(): object {\n        return (object) ['data' => $this->data];\n    }\n}

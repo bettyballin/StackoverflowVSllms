@@ -1,1 +1,0 @@
-mysql_query("\n    SELECT * FROM `picdb`\n    WHERE `username` = '$username'\n    ORDER BY `picid` DESC\n    LIMIT $start, $count\n");

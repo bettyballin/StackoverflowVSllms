@@ -1,1 +1,0 @@
-using VistaDB.Provider;\n\n   string connString = "Data Source=MyDatabase.vdb5;";\n   using (VistaDBConnection conn = new VistaDBConnection(connString))\n   {\n       conn.Open();\n       // Perform database operations\n   }

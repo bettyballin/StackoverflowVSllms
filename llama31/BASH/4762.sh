@@ -1,0 +1,1 @@
+git diff --output="diff_report.pdf" --pdf folder1 folder2

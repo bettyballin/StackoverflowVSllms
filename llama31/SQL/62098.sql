@@ -1,0 +1,1 @@
+CREATE TABLE form_data (\n  data JSON\n);

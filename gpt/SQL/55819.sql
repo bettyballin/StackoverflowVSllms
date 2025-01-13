@@ -1,1 +1,0 @@
-CREATE TABLE [dbo].[YourTable](\n    [Id] [int] IDENTITY(1,1) NOT NULL,\n    [Name] [nvarchar](50) NULL,\n    [DateCreated] [datetime] NULL,\n CONSTRAINT [PK_YourTable] PRIMARY KEY CLUSTERED \n(\n    [Id] ASC\n)\n)

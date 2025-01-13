@@ -1,0 +1,1 @@
+public int getCurrentClientID()\n{\n    return (int)(Session["ClientID"]);\n}

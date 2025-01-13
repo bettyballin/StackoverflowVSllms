@@ -1,1 +1,0 @@
-std::vector<int> copyVecFast2(std::vector<int>& original)\n   {\n     std::vector<int> newVec;\n     newVec.swap(original);\n     return newVec;\n   }

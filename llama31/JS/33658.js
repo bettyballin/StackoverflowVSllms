@@ -1,0 +1,1 @@
+function isXmlHttpRequestSupported() {\n    try {\n        return !!new XMLHttpRequest();\n    } catch (e) {\n        return false;\n    }\n}

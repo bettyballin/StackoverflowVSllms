@@ -1,0 +1,1 @@
+using OfficeOpenXml;\n\n// Create a new Excel package\nusing (var package = new ExcelPackage())\n{\n    // Add a new worksheet\n    var worksheet = package.Workbook.Worksheets.Add("Sheet1");\n\n    // Add data to the worksheet\n    worksheet.Cells["A1"].Value = "Hello, World!";\n\n    // Save the package to a file\n    package.SaveAs(new FileInfo("example.xlsx"));\n}

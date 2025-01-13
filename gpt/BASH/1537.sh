@@ -1,1 +1,0 @@
-ps aux | grep php | grep -v grep | awk '{print $2, $4, $5, $6, $11}'

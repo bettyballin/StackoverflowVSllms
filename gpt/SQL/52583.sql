@@ -1,1 +1,0 @@
-CREATE PROCEDURE GetUserById\n    @UserId INT\n    AS\n    BEGIN\n        SELECT * FROM Users WHERE UserId = @UserId\n    END

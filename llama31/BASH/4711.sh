@@ -1,0 +1,1 @@
+ulimit -t 30\nbzip2 file

@@ -1,1 +1,0 @@
-/usr/bin/time -v valgrind --tool=massif ./your_program

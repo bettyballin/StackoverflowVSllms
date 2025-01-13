@@ -1,0 +1,1 @@
+icacls C:\Path\To\Database.mdb /grant:r "NETWORK SERVICE":RW

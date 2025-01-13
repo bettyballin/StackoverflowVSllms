@@ -1,0 +1,1 @@
+// In your Windows service\nusing System.Security.Principal;\n\n// Deserialize the token bytes back to a WindowsIdentity token\nWindowsIdentityToken token = new WindowsIdentityToken(tokenBytes);\n\n// Impersonate the user\nusing (token.Impersonate())\n{\n    // Execute the method under the impersonated user's context\n    DoSomethingAsUser();\n}

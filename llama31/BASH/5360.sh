@@ -1,0 +1,1 @@
+# Checkout the repository\nsvn checkout https://your-svn-server.com/your-repo-name/trunk your-local-dir\n\n# Update your local copy\nsvn update\n\n# Commit changes\nsvn commit -m "Your commit message"

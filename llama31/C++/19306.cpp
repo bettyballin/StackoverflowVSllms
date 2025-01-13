@@ -1,0 +1,1 @@
+#include <Windows.h>\n\nint main() {\n    SYSTEM_LOGICAL_PROCESSOR_INFORMATION info;\n    DWORD bufsize = sizeof(info);\n    GetLogicalProcessorInformation(&info, &bufsize);\n    DWORD cache_line_size = info.CacheLineSize;\n    return 0;\n}

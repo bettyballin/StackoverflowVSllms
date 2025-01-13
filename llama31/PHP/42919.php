@@ -1,0 +1,1 @@
+// Example sanitization using htmlspecialchars()\n$userInput = htmlspecialchars($_GET['user_input'], ENT_QUOTES, 'UTF-8');

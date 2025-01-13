@@ -1,1 +1,0 @@
-<?php\n$encoded_string = "dev%40bionic%2Dcomms%2Eco%2Euk";\n$decoded_string = urldecode($encoded_string);\necho $decoded_string;\n?>

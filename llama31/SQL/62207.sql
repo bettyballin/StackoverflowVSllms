@@ -1,0 +1,1 @@
+CREATE TABLE ProductAttributes (\n    AttributeId INT IDENTITY(1,1) PRIMARY KEY,\n    ProductId INT NOT NULL,\n    AttributeName NVARCHAR(50) NOT NULL,\n    AttributeValue NVARCHAR(255) NOT NULL\n);

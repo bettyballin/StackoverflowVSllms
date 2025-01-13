@@ -1,0 +1,1 @@
+#menu, #submenu {\n  height: 50px;\n}\n\n#top {\n  height: calc(60% - 50px);\n}\n\n#bottom {\n  height: 40%;\n}

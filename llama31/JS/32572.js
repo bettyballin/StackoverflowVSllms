@@ -1,0 +1,1 @@
+$.ajax({\n    type: 'GET',\n    url: "http://www.remote-url.com",\n    dataType: 'html',\n    crossDomain: true,\n    success: function(data) {\n        $('#put_here').empty().append(data);\n    }\n});

@@ -1,1 +1,0 @@
-// File1.c\nstatic int staticVar = 10;  // Static variable with internal linkage\nint globalVar = 20;         // Global variable with external linkage\n\nvoid func() {\n    static int localStaticVar = 30;  // Static variable with block scope\n    globalVar++;\n}\n\n// File2.c\nextern int globalVar;\n\nvoid anotherFunc() {\n    globalVar++;\n}

@@ -1,0 +1,1 @@
+try {\n    require_once('abc.php');\n} catch (Throwable $e) {\n    die("oops");\n}

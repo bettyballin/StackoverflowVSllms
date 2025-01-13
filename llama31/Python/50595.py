@@ -1,0 +1,1 @@
+def createDirectory(myKey, **kwargs):\n    path_list = [kwargs['subKey1'], kwargs['subKey2'].lstrip('0'), kwargs['subKey3']]\n    my_path = os.path.join(*path_list)\n    os.makedirs(my_path)\n    return my_path\n\nmy_dict = {'subKey1': 'value1', 'subKey2': 'value2', 'subKey3': 'value3'}\nmy_key = 'my_key'\n\ncreateDirectory(my_key, **my_dict)

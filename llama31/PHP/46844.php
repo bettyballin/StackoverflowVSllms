@@ -1,0 +1,1 @@
+class Car {\n    public $color;\n    public $model;\n\n    function __construct($color, $model) {\n        $this->color = $color;\n        $this->model = $model;\n    }\n\n    function honk() {\n        echo "Beep beep!";\n    }\n}

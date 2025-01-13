@@ -1,1 +1,0 @@
-use Doctrine\ORM\Mapping as ORM;\n\n   /**\n    * @ORM\Entity\n    * @ORM\Table(name="users")\n    */\n   class User {\n       /** @ORM\Id @ORM\Column(type="integer") @ORM\GeneratedValue */\n       private $id;\n       /** @ORM\Column(type="string") */\n       private $name;\n       // Other properties and methods here\n   }

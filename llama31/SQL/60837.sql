@@ -1,0 +1,1 @@
+SUBSTRING((DT_WSTR, 20) [YourDateTimeColumn], 12, 8)

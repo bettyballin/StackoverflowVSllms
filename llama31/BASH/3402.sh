@@ -1,0 +1,1 @@
+C:\php\pear.bat install PEAR

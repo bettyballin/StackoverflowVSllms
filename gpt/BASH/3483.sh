@@ -1,1 +1,0 @@
-svn import /path/to/your/project http://your-svn-server/path/to/repo/trunk -m "Initial import of the project"

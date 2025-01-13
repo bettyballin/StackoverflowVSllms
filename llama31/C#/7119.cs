@@ -1,0 +1,1 @@
+ultraCombo1.Editor.SelectAll();

@@ -1,1 +1,0 @@
-#include <windows.h>\n\nint main()\n{\n    // Your code here\n\n    // Use TerminateProcess as a last resort\n    TerminateProcess(GetCurrentProcess(), 0);\n\n    return 0; // This will not be reached\n}

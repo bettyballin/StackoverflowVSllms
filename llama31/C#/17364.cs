@@ -1,0 +1,1 @@
+CarSet carSet = new CarSet();\nCarTable carTable = new CarTable("MyTable");\ncarSet.Tables.Add(carTable);\n\nCarColumn carColumn = new CarColumn("MyColumn");\ncarTable.Columns.Add(carColumn);\n\ncarColumn.Foo = "Hello";\ncarTable.Bar = "World";\n\nConsole.WriteLine(carSet.Tables[0].Columns[0].Foo); // Outputs: Hello\nConsole.WriteLine(carSet.Tables[0].Bar); // Outputs: World

@@ -1,1 +1,0 @@
-dir %WINDIR%\Microsoft.NET\Framework

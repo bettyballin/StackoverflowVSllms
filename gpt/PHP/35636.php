@@ -1,1 +1,0 @@
-session_start();\n\n// Save friend list in session\n$_SESSION["friend_list_$user_id"] = getFriendListFromDB($user_id);\n\n// Fetch friend list from session\n$friend_list = $_SESSION["friend_list_$user_id"];

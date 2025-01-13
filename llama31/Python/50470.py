@@ -1,0 +1,1 @@
+# myapp/templatetags/html_helpers.py\nfrom django import template\nfrom django.urls import reverse\n\nregister = template.Library()\n\n@register.simple_tag(takes_context=True)\ndef link_to(context, view_name, text):\n    url = reverse(view_name)\n    return f'<a href="{url}">{text}</a>'

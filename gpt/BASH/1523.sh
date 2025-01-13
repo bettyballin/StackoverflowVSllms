@@ -1,1 +1,0 @@
-$CC -o server server.c\n$CC -o client client.c

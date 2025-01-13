@@ -1,0 +1,1 @@
+CALL generate_numbers(5);

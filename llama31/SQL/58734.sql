@@ -1,0 +1,1 @@
+INSERT INTO destTable\nSELECT *\nFROM srcTable\nEXCEPT\nSELECT *\nFROM destTable;

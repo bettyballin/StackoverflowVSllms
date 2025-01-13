@@ -1,0 +1,1 @@
+$foo = $this->input->post('myParam', TRUE);\nif ($foo === NULL) {\n    // myParam is not present in the $_POST request\n} else {\n    // myParam is present in the $_POST request\n}

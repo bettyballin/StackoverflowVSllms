@@ -1,1 +1,0 @@
-cd C:\Windows\SysWOW64\n      regsvr32 path\to\your\comobject.dll

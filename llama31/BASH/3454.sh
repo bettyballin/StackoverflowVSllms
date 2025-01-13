@@ -1,0 +1,1 @@
+openssl ca -cert newcert.pem -ss_cert newcert.pem -dir myCA

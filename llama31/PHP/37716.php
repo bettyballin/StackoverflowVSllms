@@ -1,0 +1,1 @@
+setcookie('logged_in', 'true', time() + 3600, '/', '.domain.com');

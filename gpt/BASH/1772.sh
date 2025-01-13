@@ -1,1 +1,0 @@
-sudo apt-get install php-oci8

@@ -1,1 +1,0 @@
-sudo udevadm control --reload-rules\n   sudo udevadm trigger

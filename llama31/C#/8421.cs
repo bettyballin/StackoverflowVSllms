@@ -1,0 +1,1 @@
+using System.IO;\nusing System.Reflection;\n\n// ...\n\nAssembly assembly = Assembly.GetExecutingAssembly();\nStream xmlStream = assembly.GetManifestResourceStream("MyProject.FILES.File1.xml");\n\n// Use the stream to read the XML file\nusing (XmlReader reader = XmlReader.Create(xmlStream))\n{\n    // ...\n}

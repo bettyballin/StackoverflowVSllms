@@ -1,1 +1,0 @@
-Dim ee = From e In someXML.<Employee>\n         Select Surname = .Surname = e.<Surname>, .Forename = e.<Forename>

@@ -1,0 +1,1 @@
+SELECT p.id, p.name, GROUP_CONCAT(s.name SEPARATOR ',') AS site_list\n  FROM publications p\n  LEFT JOIN sites s ON p.site_id = s.id\n GROUP BY p.id, p.name

@@ -1,0 +1,1 @@
+SELECT `users`.`first_name`, `users`.`last_name`, `users`.`email`,\nSUBSTRING(`locations`.`raw`,-6,4) AS `guaranteed_postcode`\nFROM `users` LEFT OUTER JOIN `locations`\nON `users`.`id` = `locations`.`user_id`\nHAVING `guaranteed_postcode` NOT IN (\n  SELECT `postcode` FROM `postcodes` WHERE `region` IN ('australia')\n)

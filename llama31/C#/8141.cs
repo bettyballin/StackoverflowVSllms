@@ -1,0 +1,1 @@
+using NPOI.HSSF.UserModel;\nusing NPOI.SS.UserModel;\n\n// Load the Excel file\nvar workbook = new HSSFWorkbook("path/to/excel/file.xls");\nvar sheet = workbook.GetSheetAt(0);\n\n// Evaluate a formula\nvar formulaEvaluator = new HSSFFormulaEvaluator(workbook);\nvar result = formulaEvaluator.Evaluate(sheet.GetRow(0).GetCell(0));\nConsole.WriteLine(result);

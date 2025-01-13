@@ -1,1 +1,0 @@
-cscript %SystemDrive%\inetpub\adminscripts\adsutil.vbs set W3SVC/AppPools/Enable32bitAppOnWin64 1

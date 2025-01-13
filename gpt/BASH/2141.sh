@@ -1,1 +1,0 @@
-xcopy c:\www\project1_backup\* c:\www\project1 /E /H /K /O /X

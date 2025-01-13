@@ -1,0 +1,1 @@
+#!/bin/sh\n\nPLACEHOLDER_1='string 1'\nPLACEHOLDER_2='multiline\nstring\n2'\n\nm4 -D PLACEHOLDER_1="$PLACEHOLDER_1" -D PLACEHOLDER_2="$PLACEHOLDER_2" output.template > output.txt

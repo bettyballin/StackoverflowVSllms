@@ -1,1 +1,0 @@
-long device_ioctl(struct file *file, unsigned int cmd, unsigned long arg) {\n    // Your ioctl handling code here\n    return 0;\n}

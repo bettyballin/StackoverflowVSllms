@@ -1,1 +1,0 @@
-.autocomplete_CompletionListElement {\n    margin: 0px;\n    background-color: White;\n    cursor: default;\n    overflow-y: auto;\n    overflow-x: hidden;\n    max-height: 180px; /* Maximum height for the dropdown */\n    text-align: left;\n    border: 1px solid #777;\n    z-index: 10000;\n}

@@ -1,1 +1,0 @@
-USE personal;\n\. /users/cs/SO_db/posts.sql

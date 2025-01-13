@@ -1,0 +1,1 @@
+-- Example using Flyway\nCREATE TABLE migrations (\n  version VARCHAR(50) PRIMARY KEY,\n  description VARCHAR(200),\n  script VARCHAR(200),\n  checksum INT\n);\n\n-- Create a migration script\nINSERT INTO migrations (version, description, script, checksum)\nVALUES ('001', 'Create users table', 'CREATE TABLE users (id INT PRIMARY KEY, name VARCHAR(50))', 123456);

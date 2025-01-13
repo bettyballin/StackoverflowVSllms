@@ -1,1 +1,0 @@
-$user = sfContext::getInstance()->getUser();\n$petCriteria = new Criteria();\n$petCriteria->add(PetInfoPeer::ACCOUNT_ID, $user->getProfile()->getAccountId());\n$petCriteria->add(LostPetPeer::PET_INFO_ID, null, Criteria::ISNULL);\n$petCriteria->addJoin(PetInfoPeer::PET_INFO_ID, LostPetPeer::PET_INFO_ID, Criteria::LEFT_JOIN);

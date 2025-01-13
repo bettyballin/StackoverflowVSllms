@@ -1,0 +1,1 @@
+./gcc-4.1-wrapper.sh your_app.c -o your_app

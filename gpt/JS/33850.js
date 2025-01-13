@@ -1,1 +1,0 @@
-$("#submitButton").click(function(event) {\n    event.preventDefault(); // Prevent the default form submission\n    var formData = $("form").serialize();\n    $.post("YourServerSidePage.aspx", formData, function(response) {\n        // Handle the response from the server if needed\n    });\n});

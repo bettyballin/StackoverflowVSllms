@@ -1,0 +1,1 @@
+awk '/regexp/{print ""}1' file.txt

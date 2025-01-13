@@ -1,0 +1,1 @@
+<PRQT>\n    <SMIT6321>lastName + cardNumber.Substring(cardNumber.Length - 4)</SMIT6321>\n    <!-- Other PRQT fields -->\n</PRQT>

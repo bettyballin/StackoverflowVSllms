@@ -1,1 +1,0 @@
-START TRANSACTION;\n\n-- Insert a new group\nINSERT INTO groups (group_name) VALUES ('New Group');\n\n-- Get the last inserted ID (the primary key of the new group)\nSET @group_id = LAST_INSERT_ID();\n\n-- Insert a new user and associate it with the group\nINSERT INTO users (username, group_id) VALUES ('new_user', @group_id);\n\nCOMMIT;

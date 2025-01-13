@@ -1,0 +1,1 @@
+parameter.Value = (myValue == null) ? DBNull.Value : myValue;

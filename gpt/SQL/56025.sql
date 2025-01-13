@@ -1,1 +1,0 @@
-SELECT column_name,\n            ROW_NUMBER() OVER (ORDER BY column_name) AS row_num\n     FROM table_name;

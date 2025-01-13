@@ -1,0 +1,1 @@
+jconsole -s output.log

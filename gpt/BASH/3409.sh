@@ -1,1 +1,0 @@
-devenv.com /useenv %NEWSOLFILE% /CLEAN %BUILDCONFIG% /OUT %OUTLOGFILE% /customCommandLineArg > nul

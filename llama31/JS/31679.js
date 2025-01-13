@@ -1,0 +1,1 @@
+$(function() {\n  $("#dialog").dialog({\n    autoOpen: false // don't open the dialog automatically\n  });\n\n  $("#create-user").click(function() {\n    $("#dialog").dialog("open"); // open the dialog on click\n  });\n});

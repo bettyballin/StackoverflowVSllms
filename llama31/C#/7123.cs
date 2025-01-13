@@ -1,0 +1,1 @@
+class Program\n{\n    static void Main(string[] args)\n    {\n        using (var writer = new ConsoleLogFileWriter("log.txt"))\n        {\n            Console.SetOut(writer);\n            Console.WriteLine("Hello, world!");\n        }\n    }\n}

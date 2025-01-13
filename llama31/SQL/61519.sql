@@ -1,0 +1,1 @@
+ALTER SYSTEM SET shared_buffers TO '4GB';\nALTER SYSTEM SET effective_cache_size TO '8GB';\nALTER SYSTEM SET work_mem TO '16MB';\nALTER SYSTEM SET maintenance_work_mem TO '64MB';

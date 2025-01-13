@@ -1,0 +1,1 @@
+pg_dumpall > backup_file.sql

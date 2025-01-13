@@ -1,1 +1,0 @@
-SET SERVEROUTPUT ON;\nDECLARE\n  rc SYS_REFCURSOR;\n  emp_rec employees%ROWTYPE;\nBEGIN\n  rc := get_employees;\n\n  LOOP\n    FETCH rc INTO emp_rec;\n    EXIT WHEN rc%NOTFOUND;\n    DBMS_OUTPUT.PUT_LINE('Employee ID: ' || emp_rec.employee_id || ', Name: ' || emp_rec.first_name || ' ' || emp_rec.last_name);\n  END LOOP;\n\n  CLOSE rc;\nEND;\n/

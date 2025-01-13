@@ -1,0 +1,1 @@
+CREATE INDEX idx_blobCol_not_null ON your_table (CASE WHEN blobCol IS NOT NULL THEN 1 ELSE 0 END);

@@ -1,0 +1,1 @@
+public class BaseClass\n{\n    public virtual void Method()\n    {\n        Console.WriteLine("Base class method");\n    }\n}\n\npublic class DerivedClass : BaseClass\n{\n    public override void Method()\n    {\n        Console.WriteLine("Derived class method");\n    }\n}

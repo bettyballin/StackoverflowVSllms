@@ -1,0 +1,1 @@
+SELECT pg_get_serial_sequence('your_table_name', 'id');

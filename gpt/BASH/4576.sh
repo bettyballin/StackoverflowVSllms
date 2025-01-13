@@ -1,1 +1,0 @@
-sudo chown -R apache:webusers uploads/

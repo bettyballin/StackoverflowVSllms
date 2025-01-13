@@ -1,0 +1,1 @@
+public class PhoneNumber\n{\n    public int Id { get; set; }\n    public int ContactId { get; set; }\n    public string PhoneNumber { get; set; }\n    public string Description { get; set; }\n}\n\npublic class Contact\n{\n    public int Id { get; set; }\n    // ...\n    public ICollection<PhoneNumber> PhoneNumbers { get; set; }\n}

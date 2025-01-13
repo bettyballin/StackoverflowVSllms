@@ -1,1 +1,0 @@
-# Example using tar and gzip to archive files\n   tar -czvf archive_2023_01_01.tar.gz /path/to/2023/01/01/*

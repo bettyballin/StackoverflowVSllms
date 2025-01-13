@@ -1,0 +1,1 @@
+# Enable the proxy and proxy_http modules\nsudo a2enmod proxy proxy_http\n\n# Create a new configuration file for the proxy\nsudo nano /etc/apache2/conf.d/proxy.conf\n\n# Add the following configuratio

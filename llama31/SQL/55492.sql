@@ -1,0 +1,1 @@
+USE master;\nGO\nGRANT CONTROL ON DATABASE::[DatabaseName] TO [SecurityAdminUsername];\nGO

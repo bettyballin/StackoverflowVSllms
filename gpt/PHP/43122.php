@@ -1,1 +1,0 @@
-<?= $yourVariableHere ?>\n    <?php foreach ($employee_info as $employee): ?>\n    <?= $employee['name'] ?>\n    <?php endforeach; ?>

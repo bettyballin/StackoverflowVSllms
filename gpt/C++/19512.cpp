@@ -1,1 +1,0 @@
-class CDatabaseArchive {\n   public:\n       CDatabaseArchive(SQLDatabaseConnection& dbConnection);\n       void Serialize(CObject& obj);\n       void Deserialize(CObject& obj);\n\n   private:\n       SQLDatabaseConnection& m_dbConnection;\n   };

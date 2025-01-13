@@ -1,1 +1,0 @@
-/etc/init.d/boa restart

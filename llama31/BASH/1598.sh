@@ -1,0 +1,1 @@
+# Encrypt file on Linux\nopenssl enc -aes-256-cbc -in input_file -out encrypted_file -pass pass:my_secret_password\n\n# Decrypt file on Linux\nopenssl enc -d -aes-256-cbc -in encrypted_file -out decrypted_file -pass pass:my_secret_password

@@ -1,0 +1,1 @@
+Public Sub RenderPage(ByVal PlaceHolder As PlaceHolder)\n    ' ...\n    Dim val As New RequiredFieldValidator\n    ' ...\n    PlaceHolder.Controls.Add(val)\n\n    Dim scriptManager As ScriptManager = ScriptManager.GetCurrent(Page)\n    scriptManager.RegisterStartupScript(Page, GetType(Page), "ValidationScript", "Page_ClientValidate();", True)\nEnd Sub

@@ -1,0 +1,1 @@
+SELECT sid, serial#, sql_id\nFROM V$SESSION\nWHERE username = 'username';\n\nSELECT sql_id\nFROM V$SQL\nWHERE sql_text LIKE '%query_text%';

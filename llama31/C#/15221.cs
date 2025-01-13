@@ -1,0 +1,1 @@
+protected void btnRemove_Click(object sender, EventArgs e) {\n    ZipCode zip = selectedZipCodes.Find(z => z.Zip == gridView2.SelectedValue.ToString());\n    if (zip != null) {\n        zip.IsDeleted = true;\n    }\n    gridView2.DataSource = selectedZipCodes;\n    gridView2.DataBind();\n}

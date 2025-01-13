@@ -1,1 +1,0 @@
-from django.contrib.auth.models import AbstractUser\n\n   class CustomUser(AbstractUser):\n       roles = models.ManyToManyField('Role')\n\n   class Role(models.Model):\n       name = models.CharField(max_length=255)

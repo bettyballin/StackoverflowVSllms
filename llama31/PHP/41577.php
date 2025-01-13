@@ -1,0 +1,1 @@
+// Example TDD test\npublic function testUserLogin()\n{\n    $user = new User();\n    $user->login('john.doe@example.com', 'password123');\n    $this->assertTrue($user->isLoggedIn());\n}

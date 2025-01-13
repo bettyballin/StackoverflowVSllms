@@ -1,0 +1,1 @@
+@echo off\nregsvr32 /u Amazing.dll\nregsvr32 Amazing.dll

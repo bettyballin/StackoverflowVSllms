@@ -1,1 +1,0 @@
-# Example for copying web-dev.config to web.config\ncopy /Y "$(ProjectDir)web-dev.config" "$(ProjectDir)web.config"

@@ -1,0 +1,1 @@
+editbin /LARGEADDRESSAWARE your_executable.exe

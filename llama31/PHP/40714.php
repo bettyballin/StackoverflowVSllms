@@ -1,0 +1,1 @@
+$username = $_POST['username'];\n$password = $_POST['password'];\n\nif (authenticate($username, $password)) {\n    $response = array('success' => true, 'redirect' => 'myaccount');\n} else {\n    $response = array('success' => false, 'message' => 'Wrong username and/or password');\n}\n\nheader('Content-Type: application/json');\necho json_encode($response);

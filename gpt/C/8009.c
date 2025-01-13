@@ -1,1 +1,0 @@
-int userInput = atoi(input);\n   if (userInput > MAX_VALUE) {\n       // handle error\n   }

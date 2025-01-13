@@ -1,1 +1,0 @@
-[\n    object,\n    uuid(12345678-1234-1234-1234-1234567890AB),\n    pointer_default(unique)\n]\ninterface IMyEvent : IUnknown\n{\n    HRESULT OnEventComplete();\n};

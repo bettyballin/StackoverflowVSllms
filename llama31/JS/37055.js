@@ -1,0 +1,1 @@
+var myArray = [2, 4];\nvar form = $('#myForm');\n\n$.each(myArray, function(index, value) {\n  $('<input>').attr({\n    type: 'hidden',\n    name: 'id',\n    value: value\n  }).appendTo(form);\n});

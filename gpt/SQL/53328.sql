@@ -1,1 +1,0 @@
-SELECT meta.*, data.body \n    FROM sub_posts_meta AS meta\n    JOIN sub_posts_data AS data ON meta.id = data.id\n    WHERE MATCH(data.body) AGAINST ('search-term');

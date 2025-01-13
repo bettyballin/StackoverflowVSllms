@@ -1,1 +1,0 @@
-SELECT 'TF7-User-Demo-ScheduledRestore-03' AS DBCatalog, COUNT(*) AS CNT\nFROM [TF7-User-Demo-ScheduledRestore-03].[dbo].[LinkedDocumentFolderTable]\nWHERE IsUnmanagedFolder = 1\n\nUNION ALL\n\nSELECT 'TF7-TestDatabase-ScheduledRestore' AS DBCatalog, COUNT(*) AS CNT\nFROM [TF7-TestDatabase-ScheduledRestore].[dbo].[LinkedDocumentFolderTable]\nWHERE IsUnmanagedFolder = 1

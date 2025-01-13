@@ -1,1 +1,0 @@
-class AccountController {\n    public function editFriends() {\n        echo 'edit your friends list';\n    }\n}

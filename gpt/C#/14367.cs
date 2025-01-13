@@ -1,1 +1,0 @@
-public ActionResult UpdateForm()\n{\n    // Perform necessary operations, e.g., processing form submission\n\n    // Clear the ModelState to ensure the form fields do not retain previous values\n    ModelState.Clear();\n\n    // Return the updated view\n    return PartialView("YourPartialView", new YourViewModel());\n}

@@ -1,1 +1,0 @@
-<?php\n$name = $_POST["user"];\n$pwd = $_POST["pwd"];\n\n$pdo = new PDO('mysql:host=host;dbname=database', 'username', 'password');\n$pdo->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);\n\n$query = $pdo->prepare("SELECT name, pwd FROM users WHERE name = :name AND pwd = :pwd");\n$query->bindParam(':name', $name);\n$query->bindParam(':pwd', $pwd);\n$query->execute();\n?>

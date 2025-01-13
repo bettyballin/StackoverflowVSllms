@@ -1,1 +1,0 @@
-while (odbc_fetch_row($result)) {\n    $row = [];\n    for ($i = 1; $i <= odbc_num_fields($result); $i++) {\n        $row[] = odbc_result($result, $i);\n    }\n    // Insert into MySQL using Zend Framework\n    $counter++;\n}\necho $counter;

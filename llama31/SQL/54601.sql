@@ -1,0 +1,1 @@
+SELECT e.*\nFROM entry e\nJOIN entry-locations el ON e.id = el.entry-id\nWHERE el.location = 'France';

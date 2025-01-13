@@ -1,0 +1,1 @@
+formatter = HtmlFormatter(full=True)

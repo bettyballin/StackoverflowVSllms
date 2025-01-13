@@ -1,0 +1,1 @@
+interface IMyInterface : IUnknown\n{\n  [id(0x00000001)]\n  HRESULT _stdcall MyMethod([in, MarshalAs(UnmanagedType.LPStr)] string param1, \n                            [in, MarshalAs(UnmanagedType.LPStr)] string param2);\n}

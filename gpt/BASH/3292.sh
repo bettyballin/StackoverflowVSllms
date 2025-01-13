@@ -1,1 +1,0 @@
--- On the server, check the alert log for your Oracle instance\n-- Location may vary; common location is $ORACLE_BASE/diag/rdbms/<dbname>/<instance>/trace/alert_<instance>.log\ntail -f $ORACLE_BASE/diag/rdbms/<dbname>/<instance>/trace/alert_<instance>.log

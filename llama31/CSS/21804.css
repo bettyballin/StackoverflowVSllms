@@ -1,0 +1,1 @@
+::selection {\n    background-color: #your-color;\n    color: #your-text-color;\n}\n\n::-moz-selection {\n    background-color: #your-color;\n    color: #your-text-color;\n}\n\n::-ms-selection {\n    background-color: #your-color;\n    color: #your-text-color;\n}

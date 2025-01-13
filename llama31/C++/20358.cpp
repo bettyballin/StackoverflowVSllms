@@ -1,0 +1,1 @@
+IUnitModelPtr pIUnit = createUnitModel(modelType);\nif (pIUnit != NULL) {\n    // call method 1\n    // call method 2\n}

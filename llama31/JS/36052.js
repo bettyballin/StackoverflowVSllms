@@ -1,0 +1,1 @@
+const pkcs11 = require('pkcs11');\n\n// Initialize the PKCS#11 module\nconst module = new pkcs11.PKCS11Module();\n\n// Define the slot and token\nconst slot = 0;\nconst token = module.getSlotToken(slot);\n\n// Perform a cryptographic operation (e.g., sign a challenge)\nconst challenge = 'Hello, World!';\nconst signature = token.sign(challenge, 'sha256');

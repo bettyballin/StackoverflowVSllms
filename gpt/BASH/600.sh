@@ -1,1 +1,0 @@
-perl Build.PL\n./Build html

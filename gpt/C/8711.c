@@ -1,1 +1,0 @@
-#define ARRAY_LEN 4\n\nlong targetArray[ARRAY_LEN];\nread(socketFD, targetArray, sizeof(long) * ARRAY_LEN);

@@ -1,1 +1,0 @@
-iisreset /stop\ntaskkill /F /IM iisexpress.exe\ndel /s /q %userprofile%\Documents\IISExpress\config\*\niisreset /start

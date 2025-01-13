@@ -1,0 +1,1 @@
+var orders = dc.Orders\n    .Select(o => new { o.OrderID, o.Product.ProductName })\n    .ToList();

@@ -1,0 +1,1 @@
+$("li[id^='outer']").each(function(){\n    alert("Outer");\n});\n\n$("li[id^='sub']").each(function(){\n    alert("Sub");\n});

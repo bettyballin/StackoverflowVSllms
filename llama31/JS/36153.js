@@ -1,0 +1,1 @@
+if (window.navigator.userAgent.indexOf('KHTML') !== -1 && document.documentElement.style.getPropertyValue('display') === 'block') {\n  // browser is in quirks mode ( WebKit-based browsers)\n}

@@ -1,1 +1,0 @@
-Shoes.app do\n  @ball = oval(left: 0, top: 0, radius: 10)\n  @animation = animate(24) do\n    @ball.left += 10\n    toggle if @ball.left > self.width\n  end\n\n  def toggle\n    if @animation.started?\n      @animation.stop\n    else\n      @animation.start\n    end\n  end\nend

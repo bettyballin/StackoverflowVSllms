@@ -1,0 +1,1 @@
+.DataList .row {\n    display: inline-block;\n    width: calc(33.33% - 10px); /* adjust the width and margin as needed */\n    margin: 5px;\n}\n\n.DataList .row:nth-child(3n+1) {\n    clear: left;\n}

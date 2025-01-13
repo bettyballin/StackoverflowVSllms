@@ -1,0 +1,1 @@
+var node = session.Query<Node>()\n    .Fetch(n => n.Parent)\n    .FirstOrDefault();

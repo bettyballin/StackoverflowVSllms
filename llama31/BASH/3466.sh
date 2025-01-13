@@ -1,0 +1,1 @@
+selenium-side-runner -c "/path/to/your/testcase.side"

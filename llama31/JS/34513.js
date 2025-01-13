@@ -1,0 +1,1 @@
+var editor = monaco.editor.create(document.getElementById("editor"), {\n  value: "",\n  language: "css",\n  theme: "vs-dark"\n});

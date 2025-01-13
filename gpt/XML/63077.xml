@@ -1,1 +1,0 @@
-<deployment>\n  <deploymentProvider codebase="http://application.ourdomain.test/testapp/YourApp.application" />\n  <!-- other settings -->\n</deployment>

@@ -1,0 +1,1 @@
+import re\ntext = re.sub(r'[^\w\s]', '', text)

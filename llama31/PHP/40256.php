@@ -1,0 +1,1 @@
+// DashboardController.php\nclass DashboardController extends Controller {\n    public function index() {\n        // Toggle code based on user type (e.g., admin, account)\n        // Render the dashboard view accordingly\n    }\n}

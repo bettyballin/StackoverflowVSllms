@@ -1,0 +1,1 @@
+# Set the dump type to 1 (full dump)\nSet-ItemProperty -Path "HKLM:\SOFTWARE\Microsoft\Windows\Windows Error Reporting\LocalDumps" -Name "DumpType" -Type DWord -Value 1

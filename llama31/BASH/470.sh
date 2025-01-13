@@ -1,0 +1,1 @@
+# Create a JMeter test plan\njmeter -n -t my_test_plan.jmx -l results.jtl\n\n# Run the test plan with 100 concurrent users\njmeter -n -t my_test_plan.jmx -l results.jtl -Jusers=100\n\n# Analyze the results\njmeter -g results.jtl -o output.html

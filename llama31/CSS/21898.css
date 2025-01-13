@@ -1,0 +1,1 @@
+.image-container {\n  position: relative;\n}\n\n.overlay {\n  position: absolute;\n  bottom: 0;\n  left: 0;\n  width: 100%;\n  background-color: rgba(255, 255, 255, 0.5); /* transparent background */\n  padding: 10px;\n  font-size: 16px;\n  color: #333;\n}

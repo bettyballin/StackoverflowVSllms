@@ -1,0 +1,1 @@
+using System.Security.Cryptography.X509Certificates;\n\nX509Store store = new X509Store(StoreName.My, StoreLocation.SmartCard);\nstore.Open(OpenFlags.ReadOnly);\n\nforeach (X509Certificate2 cert in store.Certificates)\n{\n    // Use the certificate\n}\n\nstore.Close();

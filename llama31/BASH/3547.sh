@@ -1,0 +1,1 @@
+php2exe -o output_binary your_php_script.php

@@ -1,1 +1,0 @@
-sn -R yourAssembly.exe MyKeyPair.snk

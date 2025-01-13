@@ -1,1 +1,0 @@
-SELECT \n    objtype AS [CacheType],\n    usecounts AS [UseCounts],\n    sql AS [SQLText]\nFROM \n    syscacheobjects\nWHERE \n    objtype = 'Proc' \n    AND sql LIKE '%YourStoredProcedureName%'

@@ -1,0 +1,1 @@
+var customers = data.Customers\n    .Where(c => SqlFunctions.PatIndex(term + "%", c.EmailDomain) == 1);

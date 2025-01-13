@@ -1,0 +1,1 @@
+// Preload CSS file\npreload('styles.css', { as: 'style' });\n\n// Preload JavaScript file\npreload('script.js', { as: 'script' });

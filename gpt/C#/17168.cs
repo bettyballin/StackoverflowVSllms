@@ -1,1 +1,0 @@
-// Example of using ILMerge in a command-line script\nstring[] args = new string[] { "/out:mergedApp.exe", "MyApp.exe", "Dependency1.dll", "Dependency2.dll" };\nILMerge ilMerge = new ILMerge();\nilMerge.Main(args);

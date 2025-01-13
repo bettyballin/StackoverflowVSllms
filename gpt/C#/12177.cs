@@ -1,1 +1,0 @@
-[assembly: SecurityPermission(SecurityAction.RequestMinimum, UnmanagedCode = true)]

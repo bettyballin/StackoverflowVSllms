@@ -1,1 +1,0 @@
-# Django settings.py\n   INSTALLED_APPS = [\n       ...\n       'django.contrib.auth',\n       'django.contrib.contenttypes',\n       'django.contrib.sessions',\n       'django.contrib.sites',\n       ...\n   ]

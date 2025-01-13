@@ -1,1 +1,0 @@
-$html = '<div class="articleTitle">Your title here</div>'; // Example HTML content\n$pattern = '/<div class="articleTitle">\s*(.*?)\s*<\/div>/s';\n\nif (preg_match($pattern, $html, $matches)) {\n    echo $matches[1]; // This will output: Your title here\n} else {\n    echo 'No match found';\n}

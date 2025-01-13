@@ -1,0 +1,1 @@
+xvfb-run java your_app.jar

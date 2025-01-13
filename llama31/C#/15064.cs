@@ -1,0 +1,1 @@
+DateTimePicker datePicker = new DateTimePicker();\nPanel panel = new Panel { BackColor = Color.FromArgb(255, 255, 0) }; // Yellow\n\ndatePicker.Parent = panel;\ndatePicker.BackColor = Color.Transparent;

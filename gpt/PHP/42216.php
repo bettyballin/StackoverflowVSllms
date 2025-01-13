@@ -1,1 +1,0 @@
-<?php\necho password_hash('your_password', PASSWORD_BCRYPT);\n?>

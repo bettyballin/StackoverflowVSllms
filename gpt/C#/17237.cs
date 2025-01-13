@@ -1,1 +1,0 @@
-using (var connection = new SqlConnection("YourConnectionString"))\n{\n    var myEntities = connection.Query<MyEntity>("SELECT * FROM MyEntities").ToList();\n}

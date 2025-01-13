@@ -1,1 +1,0 @@
-public tbl_cpc GetCpcById(int cpcID)\n{\n    using (var context = new YourDbContext())\n    {\n        return context.tbl_cpc.SingleOrDefault(c => c.cpcID == cpcID);\n    }\n}

@@ -1,0 +1,1 @@
+.outer {\n  background-color: red;\n  padding: 1px; /* or overflow: auto; or border: 1px solid transparent; */\n}\n\n.inner {\n  margin: 20px;\n  background-color: blue;\n}

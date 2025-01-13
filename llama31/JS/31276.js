@@ -1,0 +1,1 @@
+console.log(document.getElementById('lp_2')); // Should return the element\nconsole.log($('#lp_2').html()); // Should return the HTML content of the element

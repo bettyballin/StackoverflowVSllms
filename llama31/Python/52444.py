@@ -1,0 +1,1 @@
+from pyproj import Proj, transform\n\n# Define the input projection (ESRI 102690)\ninp = Proj(init='esri:102690')\n\n# Define the output projection (WGS84 lat-lng)\noutp = Proj(init='epsg:4326')\n\n# Sample points\nsx = 13304147.06410000000\nsy = 288651.94040000000\n\n# Transform the points\nx2, y2 = transform(inp, outp, sx, sy)\n\nprint(x2, y2)

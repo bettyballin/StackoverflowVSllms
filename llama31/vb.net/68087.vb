@@ -1,0 +1,1 @@
+[MyClass.vb]\nPublic Shared Function MYFunction() as String\n  'Execute some sql statements here, using the DataAccess\n  stringToReturn = Ctype(da.ExecuteScalar("SQLCommand", DataAccess.ConnectionString), String)\n  Return stringToReturn\nEnd Functio

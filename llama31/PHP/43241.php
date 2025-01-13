@@ -1,0 +1,1 @@
+$email = filter_var($_POST['email'], FILTER_VALIDATE_EMAIL);\nif ($email === false) {\n    // handle invalid email\n}

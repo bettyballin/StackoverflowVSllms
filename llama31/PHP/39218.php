@@ -1,0 +1,1 @@
+class A extends B {\n    $a = new B\n}

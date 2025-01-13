@@ -1,0 +1,1 @@
+using DocX;\n\npublic partial class Form1 : Form\n{\n    public Form1()\n    {\n        InitializeComponent();\n    }\n\n    private void button1_Click(object sender, EventArgs e)\n    {\n        using (DocX document = DocX.Load("path/to/document.docx"))\n        {\n            richTextBox1.Text = document.Text;\n        }\n    }\n}

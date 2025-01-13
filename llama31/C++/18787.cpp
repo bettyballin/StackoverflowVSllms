@@ -1,0 +1,1 @@
+// C++ DLL\n#import "MyCSharpDll.tlb" // import the COM type library\n\nint main()\n{\n    CoInitialize(NULL);\n    MyCSharpClassPtr ptr;\n    ptr.CreateInstance(__uuidof(MyCSharpClass));\n    int result = ptr->MyMethod(42);\n    CoUninitialize();\n    return 0;\n}

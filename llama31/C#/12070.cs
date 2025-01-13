@@ -1,0 +1,1 @@
+image.Dispose();\nbitmap.Dispose();

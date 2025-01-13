@@ -1,1 +1,0 @@
-cl /EHsc GetImageType.cpp /link gdiplus.lib

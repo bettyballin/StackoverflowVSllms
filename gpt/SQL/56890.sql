@@ -1,1 +1,0 @@
-INSERT INTO FileMetrics (Revision, FileId, Value)\n   VALUES (1, 'FileA', 45), (1, 'FileB', 3), (1, 'FileC', 12), (1, 'FileD', 123), (1, 'FileE', 124);\n   \n   INSERT INTO FileMetrics (Revision, FileId, Value)\n   VALUES (4, 'FileA', 48);\n   \n   INSERT INTO FileMetrics (Revision, FileId, Value)\n   VALUES (7, 'FileB', 15);

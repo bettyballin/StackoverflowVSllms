@@ -1,0 +1,1 @@
+grid1.Columns["DateColumn"].FormatString = "{0}";\ngrid1.Columns["DateColumn"].Formatting += new FormattingEventHandler(DateColumn_Formatting);\n\nvoid DateColumn_Formatting(object sender, FormattingEventArgs e)\n{\n    if ((DateTime)e.Value == DateTime.MinValue) // or any other specific date\n    {\n        e.Text = "";\n    }\n}

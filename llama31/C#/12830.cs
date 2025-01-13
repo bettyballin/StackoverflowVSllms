@@ -1,0 +1,1 @@
+[Authorize]\n[AcceptVerbs(HttpVerbs.Post)]\npublic ActionResult RetireSelf(int playerKey)\n{\n    // your code here\n    TempData["notification"] = "You were retired from the ladder.";\n    return RedirectToAction("NextAction");\n}

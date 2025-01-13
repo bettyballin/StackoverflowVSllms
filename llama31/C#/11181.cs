@@ -1,0 +1,1 @@
+public Array Values\n{\n  get;\n  set;\n}\n\npublic List<object> CategoriesToList()\n{\n  List<object> vals = new List<object>();\n  vals.AddRange(this.Values.Cast<object>());\n\n  return vals;\n}

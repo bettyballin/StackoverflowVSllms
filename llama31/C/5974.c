@@ -1,0 +1,1 @@
+#include <stdio.h>\n#include <stdint.h>\n\nint main(void)\n{\n  int x;\n  int *ptr = &x;\n\n  printf("ptr = %p\n", ptr);\n  printf("sizeof(ptr) = %d\n", sizeof(ptr));\n\n  int64_t i1 = (int64_t) ptr;\n  printf("i1 = 0x%llx\n", (unsigned long long)i1); // use %llx and cast to unsigned long long\n  printf("sizeof(i1) = %d\n", sizeof(i1));\n\n  return 0;\n}

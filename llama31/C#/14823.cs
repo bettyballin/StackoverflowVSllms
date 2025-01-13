@@ -1,0 +1,1 @@
+public void dbManager1_LoadDBCompleted(object sender, EventArgs e)\n{\n    ScriptManager.RegisterStartupScript(this, typeof(Page), "UpdateTextBox", "document.getElementById('txtResult').value = 'Finish!';", true);\n}

@@ -1,1 +1,0 @@
-export LDFLAGS="-L/usr/local/lib"\n   export CPPFLAGS="-I/usr/local/include"

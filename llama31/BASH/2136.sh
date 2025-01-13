@@ -1,0 +1,1 @@
+readelf -p .comment /path/to/binary

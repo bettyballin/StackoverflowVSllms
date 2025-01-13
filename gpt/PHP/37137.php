@@ -1,1 +1,0 @@
-$Date = new DateTime(); // This will get the current date and time in UTC

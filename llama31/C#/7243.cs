@@ -1,0 +1,1 @@
+text.RemoveAt(2);

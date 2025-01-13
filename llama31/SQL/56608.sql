@@ -1,0 +1,1 @@
+CREATE TABLE [dbo].[EncryptedTable]\n(\n    [ID] INT PRIMARY KEY,\n    [Data] VARBINARY(256) ENCRYPTED WITH (COLUMN_ENCRYPTION_KEY = 'CEK_Auto1',\n                                         ENCRYPTION_TYPE = 'DETERMINISTIC',\n                                         ALGORITHM = 'AEAD_AES_256_CBC_HMAC_SHA_256')\n);

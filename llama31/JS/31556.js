@@ -1,0 +1,1 @@
+const myObject = {\n  allVarsDefined: function() {\n    // your code here\n  },\n  myFunction: () => {\n    // In here, 'this' will refer to the global object (window in a browser)\n    // To access myObject, you can use 'myObject' directly\n    myObject.allVarsDefined();\n  }\n}

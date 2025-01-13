@@ -1,0 +1,1 @@
+#include <benchmark/benchmark.h>\n\nvoid my_function() {\n    // code to be profiled\n}\n\nBENCHMARK(my_function);\n\nint main(int argc, char** argv) {\n    ::benchmark::Initialize(&argc, argv);\n    ::benchmark::RunSpecifiedBenchmarks();\n    return 0;\n}

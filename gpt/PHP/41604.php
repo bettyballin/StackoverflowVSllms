@@ -1,1 +1,0 @@
-$doc = new SimpleXMLElement('<root/>');\n$myToken = $doc->addChild('myToken', ''); // Add an empty string as the content\n\n// Save and output the XML\necho $doc->asXML();

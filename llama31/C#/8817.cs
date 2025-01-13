@@ -1,0 +1,1 @@
+@using (Ajax.BeginForm("Post", "Entries", new { id = ViewData.Model.MemberDetermination.DeterminationMemberID }, \n    new AjaxOptions { HttpMethod = "POST", UpdateTargetId = "yourTargetId" }, \n    new { enctype = "multipart/form-data" }))\n{\n    // Your form fields and file input here\n}

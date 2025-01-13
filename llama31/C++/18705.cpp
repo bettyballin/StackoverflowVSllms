@@ -1,0 +1,1 @@
+class MyComboBox : public CComboBox\n{\npublic:\n    // ...\n\n    void OnSetCursor(CWnd* pWnd, UINT nHitTest, UINT message)\n    {\n        // Don't hide the cursor\n        return;\n    }\n};

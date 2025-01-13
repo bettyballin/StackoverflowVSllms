@@ -1,0 +1,1 @@
+int enable_dep() {\n    return prctl(PR_SET_SECCOMP, SECCOMP_MODE_STRICT, 0, 0, 0);\n}

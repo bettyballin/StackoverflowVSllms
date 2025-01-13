@@ -1,0 +1,1 @@
+select xml.value('sum(/List/value)', 'float') sum\nfrom (select cast('<List><value>0</value><value>0</value></List>' as xml) xml) a

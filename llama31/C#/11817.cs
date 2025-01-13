@@ -1,0 +1,1 @@
+list.Capacity = Math.Max(list.Capacity, desiredCount);\nfor (int i = list.Count; i < desiredCount; i++)\n{\n    list.Add(null);\n}

@@ -1,0 +1,1 @@
+var filteredRows = dataTable.AsEnumerable()\n    .Where(row => row.Field<DateTime>("YourDateColumn") == yourDateTime);

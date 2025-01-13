@@ -1,0 +1,1 @@
+START TRANSACTION;\nSELECT * FROM mytable WHERE column1 = 'value1' FOR UPDATE;\nINSERT INTO mytable (column1, column2) VALUES ('value1', 'value2');\nCOMMIT;

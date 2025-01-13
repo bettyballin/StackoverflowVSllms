@@ -1,1 +1,0 @@
-# Example command to build a .NET project\ndotnet build -c Release

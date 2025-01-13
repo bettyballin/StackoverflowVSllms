@@ -1,0 +1,1 @@
+#!/bin/sh\n\n# .git/hooks/post-commit\n\n# Push changes to central repository\ngit push origin $(git rev-parse --abbrev-ref HEAD)

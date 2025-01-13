@@ -1,1 +1,0 @@
--- Create a schema for the user\n   CREATE SCHEMA JohnDoe;\n\n   -- Create tables within that schema\n   CREATE TABLE JohnDoe.Table1 (\n       -- table definition\n   );\n\n   CREATE TABLE JohnDoe.Table2 (\n       -- table definition\n   );

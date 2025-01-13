@@ -1,1 +1,0 @@
-SELECT DISTINCT t1.TrnNumber\nFROM TrainHopTbl t1\nJOIN TrainHopTbl t2 ON t1.TrnNumber = t2.TrnNumber\nWHERE t1.StationCode = 'WDC'\n  AND t2.StationCode = 'NYC'\n  AND t1.HopIndex < t2.HopIndex;

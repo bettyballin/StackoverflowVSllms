@@ -1,0 +1,1 @@
+Private Sub IndexFolders()\n    ' Your indexing code here\n    Thread.Sleep(100) ' introduce a delay of 100ms\nEnd Sub

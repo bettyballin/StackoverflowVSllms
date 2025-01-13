@@ -1,0 +1,1 @@
+CREATE TABLE [dbo].[Table1] (\n    [Name] nvarchar(max) NOT NULL\n);

@@ -1,0 +1,1 @@
+#!/bin/bash\n\nARCH=$(uname -m)\nLIBDIR="~/lib/$ARCH"\nINCLUDEDIR="~/include/$ARCH"\n\n# Create symbolic links or set environment variables\n# to point to the correct architecture directories\nln -s $LIBDIR ~/lib/current\nln -s $INCLUDEDIR ~/include/current

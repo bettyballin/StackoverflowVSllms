@@ -1,0 +1,1 @@
+$ php -a\nInteractive shell\n\nphp > include 'path/to/your/class.php';\nphp > $obj = new YourClass();\nphp > $obj->yourMethod();

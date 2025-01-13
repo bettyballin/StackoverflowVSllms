@@ -1,0 +1,1 @@
+bool isAdmin = IsUserAdministrator("DOMAIN\\username");

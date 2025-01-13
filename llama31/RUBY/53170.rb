@@ -1,0 +1,1 @@
+YAML.load(yaml_string, object_class: Foo)

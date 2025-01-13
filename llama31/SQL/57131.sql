@@ -1,0 +1,1 @@
+DECLARE @IdsToDelete IdTableType;\n\nINSERT INTO @IdsToDelete (Id) VALUES (1), (2), (3); -- Example IDs\n\nEXEC DeleteExceptIds @IdsToDelete;

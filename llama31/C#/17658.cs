@@ -1,0 +1,1 @@
+// SharedValidationLib.dll (C#)\npublic class DateValidator {\n    public bool IsValidDate(string date) {\n        // validation logic here\n    }\n}

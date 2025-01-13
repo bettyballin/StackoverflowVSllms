@@ -1,0 +1,1 @@
+orapwd file=$ORACLE_HOME/dbs/orapw$ORACLE_SID password=<new_password>

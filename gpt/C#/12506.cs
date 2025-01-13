@@ -1,1 +1,0 @@
-using static YourNamespace.TestClass;\n\npublic class MainClass\n{\n    public static void Main()\n    {\n        bool result = Somefunc();\n        Console.WriteLine(result);\n    }\n}

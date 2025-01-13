@@ -1,1 +1,0 @@
-git clone https://github.com/your_username/eggs.git eggs_branch1\n   cd eggs_branch1\n   git checkout -b feature-branch1\n\n   git clone https://github.com/your_username/eggs.git eggs_branch2\n   cd eggs_branch2\n   git checkout -b feature-branch2

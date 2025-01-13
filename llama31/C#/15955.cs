@@ -1,0 +1,1 @@
+using System.Windows.Forms;\n\npublic class MyForm : Form\n{\n    private TabControl tabControl;\n\n    public MyForm()\n    {\n        tabControl = new TabControl();\n        tabControl.TabPages.Add("Tab 1");\n        tabControl.TabPages.Add("Tab 2");\n        this.Controls.Add(tabControl);\n    }\n}

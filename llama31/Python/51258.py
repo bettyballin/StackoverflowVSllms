@@ -1,0 +1,1 @@
+oldList = [1, 2, 3]\n\n# Create a new reference to the same list\nnewList1 = oldList\n\n# Create a new list that is a copy of the original list\nnewList2 = oldList[:]\n\n# Modify the original list\noldList[0] = 10\n\nprint(newList1)  # prints [10, 2, 3]\nprint(newList2)  # prints [1, 2, 3]

@@ -1,0 +1,1 @@
+<burrow>\n    <persistence>\n        <configuration-provider type="YourNamespace.FluentConfigurationProvider, YourAssembly" />\n    </persistence>\n</burrow>

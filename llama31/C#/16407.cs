@@ -1,0 +1,1 @@
+var lastItem = db.Items.OrderByDescending(i => i.Id).First();

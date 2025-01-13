@@ -1,0 +1,1 @@
+using System;\nusing System.Runtime.InteropServices;\n\nclass Program\n{\n    [DllImport("kernel32.dll")]\n    static extern IntPtr GetConsoleWindow();\n\n    static void Main()\n    {\n        IntPtr handle = GetConsoleWindow();\n\n        Console.WriteLine("Handle: " + handle);\n    }\n}

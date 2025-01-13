@@ -1,1 +1,0 @@
-#!/bin/bash\n\n# Usage: ./duplicate.sh source_file.php destination_file.php\n\nSOURCE_FILE=$1\nDESTINATION_FILE=$2\n\nif [ -f "$SOURCE_FILE" ]; then\n    cp -- "$SOURCE_FILE" "$DESTINATION_FILE"\n    echo "File duplicated successfully from $SOURCE_FILE to $DESTINATION_FILE"\nelse\n    echo "Source file does not exist."\nfi

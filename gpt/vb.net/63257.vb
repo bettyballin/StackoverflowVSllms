@@ -1,1 +1,0 @@
-Dim myInstance As IMyClass = New MyClass()\nmyInstance.IsDirty = True ' This will work because it's using the explicit interface implementation.

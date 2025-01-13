@@ -1,0 +1,1 @@
+CREATE TABLE Roles (\n    Id INT PRIMARY KEY,\n    Name NVARCHAR(255) NOT NULL,\n    ParentId INT NULL, -- Foreign key to Roles table\n);

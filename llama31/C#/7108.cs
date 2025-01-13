@@ -1,0 +1,1 @@
+string filePath = Path.Combine(Environment.GetFolderPath(Environment.SpecialFolder.ApplicationData), "MyApp", "MyList.bin");\n\n// Serialize the list to a binary format\nBinaryFormatter formatter = new BinaryFormatter();\nFileStream stream = new FileStream(filePath, FileMode.Create);\nformatter.Serialize(stream, myList);\nstream.Close();

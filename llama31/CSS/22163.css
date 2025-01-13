@@ -1,0 +1,1 @@
+@media print {\n  thead {\n    display: table-header-group;\n  }\n  tbody {\n    display: table-row-group;\n  }\n  tr {\n    page-break-inside: avoid;\n  }\n}

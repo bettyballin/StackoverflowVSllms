@@ -1,0 +1,1 @@
+var column = typeof(YourTable).GetProperty("YourColumn")\n    .GetCustomAttributes(typeof(ColumnAttribute), false)\n    .Cast<ColumnAttribute>()\n    .FirstOrDefault();\n\nif (column != null)\n{\n    int? size = column.DbTypeMatch.Match(@"\((\d+)\)").Groups[1].Value;\n    // size will be 50 for varchar(50)\n}

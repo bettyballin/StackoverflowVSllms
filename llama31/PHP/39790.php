@@ -1,0 +1,1 @@
+$program = "/usr/bin/top -n 1";\nexec($program, $output, $retval);\necho "program:{$program}<br />";\necho "output: ";\nprint_r($output);\necho "<br />";\necho "retval: {$retval}<br />";

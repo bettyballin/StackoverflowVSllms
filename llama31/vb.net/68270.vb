@@ -1,0 +1,1 @@
+Dim dt As DateTime = DateTime.ParseExact(cmd.Parameters("myDate").Value.ToString(), "yyyy-MM-dd HH:mm:ss", Nothing)

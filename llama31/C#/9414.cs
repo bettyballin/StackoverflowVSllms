@@ -1,0 +1,1 @@
+public static (bool isChanged, string errorMessage) IsChanged(T current, T previous)\n{\n    return CheckChanged(current, previous);\n}\n\nprivate static (bool isChanged, string errorMessage) CheckChanged(T current, T previous)\n{\n    // ...\n}

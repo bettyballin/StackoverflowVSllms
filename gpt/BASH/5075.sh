@@ -1,1 +1,0 @@
-sudo killall mysqld_safe

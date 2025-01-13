@@ -1,1 +1,0 @@
-struct Message {\n    Header header;\n    char payload[];  // Flexible array member\n};\n\nchar* GetPayload(Message* message) {\n    return message->payload;\n}

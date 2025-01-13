@@ -1,1 +1,0 @@
-[DllImport("kernel32.dll")]\nprivate static extern uint GetCurrentThreadId();

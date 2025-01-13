@@ -1,1 +1,0 @@
-mysqldump --single-transaction --quick --lock-tables=false -u [user] -p [database] > backup.sql

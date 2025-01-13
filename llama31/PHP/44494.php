@@ -1,0 +1,1 @@
+$path = 'some_path1/some_path2/some_path3'; // or 'some_path1\some_path2\some_path3'\n$parts = preg_split('#[\\\\/]+#', $path);

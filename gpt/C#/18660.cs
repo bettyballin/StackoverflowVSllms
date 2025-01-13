@@ -1,1 +1,0 @@
-[TypeLibType(4288)]\n[Guid("B60C546F-EE91-48A2-A352-CFC36E613CB7")]\npublic interface IScriptGenerator\n{\n    [DispId(1610743808)]\n    void Init();\n    [DispId(1610743813)]\n    void GetLastError([MarshalAs(UnmanagedType.BStr)] out string Error);\n}

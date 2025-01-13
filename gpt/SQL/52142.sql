@@ -1,1 +1,0 @@
-SELECT a.* \nFROM a \nWHERE EXISTS (SELECT 1 FROM b WHERE b.id = a.id);

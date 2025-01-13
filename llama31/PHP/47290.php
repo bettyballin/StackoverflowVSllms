@@ -1,0 +1,1 @@
+<?php\n$upload_dir = '/path/to/upload/directory/';\n\nif (isset($_FILES['files'])) {\n    $files = $_FILES['files'];\n    foreach ($files as $file) {\n        $filename = $file['name'];\n        $tmp_name = $file['tmp_name'];\n        move_uploaded_file($tmp_name, $upload_dir . $filename);\n    }\n}\n?>

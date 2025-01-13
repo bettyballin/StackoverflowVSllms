@@ -1,1 +1,0 @@
--- First query to get ordered IDs\nSELECT id \nFROM table1 \nWHERE ... \nORDER BY display_order, name;\n\n-- Assuming you get IDs: 5, 3, 8, 1\n\n-- Second query to get details and order by the specified IDs\nSELECT name, description \nFROM table2 \nWHERE id IN (5, 3, 8, 1)\nORDER BY FIELD(id, 5, 3, 8, 1);

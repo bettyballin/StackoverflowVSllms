@@ -1,0 +1,1 @@
+// Default.aspx\n<%@ Page Language="C#" MasterPageFile="~/MasterPage.master" %>\n\n<asp:Content ID="MainContent" ContentPlaceHolderID="MainContent" runat="server">\n    <!-- Your main content here -->\n</asp:Content>

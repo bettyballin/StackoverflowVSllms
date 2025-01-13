@@ -1,0 +1,1 @@
+print(2**2*3)  # Output: 12\nprint(2*2*3)   # Output: 12\n\nprint(2**10)   # Output: 1024\nprint(2*2*2*2*2*2*2*2*2*2)  # Output: 1024

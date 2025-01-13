@@ -1,1 +1,0 @@
-@[User::boolPackageFailure] == True ? "Failure" : "None"

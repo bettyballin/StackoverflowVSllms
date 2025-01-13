@@ -1,0 +1,1 @@
+using System.Security.Cryptography;\n\npublic string GenerateSessionId()\n{\n    var rng = new RNGCryptoServiceProvider();\n    var bytes = new byte[32];\n    rng.GetBytes(bytes);\n    return BitConverter.ToString(bytes).Replace("-", "");\n}

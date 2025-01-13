@@ -1,1 +1,0 @@
-SELECT   [Last Name], [First Name], [Renewal Date]\nFROM     Members\nWHERE    ([Renewal Date] >= ?) AND ([Renewal Date] <= ?)\nORDER BY [Renewal Date]

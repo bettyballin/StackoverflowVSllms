@@ -1,1 +1,0 @@
-float x;\nauto last = std::upper_bound(myClass.begin(), myClass.end(), x, \n                             [](const MyClass& obj, float value) {\n                                 return obj.someField < value;\n                             });

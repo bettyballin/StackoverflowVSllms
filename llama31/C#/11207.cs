@@ -1,0 +1,1 @@
+protected void Application_BeginRequest(object sender, EventArgs e)\n{\n    string companyName = HttpContext.Current.Request.Url.AbsolutePath.Split('/')[1];\n    HttpContext.Current.Session["Company"] = companyName;\n}

@@ -1,0 +1,1 @@
+$user_tz_offset = -5; // example time zone offset for EST\n$gmt_time = gmdate("Y-m-d H:i:s");\n$user_time = strtotime($gmt_time) + $user_tz_offset * 3600;\necho date("Y-m-d H:i:s", $user_time);

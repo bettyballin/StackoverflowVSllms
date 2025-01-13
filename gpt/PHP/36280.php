@@ -1,1 +1,0 @@
-<?php\n    $file = 'path/to/your/file.pdf';\n    header('Content-Type: application/pdf');\n    header('Content-Disposition: attachment; filename="file.pdf"');\n    header('Content-Length: ' . filesize($file));\n    readfile($file);\n    exit;\n    ?>

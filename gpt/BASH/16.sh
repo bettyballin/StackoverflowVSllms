@@ -1,1 +1,0 @@
-composer require cimaron/php-git-repo

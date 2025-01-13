@@ -1,0 +1,1 @@
+document.getElementById('file').addEventListener('keypress', function(e) {\n  e.preventDefault();\n  return false;\n});

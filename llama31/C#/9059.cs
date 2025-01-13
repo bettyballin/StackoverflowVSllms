@@ -1,0 +1,1 @@
+using System.IO;\n\npublic class PathExample\n{\n    public static void Main()\n    {\n        string path1 = @"C:\Directory";\n        string path2 = "Subdirectory\\file.txt";\n\n        // Join two paths.\n        string joinedPath = Path.Combine(path1, path2);\n\n        Console.WriteLine(joinedPath);\n    }\n}

@@ -1,1 +1,0 @@
-CREATE PROCEDURE GetBusinessMessage\n    @UserId INT,\n    @Message NVARCHAR(255) OUTPUT\nAS\nBEGIN\n    -- Your business logic here\n    IF @UserId IS NULL\n    BEGIN\n        SET @Message = 'User ID cannot be null.'\n        RETURN\n    END\n\n    -- More business logic\n    SET @Message = 'Operation completed successfully.'\nEND

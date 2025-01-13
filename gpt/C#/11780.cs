@@ -1,1 +1,0 @@
-foreach (var range in letterRange)\n{\n    Console.Write(range + ",");\n}\nConsole.Write("\n");

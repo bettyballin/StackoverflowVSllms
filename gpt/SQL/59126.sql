@@ -1,1 +1,0 @@
-BULK INSERT Dictionary\nFROM 'C:\path\to\your\dictionary.csv'\nWITH (\n    FIELDTERMINATOR = ',',\n    ROWTERMINATOR = '\n',\n    FIRSTROW = 2\n);

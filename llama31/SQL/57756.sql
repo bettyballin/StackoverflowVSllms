@@ -1,0 +1,1 @@
+-- Example of database sharding in MySQL\nCREATE TABLE users_shard_1 (\n    id INT PRIMARY KEY,\n    name VARCHAR(50),\n    email VARCHAR(100)\n);\n\nCREATE TABLE users_shard_2 (\n    id INT PRIMARY KEY,\n    name VARCHAR(50),\n    email VARCHAR(100)\n);

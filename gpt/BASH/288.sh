@@ -1,1 +1,0 @@
-regasm MyCSharpLibrary.dll /codebase

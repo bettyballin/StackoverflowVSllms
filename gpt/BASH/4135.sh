@@ -1,1 +1,0 @@
-@echo off\n   setlocal\n\n   :: Define the working copy path where IIS points\n   set WORKING_COPY_PATH=E:\wwwroot\yourapp\trunk\n\n   :: Navigate to the working copy directory\n   pushd %WORKING_COPY_PATH%\n\n   :: Update the working copy with the latest changes\n   svn update\n\n   :: Return to the original directory\n   popd\n\n   endlocal\n   exit 0

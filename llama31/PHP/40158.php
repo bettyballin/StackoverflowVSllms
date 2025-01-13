@@ -1,0 +1,1 @@
+for(/*extracting from the trnslated string array*/)\n{\n    $pattern = "/msgid \"".preg_quote($id, '/')."\"(\r?\n)msgstr \"\"/";\n    $string = str_replace('"', '\"', $string);\n    $replacement = "msgid \"$id\"\nmsgstr \"". $string . "\"";\n    $res = preg_replace($pattern, $replacement, $con);\n    $con = $res;\n}\n$con = utf8_encode($con);\nfile_put_contents("ja.po", $con);

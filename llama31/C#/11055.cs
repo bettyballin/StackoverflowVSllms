@@ -1,0 +1,1 @@
+var wrapper = new DataWrapper(myObjects);\nvar host = new TextTemplatingHost();\nhost.HostSpecific = wrapper;\n\nvar engine = new TextTemplatingEngine();\nvar session = new TextTemplatingSession(host);\n\nvar template = new Template1(); // your T4 template\nvar result = engine.ProcessTemplate(template, session);

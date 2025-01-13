@@ -1,1 +1,0 @@
-// Example of using transactions in PDO\ntry {\n    $pdo->beginTransaction();\n\n    // Perform database operations\n\n    $pdo->commit();\n} catch (Exception $e) {\n    $pdo->rollBack();\n    logError("Transaction failed: " . $e->getMessage());\n}

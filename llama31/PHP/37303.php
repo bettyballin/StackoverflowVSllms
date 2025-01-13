@@ -1,0 +1,1 @@
+$data = array(\n    'field1' => 'value1',\n    'field2' => $db->quoteInto('NULL', null),\n);\n\n$db->insert('table_name', $data);

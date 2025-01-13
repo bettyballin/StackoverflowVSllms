@@ -1,0 +1,1 @@
+$id = mysql_insert_id($result) or die('oops');

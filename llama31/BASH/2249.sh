@@ -1,0 +1,1 @@
+diff <(sort file1.properties) <(sort file2.properties)

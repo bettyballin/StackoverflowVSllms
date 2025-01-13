@@ -1,0 +1,1 @@
+function obfuscate_email($email) {\n  $email = preg_replace('/(.*)@(.*)/', '$1&#64;$2', $email);\n  return $email;\n}

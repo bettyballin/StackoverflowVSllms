@@ -1,0 +1,1 @@
+#!/bin/bash\n\nwhile true\ndo\n  # Check Bluetooth connection status using blueutil\n  blueutil status | grep "Connected" > /dev/null\n  if [ $? -ne 0 ]; then\n    # Bluetooth connection lost, restart the process\n    launchctl start com.example.yourprocess\n  fi\n  sleep 1\ndone

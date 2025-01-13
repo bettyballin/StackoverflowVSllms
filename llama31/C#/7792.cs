@@ -1,0 +1,1 @@
+[Authorize(Policy = "EditProfile")]\npublic IActionResult Edit(int id)\n{\n    // Only authorized users can access this action\n}

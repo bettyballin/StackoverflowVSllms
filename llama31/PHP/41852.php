@@ -1,0 +1,1 @@
+$list = include 'site_nav.php';

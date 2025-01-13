@@ -1,0 +1,1 @@
+CygwinRubyExecutor.Execute(@"C:\test\ruby.rb");

@@ -1,1 +1,0 @@
-g++ -o check_mail_server_status check_mail_server_status.cpp -lboost_system -lboost_thread -lssl -lcrypto

@@ -1,0 +1,1 @@
+PdfBrowser.Navigate(new Uri("https://mozilla.github.io/pdf.js/web/viewer.html?file=yourpdf.pdf"));

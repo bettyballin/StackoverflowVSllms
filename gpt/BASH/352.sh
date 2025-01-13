@@ -1,1 +1,0 @@
-svn propset svn:externals "MySharedLibrary https://svn.example.com/repos/MySharedLibrary/trunk" .\nsvn update

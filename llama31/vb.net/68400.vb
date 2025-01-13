@@ -1,0 +1,1 @@
+Dim submittedDateTime As DateTime = New DateTime(2022, 1, 1, 12, 0, 0)\nDim relativeTime As String = RelativeTime(submittedDateTime)\nConsole.WriteLine(relativeTime)  ' Output: "X months ago"

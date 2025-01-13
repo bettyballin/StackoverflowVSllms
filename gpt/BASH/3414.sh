@@ -1,1 +1,0 @@
-echo "getFoo_Bar" | sed -E 's/(get[A-Z][A-Za-z0-9]*_)([A-Z])/\1`echo \2 | tr "[:upper:]" "[:lower:]"`/'

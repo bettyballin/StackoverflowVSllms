@@ -1,1 +1,0 @@
-mt.exe -tlb:YourComComponent.dll -dll:YourComComponent.dll -out:YourComComponent.dll.manifest

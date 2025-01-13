@@ -1,0 +1,1 @@
+public static Guid XorGuids(Guid[] guids)\n{\n    Guid result = Guid.Empty;\n    for (int i = 0; i < guids.Length; i++)\n    {\n        result ^= guids[i];\n    }\n    return result;\n}

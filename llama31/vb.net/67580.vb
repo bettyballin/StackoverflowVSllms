@@ -1,0 +1,1 @@
+Dim m As New MapPoint.Application()\nDim map As MapPoint.Map = m.ActiveMap\nDim r As MapPoint.FindResults = map.FindPlaceResults("Police Stations", "West Bend, WI")

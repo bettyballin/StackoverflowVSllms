@@ -1,0 +1,1 @@
+function isSiteAvailable($site, $port = 80) {\n    $fp = @fsockopen($site, $port, $errno, $errstr, 10);\n    if ($fp) {\n        fclose($fp);\n        return true;\n    } else {\n        return false;\n    }\n}\n\n$site = "twitter.com";\nif (isSiteAvailable($site)) {\n    echo "$site is available";\n} else {\n    echo "$site is not available";\n}

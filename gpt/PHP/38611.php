@@ -1,1 +1,0 @@
-<?php\nif (!preg_match('/Googlebot|Bingbot|Slurp|DuckDuckBot|Baiduspider|YandexBot/i', $_SERVER['HTTP_USER_AGENT'])) {\n    header('Location: /index.html');\n    exit();\n}\n?>

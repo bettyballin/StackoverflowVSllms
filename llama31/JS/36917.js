@@ -1,0 +1,1 @@
+fetch('/user/someone', {\n  method: 'DELETE'\n})

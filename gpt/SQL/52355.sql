@@ -1,1 +1,0 @@
-ALTER TABLE FriendRequests\nADD CONSTRAINT UQ_UserId_FriendUserId UNIQUE (UserId, FriendUserId);

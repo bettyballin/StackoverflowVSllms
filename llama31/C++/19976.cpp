@@ -1,0 +1,1 @@
+#include <wsdd.h>\n\nint main() {\n    // Create a service description\n    WSD_SERVICE* service;\n    WSDCreateService(NULL, L"_my_service", L"My Service", NULL, NULL, &service);\n\n    // Register the service\n    WSDRegisterService(service);\n\n    // ...\n}

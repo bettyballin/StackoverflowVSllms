@@ -1,1 +1,0 @@
-using System;\nusing System.Linq;\n\nclass Program\n{\n    static void Main()\n    {\n        var numbers = Enumerable.Range(1, 1000000);\n        var parallelQuery = numbers.AsParallel().Where(n => n % 2 == 0).ToArray();\n\n        Console.WriteLine("Even numbers count: " + parallelQuery.Length);\n    }\n}

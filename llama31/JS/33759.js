@@ -1,0 +1,1 @@
+// Load dummy text dynamically using JavaScript\ndocument.addEventListener("DOMContentLoaded", function() {\n  const dummyText = "This is some dummy text";\n  const dummyTextElement = document.getElementById("dummy-text");\n  dummyTextElement.innerText = dummyText;\n});

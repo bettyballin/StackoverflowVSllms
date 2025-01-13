@@ -1,0 +1,1 @@
+SELECT p1.*\nFROM (\n  SELECT custid, prodid, issue, qty, datesold,\n         ROW_NUMBER() OVER (PARTITION BY custid, prodid ORDER BY datesold DESC) AS row_num\n  FROM sales\n  WHERE custid = @custid\n) p1\nWHERE row_num = 1

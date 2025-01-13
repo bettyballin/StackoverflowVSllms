@@ -1,0 +1,1 @@
+using System.Diagnostics;\n\n// Restart the application\nProcessStartInfo psi = new ProcessStartInfo();\npsi.FileName = System.Reflection.Assembly.GetExecutingAssembly().Location;\npsi.Arguments = "/restart";\nProcess.Start(psi);\nApplication.Exit();

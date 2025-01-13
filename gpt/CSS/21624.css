@@ -1,1 +1,0 @@
-/* Target IE 10 and above */\n   @media all and (-ms-high-contrast: none), (-ms-high-contrast: active) {\n     .selector {\n       property: value;\n     }\n   }\n\n   /* Target IE 9 and below */\n   .selector {\n     property: value\9; /* IE 8 and 9 */\n   }

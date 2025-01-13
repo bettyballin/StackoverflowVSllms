@@ -1,1 +1,0 @@
-using System;\nusing System.Web.UI;\n\npublic partial class GetData : Page\n{\n    protected void Page_Load(object sender, EventArgs e)\n    {\n        Response.ContentType = "text/plain";\n        Response.Write("This is a Test!");\n    }\n}

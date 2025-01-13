@@ -1,1 +1,0 @@
-amespace CSharpLibrary\n{\n    public class Calculator\n    {\n        public int Add(int a, int b)\n        {\n            return a + b;\n        }\n    }\n}

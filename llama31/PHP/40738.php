@@ -1,0 +1,1 @@
+$x[1] = array('parent');\narray_push($x[1], 'child');

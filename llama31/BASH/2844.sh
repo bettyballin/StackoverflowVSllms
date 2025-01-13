@@ -1,0 +1,1 @@
+java -server -Xmx1024m -Xms512m -XX:+UseConcMarkSweepGC -XX:CMSInitiatingOccupancyFraction=0.5 -XX:NewRatio=1:3 -XX:+UseParNewGC -XX:+UseBiasedLocking -XX:+TieredCompilation -jar your_app.jar

@@ -1,1 +1,0 @@
-// Example to log SQL to the console\nSubSonic.DataService.Log = Console.Out;\n\n// For logging to a file\nvar logFile = new StreamWriter("sql.log") { AutoFlush = true };\nSubSonic.DataService.Log = logFile;

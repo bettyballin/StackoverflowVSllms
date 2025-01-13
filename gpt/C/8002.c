@@ -1,1 +1,0 @@
-#include <stdio.h>\n\nint main() {\n    FILE *file = fopen("example.txt", "a");\n    if (file != NULL) {\n        fputc('\n', file);\n        fclose(file);\n    }\n    return 0;\n}

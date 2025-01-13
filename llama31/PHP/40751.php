@@ -1,0 +1,1 @@
+use Monolog\Logger;\n\n$logger = new Logger('security');\n$logger->info('User logged in', ['username' => $username]);

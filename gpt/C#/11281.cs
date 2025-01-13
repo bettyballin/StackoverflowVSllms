@@ -1,1 +1,0 @@
-protected void Page_Load(object sender, EventArgs e)\n{\n    int contentId;\n    if (int.TryParse(Request.QueryString["Id"], out contentId))\n    {\n        // Fetch and display the content based on contentId\n    }\n    else\n    {\n        // Handle the error, possibly show a 404 page\n    }\n}

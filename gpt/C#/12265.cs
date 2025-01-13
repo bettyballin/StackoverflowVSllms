@@ -1,1 +1,0 @@
-using System.ComponentModel.DataAnnotations;\n\npublic class YourModel\n{\n    [Required(ErrorMessage = "This field is required.")]\n    public string YourStringField { get; set; }\n\n    // Other properties...\n}

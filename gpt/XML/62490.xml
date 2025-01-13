@@ -1,1 +1,0 @@
-<schema xmlns="http://purl.oclc.org/dsdl/schematron">\n  <pattern id="no-cyclic-references">\n    <title>No Cyclic References</title>\n    <rule context="animal">\n      <report test="ancestor::animal[@name=current()/@eats]">Cyclic reference detected.</report>\n    </rule>\n  </pattern>\n</schema>

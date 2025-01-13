@@ -1,0 +1,1 @@
+Array\n(\n    [ Foo] => 5\n    [Bar] => 3\n    [Baz] => 1\n)

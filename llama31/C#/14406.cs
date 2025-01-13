@@ -1,0 +1,1 @@
+public enum StatusCode : char\n{\n    Unknown = 'U',\n    Failure = 'F',\n    // etc.\n}

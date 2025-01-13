@@ -1,0 +1,1 @@
+// Create a new instance of the CLR Profiler\nCLRProfiler profiler = new CLRProfiler();\n\n// Start the profiler\nprofiler.Start();\n\n// Stop the profiler\nprofiler.Stop();\n\n// Get the CPU usage data\nCPUUsageData cpuUsageData = profiler.GetCPUUsageData();\n\n// Print the CPU usage data\nConsole.WriteLine("CPU Usage: " + cpuUsageData.CPUUsage);

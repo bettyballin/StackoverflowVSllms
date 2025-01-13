@@ -1,1 +1,0 @@
-<?php\n$alias = isset($_GET['q']) ? $_GET['q'] : '<front>';\n$alias = url($alias, array('absolute' => TRUE));\n?>\n\n<a <?php \n$pos = strpos($alias, "internal/link/alias");\nif ($pos !== false) {\n    echo 'style="color:black"';\n} \n?> href="internal/link/alias">Internal Link</a>

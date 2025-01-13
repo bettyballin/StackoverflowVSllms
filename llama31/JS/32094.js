@@ -1,0 +1,1 @@
+// js/form-validation.js\n// jQuery plugin and configuration code\n$(document).ready(function() {\n  // Base configuration\n  var config = {\n    // ...\n  };\n\n  // Page-specific configuration (optional)\n  if (window.pageConfig) {\n    $.extend(config, window.pageConfig);\n  }\n\n  // Initialize form validation\n  $('#myForm').validate(config);\n});

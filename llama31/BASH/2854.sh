@@ -1,0 +1,1 @@
+#!/bin/bash\n\n# Specify the path to the new dynamic linker and your application\nNEW_DYN_LINKER=/path/to/newglibc/ld-2.3.3.so\nAPP_PATH=/path/to/your/application/myapp\n\n# Invoke the application with the new dynamic linker\n"$NEW_DYN_LINKER" "$APP_PATH"

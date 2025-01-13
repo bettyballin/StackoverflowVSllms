@@ -1,0 +1,1 @@
+$ch = curl_init($url);\ncurl_setopt($ch, CURLOPT_FOLLOWLOCATION, true);\ncurl_setopt($ch, CURLOPT_NOBODY, true);\ncurl_setopt($ch, CURLOPT_HEADER, true); // only retrieve headers\ncurl_setopt($ch, CURLOPT_RETURNTRANSFER, true);\n$response = curl_exec($ch);\n$url = curl_getinfo($ch, CURLINFO_EFFECTIVE_URL);\ncurl_close($ch);

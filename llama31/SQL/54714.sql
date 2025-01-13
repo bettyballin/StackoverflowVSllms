@@ -1,0 +1,1 @@
+DECLARE @excel_full_file_name nvarchar(255)\nSET @excel_full_file_name = 'C:\Path\To\Your\ExcelFile.xls'

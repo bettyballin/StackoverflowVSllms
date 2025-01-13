@@ -1,1 +1,0 @@
-using System;\nusing System.Collections.Generic;\n\npublic class Program\n{\n    public static void Main()\n    {\n        List<int> numbers = new List<int>();\n        numbers.Add(1);\n        numbers.Add(2);\n        numbers.Add(3);\n\n        foreach (int number in numbers)\n        {\n            Console.WriteLine(number);\n        }\n    }\n}

@@ -1,0 +1,1 @@
+#include "header.h"\n\nint A::count = 0; // define the static variable here\n\nA::~A() {\n    count--;\n    if (count == 0) { /* this is the last one, do something */ }\n}\n\nint A::getCount() {\n    return count;\n}\n\nB::B() {\n    A::count++; // increment the count\n}

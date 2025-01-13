@@ -1,0 +1,1 @@
+function resetColor(link) {\n    link.style.color = 'blue'; // or any other default color you want\n}

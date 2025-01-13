@@ -1,1 +1,0 @@
-SELECT * FROM person \nWHERE UPPER(NVL(last_name, 'N/A')) LIKE 'P%';

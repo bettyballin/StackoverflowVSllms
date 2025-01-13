@@ -1,0 +1,1 @@
+function open($file){\n    return (fopen($file, 'w'));\n}

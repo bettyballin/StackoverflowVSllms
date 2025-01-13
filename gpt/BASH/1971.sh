@@ -1,1 +1,0 @@
-tail -f /var/log/postgresql/postgresql-XX-main.log

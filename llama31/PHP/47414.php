@@ -1,0 +1,1 @@
+<?php echo $this->Html->link(\n    $this->Html->image('delete.png', array('alt' => 'Delete')),\n    array('controller' => 'forms', 'action' => 'delete', $r['Form']['id']),\n    array('escape' => false)\n); ?>

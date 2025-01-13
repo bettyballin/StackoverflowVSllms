@@ -1,0 +1,1 @@
+DECLARE @Xml XML\n\nSET @Xml = (SELECT * FROM YourTable FOR XML RAW)\n\nEXEC YourStoredProcedure @Xml

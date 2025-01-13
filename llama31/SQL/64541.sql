@@ -1,0 +1,1 @@
+SELECT m.*, s.*\nFROM main_table m\nLEFT JOIN (\n  SELECT DISTINCT ON (main_table_id) *\n  FROM sub_table\n) s ON m.id = s.main_table_id;

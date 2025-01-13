@@ -1,0 +1,1 @@
+SSL_CTX *ctx = SSL_CTX_new(TLS_client_method());\nSSL *ssl = SSL_new(ctx);\nSSL_set_fd(ssl, sockfd);\nSSL_connect(ssl);

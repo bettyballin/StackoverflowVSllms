@@ -1,0 +1,1 @@
+<script>\n  var startTime = new Date().getTime();\n  window.addEventListener('load', function() {\n    var endTime = new Date().getTime();\n    console.log('Rendering time: ' + (endTime - startTime) + 'ms');\n  });\n</script>

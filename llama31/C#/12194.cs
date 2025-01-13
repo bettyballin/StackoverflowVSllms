@@ -1,0 +1,1 @@
+// Update the COM Shim dll\nusing ComShim = Microsoft.Office.Tools.COMShim;

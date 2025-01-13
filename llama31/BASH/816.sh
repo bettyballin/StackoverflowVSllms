@@ -1,0 +1,1 @@
+# Set permissions for the project directory and subdirectories\nchmod -R 755 /path/to/your/project\n\n# Set permissions for files within the directories\nfind /path/to/your/project -type f -exec chmod 644 {} \;

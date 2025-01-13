@@ -1,0 +1,1 @@
+otool -L /opt/oracle/instantclient/libclntsh.dylib.11.1

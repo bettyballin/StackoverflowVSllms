@@ -1,1 +1,0 @@
-DateTime dtLocal = new DateTime(2009, 3, 24, 1, 0, 0, DateTimeKind.Local);\nDateTime dtUtc = dtLocal.ToUniversalTime();\n\n// Display the results with Kind information\nConsole.WriteLine("Local: " + dtLocal.ToString("yyyy-MM-dd HH:mm:ss") + " " + dtLocal.Kind);\nConsole.WriteLine("UTC: " + dtUtc.ToString("yyyy-MM-dd HH:mm:ss") + " " + dtUtc.Kind);

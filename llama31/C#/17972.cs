@@ -1,0 +1,1 @@
+[WebMethod]\npublic static string MyMethod(string parameter)\n{\n    string userId = HttpContext.Current.Session["UserId"].ToString();\n    // ...\n}

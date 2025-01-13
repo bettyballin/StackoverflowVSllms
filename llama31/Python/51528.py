@@ -1,0 +1,1 @@
+from django.contrib.sessions.decorators import session_exempt\n\n@session_exempt\ndef password_reset_view(request):\n    # view code here\n    return HttpResponse("Password reset successful")

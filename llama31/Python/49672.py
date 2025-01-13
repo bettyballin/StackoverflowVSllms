@@ -1,0 +1,1 @@
+from difflib import Differ\n\ndef compare_files(file1_path, file2_path):\n    with open(file1_path) as file1, open(file2_path) as file2:\n        differ = Differ()\n        diff = differ.compare(file1.readlines(), file2.readlines())\n        return '\n'.join(diff)\n\n# Example usage\nprint(compare_files('file1.txt', 'file2.txt'))

@@ -1,1 +1,0 @@
-CREATE TABLE buildings (\n    id INT AUTO_INCREMENT PRIMARY KEY,\n    location VARCHAR(255) NOT NULL,\n    name VARCHAR(255) NOT NULL,\n    type ENUM('House', 'Office') NOT NULL,\n    numRooms INT,\n    numBathrooms INT,\n    offices INT,\n    sqfoot INT\n);

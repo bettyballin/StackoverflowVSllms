@@ -1,1 +1,0 @@
-INSERT INTO IDTracker (TableName, LastUsedID)\nVALUES ('tableOfStuff', 0); -- Replace '0' with the actual starting ID if necessary

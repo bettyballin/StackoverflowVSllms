@@ -1,1 +1,0 @@
-from sklearn.feature_extraction.text import TfidfVectorizer\n\n   vectorizer = TfidfVectorizer(max_features=5000)\n   X = vectorizer.fit_transform(preprocessed_texts)  # Assuming 'preprocessed_texts' is a list of preprocessed tweet texts

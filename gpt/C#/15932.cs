@@ -1,1 +1,0 @@
-var seq = Enumerable.Range(1, 10).Reverse();\nvar sort2 = seq.OrderBy(delegate(int i) { return i; });

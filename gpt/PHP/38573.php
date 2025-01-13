@@ -1,1 +1,0 @@
-// Example of encryption settings in settings.php\n   $settings['session_encrypt'] = TRUE;

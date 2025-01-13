@@ -1,0 +1,1 @@
+ss = "SELECT myfield FROM OracleLinkedServer.mydatabase.myschema.mytable WHERE {param0} ORDER BY myfield;";\nOracleQuery(ss, ["somefield='" + somevalue + "'"]);

@@ -1,1 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>\n   <server>\n       <mbean code="org.jboss.security.plugins.JaasSecurityManagerService" \n              name="jboss.security:service=JaasSecurityManager">\n           <attribute name="SecurityDomain">java:/jaas/my-security-domain</attribute>\n       </mbean>\n   </server>

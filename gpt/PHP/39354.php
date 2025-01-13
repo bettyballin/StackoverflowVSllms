@@ -1,1 +1,0 @@
-// View Helper\n<?php\nclass App_View_Helper_Tabbedbox extends Zend_View_Helper_Abstract\n{\n    public function tabbedbox(array $messages = [])\n    {\n        $output = '';\n        foreach ($messages as $message) {\n            $output .= '<p>' . $message . '</p>';\n        }\n        return $output;\n    }\n}\n?>

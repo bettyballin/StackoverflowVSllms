@@ -1,1 +1,0 @@
--- Create a resource pool\nCREATE RESOURCE POOL LowPriorityPool\nWITH (MAX_CPU_PERCENT = 10);\n\nCREATE RESOURCE POOL HighPriorityPool\nWITH (MAX_CPU_PERCENT = 80);\n\n-- Create workload groups\nCREATE WORKLOAD GROUP LowPriorityGroup\nUSING LowPriorityPool;\n\nCREATE WORKLOAD GROUP HighPriorityGroup\nUSING HighPriorityPool;\n\nALTER RESOURCE GOVERNOR RECONFIGURE;

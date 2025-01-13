@@ -1,0 +1,1 @@
+#include <Windows.h>\n\nint main()\n{\n    // Put the machine into hibernate mode\n    SetSystemPowerState(TRUE, FALSE);\n\n    // Put the machine into suspend mode\n    SetSystemPowerState(FALSE, FALSE);\n\n    return 0;\n}

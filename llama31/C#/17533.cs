@@ -1,0 +1,1 @@
+public interface IEntity\n{\n    int GetId();\n}\n\npublic class News : IEntity\n{\n    public int NewsId { get; set; }\n\n    public int GetId()\n    {\n        return NewsId;\n    }\n}

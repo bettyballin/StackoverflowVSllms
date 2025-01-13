@@ -1,0 +1,1 @@
+if (isset($_GET['refresh']) && $_GET['refresh'] == 'hits') {\n  $id = filter_var($_GET['id'], FILTER_VALIDATE_INT);\n  if ($id !== false) {\n    echo get_page_views($id);\n  } else {\n    // handle invalid ID error\n  }\n}

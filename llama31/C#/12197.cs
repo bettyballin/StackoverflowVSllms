@@ -1,0 +1,1 @@
+client.DebugWriter = new StringWriter();

@@ -1,1 +1,0 @@
-// In the DLL\nextern "C" MYDLL_API MyClass* CreateMyClass() {\n    return new MyClass();\n}\n\nextern "C" MYDLL_API void DestroyMyClass(MyClass* instance) {\n    delete instance;\n}

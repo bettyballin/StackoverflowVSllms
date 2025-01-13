@@ -1,1 +1,0 @@
-<script>\n     let name = 'world';\n   </script>\n   <p>Hello {name}!</p>

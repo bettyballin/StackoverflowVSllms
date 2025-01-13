@@ -1,0 +1,1 @@
+:cvs -d :ext:username@host:/CVS/Myproject

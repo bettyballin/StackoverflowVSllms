@@ -1,0 +1,1 @@
+SELECT AVG(LENGTH(index_name) + \n           SUM(INDEX_LENGTH)) \nFROM USER_INDEXES \nWHERE TABLE_NAME = 'your_table_name';

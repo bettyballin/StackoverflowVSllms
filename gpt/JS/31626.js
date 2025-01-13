@@ -1,1 +1,0 @@
-$.get('your-url-here', { _: new Date().getTime() }, function(data) {\n    // handle the response data\n});

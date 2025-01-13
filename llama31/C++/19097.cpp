@@ -1,0 +1,1 @@
+int main() {\n    int n = mul(6, 3); // n = 18\n    std::string s = mul(6, 3); // s = "666"\n    return 0;\n}

@@ -1,1 +1,0 @@
-#!/bin/bash\n\nwhile true\ndo\n  python3 your_script.py\n  if [ $? -ne 0 ]; then\n    echo "Script crashed with exit code $?. Restarting..." >&2\n    sleep 1  # wait 1 second before restarting\n  else\n    break\n  fi\ndone

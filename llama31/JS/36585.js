@@ -1,0 +1,1 @@
+avigator.mediaDevices.getUserMedia({ video: true })\n  .then(stream => {\n    // Use the video stream\n  })\n  .catch(error => {\n    console.error('Error accessing camera:', error);\n  });

@@ -1,0 +1,1 @@
+With User\n    .Name = "John"\n    .Password = "mysecretpassword"\nEnd With

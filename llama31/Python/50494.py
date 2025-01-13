@@ -1,0 +1,1 @@
+import kerberos\n\ndef generate_spnego_token(principal, password, service_principal):\n    # Initialize kerberos context\n    ctx = kerberos.authGSSClientInit(principal, password, service_principal)\n\n    # Generate SPNEGO token\n    spnego_token = kerberos.authGSSClientResponse(ctx, "")\n\n    return spnego_toke

@@ -1,0 +1,1 @@
+#slideshow img {\n    position: absolute;\n    top: 0;\n    left: 0;\n    width: 50%; /* your percentage width */\n    height: auto; /* maintain aspect ratio */\n    display: block;\n}

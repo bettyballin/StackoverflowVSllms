@@ -1,1 +1,0 @@
-from lxml import etree\n\nxml = etree.parse('schema.xml')\nxslt = etree.parse('transform.xslt')\ntransform = etree.XSLT(xslt)\nresult = transform(xml)\nprint(str(result))

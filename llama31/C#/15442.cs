@@ -1,0 +1,1 @@
+var query2 = query.GroupBy(f => f.id)\n                  .Select(g => new Bar\n                  {\n                      foos = g.ToList()\n                  });

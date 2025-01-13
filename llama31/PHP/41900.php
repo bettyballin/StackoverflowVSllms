@@ -1,0 +1,1 @@
+class ExceptionHandler {\n    public function handleException(Exception $exception) {\n        // Log the exception\n        // Generate a view for the user\n    }\n}\n\n$handler = new ExceptionHandler();\nset_exception_handler(array($handler, 'handleException'));

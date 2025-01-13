@@ -1,0 +1,1 @@
+HttpWebRequest request = (HttpWebRequest)WebRequest.Create("http://server.example.com/server/service.php");\nrequest.Method = "POST";\nrequest.ContentType = "text/xml;charset=ISO-8859-1";

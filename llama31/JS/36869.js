@@ -1,0 +1,1 @@
+document.getElementById('paste-btn').addEventListener('click', function() {\n  const pasteInput = document.getElementById('paste-input');\n  const pastedData = pasteInput.value.trim();\n  // Process the pasted data and populate your grid\n  // ...\n  pasteInput.value = ''; // Clear the input field\n});

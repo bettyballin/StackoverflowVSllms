@@ -1,0 +1,1 @@
+cscript adsutil.vbs ENUM_ALL_props > iis_config_server1.txt\ncscript adsutil.vbs ENUM_ALL_props > iis_config_server2.txt

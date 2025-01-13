@@ -1,1 +1,0 @@
-element.innerHTML = '<div>...</div>';

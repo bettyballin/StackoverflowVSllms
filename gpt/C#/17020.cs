@@ -1,1 +1,0 @@
-public class MySoapClient : SoapHttpClientProtocol\n{\n    public MySoapClient()\n    {\n        this.KeepAlive = true; // Enable KeepAlive\n        this.ConnectionGroupName = "MyConnectionGroup";\n    }\n}

@@ -1,0 +1,1 @@
+require_once 'phpthumb.class.php';\n\n$phpThumb = new phpThumb();\n$phpThumb->generateThumbnail('input_image.jpg', 'output_image.jpg', 100, 100, 'adaptive', true, true);\n$phpThumb->addFilter('roundedCorners', array('radius' => 10));

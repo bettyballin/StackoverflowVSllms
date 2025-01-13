@@ -1,1 +1,0 @@
-if (ob_get_level()) {\n        ob_end_flush();\n    }

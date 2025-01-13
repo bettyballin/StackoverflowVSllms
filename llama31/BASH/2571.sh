@@ -1,0 +1,1 @@
+// Set up PhantomJS\nphantomjs -w 1024 -h 768 -j --load-images=no /path/to/your/script.js

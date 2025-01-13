@@ -1,1 +1,0 @@
-class Foo {\n    function Foo(){\n        // do stuff\n    }\n}

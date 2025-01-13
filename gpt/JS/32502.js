@@ -1,1 +1,0 @@
-// Example of bcrypt password hashing in Node.js\n    const bcrypt = require('bcrypt');\n    const saltRounds = 10;\n    const password = 'myPlaintextPassword';\n\n    bcrypt.hash(password, saltRounds, (err, hash) => {\n        if (err) throw err;\n        // Store hash in your password DB.\n    });

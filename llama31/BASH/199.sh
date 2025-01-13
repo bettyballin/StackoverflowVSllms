@@ -1,0 +1,1 @@
+ssh -t user@host 'cd /path/to/somewhere; bash'

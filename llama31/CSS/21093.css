@@ -1,0 +1,1 @@
+.container {\n  display: flex;\n  justify-content: flex-end;\n}\n\n.bar {\n  background-color: #f00; /* red */\n  width: 100%; /* initial width */\n  transition: width 0.5s; /* animation duration */\n}\n\n.text {\n  margin-left: 10px; /* some spacing between text and bar */\n  text-align: right;\n}

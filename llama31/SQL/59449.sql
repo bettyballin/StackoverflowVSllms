@@ -1,0 +1,1 @@
+SELECT j.email \nFROM jobseeker j\nLEFT JOIN aspnet_Membership m ON j.email = m.email\nWHERE m.email IS NULL

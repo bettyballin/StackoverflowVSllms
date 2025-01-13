@@ -1,0 +1,1 @@
+CREATE INDEX idx_columnA ON myTable (columnA);

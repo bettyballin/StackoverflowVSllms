@@ -1,0 +1,1 @@
+gtk_tree_view_column_set_sort_indicator(column, FALSE);\ngtk_tree_view_column_set_alignment(column, 0.0);

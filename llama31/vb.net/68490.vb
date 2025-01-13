@@ -1,0 +1,1 @@
+Public Class MyCompositeControl\n    Inherits CompositeControl\n\n    Public Sub New()\n        Me.ViewStateMode = ViewStateMode.Enabled\n    End Sub\nEnd Class

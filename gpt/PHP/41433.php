@@ -1,1 +1,0 @@
-// Example using environment variables\n   $dbHost = getenv('DB_HOST');\n   $dbName = getenv('DB_NAME');\n   $dbUser = getenv('DB_USER');\n   $dbPass = getenv('DB_PASS');

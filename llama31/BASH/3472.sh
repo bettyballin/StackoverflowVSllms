@@ -1,0 +1,1 @@
+phpunit --bootstrap autoload.php tests/FirstTest.php

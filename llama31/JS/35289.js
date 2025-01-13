@@ -1,0 +1,1 @@
+function createNewElement(data) {\n  // Create the new element using the templating engine\n  var newElement = $("#ProductsTemplateEdit").tmpl(data);\n  \n  // Add the new element to the DOM\n  $("some-container").append(newElement);\n  \n  // Re-validate the entire form\n  $.validator.form();\n}

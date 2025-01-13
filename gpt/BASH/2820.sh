@@ -1,1 +1,0 @@
-sudo apt-get install wireshark-common\n   tshark -r capture.pcap -q -z io,stat,1

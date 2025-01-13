@@ -1,1 +1,0 @@
-public static byte[] ConvertFromUInt32Array(UInt32[] array)\n{\n    byte[] result = new byte[array.Length * sizeof(UInt32)];\n    Buffer.BlockCopy(array, 0, result, 0, result.Length);\n    return result;\n}

@@ -1,1 +1,0 @@
-#include <stdio.h>\n#include <stdlib.h>\n#include <unistd.h>\n\nint main() {\n    int ret;\n\n    // Replace the current process image with a new process image\n    ret = execl("/bin/ls", "ls", "-l", (char *)0);\n\n    // execl only returns if there is an error\n    if (ret == -1) {\n        perror("execl failed");\n        return 1;\n    }\n\n    return 0;\n}

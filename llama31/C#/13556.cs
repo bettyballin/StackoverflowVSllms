@@ -1,0 +1,1 @@
+XNamespace xhtml = "http://www.w3.org/1999/xhtml";\nvar x = xDoc.Descendants(xhtml + "div");

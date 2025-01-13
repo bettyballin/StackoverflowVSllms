@@ -1,1 +1,0 @@
--- Detach the database on the source server\nEXEC sp_detach_db 'YourDatabaseName';\n\n-- Copy the .mdf and .ldf files to the destination server\n\n-- Attach the database on the destination server\nEXEC sp_attach_db 'YourDatabaseName', \n    'C:\Path\To\YourDatabase.mdf', \n    'C:\Path\To\YourDatabase_log.ldf';

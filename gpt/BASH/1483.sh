@@ -1,1 +1,0 @@
-sudo a2enmod cgi\n   sudo systemctl restart apache2

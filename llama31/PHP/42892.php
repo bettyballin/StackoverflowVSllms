@@ -1,0 +1,1 @@
+// more.php\n$variable = 'value';\ninclude('base.php');\nbase_function($variable);

@@ -1,1 +1,0 @@
-$str = "Hello World";\n$result = preg_replace("/([A-Z])/", "<span class=\"initial\">$1</span>", $str);\necho $result;

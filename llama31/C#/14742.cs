@@ -1,0 +1,1 @@
+using System.Net;\n\nstring url = "http://www.mysite.com";\nWebClient webClient = new WebClient();\nwebClient.Proxy = WebRequest.DefaultWebProxy;\nwebClient.Proxy.Credentials = CredentialCache.DefaultCredentials;\nbyte[] data = webClient.DownloadData(url);

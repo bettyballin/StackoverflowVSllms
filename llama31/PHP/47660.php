@@ -1,0 +1,1 @@
+function shutdown_mdb2() {\n    // Make sure the MDB2 instance is destructed\n    $mdb2 = MDB2::singleton();\n    $mdb2->disconnect();\n}\n\nregister_shutdown_function('shutdown_mdb2');

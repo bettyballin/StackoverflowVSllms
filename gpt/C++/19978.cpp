@@ -1,1 +1,0 @@
-#include <windows.h>\n#include <comdef.h>\n#include <iostream>\n\nint main()\n{\n    HRESULT hr = CoInitialize(nullptr);\n    if (FAILED(hr))\n    {\n        std::cerr << "COM initialization failed" << std::endl;\n        return -1;\n    }\n\n    // Your COM usage code\n\n    CoUninitialize();\n    return 0;\n}

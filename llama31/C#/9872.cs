@@ -1,0 +1,1 @@
+using System.Windows.Navigation;\n\n// Create a new Uri for the client-side app\nUri uri = new Uri("http://example.com/launch-app");\n\n// Navigate to the Uri, which will launch the app\nNavigationService.Navigate(uri);

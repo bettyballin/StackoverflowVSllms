@@ -1,1 +1,0 @@
-def integer_to_binary_string(integer)\n  [integer].pack('L>')\nend\n\n# Example usage\ninteger = 12345\nbinary_string = integer_to_binary_string(integer)\nputs binary_string

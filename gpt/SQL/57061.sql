@@ -1,1 +1,0 @@
-DECLARE\n  original_text VARCHAR2(100) := 'This is a sample text with special characters: < > &';\n  xml_compliant_text VARCHAR2(100);\nBEGIN\n  xml_compliant_text := DBMS_XMLGEN.CONVERT(original_text);\n  DBMS_OUTPUT.PUT_LINE('XML Compliant Text: ' || xml_compliant_text);\nEND;\n/

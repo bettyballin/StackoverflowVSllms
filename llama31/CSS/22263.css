@@ -1,0 +1,1 @@
+.element {\n  background-image: url('sprite-image.png');\n  background-position: -50px -50px; /* offset to the hammer icon */\n  width: 32px;\n  height: 32px;\n}

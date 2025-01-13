@@ -1,0 +1,1 @@
+// Generate the table content\n$tableContent = '';\nforeach ($bookmarks as $bookmark) {\n    $tableContent .= '<tr>';\n    $tableContent .= '<td>' . $bookmark['name'] . '</td>';\n    // ... other columns ...\n    $tableContent .= '</tr>';\n}\n\n// Echo the table content\necho $tableContent;

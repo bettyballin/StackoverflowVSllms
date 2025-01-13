@@ -1,0 +1,1 @@
+function sqlsvr_escape_string($string) {\n    return str_replace("'", "''", $string);\n}

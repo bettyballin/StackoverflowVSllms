@@ -1,0 +1,1 @@
+Imports System.Runtime.CompilerServices\n\nModule StringExtensions\n    <Extension()>\n    Public Sub Print(ByVal aString As String)\n        Console.WriteLine(aString)\n    End Sub\nEnd Module

@@ -1,1 +1,0 @@
-public static bool IsNullOrZero(int? rate)\n{\n    return rate.GetValueOrDefault() == 0;\n}\n\n// Usage\nif (IsNullOrZero(item.Rate))\n{\n    // Your logic here\n}

@@ -1,0 +1,1 @@
+WITH words AS (\n  SELECT \n    REGEXP_SPLIT(text, '\\s+') AS word\n  FROM \n    your_table\n)\nSELECT \n  word, \n  COUNT(*) AS frequency\nFROM \n  words\nGROUP BY \n  word\nORDER BY \n  frequency DESC\nLIMIT 10;

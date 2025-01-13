@@ -1,0 +1,1 @@
+httpRequest.onreadystatechange = function(){\n    console.log(httpRequest.readyState);\n    if (httpRequest.readyState == 4) {\n        if (httpRequest.status == 200) {\n            callback(httpRequest.responseText);\n        } else {\n            console.error("Error:", httpRequest.status);\n        }\n    }\n};

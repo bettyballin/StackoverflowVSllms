@@ -1,0 +1,1 @@
+# config/initializers/presence.rb\nPresence.configure do |config|\n  config.store = :redis\nend

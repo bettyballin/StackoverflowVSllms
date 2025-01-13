@@ -1,0 +1,1 @@
+// native_dll.c\n#include <windows.h>\n\nCRITICAL_SECTION cs;\n\nvoid NativeDll_Init()\n{\n    InitializeCriticalSection(&cs);\n}\n\nvoid NativeDll_Func()\n{\n    EnterCriticalSection(&cs);\n    // do something\n    LeaveCriticalSection(&cs);\n}\n\nvoid NativeDll_Cleanup()\n{\n    DeleteCriticalSection(&cs);\n}

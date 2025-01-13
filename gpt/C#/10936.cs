@@ -1,1 +1,0 @@
-private void TextBox_LostKeyboardFocus(object sender, RoutedEventArgs e)\n{\n    var box = sender as TextBox;\n    var binding = box.GetBindingExpression(TextBox.TextProperty);\n    if (binding.HasError)\n    {\n        binding.UpdateTarget(); // Revert to the last valid value\n    }\n}

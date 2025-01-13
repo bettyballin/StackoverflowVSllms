@@ -1,0 +1,1 @@
+#slideshow {\n  position: relative;\n  margin: 0 auto; /* add this line */\n  width: 50%; /* or a fixed width, e.g., 300px */\n}

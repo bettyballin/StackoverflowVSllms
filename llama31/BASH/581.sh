@@ -1,0 +1,1 @@
+# Example of how to decrypt HTTPS traffic with Wireshark\n# (assuming you have the server's private key)\nwireshark -o "ssl.desegment_ssl_records: TRUE" \\n  -o "ssl.desegment_ssl_application_data: TRUE" \\n  -o "ssl.keys_list: 0.0.0.0,443,http,/path/to/private/key" \\n  -i eth0 -f "port 443"

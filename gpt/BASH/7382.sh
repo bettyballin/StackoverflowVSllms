@@ -1,1 +1,0 @@
-# Install Hugo\n   brew install hugo\n\n   # Create a new site\n   hugo new site mysite\n\n   # Add a theme\n   cd mysite\n   git init\n   git submodule add https://github.com/theNewDynamic/gohugo-theme-ananke.git themes/ananke\n   echo 'theme = "ananke"' >> config.toml\n\n   # Create content\n   hugo new posts/my-first-post.md\n\n   # Start the server\n   hugo server

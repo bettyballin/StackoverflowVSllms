@@ -1,0 +1,1 @@
+cl /MAP:output.map your_project.cpp\ndumpbin /SUMMARY output.map

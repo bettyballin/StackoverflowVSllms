@@ -1,1 +1,0 @@
-icacls "C:\path\to\your\file.txt" /grant Users:W

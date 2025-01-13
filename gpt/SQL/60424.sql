@@ -1,1 +1,0 @@
-CREATE TABLE Customers (\n    CustomerCode NVARCHAR(50) PRIMARY KEY,\n    Name NVARCHAR(100),\n    Email NVARCHAR(100)\n);

@@ -1,1 +1,0 @@
-<?php\nsession_start();\nif (isset($_SESSION['user_id'])) {\n    echo "Session variable 'user_id' is: " . $_SESSION['user_id'];\n} else {\n    echo "Session variable 'user_id' is not set.";\n}\n?>

@@ -1,1 +1,0 @@
-Dim selectedItem As ComboBoxItem = CType(comboBox1.SelectedItem, ComboBoxItem)\nDim selectedKey As String = selectedItem.Key\nDim selectedValue As String = selectedItem.Value

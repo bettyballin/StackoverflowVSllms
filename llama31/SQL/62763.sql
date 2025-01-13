@@ -1,0 +1,1 @@
+CREATE TABLE tree_node (\n    id INT PRIMARY KEY,\n    path VARCHAR(255)\n);

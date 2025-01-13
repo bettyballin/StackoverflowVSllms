@@ -1,1 +1,0 @@
-using NHibernate;\nusing NHibernate.Criterion;\n\npublic IList<View> GetViews(ISession session)\n{\n    View v2Alias = null;\n\n    var query = session.QueryOver<View>(() => v1Alias)\n        .Left.JoinAlias(() => v1Alias.SourceView, () => v2Alias)\n        .OrderBy(() => v1Alias.Position).Asc\n        .Select(v1 => v1.Id)\n        .List<View>();\n\n    return query;\n}

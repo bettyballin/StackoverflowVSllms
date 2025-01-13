@@ -1,0 +1,1 @@
+protected void Page_Load(object sender, EventArgs e)\n{\n    btnX.Value = Resources.res.Button_Text;\n}

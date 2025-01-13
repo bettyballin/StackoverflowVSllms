@@ -1,0 +1,1 @@
+// Create a new Etherpad document\nvar pad = new Etherpad('https://your-etherpad-instance.com/p/');\npad.createPad('my-collaborative-document', function(padID) {\n  // Share the document with others\n  console.log('Share this link with others:', pad.getPadUrl(padID));\n});

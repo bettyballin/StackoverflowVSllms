@@ -1,0 +1,1 @@
+db_username=$(vault kv get -field=username secret/myapp/db)\ndb_password=$(vault kv get -field=password secret/myapp/db)

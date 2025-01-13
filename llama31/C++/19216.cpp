@@ -1,0 +1,1 @@
+// app.cpp\n#include "app_interface.h"\n\n__declspec(dllexport) AppInterface* getAppInterface() {\n    return new MyApp();\n}

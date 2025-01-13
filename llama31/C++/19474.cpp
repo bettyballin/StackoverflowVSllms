@@ -1,0 +1,1 @@
+#ifndef UTILS_H\n#define UTILS_H\n\n// Utility function to calculate the square of a number\ninline int square(int num) {\n    return num * num;\n}\n\n#endif // UTILS_H

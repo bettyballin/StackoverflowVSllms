@@ -1,1 +1,0 @@
-var allPeople = people.Concat(morePeople);

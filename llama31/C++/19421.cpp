@@ -1,0 +1,1 @@
+#pragma comment(lib, "msvcprtd")\n#pragma comment(lib, "msvcirt")

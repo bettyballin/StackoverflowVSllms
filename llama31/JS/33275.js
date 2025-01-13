@@ -1,0 +1,1 @@
+const hiddenInput = document.getElementById('myHiddenInput');\nconst observer = new MutationObserver((mutations) => {\n  if (mutations[0].target.value !== '') {\n    console.log('Hidden input value changed to:', mutations[0].target.value);\n    // Run your function here\n  }\n});\n\nobserver.observe(hiddenInput, {\n  attributes: true,\n  attributeFilter: ['value'],\n});

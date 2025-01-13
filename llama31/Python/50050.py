@@ -1,0 +1,1 @@
+k1 = triple_des("16-byte-key-here", CBC, "\0\0\0\0\0\0\0\1", pad=None, padmode=PAD_PKCS5)\nk2 = triple_des("16-byte-key-hexf", CBC, "\0\0\0\0\0\0\0\1", pad=None, padmode=PAD_PKCS5)

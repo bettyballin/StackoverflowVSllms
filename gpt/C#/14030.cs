@@ -1,1 +1,0 @@
-public void SomeMethod(object val)\n{\n    Debug.Assert(val != null, "val should not be null");\n\n    if (val == null)\n    {\n        throw new ArgumentNullException(nameof(val), "val should not be null");\n    }\n\n    // Proceed with method logic\n}

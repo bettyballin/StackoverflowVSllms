@@ -1,1 +1,0 @@
-Scaffold-DbContext "<ConnectionString>" Microsoft.EntityFrameworkCore.SqlServer -OutputDir Models -Context MyDbContext -Namespace <Namespace>

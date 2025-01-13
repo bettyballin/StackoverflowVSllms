@@ -1,0 +1,1 @@
+<dependency>\n    <groupId>org.apache.commons</groupId>\n    <artifactId>commons-compress</artifactId>\n    <version>1.21</version>\n</dependency>

@@ -1,1 +1,0 @@
-string encryptedText = "yrKe5Z7p7MNqx9+CbBvNqQ==";\nstring key = "your-16-char-key";\nstring iv = "your-16-char-iv";\n\nstring decryptedText = AES.Decrypt(encryptedText, key, iv);\nConsole.WriteLine(decryptedText);

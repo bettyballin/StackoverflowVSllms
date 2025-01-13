@@ -1,1 +1,0 @@
-public Form1()\n{\n    InitializeComponent();\n    db = new MyDataContext();\n    LoadData();\n    dataGridView1.CellEndEdit += dataGridView1_CellEndEdit;\n}

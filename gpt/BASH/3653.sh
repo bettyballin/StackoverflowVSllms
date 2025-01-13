@@ -1,1 +1,0 @@
-cat client-cert.pem client-key.pem > client-bundle.pem

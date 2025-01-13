@@ -1,0 +1,1 @@
+diff -u file1.xml file2.xml > diff.txt

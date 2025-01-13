@@ -1,1 +1,0 @@
-// JavaScript function to open popup with session ID in query string\nfunction openPopup() {\n    var sessionID = '<%= Session.SessionID %>';\n    var popupUrl = 'popup.aspx?SID=' + sessionID;\n    window.open(popupUrl, 'PopupWindow', 'width=600,height=400');\n}

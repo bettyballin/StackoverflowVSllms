@@ -1,1 +1,0 @@
-git clone https://github.com/spring-projects/spring-petclinic.git\ncd spring-petclinic

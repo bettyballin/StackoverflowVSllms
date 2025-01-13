@@ -1,1 +1,0 @@
-using System;\n   using MobileDevice;\n\n   class Program\n   {\n       static void Main(string[] args)\n       {\n           var devices = MobileDeviceManager.Instance.GetDevices();\n           foreach (var device in devices)\n           {\n               Console.WriteLine("Connected device: " + device.UniqueDeviceID);\n           }\n       }\n   }

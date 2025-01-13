@@ -1,0 +1,1 @@
+SELECT @SQLStatement = 'SELECT * FROM ' + @TableName + ' WHERE FirstName = ''' + @FirstName + ''' AND LastName = ''' + @LastName + ''''

@@ -1,0 +1,1 @@
+import hashlib\n\n# Sign code\nprivate_key = b"my_private_key"\ncode_hash = hashlib.sha256(b"my_function()").digest()\nsignature = private_key.sign(code_hash)\n\n# Verify code\npublic_key = b"my_public_key"\ncode_hash = hashlib.sha256(b"my_function()").digest()\npublic_key.verify(signature, code_hash)

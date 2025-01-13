@@ -1,1 +1,0 @@
-chcon -R -t mysqld_db_t /database/mysql

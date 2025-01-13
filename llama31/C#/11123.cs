@@ -1,0 +1,1 @@
+if (Request.Headers["X-Requested-With"] == "XMLHttpRequest")\n{\n    // It's an AJAX request\n}

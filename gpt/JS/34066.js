@@ -1,1 +1,0 @@
-var param0 = "somefield='" + somevalue + "'";\n   var sql = "EXEC ExecuteOracleQuery @param0='" + param0.split("'").join("''") + "';";\n   try {\n       rs.Open(sql, db);\n   } catch (eobj) {\n       alert("SQL ERROR: " + eobj.description + "\nSQL: " + sql);\n   }

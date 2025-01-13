@@ -1,1 +1,0 @@
--- Query to check if a user can edit posts\nSELECT can_edit FROM user_permissions WHERE user_id = 1;\n\n-- Update to grant a user permission to delete posts\nUPDATE user_permissions SET can_delete = TRUE WHERE user_id = 1;

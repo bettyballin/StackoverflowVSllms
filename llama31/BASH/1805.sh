@@ -1,0 +1,1 @@
+cscript adsutil.vbs START_SERVER <site_id>

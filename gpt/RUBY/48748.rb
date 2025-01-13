@@ -1,1 +1,0 @@
-<!-- app/views/controls/_control.html.erb -->\n\n<div class="control">\n  <%= control.name %>\n</div>

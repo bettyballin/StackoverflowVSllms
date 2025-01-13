@@ -1,0 +1,1 @@
+public abstract class Invokable<T>\n{\n    public abstract void Invoke(T arg);\n}\n\npublic class GenericCollection<T> : SomeBaseCollection<T> where T : Invokable<T>\n{\n    // ...\n}

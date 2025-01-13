@@ -1,0 +1,1 @@
+CREATE DATABASE mydatabase CHARACTER SET utf8 COLLATE utf8_unicode_ci;\nCREATE TABLE mytable (id INT, text VARCHAR(255)) CHARACTER SET utf8 COLLATE utf8_unicode_ci;

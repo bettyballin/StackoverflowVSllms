@@ -1,1 +1,0 @@
-// terms.php\n$terms = [\n    "term1",\n    "term2",\n    "term3",\n    // ... up to 3000 terms\n];\n\n// main.php\ninclude('terms.php');\necho json_encode($terms);

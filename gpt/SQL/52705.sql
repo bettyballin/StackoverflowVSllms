@@ -1,1 +1,0 @@
-SELECT *\nFROM Table1\nJOIN Table2_view ON Table1.Table2Id = Table2_view.Id\nWHERE Table2_view.StartTime < :starttime\n  AND Table2_view.EndTime > :endtime;

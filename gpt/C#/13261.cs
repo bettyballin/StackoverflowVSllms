@@ -1,1 +1,0 @@
-public class ApplicationDbContext : DbContext\n    {\n        public DbSet<User> Users { get; set; }\n    }\n\n    public class User\n    {\n        public int Id { get; set; }\n        public string Username { get; set; }\n        public string Email { get; set; }\n        // Other properties...\n    }

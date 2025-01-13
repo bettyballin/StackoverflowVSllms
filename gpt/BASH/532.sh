@@ -1,1 +1,0 @@
-sudo chmod +x /path/to/your/repository/hooks/post-commit

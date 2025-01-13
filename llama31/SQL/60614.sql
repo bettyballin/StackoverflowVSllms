@@ -1,0 +1,1 @@
+EXEC sp_add_jobschedule \n    @job_id=N'MySnapshotAgentJob', \n    @name=N'MySnapshotAgentSchedule', \n    @freq_type=4,  -- daily\n    @freq_interval=1,  -- every 1 day\n    @freq_recurrence_factor=0, \n    @active_start_time=20000,  -- 8:00 PM\n    @active_end_time=20000  -- 8:00 PM

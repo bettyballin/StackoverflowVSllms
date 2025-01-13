@@ -1,0 +1,1 @@
+Stopwatch timer = Stopwatch.StartNew();\n// code to be timed\ntimer.Stop();\nConsole.WriteLine(timer.ElapsedMilliseconds);

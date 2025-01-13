@@ -1,1 +1,0 @@
-error_reporting(E_ALL);\nini_set('display_errors', 1);\n\n$file = "test1.html";\n$dom = DOMDocument::loadHTMLFile($file);\n$xml = simplexml_import_dom($dom);\n\nif ($xml === false) {\n    echo "Failed to convert DOM to SimpleXML";\n} else {\n    print_r($xml);\n}

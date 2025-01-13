@@ -1,0 +1,1 @@
+public static IEnumerable<T> ForEach<T>(this IEnumerable<T> enumerable, Action<T> action) where T : class\n{\n    foreach (var item in enumerable)\n    {\n        action(item);\n    }\n    return enumerable;\n}

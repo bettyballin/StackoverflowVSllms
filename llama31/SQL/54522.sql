@@ -1,0 +1,1 @@
+SELECT * FROM FieldValues WITH (INDEX(GroupId)) WHERE GroupId BETWEEN @Start AND @Start + 10

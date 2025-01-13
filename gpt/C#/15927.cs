@@ -1,1 +1,0 @@
-public void UpdateValues(ref int x, out int y)\n{\n    x += 10;\n    y = x * 2;\n}

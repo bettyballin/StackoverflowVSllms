@@ -1,0 +1,1 @@
+document.addEventListener('DOMContentLoaded', function() {\n  // code to execute after DOM is loaded\n});

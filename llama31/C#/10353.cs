@@ -1,0 +1,1 @@
+var results = (from row in YourTable\n               select new { Country = row.Country, City = row.City })\n              .Distinct()\n              .OrderBy(x => x.Country)\n              .ThenBy(x => x.City);

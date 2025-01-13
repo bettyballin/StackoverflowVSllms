@@ -1,0 +1,1 @@
+scope :ajax do\n  get '/users/:id/action', to: 'users#ajax_action'\nend

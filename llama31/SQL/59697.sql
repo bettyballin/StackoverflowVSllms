@@ -1,0 +1,1 @@
+WITH ranked_rows AS (\n  SELECT *, \n         RANK() OVER (ORDER BY column1, column2, ...) AS rank\n  FROM mytable\n  WHERE <various conditions>\n)\nSELECT * \nFROM ranked_rows\nWHERE rank = 1;

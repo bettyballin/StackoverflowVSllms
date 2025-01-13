@@ -1,1 +1,0 @@
-if ($_FILES['imagefile']['size'] > 2097152) {\n    die("ERROR: Large File Size");\n}

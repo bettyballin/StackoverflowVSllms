@@ -1,0 +1,1 @@
+0 * * * * git push origin master

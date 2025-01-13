@@ -1,0 +1,1 @@
+private void Form001_Load(object sender, EventArgs e)\n{\n    IntPtr pUnk = Marshal.GetIUnknownForObject(this);\n    IOleObject obj = (IOleObject)Marshal.GetObjectForIUnknown(pUnk);\n    if (obj != null)\n    {\n        IOleClientSite site = obj.GetClientSite();\n        // ...\n    }\n    Marshal.Release(pUnk);\n}

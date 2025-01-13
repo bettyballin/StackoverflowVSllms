@@ -1,0 +1,1 @@
+const fontTags = document.querySelectorAll('font');\n\nfontTags.forEach((tag) => {\n  if (tag.textContent.trim() === '') {\n    tag.innerHTML = '<br />';\n  }\n});

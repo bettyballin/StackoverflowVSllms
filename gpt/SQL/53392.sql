@@ -1,1 +1,0 @@
-SELECT videoId \nFROM videos \nWHERE videoId < 234 AND IsActive = 1 \nORDER BY videoId DESC \nLIMIT 1;

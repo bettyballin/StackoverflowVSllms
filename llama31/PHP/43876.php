@@ -1,0 +1,1 @@
+$screenWidth = $_POST['screenWidth'];\n$screenHeight = $_POST['screenHeight'];

@@ -1,1 +1,0 @@
-CREATE TEMPORARY TABLE temp_result (\n       id INT PRIMARY KEY,\n       column1 VARCHAR(255),\n       column2 INT\n   );\n\n   CREATE INDEX idx_column2 ON temp_result (column2);

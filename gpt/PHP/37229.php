@@ -1,1 +1,0 @@
-<?php\n$myvar = "prashant"; \necho $myvar;\n?>

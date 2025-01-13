@@ -1,0 +1,1 @@
+# test_example.py\nimport pytest\n\ndef add(x, y):\n    return x + y\n\ndef test_add():\n    assert add(2, 3) == 5

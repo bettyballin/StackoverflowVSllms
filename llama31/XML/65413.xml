@@ -1,0 +1,1 @@
+<sessionState mode="Custom" customProvider="MySessionProvider">\n  <providers>\n    <add name="MySessionProvider" type="System.Web.SessionState.SqlSessionStateStore" connectionStringName="MySessionDB" />\n  </providers>\n</sessionState>

@@ -1,0 +1,1 @@
+SELECT extract_digits('ABC1234YY') AS digits FROM DUAL;

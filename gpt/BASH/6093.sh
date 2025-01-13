@@ -1,1 +1,0 @@
-# Edit the zone file\nnano /etc/bind/zones/example.com.db\n\n# Reload the zone\nrndc reload example.com

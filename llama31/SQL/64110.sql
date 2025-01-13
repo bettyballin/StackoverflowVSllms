@@ -1,0 +1,1 @@
+SELECT /*+ NOCACHE */ * FROM recon;

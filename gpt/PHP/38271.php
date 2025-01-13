@@ -1,1 +1,0 @@
-class Page {\n    private $db;\n\n    public function __construct() {\n        $this->db = Database::getInstance()->getConnection();\n        // Now you can use $this->db to interact with the database\n    }\n}\n\n// Example usage\n$page = new Page();\n// You can now use $page to interact with the database

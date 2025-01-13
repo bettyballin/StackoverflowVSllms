@@ -1,0 +1,1 @@
+richTextBox1.Rtf = "<a href=\"http://www.erate.co.za/CompanyProfile.aspx?ID=" + \n    reader.Item("ID").ToString + "\"><img src=\"http://www.erate.co.za/CompanyAdd.bmp\" alt=\"Go rate us on www.eRate.co.za\" border=\"0\" style=\"width: 136px; height: 88px\" /></a>";

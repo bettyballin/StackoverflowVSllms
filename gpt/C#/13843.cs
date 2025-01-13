@@ -1,1 +1,0 @@
-[Authorize(Roles = "Admin")]\npublic ActionResult Edit()\n{\n    // Only Admin users can access this action\n    return View();\n}

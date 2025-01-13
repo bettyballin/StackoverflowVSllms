@@ -1,0 +1,1 @@
+$example = new Zend_Form_Element_Hidden('example');\n$example->setDecorators(array());\n$this->addElement($example);

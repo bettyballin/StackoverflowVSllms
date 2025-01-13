@@ -1,0 +1,1 @@
+var DTO = { 'items': items };\nvar options = {\n    // ...\n    data: JSON.stringify(DTO),\n    // ...\n};

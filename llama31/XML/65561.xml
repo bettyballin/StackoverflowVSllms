@@ -1,0 +1,1 @@
+<Function Name="YourStoredProcedureName" Method="YourStoredProcedureName">\n  <Parameter Name="@SearchType" Parameter="SearchType" Type="String" DbType="VarChar(50)" />\n  <ElementType Name="Result1">int</ElementType>\n  <ElementType Name="Result2">YourResultType</ElementType>\n</Function>

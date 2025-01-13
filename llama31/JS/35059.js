@@ -1,0 +1,1 @@
+$( "#selectable" ).selectable({\n  select: function(event, ui) {\n    if ($(ui.selected).hasClass("ui-selected")) {\n      $(ui.selected).removeClass("ui-selected");\n    } else {\n      $(ui.selected).addClass("ui-selected");\n    }\n  }\n});

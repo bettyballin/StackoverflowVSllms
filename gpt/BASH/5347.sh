@@ -1,1 +1,0 @@
-sudo nano /etc/X11/xorg.conf

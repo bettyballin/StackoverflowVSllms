@@ -1,0 +1,1 @@
+using Hylafax;\n\n// Initialize the Hylafax server\nHylafaxServer faxServer = new HylafaxServer("localhost");\n\n// Set up an event handler for incoming faxes\nfaxServer.OnFaxReceived += (sender, e) => {\n    // Process the fax based on caller ID\n    string callerId = e.CallerId;\n    // ...\n};\n\n// Start the fax server\nfaxServer.Start();

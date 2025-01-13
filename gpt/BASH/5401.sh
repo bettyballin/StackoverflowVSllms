@@ -1,1 +1,0 @@
-bin/magento indexer:reindex

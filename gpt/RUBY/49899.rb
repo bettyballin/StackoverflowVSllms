@@ -1,1 +1,0 @@
-gem 'rom'\n   gem 'rom-sql'

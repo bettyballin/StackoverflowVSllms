@@ -1,1 +1,0 @@
-.day {\n     border: 1px solid #ccc;\n     padding: 10px;\n     height: 100px;\n   }\n\n   .event {\n     margin-top: 5px;\n     padding: 2px 5px;\n     border-radius: 3px;\n   }\n\n   .birthday-event {\n     background-color: #ffcc00;\n   }\n\n   .meeting-event {\n     background-color: #00ccff;\n   }\n\n   .default-event {\n     background-color: #cccccc;\n   }

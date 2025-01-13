@@ -1,1 +1,0 @@
-#include <stdint.h>\n\ntypedef struct {\n    uint16_t minute: 6; // 6 bits for minute\n    uint16_t hour: 5;   // 5 bits for hour\n    uint16_t day: 5;    // 5 bits for day\n} Timestamp;

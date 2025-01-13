@@ -1,1 +1,0 @@
-Sub Session_OnStart\n    ' Initialize session variables\n    Session("Initialized") = True\nEnd Sub

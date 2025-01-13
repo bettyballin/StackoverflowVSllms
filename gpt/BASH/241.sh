@@ -1,1 +1,0 @@
-php -l yourfile.php

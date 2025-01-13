@@ -1,0 +1,1 @@
+convert -size 200x200 xc:transparent \\n        -draw "fill '#FFFFFF'; circle 100,100 100,0" \\n        -compose copy_opacity -composite input.png output.png

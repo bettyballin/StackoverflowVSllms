@@ -1,0 +1,1 @@
+object system = Connection.System;\nMethodInfo method = system.GetType().GetMethod("InitialiseData");\nvar isInitialised = (bool)method.Invoke(system, new object[] { path });

@@ -1,1 +1,0 @@
-php bin/laminas controller:create <ControllerName> --module=<ModuleName>

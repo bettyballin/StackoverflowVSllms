@@ -1,0 +1,1 @@
+function loop($array, $callback) {\n    $count = count($array);\n    for ($i = 0; $i < $count; $i++) {\n        $callback($i, $array[$i]);\n    }\n}

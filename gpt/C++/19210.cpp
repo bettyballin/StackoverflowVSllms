@@ -1,1 +1,0 @@
-#include <iostream>\n\n#pragma message("Compiling " __FILE__ " at line " STRINGIZE(__LINE__))\n\n#define STRINGIZE(x) STRINGIZE2(x)\n#define STRINGIZE2(x) #x\n\nint main() {\n    std::cout << "Hello, World!" << std::endl;\n    return 0;\n}

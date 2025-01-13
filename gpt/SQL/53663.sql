@@ -1,1 +1,0 @@
-SELECT DISTINCT readings_miu_id, RSSI\nFROM analyzedCopy2;

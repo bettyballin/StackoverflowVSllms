@@ -1,0 +1,1 @@
+// Log DLL interactions\nLogInfo('DLL: Calling ThirdPartyMethod');\nThirdPartyMethod();\nLogInfo('DLL: ThirdPartyMethod returned');

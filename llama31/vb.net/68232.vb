@@ -1,0 +1,1 @@
+Public Class FooCollection\n    Inherits List(Of Foo)\nEnd Class

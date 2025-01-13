@@ -1,0 +1,1 @@
+.table-container {\n  display: flex;\n}\n\n.table-left, .table-right {\n  flex-grow: 1;\n  width: 30%; /* or any other width */\n}

@@ -1,0 +1,1 @@
+from mydomain.services import MyService\n\ndef my_view(request):\n    my_service = MyService()\n    result = my_service.do_something()\n    return render(request, 'template.html', {'result': result})

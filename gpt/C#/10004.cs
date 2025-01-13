@@ -1,1 +1,0 @@
-private void OnBeginRequest(object sender, EventArgs e)\n{\n    HttpApplication app = (HttpApplication)sender;\n    HttpContext context = app.Context;\n    \n    string userAgent = context.Request.UserAgent;\n    \n    if (!string.IsNullOrEmpty(userAgent) && userAgent.Contains("Mozilla/4.0"))\n    {\n        RedirectToNonCompressedSite(context);\n    }\n}

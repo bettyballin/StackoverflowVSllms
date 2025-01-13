@@ -1,0 +1,1 @@
+svnadmin recover /path/to/repo\nsvnadmin upgrade /path/to/repo\nsvnadmin pack /path/to/repo

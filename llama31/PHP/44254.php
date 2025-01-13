@@ -1,0 +1,1 @@
+$file_path = '/path/to/image.jpg';\n$mime_type = mime_content_type($file_path);\n\nheader('Content-Type: ' . $mime_type);\nheader('Content-Length: ' . filesize($file_path));\n\nreadfile($file_path);

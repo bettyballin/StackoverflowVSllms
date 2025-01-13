@@ -1,1 +1,0 @@
-<?php\n/*\n * Copyright (c) 2023 Your Name\n * This code is licensed under the [Your License].\n * Unauthorized copying of this file, via any medium is strictly prohibited.\n */\n?>

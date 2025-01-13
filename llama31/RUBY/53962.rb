@@ -1,0 +1,1 @@
+<% form_tag(:controller => 'orders', :action => 'checkout') do %>\n  <%= submit_tag "Checkout" %>\n<% end %>

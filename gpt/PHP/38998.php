@@ -1,1 +1,0 @@
-// In your Bootstrap.php or routes configuration file\n    $router = Zend_Controller_Front::getInstance()->getRouter();\n    $route = new Zend_Controller_Router_Route(\n        'index/action/:start/:end',\n        array(\n            'controller' => 'index',\n            'action' => 'action'\n        )\n    );\n    $router->addRoute('custom-route', $route);

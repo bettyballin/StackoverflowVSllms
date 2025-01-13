@@ -1,1 +1,0 @@
-#ifndef SOMEFUN_H\n#define SOMEFUN_H\n\n#include <string>\n\nstd::string SomeFun();\n\n#endif // SOMEFUN_H

@@ -1,1 +1,0 @@
-pandoc -s resume.tex -t plain -o resume.txt

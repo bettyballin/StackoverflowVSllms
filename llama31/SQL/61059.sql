@@ -1,0 +1,1 @@
+SELECT points, SUM(points) AS total_points FROM data;

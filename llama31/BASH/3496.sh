@@ -1,0 +1,1 @@
+pngcrush -rem gAMA -rem cHRM -rem iCCP input.png output.png

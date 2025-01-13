@@ -1,0 +1,1 @@
+# Install PHP-FPM (e.g., on Ubuntu-based systems)\nsudo apt-get install php7.4-fpm\n\n# Update Apache configuration to use PHP-FPM\n<VirtualHost *:80>\n    ...\n    ProxyPassMatch ^/(.*\.php)$ unix:/run/php/php7.4-fpm.sock|fcgi://localhost/\n    ...\n</VirtualHost>

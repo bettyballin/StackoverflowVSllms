@@ -1,0 +1,1 @@
+If IsDBNull(Row.Item("url")) Then\n    //' do something here....\nEnd If

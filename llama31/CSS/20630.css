@@ -1,0 +1,1 @@
+@media print {\n  .rotate-table {\n    transform: rotate(-90deg);\n    width: 100vh; /* adjust width to fit paper height */\n  }\n}

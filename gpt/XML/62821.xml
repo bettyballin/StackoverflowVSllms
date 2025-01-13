@@ -1,1 +1,0 @@
-<example>\n  <!-- This is PCDATA. The parser recognizes <b> as an element. -->\n  <pcdata>Hello, <b>world</b>!</pcdata>\n  \n  <!-- This is CDATA. The parser treats everything as text and does not recognize <b> as an element. -->\n  <cdata><![CDATA[Hello, <b>world</b>!]]></cdata>\n</example>

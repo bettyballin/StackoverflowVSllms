@@ -1,1 +1,0 @@
-xhr.onreadystatechange = function() {\n        if (xhr.readyState == 4 && xhr.status == 200) {\n            // Process the response\n            console.log(xhr.responseText);\n        }\n    };

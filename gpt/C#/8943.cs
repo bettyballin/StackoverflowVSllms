@@ -1,1 +1,0 @@
-public class QuestionDataAccess {\n    public static List<Question> GetQuestions() {\n        // Return a list of questions from your data source\n    }\n\n    public static void UpdateQuestion(int questionNumber, string answer) {\n        // Update the question in your data source with the provided answer\n    }\n}

@@ -1,0 +1,1 @@
+# Example using the Contoso sample database\nImport-Module ActiveDirectory\n$dbPath = "C:\Contoso\Contoso-AD-DB.ldif"\n$domainName = "contoso.local"\n$domainDN = "DC=contoso,DC=local"\n\n# Import the database\nldifde -i -f $dbPath -s $domainName -p 389 -r $domainDN

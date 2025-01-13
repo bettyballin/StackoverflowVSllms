@@ -1,0 +1,1 @@
+Try\n    ' ...\nFinally\n    If XMLWriter IsNot Nothing Then\n        XMLWriter.Close()\n        XMLWriter.Dispose()\n    End If\nEnd Try

@@ -1,0 +1,1 @@
+int foo() {\n    int x = 42;\n    asm volatile("popl %%eax" : : : "eax");\n    return x;\n}

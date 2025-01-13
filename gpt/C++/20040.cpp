@@ -1,1 +1,0 @@
-HRESULT hr;\n   CComPtr<IDispatch> spDisp;\n   hr = pActiveXControl->QueryInterface(IID_IDispatch, (void**)&spDisp);\n   if (SUCCEEDED(hr) && spDisp)\n   {\n       // Implement your event handling logic here\n       // Listen for OnReadyStateChange\n   }

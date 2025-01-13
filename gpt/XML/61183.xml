@@ -1,1 +1,0 @@
-<authentication mode="Forms">\n     <forms timeout="20" slidingExpiration="true" />\n   </authentication>

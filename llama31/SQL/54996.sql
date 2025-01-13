@@ -1,0 +1,1 @@
+IF EXISTS (SELECT * \n         FROM sys.all_columns \n         WHERE sys.all_columns.object_id = OBJECT_ID(N'[dbo].[MyTable]')\n         AND sys.all_columns.name = 'Column1')\nBEGIN\n    EXEC sp_executesql N'UPDATE [dbo].[MyTable] SET [Column2] = [Column1]';\n    ALTER TABLE [dbo].[MyTable]\n    DROP COLUMN [Column1]\nEND

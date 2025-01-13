@@ -1,1 +1,0 @@
-using System.Web.Script.Serialization;\n\nstring json = @"\n{\n    ""name"": ""ObjectName"",\n    ""host"": ""http://localhost"",\n    ""ImagesPath"": ""/Images/"",\n    ""MoreInformation"": {\n        ""TestString"": ""hello world""\n    }\n}";\n\nJavaScriptSerializer serializer = new JavaScriptSerializer();\nInfoObject info = serializer.Deserialize<InfoObject>(json);

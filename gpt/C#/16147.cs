@@ -1,1 +1,0 @@
-string sessionId = HttpContext.Current.Session.SessionID;

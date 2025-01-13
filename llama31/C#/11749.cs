@@ -1,0 +1,1 @@
+private void Form1_Load(object sender, EventArgs e)\n{\n    // Assuming dataGridView1 is your DataGridView control\n    dataGridView1.Sort(dataGridView1.Columns["Name"], ListSortDirection.Ascending);\n}

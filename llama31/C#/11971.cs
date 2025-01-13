@@ -1,0 +1,1 @@
+public class RemoteCommandServiceProxy : CustomClientBase<IRemoteCommandService>\n{\n    public RemoteCommandServiceProxy() : base() { }\n\n    public void ExecuteCommand(string command)\n    {\n        // Call the service using the inner channel\n        InnerChannel.ExecuteCommand(command);\n    }\n}

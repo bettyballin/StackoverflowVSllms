@@ -1,0 +1,1 @@
+$rss = simplexml_load_file('http://chacha102.com/feed/');\n$namespace = 'http://purl.org/rss/1.0/modules/content/';\n\nforeach ($rss->channel->item as $item) {\n    $content = $item->children($namespace);\n    echo $content->encoded;\n}

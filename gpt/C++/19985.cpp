@@ -1,1 +1,0 @@
-class Bar {\npublic:\n  virtual bool foo(int i) = 0;\n};

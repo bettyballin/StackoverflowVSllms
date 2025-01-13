@@ -1,0 +1,1 @@
+// C#\nstruct Person { public string name; }\n\nPerson someone = null; // Compiler error\nPerson? someoneElse = null; // Okay\n\n// VB.NET\nStructure Person\n    Public name As String\nEnd Structure\n\nDim someone As Person = Nothing ' Assigns default value, not null\nDim someoneElse As Nullable(Of Person) = Nothing ' Actually nullable

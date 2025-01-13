@@ -1,1 +1,0 @@
-using System.Web.Services;\n\n   public partial class MyPage : System.Web.UI.Page\n   {\n       [WebMethod]\n       public static string UpdateControl(string data)\n       {\n           // Your server-side logic here\n           return "Updated Data: " + data;\n       }\n   }

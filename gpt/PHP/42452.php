@@ -1,1 +1,0 @@
-<?php\n\n$sql = mysql_query("SELECT body FROM comments");\n\n$body = ''; // Initialize the variable to avoid undefined variable notice\n\nwhile ($r = mysql_fetch_assoc($sql)) {\n   $body .= $r['body'] . "<br />";\n}\n\n?>\n\n<?php echo $body; ?><br />

@@ -1,0 +1,1 @@
+DROP PARTITION SCHEME SchemeMonthlyCurrentYear\nGO\nDROP PARTITION FUNCTION PartitionMonthlyCurrentYear\nGO

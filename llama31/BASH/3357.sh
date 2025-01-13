@@ -1,0 +1,1 @@
+mysqldump -u [username] -p[password] [database_name] > backup.sql\nopenssl enc -aes-256-cbc -in backup.sql -out backup.sql.enc -pass pass:my_password\nscp backup.sql.enc user@localhost:/path/to/backup/folder

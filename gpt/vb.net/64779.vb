@@ -1,1 +1,0 @@
-Partial Public Class Customers\n    Public Function GetSomeList() As List(Of Object)\n        ' Implementation here\n    End Function\n\n    Public Function GetAnotherList() As List(Of Object)\n        ' Implementation here\n    End Function\nEnd Class

@@ -1,0 +1,1 @@
+convert input.png -icc_profile sRGB_IEC61966-2.1_no_black_scaling.icc output.png

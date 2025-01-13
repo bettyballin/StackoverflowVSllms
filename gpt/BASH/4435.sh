@@ -1,1 +1,0 @@
-composer require ssilence/php-imap-client

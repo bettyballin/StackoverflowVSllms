@@ -1,0 +1,1 @@
+SELECT field1, field2, field3\nFROM (\n  SELECT DISTINCT field1, field2, field3\n  FROM table1\n) AS subquery;

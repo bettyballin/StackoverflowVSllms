@@ -1,0 +1,1 @@
+ssh -L 33306:localhost:3306 -o "TCPKeepAlive=yes" user@host

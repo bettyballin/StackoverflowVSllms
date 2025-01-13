@@ -1,1 +1,0 @@
-<?php\nwhile ($row = $result->fetch_assoc()) {\n    echo("<form action=\"vote.php\" method=\"post\">");\n    echo("<input type=\"hidden\" name=\"idnum\" value=\"".$row['id']."\">");\n    echo("<input type=\"submit\" name=\"up\" value=\"Upvote\">");\n    echo("<input type=\"submit\" name=\"down\" value=\"Downvote\">");\n    echo("</form>");\n}\n?>

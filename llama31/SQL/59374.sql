@@ -1,0 +1,1 @@
+SELECT \n  owner,\n  COALESCE(num_dogs, 0) AS num_dogs,\n  COALESCE(num_cats, 0) AS num_cats\nFROM \n  (\n    SELECT owner, COUNT(*) AS num_dogs\n    FROM dogs\n    GROUP BY owner\n  ) AS d\n  FULL OUTER JOIN \n  (\n    SELECT owner, COUNT(*) AS num_cats\n    FROM cats\n    GROUP BY owner\n  ) AS c\n  ON d.owner = c.owner\nORDER BY \n  owner;

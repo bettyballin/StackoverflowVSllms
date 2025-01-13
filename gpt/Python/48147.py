@@ -1,1 +1,0 @@
-from django.db.models import F\nfrom .models import Player\n\n# QuerySet to filter players where batting is greater than bowling\nplayers = Player.objects.filter(batting__gt=F('bowling'))

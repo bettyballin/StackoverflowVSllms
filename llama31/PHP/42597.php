@@ -1,0 +1,1 @@
+class MySQLQueryGenerator {\n    public function generateQuery($queryRepresentation) {\n        // Use the query representation to generate a MySQL query\n        // ...\n    }\n}\n\nclass MSSQLQueryGenerator {\n    public function generateQuery($queryRepresentation) {\n        // Use the query representation to generate a MSSQL query\n        // ...\n    }\n}

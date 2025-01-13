@@ -1,0 +1,1 @@
+[RegistryPermission(SecurityAction.Demand, Unrestricted = true)]\npublic class YourClass\n{\n    // ...\n}

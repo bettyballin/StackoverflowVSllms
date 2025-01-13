@@ -1,0 +1,1 @@
+<connectionStrings>\n  <add name="MyConnectionString"\n       connectionString="Data Source=|DataDirectory|\MyDatabase.sdf"\n       providerName="System.Data.SqlClient" />\n</connectionStrings>

@@ -1,0 +1,1 @@
+CREATE TEMPORARY TABLE temp_table AS\nSELECT matchCode1, matchCode2, matchCode3, COUNT(employee_id) as test_count\nFROM sourceTable\nGROUP BY matchCode1, matchCode2, matchCode3, employee_id;\n\nUPDATE destTable d\nJOIN temp_table s ON d.matchCode1 = s.matchCode1 AND d.matchCode2 = s.matchCode2 AND d.matchCode3 = s.matchCode3\nSET d.test_count = s.test_count;

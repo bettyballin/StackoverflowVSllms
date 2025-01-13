@@ -1,0 +1,1 @@
+using System.IO;\n\npublic DriveInfo GetDriveInfo(string path)\n{\n    string root = Path.GetPathRoot(path);\n    if (root.Length == 2 && root[1] == ':') // Drive letter found\n    {\n        return new DriveInfo(root);\n    }\n    return null;\n}

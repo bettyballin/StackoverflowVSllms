@@ -1,0 +1,1 @@
+Dim arr As Integer()() = {\n    New Integer() {1, 2, 3},\n    New Integer() {4, 5, 6, 7, 8, 9, 9, 9},\n    New Integer() {5, 4, 3, 2}\n}\n\nFor y As Integer = 0 To arr.Length - 1\n    For x As Integer = 0 To arr(y).Length - 1\n        arr(y)(x) = y + x\n    Next\nNext

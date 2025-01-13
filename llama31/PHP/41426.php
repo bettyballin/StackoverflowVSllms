@@ -1,0 +1,1 @@
+$number = '12345';\nif (preg_match('/^\d{5}$/', $number)) {\n    echo 'The number consists of 5 digits';\n} else {\n    echo 'The number does not consist of 5 digits';\n}

@@ -1,0 +1,1 @@
+# Revert changes in file A\ngit restore A\n\n# Stage and commit changes in file B\ngit add B\ngit commit -m "Modified file B"

@@ -1,0 +1,1 @@
+#include <emmintrin.h> // for SSE2\n#include <pmmintrin.h> // for SSE3\n\nint main() {\n    __m128 a = _mm_set1_ps(1.0f); // set all elements to 1.0f\n    __m128 b = _mm_set1_ps(2.0f); // set all elements to 2.0f\n\n    // addition\n    __m128 result = _mm_add_ps(a, b);\n\n    // multiplication\n    result = _mm_mul_ps(a, b);\n\n    return 0;\n}

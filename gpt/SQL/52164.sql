@@ -1,1 +1,0 @@
-SELECT AVG(TIMESTAMPDIFF(SECOND, date_one, date_two)) AS avg_diff_seconds\nFROM some_table\nWHERE some_restriction_applies;

@@ -1,1 +1,0 @@
-<?php\n$host = getenv('DB_HOST');\n$username = getenv('DB_USERNAME');\n$password = getenv('DB_PASSWORD');\n$database = getenv('DB_DATABASE');\n?>

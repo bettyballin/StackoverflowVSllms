@@ -1,1 +1,0 @@
-7z a -mx=9 -ms=on archive.7z folder/

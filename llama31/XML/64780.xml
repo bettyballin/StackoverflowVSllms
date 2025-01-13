@@ -1,0 +1,1 @@
+<configuration>\n  <runtime>\n    <assemblyBinding xmlns="urn:schemas-microsoft-com:asm.v1">\n      <dependentAssembly>\n        <assemblyIdentity name="Plant.UI.Winform" publicKeyToken="your_public_key_token" />\n        <bindingRedirect oldVersion="1.0.0.0" newVersion="new_version_number" />\n      </dependentAssembly>\n    </assemblyBinding>\n  </runtime>\n</configuration>

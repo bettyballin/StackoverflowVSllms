@@ -1,1 +1,0 @@
-from myapp.models import Entry\n\nentries = [Entry(a1=item.a1, a2=item.a2) for item in items]\nEntry.objects.bulk_create(entries)

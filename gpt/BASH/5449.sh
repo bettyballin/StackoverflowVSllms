@@ -1,1 +1,0 @@
-chmod 600 config.php\nchown www-data:www-data config.php  # Adjust as necessary for your server

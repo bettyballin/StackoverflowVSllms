@@ -1,1 +1,0 @@
-diskpart\nDISKPART> select vdisk file="C:\path\to\your.vhd"\nDISKPART> attach vdisk\nDISKPART> expand vdisk maximum=20480\nDISKPART> detach vdisk\nexit

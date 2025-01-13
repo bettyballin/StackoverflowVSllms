@@ -1,1 +1,0 @@
-// Avoid this\n   var config = WebConfigurationManager.OpenWebConfiguration("/MyApp");

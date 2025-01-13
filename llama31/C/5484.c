@@ -1,0 +1,1 @@
+// myheader.h\nstatic void myStaticFunction() {\n    printf("Hello from myStaticFunction!\n");\n}\n\n// file1.c\n#include "myheader.h"\nint main() {\n    myStaticFunction(); // okay, calls the local copy of myStaticFunction\n    return 0;\n}\n\n// file2.c\n#include "myheader.h"\nvoid anotherFunction() {\n    myStaticFunction(); // okay, calls the local copy of myStaticFunction\n}

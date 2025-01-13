@@ -1,0 +1,1 @@
+frm2xml -input /path/to/your/form.fmb -output /path/to/output/form.xml

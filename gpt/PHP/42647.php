@@ -1,1 +1,0 @@
-// customer1/init.php\nspl_autoload_register(function ($className) {\n    include dirname(__FILE__) . "/classes/" . $className . ".php";\n});\n\n// customer2/init.php\nspl_autoload_register(function ($className) {\n    include dirname(__FILE__) . "/classes/" . $className . ".php";\n});

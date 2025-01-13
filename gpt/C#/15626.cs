@@ -1,1 +1,0 @@
-// Example of eager loading configuration\n   session.Query<YourEntity>().Fetch(e => e.RelatedEntity).ToList();

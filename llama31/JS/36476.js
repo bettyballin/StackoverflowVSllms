@@ -1,0 +1,1 @@
+// Open a database\nvar db = indexedDB.open('todoDB', 1);\n\n// Create an object store\ndb.createObjectStore('todoList', { keyPath: 'id' });\n\n// Add a value\nvar transaction = db.transaction(['todoList'], 'readwrite');\nvar store = transaction.objectStore('todoList');\nstore.add({ id: 1, task: 'Buy milk' });

@@ -1,0 +1,1 @@
+<div>\n  <table>\n    <tr>\n      <th>Column1</th>\n      <th>Column2</th>\n      <th>Column3</th>\n    </tr>\n    {section name="index" loop=$result}\n    <tr>\n      {section name="subindex" loop=$result[index]}\n      <td>{$result[index][subindex]}</td>\n      {/section}\n    </tr>\n    {/section}\n  </table>\n</div>

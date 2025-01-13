@@ -1,1 +1,0 @@
-runas /user:Administrator cmd\n   regsvr32 yourdll.dll

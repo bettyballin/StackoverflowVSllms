@@ -1,0 +1,1 @@
+public partial class UserDetails\n{\n    public string UserIdString\n    {\n        get { return UserId.ToString(); }\n    }\n}

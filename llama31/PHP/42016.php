@@ -1,0 +1,1 @@
+$people = array(3, 20);\n$wantedCriminals = array(2, 4, 8, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20);\n\n$found = false;\nforeach ($people as $person) {\n    if (in_array($person, $wantedCriminals)) {\n        $found = true;\n        break;\n    }\n}\n\nif ($found) {\n    echo "True";\n} else {\n    echo "False";\n}

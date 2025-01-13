@@ -1,1 +1,0 @@
-$('select').on('change', function() {\n       let selectedOption = $(this).find('option:selected');\n       selectedOption.prop('disabled', true);\n       $(this).prop('selectedIndex', 0); // Reset to "Please select"\n       // Add the item to your displayed list here\n   });

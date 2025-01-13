@@ -1,0 +1,1 @@
+// forms/profile.forms.php\n$form = new FormBuilder(); // Your form-building class\n$form->buildForm('profile_form'); // Build the form\n\nif ($_POST['action'] == 'submit_profile_form') {\n    // Process the form submission\n    processProfileForm();\n}\n\nfunction processProfileForm() {\n    // Form processing logic here\n}

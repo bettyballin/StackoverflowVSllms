@@ -1,0 +1,1 @@
+.tableheader {\n  position: sticky;\n  top: 0;\n  background-color: #fff; /* add a background color to avoid transparent header */\n}

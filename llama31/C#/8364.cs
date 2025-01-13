@@ -1,0 +1,1 @@
+protected void vldCustom_LoginID_ServerValidate(object source, ServerValidateEventArgs args)\n{\n    args.IsValid = IsValidLoginId(args.Value);\n}

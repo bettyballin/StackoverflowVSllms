@@ -1,0 +1,1 @@
+// Assume 'xmlIsland' is the ID of your XML island element\nvar xmlIsland = document.getElementById('xmlIsland');\nvar xmlDoc = xmlIsland.XMLDocument;

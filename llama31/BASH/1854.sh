@@ -1,0 +1,1 @@
+# Establish a remote session\nEnter-PSSession -ComputerName <server_ip> -Credential (Get-Credential)\n\n# Start a service\nStart-Service -Name <service_name>\n\n# Stop a service\nStop-Service -Name <service_name>\n\n# Exit the remote session\nExit-PSSessio

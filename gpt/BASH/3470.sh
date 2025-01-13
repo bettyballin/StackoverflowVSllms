@@ -1,1 +1,0 @@
-crontab -e\n     # Add the following line to backup daily at 2 AM\n     0 2 * * * rsync -av --delete /path/to/your/website /path/to/backup/locatio

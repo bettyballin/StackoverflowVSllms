@@ -1,1 +1,0 @@
-chmod o+r /root/nutch1.0/index_file

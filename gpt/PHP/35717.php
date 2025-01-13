@@ -1,1 +1,0 @@
-include 'version.php';\necho APP_VERSION;

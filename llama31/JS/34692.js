@@ -1,0 +1,1 @@
+// External JS file\n$(document).ready(function() {\n  console.log('External JS document ready event fired');\n  $('#leaderboard').html("<strong>ad code</strong>");\n});\n\n// Inline script tag\n$(document).ready(function() {\n  console.log('Inline script document ready event fired');\n  // Insert additional ads here\n});

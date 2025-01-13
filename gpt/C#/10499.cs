@@ -1,1 +1,0 @@
-using (SqlConnection connection = new SqlConnection(connectionString))\n    {\n        connection.Open();\n        SqlDataAdapter adapter = new SqlDataAdapter("SELECT * FROM YourTable", connection);\n        DataSet dataSet = new DataSet();\n        adapter.Fill(dataSet, 0, 50, "YourTable"); // Fetch 50 rows at a time\n    }

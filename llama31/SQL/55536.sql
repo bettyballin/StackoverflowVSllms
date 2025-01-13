@@ -1,0 +1,1 @@
+SELECT \n    CASE \n        WHEN amount = 100 AND date IS NOT NULL THEN 'Something' \n        ELSE '' \n    END AS result

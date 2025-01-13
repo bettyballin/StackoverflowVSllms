@@ -1,1 +1,0 @@
-CREATE TABLE Orders (\n    OrderID int PRIMARY KEY,\n    CustomerID int,\n    OrderDate date,\n    FOREIGN KEY (CustomerID) REFERENCES Customers(CustomerID)\n);

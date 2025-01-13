@@ -1,1 +1,0 @@
-public class NHibernateSession\n   {\n       private static ISessionFactory _sessionFactory;\n\n       public static void Init()\n       {\n           _sessionFactory = new Configuration().Configure().BuildSessionFactory();\n       }\n\n       public static ISession OpenSession()\n       {\n           return _sessionFactory.OpenSession();\n       }\n   }

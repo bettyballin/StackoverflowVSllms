@@ -1,0 +1,1 @@
+using System.Linq;\n\nclass Program\n{\n    static void Main()\n    {\n        string[] listOfStrings = { "C:", "D:", "E:" };\n        string myString = "C:\\Files";\n\n        bool result = listOfStrings.Any(s => myString.StartsWith(s));\n\n        Console.WriteLine(result);  // Outputs: True\n    }\n}

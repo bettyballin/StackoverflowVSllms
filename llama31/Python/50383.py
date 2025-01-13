@@ -1,0 +1,1 @@
+import pkg_resources\n\n# Get the Distribution object for the egg\ndist = pkg_resources.Distribution.from_filename('/path/to/egg.egg')\n\n# Add the egg's contents to the sys.path\nsys.path.insert(0, dist.egg)\n\n# Now you can import the extension module\nimport my_extensio

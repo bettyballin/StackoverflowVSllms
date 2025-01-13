@@ -1,0 +1,1 @@
+EXEC MyStoredProcedure @Param1, @Param2

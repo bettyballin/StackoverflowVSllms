@@ -1,0 +1,1 @@
+// Framework/Control.php\nnamespace Framework;\n\nclass Control {\n    // ...\n}\n\n// Application/Control/Index.php\nnamespace Application\Control;\n\nuse Framework\Control;\n\nclass Index extends Control {\n    // ...\n}

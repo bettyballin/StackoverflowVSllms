@@ -1,0 +1,1 @@
+BindingOperations.EnableCollectionSynchronization(myCollection, myLock, BindingFlags.Public);

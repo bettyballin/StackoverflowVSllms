@@ -1,0 +1,1 @@
+Public Property MyProperty() As String\n    Get\n        Return TextBox1.Text\n    End Get\n    Set(value As String)\n        TextBox1.Text = value\n    End Set\nEnd Property

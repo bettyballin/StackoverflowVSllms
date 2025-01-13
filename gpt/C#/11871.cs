@@ -1,1 +1,0 @@
-[ExportMetadata("Application", "CheckFolderApplication")]\n[Export(typeof(ExtendedArtifactBase))]\npublic class CheckFolderArtifact2 : ExtendedArtifactBase\n{\n    // Implementation\n}

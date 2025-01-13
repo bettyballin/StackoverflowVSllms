@@ -1,0 +1,1 @@
+using System.Diagnostics.Eventing.Reader;\n\n// Create an EventLogReader instance\nEventLogReader reader = new EventLogReader("Application");\n\n// Read events\nforeach (EventRecord record in reader)\n{\n    Console.WriteLine(record.LogName + ": " + record.Id + ": " + record.LevelDisplayName);\n}

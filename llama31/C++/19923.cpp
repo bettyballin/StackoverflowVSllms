@@ -1,0 +1,1 @@
+// Example using ATL's CComLogger\nCComLogger logger;\nlogger.LogMessage(TEXT("Your message here"));

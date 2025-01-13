@@ -1,0 +1,1 @@
+using System.Drawing;\n\npublic void ResizeImage(string imagePath, int width, int height)\n{\n    using (var img = new Bitmap(imagePath))\n    {\n        var resizedImg = new Bitmap(img, width, height);\n        resizedImg.Save(imagePath);\n    }\n}

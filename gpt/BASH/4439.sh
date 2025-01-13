@@ -1,1 +1,0 @@
-find /path/to/search -name <filename>

@@ -1,1 +1,0 @@
-amespace Namespace\n{\n    public partial class YourPage : System.Web.UI.Page\n    {\n        protected void Page_Load(object sender, EventArgs e)\n        {\n            string firstName = Profile.FirstName;\n            string lastName = Profile.LastName;\n            int age = Profile.Age;\n        }\n    }\n}

@@ -1,0 +1,1 @@
+ConsoleKeyInfo cki = Console.ReadKey(true);\nif (cki.Key == ConsoleKey.P)\n{\n    // Pause\n}\nelse if (cki.Key == ConsoleKey.C)\n{\n    // Continue\n}\nelse if (cki.Key == ConsoleKey.Q)\n{\n    // Quit\n}

@@ -1,0 +1,1 @@
+CREATE TABLE cart_items (\n  id INT PRIMARY KEY,\n  user_id INT,\n  product_id INT,\n  quantity INT,\n  created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP\n);

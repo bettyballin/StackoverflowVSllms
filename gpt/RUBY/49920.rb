@@ -1,1 +1,0 @@
-def update_personal_details\n  @staff_member = StaffMember.find(params[:id])\n  @skill_groups = SkillGroup.all\n\n  respond_to do |format|\n    format.js { render :partial => "staff_members/update_personal_details" }\n  end\nend

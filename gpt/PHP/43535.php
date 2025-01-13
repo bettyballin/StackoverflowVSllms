@@ -1,1 +1,0 @@
-<?php\nvar_dump(5 === '5');  // false, because 5 is an integer and '5' is a string\nvar_dump(0 === '');   // false, because 0 is an integer and '' is a string\nvar_dump(false === '0'); // false, because false is a boolean and '0' is a string\n?>

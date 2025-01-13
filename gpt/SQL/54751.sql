@@ -1,1 +1,0 @@
-SELECT \n    sm1.definition\nFROM\n    [server1].MyDatabase.sys.procedures p1\nJOIN\n    [server1].MyDatabase.sys.sql_modules sm1 ON p1.object_id = sm1.object_id\nLEFT JOIN\n    [server2].MyDatabase.sys.procedures p2 ON p1.name = p2.name\nWHERE\n    p2.name IS NULL

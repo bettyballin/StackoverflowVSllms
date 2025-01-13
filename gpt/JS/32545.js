@@ -1,1 +1,0 @@
-$.getJSON("Featured/getEvents", function(data) {\n    $.each(data.events, function(i, event) {\n        var title = event.title.substr(0, 20); // Get the title and truncate it to 20 characters\n        $("#title-" + i).text(title); // Set the text of the corresponding element\n        if (i == 4) return false; // Stop after 5 items\n    });\n});

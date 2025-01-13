@@ -1,1 +1,0 @@
-SELECT a.sid, b.sql_text\nFROM v$session a, v$sqltext b\nWHERE a.sql_address = b.address\nAND a.sid = <your_session_id>\nORDER BY b.piece;

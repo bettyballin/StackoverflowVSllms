@@ -1,1 +1,0 @@
--- Check if all rows have IDs ending with the specific suffix\nSELECT \n    CASE \n        WHEN COUNT(*) = 0 THEN 'All rows have the specific suffix'\n        ELSE 'Some rows do not have the specific suffix'\n    END AS Result\nFROM Tickets\nWHERE ID NOT LIKE '%specific_suffix';

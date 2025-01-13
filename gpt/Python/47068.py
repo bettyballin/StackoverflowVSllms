@@ -1,1 +1,0 @@
-import bcrypt\n\n# Hashing a password\npassword = b"your_password_here"\nsalt = bcrypt.gensalt()\nhashed_password = bcrypt.hashpw(password, salt)\n\nprint(hashed_password)\n\n# Verifying a password\nis_correct = bcrypt.checkpw(password, hashed_password)\nprint(is_correct)  # This should print True if the password matches

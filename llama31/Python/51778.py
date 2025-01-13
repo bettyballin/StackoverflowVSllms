@@ -1,0 +1,1 @@
+import pytesseract\nfrom PIL import Image\nfrom pdf2image import convert_from_path\n\n# Convert PDF to image\nimages = convert_from_path('input.pdf')\n\n# Perform OCR on each page\ntext = ''\nfor image in images:\n    text += pytesseract.image_to_string(image)\n\nprint(text)

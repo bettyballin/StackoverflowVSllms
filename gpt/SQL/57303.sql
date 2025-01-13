@@ -1,1 +1,0 @@
-GRANT ALL PRIVILEGES ON database_name.* TO 'username'@'remote_ip' IDENTIFIED BY 'password';\nFLUSH PRIVILEGES;

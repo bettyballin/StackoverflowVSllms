@@ -1,0 +1,1 @@
+using System.Xml;\n\npublic class ConfigReader\n{\n    public static string GetSetting(string key)\n    {\n        var xmlDoc = new XmlDocument();\n        xmlDoc.Load("appsettings.xml");\n        var node = xmlDoc.SelectSingleNode($"//appSettings/add[@key='{key}']");\n        return node?.Attributes["value"]?.Value;\n    }\n}

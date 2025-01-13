@@ -1,1 +1,0 @@
-./profiler.sh start -e cpu -f /path/to/output.jfr <PID>

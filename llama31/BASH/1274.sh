@@ -1,0 +1,1 @@
+chmod +x /home/administrator/Project File/hooks/post-commit

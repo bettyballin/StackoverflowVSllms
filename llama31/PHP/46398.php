@@ -1,0 +1,1 @@
+$fp = fopen("input.txt", 'r');\nstream_set_blocking($fp, 0); // non-blocking mode\n\nwhile (true) {\n    $line = fgets($fp);\n    if ($line === false) {\n        // wait for more data\n        usleep(100000); // sleep for 0.1 seconds\n        continue;\n    }\n    echo $line;\n}

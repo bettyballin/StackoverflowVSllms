@@ -1,1 +1,0 @@
-select T.foo\nfrom (\n    select foo as foo\n    from R\n    union\n    select bar as foo\n    from S\n) as T;

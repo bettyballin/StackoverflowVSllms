@@ -1,1 +1,0 @@
-$service = [Microsoft.SharePoint.Administration.SPWebService]::ContentService\n   $service.DeveloperDashboardSettings.DisplayLevel = "OnDemand"\n   $service.Update()

@@ -1,1 +1,0 @@
-SELECT list_id, address_id, COUNT(*) AS occurrences\nFROM LIST_MEMBERSHIPS\nGROUP BY list_id, address_id\nORDER BY occurrences DESC;

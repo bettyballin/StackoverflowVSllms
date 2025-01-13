@@ -1,0 +1,1 @@
+using System.Runtime.InteropServices;\n\n// Assume 'comObject' is a COM object\nMarshal.ReleaseCOMObject(comObject);

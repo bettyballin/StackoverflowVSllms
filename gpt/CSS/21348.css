@@ -1,1 +1,0 @@
-/* Example Box Model */\ndiv {\n    margin: 20px;   /* Outside the border */\n    border: 5px solid black; /* Border around the padding */\n    padding: 10px;  /* Inside the border */\n    width: 200px;   /* Content width */\n}

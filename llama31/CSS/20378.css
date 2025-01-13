@@ -1,0 +1,1 @@
+.opacity-50 {\n  opacity: 0.5;\n  filter: alpha(opacity=50); /* for older IE */\n}

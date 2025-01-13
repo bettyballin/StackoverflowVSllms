@@ -1,1 +1,0 @@
-UPDATE MyTable\nSET config.modify('replace value of (/configuration/column/row/component/@text)[1] with sql:column("title")')

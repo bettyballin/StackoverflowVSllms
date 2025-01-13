@@ -1,1 +1,0 @@
-<Application x:Class="WpfApp.App"\n                xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"\n                xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"\n                StartupUri="MainWindow.xaml">\n       <Application.Resources>\n           \n       </Application.Resources>\n   </Application>

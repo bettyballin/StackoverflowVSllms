@@ -1,0 +1,1 @@
+For Each s As String In MyArray\n    MainListBox.Items.Add(s)\nNext

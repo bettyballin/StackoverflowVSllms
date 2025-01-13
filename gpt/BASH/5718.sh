@@ -1,1 +1,0 @@
-sudo iptables -A OUTPUT -o eth0 -j DROP

@@ -1,0 +1,1 @@
+grep -F "search_string" file.txt

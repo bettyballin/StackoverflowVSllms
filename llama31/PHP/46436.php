@@ -1,0 +1,1 @@
+$id: $_GET['id'];\n\n.example {\n  background-color: #$id;\n}

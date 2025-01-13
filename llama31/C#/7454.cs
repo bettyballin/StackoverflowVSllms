@@ -1,0 +1,1 @@
+public class PasswordResetToken\n{\n    public string Token { get; set; }\n    public DateTime ExpiresAt { get; set; }\n}

@@ -1,1 +1,0 @@
-#include "ClassA.h"\n#include "ClassB.h"\n\nClassA::ClassA() : bPtr(nullptr) {}\n\nvoid ClassA::setClassB(ClassB* b) {\n    bPtr = b;\n}

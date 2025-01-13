@@ -1,1 +1,0 @@
-if (isset($_POST['PHPSESSID'])) {\n       session_id($_POST['PHPSESSID']);\n   }\n   session_start();

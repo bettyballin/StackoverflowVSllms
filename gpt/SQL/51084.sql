@@ -1,1 +1,0 @@
-SELECT id, LIST(codes, ', ') AS codes\nFROM your_table\nGROUP BY id;

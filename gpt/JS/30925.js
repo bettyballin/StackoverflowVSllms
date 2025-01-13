@@ -1,1 +1,0 @@
-$(document).ready(function() {\n    $("#lowerLayer").click(function() {\n        $(this).fadeTo("fast", 0, function() {\n            $(this).hide();\n        });\n    });\n});

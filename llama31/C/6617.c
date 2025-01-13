@@ -1,0 +1,1 @@
+float data __attribute__((aligned(16))) = { /* your data */ };\n__m128 xmm_data;\n\nasm volatile("movaps %0, %%xmm4" : "=m" (data) : "0" (xmm_data));

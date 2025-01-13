@@ -1,1 +1,0 @@
-CREATE TABLE audit_log (\n       id SERIAL PRIMARY KEY,\n       table_name TEXT,\n       operation CHAR(1),\n       changed_data JSONB,\n       changed_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP\n   );

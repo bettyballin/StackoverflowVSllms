@@ -1,0 +1,1 @@
+[ModelBinder(typeof(DDW2FileModelBinder))]\npublic class DDW2File\n{\n    public string Name { get; set; }\n    public long Length { get; set; }\n}

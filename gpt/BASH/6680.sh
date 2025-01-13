@@ -1,1 +1,0 @@
-chmod +x restart_script.sh

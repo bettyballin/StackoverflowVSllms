@@ -1,1 +1,0 @@
-VACUUM ANALYZE page;\nVACUUM ANALYZE pagelinks;

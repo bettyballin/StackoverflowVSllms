@@ -1,1 +1,0 @@
-use Cake\Controller\Component\CsrfComponent;\n\nclass AppController extends Controller\n{\n    public function initialize(): void\n    {\n        parent::initialize();\n        $this->loadComponent('Csrf');\n    }\n}

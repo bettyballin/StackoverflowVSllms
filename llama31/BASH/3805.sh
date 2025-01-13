@@ -1,0 +1,1 @@
+ld --verbose -o /dev/null executable

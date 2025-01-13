@@ -1,1 +1,0 @@
-RewriteEngine On\nRewriteRule ^([^/]+)$ pages.php?page=$1 [L]

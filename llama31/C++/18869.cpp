@@ -1,0 +1,1 @@
+extern "C" {\n    void create_account(const char* account_name) {\n        // C++ code to create an account\n    }\n\n    void deposit(double amount) {\n        // C++ code to deposit money\n    }\n}

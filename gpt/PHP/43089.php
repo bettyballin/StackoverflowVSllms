@@ -1,1 +1,0 @@
-<?php\n// Start the session\nsession_start();\n\n// Set session variables\n$_SESSION["username"] = "JohnDoe";\n$_SESSION["email"] = "john.doe@example.com";\n\n// Access session variables\necho "Username: " . $_SESSION["username"];\necho "Email: " . $_SESSION["email"];\n?>

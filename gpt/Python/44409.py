@@ -1,1 +1,0 @@
-def is_valid_integer(s):\n    return s.isdigit()

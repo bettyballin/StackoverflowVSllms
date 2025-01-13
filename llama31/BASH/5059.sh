@@ -1,0 +1,1 @@
+WinMergeU.exe /f changes.txt

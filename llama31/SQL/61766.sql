@@ -1,0 +1,1 @@
+CREATE XML INDEX idx_xmlvalues ON Contacts (xmlvalues);

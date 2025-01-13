@@ -1,1 +1,0 @@
-CREATE CLUSTERED INDEX IX_Cache_Id ON dbo.CacheTable (cache_id);\n     CREATE NONCLUSTERED INDEX IX_Cache_Name ON dbo.CacheTable (cache_name);\n     CREATE NONCLUSTERED INDEX IX_Cache_Event_ID ON dbo.CacheTable (cache_event_id);

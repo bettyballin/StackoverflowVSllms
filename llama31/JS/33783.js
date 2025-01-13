@@ -1,0 +1,1 @@
+function isFormDirty(form) {\n  var dirty = false;\n  var observer = new MutationObserver(function(mutations) {\n    dirty = true;\n  });\n  observer.observe(form, {\n    childList: true,\n    attributes: true,\n    characterData: true,\n    subtree: true\n  });\n  return function() {\n    return dirty;\n  }\n}

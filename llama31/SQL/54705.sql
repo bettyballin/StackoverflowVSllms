@@ -1,0 +1,1 @@
+SELECT a, 1 as order_col FROM A LIMIT 1\nUNION\nSELECT b, 2 as order_col FROM B LIMIT 1\nORDER BY order_col;

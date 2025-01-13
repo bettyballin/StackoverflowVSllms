@@ -1,1 +1,0 @@
-<?php\nini_set('log_errors', 'On');\nini_set('error_log', '/path/to/your/error.log');\n?>

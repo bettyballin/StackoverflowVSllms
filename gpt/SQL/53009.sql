@@ -1,1 +1,0 @@
-SELECT \n    CAST(DateField AS DATE) AS Date,\n    MAX(NumericalField) AS MaxValue\nFROM \n    YourTable\nWHERE \n    DateField >= '2023-01-01' AND DateField < '2024-01-01'\nGROUP BY \n    CAST(DateField AS DATE)\nORDER BY \n    Date;

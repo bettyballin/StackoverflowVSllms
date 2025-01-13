@@ -1,1 +1,0 @@
-private static readonly object SessionLock = new object();\n\nprotected void Page_Load(object sender, EventArgs e)\n{\n    lock (SessionLock)\n    {\n        // Access and modify session state here\n    }\n}

@@ -1,1 +1,0 @@
-ping <svn_server_ip>\ntraceroute <svn_server_ip>

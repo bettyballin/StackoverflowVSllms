@@ -1,1 +1,0 @@
-SELECT * FROM database\nWHERE foobar IS NULL;

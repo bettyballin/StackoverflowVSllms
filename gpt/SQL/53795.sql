@@ -1,1 +1,0 @@
-ALTER TABLE locations ADD SPATIAL INDEX(lat_lng_idx (lat, lng));

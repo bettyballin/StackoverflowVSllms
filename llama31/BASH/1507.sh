@@ -1,0 +1,1 @@
+# Establish an HTTPS connection\nopenssl s_client -connect example.com:443\n\n# Send an HTTP request\nGET /path/to/resource HTTP/1.1\nHost: example.com\nAccept: */*\nCookie: my_cookie=value\n\n# Everything sent after the TLS handshake is encrypted

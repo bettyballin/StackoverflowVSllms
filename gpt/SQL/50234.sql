@@ -1,1 +1,0 @@
-CREATE TABLE DimDate (\n        DateKey INT PRIMARY KEY,\n        Date DATE,\n        Year INT,\n        Quarter INT,\n        Month INT,\n        Day INT\n    );

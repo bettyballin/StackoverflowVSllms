@@ -1,0 +1,1 @@
+addImageToMessage($mimeMessage, 'path/to/image1.jpg');\naddImageToMessage($mimeMessage, 'path/to/image2.jpg');

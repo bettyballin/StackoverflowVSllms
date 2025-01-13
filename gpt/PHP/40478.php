@@ -1,1 +1,0 @@
-$page = htmlspecialchars("Hello! <?php include(\"template.html\"); ?>");

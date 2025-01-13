@@ -1,1 +1,0 @@
-SELECT\n    @@VERSION AS 'SQL Server Version';

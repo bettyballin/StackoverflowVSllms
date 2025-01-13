@@ -1,0 +1,1 @@
+var property = Myobject.MyNestedObject ?? new MyClass.MyNestedObject();\nif (property.Property != null)\n{\n    // code\n}

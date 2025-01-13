@@ -1,0 +1,1 @@
+SELECT COUNT(*) \nFROM (\n  SELECT DISTINCT year, month, day \n  FROM orders \n  WHERE year = 2009 AND month = 1\n) AS subquery;

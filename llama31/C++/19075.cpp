@@ -1,0 +1,1 @@
+QOpenGLWidget* glWidget = new QOpenGLWidget();\n// ... render something ...\nglWidget->doneCurrent();

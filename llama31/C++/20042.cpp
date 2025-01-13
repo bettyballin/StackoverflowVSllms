@@ -1,0 +1,1 @@
+map<char, int> mymap;\nmymap['c'] = 30;\nmymap.erase('c'); // erases the element with key 'c'\nmymap.erase('c'); // does nothing, returns 0\nmymap.erase('D'); // does nothing, returns 0

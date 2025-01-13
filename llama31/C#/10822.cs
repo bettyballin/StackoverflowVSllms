@@ -1,0 +1,1 @@
+[WebMethod]\npublic void Options()\n{\n    Context.Response.StatusCode = 200;\n}

@@ -1,0 +1,1 @@
+OleDbCommandBuilder commandBuilder = new OleDbCommandBuilder(adapterA);\nadapterA.DeleteCommand = commandBuilder.GetDeleteCommand();\nadapterA.InsertCommand = commandBuilder.GetInsertCommand();\nadapterA.UpdateCommand = commandBuilder.GetUpdateCommand();

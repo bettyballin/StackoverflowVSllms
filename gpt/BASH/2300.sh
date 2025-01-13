@@ -1,1 +1,0 @@
-sudo apt-get install cppcheck\n   cppcheck path/to/your/source/code

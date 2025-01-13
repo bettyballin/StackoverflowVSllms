@@ -1,0 +1,1 @@
+use yii\db\ActiveRecord;\n\nclass User extends ActiveRecord\n{\n    public static function tableName()\n    {\n        return 'users';\n    }\n}\n\n$user = User::findOne(1);\necho $user->name;

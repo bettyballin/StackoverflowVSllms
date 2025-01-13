@@ -1,1 +1,0 @@
-rsync -av --exclude='.svn' <path_to_new_tinymce_files> <local_checkout_directory>/path_to_tinymce_folder

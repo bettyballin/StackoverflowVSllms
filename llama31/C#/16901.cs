@@ -1,0 +1,1 @@
+using System.Windows;\n\nnamespace MyNamespace\n{\n    public partial class App : Application\n    {\n        public App()\n        {\n            // Initialize your .NET code here\n        }\n    }\n}

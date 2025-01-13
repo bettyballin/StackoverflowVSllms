@@ -1,0 +1,1 @@
+IDirect3DTexture9* texture = ...; // Create or obtain the texture\n// Use the texture...\ntexture->Release(); // Release the texture when you're done with it

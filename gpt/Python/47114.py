@@ -1,1 +1,0 @@
-from selenium import webdriver\n\n        driver = webdriver.Chrome(executable_path='/path/to/chromedriver')\n        driver.get("http://www.google.com")\n        print("Title: " + driver.title)\n        driver.quit()

@@ -1,0 +1,1 @@
+$a = 5;\n$b = '5';\n\nvar_dump($a == $b);  // bool(true)\nvar_dump($a === $b); // bool(false)

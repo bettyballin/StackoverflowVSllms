@@ -1,0 +1,1 @@
+$this->load->library('ion_auth');\n\n$identity = 'username';\n$password = 'password';\n\nif ($this->ion_auth->login($identity, $password)) {\n    // Login successful\n    redirect('dashboard');\n} else {\n    // Login failed\n    $this->session->set_flashdata('error', 'Invalid username or password');\n    redirect('login');\n}

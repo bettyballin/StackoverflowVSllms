@@ -1,0 +1,1 @@
+public partial class MyUserControl : UserControl\n{\n    protected override void OnPreRender(EventArgs e)\n    {\n        base.OnPreRender(e);\n        // Your code here\n    }\n}

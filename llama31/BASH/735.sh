@@ -1,0 +1,1 @@
+gcc -o output_file your_file.o -L. -llibrary

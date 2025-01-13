@@ -1,1 +1,0 @@
-./csv_to_xls.sh input.csv output.xls

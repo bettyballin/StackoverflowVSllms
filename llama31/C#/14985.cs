@@ -1,0 +1,1 @@
+string localAppDataPath = Environment.GetFolderPath(Environment.SpecialFolder.LocalApplicationData);\nstring roamingAppDataPath = Environment.GetFolderPath(Environment.SpecialFolder.ApplicationData);

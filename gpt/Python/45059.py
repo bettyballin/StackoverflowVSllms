@@ -1,1 +1,0 @@
-# Generate random values from the fitted normal distribution\nrandom_values = norm.rvs(loc=mu, scale=std, size=1000)\n\n# Generate random values from the fitted exponential distribution\nrandom_values = expon.rvs(loc=loc, scale=scale, size=1000)\n\n# Generate random values from the fitted gamma distribution\nrandom_values = gamma.rvs(alpha, loc=loc, scale=beta, size=1000)

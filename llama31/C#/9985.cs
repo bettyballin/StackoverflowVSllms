@@ -1,0 +1,1 @@
+foreach (var (prev, curr) in PersonList.Zip(PersonList.Skip(1), (p1, p2) => (p1, p2)))\n{\n    if (prev.Employer != curr.Employer)\n    {\n        doSomething();\n    }\n    // more code\n}

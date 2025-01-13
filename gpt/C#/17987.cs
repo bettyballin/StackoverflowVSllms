@@ -1,1 +1,0 @@
-UpdateAppSettings("homepagedesc", "New description for the home page");

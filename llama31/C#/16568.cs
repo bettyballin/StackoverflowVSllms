@@ -1,0 +1,1 @@
+public async Task<bool> StoreAccelerationAsync(string strStringSession, DateTime receivedTime, double accelerationX, double accelerationY, double accelerationZ)\n{\n    // ...\n    using (SqlCommand cmd = new SqlCommand(select, DatabaseManager.Instance.Connection))\n    {\n        await cmd.ExecuteNonQueryAsync();\n    }\n    // ...\n}

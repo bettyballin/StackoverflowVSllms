@@ -1,0 +1,1 @@
+sudo apt-get install clamav\nsudo clamscan -i /path/to/your/website

@@ -1,1 +1,0 @@
-if (params["conditionParam"] == "true") {\n    true;\n} else {\n    false;\n}

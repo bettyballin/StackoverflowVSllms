@@ -1,1 +1,0 @@
--- Retrieve friends' IDs\nSELECT friend_id \nFROM Friends \nWHERE user_id = :current_user_id;\n\n-- Retrieve recent events from friends\nSELECT * \nFROM Events \nWHERE user_id IN (\n    SELECT friend_id \n    FROM Friends \n    WHERE user_id = :current_user_id\n)\nORDER BY event_timestamp DESC\nLIMIT 100;  -- Limiting the number of events for performance

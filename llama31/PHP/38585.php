@@ -1,0 +1,1 @@
+$mysqli = new mysqli('localhost', 'your_username', 'your_password', 'your_database');\n$mysqli->query('SELECT only_the_columns_you_need FROM your_table');

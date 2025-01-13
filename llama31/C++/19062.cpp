@@ -1,0 +1,1 @@
+void safeFunction(const std::string &input) {\n    std::string buffer = input; // no buffer overflow vulnerability\n}

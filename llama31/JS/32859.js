@@ -1,0 +1,1 @@
+function isElementClosed(element) {\n  const outerHTML = element.outerHTML;\n  const tagName = element.tagName.toLowerCase();\n  const closingTag = `</${tagName}>`;\n  return outerHTML.includes(closingTag);\n}

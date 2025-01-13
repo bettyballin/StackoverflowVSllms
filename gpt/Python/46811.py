@@ -1,1 +1,0 @@
-import librosa\nimport soundfile as sf\n\n# Load sound file\ny, sr = librosa.load('your_sound_file.mp3')\n\n# Change the tempo\ny_fast = librosa.effects.time_stretch(y, 1.5)\n\n# Save the altered sound file\nsf.write('faster_sound_file.wav', y_fast, sr)

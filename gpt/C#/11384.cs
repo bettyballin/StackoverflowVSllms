@@ -1,1 +1,0 @@
-event PropertyChangedEventHandler INotifyPropertyChanged.PropertyChanged\n{\n    add { PropertyChanged += value; }\n    remove { PropertyChanged -= value; }\n}

@@ -1,1 +1,0 @@
-%windir%\Microsoft.NET\Framework\v2.0.50727\aspnet_regiis.exe -s W3SVC/1/ROOT/YourApp

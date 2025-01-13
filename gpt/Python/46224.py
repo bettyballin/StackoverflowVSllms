@@ -1,1 +1,0 @@
-def safe_index(lst, value):\n    try:\n        return lst.index(value)\n    except ValueError:\n        return -1\n\nchars = #some list\n\nindx = safe_index(chars, chars)\n\nif indx == -1:\n    # doSomething\nelse:\n    # doSomethingElse

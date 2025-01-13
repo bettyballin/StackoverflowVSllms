@@ -1,0 +1,1 @@
+[WebMethod]\npublic void MyWebServiceMethod(string token)\n{\n    // Validate token and retrieve session variables\n}

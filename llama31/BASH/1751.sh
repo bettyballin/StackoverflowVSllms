@@ -1,0 +1,1 @@
+# Create a new application in IIS\nappcmd add app /site.name:"Default Web Site" /path:/MyApp /physicalPath:C:\inetpub\wwwroot\MyApp

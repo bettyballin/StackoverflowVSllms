@@ -1,0 +1,1 @@
+from requests_html import HTMLSession\n\nsession = HTMLSession()\nr = session.get("https://example.com")\nhtml = r.html.render()\n\nprint(html)

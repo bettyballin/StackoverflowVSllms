@@ -1,1 +1,0 @@
-sed 's/.*\(target\).*/REPLACED\1REPLACED/'

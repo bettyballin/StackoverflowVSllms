@@ -1,0 +1,1 @@
+gcc -dM -E - < /dev/null > predefined_macros.txt

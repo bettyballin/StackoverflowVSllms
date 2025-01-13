@@ -1,0 +1,1 @@
+# Install tmux package\nsudo apt-get install tmux\n\n# Start a new tmux session\ntmux new-session -s mysession\n\n# Run your command inside the tmux session\n./your_command.sh\n\n# Detach from the tmux session (Ctrl + B + D)

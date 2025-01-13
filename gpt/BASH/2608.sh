@@ -1,1 +1,0 @@
-" Open your .vimrc file\nvim ~/.vimrc\n\n" Add the following lines for filetype-specific indentation settings\nautocmd FileType python setlocal shiftwidth=2 tabstop=2 expandtab\nautocmd FileType powershell setlocal shiftwidth=4 tabstop=4 expandtab\n\n" Optionally, you can add settings for other file types as well

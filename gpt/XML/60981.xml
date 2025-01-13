@@ -1,1 +1,0 @@
-<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">\n    <ItemGroup>\n        <Dll Include="<Path_to_DLLs>\*.dll" />\n    </ItemGroup>\n\n    <Target Name="OutputDllName">\n        <!-- Loop through each DLL and output its name -->\n        <Message Text="Processing DLL: %(Dll.Identity)" />\n    </Target>\n</Project>

@@ -1,1 +1,0 @@
-csvsql --query "SELECT * FROM data WHERE column_name = 'value'" data.csv

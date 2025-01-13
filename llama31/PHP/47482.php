@@ -1,0 +1,1 @@
+$text = 'Hello & world! &nbsp; is a non-breaking space.';\n$replaced = preg_replace($pattern, '&amp;', $text);\necho $replaced; // Output: Hello &amp; world! &nbsp; is a non-breaking space.

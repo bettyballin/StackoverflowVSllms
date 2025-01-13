@@ -1,0 +1,1 @@
+:: Full backup\nstsadm -o backup -directory \\backup\sharepoint\full -backuplocation \\backup\sharepoint\full\%DATE:~0,8%_full\n\n:: Differential backup\nstsadm -o backup -directory \\backup\sharepoint\diff -backuplocation \\backup\sharepoint\full\%DATE:~0,8%_full -differential

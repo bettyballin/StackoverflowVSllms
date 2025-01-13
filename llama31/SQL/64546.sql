@@ -1,0 +1,1 @@
+SELECT m.*, s.*\nFROM main_table m\nLEFT JOIN (\n  SELECT *, MIN(oid) OVER (PARTITION BY main_table_id) AS min_oid\n  FROM sub_table\n) s ON m.id = s.main_table_id AND s.oid = s.min_oid;

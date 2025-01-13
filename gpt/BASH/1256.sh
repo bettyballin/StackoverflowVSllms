@@ -1,1 +1,0 @@
-$siteUrl = "http://yoursharepointsite.com"\n$webPartPage = "/path/to/webpartpage.aspx"\n\n# Create a WebRequest object\n$request = [System.Net.WebRequest]::Create($siteUrl + $webPartPage)\n$request.Credentials = [System.Net.CredentialCache]::DefaultNetworkCredentials\n\n# Get the response\n$response = $request.GetResponse()\n$response.Close()

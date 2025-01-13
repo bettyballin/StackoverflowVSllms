@@ -1,0 +1,1 @@
+class MyClass; // forward declaration\n\nclass MyClass {\npublic:\n    MyClass* operator&() { return this; } // overload operator&\n};\n\nint main() {\n    MyClass obj;\n    MyClass* ptr = &obj; // This will call the overloaded operator&\n    return 0;\n}

@@ -1,1 +1,0 @@
-ALTER TABLE your_table MODIFY COLUMN your_column your_column_type COMMENT 'deprecated';

@@ -1,1 +1,0 @@
-cpan install Net::Google::OAuth2::Client\n   cpan install MIME::Base64\n   cpan install Email::Sender::Transport::SMTP

@@ -1,1 +1,0 @@
-SELECT \n    ApplicationID, \n    Status \nFROM \n    ApplicationStatus;

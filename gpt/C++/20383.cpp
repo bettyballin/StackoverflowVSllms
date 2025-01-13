@@ -1,1 +1,0 @@
-// Hypothetical reconstructed code from assembly\nunsigned int GetHash(const std::string& input) {\n    unsigned int hash = 0;\n    for (char c : input) {\n        hash = hash * 31 + c;\n    }\n    return hash;\n}

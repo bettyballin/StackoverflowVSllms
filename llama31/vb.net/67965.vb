@@ -1,0 +1,1 @@
+' Remove IDisposable implementation and Finalize method\n\nPublic Class Domain\n    ' Properties and fields...\n\n    ' No Dispose or Finalize method needed\nEnd Class

@@ -1,1 +1,0 @@
-echo "“HAL,” noted Frank, “said that everything was going extremely well.”" | python3 extract_quotes.py

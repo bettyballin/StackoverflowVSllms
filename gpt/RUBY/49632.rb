@@ -1,1 +1,0 @@
-# Add to Gemfile\n   gem 'rack-mini-profiler'\n   \n   # Run bundle install

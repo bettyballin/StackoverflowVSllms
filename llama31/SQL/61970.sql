@@ -1,0 +1,1 @@
+CREATE STREAM capture_stream;\n\nBEGIN\n  DBMS_STREAMS_ADM.ADD_TABLE_RULES(\n    stream_name       => 'capture_stream',\n    tables            => 'my_table',\n    inclusion_rule    => true);\nEND;

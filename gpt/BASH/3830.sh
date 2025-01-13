@@ -1,1 +1,0 @@
-cd C:\path\to\source\code

@@ -1,1 +1,0 @@
-class YourController extends Zend_Controller_Action\n{\n    public function someAction()\n    {\n        // Other action code...\n\n        // Set a flag to indicate RSS feed should be added\n        $this->view->rssFeed = 'http://example.com/rss-feed.xml';\n    }\n}

@@ -1,0 +1,1 @@
+# To reset Visual Studio settings to default\ndevenv /resetsettings

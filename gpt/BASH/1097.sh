@@ -1,1 +1,0 @@
-set ORACLE_HOME=C:\path\to\oracle\client\n    set TNS_ADMIN=%ORACLE_HOME%\network\admi

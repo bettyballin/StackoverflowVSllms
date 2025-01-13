@@ -1,1 +1,0 @@
-SELECT e.*\nFROM employee e\nJOIN (\n    SELECT department, MIN(salary) AS min_salary\n    FROM employee\n    GROUP BY department\n) AS min_salaries\nON e.department = min_salaries.department AND e.salary = min_salaries.min_salary\nWHERE e.department = 'sales';

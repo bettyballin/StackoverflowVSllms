@@ -1,0 +1,1 @@
+[DllImport("user32.dll")]\npublic static extern bool DestroyIcon(IntPtr hIcon);\n\n// Later...\nDestroyIcon(iconHandle);

@@ -1,0 +1,1 @@
+def register_anonymous_user\n  # Find the anonymous user by their token\n  anonymous_user = User.find_by!(token: session[:user_id])\n  # Associate their data with the new account\n  current_user.anonymous_data << anonymous_user.anonymous_data\n  # Regenerate session ID\n  session.regenerate\nend

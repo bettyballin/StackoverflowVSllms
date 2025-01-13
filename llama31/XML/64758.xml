@@ -1,0 +1,1 @@
+<package name="page.index" namespace="/page/index">\n  <forward name="feedback" path="/feedback.jsp"/>\n</package>

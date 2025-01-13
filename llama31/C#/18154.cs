@@ -1,0 +1,1 @@
+var numbers = new[] { 1, 2, 3, 4, 5 };\nvar evenNumbers = numbers.Where(n => n % 2 == 0);\n\nforeach (var number in evenNumbers)\n{\n    Console.WriteLine(number);\n}

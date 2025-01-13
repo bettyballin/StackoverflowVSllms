@@ -1,1 +1,0 @@
-<configuration>\n  <connectionStrings>\n    <add name="MySqlConnection" \n         connectionString="server=yourserver;port=3306;database=yourdatabase;uid=yourusername;pwd=yourpassword;" \n         providerName="MySql.Data.MySqlClient" />\n  </connectionStrings>\n</configuration>

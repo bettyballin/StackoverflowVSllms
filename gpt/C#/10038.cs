@@ -1,1 +1,0 @@
-protected void Application_Start(object sender, EventArgs e)\n{\n    // Your initialization code here\n    StartFluorineFXRTMPServer();\n}\n\nprivate void StartFluorineFXRTMPServer()\n{\n    // Code to start the Fluorine FX RTMP server\n}

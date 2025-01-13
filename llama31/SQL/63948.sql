@@ -1,0 +1,1 @@
+-- Execute SQL Task\nDECLARE @sqlStatement nvarchar(max)\n\n-- Get the SQL statement from the Script Component output\nSELECT @sqlStatement = SqlStatement FROM YourOutputBuffer\n\n-- Execute the SQL statement\nEXEC sp_executesql @sqlStatement

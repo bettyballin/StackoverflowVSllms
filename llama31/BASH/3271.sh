@@ -1,0 +1,1 @@
+# Example using curl with a VPN service\ncurl --interface <vpn_interface> http://example.com

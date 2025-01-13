@@ -1,1 +1,0 @@
-List<int> numbers = new List<int>();\nnumbers.Add(1);\nnumbers.Add(2);\nnumbers.Add(3);\nint firstNumber = numbers[0]; // No need for type casting

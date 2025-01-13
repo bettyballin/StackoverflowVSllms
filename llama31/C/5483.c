@@ -1,0 +1,1 @@
+typedef short int (__stdcall *vbfun)(short int);

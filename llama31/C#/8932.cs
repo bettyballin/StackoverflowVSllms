@@ -1,0 +1,1 @@
+using System.Web.Script.Serialization;\n\n// Your data\nstring[] items = new string[] { "Item1", "Ite|m1", "Item3" };\n\n// Serialize to JSON\nJavaScriptSerializer serializer = new JavaScriptSerializer();\nstring jsonData = serializer.Serialize(items);\n\n// Output: ["Item1","Ite|m1","Item3"]

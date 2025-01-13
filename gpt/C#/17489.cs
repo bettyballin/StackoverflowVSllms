@@ -1,1 +1,0 @@
-var people = from p in Person\n             where p.age < 18\n             select p;\n\nvar otherPeople = from p in people\n                  where p.firstName == "Daniel"\n                  select p;

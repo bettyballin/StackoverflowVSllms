@@ -1,0 +1,1 @@
+using System.Security.Cryptography;\n\n// Generate a cryptographically secure random IV\nbyte[] iv = new byte[16];\nusing (var rng = RandomNumberGenerator.Create())\n{\n    rng.GetBytes(iv);\n}

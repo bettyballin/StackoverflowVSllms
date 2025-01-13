@@ -1,0 +1,1 @@
+jarsigner -verify -certs your_jar_file.jar

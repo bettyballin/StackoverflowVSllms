@@ -1,0 +1,1 @@
+#include <stdio.h>\n\n#define IMGX 16\n#define IMGY 16\n\nchar img[IMGY][IMGX][3];\n\nint main() {\n    for (int i = 0; i < IMGY; i++) {\n        for (int j = 0; j < IMGX; j++) {\n            // Accessing img[i][j][0]\n            printf("%p\n", (void*)&img[i][j][0]);\n        }\n    }\n    return 0;\n}

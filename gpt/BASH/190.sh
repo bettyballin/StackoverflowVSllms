@@ -1,1 +1,0 @@
-instruments -t Time\ Profiler ./your_applicatio

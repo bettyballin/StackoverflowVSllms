@@ -1,0 +1,1 @@
+Imports System.Media\n\nModule WAVPlayer\n    Sub PlayWAVFile(ByVal wavFile As String)\n        Using soundPlayer As New SoundPlayer(wavFile)\n            soundPlayer.Play()\n        End Using\n    End Sub\nEnd Module

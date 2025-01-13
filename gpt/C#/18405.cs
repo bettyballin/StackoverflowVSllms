@@ -1,1 +1,0 @@
-Stack<string> history = new Stack<string>();\n   history.Push("Page1");\n   string lastPage = history.Pop();

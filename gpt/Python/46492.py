@@ -1,1 +1,0 @@
-query.filter(username == "bob")

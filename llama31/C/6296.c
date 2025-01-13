@@ -1,0 +1,1 @@
+// Simplified CPUID usage example\nint cpuFeatures = cpuid_get_features();\nif (cpuFeatures & CPUID_AVX2) {\n    // Call AVX2 optimized function\n} else if (cpuFeatures & CPUID_SSE4_2) {\n    // Call SSE4.2 optimized function\n}

@@ -1,0 +1,1 @@
+SELECT pe.prodtree_element_name_l, \n       MAX(CONVERT(nvarchar(max), rs.resource_value)) AS resource_value\nFROM prodtree_element pe\nLEFT JOIN resource_shortstrings rs\n    ON pe.prodtree_element_name_l_rk = rs.resource_key\nWHERE rs.language_id = '5'\n    AND pe.prodtree_element_name_l <> ''\nGROUP BY prodtree_element_name_l

@@ -1,1 +1,0 @@
-your_program.exe\necho %ERRORLEVEL%

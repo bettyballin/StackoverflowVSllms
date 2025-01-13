@@ -1,0 +1,1 @@
+int modifiers = 0;\nif (checkBoxShift.Checked) modifiers |= MOD_SHIFT;\nif (checkBoxControl.Checked) modifiers |= MOD_CONTROL;\nif (checkBoxAlt.Checked) modifiers |= MOD_ALT;

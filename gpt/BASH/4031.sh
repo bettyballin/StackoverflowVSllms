@@ -1,1 +1,0 @@
-chmod +x ~/sync_to_remote.sh

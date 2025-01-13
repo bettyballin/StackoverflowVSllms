@@ -1,0 +1,1 @@
+wmic /namespace:\\root\virtualization path Msvm_VirtualSystemSnapshotService call CreateSnapshot "VMName"

@@ -1,1 +1,0 @@
-SELECT * \nFROM YourTableName \nWHERE ColumnName LIKE 'plu%';

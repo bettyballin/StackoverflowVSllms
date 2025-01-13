@@ -1,0 +1,1 @@
+# Basic debugging information (compatible with most debuggers)\ngcc -g -o myprogram myprogram.c\n\n# More detailed debugging information (specifically for GDB)\ngcc -ggdb -o myprogram myprogram.c

@@ -1,0 +1,1 @@
+devenv /build /project:YourProjectName /platform:x86

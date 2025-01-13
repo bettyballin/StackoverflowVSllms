@@ -1,0 +1,1 @@
+wrk -t10 -c10 -d10s -m PUT http://example.com\nwrk -t10 -c10 -d10s -m DELETE http://example.com

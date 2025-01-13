@@ -1,0 +1,1 @@
+bool IsPerfectSquare(long input)\n{\n    if (input < 0) return false;\n    long sqrt = 0;\n    while (sqrt * sqrt <= input)\n    {\n        if (sqrt * sqrt == input) return true;\n        sqrt++;\n    }\n    return false;\n}

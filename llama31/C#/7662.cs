@@ -1,0 +1,1 @@
+// C# constraint example\npublic class GenericClass<T> where T : IDisposable {\n  public void Dispose(T obj) {\n    obj.Dispose();\n  }\n}

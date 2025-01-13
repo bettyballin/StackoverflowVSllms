@@ -1,0 +1,1 @@
+csc /v /target:library /out:MyAssembly.dll MySource.cs

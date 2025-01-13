@@ -1,0 +1,1 @@
+DELETE FROM addresses\nWHERE address_id NOT IN (\n  SELECT address_id FROM suppliers\n  UNION\n  SELECT address_id FROM purchase_orders\n  -- add other tables that reference addresses\n);

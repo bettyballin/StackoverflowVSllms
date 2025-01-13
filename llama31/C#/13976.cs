@@ -1,0 +1,1 @@
+HashSet<int> setA = new HashSet<int>(ListA);\nforeach (int b in ListB)\n{\n    if (setA.Contains(b))\n    {\n        return true;\n    }\n}

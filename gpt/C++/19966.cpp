@@ -1,1 +1,0 @@
-#include <vector>\n#include <string>\n#include <sstream>\n\nstd::string join(const std::vector<std::string>& list, const std::string& delimiter) {\n    std::ostringstream result;\n    for (auto it = list.begin(); it != list.end(); ++it) {\n        if (it != list.begin()) {\n            result << delimiter;\n        }\n        result << *it;\n    }\n    return result.str();\n}

@@ -1,1 +1,0 @@
-function return_json($obj) {\n  ob_start(); // Start output buffering\n  header("Content-Type: application/json");\n  echo json_encode($obj);\n  ob_end_flush(); // Send output buffer contents and turn off output buffering\n  exit;\n}

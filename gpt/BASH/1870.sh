@@ -1,1 +1,0 @@
-#!/bin/bash\n\n# Convert the PDF file to a hex string\nxxd -p yourfile.pdf > yourfile.hex\n\n# Insert the hex string into the MySQL database\nmysql -u yourusername -p yourdatabase -e "INSERT INTO yourtable (id, data) VALUES (1, 0x$(cat yourfile.hex));"\n\n# Clean up the hex file\nrm yourfile.hex

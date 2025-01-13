@@ -1,0 +1,1 @@
+svn commit -m "Merged changes from Internet repository" file:///local-repo/branches/local-branch

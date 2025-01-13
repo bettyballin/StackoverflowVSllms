@@ -1,1 +1,0 @@
-public class YourEntity\n   {\n       public int Id { get; set; }\n\n       public int VersionId { get; set; } // or use a Boolean IsLatest;\n\n       // other fields...\n   }

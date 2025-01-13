@@ -1,1 +1,0 @@
-cl -I"%JAVA_HOME%\include" -I"%JAVA_HOME%\include\win32" -LD NativeExample.c -FeNativeExample.dll

@@ -1,1 +1,0 @@
--- To detect blocking\n    SELECT * FROM sys.dm_exec_requests WHERE blocking_session_id != 0;\n    \n    -- To detect deadlocks\n    SET DEADLOCK_PRIORITY LOW;

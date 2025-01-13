@@ -1,1 +1,0 @@
-*/10 * * * * /usr/bin/flock -n /var/run/your_script.lock /path/to/your/script.sh

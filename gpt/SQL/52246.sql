@@ -1,1 +1,0 @@
-SELECT child.id\nFROM items AS child\nLEFT JOIN items AS parent ON child.parent_id = parent.id\nWHERE child.parent_id IS NOT NULL AND parent.id IS NULL;

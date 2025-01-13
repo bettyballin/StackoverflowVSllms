@@ -1,1 +1,0 @@
-using (var context = new YourDbContext())\n{\n    var results = context.YourEntities\n                         .Include(e => e.RelationshipProperty)\n                         .Where(e => e.Property == "value")\n                         .ToList();\n}

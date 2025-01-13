@@ -1,0 +1,1 @@
+$uploadDir = 'uploads/';\n$fileName = $_FILES['userfile']['name'];\n$tmpName = $_FILES['userfile']['tmp_name'];\n\nif (move_uploaded_file($tmpName, $uploadDir . $fileName)) {\n    // File uploaded successfully\n} else {\n    // File upload failed\n}

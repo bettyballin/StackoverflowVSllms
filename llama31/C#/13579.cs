@@ -1,0 +1,1 @@
+public class YourWebService : WebService\n{\n    public CustomAuthHeader AuthHeaderValue { get; set; }\n\n    [WebMethod]\n    public void YourMethod()\n    {\n        if (AuthHeaderValue.Token != "YourSecretToken")\n        {\n            throw new Exception("Unauthorized");\n        }\n    }\n}

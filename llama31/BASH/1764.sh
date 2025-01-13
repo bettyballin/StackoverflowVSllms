@@ -1,0 +1,1 @@
+# Example of setting up IIS Express on Windows XP\n# Install IIS Express\nmsiexec /i IISExpress_amd64_en-US.msi\n\n# Create a new IIS Express site\nappcmd add site /name:"MySite" /bindings:http/*:8080\n\n# Start the IIS Express site\niisexpress /site:MySite

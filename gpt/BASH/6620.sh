@@ -1,1 +1,0 @@
-# Example command to run OWASP Dependency-Check on a .NET project\n    dependency-check --project "MyProject" --scan "path/to/project"

@@ -1,0 +1,1 @@
+Imports System.Threading\n\n[TestInitialize]\nPublic Sub Initialize()\n    Thread.CurrentThread.SetApartmentState(ApartmentState.STA)\nEnd Sub

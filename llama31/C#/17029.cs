@@ -1,0 +1,1 @@
+protected void Page_Load(object sender, EventArgs e)\n{\n    if (IsPostBack) return;\n\n    // Initialize search form and button text\n    SearchButton.Text = "Search Web";\n}

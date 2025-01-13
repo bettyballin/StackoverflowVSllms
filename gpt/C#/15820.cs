@@ -1,1 +1,0 @@
-using (SqlCommand cmd = new SqlCommand("SELECT * FROM Users WHERE UserID = @UserID", conn))\n    {\n        cmd.Parameters.AddWithValue("@UserID", userId);\n        // Execute command\n    }

@@ -1,0 +1,1 @@
+window.onload = function() {\n  window.print();\n}

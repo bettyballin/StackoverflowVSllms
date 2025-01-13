@@ -1,0 +1,1 @@
+EXEC sp_addlinkedserver \n    @server = 'linked_server_name', \n    @srvproduct = 'SQL Server', \n    @provider = 'SQLNCLI', \n    @datasrc = 'linked_server_name', \n    @catalog = 'database_name', \n    @options = 'REMOTE_PROC_TRANSACTION=OFF';

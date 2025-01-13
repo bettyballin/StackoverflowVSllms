@@ -1,0 +1,1 @@
+using System;\nusing System.IO;\n\nclass Program\n{\n    static void Main()\n    {\n        string filePath = "input.txt";\n        using (StreamReader reader = new StreamReader(filePath))\n        {\n            string line;\n            while ((line = reader.ReadLine()) != null)\n            {\n                Console.WriteLine(line);\n            }\n        }\n    }\n}

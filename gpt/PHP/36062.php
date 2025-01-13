@@ -1,1 +1,0 @@
-function linkify($text) {\n    $pattern = '/(http:\/\/[^\s]+)/';\n    $replacement = '<a href="$1" rel="noreferrer">$1</a>';\n    return preg_replace($pattern, $replacement, $text);\n}\n\n$string = "Look on http://www.google.com. Visit http://www.example.com for more info.";\necho linkify($string);

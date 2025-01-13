@@ -1,0 +1,1 @@
+// Example of Hamming(7,4) encoding\nuint8_t data = 0x0A;  // 4-bit data\nuint8_t encoded_data = (data << 3) | (parity_bit_1 << 2) | (parity_bit_2 << 1) | parity_bit_3;

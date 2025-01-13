@@ -1,0 +1,1 @@
+UPDATE customers\nSET name = 'John Doe',\n    address = '123 Main St',\n    email = 'new_email@example.com';

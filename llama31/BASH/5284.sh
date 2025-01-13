@@ -1,0 +1,1 @@
+svn status /path/to/repo > changed_files.txt\nxcopy /path/to/repo /path/to/backup /y /f /i < changed_files.txt

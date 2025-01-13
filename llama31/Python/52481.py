@@ -1,0 +1,1 @@
+sep = 0x1\ndata = ["abc","def","ghi","jkl"]\n\nresult = chr(sep).join(data)\n\nprint(result)

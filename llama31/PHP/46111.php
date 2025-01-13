@@ -1,0 +1,1 @@
+function myFunction($args) {\n    $defaults = array(\n        'title_li' => '',\n        'echo' => true,\n    );\n    $args = array_merge($defaults, $args);\n    // Process the arguments here\n    if ($args['echo']) {\n        echo $args['title_li'];\n    } else {\n        return $args['title_li'];\n    }\n}\n\nmyFunction(array('title_li' => 'Hello, World!'));

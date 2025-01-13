@@ -1,0 +1,1 @@
+// mydll.h\nvoid myFunction();\n\n// mydll.c\nvoid myFunction() {\n    // implementation\n}

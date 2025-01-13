@@ -1,0 +1,1 @@
+string connectionString = "Server=myServer;Database=myDB;User=myUser;Password=myPassword;BatchSize=100";

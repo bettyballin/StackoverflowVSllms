@@ -1,0 +1,1 @@
+// application/views/scripts/my/index.phtml\nThis is my new view!

@@ -1,0 +1,1 @@
+Dim qdf As QueryDef\nSet qdf = CurrentDb.QueryDefs("MyQuery")\nqdf.Parameters("ids") = 1234\nqdf.Execute

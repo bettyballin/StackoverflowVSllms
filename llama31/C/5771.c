@@ -1,0 +1,1 @@
+freeMultiArray(multi, 10);

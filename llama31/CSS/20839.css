@@ -1,0 +1,1 @@
+.static-element {\n  position: relative;\n}\n\n.static-element img {\n  position: absolute;\n  top: 0;\n  left: 0;\n}

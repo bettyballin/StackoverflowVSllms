@@ -1,0 +1,1 @@
+vault kv put secret/myapp/db \\n  username=myuser \\n  password=mypassword

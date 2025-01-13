@@ -1,0 +1,1 @@
+CREATE INDEX idx_source ON 4e_magic_items (source);\nCREATE INDEX idx_type ON 4e_magic_items (type);\nCREATE INDEX idx_itemlevel ON 4e_magic_item_levels (itemlevel);

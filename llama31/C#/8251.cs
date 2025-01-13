@@ -1,0 +1,1 @@
+string hexadecimalNumber = guid.ToString("N").Substring(0, 16);

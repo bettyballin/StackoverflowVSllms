@@ -1,0 +1,1 @@
+$('.itemsList').sortable({\n  connectWith: '.itemsList:not(this)'\n});

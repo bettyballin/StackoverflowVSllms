@@ -1,1 +1,0 @@
-// GetEmployeesResultPartial.cs\n    namespace YourNamespace\n    {\n        public partial class GetEmployeesResult\n        {\n            // Add your custom properties and methods here\n        }\n    }

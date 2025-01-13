@@ -1,1 +1,0 @@
-SELECT id, date, hits\nFROM your_table\nWHERE date >= DATE_SUB(CURDATE(), INTERVAL 2 WEEK);

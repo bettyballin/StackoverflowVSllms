@@ -1,0 +1,1 @@
+string url = "https://servicios.mensario.com/enviomasivo/apip/";\nstring postData = "usuario=SomeUser&clave=SomePassword&nserie=01234567890123456789&version=01010000&operacion=220";\n\nstring response = HttpsPostRequest.MakePostRequest(url, postData);\n\nConsole.WriteLine(response);

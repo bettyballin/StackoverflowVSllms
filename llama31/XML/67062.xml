@@ -1,0 +1,1 @@
+<configuration>\n  <oracle.dataaccess.client>\n    <add name="DllPath" value="oracle_client"/>\n  </oracle.dataaccess.client>\n</configuration>

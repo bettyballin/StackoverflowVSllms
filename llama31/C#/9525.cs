@@ -1,0 +1,1 @@
+string encodedParameter = HttpUtility.UrlEncode(userInput);

@@ -1,0 +1,1 @@
+#!/bin/bash\n\nfor file in files/*.zip; do\n  archive_name=$(basename "$file" .zip)\n  mkdir -p "files/$archive_name"\n  unzip -j "$file" "*.jpg" "*.png" "*.gif" -d "files/$archive_name"\ndone

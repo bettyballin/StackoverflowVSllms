@@ -1,1 +1,0 @@
-$keyword = $mysqli->real_escape_string($keyword); // Make sure to escape the keyword to prevent SQL injection\n\n$sql = "\nSELECT *,\nMATCH(title, content) AGAINST('$keyword' IN BOOLEAN MODE) AS score\nFROM articles\nWHERE MATCH(title, content) AGAINST('$keyword' IN BOOLEAN MODE)\nORDER BY score DESC \n";

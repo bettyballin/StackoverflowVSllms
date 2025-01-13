@@ -1,1 +1,0 @@
-# Example of updating a Linux system\n    sudo apt-get update\n    sudo apt-get upgrade\n    sudo apt-get dist-upgrade

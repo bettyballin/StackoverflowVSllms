@@ -1,0 +1,1 @@
+function positionUpdate(characterId, position) {\n  var queryString = "characterId=" + characterId + "&position=" + position;\n  var xhr = new XMLHttpRequest();\n  xhr.open("POST", "new_position.php", true);\n  xhr.setRequestHeader("Content-Type", "application/x-www-form-urlencoded");\n  xhr.send(queryString);\n}

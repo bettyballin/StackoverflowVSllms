@@ -1,1 +1,0 @@
-jarsigner -keystore mykeystore.jks -signedjar myapp-signed.jar myapp.jar mykey

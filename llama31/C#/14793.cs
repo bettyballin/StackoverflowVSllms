@@ -1,0 +1,1 @@
+using System.Security.Cryptography;\n\npublic class SessionTokenGenerator\n{\n    public static string GenerateSessionToken()\n    {\n        var bytes = new byte[32];\n        using (var rng = RandomNumberGenerator.Create())\n        {\n            rng.GetBytes(bytes);\n        }\n        return Convert.ToBase64String(bytes);\n    }\n}

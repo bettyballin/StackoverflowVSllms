@@ -1,0 +1,1 @@
+INSERT INTO your_table (column_name)\nVALUES ('J''&''J Construction');

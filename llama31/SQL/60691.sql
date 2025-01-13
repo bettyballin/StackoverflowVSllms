@@ -1,0 +1,1 @@
+CREATE TABLE aspnet_role_ordering (\n    RoleId uniqueidentifier NOT NULL,\n    DisplayOrder int NOT NULL,\n    CONSTRAINT PK_aspnet_role_ordering PRIMARY KEY (RoleId),\n    CONSTRAINT FK_aspnet_role_ordering_aspnet_roles FOREIGN KEY (RoleId) REFERENCES aspnet_roles(RoleId)\n);

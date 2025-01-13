@@ -1,0 +1,1 @@
+CREATE TRIGGER trg_UpdateChangedAt\nON your_table_name\nAFTER UPDATE\nAS\nBEGIN\n    UPDATE t\n    SET changed_at = GETDATE()\n    FROM your_table_name t\n    INNER JOIN inserted i ON t.id = i.id\nEND

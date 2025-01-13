@@ -1,1 +1,0 @@
-# For Debian-based distributions (e.g., Ubuntu)\nsudo apt-get install oprofile\n\n# For Red Hat-based distributions (e.g., CentOS, Fedora)\nsudo yum install oprofile

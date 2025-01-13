@@ -1,0 +1,1 @@
+function page_properties($objPortal, $objPage) {\n    $objPage->set_page_title($myrow['title']);\n}

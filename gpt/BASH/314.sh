@@ -1,1 +1,0 @@
-cpan install LWP::UserAgent\ncpan install Image::Info

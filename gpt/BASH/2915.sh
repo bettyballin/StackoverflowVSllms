@@ -1,1 +1,0 @@
-# Verify Oracle Home configurations\necho %ORACLE_HOME%\n# Should output: C:\Oracle\product\10.2.0\client_2\n\n# Check the PATH order\necho %PATH%\n# Should start with: C:\oracle\product\10.2.0\client_2\bin\n\n# Check sqlnet.ora in client_2\ntype C:\Oracle\product\10.2.0\client_2\network\admin\sqlnet.ora\n# Should contain: NAMES.DIRECTORY_PATH= (LDAP, TNSNAMES)

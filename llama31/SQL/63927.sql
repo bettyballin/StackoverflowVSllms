@@ -1,0 +1,1 @@
+SELECT play_date, COUNT(DISTINCT(email)) AS count \nFROM (\n  SELECT play_date, email \n  FROM log \n  WHERE type = 'play'\n  AND play_date BETWEEN '2009-02-23' \n  AND '2009-02-24'\n) AS subquery\nGROUP BY play_date \nORDER BY play_date desc;

@@ -1,0 +1,1 @@
+$.post("getwotrans.php", {\n  workorder: row\n}, function(response) {\n  $(x).empty().append(response);\n});

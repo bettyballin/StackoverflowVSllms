@@ -1,0 +1,1 @@
+public class Position\n{\n    public Guid PositionId { get; set; } // Surrogate key\n    public string PositionName { get; set; }\n    public int PositionType { get; set; }\n}

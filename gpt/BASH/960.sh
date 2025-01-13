@@ -1,1 +1,0 @@
-pirum add /path/to/pear-channel /path/to/package.tgz

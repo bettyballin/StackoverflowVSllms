@@ -1,0 +1,1 @@
+this.AddMapping(this.myControl, myObject, o => o.myObjectPropertyName);

@@ -1,0 +1,1 @@
+const div = document.getElementById('myDiv');\n\n// Set the timeout to fade away after 5 seconds\nsetTimeout(() => {\n  div.style.opacity = '0';\n  // Optional: remove the div after fade out\n  setTimeout(() => {\n    div.remove();\n  }, 1000); // wait for the transition to finish\n}, 5000); // 5000 milliseconds = 5 seconds

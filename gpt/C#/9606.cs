@@ -1,1 +1,0 @@
-using System;\nusing System.Data;\nusing System.Data.SqlClient;\nusing System.Data.SqlTypes;\nusing Microsoft.SqlServer.Server;\n\npublic partial class StoredProcedures\n{\n    [Microsoft.SqlServer.Server.SqlProcedure]\n    public static void ProcessLargeText(SqlString inputText)\n    {\n        // Your logic to process large text data\n    }\n}

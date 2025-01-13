@@ -1,0 +1,1 @@
+import pywinauto\n\napp = pywinauto.Application().connect(title='JLinkARM_V402e')\n\n# Send 'usb' followed by a newline to the application\napp.type_keys('usb~')

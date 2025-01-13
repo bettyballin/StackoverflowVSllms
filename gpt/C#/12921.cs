@@ -1,1 +1,0 @@
-var customers = data.Customers\n    .FromSqlRaw("SELECT {cols} FROM Customers WHERE EmailDomain LIKE {0} + '%'", term)\n    .ToList();

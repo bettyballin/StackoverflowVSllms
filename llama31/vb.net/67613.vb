@@ -1,0 +1,1 @@
+Dim ControlType As Type = System.Reflection.Assembly.GetAssembly(GetType(MyAssembly.MyControl)).GetType("MyAssembly.MyUnexposedControl")\n\nDim Matches As IEnumerable(Of Control) = MyBaseControl.Controls.Where(Function(c) c.GetType() = ControlType OrElse c.GetType().IsSubclassOf(ControlType))

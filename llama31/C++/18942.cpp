@@ -1,0 +1,1 @@
+QVariant myProperty;\nmyProperty = QString("hello"); // sets a string value\nmyProperty = QVariant::null(); // sets a null value

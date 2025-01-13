@@ -1,0 +1,1 @@
+// MyCppDll.cpp\nextern "C" __declspec(dllexport) int __stdcall MyFunction(int param)\n{\n    // implementation\n}

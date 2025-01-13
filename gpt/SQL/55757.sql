@@ -1,1 +1,0 @@
-SELECT table1.Num, table2.id, table1.column1, table1.column2, table2.column1, table2.column2 \nFROM table1, table2  \nWHERE table1.Num = table2.id

@@ -1,0 +1,1 @@
+foreach ($orders as $order) {\n  foreach ($order->line_items as $lineItem) {\n    if ($lineItem instanceof rentLineItem) {\n      $totalRents++;\n    } else if ($lineItem instanceof buyLineItem) {\n      $totalSales++;\n    }\n  }\n}

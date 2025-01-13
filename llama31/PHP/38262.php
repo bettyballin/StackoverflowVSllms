@@ -1,0 +1,1 @@
+// logout.php\n<?php\nsession_start();\nsession_destroy();\n?>

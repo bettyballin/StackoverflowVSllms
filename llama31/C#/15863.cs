@@ -1,0 +1,1 @@
+// Assuming you have a IntPtr handle (hwnd) and you want to get a reference to a specific object type\n// Replace 'SpecificObject' with the actual object type\nSpecificObject obj = (SpecificObject)Marshal.GetTypedObjectForIUnknown(hwnd, typeof(SpecificObject));

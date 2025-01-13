@@ -1,1 +1,0 @@
--- Export data to a CSV file\n   DECLARE @sqlCmd VARCHAR(1000)\n   SET @sqlCmd = 'bcp "SELECT * FROM [YourDatabase].[dbo].[YourTable] WHERE [OwnerID] = 1" queryout "C:\Backup\YourTable_Owner1.csv" -c -t, -T -S YourServerName'\n   EXEC xp_cmdshell @sqlCmd

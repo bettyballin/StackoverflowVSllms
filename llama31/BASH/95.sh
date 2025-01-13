@@ -1,0 +1,1 @@
+echo "show stat" | nc -U /var/run/haproxy.stat | grep "Queue\ length"

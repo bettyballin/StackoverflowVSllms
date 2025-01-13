@@ -1,0 +1,1 @@
+EXEC SQL BEGIN DECLARE SECTION;\n    DATE    hire_date;\nEXEC SQL END DECLARE SECTION;\n\nEXEC SQL SELECT hire_date INTO :hire_date FROM emp;

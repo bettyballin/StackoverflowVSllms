@@ -1,1 +1,0 @@
-Map(x => x.DateRange)\n    .CustomType<DateTimeRangeType>()\n    .Column("DateRangeColumn");

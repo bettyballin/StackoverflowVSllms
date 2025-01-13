@@ -1,1 +1,0 @@
-public class VersionedModel\n{\n    public byte[] Version { get; set; }\n}

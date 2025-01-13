@@ -1,0 +1,1 @@
+$game_id = filter_var($_POST['id'], FILTER_SANITIZE_NUMBER_INT);\n$type = filter_var($_POST['type'], FILTER_SANITIZE_STRING);\n$rating = filter_var($_POST['rating'], FILTER_SANITIZE_NUMBER_INT);

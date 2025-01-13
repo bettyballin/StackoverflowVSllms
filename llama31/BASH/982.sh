@@ -1,0 +1,1 @@
+# Use Git for version control and backup your repository\ngit clone --mirror /path/to/repo /path/to/backup

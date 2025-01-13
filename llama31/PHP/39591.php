@@ -1,0 +1,1 @@
+$reflection = new ReflectionFunction('function1');\n$params = $reflection->getParameters();\n\nforeach ($params as $param) {\n    echo $param->getName() . ' (' . $param->isOptional() ? 'optional' : 'required' . ')' . "\n";\n}

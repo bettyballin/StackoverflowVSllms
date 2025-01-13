@@ -1,0 +1,1 @@
+taskkill /F /FI "USERNAME eq <username>" /FI "STATUS eq RUNNING" /FI "PID gt <max_pid>"

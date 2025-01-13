@@ -1,0 +1,1 @@
+<?php\n// Generate your HTML and instructions\necho "<html><body>";\necho "Instructions...";\necho "</body></html>";\n\n// Set the Content-Disposition header to force a download\nheader('Content-Disposition: attachment; filename=your_file.zip');\nheader('Content-Type: application/zip');\n\n// Stream the file\nreadfile('your_file.zip');\n?>

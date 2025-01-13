@@ -1,0 +1,1 @@
+// UserContext.cs\npublic class UserContext : DataContext\n{\n    public DbSet<User> Users { get; set; }\n    public DbSet<Role> Roles { get; set; }\n}\n\n// ProductContext.cs\npublic class ProductContext : DataContext\n{\n    public DbSet<Product> Products { get; set; }\n    public DbSet<Category> Categories { get; set; }\n}

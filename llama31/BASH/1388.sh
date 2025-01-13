@@ -1,0 +1,1 @@
+#!/bin/bash\n\n# Set up environment variables\nexport SSH_AUTH_SOCK=/path/to/ssh/agent/socket\n\n# Call the ssh command\nssh -nxv user@remotehost echo "hello world"

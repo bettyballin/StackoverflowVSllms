@@ -1,1 +1,0 @@
-[ServiceContract]\n   public interface IFavoriteMovie\n   {\n       [OperationContract]\n       MyFavoriteMovie GetItem();\n   }

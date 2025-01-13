@@ -1,0 +1,1 @@
+if (!is_array($filter)) {\n    throw new Exception('Filter is not an array');\n}\nif (in_array($tag->type, $filter) === false) {\n    continue;\n}

@@ -1,1 +1,0 @@
-/* Your custom CSS */\n.seaglass-table {\n    border-collapse: collapse;\n    width: 100%;\n}\n\n.seaglass-table th, .seaglass-table td {\n    border: 1px solid black;\n    padding: 8px;\n}\n\n.seaglass-table th {\n    background-color: #f2f2f2;\n}

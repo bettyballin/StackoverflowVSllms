@@ -1,0 +1,1 @@
+/**\n * Name\n *\n * Desc\n *\n * @package    Core\n * @subpackage  Sub1\n * @uses       Sub2\n */

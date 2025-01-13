@@ -1,0 +1,1 @@
+cl /EHsc /link mylib.lib main.cpp

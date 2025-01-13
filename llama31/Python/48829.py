@@ -1,0 +1,1 @@
+from memory_profiler import profile\n\n@profile\ndef my_func():\n    # Your function code here\n    pass\n\nmy_func()

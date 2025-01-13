@@ -1,1 +1,0 @@
-ob_start();\nfor ($i = 0; $i < 1000; $i++) {\n    echo "part" . $i;\n}\n$result = ob_get_clean();

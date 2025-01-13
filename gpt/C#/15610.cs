@@ -1,1 +1,0 @@
-public ActionResult Action(string clickedButton)\n{\n    if (clickedButton == "prev")\n    {\n        // Handle prev button click\n    }\n    else if (clickedButton == "next")\n    {\n        // Handle next button click\n    }\n\n    // Other logic...\n\n    return View();\n}

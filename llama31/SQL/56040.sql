@@ -1,0 +1,1 @@
+INSERT INTO your_table (column1, column2)\nVALUES ('value1', 'value2')\nRETURNING your_sequence_name INTO :return_value;

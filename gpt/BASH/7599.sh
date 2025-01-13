@@ -1,1 +1,0 @@
-make -j`nproc` csu/crti.o csu/crtn.o

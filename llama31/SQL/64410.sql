@@ -1,0 +1,1 @@
+SELECT ... FROM [table] WHERE [table].mode = 0 AND getDate() >= 0\nUNION ALL\nSELECT ... FROM [table] WHERE [table].mode = 1 AND getDate() >= [log].interval_start\nUNION ALL\nSELECT ... FROM [table] WHERE [table].mode = 2 AND getDate() >= [log].interval_start + [table].interval_period

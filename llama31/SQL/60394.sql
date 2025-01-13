@@ -1,0 +1,1 @@
+CREATE TABLE subscriptions (\n  id INT PRIMARY KEY AUTO_INCREMENT,\n  user_id INT NOT NULL,\n  subscription_type ENUM('category', 'search') NOT NULL,\n  subscription_value TEXT NOT NULL,\n  created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP\n);

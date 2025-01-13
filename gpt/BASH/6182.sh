@@ -1,1 +1,0 @@
-ssh username@your_server_ip

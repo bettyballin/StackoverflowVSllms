@@ -1,0 +1,1 @@
+@Ajax.ActionLink("Add New Record", "AddRecord", new AjaxOptions {\n    HttpMethod = "POST",\n    InsertionMode = InsertionMode.InsertAfter,\n    UpdateTargetId = "myGrid"\n})

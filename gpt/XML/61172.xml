@@ -1,1 +1,0 @@
-<configuration>\n  <system.webServer>\n    <security>\n      <authentication>\n        <windowsAuthentication enabled="true" />\n        <basicAuthentication enabled="false" />\n      </authentication>\n    </security>\n  </system.webServer>\n</configuration>

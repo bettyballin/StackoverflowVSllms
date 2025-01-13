@@ -1,1 +1,0 @@
-SELECT * FROM table1 \nWHERE ID IN (1, 2, 3, ..., 1000)\n   OR ID IN (1001, 1002, 1003, ..., 2000)\n   OR ID IN (2001, 2002, 2003, ..., 3000)\n   -- Add more OR clauses as needed

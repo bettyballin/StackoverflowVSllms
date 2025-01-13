@@ -1,1 +1,0 @@
-#if defined(__i386__) || defined(_M_IX86) || !defined(__LP64__) && !defined(_LP64)\n// Code for 32-bit platforms\n#endif

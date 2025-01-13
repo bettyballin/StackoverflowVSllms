@@ -1,0 +1,1 @@
+$html = 'your html string here';\n$pattern = '/<div class="articleTitle">(.*?)<\/div>/s';\n\nif (preg_match($pattern, $html, $matches)) {\n    $text = $matches[1];\n    echo $text;\n} else {\n    echo 'No match found';\n}

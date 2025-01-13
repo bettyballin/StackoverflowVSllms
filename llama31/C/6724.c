@@ -1,0 +1,1 @@
+// Statically linking a library\n#include <mylib.h>\n\nint main() {\n    mylib_function();\n    return 0;\n}

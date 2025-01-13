@@ -1,0 +1,1 @@
+$('<div id="box" />').load('my.html', function(){\n  // you will see the entire my.html content, including the #content div and its children\n});

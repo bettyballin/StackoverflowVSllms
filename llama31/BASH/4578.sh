@@ -1,0 +1,1 @@
+sudo gem rdoc rails --no-ri --include-dependencies

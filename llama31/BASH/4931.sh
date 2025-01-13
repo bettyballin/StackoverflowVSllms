@@ -1,0 +1,1 @@
+#!/bin/bash\n\n# Define source and destination directories\nSRC="/path/to/repo/trunk"\nDST="/path/to/live/site"\n\n# Rsync changes to live site\nrsync -avz --delete $SRC/ $DST/

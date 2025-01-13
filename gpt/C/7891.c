@@ -1,1 +1,0 @@
-void foo (const char * str) {\n     char buffer[64];\n\n     strncpy(buffer, str, sizeof(buffer));\n     buffer[sizeof(buffer)] = '\0';\n\n     printf("whoa: %s", buffer);\n}

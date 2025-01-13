@@ -1,1 +1,0 @@
-books = Book.objects.select_related('author').all()\nfor book in books:\n    # No additional query is made here\n    author = book.author

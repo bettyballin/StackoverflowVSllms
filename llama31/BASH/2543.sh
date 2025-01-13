@@ -1,0 +1,1 @@
+# Install csslint on Mac OS X or Windows (using npm)\nnpm install -g csslint\n\n# Validate a CSS file using csslint\ncsslint yourfile.css

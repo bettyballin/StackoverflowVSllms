@@ -1,0 +1,1 @@
+DBCC SHRINKDATABASE (database_name, 10);

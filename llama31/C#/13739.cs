@@ -1,0 +1,1 @@
+string timeFrom = "1900-01-01 " + timeFrom.ToString("HH:mm");\nstring timeTo = "1900-01-01 " + timeTo.ToString("HH:mm");

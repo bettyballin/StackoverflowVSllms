@@ -1,0 +1,1 @@
+public partial class MyPage : Page\n{\n    protected void Page_Load(object sender, EventArgs e)\n    {\n        var tabSessionId = TabSession.GetTabSessionId();\n        TabSession.SetTabSessionData("myKey", "myValue");\n        var value = TabSession.GetTabSessionData("myKey");\n    }\n}

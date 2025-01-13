@@ -1,0 +1,1 @@
+int main() {\n    // program code here\n    return 0; // successful execution\n}

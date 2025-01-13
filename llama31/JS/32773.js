@@ -1,0 +1,1 @@
+document.getElementById('myDiv').setAttribute('tabindex', 0);

@@ -1,0 +1,1 @@
+UPDATE d\nSET d.Country = t.To\nFROM Data d\nINNER JOIN Translations t ON d.Country = t.From;

@@ -1,0 +1,1 @@
+#navigation ul {\n  margin: 0 auto;\n  width: 100%;\n  padding: 0;\n  list-style-type: none;\n  white-space: nowrap;\n}\n\n#navigation ul li {\n  display: inline-block;\n  margin: 0 1px;\n  padding: 0;\n}

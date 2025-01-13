@@ -1,0 +1,1 @@
+if (udt.ErrorLoggingMethod == null)\n{\n    udt.ErrorLoggingMethod = CMAC_DummyErrorLoggingMethod;\n}\nudt.DatabaseConnectionString = InteractiveDatabaseConnection.AddSQLConnection(udt.ErrorLoggingMethod);

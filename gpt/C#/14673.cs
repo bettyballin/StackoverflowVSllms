@@ -1,1 +1,0 @@
-public class SpecificClient : ClientBase\n{\n    public SpecificClient() { }\n\n    public SpecificClient(string configName)\n    {\n        // Constructor logic here\n    }\n}\n\nclass Program\n{\n    static void Main()\n    {\n        var proxy = new GenericProxy<SpecificClient>("myConfig", configName => new SpecificClient(configName));\n    }\n}

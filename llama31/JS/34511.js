@@ -1,0 +1,1 @@
+// JavaScript code\nfunction get_Data(){\n    var name;\n    var job;\n    //......\n    var buffer = //......\n    return buffer;\n}\n\n// Send the buffer to a PHP script using AJAX\n$.ajax({\n    type: 'POST',\n    url: 'get_buffer.php',\n    data: {buffer: get_Data()},\n    success: function(data) {\n        console.log(data);\n    }\n});

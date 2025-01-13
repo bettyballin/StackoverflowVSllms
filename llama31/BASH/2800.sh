@@ -1,0 +1,1 @@
+pyinstaller your_application.spec

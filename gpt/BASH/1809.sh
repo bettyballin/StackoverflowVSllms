@@ -1,1 +1,0 @@
-ps -ef | grep <your_script_or_command>

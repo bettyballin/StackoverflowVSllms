@@ -1,1 +1,0 @@
-regsvr32 ole32.dll\n   regsvr32 oleaut32.dll

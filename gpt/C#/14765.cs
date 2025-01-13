@@ -1,1 +1,0 @@
-using System.Configuration;\n\n// Fetch the connection string\nstring connectionString = ConfigurationManager.ConnectionStrings["YourConnectionStringName"].ConnectionString;\n\n// Instantiate your DLL class and pass the connection string\nYourDllClass yourDllInstance = new YourDllClass();\nyourDllInstance.Initialize(connectionString);

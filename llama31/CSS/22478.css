@@ -1,0 +1,1 @@
+.filler {\n  position: relative;\n}\n\n.filler::after {\n  content: "";\n  position: absolute;\n  top: 1.2em;\n  left: 100%;\n  width: 1000px; /* some large value */\n  height: 1px;\n  background-color: #fff;\n}

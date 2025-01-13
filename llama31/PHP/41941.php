@@ -1,0 +1,1 @@
+$doc = new DOMDocument();\n// ... populate your XML tree ...\n\n$ul = $doc->getElementsByTagName('ul')->item(0);\n$xml = $doc->saveXML($ul);\n$xml = preg_replace('/<\?xml.*?\?>/i', '', $xml);\necho $xml;

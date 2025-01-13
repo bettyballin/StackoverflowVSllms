@@ -1,1 +1,0 @@
-sealed class User\n{\n    private string _secret = "shazam";\n    public readonly decimal YourSalary;\n    public string YourOffice { get; private set; }\n\n    public User(decimal salary, string office)\n    {\n        YourSalary = salary;\n        YourOffice = office;\n    }\n\n    private void DoPrivilegedAction()\n    {\n        // Perform some privileged action\n    }\n}

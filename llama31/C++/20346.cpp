@@ -1,0 +1,1 @@
+#include <Windows.h>\n#include <thread>\n\nint main() {\n    // Create a new thread for the message box\n    std::thread([&]() {\n        MessageBox(NULL, "Your message here", "Alert", MB_OK);\n    }).detach();\n\n    // Continue with your batch script here\n    return 0;\n}

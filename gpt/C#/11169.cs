@@ -1,1 +1,0 @@
-public class AccountController : Controller\n{\n    public ActionResult SomeAction()\n    {\n        UrlHelperExample helper = new UrlHelperExample();\n        string resetPasswordUrl = helper.GetResetPasswordUrl(this);\n        \n        // Use the URL as needed\n        ViewBag.ResetPasswordUrl = resetPasswordUrl;\n\n        return View();\n    }\n}

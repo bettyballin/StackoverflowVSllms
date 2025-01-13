@@ -1,0 +1,1 @@
+using Microsoft.Office.Interop.Word;\n\n// Create a new instance of Word\nApplication wordApp = new Application();\n\n// Open a document\nDocument wordDoc = wordApp.Documents.Open("example.docx");\n\n// Get the text of the first paragraph\nstring text = wordDoc.Paragraphs[1].Range.Text;

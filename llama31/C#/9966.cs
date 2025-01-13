@@ -1,0 +1,1 @@
+var dialog = new FileOrFolderDialog();\nif (dialog.ShowDialog() == DialogResult.OK)\n{\n    string selectedPath = dialog.FileName;\n    // Check if the selected path is a file or a folder\n    if (File.Exists(selectedPath))\n    {\n        // selectedPath is a file\n    }\n    else if (Directory.Exists(selectedPath))\n    {\n        // selectedPath is a folder\n    }\n}

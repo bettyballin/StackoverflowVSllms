@@ -1,0 +1,1 @@
+HttpContext.Current.Cache["UserId_" + userId] = channelId;

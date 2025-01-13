@@ -1,1 +1,0 @@
-<?php\nif (PHP_INT_SIZE === 8) {\n    echo "This PHP installation supports 64-bit integers.";\n} else {\n    echo "This PHP installation does not support 64-bit integers.";\n}\n?>

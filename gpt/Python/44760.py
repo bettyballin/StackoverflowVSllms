@@ -1,1 +1,0 @@
-string_value = default_string if not other_string else other_string

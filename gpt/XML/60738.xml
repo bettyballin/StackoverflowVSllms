@@ -1,1 +1,0 @@
-<bindings>\n      <basicHttpBinding>\n         <binding name="secureHttpBinding">\n            <security mode="TransportCredentialOnly">\n               <transport clientCredentialType="Windows" />\n            </security>\n         </binding>\n      </basicHttpBinding>\n   </bindings>

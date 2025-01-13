@@ -1,0 +1,1 @@
+// C# code, compiled into a separate assembly\npublic class CSharpClass\n{\n    public void CSharpMethod()\n    {\n        // Do something in C#\n    }\n}

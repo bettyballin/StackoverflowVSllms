@@ -1,1 +1,0 @@
-protected void Application_Start(object sender, EventArgs e)\n{\n    var pluginManager = new PluginManager(Server.MapPath("~/Plugins"));\n    pluginManager.ExecutePlugins();\n    var pluginNames = pluginManager.GetPluginNames();\n\n    // Do something with the plugin names, e.g., display them in the UI\n}

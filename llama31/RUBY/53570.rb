@@ -1,0 +1,1 @@
+# controllers/concerns/authenticable.rb\ndef generate_jwt_token(user)\n  payload = { user_id: user.id, email: user.email }\n  JWT.encode(payload, 'your-secret-key', 'HS256')\nend

@@ -1,0 +1,1 @@
+$stmt = $pdo->prepare('SELECT * FROM table WHERE name LIKE :name');\n$search = '%' . $yourSearchTerm . '%';\n$stmt->bindParam(':name', $search);\n$stmt->execute();

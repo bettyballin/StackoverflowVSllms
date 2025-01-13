@@ -1,1 +1,0 @@
-class B : public A {\n  public:\n    using A::DoSomething;  // Make A::DoSomething visible in B's scope\n    int DoSomething(int x) { return 1; }\n};\n\nint main() {\n  B* b = new B();\n  b->DoSomething();       // Calls A::DoSomething()\n  b->DoSomething(5);      // Calls B::DoSomething(int)\n  delete b;\n  return 0;\n}

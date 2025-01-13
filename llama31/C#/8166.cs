@@ -1,0 +1,1 @@
+// Public-key encryption using RSA\nbyte[] encryptedData = rsa.encrypt(data, userPublicKey);

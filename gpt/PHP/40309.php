@@ -1,1 +1,0 @@
-<?php\n// Turn on output buffering\nob_start();\n\n// Output some content\necho "Hello, World!";\n\n// Flush the content to the browser\nob_flush();\nflush();\n\n// Continue with other PHP code\necho "More content here.";\n?>

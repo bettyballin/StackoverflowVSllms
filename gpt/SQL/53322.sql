@@ -1,1 +1,0 @@
-SELECT CAST(your_money_column AS DECIMAL(18, 8)) / 10000000 AS ConvertedValue\nFROM your_table;

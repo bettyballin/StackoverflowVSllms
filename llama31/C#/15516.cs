@@ -1,0 +1,1 @@
+public string CreateValidClassName(string className)\n{\n    var codeProvider = new CSharpCodeProvider();\n    return codeProvider.CreateValidIdentifier(className);\n}

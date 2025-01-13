@@ -1,1 +1,0 @@
-ATTACH DATABASE 'encrypted.db' AS encrypted KEY 'your_secure_passphrase';\n   CREATE TABLE encrypted.secrets AS SELECT * FROM secrets;\n   DETACH DATABASE encrypted;

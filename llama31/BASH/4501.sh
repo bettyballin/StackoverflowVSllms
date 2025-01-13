@@ -1,0 +1,1 @@
+clang -fprofile-instr-generate -fcoverage-mapping your_code.c -o your_code\n./your_code\nllvm-profdata merge -output=profile.prof default.prof\nllvm-cov show ./your_code -instr-profile=profile.prof

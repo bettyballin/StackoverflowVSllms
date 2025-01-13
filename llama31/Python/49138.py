@@ -1,0 +1,1 @@
+import hashlib\n\n# Load the encrypted data\nencrypted_data = ...\n\n# Initialize the hardware encryption device\ndevice = MarxCryptoBox()\n\n# Decrypt the data using the device\ndecrypted_data = device.decrypt(encrypted_data)\n\n# Compare the decrypted data\nif decrypted_data == expected_data:\n    print("Data is valid")\nelse:\n    print("Data is invalid")

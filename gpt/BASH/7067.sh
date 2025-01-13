@@ -1,1 +1,0 @@
-# Clone a repository\ngit clone https://github.com/username/repository.git\n\n# Check the status of your repository\ngit status\n\n# Stage changes for commit\ngit add .\n\n# Commit changes\ngit commit -m "Your commit message"\n\n# Push changes to the remote repository\ngit push\n\n# Pull latest changes from the remote repository\ngit pull

@@ -1,0 +1,1 @@
+bcscale(10);\necho bcadd(bcdiv('1', bcpow('10', '0.01')), '0', 10);

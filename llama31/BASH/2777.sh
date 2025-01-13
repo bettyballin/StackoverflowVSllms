@@ -1,0 +1,1 @@
+visualvm --collect-profile-data --save-to-file=<filename>.prof --pid=<pid>

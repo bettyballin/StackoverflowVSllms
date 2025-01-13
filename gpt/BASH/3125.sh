@@ -1,1 +1,0 @@
-chmod +x resolve_conflicts.sh\n./resolve_conflicts.sh

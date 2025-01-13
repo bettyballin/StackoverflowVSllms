@@ -1,0 +1,1 @@
+listINeed = [[line for line in sublist if '<2' in line or '<3' in line or '<4' in line] for sublist in biglist]

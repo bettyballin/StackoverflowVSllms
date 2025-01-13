@@ -1,1 +1,0 @@
-g++ -Wl,-e,_main -o your_executable your_objects_and_libraries

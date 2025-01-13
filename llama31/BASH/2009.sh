@@ -1,0 +1,1 @@
+# Enable Cookie-based Affinity using PowerShell\nGet-NlbCluster | Set-NlbCluster -CookieBasedAffinity $true -CookieName "NLB_Affinity" -CookieExpiration 30

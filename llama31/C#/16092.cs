@@ -1,0 +1,1 @@
+Response.AddHeader("X-Content-Type-Options", "nosniff");

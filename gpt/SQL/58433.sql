@@ -1,1 +1,0 @@
-EXEC CompareAllTables 'Database1', 'Database2';

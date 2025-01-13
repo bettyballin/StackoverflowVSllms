@@ -1,0 +1,1 @@
+SQLRETURN retcode;\nSQLGetDiagField(hStmt, 1, SQL_DIAG_ASYNC_STATUS, &retcode, 0, NULL);

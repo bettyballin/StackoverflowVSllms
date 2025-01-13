@@ -1,0 +1,1 @@
+import requests\nfrom requests_oauthlib import OAuth1Session\n\nconsumer_key = "your_consumer_key"\nconsumer_secret = "your_consumer_secret"\naccess_token = "your_access_token"\naccess_token_secret = "your_access_token_secret"\n\noauth = OAuth1Session(consumer_key, client_secret=consumer_secret, resource_owner_key=access_token, resource_owner_secret=access_token_secret)

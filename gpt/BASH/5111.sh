@@ -1,1 +1,0 @@
-xcopy /E /I library\Zend\CodeGenerator C:\path\to\your\zend-server-library\Zend\CodeGenerator

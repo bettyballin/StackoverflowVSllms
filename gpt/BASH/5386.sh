@@ -1,1 +1,0 @@
-python manage.py makemigrations your_app_name\npython manage.py migrate --fake-initial

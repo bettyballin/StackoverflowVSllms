@@ -1,0 +1,1 @@
+private void ultraGrid1_AfterCellUpdate(object sender, CellEventArgs e, bool updateSuccess)\n{\n    if (updateSuccess)\n    {\n        // The cell value has been successfully updated\n        // You can access the new value using e.Cell.Value\n    }\n}

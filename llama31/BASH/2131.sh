@@ -1,0 +1,1 @@
+curl --verbose http://example.com/python/json/

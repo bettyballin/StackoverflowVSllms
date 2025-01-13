@@ -1,0 +1,1 @@
+using System.Deployment.Application;\n\n// Restart the application\nApplicationDeployment deployment = ApplicationDeployment.CurrentDeployment;\ndeployment.UpdateCompleted += (sender, e) => { Application.Restart(); };\ndeployment.UpdateAsync();

@@ -1,0 +1,1 @@
+SELECT CAST(Rate AS DECIMAL(18, 8)) / 10000000 AS Result\nFROM YourTable;

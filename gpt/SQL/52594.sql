@@ -1,1 +1,0 @@
-CREATE TABLE dbo.MyMaterializedResults\n    (\n        Column1 INT,\n        Column2 INT,\n        TotalColumn3 DECIMAL(18, 2),\n        PRIMARY KEY (Column1, Column2)\n    );

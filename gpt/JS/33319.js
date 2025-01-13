@@ -1,1 +1,0 @@
-function reloadCaptcha() {\n    var captchaImage = document.getElementById('imgCaptcha');\n    captchaImage.src = 'captcha.php?' + Math.random();\n}

@@ -1,1 +1,0 @@
-double value = inv.RRP * oCountry.ExchangeRate;\nstring formattedValue = value.ToString("N2");\nJSArrayString += "^" + formattedValue;

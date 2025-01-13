@@ -1,0 +1,1 @@
+CREATE TABLE parents (\n  id NUMBER PRIMARY KEY,\n  children NUMBER(n) NOT NULL\n);

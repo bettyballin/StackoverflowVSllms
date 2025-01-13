@@ -1,0 +1,1 @@
+gcc -g prime_sum.cpp -o prime_sum

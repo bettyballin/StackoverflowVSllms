@@ -1,0 +1,1 @@
+SELECT CONVERT(CHAR(8), \n               DATEADD(mi, -DATEPART(mi, DATEADD(n, SUM(DATEDIFF(n, starttime, stoptime)), 0)) % 15, \n                       DATEADD(mi, CASE WHEN DATEPART(mi, DATEADD(n, SUM(DATEDIFF(n, starttime, stoptime)), 0)) % 15 > 7 THEN 15 ELSE 0 END, \n                               DATEADD(n, SUM(DATEDIFF(n, starttime, stoptime)), 0))), 108)

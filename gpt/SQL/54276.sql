@@ -1,1 +1,0 @@
-RAISEERROR('Currently SQL server is being cleaned up or backed up, please do not log in at this time.', 10, 1);

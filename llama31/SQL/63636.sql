@@ -1,0 +1,1 @@
+DECLARE @params TABLE (value INT);\nINSERT INTO @params (value) VALUES (@x), (@y), (@z);\n\nDELETE FROM your_table\nWHERE A IN (SELECT value FROM @params);

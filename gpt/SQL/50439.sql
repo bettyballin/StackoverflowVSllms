@@ -1,1 +1,0 @@
-ALTER TABLE your_table_name DROP CONSTRAINT gradeRule;

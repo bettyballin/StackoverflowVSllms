@@ -1,0 +1,1 @@
+// insert.php\n<?php\n  $conn = new mysqli($servername, $username, $password, $dbname);\n  $title = $_POST['title'];\n  $sql = "INSERT INTO cases (title) VALUES ('$title')";\n  $conn->query($sql);\n  $conn->close();\n?>

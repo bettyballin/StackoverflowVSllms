@@ -1,0 +1,1 @@
+pgrep -f <process_name>

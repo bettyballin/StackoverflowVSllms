@@ -1,0 +1,1 @@
+sqlcmd -S YourServerName -Q "BACKUP DATABASE [YourDatabaseName] TO DISK = 'C:\Backup\YourDatabaseName.bak'"

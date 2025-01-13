@@ -1,1 +1,0 @@
-sudo mv /usr/bin/gcc /usr/bin/gcc-4.0-backup\n    sudo mv /usr/bin/g++ /usr/bin/g++-4.0-backup\n    sudo mv /usr/bin/gfortran /usr/bin/gfortran-backup

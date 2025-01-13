@@ -1,0 +1,1 @@
+# Given list of dictionaries\npeople = [{'name': 'Homer', 'age': 39}, {'name': 'Bart', 'age': 10}]\n\n# Sorting the list by 'name'\nsorted_people = sorted(people, key=lambda x: x['name'])\n\nprint(sorted_people)

@@ -1,0 +1,1 @@
+<script src="dojo/dojo.js" data-dojo-config="async: true"></script>\n<script>\n  require(['dojo/widget/Button'], function(Button) {\n    var myButton = new Button({\n      label: 'Click me!'\n    }, 'myButton');\n  });\n</script>

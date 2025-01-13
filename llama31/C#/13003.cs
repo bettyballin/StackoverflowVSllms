@@ -1,0 +1,1 @@
+public class Collection<T>\n{\n    public bool Equals(Collection<T> other, EqualityComparer<T> eq)\n    {\n        // code using eq delegate to test equality between\n        // members of this and other collection\n    }\n}

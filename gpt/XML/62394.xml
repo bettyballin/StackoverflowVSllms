@@ -1,1 +1,0 @@
-<openid>\n    <provider url="https://secure.openid-provider.com/openid" />\n    <settings>\n        <useSSL>true</useSSL>\n        <!-- Additional settings here -->\n    </settings>\n</openid>

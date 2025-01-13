@@ -1,1 +1,0 @@
-Public Class MyBaseClass\n    ' Base class implementation\nEnd Class\n\nPublic Function Blah(Of T As MyBaseClass)(ByVal foo As T) As String\n    ' Your method implementation here\n    Return foo.ToString()\nEnd Functio

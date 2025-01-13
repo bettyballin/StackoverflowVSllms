@@ -1,0 +1,1 @@
+PHP_ARG_ENABLE(my_extension, whether to enable my extension,\n[  --enable-my-extension   Enable my extension])\n\nif test "$PHP_MY_EXTENSION" != "no"; then\n  PHP_SUBST(MY_EXTENSION_SHARED_LIBADD)\n  PHP_ADD_LIBRARY(stdc++, 1, MY_EXTENSION_SHARED_LIBADD)\n  PHP_NEW_EXTENSION(my_extension, myextension.cpp, $ext_shared)\nfi

@@ -1,0 +1,1 @@
+$string = 'Hello, World!';\n$length = 100;\n\nif (is_string($string) && is_int($length) && $length > 0) {\n    $result = substr($string, 0, $length);\n    var_dump($result); // outputs: string(13) "Hello, World!"\n} else {\n    // handle invalid input\n}

@@ -1,0 +1,1 @@
+using System;\nusing System.Windows.Forms;\n\npublic class MyForm : Form\n{\n    public MyForm()\n    {\n        this.Text = "My Form";\n        this.ShowInTaskbar = true;\n        this.TopLevel = true;\n    }\n}\n\npublic class MyDLL\n{\n    public static void ShowForm()\n    {\n        MyForm form = new MyForm();\n        Application.Run(form);\n    }\n}

@@ -1,1 +1,0 @@
-async function writeFile() {\n    const handle = await window.showSaveFilePicker();\n    const writable = await handle.createWritable();\n    await writable.write("Hello World");\n    await writable.close();\n}

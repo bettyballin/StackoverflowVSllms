@@ -1,0 +1,1 @@
+strURL = "http://www.website.com/results.aspx?page=" + strPageNo + "&_=" + DateTime.Now.Ticks;

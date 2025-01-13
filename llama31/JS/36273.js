@@ -1,0 +1,1 @@
+var newWindow = window.open('', 'SecondWindow', 'toolbar=0,stat=0');\nvar style = newWindow.document.createElement('style');\nstyle.type = 'text/css';\nstyle.innerHTML = '@import "styles/style.css";';\nnewWindow.document.getElementsByTagName('head')[0].appendChild(style);\nnewWindow.document.body.innerHTML = '<p class="verystylish">Hello world!</p>';

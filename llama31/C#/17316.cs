@@ -1,0 +1,1 @@
+public class MyViewModel\n{\n    public string Date { get; set; }\n    public string City { get; set; }\n    public int Id { get; set; }\n}

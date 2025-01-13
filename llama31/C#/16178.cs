@@ -1,0 +1,1 @@
+int aNumber = (int)reader["A_Number"];\ndecimal bNumber = (decimal)reader["B_Number"];

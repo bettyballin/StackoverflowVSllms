@@ -1,0 +1,1 @@
+#content {\n  background-image: url('borders.png');\n  background-position: center;\n  background-repeat: repeat-y;\n  padding: 0 20px; /* adjust padding to match the width of your border images */\n}

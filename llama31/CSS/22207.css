@@ -1,0 +1,1 @@
+.preload {\n  background-image: url('image.jpg');\n  width: 0;\n  height: 0;\n  display: none;\n}

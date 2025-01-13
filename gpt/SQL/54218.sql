@@ -1,1 +1,0 @@
-CREATE TABLE your_table (\n    id INT(6) UNSIGNED AUTO_INCREMENT PRIMARY KEY,\n    choice VARCHAR(30) NOT NULL\n);

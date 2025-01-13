@@ -1,1 +1,0 @@
-$p->end_page_ext("");\n   $p->end_document("");

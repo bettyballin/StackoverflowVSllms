@@ -1,1 +1,0 @@
-document.getElementById('search-box').addEventListener('input', function() {\n        const query = this.value;\n        fetch(`/search?q=${query}`)\n            .then(response => response.json())\n            .then(data => {\n                // Update search suggestions\n            });\n    });

@@ -1,0 +1,1 @@
+// Show\n$('#element').animate({\n  width: 'show',\n  opacity: 'show'\n}, 500);\n\n// Hide\n$('#element').animate({\n  width: 'hide',\n  opacity: 'hide'\n}, 500);

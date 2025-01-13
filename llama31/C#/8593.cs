@@ -1,0 +1,1 @@
+var query = session.Query<MyEntity>()\n    .Where(e => e.Name.Like("%" + userInput + "%"));

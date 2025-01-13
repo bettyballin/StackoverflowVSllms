@@ -1,0 +1,1 @@
+SqlParameter prm = new SqlParameter("@Price", SqlDbType.Decimal);\nprm.Precision = 18;\nprm.Scale = 8;\nprm.Direction = ParameterDirection.Output;\ncomm.Parameters.Add(prm);

@@ -1,0 +1,1 @@
+DateTime utcTime = DateTime.Now.ToUniversalTime();\n// insert utcTime into database

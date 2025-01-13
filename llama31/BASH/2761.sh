@@ -1,0 +1,1 @@
+ildasm /out=comlib.il comlib.dll\nilasm /key=comlib.snk /dll comlib.il

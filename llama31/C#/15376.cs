@@ -1,0 +1,1 @@
+foreach (var obj in new COMObjectEnumerator())\n{\n    Marshal.ReleaseComObject(obj);\n}

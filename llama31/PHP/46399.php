@@ -1,0 +1,1 @@
+use GuzzleHttp\Client;\n\n$client = new Client();\n$fileName = $_POST['textFile'];\n$url = $_SESSION['serverURL'] . "fileReader.php?textFile=$fileName";\n\n$response = $client->getAsync($url)->wait();\n$result = $response->getBody()->getContents();\necho $result;

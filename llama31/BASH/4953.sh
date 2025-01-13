@@ -1,0 +1,1 @@
+curl -X GET 'https://api.nexmo.com/ni/basic/json?level=basic&number=+1234567890&api_key=your_api_key&api_secret=your_api_secret'

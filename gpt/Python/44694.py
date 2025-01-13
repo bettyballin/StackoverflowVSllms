@@ -1,1 +1,0 @@
-from django.db import models\n\nclass UploadedFile(models.Model):\n    file = models.FileField(upload_to='uploads/')\n    original_path = models.CharField(max_length=255)\n\n    def __str__(self):\n        return self.file.name

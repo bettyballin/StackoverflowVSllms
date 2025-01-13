@@ -1,0 +1,1 @@
+scp remotehost:/path/to/file ~/

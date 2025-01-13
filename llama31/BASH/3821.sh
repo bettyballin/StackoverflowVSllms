@@ -1,0 +1,1 @@
+signtool verify /v /pa <dll_file>

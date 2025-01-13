@@ -1,1 +1,0 @@
-SELECT handle_retrieval(your_column) AS your_column FROM your_table;

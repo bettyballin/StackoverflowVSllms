@@ -1,0 +1,1 @@
+apc_store('my_data', $data);\n$data = apc_fetch('my_data');

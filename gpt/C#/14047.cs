@@ -1,1 +1,0 @@
-var userIds = new List<int> { /* list of user IDs */ };\n\nvar mostRecentWorkplansForUsers = \n    from wp in db.Workplans\n    where userIds.Contains(wp.UserId)\n    group wp by wp.UserId into g\n    let maxDate = g.Max(w => w.WorkplanDate)\n    select g.First(w => w.WorkplanDate == maxDate);

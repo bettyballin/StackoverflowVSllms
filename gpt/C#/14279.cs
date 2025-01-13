@@ -1,1 +1,0 @@
-public class YourDbContext : DbContext\n{\n    public DbSet<User> Users { get; set; }\n    public DbSet<UserActive> UsersActive { get; set; }\n\n    protected override void OnModelCreating(ModelBuilder modelBuilder)\n    {\n        modelBuilder.Entity<UserActive>().HasNoKey().ToView("UserActive");\n        base.OnModelCreating(modelBuilder);\n    }\n}

@@ -1,1 +1,0 @@
-const htmlString = `\n<html>\n  <body>\n    <a href="http://example.com/page?param1=value1&param2=value2">Link</a>\n    <img src="http://example.com/image.png?size=large">\n  </body>\n</html>`;\n\nconst updatedHtmlString = htmlString.replace(/(\?[^'"]*)/g, '');\n\nconsole.log(updatedHtmlString);

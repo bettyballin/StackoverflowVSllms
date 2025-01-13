@@ -1,1 +1,0 @@
-import sympy as sp\n\n# Given sequence\nsequence = [1, 3, 6, 10, 15]\n\n# Define the variable\nn = sp.symbols('n')\n\n# Use SymPy's find_fit function to find the closed form\nfit = sp.interpolating_poly(len(sequence) - 1, n, list(enumerate(sequence, start=1)))\n\n# Simplify the expression if possible\nfit_simplified = sp.simplify(fit)\n\nprint(fit_simplified)

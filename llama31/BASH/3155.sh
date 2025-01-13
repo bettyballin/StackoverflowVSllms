@@ -1,0 +1,1 @@
+perf record -a --filter='glib*' -g -- sleep 10

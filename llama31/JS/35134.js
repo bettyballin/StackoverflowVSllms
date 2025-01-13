@@ -1,0 +1,1 @@
+let myObject = { foo = "bar" }\nlet result = myObject |> callMethod (fun x -> x.foo)

@@ -1,0 +1,1 @@
+$xml = $dom->saveXML();\nfile_put_contents('/path/to/your/file.xml', $xml);

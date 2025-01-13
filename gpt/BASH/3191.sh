@@ -1,1 +1,0 @@
-cp -r /path/to/your/project /path/to/your/project_backup

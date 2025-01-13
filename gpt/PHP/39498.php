@@ -1,1 +1,0 @@
-<div class="editme1"><?php\n$content = $_GET['update_value'];\n// Fetch the updated value from the database or use the default value\nif(!empty($content)) { \n    echo htmlspecialchars($content); \n} else { \n    echo htmlspecialchars($row['profilevalue_8']); \n}\n?></div>

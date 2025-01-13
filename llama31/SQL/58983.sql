@@ -1,0 +1,1 @@
+SELECT \n  column_name, \n  low_value, \n  high_value \nFROM \n  user_tab_col_statistics \nWHERE \n  table_name = 'YOUR_TABLE_NAME' \n  AND column_name = 'YOUR_COLUMN_NAME';

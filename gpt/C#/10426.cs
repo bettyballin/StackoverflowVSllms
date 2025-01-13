@@ -1,1 +1,0 @@
-using (var dc = new MyDataContext())\n{\n    var allItems = dc.MyTables.ToList();\n    dc.MyTables.DeleteAllOnSubmit(allItems);\n    dc.SubmitChanges();\n}

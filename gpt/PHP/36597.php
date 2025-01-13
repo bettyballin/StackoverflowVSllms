@@ -1,1 +1,0 @@
-if (isset(${$varname}[$parameter])) {\n        global $$parameter;\n        $$parameter = ${$varname}[$parameter];\n    }

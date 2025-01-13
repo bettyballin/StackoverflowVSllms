@@ -1,1 +1,0 @@
-amespace MyApp.Data\n   {\n       public class UserEntity\n       {\n           // Table mapping properties\n       }\n   }\n\n   namespace MyApp.Objects\n   {\n       public class User\n       {\n           // POCO properties\n       }\n   }

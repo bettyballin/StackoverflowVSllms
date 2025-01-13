@@ -1,0 +1,1 @@
+.div1 {\n  position: relative;\n}\n\n.left {\n  position: absolute;\n  top: 0;\n  left: 0;\n  width: 50%;\n  height: 100%;\n  background-color: white;\n}\n\n.right {\n  position: absolute;\n  top: 0;\n  right: 0;\n  width: 50%;\n  height: 100%;\n  background-color: green;\n}

@@ -1,0 +1,1 @@
+$allowedDomains = array('mylink.com', 'othertrusteddomain.com');\n$redirectUrl = $_GET['RedirectPage'];\n$redirectDomain = parse_url($redirectUrl, PHP_URL_HOST);\nif (!in_array($redirectDomain, $allowedDomains)) {\n    // handle error or redirect to a default page\n}

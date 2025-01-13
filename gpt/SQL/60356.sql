@@ -1,1 +1,0 @@
-CREATE TABLE Users (\n    UserID INT PRIMARY KEY,\n    UserName NVARCHAR(50),\n    TimeZoneId NVARCHAR(50) -- E.g., "Eastern Standard Time"\n);

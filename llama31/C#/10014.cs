@@ -1,0 +1,1 @@
+RemotingTypes.Server myInstance = new RemotingTypes.Server();\nRemotingServices.Marshal(myInstance, "MyURL");

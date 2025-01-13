@@ -1,1 +1,0 @@
-<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">\n\n  <!-- Your existing content -->\n\n  <PropertyGroup>\n    <!-- Override the default build directory -->\n    <BuildAgentFolder>D:\Builds\CustomerProject</BuildAgentFolder>\n  </PropertyGroup>\n\n  <!-- Your existing content -->\n\n</Project>

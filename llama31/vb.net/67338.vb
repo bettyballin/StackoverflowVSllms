@@ -1,0 +1,1 @@
+Dim cleanedText As String = CleanRtf(yourRtfText)

@@ -1,1 +1,0 @@
-# Backup PHP configuration files\ncp /etc/php5/apache2/php.ini /etc/php5/apache2/php.ini.bak\ncp /etc/php5/cli/php.ini /etc/php5/cli/php.ini.bak\n\n# Backup website files and databases\ntar -czf /backup/website_files_backup.tar.gz /var/www/\nmysqldump -u root -p --all-databases > /backup/databases_backup.sql

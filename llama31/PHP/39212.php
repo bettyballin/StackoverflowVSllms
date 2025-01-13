@@ -1,0 +1,1 @@
+$db = mysql_connect('localhost', 'username', 'password');\nmysql_select_db('database1', $db);\n\n$start_time = microtime(true);\nfor ($i = 0; $i < 1000; $i++) {\n    mysql_select_db('database2', $db);\n    mysql_select_db('database1', $db);\n}\n$end_time = microtime(true);\n\necho "Time taken: " . ($end_time - $start_time) . " seconds";

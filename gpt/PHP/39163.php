@@ -1,1 +1,0 @@
-try {\n    $server = new SoapServer("path_to_your_wsdl.wsdl");\n    $server->setClass('YourSoapServiceClass');\n    $server->handle();\n} catch (SoapFault $e) {\n    $fault = new SoapFault("Server", "Custom error: " . $e->getMessage());\n    $response = new SoapVar($fault, SOAP_ENC_OBJECT);\n    $server->fault($e->faultcode, $e->faultstring);\n}

@@ -1,0 +1,1 @@
+EXEC sp_trace_setevent @TraceID, 12, 1, 1; -- SQL:BatchCompleted\nEXEC sp_trace_setevent @TraceID, 13, 1, 1; -- SQL:StmtCompleted\nEXEC sp_trace_setfilter @TraceID, 10, 0, 0, N'YourExeName'; -- Application Name filter\nEXEC sp_trace_setstatus @TraceID, 1; -- Start the trace

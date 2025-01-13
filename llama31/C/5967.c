@@ -1,0 +1,1 @@
+// Example of running each simulated user in a separate process\nlr_start_process("User1.exe");\nlr_start_process("User2.exe");

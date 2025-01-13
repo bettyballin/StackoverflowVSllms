@@ -1,0 +1,1 @@
+public static string FormatFileSize(long bytes)\n{\n    var sizes = new[] { "B", "KB", "MB", "GB", "TB" };\n    var index = 0;\n    while (bytes >= 1024 && index < sizes.Length - 1)\n    {\n        bytes /= 1024;\n        index++;\n    }\n    return $"{bytes:F2} {sizes[index]}";\n}

@@ -1,0 +1,1 @@
+const int MAX_FILENAME_LENGTH = 256;\nconst int MAX_PATH_LENGTH = 260;

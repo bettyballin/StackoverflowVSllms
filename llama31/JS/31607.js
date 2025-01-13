@@ -1,0 +1,1 @@
+// JavaScript side (using jQuery)\n$.ajax({\n  type: 'GET',\n  url: 'ajax_handler.php',\n  dataType: 'json',\n  success: function(data) {\n    console.log(data.message); // Output: "Hello, world!"\n  }\n});

@@ -1,0 +1,1 @@
+self.response.out.write('%s(%s)' % (callback_function, simplejson.dumps(jsonData)))

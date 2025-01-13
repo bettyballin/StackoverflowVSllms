@@ -1,1 +1,0 @@
-sudo rsync -av --exclude='ib_logfile*' /var/lib/mysql /path/to/backup/\n    sudo cp /etc/my.cnf /path/to/backup/

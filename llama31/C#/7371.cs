@@ -1,0 +1,1 @@
+Guid guid1 = Guid.Parse("XXXXXXXX-XXXX-XXXX-XXXX-XXXXXXXXXXXX");\nGuid guid2 = Guid.Parse("XXXXXXXX-XXXX-XXXX-XXXX-XXXXXXXXXXXX");\n\nif (guid1 == guid2)\n{\n    // GUIDs are equal\n}

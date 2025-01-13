@@ -1,0 +1,1 @@
+using System.Web;\n\nstring html = "your string with apostrophe's";\nstring encodedHtml = HttpUtility.JavaScriptStringEncode(html);

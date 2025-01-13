@@ -1,1 +1,0 @@
-import sys\n\nif sys.stdout.isatty():\n    print("sys.stdout is attached to a terminal.")\nelse:\n    print("sys.stdout is not attached to a terminal.")

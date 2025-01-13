@@ -1,1 +1,0 @@
-SELECT \n    PersonID,\n    MAX(CASE WHEN ApplicationID = 1 THEN PersonApplicationID END) AS DRIMaster,\n    MAX(CASE WHEN ApplicationID = 6 THEN PersonApplicationID END) AS DRIClient\nFROM \n    tblApplicationAssociation\nWHERE \n    ApplicationID IN (1, 6)\nGROUP BY \n    PersonID;

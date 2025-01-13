@@ -1,0 +1,1 @@
+protected override void OnLoad(EventArgs e)\n{\n    base.OnLoad(e);\n    this.Opacity = 0;\n    this.Hide();\n}

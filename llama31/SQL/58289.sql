@@ -1,0 +1,1 @@
+WITH TempTable AS (\n    SELECT Column1, Column2\n    FROM YourTable\n)\nSELECT * FROM TempTable

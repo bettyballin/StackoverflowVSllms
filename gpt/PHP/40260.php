@@ -1,1 +1,0 @@
-$string = "djriojnrwadoiaushd";\n$charToRemove = 'j';\n\n$pos = strpos($string, $charToRemove);\nif ($pos !== false) {\n    $string = substr_replace($string, '', $pos, 1);\n}\n\necho $string; // Output: driojnrwadoiaushd

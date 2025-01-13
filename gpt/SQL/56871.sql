@@ -1,1 +1,0 @@
-SELECT pid, usename, application_name, client_addr, state, query\nFROM pg_stat_activity\nWHERE state != 'idle';

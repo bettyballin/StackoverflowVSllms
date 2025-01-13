@@ -1,0 +1,1 @@
+select fgi != null ? fgi.value : (int?)null

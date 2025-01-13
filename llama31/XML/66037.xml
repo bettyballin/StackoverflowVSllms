@@ -1,0 +1,1 @@
+<configuration>\n  <system.web>\n    <httpHandlers>\n      <add verb="*" path="fpadmdll.dll" type="" modules="IsapiModule" scriptProcessor="C:\Path\To\fpadmdll.dll" resourceType="Unspecified" requireAccess="None" />\n    </httpHandlers>\n  </system.web>\n</configuration>

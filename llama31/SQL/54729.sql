@@ -1,0 +1,1 @@
+-- Reset transaction isolation level to default (READ COMMITTED)\nSET TRANSACTION ISOLATION LEVEL READ COMMITTED

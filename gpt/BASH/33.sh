@@ -1,1 +1,0 @@
-echo "ssh-rsa AAAAB3Nza... user@domain" | sudo tee -a /etc/ssh/authorized_keys/ftpuser

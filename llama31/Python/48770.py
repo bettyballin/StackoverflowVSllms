@@ -1,0 +1,1 @@
+import polyglot\n\ndef detect_language(text):\n    detector = polyglot.Detector(text)\n    return detector.language.code\n\ntext = "Merhaba, nasılsınız?"  # Turkish sentence\nprint(detect_language(text))  # Output: tr

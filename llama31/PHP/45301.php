@@ -1,0 +1,1 @@
+$pages = explode(',', $_POST['pages']);\n\nforeach ($pages as $page) {\n    // ...\n}

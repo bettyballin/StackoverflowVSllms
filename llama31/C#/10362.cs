@@ -1,0 +1,1 @@
+var db = new DataContext();\nvar profiles = db.profiles.ToList(); // Execute the query and get a list of profiles\n\nvar bindingList = new BindingList<Profile>(profiles);\ndataUltraGrid.DataSource = bindingList;

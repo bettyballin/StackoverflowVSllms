@@ -1,0 +1,1 @@
+// Server-side (PHP)\nheader('Content-Type: text/event-stream');\nheader('Cache-Control: no-cache');\n\n// ...\n\n// Send an update to the client\necho "event: progress\n";\necho "data: $progress\n\n";\nflush();

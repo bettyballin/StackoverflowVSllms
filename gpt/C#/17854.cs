@@ -1,1 +1,0 @@
-class Program\n{\n    [MyAttribute("This code sux and should be looked at")]\n    public void DoEverything()\n    {\n        WarningHelper.ShowWarning("This code sux and should be looked at");\n    }\n\n    static void Main()\n    {\n        var program = new Program();\n        program.DoEverything();\n    }\n}

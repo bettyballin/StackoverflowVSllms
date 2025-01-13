@@ -1,0 +1,1 @@
+string translatedText = translationResponse.responseData[0].translatedText;

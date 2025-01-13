@@ -1,1 +1,0 @@
-#include "mbedtls/ssl.h"\n\n   // Initialize mbedTLS\n   mbedtls_ssl_init(&ssl_context);

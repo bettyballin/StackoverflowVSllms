@@ -1,0 +1,1 @@
+[TestFixture]\npublic class MyRepositoryTests\n{\n    [Test]\n    public void GetItems_ReturnsList()\n    {\n        // Arrange\n        var repository = new MyRepository();\n\n        // Act\n        var items = repository.GetItems();\n\n        // Assert\n        Assert.IsNotNull(items);\n        Assert.IsInstanceOf(typeof(List<MyItem>), items);\n    }\n}

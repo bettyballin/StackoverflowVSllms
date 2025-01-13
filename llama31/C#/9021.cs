@@ -1,0 +1,1 @@
+using System.Configuration;\n\n// Get the Web.config file\nConfiguration config = ConfigurationManager.OpenWebConfiguration("~");\n\n// Get the location section\nLocationSection locationSection = (LocationSection)config.GetSection("location");

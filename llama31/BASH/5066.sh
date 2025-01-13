@@ -1,0 +1,1 @@
+@echo off\nsetlocal enabledelayedexpansion\n\nset "file=path\to\your\file.txt"\nset "content="\n\nfor /f "delims=" %%i in (%file%) do (\n    set "content=!content!%%i"\n)\n\necho %content%

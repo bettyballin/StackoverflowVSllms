@@ -1,0 +1,1 @@
+pecl install win32_auth

@@ -1,0 +1,1 @@
+#!/usr/bin/env python\n\nexport LD_LIBRARY_PATH=$LD_LIBRARY_PATH:/nastools/pysqlite2/pysqlite2\nexport PYTHONPATH=$PYTHONPATH:/nastools/pysqlite2/:/path/impo\nexport PATH=/nastools/python64/bin/:$PATH\n\npython /remote/path/impo/manager.py 2>&1

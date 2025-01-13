@@ -1,0 +1,1 @@
+int sessionSize = 0;\nforeach (string key in Session.Keys)\n{\n    var obj = Session[key];\n    if (obj != null)\n    {\n        sessionSize += sizeof(int) + // overhead of session object\n                      obj.ToString().Length * sizeof(char);\n    }\n}

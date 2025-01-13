@@ -1,0 +1,1 @@
+def double(x):\n    return x * 2\n\nnumbers = [1, 2, 3, 4, 5]\ndoubled_numbers = list(map(double, numbers))\n\nprint(doubled_numbers)  # [2, 4, 6, 8, 10]

@@ -1,1 +1,0 @@
-sudo mount <nfs-server-ip>:/mnt/shared /mnt/shared

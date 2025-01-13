@@ -1,0 +1,1 @@
+function truncateText(text, font, maxWidth) {\n  const width = getTextWidth(text, font);\n  if (width > maxWidth) {\n    text = text.substring(0, text.length - 3) + '...';\n  }\n  return text;\n}

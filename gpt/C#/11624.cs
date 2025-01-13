@@ -1,1 +1,0 @@
-app.UseCookiePolicy(new CookiePolicyOptions\n    {\n        HttpOnly = HttpOnlyPolicy.Always,\n        Secure = CookieSecurePolicy.Always\n    });

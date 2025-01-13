@@ -1,1 +1,0 @@
-public class MainViewModel\n{\n    public string Name { get; set; } = "Christian";\n    public int Age { get; set; } = 28;\n    public string Mood { get; set; } = "Good";\n}

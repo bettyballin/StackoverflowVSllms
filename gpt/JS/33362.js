@@ -1,1 +1,0 @@
-$(document).ready(function() {\n    var text = $('#bla span').contents().filter(function() {\n        return this.nodeType === Node.TEXT_NODE;\n    }).text().trim();\n    console.log(text); // Output: "I want this text"\n});

@@ -1,0 +1,1 @@
+private void SomeMethod()\n{\n    label1.Text = "Processing...";\n    Response.Flush(); // Send the updated HTML to the client\n\n    AnotherMethod();\n\n    label1.Text = "Done.";\n    label2.Text = "Processing...";\n    Response.Flush(); // Send the updated HTML to the client again\n\n    AnotherAnotherMethod();\n\n    label2.Text = "Done.";\n    // ...\n}

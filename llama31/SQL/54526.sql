@@ -1,0 +1,1 @@
+SELECT uid, key, email\nFROM (\n  SELECT uid, key, email,\n         ROW_NUMBER() OVER (PARTITION BY email, key ORDER BY uid) as rn,\n         COUNT(DISTINCT key) OVER (PARTITION BY email) as key_count\n  FROM your_table\n) t\nWHERE key_count > 1 AND rn = 1

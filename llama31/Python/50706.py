@@ -1,0 +1,1 @@
+# Using a try-except block to handle the ValueError exception\nmy_list = [1, 2, 3]\ntry:\n    index = my_list.index(4)\nexcept ValueError:\n    index = None\n\nprint(index)  # Output: None

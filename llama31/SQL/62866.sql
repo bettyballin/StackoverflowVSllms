@@ -1,0 +1,1 @@
+SELECT \n    address = REPLACE(REPLACE(address, CHAR(10), '\n'), CHAR(13), '\r')\nINTO \n    #temp\nFROM \n    your_table;\n\nINSERT INTO OPENROWSET('Microsoft.ACE.OLEDB.12.0', \n                        'Excel 12.0;Database=c:\your\file.xlsx', \n                        'SELECT * FROM [Sheet1$]')\nSELECT \n    address\nFROM \n    #temp;

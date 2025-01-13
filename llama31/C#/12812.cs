@@ -1,0 +1,1 @@
+// Querying a file system using LINQ\nvar files = Directory.GetFiles(".", "*.txt")\n                     .Where(f => f.Length > 1024)\n                     .Select(f => Path.GetFileName(f));

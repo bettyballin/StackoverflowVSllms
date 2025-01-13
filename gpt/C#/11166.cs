@@ -1,1 +1,0 @@
-[Test]\n   public void TestWithAutoFixture()\n   {\n       var fixture = new Fixture();\n       var boundaryValue = fixture.Create<int>();\n       // Use boundaryValue in your test\n   }

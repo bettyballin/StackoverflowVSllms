@@ -1,1 +1,0 @@
-ls -l /usr/lib/libXaw.so.7

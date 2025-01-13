@@ -1,0 +1,1 @@
+$result = mysqli_query($db, "SELECT `online` FROM `tbl_system` WHERE `property` = 'extranet'");\n$online = mysqli_fetch_assoc($result);\necho $online['online'];

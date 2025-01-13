@@ -1,1 +1,0 @@
-$str = $post->post_content;\n\n// Debugging output to ensure $post->post_content is set correctly\nvar_dump($str); // This will output the type and value of $str\n\nassert(isset($str)); // Ensure $str is set\nassert(is_string($str)); // Ensure $str is a string\n\necho $str;\n\n$str = 'before after';\nassert(isset($str));\necho $str;

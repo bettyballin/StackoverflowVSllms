@@ -1,1 +1,0 @@
-Imports YourComNamespace\n\nModule Module1\n    Sub Main()\n        Dim comObject As New YourComClass()\n        Dim result = comObject.SomeMethod()\n        Console.WriteLine(result)\n    End Sub\nEnd Module

@@ -1,0 +1,1 @@
+using System.Security.Cryptography;\n\npublic class SecureSessionIdGenerator\n{\n    public static string GenerateSessionId()\n    {\n        using (var rng = RandomNumberGenerator.Create())\n        {\n            var bytes = new byte[16];\n            rng.GetBytes(bytes);\n            return Convert.ToBase64String(bytes);\n        }\n    }\n}

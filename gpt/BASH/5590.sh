@@ -1,1 +1,0 @@
-pip install pdf2image\nsudo apt-get install poppler-utils  # For Linux\nbrew install poppler  # For macOS

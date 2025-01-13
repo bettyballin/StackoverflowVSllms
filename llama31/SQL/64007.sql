@@ -1,0 +1,1 @@
+ALTER TABLE YourTable\nADD CONSTRAINT chk_PreventDelete CHECK (YourCondition = 1);

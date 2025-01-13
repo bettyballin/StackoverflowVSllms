@@ -1,1 +1,0 @@
-<connectionStrings>\n        <add name="ApplicationDbContext" connectionString="YourConnectionStringHere" providerName="System.Data.SqlClient" />\n    </connectionStrings>

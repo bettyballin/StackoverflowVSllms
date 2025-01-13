@@ -1,0 +1,1 @@
+// Dynamically allocating a 2D array\nint** arr = new int*[rows];\nfor (int i = 0; i < rows; i++) {\n    arr[i] = new int[cols];\n}\n\n// Don't forget to free the memory when you're done!\nfor (int i = 0; i < rows; i++) {\n    delete[] arr[i];\n}\ndelete[] arr;

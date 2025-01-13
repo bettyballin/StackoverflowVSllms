@@ -1,1 +1,0 @@
-brew install php@5.6

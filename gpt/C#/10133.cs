@@ -1,1 +1,0 @@
-using (var context = new MyDbContext())\n{\n    var users = context.Users.Include(u => u.BelongsTo).ToList();\n    var groups = context.Usergroups.Include(g => g.Users).ToList();\n    \n    // The users and groups collections now have the relationships populated.\n}

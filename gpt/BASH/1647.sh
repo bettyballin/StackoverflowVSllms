@@ -1,1 +1,0 @@
-cd ~\n   git clone https://github.com/yourusername/your-emacs-config.git .emacs.d

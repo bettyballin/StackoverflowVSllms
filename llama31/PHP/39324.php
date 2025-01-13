@@ -1,0 +1,1 @@
+public static function explodeDn($dn, array &$keys = [], array &$vals = [], $caseFold = self::ATTR_CASEFOLD_NONE)

@@ -1,1 +1,0 @@
-(root/cat/movie/swf)[6]

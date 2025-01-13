@@ -1,0 +1,1 @@
+require 'builder'\n\nclass ExternalVideo < ApplicationRecord\n  def embed_html\n    builder = Builder::XmlMarkup.new(indent: 2)\n    builder.embed(src: @video_source)\n    builder.target!\n  end\nend

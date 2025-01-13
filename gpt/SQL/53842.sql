@@ -1,1 +1,0 @@
-SELECT ttg.*\nFROM tblTagGlass ttg\nINNER JOIN tblTagGlass ttgC \n    ON ttg.JobID = ttgC.JobID\n    AND ttg.PartCode = ttgC.PartCode\nWHERE (ttg.TagHeight != ttgC.TagHeight OR ttg.TagWidth != ttgC.TagWidth)\n  AND ttg.UnitCode < ttgC.UnitCode\nORDER BY ttg.PartCode;

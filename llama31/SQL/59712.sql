@@ -1,0 +1,1 @@
+INSERT INTO destination (A, B, C)\nSELECT a1, b1, c1\nFROM source\nWHERE NOT EXISTS (\n    SELECT 1\n    FROM destination\n    WHERE A = source.a1\n);

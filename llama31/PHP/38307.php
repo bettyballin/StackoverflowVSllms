@@ -1,0 +1,1 @@
+// index.php\nif (isset($_GET['p'])) {\n    $page = $_GET['p'];\n} else {\n    $uri = $_SERVER['REQUEST_URI'];\n    $parts = explode('/', $uri);\n    $page = end($parts);\n}\n\n// Now $page will contain the value 'contact' regardless of whether the rewrite is in place or not

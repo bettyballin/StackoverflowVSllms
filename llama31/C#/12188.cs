@@ -1,0 +1,1 @@
+RichTextBox richTextBox = new RichTextBox();\nrichTextBox.Text = "This is a **bold** word.";\nrichTextBox.Select(10, 4); // Select the word "bold"\nrichTextBox.SelectionFont = new Font(richTextBox.Font, FontStyle.Bold);

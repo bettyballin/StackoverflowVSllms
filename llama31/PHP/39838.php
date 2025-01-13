@@ -1,0 +1,1 @@
+$ch = curl_init($url);\ncurl_setopt($ch, CURLOPT_RETURNTRANSFER, true);\ncurl_setopt($ch, CURLOPT_HEADER, true);\n$response = curl_exec($ch);\n$headers = substr($response, 0, curl_getinfo($ch, CURLINFO_HEADER_SIZE));\n$headers = explode("\r\n", $headers);

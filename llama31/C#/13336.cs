@@ -1,0 +1,1 @@
+[STAThread]\nstatic void Main(string[] args)\n{\n    // ...\n}

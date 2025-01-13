@@ -1,0 +1,1 @@
+sed -i 's/\b[oldtext]\b/[newtext]/g' <file>

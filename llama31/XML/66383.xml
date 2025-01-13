@@ -1,0 +1,1 @@
+<system.web>\n  <membership defaultProvider="SqlMembershipProvider">\n    <providers>\n      <clear />\n      <add name="SqlMembershipProvider"\n           connectionStringName="YourConnectionString"\n           applicationName="/"\n           type="System.Web.Security.SqlMembershipProvider" />\n    </providers>\n  </membership>\n  <authentication mode="Forms" />\n</system.web>

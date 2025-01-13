@@ -1,1 +1,0 @@
--- Example of moving data older than 45 days to an archive table\nINSERT INTO ArchiveLogEntries\nSELECT * FROM LogEntries\nWHERE EntryDate < DATEADD(DAY, -45, GETDATE());\n\nDELETE FROM LogEntries\nWHERE EntryDate < DATEADD(DAY, -45, GETDATE());

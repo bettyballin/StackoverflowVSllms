@@ -1,0 +1,1 @@
+sudo mount -t ntfs-3g -o rw /dev/disk1s1 /Volumes/SATA160

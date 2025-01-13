@@ -1,0 +1,1 @@
+sudo yum install xorg-xwd ImageMagick

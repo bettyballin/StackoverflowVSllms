@@ -1,0 +1,1 @@
+IndexedCollection<MyObject> collection = new IndexedCollection<MyObject>();\n// Add, insert, remove objects...\nMyObject obj = ...;\nint index = collection.IndexOf(obj);

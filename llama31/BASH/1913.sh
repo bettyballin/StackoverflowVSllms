@@ -1,0 +1,1 @@
+%.d: %.c\n    @$(CC) -MM $(CFLAGS) $< > $@\n\ninclude $(wildcard *.d)

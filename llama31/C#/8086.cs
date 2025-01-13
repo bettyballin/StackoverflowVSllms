@@ -1,0 +1,1 @@
+[DataContract]\npublic class CustomObject\n{\n    [DataMember]\n    public string PropertyName { get; set; }\n    // other properties...\n}

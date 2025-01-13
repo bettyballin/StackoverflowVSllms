@@ -1,0 +1,1 @@
+// C#\nfor (int i = 0; i < 1000000; i++)\n{\n    Console.WriteLine(i);\n}

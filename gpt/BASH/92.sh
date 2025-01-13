@@ -1,1 +1,0 @@
-keytool -importkeystore -srckeystore your_keystore.jks -destkeystore your_keystore.p12 -srcstoretype JKS -deststoretype PKCS12 -alias your_alias

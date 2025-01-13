@@ -1,0 +1,1 @@
+// assume 'control' is the object reference to the control to be validated\n// and 'validator' is the object reference to the validator\n\nvalidator.ControlToValidate = control.ID;

@@ -1,1 +1,0 @@
-g++ -pthread -o myapp myapp.cpp

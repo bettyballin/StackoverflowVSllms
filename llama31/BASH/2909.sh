@@ -1,0 +1,1 @@
+rpm --initdb --dbpath /path/to/your/rpm/db

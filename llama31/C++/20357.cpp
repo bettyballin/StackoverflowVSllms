@@ -1,0 +1,1 @@
+IUnitModelPtr createUnitModel(const char* modelType) {\n    if (strcmp(modelType, "Model1") == 0) {\n        return IUnitModelPtr(__uuidof(ClassOne));\n    } else if (strcmp(modelType, "Model2") == 0) {\n        return IUnitModelPtr(__uuidof(ClassTwo));\n    } else {\n        // handle unknown model type\n        return NULL;\n    }\n}

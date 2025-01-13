@@ -1,1 +1,0 @@
-SELECT t1.col_a, t1.col_b, t2.col_z\nFROM t1 \nINNER JOIN t2 ON t1.id_foo = t2.id_foo;

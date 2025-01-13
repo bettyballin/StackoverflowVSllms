@@ -1,0 +1,1 @@
+void foo(int a, int b, int c) {\n    // ...\n}\n\nint main() {\n    auto boundFoo = bind(foo, 1, 2);\n    boundFoo(3); // calls foo(1, 2, 3)\n    return 0;\n}

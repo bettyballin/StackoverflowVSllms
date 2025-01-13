@@ -1,1 +1,0 @@
-class SimpleBarImplementation\n  include Foo::Bar\n\n  def baz\n    # implementation\n  end\n\n  class << self\n    private :new\n  end\nend

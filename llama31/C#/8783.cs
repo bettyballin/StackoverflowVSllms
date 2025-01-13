@@ -1,0 +1,1 @@
+var query = from u in db.Users\n            join p in db.PCs on u.Id equals p.UserId\n            join a in db.Apps on p.Id equals a.PcId\n            select new\n            {\n                username = u.Name,\n                pcname = p.Name,\n                appname = a.Name\n            };

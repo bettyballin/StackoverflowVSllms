@@ -1,1 +1,0 @@
-var s = new Person \n{ \n    FirstName = "Micah",\n    LastName = "Martin",\n    IsLoaded = true\n};

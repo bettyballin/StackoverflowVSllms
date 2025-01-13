@@ -1,1 +1,0 @@
-# Generate tags\nctags -R .\n\n# In Vim\n# Place the cursor on the function name and press Ctrl-]\n# To return to the previous position, press Ctrl-t

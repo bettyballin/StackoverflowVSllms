@@ -1,0 +1,1 @@
+<PostBuildEvent>copy /y $(ProjectDir)libxml2.dll $(OutDir)</PostBuildEvent>

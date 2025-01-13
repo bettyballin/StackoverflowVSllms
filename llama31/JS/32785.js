@@ -1,0 +1,1 @@
+$("#comment_form").ajaxForm({\n  success: function() {\n    $.getScript('/comments/create.js');\n  }\n});

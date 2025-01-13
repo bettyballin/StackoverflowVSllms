@@ -1,0 +1,1 @@
+var months = CultureInfo.CurrentCulture.DateTimeFormat.MonthNames\n    .Select((month, index) => new SelectListItem { Value = (index + 1).ToString("D2"), Text = month })\n    .ToList();

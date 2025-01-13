@@ -1,0 +1,1 @@
+$xml_file = 'path/to/playlist.xml';\n$xml = simplexml_load_file($xml_file);\nif ($xml === false) {\n    // handle error\n} else {\n    // process XML data\n}

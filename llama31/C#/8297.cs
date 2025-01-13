@@ -1,0 +1,1 @@
+public interface IRandomNumberGenerator\n{\n    // existing methods\n}\n\npublic interface IRandomNumberGeneratorFactory\n{\n    IRandomNumberGenerator Create(double seed);\n}

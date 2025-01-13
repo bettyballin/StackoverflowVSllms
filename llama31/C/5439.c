@@ -1,0 +1,1 @@
+// my_c_functions.c (C code)\n#include "my_pli_wrapper.h"\n\nvoid my_c_function1() {\n  // Your C function implementation goes here\n}\n\nvoid my_c_function2() {\n  // Your C function implementation goes here\n}

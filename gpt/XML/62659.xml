@@ -1,1 +1,0 @@
-<Reference Include="YourAssembly">\n  <HintPath>path\to\YourAssembly.dll</HintPath>\n  <SpecificVersion>false</SpecificVersion>\n</Reference>

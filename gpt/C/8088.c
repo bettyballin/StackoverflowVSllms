@@ -1,1 +1,0 @@
-// Example C structures and function prototype\n    typedef struct {\n        int x;\n        float y;\n    } InnerStruct;\n\n    typedef union {\n        int a;\n        float b;\n    } InnerUnion;\n\n    typedef struct {\n        InnerStruct* innerStruct;\n        InnerUnion* innerUnion;\n    } MainStruct;\n\n    void ProcessMainStruct(MainStruct* mainStruct);

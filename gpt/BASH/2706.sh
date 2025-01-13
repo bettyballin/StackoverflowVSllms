@@ -1,1 +1,0 @@
-db2move your_database_name export -sn your_schema_name

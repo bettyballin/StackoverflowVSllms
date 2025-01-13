@@ -1,0 +1,1 @@
+<security-constraint>\n    <web-resource-collection>\n        <web-resource-name>all</web-resource-name>\n        <url-pattern>/secured</url-pattern>\n    </web-resource-collection>\n    <auth-constraint>\n        <role-name>admin</role-name>\n    </auth-constraint>\n</security-constraint>

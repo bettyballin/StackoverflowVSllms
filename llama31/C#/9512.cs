@@ -1,0 +1,1 @@
+for (int i = temp.Count - 1; i >= 0; i--)\n{\n    if (temp[i].Count == 1)\n    {\n        temp.RemoveAt(i);\n    }\n}

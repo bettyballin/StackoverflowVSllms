@@ -1,0 +1,1 @@
+.imageless-button {\n  background-color: #007bff;\n  color: #ffffff;\n  border: none;\n  padding: 10px 20px;\n  font-size: 16px;\n  cursor: pointer;\n}\n\n.imageless-button:hover {\n  background-color: #0056b3;\n}

@@ -1,1 +1,0 @@
-<#@ template language="C#" #>\n<#@ include file="SubTemplate1.tt" #>\n<#@ include file="SubTemplate2.tt" #>\n\n// Main template content\n<#\n    // You can call methods or use variables defined in sub-templates here\n#>

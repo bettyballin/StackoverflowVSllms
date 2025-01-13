@@ -1,1 +1,0 @@
-SELECT \n    q.quote_id, \n    q.quote_date, \n    q.total_amount, \n    qp.product_name, \n    qp.product_description, \n    qp.quantity, \n    qp.price_per_unit, \n    qp.total_price \nFROM \n    Quote q\nJOIN \n    Quote_Products qp \nON \n    q.quote_id = qp.quote_id\nWHERE \n    q.quote_id = ?;

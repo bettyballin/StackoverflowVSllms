@@ -1,0 +1,1 @@
+private void DataGrid_Sorting(object sender, DataGridSortingEventArgs e)\n{\n    if (e.Column.Header.ToString() == "YourColumnName") // Replace "YourColumnName" with the header of the column you want to prevent sorting on\n    {\n        e.Handled = true; // Cancel the sorting operation\n    }\n}

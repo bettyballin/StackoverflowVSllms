@@ -1,0 +1,1 @@
+%windir%\Microsoft.NET\Framework\v2.0.50727\dotnetfx.exe /t:%temp%\dotnetfx.exe /c:"msiexec.exe /fvecms %temp%\dotnetfx.exe"

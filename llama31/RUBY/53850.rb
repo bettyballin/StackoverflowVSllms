@@ -1,0 +1,1 @@
+def history\n  game = Game.find(params[:id])\n  render xml: game.turns.to_xml\nend

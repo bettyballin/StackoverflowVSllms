@@ -1,1 +1,0 @@
-ull\ndouble\nblob\nstring\ninteger

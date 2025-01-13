@@ -1,1 +1,0 @@
-$query = "SELECT filetype, my_function(filename) FROM table";\n   $result = mysql_query($query);\n   return $result;

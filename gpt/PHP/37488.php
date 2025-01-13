@@ -1,1 +1,0 @@
-$db->query("SET NAMES utf8mb4;");

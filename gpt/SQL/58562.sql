@@ -1,1 +1,0 @@
-SET profiling = 1;\n   SELECT * FROM your_table WHERE condition;\n   SHOW PROFILES;

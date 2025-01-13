@@ -1,0 +1,1 @@
+public partial class Customer : IValidatableObject\n{\n    public IEnumerable<ValidationResult> Validate(ValidationContext validationContext)\n    {\n        if (string.IsNullOrEmpty(Name))\n        {\n            yield return new ValidationResult("Name is required");\n        }\n    }\n}

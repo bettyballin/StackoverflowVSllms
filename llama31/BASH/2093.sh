@@ -1,0 +1,1 @@
+curl -H "Host: mydomain.com" http://ip.address.goes.here/

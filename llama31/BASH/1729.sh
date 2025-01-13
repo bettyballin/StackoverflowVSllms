@@ -1,0 +1,1 @@
+C:\Windows\System32\inetsrv\appcmd.exe unlock config /section:system.webServer/security/authentication/windowsAuthenticatio

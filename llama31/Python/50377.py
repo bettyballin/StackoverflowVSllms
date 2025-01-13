@@ -1,0 +1,1 @@
+from flask import Flask, request\n\napp = Flask(__name__)\n\n@app.route('/store-selected-value', methods=['POST'])\ndef store_selected_value():\n    selected_value = request.form['selected_value']\n    # Store the value to a variable or database\n    # For example:\n    my_variable = selected_value\n    return 'OK'\n\nif __name__ == '__main__':\n    app.run()

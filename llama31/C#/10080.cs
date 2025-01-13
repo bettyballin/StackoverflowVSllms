@@ -1,0 +1,1 @@
+XmlNodeList nodes = siteMapXml.SelectNodes("//siteMapNode[@url=\"~/lev/index.aspx\"]");\nforeach (XmlNode node in nodes)\n{\n    // do something with the node\n}

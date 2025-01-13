@@ -1,0 +1,1 @@
+// Client-side WebSocket connection\nvar socket = new WebSocket("ws://example.com/ws");\n\nsocket.onmessage = function(event) {\n  // Update specific sections of the page with new data\n  $("#updated-section").html(event.data);\n};

@@ -1,1 +1,0 @@
-SELECT U.UserId, UP.Profile, UP.UserParentID,\n       UP.Profile.value('(/Properties/property[@id="BusinessName"])[1]', 'NVARCHAR(MAX)') AS BusinessName\nFROM aspnet_Users U\nLEFT OUTER JOIN UserProperties UP ON U.UserId = UP.UserId\nWHERE UP.Profile.exist('/Properties/property[contains(.,sql:variable("@cLookup"))]') = 1\nORDER BY BusinessName

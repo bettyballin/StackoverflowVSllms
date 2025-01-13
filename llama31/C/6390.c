@@ -1,0 +1,1 @@
+// example of a certified C function\nint add(int a, int b) {\n  return a + b;\n}

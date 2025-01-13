@@ -1,1 +1,0 @@
-MyStruct* obj = createMyStruct();\n   // Use obj\n   destroyMyStruct(obj);

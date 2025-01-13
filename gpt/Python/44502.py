@@ -1,1 +1,0 @@
-app = webapp2.WSGIApplication([\n    webapp2.Route('/admin', handler=AdminPage, name='admin-page', handler_method='get', kwargs={'required_privilege': 'admin'}),\n    webapp2.Route('/user', handler=UserPage, name='user-page', handler_method='get', kwargs={'required_privilege': 'user'}),\n], debug=True)

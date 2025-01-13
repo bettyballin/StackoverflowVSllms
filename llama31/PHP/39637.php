@@ -1,0 +1,1 @@
+$stmt = $pdo->query('SELECT SQL_CALC_FOUND_ROWS * FROM your_table WHERE your_condition');\n$data = $stmt->fetchAll();\n$count = $pdo->query('SELECT FOUND_ROWS()')->fetchColumn();

@@ -1,1 +1,0 @@
-<?php\n// Call a C program from PHP\n$output = shell_exec('/path/to/c_program arg1 arg2');\necho "Output from C program: " . $output;\n?>

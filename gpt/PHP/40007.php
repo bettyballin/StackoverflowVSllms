@@ -1,1 +1,0 @@
-<?php\n$someVal = "input value";\nTestPassRef($someVal);\necho $someVal; // Output: changed value\n?>

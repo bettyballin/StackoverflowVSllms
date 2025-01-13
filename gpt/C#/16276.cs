@@ -1,1 +1,0 @@
-string htmlDisplayText = retrievedText.Replace("<br>", "<br/>");\nLiteralControl literal = new LiteralControl(htmlDisplayText);\nPlaceholder1.Controls.Add(literal);

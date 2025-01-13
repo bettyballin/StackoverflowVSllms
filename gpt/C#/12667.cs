@@ -1,1 +1,0 @@
-using (var context = new YourDbContext())\n{\n    var blobData = (from b in context.YourTable\n                    where b.Id == someId\n                    select b.YourBlobColumn).FirstOrDefault();\n\n    if (blobData != null)\n    {\n        // blobData is a byte array\n        // You can now process the BLOB data as needed\n    }\n}

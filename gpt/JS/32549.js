@@ -1,1 +1,0 @@
-function selectItem(item) {\n    var items = document.getElementsByClassName('list-item');\n    for (var i = 0; i < items.length; i++) {\n        items[i].classList.remove('selected');\n    }\n    item.classList.add('selected');\n}

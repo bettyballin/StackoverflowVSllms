@@ -1,0 +1,1 @@
+#include <stdio.h>\n#include <stdlib.h>\n#include <string.h>\n\nint main() {\n    char *original = "Hello, World!";\n    char *duplicate = strdup(original);\n\n    printf("Original: %s\n", original);\n    printf("Duplicate: %s\n", duplicate);\n\n    free(duplicate);\n\n    return 0;\n}

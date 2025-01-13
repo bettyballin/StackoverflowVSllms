@@ -1,1 +1,0 @@
-Mapping tempMapping = default(Mapping); // or you can use 'new Mapping()' if it's a class\nFILES_GetMemoryMapping(MapFile, out size, MapName, out PacketSize, ref tempMapping, out PagePerSector);

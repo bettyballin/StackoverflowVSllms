@@ -1,1 +1,0 @@
-# Using curly braces for single-line blocks\n[1, 2, 3].each { |num| puts num }\n\n# Using do..end for multi-line blocks\n[1, 2, 3].each do |num|\n  puts num\nend

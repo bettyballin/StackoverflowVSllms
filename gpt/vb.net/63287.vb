@@ -1,1 +1,0 @@
-Dim returnValue As Long\nreturnValue = ExecCmd("C:\Path\To\YourApp.exe")\nIf returnValue = 0 Then\n    ' Proceed with your code\nElse\n    ' Handle the error\nEnd If

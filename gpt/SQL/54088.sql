@@ -1,1 +1,0 @@
--- Enable general query log\n    SET GLOBAL general_log = 'ON';\n    SET GLOBAL general_log_file = '/path/to/mysql_general.log';

@@ -1,1 +1,0 @@
-List<MyClass> list = new List<MyClass>();\n// Add elements to the list\nMyClass[] myArray = list.ToArray();

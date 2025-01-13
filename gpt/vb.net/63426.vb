@@ -1,1 +1,0 @@
-Dim isMember As Boolean = IsUserInGroup("username", "groupname", "domain.com")\nConsole.WriteLine($"Is user a member of the group? {isMember}")

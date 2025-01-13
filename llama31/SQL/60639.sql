@@ -1,0 +1,1 @@
+SELECT \n  RPAD(assigner_staff_id, 10) AS staff_id,\n  RPAD(active_flag, 1) AS active_flag,\n  RPAD(TO_CHAR(assign_date, 'YYYY-MM-DD'), 10) AS assign_date,\n  RPAD(TO_CHAR(complete_date, 'YYYY-MM-DD'), 10) AS complete_date,\n  RPAD(TO_CHAR(mod_date, 'YYYY-MM-DD HH24:MI:SS'), 19) AS mod_date\nFROM work \nWHERE assigner_staff_id = '2096';

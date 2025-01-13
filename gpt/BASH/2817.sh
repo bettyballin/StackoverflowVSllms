@@ -1,1 +1,0 @@
-php.exe ext_skel_win32.php --extname=myextension --proto=myprototypefile.dat

@@ -1,1 +1,0 @@
-using System.Web;\nusing System.Web.SessionState;\n\npublic class myCustom : IHttpHandler, IRequiresSessionState\n{\n    public void ProcessRequest(HttpContext context)\n    {\n        // Your logic here\n        var userId = Token.Instance.User.UserId;\n        context.Response.Write(userId);\n    }\n\n    public bool IsReusable\n    {\n        get { return false; }\n    }\n}

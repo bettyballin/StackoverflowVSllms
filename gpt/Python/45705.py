@@ -1,1 +1,0 @@
-cursor.execute("""\n    SELECT col1, col2\n    FROM my_table\n    WHERE afield LIKE %s\n    AND secondfield = %s\n    ORDER BY 1 DESC\n    """, ('%' + var1 + '%', var2))

@@ -1,0 +1,1 @@
+public struct IntPair\n{\n    public int A;\n    public int B;\n}\n\npublic class IntPairComparer : IComparer<IntPair>\n{\n    public int Compare(IntPair x, IntPair y)\n    {\n        if (x.A != y.A) return x.A.CompareTo(y.A);\n        return x.B.CompareTo(y.B);\n    }\n}

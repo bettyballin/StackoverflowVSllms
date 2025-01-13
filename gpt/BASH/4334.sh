@@ -1,1 +1,0 @@
-sudo apt-get install percona-xtrabackup-80

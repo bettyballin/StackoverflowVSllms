@@ -1,0 +1,1 @@
+for (int i = 1; i <= itemCount; i++)\n{\n    html += $"<div class=\"item\">Item {i}</div>";\n}

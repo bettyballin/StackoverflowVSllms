@@ -1,0 +1,1 @@
+public class Program\n{\n    public static void Main(string[] args)\n    {\n        PrintAge(new Person { Age = 1 });\n    }\n\n    private static void PrintAge(Person person)\n    {\n        if (person == null)\n        {\n            throw new ArgumentNullException(nameof(person));\n        }\n        Console.WriteLine("Age = {0}", person.Age);\n    }\n}

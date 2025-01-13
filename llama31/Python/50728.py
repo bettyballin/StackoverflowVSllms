@@ -1,0 +1,1 @@
+def format_timedelta(td):\n    total_seconds = td.seconds\n    hours = total_seconds // 3600\n    minutes = (total_seconds % 3600) // 60\n    return f"{hours}:{minutes:02d}"\n\n# Example usage:\nfrom datetime import timedelta\n\nduration = timedelta(hours=2, minutes=5)\nprint(format_timedelta(duration))  # Output: 2:05

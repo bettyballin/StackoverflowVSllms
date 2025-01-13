@@ -1,0 +1,1 @@
+struct Compare {\n    bool operator()(float x, const MyClass& obj) const {\n        return x < obj.internalValue; // assuming internalValue is a float member of MyClass\n    }\n};

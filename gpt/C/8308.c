@@ -1,1 +1,0 @@
-typedef void (*FunctionType)();\n    FunctionType func = (FunctionType)GetProcAddress(hDll, "FunctionName");\n    if (func == NULL) {\n        // Handle the error\n    } else {\n        // Use the function\n        func();\n    }

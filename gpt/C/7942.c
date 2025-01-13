@@ -1,1 +1,0 @@
-struct FooBar {\n    uint32_t field_1;\n    uint32_t field_2;\n    //...\n};\n\nstruct FooBar foobar __attribute__((section(".my_foobar")));

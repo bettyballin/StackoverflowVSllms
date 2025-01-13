@@ -1,0 +1,1 @@
+# Example Instruments command\ninstruments -w "iPhone 12" -t "Tap"

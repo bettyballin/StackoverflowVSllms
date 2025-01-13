@@ -1,0 +1,1 @@
+d = {'a': 1, 'b': 2, 'c': 3}\n\n# Convert to list of tuples (key, value)\nlist_of_tuples = list(d.items())\nprint(list_of_tuples)  # Output: [('a', 1), ('b', 2), ('c', 3)]\n\n# Convert to list of tuples (value, key)\nlist_of_tuples_swapped = [(v, k) for k, v in d.items()]\nprint(list_of_tuples_swapped)  # Output: [(1, 'a'), (2, 'b'), (3, 'c')]

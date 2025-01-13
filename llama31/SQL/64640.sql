@@ -1,0 +1,1 @@
+SELECT * FROM table WHERE ROUND(col1 / col2) BETWEEN 1 AND 8;

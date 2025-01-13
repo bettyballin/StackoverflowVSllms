@@ -1,1 +1,0 @@
-webView.NavigationRequested += (sender, e) => {\n    if (e.Request.Uri.ToString().Contains("your-custom-logic")) {\n        e.Handled = true;\n        // Perform your action here\n    }\n};

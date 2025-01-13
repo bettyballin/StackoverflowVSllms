@@ -1,0 +1,1 @@
+var conn = new Strophe.Connection('http://your_xmpp_server:5280/xmpp-httpbind');\n\n// Send a message\nconn.send($pres({\n    to: 'your_contact_jid',\n    type: 'chat',\n}).c('body').t('Hello, world!'));\n\n// Receive messages\nconn.addHandler(function(msg) {\n    console.log('Received message: ' + msg.getBody());\n}, null, 'message');

@@ -1,0 +1,1 @@
+var ids = new int[] { 1, 2, 3 };\nvar sql = "UPDATE FileEntity SET DateDeleted = GETDATE() WHERE ID IN ({0})";\nvar parameters = ids.Select((id, index) => "@p" + index).ToArray();\nvar command = string.Format(sql, string.Join(", ", parameters));\n\ndb.ExecuteCommand(command, ids.Select(id => (object)id).ToArray());

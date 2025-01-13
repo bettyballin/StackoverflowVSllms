@@ -1,0 +1,1 @@
+$fname = "проба.xml";\n$fname_encoded = urlencode($fname);\nfile_get_contents($fname_encoded);

@@ -1,1 +1,0 @@
-keytool -genkeypair -alias mykey -keyalg RSA -keystore mykeystore.jks -dname "CN=192.168.56.1" -ext SAN=ip:192.168.56.1

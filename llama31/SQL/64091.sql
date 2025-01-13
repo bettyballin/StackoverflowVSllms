@@ -1,0 +1,1 @@
+CREATE EXTENSION pg_repack;\nSELECT * FROM pg_repack.repack_info;

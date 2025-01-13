@@ -1,1 +1,0 @@
-tar -xvzf dbeaver-ce-latest-linux.gtk.x86_64.tar.gz

@@ -1,1 +1,0 @@
-protected bool GetPanelVisibility(object dataItem)\n{\n    string showValue = XPathBinder.Eval(dataItem, "Menu/Show") as string;\n    bool isVisible;\n    bool.TryParse(showValue, out isVisible);\n    return isVisible;\n}

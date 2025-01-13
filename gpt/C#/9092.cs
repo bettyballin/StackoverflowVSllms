@@ -1,1 +1,0 @@
-protected void Page_Load(object sender, EventArgs e)\n{\n    CustomProfile profile = CustomProfile.GetUserProfile(User.Identity.Name);\n    string firstName = profile.FirstName;\n    string lastName = profile.LastName;\n    int age = profile.Age;\n}

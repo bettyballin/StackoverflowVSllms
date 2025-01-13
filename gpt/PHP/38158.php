@@ -1,1 +1,0 @@
-<?php\n    echo '<div id="title">My Title</div>';\n    echo '<div id="message">My message</div>';\n?>

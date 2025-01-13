@@ -1,1 +1,0 @@
-sudo apt-get update\n   sudo apt-get install apache2 subversion libapache2-mod-sv

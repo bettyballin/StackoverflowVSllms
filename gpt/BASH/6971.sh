@@ -1,1 +1,0 @@
-fusermount -u ~/remote_mount

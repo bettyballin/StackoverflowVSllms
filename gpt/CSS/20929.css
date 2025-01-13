@@ -1,1 +1,0 @@
-body {\n    font-family: Arial, sans-serif;\n}\n\n.form-group {\n    margin-bottom: 15px;\n}\n\n.hint {\n    display: none;\n    color: #888;\n    font-size: 0.9em;\n}\n\ninput:focus + .hint {\n    display: block;\n}\n\ninput.error {\n    border: 1px solid red;\n}

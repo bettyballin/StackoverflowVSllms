@@ -1,1 +1,0 @@
-crontab -l\n    sudo crontab -l

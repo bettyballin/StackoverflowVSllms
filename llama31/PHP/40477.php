@@ -1,0 +1,1 @@
+// index.php\nsession_start();\n$_SESSION['user'] = $_GET['user'];\n\n// about.php, profile.php, etc.\nsession_start();\necho $_SESSION['user'];

@@ -1,0 +1,1 @@
+using System.Runtime.InteropServices;\n\n// ...\n\nExcel.Application excelApp = new Excel.Application();\nExcel.Workbook workbook = excelApp.Workbooks.Add();\nExcel.Worksheet sheet = workbook.Sheets[1];\n\n// ...\n\nMarshal.ReleaseComObject(sheet);\nsheet = null;\n\nMarshal.ReleaseComObject(workbook);\nworkbook = null;\n\nMarshal.ReleaseComObject(excelApp);\nexcelApp = null;

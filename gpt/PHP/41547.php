@@ -1,1 +1,0 @@
-if (!in_array($var, array('test1', 'test2', 'test3', 'test4'))) {\n    // Your code here\n}

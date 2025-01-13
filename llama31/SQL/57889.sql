@@ -1,0 +1,1 @@
+DECLARE\n  l_cursor SYS_REFCURSOR;\nBEGIN\n  l_cursor := your_function_name();\nEND;

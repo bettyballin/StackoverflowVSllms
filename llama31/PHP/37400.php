@@ -1,0 +1,1 @@
+function asset_url($path) {\n  if ($config['environment'] == 'production') {\n    return 'http://images.mysitename.com/' . $path;\n  } else {\n    return '/assets/' . $path;\n  }\n}

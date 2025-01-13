@@ -1,0 +1,1 @@
+using System.Runtime.InteropServices;\n\n// Create a COM object\nobject comObject = new Outlook.MailItem();\n\n// Use the COM object\n// ...\n\n// Release the COM object\nMarshal.ReleaseComObject(comObject);\ncomObject = null; // Set to null to prevent further use\n\n// If you want to force garbage collection\nGC.Collect();

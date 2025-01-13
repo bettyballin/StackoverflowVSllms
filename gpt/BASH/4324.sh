@@ -1,1 +1,0 @@
-bin/cake cache clear_all

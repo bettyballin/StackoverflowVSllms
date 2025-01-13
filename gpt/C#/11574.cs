@@ -1,1 +1,0 @@
-using System.Diagnostics;\n\npublic static class GlobalSwitch\n{\n    public static readonly TraceSwitch ApplicationSwitch = new TraceSwitch("Application", "Enables logging in the whole application.");\n}

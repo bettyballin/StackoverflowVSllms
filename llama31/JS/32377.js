@@ -1,0 +1,1 @@
+// Alternatively, using jQuery\n$.ajax({\n  url: 'http://localhost:8080/your-endpoint',\n  crossDomain: true,\n  xhrFields: {\n    withCredentials: true\n  }\n});

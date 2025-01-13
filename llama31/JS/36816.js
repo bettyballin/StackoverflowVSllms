@@ -1,0 +1,1 @@
+function updateScore(answer, correct, userData) {\n  if (answer == correct) {\n    $.post('updatescore.php', {\n      user_data: userData,\n      answer: answer,\n      correct: correct\n    });\n  }\n}\n\n// Example usage:\n<a onclick="updateScore(this, correct, 'some_user_data')">Click me!</a>

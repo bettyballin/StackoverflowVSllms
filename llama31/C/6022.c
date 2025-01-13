@@ -1,0 +1,1 @@
+strcpy(sql_stmt, "SELECT get_seq_number(:1, :2) FROM DUAL");

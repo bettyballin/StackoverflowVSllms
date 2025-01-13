@@ -1,1 +1,0 @@
-RESTORE DATABASE AdventureWorks2005\nFROM DISK = 'C:\Path\To\Your\AdventureWorks2005.bak'\nWITH MOVE 'AdventureWorks_Data' TO 'C:\Program Files\Microsoft SQL Server\MSSQL15.MSSQLSERVER\MSSQL\DATA\AdventureWorks2005_Data.mdf',\nMOVE 'AdventureWorks_Log' TO 'C:\Program Files\Microsoft SQL Server\MSSQL15.MSSQLSERVER\MSSQL\DATA\AdventureWorks2005_Log.ldf';

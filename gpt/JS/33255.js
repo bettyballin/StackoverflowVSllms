@@ -1,1 +1,0 @@
-// Example arrays\nlet array1 = [1, 2, 3, 4, 5];\nlet array2 = [3, 6, 9];\n\n// Checking if any value from array2 is in array1\nlet hasCommonValue = array2.some(value => array1.includes(value));\n\nif (hasCommonValue) {\n    console.log("There is at least one common value in both arrays.");\n} else {\n    console.log("There are no common values in both arrays.");\n}

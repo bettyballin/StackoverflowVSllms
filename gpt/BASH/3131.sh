@@ -1,1 +1,0 @@
-gcc -v -x c -E /dev/null

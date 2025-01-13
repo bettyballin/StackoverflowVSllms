@@ -1,0 +1,1 @@
+protected override void Dispose(bool disposing)\n{\n    base.Dispose(disposing);\n    // Remove event handlers here\n    btn.Click -= btn_Click;\n}

@@ -1,0 +1,1 @@
+$price = 345.83;\necho number_format($price, 2, ',', '.'); // outputs: 345,83

@@ -1,0 +1,1 @@
+using System.Web.Http;\n\npublic class AuthController : ApiController\n{\n    [Authorize]\n    public IHttpActionResult Get()\n    {\n        // IWA will handle authentication automatically\n        return Ok();\n    }\n}

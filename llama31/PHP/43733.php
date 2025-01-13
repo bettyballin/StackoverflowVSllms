@@ -1,0 +1,1 @@
+$query = 'SELECT * FROM users WHERE username = ?';\n$result = $dbc->prepare($query);\n$username = 'bob';\n$result->bindParam(1, $username);\n$result->debugDumpParams();

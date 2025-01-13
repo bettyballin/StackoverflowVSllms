@@ -1,0 +1,1 @@
+// In your View layer\necho htmlspecialchars($userInput, ENT_QUOTES, 'UTF-8');

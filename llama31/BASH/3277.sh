@@ -1,0 +1,1 @@
+wc -l --buffer-size=10M your_large_file.xml

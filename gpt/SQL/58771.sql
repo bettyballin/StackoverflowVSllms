@@ -1,1 +1,0 @@
-SELECT column\nFROM table t WITH (NOLOCK)\nLEFT OUTER JOIN table2 t2 WITH (NOLOCK) ON t.id = t2.id

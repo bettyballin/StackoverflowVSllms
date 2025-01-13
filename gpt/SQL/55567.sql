@@ -1,1 +1,0 @@
-USE [YourDatabaseName]\nGO\n\nEXEC sp_addrolemember N'db_owner', N'YourUserName'\nGO

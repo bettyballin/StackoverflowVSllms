@@ -1,0 +1,1 @@
+function update($coords) {\n    // update the database\n    header('Location: http://localhost/thisfile.php');\n    exit; // add this line\n}

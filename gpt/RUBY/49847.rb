@@ -1,1 +1,0 @@
-class Animal\n     def speak\n       puts "Animal sound"\n     end\n   end\n\n   module Runnable\n     def run\n       puts "Running"\n     end\n   end\n\n   class Dog < Animal\n     include Runnable\n\n     def speak\n       puts "Bark"\n     end\n   end

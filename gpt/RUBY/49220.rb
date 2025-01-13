@@ -1,1 +1,0 @@
-# Example of using IRB in RubyMine\n   # Write your Ruby code in the editor and open the IRB console to interact with it

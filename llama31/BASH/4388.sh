@@ -1,0 +1,1 @@
+FILES=$(ls)\necho "${FILES%% *}" | cut -d' ' -f1-10

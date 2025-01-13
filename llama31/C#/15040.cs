@@ -1,0 +1,1 @@
+public IReadOnlyList<string> GetStringList()\n{\n    List<string> list = new List<string> { "a", "b", "c" };\n    return list.AsReadOnly();\n}

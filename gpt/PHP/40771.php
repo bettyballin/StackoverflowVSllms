@@ -1,1 +1,0 @@
-if ($_SERVER["REQUEST_METHOD"] == "POST") {\n    $data = $_POST["data"];\n    if (get_magic_quotes_gpc()) {\n        $data = stripslashes($data);\n    }\n    echo $data;\n}

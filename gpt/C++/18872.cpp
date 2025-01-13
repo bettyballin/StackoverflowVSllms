@@ -1,1 +1,0 @@
-// Static Library Usage\n// Compile: g++ -o app main.cpp -L/path/to/static_lib -lstaticlib\n\n// Dynamic Library Usage\n// Compile: g++ -o app main.cpp -L/path/to/dynamic_lib -ldynamiclib\n// Ensure the dynamic library is in the system's library path at runtime.

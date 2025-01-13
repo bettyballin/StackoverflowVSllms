@@ -1,1 +1,0 @@
-ssh -i /path/to/private/key username@remote_host

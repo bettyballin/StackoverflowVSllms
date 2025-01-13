@@ -1,1 +1,0 @@
-public class MyService : IMyService\n  {\n      public MyDataContract GetData(int id)\n      {\n          return new MyDataContract { Id = id, Name = "Test Name" };\n      }\n  }

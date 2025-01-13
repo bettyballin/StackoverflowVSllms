@@ -1,1 +1,0 @@
-sudo tail -f /var/log/apache2/error.log\n   sudo tail -f /var/log/apache2/other_vhosts_access.log

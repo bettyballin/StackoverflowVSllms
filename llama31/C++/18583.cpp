@@ -1,0 +1,1 @@
+void foo(int a) {}\nvoid foo(char* p) {}\n\nint main() {\n    foo(0);        // Calls foo(int)\n    foo(NULL);     // Might call foo(int) or foo(char*), depending on the definition of NULL\n    foo(nullptr);  // Always calls foo(char*)\n}

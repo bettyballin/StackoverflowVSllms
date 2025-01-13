@@ -1,1 +1,0 @@
-# Install the New Relic PHP agent\nsudo apt-get update\nsudo apt-get install newrelic-php5\nsudo newrelic-install install\n\n# Configure the New Relic agent with your license key\nsudo vi /etc/php/7.4/mods-available/newrelic.ini\n# Add your New Relic license key in the newrelic.license setting\n\n# Restart your web server to apply changes\nsudo systemctl restart apache2

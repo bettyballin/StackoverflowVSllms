@@ -1,0 +1,1 @@
+string connectionString = "DSN=myDSN;UID=myUsername;PWD=myPassword";

@@ -1,1 +1,0 @@
-require_once 'vendor/autoload.php'; // Include Composer autoload\n\n   $config = HTMLPurifier_Config::createDefault();\n   $purifier = new HTMLPurifier($config);\n\n   $dirty_html = $_POST['user_input']; // Example of user-submitted HTML\n   $clean_html = $purifier->purify($dirty_html);\n\n   echo $clean_html;

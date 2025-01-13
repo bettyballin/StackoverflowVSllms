@@ -1,0 +1,1 @@
+#include <vector>\n\nint main() {\n    std::vector<int> myVector;\n    // ...\n    return 0;\n}

@@ -1,0 +1,1 @@
+ALTER SYSTEM SET control_files = '/dev/xvdf1/control01.ctl', '/dev/xvdf1/control02.ctl';\nALTER SYSTEM SET db_create_file_dest = '/dev/xvdf1';

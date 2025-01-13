@@ -1,0 +1,1 @@
+using Microsoft.Win32;\n\n// Open the registry key\nRegistryKey key = Registry.CurrentUser.OpenSubKey(@"Software\Microsoft\Windows\CurrentVersion\Run", true);\n\n// Delete the value\nkey.DeleteValue("MyApp", false);\n\n// Close the registry key\nkey.Close();

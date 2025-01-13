@@ -1,0 +1,1 @@
+// Example of a DLL\npublic class CampaignService\n{\n    public ClientCampaign GetInnerClient(int clientId)\n    {\n        // ...\n    }\n}

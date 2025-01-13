@@ -1,1 +1,0 @@
-mkdir build-newlib\n    cd build-newlib\n    ../newlib-4.1.0/configure --target=arm-none-eabi --prefix=/usr/local/gnuarm\n    make\n    sudo make install\n    cd ..

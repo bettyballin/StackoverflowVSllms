@@ -1,0 +1,1 @@
+DECLARE @maxCol2 INT = (SELECT MAX(COL2) FROM MYTABLE)\n\nUPDATE MYTABLE\nSET COL2 = @maxCol2 + 1, @maxCol2 = @maxCol2 + 1\nWHERE ID IN (1, 2, 3, 4, 5)

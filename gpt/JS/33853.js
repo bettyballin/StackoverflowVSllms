@@ -1,1 +1,0 @@
-// Example using localStorage\n    function cacheData(key, data) {\n        localStorage.setItem(key, JSON.stringify(data));\n    }\n\n    function getCachedData(key) {\n        const data = localStorage.getItem(key);\n        return data ? JSON.parse(data) : null;\n    }

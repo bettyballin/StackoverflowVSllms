@@ -1,0 +1,1 @@
+export RAILS_ENV=test\nexport DATABASE_URL=mysql2://username:password@test_database_host/test_database_name

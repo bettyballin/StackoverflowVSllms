@@ -1,0 +1,1 @@
+# Create a new user account\nnet user sqlservice password /add\n\n# Grant required permissions\nicacls %windir%\system32\sqlservr.exe /grant:r sqlservice:(RX,W)\nicacls %windir%\system32\sqlservr.exe /grant:r sqlservice:(RX,W) /inheritance:r\nnet localgroup Users sqlservice /add

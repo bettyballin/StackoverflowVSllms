@@ -1,1 +1,0 @@
-SELECT p.[name]\nFROM products p\nWHERE p.product_id IN (\n    SELECT s.product_id\n    FROM productsales s\n    WHERE s.[date] BETWEEN @dateStart AND @dateEnd\n    GROUP BY s.product_id\n    HAVING SUM(s.quantity * s.price) > @X\n)

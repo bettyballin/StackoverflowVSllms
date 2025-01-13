@@ -1,0 +1,1 @@
+grep disable_functions /path/to/php.ini

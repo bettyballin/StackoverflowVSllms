@@ -1,1 +1,0 @@
-gswin64c -sDEVICE=png256 -dNOPAUSE -dBATCH -dSAFER -r300 -sOutputFile=page_%03d.png GLOSS.pdf

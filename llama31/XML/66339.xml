@@ -1,0 +1,1 @@
+<rule>\n  <from>^/(.*)$</from>\n  <to>/index.jsp?parameter=$1</to>\n  <replace to="-" from=" "/>\n</rule>

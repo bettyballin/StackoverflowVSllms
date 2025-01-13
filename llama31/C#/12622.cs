@@ -1,0 +1,1 @@
+var filters = new[] { "*.log", "*.txt", "*.dat" };\nvar files = Directory.EnumerateFiles("C:\\", "*.*", SearchOption.AllDirectories)\n            .Where(f => filters.Any(filter => f.EndsWith(filter, StringComparison.OrdinalIgnoreCase)));

@@ -1,0 +1,1 @@
+SELECT * FROM table_name WHERE CONTAINS(text_column, 'key2=def') > 0;

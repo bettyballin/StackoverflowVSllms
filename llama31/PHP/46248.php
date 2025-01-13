@@ -1,0 +1,1 @@
+$stmt = mysqli_prepare($db, "SELECT `online` FROM `tbl_system` WHERE `property` = ?");\nmysqli_stmt_bind_param($stmt, "s", 'extranet');\nmysqli_stmt_execute($stmt);\n$result = mysqli_stmt_get_result($stmt);\n$online = mysqli_fetch_assoc($result);\necho $online['online'];

@@ -1,0 +1,1 @@
+<system.web>\n  ...\n  <siteMap defaultProvider="DynamicSiteMapProvider">\n    <providers>\n      <add name="DynamicSiteMapProvider" type="YourNamespace.DynamicSiteMapProvider" />\n    </providers>\n  </siteMap>\n  ...\n</system.web>

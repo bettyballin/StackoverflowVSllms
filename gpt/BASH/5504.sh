@@ -1,1 +1,0 @@
-ServerManagerCMD -install AS-NET-Framework

@@ -1,0 +1,1 @@
+<PropertyGroup>\n  <OutDir>$(SolutionDir)\Release\</OutDir>\n</PropertyGroup>

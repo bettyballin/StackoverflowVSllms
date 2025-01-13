@@ -1,1 +1,0 @@
-public class UserService\n{\n    public void CreateUser(string username, string password)\n    {\n        // Direct database call\n        Database.Execute($"INSERT INTO Users (Username, Password) VALUES ('{username}', '{password}')");\n    }\n}

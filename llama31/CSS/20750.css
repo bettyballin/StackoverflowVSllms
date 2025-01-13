@@ -1,0 +1,1 @@
+.container {\n  display: grid;\n  grid-template-columns: 200px 1fr; /* 200px for the left div and 1fr for the right div */\n  grid-template-rows: 1fr; /* to make both divs have the same height */\n}\n\n.left-div {\n  background-color: #f0f0f0;\n  grid-column: 1;\n}\n\n.right-div {\n  background-color: #ffffff;\n  grid-column: 2;\n}

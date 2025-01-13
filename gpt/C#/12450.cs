@@ -1,1 +1,0 @@
-IBREEngine bre = new BREFactory().NewBRE();\n   bre.LoadRuleBase(new XmlRuleBaseAdapter("path/to/rules.xml"));\n   bre.Assert(myObject);\n   bre.Process();

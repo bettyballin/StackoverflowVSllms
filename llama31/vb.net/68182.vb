@@ -1,0 +1,1 @@
+Dim token As IntPtr = System.Security.Principal.WindowsIdentity.GetCurrent().Token\nDim tokenString As String = token.ToString()

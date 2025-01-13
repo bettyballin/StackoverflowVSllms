@@ -1,1 +1,0 @@
-# Dumping the database with character-set\n   mysqldump --default-character-set=utf8 -u username -p database_name > backup.sql\n\n   # Restoring the database with character-set\n   mysql --default-character-set=utf8 -u username -p database_name < backup.sql

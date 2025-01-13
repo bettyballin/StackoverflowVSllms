@@ -1,1 +1,0 @@
-<?php\n   require 'vendor/autoload.php';\n\n   $Parsedown = new Parsedown();\n\n   $markdownText = "# Hello World\nThis is a paragraph with **bold** text.";\n   $html = $Parsedown->text($markdownText);\n\n   echo $html;\n   ?>

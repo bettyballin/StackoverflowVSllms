@@ -1,0 +1,1 @@
+VBoxManage modifyhd C:\path\to\your\vhd\file.vhd --resize 16384

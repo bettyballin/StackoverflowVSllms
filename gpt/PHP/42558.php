@@ -1,1 +1,0 @@
-$value = md5($_POST[$foo['bar']]);\nif ($value == $somemd5) {\n  doSomethingWith($value);\n}

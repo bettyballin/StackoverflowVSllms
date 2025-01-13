@@ -1,1 +1,0 @@
-from SOAPpy import WSDL\nserver = SOAPProxy('http://my.domain.com/my/webservice/', namespace)\nserver.myFunction()

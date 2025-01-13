@@ -1,1 +1,0 @@
-SELECT a.Name AS Alert_Name,\n       wm_concat(b.Name) AS Brands\nFROM ALERT a\nJOIN ALERT_BRAND_XREF abx ON a.ID = abx.ALERT_ID\nJOIN BRAND b ON abx.BRAND_ID = b.ID\nGROUP BY a.Name;

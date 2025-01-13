@@ -1,0 +1,1 @@
+// Create a new Laravel project\ncomposer create-project --prefer-dist laravel/laravel project-name\n\n// Navigate to the project directory\ncd project-name\n\n// Create a new model, migration, and controller\nphp artisan make:model ModelName -m\nphp artisan make:controller ControllerName\n\n// Run the migration to create the database table\nphp artisan migrate

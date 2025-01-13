@@ -1,0 +1,1 @@
+SELECT *\nFROM table1\nWHERE \n    CASE \n        WHEN table1.ID = table2.ID THEN 1 \n        ELSE table1.ID LIKE '%1234' \n    END = 1

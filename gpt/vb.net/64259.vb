@@ -1,1 +1,0 @@
-Using connection As New SqlConnection(connectionString)\n        connection.Open()\n        ' Use the connection\n    End Using

@@ -1,0 +1,1 @@
+$.ajax({\n  url: '/your-endpoint',\n  dataType: 'html',\n  success: function(data) {\n    $('#your-element').html(data);\n  }\n});

@@ -1,0 +1,1 @@
+svn diff --patch-compatible /path/to/base/working/copy /path/to/other/working/copy > changes.patch

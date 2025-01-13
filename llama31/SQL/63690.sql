@@ -1,0 +1,1 @@
+SELECT \n    'Test Name', \n    IIF(foo = 'Result', 1, 0) AS Result\nFROM \n    bar\nWHERE \n    baz = (some criteria)

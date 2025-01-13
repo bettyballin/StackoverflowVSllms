@@ -1,0 +1,1 @@
+#include <cmath>\n\ndouble pow(double x, double y) {\n    // Handle special cases\n    if (y == 0.0) return 1.0;\n    if (y == 1.0) return x;\n    if (y == -1.0) return 1.0 / x;\n    if (x == 0.0 && y > 0.0) return 0.0;\n    if (x == 0.0 && y < 0.0) return INFINITY;\n    if (x == 1.0) return 1.0;\n\n    // General case\n    return exp(y * log(x));\n}

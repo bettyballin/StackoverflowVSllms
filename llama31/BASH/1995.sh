@@ -1,0 +1,1 @@
+// Install PHPStan\ncomposer require --dev phpstan/phpstan\n\n// Run PHPStan\nvendor/bin/phpstan analyze src

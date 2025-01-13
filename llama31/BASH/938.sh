@@ -1,0 +1,1 @@
+uglifyjs dojo.js -o dojo.min.js\ngzip dojo.min.js

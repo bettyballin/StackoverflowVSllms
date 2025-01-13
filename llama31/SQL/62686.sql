@@ -1,0 +1,1 @@
+SELECT \n    ISNULL(YourColumn, 'false') AS IsNotNUll\nFROM YourTable;

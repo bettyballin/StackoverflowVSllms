@@ -1,0 +1,1 @@
+@dispatch.generic(MultiorderGenericFunction)\ndef run_with_transaction(func, *args, **kw):\n    pass

@@ -1,0 +1,1 @@
+-- pre-build script\n:r .\create_tables.sql\n\n-- post-build script\n:r .\populate_data.sql

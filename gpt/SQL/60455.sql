@@ -1,1 +1,0 @@
--- Creating a stored procedure\nCREATE PROCEDURE GetEmployeeDetails\n    @EmployeeID INT\nAS\nBEGIN\n    SELECT * FROM Employees WHERE EmployeeID = @EmployeeID;\nEND

@@ -1,1 +1,0 @@
-sudo apt-get update\nsudo apt-get install apache2 php libapache2-mod-php rrdtool

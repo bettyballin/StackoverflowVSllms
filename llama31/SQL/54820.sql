@@ -1,0 +1,1 @@
+SELECT * FROM sys.dm_tran_locks WHERE resource_database_id = DB_ID('your_database_name') AND resource_type = 'OBJECT' AND resource_name = 'your_table_name';

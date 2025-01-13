@@ -1,0 +1,1 @@
+$config = HTMLPurifier_Config::createDefault();\n$config->set('Core.Encoding', 'utf-8');\n$purifier = new HTMLPurifier($config);

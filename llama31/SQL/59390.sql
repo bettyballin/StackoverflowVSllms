@@ -1,0 +1,1 @@
+CREATE TABLE customers (\n  id SERIAL PRIMARY KEY,\n  tenant_id INTEGER NOT NULL,\n  name VARCHAR(50) NOT NULL,\n  email VARCHAR(100) NOT NULL\n);

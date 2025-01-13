@@ -1,1 +1,0 @@
-#ifdef MYLIBRARY_EXPORTS\n#define MYLIBRARY_API __declspec(dllexport)\n#else\n#define MYLIBRARY_API __declspec(dllimport)\n#endif\n\nclass MYLIBRARY_API MyClass {\npublic:\n    MyClass();\n    ~MyClass(); // Ensure the destructor is exported\n    void someMethod();\n};

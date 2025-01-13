@@ -1,0 +1,1 @@
+using BarcodeLib;\n\n// Load the image\nBitmap image = new Bitmap("path/to/image.png");\n\n// Create a new barcode reader\nBarcodeReader reader = new BarcodeReader();\n\n// Set the barcode format to PDF-417\nreader.BarcodeFormat = BarcodeFormat.PDF417;\n\n// Decode the barcode\nstring decodedText = reader.ReadBarcode(image);

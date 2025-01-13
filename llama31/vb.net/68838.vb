@@ -1,0 +1,1 @@
+Enum Age\n    Over18\n    Under18\nEnd Enum\n\nModule Program\n    Sub Main()\n        Dim personAge As Age = Age.Over18\n\n        Select Case personAge\n            Case Age.Over18\n                Console.WriteLine("Person is over 18.")\n            Case Age.Under18\n                Console.WriteLine("Person is under 18.")\n        End Select\n    End Sub\nEnd Module

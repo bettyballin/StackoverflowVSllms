@@ -1,0 +1,1 @@
+$fileData = file_get_contents('yourfile.csv');\n\n$pattern = "/'([^']*)\n([^']*)'/";\n$replacement = "'$1<br>$2'";\n$fileData = preg_replace($pattern, $replacement, $fileData);\n\n$lines = explode("\n", $fileData);

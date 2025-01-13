@@ -1,0 +1,1 @@
+Imports System.Reflection\n\nPublic Module Extensions\n    Public Function GetProperty(Of T)(instance As Object, propertyName As String) As Func(Of T)\n        Dim propInfo = instance.GetType().GetProperty(propertyName)\n        Return DirectCast(propInfo.GetValue(instance), Func(Of T))\n    End Function\nEnd Module

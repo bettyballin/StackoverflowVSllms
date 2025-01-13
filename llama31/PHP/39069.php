@@ -1,0 +1,1 @@
+$context = stream_context_create(array(\n    'http' => array(\n        'timeout' => 30, // 30-second timeout\n    ),\n));\n\ncopy('http://example.com/remote_file.txt', 'local_file.txt', $context);

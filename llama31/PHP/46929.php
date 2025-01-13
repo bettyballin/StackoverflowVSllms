@@ -1,0 +1,1 @@
+$view = new View();\n$view->set('content', $yourContentString);\n$layout = $view->render('your_layout', array('content' => $yourContentString));\n\n// Now $layout contains the full HTML page with your content

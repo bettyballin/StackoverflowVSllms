@@ -1,0 +1,1 @@
+cmd.CommandText = "INSERT INTO Prototype (ParentID) VALUES (NULL); SELECT rowid FROM Prototype WHERE rowid = last_insert_rowid();";

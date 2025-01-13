@@ -1,0 +1,1 @@
+DECLARE\n  vCT NUMBER(38) := 0;\n\nBEGIN\n  FOR t IN (SELECT id FROM temp_table) LOOP\n    DELETE FROM table_name WHERE id = t.id;\n    vCT := vCT + 1;\n    IF MOD(vCT,200000) = 0 THEN\n      COMMIT;\n    END IF;\n  END LOOP;\n  COMMIT;\nEND;

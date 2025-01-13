@@ -1,1 +1,0 @@
-INSERT INTO table2 (id, field1)\nSELECT id, NULL\nFROM table1

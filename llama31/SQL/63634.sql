@@ -1,0 +1,1 @@
+SELECT TOP 2 *\nFROM (\n    SELECT *\n    FROM YourTable\n    WHERE YourLinkField = [ParentReportLinkField]\n) AS Subquery\nORDER BY YourSortField

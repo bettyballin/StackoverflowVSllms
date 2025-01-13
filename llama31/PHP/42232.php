@@ -1,0 +1,1 @@
+$stmt = $conn->prepare("INSERT INTO mytable (column1, column2) VALUES (?, ?)");\n$stmt->bind_param("ss", $value1, $value2);\n$stmt->execute();

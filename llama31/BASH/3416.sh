@@ -1,0 +1,1 @@
+alias ssc='ssh -t $1 "screen -S $2 -dr || screen -S $2"'

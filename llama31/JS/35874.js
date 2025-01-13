@@ -1,0 +1,1 @@
+$(document).ready(function () {\n  $("#nav ul li a").click(function() {\n    $("#nav ul li a").removeClass("active");\n    $(this).addClass("active");\n    var id = $(this).attr("id");\n    $("#content").load("files/" + id + ".html");\n  });\n});

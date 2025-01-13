@@ -1,1 +1,0 @@
--- Create a Table-Valued Function\nCREATE FUNCTION dbo.MyTableFunction\n(\n    @InputTable MyTableType READONLY\n)\nRETURNS @ReturnTable TABLE\n(\n    Id INT,\n    Name NVARCHAR(50),\n    NameLength INT\n)\nAS\nBEGIN\n    -- Insert into the return table\n    INSERT INTO @ReturnTable\n    SELECT Id, Name, LEN(Name) AS NameLength\n    FROM @InputTable;\n\n    RETURN;\nEND;

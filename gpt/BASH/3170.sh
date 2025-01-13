@@ -1,1 +1,0 @@
-g++ -std=c++11 -o parser parser.cpp -lboost_system

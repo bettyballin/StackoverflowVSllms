@@ -1,0 +1,1 @@
+#include <openssl/aes.h>\n\n// Initialize AES context\nAES_KEY aes_key;\n\n// Set encryption key\nAES_set_encrypt_key(key, 128, &aes_key);\n\n// Encrypt data\nAES_encrypt(data, encrypted_data, &aes_key);

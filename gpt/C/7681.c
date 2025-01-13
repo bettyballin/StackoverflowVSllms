@@ -1,1 +1,0 @@
-// Example of an infinite loop\n    while(true) {}

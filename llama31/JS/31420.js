@@ -1,0 +1,1 @@
+// Get a reference to the local storage\nvar storage = window.localStorage;\n\n// Get a list of all stored keys (table names)\nvar keys = Object.keys(storage);\n\n// Iterate over the keys and log their values\nkeys.forEach(function(key) {\n  console.log(key, storage.getItem(key));\n});

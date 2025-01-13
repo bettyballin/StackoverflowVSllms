@@ -1,0 +1,1 @@
+// Serialize the HTML\nvar htmlData = $('#user-generated-html').html();\nvar jsonData = JSON.stringify(htmlData);\n\n// Store the JSON string in a hidden input field\n$('#html-data').val(jsonData);\n\n// Form submission handler\n$('#my-form').submit(function() {\n  // Send the form data, including the hidden input field\n  return true;\n});

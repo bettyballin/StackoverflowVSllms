@@ -1,1 +1,0 @@
-sar -u 1 3 > cpu_usage.txt     # Collect CPU usage every 1 second for 3 times and save to cpu_usage.txt\n   sar -r 1 3 > memory_usage.txt  # Collect memory usage every 1 second for 3 times and save to memory_usage.txt

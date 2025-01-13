@@ -1,0 +1,1 @@
+$client = new SoapClient('http://example.com/service.svc?wsdl');\n$result = $client->YourMethod(array('arg1' => 'value1', 'arg2' => 'value2'));

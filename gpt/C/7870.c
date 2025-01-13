@@ -1,1 +1,0 @@
-if (extStatus1Id == 1) {\n    // Allow setting extStatus2Id\n} else {\n    // Ensure extStatus2Id is NULL\n    extStatus2Id = NULL;\n}

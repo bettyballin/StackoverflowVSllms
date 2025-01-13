@@ -1,1 +1,0 @@
-[OperationContract]\n[WebInvoke(UriTemplate = "/foo/{foo_id}/bar", Method = "POST", RequestFormat=WebMessageFormat.Json, ResponseFormat=WebMessageFormat.Json)]\npublic string G(string foo_id, Stream body)\n{\n    StreamReader reader = new StreamReader(body);\n    string content = reader.ReadToEnd();\n    // Process the content as needed\n    return $"Received: {content}";\n}

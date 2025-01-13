@@ -1,1 +1,0 @@
-// Define the interface for the remote service\npublic interface IRemoteService\n{\n    void ExecuteMethod(byte[] token);\n}

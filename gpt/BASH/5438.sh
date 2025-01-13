@@ -1,1 +1,0 @@
-sudo gem rdoc activerecord --no-ri\nsudo gem rdoc activesupport --no-ri\nsudo gem rdoc actionpack --no-ri\nsudo gem rdoc actionmailer --no-ri\nsudo gem rdoc activemodel --no-ri\nsudo gem rdoc railties --no-ri

@@ -1,0 +1,1 @@
+CREATE PARTITION SCHEME YourPartitionScheme\n    AS RANGE RIGHT FOR VALUES ('2022-01-01', '2022-02-01', ...);\n\nCREATE TABLE YourTable (\n    ...\n) ON YourPartitionScheme (DateColumn);

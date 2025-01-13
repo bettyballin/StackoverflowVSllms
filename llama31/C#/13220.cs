@@ -1,0 +1,1 @@
+var list = new string[] { "type", "currency", "date", "amount" };

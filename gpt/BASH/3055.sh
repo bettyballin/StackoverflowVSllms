@@ -1,1 +1,0 @@
-svn copy https://svn.example.com/repo/branches/release-1.0 https://svn.example.com/repo/tags/release-1.0.1 -m "Tagging release 1.0.1 after bug fix"

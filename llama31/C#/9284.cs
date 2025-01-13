@@ -1,0 +1,1 @@
+// Default release mode settings (pdb-only)\n[Conditional("DEBUG")]\n[MethodImpl(MethodImplOptions.NoInlining)]\ninternal static void DebuggableMethod() { }\n\n// Changing debug symbol to none\n[MethodImpl(MethodImplOptions.NoInlining)]\ninternal static void NonDebuggableMethod() { }

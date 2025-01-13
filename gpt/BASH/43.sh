@@ -1,1 +1,0 @@
-g++ -o cross_platform_example cross_platform_example.cpp\n./cross_platform_example

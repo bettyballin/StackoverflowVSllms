@@ -1,1 +1,0 @@
-ls ~/remote_directory

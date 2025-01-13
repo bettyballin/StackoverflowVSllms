@@ -1,1 +1,0 @@
-Dim counter As Integer = 0\nDim maxExecutions As Integer = 1000 ' Set your maximum number of executions here\n\nWhile SomeCondition AndAlso counter < maxExecutions\n    ' Your loop code here\n\n    counter += 1 ' Increment the counter\nEnd While\n\nIf counter = maxExecutions Then\n    Console.WriteLine("The maximum number of executions has been reached.")\nEnd If

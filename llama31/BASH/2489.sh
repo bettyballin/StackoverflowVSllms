@@ -1,0 +1,1 @@
+# Example usage:\nunison -batch <local_dir> ssh://<remote_host>/<remote_dir>

@@ -1,0 +1,1 @@
+string[] values = Request.Form.GetValues("inputName");

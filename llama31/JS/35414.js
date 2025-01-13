@@ -1,0 +1,1 @@
+$.ajax({\n    type: "POST",\n    url: "/Controller/AddCustomer",\n    data: JSON.stringify($("#CustomerFormViewModel").serializeObject()),\n    contentType: "application/json; charset=utf-8",\n    dataType: "json",\n    success: function (data) {\n        // handle success\n    }\n});

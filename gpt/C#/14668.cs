@@ -1,1 +1,0 @@
-protected void btnAgree_Click(object sender, EventArgs e)\n{\n    // Logic to handle the agreement acceptance\n    // For example, you could close the modal and allow the user to interact with the page\n    ScriptManager.RegisterStartupScript(this, this.GetType(), "CloseModal", "closeModal();", true);\n}

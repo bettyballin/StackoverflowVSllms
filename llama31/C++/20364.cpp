@@ -1,0 +1,1 @@
+#include <iostream>\n\nint main() {\n    int sum = 0;\n    for (int i = 0; i < 10000000; i++) {\n        sum += i;\n    }\n    std::cout << "Sum: " << sum << std::endl;\n    return 0;\n}

@@ -1,0 +1,1 @@
+# record CPU cycles and cache misses\nperf record -e cycles,cachemisses your_app\n\n# analyze the recording\nperf report

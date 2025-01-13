@@ -1,0 +1,1 @@
+#include <Windows.h>\n\nint main() {\n    char longName[] = "alongfilename1.txt";\n    char shortName[13];\n\n    if (GetShortPathName(longName, shortName, 13) == 0) {\n        // Handle error\n    }\n\n    printf("Short name: %s\n", shortName);\n\n    return 0;\n}

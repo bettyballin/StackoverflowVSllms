@@ -1,0 +1,1 @@
+using iTextSharp.text;\nusing iTextSharp.text.pdf;\n\n// Create a PDF document\nDocument doc = new Document();\nPdfWriter writer = PdfWriter.GetInstance(doc, new FileStream("email.pdf", FileMode.Create));\n\n// Add content to the PDF\ndoc.Open();\ndoc.Add(new Paragraph("Email content goes here"));\ndoc.Close();

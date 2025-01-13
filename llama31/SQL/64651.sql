@@ -1,0 +1,1 @@
+-- create a user-defined function in PostgreSQL\nCREATE OR REPLACE FUNCTION calculate_age(birthdate date)\nRETURNS integer AS\n$$\nBEGIN\n    RETURN EXTRACT(YEAR FROM AGE($1));\nEND;\n$$ LANGUAGE plpgsql;

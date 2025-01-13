@@ -1,0 +1,1 @@
+SELECT \n  query_text, \n  execution_time \nFROM \n  sys.dm_exec_query_stats \nWHERE \n  execution_time > 100 \nORDER BY \n  execution_time DESC;

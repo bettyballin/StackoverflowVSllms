@@ -1,1 +1,0 @@
-DELETE FROM types WHERE id = 1;

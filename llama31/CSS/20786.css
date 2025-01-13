@@ -1,0 +1,1 @@
+.wrapper {\n  margin: 0 auto;\n  padding: 0 0 0 0;\n  width: 100%;\n  text-align: left;\n  background: #F5F5FF;\n}\n\n.footer {\n  position: absolute;\n  bottom: 0;\n  left: 0;\n  width: 100%;\n  min-width: 300px;\n}\n\n.tfoot {\n  background: #3E5C92;\n  color: #E0E0F6;\n}\n\n.smallfont {\n  font: 11px verdana, geneva, lucida, 'lucida grande', arial, helvetica, sans-serif;\n}

@@ -1,0 +1,1 @@
+var $myElement = $('#myElement');\nvar $child = $myElement.find('.child');\n\n// Use .end() to return to the original $myElement\n$child.css('color', 'blue').end().show();\n\n// Use .andSelf() to combine the $child and $myElement\n$child.css('color', 'blue').andSelf().hide();

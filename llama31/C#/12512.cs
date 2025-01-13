@@ -1,0 +1,1 @@
+[Authorize]\npublic class HomeController : Controller\n{\n    public ActionResult Index()\n    {\n        string Username = User.Identity.Name;\n        // ...\n    }\n}

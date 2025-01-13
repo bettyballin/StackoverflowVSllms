@@ -1,0 +1,1 @@
+int16_t mix_samples(int16_t sample1, int16_t sample2) {\n    int32_t sum = (int32_t)sample1 + (int32_t)sample2;\n    if (sum > 32767) {\n        return 32767; // clip to max positive value\n    } else if (sum < -32768) {\n        return -32768; // clip to max negative value\n    } else {\n        return (int16_t)sum;\n    }\n}

@@ -1,0 +1,1 @@
+<?php\nrequire_once 'xmlrpc.inc';\n\nfunction add($a, $b) {\n  return $a + $b;\n}\n\n$xmlrpc_server = xmlrpc_server_create();\nxmlrpc_server_register_method($xmlrpc_server, 'add', 'add');\nxmlrpc_server_destroy($xmlrpc_server);\n?>

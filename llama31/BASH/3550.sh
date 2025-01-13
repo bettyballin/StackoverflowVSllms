@@ -1,0 +1,1 @@
+hhvm -o output_binary your_php_script.php

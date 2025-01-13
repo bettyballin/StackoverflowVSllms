@@ -1,0 +1,1 @@
+[ComVisible(true)]\n[ClassInterface(ClassInterfaceType.AutoDispatch)]\npublic class Promotion : IProvideClassInfo\n{\n    // ...\n\n    public ITypeInfo GetClassInfo()\n    {\n        // Return the type info for this class\n        return Marshal.GetITypeInfoForType(typeof(Promotion));\n    }\n}

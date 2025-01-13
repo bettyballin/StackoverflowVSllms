@@ -1,0 +1,1 @@
+VACUUM page;\nVACUUM pagelinks;

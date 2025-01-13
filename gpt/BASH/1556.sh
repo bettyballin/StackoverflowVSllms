@@ -1,1 +1,0 @@
-* * * * * /usr/bin/php /path/to/your/deletion_script.php

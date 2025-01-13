@@ -1,0 +1,1 @@
+config.encoding = "iso-8859-1"

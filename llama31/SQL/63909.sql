@@ -1,0 +1,1 @@
+CREATE TABLE employees (\n  id INT PRIMARY KEY,\n  name VARCHAR(255)\n);\n\nCREATE TABLE employee_closure (\n  ancestor_id INT,\n  descendant_id INT,\n  PRIMARY KEY (ancestor_id, descendant_id),\n  FOREIGN KEY (ancestor_id) REFERENCES employees(id),\n  FOREIGN KEY (descendant_id) REFERENCES employees(id)\n);

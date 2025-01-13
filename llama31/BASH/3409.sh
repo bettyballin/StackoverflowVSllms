@@ -1,0 +1,1 @@
+# In your Apache configuration file (e.g., httpd.conf)\nAddHandler cgi-script .exe\nOptions +ExecCGI

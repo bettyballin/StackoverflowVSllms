@@ -1,1 +1,0 @@
-g++ -g -Wall -fPIC -shared -Wl,--exclude-libs,ALL library.cpp -o library.so

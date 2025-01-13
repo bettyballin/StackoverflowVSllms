@@ -1,1 +1,0 @@
-fop -xml source.xml -xsl stylesheet.xsl -pdf output.pdf

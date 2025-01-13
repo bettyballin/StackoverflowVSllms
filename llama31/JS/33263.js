@@ -1,0 +1,1 @@
+beforecreate: function (node, targetNode, type, to) {\n  var result = jQuery.ajax({\n    type: "GET",\n    url: 'http://example.com/catalog/create/' + targetNode.id + '?name=' + encode(to.inp[0].value),\n    async: false\n  }).responseText;\n\n  if (result.isOk == false) {\n    alert(result.message);\n    return false;\n  }\n}

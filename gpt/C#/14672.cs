@@ -1,1 +1,0 @@
-using DinkToPdf;\n   using DinkToPdf.Contracts;\n   \n   var converter = new SynchronizedConverter(new PdfTools());\n   var doc = new HtmlToPdfDocument()\n   {\n       Objects = { new ObjectSettings { PageUrl = "http://www.example.com" } }\n   };\n   byte[] pdf = converter.Convert(doc);\n   File.WriteAllBytes("example.pdf", pdf);

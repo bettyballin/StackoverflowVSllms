@@ -1,0 +1,1 @@
+// Open the type library in oleview\noleview SC_COMtlb.dll\n\n// Inspect the ISCUploader interface\n// Look for the interface definition and verify the IID matches

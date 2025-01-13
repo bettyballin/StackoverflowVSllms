@@ -1,0 +1,1 @@
+// Example using OSMSharp\nusing OSMSharp;\nusing OSMSharp.WinForms;\n\n// Initialize the map\nvar map = new Map();\nmap.Renderer = new WinFormsRenderer();\n\n// Load the offline map data\nmap.DataSources.Add(new FileDataSource("path/to/your/map.osm"));

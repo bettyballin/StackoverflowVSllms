@@ -1,0 +1,1 @@
+CREATE EVENT delete_oldest_records_event\nON SCHEDULE EVERY 1 HOUR\nDO CALL delete_oldest_records();

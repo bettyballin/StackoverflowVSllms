@@ -1,1 +1,0 @@
-QUnit.test("getPersons", function(assert) {\n  var done = assert.async(); // Tell QUnit to wait for the async call\n  getPersons(function(response) {\n    assert.notEqual("boo", "Foo", "The name is valid"); // This will now properly fail\n    done(); // Tell QUnit the async operation is complete\n  });\n});

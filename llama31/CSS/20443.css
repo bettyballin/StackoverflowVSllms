@@ -1,0 +1,1 @@
+div#container {\n    height: 275px;\n    width: 1000px;\n    overflow-x: auto;\n    overflow-y: hidden;\n    max-height: 275px;\n}\n\ndiv#container div.wrapper {\n    width: 3000px; /* adjust this value to accommodate all the floating DIVs */\n}\n\ndiv#container div.wrapper div.block {\n    float: left;\n    margin: 3px 90px 0 3px;\n    width: 300px;\n}

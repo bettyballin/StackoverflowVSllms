@@ -1,1 +1,0 @@
-CREATE PROCEDURE Sales_GetOrderDetails\n   AS\n   BEGIN\n       -- Retrieve order details for a specific order\n       SELECT * FROM Orders WHERE OrderID = @OrderID;\n   END\n   GO

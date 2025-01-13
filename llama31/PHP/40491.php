@@ -1,0 +1,1 @@
+function foo($a='apple', $b='brown', $c='Capulet') {\n    echo "$a, $b, $c\n";\n}\n\nfoo(a: 'aardvark', c: 'Montague'); // outputs: aardvark, brown, Montague

@@ -1,0 +1,1 @@
+from selenium import webdriver\n\n# Create a new instance of the Chrome driver\ndriver = webdriver.Chrome()\n\n# Navigate to the webpage\ndriver.get("https://www.example.com")\n\n# Find an element by name\nelement = driver.find_element_by_name("username")\n\n# Send keys to the element\nelement.send_keys("username")\n\n# Close the browser\ndriver.quit()

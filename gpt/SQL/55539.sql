@@ -1,1 +1,0 @@
-CREATE TABLE Parent (\n    ParentID INT PRIMARY KEY\n);\n\nCREATE TABLE Child (\n    ChildID INT PRIMARY KEY,\n    ParentID INT,\n    FOREIGN KEY (ParentID) REFERENCES Parent(ParentID)\n);\n\n-- Enforce the rule: A parent can have up to 2 children\nCREATE UNIQUE INDEX idx_ParentID_ChildID\nON Child (ParentID)\nWHERE (SELECT COUNT(*) FROM Child WHERE ParentID = NEW.ParentID) <= 2;

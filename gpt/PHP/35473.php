@@ -1,1 +1,0 @@
-<?php\n\nclass PluginA {\n    public function __construct() {\n        // Initialization code\n    }\n\n    public function execute() {\n        // Plugin functionality\n        echo "PluginA executed!";\n    }\n}

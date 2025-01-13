@@ -1,1 +1,0 @@
-SELECT n.*\nFROM tbl_news n\nJOIN tbl_tag_relations tr ON n.news_id = tr.news_id\nWHERE tr.tag_id = 20;

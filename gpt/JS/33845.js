@@ -1,1 +1,0 @@
-function canViewPDF() {\n    var canvas = document.createElement('canvas');\n    return !!(canvas.getContext && canvas.getContext('2d'));\n}\n\nif (canViewPDF()) {\n    console.log("The browser can view PDF files.");\n} else {\n    console.log("The browser cannot view PDF files.");\n}

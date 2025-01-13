@@ -1,0 +1,1 @@
+var canvas = document.getElementById('myCanvas');\nvar imageData = canvas.toDataURL('image/png');

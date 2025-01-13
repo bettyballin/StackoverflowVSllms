@@ -1,0 +1,1 @@
+for /f "tokens=2" %%d in ('wmic logicaldisk get deviceid, volumename ^| findstr /i "USB"') do set UFD_DRIVE=%%d

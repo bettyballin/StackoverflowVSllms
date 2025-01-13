@@ -1,0 +1,1 @@
+var textboxes = document.querySelectorAll('input[type="text"], input[type="password"], input[type="email"]');

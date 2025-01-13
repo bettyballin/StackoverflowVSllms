@@ -1,0 +1,1 @@
+bash -n -x script_name

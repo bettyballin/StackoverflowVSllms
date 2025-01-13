@@ -1,0 +1,1 @@
+avr-gcc -Os -mmcu=atmega644 -ffunction-sections -fsigned-char -Winvalid-pch -Wall -Wno-long-long -x assembler-with-cpp -Wa,-g -c -o z813.o z813.s

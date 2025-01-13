@@ -1,1 +1,0 @@
-function CreateFileLink($dateFunction = null)\n{\n    global $Username;\n    if ($dateFunction === null) {\n        $dateFunction = function() {\n            return date("d-m-y-g-i");\n        };\n    }\n    return $dateFunction();\n}

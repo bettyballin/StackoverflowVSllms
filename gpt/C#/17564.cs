@@ -1,1 +1,0 @@
-public string Current => current;\n\nobject IEnumerator.Current => Current;\n\npublic void Dispose()\n{\n    if (argsEnumerator != null)\n    {\n        argsEnumerator.Dispose();\n        argsEnumerator = null;\n    }\n}\n\npublic void Reset()\n{\n    throw new NotSupportedException();\n}

@@ -1,0 +1,1 @@
+SELECT \n  A.BankName AS Bank, \n  A.AcctNumber AS AcctNum, \n  A.Balance, \n  GROUP_CONCAT(G.GroupName) AS Groups\nFROM \n  Accounts A\n  LEFT JOIN JoinAccountsGroups J ON A.ID = J.AID\n  LEFT JOIN AccountGroups G ON J.GID = G.ID\nGROUP BY \n  A.ID, A.BankName, A.AcctNumber, A.Balance

@@ -1,0 +1,1 @@
+WITH Numbers AS (\n  SELECT TOP 1000 ROW_NUMBER() OVER (ORDER BY t1.object_id) AS n\n  FROM master.sys.all_columns t1\n  CROSS JOIN master.sys.all_columns t2\n)\nSELECT SUM(n) AS total\nFROM Numbers\nWHERE n BETWEEN 100 AND 200;

@@ -1,0 +1,1 @@
+if (!isset($str)) {\n    $str = "";\n}\nfor ($i = 0; $i < 10; $i++) {\n    $str .= "something";\n}

@@ -1,0 +1,1 @@
+public ref class MyCppClass\n{\npublic:\n    MyCppClass();\n    void MyMemberFunction();\n};

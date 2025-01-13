@@ -1,0 +1,1 @@
+window.onload = function() {\n  document.getElementById("textboxId").focus();\n};

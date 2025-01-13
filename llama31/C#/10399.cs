@@ -1,0 +1,1 @@
+using System.Runtime.InteropServices;\n\n// ...\n\nMarshal.ReleaseCOMObject(axFlash);\naxFlash = null;

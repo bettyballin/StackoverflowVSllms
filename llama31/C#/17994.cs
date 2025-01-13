@@ -1,0 +1,1 @@
+// C# DLL\npublic class MyCSharpClass\n{\n    [DllImport("MyCSharpDll")]\n    public static extern int MyMethod(int value);\n}

@@ -1,1 +1,0 @@
-CREATE PROCEDURE YourStoredProcedure\n    @YourDateParameter DATETIME = NULL\nAS\nBEGIN\n    -- Your logic here\nEND

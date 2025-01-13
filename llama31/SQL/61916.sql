@@ -1,0 +1,1 @@
+CREATE TABLE media_servers (\n  id INT PRIMARY KEY,\n  hostname VARCHAR(255),\n  free_space BIGINT\n);\n\nCREATE TABLE files (\n  id INT PRIMARY KEY,\n  filename VARCHAR(255),\n  server_id INT,\n  FOREIGN KEY (server_id) REFERENCES media_servers(id)\n);

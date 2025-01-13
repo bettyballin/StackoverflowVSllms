@@ -1,1 +1,0 @@
-g++ -Wconversion -o example example.cpp

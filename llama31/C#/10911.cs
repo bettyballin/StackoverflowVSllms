@@ -1,0 +1,1 @@
+protected void Page_Load(object sender, EventArgs e)\n{\n    // Set a timeout of 30 seconds\n    ScriptManager.GetCurrent(this.Page).AsyncPostBackTimeout = 30;\n}

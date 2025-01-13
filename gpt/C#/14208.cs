@@ -1,1 +1,0 @@
-// Example of LINQ to SQL configuration\n   DataContext db = new DataContext(connectionString);\n   Table<Customer> customers = db.GetTable<Customer>();\n\n   var query = from c in customers\n               where c.City == "London"\n               select c;\n\n   foreach (var customer in query)\n   {\n       Console.WriteLine(customer.ContactName);\n   }

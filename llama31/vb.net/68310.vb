@@ -1,0 +1,1 @@
+<asp:TextBox ID="txtExample" runat="server" ValidateRequestMode="Disabled" />

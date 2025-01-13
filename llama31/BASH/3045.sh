@@ -1,0 +1,1 @@
+regasm "C:\Program Files\Microsoft Visual Studio 9.0\Common7\IDE\%DXROOT%\ProductionTools\BuildComponents.dll"

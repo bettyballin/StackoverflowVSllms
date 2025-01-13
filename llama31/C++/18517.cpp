@@ -1,0 +1,1 @@
+std::string html = "<html><head><script>window.setTimeout(function(){ window.location.href='/main-page'; }, 2000);</script></head><body>Your file has been generated. Click <a href='/main-page'>here</a> to go back to the main screen.</body></html>";

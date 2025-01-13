@@ -1,0 +1,1 @@
+.floated-element {\n  float: left;\n  zoom: 1; /* Add this line */\n}

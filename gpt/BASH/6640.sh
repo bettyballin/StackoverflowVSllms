@@ -1,1 +1,0 @@
-#!/bin/bash\n\nREPOS="$1"\nREV="$2"\n\n/usr/bin/svn update /var/www --username your-username --password your-password

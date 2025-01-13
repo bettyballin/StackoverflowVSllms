@@ -1,1 +1,0 @@
-var url = "http://example.com";\nvar sb = "<a href='" + url + "'>click here</a>";

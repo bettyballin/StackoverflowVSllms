@@ -1,0 +1,1 @@
+int x = 0;\n\n// CPU 1\nInterlocked.Increment(ref x);\n\n// CPU 2\nInterlocked.Increment(ref x);

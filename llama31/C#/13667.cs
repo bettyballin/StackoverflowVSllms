@@ -1,0 +1,1 @@
+int complexityValueToStore = EnumHelper.GetEnumMemberValue(Complexity.Normal); // returns 1\nint priorityValueToStore = EnumHelper.GetEnumMemberValue(Priority.Urgent); // returns 4

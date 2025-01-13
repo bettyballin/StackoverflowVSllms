@@ -1,0 +1,1 @@
+aspnet_regiis -pa "CustomProvider" "NT Authority\Network Service"

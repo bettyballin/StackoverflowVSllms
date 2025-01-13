@@ -1,0 +1,1 @@
+// Example usage of IonCube's encoder\n$encoder = new IonCube\Encoder();\n$encoder->encodeFile('path/to/script.php', 'path/to/encoded_script.php');

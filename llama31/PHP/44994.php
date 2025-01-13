@@ -1,0 +1,1 @@
+$xls =& new Spreadsheet_Excel_Writer();\n$sheet =& $xls->addWorksheet($name);\n\nforeach ($rec as $field) {\n    $rec = ($rec['data'] ? $rec['data'] : $rec);\n    $sheet->writeString($row, $col++, $field);\n}

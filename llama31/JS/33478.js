@@ -1,0 +1,1 @@
+// Get the selected text\nvar selectedText = document.selection.createRange().text;\n\n// Get the table cells that contain the selected text\nvar selectedCells = $('td').filter(function() {\n    return $(this).text().indexOf(selectedText) !== -1;\n});\n\n// Change the background color of the selected cells\nselectedCells.css('background-color', '#FF0000');

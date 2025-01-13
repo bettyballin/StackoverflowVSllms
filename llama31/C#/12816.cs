@@ -1,0 +1,1 @@
+int fileCount = Directory.EnumerateFiles(@"c:\windows\system32", "*.dll", SearchOption.AllDirectories).Count();

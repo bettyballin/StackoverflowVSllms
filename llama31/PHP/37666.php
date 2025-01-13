@@ -1,0 +1,1 @@
+if (!isset($_SERVER['HTTP_X_REQUESTED_WITH']) || \n    strtolower($_SERVER['HTTP_X_REQUESTED_WITH']) !== 'xmlhttprequest') {\n    die('Direct access not allowed');\n}

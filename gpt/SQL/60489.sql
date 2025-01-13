@@ -1,1 +1,0 @@
-INSERT INTO MetricsArchive (MetricID, MetricDate, MetricValue)\n    SELECT MetricID, MetricDate, MetricValue\n    FROM Metrics\n    WHERE MetricDate < DATEADD(MONTH, -6, GETDATE());\n\n    DELETE FROM Metrics\n    WHERE MetricDate < DATEADD(MONTH, -6, GETDATE());

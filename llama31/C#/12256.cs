@@ -1,0 +1,1 @@
+protected void GridView1_RowDataBound(object sender, GridViewRowEventArgs e)\n{\n    if (e.Row.RowType == DataControlRowType.Footer)\n    {\n        e.Row.Cells[0].ColumnSpan = 2;\n        e.Row.Cells[0].Text = "Grand Total: " + GetTotal();\n    }\n}

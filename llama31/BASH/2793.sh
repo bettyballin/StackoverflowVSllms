@@ -1,0 +1,1 @@
+# Append the public key to the authorized_keys file\ncat ~/.ssh/id_rsa.pub >> ~/.ssh/authorized_keys

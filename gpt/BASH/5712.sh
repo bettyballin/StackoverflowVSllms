@@ -1,1 +1,0 @@
-sudo mkdir -p /opt/chroot/glibc-2.3.3

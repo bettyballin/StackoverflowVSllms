@@ -1,1 +1,0 @@
-// Function to handle session expiration\n    function handleSessionExpiration() {\n        alert("Your session has expired. You will be redirected to the login page.");\n        window.location.href = '/login?session_expired=true';\n    }\n\n    // Set timeout to handle session expiration\n    setTimeout(handleSessionExpiration, sessionTimeout);

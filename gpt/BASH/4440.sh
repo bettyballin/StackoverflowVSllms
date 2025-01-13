@@ -1,1 +1,0 @@
-#!/bin/bash\n# Decrypt the script and execute it\nopenssl enc -d -aes-256-cbc -in "$1" -k yourpassword | bash

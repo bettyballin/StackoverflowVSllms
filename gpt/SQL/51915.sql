@@ -1,1 +1,0 @@
-CREATE OR REPLACE PROCEDURE process_data AS\nBEGIN\n    -- Insert data into the temporary table\n    INSERT INTO temp_table (id, data) VALUES (1, 'Sample data');\n    \n    -- Process the data\n    -- ...\n\n    -- Commit the transaction (if needed)\n    COMMIT;\nEND;

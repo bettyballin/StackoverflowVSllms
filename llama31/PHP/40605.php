@@ -1,0 +1,1 @@
+addSimpleXMLElement($parent, $child);

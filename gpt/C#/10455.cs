@@ -1,1 +1,0 @@
-public class MyService : IMyService\n    {\n        public MyData GetData(string id)\n        {\n            // Logic to fetch data from the model\n        }\n\n        public void UpdateData(MyData data)\n        {\n            // Logic to update data in the model\n        }\n    }

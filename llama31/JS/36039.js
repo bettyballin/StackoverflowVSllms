@@ -1,0 +1,1 @@
+$("#<%=btnContinue.ClientID%>").click(function() {\n    // ...\n    $.ajax({\n        // ...\n    });\n    return false; // Add this line\n});

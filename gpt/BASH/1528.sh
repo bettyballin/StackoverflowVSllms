@@ -1,1 +1,0 @@
-openssl req -new -newkey rsa:2048 -nodes -keyout mykey.key -out mycsr.csr -config san_config.cnf

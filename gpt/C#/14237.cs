@@ -1,1 +1,0 @@
-// UI Layer\npublic void SomeUiMethod()\n{\n    var sessionData = HttpContext.Current.Session["SomeData"];\n    var businessLogic = new BusinessLogic();\n    businessLogic.ProcessData(sessionData);\n}\n\n// Business Layer\npublic class BusinessLogic\n{\n    public void ProcessData(object sessionData)\n    {\n        // Business logic here\n    }\n}

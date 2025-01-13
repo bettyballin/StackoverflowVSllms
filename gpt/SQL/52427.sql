@@ -1,1 +1,0 @@
-DECLARE @MyCursor CURSOR;\nDECLARE @MyField NVARCHAR(100);\n\nSET @MyCursor = CURSOR FOR\nSELECT MyField FROM MyTable;\n\nOPEN @MyCursor;\nFETCH NEXT FROM @MyCursor INTO @MyField;\n\nWHILE @@FETCH_STATUS = 0\nBEGIN\n    -- Process each row here\n    FETCH NEXT FROM @MyCursor INTO @MyField;\nEND;\n\nCLOSE @MyCursor;\nDEALLOCATE @MyCursor;

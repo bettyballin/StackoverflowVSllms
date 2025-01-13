@@ -1,1 +1,0 @@
-WITH hash_value AS (\n  SELECT HASHBYTES('SHA1', 'HELLO') AS hash\n)\nSELECT a, b, c, (SELECT hash FROM hash_value)\nFROM my_table;

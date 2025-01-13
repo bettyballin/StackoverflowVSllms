@@ -1,0 +1,1 @@
+echo '<a href="#" onclick="updateByQuery(\'Layer3\', \'' . json_encode($query) . '\');">Link 1</a>';

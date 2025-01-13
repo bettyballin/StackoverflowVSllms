@@ -1,0 +1,1 @@
+public class CustomGrid : Grid\n{\n    protected override void PrepareContainerForItemOverride(DependencyObject element, object item)\n    {\n        base.PrepareContainerForItemOverride(element, item);\n\n        var cell = element as GridCell;\n        if (cell != null)\n        {\n            cell.Style = (Style)FindResource("GridCellStyle");\n        }\n    }\n}

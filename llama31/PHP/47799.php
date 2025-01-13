@@ -1,0 +1,1 @@
+// application/views/layout.php\n\n<div class="menu">\n    <?php foreach (Menu::get_menu_items() as $item): ?>\n        <a href="<?= $item['uri'] ?>" class="<?= ($item == Menu::get_active_item(Request::current()->uri())) ? '_active' : '' ?>">\n            <?= $item['label'] ?>\n        </a>\n    <?php endforeach; ?>\n</div>

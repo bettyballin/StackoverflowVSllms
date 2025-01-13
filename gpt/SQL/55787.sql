@@ -1,1 +1,0 @@
-SELECT a1.x, a2.y, COUNT(*)\nFROM Arc a1, Arc a2\nWHERE a1.y = a2.x\nGROUP BY a1.x, a2.y;

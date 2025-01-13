@@ -1,0 +1,1 @@
+using MyExcelWrapper;\n\nclass ExcelApp\n{\n    public static void Main()\n    {\n        Application excelApp = new Application();\n        // ...\n    }\n}

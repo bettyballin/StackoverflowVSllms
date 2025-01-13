@@ -1,0 +1,1 @@
+#include <wx/wx.h>\n\nclass MyFrame : public wxFrame {\npublic:\n    MyFrame() : wxFrame(NULL, wxID_ANY, "My Frame") {}\n};\n\nint main(int argc, char *argv[]) {\n    wxApp app;\n    MyFrame *frame = new MyFrame();\n    frame->Show(true);\n    return app.MainLoop();\n}

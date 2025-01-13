@@ -1,0 +1,1 @@
+SELECT \n    SUM(someValues)\nFROM \n    table1\nGROUP BY \n    DATEPART(year, deliveryDate),\n    DATEPART(month, deliveryDate),\n    DATEPART(day, deliveryDate);

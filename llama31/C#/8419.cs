@@ -1,0 +1,1 @@
+int[] array = { 5, 2, 8, 1, 9 };\nArray.Sort(array);\nConsole.WriteLine(string.Join(", ", array)); // Output: 1, 2, 5, 8, 9\n\nList<int> list = new List<int> { 5, 2, 8, 1, 9 };\nlist.Sort();\nConsole.WriteLine(string.Join(", ", list)); // Output: 1, 2, 5, 8, 9

@@ -1,0 +1,1 @@
+Private Sub LoadFunctions()\n    Dim thisClass As Type = Me.GetType()\n    For Each method As MethodInfo In thisClass.GetMethods(BindingFlags.Instance Or BindingFlags.NonPublic Or BindingFlags.Public Or BindingFlags.DeclaredOnly)\n        If method.Name.Substring(0, 3) = "Get" Then\n            Me.ddlCodeSamples.Items.Add(method.Name)\n        End If\n    Next\nEnd Sub

@@ -1,1 +1,0 @@
-let array = [1, 2, 3];\n\n// Add element to the end\narray.push(4); // [1, 2, 3, 4]\n\n// Add element to the beginning\narray.unshift(0); // [0, 1, 2, 3, 4]

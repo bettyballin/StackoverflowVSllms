@@ -1,1 +1,0 @@
-<!-- my_template.html -->\n\n{% if messages %}\n    <ul class="messages">\n        {% for message in messages %}\n            <li{% if message.tags %} class="{{ message.tags }}"{% endif %}>{{ message }}</li>\n        {% endfor %}\n    </ul>\n{% endif %}

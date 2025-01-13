@@ -1,1 +1,0 @@
-// Example of rate limiting pseudocode\n   if (tooManyRequestsFromIp(ipAddress)) {\n       throw new Exception("Too many requests. Please try again later.");\n   }\n   \n   // Example of CAPTCHA integration pseudocode\n   if (!isValidCaptcha(captchaResponse)) {\n       throw new Exception("Invalid CAPTCHA. Please try again.");\n   }

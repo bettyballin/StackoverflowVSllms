@@ -1,1 +1,0 @@
-selfssl /N:CN=yourdomain.com /V:365

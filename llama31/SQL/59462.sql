@@ -1,0 +1,1 @@
+CREATE TABLE sessions (\n  id CHAR(32) PRIMARY KEY,\n  data TEXT,\n  expires INT\n);

@@ -1,1 +1,0 @@
-DataTable tagNames = new DataTable();\ntagNames.Columns.Add("Name", typeof(string));\n\n// Add rows to the DataTable\ntagNames.Rows.Add("ruby");\ntagNames.Rows.Add("rails");\ntagNames.Rows.Add("scruffy");\ntagNames.Rows.Add("rubyonrails");\n\n// Call the method\nGetTags(tagNames);

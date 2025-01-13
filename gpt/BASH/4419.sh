@@ -1,1 +1,0 @@
-icacls "C:\Path\To\PHP" /grant IUSR:(OI)(CI)RX\nicacls "C:\Path\To\PHP" /grant IIS_IUSRS:(OI)(CI)RX

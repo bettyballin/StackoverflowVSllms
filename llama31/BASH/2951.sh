@@ -1,0 +1,1 @@
+dig @a.dns.br site.com.br

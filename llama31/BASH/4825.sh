@@ -1,0 +1,1 @@
+@echo off\nset JAVA_HOME=%~dp0\..\jdk1.6.0_12

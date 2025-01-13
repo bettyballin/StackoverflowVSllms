@@ -1,0 +1,1 @@
+public static string AsciiBytesToString(this byte[] buffer, int offset, int maxLength)\n{\n    int nullIndex = Array.IndexOf(buffer, (byte)0, offset, maxLength);\n    if (nullIndex != -1)\n    {\n        return Encoding.ASCII.GetString(buffer, offset, nullIndex - offset);\n    }\n    return Encoding.ASCII.GetString(buffer, offset, maxLength);\n}

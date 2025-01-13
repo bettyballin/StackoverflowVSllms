@@ -1,0 +1,1 @@
+msdeploy -verb:sync -source:package="path/to/your/project.csproj" -dest:auto,ComputerName="https://your-website.com"

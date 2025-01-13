@@ -1,0 +1,1 @@
+import atexit\n\ndef cleanup():\n    # Your cleanup code here\n    print("Cleaning up...")\n    # ...\n\natexit.register(cleanup)

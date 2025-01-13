@@ -1,0 +1,1 @@
+use Adldap\Adldap;\n\n$adldap = new Adldap();\n$adldap->connect('ldap://your-ad-server.com', 389, 'username@your-ad-domain.com', 'password');\nif ($adldap->isBound()) {\n    // User is now authenticated\n}

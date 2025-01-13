@@ -1,1 +1,0 @@
-#!/bin/bash\n\n# Run the SQL*Plus script\nsqlplus -s username/password@database @process_data.sql

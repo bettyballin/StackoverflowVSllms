@@ -1,0 +1,1 @@
+public void CheckConnection(HttpContext context)\n{\n    Socket socket = context.Request.InputStream.Socket;\n    if (socket.Poll(0, SelectMode.SelectRead))\n    {\n        // Connection is active\n    }\n    else\n    {\n        // Connection is not active\n    }\n}

@@ -1,0 +1,1 @@
+// index.php\ninclude 'header.php';\n// rest of the page content

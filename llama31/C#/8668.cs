@@ -1,0 +1,1 @@
+if (!Request.IsLocal && Request.Url.Scheme != "https")\n{\n    Response.Redirect(Helper.GetInstance().SSLBaseURL() + ScriptName());\n}

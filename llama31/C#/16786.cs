@@ -1,0 +1,1 @@
+// Using Moq\n[TestMethod]\npublic void TestMethod()\n{\n    var mockConfig = new Mock<IConfiguration>();\n    mockConfig.SetupGet(c => c.ConnectionString).Returns("TestDatabaseConnectionString");\n\n    // Use the mock config in your test\n}

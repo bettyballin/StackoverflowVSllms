@@ -1,0 +1,1 @@
+using HtmlAgilityPack;\n\npublic string HtmlToPlainText(string html)\n{\n    var doc = new HtmlDocument();\n    doc.LoadHtml(html);\n    return doc.DocumentNode.InnerText;\n}

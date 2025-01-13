@@ -1,0 +1,1 @@
+#pragma GCC optimize("O2")\nvoid performance_critical_function() {\n    // ...\n}

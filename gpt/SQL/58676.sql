@@ -1,1 +1,0 @@
-CREATE VIEW ActiveCustomers AS\nSELECT CustomerID, FirstName, LastName, Email\nFROM Customers\nWHERE IsActive = 1;

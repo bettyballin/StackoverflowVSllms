@@ -1,0 +1,1 @@
+import requests\n\nurl = "http://finance.google.com/finance/info?client=ig&q=NASDAQ:MSFT&fields=t,n,l,c,cp,pcls_fix,el,el_fix,ecp,ec,div,yld"\nresponse = requests.get(url)\n\nif response.status_code == 200:\n    print(response.json())\nelse:\n    print("Failed to retrieve data")

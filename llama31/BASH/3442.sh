@@ -1,0 +1,1 @@
+#!/bin/bash\n\n# Start/stop logic goes here\ncase $1 in\n  start)\n    # Start your application here\n    ;;\n  stop)\n    # Stop your application here\n    ;;\n  restart)\n    # Restart your application here\n    ;;\n  *)\n    echo "Invalid command"\n    exit 1\n    ;;\nesac

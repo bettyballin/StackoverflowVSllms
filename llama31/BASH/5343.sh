@@ -1,0 +1,1 @@
+mingw32-gcc -o program.exe source_file.c

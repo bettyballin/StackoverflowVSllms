@@ -1,1 +1,0 @@
-amespace MyNamespace\n   {\n       public class myclass\n       {\n           // Class implementation\n       }\n   }

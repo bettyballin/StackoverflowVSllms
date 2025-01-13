@@ -1,0 +1,1 @@
+<enunciate>\n  ...\n  <dependencies>\n    <dependency>\n      <groupId>your.group.id</groupId>\n      <artifactId>your.artifact.id</artifactId>\n      <version>your.version</version>\n    </dependency>\n    ...\n  </dependencies>\n  ...\n</enunciate>

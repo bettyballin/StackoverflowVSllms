@@ -1,0 +1,1 @@
+[ServiceContract(Namespace = "http://yournamespace.com")]\npublic interface ILoginService\n{\n    [WebGet(ResponseFormat = WebMessageFormat.Xml, UriTemplate = "/username={username}&password={password}")]\n    [OperationContract]\n    Message Login(string username, string password);\n}

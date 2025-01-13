@@ -1,1 +1,0 @@
-<error>\n  <code>1001</code>\n  <message>Validation Error</message>\n  <details>\n    <field name="username" issue="Username is required."/>\n    <field name="password" issue="Password must be at least 8 characters long."/>\n  </details>\n</error>

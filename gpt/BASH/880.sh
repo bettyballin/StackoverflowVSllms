@@ -1,1 +1,0 @@
-#!/bin/bash\n\n     # Variables\n     REPO_URL="svn://your-repo-url/project-name/trunk"\n     DEPLOY_DIR="/path/to/your/deployment/directory"\n     SSH_USER="your-ssh-username"\n     SSH_HOST="your-server-ip-or-hostname"\n\n     # SSH into the server and update the code\n     ssh ${SSH_USER}@${SSH_HOST} << EOF\n     cd ${DEPLOY_DIR}\n     svn update ${REPO_URL}\n     EOF

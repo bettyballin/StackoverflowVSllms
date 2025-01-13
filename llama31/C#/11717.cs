@@ -1,0 +1,1 @@
+public class Data\n{\n    public string Field1 { get; set; }\n    public string Field2 { get; set; }\n    public string Field3 { get; set; }\n}\n\n// ...\n\nData data = new Data { Field1 = "value1", Field2 = "value2", Field3 = "value3" };\nstring jsonData = JsonConvert.SerializeObject(data);

@@ -1,1 +1,0 @@
-SELECT Result1.*, D.*, E.*\nFROM (\n    SELECT A.*, B.*, C.*\n    FROM (A\n        LEFT JOIN B ON A.b = B.b)\n        LEFT JOIN C ON A.c = C.c\n) AS Result1\nINNER JOIN D ON Result1.d = D.d\nINNER JOIN E ON Result1.e = E.e;

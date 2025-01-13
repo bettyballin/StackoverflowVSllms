@@ -1,0 +1,1 @@
+// Original loop\nfor (int i = 0; i < 100; i++) {\n    x[i] = a[i] * b[i];\n}\n\n// Unwound loop (factor of 4)\nfor (int i = 0; i < 100; i += 4) {\n    x[i] = a[i] * b[i];\n    x[i+1] = a[i+1] * b[i+1];\n    x[i+2] = a[i+2] * b[i+2];\n    x[i+3] = a[i+3] * b[i+3];\n}

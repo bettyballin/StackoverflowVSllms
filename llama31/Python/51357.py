@@ -1,0 +1,1 @@
+import csv\n\n# Open the file in write mode\nwith open('example.csv', 'w', newline='') as csvfile:\n    writer = csv.writer(csvfile)\n\n    # Write some data to the file\n    writer.writerow(['Name', 'Age'])\n    writer.writerow(['John Doe', 30])\n\n    # Access the file object directly\n    print(csvfile.name)  # prints: example.csv\n    print(csvfile.mode)  # prints: w

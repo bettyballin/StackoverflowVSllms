@@ -1,1 +1,0 @@
-pre {\n    font-weight: bold;\n    border: 2px solid green;\n    background: #669999;\n    padding: 5px;\n    white-space: pre-wrap; /* Wrap long lines */\n    overflow-x: auto; /* Enable horizontal scrolling */\n    word-wrap: break-word; /* Break long words */\n}

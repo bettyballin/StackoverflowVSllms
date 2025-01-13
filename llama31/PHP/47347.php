@@ -1,0 +1,1 @@
+// In a Symfony controller\nuse Symfony\Component\HttpFoundation\Response;\n\ntry {\n    // Code that might throw an exception\n} catch (\Exception $e) {\n    $this->get('logger')->error($e->getMessage());\n    return new Response('Error occurred', 500);\n}

@@ -1,1 +1,0 @@
-ALTER SYSTEM SET UNDO_RETENTION = 900; -- Sets the undo retention to 900 seconds (15 minutes)

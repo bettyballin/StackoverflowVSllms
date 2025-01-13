@@ -1,0 +1,1 @@
+$(document).ready(function() {\n  $('#mySelect optgroup').each(function() {\n    $(this).prepend('<span class="toggle">+</span>');\n  });\n\n  $('#mySelect').on('click', '.toggle', function() {\n    $(this).toggleClass('expanded');\n    $(this).closest('optgroup').toggleClass('expanded');\n  });\n});

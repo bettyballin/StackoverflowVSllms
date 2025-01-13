@@ -1,1 +1,0 @@
-LOAD DATA LOCAL INFILE 'test.csv' \nINTO TABLE students\nFIELDS TERMINATED BY ','\nLINES TERMINATED BY '\r'\n(pita, dob, name, grd, asst, loc);

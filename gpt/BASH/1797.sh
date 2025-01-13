@@ -1,1 +1,0 @@
-/dev/mapper/encrypted_drive /mnt/encrypted ext4 defaults 0 2

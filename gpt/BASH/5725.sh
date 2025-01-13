@@ -1,1 +1,0 @@
-tlbimp YourActiveXControl.ocx /out:YourActiveXControl.Interop.dll /primary

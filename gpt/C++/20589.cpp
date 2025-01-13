@@ -1,1 +1,0 @@
-HRESULT RPC_Function(handle_t IDL_handle, UINT input);

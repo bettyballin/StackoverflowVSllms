@@ -1,1 +1,0 @@
-public (int newX, int newY) UpdateValues(int x)\n{\n    int newX = x + 10;\n    int newY = newX * 2;\n    return (newX, newY);\n}

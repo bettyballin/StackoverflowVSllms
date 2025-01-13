@@ -1,0 +1,1 @@
+InstallUtil.exe /parameter1=value1 /parameter2=value2 MyService.exe

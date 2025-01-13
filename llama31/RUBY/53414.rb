@@ -1,0 +1,1 @@
+class LocationTest < ActiveSupport::TestCase\n  self.use_transactional_fixtures = true\n  # ...\nend

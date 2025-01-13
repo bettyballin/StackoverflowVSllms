@@ -1,1 +1,0 @@
-CREATE TRIGGER before_insert_update_uppercase\nBEFORE INSERT OR UPDATE ON your_table_name\nFOR EACH ROW\nBEGIN\n    NEW.col := UPPER(NEW.col);\nEND;

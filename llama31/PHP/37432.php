@@ -1,0 +1,1 @@
+$data = array('name' => 'John Doe', 'email' => 'john@example.com');\n$insert = $this->getAdapter()->prepare('INSERT INTO users (name, email) VALUES (?, ?)');\n$insert->execute($data);

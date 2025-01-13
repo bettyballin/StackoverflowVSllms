@@ -1,0 +1,1 @@
+sqlcmd -S 192.168.1.5 -U sa -P 123456 -Q "exec xp_cmdshell 'bcp "EasyCash.dbo.user" out "[EasyCash].[dbo].[user].dat" -q -c -t "<EOFD>" -r "<EORD>"'"

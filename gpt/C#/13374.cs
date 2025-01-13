@@ -1,1 +1,0 @@
-using CommonLib;\n\npublic partial class YourPage : System.Web.UI.Page\n{\n    protected void Page_Load(object sender, EventArgs e)\n    {\n        Utility.YourMethod();\n    }\n}

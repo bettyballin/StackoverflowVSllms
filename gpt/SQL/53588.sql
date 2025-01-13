@@ -1,1 +1,0 @@
-CREATE TABLE attributes (\n    id INT AUTO_INCREMENT PRIMARY KEY,\n    name VARCHAR(255) NOT NULL,\n    value_type ENUM('string', 'integer', 'decimal') NOT NULL,\n    str_value VARCHAR(255) DEFAULT NULL,\n    int_value INT DEFAULT NULL,\n    dec_value DECIMAL(10, 2) DEFAULT NULL\n);

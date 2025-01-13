@@ -1,0 +1,1 @@
+objdump -x /path/to/binary | grep ".comment"

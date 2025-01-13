@@ -1,1 +1,0 @@
-cflow -o callgraph.dot your_source_file.c\n   dot -Tpng callgraph.dot -o callgraph.png

@@ -1,1 +1,0 @@
-public static class SessionHelper\n{\n    public static object GetSessionObject(string key)\n    {\n        return HttpContext.Current.Session[key];\n    }\n\n    public static void SetSessionObject(string key, object value)\n    {\n        HttpContext.Current.Session[key] = value;\n    }\n}

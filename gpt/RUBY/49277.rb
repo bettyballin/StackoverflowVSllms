@@ -1,1 +1,0 @@
-# features/step_definitions/signup_steps.rb\nGiven("an account is created") do\n  @account = Account.create!(name: "Test Account")\nend\n\nWhen("I proceed to step 2") do\n  visit step2_path(account_id: @account.id)\nend\n\nThen("I should see the registration data") do\n  expect(page).to have_content(@account.name)\nend

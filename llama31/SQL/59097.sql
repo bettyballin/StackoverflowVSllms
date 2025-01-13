@@ -1,0 +1,1 @@
+EXEC MyProcedure @MyValue = 40.33

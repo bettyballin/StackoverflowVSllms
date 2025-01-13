@@ -1,0 +1,1 @@
+Private Shared ReadOnly emptyDict As New Dictionary(Of String, String)\n\nPublic Sub MyMethod(Optional ByVal dict As Dictionary(Of String, String) = emptyDict)\n    ' Method implementation here\nEnd Sub

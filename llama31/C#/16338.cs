@@ -1,0 +1,1 @@
+protected void cvWordValidator_ServerValidate(object source, ServerValidateEventArgs args)\n{\n    args.IsValid = new CustomWordValidator().EvaluateIsValid();\n}

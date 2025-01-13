@@ -1,1 +1,0 @@
-SELECT\n    table1.this, table2.that, table2.somethingelse\nFROM\n    table1, table2\nWHERE\n    table1.foreignkey = table2.primarykey\n    AND (some other conditions)

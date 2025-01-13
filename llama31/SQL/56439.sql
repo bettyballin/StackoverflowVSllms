@@ -1,0 +1,1 @@
+SELECT   product_id, prod.name name, sample_id\n  FROM   (SELECT   sample_id, product_id FROM lims.sample) AS sample_subquery\n         JOIN lims.product prod\n            USING (product_id)

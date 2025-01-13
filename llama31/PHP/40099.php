@@ -1,0 +1,1 @@
+abstract class Product {\n    protected $id;\n    protected $name;\n    protected $description;\n    protected $price;\n\n    // Common methods\n}\n\nclass CD extends Product {\n    private $artist_id;\n    private $track_list;\n\n    // CD-specific methods\n}\n\nclass TShirt extends Product {\n    private $size;\n    private $color;\n\n    // TShirt-specific methods\n}

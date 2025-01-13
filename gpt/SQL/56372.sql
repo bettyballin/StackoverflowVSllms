@@ -1,1 +1,0 @@
--- Example ETL logic in SSIS:\n-- 1. Extract data from the warehouse database\n-- 2. Compare the data with the report database\n-- 3. Apply inserts, updates, and deletes as necessary

@@ -1,0 +1,1 @@
+var xhr = new XMLHttpRequest();\n\nxhr.onreadystatechange = function() {\n  if (xhr.readyState === 4 && xhr.status === 0) {\n    // Server has closed the connection\n    console.log("Connection closed");\n    // Print a message and erase the page\n  }\n};\n\nxhr.open("GET", "/your/server/url", true);\nxhr.send();

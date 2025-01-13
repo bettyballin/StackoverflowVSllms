@@ -1,1 +1,0 @@
-SELECT\n       UPPER(employee_name) AS employee_name,\n       employee_id\n   FROM\n       employee_dimensio

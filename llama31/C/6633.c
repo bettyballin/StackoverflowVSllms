@@ -1,0 +1,1 @@
+FILE* f = fopen("blah", "w");\n// use f\nfclose(f);

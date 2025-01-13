@@ -1,0 +1,1 @@
+$.ajax({\n  type: 'GET',\n  url: 'your-php-script.php',\n  data: 'your-data',\n  success: function(response) {\n    $('#imgselect').html(response);\n  }\n});

@@ -1,1 +1,0 @@
-$("#div_id").data("data", {foo: 1, bar: 2});

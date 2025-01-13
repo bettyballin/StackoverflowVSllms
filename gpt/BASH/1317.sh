@@ -1,1 +1,0 @@
-system("sort -t, -k1,1 -k2,2 -k3,3 $input_file > $temp_sorted_file");

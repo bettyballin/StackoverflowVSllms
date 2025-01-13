@@ -1,0 +1,1 @@
+x = [1, 2, 2, 2, 2]\nfor i in x[:]:\n    x.remove(i)\nprint(x)

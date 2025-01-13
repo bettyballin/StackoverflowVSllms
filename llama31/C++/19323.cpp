@@ -1,0 +1,1 @@
+// Export the COM interface\n__declspec(dllexport) HRESULT __stdcall GetInterface(IUnknown** ppUnk)\n{\n    // Return the interface pointer\n    *ppUnk = (IUnknown*)this;\n    return S_OK;\n}

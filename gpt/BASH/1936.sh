@@ -1,1 +1,0 @@
-gcc -shared -o libNativeLibrary.so -fPIC NativeLibrary.c -I${JAVA_HOME}/include -I${JAVA_HOME}/include/linux

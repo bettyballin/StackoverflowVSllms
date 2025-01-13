@@ -1,1 +1,0 @@
-Dim myLibrary As New MyLibrary\n   Dim result As String\n   result = myLibrary.MyMethod("World")\n   MsgBox result ' Outputs: Hello, World

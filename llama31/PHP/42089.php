@@ -1,0 +1,1 @@
+class Log implements LoggerInterface {\n    private $database;\n\n    public function __construct(Database $database) {\n        $this->database = $database;\n    }\n\n    public function logMessage($message) {\n        // implementation\n    }\n\n    public function logDatabaseQuery($query) {\n        // implementation using $this->database->doInsert()\n    }\n}

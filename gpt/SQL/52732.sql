@@ -1,1 +1,0 @@
-SELECT TOP 1 *\nFROM (\n    SELECT * FROM UserTable WHERE Name = @UserName\n    UNION ALL\n    SELECT * FROM UserTable WHERE Name = 'Jon Skeet'\n) AS CombinedResults\nORDER BY CASE WHEN Name = @UserName THEN 1 ELSE 2 END

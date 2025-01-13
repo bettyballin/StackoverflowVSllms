@@ -1,0 +1,1 @@
+$settings = array('foo' => 'bar', 'baz' => '');\n\necho get_setting_value($settings, 'foo'); // outputs "bar"\necho get_setting_value($settings, 'baz'); // outputs ""\necho get_setting_value($settings, 'qux', 'default'); // outputs "default"

@@ -1,0 +1,1 @@
+$mysqli->autocommit(false);\n\ntry {\n    $mysqli->query("DELETE FROM Comments WHERE PostID = '$post_id'");\n    $mysqli->query("DELETE FROM Posts WHERE PostID = '$post_id'");\n    $mysqli->commit();\n} catch (Exception $e) {\n    $mysqli->rollback();\n    throw $e;\n}

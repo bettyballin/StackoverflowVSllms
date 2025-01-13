@@ -1,1 +1,0 @@
-// Declaration\nvoid func(void);\n\n// Definition\nvoid func(void) {\n    // Function body\n}

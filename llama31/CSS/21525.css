@@ -1,0 +1,1 @@
+@media print {\n  input, textarea, select {\n    border: none;\n    background-color: transparent;\n    padding: 0;\n    margin: 0;\n  }\n}

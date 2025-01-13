@@ -1,0 +1,1 @@
+SELECT d.* \nFROM Document d \nJOIN Document_Category dc ON d.ID = dc.DocumentID \nWHERE dc.CategoryID = @targetCategoryId;

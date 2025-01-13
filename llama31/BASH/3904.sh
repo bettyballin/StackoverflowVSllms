@@ -1,0 +1,1 @@
+@echo off\nset CERTHASH=your_cert_hash_here\n\nappcmd set site /site.name:"A Site" /bindings.[protocol='https',bindingInformation='*:443:www.mysite.com'].[@certificateHash='%CERTHASH%',@certificateStoreName='MY']

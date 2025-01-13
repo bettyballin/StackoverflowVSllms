@@ -1,0 +1,1 @@
+sed -i '5,15!d' file1.txt  # delete lines 1-4 and 16-end in file1.txt\nsed -n '6,15p' file2.txt >> file1.txt  # append lines 6-15 from file2.txt to file1.txt

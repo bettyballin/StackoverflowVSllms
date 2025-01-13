@@ -1,1 +1,0 @@
-chmod 777 /home/taalhulp/domains/taalhulpmanager.nl/public_html/files

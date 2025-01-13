@@ -1,0 +1,1 @@
+using System.Diagnostics;\n\n// Assuming 'html' is the output of your ASPX page\nstring html = GetHtmlOutput();\nstring pdfPath = "path/to/output.pdf";\n\nusing (var process = new Process())\n{\n    process.StartInfo.FileName = "wkhtmltopdf.exe";\n    process.StartInfo.Arguments = $"-q {html} {pdfPath}";\n    process.Start();\n    process.WaitForExit();\n}

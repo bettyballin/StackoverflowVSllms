@@ -1,1 +1,0 @@
-BEGIN\n        SELECT * INTO emp_record FROM employees WHERE employee_id = 101;\n    END;\n    /

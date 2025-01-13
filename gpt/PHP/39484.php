@@ -1,1 +1,0 @@
-component {\n    public string function getType() {\n        return "dog";\n    }\n}

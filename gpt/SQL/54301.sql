@@ -1,1 +1,0 @@
--- ANSI-89 syntax\nSELECT * FROM TableName WHERE ColumnName LIKE 'pattern*';\n\n-- ANSI-92 syntax\nSELECT * FROM TableName WHERE ColumnName LIKE 'pattern%';

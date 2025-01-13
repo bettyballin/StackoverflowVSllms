@@ -1,1 +1,0 @@
-dotnet add package IronPython\ndotnet add package IronPython.StdLib

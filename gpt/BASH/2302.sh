@@ -1,1 +1,0 @@
-sudo yum install imagemagick\n    sudo yum install php-pecl-imagick

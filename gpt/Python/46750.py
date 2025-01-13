@@ -1,1 +1,0 @@
-import sys\nfrom gui.main_window import MainWindow\nfrom controller.main_controller import MainController\n\nif __name__ == "__main__":\n    import gtk\n    main_controller = MainController()\n    main_window = MainWindow(main_controller)\n    gtk.main()

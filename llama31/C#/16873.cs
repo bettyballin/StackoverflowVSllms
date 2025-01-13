@@ -1,0 +1,1 @@
+result = new ListService.Lists();\nresult.Url = siteUrl;\nresult.Credentials = new NetworkCredential(txtUserName.Text, txtPassword.Text, txtDomain.Text);\nresult.PreAuthenticate = true;\n\nxmlResult = spList.GetListItems(listName, string.Empty, camlQuery, null, string.Empty, null, string.Empty);

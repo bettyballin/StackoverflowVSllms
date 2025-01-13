@@ -1,1 +1,0 @@
-<!-- Web.Debug.config -->\n   <configuration xmlns:xdt="http://schemas.microsoft.com/XML-Document-Transform">\n     <appSettings>\n       <add key="StaticContentUrl" value="http://localhost:port" xdt:Transform="SetAttributes" xdt:Locator="Match(key)" />\n     </appSettings>\n   </configuration>

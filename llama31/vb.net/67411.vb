@@ -1,0 +1,1 @@
+Imports System.Reflection\n\nPublic Sub Save(ByVal obj As IPta)\n    Dim objType As Type = obj.GetType()\n    Dim genericType As Type = GetType(Generic.PtaDao(Of )).MakeGenericType(objType)\n    Dim dao As Object = Activator.CreateInstance(genericType)\n    ' use the dao object\nEnd Sub

@@ -1,1 +1,0 @@
-// Example of a partial view\n    @Html.Partial("_NavigationBar")

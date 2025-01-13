@@ -1,0 +1,1 @@
+// Example of a simple CFC call from Flex\nvar cfc:RemoteObject = new RemoteObject();\ncfc.destination = "ColdFusion";\ncfc.source = "myCFC";\ncfc.addEventListener(ResultEvent.RESULT, resultHandler);\ncfc.addEventListener(FaultEvent.FAULT, faultHandler);\ncfc.myFunction();

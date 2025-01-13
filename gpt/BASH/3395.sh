@@ -1,1 +1,0 @@
-svn propset svn:ignore "Example.txt" .\nsvn propset svn:ignore "example.TXT" .

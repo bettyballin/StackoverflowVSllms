@@ -1,1 +1,0 @@
-HANDLE ReOpenFile(\n      HANDLE hOriginalFile,\n      DWORD  dwDesiredAccess,\n      DWORD  dwShareMode,\n      DWORD  dwFlagsAndAttributes\n    );

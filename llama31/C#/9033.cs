@@ -1,0 +1,1 @@
+public class CustomTableStyle : TableStyle\n{\n    public CustomTableStyle()\n    {\n        // Apply existing table style code here\n        this.BackColor = Color.LightGray;\n        this.Font.Bold = true;\n        // ...\n    }\n}

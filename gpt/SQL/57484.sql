@@ -1,1 +1,0 @@
-CREATE TRIGGER audit_trigger\n   AFTER INSERT OR UPDATE OR DELETE ON your_table_name\n   FOR EACH ROW EXECUTE FUNCTION audit_changes();

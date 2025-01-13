@@ -1,1 +1,0 @@
-chmod +x ssh_to_python.sh

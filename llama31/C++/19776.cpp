@@ -1,0 +1,1 @@
+#include "CppUTest/TestHarness.h"\n\nTEST_GROUP(MyTestGroup) {\n};\n\nTEST(MyTestGroup, MyTest) {\n    int result = myFunction();\n    CHECK(result == 1);\n}

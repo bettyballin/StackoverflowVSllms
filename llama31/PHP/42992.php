@@ -1,0 +1,1 @@
+if ($add_review) {\n    return FALSE;\n} else {\n    return $arg;\n}

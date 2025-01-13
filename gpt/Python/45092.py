@@ -1,1 +1,0 @@
-import random\n\n# Define the lower limit (A), mode (B), and upper limit (C)\nA = 1.0\nB = 2.0\nC = 3.0\n\n# Generate a value from the triangular distribution\nvalue = random.triangular(A, C, B)\n\nprint(value)

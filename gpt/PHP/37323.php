@@ -1,1 +1,0 @@
-// index.php\n   require_once 'setup.php';\n\n   echo $twig->render('index.twig');

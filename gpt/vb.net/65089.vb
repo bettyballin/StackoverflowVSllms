@@ -1,1 +1,0 @@
-Public Shared Function ResolveUrlStatic(relativeUrl As String) As String\n    Return System.Web.VirtualPathUtility.ToAbsolute(relativeUrl)\nEnd Functio

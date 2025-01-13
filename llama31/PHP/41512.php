@@ -1,0 +1,1 @@
+// MyForm.php\nclass MyForm extends Zend_Form\n{\n    public function isValid($data)\n    {\n        $model = new MyModel();\n        return $model->isValid($data);\n    }\n}

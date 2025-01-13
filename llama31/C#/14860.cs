@@ -1,0 +1,1 @@
+// Controller\npublic class MyController : Controller\n{\n    public JsonResult GetCities(int countryId)\n    {\n        // Retrieve cities based on countryId\n        var cities = _repository.GetCities(countryId);\n        return Json(cities);\n    }\n}

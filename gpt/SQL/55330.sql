@@ -1,1 +1,0 @@
-RESTORE DATABASE YourDatabaseName\n    FROM DISK = 'Path\To\Your\DifferentialBackup.bak'\n    WITH NORECOVERY;

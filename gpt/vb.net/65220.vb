@@ -1,1 +1,0 @@
-Public Sub Main()\n    ' Enable visual styles for the application\n    Application.EnableVisualStyles()\n    Application.SetCompatibleTextRenderingDefault(False)\n\n    ' Show your message box\n    MessageBox.Show("Yaay", "Yaay!", MessageBoxButtons.OK)\nEnd Sub

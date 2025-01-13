@@ -1,1 +1,0 @@
-import pexpect\n\n# Example function to simulate a client connecting and sending a message\ndef test_client():\n    child = pexpect.spawn('telnet localhost 12345')\n    child.expect('Connected')\n    child.sendline('Hello, Server!')\n    child.expect('Hello, Client!')\n    print(child.before.decode())\n\ntest_client()

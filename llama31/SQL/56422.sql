@@ -1,0 +1,1 @@
+SELECT r1.idCustomer FROM reservations r1\nLEFT JOIN reservations r2\n  ON r1.idCustomer = r2.idCustomer AND DATEPART ( hour, r2.insertDate) < 2\nWHERE r2.idCustomer IS NULL

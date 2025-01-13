@@ -1,1 +1,0 @@
-USE msdb;\nGO\n\n-- Replace 'YourJobName' with the actual job name\nEXEC sp_start_job @job_name = 'YourJobName';\nGO

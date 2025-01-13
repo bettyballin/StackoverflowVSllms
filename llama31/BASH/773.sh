@@ -1,0 +1,1 @@
+gcc -S -masm=intel your_file.c -o your_file.s

@@ -1,1 +1,0 @@
-<?php\n$something = 'example';\n$example_somethingelse = 'Hello, World!';\n\necho ${"{$something}_somethingelse"}; // Outputs: Hello, World!\n?>

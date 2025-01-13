@@ -1,0 +1,1 @@
+my_list = [1, 2, 3, 4, 5]\nindex = my_list.index(3) if 3 in my_list else -1  # returns 2

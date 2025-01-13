@@ -1,0 +1,1 @@
+SELECT b.bandId, COUNT(bf.userId) as num_friends\nFROM bandfriends bf\nJOIN bandsTbl b ON bf.bandId = b.bandId\nGROUP BY b.bandId\nORDER BY num_friends DESC\nLIMIT 5;

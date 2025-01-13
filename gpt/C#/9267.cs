@@ -1,1 +1,0 @@
-// For design time purposes, you could create a sample list to bind to the grid\nList<MyData> sampleData = new List<MyData>\n{\n    new MyData { Field1 = "Name1", Field2 = "Email1", Field3 = "City1" },\n    new MyData { Field1 = "Name2", Field2 = "Email2", Field3 = "City2" }\n};\n\ngridControl.DataSource = sampleData;

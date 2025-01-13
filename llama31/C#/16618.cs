@@ -1,0 +1,1 @@
+List<string> myList = new List<string> { "apple", "banana", "apple", "orange", "banana" };\nvar uniqueList = myList.Distinct().ToList();

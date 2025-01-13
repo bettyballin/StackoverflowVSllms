@@ -1,0 +1,1 @@
+#include <iostream>\n#include <cstdlib>\n\nint main(int argc, char* argv[]) {\n    if (argc != 3) {\n        std::cerr << "Usage: add.exe <num1> <num2>" << std::endl;\n        return 1;\n    }\n\n    int x = std::atoi(argv[1]);\n    int y = std::atoi(argv[2]);\n\n    int result = x + y;\n    std::cout << "Result: " << result << std::endl;\n\n    return 0;\n}

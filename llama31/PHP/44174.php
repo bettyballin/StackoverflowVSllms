@@ -1,0 +1,1 @@
+$myClass = new MyClass();\n$myClass->name("aaa"); // output: This is name method and the value is aaa\n$myClass->password("bbb"); // output: This is password method and the value is bbb\n$myClass->anyOtherMethod("ccc"); // output: This is anyOtherMethod method and the value is ccc

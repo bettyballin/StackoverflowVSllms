@@ -1,1 +1,0 @@
-SetEnv ORACLE_HOME /oracledb/10.2.0/\n   SetEnv LD_LIBRARY_PATH /oracledb/10.2.0/lib

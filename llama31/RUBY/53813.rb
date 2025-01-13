@@ -1,0 +1,1 @@
+f.select(:category_id, [['Please select a category', '']] + @categories.map { |c| [c.name, c.id] } + [['..or create a new one', 'new']])

@@ -1,1 +1,0 @@
-coverlet <path_to_assembly> --target "dotnet" --targetargs "test <path_to_test_project>"

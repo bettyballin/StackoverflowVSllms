@@ -1,0 +1,1 @@
+CREATE TABLE user_data (\n  userid INT,\n  rowid INT AUTO_INCREMENT,\n  data TEXT,\n  PRIMARY KEY (userid, rowid)\n);

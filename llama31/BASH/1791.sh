@@ -1,0 +1,1 @@
+cscript adsutil.vbs SET_W3SVC_MIMEMAPPING ".ini,text/plain"

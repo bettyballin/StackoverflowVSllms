@@ -1,1 +1,0 @@
-// Sample CppUnit test case\n   CPPUNIT_TEST_SUITE(ExampleTest);\n   CPPUNIT_TEST(testExample);\n   CPPUNIT_TEST_SUITE_END();\n   \n   void ExampleTest::testExample() {\n       CPPUNIT_ASSERT(2 + 2 == 4);\n   }

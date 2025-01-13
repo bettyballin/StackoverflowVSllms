@@ -1,0 +1,1 @@
+[KnownType(typeof(ConcreteMessage1))]\n[KnownType(typeof(ConcreteMessage2))]\npublic abstract class Message\n{\n    // ...\n}\n\npublic class ConcreteMessage1 : Message\n{\n    // ...\n}\n\npublic class ConcreteMessage2 : Message\n{\n    // ...\n}

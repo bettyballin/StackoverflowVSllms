@@ -1,0 +1,1 @@
+echo DOMPDF_DIR; exit;

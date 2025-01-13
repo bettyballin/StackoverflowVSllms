@@ -1,0 +1,1 @@
+e.CampaignCodes.SumOrZero(f => f.Enquiries.Count())

@@ -1,1 +1,0 @@
-select * from html where url="http://stackoverflow.com" and xpath='//div/h3/a'

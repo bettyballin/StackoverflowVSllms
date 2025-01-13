@@ -1,0 +1,1 @@
+$data = [\n    'table_of_contents' => $_POST['table_of_contents'],\n    'length' => $_POST['length'],\n    'lossless_copy' => $_POST['lossless_copy'] ?? null,\n    // add more fields as needed\n];

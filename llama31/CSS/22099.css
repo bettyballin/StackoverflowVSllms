@@ -1,0 +1,1 @@
+.button {\n    background-color: orange;\n    margin: .2cm;\n    padding: .2cm;\n    color: black;\n    font-family: sans-serif;\n    text-decoration: none;\n    font-weight: bold;\n    border: solid #000000;\n}\n\n.button:hover {\n    background-color: darkGoldenRod;\n}

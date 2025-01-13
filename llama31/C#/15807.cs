@@ -1,0 +1,1 @@
+var iproxy = factory.CreateChannel();\niproxy.ToService(result);

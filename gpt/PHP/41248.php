@@ -1,1 +1,0 @@
-$html_content = '<!--PLAYER=movie1.flv--><!--PLAYER=movie2.flv--><!--PLAYER=movie3.flv-->';\n$pattern = '/<!--PLAYER\=(.*?)-->/si';\npreg_match_all($pattern, $html_content, $matches);\n\n$filenames = $matches[1];\nforeach ($filenames as $filename) {\n    echo $filename . "\n";\n}

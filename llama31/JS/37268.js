@@ -1,0 +1,1 @@
+function searchUserInfo() {\n  const searchValue = encodeURIComponent(document.searchForm.search.value);\n  const url = `get_results.php?cmd=SearchUserData&searchstring=${searchValue}&subcat=${subcat}`;\n\n  const xmlHttp = GetXmlHttpObject();\n\n  xmlHttp.open("GET", url, true);\n  xmlHttp.send(null);\n\n  update('Layer3', url);\n}

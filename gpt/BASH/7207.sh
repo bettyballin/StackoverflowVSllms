@@ -1,1 +1,0 @@
-appcmd set vdir /vdir.name:"Default Web Site/app" /physicalPath:"c:\inetpub\wwwroot\app_v2"

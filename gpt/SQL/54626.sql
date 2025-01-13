@@ -1,1 +1,0 @@
-DECLARE @procName NVARCHAR(128);\n\nDECLARE proc_cursor CURSOR FOR\nSELECT name\nFROM sys.objects\nWHERE type = 'P';\n\nOPEN proc_cursor;\n\nFETCH NEXT FROM proc_cursor INTO @procName;\n\nWHILE @@FETCH_STATUS = 0\nBEGIN\n    EXEC sp_recompile @procName;\n    EXEC @procName;\n    FETCH NEXT FROM proc_cursor INTO @procName;\nEND;\n\nCLOSE proc_cursor;\nDEALLOCATE proc_cursor;

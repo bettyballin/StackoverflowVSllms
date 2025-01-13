@@ -1,0 +1,1 @@
+Dim connectionStringSetting As Configuration.SettingsPropertyValue = _\n    ConfigurationManager.GetSection("applicationSettings/MyClassLibrary.My.MySettings") _\n        .Settings.Get("MyConnectionString")\n\nconnectionStringSetting.PropertyValue = "New Connection String Value"

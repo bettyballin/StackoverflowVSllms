@@ -1,0 +1,1 @@
+// Read file names from Excel file and store in an array\nstring[] filePaths = ReadExcelFile();\n\nforeach (string filePath in filePaths)\n{\n    using (var fs = new FileStream(filePath, FileMode.Open))\n    {\n        var file = new HttpPostedFile(fs, filePath, fs.Length);\n        // Upload file to server\n    }\n}

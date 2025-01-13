@@ -1,0 +1,1 @@
+case = Case.find(1)\nthing = case.caseable

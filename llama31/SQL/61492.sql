@@ -1,0 +1,1 @@
+-- Example query to illustrate buffer gets\nSELECT /*+ gather_plan_statistics */ \n       fieldOne, fieldTwo, fieldThree, fieldFour, fieldFive \nFROM   TableExample \nWHERE  fieldOne = 'example';

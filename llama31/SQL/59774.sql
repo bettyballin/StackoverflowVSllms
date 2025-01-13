@@ -1,0 +1,1 @@
+-- Add a new column to your table\nALTER TABLE YourTableName\nADD ID INT IDENTITY(1,1);\n\n-- If you want to add NOT NULL constraint\nALTER TABLE YourTableName\nALTER COLUMN ID INT NOT NULL;\n\n-- If you want to add PRIMARY KEY constraint\nALTER TABLE YourTableName\nADD CONSTRAINT PK_YourTableName_ID PRIMARY KEY (ID);

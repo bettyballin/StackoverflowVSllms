@@ -1,0 +1,1 @@
+#include <emmintrin.h>\n\nvoid loop_over_array(int* arr, int size) {\n    // Prefetch the first cache line\n    _mm_prefetch((char*)arr, _MM_HINT_T0);\n\n    for (int i = 0; i < size; i++) {\n        // Do something with arr[i]\n    }\n}

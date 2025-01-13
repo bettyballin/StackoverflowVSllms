@@ -1,0 +1,1 @@
+C:\PHP\php-cgi.exe -c C:\PHP\php.ini

@@ -1,1 +1,0 @@
-void __fastcall TForm1::FormCreate(TObject *Sender)\n{\n    LoadCSVToDataset("data.csv", ClientDataSet1);\n}\n\nvoid __fastcall TForm1::FormClose(TObject *Sender, TCloseAction &Action)\n{\n    SaveDatasetToCSV("data.csv", ClientDataSet1);\n}

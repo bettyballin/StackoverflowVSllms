@@ -1,1 +1,0 @@
-// example.c\n   #include <windows.h>\n\n   __declspec(dllexport) void myFunction() {\n       // Function implementation\n   }

@@ -1,1 +1,0 @@
-gcc -o myprogram myprogram.c -L/path/to/libcurl/dir -lcurl

@@ -1,0 +1,1 @@
+CREATE TABLE some_table (some_field VARCHAR2(20));\nCREATE INDEX some_field_idx ON some_table (some_field);\n\nSELECT * FROM some_table WHERE some_field = 'some_value';  -- uses index\nSELECT * FROM some_table WHERE some_field LIKE 'some_value';  -- might use index, but unpredictable\nSELECT * FROM some_table WHERE some_field LIKE '%some_value%';  -- full-table sca

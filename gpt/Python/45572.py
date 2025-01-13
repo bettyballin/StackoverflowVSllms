@@ -1,1 +1,0 @@
-import requests\n\napi_key = 'your_api_key'\nip_address = '8.8.8.8'\nurl = f'http://api.projecthoneypot.org/api_key/{ip_address}'\n\nresponse = requests.get(url)\nif response.status_code == 200:\n    print(response.json())\nelse:\n    print(f"Error: {response.status_code}")

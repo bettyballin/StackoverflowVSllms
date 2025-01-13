@@ -1,0 +1,1 @@
+export ORA_NLS33=$ORACLE_HOME/ocommon/nls/admin/data

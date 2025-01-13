@@ -1,1 +1,0 @@
-import base64\n\n# Encoding a string to Base64\noriginal_string = "Hello, World!"\nencoded_string = base64.b64encode(original_string.encode('utf-8'))\nprint(f"Encoded: {encoded_string}")\n\n# Decoding the Base64 string back to the original string\ndecoded_string = base64.b64decode(encoded_string).decode('utf-8')\nprint(f"Decoded: {decoded_string}")

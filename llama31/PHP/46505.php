@@ -1,0 +1,1 @@
+$match_id = $_GET['id'];\n$stmt = $db->prepare("SELECT * FROM ***** WHERE id = ?");\n$stmt->bind_param("i", $match_id);\n$stmt->execute();\n$match_info = $stmt->get_result();

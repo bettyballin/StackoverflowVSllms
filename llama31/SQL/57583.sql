@@ -1,0 +1,1 @@
+DECLARE @dbName nvarchar(128)\nDECLARE @sql nvarchar(max)\n\nSELECT @dbName = name FROM sys.databases WHERE name = @userInput + '_2'\n\nSET @sql = 'SELECT * FROM [' + @dbName + '].dbo.yourTable'\n\nEXEC sp_executesql @sql

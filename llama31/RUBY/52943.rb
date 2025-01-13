@@ -1,0 +1,1 @@
+require 'sequel'\n\nDB = Sequel.connect('postgres://user:password@host:port/database')\n\nclass User < Sequel::Model\n  one_to_many :orders\nend\n\nclass Order < Sequel::Model\n  many_to_one :user\nend

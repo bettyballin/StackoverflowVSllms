@@ -1,1 +1,0 @@
-using System;\n\n    class Foo\n    {\n        public string Path;\n\n        void Bar()\n        {\n            IOPath.Combine("", ""); // Use the alias here\n        }\n    }

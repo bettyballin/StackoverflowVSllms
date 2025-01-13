@@ -1,0 +1,1 @@
+rmdir /s /q G:/myRepositoryBackup\nsvnadmin hotcopy C:/myRepository G:/myRepositoryBackup --clean-logs

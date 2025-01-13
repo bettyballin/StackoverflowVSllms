@@ -1,1 +1,0 @@
-# Example: Send 1MB of random data to a server\n   head -c 1M </dev/urandom | nc <server_ip> <port>

@@ -1,0 +1,1 @@
+var popup = window.open(...);\npopup.location = "new-page.html";\n\nwindow.onmessage = function(event) {\n    if (event.data === "finishedLoading") {\n        do_something();\n    }\n};

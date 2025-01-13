@@ -1,0 +1,1 @@
+$datetime = new DateTime($post[3]);\necho $datetime->format('c');

@@ -1,1 +1,0 @@
-for i in {2..21}; do\n  docker run -d --name test_container_$i --net test_network --ip 172.18.0.$i appropriate/curl sleep 1000\ndone

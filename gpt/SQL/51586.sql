@@ -1,1 +1,0 @@
-WITH Temp2Results AS (\n    SELECT * \n    FROM Temp2\n)\nSELECT * \nFROM Temp2Results\nWHERE EXISTS (SELECT 1 FROM Temp2Results)\nUNION ALL\nSELECT * \nFROM Temp1\nWHERE NOT EXISTS (SELECT 1 FROM Temp2Results);

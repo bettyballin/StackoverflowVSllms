@@ -1,0 +1,1 @@
+ds.ReadXml(xmlPath, XmlReadMode.IgnoreSchema);\nds.ReadXmlSchema(xsdPath, XmlReadMode.Auto);

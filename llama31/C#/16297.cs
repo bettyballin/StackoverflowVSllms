@@ -1,0 +1,1 @@
+using System;\n\npublic bool IsUncPath(string path)\n{\n    Uri uri;\n    return Uri.TryCreate(path, UriKind.Absolute, out uri) && uri.IsUnc;\n}

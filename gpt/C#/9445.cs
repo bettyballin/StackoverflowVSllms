@@ -1,1 +1,0 @@
-script.Append("sometext");\nif (dbInfo.IsIdentity)\n{\n    script.Append(" IDENTITY(1,1)");\n}

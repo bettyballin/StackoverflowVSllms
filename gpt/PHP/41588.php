@@ -1,1 +1,0 @@
-<?php\n// Ensure there is no whitespace or new lines before the opening PHP tag\n\nheader('Content-type: text/csv');\nheader('Content-Disposition: attachment; filename=filename.dat');\n\n// Your data to be outputted\n$data = "your,data,content";\n\n// Output the data\necho $data;\nexit();\n\n// Ensure there is no whitespace or new lines after the closing PHP tag\n?>

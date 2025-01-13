@@ -1,0 +1,1 @@
+jarsigner -verify -verbose hibernate3.jar

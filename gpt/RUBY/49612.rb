@@ -1,1 +1,0 @@
-# script/verify_deliveries.rb\nrequire 'mailgun-ruby'\n\nmg_client = Mailgun::Client.new('your-api-key')\n\n# Fetch logs or events from Mailgun\nevents = mg_client.get("your-domain.com/events", { event: 'delivered' })\n\nevents.each do |event|\n  puts "Email to #{event['recipient']} was delivered at #{event['timestamp']}"\nend

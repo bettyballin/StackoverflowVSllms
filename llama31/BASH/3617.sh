@@ -1,0 +1,1 @@
+# Search for resources within a domain using Google\ngoogle search "site:example.com"

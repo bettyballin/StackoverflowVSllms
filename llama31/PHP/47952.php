@@ -1,0 +1,1 @@
+// assuming $userData is an array with the updated user data\n$auth = Zend_Auth::getInstance();\n$storage = $auth->getStorage();\n$storage->write($userData);

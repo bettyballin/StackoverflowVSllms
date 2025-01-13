@@ -1,0 +1,1 @@
+int fd = open("/tmp", O_TMPFILE | O_RDWR, 0600);\nif (fd != -1) {\n    // Write decrypted data to the file\n    write(fd, decryptedData, dataSize);\n    close(fd); // File will be deleted when file descriptor is closed\n}

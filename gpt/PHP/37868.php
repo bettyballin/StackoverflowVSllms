@@ -1,1 +1,0 @@
-$this->variables[$key] = $value;

@@ -1,1 +1,0 @@
-odbcconf CONFIGSYSDSN "Oracle in InstantClient_19_8" "DSN=MyOracleDSN;SERVER=MyServer;UID=myusername;PWD=mypassword;"

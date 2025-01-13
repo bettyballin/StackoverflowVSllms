@@ -1,0 +1,1 @@
+import time\nstart_time = time.time()\n# Code to profile\nend_time = time.time()\nduration = end_time - start_time\nprint(f"Profiled code took {duration:.2f} seconds")

@@ -1,0 +1,1 @@
+// In FormsController\nfunction homepage() {\n    $userId = $this->Session->read('User.UserId');\n    // ...\n}

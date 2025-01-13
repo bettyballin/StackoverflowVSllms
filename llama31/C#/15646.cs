@@ -1,0 +1,1 @@
+text = Regex.Replace(text, @"\d{1,3}(?=(\d{3})+\b)", "$&,");

@@ -1,1 +1,0 @@
-// Example of simple logging\n    $logfile = 'app.log';\n    file_put_contents($logfile, "Script started\n", FILE_APPEND);\n\n    for ($i = 0; $i < 10; $i++) {\n        file_put_contents($logfile, "Counter: $i\n", FILE_APPEND);\n    }\n\n    file_put_contents($logfile, "Script ended\n", FILE_APPEND);

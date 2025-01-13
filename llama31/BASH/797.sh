@@ -1,0 +1,1 @@
+openssl req -x509 -newkey rsa:2048 -nodes -out server.crt -keyout server.key -days 365

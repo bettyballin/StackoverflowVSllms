@@ -1,1 +1,0 @@
-' Using IIf (both expressions are evaluated)\nDim result = IIf(x > 0, "Positive", "Non-positive")\n\n' Using If function (short-circuits)\nDim result = If(x > 0, "Positive", "Non-positive")\n\n' Using If statement\nDim result As String\nIf x > 0 Then\n    result = "Positive"\nElse\n    result = "Non-positive"\nEnd If

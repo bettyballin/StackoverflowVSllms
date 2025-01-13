@@ -1,1 +1,0 @@
-ano ~/.bash_profile

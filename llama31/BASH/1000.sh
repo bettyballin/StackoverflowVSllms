@@ -1,0 +1,1 @@
+pecl install pecl_http

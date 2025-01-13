@@ -1,0 +1,1 @@
+if (!isset($this->variables[$key])) {\n    $this->variables[$key] = $value;\n}

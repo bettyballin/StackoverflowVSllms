@@ -1,1 +1,0 @@
-from vptree import VPTree\n\n     # Example with VP-Trees\n     def distance_fn(a, b):\n         # Define your custom distance function\n         return sum((ai - bi) ** 2 for ai, bi in zip(a, b)) ** 0.5\n\n     data = [(0, 0), (1, 1), (2, 2), (3, 3)]\n     tree = VPTree(data, distance_fn)\n     nearest = tree.get_nearest((1.5, 1.5), k=1)\n     print(nearest)

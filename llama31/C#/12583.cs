@@ -1,0 +1,1 @@
+using System.IO;\n\nusing (StreamWriter writer = new StreamWriter("example.txt"))\n{\n    writer.WriteLine("Hello, World!");\n}

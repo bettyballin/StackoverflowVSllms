@@ -1,1 +1,0 @@
-SELECT \n    CASE \n        WHEN ISNUMERIC(T.Value) = 1 \n             AND CHARINDEX('.', T.Value) = 0 \n             AND T.Value NOT LIKE '%[^0-9]%'\n        THEN SomeConversionFunction(T.Value)\n        ELSE T.Value\n    END AS SomeAlias\nFROM \n    SomeTable T

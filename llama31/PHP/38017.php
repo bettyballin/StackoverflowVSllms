@@ -1,0 +1,1 @@
+$matches = preg_split("/(?:<|&lt;)%[\s]*(.*?)[\s]*(?:%|&gt;)>/i",$markup,-1,(PREG_SPLIT_NO_EMPTY  |  PREG_SPLIT_DELIM_CAPTURE));

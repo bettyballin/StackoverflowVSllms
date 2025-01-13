@@ -1,1 +1,0 @@
-SELECT \n    COUNT(Z.IDX) AS Count, \n    X.ID AS IDX, \n    Y.ID AS IDY\nFROM \n    X\nCROSS JOIN \n    Y\nLEFT JOIN \n    Z ON X.ID = Z.IDX AND Y.ID = Z.IDY\nGROUP BY \n    X.ID, Y.ID\nORDER BY \n    X.ID, Y.ID;

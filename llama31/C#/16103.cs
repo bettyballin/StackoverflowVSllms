@@ -1,0 +1,1 @@
+protected override void OnInit(EventArgs e)\n{\n    base.OnInit(e);\n\n    foreach (Control ctrl in this.Controls)\n    {\n        if (ctrl is BaseValidator)\n        {\n            (ctrl as BaseValidator).ValidationGroup = this.ClientID;\n        }\n    }\n    ValidationSummary1.ValidationGroup = this.ClientID;\n}

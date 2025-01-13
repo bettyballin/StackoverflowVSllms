@@ -1,0 +1,1 @@
+string logFilePath = Server.MapPath("~/App_Data/Logs/your_log_file.log");

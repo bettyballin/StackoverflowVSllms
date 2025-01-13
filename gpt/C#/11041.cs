@@ -1,1 +1,0 @@
-public string ProcessPayment(string paymentDetails)\n    {\n        try\n        {\n            // Payment processing logic\n        }\n        catch (Exception ex)\n        {\n            // Log the error and return a meaningful message\n            return $"Error: {ex.Message}";\n        }\n    }

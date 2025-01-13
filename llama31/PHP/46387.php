@@ -1,0 +1,1 @@
+$image = new Imagick();\n$image->readImage('input.cdr');\n$image->setImageFormat('jpg');\n$image->writeImage('output.jpg');

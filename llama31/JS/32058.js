@@ -1,0 +1,1 @@
+// assume your links have a class of "load-content"\n$('.load-content').on('click', function(e) {\n  e.preventDefault();\n  var link = $(this);\n  var divId = link.attr('href'); // assume href is set to the ID of the div to load\n  $(divId).load('path/to/content/' + divId + '.html'); // load the content\n});

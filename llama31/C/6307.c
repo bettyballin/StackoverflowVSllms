@@ -1,0 +1,1 @@
+int ret = snprintf(tmpret, 128, "%ld", sz);\nif (ret >= 128) {\n    // output was truncated\n}

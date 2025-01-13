@@ -1,1 +1,0 @@
-#footer {\n    text-align: center;\n    width: 100%;\n}\n\n#footer ul {\n    display: inline-block;\n    list-style-type: none;\n    padding: 0;\n    margin: 0;\n}\n\n#footer li {\n    display: inline;\n    margin: 0 5px; /* Adjust spacing between list items as needed */\n}

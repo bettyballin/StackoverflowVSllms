@@ -1,1 +1,0 @@
-eicar_test_string = "X5O!P%@AP[4\\PZX54(P^)7CC)7}$EICAR-STANDARD-ANTIVIRUS-TEST-FILE!$H+H*"\n\nwith open("eicar.com", "w") as test_file:\n    test_file.write(eicar_test_string)

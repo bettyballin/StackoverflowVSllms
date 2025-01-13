@@ -1,1 +1,0 @@
-$p = new PDFlib();\n   $p->begin_document("large_output.pdf", "optimize=true");

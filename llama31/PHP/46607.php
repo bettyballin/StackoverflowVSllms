@@ -1,0 +1,1 @@
+$stmt = $mysqli->prepare("SELECT id FROM plants WHERE Flower REGEXP CONCAT('[[:<:]]', ?, '[[:>:]]')");\n$stmt->bind_param("s", $sanitizedUserInput);\n$stmt->execute();\n$stmt->bind_result($id);\nwhile ($stmt->fetch()) {\n    // do something with $id\n}

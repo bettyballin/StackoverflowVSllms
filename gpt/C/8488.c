@@ -1,1 +1,0 @@
-if (critical_condition_not_met()) {\n        emergency_shutdown();\n    }

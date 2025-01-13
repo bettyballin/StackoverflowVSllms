@@ -1,0 +1,1 @@
+-- Create a composite index on columns used in WHERE and JOIN clauses\nCREATE INDEX idx_name_email ON users (name, email);\n\n-- Create a covering index for a specific query\nCREATE INDEX idx_order_by ON orders (customer_id, order_date, total);

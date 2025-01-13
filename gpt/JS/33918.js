@@ -1,1 +1,0 @@
-{# templates/dynamic.js.twig #}\nconsole.log("Hello from Symfony!");\nvar dynamicValue = "{{ dynamicValue }}";\nconsole.log(dynamicValue);

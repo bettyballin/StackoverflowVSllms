@@ -1,0 +1,1 @@
+div ul li {\n  width: 30px;\n  height: 20px;\n  margin: 0 0 4px;\n  padding: 0;\n  background-color: #c00;\n  display: inline-block; /* Add this line */\n}

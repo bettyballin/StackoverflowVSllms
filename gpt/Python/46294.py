@@ -1,1 +1,0 @@
-def getRows(m, row_indices):\n    return [m[i] for i in row_indices]

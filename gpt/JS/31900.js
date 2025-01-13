@@ -1,1 +1,0 @@
-$.ajax({\n       url: 'your-script.php',\n       type: 'GET',\n       dataType: 'text',\n       success: function(data) {\n           // Assuming `data` contains your XML response\n           $('#your-textarea').val(data);\n       },\n       error: function(jqXHR, textStatus, errorThrown) {\n           console.error('Error: ' + textStatus, errorThrown);\n       }\n   });

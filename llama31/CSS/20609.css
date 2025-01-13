@@ -1,0 +1,1 @@
+td:not(:nth-child(2)) {\n  white-space: nowrap;\n}

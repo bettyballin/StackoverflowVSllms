@@ -1,0 +1,1 @@
+ewWindow.document.documentElement.requestFullscreen();

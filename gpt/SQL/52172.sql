@@ -1,1 +1,0 @@
-ISNULL(EndingQuantity / NULLIF(BeginningQuantity + BAdjustedQuantity, 0), 0)

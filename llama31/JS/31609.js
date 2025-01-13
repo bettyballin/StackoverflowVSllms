@@ -1,0 +1,1 @@
+var data = $('#create_listing_1').serializeArray();\nvar features = [];\n$.each(data, function(i, field) {\n  if (field.name === 'features[]') {\n    features.push(field.value);\n  }\n});\ndata.push({ name: 'features', value: features.join(',') });

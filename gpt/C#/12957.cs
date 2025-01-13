@@ -1,1 +1,0 @@
-using System;\nusing System.Windows.Forms;\n\npublic class HelloWorld : Form\n{\n    public HelloWorld()\n    {\n        Text = "Hello, World!";\n    }\n\n    [STAThread]\n    public static void Main()\n    {\n        Application.EnableVisualStyles();\n        Application.Run(new HelloWorld());\n    }\n}

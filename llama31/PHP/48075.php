@@ -1,0 +1,1 @@
+// controller\n$this->load->model('data_model');\n$formatted_string = $this->data_model->format_string($output);\n\n// view\necho $formatted_string;

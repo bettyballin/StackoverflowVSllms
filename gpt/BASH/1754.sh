@@ -1,1 +1,0 @@
-gcc -o get_filename get_filename.c\n./get_filename 3

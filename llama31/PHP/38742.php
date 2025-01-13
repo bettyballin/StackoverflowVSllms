@@ -1,0 +1,1 @@
+$bar = new Bar();\n$bar->somethingelse->test(); // Should work as expected

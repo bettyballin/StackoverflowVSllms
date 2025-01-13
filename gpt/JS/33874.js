@@ -1,1 +1,0 @@
-<script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>\n     <script>\n       axios.get('/api/endpoint')\n         .then(response => console.log(response))\n         .catch(error => console.error(error));\n     </script>

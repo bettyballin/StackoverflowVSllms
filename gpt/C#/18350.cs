@@ -1,1 +1,0 @@
-[Test, Category("Unit")]\n    public void UnitTestExample() \n    {\n        // Your unit test code\n    }\n\n    [Test, Category("Integration")]\n    public void IntegrationTestExample() \n    {\n        // Your integration test code\n    }

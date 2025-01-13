@@ -1,1 +1,0 @@
--- Display the estimated execution plan\n    SET SHOWPLAN_XML ON;\n    GO\n    SELECT COUNT(*) FROM Department;\n    GO\n    SET SHOWPLAN_XML OFF;

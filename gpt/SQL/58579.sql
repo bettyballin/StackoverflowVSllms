@@ -1,1 +1,0 @@
-SELECT\n    *,\n    (LENGTH(Ingredients) - LENGTH(REPLACE(Ingredients, '\n', ''))) AS line_break_count\nFROM\n    recipes\nORDER BY\n    line_break_count DESC;

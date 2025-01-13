@@ -1,0 +1,1 @@
+$obj = new stdClass();\n$obj->{"foo"} = "bar";\n$obj->{"0"} = "zero";\n$arr = get_object_vars($obj);\n\nforeach ($arr as $key=>$value){\n    echo "$key -- $value\n";\n}

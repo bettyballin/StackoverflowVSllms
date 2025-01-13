@@ -1,0 +1,1 @@
+$mysqli = new mysqli('localhost', 'username', 'password', 'database');\n\nif ($mysqli->connect_error) {\n    die('Connect Error (' . $mysqli->connect_errno . ') '\n        . $mysqli->connect_error);\n}\n\n// Your queries here\n\n$mysqli->close();

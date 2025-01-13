@@ -1,1 +1,0 @@
-<?php\n$allowedChars = "0123456789";\n$inputString = "12345abc678";\n\n$length = strspn($inputString, $allowedChars);\n\necho "Length of the initial segment of '$inputString' containing only characters from '$allowedChars' is $length.\n";\n// Output: Length of the initial segment of '12345abc678' containing only characters from '0123456789' is 5.\n?>

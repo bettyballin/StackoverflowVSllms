@@ -1,0 +1,1 @@
+sudo update-java-alternatives -s java-1.4.2-su

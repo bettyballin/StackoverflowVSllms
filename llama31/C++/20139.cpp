@@ -1,0 +1,1 @@
+int main() {\n    // Forward declaration\n    string SomeFun();\n\n    SomeFun();\n    return 0;\n}\n\n// Definition\nstring SomeFun() {\n    std::cout << "WOW this is unexpected" << std::endl;\n}

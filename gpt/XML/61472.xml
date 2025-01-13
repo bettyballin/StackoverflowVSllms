@@ -1,1 +1,0 @@
-<system.web>\n        <customErrors mode="RemoteOnly" defaultRedirect="ErrorPage.htm">\n            <error statusCode="404" redirect="NotFound.htm"/>\n        </customErrors>\n    </system.web>

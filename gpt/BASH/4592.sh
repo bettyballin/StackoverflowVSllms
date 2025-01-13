@@ -1,1 +1,0 @@
-gcc-4.3.2 -o my_program my_program.c

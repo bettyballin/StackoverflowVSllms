@@ -1,0 +1,1 @@
+text = "C__O__?__P__L__E__T__E"\ntext = text.encode("UTF-8", :invalid => :replace, :undef => :replace)\nYourModel.create(:text => text)

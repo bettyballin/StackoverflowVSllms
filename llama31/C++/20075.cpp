@@ -1,0 +1,1 @@
+unsigned fibonacci(unsigned index) {\n    if (index >= 40) {\n        return fibonacci(index-1) + fibonacci(index-2);\n    } else {\n        return FibonacciTable<40>::values[index];\n    }\n}

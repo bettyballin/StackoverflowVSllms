@@ -1,0 +1,1 @@
+$names = $row['receiver_name'];\n$namesArray = explode(', ', $names);\nif (count($namesArray) > 1) {\n    $lastItem = array_pop($namesArray);\n    $names = implode(', ', $namesArray) . ' and ' . $lastItem;\n}\necho $names;

@@ -1,0 +1,1 @@
+[\n    uuid( YourInterfaceUUID ),\n    version(1.0)\n]\ninterface IYourInterface : IUnknown\n{\n    HRESULT GetImage([out] SAFEARRAY(BYTE)* image);\n}

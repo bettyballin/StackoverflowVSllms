@@ -1,0 +1,1 @@
+tail -f access.log | xargs -n 1 dig +short -x

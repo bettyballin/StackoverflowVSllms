@@ -1,0 +1,1 @@
+$url = 'http://example.com/your-xml-file.xml'; // replace with your XML URL\n\n$ch = curl_init($url);\ncurl_setopt($ch, CURLOPT_RETURNTRANSFER, true);\n$xmlContent = curl_exec($ch);\ncurl_close($ch);\n\n$xml = simplexml_load_string($xmlContent);\n$json = json_encode($xml);\necho $json;

@@ -1,0 +1,1 @@
+import csv\nimport codecs\nfrom xlrd import *\n\nb = open_workbook('file.xls')\ns = b.sheet_by_name('Export')\n\nwith codecs.open('file.csv', 'w', encoding='utf-8') as bc:\n    bcw = csv.writer(bc)\n    for row in range(s.nrows):\n        this_row = []\n        for col in range(s.ncols):\n            this_row.append(s.cell_value(row, col))\n        bcw.writerow(this_row)

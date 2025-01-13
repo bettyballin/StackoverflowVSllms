@@ -1,1 +1,0 @@
-pear install Math_Matrix\npear install Math_Vector

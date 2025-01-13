@@ -1,0 +1,1 @@
+UPDATE a\nSET a.RSSI = b.avg_RSSI\nFROM analyzedCopy2 a\nJOIN (\n  SELECT readings_miu_id, AVG(RSSI) as avg_RSSI\n  FROM analyzedCopy2\n  GROUP BY readings_miu_id\n) b\nON a.readings_miu_id = b.readings_miu_id

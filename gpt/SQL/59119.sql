@@ -1,1 +1,0 @@
-SELECT DISTINCT T.Row, T.Col, T.Value, directions\n    FROM CTE T\n    JOIN CTE T1 ON T.Value = T1.Value\n    JOIN CTE T2 ON T.Value = T2.Value\n    JOIN matches ON (T1.Row - T.Row) = offsetRow1\n                AND (T1.Col - T.Col) = offsetCol1\n                AND (T2.Row - T.Row) = offsetRow2\n                AND (T2.Col - T.Col) = ofsetCol2\n    ORDER BY T.Row, T.Col;

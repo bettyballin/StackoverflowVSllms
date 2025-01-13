@@ -1,1 +1,0 @@
-public class YourDllClass\n{\n    public YourDllClass()\n    {\n        if (!LicenseManager.VerifyLicense("path/to/license/file.lic"))\n        {\n            throw new UnauthorizedAccessException("Invalid or expired license.");\n        }\n\n        // Initialization code here\n    }\n\n    // Other methods and functionalities\n}

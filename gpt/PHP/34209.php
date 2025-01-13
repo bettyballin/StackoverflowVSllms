@@ -1,1 +1,0 @@
-putenv('PATH=C:\\Program Files\\Subversion\\bin;' . getenv('PATH'));\n   $output = shell_exec('svn --version 2>&1');\n   echo "<pre>$output</pre>";

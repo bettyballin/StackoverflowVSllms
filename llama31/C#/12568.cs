@@ -1,0 +1,1 @@
+[ServiceContract]\npublic interface MyServiceContract\n{\n    [OperationContract]\n    [WebInvoke(Method = "GET", UriTemplate = "/users/{id}")]\n    User GetUser(string id);\n}

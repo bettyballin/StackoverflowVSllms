@@ -1,1 +1,0 @@
-INSERT INTO tblthumbnails (PictureID, ThumbnailURL)\nVALUES (<PictureID>, '/uploads/users/1/thumbnail1.jpg');

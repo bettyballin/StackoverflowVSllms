@@ -1,1 +1,0 @@
-arg1='[5111.3$]="5"'\n\n# Using eval to ensure the special characters are interpreted correctly\neval runjob specfile.spx "'$arg1'"

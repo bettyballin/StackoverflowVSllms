@@ -1,0 +1,1 @@
+using (var handler = new HttpClientHandler())\n{\n    handler.ServerCertificateCustomValidationCallback = (sender, cert, chain, sslPolicyErrors) => { return true; };\n    using (var client = new HttpClient(handler))\n    {\n        //...\n    }\n}

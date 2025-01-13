@@ -1,0 +1,1 @@
+sudo getent passwd\nsudo userdel -r <unnecessary_username>

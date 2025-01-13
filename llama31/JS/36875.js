@@ -1,0 +1,1 @@
+$.ajax({\n    type: 'GET', // or 'POST', 'PUT', 'DELETE'\n    url: '/api/users',\n    data: { /* parameters */ },\n    success: function(response) {\n        console.log(response);\n    }\n});

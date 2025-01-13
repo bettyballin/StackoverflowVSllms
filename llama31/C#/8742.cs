@@ -1,0 +1,1 @@
+// Non-generic version\nUpdateModel(model);\n\n// Generic version\nUpdateModel<ContestModel>(model);

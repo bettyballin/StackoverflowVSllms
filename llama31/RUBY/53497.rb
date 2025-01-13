@@ -1,0 +1,1 @@
+autoload :MyModule, 'my_module'

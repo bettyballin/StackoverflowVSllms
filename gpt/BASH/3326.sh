@@ -1,1 +1,0 @@
-pg_restore -h localhost -U your_username -d your_database_name -v /path/to/backup/your_database_name.backup

@@ -1,0 +1,1 @@
+$fileTransfer = new Zend_File_Transfer_Adapter_Http();\n$fileTransfer->setDestination('/path/to/upload/directory');\n\n$files = $fileTransfer->getFileInfo();\n\nforeach ($files as $file => $info) {\n    // $info contains information about the uploaded file\n    // such as name, size, mimetype, etc.\n}

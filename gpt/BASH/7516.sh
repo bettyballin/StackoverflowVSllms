@@ -1,1 +1,0 @@
-sudo perf record -e 'probe_lib:glib*:function' -a

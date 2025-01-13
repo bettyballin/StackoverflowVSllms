@@ -1,0 +1,1 @@
+WebBrowserBrush htmlBrush = new WebBrowserBrush();\nhtmlBrush.Html = "<html><body>Hello, World!</body></html>";\nhtmlRectangle.Fill = htmlBrush;

@@ -1,0 +1,1 @@
+DECLARE @time datetime = '00:08:00'\n\nSELECT CONVERT(CHAR(8), DATEADD(mi, -DATEPART(mi, @time) % 15, \n                                DATEADD(mi, CASE WHEN DATEPART(mi, @time) % 15 > 7 THEN 15 ELSE 0 END, @time)), 108)

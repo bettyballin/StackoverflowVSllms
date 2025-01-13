@@ -1,0 +1,1 @@
+authorsList.RemoveAll(x => string.Equals(x.firstname, "Bob", StringComparison.OrdinalIgnoreCase));

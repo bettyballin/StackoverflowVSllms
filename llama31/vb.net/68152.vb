@@ -1,0 +1,1 @@
+Dim test As New TestDll.Test\nMsgBox test.HelloWorld

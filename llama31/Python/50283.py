@@ -1,0 +1,1 @@
+import re\n\n# Assuming result.content is the HTML string\nlines = re.split(r'<.*?>', result.content)\n\n# Remove any empty strings from the list\nlines = [line.strip() for line in lines if line.strip()]\n\n# Now lines should contain the plain text data\nfor line in lines:\n    print(line)

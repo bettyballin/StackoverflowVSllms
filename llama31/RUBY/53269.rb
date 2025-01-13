@@ -1,0 +1,1 @@
+# views/shared/_form.html.erb\n<%= simple_form_for(record) do |f| %>\n  <% fields.each do |field| %>\n    <%= f.input field.name %>\n  <% end %>\n  <%= f.button :submit %>\n<% end %>

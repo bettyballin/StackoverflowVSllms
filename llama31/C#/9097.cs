@@ -1,0 +1,1 @@
+var existingReview = db.Reviews.Where(r => r.UniqueID == newReview.UniqueID).FirstOrDefault();\nif (existingReview == null)\n{\n    db.Reviews.InsertOnSubmit(newReview);\n    db.SubmitChanges();\n}

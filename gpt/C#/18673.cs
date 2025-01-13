@@ -1,1 +1,0 @@
-public class Program\n    {\n        public static void Main()\n        {\n            ManagedWrapper wrapper = new ManagedWrapper();\n            wrapper.CallUnmanagedFunction();\n        }\n    }

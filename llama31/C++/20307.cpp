@@ -1,0 +1,1 @@
+template <typename T>\nvoid foo() {\n    void bar(T); // local function declaration\n    bar(T()); // creates SFINAE condition\n}\n\ntemplate <typename T>\nvoid bar(T) {\n    // definition\n}

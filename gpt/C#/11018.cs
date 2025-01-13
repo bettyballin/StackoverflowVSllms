@@ -1,1 +1,0 @@
-[WebMethod]\npublic static bool DeleteItem(int itemId)\n{\n    try\n    {\n        // Your logic to delete the item\n        // Example: ItemRepository.Delete(itemId);\n        return true;\n    }\n    catch (Exception)\n    {\n        return false;\n    }\n}

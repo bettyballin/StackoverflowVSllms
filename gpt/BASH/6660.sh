@@ -1,1 +1,0 @@
-gcc -m32 -o program program.asm

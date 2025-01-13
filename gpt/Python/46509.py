@@ -1,1 +1,0 @@
-# mod_call.py\ndef __call__():\n    return 42

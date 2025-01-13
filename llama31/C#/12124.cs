@@ -1,0 +1,1 @@
+String emailContent = "Your email content here.\r\n";\n// ...\nemailContent = emailContent.replace("\n", "\r\n"); // Ensure CRLF line endings\n// Send the email using your preferred method

@@ -1,1 +1,0 @@
-var cont;\n\n$.get('https://example.com/external-page', function(data) {\n    cont = data;\n    $('.class').bt(cont, {\n        fill: '#2a4d6b',\n        cssStyles: { color: 'orange', fontWeight: 'bold', width: 'auto' }\n    });\n});

@@ -1,0 +1,1 @@
+CREATE OR REPLACE TYPE t_rec AS TABLE OF VARCHAR2(100);\n\nCREATE OR REPLACE PROCEDURE my_procedure(p_rec t_rec) IS\nBEGIN\n  -- Process the collection\n  FOR i IN 1..p_rec.COUNT LOOP\n    DBMS_OUTPUT.PUT_LINE(p_rec(i));\n  END LOOP;\nEND my_procedure;

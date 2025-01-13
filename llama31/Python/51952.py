@@ -1,0 +1,1 @@
+import tarfile\nimport io\n\n# Create an in-memory bytes buffer\nbuf = io.BytesIO()\n\n# Open the tarfile using the in-memory buffer\nwith tarfile.open(fileobj=buf, mode='w') as tar:\n    # Add files to the tarfile\n    tar.add('file1.txt')\n    tar.add('file2.txt')\n    \n    # Get the size of the tarfile\n    size = buf.tell()\n    print(size)

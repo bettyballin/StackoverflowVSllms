@@ -1,0 +1,1 @@
+LinqDataSourceSettings settings = new LinqDataSourceSettings();\nsettings.ContextTypeName = myLinqDS.ContextTypeName;\nsettings.TableName = myLinqDS.TableName;\nsettings.OrderBy = myLinqDS.OrderBy;\nsettings.Where = myLinqDS.Where;\nsettings.WhereParameters = myLinqDS.WhereParameters;\n\nSession[guid.ToString()] = settings;

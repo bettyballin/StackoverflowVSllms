@@ -1,0 +1,1 @@
+xterm -T foo &\nxwait foo\nxmovewindow foo 10 20

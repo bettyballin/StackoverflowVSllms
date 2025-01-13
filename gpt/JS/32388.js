@@ -1,1 +1,0 @@
-// Example script to enhance styling or add functionality\n    document.addEventListener('DOMContentLoaded', function() {\n        var select = document.getElementById('dropdown');\n        select.addEventListener('change', function() {\n            console.log('Selected value:', select.value);\n        });\n    });

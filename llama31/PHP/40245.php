@@ -1,0 +1,1 @@
+$customFields = $tx->custom_fields[0] ?? null;\nif ($customFields && isset($customFields->custom_field)) {\n    foreach ($customFields->custom_field as $field) {\n        $affiliateID = $field->custom_field_value[0]->tagData;\n    }\n}

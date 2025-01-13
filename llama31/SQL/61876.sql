@@ -1,0 +1,1 @@
+SELECT p.*, c.*\nFROM posts p\nJOIN comments c ON p.id = c.post_id\nWHERE c.id = (\n  SELECT MAX(id)\n  FROM comments\n  WHERE post_id = p.id\n)

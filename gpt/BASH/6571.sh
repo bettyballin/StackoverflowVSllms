@@ -1,1 +1,0 @@
-sudo /Applications/XAMPP/xamppfiles/bin/mysqladmin -u root -p shutdow

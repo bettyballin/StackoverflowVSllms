@@ -1,0 +1,1 @@
+SELECT *\nFROM books\nORDER BY IF(year = 1990, 0, 1), title ASC;

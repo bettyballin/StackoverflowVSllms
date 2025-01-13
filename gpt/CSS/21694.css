@@ -1,1 +1,0 @@
-#topnav {\n    zoom: 1; /* IE6/7 hack to trigger hasLayout */\n}\n\n#topnav:after {\n    content: "";\n    display: table;\n    clear: both;\n}

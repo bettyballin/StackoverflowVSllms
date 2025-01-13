@@ -1,1 +1,0 @@
-<?php\nob_start();\ninclude("index.php");\nob_end_flush();\n?>

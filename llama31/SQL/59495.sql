@@ -1,0 +1,1 @@
+SELECT id + 1\nFROM table1\nWHERE id + 1 NOT IN (SELECT id FROM table1)\nAND id < (SELECT MAX(id) FROM table1)\nORDER BY id\nLIMIT 1;

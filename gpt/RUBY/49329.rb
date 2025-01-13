@@ -1,1 +1,0 @@
-gem 'activerecord'\n    gem 'pg'\n    gem 'activerecord-import' # Optional: For bulk insert operations

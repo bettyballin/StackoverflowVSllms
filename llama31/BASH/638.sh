@@ -1,0 +1,1 @@
+# Create a new VM with 8 virtual CPUs\nvirt-install --name=myvm --ram=16384 --vcpus=8 --cpu=host --disk=path=/dev/sda1,size=100 --cdrom=/path/to/install.iso

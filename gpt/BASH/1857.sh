@@ -1,1 +1,0 @@
-# Setting up swap space on an SSD\n    sudo mkswap /dev/sdX\n    sudo swapon /dev/sdX

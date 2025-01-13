@@ -1,0 +1,1 @@
+vmkfstools -c | gzip -c > vm_image.tgz

@@ -1,1 +1,0 @@
-string connectionString = "Server=PrimarySQLServer;Failover Partner=SecondarySQLServer;Database=YourDatabase;User Id=YourUsername;Password=YourPassword;";

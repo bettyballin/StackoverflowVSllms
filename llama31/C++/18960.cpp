@@ -1,0 +1,1 @@
+#include <string>\n\nstd::string padLeft(const std::string& str, size_t width, char padChar = ' ') {\n    if (str.length() >= width) {\n        return str;\n    }\n    return std::string(width - str.length(), padChar) + str;\n}\n\nint main() {\n    std::string input = "123";\n    std::string padded = padLeft(input, 10);\n    // padded is now "       123"\n    return 0;\n}

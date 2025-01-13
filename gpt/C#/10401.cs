@@ -1,1 +1,0 @@
-// ASP.NET Core API Controller\n[ApiController]\n[Route("[controller]")]\npublic class DataController : ControllerBase\n{\n    [HttpGet]\n    public IEnumerable<string> Get()\n    {\n        return new string[] { "value1", "value2" };\n    }\n}

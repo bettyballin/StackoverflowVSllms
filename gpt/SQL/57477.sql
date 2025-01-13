@@ -1,1 +1,0 @@
--- Assuming you have a list of RecordIDs in a variable\nDECLARE @RecordIDList TABLE (RecordID INT);\nINSERT INTO @RecordIDList VALUES (1), (2), (3), (4);\n\nSELECT * \nFROM Table \nWHERE RecordID IN (SELECT RecordID FROM @RecordIDList);

@@ -1,1 +1,0 @@
-Dim someDictionary As New Dictionary(Of MyKey, SomeValueType)\n' Add items to the dictionary\nDim key As New MyKey With {.First = True, .Second = False, .Third = True, .Fourth = False}\nsomeDictionary.Add(key, someValue)\n\n' Check if the key exists in the dictionary\nIf someDictionary.ContainsKey(someDictionary.Keys.First()) Then\n    ' Do something if the key exists\nEnd If

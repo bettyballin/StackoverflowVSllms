@@ -1,1 +1,0 @@
-public class YourEntityMap : ClassMap<YourEntity>\n   {\n       public YourEntityMap()\n       {\n           Table("YourTable");\n           Id(x => x.Id).Column("ID").GeneratedBy.Identity();\n           Map(x => x.PropertyName).Column("COLUMN_NAME");\n           // Other mappings\n       }\n   }

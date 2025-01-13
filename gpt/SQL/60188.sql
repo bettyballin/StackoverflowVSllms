@@ -1,1 +1,0 @@
--- "Up" method to drop a table\n   DROP TABLE users;\n\n   -- "Down" method to recreate the table\n   CREATE TABLE users (\n       id INT PRIMARY KEY,\n       username VARCHAR(255),\n       email VARCHAR(255)\n   );

@@ -1,0 +1,1 @@
+$password = escapeshellarg('password');\n$filename = escapeshellarg('backup 2009-04-15 09-57-13.sql');\n$command = "mysqldump --opt -h localhost -u username --password=$password dbname > $filename";

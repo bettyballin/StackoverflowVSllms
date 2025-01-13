@@ -1,1 +1,0 @@
-mkdir -p cache\nchmod 777 cache

@@ -1,1 +1,0 @@
-$ gprof test gmon.out

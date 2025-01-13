@@ -1,0 +1,1 @@
+#right {\n  display: inline-block;\n  background: green;\n  width: 80%;\n  height: 100%;\n  vertical-align: top; /* Add this */\n}

@@ -1,1 +1,0 @@
-MEDIA_ROOT = '/home/www/media'\n    MEDIA_URL = '/media/'

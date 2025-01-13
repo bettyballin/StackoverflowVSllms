@@ -1,0 +1,1 @@
+IF NOT EXISTS (\n    SELECT 1 \n    FROM sys.foreign_keys \n    WHERE parent_object_id = OBJECT_ID('YourTableName') \n    AND name = 'YourForeignKeyName'\n)\nBEGIN\n    ALTER TABLE YourTableName \n    ADD CONSTRAINT YourForeignKeyName FOREIGN KEY (YourColumnName) REFERENCES YourReferenceTableName(YourReferenceColumnName);\nEND;

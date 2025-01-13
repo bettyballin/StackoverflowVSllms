@@ -1,1 +1,0 @@
-chmod +x /path/to/mod_helper.py

@@ -1,0 +1,1 @@
+<FileZillaServer>\n  <Settings>\n    <FTPS>\n      <SSL>\n        <Certificate file="path/to/certificate.crt" />\n        <Key file="path/to/private/key.key" />\n      </SSL>\n    </FTPS>\n  </Settings>\n</FileZillaServer>

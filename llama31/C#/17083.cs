@@ -1,0 +1,1 @@
+using System.Xml;\nusing System.Xml.XPath;\n\npublic XmlNodeList GetElementsByClassName(XmlDocument doc, string className)\n{\n    string xpath = $"//*[contains(@class, '{className}')]";\n    return doc.SelectNodes(xpath);\n}

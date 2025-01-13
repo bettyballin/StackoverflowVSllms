@@ -1,1 +1,0 @@
-// Example of showing a modal dialog\nprivate void ShowClientForm()\n{\n    using (Form clientForm = new Form())\n    {\n        clientForm.Text = "Client Information";\n        // Add controls and logic as necessary\n        clientForm.ShowDialog();\n    }\n}

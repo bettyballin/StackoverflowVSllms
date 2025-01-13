@@ -1,0 +1,1 @@
+string schoolName = Request.Params["SchoolDetails_SchoolName"];

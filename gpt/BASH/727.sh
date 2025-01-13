@@ -1,1 +1,0 @@
-ls -l@ /path/to/your/directory\nls -le /path/to/your/directory

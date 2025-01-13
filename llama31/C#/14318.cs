@@ -1,0 +1,1 @@
+try\n{\n    // Excel automation code here\n}\ncatch (COMException ex)\n{\n    // Handle the exception here\n    MessageBox.Show("Excel is not installed or not configured properly.");\n}

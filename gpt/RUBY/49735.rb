@@ -1,1 +1,0 @@
-# app/controllers/sets_controller.rb\nclass SetsController < ApplicationController\n  def index\n    @sets = MyApp::Set.all\n  end\n\n  def show\n    @set = MyApp::Set.find(params[:id])\n  end\n\n  # Other controller actions\nend

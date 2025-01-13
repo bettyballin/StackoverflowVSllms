@@ -1,1 +1,0 @@
-INSERT INTO MyPartitionedTable (UserID, Key1, Key2, Key3, Key4)\n    SELECT UserID, Key1, Key2, Key3, Key4\n    FROM MyOriginalTable;

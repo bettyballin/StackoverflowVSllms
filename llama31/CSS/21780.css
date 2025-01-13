@@ -1,0 +1,1 @@
+th, td {\n  width: calc(20% - 150px); /* calculate the width as 20% minus 150px */\n  min-width: 150px;\n}

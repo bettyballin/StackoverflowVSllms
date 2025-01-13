@@ -1,1 +1,0 @@
-etsh advfirewall firewall delete rule name="BlockTCPConnection"

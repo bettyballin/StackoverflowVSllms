@@ -1,1 +1,0 @@
-SELECT\n   XMLELEMENT("primaryName", A.NAME) AS primaryName,\n   XMLELEMENT("synonyms",\n       (SELECT XMLAGG(XMLELEMENT("name", B.NAME))\n        FROM B\n        WHERE B.ID = A.ID)\n   ) AS synonyms\nFROM\n   A;

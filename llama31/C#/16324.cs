@@ -1,0 +1,1 @@
+using System.Collections.Concurrent;\n\nvar queue = new ConcurrentQueue<int>();\nqueue.Enqueue(1);\nqueue.Enqueue(2);

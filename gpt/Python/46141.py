@@ -1,1 +1,0 @@
-#!/usr/bin/env python\n\n   from flup.server.cgi import WSGIServer\n   from myapp import app  # Assuming your WSGI app is called `app` in myapp.py\n\n   if __name__ == '__main__':\n       WSGIServer(app).run()

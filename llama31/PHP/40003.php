@@ -1,0 +1,1 @@
+$var = NULL;\n\nvar_dump(array_key_exists('var', $GLOBALS)); // bool(true)\nvar_dump(array_key_exists('unset_var', $GLOBALS)); // bool(false)

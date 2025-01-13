@@ -1,0 +1,1 @@
+try {\n    $slashdotRss = Zend_Feed::import('http://rss.slashdot.org/Slashdot/slashdot');\n} catch (Zend_Exception $e) {\n    // feed import failed\n    echo "Exception caught importing feed: {$e->getMessage()}\n";\n    exit;\n}

@@ -1,0 +1,1 @@
+class Program\n{\n    static void Main(string[] args)\n    {\n        RunHook runHook = new RunHook();\n        while (true)\n        {\n            // Do nothing, just loop forever\n        }\n    }\n}

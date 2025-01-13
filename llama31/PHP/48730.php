@@ -1,0 +1,1 @@
+$qu = $_GET["qu"];\n$url = "http://www.google.com/complete/search?hl=en&js=true&qu=" . urlencode($qu);\n\n$ch = curl_init($url);\ncurl_setopt($ch, CURLOPT_RETURNTRANSFER, true);\ncurl_setopt($ch, CURLOPT_TIMEOUT, 10); // set a timeout of 10 seconds\n$response = curl_exec($ch);\ncurl_close($ch);\n\necho $response;

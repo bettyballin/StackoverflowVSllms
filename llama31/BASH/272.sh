@@ -1,0 +1,1 @@
+$ time (pmap -d $$; ./myprogram)

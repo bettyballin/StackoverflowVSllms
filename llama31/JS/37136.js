@@ -1,0 +1,1 @@
+const childWidth = $('#parent')[0].scrollWidth;\nconsole.log(childWidth);

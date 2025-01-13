@@ -1,0 +1,1 @@
+CREATE TABLE categories (\n  cat_id INT PRIMARY KEY,\n  cat_name VARCHAR(255) NOT NULL\n);

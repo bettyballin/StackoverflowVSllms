@@ -1,0 +1,1 @@
+Dim timediff As Integer = Math.Floor(TimeSpan.FromTicks(diff).TotalSeconds)

@@ -1,0 +1,1 @@
+// Set all links with rel="external" to open in a new window\ndocument.addEventListener("DOMContentLoaded", function() {\n  var externalLinks = document.querySelectorAll('a[rel="external"]');\n  externalLinks.forEach(function(link) {\n    link.target = "_blank";\n  });\n});

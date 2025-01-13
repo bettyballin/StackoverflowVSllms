@@ -1,1 +1,0 @@
-g++ -fprofile-arcs -ftest-coverage -o my_program my_program.cpp

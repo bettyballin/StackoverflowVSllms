@@ -1,0 +1,1 @@
+int number = 4;\nint length = 4;\n\ntry\n{\n    string paddedNumber = number.ToString("D" + length);\n    Console.WriteLine(paddedNumber);  // Outputs: "0004"\n}\ncatch (FormatException ex)\n{\n    Console.WriteLine("Invalid format specifier: " + ex.Message);\n}

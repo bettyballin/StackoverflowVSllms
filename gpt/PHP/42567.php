@@ -1,1 +1,0 @@
-<?php\nfunction sanitizePhoneNumber($phoneNumber) {\n    // Use a regular expression to keep only digits\n    return preg_replace('/\D/', '', $phoneNumber);\n}\n\n$input = "0333 452-123-4";\n$sanitizedPhoneNumber = sanitizePhoneNumber($input);\n\necho $sanitizedPhoneNumber; // Outputs: 03334521234\n?>

@@ -1,1 +1,0 @@
-[AcceptVerbs(HttpVerbs.Post)]\npublic JsonResult getRowNames(string currRow, int offset)\n{\n    // Assuming _rowRepository.getRowNamesByOffset(currRow, offset) returns an array of strings\n    string[] rowNames = _rowRepository.getRowNamesByOffset(currRow, offset);\n    return Json(rowNames);\n}

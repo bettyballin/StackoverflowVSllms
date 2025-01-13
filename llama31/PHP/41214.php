@@ -1,0 +1,1 @@
+$url = 'http://example.com/other-page.php';\n$opts = array(\n    'http' => array(\n        'method' => 'GET',\n        'timeout' => 1 // timeout in seconds\n    )\n);\n$context = stream_context_create($opts);\nfile_get_contents($url, false, $context);

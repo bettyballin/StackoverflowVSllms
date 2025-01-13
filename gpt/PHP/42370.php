@@ -1,1 +1,0 @@
-$user_id = filter_input(INPUT_COOKIE, 'user_id', FILTER_SANITIZE_NUMBER_INT);\n    $password_part = filter_input(INPUT_COOKIE, 'password_part', FILTER_SANITIZE_STRING);

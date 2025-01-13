@@ -1,1 +1,0 @@
-#!/usr/bin/python\n\nimport time\nimport sys\n\nsys.stdout.write("HTTP/1.1 200 OK\r\n")\nsys.stdout.write("Content-Type: text/plain\r\n\r\n")\nsys.stdout.flush()\n\nfor i in range(1, 10):\n    sys.stdout.write(f"{i}\n")\n    sys.stdout.flush()\n    time.sleep(1)\n\nsys.stdout.write("Done.\n")\nsys.stdout.flush()

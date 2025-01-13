@@ -1,0 +1,1 @@
+chown youruser:www-data /home/webtest/help/ask_us.php

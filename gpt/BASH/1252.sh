@@ -1,1 +1,0 @@
-// Example of enabling Memcache module\n   drush en memcache -y

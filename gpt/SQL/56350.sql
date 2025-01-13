@@ -1,1 +1,0 @@
-SELECT *\nFROM vehicles\nWHERE reg_num >= 'DD'     -- this value is user supplied\nAND reg_num < 'DF'        -- adjust the upper bound to include all 'DE' values\nOR reg_num LIKE 'DE%'     -- explicitly include values that start with 'DE'

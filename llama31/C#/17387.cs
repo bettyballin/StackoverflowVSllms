@@ -1,0 +1,1 @@
+[RateLimit]\npublic JsonResult ValidateUsername(string username)\n{\n    // Your validation logic here\n    return Json(new { available = true });\n}

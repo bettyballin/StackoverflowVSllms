@@ -1,1 +1,0 @@
-// Assuming you have a DataRelation set up between the parentTable and childTable\nvar parentRows = parentTable.AsEnumerable()\n                            .Where(pr => pr.Field<string>("Value") == "foo");\n\nvar childRows = parentRows.SelectMany(pr => pr.GetChildRows("ParentChildRelationName"));\n\nvar list = childRows;

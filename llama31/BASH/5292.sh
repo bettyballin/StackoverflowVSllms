@@ -1,0 +1,1 @@
+@echo off\nset directory=X:\Windows\System32\\nfor /f "tokens=*" %%f in (filelist.txt) do (\n  if exist "%directory%%%f" echo %%f exists\n  if not exist "%directory%%%f" echo %%f does not exist\n)

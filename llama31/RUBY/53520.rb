@@ -1,0 +1,1 @@
+# my_class.rb\nclass MyClass\n  def greet(name)\n    "Hello, #{name}!"\n  end\nend\n\n# my_class_spec.rb\nrequire 'rspec'\n\ndescribe MyClass do\n  it 'greets with a name' do\n    expect(MyClass.new.greet('Alice')).to eq('Hello, Alice!')\n  end\nend

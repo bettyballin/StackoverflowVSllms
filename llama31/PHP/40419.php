@@ -1,0 +1,1 @@
+<?php\n  // Your PHP code here\n  $myInput = $_POST['myInput'];\n  // Do something with $myInput\n  echo "You entered: $myInput";\n?>

@@ -1,0 +1,1 @@
+if (self::isUserLoggedIn()) {\n    self::redirectToMain();\n    exit;\n}

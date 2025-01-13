@@ -1,0 +1,1 @@
+DataRow[] rows = dataSet1.Tables[0].Select(filter);\nif (rows.Length > 0)\n{\n    bindingSource1.Position = dataSet1.Tables[0].Rows.IndexOf(rows[0]);\n}

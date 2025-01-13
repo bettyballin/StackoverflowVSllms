@@ -1,0 +1,1 @@
+QProcess process;\nprocess.setProgram(QString::fromUtf8("your_executable_name"));\nprocess.setArguments(QStringList() << "--your_argument");\n\n// Run the process\nprocess.start();\n\n// Wait for the process to finish\nprocess.waitForFinished();

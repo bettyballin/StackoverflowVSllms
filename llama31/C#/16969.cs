@@ -1,0 +1,1 @@
+public class MyClass\n{\n    private readonly DataContext _dataContext;\n\n    public MyClass(DataContext dataContext)\n    {\n        _dataContext = dataContext;\n        _dataContext.RegisterDependency(OnDataLoaded);\n    }\n\n    private void OnDataLoaded(DataSet dataset)\n    {\n        // Process dataset...\n    }\n}

@@ -1,1 +1,0 @@
-public class Project\n{\n    public int ProjectId { get; set; }\n    // Other properties\n}\n\npublic class ProjectMember\n{\n    public int ProjectId { get; set; }\n    public string MemberId { get; set; }\n    // Other properties\n}

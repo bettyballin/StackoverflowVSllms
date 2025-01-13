@@ -1,1 +1,0 @@
-CREATE TABLE ratings (\n    item_id INT,\n    rating INT,\n    weight INT\n);

@@ -1,0 +1,1 @@
+$.ajax({\n    type: "POST",\n    url: "your_php_file.php",\n    data: $("#your_form_id").serialize(),\n    success: function(data) {\n        $("#result_div").html(data);\n    }\n});

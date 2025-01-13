@@ -1,0 +1,1 @@
+import re\nfrom bs4 import BeautifulSoup\n\npattern = re.compile(r'([a-zA-Z0-9-]+)\.dll')\n\nsoup = BeautifulSoup(code, 'html.parser')\nmatches = soup.find_all(text=pattern)\n\nprint(matches)

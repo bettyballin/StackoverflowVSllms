@@ -1,0 +1,1 @@
+CREATE TABLE FooMapping (\n  foo VARCHAR(10) PRIMARY KEY,\n  mapped_value VARCHAR(10)\n);\n\nINSERT INTO FooMapping (foo, mapped_value) VALUES\n  ('a', 'bar'),\n  ('b', 'biz'),\n  -- ...\n  ('z', 'fin');\n\nSELECT m.mapped_value\nFROM MyTable t\nJOIN FooMapping m ON t.foo = m.foo\nLIMIT 1;

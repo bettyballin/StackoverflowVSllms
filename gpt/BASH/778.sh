@@ -1,1 +1,0 @@
-#!/bin/bash\n\n# Directory where SSHFS is mounted\nMOUNT_DIR="/path/to/local/mount"\n\n# Convert all files in the mounted directory\nfor file in "$MOUNT_DIR"/*; do\n  if [[ -f "$file" ]]; then\n    iconv -f EBCDIC-US -t ASCII "$file" -o "${file}.ascii"\n  fi\ndone

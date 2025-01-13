@@ -1,0 +1,1 @@
+SELECT \n  category,\n  SUM(CASE WHEN exclude_flag = 0 THEN amount ELSE 0 END) AS total_amount\nFROM \n  orders\nGROUP BY \n  category

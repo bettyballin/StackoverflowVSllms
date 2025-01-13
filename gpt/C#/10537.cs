@@ -1,1 +1,0 @@
-// Store the search results in Session\nSession["SearchResults"] = searchResultsDataTable;\n\n// Retrieve the search results from Session\nDataTable searchResults = (DataTable)Session["SearchResults"];

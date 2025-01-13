@@ -1,0 +1,1 @@
+CheckBoxList checkBoxList = new CheckBoxList();\n\n// ...\n\nforeach (ListItem item in checkBoxList.Items)\n{\n    item.Attributes.Add("class", "my-checkbox-style");\n}

@@ -1,1 +1,0 @@
-find . -type f -name "*.tex" -exec sh -c 'mv "$1" "${1%.tex}"' _ {} \;

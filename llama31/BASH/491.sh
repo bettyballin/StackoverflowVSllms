@@ -1,0 +1,1 @@
+%windir%\system32\inetsrv\appcmd.exe set config /section:system.applicationHost/sites /import: <path_to_iis6_config_file>

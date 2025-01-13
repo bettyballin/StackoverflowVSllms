@@ -1,1 +1,0 @@
-#!/bin/bash\nPWD=bla\nsed "s/xxx/$PWD/"

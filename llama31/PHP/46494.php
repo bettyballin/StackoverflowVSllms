@@ -1,0 +1,1 @@
+require_once 'geshi.php';\n\n$source = 'your_code_here';\n$language = 'php'; // or 'csharp', 'perl', 'ruby', etc.\n\n$geshi = new GeSHi($source, $language);\necho $geshi->parse_code();

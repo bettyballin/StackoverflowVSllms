@@ -1,0 +1,1 @@
+function Start() {\n    var control = document.getElementById("silverlightControl");\n    var scriptableObj = control.Content.Scripts.Page;\n    scriptableObj.Start();\n}\n\nfunction Stop() {\n    var control = document.getElementById("silverlightControl");\n    var scriptableObj = control.Content.Scripts.Page;\n    scriptableObj.Stop();\n}

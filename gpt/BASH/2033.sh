@@ -1,1 +1,0 @@
-perf record -g ./real_program\n     perf report

@@ -1,0 +1,1 @@
+static int ReadKey()\n{\n    while (true)\n    {\n        ConsoleKeyInfo choice = Console.ReadKey();\n        if (char.IsDigit(choice.KeyChar))\n        {\n            int answer = choice.KeyChar - '0'; // subtract the ASCII value of '0' to get the digit value\n            return answer;\n        }\n        Console.WriteLine("\nSorry, you need to input a number");\n    }\n}

@@ -1,1 +1,0 @@
-pip install pytesseract pdf2image

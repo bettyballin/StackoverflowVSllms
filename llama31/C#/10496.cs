@@ -1,0 +1,1 @@
+Response.Write(System.Runtime.InteropServices.RuntimeEnvironment.GetSystemVersion())

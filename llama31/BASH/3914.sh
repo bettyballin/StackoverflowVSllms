@@ -1,0 +1,1 @@
+installp -aXY rpm.rte

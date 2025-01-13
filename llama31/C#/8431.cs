@@ -1,0 +1,1 @@
+using (var context = new MyDbContext())\n{\n    var myObject = new MyEntity { Name = "John Doe" };\n    context.MyEntities.AddObject(myObject);\n\n    // Access the newly added object using the Local property\n    var localObjects = context.MyEntities.Local;\n    foreach (var obj in localObjects)\n    {\n        Console.WriteLine(obj.Name);\n    }\n}

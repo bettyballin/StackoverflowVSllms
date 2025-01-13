@@ -1,0 +1,1 @@
+using System.Runtime.InteropServices;\n\n// Get the type of the COM object\nType comType = Type.GetTypeFromProgID("YourComObject.ProgId");\n\n// Create an instance of the COM object\nobject comObject = Activator.CreateInstance(comType);\n\n// Call a method on the COM object\ncomObject.GetType().InvokeMember("YourMethod", BindingFlags.InvokeMethod, null, comObject, null);

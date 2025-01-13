@@ -1,1 +1,0 @@
-awk 'NF == 8' inputfile.txt > outputfile.txt

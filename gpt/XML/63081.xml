@@ -1,1 +1,0 @@
-<struts>\n    <package name="default" extends="struts-default">\n        <action name="menuAction" class="br.com.autenticis.renacon.actions.MenuAction">\n            <result name="success">/success.jsp</result>\n            <result name="input">/login.jsp</result>\n        </action>\n    </package>\n</struts>

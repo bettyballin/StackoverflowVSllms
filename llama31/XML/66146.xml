@@ -1,0 +1,1 @@
+<system.web>\n  <httpRuntime\n    fcnMode="Disabled"\n    requestPathInvalidCharacters="&lt;,&gt;,*,%,&amp;,:,\,?"\n  />\n</system.web>

@@ -1,1 +1,0 @@
-Repeater1.ItemDataBound += new RepeaterItemEventHandler(Repeater1_ItemDataBound);

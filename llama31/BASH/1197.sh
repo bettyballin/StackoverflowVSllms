@@ -1,0 +1,1 @@
+openssl enc -aes-256-cbc -in input.html -out encrypted.html -pass pass:your_secret_password

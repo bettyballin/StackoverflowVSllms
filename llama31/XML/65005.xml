@@ -1,0 +1,1 @@
+<ProjectReference Include="..\YourCustomProviderProject.csproj">\n  <Name>YourCustomProviderProject</Name>\n  <BuildAction>Compile</BuildAction>\n</ProjectReference>

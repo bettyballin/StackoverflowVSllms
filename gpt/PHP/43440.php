@@ -1,1 +1,0 @@
-<?php\n\nrequire_once 'dbinterface.php';\nrequire_once 'config.inc.php';\n\nclass user {\n\n    function user($id) {\n        global $DB;  // Ensure the $DB variable is in the global scope\n        $this->db = new db($DB['host'], $DB['user'], $DB['pass'], $DB['database']);\n        ...\n    }\n    ...\n}\n?>

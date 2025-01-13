@@ -1,1 +1,0 @@
-public void ServePdfFile(HttpResponse response, byte[] buffer, string fileName)\n{\n    response.Clear();\n    response.ContentType = "application/pdf";\n    response.AddHeader("Content-Disposition", $"inline; filename={fileName}");\n    response.BinaryWrite(buffer);\n    response.End();\n}

@@ -1,0 +1,1 @@
+<!-- template.html -->\n<form method="post">\n    {% csrf_token %}\n    {{ formset.management_form }}\n    {% for form in formset %}\n        {{ form.instance.name }}: {{ form.active }}\n    {% endfor %}\n    <button type="submit">Update</button>\n</form>

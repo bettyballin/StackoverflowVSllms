@@ -1,0 +1,1 @@
+var mapping = new DynamicMapping();\nmapping.Table("DynamicTable1")\n       .Column("ArbitraryId", c => c.NotNullable().Unique())\n       .Column("OtherColumn", c => c.Length(50));

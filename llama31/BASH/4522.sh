@@ -1,0 +1,1 @@
+rsync -avz --progress <source_folder>/ <destination_folder>/

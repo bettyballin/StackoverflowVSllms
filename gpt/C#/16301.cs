@@ -1,1 +1,0 @@
-string name = reader["name"].ToString();\nstring city = reader["city"].ToString();\nstring country = reader["country"].ToString();

@@ -1,0 +1,1 @@
+SELECT ... ORDER BY column_name COLLATE "POSIX";

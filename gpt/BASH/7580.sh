@@ -1,1 +1,0 @@
-#!/bin/bash\n\n# Clone the repository\ngit clone https://github.com/your-project/repo.git\ncd repo\n\n# Install dependencies\nnpm install\n\n# Set up environment variables\ncp .env.example .env\n\n# Run database migrations\nnpm run migrate\n\n# Start the development server\nnpm run dev\n\necho "Setup completed! The development server is running on http://localhost:3000"

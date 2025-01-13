@@ -1,1 +1,0 @@
-protected void GridView1_PageIndexChanging(object sender, GridViewPageEventArgs e)\n   {\n       GridView1.PageIndex = e.NewPageIndex;\n       BindGridView(); // Rebind the GridView with the new page of data\n   }

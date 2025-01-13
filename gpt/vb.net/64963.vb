@@ -1,1 +1,0 @@
-Private Sub SetContactNumber(sender As Object, e As EventArgs)\n    Dim txtControl As TextBox = CType(sender, TextBox)\n    Dim recordID As String = txtControl.Tag.ToString()\n    \n    ' Now you can use the recordID as needed\n    MessageBox.Show("Record ID: " & recordID)\nEnd Sub

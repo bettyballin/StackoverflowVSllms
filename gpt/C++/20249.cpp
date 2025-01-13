@@ -1,1 +1,0 @@
-#include "example.h"\n\nint __stdcall foo(long bar) {\n    return bar * 2;  // Example implementation\n}

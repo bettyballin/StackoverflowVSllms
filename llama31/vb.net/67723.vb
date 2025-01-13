@@ -1,0 +1,1 @@
+Public Shared MyVariable As String

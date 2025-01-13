@@ -1,0 +1,1 @@
+const jsonData = JSON.parse(responseData);\nconst userData = jsonData.data;\n// Process userData array

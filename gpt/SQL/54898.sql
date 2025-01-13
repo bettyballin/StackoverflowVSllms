@@ -1,1 +1,0 @@
-SELECT  TBL_SUB_KEY AS port\n      , poe.[TBL_COMPANY]\n      , poe.[TBL_DIVISION_1]\nFROM    dbo.TMVKTAB AS poe\nWHERE   ( TBL_NUMBER = '8A' )\n        AND ( TBL_SUB_KEY <> '' )\n        AND NOT ( poe.[TBL_COMPANY] = '011'\n              AND poe.[TBL_DIVISION_1] = '11'\n            )

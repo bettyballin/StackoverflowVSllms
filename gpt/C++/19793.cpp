@@ -1,1 +1,0 @@
-STDMETHODIMP CImpl::GetText(BSTR* pbstrText)\n{\n    if (pbstrText == nullptr)\n        return E_POINTER;\n\n    const wchar_t* text = L"Sample";\n    *pbstrText = SysAllocString(text);\n    if (*pbstrText == nullptr)\n        return E_OUTOFMEMORY;\n\n    return S_OK;\n}

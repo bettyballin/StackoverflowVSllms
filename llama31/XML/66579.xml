@@ -1,0 +1,1 @@
+<Context>\n    <Parameter name="jsp.bufferSize" value="1024" />\n</Context>

@@ -1,1 +1,0 @@
-select * from a, b where a.id *= b.id

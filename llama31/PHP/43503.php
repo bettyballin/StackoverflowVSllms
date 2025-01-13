@@ -1,0 +1,1 @@
+$client = $xml->xpath("//clientGroup[$id]/client[@name='foo']");

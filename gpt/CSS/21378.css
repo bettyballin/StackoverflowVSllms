@@ -1,1 +1,0 @@
-<style>\n    :root {\n        --context-path: '${pageContext.request.contextPath}';\n    }\n</style>

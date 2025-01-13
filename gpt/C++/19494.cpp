@@ -1,1 +1,0 @@
-// dll1\n    class InternalClass {\n    public:\n        void method1();\n        void method2();\n    };\n\n    InternalClass m_class;\n    InternalClass* getInternalObject() {\n        return &m_class;\n    }

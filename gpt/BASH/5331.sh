@@ -1,1 +1,0 @@
-# Example of a simple disaster recovery script\n#!/bin/bash\n\n# Step 1: Restore data from backup\nrestore_backup /path/to/backup /path/to/restore\n\n# Step 2: Reconfigure services to use the restored data\nreconfigure_services\n\n# Step 3: Notify stakeholders\nnotify_stakeholders "Disaster recovery process initiated. Services are being restored."

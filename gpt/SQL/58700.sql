@@ -1,1 +1,0 @@
--- Example of a non-deterministic function usage (not valid for partitioning)\nSELECT NEWID();

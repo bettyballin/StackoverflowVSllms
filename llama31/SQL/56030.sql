@@ -1,0 +1,1 @@
+MERGE INTO table1 t1\nUSING table2 t2\nON (SUBSTR(t1.otname, INSTR(t1.otname,'.', 1, 3) + 1, \n                     INSTR(t1.otname, '.', 1, 4) - INSTR(t1.otname,'.', 1, 3) - 1) = t2.sncode)\nWHEN MATCHED THEN\nUPDATE SET t1.sncode = t2.sncode, t1.description_text = t2.description_text;

@@ -1,0 +1,1 @@
+// Using Noda Time\nInstant instant = Instant.FromDateTimeUtc(date);\nZonedDateTime zdt = instant.InUtc();

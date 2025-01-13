@@ -1,0 +1,1 @@
+9.0\n1\n1       SQLCHAR       0       100       ","      2     swearword

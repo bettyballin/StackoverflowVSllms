@@ -1,1 +1,0 @@
-SELECT p.id, p.name\nFROM People p\nJOIN (\n    SELECT po.people_id\n    FROM peoples_options po\n    WHERE po.option_id IN (1, 34, 44, ...)\n    GROUP BY po.people_id\n    HAVING COUNT(DISTINCT po.option_id) = <number_of_options>\n) filtered_people ON p.id = filtered_people.people_id;

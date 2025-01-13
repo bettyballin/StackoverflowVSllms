@@ -1,0 +1,1 @@
+protected void Button1_Click(object sender, EventArgs e)\n{\n    ScriptManager.GetCurrent(Page).EnablePartialRendering = false;\n    // Upload file logic here\n    ScriptManager.GetCurrent(Page).EnablePartialRendering = true;\n}

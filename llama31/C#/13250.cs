@@ -1,0 +1,1 @@
+protected void Page_Load(object sender, EventArgs e)\n{\n    Response.Headers["Cache-Control"] = "no-cache, no-store, must-revalidate";\n    // ...\n}

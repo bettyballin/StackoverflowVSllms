@@ -1,0 +1,1 @@
+public void SetMyProperty(string value)\n{\n    m_myField = value;\n}

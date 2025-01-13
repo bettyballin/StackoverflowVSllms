@@ -1,0 +1,1 @@
+SELECT country \nFROM companies \nGROUP BY UPCASE(country);

@@ -1,0 +1,1 @@
+// controller\n$this->load->library('format');\n$formatted_string = $this->format->format_string($output);\n\n// view\necho $formatted_string;

@@ -1,1 +1,0 @@
-// Example to add CPUs to a VM in vSphere Web Client\nvm.config.hardware.numCPU = 4;

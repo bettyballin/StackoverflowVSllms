@@ -1,0 +1,1 @@
+gcc -fprofile-generate -O3 your_code.cpp -o your_code\n./your_code\ngcc -fprofile-use -O3 your_code.cpp -o your_code

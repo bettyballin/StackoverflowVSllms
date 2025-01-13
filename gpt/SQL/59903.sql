@@ -1,1 +1,0 @@
-SELECT\n    p.name,\n    AddressDetails.value('(city)[1]', 'VARCHAR(100)') AS City,\n    AddressDetails.value('(state)[1]', 'VARCHAR(100)') AS State\nFROM \n    people p\nCROSS APPLY \n    p.addresses.nodes('/address') AS AddressNode(AddressDetails)

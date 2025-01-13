@@ -1,1 +1,0 @@
-using NUnit.Framework;\n\n[TestFixture]\npublic class MyTests\n{\n    [Test]\n    public void TestMethod1()\n    {\n        Assert.AreEqual(1, 1);\n    }\n}

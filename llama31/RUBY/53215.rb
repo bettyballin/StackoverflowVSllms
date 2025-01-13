@@ -1,0 +1,1 @@
+def my_method\n  # some code here\n  begin\n    # code that might raise an error\n  rescue Exception => e\n    # handle the error\n  end\nend

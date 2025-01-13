@@ -1,1 +1,0 @@
-powershell -ExecutionPolicy Bypass -File .\rename-files.ps1

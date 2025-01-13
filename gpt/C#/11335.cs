@@ -1,1 +1,0 @@
-public class Program\n{\n    public static void Main()\n    {\n        ReportExporter exporter = new ReportExporter();\n        exporter.ExportReportToPDF("/ReportFolder/YourReportName", "12345");\n    }\n}

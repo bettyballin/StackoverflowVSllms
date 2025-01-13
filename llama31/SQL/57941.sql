@@ -1,0 +1,1 @@
+SPOOL /dev/null\n@your_script.sql\nSPOOL OFF

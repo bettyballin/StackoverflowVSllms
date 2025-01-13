@@ -1,0 +1,1 @@
+#!/bin/bash\n\nlockfile=/var/lock/my_script.lock\n\nif ! flock -n 200; then\n    echo "Another instance is already running"\n    exit 1\nfi\n\n# Process feeds here

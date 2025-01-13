@@ -1,0 +1,1 @@
+gprof ld gmon.out > gprof_output.txt

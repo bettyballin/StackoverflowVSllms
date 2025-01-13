@@ -1,1 +1,0 @@
-public void DeleteComment(int commentId, string userId)\n   {\n       var parameters = new { CommentID = commentId, UserID = userId };\n       _db.Database.ExecuteSqlCommand("DeleteComment @CommentID, @UserID", parameters);\n   }

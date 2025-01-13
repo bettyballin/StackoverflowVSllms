@@ -1,0 +1,1 @@
+int exampleint = 5;\nList<MyClass> extract = list.Where(x => x.Number == exampleint).ToList();\nreturn extract;

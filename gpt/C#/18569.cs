@@ -1,1 +1,0 @@
-mshtml.HTMLDocument theDoc = // your document initialization code\nmshtml.HTMLButtonElement button = (mshtml.HTMLButtonElement)theDoc.getElementById("ID1");

@@ -1,1 +1,0 @@
-javac -classpath /path/to/your/thirdparty.jar MyStoredProcedure.java\n    loadjava -user username/password@database MyStoredProcedure.class

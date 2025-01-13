@@ -1,1 +1,0 @@
-public class MyClass\n{\n    public static void MySharedMethod()\n    {\n        Console.WriteLine("This is a static method.");\n    }\n}\n\n// Calling the static method from the class type\nMyClass.MySharedMethod();\n\n// The following will result in a compile-time error\n// MyClass mc = new MyClass();\n// mc.MySharedMethod();

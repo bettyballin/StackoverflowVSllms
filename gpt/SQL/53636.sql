@@ -1,1 +1,0 @@
-SELECT \n    t1.*, \n    t2.*\nFROM \n    Table1 t1\nINNER JOIN \n    Table2 t2\nON \n    ABS(DATEDIFF(SECOND, t1.datetimefield, t2.datetimefield)) <= 3

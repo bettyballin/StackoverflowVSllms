@@ -1,0 +1,1 @@
+[HttpPost]\npublic PartialViewResult UpdateProductDisplay(int itemsPerPage)\n{\n    // Update your model and retrieve the updated product list\n    var products = YourService.GetProducts(itemsPerPage);\n    return PartialView("_ProductDisplay", products);\n}

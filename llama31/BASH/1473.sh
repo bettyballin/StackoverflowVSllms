@@ -1,0 +1,1 @@
+gcc -O3 -march=native add_arrays.c -o add_arrays

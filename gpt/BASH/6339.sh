@@ -1,1 +1,0 @@
-aspnet_regiis -pef "connectionStrings" "C:\inetpub\wwwroot\YourApp"

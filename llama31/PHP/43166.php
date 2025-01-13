@@ -1,0 +1,1 @@
+require_once 'File/Archive.php';\n\nfunction openZip($file_to_open) {\n    global $target;\n    global $unique_folder;\n    $archive = File_Archive::read($file_to_open);\n    $archive->extractTo($target . $unique_folder);\n    unlink($file_to_open);\n}

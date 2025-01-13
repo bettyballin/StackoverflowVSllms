@@ -1,0 +1,1 @@
+echo "Enter PID to search: "\nread PID\nsearch=$(ps -A | awk -v pid="$PID" '$1 == pid {print $1}')\nif [ -n "$search" ]; then\n  echo "Process found"\nelse\n  echo "Process not found"\nfi

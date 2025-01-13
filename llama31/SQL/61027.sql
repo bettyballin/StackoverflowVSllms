@@ -1,0 +1,1 @@
+SELECT * FROM OPENDATASOURCE('SQLNCLI', 'Data Source=RemoteServerName;Initial Catalog=RemoteDatabase;Integrated Security=SSPI').RemoteTable

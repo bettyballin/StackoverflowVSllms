@@ -1,0 +1,1 @@
+uint16_t crc16(uint8_t* data, uint16_t length) {\n    uint16_t crc = 0xFFFF;\n    while (length--) {\n        crc = (crc >> 8) ^ (crc & 0xFF) ^ (*data++);\n    }\n    return crc;\n}

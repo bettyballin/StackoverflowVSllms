@@ -1,0 +1,1 @@
+.container {\n  position: relative;\n}\n\n.c1 {\n  position: absolute;\n  top: 0;\n  left: 0;\n}\n\n/* Similarly for c2, c3, and c4 */

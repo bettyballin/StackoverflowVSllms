@@ -1,0 +1,1 @@
+class Program\n{\n    static void Main(string[] args)\n    {\n        using (var monitor = new ZOrderMonitor())\n        {\n            Console.ReadLine();\n        }\n    }\n}

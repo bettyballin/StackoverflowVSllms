@@ -1,0 +1,1 @@
+SELECT \n  n.*,\n  (\n    SELECT \n      GROUP_CONCAT(c.* SEPARATOR ',') \n    FROM \n      comments c \n    WHERE \n      c.news_id = n.id\n  ) AS comments\nFROM \n  news n;

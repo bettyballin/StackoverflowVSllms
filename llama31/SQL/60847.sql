@@ -1,0 +1,1 @@
+INSERT INTO your_table (unique_column, counter)\nVALUES\n  ('name1', 10),\n  ('name2', 20),\n  ('name3', 30)\nON DUPLICATE KEY UPDATE counter = counter + VALUES(counter);

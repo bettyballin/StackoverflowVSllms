@@ -1,1 +1,0 @@
-# Example of a simple PyQt5 application\n   from PyQt5.QtWidgets import QApplication, QLabel\n   \n   app = QApplication([])\n   label = QLabel('Hello, World!')\n   label.show()\n   app.exec_()

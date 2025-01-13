@@ -1,1 +1,0 @@
-$query = mysql_query(\n  sprintf("\n    SELECT \n      s.*,\n      UNIX_TIMESTAMP(s.`date`) AS `date`,\n      MAX(f.userid) as favoritehash\n    FROM\n      songs s\n    LEFT JOIN\n      favorites f\n    ON \n      f.favorite = s.id\n      AND f.userid = '%s'\n    GROUP BY \n      s.id\n  ", \n  mysql_real_escape_string($userhash))\n);

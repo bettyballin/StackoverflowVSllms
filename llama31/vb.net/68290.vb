@@ -1,0 +1,1 @@
+Public Function UserToken(ByVal tokenString As String) As Boolean\n    Dim token As IntPtr = IntPtr.Parse(tokenString)\n    ' Use the token as needed\nEnd Functio

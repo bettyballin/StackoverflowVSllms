@@ -1,1 +1,0 @@
--- Using an integer key\nCREATE TABLE Users (\n    UserID INT PRIMARY KEY,\n    UserName VARCHAR(255) NOT NULL\n);\n\n-- Using a GUID key\nCREATE TABLE Users (\n    UserID UNIQUEIDENTIFIER PRIMARY KEY,\n    UserName VARCHAR(255) NOT NULL\n);

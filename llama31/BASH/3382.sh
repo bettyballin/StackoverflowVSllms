@@ -1,0 +1,1 @@
+find . -inum $(ls -i | grep msheehan | awk '{print $1}') -exec rm -i {} \;

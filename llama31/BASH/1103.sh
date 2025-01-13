@@ -1,0 +1,1 @@
+echo “HAL,” noted Frank, “said that everything was going extremely well.” | python extract_quotations.py

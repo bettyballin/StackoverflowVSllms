@@ -1,1 +1,0 @@
-cl ClientApp.c MyLibrary.lib

@@ -1,1 +1,0 @@
-SELECT @@session.time_zone;\nSELECT @@global.time_zone;

@@ -1,1 +1,0 @@
-// JavaScript\ndocument.getElementById('myElement').style.display = 'none'; // hides the element\ndocument.getElementById('myElement').style.display = 'block'; // shows the element

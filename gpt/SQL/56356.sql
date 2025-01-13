@@ -1,1 +1,0 @@
-SELECT [key] AS someValue\nFROM table\nWHERE NOT CONTAINS(columnName, 'thisWord')

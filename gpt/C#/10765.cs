@@ -1,1 +1,0 @@
-[WhiteSpaceFilter]\n[CompressFilter]\npublic ActionResult YourAction()\n{\n    // Your action logic here\n}

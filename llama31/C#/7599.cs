@@ -1,0 +1,1 @@
+[DllImport("ole32")]\nprivate static extern IntPtr CoRegisterMessageFilter(IntPtr lpMessageFilter, IntPtr lpReserved);\n\n//...\n\nCoRegisterMessageFilter(new IntPtr(1), IntPtr.Zero);

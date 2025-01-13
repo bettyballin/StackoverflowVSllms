@@ -1,0 +1,1 @@
+// Example usage:\nnew Validation('myForm', {\n  rules: {\n    name: {\n      required: true,\n      minLength: 5\n    },\n    email: {\n      required: true,\n      email: true\n    }\n  }\n});

@@ -1,1 +1,0 @@
-GetImageType.exe path_to_image_file

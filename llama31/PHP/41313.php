@@ -1,0 +1,1 @@
+abstract class ParentObj {\n    public function __construct(){ /* ... */ }\n\n    public static function factory() {\n        $class = self::__CLASS__;\n        return new $class();\n    }\n}

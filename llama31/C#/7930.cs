@@ -1,0 +1,1 @@
+Process process = new Process();\nprocess.StartInfo.FileName = "tool1.exe";\nprocess.StartInfo.Username = "username";\nprocess.StartInfo.Domain = "domain";\nprocess.StartInfo.Password = "password";\nprocess.StartInfo.LoadUserProfile = true;\nprocess.Start();

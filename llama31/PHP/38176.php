@@ -1,0 +1,1 @@
+$cresult = split(PHP_EOL, $cresult);

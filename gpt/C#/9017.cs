@@ -1,1 +1,0 @@
-Totp totp = new Totp(secretKey);\n   string totpCode = totp.ComputeTotp(); // Generates the TOTP code

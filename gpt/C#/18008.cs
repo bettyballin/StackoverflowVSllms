@@ -1,1 +1,0 @@
-var myObject = new MyActiveRecordObject();\nmyObject.Property1 = "Value1";\n// Add breakpoint here\nmyObject.Save();

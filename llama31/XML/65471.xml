@@ -1,0 +1,1 @@
+<Host name="localhost" ...>\n  <Context path="/appA" docBase="/path/to/appA.war">\n    <Manager className="org.apache.catalina.session.StandardManager" />\n  </Context>\n  <Context path="/appB" docBase="/path/to/appB.war">\n    <Manager className="org.apache.catalina.session.StandardManager" />\n  </Context>\n</Host>

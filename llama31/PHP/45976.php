@@ -1,0 +1,1 @@
+<?php\n$row = $this->getArticle();\n?>\n<h1><?php echo $row->getTitle(); ?></h1>\n<p><?php echo $row->getContent(); ?></p>

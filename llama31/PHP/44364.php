@@ -1,0 +1,1 @@
+// Example using PHP-GraphViz\nrequire_once 'vendor/autoload.php';\n$graph = new \GraphViz\Graph();\n$graph->addNode('index.php');\n$graph->addNode('function1');\n$graph->addNode('function2');\n$graph->addEdge('index.php', 'function1');\n$graph->addEdge('function1', 'function2');\necho $graph->render('dot');

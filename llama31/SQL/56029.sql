@@ -1,0 +1,1 @@
+UPDATE table1 t1\nSET (t1.sncode, t1.description_text) = (\n  SELECT t2.sncode, t2.description_text\n  FROM table2 t2\n  WHERE SUBSTR(t1.otname, INSTR(t1.otname,'.', 1, 3) + 1, \n                     INSTR(t1.otname, '.', 1, 4) - INSTR(t1.otname,'.', 1, 3) - 1) = t2.sncode\n)

@@ -1,1 +1,0 @@
-sudo cp /etc/apache2/httpd.conf.default /etc/apache2/httpd.conf

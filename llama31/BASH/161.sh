@@ -1,0 +1,1 @@
+icacls <folder_path> /grant:r "IIS AppPool\YourAppPoolName":M

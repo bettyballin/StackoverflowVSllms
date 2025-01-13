@@ -1,1 +1,0 @@
-public ActionResult Index()\n{\n    var data = GetData(); // Your method to get data\n    var model = data.OrderBy(x => x.SomeProperty); // Default sorting\n\n    return View(model);\n}

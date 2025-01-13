@@ -1,1 +1,0 @@
-#include <stdio.h>\n\nint main() {\n    // Explicitly using auto (not necessary)\n    auto int x = 10; // Same as: int x = 10;\n\n    printf("Value of x: %d\n", x);\n    return 0;\n}

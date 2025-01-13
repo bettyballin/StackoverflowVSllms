@@ -1,1 +1,0 @@
-CREATE TABLE messages (\n    message_id INT PRIMARY KEY,\n    sender_id INT,\n    receiver_id INT,\n    message_text TEXT,\n    status_id INT,\n    created_at TIMESTAMP\n)\nPARTITION BY LIST (status_id) (\n    PARTITION unread VALUES IN (1),\n    PARTITION saved VALUES IN (2),\n    PARTITION other VALUES IN (3, 4, 5)\n);

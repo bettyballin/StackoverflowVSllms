@@ -1,0 +1,1 @@
+class B {\n    A* a; // association: B has a reference to an A object\n};

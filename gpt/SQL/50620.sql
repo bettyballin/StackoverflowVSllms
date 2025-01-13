@@ -1,1 +1,0 @@
-SELECT *\nFROM (\n    SELECT \n        BigMacs BigMacsS,\n        CASE \n            WHEN ISNUMERIC(BigMacs) = 1 \n            THEN CAST(BigMacs AS INT) \n            ELSE NULL \n        END AS BigMacsL\n    FROM \n        McTable\n) AS tableWithNumericValues\nWHERE \n    BigMacsL > 5;

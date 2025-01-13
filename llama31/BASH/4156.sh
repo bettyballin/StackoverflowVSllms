@@ -1,0 +1,1 @@
+wget http://mirror.apache-kr.org/apr/apr-1.7.0.tar.gz\ntar -xvf apr-1.7.0.tar.gz

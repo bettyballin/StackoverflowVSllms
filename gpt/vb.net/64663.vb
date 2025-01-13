@@ -1,1 +1,0 @@
-Dim Books As List(Of String) = New List(Of String) From {"The First Book", "The Second Book"}\n\nDim output = \n    <Books>\n        <%= From book In Books _\n            Select _\n            <Book Name=<%= book %>/>\n        %>\n    </Books>\n\nConsole.WriteLine(output)

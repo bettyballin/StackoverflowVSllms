@@ -1,0 +1,1 @@
+For Each s As String In myStringList.Reverse()\n    ' Do stuff here\nNext

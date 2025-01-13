@@ -1,0 +1,1 @@
+const userInput = '<script>alert("XSS")</script>';\nconst div = document.createElement('div');\ndiv.innerHTML = userInput;\ndocument.body.appendChild(div);

@@ -1,1 +1,0 @@
-while ($row = mysql_fetch_array($result)) {\n    echo '<pre>';\n    print_r($row); // This will print the entire contents of the array in a readable format\n    echo '</pre>';\n}

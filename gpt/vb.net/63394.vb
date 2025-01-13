@@ -1,1 +1,0 @@
-Public Class HelloWorld\n    Public Sub SayHello()\n        Console.WriteLine("Hello, World!")\n    End Sub\nEnd Class

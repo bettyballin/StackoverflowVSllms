@@ -1,0 +1,1 @@
+require_once 'HTMLPurifier.auto.php';\n$config = HTMLPurifier_Config::createDefault();\n$purifier = new HTMLPurifier($config);\n$html = '<p>This is a paragraph.</p>';\n$clean_html = $purifier->purify($html);\necho $clean_html; // outputs "<p>This is a paragraph.</p> "

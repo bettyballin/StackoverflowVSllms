@@ -1,1 +1,0 @@
-public function getCurrentLessonWithFallback($culture, $defaultCulture = 'en_US')\n   {\n       if ($this->hasCulture($culture)) {\n           return $this->getCurrentLessonsI18n($culture);\n       } else {\n           return $this->getCurrentLessonsI18n($defaultCulture);\n       }\n   }

@@ -1,1 +1,0 @@
-sudo svnadmin create /var/svn/anotherrepo\nsudo chown -R www-data:www-data /var/svn/anotherrepo

@@ -1,1 +1,0 @@
-sq.Parameters.Add("@NameParam", "A%");\nsq.Where(Tables.TableTwo + "." + TableTwo.Columns.Name).Like("@NameParam");

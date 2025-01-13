@@ -1,1 +1,0 @@
-' Page2.aspx.vb\n   Dim testID As String = Request.Form("TextBox1")\n   Dim title As String = Request.Form("TextBox2")

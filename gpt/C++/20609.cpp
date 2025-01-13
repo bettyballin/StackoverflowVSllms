@@ -1,1 +1,0 @@
-struct RTL_CRITICAL_SECTION\n{\n    PRTL_CRITICAL_SECTION_DEBUG DebugInfo;\n    LONG LockCount;\n    LONG RecursionCount;\n    HANDLE OwningThread;\n    HANDLE LockSemaphore;\n    ULONG_PTR SpinCount;\n};

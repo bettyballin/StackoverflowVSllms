@@ -1,0 +1,1 @@
+PROJECT (x, y) \n  SELECT * \n  FROM T

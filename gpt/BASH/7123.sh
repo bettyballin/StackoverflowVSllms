@@ -1,1 +1,0 @@
-rsync -avz /home/user/source /home/user/backup

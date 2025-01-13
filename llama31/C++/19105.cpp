@@ -1,0 +1,1 @@
+ref class MyClass {\npublic:\n    MyClass() {}\n};\n\nint main() {\n    MyClass^ myObject = gcnew MyClass(); // create a new MyClass object\n    // use myObject\n    return 0;\n}

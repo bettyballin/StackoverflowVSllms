@@ -1,1 +1,0 @@
-def foo(x):\n       pass\n\n   foo.flag = True\n\n   # Later in the code\n   foo.flag = False  # This change might not be expected by other parts of the code

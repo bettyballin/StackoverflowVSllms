@@ -1,0 +1,1 @@
+exec("mysqldump -u [username] -p[password] [database_name] > backup.sql");

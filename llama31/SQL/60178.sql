@@ -1,0 +1,1 @@
+SELECT \n    CASE \n        WHEN IsCompany = 1 THEN CompanyName \n        ELSE LastName + ', ' + FirstName \n    END AS DisplayName\nFROM \n    YourTable\nORDER BY \n    DisplayName

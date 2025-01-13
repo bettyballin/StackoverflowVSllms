@@ -1,1 +1,0 @@
-ALTER TABLE your_table_name\nADD CONSTRAINT check_y_greater_than_x\nCHECK (y IS NULL OR y > x);

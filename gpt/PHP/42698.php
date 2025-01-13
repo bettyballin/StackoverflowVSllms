@@ -1,1 +1,0 @@
-// PHP4\n    $result = mysql_query("SELECT * FROM users");\n\n    // PHP5 (using mysqli)\n    $result = mysqli_query($connection, "SELECT * FROM users");

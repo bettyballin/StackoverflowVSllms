@@ -1,1 +1,0 @@
-public class ClassA<T> where T : ClassA<T>\n{\n    // ClassA members\n}\n\npublic class ClassB<T> : ClassA<T> where T : ClassB<T>\n{\n    // ClassB members\n}\n\npublic class ClassC : ClassB<ClassC>\n{\n    // ClassC members\n}\n\npublic static T Method<T>() where T : ClassA<T>, new()\n{\n    return new T();\n}\n\npublic static void Main()\n{\n    ClassC c = Method<ClassC>();\n}

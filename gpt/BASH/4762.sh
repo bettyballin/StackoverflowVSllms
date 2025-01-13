@@ -1,1 +1,0 @@
-VBoxManage export "Your VM Name" -o "path/to/backup.ova"

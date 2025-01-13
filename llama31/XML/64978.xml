@@ -1,0 +1,1 @@
+<jsp-config>\n    <jsp-property-group>\n        <url-pattern>*.jsp</url-pattern>\n        <el-ignored>false</el-ignored>\n    </jsp-property-group>\n</jsp-config>

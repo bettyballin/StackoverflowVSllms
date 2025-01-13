@@ -1,1 +1,0 @@
--- Example of SQL Script\nUPDATE UserTable\nSET Status = 'Offline'\nWHERE DATEDIFF(minute, LastActivityTimeStamp, GETDATE()) > 5\nAND Status = 'Online';

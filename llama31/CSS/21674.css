@@ -1,0 +1,1 @@
+#MsgBanner {\n  position: absolute;\n  background-color: #333;\n  top: 60px;\n  height: 30px;\n  z-index: 14;\n  left: 200px;\n  right: 0;\n}

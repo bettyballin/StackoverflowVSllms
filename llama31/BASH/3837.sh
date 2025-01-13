@@ -1,0 +1,1 @@
+mysqldump -h host -u user -p password dbname > dump.sql\npsql -h host -U user -d dbname -f dump.sql

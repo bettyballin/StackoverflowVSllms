@@ -1,1 +1,0 @@
-php tsmarty2c.php your_template.tpl

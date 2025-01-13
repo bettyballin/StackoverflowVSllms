@@ -1,0 +1,1 @@
+using System.Security.Cryptography;\nusing System.Text;\n\nstring input = "password";\nbyte[] inputBytes = Encoding.UTF8.GetBytes(input);\n\nusing (MD5 md5 = MD5.Create())\n{\n    byte[] hashBytes = md5.ComputeHash(inputBytes);\n    string hash = BitConverter.ToString(hashBytes).Replace("-", "").ToLowerInvariant();\n    Console.WriteLine(hash);\n}

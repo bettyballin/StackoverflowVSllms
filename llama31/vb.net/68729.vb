@@ -1,0 +1,1 @@
+Public Sub Initialize(ByVal uploadStream As IStreamWrapper)\n    ''// Logic using uploadStream\nEnd Sub

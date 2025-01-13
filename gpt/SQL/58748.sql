@@ -1,1 +1,0 @@
-CREATE TABLE Category (\n         id INT PRIMARY KEY,\n         parent_id INT,\n         name VARCHAR(255)\n     );

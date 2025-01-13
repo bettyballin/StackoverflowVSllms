@@ -1,1 +1,0 @@
-setspn -A HTTP/currentmachine.domain.net DOMAIN\serviceAccount

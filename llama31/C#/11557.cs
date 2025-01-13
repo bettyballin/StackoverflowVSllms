@@ -1,0 +1,1 @@
+char c = 'A';\nint asciiValue = (int)c; // equivalent to Asc()\n\nint value = 65;\nchar charValue = (char)value; // equivalent to Chr()

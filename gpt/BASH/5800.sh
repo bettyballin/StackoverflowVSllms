@@ -1,1 +1,0 @@
-semanage fcontext -a -t httpd_sys_content_t "/home/user/xxx(/.*)?"\n   restorecon -R /home/user/xxx

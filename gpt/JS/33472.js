@@ -1,1 +1,0 @@
-function unescapeHtml(safe) {\n        return safe\n            .replace(/&amp;/g, "&")\n            .replace(/&lt;/g, "<")\n            .replace(/&gt;/g, ">")\n            .replace(/&quot;/g, "\"")\n            .replace(/&#039;/g, "'");\n    }

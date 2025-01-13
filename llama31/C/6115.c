@@ -1,0 +1,1 @@
+int neighbor_node = (node_id + 1) % num_nodes;\nMPI_Send(local_population, local_population_size, MPI_BYTE, neighbor_node, 0, MPI_COMM_WORLD);\nMPI_Recv(received_population, local_population_size, MPI_BYTE, neighbor_node, 0, MPI_COMM_WORLD, MPI_STATUS_IGNORE);

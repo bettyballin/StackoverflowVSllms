@@ -1,0 +1,1 @@
+static void OnExit(object sender, EventArgs e)\n{\n    UnhookWindowsHookEx(hHook);\n}

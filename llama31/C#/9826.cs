@@ -1,0 +1,1 @@
+@using System.Data\n\n@{\n    DataSet ds = new DataSet();\n    // populate the dataset from your SQL query\n\n    foreach (DataRow row in ds.Tables[0].Rows)\n    {\n        // do something with the row data\n    }\n}

@@ -1,1 +1,0 @@
-// In your theme's JS file (e.g., qa-theme/mytheme/js/custom.js)\n$(document).ready(function(){\n    // Your custom jQuery code\n    $(".qa-main").css("background-color", "#f9f9f9");\n});

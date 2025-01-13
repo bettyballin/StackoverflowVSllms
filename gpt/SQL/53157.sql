@@ -1,1 +1,0 @@
-SELECT \n    person.value('(firstName)[1]', 'VARCHAR(50)') AS FirstName,\n    person.value('(lastName)[1]', 'VARCHAR(50)') AS LastName\nFROM \n    YourTable\nCROSS APPLY \n    YourXmlColumn.nodes('/person') AS People(person);

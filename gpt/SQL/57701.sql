@@ -1,1 +1,0 @@
-CREATE TABLE products (\n    product_id NUMBER PRIMARY KEY,\n    origin VARCHAR2(10),\n    production_date DATE,\n    type VARCHAR2(10),\n    daily_id NUMBER,\n    composite_number AS (origin || '-' || TO_CHAR(production_date, 'YYYYMMDD') || '-' || type || '-' || TO_CHAR(daily_id, 'FM0000'))  -- Optional, for convenience\n);

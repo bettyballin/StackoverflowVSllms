@@ -1,0 +1,1 @@
+$ipAddress = '8.8.8.8';\n$url = "https://freegeoip.app/json/$ipAddress";\n$json = json_decode(file_get_contents($url), true);\necho $json['latitude'] . ', ' . $json['longitude'];

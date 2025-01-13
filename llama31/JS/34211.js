@@ -1,0 +1,1 @@
+Event.observe(window, 'load', function() {\n  var col1Height = $('col1').getBoundingClientRect().height;\n  var col2Height = $('col2').getBoundingClientRect().height;\n  var maxHeight = Math.max(col1Height, col2Height) + 130;\n  $('main').setStyle({'height': maxHeight + 'px'});\n});

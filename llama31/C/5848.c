@@ -1,0 +1,1 @@
+typedef struct TrieNode {\n    struct TrieNode* children[256]; // assuming ASCII strings\n    int is_end_of_tuple;\n    void* associated_action;\n} TrieNode;

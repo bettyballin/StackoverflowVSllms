@@ -1,1 +1,0 @@
-SET innodb_lock_wait_timeout = 5; -- Timeout in seconds\n\nSTART TRANSACTION;\nSELECT amount FROM CALLS WHERE callId=1213 FOR UPDATE;\n-- Perform operations\nCOMMIT;

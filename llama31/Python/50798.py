@@ -1,0 +1,1 @@
+# myapp/views.py\nfrom django.shortcuts import render\nfrom .tables import MyTable\nfrom django_ajax.decorators import ajax\n\n@ajax\ndef my_view(request):\n    table = MyTable(MyModel.objects.all())\n    return render(request, 'my_template.html', {'table': table})

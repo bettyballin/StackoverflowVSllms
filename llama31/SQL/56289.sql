@@ -1,0 +1,1 @@
+IF EXISTS (SELECT 1 FROM tblProducts WHERE ProductCode = '12345')\nBEGIN\n    -- Handle duplicate key\nEND

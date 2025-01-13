@@ -1,0 +1,1 @@
+class MyClass {\n    public function __call($method, $arguments) {\n        echo "This is $method method and the value is " . $arguments[0];\n    }\n}

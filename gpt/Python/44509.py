@@ -1,1 +1,0 @@
-def r(a):\n    i = a.find('0')\n    ~i or exit(a)\n    [\n        m in [\n            (i - j) % 9 * (i // 9 ^ j // 9) * (i // 27 ^ j // 27 | i % 9 // 3 ^ j % 9 // 3) or a[j]\n            for j in range(81)\n        ] or r(a[:i] + m + a[i + 1:])\n        for m in '123456789'\n    ]\nfrom sys import *\nr(argv[1])

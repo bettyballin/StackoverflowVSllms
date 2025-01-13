@@ -1,0 +1,1 @@
+// Example of Windows Installer deployment\n// Create a Windows Installer package\nvar installer = new Installer("MyApp.msi");\ninstaller.AddAssembly("MyApp.exe");\ninstaller.Install("https://mydeploymentlocation.com");

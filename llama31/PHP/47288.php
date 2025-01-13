@@ -1,0 +1,1 @@
+$keywordsArray = $keywords;\nprint_r($keywordsArray);\nextract($product);\nforeach ($keywordsArray as $k=>$v) {\n   //stuff here\n}

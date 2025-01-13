@@ -1,1 +1,0 @@
-# Directly import binary files\nsvn import /path/to/binary/files http://your_svn_repository/path/to/destination -m "Import binary files"

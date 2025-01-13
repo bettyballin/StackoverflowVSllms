@@ -1,1 +1,0 @@
-sudo apt-get install php7.1-mcrypt\n     sudo service apache2 restart

@@ -1,1 +1,0 @@
-import subprocess\npackage_name = "your-package-name"\nsubprocess.run(["yum", "list", "updates", package_name])

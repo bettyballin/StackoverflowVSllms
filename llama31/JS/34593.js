@@ -1,0 +1,1 @@
+<script>\n  function myFunction() {\n    // function code here\n  }\n</script>

@@ -1,0 +1,1 @@
+-- Database-level auditing (example in T-SQL)\nCREATE TRIGGER trg_RecordDelete\nON Records\nAFTER DELETE\nAS\nBEGIN\n    INSERT INTO AuditLogs (TableName, RecordId, Operation, ApplicationUserId)\n    SELECT 'Records', deleted.Id, 'DELETE', @ApplicationUserId\n    FROM deleted\nEND

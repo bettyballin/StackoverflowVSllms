@@ -1,1 +1,0 @@
-EXEC sys.sp_cdc_enable_table\n       @source_schema = N'dbo',\n       @source_name = N'MyTable',\n       @role_name = NULL;

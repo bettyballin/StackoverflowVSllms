@@ -1,0 +1,1 @@
+// src/AppKernel.php\n\npublic function getWebDir()\n{\n    if ($this->getName() === 'frontend') {\n        return $this->getParameter('frontend_web_dir');\n    } elseif ($this->getName() === 'backend') {\n        return $this->getParameter('backend_web_dir');\n    } else {\n        return parent::getWebDir();\n    }\n}

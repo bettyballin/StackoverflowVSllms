@@ -1,1 +1,0 @@
-stsadm -o setsitelock -url http://your-site-collection-url -lock none

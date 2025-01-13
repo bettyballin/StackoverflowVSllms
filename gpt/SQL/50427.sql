@@ -1,1 +1,0 @@
-SELECT  *\nFROM    timereports\nWHERE   date = '2009-05-04'

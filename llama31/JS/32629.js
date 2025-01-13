@@ -1,0 +1,1 @@
+// Domain A\nwindow.frames[0].postMessage('Hello, world!', 'https://domainb.com');\n\n// Domain B\nwindow.addEventListener('message', (event) => {\n  if (event.origin === 'https://domaina.com') {\n    console.log(event.data); // "Hello, world!"\n  }\n});

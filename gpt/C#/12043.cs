@@ -1,1 +1,0 @@
-public void ProcessRequest(HttpContext context)\n{\n    string requestpath;\n\n    // Use RawUrl to get the original request URL\n    requestpath = context.Request.RawUrl;\n\n    // more code not really relevant here\n}

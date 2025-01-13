@@ -1,1 +1,0 @@
-sudo a2dismod module_name\n    sudo systemctl restart apache2

@@ -1,0 +1,1 @@
+$xml = new DomDocument();\n$xml->load('file.xml');\n$xp = new DomXPath($xml);\n$result = $xp->query('//GROUP_ID');\n$id = $result->item(0)->nodeValue;

@@ -1,0 +1,1 @@
+StringBuilder query = new StringBuilder("SELECT * FROM table WHERE 1=1");\nif (someCondition) {\n    query.append(" AND column1 = 'value1'");\n}\nif (anotherCondition) {\n    query.append(" AND column2 = 'value2'");\n}

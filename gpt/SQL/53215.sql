@@ -1,1 +1,0 @@
-CREATE SEQUENCE example_table_id_seq START WITH 100001;\n\nCREATE TABLE example_table (\n    id BIGINT PRIMARY KEY DEFAULT nextval('example_table_id_seq'),\n    other_column VARCHAR(255)\n);

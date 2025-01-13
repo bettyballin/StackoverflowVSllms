@@ -1,0 +1,1 @@
+foreach (var row in dtDataTable.AsEnumerable())\n{\n    string strDetail = row.Field<string>("Detail");\n    // do something with strDetail\n}

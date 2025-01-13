@@ -1,0 +1,1 @@
+$url = 'https://example.com/file.txt';\n$content = file_get_contents($url);\necho $content;

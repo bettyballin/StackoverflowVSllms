@@ -1,0 +1,1 @@
+List<double> t1 = new List<double> { 1, 3, 5 };\nList<double> t2 = new List<double> { 1, 5 };\n\nbool isSubset = !t2.Except(t1).Any();\n\nConsole.WriteLine(isSubset);  // prints: True

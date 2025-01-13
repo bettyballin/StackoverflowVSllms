@@ -1,1 +1,0 @@
-#include <stdio.h>\n#include <string.h>\n\nvoid vulnerable_function(char *input) {\n    char buffer[64];\n    strcpy(buffer, input); // No bounds checking\n}\n\nint main(int argc, char *argv[]) {\n    if (argc > 1) {\n        vulnerable_function(argv[1]);\n    }\n    return 0;\n}

@@ -1,1 +1,0 @@
-use Symfony\Component\Translation\Translator;\n     use Symfony\Component\Translation\Loader\ArrayLoader;\n\n     $translator = new Translator('fr_FR');\n     $translator->addLoader('array', new ArrayLoader());\n     $translator->addResource('array', array(\n         'Hello, world!' => 'Bonjour le monde!',\n     ), 'fr_FR');\n\n     echo $translator->trans('Hello, world!');

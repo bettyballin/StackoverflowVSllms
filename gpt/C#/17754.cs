@@ -1,1 +1,0 @@
-public class User\n{\n    [StringLengthValidator(1, 50)]\n    public string Username { get; set; }\n\n    [RegexValidator(@"^[^@\s]+@[^@\s]+\.[^@\s]+$")]\n    public string Email { get; set; }\n}

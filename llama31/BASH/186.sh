@@ -1,0 +1,1 @@
+SetEnv PATH "%PATH%;C:\php\ext"

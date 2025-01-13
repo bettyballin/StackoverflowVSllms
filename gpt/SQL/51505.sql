@@ -1,1 +1,0 @@
--- Query 1\nSELECT col1, col2, col3\nFROM your_table\nWHERE some_condition\nORDER BY col1;\n\n-- Query 2\nSELECT col1, col2\nFROM your_table\nWHERE some_condition\nORDER BY col1;

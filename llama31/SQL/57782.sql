@@ -1,0 +1,1 @@
+DECLARE\n  v_columns VARCHAR2(4000);\nBEGIN\n  SELECT LISTAGG(column_name, ',') WITHIN GROUP (ORDER BY column_id)\n  INTO v_columns\n  FROM all_tab_columns\n  WHERE table_name = 'TABLEA' AND owner = 'SCHEMA1';\n\n  EXECUTE IMMEDIATE '\n    INSERT INTO Schema1.tableA (' || v_columns || ')\n    SELECT ' || v_columns || ' FROM Schema2.tableA';\nEND;

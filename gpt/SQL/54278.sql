@@ -1,1 +1,0 @@
-SELECT \n    SUSER_NAME() AS CurrentLoginUser,\n    HOST_NAME() AS MachineName;

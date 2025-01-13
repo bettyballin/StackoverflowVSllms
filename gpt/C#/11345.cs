@@ -1,1 +1,0 @@
-public class CustomSessionProvider : SessionStateStoreProviderBase\n{\n    // Implementation of custom session provider\n}

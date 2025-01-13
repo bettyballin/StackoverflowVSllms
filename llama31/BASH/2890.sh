@@ -1,0 +1,1 @@
+mysqldump -h commercial_server_ip -u username -p password database_name | mysql -h private_server_ip -u username -p password database_name

@@ -1,0 +1,1 @@
+SELECT table2.id\nFROM table2\nINNER JOIN table1 ON table2.relazioneid = table1.id\nWHERE table1.date = (\n  SELECT MAX(date)\n  FROM table1\n  WHERE date > ? AND date < ?\n)

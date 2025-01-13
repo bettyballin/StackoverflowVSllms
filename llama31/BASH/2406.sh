@@ -1,0 +1,1 @@
+TFSSecurity /g+ "Build Administrators" "mydomain\TFSService"\nTFSSecurity /g+ "Project Collection Build Service Accounts" "mydomain\TFSService"

@@ -1,0 +1,1 @@
+protected void Page_Load(object sender, EventArgs e)\n{\n    string controlIdToUpdate = Request.Params["__EVENTARGUMENT"];\n    if (!string.IsNullOrEmpty(controlIdToUpdate))\n    {\n        // Update the control\n    }\n}

@@ -1,1 +1,0 @@
-#include <string.h>\n#include <stdio.h>\n\nvoid load_buffer(char *buffer, size_t size);\n\nint main()\n{\n    char buffer[100];\n    printf("buffer size: %lu\n", sizeof(buffer)); // Use %lu for size_t\n    load_buffer(buffer, sizeof(buffer));\n\n    return 0;\n}\n\nvoid load_buffer(char *buffer, size_t size)\n{\n    printf("sizeof(buffer): %lu\n", size); // Use %lu for size_t\n}

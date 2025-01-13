@@ -1,0 +1,1 @@
+tableView->hideColumn(0);

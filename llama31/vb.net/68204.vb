@@ -1,0 +1,1 @@
+Public Delegate Sub SpecialEventHandler(ByVal sender As Object, ByVal e As SpecialEventArgs)\nPublic Event SpecialEvent As SpecialEventHandler\n\nDim SpecialWriter As New _SpecialLogWriter(AddressOf Me.SpecialEvent)

@@ -1,0 +1,1 @@
+SELECT NVL(t1.a, 0) + t2.b AS sum\nFROM (SELECT (aa + bb) a FROM table_x WHERE cc = 'on') t1,\n     table_y t2\nWHERE t1.id = t2.id

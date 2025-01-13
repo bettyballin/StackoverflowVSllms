@@ -1,0 +1,1 @@
+using System.Security.Principal;\n\npublic string GetSidString(string username)\n{\n    NTAccount account = new NTAccount(username);\n    SecurityIdentifier sid = (SecurityIdentifier)account.Translate(typeof(SecurityIdentifier));\n    return sid.Value;\n}

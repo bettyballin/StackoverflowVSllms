@@ -1,1 +1,0 @@
-SELECT VARCHAR_FORMAT(v_date, 'YYYY-MM-DD') AS formatted_date\nFROM your_table;

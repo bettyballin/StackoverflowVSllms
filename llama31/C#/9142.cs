@@ -1,0 +1,1 @@
+HttpWebRequest request = (HttpWebRequest)WebRequest.Create("http://example.com/api");\nrequest.KeepAlive = false; // try setting this to false\nrequest.ProtocolVersion = HttpVersion.Version10; // try setting this to HTTP 1.0

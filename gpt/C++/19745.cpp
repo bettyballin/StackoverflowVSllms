@@ -1,1 +1,0 @@
-struct Enumerator\n{\n    enum { VALUE = 5 };\n};\n\ntemplate<int V>\nstruct TemplatedEnumerator\n{\n    enum { VALUE = V };\n};\n\nif(static_cast<int>(Enumerator::VALUE) == static_cast<int>(TemplatedEnumerator<5>::VALUE))\n{\n    // Your code here\n}

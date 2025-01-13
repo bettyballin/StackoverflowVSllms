@@ -1,1 +1,0 @@
-[NonAction]\n   public override ActionResult Delete(int id)\n   {\n       return base.Delete(id);\n   }

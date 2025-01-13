@@ -1,0 +1,1 @@
+worksheet->Visible = VARIANT_TRUE;

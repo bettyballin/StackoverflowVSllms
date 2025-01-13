@@ -1,0 +1,1 @@
+<Compile Include="Views\Shared\Main.master.cs">\n  <SubType>ASPXCodeBehind</SubType>\n</Compile>

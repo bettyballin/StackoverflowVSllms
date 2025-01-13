@@ -1,0 +1,1 @@
+var registrationMark = "\u00AE"; // Unicode escape sequence for

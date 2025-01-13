@@ -1,0 +1,1 @@
+<target name="export-data">\n  <sql connstring="${db.connstring}" \n       sql="EXEC master.sys.xp_cmdshell 'bcp ${db.schema}.${db.table} out ${data.file} -n -S ${db.server} -U ${db.username} -P ${db.password}'" />\n</target>

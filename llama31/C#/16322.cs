@@ -1,0 +1,1 @@
+if (people.Any(p => p.GetType().GetProperties().All(prop => prop.GetValue(p) == prop.GetValue(newPerson))))\n{\n    MessageBox.Show("This person is already in the party!");\n    return;\n}

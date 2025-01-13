@@ -1,0 +1,1 @@
+fieldset {\n  display: inline-block;\n  width: 45%; /* adjust the width as needed */\n  vertical-align: top; /* to align the fieldsets at the top */\n  margin: 10px; /* add some margin for spacing */\n}

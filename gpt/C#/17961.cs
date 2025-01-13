@@ -1,1 +1,0 @@
-Type someType = ... ; // Your dynamic type\n\n// Use reflection to call the generic method\nvar method = typeof(CompositionContainer).GetMethod("GetExportedValue", Type.EmptyTypes)\n                                         .MakeGenericMethod(someType);\nvar export = method.Invoke(_container, null);

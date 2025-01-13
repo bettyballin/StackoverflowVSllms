@@ -1,0 +1,1 @@
+// Initiate your long-running script here\n$script = new MyLongRunningScript();\n$script->start();\n\n// Send a response to the client\nheader('Content-Type: text/plain');\necho 'Thanks!';\nflush();\nob_end_flush();\n\n// Continue executing the script in the background\n// Note: Do not output anything after this point, as it will be ignored\n$script->continueRunning();

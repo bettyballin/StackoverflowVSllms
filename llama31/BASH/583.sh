@@ -1,0 +1,1 @@
+iptables -A INPUT -s 192.0.2.1 -j DROP

@@ -1,0 +1,1 @@
+foreach (string key in Request.Form.AllKeys)\n{\n    string value = Request.Form[key];\n    // Process the input value here\n}

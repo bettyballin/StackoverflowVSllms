@@ -1,1 +1,0 @@
-SELECT FLOOR(TO_NUMBER(your_column)) AS integer_value\nFROM your_table;

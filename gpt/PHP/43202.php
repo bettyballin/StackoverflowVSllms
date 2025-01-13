@@ -1,1 +1,0 @@
-<?php\n   phpinfo();\n   // $variable = &$this->request;\n?>

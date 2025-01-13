@@ -1,0 +1,1 @@
+WIN32_FIND_DATA findData;\nHANDLE hFind = FindFirstFileEx("C:\\Path\\To\\Directory\\*", &findData, FindExInfoBasic, NULL, NULL);\nif (hFind != INVALID_HANDLE_VALUE) {\n    do {\n        // Process the file information in findData\n    } while (FindNextFile(hFind, &findData));\n    FindClose(hFind);\n}

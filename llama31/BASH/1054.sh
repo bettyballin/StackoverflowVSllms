@@ -1,0 +1,1 @@
+chmod 755 /etc/X11/xinit/xinitrc.d/99-synergy.sh

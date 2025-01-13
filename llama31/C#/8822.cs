@@ -1,0 +1,1 @@
+protected override bool ProcessCmdKey(ref Message msg, Keys keyData)\n{\n    if (keyData == Keys.Right)\n    {\n        SendKeys.Send("{TAB}");\n        return true;\n    }\n    return base.ProcessCmdKey(ref msg, keyData);\n}

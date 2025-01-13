@@ -1,1 +1,0 @@
-SELECT TO_CHAR(your_date_column, 'YYYY-MM-DD') FROM your_table;

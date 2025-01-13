@@ -1,1 +1,0 @@
-* * * * * /usr/bin/php /path/to/your/script.php\n* * * * * (sleep 30; /usr/bin/php /path/to/your/script.php)

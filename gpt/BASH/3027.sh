@@ -1,1 +1,0 @@
-sudo netstat -tuln | grep 3307

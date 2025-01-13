@@ -1,1 +1,0 @@
-#!/bin/bash\n\n# Run the cvs update command and capture the output\noutput=$(cvs update)\n\n# Print the full output\necho "$output"\n\n# Extract and print the conflict summary\necho -e "\nConflict Summary:"\necho "$output" | grep "^C "

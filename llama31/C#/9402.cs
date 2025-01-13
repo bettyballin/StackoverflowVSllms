@@ -1,0 +1,1 @@
+[DllImport("yourdllname")]\npublic static extern void Func(IntPtr bytes);

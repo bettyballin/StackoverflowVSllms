@@ -1,1 +1,0 @@
-// Example in C# using TPL\n    using System;\n    using System.Threading.Tasks;\n\n    class Program\n    {\n        static void Main()\n        {\n            Parallel.For(0, 10, i =>\n            {\n                Console.WriteLine($"Processing {i}");\n            });\n        }\n    }

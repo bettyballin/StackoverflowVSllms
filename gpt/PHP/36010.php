@@ -1,1 +1,0 @@
-$html = '<a href="../" title="link title">'.$link_text.'</a>';\n$escaped_html = preg_replace_callback('/<[^>]+>/', function($matches) {\n    return preg_replace('/"(.*?)"/', '\"$1\"', $matches[0]);\n}, $html);\n\necho $escaped_html;

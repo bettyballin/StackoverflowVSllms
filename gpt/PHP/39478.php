@@ -1,1 +1,0 @@
-<?php\nif ($_SERVER['REQUEST_METHOD'] === 'POST') {\n    $xml = file_get_contents('php://input');\n    $response = new SimpleXMLElement('<response/>');\n    $response->addChild('status', 'success');\n    $response->addChild('message', 'XML received');\n\n    header('Content-Type: application/xml');\n    echo $response->asXML();\n}\n?>

@@ -1,1 +1,0 @@
-CREATE EVENT SESSION [Track_Procedure] ON SERVER \n    ADD EVENT sqlserver.module_start,\n    ADD EVENT sqlserver.module_end\n    ADD TARGET package0.event_file(SET filename=N'TrackProcedure.xel');\n    GO\n\n    ALTER EVENT SESSION [Track_Procedure] ON SERVER STATE = START;\n    GO

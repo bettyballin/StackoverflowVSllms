@@ -1,0 +1,1 @@
+SELECT \n  SUM(CASE \n        WHEN vector_id = ? THEN value \n        WHEN vector_id = ? THEN -value \n        ELSE 0 \n      END) AS dot_product\nFROM \n  vectors\nWHERE \n  dimension IN (\n    SELECT dimension \n    FROM vectors \n    WHERE vector_id IN (?, ?)\n  )

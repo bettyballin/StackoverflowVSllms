@@ -1,0 +1,1 @@
+-- Example DDL script to add a new column to a table\nALTER TABLE [dbo].[MyTable]\nADD [NewColumn] INT NULL;\nGO

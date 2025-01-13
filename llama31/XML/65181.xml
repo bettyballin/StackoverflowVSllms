@@ -1,0 +1,1 @@
+<client>\n  <endpoint address="net.tcp://example.com/Service"\n            binding="netTcpBinding"\n            bindingConfiguration="SecureNetTcpBinding"\n            contract="IService"\n            name="SecureEndpoint">\n    <identity>\n      <dns value="example.com" />\n    </identity>\n  </endpoint>\n</client>

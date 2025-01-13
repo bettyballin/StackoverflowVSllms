@@ -1,0 +1,1 @@
+$con = Propel::getConnection();\n$sql = "SELECT * FROM pet_info\n        LEFT OUTER JOIN lost_pet ON pet_info.pet_info_id = lost_pet.pet_info_id\n        WHERE pet_info.account_id = :account_id";\n$stmt = $con->prepare($sql);\n$stmt->bindParam(':account_id', $user->getProfile()->getAccountId());\n$stmt->execute();\n$results = $stmt->fetchAll();

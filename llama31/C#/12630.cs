@@ -1,0 +1,1 @@
+MetabaseBackup backup = new MetabaseBackup();\nbackup.Backup("C:\\IISBackup.bin");

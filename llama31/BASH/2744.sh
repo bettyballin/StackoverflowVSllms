@@ -1,0 +1,1 @@
+openssl pkcs12 -export -in your_pem_file.pem -out your_pfx_file.pfx

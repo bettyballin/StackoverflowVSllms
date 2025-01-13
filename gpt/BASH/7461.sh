@@ -1,1 +1,0 @@
-#!/bin/bash\n\n# Progress bar example\n(\n  for i in {1..100}; do\n    echo $i\n    sleep 0.1\n  done\n) | zenity --progress --title="Progress Bar" --text="Processing..." --percentage=0\n\n# Form example\nzenity --forms --title="Input Form" --text="Enter your details" \\n  --add-entry="Name" \\n  --add-entry="Email" \\n  --add-password="Password"

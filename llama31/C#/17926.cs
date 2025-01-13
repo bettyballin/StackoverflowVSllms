@@ -1,0 +1,1 @@
+[ThreadStatic]\nprivate static ISession _session;\n\npublic static ISession GetCurrentSession()\n{\n    if (_session == null)\n    {\n        _session = SessionFactory.OpenSession();\n    }\n    return _session;\n}

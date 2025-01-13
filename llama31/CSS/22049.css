@@ -1,0 +1,1 @@
+.selectedTabOnPlacementMenu {\n    background: url('/Content/Images/Blank_Yellow.png') no-repeat;\n    width: 88px;\n    height: 28px;\n    text-align: center;\n    font-weight: bold;\n    line-height: 28px; /* Add this line */\n}

@@ -1,0 +1,1 @@
+<configuration>\n  <system.applicationHost>\n    <audit>\n      <configuration>\n        <add name="IISConfigChanges" path="%windir%\System32\inetsrv\config\applicationHost.config" />\n      </configuration>\n    </audit>\n  </system.applicationHost>\n</configuration>

@@ -1,0 +1,1 @@
+public class SynchronizedProperty<T>\n{\n    private T value;\n    private readonly object locker = new object();\n\n    public SynchronizedProperty(T initialValue)\n    {\n        value = initialValue;\n    }\n\n    public T Value\n    {\n        get { return value; }\n        set { lock (locker) { value = value; } }\n    }\n}

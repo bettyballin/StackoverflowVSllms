@@ -1,1 +1,0 @@
-string connectionString = "Data Source=PrimaryServer;Failover Partner=SecondaryServer;Initial Catalog=YourDatabase;Integrated Security=True;";

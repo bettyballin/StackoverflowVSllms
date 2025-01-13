@@ -1,0 +1,1 @@
+document.getElementById('imgCaptcha').src = 'captcha.php?_=' + new Date().getTime();

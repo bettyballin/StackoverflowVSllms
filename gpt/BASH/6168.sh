@@ -1,1 +1,0 @@
-# Create virtual environment for branch1\n   cd eggs_branch1\n   python -m venv venv_branch1\n   source venv_branch1/bin/activate\n   pip install -r requirements.txt\n\n   # Create virtual environment for branch2\n   cd ../eggs_branch2\n   python -m venv venv_branch2\n   source venv_branch2/bin/activate\n   pip install -r requirements.txt

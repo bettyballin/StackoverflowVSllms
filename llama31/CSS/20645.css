@@ -1,0 +1,1 @@
+#rss-feed-container {\n    position: absolute;\n    top: 10px;\n    right: 10px;\n    width: 200px;\n    height: 200px;\n    background-color: #fff;\n    padding: 10px;\n    border: 1px solid #ddd;\n}

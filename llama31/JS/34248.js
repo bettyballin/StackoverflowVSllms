@@ -1,0 +1,1 @@
+$('#form2, #form3').find('form').each(function() {\n  $(this).keyup(function(e) {\n    if (e.which === 13) { // Enter key\n      $(this).submit();\n    }\n  });\n});

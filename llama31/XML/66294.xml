@@ -1,0 +1,1 @@
+POST /blog HTTP/1.1\nContent-Type: application/atom+xml\n\n<?xml version="1.0" encoding="utf-8"?>\n<entry xmlns="http://www.w3.org/2005/Atom">\n  <title>Example Blog Post</title>\n  <content>Example blog post content</content>\n</entry>

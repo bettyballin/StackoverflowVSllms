@@ -1,0 +1,1 @@
+def repeated_elements(arr)\n  arr.group_by(&:itself).select { |k, v| v.size > 1 }.keys\nend\n\nmy_array = [1, 1, 1, 2, 4, 6, 3, 3]\nputs repeated_elements(my_array).inspect # => [1, 3]

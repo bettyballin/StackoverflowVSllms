@@ -1,1 +1,0 @@
-<sql\n        driver="oracle.jdbc.driver.OracleDriver"\n        url="jdbc:oracle:thin:@myserver.hu:1521:dbid"\n        userid="myuserid"\n        password="mypassword"\n        print="yes"\n        classpath="E:\MyDir\lib\ojdbc14-10_2_0_3.jar">\n        select * from table\n    </sql>

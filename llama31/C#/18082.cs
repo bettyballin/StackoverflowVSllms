@@ -1,0 +1,1 @@
+byte[] initVectorBytes = new byte[16];\nusing (var rng = RandomNumberGenerator.Create())\n{\n    rng.GetBytes(initVectorBytes);\n}

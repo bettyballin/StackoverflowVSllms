@@ -1,0 +1,1 @@
+CREATE VIEW SentCountView AS\nSELECT u1.name as UserName, COUNT(m1.UserFromId) as SentCount\nFROM Message m1, User u1\nWHERE u1.uid = m1.UserFromId\nGROUP BY u1.name;\n\nCREATE VIEW MainView AS\nSELECT UserName\nFROM SentCountView\nWHERE SentCount > 3;

@@ -1,0 +1,1 @@
+// Example in C\nconst char* token = "...your-token...";\n\n// In the plugin code, check the token before accessing the smartcard reader\nif (strcmp(request->token, token) == 0) {\n  // Access the smartcard reader\n} else {\n  // Block access\n}

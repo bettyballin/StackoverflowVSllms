@@ -1,0 +1,1 @@
+WITH substrings AS (\n  SELECT \n    id,\n    REGEXP_SPLIT(text, '\\b\\w+\\b') AS substrings\n  FROM \n    your_table\n)\nSELECT \n  substring,\n  COUNT(*) AS occurrences\nFROM \n  substrings\nGROUP BY \n  substring\nORDER BY \n  occurrences DESC;

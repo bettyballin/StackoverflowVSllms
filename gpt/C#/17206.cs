@@ -1,1 +1,0 @@
-using System;\n\npublic class Example\n{\n    public void SayHello()\n    {\n        Console.WriteLine("Hello, world!");\n    }\n}\n\nclass Program\n{\n    static void Main()\n    {\n        Example example = new Example();\n        Type type = typeof(Example);\n        var method = type.GetMethod("SayHello");\n        method.Invoke(example, null);\n    }\n}

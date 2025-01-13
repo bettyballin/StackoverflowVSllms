@@ -1,0 +1,1 @@
+SELECT 'Post' AS commentable_type, id, title, text FROM Post\nUNION ALL\nSELECT 'Person' AS commentable_type, id, name, '' AS text FROM Person\nUNION ALL\nSELECT 'Photo' AS commentable_type, id, title, path AS text FROM Photo

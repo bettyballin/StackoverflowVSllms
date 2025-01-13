@@ -1,0 +1,1 @@
+mkfs.ext3 -O ^has_journal,^resize_inode /dev/your/device

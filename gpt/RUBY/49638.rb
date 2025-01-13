@@ -1,1 +1,0 @@
-rails generate cancan:ability

@@ -1,0 +1,1 @@
+chgImg("myImage", "image1");

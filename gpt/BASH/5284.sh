@@ -1,1 +1,0 @@
-@echo off\n:: Add or modify a DWORD value\nreg add "HKCU\Software\MyApp" /v "MyDWORDValue" /t REG_DWORD /d 1 /f

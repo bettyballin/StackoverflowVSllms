@@ -1,1 +1,0 @@
-ssh -D 3307 -f -C -q -N username@hostname

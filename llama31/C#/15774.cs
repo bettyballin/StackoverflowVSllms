@@ -1,0 +1,1 @@
+<div>\n    @Html.Raw(ViewData["YourHtmlString"])\n</div>

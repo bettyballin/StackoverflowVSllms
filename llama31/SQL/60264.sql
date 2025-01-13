@@ -1,0 +1,1 @@
+CREATE PROCEDURE GetUserData\n    @UserId INT\nAS\nBEGIN\n    SELECT \n        u.Id,\n        u.Name,\n        u.Email,\n        u.CreatedDate\n    FROM \n        Users u\n    WHERE \n        u.Id = @UserId;\nEND;

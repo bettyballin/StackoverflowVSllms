@@ -1,0 +1,1 @@
+perl -CSD -pe 's#(C:\\good\\(?:[^\\]+\\)*)\\# $1/#g' input_file > output_file

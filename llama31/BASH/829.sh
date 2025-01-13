@@ -1,0 +1,1 @@
+bundle exec rake oracle_schema:dump

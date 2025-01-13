@@ -1,1 +1,0 @@
-pip install shapely numpy matplotlib scipy

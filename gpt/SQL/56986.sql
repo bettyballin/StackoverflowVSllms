@@ -1,1 +1,0 @@
-user_id\nfname\nlname\nticket_id\nflight_no\nairline\ndeparture_time\narrival_time

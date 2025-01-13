@@ -1,1 +1,0 @@
--- Batch 1\nSELECT *\nFROM tab1\nWHERE tab1.id IN (id1, id2, ..., idN);\n\n-- Batch 2\nSELECT *\nFROM tab1\nWHERE tab1.id IN (idN+1, idN+2, ..., id2N);

@@ -1,0 +1,1 @@
+$string = 'your russian text here'; // e.g. 'Привет, мир!'\n$utf8_string = iconv('Windows-1251', 'UTF-8', $string);\n\necho $utf8_string;

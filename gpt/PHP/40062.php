@@ -1,1 +1,0 @@
-$encoded_string = urlencode('Coldplay/Fix+You/273/X+%26+Y');\n$url = "DOSOMETHING/" . $encoded_string;

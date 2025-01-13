@@ -1,1 +1,0 @@
-$(document).ready(function(){\n    $('img').on('error', function(){\n        $(this).attr('src', 'path/to/your/fallback/image.png');\n    });\n});

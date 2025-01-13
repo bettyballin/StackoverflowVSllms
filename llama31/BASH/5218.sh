@@ -1,0 +1,1 @@
+# Assuming you have a Git repository set up and a 'deploy' branch\n\n# Merge changes from 'dev' branch into 'deploy' branch\ngit checkout deploy\ngit merge dev\n\n# Deploy code to live site using a custom script or deployment tool\nrsync -avz --delete /local/repo/ /live/site/

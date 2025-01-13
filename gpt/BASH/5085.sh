@@ -1,1 +1,0 @@
-find /path/to/directory -depth -type f | while read -r file; do\n  dir=$(dirname "$file")\n  base=$(basename "$file")\n  truncated_base=$(echo "$base" | cut -c1-255)\n  if [ "$base" != "$truncated_base" ]; then\n    mv -v "$file" "$dir/$truncated_base"\n  fi\ndone

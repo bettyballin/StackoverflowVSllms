@@ -1,1 +1,0 @@
-DECLARE @Test TABLE ([Sets] INT, [Reps] INT);\n\nINSERT INTO @Test VALUES (2, 10);\nINSERT INTO @Test VALUES (3, 15);\nINSERT INTO @Test VALUES (3, 12);\nINSERT INTO @Test VALUES (4, 8);\n\nSELECT [Sets], [Reps],\n       STUFF(\n           (SELECT ',' + CAST([Reps] AS VARCHAR)\n            FOR XML PATH(''), TYPE).value('.', 'NVARCHAR(MAX)'), 1, 1, '') AS Reps\nFROM @Test;

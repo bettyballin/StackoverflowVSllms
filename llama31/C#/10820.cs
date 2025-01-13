@@ -1,0 +1,1 @@
+public class MyController : Controller\n{\n    public PartialViewResult GetDialogContent()\n    {\n        // Return the partial view that contains the dialog box content\n        return PartialView("_DialogContent");\n    }\n}

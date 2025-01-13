@@ -1,1 +1,0 @@
-interface IMyEvents\n{\n    HRESULT FooCallback(\n        [in] long MyParam1,\n        [in] long MyParam2,\n        [in] long MyParam3);\n\n    HRESULT BarCallback(\n        [in] long MyParam1,\n        [in] BSTR MyParam2,\n        [in] BSTR MyParam3);\n};

@@ -1,0 +1,1 @@
+var handler = new HttpClientHandler();\nhandler.ClientCertificateOptions = ClientCertificateOption.Manual;\nhandler.ServerCertificateCustomValidationCallback = \n    (sender, cert, chain, sslPolicyErrors) => { return true; };\n\nvar client = new HttpClient(handler);

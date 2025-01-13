@@ -1,1 +1,0 @@
-public void DisposeSessionObjects()\n{\n    foreach (string key in Session.Keys)\n    {\n        if (Session[key] is IDisposable disposable)\n        {\n            disposable.Dispose();\n        }\n    }\n    Session.Clear(); // Optionally, clear the session after disposing objects\n}

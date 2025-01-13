@@ -1,0 +1,1 @@
+private static readonly ConcurrentDictionary<string, object> _staticVariables = new ConcurrentDictionary<string, object>();\n\npublic static object GetStaticVariable(string key)\n{\n    return _staticVariables.GetOrAdd(key, k => new object());\n}

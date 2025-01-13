@@ -1,1 +1,0 @@
-CREATE TABLE CountryCodes (\n  code CHAR(3)\n);

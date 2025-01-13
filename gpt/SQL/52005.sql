@@ -1,1 +1,0 @@
-SELECT * FROM login_session WHERE (now() - modified) > (timeout * interval '1 second');

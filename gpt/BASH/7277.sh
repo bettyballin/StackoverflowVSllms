@@ -1,1 +1,0 @@
-convert input.tiff -compress jpeg -quality 85 output.pdf

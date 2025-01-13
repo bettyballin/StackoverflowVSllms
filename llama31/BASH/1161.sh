@@ -1,0 +1,1 @@
+etsh int ipv4 add address "Local Area Connection" 10.10.10.11 SkipAsSource=true

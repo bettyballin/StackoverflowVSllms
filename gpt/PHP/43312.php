@@ -1,1 +1,0 @@
-$options = array(\n    'indent' => true,\n    'output-xhtml' => true,\n    'wrap' => 200,\n    'drop-proprietary-attributes' => false\n);\n\n$tidy = new tidy();\n$tidy->parseString($html, $options, 'utf8');\n$tidy->cleanRepair();\n\necho $tidy;

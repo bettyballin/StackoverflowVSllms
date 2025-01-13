@@ -1,0 +1,1 @@
+var dataRelation = parentTable.ParentRelations["ParentChildRelation"];\nvar list = \n    from pr in parentTable.AsEnumerable()\n    join cr in childTable.AsEnumerable() on pr equals cr.GetParentRow(dataRelation)\n    where pr.Field<string>("Value") == "foo"\n    select cr;

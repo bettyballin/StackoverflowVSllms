@@ -1,1 +1,0 @@
-MERGE INTO Table1 AS T1\nUSING Table2 AS T2\nON T1.User = T2.UserName\nWHEN MATCHED THEN\n    UPDATE SET T1.InternetAmountDue = T2.AmountDue\nWHEN NOT MATCHED THEN\n    INSERT (User, InternetAmountDue)\n    VALUES (T2.UserName, T2.AmountDue);

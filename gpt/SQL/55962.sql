@@ -1,1 +1,0 @@
-SELECT f.id, f.name \nFROM fruit f\nWHERE f.id NOT IN (\n    SELECT fr.fruit_id \n    FROM fruit_rating fr \n    WHERE fr.user_id = 10\n)\nGROUP BY f.id, f.name;

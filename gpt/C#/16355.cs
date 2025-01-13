@@ -1,1 +1,0 @@
-public class Person\n{\n    public string Name { get; set; }\n    public IList<PhoneNumber> PhoneNumbers { get; set; }\n    public IList<Address> Addresses { get; set; }\n}\n\npublic class PhoneNumber\n{\n    public string Number { get; set; }\n}\n\npublic class Address\n{\n    public string Street { get; set; }\n}

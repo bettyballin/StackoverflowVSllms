@@ -1,0 +1,1 @@
+MyTypedDataSet aDataSet = new MyTypedDataSet();\naDataSet.Merge(anotherDataSet);\naDataSet.Merge(yetAnotherDataSet);

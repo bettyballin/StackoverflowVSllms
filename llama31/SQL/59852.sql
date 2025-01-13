@@ -1,0 +1,1 @@
+UPDATE MessageQueue\nSET Status = 'NEW'\nWHERE Status = 'PROCESSING'\n    AND DATEDIFF(MINUTE, UpdateDate, GETDATE()) > 30;  -- adjust timeout period as needed

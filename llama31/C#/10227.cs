@@ -1,0 +1,1 @@
+using (var fileStream = new FileStream("output.txt", FileMode.Create, FileAccess.Write, FileShare.None, 4096))\nusing (var textWriter = new StreamWriter(fileStream))\n{\n    textWriter.Write(strOutput);\n}

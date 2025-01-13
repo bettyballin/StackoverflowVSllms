@@ -1,0 +1,1 @@
+#include "stdio.h"\n\nint main(int argc,char* argv[]) {\n    FILE *fp = fopen("path_to_file.bin","wb");\n    if(fp == NULL) {\n        printf("error creating file");\n        return -1;\n    }\n    int val = 4;\n    fwrite((const void*)&val,sizeof(int),1,fp);\n    fclose(fp);\n    return 0;\n}

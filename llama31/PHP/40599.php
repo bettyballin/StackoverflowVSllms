@@ -1,0 +1,1 @@
+$container = new League\Container\Container();\n$container->add('service', Service::class);

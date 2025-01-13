@@ -1,1 +1,0 @@
-// ExampleClass.cpp\n#include "ExampleClass.h"\n#include <iostream>\n\ntemplate <typename T>\nExampleClass<T>::ExampleClass(T value) : value(value) {}\n\ntemplate <typename T>\nvoid ExampleClass<T>::display() {\n    std::cout << "Value: " << value << std::endl;\n}\n\n// Explicit instantiation\ntemplate class DLL_API ExampleClass<int>;\ntemplate class DLL_API ExampleClass<double>;

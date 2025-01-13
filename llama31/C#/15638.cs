@@ -1,0 +1,1 @@
+public class Program\n{\n    public static void Main(string[] args)\n    {\n        PdfIndexGenerator generator = new PdfIndexGenerator();\n        generator.GenerateIndex("input.pdf", "output.pdf");\n    }\n}

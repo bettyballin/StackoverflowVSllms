@@ -1,1 +1,0 @@
-import ldap \n\nl = ldap.initialize('LDAP://example.com') \nm = l.simple_bind_s('username@example.com', 'password') \n\nprint(m)\n# Output: (97, [])

@@ -1,1 +1,0 @@
-objcopy --redefine-sym bl=mov your_program

@@ -1,0 +1,1 @@
+var imageData = canvas.toDataURL('image/jpeg', 0.5);

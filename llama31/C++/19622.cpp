@@ -1,0 +1,1 @@
+class C : public B\n{\npublic:\n    void bar()\n    {\n        string s;\n        A::foo(s); // Call foo from class A explicitly\n    }\n};

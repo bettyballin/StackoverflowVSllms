@@ -1,1 +1,0 @@
-# app/models/calendar.rb\nclass Calendar\n  # Class implementation\nend

@@ -1,1 +1,0 @@
-CREATE TABLE #MyTable (MyColumn XML);\nINSERT INTO #MyTable VALUES ('<Element>Some Text</Element>');

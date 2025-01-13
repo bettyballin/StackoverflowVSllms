@@ -1,1 +1,0 @@
-// application/views/scripts/index/index.phtml\n   <?php echo $this->partial('partials/login-form.phtml'); ?>

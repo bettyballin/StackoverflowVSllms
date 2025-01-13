@@ -1,0 +1,1 @@
+protected void DropDownList1_SelectedIndexChanged(object sender, EventArgs e)\n{\n    // Update your database here\n    using (var connection = new SqlConnection("Your Connection String"))\n    {\n        connection.Open();\n        using (var command = new SqlCommand("Your Update Query", connection))\n        {\n            command.ExecuteNonQuery();\n        }\n    }\n}

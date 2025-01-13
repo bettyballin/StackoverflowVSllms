@@ -1,0 +1,1 @@
+using (var db = new MyDataContext())\n{\n    var results = db.ExecuteQuery<XmlData>("EXEC GetXmlData");\n    // process the results\n}\n\npublic class XmlData\n{\n    public int Id { get; set; }\n    public string Content { get; set; }\n    public float Value { get; set; }\n}

@@ -1,1 +1,0 @@
-protected void Application_End(object sender, EventArgs e)\n   {\n       // Code to handle application shutdown\n   }\n\n   protected void Application_Start(object sender, EventArgs e)\n   {\n       // Code to handle application start\n   }

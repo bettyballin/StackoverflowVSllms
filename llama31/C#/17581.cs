@@ -1,0 +1,1 @@
+public void DoSomething(Guid id)\n{\n    if (id == Guid.Empty)\n    {\n        throw new ArgumentException("Guid.Empty is not a valid input", nameof(id));\n    }\n    // ...\n}

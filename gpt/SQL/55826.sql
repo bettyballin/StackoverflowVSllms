@@ -1,1 +1,0 @@
--- Perform a full backup\nBACKUP DATABASE YourDatabase TO DISK = 'C:\Backups\YourDatabase_Full.bak';\n\n-- Perform schema changes\nALTER TABLE YourTable ADD NewColumn INT;\n-- Or any other schema changes\n\n-- Perform a differential backup\nBACKUP DATABASE YourDatabase TO DISK = 'C:\Backups\YourDatabase_Diff.bak' WITH DIFFERENTIAL;

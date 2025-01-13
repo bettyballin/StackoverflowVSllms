@@ -1,0 +1,1 @@
+<pre><code>\n    PrimeCalc calc = new PrimeCalc();\n    Func&lt;int, int&gt; del = calc.GetNextPrime;\n</code></pre>

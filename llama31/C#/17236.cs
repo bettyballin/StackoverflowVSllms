@@ -1,0 +1,1 @@
+@Html.CustomAjaxActionLink("Click me", "MyAction", "MyController", null, new AjaxOptions { HttpMethod = "GET", UpdateTargetId = "myDiv" })

@@ -1,0 +1,1 @@
+XmlElement myXML = ...;\nXPathNavigator navigator = myXML.CreateNavigator();\n\nXmlNamespaceManager namespaceManager = new XmlNamespaceManager(navigator.NameTable);\nnamespaceManager.AddNamespace("ns", "http://your.default.namespace");\n\nXPathNodeIterator result = navigator.Select("/ns:outerelement/ns:innerelement", namespaceManager);

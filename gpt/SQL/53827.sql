@@ -1,1 +1,0 @@
-SELECT t.id, t.name, t.notesId, t.created, t.ownerId\nFROM tag t\nJOIN tag_assoc ta ON t.id = ta.tagId\nWHERE ta.postId = 12345;

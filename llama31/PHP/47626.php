@@ -1,0 +1,1 @@
+// Example using a temporary file\n$tempDir = sys_get_temp_dir();\n$fileName = tempnam($tempDir, 'ftp');\n$fileHandle = fopen($fileName, 'w');\n\n// Your code to write to the file handle\n\nfclose($fileHandle);\n\n// FTP the file...\n\n// Finally, remove the temporary file\nunlink($fileName);

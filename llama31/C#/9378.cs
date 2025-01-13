@@ -1,0 +1,1 @@
+string! s = null; // compiler error

@@ -1,0 +1,1 @@
+using (FileStream fs = new FileStream("path/to/file.xml", FileMode.Open, FileAccess.Read))\n{\n    using (XmlReader reader = XmlReader.Create(fs))\n    {\n        // Read the XML file\n    }\n}

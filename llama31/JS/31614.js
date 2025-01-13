@@ -1,0 +1,1 @@
+$("div").css("word-wrap", "break-word");

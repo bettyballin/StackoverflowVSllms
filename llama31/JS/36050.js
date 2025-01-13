@@ -1,0 +1,1 @@
+var script = document.createElement('script');\nscript.src = 'script.js?v=' + new Date().getTime();\ndocument.head.appendChild(script);

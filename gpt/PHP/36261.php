@@ -1,1 +1,0 @@
-function generateNGrams($text, $n) {\n    $ngrams = [];\n    $tokens = explode(' ', $text);\n    \n    for ($i = 0; $i <= count($tokens) - $n; $i++) {\n        $ngrams[] = implode(' ', array_slice($tokens, $i, $n));\n    }\n\n    return $ngrams;\n}\n\n// Example usage:\n$text = "I live in NY";\n$n = 2;\nprint_r(generateNGrams($text, $n));

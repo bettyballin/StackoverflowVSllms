@@ -1,0 +1,1 @@
+ISession session = sessionFactory.OpenSession();\nITransaction tx = session.BeginTransaction();\n\nOrder order = new Order { Customer = new Customer { Name = "John Doe" } };\norder.Items.Add(new OrderItem { Product = new Product { Name = "Product 1" } });\norder.Items.Add(new OrderItem { Product = new Product { Name = "Product 2" } });\n\nsession.Save(order);\ntx.Commit();

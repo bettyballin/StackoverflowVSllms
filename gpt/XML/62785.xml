@@ -1,1 +1,0 @@
-<dependency>\n    <groupId>com.google.jimfs</groupId>\n    <artifactId>jimfs</artifactId>\n    <version>1.2</version>\n</dependency>

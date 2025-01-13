@@ -1,0 +1,1 @@
+ServiceController serviceController = new ServiceController(someService);\nserviceController.Stop();\n\n// Get the service process\nProcess process = Process.GetProcessById(serviceController.ServiceHandle.DangerousGetHandle().ToInt32());\n\n// Wait for the process to exit\nprocess.WaitForExit();\n\nDoSomething();

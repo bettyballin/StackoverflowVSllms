@@ -1,1 +1,0 @@
-using Microsoft.MultiPoint.Sdk;\nusing Microsoft.MultiPoint.Sdk.Controls;\n\npublic partial class MainWindow : Window\n{\n    public MainWindow()\n    {\n        InitializeComponent();\n        MultiPointSdk.Instance.Initialize();\n    }\n\n    protected override void OnClosed(EventArgs e)\n    {\n        base.OnClosed(e);\n        MultiPointSdk.Instance.Shutdown();\n    }\n}

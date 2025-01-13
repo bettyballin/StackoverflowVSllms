@@ -1,1 +1,0 @@
-void OnReceive(ref byte[] pBuffer, int lSize);

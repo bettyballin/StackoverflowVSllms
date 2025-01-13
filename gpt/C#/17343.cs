@@ -1,1 +1,0 @@
-using Telerik.WinControls.UI;\n\n// Initialize RadGridView\nRadGridView radGridView = new RadGridView();\nradGridView.Dock = DockStyle.Fill;\nthis.Controls.Add(radGridView);\n\n// Enable AutoFill\nradGridView.AllowAutoFill = true;\n\n// Export to Excel\nradGridView.ExportToExcelML("exportedFile.xml");\n\n// Import from Excel (pasting from clipboard)\nradGridView.PasteClipboard();

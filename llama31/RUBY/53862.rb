@@ -1,0 +1,1 @@
+before_validation :normalize\n\ndef normalize\n  write_attribute(:thenumber, read_attribute(:thenumber).to_s.gsub(',', ''))\nend

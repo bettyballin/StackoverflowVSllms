@@ -1,1 +1,0 @@
-const script = document.createElement('script');\nscript.src = 'path/to/your/script.js';\ndocument.head.appendChild(script);\n\nscript.onload = function() {\n    // Code to execute after the script is loaded\n};

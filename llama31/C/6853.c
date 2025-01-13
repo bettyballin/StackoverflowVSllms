@@ -1,0 +1,1 @@
+void search(const char* text, const char* pattern) {\n    int textLen = strlen(text);\n    int patternLen = strlen(pattern);\n\n    if (textLen < 256 && patternLen < 10) {\n        // Use KMP for short inputs\n        kmpSearch(text, pattern);\n    } else {\n        // Use BMH for longer inputs\n        bmhSearch(text, pattern);\n    }\n}

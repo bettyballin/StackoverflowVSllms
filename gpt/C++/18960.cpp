@@ -1,1 +1,0 @@
-template <typename S, typename T>\nstruct foo {\n    void bar();\n};\n\n// Full definition of the partial specialization\ntemplate <typename T>\nstruct foo<int, T> {\n    void bar();\n};\n\n// Definition of the member function\ntemplate <typename T>\nvoid foo<int, T>::bar() {\n    // function implementation\n}

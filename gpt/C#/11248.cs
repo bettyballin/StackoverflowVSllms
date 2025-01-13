@@ -1,1 +1,0 @@
-string path = @"C:\path\to\your\directory";\nDirectoryHelper.CreateSecureDirectory(path);

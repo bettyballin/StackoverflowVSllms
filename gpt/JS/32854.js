@@ -1,1 +1,0 @@
-d = { func: alert.bind(window) };\nd.func("Hello World!");    // Pops up an alert window\nd["func"]("Hello World!"); // Also pops up an alert window

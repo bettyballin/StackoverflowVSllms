@@ -1,1 +1,0 @@
-class Object\n{\npublic:\n    template<typename T>\n    void DoX(T x)\n    {\n        // Function implementation here\n    }\n};

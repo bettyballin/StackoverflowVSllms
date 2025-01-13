@@ -1,0 +1,1 @@
+[InheritedExport]\npublic interface INodeTypePlugin : INodeType\n{\n    // Add methods or properties that plugins will implement\n}\n\n[InheritedExport]\npublic interface IContextActionPlugin : IContextAction\n{\n    // Add methods or properties that plugins will implement\n}

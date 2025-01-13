@@ -1,1 +1,0 @@
-DataTable dataTable = GetDataFromWebService(); // Assume this method fetches your data from the web service.\nstring connectionString = "your_connection_string_here";\nstring destinationTableName = "your_table_name_here";\n\nBulkInsertData(dataTable, connectionString, destinationTableName);

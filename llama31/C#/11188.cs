@@ -1,0 +1,1 @@
+[DllImport("kernel32.dll")]\nstatic extern bool AttachConsole(int dwProcessId);\n\n// ...\n\nif (consoleMode)\n{\n    AttachConsole(-1); // -1 means attach to the parent process\n    Console.WriteLine("consolemode started");\n    // ...\n}

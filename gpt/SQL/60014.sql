@@ -1,1 +1,0 @@
-EXEC sp_addmergesubscription \n       @publication = 'YourPublicationName', \n       @subscriber = 'YourSubscriberName', \n       @subscriber_db = 'YourSubscriberDB', \n       @subscription_type = N'Push', \n       @sync_type = N'initialize with backup', \n       @backupdevicetype = N'Disk', \n       @backupdevicename = N'\\Path\To\Snapshot\Directory';

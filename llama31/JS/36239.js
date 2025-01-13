@@ -1,0 +1,1 @@
+const express = require('express');\nconst app = express();\n\napp.put('/farms/:id', (req, res) => {\n  // Update farm data...\n  res.set('Cache-Tag', `farms/${req.params.id}`);\n  res.send('Farm updated!');\n});

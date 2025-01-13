@@ -1,0 +1,1 @@
+try\n{\n    // Interact with the COM object\n}\ncatch (Exception ex)\n{\n    int errorCode = Marshal.GetLastWin32Error();\n    // Handle the Win32 error\n    Console.WriteLine("Win32 error caught: " + errorCode);\n}

@@ -1,1 +1,0 @@
-pg_basebackup -D /path/to/backup -F tar -z -P -x

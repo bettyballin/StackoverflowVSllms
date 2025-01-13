@@ -1,0 +1,1 @@
+#include <Windows.h>\n\nint main() {\n  if (OpenClipboard(NULL)) {\n    HANDLE hClipboardData = GetClipboardData(CF_TEXT);\n    if (hClipboardData) {\n      char* pszText = (char*)GlobalLock(hClipboardData);\n      // Use the text\n      GlobalUnlock(hClipboardData);\n    }\n    CloseClipboard();\n  }\n  return 0;\n}

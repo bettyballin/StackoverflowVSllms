@@ -1,0 +1,1 @@
+data['text'] = data['text'].apply(lambda x: " ".join(x.lower() for x in x.split()))

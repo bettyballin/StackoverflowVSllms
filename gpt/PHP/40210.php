@@ -1,1 +1,0 @@
-public function updateStatus()\n   {\n       global $db, $common, $config;\n\n       // update the user record with UTC time\n       $data = array(\n           'date_last_active'  => new Zend_Db_Expr('UTC_TIMESTAMP()')\n       );\n\n       $db->update('users', $data, 'user_id=' . $this->userId);\n   }

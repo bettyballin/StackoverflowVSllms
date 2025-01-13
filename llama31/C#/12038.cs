@@ -1,0 +1,1 @@
+using System;\n\nclass Test\n{\n    static void Main()\n    {\n        string nullString = null;\n        Console.WriteLine(string.IsNullOrEmpty(nullString)); // Should print: True\n    }\n}

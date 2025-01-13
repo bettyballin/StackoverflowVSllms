@@ -1,1 +1,0 @@
-require 'Twitter.class.php';\n$tweet = new Twitter("username", "password");\n\nforeach ($comment as $key => $value) {\n    $link = $db->get_row("sql query");\n\n    // Update tweet and add a delay\n    $tweet->update($link);\n    \n    // Sleep for a reasonable amount of time to avoid rate limit issues\n    sleep(15); // Adjust the sleep time as needed\n}

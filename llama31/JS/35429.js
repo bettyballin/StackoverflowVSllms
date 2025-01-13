@@ -1,0 +1,1 @@
+const dpi = require('dpi.js');\nconst userDPI = dpi();

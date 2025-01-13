@@ -1,1 +1,0 @@
-# Start the trace from the root\ndig +trace www.subdomain.site.com.br

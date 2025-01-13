@@ -1,1 +1,0 @@
-<?php\n// Correct: No output before header function\nheader('Location: /new-page.php');\necho "This is fine because header is already sent";

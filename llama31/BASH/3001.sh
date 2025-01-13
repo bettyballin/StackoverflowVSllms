@@ -1,0 +1,1 @@
+appcmd set config -section:system.applicationHost/sites /+[@name='Default'].bindings.[protocol='http',bindingInformation='127.0.0.1:80:localhost']

@@ -1,0 +1,1 @@
+myNewRow.myGuidColumn = myGuid ?? Guid.Empty;

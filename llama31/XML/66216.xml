@@ -1,0 +1,1 @@
+<dependency>\n    <groupId>org.schematron</groupId>\n    <artifactId>schematron</artifactId>\n    <version>1.5</version>\n</dependency>

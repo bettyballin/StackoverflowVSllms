@@ -1,1 +1,0 @@
-public bool Foo<T>() where T : IInterfaceConstraint\n{\n    // Your reflection logic here\n    return true;\n}

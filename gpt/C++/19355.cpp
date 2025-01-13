@@ -1,1 +1,0 @@
-// This will cause a compilation error\nstd::cout << "Some text" + s1 + "some more text\n";

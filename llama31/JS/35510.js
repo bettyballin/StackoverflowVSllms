@@ -1,0 +1,1 @@
+function fetchAdNumbers(ad_numbers) {\n  if (ad_numbers.length === 0) return;\n  var ad_number = ad_numbers.shift();\n  $.post('/fetch.php', { ad_number: ad_number }, function(data, textStatus) {\n    $('#log').prepend('<p>' + data + '</p>');\n    fetchAdNumbers(ad_numbers);\n  });\n}\n\nfetchAdNumbers(ad_numbers);

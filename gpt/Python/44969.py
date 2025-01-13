@@ -1,1 +1,0 @@
-import secrets\nimport string\n\ndef generate_random_key(length=21):\n    characters = string.ascii_letters + string.digits\n    return ''.join(secrets.choice(characters) for _ in range(length))\n\nrandom_key = generate_random_key()\nprint(random_key)

@@ -1,1 +1,0 @@
-SELECT \n    r.session_id,\n    r.status,\n    r.cpu_time,\n    r.total_elapsed_time,\n    r.logical_reads,\n    r.reads,\n    r.writes,\n    r.row_count,\n    r.command,\n    s.text\nFROM sys.dm_exec_requests r\nCROSS APPLY sys.dm_exec_sql_text(r.sql_handle) s;

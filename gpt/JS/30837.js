@@ -1,1 +1,0 @@
-const resemble = require('resemblejs');\n\n// Compare two images\nresemble('path/to/image1.png')\n  .compareTo('path/to/image2.png')\n  .onComplete(function(data) {\n    console.log(data); // Outputs comparison data\n    data.getDiffImage().pack().pipe(fs.createWriteStream('output.png'));\n  });

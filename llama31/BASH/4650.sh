@@ -1,0 +1,1 @@
+openssl s_client -connect yourwebsite.com:443 -ssl3

@@ -1,1 +1,0 @@
-mkdir -p ~/myrpmdatabase\n   rpm --dbpath ~/myrpmdatabase --initdb

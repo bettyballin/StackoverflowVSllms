@@ -1,1 +1,0 @@
-EXTRA_OBJS := $(patsubst %,%.os,$(wildcard $(EXTRA_SRCS)))\n\nplugin.dll: plugin.os $(EXTRA_OBJS)\n\n%.os: %.cpp\n    gcc -fpic -c $< -o $@\n\nplugin.os: plugin.cpp $(wildcard $(EXTRA_SRCS))\n    gcc -fpic -c $< -o $@\n\n# Add rules for extra sources if they exist\n$(foreach src, $(EXTRA_SRCS), \\n  $(if $(wildcard $(src)), \\n    $(eval $(src:.cpp=.os): $(src)) \\n  ) \\n)

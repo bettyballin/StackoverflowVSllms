@@ -1,0 +1,1 @@
+$imagick = new Imagick();\n$imagick->setResolution(300, 300); // Set the resolution to 300 DPI\n$imagick->readImage('path/to/your/document.pdf[0]'); // Read the first page of the PDF\n$imagick->setImageFormat('jpg');\n$imagick->writeImage('path/to/your/output.jpg');

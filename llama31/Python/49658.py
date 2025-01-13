@@ -1,0 +1,1 @@
+import registry\n\n# Create a new Registry instance\nreg = registry.Registry()\n\n# Execute a query\nresults = reg.execute("SELECT * FROM HKEY_CURRENT_USER\\Software\\MyApp")\n\n# Iterate over the results\nfor row in results:\n    print(row["KeyName"] + ": " + row["KeyValue"])

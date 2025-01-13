@@ -1,1 +1,0 @@
-// Create the div element and set its style\nvar odv = $('<div>').css('display', 'none');\nthis.OuterDiv = odv;\n\n// Create the table element, set its properties, and append it to the div\nvar t = $('<table>').attr('cellspacing', 0).addClass('text');\nodv.append(t);

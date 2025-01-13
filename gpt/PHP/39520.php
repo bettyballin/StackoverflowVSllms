@@ -1,1 +1,0 @@
-session.save_handler = "files"\nsession.save_path    = ""

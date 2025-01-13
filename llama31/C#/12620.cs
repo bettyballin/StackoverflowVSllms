@@ -1,0 +1,1 @@
+public void DoImportantStuff()\n{\n    // trivial stuff\n\n    lock (someLock)\n    {\n        // dangerous code goes here.\n    }\n}

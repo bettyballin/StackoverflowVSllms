@@ -1,0 +1,1 @@
+fetch('/api/data', {\n  method: 'GET',\n  headers: {\n    'Content-Type': 'application/json',\n    'Accept': 'application/json'\n  }\n})\n.then(response => response.json())\n.then(data => console.log(data))\n.catch(error => console.error(error));

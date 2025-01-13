@@ -1,1 +1,0 @@
--- To find all aliases for 'microsoft'\nSELECT alias FROM aliases\nJOIN entities ON aliases.entity_id = entities.id\nWHERE entities.name = 'microsoft';\n\n-- To find the main entity for an alias\nSELECT name FROM entities\nJOIN aliases ON entities.id = aliases.entity_id\nWHERE aliases.alias = 'ms';

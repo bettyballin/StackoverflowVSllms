@@ -1,0 +1,1 @@
+// Silverlight Project\nusing SharedContracts;\n\npublic class MySilverlightClass\n{\n    public User GetUser()\n    {\n        // create and return a User instance\n    }\n}

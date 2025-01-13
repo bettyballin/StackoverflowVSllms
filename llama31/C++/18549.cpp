@@ -1,0 +1,1 @@
+ref class CustomList : public IList<CustomItem>\n{\npublic:\n    // ... other members ...\n\n    virtual IEnumerator<CustomItem>^ GetEnumerator() { throw gcnew NotImplementedException(); }\n    virtual System::Collections::IEnumerator^ GetEnumeratorNonGeneric()\n    { throw gcnew NotImplementedException(); }\n};

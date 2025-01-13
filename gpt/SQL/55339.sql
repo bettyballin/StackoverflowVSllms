@@ -1,1 +1,0 @@
-CREATE TABLE ScreenLayouts (\n         LayoutId INT PRIMARY KEY,\n         LayoutName NVARCHAR(100)\n     );\n\n     CREATE TABLE Controls (\n         ControlId INT PRIMARY KEY,\n         LayoutId INT FOREIGN KEY REFERENCES ScreenLayouts(LayoutId),\n         ControlType NVARCHAR(50),\n         ControlPosition NVARCHAR(50),\n         DataField NVARCHAR(100)\n     );

@@ -1,0 +1,1 @@
+using System;\n\nclass Program\n{\n    static void Main()\n    {\n        char copyrightSymbol = '\u00A9';\n        Console.WriteLine(copyrightSymbol + " 2024 My Company");\n    }\n}

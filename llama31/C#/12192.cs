@@ -1,0 +1,1 @@
+[OperationContract]\n[WebGet(ResponseFormat = WebMessageFormat.Json, \n    UriTemplate = "/sales/?start={start}&end={end}")]\nList<Sales> GetSalesByDate(string start, string end);

@@ -1,0 +1,1 @@
+function errorHandler($errno, $errstr) {\n    // Handle the error\n    echo "Error occurred: $errstr\n";\n}\n\nset_error_handler('errorHandler', E_ALL);

@@ -1,0 +1,1 @@
+java -jar schemaspy.jar -t mysql -db your_database -u your_username -p your_password -o output_directory -dp your_ddl_script.sql

@@ -1,1 +1,0 @@
-// mylibrary.cpp\n   #include "mylibrary.h"\n   #include <iostream>\n\n   void hello() {\n       std::cout << "Hello from DLL!" << std::endl;\n   }

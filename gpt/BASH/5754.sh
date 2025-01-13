@@ -1,1 +1,0 @@
-chmod 711 /home/user\n   chmod 755 /home/user/xxx

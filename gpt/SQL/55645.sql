@@ -1,1 +1,0 @@
-SELECT\n    SUM(LENGTH(RequestedReportParams) - LENGTH(REPLACE(RequestedReportParams, ',', ''))) AS comma_count\nFROM\n    [table]\nWHERE\n    RequestedReportParams LIKE '%,%'

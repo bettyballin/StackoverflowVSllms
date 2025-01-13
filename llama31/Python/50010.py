@@ -1,0 +1,1 @@
+def loop_strategy(prisoner_number, boxes):\n    box_to_open = prisoner_number\n    for _ in range(50):\n        box_to_open = boxes[box_to_open - 1]\n        if box_to_open == prisoner_number:\n            return True\n    return False

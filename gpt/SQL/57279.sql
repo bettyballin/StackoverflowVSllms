@@ -1,1 +1,0 @@
--- As userB, create the procedure\nCREATE OR REPLACE PROCEDURE userB.create_table_in_cluster (\n    table_name IN VARCHAR2\n) AS\nBEGIN\n    EXECUTE IMMEDIATE 'CREATE TABLE ' || table_name || ' (id NUMBER) CLUSTER my_cluster (id)';\nEND;\n/\n\n-- Grant execute privilege on the procedure to userA\nGRANT EXECUTE ON userB.create_table_in_cluster TO userA;

@@ -1,0 +1,1 @@
+[ServiceContract(Namespace = "http://example.org")]\n[ServiceKnownType(typeof(ConcreteMessage1))]\n[ServiceKnownType(typeof(ConcreteMessage2))]\npublic interface IEquinoxWebservice\n{\n    // ...\n}

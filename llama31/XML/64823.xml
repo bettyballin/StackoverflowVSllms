@@ -1,0 +1,1 @@
+<system.web>\n  <sessionState mode="StateServer"\n                stateConnectionString="tcpip=StateServer1:42424"\n                stateConnectionString2="tcpip=StateServer2:42424"\n                sqlConnectionString="Data Source=SharedDatabase;User ID=sa;Password=P@ssw0rd"\n                cookieless="false"\n                timeout="20"/>\n</system.web>

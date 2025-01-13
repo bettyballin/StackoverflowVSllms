@@ -1,1 +1,0 @@
-SELECT tblA.a, tblA.b, tblA.c, tblA.d\n   FROM tblA\n   WHERE tblA.a NOT IN (SELECT tblB.a FROM tblB)

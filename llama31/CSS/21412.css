@@ -1,0 +1,1 @@
+.rounded-corner {\n  background-color: #f2f2f2; /* original color */\n  border-radius: 10px; /* adjust to your rounded corner radius */\n}\n\n.rounded-corner:hover {\n  background-color: #ccc; /* lighter color for hover */\n}

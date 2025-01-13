@@ -1,0 +1,1 @@
+[AspNetCompatibilityRequirements(RequirementsMode = AspNetCompatibilityRequirementsMode.Required)]\npublic class YourService : YourServiceContract\n{\n    public void YourMethod()\n    {\n        var context = HttpContext.Current;\n        var session = context.Session;\n        // Access session state here\n    }\n}

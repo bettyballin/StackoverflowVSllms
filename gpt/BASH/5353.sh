@@ -1,1 +1,0 @@
-cp /path/to/online_redo_logs/* /path/to/backup_online_redo_logs/

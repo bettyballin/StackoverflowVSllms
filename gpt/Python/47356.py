@@ -1,1 +1,0 @@
-import csv\n\nwith open('output.csv', mode='w', newline='') as file:\n    writer = csv.writer(file, quoting=csv.QUOTE_MINIMAL)\n    writer.writerow(["Company Name, Inc.", "Address", "City"])\n    writer.writerow(["Another Company", "Another Address", "Another City"])

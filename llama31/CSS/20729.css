@@ -1,0 +1,1 @@
+#container {\n  width: 100%;\n  height: 100%;\n}\n\n#left-column {\n  float: left;\n  width: 20%;\n  height: 100%;\n  margin-right: 10px;\n}\n\n#middle-column {\n  float: left;\n  width: 40%;\n  height: 100%;\n  margin-left: 10px;\n  margin-right: 10px;\n}\n\n#right-column {\n  float: right;\n  width: 30%;\n  height: 100%;\n  margin-left: 10px;\n}

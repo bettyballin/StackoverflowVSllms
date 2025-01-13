@@ -1,1 +1,0 @@
-# Add this alias to your .bashrc or .bash_profile\nalias ssc='ssh -t $1 "screen -S $2 -dr || screen -S $2"'\n\n# Usage: ssc server.com session_name

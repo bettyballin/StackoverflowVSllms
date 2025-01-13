@@ -1,0 +1,1 @@
+$user = new \MyApp\Models\User();

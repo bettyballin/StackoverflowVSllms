@@ -1,1 +1,0 @@
-#include <iostream>\n\nvoid processObject(int* ptr) {\n    if (ptr) {\n        *ptr += 10;\n    }\n}\n\nint main() {\n    int value = 5;\n    processObject(&value);\n    std::cout << value << std::endl; // Output will be 15\n    return 0;\n}

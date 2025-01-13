@@ -1,0 +1,1 @@
+$array = array(\n    '2008-02-28' => 'some text',\n    '2008-03-06' => 'some text',\n    // ...\n);

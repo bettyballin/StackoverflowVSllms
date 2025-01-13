@@ -1,1 +1,0 @@
-import textwrap\n\n   def reformat_text(text, width=40):\n       wrapped_text = textwrap.fill(text, width)\n       return wrapped_text\n\n   reformatted_text = reformat_text(extracted_text)

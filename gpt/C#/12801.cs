@@ -1,1 +1,0 @@
-public class BookingMap : ClassMap<Booking>\n{\n    public BookingMap()\n    {\n        Id(x => x.BookingRef);\n        Map(x => x.BookingStart);\n        Map(x => x.BookingEnd);\n        Version(x => x.Version);\n    }\n}

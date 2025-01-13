@@ -1,0 +1,1 @@
+SELECT t1.*\nFROM your_table t1\nJOIN (\n  SELECT userId, MAX(date) as max_date\n  FROM your_table\n  WHERE date <= CURRENT_DATE\n  GROUP BY userId\n) t2\nON t1.userId = t2.userId AND t1.date = t2.max_date;

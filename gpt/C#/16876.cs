@@ -1,1 +1,0 @@
-// Using SqlConnection and SqlDataAdapter for disconnected data access\n     using (SqlConnection connection = new SqlConnection(connectionString))\n     {\n         SqlDataAdapter adapter = new SqlDataAdapter("SELECT * FROM Users", connection);\n         DataSet dataSet = new DataSet();\n         adapter.Fill(dataSet, "Users");\n     }

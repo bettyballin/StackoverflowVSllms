@@ -1,1 +1,0 @@
-gprof your_executable gmon.out > analysis.txt\n   gprof2dot -f gprof analysis.txt | dot -Tpng -o output.png

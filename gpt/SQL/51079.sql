@@ -1,1 +1,0 @@
-CREATE DATABASE YourDatabaseName;\n   USE YourDatabaseName;\n   -- Your SQL setup scripts here

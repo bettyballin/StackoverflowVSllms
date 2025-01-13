@@ -1,0 +1,1 @@
+// Set up Redis connection\n$redis = new Redis();\n$redis->connect('localhost', 6379);\n\n// Store friend list in Redis\n$friendList = array(1, 2, 3, 4, 5);\n$redis->sAdd('user:1:friends', $friendList);\n\n// Retrieve friend list from Redis\n$friendList = $redis->sMembers('user:1:friends');

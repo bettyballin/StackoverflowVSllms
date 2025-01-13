@@ -1,1 +1,0 @@
-INSERT INTO FailedLogins (ip_address, username, attempt_time)\n    VALUES (?, ?, NOW());

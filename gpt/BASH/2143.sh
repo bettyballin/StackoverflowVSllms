@@ -1,1 +1,0 @@
-chmod +x get_image_info.sh

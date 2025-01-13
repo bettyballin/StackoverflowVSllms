@@ -1,0 +1,1 @@
+console.log(+new Date); // outputs a timestamp, e.g. 1643723400000

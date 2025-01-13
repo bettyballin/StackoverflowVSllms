@@ -1,0 +1,1 @@
+SELECT *\nFROM Table2 T2\nWHERE EXISTS (\n  SELECT 1\n  FROM Table1 T1\n  WHERE T2.ColumnB LIKE CONCAT(T1.ColumnA, '%')\n);

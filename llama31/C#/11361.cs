@@ -1,0 +1,1 @@
+using System.Text.RegularExpressions;\n\npublic bool IsValidBase64(string base64String)\n{\n    string pattern = @"^[-A-Za-z0-9+/]*={0,3}$";\n    return Regex.IsMatch(base64String, pattern);\n}

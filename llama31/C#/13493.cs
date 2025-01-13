@@ -1,0 +1,1 @@
+var customers = context.Customers\n    .Include(c => c.Orders)\n    .Where(c => c.Country == "USA")\n    .ToList();

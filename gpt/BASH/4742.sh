@@ -1,1 +1,0 @@
-sudo pecl install mysql\n   sudo pecl install pdo\n   sudo pecl install pdo_mysql

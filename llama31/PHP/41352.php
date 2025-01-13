@@ -1,0 +1,1 @@
+$array = array('foo' => 'bar', 'hello' => 'world');\n\n// Internal representation:\n// array(\n//   [hash('foo')] => 'bar',\n//   [hash('hello')] => 'world',\n// )

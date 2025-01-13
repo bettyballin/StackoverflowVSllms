@@ -1,1 +1,0 @@
-convert input_indexed.tiff -compress zip output.pdf

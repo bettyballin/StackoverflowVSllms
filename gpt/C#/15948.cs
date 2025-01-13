@@ -1,1 +1,0 @@
-var query = from cust in customers\n            where cust.City == "London"\n            select new { cust.Name, cust.Phone };

@@ -1,1 +1,0 @@
-def reconstruct_file(output_path, chunk_count, original_file_path):\n    with open(output_path, 'wb') as output_file:\n        for i in range(chunk_count):\n            chunk_path = f'{original_file_path}.part{i}'\n            with open(chunk_path, 'rb') as chunk_file:\n                output_file.write(chunk_file.read())

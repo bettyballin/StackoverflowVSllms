@@ -1,0 +1,1 @@
+public class CustomDataObject\n{\n    public int Id { get; set; }\n    public string Name { get; set; }\n\n    public override int GetHashCode()\n    {\n        unchecked\n        {\n            int hash = 17;\n            hash = hash * 23 + Id.GetHashCode();\n            hash = hash * 23 + Name.GetHashCode();\n            return hash;\n        }\n    }\n}

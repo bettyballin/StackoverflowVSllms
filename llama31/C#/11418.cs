@@ -1,0 +1,1 @@
+using System;\n\nnamespace MyWebApplication\n{\n    public class Program\n    {\n        public static void Main(string[] args)\n        {\n            // Call your method here\n            var myClass = new MyClass();\n            myClass.MyMethod();\n        }\n    }\n}

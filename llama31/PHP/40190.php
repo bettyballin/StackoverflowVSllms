@@ -1,0 +1,1 @@
+$url = 'http://example.com/your-webservice?wsdl';\n$client = new SoapClient($url);\n\n$response = $client->YourMethodName(array('param1' => 'value1', 'param2' => 'value2'));\n\necho $response;

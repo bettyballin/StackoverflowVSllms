@@ -1,0 +1,1 @@
+SELECT \n  FROM_TZ(CAST(SYSDATE AS TIMESTAMP), 'America/New_York') AS current_date,\n  TZ_OFFSET(FROM_TZ(CAST(SYSDATE AS TIMESTAMP), 'America/New_York')) AS offset\nFROM DUAL;

@@ -1,1 +1,0 @@
-lockfile -r 0 /path/to/nfs/mounted/dir/your.lock\n# Your critical section code here\nrm -f /path/to/nfs/mounted/dir/your.lock

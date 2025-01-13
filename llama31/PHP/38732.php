@@ -1,0 +1,1 @@
+// Start the session\nsession_start();\n\n// Regenerate the session ID after a successful login\nsession_regenerate_id(true);\n\n// Set the session cookie with secure and httponly flags\nsession_set_cookie_params([\n    'lifetime' => 0,\n    'path' => '/',\n    'domain' => '',\n    'secure' => true,\n    'httponly' => true,\n    'samesite' => 'Strict'\n]);

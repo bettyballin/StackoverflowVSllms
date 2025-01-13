@@ -1,0 +1,1 @@
+input[type="radio"] {\n  background: url('radio-button.png') no-repeat;\n  width: 10px;\n  height: 10px;\n  border: none;\n  padding: 0;\n  margin: 0;\n}\n\ninput[type="radio"]:checked {\n  background-position: 0 -10px;\n}

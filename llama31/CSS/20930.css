@@ -1,0 +1,1 @@
+.group-header {\n  width: 100%;\n  background-color: yellow;\n  padding: 8px;\n  display: inline-block;\n  vertical-align: middle;\n}\n\n.group-title {\n  display: inline-block;\n  vertical-align: middle;\n}\n\n.group-buttons {\n  display: inline-block;\n  vertical-align: middle;\n  float: right;\n}\n\n.group-header:after {\n  content: "";\n  display: block;\n  clear: both;\n}

@@ -1,1 +1,0 @@
-using (var context = new DataContext())\n{\n    var myQuery = from c in context.Customers select c;\n\n    var filter1 = from c in myQuery where c.ID > 2 select c;\n    myQuery = filter1;\n\n    var filter2 = from c in myQuery where c.Name.Contains("r") select c;\n    myQuery = filter2;\n\n    var results = myQuery.ToList(); // The query is executed here\n}

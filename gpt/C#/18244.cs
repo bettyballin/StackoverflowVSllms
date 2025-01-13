@@ -1,1 +1,0 @@
-using (var session = sessionFactory.OpenSession())\n{\n    using (var transaction = session.BeginTransaction())\n    {\n        session.CreateSQLQuery("YOUR_SQL_STATEMENT_HERE").ExecuteUpdate();\n        transaction.Commit();\n    }\n}

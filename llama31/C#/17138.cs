@@ -1,0 +1,1 @@
+public ActionResult Calendar(int year, int month)\n{\n    // ...\n    var calendar = new CalendarModel { Year = year, Month = month };\n    // ...\n}

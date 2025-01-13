@@ -1,0 +1,1 @@
+param ($labelName)\n\n$tfs = New-Object Microsoft.TeamFoundation.Client.TfsTeamProjectCollection $collectionUrl\n$vcs = $tfs.GetService([Microsoft.TeamFoundation.VersionControl.Client.VersionControlServer])\n\n$existingLabel = $vcs.GetLabel($labelName)\nif ($existingLabel -ne $null) {\n    Write-Error "Label '$labelName' already exists."\n    exit 1\n}

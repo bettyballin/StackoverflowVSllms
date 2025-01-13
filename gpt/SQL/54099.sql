@@ -1,1 +1,0 @@
-SELECT s.StudentId, r.Score\nFROM Students s\nCROSS APPLY dbo.GetRatingModifierInline(s.ExamScore, s.Project1Score, s.Project2Score, s.Project3Score, s.SubjectTypeId) r;

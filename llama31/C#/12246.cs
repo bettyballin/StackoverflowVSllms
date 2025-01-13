@@ -1,0 +1,1 @@
+partial class MyServiceProxy\n{\n    /// <summary>\n    /// My method summary\n    /// </summary>\n    /// <param name="myParam">My parameter description</param>\n    /// <returns>My return value description</returns>\n    public void MyMethod(string myParam) { }\n}

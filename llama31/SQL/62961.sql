@@ -1,0 +1,1 @@
+WITH Numbers AS (\n  SELECT 100 AS n\n  UNION ALL\n  SELECT n + 1\n  FROM Numbers\n  WHERE n < 200\n)\nSELECT SUM(n) AS total\nFROM Numbers\nOPTION (MAXRECURSION 0);

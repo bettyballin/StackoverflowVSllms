@@ -1,0 +1,1 @@
+require 'httpclient'\n\nclient = HTTPClient.new\nresponse = client.get("https://internalWebsite/weblogs/feed/entries/atom")\n\n# Save the response body to a file\nFile.open("downloaded_file.atom", "wb") do |file|\n  file.write(response.body)\nend

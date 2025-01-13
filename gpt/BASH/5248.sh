@@ -1,1 +1,0 @@
-gcc your_source_file.c 2>&1 | grep -v "is valid for C++/Java/ObjC++ but not for C"

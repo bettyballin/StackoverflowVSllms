@@ -1,0 +1,1 @@
+aspnet_regiis.exe -pef <sectionName> C:\Path\To\Your\Applicatio

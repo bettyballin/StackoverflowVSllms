@@ -1,1 +1,0 @@
-public string GetDeleteUrl(Item item)\n{\n    return "DeleteItem.aspx?itemId=" + item.ItemId; // Adjust this URL based on your setup\n}

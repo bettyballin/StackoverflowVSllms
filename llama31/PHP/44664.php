@@ -1,0 +1,1 @@
+$polygon = // retrieve the dealer's polygon from your database\n$point = new LatLng($lat, $lng);\nif (google.maps.geometry.poly.containsLocation($point, $polygon)) {\n  // the point falls within the dealer's area\n}

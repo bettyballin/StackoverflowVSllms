@@ -1,0 +1,1 @@
+g++ -Wall -Wextra -o simpletest simpletest.cpp

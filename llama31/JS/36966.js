@@ -1,0 +1,1 @@
+// Fill in the form values\ndocument.getElementById('username').value = 'testuser';\ndocument.getElementById('password').value = 'testpass';\n\n// Submit the form\ndocument.getElementById('login-form').submit();

@@ -1,1 +1,0 @@
-<bindings>\n     <customBinding>\n       <binding name="CustomBinding_ISO8859_1">\n         <textMessageEncoding messageVersion="Soap11" writeEncoding="iso-8859-1" />\n         <httpTransport />\n       </binding>\n     </customBinding>\n   </bindings>

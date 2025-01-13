@@ -1,1 +1,0 @@
-// Example of a valid output path in .csproj file\n<PropertyGroup>\n  <OutputPath>bin\Debug\</OutputPath>\n</PropertyGroup>

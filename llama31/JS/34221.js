@@ -1,0 +1,1 @@
+// Example using PDF.js\npdfjsLib.getDocument('path/to/your/document.pdf').promise.then(function(pdf) {\n  // Use `pdf` here\n  var viewer = document.getElementById('pdf-viewer');\n  pdfjsLib.render(pdf, viewer, {\n    // Render options\n  });\n});

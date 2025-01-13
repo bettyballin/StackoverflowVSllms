@@ -1,1 +1,0 @@
-SELECT DISTINCT \n    CAST(YEAR(datecol) AS NVARCHAR(4)) + '/' + \n    RIGHT('0' + CAST(MONTH(datecol) AS NVARCHAR(2)), 2) + '/1' AS dt1\nFROM Table\nORDER BY \n    YEAR(datecol), \n    MONTH(datecol);

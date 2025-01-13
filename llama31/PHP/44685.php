@@ -1,0 +1,1 @@
+$connect = new mysqli($host, $user, $passwd);\n\nif ($connect->connect_error) {\n    die("Hoops, error! " . $connect->connect_error);\n}\n\nif (!$connect->select_db($db)) {\n    $create_db = "CREATE DATABASE $db";\n    if ($connect->query($create_db)) {\n        $connect->select_db($db);\n    } else {\n        die("Error creating database: " . $connect->error);\n    }\n}

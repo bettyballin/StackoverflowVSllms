@@ -1,1 +1,0 @@
-public void PrintTree(TreeNode node)\n{\n    if (node == null) return;\n\n    // Print the current node's id and name\n    Console.WriteLine($"Id: {node.Id}, Name: {node.Name}");\n\n    // Recursively print each child\n    foreach (var child in node.Children)\n    {\n        PrintTree(child);\n    }\n}

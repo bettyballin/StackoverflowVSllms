@@ -1,0 +1,1 @@
+# Install OpenSSH server (if not already installed)\nsudo apt-get install openssh-server\n\n# Create an SFTP user and group\nsudo useradd -m sftpuser\nsudo groupadd sftpgroup\n\n# Configure SSH to use SFTP\nsudo nano /etc/ssh/sshd_config

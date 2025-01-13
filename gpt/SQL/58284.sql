@@ -1,1 +1,0 @@
-CREATE TRIGGER [OnItem_Updated] \nON [Item]\nAFTER UPDATE\nAS \nBEGIN\n    SET NOCOUNT ON;\n\n    IF update(State)\n    BEGIN\n        /* do some stuff including for each row updated call a stored \n          procedure that increments a value in table based on the \n          UserId of the updated row */\n    END\nEND;\nGO\n\nDISABLE TRIGGER [OnItem_Updated] ON [Item];

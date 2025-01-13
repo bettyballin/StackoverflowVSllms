@@ -1,1 +1,0 @@
-var xhr = new XMLHttpRequest();\n   xhr.open("GET", "your-url?cacheBuster=" + new Date().getTime(), true);\n   xhr.send();

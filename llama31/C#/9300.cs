@@ -1,0 +1,1 @@
+return View("~/Modules/Forums/Index.aspx", data);

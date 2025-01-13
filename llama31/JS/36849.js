@@ -1,0 +1,1 @@
+// Hide all rows except the first one for each table\n$('table').each(function() {\n    $(this).find('tr:gt(0)').hide();\n});\n\n// Add a click event listener to the first row of each table\n$('table tr:first-child').on('click', function() {\n    // Toggle the visibility of the rest of the rows\n    $(this).siblings().toggle();\n});

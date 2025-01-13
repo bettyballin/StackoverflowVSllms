@@ -1,1 +1,0 @@
-[WebMethod]\npublic AbstractModel ExecuteModel(AbstractModel modelForExecution)\n{\n    modelForExecution.Configure();\n    if (modelForExecution is IModel model)\n    {\n        model.Execute();\n    }\n    return modelForExecution;\n}

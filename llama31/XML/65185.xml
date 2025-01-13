@@ -1,0 +1,1 @@
+<dependency>\n    <groupId>com.github.ggrandes</groupId>\n    <artifactId>php-serialization-java</artifactId>\n    <version>1.0.0</version>\n</dependency>

@@ -1,1 +1,0 @@
-<?php\n$url = 'http://www.example.com'; // The URL you want to fetch content from\n\n$ch = curl_init();\ncurl_setopt($ch, CURLOPT_URL, $url);\ncurl_setopt($ch, CURLOPT_RETURNTRANSFER, 1);\n$content = curl_exec($ch);\ncurl_close($ch);\n\nif ($content === FALSE) {\n    echo "Error fetching content.";\n} else {\n    echo $content;\n}\n?>

@@ -1,0 +1,1 @@
+function isScriptLoaded(url) {\n    var scripts = document.getElementsByTagName('script');\n    for (var i = 0; i < scripts.length; i++) {\n        if (scripts[i].src === url) {\n            return true;\n        }\n    }\n    return false;\n}

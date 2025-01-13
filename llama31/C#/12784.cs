@@ -1,0 +1,1 @@
+using (var context = new MyDataContext())\n{\n    var cache = EnterpriseLibraryContainer.Current.GetInstance<ICacheManager>();\n    var results = cache.Get("MyQuery");\n    if (results == null)\n    {\n        results = context.MyTable.ToList();\n        cache.Add("MyQuery", results);\n    }\n}

@@ -1,1 +1,0 @@
-// Example in PHP\n    if (!preg_match("/^[a-zA-Z ]*$/", $_POST['name'])) {\n        die("Invalid name format");\n    }

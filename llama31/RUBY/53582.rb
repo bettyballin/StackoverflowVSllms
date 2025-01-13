@@ -1,0 +1,1 @@
+if request.referer =~ /^https?:\/\/example\.com/\n  # allow request to proceed\nelse\n  # block request\nend

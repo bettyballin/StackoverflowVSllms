@@ -1,0 +1,1 @@
+app.get('/notifications', (req, res) => {\n  // Retrieve notifications from database\n  const notifications = db.getNotifications();\n  res.json(notifications);\n});

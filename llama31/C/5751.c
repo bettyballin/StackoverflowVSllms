@@ -1,0 +1,1 @@
+// load DLL as data file, without resolving dependencies\nHMODULE hModule = LoadLibraryEx("mydll.dll", NULL, LOAD_LIBRARY_AS_DATAFILE);

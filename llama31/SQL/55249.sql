@@ -1,0 +1,1 @@
+CREATE TABLE TestTable (\n    Id INT IDENTITY(1,1) PRIMARY KEY,\n    NullableColumn1 VARCHAR(50) NULL,\n    NullableColumn2 VARCHAR(50) NULL,\n    NonNullableColumn VARCHAR(50) NOT NULL\n);\n\nINSERT INTO TestTable (NullableColumn1, NullableColumn2, NonNullableColumn)\nVALUES (NULL, NULL, 'Test');\n\n-- Check storage space\nEXEC sp_spaceused 'TestTable';

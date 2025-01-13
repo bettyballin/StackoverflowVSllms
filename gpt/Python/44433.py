@@ -1,1 +1,0 @@
-with open('somefile.txt') as f:\n    # Perform file operations\n    pass\n# File is automatically closed when the block is exited

@@ -1,0 +1,1 @@
+-- Create a sample table with an index on MemberType\nCREATE TABLE MyTable (MemberType INT, Status INT);\nCREATE NONCLUSTERED INDEX idx_MemberType ON MyTable (MemberType);\n\n-- Insert sample data\nINSERT INTO MyTable (MemberType, Status) VALUES (6, 1), (6, 2), (6, 3);\n\n-- Run the optimized query\nSELECT COUNT(DISTINCT Status)\nFROM MyTable WITH (NOLOCK)\nWHERE MemberType = 6;

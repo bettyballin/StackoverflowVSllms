@@ -1,0 +1,1 @@
+WITH ids AS (\n  SELECT '1001' AS id UNION ALL\n  SELECT '2002' AS id UNION ALL\n  ...\n)\nSELECT * FROM some_table WHERE id IN (SELECT id FROM ids);

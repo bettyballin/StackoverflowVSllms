@@ -1,0 +1,1 @@
+(SELECT * FROM posts WHERE timestamp > ($thirty_days_ago) ORDER BY timestamp DESC)\nUNION\n(SELECT * FROM posts ORDER BY timestamp DESC LIMIT 10)\nLIMIT 10;

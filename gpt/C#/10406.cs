@@ -1,1 +1,0 @@
-protected void SomeButton_Click(object sender, EventArgs e)\n{\n    // Your event handling code here\n\n    // Explicitly update the UpdatePanel\n    folderContainer.Update();\n}

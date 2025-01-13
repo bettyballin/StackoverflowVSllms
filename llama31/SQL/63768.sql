@@ -1,0 +1,1 @@
+CREATE PROCEDURE sp_QueryCube\nAS\nBEGIN\n  DECLARE @mdxQuery nvarchar(max)\n  SET @mdxQuery = 'SELECT [Measures].[MeasureName] ON COLUMNS, [DimensionName].[HierarchyName].[LevelName].Members ON ROWS FROM [CubeName]'\n\n  EXECUTE OPENQUERY([SSAS_Server_Name], @mdxQuery)\nEND

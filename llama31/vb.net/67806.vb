@@ -1,0 +1,1 @@
+' Create a new Cross-Tab\nDim crosstab As New CrystalDecisions.CrystalReports.Engine.CrossTabObject()\ncrosstab.MainReportDataset = Me.Dataset1 ' Replace with your dataset name\ncrosstab.Columns.Add("MyField1") ' Add fields to the Cross-Tab\ncrosstab.Rows.Add("MyField2")\n\n' Add the Cross-Tab to the report\nMe.Section2.ReportObjects.Add(crosstab)

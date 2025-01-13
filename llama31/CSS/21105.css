@@ -1,0 +1,1 @@
+#menu {\n  float: left;\n  width: 200px; /* fixed width */\n}\n\n#login {\n  float: right;\n  width: 200px; /* fixed width */\n}\n\n#content {\n  clear: right;\n  float: right;\n  width: 200px; /* fixed width */\n}

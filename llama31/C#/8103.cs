@@ -1,0 +1,1 @@
+using System.Security.Principal;\nusing System.Diagnostics;\n\n// ...\n\nWindowsIdentity identity = new WindowsIdentity("username", "password");\nusing (identity.Impersonate())\n{\n    Process process = new Process();\n    process.StartInfo.FileName = "tool1.exe";\n    process.Start();\n    process.WaitForExit();\n}

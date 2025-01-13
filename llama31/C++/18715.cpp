@@ -1,0 +1,1 @@
+__declspec(dllexport) int Foo(int a);\n__declspec(dllexport) int Foo(int a, int b);\n__declspec(dllexport) void Bar(int foo);

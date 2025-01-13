@@ -1,0 +1,1 @@
+$this->addHelper(new My_TranslateHelper());

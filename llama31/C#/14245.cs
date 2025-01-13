@@ -1,0 +1,1 @@
+dTiendasDs.ProductosDataTable modified = (dTiendasDs.ProductosDataTable)dTiendasDs.Productos.GetChanges(DataRowState.Modified | DataRowState.Added);

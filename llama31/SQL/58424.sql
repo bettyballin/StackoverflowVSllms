@@ -1,0 +1,1 @@
+CREATE INDEX idx_d ON table4 (content_id, value_type, function);

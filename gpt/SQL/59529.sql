@@ -1,1 +1,0 @@
-USE msdb;\nEXEC sp_addrolemember 'SQLAgentReaderRole', 'your_username';

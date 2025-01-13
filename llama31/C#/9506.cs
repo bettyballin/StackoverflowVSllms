@@ -1,0 +1,1 @@
+public PartialViewResult GetHiredEmployees(int semesterId)\n{\n    var hiredEmployees = db.SemesterUsers\n        .Include(su => su.User)\n        .Where(su => su.SemesterId == semesterId)\n        .Select(su => su.User);\n\n    return PartialView("_HiredEmployees", hiredEmployees);\n}

@@ -1,1 +1,0 @@
-<?php\n\nnamespace App\Models;\n\nclass User\n{\n    // Model code here\n}

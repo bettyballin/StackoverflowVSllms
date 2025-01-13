@@ -1,0 +1,1 @@
+<configuration>\n  <system.web>\n    <httpHandlers>\n      <add verb="*" path="*.aspx" type="System.Web.UI.PageHandlerFactory"/>\n      <add verb="*" path="*.ashx" type="System.Web.UI.SimpleHandlerFactory"/>\n      <!-- Add more specific handler mappings as needed -->\n    </httpHandlers>\n  </system.web>\n</configuration>

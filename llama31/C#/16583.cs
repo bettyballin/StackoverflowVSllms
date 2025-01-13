@@ -1,0 +1,1 @@
+public static void Main(String[] args)\n{\n    Console.WriteLine("Mutex Sample ...");\n    // Create Mutex initialOwned, with name of "MyMutex".\n    gM1 = new Mutex(false, "MyMutex"); // Don't acquire the mutex here\n    // Create Mutex initialOwned, with no name.\n    gM2 = new Mutex(false); // Don't acquire the mutex here\n\n    // ... rest of your code\n}

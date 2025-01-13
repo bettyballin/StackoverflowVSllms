@@ -1,1 +1,0 @@
-copy web.config web.config.bak\n   notepad web.config.bak\n   move /y web.config.bak web.config

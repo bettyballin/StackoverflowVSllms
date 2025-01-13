@@ -1,1 +1,0 @@
-ulimit -n\n   cat /proc/sys/fs/file-max

@@ -1,1 +1,0 @@
-class Program\n{\n    static void Main(string[] args)\n    {\n        WebServiceHost host = new WebServiceHost(typeof(MyService), new Uri("http://localhost:8080/"));\n        host.Open();\n        Console.WriteLine("Service is running...");\n        Console.ReadLine();\n        host.Close();\n    }\n}

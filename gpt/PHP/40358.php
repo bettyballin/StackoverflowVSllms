@@ -1,1 +1,0 @@
-<?php\nif ($_SERVER['REQUEST_METHOD'] == 'POST') {\n    $latitude = $_POST['latitude'];\n    $longitude = $_POST['longitude'];\n\n    // Perform your desired operations with the coordinates\n    // For example, just output them\n    echo "Latitude: " . htmlspecialchars($latitude) . "<br>Longitude: " . htmlspecialchars($longitude);\n} else {\n    echo "Invalid request.";\n}\n?>

@@ -1,0 +1,1 @@
+htmlhint --config "$(ProjectDir)\htmlhint.json" "$(ProjectDir)\**\*.html"

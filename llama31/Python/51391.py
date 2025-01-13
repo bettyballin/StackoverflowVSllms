@@ -1,0 +1,1 @@
+from django.db.models import Q\n\nd = {'k1': 'v1', 'k2': 'v2'}\n\nq = Q()\nfor k, v in d.items():\n    q |= Q(**{k: v})\n\nSomeModule.objects.filter(q)

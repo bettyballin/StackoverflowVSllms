@@ -1,1 +1,0 @@
-[ActionName("someresource")]\n[AcceptVerbs(HttpVerbs.Get)]\n[HttpMethodOverride]\npublic ActionResult GetSomeResource(int id) \n{ \n    /* ... */ \n}\n\n[ActionName("someresource")]\n[AcceptVerbs(HttpVerbs.Delete)]\n[HttpMethodOverride]\npublic ActionResult DeleteSomeResource(int id) \n{ \n    /* ... */ \n}

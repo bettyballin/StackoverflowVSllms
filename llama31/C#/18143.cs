@@ -1,0 +1,1 @@
+if (HttpContext.Current != null)\n{\n    var routeData = RouteCollection.GetRouteData(HttpContext.Current);\n    // ...\n}

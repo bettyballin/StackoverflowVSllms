@@ -1,0 +1,1 @@
+java -Xmx1024m -Xms1024m -XX:+UseG1GC -XX:MaxGCPauseMillis=100

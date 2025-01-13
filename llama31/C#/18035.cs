@@ -1,0 +1,1 @@
+string currentUsername = Environment.UserName;

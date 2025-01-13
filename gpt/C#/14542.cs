@@ -1,1 +1,0 @@
-[ImportMany]\nprivate readonly ICollection<IMyInterface> m_Concretes = null;

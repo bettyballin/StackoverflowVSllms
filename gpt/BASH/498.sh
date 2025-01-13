@@ -1,1 +1,0 @@
-# Create and compress the tar archive in one step\ntar -czvf archive.tar.gz /path/to/files

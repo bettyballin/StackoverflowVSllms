@@ -1,1 +1,0 @@
-SELECT STUFF((SELECT ',' + ColumnName\n              FROM TableName\n              FOR XML PATH('')), 1, 1, '') AS CommaDelimitedResult;

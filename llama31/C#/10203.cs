@@ -1,0 +1,1 @@
+using System.Configuration;\n\npublic class OtherClass\n{\n    public void DoSomething()\n    {\n        var applicationSwitch = ConfigurationManager.GetSwitch("Application");\n        if (applicationSwitch.TraceVerbose)\n        {\n            // Log something\n        }\n    }\n}

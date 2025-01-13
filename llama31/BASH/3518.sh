@@ -1,0 +1,1 @@
+strace -ff -o output ./your_program

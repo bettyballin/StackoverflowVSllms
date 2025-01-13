@@ -1,1 +1,0 @@
-spawn-fcgi -p 9000 -n ./fastcgi-wrapper.pl

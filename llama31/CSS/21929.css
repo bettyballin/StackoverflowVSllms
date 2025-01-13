@@ -1,0 +1,1 @@
+#popup {\n  position: absolute;\n  top: 20px; /* adjust to position the popup correctly */\n  left: 0;\n  background-color: #fff;\n  border: 1px solid #ccc;\n  padding: 10px;\n  z-index: 1000; /* ensure the popup is on top of other elements */\n}

@@ -1,1 +1,0 @@
-public ActionResult OnlineUsers()\n{\n    var onlineUsers = OnlineUsers.GetOnlineUsers();\n    return View(onlineUsers);\n}

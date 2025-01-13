@@ -1,0 +1,1 @@
+awk 'NF >= 3' input.txt > output.txt

@@ -1,0 +1,1 @@
+public class GridContent : Panel\n{\n  protected override void OnRender(DrawingContext dc)\n  {\n    // Draw your content here\n  }\n}

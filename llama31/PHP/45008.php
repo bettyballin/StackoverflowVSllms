@@ -1,0 +1,1 @@
+date_default_timezone_set('UTC'); // or any other timezone you prefer\n$date = 1246053600;\necho 'unix: ',$date,', converted: ',date('d/m/Y', $date);

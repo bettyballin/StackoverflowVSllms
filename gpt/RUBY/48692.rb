@@ -1,1 +1,0 @@
-#!/usr/bin/env ruby\n   require 'erb'\n   require 'cgi'\n\n   cgi = CGI.new\n   template = File.read('template.html.erb')\n   erb = ERB.new(template)\n\n   @name = cgi.params['name'].first || "Guest"\n\n   puts cgi.header\n   puts erb.result(binding)

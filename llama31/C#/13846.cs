@@ -1,0 +1,1 @@
+[HttpGet]\npublic JsonResult FindWidgets()\n{\n    if (!Request.IsAjaxRequest())\n    {\n        return Json(new { error = "Invalid request" });\n    }\n    // Return your JSON data here\n}

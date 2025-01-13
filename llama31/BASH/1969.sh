@@ -1,0 +1,1 @@
+setspn -s net.tcp/server1.testdomain.com:1111 testuser

@@ -1,0 +1,1 @@
+# Add this to your .htaccess file\nRewriteEngine on\nRewriteRule ^([0-9]+)$ video.php?id=$1 [L]

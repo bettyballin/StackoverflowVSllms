@@ -1,1 +1,0 @@
-using Ganss.XSS;\n\npublic string SanitizeHtml(string html)\n{\n    var sanitizer = new HtmlSanitizer();\n    sanitizer.AllowedSchemes.Add("data"); // Optional: Add additional allowed URI schemes if needed\n    var sanitizedHtml = sanitizer.Sanitize(html);\n    return sanitizedHtml;\n}

@@ -1,1 +1,0 @@
-#include <iostream>\n#include <conio.h>\n\nint main() {\n    std::cout << "Press any key to continue..." << std::endl;\n    char ch = _getch();  // Use getch() if not using Visual Studio\n    std::cout << "You pressed: " << ch << std::endl;\n    return 0;\n}

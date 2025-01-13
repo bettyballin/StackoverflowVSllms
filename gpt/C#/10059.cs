@@ -1,1 +1,0 @@
-var list = new List<string>(); // size is unknown\nfor (int i = 0; i < 10; i++) // example loop\n{\n    list.Add("string" + i);\n}

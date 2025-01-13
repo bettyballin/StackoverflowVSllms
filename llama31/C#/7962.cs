@@ -1,0 +1,1 @@
+dpi = (logPixelsX * 25.4) / (horizontalResolution * 100);

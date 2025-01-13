@@ -1,1 +1,0 @@
-const functionMap = {\n    foo: function() {\n        alert('foo');\n    },\n    bar: function() {\n        alert('bar');\n    }\n};\n\nvar test = 'foo';\n\nif (functionMap[test]) {\n    functionMap[test]();  // This calls foo()\n} else {\n    console.error('Function not found');\n}

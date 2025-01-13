@@ -1,1 +1,0 @@
-public void ProcessProviders()\n{\n    var manager = new ProviderManager();\n    manager.LoadProviders();\n\n    foreach (var provider in manager.Providers)\n    {\n        Console.WriteLine(provider.Name);\n        var dataStream = provider.GetDataStream();\n        \n        // Process the data stream\n    }\n}

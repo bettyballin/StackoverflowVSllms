@@ -1,0 +1,1 @@
+// Set environment variable in test class\n[TestClass]\npublic class MyTests\n{\n    [ClassInitialize]\n    public static void SetUp(TestContext context)\n    {\n        Environment.SetEnvironmentVariable("MyConnectionString", "TestDatabaseConnectionString");\n    }\n}

@@ -1,0 +1,1 @@
+SELECT \n       (SUM(unallocated_extent_page_count) * 8) / 1024 AS free_space_MB\n   FROM \n       sys.dm_db_file_space_usage\n   WHERE \n       database_id = 2  -- tempdb database_id

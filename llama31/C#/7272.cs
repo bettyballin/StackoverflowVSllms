@@ -1,0 +1,1 @@
+public class UrchinHandler : IHttpHandler\n{\n    public void ProcessRequest(HttpContext context)\n    {\n        // ...\n\n        // Add CORS headers\n        context.Response.Headers.Add("Access-Control-Allow-Origin", "*");\n        context.Response.Headers.Add("Access-Control-Allow-Credentials", "true");\n\n        // ...\n    }\n}

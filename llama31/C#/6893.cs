@@ -1,0 +1,1 @@
+using (SqlConnection connection = new SqlConnection(connectionString))\n{\n    connection.Open();\n\n    string query = "UPDATE " + tableName + " SET " + columnName + " = @Data WHERE " + criteria;\n\n    SqlCommand command = new SqlCommand(query, connection);\n    command.Parameters.Add("@Data", SqlDbType.VarBinary).Value = binaryData;\n\n    command.ExecuteNonQuery();\n}

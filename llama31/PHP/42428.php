@@ -1,0 +1,1 @@
+public function executeIndex(sfWebRequest $request)\n{\n    $sf_response->setParameter('body_class', 'inner-page');\n    // ...\n}

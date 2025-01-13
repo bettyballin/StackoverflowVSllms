@@ -1,0 +1,1 @@
+# set ORACLE_HOME and ORACLE_SID environment variables\nexport ORACLE_HOME=/u01/app/oracle/product/12.2.0/dbhome_1\nexport ORACLE_SID=mydb\n\n# run SQLPlus with username only\nsqlplus myuser

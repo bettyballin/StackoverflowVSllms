@@ -1,1 +1,0 @@
-jarsigner -keystore mykeystore.jks -signedjar SignedApplet.jar UnsignedApplet.jar mykey

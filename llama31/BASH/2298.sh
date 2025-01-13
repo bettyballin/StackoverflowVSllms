@@ -1,0 +1,1 @@
+ed config_file <<EOF\n0r new_lines.txt\nw\nq\nEOF

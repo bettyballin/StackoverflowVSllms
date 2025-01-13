@@ -1,1 +1,0 @@
-SELECT\n    ps.player_id,\n    ps.position,\n    ps.number,\n    p.name,\n    p.surname,\n    COALESCE(COUNT(t.player_id), 0) AS triesNo\nFROM\n    players ps\nJOIN\n    player p ON p.player_id = ps.player_id\nLEFT JOIN\n    tries t ON t.player_id = ps.player_id AND t.game_id = ps.game_id\nWHERE\n    ps.game_id = '$game_id'\nGROUP BY\n    ps.player_id\nORDER BY\n    ps.number;

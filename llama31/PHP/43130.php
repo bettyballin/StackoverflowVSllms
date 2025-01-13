@@ -1,0 +1,1 @@
+$date = new DateTime('2009-02-02');\n$date->modify('last Tuesday');\necho $date->format('Y-m-d');

@@ -1,1 +1,0 @@
-SELECT blahblahblah \nFROM YourTable \nWHERE blahblahblah IN (SELECT word FROM @LISTOFWORDS);

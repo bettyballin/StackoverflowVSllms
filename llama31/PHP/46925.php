@@ -1,0 +1,1 @@
+function is_available(){\n    $whois_string=$this->info(); // Gets the entire WHOIS query from registrar\n    $domain=$this->domain; // Gets current domain being queried\n\n    if(preg_match("/No match for|NOT FOUND/i",$whois_string)){\n        return true;\n    }else{\n        return false;\n    }\n}

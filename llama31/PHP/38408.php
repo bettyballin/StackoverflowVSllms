@@ -1,0 +1,1 @@
+$allowedFunctions = array('func1', 'func2', ...);\nif (!in_array($unsafeFunctionName, $allowedFunctions)) {\n    throw new Exception('Invalid function name');\n}

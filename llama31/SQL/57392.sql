@@ -1,0 +1,1 @@
+SET GLOBAL ft_min_word_len = 3;

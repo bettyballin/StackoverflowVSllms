@@ -1,1 +1,0 @@
-using System;\nusing System.Runtime.InteropServices;\n\npublic class NativeMethods\n{\n    [DllImport("mylibrary.dll", CallingConvention = CallingConvention.Cdecl)]\n    public static extern int AddNumbers(int a, int b);\n}

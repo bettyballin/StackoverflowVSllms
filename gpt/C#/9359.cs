@@ -1,1 +1,0 @@
-using System;\n    using System.Runtime.InteropServices;\n\n    [Guid("your-guid-here")]\n    [ClassInterface(ClassInterfaceType.None)]\n    public class YourClass : IYourInterface\n    {\n        // Your methods here\n    }

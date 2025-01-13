@@ -1,0 +1,1 @@
+// myapi.h\n#ifndef MYAPI_H\n#define MYAPI_H\n\nstruct MyType1;\nstruct MyType2;\n\ntypedef struct MyType1* MyType1Handle;\ntypedef struct MyType2* MyType2Handle;\n\n// ... rest of the API ...\n\n#endif  // MYAPI_H

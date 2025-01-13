@@ -1,0 +1,1 @@
+const divs = document.querySelectorAll('div');\n\ndivs.forEach(div => {\n  if (div.hasAttribute('property-name')) {\n    console.log(div.getAttribute('property-name'));\n  }\n});

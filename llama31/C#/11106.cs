@@ -1,0 +1,1 @@
+protected void AdTitle_DataBound(object sender, EventArgs e)\n{\n    DropDownList ddl = (DropDownList)sender;\n    ddl.ID = "AdTitle" + i.ToString();\n}

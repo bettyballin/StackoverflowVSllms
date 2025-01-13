@@ -1,0 +1,1 @@
+using System.Messaging;\n\n// ...\n\nvar queue = new MessageQueue("my_queue");\nqueue.Formatter = new XmlMessageFormatter(new[] { typeof(MyMessageType) });\n\nwhile (true)\n{\n    var message = queue.Receive();\n    var myMessage = (MyMessageType)message.Body;\n\n    // Process the message\n}

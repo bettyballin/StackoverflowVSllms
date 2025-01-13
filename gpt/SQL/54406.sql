@@ -1,1 +1,0 @@
-WITH RECURSIVE SubTree AS (\n    SELECT parent_id, child_id\n    FROM hierarchy\n    WHERE parent_id = 1 AND '2023-01-10' BETWEEN start_date AND end_date\n    UNION ALL\n    SELECT h.parent_id, h.child_id\n    FROM hierarchy h\n    INNER JOIN SubTree st ON h.parent_id = st.child_id\n    WHERE '2023-01-10' BETWEEN h.start_date AND h.end_date\n)\nSELECT * FROM SubTree;

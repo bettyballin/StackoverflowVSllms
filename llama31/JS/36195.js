@@ -1,0 +1,1 @@
+var xhr = new XMLHttpRequest();\nxhr.open('POST', 'https://example.com/api/data', true);\nxhr.setRequestHeader('Content-Type', 'application/json');\nxhr.send(JSON.stringify({ /* data */ }));

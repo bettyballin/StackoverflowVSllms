@@ -1,1 +1,0 @@
-function testing() {\n    document.getElementById("mainbody").innerHTML = "This is my first JavaScript!";\n}

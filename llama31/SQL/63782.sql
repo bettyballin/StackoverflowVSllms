@@ -1,0 +1,1 @@
+SELECT \n    REPLICATE(CAST([Reps] AS VARCHAR) + ',', [Sets] - 1) + CAST([Reps] AS VARCHAR) AS [Reps]\nFROM @Test;

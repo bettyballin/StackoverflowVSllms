@@ -1,0 +1,1 @@
+typedef struct _SHELLSTATE_ICONSETTINGS {\n    DWORD iIconSize;         // Icon size (0 = small, 1 = large)\n    DWORD iIconSpacing;      // Icon spacing (0 = small, 1 = large)\n} SHELLSTATE_ICONSETTINGS;

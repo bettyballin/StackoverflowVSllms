@@ -1,0 +1,1 @@
+string octalString = "010";\nint decimalValue = Convert.ToInt32(octalString, 8); // 8 for octal\ndecimalValue += 1;\nstring result = Convert.ToString(decimalValue, 8);\n\nConsole.WriteLine(result); // Outputs: 011

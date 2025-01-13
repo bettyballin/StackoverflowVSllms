@@ -1,1 +1,0 @@
-export http_proxy=http://localhost:3128\n   export https_proxy=http://localhost:3128

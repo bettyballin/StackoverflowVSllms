@@ -1,0 +1,1 @@
+while (nodeIterator.MoveNext())\n{\n    if (nodeIterator.Current.MoveToFirstAttribute())\n    {\n        string name = nodeIterator.Current.Value;\n        // ...\n    }\n    if (nodeIterator.Current.MoveToNextAttribute())\n    {\n        string sku = nodeIterator.Current.Value;\n        // ...\n    }\n    // ...\n    nodeIterator.Current.MoveToParent();\n}

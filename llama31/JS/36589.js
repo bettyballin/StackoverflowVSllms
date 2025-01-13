@@ -1,0 +1,1 @@
+const text = 'Your tooltip text here';\nconst width = measureTextWidth(text);\nyourTooltipElement.style.width = `${width}px`;

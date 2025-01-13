@@ -1,0 +1,1 @@
+appcmd add app /site.name:'Default Web Site' /path:/MyVirtualDirectory /physicalPath:C:\MyPath

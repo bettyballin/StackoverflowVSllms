@@ -1,1 +1,0 @@
-$xmlString = '<root><element attribute="value">Content</element></root>';\n$xml = simplexml_load_string($xmlString);\n\n// Accessing elements\necho $xml->element; // Outputs: Content\n// Accessing attributes\necho $xml->element['attribute']; // Outputs: value

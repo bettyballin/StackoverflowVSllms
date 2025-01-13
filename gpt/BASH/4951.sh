@@ -1,1 +1,0 @@
-wget https://download.nextcloud.com/server/releases/nextcloud-22.2.0.zip\n    unzip nextcloud-22.2.0.zip -d /var/www/

@@ -1,1 +1,0 @@
-SET LONG 50000\nSET LONGCHUNKSIZE 2000\nCOLUMN lob_content FORMAT A4000\n\nSELECT DBMS_LOB.SUBSTR(your_lob_column, 4000, 1) AS lob_content \nFROM your_table\nUNION ALL\nSELECT DBMS_LOB.SUBSTR(your_lob_column, 4000, 4001) AS lob_content \nFROM your_table;\n-- Add more UNION ALL clauses as needed to retrieve the entire LOB content.

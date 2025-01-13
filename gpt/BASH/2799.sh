@@ -1,1 +1,0 @@
-# Ensure the security group allows inbound traffic on port 443\n   aws ec2 describe-security-groups --group-ids <your-security-group-id>

@@ -1,1 +1,0 @@
-protected void Page_Load(object sender, EventArgs e)\n{\n    if (!IsPostBack)\n    {\n        string token = Guid.NewGuid().ToString();\n        Session["PostBackToken"] = token;\n        hiddenTokenField.Value = token;\n    }\n}

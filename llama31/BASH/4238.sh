@@ -1,0 +1,1 @@
+#!/bin/bash\n\nLOCKFILE=/path/to/nfs/mounted/lockfile\n\nlockfile -r 0 "$LOCKFILE"\ntrap 'rm -f "$LOCKFILE"' EXIT\n\n# Critical section of code here

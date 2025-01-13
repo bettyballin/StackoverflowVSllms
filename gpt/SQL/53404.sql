@@ -1,1 +1,0 @@
--- Create a temporary table\nCREATE TEMPORARY TABLE tmp_user_ids (user_id INT);\n\n-- Insert user_ids into the temporary table\nINSERT INTO tmp_user_ids (user_id) VALUES\n(32343), (45676), (12345), (98765), (66010), ...;\n\n-- Query using a JOIN\nSELECT c.*\nFROM customers c\nJOIN tmp_user_ids t ON c.user_id = t.user_id;

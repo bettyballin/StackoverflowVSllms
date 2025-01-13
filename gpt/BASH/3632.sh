@@ -1,1 +1,0 @@
-php maintenance/dumpBackup.php --full > wiki-backup.xml

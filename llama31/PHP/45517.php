@@ -1,0 +1,1 @@
+if (extension_loaded('mbstring')) {\n    echo 'mbstring extension is enabled';\n} else {\n    echo 'mbstring extension is not enabled';\n}

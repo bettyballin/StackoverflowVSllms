@@ -1,0 +1,1 @@
+br_regex = /<br>/g;\ninput_content = input_content.replace(br_regex, "\n");

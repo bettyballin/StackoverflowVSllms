@@ -1,1 +1,0 @@
-ini_set('upload_max_filesize', '8G');\n   ini_set('post_max_size', '8G');

@@ -1,1 +1,0 @@
-cd path\to\Unicode-Map-0.112

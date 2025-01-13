@@ -1,1 +1,0 @@
--- Declare the multi-value parameter\nDECLARE @areas NVARCHAR(MAX)\nSET @areas = N'1,N''2'',N''3'''\n\n-- Use the function to split the parameter and join with the main query\nSELECT \n    name, \n    myFunction(value) \nFROM \n    regions \nWHERE \n    areas IN (SELECT value FROM dbo.SplitString(@areas, ','))

@@ -1,0 +1,1 @@
+gcc -shared -o dotnet_wrapper.so dotnet_wrapper.c -lmono

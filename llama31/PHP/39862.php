@@ -1,0 +1,1 @@
+// Assume $loc is your existing array\nforeach ($loc as $key => $value) {\n    // Create a gettext translation file for each language\n    $file = '/path/to/translations/' . $key . '.po';\n    file_put_contents($file, "msgid \"$key\"\nmsgstr \"$value\"\n");\n}

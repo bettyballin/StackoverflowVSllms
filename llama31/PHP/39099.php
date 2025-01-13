@@ -1,0 +1,1 @@
+$wsdlCacheDir = ini_get('soap.wsdl_cache_dir');\nif ($wsdlCacheDir) {\n    $files = glob($wsdlCacheDir . '/*.wsdl');\n    foreach ($files as $file) {\n        unlink($file);\n    }\n}

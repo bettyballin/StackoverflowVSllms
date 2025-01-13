@@ -1,0 +1,1 @@
+// Create a new Symfony project\ncomposer create-project --prefer-dist symfony/website-skeleton project-name\n\n// Navigate to the project directory\ncd project-name\n\n// Create a new entity\nphp bin/console doctrine:generate:entity ModelName

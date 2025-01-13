@@ -1,1 +1,0 @@
-protected void Page_Load(object sender, EventArgs e)\n{\n    string csv = "Column1,Column2,Column3\nValue1,Value2,Value3";\n    Response.Clear();\n    Response.ContentType = "text/csv";\n    Response.AddHeader("Content-Disposition", "attachment;filename=yourfile.csv");\n    Response.Write(csv);\n    Response.End();\n}

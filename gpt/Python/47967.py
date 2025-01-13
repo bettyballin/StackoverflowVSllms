@@ -1,1 +1,0 @@
-import re\n\n    address_pattern = re.compile(r'\d{1,5}\s\w+\s\w+,\s\w+,\s\w{2}\s\d{5}')\n    match = address_pattern.search(html_content)\n    if match:\n        print("Address found:", match.group())

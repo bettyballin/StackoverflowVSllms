@@ -1,1 +1,0 @@
-rpm -Uvh --replacefiles your-package.rpm

@@ -1,1 +1,0 @@
-require 'test_helper'\n\nclass SessionsControllerTest < ActionController::TestCase\n  context "on GET to :new" do\n    setup do\n      get :new\n    end\n\n    should "render the new template" do\n      assert_template :new\n    end\n\n    should_not_set_the_flash\n  end\nend

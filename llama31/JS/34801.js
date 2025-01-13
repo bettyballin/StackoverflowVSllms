@@ -1,0 +1,1 @@
+var select = document.querySelector('select');\nvar option = select.options[0];\nvar text = option.getAttribute('textContent');\n\nconsole.log(text); // outputs "Item1 "

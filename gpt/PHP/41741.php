@@ -1,1 +1,0 @@
-function my_custom_escape($input, $mysqli) {\n    return $mysqli->real_escape_string(stripslashes($input));\n}\n\n// Usage\n$mysqli = new mysqli("localhost", "user", "password", "database");\n$x = my_custom_escape($_GET['x'], $mysqli);

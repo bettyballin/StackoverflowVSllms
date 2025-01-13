@@ -1,1 +1,0 @@
-CREATE TABLE Numbers (n INT PRIMARY KEY);\n\n-- Populate the table with numbers from 1 to 1000\nWITH CTE AS (\n    SELECT 1 AS n\n    UNION ALL\n    SELECT n + 1\n    FROM CTE\n    WHERE n < 1000\n)\nINSERT INTO Numbers (n)\nSELECT n\nFROM CTE\nOPTION (MAXRECURSION 0);

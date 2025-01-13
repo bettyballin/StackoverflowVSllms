@@ -1,1 +1,0 @@
-template<typename T>\nvoid safeDelete(T*& ptr) {\n    delete ptr;\n    ptr = NULL;\n}\n\n// Usage\nint* ptr = new int;\n// Use ptr\nsafeDelete(ptr);  // Deletes and sets to NULL

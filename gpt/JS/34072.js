@@ -1,1 +1,0 @@
-let floatNumber = 5.67;\nlet truncatedNumber = Math.trunc(floatNumber); // truncatedNumber will be 5

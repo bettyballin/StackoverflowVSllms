@@ -1,0 +1,1 @@
+function addCount(array $array, $count = 1): array\n{\n    foreach ($array as &$item) {\n        $item['count'] = $count;\n        if (isset($item['children'])) {\n            $count = addCount($item['children'], $count + 1);\n        }\n        $count++;\n    }\n    return $count;\n}\n\n$array = [...]; // your original array\naddCount($array);

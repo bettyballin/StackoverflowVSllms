@@ -1,0 +1,1 @@
+mono --aot --linker-options=-O2 your_app.exe

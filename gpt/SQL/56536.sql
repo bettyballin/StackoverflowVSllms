@@ -1,1 +1,0 @@
-SELECT DATABASEPROPERTYEX('tempdb', 'Collation') AS TempDBCollation;

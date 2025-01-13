@@ -1,0 +1,1 @@
+Imports Microsoft.Win32\n\n' Save value\nDim regKey As RegistryKey = Registry.CurrentUser.OpenSubKey("Software\\YourApp", True)\nregKey.SetValue("VariableName", "SomeValue")\n\n' Load value\nDim regKey As RegistryKey = Registry.CurrentUser.OpenSubKey("Software\\YourApp")\nDim variableValue As String = regKey.GetValue("VariableName").ToString()

@@ -1,1 +1,0 @@
-class Application_Model_Categories\n   {\n       protected $_dbTable;\n\n       public function __construct()\n       {\n           $this->_dbTable = new Application_Model_DbTable_Categories();\n       }\n\n       public function fetchAll()\n       {\n           return $this->_dbTable->fetchAll();\n       }\n   }

@@ -1,0 +1,1 @@
+Imports mshtml\n\nModule Module1\n    Sub Main()\n        Dim html As String = "<html><body>Hello World!</body></html>"\n        Dim doc As New HTMLDocumentClass()\n        Dim doc2 As IHTMLDocument2 = DirectCast(doc, IHTMLDocument2)\n        doc2.write(New Object() {html})\n        Console.WriteLine(doc2.body.innerHTML)\n    End Sub\nEnd Module

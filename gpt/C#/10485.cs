@@ -1,1 +1,0 @@
-using System;\nusing System.Diagnostics;\n\nclass Program\n{\n    static void Main()\n    {\n        Process[] processList = Process.GetProcesses();\n        foreach (Process process in processList)\n        {\n            Console.WriteLine(process.ProcessName);\n        }\n    }\n}

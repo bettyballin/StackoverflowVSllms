@@ -1,1 +1,0 @@
-<?php\n   require 'vendor/autoload.php';\n\n   $client = new Predis\Client();\n\n   $data = json_encode(['image_id' => 12345]);\n   $client->rpush('task_queue', $data);\n\n   echo ' [x] Sent ', $data, "\n";\n   ?>

@@ -1,1 +1,0 @@
-copype.cmd x86 C:\WinPE_x86\n   dism /Mount-Wim /WimFile:C:\WinPE_x86\WinPE.wim /index:1 /MountDir:C:\WinPE_x86\Mount

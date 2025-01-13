@@ -1,0 +1,1 @@
+SELECT * INTO People_Table\nFROM People\nWHERE 1 = 0

@@ -1,0 +1,1 @@
+$tags = array_map(function($tag) {\n    return htmlspecialchars(trim($tag));\n}, explode(',', $_GET['tags']));\n\n// or using a more concise approach:\n$tags = array_map('htmlspecialchars', array_map('trim', explode(',', $_GET['tags'])));

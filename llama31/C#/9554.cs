@@ -1,0 +1,1 @@
+<div>@Html.Raw(Model.MyFieldWithCRLF.Replace("\n", "<br/>"))</div>

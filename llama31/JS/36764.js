@@ -1,0 +1,1 @@
+// Create a new bookmarklet that sends the URL to the proxy server\njavascript: (function() {\n    var url = encodeURIComponent(window.location.href);\n    var xhr = new XMLHttpRequest();\n    xhr.open('GET', 'https://your-proxy-server.com/proxy?url=' + url, true);\n    xhr.send();\n})();

@@ -1,1 +1,0 @@
-"blah blah blah... on " & ToText({YourDateField}, "MMM dd, yyyy") & "... blah blah blah"

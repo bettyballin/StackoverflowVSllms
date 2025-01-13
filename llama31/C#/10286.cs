@@ -1,0 +1,1 @@
+SqlCommand cmd = new SqlCommand("SELECT * FROM table WHERE name = @name");\ncmd.Parameters.Add("@name", SqlDbType.NVarChar, 50).Value = "John Doe";

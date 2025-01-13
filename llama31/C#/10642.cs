@@ -1,0 +1,1 @@
+public void Dispose()\n{\n    if (_child != null)\n    {\n        _child.Dispose();\n    }\n    // Dispose of own resources\n}

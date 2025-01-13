@@ -1,0 +1,1 @@
+call_user_func([$this, $this->dispatch[$id]]);

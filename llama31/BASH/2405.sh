@@ -1,0 +1,1 @@
+locust -f locust_file.py --headless -u 10 -r 10 --run-time 10s

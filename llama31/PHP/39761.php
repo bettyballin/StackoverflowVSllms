@@ -1,0 +1,1 @@
+function test_mem() {\n    $mem_before = memory_get_usage();\n    preg_match('/foo/', file_get_contents('large_file.txt'), $matches);\n    $mem_after = memory_get_usage();\n    echo "Memory usage before: $mem_before bytes\n";\n    echo "Memory usage after: $mem_after bytes\n";\n}\n\ntest_mem();

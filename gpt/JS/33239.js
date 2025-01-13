@@ -1,1 +1,0 @@
-let jsonData = '{"foo":"bar","baz":"qux"}';\nlet obj = JSON.parse(jsonData);\nconsole.log(obj); // Output: { foo: "bar", baz: "qux" }

@@ -1,0 +1,1 @@
+[WebMethod]\npublic static string LoadDBAsync()\n{\n    // Perform the asynchronous operation\n    DBManager dbManager = new DBManager();\n    dbManager.LoadDBAsync(null, null, null);\n    return "Finish!";\n}

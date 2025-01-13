@@ -1,1 +1,0 @@
--- Normalized Schema Example\nCREATE TABLE Users (\n    UserID INT PRIMARY KEY,\n    UserName VARCHAR(100),\n    Email VARCHAR(100)\n);\n\nCREATE TABLE Orders (\n    OrderID INT PRIMARY KEY,\n    UserID INT,\n    OrderDate DATE,\n    FOREIGN KEY (UserID) REFERENCES Users(UserID)\n);

@@ -1,0 +1,1 @@
+SELECT p.* \nFROM posts p \nLEFT JOIN post_reads pr ON p.PostID = pr.post_id AND pr.user_id = '$user_id'\nWHERE pr.id IS NULL;

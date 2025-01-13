@@ -1,0 +1,1 @@
+DataSet ds = new DataSet();\n// populate the dataset\n\n// Set EnforceConstraints to true\nds.EnforceConstraints = true;\n\n// Set each DataTable to ReadOnly\nforeach (DataTable dt in ds.Tables)\n{\n    dt.ReadOnly = true;\n}

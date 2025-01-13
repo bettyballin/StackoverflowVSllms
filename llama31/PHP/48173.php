@@ -1,0 +1,1 @@
+define('PROJECT_ROOT', dirname(__FILE__) . '/../');\n\nrequire_once PROJECT_ROOT . 'utils/util1.php';\nrequire_once PROJECT_ROOT . 'dbaccess/db1.php';

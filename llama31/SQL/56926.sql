@@ -1,0 +1,1 @@
+CREATE TABLE lookup_table (\n  id INT PRIMARY KEY,\n  value VARCHAR(50)\n);\n\nCREATE TABLE main_table (\n  id INT PRIMARY KEY,\n  lookup_id INT,\n  FOREIGN KEY (lookup_id) REFERENCES lookup_table(id)\n);

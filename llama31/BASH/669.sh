@@ -1,0 +1,1 @@
+for file in *.txt; do\n  sed -i '/*** Start.*$/,/*** Finish.*$/!d' "$file"\ndone

@@ -1,0 +1,1 @@
+<form-bean name="yourForm" type="org.apache.struts.action.DynaActionForm">\n    <form-property name="field_name" type="java.lang.String"/>\n    <!-- Add more form properties as needed -->\n</form-bean>

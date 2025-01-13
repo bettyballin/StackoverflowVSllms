@@ -1,0 +1,1 @@
+SELECT * FROM V$SESSION WHERE SID = <sid_from_v_lock>;

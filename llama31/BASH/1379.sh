@@ -1,0 +1,1 @@
+xsd2html -xsd input.xsd -out input.html

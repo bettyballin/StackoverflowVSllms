@@ -1,0 +1,1 @@
+uint8_t data[] = "Hello, World!";\nuint8_t hash[16];\n\nmd5(data, strlen((char *)data), hash);

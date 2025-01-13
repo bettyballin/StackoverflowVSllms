@@ -1,0 +1,1 @@
+CREATE TRIGGER trg_actors_stage_name\nBEFORE INSERT ON actors\nFOR EACH ROW\nSET NEW.stage_name = CONCAT(NEW.forename, ' ', NEW.surname);

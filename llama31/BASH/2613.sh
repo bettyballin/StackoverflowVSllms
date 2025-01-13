@@ -1,0 +1,1 @@
+wget -r -nH -nd -np -R "index.html*" http://www.arthika.net/1234TB/new/Kuruvi/

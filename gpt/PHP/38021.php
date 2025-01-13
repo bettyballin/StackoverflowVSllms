@@ -1,1 +1,0 @@
-<?php\n$affinity_command = "taskset -cp 0 $pg_pid"; // Example to set CPU 0\nexec($affinity_command);\n?>

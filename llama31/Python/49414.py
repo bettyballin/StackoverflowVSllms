@@ -1,0 +1,1 @@
+def generator(lst):\n    for value in lst:\n        yield value\n\ndef print_values(g):\n    for value in g:\n        print(value)\n\ng = generator([1, 2, 3, 4, 5])\nprint_values(g)

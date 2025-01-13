@@ -1,0 +1,1 @@
+Imports System.Windows.Forms\n\nPublic Class MenuControl\n    Inherits UserControl\n\n    ' Your menu controls and logic go here\nEnd Class

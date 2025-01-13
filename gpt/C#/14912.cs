@@ -1,1 +1,0 @@
-Response.Redirect("newpage.aspx", false);\nContext.ApplicationInstance.CompleteRequest();

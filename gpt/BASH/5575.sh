@@ -1,1 +1,0 @@
-checkmodule -M -m -o sudo_httpd.mod sudo_httpd.te\n    semodule_package -o sudo_httpd.pp -m sudo_httpd.mod\n    semodule -i sudo_httpd.pp

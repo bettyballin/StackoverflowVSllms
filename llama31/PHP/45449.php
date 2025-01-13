@@ -1,0 +1,1 @@
+$dt = new DateTime();\n$dt->setTimezone(new DateTimeZone('America/Los_Angeles'));\necho $dt->format('D j M Y, G:ia');

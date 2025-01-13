@@ -1,1 +1,0 @@
-iperf3 -s   # On the server side\n   iperf3 -c <server-ip>   # On the client side

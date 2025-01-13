@@ -1,0 +1,1 @@
+/* Add this to your CSS */\n.fade-in {\n  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";\n  filter: alpha(opacity=0);\n  opacity: 0;\n}\n\n.fade-in.fade-in-active {\n  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=100)";\n  filter: alpha(opacity=100);\n  opacity: 1;\n}

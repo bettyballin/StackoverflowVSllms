@@ -1,0 +1,1 @@
+ALTER LOGIN [my_login] WITH PASSWORD = 'P@ssw0rd123!';

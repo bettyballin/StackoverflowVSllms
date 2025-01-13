@@ -1,0 +1,1 @@
+-- Upper case, but not necessary\nSELECT * FROM my_table;\n\n-- Lower case, perfectly fine\nselect * from my_table;\n\n-- Mixed case, also okay\nSelect * From my_table;

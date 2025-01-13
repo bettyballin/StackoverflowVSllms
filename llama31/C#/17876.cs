@@ -1,0 +1,1 @@
+protected override void CreateChildControls()\n{\n    base.CreateChildControls();\n    // Add your dynamic controls here\n    this.Controls.Add(new LiteralControl("Hello World"));\n}

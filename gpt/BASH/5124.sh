@@ -1,1 +1,0 @@
-pandoc -s input.md -o output.pdf --css=print.css

@@ -1,0 +1,1 @@
+var dynamicMapping = new DynamicMapping();\ndynamicMapping.TableName = "DynamicTable1";\n\nvar attribute = new ColumnAttribute();\nattribute.Name = "ArbitraryId";\nattribute.Type = NHibernateUtil.Int32;\n\ndynamicMapping.AddColumn(attribute);

@@ -1,0 +1,1 @@
+import pathlib\n\ndir_path = pathlib.Path('/path/to/directory')\n\n# Get a list of directories\ndir_list = [item for item in dir_path.iterdir() if item.is_dir()]\n\n# Now dir_list only contains directories\nfor dir in dir_list:\n    # Add a file to each directory\n    (dir / 'new_file.txt').write_text('Hello, world!')

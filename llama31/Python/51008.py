@@ -1,0 +1,1 @@
+import nltk\n\n# Assume you have a gazetteer and a text\ngazetteer = {...}\ntext = "This blog is about New York"\n\nproper_nouns = [word for word in nltk.word_tokenize(text) if word.istitle()]\nlocations = [location for location in gazetteer if location in proper_nouns]\n\nprint(locations)  # Output: ["New York"]

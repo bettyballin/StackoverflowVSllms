@@ -1,1 +1,0 @@
-@echo off\ncd "C:\path\to\your\application"\nYourConsoleApp.exe

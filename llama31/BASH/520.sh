@@ -1,0 +1,1 @@
+# Initialize a Git repository in your project directory\ngit init\n\n# Add all files and commit\ngit add .\ngit commit -m "Initial commit"

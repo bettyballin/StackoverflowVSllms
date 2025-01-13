@@ -1,0 +1,1 @@
+#include <Shellapi.h>\n\nvoid OpenHelpFile()\n{\n    ShellExecute(GetDesktopWindow(), "open", "path/to/myhelp.chm", NULL, NULL, SW_SHOWNORMAL);\n}

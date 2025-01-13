@@ -1,0 +1,1 @@
+const urlParams = new URLSearchParams(window.location.search);\nconst id = urlParams.get('id');\n\nif (id && !isNaN(id) && id > 0) {\n  $("a[href='send_message.php?act=pm&id=" + id + "']").colorbox({width:"500", height:"350", iframe:true});\n}

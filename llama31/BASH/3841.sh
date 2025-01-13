@@ -1,0 +1,1 @@
+rpm -Uvh /path/to/php-5.2.4-1.fc8.i386.rpm

@@ -1,1 +1,0 @@
-import pyexcel_ods\n\ndata = {\n    'Sheet1': [\n        ['Hello', 'World']\n    ]\n}\n\npyexcel_ods.save_data("example.ods", data)

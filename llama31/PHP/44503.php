@@ -1,0 +1,1 @@
+// PHP code to render the table\n<table id="my-table">\n  <?php foreach ($data as $row) { ?>\n    <tr <?php if ($row['id'] == $focus_row_id) { ?> id="focus-row" <?php } ?>>\n      <!-- table cells -->\n    </tr>\n  <?php } ?>\n</table>

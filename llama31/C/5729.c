@@ -1,0 +1,1 @@
+#define SERVICE_NAME "W3SVC"\n\nGetServiceStatus(SERVICE_NAME, status);\n\nif (status == SERVICE_STATUS_RUNNING) {\n    // IIS is enabled\n} else {\n    // IIS is not enabled\n}

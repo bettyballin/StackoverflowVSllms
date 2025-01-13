@@ -1,0 +1,1 @@
+ALTER TABLE your_table ADD CONSTRAINT check_yes_no CHECK (your_column IN ('YES', 'NO'));

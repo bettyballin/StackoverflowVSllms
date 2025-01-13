@@ -1,0 +1,1 @@
+.container {\n  position: relative;\n}\n\n.bottom-right {\n  position: absolute;\n  bottom: 0;\n  right: 0;\n}

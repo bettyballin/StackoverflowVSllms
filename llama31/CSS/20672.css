@@ -1,0 +1,1 @@
+@media print {\n  /* Set the page size to A4 */\n  @page {\n    size: A4;\n    margin: 0;\n  }\n  \n  /* Make sure tables don't get cut off */\n  table {\n    page-break-inside: avoid;\n  }\n  \n  /* Optional: add a print-friendly font size */\n  body {\n    font-size: 12pt;\n  }\n}

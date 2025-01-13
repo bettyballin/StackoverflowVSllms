@@ -1,1 +1,0 @@
-DECLARE @RowCount INT = 1;\n\nWHILE @RowCount > 0\nBEGIN\n    UPDATE @tbXML\n    SET ParameterValue.modify('replace value of (//User/@Name[.="Billy"])[1] with "Peter"')\n    WHERE ParameterValue.exist('//User[@Name="Billy"]') = 1;\n\n    SET @RowCount = @@ROWCOUNT;\nEND

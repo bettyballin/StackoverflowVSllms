@@ -1,0 +1,1 @@
+function test($arg) {\n    var_dump($arg);\n}\n\n$id = array('foo' => 'bar');\n\n// Creates a copy of the $id array\ncall_user_func_array('test', array($id));\n\n// Passes the original reference to the $id array\ncall_user_func('test', $id);

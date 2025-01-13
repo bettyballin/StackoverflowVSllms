@@ -1,0 +1,1 @@
+gcc ... -isystem /usr/include -I/another/directory

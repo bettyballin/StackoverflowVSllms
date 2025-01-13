@@ -1,1 +1,0 @@
-SELECT p.Id as ParentId, p.Name as ParentName, c.Id as ChildId, c.Name as ChildName\nFROM Parent p\nLEFT JOIN Children c ON p.Id = c.ParentId

@@ -1,1 +1,0 @@
-gcc -o YourApp.exe your_source_file.c version.o

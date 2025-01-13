@@ -1,0 +1,1 @@
+// View\n@{\n    TempData["myData"] = "someValue";\n}\n\n// Controller\npublic ActionResult MyAction()\n{\n    string myData = TempData["myData"] as string;\n    // Process the data\n    return RedirectToAction("Index");\n}

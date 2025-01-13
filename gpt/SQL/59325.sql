@@ -1,1 +1,0 @@
-CREATE OR REPLACE TRIGGER handle_empty_strings\nBEFORE INSERT OR UPDATE ON your_table\nFOR EACH ROW\nBEGIN\n    IF :NEW.your_column IS NULL THEN\n        :NEW.your_column := '@';\n    END IF;\nEND;\n/

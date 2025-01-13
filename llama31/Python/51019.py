@@ -1,0 +1,1 @@
+import math\n\n# Assuming 10M operations in 1 second for O(n)\nbaseline_operations = 10 ** 7\n\n# Calculate the number of operations for O(n * log(n))\nn_log_n_operations = baseline_operations / (math.log(baseline_operations, 2))\n\nprint(n_log_n_operations)  # Output: approximately 5.8 * 10^6

@@ -1,1 +1,0 @@
-void patched_IOLog() {\n    // Do nothing\n}\n\nvoid install_patch() {\n    // This is an example and highly dependent on your specific OS and environment\n    // Ensure to replace with the proper hooking mechanism for your kernel\n    replace_function_call(&IOLog, &patched_IOLog);\n}

@@ -1,1 +1,0 @@
-CREATE TABLE example_table (\n    id CHAR(32) PRIMARY KEY\n);

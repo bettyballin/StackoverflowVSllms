@@ -1,1 +1,0 @@
-import re\n   pattern = r'\bword\b'\n   replacement = 'replacement_word'\n   result = re.sub(pattern, replacement, input_text)

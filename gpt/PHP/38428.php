@@ -1,1 +1,0 @@
-<?php\n/** @var \Vendor\Module\Block\CustomBlock $block */\n$customerName = $block->getCustomerName();\nif ($customerName) {\n    echo __('Hello, %1!', $customerName);\n} else {\n    echo __('Hello, Guest!');\n}\n?>

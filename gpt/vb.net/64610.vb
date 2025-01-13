@@ -1,1 +1,0 @@
-@Using Html.BeginForm("Create", "Model", FormMethod.Post, New With {.id = "CreateForm"})\n    ' Your form content goes here\nEnd Using

@@ -1,0 +1,1 @@
+$(document).ajaxSend(function(event, xhr, settings) {\n    var originalData = settings.ajaxSettings.data;\n    // do something with originalData\n});

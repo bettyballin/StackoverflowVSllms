@@ -1,1 +1,0 @@
-try\n{\n    postedFile.SaveAs(filePath);\n}\ncatch (UnauthorizedAccessException ex)\n{\n    // Log the detailed error message and stack trace\n    LogError($"Access denied to path {filePath}. Exception: {ex}");\n    throw; // Re-throw the exception if necessary\n}

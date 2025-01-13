@@ -1,0 +1,1 @@
+ALTER TABLE Chapters\nADD CONSTRAINT UC_ChapterTitle UNIQUE (Book, Title);

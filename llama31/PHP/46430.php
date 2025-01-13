@@ -1,0 +1,1 @@
+$ch = curl_init('http://example.com');\ncurl_setopt($ch, CURLOPT_PROXY, 'http://proxy_server:port');\ncurl_setopt($ch, CURLOPT_PROXYUSERPWD, 'username:password');\ncurl_exec($ch);\ncurl_close($ch);

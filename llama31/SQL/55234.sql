@@ -1,0 +1,1 @@
+SELECT text \nFROM all_source \nWHERE name = 'procedure_name' \nORDER BY line;

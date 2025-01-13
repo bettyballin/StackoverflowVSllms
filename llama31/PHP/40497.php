@@ -1,0 +1,1 @@
+function updateActionLog($ticketnum, $actionlog) {\n    $this->db->where('ticketnum', $ticketnum);\n    $this->db->update('tickets', array('actionlog' => $actionlog));\n}

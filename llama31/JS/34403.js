@@ -1,0 +1,1 @@
+oHTTP.setRequestHeader("Referer", "http://www.bseindia.com/stockreach/stockreach.htm?scripcd=532667");

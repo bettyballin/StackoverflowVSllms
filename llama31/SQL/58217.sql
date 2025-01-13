@@ -1,0 +1,1 @@
+SELECT * FROM (\n  SELECT * FROM us_music WHERE genre = 'punk'\n  UNION\n  SELECT * FROM de_music WHERE genre = 'punk'\n) AS combined_result\nORDER BY song_name;  // or any other column you want to sort by

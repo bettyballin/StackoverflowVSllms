@@ -1,0 +1,1 @@
+class MyModel < ActiveRecord::Base\n  generate_validating_setters :check_sent, :another_date_field\nend

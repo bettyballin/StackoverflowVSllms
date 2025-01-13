@@ -1,0 +1,1 @@
+protected override void WndProc(ref Message m)\n{\n    if (m.Msg == 0x0112 && m.WParam.ToInt32() == 0xF060) // WM_SYSCOMMAND, SC_CLOSE\n    {\n        // User clicked the Close button\n        // Perform your actions here\n    }\n    base.WndProc(ref m);\n}

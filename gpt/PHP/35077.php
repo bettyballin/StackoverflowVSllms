@@ -1,1 +1,0 @@
-$length = strlen('foo'); // returns an integer

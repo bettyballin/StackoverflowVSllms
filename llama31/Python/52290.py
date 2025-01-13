@@ -1,0 +1,1 @@
+import facebook\n\n# Initialize the Facebook API\ngraph = facebook.GraphAPI(access_token='your_access_token', version='3.1')\n\n# Make a request to the Facebook API\nresponse = graph.get_object(id='me')\n\nprint(response)

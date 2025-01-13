@@ -1,1 +1,0 @@
-dig +trace . br

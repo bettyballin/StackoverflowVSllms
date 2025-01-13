@@ -1,0 +1,1 @@
+SELECT u.UserID, w.WorkplanID, w.DateCreated\nFROM Users u\nINNER JOIN (\n  SELECT UserID, MAX(DateCreated) as MaxDate\n  FROM Workplans\n  GROUP BY UserID\n) mw ON u.UserID = mw.UserID\nINNER JOIN Workplans w ON mw.UserID = w.UserID AND mw.MaxDate = w.DateCreated

@@ -1,0 +1,1 @@
+<message name='genericArray'>\n    <part name='Result' type='xsd:array' itemType='xsd:string'/>\n</message>

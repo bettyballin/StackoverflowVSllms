@@ -1,1 +1,0 @@
-div.menu {\n    width: 550px;\n    display: flex;\n    flex-wrap: wrap;\n    justify-content: space-between;\n}\n\ndiv.menu div {\n    width: 200px;\n    margin-bottom: 10px; /* Add margin to separate divs if needed */\n}\n\ndiv.menu div.right {\n    align-self: flex-start;\n}

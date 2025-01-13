@@ -1,0 +1,1 @@
+CREATE TABLE users (\n  id INT PRIMARY KEY,\n  username VARCHAR(255),\n  email VARCHAR(255),\n  password VARCHAR(255),\n  status TEXT,\n  profile_picture VARCHAR(255)\n);

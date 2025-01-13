@@ -1,1 +1,0 @@
-chmod +x test_script.sh\n./test_script.sh

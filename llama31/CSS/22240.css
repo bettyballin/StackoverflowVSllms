@@ -1,0 +1,1 @@
+.container {\n  overflow: hidden;\n  direction: rtl;\n  width: 100px; /* adjust to your needs */\n}\n\n.inner {\n  text-align: right;\n}

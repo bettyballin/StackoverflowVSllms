@@ -1,0 +1,1 @@
+$result = $s3Client->listObjects([\n    'Bucket' => $bucketName,\n]);\n\nforeach ($result['Contents'] as $object) {\n    echo $object['Key'] . "\n";\n}

@@ -1,1 +1,0 @@
-// start rememberMe\n$cookie_name = 'db_auth';\n\n$cookie_time = (3600 * 24 * 30); // 30 days\n\n// check to see if user checked box\nif ($remember == 1) {\n    setcookie($cookie_name, 'username=' . $username, time() + $cookie_time);\n}

@@ -1,1 +1,0 @@
-public static class Extensions\n{\n    public static void With<T>(this T obj, Action<T> action)\n    {\n        action(obj);\n    }\n}\n\n// Usage\nvar person = new Person();\nperson.With(p => \n{\n    p.FirstName = "John";\n    p.LastName = "Doe";\n    p.Age = 30;\n});

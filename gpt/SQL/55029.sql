@@ -1,1 +1,0 @@
-SELECT \n    CAST(LeftDate AS DATE) AS DateOnly, \n    LeftDate \nFROM Table\nWHERE LeftDate > '2008-12-31'

@@ -1,0 +1,1 @@
+var bananas = fruits.Where(f => f.GetType() == typeof(Banana));

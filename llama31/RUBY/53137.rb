@@ -1,0 +1,1 @@
+class DynamicLengthValidator < ActiveModel::EachValidator\n  def validate_each(record, attribute, value)\n    dynamic_range = record.dynamic\n    unless value.length.within?(dynamic_range)\n      record.errors[attribute] = "Length must be within #{dynamic_range}"\n    end\n  end\nend\n\n# In your model\nvalidates :name, dynamic_length: true

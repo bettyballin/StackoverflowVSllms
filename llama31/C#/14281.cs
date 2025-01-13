@@ -1,0 +1,1 @@
+protected void ImageButton1_Click(object sender, ImageClickEventArgs e)\n{\n    myDiv.CssClass = "newCssClass";\n    OutsidePanel.Update();\n}

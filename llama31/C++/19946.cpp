@@ -1,0 +1,1 @@
+// mydll.def\nLIBRARY MyDll\nEXPORTS\n    MyFunction @1

@@ -1,1 +1,0 @@
-sudo rpm -Uvh https://repo.ius.io/ius-release-el5.rpm

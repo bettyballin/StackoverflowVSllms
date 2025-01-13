@@ -1,1 +1,0 @@
-#include <unistd.h>\n#include <iostream>\n\nint main() {\n    char *args[] = {"/path/to/external/program", "arg1", "arg2", nullptr};\n\n    // Execute the external program\n    if (execvp(args[0], args) == -1) {\n        perror("execvp");\n    }\n\n    // This will not be reached if execvp is successful\n    std::cout << "Execution failed!" << std::endl;\n\n    return 1;\n}

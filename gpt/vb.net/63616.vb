@@ -1,1 +1,0 @@
-Dim portAddress As Integer = &H378  ' Standard address for LPT1\n\n' Write a byte to the parallel port\nOut(portAddress, &HFF)  ' Sends 255 to the parallel port\n\n' Read a byte from the parallel port\nDim data As Byte = Inp(portAddress)\nMsgBox("Data read from parallel port: " & data)

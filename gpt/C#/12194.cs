@@ -1,1 +1,0 @@
-// Default.aspx.cs\npublic partial class _Default : System.Web.UI.Page\n{\n    protected void Page_Load(object sender, EventArgs e)\n    {\n        // Your code here\n    }\n\n    protected override void OnInit(EventArgs e)\n    {\n        this.Load += new EventHandler(Page_Load);\n        base.OnInit(e);\n    }\n}

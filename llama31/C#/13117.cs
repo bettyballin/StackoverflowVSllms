@@ -1,0 +1,1 @@
+public class OrderSummaryMapView : ClassMap<OrderSummary>\n{\n    public OrderSummaryMapView()\n    {\n        Table("OrderSummaryView");\n        ReadOnly();\n\n        Id(x => x.Id);\n        Map(x => x.OrderTotal);\n        // ... other mappings ...\n    }\n}

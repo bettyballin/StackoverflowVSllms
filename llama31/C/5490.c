@@ -1,0 +1,1 @@
+// Generate token example (using OpenSSL)\nunsigned char token[32];\nRAND_bytes(token, 32);\n\n// Store token and OFFSET in a database or cache\n// ...\n\n// Pass token to client as query parameter\nprintf("<a href='/next?token=%s'>Next</a>", token);

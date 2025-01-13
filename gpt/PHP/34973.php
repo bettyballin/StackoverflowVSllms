@@ -1,1 +1,0 @@
-function YOURTHEME_theme($existing, $type, $theme, $path) {\n     return array(\n       'button' => array(\n         'render element' => 'element',\n       ),\n     );\n   }

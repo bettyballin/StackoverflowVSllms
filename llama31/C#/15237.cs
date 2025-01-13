@@ -1,0 +1,1 @@
+string excelFile = "path/to/your/file.xlsx";\nstring tableName = "YourTableName";\n\nExcelToSql.GenerateSql(excelFile, tableName);

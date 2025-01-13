@@ -1,1 +1,0 @@
-// Example in ASP.NET MVC\n   [Authorize]\n   public ActionResult Edit(Guid id)\n   {\n       var userId = User.Identity.GetUserId();\n       var profile = _profileService.GetProfileById(id);\n\n       if (profile == null || profile.UserId != userId)\n       {\n           return new HttpStatusCodeResult(HttpStatusCode.Forbidden);\n       }\n\n       return View(profile);\n   }

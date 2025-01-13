@@ -1,1 +1,0 @@
-mount -o rw,bg,hard,timeo=600,retrans=2,acregmin=3,acregmax=60,acdirmin=30,acdirmax=60 server:/export /mnt

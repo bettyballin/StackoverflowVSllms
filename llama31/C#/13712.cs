@@ -1,0 +1,1 @@
+using System.Web.Security;\n\n[WebMethod]\npublic bool Login(string username, string password)\n{\n    // Validate user credentials\n    if (Membership.ValidateUser(username, password))\n    {\n        // Set authentication cookie\n        FormsAuthentication.SetAuthCookie(username, true);\n        return true;\n    }\n    else\n    {\n        return false;\n    }\n}

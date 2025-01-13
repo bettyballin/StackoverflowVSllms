@@ -1,0 +1,1 @@
+// a.aspx.cs\nprotected void SubmitButton_Click(object sender, EventArgs e)\n{\n    // Process the form data...\n    int fileId = // get the file ID from the form data\n    \n    // Redirect to b.aspx using GET\n    Response.Redirect("b.aspx?fileId=" + fileId, false);\n}

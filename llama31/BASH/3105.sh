@@ -1,0 +1,1 @@
+# Example using PyInstaller\npyinstaller --onefile my_script.py

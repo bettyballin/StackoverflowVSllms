@@ -1,0 +1,1 @@
+require 'pdf-reader'\n\nreader = PDF::Reader.new('input.pdf')\npages = reader.pages\n\npages.each_with_index do |page, index|\n  output_file = "output_#{index+1}.pdf"\n  page.save_as(output_file)\nend

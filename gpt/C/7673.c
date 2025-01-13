@@ -1,1 +1,0 @@
-void matrix_multiply(int n, double *restrict A, double *restrict B, double *restrict C) {\n       for (int i = 0; i < n; i++) {\n           for (int j = 0; j < n; j++) {\n               C[i * n + j] = 0;\n               for (int k = 0; k < n; k++) {\n                   C[i * n + j] += A[i * n + k] * B[k * n + j];\n               }\n           }\n       }\n   }

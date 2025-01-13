@@ -1,1 +1,0 @@
-// WCF Service\n   using SharedLibrary;\n\n   public class MyService : IMyService\n   {\n       public MyDataContract GetData()\n       {\n           // Example of using the shared data contract\n           return new MyDataContract { Id = 1, Name = "Sample" };\n       }\n   }

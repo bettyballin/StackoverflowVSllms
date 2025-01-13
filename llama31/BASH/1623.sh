@@ -1,0 +1,1 @@
+sed -i '1i Your Header Text Here' yourfile.csv

@@ -1,0 +1,1 @@
+// Get users\n$client = new SoapClient('https://api.example.com/users?wsdl');\n$users = $client->getUsers();\n\n// Create a new user\n$data = array('name' => 'John Doe', 'email' => 'john@example.com');\n$client = new SoapClient('https://api.example.com/users?wsdl');\n$client->createUser($data);

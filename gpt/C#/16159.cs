@@ -1,1 +1,0 @@
-foreach (var someone in Peoples)\n{\n    if (someone.Name == "foo")\n    {\n        break; // Exit the loop immediately\n    }\n}

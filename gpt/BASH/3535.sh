@@ -1,1 +1,0 @@
-pip install python-docx\n   pip install html2text

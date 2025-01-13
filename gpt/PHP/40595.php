@@ -1,1 +1,0 @@
-$object = new MyClass();\n$method = 'myMethod';\n$args = [$arg1, $arg2];\n$result = call_user_func_array([$object, $method], $args);

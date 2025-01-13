@@ -1,1 +1,0 @@
-var editableElement = document.querySelector('#editor');\n   new Aloha(editableElement, {\n       // Configuration options\n   });

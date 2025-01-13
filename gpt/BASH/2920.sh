@@ -1,1 +1,0 @@
-ilmerge /out:CombinedApp.exe YourApp.exe Dependency1.dll Dependency2.dll

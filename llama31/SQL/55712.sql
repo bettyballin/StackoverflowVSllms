@@ -1,0 +1,1 @@
+WITH RECURSIVE combinations AS (\n  SELECT item, price, 1 AS level\n  FROM items\n  WHERE price <= 30\n  UNION ALL\n  SELECT CONCAT(c.item, ', ', i.item), c.price + i.price, c.level + 1\n  FROM combinations c\n  JOIN items i ON c.price + i.price <= 30\n)\nSELECT * FROM combinations\nWHERE price = 30;

@@ -1,0 +1,1 @@
+// Reflection can be used to inspect and invoke private members,\n// bypassing access modifiers and potentially exposing sensitive data.\nvar privateField = typeof(SomeClass).GetField("privateField", BindingFlags.NonPublic | BindingFlags.Instance);

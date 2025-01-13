@@ -1,0 +1,1 @@
+string query = "SELECT distinct(destinations.name) as Destinations " +\n               "FROM destinations, flights " +\n               "WHERE destinations.d_ID = flights.d_ID " +\n               "AND flights.Date = @date";\n\nSqlCommand cmd = new SqlCommand(query, connection);\ncmd.Parameters.AddWithValue("@date", date);

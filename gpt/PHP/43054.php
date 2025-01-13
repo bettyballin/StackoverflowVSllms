@@ -1,1 +1,0 @@
-// On your server-side script\n   header("Access-Control-Allow-Origin: *");

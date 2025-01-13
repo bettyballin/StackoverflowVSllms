@@ -1,1 +1,0 @@
-<?php\nif (isset($_GET['rows'])) {\n    $rows = $_GET['rows'];\n    if ($rows >= 10 && $rows <= 200) {\n        echo "true";\n    } else {\n        echo "false";\n    }\n} else {\n    echo "false";\n}\n?>

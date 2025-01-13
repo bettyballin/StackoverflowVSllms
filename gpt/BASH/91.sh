@@ -1,1 +1,0 @@
-xwd -root -out screenshot.xwd

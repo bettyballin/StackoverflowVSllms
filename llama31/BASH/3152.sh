@@ -1,0 +1,1 @@
+# Open Meld with blank comparison windows\nmeld &\n\n# Paste text into the left comparison window\necho "SELECT * FROM table1;" | meld --left -\n\n# Paste text into the right comparison window\necho "SELECT * FROM table2;" | meld --right -

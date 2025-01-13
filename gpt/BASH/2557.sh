@@ -1,1 +1,0 @@
-ping -f -l <packet_size> <destination_ip>

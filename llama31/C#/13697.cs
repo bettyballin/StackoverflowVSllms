@@ -1,0 +1,1 @@
+[Guid("xxxxxxx2")]\n[ComSourceInterfaces(typeof(IMyInterface), typeof(IMyOtherInterface), typeof(IMyThirdInterface))]\n[ConnectionPointMap(typeof(IMyInterface))]\npublic class DeviceTranslator : IDisposable, IMyInterface, IMyOtherInterface, IMyThirdInterface\n{\n    // ...\n}

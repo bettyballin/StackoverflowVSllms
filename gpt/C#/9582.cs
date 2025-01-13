@@ -1,1 +1,0 @@
-protected void ScriptManager_AsyncPostBackError(object sender, AsyncPostBackErrorEventArgs e)\n{\n    string sourceElementID = ScriptManager.GetCurrent(this).AsyncPostBackSourceElementID;\n    // Use sourceElementID to determine the source of the postback\n}

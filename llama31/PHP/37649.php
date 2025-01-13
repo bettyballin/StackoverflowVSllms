@@ -1,0 +1,1 @@
+$timestamp = $rows['blogentry_date']; // Assuming this is a Unix timestamp\n$userTimezoneCode = 'America/New_York'; // Replace with the user's actual timezone code\n\n$formattedDate = convertTimestampToUserTimezone($timestamp, $userTimezoneCode);\necho $formattedDate; // Output: e.g. "12, Monday 2007 5:00am"

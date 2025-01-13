@@ -1,1 +1,0 @@
-// Before calling session_start()\n   ini_set('session.cookie_samesite', 'None');\n   ini_set('session.cookie_secure', '1');\n   session_start();

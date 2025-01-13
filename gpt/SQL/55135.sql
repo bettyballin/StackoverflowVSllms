@@ -1,1 +1,0 @@
-SELECT MAX(modified) AS last_update\nFROM your_table;

@@ -1,1 +1,0 @@
-User.left_joins(:events)\n    .group('users.id')\n    .having('COUNT(events.id) > 0')

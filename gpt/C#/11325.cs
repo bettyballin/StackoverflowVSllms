@@ -1,1 +1,0 @@
-protected void Application_BeginRequest(Object sender, EventArgs e)\n   {\n       if (!Request.IsSecureConnection)\n       {\n           Response.Redirect("https://" + Request.ServerVariables["HTTP_HOST"] + Request.RawUrl);\n       }\n       else\n       {\n           Response.Headers.Add("Strict-Transport-Security", "max-age=31536000; includeSubDomains");\n       }\n   }

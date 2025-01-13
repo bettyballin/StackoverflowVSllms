@@ -1,0 +1,1 @@
+chmod -R 775 /path/to/wordpress/wp-content

@@ -1,1 +1,0 @@
-./configure --prefix=/path/to/install\n   make\n   make install

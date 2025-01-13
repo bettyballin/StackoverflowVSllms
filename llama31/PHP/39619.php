@@ -1,0 +1,1 @@
+$string = preg_replace('/\s+/', '-', $string);

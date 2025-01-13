@@ -1,1 +1,0 @@
-var newDialog = new MyDialog();\nnewDialog.Owner = null; // Ensures the new dialog is not set as the owner of the current window\nnewDialog.ShowDialog();\n\n// Optionally, reset the MainWindow to the original main window\nApp.Current.MainWindow = originalMainWindow;

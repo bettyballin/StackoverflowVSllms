@@ -1,1 +1,0 @@
-sudo criu restore -D /path/to/checkpoint -j

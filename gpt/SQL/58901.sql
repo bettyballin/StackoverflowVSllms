@@ -1,1 +1,0 @@
-ALTER TABLE YourTable \n    ALTER COLUMN YourIdentityColumn BIGINT NOT NULL;

@@ -1,1 +1,0 @@
-// Assuming 'file' is the path to the temporary image file.\nGlobal.AddFileLocation(file);

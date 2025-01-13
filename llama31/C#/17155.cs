@@ -1,0 +1,1 @@
+textBox.SetValue(ValidationSummary.PlacementProperty, ValidationSummaryPlacement.Bottom);

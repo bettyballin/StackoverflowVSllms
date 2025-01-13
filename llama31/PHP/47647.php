@@ -1,0 +1,1 @@
+$datetime1 = '2009-07-26 18:42:21';\n$datetime2 = '2009-07-26 18:42:30';\n\n$timestamp1 = strtotime($datetime1);\n$timestamp2 = strtotime($datetime2);\n\n$elapsed_time = $timestamp2 - $timestamp1;\n\necho "Elapsed time: $elapsed_time seconds";

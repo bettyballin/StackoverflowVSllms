@@ -1,0 +1,1 @@
+$.ajax({\n  type: 'GET',\n  url: 'http://localhost:7076/?word=foo',\n  dataType: 'jsonp',\n  success: function(data) {\n    console.log(data);\n  }\n});

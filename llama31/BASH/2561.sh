@@ -1,0 +1,1 @@
+# Example rsync command\n   rsync -avz /path/to/projects/ /path/to/external/drive/

@@ -1,0 +1,1 @@
+// Create a strong name key\nsn.exe -k mykey.snk\n\n// Sign your assembly with the strong name key\ncsc.exe /keyfile:mykey.snk yourassembly.cs

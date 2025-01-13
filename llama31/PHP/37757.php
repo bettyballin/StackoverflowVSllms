@@ -1,0 +1,1 @@
+$client = new VersionControl_SVN_Client();\n$client->setRepository('file:///path/to/repo');\n$client->setRevision('HEAD');\n\n$list = $client->listDirectory('/');\n\nforeach ($list as $entry) {\n    echo $entry['name'] . "\n";\n}

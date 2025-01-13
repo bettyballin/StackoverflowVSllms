@@ -1,1 +1,0 @@
-UPDATE YourTable\nSET YourColumn = REPLACE(YourColumn, 'abc', '')\nWHERE YourColumn LIKE '%abc%';

@@ -1,1 +1,0 @@
-httpcfg set urlacl /u http://+:9001/ /a D:(A;;GX;;;S-1-5-21-...)

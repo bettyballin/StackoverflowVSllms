@@ -1,1 +1,0 @@
-UPDATE data SET dt_hash = SHA2(dt, 256);

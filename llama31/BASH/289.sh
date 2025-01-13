@@ -1,0 +1,1 @@
+ps axopid,comm,wcha

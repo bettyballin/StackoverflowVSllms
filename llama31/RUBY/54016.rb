@@ -1,0 +1,1 @@
+1.upto(10) do |x|\n  some_function(binding) {\n    t + x\n  }\nend\n\ndef some_function(binding)\n  # Get the local variable x\n  x_value = binding.local_variable_get(:x)\n  # Do your translation here\n  puts "x = #{x_value}"\nend

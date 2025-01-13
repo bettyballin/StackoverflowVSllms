@@ -1,0 +1,1 @@
+from django.db import models\n\nclass MyModel(models.Model):\n    objects = models.Manager()\n\n    def my_custom_query(self):\n        with connection.cursor() as cursor:\n            cursor.callproc('my_stored_procedure', [self.pk])\n            results = cursor.fetchall()\n            return results

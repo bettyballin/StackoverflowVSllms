@@ -1,0 +1,1 @@
+$.ajax({\n    url: 'data.asp',\n    dataType: 'json',\n    success: function(data) {\n        console.log(data.name); // prints "John"\n    }\n});

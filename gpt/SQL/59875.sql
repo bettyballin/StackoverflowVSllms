@@ -1,1 +1,0 @@
-CREATE TABLE temp_data (\n       id INT PRIMARY KEY,\n       value VARCHAR(100)\n   ) ENGINE=MEMORY;

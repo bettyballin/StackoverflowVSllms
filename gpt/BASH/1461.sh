@@ -1,1 +1,0 @@
-$path = "C:\path\to\yourfile.exe"\n$zoneIdentifier = Get-Item -Path "$path" -Stream "Zone.Identifier" -ErrorAction SilentlyContinue\n\nif ($zoneIdentifier) {\n    Write-Output "File is blocked."\n    # Add your logic to handle the blocked file here\n} else {\n    Write-Output "File is not blocked."\n}

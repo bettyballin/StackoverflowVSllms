@@ -1,1 +1,0 @@
-mkdir my_project\ncd my_project\necho "source 'https://rubygems.org'" > Gemfile\necho "gem 'warbler'" >> Gemfile\nbundle install

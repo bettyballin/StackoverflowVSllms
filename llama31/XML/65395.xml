@@ -1,0 +1,1 @@
+<taskdef name="schemavalidate" classname="org.apache.tools.ant.taskdefs.optional.XMLValidateTask">\n    <classpath>\n        <pathelement location="path/to/xercesImpl.jar"/>\n    </classpath>\n</taskdef>

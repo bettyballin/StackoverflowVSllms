@@ -1,1 +1,0 @@
-# Example for adjusting TCP window size on Linux\nsysctl -w net.ipv4.tcp_window_scaling=1\nsysctl -w net.ipv4.tcp_rmem="4096 87380 6291456"\nsysctl -w net.ipv4.tcp_wmem="4096 65536 6291456"

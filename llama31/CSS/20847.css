@@ -1,0 +1,1 @@
+#topNav li ul {\n  display: table;\n  /* ... other styles ... */\n}\n\n#topNav li li {\n  display: table-cell;\n  /* ... other styles ... */\n}

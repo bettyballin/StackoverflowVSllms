@@ -1,1 +1,0 @@
-# Navigate to the output directory (bin/Debug or bin/Release)\ncd path\to\your\project\bin\Debug\n\n# Remove all files in the output directory\ndel * /Q\n\n# Rebuild the solution in Visual Studio

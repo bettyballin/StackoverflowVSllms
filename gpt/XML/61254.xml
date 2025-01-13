@@ -1,1 +1,0 @@
-<configuration>\n  <system.webServer>\n    <handlers>\n      <add name="ASP.NET-4.0-PageHandlerFactory" path="*.aspx" verb="GET,HEAD,POST,DEBUG,PUT,DELETE" type="System.Web.UI.PageHandlerFactory" resourceType="Unspecified" requireAccess="Script" preCondition="integratedMode,runtimeVersionv4.0" />\n    </handlers>\n  </system.webServer>\n</configuration>

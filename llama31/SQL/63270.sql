@@ -1,0 +1,1 @@
+IF @@VERSION LIKE '%2000%'\nBEGIN\n    -- Code for SQL 2000\nEND\nELSE IF @@VERSION LIKE '%2005%'\nBEGIN\n    -- Code for SQL 2005\nEND

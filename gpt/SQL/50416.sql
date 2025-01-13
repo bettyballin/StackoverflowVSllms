@@ -1,1 +1,0 @@
-BACKUP LOG [bybox] TO DISK = 'C:\bybox_log.bak';

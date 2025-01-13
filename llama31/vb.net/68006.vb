@@ -1,0 +1,1 @@
+If usehtml Then\n    Dim result As String = data\n    For i As Integer = 1 To size - Len(data)\n        result &= "&nbsp;"\n    Next\n    Return result\nEnd If

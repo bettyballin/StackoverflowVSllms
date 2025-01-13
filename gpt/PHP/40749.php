@@ -1,1 +1,0 @@
-<?php\n$name = "John O'Neil-Smith";\n\nif (preg_match("/^[\p{L} '-]+$/u", $name)) {\n    echo "Valid name.";\n} else {\n    echo "Invalid name.";\n}\n?>

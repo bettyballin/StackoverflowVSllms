@@ -1,1 +1,0 @@
-SELECT DBMS_LOB.SUBSTR(your_lob_column, 4000, 1) AS lob_content \nFROM your_table;

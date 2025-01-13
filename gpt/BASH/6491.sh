@@ -1,1 +1,0 @@
-ffmpeg -i Sample1.mpg -vf "drawtext=fontfile=/path/to/font.ttf: \\n                          text='Hi Mom': \\n                          x=0: y=0: \\n                          fontsize=24: fontcolor=white: \\n                          enable='between(t,1,200)'" \\n                          -codec:a copy Sample2.mpg

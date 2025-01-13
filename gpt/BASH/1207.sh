@@ -1,1 +1,0 @@
-svn checkout http://path.to.codeplex.repo/trunk codeplex-repo

@@ -1,0 +1,1 @@
+using System.Windows;\n\n// Get the current application's dispatcher\nvar dispatcher = Application.Current.Dispatcher;\n\n// Create an instance of your window on the UI thread\ndispatcher.Invoke(() =>\n{\n    var window = new YourWindow();\n    window.ShowDialog();\n});

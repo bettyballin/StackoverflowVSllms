@@ -1,0 +1,1 @@
+CREATE TRIGGER update_timestamp\nAFTER UPDATE ON your_table_name\nFOR EACH ROW\nSET NEW.updated_at = NOW();

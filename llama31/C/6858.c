@@ -1,0 +1,1 @@
+int result = IsIpBlocked("192.168.1.100");\nif (result == 1) {\n    printf("IP address is blocked\n");\n} else if (result == 0) {\n    printf("IP address is not blocked\n");\n} else {\n    printf("Error determining if IP address is blocked\n");\n}

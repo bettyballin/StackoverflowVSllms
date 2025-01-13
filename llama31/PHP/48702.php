@@ -1,0 +1,1 @@
+$url = 'http://example.com/xmlfile.xml';\n$xmlContent = file_get_contents($url);\n\nif ($xmlContent !== false) {\n    echo $xmlContent;\n} else {\n    echo 'Failed to retrieve XML content';\n}

@@ -1,0 +1,1 @@
+# Restore DB and Run ETL\nRestore-Database -Name "known_db_backup"\nStart-SQLAgentJob -Name "etl_job_name"\nInvoke-SQLScript -Path "validation_script.sql"

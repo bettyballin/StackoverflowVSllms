@@ -1,0 +1,1 @@
+CREATE TABLE your_table (\n  id INT,\n  name VARCHAR(255),\n  email VARCHAR(255)\n);\n\nINSERT INTO your_table (id, name, email) VALUES\n  (1, 'John', 'john@example.com'),\n  (2, 'Jane', 'jane@example.com'),\n  (3, 'John', 'john2@example.com');\n\nSELECT DISTINCT(name), email\nFROM your_table;

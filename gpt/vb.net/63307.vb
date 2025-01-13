@@ -1,1 +1,0 @@
-<STAThread()> _\n   Public Sub Main()\n       ' Your entry point code\n   End Sub

@@ -1,1 +1,0 @@
-<?php\n// Include the User class file\nrequire_once 'User.php';\n\n// Get the instance of the User class\n$user = User::getInstance();\n\n// Check if the user is logged in\nif (!$user->isLoggedIn()) {\n    // Perform login\n    $user->login($username, $password);\n}\n\n// Now you can use the $user object throughout your application\n?>

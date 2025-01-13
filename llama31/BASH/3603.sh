@@ -1,0 +1,1 @@
+[root@machine plugins]# java -versio

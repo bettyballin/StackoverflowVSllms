@@ -1,1 +1,0 @@
-const listItems = document.querySelectorAll("#list li");\nlistItems.forEach((item, index) => {\n    item.addEventListener("click", function() {\n        foo(index);\n    }, false);\n});\n\nfunction foo(index) {\n    console.log("Clicked item index: " + index);\n    // Perform other operations\n}

@@ -1,0 +1,1 @@
+$db = new mysqli('localhost', 'username', 'password', 'database');\n$result = $db->query('SHOW GLOBAL STATUS LIKE "Queries"');\n$row = $result->fetch_assoc();\n$queriesPerMinute = $row['Value'] / 60;\nif ($queriesPerMinute > 100) { // adjust the threshold value as needed\n    echo "Server is busy";\n} else {\n    echo "Server is not busy";\n}

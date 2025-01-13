@@ -1,1 +1,0 @@
-gcc -shared -o yourdllname.dll yoursourcefile.o -Wl,--output-def,exports.def

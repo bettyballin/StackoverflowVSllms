@@ -1,0 +1,1 @@
+SHOW log_statement;

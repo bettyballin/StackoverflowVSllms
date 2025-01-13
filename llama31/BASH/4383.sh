@@ -1,0 +1,1 @@
+svnsync init /path/to/mirror/repo https://global.repo.url

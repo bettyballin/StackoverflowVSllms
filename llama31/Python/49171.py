@@ -1,0 +1,1 @@
+def make_adder(x):\n    def add(y):\n        return x + y\n    return add\n\nadd_five = make_adder(5)\nprint(add_five(3))  # prints 8

@@ -1,0 +1,1 @@
+X509Certificate2 cert = // get the certificate from the SmartCard store\n\nif (cert.HasPrivateKey)\n{\n    RSACryptoServiceProvider rsa = (RSACryptoServiceProvider)cert.PrivateKey;\n    // Use the RSACryptoServiceProvider\n}

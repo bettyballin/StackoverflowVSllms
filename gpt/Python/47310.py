@@ -1,1 +1,0 @@
-def jit_compile_and_execute(node):\n         if node.type == 'function':\n             native_code = compile_to_native(node)\n             execute_native_code(native_code)\n         else:\n             # Fallback to interpretation for unsupported constructs\n             interpret(node)

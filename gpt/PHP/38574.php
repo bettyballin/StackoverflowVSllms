@@ -1,1 +1,0 @@
-<?php\nif (isset($_GET['action']) && $_GET['action'] == 'show' && isset($_GET['id'])) {\n    $id = intval($_GET['id']); // Validate and sanitize input\n    // Proceed with your logic using $id\n    echo "ID: " . htmlspecialchars($id);\n} else {\n    echo "Invalid request.";\n}\n?>

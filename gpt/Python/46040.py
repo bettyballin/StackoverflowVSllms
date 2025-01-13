@@ -1,1 +1,0 @@
-import re\n\n# Sample content with Microsoft Word newline characters\ncontent = "This is some text from Microsoft Word.\r\nHere is a new line.\rAnother new line."\n\n# Replace all types of newline characters (\r, \n, \r\n) with a space or any desired character\ncleaned_content = re.sub(r'\r\n|\r|\n', ' ', content)\n\nprint(cleaned_content)

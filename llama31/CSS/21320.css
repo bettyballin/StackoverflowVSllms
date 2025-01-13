@@ -1,0 +1,1 @@
+a {\n  background-image: url('small_image.png');\n}\n\na:hover, a.active {\n  background-image: url('large_image.png');\n}

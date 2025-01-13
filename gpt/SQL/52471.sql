@@ -1,1 +1,0 @@
-CREATE TABLE [YourCentralDatabase].[dbo].[DDLLog] (\n    LogID INT IDENTITY(1,1) PRIMARY KEY,\n    EventData XML,\n    LogDate DATETIME DEFAULT GETDATE()\n)

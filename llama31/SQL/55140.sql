@@ -1,0 +1,1 @@
+DECLARE @ForumIDs TABLE (ForumID INT PRIMARY KEY)\n\nINSERT INTO @ForumIDs (ForumID)\nVALUES (108), (109), (113), ..., (891)\n\nSELECT FieldX, FieldY\nFROM A\nINNER JOIN @ForumIDs F ON A.FieldW = F.ForumID

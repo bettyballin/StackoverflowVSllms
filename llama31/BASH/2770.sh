@@ -1,0 +1,1 @@
+xcodebuild -scheme YourScheme -destination 'platform=iOS,name=YourDeviceName'

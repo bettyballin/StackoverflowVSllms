@@ -1,1 +1,0 @@
-CREATE TABLE your_table (\n    id CHAR(36) NOT NULL,  -- GUID as primary key\n    auto_increment_id INT NOT NULL AUTO_INCREMENT,  -- Auto increment field\n    data_column VARCHAR(255) NOT NULL,\n    PRIMARY KEY (id),  -- Primary key on GUID\n    UNIQUE KEY (auto_increment_id)  -- Unique key on auto-increment field\n);

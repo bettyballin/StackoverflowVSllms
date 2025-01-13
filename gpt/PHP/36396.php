@@ -1,1 +1,0 @@
-<?php\n// Example of a potential loop causing excessive requests\nwhile (true) {\n    file_get_contents('http://yoursite.com/some-endpoint');\n    // Ensure there's a break condition in your loops\n}\n?>

@@ -1,0 +1,1 @@
+DELIMITER //\n\nCREATE PROCEDURE myProcedure()\nBEGIN\n  DECLARE myVariable INT;\n  DECLARE myCursor CURSOR FOR SELECT * FROM myTable;\n\n  OPEN myCursor;\n  FETCH myCursor INTO myVariable;\n  CLOSE myCursor;\nEND //\n\nDELIMITER ;

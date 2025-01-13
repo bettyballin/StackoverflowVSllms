@@ -1,1 +1,0 @@
-private void Button_Click(object sender, RoutedEventArgs e)\n{\n    Button button = sender as Button;\n    if (button != null)\n    {\n        int row = Grid.GetRow(button);\n        int column = Grid.GetColumn(button);\n\n        MessageBox.Show($"Button is in row {row} and column {column}");\n    }\n}

@@ -1,1 +1,0 @@
-Imports System.Media\n\nPublic Class Form1\n    Private Sub PlaySystemSound()\n        SystemSounds.Exclamation.Play() ' Plays the exclamation sound\n    End Sub\n\n    Private Sub PlayCustomSound()\n        Dim player As New SoundPlayer("C:\path\to\your\soundfile.wav")\n        player.Play()\n    End Sub\nEnd Class

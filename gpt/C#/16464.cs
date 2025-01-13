@@ -1,1 +1,0 @@
-void Session_Start(object sender, EventArgs e)\n{\n    // Initialize a session variable\n    Session["UserStartTime"] = DateTime.Now;\n    // Log session start\n    System.Diagnostics.Debug.WriteLine("Session started at: " + DateTime.Now);\n}

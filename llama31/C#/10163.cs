@@ -1,0 +1,1 @@
+YourWebService service = new YourWebService();\nservice.YourMethod();

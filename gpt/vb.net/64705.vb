@@ -1,1 +1,0 @@
-Dim startDate As Date\nDim endDate As Date\nDim formattedDateRange As String\nDim sql As String\n\nstartDate = #4/21/2009#\nendDate = #4/29/2009#\n\nformattedDateRange = Format(startDate, "m/d/yyyy") & " to " & Format(endDate, "m/d/yyyy")\nsql = "UPDATE analyzedCopy2 SET analyzedCopy2.DateRange = '" & formattedDateRange & "'"\n\n' Execute the SQL statement\nCurrentDb.Execute sql

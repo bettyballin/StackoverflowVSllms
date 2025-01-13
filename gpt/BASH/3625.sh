@@ -1,1 +1,0 @@
-mvn clean test -Dmaven.surefire.debug

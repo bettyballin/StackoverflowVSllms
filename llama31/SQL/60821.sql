@@ -1,0 +1,1 @@
+CREATE TYPE FilterValues AS TABLE (Value INT);\nGO\n\nCREATE PROCEDURE GetFilteredResults\n    @FilterValues FilterValues READONLY\nAS\nBEGIN\n    SELECT *\n    FROM YourTable\n    WHERE YourColumn IN (SELECT Value FROM @FilterValues);\nEND;\nGO

@@ -1,1 +1,0 @@
-./manage.py test --verbosity=2

@@ -1,1 +1,0 @@
-openssl s_client -connect yourdomain.com:443 -tls1

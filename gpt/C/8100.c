@@ -1,1 +1,0 @@
-// opcode_functions.c\n   int add(int L, int R) {\n       return L + R;\n   }\n\n   // You can add more functions for other opcodes.

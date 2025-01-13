@@ -1,1 +1,0 @@
-# Example configuration for an 8 vCPU VM in Proxmox VE\n   qm create 100 --name scientific_vm --cores 8 --memory 32768

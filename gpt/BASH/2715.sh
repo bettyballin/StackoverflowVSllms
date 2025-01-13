@@ -1,1 +1,0 @@
-0 0 * * * /path/to/your/cakephp/bin/cake clean_up_temporary_files

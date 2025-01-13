@@ -1,1 +1,0 @@
-void example_function() {\n    int a = 10, b = 20, c;\n\n    asm volatile (\n        "addl %%ebx, %%eax;"\n        : "=a" (c)\n        : "a" (a), "b" (b)\n    );\n\n    // c now contains the result of a + b\n}

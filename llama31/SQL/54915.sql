@@ -1,0 +1,1 @@
+SELECT COUNT(o.id), c.id AS categoryId\nFROM orders o\nJOIN products p ON o.product_id = p.id\nJOIN product_group pg ON p.product_group_id = pg.id\nJOIN categories c ON pg.category_id = c.id\nWHERE o.customer_id IN (1, 2, 3)\nGROUP BY c.id;

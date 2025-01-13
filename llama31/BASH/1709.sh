@@ -1,0 +1,1 @@
+LIBS += -L"C:/...path..." -lnewmat

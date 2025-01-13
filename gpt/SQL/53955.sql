@@ -1,1 +1,0 @@
-ALTER TABLE `main` ENGINE=InnoDB;

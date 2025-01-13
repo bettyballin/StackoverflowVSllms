@@ -1,0 +1,1 @@
+codesign -dv --entitlements - YourApp.app\nsecurity cms -D -i YourApp.mobileprovisio

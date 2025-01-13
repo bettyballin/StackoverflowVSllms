@@ -1,1 +1,0 @@
-using (SqlConnection connection = new SqlConnection(connectionString))\n{\n    SqlCommand command = new SqlCommand("SELECT * FROM Table WHERE Name = @Name", connection);\n    command.Parameters.AddWithValue("@Name", userInput);\n\n    connection.Open();\n    SqlDataReader reader = command.ExecuteReader();\n    while (reader.Read())\n    {\n        // Process data\n    }\n}

@@ -1,1 +1,0 @@
-function duplicateSession(userSessionToken) {\n       const newSessionToken = cloneSession(userSessionToken);\n       logSessionDuplication(newSessionToken);\n       // Use the new session token to access the user's view\n   }

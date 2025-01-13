@@ -1,1 +1,0 @@
-$template = preg_replace('/\{a\}(.*?)\{\/a\}/s', 'X', $template, -1, $count);\necho $count; // prints the number of replacements made

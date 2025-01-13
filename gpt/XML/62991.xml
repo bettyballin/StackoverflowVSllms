@@ -1,1 +1,0 @@
-<configuration>\n  <system.web>\n    <machineKey validationKey="AutoGenerate,IsolateApps" decryptionKey="AutoGenerate,IsolateApps" validation="SHA1" />\n  </system.web>\n</configuration>

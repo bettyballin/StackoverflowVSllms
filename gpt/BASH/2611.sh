@@ -1,1 +1,0 @@
-#!/usr/bin/expect\n\n# Set the variables\nset timeout -1\nset password "p@ssword"\nset user "me"\nset host "127.0.0.1"\n\n# Start the SSH session\nspawn ssh $user@$host\n\n# Look for the password prompt\nexpect "password:"\n\n# Send the password\nsend "$password\r"\n\n# Interact with the SSH session\ninteract

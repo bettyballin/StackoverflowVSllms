@@ -1,1 +1,0 @@
-signtool sign /a /t http://timestamp.digicert.com /f "path\to\your\certificate.pfx" /p "yourpassword" "path\to\your\setup.exe"

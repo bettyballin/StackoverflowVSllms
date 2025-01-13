@@ -1,1 +1,0 @@
-CREATE TABLE Foo (\n    FooID SERIAL PRIMARY KEY,\n    -- other columns...\n);\n\nCREATE TABLE Bar (\n    FooID INT NOT NULL,\n    BarID UUID NOT NULL DEFAULT gen_random_uuid(),\n    PRIMARY KEY (FooID, BarID),\n    FOREIGN KEY (FooID) REFERENCES Foo(FooID)\n    -- other columns...\n);

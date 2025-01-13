@@ -1,0 +1,1 @@
+scp user@ftp-server:/path/to/file /local/path

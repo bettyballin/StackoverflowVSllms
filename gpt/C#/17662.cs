@@ -1,1 +1,0 @@
-public class MyDbContext : DbContext\n{\n    public DbSet<MyModel> MyModels { get; set; }\n\n    protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)\n    {\n        optionsBuilder.UseSqlite("Data Source=mydatabase.db");\n    }\n}

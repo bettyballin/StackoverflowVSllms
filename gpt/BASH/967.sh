@@ -1,1 +1,0 @@
-gcc -shared -o opcode_functions.so -fPIC opcode_functions.c

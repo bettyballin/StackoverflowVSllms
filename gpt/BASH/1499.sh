@@ -1,1 +1,0 @@
-git clone http://your.server.com/git/repo.git

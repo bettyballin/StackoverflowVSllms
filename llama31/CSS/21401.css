@@ -1,0 +1,1 @@
+.container {\n  display: table;\n  width: 100%;\n}\n\n.sidebar {\n  display: table-cell;\n  width: 200px; /* fixed width */\n  background-color: #f0f0f0;\n}\n\n.content {\n  display: table-cell;\n  background-color: #ffffff;\n}\n\n.footer {\n  display: table-row;\n  background-color: #333333;\n  color: #ffffff;\n}

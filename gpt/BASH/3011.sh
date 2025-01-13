@@ -1,1 +1,0 @@
-python3 word_frequency.py

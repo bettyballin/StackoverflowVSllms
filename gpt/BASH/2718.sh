@@ -1,1 +1,0 @@
-db2move target_database_name import

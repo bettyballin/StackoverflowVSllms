@@ -1,0 +1,1 @@
+// Example of using SonarQube to analyze a Java project\nsonar-scanner \\n  -Dsonar.host.url=http://localhost:9000 \\n  -Dsonar.login=mylogin \\n  -Dsonar.password=mypassword \\n  -Dsonar.projectKey=myproject \\n  -Dsonar.projectName=My Project \\n  -Dsonar.projectVersion=1.0 \\n  -Dsonar.java.binaries=target/classes \\n  -Dsonar.sources=src/main/java

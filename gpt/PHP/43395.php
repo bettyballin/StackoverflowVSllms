@@ -1,1 +1,0 @@
-$SOMETHING = false; // Changing the value

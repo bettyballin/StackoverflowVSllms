@@ -1,1 +1,0 @@
-if (system_state != EXPECTED_STATE) {\n        // Handle unexpected system state\n    }

@@ -1,0 +1,1 @@
+<body data-view-type="contact" data-contact-id="<%= @contact.id %>">\n  <!-- existing code -->\n</body>

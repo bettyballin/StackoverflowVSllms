@@ -1,0 +1,1 @@
+public interface ILoginService\n{\n    bool Authenticate(string username, string password);\n}\n\npublic class LoginService : ILoginService\n{\n    public bool Authenticate(string username, string password)\n    {\n        // authentication logic here\n        return true;\n    }\n}

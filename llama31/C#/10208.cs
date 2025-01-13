@@ -1,0 +1,1 @@
+using (var tx = new TransactionScope()) {\n    // execute batch update\n    dc.ExecuteCommand("UPDATE MyTable SET MyColumn = @value WHERE MyPredicate", myValue);\n    // invalidate cache entries\n    cache.Invalidate("MyTable:MyColumn");\n    // refresh DataContext's object graph\n    dc.Refresh(RefreshMode.OverwriteCurrentValues, myUpdatedObjects);\n    tx.Complete();\n}

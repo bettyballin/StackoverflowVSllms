@@ -1,0 +1,1 @@
+private static Random randomNumber = new Random();\n\nprivate static string RandomString(int Length)\n{\n    StringBuilder sb = new StringBuilder();\n\n    for (int i = 0; i <= Length; ++i)\n    {\n        int x = randomNumber.Next(65, 122);\n        sb.Append(Convert.ToChar(x));\n    }\n    return sb.ToString();\n}

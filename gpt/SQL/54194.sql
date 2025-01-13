@@ -1,1 +1,0 @@
-CREATE TABLE Orders (\n    order_id INT PRIMARY KEY,\n    user_id INT,\n    order_date DATE,\n    amount DECIMAL(10, 2)\n);

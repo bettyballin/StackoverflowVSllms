@@ -1,1 +1,0 @@
-' Create a new Timer instance\nDim timReminder As New System.Windows.Forms.Timer()\n\n' Set the interval (e.g., 1000 milliseconds = 1 second)\ntimReminder.Interval = 1000\n\n' Assign the event handler\nAddHandler timReminder.Tick, AddressOf timReminder_Tick\n\n' Start the timer\ntimReminder.Start()

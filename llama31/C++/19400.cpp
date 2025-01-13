@@ -1,0 +1,1 @@
+// C/C++ with embedded Python\n#include <Python.h>\n\nint main() {\n    Py_Initialize();\n    // Execute a user-provided Python script\n    PyEval_String("import user_module; user_module.user_function()", "<string>", Py_single_input);\n    Py_Finalize();\n    return 0;\n}

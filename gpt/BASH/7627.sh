@@ -1,1 +1,0 @@
-sudo umount /mnt/lvm_snapshot\nsudo vgchange -an\nsudo losetup -d /dev/loop0

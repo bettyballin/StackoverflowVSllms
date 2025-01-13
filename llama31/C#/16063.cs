@@ -1,0 +1,1 @@
+using System.Data.SqlClient;\n\n// Clear the connection pool for a specific connection string\nSqlConnection.ClearPool(new SqlConnection("your_connection_string"));\n\n// Clear all connection pools\nSqlConnection.ClearAllPools();

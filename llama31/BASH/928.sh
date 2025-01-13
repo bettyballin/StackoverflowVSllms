@@ -1,0 +1,1 @@
+dd if=/dev/source_disk of=/dev/destination_disk bs=16M oflag=direct

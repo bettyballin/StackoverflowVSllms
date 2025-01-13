@@ -1,0 +1,1 @@
+Module HelloWorld\n    Sub Main()\n        Console.WriteLine("Hello, World!")\n        Console.ReadLine()\n    End Sub\nEnd Module

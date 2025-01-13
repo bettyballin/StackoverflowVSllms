@@ -1,0 +1,1 @@
+$id = preg_match('/id="content"[\s\S]*(.*?)<SCRIPT/', $html, $match);

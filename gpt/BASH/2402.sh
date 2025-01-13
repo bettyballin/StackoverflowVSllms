@@ -1,1 +1,0 @@
-0 0 * * * /usr/bin/php /path_to_your_script/send_emails.php

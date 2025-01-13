@@ -1,0 +1,1 @@
+$mail = Mail::factory('smtp',\n  array ('host' => 'mail.domain.com',\n    'port' => 25,\n    'auth' => true,\n    'username' => 'user',\n    'password' => 'pass',\n    'authType' => 'NTLM')\n);\n$mail->send($emailto, $subject, $message);

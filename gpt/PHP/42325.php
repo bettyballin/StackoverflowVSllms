@@ -1,1 +1,0 @@
-$wsdlCacheDir = sys_get_temp_dir(); // or specify the directory if different\n\nforeach (glob($wsdlCacheDir . "/wsdl*") as $file) {\n    if (is_file($file)) {\n        unlink($file);\n    }\n}\n\necho "WSDL cache cleared.";

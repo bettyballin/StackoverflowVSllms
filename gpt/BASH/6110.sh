@@ -1,1 +1,0 @@
-etsh int ip reset resetlog.txt

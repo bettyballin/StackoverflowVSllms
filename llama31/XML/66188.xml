@@ -1,0 +1,1 @@
+<dependency>\n    <groupId>com.sun.jersey</groupId>\n    <artifactId>jersey-server</artifactId>\n    <version>1.19</version>\n</dependency>\n<dependency>\n    <groupId>com.sun.jersey</groupId>\n    <artifactId>jersey-servlet</artifactId>\n    <version>1.19</version>\n</dependency>

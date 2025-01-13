@@ -1,1 +1,0 @@
-if ($this->tank_auth->is_logged_in()) {\n         echo 'User is logged in';\n     } else {\n         echo 'User is not logged in';\n     }

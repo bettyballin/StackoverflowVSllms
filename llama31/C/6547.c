@@ -1,0 +1,1 @@
+int getA() {\n    static int a = 10;\n    return a;\n}

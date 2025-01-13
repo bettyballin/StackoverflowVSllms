@@ -1,0 +1,1 @@
+string oracleHome = @"C:\path\to\oracle\home";\nEnvironment.SetEnvironmentVariable("ORACLE_HOME", oracleHome);

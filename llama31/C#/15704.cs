@@ -1,0 +1,1 @@
+public void SaveCollection(DictionaryBase objCollection, string TableName, string spSave)\n{\n    foreach (DictionaryEntry entry in objCollection)\n    {\n        dynamic objClass = entry.Value;\n        object tableFieldName = objClass.TableFieldName;\n        // ... rest of your code ...\n    }\n}

@@ -1,0 +1,1 @@
+updaterProcess.WaitForExit();\nEnvironment.Exit(0);

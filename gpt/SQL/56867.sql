@@ -1,1 +1,0 @@
-EXEC sp_MSForEachTable 'EXEC sp_generate_script ''?'''

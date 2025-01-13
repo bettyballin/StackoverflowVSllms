@@ -1,1 +1,0 @@
-# Check current date and time\ndate\n\n# Set the date and time (example: January 24, 2023, 12:34 PM)\nsudo date -s "24 JAN 2023 12:34:00"

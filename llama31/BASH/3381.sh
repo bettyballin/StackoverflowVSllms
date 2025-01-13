@@ -1,0 +1,1 @@
+ls -lb | grep msheehan | xargs -0 rm

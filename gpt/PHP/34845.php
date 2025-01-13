@@ -1,1 +1,0 @@
-function encode_php_tags($str) {\n    return str_replace(array('<?', '?>'), array('&lt;?', '?&gt;'), $str);\n}\n\n// Usage\n$user_input = '<?php echo "Hello, world!"; ?>';\n$safe_input = encode_php_tags($user_input);\n\necho $safe_input; // Outputs: &lt;?php echo "Hello, world!"; ?&gt;

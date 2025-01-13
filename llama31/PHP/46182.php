@@ -1,0 +1,1 @@
+<?php\nif ($_SERVER['QUERY_STRING'] != '') {\n    $pageTitle = 'New Title for Subpages';\n} else {\n    $pageTitle = 'Syrian Students ... Music Center';\n}\n?>\n<title><?php echo $pageTitle; ?></title>

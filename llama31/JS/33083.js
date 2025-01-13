@@ -1,0 +1,1 @@
+$('.toggle-button').on('click', function() {\n  $(this).toggleClass('active');\n});

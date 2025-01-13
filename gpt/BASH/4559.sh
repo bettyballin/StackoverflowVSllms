@@ -1,1 +1,0 @@
-# Check the current PHP version\nphp -v\n\n# To upgrade PHP (example for Ubuntu/Debian-based systems)\nsudo apt update\nsudo apt install php8.0\n\n# Verify the new PHP version\nphp -v

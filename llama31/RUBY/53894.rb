@@ -1,0 +1,1 @@
+# config/routes.rb\nRails.application.routes.draw do\n  get '/images/*path' => 'rack/static', defaults: { serve: 'public/images' }\nend

@@ -1,0 +1,1 @@
+input[type="text"]:focus {\n  box-shadow: 0 0 5px #66afe9;\n  border-color: #66afe9;\n  outline: none;\n}

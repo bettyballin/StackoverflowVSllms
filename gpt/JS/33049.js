@@ -1,1 +1,0 @@
-<script>\n       function printPreview() {\n           window.print();\n       }\n   </script>

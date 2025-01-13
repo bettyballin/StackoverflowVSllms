@@ -1,1 +1,0 @@
-echo "extension=ssh2.so" | sudo tee /etc/php.d/ssh2.ini

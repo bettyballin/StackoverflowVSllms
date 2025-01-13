@@ -1,1 +1,0 @@
-// JavaScript\ndocument.addEventListener('DOMContentLoaded', (event) => {\n  const elements = document.querySelectorAll('.fade-in');\n  elements.forEach(element => {\n    element.classList.add('visible');\n  });\n});

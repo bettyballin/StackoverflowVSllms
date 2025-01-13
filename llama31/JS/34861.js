@@ -1,0 +1,1 @@
+$(document).ajaxStop(function() {\n  // All AJAX calls are complete, enable/disable the submit button\n  $("input[type='submit']").prop("disabled", false);\n});

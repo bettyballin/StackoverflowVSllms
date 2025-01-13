@@ -1,0 +1,1 @@
+// Set value in Session\nSession["type"] = 3;\n\n// Retrieve value from Session\nint type = (int)Session["type"];

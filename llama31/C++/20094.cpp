@@ -1,0 +1,1 @@
+SomeNameSpace::IObjPtr obj;\nHRESULT hr = obj.CreateInstance(L"SomeObject");\nif (hr == S_OK)\n{\n    obj->AddRef();\n    m_anotherObj = obj->GetObj();\n    m_anotherObj->AddRef(); // AddRef the returned object\n    obj->Release();\n    // Later, when you're done with m_anotherObj\n    m_anotherObj->Release();\n}

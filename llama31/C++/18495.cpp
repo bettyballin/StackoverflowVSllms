@@ -1,0 +1,1 @@
+list<DVFGfxObj*>::reverse_iterator iter = m_Objs.rbegin();\nfor (; iter != m_Objs.rend(); ++iter) {\n    // do something with *iter\n}

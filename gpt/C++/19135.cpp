@@ -1,1 +1,0 @@
-void Printer::Queue(const PrintJob& job)\n{\n    // Precondition: the internal state must be valid\n    if(!IsValidState())\n    {\n        throw std::logic_error("Invalid state");\n    }\n\n    // Proceed with the queuing operation\n    // ...\n\n    // Optionally, assert postconditions or invariants\n    assert(Invariant());\n}

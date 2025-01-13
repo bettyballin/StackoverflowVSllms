@@ -1,0 +1,1 @@
+var div = $('#div');\n\n// initial content\ndiv.html('<div>one line</div><div>another line</div>');\ndiv.slideDown('slow');\n\n// change content with smooth transition\ndiv.fadeOut('slow', function() {\n  div.html('<div>one line replacement</div><div>another line replacement</div><div>third line</div>');\n  div.fadeIn('slow');\n});

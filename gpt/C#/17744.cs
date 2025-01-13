@@ -1,1 +1,0 @@
-public class CustomUserNameValidator : UserNamePasswordValidator\n{\n    public override void Validate(string userName, string password)\n    {\n        if (userName != "test" || password != "password")\n        {\n            throw new SecurityTokenException("Unknown Username or Password");\n        }\n    }\n}

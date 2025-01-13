@@ -1,0 +1,1 @@
+function call($fn, ...$args) {\n    return $fn(...$args);\n}\n\n$string = <<< heredoc\nplain text and now a function: {call('testfunction')}\nheredoc;

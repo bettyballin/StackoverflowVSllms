@@ -1,0 +1,1 @@
+.grid-container {\n  display: grid;\n  grid-template-columns: repeat(3, 1fr);\n  grid-gap: 10px;\n}\n\n.grid-container:nth-child(2n+1) {\n  background-color: #f0f0f0;\n}

@@ -1,0 +1,1 @@
+<?php\n// Set the locale directory\n$locale_dir = './locales';\n\n// Set the domain (your app's name)\n$domain = 'myapp';\n\n// Initialize gettext\nbindtextdomain($domain, $locale_dir);\ntextdomain($domain);\n?>

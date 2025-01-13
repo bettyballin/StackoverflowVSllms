@@ -1,1 +1,0 @@
-CREATE PROCEDURE GetPagedData\n    @StartRowIndex INT,\n    @PageSize INT\nAS\nBEGIN\n    SET NOCOUNT ON;\n\n    SELECT *\n    FROM (\n        SELECT ROW_NUMBER() OVER (ORDER BY YourPrimaryKeyColumn) AS RowNum, *\n        FROM YourTable\n    ) AS RowConstrainedResult\n    WHERE RowNum >= @StartRowIndex AND RowNum < @StartRowIndex + @PageSize\n    ORDER BY RowNum;\nEND

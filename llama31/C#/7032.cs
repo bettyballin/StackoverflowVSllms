@@ -1,0 +1,1 @@
+public partial class MyPage : Page\n{\n    private DataWrapper _dataWrapper;\n\n    public MyPage()\n    {\n        InitializeComponent();\n        _dataWrapper = new DataWrapper(new DataLayer());\n        DataContext = _dataWrapper.GetData();\n    }\n}

@@ -1,0 +1,1 @@
+dlltool --dllname python26.dll --def python.def --output-lib python26.a

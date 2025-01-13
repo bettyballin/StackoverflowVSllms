@@ -1,1 +1,0 @@
-import hashlib\n\n   def calculate_hash(record):\n       record_str = '|'.join(str(value) for value in record.values())\n       return hashlib.sha256(record_str.encode()).hexdigest()

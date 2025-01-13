@@ -1,0 +1,1 @@
+static std::map<int, urllib> url_container = std::map<int, urllib>();

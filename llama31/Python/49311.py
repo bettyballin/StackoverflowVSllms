@@ -1,0 +1,1 @@
+import cProfile\nimport pstats\n\ndef heavy_function():\n    # your function code here\n    pass\n\ndef main():\n    heavy_function()\n\ncProfile.run("main()", "profiling_data.pstat")\n\np = pstats.Stats("profiling_data.pstat")\np.sort_stats("cumulative").print_stats()

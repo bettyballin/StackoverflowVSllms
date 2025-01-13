@@ -1,1 +1,0 @@
-svn status | grep '^A' | awk '{print $2}' > new_files.txt

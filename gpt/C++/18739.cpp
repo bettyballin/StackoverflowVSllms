@@ -1,1 +1,0 @@
-bool areCirclesColliding(const Vector2D& pos1, float radius1, const Vector2D& pos2, float radius2) {\n       float dx = pos1.x - pos2.x;\n       float dy = pos1.y - pos2.y;\n       float distanceSquared = dx * dx + dy * dy;\n       float radiiSum = radius1 + radius2;\n       return distanceSquared <= (radiiSum * radiiSum);\n   }

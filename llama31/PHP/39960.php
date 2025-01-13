@@ -1,0 +1,1 @@
+$image = new Imagick('path/to/file.psd');\n$layers = $image->getImageLayers();\n\nforeach ($layers as $layer) {\n    $layer->writeImage('layer-' . $layer->getImageIndex() . '.png');\n}

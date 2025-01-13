@@ -1,0 +1,1 @@
+// IObjectSafety implementation\nclass MyActiveXControl : public IObjectSafety\n{\npublic:\n    STDMETHOD(IsSafeForScripting)(BOOL* pfSafe) override\n    {\n        *pfSafe = TRUE;\n        return S_OK;\n    }\n\n    STDMETHOD(IsSafeForInitialization)(BOOL* pfSafe) override\n    {\n        *pfSafe = TRUE;\n        return S_OK;\n    }\n};

@@ -1,0 +1,1 @@
+SELECT \n  pl.id, \n  pl.name, \n  sp.id AS specificProductID, \n  sp.color, \n  sp.size, \n  i.imageFileLocation \nFROM \n  ProductLines pl \n  JOIN SpecificProducts sp ON pl.id = sp.productLineID \n  JOIN ProductImageLinks pil ON sp.id = pil.specificProductID \n  JOIN Images i ON pil.imageID = i.id;

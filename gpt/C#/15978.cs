@@ -1,1 +1,0 @@
-public void MyMethod(string a, int b)\n{\n   ArgumentNullException.ThrowIfNull(a, nameof(a));\n\n   // No need to check 'b' for null since 'int' is a value type and cannot be null\n\n   //more stuff here\n}

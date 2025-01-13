@@ -1,0 +1,1 @@
+#define HWND_BROADCAST ((HWND)0xffff)

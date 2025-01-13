@@ -1,0 +1,1 @@
+// Check if session is expired\nif (isset($_SESSION['last_activity']) && (time() - $_SESSION['last_activity']) > 1800) {\n    echo 'expired';\n} else {\n    echo 'active';\n}

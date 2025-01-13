@@ -1,0 +1,1 @@
+using System;\nusing System.IO;\nusing System.Xml.Serialization;\n\n// ...\n\nobject[] rowData = myrow.ItemArray;\n\nXmlSerializer serializer = new XmlSerializer(typeof(object[]));\nStringWriter writer = new StringWriter();\nserializer.Serialize(writer, rowData);\nstring xmlString = writer.ToString();\n\n// Pass the xmlString to App2 via command line or other secure means

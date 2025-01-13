@@ -1,1 +1,0 @@
-def example(*args)\n      p args\n    end\n\n    example(1, 2, 3)  # prints [1, 2, 3]

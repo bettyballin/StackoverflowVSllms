@@ -1,1 +1,0 @@
-var element = document.getElementById("myElement");\nelement.attributeName = "attributeValue";

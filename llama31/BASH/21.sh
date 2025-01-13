@@ -1,0 +1,1 @@
+# Using curl and the W3C validator\ncurl -s -o /dev/null -w "%{time_total}\n" "http://example.com/invalid-html.html"\ncurl -s -o /dev/null -w "%{time_total}\n" "http://example.com/valid-html.html"

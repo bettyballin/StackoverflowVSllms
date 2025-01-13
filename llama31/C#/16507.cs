@@ -1,0 +1,1 @@
+var castList = list.Cast<T>();

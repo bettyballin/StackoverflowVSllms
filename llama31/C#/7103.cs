@@ -1,0 +1,1 @@
+[ComVisible(true)]\npublic class MyMethods : IMyMethods\n{\n    public void Method1() { /* implementation */ }\n    public void Method2() { /* implementation */ }\n}

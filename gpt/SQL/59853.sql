@@ -1,1 +1,0 @@
-CREATE INDEX idx_tblA_a ON tblA(a);\nCREATE INDEX idx_tblB_a ON tblB(a);

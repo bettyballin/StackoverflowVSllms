@@ -1,0 +1,1 @@
+import pyruby\n\n# Load your Ruby code\nruby_code = pyruby.Ruby.instance()\n\n# Call your Ruby function\nresult = ruby_code.eval("your_ruby_function()")

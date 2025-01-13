@@ -1,0 +1,1 @@
+Array\n(\n  [0] => Array\n    (\n      [title] => Eggs\n      [level] => 0\n      [url] => /eggs-0\n    )\n  [1] => Array\n    (\n      [title] => Milk\n      [level] => 1\n      [url] => /eggs-0/milk-1\n    )\n  [2] => Array\n    (\n      [title] => Bacon\n      [level] => 2\n      [url] => /eggs-0/milk-1/bacon-2\n    )\n)

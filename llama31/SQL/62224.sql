@@ -1,0 +1,1 @@
+CREATE TRIGGER trg_chain\nAFTER INSERT ON your_table\nFOR EACH ROW\nBEGIN\n    -- Call first trigger\n    CALL trg_first();\n    \n    -- Call second trigger\n    CALL trg_second();\nEND;

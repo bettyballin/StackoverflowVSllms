@@ -1,1 +1,0 @@
-xcopy /y /e "$(SolutionDir)resources\*" "$(OutDir)resources\"

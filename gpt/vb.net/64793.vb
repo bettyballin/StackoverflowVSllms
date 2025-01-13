@@ -1,1 +1,0 @@
-' TestClass.vb\nPublic Class TestClass\n    Public Shared Function Somefunc() As Boolean\n        Return True\n    End Function\nEnd Class

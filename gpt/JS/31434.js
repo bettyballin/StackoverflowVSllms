@@ -1,1 +1,0 @@
-var data = "<div id='myid'><div id='subid'>Text</div></div>";\nvar $data = $(data); // Convert the string to a jQuery object\n\n// Now you can use jQuery selectors on $data\nvar text = $data.find("#myid > #subid").text();\n\nconsole.log(text); // Outputs: "Text"

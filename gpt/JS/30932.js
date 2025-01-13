@@ -1,1 +1,0 @@
-// app/views/employees/destroy.js.erb\n   $("#employee_<%= @employee.id %>").remove();

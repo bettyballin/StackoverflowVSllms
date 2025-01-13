@@ -1,1 +1,0 @@
-SELECT *\nFROM your_table\nWHERE ID = 'AA'\nUNION\nSELECT *\nFROM your_table\nWHERE ID = 'MASTER' AND Link IN (SELECT Link FROM your_table WHERE ID = 'AA');

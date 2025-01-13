@@ -1,0 +1,1 @@
+protected void Page_Load(object sender, EventArgs e)\n{\n    SqlDataSource1.SelectCommand = "your_query_here";\n    SqlDataSource1.CommandTimeout = 60; // 60 seconds\n}

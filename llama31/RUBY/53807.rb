@@ -1,0 +1,1 @@
+require 'nokogiri'\n\n# Load the XML document\ndoc = Nokogiri::XML(File.read('your.xml'))\n\n# Generate the object model\nmodel = doc.root.elements.map do |element|\n  # Create an object for each element\n  Object.const_get(element.name).new(element)\nend\n\n# Access the object model\ntitle = model[0].Title

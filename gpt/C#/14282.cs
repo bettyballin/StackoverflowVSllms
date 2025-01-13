@@ -1,1 +1,0 @@
-public class UserRepository : RepositoryBase<User>\n{\n    public UserRepository(YourDbContext context) : base(context)\n    {\n    }\n\n    public IQueryable<UserActive> GetActiveUsers()\n    {\n        return SelectView<UserActive>();\n    }\n}

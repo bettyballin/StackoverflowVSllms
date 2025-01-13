@@ -1,0 +1,1 @@
+require_once __DIR__ . '/vendor/autoload.php';\n\nuse Utils\Util1;\nuse DbAccess\Db1;

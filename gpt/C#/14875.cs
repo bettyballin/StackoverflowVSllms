@@ -1,1 +1,0 @@
-if (resultSet.Rows[0]["fk_id"] == DBNull.Value)\n{\n    // The "fk_id" field is null\n}

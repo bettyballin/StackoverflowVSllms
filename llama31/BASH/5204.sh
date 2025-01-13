@@ -1,0 +1,1 @@
+pushd $(ProjectDir)\nperl your_script.pl\npopd

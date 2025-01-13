@@ -1,0 +1,1 @@
+DELETE FROM employee a\nWHERE a.rowid IN (\n  SELECT b.rowid\n  FROM (\n    SELECT rowid, EmpId, EmpSSN,\n    ROW_NUMBER() OVER (PARTITION BY EmpId, EmpSSN ORDER BY rowid) AS row_num\n    FROM employee\n  ) b\n  WHERE b.row_num > 1\n);

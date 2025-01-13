@@ -1,0 +1,1 @@
+$.fn.alphanumeric = function(options) {\n    // ... existing code ...\n\n    $(this).on('paste', function() {\n        var $this = $(this);\n        setTimeout(function() {\n            $this.val($this.val().replace(/[^a-zA-Z0-9-]/g, ''));\n        }, 0);\n    });\n\n    // ... existing code ...\n};

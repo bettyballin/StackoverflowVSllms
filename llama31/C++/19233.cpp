@@ -1,0 +1,1 @@
+MyCppClass::MyCppClass()\n{\n    // constructor implementation\n}\n\nvoid MyCppClass::MyMemberFunction()\n{\n    // member function implementation\n}

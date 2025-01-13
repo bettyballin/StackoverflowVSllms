@@ -1,0 +1,1 @@
+window.open('file://///Server-1/Folder-1/Folder-2');

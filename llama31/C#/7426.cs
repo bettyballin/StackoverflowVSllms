@@ -1,0 +1,1 @@
+DataTable results = new DataTable();\nresults.Load(reader);

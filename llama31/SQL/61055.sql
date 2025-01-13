@@ -1,0 +1,1 @@
+ALTER TABLE example_table\nADD CONSTRAINT chk_value_range CHECK (value BETWEEN 0 AND 100);

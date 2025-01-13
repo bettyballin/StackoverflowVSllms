@@ -1,0 +1,1 @@
+protected void Page_Load(object sender, EventArgs e)\n{\n    string clientId = Request.QueryString["ID_Cliente"];\n    if (!string.IsNullOrEmpty(clientId))\n    {\n        string url = $"Equipamentos.aspx?ID_Cliente={HttpUtility.UrlEncode(clientId.Trim())}";\n        link1.NavigateUrl = url;\n    }\n}

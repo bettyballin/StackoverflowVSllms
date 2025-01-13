@@ -1,0 +1,1 @@
+<configuration>\n  <system.webServer>\n    <security>\n      <ipSecurity>\n        <add ipAddress="192.168.1.100" subnetMask="255.255.255.255" allowed="true" maxBandwidth="1000" />\n      </ipSecurity>\n    </security>\n  </system.webServer>\n</configuration>

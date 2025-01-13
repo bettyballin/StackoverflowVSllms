@@ -1,1 +1,0 @@
-sdelete -z C:

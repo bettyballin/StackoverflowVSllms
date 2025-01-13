@@ -1,0 +1,1 @@
+$example = 'Hello &amp; Goodbye';\n$decodedExample = html_entity_decode($example, ENT_QUOTES | ENT_HTML5, 'UTF-8');\necho $decodedExample; // Outputs: Hello & Goodbye

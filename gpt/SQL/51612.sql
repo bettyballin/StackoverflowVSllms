@@ -1,1 +1,0 @@
-Select t1.id, t2.companyName \nfrom table1 t1 \n  INNER JOIN table2 t2 on t2.id = t1.fkId and t2.aField <> 'C'

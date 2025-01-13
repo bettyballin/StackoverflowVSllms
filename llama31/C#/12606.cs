@@ -1,0 +1,1 @@
+FileStream fwriter = new FileStream("C:\\test.txt", FileMode.Append, \n    FileAccess.Write, FileShare.ReadWrite);\n\nFileStream freader = new FileStream("C:\\test.txt", FileMode.Open, \n    FileAccess.Read, FileShare.ReadWrite);

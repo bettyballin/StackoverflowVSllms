@@ -1,0 +1,1 @@
+class TestClassProxy extends TestClass {\n    public function tester($arg) {\n        Logger::logEntry();\n        parent::tester($arg);\n        Logger::logExit();\n    }\n}

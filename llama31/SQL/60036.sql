@@ -1,0 +1,1 @@
+SELECT \n  x,\n  CASE \n    WHEN x <= 1 THEN 'SP'\n    ELSE 'FA'\n  END AS new_column\nINTO temp your_temp_table_with_new_column\nFROM your_temp_table;

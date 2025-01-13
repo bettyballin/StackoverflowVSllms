@@ -1,1 +1,0 @@
-$path = getenv('PATH');\n$separator = (stripos(PHP_OS, 'WIN') === 0) ? ';' : ':';\n$pathComponents = explode($separator, $path);\n\nprint_r($pathComponents);

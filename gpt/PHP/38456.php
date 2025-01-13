@@ -1,1 +1,0 @@
-// Assuming $conn is your MySQL connection\n$result = mysqli_query($conn, $query);\nif (!$result) {\n    error_log("MySQL Error: " . mysqli_error($conn));\n}

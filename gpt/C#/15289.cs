@@ -1,1 +1,0 @@
-using System;\nusing System.IO;\nusing System.Web;\n\npublic class Program\n{\n    public static void Main()\n    {\n        string binPath = HttpRuntime.BinDirectory;\n        Console.WriteLine(binPath);\n    }\n}

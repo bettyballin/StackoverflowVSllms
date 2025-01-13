@@ -1,0 +1,1 @@
+SELECT *\nFROM books\nORDER BY CASE WHEN year = 1990 THEN 0 ELSE 1 END, title ASC;

@@ -1,0 +1,1 @@
+$("html, body").animate({ scrollTop: $("#branch1").offset().top }, 1000);

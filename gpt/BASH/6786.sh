@@ -1,1 +1,0 @@
-copy SDL.dll C:\Windows\SysWOW64

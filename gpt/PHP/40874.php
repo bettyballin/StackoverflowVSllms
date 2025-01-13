@@ -1,1 +1,0 @@
-class Tidy {\n    // Properties and methods can be added here\n\n    public function clean($data) {\n        // Perform the tidying operation\n        return $tidied_data;\n    }\n}\n\n$tidy = new Tidy();\n$data = $tidy->clean($data);

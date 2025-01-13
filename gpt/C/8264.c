@@ -1,1 +1,0 @@
-struct pseudo_header {\n    uint32_t source_address;\n    uint32_t dest_address;\n    uint8_t placeholder;\n    uint8_t protocol;\n    uint16_t udp_length;\n};

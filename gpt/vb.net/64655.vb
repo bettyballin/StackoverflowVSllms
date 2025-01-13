@@ -1,1 +1,0 @@
-Dim currentTheme As String = GetCurrentTheme()\nDim uc As UserControl = CType(LoadControl("~/UserControls/" & currentTheme & "/Box.ascx"), UserControl)\nPlaceholder1.Controls.Add(uc) ' Assuming you have a Placeholder control to add the user control to

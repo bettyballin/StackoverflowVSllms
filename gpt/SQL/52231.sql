@@ -1,1 +1,0 @@
-CREATE OR REPLACE PROCEDURE CIPProjectBudget (\n        p_ActivityCode IN VARCHAR2,\n        p_ExecutionID IN VARCHAR2\n    ) AS\n    BEGIN\n        -- Your logic to populate the tables\n        ...\n        \n        -- Commit the transaction\n        COMMIT;\n    END;

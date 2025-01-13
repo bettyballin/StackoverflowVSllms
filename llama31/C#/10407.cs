@@ -1,0 +1,1 @@
+var resettableReader = new ResettableTextReader(originalReader);\n// ...\nresettableReader.Reset();

@@ -1,1 +1,0 @@
-<configuration>\n     <system.web>\n       <webServices>\n         <protocols>\n           <add name="HttpGet"/>\n           <add name="HttpPost"/>\n         </protocols>\n       </webServices>\n     </system.web>\n     <system.webServer>\n       <modules runAllManagedModulesForAllRequests="true"/>\n     </system.webServer>\n   </configuration>

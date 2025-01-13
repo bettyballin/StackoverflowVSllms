@@ -1,0 +1,1 @@
+session_start();\n$_SESSION['user_id'] = 'roa3';

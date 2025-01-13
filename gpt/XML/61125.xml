@@ -1,1 +1,0 @@
-<configuration>\n  <appSettings file="external.config">\n    <add key="MainSetting" value="MainValue" />\n  </appSettings>\n  <!-- Other configurations -->\n</configuration>

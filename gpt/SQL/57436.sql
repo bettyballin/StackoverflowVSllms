@@ -1,1 +1,0 @@
-WITH Edges AS (\n    SELECT 'A' AS node1, 'C' AS node2\n    UNION ALL\n    SELECT 'B', 'E'\n    UNION ALL\n    SELECT 'C', 'A'\n    UNION ALL\n    SELECT 'D', 'A'\n)\nSELECT e1.node1, e1.node2\nFROM Edges e1\nJOIN Edges e2\nON e1.node1 = e2.node2\nAND e1.node2 = e2.node1;

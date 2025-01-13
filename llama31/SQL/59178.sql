@@ -1,0 +1,1 @@
+SELECT p.Name, a.value('(city/text())[1]', 'varchar(50)') AS City, \n       a.value('(state/text())[1]', 'varchar(50)') AS State\nFROM people p\nCROSS APPLY p.addresses.nodes('/address') AS addr(a)

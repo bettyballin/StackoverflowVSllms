@@ -1,0 +1,1 @@
+sqlplus <user>/<password>@<host>:<port>/<service_name>\n\nSELECT instance_name FROM v$instance;

@@ -1,0 +1,1 @@
+int __stdcall Foo_1(int a);\nint __stdcall Foo_2(int a, int b);\nvoid __stdcall Bar_1(int foo);

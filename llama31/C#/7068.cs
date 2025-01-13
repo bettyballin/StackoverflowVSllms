@@ -1,0 +1,1 @@
+public class HomePresenter {\n    public void go() {\n        // Home page logic here\n    }\n}\n\npublic class AdminPresenter {\n    public void go() {\n        // Admin page logic here\n    }\n}

@@ -1,1 +1,0 @@
-<?php\n    // Load the configuration\n    $config = include('/path/to/config.php');\n    $dbPassword = $config['db_password'];

@@ -1,1 +1,0 @@
-CREATE OR REPLACE TRIGGER empty_string_to_null\nBEFORE INSERT OR UPDATE ON my_table\nFOR EACH ROW\nBEGIN\n    IF :NEW.myField IS NOT NULL AND :NEW.myField = '' THEN\n        :NEW.myField := NULL;\n    END IF;\nEND;\n/

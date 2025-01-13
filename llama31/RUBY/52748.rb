@@ -1,0 +1,1 @@
+# Create vertices\nv1 = Vertex.create\nv2 = Vertex.create\n\n# Create edge between vertices\nEdge.create(vertex1: v1, vertex2: v2)

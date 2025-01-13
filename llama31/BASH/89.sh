@@ -1,0 +1,1 @@
+mysql -u [username] -p[password] [database_name] < data.csv

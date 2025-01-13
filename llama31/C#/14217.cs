@@ -1,0 +1,1 @@
+// Set a TempData variable\nTempData["MyObject"] = myObject;\n\n// Retrieve a TempData variable\nMyObject myObject = (MyObject)TempData["MyObject"];

@@ -1,0 +1,1 @@
+$sql = "UPDATE avatar SET image_path = ? WHERE avatar_id = ?";\n$stmt = $pdo->prepare($sql);\n$stmt->execute([$shackPath, $row['cr_id']]);

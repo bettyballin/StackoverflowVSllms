@@ -1,1 +1,0 @@
-SELECT * FROM sessions\n    WHERE session_id = ?\n    AND ip_address = ?\n    AND user_agent = ?\n    AND expires_at > NOW();

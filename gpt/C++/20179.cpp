@@ -1,1 +1,0 @@
-class CClassWnd : public CBaseClassWnd\n{\n    // ... other declarations ...\n\nprotected:\n    afx_msg void OnSize(UINT nType, int cx, int cy);\n\n    DECLARE_MESSAGE_MAP()\n};\n\nBEGIN_MESSAGE_MAP(CClassWnd, CBaseClassWnd)\n    ...\n    ON_WM_SIZE()\n    ...\nEND_MESSAGE_MAP()\n\nvoid CClassWnd::OnSize(UINT nType, int cx, int cy)\n{\n    // Handle the WM_SIZE message here\n}

@@ -1,1 +1,0 @@
-icacls "C:\Path\To\Your\Directory" /grant YourApacheUser:(OI)(CI)F /T

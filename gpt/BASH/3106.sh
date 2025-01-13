@@ -1,1 +1,0 @@
-copy {path_to_php}\libmysql.dll C:\Windows\System32

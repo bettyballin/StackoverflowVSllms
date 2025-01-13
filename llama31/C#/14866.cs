@@ -1,0 +1,1 @@
+from o in orders\njoin i in items\non new { o.ID } equals new { ID = i.OrderA } || new { o.ID } equals new { ID = i.OrderB }\nselect new { Order = o, Item = i }

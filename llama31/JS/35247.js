@@ -1,0 +1,1 @@
+// Client-side JavaScript\n$.ajax({\n  type: "POST",\n  url: "records.php",\n  data: { query: "SELECT * FROM records WHERE id = 1" },\n  success: function(data) {\n    // Update the records layer with the received data\n  }\n});

@@ -1,0 +1,1 @@
+INSERT INTO your_table (product_number, test_results, ...)\nSELECT \n  CONCAT('26273B2', RIGHT(product_number, 1)),  -- modify the product number\n  test_results,\n  ...\nFROM \n  your_table\nWHERE \n  product_number = '26273';

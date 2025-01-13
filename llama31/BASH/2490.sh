@@ -1,0 +1,1 @@
+sudo gdb --args ./your_program

@@ -1,1 +1,0 @@
-echo 1234abcd | sed -E "s/[0-9]+/#/g"

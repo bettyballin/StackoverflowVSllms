@@ -1,0 +1,1 @@
+<system.serviceModel>\n  <extensions>\n    <bindingExtensions>\n      <add name="webHttpBinding" type="System.ServiceModel.Configuration.WebHttpBindingCollectionElement, System.ServiceModel.Web, Version=4.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35"/>\n    </bindingExtensions>\n  </extensions>\n</system.serviceModel>

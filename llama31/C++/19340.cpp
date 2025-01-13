@@ -1,0 +1,1 @@
+#if __GNUC__ > 4 || (__GNUC__ == 4 && __GNUC_MINOR__ >= 2)\n#  include <unordered_map>\n#  define EXT std\n#elif __GNUC__ >= 4\n#  include <tr1/unordered_map>\n#  define EXT std\n#else\n#  include <ext/hash_map>\n#  define unordered_map __gnu_cxx::hash_map\n#  define EXT __gnu_cxx\n#endif

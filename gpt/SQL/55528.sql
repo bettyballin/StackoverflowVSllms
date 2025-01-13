@@ -1,1 +1,0 @@
--- posts.sql\nUSE personal;\n-- Rest of your SQL statements

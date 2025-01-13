@@ -1,1 +1,0 @@
-#pragma pack(push, 1)\nstruct A {};\nstruct B : A { int i; };\n#pragma pack(pop)

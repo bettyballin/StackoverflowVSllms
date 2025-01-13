@@ -1,1 +1,0 @@
-# PowerShell command to install an assembly in the GAC\n    gacutil /i "C:\path\to\your\assembly.dll"

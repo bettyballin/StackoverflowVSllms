@@ -1,1 +1,0 @@
-public ActionResult Details(string id)\n   {\n       var accountNumber = EncryptionHelper.Decrypt(id);\n       var account = _accountService.GetAccountByNumber(accountNumber);\n       return View(account);\n   }

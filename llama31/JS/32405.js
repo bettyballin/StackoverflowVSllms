@@ -1,0 +1,1 @@
+$('.foo').live('click', function() {\n  alert("I haz class alertz!");\n  return false;\n});

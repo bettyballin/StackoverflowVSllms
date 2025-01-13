@@ -1,0 +1,1 @@
+-- Use secure connections (e.g., SSL/TLS) to encrypt data in transit\n-- Use strong passwords and authentication mechanisms\n-- Limit privileges to the minimum required for each user or role\n-- Regularly review and audit database activity\n-- Keep your database management tool and underlying database engine up to date with the latest security patches

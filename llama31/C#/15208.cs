@@ -1,0 +1,1 @@
+var html = "your html string here";\nvar matches = pattern.Matches(html);\n\nforeach (Match match in matches)\n{\n    Console.WriteLine(match.Value);\n}

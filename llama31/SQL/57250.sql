@@ -1,0 +1,1 @@
+SELECT owner, name, type, text\nFROM ALL_SOURCE\nWHERE UPPER(text) LIKE UPPER('%search_string%');

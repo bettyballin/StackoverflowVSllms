@@ -1,0 +1,1 @@
+[ApiController]\npublic class MyController : ControllerBase\n{\n    [HttpPost]\n    public IActionResult MyAction([FromBody]MyData data)\n    {\n        /* process data and return result */\n        return Ok(result);\n    }\n}

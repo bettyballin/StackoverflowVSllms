@@ -1,0 +1,1 @@
+edmgen /mode:sql /input:MyModel.edmx /output:MyModel.sql

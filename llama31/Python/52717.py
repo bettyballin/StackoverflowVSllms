@@ -1,0 +1,1 @@
+def add_to_list(x, lst):\n    lst.append(x)\n    return lst\n\nnumbers = []\nfor i in range(5):\n    numbers = add_to_list(i, numbers)\n\nprint(numbers)  # [0, 1, 2, 3, 4]

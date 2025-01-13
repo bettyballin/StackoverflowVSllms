@@ -1,0 +1,1 @@
+public void SetSource(string path, Object source)\n{\n    _binding = new Binding(path);\n    _binding.Source = source;\n    _binding.ValidatesOnDataErrors = true;\n    _binding.UpdateSourceTrigger = UpdateSourceTrigger.LostFocus;\n    _binding.NotifyOnValidationError = true;\n    txtNumeric.SetBinding(TextBox.TextProperty, _binding);\n}

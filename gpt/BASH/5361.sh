@@ -1,1 +1,0 @@
-sudo apt-get install unixodbc unixodbc-dev freetds-bin freetds-dev tdsodbc

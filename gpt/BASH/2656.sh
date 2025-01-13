@@ -1,1 +1,0 @@
-ILMerge /out:MergedAssembly.dll /internalize:PublicTypes.txt API.dll Helper1.dll Helper2.dll

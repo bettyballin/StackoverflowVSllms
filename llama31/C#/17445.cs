@@ -1,0 +1,1 @@
+// Example usage:\nusing SIPSharp;\n\nSIPClient client = new SIPClient("sip.example.com", "username", "password");\nclient.Call("sip:1234567890@example.com");

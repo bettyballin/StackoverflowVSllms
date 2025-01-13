@@ -1,1 +1,0 @@
-// Assuming 'dataGrid' is your DataGrid control\nDataGridTextColumn whereClauseColumn = dataGrid.Columns.FirstOrDefault(col => col.Header.ToString() == "WhereClause") as DataGridTextColumn;\nif (whereClauseColumn != null)\n{\n    whereClauseColumn.CanUserSort = false;\n}

@@ -1,1 +1,0 @@
-$("#myDIVId1").click(function () {\n  $(".myDIVClass").hide(); // Note the '.' before 'myDIVClass'\n  $("#myToggle1").toggle();\n});

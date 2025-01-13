@@ -1,0 +1,1 @@
+public static bool IsNumeric(string someValue)\n{\n    double number;\n    return double.TryParse(someValue, out number);\n}

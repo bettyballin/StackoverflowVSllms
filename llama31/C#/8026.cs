@@ -1,0 +1,1 @@
+while (ListItem.RoleAssignments.Count > 0)\n{\n    ListItem.RoleAssignments.Remove(0);\n}

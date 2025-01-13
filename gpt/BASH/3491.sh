@@ -1,1 +1,0 @@
-python MyComObject.py --register

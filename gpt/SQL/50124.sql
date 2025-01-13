@@ -1,1 +1,0 @@
-SELECT * FROM sessions\nWHERE guid = 'your-guid-here'\nORDER BY created_at DESC\nLIMIT 1;

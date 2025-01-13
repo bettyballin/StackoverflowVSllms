@@ -1,0 +1,1 @@
+Rails.application.routes.draw do\n  resources :items do\n    member do\n      patch :approve\n    end\n  end\nend

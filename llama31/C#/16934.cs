@@ -1,0 +1,1 @@
+using System.Xml;\n\nXmlNamespaceManager nsmgr = new XmlNamespaceManager(new NameTable());\nnsmgr.AddNamespace("xhtml", "http://www.w3.org/1999/xhtml");

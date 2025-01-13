@@ -1,1 +1,0 @@
-// Using SimpleXML\n   $xml = simplexml_load_file('file.xml');\n   foreach ($xml->yourElement as $element) {\n       // Process your element here\n   }

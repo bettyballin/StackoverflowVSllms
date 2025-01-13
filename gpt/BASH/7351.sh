@@ -1,1 +1,0 @@
-# Dump from production\n   couchbackup --url http://prod-host:5984 --db prod-db > prod-backup.txt\n\n   # Restore to development\n   couchrestore --url http://dev-host:5984 --db dev-db < prod-backup.txt

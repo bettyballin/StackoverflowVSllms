@@ -1,0 +1,1 @@
+WITH joined_table AS (\n  SELECT  INVITEM.CharId AS CharId, \n          INVITEM.ItemId AS ItemId \n  FROM  INVITEM \n  INNER JOIN  SHOPITEM \n  ON  SHOPITEM.ItemId = INVITEM.ItemId\n)\nSELECT * FROM joined_table\nWHERE ItemId = 3;

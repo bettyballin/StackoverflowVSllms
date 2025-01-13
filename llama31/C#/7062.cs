@@ -1,0 +1,1 @@
+[Export(typeof(INodeTypePlugin))]\npublic class MyNodeTypePlugin : INodeTypePlugin\n{\n    public string NodeType => "MyNodeType";\n    // Implement other methods or properties\n}\n\n[Export(typeof(IContextActionPlugin))]\npublic class MyContextActionPlugin : IContextActionPlugin\n{\n    public string ActionName => "MyAction";\n    // Implement other methods or properties\n}

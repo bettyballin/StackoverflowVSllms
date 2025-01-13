@@ -1,0 +1,1 @@
+SAFEARRAY* image;\nyourObject->GetImage(&image);\n\n// Access the image data\nBYTE* imageData;\nSafeArrayAccessData(image, (void**)&imageData);\n// Use the image data...\nSafeArrayUnaccessData(image);\n\n// Don't forget to release the SAFEARRAY\nSafeArrayDestroy(image);

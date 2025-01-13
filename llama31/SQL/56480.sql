@@ -1,0 +1,1 @@
+SELECT m.* FROM match m\nLEFT JOIN email e ON m.id = e.id\nWHERE e.id IS NULL;

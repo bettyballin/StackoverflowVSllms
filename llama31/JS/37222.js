@@ -1,0 +1,1 @@
+YourNamespace.YourScript = {\n    get_events: function() {\n        // implementation of get_events method\n    }\n};

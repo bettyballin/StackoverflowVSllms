@@ -1,1 +1,0 @@
-# Copy backups from live server\n   0 4 * * * rsync -avz --delete user@liveserver:/var/backups/ /var/backups/\n\n   # Restore backups\n   0 5 * * * /usr/bin/sqlcmd -S localhost -U sa -P 'YourPassword' -Q "RESTORE DATABASE [YourDB] FROM DISK = N'/var/backups/YourDB.bak' WITH RECOVERY"

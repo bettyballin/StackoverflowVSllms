@@ -1,1 +1,0 @@
-app/models/blog/\n     author.rb\n     post.rb

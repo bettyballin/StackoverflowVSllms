@@ -1,0 +1,1 @@
+.container {\n  display: inline-block;\n  width: 1000px;\n  height: 600px;\n}\n\n.main-content {\n  display: inline-block;\n  vertical-align: top;\n  width: 798px;\n  height: 400px;\n}\n\n.links-menu {\n  display: inline-block;\n  vertical-align: top;\n  width: 198px;\n  height: 600px;\n}

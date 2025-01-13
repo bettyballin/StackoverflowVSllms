@@ -1,0 +1,1 @@
+// Router.php\npublic function addRoute(string $id, string $pattern, string $controller, string $action): void {\n    $this->routes[$id] = [\n        'pattern' => $pattern,\n        'controller' => $controller,\n        'action' => $action,\n    ];\n}

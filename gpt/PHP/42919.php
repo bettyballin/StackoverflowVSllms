@@ -1,1 +1,0 @@
-<?php\n   $page = isset($_GET['page']) ? $_GET['page'] : 'home';\n\n   switch ($page) {\n       case 'tools':\n           include 'tools.php';\n           break;\n       case 'about':\n           include 'about.php';\n           break;\n       // Add more cases as needed\n       default:\n           include '404.php';\n           break;\n   }\n   ?>

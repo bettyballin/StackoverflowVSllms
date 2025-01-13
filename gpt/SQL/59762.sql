@@ -1,1 +1,0 @@
-SELECT DirName, count(*) AS FileCount, SUM(Size)/1024 as 'SizeKB'\nFROM alldocs\nWHERE DirName LIKE 'site/test/test/%'\nGROUP BY DirName\nORDER BY DirName

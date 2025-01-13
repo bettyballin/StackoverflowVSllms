@@ -1,0 +1,1 @@
+$ irb\nirb(main):001:0> my_hash = { a: 1, b: 2 }\nirb(main):002:0> my_hash[:c] = 3\nirb(main):003:0> my_hash\n=> {:a=>1, :b=>2, :c=>3}

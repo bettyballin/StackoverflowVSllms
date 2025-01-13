@@ -1,1 +1,0 @@
-phpunit --bootstrap bootstrap.php --skeleton-test MyClass

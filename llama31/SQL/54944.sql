@@ -1,0 +1,1 @@
+SELECT p.ID, count(c.comment_ID) as comment_count\nFROM wp_posts p\nJOIN wp_comments c ON p.ID = c.comment_post_ID\nGROUP BY p.ID\nORDER BY comment_count DESC;

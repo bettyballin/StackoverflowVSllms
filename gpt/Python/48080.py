@@ -1,1 +1,0 @@
-x = [1, 2, 2, 2, 2]\n\nfor i in x[:]:  # Iterate over a copy of the list\n    x.remove(i)\n\nprint(x)  # Output will be []

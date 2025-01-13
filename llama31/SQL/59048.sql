@@ -1,0 +1,1 @@
+CREATE PROCEDURE spStats_GetSalesStatsByHour\n    @ShopId int\nAS\nBEGIN\n    DECLARE @SQL nvarchar(2000)\n    SET @SQL = 'SELECT DATEADD(dd, ...'\n    EXEC sp_executesql @SQL, N'@ShopId int', @ShopId = @ShopId\nEND

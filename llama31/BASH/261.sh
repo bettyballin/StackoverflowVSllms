@@ -1,0 +1,1 @@
+editbin /DEBUG yourdll.dll

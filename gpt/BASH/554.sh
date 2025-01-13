@@ -1,1 +1,0 @@
-# Open your Apache configuration file\nsudo nano /etc/apache2/apache2.conf\n\n# Look for any lines that might be modifying headers\n# Example for mod_security:\n# SecRuleRemoveById 123456

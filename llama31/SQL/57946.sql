@@ -1,0 +1,1 @@
+CREATE TABLE my_table (\n    id NUMBER PRIMARY KEY,\n    data VARCHAR2(50)\n);\n\n-- Enable result caching for a specific query\nSELECT /*+ RESULT_CACHE */ * FROM my_table WHERE id = 1;

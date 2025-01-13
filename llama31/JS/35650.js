@@ -1,0 +1,1 @@
+$("img.del").live("mouseover", function() {\n  $(this).css("cursor", "pointer");\n});

@@ -1,1 +1,0 @@
-java -Xmx2g -cp lingpipe-4.1.0.jar:. YourMainClass

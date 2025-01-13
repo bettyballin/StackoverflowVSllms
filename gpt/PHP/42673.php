@@ -1,1 +1,0 @@
-// Example configuration for Bugzilla integration\n$g_interface_bugs = 'BUGZILLA';\n$g_bugzilla_url = 'http://your-bugzilla-url/'; // Your Bugzilla URL\n$g_bugzilla_rpc_url = 'http://your-bugzilla-url/xmlrpc.cgi'; // Bugzilla XML-RPC URL\n$g_bugzilla_user = 'your_bugzilla_username';\n$g_bugzilla_password = 'your_bugzilla_password';

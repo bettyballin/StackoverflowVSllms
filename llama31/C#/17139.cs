@@ -1,0 +1,1 @@
+XNamespace ns = "";\nvar dest = doc.Descendants(ns + "firstChild").FirstOrDefault(e => (string)e.Attribute(ns + "id") == "ID1");

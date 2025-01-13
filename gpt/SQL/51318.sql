@@ -1,1 +1,0 @@
-DELIMITER //\n   CREATE PROCEDURE MyProcedure()\n   BEGIN\n       SELECT * FROM my_table;\n       SELECT * FROM another_table;\n   END //\n   DELIMITER ;

@@ -1,0 +1,1 @@
+try {\n    $obj = new COM('YourCOMObject');\n    $size = $obj->Size();\n    var_dump($size);\n} catch (Exception $e) {\n    echo 'Caught exception: ',  $e->getMessage(), "\n";\n}

@@ -1,1 +1,0 @@
-<?php\n// Load XML source\n$xml = new DOMDocument;\n$xml->load('data.xml');\n\n// Load XSLT\n$xsl = new DOMDocument;\n$xsl->load('style.xsl');\n\n// Configure the transformer\n$proc = new XSLTProcessor;\n$proc->importStyleSheet($xsl);\n\n// Transform XML to XHTML\necho $proc->transformToXML($xml);\n?>

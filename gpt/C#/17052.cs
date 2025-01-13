@@ -1,1 +1,0 @@
-#if DEBUG\nusing NLog;\n#endif\n\npublic class MyClass\n{\n#if DEBUG\n    private static readonly Logger Logger = LogManager.GetCurrentClassLogger();\n#endif\n\n    public void MyMethod()\n    {\n#if DEBUG\n        Logger.Debug("Debug message");\n#endif\n    }\n}

@@ -1,0 +1,1 @@
+< ManagedProperty \n  Name="LinkToDocumentUrl"\n  Type="Text"\n  Description="URL inside Link to a document"\n  IsQueryable="true"\n  IsRetrievable="true"\n  IsSearchable="true"\n>\n  < Mapping  Name="FileLeafRef" />\n</ManagedProperty>

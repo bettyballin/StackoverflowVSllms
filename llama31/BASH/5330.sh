@@ -1,0 +1,1 @@
+for /f "tokens=*" %%f in ('fsutil reparsepoint query /v ^| findstr /i "Symbolic Link"') do (\n    fsutil reparsepoint delete "%%f"\n)

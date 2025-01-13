@@ -1,1 +1,0 @@
-$x = 36; // Number of lines to print\n\nfor ($i = 1; $i <= $x; $i++) {\n    printf("%02x\n", $i);\n}

@@ -1,0 +1,1 @@
+$find = preg_quote($find, '/');\n$find = str_replace('\+', '\\+', $find); // escape the + character

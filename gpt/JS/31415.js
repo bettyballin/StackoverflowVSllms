@@ -1,1 +1,0 @@
-<script language="JavaScript">\n    try {\n        // Assuming SomeObject is the id of your ActiveX object\n        var version = SomeObject.GetVersion();\n        alert("ActiveX Control Version: " + version);\n    } catch (e) {\n        alert("Unable to determine ActiveX control version: " + e.message);\n    }\n</script>

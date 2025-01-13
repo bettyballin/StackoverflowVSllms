@@ -1,1 +1,0 @@
-swagger-codegen generate -i http://petstore.swagger.io/v2/swagger.json -l java -o /path/to/output

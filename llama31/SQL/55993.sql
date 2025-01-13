@@ -1,0 +1,1 @@
+WITH temp_ids AS (\n  SELECT *, ROW_NUMBER() OVER () AS temp_id\n  FROM your_table\n)\nUPDATE temp_ids\nSET date_column = UNIX_TIMESTAMP(date_column)\nWHERE temp_id = ?;

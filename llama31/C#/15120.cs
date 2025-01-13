@@ -1,0 +1,1 @@
+string csvFile = "path/to/your/file.csv";\nstring tableName = "YourTableName";\n\nCsvToSql.GenerateSql(csvFile, tableName);

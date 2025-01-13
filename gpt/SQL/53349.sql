@@ -1,1 +1,0 @@
-SELECT ROUND(ISNULL(SUM(CAST(Price AS DECIMAL(10, 2))), 0), 2) AS TotalPrice\n   FROM Inventory\n   WHERE (DateAdded BETWEEN @StartDate AND @EndDate);

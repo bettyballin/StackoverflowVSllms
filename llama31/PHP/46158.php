@@ -1,0 +1,1 @@
+$original_date = new DateTime('2009-06-30');\n$interval = new DateInterval('P2M3D'); // 2 months 3 days\n\n$new_date_after = clone $original_date;\n$new_date_after->add($interval);\n\n$new_date_before = clone $original_date;\n$new_date_before->sub($interval);\n\necho $new_date_after->format('Y-m-d');\necho $new_date_before->format('Y-m-d');

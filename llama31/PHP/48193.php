@@ -1,0 +1,1 @@
+<?php\n$fileName = $_GET['textFile'];\n\n$file = fopen('text/'.$fileName.'.txt', 'r');\nif ($file) {\n    $lastLine = '';\n    while (($line = fgets($file)) !== false) {\n        $lastLine = trim($line);\n    }\n    fclose($file);\n    echo $lastLine;\n} else {\n    echo 0;\n}\n?>

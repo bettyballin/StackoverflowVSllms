@@ -1,0 +1,1 @@
+php_obfuscator --obfuscate --output obfuscated_file.php input_file.php

@@ -1,1 +1,0 @@
-$(".add").click(function(e){\n    e.preventDefault();\n    // Get the text of the <a> element within the clicked <li> element\n    var data = $(this).find("a").text();\n    // Alert the data\n    alert(data);\n});

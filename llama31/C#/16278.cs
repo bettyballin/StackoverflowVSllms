@@ -1,0 +1,1 @@
+public class MyController : Controller\n{\n    private readonly PreviouslyViewedRecordsService _previouslyViewedRecordsService;\n\n    public MyController(PreviouslyViewedRecordsService previouslyViewedRecordsService)\n    {\n        _previouslyViewedRecordsService = previouslyViewedRecordsService;\n    }\n\n    // ...\n}

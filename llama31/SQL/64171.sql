@@ -1,0 +1,1 @@
+CREATE TRIGGER trg_SendMessage ON dbo.MyTable\nAFTER INSERT\nAS\nBEGIN\n    DECLARE @message XML;\n    SET @message = (SELECT * FROM inserted FOR XML PATH('message'));\n\n    EXEC msdb.dbo.sp_send_message\n        @destination = 'my_queue',\n        @message = @message;\nEND;

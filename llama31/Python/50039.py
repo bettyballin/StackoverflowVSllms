@@ -1,0 +1,1 @@
+opener = urllib2.build_opener(MultipartPostHandler.MultipartPostHandler)\nurllib2.install_opener(opener)\nrequest = urllib2.Request(url)\nresponse = opener.open(request, post_data)

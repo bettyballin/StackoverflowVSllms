@@ -1,0 +1,1 @@
+$('#searchButton').click( function() {\n    $.ajax({\n        url: '/search.php',\n        data: { pid: $('#searchValue').val() },\n        cache: false,\n        success: function(data) {\n            $('#inquiry').html(data);\n        }\n    });\n});

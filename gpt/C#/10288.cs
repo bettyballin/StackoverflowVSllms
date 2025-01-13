@@ -1,1 +1,0 @@
-String connectionString = "Provider=OraOLEDB.Oracle;Data Source=your_tns_alias;User Id=your_username;Password=your_password;";

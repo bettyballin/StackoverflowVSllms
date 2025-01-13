@@ -1,0 +1,1 @@
+#include <signal.h>\n\nint main() {\n    struct sigaction sa;\n    sa.sa_handler = handler;\n    sigemptyset(&sa.sa_mask);\n    sa.sa_flags = SA_RESTART;\n    if (sigaction(SIGSEGV, &sa, NULL) == -1) {\n        perror("sigaction");\n        exit(1);\n    }\n    // your code here\n}

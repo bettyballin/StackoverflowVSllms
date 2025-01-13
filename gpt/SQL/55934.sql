@@ -1,1 +1,0 @@
-AtPortIFOType NVARCHAR(3)\nAtPortMFOType NVARCHAR(3)\nSailingIFOType NVARCHAR(3)\nSailingMFOType NVARCHAR(3)\n\nAtPortIFOConsumption INT\nAtPortMFOConsumption INT\nSailingIFOConsumption INT\nSailingMFOConsumption INT

@@ -1,0 +1,1 @@
+function phptemplate_views_view_list($view, $nodes, $type) {\n  // Check the view's ID or name\n  if (in_array($view->name, array('recent_articles', 'popular_articles'))) {\n    // Your code here\n  }\n}

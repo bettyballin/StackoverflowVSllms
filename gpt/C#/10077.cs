@@ -1,1 +1,0 @@
-string st;\nst = tt.PostedFile.FileName;\nInt32 a;\na = st.LastIndexOf("\\");\nstring fn;\nfn = st.Substring(a + 1);\nstring fp;\nfp = Server.MapPath("~"); // Use "~" to get the root of the application\nfp = System.IO.Path.Combine(fp, fn);\ntt.PostedFile.SaveAs(fp);

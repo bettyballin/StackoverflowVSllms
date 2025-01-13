@@ -1,0 +1,1 @@
+SELECT DISTINCT \n    colour, \n    AVG(fruit) AS fruit\nFROM (\n    SELECT \n        basket, \n        colour, \n        apples+bananas+oranges+pears+peaches AS fruit\n    FROM baskets\n) AS subquery\nGROUP BY colour;

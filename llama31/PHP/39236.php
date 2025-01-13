@@ -1,0 +1,1 @@
+Configure::write('Error.handler', 'AppError');

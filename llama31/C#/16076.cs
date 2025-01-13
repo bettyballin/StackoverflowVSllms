@@ -1,0 +1,1 @@
+using System;\n\n[AttributeUsage(AttributeTargets.All)]\npublic class ABCAttribute : Attribute { }\n\npublic class MyClass\n{\n    [ABC]\n    public TextBox textBox1;\n\n    public bool HasABCAttribute()\n    {\n        return Attribute.IsDefined(typeof(MyClass).GetField("textBox1"), typeof(ABCAttribute));\n    }\n}

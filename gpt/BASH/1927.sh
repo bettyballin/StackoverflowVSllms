@@ -1,1 +1,0 @@
-gcc -shared -o mylib.so myfile1.o myfile2.o -Wl,-ztextoff,-anotheroptio

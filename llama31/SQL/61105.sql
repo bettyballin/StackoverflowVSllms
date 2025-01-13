@@ -1,0 +1,1 @@
+SELECT \n  t.id AS thing_id,\n  COALESCE(a.access, g.access) AS access\nFROM \n  things t\n  LEFT JOIN access a ON a.user_id = 1 AND a.type = 'thing' AND a.object_id = t.id\n  LEFT JOIN (\n    SELECT \n      group_id, \n      access\n    FROM \n      access\n    WHERE \n      user_id = 1 AND type = 'group'\n  ) g ON g.group_id = t.group_id

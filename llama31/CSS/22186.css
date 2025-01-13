@@ -1,0 +1,1 @@
+.grid-container {\n  display: grid;\n  grid-template-columns: repeat(3, 1fr);\n  gap: 10px;\n}\n\n.leftlayer, .leftlayer2, #rightlayer {\n  grid-column: 1 / 2;\n}\n\n.leftlayer2 {\n  grid-column: 2 / 3;\n}\n\n#rightlayer {\n  grid-column: 3 / 4;\n}

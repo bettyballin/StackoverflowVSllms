@@ -1,0 +1,1 @@
+class MyForm extends Zend_Form\n{\n    private $request;\n\n    public function __construct(Zend_Controller_Request_Http $request)\n    {\n        $this->request = $request;\n        parent::__construct();\n    }\n\n    public function someFormMethod()\n    {\n        // access the request object\n        $requestData = $this->request->getPost();\n        // ...\n    }\n}

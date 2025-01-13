@@ -1,0 +1,1 @@
+$('.imageClass > a > img').bind('click', onImageClick);\n\nfunction onImageClick() {\n    var $img = $(this);\n    $.post("/blah/123", { test : 'a' }, function(data) { myCallback($img, data); }, "json");\n}\n\nfunction myCallback($img, data) {\n    var $strong = $img.parent().next('strong');\n    $strong.text(data.Message);\n}

@@ -1,1 +1,0 @@
-Sub Application_Start()\n       RegisterRoutes(RouteTable.Routes)\n       IoC = New WindsorContainer(New XmlInterpreter)\n       Application("Container") = IoC\n   End Sub

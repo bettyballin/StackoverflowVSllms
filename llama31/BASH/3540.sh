@@ -1,0 +1,1 @@
+# On your local machine (Debian box)\nssh -Y name@***.cs.<school>\n\n# On the remote machine (Solaris)\nexport DISPLAY=:10.0  # assuming the forwarded display is :10.0\nxwininfo -display :10.0 -name netscape  # get the window ID of the Netscape window\n\n# Use the window ID in the netscape command\nnetscape -display :10.0 -id <window_id> -remote 'openFile(/path/to/html/file)'

@@ -1,0 +1,1 @@
+sudo -u postgres /usr/local/postgresql-8.3.6/bin/pg_ctl stop -D /var/lib/postgresql/data

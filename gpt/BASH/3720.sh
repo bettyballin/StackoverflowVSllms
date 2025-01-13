@@ -1,1 +1,0 @@
-VSPerfCmd.exe /start:sample /output:MyAppProfile.vsp\nVSPerfCmd.exe /launch:MyApp.exe\nVSPerfCmd.exe /shutdow

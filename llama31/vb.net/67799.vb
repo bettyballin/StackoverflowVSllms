@@ -1,0 +1,1 @@
+SELECT \n  Int(num1) AS FloorNum1,\n  Round(num1 + 0.5) AS CeilNum1,\n  num1 Mod 2 AS ModNum1,\n  num1 ^ 2 AS PowerNum1,\n  Sgn(num1) AS SignNum1,\n  Sqr(num1) AS SqrtNum1,\n  Int(num1) AS TruncNum1,\n  StrConv("hello world", vbProperCase) AS InitcapText\nFROM t1;

@@ -1,0 +1,1 @@
+vgchange -ay /path/to/image vg_name

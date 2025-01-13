@@ -1,1 +1,0 @@
-module_result = module_operation();\n    if (module_result != MODULE_SUCCESS) {\n        // Handle module-specific error\n    }

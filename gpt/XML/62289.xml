@@ -1,1 +1,0 @@
-POST http://mydomain/collections/complexQuery\n    Content-Type: application/xml\n\n    <Query>\n        <!-- your complex XML query structure here -->\n    </Query>

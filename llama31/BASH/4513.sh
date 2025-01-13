@@ -1,0 +1,1 @@
+appcfg.sh dump --filename=mydata.txt --kind=MyEntity

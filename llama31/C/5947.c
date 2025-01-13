@@ -1,0 +1,1 @@
+#pragma GCC diagnostic push\n#pragma GCC diagnostic ignored "-Wconversion"\ntakes_a_float(my_boat);\n#pragma GCC diagnostic pop

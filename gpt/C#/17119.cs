@@ -1,1 +1,0 @@
-ObjectFactory.Initialize(x =>\n{\n    x.AddRegistry<StructureMapRegistry>();\n});\n\n// Now you can resolve the instance\nvar tmp4 = ObjectFactory.GetInstance<IRepository<Employee>>();

@@ -1,1 +1,0 @@
-var tableBody = document.getElementById('yourTableBodyId');\n   tableBody.innerHTML = newRowsHTML;

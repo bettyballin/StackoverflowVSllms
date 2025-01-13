@@ -1,1 +1,0 @@
-foreach($query->result() as $content)\n{\n    $item = $this->{'mod_'.$content->type}->get($content->id);\n    print_r($item);\n    $items[] = clone $item;\n}\nprint_r($items);

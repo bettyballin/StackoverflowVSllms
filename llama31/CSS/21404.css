@@ -1,0 +1,1 @@
+img.transparent-png {\n  filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='image.png', sizingMethod='scale');\n}

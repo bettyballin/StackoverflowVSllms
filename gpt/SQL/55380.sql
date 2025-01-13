@@ -1,1 +1,0 @@
-DECLARE @param1 integer\nDECLARE @dummyParam integer\n\nEXEC mystoredprocedure \n    @in_param_1, \n    @in_param2_, \n    @param1 OUTPUT, \n    @dummyParam OUTPUT

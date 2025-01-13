@@ -1,0 +1,1 @@
+div {\n  width: 800px;\n  position: absolute;\n  left: 50%;\n  transform: translateX(-50%);\n}

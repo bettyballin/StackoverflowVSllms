@@ -1,1 +1,0 @@
-LinqToSqlObject linqObject = GetLinqObjectFromDatabase();\nPocoObject pocoObject = mapper.Map<PocoObject>(linqObject);

@@ -1,0 +1,1 @@
+#!/bin/bash\nSLOC=0\nfor file in $(find . -name "*.cpp" -o -name "*.c"); do\n  gcov -b -c -f "$file" | grep "Lines executed" | awk '{SLOC+=$1} END {print SLOC}'\ndone\necho "Total SLOC: $SLOC"

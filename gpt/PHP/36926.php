@@ -1,1 +1,0 @@
-$a = new SimpleXMLElement('<a/>');\n    $a->addAttribute('b', 'One & Two'); // Automatically escapes to "One &amp; Two"

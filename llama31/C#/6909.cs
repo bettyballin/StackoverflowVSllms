@@ -1,0 +1,1 @@
+byte[] blob = // your byte array containing the binary file\nstring filename = // the desired filename for the client to save\n\nResponse.Clear();\nResponse.ContentType = "application/octet-stream";\nResponse.AppendHeader("Content-Disposition", $"attachment; filename=\"{filename}\"");\nResponse.OutputStream.Write(blob, 0, blob.Length);\nResponse.End();

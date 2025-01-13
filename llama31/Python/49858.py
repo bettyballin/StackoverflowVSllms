@@ -1,0 +1,1 @@
+list1 = [[1, '1', 1], [2,'2',2], [3,'3',3]]\n\n# Convert each sublist into a string and join them with newline\nresult = '\n'.join(' '.join(map(str, sublist)) for sublist in list1)\n\nprint(result)

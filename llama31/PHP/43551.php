@@ -1,0 +1,1 @@
+$registry = new PluginRegistry();\n\n$myPlugin = new MyPlugin();\n$registry->registerPlugin($myPlugin);\n\n$plugins = $registry->getPlugins();\nforeach ($plugins as $plugin) {\n    echo $plugin->getName() . ' - ' . $plugin->getDescription() . "\n";\n    $plugin->init();\n    $plugin->run();\n}

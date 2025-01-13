@@ -1,1 +1,0 @@
-using System;\nusing System.Collections.Generic;\n\npublic class StringSearcher\n{\n    private HashSet<string> stringSet;\n\n    public StringSearcher(IEnumerable<string> strings)\n    {\n        stringSet = new HashSet<string>(strings);\n    }\n\n    public bool Contains(string item)\n    {\n        return stringSet.Contains(item);\n    }\n}

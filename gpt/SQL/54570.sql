@@ -1,1 +1,0 @@
-SELECT setval(pg_get_serial_sequence('your_legacy_table', 'id'), coalesce(max(id), 1), max(id) IS NOT null) FROM your_legacy_table;

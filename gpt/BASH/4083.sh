@@ -1,1 +1,0 @@
-echo "extension=php_gtk2.so" | sudo tee -a /etc/php.ini

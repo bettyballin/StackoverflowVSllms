@@ -1,0 +1,1 @@
+$(document).ready(function() {\n  $('#dropdown1').change(function() {\n    var selectedValue = $(this).val();\n    $.ajax({\n      type: 'POST',\n      url: 'fetchDropdown2.php',\n      data: { selectedValue: selectedValue },\n      success: function(data) {\n        $('#dropdown2').html(data);\n      }\n    });\n  });\n});

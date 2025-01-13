@@ -1,0 +1,1 @@
+// example code to get you started with CodeIgniter\n<?php\ndefined('BASEPATH') OR exit('No direct script access allowed');\n\nclass Welcome extends CI_Controller {\n    public function index()\n    {\n        $this->load->view('welcome_message');\n    }\n}

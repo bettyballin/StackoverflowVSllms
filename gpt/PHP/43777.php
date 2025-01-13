@@ -1,1 +1,0 @@
-<?php\n   $dsn = 'pgsql:host=your_host;dbname=your_dbname';\n   $username = 'your_username';\n   $password = 'your_password';\n\n   try {\n       $pdo = new PDO($dsn, $username, $password);\n       $pdo->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);\n   } catch (PDOException $e) {\n       echo 'Connection failed: ' . $e->getMessage();\n   }\n   ?>

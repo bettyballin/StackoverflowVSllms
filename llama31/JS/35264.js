@@ -1,0 +1,1 @@
+$("#dialog").dialog({\n    appendTo: "#aspnetForm" // or "#UpdatePanel1"\n});

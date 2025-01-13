@@ -1,1 +1,0 @@
-import os\n    import django\n\n    os.environ.setdefault('DJANGO_SETTINGS_MODULE', 'myproject.settings')\n    django.setup()\n\n    from myapp.models import MyModel\n\n    # Example usage\n    new_record = MyModel(name='John Doe', age=30)\n    new_record.save()\n\n    records = MyModel.objects.all()\n    for record in records:\n        print(record.name, record.age)

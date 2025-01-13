@@ -1,1 +1,0 @@
-cp myApplication.war /path/to/tomcat/webapps/

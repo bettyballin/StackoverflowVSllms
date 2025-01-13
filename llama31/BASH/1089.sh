@@ -1,0 +1,1 @@
+gcc -Wl,-emy_main your_program.c -o your_program

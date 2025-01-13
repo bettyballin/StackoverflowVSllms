@@ -1,1 +1,0 @@
-from faker import Faker\n\n     fake = Faker()\n\n     for _ in range(1000):  # Adjust range for the desired number of records\n         company_name = fake.company()\n         address = fake.address()\n         phone_number = fake.phone_number()\n         print(f"Company: {company_name}, Address: {address}, Phone: {phone_number}")

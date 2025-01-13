@@ -1,0 +1,1 @@
+public ActionResult Index(int? page, string tag)\n{\n    // ...\n    return View("Index", viewData);\n}

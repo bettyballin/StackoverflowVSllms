@@ -1,0 +1,1 @@
+public void Register<T>() where T : class\n{\n    if (!typeof(T).IsInterface)\n    {\n        throw new ArgumentException("T must be an interface");\n    }\n    // rest of your code\n}

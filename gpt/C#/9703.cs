@@ -1,1 +1,0 @@
-protected void Application_BeginRequest(Object sender, EventArgs e)\n   {\n       if (Request.IsSecureConnection == false && Request.Url.AbsolutePath.ToLower().Contains("login.aspx"))\n       {\n           Response.Redirect(Request.Url.ToString().Replace("http:", "https:"));\n       }\n   }

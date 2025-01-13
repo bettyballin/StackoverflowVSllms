@@ -1,0 +1,1 @@
+tidy -errors -quiet -utf8 input.html

@@ -1,0 +1,1 @@
+aspnet_regsql.exe -C "Data Source=YourSqlServerInstance;Initial Catalog=YourDatabaseName;Integrated Security=True" -A all

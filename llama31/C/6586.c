@@ -1,0 +1,1 @@
+// Example of a memory leak in C\n#include <stdlib.h>\n\nint main() {\n    int* arr = malloc(10 * sizeof(int));\n    // Use arr...\n    // Don't forget to free arr!\n    free(arr);\n    return 0;\n}

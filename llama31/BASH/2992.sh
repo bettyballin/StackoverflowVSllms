@@ -1,0 +1,1 @@
+mysql -h your_host -u your_user -p your_database -e "SELECT * FROM your_table INTO OUTFILE '/path/to/output.csv' FIELDS TERMINATED BY ',' ENCLOSED BY '\"' LINES TERMINATED BY '\n';"

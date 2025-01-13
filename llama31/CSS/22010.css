@@ -1,0 +1,1 @@
+/* Example: Using feature detection for CSS gradients */\n.gradient {\n  background-image: linear-gradient(to bottom, #fff, #000);\n  background-image: -webkit-linear-gradient(top, #fff, #000);\n  background-image: -moz-linear-gradient(top, #fff, #000);\n  background-image: -ms-linear-gradient(top, #fff, #000);\n  background-image: -o-linear-gradient(top, #fff, #000);\n}

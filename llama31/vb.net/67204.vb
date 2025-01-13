@@ -1,0 +1,1 @@
+Using objImage As New MemoryStream(objwebClient.DownloadData(sURL))\n    m_imgLiftingEye.Image = Image.FromStream(objImage)\nEnd Using

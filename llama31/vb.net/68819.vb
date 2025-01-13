@@ -1,0 +1,1 @@
+Private Function MapDataRowToProperties(ByVal dr As DataRow, ByVal target As Incident) As Incident\n    target.ID = Convert.ToInt32(dr.Item("pkIncidentID"))\n    target.Description = dr.Item("IncidentDetail").ToString\n    target.Created = Convert.ToDateTime(dr.Item("CreatedOn"))\n    ...\n    Return target\nEnd Functio

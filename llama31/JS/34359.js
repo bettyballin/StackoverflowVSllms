@@ -1,0 +1,1 @@
+// Example usage:\nvar pdfjsLib = require('pdfjs-dist');\nvar pdfDocument = pdfjsLib.getDocument('path/to/your/pdf/file.pdf');\nvar pdfViewer = new pdfjsLib.PDFViewer(pdfDocument, {\n  container: document.getElementById('pdf-container'),\n  logo: 'path/to/your/company/logo.png'\n});

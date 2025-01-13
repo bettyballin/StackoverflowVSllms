@@ -1,1 +1,0 @@
-import unittest\n\nclass GiantTestClass(unittest.TestCase):\n    \n    def test_case_001(self):\n        # test logic\n        pass\n        \n    def test_case_002(self):\n        # test logic\n        pass\n\n    # ... up to test_case_450\n\nif __name__ == '__main__':\n    unittest.main()

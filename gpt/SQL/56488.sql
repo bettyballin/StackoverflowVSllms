@@ -1,1 +1,0 @@
-DROP TABLE your_table;\n    RENAME your_table_temp TO your_table;

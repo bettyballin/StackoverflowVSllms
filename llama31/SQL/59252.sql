@@ -1,0 +1,1 @@
+CREATE OR REPLACE FUNCTION PORTAL.md5hash (v_input_string in varchar2) return varchar2\nis\n  v_checksum raw(16);\n  v_hex_checksum varchar2(32);\nbegin\n  v_checksum := dbms_obfuscation_toolkit.md5 (input_string => v_input_string);\n  v_hex_checksum := rawtohex(v_checksum);\n  return v_hex_checksum;\nend;

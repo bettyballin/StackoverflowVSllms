@@ -1,0 +1,1 @@
+Dim dialog As New MyDialog()\nDim result As DialogResult = dialog.ShowDialog()\n\nIf result = DialogResult.OK Then\n    ' Save button was clicked\nElseIf result = DialogResult.Cancel Then\n    ' Cancel button was clicked\nEnd If

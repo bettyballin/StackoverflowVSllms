@@ -1,0 +1,1 @@
+pg_dumpall > /var/lib/pgsql/9.6/backups/full_backup.sql

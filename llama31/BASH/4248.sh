@@ -1,0 +1,1 @@
+wbadmin get versions -backupTarget:E: -machine:YourMachineName\nwbadmin get items -version:datetime -backupTarget:E: -machine:YourMachineName\nwbadmin start recovery -version:datetime -backupTarget:E: -machine:YourMachineName -itemType:File -items:C:\Path\To\File.txt

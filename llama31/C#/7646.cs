@@ -1,0 +1,1 @@
+public class ContactView\n{\n    public string Name { get; set; }\n    public string Email { get; set; }\n}

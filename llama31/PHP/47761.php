@@ -1,0 +1,1 @@
+$data = array(\n    'title' => utf8_encode($this->input->post('title')),\n    'date' => $this->input->post('date'),\n    'mytext' => utf8_encode($this->input->post('mytext'))\n);

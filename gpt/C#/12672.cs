@@ -1,1 +1,0 @@
-var session = sessionFactory.OpenSession();\nvar query = session.Query<SomeEntity>()\n                   .Where(e => e.SomeProperty == someValue)\n                   .ToList();

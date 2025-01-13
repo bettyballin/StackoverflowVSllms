@@ -1,0 +1,1 @@
+# Install PHPCPD via Composer\ncomposer global require sebastian/phpcpd\n\n# Run PHPCPD on your codebase\nphpcpd /path/to/your/project

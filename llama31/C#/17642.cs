@@ -1,0 +1,1 @@
+[EntityPermission("Customer", "Write")]\npublic void UpdateCustomer(Customer customer)\n{\n    // Update customer logic here\n}

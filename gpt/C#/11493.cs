@@ -1,1 +1,0 @@
-XElement xml = new XElement("Configuration");\nxml.Add(new XElement("SomeConfigValue", string.Empty)); // Representing NULL with an empty element\n\nstring xmlString = xml.ToString();\n// Pass 'xmlString' to the stored procedure

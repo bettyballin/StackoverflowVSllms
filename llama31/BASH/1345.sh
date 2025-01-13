@@ -1,0 +1,1 @@
+#!/bin/bash\n\nfor i in {1..100}; do\n  dd if=/dev/fd0 of=floppy_$i.img\n  dir /dev/fd0 > floppy_$i.txt\n  eject /dev/fd0\ndone

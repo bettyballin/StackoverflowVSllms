@@ -1,0 +1,1 @@
+SELECT p.*,\n       COUNT(pt2.tag_id) AS common_tags\nFROM Posts p\nJOIN posts_to_tags pt1 ON p.id = pt1.post_id\nJOIN posts_to_tags pt2 ON pt1.tag_id = pt2.tag_id AND pt2.post_id != p.id\nWHERE p.id != ?  // exclude the current post\nGROUP BY p.id\nORDER BY common_tags DESC\nLIMIT 10;  // adjust the limit as needed

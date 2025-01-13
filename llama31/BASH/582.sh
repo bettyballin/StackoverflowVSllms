@@ -1,0 +1,1 @@
+ohup java -jar yourprogram.jar &

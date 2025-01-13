@@ -1,1 +1,0 @@
-* * * * * /path/to/your_script.sh >> /path/to/your_script.log 2>&1

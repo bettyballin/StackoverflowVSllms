@@ -1,0 +1,1 @@
+CALL search_documents('seq sta cod');

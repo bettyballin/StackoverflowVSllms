@@ -1,1 +1,0 @@
-<?php\n$a = 1;\n$b = 2;\n$c = 3;\n\nprint_r(get_defined_vars());\n?>

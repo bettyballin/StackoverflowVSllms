@@ -1,1 +1,0 @@
-sudo chown -R your_samba_user:your_samba_group /path/to/your/samba/share\n   sudo chmod -R 775 /path/to/your/samba/share

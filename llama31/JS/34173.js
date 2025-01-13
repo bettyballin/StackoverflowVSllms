@@ -1,0 +1,1 @@
+import axios from 'axios';\n\naxios.get('https://example.com/api/data')\n  .then(response => console.log(response.data))\n  .catch(error => console.error(error));\n\naxios.post('https://example.com/api/data', { name: 'John Doe' })\n  .then(response => console.log(response.data))\n  .catch(error => console.error(error));

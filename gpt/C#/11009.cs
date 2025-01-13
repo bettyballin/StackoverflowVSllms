@@ -1,1 +1,0 @@
-protected override void Dispose(bool disposing)\n{\n    if (disposing)\n    {\n        // Dispose of any resources if necessary\n    }\n    base.Dispose(disposing);\n}

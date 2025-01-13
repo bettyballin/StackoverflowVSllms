@@ -1,0 +1,1 @@
+::-webkit-scrollbar {\n  width: 20px; /* Set the width to 20px */\n}\n\n::-webkit-scrollbar-thumb {\n  background-color: #ccc; /* Set the thumb color */\n  border-radius: 10px; /* Set the thumb border radius */\n}

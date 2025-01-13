@@ -1,0 +1,1 @@
+UPDATE p\nSET p.TemplateID = (SELECT t.TemplateID FROM Templates t WHERE t.TemplateName = p.TemplateName)\nFROM Products p;

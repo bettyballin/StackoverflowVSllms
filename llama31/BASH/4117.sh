@@ -1,0 +1,1 @@
+bindiff -o diff.txt dll1.dll dll2.dll

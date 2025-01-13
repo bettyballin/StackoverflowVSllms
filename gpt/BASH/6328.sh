@@ -1,1 +1,0 @@
-# Check current limits\n   ulimit -n\n\n   # Increase the limit (example: to 65535)\n   ulimit -n 65535

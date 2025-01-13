@@ -1,1 +1,0 @@
-# config/application.rb\n\nmodule YourAppName\n  class Application < Rails::Application\n    # Add this line to include the models from the `oracle` directory\n    config.eager_load_paths += %W(#{config.root}/app/models/oracle)\n  end\nend

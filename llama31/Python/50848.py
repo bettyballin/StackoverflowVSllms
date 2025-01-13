@@ -1,0 +1,1 @@
+from django.contrib.auth.mixins import PermissionRequiredMixin\nfrom django.views.generic import View\nfrom restinterface import BaseRESTView\n\nclass MyModelRESTView(PermissionRequiredMixin, BaseRESTView):\n    permission_required = 'myapp.view_mymodel'\n\n    def get(self, request, *args, **kwargs):\n        # Return the data\n        pass

@@ -1,0 +1,1 @@
+function someFunction($in_param1) {\n    return "SUCCESS";\n}\n\n$function = 'someFunction';\n\n$reflection = new ReflectionFunction($function);\nif ($reflection->getNumberOfRequiredParameters() > 0) {\n    // the function expects parameters\n    echo "The function expects parameters.";\n} else {\n    $x = $function();\n}

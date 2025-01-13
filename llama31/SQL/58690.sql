@@ -1,0 +1,1 @@
+SELECT * FROM myTable AS t\nWHERE t.ID = 4\n  AND t.X = 1\n  AND t.Name LIKE N'%аккаунт%' COLLATE Latin1_General_CI_AS

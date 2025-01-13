@@ -1,1 +1,0 @@
-require 'webrick'\n    include WEBrick\n\n    s = HTTPServer.new(\n      :Port => 2000,\n      :DocumentRoot => Dir::pwd,\n      :CGIInterpreter => 'C:/path/to/runner.bat'\n    )\n    \n    s.mount('/cgi-bin', HTTPServlet::CGIHandler, 'test.cgi')\n    \n    trap('INT') { s.shutdown }\n    s.start

@@ -1,1 +1,0 @@
-[HttpPost]\n[ValidateAntiForgeryToken]\npublic ActionResult ActionName(MyViewModel model)\n{\n    if (ModelState.IsValid)\n    {\n        // Process the form data\n        return PartialView("_SuccessPartial", model); // Return a partial view\n    }\n    return PartialView("_ErrorPartial"); // Return an error partial view\n}

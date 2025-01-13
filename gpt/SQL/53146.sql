@@ -1,1 +1,0 @@
--- Set the global time zone to UTC\nSET GLOBAL time_zone = '+00:00';\n\n-- Set the session time zone to UTC\nSET time_zone = '+00:00';\n\n-- Example usage\nSELECT NOW();    -- Returns current date and time in UTC\nSELECT CURDATE(); -- Returns current date in UTC

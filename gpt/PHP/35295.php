@@ -1,1 +1,0 @@
-$arrayObject = new ArrayObject([1, 2, 3, 4, 5]);\n$valueToFind = 3;\n$valueExists = false;\n\nforeach ($arrayObject as $value) {\n    if ($value === $valueToFind) {\n        $valueExists = true;\n        break;\n    }\n}\n\nif ($valueExists) {\n    echo "Value exists in ArrayObject";\n} else {\n    echo "Value does not exist in ArrayObject";\n}

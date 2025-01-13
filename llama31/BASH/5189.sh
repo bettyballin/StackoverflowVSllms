@@ -1,0 +1,1 @@
+wevtutil.exe qe Application /f:text /q:"*[EventData[Data='YourDllName.dll']]" /c:10

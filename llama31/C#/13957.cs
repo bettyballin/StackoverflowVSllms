@@ -1,0 +1,1 @@
+public class MyDirectiveProcessor : DirectiveProcessor\n{\n    // ...\n\n    public override void Process()\n    {\n        Diagram diagram = GetDiagram("DiagramName");\n        // Process the diagram...\n    }\n}

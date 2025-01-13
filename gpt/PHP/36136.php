@@ -1,1 +1,0 @@
-$var = 'bar';\n$className = $var . 'Class';\n$bar = new $className('var for __construct()');

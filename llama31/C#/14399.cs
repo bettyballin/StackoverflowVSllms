@@ -1,0 +1,1 @@
+string result = Path.GetFullPath(Path.Combine(@"C:\x", @"\y"));

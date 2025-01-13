@@ -1,1 +1,0 @@
-app.UseCookiePolicy(new CookiePolicyOptions\n     {\n         HttpOnly = Microsoft.AspNetCore.CookiePolicy.HttpOnlyPolicy.Always,\n         Secure = CookieSecurePolicy.Always,\n         MinimumSameSitePolicy = SameSiteMode.Strict\n     });

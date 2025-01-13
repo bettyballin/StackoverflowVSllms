@@ -1,1 +1,0 @@
-@echo off\nset ORACLE_HOME=C:\oracle\product\11.2.0\dbhome_1\nset PATH=%ORACLE_HOME%\bin;%PATH%\nset INCLUDE=%ORACLE_HOME%\precomp\public;%INCLUDE%\nset LIB=%ORACLE_HOME%\precomp\lib\msvc;%LIB%\n\nproc iname=yourfile.pc oname=yourfile.cpp include=%INCLUDE%\n\ncl /I %INCLUDE% /c yourfile.cpp\nlink yourfile.obj /LIBPATH:%LIB% oci.lib

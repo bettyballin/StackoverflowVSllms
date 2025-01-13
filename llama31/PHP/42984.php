@@ -1,0 +1,1 @@
+$lookupTable = array();\nfor ($i = 0; $i < 64; $i++) {\n    $lookupTable[$i] = array($i >> 3, $i & 7);\n}\n\nfunction int2coord($i) {\n    return $lookupTable[$i];\n}

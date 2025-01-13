@@ -1,1 +1,0 @@
-var hierarchicalData = from entry in context.HierarchicalDataView\n                       where entry.ParentId == givenEntryId\n                       select entry;

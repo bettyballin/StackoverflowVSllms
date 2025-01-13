@@ -1,1 +1,0 @@
-chmod +x /var/www/html/hello.py

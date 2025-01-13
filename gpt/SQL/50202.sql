@@ -1,1 +1,0 @@
-SELECT TOP 10 \n    ApplicationName, \n    MethodName, \n    TimeInMs, \n    DateTime\nFROM \n    YourTableName\nORDER BY \n    TimeInMs ASC;

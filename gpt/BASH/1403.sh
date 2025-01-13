@@ -1,1 +1,0 @@
-ILMerge /out:Combined.dll YourLibrary.dll log4net.dll

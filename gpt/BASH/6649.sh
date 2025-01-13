@@ -1,1 +1,0 @@
-docker run --rm -it --read-only --cap-drop ALL --network none sandbox-pytho

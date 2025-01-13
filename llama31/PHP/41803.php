@@ -1,0 +1,1 @@
+public function editAction() {\n    // DO THINGS...\n\n    // Upon failure\n    if ($fail) {\n        $errorMessage = "Generic error";\n        Zend_Session::rememberMe(); // Start a session if not already started\n        Zend_Session::set('errorMessage', $errorMessage);\n        $this->_redirector->gotoUrl('/error/index');\n    }\n}

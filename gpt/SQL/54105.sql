@@ -1,1 +1,0 @@
-SELECT\n    records.id,\n    contacts.name + \n    CASE \n        WHEN contacts.organization IS NOT NULL AND contacts.organization <> '' \n        THEN ' (' + contacts.organization + ')' \n        ELSE '' \n    END AS contact\nFROM records\nLEFT JOIN contacts ON records.contact = contacts.contactid

@@ -1,0 +1,1 @@
+# config/routes.rb\nRails.application.routes.draw do\n  get '/hello', to: 'hello#index'\nend\n\n# app/controllers/hello_controller.rb\nclass HelloController < ApplicationController\n  def index\n    render text: 'Hello World!'\n  end\nend

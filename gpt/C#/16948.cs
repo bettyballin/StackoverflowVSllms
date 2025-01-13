@@ -1,1 +1,0 @@
-public ActionResult AddComment(string comment)\n{\n    string sanitizedComment = HtmlSanitizerHelper.Sanitize(comment);\n\n    // Save the sanitized comment to the database\n    // ...\n\n    return RedirectToAction("Post", new { id = postId });\n}\n\npublic ActionResult Post(int id)\n{\n    // Retrieve comments from the database\n    // ...\n\n    return View(comments);\n}

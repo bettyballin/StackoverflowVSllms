@@ -1,1 +1,0 @@
-ALTER TABLE your_table ADD COLUMN entry_order_no INT;

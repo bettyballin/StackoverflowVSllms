@@ -1,1 +1,0 @@
--- Enable Unified Auditing\n   ALTER SYSTEM SET audit_trail = DB, EXTENDED SCOPE = SPFILE;\n   SHUTDOWN IMMEDIATE;\n   STARTUP;\n   \n   -- Create an audit policy\n   CREATE AUDIT POLICY my_audit_policy\n     ACTIONS ALL ON SCHEMA my_schema;\n   \n   -- Enable the audit policy\n   AUDIT POLICY my_audit_policy;

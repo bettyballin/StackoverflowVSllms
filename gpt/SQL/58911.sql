@@ -1,1 +1,0 @@
-DBCC CHECKIDENT ('YourTable', RESEED, new_seed_value);

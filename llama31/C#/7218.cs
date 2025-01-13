@@ -1,0 +1,1 @@
+UserControl1 uc = new UserControl1();\nGrid.SetRow(uc, 0);\nGrid.SetColumn(uc, 0);\nGrid.SetColumnSpan(uc, 2);\ngrid.Children.Add(uc);

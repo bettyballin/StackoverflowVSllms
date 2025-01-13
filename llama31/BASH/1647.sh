@@ -1,0 +1,1 @@
+*/30 * * * * /usr/bin/php /path/to/your/script/check.php

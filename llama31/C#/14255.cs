@@ -1,0 +1,1 @@
+Stream xmlStream = // your XML data stream\nEncoding encoding = // the encoding of the XML data (e.g. Encoding.UTF8)\n\nXmlReader sanitizingXmlReader = XmlSanitizer.CreateSanitizingXmlReader(xmlStream, encoding);

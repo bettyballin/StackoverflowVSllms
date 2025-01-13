@@ -1,0 +1,1 @@
+var clientFactory = new HttpClientFactory();\nvar client = clientFactory.CreateClient();

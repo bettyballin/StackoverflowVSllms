@@ -1,0 +1,1 @@
+var repository = new SimpleRepository<Posting>(new MyDBDataProvider());\nrepository.LazyLoad = true;

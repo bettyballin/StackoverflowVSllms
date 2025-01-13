@@ -1,0 +1,1 @@
+jing -c relaxng-schema.rng input.xml

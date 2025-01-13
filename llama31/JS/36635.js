@@ -1,0 +1,1 @@
+function selectAll() {\n  var form = document.myList;\n  var checkboxes = form.querySelectorAll('input[type="checkbox"]');\n  for (var i = 0; i < checkboxes.length; i++) {\n    checkboxes[i].checked = true;\n  }\n}\n\n// Call the function when the "Select all" link is clicked\ndocument.querySelector('a[href="#"]').addEventListener('click', selectAll);

@@ -1,0 +1,1 @@
+ColorNumList = ColorNumList.OrderByDescending(x => x.m_Color == "Red").ThenBy(x => x.m_Number).ToList();

@@ -1,0 +1,1 @@
+// In the parent page\nconst proxyUrl = 'https://your-proxy-server.com/viddler';\nconst iframe = document.createElement('iframe');\niframe.src = proxyUrl;\ndocument.body.appendChild(iframe);

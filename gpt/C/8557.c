@@ -1,1 +1,0 @@
-// file1.c\n#include <stdio.h>\n\nstatic void func(); // Declaration with internal linkage\n\nint main() {\n    func();\n    return 0;\n}\n\nstatic void func() { // Definition with internal linkage\n    printf("Hello, World!\n");\n}

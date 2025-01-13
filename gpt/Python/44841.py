@@ -1,1 +1,0 @@
-import random\n\n# Your array of 50 items\narray = [i for i in range(1, 51)]\n\n# Choose 5 random items from the array\nrandom_items = random.sample(array, 5)\n\nprint(random_items)

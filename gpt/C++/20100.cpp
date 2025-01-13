@@ -1,1 +1,0 @@
-amespace nsA {\n    namespace subA {\n        void callFunctionInNsB();\n    }\n}\n\nnamespace nsB {\n    void theFunctionInNsB();\n}\n\nvoid nsA::subA::callFunctionInNsB() {\n    nsB::theFunctionInNsB(); // Use fully qualified name to reference the function\n}\n\n// Example usage\nint main() {\n    nsA::subA::callFunctionInNsB();\n    return 0;\n}

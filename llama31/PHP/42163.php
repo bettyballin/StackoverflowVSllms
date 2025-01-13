@@ -1,0 +1,1 @@
+// Create a table with a case-sensitive collation\n$query = "CREATE TABLE users (\n  username VARCHAR(255) COLLATE utf8_bin NOT NULL,\n  password VARCHAR(255) NOT NULL\n)";

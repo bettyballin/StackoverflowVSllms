@@ -1,0 +1,1 @@
+$.ajax({\n    type: "POST",\n    url: "/MyWebService.asmx/MyWebMethod", // note the leading slash\n    data: "{}",\n    contentType: "application/json; charset=utf-8",\n    dataType: "json",\n    success: function(msg)\n    // ...\n});

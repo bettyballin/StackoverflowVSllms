@@ -1,1 +1,0 @@
-(gdb) break my_program.c:line_number\n    (gdb) ru

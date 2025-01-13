@@ -1,0 +1,1 @@
+// test.cpp\nvoid test() {\n    MockDLLWrapper mockDLL;\n    // Use the mockDLL object in your tests\n    mockDLL.Open(params...);\n    mockDLL.getinfo(params...);\n}

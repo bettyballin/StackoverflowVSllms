@@ -1,0 +1,1 @@
+public interface IDimensions\n{\n    double GetVolume();\n}

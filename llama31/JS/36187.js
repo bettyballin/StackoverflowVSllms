@@ -1,0 +1,1 @@
+$.ajax({\n  type: "GET",\n  url: "fileReader.php",\n  data: 'textFile=' + fileNameTxt,\n  cache: false,\n  success: function(response){\n    // ...\n  }\n});

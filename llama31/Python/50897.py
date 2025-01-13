@@ -1,0 +1,1 @@
+def get_chatbot_training_examples(chatbot_id):\n    # Get data from database\n    examples = get_chatbot_training_examples_from_db(chatbot_id)\n    for example in examples:\n        # Generate chatbot response\n        response = generate_chatbot_response(example)\n        example.append(response)\n    return examples

@@ -1,1 +1,0 @@
-[Version]\n   public virtual int Version { get; set; }

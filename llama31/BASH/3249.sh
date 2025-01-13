@@ -1,0 +1,1 @@
+curl -X POST \\n  http://example.com/webservice \\n  -H 'Content-Type: text/xml; charset=utf-8' \\n  -H 'SOAPAction: "some-action"' \\n  -T soap.xml

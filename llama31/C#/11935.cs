@@ -1,0 +1,1 @@
+[ServiceContract]\npublic interface IDataService\n{\n    [OperationContract]\n    string GetData();\n\n    [OperationContract(AsyncPattern = true)]\n    IAsyncResult BeginGetData(AsyncCallback callback, object state);\n\n    [OperationContract]\n    string EndGetData(IAsyncResult result);\n}

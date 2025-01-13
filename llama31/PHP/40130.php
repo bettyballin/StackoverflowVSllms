@@ -1,0 +1,1 @@
+// Example of secure storage using environment variables\n$apiLogin = getenv('AUTHORIZE_NET_API_LOGIN');\n$transactionKey = getenv('AUTHORIZE_NET_TRANSACTION_KEY');

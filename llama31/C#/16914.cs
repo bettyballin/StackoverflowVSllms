@@ -1,0 +1,1 @@
+// Example using NUnit's parallel testing\n[TestFixture]\n[Parallelizable]\npublic class MyTest\n{\n    // Tests\n}

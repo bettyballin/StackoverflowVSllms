@@ -1,0 +1,1 @@
+ld /s /p C:\SymbolCache\ntdll.pdb

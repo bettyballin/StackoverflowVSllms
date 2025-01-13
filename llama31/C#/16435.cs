@@ -1,0 +1,1 @@
+private DateTime? startdate;\n\n// Assigning a valid DateTime value\nstartdate = DateTime.Now;\n\n// Assigning null\nstartdate = null;

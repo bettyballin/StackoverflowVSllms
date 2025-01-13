@@ -1,0 +1,1 @@
+.sympath C:\Path\To\PDB\Files

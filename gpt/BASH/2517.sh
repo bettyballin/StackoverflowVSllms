@@ -1,1 +1,0 @@
-dumpbin /exports PPPManager.dll

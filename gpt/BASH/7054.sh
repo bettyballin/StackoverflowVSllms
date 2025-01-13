@@ -1,1 +1,0 @@
-ssh -L local_port:remote_server:remote_port username@ssh_server

@@ -1,0 +1,1 @@
+// JavaScript example (client-side)\n$.ajax({\n    type: 'POST',\n    url: 'QuestionnaireService.asmx/GetNextQuestion',\n    data: { currentQuestionId: 1, userResponse: 'user input' },\n    success: function (data) {\n        // Handle the response (e.g., render the next question)\n    }\n});

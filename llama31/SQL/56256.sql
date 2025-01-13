@@ -1,0 +1,1 @@
+SELECT name, schema_id \nFROM sys.types \nWHERE is_user_defined = 1;

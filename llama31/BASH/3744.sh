@@ -1,0 +1,1 @@
+xdebug_trace2graphviz -f trace.xt > callgraph.dot\ndot -Tpng callgraph.dot -o callgraph.png

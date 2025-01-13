@@ -1,0 +1,1 @@
+container.RegisterType<CustomerAllView>();

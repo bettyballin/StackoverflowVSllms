@@ -1,0 +1,1 @@
+__doPostBack(this.get_element().id, 'ControlIdToUpdate');

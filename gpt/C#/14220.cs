@@ -1,1 +1,0 @@
-using Bass.Net; // Namespace from the DLL\n\npublic class MyClass\n{\n    public void MyMethod()\n    {\n        // Use a class or method from the DLL\n        var bass = new BassClass();\n        bass.Play();\n    }\n}

@@ -1,0 +1,1 @@
+$pid = pg_backend_pid();\nexec("taskset -p $pid 0x00000001"); // set affinity to CPU 0

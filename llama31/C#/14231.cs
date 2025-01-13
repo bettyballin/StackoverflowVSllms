@@ -1,0 +1,1 @@
+String query = "SELECT * FROM testFunction(param1, ...)";\nSqlCommand cmd = new SqlCommand(query, sqlConn);\nSqlDataAdapter adapter = new SqlDataAdapter(cmd);\nDataTable tbl = new DataTable();\nadapter.Fill(tbl);

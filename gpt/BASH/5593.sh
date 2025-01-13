@@ -1,1 +1,0 @@
-gs -dSAFER -dBATCH -dNOPAUSE -sDEVICE=pdfwrite -sOutputFile=library.1of2.pdf -dFirstPage=1 -dLastPage=740 cleaned.pdf\ngs -dSAFER -dBATCH -dNOPAUSE -sDEVICE=pdfwrite -sOutputFile=library.2of2.pdf -dFirstPage=741 cleaned.pdf

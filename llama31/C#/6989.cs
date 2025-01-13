@@ -1,0 +1,1 @@
+var collection = new ObservableCollection<MyItem>();\ncollection.CollectionChanged += (sender, e) =>\n{\n    // Handle events here\n};

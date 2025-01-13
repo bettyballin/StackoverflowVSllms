@@ -1,1 +1,0 @@
-CREATE TABLE Loans (\n       LoanId INT IDENTITY(1,1) PRIMARY KEY,\n       Amount DECIMAL(18, 2),\n       BorrowerGroupId INT\n   );

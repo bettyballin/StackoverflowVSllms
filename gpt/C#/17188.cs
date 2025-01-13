@@ -1,1 +1,0 @@
-// Program.cs\nusing MyClassLibrary;\n\nnamespace MyConsoleApp\n{\n    class Program\n    {\n        static void Main(string[] args)\n        {\n            MyClass myClass = new MyClass();\n            myClass.WriteToConsole("Hello from the class library!");\n        }\n    }\n}

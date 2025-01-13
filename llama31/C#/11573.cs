@@ -1,0 +1,1 @@
+ProcessStartInfo start = new ProcessStartInfo\n{\n    Arguments = "/k \"" + newTargetFile + "\"" +\n                " " +\n                "\"" + originalFile.FullName + "\"",\n    FileName = "cmd.exe",\n    WindowStyle = ProcessWindowStyle.Normal,\n    CreateNoWindow = false,\n    UseShellExecute = false\n};

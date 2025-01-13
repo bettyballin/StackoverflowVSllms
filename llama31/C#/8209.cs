@@ -1,0 +1,1 @@
+options.AddArgument("--headless");

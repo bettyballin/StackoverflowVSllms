@@ -1,1 +1,0 @@
-sudo systemctl enable svnserve\n   sudo systemctl start svnserve

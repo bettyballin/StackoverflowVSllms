@@ -1,1 +1,0 @@
-0 4 * * * /usr/local/bin/ruby /data/myapp/current/script/runner -e production /data/myapp/current/script/myscript.rb >> /data/myapp/current/log/cron.log 2>&1

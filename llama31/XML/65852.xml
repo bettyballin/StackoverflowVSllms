@@ -1,0 +1,1 @@
+<configuration>\n  <system.serviceModel>\n    <services>\n      <service name="MyService">\n        <endpoint address="http://localhost/myservice"\n                  binding="basicHttpBinding"\n                  contract="IMyService" />\n      </service>\n    </services>\n  </system.serviceModel>\n</configuration>

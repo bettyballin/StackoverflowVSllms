@@ -1,0 +1,1 @@
+$stime = microtime(true);\n$utime = microtime(true);\n\n// Your script code here...\n\n$ru = getrusage();\n$cpu_time = ($ru['ru_utime.tv_sec'] + $ru['ru_utime.tv_usec'] / 1000000)\n           + ($ru['ru_stime.tv_sec'] + $ru['ru_stime.tv_usec'] / 1000000);\n\necho "CPU time: $cpu_time seconds\n";

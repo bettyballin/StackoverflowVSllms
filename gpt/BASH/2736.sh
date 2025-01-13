@@ -1,1 +1,0 @@
-icacls "C:\path\to\your\file.bat" /grant IWAM_WIN2K3WEB:(RX)

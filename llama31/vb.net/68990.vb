@@ -1,0 +1,1 @@
+Dim result As Boolean\nIf Boolean.TryParse(myString, result) AndAlso result Then\n    ' code\nEnd If

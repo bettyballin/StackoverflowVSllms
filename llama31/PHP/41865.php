@@ -1,0 +1,1 @@
+$formData = json_decode($_COOKIE['form_data'], true);

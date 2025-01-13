@@ -1,0 +1,1 @@
+from celery import shared_task\n\n@shared_task\ndef run_script():\n    # Run the script here\n    subprocess.call(['python', '/path/to/script.py'])\n\nif job == 1:\n    run_script.apply_async()\n    return 'Job is running'

@@ -1,0 +1,1 @@
+// Example: Large iteration count\nfor (int i = 0; i < 1000000; i++) {\n    perform_expensive_calculation(i);\n}

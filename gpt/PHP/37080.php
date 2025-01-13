@@ -1,1 +1,0 @@
-<?php\n$dsn = 'mysql:host=your_host;dbname=your_dbname';\n$username = 'your_username';\n$password = 'your_password';\n$options = [];\n\ntry {\n    $pdo = new PDO($dsn, $username, $password, $options);\n} catch (PDOException $e) {\n    echo 'Connection failed: ' . $e->getMessage();\n}\n?>

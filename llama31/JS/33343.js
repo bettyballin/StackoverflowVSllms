@@ -1,0 +1,1 @@
+$.post("ajax.php", {}, function(data) {\n  $.each(data.ids, function(i, value) {\n    alert(data.names[i]);\n  });\n}, "json");

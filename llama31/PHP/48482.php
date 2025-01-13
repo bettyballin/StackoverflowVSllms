@@ -1,0 +1,1 @@
+if (!checkLoginWrapper(2)) {\n    header("Location: login.php");\n    die();\n}

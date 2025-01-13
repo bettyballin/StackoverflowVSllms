@@ -1,0 +1,1 @@
+icacls C:\Windows\Tasks /grant "NT AUTHORITY\NETWORK SERVICE":(OI)(CI)RW

@@ -1,0 +1,1 @@
+// Get the current user\nvar user = UserManager.FindByName(User.Identity.Name);\n\n// Add the userid claim\nUserManager.AddClaim(user.Id, new Claim(ClaimTypes.NameIdentifier, userid));

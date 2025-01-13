@@ -1,0 +1,1 @@
+gcc -o public01.x public01.o computation.o coreset.o

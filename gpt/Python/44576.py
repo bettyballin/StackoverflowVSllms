@@ -1,1 +1,0 @@
-MIDDLEWARE = [\n         ...\n         'silk.middleware.SilkyMiddleware',\n     ]

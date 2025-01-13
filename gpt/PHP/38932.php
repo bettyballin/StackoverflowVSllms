@@ -1,1 +1,0 @@
-class Test {\n    private $systime;\n\n    // Constructor to initialize $systime at the time of object creation\n    public function __construct() {\n        $this->systime = time();\n    }\n\n    // Method to get the system time\n    public function get_systime() {\n        return $this->systime;\n    }\n}\n\n// Usage\n$test = new Test();\necho $test->get_systime();

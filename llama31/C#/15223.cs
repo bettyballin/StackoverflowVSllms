@@ -1,0 +1,1 @@
+protected void btnAdd_Click(object sender, EventArgs e) {\n    ZipCode zip = new ZipCode();\n    zip.Zip = gridView1.SelectedValue.ToString();\n    zip.IsNew = true;\n    selectedZipCodes.Add(zip);\n    gridView2.DataSource = selectedZipCodes;\n    gridView2.DataBind();\n}

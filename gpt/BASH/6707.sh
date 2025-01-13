@@ -1,1 +1,0 @@
-tcpdump -i [interface] host [destination_ip_or_hostname]

@@ -1,0 +1,1 @@
+.grey-container {\n  display: flex;\n  flex-direction: column;\n  height: 100vh; /* or any other fixed height */\n}\n\n.magenta-div {\n  /* add your styles here */\n}\n\n.blue-div {\n  flex-grow: 1;\n}

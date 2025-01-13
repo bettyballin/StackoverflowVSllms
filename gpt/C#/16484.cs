@@ -1,1 +1,0 @@
-protected void _HandleValidateAssessment(object source, ServerValidateEventArgs args)\n   {\n       args.IsValid = !string.IsNullOrEmpty(_AssessmentDropDown.SelectedValue);\n   }

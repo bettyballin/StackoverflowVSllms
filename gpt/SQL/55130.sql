@@ -1,1 +1,0 @@
--- Table People\nCREATE TABLE People (\n    id INTEGER PRIMARY KEY,\n    name VARCHAR(255),\n    age INTEGER\n);\n\n-- Table Message\nCREATE TABLE Message (\n    id INTEGER PRIMARY KEY,\n    message TEXT,\n    person_id INTEGER,\n    FOREIGN KEY (person_id) REFERENCES People(id)\n);

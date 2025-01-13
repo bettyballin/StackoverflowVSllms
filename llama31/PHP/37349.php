@@ -1,0 +1,1 @@
+function join_strings($glue, ...$strings) {\n    return implode($glue, $strings);\n}

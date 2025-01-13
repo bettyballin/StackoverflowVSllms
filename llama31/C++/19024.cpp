@@ -1,0 +1,1 @@
+// Using smart pointers (C++11 and later)\nstd::unique_ptr<int*[]> arr(new int*[rows]);\nfor (int i = 0; i < rows; i++) {\n    arr[i] = new int[cols];\n}\n\n// ...\n\nfor (int i = 0; i < rows; i++) {\n    delete[] arr[i];\n}

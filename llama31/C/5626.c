@@ -1,0 +1,1 @@
+#include <stdio.h>\n\nstruct parameters {\n    double a, b;\n};\n\nstatic double f(double x, void* params) {\n    struct parameters* p = (struct parameters*) params;\n    double a = p->a, b = p->b;\n    return some_expression_involving(a, b, x);\n}\n\ndouble stuff(double a, double b) {\n    struct parameters par = {a, b};\n    integrate(&f, &par);\n}

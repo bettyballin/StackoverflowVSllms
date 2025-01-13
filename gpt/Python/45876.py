@@ -1,1 +1,0 @@
-Ta = 20\na = [8, 6, 4, 1, 1]  # Distribution of votes for Ta\nTb = 10\nM = 4  # Number of constituencies for Tb\n\nresult = distribute_votes(Ta, a, Tb, M)\nprint(result)  # Output should be [4, 3, 2, 1]

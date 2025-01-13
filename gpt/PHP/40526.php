@@ -1,1 +1,0 @@
-// NewsController.php\npublic function latest()\n{\n    $news = News::latest()->take(5)->get();\n    return view('components.news', compact('news'));\n}

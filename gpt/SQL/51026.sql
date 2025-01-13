@@ -1,1 +1,0 @@
-DECLARE @sql NVARCHAR(MAX) = N'';\n\nSELECT @sql += N'ALTER TABLE ' + QUOTENAME(s.name) + N'.' + QUOTENAME(t.name) + N' WITH CHECK CHECK CONSTRAINT ' + QUOTENAME(c.name) + N'; '\nFROM sys.check_constraints AS c\nINNER JOIN sys.tables AS t ON c.parent_object_id = t.object_id\nINNER JOIN sys.schemas AS s ON t.schema_id = s.schema_id;\n\nEXEC sp_executesql @sql;

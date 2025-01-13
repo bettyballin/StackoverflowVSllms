@@ -1,0 +1,1 @@
+var numbers = new[] { 1, 2, 3, 4, 5 };\nvar evenNumbers = new List<int>();\n\nforeach (var number in numbers)\n{\n    if (number % 2 == 0)\n    {\n        evenNumbers.Add(number);\n    }\n}

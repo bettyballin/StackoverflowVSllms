@@ -1,0 +1,1 @@
+public class DiagnosticCheckFactory\n{\n    public static IDiagnosticCheck CreateDatabaseConnectionCheck() => new DatabaseConnectionCheck();\n    public static IDiagnosticCheck CreateFilesystemAccessCheck() => new FilesystemAccessCheck();\n}

@@ -1,0 +1,1 @@
+@media print {\n  #yourDivId {\n    overflow-x: visible;\n  }\n}

@@ -1,1 +1,0 @@
-.related-articles {\n       position: absolute;\n       top: 0;\n       /* Other positioning and styling as needed */\n   }\n   .main-content {\n       /* Adjust the position accordingly */\n       margin-top: <height of related articles box>;\n   }

@@ -1,0 +1,1 @@
+$countryCode = geoip_country_code_by_name($_SERVER['REMOTE_ADDR']);\necho $countryCode; // outputs the two-letter country code (e.g. "US" or "GB")

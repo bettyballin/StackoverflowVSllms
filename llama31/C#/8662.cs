@@ -1,0 +1,1 @@
+string version = ExcelVersionDetector.GetExcelVersion();\nConsole.WriteLine(version);

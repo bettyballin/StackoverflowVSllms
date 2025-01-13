@@ -1,0 +1,1 @@
+$array_A = array(13, 4, 59, 38, 9, 69, 72, 93, 1, 3, 5);\n$array_B = array(29, 72, 21, 3, 6);\n\n$hash_A = array_flip($array_A);\n$count = 0;\nforeach ($array_B as $val) {\n    if (isset($hash_A[$val])) {\n        $count++;\n    }\n}\n\necho $count; // Output: 2

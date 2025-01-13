@@ -1,1 +1,0 @@
-# Example method in some file\nclass String\n  def my_custom_method\n    # Some code here\n  end\nend\n\n# To find where `my_custom_method` is defined at runtime\nlocation = "".method(:my_custom_method).source_location\nputs "Method defined at: #{location[0]} line #{location[1]}" if locatio

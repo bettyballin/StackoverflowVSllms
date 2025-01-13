@@ -1,0 +1,1 @@
+class Category < ActiveRecord::Base\n  acts_as_nested_set\n\n  def move_to(target, position)\n    if target == self || descendants.include?(target)\n      raise ArgumentError, "Cannot move node to be its own child or descendant"\n    end\n    super\n  end\nend

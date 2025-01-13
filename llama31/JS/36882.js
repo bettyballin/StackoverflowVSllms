@@ -1,0 +1,1 @@
+// Original code\nfunction add(a, b) {\n  return a + b;\n}\n\n// Minified code\nfunction add(a,b){return a+b;}

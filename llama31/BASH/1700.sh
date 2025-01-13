@@ -1,0 +1,1 @@
+perfmon /sys /fo csv /v "Memory Available Bytes" "Process(w3wp)\Private Bytes"

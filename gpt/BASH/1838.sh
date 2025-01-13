@@ -1,1 +1,0 @@
-adl /path/to/your/application-app.xml

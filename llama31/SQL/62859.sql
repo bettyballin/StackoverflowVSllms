@@ -1,0 +1,1 @@
+SELECT \n    COUNT(*) \nFROM \n    Holiday_XL c \nWHERE \n    CONVERT(nvarchar(50), c.currency_cd) COLLATE SQL_Latin1_General_CP1_CI_AS \n    IN (SELECT DISTINCT CONVERT(nvarchar(50), h.currency_cd) COLLATE SQL_Latin1_General_CP1_CI_AS FROM holiday h);

@@ -1,1 +1,0 @@
-var client = new ComputerVisionClient(new ApiKeyServiceClientCredentials("YourApiKey"))\n   {\n       Endpoint = "https://your-endpoint.cognitiveservices.azure.com/"\n   };\n\n   var ocrResult = await client.RecognizePrintedTextAsync(true, "sample.png");

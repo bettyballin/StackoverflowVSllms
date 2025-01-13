@@ -1,0 +1,1 @@
+SELECT COUNT(*) \nFROM table \nWHERE array_length(datasets, 1) IS NULL;

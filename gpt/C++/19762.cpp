@@ -1,1 +1,0 @@
-extern "C" {\n    __declspec(dllexport) int ringBell(void);\n}

@@ -1,0 +1,1 @@
+gcc -pedantic -Wno-trigraphs your_file.cpp

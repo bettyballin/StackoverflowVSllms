@@ -1,0 +1,1 @@
+Dim dateValue As DateTime = DateTime.Parse("12/31/2008 12:00:00 AM")\nDim dateString As String = dateValue.ToShortDateString()

@@ -1,0 +1,1 @@
+SSH_AUTH_SOCK=/path/to/ssh/agent/socket ssh -nxv user@remotehost echo "hello world"

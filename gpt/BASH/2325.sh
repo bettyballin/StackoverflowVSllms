@@ -1,1 +1,0 @@
-export JAVA_HOME=/path/to/your/jdk\nexport PATH=$JAVA_HOME/bin:$PATH

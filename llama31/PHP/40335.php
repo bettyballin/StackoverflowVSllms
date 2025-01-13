@@ -1,0 +1,1 @@
+ini_set('open_basedir', '');

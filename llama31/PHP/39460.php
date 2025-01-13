@@ -1,0 +1,1 @@
+$dsn = 'mysql:host=' . DB_HOST . ';dbname=' . DB_NAME;\n$pdo = new PDO($dsn, DB_USER, DB_PASS);

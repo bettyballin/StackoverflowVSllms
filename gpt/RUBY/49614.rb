@@ -1,1 +1,0 @@
-# Disable query caching\nActiveRecord::Base.uncached do\n  p = Post.find(1)\n  p.comments.size\nend\n\n# Alternatively, explicitly reload the association\np = Post.find(1)\np.comments.reload\np.comments.size

@@ -1,0 +1,1 @@
+class HeaderFactory {\n    public function getHeader($type) {\n        // logic to determine header type\n    }\n}\n\n$headerFactory = new HeaderFactory();\n$header = $headerFactory->getHeader($type);

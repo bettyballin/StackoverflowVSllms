@@ -1,0 +1,1 @@
+#!/bin/bash\n\n# Set the remote host and username\nREMOTE_HOST="example.com"\nREMOTE_USER="username"\n\n# Set the private key file\nPRIVATE_KEY="/path/to/private/key"\n\n# Use ssh to run a command on the remote host\nssh -i "${PRIVATE_KEY}" "${REMOTE_USER}@${REMOTE_HOST}" "ls -l"

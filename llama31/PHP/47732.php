@@ -1,0 +1,1 @@
+$myProxy = new Proxy();\n$myProxy->data['foo'] = 'bar';\n$myProxy->data['baz'] = 'qux';\n\nforeach ($myProxy as $key => $value) {\n    echo "$key => $value\n";\n}

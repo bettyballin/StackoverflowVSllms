@@ -1,0 +1,1 @@
+[WebMethod]\n[ScriptMethod(ResponseFormat=ResponseFormat.Json)]\npublic string Select(string login)\n{\n    try\n    {\n        UserProfile profile = UserProfile.GetUserProfile(login);\n        return JsonConvert.SerializeObject(profile);\n    }\n    catch (Exception ex)\n    {\n        // Log the exception\n        return null;\n    }\n}

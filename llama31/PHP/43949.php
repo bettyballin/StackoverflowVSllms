@@ -1,0 +1,1 @@
+<?php\nrequire_once dirname(__FILE__).'/shop/app/Mage.php';\numask(0);\nMage::app('default');\nMage::getSingleton('core/session', array('name' => 'frontend'));\n$customerSession = Mage::getSingleton('customer/session');\n$customerSession->start();\nvar_dump($customerSession->isLoggedIn());\n?>

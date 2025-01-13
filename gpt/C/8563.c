@@ -1,1 +1,0 @@
-#include <unistd.h> // For sleep function\n\n// Example function where image transition happens\nvoid change_image() {\n    // Your existing code to change the image\n    // ...\n\n    // Add a delay of 10 seconds\n    sleep(10);\n}

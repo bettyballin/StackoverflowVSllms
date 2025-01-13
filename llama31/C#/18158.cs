@@ -1,0 +1,1 @@
+using System.Xml.XPath;\n\npublic bool IsValidXPath(string xpath)\n{\n    try\n    {\n        XPathExpression.Compile(xpath);\n        return true;\n    }\n    catch (XPathException)\n    {\n        return false;\n    }\n}

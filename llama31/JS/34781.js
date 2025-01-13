@@ -1,0 +1,1 @@
+function UpdateTime() {\n    Sys.Mvc.Async.invoke(this, 'GetCurrentDate', {}, OnSucceeded, OnFailed);\n}

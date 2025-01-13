@@ -1,1 +1,0 @@
-USE [master];\n   GO\n   CREATE DATABASE [ASPState];\n   GO

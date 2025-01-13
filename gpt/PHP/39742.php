@@ -1,1 +1,0 @@
-$foo = array(1, 3, 7);\necho array_sum($foo); // Output: 11

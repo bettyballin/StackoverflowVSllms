@@ -1,0 +1,1 @@
+protected void Button1_Click(object sender, EventArgs e)\n{\n    string pdfPath = CreatePdf(); // call your function to create the PDF\n\n    string script = "<script>window.open('pdf.aspx?file=" + pdfPath + "', '_blank');</script>";\n    Response.Write(script);\n}

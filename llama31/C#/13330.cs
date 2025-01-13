@@ -1,0 +1,1 @@
+protected void LoginButton_Click(object sender, EventArgs e)\n{\n    string ntLogin = txtNtLogin.Text;\n\n    if (Membership.ValidateUser(ntLogin, ""))\n    {\n        FormsAuthentication.SetAuthCookie(ntLogin, true);\n        Response.Redirect("~/Default.aspx");\n    }\n    else\n    {\n        // Login failed\n    }\n}

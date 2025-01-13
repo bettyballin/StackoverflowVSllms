@@ -1,0 +1,1 @@
+string assemblyPath = Path.Combine(AppDomain.CurrentDomain.BaseDirectory, "bin", "Foo.dll");\nAssembly assembly = Assembly.LoadFrom(assemblyPath);

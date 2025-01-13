@@ -1,0 +1,1 @@
+www-data ALL=(ALL) NOPASSWD: /path/to/restart_tomcat.sh

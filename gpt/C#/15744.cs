@@ -1,1 +1,0 @@
-using (var connection = new SqlConnection("your_connection_string"))\n{\n    var command = new SqlCommand("INSERT INTO Records (Data, CreatedAt) VALUES (@Data, @CreatedAt)", connection);\n    command.Parameters.AddWithValue("@Data", "Sample Data");\n    command.Parameters.AddWithValue("@CreatedAt", DateTime.UtcNow);\n\n    connection.Open();\n    command.ExecuteNonQuery();\n}

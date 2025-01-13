@@ -1,0 +1,1 @@
+Type objectType = assembly.GetType("ExternalAssembly.MyType");\nobject instance = Activator.CreateInstance(objectType);\n\nMethodInfo method = objectType.GetMethod("MyMethod");\nmethod.Invoke(instance, null);

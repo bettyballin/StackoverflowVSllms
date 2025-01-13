@@ -1,1 +1,0 @@
-git add <file1> <file2>

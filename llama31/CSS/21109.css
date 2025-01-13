@@ -1,0 +1,1 @@
+#placementContainerLeft, #placementContainerRight {\n  display: inline-block;\n  vertical-align: top;\n}\n\n#placementContainerLeft {\n  width: 578px;\n  margin-left: 5px;\n}\n\n#placementContainerRight {\n  width: 267px;\n  margin-left: 20px; /* Adjusted margin-left */\n}

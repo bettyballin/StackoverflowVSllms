@@ -1,1 +1,0 @@
-foreach($decoded['results'] as $currentResult) {\n    if($currentResult['from_user'] == $user) {\n        $strippedTexts = $currentResult['created_at'];\n        $dates []= (int)(strtotime($strippedTexts) * 1000);\n    }\n}

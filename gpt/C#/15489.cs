@@ -1,1 +1,0 @@
-public class Program\n{\n    public static async Task Main(string[] args)\n    {\n        RestClient restClient = new RestClient();\n        string url = "http://your-ruby-on-rails-app.com/api/resource";\n        string response = await restClient.GetAsync(url);\n        Console.WriteLine(response);\n    }\n}

@@ -1,0 +1,1 @@
+var xhr = new XMLHttpRequest();\nxhr.open('GET', 'https://api.example.com/data', true);\nxhr.setRequestHeader('X-Custom-Header', 'CustomHeaderValue');\nxhr.setRequestHeader('Authorization', 'Bearer YOUR_TOKEN');\nxhr.send();

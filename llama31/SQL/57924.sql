@@ -1,0 +1,1 @@
+DECLARE\n  batch_size NUMBER := 1000;\n  updated_rows NUMBER;\nBEGIN\n  LOOP\n    UPDATE my_table\n    SET a_col = NULL\n    WHERE some_col < some_val\n    AND rownum <= batch_size;\n\n    updated_rows := SQL%ROWCOUNT;\n\n    EXIT WHEN updated_rows = 0;\n\n    COMMIT;  -- Commit the batch to avoid filling the transaction log\n  END LOOP;\nEND;
