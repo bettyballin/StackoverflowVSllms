@@ -1,1 +1,0 @@
-$form = new Zend_Form();\n$fileElement = new Zend_Form_Element_File('file');\n$form->addElement($fileElement);\n\nif ($form->isValid($_POST)) {\n    $fileTransfer = $fileElement->getValue();\n    // process the uploaded file\n}

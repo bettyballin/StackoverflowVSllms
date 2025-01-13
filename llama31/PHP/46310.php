@@ -1,1 +1,0 @@
-$query = "UPDATE `messages`\n          SET `new` = 'Y', `read` = 'N', `locked` = 'N'\n          WHERE `recipient_id` = 1";\n$mysqli->query($query);\n$affected_rows = $mysqli->affected_rows;\necho $affected_rows;

@@ -1,1 +1,0 @@
-require.config({\n  paths: {\n    jquery: ['https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min', 'jquery-1.12.4.min']\n  }\n});\n\nrequire(['jquery'], function($) {\n  // Use jQuery here\n});

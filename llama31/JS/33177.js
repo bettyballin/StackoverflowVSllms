@@ -1,1 +1,0 @@
-// In your main application file\nExt.application({\n    // ...\n    launch: function() {\n        // ...\n        var grid = Ext.create('Ext.grid.Panel', {\n            // ...\n        });\n        window.myGrid = grid; // Make the grid a global variable\n    }\n});

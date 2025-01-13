@@ -1,1 +1,0 @@
-$url_without_page_var = preg_replace('/&?page=\d+&?/i', '', $_SERVER['argv'][0]);

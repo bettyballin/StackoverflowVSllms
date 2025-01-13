@@ -1,1 +1,0 @@
-SELECT  C.id, C.name, C.updated, \n        C.hddsize, C.hddavailable, C.hddfree, \n        C.ramsize, C.profiles, C.cpu, \n        (SELECT COUNT(D.id) AS numprogs \n            FROM ComputerData AS D \n            WHERE D.computer_id = C.id) AS numprograms \nFROM Computers AS C;

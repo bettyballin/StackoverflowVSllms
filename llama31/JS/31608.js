@@ -1,1 +1,0 @@
-// Custom JavaScript file (e.g., "custom-script.js")\nfunction displayExplanation() {\n  // Code to display explanation goes here\n}\n\n// Wiki page code\n<script>\n  SP.SOD.executeFunc('custom-script.js', 'displayExplanation');\n</script>

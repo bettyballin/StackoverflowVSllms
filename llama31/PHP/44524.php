@@ -1,1 +1,0 @@
-$fname = filter_var($_POST["fname"], FILTER_SANITIZE_STRING);\n$mname = filter_var($_POST["mname"], FILTER_SANITIZE_STRING);\n$lname = filter_var($_POST["lname"], FILTER_SANITIZE_STRING);\n\n$message .= "Name: ".$fname." ".$mname." ".$lname."\n";

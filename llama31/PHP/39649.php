@@ -1,1 +1,0 @@
-use PhpOffice\PhpWord\PhpWord;\n\n$phpWord = new PhpWord();\n$section = $phpWord->addSection();\n$section->addText('Hello, World!');\n$phpWord->save('example.docx', 'Word2007');

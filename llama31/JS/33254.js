@@ -1,1 +1,0 @@
-function getDivHeight(objName) {\n  const element = document.getElementById(objName);\n  const rect = element.getBoundingClientRect();\n  return rect.height;\n}

@@ -1,1 +1,0 @@
-// Check for whole numbers and append .00\n$('#generated_rows td.row_class').each(function() {\n    var text = $(this).text();\n    var number = Number(text);\n    if (!isNaN(number)) { // Check if the text is a valid number\n        $(this).text(number.toFixed(2));\n    }\n});

@@ -1,1 +1,0 @@
-require 'rake'\n\ndescribe 'my_rake_task' do\n  it 'runs the task and produces the expected output' do\n    output = `rake my_rake_task`\n    expect(output).to match(/expected output/)\n  end\nend

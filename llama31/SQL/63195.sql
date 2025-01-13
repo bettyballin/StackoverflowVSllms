@@ -1,1 +1,0 @@
-UPDATE YourTable\nSET YourDateField = DATEADD(month, @NewMonthValue - MONTH(YourDateField), YourDateField)\nWHERE ...;

@@ -1,1 +1,0 @@
-WITH RECURSIVE breadcrumbs AS (\n  SELECT id, name, parentID, 0 AS level\n  FROM categories\n  WHERE id = ?  -- start with the current category ID\n  UNION ALL\n  SELECT c.id, c.name, c.parentID, level + 1\n  FROM categories c\n  JOIN breadcrumbs p ON c.id = p.parentID\n)\nSELECT name\nFROM breadcrumbs\nWHERE level > 0\nORDER BY level DESC;

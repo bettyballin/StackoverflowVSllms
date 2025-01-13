@@ -1,1 +1,0 @@
-$(".lft-menubar dd").hover(function() {\n  $(this).find(".slidedMenu").slideDown();\n}, function() {\n  $(this).find(".slidedMenu").slideUp();\n});

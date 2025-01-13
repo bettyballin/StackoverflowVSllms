@@ -1,1 +1,0 @@
-$.each(data, function(index, optionData) {\n  select.options[select.options.length] = new Option(optionData.Text, optionData.Value);\n});\nselect.selectedIndex = 0;\nselect.blur();

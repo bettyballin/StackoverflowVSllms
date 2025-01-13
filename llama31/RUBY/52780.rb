@@ -1,1 +1,0 @@
-class AddForeignKeyConstraintToSchedules < ActiveRecord::Migration[6.0]\n  def change\n    add_foreign_key :schedules, :assignments\n  end\nend

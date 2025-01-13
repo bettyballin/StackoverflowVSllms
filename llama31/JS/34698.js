@@ -1,1 +1,0 @@
-var xmlDoc = new ActiveXObject("MSXML2.DOMDocument.6.0");\nxmlDoc.loadXML("<table><length> 12 </length><!--Some comment here--></table>");\n\nvar comments = xmlDoc.selectNodes("//comment()");\nif (comments.length > 0) {\n    var comment = comments[0];\n    alert(comment.nodeValue); // Output: "Some comment here"\n}

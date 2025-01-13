@@ -1,1 +1,0 @@
-IF EXISTS (\n    SELECT 1\n    FROM table tbl\n    INNER JOIN ... ON ... = ... (x5)\n    WHERE tbl.xxx = ...\n)\nBEGIN\n    -- Rows exist\nEND

@@ -1,1 +1,0 @@
-CREATE PROCEDURE GetOrCreateTag\n    @TagName varchar(50)\nAS\nBEGIN\n    DECLARE @returnValue int\n\n    SELECT @returnValue = TagID\n    FROM tbrm_Tags\n    WHERE TagName = @TagName\n\n    IF @returnValue IS NULL\n    BEGIN\n        INSERT INTO tbrm_Tags (TagName)\n        VALUES (@TagName)\n\n        SET @returnValue = SCOPE_IDENTITY()\n    END\n\n    RETURN @returnValue\nEND

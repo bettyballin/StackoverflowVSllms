@@ -1,1 +1,0 @@
-$result = mysqli_query($conn, "SELECT * FROM your_table WHERE your_column = '$query'");\n$row = mysqli_fetch_assoc($result);

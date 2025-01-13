@@ -1,1 +1,0 @@
-function get_images($text) {\n    preg_match_all('/<img[^>]+src="(.*?)"[^>]*>/', $text, $images);\n    return $images[1];\n}

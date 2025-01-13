@@ -1,1 +1,0 @@
-User.find(:all, \n          :joins => :events, \n          :group => 'users.id', \n          :having => 'COUNT(events.id) > 0')

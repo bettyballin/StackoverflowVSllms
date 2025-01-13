@@ -1,1 +1,0 @@
-$output = '';\n$chunkSize = 1024; // 1KB chunks\n\n// Generate output in chunks\nfor ($i = 0; $i < 10000; $i++) {\n    $output .= 'Hello, World!' . PHP_EOL;\n    if (strlen($output) >= $chunkSize) {\n        echo $output;\n        $output = '';\n        flush(); // Ensure output is sent to the client\n    }\n}\n\n// Echo any remaining output\nif ($output) {\n    echo $output;\n}

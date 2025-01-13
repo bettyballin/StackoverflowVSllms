@@ -1,1 +1,0 @@
-Imports System\n\nPublic Class MyClass\n    Public Shared Sub MyMethod()\n        Console.WriteLine("Hello, World!")\n    End Sub\nEnd Class

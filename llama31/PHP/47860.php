@@ -1,1 +1,0 @@
-require 'CssMin.php';\n\n$css = file_get_contents('input.css');\n$minified = CssMin::minify($css);\nfile_put_contents('output.min.css', $minified);

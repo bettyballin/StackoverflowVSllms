@@ -1,1 +1,0 @@
-e = Employee.new(name: 'John Doe', company_id: 1)\ne.save

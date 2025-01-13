@@ -1,1 +1,0 @@
-// Check current memory limit\n$memoryLimit = ini_get('memory_limit');\necho "Current memory limit: $memoryLimit\n";

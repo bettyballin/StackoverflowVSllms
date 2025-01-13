@@ -1,1 +1,0 @@
-var url = "https://example.com/login-status";\nvar xhr = new XMLHttpRequest();\nxhr.withCredentials = true;\nxhr.open("GET", url, true);\nxhr.onload = function() {\n  if (xhr.status === 200) {\n    var response = xhr.responseText;\n    status = (response === "logged_in") ? "Signed in" : "Not Signed In";\n  } else {\n    status = "Error";\n  }\n};\nxhr.send();

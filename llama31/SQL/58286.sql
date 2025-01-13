@@ -1,1 +1,0 @@
-SELECT some_product, ...\nFROM (\n  SELECT \n    CASE \n      WHEN col1 > col2 THEN SUM(col3*col4) \n      ELSE 0 \n    END AS some_product,\n    ...  -- other columns you want to group by\n  FROM your_table\n) AS subquery\nGROUP BY some_product, ...  -- other columns you want to group by

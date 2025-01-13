@@ -1,1 +1,0 @@
-$userAgent = $_SERVER['HTTP_USER_AGENT'];\n\nif (preg_match('/(android|avantgo|blackberry|bolt|boost|cricket|docomo|fone|hiptop|mini|mobi|palm|phone|pie|tablet|up\.browser|up\.link|webos|wos)/i', $userAgent)) {\n    // Mobile device detected\n} else {\n    // Not a mobile device\n}

@@ -1,1 +1,0 @@
-preventTextHighlighting(['menu1', 'menu2', 'submenu1']);

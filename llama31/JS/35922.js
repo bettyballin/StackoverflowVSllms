@@ -1,1 +1,0 @@
-ValidatorEnable(document.getElementById('validatorId'), false);

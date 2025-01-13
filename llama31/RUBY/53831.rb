@@ -1,1 +1,0 @@
-gem 'rails3-autocomplete'

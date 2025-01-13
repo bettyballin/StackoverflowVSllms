@@ -1,1 +1,0 @@
-$file_contents = file_get_contents($file_path);\n$file_contents = mb_convert_encoding($file_contents, 'UTF-8', 'auto');\nfile_put_contents($file_path, $file_contents);

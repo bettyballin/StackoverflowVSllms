@@ -1,1 +1,0 @@
-<?php\n$some_html = 'foo';\n$some_value_for_js_variable = 'bar';\n\n// Create an associative array\n$response = array(\n    'some_html_output' => $some_html,\n    'some_value_for_js_variable_output' => $some_value_for_js_variable\n);\n\n// Encode the array into JSON and output it\necho json_encode($response);\n?>

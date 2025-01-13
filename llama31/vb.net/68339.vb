@@ -1,1 +1,0 @@
-Imports System.Reflection\n\n<Assembly: MyType("Empty")>

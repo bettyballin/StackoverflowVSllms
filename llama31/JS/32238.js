@@ -1,1 +1,0 @@
-function loadScript(url, callback) {\n  var script = document.createElement('script');\n  script.type = 'text/javascript';\n  script.src = url;\n  script.onload = callback;\n  document.body.appendChild(script);\n}

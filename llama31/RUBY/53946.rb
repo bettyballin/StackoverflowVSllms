@@ -1,1 +1,0 @@
-require 'open-uri'\nrequire 'fastercsv'\n\nurl = 'http://www.testing.com/test.csv'\ncsv_string = open(url).read\nrecords = FasterCSV.parse(csv_string, :headers => true, :header_converters => :symbol)

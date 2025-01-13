@@ -1,1 +1,0 @@
-ob_start();\n$result = $safeFunctionName();\n$echoedValue = ob_get_contents();\nob_end_clean();\n\nif ($result !== null) {\n    // Function returned a value\n    $output = $result;\n} else {\n    // Function echoed a value\n    $output = $echoedValue;\n}\n\n// Wrap the output in XML\n$xmlOutput = "<return_value>" . $output . "</return_value>";

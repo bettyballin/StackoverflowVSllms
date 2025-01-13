@@ -1,1 +1,0 @@
-$test = array(\n    0=>'zero', \n    1=>'one', \n    2=>'two',\n    3=>'three', \n);\n\nfunction works($something){\n    global $test;\n    echo "My favorite number is " . $test[$something]; \n}\n\nworks(1); // outputs "My favorite number is one"

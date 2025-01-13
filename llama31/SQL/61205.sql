@@ -1,1 +1,0 @@
-DECLARE\n  PROCEDURE recursive_proc(n IN NUMBER) IS\n  BEGIN\n    IF n > 0 THEN\n      recursive_proc(n-1);\n    END IF;\n  END;\nBEGIN\n  recursive_proc(1000);\nEND;

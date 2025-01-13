@@ -1,1 +1,0 @@
-CREATE TABLE test (id SERIAL PRIMARY KEY, value INTEGER);\n\nINSERT INTO test (value)\nSELECT (random() * 1000)::INTEGER\nFROM generate_series(1, 1000000);\n\nCREATE INDEX ON test (value);\n\nEXPLAIN (ANALYZE) SELECT * FROM test WHERE value IN (1, 2, 3);\nEXPLAIN (ANALYZE) SELECT * FROM test WHERE value = 1 OR value = 2 OR value = 3;

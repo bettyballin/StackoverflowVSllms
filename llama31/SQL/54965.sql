@@ -1,1 +1,0 @@
-CREATE TABLE [config].[CrossDatabaseConfig] (\n    [DatabaseName] nvarchar(50)\n)\nINSERT INTO [config].[CrossDatabaseConfig] VALUES ('db1-development')

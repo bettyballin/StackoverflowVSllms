@@ -1,1 +1,0 @@
-SELECT t1.*\nFROM your_table t1\nJOIN (\n  SELECT CompanyID, MIN(AdjusterID) AS min_AdjusterID\n  FROM your_table\n  GROUP BY CompanyID\n) AS t2\nON t1.CompanyID = t2.CompanyID AND t1.AdjusterID = t2.min_AdjusterID;

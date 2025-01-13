@@ -1,1 +1,0 @@
-mysql_data_seek($result, 30);\n$row = mysql_fetch_assoc($result);\necho $row['views'] . '<br/>';

@@ -1,1 +1,0 @@
-$(document).ready(function() {\n  $('#mySelect').mouseover(function() {\n    $(this).focus().trigger('mousedown');\n  });\n});

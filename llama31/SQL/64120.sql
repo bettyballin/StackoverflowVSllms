@@ -1,1 +1,0 @@
-BEGIN\n  DBMS_METADATA.GET_DDL(\n    object_type => 'TABLE',\n    name => 'MY_TABLE',\n    schema => 'MY_SCHEMA'\n  );\nEND;

@@ -1,1 +1,0 @@
-CREATE TABLE Results (\n    TestID INT,\n    TestCode VARCHAR(50),\n    Value INT,\n    StringValue VARCHAR(255)  -- new column for string values\n);

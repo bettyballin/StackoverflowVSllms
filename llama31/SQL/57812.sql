@@ -1,1 +1,0 @@
-SELECT \n  NVL(LAST_VALUE(col1 IGNORE NULLS) OVER (ORDER BY row_priority), 0) AS col1,\n  NVL(LAST_VALUE(col2 IGNORE NULLS) OVER (ORDER BY row_priority), 0) AS col2,\n  NVL(LAST_VALUE(col3 IGNORE NULLS) OVER (ORDER BY row_priority), 0) AS col3\nFROM THE_TABLE\nWHERE rownum = 1;

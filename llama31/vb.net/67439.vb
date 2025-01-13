@@ -1,1 +1,0 @@
-Imports System.Windows.Forms\n\nPublic Class Form1\n    Private WithEvents richTextBoxEx As New RichTextBoxEx()\n\n    Public Sub New()\n        Me.InitializeComponent()\n\n        richTextBoxEx.Dock = DockStyle.Fill\n        Me.Controls.Add(richTextBoxEx)\n    End Sub\nEnd Class

@@ -1,1 +1,0 @@
-const fileInput = document.getElementById('image');\nconst preview = document.getElementById('preview');\n\nfileInput.addEventListener('change', event => {\n  const file = event.target.files[0];\n  const reader = new FileReader();\n\n  reader.onload = event => {\n    preview.src = event.target.result;\n  };\n\n  reader.readAsDataURL(file);\n});

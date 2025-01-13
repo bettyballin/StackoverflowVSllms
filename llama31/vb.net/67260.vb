@@ -1,1 +1,0 @@
-Dim qd As DAO.QueryDef\nSet qd = CurrentDb.CreateQueryDef("", _\n    "Update myTable SET Field1 = 1, Field2 = 'test' WHERE bigintKey = @bigintKey")\nqd.Parameters("@bigintKey").Value = myVar\nqd.Execute

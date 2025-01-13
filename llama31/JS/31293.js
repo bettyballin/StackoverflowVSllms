@@ -1,1 +1,0 @@
-<script language="javascript">\n  function redirectToPage2() {\n    window.location.replace('page2.hta');\n  }\n</script>\n\n<a href="#" onclick="redirectToPage2()">Go to Page 2</a>

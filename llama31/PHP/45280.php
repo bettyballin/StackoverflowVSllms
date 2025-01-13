@@ -1,1 +1,0 @@
-<?php\n$id = $_GET['id'];\n\n// Determine which server to use based on the ID\nif ($id == 1234) {\n    $server = 'http://servera.com/';\n} else {\n    $server = 'http://serverb.com/';\n}\n\n// Set the Location header to redirect the user\nheader('Location: ' . $server . $id . '.exe');\nexit;

@@ -1,1 +1,0 @@
-$etag = sprintf('%x-%x', $file_time, filesize($load_path));\nheader('ETag: "' . $etag . '"');

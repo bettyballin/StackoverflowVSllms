@@ -1,1 +1,0 @@
-<PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x86' ">\n  <PlatformTarget>x86</PlatformTarget>\n</PropertyGroup>

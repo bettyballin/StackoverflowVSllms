@@ -1,1 +1,0 @@
-Imports System.Diagnostics\n\nModule Module1\n    Sub Main()\n        Dim processName As String = "winword"\n        Dim processes() As Process = Process.GetProcessesByName(processName)\n\n        For Each p As Process In processes\n            p.Kill()\n        Next\n\n        ' Continue executing your code here\n    End Sub\nEnd Module

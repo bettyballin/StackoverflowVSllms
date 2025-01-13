@@ -1,1 +1,0 @@
-# In your SiteManagerController\ndef add_building_to_site\n  # Call the create method on the BuildingsController\n  BuildingsController.create(params[:building])\n  # Render the RJS template for the SiteManager page\n  render :update do |page|\n    # Update the page with the new building\n    page.insert_html :bottom, 'buildings', :partial => 'building'\n  end\nend

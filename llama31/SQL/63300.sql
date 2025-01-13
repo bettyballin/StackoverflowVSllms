@@ -1,1 +1,0 @@
-SELECT prefix\nFROM your_table\nWHERE '12345999' LIKE prefix || '%'\nORDER BY LENGTH(prefix) DESC\nLIMIT 1;

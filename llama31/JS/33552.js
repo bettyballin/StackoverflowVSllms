@@ -1,1 +1,0 @@
-<script language="javascript">\n  function addTarget() {\n    var links = document.getElementsByTagName("a");\n    for (var i = 0; i < links.length; i++) {\n      links[i].setAttribute("target", "rightFrame");\n    }\n  }\n  window.onload = addTarget;\n</script>

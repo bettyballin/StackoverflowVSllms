@@ -1,1 +1,0 @@
--- Use READ COMMITTED for select statements\nSELECT * FROM mytable WITH (READ COMMITTED);\n\n-- Use a transaction with SERIALIZABLE isolation level for insert statements\nSET TRANSACTION ISOLATION LEVEL SERIALIZABLE;\nBEGIN TRANSACTION;\nINSERT INTO mytable (column1, column2) VALUES ('value1', 'value2');\nCOMMIT TRANSACTION;

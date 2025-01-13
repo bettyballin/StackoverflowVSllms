@@ -1,1 +1,0 @@
-select count(g.id) from "Group" g

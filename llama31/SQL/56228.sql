@@ -1,1 +1,0 @@
-REVOKE MEMBERSHIP IN [sysadmin] FROM [web_app_login];

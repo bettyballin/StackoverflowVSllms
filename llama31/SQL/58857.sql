@@ -1,1 +1,0 @@
-SELECT b.location, b.name, h.num_rooms, h.num_bathrooms\nFROM buildings b\nJOIN houses h ON b.id = h.building_id\nWHERE b.type = 'house';

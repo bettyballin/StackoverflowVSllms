@@ -1,1 +1,0 @@
-$dt = new DateTime('@1246053600', new DateTimeZone('UTC'));\necho 'unix: ',$dt->getTimestamp(),', converted: ',$dt->format('d/m/Y');

@@ -1,1 +1,0 @@
-const shadowHost = document.createElement('div');\nconst shadowRoot = shadowHost.attachShadow({ mode: 'closed' });\nshadowRoot.innerHTML = userHtml;\n// shadowHost is now safe to render

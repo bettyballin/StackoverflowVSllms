@@ -1,1 +1,0 @@
-WITH top_messages AS (\n  SELECT TOP 10 id\n  FROM messages\n  WHERE status = 0\n  ORDER BY priority DESC\n)\nUPDATE messages\nSET status = 10\nWHERE id IN (SELECT id FROM top_messages);

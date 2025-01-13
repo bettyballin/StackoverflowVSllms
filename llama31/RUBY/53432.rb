@@ -1,1 +1,0 @@
-# db/seeds.rb\nTheme.create(name: 'Default Theme', colors: [...])\nTheme.create(name: 'Dark Theme', colors: [...])

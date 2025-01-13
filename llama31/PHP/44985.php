@@ -1,1 +1,0 @@
-if (function_exists('apc_clear_cache')) {\n    apc_clear_cache(); // Clear opcode cache\n    apc_clear_cache('user'); // Clear user cache\n}

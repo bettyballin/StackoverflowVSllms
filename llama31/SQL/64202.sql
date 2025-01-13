@@ -1,1 +1,0 @@
-INSERT INTO timecrunch.dbo.intervals (IntervalID, Duration)\nSELECT ixInterval, DATEDIFF(hour, dtStart, COALESCE(dtEnd, GETDATE()))\nFROM fogbugz.dbo.TimeInterval

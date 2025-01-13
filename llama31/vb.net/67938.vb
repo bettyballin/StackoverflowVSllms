@@ -1,1 +1,0 @@
-Dim byteArr\nbyteArr = field.Value\n\nFor i = 0 To UBound(byteArr)\n    Response.Write byteArr(i) & " "\nNext

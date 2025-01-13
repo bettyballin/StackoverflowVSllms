@@ -1,1 +1,0 @@
-SELECT \n  ID,\n  Name,\n  Value\nFROM \n  (SELECT ID, Value1, Value2, Value3 FROM your_table)\nUNPIVOT (\n  (Value) FOR Name IN (Value1, Value2, Value3)\n)

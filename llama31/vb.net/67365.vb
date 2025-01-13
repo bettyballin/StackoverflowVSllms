@@ -1,1 +1,0 @@
-Private Sub FocusTextBoxRightmost(tb As TextBox)\n    tb.Focus()\n    tb.SelectionStart = tb.Text.Length\n    tb.SelectionLength = 0\nEnd Sub

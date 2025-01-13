@@ -1,1 +1,0 @@
-CREATE OR REPLACE TYPE BODY MY_TYPE IS\n  MEMBER FUNCTION to_char RETURN VARCHAR2 IS\n  BEGIN\n    RETURN MyString || ' ' || to_char(counter);\n  END;\nEND;

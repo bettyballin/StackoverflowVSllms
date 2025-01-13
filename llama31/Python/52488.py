@@ -1,1 +1,0 @@
-import docx\n\ndocument = docx.Document()\ndocument.add_paragraph('Hello, World!')\ndocument.save('example.docx')

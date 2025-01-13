@@ -1,1 +1,0 @@
-$file = 'path/to/your/file.txt';\n$inode = fileinode($file);\necho $inode;

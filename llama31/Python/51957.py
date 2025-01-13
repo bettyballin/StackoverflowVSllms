@@ -1,1 +1,0 @@
-import nltk\nfrom nltk.tokenize import word_tokenize\n\ndef pos_analysis(text):\n    words = word_tokenize(text)\n    pos_tags = nltk.pos_tag(words)\n    # Analyze the POS tag distribution\n    return pos_tags

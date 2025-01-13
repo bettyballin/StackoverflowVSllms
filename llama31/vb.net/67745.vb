@@ -1,1 +1,0 @@
-Sub test()\n    Dim func As New MyFunction\n    Dim result As String\n    result = f(func, "Hello")\n    Debug.Print result\nEnd Sub

@@ -1,1 +1,0 @@
-const canvas = document.getElementById('canvas');\nconst ctx = canvas.getContext('2d');\n\nctx.beginPath();\nctx.arc(100, 100, 50, 0, 2 * Math.PI);\nctx.stroke();

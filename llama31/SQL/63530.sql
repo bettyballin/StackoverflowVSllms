@@ -1,1 +1,0 @@
--- Create a table\nCREATE TABLE mytable (id NUMBER);\n\n-- Insert some data\nINSERT INTO mytable (id) VALUES (1);\nINSERT INTO mytable (id) VALUES (2);\n\n-- Commit the changes\nCOMMIT;

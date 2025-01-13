@@ -1,1 +1,0 @@
-header("Cache-Control: no-cache, must-revalidate");\nheader("Content-Type: image/jpeg");

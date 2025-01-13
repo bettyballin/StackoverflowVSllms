@@ -1,1 +1,0 @@
-class myClass {\n    public static function test1() {\n        $className = get_class();\n        if (method_exists($className, "test1")) {\n            echo "Hi";\n        }\n    }\n}

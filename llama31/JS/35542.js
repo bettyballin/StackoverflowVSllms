@@ -1,1 +1,0 @@
-ValidatorValidate(document.getElementById("<%= rfvFirst.ClientID %>"));

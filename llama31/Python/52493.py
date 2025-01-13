@@ -1,1 +1,0 @@
-# Example test case from Mozilla Firefox\n# File: mozilla-central/testing/marionette/tests/unit/test_navigation.py\nfrom marionette import MarionetteTestCase\n\nclass TestNavigation(MarionetteTestCase):\n    def test_navigate_to_page(self):\n        self.marionette.navigate("about:blank")\n        self.assertEqual(self.marionette.title, "blank")

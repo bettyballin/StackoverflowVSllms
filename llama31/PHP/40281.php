@@ -1,1 +1,0 @@
-$string1 = "Acme Inc.";\n$string2 = "Acme Corporation";\n\n$soundex1 = soundex($string1);\n$soundex2 = soundex($string2);\n\n$metaphone1 = metaphone($string1);\n$metaphone2 = metaphone($string2);\n\necho "SOUNDEX Comparison: " . ($soundex1 == $soundex2 ? "Match" : "No Match") . "\n";\necho "Metaphone Comparison: " . ($metaphone1 == $metaphone2 ? "Match" : "No Match") . "\n";

@@ -1,1 +1,0 @@
-require 'pp'\n\narray = ["value1", "value2", "value3"]\nhash = {"key1" => "value1"}\n\npp array\npp hash

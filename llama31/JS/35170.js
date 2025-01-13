@@ -1,1 +1,0 @@
-// Example of how to use the browser's console to inspect errors\nconsole.log('Hello, world!');\n\n// Example of how to use the Network tab to inspect requests\n// (using JavaScript to log the request)\nvar xhr = new XMLHttpRequest();\nxhr.open('GET', 'https://example.com', true);\nxhr.onload = function() {\n  console.log(xhr.responseText);\n};\nxhr.send();

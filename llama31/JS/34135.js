@@ -1,1 +1,0 @@
-textarea.addEventListener('paste', (e) => {\n  const pastedText = e.clipboardData.getData('text');\n  if (pastedText.length > maxLength) {\n    e.preventDefault();\n  }\n});

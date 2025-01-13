@@ -1,1 +1,0 @@
-EXEC xp_cmdshell 'path_to_your_program.exe'

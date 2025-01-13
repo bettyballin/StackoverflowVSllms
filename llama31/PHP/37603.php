@@ -1,1 +1,0 @@
-$db->query("INSERT INTO temp_images (image_data) VALUES (?)", array(file_get_contents($_FILES['image']['tmp_name'])));\n$_SESSION['image_id'] = $db->lastInsertId();

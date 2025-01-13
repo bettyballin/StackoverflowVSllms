@@ -1,1 +1,0 @@
-$ticketLn = strlen($buf) - 40;\n$ticket = substr($decrypthex, 0, $ticketLn);\n$hash = substr($decrypthex, $ticketLn);\n\n$sha1_hash = hex2bin(sha1($ticket));\n\n// Compare the two hashes\nif ($sha1_hash === $hash) {\n    // Match found\n} else {\n    // No match\n}

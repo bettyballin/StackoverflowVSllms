@@ -1,1 +1,0 @@
-function validatePersonality(source, arguments) {\n    var text = document.getElementById('txtPersonality').value;\n    if (text.length > 200) {\n        arguments.IsValid = false;\n    } else {\n        arguments.IsValid = true;\n    }\n}

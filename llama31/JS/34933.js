@@ -1,1 +1,0 @@
-const express = require('express');\nconst apiLimiter = require('express-rate-limit');\n\nconst app = express();\n\nconst limiter = apiLimiter({\n  windowMs: 15 * 60 * 1000, // 15 minutes\n  max: 100 // limit each IP to 100 requests per windowMs\n});\n\napp.use(limiter);\n\napp.get('/api/data', (req, res) => {\n  // API endpoint logic\n});

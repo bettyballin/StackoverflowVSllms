@@ -1,1 +1,0 @@
-if ($_SERVER['REQUEST_METHOD'] == 'POST') {\n    // Handle POST request\n    var_dump($_POST); // might be empty if no data was sent\n}

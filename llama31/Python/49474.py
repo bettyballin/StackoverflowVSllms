@@ -1,1 +1,0 @@
-$ python\n>>> 2 + 2\n4\n>>> my_list = [1, 2, 3]\n>>> my_list.append(4)\n>>> my_list\n[1, 2, 3, 4]

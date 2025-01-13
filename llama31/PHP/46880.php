@@ -1,1 +1,0 @@
-// Set environment variable in your operating system or .env file\nMYSQL_PASSWORD=password\n\n// Access environment variable in PHP\n$mysqlPass = $_ENV['MYSQL_PASSWORD'] ?? 'default_value';

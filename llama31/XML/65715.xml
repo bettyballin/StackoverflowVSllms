@@ -1,1 +1,0 @@
-<!-- PCDATA example -->\n<example>Text with &lt;markup&gt;</example>\n\n<!-- CDATA example -->\n<example><![CDATA[Text with <markup>]]></example>

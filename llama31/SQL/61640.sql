@@ -1,1 +1,0 @@
-SELECT * FROM sys.dm_tran_locks WHERE resource_type = 'KEY' AND resource_database_id = DB_ID('your_database_name')

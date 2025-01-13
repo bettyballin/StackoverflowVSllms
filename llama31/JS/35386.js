@@ -1,1 +1,0 @@
-function myObject() {\n  var myData;\n\n  this.constructor = function(data) {\n    myData = data;\n  }\n\n  this.doSomething = function() {\n    alert("I did something!");\n  }\n}

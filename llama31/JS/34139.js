@@ -1,1 +1,0 @@
-ew Ajax.Autocompleter('search', 'results', '/search', {\n  onFailure: function(request) {\n    // No results found, redirect to create function\n    window.location.href = '/create';\n  }\n});

@@ -1,1 +1,0 @@
-SELECT date, symbol, MPR\nFROM (\n  SELECT date, symbol, MPR,\n         ROW_NUMBER() OVER (PARTITION BY date ORDER BY MPR DESC) AS row_num\n  FROM your_table\n) AS subquery\nWHERE row_num <= 2

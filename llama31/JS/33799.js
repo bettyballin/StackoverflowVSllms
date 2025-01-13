@@ -1,1 +1,0 @@
-function setFormOptions(formId, params) {\n  var form = $(formId);\n  params.split('&').each(function(pair) {\n    var key = pair.split('=')[0];\n    var val = pair.split('=')[1];\n    form.down('select[name="' + key + '"]').setValue(val);\n  });\n}

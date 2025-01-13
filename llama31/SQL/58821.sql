@@ -1,1 +1,0 @@
-CREATE MATERIALIZED VIEW my_view AS\nSELECT id, column1, column2\nFROM my_table;\n\nCREATE INDEX idx_my_view_column1 ON my_view (column1);

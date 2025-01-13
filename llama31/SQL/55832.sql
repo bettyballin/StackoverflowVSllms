@@ -1,1 +1,0 @@
-WITH cte AS (\n    SELECT *, \n        (SELECT Table1.Column \n         FROM Table1 \n         INNER JOIN Table2 ON Table1.Table2Id = Table2.Id) as tmp\n    FROM Table2\n)\nSELECT *\nFROM cte\nWHERE tmp = 1

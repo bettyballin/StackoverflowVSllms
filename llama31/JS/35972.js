@@ -1,1 +1,0 @@
-// Assuming 'ajaxResponse' is the response from your ASPX page\nvar items = JSON.parse(ajaxResponse);\n\n// items is now an array: ["Item1", "Ite|m1", "Item3"]

@@ -1,1 +1,0 @@
-function my_callback($buffer) {\n    // Send your header here\n    header('X-My-Header: value');\n    return $buffer;\n}\n\nob_start('my_callback');

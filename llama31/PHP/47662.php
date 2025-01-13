@@ -1,1 +1,0 @@
-$smarty->registerPlugin('modifier', 'gettext_default', 'smarty_modifier_gettext_default');

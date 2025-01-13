@@ -1,1 +1,0 @@
-# In your Rails controller\ndef update_message_list\n  # Generate a token to authenticate the AJAX request\n  token = SecureRandom.uuid\n  session[:token] = token\n  \n  # Update the message list\n  # ...\n  \n  # Render the updated message list with the token\n  render json: { messages: messages, token: token }\nend

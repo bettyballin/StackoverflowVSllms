@@ -1,1 +1,0 @@
-$date = new DateTime();\n$date = $date->format("Y-m-d");

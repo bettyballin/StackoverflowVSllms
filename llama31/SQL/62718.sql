@@ -1,1 +1,0 @@
-(SELECT TOP 1 c.SignalRec \n FROM config c\n INNER JOIN bases b ON c.RecBy = b.NameNum\n WHERE c.ID = messages.ID AND b.Name = messages.RecBy\n ORDER BY ...) As cfgSignalRec,\n\n(SELECT TOP 1 c.SignalOut \n FROM config c\n INNER JOIN bases b ON c.RecBy = b.NameNum\n WHERE c.ID = messages.ID AND b.Name = messages.RecBy\n ORDER BY ...) As cfgSignalOut

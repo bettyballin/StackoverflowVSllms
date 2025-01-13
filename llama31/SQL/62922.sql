@@ -1,1 +1,0 @@
-UPDATE tag_data td\nJOIN post_tags pt ON td.tagId = pt.tagId\nSET td.count = td.count + 1\nWHERE pt.postId = ?;

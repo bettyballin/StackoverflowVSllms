@@ -1,1 +1,0 @@
-$this->db->where_in('zip_code', $zip_array);

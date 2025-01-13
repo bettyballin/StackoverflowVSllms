@@ -1,1 +1,0 @@
-// Enable SugarDebug\n'SugarDebug' => true;\n\n// In your code, use SugarDebug to inspect variables\n$GLOBALS['sugardebug']-> debugVar($this);

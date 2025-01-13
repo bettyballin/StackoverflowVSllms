@@ -1,1 +1,0 @@
--- Drop the foreign key constraint\nALTER TABLE assignment\nDROP FOREIGN KEY locationIDX;\n\n-- Drop the column\nALTER TABLE assignment\nDROP COLUMN locationID;

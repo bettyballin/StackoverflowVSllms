@@ -1,1 +1,0 @@
-$question = trim($_POST['question']);\n\nif (empty($question)) {\n    // Handle error here\n}

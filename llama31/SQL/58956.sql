@@ -1,1 +1,0 @@
-CREATE TABLE users (\n  id INT PRIMARY KEY,\n  name VARCHAR(255)\n);\n\nCREATE TABLE services (\n  id INT PRIMARY KEY,\n  name VARCHAR(255)\n);

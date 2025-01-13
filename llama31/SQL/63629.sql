@@ -1,1 +1,0 @@
--- MySQL\nSELECT NOW();\n\n-- SQL Server\nSELECT GETDATE();\n\n-- Oracle\nSELECT SYSTIMESTAMP;

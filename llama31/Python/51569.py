@@ -1,1 +1,0 @@
-ORA_NODE_FAILURE_CODES = (25401, 25402, 25408)\n\ntry:\n    # database code\nexcept cx_Oracle.DatabaseError as e:\n    if e.message.code in ORA_NODE_FAILURE_CODES:\n        print('node going down, restarting transaction...')\n        conn.rollback()\n        continue\n    else:\n        raise(e)

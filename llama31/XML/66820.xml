@@ -1,1 +1,0 @@
-<xmlpoke\n    file="yourfile.xml"\n    xpath="//asmv1:assembly/asmv1:assemblyIdentity/@name"\n    value="NewName">\n</xmlpoke>

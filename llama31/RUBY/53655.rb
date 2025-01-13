@@ -1,1 +1,0 @@
-class MyModel < ApplicationRecord\n  scope :visible_to, ->(user) { where(visible: true, user_id: user.id) }\n  scope :with_status, ->(status) { where(status: status) }\n\n  # Chain scopes together\n  def self.visible_to_user_with_status(user, status)\n    visible_to(user).with_status(status)\n  end\nend

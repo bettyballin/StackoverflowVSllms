@@ -1,1 +1,0 @@
-$path = 'new_directory/new_file.txt';\nfopen($path, 'w');

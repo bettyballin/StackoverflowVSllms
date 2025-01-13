@@ -1,1 +1,0 @@
-$stmt = mysqli_prepare($db, "SELECT task_id, parent_id, task FROM tasks");\nmysqli_stmt_execute($stmt);\nmysqli_stmt_bind_result($stmt, $task_id, $parent_id, $task);\n\nwhile (mysqli_stmt_fetch($stmt)) {\n    // process the data\n}\n\nmysqli_stmt_close($stmt);

@@ -1,1 +1,0 @@
-$template = new Template($mysqli);\n$_SESSION['template'] = serialize($template);\nsession_write_close(); // Call this to write the changes to the database

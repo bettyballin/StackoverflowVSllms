@@ -1,1 +1,0 @@
-use Cake\Http\Exception\ForbiddenException;\n\npublic function view($id)\n{\n    $data = $this->getData($id);\n    if (!$this->isOwner($data)) {\n        throw new ForbiddenException('You are not authorized to access this data');\n    }\n    // ...\n}

@@ -1,1 +1,0 @@
-SELECT TOP 1 ItemID FROM item_k ORDER BY NEWID()

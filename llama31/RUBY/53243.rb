@@ -1,1 +1,0 @@
-infix macro @multiply(op1, op2)\n{\n    <[ ( $op1 * $op2 ) ]>\n}

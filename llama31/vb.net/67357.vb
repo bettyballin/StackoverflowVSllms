@@ -1,1 +1,0 @@
-Dim oMapping As New Dictionary(Of Integer, String) From {{1, "First"}, {2, "Second"}}

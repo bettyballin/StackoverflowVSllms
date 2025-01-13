@@ -1,1 +1,0 @@
-<serviceCertificate>\n  <certificateReference x509FindType="FindByThumbprint" x509Thumbprint="your_thumbprint_value" />\n</serviceCertificate>

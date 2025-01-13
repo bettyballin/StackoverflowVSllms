@@ -1,1 +1,0 @@
-ALTER SERVER ROLE sysadmin ADD MEMBER [YourUsername];

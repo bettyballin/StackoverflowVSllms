@@ -1,1 +1,0 @@
-function isSequential(array $array): bool\n{\n    return array_keys($array) === range(0, count($array) - 1);\n}

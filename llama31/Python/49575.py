@@ -1,1 +1,0 @@
-def remove_duplicates(input_list):\n    seen = set()\n    return [x for x in input_list if not (x in seen or seen.add(x))]\n\n# Example usage:\nmy_list = [1, 2, 3, 4, 2, 3, 5, 6, 7, 8, 9, 1]\nprint(remove_duplicates(my_list))  # Output: [1, 2, 3, 4, 5, 6, 7, 8, 9]

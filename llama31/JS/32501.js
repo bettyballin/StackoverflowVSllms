@@ -1,1 +1,0 @@
-document.getElementById('flash_object').addEventListener('mousewheel', function(event) {\n  event.preventDefault();\n}, false);

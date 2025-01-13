@@ -1,1 +1,0 @@
-<xs:element name="description">\n  <xs:complexType>\n    <xs:sequence minOccurs="0" maxOccurs="unbounded">\n      <xs:any namespace="##any" processContents="lax" />\n    </xs:sequence>\n  </xs:complexType>\n</xs:element>

@@ -1,1 +1,0 @@
-DECLARE @Checksum float\nEXEC Get_Checksum 'mydatabase', 'mytable', @Checksum OUTPUT\nSELECT @Checksum

@@ -1,1 +1,0 @@
-SELECT *\nFROM (\n  SELECT person_id, LISTAGG(citizenship, ', ') WITHIN GROUP (ORDER BY citizenship) AS citizenships\n  FROM person_citizenships\n  GROUP BY person_id\n) AS citizenships;

@@ -1,1 +1,0 @@
-CREATE TABLE content (\n  id INT PRIMARY KEY,\n  original_markup TEXT,\n  converted_html TEXT\n);

@@ -1,1 +1,0 @@
-function asp_wrapper($url) {\n    $ch = curl_init($url);\n    curl_setopt($ch, CURLOPT_RETURNTRANSFER, true);\n    $output = curl_exec($ch);\n    curl_close($ch);\n    return $output;\n}\n\n// Example usage:\necho asp_wrapper('http://example.com/asp-page.asp');

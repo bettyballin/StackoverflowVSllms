@@ -1,1 +1,0 @@
-$facebook = new Facebook($appId, $appSecret);\n$session = $facebook->getSession();\nif ($session) {\n  // Make API calls to Facebook using the $session object\n} else {\n  // Handle the case where the user is not authenticated\n}

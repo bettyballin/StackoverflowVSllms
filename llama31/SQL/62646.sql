@@ -1,1 +1,0 @@
-CREATE TABLE mytable (\n  name VARCHAR(255),\n  email VARCHAR(255),\n  PRIMARY KEY (name, email)\n);

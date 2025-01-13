@@ -1,1 +1,0 @@
-CREATE FUNCTION DictValue\n(\n    @id INT,\n    @key NVARCHAR(MAX)\n)\nRETURNS NVARCHAR(MAX)\nAS\nBEGIN\n    DECLARE @value NVARCHAR(MAX)\n\n    SELECT @value = x.Pair.value('.', 'nvarchar(max)')\n    FROM TableWithXmlColumn t\n    CROSS APPLY t.Dict.nodes('/StringDictionary/Pair[@Key=sql:variable("@key")]') x(Pair)\n    WHERE t.Id = @id\n\n    RETURN @value\nEND\nGO

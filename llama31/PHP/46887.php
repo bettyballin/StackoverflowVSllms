@@ -1,1 +1,0 @@
-if (!isset($_SERVER['HTTPS']) || $_SERVER['HTTPS'] !== 'on') {\n    die('SSL/TLS is not enabled, please configure it');\n}

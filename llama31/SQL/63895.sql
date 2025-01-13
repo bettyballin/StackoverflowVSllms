@@ -1,1 +1,0 @@
-DECLARE @PageSize INT = 10;\nDECLARE @PageIndex INT = 1;\n\nWITH PaginatedQuery AS (\n  SELECT \n    ROW_NUMBER() OVER (ORDER BY YourColumn) AS RowNumber,\n    *\n  FROM \n    YourTable\n)\nSELECT \n  TotalCount = (SELECT COUNT(*) FROM YourTable),\n  *\nFROM \n  PaginatedQuery\nWHERE \n  RowNumber BETWEEN (@PageIndex - 1) * @PageSize + 1 AND @PageIndex * @PageSize;

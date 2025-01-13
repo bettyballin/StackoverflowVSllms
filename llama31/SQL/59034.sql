@@ -1,1 +1,0 @@
-SELECT ID, TIME, DATA\nFROM your_table\nGROUP BY ID;

@@ -1,1 +1,0 @@
-<system.webServer>\n    <modules>\n        <add name="HttpCompressionModule" />\n    </modules>\n</system.webServer>

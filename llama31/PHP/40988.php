@@ -1,1 +1,0 @@
-class SillyDB {\n  private function __construct() {\n    // ...\n  }\n\n  public static function getConnection() {\n    return new self(); // This will throw an error in PHP 7+\n  }\n}

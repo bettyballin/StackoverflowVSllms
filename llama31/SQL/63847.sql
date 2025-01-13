@@ -1,1 +1,0 @@
-SELECT \n    name, \n    crdate, \n    backup_start_date, \n    backup_finish_date\nFROM \n    sys.sysdatabases\nWHERE \n    name = 'your_database_name';

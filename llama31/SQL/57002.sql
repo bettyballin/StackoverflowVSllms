@@ -1,1 +1,0 @@
-WITH islands AS (\n  ...\n)\nSELECT \n  UserID, \n  Value, \n  Count\nFROM (\n  SELECT \n    UserID, \n    Value, \n    Count, \n    ROW_NUMBER() OVER (PARTITION BY UserID ORDER BY Count DESC) AS RN\n  FROM islands\n) AS subquery\nWHERE RN = 1;

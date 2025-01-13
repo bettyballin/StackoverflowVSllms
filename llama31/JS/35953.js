@@ -1,1 +1,0 @@
-var parser = new DOMParser();\nvar html = xhr.responseText; // assuming xhr is your XMLHttpRequest object\nvar doc = parser.parseFromString(html, 'text/html');\nvar div = doc.getElementById('yourDivId');\n// now you can append the div to your current page\ndocument.body.appendChild(div);

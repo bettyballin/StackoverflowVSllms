@@ -1,1 +1,0 @@
-require_once('nusoap.php');\n\n$client = new soapclient('http://your-webservice.com/service.php?wsdl', true);\n\n// Read the file to send\n$fileBytes = file_get_contents('path/to/your/file.txt');\n\n// Convert the file to a binary string\n$fileData = base64_encode($fileBytes);\n\n// Send the file\n$response = $client->receiveFile($fileData);\n\necho $response;

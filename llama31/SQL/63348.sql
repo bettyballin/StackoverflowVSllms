@@ -1,1 +1,0 @@
-SELECT t1.page_title\nFROM table1 t1\nLEFT JOIN table2 t2 ON t1.page_title = t2.page_title\nWHERE t2.page_title IS NULL;

@@ -1,1 +1,0 @@
-$directory = '/path/to/directory';\n\nif (file_exists($directory) && is_writable($directory)) {\n    echo "The directory exists and is writeable.";\n} else {\n    echo "The directory does not exist or is not writeable.";\n}

@@ -1,1 +1,0 @@
-For Each fieldInfo As FieldInfo In GetType(myEnum).GetFields(BindingFlags.Public Or BindingFlags.Static)\n    Dim enumValue As myEnum = DirectCast(fieldInfo.GetValue(Nothing), myEnum)\n    ' do something with enumValue\nNext

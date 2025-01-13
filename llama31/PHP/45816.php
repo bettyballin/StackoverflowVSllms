@@ -1,1 +1,0 @@
-// Create a translation object\n$translate = new Zend_Translate('gettext', 'path/to/translation/source', 'en_US');\n\n// To change the language\n$translate->setLocale('fr_FR');\n\n// To translate a string\necho $translate->_('Hello');

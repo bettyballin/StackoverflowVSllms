@@ -1,1 +1,0 @@
-// Add this line to see if jQuery is loaded and working\nconsole.log($.fn.jquery);\n\n// Use the jQuery debugger to inspect the selector\nconsole.log($("your_selector").selector);

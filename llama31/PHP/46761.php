@@ -1,1 +1,0 @@
-// In your controller method\npublic function edit($id) {\n    // ... edit logic ...\n    $pageNumber = $this->request->getParam('page');\n    return $this->redirect(['action' => 'index', 'page' => $pageNumber]);\n}

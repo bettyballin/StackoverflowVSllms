@@ -1,1 +1,0 @@
-var xhr = $.ajax({\n    type: "GET",\n    url: "/your/url",\n    beforeSend: function(xhr) {\n        // Store the XMLHttpRequest object\n        this.xhr = xhr;\n    },\n    success: function(data) {\n        // Your success handler\n    },\n    error: function(xhr, status, error) {\n        // Your error handler\n    }\n});\n\n// To abort the request\nxhr.abort();

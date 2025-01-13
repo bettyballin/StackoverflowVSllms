@@ -1,1 +1,0 @@
-Using response As HttpWebResponse = DirectCast(request.GetResponse(), HttpWebResponse)\n    Using reader As StreamReader = New StreamReader(response.GetResponseStream())\n        Dim data As String = reader.ReadToEnd()\n        Return data\n    End Using\nEnd Using

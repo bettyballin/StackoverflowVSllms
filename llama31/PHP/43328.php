@@ -1,1 +1,0 @@
-$autoload['libraries'] = array('database_loader');\n\n// Add this line at the end of the file\n$CI =& get_instance();\n$CI->database_loader->load_databases();

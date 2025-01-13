@@ -1,1 +1,0 @@
-ob_start();\ninclude("a.php");\ninclude("b.php");\ninclude("c.php");\nob_end_flush();\n?>

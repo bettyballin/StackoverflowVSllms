@@ -1,1 +1,0 @@
--- Export data from source table\nexpdp username/password dumpfile=src_data.dmp tables=SRC_Table columns=(c1,c5,c6)\n\n-- Import data into destination table\nimpdp username/password dumpfile=src_data.dmp tables=DST_Table

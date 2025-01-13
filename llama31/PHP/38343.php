@@ -1,1 +1,0 @@
-$data = 'hello';\n$paul = do_http_request('http://apitestserver.co.uk:9000/Service.svc/Items', $data);\necho $paul;

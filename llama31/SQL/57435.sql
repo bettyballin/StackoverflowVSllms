@@ -1,1 +1,0 @@
-CREATE FUNCTION GetXmlData()\nRETURNS TABLE\nAS\nRETURN\n(\n    SELECT TOP 10 *, \n           Content.value('(/root/item/value)[1]', 'float') as Value\n    FROM xmltabletest\n    WHERE Content.value('(/root/item/MessageType)[1]', 'int') = 1\n)

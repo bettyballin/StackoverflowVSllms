@@ -1,1 +1,0 @@
-INSERT INTO my_table (id, name) \nVALUES (my_sequence.NEXTVAL, 'John Doe') \nRETURNING id INTO :my_id;

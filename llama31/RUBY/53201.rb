@@ -1,1 +1,0 @@
-class MySymbol\n  private_constant :TABLE\n  TABLE = {}\n  # ...\nend

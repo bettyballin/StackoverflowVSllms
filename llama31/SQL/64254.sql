@@ -1,1 +1,0 @@
-DECLARE\n  max_val NUMBER;\nBEGIN\n  SELECT MAX(trans_seq_no) INTO max_val FROM TRANSACTION_LOG;\n  EXECUTE IMMEDIATE 'CREATE SEQUENCE transaction_sequence\n    MINVALUE 0\n    START WITH ' || max_val || '\n    INCREMENT BY 1\n    CACHE 20';\nEND;\n/

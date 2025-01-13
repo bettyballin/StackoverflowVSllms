@@ -1,1 +1,0 @@
-SET group_concat_max_len = 16000000;\n\nUPDATE Threads t\nSET t.Content = (\n  SELECT CONCAT_WS('<!-- pagebreak -->', a.Content)\n  FROM MSarticlepages a\n  WHERE a.ArticleID = t.MSthreadID\n  GROUP BY a.ArticleID\n  HAVING LENGTH(GROUP_CONCAT(a.Content SEPARATOR '<!-- pagebreak -->')) <= 16777215\n);

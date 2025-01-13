@@ -1,1 +1,0 @@
-CREATE TABLE ngrams (\n    id INT,\n    ngram VARCHAR(255)\n);\n\nINSERT INTO ngrams (id, ngram)\nSELECT id, SUBSTRING(your_column, 1, 3) AS ngram\nFROM your_table;\n\nSELECT *\nFROM ngrams\nWHERE ngram = 'abc';

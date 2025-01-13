@@ -1,1 +1,0 @@
-CREATE TABLE IPAddress (\n    Address binary(4)\n);\n\nINSERT INTO IPAddress (Address) VALUES (0x192168001);  -- Example IP address: 192.168.0.1

@@ -1,1 +1,0 @@
-<!-- clear.php -->\n<?php\n$file = 'filelist.txt';\n$fp = fopen($file, 'w');\nfclose($fp);\nheader('Location: index.html?cleared=true');\nexit;\n?>

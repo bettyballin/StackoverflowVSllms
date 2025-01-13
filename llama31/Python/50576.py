@@ -1,1 +1,0 @@
-import sys\nimport time\n\nprint("Hello, world!", end='\r')\nsys.stdout.flush()\ntime.sleep(2)  # wait for 2 seconds\nprint("Overwritten text     ", end='\r')\nsys.stdout.flush()

@@ -1,1 +1,0 @@
-// This will throw a SecurityError\nconst iframe = document.getElementById('myIframe');\nconsole.log(iframe.contentWindow.location.href);

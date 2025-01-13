@@ -1,1 +1,0 @@
-Dim de As New DirectoryEntry("LDAP://" & stringDN.Replace("/", "\/"))

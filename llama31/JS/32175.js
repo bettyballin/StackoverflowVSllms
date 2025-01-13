@@ -1,1 +1,0 @@
-const userLang = navigator.language;\nif (userLang !== 'en') {\n  // Provide a notification or suggestion to switch to English\n}

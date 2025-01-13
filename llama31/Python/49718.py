@@ -1,1 +1,0 @@
-import chardet\n\nwith open('input.csv', 'rb') as f:\n    rawdata = f.read()\n    result = chardet.detect(rawdata)\n    charenc = result['encoding']\n\nwith open('input.csv', 'r', encoding=charenc) as f:\n    contents = f.read()

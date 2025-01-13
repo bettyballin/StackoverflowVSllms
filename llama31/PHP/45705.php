@@ -1,1 +1,0 @@
-$this->_gate = (string) $gate; // Ensure $gate is treated as a string.

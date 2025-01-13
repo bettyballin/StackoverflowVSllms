@@ -1,1 +1,0 @@
-PERSON {\n  name PRIMARY KEY\n}\n\nSPOUSE {\n  name1 REFERENCES PERSON(name),\n  name2 REFERENCES PERSON(name),\n  PRIMARY KEY (name1, name2),\n  UNIQUE (name1)\n}

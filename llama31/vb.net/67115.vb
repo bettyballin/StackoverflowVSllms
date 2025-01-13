@@ -1,1 +1,0 @@
-Public Function GetEnumerator() As IEnumerator Implements IEnumerable.GetEnumerator\n    If GetType(IEnumerable(Of T)).IsAssignableFrom(GetType(Inner)) Then\n        Return DirectCast(Inner, IEnumerable(Of T)).GetEnumerator()\n    Else\n        Return DirectCast(Inner, IEnumerable).GetEnumerator()\n    End If\nEnd Functio

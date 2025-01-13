@@ -1,1 +1,0 @@
-# config/routes.rb\nnamespace :api do\n  namespace :v1 do\n    # API v1 routes go here\n  end\n\n  namespace :v2 do\n    # API v2 routes go here\n  end\nend

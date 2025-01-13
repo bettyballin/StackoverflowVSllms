@@ -1,1 +1,0 @@
--- Example answer: Star schema is simpler and faster to query, while snowflake schema provides more detailed data but is more complex and slower to query

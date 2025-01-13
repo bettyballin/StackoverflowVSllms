@@ -1,1 +1,0 @@
-DECLARE @SQL1 nvarchar(max) = 'SELECT * INTO #temp WHERE ...';\nDECLARE @SQL2 nvarchar(max) = 'SELECT * FROM #temp';\n\nEXEC sp_executesql @SQL1;\nEXEC sp_executesql @SQL2;

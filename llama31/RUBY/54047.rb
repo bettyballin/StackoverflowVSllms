@@ -1,1 +1,0 @@
-add_index(:city_permissions, [:user_id, :city_id], using: :gin)

@@ -1,1 +1,0 @@
-$.validator.addMethod("customDate", function(value, element) {\n  var dateRegex = /^(0?[1-9]|[12][0-9]|3[01])[\/](0?[1-9]|1[012])[\/]\d{4}$/;\n  return dateRegex.test(value);\n}, "Please enter a date in the format dd/mm/yyyy.");\n\n$("#myForm").validate({\n  rules: {\n    myDate: {\n      customDate: true\n    }\n  }\n});

@@ -1,1 +1,0 @@
-$myArray = array('key1'=>'value1', 'key2'=>'value2');\n$fileContents = json_encode($myArray);\n\n// Save $fileContents to a file or database\n\n// Later, retrieve $fileContents and decode it\n$myArray = json_decode($fileContents, true);\n\necho $myArray['key1']; // output: value1\necho $myArray['key2']; // output: value2

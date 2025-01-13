@@ -1,1 +1,0 @@
-CREATE PROCEDURE testEM( IN id VARCHAR(12) )\nP1: BEGIN \n  .....\nEND P1

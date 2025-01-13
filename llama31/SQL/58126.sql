@@ -1,1 +1,0 @@
-SELECT create_date \nFROM sys.tables \nWHERE name = 'your_table_name';

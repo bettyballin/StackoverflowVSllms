@@ -1,1 +1,0 @@
-class RichTextArea extends Zend_Form_Decorator_Abstract\n{\n    public function render($content)\n    {\n        $element = $this->getElement();\n        $element->setAttrib('class', 'rich');\n        return $content;\n    }\n}

@@ -1,1 +1,0 @@
-CREATE PROCEDURE sp_update_playvalues\nAS\nBEGIN\n    UPDATE tb_player\n    SET playvalue = (DATEDIFF(DAY, DateOfBirth, GETDATE())) * TimesPlayed * Versions;\nEND;

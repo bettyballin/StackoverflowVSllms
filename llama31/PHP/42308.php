@@ -1,1 +1,0 @@
-public function resultsAction($param)\n{\n    if ($param === 'zip') {\n        // display zip-based data\n    } elseif ($param === 'state') {\n        // display state-based data\n    }\n}

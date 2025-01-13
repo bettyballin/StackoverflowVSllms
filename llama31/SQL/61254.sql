@@ -1,1 +1,0 @@
-$query = "SELECT a, b, c FROM table_name WHERE condition LIMIT 10 OFFSET 0";

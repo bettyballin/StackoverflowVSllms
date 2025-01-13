@@ -1,1 +1,0 @@
-curl_setopt($ch, CURLOPT_HEADERFUNCTION, function($ch, $header) {\n    return str_replace('-', '_', $header);\n});

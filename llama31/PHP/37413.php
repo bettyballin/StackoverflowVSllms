@@ -1,1 +1,0 @@
-if ($username == $db_username && $password == $db_password) {\n    header('Location: new_page.html');\n    exit;\n} else {\n    echo 'Invalid username or password';\n}

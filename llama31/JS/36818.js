@@ -1,1 +1,0 @@
-$(function() {\n  // ...\n  $.ajax({\n    // ...\n    success: function(data) {\n      $(function() {\n        // Add styles using jQuery\n        $('#myTable tr:odd').css('background-color', '#f2f2f2');\n      });\n    }\n  });\n});

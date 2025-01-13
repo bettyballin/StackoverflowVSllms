@@ -1,1 +1,0 @@
-var dataArray = Object.values(data);\nconsole.log(dataArray); // outputs ["value1", "value2"]

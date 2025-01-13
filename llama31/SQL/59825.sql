@@ -1,1 +1,0 @@
-SELECT COUNT(DISTINCT column_name) \nFROM table_name;

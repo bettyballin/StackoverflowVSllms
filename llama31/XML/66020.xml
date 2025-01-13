@@ -1,1 +1,0 @@
-<bean id="myService" class="org.springframework.remoting.rmi.RmiProxyFactoryBean">\n  <property name="serviceUrl" value="rmi://${webServer.host}:80/MyService"/>\n  <property name="serviceInterface" value="com.foo.MyService"/>\n</bean>

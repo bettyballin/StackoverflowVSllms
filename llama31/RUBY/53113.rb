@@ -1,1 +1,0 @@
-require 'csv'\n\n# Load the CSV file\ncsv = CSV.read('your_file.csv', headers: true)\n\n# Access columns by header\ncsv.each do |row|\n  puts row['column_name']\nend

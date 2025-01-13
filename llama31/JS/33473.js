@@ -1,1 +1,0 @@
-$.post($('#' + e.currentTarget.id).attr('action'), $('#' + e.currentTarget.id).serialize())\n  .done(function(data) {\n    if (data.error) {\n      alert('Error: ' + data.error);\n    } else {\n      alert(data);\n    }\n  });

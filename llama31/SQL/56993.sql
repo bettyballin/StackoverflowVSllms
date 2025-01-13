@@ -1,1 +1,0 @@
-if (@date IS NULL) SELECT 'date is null' ELSE SELECT 'date not null'

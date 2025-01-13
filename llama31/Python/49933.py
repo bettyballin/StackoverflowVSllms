@@ -1,1 +1,0 @@
-def search_matrix(matrix, target):\n    if not matrix or not matrix[0]:\n        return (-1, -1)\n\n    row, col = 0, len(matrix[0]) - 1\n    while row < len(matrix) and col >= 0:\n        if matrix[row][col] == target:\n            return (row, col)\n        elif matrix[row][col] > target:\n            col -= 1\n        else:\n            row += 1\n\n    return (-1, -1)

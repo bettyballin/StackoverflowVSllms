@@ -1,1 +1,0 @@
-<Target Name="UpdateProductVersion">\n  <SetValue\n    XPath="/processing-instruction('define')[contains(., 'ProductVersion')]"\n    Value="1.0.2"\n    XmlFile="YourWixFile.wixproj"\n  />\n</Target>

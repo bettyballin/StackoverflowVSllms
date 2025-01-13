@@ -1,1 +1,0 @@
-$('.myTextBox').val('Hello World!');

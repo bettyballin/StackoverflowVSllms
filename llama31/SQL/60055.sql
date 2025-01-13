@@ -1,1 +1,0 @@
-SELECT MAX(a.sessions) \nFROM v$sesstat a, v$statname b \nWHERE a.statistic# = b.statistic# \nAND b.name = 'sessions highwater';

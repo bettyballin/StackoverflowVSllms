@@ -1,1 +1,0 @@
-Using b As Bitmap = New Bitmap(imagePath)\n    ' Use the bitmap\nEnd Using

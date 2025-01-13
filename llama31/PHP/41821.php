@@ -1,1 +1,0 @@
-$html = '<p>Test</p><div>Remove me!</div>';\n$doc = new DOMDocument();\n$doc->loadHTML($html);\n\n// Get the element you want to remove\n$elements = $doc->getElementsByTagName('div');\nif ($elements->length > 0) {\n    $element = $elements->item(0);\n    // Remove the element\n    $element->parentNode->removeChild($element);\n}\n\necho $doc->saveHTML();

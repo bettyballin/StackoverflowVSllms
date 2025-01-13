@@ -1,1 +1,0 @@
-$file = 'path/to/your/file.txt';\n$contents = 'Your file contents here';\n\n// Create the file with exclusive lock to prevent race conditions\nfile_put_contents($file, $contents, LOCK_EX);\n\n// Set the permissions to allow group write access\nchmod($file, 0664); // 0664 = -rw-rw-r--

@@ -1,1 +1,0 @@
-$cache_dir = ini_get('soap_wsdl_cache_dir');\n$cache_file = $cache_dir . md5('http://example.com/wsdl') . '.wsdl';\n\nunlink($cache_file);

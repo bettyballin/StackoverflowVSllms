@@ -1,1 +1,0 @@
-class AnalyticsController < ApplicationController\n  def index\n    @filter = AnalyticsFilter.new(start_date: params[:start_date], end_date: params[:end_date])\n    # ...\n  end\nend

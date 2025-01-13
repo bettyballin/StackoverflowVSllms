@@ -1,1 +1,0 @@
-$_SESSION['uid'] = $uid;\n// ...\n$uid = $_SESSION['uid'];

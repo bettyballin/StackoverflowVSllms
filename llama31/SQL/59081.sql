@@ -1,1 +1,0 @@
-LOAD DATA LOCAL INFILE '/path/to/your/excel/file.csv'\nINTO TABLE your_database_table\nFIELDS TERMINATED BY ','\nENCLOSED BY '\"'\nLINES TERMINATED BY '\n'\nIGNORE 1 ROWS\n(column1, column2, column3, ...);

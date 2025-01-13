@@ -1,1 +1,0 @@
-Imports System.Linq\n\nDim Foo As String = "a,b,c,d,e"\nDim Boo As List(Of String) = Foo.Split(","c).ToList()

@@ -1,1 +1,0 @@
-$pattern = "/Question \"".preg_quote($id, '/')."\"[\r\n]+Answer \"\"/m";

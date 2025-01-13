@@ -1,1 +1,0 @@
-// Dispatch a custom event\ndocument.dispatchEvent(new CustomEvent('loginSuccess'));

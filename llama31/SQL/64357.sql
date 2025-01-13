@@ -1,1 +1,0 @@
-SELECT * \nFROM fiberbox f \nWHERE f.fiberBox REGEXP '1740|1938|1940';

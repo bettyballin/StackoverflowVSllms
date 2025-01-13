@@ -1,1 +1,0 @@
-def ensure_chatbot_training_data_compliance(data):\n    # Ensure data compliance with GDPR and other data protection laws\n    ensure_compliance(data)\n    return True

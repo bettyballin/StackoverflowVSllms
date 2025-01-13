@@ -1,1 +1,0 @@
-// In your controller\npublic function __call($method, $args) {\n    throw new Zend_Controller_Action_Exception('Action does not exist', 404);\n}

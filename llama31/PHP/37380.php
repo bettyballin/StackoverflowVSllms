@@ -1,1 +1,0 @@
-class Forum_Controller extends Controller\n{\n    function __construct()\n    {\n        parent::__construct();\n    }\n\n    function index()\n    {\n        echo $this->categories();\n    }\n\n    /**\n     * Get a list of categories from a specific site.\n     *\n     * @return View\n     */\n    private function categories()\n    {\n        // ...\n    }\n}

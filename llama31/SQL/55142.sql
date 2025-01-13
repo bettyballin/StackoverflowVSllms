@@ -1,1 +1,0 @@
-SELECT FieldX, FieldY\nFROM A WITH (INDEX(IX_FieldW))\nWHERE FieldW IN (...)

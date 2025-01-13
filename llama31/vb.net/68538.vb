@@ -1,1 +1,0 @@
-Imports System.Text.RegularExpressions\n\nPublic Function CorrectInput(input As String) As Integer\n    Dim cleanedInput As String = Regex.Replace(input, "[^0-9]", "")\n    If String.IsNullOrEmpty(cleanedInput) Then\n        Throw New FormatException("Input does not contain any numeric characters")\n    End If\n    Return Integer.Parse(cleanedInput)\nEnd Functio

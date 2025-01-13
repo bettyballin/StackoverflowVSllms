@@ -1,1 +1,0 @@
-import pkg_resources\n\n_plugins = {}\n\ndef register_plugin(name, module):\n    _plugins[name] = module\n\ndef get_plugin(name):\n    return _plugins.get(name)

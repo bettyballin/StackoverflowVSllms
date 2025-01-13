@@ -1,1 +1,0 @@
-const WebSocket = require('ws');\nconst wss = new WebSocket.Server({ port: 8080 });\n\nwss.on('connection', (ws) => {\n  console.log('Client connected');\n\n  ws.on('message', (message) => {\n    console.log(`Received message: ${message}`);\n    // Handle message here\n  });\n\n  ws.on('close', () => {\n    console.log('Client disconnected');\n  });\n});

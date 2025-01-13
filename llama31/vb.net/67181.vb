@@ -1,1 +1,0 @@
-Imports YourWebServiceNamespace\n\n' Create an instance of the proxy class\nDim service As New YourWebServiceProxy()\n\n' Call the relevant method, passing in the required parameters\nservice.IncreaseInventory(YourComplexTypeParameter)

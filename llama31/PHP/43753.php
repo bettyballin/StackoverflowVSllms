@@ -1,1 +1,0 @@
-session_start();\n\n$sid = session_id();\nif (isset($_GET['sid']) && $_GET['sid'] === $sid) {\n    // Session ID matches\n} else {\n    // Session ID does not match\n}

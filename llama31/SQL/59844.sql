@@ -1,1 +1,0 @@
-CREATE PROCEDURE SaveHtml\n    @Html nvarchar(max)\nAS\nBEGIN\n    Insert Into YourTable (HtmlColumn)\n    Values (@Html)\nEND

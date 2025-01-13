@@ -1,1 +1,0 @@
-var childWindow = window.open('url', 'name');\nvar intervalId = setInterval(function() {\n  if (childWindow.document.readyState === 'complete') {\n    clearInterval(intervalId);\n    // child window has finished loading, enable the link\n  }\n}, 100);

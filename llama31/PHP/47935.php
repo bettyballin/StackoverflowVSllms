@@ -1,1 +1,0 @@
-class LoginModel {\n    public function getLoginForm() {\n        // Fetch the form configuration from forms.xml\n        $formConfig = // ...\n        return new Zend_Form($formConfig);\n    }\n\n    public function processLogin($credentials) {\n        // Validate the login credentials\n        // ...\n        return new Zend_Auth_Result($code, $identity, $messages);\n    }\n}

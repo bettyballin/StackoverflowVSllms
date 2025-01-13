@@ -1,1 +1,0 @@
-CREATE FULLTEXT INDEX idx_title ON books (title);

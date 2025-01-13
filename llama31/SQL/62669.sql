@@ -1,1 +1,0 @@
-CREATE OR REPLACE VIEW view_name AS\n    SELECT ... \n    FROM schema.table_name;

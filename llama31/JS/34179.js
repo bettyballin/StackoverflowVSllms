@@ -1,1 +1,0 @@
-$('#yourDivId').css({\n  'opacity': 0.5,\n  '-ms-filter': 'progid:DXImageTransform.Microsoft.Alpha(Opacity=50)'\n});\n\n// Then, use fadeIn/fadeOut as usual\n$('#yourDivId').fadeIn();

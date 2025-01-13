@@ -1,1 +1,0 @@
-<!-- app/views/uploads/show.html.erb -->\n<h1>File uploaded successfully!</h1>\n\n<%= image_tag(@upload.thumbnail) %>

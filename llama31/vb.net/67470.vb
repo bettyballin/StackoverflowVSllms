@@ -1,1 +1,0 @@
-Dim numbers = {1, 2, 3, 4, 5}\nDim parallelQuery = From n In numbers.AsParallel()\n                    Where n Mod 2 = 0\n                    Select

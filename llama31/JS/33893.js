@@ -1,1 +1,0 @@
-countryName = document.getElementById("countrylist").value;

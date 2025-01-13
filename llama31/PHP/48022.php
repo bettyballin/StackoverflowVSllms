@@ -1,1 +1,0 @@
-$dateString = '2008-12-30';\n\nif (preg_match('/^\d{4}-\d{2}-\d{2}$/', $dateString)) {\n    $parts = explode('-', $dateString);\n    if (checkdate($parts[1], $parts[2], $parts[0])) {\n        // Date is valid\n    } else {\n        // Date is not valid\n    }\n} else {\n    // Date is not valid\n}

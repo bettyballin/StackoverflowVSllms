@@ -1,1 +1,0 @@
-$find = array(\n    "'(http|www)(?:[^\s]+)'" // matches "http" or "www" followed by one or more non-space characters\n);\n\n$replace = array(\n    "<a href=\"\\0\">\\0</a>" // replaces the matched text with a clickable link\n);

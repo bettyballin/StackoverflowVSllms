@@ -1,1 +1,0 @@
-BEGIN\n  DBMS_SYSTEM.KILL_SESSION(sid => 'sid', serial# => 'serial#', sql_id => 'sql_id');\nEND;

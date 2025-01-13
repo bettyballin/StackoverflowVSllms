@@ -1,1 +1,0 @@
-$.ajax({\n    type: "POST",\n    url: "MyPage.aspx/RedirectToNewPage",\n    contentType: "application/json; charset=utf-8",\n    dataType: "json",\n    success: function (data) {\n        window.location.href = data.redirectUrl;\n    }\n});

@@ -1,1 +1,0 @@
-var link = document.querySelector('a[href="file.jnlp"]');\nlink.addEventListener('click', function(){\n  if (!this.clicked){\n    this.clicked = true;\n    var self = this;\n    setTimeout(function(){\n      self.clicked = false;\n    }, 10000);\n    return true;\n  }\n  return false;\n});

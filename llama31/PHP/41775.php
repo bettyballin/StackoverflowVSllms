@@ -1,1 +1,0 @@
-$string = 'one, two, three, (four, (five, six), (ten)), seven';\n\n$pattern = '/([^,()]+|(\([^)]*\)))+/';\npreg_match_all($pattern, $string, $matches);\n\n$result = array_map('trim', $matches[0]);\n\nprint_r($result);

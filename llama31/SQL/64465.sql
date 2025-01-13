@@ -1,1 +1,0 @@
--- Using ROWNUM\nSELECT *, ROWNUM AS row_num\nFROM employees\nORDER BY salary DESC;\n\n-- Using ROW_NUMBER\nSELECT *, ROW_NUMBER() OVER (ORDER BY salary DESC) AS row_num\nFROM employees;

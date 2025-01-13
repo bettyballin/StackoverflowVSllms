@@ -1,1 +1,0 @@
-import subprocess\n\ndef create_patch(old_file, new_file, patch_file):\n    cmd = f"bsdiff {old_file} {new_file} {patch_file}"\n    subprocess.run(cmd, shell=True)\n\ndef apply_patch(old_file, patch_file, new_file):\n    cmd = f"bspatch {old_file} {new_file} {patch_file}"\n    subprocess.run(cmd, shell=True)

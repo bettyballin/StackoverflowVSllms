@@ -1,1 +1,0 @@
-const debounce = require('lodash.debounce');\n\nconst textarea = document.getElementById('myTextarea');\nconst delay = 500;\n\nconst debouncedHandler = debounce((event) => {\n  // your code here\n}, delay);\n\ntextarea.addEventListener('keydown', debouncedHandler);

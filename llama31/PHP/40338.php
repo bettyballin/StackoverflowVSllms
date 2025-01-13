@@ -1,1 +1,0 @@
-function set(&$holder, &$y) {\n    $holder['ref'] =& $y[2];\n}\n\n$y = array(\n    0,\n    1,\n    array('something')\n);\n\n$holder = array();\nset($holder, $y);\n\n$x =& $holder['ref'];\n\nprint "\n2. now, x is: ";\nprint_r($x);

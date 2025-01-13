@@ -1,1 +1,0 @@
-CREATE TABLE your_table_order (\n  id INT PRIMARY KEY,\n  your_table_id INT,\n  DisplayOrder INT\n);

@@ -1,1 +1,0 @@
-function custom_wp_list_pages($args) {\n    $output = wp_list_pages($args);\n    if (is_front_page()) {\n        $output = str_replace('<li class="page_item', '<li class="page_item current_page_item', $output);\n    }\n    return $output;\n}\n\necho custom_wp_list_pages('exclude=2&title_li=&depth=1');

@@ -1,1 +1,0 @@
--- Retrieve top 1000 rows\nSELECT TOP 1000 *\nFROM your_table\nWHERE your_conditions;\n\n-- Retrieve total count of rows (async)\nSELECT COUNT(*)\nFROM your_table\nWHERE your_conditions;

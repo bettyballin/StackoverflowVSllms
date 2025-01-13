@@ -1,1 +1,0 @@
-_onFocus: function(evt) {\n    evt.target.select();\n}

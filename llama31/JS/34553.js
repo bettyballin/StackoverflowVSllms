@@ -1,1 +1,0 @@
-var editor = CodeMirror.fromTextArea(document.getElementById("code"), {\n  mode: "css",\n  theme: "default",\n  lineNumbers: true\n});

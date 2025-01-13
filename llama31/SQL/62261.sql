@@ -1,1 +1,0 @@
-UPDATE T1\nSET WorkerName = T2.WorkerID\nFROM T1\nINNER JOIN T2\nON SUBSTRING(T1.WorkerName, 1, CHARINDEX(',', T1.WorkerName) - 1) = T2.WorkerName

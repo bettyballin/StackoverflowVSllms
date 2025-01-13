@@ -1,1 +1,0 @@
-$('div').text(); // gets the text content of a div\n$('p').text(); // gets the text content of a paragraph

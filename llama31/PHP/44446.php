@@ -1,1 +1,0 @@
-$t = new Zend_Form_Element_Select(....);\n$t->setDecorators(array());\necho $t->render();

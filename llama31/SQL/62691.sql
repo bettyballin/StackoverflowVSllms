@@ -1,1 +1,0 @@
-SELECT \n    CASE \n        WHEN YourColumn IS NOT NULL THEN 'true'\n        ELSE 'false'\n    END AS IsNotNUll\nFROM YourTable;

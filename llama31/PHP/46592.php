@@ -1,1 +1,0 @@
-use PHPMailer\PHPMailer\PHPMailer;\n\n$mail = new PHPMailer();\n$mail->isSMTP();\n$mail->Host = 'smtp.example.com';\n$mail->Username = 'your_username';\n$mail->Password = 'your_password';\n$mail->Subject = 'Test Email';\n$mail->Body = 'Hello, World!';\n$mail->AddAttachment('path/to/attachment.pdf');\n$mail->send();

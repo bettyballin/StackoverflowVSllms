@@ -1,1 +1,0 @@
-intval($value)

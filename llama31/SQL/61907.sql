@@ -1,1 +1,0 @@
-SELECT \n    c.name, \n    c.computed\nFROM \n    syscolumns c\nWHERE \n    c.id = OBJECT_ID('your_table_name')\n    AND c.computed = 1

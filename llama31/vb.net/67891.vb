@@ -1,1 +1,0 @@
-Dim inputString As String\ninputString = "text with ¶ character"\n\nDim cleanedString As String\ncleanedString = RegExp.Replace(inputString, "[^\x20-\x7E]", "")\n\n' cleanedString now contains the input string without any non-printable characters

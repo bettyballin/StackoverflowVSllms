@@ -1,1 +1,0 @@
-SELECT \n  TO_CHAR(TRUNC(Registered_on, 'HH24'), 'DD-MON-YY') || ' : ' || \n  TO_CHAR(TRUNC(Registered_on, 'HH24'), 'HH24') || ' - ' || \n  TO_CHAR(TRUNC(Registered_on, 'HH24') + INTERVAL '1' HOUR, 'HH24') || ' : ' || \n  COUNT(*) AS registrations\nFROM \n  employeeReg\nGROUP BY \n  TRUNC(Registered_on, 'HH24')\nORDER BY \n  TRUNC(Registered_on, 'HH24');

@@ -1,1 +1,0 @@
-function trim(str) {\n    return str.replace(/^\s+|\s+$/g, '');\n}

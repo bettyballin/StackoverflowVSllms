@@ -1,1 +1,0 @@
-:r $(DeploymentDirectory)\DataScripts\script1.sql\n:r $(DeploymentDirectory)\DataScripts\script2.sql

@@ -1,1 +1,0 @@
-echo '<a href=\'../\' title=\'link title\'>' . $link_text . '</a>';

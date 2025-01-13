@@ -1,1 +1,0 @@
-require_once('tcpdf.php');\n$pdf = new TCPDF();\n$pdf->AddPage();\n$pdf->writeHTML($html);\n$pdf->Output('example.pdf', 'I');

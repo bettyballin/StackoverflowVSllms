@@ -1,1 +1,0 @@
-require 'watir-webdriver'\n\nCapybara.default_driver = :watir\nCapybara.register_driver :watir do |app|\n  Watir::Browser.new(app)\nend

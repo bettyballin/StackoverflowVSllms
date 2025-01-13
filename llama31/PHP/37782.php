@@ -1,1 +1,0 @@
-$imageInfo = getimagesize($imagePath);\nif ($imageInfo[0] > 1024 || $imageInfo[1] > 768) {\n    // Image dimensions exceed the allowed limit (1024x768)\n    // Handle the error or resize the image\n}

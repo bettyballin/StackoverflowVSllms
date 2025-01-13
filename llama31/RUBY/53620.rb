@@ -1,1 +1,0 @@
-class Product < ActiveRecord::Base\n  attribute :recycled, :boolean\n\n  def recycled?\n    self.recycled == 'Y'\n  end\n\n  def recycled=(value)\n    self.write_attribute(:recycled, value ? 'Y' : 'N')\n  end\nend

@@ -1,1 +1,0 @@
-$result = $handle->select()\n                 ->from('store_details')\n                 ->reset(Zend_Db_Select::COLUMNS)\n                 ->columns('store_details.store_name')\n                 ->where('store_details.store_id=?', $id);

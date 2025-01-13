@@ -1,1 +1,0 @@
-$query = mysql_query("\n    SELECT CONCAT(fname,', ',sname) AS name, email.address AS email\n    FROM contacts\n    LEFT JOIN emails ON contacts.contactID = email.contactID\n");

@@ -1,1 +1,0 @@
-if (!preg_match('/^\d+$/', $quantity)) {\n    // redirect or handle invalid input\n    echo "is not numeric";\n}

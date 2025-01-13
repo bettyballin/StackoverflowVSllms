@@ -1,1 +1,0 @@
-class ErrorController extends Zend_Controller_Action\n{\n    public function errorAction()\n    {\n        $errors = $this->_getParam('error_handler');\n        if ($errors->type == Zend_Controller_Plugin_ErrorHandler::EXCEPTION_NO_ACTION) {\n            // Render a custom 404 page\n            $this->view->render('404');\n        }\n    }\n}

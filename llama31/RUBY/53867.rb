@@ -1,1 +1,0 @@
-module UsefulThings\n  def get_file; ... end\n  def delete_file; ... end\n\n  def format_text(x); ... end\nend\n\n# Now you can call format_text on the module using send\nUsefulThings.send(:format_text, "abc")

@@ -1,1 +1,0 @@
-REPAIR TABLE your_table_name QUICK;

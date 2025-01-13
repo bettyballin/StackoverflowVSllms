@@ -1,1 +1,0 @@
-<configuration>\n  <system.webServer>\n    <httpErrors>\n      <remove statusCode="404" />\n      <error statusCode="404" path="/404.aspx" responseMode="ExecuteURL" redirect="http://www.mysite.com:1234/404.aspx" />\n    </httpErrors>\n  </system.webServer>\n</configuration>

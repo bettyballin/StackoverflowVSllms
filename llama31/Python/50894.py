@@ -1,1 +1,0 @@
-#!/usr/bin/python\n\nimport time\nimport sys\n\nprint "HTTP/1.1 200 OK\r\n"\nprint "Content-type: text/plain\r\n"\nprint "\r\n"\n\nfor i in range(1, 10):\n    print i\n    sys.stdout.flush()\n    time.sleep(1)\n\nprint "Done."

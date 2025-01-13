@@ -1,1 +1,0 @@
-function doStuff() {\n    $(document).ready(function() {\n        var txtRcaNotes = $('#<%= txtRcaNotes.ClientID %>');\n        txtRcaNotes.hide();\n        alert(txtRcaNotes.attr('id'));\n    });\n}

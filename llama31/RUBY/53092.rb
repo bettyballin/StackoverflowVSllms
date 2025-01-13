@@ -1,1 +1,0 @@
-class Entry < ActiveRecord::Base\n  # ...\n\n  validates_associated :tags\nend

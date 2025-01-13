@@ -1,1 +1,0 @@
-$.ajax({\n  type: 'GET',\n  url: 'your-url-here',\n  success: function(data) {\n    var jsonData = JSON.parse(data); // Manual parsing\n    $.each(jsonData, function(index, itemData) {\n      console.log(itemData.TEST1);\n      console.log(itemData.TEST2);\n      console.log(itemData.TEST3);\n    });\n  }\n});

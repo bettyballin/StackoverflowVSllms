@@ -1,1 +1,0 @@
-$books = $this->db->get('books')->result();\nforeach ($books as $book) {\n    $tags = $this->db->get_where('bookstags', array('bookid' => $book->bookid))->result();\n    $book->tags = array();\n    foreach ($tags as $tag) {\n        $book->tags[] = $this->db->get_where('tags', array('tagid' => $tag->tagid))->row()->tagname;\n    }\n}\n$data['books'] = $books;

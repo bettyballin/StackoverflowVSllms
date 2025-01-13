@@ -1,1 +1,0 @@
-Dim x As Integer = IIF(SomeBoolean, ExpensiveDatabaseQuery(), CachedResult)

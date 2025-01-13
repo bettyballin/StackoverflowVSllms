@@ -1,1 +1,0 @@
-if (headers_sent()) {\n    echo 'Headers already sent!';\n    exit;\n}

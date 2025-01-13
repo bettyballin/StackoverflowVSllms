@@ -1,1 +1,0 @@
-DBCC SHRINKFILE ('FogBugz_log', 1)

@@ -1,1 +1,0 @@
-public function deletepostAction() {\n    $request = $this->getRequest();\n    $formUrl = $request->getPost('formUrl');\n    // ...\n}

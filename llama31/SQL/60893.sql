@@ -1,1 +1,0 @@
-CREATE SEQUENCE MySequence\n    START WITH 1\n    INCREMENT BY 1;\n\nINSERT INTO tableOfStuff (someStuff, uniqueID)\nVALUES ('stuff', NEXT VALUE FOR MySequence);

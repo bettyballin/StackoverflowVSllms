@@ -1,1 +1,0 @@
-abstract class MyBaseClass {\n    protected function myMethod(...$args) {\n        throw new BadMethodCallException('Must be implemented by child class');\n    }\n}\n\nclass ChildClass extends MyBaseClass {\n    public function myMethod($arg1, $arg2) {\n        // implementation\n    }\n}

@@ -1,1 +1,0 @@
-function aes_encrypt($plain_text, $key, $iv) {\n    $cipher = 'aes-128-cbc';\n    $options = 0;\n\n    $encrypted_data = openssl_encrypt($plain_text, $cipher, $key, $options, $iv);\n\n    return base64_encode($encrypted_data);\n}

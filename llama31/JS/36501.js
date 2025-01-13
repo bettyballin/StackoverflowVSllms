@@ -1,1 +1,0 @@
-$('select').each(function() {\n    var $select = $(this);\n    var $options = $select.find('option');\n\n    // ... rest of your code ...\n});

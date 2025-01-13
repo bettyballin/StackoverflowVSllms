@@ -1,1 +1,0 @@
-SELECT \n  UPPER(firstname) AS uppercase_firstname,\n  LOWER(firstname) AS lowercase_firstname\nFROM \n  Person;

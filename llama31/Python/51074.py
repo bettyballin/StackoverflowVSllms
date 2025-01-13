@@ -1,1 +1,0 @@
-sorted_channel_data = sorted(channel_data.items())

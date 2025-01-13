@@ -1,1 +1,0 @@
--- MS Access validation rule: [Field1] > [Field2]\n-- SQL Server equivalent:\nALTER TABLE MyTable\nADD CONSTRAINT CK_MyTable_Field1_Field2 CHECK (Field1 > Field2);

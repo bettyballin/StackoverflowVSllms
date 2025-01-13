@@ -1,1 +1,0 @@
-SELECT * FROM foo WHERE date = CAST('2009-09-09' AS DATE)

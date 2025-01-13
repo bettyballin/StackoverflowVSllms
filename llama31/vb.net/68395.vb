@@ -1,1 +1,0 @@
-Try\n    If CheckIfFileExists(url) Then\n        Console.WriteLine("File exists")\n    Else\n        Console.WriteLine("File does not exist")\n    End If\nCatch ex As WebException\n    Console.WriteLine("Error: " & ex.Message)\nEnd Try

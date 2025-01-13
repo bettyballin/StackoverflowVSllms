@@ -1,1 +1,0 @@
-$sock = socket_create(AF_INET, SOCK_STREAM, SOL_TCP);\nsocket_set_option($sock, SOL_SOCKET, SO_REUSEADDR, 1);

@@ -1,1 +1,0 @@
-function testParam($fruit, $veg = 'pota', $test = 'default test') {\n    if ($veg === null) {\n        $veg = 'pota';\n    }\n    echo '<br>$fruit = ' . $fruit;\n    echo '<br>$veg = ' . $veg;\n    echo '<br>Test = ' . $test;\n}\n\ntestParam('apple', null, 'i am set');

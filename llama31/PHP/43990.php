@@ -1,1 +1,0 @@
-$pages = array(\n    'about' => 'about.php',\n    'help' => 'help.php',\n    'login' => 'login.php',\n);\n\nif (isset($_GET['page']) && array_key_exists($_GET['page'], $pages)) {\n    include $pages[$_GET['page']];\n} elseif (ctype_digit($_GET['shownews'])) {\n    include 'shownews.php';\n} elseif (ctype_digit($_GET['showuser'])) {\n    include 'showuser.php';\n}

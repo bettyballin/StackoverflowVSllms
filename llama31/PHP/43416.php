@@ -1,1 +1,0 @@
-<div class="breadcrumbs">\n    <?php echo $this->navigation()->breadcrumbs()->render(); ?>\n</div>

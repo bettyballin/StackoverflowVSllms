@@ -1,1 +1,0 @@
-// Client-side example (JavaScript)\nconst socket = new WebSocket('ws://example.com/ws');\nsocket.onmessage = (event) => {\n  // Update the page with the received data\n};\nsocket.send('subscribe', ['votes', 'comments', 'messages']);

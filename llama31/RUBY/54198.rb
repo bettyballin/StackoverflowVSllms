@@ -1,1 +1,0 @@
-if ENV['COLORTERM'] == 'gnome-terminal' || ENV['TERM'] == 'xterm-256color'\n  # You're likely running in Gnome Terminal\nelse\n  # You're likely running in a different terminal\nend

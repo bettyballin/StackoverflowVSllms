@@ -1,1 +1,0 @@
-function updateHtml(moveDescription) {\n  // Update the HTML with the move description\n  document.getElementById("move-log").innerHTML += moveDescription + "<br>";\n}

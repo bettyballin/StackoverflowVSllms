@@ -1,1 +1,0 @@
-# queries.py\nQUERY_GET_USER_DATA = """\n    SELECT *\n    FROM users\n    WHERE id = %s\n"""\n\nQUERY_GET_ORDER_HISTORY = """\n    SELECT *\n    FROM orders\n    WHERE user_id = %s\n"""

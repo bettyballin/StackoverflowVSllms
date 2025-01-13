@@ -1,1 +1,0 @@
-use String\match;\n\nmatch($string1, $string2);

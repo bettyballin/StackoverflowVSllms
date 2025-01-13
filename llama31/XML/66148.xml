@@ -1,1 +1,0 @@
-<rss version="2.0">\n  <channel>\n    <item>\n      <title>StackOverflow Podcast Episode 123</title>\n      <link>https://example.com/podcast/episode123.mp3</link>\n      <played>true</played>\n      <unread>false</unread>\n    </item>\n  </channel>\n</rss>

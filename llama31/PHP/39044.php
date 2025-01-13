@@ -1,1 +1,0 @@
-if (isset($_POST["id_tuto"])) {\n    $htmlFile = $_POST["id_tuto"] . '.html';\n    if (file_exists($htmlFile)) {\n        echo file_get_contents($htmlFile);\n    } else {\n        echo 'Error: File not found.';\n    }\n}

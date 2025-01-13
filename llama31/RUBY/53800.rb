@@ -1,1 +1,0 @@
-begin\n  # submit the form\n  click_button "Submit"\nrescue Webrat::ExternalRequestError => e\n  # verify the redirect URL\n  assert_match /https?:\/\/amazon\.com/, e.request_url\nend

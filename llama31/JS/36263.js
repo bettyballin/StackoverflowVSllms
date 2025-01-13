@@ -1,1 +1,0 @@
-var newWindow = window.open('', 'SecondWindow', 'toolbar=0,stat=0');\nnewWindow.document.write('<html><head><link href="styles/style.css" rel="stylesheet" type="text/css"></head><body><p class="verystylish">Hello world!</p></body></html>');\nnewWindow.document.close();

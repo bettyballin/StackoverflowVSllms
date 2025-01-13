@@ -1,1 +1,0 @@
-SELECT \n  m.movie_id,\n  m.movie_name,\n  m.movie_genres,\n  GROUP_CONCAT(g.genre_name ORDER BY FIND_IN_SET(g.genre_id, m.movie_genres)) AS movie_genre_names\nFROM \n  movies m\n  LEFT JOIN genres g ON FIND_IN_SET(g.genre_id, m.movie_genres)\nGROUP BY \n  m.movie_id, m.movie_name, m.movie_genres

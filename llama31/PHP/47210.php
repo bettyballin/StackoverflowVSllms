@@ -1,1 +1,0 @@
-$file_path = 'path/to/your/file.txt';\nif (is_ascii($file_path)) {\n    echo "File is ASCII.";\n} else {\n    echo "File is binary.";\n}

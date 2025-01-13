@@ -1,1 +1,0 @@
-// This will not work, as the SSID is not exposed through the browser's APIs\nnavigator.network.getSSID((ssid) => {\n  console.log(ssid);\n});

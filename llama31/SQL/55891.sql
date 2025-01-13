@@ -1,1 +1,0 @@
-ALTER LOGIN [login_name] WITH PASSWORD = 'new_password';

@@ -1,1 +1,0 @@
-function CallShowMsg(sender, e) {\n    ShowMsg(500, 700, "you owe us money");\n}

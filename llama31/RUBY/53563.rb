@@ -1,1 +1,0 @@
-def gen_link(path)\n  prefix = request.headers['X-Forwarded-Prefix']\n  "#{prefix}#{path}"\nend

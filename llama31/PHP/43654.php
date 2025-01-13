@@ -1,1 +1,0 @@
-echo '<div id="job_details">';\n    echo $form->label('jobtitle', 'Job Title');\n    echo '<input type="text" name="jobtitle" id="jobtitle">';\n    echo $form->label('department', 'Department');\n    echo '<input type="text" name="department" id="department">';\necho '</div>';

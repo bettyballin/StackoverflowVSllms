@@ -1,1 +1,0 @@
-try:\n    value = int(rowColumn[1][3].replace(',','').strip('$'))\nexcept ValueError:\n    value = None  # or any other default value you want to use

@@ -1,1 +1,0 @@
-var getLetters = presenter.GetLetters.bind(presenter);\nvar response = getLetters(parameters);

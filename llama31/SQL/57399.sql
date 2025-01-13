@@ -1,1 +1,0 @@
-CREATE TABLE PhoneNumbers (\n    Id INT PRIMARY KEY,\n    ContactId INT FOREIGN KEY REFERENCES Contacts(Id),\n    PhoneNumber NVARCHAR(22),\n    Description NVARCHAR(100)\n);\n\nCREATE INDEX idx_PhoneNumber ON PhoneNumbers (PhoneNumber);

@@ -1,1 +1,0 @@
-$('#trigger').hover(function() {\n  $('#popup').show();\n}, function() {\n  $('#popup').hide();\n});\n\n$('#popup').hover(function() {\n  $(this).show();\n}, function() {\n  $(this).hide();\n});

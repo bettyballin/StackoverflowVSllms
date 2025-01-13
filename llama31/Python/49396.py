@@ -1,1 +1,0 @@
-from flask import request\n\n@app.route('/widget/<int:id>', methods=['POST'])\ndef delete_widget(id):\n    if request.form.get('_method') == 'delete':\n        # Handle DELETE request\n        pass

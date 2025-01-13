@@ -1,1 +1,0 @@
-$view->headScript()\n    ->prependFile("http://maps.google.com/maps?file=api&amp;v=2&amp;key=ABQIAAAAfINi4Ug3nkoREt524GX3ABSFqzY8bf3muCS1IE0M5aBPGVvVxRRzm1PmTbIwi_tXaNcSoONdlIx_sA")\n    ->appendFile('/static/js/jquery-1.3.2.min.js')\n    ->appendFile('/static/js/jquery-ui-1.7.1.min.js');

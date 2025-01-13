@@ -1,1 +1,0 @@
-My.Computer.FileSystem.ReadAllText("c:\mytextfile.txt")\n' maps to\nSystem.IO.File.ReadAllText("c:\mytextfile.txt")

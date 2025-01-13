@@ -1,1 +1,0 @@
-amespace MyFramework;\n\nclass Router {\n    // routing functionality\n}\n\nclass Database {\n    // database abstraction\n}\n\nclass Email {\n    // email helper functions\n}\n\n// etc.

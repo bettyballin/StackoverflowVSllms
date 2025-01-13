@@ -1,1 +1,0 @@
-CREATE TYPE parent_type AS OBJECT (\n  parent_id NUMBER,\n  parent_name VARCHAR2(50)\n);\n\nCREATE TYPE child_type AS OBJECT (\n  child_id NUMBER,\n  child_name VARCHAR2(50),\n  parent_ref REF parent_type\n);\n\nCREATE TABLE parents OF parent_type;\nCREATE TABLE children OF child_type;

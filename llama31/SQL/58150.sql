@@ -1,1 +1,0 @@
-BACKUP DATABASE [database_name] TO BACPAC = 'backup_file.bacpac';

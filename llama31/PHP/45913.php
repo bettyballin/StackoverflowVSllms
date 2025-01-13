@@ -1,1 +1,0 @@
-$url = 'http://example.com';\n$headers = get_headers($url, 1);\n$status_code = substr($headers[0], 9, 3);\n\necho $status_code;

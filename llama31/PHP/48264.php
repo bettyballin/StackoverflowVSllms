@@ -1,1 +1,0 @@
-$alphabetArray = array();\n\nwhile ($fields = db_fetch_array($results)) {\n    foreach($fields as $key => $value) {\n        $alphabetArray[] = $value;\n    }\n}\n\n$alphabetString = implode('', $alphabetArray);

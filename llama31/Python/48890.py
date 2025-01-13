@@ -1,1 +1,0 @@
-reserved_words = ["about", "contact", "admin", "login", etc.]\n\ndef validate_username(username):\n    if username in reserved_words:\n        return False\n    return True

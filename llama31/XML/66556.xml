@@ -1,1 +1,0 @@
-// web.config\n<configuration>\n  <system.web>\n    <sessionState mode="StateServer" stateConnectionString="tcpip=SessionStateServer:42424" />\n  </system.web>\n  <system.net>\n    <connectionManagement>\n      <add address="*" maxconnection="100" />\n    </connectionManagement>\n  </system.net>\n</configuration>

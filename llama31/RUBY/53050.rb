@@ -1,1 +1,0 @@
-# patch.rb\n\nrequire 'bundler/patch'\n\nBundler::Patch.patch 'gem_name' do\n  # your patch code here\nend

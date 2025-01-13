@@ -1,1 +1,0 @@
-Public Sub AssertButtonExists(buttonId As String)\n    Try\n        Assert.That(_internetExplorer.Button(Find.ById(New Regex(buttonId))).Exists, Is.True)\n    Catch ex As Exception\n        d_logger.LogResultTextFile($"Button {buttonId} does not exist", True, False)\n    End Try\nEnd Sub

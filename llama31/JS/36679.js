@@ -1,1 +1,0 @@
-const express = require('express');\nconst app = express();\n\napp.use((req, res, next) => {\n  const start = Date.now();\n  next();\n  const end = Date.now();\n  const processingTime = end - start;\n  console.log(`Request processing time: ${processingTime} ms`);\n});\n\napp.get('/', (req, res) => {\n  // Your application logic here\n  res.send('Hello, World!');\n});

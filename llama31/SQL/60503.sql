@@ -1,1 +1,0 @@
-SELECT o.name, c.id AS car_id\nFROM owners o\nJOIN car_owner_history coh ON o.id = coh.owner_id\nJOIN cars c ON coh.car_id = c.id\nWHERE coh.start_date <= ? AND (coh.start_date = (SELECT MAX(start_date) FROM car_owner_history WHERE car_id = c.id AND start_date <= ?))

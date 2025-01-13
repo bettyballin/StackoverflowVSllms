@@ -1,1 +1,0 @@
-DECLARE @date DATETIME = '2008-11-19'\n\nSELECT DATEADD(dd, -1, DATEADD(qq, DATEDIFF(qq, 0, @date), 0)) AS LastDayOfPriorQuarter

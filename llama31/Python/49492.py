@@ -1,1 +1,0 @@
-import doctest\ndoctest.ELLIPSIS = True\ndoctest.NORMALIZE_WHITESPACE = True

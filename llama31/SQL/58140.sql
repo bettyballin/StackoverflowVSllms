@@ -1,1 +1,0 @@
-CREATE PROCEDURE get_orders_by_customer(\n  @customer_id INT\n)\nAS\nBEGIN\n  SELECT * FROM orders WHERE customer_id = @customer_id;\nEND;

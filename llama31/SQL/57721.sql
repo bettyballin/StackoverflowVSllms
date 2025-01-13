@@ -1,1 +1,0 @@
-declare @x xml\nset @x='<root><a>123</a></root>'\nselect @x.exist('/text()[xs:int(.)]')

@@ -1,1 +1,0 @@
-import requests\nimport time\n\ndef stress_test(url, num_requests, delay):\n    for i in range(num_requests):\n        requests.get(url)\n        time.sleep(delay)\n\nstress_test("https://example.com", 1000, 0.1)

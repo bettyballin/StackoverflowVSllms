@@ -1,1 +1,0 @@
-var users = JSON.parse(window.returnValue);

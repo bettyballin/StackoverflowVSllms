@@ -1,1 +1,0 @@
-var myimages=[\n    "http://sevir.sitegoz.com/jchs/Banner1.png",\n    "http://sevir.sitegoz.com/jchs/banner2.png",\n    "http://sevir.sitegoz.com/jchs/banner3.png",\n    "http://sevir.sitegoz.com/jchs/banner4.png",\n    "http://sevir.sitegoz.com/jchs/banner5.png",\n    "http://sevir.sitegoz.com/jchs/banner6.png"\n]

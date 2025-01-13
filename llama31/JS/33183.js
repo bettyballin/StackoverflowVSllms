@@ -1,1 +1,0 @@
-// Assuming your table has an ID of "myTable"\n$("#myTable").width("100%");

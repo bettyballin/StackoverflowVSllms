@@ -1,1 +1,0 @@
-// Generate a cryptographically secure pseudo-random ID\n$record_id = bin2hex(random_bytes(16));\n\n// or, use a hash function to transform the auto-incrementing ID\n$record_id = hash('sha256', $auto_increment_id);

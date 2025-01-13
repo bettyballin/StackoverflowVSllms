@@ -1,1 +1,0 @@
-import socket\n\ndef send_command(command, port=8080):\n    client_socket = socket.socket(socket.AF_INET, socket.SOCK_STREAM)\n    client_socket.connect(('localhost', port))\n    client_socket.send(command.encode())\n    client_socket.close()\n\n# Usage\nsend_command("my_command arg1 arg2")

@@ -1,1 +1,0 @@
-CREATE OR REPLACE PROCEDURE <procedure_name> AS\n  -- your updated procedure code here\n/

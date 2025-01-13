@@ -1,1 +1,0 @@
-SELECT t2.*\nFROM tbl2 t2\nWHERE t2.id NOT IN (\n  SELECT t3.tbl2_id\n  FROM tbl3 t3\n  WHERE t3.tbl1_id = ?  -- replace with the selected value from tbl1\n)

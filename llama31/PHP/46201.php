@@ -1,1 +1,0 @@
-// another file\nrequire_once 'some_path/db-com.php';

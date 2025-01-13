@@ -1,1 +1,0 @@
-const XMPP = require('xmpp.js');\n\nconst conn = new XMPP.Client({\n  jid: 'your_username@your_jabber_server',\n  password: 'your_password',\n  host: 'your_jabber_server',\n  port: 5222\n});\n\nconn.on('stanza', (stanza) => {\n  if (stanza.is('message')) {\n    // Process incoming message\n  }\n});

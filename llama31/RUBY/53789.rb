@@ -1,1 +1,0 @@
-require 'twitter/oauth'\n\noauth = Twitter::OAuth.new(ServiceAPIKeys.twitter['api_key'], ServiceAPIKeys.twitter['secret_key'])

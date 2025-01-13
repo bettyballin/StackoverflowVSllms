@@ -1,1 +1,0 @@
-Factory.define :activated_user, :parent => :user do |f|\n  f.active 1\n  # Add any other attributes that are set during activation\nend

@@ -1,1 +1,0 @@
-Namespace Books\n    Public Class Book\n        Inherits Base.BaseElement\n        ' SubElements is not accessible here\n    End Class\nEnd Namespace

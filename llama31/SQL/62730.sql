@@ -1,1 +1,0 @@
-CREATE TYPE MyIdType FROM INT;\n\nDECLARE @myVar MyIdType;

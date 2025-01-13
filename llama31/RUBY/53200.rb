@@ -1,1 +1,0 @@
-hash = {"a" => "b", "c" => "d"}\nnew_hash = hash.transform_values(&:upcase)\nputs new_hash  # => {"a"=>"B", "c"=>"D"}

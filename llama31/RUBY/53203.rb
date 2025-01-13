@@ -1,1 +1,0 @@
-User.where(name: 'John').select('id, name').limit(10)

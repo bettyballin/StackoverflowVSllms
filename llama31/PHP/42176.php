@@ -1,1 +1,0 @@
-App::uses('Configure', 'Core');\n/configure::read('Database');\n$config = Configure::read('Database');\n$username = $config['db1']['login'];\n$password = $config['db1']['password'];

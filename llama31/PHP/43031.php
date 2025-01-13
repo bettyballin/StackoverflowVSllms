@@ -1,1 +1,0 @@
-$sessionId = $_POST['token'];\nsession_id($sessionId);\nsession_start();

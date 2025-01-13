@@ -1,1 +1,0 @@
-$element->addAttrib('class', 'rich');

@@ -1,1 +1,0 @@
-CREATE PROCEDURE CreateTableAndSetIdentityInsert\nAS\nBEGIN\n    CREATE TABLE TableName (...);\n    SET IDENTITY_INSERT TableName ON;\nEND;\nGO\n\nEXECUTE CreateTableAndSetIdentityInsert;

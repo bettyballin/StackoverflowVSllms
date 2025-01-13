@@ -1,1 +1,0 @@
-$tempDir = sys_get_temp_dir();\n$file = $tempDir . '/' . basename($_FILES['upfile']['tmp_name']);

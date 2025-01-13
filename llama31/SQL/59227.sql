@@ -1,1 +1,0 @@
-USE [SharePoint_Config]\nGO\nEXEC sp_addrolemember @rolename='db_owner', @membername='[YourAppPoolAccount]'\n\nUSE [YourSiteCollectionDatabase]\nGO\nEXEC sp_addrolemember @rolename='db_owner', @membername='[YourAppPoolAccount]'

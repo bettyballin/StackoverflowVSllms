@@ -1,1 +1,0 @@
-<select id="states" name="states" multiple>\n    @foreach (var state in Model.States)\n    {\n        <option value="@state.Id">@state.Name</option>\n    }\n</select>

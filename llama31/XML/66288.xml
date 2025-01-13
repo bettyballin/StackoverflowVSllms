@@ -1,1 +1,0 @@
-<renderer mime="application/pdf">\n  <fonts>\n    <base14 name="CustomFont" \n      kerning="yes" embed-url="CustomFont.ttf">\n      <font-triplet name="CustomFont" style="normal" weight="normal"/>\n    </base14>\n  </fonts>\n</renderer>

@@ -1,1 +1,0 @@
-xdebug_start_profiling();

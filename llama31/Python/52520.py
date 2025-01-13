@@ -1,1 +1,0 @@
-def alert_on_chatbot_training_data(data, conditions):\n    # Set up data alerting mechanisms to notify stakeholders\n    alerts = alert_on_data(data, conditions)\n    return alerts

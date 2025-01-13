@@ -1,1 +1,0 @@
-var \u006e\u006f\u006d\u0041\u0070\u0070 = "Microsoft";\nconsole.log(\u006e\u006f\u006d\u0041\u0070\u0070);  // Outputs: "Microsoft"

@@ -1,1 +1,0 @@
-DECLARE @TempTable TABLE (Column1 INT, Column2 VARCHAR(50))\n\nINSERT INTO @TempTable\nEXEC YourStoredProcedure

@@ -1,1 +1,0 @@
-RESTORE LOG [DB-Name] FROM DISK = 'path/to/log/backup' WITH NORECOVERY

@@ -1,1 +1,0 @@
-CREATE TABLE example (\n    id int CHECK (id >= 0)\n);

@@ -1,1 +1,0 @@
-// external JavaScript file\nfunction myFunction(controlId) {\n  var list = $get(controlId);\n  // ...\n}\n\n// ASP.NET page\n<script>\n  myFunction('<%= Topics.ClientID %>');\n</script>

@@ -1,1 +1,0 @@
-SELECT \n  COALESCE(d.owner, c.owner) AS owner, \n  COUNT(d.dog_name) AS num_dogs, \n  COUNT(c.cat_name) AS num_cats\nFROM \n  dogs d\n  FULL OUTER JOIN cats c ON d.owner = c.owner\nGROUP BY \n  COALESCE(d.owner, c.owner)

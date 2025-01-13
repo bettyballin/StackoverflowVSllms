@@ -1,1 +1,0 @@
-$string = "Me meets smeg";\n$pattern = '/\bme\b/i';\n$replacement = 'xxx';\n\n$result = preg_replace($pattern, $replacement, $string);\n\necho $result; // Output: xxx meets smeg

@@ -1,1 +1,0 @@
-<HandleError(ExceptionType:=GetType(SecurityException), View:="SecurityError")> _\nPublic Class HomeController

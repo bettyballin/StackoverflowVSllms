@@ -1,1 +1,0 @@
-$.ajax({\n    url: 'http://www.mydomain.com/announcements/list/10',\n    success: function(data) {\n        // process the data\n    }\n});

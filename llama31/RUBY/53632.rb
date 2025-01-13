@@ -1,1 +1,0 @@
-res.size == 0 ? (raise LibTH::Error::IDNotFound) : res

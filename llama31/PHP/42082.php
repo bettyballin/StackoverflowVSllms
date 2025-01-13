@@ -1,1 +1,0 @@
-$file = 'path/to/your/file.php';\n$contents = file_get_contents($file);\n\nif (substr($contents, 0, 3) === "\xef\xbb\xbf") {\n    // BOM detected, remove it\n    $contents = substr($contents, 3);\n    file_put_contents($file, $contents);\n}

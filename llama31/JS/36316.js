@@ -1,1 +1,0 @@
-this.whereAreWe = document.getElementById('where_are_we');\nthis.whereAreWe.addEventListener('click', function(event) {\n  event.preventDefault();\n  // your code here\n}, false);

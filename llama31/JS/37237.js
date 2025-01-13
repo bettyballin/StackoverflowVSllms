@@ -1,1 +1,0 @@
-const inputElement = document.getElementById('myInput');\nconst form = inputElement.form;

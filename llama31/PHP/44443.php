@@ -1,1 +1,0 @@
-$selenium->waitForElementPresent('input[id="inputId"]', $timeout);

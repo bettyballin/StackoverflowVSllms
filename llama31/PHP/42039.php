@@ -1,1 +1,0 @@
-// Example of dependency injection using Laravel's IoC container\nuse Illuminate\Contracts\Foundation\Application;\n\n$app = new Application();\n$logger = $app->make('log');

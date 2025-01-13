@@ -1,1 +1,0 @@
-header('X-Frame-Options: SAMEORIGIN');

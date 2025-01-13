@@ -1,1 +1,0 @@
-$sql = "INSERT INTO $tableName (userid, friendid, status, submit_date) VALUES ...";

@@ -1,1 +1,0 @@
-<?php\n// Create a new Swish object\n$swish = new Swish('path/to/index');\n\n// Set the search query\n$query = 'search term';\n\n// Execute the search\n$results = $swish->query($query);\n\n// Print the results\nforeach ($results as $result) {\n    echo $result->getTitle() . "\n";\n    echo $result->getUrl() . "\n";\n    echo $result->getSummary() . "\n\n";\n}\n?>

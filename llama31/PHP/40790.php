@@ -1,1 +1,0 @@
-spl_autoload_register(function ($class) {\n    $file = __DIR__ . '/' . str_replace('\\', '/', $class) . '.php';\n    if (file_exists($file)) {\n        require $file;\n    }\n});

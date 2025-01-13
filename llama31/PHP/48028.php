@@ -1,1 +1,0 @@
-// Example using PHP's `get_browser` function\n$browserInfo = get_browser($_SERVER['HTTP_USER_AGENT'], true);\n$deviceFingerprint = json_encode($browserInfo);\n// Store $deviceFingerprint in user's session or database

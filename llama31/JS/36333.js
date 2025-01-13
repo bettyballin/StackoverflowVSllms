@@ -1,1 +1,0 @@
-// Measure time to first paint (TTFP)\nperformance.mark('start');\n// Your content rendering code here\nperformance.mark('end');\nperformance.measure('TTFP', 'start', 'end');\n\n// Measure time to interactive (TTI)\nperformance.mark('interactive');\n// Your interactive code here (e.g., event listeners)\nperformance.measure('TTI', 'start', 'interactive');

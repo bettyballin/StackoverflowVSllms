@@ -1,1 +1,0 @@
-<garbage-collection>\n  <enabled>true</enabled>\n  <interval>300</interval> <!-- run garbage collection every 5 minutes -->\n</garbage-collection>

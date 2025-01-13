@@ -1,1 +1,0 @@
-// Show the overlay\nfunction showOverlay() {\n  document.getElementById('overlay').style.display = 'block';\n}

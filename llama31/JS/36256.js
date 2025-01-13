@@ -1,1 +1,0 @@
-function getElementById(id) {\n  return document.getElementById(id);\n}\n\n// Usage\nvar element = getElementById('myId');

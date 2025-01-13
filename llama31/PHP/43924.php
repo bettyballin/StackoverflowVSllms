@@ -1,1 +1,0 @@
-function is_multidimensional(array $array): bool {\n    return count(array_filter($array, 'is_array')) > 0;\n}\n\n// Example usage:\n$array1 = [1, 2, 3];\n$array2 = [1, [2], 3];\n\nvar_dump(is_multidimensional($array1)); // bool(false)\nvar_dump(is_multidimensional($array2)); // bool(true)

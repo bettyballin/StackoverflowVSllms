@@ -1,1 +1,0 @@
-var newItem = "<li>" + $("#Projects :selected").text() + " <span class='removeProject' projectId='" + $("#Projects").val() + "'>Remove</span>" + "</li>";\nvar sortedList = $("#projectList li").add(newItem).sort(function(a, b) {\n    return $(a).text().localeCompare($(b).text());\n});\n$("#projectList").html(sortedList);

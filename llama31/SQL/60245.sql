@@ -1,1 +1,0 @@
-CREATE INDEX search_results_idx ON search_results (search_result) INDEXTYPE IS CTXSYS.CONTEXT;

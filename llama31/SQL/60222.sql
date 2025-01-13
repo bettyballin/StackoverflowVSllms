@@ -1,1 +1,0 @@
-CREATE PROCEDURE YourProcedure\n    @ID INT,\n    @ContactName1 VARCHAR(50),\n    @Designation1 VARCHAR(50),\n    @ContactName2 VARCHAR(50),\n    @Designation2 VARCHAR(50)\nAS\nBEGIN\n    INSERT INTO YourTable (ID, ContactName, Designation)\n    SELECT @ID, @ContactName1, @Designation1\n    UNION ALL\n    SELECT @ID, @ContactName2, @Designation2;\nEND;

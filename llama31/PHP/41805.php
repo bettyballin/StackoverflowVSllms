@@ -1,1 +1,0 @@
-$mysqli = new mysqli('host', 'username', 'password', 'database');\n$mysqli->set_charset('utf8mb4');\n\n$query = "SELECT text FROM table";\n$result = $mysqli->query($query);\n\nwhile ($row = $result->fetch_assoc()) {\n    $text = $row['text'];\n    echo htmlspecialchars($text, ENT_QUOTES, 'UTF-8');\n}

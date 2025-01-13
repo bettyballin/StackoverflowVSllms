@@ -1,1 +1,0 @@
-shuffle($images);\n$boxes = array_slice($images, 0, 5);\n\nforeach ($boxes as $box) {\n    echo "<a href='" . $box[1] . "'><img src='" . $box[0] . "' /></a>";\n}

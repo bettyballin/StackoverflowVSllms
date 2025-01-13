@@ -1,1 +1,0 @@
-f = Frame(root, width=1000, bg="blue")\nf.pack(fill=X, expand=True)\nf.pack_propagate(False)  # Add this line\n\nl = Label(f, text="hi", width=10, bg="red", fg="white")\nl.pack()

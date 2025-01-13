@@ -1,1 +1,0 @@
-$font = 'arial.ttf';\n$fontsize = 12;\n$text = 'CompanyID';\n\n$bbox = imagettfbbox($fontsize, 0, $font, $text);\n$width = $bbox[2] - $bbox[0];\n\necho "Estimated width in pixels: $width";

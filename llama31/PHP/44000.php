@@ -1,1 +1,0 @@
-$headers .= "Content-Disposition: inline; filename=\"$mime_boundary.html\"\n";

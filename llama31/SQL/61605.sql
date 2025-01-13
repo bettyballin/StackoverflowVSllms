@@ -1,1 +1,0 @@
-SELECT name \nFROM user \nWHERE LOCATE(LOWER(name), LOWER('John Smith and Peter Johnson are best friends')) > 0;

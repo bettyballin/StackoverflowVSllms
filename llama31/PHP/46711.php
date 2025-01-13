@@ -1,1 +1,0 @@
-include $getFile;\n\n// Access the variables\necho $extCss;\necho $title;\necho $subTitle;\necho $submitButton;

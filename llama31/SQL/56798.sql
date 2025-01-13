@@ -1,1 +1,0 @@
-ALTER TABLE My.Table DROP COLUMN MyField

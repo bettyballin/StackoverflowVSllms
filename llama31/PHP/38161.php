@@ -1,1 +1,0 @@
-// Start the session\nsession_start();\n\n// In your loop\nforeach($key as $val) {\n  // Store the key in the session\n  $_SESSION['key'] = $key;\n  session_regenerate_id(); // Regenerate the session ID\n  echo '<tr><td><a href="next_page.php">>$val</a></td></tr>';\n}

@@ -1,1 +1,0 @@
-$counterFile = 'page_counter.txt';\n\nif (file_exists($counterFile)) {\n    $count = (int) file_get_contents($counterFile);\n} else {\n    $count = 0;\n}\n\n$count++;\n\nfile_put_contents($counterFile, $count);\n\n// Check if the counter has reached the desired value\nif ($count >= X) {\n    // Perform the desired action\n}

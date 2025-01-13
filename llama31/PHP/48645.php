@@ -1,1 +1,0 @@
-if (!extension_loaded('memcache')) {\n    dl('memcache.so');\n}\n$memcache = new Memcache;

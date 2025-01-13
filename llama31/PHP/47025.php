@@ -1,1 +1,0 @@
-$start_date = strtotime('2009-06-17');\n$end_date = strtotime('2009-09-05');\n$date_from_user = strtotime('2009-08-28');\n\nif ($start_date <= $date_from_user && $date_from_user <= $end_date) {\n    echo "Date is within range";\n} else {\n    echo "Date is outside range";\n}

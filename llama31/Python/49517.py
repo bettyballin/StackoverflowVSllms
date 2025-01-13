@@ -1,1 +1,0 @@
-from scapy.all import *\n\n# Create a TCP packet\npacket = IP(src="192.168.1.100", dst="192.168.1.200")/TCP(sport=1234, dport=80)\n\n# Send the packet\nsend(packet)

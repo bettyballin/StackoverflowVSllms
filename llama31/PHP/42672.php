@@ -1,1 +1,0 @@
-$db = Zend_Db::factory('Pdo_Sqlite', array('dbname' => 'example.db'));\n\n// Insert a new row\n$db->insert('my_table', array('name' => 'John Doe'));\n\n// Get the last inserted ID\n$stmt = $db->query('SELECT last_insert_rowid()');\n$lastInsertId = $stmt->fetchColumn(0);\n\nprint $lastInsertId;

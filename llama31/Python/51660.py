@@ -1,1 +1,0 @@
-import time\n\ndef main():\n    # your irc bot code here\n\nwhile True:\n    try:\n        main()\n    except Exception as e:\n        print(f"Error: {e}")\n        time.sleep(1)  # wait for 1 second before restarting

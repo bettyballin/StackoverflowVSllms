@@ -1,1 +1,0 @@
-$stack = array();\n\n// Push value onto stack\narray_push($stack, $id);\n\n// Delete stack\n$stack = array();

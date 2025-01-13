@@ -1,1 +1,0 @@
-function make_request($url) {\n    $fp = fsockopen($url, 80, $errno, $errstr, 30);\n    if (!$fp) {\n        echo "$errstr ($errno)<br />\n";\n        return;\n    }\n    $out = "GET $url HTTP/1.1\r\n";\n    $out .= "Host: " . parse_url($url, PHP_URL_HOST) . "\r\n";\n    $out .= "Connection: Close\r\n\r\n";\n    fwrite($fp, $out);\n    fclose($fp);\n}

@@ -1,1 +1,0 @@
-DECLARE @forms TABLE (formId INT)\n\nINSERT INTO @forms\nSELECT formId FROM Forms WHERE Tenant = @TenantId\n\nDECLARE @i INT = 0\nWHILE @i < (SELECT COUNT(*) FROM @forms)\nBEGIN\n    DECLARE @formId INT = (SELECT TOP 1 formId FROM @forms ORDER BY formId OFFSET @i ROWS)\n    EXEC Delete_Form @formId\n    SET @i = @i + 1\nEND

@@ -1,1 +1,0 @@
-// script.php\n$inputData = array();\nforeach ($_POST as $key => $value) {\n    $inputData[] = array('id' => $key, 'value' => $value);\n}

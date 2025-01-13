@@ -1,1 +1,0 @@
-<Configuration>\n    ...\n    <Service>\n        ...\n        <Security>\n            <Authentication>\n                <AuthenticationTypes>\n                    <RSWindowsNTLM/>\n                </AuthenticationTypes>\n            </Authentication>\n        </Security>\n    </Service>\n</Configuration>

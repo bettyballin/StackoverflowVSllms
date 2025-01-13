@@ -1,1 +1,0 @@
-$fetched = file_get_contents("http://example.com");\npreg_match('/zip=([0-9]+)/', $fetched, $matches);\n$zip = $matches[1];

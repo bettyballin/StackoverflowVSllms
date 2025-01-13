@@ -1,1 +1,0 @@
-// example using PDO\nfunction fetchAndDisplay($query) {\n    $pdo = new PDO('mysql:host=localhost;dbname=yourdb', 'username', 'password');\n    $stmt = $pdo->query($query);\n    while ($row = $stmt->fetch()) {\n        // display code here\n    }\n}

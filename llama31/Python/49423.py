@@ -1,1 +1,0 @@
-import orbited\nfrom orbited import response\n\ndef dynamic_content(req, resp):\n    resp.set_status(200)\n    resp.set_header('Content-Type', 'text/plain')\n    resp.write('Hello, World!')\n\norbited.set_callback('GET /dynamic', dynamic_content)

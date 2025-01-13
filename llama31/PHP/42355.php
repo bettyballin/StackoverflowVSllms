@@ -1,1 +1,0 @@
-$route = new Zend_Controller_Router_Route_Regex(\n    '(?P<controller>[^/]+)/(?P<action>[^/]+)\.html',\n    array('controller' => 'index', 'action' => 'index'),\n    array('controller' => '[a-zA-Z_-]+', 'action' => '[a-zA-Z_-]+')\n);\n$router->addRoute('html', $route);

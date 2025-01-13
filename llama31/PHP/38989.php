@@ -1,1 +1,0 @@
-$secret_key = 'your_secret_key_here';\n$file_reference = 'file_reference_here';\n$token = hash_hmac('sha256', $file_reference, $secret_key);\n\n$link = "download.php?file=$file_reference&token=$token";\n\n// On the download page\nif (empty($_GET['token']) || hash_hmac('sha256', $_GET['file'], $secret_key) !== $_GET['token']) {\n    exit('Invalid request');\n}

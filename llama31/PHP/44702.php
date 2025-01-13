@@ -1,1 +1,0 @@
-public function findProjects()\n{\n    return $this->findDependentRowset('Default_Model_Projects');\n}

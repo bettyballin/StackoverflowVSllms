@@ -1,1 +1,0 @@
-<java>\n  <classpath>\n    <path>${java.home}/lib/rt.jar</path>\n  </classpath>\n</java>

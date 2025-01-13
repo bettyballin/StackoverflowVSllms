@@ -1,1 +1,0 @@
-$stmt = $mysqli->prepare("SELECT * FROM users WHERE username = ?");\n$stmt->bind_param("s", $_POST['username']);\n$stmt->execute();

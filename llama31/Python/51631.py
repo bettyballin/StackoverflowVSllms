@@ -1,1 +1,0 @@
-def standardize_chatbot_training_data(data):\n    # Standardize data to ensure consistency and compatibility\n    standardized_data = standardize_data(data)\n    return standardized_data

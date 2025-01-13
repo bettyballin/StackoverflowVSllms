@@ -1,1 +1,0 @@
-<h2>Upcoming Events</h2>\n<ul>\n    {foreach $events as $event}\n        <li>{$event.title} - {$event.date}</li>\n    {/foreach}\n</ul>

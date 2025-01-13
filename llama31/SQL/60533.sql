@@ -1,1 +1,0 @@
-CREATE TABLE Tracker (\n  TrackerID INT PRIMARY KEY,\n  UserID INT,\n  Status VARCHAR(50),\n  TotalRequests INT,\n  LastRequest DATETIME\n);\n\nCREATE TABLE TrackerOptions (\n  TrackerOptionID INT PRIMARY KEY,\n  TrackerID INT,\n  ID VARCHAR(50),\n  Title VARCHAR(255),\n  FOREIGN KEY (TrackerID) REFERENCES Tracker(TrackerID)\n);

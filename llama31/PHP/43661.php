@@ -1,1 +1,0 @@
-class MyClass {\n    public function getJavaScriptCode() {\n        ob_start();\n        ?>\n        // your long JavaScript code here\n        <?php\n        $code = ob_get_contents();\n        ob_end_clean();\n        return $code;\n    }\n}

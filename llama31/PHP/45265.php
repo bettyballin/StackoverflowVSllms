@@ -1,1 +1,0 @@
-// Output the news items as XML\necho "<newsItems><item>News Item 1</item><item>News Item 2</item></newsItems>";

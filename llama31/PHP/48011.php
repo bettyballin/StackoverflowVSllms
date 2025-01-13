@@ -1,1 +1,0 @@
-$pdf = new FPDI();\n$pageCount = $pdf->setSourceFile('landscape_template.pdf');\n$tplIdx = $pdf->importPage(1, '/Rotate=90'); // Rotate the page 90 degrees\n$pdf->addPage('L'); // Add a new landscape page\n$pdf->useTemplate($tplIdx); // Use the rotated template on the new page\n$pdf->Output();

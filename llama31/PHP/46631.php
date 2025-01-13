@@ -1,1 +1,0 @@
-// Not recommended, but works\n$a = NULL;

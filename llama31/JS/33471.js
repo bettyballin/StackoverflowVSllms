@@ -1,1 +1,0 @@
-$("#signupForm").validate({\n    rules: {\n        '<%= tbUsername.ClientID %>': {\n            required: true,\n            minlength: 2\n        }\n    },\n    messages: {\n        '<%= tbUsername.ClientID %>': {\n            required: "Please enter a username",\n            minlength: "username at least 2 characters"\n        }\n    }\n});

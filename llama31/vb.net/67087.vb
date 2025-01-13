@@ -1,1 +1,0 @@
-// VB.NET\nPublic Class MyClass\n    Public Sub MyMethod()\n        Console.WriteLine("Hello, World!")\n    End Sub\nEnd Class\n\n// Converted C#\npublic class MyClass\n{\n    public void MyMethod()\n    {\n        Console.WriteLine("Hello, World!");\n    }\n}

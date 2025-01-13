@@ -1,1 +1,0 @@
-def test_chatbot_training_data(data, test_data):\n    # Test data using test data sets\n    test_results = test_data(data, test_data)\n    return test_results

@@ -1,1 +1,0 @@
-$obj = mysql_query($query);\n$string = json_encode($obj);\nfile_put_contents('cache.txt', $string);

@@ -1,1 +1,0 @@
-import 'ol/ol.css';\nimport { Map, View } from 'ol';\nimport { Tile as TileLayer } from 'ol/layer';\nimport { OSM } from 'ol/source';\n\nconst map = new Map({\n  target: 'map',\n  layers: [\n    new TileLayer({\n      source: new OSM()\n    })\n  ],\n  view: new View({\n    center: [0, 0],\n    zoom: 2\n  })\n});

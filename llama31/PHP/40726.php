@@ -1,1 +1,0 @@
-$db = new Database('host', 'username', 'password', 'database');\n$query = $db->prepare("SELECT * FROM users WHERE name = :name AND email = :email");\n$query->bindParam(':name', $name);\n$query->bindParam(':email', $email);\n$query->execute();

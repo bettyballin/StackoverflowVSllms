@@ -1,1 +1,0 @@
-with open('file.txt', 'r') as f:\n    lines = f.readlines()\n    f.seek(0)  # reset file pointer to beginning\n    f.seek(len(''.join(lines[:-1])))  # move to last line\n    last_line = f.readline()\nprint(last_line)

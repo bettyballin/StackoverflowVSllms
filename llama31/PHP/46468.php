@@ -1,1 +1,0 @@
-// Create a new connection using mysql_connect\n$link_connect = mysql_connect('localhost', 'username', 'password');\n\n// Use an existing connection or create a new one using mysql_pconnect\n$link_pconnect = mysql_pconnect('localhost', 'username', 'password');

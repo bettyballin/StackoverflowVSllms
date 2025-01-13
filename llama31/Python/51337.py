@@ -1,1 +1,0 @@
-removed = A_set - B_set

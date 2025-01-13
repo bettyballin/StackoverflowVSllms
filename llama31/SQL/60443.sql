@@ -1,1 +1,0 @@
-SELECT CAST(notes AS nvarchar(max)) + 'SomeText'\nFROM NotesTable a

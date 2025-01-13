@@ -1,1 +1,0 @@
-$mailReport = $mail[0]->body; // assuming $mail[0]->body is your ezcMailMultipartReport object\n\nforeach ($mailReport->getParts() as $part) {\n    if ($part instanceof ezcMailText) {\n        echo $part->text . "\n"; // outputs the text content of the part\n    }\n}

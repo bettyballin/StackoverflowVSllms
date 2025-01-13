@@ -1,1 +1,0 @@
-SELECT u.*, p.permission_name\nFROM users u\nJOIN user_permissions up ON u.id = up.user_id\nJOIN permissions p ON up.permission_id = p.id;

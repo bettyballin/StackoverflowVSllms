@@ -1,1 +1,0 @@
-WHERE tblContracts.ContractNo = \n    CASE \n        WHEN @ContractNo = 0 THEN tblContracts.ContractNo \n        ELSE @ContractNo \n    END

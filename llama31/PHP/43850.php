@@ -1,1 +1,0 @@
-$result = mysql_query("INSERT INTO project (clientname, salesperson, prospect)\n                       VALUES ('$clientName','$salesPer','$prospectVal')");\n\n$projectID = mysql_insert_id();\n\nreturn $projectID;

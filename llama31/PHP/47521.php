@@ -1,1 +1,0 @@
-function domainname($link) {\n    preg_match('/^(?:https?:\/\/)?([^\/]+)/', $link, $matches);\n    return $matches[1];\n}\n\necho domainname("http://example.com/index.html?a=123%1231");

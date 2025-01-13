@@ -1,1 +1,0 @@
-$a = null;\nvar_dump(array_key_exists('a', $GLOBALS)); // outputs: bool(true)\nvar_dump(array_key_exists('b', $GLOBALS)); // outputs: bool(false)

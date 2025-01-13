@@ -1,1 +1,0 @@
-SELECT * FROM blog \nWHERE (blog_title LIKE '%barry%' OR blog_content LIKE '%barry%') \n   OR (blog_title LIKE '%child%' OR blog_content LIKE '%child%') \n   OR (blog_title LIKE '%help%' OR blog_content LIKE '%help%') \nORDER BY blog_title

@@ -1,1 +1,0 @@
-$mysqli = new mysqli("localhost", "username", "password", "database");\n$result = $mysqli->query("SELECT field1 FROM table");\n$field1 = $result->fetch_field()->name;

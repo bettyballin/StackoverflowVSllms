@@ -1,1 +1,0 @@
-$pdo = new PDO('mysql:host=localhost;dbname=your_database', 'your_username', 'your_password');\n\n$tag = str_replace(' ', '-', $_GET['tag']);\n\n$stmt = $pdo->prepare('SELECT * FROM tags WHERE name = :tag');\n$stmt->bindParam(':tag', $tag);\n$stmt->execute();\n\nif (!$stmt->rowCount()) exit('That tag dont exist');

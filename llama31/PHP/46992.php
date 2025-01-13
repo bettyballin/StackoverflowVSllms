@@ -1,1 +1,0 @@
-// index.php\n$db = new Database();\n$anything = new Anything($db);

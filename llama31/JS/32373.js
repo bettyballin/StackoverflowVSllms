@@ -1,1 +1,0 @@
-var pixel = new google.maps.Point(0, 0);\nvar latLng = map.getProjection().fromContainerPixelToLatLng(pixel);\nconsole.log('Top-left corner: ' + latLng.lat() + ', ' + latLng.lng());\n\npixel = new google.maps.Point(300, 400);\nlatLng = map.getProjection().fromContainerPixelToLatLng(pixel);\nconsole.log('Bottom-right corner: ' + latLng.lat() + ', ' + latLng.lng());

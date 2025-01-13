@@ -1,1 +1,0 @@
-SELECT *\nFROM [mytable]\nCROSS APPLY [dbo].[GetDateDifferenceInDays](first_date, second_date)

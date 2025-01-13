@@ -1,1 +1,0 @@
-SELECT * FROM your_table WHERE field1 NOT LIKE '%$x%';

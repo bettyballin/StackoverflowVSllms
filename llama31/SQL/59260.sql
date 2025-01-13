@@ -1,1 +1,0 @@
-CREATE TABLE #TempTable (\n    ID INT PRIMARY KEY,\n    -- other columns\n);\n\nINSERT INTO #TempTable\nSELECT * FROM YourTable;\n\nDECLARE @ID INT;\nSET @ID = (SELECT MIN(ID) FROM #TempTable);\n\nWHILE @ID IS NOT NULL\nBEGIN\n    -- process each row\n    PRINT @ID;\n\n    SET @ID = (SELECT MIN(ID) FROM #TempTable WHERE ID > @ID);\nEND;\n\nDROP TABLE #TempTable;

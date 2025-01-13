@@ -1,1 +1,0 @@
-SELECT *\nFROM (\n  SELECT ...\n  FROM ...\n  ORDER BY ID\n  FETCH FIRST :end ROWS ONLY\n)\nOFFSET :start - 1 ROWS

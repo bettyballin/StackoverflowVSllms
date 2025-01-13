@@ -1,1 +1,0 @@
-// PHP side (e.g., ajax_handler.php)\n<?php\n  $data = array('message' => 'Hello, world!');\n  echo json_encode($data);\n?>

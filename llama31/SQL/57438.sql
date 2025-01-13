@@ -1,1 +1,0 @@
-DECLARE\n  TYPE assoc_array IS TABLE OF VARCHAR2(20) INDEX BY VARCHAR2(20);\n  my_array assoc_array;\nBEGIN\n  my_array('key1') := 'value1';\n  my_array('key2') := 'value2';\n  DBMS_OUTPUT.PUT_LINE(my_array('key1'));  -- prints 'value1'\nEND;

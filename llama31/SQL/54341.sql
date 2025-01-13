@@ -1,1 +1,0 @@
-SELECT * \nFROM table \nWHERE field IS NULL;

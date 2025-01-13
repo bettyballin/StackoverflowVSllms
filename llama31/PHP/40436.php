@@ -1,1 +1,0 @@
-$approot = dirname(substr($_SERVER['REQUEST_URI'], 0, strpos($_SERVER['REQUEST_URI'], '?')));

@@ -1,1 +1,0 @@
-<!-- Example of file upload protection using Struts FileUploadInterceptor -->\n<interceptors>\n    <interceptor-ref name="fileUpload">\n        <param name="allowedTypes">image/jpeg,image/png</param>\n    </interceptor-ref>\n</interceptors>

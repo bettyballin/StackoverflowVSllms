@@ -1,1 +1,0 @@
-import requests\n\ndef get_rfc(rfc_number):\n    url = f"https://www.rfc-editor.org/rfc/rfc{rfc_number}.txt"\n    response = requests.get(url)\n    if response.status_code == 200:\n        return response.text\n    else:\n        return None\n\nrfc_text = get_rfc(2616)\nprint(rfc_text)

@@ -1,1 +1,0 @@
-<?php\n// Your PHP script that takes time to run\nsleep(5); // Simulate a time-consuming task\n$data = 'Hello, World!';\necho $data;\n?>

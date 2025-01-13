@@ -1,1 +1,0 @@
-// JavaScript code\ndocument.getElementById('image').addEventListener('click', function(event) {\n  var x = event.clientX;\n  var y = event.clientY;\n  var xhr = new XMLHttpRequest();\n  xhr.open('GET', 'script.php?x=' + x + '&y=' + y, true);\n  xhr.send();\n});

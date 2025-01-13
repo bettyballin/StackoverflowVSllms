@@ -1,1 +1,0 @@
-<!-- web.xml -->\n<servlet>\n    <servlet-name>randomNumberServlet</servlet-name>\n    <servlet-class>RandomNumberServlet</servlet-class>\n</servlet>\n<servlet-mapping>\n    <servlet-name>randomNumberServlet</servlet-name>\n    <url-pattern>/randomNumberServlet</url-pattern>\n</servlet-mapping>

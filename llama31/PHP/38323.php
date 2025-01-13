@@ -1,1 +1,0 @@
-spl_autoload_register(function ($class) {\n    $file = 'path/to/libs/' . $class . '.inc';\n    if (file_exists($file)) {\n        include $file;\n    }\n});

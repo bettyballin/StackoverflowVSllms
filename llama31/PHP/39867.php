@@ -1,1 +1,0 @@
-$mysqli = new mysqli('localhost', 'myusername', 'mypassword', 'mydatabase');\n\nif ($mysqli->connect_error) {\n    die('Connection failed: ' . $mysqli->connect_error);\n}\n\n$stmt = $mysqli->prepare('SELECT * FROM users WHERE name = ?');\n$stmt->bind_param('s', $_POST['name']);\n$stmt->execute();\n\n$result = $stmt->get_result();

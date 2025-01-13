@@ -1,1 +1,0 @@
-WHERE CONTAINS(SNetwork_Threads.Description, @SearchText)

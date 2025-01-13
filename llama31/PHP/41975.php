@@ -1,1 +1,0 @@
-$xml = xml_parse_into_struct($response, $values);

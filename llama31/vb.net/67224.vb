@@ -1,1 +1,0 @@
-Dim strCryptedString As String = "m>^æ–S[J¯vÖ_ÕÚuÍÔ'´äœÈ‘ ®@M©t²#÷[Éå¹UçfU5T°äÙ“©”ˆÇVÝ] [’e™a«Ã°7#dÉJ>".ToString(Encoding.Unicode)

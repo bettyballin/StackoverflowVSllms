@@ -1,1 +1,0 @@
-function splitText($text) {\n    $chunks = str_split($text, 3);\n    return implode('-', $chunks);\n}\n\n// Test the function\n$text = "123456789";\necho splitText($text); // Output: 123-456-789\n\n$text = "ABCDEFGHI";\necho splitText($text); // Output: ABC-DEF-GHI\n\n$text = "A1B2C3D4E";\necho splitText($text); // Output: A1B-2C3-D4E

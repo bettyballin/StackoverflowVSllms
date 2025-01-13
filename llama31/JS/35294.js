@@ -1,1 +1,0 @@
-success: function(result){\n    $('#post-container').append("<div>" + result + "</div>");\n}

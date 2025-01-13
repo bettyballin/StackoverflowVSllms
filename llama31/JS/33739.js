@@ -1,1 +1,0 @@
-<script type="text/javascript">\n$(document).ready(function(){   \n    $("#slider").easySlider({\n        prevText:'&lt;div id="backarrow"&gt;Back&lt;/div&gt;',\n        nextText:'&lt;div id="nextarrow"&gt;View Other Projects&lt;/div&gt;',\n        orientation:'horizontal'\n    });\n});\n</script>

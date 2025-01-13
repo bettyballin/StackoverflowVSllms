@@ -1,1 +1,0 @@
-CREATE TABLE t (zero INT, one INT, two INT, three INT);\nINSERT INTO t VALUES (1, 2, 3);  // values will be inserted into zero, one, and two

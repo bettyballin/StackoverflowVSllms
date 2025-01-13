@@ -1,1 +1,0 @@
-SELECT *\nFROM ParentTable p\nWHERE EXISTS (\n  SELECT 1\n  FROM SecondTable s\n  WHERE p.Office_Code LIKE s.Code_Wildcard\n)

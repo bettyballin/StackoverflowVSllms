@@ -1,1 +1,0 @@
-$file = utf8_encode($file);

@@ -1,1 +1,0 @@
--- Create a new symmetric key\nCREATE SYMMETRIC KEY NewSymmetricKey\n    WITH ALGORITHM = AES_256\n    ENCRYPTION BY PASSWORD = 'NewStrongPassword';\n\n-- Open the new symmetric key\nOPEN SYMMETRIC KEY NewSymmetricKey\n    DECRYPTION BY PASSWORD = 'NewStrongPassword';

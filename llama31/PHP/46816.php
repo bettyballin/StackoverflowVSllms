@@ -1,1 +1,0 @@
-use Illuminate\Support\Facades\Schema;\n\nclass User extends Model {\n    protected $table = 'users';\n\n    public function __construct() {\n        $columns = Schema::getColumnListing($this->table);\n        foreach ($columns as $column) {\n            $this->{$column} = null;\n        }\n    }\n}

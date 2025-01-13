@@ -1,1 +1,0 @@
-UPDATE users SET authorised = authorised XOR 1 WHERE id = 2;

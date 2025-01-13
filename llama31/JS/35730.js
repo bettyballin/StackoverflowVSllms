@@ -1,1 +1,0 @@
-$.ajax({\n  url: 'https://maps.googleapis.com/maps/api/js',\n  timeout: 5000,\n  success: function() {\n    // Map loaded successfully\n  },\n  error: function(xhr, status, error) {\n    if (status == 'timeout') {\n      timeoutCallback();\n    } else {\n      // Handle other errors\n    }\n  }\n});

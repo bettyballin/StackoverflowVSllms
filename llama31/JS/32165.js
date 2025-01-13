@@ -1,1 +1,0 @@
-$('[data-name="tcol1"]').hide();

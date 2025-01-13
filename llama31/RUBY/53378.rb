@@ -1,1 +1,0 @@
-<%= form_for @user do |form| %>\n  # other fields...\n  <%= form.text_field :humanproof %>\n<% end %>

@@ -1,1 +1,0 @@
-header('Content-Type: application/javascript');\n   echo $_GET['callback'] . '(' . json_encode($data) . ')';

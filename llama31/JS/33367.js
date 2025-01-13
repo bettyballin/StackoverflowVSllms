@@ -1,1 +1,0 @@
-// Example using jQuery\n$(document).ready(function() {\n  $('#myTable th').on('mouseover', function() {\n    $(this).nextAll('th').hide();\n  }).on('mouseout', function() {\n    $(this).nextAll('th').show();\n  });\n});

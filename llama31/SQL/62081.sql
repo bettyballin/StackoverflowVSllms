@@ -1,1 +1,0 @@
-CREATE OR REPLACE TYPE empty_string_allowed IS OBJECT (\n  value VARCHAR2(4000)\n);

@@ -1,1 +1,0 @@
-<?php\n// Long polling example\nwhile (true) {\n    // Check for new data\n    $data = checkForNewData();\n    if ($data) {\n        echo $data;\n        break;\n    }\n    // Sleep for 1 second\n    sleep(1);\n}

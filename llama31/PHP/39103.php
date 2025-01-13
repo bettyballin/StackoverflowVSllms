@@ -1,1 +1,0 @@
-$client = new GuzzleHttp\Client();\n$soapUrl = 'https://api.callfire.com/v1/voice/broadcast';\n$soapData = array('...' => '...'); // your SOAP data\n\n$client->postAsync($soapUrl, ['json' => $soapData])->then(function ($response) {\n    // do nothing, just ignore the response\n});

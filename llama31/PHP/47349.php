@@ -1,1 +1,0 @@
-$postData = file_get_contents('php://input');\n$postParams = array();\n$parts = explode('&', $postData);\n\nforeach ($parts as $part) {\n    list($key, $value) = explode('=', $part);\n    $key = urldecode($key);\n    $value = urldecode($value);\n    $postParams[$key] = $value;\n}\n\n// Print the POST parameters\nprint_r($postParams);

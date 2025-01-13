@@ -1,1 +1,0 @@
-if ($_SERVER["REQUEST_METHOD"] == "POST") {\n    print_r($_POST);\n}

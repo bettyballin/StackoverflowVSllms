@@ -1,1 +1,0 @@
-SELECT \n    CASE \n        WHEN measurement IS NULL THEN 'NULL value'\n        WHEN measurement IS NOT NULL THEN 'Valid measurement'\n        ELSE 'No corresponding row'\n    END AS result\nFROM \n    (SELECT measurement FROM tbl_data WHERE persid = @curpersid AND yr = @curyear) AS subquery

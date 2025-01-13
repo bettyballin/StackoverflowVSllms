@@ -1,1 +1,0 @@
-SELECT *\nFROM users\nWHERE first_name != UPPER(first_name) OR last_name != UPPER(last_name);

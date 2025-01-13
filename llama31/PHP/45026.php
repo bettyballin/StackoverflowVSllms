@@ -1,1 +1,0 @@
-$page = filter_var($_GET['page'], FILTER_VALIDATE_URL);\n\nif ($page !== false) {\n    header("Location: $page");\n    exit;\n} else {\n    // handle invalid input, e.g., redirect to a default page or error page\n    header("Location: /default-page");\n    exit;\n}

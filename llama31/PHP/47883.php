@@ -1,1 +1,0 @@
-$pattern = '/{{Infobox Settlement.*?}}/s';\npreg_match($pattern, $text, $match);\n$infobox = $match[0];

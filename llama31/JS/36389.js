@@ -1,1 +1,0 @@
-var element = $('body > div > center > div > div:nth-child(3) > div > table > tbody > tr:nth-child(5) > td > div > table > tbody > tr > td > table > tbody > tr > td > table > tbody > tr:nth-child(3) > td');

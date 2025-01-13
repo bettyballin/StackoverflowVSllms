@@ -1,1 +1,0 @@
-require_once('FirePHPCore/FirePHP.class.php');\n\n$myVariable = array('foo' => 'bar');\nfb($myVariable); // Log the variable to the Firebug console

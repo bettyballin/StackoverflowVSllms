@@ -1,1 +1,0 @@
-SELECT t1.tag \nFROM (SELECT 'tag1' AS tag UNION SELECT 'tag2' UNION SELECT 'tag3' /* ... */) t1 \nWHERE t1.tag NOT IN (SELECT tag FROM tags);

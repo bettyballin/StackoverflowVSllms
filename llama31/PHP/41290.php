@@ -1,1 +1,0 @@
-$result2 = curl_exec($ch1);\n$parsed_url = parse_url($result2);\n$query_params = parse_str($parsed_url['query'], $params);\n$t_value = $params['t'];\n\n// Save the t value to your database or use it as needed

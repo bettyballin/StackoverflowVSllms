@@ -1,1 +1,0 @@
-dwr.engine.beginBatch();\n    dwrServiceOne.remoteCall1();\n    dwrServiceOne.remoteCall2();\n    dwrServiceTwo.remoteCall3();\n    dwrServiceTwo.remoteCall4();\n    dwr.engine.endBatch();

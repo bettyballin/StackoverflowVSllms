@@ -1,1 +1,0 @@
-$referrer = $_SERVER['HTTP_REFERER'];\nif ($referrer === 'https://example.com') {\n    // allow access\n} else {\n    // deny access\n}

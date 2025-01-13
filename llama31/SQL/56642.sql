@@ -1,1 +1,0 @@
-ALTER TABLE nodes ADD CONSTRAINT path_starts_with_id CHECK (path LIKE (id || '%'));

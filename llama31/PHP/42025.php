@@ -1,1 +1,0 @@
-$array = array('a', 'b', 'c', 'd');\n\nforeach (array_slice($array, 0, -1) as $value) {\n    // do something for all elements except the last one\n}\n\n// handle the last element separately\n$lastValue = end($array);\n// do something with the last value

@@ -1,1 +1,0 @@
-Dim myString As Object = "Hello, World!"

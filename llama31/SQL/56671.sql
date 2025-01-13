@@ -1,1 +1,0 @@
-UPDATE sometable\nSET timecol = DATEADD(month, 4, timecol);

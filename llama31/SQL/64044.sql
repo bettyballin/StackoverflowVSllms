@@ -1,1 +1,0 @@
-SELECT \n  YEAR(FROM_UNIXTIME(timecode)) AS year,\n  MONTH(FROM_UNIXTIME(timecode)) AS month,\n  COUNT(timecode) AS count\nFROM \n  timecodeTable\nGROUP BY \n  YEAR(FROM_UNIXTIME(timecode)),\n  MONTH(FROM_UNIXTIME(timecode))

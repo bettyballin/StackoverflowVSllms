@@ -1,1 +1,0 @@
-// Include gzip-js library\n<script src="gzip-js.min.js"></script>\n\n// Load gzip compressed JavaScript file\n<script>\n  // Use gzip-js to decompress the file\n  gzip.load('test.js.gz', function(data) {\n    // Execute the decompressed JavaScript\n    eval(data);\n  });\n</script>

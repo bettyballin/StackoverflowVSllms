@@ -1,1 +1,0 @@
-$('.blueBoxMid li').each(function(){\n  var $this = $(this);\n  var hoverText = $this.children('em').text();\n  $this.attr('title', hoverText).hover(function(){\n    $(this).css('cursor', 'help');\n  });\n  $this.children('em').remove(); // remove the <em> element\n});

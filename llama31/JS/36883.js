@@ -1,1 +1,0 @@
-// example: const Model = Backbone.Model.extend({ defaults: { name: 'John Doe' } });

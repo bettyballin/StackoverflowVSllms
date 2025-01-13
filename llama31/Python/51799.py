@@ -1,1 +1,0 @@
-import random\n\ndef generate_k_non_repeating_integers(n, k):\n    result = []\n    for i in range(n):\n        if random.randint(0, n - i - 1) < k:\n            result.append(i)\n            k -= 1\n        if k == 0:\n            break\n    return result

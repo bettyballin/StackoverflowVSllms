@@ -1,1 +1,0 @@
-// retrieve the value from the database\n$your_variable = $pdo->query('SELECT your_column FROM your_table WHERE id = 1')->fetchColumn();

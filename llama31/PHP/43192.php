@@ -1,1 +1,0 @@
-// proxy.php\n$url = $_GET['url'];\n$html = file_get_contents($url);\necho $html;

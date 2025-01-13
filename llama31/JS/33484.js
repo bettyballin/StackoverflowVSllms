@@ -1,1 +1,0 @@
-$(document).ready(function(){\n  var timeoutId;\n  $('#searchMe').keyup(function(){\n    clearTimeout(timeoutId);\n    timeoutId = setTimeout(function(){\n      lookup($(this).val());\n    }, 1000); // wait for 1 second\n  });\n});

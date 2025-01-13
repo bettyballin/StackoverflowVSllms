@@ -1,1 +1,0 @@
-CREATE TRIGGER test_trigger\nAFTER INSERT ON invoice\nFOR EACH ROW\nBEGIN\n    UPDATE customer\n    SET amount = NEW.Inv_Amt\n    WHERE Id = NEW.cust_num;\nEND;

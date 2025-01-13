@@ -1,1 +1,0 @@
-longest = [x for x in mylist if len(x) == max(map(len, mylist))]

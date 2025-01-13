@@ -1,1 +1,0 @@
-// Your app's PHP file\nif (isset($_SESSION['modx_user'])) {\n    $username = $_SESSION['modx_user'];\n    // Use $username to display user-specific data\n} else {\n    // Handle unauthenticated user\n}

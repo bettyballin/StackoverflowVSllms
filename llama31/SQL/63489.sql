@@ -1,1 +1,0 @@
-UPDATE sales\nSET status = 'ACTIVE'\nWHERE id IN (\n  SELECT id\n  FROM sales\n  GROUP BY saleprice, saledate\n  HAVING COUNT(*) = 1\n)

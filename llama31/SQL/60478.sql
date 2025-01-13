@@ -1,1 +1,0 @@
-SET @row_number = 0;\n\nSELECT \n  (@row_number := @row_number + 1) AS row_number\nFROM \n  (SELECT 1) AS t\n  CROSS JOIN (SELECT 1) AS t2\n  CROSS JOIN (SELECT 1) AS t3\n  ...\n  CROSS JOIN (SELECT 1) AS tn\nWHERE \n  @row_number <= 10;

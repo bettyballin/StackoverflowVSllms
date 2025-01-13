@@ -1,1 +1,0 @@
-ew Ajax.Request('?service=example', {\n    parameters: {tags: 'exceptions'},\n    onSuccess: this.dataReceived.bind(this),\n    onException: function(request, exception) {\n        throw exception;\n    }\n});

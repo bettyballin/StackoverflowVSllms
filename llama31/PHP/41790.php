@@ -1,1 +1,0 @@
-// Start the session\nsession_start();\n\n// Unset all session variables\n$_SESSION = array();\n\n// Delete the session cookie\nif (isset($_COOKIE[session_name()])) {\n    setcookie(session_name(), '', time() - 42000, '/');\n}\n\n// Destroy the session\nsession_destroy();

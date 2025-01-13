@@ -1,1 +1,0 @@
-# controllers/users_controller.rb\ndef index\n  @users = User.all\n  columns = [:name, :email]\n  render_index(@users, columns)\nend\n\ndef new\n  @user = User.new\n  fields = [:name, :email, :password]\n  render_form(@user, fields)\nend

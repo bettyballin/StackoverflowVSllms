@@ -1,1 +1,0 @@
-// Client-side (checkout page)\ndocument.getElementById('placeOrderButton').addEventListener('click', function() {\n  this.disabled = true;\n  // Submit the form or send a request to the server\n});

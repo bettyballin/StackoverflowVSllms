@@ -1,1 +1,0 @@
-Sub YourSub()\n    Call ExternalLongRunningProcess\n    Dim startTime As Date\n    startTime = Now\n    Do While Now < startTime + #12:00:05 AM#\n        DoEvents\n    Loop\n    Call DoOtherStuff\nEnd Sub

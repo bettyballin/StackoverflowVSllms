@@ -1,1 +1,0 @@
-CREATE PROCEDURE GetTenantData\nAS\nBEGIN\n    DECLARE @TenantStatusID INT\n    EXEC @TenantStatusID = GetTenantStatusID_Current\n\n    SELECT \n        (SUM(t.AmountPaid) - SUM(t.AmountCharged)) AS TenantBalance, \n        t.TenantID,\n        @TenantStatusID AS TenantStatusID\n    FROM \n        tblTransaction t\n    GROUP BY \n        t.TenantID\nEND

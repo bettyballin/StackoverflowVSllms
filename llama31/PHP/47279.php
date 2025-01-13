@@ -1,1 +1,0 @@
-$id = (int) $id; // ensure $id is an integer\n$result = mysql_query("SELECT * FROM " . $db_table . " WHERE id REGEXP '^" . $id . "[0-9]*'");

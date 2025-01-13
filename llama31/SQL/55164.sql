@@ -1,1 +1,0 @@
-CREATE INDEX idx_wikilinks_frompage_topage ON wikilinks (frompage, topage);

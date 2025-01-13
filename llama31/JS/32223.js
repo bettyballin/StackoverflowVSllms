@@ -1,1 +1,0 @@
-// IE Margin fix: \n//  http://www.positioniseverything.net/explorer/inherited_margin.html\njQuery.each(jQuery.browser, function(i) {\n    if ($.browser.msie) {\n        $(":input").wrap("<span></span>");\n    }\n});

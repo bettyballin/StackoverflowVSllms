@@ -1,1 +1,0 @@
-$prices = [\n    "Small" => 30,\n    "Medium" => 40,\n    "Large" => 50,\n];\n\n$size = trim($_POST['size']);\n\nif (array_key_exists($size, $prices)) {\n    $total = $prices[$size];\n} else {\n    // handle invalid size\n}

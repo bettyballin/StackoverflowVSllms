@@ -1,1 +1,0 @@
-$user_input = utf8_encode($_POST['user_input']);

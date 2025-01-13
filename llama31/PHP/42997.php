@@ -1,1 +1,0 @@
-$monthlybill = preg_replace('/[^0-9.]/', '', $_GET['monthlybill']);

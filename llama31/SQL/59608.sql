@@ -1,1 +1,0 @@
-CREATE PROCEDURE GetDataByDateRange\n    @StartDate DATE,\n    @EndDate DATE\nAS\nBEGIN\n    SELECT * FROM YourView\n    WHERE DateField BETWEEN @StartDate AND @EndDate\nEND\nGO

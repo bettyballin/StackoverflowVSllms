@@ -1,1 +1,0 @@
-CREATE VIEW my_view AS\nSELECT \n    *,\n    NEWID() AS fake_column\nFROM \n    my_table;

@@ -1,1 +1,0 @@
-$current_page = isset($_GET['page']) ? (int) $_GET['page'] : 1;

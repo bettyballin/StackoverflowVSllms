@@ -1,1 +1,0 @@
-$(window).load(function() {\n  $('#big-menu').addClass('loaded');\n});

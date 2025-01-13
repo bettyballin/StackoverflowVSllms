@@ -1,1 +1,0 @@
-#Stemming\nst = PorterStemmer()\ndata_test['text'] = data_test['text'].apply(lambda x: " ".join([st.stem(word) for word in x.split()]))

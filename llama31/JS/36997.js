@@ -1,1 +1,0 @@
-$(".entries a").hover(\n  function () {\n    var $em = $(this).children("em");\n    $em.stop().animate({ height: "100%" }, 500);\n  },\n  function () {\n    var $em = $(this).children("em");\n    $em.stop().animate({ height: "0%" }, 500);\n  }\n);

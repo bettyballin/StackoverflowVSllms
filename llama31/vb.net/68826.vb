@@ -1,1 +1,0 @@
-Protected Overrides Sub Dispose(disposing As Boolean)\n    Try\n        If disposing AndAlso components IsNot Nothing Then\n            components.Dispose()\n        End If\n    Finally\n        MyBase.Dispose(disposing)\n    End Try\nEnd Sub

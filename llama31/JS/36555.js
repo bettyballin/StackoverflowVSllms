@@ -1,1 +1,0 @@
-// Example using Google's reCAPTCHA\nconst recaptcha = require('recaptcha');\nconst verification = await recaptcha.verify(req.body.recaptchaResponse);\nif (!verification.success) {\n  // Handle spam post\n}

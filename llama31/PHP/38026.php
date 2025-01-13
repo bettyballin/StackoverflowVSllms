@@ -1,1 +1,0 @@
-if (extension_loaded('debugr')) {\n    DebugR();\n}

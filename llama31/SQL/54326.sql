@@ -1,1 +1,0 @@
-SELECT \n    CASE \n        WHEN EXISTS (\n            SELECT 1 \n            FROM UserPermissions up \n            INNER JOIN Books b ON up.BookPublisher = b.Publisher \n            WHERE up.UserName = SUSER_NAME() AND b.Publisher = @Publisher\n        ) THEN 1 \n        ELSE 0 \n    END AS HasPermissio

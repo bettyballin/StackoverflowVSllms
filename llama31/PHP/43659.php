@@ -1,1 +1,0 @@
-$i = '76561197961384956'; // note the quotes, we're treating it as a string\n$s = "i = $i";\n\n// or, if you need to perform arithmetic operations\n$i = bcmul('76561197961384956', '1'); // multiply by 1 to convert to BC Math format\n$s = "i = $i";

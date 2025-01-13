@@ -1,1 +1,0 @@
-# Define the field widths\nfield_widths = [10, 20, 30, 20]\n\n# Define the data\ndata = ["Foo", "Bar", "Baz", "Qux"]\n\n# Create the fixed-width string\nfixed_width_string = ""\nfor i, (width, value) in enumerate(zip(field_widths, data)):\n    fixed_width_string += "{:<{width}}".format(value, width=width)\n\n# Print the result\nprint(fixed_width_string)

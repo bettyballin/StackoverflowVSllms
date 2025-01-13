@@ -1,1 +1,0 @@
-ALTER TABLE wp_pod_tbl_forum ADD INDEX idx_date (date);

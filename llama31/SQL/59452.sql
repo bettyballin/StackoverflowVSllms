@@ -1,1 +1,0 @@
-CREATE TABLE revisions (\n  id INT PRIMARY KEY,\n  revision INT\n);\n\nCREATE TABLE file_metrics (\n  id INT PRIMARY KEY,\n  file_id INT,\n  value INT\n);\n\nCREATE TABLE deltas (\n  id INT PRIMARY KEY,\n  revision_id INT,\n  file_id INT,\n  value INT,\n  FOREIGN KEY (revision_id) REFERENCES revisions(id),\n  FOREIGN KEY (file_id) REFERENCES file_metrics(id)\n);

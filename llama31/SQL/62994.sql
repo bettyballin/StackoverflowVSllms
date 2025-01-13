@@ -1,1 +1,0 @@
-SELECT ItemID\nFROM ItemCategory\nWHERE CategoryID IN (01, 02)\nEXCEPT\nSELECT ItemID\nFROM ItemCategory\nWHERE CategoryID IN (12)

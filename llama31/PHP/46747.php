@@ -1,1 +1,0 @@
-function getBody($pid)\n{\n    ob_start();\n    ?>\n    <div style="width:600px; font-family:Arial, Helvetica, sans-serif; color:#333333;">\n        <!-- ... -->\n    </div>\n    <?php\n    $html = ob_get_contents();\n    ob_end_clean();\n    return $html;\n}

@@ -1,1 +1,0 @@
-<%= f.text_field :name %>\n<%= link_to_remove_fields "Remove", f %>

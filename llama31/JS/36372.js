@@ -1,1 +1,0 @@
-// Create a new PDF document\nvar doc = new jsPDF();\n\n// Add text\ndoc.text('Hello, world!', 10, 10);\n\n// Add an image\nvar img = new Image();\nimg.src = 'image.jpg';\ndoc.addImage(img, 'JPEG', 10, 20, 50, 50);\n\n// Add a rectangle\ndoc.rect(10, 30, 50, 50);\n\n// Save the PDF\ndoc.save('example.pdf');

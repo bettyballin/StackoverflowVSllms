@@ -1,1 +1,0 @@
-$.ajax({\n  type: "POST",\n  url: "ajaxvalidate.do",\n  data: $("#yourFormId").serialize(),\n  dataType: "json",\n  // ...\n});

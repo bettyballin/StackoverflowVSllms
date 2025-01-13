@@ -1,1 +1,0 @@
-import numpy as np\n\n# Define the users and products\nusers = np.array([1, 2, 3])\nproducts = np.array([1, 2, 3])\n\n# Create the user-product matrix\nuser_product_matrix = np.array([\n    [1, 0, 1],  # User 1 purchased products 1 and 3\n    [0, 0, 1],  # User 2 purchased product 3\n    [0, 1, 0]   # User 3 purchased product 2\n])

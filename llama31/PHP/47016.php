@@ -1,1 +1,0 @@
-class User {\n    public function display_yourself() {\n        return "<h1>{$this->name}</h1>";\n    }\n}

@@ -1,1 +1,0 @@
-while ($row = mysql_fetch_assoc($result)) {\n    if($row)\n        $returnArray[$i++] = $row;\n}

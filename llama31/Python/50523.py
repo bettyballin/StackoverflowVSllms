@@ -1,1 +1,0 @@
-from django.http import HttpResponse\n\ndef view_function(request):\n    # Your code here...\n    return HttpResponse(status=303)

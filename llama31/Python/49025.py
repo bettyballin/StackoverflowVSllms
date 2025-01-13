@@ -1,1 +1,0 @@
-print(str(prefix))  # Output: 2001:db8:85a3::\nprint(prefix.exploded)  # Output: 2001:0db8:85a3:0000:0000:0000:0000:0000

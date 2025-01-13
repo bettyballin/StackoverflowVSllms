@@ -1,1 +1,0 @@
-$opts = array(\n    'http' => array(\n        'timeout' => 5, // 5 second timeout\n    ),\n);\n$context = stream_context_create($opts);\n$string = join('',file($siteurl.$l.'/moviename-'.$movie, false, $context));

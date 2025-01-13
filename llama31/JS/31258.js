@@ -1,1 +1,0 @@
-const editor = CodeMirror.fromTextArea(document.getElementById('code'), {\n  mode: 'text/html',\n  lineNumbers: true,\n});

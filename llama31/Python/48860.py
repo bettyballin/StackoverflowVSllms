@@ -1,1 +1,0 @@
-import secrets\n\ndef generate_session_id(length=32):\n    return secrets.token_urlsafe(length)\n\n# Example usage:\nsession_id = generate_session_id()\nprint(session_id)

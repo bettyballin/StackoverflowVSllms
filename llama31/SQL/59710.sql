@@ -1,1 +1,0 @@
-MERGE INTO destination AS d\nUSING source AS s\nON d.A = s.a1\nWHEN NOT MATCHED THEN\n    INSERT (A, B, C)\n    VALUES (s.a1, s.b1, s.c1);

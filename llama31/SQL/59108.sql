@@ -1,1 +1,0 @@
-CREATE VIEW EmployerDept WITH SCHEMABINDING AS\nSELECT E.name, D.deptName\nFROM Employers E\nJOIN Depts D ON E.deptId = D.id;\n\nCREATE UNIQUE CLUSTERED INDEX idx_EmployerDept ON EmployerDept (id);

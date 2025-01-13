@@ -1,1 +1,0 @@
-class third_party_library {\n    function buggy_function() {\n        return 'bad result';\n    }\n    function other_functions(){\n        return 'blah';\n    }\n}\n\n// Redefine the buggy_function method\nrunkit_method_redefine('third_party_library', 'buggy_function', function() {\n    return 'good result';\n});

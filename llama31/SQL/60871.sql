@@ -1,1 +1,0 @@
--- Example of creating a view to filter out inactive records\nCREATE VIEW active_records AS\nSELECT *\nFROM your_table\nWHERE is_active = 1;

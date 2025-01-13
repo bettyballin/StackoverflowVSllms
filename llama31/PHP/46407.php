@@ -1,1 +1,0 @@
-$mail->IsSMTP();\n$mail->Host = "smtp.gmail.com";\n$mail->SMTPAuth = true;\n$mail->SMTPSecure = "tls"; // Use TLS instead of SSL\n$mail->Username = "myemail@gmail.com";\n$mail->Password = "**********";\n$mail->Port = 587; // Use port 587 for TLS

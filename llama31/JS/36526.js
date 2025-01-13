@@ -1,1 +1,0 @@
-$.ajax({\n  type: "GET",\n  url: "http://www.boobar.com/script.php?callback=myCallback",\n  dataType: 'jsonp',\n  success: function(result) { alert(result); }\n});

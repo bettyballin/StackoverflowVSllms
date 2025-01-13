@@ -1,1 +1,0 @@
-DocCategoryCascadingDropDown.ServicePath = "/path/to/proxy";

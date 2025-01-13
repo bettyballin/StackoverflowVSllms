@@ -1,1 +1,0 @@
-Dim firms = From f In Db.Firms _\n            Group Join c In Db.Concessions On f.FirmID Equals c.FirmID Into concessions = Group _\n            Select New With { _\n                .Title = f.Title, _\n                .TotalArea = concessions.Sum(Function(c) c.Area) _\n            } _\n            Order By .TotalArea Descending

@@ -1,1 +1,0 @@
-Dim dateValue As Date = New Date(2022, 9, 1)\nDim yyww As String = DateToYYWW(dateValue)\nConsole.WriteLine(yyww)  ' Output: 2236\n\nDim saturdayDate As Date = YYWWToDate(yyww)\nConsole.WriteLine(saturdayDate.ToString("yyyy-MM-dd"))  ' Output: 2022-09-03

@@ -1,1 +1,0 @@
-var tTip = "Hello world";\n$(this).on("mouseover", function() {\n  tip(tTip);\n});

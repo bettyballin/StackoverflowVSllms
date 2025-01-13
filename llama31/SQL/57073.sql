@@ -1,1 +1,0 @@
-SELECT \n  GROUP_CONCAT(email ORDER BY date ASC SEPARATOR '|'), \n  newsletterid, \n  date\nFROM \n  (SELECT * FROM newsletter_queue WHERE status='0' LIMIT 125) AS subquery\nGROUP BY \n  newsletterid

@@ -1,1 +1,0 @@
-use Nette\PhpGenerator\PhpNamespace;\n$namespace = new PhpNamespace('MyNamespace');\n$class = $namespace->addClass('MyClass');\n$class->addMethod('myMethod');\necho $namespace->toString();

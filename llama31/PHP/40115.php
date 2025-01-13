@@ -1,1 +1,0 @@
-$myFunction = function ($foo) {\n    return $foo;\n};\n$myFunction('bar'); // Returns bar

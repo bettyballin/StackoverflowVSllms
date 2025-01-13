@@ -1,1 +1,0 @@
-CREATE TABLE mytable (\n    id INT PRIMARY KEY,\n    name VARCHAR(50) SPARSE\n);

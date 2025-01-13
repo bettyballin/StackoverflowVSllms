@@ -1,1 +1,0 @@
-DECLARE\n  v_undo_advice  DBMS_UNDO_ADVISE.undo_advise;\nBEGIN\n  DBMS_UNDO_ADVISE.gather_undo_advice(v_undo_advice);\n  DBMS_OUTPUT.put_line(v_undo_advice.undo_info);\nEND;

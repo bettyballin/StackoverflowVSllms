@@ -1,1 +1,0 @@
-SELECT *\nFROM xml\nWHERE EXTRACTVALUE(data, '/your/xpath/expression') != '';

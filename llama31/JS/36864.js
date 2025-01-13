@@ -1,1 +1,0 @@
-const fs = require('fs');\nfs.writeFile('example.txt', 'Hello, World!', (err) => {\n  if (err) {\n    console.error(err);\n  } else {\n    console.log('File written successfully');\n  }\n});

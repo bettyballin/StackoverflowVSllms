@@ -1,1 +1,0 @@
-SELECT procedure_name, argument_name, data_type\nFROM all_arguments\nWHERE procedure_name = '<procedure name>';

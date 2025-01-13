@@ -1,1 +1,0 @@
-import feedparser\n\n# Replace with the Myspace page's RSS feed URL\nrss_url = "https://www.myspace.com/artist/rss"\n\nfeed = feedparser.parse(rss_url)\n\nfor entry in feed.entries:\n    print(entry.title)  # Event title\n    print(entry.link)   # Event link\n    print(entry.description)  # Event descriptio

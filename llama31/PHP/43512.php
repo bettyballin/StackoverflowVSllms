@@ -1,1 +1,0 @@
-// example.php\n$ffi = FFI::cdef("string stemmer(string input)", "/path/to/libstemmer.so");\n\n$input = "example";\n$stemmed = $ffi->stemmer($input);\necho $stemmed;

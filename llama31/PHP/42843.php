@@ -1,1 +1,0 @@
-$userAgent = $_SERVER['HTTP_USER_AGENT'];\nif (preg_match('/(iPhone|Android|BlackBerry)/', $userAgent)) {\n    // Redirect to mobile site\n}

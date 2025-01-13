@@ -1,1 +1,0 @@
-$(".pageNav a").live("click", function(event) {\n    // ...\n    $(selector).hide();\n    $(selector).filter(".page" + clickedLink).show();\n    return false;\n});

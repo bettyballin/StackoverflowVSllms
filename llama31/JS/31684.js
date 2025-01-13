@@ -1,1 +1,0 @@
-var xmlData = "...your xml data...";\n\nvar xhr = new XMLHttpRequest();\nxhr.open('POST', '/your/upload/end/point', true);\n\nxhr.upload.addEventListener('progress', function(e) {\n    var percent = (e.loaded / e.total) * 100;\n    // Update your progress bar here\n    $('#progressbar').progressbar('value', percent);\n});\n\nxhr.send(xmlData);

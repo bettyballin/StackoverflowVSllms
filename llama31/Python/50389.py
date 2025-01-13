@@ -1,1 +1,0 @@
-import gtk\nimport gtk.glade\n\nwindow_tree = gtk.glade.XML('testtoolbar.glade')\nwindow = window_tree.get_widget('window1')\nwindow.set_focus(None)\n\ngtk.main()

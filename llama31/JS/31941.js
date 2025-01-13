@@ -1,1 +1,0 @@
-$.ajax({\n  type: 'GET',\n  url: 'your_php_page.php',\n  data: { data: row.value },\n  success: function(response) {\n    $('#' + displayElem).html(response);\n  }\n});

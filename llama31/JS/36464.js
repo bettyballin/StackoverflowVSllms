@@ -1,1 +1,0 @@
-image.style.width = PhotoWidth + "px";\nimage.style.height = PhotoHeight + "px";

@@ -1,1 +1,0 @@
-DECLARE\n  v_lob_data VARCHAR2(4000);\nBEGIN\n  get_lob_data(1, v_lob_data);\n  DBMS_OUTPUT.PUT_LINE(v_lob_data);\nEND;\n/

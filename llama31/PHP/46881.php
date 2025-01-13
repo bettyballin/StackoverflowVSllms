@@ -1,1 +1,0 @@
-$foo = $this->getFoo(PropelPDO::LOCK_EXCLUSIVE);\nif ($foo->getModificationFlag() == 0) {\n    // make modification\n    $foo->setModificationFlag(1);\n    $foo->save($con);\n}

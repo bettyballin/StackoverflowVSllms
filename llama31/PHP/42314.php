@@ -1,1 +1,0 @@
-// In your view\n<?php echo __d('my_plugin', 'Hello, world!'); ?>

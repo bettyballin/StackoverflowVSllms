@@ -1,1 +1,0 @@
-Name.objects.filter(alias__ne="", alias__isnull=False)

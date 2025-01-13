@@ -1,1 +1,0 @@
-INSERT INTO your_table (column_name)\nVALUES (CONVERT(VARCHAR(50), 'your_data_here'));

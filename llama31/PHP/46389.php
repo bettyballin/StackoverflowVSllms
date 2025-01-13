@@ -1,1 +1,0 @@
-<?php\n    $entries = json_decode($_POST['entries'], true);\n    foreach ($entries as $entry) {\n        echo $entry['entryId'] . ' ' . $entry['mediaType'] . "\n";\n    }\n?>

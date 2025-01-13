@@ -1,1 +1,0 @@
-date_default_timezone_set('America/New_York'); // Set the timezone to your desired timezone\n\necho '<p>' . mktime(24, 0,0, 8,29,2009) . ' - 12pm</p>';\necho '<p>' . mktime(23, 0,0, 8,29,2009) . ' - 11pm</p>';\necho '<p>' . mktime(22, 0,0, 8,29,2009) . ' - 10pm</p>';

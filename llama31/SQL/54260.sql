@@ -1,1 +1,0 @@
-SELECT DISTINCT UPPER(column-one) + ':' + UPPER(column-two) AS ResultColumn \nFROM datatable;

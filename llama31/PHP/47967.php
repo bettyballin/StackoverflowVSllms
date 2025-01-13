@@ -1,1 +1,0 @@
-echo date('G:i', strtotime('0000-00-00 22:00:00')); // outputs 2:00

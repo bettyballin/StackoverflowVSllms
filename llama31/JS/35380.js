@@ -1,1 +1,0 @@
-function validate(input) {\n    var value = input.value.trim();\n    // now you can check the length of the trimmed string\n    if (value.length < 5) {\n        // validation failed\n        return false;\n    }\n    return true;\n}

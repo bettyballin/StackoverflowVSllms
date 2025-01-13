@@ -1,1 +1,0 @@
-Public Class MyUserControl\n    Implements IErrorHandlingControl\n\n    Public Event CustomErrorOccurred As EventHandler(Of CustomErrorEventArgs) Implements IErrorHandlingControl.CustomErrorOccurred\n\n    ' ...\nEnd Class

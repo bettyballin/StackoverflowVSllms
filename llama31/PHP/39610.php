@@ -1,1 +1,0 @@
-$result = pg_query($dbconn, "SELECT * FROM user_data WHERE id = $user_id");

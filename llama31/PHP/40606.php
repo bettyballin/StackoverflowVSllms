@@ -1,1 +1,0 @@
-$action = $_POST['action'];\n\nif ($action == 'publish') {\n    // Publish the news\n} elseif ($action == 'draft') {\n    // Save as draft\n}

@@ -1,1 +1,0 @@
-SELECT *\nFROM (\n  SELECT e.*, ROW_NUMBER() OVER (ORDER BY sal DESC) as sal_row_num\n  FROM scott.emp e\n  WHERE deptno = 20 AND job = 'CLERK'\n)\nWHERE sal_row_num = 1;

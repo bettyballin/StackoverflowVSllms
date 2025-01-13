@@ -1,1 +1,0 @@
-// Add new input field\nfunction addField() {\n  var field = document.getElementById('input-field').cloneNode(true);\n  field.id = ''; // Remove ID to avoid duplicates\n  document.getElementById('fields-container').appendChild(field);\n}

@@ -1,1 +1,0 @@
-import json\n\nwith open('config.json', 'r') as f:\n    config = json.load(f)\n\ndb_username = config['db_username']\ndb_password = config['db_password']

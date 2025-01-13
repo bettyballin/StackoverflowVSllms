@@ -1,1 +1,0 @@
-$app->get('/users/:id', function ($id) {\n    // Return user data\n});

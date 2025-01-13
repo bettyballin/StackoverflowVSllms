@@ -1,1 +1,0 @@
-$stmt = $mysqli->prepare("CALL my_stored_procedure(?)");\n$stmt->bind_param("i", $input_value);\n$stmt->execute();

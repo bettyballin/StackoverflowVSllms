@@ -1,1 +1,0 @@
-CREATE TABLE titles (\n  id INT PRIMARY KEY,\n  title_en VARCHAR(255),\n  title_nl VARCHAR(255)\n);

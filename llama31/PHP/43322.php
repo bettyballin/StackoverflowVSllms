@@ -1,1 +1,0 @@
-function pickUnusedColor($image) {\n  do {\n    $randomColor = imagecolorallocate($image, rand(0, 255), rand(0, 255), rand(0, 255));\n  } while (imagecolorclosest($image, $randomColor) !== -1);\n  return $randomColor;\n}

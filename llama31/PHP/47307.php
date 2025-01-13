@@ -1,1 +1,0 @@
-print_r($keywords);\nextract($product); // This line can overwrite $keywords\nforeach ($keywords as $k=>$v) {\n   //stuff here\n}

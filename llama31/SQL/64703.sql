@@ -1,1 +1,0 @@
-SELECT \n    SUBSTRING(MyVarbinaryField, 1, 1024) AS Chunk1,\n    SUBSTRING(MyVarbinaryField, 1025, 1024) AS Chunk2,\n    ...\nFROM MyTable;

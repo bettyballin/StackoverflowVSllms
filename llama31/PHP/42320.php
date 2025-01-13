@@ -1,1 +1,0 @@
-exec("env", $output);\n   print_r($output);

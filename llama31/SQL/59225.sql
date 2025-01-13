@@ -1,1 +1,0 @@
-SET PASSWORD FOR 'root'@'%' = PASSWORD('your_new_password');\nFLUSH PRIVILEGES;

@@ -1,1 +1,0 @@
-SELECT t2.*\nFROM tbl2 t2\nLEFT JOIN tbl3 t3 ON t2.id = t3.tbl2_id AND t3.tbl1_id = ?  -- replace with the selected value from tbl1\nWHERE t3.tbl2_id IS NULL

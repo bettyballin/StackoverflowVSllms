@@ -1,1 +1,0 @@
-For y As Integer = 0 To image.Height - 1\n    For x As Integer = 0 To image.Width - 1\n        Dim pixel As Color = image.GetPixel(x, y)\n        Dim inverted As Color = Color.FromArgb(255 - pixel.R, 255 - pixel.G, 255 - pixel.B)\n        image.SetPixel(x, y, inverted)\n    Next\nNext

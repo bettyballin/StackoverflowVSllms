@@ -1,1 +1,0 @@
-SELECT \n  banners.id,\n  banners.title,\n  banners.text,\n  GROUP_CONCAT(languages.language SEPARATOR ', ') as languages\nFROM \n  banners, \n  content_id_country, \n  languages\nWHERE \n  content_id_country.content_id = banners.id\n  AND content_id_country.controller = 'banners'\nGROUP BY \n  banners.id

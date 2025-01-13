@@ -1,1 +1,0 @@
-# Update token every 24 hours or when the user logs out\ntoken_expiration = 24 * 60 * 60  # 24 hours in seconds

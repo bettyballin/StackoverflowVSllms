@@ -1,1 +1,0 @@
-value.xpath("//div[@id='eq-#{my_eq}_bl-#{my_bl}' and @class='foo']").first

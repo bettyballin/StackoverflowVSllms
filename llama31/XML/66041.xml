@@ -1,1 +1,0 @@
-<hibernate-configuration xmlns="urn:nhibernate-configuration-2.2">\n  <session-factory>\n    <property name="hibernate.bytecode.provider">NHibernate.ByteCode.Castle</property>\n    <property name="hibernate.bytecode.use_reflection_optimizer">true</property>\n    <property name="hibernate.interceptor">ProxyInterceptor</property>\n  </session-factory>\n</hibernate-configuration>

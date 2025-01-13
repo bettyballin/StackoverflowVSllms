@@ -1,1 +1,0 @@
-class Foo\n{\n  public function __construct()\n  {\n    $bar = new Bar();\n    $bar->test();\n  }\n}\n\nclass Bar\n{\n  public function test()\n  {\n    $backtrace = debug_backtrace();\n    echo "Called by: " . get_class($backtrace[1]['object']) . "\n";\n  }\n}\n\n$foo = new Foo();

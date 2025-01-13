@@ -1,1 +1,0 @@
-class SessionManager\n{\n    private function __construct()\n    {\n        // ...\n    }\n\n    public function startSession()\n    {\n        if (!headers_sent()) {\n            session_start();\n            self::$session_id = session_id();\n        }\n    }\n}

@@ -1,1 +1,0 @@
-$("your_droppable_selector").on({\n  mouseenter: function() {\n    $(this).addClass("droppable-hover");\n  },\n  mouseleave: function() {\n    $(this).removeClass("droppable-hover");\n  }\n});

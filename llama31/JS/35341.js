@@ -1,1 +1,0 @@
-$("#myListView").on("click", ".sort-header", function () {\n    var sortExpression = $(this).attr("data-sort-expression");\n    refreshListView("myListView", 0, 10, sortExpression);\n});\n\n$("#myListView").on("click", ".page-button", function () {\n    var pageIndex = $(this).attr("data-page-index");\n    refreshListView("myListView", pageIndex, 10, "");\n});

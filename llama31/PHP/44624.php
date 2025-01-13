@@ -1,1 +1,0 @@
-$private_key = 'file://path/to/private/key';\n$data = 'your data here';\n\n$signature = '';\nopenssl_sign($data, $signature, $private_key);\n\n// Send the data and signature to the receiving site

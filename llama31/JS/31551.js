@@ -1,1 +1,0 @@
-// Example using Node.js and Express\nconst express = require('express');\nconst app = express();\n\napp.get('/', (req, res) => {\n  // Render the page on the server-side\n  const html = renderPage();\n  res.send(html);\n});

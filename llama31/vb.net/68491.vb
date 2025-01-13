@@ -1,1 +1,0 @@
-Imports System.Security.Principal\n\nDim identity As WindowsIdentity = WindowsIdentity.GetCurrent()\nDim fullName As String = identity.Name\n\nConsole.WriteLine(fullName)

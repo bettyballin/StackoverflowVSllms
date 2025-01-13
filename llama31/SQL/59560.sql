@@ -1,1 +1,0 @@
--- Explicit join\nEXPLAIN SELECT * FROM table a INNER JOIN table b ON a.id = b.id;\n\n-- Implicit join\nEXPLAIN SELECT a.*, b.* FROM table a, table b WHERE a.id = b.id;

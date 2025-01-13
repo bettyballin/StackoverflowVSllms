@@ -1,1 +1,0 @@
-$('#productContainer').load("products/"+substr+"/product.html", function(){\n    // Update menu positions here\n});

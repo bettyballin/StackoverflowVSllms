@@ -1,1 +1,0 @@
-$('#parentElement').on('mouseover', '.childElement', function(event) {\n  // Do your logic and rendering here\n  // ...\n});

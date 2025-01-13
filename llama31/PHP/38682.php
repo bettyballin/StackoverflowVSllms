@@ -1,1 +1,0 @@
-echo $_SERVER['THE_REQUEST'] . "<br>" . $_GET['req'];

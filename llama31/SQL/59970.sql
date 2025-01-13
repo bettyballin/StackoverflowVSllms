@@ -1,1 +1,0 @@
--- Old syntax with COMPUTE BY\nSELECT department, salary\nFROM employees\nORDER BY department\nCOMPUTE AVG(salary) BY department\n\n-- New syntax with ROLLUP\nSELECT department, AVG(salary) AS avg_salary\nFROM employees\nGROUP BY department WITH ROLLUP

@@ -1,1 +1,0 @@
-PARAMETERS ParamValue TEXT;\nSELECT * FROM dbo.MyDataTable WHERE Col1 = ParamValue

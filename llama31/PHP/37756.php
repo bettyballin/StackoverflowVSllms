@@ -1,1 +1,0 @@
-function browse() {\n    $categories = new categories;\n    $categories_list = $categories->build_list();\n    $categories_array = array();\n\n    foreach($categories_list as $c) {\n        $categories_array[] = $c['c_name'];\n    }\n\n    return $categories_array;\n}

@@ -1,1 +1,0 @@
-Public Function IsStringHello(ByVal test As String) As Boolean\n    Console.WriteLine(Object.ReferenceEquals(test, myWord)) ' prints: True\n    Return (String.Compare(test, "Hello") = 0)\nEnd Functio

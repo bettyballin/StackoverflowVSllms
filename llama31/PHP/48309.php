@@ -1,1 +1,0 @@
-$string = "Hello “world” ‘foo’";\n\n$string = preg_replace('/[“”‘’]/', function($match) {\n    switch ($match[0]) {\n        case "“":\n        case "”":\n            return '"';\n        case "‘":\n        case "’":\n            return "'";\n    }\n}, $string);\n\necho $string; // Output: Hello "world" 'foo'

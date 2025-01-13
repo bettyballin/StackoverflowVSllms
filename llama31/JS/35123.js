@@ -1,1 +1,0 @@
-if (isAdmin) {\n    // grant admin privileges\n} else if (isModerator) {\n    // grant moderator privileges\n}

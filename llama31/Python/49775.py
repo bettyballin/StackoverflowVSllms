@@ -1,1 +1,0 @@
-import csv\n\nwith open('file.txt', 'r', encoding='utf-8') as f:\n    reader = csv.reader(f)\n    for row in reader:\n        # process the row\n        ascii_row = [cell.encode('ascii', errors='ignore') for cell in row]

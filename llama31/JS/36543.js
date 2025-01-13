@@ -1,1 +1,0 @@
-$("#yourForm").validate({\n    // your validation rules here\n    submitHandler: function(form) {\n        // show your modal overlay here\n        $("#loadingModal").show();\n        // submit the form\n        form.submit();\n    }\n});

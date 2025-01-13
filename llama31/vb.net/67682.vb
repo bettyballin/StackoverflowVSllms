@@ -1,1 +1,0 @@
-Dim xlApp As Object\nSet xlApp = CreateObject("Excel.Application")

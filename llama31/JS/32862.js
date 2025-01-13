@@ -1,1 +1,0 @@
-function pollNotifications() {\n  $.ajax({\n    type: 'GET',\n    url: '/notifications',\n    success: function(data) {\n      // Process notifications here\n    },\n    complete: function() {\n      setTimeout(pollNotifications, 300000); // Poll every 5 minutes\n    }\n  });\n}\n\npollNotifications();

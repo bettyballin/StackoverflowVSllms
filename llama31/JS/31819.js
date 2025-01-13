@@ -1,1 +1,0 @@
-// Your jQuery code here\n$(document).ready(function() {\n  $('#myForm').submit(function(e) {\n    // Handle form submission\n  });\n});

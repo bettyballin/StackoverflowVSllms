@@ -1,1 +1,0 @@
-def invert_dict(d):\n    return {v: k for k, v in d.items()}\n\nmy_map = {'a': 1, 'b': 2}\ninv_map = invert_dict(my_map)\nprint(inv_map)  # Output: {1: 'a', 2: 'b'}

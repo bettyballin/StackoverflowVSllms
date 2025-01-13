@@ -1,1 +1,0 @@
-SELECT * \nFROM us_music AS us\nJOIN de_music AS de ON us.genre = de.genre\nWHERE us.genre = 'punk' AND de.genre = 'punk';

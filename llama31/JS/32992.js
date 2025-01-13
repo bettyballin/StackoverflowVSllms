@@ -1,1 +1,0 @@
-$.ajax({\n    type: "POST",\n    url: "UserService.asmx/PersonTable",\n    data: "{}",\n    dataType: "json",\n    contentType: "application/json; charset=utf-8",\n    success: function(obj) {\n        $('#tblPeople').html(obj.d); // Use html() instead of text()\n    },\n    error: function() {\n        alert("error");\n    }\n})

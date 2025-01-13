@@ -1,1 +1,0 @@
-$.ajax({\n  type: "POST",\n  url: "path_to_url",\n  dataType: "jsonp",\n  data: dataString,\n  success: function() {\n    // ...\n  }\n});

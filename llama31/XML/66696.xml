@@ -1,1 +1,0 @@
-<system.web>\n    <httpModules>\n        <add name="ClientCertificateModule" type="ClientCertificateModule" />\n    </httpModules>\n</system.web>

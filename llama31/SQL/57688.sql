@@ -1,1 +1,0 @@
-SELECT * FROM queue WHERE status = 'pending' LIMIT 10 FOR UPDATE;

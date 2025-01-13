@@ -1,1 +1,0 @@
-EXEC sp_canexecute 'storedProcedureName', 'username';

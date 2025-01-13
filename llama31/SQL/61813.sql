@@ -1,1 +1,0 @@
-CREATE TABLE DimDate (\n    DateKey INT PRIMARY KEY,\n    DateValue DATE\n);\n\nCREATE TABLE FactSales (\n    SalesKey INT PRIMARY KEY,\n    DateKey INT,\n    SalesAmount DECIMAL(10, 2),\n    FOREIGN KEY (DateKey) REFERENCES DimDate(DateKey)\n);

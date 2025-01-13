@@ -1,1 +1,0 @@
-import sqlite3\n\nconn = sqlite3.connect('my_database.db')\ncursor = conn.cursor()\ncursor.execute('PRAGMA table_info(my_table)')\ncolumns = cursor.fetchall()\nfor column in columns:\n    print(column)

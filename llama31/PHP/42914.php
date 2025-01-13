@@ -1,1 +1,0 @@
-$stmt = $conn->prepare("SELECT id FROM addresses WHERE shiptozip = ? AND shiptostreet COLLATE utf8_general_ci = ?");\n$stmt->bind_param("ss", $shiptozip, $shiptostreet);\n$stmt->execute();

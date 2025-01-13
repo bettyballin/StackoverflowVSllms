@@ -1,1 +1,0 @@
-ftp_pasv($ftp_conn, true);

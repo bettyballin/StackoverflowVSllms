@@ -1,1 +1,0 @@
-<?php\n    echo json_encode(array("message" => "This is my first JavaScript!"));\n?>

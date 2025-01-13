@@ -1,1 +1,0 @@
-public function renderSomeHTMLWrapper($topOfThePage = true) {\n    // Set a global or a class property here based on $topOfThePage\n    // Or directly use $topOfThePage in your logic\n    $GLOBALS["topOfThePage"] = $topOfThePage;\n    $this->renderSomeHTML();\n}

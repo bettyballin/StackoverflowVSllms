@@ -1,1 +1,0 @@
-const htmlString = "<div id='myID'> my Text </div>";\nconst range = document.createRange();\nrange.selectNode(document.body);\nconst fragment = range.createContextualFragment(htmlString);\ndocument.body.insertBefore(fragment, document.body.childNodes[0]);

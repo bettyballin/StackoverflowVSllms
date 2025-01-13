@@ -1,1 +1,0 @@
-SELECT n.nid, n.type, n.title, nr.body, nr.teaser, \n       FROM_UNIXTIME(e.event_start) start_date, \n       FROM_UNIXTIME(e.event_end) end_date\nFROM node n\nLEFT JOIN event e ON n.nid = e.nid\nLEFT JOIN node_revisions nr ON nr.nid = e.nid\nWHERE n.type = 'event'\n  AND YEARWEEK(FROM_UNIXTIME(e.event_start), 0) = YEARWEEK(CURDATE(), 0)\nORDER BY n.created DESC\nLIMIT 5;

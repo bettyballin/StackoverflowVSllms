@@ -1,1 +1,0 @@
-$mysqli = new mysqli('p:localhost', 'username', 'password', 'database');\n\n$stmt = $mysqli->prepare('SELECT * FROM users WHERE id = ?');\n$stmt->bind_param('i', $id);\n$stmt->execute();\n\n// ... script execution continues ...\n\n// If using persistent connections, the prepared query remains cached\n// even after the script finishes executing

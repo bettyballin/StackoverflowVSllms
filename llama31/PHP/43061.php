@@ -1,1 +1,0 @@
-$filename = 'your_video_file.flv';\n$mime_type = 'video/x-flv';\n\nheader('Content-Type: ' . $mime_type);\nheader('Content-Disposition: attachment; filename="' . $filename . '"');\nheader('Content-Length: ' . filesize($filename));\n\nreadfile($filename);\nexit;

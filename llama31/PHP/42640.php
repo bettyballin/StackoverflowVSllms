@@ -1,1 +1,0 @@
-class database extends mysqli implements databaseInterface {\n    // etc.\n}

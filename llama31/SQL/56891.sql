@@ -1,1 +1,0 @@
-SELECT \n    p.title,\n    im.small_image\nFROM \n    posts p\nLEFT JOIN \n    postimages pi ON p.id = pi.post_id\nLEFT JOIN \n    images im ON pi.image_id = im.image_id\nWHERE \n    pi.image_id = (SELECT MIN(image_id) FROM postimages WHERE post_id = p.id)\nORDER BY \n    p.created_at\nLIMIT 10;

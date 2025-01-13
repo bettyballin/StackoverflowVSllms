@@ -1,1 +1,0 @@
-SELECT \n  m.id, \n  m.meta_data, \n  (SELECT GROUP_CONCAT(s.another_table_id) FROM sub s WHERE s.main_id = m.id) AS concatenated_ids\nFROM \n  main m

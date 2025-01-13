@@ -1,1 +1,0 @@
-if (mysql_errno()) {\n    error_log('MySQL error: ' . mysql_error());\n}

@@ -1,1 +1,0 @@
-function showPanel(fieldName) {\n  var fieldNameElement = document.getElementById('field_name');\n  // Using textContent is safer than innerHTML to prevent XSS\n  fieldNameElement.textContent = fieldName;\n}

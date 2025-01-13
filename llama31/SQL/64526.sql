@@ -1,1 +1,0 @@
-CREATE TABLE hashes (\n    id INT PRIMARY KEY,\n    hash BINARY(64) NOT NULL\n);

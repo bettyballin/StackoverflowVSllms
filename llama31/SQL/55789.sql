@@ -1,1 +1,0 @@
--- On the remote database, retrieve the OID of the UDT\nSELECT SYS_OP_GUID('RemoteType') FROM DUAL;\n\n-- On the local database, create the UDT with the same OID\nCREATE OR REPLACE TYPE LocalType OID ' retrieved_oid ' AS OBJECT (...);

@@ -1,1 +1,0 @@
-<?php\nif (isset($_GET['title'])) {\n    $title = $_GET['title'];\n    // Process the title parameter\n} elseif (isset($_GET['id'])) {\n    $id = $_GET['id'];\n    // Process the ID parameter\n}\n?>

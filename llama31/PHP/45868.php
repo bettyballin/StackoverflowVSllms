@@ -1,1 +1,0 @@
-class Model_Table_User extends Zend_Db_Table_Abstract\n{\n    protected $_name = 'user';\n    protected $_primary = 'person_id';\n\n    protected $_referenceMap = array(\n        'Person' => array(\n            'columns' => 'person_id',\n            'refTableClass' => 'Model_Table_Person',\n            'refColumns' => 'person_id'\n        )\n    );\n}

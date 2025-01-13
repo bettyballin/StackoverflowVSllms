@@ -1,1 +1,0 @@
-amespace Recess;\n\nuse VCL4PHP\Application as VCLApplication;\n\nclass Application {\n    // Recess Application class\n}\n\n$vclApp = new VCLApplication();

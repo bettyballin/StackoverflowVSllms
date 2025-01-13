@@ -1,1 +1,0 @@
-$string = "THIS IS A STRING IN ALL UPPER CASE. THIS IS ANOTHER SENTENCE.";\n\n$normalizedString = '';\n$sentences = explode('. ', $string);\nforeach ($sentences as $sentence) {\n    $normalizedString .= ucfirst(strtolower($sentence)) . '. ';\n}\n\necho trim($normalizedString); // Output: "This is a string in all upper case. This is another sentence."

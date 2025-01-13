@@ -1,1 +1,0 @@
-// Assuming you have a function to update the UI based on the new state\nfunction updateUI(newState) {\n  // Update the UI accordingly\n}\n\n// Get the current URL\nvar currentUrl = window.location.href;\n\n// Update the URL using pushState\nwindow.history.pushState(newState, "", "/new-path");\n\n// Update the UI\nupdateUI(newState);

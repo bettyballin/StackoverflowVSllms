@@ -1,1 +1,0 @@
-module YourApp\n  class Application < Rails::Application\n    config.generators.template_engine :haml\n  end\nend

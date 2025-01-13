@@ -1,1 +1,0 @@
-$.get('http://localhost:8080/api/endpoint', function (data) {\n  alert(data);\n});

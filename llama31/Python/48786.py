@@ -1,1 +1,0 @@
-from selenium import selenium\n\n# assuming 'selenium' is your selenium object\nhtml_source = selenium.get_html_source()\nyour_function(html_source)  # pass the html source to your functio

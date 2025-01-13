@@ -1,1 +1,0 @@
-window.onpopstate = function(event) {\n  if (event.state) {\n    // The user has navigated back to a previous page\n    // You can update your application state here\n  }\n};

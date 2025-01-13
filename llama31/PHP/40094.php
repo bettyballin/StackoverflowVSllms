@@ -1,1 +1,0 @@
-Array\n(\n    [abc] => String key with curly braces\n)

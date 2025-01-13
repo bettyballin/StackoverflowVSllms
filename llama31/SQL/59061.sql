@@ -1,1 +1,0 @@
-SELECT g.*, COUNT(t.game_number) AS ticket_count\nFROM games g\nLEFT JOIN tickets t ON g.game_number = t.game_number\nGROUP BY g.game_number;

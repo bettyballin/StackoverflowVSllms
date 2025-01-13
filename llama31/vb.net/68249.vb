@@ -1,1 +1,0 @@
-If (FilePath Is Nothing) Then\n    Throw New ArgumentNullException("FilePath")\nEnd If

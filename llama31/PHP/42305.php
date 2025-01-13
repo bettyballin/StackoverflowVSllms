@@ -1,1 +1,0 @@
-// Example using a templating engine like Twig\n$template = $twig->load('template.html');\n$template->render(['variable' => 'value']);

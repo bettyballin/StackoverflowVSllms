@@ -1,1 +1,0 @@
-SELECT * FROM storeopeninghours_tostring(1);

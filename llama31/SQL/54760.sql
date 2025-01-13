@@ -1,1 +1,0 @@
-CREATE TRIGGER [YourTrigger] ON [YourTable]\nAFTER INSERT, UPDATE, DELETE\nAS\nBEGIN\n    DECLARE @message nvarchar(max);\n    SET @message = 'Data changed in Customer/Order table';\n    SEND ON CONVERSATION 'YourConversation' MESSAGE TYPE 'YourMessageType' (@message);\nEND;

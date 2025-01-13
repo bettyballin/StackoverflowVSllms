@@ -1,1 +1,0 @@
-<extension-point id="org.jbpm.gd.common.xmlMappings" name="XML Mappings" schema="schema/xmlMappings.exsd">\n  <extension id="plugin.A.xmlMappings" name="Plugin A XML Mappings" point="org.jbpm.gd.common.xmlMappings">\n    <!-- your extensions here -->\n  </extension>\n</extension-point>

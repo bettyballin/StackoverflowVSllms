@@ -1,1 +1,0 @@
-SET @letter = 'a';\nSELECT *\nFROM your_table\nWHERE LOWER(your_column) REGEXP CONCAT('[[:<:]]', @letter, '[[:>:]]') = 1;

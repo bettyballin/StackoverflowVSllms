@@ -1,1 +1,0 @@
-Public Event Report(ByVal message As String)\n\nRaiseEvent Report("Sending request: " & queryString)

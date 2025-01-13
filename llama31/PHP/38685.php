@@ -1,1 +1,0 @@
-if (password_verify($_POST['password'], $xml->password)) {\n    // Password is valid\n} else {\n    // Password is not valid\n}

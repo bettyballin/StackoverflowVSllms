@@ -1,1 +1,0 @@
-class PublishingTypeMapper {\n    public function __construct($data) {\n        if (!is_int($data->PublishRadius)) {\n            throw new SoapFault('Server', 'Type mismatch: PublishRadius must be an integer');\n        }\n    }\n}\n\n$server = new SoapServer('path/to/wsdl');\n$server->setClassMap(array('Publishing' => 'PublishingTypeMapper'));

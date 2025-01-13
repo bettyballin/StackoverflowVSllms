@@ -1,1 +1,0 @@
-<system.web.extensions>\n  <scripting>\n    <webServices>\n      <authenticationService enabled="true" />\n    </webServices>\n  </scripting>\n</system.web.extensions>

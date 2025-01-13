@@ -1,1 +1,0 @@
-class OtherClass {\n    function foo() {\n        // code\n    }\n}

@@ -1,1 +1,0 @@
-// Assuming the web page has a button with an onclick event\nfunction loginSuccess() {\n    var filePath = '/path/to/your/file.pdf';\n    window.external.ReceiveFilePath(filePath);\n}

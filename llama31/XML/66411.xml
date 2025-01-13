@@ -1,1 +1,0 @@
-<configuration>\n  <system.webServer>\n    <httpProtocol>\n      <customHeaders>\n        <add name="X-Url-Rewrite-Enabled" value="false" />\n      </customHeaders>\n    </httpProtocol>\n  </system.webServer>\n</configuration>

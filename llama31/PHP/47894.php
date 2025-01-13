@@ -1,1 +1,0 @@
-$firstElement = reset(functionThatReturnsAnArray());

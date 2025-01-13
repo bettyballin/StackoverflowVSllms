@@ -1,1 +1,0 @@
-// application/modules/module1/Bootstrap.php\nclass Module1_Bootstrap extends Zend_Application_Module_Bootstrap\n{\n    protected function _initAutoloader()\n    {\n        $autoloader = Zend_Loader_Autoloader::getInstance();\n        $autoloader->registerNamespace('Module1_');\n    }\n}

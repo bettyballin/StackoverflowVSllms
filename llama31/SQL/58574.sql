@@ -1,1 +1,0 @@
-IF LTRIM(RTRIM(@value)) = ''

@@ -1,1 +1,0 @@
-script.onreadystatechange = function() {\n  if (script.readyState === 'complete' || script.readyState === 'loaded') {\n    // script has been loaded\n  }\n}

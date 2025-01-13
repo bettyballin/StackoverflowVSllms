@@ -1,1 +1,0 @@
-IF EXISTS (SELECT 1 FROM MyTable WHERE KEY = @key)\n    UPDATE MyTable SET datafield1 = @datafield1, datafield2 = @datafield2 WHERE KEY = @key\nELSE\n    INSERT INTO MyTable (KEY, datafield1, datafield2) VALUES (@key, @datafield1, @datafield2)

@@ -1,1 +1,0 @@
--- Example answer: Using indexes, rewriting the query to reduce joins and subqueries, and applying query hints\nCREATE INDEX idx_Users_Username ON Users (Username)

@@ -1,1 +1,0 @@
-# controllers/api/v1/users_controller.rb\nclass Api::V1::UsersController < ApplicationController\n  def index\n    # Get all users\n  end\n\n  def create\n    # Create a new user\n  end\n\n  def update\n    # Update an existing user\n  end\n\n  def destroy\n    # Delete a user\n  end\nend

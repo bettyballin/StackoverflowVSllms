@@ -1,1 +1,0 @@
-SELECT foo \nFROM (\n  SELECT foo, ROW_NUMBER() OVER (ORDER BY foo) AS row_num \n  FROM table\n) AS subquery \nWHERE row_num BETWEEN 11 AND 20;

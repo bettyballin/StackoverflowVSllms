@@ -1,1 +1,0 @@
-$node = ...; // your DOMNode instance\n\n$doc = $node->ownerDocument;\n$xml = $doc->saveXML($node);\n\necho $xml;

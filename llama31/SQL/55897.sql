@@ -1,1 +1,0 @@
-CREATE TYPE author_type AS OBJECT (\n  author_id NUMBER,\n  author_name VARCHAR2(50)\n);\n\nCREATE TYPE book_type AS OBJECT (\n  book_id NUMBER,\n  book_title VARCHAR2(100),\n  authors NESTED TABLE OF REF author_type\n);\n\nCREATE TABLE authors OF author_type;\nCREATE TABLE books OF book_type;

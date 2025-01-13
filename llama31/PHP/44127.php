@@ -1,1 +1,0 @@
-ini_set('session.save_path', 'C:\path\to\session\directory');

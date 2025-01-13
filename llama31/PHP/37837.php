@@ -1,1 +1,0 @@
-$array = array('one' => 1);\necho json_encode($array, JSON_PRETTY_PRINT);

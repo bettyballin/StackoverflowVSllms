@@ -1,1 +1,0 @@
-<form method="post" action="<?=$_SERVER['PHP_SELF']; ?>">

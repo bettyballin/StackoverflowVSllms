@@ -1,1 +1,0 @@
-function statechanged()\n{\n    if(xmlhttp.readyState==4)\n    {\n        var response = xmlhttp.responseText;\n        var data = JSON.parse(response);\n        document.getElementById("mainbody").innerHTML = data.message;\n    }\n}

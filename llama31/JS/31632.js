@@ -1,1 +1,0 @@
-function redirectBackToForm() {\n  window.location.href = "/EntryForm.aspx";\n}\n\n// override the default submit behavior\ndocument.getElementById("ctl00_ctl40_g_36f0c26d_eb4d_47b3_a1c5_7d5b97f15b64_ctl00_toolBarTbl_RightRptControls_ctl00_ctl00_diidIOSaveItem").addEventListener("click", function () {\n  setTimeout(redirectBackToForm, 1000);\n});

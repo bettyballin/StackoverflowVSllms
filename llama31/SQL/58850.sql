@@ -1,1 +1,0 @@
--- Create separate schemas for each stage\nCREATE SCHEMA upload;\nCREATE SCHEMA staging;\nCREATE SCHEMA warehouse;\n\n-- Create tables within each schema\nCREATE TABLE upload.raw_data (\n  id INT,\n  data VARCHAR(255)\n);\n\nCREATE TABLE staging.cleaned_data (\n  id INT,\n  data VARCHAR(255)\n);\n\nCREATE TABLE warehouse.star_schema (\n  id INT,\n  data VARCHAR(255)\n);

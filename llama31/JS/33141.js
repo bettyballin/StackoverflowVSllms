@@ -1,1 +1,0 @@
-myURL = parent.location.href + parent.location.search

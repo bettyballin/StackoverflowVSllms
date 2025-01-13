@@ -1,1 +1,0 @@
-CREATE TABLE AttributeValues (\n  AttributeValueID INT PRIMARY KEY,\n  AttributeID INT NOT NULL,\n  Value NVARCHAR(100) NOT NULL,\n  FOREIGN KEY (AttributeID) REFERENCES Attributes(AttributeID)\n);\n\nINSERT INTO AttributeValues (AttributeValueID, AttributeID, Value)\nVALUES (1, 1, 'Sales'),\n       (2, 1, 'Marketing'),\n       (3, 2, 'Manager'),\n       (4, 3, 'New York');

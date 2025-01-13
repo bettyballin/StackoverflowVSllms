@@ -1,1 +1,0 @@
-SELECT *\nFROM (\n    SELECT *, \n           ROW_NUMBER() OVER (ORDER BY column1) AS row_num\n    FROM my_table\n) AS my_inline_view\nWHERE row_num = 1;

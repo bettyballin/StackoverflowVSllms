@@ -1,1 +1,0 @@
-# db/seeds.rb\n\nConstantValue.delete_all\n\nConstantValue.create(name: 'Value 1', value: 'foo')\nConstantValue.create(name: 'Value 2', value: 'bar')

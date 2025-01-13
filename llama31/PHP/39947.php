@@ -1,1 +1,0 @@
-session_start();\n\nif (!isset($_SESSION['referrer_counted'])) {\n    $referrer = $_SERVER['HTTP_REFERER'];\n    // strip domain and update hits_in\n    // ...\n\n    $_SESSION['referrer_counted'] = true;\n}

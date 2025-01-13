@@ -1,1 +1,0 @@
-$result = $db->query("...");\n$ads = $result->fetchAll();\nshuffle($ads);

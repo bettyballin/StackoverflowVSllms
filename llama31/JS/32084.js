@@ -1,1 +1,0 @@
-const input = "x/y";\nconst [myVariable, myVariable2] = input.split('/');\n\nconsole.log(myVariable);  // outputs: x\nconsole.log(myVariable2); // outputs: y

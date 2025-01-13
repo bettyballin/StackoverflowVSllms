@@ -1,1 +1,0 @@
-function hasWhitespaceBetweenStrings($str) {\n    return preg_match('/\s/', trim($str, ' '));\n}\n\n// Test the function\n$name = "Jane Doe";\nif (hasWhitespaceBetweenStrings($name)) {\n    echo "Whitespace detected!";\n} else {\n    echo "No whitespace detected.";\n}

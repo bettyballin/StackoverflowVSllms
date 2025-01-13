@@ -1,1 +1,0 @@
-<system.webServer>\n    <modules>\n        <remove name="WebDAVModule" />\n    </modules>\n    <handlers>\n        <remove name="WebDAV" />\n    </handlers>\n</system.webServer>

@@ -1,1 +1,0 @@
-const monitorInfo = document.getElementById("MonitorInformation");\nmonitorInfo.classList.add("text-red", "font-24");

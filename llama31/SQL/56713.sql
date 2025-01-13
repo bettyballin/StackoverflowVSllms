@@ -1,1 +1,0 @@
-SELECT \n    FORMAT(date_field, 'ddMMM') AS date_column,\n    FORMAT(date_field, 'hhmmtt') AS time_column\nFROM \n    your_table;

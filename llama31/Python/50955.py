@@ -1,1 +1,0 @@
-char = 'A'\nascii_value = ord(char)\nprint(ascii_value)  # Output: 65

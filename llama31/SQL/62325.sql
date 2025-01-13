@@ -1,1 +1,0 @@
-SELECT \n    CASE \n        WHEN ISNUMERIC(BigMacs) = 1 THEN CONVERT(INT, BigMacs) \n        ELSE NULL \n    END AS ConvertedValue\nFROM \n    McTable\nWHERE \n    ISNUMERIC(BigMacs) = 1 AND \n    CASE \n        WHEN ISNUMERIC(BigMacs) = 1 THEN CONVERT(INT, BigMacs) \n        ELSE NULL \n    END > 6

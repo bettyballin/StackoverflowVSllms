@@ -1,1 +1,0 @@
-$scoreBetweenValidator->setMessage('custom not in array msg', Zend_Validate_InArray::NOT_IN_ARRAY);

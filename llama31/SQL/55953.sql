@@ -1,1 +1,0 @@
-DECLARE @Profit decimal(10, 2) = 250.00\n\nSELECT \n    Comm = \n        CASE \n            WHEN @Profit BETWEEN ProfitStartRange AND ProfitEndRange THEN Comm\n            ELSE 0\n        END\nFROM \n    CommissionTable\nWHERE \n    @Profit BETWEEN ProfitStartRange AND ProfitEndRange

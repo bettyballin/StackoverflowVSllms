@@ -1,1 +1,0 @@
-// Example using jQuery UI\nvar data = [...]; // your 1000 row data\n\n$('#range-slider').slider({\n  range: true,\n  min: 0,\n  max: data.length - 1,\n  values: [0, data.length - 1],\n  slide: function(event, ui) {\n    var start = ui.values[0];\n    var end = ui.values[1];\n    // display data between start and end\n  }\n});

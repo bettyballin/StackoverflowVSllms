@@ -1,1 +1,0 @@
-SELECT s1.*\nFROM sales s1\nINNER JOIN (\n  SELECT custid, prodid, MAX(datesold) AS max_date\n  FROM sales\n  WHERE custid = @custid\n  GROUP BY custid, prodid\n) s2\nON s1.custid = s2.custid AND s1.prodid = s2.prodid AND s1.datesold = s2.max_date

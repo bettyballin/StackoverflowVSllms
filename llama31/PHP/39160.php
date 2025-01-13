@@ -1,1 +1,0 @@
-$classes_and_paths = new MultipleIterator();\n$classes_and_paths->attachIterator($defined_classes, 'class');\n$classes_and_paths->attachIterator($php_files_and_content, 'path');\n\nforeach ($classes_and_paths as $data) {\n    echo $data['class'] . ' => ' . $data['path'] . "\n";\n}

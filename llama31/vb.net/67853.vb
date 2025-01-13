@@ -1,1 +1,0 @@
-Sub Application_OnPostRequestHandlerExecute(ByVal sender As Object, ByVal e As EventArgs)\n    Select Case requestedPageName\n        Case "webResource.axd"\n            Exit Sub\n        ' ... other cases ...\n    End Select\n    ' ... custom logic ...\nEnd Sub

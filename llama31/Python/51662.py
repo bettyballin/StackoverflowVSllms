@@ -1,1 +1,0 @@
-# Server-side (place order endpoint)\nfrom queue import Queue\n\norder_queue = Queue()\n\ndef place_order(order_data):\n  order_queue.put(order_data)\n  # Process the order in the background

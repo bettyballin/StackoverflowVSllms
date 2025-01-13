@@ -1,1 +1,0 @@
-$.ajax({\n    type: "GET",\n    url: "@Url.Action("ReportOne", "Home")",\n    dataType: "html",\n    success: function(data) {\n        $("#resultOne").html(data);\n    }\n});

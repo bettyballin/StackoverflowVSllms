@@ -1,1 +1,0 @@
-// In GamePlayer.php\npublic $useTable = 'game_players';

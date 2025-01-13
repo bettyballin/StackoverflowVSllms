@@ -1,1 +1,0 @@
-class YesValidator extends Zend_Validate_Abstract\n{\n    public function isValid($value)\n    {\n        return $value === 'Yes';\n    }\n}

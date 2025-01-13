@@ -1,1 +1,0 @@
-CREATE VIEW CurrentPrices AS\nSELECT \n  p.ProductID,\n  COALESCE(pp.SalePrice, pp.RetailPrice) AS CurrentPrice\nFROM \n  Products p\n  LEFT JOIN ProductPrices pp ON p.ProductID = pp.ProductID AND pp.PriceType = 'Sale' AND CURRENT_DATE BETWEEN pp.SaleStartDate AND pp.SaleEndDate\n  LEFT JOIN ProductPrices pp2 ON p.ProductID = pp2.ProductID AND pp2.PriceType = 'Retail'

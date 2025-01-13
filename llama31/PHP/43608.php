@@ -1,1 +1,0 @@
-$clientValue = "..."; // replace with the actual client value\n$addCodeValue = "..."; // replace with the actual add code value\n\n$params = array(\n    new SoapParam($clientValue, "client"),\n    new SoapParam($addCodeValue, "add_code")\n);\n$result = $client->__call($functionName, $params);

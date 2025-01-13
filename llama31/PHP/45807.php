@@ -1,1 +1,0 @@
-$response = $soapClient->__soapCall('CreateAdvertiser', array($soapVar));

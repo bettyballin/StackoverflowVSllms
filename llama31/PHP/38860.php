@@ -1,1 +1,0 @@
-$string = "<br/>\n<br/>\n<br/>\n<br/>\n<br/>\n";\n$string = preg_replace("/(<br\/>\s*)+/", "<br/>\n", $string);\necho $string;

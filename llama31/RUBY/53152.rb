@@ -1,1 +1,0 @@
-"string".each_char do |c|\n  puts c.ord\nend

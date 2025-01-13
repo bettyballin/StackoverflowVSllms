@@ -1,1 +1,0 @@
-$.ajax({\n    type: 'GET',\n    url: '/ChatServlet',\n    success: function(data) {\n        // handle data\n    }\n});

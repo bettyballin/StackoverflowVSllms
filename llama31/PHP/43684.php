@@ -1,1 +1,0 @@
-$str = '';\n$start = microtime(true);\nfor ($i = 0; $i < 1000000; $i++) {\n    $str == '';\n}\necho microtime(true) - $start . "\n"; // ~0.12 seconds\n\n$start = microtime(true);\nfor ($i = 0; $i < 1000000; $i++) {\n    strlen($str) == 0;\n}\necho microtime(true) - $start . "\n"; // ~0.09 seconds

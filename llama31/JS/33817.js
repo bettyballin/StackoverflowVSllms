@@ -1,1 +1,0 @@
-$.post(url, params, function(data) {\n  $('#queryresultsblock').html(data);\n}, "html");

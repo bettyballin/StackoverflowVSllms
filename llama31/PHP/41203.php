@@ -1,1 +1,0 @@
-$fp = fsockopen('example.com', 80, $errno, $errstr, 1);\nif ($fp) {\n    $out = "GET /other-page.php HTTP/1.1\r\n";\n    $out .= "Host: example.com\r\n";\n    $out .= "Connection: Close\r\n\r\n";\n    fwrite($fp, $out);\n    fclose($fp);\n}

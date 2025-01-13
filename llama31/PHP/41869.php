@@ -1,1 +1,0 @@
-function page_properties($objPortal) {\n    // Assuming $objPage is an instance of PageAttributes\n    $objPage = new PageAttributes($db_connection);\n    $objPage->set_page_title($myrow['title']);\n}

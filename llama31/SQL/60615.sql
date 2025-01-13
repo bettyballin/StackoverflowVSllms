@@ -1,1 +1,0 @@
-CREATE TABLE Products\n(\n    ProductID int NOT NULL IDENTITY(1,1) PRIMARY KEY,\n    CategoryID int NOT NULL FOREIGN KEY REFERENCES Categories(CategoryID),\n    ProductName varchar(200) NOT NULL\n)

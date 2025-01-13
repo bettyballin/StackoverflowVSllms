@@ -1,1 +1,0 @@
-exec('/path/to/fcshctl -c "compile /path/to/your/file.mxml"', $output, $return_var);

@@ -1,1 +1,0 @@
-a = object()\ntry:\n    a.hhh = 1\nexcept AttributeError as e:\n    print(e)  # Output: 'object' object has no attribute 'hhh'\n\ndef f():\n    return 1\n\nf.hhh = 1  # This is okay!\nprint(f.hhh)  # Output: 1\n\nprint(dir(f))  # Output: [..., '__dict__', ...]\nprint(f.__dict__)  # Output: {'hhh': 1}

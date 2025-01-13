@@ -1,1 +1,0 @@
-$this->getResponse()\n     ->setHeader('Content-Type', 'text/html')\n     ->setBody(json_encode($data));

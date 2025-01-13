@@ -1,1 +1,0 @@
-Dim FileName As String = file.FileName\nFileName = System.IO.Path.GetFileName(FileName)

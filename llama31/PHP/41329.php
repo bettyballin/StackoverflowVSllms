@@ -1,1 +1,0 @@
-redefine_function('ibase_connect', 'your_wrapper_function');

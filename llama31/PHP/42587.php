@@ -1,1 +1,0 @@
-Array\n(\n    [0] => Person Object\n        (\n            [name] => John\n            [age] => 30\n        )\n\n    [1] => Person Object\n        (\n            [name] => Jane\n            [age] => 25\n        )\n\n)

@@ -1,1 +1,0 @@
-<?php\nfunction addOrder() {\n  // your existing function code here\n}\n\nif ($_SERVER['REQUEST_METHOD'] === 'POST') {\n  addOrder();\n  echo "Order added successfully!";\n} else {\n  echo "Invalid request method.";\n}\n?>

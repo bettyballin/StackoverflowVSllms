@@ -1,1 +1,0 @@
-echo file_get_contents('/path/to/python/json/');

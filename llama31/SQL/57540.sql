@@ -1,1 +1,0 @@
-SELECT VALUE FROM V$PARAMETER WHERE NAME = 'background_dump_dest';

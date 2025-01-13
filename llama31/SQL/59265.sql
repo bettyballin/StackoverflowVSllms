@@ -1,1 +1,0 @@
-ALTER VIEW dbo.vStartest\nAS\nSELECT a, b, c FROM dbo.starTest

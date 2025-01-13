@@ -1,1 +1,0 @@
-WITH XMLNAMESPACES ('http://example.com/me' AS me)\nSELECT\n    Name AS 'name',\n    Age AS 'description/@xsi:type="me:age"',\n    Age AS 'description',\n    Height AS 'description/@xsi:type="me:height"',\n    Height AS 'description'\nFOR XML PATH('person')

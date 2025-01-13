@@ -1,1 +1,0 @@
-import html\n\nhtml_entities = "&lt;p&gt;Hello, World!&lt;/p&gt;"\nunicode_string = html.unescape(html_entities)\nprint(unicode_string)  # Output: <p>Hello, World!</p>

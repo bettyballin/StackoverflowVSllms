@@ -1,1 +1,0 @@
-Imports System.Threading\n\nModule Module1\n    Private sharedVariable As Integer\n\n    Sub Main()\n        Volatile.Write(sharedVariable, 10)\n        Console.WriteLine(Volatile.Read(sharedVariable))\n    End Sub\nEnd Module

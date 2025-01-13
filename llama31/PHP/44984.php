@@ -1,1 +1,0 @@
-$test = new test();\n$test->sayHi(); // outputs "hi"

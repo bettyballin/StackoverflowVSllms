@@ -1,1 +1,0 @@
-$context = stream_context_create(array(\n    'http' => array(\n        'method' => 'GET',\n        'header' => 'Authorization: Basic ' . base64_encode('username:password')\n    )\n));\n$xml = file_get_contents('https://subdomain.a/secure.xml', false, $context);\n$xml = simplexml_load_string($xml);\n// use the $xml object to parse the XML data

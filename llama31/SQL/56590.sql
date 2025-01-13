@@ -1,1 +1,0 @@
-SELECT * FROM item_fts WHERE name MATCH 'foo' OR skim MATCH 'foo';

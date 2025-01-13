@@ -1,1 +1,0 @@
-SELECT \n  L.*,\n  LE.*\nFROM \n  Logs L\n  LEFT JOIN (\n    SELECT \n      LogsExtended.*\n    FROM \n      LogsExtended\n    WHERE \n      LogsExtended.LogID = L.LogID\n  ) LE ON L.LogID = LE.LogID\nWHERE \n  L.LogDate >= DATEADD(day, -30, GETDATE())

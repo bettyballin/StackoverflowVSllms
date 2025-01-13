@@ -1,1 +1,0 @@
-class AnalyticsPresenter\n  def initialize(metrics, filter)\n    @metrics = metrics\n    @filter = filter\n  end\n\n  def filtered_metrics\n    # apply filter to metrics and return the result\n  end\nend

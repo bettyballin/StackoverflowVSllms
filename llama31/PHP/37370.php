@@ -1,1 +1,0 @@
-use Illuminate\Http\Request;\n\nRoute::post('/users', function (Request $request) {\n    $data = $request->json()->all();\n    // Process data\n});

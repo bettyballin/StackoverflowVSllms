@@ -1,1 +1,0 @@
-CREATE TABLE A (\n  id INT PRIMARY KEY,\n  -- other columns\n);\n\nCREATE TABLE B (\n  id INT PRIMARY KEY,\n  -- other columns\n);\n\nCREATE TABLE C (\n  id_A INT,\n  id_B INT,\n  PRIMARY KEY (id_A, id_B),\n  FOREIGN KEY (id_A) REFERENCES A(id),\n  FOREIGN KEY (id_B) REFERENCES B(id)\n);

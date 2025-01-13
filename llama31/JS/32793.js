@@ -1,1 +1,0 @@
-const obj = {\n  foo: () => {\n    console.log(this); // logs the global object, not obj\n  }\n};\nobj.foo();

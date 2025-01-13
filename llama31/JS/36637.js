@@ -1,1 +1,0 @@
-const piece = { x: 1, y: 2, type: 'knight', color: 'white' };\nconst grid = [\n  [{ x: 0, y: 0, color: 'white' }, { x: 1, y: 0, color: 'black' }, ...],\n  [{ x: 0, y: 1, color: 'black' }, { x: 1, y: 1, color: 'white' }, ...],\n  ...\n];\n\nconst allowableMoves = getAllowableMoves(piece, grid);\nconsole.log(allowableMoves); // Output: [{ x: 3, y: 1 }, { x: 2, y: 3 }, ...]

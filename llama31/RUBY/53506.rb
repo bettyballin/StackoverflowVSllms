@@ -1,1 +1,0 @@
-# app/controllers/application_controller.rb\nbefore_action :update_session_timestamp\n\nprivate\n\ndef update_session_timestamp\n  session[:last_seen] = Time.current\nend\n\n# app/models/user.rb\ndef self.online_users\n  where('last_seen > ?', 10.minutes.ago)\nend

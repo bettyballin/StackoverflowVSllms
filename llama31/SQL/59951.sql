@@ -1,1 +1,0 @@
-SELECT NULL || 'hello' FROM dual;  -- returns 'hello'\nSELECT 1 + NULL FROM dual;  -- returns NULL

@@ -1,1 +1,0 @@
-import win32com.client\n\n# Create a COM object\nobj = win32com.client.Dispatch('Your.COM.Object.Name')\n\n# Call a method on the COM object\nobj.YourMethod()

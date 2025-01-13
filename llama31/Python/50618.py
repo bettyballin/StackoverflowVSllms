@@ -1,1 +1,0 @@
-import unittest\nfrom HtmlTestRunner import HTMLTestRunner\n\nclass MyTest(unittest.TestCase):\n    def test_example(self):\n        self.assertEqual(1, 1)\n\nif __name__ == '__main__':\n    runner = HTMLTestRunner(combine_reports=True, report_name="My Test Report", report_title="My Test Report")\n    unittest.main(testRunner=runner)

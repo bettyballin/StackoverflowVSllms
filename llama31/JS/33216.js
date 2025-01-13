@@ -1,1 +1,0 @@
-if (top !== self) {\n  top.location = self.location;\n}

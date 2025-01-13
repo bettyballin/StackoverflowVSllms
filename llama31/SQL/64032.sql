@@ -1,1 +1,0 @@
-WITH master_ids AS (\n  SELECT id FROM table1\n  UNION\n  SELECT id FROM table2\n  UNION\n  SELECT id FROM table3\n)\nSELECT * FROM master_ids;

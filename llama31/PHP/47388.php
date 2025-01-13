@@ -1,1 +1,0 @@
-$ftp_info = Doctrine_Query::create()\n    ->select('f.uid, f.home, s.identifier')\n    ->from('FtpUser f')\n    ->leftJoin('f.Submitter s WITH s.identifier')\n    ->where('f.uid = ?', 500)\n    ->execute();

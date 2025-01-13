@@ -1,1 +1,0 @@
-var selectedItems = {};\n\n// When an item is selected\nselectedItems[$(this).text()] = $(this).val();

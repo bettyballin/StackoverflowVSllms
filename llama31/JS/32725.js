@@ -1,1 +1,0 @@
-myNamespace.onSuccess = function(request) {\n    var html = $.parseHTML(request);\n    $(html).find('div.Workorders div.Workorder').each(function() {\n        //Do something with the Workorder DIV in 'this'\n    });\n}

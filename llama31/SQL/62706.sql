@@ -1,1 +1,0 @@
-CREATE TABLE documents (\n  id INT,\n  content TEXT,\n  created_at TIMESTAMP,\n  updated_at TIMESTAMP,\n  PERIOD FOR SYSTEM_TIME (created_at, updated_at)\n) WITH SYSTEM VERSIONING;

@@ -1,1 +1,0 @@
-cone_origin = (0, 0)\ncone_direction = (1, 0)\ncone_angle = math.pi/4  # 45 degrees\npoint = (2, 1)\n\nif is_point_in_cone(cone_origin, cone_direction, cone_angle, point):\n    print("Point is inside the cone")\nelse:\n    print("Point is outside the cone")

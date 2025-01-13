@@ -1,1 +1,0 @@
-def _reinit(self):\n    for child in self.notebook.get_children():\n        self.notebook.remove(child)\n    for label in self.get_labels():\n        self.notebook.append_page(self.get_pagebox(label), label)\n    self.notebook.show_all()

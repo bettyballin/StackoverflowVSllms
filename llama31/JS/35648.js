@@ -1,1 +1,0 @@
-function parseRegexInput(input) {\n  const regexMatch = input.match(/^\/(.*?)\/([gimy]*)$/);\n  if (regexMatch) {\n    const pattern = regexMatch[1];\n    const flags = regexMatch[2];\n    return new RegExp(pattern, flags);\n  } else {\n    throw new Error('Invalid regex input');\n  }\n}

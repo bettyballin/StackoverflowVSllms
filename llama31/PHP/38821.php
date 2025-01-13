@@ -1,1 +1,0 @@
-header("ETag: \"" . md5(filemtime($picture)) . "\"");

@@ -1,1 +1,0 @@
-// jQuery AJAX example\n$.ajax({\n  type: 'GET',\n  url: 'https://example.com',\n  success: function(data) {\n    console.log(data);\n  }\n});

@@ -1,1 +1,0 @@
-$mystring = "abcóüÚdefå";\n$file_put_contents($mystring, "");\n\n$h = dir('.');\n$h->read(); // "."\n$h->read(); // ".."\n$filename = $h->read();\n\n$normalized_filename = Normalizer::normalize($filename, Normalizer::FORM_D);\n\nprint "string: $mystring and filename: $normalized_filename are ";\n\nif ($mystring == $normalized_filename) print "equal\n";\nelse print "different\n";

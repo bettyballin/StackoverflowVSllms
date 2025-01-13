@@ -1,1 +1,0 @@
-usort($array, function($a, $b) {\n    return $b['avgSearchVolume'] <=> $a['avgSearchVolume'];\n});

@@ -1,1 +1,0 @@
-// application/config/routes.php\n$route['hello'] = 'hello/index';\n\n// application/controllers/Hello.php\nclass Hello extends CI_Controller {\n  public function index() {\n    echo 'Hello World!';\n  }\n}

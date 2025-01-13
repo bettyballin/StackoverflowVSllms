@@ -1,1 +1,0 @@
-xmlRequest = $.post("/url/file/", { 'id' : object.id }, successFunction, 'json')\n  .always(function(xhr, textStatus) {\n    console.log("Request completed with status: " + xhr.status);\n  });

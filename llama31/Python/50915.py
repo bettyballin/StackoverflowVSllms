@@ -1,1 +1,0 @@
-my_list = [[]] * 10\nmy_list[0].append(1)\nprint(my_list)  # Output: [[1], [1], [1], [1], [1], [1], [1], [1], [1], [1]]

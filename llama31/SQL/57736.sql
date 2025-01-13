@@ -1,1 +1,0 @@
-Clustered Index Scan (Clustered Index Scan)\n  -> Clustered Index Scan (Clustered Index Scan)\n    -> Index '@temp' (Primary Key)\n      -> Scan ( Direction: FORWARD )\n        -> Row Count: 1

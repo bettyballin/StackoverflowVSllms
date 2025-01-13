@@ -1,1 +1,0 @@
-$A = array(1, 2, 3, 4, 5, 6, 7, 8);\n$B = array(1, 2, 3, 4);\n\nforeach ($B as $value) {\n    if (in_array($value, $A)) {\n        unset($A[array_search($value, $A)]);\n    }\n}\n\nprint_r($A); // Output: Array ( [4] => 5 [5] => 6 [6] => 7 [7] => 8 )

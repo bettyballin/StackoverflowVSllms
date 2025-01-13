@@ -1,1 +1,0 @@
-var editableDiv = document.getElementById('editableDiv');\nif (editableDiv.contentEditable !== 'true') {\n  editableDiv.contentEditable = 'true';\n} else {\n  editableDiv.setAttribute('contentEditable', 'true');\n}

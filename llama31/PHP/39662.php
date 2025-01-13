@@ -1,1 +1,0 @@
-require_once 'EnterpriseArchitect.php';\n\n$ea = new EnterpriseArchitect();\n$ea->addClass('MyClass');\n$ea->addMethod('MyClass', 'myMethod');\n$ea->generate();

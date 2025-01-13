@@ -1,1 +1,0 @@
-switch ($_SERVER['HTTP_HOST']) {\n    case 'www.abc.com':\n        $text = 'Welcome to ABC!';\n        break;\n    case 'www.def.com':\n        $text = 'Welcome to DEF!';\n        break;\n    default:\n        $text = 'Unknown domain';\n}\n\necho $text;

@@ -1,1 +1,0 @@
-exec('sudo chown user:group /path/to/file');

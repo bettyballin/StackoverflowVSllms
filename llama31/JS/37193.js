@@ -1,1 +1,0 @@
-// webpage.html\n<script>\n  function callback(data) {\n    console.log(data);\n  }\n</script>\n<script src="https://snap.com/snapshots.js"></script>\n\n// snapshots.js (served by snap.com)\ncallback({ snapshot: '...' });

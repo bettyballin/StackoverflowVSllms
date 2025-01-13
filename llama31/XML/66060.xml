@@ -1,1 +1,0 @@
-<configuration>\n  <appSettings>\n    <add key="MyApiKey" value="encrypted_value" />\n  </appSettings>\n</configuration>

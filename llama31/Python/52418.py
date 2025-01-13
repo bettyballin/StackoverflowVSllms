@@ -1,1 +1,0 @@
-from bs4 import BeautifulSoup\nimport requests\n\nurl = "https://example.com/book-search-results"\nresponse = requests.get(url)\nsoup = BeautifulSoup(response.content, 'html.parser')\n\nbook_titles = soup.select('.book-title')\nfor title in book_titles:\n    print(title.text.strip())

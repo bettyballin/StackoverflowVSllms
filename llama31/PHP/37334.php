@@ -1,1 +1,0 @@
-$pattern = '/^[0-9]+(\.[0-9]+)?/';\n$data = ereg_replace($pattern, '', $data);

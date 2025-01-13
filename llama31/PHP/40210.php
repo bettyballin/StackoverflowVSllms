@@ -1,1 +1,0 @@
-$inotify = inotify_init();\n$watch_descriptor = inotify_add_watch($inotify, 'path/to/file.log', IN_MODIFY);\n\nwhile (true) {\n    $events = inotify_read($inotify);\n    foreach ($events as $event) {\n        if ($event['mask'] == IN_MODIFY) {\n            echo "File modified\n";\n            // read the new content\n        }\n    }\n}

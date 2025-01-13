@@ -1,1 +1,0 @@
-CREATE TABLE ObjectCounters (\n    ObjectId INT,\n    NumViews INT,\n    PRIMARY KEY (ObjectId),\n    FOREIGN KEY (ObjectId) REFERENCES Objects(Id)\n)

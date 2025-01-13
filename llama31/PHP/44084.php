@@ -1,1 +1,0 @@
-function getUnixTimestampInMilliseconds()\n{\n    return (int) (microtime(true) * 1000);\n}

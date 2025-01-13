@@ -1,1 +1,0 @@
-$url = 'https://example.com/remote_file.php';\n$contents = file_get_contents($url);\n\n// Process the contents as needed\necho $contents;

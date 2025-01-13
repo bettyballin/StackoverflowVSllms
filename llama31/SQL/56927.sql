@@ -1,1 +1,0 @@
-SELECT COUNT(DISTINCT Status)\nFROM [MyTable] WITH (NOLOCK, INDEX(idx_MemberType))\nWHERE MemberType = 6;

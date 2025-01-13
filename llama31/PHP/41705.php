@@ -1,1 +1,0 @@
-// Example of using prepared statements with Doctrine\n$query = $entityManager\n    ->createQuery('SELECT u FROM Users u WHERE u.username = :username')\n    ->setParameter('username', 'your_username');\n$results = $query->getResult();

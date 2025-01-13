@@ -1,1 +1,0 @@
-$db = new My_Db_Adapter_Mysqli($config);\n$result = $db->queryUnbuffered('SELECT * FROM huge_table');\nwhile ($row = mysqli_fetch_assoc($result)) {\n    // process the row\n}\nmysqli_free_result($result);

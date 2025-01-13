@@ -1,1 +1,0 @@
-CREATE EXTENSION pg_freespacemap;\nSELECT * FROM pg_freespacemap WHERE relid = 'example'::regclass;

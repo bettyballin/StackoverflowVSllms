@@ -1,1 +1,0 @@
-SET LANGUAGE British;

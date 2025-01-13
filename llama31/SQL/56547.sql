@@ -1,1 +1,0 @@
-CREATE TABLE ProductManagers (\n  product_ID INT NOT NULL,\n  employee_ID INT NOT NULL,\n  PRIMARY KEY (product_ID),\n  FOREIGN KEY (product_ID) REFERENCES Products (ID),\n  FOREIGN KEY (employee_ID) REFERENCES Employees (ID)\n);

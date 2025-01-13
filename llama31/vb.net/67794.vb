@@ -1,1 +1,0 @@
-Private Sub Form_Load()\n  Dim stats As Variant\n  stats = CalculateStats("column_name", "table_name")\n  Me.txtCount.Value = stats(0)\n  Me.txtAverage.Value = stats(1)\n  Me.txtSum.Value = stats(2)\n  Me.txtMax.Value = stats(3)\n  Me.txtMin.Value = stats(4)\nEnd Sub

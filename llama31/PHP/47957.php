@@ -1,1 +1,0 @@
-$guid = com_create_guid();\n$bind = new COM("LDAP://CN=GroupName,OU=Groups,OU=Division,DC=company,DC=local", $guid);

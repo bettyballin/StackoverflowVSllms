@@ -1,1 +1,0 @@
-var timer = setInterval(function() {\n    $.ajax({\n        type: 'GET',\n        url: 'check_session.php',\n        success: function(response) {\n            if (response == 'logged_out') {\n                window.location.href = 'login.php'; // redirect to login page\n            }\n        }\n    });\n}, 180000); // run every 3 minutes (180 seconds)

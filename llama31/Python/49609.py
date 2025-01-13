@@ -1,1 +1,0 @@
-def foo(x, y, *args):\n    print(args)\n\nfoo(1, 2, 3, 4, 5)  # Output: (3, 4, 5)

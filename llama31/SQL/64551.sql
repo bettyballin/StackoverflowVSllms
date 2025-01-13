@@ -1,1 +1,0 @@
-CREATE TABLE [TESTTABLE]\n(\n    [ID] [int] IDENTITY(1,1) NOT NULL,\n    [DateField] [datetime2](7) NULL,\n    [StringField] [varchar](50),\n    [IntField] [int] NULL,\n    [BitField] [bit] NULL\n)

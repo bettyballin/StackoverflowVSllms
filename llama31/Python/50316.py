@@ -1,1 +1,0 @@
-def get_numbers(n):\n    return iter(range(n))

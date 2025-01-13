@@ -1,1 +1,0 @@
-SELECT COUNT(DISTINCT (person_id, company_id, financial_year)) \nFROM Role;

@@ -1,1 +1,0 @@
-BEGIN TRANSACTION;\nINSERT INTO deleted_records (table_name, record_id, deletion_time, deleted_by, deleted_by_ip)\nVALUES ('original_table', 123, NOW(), 456, '192.168.1.100');\nUPDATE original_table SET is_deleted = 1 WHERE id = 123;\nCOMMIT;

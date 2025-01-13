@@ -1,1 +1,0 @@
-function ShowPanel(control) {\n    var ctrl = $get('<%= btmRocp.ClientID %>');\n    ctrl.disabled = true;\n}

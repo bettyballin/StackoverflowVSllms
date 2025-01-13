@@ -1,1 +1,0 @@
-<dependency>\n    <groupId>org.apache.derby</groupId>\n    <artifactId>derby</artifactId>\n    <version>10.15.2.0</version>\n</dependency>

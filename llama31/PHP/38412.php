@@ -1,1 +1,0 @@
-$last = ceil($rows/$page_rows);

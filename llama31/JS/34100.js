@@ -1,1 +1,0 @@
-$(document).ready(function(){\n    // Assuming your table has the class 'clickable-table'\n    $(".clickable-table tr").click(function() {\n        // Assuming the URL you want to navigate to is in a data attribute of the row\n        var url = $(this).data("href");\n        window.location.href = url;\n    });\n});

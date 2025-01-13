@@ -1,1 +1,0 @@
-var features = 'toolbar=no,location=no,directories=no,status=no,menubar=no,scrollbars=yes,resizable=yes';\nwindow.open('https://example.com', '_blank', features);

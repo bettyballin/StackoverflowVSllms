@@ -1,1 +1,0 @@
-Array\n(\n    [0] => Array\n        (\n            [abc] => val1\n            [xyz] => val4\n        )\n\n    [1] => Array\n        (\n            [abc] => val2\n            [xyz] => val5\n        )\n\n    [2] => Array\n        (\n            [abc] => val3\n            [xyz] => val6\n        )\n\n)

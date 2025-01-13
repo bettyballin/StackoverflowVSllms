@@ -1,1 +1,0 @@
--- Cursor-based query\nDECLARE @employee_id INT\nDECLARE cur CURSOR FOR\nSELECT employee_id FROM employees\nOPEN cur\nFETCH NEXT FROM cur INTO @employee_id\nWHILE @@FETCH_STATUS = 0\nBEGIN\n    -- Process each employee\n    PRINT @employee_id\n    FETCH NEXT FROM cur INTO @employee_id\nEND\nCLOSE cur\nDEALLOCATE cur\n\n-- Set-based query\nSELECT employee_id FROM employees

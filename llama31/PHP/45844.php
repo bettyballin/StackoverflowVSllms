@@ -1,1 +1,0 @@
-$m = new Memcached();\n$m->addServer('server1', 11211);\n$m->addServer('server2', 11211);\n$m->setOption(Memcached::OPT_HASH, Memcached::HASH_DEFAULT);

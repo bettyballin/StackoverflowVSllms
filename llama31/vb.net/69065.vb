@@ -1,1 +1,0 @@
-Application.EnableVisualStyles()\nApplication.SetCompatibleTextRenderingDefault(False)

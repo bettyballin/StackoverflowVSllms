@@ -1,1 +1,0 @@
-var player;\n\nfunction onYouTubePlayerAPIReady() {\n  player = new YT.Player('player', {\n    height: '390',\n    width: '640',\n    videoId: 'VIDEO_ID',\n  });\n}\n\nfunction loadNewVideo(videoId) {\n  player.cueVideoById(videoId);\n  player.playVideo();\n}

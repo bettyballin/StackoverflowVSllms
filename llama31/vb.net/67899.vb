@@ -1,1 +1,0 @@
-Dim xConnections As XElement = New XElement("Connections")\n\nFor Each connection As Connection In connections.AsList\n    For Each kvp As KeyValuePair(Of String, String) In connection.DecompiledElements\n        xConnections.Add(New XElement(kvp.Key, kvp.Value))\n    Next\nNext

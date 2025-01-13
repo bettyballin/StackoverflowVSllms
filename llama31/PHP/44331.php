@@ -1,1 +1,0 @@
-$fp = fopen('large_file.xml', 'r');\nwhile (!feof($fp)) {\n    $chunk = fread($fp, 8192);\n    echo $chunk;\n    flush();\n}\nfclose($fp);

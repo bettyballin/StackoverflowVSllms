@@ -1,1 +1,0 @@
-<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema"\n           xmlns:cdo="http://schemas.microsoft.com/cdo/configuration"\n           xsi:schemaLocation="cdo.configuration.xsd">\n    <!-- your XML content here -->\n</xs:schema>

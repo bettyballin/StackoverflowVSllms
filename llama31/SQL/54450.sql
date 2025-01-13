@@ -1,1 +1,0 @@
-SET GLOBAL innodb_thread_concurrency = 2;

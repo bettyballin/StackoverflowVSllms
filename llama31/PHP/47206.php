@@ -1,1 +1,0 @@
-header('Content-Type: application/json');\necho json_encode($yourData); // Assuming $yourData is your response data

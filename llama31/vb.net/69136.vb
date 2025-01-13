@@ -1,1 +1,0 @@
-Public Sub MyMethod(Optional ByVal dict As Dictionary(Of String, String) = New Dictionary(Of String, String))\n    ' Method implementation here\nEnd Sub

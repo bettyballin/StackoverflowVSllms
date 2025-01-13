@@ -1,1 +1,0 @@
-function parseBaseTenInt(str) {\n  return parseInt(str, 10);\n}

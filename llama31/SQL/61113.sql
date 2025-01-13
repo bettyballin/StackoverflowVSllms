@@ -1,1 +1,0 @@
-SELECT ROUND(45.923, -1);  // 50\nSELECT ROUND(45.123, -1);  // 50 (round up from 45)\nSELECT ROUND(44.923, -1);  // 40 (round down from 45)

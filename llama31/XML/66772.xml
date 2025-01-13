@@ -1,1 +1,0 @@
-<configuration>\n  <runtime>\n    <gcConcurrent enabled="true" />\n    <gcServer enabled="true" />\n  </runtime>\n</configuration>

@@ -1,1 +1,0 @@
-CREATE MATERIALIZED VIEW employee_data_mv\nREFRESH COMPLETE ON DEMAND\nAS\nSELECT employee_id, name, department\nFROM employees\nWHERE department = 'Sales';

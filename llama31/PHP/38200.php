@@ -1,1 +1,0 @@
-// Validate user input\nif (isset($_POST['username'])) {\n  $username = filter_var($_POST['username'], FILTER_SANITIZE_STRING);\n  if ($username === false) {\n    // Handle invalid input\n  }\n}\n\n// Sanitize user input\n$safe_username = htmlspecialchars($username, ENT_QUOTES, 'UTF-8');

@@ -1,1 +1,0 @@
-use PasswordCompat\PasswordHash;\n\n$hasher = new PasswordHash();\n$passwordHash = $hasher->hash($password);

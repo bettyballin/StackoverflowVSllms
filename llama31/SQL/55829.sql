@@ -1,1 +1,0 @@
-CREATE VIEW RecentRecordSum AS\nSELECT      t.ID,   \n            SUM(t.SomeValue) AS ValueSum,\n            d.OffsetDate AS OffsetDate\nFROM        SomeTable t\nCROSS APPLY GetDateOffset(-7) d\nWHERE       t.RecordDate >= d.OffsetDate\nGROUP BY    t.ID

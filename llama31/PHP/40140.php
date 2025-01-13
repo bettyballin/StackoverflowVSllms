@@ -1,1 +1,0 @@
-$string = 'djriojnrwadoiaushd';\n$charToRemove = 'j';\n\n$result = preg_replace('/' . preg_quote($charToRemove, '/') . '/', '', $string, 1);\n\necho $result;  // Outputs: driojnrwadoiaushd

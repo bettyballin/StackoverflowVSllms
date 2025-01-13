@@ -1,1 +1,0 @@
-$application->bootstrap()->run();

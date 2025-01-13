@@ -1,1 +1,0 @@
-<configuration>\n  <system.webServer>\n    <proxy>\n      <rules>\n        <rule name="ProxyPHP" stopProcessing="true">\n          <match url="\.php$" />\n          <action type="Rewrite" url="http://localhost:8080/{R:0}" />\n        </rule>\n      </rules>\n    </proxy>\n  </system.webServer>\n</configuration>

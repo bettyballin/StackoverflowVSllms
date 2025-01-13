@@ -1,1 +1,0 @@
-$dsn = 'sqlsrv:Server=localhost;Database=your_database_name';\n$conn = new PDO($dsn);\n\nif (!$conn) {\n    echo 'Connection failed: ' . PDO::errorCode();\n    exit();\n}

@@ -1,1 +1,0 @@
-$cred = $_POST['twitter_username'].':'.$_POST['twitter_password'];\n$url = "http://twitter.com/account/verify_credentials.json";\n$ch = curl_init();\ncurl_setopt($ch, CURLOPT_URL,$url);\ncurl_setopt($ch, CURLOPT_RETURNTRANSFER, true); // Add this line\ncurl_setopt($ch, CURLOPT_GET, 0);\ncurl_setopt($ch, CURLOPT_USERPWD, $cred);\n$result = curl_exec ($ch);\ncurl_close ($ch);

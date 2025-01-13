@@ -1,1 +1,0 @@
-$url = "http://servername.com/phpBB3/viewtopic.php?f=5&t=24";\n$parsed_url = parse_url($url);\n$query_params = parse_str($parsed_url['query'], $params);\n$t_value = $params['t'];\n\necho $t_value; // outputs 24

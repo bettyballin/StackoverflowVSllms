@@ -1,1 +1,0 @@
-Module Module1\n    Sub Main()\n        Dim v1 As String() = {"apple", "banana", "cherry"}\n        Dim v2() As String = {"apple", "banana", "cherry"}\n        \n        Console.WriteLine(v1(0))  ' Outputs: apple\n        Console.WriteLine(v2(0))  ' Outputs: apple\n    End Sub\nEnd Module

@@ -1,1 +1,0 @@
-Module Program\n    Sub Main()\n        Dim original As New ReferenceClass()\n        original.BooleanValue = True\n\n        Dim copy As ReferenceClass = original\n        copy.BooleanValue = False\n\n        Console.WriteLine(original.BooleanValue) ' prints False\n    End Sub\nEnd Module

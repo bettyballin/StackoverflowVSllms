@@ -1,1 +1,0 @@
-import ctypes\n\nlibc = ctypes.CDLL('libc.so.6')\nlibc.prctl(15, 'My Python Script', 0, 0, 0)

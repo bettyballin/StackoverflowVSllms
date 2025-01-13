@@ -1,1 +1,0 @@
-CREATE PROCEDURE MyProcedure\n    @MyTableParam MyTableType READONLY\nAS\nBEGIN\n    INSERT INTO MyTable (Id, Name)\n    SELECT Id, Name FROM @MyTableParam;\nEND\nGO

@@ -1,1 +1,0 @@
-function updateOpener() {\n  var testDiv = window.opener.document.getElementById("testDiv");\n  if (testDiv != null) {\n    testDiv.innerHTML = "Updated!";\n  }\n}

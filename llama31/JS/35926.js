@@ -1,1 +1,0 @@
-// dynamically add user-generated options\nfunction addUserGeneratedOption(value) {\n  const option = document.createElement('option');\n  option.value = value;\n  option.text = value;\n  option.setAttribute('data-user-generated', 'true');\n  document.getElementById('mySelect').appendChild(option);\n}

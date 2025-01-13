@@ -1,1 +1,0 @@
-SELECT MIN(`field`)\nFROM `tbl`;

@@ -1,1 +1,0 @@
-Dim cmd As New SqlCommand("INSERT INTO Tags (Tag) VALUES (@Tag1), (@Tag2), ...", conn)\n\nFor i As Integer = 0 To tagarray.Length - 1\n    cmd.Parameters.AddWithValue("@Tag" & (i + 1), tagarray(i))\nNext\n\ncmd.ExecuteNonQuery()

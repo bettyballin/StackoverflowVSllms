@@ -1,1 +1,0 @@
-ANALYZE TABLE tbl_news;\nANALYZE TABLE tbl_tag_relations;\nCHECK TABLE tbl_news;\nCHECK TABLE tbl_tag_relations;

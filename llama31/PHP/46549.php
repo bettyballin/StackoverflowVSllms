@@ -1,1 +1,0 @@
-$html = preg_replace('/&utm_[^&]*/', '', $html);

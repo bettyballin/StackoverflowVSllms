@@ -1,1 +1,0 @@
-var_dump(False === 0); // bool(false)\nvar_dump(False === Null); // bool(false)

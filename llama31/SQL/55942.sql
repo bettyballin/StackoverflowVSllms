@@ -1,1 +1,0 @@
-SELECT * FROM sys.sysprocesses WHERE dbid = DB_ID('your_database_name') AND spid <> @@SPID

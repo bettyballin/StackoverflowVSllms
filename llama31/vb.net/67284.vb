@@ -1,1 +1,0 @@
-If stringB IsNot Nothing AndAlso InStr("y,z", stringB) > 0 AndAlso value = 0 Then\n    ' code here\nEnd If

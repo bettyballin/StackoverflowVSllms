@@ -1,1 +1,0 @@
-class Obj {\n    function populate($array) {\n        foreach ($array as $key => $value) {\n            $this->$key = $value;\n        }\n    }\n}

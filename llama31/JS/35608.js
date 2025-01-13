@@ -1,1 +1,0 @@
-function read_file(file, delete_after) {\n    if (typeof delete_after === 'undefined') {\n        delete_after = false;\n    }\n    // Code\n}

@@ -1,1 +1,0 @@
-// Set value\nlocalStorage.setItem('stack', JSON.stringify(arr));\n\n// Get value\nvar storedStack = JSON.parse(localStorage.getItem('stack'));

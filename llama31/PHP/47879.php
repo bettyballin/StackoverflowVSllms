@@ -1,1 +1,0 @@
-$allElements = functionThatReturnsAnArray();\n$firstElement = $allElements[0];

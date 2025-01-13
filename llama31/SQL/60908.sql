@@ -1,1 +1,0 @@
--- Using DATE data type (SQL Server 2008 and later)\nSELECT dateColumn \nFROM someTable \nWHERE CONVERT(DATE, dateColumn) <= '2009-04-30';\n\n-- Using CONVERT function\nSELECT dateColumn \nFROM someTable \nWHERE CONVERT(VARCHAR(10), dateColumn, 102) <= '2009-04-30';

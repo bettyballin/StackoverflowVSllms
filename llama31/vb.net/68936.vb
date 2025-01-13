@@ -1,1 +1,0 @@
-Dim iteration As Integer = 0\nFor Each item As Object In collection\n    ' do something with item\n    iteration += 1\nNext

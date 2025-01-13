@@ -1,1 +1,0 @@
-BEGIN TRANSACTION outer_tran\n    BEGIN TRANSACTION inner_tran\n        INSERT INTO table1 (column1) VALUES ('value1')\n    COMMIT TRANSACTION inner_tran\nCOMMIT TRANSACTION outer_tra

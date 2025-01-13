@@ -1,1 +1,0 @@
-import uuid\nimport hashlib\n\nguid1 = str(uuid.uuid4())\nguid2 = str(uuid.uuid4())\n\nhash1 = hashlib.sha256(guid1.encode()).hexdigest()\nhash2 = hashlib.sha256(guid2.encode()).hexdigest()\n\nprint(f"GUID 1: {guid1}")\nprint(f"Hash 1: {hash1}")\nprint(f"GUID 2: {guid2}")\nprint(f"Hash 2: {hash2}")

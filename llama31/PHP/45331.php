@@ -1,1 +1,0 @@
-$key = 'my_secret_key';\n$input = 'Hello, World!';\n$obfuscated = obfuscate($input, $key);\necho $obfuscated . "\n";\n$unobfuscated = unobfuscate($obfuscated, $key);\necho $unobfuscated . "\n";

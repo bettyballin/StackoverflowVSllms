@@ -1,1 +1,0 @@
-SELECT *\nFROM table1, table2, table3, table4, table5\nWHERE table1.column1 = 'value1'\n  AND table2.column2 = 'value2'\n  AND table3.column3 = 'value3'\n  AND table4.column4 = 'value4'\n  AND table5.column5 = 'value5'\n  AND table1.column1 = table2.column2\n  AND table2.column2 = table3.column3\n  AND table3.column3 = table4.column4\n  AND table4.column4 = table5.column5

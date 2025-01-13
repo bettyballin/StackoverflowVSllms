@@ -1,1 +1,0 @@
-$text = file_get_contents('yourfile.txt');\necho '<pre>' . htmlspecialchars($text) . '</pre>';

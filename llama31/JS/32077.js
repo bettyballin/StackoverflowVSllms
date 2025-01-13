@@ -1,1 +1,0 @@
-// Get the treeview element\nvar treeview = document.getElementById('treeview');\n\n// Add event listener to expand/collapse nodes\ntreeview.addEventListener('click', function(event) {\n  if (event.target.classList.contains('expand-collapse')) {\n    var node = event.target.parentNode;\n    node.classList.toggle('expanded');\n  }\n});

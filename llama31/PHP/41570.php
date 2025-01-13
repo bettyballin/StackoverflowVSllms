@@ -1,1 +1,0 @@
-header('Content-Disposition: attachment; filename="your_file.pdf"');\nheader('Content-Type: application/pdf');\nheader('Content-Length: ' . filesize('your_file.pdf'));\nreadfile('your_file.pdf');\nexit;

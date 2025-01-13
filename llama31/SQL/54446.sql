@@ -1,1 +1,0 @@
-CREATE TABLE DaysOfWeek (\n  DayId INT PRIMARY KEY,\n  DayName VARCHAR(10) NOT NULL\n);\n\nCREATE TABLE CourseDays (\n  CourseId INT NOT NULL,\n  DayId INT NOT NULL,\n  PRIMARY KEY (CourseId, DayId),\n  FOREIGN KEY (CourseId) REFERENCES Course(CourseId),\n  FOREIGN KEY (DayId) REFERENCES DaysOfWeek(DayId)\n);

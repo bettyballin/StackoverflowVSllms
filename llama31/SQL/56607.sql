@@ -1,1 +1,0 @@
-CREATE VIEW MyView WITH SCHEMABINDING\nAS\nSELECT ...\nFROM ...\nWHERE ...\n\nCREATE UNIQUE CLUSTERED INDEX idx_MyView ON MyView ( column1, column2, ... )

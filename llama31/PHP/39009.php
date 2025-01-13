@@ -1,1 +1,0 @@
-$blogs = $app->getBlogsWithAuthors();\n\n// In your Blog model\npublic function getBlogsWithAuthors() {\n    $query = "SELECT * FROM blogs JOIN authors ON authors.id = blogs.author";\n    // Execute the query and return the results\n}

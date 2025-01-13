@@ -1,1 +1,0 @@
-DECLARE @pdf varbinary(max)\nSELECT @pdf = pdf_column FROM your_table WHERE id = 1\n\nINSERT INTO OPENROWSET('BULK', 'C:\path\to\output.pdf', SINGLE_BLOB) \nVALUES (@pdf)

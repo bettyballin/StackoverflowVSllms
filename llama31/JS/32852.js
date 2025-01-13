@@ -1,1 +1,0 @@
-const behavior = {\n  mouseMovements: [],\n  keyPresses: []\n};\n\ndocument.addEventListener('mousemove', (e) => {\n  behavior.mouseMovements.push(e);\n});\n\ndocument.addEventListener('keydown', (e) => {\n  behavior.keyPresses.push(e);\n});

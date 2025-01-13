@@ -1,1 +1,0 @@
-import base64\n\ndef chunk_split(data, chunk_size=76):\n    return '\r\n'.join(data[i:i+chunk_size] for i in range(0, len(data), chunk_size))\n\npicture = b'your_picture_data_here'\nencoded_picture = base64.b64encode(picture).decode('utf-8')\nchunked_picture = chunk_split(encoded_picture)\n\nprint(chunked_picture)

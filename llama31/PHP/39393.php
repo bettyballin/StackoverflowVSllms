@@ -1,1 +1,0 @@
-$mysqli = new mysqli("localhost", "username", "password", "database");\n\n$sql = "SELECT id, uid, note FROM notes WHERE uid = 1";\n$result = $mysqli->query($sql);\n\nwhile ($row = $result->fetch_assoc()) {\n    echo $row['note'];\n}

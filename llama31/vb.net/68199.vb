@@ -1,1 +1,0 @@
-Public Property CustomerID As Integer

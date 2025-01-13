@@ -1,1 +1,0 @@
-$string = '¡Hola!';\n\necho mb_strlen($string, 'UTF-8'); // outputs 5\n\necho mb_substr($string, 0, 1, 'UTF-8'); // outputs ¡

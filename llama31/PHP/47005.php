@@ -1,1 +1,0 @@
-$obj = [];\n$obj['newProperty'] = 'Hello, World!';\necho $obj['newProperty']; // Outputs: Hello, World!

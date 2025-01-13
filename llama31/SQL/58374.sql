@@ -1,1 +1,0 @@
-INSERT INTO cars (type, status_id)\nSELECT t.type, cs.id\nFROM (\n  SELECT 'GM' AS type\n  UNION ALL\n  SELECT 'Toyota'\n  UNION ALL\n  SELECT 'Honda'\n) t\nCROSS JOIN car_status cs\nWHERE cs.status = 'working';

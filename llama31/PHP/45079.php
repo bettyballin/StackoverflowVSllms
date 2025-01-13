@@ -1,1 +1,0 @@
-$client = new SoapClient("http://blackbird.integrated.local/PricingTool/WebService.asmx?WSDL", \n  array('trace' => true));\n\n$result = $client->__soapCall('GetDAAAvailablility', array('PartNo' => '100C'));\n\nprint_r($result);

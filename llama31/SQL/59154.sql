@@ -1,1 +1,0 @@
-CREATE CLUSTERED INDEX IX_MyTable_keyA_keyB ON MyTable (keyA, keyB);

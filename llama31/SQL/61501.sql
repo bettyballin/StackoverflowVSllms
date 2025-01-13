@@ -1,1 +1,0 @@
-SELECT \n  app_contracts.*, \n  app_customers.id AS customer, \n  app_boards.id AS board\nFROM \n  app_contracts\n  INNER JOIN app_customers ON app_customers.id = app_contracts.customer_id\n  INNER JOIN app_boards ON app_boards.id = app_contracts.board_id\nORDER BY \n  app_contracts.id DESC;

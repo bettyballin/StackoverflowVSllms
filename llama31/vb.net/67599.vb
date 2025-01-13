@@ -1,1 +1,0 @@
-Protected Sub deletecshr_Click(sender As Object, e As ImageClickEventArgs)\n    Dim imgButton As ImageButton = DirectCast(sender, ImageButton)\n    Dim gridViewRow As GridViewRow = DirectCast(imgButton.NamingContainer, GridViewRow)\n    Dim rowID As Integer = gridViewRow.RowIndex\n    ' Use rowID as needed\nEnd Sub

@@ -1,1 +1,0 @@
-CREATE OR REPLACE FUNCTION format_z_code_trigger()\nRETURNS TRIGGER AS $$\nBEGIN\n    NEW.z_code := format_z_code(NEW.z_code);\n    RETURN NEW;\nEND;\n$$ LANGUAGE plpgsql;\n\nCREATE TRIGGER format_z_code_trigger\nBEFORE INSERT OR UPDATE ON your_table\nFOR EACH ROW\nEXECUTE PROCEDURE format_z_code_trigger();

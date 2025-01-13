@@ -1,1 +1,0 @@
-CALL FindByXPath(xmlContent, '/root/customer/country[@attribute]');

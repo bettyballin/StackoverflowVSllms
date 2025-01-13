@@ -1,1 +1,0 @@
-$input = "Fóø Bår";\n$transliterator = Transliterator::createFromRules(':: Any-Latin; :: Latin-ASCII; :: NFD; :: [:Nonspacing Mark:] Remove; :: NFC;', Transliterator::FORWARD);\n$output = $transliterator->transliterate($input);\nprint($output);

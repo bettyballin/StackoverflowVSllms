@@ -1,1 +1,0 @@
-UPDATE events SET column1 = 'new value' WHERE id = 1;

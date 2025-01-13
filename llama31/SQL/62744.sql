@@ -1,1 +1,0 @@
-INSERT INTO Table2 (LongIntColumn2, CurrencyColumn2)\nSELECT LongIntColumn1, Avg(CurrencyColumn) as CurrencyColumn1\nFROM Table1\nGROUP BY LongIntColumn1;

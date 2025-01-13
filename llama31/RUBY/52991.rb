@@ -1,1 +1,0 @@
-# spec/models/user_spec.rb\nrequire 'spec_helper'\n\ndescribe User do\n  it 'validates email presence' do\n    # ...\n  end\nend

@@ -1,1 +1,0 @@
-function random_float ($min,$max) {\n   return ($min+lcg_value()*(abs($max-$min)));\n}\n\n$a1 = random_float(6, 8);\n$a1 = number_format($a1, 1);\n$a2 = random_float(6, 8);\n$a2 = number_format($a2, 1);\n$a3 = random_float(6, 8);\n$a3 = number_format($a3, 1);\n...\n$array = array($a1, $a2, $a3, $a4, $a5, $a6, $a7, $a8, $a9, $a10);\n\necho serialize($array);

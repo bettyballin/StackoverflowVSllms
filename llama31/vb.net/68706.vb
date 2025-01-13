@@ -1,1 +1,0 @@
-addIns = addIns.Except(usedTemplates, Function(a) a.TemplateID).ToList()

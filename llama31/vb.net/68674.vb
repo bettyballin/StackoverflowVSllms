@@ -1,1 +1,0 @@
-Dim variable As String = Request.Params("variableName")

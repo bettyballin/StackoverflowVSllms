@@ -1,1 +1,0 @@
--- Create a new parameter in your report\nCREATE PARAMETER @Location VARCHAR(50) = 'Original Value'\n\n-- Create a new snapshot schedule for the report\nCREATE SNAPSHOT SCHEDULE 'My Report'\n  WITH (REPORT='My Report', FORMAT='PDF', EXTENSION='SSRS')\n  PARAMETERS (@Location='New Value')\n  ON SCHEDULE 'Weekly'

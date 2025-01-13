@@ -1,1 +1,0 @@
-<profile inherits="YourNamespace.CustomProfile" defaultProvider="TableProfileProvider">\n    <providers>\n        <clear />\n        <add name="TableProfileProvider" type="Microsoft.Samples.TableProfileProvider" connectionStringName="YourConnectionString" />\n    </providers>\n</profile>

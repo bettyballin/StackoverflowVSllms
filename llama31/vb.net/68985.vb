@@ -1,1 +1,0 @@
-PictureBox1.BackColor = Color.Transparent\nPictureBox1.SizeMode = PictureBoxSizeMode.AutoSize\nPictureBox1.Image = Image.FromFile("path_to_your_image.png")

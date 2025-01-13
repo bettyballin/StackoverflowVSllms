@@ -1,1 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>\n<jnlp spec="1.0+">\n    <information>\n        <title>Your Applet</title>\n    </information>\n    <security>\n        <all-permissions/>\n    </security>\n    <resources>\n        <jar href="your_applet.jar" />\n    </resources>\n    <applet-desc main-class="YourApplet" />\n</jnlp>

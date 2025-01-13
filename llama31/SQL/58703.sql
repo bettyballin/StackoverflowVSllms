@@ -1,1 +1,0 @@
-SELECT * FROM converts \nWHERE email='myemail@googlemail.com' AND status!='1' \nORDER BY date ASC, \n         CASE \n           WHEN TIMESTAMPDIFF(MINUTE, date, (SELECT MAX(date) FROM converts)) > 10 \n           THEN priority \n           ELSE NULL \n         END DESC;

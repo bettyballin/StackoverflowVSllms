@@ -1,1 +1,0 @@
-$mimeType = mime_content_type($_FILES['file']['tmp_name']);

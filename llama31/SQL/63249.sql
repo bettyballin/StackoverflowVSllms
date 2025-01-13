@@ -1,1 +1,0 @@
-SELECT \n  b.name AS building_name,\n  COUNT(m.name) AS men_count,\n  COUNT(w.name) AS women_count,\n  GROUP_CONCAT(m.name) AS men,\n  GROUP_CONCAT(w.name) AS women,\n  COUNT(m.name) + COUNT(w.name) AS total_count\nFROM \n  building b\n  LEFT JOIN men m ON b.name = m.building\n  LEFT JOIN women w ON b.name = w.building\nGROUP BY \n  b.name;

@@ -1,1 +1,0 @@
-$(document).ready(function() {\n  $(window).on('hashchange', function() {\n    if (window.location.hash === '#overall') {\n      $('#overall').show();\n    } else {\n      $('#overall').hide();\n    }\n  });\n});

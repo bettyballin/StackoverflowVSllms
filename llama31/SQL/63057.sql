@@ -1,1 +1,0 @@
-SELECT p.*\nFROM People p\nJOIN peoples_options po ON p.id = po.people_id\nWHERE po.option_id IN (1, 34, 44)\nGROUP BY p.id\nHAVING COUNT(DISTINCT po.option_id) = 3

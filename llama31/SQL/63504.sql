@@ -1,1 +1,0 @@
-CREATE VIEW _Source AS\nSELECT * FROM CandidatesView\nUNION\nSELECT * FROM ResourcesView\nUNION\nSELECT * FROM DealsView\nUNION\nSELECT * FROM JobOrdersView;

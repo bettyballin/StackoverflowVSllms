@@ -1,1 +1,0 @@
-isUsernameAvailable('example', function(available) {\n  if (available) {\n    // Username is available\n  } else {\n    // Username is not available\n  }\n});

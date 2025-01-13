@@ -1,1 +1,0 @@
-=IIF(Parameters!SelectDataset.Value = "Dataset1", \n     "SELECT * FROM Dataset1", \n     IIF(Parameters!SelectDataset.Value = "Dataset2", \n         "SELECT * FROM Dataset2", \n         "SELECT * FROM DefaultDataset"))

@@ -1,1 +1,0 @@
-if (is_resource($result)) {\n    // $result is a valid MySQL result resource\n    $data = mysql_fetch_array($result);\n} else {\n    // $result is not a valid MySQL result resource\n    echo "Error: Invalid MySQL result resource";\n}

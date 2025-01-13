@@ -1,1 +1,0 @@
-CREATE TABLE mytable (\n  mydate DATE,\n  CONSTRAINT check_time CHECK (EXTRACT(HOUR FROM mydate) BETWEEN 9 AND 16)\n);

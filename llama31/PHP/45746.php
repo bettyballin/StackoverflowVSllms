@@ -1,1 +1,0 @@
-use PhpInputStream\PhpInputStream;\n\n$inputStream = new PhpInputStream('php://input');\n$chunkSize = 1024 * 1024; // 1MB chunks\n\nwhile (!$inputStream->eof()) {\n    $chunk = $inputStream->read($chunkSize);\n    // Process each chunk individually\n    processChunk($chunk);\n}

@@ -1,1 +1,0 @@
-def greet(first_name, *names):\n    print(f"Hello, {first_name}!")\n    for name in names:\n        print(f"Hi, {name}!")\n\ngreet("John", "Alice", "Bob")

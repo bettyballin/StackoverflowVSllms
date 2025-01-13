@@ -1,1 +1,0 @@
-var referrerUrl = document.referrer;

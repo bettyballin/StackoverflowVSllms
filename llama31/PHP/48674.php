@@ -1,1 +1,0 @@
-<?php\n// Check if user is authenticated\nif (!isset($_SESSION['authenticated']) || $_SESSION['authenticated'] !== true) {\n    header("Location: ../login.php");\n    exit;\n}\n\n// Your protected content goes here\n?>

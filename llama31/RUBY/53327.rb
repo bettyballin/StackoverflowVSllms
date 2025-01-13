@@ -1,1 +1,0 @@
-# assuming 'data' is your 2D array\ndata = data.transpose.reject { |column| column.all?(&:nil?) || column.all?(&:empty?) }.transpose

@@ -1,1 +1,0 @@
-function modulename_form_contenttype_node_form_alter(&$form, $form_state) {\n  $form['field_contenttype_fieldname'][0]['#prefix'] = 'prefix';\n}

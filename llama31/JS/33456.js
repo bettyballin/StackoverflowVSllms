@@ -1,1 +1,0 @@
-// Get the table element\nvar table = document.getElementById('myTable');\n\n// Get all input elements within the table\nvar inputs = table.querySelectorAll('input[type="text"]');

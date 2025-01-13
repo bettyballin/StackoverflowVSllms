@@ -1,1 +1,0 @@
-$('someElement')\n  .bind('mouseover', function(e) {\n    $(this).css({ /* change color */ });\n  })\n  .bind('mouseout', function(e) {\n    $(this).css({ /* return to previous state */ });\n  })\n  .bind('click', function(e) {\n    $(this).css({ /* do something */ });\n  });

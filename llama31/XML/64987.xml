@@ -1,1 +1,0 @@
-<configSections>\n    <section name="httpModules" type="YourNamespace.HttpModuleConfigSection, YourAssembly" />\n</configSections>\n<httpModules>\n    <module name="HTTPModuleA" type="YourNamespace.HTTPModuleA, YourAssembly" />\n    <module name="HTTPModuleB" type="YourNamespace.HTTPModuleB, YourAssembly" />\n</httpModules>

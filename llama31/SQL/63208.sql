@@ -1,1 +1,0 @@
-SELECT \n  prev_id,\n  current_id,\n  next_id\nFROM (\n  SELECT \n    LAG(id) OVER (ORDER BY id) AS prev_id,\n    id AS current_id,\n    LEAD(id) OVER (ORDER BY id) AS next_id\n  FROM \n    your_table\n) AS subquery\nWHERE \n  current_id = ?;

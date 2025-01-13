@@ -1,1 +1,0 @@
-function legacyWrapper()\n{\n    global $foo, $bar; // declare the global variables\n    // execute the legacy code\n    include_once 'legacy/script.php';\n}

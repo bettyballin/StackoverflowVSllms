@@ -1,1 +1,0 @@
-USE Mydatabase\nGO\n\nGRANT SELECT ON MyView TO PUBLIC\nGO

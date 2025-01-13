@@ -1,1 +1,0 @@
-import win32com.client\n\nvss = win32com.client.Dispatch("SourceSafe")\nvss.Open("C:\\Path\\To\\VSS\\Database\\srcsafe.ini")\n\nchecked_out_files = []\nfor file in vss.VSSItem("$").Items:\n    if file.IsCheckedOut:\n        checked_out_files.append(file.Name)\n\nvss.Close()

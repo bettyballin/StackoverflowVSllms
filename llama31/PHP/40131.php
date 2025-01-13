@@ -1,1 +1,0 @@
-$html = '<ul>\n<li>item one</li>\n<li>item two</li>\n</ul>';\n\n$html = preg_replace_callback('/<ul>.*?<\/ul>/s', function($match) {\n    return str_replace("\n", '', $match[0]);\n}, $html);\n\necho $html;

@@ -1,1 +1,0 @@
-SELECT *\nFROM scott.emp\nWHERE deptno = 20 AND job = 'CLERK'\nORDER BY sal DESC\nFETCH FIRST 1 ROW WITH TIES;

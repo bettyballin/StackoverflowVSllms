@@ -1,1 +1,0 @@
-import os\n\ndef remove_files(file1, file2):\n    try:\n        os.remove(file1)\n        os.remove(file2)\n    except OSError as e:\n        print("Error removing files: %s" % e)\n\n# Usage\nremove_files('path/to/file1.txt', 'path/to/file2.txt')

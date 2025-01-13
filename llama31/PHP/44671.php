@@ -1,1 +1,0 @@
-require_once __DIR__ . "/a.php";\nrequire_once __DIR__ . "/b.php";\nrequire_once __DIR__ . "/c.php";\n?>

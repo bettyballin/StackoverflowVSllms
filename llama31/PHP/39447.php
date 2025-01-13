@@ -1,1 +1,0 @@
-preg_match_all('/\Gab/', 'abababababababab', $matches, PREG_OFFSET_CAPTURE);\nprint_r($matches);

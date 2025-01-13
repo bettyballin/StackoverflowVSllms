@@ -1,1 +1,0 @@
-CREATE OR REPLACE VIEW company_data_view AS\n    SELECT company_id, UTL_RAW.CAST_TO_VARCHAR2(company_logo) AS company_logo\n    FROM id_company_setup;

@@ -1,1 +1,0 @@
-ALTER TABLE YourTable\nADD RowVersion ROWVERSION;

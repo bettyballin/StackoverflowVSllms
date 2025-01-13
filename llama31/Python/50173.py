@@ -1,1 +1,0 @@
-import socket\nimport dns.resolver\n\ndef check_proxy(ip, hostname):\n    try:\n        dns_ip = dns.resolver.resolve(hostname, 'A')[0].to_text()\n        if ip != dns_ip:\n            return True  # possible proxy\n    except dns.resolver.NoAnswer:\n        pass\n    return False

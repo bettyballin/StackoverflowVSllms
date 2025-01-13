@@ -1,1 +1,0 @@
-$(document).ready(function(){ Sys.Application.add_load(ImportantFunction); });

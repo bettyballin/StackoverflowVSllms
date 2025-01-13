@@ -1,1 +1,0 @@
-@createSP1.sql\n@createSP2.sql\n...\n@createSPn.sql

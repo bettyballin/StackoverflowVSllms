@@ -1,1 +1,0 @@
-$result = $mysqli->query("SELECT * FROM large_table");\n$result->store_result();\nwhile ($row = $result->fetch_assoc()) {\n    // process the row\n}

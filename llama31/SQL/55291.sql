@@ -1,1 +1,0 @@
-CREATE FUNCTION [udf_YearFromDataDtID]\n(\n    @DATA_DT_ID int\n)\nRETURNS int\nAS\nBEGIN\n    RETURN (@DATA_DT_ID / 10000)\nEND

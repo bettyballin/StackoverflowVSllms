@@ -1,1 +1,0 @@
-function filterUserInput($input) {\n    $input = trim($input);\n    $input = htmlspecialchars($input, ENT_QUOTES, 'UTF-8');\n    // Additional filtering/validation can be added here\n    return $input;\n}\n\n// Usage:\n$userInput = filterUserInput($_POST['user_input']);

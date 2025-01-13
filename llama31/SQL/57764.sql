@@ -1,1 +1,0 @@
-UPDATE YourTable\nSET column1 = 'newvalue', column2 = 'newvalue'\nWHERE YourPrimaryKey = 'yourkeyvalue';\n\nIF @@ROWCOUNT = 0\nBEGIN\n    INSERT INTO YourTable (column1, column2)\n    VALUES ('newvalue', 'newvalue');\nEND

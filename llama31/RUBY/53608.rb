@@ -1,1 +1,0 @@
-ActiveRecord::Base.subclasses.each do |model|\n  puts model.name\nend

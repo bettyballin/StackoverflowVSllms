@@ -1,1 +1,0 @@
-respond_to(function($format) {\n  // code here\n});

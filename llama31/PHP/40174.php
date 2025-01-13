@@ -1,1 +1,0 @@
-class Singleton {\n    private static $instance;\n\n    private function __construct() {}\n\n    public static function getInstance() {\n        if (!self::$instance) {\n            self::$instance = new self();\n        }\n        return self::$instance;\n    }\n\n    private function __clone() {}\n    private function __wakeup() {}\n}

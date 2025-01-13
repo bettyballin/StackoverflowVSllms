@@ -1,1 +1,0 @@
-CREATE TABLE users (\n  id INT PRIMARY KEY,\n  name VARCHAR(255)\n);\n\nCREATE TABLE items (\n  id INT PRIMARY KEY,\n  user_id INT,\n  FOREIGN KEY (user_id) REFERENCES users(id)\n);\n\nCREATE TABLE pictures (\n  id INT PRIMARY KEY,\n  item_id INT,\n  FOREIGN KEY (item_id) REFERENCES items(id)\n);

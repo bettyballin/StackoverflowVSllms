@@ -1,1 +1,0 @@
-// config.php\nif (getenv('FB_APP_ID')) {\n  $fbAppId = getenv('FB_APP_ID');\n} else {\n  $fbAppId = 'YOUR_LIVE_APP_ID';\n}\n\n// Use the $fbAppId variable in your Facebook app code

@@ -1,1 +1,0 @@
-const parser = new DOMParser();\nconst htmlString = '<embed src="http://example.com/whatever"></embed>';\nconst doc = parser.parseFromString(htmlString, 'text/html');\nconst embedElement = doc.body.firstChild;\nbody.appendChild(embedElement);

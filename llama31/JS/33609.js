@@ -1,1 +1,0 @@
-// In the report design, add a Background element\n// Set the Background property to the following JavaScript expression:\nif (params["isDraft"].value == true) {\n  "DRAFT";\n} else {\n  "";\n}

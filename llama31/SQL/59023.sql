@@ -1,1 +1,0 @@
-SELECT customers.*, orders.order_id, orders.order_date\nFROM customers\nLEFT OUTER JOIN orders\nON customers.customer_id = orders.customer_id\nWHERE customers.customer_id = 123;

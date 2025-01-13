@@ -1,1 +1,0 @@
-RESTORE DATABASE FROM TAG "whole_database_copy";

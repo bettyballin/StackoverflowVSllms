@@ -1,1 +1,0 @@
-Function SanitizeSQL(inputString)\n    Dim sanitizedString\n    sanitizedString = Replace(inputString, "'", "''")\n    sanitizedString = Replace(sanitizedString, ";", "")\n    sanitizedString = Replace(sanitizedString, "--", "")\n    sanitizedString = Replace(sanitizedString, "|", "")\n    SanitizeSQL = sanitizedString\nEnd Functio

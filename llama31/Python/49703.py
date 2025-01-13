@@ -1,1 +1,0 @@
-def min_chars_to_palindrome(s):\n    left, right = 0, len(s) - 1\n    count = 0\n    while left < right:\n        if s[left] != s[right]:\n            count += 1\n        left += 1\n        right -= 1\n    return count

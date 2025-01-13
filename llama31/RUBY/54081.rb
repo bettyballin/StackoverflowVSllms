@@ -1,1 +1,0 @@
-def my_method(options)\n  puts options.class # prints "Hash"\n  puts options[:port] # prints "80"\nend\n\nmy_method(:port => 80)

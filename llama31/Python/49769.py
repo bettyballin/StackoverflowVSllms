@@ -1,1 +1,0 @@
-import hashlib\n\ndef get_hash_range(nickname):\n    # calculate the hash range for the nickname\n    return (hashlib.sha256(nickname.encode()).hexdigest(), \n            hashlib.sha256((nickname + '1').encode()).hexdigest())

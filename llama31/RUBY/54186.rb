@@ -1,1 +1,0 @@
-class YourModel < ActiveRecord::Base\n  # ...\n  def as_json(options = {})\n    super(options).merge({\n      associated_model_name: associated_model.name\n    })\n  end\nend

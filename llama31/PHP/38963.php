@@ -1,1 +1,0 @@
-// actions.class.php\npublic function executeOpenID()\n{\n  $this->fpOpenID = new fpOpenID();\n  $this->fpOpenID->setReturnTo('http://your-site.org/openid/return');\n}\n\npublic function executeOpenIDReturn()\n{\n  $this->fpOpenID = new fpOpenID();\n  $response = $this->fpOpenID->getResponse();\n  // Process the OpenID response here\n}

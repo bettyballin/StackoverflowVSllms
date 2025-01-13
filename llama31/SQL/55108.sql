@@ -1,1 +1,0 @@
-WITH login_logout_pairs AS (\n  SELECT \n    player,\n    timestamp AS login_time,\n    LEAD(timestamp, 1, NULL) OVER (PARTITION BY player ORDER BY timestamp) AS logout_time,\n    action\n  FROM \n    LOGIN_LOG\n)\nSELECT \n  AVG(logout_time - login_time) AS average_duration\nFROM \n  login_logout_pairs\nWHERE \n  action = 'login' AND logout_time IS NOT NULL;

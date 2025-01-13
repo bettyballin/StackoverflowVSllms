@@ -1,1 +1,0 @@
-// Error example\n$x = 5 / 0; // triggers a warning (non-fatal error)\n\n// Exception example\ntry {\n    throw new Exception('Something went wrong');\n} catch (Exception $e) {\n    echo 'Caught exception: ' . $e->getMessage();\n}

@@ -1,1 +1,0 @@
-# app.py (Flask backend)\nfrom flask import Flask, jsonify\n\napp = Flask(__name__)\n\n@app.route('/canvas_data', methods=['GET'])\ndef canvas_data():\n    # Return some sample data for the canvas\n    return jsonify({'x': 10, 'y': 20})\n\nif __name__ == '__main__':\n    app.run(debug=True)

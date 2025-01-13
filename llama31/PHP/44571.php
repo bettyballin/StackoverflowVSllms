@@ -1,1 +1,0 @@
-echo $filtered_post['name'];\necho $filtered_post['email'];\necho $filtered_post['age'];

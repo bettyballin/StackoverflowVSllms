@@ -1,1 +1,0 @@
-Dim alList As ArrayList = New ArrayList()\nalList.Add(oStruct)\n\nDim myStructArray() As MyStruct = alList.ToArray(GetType(MyStruct))

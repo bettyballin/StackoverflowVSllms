@@ -1,1 +1,0 @@
-DELETE FROM fact_table\nWHERE date_column < DATEADD(month, -2, GETDATE());

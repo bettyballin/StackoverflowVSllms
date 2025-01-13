@@ -1,1 +1,0 @@
-SELECT key\nFROM source_table s\nWHERE NOT EXISTS (\n  SELECT 1\n  FROM target_table t\n  WHERE s.key = t.key\n  AND ORA_HASH(s.clob_value) = ORA_HASH(t.clob_value)\n);

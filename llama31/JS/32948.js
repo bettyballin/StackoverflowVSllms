@@ -1,1 +1,0 @@
-// Get the value of an input field with id "username"\nvar username = $('#username').val();\n\n// Set the value of an input field with id "username"\n$('#username').val('johnDoe');

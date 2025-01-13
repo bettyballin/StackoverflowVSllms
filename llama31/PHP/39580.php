@@ -1,1 +1,0 @@
-$page = file_get_contents('http://translate.google.com/translate_t', false, $context);\n$encoding = mb_detect_encoding($page, 'UTF-8, ISO-8859-1', true);\nif ($encoding !== 'UTF-8') {\n    $page = mb_convert_encoding($page, 'UTF-8', $encoding);\n}

@@ -1,1 +1,0 @@
-// Define a table class\nclass Users extends Zend_Db_Table_Abstract\n{\n    protected $_name = 'users';\n}\n\n// Create a table instance\n$usersTable = new Users();\n\n// Fetch a row\n$userRow = $usersTable->find(1);\n\n// Update a row\n$userRow->name = 'John Doe';\n$userRow->save();

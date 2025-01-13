@@ -1,1 +1,0 @@
-class_name = "ThisIsMyString"\nformatted_string = class_name.gsub(/([A-Z])/) { "_#{($1.downcase)}" }.sub(/^_/, "")\n\nputs formatted_string  # Outputs: "this_is_my_string"

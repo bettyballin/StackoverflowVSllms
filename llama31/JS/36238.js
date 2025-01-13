@@ -1,1 +1,0 @@
-const { Client } = require('ssh2');\n\nconst conn = new Client();\n\nconn.on('ready', () => {\n  conn.exec('ls -l', (err, stream) => {\n    if (err) throw err;\n    stream.on('data', (data) => {\n      console.log(data.toString());\n    });\n  });\n});\n\nconn.connect({\n  host: 'example.com',\n  port: 22,\n  username: 'username',\n  password: 'password'\n});

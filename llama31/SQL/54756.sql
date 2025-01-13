@@ -1,1 +1,0 @@
-SELECT MODE(country) AS country \nFROM companies \nGROUP BY UPCASE(country);

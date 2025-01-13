@@ -1,1 +1,0 @@
-Public Function Where(Of TSource)(source As IEnumerable(Of TSource), predicate As Func(Of TSource, Boolean)) As IEnumerable(Of TSource)\n    For Each element As TSource In source\n        If predicate(element) Then\n            Yield element\n        End If\n    Next\nEnd Functio

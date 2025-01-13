@@ -1,1 +1,0 @@
-<?php\n  // Handle uploaded image\n  if ($_FILES['image']) {\n    $image = $_FILES['image'];\n    $targetDir = 'uploads/';\n    $targetFile = $targetDir . basename($image['name']);\n\n    if (move_uploaded_file($image['tmp_name'], $targetFile)) {\n      echo "Image uploaded successfully!";\n    } else {\n      echo "Error uploading image!";\n    }\n  }\n?>

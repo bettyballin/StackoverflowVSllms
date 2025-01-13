@@ -1,1 +1,0 @@
-CREATE TABLE mytable (\n  column1 VARCHAR2(10),\n  column2 VARCHAR2(10),\n  column3 VARCHAR2(10),\n  PRIMARY KEY (column1, column2, column3)\n);

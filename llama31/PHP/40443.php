@@ -1,1 +1,0 @@
-function text($var) {\n    if (!$var) {\n        return;\n    }\n    do_something();\n}\n\n$var = text('');\nvar_dump($var); // Output: NULL

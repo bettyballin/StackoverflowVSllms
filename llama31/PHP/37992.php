@@ -1,1 +1,0 @@
-$a = array('table' => 'myTable');\nprint $a['table']; // outputs "myTable"

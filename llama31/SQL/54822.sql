@@ -1,1 +1,0 @@
-SELECT OBJECT_NAME(base_object_name) AS underlying_object_name\nFROM sys.synonyms\nWHERE name = 'YourStoredProcName';

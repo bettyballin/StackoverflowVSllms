@@ -1,1 +1,0 @@
-SELECT \n  t1.type, \n  COALESCE(COUNT(t2.id), 0) AS count\nFROM \n  table1 t1\n  LEFT JOIN table2 t2 ON t1.id = t2.id\nGROUP BY \n  t1.type

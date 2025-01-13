@@ -1,1 +1,0 @@
-BEGIN TRANSACTION;\n-- your update queries here\nCOMMIT;

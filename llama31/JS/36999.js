@@ -1,1 +1,0 @@
-function showNewContent() {\n    $('#content').fadeIn('normal',hideLoader());\n    // Rebind Slimbox2\n    $("a[rel^='lightbox']").slimbox({/* Put custom options here */}, null, function(el) {\n        return (this == el) || ((this.rel.length > 8) && (this.rel == el.rel));\n    });\n}

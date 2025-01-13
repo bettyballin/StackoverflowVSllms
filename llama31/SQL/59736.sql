@@ -1,1 +1,0 @@
-ALTER SCHEMA [User1] TRANSFER [dbo].[ExistingTable];

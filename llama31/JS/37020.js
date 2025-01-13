@@ -1,1 +1,0 @@
-var _v = 0;\nvar _v2 = 1;\n\nfunction ajax_update() {\n    var wrapperId = '#content';\n    var postFile = 'jquery.php';\n    _v++;\n    _v2++;\n    $.post(postFile, { v2: _v2, v: _v }, function(data) {\n        $(wrapperId).html(data);\n    });\n    setTimeout('ajax_update()', 2000);\n}

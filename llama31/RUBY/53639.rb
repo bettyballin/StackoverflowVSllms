@@ -1,1 +1,0 @@
-<% form_tag session_path, :html => {:id => 'login_form', :class => 'form-horizontal'} do -%>\n  # form content\n<% end -%>

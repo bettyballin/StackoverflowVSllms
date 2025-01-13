@@ -1,1 +1,0 @@
-SELECT CompleteOrderId, Status, Property1, Property2, Property3, DeliveredOn, PaidOn\nFROM CompleteOrders\nWHERE Reference = 'abc'\nUNION\nSELECT InCompleOrderId, 1 AS Status, Property1, Property2, Property3, null AS DeliveredOn, null AS PaidOn\nFROM InCompleOrders\nWHERE Reference = 'abc'

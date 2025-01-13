@@ -1,1 +1,0 @@
-$ns = "http://schemas.microsoft.com/exchange/services/2006/types";\n\n$header = new SoapHeader($ns, 'RequestServerVersion', array('Version' => 'Exchange2007_SP1'));\n\n$client = new SoapClient('your_wsdl_url', array('trace' => 1));\n$client->__setSoapHeaders(array($header));

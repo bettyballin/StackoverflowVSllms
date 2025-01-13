@@ -1,1 +1,0 @@
-WITH RECURSIVE tag_hierarchy AS (\n  SELECT id, name, parent_id, 0 AS level\n  FROM tags\n  WHERE id = ?  -- start from the desired tag\n  UNION ALL\n  SELECT t.id, t.name, t.parent_id, level + 1\n  FROM tags t\n  JOIN tag_hierarchy p ON t.parent_id = p.id\n)\nSELECT * FROM tag_hierarchy;

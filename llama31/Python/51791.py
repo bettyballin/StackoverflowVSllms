@@ -1,1 +1,0 @@
-import csv\n\ncsvfile = open("PALTemplateData.csv", "r", encoding="utf-8")\ncsvout = open("PALTemplateDataOUT.csv", "w", encoding="utf-8")\nreader = csv.reader(csvfile)\nwriter = csv.writer(csvout)\n\nchanged = 0;\n\nfor row in reader:\n    row[-1] = row[-1].replace('/?', '?')\n    writer.writerow(row)\n    changed += 1\n\nprint('Total URLs changed:', changed)

@@ -1,1 +1,0 @@
-$Query = "UPDATE A SET type='" . pg_escape_string($strType) . "' WHERE id=" . intval($ID);

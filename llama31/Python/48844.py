@@ -1,1 +1,0 @@
-from django.db import connection\n\nwith connection.cursor() as cursor:\n    cursor.callproc('my_stored_procedure', [arg1, arg2])\n    results = cursor.fetchall()

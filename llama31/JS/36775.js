@@ -1,1 +1,0 @@
-document.getElementById('textbox').addEventListener('paste', function(e) {\n  console.log('Paste event triggered!');\n});

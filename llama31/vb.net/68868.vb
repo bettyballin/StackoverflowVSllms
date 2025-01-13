@@ -1,1 +1,0 @@
-<CLSCompliant(True)> _\nPublic Interface IDbId\n    Function GetNativeObject() As Object\n    Function Equals(ByVal compObj As Object) As Boolean\n    Function CompareTo(ByVal compObj As Object) As Integer\n    Function ToString() As String\nEnd Interface

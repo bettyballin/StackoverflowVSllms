@@ -1,1 +1,0 @@
-SELECT COLUMN_NAME\nFROM OPENROWSET('SQLNCLI', 'Server=(local);Trusted_Connection=yes;',\n                'EXEC sp_columns ''tblSomeTableName''');

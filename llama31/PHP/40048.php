@@ -1,1 +1,0 @@
-$dateTime = DateTime::createFromFormat('i:s', $time);\n$formattedTime = $dateTime->format('H:i:s');

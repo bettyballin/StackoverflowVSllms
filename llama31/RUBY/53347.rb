@@ -1,1 +1,0 @@
-require 'html_builder'\n\nclass ExternalVideo < ApplicationRecord\n  def embed_html\n    HtmlBuilder.embed(src: @video_source)\n  end\nend

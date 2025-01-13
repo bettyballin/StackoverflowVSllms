@@ -1,1 +1,0 @@
-Dim cmd As ADODB.Command\nSet cmd = New ADODB.Command\ncmd.CommandText = "UPDATE [Progress] SET [Date] = ?"\ncmd.Parameters.Append cmd.CreateParameter("@Date", adDate, adParamInput, , Format(txtDate.Text, "yyyy-mm-dd"))\ncmd.Execute

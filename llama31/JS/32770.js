@@ -1,1 +1,0 @@
-$.ajax({\n    url: 'your_url',\n    success: function(data) {\n        // your code here\n    },\n    complete: function(xhr, status) {\n        // Set readyState to 4 (complete)\n        xhr.readyState = 4;\n    }\n});

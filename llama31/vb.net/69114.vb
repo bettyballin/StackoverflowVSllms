@@ -1,1 +1,0 @@
-Dim i As String\ni = Server.MapPath(Server.ResolveUrl("~/photos/" + fileName))

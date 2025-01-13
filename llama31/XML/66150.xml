@@ -1,1 +1,0 @@
-<configuration>\n  <oracle.dataaccess.client>\n    <add name="TNS_ADMIN" value="C:\path\to\tnsnames.ora" />\n  </oracle.dataaccess.client>\n</configuration>

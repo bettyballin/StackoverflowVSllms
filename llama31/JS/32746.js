@@ -1,1 +1,0 @@
-window.onhashchange = function() {\n  // The URL's hash has changed\n  // You can update your application state here\n};

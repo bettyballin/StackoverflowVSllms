@@ -1,1 +1,0 @@
-PERFORM set_config('my.context_info', 'my_username', true);\nDELETE FROM my_table WHERE id = 1;

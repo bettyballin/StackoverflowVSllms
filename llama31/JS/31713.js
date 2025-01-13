@@ -1,1 +1,0 @@
-$(":text").each(function() {\n  var $this = $(this);\n  var $clone = $this.clone().removeAttr("type").removeAttr("value");\n  $clone.html($this.val());\n  $this.replaceWith($clone);\n});

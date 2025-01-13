@@ -1,1 +1,0 @@
-<?php foreach ($forumData as $forum) { ?>\n    <h1><?php echo $forum['name']; ?></h1>\n    <p><?php echo $forum['desc']; ?></p>\n<?php } ?>

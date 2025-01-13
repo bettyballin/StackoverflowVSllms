@@ -1,1 +1,0 @@
-exec('pdftohtml -s -c path/to/example.pdf', $output);\n$html = implode('', $output);

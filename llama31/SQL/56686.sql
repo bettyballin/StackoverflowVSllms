@@ -1,1 +1,0 @@
-CREATE TABLE table_name (\n  column_name INT,\n  INDEX idx_column_name (column_name)\n);

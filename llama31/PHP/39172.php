@@ -1,1 +1,0 @@
-echo bin2hex($_POST['pass_field']);

@@ -1,1 +1,0 @@
-use PHPBcrypt\Bcrypt;\n\n// Generate a salt\n$salt = bin2hex(random_bytes(16));\n\n// Generate a pepper (optional)\n$pepper = bin2hex(random_bytes(16));\n\n// Hash the password\n$hashedPassword = Bcrypt::hash($password, $salt, $pepper);\n\n// Store the hashed password and salt in the database

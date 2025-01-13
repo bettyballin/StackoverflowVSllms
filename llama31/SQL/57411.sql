@@ -1,1 +1,0 @@
-EXPLAIN SELECT * FROM table WHERE id IN (SELECT id FROM temp_table);\n\nEXPLAIN SELECT * FROM table WHERE id = @id;

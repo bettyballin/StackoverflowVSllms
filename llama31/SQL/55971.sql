@@ -1,1 +1,0 @@
-SELECT a.table_name, a.constraint_name, a.status\nFROM all_constraints a\nJOIN all_cons_columns b ON a.constraint_name = b.constraint_name\nWHERE a.constraint_type = 'R'\nAND b.table_name = 'FOO';

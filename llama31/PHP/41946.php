@@ -1,1 +1,0 @@
-session_start();\n\nif (isset($_SESSION['user_id'])) {\n    // User is logged in, handle the request\n    echo "User ID: " . $_SESSION['user_id'];\n} else {\n    // User is not logged in, handle the error\n    echo "Error: User not logged in";\n}

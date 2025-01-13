@@ -1,1 +1,0 @@
-$string = 'Hello, World!';\n$hash = hash('fnv164', $string);\necho $hash; // Output: a numeric value, e.g. 261538715

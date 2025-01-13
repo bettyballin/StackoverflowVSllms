@@ -1,1 +1,0 @@
-[Phone] LIKE '%[a-zA-Z]%'

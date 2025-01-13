@@ -1,1 +1,0 @@
-console.log(044024); // outputs 18452 (octal to decimal conversion)\nconsole.log('044024'); // outputs "044024" (string literal)\nconsole.log(parseInt('044024', 10)); // outputs 44024 (decimal parsing)

@@ -1,1 +1,0 @@
-BEGIN\n  DBMS_HS_REFRESH_VIEW('your_view_name@dblink');\nEND;\n/

@@ -1,1 +1,0 @@
-import types\n\nclass Data:\n    fn = types.FunctionType(myFunction, globals())\n\nd = Data\nd.fn(1, 2, 3)  # prints "call to myFunction: 1 2 3"

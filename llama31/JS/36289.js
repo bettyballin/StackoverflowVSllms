@@ -1,1 +1,0 @@
-// Update the background color of an element with the id "example"\ndocument.getElementById("example").style.backgroundColor = "red";

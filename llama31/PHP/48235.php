@@ -1,1 +1,0 @@
-$Date = date("Y-m-d"); // use Y-m-d format for MySQL date comparison\n$result = mysql_query("SELECT * FROM service WHERE SType = 'Retreat' AND STR_TO_DATE(Start_date, '%m/%d/%Y') > '$Date'");

@@ -1,1 +1,0 @@
-<?php\n// Add this code to the top of your PHP file\nini_set('display_errors', 1);\nerror_reporting(E_ALL);\n\n// Check if the __autoload function is being called correctly\nfunction __autoload($class_name) {\n    echo "Loading class: $class_name\n";\n    // Your autoload logic here...\n}\n\n// Your original code here...\n?>

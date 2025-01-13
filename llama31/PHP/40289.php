@@ -1,1 +1,0 @@
-$src = "/var/videos/video1.wmv";\n$command = "/usr/bin/ffmpeg -i " . $src;\n$output = shell_exec($command);\necho $output;

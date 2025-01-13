@@ -1,1 +1,0 @@
-WHERE (@bit = 0 OR column = 1)

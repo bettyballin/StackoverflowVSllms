@@ -1,1 +1,0 @@
-SELECT a1.actiondate, a1.status\nFROM actions a1\nJOIN (\n  SELECT username, MAX(actiondate) AS max_actiondate\n  FROM actions\n  WHERE actiondate < 20061231\n  GROUP BY username\n) a2\nON a1.username = a2.username AND a1.actiondate = a2.max_actiondate;

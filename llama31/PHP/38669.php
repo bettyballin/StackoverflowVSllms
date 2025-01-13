@@ -1,1 +1,0 @@
-// in script.php\nrequire __DIR__ . '/inc/include1.php';\n\n// in soap/soap.php\nrequire __DIR__ . '/../inc/include1.php';

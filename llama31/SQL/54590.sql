@@ -1,1 +1,0 @@
-WITH duplicates AS (\n  SELECT column1, column2, ..., column10,\n         ROW_NUMBER() OVER (PARTITION BY column1, column2, ..., column10 ORDER BY column1) AS row_num\n  FROM your_table\n)\nSELECT column1, column2, ..., column10\nFROM duplicates\nWHERE row_num > 1

@@ -1,1 +1,0 @@
-$$color = 'red'; // is equivalent to $red = 'red';

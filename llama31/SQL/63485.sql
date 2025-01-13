@@ -1,1 +1,0 @@
-CREATE INDEX IX_ForeignKeyColumn ON YourTable (ForeignKeyColumn);

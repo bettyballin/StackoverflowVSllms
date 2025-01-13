@@ -1,1 +1,0 @@
-<configuration>\n  <system.webServer>\n    <rewrite>\n      <rules>\n        <rule name="Redirect to Virtual Directory" stopProcessing="true">\n          <match url="^$" />\n          <action type="Redirect" url="/virtualdir" />\n        </rule>\n      </rules>\n    </rewrite>\n  </system.webServer>\n</configuration>

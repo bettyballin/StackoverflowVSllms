@@ -1,1 +1,0 @@
-var obj = new ActiveXObject("YourActiveXObjectName");\nvar arr = obj.GetArrayOfStrings();\nfor (var i = 0; i < arr.length; i++) {\n    WScript.Echo(arr[i]);\n}

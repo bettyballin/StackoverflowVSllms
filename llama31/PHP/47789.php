@@ -1,1 +1,0 @@
-<?php\n$window = new GtkWindow();\n$window->set_title("PHP-GTK Test");\n$window->show_all();\nGtk::main();\n?>

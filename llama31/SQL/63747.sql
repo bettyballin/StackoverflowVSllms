@@ -1,1 +1,0 @@
-SELECT fruit.id, fruit.name\nFROM fruit\nLEFT JOIN fruit_rating ON fruit.id = fruit_rating.fruit_id AND fruit_rating.user_id = 10\nWHERE fruit_rating.fruit_id IS NULL

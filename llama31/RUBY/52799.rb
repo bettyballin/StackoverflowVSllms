@@ -1,1 +1,0 @@
-require 'yaml'\n\nclass Lock\n  # existing implementation\nend\n\nclass LockWrapper < Lock\n  def to_yaml(opts = {})\n    YAML.dump({}, opts)\n  end\nend\n\n# usage\nlock = LockWrapper.new\nyaml = YAML.dump(lock)

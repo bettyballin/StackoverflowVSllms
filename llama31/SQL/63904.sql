@@ -1,1 +1,0 @@
-[Phone] LIKE '0' AND LEN([Phone]) = 1

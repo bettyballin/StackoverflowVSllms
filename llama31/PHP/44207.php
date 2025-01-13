@@ -1,1 +1,0 @@
-echo number_format(2.2000, 2); // Outputs "2.20"

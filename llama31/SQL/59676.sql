@@ -1,1 +1,0 @@
-SELECT t2.State, t2.Product, t2.Version\nFROM Table2 t2\nLEFT JOIN Table1 t1\n  ON t1.State = t2.State\n  AND t1.Product = t2.Product\n  AND t1.Distributor = 'X'\nWHERE t1.State IS NULL

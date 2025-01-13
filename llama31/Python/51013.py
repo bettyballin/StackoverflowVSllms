@@ -1,1 +1,0 @@
-import spacy\n\nnlp = spacy.load("en_core_web_sm")\ntext = "This blog is about New York"\ndoc = nlp(text)\n\nfor ent in doc.ents:\n    if ent.label_ == "GPE":  # GPE stands for Geographic Location\n        print(ent.text)  # Output: New York

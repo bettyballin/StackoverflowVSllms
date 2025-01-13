@@ -1,1 +1,0 @@
-require_once 'PHP/CodeSniffer.php';\n$generator = new PHP_CodeSniffer_Generator();\n$generator->generateClass('MyClass', array('myMethod'));

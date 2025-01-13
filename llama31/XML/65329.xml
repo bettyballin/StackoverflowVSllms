@@ -1,1 +1,0 @@
-<instrumentation\n    android:name="android.test.InstrumentationTestRunner"\n    android:targetPackage="com.blah.blah" />

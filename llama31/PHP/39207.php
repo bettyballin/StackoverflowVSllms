@@ -1,1 +1,0 @@
-foreach ($_POST as $key => $value) {\n    if (preg_match('/^artist(\d+)$/', $key, $match)) {\n        $artist = $value;\n        // Add $artist to your database here\n    }\n}

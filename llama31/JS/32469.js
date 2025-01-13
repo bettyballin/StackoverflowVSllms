@@ -1,1 +1,0 @@
-$.ajax({\n  type: 'POST',\n  url: 'suggestUsernames.php',\n  data: { firstName: 'John', lastName: 'Smith' },\n  success: function(suggestions) {\n    // Display the suggestions to the user\n    $.each(suggestions, function(index, suggestion) {\n      $('#usernameSuggestions').append('<option value="' + suggestion + '">' + suggestion + '</option>');\n    });\n  }\n});

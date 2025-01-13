@@ -1,1 +1,0 @@
-$dateString = $_POST['date'];\n$date = DateTime::createFromFormat('m/d/Y', $dateString);\n$epoch = $date->getTimestamp();

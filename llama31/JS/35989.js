@@ -1,1 +1,0 @@
-$.ajax({\n  url: '/your-url',\n  type: 'GET',\n  xhr: function() {\n    var xhr = new window.XMLHttpRequest();\n    xhr.addEventListener("progress", function(event) {\n      var percent = (event.loaded / event.total) * 100;\n      // update progress bar\n      $('#progress-bar').css('width', percent + '%');\n    });\n    return xhr;\n  }\n});

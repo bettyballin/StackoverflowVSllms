@@ -1,1 +1,0 @@
-class SslPlugin extends Zend_Controller_Plugin_Abstract\n{\n    public function preDispatch(Zend_Controller_Request_Abstract $request)\n    {\n        if (!$request->isSecure()) {\n            $url = $request->getRequestUri();\n            $this->getResponse()->setRedirect('https://' . $_SERVER['HTTP_HOST'] . $url);\n        }\n    }\n}

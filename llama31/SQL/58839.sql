@@ -1,1 +1,0 @@
-SELECT \n    name AS [File Name], \n    size / 128.0 AS [Size (MB)], \n    fileid AS [File ID]\nFROM \n    sys.database_files\nORDER BY \n    size DESC;

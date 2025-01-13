@@ -1,1 +1,0 @@
-$MyDB->prep("INSERT INTO `demo` (`id`, `name`, `score`, `dept`, `date`) VALUES ('1', 'James Kablammo', '1205550', 'Marketing', '$date')");

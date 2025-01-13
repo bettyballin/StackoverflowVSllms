@@ -1,1 +1,0 @@
-# Using Apache\nHeader set X-Frame-Options "DENY"\n\n# Using Nginx\nadd_header X-Frame-Options "DENY";\n\n# Using Node.js (Express.js)\napp.use((req, res, next) => {\n  res.header('X-Frame-Options', 'DENY');\n  next();\n});

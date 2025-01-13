@@ -1,1 +1,0 @@
-$commentsPage = new CommentsPage($article_id);

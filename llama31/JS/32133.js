@@ -1,1 +1,0 @@
-app.use((req, res, next) => {\n  const acceptedStatus = req.header('X-Accept-Status');\n  if (acceptedStatus && acceptedStatus === '200') {\n    res.status(200);\n    if (res.statusCode !== 200) {\n      res.set('X-HTTP-Status-Code', `${res.statusCode} ${res.statusMessage}`);\n    }\n  }\n  next();\n});

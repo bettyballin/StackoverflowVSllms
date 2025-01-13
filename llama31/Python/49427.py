@@ -1,1 +1,0 @@
-import boto3\n\n# Define a simple AWS Lambda function\ndef lambda_handler(event, context):\n    # Call an API Gateway endpoint\n    api_gateway = boto3.client('apigateway')\n    response = api_gateway.get_rest_api(RestApiId='my-api-id')\n    return {\n        'statusCode': 200,\n        'body': response['description']\n    }

@@ -1,1 +1,0 @@
-Dim Kml As XDocument = XDocument.Load(Server.MapPath("../kmlimport/ga.kml"))\nDim ns As XNamespace = "http://earth.google.com/kml/2.0"\nDim Placemarks = From Placemark In Kml.Descendants(ns + "Placemark") _\n         Select Name = Placemark.Element(ns + "name").Value

@@ -1,1 +1,0 @@
-function match_password($password) {\n    return ($this->password === md5($password));\n}

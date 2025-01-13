@@ -1,1 +1,0 @@
-<?php\n$to = 'your_email@example.com';\n$subject = 'Test Email';\n$message = 'This is a test email';\n\nmail($to, $subject, $message);\n?>

@@ -1,1 +1,0 @@
-$queryParser = new Zend_Search_Lucene_Search_QueryParser();\n$query = $queryParser->parse($q);\n\n$hits = $index->find($query);

@@ -1,1 +1,0 @@
-$body .= htmlspecialchars($r['body']) . "\n";

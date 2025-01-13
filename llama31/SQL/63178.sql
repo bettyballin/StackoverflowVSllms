@@ -1,1 +1,0 @@
-DECLARE @sql NVARCHAR(MAX) = '';\nSELECT @sql += 'DROP INDEX ' + name + ' ON your_table_name; '\nFROM sys.indexes\nWHERE object_id = OBJECT_ID('your_table_name') AND name IS NOT NULL;\nEXEC sp_executesql @sql;

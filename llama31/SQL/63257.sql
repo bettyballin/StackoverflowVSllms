@@ -1,1 +1,0 @@
-ALTER PROCEDURE [dbo].[MembersActivateAccount]\n    @MemberId uniqueidentifier\nAS\nBEGIN\n    SET NOCOUNT ON;\n    UPDATE [dbo].Members SET accountActive = 1 WHERE id = @MemberId;\n    RETURN @@ROWCOUNT;\nEND

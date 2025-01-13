@@ -1,1 +1,0 @@
-BEGIN;\n\nINSERT INTO groups (name) VALUES ('new group');\nSELECT CURRENT_VALUE FROM groups_sequence;\n\nINSERT INTO users (name, group_id) VALUES ('new user', CURRENT_VALUE);\n\nCOMMIT;

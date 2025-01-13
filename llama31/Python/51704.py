@@ -1,1 +1,0 @@
-import responses\n\n@responses.activate\ndef test_function():\n    responses.add(responses.GET, 'http://example.com',\n                  body='Mocked response', status=200)\n    result = function_to_test()\n    assert result == 'Mocked response'

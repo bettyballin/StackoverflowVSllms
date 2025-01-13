@@ -1,1 +1,0 @@
-import facebook\n\ngraph = facebook.GraphAPI(access_token='YOUR_ACCESS_TOKEN', \n                         version='3.1')\n\nresponse = graph.search(q='music', type='page')\n\nfor page in response['data']:\n    print(page['name'])

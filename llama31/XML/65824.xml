@@ -1,1 +1,0 @@
-<project name="cvs-update">\n  <target name="update">\n    <cvs command="update" cvsRoot="${cvs.root}" package="${project.name}"/>\n  </target>\n</project>

@@ -1,1 +1,0 @@
-$xml = simplexml_load_file('your_xml_file.xml');\nforeach ($xml->page as $page) {\n  $title = (string)$page->title;\n  $body = (string)$page->body;\n  $cck_fields = array();\n  foreach ($page->cck_field as $field) {\n    $cck_fields[(string)$field->name] = (string)$field->value;\n  }\n  create_node($title, $body, $cck_fields);\n}

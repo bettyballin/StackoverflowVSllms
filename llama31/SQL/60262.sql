@@ -1,1 +1,0 @@
-SELECT * \nFROM T1 \nLEFT JOIN T2 \n    ON T1.value = T2.value \n    AND T1.use_T2 = 'true'  -- assuming this is the column that determines whether to join T2\n    AND T2.value2 = 'variable2' \n    AND T2.value3 = 'variable3'

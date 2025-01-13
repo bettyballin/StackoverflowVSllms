@@ -1,1 +1,0 @@
-SELECT \n  c.CampaignID,\n  s.SourceID,\n  MAX(DECODE(cr.Content_Row_ID, 'A', cr.Content_Value)) AS ContentRowID_ValueA,\n  MAX(DECODE(cr.Content_Row_ID, 'B', cr.Content_Value)) AS ContentRowID_ValueB\nFROM \n  Campaign c\n  JOIN Source s ON c.CampaignID = s.CampaignID\n  JOIN Content cr ON c.CampaignID = cr.CampaignID\nGROUP BY \n  c.CampaignID, s.SourceID

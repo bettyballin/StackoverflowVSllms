@@ -1,1 +1,0 @@
-UPDATE table_name\nSET attribute = 'new_value'\nWHERE id = 'entry_id' AND locked = FALSE;

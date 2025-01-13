@@ -1,1 +1,0 @@
-@app.route("/items/delete/<int:item_id>", methods=["POST"])\ndef delete_item(item_id):\n    token = request.form["token"]\n    if validate_token(token):\n        # Delete the item\n        return "Item deleted"\n    else:\n        return "Invalid token", 401

@@ -1,1 +1,0 @@
-// Handle the AJAX request\nif ($_GET['report-adblocker'] === 'true') {\n  // AdBlocker detected\n  echo 'AdBlocker detected';\n}

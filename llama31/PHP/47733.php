@@ -1,1 +1,0 @@
-<?php\n\ndeclare(strict_types=1);\n\nnamespace MyApp\Utils;\n\nfunction foo(int $bar): array\n{\n    // implementation\n    return ['baz' => 'qux'];\n}

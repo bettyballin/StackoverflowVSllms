@@ -1,1 +1,0 @@
-function findClosestElement(event) {\n  const clickedElement = event.target;\n  let closestElement = clickedElement.parentNode;\n  while (closestElement && closestElement.id !== 'myId') {\n    closestElement = closestElement.parentNode;\n  }\n  // manipulate closestElement's data here\n}

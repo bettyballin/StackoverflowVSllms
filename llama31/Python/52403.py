@@ -1,1 +1,0 @@
-import requests\n\ndef search(query):\n    api_url = "https://example.com/api/search"\n    params = {"q": query}\n    response = requests.get(api_url, params=params)\n    results = response.json()\n    return results\n\nqueries = ["query1", "query2", ...]\nfor query in queries:\n    results = search(query)\n    print(results)

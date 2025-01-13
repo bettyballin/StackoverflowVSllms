@@ -1,1 +1,0 @@
-<configuration>\n  <system.webServer>\n    <security>\n      <access sslFlags="Ssl, SslRequireCert, SslNegotiateCert" />\n    </security>\n  </system.webServer>\n</configuration>

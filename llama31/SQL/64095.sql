@@ -1,1 +1,0 @@
-BACKUP LOG [AMS_Prod_log] WITH NO_LOG;

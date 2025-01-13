@@ -1,1 +1,0 @@
-<?php\n$metadata = array(\n    'https://your-sp.com/saml/acs' => array(\n        'AssertionConsumerService' => 'https://your-sp.com/saml/acs',\n        'SingleLogoutService' => 'https://your-sp.com/saml/sls',\n    ),\n);

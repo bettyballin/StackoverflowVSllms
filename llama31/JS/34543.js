@@ -1,1 +1,0 @@
-var myArray = ['element1'];\nvar anotherArray = ['element2', 'element3'];\nmyArray = myArray.concat(anotherArray); // append anotherArray to myArray

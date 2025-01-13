@@ -1,1 +1,0 @@
-<Obfuscation>\n  <AssemblyName>MyAssembly</AssemblyName>\n  <ObfuscateNames>true</ObfuscateNames>\n  <StringEncryption>true</StringEncryption>\n  <ControlFlowObfuscation>true</ControlFlowObfuscation>\n  <Exclude>\n    <Type>MyCompany.MyNamespace.MyClass</Type>\n  </Exclude>\n</Obfuscation>

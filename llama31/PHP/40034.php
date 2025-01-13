@@ -1,1 +1,0 @@
-$doc = new DOMDocument('1.0', 'UTF-8');\n$doc->loadHTML($text, LIBXML_NOENT);\n$anchors = $doc->getElementsByTagName('a');\n\nforeach($anchors as $a) {\n    $a->setAttribute('href', 'http://google.com');\n}\n\nreturn $doc->saveHTML();

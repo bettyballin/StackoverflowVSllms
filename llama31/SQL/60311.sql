@@ -1,1 +1,0 @@
-SELECT * \nFROM your_table \nWHERE date >= DATE_SUB(CURRENT_DATE, INTERVAL 2 WEEK);

@@ -1,1 +1,0 @@
-// Make sure to pass the $css_files array to the view\n$data['css_files'] = $this->css_files;\n$this->load->view('your_view', $data);

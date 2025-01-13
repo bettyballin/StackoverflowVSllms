@@ -1,1 +1,0 @@
-import boto3\n\ns3 = boto3.client('s3')\n\ndef get_signed_url(bucket_name, object_key):\n    return s3.generate_presigned_url(\n        'get_object',\n        Params={'Bucket': bucket_name, 'Key': object_key},\n        ExpiresIn=3600  # 1 hour\n    )

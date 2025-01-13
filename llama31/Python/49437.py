@@ -1,1 +1,0 @@
-def perform(function, *args, **kwargs):\n    return function(*args, **kwargs)\n\ndef action1():\n    print("action1")\n\ndef action2(p):\n    print(f"action2 with param: {p}")\n\ndef action3(p, r):\n    print(f"action3 with params: {p}, {r}")\n\nperform(action1)\nperform(action2, "hello")\nperform(action3, "hello", "world")

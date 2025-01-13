@@ -1,1 +1,0 @@
-SELECT * \nFROM users \nWHERE TIMESTAMPDIFF(SECOND, login_time, NOW()) <= 600;

@@ -1,1 +1,0 @@
-Sub Main()\n    ' Your console app code goes here\nEnd Sub

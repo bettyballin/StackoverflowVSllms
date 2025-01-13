@@ -1,1 +1,0 @@
-SELECT \n  co.*,\n  COUNT(mod.id) AS moduleCount,\n  COUNT(vid.id) AS vidCount\nFROM \n  courses co\n  LEFT JOIN modules mod ON mod.course_id = co.id\n  LEFT JOIN videos vid ON vid.course_id = co.id\nGROUP BY \n  co.id\nORDER BY \n  co.id DESC;

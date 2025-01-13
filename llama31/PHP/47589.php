@@ -1,1 +1,0 @@
-$data = [\n    'table_of_contents' => $_POST['table_of_contents'],\n    'length' => $_POST['length'],\n];\n\n$optionalFields = ['lossless_copy', 'another_field', 'yet_another_field'];\n\nforeach ($optionalFields as $field) {\n    $data[$field] = isset($_POST[$field]) ? $_POST[$field] : null;\n}

@@ -1,1 +1,0 @@
-DECLARE\n  v_temp_tabtype MY_TABTYPE := MY_TABTYPE();\nBEGIN\n  -- populate v_temp_tabtype\n\n  FOR i IN v_temp_tabtype.FIRST .. v_temp_tabtype.LAST LOOP\n    dbms_output.put_line(v_temp_tabtype(i).MyString || ' ' || v_temp_tabtype(i).counter);\n  END LOOP;\nEND;

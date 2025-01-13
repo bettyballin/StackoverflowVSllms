@@ -1,1 +1,0 @@
-<?php\nuse Intervention\Image\ImageManager;\n\n$imagePath = 'path/to/original/image.jpg';\n$thumbnailWidth = 200;\n$thumbnailHeight = 200;\n\n$image = (new ImageManager())->make($imagePath);\n$thumbnail = $image->resize($thumbnailWidth, $thumbnailHeight);\nheader('Content-Type: image/jpeg');\n$thumbnail->response();\n?>

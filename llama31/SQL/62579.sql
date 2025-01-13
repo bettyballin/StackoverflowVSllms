@@ -1,1 +1,0 @@
-SELECT u.username, s.query\nFROM search s\nLEFT JOIN user u ON s.userid = u.userid;

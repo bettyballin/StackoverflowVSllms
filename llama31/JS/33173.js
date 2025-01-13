@@ -1,1 +1,0 @@
-// Set the token cookie when the user signs in\ndocument.cookie = 'token=' + token + '; path=/; secure; HttpOnly';\n\n// When opening the new window, pass the token as a query parameter\nvar newWindow = window.open('/report?token=' + token, '_blank');

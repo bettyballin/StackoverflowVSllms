@@ -1,1 +1,0 @@
-Dim sb As New StringBuilder\nFor Each Row As DataRow In dtData.Rows\n    sb.Append("'")\n    sb.Append(Row("SomeField").ToString)\n    sb.Append("', ")\nNext\n\nDim filter As String = "SomeField IN (" & sb.ToString.TrimEnd(", ".ToCharArray) & ")"\nDim rows() As DataRow = dtSubData.Select(filter, "SomeField Guid")\n\ngvDataView.DataSource = rows

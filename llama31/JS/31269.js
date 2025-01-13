@@ -1,1 +1,0 @@
-$(document).on('click', '.klik', function() {\n  alert("test");\n});

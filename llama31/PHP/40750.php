@@ -1,1 +1,0 @@
-use Firebase\JWT\JWT;\n\n$token = JWT::encode($user_data, $secret_key, 'HS256');

@@ -1,1 +1,0 @@
-if (document.images) {\n    image1 = new Image;\n    image2 = new Image;\n    image1.src = "images/logos/logoBlackFadedLow.jpg";\n    image2.src = "images/logos/logoWhiteFadedLow.jpg";\n}\n\nfunction chgImg(id, image) {\n    if (document.images) {\n        var img = document.getElementById(id);\n        if (img) {\n            img.src = eval(image + ".src");\n        }\n    }\n}

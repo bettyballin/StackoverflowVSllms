@@ -1,1 +1,0 @@
-php -r "eval('?>'.file_get_contents('http://pear.php.net/go-pear'));"

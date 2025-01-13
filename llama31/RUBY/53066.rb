@@ -1,1 +1,0 @@
-def create\n  @task = Task.new(params[:task])\n  @note = Note.new(params[:note])\n  @task.notes << @note\n\n  if @task.valid? && @note.valid?\n    @task.save\n    redirect_to tasks_path\n  else\n    render :action => 'new'\n  end\nend

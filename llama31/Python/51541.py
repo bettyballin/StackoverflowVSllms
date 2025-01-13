@@ -1,1 +1,0 @@
-import socket\n\n# Client 1\nsock1 = socket.socket(socket.AF_INET, socket.SOCK_UDP)\nsock1.bind(('0.0.0.0', 1234))\nsock1.sendto(b'Hello', ('client2_ip', 5678))\n\n# Client 2\nsock2 = socket.socket(socket.AF_INET, socket.SOCK_UDP)\nsock2.bind(('0.0.0.0', 5678))\nsock2.sendto(b'Hello', ('client1_ip', 1234))

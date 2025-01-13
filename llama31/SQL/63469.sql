@@ -1,1 +1,0 @@
-CREATE PROCEDURE standardize_city_names\nAS\nBEGIN\n    UPDATE your_table\n    SET city = REPLACE(REPLACE(city, 'Ft.', 'Fort'), 'Ft', 'Fort')\n    WHERE city LIKE '%Ft%' OR city LIKE '%Fort%';\nEND;

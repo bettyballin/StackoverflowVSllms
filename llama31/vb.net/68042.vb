@@ -1,1 +1,0 @@
-Imports System.Reflection\n\n<Assembly: AssemblyCompany("YourCompany")>\n<Assembly: AssemblyCopyright("Copyright YourCompany")>\n<Assembly: AssemblyTrademark("")>

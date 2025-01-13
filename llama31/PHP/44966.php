@@ -1,1 +1,0 @@
-$autoloader = Zend_Loader_Autoloader::getInstance();\n$autoloader->registerNamespace('Core_');

@@ -1,1 +1,0 @@
-$cat = null;\n$dog = 'Woof!';\n\n$foo = $cat && $dog; // $foo will be null\n\n$fruit = 'Apple';\n$vegetable = 'Carrot';\n\n$bar = $fruit || $vegetable; // $bar will be 'Apple'\n\n$baz = null || $vegetable; // $baz will be 'Carrot'

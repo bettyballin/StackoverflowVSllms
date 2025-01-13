@@ -1,1 +1,0 @@
-Dim encodedAuth As String = Context.Request.Headers.GetValues("Authorization")(0)\nDim decodedAuth As String = Encoding.ASCII.GetString(Convert.FromBase64String(encodedAuth.Substring(6)))\n\nDim credentials As String() = decodedAuth.Split(":")\nDim username As String = credentials(0)\nDim password As String = credentials(1)

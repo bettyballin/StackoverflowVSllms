@@ -1,1 +1,0 @@
-<?php\n$amount = '12.34'; // string representation to avoid float issues\n$bcAmount = bcmul($amount, '1.23', 2); // multiply with 2 decimal places\necho $bcAmount; // outputs '15.19'

@@ -1,1 +1,0 @@
-$('.delete-link').on('click', function(e) {\n    e.preventDefault();\n    var itemId = $(this).data('item-id');\n    $.ajax({\n        type: 'POST',\n        url: 'item.php',\n        data: {id: itemId, action: 'delete'}\n    });\n});

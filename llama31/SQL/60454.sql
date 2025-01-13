@@ -1,1 +1,0 @@
-SELECT \n  CHAR_LENGTH(column_name) * 6 AS estimated_width_in_pixels\nFROM \n  your_table;

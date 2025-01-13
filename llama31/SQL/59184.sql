@@ -1,1 +1,0 @@
-SELECT * \nFROM your_table \nORDER BY date_field DESC \nLIMIT 1;

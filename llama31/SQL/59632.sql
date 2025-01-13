@@ -1,1 +1,0 @@
-SELECT \n  product_groups.name, \n  GROUP_CONCAT(products.name SEPARATOR ', ') as products\nFROM \n  products\n  INNER JOIN product_groups ON products.id = product_groups.id\nWHERE \n  products.name LIKE '%foobar%'\nGROUP BY \n  product_groups.id, product_groups.name\nORDER BY \n  product_groups.id ASC

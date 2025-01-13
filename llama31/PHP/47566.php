@@ -1,1 +1,0 @@
-Zend_Loader_Autoloader::getInstance()->registerNamespace('Application_');

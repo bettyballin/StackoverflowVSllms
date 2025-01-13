@@ -1,1 +1,0 @@
-exec("php /path/to/your/script.php param1 param2 &");

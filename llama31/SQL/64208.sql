@@ -1,1 +1,0 @@
-SELECT ID, Lastname + ', ' + Firstname AS FullName FROM Employees

@@ -1,1 +1,0 @@
-# In your BuildingsController\ndef create\n  # Create the building as usual\n  @building = Building.new(params[:building])\n  if @building.save\n    # Redirect back to the SiteManager controller\n    redirect_to site_manager_path, :notice => 'Building created successfully'\n  else\n    # Handle errors as usual\n  end\nend

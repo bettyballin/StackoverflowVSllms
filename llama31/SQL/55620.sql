@@ -1,1 +1,0 @@
-WITH temp_table AS (\n  SELECT tab1.column1, tab2.column2\n  FROM tab1, tab2\n  WHERE tab1.key = tab2.fkey\n)\nSELECT * FROM temp_table\nWHERE column1 = 'value';

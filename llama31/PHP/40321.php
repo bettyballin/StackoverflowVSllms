@@ -1,1 +1,0 @@
-$filename = 'example.zip'; // replace with your file name\n$test = `svn cat ...`;\n\nheader('Content-Type: application/octet-stream');\nheader('Content-Disposition: attachment; filename="' . addslashes($filename) . '"');\nheader('Content-Length: ' . strlen($test));\nheader('Content-Transfer-Encoding: binary');\nheader('Accept-Ranges: bytes');\n\necho $test;\nexit;

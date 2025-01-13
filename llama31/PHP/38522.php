@@ -1,1 +1,0 @@
-$value = array_shift($obj->getArray());

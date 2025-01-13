@@ -1,1 +1,0 @@
--- Using BETWEEN\nSELECT * FROM table WHERE datetime_column BETWEEN '2022-01-01' AND '2022-01-31';\n\n-- Using comparison operators\nSELECT * FROM table WHERE datetime_column >= '2022-01-01' AND datetime_column < '2022-02-01';

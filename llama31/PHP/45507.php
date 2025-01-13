@@ -1,1 +1,0 @@
-$title = wp_title('');\n$title = ltrim($title);\necho $title;

@@ -1,1 +1,0 @@
-DELETE FROM object_ordering\nWHERE object_id = :object_id;\n\nUPDATE object_ordering\nSET order_index = order_index - 1\nWHERE order_index > :deleted_order_index;

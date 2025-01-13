@@ -1,1 +1,0 @@
-ob_start();\ninclude('yourfile.php');\n$Vdata = ob_get_clean();

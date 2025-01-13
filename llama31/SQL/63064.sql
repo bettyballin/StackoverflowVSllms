@@ -1,1 +1,0 @@
-SELECT Name, Age, FavColour, CarMake\nFROM UserProperties

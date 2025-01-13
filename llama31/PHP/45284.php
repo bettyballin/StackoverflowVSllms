@@ -1,1 +1,0 @@
-$conn = mysqli_connect($host, $username, $password, $database);\nmysqli_set_charset($conn, 'utf8');

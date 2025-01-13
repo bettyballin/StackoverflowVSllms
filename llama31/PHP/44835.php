@@ -1,1 +1,0 @@
-if (php_sapi_name() === 'cli') {\n    // script was invoked from command line\n} else {\n    // script was invoked by web server\n}

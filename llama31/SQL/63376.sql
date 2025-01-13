@@ -1,1 +1,0 @@
-SELECT ar.replica_server_name AS ServerName,\n       ars.role AS Role,\n       ars.operational_state AS OperationalState\nFROM sys.dm_hadr_availability_replica_states ars\nJOIN sys.availability_replicas ar ON ars.replica_id = ar.replica_id;

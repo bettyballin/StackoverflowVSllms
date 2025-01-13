@@ -1,1 +1,0 @@
-function testFunc() {\n    echo 'Testing';\n    return true;\n}\n\nob_start();\n$result = testFunc();\nob_end_clean();\n\n// $result now holds the return value of testFunc()\n// and "Testing" will not be output

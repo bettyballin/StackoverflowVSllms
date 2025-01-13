@@ -1,1 +1,0 @@
-<location path="App_Code">\n    <system.web>\n        <customErrors mode="On" defaultRedirect="~/404.aspx">\n            <error statusCode="404" redirect="~/404.aspx" />\n        </customErrors>\n    </system.web>\n</location>

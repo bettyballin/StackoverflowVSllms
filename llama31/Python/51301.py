@@ -1,1 +1,0 @@
-unique_id = self.request.cookies.get('uniqueid')\nnickname = self.request.cookies.get('nickname')

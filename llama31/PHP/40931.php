@@ -1,1 +1,0 @@
-class Node {\n    public $next;\n\n    public function __construct(Node $next = null) {\n        $this->next = $next;\n    }\n}\n\n// avoid circular references\n$node1 = new Node();\n$node2 = new Node($node1);\n$node1->next = $node2; // circular reference!

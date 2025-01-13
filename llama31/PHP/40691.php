@@ -1,1 +1,0 @@
-$fp = fopen($contents, 'r');\nwhile (($row = fgetcsv($fp, 0, ',', '"')) !== FALSE) {\n    $aum = $row[1]; // assuming the $aum value is in the second column\n    // ...\n}\nfclose($fp);

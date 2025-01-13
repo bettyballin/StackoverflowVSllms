@@ -1,1 +1,0 @@
--- Add new foreign key column\nALTER TABLE YourReferencingTableName\nADD NewForeignKey uniqueidentifier NULL;\n\n-- Update new foreign key column\nUPDATE r\nSET r.NewForeignKey = p.GuidId\nFROM YourReferencingTableName r\nINNER JOIN YourTableName p ON r.OldForeignKey = p.OldPrimaryKey;

@@ -1,1 +1,0 @@
-SELECT Md5 \nFROM \n    (SELECT Md5, \n     CASE \n        WHEN @ClientType = 'Employee' THEN 'HR'\n        WHEN @ClientType = 'Member' THEN 'Other'\n     END AS Source\n     FROM YourTable) AS DerivedTable\nWHERE Source = @Source AND Current = 2;

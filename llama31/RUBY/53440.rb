@@ -1,1 +1,0 @@
-module MyModule\n  def hello\n    puts "Hello!"\n  end\nend\n\nclass MyClassInclude\n  include MyModule\nend\n\nclass MyClassExtend\n  extend MyModule\nend\n\n# instance method call\nMyClassInclude.new.hello # "Hello!"\n\n# class method call\nMyClassExtend.hello # "Hello!"

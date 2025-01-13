@@ -1,1 +1,0 @@
-Dim dbg\nSet dbg = CreateObject("Scripting.Debugger")\ndbg.Attach

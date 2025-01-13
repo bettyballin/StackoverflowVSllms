@@ -1,1 +1,0 @@
-testlist = [1, 2, 3, 5, 3, 1, 2, 1, 6]\n\nfor index, item in enumerate(testlist):\n    if item == 1:\n        print(index)

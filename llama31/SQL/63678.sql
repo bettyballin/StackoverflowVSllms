@@ -1,1 +1,0 @@
-CREATE INDEX IX_LogEntries_LogDate ON LogEntries (LogDate);

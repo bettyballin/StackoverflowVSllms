@@ -1,1 +1,0 @@
-Sub MyMethod(Optional ByVal foo As Integer = 0, Optional ByVal bar As String = "")\n\nEnd Sub\n\n' Calling the method with named arguments\nMyMethod(foo:=1, bar:="Hello")

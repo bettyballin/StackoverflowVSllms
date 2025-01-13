@@ -1,1 +1,0 @@
-$obj = new stdClass();\n$obj->name = 'John Doe';\n$obj->age = 30;\n\nprint_r($obj);

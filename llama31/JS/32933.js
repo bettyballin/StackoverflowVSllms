@@ -1,1 +1,0 @@
-// assuming you have an iframe with the id "myIframe"\nvar iframe = document.getElementById("myIframe");\nvar func = iframe.contentWindow.myFunction; // get the function from the iframe\nfunc(); // invoke the functio

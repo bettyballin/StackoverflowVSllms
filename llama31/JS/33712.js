@@ -1,1 +1,0 @@
-// Assume 'attachment' is the attachment file name\nvar attachmentType = "APPROVAL_"; // or OFFER_, PO_, etc.\nvar fileName = attachmentType + attachment;

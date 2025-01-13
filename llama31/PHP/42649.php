@@ -1,1 +1,0 @@
-// image.php\nsession_start();\nif (empty($_SESSION['username']) || empty($_SESSION['token'])) {\n    http_response_code(403);\n    exit;\n}\n$image_path = 'path/to/images/' . $_GET['image'];\nif (file_exists($image_path)) {\n    header('Content-Type: image/jpeg');\n    readfile($image_path);\n} else {\n    http_response_code(404);\n    exit;\n}

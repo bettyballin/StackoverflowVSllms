@@ -1,1 +1,0 @@
-$c = explode("\r\n", $content);

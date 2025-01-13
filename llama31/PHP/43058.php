@@ -1,1 +1,0 @@
-$url = 'https://www.youtube.com/watch?v=VIDEO_ID';\nparse_str(parse_url($url, PHP_URL_QUERY), $queryString);\n$videoId = $queryString['v'];\n\n$embedCode = '<iframe width="560" height="315" src="https://www.youtube.com/embed/' . $videoId . '" frameborder="0" allowfullscreen></iframe>';\necho $embedCode;

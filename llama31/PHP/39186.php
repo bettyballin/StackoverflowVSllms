@@ -1,1 +1,0 @@
-$s = 'http://kjkhlsa.net';\n$p = 'http://lkasdjlkjas.com';\n$o = 'Test';\n\n$inst_query = sprintf('SELECT * WHERE { <%s> <%s> "%s" }', $s, $p, $o);\necho $inst_query;

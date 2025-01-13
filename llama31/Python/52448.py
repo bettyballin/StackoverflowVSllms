@@ -1,1 +1,0 @@
-import os\n\n# Copy the file to the build directory\nshutil.copy(src_file, dst_file)\n\n# Close the file handle\nos.close(src_file)

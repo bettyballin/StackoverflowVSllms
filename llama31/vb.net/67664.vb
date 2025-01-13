@@ -1,1 +1,0 @@
-<DllImport("user32.dll")> _\nPrivate Shared Function SendInput(ByVal nInputs As Integer, ByVal pInputs As INPUT(), ByVal cbSize As Integer) As Integer\nEnd Functio

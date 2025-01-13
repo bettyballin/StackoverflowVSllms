@@ -1,1 +1,0 @@
-function isPageVisible() {\n  return !!(window.requestAnimationFrame && window.performance.now());\n}\n\nif (isPageVisible()) {\n  // Resume polling\n} else {\n  // Pause polling\n}

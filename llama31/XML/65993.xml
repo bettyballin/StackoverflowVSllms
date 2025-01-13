@@ -1,1 +1,0 @@
-<configuration>\n  <system.web>\n    <authentication mode="Windows">\n      <providers>\n        <clear />\n        <add name="NTLM" />\n      </providers>\n    </authentication>\n  </system.web>\n</configuration>

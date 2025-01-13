@@ -1,1 +1,0 @@
-require 'mathjax'\n\nclass MathExample < Ruport::Formatter::PDF\n  def setup\n    # ...\n  end\n\n  def report_body\n    math = MathJax::Renderer.new("x^{-2}")\n    image = math.render\n    image "math_image", :data => image\n  end\nend

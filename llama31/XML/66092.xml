@@ -1,1 +1,0 @@
-<configuration>\n  <system.applicationHost>\n    <applicationPools>\n      <add name="MyAppPool" enable32BitAppOnWin64="true" />\n    </applicationPools>\n  </system.applicationHost>\n</configuration>

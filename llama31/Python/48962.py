@@ -1,1 +1,0 @@
-import PyPerl\n\n# create a Perl interpreter\nperl = PyPerl.PyPerl()\n\n# load a Perl library\nperl.eval("use MyPerlLibrary")\n\n# create an instance of a Perl class\nperl.eval("$obj = MyPerlLibrary->new()")\n\n# call a method on the Perl object\nperl.eval("$obj->my_method()")

@@ -1,1 +1,0 @@
-# Print a message\nprint("Hello, World!")\n\n# Ask for user input\nname = input("What's your name? ")\n\n# Print a greeting\nprint("Hello, " + name + "!")

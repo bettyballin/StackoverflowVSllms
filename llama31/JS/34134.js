@@ -1,1 +1,0 @@
-$.get(callUrl, function(data) {\n  data = JSON.parse(data);\n  console.log(typeof data);\n  $.each(data.items, function(i, item) {\n    console.log(i);\n  });\n}, 'text');

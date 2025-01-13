@@ -1,1 +1,0 @@
-ALTER TABLE `pagehit` CHANGE `timestamp` `timestamp` TIMESTAMP DEFAULT CURRENT_TIMESTAMP;

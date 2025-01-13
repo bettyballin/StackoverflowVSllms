@@ -1,1 +1,0 @@
-header('Cache-Control: no-cache');\necho 'your response data';

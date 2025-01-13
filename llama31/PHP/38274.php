@@ -1,1 +1,0 @@
-if ($_SERVER['REQUEST_METHOD'] === 'POST') {\n  if ($_POST['example'] === 'edit') {\n    // handle edit action\n  } elseif ($_POST['example'] === 'delete') {\n    // handle delete action\n  }\n}

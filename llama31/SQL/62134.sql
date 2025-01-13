@@ -1,1 +1,0 @@
-DECLARE\n  v_text VARCHAR2(100) := 'This is a <test> string';\n  v_xml_text VARCHAR2(100);\nBEGIN\n  v_xml_text := HTF.ESCAPE_SC(v_text);\n  DBMS_OUTPUT.PUT_LINE(v_xml_text);\nEND;

@@ -1,1 +1,0 @@
-<system.web>\n  <siteMap defaultProvider="XmlSiteMapProvider">\n    <providers>\n      <add name="XmlSiteMapProvider"\n        description="Default SiteMap provider."\n        type="System.Web.XmlSiteMapProvider "\n        siteMapFile="Web.sitemap"\n        securityTrimmingEnabled="true"/>\n    </providers>\n  </siteMap>\n</system.web>

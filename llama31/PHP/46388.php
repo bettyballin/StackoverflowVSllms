@@ -1,1 +1,0 @@
-exec('convert input.cdr -format jpg output.jpg');

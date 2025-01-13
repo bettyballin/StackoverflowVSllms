@@ -1,1 +1,0 @@
-amespace MyApp;\n\nuse DateTime;\n\nclass MyClass {\n    public function __construct() {\n        $date = new DateTime();\n        // ...\n    }\n}

@@ -1,1 +1,0 @@
-SELECT a + b - 2 * (a AND b) FROM your_table;

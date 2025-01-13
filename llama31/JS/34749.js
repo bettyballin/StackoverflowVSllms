@@ -1,1 +1,0 @@
-if (window.history && window.history.pushState) {\n  // Use History API\n  window.history.pushState({\n    sortingOption: 'name',\n    pageNumber: 2\n  }, '', '/page2');\n} else {\n  // Fallback to client-side state management\n  window.name = JSON.stringify({\n    sortingOption: 'name',\n    pageNumber: 2\n  });\n}

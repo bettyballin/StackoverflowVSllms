@@ -1,1 +1,0 @@
-UPDATE destTable d\nSET test_count = (\n  SELECT COUNT(employee_id) OVER (PARTITION BY matchCode1, matchCode2, matchCode3, employee_id)\n  FROM sourceTable s\n  WHERE d.matchCode1 = s.matchCode1 AND d.matchCode2 = s.matchCode2 AND d.matchCode3 = s.matchCode3\n);

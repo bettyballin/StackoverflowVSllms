@@ -1,1 +1,0 @@
-rails runner lib/cron.rb

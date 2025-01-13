@@ -1,1 +1,0 @@
-$("a[href='send_message.php?act=pm&id=" + id + "']").colorbox({width:"500", height:"350", iframe:true});

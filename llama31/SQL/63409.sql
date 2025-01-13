@@ -1,1 +1,0 @@
-SELECT *\nFROM (\n  SELECT *\n  FROM your_table\n  WHERE your_condition\n) s1\nJOIN (\n  SELECT *\n  FROM your_table\n  WHERE your_condition\n) s2 ON s1.column = s2.column;

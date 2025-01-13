@@ -1,1 +1,0 @@
--- Create a job with a single step\nCREATE JOB MyJob\nGO\n\n-- Add a step to the job\nALTER JOB MyJob\nADD STEP 'MyStep', 'SQL', 'SELECT * FROM MyTable'\nGO\n\n-- Set the job owner to a specific login\nALTER JOB MyJob\nOWNER 'MyLogin'\nGO\n\n-- Set the Run as account for the job step\nALTER JOB MyJob\nMODIFY STEP 'MyStep'\nRUN AS 'MyOtherLogin'\nGO

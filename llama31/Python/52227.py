@@ -1,1 +1,0 @@
-def warehouse_chatbot_training_data(data):\n    # Store and manage data in a data warehouse\n    warehoused_data = warehouse_data(data)\n    return warehoused_data

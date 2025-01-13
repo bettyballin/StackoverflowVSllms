@@ -1,1 +1,0 @@
-require 'ffi'\n\nmodule MyDLL\n  extend FFI::Library\n  ffi_lib 'mydll'\n  attach_function :myfunction, [:int], :int\nend\n\n# Call the function\nresult = MyDLL.myfunction(1)

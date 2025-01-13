@@ -1,1 +1,0 @@
-<error-page>\n    <exception-type>java.lang.Exception</exception-type>\n    <location>/error.jsp</location>\n</error-page>

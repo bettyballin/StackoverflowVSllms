@@ -1,1 +1,0 @@
-// Disable an anchor\n$("a").addClass("disabled").on("click", function(e) {\n    if ($(this).hasClass("disabled")) {\n        e.preventDefault();\n    }\n});\n\n// Enable an anchor\n$("a").removeClass("disabled");

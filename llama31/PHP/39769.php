@@ -1,1 +1,0 @@
-foreach($months as $key=>$mon)\n{\n    $paddedKey = str_pad($key, 2, "0", STR_PAD_LEFT);\n    $select .= "<option value=\"$paddedKey\"";\n    $select .= ($key==$selected) ? ' selected="selected"' : '';\n    $select .= ">$mon</option>\n";\n}

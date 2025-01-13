@@ -1,1 +1,0 @@
-// Secure code\n$allowed_headers = array('From', 'Reply-To');\n$headers = array();\nforeach ($allowed_headers as $header) {\n    if (isset($_POST[$header])) {\n        $headers[] = $header . ": " . filter_var($_POST[$header], FILTER_SANITIZE_EMAIL);\n    }\n}\n$headers = implode("\r\n", $headers);\nmail($to, $subject, $message, $headers);

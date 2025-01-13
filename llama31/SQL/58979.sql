@@ -1,1 +1,0 @@
-MERGE INTO Table1 AS target\nUSING Table2 AS source\nON target.User = source.UserName\n\nWHEN MATCHED THEN\n    UPDATE SET target.InternetAmountDue = source.AmountDue\n\nWHEN NOT MATCHED THEN\n    INSERT (User, InternetAmountDue)\n    VALUES (source.UserName, source.AmountDue);

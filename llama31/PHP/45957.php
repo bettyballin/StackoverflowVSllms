@@ -1,1 +1,0 @@
-$total_pages = ceil($total_images / $images_per_page);\nfor ($i = 1; $i <= $total_pages; $i++) {\n    echo '<a href="?page=' . $i . '">' . $i . '</a> ';\n}

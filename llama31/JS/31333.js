@@ -1,1 +1,0 @@
-function callback(data) {\n    // Process the received data\n    document.getElementById('content').innerHTML = data;\n}\n\nvar script = document.createElement('script');\nscript.src = 'https://your-server.com/data.php?page=example&callback=callback';\ndocument.body.appendChild(script);

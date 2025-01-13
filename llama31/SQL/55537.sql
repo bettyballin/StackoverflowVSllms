@@ -1,1 +1,0 @@
-SELECT *\nFROM your_table\nWHERE left_bound > ? AND right_bound < ?

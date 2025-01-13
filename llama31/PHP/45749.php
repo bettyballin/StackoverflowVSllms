@@ -1,1 +1,0 @@
-public function tabContent($tabName)\n{\n    if (!$this->view->userHasAccess($tabName)) {\n        return '';\n    }\n    // ...\n}

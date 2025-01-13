@@ -1,1 +1,0 @@
-CREATE NONCLUSTERED INDEX IX_SIGN_EndTime_StartTime_DeptID \nON SIGN (EndTime, StartTime, DeptID);

@@ -1,1 +1,0 @@
-' Early binding (explicit typing)\nDim X As Y = New Y()\n' Late binding (implicit typing)\nDim X As New Y

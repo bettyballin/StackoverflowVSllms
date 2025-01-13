@@ -1,1 +1,0 @@
-$db1 = new mysqli('host', 'user', 'password', 'database1');\n$db2 = new mysqli('host', 'user', 'password', 'database2');\n\nif ($db1->connect_error) {\n    die("Connection failed: " . $db1->connect_error);\n}\n\nif ($db2->connect_error) {\n    die("Connection failed: " . $db2->connect_error);\n}\n\n// Now you can use $db1 and $db2 to query the respective databases

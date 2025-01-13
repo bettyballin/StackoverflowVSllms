@@ -1,1 +1,0 @@
-DECLARE @id int;\nDECLARE @countVal int;\nDECLARE @sql nvarchar(max);\nDECLARE @params nvarchar(max);\n\nSET @id = 1000;\nSET @sql = 'SELECT COUNT(*) FROM owner.myTable WHERE id = @id';\nSET @params = N'@id int';\n\nEXECUTE oracleServer.master.dbo.sp_executesql @sql, @params, @id = @id;

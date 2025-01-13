@@ -1,1 +1,0 @@
-SELECT \n  num_transactions,\n  AVG(avg_amount) AS avg_amount\nFROM (\n  SELECT \n    DATE(created) AS transaction_date,\n    COUNT(*) AS num_transactions,\n    AVG(amount) AS avg_amount\n  FROM \n    transactions\n  GROUP BY \n    DATE(created)\n) AS subquery\nGROUP BY \n  FLOOR(num_transactions / 2) * 2\nORDER BY \n  num_transactions ASC;

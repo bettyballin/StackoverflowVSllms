@@ -1,1 +1,0 @@
-$text = "asdasd asdasd  asdas1\n asda234 4545    54\n  34545 345  34534\n34 345";\n\n$pattern = '/( ){2,}|^( )/';\n$replacement = function($match) {\n    return str_repeat('&nbsp;', strlen($match[0]));\n};\n\n$result = preg_replace_callback($pattern, $replacement, $text);\necho $result;

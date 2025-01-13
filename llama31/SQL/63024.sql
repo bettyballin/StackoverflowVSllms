@@ -1,1 +1,0 @@
-EXPLAIN SELECT * FROM employees e LEFT JOIN (...) t ON e.id = t.employee_id;

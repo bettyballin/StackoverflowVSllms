@@ -1,1 +1,0 @@
-with ordered_table as (\n  select * from table order by column1\n)\nselect first_value(column2 ignore nulls) over (partition by column3)\nfrom ordered_table;

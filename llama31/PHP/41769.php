@@ -1,1 +1,0 @@
-$config = parse_ini_file('db_config.ini');\n$db_password = $config['password'];

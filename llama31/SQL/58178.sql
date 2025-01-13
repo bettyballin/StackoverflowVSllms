@@ -1,1 +1,0 @@
-WITH ids AS (\n  SELECT REGEXP_SUBSTR('1,2,3,...,1001,1002,...', '[^,]+', 1, LEVEL) AS id\n  FROM DUAL\n  CONNECT BY LEVEL <= REGEXP_COUNT('1,2,3,...,1001,1002,...', ',') + 1\n)\nSELECT * FROM table1 WHERE ID IN (SELECT id FROM ids);

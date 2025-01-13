@@ -1,1 +1,0 @@
-<dependency>\n    <groupId>org.apache.pdfbox</groupId>\n    <artifactId>jbig2-imageio</artifactId>\n    <version>2.0.2</version>\n</dependency>

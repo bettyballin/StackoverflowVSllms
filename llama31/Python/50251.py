@@ -1,1 +1,0 @@
-import psutil\n\nprocess = psutil.Process()\nprocess.name('My Python Script')

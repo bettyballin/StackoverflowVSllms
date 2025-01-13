@@ -1,1 +1,0 @@
-<action name="register" class="com.example.RegisterAction">\n    <result name="success">register.jsp</result>\n    <result name="input">register.jsp</result>\n</action>\n\n<validation type="custom">\n    <validator type="dateformat" format="yyyy-MM-dd" fieldName="birthDate" />\n</validation>

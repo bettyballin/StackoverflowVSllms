@@ -1,1 +1,0 @@
-CREATE UNIQUE INDEX idx_item1_item2 ON real_table (Item1, Item2);\nCREATE INDEX idx_item1_item2 ON memory_table (Item1, Item2);

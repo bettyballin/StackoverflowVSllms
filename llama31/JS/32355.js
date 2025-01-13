@@ -1,1 +1,0 @@
-if (typeof console === 'undefined') {\n  var console = {\n    log: function() {}\n  };\n}

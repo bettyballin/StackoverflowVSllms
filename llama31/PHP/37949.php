@@ -1,1 +1,0 @@
-// src/Controller/AppController.php\n\nnamespace App\Controller;\n\nuse App\Component\TimezoneComponent;\n\nclass AppController extends Controller\n{\n    public function initialize(): void\n    {\n        $this->loadComponent('Timezone');\n    }\n}

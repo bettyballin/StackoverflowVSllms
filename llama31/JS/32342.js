@@ -1,1 +1,0 @@
-$('.input.radio input[type="radio"]').on('change', function() {\n  $(this).next('label').toggleClass('checked', this.checked);\n});

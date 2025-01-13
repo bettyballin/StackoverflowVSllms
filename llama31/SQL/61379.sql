@@ -1,1 +1,0 @@
-SELECT s.studentname\nFROM Students s\nWHERE NOT EXISTS (\n  SELECT 1\n  FROM Student_Class sc\n  WHERE sc.studentid = s.studentid\n);

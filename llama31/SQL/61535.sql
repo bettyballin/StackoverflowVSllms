@@ -1,1 +1,0 @@
-RENAME employees TO staff;

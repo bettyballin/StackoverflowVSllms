@@ -1,1 +1,0 @@
-document.getElementById("something").getElementsByTagName("a");

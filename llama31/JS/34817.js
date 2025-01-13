@@ -1,1 +1,0 @@
-const ajaxPromise = Promise.resolve(ajaxCall((response) => response));

@@ -1,1 +1,0 @@
-DECLARE @DateTime datetime = '2022-07-25 14:30:00'\nDECLARE @VarChar varchar(10)\n\nSET @VarChar = CONVERT(varchar(10), @DateTime, 120)\n\nSELECT @VarChar

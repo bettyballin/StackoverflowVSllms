@@ -1,1 +1,0 @@
-UPDATE your_table SET column1 = 'new_value' WHERE id = 1;\nEXEC your_stored_proc 'parameter1', 'parameter2';

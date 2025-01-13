@@ -1,1 +1,0 @@
-if ($profile_node !== null) {\n    $childnodes = $profile_node->childNodes;\n    foreach ($childnodes as $node) {\n        // do something with this node\n    }\n}

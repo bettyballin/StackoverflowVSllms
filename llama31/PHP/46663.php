@@ -1,1 +1,0 @@
-// Both examples are equally fast\nrequire '/http/test.php';\nrequire '/home/../http/test.php'; // Resolved by OS to /http/test.php

@@ -1,1 +1,0 @@
-$this->load->driver('cache');\n\n$data = $this->cache->get('my_data');\nif (!$data) {\n    // compute and store data\n    $data = compute_expensive_data();\n    $this->cache->save('my_data', $data, 3600); // cache for 1 hour\n}

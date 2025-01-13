@@ -1,1 +1,0 @@
-import operator\n\ndef get_rows(m, row_indices):\n    return list(operator.itemgetter(*row_indices)(m))

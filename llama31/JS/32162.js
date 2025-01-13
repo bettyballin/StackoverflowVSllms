@@ -1,1 +1,0 @@
-document.getElementById("myTextbox").addEventListener("focus", function() {\n  this.value = "";\n  this.style.textAlign = "right";\n});

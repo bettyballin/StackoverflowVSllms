@@ -1,1 +1,0 @@
-if ($_SERVER['REQUEST_METHOD'] === 'POST') {\n  $files = $_FILES['files']; // Get the array of uploaded files\n  foreach ($files['name'] as $key => $file) {\n    // Process each file individually\n    $tmpName = $files['tmp_name'][$key];\n    $fileName = $files['name'][$key];\n    $fileType = $files['type'][$key];\n    // Your file validation and upload logic goes here\n  }\n}

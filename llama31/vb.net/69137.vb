@@ -1,1 +1,0 @@
-Public Sub MyMethod(Optional ByVal dict As Dictionary(Of String, String) = Nothing)\n    If dict Is Nothing Then\n        dict = New Dictionary(Of String, String)\n    End If\n    ' Method implementation here\nEnd Sub

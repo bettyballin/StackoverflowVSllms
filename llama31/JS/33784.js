@@ -1,1 +1,0 @@
-function updateUI () {\n   $.ajax({ \n      url: "timer.aspx",\n      contentType: "application/json; charset=utf-8",\n      dataType: "json",\n      timeout: 5000,\n      type: "POST",\n      data: "{}",\n      success: function(data) {\n         $("h1").text(data.mike);\n         setTimeout(updateUI,0);\n      }\n   });\n}

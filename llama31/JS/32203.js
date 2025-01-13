@@ -1,1 +1,0 @@
-var beautifier = new Beautifier();\nvar formattedCode = beautifier.beautify(code);

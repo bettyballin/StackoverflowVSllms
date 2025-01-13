@@ -1,1 +1,0 @@
-gem 'breadcrumbs_on_rails'

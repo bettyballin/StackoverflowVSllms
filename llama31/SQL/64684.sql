@@ -1,1 +1,0 @@
-SELECT \n    (SELECT value + ' ' \n     FROM your_table \n     WHERE attribute IN ('name', 'species') \n     FOR XML PATH('')) AS result

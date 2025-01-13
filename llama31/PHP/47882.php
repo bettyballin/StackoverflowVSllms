@@ -1,1 +1,0 @@
-// Controller\nclass UsersController extends CI_Controller {\n    public function index() {\n        $this->load->model('user_model');\n        $users = $this->user_model->get_users();\n        $this->load->view('users', array('users' => $users));\n    }\n}\n\n// View\nforeach ($users as $user) {\n    echo $user->name;\n}

@@ -1,1 +1,0 @@
-SHOW shared_buffers;

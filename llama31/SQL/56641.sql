@@ -1,1 +1,0 @@
-ALTER TABLE nodes ADD CONSTRAINT path_valid_chars CHECK (path NOT LIKE '%[^0-9/]%');

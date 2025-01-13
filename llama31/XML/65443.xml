@@ -1,1 +1,0 @@
-<property name="javax.management.builder.initial"\n          value="com.ibm.websphere.management.AdminClientFactory"/>

@@ -1,1 +1,0 @@
-SELECT f.* \nFROM fiberbox f \nJOIN (\n    SELECT '%1740 %' AS pattern UNION\n    SELECT '%1938 %' UNION\n    SELECT '%1940 %'\n) p ON f.fiberBox LIKE p.pattern;

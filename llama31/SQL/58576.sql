@@ -1,1 +1,0 @@
-CREATE OR REPLACE FUNCTION split_csv(p_csv VARCHAR2) RETURN SYS_REFCURSOR\nIS\n  l_cursor SYS_REFCURSOR;\nBEGIN\n  OPEN l_cursor FOR\n    SELECT REGEXP_SUBSTR(p_csv, '[^,]+', 1, LEVEL) AS token\n    FROM DUAL\n    CONNECT BY LEVEL <= REGEXP_COUNT(p_csv, ',') + 1;\n  RETURN l_cursor;\nEND;\n/

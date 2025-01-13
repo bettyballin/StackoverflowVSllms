@@ -1,1 +1,0 @@
-WITH UniqueUsers AS (\n  SELECT \n    Username, \n    Firstname, \n    Lastname, \n    ROW_NUMBER() OVER (PARTITION BY Username ORDER BY Firstname) AS RowNum\n  FROM \n    tempUsers\n)\nSELECT \n  Username, \n  Firstname, \n  Lastname\nFROM \n  UniqueUsers\nWHERE \n  RowNum = 1;

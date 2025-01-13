@@ -1,1 +1,0 @@
-SELECT \n    *\nFROM \n    OPENQUERY([linked_server_name], 'SELECT @@VERSION AS Version');

@@ -1,1 +1,0 @@
-SELECT COLUMN_NAME\nFROM information_schema.COLUMNS\nWHERE TABLE_SCHEMA = 'your_database_name'\n  AND TABLE_NAME = 'your_table_name'\n  AND COLUMN_KEY = 'PRI';

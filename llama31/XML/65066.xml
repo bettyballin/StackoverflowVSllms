@@ -1,1 +1,0 @@
-<EditText\n    android:id="@+id/edit_text"\n    android:inputType="number"\n    ... />

@@ -1,1 +1,0 @@
-rules: {\n    txt_end: {\n        required: true,\n        myEqual: "#txt_begin"\n    }\n},

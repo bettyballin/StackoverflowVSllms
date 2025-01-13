@@ -1,1 +1,0 @@
-from scipy.stats import norm\n\ndef compute_std_dev(P, a):\n    # Compute the standard deviation\n    std_dev = a / norm.ppf((1 + P) / 2)\n    return std_dev\n\n# Example usage:\nP = 0.95  # Probability\na = 1.96  # Range\nstd_dev = compute_std_dev(P, a)\nprint("Standard Deviation:", std_dev)

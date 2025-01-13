@@ -1,1 +1,0 @@
-import random\n\nfoo = ['a', 'b', 'c', 'd', 'e']\n\nrandom_element = random.choice(foo)\nprint(random_element)

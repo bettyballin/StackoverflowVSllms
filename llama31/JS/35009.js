@@ -1,1 +1,0 @@
-$('#container').sortable({\n  items: '.sortable-div'\n});

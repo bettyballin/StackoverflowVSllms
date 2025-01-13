@@ -1,1 +1,0 @@
-Imports System.Runtime.InteropServices\n\nPublic Class NetWrapper\n    <DllImport("JavaWrapper", EntryPoint:="callJavaMethod")>\n    Private Shared Sub CallJavaMethod()\n    End Sub\n\n    Public Shared Sub Main()\n        CallJavaMethod()\n    End Sub\nEnd Class

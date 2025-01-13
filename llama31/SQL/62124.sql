@@ -1,1 +1,0 @@
-ALTER TABLE Table1\nADD CONSTRAINT fk_Table1_MasterRecord\nFOREIGN KEY (MasterRecordID)\nREFERENCES MasterRecord (id)\nON DELETE CASCADE;\n\nALTER TABLE Table1\nADD CONSTRAINT fk_Table1_Table3\nFOREIGN KEY (Table1ID)\nREFERENCES Table3 (Table3ID)\nON DELETE CASCADE;\n\n-- Repeat for Table2 and its relationships

@@ -1,1 +1,0 @@
-select first_value(column2 ignore nulls) over (partition by column3 order by column1)\nfrom table;

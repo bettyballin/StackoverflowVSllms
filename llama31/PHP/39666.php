@@ -1,1 +1,0 @@
-$result = pg_query($conn, "INSERT INTO table_name (column1, column2) VALUES ('value1', 'value2')");\n$oid = pg_last_oid($result);\n$id = pg_query($conn, "SELECT id FROM table_name WHERE oid = $oid");\n$id = pg_fetch_result($id, 0, 'id');

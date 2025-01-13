@@ -1,1 +1,0 @@
-Zend_Loader::addClassMap(array('Smarty' => 'Smarty/Smarty.class.php'));

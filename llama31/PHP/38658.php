@@ -1,1 +1,0 @@
-$urlPart = "Is it better to use ob_get_contents() or $text .= ‘test’;";\n$cleanUrl = cleanUrlString($urlPart);\necho $cleanUrl; // outputs "is-it-better-to-use-ob-get-contents-or-text-test"

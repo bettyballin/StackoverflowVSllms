@@ -1,1 +1,0 @@
-SELECT *, ctid AS rowid FROM mytable;

@@ -1,1 +1,0 @@
-Dim result As String = If(condition, "true value", "false value")

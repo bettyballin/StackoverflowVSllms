@@ -1,1 +1,0 @@
-$items = array(\n    'item1' => 'Item 1',\n    'item2' => 'Item 2'\n);\n\n$multiCheckbox = new Zend_Form_Element_MultiCheckbox('item');\n$multiCheckbox->setMultiOptions($items);\n\n$form = new Zend_Form();\n$form->addElement($multiCheckbox);

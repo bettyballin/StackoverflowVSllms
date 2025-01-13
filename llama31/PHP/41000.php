@@ -1,1 +1,0 @@
-$query = "INSERT INTO your_table (payment_due_on) VALUES (" . get_mysqlDate($_POST['mydate']) . ")";

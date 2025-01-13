@@ -1,1 +1,0 @@
-CREATE PROCEDURE get_next_value\nAS\nBEGIN\n    DECLARE @value INT;\n    SET @value = (SELECT value FROM sequences WHERE name = 'my_sequence');\n    UPDATE sequences SET value = @value + 1 WHERE name = 'my_sequence';\n    RETURN @value + 1;\nEND;

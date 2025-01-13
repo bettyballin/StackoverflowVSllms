@@ -1,1 +1,0 @@
-ALTER TABLE log ADD INDEX (play_date, type);

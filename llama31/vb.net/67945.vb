@@ -1,1 +1,0 @@
-<% Dim foo As String = "bar" %>\n\n<script type="text/javascript">\n    var baz = '<%= foo %>'; // note the quotes and semicolon\n</script>

@@ -1,1 +1,0 @@
-function isElementInFrame(element) {\n  let parent = element.parentNode;\n  while (parent) {\n    if (parent.tagName === 'IFRAME' || parent.tagName === 'FRAME') {\n      return true;\n    }\n    parent = parent.parentNode;\n  }\n  return false;\n}

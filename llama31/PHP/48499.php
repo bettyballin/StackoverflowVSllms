@@ -1,1 +1,0 @@
-function IntegerOverflowAdd($a, $b) {\n    $result = $a + $b;\n    if ($result < -2147483648) {\n        $result += 2 * 2147483648;\n    } elseif ($result > 2147483647) {\n        $result -= 2 * 2147483648;\n    }\n    return $result;\n}

@@ -1,1 +1,0 @@
-from rest_framework import serializers\nfrom .models import Person\n\nclass PersonSerializer(serializers.ModelSerializer):\n    class Meta:\n        model = Person\n        fields = ['uid', 'name', 'latitude', 'longitude', 'speed', 'date']

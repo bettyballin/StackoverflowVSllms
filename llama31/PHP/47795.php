@@ -1,1 +1,0 @@
-$A = array(1, 2, 3, 4, 5, 6, 7, 8);\n$B = array(1, 2, 3, 4);\n\n$A = array_filter($A, function($value) use ($B) {\n    return !in_array($value, $B);\n});\n\nprint_r($A); // Output: Array ( [4] => 5 [5] => 6 [6] => 7 [7] => 8 )

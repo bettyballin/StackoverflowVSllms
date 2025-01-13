@@ -1,1 +1,0 @@
--- Original query\nSELECT * FROM table_name WHERE column_name IN (SELECT column_name FROM another_table);\n\n-- Optimized query\nSELECT * FROM table_name WHERE EXISTS (\n    SELECT 1 FROM another_table WHERE another_table.column_name = table_name.column_name\n);

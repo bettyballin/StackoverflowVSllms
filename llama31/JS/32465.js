@@ -1,1 +1,0 @@
-function castvote(button) {\n  var select = button.previousElementSibling; // Get the preceding select element\n  alert(select.options[select.selectedIndex].value);\n}

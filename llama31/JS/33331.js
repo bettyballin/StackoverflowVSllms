@@ -1,1 +1,0 @@
-$(".your-form").validate({\n  // your validation rules here...\n  submitHandler: function(form) {\n    if (!form.valid()) {\n      event.returnValue = false;\n    }\n  }\n});

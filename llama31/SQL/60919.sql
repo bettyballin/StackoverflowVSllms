@@ -1,1 +1,0 @@
-INSERT INTO tableB (column1, column2, userid) \nSELECT 'data', 'data', userid \nFROM tableA \nWHERE contentID = 11;

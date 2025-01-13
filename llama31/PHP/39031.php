@@ -1,1 +1,0 @@
-$regex = '/\[/';\n$input = 'Hello [ World';\n$output = preg_replace($regex, '', $input);\necho $output; // Outputs: "Hello  World"

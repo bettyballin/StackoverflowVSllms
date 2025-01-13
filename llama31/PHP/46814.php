@@ -1,1 +1,0 @@
-$class_name = 'ClassPeer';\n$class_name::doSomething();

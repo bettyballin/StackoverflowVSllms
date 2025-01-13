@@ -1,1 +1,0 @@
-DECLARE\n  sql_stmt VARCHAR2(4000);\nBEGIN\n  SELECT \n    'INSERT INTO BACKUP_TABLE ('\n    || LISTAGG(column_name, ', ') \n    || ') SELECT '\n    || LISTAGG(column_name, ', ') \n    || ' FROM PRIMARY_TABLE'\n  INTO sql_stmt\n  FROM all_tab_columns\n  WHERE table_name = 'PRIMARY_TABLE'\n  AND owner = 'YOUR_SCHEMA';\n\n  EXECUTE IMMEDIATE sql_stmt;\nEND;\n/

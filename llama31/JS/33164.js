@@ -1,1 +1,0 @@
-colModel: [\n    {name: 'awardId', width: 30, sortable: true, align: 'center'},\n    {name: 'badge', width: 40, sortable: false, align: 'center'},\n    {name: 'name', width: 180, sortable: true, align: 'left'},\n    {name: 'description', width: 380, sortable: true, align: 'left'},\n    {name: 'selected', width: 0, sortable: false, align: 'center'}\n]

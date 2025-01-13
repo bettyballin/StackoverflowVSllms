@@ -1,1 +1,0 @@
-// layouts/layout.phtml\n<div class="sidebar">\n    <?= $this->sidebar() ?>\n</div>

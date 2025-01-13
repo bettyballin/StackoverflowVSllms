@@ -1,1 +1,0 @@
-$string = 'Hello <?php echo \'World\';?>';\n\n// Extract PHP code from the string\npreg_match('/<\?php(.*?)\?>/s', $string, $match);\n\nif ($match) {\n    // Evaluate the PHP code\n    eval($match[1]);\n}

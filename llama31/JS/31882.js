@@ -1,1 +1,0 @@
-$("label").attr({\n    "for": "targetName",\n    className: "something"\n});

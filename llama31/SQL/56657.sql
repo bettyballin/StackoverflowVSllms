@@ -1,1 +1,0 @@
-SELECT * FROM sys.dm_tran_session_transactions WHERE is_user_transaction = 1

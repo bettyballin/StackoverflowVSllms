@@ -1,1 +1,0 @@
-SELECT \n    [Action],\n    [VIEW],\n    [EDIT]\nFROM \n    (SELECT \n         [Action],\n         [Type]\n     FROM \n         YourTable) AS SourceTable\nPIVOT \n    (MAX([Type]) \n     FOR [Type] IN ([VIEW], [EDIT])) AS PivotTable;

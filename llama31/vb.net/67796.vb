@@ -1,1 +1,0 @@
-Public Class Asset\n    Implements ICloneable\n\n    ' Your properties and methods here...\n\n    Public Function Clone() As Object Implements ICloneable.Clone\n        Return Me.MemberwiseClone()\n    End Function\nEnd Class

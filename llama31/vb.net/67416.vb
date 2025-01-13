@@ -1,1 +1,0 @@
-Dim job As New Job With {.Name = "1"}\njobs.Add(job.Clone())

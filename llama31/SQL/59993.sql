@@ -1,1 +1,0 @@
-SELECT \n  h.*,\n  t.trtype,\n  t.trdate,\n  t.trvalue,\n  SUM(t.trvalue) OVER (PARTITION BY t.trtype ORDER BY t.trdate) AS running_total\nFROM \n  Holdings h\n  LEFT JOIN Transactions t ON h.trtype = t.trtype\nORDER BY \n  h.trtype, t.trdate;

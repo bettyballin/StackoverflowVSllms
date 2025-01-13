@@ -1,1 +1,0 @@
-def square(x):\n    return x ** 2\n\nnumbers = [1, 2, 3, 4, 5]\nsquared_numbers = [square(x) for x in numbers]\n\nprint(squared_numbers)  # [1, 4, 9, 16, 25]

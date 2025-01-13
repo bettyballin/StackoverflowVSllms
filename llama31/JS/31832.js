@@ -1,1 +1,0 @@
-const h1Elements = document.querySelectorAll('h1');\n\nh1Elements.forEach((h1) => {\n  const textLength = h1.textContent.length;\n  const maxWidth = 800; // adjust to your desired width\n  const fontSize = Math.min(36, (maxWidth / textLength) * 2); // adjust font size based on text length\n\n  h1.style.fontSize = `${fontSize}px`;\n});

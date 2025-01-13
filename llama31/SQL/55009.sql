@@ -1,1 +1,0 @@
-CREATE FUNCTION dbo.Fileimagepath(@column21 INT, @column22 INT)\nRETURNS TABLE\nAS\nRETURN\n(\n    SELECT path = -- ... (your logic here)\n)

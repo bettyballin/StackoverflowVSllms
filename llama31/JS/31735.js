@@ -1,1 +1,0 @@
-xmlhttp.timeout = 5000; // 5 seconds

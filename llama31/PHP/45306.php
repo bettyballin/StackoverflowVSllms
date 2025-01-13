@@ -1,1 +1,0 @@
-$query = 'SET search_path TO public';\n$result = pg_query($query) or die('Query failed: ' . pg_last_error());\n\n$query = 'SELECT * FROM sf_bands LIMIT 10';\n$result = pg_query($query) or die('Query failed: ' . pg_last_error());

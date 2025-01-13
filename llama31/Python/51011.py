@@ -1,1 +1,0 @@
-import requests\n\napi_key = "YOUR_API_KEY"\nlocation = "New York"\nurl = f"https://api.opencagedata.com/geocode/v1/json?q={location}&key={api_key}"\n\nresponse = requests.get(url)\ndata = response.json()\n\nif data["results"]:\n    lat = data["results"][0]["geometry"]["lat"]\n    lng = data["results"][0]["geometry"]["lng"]\n    print(f"Latitude: {lat}, Longitude: {lng}")

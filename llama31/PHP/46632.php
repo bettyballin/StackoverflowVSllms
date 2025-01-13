@@ -1,1 +1,0 @@
-$category_id = 1; // Replace with the ID of the category you want to display\nquery_posts(array(\n    'category__in' => array($category_id),\n    'include_children' => true\n));\n\nwhile (have_posts()) : the_post();\n    // Display the post title and link\n    echo '<a href="' . get_permalink() . '">' . get_the_title() . '</a><br>';\nendwhile;\n\nwp_reset_query();

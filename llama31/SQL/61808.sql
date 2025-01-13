@@ -1,1 +1,0 @@
-IF EXISTS (SELECT 1 FROM your_table WHERE URLRewitten = @inputUrl)\nBEGIN\n    -- URL exists, retrieve OriginalURL\n    SELECT OriginalURL FROM your_table WHERE URLRewitten = @inputUrl;\nEND

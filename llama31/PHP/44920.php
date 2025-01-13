@@ -1,1 +1,0 @@
-// your-view.php\n<script src="application.js"></script>\n<script>\n  App.init();\n</script>

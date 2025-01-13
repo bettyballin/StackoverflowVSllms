@@ -1,1 +1,0 @@
--- Get current CPU usage for each instance\nSELECT \n    cpu_count, \n    cpu_usage * 100 AS cpu_usage_percent\nFROM \n    sys.dm_os_sys_info;\n\n-- Get current memory usage for each instance\nSELECT \n    physical_memory_in_use_kb / 1024 AS memory_usage_mb\nFROM \n    sys.dm_os_process_memory;

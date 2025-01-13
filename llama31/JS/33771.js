@@ -1,1 +1,0 @@
-$("#header").on("click", "#goButton", function(){\n    $search = $('#searchPhrase');\n    if ($search.val() == $search.attr('title')) {\n        $search.val('');\n    }\n});

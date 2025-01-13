@@ -1,1 +1,0 @@
-arr = [3, 4, 5, 2, 3, 1, 4]\nm = 2\nprint(circle_shift(arr, m))  # output: [1, 4, 3, 4, 5, 2, 3]

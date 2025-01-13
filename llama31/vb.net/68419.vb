@@ -1,1 +1,0 @@
-Dim cars As New Cars()\n\ncars.Add(New Car("Car1", "Property1"))\ncars.Add(New Car("Car2", "Property2"))\n\nDim car1 As Car = cars("Car1") ' retrieve by key\nDim car2 As Car = cars(1) ' retrieve by ordinal

@@ -1,1 +1,0 @@
-def method_missing(*args, &block)\n  old = @hash.dup\n  result = @hash.send(*args, &block)\n  if old != @hash\n    Cache.sessions[@session.session_id] = Marshal.dump(self)\n  end\n  result\nend\n\ndef load_session_data(data)\n  Marshal.load(data)\nend

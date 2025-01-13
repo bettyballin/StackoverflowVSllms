@@ -1,1 +1,0 @@
-WITH constrained_data AS (\n  SELECT *\n  FROM your_table\n  WHERE /* your constraints here */\n)\nSELECT *\nFROM constrained_data\nTABLESAMPLE (5000 ROWS);

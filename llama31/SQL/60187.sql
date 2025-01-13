@@ -1,1 +1,0 @@
-SELECT \n  UNIX_TIMESTAMP(`timestamp`) - MOD(UNIX_TIMESTAMP(`timestamp`), 3600) AS hour, \n  AVG(`value`) AS average\nFROM \n  your_table\nGROUP BY \n  UNIX_TIMESTAMP(`timestamp`) - MOD(UNIX_TIMESTAMP(`timestamp`), 3600)

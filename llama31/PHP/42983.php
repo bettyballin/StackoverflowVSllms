@@ -1,1 +1,0 @@
-public static function myStaticFunction() {\n    $exception = new Exception();\n    return $exception->getTrace()[0]['file'];\n}

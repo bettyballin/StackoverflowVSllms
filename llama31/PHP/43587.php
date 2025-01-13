@@ -1,1 +1,0 @@
-$form->setAction($this->view->url(array(), 'login'));

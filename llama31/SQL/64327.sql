@@ -1,1 +1,0 @@
-IF HAS_PERMS_BY_NAME('database', 'BACKUP DATABASE', 'OBJECT') = 1\n    PRINT 'Current user has backup database permission'\nELSE\n    PRINT 'Current user does not have backup database permission'

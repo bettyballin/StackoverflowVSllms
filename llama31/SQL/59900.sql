@@ -1,1 +1,0 @@
-SELECT *\nFROM table\nWHERE date IN (\n  (SELECT MAX(date) FROM table WHERE date < @date),\n  @date,\n  (SELECT MIN(date) FROM table WHERE date > @date)\n);

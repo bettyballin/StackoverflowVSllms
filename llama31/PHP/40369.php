@@ -1,1 +1,0 @@
-Zend_Session::start();\nZend_Session::regenerateId(true);

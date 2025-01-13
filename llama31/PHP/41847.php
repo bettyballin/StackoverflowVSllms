@@ -1,1 +1,0 @@
-foreach($alUser as $user) {\n    if ($user instanceof User) {\n        echo $user->fname . " " . $user->lname . "\n";\n    }\n}

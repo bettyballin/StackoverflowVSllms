@@ -1,1 +1,0 @@
-const user-input-data = '"><script>alert(10);</script>';\nconst sanitizedData = DOMPurify.sanitize(user-input-data);\nconst encodedData = DOMPurify.encode(sanitizedData);\n\n// Set the encoded data as the title attribute\nconst link = document.getElementById('a');\nlink.setAttribute('title', encodedData);

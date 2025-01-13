@@ -1,1 +1,0 @@
-# Unzip the sorted data into two separate arrays\nx_sorted, y_sorted = zip(*sorted_values)\n\n# Convert the unziped data back to NumPy arrays\nx_sorted = np.array(x_sorted)\ny_sorted = np.array(y_sorted)\n\nprint(x_sorted)\nprint(y_sorted)

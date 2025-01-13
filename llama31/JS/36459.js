@@ -1,1 +1,0 @@
-window.onload = function() {\n    var inputField = document.getElementById("yourInputFieldId");\n    if (inputField && inputField.type === "text") {\n        inputField.focus();\n        inputField.select();\n    } else {\n        console.error("Input field not found or not a text input field");\n    }\n}

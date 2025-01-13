@@ -1,1 +1,0 @@
-CREATE TABLE search_index (\n  id INT PRIMARY KEY,\n  newspaper_id INT,\n  issue_id INT,\n  date DATE,\n  page_number INT,\n  text TEXT,\n  FULLTEXT (text)\n);

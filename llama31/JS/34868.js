@@ -1,1 +1,0 @@
-const selectElement = document.getElementById('Id');\nconst option = new Option('Foo', 'foo');\nselectElement.add(option);

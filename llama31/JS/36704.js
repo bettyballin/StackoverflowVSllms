@@ -1,1 +1,0 @@
-document.getElementById('selectUnionDues').addEventListener('change', function() {\n  document.getElementById('selectUnionDuesValue').value = this.checked;\n});

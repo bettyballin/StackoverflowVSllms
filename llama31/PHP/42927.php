@@ -1,1 +1,0 @@
-$element->addDecorator(new My_Form_Decorator_HtmlTag());

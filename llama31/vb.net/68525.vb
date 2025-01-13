@@ -1,1 +1,0 @@
-' In your sub form's code-behind\nPrivate Sub WindowEditBookmark_Closed(sender As Object, e As EventArgs) Handles Me.Closed\n    Me.Dispose()\nEnd Sub

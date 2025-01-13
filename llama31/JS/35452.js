@@ -1,1 +1,0 @@
-$.ajax({\n    type: "GET",\n    url: "/MyController/MyAction",\n    success: function(data) {\n        console.log(data); // prints "Hello, World!"\n    }\n});

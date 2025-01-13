@@ -1,1 +1,0 @@
-$class = new ReflectionClass('Profile');\n$constants = $class->getConstants();\n\nprint_r(array_keys($constants));

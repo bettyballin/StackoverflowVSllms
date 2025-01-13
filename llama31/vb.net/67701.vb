@@ -1,1 +1,0 @@
-Imports System.ComponentModel.DataAnnotations.Schema\n\nPartial Public Class MyTable\n    <Table("db2.MyTable")>\n    Public Class MyTable\n        ' ...\n    End Class\nEnd Class

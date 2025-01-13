@@ -1,1 +1,0 @@
-CREATE TABLE transactions (\n  id INT PRIMARY KEY,\n  customer_id INT,\n  -- other columns...\n  INDEX idx_customer_id (customer_id)\n);

@@ -1,1 +1,0 @@
-CREATE TABLE countries (\n  id INT PRIMARY KEY,\n  name VARCHAR(255)\n);\n\nCREATE TABLE states (\n  id INT PRIMARY KEY,\n  country_id INT,\n  name VARCHAR(255),\n  FOREIGN KEY (country_id) REFERENCES countries(id)\n);

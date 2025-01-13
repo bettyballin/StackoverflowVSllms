@@ -1,1 +1,0 @@
-UPDATE analyzedCopy2\nSET RSSI = (\n  SELECT AvgOfRSSI\n  FROM testQuery3\n  WHERE testQuery3.readings_miu_id = analyzedCopy2.readings_miu_id\n)

@@ -1,1 +1,0 @@
-DECLARE @DKID INT = 69954\n\nSELECT *\nFROM Vehicles\nWHERE DKID = @DKID\nORDER BY (CASE WHEN ImageName1 = 'na' THEN 0 ELSE 1 END), Make, Model, Year DESC

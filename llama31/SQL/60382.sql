@@ -1,1 +1,0 @@
-SELECT * \nFROM sys.dm_tran_locks \nWHERE resource_type = 'KEY' \nAND request_status = 'GRANT';

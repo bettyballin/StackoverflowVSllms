@@ -1,1 +1,0 @@
-SELECT l.*, \n       (SELECT COUNT(*) + 1 \n        FROM leaderboard \n        WHERE score > l.score) AS rank\nFROM leaderboard l\nWHERE l.userid = ?

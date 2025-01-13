@@ -1,1 +1,0 @@
-<configuration>\n  <system.webServer>\n    <caching enabled="true" />\n  </system.webServer>\n</configuration>

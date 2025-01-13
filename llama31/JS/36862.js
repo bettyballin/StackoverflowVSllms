@@ -1,1 +1,0 @@
-// example: const users = _.filter(users, { age: 30 });

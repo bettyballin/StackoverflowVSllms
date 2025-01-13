@@ -1,1 +1,0 @@
-$('.toggle-table').on('click', function(event) {\n    event.preventDefault();\n    var button = $(this);\n    var table = button.closest('.table-toggle').find('.hideable-table');\n\n    table.slideToggle("slow", function () {\n        if ($(this).is(":hidden")) {\n            button.text("show");\n        } else {\n            button.text("hide");\n        }\n    });\n});

@@ -1,1 +1,0 @@
-select u.fname, u.lname, u.role, u.username, \n       r.building, r.room, r.region, \n       a.office, a.office_num\nfrom users u\nleft join ra_ca r on (u.username = r.username)\nleft join area_coord a on (u.username = a.username)\nwhere u.username = 'behrk2' and (r.region = '4' or a.region = '4');

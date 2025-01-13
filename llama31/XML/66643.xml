@@ -1,1 +1,0 @@
-<filter>\n    <filter-name>AuthenticationFilter</filter-name>\n    <filter-class>com.example.AuthenticationFilter</filter-class>\n</filter>\n<filter-mapping>\n    <filter-name>AuthenticationFilter</filter-name>\n    <url-pattern>/*</url-pattern>\n</filter-mapping>

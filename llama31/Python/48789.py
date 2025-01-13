@@ -1,1 +1,0 @@
-from http.server import BaseHTTPRequestHandler, HTTPServer\n\nclass RequestHandler(BaseHTTPRequestHandler):\n    def do_GET(self):\n        self.send_response(301)\n        self.send_header("Location", "http://example.com/new-location")\n        self.end_headers()\n\nserver_address = ('', 8000)\nhttpd = HTTPServer(server_address, RequestHandler)\nhttpd.serve_forever()

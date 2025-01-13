@@ -1,1 +1,0 @@
-$mh = curl_multi_init();\n$handles = array();\nfor ($i = 0; $i < 20; $i++) {\n    $ch = curl_init($urls[$i]);\n    curl_setopt($ch, CURLOPT_HEADER, true);\n    curl_setopt($ch, CURLOPT_NOBODY, true);\n    curl_multi_add_handle($mh, $ch);\n    $handles[] = $ch;\n}

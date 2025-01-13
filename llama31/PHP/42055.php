@@ -1,1 +1,0 @@
-$stmt = $pdo->prepare('INSERT INTO `table` (`column`) VALUES (:value)');\n$stmt->bindParam(':value', $_POST['user_input']);\n$stmt->execute();

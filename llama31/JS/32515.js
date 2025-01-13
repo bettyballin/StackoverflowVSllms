@@ -1,1 +1,0 @@
-$("p>img").each(function () {\n    var $this = $(this);\n    var $parent = $this.parent();\n    if (this == this.parentNode.firstChild) {\n        $parent.before($this);\n    } else {\n        $parent.after($this);\n    }\n});

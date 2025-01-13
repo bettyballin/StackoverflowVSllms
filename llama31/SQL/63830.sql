@@ -1,1 +1,0 @@
-SELECT m.id, m.body\nFROM messages m\nWHERE m.id NOT IN (\n  SELECT mr.message_id\n  FROM messages_read mr\n  WHERE mr.user_id = ?\n)

@@ -1,1 +1,0 @@
-UPDATE your_table\nSET inuse = IF(id = ? , 1, 0);

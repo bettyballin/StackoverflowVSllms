@@ -1,1 +1,0 @@
-CALL insert_download('file1.zip', NOW());

@@ -1,1 +1,0 @@
-const uuid = require('uuid-js');\nconst guid = uuid.v4();

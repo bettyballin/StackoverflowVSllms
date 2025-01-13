@@ -1,1 +1,0 @@
-Function MyFunction() As Integer\n    MyFunction = 5\nEnd Functio

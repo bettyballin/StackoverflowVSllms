@@ -1,1 +1,0 @@
-CREATE TABLE users (\n    id SERIAL PRIMARY KEY,\n    external_id UUID NOT NULL DEFAULT uuid_generate_v4(),\n    -- other columns...\n);\n\nCREATE INDEX idx_users_external_id ON users (external_id);

@@ -1,1 +1,0 @@
-<?php\n/* \n * Template Name: My Theme\n */\n?>

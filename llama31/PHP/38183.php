@@ -1,1 +1,0 @@
-$string = <<< heredoc\nplain text and now a function: {(fn() => testfunction())()}\nheredoc;

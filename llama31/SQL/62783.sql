@@ -1,1 +1,0 @@
-USE [master]\nGO\n\nCREATE DATABASE [dev_database] FOR ATTACH\nGO\n\nALTER DATABASE [dev_database] SET ONLINE\nGO

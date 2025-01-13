@@ -1,1 +1,0 @@
-SELECT CONVERT(VARCHAR(MAX), your_blob_column, 2) AS blob_hex\nFROM your_table\nFOR XML PATH('');

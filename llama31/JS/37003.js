@@ -1,1 +1,0 @@
-document.addEventListener('visibilitychange', function() {\n  if (document.hidden) {\n    // Delete the session cookie\n    document.cookie = 'session_id=; Max-Age=-99999999;';\n  }\n});

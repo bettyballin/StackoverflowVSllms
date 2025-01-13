@@ -1,1 +1,0 @@
-#!/usr/bin/php\n<?php\n// Read from stdin\n$input = file_get_contents("stdin");\n\n// Call the C++ binary with input\n$fp = popen("./your_cpp_binary", "w");\nfwrite($fp, $input);\npclose($fp);\n?>

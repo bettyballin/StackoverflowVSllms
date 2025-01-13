@@ -1,1 +1,0 @@
-if (preg_match('/^[-\\\/a-zA-Z0-9._@\']+$/', $proposedtag)) {\n    // true, good\n    return true;\n} else {\n    // false, bad characters\n    return false;\n}

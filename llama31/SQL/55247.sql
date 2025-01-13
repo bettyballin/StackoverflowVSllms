@@ -1,1 +1,0 @@
-BEGIN\n    DBMS_HS.REFRESH_METADATA@<link_name>;\nEND;

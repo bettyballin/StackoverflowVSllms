@@ -1,1 +1,0 @@
-$("#lowerLayer").click(function(event) {\n    event.stopPropagation(); // prevent event propagation\n    $(this).fadeTo("fast", 0, function() {\n        $(this).hide(0);\n    });\n});

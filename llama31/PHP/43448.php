@@ -1,1 +1,0 @@
-$botUserAgents = array('bot', 'crawl', 'spider', 'slurp');\nif (preg_match('/(' . implode('|', $botUserAgents) . ')/i', $_SERVER['HTTP_USER_AGENT'])) {\n    // Bot detected, don't increment counter\n}

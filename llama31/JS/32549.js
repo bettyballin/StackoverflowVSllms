@@ -1,1 +1,0 @@
-// Gate page\nlocalStorage.setItem("access_token", "some-secret-token");\n\n// Restricted page\nif (!localStorage.getItem("access_token") || localStorage.getItem("access_token") !== "some-secret-token") {\n  window.location.href = "/error-page";\n}

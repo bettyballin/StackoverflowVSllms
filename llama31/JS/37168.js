@@ -1,1 +1,0 @@
-window.external.AddFavorite("http://www.google.com");

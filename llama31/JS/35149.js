@@ -1,1 +1,0 @@
-function modify_params(form) {\n  var params = Form.serialize(form);\n  var person_ids = [];\n  $$('input:checked', form).each(function(checkbox) {\n    person_ids.push(checkbox.value);\n  });\n  params = 'person_ids=' + person_ids.join(',');\n  form.action = '/people/disable/' + params;\n}

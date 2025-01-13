@@ -1,1 +1,0 @@
-// assume 'dropdown' is the reference to your dropdown element\nvar dropdown = document.getElementById('yourDropdownId');\n\n// change the selected value\ndropdown.value = 'new value';\n\n// dispatch the change event\nvar changeEvent = new Event('change', { bubbles: true });\ndropdown.dispatchEvent(changeEvent);

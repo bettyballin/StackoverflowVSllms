@@ -1,1 +1,0 @@
-select ChapterID, min(MeetingDate)\nfrom ChapterMeeting\ngroup by ChapterID

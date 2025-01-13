@@ -1,1 +1,0 @@
-$shell = new COM('Shell.Application');\n$shell->Namespace(0x0000000a)->MoveHere('C:\\path\\to\\file.txt');

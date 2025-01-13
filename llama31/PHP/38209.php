@@ -1,1 +1,0 @@
-$test = dirname(__FILE__) . "/mypage.php";\nrequire $test;

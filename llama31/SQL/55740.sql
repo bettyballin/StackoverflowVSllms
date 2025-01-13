@@ -1,1 +1,0 @@
-SELECT *\nFROM Employees\nWHERE FLOOR(DATEDIFF(day, birthdt, getDate()) / 365.25) <> FLOOR(DATEDIFF(day, birthdt, futureDate) / 365.25)

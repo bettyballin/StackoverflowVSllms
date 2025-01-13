@@ -1,1 +1,0 @@
-SELECT \n    COUNT(1),\n    M.OriginalValue AS User\nFROM \n    LogTable L\nJOIN \n    MappingTable M ON L.USER = M.HashValue\nWHERE \n    L.DATE BETWEEN @from AND @to\nGROUP BY \n    M.OriginalValue;

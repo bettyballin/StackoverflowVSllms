@@ -1,1 +1,0 @@
-// Assume 'data' is the JSON data received from the server\nvar jsonData = JSON.parse(data);

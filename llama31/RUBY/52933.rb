@@ -1,1 +1,0 @@
-# app/models/email_validator.rb\nclass EmailValidator\n  include ActiveModel::Validations\n\n  attr_accessor :email\n\n  validates :email, presence: true, format: { with: /\A([^@\s]+)@((?:[-a-z0-9]+\.)+[a-z]{2,})\z/i }\n\n  def initialize(attributes = {})\n    @email = attributes[:email]\n  end\nend

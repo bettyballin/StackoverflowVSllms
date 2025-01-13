@@ -1,1 +1,0 @@
-SELECT *\nFROM your_table\nWHERE CONTAINS(your_column, @user_input)\nORDER BY CONTAINSTABLE(your_column, @user_input) DESC;

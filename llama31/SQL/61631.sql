@@ -1,1 +1,0 @@
-SELECT \n  SUM(CASE WHEN amount < 0 THEN -amount ELSE 0 END) AS total_debits,\n  SUM(CASE WHEN amount > 0 THEN amount ELSE 0 END) AS total_credits\nFROM journal_entries;

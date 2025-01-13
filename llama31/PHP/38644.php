@@ -1,1 +1,0 @@
-<?php\n   exec("sudo /path/to/your/start.sh");\n   // or\n   exec("sudo /path/to/your/stop.sh");\n   ?>

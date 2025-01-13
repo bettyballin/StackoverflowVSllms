@@ -1,1 +1,0 @@
-// module.config.php\n\n'view_helpers' => [\n    'invokables' => [\n        'calendar' => 'Application\View\Helper\Calendar',\n    ],\n],

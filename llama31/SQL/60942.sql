@@ -1,1 +1,0 @@
-DBCC IND ('mydatabase', 'mytable', 1);

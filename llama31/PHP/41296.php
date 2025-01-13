@@ -1,1 +1,0 @@
-// HTML\n<input type="hidden" name="ORDER_VALUE[]" value="34" />\n<input type="hidden" name="ORDER_VALUE[]" value="17" />\n\n// PHP\n$orderValues = $_REQUEST["ORDER_VALUE"];\nprint_r($orderValues); // Output: Array ( [0] => 34 [1] => 17 )

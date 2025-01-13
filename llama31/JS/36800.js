@@ -1,1 +1,0 @@
-function test_tree(opt) {\n    val = opt;\n    var xhr = new XMLHttpRequest();\n    xhr.open('POST', 'your_php_file.php', true);\n    xhr.setRequestHeader('Content-Type', 'application/x-www-form-urlencoded');\n    xhr.send('val=' + val);\n}

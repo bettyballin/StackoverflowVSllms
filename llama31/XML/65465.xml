@@ -1,1 +1,0 @@
-<filter>\n    <filter-name>AuthFilter</filter-name>\n    <filter-class>com.example.AuthFilter</filter-class>\n</filter>\n\n<filter-mapping>\n    <filter-name>AuthFilter</filter-name>\n    <url-pattern>/static/*</url-pattern>\n</filter-mapping>

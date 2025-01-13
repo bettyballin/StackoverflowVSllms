@@ -1,1 +1,0 @@
-SELECT EventID, EventTypeName, COUNT(*) AS Attempts\nFROM [EVENTLOG]\nWHERE EventID = 4625\nGROUP BY EventID, EventTypeName\nORDER BY Attempts DESC

@@ -1,1 +1,0 @@
-def create\n  @data_type_1 = DataType1.new(params[:data_type_1])\n  @data_type_2s = params[:data_type_2s].map { |k, v| DataType2.new(v) }\n\n  # Save the objects...\nend

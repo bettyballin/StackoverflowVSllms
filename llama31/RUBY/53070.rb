@@ -1,1 +1,0 @@
-session[:my_model_params] = params

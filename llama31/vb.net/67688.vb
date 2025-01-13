@@ -1,1 +1,0 @@
-Dim n = New With {p.Name, p.Age, .ShoeSize = 10}

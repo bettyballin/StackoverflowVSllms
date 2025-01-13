@@ -1,1 +1,0 @@
-CREATE TABLE customers (\n  email VARCHAR2(100) CHECK (REGEXP_LIKE(email, '^[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}$')),\n  postcode VARCHAR2(10) CHECK (REGEXP_LIKE(postcode, '^[A-Z]{1,2}[0-9R][0-9A-Z]? [0-9][ABD-HJLNP-UW-Z]{2}$'))\n);

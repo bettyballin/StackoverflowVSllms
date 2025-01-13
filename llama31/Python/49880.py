@@ -1,1 +1,0 @@
-def getfile(filename):\n    results = []\n    with open(filename, 'r') as f:\n        for line in f:\n            results.append(line.strip())\n    return results\n\nblahblah = getfile('/tmp/foo')\n\nfor x in blahblah:\n    print(x)

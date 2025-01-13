@@ -1,1 +1,0 @@
-CREATE INDEX idx_Project_ProjectID_RefProjectTypeID \nON Project (ProjectID, RefProjectTypeID);

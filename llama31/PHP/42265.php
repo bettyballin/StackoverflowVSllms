@@ -1,1 +1,0 @@
-$search = 'hello "this" is regular expressions "multiple phrases"';\n$pattern = '/"([^"]*)"/';\n\npreg_match_all($pattern, $search, $matches);\n\nprint_r($matches[1]);

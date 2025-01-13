@@ -1,1 +1,0 @@
-BEGIN TRANSACTION;\nINSERT INTO orders (customer_id) VALUES (1);\nINSERT INTO order_items (order_id, product_id) VALUES (1, 1);\nCOMMIT;

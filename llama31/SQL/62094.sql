@@ -1,1 +1,0 @@
-INSERT INTO table_name (date_column) VALUES (FROM_UNIXTIME(php_unix_timestamp));

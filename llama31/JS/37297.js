@@ -1,1 +1,0 @@
-// Open a database\nconst db = indexedDB.open('myDB', 1);\n\n// Create an object store\ndb.createObjectStore('myStore', { keyPath: 'id' });\n\n// Add a value\nconst transaction = db.transaction(['myStore'], 'readwrite');\nconst store = transaction.objectStore('myStore');\nstore.add({ id: 1, name: 'John Doe' });

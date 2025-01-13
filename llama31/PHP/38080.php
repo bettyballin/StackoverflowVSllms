@@ -1,1 +1,0 @@
-$stmt = $dbh->query("SELECT * FROM animals");\nforeach($stmt as $animals) {\n    echo $animals->name;\n}

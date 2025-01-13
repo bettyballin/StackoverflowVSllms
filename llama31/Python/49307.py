@@ -1,1 +1,0 @@
-import bcrypt\n\npassword = "mysecretpassword"\nsalt = bcrypt.gensalt()\nhashed_password = bcrypt.hashpw(password.encode("utf-8"), salt)

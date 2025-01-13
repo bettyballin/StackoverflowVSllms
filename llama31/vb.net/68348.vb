@@ -1,1 +1,0 @@
-Dim break As New LiteralControl("<br />")\nbreak.Mode = LiteralMode.PassThrough\ndivListenerInfo.Controls.Add(break)

@@ -1,1 +1,0 @@
-myServices.getName(userId).done(function(result) {\n    name = result;\n    alert(name);\n}).fail(function(error) {\n    // Handle error here\n});

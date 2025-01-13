@@ -1,1 +1,0 @@
-CREATE TABLE dates (\n  id INT PRIMARY KEY,\n  jdn BIGINT\n);

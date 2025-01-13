@@ -1,1 +1,0 @@
-function get_date_offset($start_date, $end_date, $format = 'm/d/Y') {\n    $start_dt = DateTime::createFromFormat($format, $start_date);\n    $end_dt = DateTime::createFromFormat($format, $end_date);\n    $interval = $start_dt->diff($end_dt);\n    return $interval->days;\n}

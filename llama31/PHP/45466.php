@@ -1,1 +1,0 @@
-mysql_query($insertLoc) or die(mysql_error());

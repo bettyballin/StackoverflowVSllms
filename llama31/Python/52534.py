@@ -1,1 +1,0 @@
-def deploy_chatbot_training_data(data):\n    # Deploy data to the chatbot's production environment\n    deployed_data = deploy_data(data)\n    return deployed_data

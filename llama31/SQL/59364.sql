@@ -1,1 +1,0 @@
-SELECT \n    [column1], \n    [column2], \n    [column3]\nFROM \n    (SELECT \n         row_value, \n         column_name\n     FROM \n         your_table) AS SourceTable\nPIVOT \n    (MAX(row_value) \n     FOR column_name IN ([column1], [column2], [column3])\n    ) AS PivotTable;

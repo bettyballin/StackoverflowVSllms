@@ -1,1 +1,0 @@
-map.resources :websites, :has_many => :dns_records, \n               :formatter => proc { |id| id.gsub('.', '_') }

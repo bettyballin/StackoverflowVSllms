@@ -1,1 +1,0 @@
-require 'yaml'\n\nvalidation_config = YAML.load_file('validation_config.yml')

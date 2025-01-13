@@ -1,1 +1,0 @@
-CREATE VIEW ApplicationStatus AS\nSELECT \n    ApplicationID,\n    CASE \n        WHEN IsApproved = 1 THEN 'Approved'\n        WHEN IsDenied = 1 THEN 'Denied'\n        ELSE 'Pending'\n    END AS Status\nFROM \n    Applications;

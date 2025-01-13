@@ -1,1 +1,0 @@
-// Preload images\nvar images = [\n  'image1.jpg',\n  'image2.jpg',\n  // ...\n];\n\nfor (var i = 0; i < images.length; i++) {\n  var img = new Image();\n  img.src = images[i];\n}

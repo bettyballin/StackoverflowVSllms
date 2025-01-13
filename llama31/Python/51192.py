@@ -1,1 +1,0 @@
-# Model/model_factory.py\nfrom .db import Database\nfrom .user import User\n\ndef create_user(name, email):\n    db = Database()\n    return User(name, email, db)

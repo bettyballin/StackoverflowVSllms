@@ -1,1 +1,0 @@
-$text = preg_replace_callback('/\* (.*?)\n/', function($matches) {\n    return '<li>' . $matches[1] . '</li>';\n}, $text);\n\n$text = '<ul>' . $text . '</ul>';\n$text = preg_replace('/<\/ul><ul>/', '', $text);

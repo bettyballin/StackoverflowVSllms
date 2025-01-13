@@ -1,1 +1,0 @@
-echo PHP_OS;

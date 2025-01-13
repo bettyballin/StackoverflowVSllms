@@ -1,1 +1,0 @@
-SELECT \n  level,\n  empid, \n  parentid\nFROM usertable\nCONNECT BY NOCYCLE PRIOR parentid = empid\nSTART WITH empid = 50\nUNION ALL\nSELECT \n  level + 1, \n  parentid, \n  parentid\nFROM (\n  SELECT \n    level,\n    empid, \n    parentid\n  FROM usertable\n  CONNECT BY NOCYCLE PRIOR parentid = empid\n  START WITH empid = 50\n) \nWHERE parentid = empid

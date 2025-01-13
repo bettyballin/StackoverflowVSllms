@@ -1,1 +1,0 @@
-$stmt = mysqli_prepare($db_connection, "SELECT ? FROM issues WHERE ? >= 0");\nmysqli_stmt_bind_param($stmt, "ss", $param, $param);\nmysqli_stmt_execute($stmt);\n$result = mysqli_stmt_get_result($stmt);\nif (!($record = mysqli_fetch_assoc($result))) return null;\nreturn $record;

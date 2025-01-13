@@ -1,1 +1,0 @@
-If Not CurCheckedItems.Cast(Of Object).SequenceEqual(OldCheckedItems.Cast(Of Object)) Then\n    ' There's a difference\nEnd If

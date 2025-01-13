@@ -1,1 +1,0 @@
-DECLARE @xml XML = '<root><text>This is a Test</text></root>'\nDECLARE @searchWord NVARCHAR(50) = 'test'\n\nSELECT @xml.query('/root/text[contains(translate(., "ABCDEFGHIJKLMNOPQRSTUVWXYZ", "abcdefghijklmnopqrstuvwxyz"), sql:variable("@searchWord"))]')

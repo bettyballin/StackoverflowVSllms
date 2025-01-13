@@ -1,1 +1,0 @@
-def store_chatbot_training_data(data):\n    # Store data in database\n    store_data_in_db(data)\n    return True

@@ -1,1 +1,0 @@
-<domain>\n    ...\n    <applications>\n        <application name="autodeploy" object-type="system-admin">\n            <property name="autodeploy.enabled" value="true"/>\n        </application>\n    </applications>\n</domain>

@@ -1,1 +1,0 @@
-$this->db->select('g.id, g.name, u.username, (SELECT p.url FROM pictures p WHERE p.gallery_id = g.id ORDER BY RAND() LIMIT 1) AS picture_url');\n$this->db->from('galleries g');\n$this->db->join('users u', 'u.id = g.user_id', 'left');\n$this->db->where('g.active', 1);\n$this->db->order_by('RAND()');\n$this->db->limit(15);\n$query = $this->db->get();

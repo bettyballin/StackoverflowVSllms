@@ -1,1 +1,0 @@
-Declare Sub FortranCall Lib "Fcall.dll" Alias "Fcall.FortranCall" (r1 As Long, ByVal num As String)

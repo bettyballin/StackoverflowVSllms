@@ -1,1 +1,0 @@
-// Using mysql_pconnect()\n$link = mysql_pconnect('localhost', 'username', 'password');\nif (!$link) {\n    die('Could not connect: ' . mysql_error());\n}\n\n// Using mysql_connect()\n$link = mysql_connect('localhost', 'username', 'password');\nif (!$link) {\n    die('Could not connect: ' . mysql_error());\n}\nmysql_close($link); // Don't forget to close the connection!

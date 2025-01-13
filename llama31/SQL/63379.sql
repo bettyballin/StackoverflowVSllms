@@ -1,1 +1,0 @@
-INSERT INTO your_table (email, ...) VALUES ('new_email@example.com', ...)\nON DUPLICATE KEY UPDATE email = email;

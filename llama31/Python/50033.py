@@ -1,1 +1,0 @@
-# Example: Macro for an embedded language for data analysis\nfrom macros import data_analysis_lang\n\n# Define a data analysis pipeline using the embedded language\npipeline = data_analysis_lang """\n    load data from file\n    filter rows where column 'age' > 30\n    group by column 'city'\n    compute mean of column 'salary'\n"""

@@ -1,1 +1,0 @@
-function create_excerpt($text, $length = 140) {\n  // Strip HTML tags\n  $text = strip_tags($text);\n  \n  // Truncate text to $length characters\n  $excerpt = substr($text, 0, $length);\n  \n  // Cut off at the last space to avoid mid-word truncation\n  $excerpt = substr($excerpt, 0, strrpos($excerpt, ' '));\n  \n  return $excerpt;\n}

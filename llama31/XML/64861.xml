@@ -1,1 +1,0 @@
-<class name="Child1" table="Child1Table">\n  <!-- ... other properties ... -->\n  <many-to-one name="Parent" column="ParentId" not-null="true" />\n</class>\n\n<class name="Child2" table="Child2Table">\n  <!-- ... other properties ... -->\n  <many-to-one name="Parent" column="ParentId" not-null="true" />\n</class>

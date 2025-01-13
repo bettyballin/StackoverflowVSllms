@@ -1,1 +1,0 @@
-$file = $_FILES['file'];\n$finfo = finfo_open(FILEINFO_MIME_TYPE);\n$mimeType = finfo_file($finfo, $file['tmp_name']);\nfinfo_close($finfo);\n// Use the detected MIME type as needed

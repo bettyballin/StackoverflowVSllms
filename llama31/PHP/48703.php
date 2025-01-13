@@ -1,1 +1,0 @@
-$input = "152.15 x 12.34 x 11mm";\n$pattern = '/\d{1,3}\.\d+|\d+/';\npreg_match_all($pattern, $input, $matches);\n$dim = array_map('floatval', $matches[0]);\n\nprint_r($dim);

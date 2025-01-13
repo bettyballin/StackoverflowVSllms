@@ -1,1 +1,0 @@
-// Inefficient way\n$('<div>').appendTo('#parent');\n$('<p>').appendTo('#parent');\n$('<span>').appendTo('#parent');\n\n// Efficient way\n$([\n  $('<div>'),\n  $('<p>'),\n  $('<span>')\n]).appendTo('#parent');

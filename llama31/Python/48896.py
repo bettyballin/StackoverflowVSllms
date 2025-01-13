@@ -1,1 +1,0 @@
-from selenium import webdriver\n\n# Set up the WebDriver\ndriver = webdriver.Chrome()\n\n# Navigate to a webpage\ndriver.get("https://www.google.com")\n\n# Find an element and interact with it\nsearch_box = driver.find_element_by_name("q")\nsearch_box.send_keys("Selenium")\n\n# Close the browser\ndriver.quit()

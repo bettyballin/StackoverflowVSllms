@@ -1,1 +1,0 @@
-define('CONCATENATE_SCRIPTS', false);

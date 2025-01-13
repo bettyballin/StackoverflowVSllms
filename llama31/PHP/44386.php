@@ -1,1 +1,0 @@
-define("DOMPDF_DIR", FCPATH . 'system/plugins/dompdf/');

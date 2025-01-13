@@ -1,1 +1,0 @@
-$venueAssignments = $_POST['venue'];\n\nforeach ($venueAssignments as $volunteerId => $venueId) {\n  // Update the volunteer's venue assignment in the database\n  $query = "UPDATE volunteers SET venue_id = '$venueId' WHERE id = '$volunteerId'";\n  // Execute the query...\n}

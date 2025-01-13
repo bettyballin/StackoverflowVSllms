@@ -1,1 +1,0 @@
-// Example function to handle button click event\nfunction myFunction() {\n    // Make sure to validate any user input and handle potential security risks\n    console.log("Button clicked!");\n}

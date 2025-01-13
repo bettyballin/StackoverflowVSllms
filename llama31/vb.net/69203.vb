@@ -1,1 +1,0 @@
-Dim isoDate As String = Request.Form("hiddenField")\nDim parsedDate As DateTime = DateTime.Parse(isoDate, System.Globalization.DateTimeStyles.RoundtripKind)

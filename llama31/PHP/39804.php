@@ -1,1 +1,0 @@
-$patterns = array('/pattern1/', '/pattern2/', '/pattern3/');\n$html = '...'; // HTML output of the page\n\n$combinedPattern = implode('|', $patterns);\nif (preg_match($combinedPattern, $html)) {\n    // At least one pattern matched\n}

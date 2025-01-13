@@ -1,1 +1,0 @@
-CREATE TRIGGER update_certification_status\nAFTER UPDATE ON user_lesson_status\nFOR EACH ROW\nBEGIN\n  IF NEW.score >= 80 THEN\n    UPDATE user_product_certification\n    SET certification_status = 'certified'\n    WHERE user_id = NEW.user_id AND product_id = (SELECT product_id FROM lessons WHERE id = NEW.lesson_id);\n  END IF;\nEND;

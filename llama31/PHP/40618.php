@@ -1,1 +1,0 @@
-if (isset($subcat) && $subcat !== null) {\n    // show category\n} else {\n    // show form\n}

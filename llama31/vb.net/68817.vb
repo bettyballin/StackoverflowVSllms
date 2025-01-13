@@ -1,1 +1,0 @@
-Public ReadOnly Property ExposedNodes As TreeNodeCollection\n    Get\n        Return treeView1.Nodes\n    End Get\nEnd Property

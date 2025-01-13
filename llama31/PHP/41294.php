@@ -1,1 +1,0 @@
-function roundToNearest($number, $precision) {\n    return round($number / $precision) * $precision;\n}\n\n$averageRating = 1.23;\n$roundedRating = roundToNearest($averageRating, 0.2);\necho $roundedRating; // outputs 1.2

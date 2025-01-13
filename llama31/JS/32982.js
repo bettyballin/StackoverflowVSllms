@@ -1,1 +1,0 @@
-const input = "Photo.123.aspx";\nconst regex = /\.(\d{2,3})\./;\n\nconst result = input.replace(regex, (match, group1) => {\n  return `.${(10000 + parseInt(group1)).toString()}.`;\n});\n\nconsole.log(result); // Output: "Photo.10123.aspx"

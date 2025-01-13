@@ -1,1 +1,0 @@
-SELECT \n  g.id, \n  g.name, \n  u.username, \n  (SELECT p.url FROM pictures p WHERE p.gallery_id = g.id ORDER BY RAND() LIMIT 1) AS picture_url\nFROM \n  galleries g\n  LEFT JOIN users u ON u.id = g.user_id\nWHERE \n  g.active = 1\nORDER BY \n  RAND()\nLIMIT 15;

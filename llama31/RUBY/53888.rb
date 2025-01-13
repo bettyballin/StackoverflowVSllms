@@ -1,1 +1,0 @@
-require 'jruby/rack'\n\nuse Rack::Static, :urls => ["/ruby"]\n\nmap "/ruby" do\n  run Rack::Directory.new("WEB-INF/ruby")\nend

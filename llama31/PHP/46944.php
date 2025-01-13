@@ -1,1 +1,0 @@
-$array = [...]; // your array structure\n$words = [];\nforeach ($array as $subArray) {\n    $words = array_merge($words, array_column($subArray, 'word'));\n}\n$combinedWords = implode(' ', $words);

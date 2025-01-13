@@ -1,1 +1,0 @@
-import pandas as pd\n\n# Load the CSV file\ndf = pd.read_csv('yourfile.csv')\n\n# Define a function to clean the data\ndef clean_data(x):\n    return x.replace('"', '').replace("'", '').replace('<.*?>', '')\n\n# Apply the cleaning function to each column\ndf = df.applymap(clean_data)\n\n# Save the cleaned data to a new CSV file\ndf.to_csv('cleaned_file.csv', index=False)

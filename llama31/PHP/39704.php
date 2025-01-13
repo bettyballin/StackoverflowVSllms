@@ -1,1 +1,0 @@
-$start = microtime(true);\n\nfor ($i = 0; $i < 100000; $i++) {\n    try {\n        // no exception thrown\n    } catch (Exception $e) {\n        // handle exception\n    }\n}\n\n$end = microtime(true);\necho "Time taken: " . ($end - $start) . " seconds";

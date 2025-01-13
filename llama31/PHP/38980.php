@@ -1,1 +1,0 @@
-/**\n * @param Foo $foo\n * @return mixed\n */\nfunction do_something(Foo $foo) {\n    return $foo->really_do_something();\n}

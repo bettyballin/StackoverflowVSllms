@@ -1,1 +1,0 @@
-echo '<a href="#" onclick="document.getElementById(\'myForm\').submit();">Submit</a>';

@@ -1,1 +1,0 @@
-SELECT name, system_type_name \nFROM sys.types \nWHERE is_user_defined = 1;

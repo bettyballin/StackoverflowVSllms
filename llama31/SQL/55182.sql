@@ -1,1 +1,0 @@
-CREATE NONCLUSTERED INDEX IX_ApprovalTaskID ON [dbo].[ApprovalsView] (ApprovalTaskID ASC)

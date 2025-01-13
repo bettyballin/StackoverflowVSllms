@@ -1,1 +1,0 @@
--- database schema\nCREATE TABLE users (\n  id INT PRIMARY KEY,\n  name VARCHAR(255),\n  email VARCHAR(255)\n);

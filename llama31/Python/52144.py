@@ -1,1 +1,0 @@
->>> num_chunks = length / chunk_size\n>>> num_chunks\n3.3333333333333335

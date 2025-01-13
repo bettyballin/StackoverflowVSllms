@@ -1,1 +1,0 @@
-$data = json_decode($foo, true);\nif (json_last_error() !== JSON_ERROR_NONE) {\n    echo json_last_error_msg();\n}

@@ -1,1 +1,0 @@
-SELECT *\nFROM table1\nWHERE user_id = (SELECT user_id FROM table1 WHERE id = 3)

@@ -1,1 +1,0 @@
-import graphviz\n\n# Create a graph from the dot file\ngraph = graphviz.Source.from_file('1.dot')\n\n# Render the graph to a PNG file\ngraph.render('output', format='png')

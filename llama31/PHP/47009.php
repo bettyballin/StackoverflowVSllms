@@ -1,1 +1,0 @@
-use Symfony\Component\Filesystem\Filesystem;\n\n$fs = new Filesystem();\n$fs->dumpFile('the_writable_file', 'Hello, world!');

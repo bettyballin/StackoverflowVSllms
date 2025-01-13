@@ -1,1 +1,0 @@
-function increase() {\n    alert("The button was pressed");\n    return false;\n}

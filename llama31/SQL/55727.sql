@@ -1,1 +1,0 @@
-CREATE TABLE petition_signatures (\n  id INT PRIMARY KEY,\n  name VARCHAR(255) NOT NULL,\n  email VARCHAR(255) NOT NULL,\n  signed_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP,\n  sent_at TIMESTAMP NULL\n);

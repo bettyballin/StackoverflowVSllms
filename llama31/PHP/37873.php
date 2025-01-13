@@ -1,1 +1,0 @@
-// Set the content type to text/event-stream\nheader('Content-Type: text/event-stream');\n\n// Loop through your import process\nforeach ($items as $item) {\n    // Perform your import functionality\n    // ...\n\n    // Send an event to the client\n    echo "data: Item imported successfully!\n\n";\n\n    // Flush the output buffer\n    flush();\n}

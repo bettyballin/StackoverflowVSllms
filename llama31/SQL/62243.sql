@@ -1,1 +1,0 @@
-SELECT index_position\nFROM (\n  SELECT userid, ROW_NUMBER() OVER (ORDER BY userid) AS index_position\n  FROM users\n) AS subquery\nWHERE userid = '123';

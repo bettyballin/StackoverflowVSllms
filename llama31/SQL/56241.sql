@@ -1,1 +1,0 @@
--- Example in T-SQL\nSELECT \n    COALESCE(date_column, '1900-01-01') AS date_column\nFROM \n    your_table;

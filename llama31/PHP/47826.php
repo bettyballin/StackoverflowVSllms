@@ -1,1 +1,0 @@
-// application/classes/MyClass.php\nclass MyClass {\n    public static function myMethod() {\n        // Do something\n    }\n}

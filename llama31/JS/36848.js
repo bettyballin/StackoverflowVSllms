@@ -1,1 +1,0 @@
-$.ajax({\n  type: 'POST',\n  url: 'your_php_script.php',\n  data: your_data, // if you need to send data to the PHP script\n  dataType: 'json',\n  success: function(response) {\n    // loop through the rows and access their fields\n    $.each(response, function(index, row) {\n      console.log(row.id, row.title); // access fields like this\n    });\n  }\n});

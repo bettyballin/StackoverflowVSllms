@@ -1,1 +1,0 @@
-// Add a custom page number to each page when the document is printed\nwindow.addEventListener('beforeprint', () => {\n  const pages = document.querySelectorAll('.page');\n  pages.forEach((page, index) => {\n    page.style.setProperty('--pageNumber', index + 2);\n  });\n});

@@ -1,1 +1,0 @@
-function calculateWeights($text) {\n    $words = extractWords($text);\n    $weights = array();\n    foreach ($words as $word) {\n        $weights[$word] = substr_count($text, $word);\n    }\n    return $weights;\n}

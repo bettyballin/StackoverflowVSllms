@@ -1,1 +1,0 @@
-function peso() {\n    $serial = new Serial();\n    $serial->open('/dev/ttyUSB0', 4800);  // Adjust the device path and baudrate as needed\n    $serial->write('RA:');\n    $response = $serial->read();\n    $serial->close();\n    // Process the response here\n}

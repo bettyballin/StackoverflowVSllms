@@ -1,1 +1,0 @@
-input_str = "9,admin@example.com,8"\narray = input_str.split(",")\nprint(array)  # Output: ['9', 'admin@example.com', '8']

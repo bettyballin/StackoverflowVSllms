@@ -1,1 +1,0 @@
-DECLARE @inserted_ids TABLE (id INT);\n\nINSERT INTO tbl_xyz (field1)\nOUTPUT inserted.id INTO @inserted_ids\nSELECT field1 FROM tbl_abc\n\nSELECT * FROM @inserted_ids

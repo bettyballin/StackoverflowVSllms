@@ -1,1 +1,0 @@
-$min = 1; // minimum value\n$max = 100; // maximum value\n$qty = 10; // number of unique random numbers to generate\n\n$numbers = range($min, $max);\n$randomNumbers = array_rand($numbers, $qty);\n\nprint_r($randomNumbers);

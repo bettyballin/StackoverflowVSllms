@@ -1,1 +1,0 @@
-in_place_edit('model_name', 'column_name', :token => authenticity_token)

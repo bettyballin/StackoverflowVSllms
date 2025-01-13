@@ -1,1 +1,0 @@
-SELECT * FROM log l\nJOIN references r ON l.reference_id = r.id

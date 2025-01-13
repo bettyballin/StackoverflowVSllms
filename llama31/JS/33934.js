@@ -1,1 +1,0 @@
-// Get all links with class 'news_item_info'\nconst links = document.querySelectorAll('.news_item_info a');\n\n// Set the color for all links\nlinks.forEach((link) => {\n    link.style.color = '#000000';\n});

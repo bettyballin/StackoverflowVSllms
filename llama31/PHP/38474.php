@@ -1,1 +1,0 @@
-function returnsAnArray() {\n    return array('test', 'example');\n}\n\necho array_slice(returnsAnArray(), 1, 1)[0]; // outputs: example

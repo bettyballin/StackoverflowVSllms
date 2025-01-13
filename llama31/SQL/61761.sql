@@ -1,1 +1,0 @@
-SELECT c.id AS ContactID, c.ContactName as ForeName,\n       n.value('(Ref)[1]', 'VARCHAR(40)') as ref\nFROM Contacts c\nCROSS APPLY xmlvalues.nodes('/contact') AS x(n)\nINNER JOIN ParticipantContactMap pcm ON c.id = pcm.contactid\nAND pcm.participantid = 2140\nWHERE n.value('(Ref)[1]', 'VARCHAR(40)') = '118985';

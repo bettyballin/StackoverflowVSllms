@@ -1,1 +1,0 @@
-$Config['CurrentFolder'] = $_SESSION['user_upload_dir'];

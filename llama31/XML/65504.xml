@@ -1,1 +1,0 @@
-<system.web>\n    <httpCookies httpOnlyCookies="true" requireSSL="true" />\n    <authentication mode="Windows" />\n    <authorization>\n        <allow users="*" />\n    </authorization>\n</system.web>

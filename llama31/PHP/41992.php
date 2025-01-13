@@ -1,1 +1,0 @@
-$result[$i] = isset($array[$i]) ? $array[$i] : '';

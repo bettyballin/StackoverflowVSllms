@@ -1,1 +1,0 @@
-// widgets/ExampleWidget.php\n\nclass ExampleWidget implements WidgetInterface\n{\n    public function run()\n    {\n        // widget logic here\n        return 'Example widget output';\n    }\n}

@@ -1,1 +1,0 @@
-<%= link_to "Delete", {:controller => "phone_numbers", :action => "destroy", :id => phone_number_display.id}, \n             :data => {:remote => true, :update => "section_phone", :method => :delete} %>

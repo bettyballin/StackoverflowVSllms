@@ -1,1 +1,0 @@
-require 'faker'\n\nclass Item\n  def self.generate_random(params={})\n    Item.create(\n      name: Faker::Commerce.product_name,\n      price: Faker::Number.between(1, 100)\n    )\n  end\nend

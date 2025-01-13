@@ -1,1 +1,0 @@
-$ch = curl_init($apiUrl);\ncurl_setopt($ch, CURLOPT_TIMEOUT, 5); // 5-second timeout

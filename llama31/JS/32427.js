@@ -1,1 +1,0 @@
-$.ajax({\n    // your AJAX settings here\n    complete: function() {\n        $('#myTextbox').focus();\n    }\n});

@@ -1,1 +1,0 @@
-document.querySelectorAll('img').forEach(function(img) {\n  img.addEventListener('mouseover', function(e) {\n    e.preventDefault();\n  });\n});

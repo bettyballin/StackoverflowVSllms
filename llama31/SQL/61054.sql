@@ -1,1 +1,0 @@
-SELECT \n  v.id, \n  v.stock, \n  v.year, \n  v.make, \n  v.model, \n  i1.name, \n  COUNT(i2.id) as image_count\nFROM \n  vehicle v\n  LEFT JOIN images i1 ON v.id = i1.vehicle_id AND i1.default = 1\n  LEFT JOIN images i2 ON v.id = i2.vehicle_id\nGROUP BY \n  v.id, v.stock, v.year, v.make, v.model, i1.name

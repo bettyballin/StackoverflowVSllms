@@ -1,1 +1,0 @@
-# views.py\nfrom django.shortcuts import render\nfrom django.contrib.auth.decorators import login_required\nfrom django.contrib.auth.models import User, Group\n\n@login_required\ndef index(request):\n    user = request.user\n    user_group = user.groups.all()[0].name  # assuming a user is in only one group\n    return render(request, 'index.html', {'user_group': user_group})

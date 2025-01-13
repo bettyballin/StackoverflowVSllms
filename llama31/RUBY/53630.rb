@@ -1,1 +1,0 @@
-Rails.application.config.middleware.use ActiveRecord::SessionStore, \n  database: 'App1DB', # shared database name\n  table_name: 'sessions',\n  connection: proc { ActiveRecord::Base.establish_connection('shared_database') }

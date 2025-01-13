@@ -1,1 +1,0 @@
-$('.my-div').fitText(1.2); // 1.2 is the compressor value, adjust to your needs

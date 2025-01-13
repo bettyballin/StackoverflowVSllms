@@ -1,1 +1,0 @@
-require_once 'markdown.php';\nrequire_once 'HTMLPurifier.auto.php';\n\n$markdown_text = '**bold** and [link](http://example.com)';\n$html = Markdown($markdown_text);\n\n$config = HTMLPurifier_Config::createDefault();\n$purifier = new HTMLPurifier($config);\n$sanitized_html = $purifier->purify($html);\n\necho $sanitized_html;

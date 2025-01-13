@@ -1,1 +1,0 @@
-$.ajax({\n    type: 'POST',\n    url: 'save_data.php',\n    data: { /* your data */ },\n    success: function(response) {\n        console.log(response);\n    }\n});

@@ -1,1 +1,0 @@
-Public Sub ProcessInput()\n    Dim obj As New MyClass()\n    Dim reasonCode As String = ReasonCodeEnum.GetReasonCode(obj.ReasonCode)\n    Select Case reasonCode\n        Case "ServiceNotCovered"\n            'Do one thing\n        Case "MemberNotEligible"\n            'Do something different\n        'Other enum value cases and default\n    End Select\nEnd Sub

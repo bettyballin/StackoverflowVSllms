@@ -1,1 +1,0 @@
-$decoder = new Zend_Mime_Decode();\n$decodedMessage = $decoder->decode($foundPart->getContent());\necho $decodedMessage;

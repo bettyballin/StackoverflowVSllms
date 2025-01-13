@@ -1,1 +1,0 @@
-if (isset($_GET['pagina']) == "homepage") {\n    // ...\n}

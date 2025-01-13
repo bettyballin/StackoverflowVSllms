@@ -1,1 +1,0 @@
-try {\n    // ...\n} catch (SoapFault $e) {\n    if ($e->faultcode == 'SOAP-ENV:Server') {\n        // handle server error\n    } else {\n        // handle other fault codes\n    }\n}

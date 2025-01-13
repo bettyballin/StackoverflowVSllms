@@ -1,1 +1,0 @@
-if ($User->loggedin == true) {\n    header('Location: MyAccountNEW.php');\n}

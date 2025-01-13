@@ -1,1 +1,0 @@
-$userInput = nl2br($userInput);

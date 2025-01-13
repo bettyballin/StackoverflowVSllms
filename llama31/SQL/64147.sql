@@ -1,1 +1,0 @@
-SELECT VALUE FROM V$PARAMETER WHERE NAME = 'remote_proxy_authentication';

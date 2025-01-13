@@ -1,1 +1,0 @@
-$( "#divToMove" ).draggable({\n  stop: function( event, ui ) {\n    var left = ui.position.left;\n    var top = ui.position.top;\n    // store the new position in the database\n    $.ajax({\n      url: 'savePosition.php',\n      method: 'POST',\n      data: {left: left, top: top},\n      success: function(data) {\n        console.log(data);\n      }\n    });\n  }\n});

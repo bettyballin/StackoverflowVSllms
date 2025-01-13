@@ -1,1 +1,0 @@
--- Create a proxy account\nEXEC sp_add_proxy @proxy_name = 'linked_server_proxy', @enabled = 1;\n\n-- Grant permissions to the proxy account\nGRANT EXECUTE ON SCHEMA::dbo TO linked_server_proxy;\n\n-- Configure the job to run under the proxy account\nEXEC sp_update_job @job_name = 'your_job_name', @proxy_name = 'linked_server_proxy';

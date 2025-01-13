@@ -1,1 +1,0 @@
-myDataSource.responseSchema = {\n  resultsList: "geneItemList.geneItemList",\n  fields: [...]\n};

@@ -1,1 +1,0 @@
-$file = 'example.txt';\n$contents = 'This is an example';\n\nif (is_writable($file)) {\n    $fp = fopen($file, 'w');\n    fwrite($fp, $contents);\n    fclose($fp);\n} else {\n    echo 'You do not have permission to write to this file.';\n}

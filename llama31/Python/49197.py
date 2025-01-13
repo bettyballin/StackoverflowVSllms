@@ -1,1 +1,0 @@
-import numpy as np\n\ndef cosine_similarity(s1, s2):\n    v1 = np.array([ord(c) for c in s1])\n    v2 = np.array([ord(c) for c in s2])\n    dot_product = np.dot(v1, v2)\n    magnitude1 = np.linalg.norm(v1)\n    magnitude2 = np.linalg.norm(v2)\n    return dot_product / (magnitude1 * magnitude2)

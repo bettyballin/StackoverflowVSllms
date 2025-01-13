@@ -1,1 +1,0 @@
-if (isset($_GET['type_id'])) {\n    setcookie('type_id', $_GET['type_id'], time() + 60*60*24*30);\n}

@@ -1,1 +1,0 @@
-SELECT p.*\nFROM Parent p\nJOIN ParentChild pc ON p.ParentID = pc.ParentID\nJOIN Child c ON pc.ChildID = c.ChildID\nWHERE c.ChildID IN ('Charlie', 'David', 'Eve')  -- replace with your desired children\nGROUP BY p.ParentID, p.Name\nHAVING COUNT(DISTINCT c.ChildID) = (SELECT COUNT(*) FROM Child WHERE ChildID IN ('Charlie', 'David', 'Eve'))

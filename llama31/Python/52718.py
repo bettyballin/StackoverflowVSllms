@@ -1,1 +1,0 @@
-from collections import defaultdict\n\nlookup = defaultdict(str)\n\ndef initLookups():\n    lookup["A"] = "AA"\n    lookup["B"] = "BB"\n    # ... etc ...\n\ninitLookups()\nprint(lookup["A"])  # Should print "AA"\nprint(lookup[" unknown_key"])  # Should print an empty string

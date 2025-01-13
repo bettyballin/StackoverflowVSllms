@@ -1,1 +1,0 @@
-INSERT INTO child (parent_id, description)\nVALUES (1, 'description');

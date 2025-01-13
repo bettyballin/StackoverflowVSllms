@@ -1,1 +1,0 @@
-SELECT [group], \n       CONVERT(BIGINT, (SELECT CONVERT(VARCHAR(1), isok) AS [text()]\n                        FROM OrderedRows o2\n                        WHERE o2.[group] = o1.[group]\n                        ORDER BY row_num\n                        FOR XML PATH(''), TYPE).value('.', 'VARCHAR(MAX)'), 2) AS encoded_mask\nFROM (SELECT DISTINCT [group] FROM @table) o1;

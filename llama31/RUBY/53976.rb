@@ -1,1 +1,0 @@
-group :development, :test do\n  gem 'cucumber-prof'\nend

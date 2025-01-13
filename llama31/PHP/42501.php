@@ -1,1 +1,0 @@
-$html = file_get_contents('local_secure.html');\n$dom = new DOMDocument();\nlibxml_use_internal_errors(true);\n$dom->loadHTML($html);\nlibxml_clear_errors();\n\n$inputs = $dom->getElementsByTagName('input');\n\nforeach ($inputs as $input) {\n    echo 'Name: ' . $input->getAttribute('name') . "\n";\n    echo 'Value: ' . $input->getAttribute('value') . "\n";\n}

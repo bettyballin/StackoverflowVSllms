@@ -1,1 +1,0 @@
-tinymce.init({\n  // ...\n  entity_encoding: 'raw'\n});

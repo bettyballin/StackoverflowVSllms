@@ -1,1 +1,0 @@
-DECLARE\n  v_blob BLOB;\n  v_start NUMBER;\n  v_end NUMBER;\nBEGIN\n  SELECT blob_column INTO v_blob FROM table_name WHERE id = 1;\n  \n  v_start := 100;  -- starting offset\n  v_end := 500;    -- ending offset\n  \n  IF DBMS_LOB.INSTR(v_blob, v_start, v_end) > 0 THEN\n    -- process the binary range\n  ELSE\n    -- range not found\n  END IF;\nEND;

@@ -1,1 +1,0 @@
-CREATE FUNCTION dbo.JoinRows (@VehicleID int, @Delimiter nvarchar(10))\nRETURNS nvarchar(max)\nAS\nBEGIN\n    DECLARE @Locations nvarchar(max)\n    SET @Locations = ''\n\n    SELECT @Locations = @Locations + City + @Delimiter\n    FROM Locations\n    WHERE VehicleID = @VehicleID\n\n    RETURN LEFT(@Locations, LEN(@Locations) - LEN(@Delimiter))\nEND\nGO

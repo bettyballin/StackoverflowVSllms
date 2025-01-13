@@ -1,1 +1,0 @@
-CREATE TABLE mytable (\n  id INT PRIMARY KEY,\n  auto_increment_column INT\n);\n\nCREATE TRIGGER auto_increment_trigger\nBEFORE INSERT ON mytable\nFOR EACH ROW\nBEGIN\n  SET NEW.auto_increment_column = (SELECT MAX(auto_increment_column) + 1 FROM mytable);\nEND;

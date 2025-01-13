@@ -1,1 +1,0 @@
-do_something(); -- foo_was_specified is 0, so foo was defaulted to NULL\ndo_something(foo => NULL, foo_was_specified => 1); -- foo_was_specified is 1, so foo was explicitly set to NULL

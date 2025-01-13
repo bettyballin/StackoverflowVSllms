@@ -1,1 +1,0 @@
-function getNextQuestionID()\n{\n    if (!isset($_SESSION['question_idx'])) {\n        $_SESSION['question_idx'] = 0;\n    }\n    return $_SESSION['question_idx']++;\n}

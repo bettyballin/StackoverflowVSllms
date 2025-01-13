@@ -1,1 +1,0 @@
-$stmt = $pdo->prepare('SELECT * FROM your_table WHERE YEARWEEK(purchased, 0) = YEARWEEK(CURDATE(), 0) - 1');\n$stmt->execute();

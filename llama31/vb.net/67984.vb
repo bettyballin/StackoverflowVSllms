@@ -1,1 +1,0 @@
-Dim fileName As String\nDim folderPath As String\n\nfolderPath = "C:\Your\Folder\Path" ' Replace with your desired folder path\n\nfileName = Dir(folderPath & "*.*")\n\nDo While fileName <> ""\n    ' Do something with the file name, e.g., print it\n    Debug.Print fileName\n    fileName = Dir()\nLoop

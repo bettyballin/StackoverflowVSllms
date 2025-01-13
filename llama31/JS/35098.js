@@ -1,1 +1,0 @@
-driver.executeScript("document.dispatchEvent(new KeyboardEvent('keydown', {key: 'Enter'}));");

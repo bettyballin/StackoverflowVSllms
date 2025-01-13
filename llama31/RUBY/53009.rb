@@ -1,1 +1,0 @@
-class MyClass\n  @@shared_variable = "shared"\n\n  def index\n    @instance_variable = "instance"\n  end\nend

@@ -1,1 +1,0 @@
-import peewee\n\ndb = peewee.PostgresqlDatabase('dbname', user='user', password='password', host='host', port='port')\n\nclass User(peewee.Model):\n    name = peewee.CharField()\n\n    class Meta:\n        database = db

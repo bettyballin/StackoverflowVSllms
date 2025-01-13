@@ -1,1 +1,0 @@
-SELECT 'true' WHERE 3 EXCEPT (\n  SELECT v FROM (VALUES (1), (2), (null)) AS t(v)\n)

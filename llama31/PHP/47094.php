@@ -1,1 +1,0 @@
-function include_js($files) {\n  $cdn_url = 'https://cdn.example.com/js/';\n  $concat_file = implode('.', $files) . '.min.js';\n  $script_tag = '<script src="' . $cdn_url . $concat_file . '"></script>';\n  return $script_tag;\n}

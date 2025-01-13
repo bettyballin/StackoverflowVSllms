@@ -1,1 +1,0 @@
-var data = "<div id='myid'><div id='subid'>Text</div></div>";\nvar html = $.parseHTML(data);\nvar text = $(html).find("#myid > #subid").text();\nconsole.log(text); // outputs "Text"

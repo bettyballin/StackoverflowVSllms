@@ -1,1 +1,0 @@
-$file = '/var/www/data/yourfile.txt';\n$contents = file_get_contents($file);

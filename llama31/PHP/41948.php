@@ -1,1 +1,0 @@
-class DoDoDo {\n   public $poop;\n   public function __construct(){\n        $this->poop = new ArrayTest(); // Assign to the class property, not a local variable\n    }\n    public function foo()\n    {echo 'bar';}\n}

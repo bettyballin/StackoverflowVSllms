@@ -1,1 +1,0 @@
-SUM(TIME_TO_SEC(TIMEDIFF(s.shiftend, s.shiftstart))) OVER (PARTITION BY u.id) AS total

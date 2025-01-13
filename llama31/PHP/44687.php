@@ -1,1 +1,0 @@
-<?php\n$to = 'recipient@example.com';\n$subject = 'Test email';\n$message = 'Hello, world!';\n$headers = 'From: your_email@example.com' . "\r\n" .\n    'Reply-To: your_email@example.com' . "\r\n" .\n    'X-Mailer: PHP/' . phpversion();\n\nmail($to, $subject, $message, $headers);\n?>

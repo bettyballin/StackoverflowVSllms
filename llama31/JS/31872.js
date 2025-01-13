@@ -1,1 +1,0 @@
-// Assuming your delete button has a CssClass of "delete-button"\n$('.delete-button').click(function(e) {\n    e.preventDefault(); // Prevent the default postback\n    var row = $(this).closest('tr'); // Get the parent table row\n    row.fadeOut(500, function() { // Fade out the row\n        __doPostBack('<%= DeleteButton.ClientID %>', ''); // Trigger the postback\n    });\n});

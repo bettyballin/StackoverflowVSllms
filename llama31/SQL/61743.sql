@@ -1,1 +1,0 @@
-EXEC sp_getapplock @Resource = 'NewCustomers', @LockMode = 'Exclusive';

@@ -1,1 +1,0 @@
-<%= Html.ActionLink("Link Text", "ActionName", new { id = "myLink" }) %>\n<div id="divId"></div>\n\n<script>\n    $("#myLink").click(function(e) {\n        e.preventDefault();\n        $.ajax({\n            url: $(this).attr("href"),\n            success: function(data) {\n                $("#divId").html(data);\n            }\n        });\n    });\n</script>

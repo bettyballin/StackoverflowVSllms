@@ -1,1 +1,0 @@
-<dataSource name="ldapDataSource" class="your.package.LdapDataSource">\n    <config>\n        <url>ldap://your-ldap-server.com:389</url>\n        <username>your-username</username>\n        <password>your-password</password>\n        <baseDN>dc=your,dc=domain</baseDN>\n        <filter>(objectClass=*)</filter>\n    </config>\n</dataSource>

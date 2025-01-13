@@ -1,1 +1,0 @@
-' Set a session cookie\nResponse.Cookies("TestSession") = "Enabled"\n\n' Check if the cookie was set\nIf Request.Cookies("TestSession") = "Enabled" Then\n    Response.Write "Session cookies are enabled."\nElse\n    Response.Write "Session cookies are disabled."\nEnd If

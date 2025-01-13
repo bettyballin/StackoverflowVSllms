@@ -1,1 +1,0 @@
-from django.db import transaction\n\n@transaction.atomic\ndef insert_records(items):\n    for item in items:\n        entry = Entry(a1=item.a1, a2=item.a2)\n        entry.save()

@@ -1,1 +1,0 @@
-WITH OrderCounts AS (\n  SELECT CustomerID, OrderDate, COUNT(1) Cnt\n  FROM Sales.SalesOrderHeader\n  WHERE CustomerID = 11300\n  GROUP BY CustomerID, OrderDate\n)\nSELECT *\nFROM OrderCounts\nWHERE Cnt = (SELECT MAX(Cnt) FROM OrderCounts)

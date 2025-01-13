@@ -1,1 +1,0 @@
-ActiveRecord::SessionStore::Session.establish_connection(\n  :adapter => 'mysql',\n  :database => 'your_external_database_name',\n  :username => 'your_database_username',\n  :password => 'your_database_password',\n  :host => 'your_database_host'\n)

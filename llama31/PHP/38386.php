@@ -1,1 +1,0 @@
-$this->db->where('username', $username);\n$this->db->where('password', $hashed_password);\n$query = $this->db->get('users');\n\n// Use prepared statements or parameterized queries for added security

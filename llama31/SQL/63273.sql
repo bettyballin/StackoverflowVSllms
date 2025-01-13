@@ -1,1 +1,0 @@
-WITH Ranked AS (\n  SELECT Name, Id,\n         ROW_NUMBER() OVER (PARTITION BY Name ORDER BY Id) AS RowNum\n  FROM YourTable\n)\nSELECT \n  [N1] AS Name1, \n  [N2] AS Name2, \n  [N3] AS Name3, \n  [N4] AS Name4\nFROM (\n  SELECT Name, Id, RowNum\n  FROM Ranked\n) AS SourceTable\nPIVOT (\n  MAX(Id)\n  FOR Name IN ([N1], [N2], [N3], [N4])\n) AS PivotTable;

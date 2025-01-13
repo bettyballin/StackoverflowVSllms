@@ -1,1 +1,0 @@
-from flask import Flask\nfrom flask_restful import Api, Resource\n\napp = Flask(__name__)\napi = Api(app)\n\nclass HelloWorld(Resource):\n    def get(self):\n        return {'hello': 'world'}\n\napi.add_resource(HelloWorld, '/')

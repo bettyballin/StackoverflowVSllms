@@ -1,1 +1,0 @@
-$salt = random_bytes(16);\n$key = hash('sha256', $salt); // 64 character key

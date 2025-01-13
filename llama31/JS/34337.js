@@ -1,1 +1,0 @@
-// Assuming 'element' is the HTML element to update\nelement.textContent = xmlhttp.responseText;

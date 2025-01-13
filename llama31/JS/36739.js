@@ -1,1 +1,0 @@
-// Using jQuery\n$('#listbox1').on('change', function() {\n    var selectedValue = $(this).val();\n    $.ajax({\n        type: 'GET',\n        url: '/get-options-for-listbox2',\n        data: { selectedValue: selectedValue },\n        success: function(options) {\n            $('#listbox2').html(options);\n        }\n    });\n});

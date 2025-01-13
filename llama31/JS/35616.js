@@ -1,1 +1,0 @@
-var attributeNames = element.getAttributeNames();\nfor (var i = 0; i < attributeNames.length; i++) {\n    var attributeName = attributeNames[i];\n    var attributeValue = element.getAttribute(attributeName);\n\n    // Do something with the attribute\n    console.log(attributeName + ' = ' + attributeValue);\n}

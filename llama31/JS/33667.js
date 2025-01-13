@@ -1,1 +1,0 @@
-document.addEventListener("DOMContentLoaded", function () {\n  var sortBar = document.getElementById("ListViewSortBar");\n  if (sortBar) {\n    sortBar.style.display = "none";\n  }\n});

@@ -1,1 +1,0 @@
-// to replace text after the element\n$(newText).insertAfter(element).prev().remove();\n\n// to replace text before the element\n$(newText).insertBefore(element).next().remove();

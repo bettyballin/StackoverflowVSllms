@@ -1,1 +1,0 @@
-WAITFOR DELAY '00:30:00'  -- wait for 30 minutes

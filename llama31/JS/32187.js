@@ -1,1 +1,0 @@
-const jwt = require('jsonwebtoken');\n\n// Generate a JWT token\nconst token = jwt.sign({\n  userId: '123',\n  signinDate: new Date(),\n  level: 'admin'\n}, 'your-secret-key', {\n  expiresIn: '24h'\n});\n\n// Send the token to the client-side\nres.json({ token });

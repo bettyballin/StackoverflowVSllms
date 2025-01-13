@@ -1,1 +1,0 @@
-use FeedIo\FeedIo;\n\n$feedIo = new FeedIo();\n$feed = $feedIo->discover($url);\nif ($feed) {\n    // $feed is the RSS feed associated with the URL\n}

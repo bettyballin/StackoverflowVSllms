@@ -1,1 +1,0 @@
--- Example of using a transaction for batch insert\nBEGIN TRANSACTION;\nINSERT INTO your_table (column1, column2)\nVALUES\n    ('value1', 'value2'),\n    ('value3', 'value4'),\n    -- ... more values\n;\nCOMMIT TRANSACTION;

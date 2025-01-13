@@ -1,1 +1,0 @@
-$obj = mysql_query($query);\n$string = serialize($obj);\nfile_put_contents('cache.txt', $string);

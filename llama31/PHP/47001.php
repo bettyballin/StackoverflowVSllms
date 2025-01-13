@@ -1,1 +1,0 @@
-$lock = new Mutex();\n$lock->lock();\ntry {\n    $albumId = createAlbum();\n} finally {\n    $lock->unlock();\n}\ninsertPhoto($albumId);

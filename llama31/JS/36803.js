@@ -1,1 +1,0 @@
-var $thumbs = $(".thumb");\nvar $div = $thumbs.find("div");\n\n$div.fadeTo(0, 0).css("display", "block");\n\n$thumbs.on("mouseenter", function() {\n    $(this).children(".download").fadeIn(200);\n    $(this).children(".hud").fadeTo(200, 0.7);\n}).on("mouseleave", function() {\n    $div.fadeOut(200);\n});

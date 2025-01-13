@@ -1,1 +1,0 @@
-<?php\n$contents = file_get_contents("include.inc");\n$contents = trim($contents, "\xef\xbb\xbf");\necho $contents;\n?>

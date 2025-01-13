@@ -1,1 +1,0 @@
-ALTER TABLE YourTableName\nADD GuidId uniqueidentifier NULL;

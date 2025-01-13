@@ -1,1 +1,0 @@
-var complexObject = {\n  someMethod: function() { return 1; },\n  someProperty: 123,\n  someArray: ['xyz', 3.14]\n};\nexternal.someFunction(complexObject);

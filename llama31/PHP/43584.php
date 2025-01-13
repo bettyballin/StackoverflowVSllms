@@ -1,1 +1,0 @@
-$xpath = new DOMXPath($dom);\n$xpath->registerNamespace("a", "http://www.example.com");\n\n$books = $xpath->query('//a:Books', $dom);\n\nforeach ($books as $book) {\n    $title = $book->nodeValue; // get the text content of the node\n    $dewey = $book->getAttribute('DeweyDecimal'); // get the attribute value\n    // do something with $title and $dewey\n}

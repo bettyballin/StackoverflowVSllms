@@ -1,1 +1,0 @@
-use League\Csv\Reader;\n\n$csvReader = Reader::createFromPath('path/to/your/file.csv', 'r');\n$csvReader->setHeaderOffset(0); // Set header offset to 0\n\n$rules = [...]; // Load your rules here\n\nwhile (($row = $csvReader->fetchAssoc()) !== false) {\n    // Apply rules to each row\n    foreach ($rules as $rule) {\n        // Process the rule\n    }\n}

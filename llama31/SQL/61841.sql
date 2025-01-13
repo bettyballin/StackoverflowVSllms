@@ -1,1 +1,0 @@
-ANALYZE TABLE page;\nCHECK TABLE page;

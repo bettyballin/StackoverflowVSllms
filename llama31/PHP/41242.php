@@ -1,1 +1,0 @@
-$zip = trim(filter_var($zip, FILTER_SANITIZE_STRING));

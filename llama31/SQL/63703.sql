@@ -1,1 +1,0 @@
-SELECT *\nFROM tasks\nORDER BY COALESCE(deadline_date, '9999-12-31') ASC;

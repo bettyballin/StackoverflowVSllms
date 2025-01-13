@@ -1,1 +1,0 @@
-DECLARE\n  l_input_string VARCHAR2(4000) := '1,2,3,4,5';\n\nBEGIN\n  FOR rec IN (\n    SELECT *\n    FROM XMLTABLE (\n      '/root/e'\n      PASSING XMLTYPE('<root><e>' || REPLACE(l_input_string, ',', '</e><e>') || '</e></root>')\n      COLUMNS value VARCHAR2(10) PATH '.'\n    )\n  ) LOOP\n    DBMS_OUTPUT.PUT_LINE(rec.value);\n  END LOOP;\nEND;

@@ -1,1 +1,0 @@
-class MyDateOnlyModel < ActiveRecord::Base\n  attribute_cast(:effective_date, :date)\nend

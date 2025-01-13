@@ -1,1 +1,0 @@
-CREATE TABLE mytable (\n  id VARCHAR(36) PRIMARY KEY,  -- GUID primary key\n  row_id INT GENERATED ALWAYS AS ROW_NUMBER() OVER (ORDER BY id)\n);

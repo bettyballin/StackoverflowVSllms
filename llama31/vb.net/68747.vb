@@ -1,1 +1,0 @@
-Imports System.IO\n\nModule Logger\n    Sub LogError(message As String)\n        Dim logFile As String = "error.log"\n        File.AppendAllText(logFile, DateTime.Now.ToString() & " - " & message & Environment.NewLine)\n    End Sub\nEnd Module

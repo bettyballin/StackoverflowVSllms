@@ -1,1 +1,0 @@
-SELECT * FROM table WHERE DATE_FORMAT(date, '%Y-%m') = '2020-12'

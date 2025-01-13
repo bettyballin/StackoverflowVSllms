@@ -1,1 +1,0 @@
-SELECT \n  CONCAT(name, '\n', REPLACE(GROUP_CONCAT(size, ' ', date SEPARATOR '\n'), '\n', '\n  ')) AS output\nFROM \n  your_table\nGROUP BY \n  name

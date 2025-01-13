@@ -1,1 +1,0 @@
-// In your JavaScript code that embeds the Flash widget\nvar widgetId = "widget_" + instanceNumber;\nvar flashvars = { widgetId: widgetId };\n// Pass flashvars to your Flash embedding code\n\n// Later, to stop a specific track\ndocument.getElementById("flash_widget").stopTrack_widget_1();

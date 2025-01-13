@@ -1,1 +1,0 @@
-SELECT \n  i.invoice_id,\n  i.invoice_type,\n  rp.price\nFROM \n  invoices i\n  JOIN users u ON i.user_id = u.user_id\n  JOIN rate_prices rp ON (\n    (i.invoice_type = 'package' AND rp.rate_id = u.rate_package_id) \n    OR (i.invoice_type = 'document' AND rp.rate_id = u.rate_document_id)\n  )\n  AND rp.weight = 1; // assuming weight is always 1

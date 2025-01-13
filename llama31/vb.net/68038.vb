@@ -1,1 +1,0 @@
-=DateAdd("d", 30, Fields!MyDate.Value)

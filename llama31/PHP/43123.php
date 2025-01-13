@@ -1,1 +1,0 @@
-<?php\nif (isset($_GET['jwt'])) {\n    $jwt = $_GET['jwt'];\n    // Verify JWT here for security reasons\n    setcookie('session_jwt', $jwt, time() + 3600, "/", "", true, true);\n    // Redirect back to the original site or close the iframe\n    header('Location: https://example.com/welcome');\n    exit;\n}

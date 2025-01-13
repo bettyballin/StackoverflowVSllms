@@ -1,1 +1,0 @@
-SELECT *\nFROM books\nWHERE title LIKE "%text%" OR description LIKE "%text%"\nORDER BY\n  CASE\n    WHEN title LIKE "%text%" THEN 0\n    ELSE 1\n  END,\n  date

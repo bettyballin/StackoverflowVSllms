@@ -1,1 +1,0 @@
-import pkgutil\n\ndef get_modules():\n    modules = []\n    for importer, name, ispkg in pkgutil.iter_modules(__path__):\n        modules.append(importer.find_loader(name).load_module(name))\n    return modules

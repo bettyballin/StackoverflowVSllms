@@ -1,1 +1,0 @@
-$xml = '<root><person><name>John</name></person></root>';\n$xml = simplexml_load_string($xml);\n\necho $xml->person->name; // Output: Joh

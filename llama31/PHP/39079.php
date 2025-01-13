@@ -1,1 +1,0 @@
-$archive_query = new WP_Query(array(\n    'posts_per_page' => -1, // Show all posts\n    'orderby' => 'date', // Order by date\n    'order' => 'DESC' // Order in descending order\n));

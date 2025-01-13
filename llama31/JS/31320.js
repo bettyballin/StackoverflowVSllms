@@ -1,1 +1,0 @@
-$('mySelect').setValue('2');

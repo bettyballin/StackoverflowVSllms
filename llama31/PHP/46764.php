@@ -1,1 +1,0 @@
-Array\n(\n    [a] => varA\n    [b] => varB\n    [c] => \n)

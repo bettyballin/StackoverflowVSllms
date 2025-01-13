@@ -1,1 +1,0 @@
-require 'ffmpeg'\n\ninput_file = 'input.mp3'\n\nprobe = FFmpeg::Probe.new(input_file)\naudio_stream = probe.streams.find { |s| s.codec_type == 'audio' }\n\nvolume = audio_stream.tags['overall_volume']\nputs "Average volume: #{volume} dB"

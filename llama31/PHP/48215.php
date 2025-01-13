@@ -1,1 +1,0 @@
-class MyClass {\n    /**\n     * @access private\n     */\n    private $_privateVar;\n\n    public function getPrivateVar() {\n        return $this->_privateVar;\n    }\n}

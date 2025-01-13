@@ -1,1 +1,0 @@
-function modifyArray(&$array) {\n    // modify the array here\n}

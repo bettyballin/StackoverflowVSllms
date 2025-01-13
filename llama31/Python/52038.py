@@ -1,1 +1,0 @@
-import pandas as pd\n\nurl = 'http://www.eia.doe.gov/emeu/aer/txt/ptb0808.html'\ndf = pd.read_html(url)[0]  # assuming the first table is the one you want\n\n# now you can perform SQL queries on the DataFrame\nresult = df.query('SELECT * WHERE `Column Name` > 10')\nprint(result)

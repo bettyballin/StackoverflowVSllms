@@ -1,1 +1,0 @@
-for ($i = 1; $i <= $totalPages; $i++) {\n    echo "<a href='?page=$i'>$i</a> ";\n}

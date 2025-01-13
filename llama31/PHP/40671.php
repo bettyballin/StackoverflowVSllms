@@ -1,1 +1,0 @@
-$session_id = get_session_id_from_paypal();\nsession_name('your_session_name');\nsession_set_cookie_params(0, '/', 'your_domain.com', true, true);\nsession_id($session_id);\nsession_start();

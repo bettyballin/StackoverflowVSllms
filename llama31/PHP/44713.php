@@ -1,1 +1,0 @@
-$mysqli = new mysqli('localhost', 'username', 'password', 'database');\n$wrapper = new MysqliWrapper($mysqli);\n\n$result = $wrapper->query('SELECT * FROM table WHERE id = ?', '1');\n\nprint_r($result);

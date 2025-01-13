@@ -1,1 +1,0 @@
-class UserTest < ActiveSupport::TestCase\n  def test_calculate_hashed_password_returns_a_value\n    assert_not_nil User.calculate_hashed_password\n  end\nend

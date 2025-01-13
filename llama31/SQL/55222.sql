@@ -1,1 +1,0 @@
-SELECT name, myFunction(@areas) \nFROM regions \nWHERE areas IN (@areas);

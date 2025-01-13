@@ -1,1 +1,0 @@
-<config>\n    <frontend>\n        <routers>\n            <mycompany_mymodule>\n                <use>standard</use>\n                <args>\n                    <module>MyCompany_MyModule</module>\n                    <frontName>mycontroller</frontName>\n                </args>\n            </mycompany_mymodule>\n        </routers>\n    </frontend>\n</config>

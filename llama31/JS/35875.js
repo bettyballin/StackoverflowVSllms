@@ -1,1 +1,0 @@
-$("#form1").validate({\n    // ...\n    submitHandler: function(form) {\n        alert("Form is valid, submitting...");\n        form.submit();\n    }\n});

@@ -1,1 +1,0 @@
-BEGIN TRANSACTION;\n\nSELECT next_internal_id \nFROM company_id_sequence \nWHERE company_id = X \nFOR UPDATE;\n\nUPDATE company_id_sequence \nSET next_internal_id = next_internal_id + 1 \nWHERE company_id = X;\n\nINSERT INTO employees (company_id, internal_id, name, lastname) \nVALUES (X, next_internal_id, 'John', 'Doe');\n\nCOMMIT;

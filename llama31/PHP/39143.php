@@ -1,1 +1,0 @@
-$db = new SQLite3('mydatabase.db');

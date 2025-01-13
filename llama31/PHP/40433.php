@@ -1,1 +1,0 @@
-define('APP_ROOT', '/application');

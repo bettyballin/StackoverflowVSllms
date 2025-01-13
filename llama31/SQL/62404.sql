@@ -1,1 +1,0 @@
-// Querying a collection of objects in a hypothetical OODB\nSELECT * FROM Employees WHERE salary > 50000;

@@ -1,1 +1,0 @@
-$fieldNames = array_keys($_POST);\nforeach ($fieldNames as $fieldName) {\n    $value = $_POST[$fieldName];\n    // Process each field\n    echo "$fieldName: $value\n";\n}

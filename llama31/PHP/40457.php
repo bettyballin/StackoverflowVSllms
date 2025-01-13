@@ -1,1 +1,0 @@
-$sql = 'SELECT COUNT(*) AS total_rows FROM friend_user_photo';\n$query = executeQuery($sql);\n$row = mysql_fetch_assoc($query);\n$rowcount = $row['total_rows'];

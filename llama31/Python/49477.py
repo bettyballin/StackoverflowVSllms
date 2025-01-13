@@ -1,1 +1,0 @@
-import spacy\n\nnlp = spacy.load("en_core_web_sm")\ntext = "My address is 123 Main St, Anytown, USA 12345"\ndoc = nlp(text)\n\nfor ent in doc.ents:\n    if ent.label_ == "ADDR":\n        print(ent.text)

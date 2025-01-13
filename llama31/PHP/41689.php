@@ -1,1 +1,0 @@
-$responses = [\n    'value1' => 'Response 1',\n    'value2' => 'Response 2',\n    // ...\n];\n\n$response = $responses[$variable] ?? 'Unknown value';

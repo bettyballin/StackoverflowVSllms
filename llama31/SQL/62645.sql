@@ -1,1 +1,0 @@
-DECLARE @myParam nvarchar(50);  -- specify the size\nCAST(@myParam AS nvarchar(50));  -- specify the size

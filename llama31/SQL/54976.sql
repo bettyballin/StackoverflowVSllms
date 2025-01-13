@@ -1,1 +1,0 @@
-UPDATE statuses\nSET status = 0\nWHERE status = -1\nORDER BY RANDOM()\nLIMIT 1;

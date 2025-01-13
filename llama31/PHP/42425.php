@@ -1,1 +1,0 @@
-function delChar($str, $index) {\n    return substr($str, 0, $index) . substr($str, $index + 1);\n}\n\n$s = "waseem";\necho delChar($s, 2);

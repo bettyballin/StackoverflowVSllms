@@ -1,1 +1,0 @@
-Dim exApp As Microsoft.Office.Interop.Excel.Application\nexApp = CreateObject("Excel.Application")\n\n' load excel document\nexApp.Workbooks.Open(fname)\nDim exSheet As Microsoft.Office.Interop.Excel.Worksheet\nexSheet = exApp.Workbooks(1).Worksheets(1)\n\nDim b As String\nb = exSheet.Cells(3, 3).Value.ToString()

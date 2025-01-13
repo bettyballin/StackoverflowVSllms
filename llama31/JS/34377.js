@@ -1,1 +1,0 @@
-// when generating menu items\nif (menuItemText.length > 20) {\n  menuItemText = menuItemText.substring(0, 17) + '...';\n}

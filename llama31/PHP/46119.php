@@ -1,1 +1,0 @@
-function Add($path, $tag)\n{\n    // ...\n\n    $tagDir = $this->FS . $this->Tag($tag) . '/';\n    if (!is_dir($tagDir)) {\n        mkdir($tagDir, 0777, true);\n    }\n\n    $file = md5_file($path);\n    $dest = $tagDir . $file . '.' . strtolower(pathinfo($path, PATHINFO_EXTENSION));\n    if (!is_file($dest)) {\n        copy($path, $dest);\n    }\n\n    // ...\n}

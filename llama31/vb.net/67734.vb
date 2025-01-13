@@ -1,1 +1,0 @@
-Dim welcomeStream As Stream = GetType(My.Resources.Resources).Assembly.GetManifestResourceStream("YourNamespace.Welcome.txt")\nDim welcomeText As String = New StreamReader(welcomeStream).ReadToEnd()\nConsole.WriteLine(welcomeText)

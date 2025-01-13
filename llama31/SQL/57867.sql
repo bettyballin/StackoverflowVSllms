@@ -1,1 +1,0 @@
-SELECT \n  c.id, \n  c.name, \n  (SELECT \n     t.id \n   FROM \n     todos t \n   WHERE \n     t.client_id = c.id \n     AND t.timestamp_completed IS NULL \n   ORDER BY \n     t.timestamp_due, \n     t.id \n   LIMIT 1) AS next_todo_id\nFROM \n  clients c;

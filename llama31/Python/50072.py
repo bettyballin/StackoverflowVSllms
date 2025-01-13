@@ -1,1 +1,0 @@
-model_a_records = ModelA.with_all_model_bs([1, 2, 3, 4, 5])

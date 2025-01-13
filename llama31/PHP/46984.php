@@ -1,1 +1,0 @@
-$request = new HttpRequest($url, HttpRequest::METH_GET);\n$request->setOptions(array(\n    'cookies' => array(\n        'PHPSESSID' => session_id()\n    )\n));

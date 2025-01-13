@@ -1,1 +1,0 @@
-ALTER TABLE tblSupplierInfo\nDROP CONSTRAINT FK_tblSupplierInfo_Supplier_Master;\n\nALTER TABLE tblSupplierInfo\nADD CONSTRAINT FK_tblSupplierInfo_Supplier_Master\nFOREIGN KEY (strSupplierID) REFERENCES Supplier_Master(Supplier_Code)\nON DELETE NO ACTION;

@@ -1,1 +1,0 @@
-class Foo:\n    def bar(self, hello: str = None) -> str:\n        return hello\n\n    def baz(self, world: int = None) -> int:\n        return world

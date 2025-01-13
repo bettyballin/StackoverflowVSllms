@@ -1,1 +1,0 @@
-SELECT COALESCE(name, email, 'Unknown') FROM customers;

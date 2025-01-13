@@ -1,1 +1,0 @@
-Sub OuterFunction()\n    Dim innerFunction As Func(Of Integer, Integer) = Function(x) x * 2\n    Console.WriteLine(innerFunction(5))  ' Outputs: 10\nEnd Sub

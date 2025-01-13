@@ -1,1 +1,0 @@
-$xpath = new DOMXPath($doc);\n$seg = $xpath->query('//seg[@id="A12"]')->item(0);\nif ($seg) {\n    $seg->parentNode->removeChild($seg);\n}

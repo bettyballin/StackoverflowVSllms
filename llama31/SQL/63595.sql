@@ -1,1 +1,0 @@
--- Example of a query with multiple left joins\nSELECT *\nFROM orders\nLEFT JOIN customers ON orders.customer_id = customers.id\nLEFT JOIN products ON orders.product_id = products.id\nLEFT JOIN order_items ON orders.id = order_items.order_id\nLEFT JOIN inventory ON products.id = inventory.product_id\nLEFT JOIN suppliers ON products.supplier_id = suppliers.id;

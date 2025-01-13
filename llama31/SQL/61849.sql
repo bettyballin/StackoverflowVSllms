@@ -1,1 +1,0 @@
-CREATE TABLE Vehicle (\n    VehicleID INT PRIMARY KEY,\n    Type VARCHAR(10) NOT NULL,  -- Discriminator column\n    Make VARCHAR(50),\n    Model VARCHAR(50),\n    Year INT,\n    -- Add columns specific to cars\n    NumDoors INT,\n    -- Add columns specific to trucks\n    Capacity INT\n);

@@ -1,1 +1,0 @@
-class Word < ActiveRecord::Base\n  has_many :links\n  has_many :synonyms, through: :links\nend\n\nclass Link < ActiveRecord::Base\n  belongs_to :word1, class_name: 'Word'\n  belongs_to :word2, class_name: 'Word'\nend

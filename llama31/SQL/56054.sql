@@ -1,1 +1,0 @@
-SELECT CONVERT(datetime, '2022-01-01 12:00:00') AT TIME ZONE 'Pacific/Auckland'

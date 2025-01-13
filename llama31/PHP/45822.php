@@ -1,1 +1,0 @@
-echo $this->translate('Hello');

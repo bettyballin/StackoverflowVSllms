@@ -1,1 +1,0 @@
-$gpio = new GPIO();\n$gpio->setup(17, "out");\n\n// Set pin 17 high\n$gpio->output(17, 1);\n\n// Set pin 17 low\n$gpio->output(17, 0);

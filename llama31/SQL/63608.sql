@@ -1,1 +1,0 @@
-SELECT a.name, \n       LTRIM(SYS_CONNECT_BY_PATH(b.name, ', '), ', ') AS brands\nFROM alert a\nJOIN alert_brand_xref ab ON a.id = ab.alert_id\nJOIN brand b ON ab.brand_id = b.id\nSTART WITH a.id = a.id\nCONNECT BY PRIOR a.id = a.id AND PRIOR ab.brand_id < ab.brand_id\nGROUP BY a.name\nORDER BY a.name;

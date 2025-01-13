@@ -1,1 +1,0 @@
-$(document).ready(function() {\n  $('#inputbox').keypress(function(event) {\n    var character = String.fromCharCode(event.keyCode);\n    if (!character.match(/^\d$/)) {\n      event.preventDefault();\n      return false;\n    }\n  });\n});

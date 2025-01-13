@@ -1,1 +1,0 @@
-$existingItems = $_SESSION['items'];\n$newItems = $_POST['items'];\n$mergedItems = array_merge($existingItems, $newItems);\n$_SESSION['items'] = $mergedItems;

@@ -1,1 +1,0 @@
-onSuccess: function(transport) {\n  var contentType = transport.getResponseHeader('Content-Type');\n  if (contentType === 'application/json') {\n    // process the responseText as JSON\n  }\n}

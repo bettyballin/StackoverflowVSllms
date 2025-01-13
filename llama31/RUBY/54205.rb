@@ -1,1 +1,0 @@
-class MyResource < ActiveResource::Base\n  self.site = "http://example.com"\nend\n\nresource = MyResource.new(:id => 123, :name => "My Resource")\nresource.send(:create)

@@ -1,1 +1,0 @@
-function gridViewButton_Click() {\n    var hiddenFieldValue = document.getElementById('<%= HiddenField1.ClientID %>').value;\n    reloadUpdatePanel(hiddenFieldValue);\n}

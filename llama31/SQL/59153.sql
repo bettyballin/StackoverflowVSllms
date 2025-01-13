@@ -1,1 +1,0 @@
-SELECT \n    MAX(CASE WHEN column_name = 'column1' THEN row_value END) AS column1,\n    MAX(CASE WHEN column_name = 'column2' THEN row_value END) AS column2,\n    MAX(CASE WHEN column_name = 'column3' THEN row_value END) AS column3\nFROM \n    your_table;

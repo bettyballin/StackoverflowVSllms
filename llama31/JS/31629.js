@@ -1,1 +1,0 @@
-$.ajax({\n    type: 'POST',\n    url: '/update',\n    data: {\n        // your data here\n        _token: $('meta[name="csrf-token"]').attr('content')\n    }\n});

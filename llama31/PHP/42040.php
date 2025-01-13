@@ -1,1 +1,0 @@
-// Example of secure password hashing using bcrypt\n$password = 'my_password';\n$hashed_password = password_hash($password, PASSWORD_BCRYPT);

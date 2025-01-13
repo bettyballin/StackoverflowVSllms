@@ -1,1 +1,0 @@
--- Enable CDC on the warehouse database\nEXEC sys.sp_cdc_add_job 'Warehouse';\n\n-- Create a CDC capture instance\nEXEC sys.sp_cdc_add_capture 'Warehouse', 'CDC_Capture';\n\n-- Create a CDC cleanup instance\nEXEC sys.sp_cdc_add_cleanup 'Warehouse', 'CDC_Cleanup';

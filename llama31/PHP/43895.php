@@ -1,1 +1,0 @@
-preg_replace('~(?<!^)(?=[A-Z])~', ' $0', $string);

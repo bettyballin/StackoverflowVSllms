@@ -1,1 +1,0 @@
-// Libraries (built-in classes)\nnamespace App\Libraries;\n\nclass Security {\n    // ...\n}\n\n// Plugins (optional classes)\nnamespace App\Plugins;\n\nclass Form {\n    // ...\n}

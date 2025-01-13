@@ -1,1 +1,0 @@
-<interceptors>\n    <interceptor name="sessionInterceptor" class="com.example.SessionInterceptor" />\n</interceptors>\n\n<action name="myAction" class="com.example.MyAction">\n    <interceptor-ref name="sessionInterceptor" />\n    <result name="success">/success.jsp</result>\n    <result name="login">/login.jsp</result>\n</action>

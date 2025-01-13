@@ -1,1 +1,0 @@
-let previousType = null;\n\n// Repeater loop\ndata.forEach((item) => {\n  if (item.Type !== previousType) {\n    // Show the Type column\n    console.log(item.Type);\n    previousType = item.Type;\n  }\n  // Show the other columns\n  console.log(`  - ${item.Thing}`);\n});

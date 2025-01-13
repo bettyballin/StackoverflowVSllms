@@ -1,1 +1,0 @@
-// Include a CSRF token in the AJAX request\nvar csrfToken = $('meta[name="csrf-token"]').attr('content');\n$.ajax({\n    type: 'POST',\n    url: url,\n    data: {\n        username: $('#username').val(),\n        password: $('#password').val(),\n        csrfToken: csrfToken\n    }\n});

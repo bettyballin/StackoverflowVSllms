@@ -1,1 +1,0 @@
-PageBot.prototype.locateElementByNg = function(text, inDocument) {\n    var xpath = ".//*[contains(@ng-" + text + ")]";\n    return this.locateElementByXpath(xpath, inDocument);\n};

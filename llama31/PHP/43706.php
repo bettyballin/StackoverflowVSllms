@@ -1,1 +1,0 @@
-<?php\n$url = $_GET['url'];\n$ch = curl_init($url);\ncurl_setopt($ch, CURLOPT_RETURNTRANSFER, true);\n$response = curl_exec($ch);\ncurl_close($ch);\nheader('Content-Type: application/xml');\necho $response;\n?>

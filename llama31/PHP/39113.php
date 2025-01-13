@@ -1,1 +1,0 @@
-function yourmodule_theme_button($element) {\n  // Add the span tag inside the button\n  $element['#value'] = '<span>' . $element['#value'] . '</span>';\n  // Return the modified element\n  return $element;\n}

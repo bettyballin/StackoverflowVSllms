@@ -1,1 +1,0 @@
-SELECT department, AVG(salary) AS avg_salary\nFROM employees\nGROUP BY GROUPING SETS ((department), ())

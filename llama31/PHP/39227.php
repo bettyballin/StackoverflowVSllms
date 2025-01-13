@@ -1,1 +1,0 @@
-<?php echo $this->partial('_header.phtml', array('form' => $this->form)) ?>

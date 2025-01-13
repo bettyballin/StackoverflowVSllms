@@ -1,1 +1,0 @@
-const url = "getchat.php?latest=" + encodeURIComponent(latest);

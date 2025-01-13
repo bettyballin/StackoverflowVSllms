@@ -1,1 +1,0 @@
-function setRadioGroup(nombreRadio){\n    var listaRadios = document.getElementsByTagName('input');\n    var tam = listaRadios.length;\n    for (i = 0; i < tam; i++){\n        if (listaRadios[i].type == 'radio' && listaRadios[i].title == 'Seleccionar'){\n            listaRadios[i].setAttribute('name', nombreRadio);\n        }\n    }\n}

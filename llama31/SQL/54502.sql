@@ -1,1 +1,0 @@
-CREATE TRIGGER trg_example\nAFTER INSERT, UPDATE, DELETE ON mytable\nFOR EACH ROW\nBEGIN\n    IF ACTION = 'INSERT' THEN\n        -- Handle insert operation\n    ELSIF ACTION = 'UPDATE' THEN\n        -- Handle update operation\n    ELSIF ACTION = 'DELETE' THEN\n        -- Handle delete operation\n    END IF;\nEND;

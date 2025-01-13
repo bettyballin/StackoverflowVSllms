@@ -1,1 +1,0 @@
-ALTER TABLE your_table_name\nCHANGE COLUMN your_column_name your_column_name INT COMMENT 'deprecated';

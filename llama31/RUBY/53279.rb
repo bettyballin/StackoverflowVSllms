@@ -1,1 +1,0 @@
-class MyClass {\n  def apply(str: String) = println(str)\n}\n\nval obj = new MyClass\nobj("Bar")

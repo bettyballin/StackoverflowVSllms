@@ -1,1 +1,0 @@
-sentence = "these are words"\nwords = sentence.split()\nprint(words)  # Output: ["these", "are", "words"]

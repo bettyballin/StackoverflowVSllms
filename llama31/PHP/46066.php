@@ -1,1 +1,0 @@
-$encryptedUsername = $_GET['encrypted_username']; // or $_POST, depending on your implementation\n$secretKey = 'your_secret_key_here';\n$username = decrypt($encryptedUsername, $secretKey);\necho "Hello, $username!";

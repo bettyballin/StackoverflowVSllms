@@ -1,1 +1,0 @@
-declare @temp table(RowID int not null identity(1,1) primary key, SomeColumn varchar(50))\ninsert into @temp select 'SomeVal'\nselect * from @temp

@@ -1,1 +1,0 @@
-CONVERT(VARCHAR(20), 123.45, 1) -- uses the default culture\nCONVERT(VARCHAR(20), 123.45, 103) -- uses the German culture ( comma as decimal separator)

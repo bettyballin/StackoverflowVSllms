@@ -1,1 +1,0 @@
-SELECT \n    @@SERVERNAME AS LocalServerName,\n    s.name AS LinkedServerName,\n    s.product AS LinkedServerProduct,\n    s.provider AS LinkedServerProvider,\n    s.catalog AS LinkedServerCatalog\nFROM \n    sys.servers s\nWHERE \n    s.server_id = <linked_server_id>;

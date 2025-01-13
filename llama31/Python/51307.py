@@ -1,1 +1,0 @@
-from fractions import Fraction\n\ndef float_to_fraction(x):\n    return str(Fraction(x).limit_denominator())\n\nprint(float_to_fraction(0.33))  # Output: 1/3\nprint(float_to_fraction(0.4))   # Output: 2/5

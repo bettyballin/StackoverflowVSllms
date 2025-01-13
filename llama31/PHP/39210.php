@@ -1,1 +1,0 @@
-$data = array('name' => 'John', 'age' => 30);\necho json_encode($data);

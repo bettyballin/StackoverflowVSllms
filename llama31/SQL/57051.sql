@@ -1,1 +1,0 @@
-SELECT DISTINCT p1.Branch, p1.Patient\nFROM Prescriptions p1\nJOIN Prescriptions p2 ON p1.Patient = p2.Patient AND p1.DateOfTest < p2.DateOfTest\nWHERE p2.DateOfTest - p1.DateOfTest < INTERVAL '6 month';

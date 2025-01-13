@@ -1,1 +1,0 @@
-<log4net>\n    <root>\n        <level value="DEBUG" />\n        <appender-ref ref="RollingFileAppender" />\n    </root>\n\n    <logger name="MyLogger">\n        <level value="DEBUG" />\n    </logger>\n\n    <appender name="RollingFileAppender" type="log4net.Appender.RollingFileAppender">\n        <!-- ... -->\n    </appender>\n</log4net>

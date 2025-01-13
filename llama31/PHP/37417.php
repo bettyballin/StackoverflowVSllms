@@ -1,1 +1,0 @@
-class MyClass {\n    var $foo; // equivalent to public $foo;\n    public $bar;\n}

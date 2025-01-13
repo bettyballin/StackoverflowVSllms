@@ -1,1 +1,0 @@
-CREATE VIEW MyView\nAS\nWITH CalculatedValues AS (\n  SELECT Col1, Col2, dbo.fn1(col2) AS Col3\n  FROM TestTable\n)\nSELECT Col1, Col2, Col3, dbo.fn3(Col3) AS Col4\nFROM CalculatedValues;

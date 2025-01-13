@@ -1,1 +1,0 @@
-$arr = array();\nforeach ($yourData as $node) {\n    $tmp = array();\n    if ($condition) {\n        $tmp["value"] = $node->nodeValue;\n    } else {\n        $tmp["string"] = $node->nodeValue;\n    }\n    $arr[] = $tmp;\n}

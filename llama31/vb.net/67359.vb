@@ -1,1 +1,0 @@
-Private Sub ValidatableLabel_Validating(sender As Object, e As EventArgs) Handles ValidatableLabel.Validating\n    ' Your validation logic here\nEnd Sub

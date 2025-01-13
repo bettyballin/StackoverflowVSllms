@@ -1,1 +1,0 @@
-// Assume you have a container with an ID of "container1"\nvar updateInterval = 30000; // 30 seconds\n\nsetInterval(function() {\n    $.ajax({\n        type: "GET",\n        url: "/GetDataForContainer1",\n        success: function(data) {\n            $("#container1").html(data);\n        }\n    });\n}, updateInterval);

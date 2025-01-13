@@ -1,1 +1,0 @@
-// Assuming you have the Facebook JavaScript SDK loaded\nFB.login(function(response) {\n  if (response.authResponse) {\n    var accessToken = response.authResponse.accessToken;\n    var facebookUserId = response.authResponse.userID;\n    // Send the access token and Facebook user ID to your server to authenticate\n    // ...\n  }\n});

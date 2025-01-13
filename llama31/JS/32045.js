@@ -1,1 +1,0 @@
-var div_html = $('#myDiv').html();\nvar data = {\n    id: currid,\n    html: div_html\n};\n\n$.ajax({\n    type: "POST",\n    url: "file.php",\n    data: JSON.stringify(data),\n    contentType: "application/json",\n    // ...\n});

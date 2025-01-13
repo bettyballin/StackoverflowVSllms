@@ -1,1 +1,0 @@
-<?php include("header.php"); ?>\n    <h2 class="clear">This is the contact page</h2>\n    <p>\n        Main content here... Main content here... Main content here... Main content here...\n        Main content here... Main content here... Main content here... Main content here...\n    </p>\n</div>\n<?php include("footer.php"); ?>

@@ -1,1 +1,0 @@
-$myvariable = isset($myvariable) ? $myvariable : null;\nif ($myvariable !== "" && $myvariable !== null) {\n    // do something\n}

@@ -1,1 +1,0 @@
--- Query 1: Joining two fields together\nselect * from t1, t2 \nwhere t1.country='US' and t2.country=t1.country and t1.id=t2.id\n\n-- Query 2: Comparing each field to the same constant\nselect * from t1, t2 \nwhere t1.country='US' and t2.country='US' and t1.id=t2.id

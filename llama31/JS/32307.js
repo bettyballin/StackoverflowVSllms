@@ -1,1 +1,0 @@
-function passDataToParentPage(data) {\n    // Use the data passed from the server-side code\n    window.opener.document.getElementById("TextBox1").value = data;\n    window.close();\n}

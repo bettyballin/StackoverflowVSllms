@@ -1,1 +1,0 @@
-<!-- WaveMaker project structure -->\n<project>\n  <pages>\n    <page id="home">\n      <components>\n        <button id="btnSubmit" text="Submit" />\n        <text id="txtName" label="Name" />\n      </components>\n    </page>\n  </pages>\n  <services>\n    <service id="myService" type="php" />\n  </services>\n</project>

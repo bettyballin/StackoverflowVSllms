@@ -1,1 +1,0 @@
-CREATE TABLE table1 (\n  id INT PRIMARY KEY,\n  firstName VARCHAR(50),\n  lastName VARCHAR(50),\n  address VARCHAR(100)\n);\n\nCREATE TABLE table1_lifeStory (\n  id INT PRIMARY KEY,\n  lifeStory TEXT,\n  FOREIGN KEY (id) REFERENCES table1(id)\n);

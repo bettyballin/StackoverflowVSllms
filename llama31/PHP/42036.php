@@ -1,1 +1,0 @@
-// Example of error handling using try-catch blocks\ntry {\n    // code that may throw an exception\n} catch (Exception $e) {\n    error_log($e->getMessage());\n}

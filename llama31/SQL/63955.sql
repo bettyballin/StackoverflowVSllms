@@ -1,1 +1,0 @@
--- Up method\nCREATE TABLE users (\n    id INT PRIMARY KEY,\n    name VARCHAR(255)\n);\n\n-- Down method\nDROP TABLE users;

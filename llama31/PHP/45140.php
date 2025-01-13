@@ -1,1 +1,0 @@
-$label = "This is a sigma character: " . utf8_encode("σ");

@@ -1,1 +1,0 @@
-$('#externalButton').on('click', function() {\n  $('#MyForm').ajaxSubmit({\n    success: function() {\n      console.log('Form submitted successfully');\n    }\n  });\n});

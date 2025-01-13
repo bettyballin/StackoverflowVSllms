@@ -1,1 +1,0 @@
-GRANT EXECUTE ON PROCEDURE my_procedure TO my_user;

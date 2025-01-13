@@ -1,1 +1,0 @@
-$sql="UPDATE blpublication SET JournalName = '$_POST[journal]', AcceptanceDate = '$_POST[acceptancedate]', PublishedDate = '$_POST[publisheddate]', Comment = '$_POST[comment]'\nWHERE JobNo = '$_POST[jobno]'";\n\nif (!mysql_query($sql,$con))\n  {\n  die('Error: ' . mysql_error());\n  }\necho "record Updated";

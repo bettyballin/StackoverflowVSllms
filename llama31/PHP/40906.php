@@ -1,1 +1,0 @@
-disable_classes = SoapClient, SoapServer, SoapFault, SoapHeader, SoapParam

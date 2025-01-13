@@ -1,1 +1,0 @@
-Dim connectionString As String = "Data Source=your_server_name;Initial Catalog=your_database_name;User ID=your_username;Password=your_password;"

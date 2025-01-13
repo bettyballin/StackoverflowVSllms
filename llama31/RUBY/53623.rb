@@ -1,1 +1,0 @@
-<div>\n    @Model.Name\n    @Model.Email\n</div>

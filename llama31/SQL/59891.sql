@@ -1,1 +1,0 @@
-SELECT m.* \nFROM mytree m \nLEFT JOIN mytree p ON m.id = p.parentid \nWHERE p.id IS NULL

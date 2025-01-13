@@ -1,1 +1,0 @@
-mapping = {\n    'input_1': {'output_1': 'template_1', 'output_2': 'template_2'},\n    'input_2': {'output_3': 'template_3', 'output_4': 'template_4'},\n    ...\n}

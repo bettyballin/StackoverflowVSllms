@@ -1,1 +1,0 @@
-class User < ApplicationRecord\n  # ...\n  def avatar\n    # Return the BLOB data as a String\n    self[:avatar]\n  end\nend

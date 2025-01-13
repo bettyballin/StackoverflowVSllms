@@ -1,1 +1,0 @@
-$s = <<<END\nFirst row.\nSecond row w/ "double quotes" and backslash: \.\nEND;\n\n$s = json_encode_safe($s);\necho $s;

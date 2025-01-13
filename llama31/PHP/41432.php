@@ -1,1 +1,0 @@
-while ($row = mysql_fetch_array($result, MYSQL_NUM)) {\n    $content = $row[0][1]; // Post Content\n    $title = $row[1][1]; // Post Title\n    // ...\n}

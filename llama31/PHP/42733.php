@@ -1,1 +1,0 @@
-<?php\n// Connect to a MySQL database\n$db = new PDO('mysql:host=localhost;dbname=mydatabase', 'username', 'password');\n\n// Execute a query\n$stmt = $db->prepare('SELECT * FROM mytable');\n$stmt->execute();\n\n// Fetch results\n$results = $stmt->fetchAll();\n\n// Print results\nforeach ($results as $row) {\n    echo $row['column_name'] . "\n";\n}

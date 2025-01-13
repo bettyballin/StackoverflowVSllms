@@ -1,1 +1,0 @@
-$image = imagecreatefromjpeg('input.jpg'); // replace with your image file\nimagefilter($image, IMG_FILTER_GRAYSCALE);\nimagejpeg($image, 'output.jpg'); // save the greyscale image\nimagedestroy($image);

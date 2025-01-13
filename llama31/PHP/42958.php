@@ -1,1 +1,0 @@
-exec('/usr/bin/logger -t "PHP Log" -p info "This is a log message from PHP"');

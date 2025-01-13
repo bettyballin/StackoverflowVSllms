@@ -1,1 +1,0 @@
-// In YourModule\View\Helper\ObjectName.php\nnamespace YourModule\View\Helper;\n\nuse YourModule\Model\Object;\n\nclass ObjectName extends \Zend\View\Helper\AbstractHelper\n{\n    public function __invoke(Object $object)\n    {\n        return $object->getName();\n    }\n}

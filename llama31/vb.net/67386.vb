@@ -1,1 +1,0 @@
-sclient = New UdpClient(port)

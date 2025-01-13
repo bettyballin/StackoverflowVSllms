@@ -1,1 +1,0 @@
-CREATE INDEX idx_Employee_RefDepartmentID_EmployeeID \nON Employee (RefDepartmentID, EmployeeID);

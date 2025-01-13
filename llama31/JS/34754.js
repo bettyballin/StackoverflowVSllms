@@ -1,1 +1,0 @@
-const form = document.getElementById('file-upload-form');\nconst iframe = document.getElementById('upload-iframe');\n\nform.addEventListener('submit', (e) => {\n    e.preventDefault();\n    iframe.src = '/upload';\n    form.target = 'upload-iframe';\n    form.submit();\n});

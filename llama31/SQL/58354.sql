@@ -1,1 +1,0 @@
-CREATE OR REPLACE PROCEDURE caller_procedure AS\n  v_id_rifatt_segn0 NUMBER;\nBEGIN\n  RIFATT_SEGN0_INS(v_id_rifatt_segn0, 'dossier_number', 123, SYSDATE, ...);\n  DBMS_OUTPUT.PUT_LINE('Output value: ' || v_id_rifatt_segn0);\nEND;

@@ -1,1 +1,0 @@
-function PopulateSeriesFields(result) {\n    data = $.parseJSON(result);\n    var myFakeExample = data.exampleType;\n}

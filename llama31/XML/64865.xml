@@ -1,1 +1,0 @@
-<bindings>\n    <netMsmqBinding>\n        <binding>\n            <security mode="Transport">\n                <transport msdtcClientCredentialType="Windows"\n                           clientCredentialType="Windows" />\n            </security>\n        </binding>\n    </netMsmqBinding>\n</bindings>

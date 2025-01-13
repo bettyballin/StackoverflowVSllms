@@ -1,1 +1,0 @@
-# Recursion\ndef fibonacci(n):\n    if n <= 1:\n        return n\n    return fibonacci(n-1) + fibonacci(n-2)\n\n# Memoization\ndef fibonacci_memo(n, memo={}):\n    if n in memo:\n        return memo[n]\n    if n <= 1:\n        return n\n    result = fibonacci_memo(n-1, memo) + fibonacci_memo(n-2, memo)\n    memo[n] = result\n    return result

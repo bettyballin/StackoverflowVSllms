@@ -1,1 +1,0 @@
-function hex2dec(hex){\n    if(!(/^[0-9A-Fa-f]*$/i.test(hex)))\n        return "Invalid hexadecimal number";\n    hex = hex.replace(/^(0x)?/,"");\n    if(hex=="") hex=0;\n    return parseInt(hex,16);\n}

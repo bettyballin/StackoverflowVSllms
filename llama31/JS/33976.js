@@ -1,1 +1,0 @@
-// Using Date.now()\nconst timestamp = Date.now();\n\n// Using getTime()\nconst timestamp = new Date().getTime();\n\n// Using the valueOf() method\nconst timestamp = new Date().valueOf();

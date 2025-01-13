@@ -1,1 +1,0 @@
-<script type="text/javascript">\n  $(document).ready(function() {\n    var list = $('table.ms-listviewtable');\n    if (list.find('tr').length == 0) {\n      $('<tr><td colspan="99">Your list is empty. Please follow these guidelines: ...</td></tr>').appendTo(list);\n    }\n  });\n</script>

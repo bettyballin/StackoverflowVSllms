@@ -1,1 +1,0 @@
-CREATE TABLE report_table_row_counts (\n    table_name VARCHAR(50),\n    row_count INTEGER\n);\n\nINSERT INTO report_table_row_counts (table_name, row_count)\nSELECT table_name, COUNT(*) \nFROM information_schema.tables \nWHERE table_schema = 'public' \nGROUP BY table_name;

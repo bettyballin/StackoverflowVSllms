@@ -1,1 +1,0 @@
-$colId = new Zend_Form_Element_MultiCheckbox('colId');\n$colId->setLabel('Col ID')\n    ->setMultiOptions(array_flip(array('sadda', 'asss')));\n\n$checkboxes = $colId->getMultiOptions();\nforeach ($checkboxes as $value => $label) {\n    if ($value == 'sadda') {\n        $colId->setAttrib("disabled-$value", true);\n    }\n}

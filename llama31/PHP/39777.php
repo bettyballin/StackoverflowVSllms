@@ -1,1 +1,0 @@
-require_once 'config.inc.php';\n$user = new user(1, $DB);

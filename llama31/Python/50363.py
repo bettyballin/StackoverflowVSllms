@@ -1,1 +1,0 @@
-import base64\n\nwith open('input_binary_file', 'rb') as f:\n    binary_data = f.read()\n\nascii_data = base64.b64encode(binary_data).decode('utf-8')\n\nwith open('output_ascii_file', 'w') as f:\n    f.write(ascii_data)

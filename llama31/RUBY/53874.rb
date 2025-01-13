@@ -1,1 +1,0 @@
-model.update_columns(created_at: legacy_data['created_at'], updated_at: legacy_data['updated_at'])

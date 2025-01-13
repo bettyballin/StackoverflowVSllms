@@ -1,1 +1,0 @@
-if ($files['error'][$i] !== UPLOAD_ERR_OK) {\n    // handle the error\n}

@@ -1,1 +1,0 @@
-avigator.geolocation.getCurrentPosition(position => {\n  const latitude = position.coords.latitude;\n  const longitude = position.coords.longitude;\n  // Use the latitude and longitude as needed\n});

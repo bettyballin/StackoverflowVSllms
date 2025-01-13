@@ -1,1 +1,0 @@
-class MyClass {\n    private $dependency;\n\n    public function __construct(Dependency $dependency) {\n        $this->dependency = $dependency;\n    }\n\n    public function doSomething() {\n        // Perform complex operation using the dependency\n    }\n}\n\n// Usage:\n$myClass = new MyClass($dependency);\n$myClass->doSomething();

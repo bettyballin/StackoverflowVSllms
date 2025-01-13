@@ -1,1 +1,0 @@
-<behaviors>\n  <serviceBehaviors>\n    <behavior name="YourServiceBehavior">\n      <serviceMetadata httpsGetEnabled="true" />\n    </behavior>\n  </serviceBehaviors>\n</behaviors>

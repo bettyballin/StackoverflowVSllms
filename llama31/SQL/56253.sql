@@ -1,1 +1,0 @@
-SELECT \n    p.ParentName, \n    c.CountPropertys, \n    c.DateTimeStamp\nFROM \n    dbo_Parents p\nINNER JOIN \n    dbo_ChildEntry c ON p.ParentID = c.ParentID\nWHERE \n    c.DateTimeStamp = (\n        SELECT MAX(DateTimeStamp) \n        FROM dbo_ChildEntry \n        WHERE ParentID = p.ParentID\n    )

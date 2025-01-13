@@ -1,1 +1,0 @@
-BEGIN\n  DBMS_STATS.GATHER_TABLE_STATS(null, 'my_table');\nEND;\n/

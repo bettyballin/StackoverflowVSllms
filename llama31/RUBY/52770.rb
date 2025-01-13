@@ -1,1 +1,0 @@
-result = ProductsSold.find_by_sql(query)

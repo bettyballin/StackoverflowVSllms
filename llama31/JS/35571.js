@@ -1,1 +1,0 @@
-// Create a bait ad\nvar ad = document.createElement('div');\nad.innerHTML = '<img src="ad-banner.jpg" width="300" height="250">';\n\n// Append the ad to the page\ndocument.body.appendChild(ad);\n\n// Check if the ad is loaded\nif (ad.offsetHeight === 0) {\n  // AdBlocker detected\n  console.log('AdBlocker detected');\n}

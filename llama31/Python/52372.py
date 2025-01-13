@@ -1,1 +1,0 @@
-import random\npivot_index = random.randint(0, len(array) - 1)\npivot = array[pivot_index]

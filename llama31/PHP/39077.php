@@ -1,1 +1,0 @@
-function phptemplate_views_view_list($view, $nodes, $type) {\n  switch ($view->name) {\n    case 'recent_articles':\n    case 'popular_articles':\n      // Your code here\n      break;\n  }\n}

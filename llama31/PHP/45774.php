@@ -1,1 +1,0 @@
-$users_in_range = users_in_range($lat, $long, 500, true);\n\n// Get an array of just the user IDs\n$user_ids = array_keys($users_in_range);\n\n// Implode the user IDs into a MySQL-friendly list\n$comma_separated = implode(",", $user_ids);\n\necho $comma_separated;

@@ -1,1 +1,0 @@
-Sub DecryptFileExample()\n    Dim encryptedFile As String\n    Dim privateKey As String\n    \n    encryptedFile = "path/to/encrypted/file.pgp"\n    privateKey = "path/to/private/key.asc"\n    \n    DecryptFile encryptedFile, privateKey\nEnd Sub

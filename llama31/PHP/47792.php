@@ -1,1 +1,0 @@
-$twitter = new TweetPHP();\n$tweets = $twitter->getUserTimeline('YOUR_USERNAME', 10, array('exclude_replies' => true));

@@ -1,1 +1,0 @@
-CREATE TABLE MyTable (\n    MyColumn decimal(10, 2)\n);\n\nINSERT INTO MyTable (MyColumn) VALUES (123.66);\n\nSELECT MyColumn FROM MyTable;

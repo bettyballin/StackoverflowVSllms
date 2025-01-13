@@ -1,1 +1,0 @@
-$output = '';\nforeach ($files as $filename) {\n    $contents = file_get_contents($filename);\n    $encoding = mb_detect_encoding($contents, 'UTF-8, ISO-8859-1', true);\n    if ($encoding === 'UTF-8') {\n        $contents = utf8_decode($contents);\n    }\n    $output .= $contents . "\n";\n}\nfile_put_contents('combined.txt', $output);

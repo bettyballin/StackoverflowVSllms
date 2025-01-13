@@ -1,1 +1,0 @@
-INSERT INTO search_results (search_id, result_id)\nVALUES\n  (1, 10),\n  (1, 20),\n  (2, 30),\n  ...;

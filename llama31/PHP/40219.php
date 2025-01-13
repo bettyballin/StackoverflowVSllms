@@ -1,1 +1,0 @@
-$str = preg_replace('/^[ \t]*$\r?\n/m', '', $str);

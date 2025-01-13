@@ -1,1 +1,0 @@
-DECLARE @sql nvarchar(max);\nDECLARE @bob varchar(50) = 'SweetDB';\n\nSET @sql = 'USE [' + @bob + ']; INSERT INTO [dbo].[ProjectVersion] ([DB_Name], [Script]) VALUES (@bob, ''1.2'')';\n\nEXEC sp_executesql @sql, N'@bob varchar(50)', @bob = @bob;

@@ -1,1 +1,0 @@
-$string = "hello";\n$array = str_split($string);\nprint_r($array);

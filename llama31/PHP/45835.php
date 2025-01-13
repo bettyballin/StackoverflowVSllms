@@ -1,1 +1,0 @@
-echo "<h1>hello</h1>\n<div id='form'>\n<a href='#' onclick=\"createpopup(" . json_encode($formcode) . "); return false;\">\nclick here</a>\n</div>";

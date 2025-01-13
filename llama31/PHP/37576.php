@@ -1,1 +1,0 @@
-$string = "hello, this is some email copy-- check this out\n --\n Tom Foolery";\n$signatureDelimiter = '--';\n\n$lastOccurrence = strrpos($string, $signatureDelimiter);\nif ($lastOccurrence !== false) {\n    $string = substr($string, 0, $lastOccurrence);\n}\n\necho $string;

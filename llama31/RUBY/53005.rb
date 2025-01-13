@@ -1,1 +1,0 @@
-group :development, :test do\n  gem 'rspec-rails', '~> 4.0'\nend

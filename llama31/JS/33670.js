@@ -1,1 +1,0 @@
-window.open('http://example.com', '_blank');

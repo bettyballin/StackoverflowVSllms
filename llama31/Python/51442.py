@@ -1,1 +1,0 @@
-TEST_DISCOVERY_PATTERN = 'tests/**/*_test*.py'

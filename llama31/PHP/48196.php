@@ -1,1 +1,0 @@
-require_once 'getid3/getid3.php';\n\n$getID3 = new getID3;\n$getID3->setFormat('mp3');\n\n$ SpeexFile = 'input.spx';\n$mp3File = 'output.mp3';\n\n$getID3->convert($SpeexFile, $mp3File);

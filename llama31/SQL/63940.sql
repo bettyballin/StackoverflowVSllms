@@ -1,1 +1,0 @@
-CREATE FUNCTION "update_times" () RETURNS trigger AS '\n    BEGIN\n        NEW.update_time = NOW();\n        RETURN NEW;\n    END;'\nLANGUAGE "plpgsql";\n\nCREATE TRIGGER test_update_time BEFORE UPDATE ON contact FOR EACH ROW EXECUTE PROCEDURE update_times();

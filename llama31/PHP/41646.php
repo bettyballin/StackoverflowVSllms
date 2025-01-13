@@ -1,1 +1,0 @@
-// Example order data review function\nfunction review_order_data($order_id) {\n    $order_data = get_order_data($order_id);\n    log_checkout('Order review', $order_data);\n    // Check for any unusual patterns in the order data\n    if ($order_data['product_id'] == 'specific_product_id') {\n        log_checkout('Suspicious product ID', $order_data);\n    }\n}

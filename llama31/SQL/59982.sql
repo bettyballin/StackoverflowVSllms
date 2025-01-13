@@ -1,1 +1,0 @@
-UPDATE WebbikesProducts \nSET Price = Price * 1.05 \nWHERE ISNUMERIC(SUBSTRING(UniqueID, LEN(UniqueID) - 2, 3)) = 1 \nAND CONVERT(INT, SUBSTRING(UniqueID, LEN(UniqueID) - 2, 3)) = 125

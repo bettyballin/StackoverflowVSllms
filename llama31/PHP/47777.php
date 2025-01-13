@@ -1,1 +1,0 @@
-// Generate JSON cache\n$data = // retrieve data from database\n$cacheFile = 'path/to/cache/dir/data.json';\n$jsonData = json_encode($data);\nfile_put_contents($cacheFile, $jsonData);\n\n// Parse JSON cache\n$cacheFile = 'path/to/cache/dir/data.json';\n$jsonData = file_get_contents($cacheFile);\n$data = json_decode($jsonData, true, 512, JSON_THROW_ON_ERROR);

@@ -1,1 +1,0 @@
-$mh = curl_multi_init();\nwhile($dbo = pg_fetch_object($dbres))\n{\n   $ch = curl_init();\n   curl_setopt($ch, CURLOPT_URL, $dbo->url);\n   // ...\n   curl_multi_add_handle($mh, $ch);\n}\ncurl_multi_exec($mh, $active);\ncurl_multi_close($mh);

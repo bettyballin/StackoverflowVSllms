@@ -1,1 +1,0 @@
-DECLARE @PageNumber INT = 2\nDECLARE @PageSize INT = 10\n\nSELECT *\nFROM (\n    SELECT *, ROW_NUMBER() OVER (ORDER BY Id) AS RowNum\n    FROM YourTable\n) AS PagedTable\nWHERE RowNum BETWEEN (@PageNumber - 1) * @PageSize + 1 AND @PageNumber * @PageSize

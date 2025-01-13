@@ -1,1 +1,0 @@
-DECLARE @insert NVARCHAR(MAX)\nDECLARE @params NVARCHAR(MAX)\n\nSELECT @insert = 'INSERT INTO [dbo].[' + @table + '] VALUES (@message)'\nSELECT @params = '@message NVARCHAR(MAX)'\n\nEXEC sp_executesql @insert, @params, @message = @message

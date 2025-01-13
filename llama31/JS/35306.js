@@ -1,1 +1,0 @@
-<script>\n    $(document).ready(function () {\n        $('#lstItems').multiselect({\n            includeSelectAllOption: true\n        });\n    });\n</script>

@@ -1,1 +1,0 @@
-$.when(\n  $.getJSON("/values/1"),\n  $.getJSON("/values/2")\n).then(function(data1, data2) {\n  var value_1 = data1.value;\n  var value_2 = data2.value;\n  var sum = value_1 + value_2;\n  $('#mynode').html(sum);\n});

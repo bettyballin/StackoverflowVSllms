@@ -1,1 +1,0 @@
-// Get the repeater element\nvar repeater = document.getElementById('myRepeater');\n\n// Create a new row element\nvar newRow = document.createElement('tr');\nnewRow.innerHTML = '<td>Column 1</td><td>Column 2</td>';\n\n// Append the new row to the repeater\nrepeater.appendChild(newRow);

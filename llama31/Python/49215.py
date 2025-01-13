@@ -1,1 +1,0 @@
-from myframework.addons import get_plugin\n\nfoo_plugin = get_plugin('foo')\nif foo_plugin:\n    # Use the foo plugi

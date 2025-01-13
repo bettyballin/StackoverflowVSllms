@@ -1,1 +1,0 @@
--- Disable all foreign key constraints on a table\nALTER TABLE [TableName] NOCHECK ALL;

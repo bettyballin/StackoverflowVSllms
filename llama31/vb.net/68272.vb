@@ -1,1 +1,0 @@
-Imports System.Diagnostics\n\nSub parseId(id As Integer)\n    Dim frame As StackFrame = New StackFrame(1)\n    Dim variableName As String = frame.GetMethod().GetParameters()(0).Name\n    ' Use id and variableName as needed\nEnd Sub\n\nDim myId As Integer = 123\nparseId(myId)

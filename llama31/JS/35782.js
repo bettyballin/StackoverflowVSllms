@@ -1,1 +1,0 @@
-const FileType = require('file-type');\n\nfunction getFileType(filePath) {\n  const buffer = fs.readFileSync(filePath);\n  return FileType(buffer);\n}

@@ -1,1 +1,0 @@
-<system.diagnostics>\n    <trace autoflush="true">\n      <listeners>\n        <add name="myListener" type="YourNamespace.VirtualDirectoryTraceListener" initializeData="~/VirtualDirectory/SomeLog.log" />\n      </listeners>\n    </trace>\n  </system.diagnostics>

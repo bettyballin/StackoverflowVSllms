@@ -1,1 +1,0 @@
-ALTER TABLE MyTable\nALTER COLUMN CaseSensitiveColumn VARCHAR(50) COLLATE Latin1_General_CS_AS

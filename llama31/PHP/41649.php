@@ -1,1 +1,0 @@
-function genKey($q, $seed) {\n  $key = hash_hmac('sha256', $q, $seed, true);\n  return base64_encode($key);\n}\n\nfunction checkKey($p, $q, $seed) {\n  $expectedKey = genKey($q, $seed);\n  return hash_equals($expectedKey, $p);\n}

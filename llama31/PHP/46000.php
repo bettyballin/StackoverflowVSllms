@@ -1,1 +1,0 @@
-function check_value($postID)\n{\n    $ID = $postID;\n    $cookie = explode('.', $_COOKIE['list_of_IDS']); // split cookie string into an array of IDs\n    echo 'ID:'.$ID.'-Cookie:'.implode(', ', $cookie);\n    if (in_array($ID, $cookie))\n    {\n        echo "ID is in the cookie";\n    }\n}

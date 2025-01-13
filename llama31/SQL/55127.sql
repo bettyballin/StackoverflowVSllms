@@ -1,1 +1,0 @@
--- Use comments to document code\nCREATE PROCEDURE get_customer\n  -- Retrieves customer information by ID\n  @customer_id INT\nAS\nBEGIN\n  SELECT * FROM customers WHERE id = @customer_id;\nEND;

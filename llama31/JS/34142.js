@@ -1,1 +1,0 @@
-function RecaptchaCallback(token) {\n  document.getElementById('recaptcha_challenge_field').value = token;\n  document.getElementById('recaptcha_response_field').value = token;\n}

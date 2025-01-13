@@ -1,1 +1,0 @@
-function print_var_name($var) {\n    $backtrace = debug_backtrace();\n    $line = file($backtrace[0]['file']);\n    $line = $line[$backtrace[0]['line'] - 1];\n    preg_match('/print_var_name\((\$.*)\)/', $line, $matches);\n    echo $matches[1] . "\n";\n}\n\n$FooBar = "a string";\nprint_var_name($FooBar);

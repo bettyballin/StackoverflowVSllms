@@ -1,1 +1,0 @@
-class DatabaseConnection {\n  // ...\n\n  public function __destruct() {\n    $this->closeConnection();\n  }\n}

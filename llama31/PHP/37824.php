@@ -1,1 +1,0 @@
-$injector = new DependencyInjector();\n\n// Register a dependency\n$injector->register('logger', new Logger());\n\n// Retrieve a dependency\n$logger = $injector->get('logger');

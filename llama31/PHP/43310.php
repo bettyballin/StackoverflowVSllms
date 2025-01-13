@@ -1,1 +1,0 @@
-<?php\nxdebug_start_trace('trace');\n// your code here\nxdebug_stop_trace();\n?>

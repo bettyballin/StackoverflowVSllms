@@ -1,1 +1,0 @@
-// books.php\n\n// Assuming you have a $book_id variable\n$secret_key = 'your_secret_key_here';\n$hashed_id = hash_hmac('sha256', $book_id, $secret_key);\n\n// Create the link with the hashed ID\n$link = 'books.php?id=' . $hashed_id;

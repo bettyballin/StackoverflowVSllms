@@ -1,1 +1,0 @@
-SELECT id, type, siteid, id2, type2, siteid2\nFROM (\n  SELECT T1.id, T1.type, T1.siteid, T2.id AS id2, T2.type AS type2, T2.siteid AS siteid2,\n         ROW_NUMBER() OVER (PARTITION BY T1.siteid ORDER BY T1.id) AS rn\n  FROM test T1\n  LEFT OUTER JOIN test T2 ON T1.siteid = T2.siteid AND T1.id <> T2.id\n)\nWHERE rn = 1;

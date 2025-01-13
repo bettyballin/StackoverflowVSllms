@@ -1,1 +1,0 @@
-runkit_method_add('third_party_library', 'new_method', function() {\n    return 'new result';\n});

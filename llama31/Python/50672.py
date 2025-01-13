@@ -1,1 +1,0 @@
-import os\n\ndb_username = os.environ['DB_USERNAME']\ndb_password = os.environ['DB_PASSWORD']

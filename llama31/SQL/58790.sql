@@ -1,1 +1,0 @@
-CREATE VIEW LargeTable_View\nAS\nSELECT *\nFROM [OtherDatabase].[dbo].[LargeTable]

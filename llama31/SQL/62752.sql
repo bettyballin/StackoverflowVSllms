@@ -1,1 +1,0 @@
-SELECT name \nFROM sys.tables \nWHERE type = 'U'  -- U = User-defined table

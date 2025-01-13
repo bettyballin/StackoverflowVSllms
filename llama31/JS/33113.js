@@ -1,1 +1,0 @@
-$(".account-link").on("change", function() {\n    var id = $(this).val();\n    var url = $(this).attr("href").replace("__id__", id);\n    location.href = url;\n});

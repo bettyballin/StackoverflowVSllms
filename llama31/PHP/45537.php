@@ -1,1 +1,0 @@
-$stmt = $mysqli->prepare("SELECT string_value FROM website_strings WHERE language = ?");\n$stmt->bind_param("s", $user_language);\n$stmt->execute();\n$result = $stmt->get_result();

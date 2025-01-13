@@ -1,1 +1,0 @@
-// index.php\nrequire_once 'functions.php';\n\n// Now you can use the functions\n$email = $_POST['email'];\nif (validate_email($email)) {\n    echo "Email is valid!";\n} else {\n    echo "Email is invalid.";\n}

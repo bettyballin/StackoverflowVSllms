@@ -1,1 +1,0 @@
-Dim enumerable As IEnumerable = CType(obj1, IEnumerable)\nFor Each item As Object In enumerable\n    ' do something with item\nNext

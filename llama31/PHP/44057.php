@@ -1,1 +1,0 @@
-chdir('/path/to/your/script/directory');\ninclude_once('../file.php');

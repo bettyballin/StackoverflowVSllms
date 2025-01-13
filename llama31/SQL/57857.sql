@@ -1,1 +1,0 @@
-SELECT procedure_name \nFROM all_procedures \nWHERE owner = 'PACKAGE_OWNER' \n  AND object_name = 'PACKAGE_NAME';

@@ -1,1 +1,0 @@
-UPDATE YourTable\nSET DateString = CONVERT(VARCHAR(5), DateField, 1)

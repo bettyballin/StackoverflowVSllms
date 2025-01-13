@@ -1,1 +1,0 @@
-$table = new MyTable(); // your Zend_Db_Table object\n\n// Insert data with default value of NULL for the 'my_integer_field' and 'my_date_field' columns\n$data = array(\n    'my_integer_field' => '', // will be inserted as NULL\n    'my_date_field' => '', // will be inserted as NULL\n);\n$table->insert($data, null, array('my_integer_field' => null, 'my_date_field' => null));

@@ -1,1 +1,0 @@
-<?php\n$eventDate = strtotime('2024-02-29'); // specify the event date\n$today = time();\n$daysToGo = ceil(($eventDate - $today) / 86400); // 86400 seconds in a day\n\necho "$daysToGo days to go for the great event";\n?>

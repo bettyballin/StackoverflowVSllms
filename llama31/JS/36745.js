@@ -1,1 +1,0 @@
-function getPerson(id) {\n  if (!existsInDatabase(id)) {\n    return null; // indicates that the person exists but wasn't found\n  }\n  // ...\n}\n\nconst person = getPerson(123);\nif (person === null) {\n  console.log('Person not found');\n} else {\n  console.log('Person found:', person);\n}

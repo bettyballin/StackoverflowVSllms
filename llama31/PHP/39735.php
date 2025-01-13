@@ -1,1 +1,0 @@
-$remote_addr = getenv('REMOTE_ADDR');\nvar_dump($remote_addr);

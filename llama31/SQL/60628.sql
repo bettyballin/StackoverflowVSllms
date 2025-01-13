@@ -1,1 +1,0 @@
-SELECT Numerator\n    ,Denominator\n    ,CASE \n        WHEN Denominator = 0 THEN 0 \n        WHEN Numerator <> 0 THEN Numerator / Denominator \n        ELSE 0 \n    END AS TestCalc\nFROM Fractions

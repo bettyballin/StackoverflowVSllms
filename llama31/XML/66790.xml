@@ -1,1 +1,0 @@
-<!-- web.xml -->\n\n<filter>\n    <filter-name>SessionAuthFilter</filter-name>\n    <filter-class>com.example.SessionAuthFilter</filter-class>\n</filter>\n\n<filter-mapping>\n    <filter-name>SessionAuthFilter</filter-name>\n    <url-pattern>/webserverpath/secure/*</url-pattern>\n</filter-mapping>

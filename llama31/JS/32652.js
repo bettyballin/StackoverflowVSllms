@@ -1,1 +1,0 @@
-$(document).ready(function() {\n  // Check if the URL fragment is #overall\n  if (window.location.hash === '#overall') {\n    // Show the div with the ID "overall"\n    $('#overall').show();\n  }\n});

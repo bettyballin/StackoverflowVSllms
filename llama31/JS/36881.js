@@ -1,1 +1,0 @@
-// Original code\nfunction add(a, b) {\n  return a + b;\n}\n\n// Obfuscated code\nvar _0x4f2a = ['\x61\x64\x64']; function _0x39b8(_0x58c3, _0x4945) { return _0x58c3 + _0x4945; }

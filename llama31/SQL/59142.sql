@@ -1,1 +1,0 @@
-CREATE TYPE TableType AS TABLE (ID INT, Name VARCHAR(50));\nCREATE PROCEDURE MyProcedure\n    @TableParam TableType READONLY\nAS\nBEGIN\n    SELECT * FROM @TableParam;\nEND;

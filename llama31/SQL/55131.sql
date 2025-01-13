@@ -1,1 +1,0 @@
--- Schedule regular backups\nBACKUP DATABASE mydatabase TO DISK = 'backup.bak';

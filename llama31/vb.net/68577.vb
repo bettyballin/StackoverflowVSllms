@@ -1,1 +1,0 @@
-Private Sub CopyGraphics()\n    Using srcPic As Graphics = pnl.CreateGraphics()\n        Using srcBmp As New Bitmap(pnl.Width, pnl.Height, srcPic)\n            Using srcMem As Graphics = Graphics.FromImage(srcBmp)\n                srcMem.DrawImage(srcBmp, 0, 0)\n            End Using\n            pnlDraw.BackgroundImage = srcBmp\n        End Using\n    End Using\nEnd Sub

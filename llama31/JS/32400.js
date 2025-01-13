@@ -1,1 +1,0 @@
-$('#searchButton').click( function() {\n    var timestamp = new Date().getTime();\n    $('#inquiry').load('/search.php?pid=' + $('#searchValue').val() + '&_=' + timestamp);\n});

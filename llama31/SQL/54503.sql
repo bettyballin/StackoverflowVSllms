@@ -1,1 +1,0 @@
-SELECT \n    w1.WordID, \n    w2.WordID, \n    COUNT(*) as Frequency\nFROM \n    Locations w1\nJOIN \n    Locations w2 ON w1.DocID = w2.DocID AND w1.Location = w2.Location - 1\nGROUP BY \n    w1.WordID, \n    w2.WordID\nORDER BY \n    Frequency DESC;

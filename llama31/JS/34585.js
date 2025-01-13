@@ -1,1 +1,0 @@
-$(document).ready(function() {\n  $('#checkbox-tree input[type="checkbox"]').change(function() {\n    var $checkbox = $(this);\n    var $ul = $checkbox.closest('li').find('ul');\n    if ($checkbox.is(':checked')) {\n      $ul.show();\n    } else {\n      $ul.hide();\n    }\n  });\n});

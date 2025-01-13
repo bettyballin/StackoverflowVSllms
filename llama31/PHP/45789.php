@@ -1,1 +1,0 @@
-<td >$'.$offercalcsavingsann.'</td>

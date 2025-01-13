@@ -1,1 +1,0 @@
-$description = $xml->xpath("//item[@title='0x|Beschrijving']");\n$xmlString = $description[0]->asXML();\n$cdataContent = preg_match('/<!\[CDATA\[(.*?)\]\]>/s', $xmlString, $matches);\necho $matches[1]; // outputs the CDATA content

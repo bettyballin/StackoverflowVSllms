@@ -1,1 +1,0 @@
--- Rebuild the primary key (clustered index)\nALTER INDEX PK_table1 ON table1 REBUILD;\n\n-- Reorganize the non-clustered indexes\nALTER INDEX idx_c2 ON table1 REORGANIZE;\nALTER INDEX idx_c3 ON table1 REORGANIZE;\nALTER INDEX idx_c4 ON table1 REORGANIZE;\nALTER INDEX idx_c5 ON table1 REORGANIZE;

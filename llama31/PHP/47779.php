@@ -1,1 +1,0 @@
-header('Content-Type: application/octet-stream');\nheader('Content-Disposition: attachment; filename="video.mp4"');\nheader('Content-Transfer-Encoding: binary');\nheader('Content-Length: ' . filesize($file_path));\n\nreadfile($file_path);

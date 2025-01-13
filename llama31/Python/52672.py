@@ -1,1 +1,0 @@
-import responses\n\n@responses.activate\ndef test_example():\n    responses.add(responses.GET, 'https://example.com',\n                  body='Hello, world!',\n                  status=200)\n\n    response = requests.get('https://example.com')\n    assert response.text == 'Hello, world!'

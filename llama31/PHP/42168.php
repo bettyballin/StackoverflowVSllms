@@ -1,1 +1,0 @@
-session_start();\nif (isset($_SESSION['is_user']) && $_SESSION['is_user'] == 1) {\n  //show index page with navigation bar for registered user\n} else {\n  //do something else\n}

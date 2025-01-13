@@ -1,1 +1,0 @@
-CREATE INDEX idx_B_start_end ON B (start_time, end_time);

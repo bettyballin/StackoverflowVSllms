@@ -1,1 +1,0 @@
-use Intervention\Image\ImageManager;\n\n$manager = new ImageManager();\n\n$image = $manager->make($uploadFile);\n\n$image->resize(660, 500, function ($constraint) {\n    $constraint->aspectRatio();\n})->save($uploadFile);

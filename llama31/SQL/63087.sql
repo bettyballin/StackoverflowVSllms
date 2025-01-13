@@ -1,1 +1,0 @@
-SELECT *\nFROM TableA\nLEFT JOIN TableB\n  ON TableA.Key = TableB.Key\nWHERE TableB.Key IS NULL

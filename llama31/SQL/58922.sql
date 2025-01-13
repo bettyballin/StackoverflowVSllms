@@ -1,1 +1,0 @@
-EXEC spMyStoredProcedure '1,2,3';

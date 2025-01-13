@@ -1,1 +1,0 @@
-CREATE TABLE tableA (\n  id INT PRIMARY KEY,\n  month TINYINT,\n  year INT,\n  info VARCHAR(255)\n);

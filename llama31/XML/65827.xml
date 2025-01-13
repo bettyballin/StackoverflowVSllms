@@ -1,1 +1,0 @@
-<Render>\n    <Extension Name="PDF" Type="Microsoft.ReportingServices.Rendering.PdfRenderer.PdfReport,Microsoft.ReportingServices.Rendering.PdfRenderer"/>\n</Render>

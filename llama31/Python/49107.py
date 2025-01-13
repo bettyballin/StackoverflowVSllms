@@ -1,1 +1,0 @@
-import chardet\n\nwindows1252_string = "Παράδειγμα"\nresult = chardet.detect(windows1252_string)\ncharenc = result['encoding']\n\nunicode_string = windows1252_string.encode('utf-8', errors='replace').decode('utf-8')

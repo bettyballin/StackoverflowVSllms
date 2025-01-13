@@ -1,1 +1,0 @@
-$stmt = $mysqli->prepare("SELECT * FROM `picdb` WHERE `username` = ? ORDER BY `picid` DESC LIMIT ?, ?");\n$stmt->bind_param("sii", $username, $start, $count);\n$stmt->execute();

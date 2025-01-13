@@ -1,1 +1,0 @@
-def mock_user(stubs={})\n  @mock_user ||= mock_model(User, stubs.merge({:changed? => false}))\nend

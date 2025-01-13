@@ -1,1 +1,0 @@
-$numRows = 0;\nwhile (!$rs_select->EOF) {\n    $numRows++;\n    $rs_select->MoveNext();\n}

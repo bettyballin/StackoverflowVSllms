@@ -1,1 +1,0 @@
-$con = utf8_encode($con);

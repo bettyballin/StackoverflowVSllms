@@ -1,1 +1,0 @@
-import fitz\n\n# Open the PDF file\ndoc = fitz.open('input.pdf')\n\n# Set the crop rectangle (left, top, right, bottom)\ncrop_rect = fitz.Rect(100, 100, 300, 400)\n\n# Iterate through the pages and crop them\nfor page in doc:\n    page.set_cropbox(crop_rect)\n\n# Save the cropped PDF to a new file\ndoc.save('output.pdf')

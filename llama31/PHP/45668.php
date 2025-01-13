@@ -1,1 +1,0 @@
-$client = new GuzzleHttp\Client();\n$response = $client->get('http://remoteServer/login.php?user=xxx&pass=yyy', [\n    'cookies' => true,\n    'cookie_file' => 'cookie.file',\n]);\n\n$documentiwant = $client->get('http://remoteServer/pageicareabout.html', [\n    'cookies' => true,\n    'cookie_file' => 'cookie.file',\n])->getBody()->getContents();

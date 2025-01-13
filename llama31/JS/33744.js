@@ -1,1 +1,0 @@
-$.ajax({\n  type: 'GET',\n  url: '/path/to/blog/posts',\n  dataType: 'json',\n  success: function(data) {\n    $.each(data, function(index, post) {\n      var html = '<h2>' + post.subject + '</h2>' +\n                 '<p>' + post.body + '</p>' +\n                 '<p>Comments: ' + post.commentCount + '</p>';\n      $('#blog-posts-container').append(html);\n    });\n  }\n});

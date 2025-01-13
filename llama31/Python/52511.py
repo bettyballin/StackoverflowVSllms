@@ -1,1 +1,0 @@
-def power_of_three(k):\n    result = 1\n    n = 0\n    while 3 ** (n + 1) <= k:\n        n += 1\n    for _ in range(n + 1):\n        if k >= 3 ** n:\n            result *= 3 ** n\n            k -= 3 ** n\n        n -= 1\n    return result\n\n# Test the function\nk = 10  # Example input\nresult = power_of_three(k)\nprint(f"3^{k} = {result}")

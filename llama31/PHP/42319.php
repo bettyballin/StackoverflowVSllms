@@ -1,1 +1,0 @@
-$line = mb_str_replace('Ê', '', $line, 'UTF-8');

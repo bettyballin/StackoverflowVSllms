@@ -1,1 +1,0 @@
-interface PersonInterface\n{\n    public function login($userName, $password);\n    public function setPassword($password);\n}

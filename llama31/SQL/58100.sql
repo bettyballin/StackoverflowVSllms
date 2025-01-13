@@ -1,1 +1,0 @@
-SELECT A.*, C.*\nFROM A\nLEFT JOIN B ON A.id = B.a_id\nLEFT JOIN C ON B.c_id = C.id AND A.id = C.a_id

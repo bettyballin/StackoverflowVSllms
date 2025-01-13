@@ -1,1 +1,0 @@
-Dim stringList = {"a", "b", "c"}\nDim indexedStrings = stringList.Select(Function(s, i) New With {.Index = i, .Value = s})\nFor Each indexedString In indexedStrings\n    Console.WriteLine($"Index: {indexedString.Index}, Value: {indexedString.Value}")\nNext

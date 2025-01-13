@@ -1,1 +1,0 @@
-$otherpaths = '/path/to/other/folder';\nset_include_path(get_include_path() . PATH_SEPARATOR . $otherpaths);

@@ -1,1 +1,0 @@
-function update() {\n  $.get("rowcount.php", function(data) {\n    $("#uploadcount").html(data);\n    window.setTimeout(update, 5000);\n  });\n}

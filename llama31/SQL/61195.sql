@@ -1,1 +1,0 @@
-SELECT * \nFROM fact_table \nWHERE date_column >= DATEADD(month, -2, GETDATE());

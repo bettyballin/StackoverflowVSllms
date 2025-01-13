@@ -1,1 +1,0 @@
-DECLARE @cnt INT\nSET @cnt = 5\n\nWITH Numbers AS (\n    SELECT ROW_NUMBER() OVER (ORDER BY (SELECT NULL)) AS Number\n    FROM sys.all_columns ac1\n    CROSS JOIN sys.all_columns ac2\n)\nSELECT Number\nFROM Numbers\nWHERE Number <= @cnt

@@ -1,1 +1,0 @@
-$this->db->where('comments.submittedby_id = users.user_id');\n$this->db->where('comments.section_id = sections.id');

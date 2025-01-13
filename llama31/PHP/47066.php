@@ -1,1 +1,0 @@
-header("Content-Disposition: attachment; filename=file.pdf");

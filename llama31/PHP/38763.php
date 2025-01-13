@@ -1,1 +1,0 @@
-$h2 = IPADDRESS;\n$dbu = DBUSER;\n$dbp = DBPASS;\n\n$DBlink = mysql_connect($h2, "$dbu@%", $dbp);

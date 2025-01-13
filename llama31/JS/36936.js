@@ -1,1 +1,0 @@
-$.ajax({\n  // ...\n  timeout: 5000, // 5 seconds\n  // ...\n});

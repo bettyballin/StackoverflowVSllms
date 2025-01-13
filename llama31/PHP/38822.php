@@ -1,1 +1,0 @@
-// Send message to queue\n:message = new AMQPMessage(json_encode($log_entry));\n$channel->basic_publish($message, 'log_queue');\n\n// Worker process (separate script)\n$channel->basic_consume('log_queue', 'log_callback');\n\nfunction log_callback($message) {\n    // Log entry to database\n}

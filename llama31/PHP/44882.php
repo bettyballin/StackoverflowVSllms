@@ -1,1 +1,0 @@
-$allowedClasses = array('StaticClass1', 'StaticClass2');\n$name = 'StaticClass1';\n\nif (in_array($name, $allowedClasses)) {\n    $name::foo();\n} else {\n    throw new Exception('Invalid class name');\n}

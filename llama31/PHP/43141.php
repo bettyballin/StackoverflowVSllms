@@ -1,1 +1,0 @@
-class User {\n    private $email;\n\n    public function setEmail($email) {\n        if (!filter_var($email, FILTER_VALIDATE_EMAIL)) {\n            throw new DomainException("Invalid email address");\n        }\n        $this->email = $email;\n    }\n}

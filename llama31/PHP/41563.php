@@ -1,1 +1,0 @@
-$client = new SoapClient("http://example.com/my.wsdl");\n$result = $client->query('This is a test');\nvar_dump($result);

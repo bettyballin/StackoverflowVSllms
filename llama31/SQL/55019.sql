@@ -1,1 +1,0 @@
-CREATE INDEX idx_viewpermission_node_usergroup_updated\n  ON viewpermission (node_ID, usergroupID, node_lastupdated);

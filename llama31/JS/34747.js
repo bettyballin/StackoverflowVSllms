@@ -1,1 +1,0 @@
-require.config({\n    paths: {\n        'tinymce': 'tinymce.min',\n        'jquery': 'jquery.min',\n        'jquery-ui': 'jquery-ui.min'\n    }\n});\n\nrequire(['tinymce', 'jquery', 'jquery-ui'], function(tinymce, $, ui) {\n    // Initialize TinyMCE and jQuery UI\n});

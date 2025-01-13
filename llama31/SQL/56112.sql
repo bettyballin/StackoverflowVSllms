@@ -1,1 +1,0 @@
-ALTER TABLE pivot_table ADD CONSTRAINT unique_constraint UNIQUE (table1ID, table2ID);

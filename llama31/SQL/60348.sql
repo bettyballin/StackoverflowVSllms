@@ -1,1 +1,0 @@
--- Join tables from multiple servers\nSELECT * \nFROM [LocalServer].[DatabaseName].[SchemaName].[TableName]\nINNER JOIN [RemoteServer].[DatabaseName].[SchemaName].[TableName]\n    ON [LocalServer].[DatabaseName].[SchemaName].[TableName].Column = [RemoteServer].[DatabaseName].[SchemaName].[TableName].Colum

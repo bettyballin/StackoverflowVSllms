@@ -1,1 +1,0 @@
-def strip_leading_digit(n):\n    return n % (10 ** (len(str(n)) - 1))

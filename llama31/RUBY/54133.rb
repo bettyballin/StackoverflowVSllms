@@ -1,1 +1,0 @@
-require 'net/http'\nrequire 'uri'\n\nuri = URI.parse('http://your-php-app.com/your-php-method')\nhttp = Net::HTTP.new(uri.host, uri.port)\nrequest = Net::HTTP::Post.new(uri.request_uri)\nrequest.body = "your-data"\n\nresponse = http.request(request)\n\nputs response.body

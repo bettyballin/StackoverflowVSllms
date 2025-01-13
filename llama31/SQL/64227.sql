@@ -1,1 +1,0 @@
-CREATE INDEX idx_deliveryDate ON table1 (\n    DATEPART(year, deliveryDate),\n    DATEPART(month, deliveryDate),\n    DATEPART(day, deliveryDate)\n);

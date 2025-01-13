@@ -1,1 +1,0 @@
-Private Sub DoThis()\n  Dim toothpasteName As String\n  Dim isFragrant As Boolean\n  isFragrant = fnc_Fragrance(toothpasteName)\nEnd Sub\n\nPrivate Function fnc_Fragrance(fragranceName As String) As Boolean\n  If fragranceName Like "Dr Watson's" Then\n     fnc_Fragrance = True\n  Else\n     fnc_Fragrance = False\n  End If\nEnd Functio

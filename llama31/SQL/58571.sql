@@ -1,1 +1,0 @@
-CREATE VIEW SeqView\nAS\nSELECT SeqValue FROM SequenceTable

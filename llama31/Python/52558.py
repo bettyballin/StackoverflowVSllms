@@ -1,1 +1,0 @@
-import math\n\ndef binomial_coefficient(a, b):\n    return math.factorial(a) / (math.factorial(b) * math.factorial(a - b))

@@ -1,1 +1,0 @@
-CREATE TYPE NameTableType AS TABLE (Name nvarchar(50));\nGO\n\nCREATE PROCEDURE GetUserIdsByNames\n    @Names NameTableType READONLY\nAS\nBEGIN\n    SELECT u.UserId, u.FullName\n    FROM Users u\n    JOIN ConnectNames cn ON u.UserId = cn.UserId\n    JOIN Names n ON cn.NameId = n.NameId\n    WHERE n.Name IN (SELECT Name FROM @Names);\nEND\nGO

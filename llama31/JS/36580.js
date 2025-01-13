@@ -1,1 +1,0 @@
-Tickets.TicketsService.MethodName(params, onSuccess, onFailure);

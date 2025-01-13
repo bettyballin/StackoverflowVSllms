@@ -1,1 +1,0 @@
-$rows = filter_var($_GET['rows'], FILTER_VALIDATE_INT);\nif ($rows !== false && $rows >= 10 && $rows <= 200) {\n    $rows += 10;\n} else {\n    $rows = 10;\n}\n?>\n\n<a href="post.php?id=4&rows=<?php echo $rows; ?>">Expand</a>

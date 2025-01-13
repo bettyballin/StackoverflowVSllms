@@ -1,1 +1,0 @@
-Sub Main()\n    Dim classID As String\n    classID = "{your-guid-here}"\n    RegAdd "HKEY_CLASSES_ROOT\TypeLib\" & classID, "1.0", "SaveClipboardImage"\n    RegAdd "HKEY_CLASSES_ROOT\CLSID\" & classID, "", "SaveClipboardImage"\nEnd Sub

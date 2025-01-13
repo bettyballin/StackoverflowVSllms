@@ -1,1 +1,0 @@
-const widgetHeight = document.getElementById('widget').offsetHeight;\ndocument.body.style.paddingBottom = `${widgetHeight}px`;

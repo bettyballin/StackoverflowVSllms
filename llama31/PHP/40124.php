@@ -1,1 +1,0 @@
-$conn = sqlsrv_connect(\n    'localhost', \n    array(\n        'Database' => 'your_database_name',\n        'CharacterSet' => 'UTF-8'\n    )\n);\n\nif ($conn === false) {\n    die( print_r( sqlsrv_errors(), true));\n}

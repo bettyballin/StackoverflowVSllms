@@ -1,1 +1,0 @@
-require 'htmlentities'\n\ncoder = HTMLEntities.new\n\ncoder.decode('&#8230;')  # => "…"\ncoder.decode('&hellip;') # => "…"\ncoder.decode('&#162;')   # => "¢"\ncoder.decode('&cent;')   # => "¢"\n\ncoder.encode("…")        # => "&hellip;"\ncoder.encode("¢")        # => "&cent;"

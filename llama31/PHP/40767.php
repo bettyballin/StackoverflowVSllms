@@ -1,1 +1,0 @@
-$myString = "Hello, World!";\n$position = 20;\n\nif (strlen($myString) > $position) {\n    $charAtPosition20 = $myString[$position];\n} else {\n    // handle out of bounds error\n}

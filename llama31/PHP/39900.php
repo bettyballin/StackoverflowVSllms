@@ -1,1 +1,0 @@
-// PHP4\nfunction foo($bar) {\n    $bar = 'baz';\n}\n$qux = 'quux';\nfoo($qux);\necho $qux; // outputs 'quux'\n\n// PHP5\nfunction foo(&$bar) {\n    $bar = 'baz';\n}\n$qux = 'quux';\nfoo($qux);\necho $qux; // outputs 'baz'

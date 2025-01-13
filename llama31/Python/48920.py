@@ -1,1 +1,0 @@
-import googlemaps\n\ngmaps = googlemaps.Client(key='YOUR_API_KEY')\ngeocode_result = gmaps.geocode('Bloomington, IN')\n\nlocation = geocode_result[0]['geometry']['location']\nlat, lng = location['lat'], location['lng']\nprint(f"Latitude: {lat}, Longitude: {lng}")

@@ -1,1 +1,0 @@
-ew Ajax.Updater("content", "results/testcaseHistory/" + testcase, {\n    onSuccess: function(transport) {document.body.style.cursor = 'auto'},\n    parameters: param,\n    method: 'post'\n});

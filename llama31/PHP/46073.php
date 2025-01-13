@@ -1,1 +1,0 @@
-$cache = &new WP_Cache(); // deprecated\n$cache = new WP_Cache(); // fixed

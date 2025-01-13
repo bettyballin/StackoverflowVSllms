@@ -1,1 +1,0 @@
-// Output the news items as name-value pairs\necho "&newsItem1=News Item 1&newsItem2=News Item 2";

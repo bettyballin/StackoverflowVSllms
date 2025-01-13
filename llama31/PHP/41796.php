@@ -1,1 +1,0 @@
-$split_point = ' - ';\n$string = 'this is my - string - and more';\n\n$items = explode($split_point, $string);\n$last_item = array_pop($items);\n$first_item = implode($split_point, $items);\n\n$item[0] = $first_item;\n$item[1] = $last_item;\n\nprint_r($item);

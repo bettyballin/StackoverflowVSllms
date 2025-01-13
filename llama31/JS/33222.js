@@ -1,1 +1,0 @@
-// application.js\n//= require fullcalendar

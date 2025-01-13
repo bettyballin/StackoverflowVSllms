@@ -1,1 +1,0 @@
-// test php script to check php.ini loading\n<?php\n  echo phpinfo();\n?>

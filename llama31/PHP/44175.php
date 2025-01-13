@@ -1,1 +1,0 @@
-echo joinPath('abc/de/', '/fg/x.php');  // Outputs: abc/de/fg/x.php\necho joinPath('abc/de', 'fg/x.php');    // Outputs: abc/de/fg/x.php

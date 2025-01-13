@@ -1,1 +1,0 @@
-$stmt = $pdo->prepare("SELECT * FROM users WHERE name = :name");\n$stmt->bindParam(":name", $username);\n$stmt->execute();

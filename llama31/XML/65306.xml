@@ -1,1 +1,0 @@
-<Content Include="Inspector.aspx" Condition="'$(Configuration)' == 'Debug'">\n  <SubType>ASPXCodeBehind</SubType>\n</Content>\n<Compile Include="Inspector.aspx.cs" Condition="'$(Configuration)' == 'Debug'">\n  <DependentUpon>Inspector.aspx</DependentUpon>\n</Compile>

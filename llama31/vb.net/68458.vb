@@ -1,1 +1,0 @@
-Dim numbers(100) As Double\nDim random As New Random(0)\nFor i As Integer = 0 To numbers.Length - 1\n    numbers(i) = random.NextDouble()\nNext\n\nDim comparableNumbers = numbers.Cast(Of IComparable)().ToArray()\nQuickSort.Sort(comparableNumbers)

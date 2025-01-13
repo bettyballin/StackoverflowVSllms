@@ -1,1 +1,0 @@
-$escaped_code = htmlspecialchars($code, ENT_QUOTES);

@@ -1,1 +1,0 @@
-module LibTH\n  module Error\n    IDNotFound < StandardError; end\n  end\nend

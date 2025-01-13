@@ -1,1 +1,0 @@
-Array\n(\n    [foo] => bar\n    [baz] => qux\n)

@@ -1,1 +1,0 @@
-# Define a list\nmy_list = [1, 2, 3, 4, 5]\n\n# Remove the element '3' from the list\nmy_list.remove(3)\n\n# Print the updated list\nprint(my_list)  # Output: [1, 2, 4, 5]

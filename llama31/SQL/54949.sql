@@ -1,1 +1,0 @@
-SELECT COALESCE(title1, '') || COALESCE(title2, '') || COALESCE(title3, '') AS concatenated_title\nFROM your_table;

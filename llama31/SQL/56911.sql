@@ -1,1 +1,0 @@
-SELECT loginid \nFROM affiliates a \nWHERE NOT EXISTS (SELECT 1 FROM referrers r WHERE r.affiliates_id = a.id);

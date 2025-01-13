@@ -1,1 +1,0 @@
-const postman = require('postman');\n\npostman.get('https://api.example.com/users/1')\n  .set("Content-Type", "application/json")\n  .send()\n  .expect(200)\n  .expect(function(res) {\n    assert.strictEqual(res.body.name, "John Doe");\n  });

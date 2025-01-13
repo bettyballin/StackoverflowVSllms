@@ -1,1 +1,0 @@
-$myVariable = $_GET['myVariable'];

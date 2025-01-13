@@ -1,1 +1,0 @@
-$('#radiodj').removeClass('disabled');

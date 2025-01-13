@@ -1,1 +1,0 @@
-CREATE FUNCTION dbo.ValidateEmail (@email VARCHAR(200))\nRETURNS BIT\nAS\nBEGIN\n    IF @email NOT LIKE '%[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}%'\n        RETURN 0\n    RETURN 1\nEND

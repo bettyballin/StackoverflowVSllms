@@ -1,1 +1,0 @@
-def govern_chatbot_training_data(data, governance_framework):\n    # Govern data using policies and procedures\n    governed_data = govern_data(data, governance_framework)\n    return governed_data

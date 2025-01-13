@@ -1,1 +1,0 @@
-use Zend\Http\Request;\n\n//...\n\n$queryParams = $this->getRequest()->getQuery()->toArray();\n$maxResults = $queryParams['max_results'];\n$startIndex = $queryParams['start_index'];

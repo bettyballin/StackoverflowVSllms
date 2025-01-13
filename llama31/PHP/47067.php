@@ -1,1 +1,0 @@
-function is_iphone() {\nreturn (strpos($_SERVER['HTTP_USER_AGENT'],"iPhone") > 0);\n}

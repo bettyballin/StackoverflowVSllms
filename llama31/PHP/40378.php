@@ -1,1 +1,0 @@
-$this->template->innerView = new CustomView('article');\n$this->template->innerView->inheritVariables($this->template);

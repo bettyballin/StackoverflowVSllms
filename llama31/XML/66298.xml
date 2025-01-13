@@ -1,1 +1,0 @@
-<logger name="org.springframework.security">\n  <level value="DEBUG" />\n</logger>

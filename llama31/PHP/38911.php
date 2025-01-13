@@ -1,1 +1,0 @@
-$string = '¾ ½';\n$encodedString = htmlentities($string, ENT_QUOTES, 'UTF-8');\necho $encodedString; // outputs &frac34; &frac12;

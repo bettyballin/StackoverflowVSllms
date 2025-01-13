@@ -1,1 +1,0 @@
-$params = $this->getRequest()->getParams();\n$defaultParam = reset($params);\n\n// or if you know it's the first parameter\n$defaultParam = current($params);

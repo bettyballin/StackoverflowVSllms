@@ -1,1 +1,0 @@
-self.image = gtk.gdk.Image(gtk.gdk.IMAGE_NORMAL, width, height)\nself.image.set_from_file("image.png")\nself.drawing_area.window.copy_area(self.image, self.gc, 0, 0, x, y, width, height)

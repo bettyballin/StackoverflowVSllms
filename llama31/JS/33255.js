@@ -1,1 +1,0 @@
-var dataCache = {};\n\n// ...\n\nvar divData = $("#div_id").data("data");\nif (!dataCache[divData]) {\n  dataCache[divData] = divData;\n}\n\n// Now, access individual values through the cache\nconsole.log(dataCache[divData].foo);

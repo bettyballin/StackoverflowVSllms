@@ -1,1 +1,0 @@
-foreach($_FILES['addFile'] as $addFile) {

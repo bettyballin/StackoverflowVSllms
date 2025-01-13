@@ -1,1 +1,0 @@
-SELECT * FROM a_view WHERE NOT (c = 1);

@@ -1,1 +1,0 @@
-$('a.button:has(img)').corner('tl bl 10px');\n$('a.button:not(:has(img))').corner('10px');

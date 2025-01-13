@@ -1,1 +1,0 @@
-$str = preg_replace('/^"(.*)"$/', '$1', $str); // remove enclosing double quotes\n$str = preg_replace('/""/', '"', $str); // unescape inner double quotes

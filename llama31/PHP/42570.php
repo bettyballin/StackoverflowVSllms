@@ -1,1 +1,0 @@
-mail('recipient@example.com', 'Subject', 'Message Body', $headers, '-f sender@example.com');

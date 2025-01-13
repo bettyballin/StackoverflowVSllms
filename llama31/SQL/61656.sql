@@ -1,1 +1,0 @@
-CREATE TABLE Users (\n    UserID INT AUTO_INCREMENT,\n    FirstName VARCHAR(255),\n    LastName VARCHAR(255),\n    Email VARCHAR(255) UNIQUE,\n    PasswordHash VARCHAR(255),\n    PRIMARY KEY (UserID)\n);

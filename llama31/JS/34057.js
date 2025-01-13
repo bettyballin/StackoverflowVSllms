@@ -1,1 +1,0 @@
-// Monitor DOM changes\nconst observer = new MutationObserver((mutations) => {\n  console.log(mutations);\n});\n\nobserver.observe(document.body, {\n  childList: true,\n  subtree: true,\n});

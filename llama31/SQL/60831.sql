@@ -1,1 +1,0 @@
-SELECT *\nFROM Event\nWHERE (TRUNC(start_date, 'IW') + 1) <= end_date\n  AND TRUNC(start_date, 'IW') = TRUNC(:monday_date, 'IW');

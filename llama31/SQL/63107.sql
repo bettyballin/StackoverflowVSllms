@@ -1,1 +1,0 @@
-EXEC('CREATE TABLE newfile (column1 nvarchar(255), column2 nvarchar(255))')\n\nINSERT INTO OPENROWSET('Microsoft.Jet.OLEDB.4.0', \n'Excel 8.0;Database=C:\newfile.xls;', \n'SELECT * FROM [newfile$]')\nSELECT * FROM myTable

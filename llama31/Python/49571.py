@@ -1,1 +1,0 @@
-import pdb\n\nmy_variable = {'foo': 'bar', 'baz': [1, 2, 3]}\n\npdb.set_trace()  # starts the debugger

@@ -1,1 +1,0 @@
-Dim obj As Object = 'your object here\nDim targetType As Type = 'the type of the struct (e.g. GetType(Integer))\n\nDim nullableValue As Nullable(Of T) = CType(obj, T)

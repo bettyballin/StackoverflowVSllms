@@ -1,1 +1,0 @@
-$sql = 'INSERT INTO sometable (column1, column2)\n        VALUES (?, ?)\n        ON DUPLICATE KEY UPDATE column3 = ?, column4 = ?';\n$data = array('value1', 'value2', 'value3', 'value4');\n$stmt = $db->query($sql, $data);

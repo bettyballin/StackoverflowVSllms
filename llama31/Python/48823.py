@@ -1,1 +1,0 @@
-tuples = [(1,1), (0,1), (1,0), (0,0), (2,1)]\n\n# Create a dictionary with tuples as keys\nd = {}\nfor t in tuples:\n    d[t] = "something"  # Replace with your desired value\n\n# Sort the keys before iterating\nfor key in sorted(d):\n    print(key, d[key])

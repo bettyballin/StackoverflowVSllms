@@ -1,1 +1,0 @@
-# www/dir1/dir2/index.php\n<?php\n// Handle the request\necho "Hello, World!";\n?>

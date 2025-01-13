@@ -1,1 +1,0 @@
-$input = $_POST['input'];\n$maxLength = 40;\n\nif (strlen($input) > $maxLength) {\n    // Handle error: input too long\n}\n\n$escapedInput = filter_var($input, FILTER_SANITIZE_ENCODED);\n\n// Store the escaped input in the database

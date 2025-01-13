@@ -1,1 +1,0 @@
-var xhr = new XMLHttpRequest();\nxhr.onreadystatechange = function() {\n  if (xhr.readyState === 4) {\n    if (xhr.status >= 200 && xhr.status < 300) {\n      // Success!\n    } else if (xhr.status === 304) {\n      // Not Modified, can be considered successful\n    } else {\n      // Error\n    }\n  }\n};

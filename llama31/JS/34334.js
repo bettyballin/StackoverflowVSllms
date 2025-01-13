@@ -1,1 +1,0 @@
-$("#your_form_id").submit(function(event) {\n    event.preventDefault();\n    $.ajax({\n        // same as above\n    });\n});

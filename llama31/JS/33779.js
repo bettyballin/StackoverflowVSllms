@@ -1,1 +1,0 @@
-$(".div" + increment).change(function() {\n  $.ajax({\n    type: "POST",\n    url: "./server",\n    data: {\n      name: "John",\n      location: "Boston"\n    },\n    success: function(msg) {\n      alert("Data Saved: " + msg);\n    }\n  });\n});

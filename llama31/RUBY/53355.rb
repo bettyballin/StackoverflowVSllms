@@ -1,1 +1,0 @@
-request.env['CONTENT_TYPE'] = 'multipart/form-data'

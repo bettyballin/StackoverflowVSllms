@@ -1,1 +1,0 @@
-ALTER USER myuser IDENTIFIED BY mypassword DEFAULT_SCHEMA = new_schema;

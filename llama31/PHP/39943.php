@@ -1,1 +1,0 @@
-function autoload($class) {\n    $file = strtolower($class) . '.class.php';\n    if (!file_exists($file)) {\n        $file = ucfirst($class) . '.class.php';\n    }\n    if (file_exists($file)) {\n        require_once $file;\n    }\n}

@@ -1,1 +1,0 @@
-SELECT t1.id, t1.home, t1.datetime, t1.player, t1.resource\nFROM TopTen t1\nJOIN (\n  SELECT home, MAX(datetime) as max_datetime\n  FROM TopTen\n  GROUP BY home\n) t2\nON t1.home = t2.home AND t1.datetime = t2.max_datetime

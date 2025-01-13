@@ -1,1 +1,0 @@
-SELECT *\nFROM TableA\nINNER JOIN TableB\nON CLng(TableA.REFERENCE) = TableB.REFNO

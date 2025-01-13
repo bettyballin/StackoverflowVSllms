@@ -1,1 +1,0 @@
-class Person < ApplicationRecord\n  validates_with ConditionalValidator\nend

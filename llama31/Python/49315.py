@@ -1,1 +1,0 @@
-# Tuple\nmy_tuple = (1, 2, 3)\ntry:\n    my_tuple[0] = 10  # Raises a TypeError\nexcept TypeError as e:\n    print(e)  # 'tuple' object does not support item assignment\n\n# List\nmy_list = [1, 2, 3]\nmy_list[0] = 10  # Works fine\nprint(my_list)  # [10, 2, 3]

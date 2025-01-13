@@ -1,1 +1,0 @@
-// Assuming you're using jQuery for AJAX\n$.ajax({\n  type: 'POST',\n  url: '/some/url',\n  data: { /* your data */ },\n  success: function(response) {\n    // Update the URL\n    window.history.pushState(null, null, '/new/url');\n  }\n});

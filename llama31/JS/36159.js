@@ -1,1 +1,0 @@
-<script>\n  window.onload = function() {\n    var links = document.getElementsByTagName('a');\n    for (var i = 0; i < links.length; i++) {\n      links[i].target = '_parent';\n    }\n  };\n</script>

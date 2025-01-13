@@ -1,1 +1,0 @@
-<?php\n  if (isset($_POST['selectedValue'])) {\n    $selectedValue = $_POST['selectedValue'];\n    // fetch data for dropdown2 based on selectedValue\n    $options = // fetch options from database\n    foreach ($options as $option) {\n      echo "<option value='" . $option['id'] . "'>" . $option['name'] . "</option>";\n    }\n  }\n?>

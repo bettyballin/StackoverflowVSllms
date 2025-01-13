@@ -1,1 +1,0 @@
-$next_run = wp_next_scheduled('my_daily_digest');

@@ -1,1 +1,0 @@
-function yourtheme_button($element) {\n  // Add the span tag inside the button\n  $element['#value'] = '<span>' . $element['#value'] . '</span>';\n  // Use the default theme_button function to render the button\n  return theme_button($element);\n}

@@ -1,1 +1,0 @@
-CREATE PROCEDURE delete_oldest_records()\nBEGIN\n  DELETE FROM amoreAgentTST01\n  WHERE id IN (SELECT id FROM amoreAgentTST01_overflow);\n  TRUNCATE TABLE amoreAgentTST01_overflow;\nEND$$\ndelimiter ;

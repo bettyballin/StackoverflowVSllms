@@ -1,1 +1,0 @@
-Module Program\n    Sub Main()\n        Dim original As New ReferenceClass()\n        original.BooleanValue = True\n\n        Dim copy As ReferenceClass = DirectCast(original.Clone(), ReferenceClass)\n        copy.BooleanValue = False\n\n        Console.WriteLine(original.BooleanValue) ' prints True\n    End Sub\nEnd Module

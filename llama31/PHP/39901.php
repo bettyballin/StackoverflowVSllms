@@ -1,1 +1,0 @@
-$words = array();\n$result = mysql_query("SELECT text FROM your_table");\nwhile ($row = mysql_fetch_assoc($result)) {\n  $words = array_merge($words, explode(' ', $row['text']));\n}\n\n$word_freq = array_count_values($words);\narsort($word_freq);\nprint_r(array_slice($word_freq, 0, 10));

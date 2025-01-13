@@ -1,1 +1,0 @@
-CREATE FULLTEXT INDEX idx_translation ON vocabulary (translation);

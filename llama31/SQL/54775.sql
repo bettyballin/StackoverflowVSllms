@@ -1,1 +1,0 @@
--- Server-side sorting\nSELECT * FROM table_name\nORDER BY column_name ASC;

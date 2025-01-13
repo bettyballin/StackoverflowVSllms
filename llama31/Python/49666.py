@@ -1,1 +1,0 @@
-btn = gtk.Button("Click me!")\nbtn.child.modify_font(gtk.gdk.FontDescription("sans-serif 14"))

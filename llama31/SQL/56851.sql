@@ -1,1 +1,0 @@
--- Create a temporary table to store the values\nCREATE TABLE #values (id INT PRIMARY KEY);\n\n-- Insert the values into the temporary table\nINSERT INTO #values (id) VALUES (123), (123), (222), ...;\n\n-- Join against the temporary table\nSELECT * \nFROM table \nJOIN #values v ON table.Col = v.id;

@@ -1,1 +1,0 @@
-$(document).ready(function() {\n  function myFunction() {\n    console.log("Hello, World!");\n  }\n});

@@ -1,1 +1,0 @@
-UPDATE Terminals\nSET Lock = 1\nWHERE TerminalId = @TerminalId

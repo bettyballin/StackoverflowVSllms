@@ -1,1 +1,0 @@
-For i As Integer = 0 To Integer.MaxValue\n    ' Code to execute\n    If condition Is Met Then\n        Exit For\n    End If\nNext

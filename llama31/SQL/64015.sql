@@ -1,1 +1,0 @@
-CREATE PROCEDURE sp_DeleteBook\n    @BookId INT\nAS\nBEGIN\n    BEGIN TRANSACTION;\n\n    BEGIN TRY\n        DELETE FROM Pages WHERE BookId = @BookId;\n        DELETE FROM Books WHERE Id = @BookId;\n\n        COMMIT TRANSACTION;\n    END TRY\n    BEGIN CATCH\n        ROLLBACK TRANSACTION;\n        THROW;\n    END CATCH;\nEND;

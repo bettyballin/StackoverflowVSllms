@@ -1,1 +1,0 @@
-$sql = "SELECT * FROM your_table WHERE start > $last_night_at_midnight AND start < $tonight_at_midnight";

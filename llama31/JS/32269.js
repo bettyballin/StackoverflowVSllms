@@ -1,1 +1,0 @@
-$.ajax({\n  url: "/testfile.xhtml",\n  dataType: "text",\n  success: function(data) {\n    var html = $.parseHTML(data);\n    $body.children().replaceWith(html);\n  }\n});

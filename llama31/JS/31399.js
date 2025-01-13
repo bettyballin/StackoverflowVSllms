@@ -1,1 +1,0 @@
-function getStudentId(url, data) {\n  return $.getJSON(url, data).then(function(result) {\n    return result.Something;\n  });\n}\n\ngetStudentId(url, data).then(function(studentId) {\n  // use studentId here\n});

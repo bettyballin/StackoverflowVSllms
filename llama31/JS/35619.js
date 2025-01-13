@@ -1,1 +1,0 @@
-// Clear cookies\ndocument.cookie = "cookieName=; expires=Thu, 01 Jan 1970 00:00:00 UTC; path=/;";\n\n// Clear local storage\nlocalStorage.clear();

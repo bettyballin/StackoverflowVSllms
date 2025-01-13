@@ -1,1 +1,0 @@
-CONNECT '127.0.0.1:C:\Path\To\Database.fdb' USER 'your_username' PASSWORD 'your_password';

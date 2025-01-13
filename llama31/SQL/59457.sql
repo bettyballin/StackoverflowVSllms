@@ -1,1 +1,0 @@
-SELECT my_table.my_col, \n       COUNT(*) OVER () AS row_count\nFROM my_table\nWHERE my_table.foo = 'bar'

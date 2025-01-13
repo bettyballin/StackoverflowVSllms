@@ -1,1 +1,0 @@
-Select field1 as 'node1/field1',\n       field2 as 'node1/field2',\n  (Select field3 as 'field3',\n          field4 as 'field4'\n   From table2\n   FOR XML PATH('child1'),TYPE,Elements) as 'node1/*'\nFrom Table1\nFOR XML PATH('Root'),Elements

@@ -1,1 +1,0 @@
--- Using SQL to perform a complex query\nSELECT *\nFROM customers\nWHERE country='USA' AND age>18\nORDER BY last_name ASC;

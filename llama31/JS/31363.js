@@ -1,1 +1,0 @@
-const express = require('express');\nconst app = express();\n\napp.use((req, res, next) => {\n  res.header('Access-Control-Allow-Origin', '*');\n  res.header('Access-Control-Allow-Headers', 'Origin, X-Requested-With, Content-Type, Accept');\n  next();\n});\n\napp.get('/data', (req, res) => {\n  res.json({ message: 'Hello from server!' });\n});

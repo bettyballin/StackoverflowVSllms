@@ -1,1 +1,0 @@
-UPDATE users SET authorised = IF(authorised = 1, 0, 1) WHERE id = 2;

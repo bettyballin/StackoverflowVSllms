@@ -1,1 +1,0 @@
-BACKUP LOG [your_database_name] TO DISK = 'C:\Path\To\Backup\TransactionLog.bak'

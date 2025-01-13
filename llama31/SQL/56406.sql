@@ -1,1 +1,0 @@
-SELECT TO_CHAR(SYS_GUID()) FROM dual;

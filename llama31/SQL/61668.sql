@@ -1,1 +1,0 @@
-SELECT \n    VisitingCount, \n    CONVERT(VARCHAR(5), DATEADD(mi, -DATEDIFF(mi, 0, DATEADD(mi, 30, Date)) % 30, Date), 108) AS [Time]\nFROM \n    scr_SecuristLog

@@ -1,1 +1,0 @@
-ALTER TABLE files\nADD COLUMN date_uploaded_new timestamp;\n\nUPDATE files\nSET date_uploaded_new = date_uploaded;\n\nALTER TABLE files\nDROP COLUMN date_uploaded;\n\nALTER TABLE files\nRENAME COLUMN date_uploaded_new TO date_uploaded;

@@ -1,1 +1,0 @@
-SELECT GivenBy, [Alice], [Bruce], [Janet]\nFROM \n(\n    SELECT GivenBy, GivenTo, Points\n    FROM FeedbackSummary\n) AS SourceTable\nPIVOT \n(\n    SUM(Points)\n    FOR GivenTo IN ([Alice], [Bruce], [Janet])\n) AS PivotTable;

@@ -1,1 +1,0 @@
-<CodeGroup class="UnionCodeGroup" version="1" Name="MyControlCodeGroup">\n  <IMembershipCondition class="UrlMembershipCondition" version="1" Url="file:///*" />\n  <PermissionSetName="MyControlPermissions" />\n</CodeGroup>

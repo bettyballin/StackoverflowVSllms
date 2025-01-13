@@ -1,1 +1,0 @@
-document.getElementById('pass').addEventListener('keydown', function(event) {\n  if (event.keyCode === 13) {\n    // Handle enter key press\n  }\n});

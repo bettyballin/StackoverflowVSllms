@@ -1,1 +1,0 @@
-$input = "this is a normal url?";\n$encodedInput = urlencode(urlencode($input));

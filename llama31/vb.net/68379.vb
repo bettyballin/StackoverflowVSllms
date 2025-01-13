@@ -1,1 +1,0 @@
-Dim dateStr As String = DateTime.Now.AddDays(-1).ToString("yyyy-MM-dd HH:mm:ss", CultureInfo.InvariantCulture)\nDim date As DateTime = DateTime.ParseExact(dateStr, "yyyy-MM-dd HH:mm:ss", CultureInfo.InvariantCulture)\ndv.RowFilter = "inspectionType='Buyer' AND postedDate >= #" & date.ToString("yyyy-MM-dd HH:mm:ss", CultureInfo.InvariantCulture) & "#"

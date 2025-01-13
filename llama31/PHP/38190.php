@@ -1,1 +1,0 @@
-setcookie('my_cookie', '', time() - 3600, '/', false, false);

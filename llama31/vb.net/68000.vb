@@ -1,1 +1,0 @@
-Dim startDate As Date = New Date(DateTime.Now.Year, 1, 1)\nDim today As Date = DateTime.Now\nDim days As Integer = DateDiff(DateInterval.Day, startDate, today)\nConsole.WriteLine(days)

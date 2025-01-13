@@ -1,1 +1,0 @@
-SELECT DATE_FORMAT('2022-07-25 14:30:00', '%Y-%m-%d') AS date_string;

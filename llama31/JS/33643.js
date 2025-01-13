@@ -1,1 +1,0 @@
-const element = document.querySelector('#myElement');\nconst styles = window.getComputedStyle(element);\nconsole.log(styles.fontFamily); // outputs "Arial, sans-serif"\nconsole.log(styles.color); // outputs "#00698f"\nconsole.log(styles.padding); // outputs "20px"

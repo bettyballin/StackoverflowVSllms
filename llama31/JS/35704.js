@@ -1,1 +1,0 @@
-$("#myBtn").click(function() {\n    $.getScript("trackingCode.js");\n});

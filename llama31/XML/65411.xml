@@ -1,1 +1,0 @@
-<Project Sdk="Microsoft.NET.Sdk">\n  <PropertyGroup>\n    <PlatformTarget>x86</PlatformTarget> <!-- or x64 -->\n  </PropertyGroup>\n  <!-- ... -->\n</Project>

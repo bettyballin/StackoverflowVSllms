@@ -1,1 +1,0 @@
-// initially show all Flash objects\ndocument.getElementById('your_container_div').style.display = 'block';\n\n// then hide them after a short delay\nsetTimeout(function() {\n  document.getElementById('your_container_div').style.display = 'none';\n}, 10);

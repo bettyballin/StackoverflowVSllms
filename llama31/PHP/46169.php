@@ -1,1 +1,0 @@
-// Generate a token\n$token = bin2hex(random_bytes(32));\n\n// Include the token in the form\necho '<input type="hidden" name="token" value="' . $token . '">';\n\n// Verify the token on form submission\nif ($_POST['token'] === $token) {\n    // Form submission came from your website\n} else {\n    // Form submission came from elsewhere\n}

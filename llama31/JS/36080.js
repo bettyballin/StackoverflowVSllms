@@ -1,1 +1,0 @@
-// Before submitting the form\nconst formText = document.getElementById('text-input').value;\nlocalStorage.setItem('formText', formText);\n\n// On error, retrieve the text from storage\nconst storedText = localStorage.getItem('formText');\ndocument.getElementById('text-input').value = storedText;

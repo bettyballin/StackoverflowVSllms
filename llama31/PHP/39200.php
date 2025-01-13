@@ -1,1 +1,0 @@
-// Add an onclick event to each table row\necho "<tr onclick='showDetails(" . $row["id"] . ")'>";

@@ -1,1 +1,0 @@
-ALTER PROCEDURE myProc\n    @param1 INT,\n    @param2 INT\nAS\nBEGIN\n    SELECT * FROM table1 (NOLOCK)\n    INNER JOIN table2 (NOLOCK) ON table1.id = table2.id\n    WHERE table1.column = @param1 AND table2.column = @param2\n    OPTION (RECOMPILE);\nEND;

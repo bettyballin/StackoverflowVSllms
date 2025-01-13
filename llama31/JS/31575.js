@@ -1,1 +1,0 @@
-// Example SSE connection\nconst eventSource = new EventSource('https://example.com/events');\n\neventSource.onmessage = (event) => {\n  console.log(`Received event: ${event.data}`);\n};\n\neventSource.onerror = () => {\n  console.log('Error occurred');\n};\n\neventSource.onopen = () => {\n  console.log('Connected to the SSE server');\n};

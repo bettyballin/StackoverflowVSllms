@@ -1,1 +1,0 @@
-$allowedClasses = ['barClass', 'fooClass'];\n$var = 'bar';\n\nif (in_array($var . 'Class', $allowedClasses)) {\n    $bar = new $var . 'Class'('var for __construct()');\n} else {\n    // handle error or exception\n}

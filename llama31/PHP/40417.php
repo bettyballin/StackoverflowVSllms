@@ -1,1 +1,0 @@
-if (!mysql_connect($host, $user, $pass)) {\n    die("could not connect");\n}

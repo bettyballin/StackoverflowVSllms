@@ -1,1 +1,0 @@
-SELECT foo\nFROM your_table\nORDER BY TO_NUMBER(REGEXP_SUBSTR(foo, '[0-9]+'));

@@ -1,1 +1,0 @@
-function dhtmlLoadScript(url, callback) {\n  var e = document.createElement("script");\n  e.src = url;\n  e.type = "text/javascript";\n  e.onload = callback;\n  document.getElementsByTagName("head")[0].appendChild(e);\n}

@@ -1,1 +1,0 @@
-<id name="Id" type="uuid">\n  <column name="Id" sql-type="binary(16)" />\n  <generator class="uuid" />\n</id>

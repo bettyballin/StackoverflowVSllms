@@ -1,1 +1,0 @@
-CALL claim_message();

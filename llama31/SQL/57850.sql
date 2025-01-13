@@ -1,1 +1,0 @@
-CREATE TABLE default_values (\n  table_name VARCHAR(50),\n  field_name VARCHAR(50),\n  default_value_<data_type> <data_type>\n);\n\n-- For example, for a field "age" in table "users" with a default value of 25:\nCREATE TABLE default_values_users_age (\n  default_value INT DEFAULT 25\n);

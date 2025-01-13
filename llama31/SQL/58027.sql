@@ -1,1 +1,0 @@
-SELECT \n  table1.attrib1, \n  table1.attrib2,\n  tableA.attrib1 \nFROM \n  table1\n  INNER JOIN tableA ON table1.id = tableA.t1id\nWHERE \n  tableA.t2id IN (x, y, z);

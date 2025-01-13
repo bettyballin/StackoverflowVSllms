@@ -1,1 +1,0 @@
-<jvm-options>\n  ...\n  <option name="javax.net.ssl.trustStore" value="${glassfish-keystore.jks}"/>\n  <option name="javax.net.ssl.trustStorePassword" value="your-keystore-password"/>\n  ...\n</jvm-options>

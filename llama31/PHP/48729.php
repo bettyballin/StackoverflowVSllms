@@ -1,1 +1,0 @@
-function exception_error_handler($errno, $errstr, $errfile, $errline ) {\n    throw new ErrorException($errstr, $errno, 0, $errfile, $errline);\n}\nset_error_handler("exception_error_handler");\n\ntry {\n    $SQL = "INSERT";\n    ExecuteQuery($SQL);\n} catch (Exception $e) {\n    echo "<p>There was an error.</p>";\n    echo $e->getMessage();\n}

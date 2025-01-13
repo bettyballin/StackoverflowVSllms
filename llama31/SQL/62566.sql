@@ -1,1 +1,0 @@
-SELECT Name, Options\nFROM (\n  SELECT Name, OPTION1, OPTION2, OPTION3, OPTION4, OPTION5\n  FROM YourTable\n) AS SourceTable\nUNPIVOT (\n  Options FOR OptionName IN (OPTION1, OPTION2, OPTION3, OPTION4, OPTION5)\n) AS UnpivotTable\nWHERE Options = 1

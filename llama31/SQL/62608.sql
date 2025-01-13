@@ -1,1 +1,0 @@
-SELECT * FROM YourTable WITH (ROWLOCK, HOLDLOCK) WHERE YourColumn = 'YourValue';

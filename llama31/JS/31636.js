@@ -1,1 +1,0 @@
-var pattern = new RegExp(`${/some regex segment/.source}/* comment here */${/another segment/.source}`, 'g');

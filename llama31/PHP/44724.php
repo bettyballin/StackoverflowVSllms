@@ -1,1 +1,0 @@
-function detect_proxy() {\n    $client_ip = $_SERVER['REMOTE_ADDR'];\n    $ip_info = json_decode(file_get_contents('http://ip-api.com/json/' . $client_ip), true);\n    if ($ip_info['type'] == 'proxy') {\n        return true;\n    }\n    return false;\n}

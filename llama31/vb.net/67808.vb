@@ -1,1 +1,0 @@
-Sub ShowTable()\n    Dim tbl As Table\n    Set tbl = ActiveDocument.Tables(1) ' Change the index to the table you want to show\n    \n    tbl.Range.Font.Hidden = False ' Show the text\n    tbl.Borders.Enable = True ' Enable the borders\n    tbl.TableDirection = wdTableDirectionLeftToRight ' Restore the table direction\nEnd Sub

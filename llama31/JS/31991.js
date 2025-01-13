@@ -1,1 +1,0 @@
-// using jQuery\n$('#myfield').attr('autocomplete', 'off');

@@ -1,1 +1,0 @@
-const outerDiv = document.getElementById('10');\nconst innerDiv = outerDiv.children[4]; // indexing starts at 0

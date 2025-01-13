@@ -1,1 +1,0 @@
-SELECT \n  custid,\n  ordid,\n  qty,\n  datesold,\n  LAG(ordid) OVER (PARTITION BY custid ORDER BY datesold) AS prev_ordid\nFROM \n  your_table\nORDER BY \n  custid, datesold;

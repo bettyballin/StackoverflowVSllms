@@ -1,1 +1,0 @@
-from pyparsing import Word, alphas, nums\n\n# Define a simple grammar\ngrammar = Word(alphas) + Word(nums)\n\n# Parse a string\nparse_result = grammar.parseString("hello123")\n\n# Print the AST\nprint(parse_result.dump())

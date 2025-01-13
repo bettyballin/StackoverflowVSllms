@@ -1,1 +1,0 @@
-// application/classes/Controller/Hello.php\n\nclass Controller_Hello extends Controller {\n    public function action_index()\n    {\n        echo 'Hello, World!';\n    }\n}

@@ -1,1 +1,0 @@
-with open('script.txt', 'w') as f:\n    f.write(gs_csv_value)

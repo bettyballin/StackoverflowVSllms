@@ -1,1 +1,0 @@
-$query = "SELECT DISTINCT YEAR(FROM_UNIXTIME(date)) AS year, MONTH(FROM_UNIXTIME(date)) AS month\n          FROM news\n          ORDER BY year DESC, month DESC";\n$result = mysql_query($query);

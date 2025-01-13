@@ -1,1 +1,0 @@
-function truncate_string($str, $word_limit) {\n    $words = explode(' ', $str);\n    return implode(' ', array_slice($words, 0, $word_limit));\n}\n\n// Test the function\n$str = "This is a test string that needs to be truncated after 20 words.";\necho truncate_string($str, 20);

@@ -1,1 +1,0 @@
-$lastname = filter_input(INPUT_POST, 'lastname', FILTER_SANITIZE_STRING);

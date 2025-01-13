@@ -1,1 +1,0 @@
-$( "#draggable" ).draggable();\n$( "#droppable" ).droppable({\n  drop: function( event, ui ) {\n    $( this ).addClass( "ui-state-highlight" );\n  }\n});

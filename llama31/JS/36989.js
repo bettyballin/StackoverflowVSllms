@@ -1,1 +1,0 @@
-var fileUrl = 'path/to/file.png';\nfileUrl += '?' + new Date().getTime();\ndocument.getElementById('file-container').src = fileUrl;

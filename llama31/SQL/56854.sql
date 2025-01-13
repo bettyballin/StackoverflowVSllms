@@ -1,1 +1,0 @@
-SELECT a.loginid \nFROM affiliates a \nLEFT JOIN referrers r ON a.id = r.affiliates_id \nWHERE r.affiliates_id IS NULL;

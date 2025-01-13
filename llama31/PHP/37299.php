@@ -1,1 +1,0 @@
-<?php\n\n$pipeName = 'MyPipe';\n$message = 'Hello from PHP!';\n\n$pipe = fopen("\\\\.\\pipe\\" . $pipeName, 'w');\nfwrite($pipe, $message);\nfclose($pipe);\n\n?>

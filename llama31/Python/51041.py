@@ -1,1 +1,0 @@
-import ipaddress\n\ndef extract_grp(ipv6_address):\n    ipv6 = ipaddress.IPv6Address(ipv6_address)\n    grp = ipv6.packed[:6]  # Extract the first 48 bits (6 bytes)\n    return grp.hex()\n\n# Example usage:\nipv6_address = "2001:0db8:85a3:0000:0000:8a2e:0370:7334"\ngrp = extract_grp(ipv6_address)\nprint(grp)  # Output: "20010db885a3"

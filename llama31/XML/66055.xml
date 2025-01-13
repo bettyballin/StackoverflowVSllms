@@ -1,1 +1,0 @@
-<plugin>\n  <groupId>org.apache.maven.plugins</groupId>\n  <artifactId>maven-jar-plugin</artifactId>\n  <configuration>\n    <archive>\n      <manifest>\n        <addClasspath>true</addClasspath>\n      </manifest>\n      <manifestEntries>\n        <Java-Version>1.8</Java-Version>\n      </manifestEntries>\n    </archive>\n  </configuration>\n</plugin>

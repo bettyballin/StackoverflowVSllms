@@ -1,1 +1,0 @@
-// Get the menu state from local storage\nvar menuState = JSON.parse(localStorage.getItem('menuState'));\n\n// Expand the corresponding menu items\n$.each(menuState, function(id, expanded) {\n  if (expanded) {\n    $('#' + id).addClass('expanded');\n  } else {\n    $('#' + id).removeClass('expanded');\n  }\n});

@@ -1,1 +1,0 @@
-// Example using local storage\nfunction getAssignedColors() {\n  const assignedColors = localStorage.getItem("assignedColors");\n  return assignedColors ? JSON.parse(assignedColors) : [];\n}\n\nfunction setUserColor(color) {\n  const assignedColors = getAssignedColors();\n  assignedColors.push(color);\n  localStorage.setItem("assignedColors", JSON.stringify(assignedColors));\n}

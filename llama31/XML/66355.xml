@@ -1,1 +1,0 @@
-<system.serviceModel>\n  <serviceHostingEnvironment>\n    <baseAddressPrefixFilters>\n      <add prefix="http://www.domain.com"/>\n    </baseAddressPrefixFilters>\n  </serviceHostingEnvironment>\n</system.serviceModel>

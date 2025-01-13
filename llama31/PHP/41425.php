@@ -1,1 +1,0 @@
-$stmt = $pdo->prepare('SELECT * FROM users WHERE username = :username AND password = :password');\n$stmt->bindParam(':username', $_POST['username']);\n$stmt->bindParam(':password', hash('bcrypt', $_POST['password']));\n$stmt->execute();

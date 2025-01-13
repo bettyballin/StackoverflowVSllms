@@ -1,1 +1,0 @@
-CREATE TABLE sequences (\n    name VARCHAR(50) PRIMARY KEY,\n    value INT,\n    locked BIT DEFAULT 0\n);\n\n-- To get the next value\nBEGIN TRANSACTION;\nSELECT value FROM sequences WHERE name = 'my_sequence' AND locked = 0;\nUPDATE sequences SET value = value + 1, locked = 1 WHERE name = 'my_sequence';\nCOMMIT TRANSACTION;

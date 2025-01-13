@@ -1,1 +1,0 @@
-$filename = 'LVD 2-1133 - Ändring av dumpningslina (1984-11-20).pdf';\n$path = '/path/to/file/';\n$link = '<a href="' . $path . urlencode($filename) . '">' . htmlspecialchars($filename) . '</a>';

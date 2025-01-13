@@ -1,1 +1,0 @@
-SELECT dbo.RoundTo05(1.23)  -- returns 1.20\nSELECT dbo.RoundTo05(1.28)  -- returns 1.30\nSELECT dbo.RoundTo05(1.01)  -- returns 1.00

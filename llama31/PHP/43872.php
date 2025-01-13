@@ -1,1 +1,0 @@
-// page1.php\nsetcookie('form_data', $_POST['form_data'], time() + 3600);\n\n// page2.php\n$form_data = $_COOKIE['form_data'];\n// use $form_data to insert into MySQL table

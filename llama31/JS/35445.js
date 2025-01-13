@@ -1,1 +1,0 @@
-function generateWindowId() {\n  const timestamp = new Date().getTime();\n  const windowId = sessionStorage.getItem('windowId');\n  if (!windowId) {\n    windowId = `window-${timestamp}`;\n    sessionStorage.setItem('windowId', windowId);\n  }\n  return windowId;\n}

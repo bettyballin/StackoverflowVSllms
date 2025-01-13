@@ -1,1 +1,0 @@
-def transform_chatbot_training_data(data):\n    # Convert data to chatbot input format\n    transformed_data = convert_to_chatbot_input_format(data)\n    return transformed_data

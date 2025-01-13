@@ -1,1 +1,0 @@
-$stmt = $mysqli->prepare("SELECT * FROM users WHERE name = ?");\n$stmt->bind_param("s", $name); // 's' specifies the variable type => 'string'\n$stmt->execute();

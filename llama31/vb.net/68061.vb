@@ -1,1 +1,0 @@
-If TypeName(y) = "CommandButton" Then\n    ' Do something\nEnd If

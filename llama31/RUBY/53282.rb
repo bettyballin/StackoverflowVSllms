@@ -1,1 +1,0 @@
-# Example Capistrano deployment script\nnamespace :deploy do\n  desc "Deploy application"\n  task :default do\n    # Update code from SVN\n    svn_update\n    # Deploy to servers\n    deploy_to_servers\n  end\nend

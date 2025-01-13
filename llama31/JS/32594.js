@@ -1,1 +1,0 @@
-$('#cancelButton').on('click', function() {\n    $('.tooltip').remove();\n});

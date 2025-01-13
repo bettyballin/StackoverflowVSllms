@@ -1,1 +1,0 @@
-CREATE TABLE books_audit (\n    id INT,\n    name VARCHAR(255),\n    created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP,\n    deleted_at TIMESTAMP NULL DEFAULT NULL\n);

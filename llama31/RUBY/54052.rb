@@ -1,1 +1,0 @@
-# Gemfile\ngem 'image_processing'\ngem 'pdf-reader'

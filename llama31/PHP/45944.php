@@ -1,1 +1,0 @@
-$image_dir = 'path/to/image/directory';\n$images = scandir($image_dir);\n$total_images = count($images);

@@ -1,1 +1,0 @@
-public function bookRoom() {\n    $roomId = $this->request->data['Room']['id'];\n    $startDate = $this->request->data['Room']['start_date'];\n    $endDate = $this->request->data['Room']['end_date'];\n    // ...\n}

@@ -1,1 +1,0 @@
-class MyClass:\n    def __init__(self, value):\n        self.value = value\n\n    def print_value(self):\n        print(self.value)\n\nobj = MyClass("Hello, World!")\nobj.print_value()  # prints "Hello, World!"

@@ -1,1 +1,0 @@
-SELECT \n    t.id, \n    c.NameEn AS CampaignName, \n    t.createdDate, \n    m.Name, \n    m.IdNo, \n    m.Email, \n    m.MobileNo\nFROM \n    Transactions t\nINNER JOIN \n    Campaign c ON t.CampaignId = c.id\nINNER JOIN \n    Members m ON t.MemberId = m.id

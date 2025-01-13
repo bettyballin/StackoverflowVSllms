@@ -1,1 +1,0 @@
-$bad_words = array(\n  'word1' => 'gosh',\n  'word2' => 'darn',\n);\n\n$text = 'This is a bad word1 and word2 example';\n\n$filtered_text = strtr($text, $bad_words);\n\necho $filtered_text;

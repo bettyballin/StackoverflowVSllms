@@ -1,1 +1,0 @@
-$today = date('Y-m-d');\n$daysToAdd = 10; // number of days to add\n\n$newDate = date('Y-m-d', strtotime($today . ' + ' . $daysToAdd . ' days'));\n\necho $newDate;

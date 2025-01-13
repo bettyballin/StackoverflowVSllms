@@ -1,1 +1,0 @@
-SELECT DISTINCT `payer_email` AS `email`\nFROM `database1`.`paypal_table`\nWHERE `payer_email` NOT IN (\n  SELECT `email`\n  FROM `database2`.`Unsubscribers`\n)

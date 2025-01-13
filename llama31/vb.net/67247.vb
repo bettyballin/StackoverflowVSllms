@@ -1,1 +1,0 @@
-Dim maxExecutions As Integer = 1000\nDim executionCount As Integer = 0\n\nWhile condition IsNot Met\n    ' Code to execute\n    executionCount += 1\n    If executionCount >= maxExecutions Then\n        Exit While\n    End If\nEnd While

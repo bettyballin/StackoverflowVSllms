@@ -1,1 +1,0 @@
-$(document).ready(function() {\n    $.get('info.html', {}, function(html) {\n        console.log($('ul', html).html());\n    });\n});

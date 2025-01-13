@@ -1,1 +1,0 @@
-<script type="text/javascript">\n    function triggerDefaultRadioButton() {\n        var defaultRadioButton = document.getElementById('<%= radBook.ClientID %>');\n        defaultRadioButton.click();\n    }\n\n    Sys.Application.add_load(triggerDefaultRadioButton);\n</script>

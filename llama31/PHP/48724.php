@@ -1,1 +1,0 @@
-use PHPMailer\PHPMailer\PHPMailer;\n\n$mail = new PHPMailer();\n$mail->isSMTP();\n$mail->Host = 'smtp.gmail.com';\n$mail->Port = 587;\n$mail->SMTPSecure = 'tls';\n$mail->SMTPAuth = true;\n$mail->Username = 'your_email@gmail.com';\n$mail->Password = 'your_password';

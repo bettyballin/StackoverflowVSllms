@@ -1,1 +1,0 @@
-SELECT * FROM DistanceChart\nORDER BY FromLocation, ToLocation;

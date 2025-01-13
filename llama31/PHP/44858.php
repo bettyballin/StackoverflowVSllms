@@ -1,1 +1,0 @@
-$created_at = date('Y-m-d H:i:s');\n$sql = "INSERT INTO example (created_at) VALUES ('$created_at')";

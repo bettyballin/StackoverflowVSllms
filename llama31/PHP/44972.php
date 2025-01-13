@@ -1,1 +1,0 @@
-$url = $_POST['url']; // assuming the form field is named "url"\n$url = str_replace(array('http://', 'https://'), '', $url);\n// now $url will not have the unwanted "http://"

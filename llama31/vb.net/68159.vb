@@ -1,1 +1,0 @@
-Dim serializer As New CDataXmlSerializer(GetType(MyClass))\nDim obj As New MyClass With {.MessageText = "Hello, World!"}\n\nUsing writer As New StringWriter()\n    serializer.Serialize(writer, obj)\n    Console.WriteLine(writer.ToString())\nEnd Using

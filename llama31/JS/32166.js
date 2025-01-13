@@ -1,1 +1,0 @@
-$('#section').html(data, function() {\n  // additional logic here\n  $(this).fadeIn();\n});

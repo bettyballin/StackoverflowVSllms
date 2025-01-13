@@ -1,1 +1,0 @@
-Order.includes(:shipments)\n     .where(shipments: { created_at: 1.hour.ago..Time.current })\n     .references(:shipments)\n     .distinct

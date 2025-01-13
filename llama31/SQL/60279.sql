@@ -1,1 +1,0 @@
--- Create a SharePlex configuration file\nCREATE CONFIG FILE 'shareplex.cfg'\n  WITH CONFIGURATION = 'ASYNC'\n  AND SOURCE DATABASE = 'Site1_DB'\n  AND TARGET DATABASE = 'Site2_DB'\n  AND REPLICATION MODE = 'ACTIVE_ACTIVE';\n\n-- Start SharePlex replication\nSTART SHAREPLEX 'shareplex.cfg';

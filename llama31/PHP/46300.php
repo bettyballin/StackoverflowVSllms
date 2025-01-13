@@ -1,1 +1,0 @@
-{{ $newsData['latest_news'] }}

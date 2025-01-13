@@ -1,1 +1,0 @@
-import subprocess\n\n# Run MySQL installation command\nmysql_process = subprocess.Popen(['mysql_installation_command'])\n\n# Get the PID of the MySQL installation process\nmysql_pid = mysql_process.pid\n\n# Wait for the MySQL installation to complete\nmysql_process.wait()\n\n# Run DB scripts after MySQL installation completes\nrun_db_scripts()

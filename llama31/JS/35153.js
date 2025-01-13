@@ -1,1 +1,0 @@
-<pre><code>&lt;script&gt;alert(&#x27;XSS&#x27;);&lt;/script&gt;</code></pre>

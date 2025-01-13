@@ -1,1 +1,0 @@
-$('#tree').dynatree({\n  initAjax: {\n    url: '/path/to/json/data',\n    data: { mode: 'all' }\n  },\n  onActivate: function(node) {\n    // Load child nodes asynchronously\n    node.appendAjax({\n      url: '/path/to/json/data',\n      data: { id: node.data.key }\n    });\n  }\n});

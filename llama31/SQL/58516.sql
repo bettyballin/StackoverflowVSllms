@@ -1,1 +1,0 @@
-SELECT visitor_id, COUNT(*) AS count\nFROM (\n  SELECT visitor_id, visit_time, \n         CASE \n           WHEN EXTRACT(EPOCH FROM (visit_time - LAG(visit_time) OVER (PARTITION BY visitor_id ORDER BY visit_time))) < 3600 \n           THEN 0 \n           ELSE 1 \n         END AS new_session\n  FROM visiting\n) AS subquery\nGROUP BY visitor_id, new_session\nORDER BY visitor_id;

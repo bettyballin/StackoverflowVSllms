@@ -1,1 +1,0 @@
-var parser = new DOMParser();\nvar doc = parser.parseFromString(xhr.responseText, 'text/html');

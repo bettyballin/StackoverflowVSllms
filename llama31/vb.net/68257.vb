@@ -1,1 +1,0 @@
-Private Sub TrackBar1_Scroll(sender As Object, e As EventArgs) Handles TrackBar1.Scroll\n    Dim opacity As Double = TrackBar1.Value / 100.0\n    User32Wrappers.SetLayeredWindowAttributes(Me.Handle, 0, 255 * opacity, User32Wrappers.LWA.Alpha)\nEnd Sub

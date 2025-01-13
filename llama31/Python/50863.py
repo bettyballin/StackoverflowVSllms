@@ -1,1 +1,0 @@
-import numpy as np\nfrom sklearn.decomposition import PCA\n\n# Generate a random dataset\nnp.random.seed(0)\nX = np.random.rand(100, 10)\n\n# Perform PCA using eigenvalue decomposition\npca = PCA(n_components=2)\nX_pca = pca.fit_transform(X)\n\n# Print the explained variance ratio\nprint(pca.explained_variance_ratio_)

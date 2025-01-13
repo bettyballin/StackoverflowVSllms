@@ -1,1 +1,0 @@
-CREATE TRIGGER trg_baz_fk ON baz\nFOR INSERT, UPDATE\nAS\nBEGIN\n    IF NOT EXISTS (\n        SELECT 1\n        FROM LINKEDSERVER.RemoteDatabase.dbo.tbl_bar\n        WHERE id = inserted.foo_id\n    )\n    BEGIN\n        RAISERROR ('Foreign key constraint failed', 16, 1)\n        ROLLBACK TRANSACTION\n    END\nEND

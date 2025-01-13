@@ -1,1 +1,0 @@
-$request = new Zend_Controller_Request_Simple('action', 'controller', 'module');\n$controller = new MyController($request, new Zend_Controller_Response_Http());\n$controller->dispatch($request);

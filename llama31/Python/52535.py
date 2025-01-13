@@ -1,1 +1,0 @@
-def log_chatbot_training_data(data):\n    # Log data to track its usage, performance, and any anomalies\n    logged_data = log_data(data)\n    return logged_data

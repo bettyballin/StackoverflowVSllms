@@ -1,1 +1,0 @@
-SELECT \n  *,\n  MATCH (column_name) AGAINST ('apple iphone applications' IN BOOLEAN MODE) AS score\nFROM \n  table_name\nWHERE \n  MATCH (column_name) AGAINST ('apple iphone applications' IN BOOLEAN MODE)\nORDER BY \n  score DESC;

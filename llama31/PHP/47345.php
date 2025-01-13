@@ -1,1 +1,0 @@
-// Create a new PHP file, e.g., test.php\n<?php\necho "Hello, World!";

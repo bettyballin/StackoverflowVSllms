@@ -1,1 +1,0 @@
--- Example of adding an "isActive" field\nALTER TABLE your_table\nADD COLUMN is_active BIT DEFAULT 1;

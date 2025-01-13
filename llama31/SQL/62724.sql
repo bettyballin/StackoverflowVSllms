@@ -1,1 +1,0 @@
-ALTER PROCEDURE [Admin].[STORED_PROC]\n    @SQL_STATEMENT nvarchar(max)\nWITH EXECUTE AS OWNER\nAS\nBEGIN TRY\n    EXEC (@SQL_STATEMENT)\nEND TRY\nBEGIN CATCH\n    -- some logging when an exception is caught\nEND CATCH

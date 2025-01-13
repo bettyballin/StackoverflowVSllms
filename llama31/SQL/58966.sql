@@ -1,1 +1,0 @@
-UPDATE tbl\nSET title = CASE\n    WHEN title IN ('a-1', 'a.1') THEN 'a1'\n    WHEN title IN ('b-1', 'b.1') THEN 'b1'\n    ELSE title\nEND;

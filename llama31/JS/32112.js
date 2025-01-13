@@ -1,1 +1,0 @@
-$("li").each(function(){\n    var id = $(this).attr('id');\n    if (id.startsWith('outer')) {\n        alert("Outer");\n    } else if (id.startsWith('sub')) {\n        alert("Sub");\n    }\n});

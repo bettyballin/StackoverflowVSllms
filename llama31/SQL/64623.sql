@@ -1,1 +1,0 @@
--- example using a window function in PostgreSQL\nSELECT *, ROW_NUMBER() OVER (PARTITION BY product_id ORDER BY sales_amount DESC) AS row_num\nFROM sales;

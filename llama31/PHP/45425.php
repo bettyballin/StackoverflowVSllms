@@ -1,1 +1,0 @@
-// server-side PHP\n// process the upload and initiate the scan\n// return a response to the client-side JavaScript\n$response = array('clean' => true); // or false, depending on the scan result\nheader('Content-Type: application/json');\necho json_encode($response);

@@ -1,1 +1,0 @@
-CREATE TABLE deleted_records (\n  id INT PRIMARY KEY,\n  table_name VARCHAR(255),\n  record_id INT,\n  deletion_time TIMESTAMP,\n  deleted_by INT,\n  deleted_by_ip VARCHAR(255)\n);

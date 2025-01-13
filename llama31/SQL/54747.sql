@@ -1,1 +1,0 @@
-SELECT TOP 10 * FROM YourTable\nUNION ALL\nSELECT TOP 10 NULL, NULL, ... FROM sys.all_columns ac1\nCROSS JOIN sys.all_columns ac2

@@ -1,1 +1,0 @@
-const JsDiff = require('diff');\nconst oldHtml = '<p>Original text</p>';\nconst newHtml = '<p>Updated text</p>';\nconst diff = JsDiff.diffChars(oldHtml, newHtml);\nconsole.log(diff); // outputs an array of changes

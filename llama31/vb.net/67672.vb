@@ -1,1 +1,0 @@
-Dim Polygon As String = Placemark.<g:Polygon>.ToString()

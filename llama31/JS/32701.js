@@ -1,1 +1,0 @@
-div.html('<div>one line replacement</div><div>another line replacement</div><div>third line</div>', function() {\n  $(this).animate({ opacity: 1 }, 'slow');\n});

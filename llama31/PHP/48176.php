@@ -1,1 +1,0 @@
-$headers[] = "Sender: admin@mysite.com";

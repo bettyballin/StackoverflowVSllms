@@ -1,1 +1,0 @@
-$('.header').each(function() {\n  $(this).nextUntil('.header').addBack().wrapAll('<div class="wrap"></div>');\n});

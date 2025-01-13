@@ -1,1 +1,0 @@
-Array\n(\n    [0] => txt1\n    [2] => txt3\n)

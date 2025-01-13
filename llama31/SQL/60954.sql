@@ -1,1 +1,0 @@
--- Drop the existing stored procedure\nIF OBJECT_ID('dbo.YourStoredProcedureName', 'P') IS NOT NULL\nBEGIN\n    DROP PROCEDURE dbo.YourStoredProcedureName\nEND\nGO\n\n-- Create the new stored procedure\nCREATE PROCEDURE dbo.YourStoredProcedureName\n    -- Your stored procedure parameters and code here\nAS\nBEGIN\n    -- Your stored procedure code here\nEND\nGO

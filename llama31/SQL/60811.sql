@@ -1,1 +1,0 @@
-SELECT a IS DISTINCT FROM b AS is_not_equal;

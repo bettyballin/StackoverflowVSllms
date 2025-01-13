@@ -1,1 +1,0 @@
-$email = 'example@gmail.com';\n$domain = explode('@', $email)[1];\n\n$records = dns_get_record($domain, DNS_MX);\nif (empty($records)) {\n    // Domain does not exist or has no MX records\n}

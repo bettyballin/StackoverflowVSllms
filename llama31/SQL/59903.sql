@@ -1,1 +1,0 @@
-SET @filename = CONCAT('/my_path/', (SELECT field2 FROM table1 LIMIT 1), '.txt');\n\nSELECT t1.field1\nFROM table1 t1\nLIMIT 1\nINTO OUTFILE @filename;

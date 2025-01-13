@@ -1,1 +1,0 @@
-class Post < ActiveRecord::Base\n  has_many :comments, :eager_load => true\nend

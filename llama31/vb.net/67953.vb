@@ -1,1 +1,0 @@
-Function CurrentFontDPI() As Long\n    Const LOGPIXELSX As Long = 88\n    \n    Dim hwnd As Long\n    Dim hDC As Long\n    Dim logPix As Long\n    \n    hwnd = GetDesktopWindow()\n    hDC = GetDC(hwnd)\n    logPix = GetDeviceCaps(hDC, LOGPIXELSX)\n    ReleaseDC hwnd, hDC\n    \n    CurrentFontDPI = logPix\nEnd Functio

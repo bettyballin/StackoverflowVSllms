@@ -1,1 +1,0 @@
-widget.beforecreate(node, targetNode, type, to).then(function(create) {\n  if (create === false) {\n    // prevent item from being created\n  }\n});

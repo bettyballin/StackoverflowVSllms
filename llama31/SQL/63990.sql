@@ -1,1 +1,0 @@
-WITH numbered_urls AS (\n  SELECT url, site,\n         ROW_NUMBER() OVER (PARTITION BY site ORDER BY url) AS row_num\n  FROM urls\n)\nSELECT url\nFROM numbered_urls\nORDER BY row_num, site;

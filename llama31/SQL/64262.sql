@@ -1,1 +1,0 @@
-CREATE INDEX idx_sum_column ON table_name (sum_column);

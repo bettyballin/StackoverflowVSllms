@@ -1,1 +1,0 @@
-var myElement = $('myElementId'); // Assuming Prototype's $() method\nif (isElementReallyVisible(myElement)) {\n  // The element is visible\n} else {\n  // The element is not visible\n}

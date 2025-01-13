@@ -1,1 +1,0 @@
-public function __destruct()\n{\n    // cleanup code here\n}

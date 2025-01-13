@@ -1,1 +1,0 @@
-def list = [1, 2, 3]\nassert 1 in list == true\nassert 4 in list == false

@@ -1,1 +1,0 @@
-function myJavaScriptFunction(message) {\n    // Handle the message from Flash\n    console.log(message);\n}

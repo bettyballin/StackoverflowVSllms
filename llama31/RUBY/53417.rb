@@ -1,1 +1,0 @@
-# Gemfile\ngroup :test do\n  gem 'facebooker', require: false\n  gem 'flickraw', require: false\nend

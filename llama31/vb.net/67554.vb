@@ -1,1 +1,0 @@
-Public Class CustomType\n    Public Shared Function CreateDefault() As CustomType\n        Return New CustomType() ' or set specific default values\n    End Function\nEnd Class

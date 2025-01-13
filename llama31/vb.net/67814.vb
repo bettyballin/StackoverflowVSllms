@@ -1,1 +1,0 @@
-<WebMethod()> _\nPublic Function HelloWorld(name As String) As String\n    Return "Hello, " & name & "!"\nEnd Functio

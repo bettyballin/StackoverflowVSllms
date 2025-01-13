@@ -1,1 +1,0 @@
-$string = "00023460";\n$trimmedString = ltrim($string, "0");\necho $trimmedString; // Output: 23460

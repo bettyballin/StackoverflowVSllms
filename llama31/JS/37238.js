@@ -1,1 +1,0 @@
-// Client-side (JavaScript)\nconst jwtToken = 'your_jwt_token_here';\nconst xhr = new XMLHttpRequest();\nxhr.setRequestHeader('Authorization', `Bearer ${jwtToken}`);\nxhr.open('GET', 'https://example.com/secure-data', true);\nxhr.send();

@@ -1,1 +1,0 @@
-Dim dateValue As DateTime = DateTime.ParseExact("10/01/2008", "dd/MM/yyyy", Nothing)\nDim monthValue As Integer = dateValue.Month

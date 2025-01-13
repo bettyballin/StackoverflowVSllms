@@ -1,1 +1,0 @@
-$formData = $_POST['myField'];\n// process $formData

@@ -1,1 +1,0 @@
-$maxIntValue = PHP_INT_MAX;\necho $maxIntValue;

@@ -1,1 +1,0 @@
-<system.web>\n    <httpModules>\n        <add name="SubdomainRewriter" type="YourNamespace.SubdomainRewriter" />\n    </httpModules>\n</system.web>

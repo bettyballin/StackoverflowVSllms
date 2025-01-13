@@ -1,1 +1,0 @@
-import axios from 'axios';\n\nconst url = 'https://example.com/protected-area';\nconst username = 'your-username';\nconst password = 'your-password';\n\naxios.get(url, {\n  auth: {\n    username,\n    password\n  }\n})\n  .then(response => console.log(response.data))\n  .catch(error => console.error(error));

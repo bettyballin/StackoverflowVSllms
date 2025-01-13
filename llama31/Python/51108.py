@@ -1,1 +1,0 @@
-import datetime\nimport time\n\ndef get_previous_wednesday():\n    today = datetime.date.today()\n    offset = (today.weekday() - 2) % 7  # 2 is Wednesday's index (Monday is 0)\n    previous_wednesday = today - datetime.timedelta(days=offset)\n    return int(time.mktime(previous_wednesday.timetuple()))\n\nprint(get_previous_wednesday())

@@ -1,1 +1,0 @@
-CREATE TYPE Item_Ref AS OBJECT (id NUMBER);\n\nCREATE TYPE Item_Table IS TABLE OF Item_Ref;\n\nCREATE TYPE Item AS OBJECT (\n  id NUMBER,\n  subitems Item_Table\n);

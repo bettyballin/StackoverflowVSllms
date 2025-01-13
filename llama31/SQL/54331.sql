@@ -1,1 +1,0 @@
-SELECT t1.Name, t1.XX\nFROM your_table t1\nINNER JOIN (\n  SELECT Name, MAX(Date) as max_date\n  FROM your_table\n  GROUP BY Name\n) t2\nON t1.Name = t2.Name AND t1.Date = t2.max_date\nORDER BY t1.Name;

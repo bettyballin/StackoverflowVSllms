@@ -1,1 +1,0 @@
-<host>\n  <baseAddresses>\n    <add baseAddress="http://localhost:8000/" />\n  </baseAddresses>\n</host>

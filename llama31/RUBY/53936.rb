@@ -1,1 +1,0 @@
-require 'selenium-webdriver'\n\nitems.each do |id|\n  url = "http://foo.com/bar/#{id}"\n  driver = Selenium::WebDriver.for :firefox\n  driver.get url\n  driver.save_screenshot "/images/thumbnail-#{id}.png"\n  driver.quit\nend

@@ -1,1 +1,0 @@
-import requests\n\nurl = "http://example.com"\nheaders = {"Range": "bytes=-1000"}\n\nresponse = requests.get(url, headers=headers)\n\nprint(response.text)

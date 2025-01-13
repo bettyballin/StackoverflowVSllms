@@ -1,1 +1,0 @@
-question.tags # => ["halloween", "movie", "christmas"]

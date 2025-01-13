@@ -1,1 +1,0 @@
-$("form").submit(function(event) {\n    Sys.Mvc.AsyncForm.handleSubmit(this, event);\n    return false;\n});

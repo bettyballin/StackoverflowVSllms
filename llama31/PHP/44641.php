@@ -1,1 +1,0 @@
-$P = new MockParser();\n\n$P->expectOnce('loadUrl', array('http://url'));\n$P->stub('loadUrl', null); // add this line\n$P->expectOnce('parse');\n$P->stub('parse', null); // add this line\n\n$P->fetchAndParse('http://url');

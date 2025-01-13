@@ -1,1 +1,0 @@
-require 'coderay'\n\n# Retrieve code snippet from database\ncode_snippet = CodeSnippet.find(params[:id])\n\n# Format and highlight code using CodeRay\nformatted_code = CodeRay.scan(code_snippet.code, :ruby).div\n\n# Render formatted code in view\n<%= formatted_code.html_safe %>

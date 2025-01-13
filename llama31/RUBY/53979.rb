@@ -1,1 +1,0 @@
-require 'openssl'\n\ndef load_private_key(file_path, passphrase)\n  key = OpenSSL::PKey::RSA.new(File.read(file_path), passphrase)\n  # Now you can use the key\n  puts key.inspect\nrescue OpenSSL::PKey::RSAError => e\n  puts "Error loading key: #{e.message}"\nend\n\n# Usage\nload_private_key('path/to/your/private_key', 'your_passphrase')

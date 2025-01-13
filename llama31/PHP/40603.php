@@ -1,1 +1,0 @@
-$element->setOptions(array(\n    'validators' => array(\n        array('NotEmpty', 'messages' => array('Please enter a value for this field'))\n    )\n));\n$element->setRequired(true);

@@ -1,1 +1,0 @@
-Public Function GetStatus(ByVal objStatus As Object) As Boolean\n    Dim status As Boolean? = TryCast(objStatus, Boolean)\n    Return status.GetValueOrDefault(False)\nEnd Functio

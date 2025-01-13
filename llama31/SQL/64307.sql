@@ -1,1 +1,0 @@
-CREATE INDEX YourIndex ON YourTable (NVL(YourColumn, ' dummy value'));

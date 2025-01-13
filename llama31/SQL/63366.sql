@@ -1,1 +1,0 @@
-SELECT t1.name, COUNT(t2.id) AS count\nFROM t1\nLEFT JOIN t2 ON t1.id = t2.id\nGROUP BY t1.name\nORDER BY count DESC, name ASC;

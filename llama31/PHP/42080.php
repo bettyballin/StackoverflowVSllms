@@ -1,1 +1,0 @@
-function waste_lots_of_memory($iters) {\n  // ...\n  unset($object);\n  gc_collect_cycles();\n}

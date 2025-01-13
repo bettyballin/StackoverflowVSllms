@@ -1,1 +1,0 @@
-$records = @dns_get_record($hostname, $type, $authns, $addtl);\nif ($records === false) {\n    // Handle the error\n}

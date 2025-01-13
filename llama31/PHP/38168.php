@@ -1,1 +1,0 @@
-// config.php (example configuration file)\n<?php\nreturn [\n    'symfony' => [\n        'path' => '/path/to/symfony/installation',\n    ],\n];

@@ -1,1 +1,0 @@
-CREATE TEMPORARY TABLE questions_snapshot AS SELECT * FROM questions;\nSELECT * FROM questions_snapshot ORDER BY id LIMIT 10 OFFSET 10;

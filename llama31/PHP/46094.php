@@ -1,1 +1,0 @@
-// View\nclass View {\n    public function renderDiv($data) {\n        $html = '<div>';\n        $html .= '<h2>' . $data['title'] . '</h2>';\n        $html .= '<p>' . $data['content'] . '</p>';\n        $html .= '</div>';\n        return $html;\n    }\n}

@@ -1,1 +1,0 @@
-FB.ui({\n  method: 'dialog',\n  params: {\n    display: 'iframe',\n    href: 'YOUR_HELP_DIALOG_URL',\n    show_error: true,\n    width: 400,\n    height: 300\n  }\n});

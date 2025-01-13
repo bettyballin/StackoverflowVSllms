@@ -1,1 +1,0 @@
-function detectFormat(text) {\n  const textileRegex = /\b(h[1-6]\.|p\.|table)/;\n  const markdownRegex = /\b(#{1,6} |(\*\*|__)[^(\*\*|__)]+(\*\*|__))/;\n\n  if (textileRegex.test(text)) {\n    return 'textile';\n  } else if (markdownRegex.test(text)) {\n    return 'markdown';\n  } else {\n    return 'unknown';\n  }\n}

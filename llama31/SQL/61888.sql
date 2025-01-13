@@ -1,1 +1,0 @@
-SELECT \n  ARTICLE_NO, \n  USERNAME, \n  ACCESSSTARTS, \n  ARTICLE_NAME, \n  date_format(str_to_date(ACCESSSTARTS, '%d.%m.%Y %k:%i:%s'), '%d %m %Y' ) AS shortDate \nFROM \n  AUCTIONS \nWHERE \n  upper(ARTICLE_NAME) LIKE '%hardy%' \n  AND subcat IS NULL \nORDER BY \n  str_to_date(ACCESSSTARTS, '%d.%m.%Y %k:%i:%s'), \n  article_no \nLIMIT 0, 10

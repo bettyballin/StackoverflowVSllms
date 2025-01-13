@@ -1,1 +1,0 @@
-$('#myForm').validate({\n  rules: {\n    startDate: {\n      greaterThan: '#endDate'\n    },\n    endDate: {\n      lesserThan: '#startDate'\n    }\n  }\n});

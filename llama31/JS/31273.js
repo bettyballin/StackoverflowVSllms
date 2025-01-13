@@ -1,1 +1,0 @@
-$(document).ready(function() {\n  $("#test").append("<option>asdfasdfasdfasdfasdfasdfasdfasdf</option>");\n  $("#test").parent().css("width", "auto");\n});

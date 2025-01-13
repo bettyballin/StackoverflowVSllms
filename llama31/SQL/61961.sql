@@ -1,1 +1,0 @@
-SELECT a.id, a.date, a.time, a.signal, a.noise,\n       b.signal_strength, b.base_id, b.firmware,\n       a.site, b.active, a.table_key_id\nFROM adminuser.station AS a\nWHERE a.site = 1234 AND a.date >= '2009-03-20'\nAND EXISTS (\n    SELECT 1\n    FROM adminuser.base AS b\n    WHERE a.id = b.base_id\n);

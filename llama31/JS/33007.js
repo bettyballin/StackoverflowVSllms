@@ -1,1 +1,0 @@
-$("a[rel=more]").on("click", function(){\n    ...\n});

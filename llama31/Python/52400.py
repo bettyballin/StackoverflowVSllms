@@ -1,1 +1,0 @@
-glist = []\n\nfor i in big_list:\n    glist[:] = blah[:val]  # Replace the contents of the list with new elements

@@ -1,1 +1,0 @@
-function checkDates(form) {\n    checkDate(document.getElementById('00N80000003LGJ5'));\n    checkDate(document.getElementById('00N80000003LGNt'));\n}

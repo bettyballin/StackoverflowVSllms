@@ -1,1 +1,0 @@
-SELECT \n  c.*,\n  MAX(CASE WHEN ca.key1 = 'wedding_date' THEN ca.value1 END) AS wedding_date,\n  MAX(CASE WHEN ca.key1 = 'test' THEN ca.value1 END) AS test\nFROM \n  customer c\n  LEFT JOIN customer_attributes ca ON c.customerID = ca.customerID\nWHERE \n  c.customerID = '58029'\nGROUP BY \n  c.customerID

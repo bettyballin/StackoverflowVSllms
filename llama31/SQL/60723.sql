@@ -1,1 +1,0 @@
-SELECT * FROM docs\nWHERE FREETEXT(WordHtml, 'beleid', FORMSOF(INFLECTIONAL, 'beleid', LANGUAGE N'English'));

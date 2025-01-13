@@ -1,1 +1,0 @@
-SELECT \n    pod.PurchaseOrderDetailID,\n    cn.s AS ContractName,\n    cno.s AS ContractNo\nFROM \n    dbo.PurchaseOrderDetail AS pod\nCROSS APPLY \n    (SELECT TOP 1 s FROM dbo.Split(';', pod.Comments) WHERE pn = 1) AS cn\nCROSS APPLY \n    (SELECT TOP 1 s FROM dbo.Split(';', pod.Comments) WHERE pn = 2) AS cno

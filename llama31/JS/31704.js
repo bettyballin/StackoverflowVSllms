@@ -1,1 +1,0 @@
-var xml = '<root><person><name>John</name><age>30</age></person></root>';\nvar xmlDoc = $.parseXML(xml);\nvar $xml = $(xmlDoc);\n\nvar xpath = new XPath();\nvar result = xpath.select('//person/name', xmlDoc);\nconsole.log(result[0].nodeValue); // outputs "John"

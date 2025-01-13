@@ -1,1 +1,0 @@
-from django.db import connection\n\ndef get_session_key(user_id):\n    cursor = connection.cursor()\n    cursor.execute("""\n        SELECT session_key \n        FROM django_session \n        WHERE session_data LIKE %s\n    """, ["%%%s%%" % user_id])\n    row = cursor.fetchone()\n    if row:\n        return row[0]\n    return None

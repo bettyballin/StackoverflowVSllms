@@ -1,1 +1,0 @@
-<?php\nob_start();\ninclude_once("header2.html");\nob_end_clean();\n?>

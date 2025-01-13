@@ -1,1 +1,0 @@
-<jboss-web>\n    <context-root>/your/context/root</context-root>\n    <header-configuration>\n        <header name="Cache-Control" value="max-age=3600, public"/>\n    </header-configuration>\n</jboss-web>

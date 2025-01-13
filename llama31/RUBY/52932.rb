@@ -1,1 +1,0 @@
-Psych.safe_load(yaml_string, permitted_classes: [Foo])

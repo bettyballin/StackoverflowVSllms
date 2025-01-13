@@ -1,1 +1,0 @@
-try {\n    var app = new ActiveXObject("Application.Name");\n    // app is installed\n} catch (e) {\n    // app is not installed\n}

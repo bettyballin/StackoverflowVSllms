@@ -1,1 +1,0 @@
-if (!$book = $this->book_model->get_book($id)) {\n    $this->output->set_status_header('404');\n    $this->load->view('404');\n    exit;\n}

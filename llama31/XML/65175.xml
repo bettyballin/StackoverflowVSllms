@@ -1,1 +1,0 @@
-<configuration>\n  <system.data>\n    <leDb>\n      <add name="Pooling" value="false"/>\n    </leDb>\n  </system.data>\n</configuration>

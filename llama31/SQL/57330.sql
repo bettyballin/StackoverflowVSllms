@@ -1,1 +1,0 @@
-SELECT w2.word\nFROM words w1\nJOIN relations r ON w1.synset_id = r.synset1_id\nJOIN synsets s ON r.synset2_id = s.synset_id\nJOIN words w2 ON s.synset_id = w2.synset_id\nWHERE w1.word = 'example' AND r.rel_type = 'synonym';

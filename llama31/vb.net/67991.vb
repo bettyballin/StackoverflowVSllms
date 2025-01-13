@@ -1,1 +1,0 @@
-Public Sub SomeMethod(someControl as SpecificControl)\n    ' do stuff to the control\nEnd Sub

@@ -1,1 +1,0 @@
-SELECT [Current LSN], Operation, Context, [Transaction ID], [Log Record]\nFROM fn_dblog(NULL, NULL)\nWHERE Operation = 'INSERT' AND Context = 'LCX_CLUSTERED'

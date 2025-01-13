@@ -1,1 +1,0 @@
-DECLARE @DateOfBirth DATE = '1990-01-01'\nDECLARE @Today DATE = GETDATE()\n\nSELECT \n    FLOOR(DATEDIFF(DAY, @DateOfBirth, @Today) / 365.25) AS Age

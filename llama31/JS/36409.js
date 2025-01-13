@@ -1,1 +1,0 @@
-function validateField(sender) {\n    var validator = document.getElementById(sender.id + "_validator");\n    if (validator) {\n        ValidatorValidate(validator);\n    }\n}

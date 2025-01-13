@@ -1,1 +1,0 @@
-<?php\n\n// some code here\n\n// another block of code\n\nfor ($i = 0; $i < 10; $i++) {\n    echo $i . "\n";\n}

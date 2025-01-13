@@ -1,1 +1,0 @@
-CREATE TABLE test_char (\n  id NUMBER PRIMARY KEY,\n  char_col CHAR(1 BYTE)\n);\n\nCREATE TABLE test_varchar2 (\n  id NUMBER PRIMARY KEY,\n  varchar2_col VARCHAR2(2000 BYTE)\n);\n\nINSERT INTO test_char (id, char_col) VALUES (1, 'A');\nINSERT INTO test_varchar2 (id, varchar2_col) VALUES (1, 'A');\n\nSELECT * FROM test_char;\nSELECT * FROM test_varchar2;

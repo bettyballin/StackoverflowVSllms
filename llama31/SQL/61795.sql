@@ -1,1 +1,0 @@
-SELECT message_text FROM v$diag_alert_ext;

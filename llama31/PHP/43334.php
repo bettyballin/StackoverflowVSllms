@@ -1,1 +1,0 @@
-$options = array('count' => 1);\n$timeline = $twitter->GetFriendsTimeline($options);

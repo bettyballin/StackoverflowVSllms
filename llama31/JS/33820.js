@@ -1,1 +1,0 @@
-Object.extend(Function.prototype, {\n  TryCatchWrap: function() {\n    var __method = this;\n    return function() {\n      try {\n        __method.bind(this).apply(this, arguments);\n      } catch (ex) {\n        ErrorHandler.Exception(ex);\n      }\n    };\n  }\n});

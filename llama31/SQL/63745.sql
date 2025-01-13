@@ -1,1 +1,0 @@
-CREATE TABLE orders (\n  id INT PRIMARY KEY,\n  customer_id INT,\n  order_date DATE\n);\n\nCREATE TABLE customers (\n  id INT PRIMARY KEY,\n  name VARCHAR(50)\n);\n\nSELECT o.id, c.name, o.order_date\nFROM orders o\nJOIN customers c ON o.customer_id = c.id;

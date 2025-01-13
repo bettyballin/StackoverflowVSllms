@@ -1,1 +1,0 @@
-// Using PDF.js\nvar pdfViewer = new PDFJS.PDFViewer({\n  container: document.getElementById('pdf-container'),\n  pdf: 'path/to/your/document.pdf',\n  toolbar: false\n});

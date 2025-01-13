@@ -1,1 +1,0 @@
-$FotoMap = realpath(dirname(__FILE__) . '/files/');

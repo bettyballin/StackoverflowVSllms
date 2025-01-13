@@ -1,1 +1,0 @@
-<serviceHostingEnvironment>\n  <serviceActivations>\n    <add relativeAddress="ReportingManagement.svc" service="YourServiceNamespace.YourServiceClass" />\n  </serviceActivations>\n</serviceHostingEnvironment>

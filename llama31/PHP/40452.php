@@ -1,1 +1,0 @@
-// Backend application\n// session_destroy.php\n\n<?php\nsession_start();\n\nif (isset($_POST['session_id'])) {\n    $session_id = $_POST['session_id'];\n    session_id($session_id);\n    session_destroy();\n    echo 'Session destroyed';\n} else {\n    echo 'Invalid request';\n}

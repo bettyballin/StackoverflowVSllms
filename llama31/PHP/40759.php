@@ -1,1 +1,0 @@
-require_once 'Twig/Autoloader.php';\nTwig_Autoloader::register();\n\n$loader = new Twig_Loader_Filesystem('/path/to/templates');\n$twig = new Twig_Environment($loader);\n\n$template = $twig->loadTemplate('index.html');\n$template->display(array('name' => 'John Doe'));

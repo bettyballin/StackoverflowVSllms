@@ -1,1 +1,0 @@
-UPDATE catalog_product_entity\nSET creation_date = created_at,\n    last_edit_date = updated_at;

@@ -1,1 +1,0 @@
-SHOW OPEN TABLES WHERE Table = 'your_table_name';

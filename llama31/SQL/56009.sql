@@ -1,1 +1,0 @@
-WHILE EXISTS (SELECT 1 FROM sys.sysprocesses WHERE dbid = DB_ID('your_database_name') AND spid <> @@SPID)\nBEGIN\n    WAITFOR DELAY '00:00:30';  -- wait for 30 seconds\nEND

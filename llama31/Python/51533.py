@@ -1,1 +1,0 @@
-# my_library.py (library file)\ndef shared_function(x, y):\n    # implementation\n\n# file1.py (source file)\nfrom my_library import shared_function\n\ndef file1_function():\n    # use shared_function\n    shared_function(1, 2)\n\n# file2.py (source file)\nfrom my_library import shared_function\n\ndef file2_function():\n    # use shared_function\n    shared_function(3, 4)

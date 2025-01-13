@@ -1,1 +1,0 @@
-import os\n\ndef upload_to(instance, filename):\n    return os.path.join(instance.folder, filename)\n\nclass MyModel(models.Model):\n    folder = models.CharField(max_length=255)\n    file1 = models.FileField(upload_to=upload_to)\n    file2 = models.FileField(upload_to=upload_to)

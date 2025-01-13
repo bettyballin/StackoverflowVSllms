@@ -1,1 +1,0 @@
-# Create a temporary object with a UUID\ntemp_object = Object.create(name='Temporary Object', temp_id=uuid.uuid4())

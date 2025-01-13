@@ -1,1 +1,0 @@
-def min_interval_cover(intervals):\n    intervals.sort(key=lambda x: x[1])\n    result = []\n    e = intervals[0][0]\n    for interval in intervals:\n        if interval[0] > e:\n            result.append(interval)\n            e = interval[1]\n    return result

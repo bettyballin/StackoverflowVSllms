@@ -1,1 +1,0 @@
-Dim db As DAO.Database\nDim tdf As DAO.TableDef\nDim fld As DAO.Field\n\nSet db = CurrentDb()\nSet tdf = db.TableDefs("MyTable")\n\ntdf.Fields.Append tdf.CreateField("MyField", dbNumber, 9)\nSet fld = tdf.Fields("MyField")\nfld.DecimalPlaces = 4

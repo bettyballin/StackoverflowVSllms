@@ -1,1 +1,0 @@
-SELECT i.id, i.name\nFROM item i\nJOIN tree t ON i.tree_id = t.id\nJOIN tree t2 ON t.lft >= t2.lft AND t.rgt <= t2.rgt\nWHERE t2.type = x;

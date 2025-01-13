@@ -1,1 +1,0 @@
--- Truncate the log file\nBACKUP LOG [database_name] WITH TRUNCATE_ONLY\n\n-- Shrink the log file\nDBCC SHRINKFILE ('database_name_log', 1)

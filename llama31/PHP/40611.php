@@ -1,1 +1,0 @@
-$image = imagecreate(200, 200);\n$font = 'path/to/font.ttf';\n$text = 'This is some text';\n$size = 14;\n\nimagettftext($image, $size, 0, 10, 20, $text, $font);\n\nheader('Content-Type: image/png');\nimagepng($image);\nimagedestroy($image);

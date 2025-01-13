@@ -1,1 +1,0 @@
-var xhr = new XMLHttpRequest();\nxhr.open('GET', '/long.poll', true);\nxhr.onload = function() {\n    if (xhr.responseText) {\n        console.log('New data:', xhr.responseText);\n    }\n};\nxhr.send();

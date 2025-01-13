@@ -1,1 +1,0 @@
-CREATE TABLE votes (\n    id INT PRIMARY KEY AUTO_INCREMENT,\n    post_id INT,\n    user_id INT,\n    vote TINYINT(1)  // 1 for upvote, -1 for downvote\n);\n\nCREATE TABLE posts (\n    id INT PRIMARY KEY AUTO_INCREMENT,\n    title VARCHAR(255),\n    content TEXT\n);\n\nCREATE TABLE users (\n    id INT PRIMARY KEY AUTO_INCREMENT,\n    username VARCHAR(255)\n);

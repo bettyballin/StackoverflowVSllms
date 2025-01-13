@@ -1,1 +1,0 @@
-// Turn off output buffering\nob_implicit_flush(true);\n\n// Loop through your import process\nforeach ($items as $item) {\n    // Perform your import functionality\n    // ...\n\n    // Echo your response\n    echo "Item imported successfully!\n";\n\n    // Flush the output buffer to send the response to the user immediately\n    flush();\n}

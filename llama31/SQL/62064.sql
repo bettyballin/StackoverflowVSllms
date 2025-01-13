@@ -1,1 +1,0 @@
-SET GLOBAL ft_stopword_file = 'english';

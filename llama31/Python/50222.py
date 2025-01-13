@@ -1,1 +1,0 @@
-with open('output.txt', 'w') as f:\n    y = '10.1.1.' \n    for x in range(1, 256): # fixed the range to avoid unnecessary increment\n        f.write(y + str(x) + '\n')

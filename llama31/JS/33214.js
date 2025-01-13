@@ -1,1 +1,0 @@
-success: function(data){\n  try {\n    var parsedData = JSON.parse(data);\n    // Use parsedData\n  } catch(e) {\n    console.error("Failed to parse JSON:", e);\n  }\n}

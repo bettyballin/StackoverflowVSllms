@@ -1,1 +1,0 @@
-import pika\n\n# Connect to your message queue\nconnection = pika.BlockingConnection(pika.ConnectionParameters("localhost"))\n\n# Send a message to your Ruby code\nchannel = connection.channel()\nchannel.basic_publish(exchange="", routing_key="your_queue", body="your_message")

@@ -1,1 +1,0 @@
-$(document).ready(function() {\n  BindBanner(1234);\n});\n\nfunction BindBanner(bannerId) {\n  var divTag = $('#banner_' + bannerId);\n  // manipulate the returned code here\n  var manipulatedHtml = ManipulatedReturnedCode(bannerId);\n  divTag.html(manipulatedHtml);\n}

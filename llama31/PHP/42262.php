@@ -1,1 +1,0 @@
-Array\n(\n    [0] => this\n    [1] => multiple phrases\n)

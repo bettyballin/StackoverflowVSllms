@@ -1,1 +1,0 @@
-Public Interface IFoo\n    Sub DoIt()\nEnd Interface\n\nPublic Class Bar\n    Implements IFoo\n\n    Private Sub DoIt() Implements IFoo.DoIt\n        Console.WriteLine("Doing it")\n    End Sub\nEnd Class

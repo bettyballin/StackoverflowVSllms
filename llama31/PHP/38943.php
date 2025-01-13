@@ -1,1 +1,0 @@
-$array = array('test1', 'test2', 'test3', 'test4', 'test5');\n// do a bunch of other stuff, probably a loop\n$array[] = 'test6';\necho array_key_last($array); // gives you the key of the last added element

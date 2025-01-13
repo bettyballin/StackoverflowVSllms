@@ -1,1 +1,0 @@
-Default Public Property NewProperty() As String

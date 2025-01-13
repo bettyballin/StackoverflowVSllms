@@ -1,1 +1,0 @@
-{% for item in items %}\n  {{ item.title }} ({{ item.location_string }})\n{% endfor %}

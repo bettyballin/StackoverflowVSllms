@@ -1,1 +1,0 @@
-import secrets\n\ntoken = secrets.token_urlsafe(32)  # 32 bytes of randomness

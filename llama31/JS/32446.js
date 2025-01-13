@@ -1,1 +1,0 @@
-var bar = { baz: "qqqq" };\n\n// Save the original properties\nvar props = Object.assign({}, bar);\n\n// Assign a function to the bar variable\nbar = function() { return 1; };\n\n// Copy the original properties to the new function object\nObject.assign(bar, props);\n\nconsole.log(bar.baz); // "qqqq"\nconsole.log(bar()); // 1

@@ -1,1 +1,0 @@
-SELECT * FROM vote_results WHERE question_id = ?;

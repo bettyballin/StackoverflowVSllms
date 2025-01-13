@@ -1,1 +1,0 @@
-UPDATE STATISTICS table_x;\nUPDATE STATISTICS table_y;

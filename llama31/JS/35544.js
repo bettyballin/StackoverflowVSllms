@@ -1,1 +1,0 @@
-let foo;  // foo is undefined\nlet bar = null;  // bar is null\n\nconsole.log(foo === undefined);  // true\nconsole.log(bar === null);  // true

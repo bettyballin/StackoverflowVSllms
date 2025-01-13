@@ -1,1 +1,0 @@
-var option = selectElement.querySelector('option[value="valueToFind"]');

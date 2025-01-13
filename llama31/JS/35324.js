@@ -1,1 +1,0 @@
-// Add an error message\nvar validator = $('#myForm').validate();\nvalidator.showErrors({\n    "field_name": "Error message"\n});\n\n// Remove an error message\nvalidator.showErrors({\n    "field_name": ""\n});

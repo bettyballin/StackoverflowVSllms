@@ -1,1 +1,0 @@
-Dim d As DateTime = DateTime.ParseExact(value, "dd/MMM/yyyy:HH:mm:ss zzz", provider)

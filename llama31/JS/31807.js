@@ -1,1 +1,0 @@
-const font = '12px Arial';\nconst canvas = document.createElement('canvas');\nconst ctx = canvas.getContext('2d');\nctx.font = font;\n\nconst charWidths = {};\n\nfor (let i = 32; i <= 126; i++) { // ASCII printable characters\n  const char = String.fromCharCode(i);\n  const metrics = ctx.measureText(char);\n  charWidths[char] = metrics.width;\n}\n\nconsole.log(charWidths);

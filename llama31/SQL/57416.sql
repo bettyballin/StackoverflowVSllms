@@ -1,1 +1,0 @@
-LOAD DATA INFILE 'yourfile.csv'\nINTO TABLE yourtable\nFIELDS TERMINATED BY ','\nENCLOSED BY '\"'\nLINES TERMINATED BY '\n'\nIGNORE 1 ROWS\n SET insert_date = NOW(), update_date = NOW();

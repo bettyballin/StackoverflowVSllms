@@ -1,1 +1,0 @@
-<h1>Hello, World!</h1>\n\n<% if @user %>\n  <p>Welcome, <%= @user.name %>!</p>\n<% end %>

@@ -1,1 +1,0 @@
-const regex = /([^=]+)=(.*)/;\n\nconst setCookieHeader = "test_cookie=Cookie+check; path=/; domain=.Site.com";\n\nconst match = setCookieHeader.match(regex);\n\nif (match) {\n  const name = match[1].trim();\n  const value = match[2].trim();\n  console.log(`Name: ${name}`);\n  console.log(`Value: ${value}`);\n}

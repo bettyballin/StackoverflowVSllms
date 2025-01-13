@@ -1,1 +1,0 @@
-$stmt->bindValue(':nom', (int) $nom, PDO::PARAM_INT);

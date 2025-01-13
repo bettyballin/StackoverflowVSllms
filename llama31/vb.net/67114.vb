@@ -1,1 +1,0 @@
-Private Shadows Function GetEnumerator() As IEnumerator(Of T) Implements IEnumerable(Of T).GetEnumerator\n    Return Inner.GetEnumerator()\nEnd Function\n\nPublic Function GetEnumerator1() As IEnumerator Implements IList(Of T).GetEnumerator\n    Return DirectCast(Inner, IEnumerable).GetEnumerator()\nEnd Functio

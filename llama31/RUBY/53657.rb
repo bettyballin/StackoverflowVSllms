@@ -1,1 +1,0 @@
-# In your controller\nrender :partial => "staff_members/forms/personal_details", \n       :locals => { :skill_groups => @skill_groups, \n                    :staff_member => @staff_member, \n                    :object => @staff_member, \n                    :object_name => 'staff_member' }

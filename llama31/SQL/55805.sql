@@ -1,1 +1,0 @@
-SELECT * FROM Customers\nWHERE RemoveApostrophes(LastName) LIKE RemoveApostrophes('%O''Brien%')

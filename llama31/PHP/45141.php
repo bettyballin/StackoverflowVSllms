@@ -1,1 +1,0 @@
-$url = preg_replace('#^https?://#', '', $url);

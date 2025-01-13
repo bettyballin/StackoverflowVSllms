@@ -1,1 +1,0 @@
-function please_rebind() {\n  $('.number').bind("change", function() {\n    var $input = $(this); // store a reference to the input field\n    $.post('/registration/sell/check_badge_number', { number: $input.val() },\n      function(data) {\n        $input.addClass('make_it_red'); // use the stored reference\n        alert(data);\n      }, "html");\n  });\n}

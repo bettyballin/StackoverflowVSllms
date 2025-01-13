@@ -1,1 +1,0 @@
--- Disable foreign key constraint\nALTER TABLE [TableName] NOCHECK CONSTRAINT [FK_ConstraintName];\n\n-- Enable foreign key constraint\nALTER TABLE [TableName] CHECK CONSTRAINT [FK_ConstraintName];

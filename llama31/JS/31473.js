@@ -1,1 +1,0 @@
-const url = 'https://example.com/protected-area';\nconst username = 'your-username';\nconst password = 'your-password';\n\nfetch(url, {\n  headers: {\n    'Authorization': `Basic ${btoa(`${username}:${password}`)}`\n  }\n})\n  .then(response => response.text())\n  .then(data => console.log(data))\n  .catch(error => console.error(error));

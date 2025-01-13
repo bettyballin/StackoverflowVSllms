@@ -1,1 +1,0 @@
-$some_php_document = $_POST["some_value_submitted_via_ajax"];\n\nif (preg_match('#^(http|https)://#', $some_php_document)) {\n    $some_php_document = null;\n}

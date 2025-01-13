@@ -1,1 +1,0 @@
-format.xml { head(:ok); return }

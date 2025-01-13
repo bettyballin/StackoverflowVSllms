@@ -1,1 +1,0 @@
-$('#btnDelete').click(function() {\n  var id = $(this).data('id');\n  // Do the delete here via jQuery post, using the id variable\n  $.post('/delete', { id: id }, function(response) {\n    // handle the response\n  });\n});

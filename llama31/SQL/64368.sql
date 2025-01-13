@@ -1,1 +1,0 @@
-CREATE TABLE languages (\n  id serial NOT NULL,\n  code character(2) NOT NULL,\n  name character varying(255) NOT NULL,\n  CONSTRAINT languages_pkey PRIMARY KEY (id)\n);

@@ -1,1 +1,0 @@
-// Animate an element with jQuery\n$('#myElement').animate({\n    left: '+=50px',\n    opacity: 0.5\n}, 500);

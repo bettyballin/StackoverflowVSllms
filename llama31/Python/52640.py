@@ -1,1 +1,0 @@
-import os\nimport sys\n\nfrom your_application import app\n\nif __name__ == '__main__':\n    from wfastcgi import make_server\n    server = make_server('localhost', 8080, app)\n    server.serve_forever()

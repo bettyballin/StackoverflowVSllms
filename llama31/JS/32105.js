@@ -1,1 +1,0 @@
-$.ajax({\n    type: "GET",\n    dataType: "text",\n    url: "http://www.example.com/ajax.php",\n    data: 'id=5',\n    success: function(msg){\n        console.log(msg);\n    }\n});

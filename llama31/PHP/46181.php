@@ -1,1 +1,0 @@
-$conn = new mysqli($servername, $username, $password, $dbname);\n$result = $conn->query("SELECT UPDATE_TIME FROM information_schema.tables WHERE TABLE_NAME = 'your_table_name' AND TABLE_SCHEMA = 'your_database_name'");\n$row = $result->fetch_assoc();\n$lastUpdateTime = $row['UPDATE_TIME'];\necho "Last updated: " . date("m/d/Y", strtotime($lastUpdateTime));

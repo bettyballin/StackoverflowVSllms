@@ -1,1 +1,0 @@
-DELETE FROM news_stories\nWHERE unix_timestamp < (\n  SELECT MIN(unix_timestamp)\n  FROM (\n    SELECT unix_timestamp\n    FROM news_stories\n    ORDER BY unix_timestamp DESC\n    LIMIT 50\n  ) AS newest_50\n);

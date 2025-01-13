@@ -1,1 +1,0 @@
-function tcdf(t, dof) {\n  a1 =  0.254829592\n  a2 = -0.284496736\n  a3 =  1.421413741\n  a4 = -1.453152027\n  a5 =  1.061405429\n  x = dof / (t * t + dof)\n  y = 1 - (((((a5 * x + a4) * x) + a3) * x + a2) * x + a1) * x * exp(-t * t / 2)\n  return y\n}

@@ -1,1 +1,0 @@
-// server-side (PHP)\nheader('Content-Type: text/event-stream');\nheader('Cache-Control: no-cache');\n\n// Your search query logic here...\n$searchResults = array('result1', 'result2', 'result3');\n\necho "data: " . json_encode($searchResults) . "\n\n";\nflush();

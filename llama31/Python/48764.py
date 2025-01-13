@@ -1,1 +1,0 @@
-import cgi\n\ncgi.print_exception(format="Status: 404 Not Found")

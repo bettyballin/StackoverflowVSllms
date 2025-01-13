@@ -1,1 +1,0 @@
-var urlParams = new URLSearchParams(window.location.search);\nurlParams.set('param', 'value');\nwindow.history.pushState({}, '', `${window.location.pathname}?${urlParams.toString()}`);

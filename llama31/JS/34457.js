@@ -1,1 +1,0 @@
-$div.animate({ height: newHeight, width: newWidth }, 500);

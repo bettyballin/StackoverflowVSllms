@@ -1,1 +1,0 @@
-var connection = $.hubConnection();\nvar myHub = connection.createHubProxy('myHub');\n\nmyHub.on('updateData', function(data) {\n    // Update client-side data\n});\n\nconnection.start().done(function() {\n    // Start listening for updates\n});

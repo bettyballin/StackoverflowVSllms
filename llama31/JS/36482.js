@@ -1,1 +1,0 @@
-ClickCounter = function(buttonId) {\n    this._clickCount = 0;\n    document.getElementById(buttonId).onclick = () => this.buttonClicked();\n}\n\nClickCounter.prototype = {\n    buttonClicked: function() {\n        this._clickCount++;\n        alert('the button was clicked ' + this._clickCount + ' times');\n    }\n}

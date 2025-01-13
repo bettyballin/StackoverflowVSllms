@@ -1,1 +1,0 @@
-xmlRequest = $.post("/url/file/", { 'id' : object.id }, successFunction, 'json')\n  .fail(function(xhr, textStatus, errorThrown) {\n    console.log("Error: " + errorThrown);\n    console.log("Status: " + xhr.status);\n    console.log("Status Text: " + xhr.statusText);\n  });

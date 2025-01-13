@@ -1,1 +1,0 @@
-SELECT CAST(Product AS NCHAR(200)) AS Product\nFROM ConfigScheduling;

@@ -1,1 +1,0 @@
-// Assume 'myService' is a DWR service that returns an array of objects\nmyService.getArrayOfObjects(function(data) {\n  // 'data' is a JSON array of objects\n  for (var i = 0; i < data.length; i++) {\n    var obj = data[i];\n    // Access properties of the object using dot notation\n    console.log(obj.id, obj.name, obj.description);\n  }\n});

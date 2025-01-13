@@ -1,1 +1,0 @@
-const form = document.querySelector('form');\n\nform.addEventListener('submit', (event) => {\n    const comment = document.querySelector('textarea[name="commentcontent"]');\n    const commentValue = comment.value.trim();\n\n    if (commentValue === '') {\n        alert('Please enter a comment');\n        event.preventDefault();\n    }\n});

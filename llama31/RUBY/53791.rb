@@ -1,1 +1,0 @@
-jruby -r "C:/ruby/jruby-1.2.0/lib/ojdbc14.jar" sqltest.rb

@@ -1,1 +1,0 @@
-SELECT CAST(my_timestamp_column AS TIMESTAMP) AS standard_timestamp\nFROM my_table;

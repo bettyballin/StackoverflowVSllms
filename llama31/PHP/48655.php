@@ -1,1 +1,0 @@
-dl('memcache.so');\n$memcache = new Memcache;

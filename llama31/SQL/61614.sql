@@ -1,1 +1,0 @@
-select purge_date || "SODIUFOSDIUFSDOIFUDSF" from id_rec where id=36581;

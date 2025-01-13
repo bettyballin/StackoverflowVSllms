@@ -1,1 +1,0 @@
-import cherrypy\n\ncherrypy.config.update({\n    'tools.sessions.name': 'special_session_name'\n})

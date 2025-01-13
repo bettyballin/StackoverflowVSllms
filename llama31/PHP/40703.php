@@ -1,1 +1,0 @@
-require_once 'phpQuery.php';\n\n// Create a new pHpQuery object\n$pq = new phpQuery();\n\n// Create a new HTML element\n$div = $pq->create('div');\n\n// Add some content to the div\n$div->html('Hello, World!');\n\n// Add some styles to the div\n$div->css('background-color', 'red');\n\n// Output the generated HTML\nprint $div;

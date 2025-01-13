@@ -1,1 +1,0 @@
-$ch = curl_init('https://imap.gmail.com');\ncurl_setopt($ch, CURLOPT_RETURNTRANSFER, true);\ncurl_setopt($ch, CURLOPT_SSL_VERIFYPEER, true);\ncurl_setopt($ch, CURLOPT_SSL_VERIFYHOST, 2);\ncurl_setopt($ch, CURLOPT_USERNAME, 'your_email@gmail.com');\ncurl_setopt($ch, CURLOPT_PASSWORD, 'your_password');\n\n$response = curl_exec($ch);\ncurl_close($ch);

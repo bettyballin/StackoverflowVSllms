@@ -1,1 +1,0 @@
-if self.has_no_changeset(ticket):

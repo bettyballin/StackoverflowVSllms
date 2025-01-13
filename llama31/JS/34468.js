@@ -1,1 +1,0 @@
-$('#countries').attr('size', 1);

@@ -1,1 +1,0 @@
-SELECT *, \n       hits / DATEDIFF(NOW(), created) AS hits_per_day\nFROM entries\nWHERE is_published = 1\nORDER BY hits_per_day DESC, hits DESC, created DESC\nLIMIT 10;

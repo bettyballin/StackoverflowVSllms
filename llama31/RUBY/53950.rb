@@ -1,1 +1,0 @@
-resources :users do\n  member do\n    get 'profile'\n  end\n\n  collection do\n    get 'search'\n  end\nend

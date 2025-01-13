@@ -1,1 +1,0 @@
-DELETE FROM analyzedCopy2\nWHERE readings_miu_id NOT IN (\n  SELECT TOP 1 readings_miu_id\n  FROM analyzedCopy2\n  GROUP BY readings_miu_id\n)

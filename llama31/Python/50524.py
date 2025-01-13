@@ -1,1 +1,0 @@
-angles = [359, 1, 45, 180]\nmean_angle = circular_mean(angles)\nprint(mean_angle)  # Output: 0.5

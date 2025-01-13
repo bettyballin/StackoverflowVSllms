@@ -1,1 +1,0 @@
-UPDATE mytable WITH (UPDLOCK, SERIALIZABLE) SET counter = counter + 1

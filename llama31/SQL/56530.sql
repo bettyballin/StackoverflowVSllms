@@ -1,1 +1,0 @@
-DECLARE\n    v_users user_table_type := user_table_type();\nBEGIN\n    v_users.EXTEND;\n    v_users(1) := user_type('John', 'Doe', DATE '1990-01-01');\n    \n    v_users.EXTEND;\n    v_users(2) := user_type('Jane', 'Doe', DATE '1991-01-01');\n    \n    insert_users(v_users);\nEND;

@@ -1,1 +1,0 @@
-$serial = new phpSerial();\n$serial->deviceSet("/dev/ttyUSB0");\n$serial->confBaudRate(9600);\n$serial->confParity("none");\n$serial->confCharacterLength(8);\n$serial->confStopBits(1);\n$serial->deviceOpen();\n\n// Send a command to the device\n$serial->sendMessage("Hello, device!");\n\n// Read response from device\n$response = $serial->readPort();

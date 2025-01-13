@@ -1,1 +1,0 @@
-<dependency>\n    <groupId>com.jcraft</groupId>\n    <artifactId>jsch</artifactId>\n    <version>0.1.55</version>\n</dependency>

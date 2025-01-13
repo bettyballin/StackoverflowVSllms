@@ -1,1 +1,0 @@
-$(document).ready(function() {\n  // Show all children in the Superfish menu\n  $('#menu ul').show();\n});

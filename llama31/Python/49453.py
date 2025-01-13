@@ -1,1 +1,0 @@
-from scapy.all import *\n\n# Simple example to send an ARP request\npacket = ARP(pdst="192.168.1.1")\nsend(packet)

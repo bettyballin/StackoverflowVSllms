@@ -1,1 +1,0 @@
-# config/routes.rb\nnamespace :api do\n  namespace :v1 do\n    resources :users\n    resources :products\n  end\nend

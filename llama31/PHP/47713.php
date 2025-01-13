@@ -1,1 +1,0 @@
-$validators = array(\n    'driverName' => array(\n        'NotEmpty', \n        'messages' => array(\n            Zend_Validate_NotEmpty::IS_EMPTY => 'This should override the default message!'\n        )\n    )\n);

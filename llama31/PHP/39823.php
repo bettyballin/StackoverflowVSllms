@@ -1,1 +1,0 @@
-$stmt->bind_param('iss',\n                  $this->sqlid, \n                  $item['start_time'], \n                  $item['end_time']\n                  );

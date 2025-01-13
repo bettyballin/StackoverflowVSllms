@@ -1,1 +1,0 @@
-SELECT LENGTH('Hello World') FROM DUMMY;

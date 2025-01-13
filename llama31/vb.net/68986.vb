@@ -1,1 +1,0 @@
-Dim items As New ObservableCollection(Of TreeViewItemData)\nitems.Add(New TreeViewItemData With {.Text = "Item 1", .IsChecked = False})\nitems.Add(New TreeViewItemData With {.Text = "Item 2", .IsChecked = True})\n\nTreeView1.ItemsSource = items

@@ -1,1 +1,0 @@
-function go() {\n  var url = '<%= ApplicationPathUtils.getApplicationPath(pageContext) + "/Weather" %>';\n  $.ajax({\n    type: 'GET',\n    url: url,\n    dataType: 'script',\n    success: function(data) {\n      var forecastsElement = $("#forecasts");\n      forecastsElement.html(data);\n    },\n    complete: function() {\n      go();\n    }\n  });\n}

@@ -1,1 +1,0 @@
-CREATE OR REPLACE VIEW projects_v AS\nSELECT *\nFROM projects\nWHERE project_id IN (SELECT project_id FROM user_projects WHERE user_id = CURRENT_USER);

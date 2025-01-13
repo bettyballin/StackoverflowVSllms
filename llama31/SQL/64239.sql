@@ -1,1 +1,0 @@
-SELECT * FROM article WHERE FIND_IN_SET('5', category) > 0;

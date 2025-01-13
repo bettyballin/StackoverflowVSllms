@@ -1,1 +1,0 @@
-def admin_check\n  controller = self.class.name\n  action = action_name\n  # ...\nend

@@ -1,1 +1,0 @@
-<webFarms>\n  <webFarm name="Version1Farm" enabled="true">\n    <servers>\n      <add address="http://localhost:8080" />\n    </servers>\n    <applicationRequestRouting>\n      <routingRules>\n        <add protocol="http" />\n      </routingRules>\n    </applicationRequestRouting>\n  </webFarm>\n</webFarms>

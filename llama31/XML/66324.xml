@@ -1,1 +1,0 @@
-<xsl:choose>\n    <xsl:when test="string(categoryName)">\n        <xsl:value-of select="categoryName" />\n    </xsl:when>\n    <xsl:otherwise>\n        <xsl:value-of select="other" />\n    </xsl:otherwise>\n</xsl:choose>

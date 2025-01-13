@@ -1,1 +1,0 @@
-from flask import make_response\n\nresponse = make_response("your response data")\nresponse.headers["Cache-Control"] = "no-cache"\nreturn response

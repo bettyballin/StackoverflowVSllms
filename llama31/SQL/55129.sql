@@ -1,1 +1,0 @@
--- Use encryption to protect sensitive data\nCREATE TABLE customers (\n  id INT PRIMARY KEY,\n  credit_card_number VARBINARY(128) ENCRYPTED WITH (COLUMN_ENCRYPTION_KEY = 'mykey')\n);

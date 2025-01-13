@@ -1,1 +1,0 @@
-CREATE TABLE locations (\n  id INT PRIMARY KEY,\n  location POINT\n);

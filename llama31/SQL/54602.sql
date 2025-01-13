@@ -1,1 +1,0 @@
-WITH CheckedRows AS (\n  SELECT ID, 1 as IsChecked\n  FROM Blah\n  WHERE ID IN (1, 2, 3)\n)\nSELECT *\nFROM Blah\nLEFT JOIN CheckedRows ON Blah.ID = CheckedRows.ID\nORDER BY CheckedRows.IsChecked DESC, AnotherColumnToSort

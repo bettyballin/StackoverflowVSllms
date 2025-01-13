@@ -1,1 +1,0 @@
-import win32com.client\n\n# Create an instance of the python.Interpreter COM object\ninterp = win32com.client.Dispatch("Python.Interpreter")\n\n# Create a new object\nobj = interp.Eval("object()")\n\n# Register the object with the COM runtime\nwin32com.client.Register(obj, "MyObject")\n\n# Now other applications can access the object through COM

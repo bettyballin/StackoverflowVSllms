@@ -1,1 +1,0 @@
-EXEC sp_fulltext_service 'load_os_resources', 1;\nEXEC sp_fulltext_service 'verify_signature', 1;

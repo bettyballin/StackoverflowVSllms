@@ -1,1 +1,0 @@
-// Detect support for HTML5 canvas element\nif (document.createElement('canvas').getContext) {\n  // Canvas is supported, use it\n} else {\n  // Canvas is not supported, use a fallback or polyfill\n}

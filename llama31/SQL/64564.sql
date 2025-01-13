@@ -1,1 +1,0 @@
--- Backup your database on your local machine\nBACKUP DATABASE [YourDatabaseName] TO DISK = 'C:\Backup\YourDatabaseName.bak'\n\n-- Restore the backup on your production server\nRESTORE DATABASE [YourDatabaseName] FROM DISK = 'C:\Backup\YourDatabaseName.bak'

@@ -1,1 +1,0 @@
-CREATE VIRTUAL TABLE item_fts USING fts3(name, skim);\nINSERT INTO item_fts (name, skim) SELECT name, skim FROM item;

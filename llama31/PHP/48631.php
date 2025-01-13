@@ -1,1 +1,0 @@
-$numRecords->execute();\n$data = $con->query($countQuery) or die(print_r($con->error));

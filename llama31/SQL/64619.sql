@@ -1,1 +1,0 @@
-XMLElement('my:name',\n  XMLATTRIBUTES('http://www.example.com/my' AS "xmlns:my"),\n  'John')

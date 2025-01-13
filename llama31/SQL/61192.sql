@@ -1,1 +1,0 @@
-CREATE DATABASE [YourDatabase]\nON PRIMARY (\n    NAME = N'YourDatabase',\n    FILENAME = N'C:\Path\To\Database.mdf',\n    SIZE = 4096KB,\n    FILEGROWTH = 1024KB\n)\nLOG ON (\n    NAME = N'YourDatabase_log',\n    FILENAME = N'C:\Path\To\Database_log.ldf',\n    SIZE = 1024KB,\n    FILEGROWTH = 10%\n)\nWITH (DATA_COMPRESSION = PAGE);

@@ -1,1 +1,0 @@
-add_action('the_content', 'my_plugin');\n\nfunction my_plugin($content) {\n    if (is_single()) {\n        // Your plugin code here\n    }\n    return $content;\n}

@@ -1,1 +1,0 @@
-<Component>\n  <DynamicLink>\n    <SourcePath>PATH A</SourcePath>\n    <IncludeSubdirectories>1</IncludeSubdirectories>\n    <FilesToInclude>*.*</FilesToInclude>\n    <Exclude>PATH F\*</Exclude>\n  </DynamicLink>\n</Component>

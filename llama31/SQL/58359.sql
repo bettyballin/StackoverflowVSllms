@@ -1,1 +1,0 @@
-SELECT m.Title, mm.Source, mm.Journalist\nFROM Movie m\nJOIN Movie_Metadata mm ON m.Id = mm.MovieId AND mm.ColumnName = 'Director';

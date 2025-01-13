@@ -1,1 +1,0 @@
-<profile>\n    <properties>\n        <add name="GridColumnPreferences"\n             type="System.Collections.Generic.List`1[System.Int32]"\n             allowAnonymous="false" />\n    </properties>\n</profile>

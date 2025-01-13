@@ -1,1 +1,0 @@
-class ApplicationController < ActionController::Base\n  rescue_from Exception, with: :handle_exception\n\n  private\n\n  def handle_exception(exception)\n    if request.xhr?\n      render template: 'error.js.erb', status: 500\n    else\n      super\n    end\n  end\nend

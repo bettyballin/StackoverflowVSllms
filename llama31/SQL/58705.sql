@@ -1,1 +1,0 @@
-SELECT DISTINCT A.*, B.Date\nFROM TableA A\nINNER JOIN TableB B ON A.idA = B.IdA AND B.Date = '2009-01-10'\nORDER BY A.Id;

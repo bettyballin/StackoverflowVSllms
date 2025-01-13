@@ -1,1 +1,0 @@
-jQuery(document).ready(function() {\n  jQuery('form').ajaxForm({\n    success: function(response, status, xhr, form) {\n      var $form = $(form);\n      var $noteReturn = $form.closest('.notes').find('.noteReturn');\n      $noteReturn.html(response).fadeIn('slow');\n    }\n  });\n});

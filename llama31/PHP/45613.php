@@ -1,1 +1,0 @@
-$possibles = "123456789123456789"; // example string\n$uniqueChars = findUniqueChars($possibles);\nprint_r($uniqueChars); // output: Array ( [0] => 8 )

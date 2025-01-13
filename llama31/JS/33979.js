@@ -1,1 +1,0 @@
-var a = 0;\nwhile (a < 10) {\n    /* foo */\n    a += 1;\n}

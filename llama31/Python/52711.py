@@ -1,1 +1,0 @@
-def profile_chatbot_training_data(data):\n    # Profile data to understand its characteristics and patterns\n    profiled_data = profile_data(data)\n    return profiled_data

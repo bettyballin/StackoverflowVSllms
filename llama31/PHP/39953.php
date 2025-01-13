@@ -1,1 +1,0 @@
-$this->headStyle()->appendStyles(array(\n    'body { background: #FFFFFF; }',\n    'p { color: #000000; }'\n));

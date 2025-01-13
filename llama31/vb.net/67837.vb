@@ -1,1 +1,0 @@
-Dim qt As QueryTable\nSet qt = ActiveSheet.QueryTables.Add(Connection:="TEXT;" & myFilename, _\n    Destination:=Range("A1"))\nqt.TextFileParseType = xlDelimited\nqt.TextFileSemicolonDelimiter = True\nqt.Refresh

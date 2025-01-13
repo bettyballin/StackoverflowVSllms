@@ -1,1 +1,0 @@
-class ProductForm(ModelForm):\n    long_desc = forms.CharField(widget=forms.Textarea(attrs={'style': 'width: 500px;'}))\n    short_desc = forms.CharField(widget=forms.Textarea(attrs={'style': 'width: 500px;'}))\n    class Meta:\n        model = Product

@@ -1,1 +1,0 @@
-// Set the user ID in a Redis cache\n$redis->set('uid', $uid);\n\n// Access the user ID in another script\n$uid = $redis->get('uid');

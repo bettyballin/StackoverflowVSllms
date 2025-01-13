@@ -1,1 +1,0 @@
-$conn = sqlsrv_connect($server, $connectionInfo);

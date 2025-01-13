@@ -1,1 +1,0 @@
-browser.runtime.onMessage.addListener((request, sender, sendResponse) => {\n  if (request.action === 'injectScript') {\n    browser.tabs.create({ url: 'https://example.com' }).then((tab) => {\n      browser.tabs.sendMessage(tab.id, { action: 'injectScript' });\n    });\n  }\n});

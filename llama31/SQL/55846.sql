@@ -1,1 +1,0 @@
-DECLARE\n  current_tab_page VARCHAR2(30);\n  next_tab_page VARCHAR2(30);\nBEGIN\n  current_tab_page := GET_CURRENT_TAB_PAGE('canvas_name');\n  next_tab_page := GET_NEXT_TAB_PAGE('canvas_name', current_tab_page);\n  SET_TAB_PAGE('canvas_name', next_tab_page);\nEND;

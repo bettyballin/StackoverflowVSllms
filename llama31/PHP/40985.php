@@ -1,1 +1,0 @@
-require('fpdf.php');\n\n$pdf = new FPDF();\n$pdf->AddPage();\n$pdf->SetFont('Arial', '', 12);\n$pdf->LoadForm('path/to/form.pdf', true); // Load form and fill fields\n$pdf->Output('F', 'output.pdf'); // Save to file

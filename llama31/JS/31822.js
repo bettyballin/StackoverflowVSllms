@@ -1,1 +1,0 @@
-// Call the function on document ready, or on a specific event like a button click\n$(document).ready(function() {\n    closePanels(); // This will hide the panels when the document is ready\n});

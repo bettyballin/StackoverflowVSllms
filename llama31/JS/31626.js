@@ -1,1 +1,0 @@
-const userText = document.getElementById('user-input').value;\nconst displayElement = document.getElementById('display-element');\ndisplayElement.textContent = userText;

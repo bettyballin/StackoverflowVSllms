@@ -1,1 +1,0 @@
-document.execCommand('SendKeys', false, 'C:\\path\\to\\file.txt');

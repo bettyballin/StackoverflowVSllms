@@ -1,1 +1,0 @@
-SELECT CONCAT(FLOOR(your_duration_in_seconds / 86400), ':', \n               LPAD(FLOOR((your_duration_in_seconds % 86400) / 3600), 2, '0')) AS duration;

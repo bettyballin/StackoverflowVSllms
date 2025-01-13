@@ -1,1 +1,0 @@
-def protect_chatbot_training_data(data):\n    # Protect data using data privacy techniques\n    protect_data(data)\n    return True

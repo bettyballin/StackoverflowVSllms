@@ -1,1 +1,0 @@
-require 'JSMin.php';\n\n$js = file_get_contents('input.js');\n$minified = JSMin::minify($js);\nfile_put_contents('output.min.js', $minified);

@@ -1,1 +1,0 @@
-<Insert>usp_HistoryInsert</Insert>

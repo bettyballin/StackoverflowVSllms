@@ -1,1 +1,0 @@
-CREATE TABLE [dbo].[Dim_Date]\n(\n    [DateKey] INT PRIMARY KEY,\n    [Date] DATE,\n    [Year] INT,\n    [Quarter] INT,\n    [Month] INT\n);

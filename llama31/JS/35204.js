@@ -1,1 +1,0 @@
-<script type="text/javascript">\n  //<![CDATA[\n  if (a < b) {\n    alert('a is less than b');\n  }\n  //]]>\n</script>

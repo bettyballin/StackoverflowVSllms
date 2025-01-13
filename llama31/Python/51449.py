@@ -1,1 +1,0 @@
-from django.core.validators import RegexValidator\n\nclass Item(models.Model):\n    description = models.CharField(max_length=100, validators=[RegexValidator(r'\S+', 'Only whitespace is not allowed')])\n\nclass ItemForm(ModelForm):\n    class Meta:\n        model = Item

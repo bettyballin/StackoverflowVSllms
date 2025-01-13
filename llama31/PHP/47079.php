@@ -1,1 +1,0 @@
-$client = new Zend_Soap_Client('http://example.com/soap/wsdl');

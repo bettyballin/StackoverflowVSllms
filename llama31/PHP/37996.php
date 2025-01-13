@@ -1,1 +1,0 @@
-$types = nicnames_config::getResourcetypes();

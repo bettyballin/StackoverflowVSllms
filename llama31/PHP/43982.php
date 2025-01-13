@@ -1,1 +1,0 @@
-class Test{\n    private  $systime;\n\n    public function __construct(){\n        $this->systime = time();\n    }\n\n    public function get_systime(){\n        echo $this->systime;\n    }\n}

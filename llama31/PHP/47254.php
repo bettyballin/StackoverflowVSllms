@@ -1,1 +1,0 @@
-<?php\n$text_area_content = generate_text_area_content(); // your function to generate the text area content\n\nheader('Content-Disposition: attachment; filename="exported_code.txt"');\nheader('Content-Type: text/plain');\nheader('Content-Length: ' . strlen($text_area_content));\n\necho $text_area_content;\nexit;

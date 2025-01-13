@@ -1,1 +1,0 @@
-CREATE TABLE mytable (\n    created_date datetime DEFAULT GETDATE()\n);

@@ -1,1 +1,0 @@
-document.querySelectorAll('*').forEach(function(element) {\n  element.style.webkitPrintColorAdjust = 'exact';\n  element.style.printColorAdjust = 'exact';\n});\nwindow.print();

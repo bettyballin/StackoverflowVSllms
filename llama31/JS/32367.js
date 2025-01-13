@@ -1,1 +1,0 @@
-<script type="text/javascript">\n    function MainObject.SubSystemA::SomeSubSystemAEvent(arg1, arg2) {\n        // Event handling logic\n    }\n</script>

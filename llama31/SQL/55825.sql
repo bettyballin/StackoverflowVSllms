@@ -1,1 +1,0 @@
-SELECT ID\nFROM YourTable\nWHERE -- your conditions here

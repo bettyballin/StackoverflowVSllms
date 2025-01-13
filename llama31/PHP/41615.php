@@ -1,1 +1,0 @@
-$ffmpeg = new FFMpeg();\n$video = $ffmpeg->open('input.mp4');\n$overlay = $ffmpeg->open('overlay.png');\n$video->addOverlay($overlay, 'main_w - overlay_w - 10', 'main_h - overlay_h - 10');\n$video->save('output.mp4');

@@ -1,1 +1,0 @@
-SELECT f.title\nFROM Films f INNER JOIN\n    CONTAINSTABLE(Films, Title, @partialKeywordString) f_key1 ON f.filmid = f_key1.[key]\nINNER JOIN\n    FREETEXTTABLE(Films, Title, @partialKeywordString) f_key2 ON f.filmid = f_key2.[key]\nORDER BY f_key1.Rank + f_key2.Rank DESC

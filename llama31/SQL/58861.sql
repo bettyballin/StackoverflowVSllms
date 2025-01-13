@@ -1,1 +1,0 @@
-DECLARE @key INT = NULL;\nSELECT * FROM Table t WHERE @key IS NULL OR (@key IS NOT NULL AND @key = t.Key);

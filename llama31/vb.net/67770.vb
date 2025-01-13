@@ -1,1 +1,0 @@
-Dim b As Char() = {Chr(149)}\nDim bytes As Byte() = Encoding.UTF8.GetBytes(b)\nConsole.WriteLine(bytes(0)) ' Output: 149

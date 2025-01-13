@@ -1,1 +1,0 @@
-$(document).ready(function() {\n    $("#Save").click(function() {\n        $.post("url", {\n            "data": "data"\n        }, function(data) {\n            alert(data);\n        })\n        .error(function(xhr, status, error) {\n            alert("An error occurred: " + error);\n        });\n    });\n});

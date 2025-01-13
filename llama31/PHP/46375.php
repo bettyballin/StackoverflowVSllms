@@ -1,1 +1,0 @@
-require_once('path/to/phpbb/includes/functions.php');\n\n$username = 'username';\n$password = 'password';\n\n$auth = new auth();\n$auth->login($username, $password);\n\nif ($auth->data['user_id'] != ANONYMOUS) {\n    echo "User is logged in";\n} else {\n    echo "User is not logged in";\n}

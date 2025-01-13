@@ -1,1 +1,0 @@
-foreach ($item as $key => $value) {\n    $arr[$key] = ($arr[$key] ?? 0) + $other_arr[$value];\n}

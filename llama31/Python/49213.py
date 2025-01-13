@@ -1,1 +1,0 @@
-def test_restore_db_and_run_etl():\n    db = Database.Connect("db_connection_string")\n    db.Restore("known_db_backup")\n    etl_job = SQLAgentJob.Connect("etl_job_name")\n    etl_job.Run()\n    validation_script = SQLScript.Connect("validation_script")\n    validation_script.Execute()

@@ -1,1 +1,0 @@
-import requests\n\napi_key = "YOUR_API_KEY"\nstock_symbol = "AAPL"\n\nurl = f"https://www.alphavantage.co/query?function=TIME_SERIES_DAILY&symbol={stock_symbol}&apikey={api_key}&outputsize=full&datatype=json"\n\nresponse = requests.get(url)\ndata = response.json()\n\n# Parse the JSON data to extract the stock prices\nstock_prices = data["Time Series (Daily)"]

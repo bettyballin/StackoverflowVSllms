@@ -1,1 +1,0 @@
-var html = winner.clone().find('a').replaceWith('').end().html();

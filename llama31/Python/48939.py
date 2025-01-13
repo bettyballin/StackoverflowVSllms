@@ -1,1 +1,0 @@
-import zlib\nimport struct\n\n# Assuming your data is a list of tuples\ndata = [(1, 2, 3.4), (2, 3, 4.5), ...]\n\n# Serialize the data using struct\nserialized_data = b''.join(struct.pack('>ii', x[0], x[1]) + struct.pack('>f', x[2]) for x in data)\n\n# Compress the serialized data using zlib\ncompressed_data = zlib.compress(serialized_data)

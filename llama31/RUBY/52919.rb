@@ -1,1 +1,0 @@
-if val.to_i == 0\n  # Is nil or zero\nend

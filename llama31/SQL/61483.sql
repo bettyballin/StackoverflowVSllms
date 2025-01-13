@@ -1,1 +1,0 @@
-INSERT INTO ReportingPeriods (StartDate, EndDate)\nSELECT \n  DATE_ADD(EndDate, INTERVAL 1 DAY), \n  DATE_ADD(EndDate, INTERVAL ReportingPeriodLength DAY)\nFROM \n  ReportingPeriods\nWHERE \n  EndDate < CURRENT_DATE;

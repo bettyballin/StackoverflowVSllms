@@ -1,1 +1,0 @@
-while ($row = mysql_fetch_array($result, MYSQL_ASSOC)) {\n    echo $row['note'];\n}

@@ -1,1 +1,0 @@
-if (get_magic_quotes_gpc()) {\n    function stripslashes_deep($value) {\n        $value = is_array($value) ? array_map('stripslashes_deep', $value) : stripslashes($value);\n        return $value;\n    }\n    $_POST = stripslashes_deep($_POST);\n}

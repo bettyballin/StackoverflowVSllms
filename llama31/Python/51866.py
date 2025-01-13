@@ -1,1 +1,0 @@
-import cProfile\n\ndef profile_app(environ, start_response):\n    profiler = cProfile.Profile()\n    profiler.enable()\n    try:\n        return application(environ, start_response)\n    finally:\n        profiler.disable()\n        profiler.print_stats()

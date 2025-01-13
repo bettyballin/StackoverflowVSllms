@@ -1,1 +1,0 @@
-hash = {"a" => "b", "c" => "d"}\nnew_hash = hash.map { |k, v| [k, v.upcase] }.to_h\nputs new_hash  # => {"a"=>"B", "c"=>"D"}

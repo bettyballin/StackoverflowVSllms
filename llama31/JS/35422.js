@@ -1,1 +1,0 @@
-var table = document.getElementById('myTable');\nvar row = table.rows[20]; // scroll to the 21st row\nscrollToRow(table, row);

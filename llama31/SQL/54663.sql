@@ -1,1 +1,0 @@
-CREATE INDEX idx_SpaceObject_CoordinateID ON SpaceObject (CoordinateID);

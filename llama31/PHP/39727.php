@@ -1,1 +1,0 @@
-class IndexController extends Zend_Controller_Action\n{\n    public function __call($methodName, $args)\n    {\n        // Disable view renderer\n        $this->_helper->viewRenderer->setNoRender(true);\n\n        // Render a custom view or a static page\n        include 'path/to/static/page.html';\n        // or\n        $this->view->render('custom-view-script');\n    }\n}

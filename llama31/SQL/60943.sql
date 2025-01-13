@@ -1,1 +1,0 @@
-CREATE TABLE #sequence (\n    id INT\n);\n\nINSERT INTO #sequence (id)\nVALUES (1);\n\nCREATE FUNCTION getNextID()\nRETURNS INT\nAS\nBEGIN\n    DECLARE @id INT;\n    SELECT @id = id FROM #sequence;\n    UPDATE #sequence SET id = id + 1;\n    RETURN @id;\nEND;\n\nINSERT INTO tableOfStuff (someStuff, uniqueID)\nVALUES ('stuff', dbo.getNextID());

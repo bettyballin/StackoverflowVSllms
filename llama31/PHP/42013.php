@@ -1,1 +1,0 @@
-$transliterator = Transliterator::createFromRules(':: Any-Latin; :: Latin-ASCII; :: NFD; :: [:Nonspacing Mark:] Remove; :: NFC;', Transliterator::FORWARD);\n$transliteratedString = $transliterator->transliterate($originalString);

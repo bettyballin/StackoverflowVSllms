@@ -1,1 +1,0 @@
-$xml = simplexml_load_file('https://api.flickr.com/services/feeds/photos_public.gne');\n\n$thumbnails = $xml->channel->item->children('media', true)->thumbnail;\n\nforeach ($thumbnails as $thumbnail) {\n    echo (string)$thumbnail['url'] . "\n";\n}

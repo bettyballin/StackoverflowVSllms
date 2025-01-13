@@ -1,1 +1,0 @@
-exec('/path/to/parse_log.sh games_mp.log', $output, $return_var);

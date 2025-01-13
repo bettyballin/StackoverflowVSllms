@@ -1,1 +1,0 @@
-<webappext:WebAppExtension xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:webappext="http://www.ibm.com/websphere/appserver/schemas/5.0/webappext.xmi">\n    <jspConfiguration jspExtensionDisabled="true"/>\n</webappext:WebAppExtension>

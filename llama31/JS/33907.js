@@ -1,1 +1,0 @@
-var requestUrl = new URL('/data.json', baseUrl).href;

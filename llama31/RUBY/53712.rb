@@ -1,1 +1,0 @@
-require 'net/http/persistent'\n\nhttp = Net::HTTP::Persistent.new('your_isa_server', 8080)\nhttp.proxy_user = 'your_username'\nhttp.proxy_pass = 'your_password'\nhttp.use_ssl = false\n\nGem::RemoteFetcher.fetcher = http\n\n# Now you can install gems as usual\ngem install rails

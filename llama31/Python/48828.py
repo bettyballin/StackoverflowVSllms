@@ -1,1 +1,0 @@
-import pywintypes\n\n# Define the error code\nhresult = -2147352567\n\n# Create a com_error object\nerr = pywintypes.com_error(hresult)\n\n# Print the error description\nprint(err.Description)

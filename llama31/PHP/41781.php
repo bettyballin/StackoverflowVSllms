@@ -1,1 +1,0 @@
-public function indexAction() {\n    $errorMessage = Zend_Session::get('errorMessage');\n    Zend_Session::unset('errorMessage'); // Remove the error message from the session\n    $this->view->errorMessage = $errorMessage;\n}

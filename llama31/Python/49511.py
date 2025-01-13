@@ -1,1 +1,0 @@
-# myapp/context_processors.py\n\nfrom django.contrib import messages\nfrom django.core.context_processors import auth\n\ndef admin_auth_messages(request):\n    if request.path.startswith('/admin/'):\n        return auth(request)\n    else:\n        return {}

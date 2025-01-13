@@ -1,1 +1,0 @@
-SELECT a.`id`, a.`title`, a.`date`, b.`grade`\nFROM `presentations` a\nJOIN (\n  SELECT presid, MAX(grade) AS grade\n  FROM tests\n  WHERE userid = 41\n  GROUP BY presid\n) b ON a.`id` = b.presid\nWHERE a.`visible` = 1 AND b.`grade` >= 5\nORDER BY b.`grade` DESC

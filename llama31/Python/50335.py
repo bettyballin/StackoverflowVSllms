@@ -1,1 +1,0 @@
-import sqlite3\n\nconn = sqlite3.connect('example.db')\ncursor = conn.cursor()\ncursor.execute('SELECT * FROM users')\nresults = cursor.fetchall()

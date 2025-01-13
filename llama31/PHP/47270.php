@@ -1,1 +1,0 @@
-$persondata = $session->read('Auth.Person');

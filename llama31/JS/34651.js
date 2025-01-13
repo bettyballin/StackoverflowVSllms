@@ -1,1 +1,0 @@
-window.onbeforeunload = function(event) {\n  if (event.clientY < 0) {\n    // User clicked the "X" icon\n  } else {\n    // User clicked the "OK" or "Cancel" button\n  }\n};

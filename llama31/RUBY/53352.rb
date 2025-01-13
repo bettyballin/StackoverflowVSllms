@@ -1,1 +1,0 @@
-require 'httpclient'\n\nclass Blogs\n  attr_reader :connection\n\n  def initialize\n    @connection = HTTPClient.new\n  end\n\n  def get_blogs\n    response = @connection.get("https://someInternalWebSite/weblogs/feed/entries/atom")\n    doc = REXML::Document.new response.body\n    blogs = Array.new\n    # ----- some crap to parse the blogs\n    return blogs\n  end\nend

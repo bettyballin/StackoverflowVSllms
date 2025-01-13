@@ -1,1 +1,0 @@
-<configuration>\n  <system.net>\n    <defaultProxy>\n      <proxy usesystemdefault="false" bypassonlocal="true" />\n      <bypasslist>\n        <add address="*" />\n      </bypasslist>\n    </defaultProxy>\n  </system.net>\n</configuration>

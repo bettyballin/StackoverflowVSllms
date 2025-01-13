@@ -1,1 +1,0 @@
-class User extends Doctrine_Record {\n    // ...\n\n    public function register($username, $password, $email) {\n        // registration logic here\n    }\n\n    public function changePassword($newPassword) {\n        // password changing logic here\n    }\n\n    public function login($username, $password) {\n        // login logic here\n    }\n}

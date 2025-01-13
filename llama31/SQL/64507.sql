@@ -1,1 +1,0 @@
-INSERT INTO [MY_TABLE] (ID, Field1, Field2, Field3, Field4)\nVALUES (DEFAULT, 1.0, 2.0, 3.0, 4.0);

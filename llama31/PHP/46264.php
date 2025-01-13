@@ -1,1 +1,0 @@
-echo "Memory usage: " . memory_get_usage() . "\n";

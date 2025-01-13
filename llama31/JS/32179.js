@@ -1,1 +1,0 @@
-function GetPastIssues(title) {\n    $.ajax({\n        type: "POST",\n        url: "/Issue/GetSimilarIssues",\n        data: { title: title },\n        success: function(data) {\n            $('#question-suggestions').html(data);\n            $('#question-suggestions').show();\n        }\n    });\n}

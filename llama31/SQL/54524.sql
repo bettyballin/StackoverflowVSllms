@@ -1,1 +1,0 @@
-CREATE TABLE entity_log (\n  id INT PRIMARY KEY,\n  entity_type VARCHAR(255),\n  entity_id INT,\n  timestamp TIMESTAMP NOT NULL DEFAULT CURRENT_TIMESTAMP,\n  action VARCHAR(255)  -- e.g., 'insert', 'update', 'delete'\n);

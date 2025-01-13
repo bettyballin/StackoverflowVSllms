@@ -1,1 +1,0 @@
-SELECT ProductName \nFROM Products \nORDER BY \n  CASE \n    WHEN Position IS NULL THEN 99999999 \n    ELSE Position \n  END ASC;

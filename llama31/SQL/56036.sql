@@ -1,1 +1,0 @@
--- Create a new schema for sensitive data\nCREATE SCHEMA [SecureData] AUTHORIZATION [SecureDataOwner];\n\n-- Create a table in the new schema\nCREATE TABLE [SecureData].[CreditCardInfo] (\n    [Id] INT PRIMARY KEY,\n    [CardNumber] VARCHAR(20)\n);\n\n-- Grant access to the schema owner\nGRANT SELECT, INSERT, UPDATE, DELETE ON SCHEMA::[SecureData] TO [SecureDataOwner];

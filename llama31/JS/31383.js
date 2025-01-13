@@ -1,1 +1,0 @@
-var div = $("#thediv");\ndiv.scrollTop(div.prop("scrollHeight") - div.prop("offsetHeight"));

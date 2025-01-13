@@ -1,1 +1,0 @@
-SELECT \n  t.tabname AS table_name, \n  i.idxname AS index_name\nFROM \n  sys_views v\n  JOIN sys_viewtexts vt ON v.viewname = vt.viewname\n  JOIN sys_tables t ON vt.tabid = t.tabid\n  LEFT JOIN sys_indexes i ON t.tabid = i.tabid\nWHERE \n  v.viewname = '<your_view_name>';

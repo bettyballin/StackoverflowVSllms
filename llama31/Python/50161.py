@@ -1,1 +1,0 @@
-import torch\nimport torchvision\nfrom torchvision import models\n\ndef fitness(image1, image2):\n    model = models.vgg16(pretrained=True)\n    features1 = model(image1)\n    features2 = model(image2)\n    return torch.nn.functional.cosine_similarity(features1, features2)

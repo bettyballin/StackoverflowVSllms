@@ -1,1 +1,0 @@
-fetch('https://api.example.com/data', {\n  headers: {\n    'X-Custom-Header': 'CustomHeaderValue',\n    'Authorization': 'Bearer YOUR_TOKEN'\n  }\n})\n  .then(response => response.json())\n  .then(data => console.log(data));

@@ -1,1 +1,0 @@
-// Language construct example\nprint 'Hello, World!'; // outputs "Hello, World!" and returns 1\n\n// Built-in function example\nstrlen('Hello, World!'); // returns 13

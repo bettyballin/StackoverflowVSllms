@@ -1,1 +1,0 @@
-$sourceUrl = '/blah.html';\n$baseHost = 'http://www.example.com';\n\n$baseUrlParts = parse_url($baseHost);\n$url = $baseUrlParts['scheme'] . '://' . $baseUrlParts['host'] . $sourceUrl;\n\necho $url; // Outputs: http://www.example.com/blah.html

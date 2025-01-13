@@ -1,1 +1,0 @@
-def decode(encoded_blocks, k, n):\n    cauchy_mat = cauchy_matrix(k, n)\n    # Solve system of linear equations\n    data = []\n    for i in range(k):\n        row = []\n        for j in range(k):\n            row.append(cauchy_mat[i][j])\n        row.append(encoded_blocks[i])\n        data.append(row)\n    # Solve using Gaussian elimination or other methods\n    return data

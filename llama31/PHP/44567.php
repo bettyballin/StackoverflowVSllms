@@ -1,1 +1,0 @@
-while($p = next($primes)) {\n    $res = doSomeCalculationsOn($p);\n    $currentKey = key($primes); // store the current key\n\n    if( IsPrime($res) ) {\n        // reset the array pointer after IsPrime() trashes it\n        reset($primes);\n        while(key($primes) !== $currentKey) {\n            next($primes);\n        }\n        return $p;\n    }\n}

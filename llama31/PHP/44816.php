@@ -1,1 +1,0 @@
-$string = 'nÖ§9q1Fª£';\n$byte_values = '';\nforeach (mb_str_split($string) as $char) {\n    $byte_values .= mb_ord($char) . ' ';\n}\nfile_put_contents('output.txt', $byte_values);

@@ -1,1 +1,0 @@
-SELECT GROUP_CONCAT(col1 SEPARATOR '-') \nFROM table1 \nWHERE cond1 = TRUE;

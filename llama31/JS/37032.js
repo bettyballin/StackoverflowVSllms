@@ -1,1 +1,0 @@
-var fileInput = document.getElementById('fileInput');\nvar fileSize = fileInput.files[0].size;

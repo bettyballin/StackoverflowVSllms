@@ -1,1 +1,0 @@
-blog_post_list = blogPosts.objects.order_by('-post_time')[:5]

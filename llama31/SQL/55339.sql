@@ -1,1 +1,0 @@
-CREATE INDEX idx_AtoB_Aid_Bid ON AtoB (Aid ASC, Bid ASC);\nCREATE INDEX idx_AtoB_Bid_Aid ON AtoB (Bid ASC, Aid ASC);

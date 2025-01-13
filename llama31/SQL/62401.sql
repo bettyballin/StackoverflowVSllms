@@ -1,1 +1,0 @@
-EXEC sp_spaceused 'your_table_name', 'IX_MY_INDEX';

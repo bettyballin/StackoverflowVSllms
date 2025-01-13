@@ -1,1 +1,0 @@
-CREATE TABLE tag_counts (\n  tag_name VARCHAR(255),\n  tag_count INT\n);\n\nINSERT INTO tag_counts (tag_name, tag_count)\nSELECT tag_name, COUNT(tag_id) AS 'tag_count'\nFROM tags\nLEFT OUTER JOIN videotags ON tags.id = videotags.tag_id\nGROUP BY tags.id;\n\nCREATE INDEX idx_tag_count ON tag_counts (tag_count DESC);

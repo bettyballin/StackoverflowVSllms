@@ -1,1 +1,0 @@
-header('Content-Type: text/html; charset=UTF-8');\n\nmysql_query("SET NAMES 'utf8'");\n\n// Your MySQL query here\n\n// Fetch and display the data

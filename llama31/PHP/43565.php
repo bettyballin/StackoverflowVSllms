@@ -1,1 +1,0 @@
-// admin-ajax.php\n// your code here\nexit;

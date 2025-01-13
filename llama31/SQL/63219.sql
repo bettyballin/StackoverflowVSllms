@@ -1,1 +1,0 @@
-CREATE PROCEDURE originalProcedure()\nLANGUAGE SQL\nBEGIN\n  DECLARE returnValue INTEGER;\n  CALL myProcedure(1, 'hello') INTO returnValue;\n  -- use the return value\n  PRINT returnValue;\nEND;

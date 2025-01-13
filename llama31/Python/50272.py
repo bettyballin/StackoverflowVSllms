@@ -1,1 +1,0 @@
-def fill_buckets(water):\n    buckets = [10, 2, 50]\n    filled_buckets = [0, 0, 0]\n\n    for i, bucket in enumerate(buckets):\n        filled_buckets[i] = min(water, bucket)\n        water -= filled_buckets[i]\n\n    return filled_buckets\n\n# Test the function\nwater = 60  # Example input\nfilled_buckets = fill_buckets(water)\nprint(filled_buckets)

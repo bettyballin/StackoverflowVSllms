@@ -1,1 +1,0 @@
-// Using createElement()\nvar div = document.createElement('div');\n$(div).appendTo('#parent');

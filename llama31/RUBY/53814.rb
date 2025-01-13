@@ -1,1 +1,0 @@
-require 'xsd'\n\n# Load the DTD\ndtd = XSD::DTD.new('your.dtd')\n\n# Generate the object model\nmodel = XSD::ObjectModel.new(dtd)\n\n# Access the object model\ntitle = model.Thing.Items[0].Title

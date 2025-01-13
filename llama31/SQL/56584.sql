@@ -1,1 +1,0 @@
-SELECT \n  CASE \n    WHEN DATEDIFF(DAY, RunOutDate, ResupplyDate) = 0 THEN 1\n    ELSE DATEDIFF(DAY, RunOutDate, ResupplyDate) + 1\n  END AS DaysUnavailable\nFROM \n  YourTable;

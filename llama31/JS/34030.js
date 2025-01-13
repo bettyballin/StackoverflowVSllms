@@ -1,1 +1,0 @@
-$("a").live("click", function(event){\n  var $this = $(this);\n  var imageWidth = 16; // width of the background image\n  var clickX = event.clientX;\n  var imageLeft = $this.offset().left;\n  if (clickX < imageLeft + imageWidth) {\n    // delete item\n  } else {\n    // edit item\n  }\n});

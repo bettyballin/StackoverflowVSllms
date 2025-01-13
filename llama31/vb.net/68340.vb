@@ -1,1 +1,0 @@
-Dim v = From a In AppDomain.CurrentDomain.GetAssemblies(),\n        b In a.GetTypes()\n        Select b

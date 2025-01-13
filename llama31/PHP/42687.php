@@ -1,1 +1,0 @@
-<?php\n$param1 = $_GET['param1'];\n$param2 = $_GET['param2'];\n\n// Process the parameters\n?>

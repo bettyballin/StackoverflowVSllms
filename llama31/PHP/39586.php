@@ -1,1 +1,0 @@
-$openid_identity = $consumer->getIdentity();\n// Store $openid_identity in your database

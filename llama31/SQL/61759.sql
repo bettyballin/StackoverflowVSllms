@@ -1,1 +1,0 @@
-DECLARE @unix_time int = ...;\nDECLARE @utc_time datetime = DATEADD(s, @unix_time, '1970-01-01');\nDECLARE @local_time datetime = @utc_time + (SELECT datediff(hh, getutcdate(), getdate()));\n\nSELECT @local_time AS local_time

@@ -1,1 +1,0 @@
-$(document).bind("stepOneCompleted", stepTwo);\n// Later in your code\n$(document).trigger("stepOneCompleted");

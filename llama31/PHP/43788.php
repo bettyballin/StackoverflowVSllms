@@ -1,1 +1,0 @@
-// cache.php\nheader('Cache-Control: max-age=31536000, public');\nheader('Expires: Fri, 20-Jan-2038 05:00:00 GMT');

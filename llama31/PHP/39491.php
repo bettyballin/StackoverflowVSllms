@@ -1,1 +1,0 @@
-if (is_search_engine_bot()) {\n  // Handle bot traffic\n} else {\n  // Handle human traffic\n}

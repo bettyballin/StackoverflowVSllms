@@ -1,1 +1,0 @@
-import pprint\n\nmy_variable = {'foo': 'bar', 'baz': [1, 2, 3]}\n\nprint(repr(my_variable))  # prints the representation of the variable\n\npprint.pprint(my_variable)  # pretty-prints the variable

@@ -1,1 +1,0 @@
-gem 'jruby-rack'\ngem 'rack'

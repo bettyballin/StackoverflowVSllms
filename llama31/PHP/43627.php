@@ -1,1 +1,0 @@
-function prepareString($str) {\n    $str = mb_strtolower(trim(preg_replace('#[^\p{L}\p{Nd}\.]+#u', ' ', $str)));\n\n    return trim(preg_replace('#\s\s+#u', ' ', preg_replace('#\P{Han}+#u', ' ', $str)));\n}

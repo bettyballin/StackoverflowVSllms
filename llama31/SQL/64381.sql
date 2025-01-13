@@ -1,1 +1,0 @@
-SELECT fruit\n   FROM your_table\n   WHERE fruit IN ('apples', 'pairs', 'pomegranites');

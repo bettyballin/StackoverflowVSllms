@@ -1,1 +1,0 @@
-$xml = '<root><name>John</name></root>';\n$dtd = '<!ELEMENT root (name)><!ELEMENT name (#PCDATA)>';\n\n$dom = new DOMDocument();\n$dom->loadXML($xml);\nif (!$dom->validate()) {\n    echo "XML is not well-formed.";\n} else {\n    $dom->loadDTD($dtd);\n    if ($dom->validate()) {\n        echo "XML is valid.";\n    } else {\n        echo "XML is not valid.";\n    }\n}

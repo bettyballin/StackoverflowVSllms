@@ -1,1 +1,0 @@
-UPDATE second_table\nINNER JOIN lookup_table ON second_table.key = lookup_table.key\nSET second_table.value = lookup_table.value;

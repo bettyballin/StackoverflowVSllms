@@ -1,1 +1,0 @@
-SELECT EmployeeId\nFROM Employee\nWHERE EmployeeTypeId = 1 OR EmployeeTypeId = 2 OR EmployeeTypeId = 3

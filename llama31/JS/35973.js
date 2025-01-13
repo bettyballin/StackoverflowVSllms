@@ -1,1 +1,0 @@
-success: function(data){\n    $("#response").html(data);\n    var $response = $.parseHTML(data);\n    var oneval = $response.find('#title').text();\n    var subval = $response.find('#message').text();\n    alert(oneval);\n}

@@ -1,1 +1,0 @@
-SELECT \n  s.*,\n  (\n    SELECT \n      CONVERT(VARCHAR(MAX), (\n        SELECT \n          'Additional detail #' + CONVERT(VARCHAR, ROW_NUMBER() OVER (ORDER BY ad.id)) + ': ' + ad.detail + '; '\n        FROM \n          additional_details ad\n        WHERE \n          ad.record_id = s.id\n        FOR XML PATH('')\n      ))\n  ) AS additional_details\nFROM \n  sales_records s

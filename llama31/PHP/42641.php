@@ -1,1 +1,0 @@
-function has_oracle_extensions() {\n  return extension_loaded('oci8') || extension_loaded('pdo_oci');\n}\n\nif (has_oracle_extensions()) {\n  echo "Oracle extensions are installed.";\n} else {\n  echo "Oracle extensions are not installed.";\n}

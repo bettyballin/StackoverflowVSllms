@@ -1,1 +1,0 @@
-window.onbeforeunload = function() {\n    // Handle back button click\n};

@@ -1,1 +1,0 @@
-function positionUpdate() {\n  var newX = 10; // replace with your new X value\n  var newY = 20; // replace with your new Y value\n  $.ajax({\n    type: "GET",\n    url: "position_update.php",\n    data: { x: newX, y: newY },\n    success: function(response) {\n      // handle the response\n    }\n  });\n}

@@ -1,1 +1,0 @@
--- Test the connection in SQL Developer\nSELECT * FROM dual;

@@ -1,1 +1,0 @@
-<?php\necho ini_get('disable_functions');

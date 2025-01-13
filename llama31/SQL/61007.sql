@@ -1,1 +1,0 @@
-CREATE PROCEDURE MyProcedure\nAS\nBEGIN\n    SET NOCOUNT OFF;\n    -- Your code here\nEND;

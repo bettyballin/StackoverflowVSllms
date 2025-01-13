@@ -1,1 +1,0 @@
-SELECT *\nFROM users\nWHERE username LIKE 'joh%' ESCAPE '!'

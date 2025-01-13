@@ -1,1 +1,0 @@
-XMLElement('http://www.example.com/my', 'name', 'John')

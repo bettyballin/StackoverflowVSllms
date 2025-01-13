@@ -1,1 +1,0 @@
-WITH RecursiveAncestors AS (\n    SELECT NodeId, AncestorId, Hops\n    FROM Ancestor\n    WHERE AncestorId = @TargetNodeId\n    UNION ALL\n    SELECT a.NodeId, a.AncestorId, a.Hops + 1\n    FROM Ancestor a\n    INNER JOIN RecursiveAncestors r ON a.AncestorId = r.NodeId\n)\nSELECT * FROM RecursiveAncestors;

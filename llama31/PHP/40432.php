@@ -1,1 +1,0 @@
-$cssUrl = APP_ROOT . '/css/style.css';

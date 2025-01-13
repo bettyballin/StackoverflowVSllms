@@ -1,1 +1,0 @@
-<% if (condition) { %>\n    <!-- HTML to be excluded -->\n    <div>This HTML will not be rendered if condition is false</div>\n<% } %>

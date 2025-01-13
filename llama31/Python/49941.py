@@ -1,1 +1,0 @@
-import clr\nclr.AddReference('System')\nimport System\n\n# Create an instance of a COM object, for example, the SAPI.SPVoice\n# Remember to install and register the COM component if necessary\nvoice = clr.CreateObject('SAPI.SPVoice')\n\n# Call a method on the COM object\nvoice.Speak('Hello, world!')

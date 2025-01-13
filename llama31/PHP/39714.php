@@ -1,1 +1,0 @@
-if ($_SERVER['REQUEST_METHOD'] === 'POST') {\n  $personId = $_POST['person_id'];\n  // Update attendance status for the person\n  // ...\n  // Redirect to the same page to prevent resubmission\n  header('Location: ' . $_SERVER['REQUEST_URI']);\n  exit;\n}

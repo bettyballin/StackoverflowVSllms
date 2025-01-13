@@ -1,1 +1,0 @@
-$query = 'INSERT INTO mytable SET somevarchar = ?';\n$value = '';\n\n$prepared = $db->prepare($query, array('string'));\n$result = $prepared->execute($value);

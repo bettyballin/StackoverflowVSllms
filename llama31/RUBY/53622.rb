@@ -1,1 +1,0 @@
-cash = 100_000.00\nsum = 0\nwhile cash < 1_000_000.00\n  cash += 1.00\n  sum += 1.00\nend

@@ -1,1 +1,0 @@
-curl_setopt($ch, CURLOPT_TIMEOUT, 2); // timeout after 2 seconds

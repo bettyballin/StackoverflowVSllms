@@ -1,1 +1,0 @@
-// destroy the current session\nsession_destroy();

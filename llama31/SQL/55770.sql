@@ -1,1 +1,0 @@
-CREATE VIEW RecentRecordSum AS\nSELECT      t.ID,   \n            SUM(t.SomeValue) AS ValueSum\nFROM        SomeTable t\nCROSS APPLY GetCurrentDate() d\nWHERE       t.RecordDate >= DATEADD(d,-7,d.CurrentDate)\nGROUP BY    t.ID

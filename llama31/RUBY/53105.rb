@@ -1,1 +1,0 @@
-def bid\n  @bid = Bid.new(params[:bid])\n  @bid.save\nend

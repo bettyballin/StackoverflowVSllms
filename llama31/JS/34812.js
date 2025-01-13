@@ -1,1 +1,0 @@
-const gulp = require('gulp');\nconst concat = require('gulp-concat');\n\ngulp.task('build', function() {\n  return gulp.src(['file1.js', 'file2.js', 'file3.js'])\n    .pipe(concat('all.js'))\n    .pipe(gulp.dest('dist/'));\n});

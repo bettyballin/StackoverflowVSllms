@@ -1,1 +1,0 @@
-UPDATE Contact\nSET EmailAddress = CONVERT(VARCHAR(255), EmailAddress + '.x')

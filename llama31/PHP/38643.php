@@ -1,1 +1,0 @@
-$mergedArray = array_values(array_intersect_key($keyArray, $contentArray));

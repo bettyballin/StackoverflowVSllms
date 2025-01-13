@@ -1,1 +1,0 @@
-class User implements JsonSerializable\n{\n    private $fname;\n    private $age;\n\n    // ...\n\n    public function jsonSerialize()\n    {\n        return [\n            'fname' => $this->fname,\n            'age' => $this->age,\n        ];\n    }\n}

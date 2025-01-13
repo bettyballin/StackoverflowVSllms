@@ -1,1 +1,0 @@
-<script>\n  setTimeout(() => {\n    window.location.href = 'newPage.html';\n  }, 5000); // 5000 milliseconds = 5 seconds\n</script>

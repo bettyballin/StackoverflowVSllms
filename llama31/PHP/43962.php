@@ -1,1 +1,0 @@
-class Test{\n    private static $systime = microtime(true);\n\n    public function get_systime(){\n        echo self::$systime;\n    }\n}

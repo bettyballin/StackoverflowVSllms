@@ -1,1 +1,0 @@
-// Create a library file in application/libraries\n// e.g., Dx_auth.php\n\nclass Dx_auth {\n    function register() {\n        // registration code here\n    }\n}\n\n// Then, in your front page controller\n$this->load->library('dx_auth');\n$this->dx_auth->register();

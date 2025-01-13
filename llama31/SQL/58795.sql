@@ -1,1 +1,0 @@
--- Script out database objects\nsqlcl username/password@connection_string -f script.sql\n\n-- Script out static data\nsqlcl username/password@connection_string -f data.sql

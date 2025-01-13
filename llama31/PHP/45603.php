@@ -1,1 +1,0 @@
-$postData = array('email' => 'example@example.com');\n\n$ch = curl_init('https://example.com/signup');\ncurl_setopt($ch, CURLOPT_POST, true);\ncurl_setopt($ch, CURLOPT_POSTFIELDS, $postData);\ncurl_exec($ch);\ncurl_close($ch);

@@ -1,1 +1,0 @@
-ALTER ROLE [DomainAdminDBRole] ADD MEMBER [DOMAIN\Administrators]

@@ -1,1 +1,0 @@
-ALTER TABLE contacts MODIFY COLUMN postcode CHAR(8);

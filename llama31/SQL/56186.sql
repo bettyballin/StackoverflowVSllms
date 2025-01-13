@@ -1,1 +1,0 @@
-DROP USER "first/dbgokul" CASCADE;

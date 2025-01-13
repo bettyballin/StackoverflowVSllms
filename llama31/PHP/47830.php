@@ -1,1 +1,0 @@
-$stmt = $pdo->prepare('SELECT * FROM your_table ORDER BY depth');\n$stmt->execute();\n$result = $stmt->fetchAll();

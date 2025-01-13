@@ -1,1 +1,0 @@
-// Define a new router\nvar Router = Backbone.Router.extend({\n  routes: {\n    '/new-state': 'newState'\n  },\n  newState: function() {\n    console.log('New state!');\n  }\n});\n\n// Create a new router instance\nvar router = new Router();\n\n// Start the router\nBackbone.history.start();

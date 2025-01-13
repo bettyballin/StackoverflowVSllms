@@ -1,1 +1,0 @@
-SELECT i.*\nFROM items i\nJOIN item_tags it ON i.id = it.item_id\nJOIN tags t ON it.tag_id = t.id\nWHERE t.name = 'php';

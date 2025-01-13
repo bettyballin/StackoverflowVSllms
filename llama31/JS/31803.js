@@ -1,1 +1,0 @@
-// Disable an anchor\n$("a").on("click", function(e) {\n    e.preventDefault();\n});\n\n// Enable an anchor\n$("a").off("click");

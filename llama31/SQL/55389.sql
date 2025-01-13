@@ -1,1 +1,0 @@
-SELECT t1.ID, t1.Cat, t1.Price, NULL as Name, NULL as Abbrv FROM t1 \nUNION \nSELECT t2.ID, NULL as Cat, NULL as Price, t2.Name, t2.Abbrv FROM t2 \nORDER BY \n    CASE WHEN Price IS NULL THEN 1 ELSE 0 END, \n    Price DESC, \n    CASE WHEN Abbrv IS NULL THEN 1 ELSE 0 END, \n    Abbrv ASC

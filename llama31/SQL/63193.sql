@@ -1,1 +1,0 @@
-from Alert alert\nwhere alert.expiration > trunc(SYSDATE)\norder by alert.priority, alert.updated, alert.name

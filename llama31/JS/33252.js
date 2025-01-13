@@ -1,1 +1,0 @@
-$('#myHiddenInput').on('change', function() {\n  console.log('Hidden input value changed to:', $(this).val());\n  // Run your function here\n});

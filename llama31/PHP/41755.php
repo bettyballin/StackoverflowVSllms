@@ -1,1 +1,0 @@
-function estimateTotalRows($file) {\n    $fileSize = filesize($file);\n    $avgLineLength = 100; // adjust this value based on your file's average line length\n    $estimatedTotalRows = $fileSize / $avgLineLength;\n    return $estimatedTotalRows;\n}\n\n// usage:\n$file = 'large_data_file.txt';\n$estimatedTotalRows = estimateTotalRows($file);

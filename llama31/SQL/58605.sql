@@ -1,1 +1,0 @@
-INSERT INTO TABLE_NAME (COL1, COL2)\nSELECT seq_val, 'some value' FROM (SELECT MY_SEQ.NEXTVAL seq_val FROM DUAL)\nUNION ALL\nSELECT seq_val, 'another value' FROM (SELECT MY_SEQ.NEXTVAL seq_val FROM DUAL);

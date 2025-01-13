@@ -1,1 +1,0 @@
-def do_GET(req, res)\n  remote_ip = req.peeraddr[3]\n  if remote_ip != "127.0.0.1" && remote_ip != "::1"\n    puts "Security alert, accessing through #{remote_ip}"\n    return\n  else\n    puts "we're fine, #{remote_ip}"\n  end\n  # etc.\nend

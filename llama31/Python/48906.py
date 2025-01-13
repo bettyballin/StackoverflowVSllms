@@ -1,1 +1,0 @@
-import time\n\ndef estimate_time_remaining(start_time, completed_lines, total_lines):\n    current_time = time.time()\n    elapsed_time = current_time - start_time\n    progress_ratio = completed_lines / total_lines\n    estimated_total_time = elapsed_time / progress_ratio\n    time_remaining = estimated_total_time - elapsed_time\n    return time_remaining

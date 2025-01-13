@@ -1,1 +1,0 @@
-$imageList = array('image1.jpg', 'image2.png', 'image3.gif');\necho '<script>var imageList = ' . json_encode($imageList) . ';</script>';

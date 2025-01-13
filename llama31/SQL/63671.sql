@@ -1,1 +1,0 @@
-SELECT 'CREATE USER [' + name + '] FOR LOGIN [' + SUSER_NAME(sid) + '];'\nFROM sys.database_principals\nWHERE type = 'U';

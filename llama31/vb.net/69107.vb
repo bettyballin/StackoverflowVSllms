@@ -1,1 +1,0 @@
-' Set a session variable\nSession("TestSession") = "Enabled"\n\n' Redirect to another page\nResponse.Redirect "test_session.asp"\n\n' On test_session.asp:\nIf Session("TestSession") = "Enabled" Then\n    Response.Write "Session cookies are enabled."\nElse\n    Response.Write "Session cookies are disabled."\nEnd If

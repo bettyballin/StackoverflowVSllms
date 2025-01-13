@@ -1,1 +1,0 @@
-class UsersController < ApplicationController\n  def create\n    @user = User.new(user_params)\n    # ...\n  end\n\n  private\n\n  def user_params\n    params.require(:user).permit(:name, :email, :humanproof)\n  end\nend

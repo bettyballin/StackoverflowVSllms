@@ -1,1 +1,0 @@
-// Get the iframe element\nvar iframe = document.getElementById('your_iframe_id');\n\n// Set the iframe's src attribute using the postId variable\niframe.src = 'http://your-wordpress-site.com/?p=' + postId;

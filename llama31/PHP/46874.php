@@ -1,1 +1,0 @@
-$variable1 = 'original value';\n\nfunction changeValue($var) {\n    $var = 'new value';\n}\n\nchangeValue($variable1);\necho $variable1; // outputs "original value"\n\nfunction changeValueByReference(&$var) {\n    $var = 'new value';\n}\n\nchangeValueByReference($variable1);\necho $variable1; // outputs "new value"

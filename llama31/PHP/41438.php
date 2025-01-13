@@ -1,1 +1,0 @@
-if (ctype_digit($number) && strlen($number) === 5) {\n    // $number is a 5-digit number\n}

@@ -1,1 +1,0 @@
-ob_start();\nheader('Content-type: text/csv');\nheader('Content-Disposition: attachment; filename=filename.dat');\necho $data;\nob_end_clean();\nexit();

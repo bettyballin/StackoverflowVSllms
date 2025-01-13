@@ -1,1 +1,0 @@
-$username = filter_var($_POST['username'], FILTER_SANITIZE_STRING);\n$username = htmlspecialchars($username, ENT_QUOTES, 'UTF-8');\n$username = mysql_real_escape_string($username);

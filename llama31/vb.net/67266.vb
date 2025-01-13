@@ -1,1 +1,0 @@
-Dim cCode as String\n' Ensure cCode is properly set or retrieved from your Excel data\n\n' Assuming .Document.parentWindow.execScript is correctly set up to call JavaScript functions\nCall .Document.parentWindow.execScript("FillVendorNames('" & cCode & "')", "javascript")

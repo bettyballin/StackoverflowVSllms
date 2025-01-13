@@ -1,1 +1,0 @@
-import lxml.etree as ET\n\n# assuming _course is an Element variable\ndesc = _course.find("Description").text_content()

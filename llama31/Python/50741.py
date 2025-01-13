@@ -1,1 +1,0 @@
-def my_func(a, b, c=None):\n    print(a, b, c)\n\ncaller(my_func, 1, 2)  # prints: 1 2 None\ncaller(my_func, 1, 2, c=3)  # prints: 1 2 3

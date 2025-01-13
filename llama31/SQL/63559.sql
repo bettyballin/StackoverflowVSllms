@@ -1,1 +1,0 @@
-SELECT * FROM employees WHERE UPPER(last_name) = 'SMITH';

@@ -1,1 +1,0 @@
-// Load jQuery and release the global namespace\nvar $j = jQuery.noConflict();\n\n// Load Prototype\nvar $p = Prototype;\n\n// Use jQuery and Prototype selectively\n$j('#myElement').hide(); // jQuery\n$p.Ajax.Request('myUrl', { method: 'get' }); // Prototype

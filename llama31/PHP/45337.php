@@ -1,1 +1,0 @@
-$textFieldValue = $_POST['textFieldName'];\n$textFieldValue = mb_convert_encoding($textFieldValue, 'UTF-8', 'auto');

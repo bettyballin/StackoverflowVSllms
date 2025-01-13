@@ -1,1 +1,0 @@
-$('.myul a').click(function(e){\n    var url = $(this).attr('href');\n    var index = url.indexOf('=');\n    var substr = url.slice(index+1);                   \n\n    // Keep the menu open at the right place\n    var $li = $(this).closest('li');\n    var $ul = $li.closest('.myul');\n    $ul.show();\n\n    // Rest of your code...\n});

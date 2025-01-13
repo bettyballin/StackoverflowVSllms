@@ -1,1 +1,0 @@
-CASE\n    WHEN condition1 THEN result1\n    WHEN condition2 THEN result2\n    ...\n    WHEN conditionN THEN resultN\n    ELSE result\nEND;

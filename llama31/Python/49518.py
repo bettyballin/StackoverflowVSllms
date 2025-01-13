@@ -1,1 +1,0 @@
-def caller(func, *args, **kwargs):\n    return func(*args, **kwargs)

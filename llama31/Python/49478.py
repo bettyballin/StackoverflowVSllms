@@ -1,1 +1,0 @@
-from django.db import models\n\nclass MyModel(models.Model):\n    data = models.JSONField()

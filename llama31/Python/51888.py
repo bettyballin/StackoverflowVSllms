@@ -1,1 +1,0 @@
-import psycopg2\n\nconn = psycopg2.connect(\n    host="localhost",\n    database="mydatabase",\n    user="myuser",\n    password="mypassword"\n)\n\ncur = conn.cursor()\ncur.execute("SELECT * FROM mytable")\nrows = cur.fetchall()\nfor row in rows:\n    print(row)\n\nconn.close()

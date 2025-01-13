@@ -1,1 +1,0 @@
-UPDATE D_Q1\nSET DQ1_BAT_ID = in_batch_id\nWHERE DQ1_BAT_ID IS NULL\n  AND DCT_ID = in_contentType_id\n  AND ROWNUM < (in_work_size + 1)\nORDER BY DQ1_ID;

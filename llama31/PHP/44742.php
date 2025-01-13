@@ -1,1 +1,0 @@
-foreach ($items as $item) {\n    // Process the item...\n    echo "Processing $item...<br>";\n    // Flush the output buffer\n    ob_flush();\n    flush();\n    // Sleep for a short time to simulate processing\n    usleep(50000); // 50ms\n}

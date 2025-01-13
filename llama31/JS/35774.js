@@ -1,1 +1,0 @@
-var xhr = $.ajax({\n    type: 'GET',\n    url: '/some/url',\n    success: function(data) {\n        // handle success\n    }\n});\n\n// later, to abort the request\nxhr.abort();

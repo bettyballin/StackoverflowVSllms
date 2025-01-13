@@ -1,1 +1,0 @@
-document.querySelectorAll('#subdiv_3 ul li').forEach(function(listItem, index) {\n  listItem.addEventListener('click', function() {\n    // your function code here, using the index variable\n    console.log('Clicked on item ' + index);\n  }, false);\n});

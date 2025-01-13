@@ -1,1 +1,0 @@
-$tempParams = array_merge([], $params);

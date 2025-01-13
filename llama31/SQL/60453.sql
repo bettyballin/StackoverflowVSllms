@@ -1,1 +1,0 @@
-SELECT *\nFROM your_table\nWHERE name IN (SELECT DISTINCT name FROM your_table);

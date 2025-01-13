@@ -1,1 +1,0 @@
-CREATE TABLE FormData (\n    ID INT PRIMARY KEY,\n    -- other columns...\n    DynamicData XML\n);

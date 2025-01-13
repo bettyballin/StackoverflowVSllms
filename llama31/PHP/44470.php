@@ -1,1 +1,0 @@
-$string = 'hello';\necho $string[0]; // h

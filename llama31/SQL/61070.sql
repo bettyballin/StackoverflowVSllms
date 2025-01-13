@@ -1,1 +1,0 @@
-SELECT \n  COUNT(*) OVER (PARTITION BY ch.id) as count,\n  s.name as strip, \n  ch.name as character\nFROM \n  strips s\nJOIN \n  appearances a ON s.id = a.strip_id\nJOIN \n  characters ch ON a.character_id = ch.id\nWHERE \n  a.date IN (...);

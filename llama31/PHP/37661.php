@@ -1,1 +1,0 @@
-function normalizeCurrency($input) {\n    // Remove all non-numeric characters except for the decimal point\n    $clean = preg_replace('/[^\d\.]/', '', $input);\n    return (float)$clean;\n}\n\n$string1 = "$50,000";\n$string2 = "$50000";\n$string3 = "50,000";\n\n$total = normalizeCurrency($string1) + normalizeCurrency($string2) + normalizeCurrency($string3);\n\necho $total;

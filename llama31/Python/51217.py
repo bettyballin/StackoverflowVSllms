@@ -1,1 +1,0 @@
-import librosa\n\naudio, sr = librosa.load('input.mp3')\nvolume = librosa.feature.rmse(audio).mean()\nprint(f"Average volume: {volume:.2f} dB")

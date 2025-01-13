@@ -1,1 +1,0 @@
-INSERT INTO OPENROWSET('Microsoft.ACE.OLEDB.12.0',\n                         'Excel 8.0;Database=C:\Path\To\Your\ExcelFile.xls',\n                         'SELECT * FROM [Sheet1$]')\nSELECT * FROM YourTable;

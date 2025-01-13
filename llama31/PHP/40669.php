@@ -1,1 +1,0 @@
-function iterateArray($array) {\n    foreach ($array as $key => $value) {\n        if (is_array($value)) {\n            iterateArray($value);\n        } else {\n            echo "Key: $key, Value: $value\n";\n        }\n    }\n}\n\niterateArray($searches);

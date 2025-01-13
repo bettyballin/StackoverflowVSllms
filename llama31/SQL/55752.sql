@@ -1,1 +1,0 @@
-SELECT \n    XMLSERIALIZE(\n        CONTENT invoice_id AS integer,\n        invoice_date AS date,\n        customer_name AS nvarchar(50),\n        total_amount AS decimal(10, 2)\n    ) AS xml\nFROM \n    invoices

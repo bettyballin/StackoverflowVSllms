@@ -1,1 +1,0 @@
-$slugMap = [\n       'example-post' => 123,\n       'another-post' => 456,\n   ];

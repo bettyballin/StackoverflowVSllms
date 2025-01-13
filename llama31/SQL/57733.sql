@@ -1,1 +1,0 @@
-Format([YourDecimalField], "0.000") AS FormattedDecimal

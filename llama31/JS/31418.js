@@ -1,1 +1,0 @@
-fetch('/resource', {\n  method: 'PUT',\n  headers: {\n    'Content-Type': 'application/json'\n  },\n  body: JSON.stringify({ /* data */ })\n})\n.then(response => response.json())\n.then(data => console.log(data))\n.catch(error => console.error(error));

@@ -1,1 +1,0 @@
-$mysqli = new mysqli("localhost", "username", "password", "database");\n$result = $mysqli->query("SELECT field1 FROM table");\n$row = $result->fetch_assoc();\n$field1 = $row['field1'];

@@ -1,1 +1,0 @@
-$html = '';\n$html .= '<ul>';\nfor ($k = 1; $k <= 1000; $k++) {\n    $html .= '<li> This is list item #' . $k . '</li>';\n}\n$html .= '</ul>';\necho $html;

@@ -1,1 +1,0 @@
-UPDATE MyTable\nSET MyVal1 = @val1,\n    MyVal2 = @val2\nWHERE @id = @id

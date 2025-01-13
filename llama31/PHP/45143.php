@@ -1,1 +1,0 @@
-$urlParts = explode('/', $_SERVER['REQUEST_URI']);\n$id = end($urlParts);

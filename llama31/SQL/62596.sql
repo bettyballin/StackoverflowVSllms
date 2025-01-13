@@ -1,1 +1,0 @@
-SELECT * FROM TABLE(procedure_name(array_variable));

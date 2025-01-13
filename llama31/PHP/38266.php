@@ -1,1 +1,0 @@
-$class = 'Blog';\n$action = 'content';\necho constant($class . '::$template')[$action];

@@ -1,1 +1,0 @@
-SELECT \n    u.name AS UserName\nFROM \n    sysusers u\nINNER JOIN \n    sysmembers m ON u.uid = m.memberuid\nINNER JOIN \n    sysusers r ON m.groupuid = r.uid\nWHERE \n    r.name = 'YourRoleName'

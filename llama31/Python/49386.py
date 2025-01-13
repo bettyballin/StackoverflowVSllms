@@ -1,1 +1,0 @@
-# foo.py\n\ndef myFunction(a, b, c):\n    print("call to myFunction:", a, b, c)\n\nclass Data:\n    fn = staticmethod(myFunction)\n\n# bar.py\nimport foo\n\nd = foo.Data\nd.fn(1, 2, 3)  # prints "call to myFunction: 1 2 3"

@@ -1,1 +1,0 @@
-Dim imagePath As String = Server.MapPath("~/img.bmp")\nDim b As Bitmap = New Bitmap(imagePath)

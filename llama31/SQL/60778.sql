@@ -1,1 +1,0 @@
-CREATE TABLE Users (\n    UserID GUID PRIMARY KEY,\n    Username NVARCHAR(50) NOT NULL\n);

@@ -1,1 +1,0 @@
-$slug = $_GET['slug'];\n$article = Article::where('slug', $slug)->first();\nif ($article) {\n    // Display the article content\n} else {\n    // Handle 404 error\n}

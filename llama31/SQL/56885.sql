@@ -1,1 +1,0 @@
-CREATE TABLE Images (\n    ImageId INT PRIMARY KEY IDENTITY(1,1),\n    ImageData VARBINARY(MAX),\n    ContentType NVARCHAR(50),\n    FileName NVARCHAR(255)\n);

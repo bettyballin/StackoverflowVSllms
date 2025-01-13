@@ -1,1 +1,0 @@
-CREATE TRIGGER trg_check_age\nBEFORE INSERT ON customers\nFOR EACH ROW\nBEGIN\n    IF NEW.age < 18 THEN\n        SIGNAL SQLSTATE '45000' SET MESSAGE_TEXT = 'Customer must be at least 18 years old';\n    END IF;\nEND;

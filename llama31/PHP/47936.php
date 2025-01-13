@@ -1,1 +1,0 @@
-class LoginFormViewHelper extends Zend_View_Helper_Abstract {\n    public function loginForm() {\n        $loginModel = new LoginModel();\n        $form = $loginModel->getLoginForm();\n        return $form->render();\n    }\n}

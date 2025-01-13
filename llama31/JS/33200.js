@@ -1,1 +1,0 @@
-var newWindow = window.open('/report', '_blank', 'noopener=false');

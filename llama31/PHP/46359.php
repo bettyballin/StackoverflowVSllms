@@ -1,1 +1,0 @@
-// PagesController.php\npublic function display($page = 'home')\n{\n    $this->viewBuilder()->setLayout('home');\n    // ...\n}

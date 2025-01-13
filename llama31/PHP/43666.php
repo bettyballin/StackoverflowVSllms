@@ -1,1 +1,0 @@
-$b = hbool::create(false);\nvar_dump((bool) $b()); // bool(false)\nvar_dump((bool) $b()); // bool(true)\nvar_dump((bool) $b()); // bool(true)\n\n$b2 = hbool::create(true);\nvar_dump((bool) $b2()); // bool(true)\nvar_dump((bool) $b2()); // bool(false)\nvar_dump((bool) $b2()); // bool(false)

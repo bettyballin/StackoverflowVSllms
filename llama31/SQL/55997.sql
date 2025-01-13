@@ -1,1 +1,0 @@
-SELECT *\nFROM (\n  SELECT Person.*,\n         Obs.*,\n         ROW_NUMBER() OVER (PARTITION BY Obs.pId, Obs.hdId ORDER BY Obs.obsDate DESC) AS rn\n  FROM ml.Person Person\n  JOIN ml.Obs Obs ON Person.pID = Obs.pId\n  WHERE Obs.obsDate < {?EndDate}\n) sub\nWHERE rn = 1;

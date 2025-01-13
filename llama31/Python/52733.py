@@ -1,1 +1,0 @@
-def initLookups():\n    # ... same as above ...\n\ndef getlookup(value):\n    # ... same as above ...\n\ndef main():\n    initLookups()\n    print(getlookup("A"))  # Should print "AA"\n\nif __name__ == "__main__":\n    main()

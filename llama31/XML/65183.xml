@@ -1,1 +1,0 @@
-<Project ...>\n  ...\n  <Imports>\n    <Import Namespace="System.Linq" />\n    <Import Namespace="System.Xml.Linq" />\n  </Imports>\n  ...\n</Project>

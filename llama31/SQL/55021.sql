@@ -1,1 +1,0 @@
-CREATE TABLE your_audit_table (\n  username VARCHAR2(30),\n  update_date TIMESTAMP,\n  old_values VARCHAR2(4000),\n  new_values VARCHAR2(4000),\n  update_statement VARCHAR2(4000)\n);

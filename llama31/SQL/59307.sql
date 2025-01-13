@@ -1,1 +1,0 @@
-SELECT department, MAX(salary) \nFROM employees \nGROUP BY department;

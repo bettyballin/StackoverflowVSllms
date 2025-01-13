@@ -1,1 +1,0 @@
-$allowedReturns = array('profile.php', 'other_allowed_page.php');\nif (isset($_GET['return']) && !empty($_GET['return'])) {\n    $return = $_GET['return'];\n    if (in_array($return, $allowedReturns)) {\n        header("Location: ./index.php?" . $return);\n    } else {\n        header("Location: ./index.php");\n    }\n} else {\n    header("Location: ./index.php");\n}

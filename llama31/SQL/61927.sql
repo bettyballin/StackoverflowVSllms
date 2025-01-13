@@ -1,1 +1,0 @@
-SELECT \n    s.SupplierID, \n    COUNT(c.ComputerID) AS Computers,\n    COUNT(cam.CameraID) AS Cameras,\n    COUNT(d.DisplayID) AS Displays\nFROM \n    Supplier s\nLEFT JOIN \n    Computers c ON s.SupplierID = c.SupplierID\nLEFT JOIN \n    Cameras cam ON s.SupplierID = cam.SupplierID\nLEFT JOIN \n    Displays d ON s.SupplierID = d.SupplierID\nGROUP BY \n    s.SupplierID

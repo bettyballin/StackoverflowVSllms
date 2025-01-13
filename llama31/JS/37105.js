@@ -1,1 +1,0 @@
-// Assuming you have a function that handles tab clicks\nfunction onTabClick(tabTitle) {\n  // Change the page title\n  document.title = tabTitle;\n}

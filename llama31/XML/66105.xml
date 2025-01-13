@@ -1,1 +1,0 @@
-<root xmlns:xlink="http://www.w3.org/1999/xlink">\n  <firstChild id="{1234-5678}" customId="{1234-5678}" />\n  ...\n  <ref xlink:href="#{1234-5678}" />\n</root>

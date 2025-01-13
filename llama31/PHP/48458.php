@@ -1,1 +1,0 @@
-$username = $_POST['username'];\n$filename = basename($username . '.txt');\nif (file_exists('/path/to/user/files/' . $filename)) {\n    // File exists, proceed with authentication\n} else {\n    // File doesn't exist, handle error\n}

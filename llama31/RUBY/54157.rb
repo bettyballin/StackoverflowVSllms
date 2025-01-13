@@ -1,1 +1,0 @@
-# app/controllers/some_controller.rb\nclass SomeController < ApplicationController\n  def index\n    wrapper = OpenFlashChartWrapper::Wrapper.new\n    wrapper.some_method\n  end\nend

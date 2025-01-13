@@ -1,1 +1,0 @@
-EXEC sp_addlinkedserver \n    @server = '{linked server name}', \n    @srvproduct = 'SQL Server', \n    @provider = 'SQLNCLI10', \n    @datasrc = '{server name}'

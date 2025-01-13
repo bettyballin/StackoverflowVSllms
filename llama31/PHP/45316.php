@@ -1,1 +1,0 @@
-$client = new SoapClient('http://example.com/api/soap?wsdl');\n$response = $client->SomeMethod($parameters);

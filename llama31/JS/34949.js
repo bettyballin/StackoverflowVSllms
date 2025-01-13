@@ -1,1 +1,0 @@
-var serviceUrl = "http://myservicedomain?callback=myCallback";\nvar payload = "<myRequest><content>Some content</content></myRequest>";\n\nfunction myCallback(response) {\n    // Process the response...\n}\n\nvar script = document.createElement("script");\nscript.src = serviceUrl + "&payload=" + encodeURIComponent(payload);\ndocument.body.appendChild(script);

@@ -1,1 +1,0 @@
-$memcache_obj = memcache_connect('memcache_host', 11211);\n$stats = memcache_get_stats($memcache_obj);\necho "Memory usage: " . $stats['bytes'] . " bytes";\nmemcache_close($memcache_obj);

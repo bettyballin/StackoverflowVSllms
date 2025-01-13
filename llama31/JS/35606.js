@@ -1,1 +1,0 @@
-alert(document.getElementById("my_div").dataset.myAttr);

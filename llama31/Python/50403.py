@@ -1,1 +1,0 @@
-import MySQLdb\n\n# Establish a connection\nconn = MySQLdb.connect(host="your_host", user="your_user", passwd="your_password", db="your_database")\n\n# Set the paramstyle to 'qmark'\nconn.paramstyle = 'qmark'\n\n# Create a cursor\ncursor = conn.cursor()\n\n# Execute a query using ? as the placeholder\ncursor.execute("select * from Books where isbn=?", (isbn,))

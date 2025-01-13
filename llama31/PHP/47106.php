@@ -1,1 +1,0 @@
-$xml .= "<table>" . $row['Tables_in_blog'] . "</table>";

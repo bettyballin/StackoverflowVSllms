@@ -1,1 +1,0 @@
-$('.panel-header').click(function() {\n  var panel = $(this).next('.panel');\n  panel.slideToggle();\n  $('html, body').animate({\n    scrollTop: panel.offset().top + panel.outerHeight()\n  }, 500);\n});

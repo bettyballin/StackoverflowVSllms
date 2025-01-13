@@ -1,1 +1,0 @@
-// Create a new image element\nlet img = document.createElement('img');\nimg.src = 'a.gif'; // Set the image source\n\n// Hide the image\nimg.style.display = 'none';\n\n// Optionally, if you want to add it to the body or any other element\ndocument.body.appendChild(img);

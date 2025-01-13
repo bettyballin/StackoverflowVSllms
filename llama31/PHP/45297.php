@@ -1,1 +1,0 @@
-$client_ip = $_SERVER['HTTP_X_CLIENT_IP'];

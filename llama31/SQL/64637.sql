@@ -1,1 +1,0 @@
-SELECT \n  key, \n  COALESCE(c.value, b.value, a.value) AS value\nFROM \n  TableA a\n  LEFT JOIN TableB b ON a.key = b.key\n  LEFT JOIN TableC c ON a.key = c.key

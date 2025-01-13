@@ -1,1 +1,0 @@
-CREATE TABLE ratings (\n    id INT PRIMARY KEY,\n    entity_id INT,\n    entity_type VARCHAR(50),\n    rating INT,\n    created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP\n);

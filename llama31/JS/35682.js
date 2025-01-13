@@ -1,1 +1,0 @@
-function a(p1, p2) { /* ... */ }\n\nconst my1 = 'value1';\nconst my2 = 'value2';\n\nconst b = a.bind(null, my1, my2);\n\n// b is now a parameterless function that calls a with my1 and my2\nb(); // equivalent to a(my1, my2)

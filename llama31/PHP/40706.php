@@ -1,1 +1,0 @@
-set_error_handler(function($errno, $errstr, $errfile, $errline) {\n    throw new ErrorException($errstr, 0, $errno, $errfile, $errline);\n});\n\ntry {\n    $vtest = '';\n    print(array_pop($vtest));\n} catch (Exception $e) {}

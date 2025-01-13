@@ -1,1 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>\n<TestSettings name="WebTestSettings" id="..."> \n  <Execution>\n    <TestAssemblyPaths>\n      <TestAssemblyPath>WebTestProject.dll</TestAssemblyPath>\n    </TestAssemblyPaths>\n  </Execution>\n  <TestRunConfig>\n    <TestRunConfigName>WebTestRunConfig</TestRunConfigName>\n  </TestRunConfig>\n</TestSettings>

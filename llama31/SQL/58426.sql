@@ -1,1 +1,0 @@
-set serveroutput on\nbegin\n  for i in 1 .. 5 loop\n    dbms_output.put_line( sys_guid );\n  end loop;\nend;\n/

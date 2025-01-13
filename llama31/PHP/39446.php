@@ -1,1 +1,0 @@
-$mysqli = new mysqli('host', 'username', 'password', 'database');\n\n$mysqli->autocommit(false);\n\n// Perform queries\n$mysqli->query('INSERT INTO table (column) VALUES (value)');\n$mysqli->query('INSERT INTO table (column) VALUES (value)');\n\n$mysqli->commit();

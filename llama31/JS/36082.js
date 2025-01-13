@@ -1,1 +1,0 @@
-$.get('/ajax/ldap_search.php', { cn: $('#username').val(), timestamp: new Date().getTime() }, function(xml) {\n  // ...\n}, 'xml');

@@ -1,1 +1,0 @@
-$input = 'lärm andré';\n\n$transliterator = Transliterator::createFromRules(':: Any-Latin; :: Latin-ASCII; :: NFD; :: [:Nonspacing Mark:] Remove; :: NFC;', Transliterator::FORWARD);\n\n$output = $transliterator->transliterate($input);\n\necho $output; // Outputs: "larm andre"

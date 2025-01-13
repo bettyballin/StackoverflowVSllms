@@ -1,1 +1,0 @@
-USE YourDatabaseName\nGO\nSET DATEFORMAT dmy\nGO

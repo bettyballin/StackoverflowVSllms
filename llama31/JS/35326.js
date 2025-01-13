@@ -1,1 +1,0 @@
-const FB = require('fb');\n\n// Get the user's proxied email address\nFB.api('/me/permissions', { access_token: userAccessToken }, (res) => {\n  if (res.data && res.data.length > 0) {\n    const proxiedEmail = res.data[0].email;\n    // Use the proxied email address\n  }\n});

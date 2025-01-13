@@ -1,1 +1,0 @@
-UPDATE person\nSET unique_number = nextval('number_sequence')\nFROM person;

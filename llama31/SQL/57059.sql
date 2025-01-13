@@ -1,1 +1,0 @@
-SELECT a, b, z.x AS c\nFROM table\nLEFT JOIN z ON ...\nWHERE ...;

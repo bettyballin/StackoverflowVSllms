@@ -1,1 +1,0 @@
-$.ajax({\n  // your ajax settings here...\n  success: function(data) {\n    console.dir(data);\n  }\n});

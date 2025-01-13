@@ -1,1 +1,0 @@
-$query = "SLOW QUERY";\n$result = $db->query($query, MYSQLI_ASYNC);

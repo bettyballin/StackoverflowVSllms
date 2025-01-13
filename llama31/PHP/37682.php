@@ -1,1 +1,0 @@
-$image = new Imagick('input.gif');\n$image = $image->coalesceImages();\nforeach ($image as $frame) {\n    $frame->resizeImage(100, 100, Imagick::FILTER_LANCZOS, 1);\n}\n$image = $image->deconstructImages();\n$image->writeImages('output.gif', true);

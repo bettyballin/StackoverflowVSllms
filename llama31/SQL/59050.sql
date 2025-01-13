@@ -1,1 +1,0 @@
-SELECT /*+ PARALLEL(a, 4) */ c.ClaimNumber, a.ItemDate, c.DTN, b.FilePath\nFROM items a\nINNER JOIN itempages b ON a.ItemNum = b.ItemNum\nINNER JOIN keygroupdata c ON b.ItemNum = c.ItemNum\nWHERE a.ItemType IN (112, 115, 189, 241)\nORDER BY a.DateStored DESC;

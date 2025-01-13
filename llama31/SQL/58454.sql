@@ -1,1 +1,0 @@
-INSERT INTO DestinationTable\nSELECT *\nFROM SourceTable\nWHERE condition;

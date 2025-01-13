@@ -1,1 +1,0 @@
-SELECT \n  e.event_id,\n  MAX(CASE WHEN edi.repeat_type = 'week' AND edi.repeat_value = 1 THEN edi.repeat_value END) AS week_repeat_1,\n  MAX(CASE WHEN edi.repeat_type = 'week' AND edi.repeat_value = 2 THEN edi.repeat_value END) AS week_repeat_2\nFROM events e\nJOIN events_dateinfo edi ON e.event_id = edi.event_id\nGROUP BY e.event_id;

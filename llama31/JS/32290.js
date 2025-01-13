@@ -1,1 +1,0 @@
-$(document).ready(function() {\n    $.get("source.html", function(data) {\n        $(data).find(".spad").appendTo("#loadArea");\n    });\n});

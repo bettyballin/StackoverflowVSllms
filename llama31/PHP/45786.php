@@ -1,1 +1,0 @@
-// Validate email address\n$email = filter_var($_POST['email'], FILTER_VALIDATE_EMAIL);\n\n// Escape user input using prepared statement\n$stmt = $mysqli->prepare("INSERT INTO users (name, email) VALUES (?, ?)");\n$stmt->bind_param("ss", $name, $email);\n$stmt->execute();\n\n// Sanitize user input for output\necho htmlspecialchars($name);

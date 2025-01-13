@@ -1,1 +1,0 @@
-function replaceSingleQuotes($data) {\n    return str_replace("'", "&#39;", $data);\n}\n\nwhile ($data = fread($fp, 4096)) {\n    if (!xml_parse($xml_parser, replaceSingleQuotes($data), feof($fp))) {\n        break;\n    }\n}

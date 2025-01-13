@@ -1,1 +1,0 @@
-class YourController < ApplicationController\n  def populate_questions\n    level_id = params[:level_id]\n    questions = Question.where(:level_id => level_id)\n    render :update do |page|\n      page.replace_html 'lques', :partial => 'questions', :object => questions\n    end\n  end\nend

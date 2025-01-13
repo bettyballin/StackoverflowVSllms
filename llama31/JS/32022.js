@@ -1,1 +1,0 @@
-$(function() {\n  $("#combobox").autocomplete({\n    source: ["Option 1", "Option 2", "Option 3"],\n    minLength: 0,\n    delay: 0\n  });\n});

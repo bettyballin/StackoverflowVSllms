@@ -1,1 +1,0 @@
-CREATE TABLE draft_objects (\n  id SERIAL PRIMARY KEY,\n  name VARCHAR(255),\n  attributes JSONB\n);

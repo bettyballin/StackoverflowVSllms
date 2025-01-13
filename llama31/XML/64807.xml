@@ -1,1 +1,0 @@
-<bean id="rmiExporter" class="org.springframework.remoting.rmi.RmiServiceExporter">\n    <property name="services">\n        <map>\n            <entry key="UserService" value-ref="userService"/>\n            <entry key="OrderService" value-ref="orderService"/>\n        </map>\n    </property>\n    <property name="servicePort" value="1099"/>\n</bean>

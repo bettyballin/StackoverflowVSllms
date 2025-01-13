@@ -1,1 +1,0 @@
-SELECT \n    CASE \n        WHEN @Configuration.value('/Configuration[1]/SomeConfigValue[1]', 'nvarchar(1)') IS NULL \n        THEN NULL \n        ELSE CONVERT(bit, @Configuration.value('/Configuration[1]/SomeConfigValue[1]', 'nvarchar(1)')) \n    END AS SomeConfigValue

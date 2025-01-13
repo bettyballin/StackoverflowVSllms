@@ -1,1 +1,0 @@
-CLOSE cursor_name;\nDEALLOCATE cursor_name;

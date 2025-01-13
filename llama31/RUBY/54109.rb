@@ -1,1 +1,0 @@
-# Example of secure connection to a database in Ruby on Rails\nrequire 'pg'\n\nbegin\n    conn = PG.connect(\n        dbname: 'myDatabase',\n        host: 'localhost',\n        user: 'myUser',\n        password: 'myPass'\n    )\n    puts "Connected successfully"\nrescue PG::Error => e\n    puts "Connection failed: #{e.message}"\nend

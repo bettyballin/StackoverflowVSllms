@@ -1,1 +1,0 @@
-user_pref("layout.enable_animations", false);

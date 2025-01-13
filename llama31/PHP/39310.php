@@ -1,1 +1,0 @@
-$start_time = microtime(true);\n\n// your PHP code here\n\n$end_time = microtime(true);\n$page_load_time = $end_time - $start_time;\n\necho "Page load time: " . number_format($page_load_time, 2) . " seconds";

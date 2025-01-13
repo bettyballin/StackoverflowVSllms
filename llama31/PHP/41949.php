@@ -1,1 +1,0 @@
-// Page 1\nrequire_once('arraytest.php');\nsession_start();\n$bob = new DoDoDo();\n$_SESSION['bob'] = $bob;\n\n// Page 2\nrequire_once('arraytest.php');\nsession_start();\n$bob = $_SESSION['bob'];\n$bob->foo();\nprint_r($bob->poop->getarray());

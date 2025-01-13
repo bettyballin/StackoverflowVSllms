@@ -1,1 +1,0 @@
-$('#panelInfo').on('change', '#years', function() {\n    // do something\n});

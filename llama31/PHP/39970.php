@@ -1,1 +1,0 @@
-fwrite($handle, "<?php \$var = \$var2 ?>");

@@ -1,1 +1,0 @@
-def destroy_chatbot_training_data(data):\n    # Destroy data securely\n    destroy_data(data)\n    return True

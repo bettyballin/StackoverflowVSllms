@@ -1,1 +1,0 @@
-Dim version As String = System.Environment.Version.ToString()\nResponse.Write(version)

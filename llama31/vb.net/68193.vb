@@ -1,1 +1,0 @@
-Private WithEvents deadlineTimer As New System.Windows.Forms.Timer()\n\nPrivate Sub deadlineTimer_Tick(sender As Object, e As EventArgs) Handles deadlineTimer.Tick\n    ' Check the time and display warnings as needed\nEnd Sub\n\nPrivate Sub StartDeadlineTimer()\n    deadlineTimer.Interval = 3600000 ' 1 hour\n    deadlineTimer.Start()\nEnd Sub

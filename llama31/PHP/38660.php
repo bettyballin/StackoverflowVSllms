@@ -1,1 +1,0 @@
-class StripslashesFilter implements Zend_Filter_Interface\n{\n    public function filter($value)\n    {\n        return stripslashes($value);\n    }\n}

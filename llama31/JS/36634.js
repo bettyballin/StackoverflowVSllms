@@ -1,1 +1,0 @@
-$.post('/Users/SaveUser/', $('#theForm').serialize(), function(responseText, status) {\n    $('#mainContent').text(responseText);\n}, 'html');

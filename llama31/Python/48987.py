@@ -1,1 +1,0 @@
-from line_profiler import LineProfiler\n\ndef my_function():\n    # your code here\n\nprofiler = LineProfiler()\nprofiler.add_function(my_function)\nprofiler.run('my_function()')\nprofiler.print_stats()

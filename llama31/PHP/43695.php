@@ -1,1 +1,0 @@
-$context = stream_context_create(array('flags' => 'rename'));\nrename('/correct/path/to/dir/1', '/correct/path/to/dir/2', $context);

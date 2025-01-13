@@ -1,1 +1,0 @@
-header('Expires: '.gmdate('D, d M Y H:i:s', strtotime('+1 year')).' GMT');

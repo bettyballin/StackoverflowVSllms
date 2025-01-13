@@ -1,1 +1,0 @@
-Array\n(\n    [var1] => val1\n    [var2] => val2\n    [var3] => a list of vals\n)

@@ -1,1 +1,0 @@
-BEGIN\n    -- start a transaction\n    INSERT INTO mytable (id, value) VALUES (1, 'test');\n    \n    -- perform a DDL statement\n    TRUNCATE TABLE mytable;\n    \n    -- the previous insert is committed\nEND;

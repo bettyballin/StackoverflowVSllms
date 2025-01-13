@@ -1,1 +1,0 @@
-CREATE TABLE mv_post_category_comment (\n    idPost INT,\n    post TEXT,\n    idCategory INT,\n    inputDate DATE\n);\n\nINSERT INTO mv_post_category_comment\nSELECT DISTINCT(post.idPost), post.post, postCategory.idCategory, comment.inputDate\nFROM post\nINNER JOIN comment ON post.idPost = comment.idPost\nINNER JOIN postCategory ON postCategory.idPost = post.idPost;

@@ -1,1 +1,0 @@
-// Assume you have a ASMX service that returns JSON data\n$.ajax({\n  type: 'POST',\n  url: '/your/service/endpoint',\n  data: JSON.stringify({ /* your data */ }),\n  contentType: 'application/json; charset=utf-8',\n  dataType: 'json',\n  success: function(data) {\n    // Process the received data\n  }\n});

@@ -1,1 +1,0 @@
-document.getElementById("myInput").addEventListener("blur", myFunction);

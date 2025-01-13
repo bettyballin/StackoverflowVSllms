@@ -1,1 +1,0 @@
-def foo\n  @foo ||= read_attribute(:foo)\n  if @foo.nil?\n    @foo = expensive_sql_query_result\n    write_attribute(:foo, @foo)\n    save # persist the changes to the database\n  end\n  @foo\nend

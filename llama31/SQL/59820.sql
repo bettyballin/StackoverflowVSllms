@@ -1,1 +1,0 @@
-DROP TRIGGER IF EXISTS trigger_name;\n\nCREATE TRIGGER trigger_name BEFORE UPDATE ON table\nFOR EACH ROW BEGIN\n  -- Trigger logic goes here\nEND;\n\n-- More trigger drop/create statements follow

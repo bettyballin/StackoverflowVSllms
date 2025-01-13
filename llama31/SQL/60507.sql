@@ -1,1 +1,0 @@
--- Create a sample table\nCREATE TABLE #SampleTable (\n    Id INT PRIMARY KEY,\n    Name VARCHAR(50)\n);\n\n-- Insert some sample data\nINSERT INTO #SampleTable (Id, Name)\nVALUES (1, 'John Doe'),\n       (2, 'Jane Doe');\n\n-- Select the data\nSELECT * FROM #SampleTable;\n\n-- Clean up\nDROP TABLE #SampleTable;

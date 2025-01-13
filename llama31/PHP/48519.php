@@ -1,1 +1,0 @@
-$SGcon = mysql_connect("localhost","root","");\nmysql_select_db("sGopen", $SGcon);\n\n$PTcon = mysql_connect("localhost","root","", true); // note the additional true parameter\nmysql_select_db("pTsecond", $PTcon);\n\n// When querying, make sure to use the correct connection resource\nmysql_query($getQuery, $PTcon);\nmysql_query($secondQuery, $SGcon);

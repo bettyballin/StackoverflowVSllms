@@ -1,1 +1,0 @@
-CREATE EVENT reset_field_value\nON SCHEDULE EVERY 1 DAY\nSTARTS '2023-03-01 00:00:00'  -- adjust to your desired start date\nDO\nUPDATE your_table\nSET your_column = 'default_value'\nWHERE your_condition = 'specific_row';

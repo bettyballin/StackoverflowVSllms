@@ -1,1 +1,0 @@
-JHtml::_('behavior.framework', true);\n\n$document = JFactory::getDocument();\n$document->addScriptDeclaration('\n    // Your MooTools code here\n    var script = document.getElementById(\'script-id\');\n    script.destroy();\n');\n\n$document->addScript('https://example.com/remote-library.js');

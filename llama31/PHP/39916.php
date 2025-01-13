@@ -1,1 +1,0 @@
-class SidebarPlugin extends Zend_Controller_Plugin_Abstract\n{\n    public function preDispatch(Zend_Controller_Request_Abstract $request)\n    {\n        $layout = Zend_Layout::getMvcInstance();\n        $layout->assign('sidebar', 'This is my sidebar content');\n    }\n}

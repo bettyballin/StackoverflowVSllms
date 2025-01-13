@@ -1,1 +1,0 @@
-SELECT \n  COUNT(DISTINCT user_id) as total_users\nFROM \n  reports

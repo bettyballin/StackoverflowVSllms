@@ -1,1 +1,0 @@
-try {\n    $content = file_get_contents("http://www.address.com");\n    if ($content !== false) {\n        $results = "it worked";\n    } else {\n        throw new Exception('Failed to retrieve content');\n    }\n} catch (Exception $e) {\n    $results = "it didn't work: " . $e->getMessage();\n}\nreturn $results;

@@ -1,1 +1,0 @@
-$tempDir = getenv('TEMP');\n$file = $tempDir . DIRECTORY_SEPARATOR . 'myfile.txt';\nfile_put_contents($file, 'Hello, world!');

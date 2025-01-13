@@ -1,1 +1,0 @@
-$.ajax({\n    type: "GET",\n    url: "/your/url",\n    timeout: 3000, // Timeout in milliseconds\n    success: function(data) {\n        // Your success handler\n    },\n    error: function(xhr, status, error) {\n        if (status === 'timeout') {\n            // Timeout error handler\n        } else {\n            // Other error handler\n        }\n    }\n});

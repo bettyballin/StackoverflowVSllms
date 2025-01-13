@@ -1,1 +1,0 @@
-sudo nano /etc/gitlab/gitlab.rb\n\n# Set the external URL\nexternal_url 'http://your-domain.com'\n\n# Set the repository storage path\ngit_data_dirs({ 'default' => { 'path' => '/var/opt/gitlab/git-data' } })

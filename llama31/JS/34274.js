@@ -1,1 +1,0 @@
-<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.3.2/jquery.min.js"></script>\n<script type="text/javascript">\n  if (typeof jQuery === 'undefined') {\n    document.write('<script type="text/javascript" src="local/jquery.min.js"><\/script>');\n  }\n</script>

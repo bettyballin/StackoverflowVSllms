@@ -1,1 +1,0 @@
-my_list = [0]\n\n# Create a new slice and modify it\nmy_list[-1:][0] += 1\nprint(my_list)  # prints [0]\n\n# Directly access and modify the last element\nmy_list[len(my_list)-1] += 1\nprint(my_list)  # prints [1]

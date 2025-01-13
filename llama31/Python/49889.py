@@ -1,1 +1,0 @@
-from django.http import HttpResponseRedirect\n\ndef view_function(request):\n    # Your code here...\n    return HttpResponseRedirect('/new/location', status=303)

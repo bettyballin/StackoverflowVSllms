@@ -1,1 +1,0 @@
-WHERE\n(\n    [Phone] LIKE '%[a-zA-Z]%'\n    OR [Phone] = 'N/A'\n    OR REPLACE([Phone], '0', '') = ''\n)

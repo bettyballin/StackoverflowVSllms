@@ -1,1 +1,0 @@
-SELECT DISTINCT name, type, date\nFROM table1\nWHERE \n  CASE \n    WHEN :user_input = 1 THEN user1\n    WHEN :user_input = 2 THEN user2\n    WHEN :user_input = 3 THEN user3\n  END IS NOT NULL;

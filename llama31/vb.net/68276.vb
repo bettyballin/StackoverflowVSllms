@@ -1,1 +1,0 @@
-Dim myweb As Microsoft.SharePoint.SPWeb = Microsoft.SharePoint.SPContext.Current.Web

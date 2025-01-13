@@ -1,1 +1,0 @@
-CREATE TABLE Stories (\n    ID INT PRIMARY KEY NONCLUSTERED,\n    Title nvarchar(255),\n    Url nvarchar(255),\n    UniqueName nvarchar(255) UNIQUE CLUSTERED,\n    CategoryID INT\n);\n\nCREATE NONCLUSTERED INDEX IX_Stories_CategoryID ON Stories (CategoryID);

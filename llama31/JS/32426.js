@@ -1,1 +1,0 @@
-var name = "Matt";\nvar doc = new jsPDF();\ndoc.text('My name is ' + name, 10, 10);\ndoc.print();

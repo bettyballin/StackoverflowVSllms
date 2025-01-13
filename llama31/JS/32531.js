@@ -1,1 +1,0 @@
-$(document).ready(function() {\n    $('.hover-cell').on('mouseover', function() {\n        $(this).parent().find('.popup-table').show();\n    }).on('mouseout', function() {\n        $(this).parent().find('.popup-table').hide();\n    });\n});

@@ -1,1 +1,0 @@
-Namespace ProjectB\n\n    Public Class MainForm\n        Inherits System.Windows.Forms.Form\n\n        Private Sub CreateInstance()\n            Dim i As New ProjectA.Components.MainClass\n            Dim myControl As ExtendedCustomControl = i.CreateExtendedCustomControl()\n        End Sub\n\n    End Class\n\nEnd Namespace

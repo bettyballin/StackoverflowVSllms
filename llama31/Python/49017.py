@@ -1,1 +1,0 @@
-import configparser\n\ndef get_config_value(param):\n    config = configparser.ConfigParser()\n    config.read('config.ini')\n    \n    # Check if the section exists before trying to read from it\n    if not config.has_section(param):\n        raise ValueError(f"Invalid parameter: {param}")\n    \n    # Now it's safe to read from the section\n    return config.get(param, 'value')

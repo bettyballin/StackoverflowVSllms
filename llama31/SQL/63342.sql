@@ -1,1 +1,0 @@
-SELECT page_title\nFROM table1\nWHERE page_title NOT IN (SELECT page_title FROM table2);

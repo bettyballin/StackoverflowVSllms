@@ -1,1 +1,0 @@
-vertices = [(0, 0), (0, 2), (2, 2), (2, 0)]\narea = polygon_area(vertices)\nprint(area)  # Output: 4

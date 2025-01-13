@@ -1,1 +1,0 @@
-def median_of_medians(array):\n    # divide array into groups of 5 elements\n    groups = [array[i:i+5] for i in range(0, len(array), 5)]\n    # compute median of each group\n    medians = [sorted(group)[2] for group in groups]\n    # recurse to find median of medians\n    return quicksort(medians)[len(medians) // 2]\n\npivot = median_of_medians(array)

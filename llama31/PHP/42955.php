@@ -1,1 +1,0 @@
-$months = array();\n$currentDate = new DateTime();\n\nfor ($x = 0; $x < 12; $x++) {\n    $nextMonth = clone $currentDate;\n    $nextMonth->add(new DateInterval('P' . $x . 'M')); // add $x months\n    $key = $nextMonth->format('m');\n    $monthname = $nextMonth->format('F');\n    $months[$key] = $monthname;\n}

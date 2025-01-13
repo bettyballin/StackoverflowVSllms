@@ -1,1 +1,0 @@
-$file = 'ff.log';\n$fp = fopen($file, 'r');\nif ($fp) {\n    $last_line = '';\n    while (($line = fgets($fp)) !== false) {\n        $last_line = trim($line);\n    }\n    fclose($fp);\n    echo "--$last_line--";\n}

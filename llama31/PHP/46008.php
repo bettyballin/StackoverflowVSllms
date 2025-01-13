@@ -1,1 +1,0 @@
-$fp = fopen('example.csv', 'w');\n$data = array('Hello', 'World!');\nfputcsv($fp, $data);\nfclose($fp);

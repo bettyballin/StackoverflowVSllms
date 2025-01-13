@@ -1,1 +1,0 @@
-$form['previous'] = array(\n  '#type' => 'submit',\n  '#value' => t('Previous'),\n  '#limit_validation_errors' => FALSE,\n);

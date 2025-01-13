@@ -1,1 +1,0 @@
-// UserControl JavaScript\nfunction callPageMethod() {\n    var param = "Hello";\n    var result = MyUserControl.MyPageMethod(param);\n    console.log(result);\n}

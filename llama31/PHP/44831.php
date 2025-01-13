@@ -1,1 +1,0 @@
-array(\n    array('id' => '1', 'value' => '1'),\n    array('id' => '24', 'value' => '2233'),\n    array('id' => '55', 'value' => '231321'),\n)

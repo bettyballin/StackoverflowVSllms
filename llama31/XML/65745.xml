@@ -1,1 +1,0 @@
-<Project Sdk="Microsoft.NET.Sdk">\n  <!-- ... -->\n  <Target Name="ModifyCsFiles" BeforeTargets="CoreCompile">\n    <CustomTask:ModifyCsFiles CompileItems="@(Compile)" />\n  </Target>\n  <!-- ... -->\n</Project>

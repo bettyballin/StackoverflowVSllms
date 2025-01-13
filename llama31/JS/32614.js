@@ -1,1 +1,0 @@
-console.log(typeof internalFoo); // "function"\nfunction internalFoo() { return true; }

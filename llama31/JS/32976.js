@@ -1,1 +1,0 @@
-// webpack.config.js\nmodule.exports = {\n    //...\n    optimization: {\n        minimize: true,\n        minimizer: [\n            new TerserPlugin(),\n        ],\n    },\n};

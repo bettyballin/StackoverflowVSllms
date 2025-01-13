@@ -1,1 +1,0 @@
-' Create a new COM+ application\nDim catalog As New COMAdmin.COMAdminCatalog\nDim apps As COMAdmin.COMAdminCatalogCollection\nSet apps = catalog.GetCollection("Applications")\nDim app As COMAdmin.COMAdminCatalogObject\nSet app = apps.Add()\napp.Value("Name") = "MyCOMApp"\napp.Value("Description") = "My COM+ Application"\napps.SaveChanges()

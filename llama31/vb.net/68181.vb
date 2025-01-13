@@ -1,1 +1,0 @@
-Imports NAudio.Wave\n\nModule MP3ToWAVConverter\n    Sub ConvertMP3ToWAV(ByVal mp3File As String, ByVal wavFile As String)\n        Using mp3Reader As New Mp3FileReader(mp3File)\n            Using wavWriter As New WaveFileWriter(wavFile, mp3Reader.WaveFormat)\n                mp3Reader.CopyTo(wavWriter)\n            End Using\n        End Using\n    End Sub\nEnd Module

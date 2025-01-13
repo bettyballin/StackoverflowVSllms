@@ -1,1 +1,0 @@
-Dim proj As New Microsoft.VisualBasic.ApplicationServices.ConsoleApplication\nConsole.WriteLine(proj.GetType().ToString())

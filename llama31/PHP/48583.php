@@ -1,1 +1,0 @@
-$mockTableRepresentation = $this->getMock('MyTableRepresentation', array('get'));\n$mockTableRepresentation->expects($this->any())\n    ->method('get')\n    ->with($id)\n    ->willReturn($someData);

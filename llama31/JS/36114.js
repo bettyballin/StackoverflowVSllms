@@ -1,1 +1,0 @@
-$('table.grid > tbody')\n  .on('mouseover', function(ev) {\n    var $row = $(ev.target).closest('tr');\n    if (!$row.is('.hover')) {\n      $row.addClass('hover');\n    }\n  })\n  .on('mouseout', function(ev) {\n    var $row = $(ev.target).closest('tr');\n    if ($row.is('.hover')) {\n      $row.removeClass('hover');\n    }\n  });

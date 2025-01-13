@@ -1,1 +1,0 @@
-CREATE TABLE TextTable(ID bigint IDENTITY(1,1) NOT NULL, TextValue nvarchar(4000))

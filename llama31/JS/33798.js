@@ -1,1 +1,0 @@
-$(document).ready(function() {\n  var topBar = $("#topBar");\n  $(window).scroll(function() {\n    topBar.css("top", $(window).scrollTop());\n  });\n});

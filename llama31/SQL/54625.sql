@@ -1,1 +1,0 @@
-CREATE SPATIAL INDEX idx_Zip_Spatial ON Zip (Latitude, Longitude);\nCREATE SPATIAL INDEX idx_PostalCode_Spatial ON PostalCode (Latitude, Longitude);

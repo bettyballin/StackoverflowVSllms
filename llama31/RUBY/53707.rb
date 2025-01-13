@@ -1,1 +1,0 @@
-class YourController < ApplicationController\n  def your_action\n    selection = params[:selection]\n    # Store the selection coordinates in your database\n    # ...\n    render json: { success: true }\n  end\nend

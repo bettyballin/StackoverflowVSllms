@@ -1,1 +1,0 @@
-$queryResult = $xpathvar->query('//lemonade[@supplier="mother"]/price');

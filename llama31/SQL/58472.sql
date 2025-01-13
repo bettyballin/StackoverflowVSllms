@@ -1,1 +1,0 @@
-SELECT \n  SUM(v1.value * v2.value) AS dot_product\nFROM \n  vectors v1 \n  INNER JOIN vectors v2 \n    ON v1.dimension = v2.dimension \n    AND v1.vector_id = ? \n    AND v2.vector_id = ?

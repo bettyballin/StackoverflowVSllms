@@ -1,1 +1,0 @@
-$.ajax({\n  url: 'path/to/page',\n  headers: {\n    'Cache-Control': 'max-age=300' // expire after 5 minutes\n  },\n  cache: true\n});

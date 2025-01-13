@@ -1,1 +1,0 @@
-<connectionStrings>\n    <add name="MyContext" connectionString="metadata=res://*/MyModel.csdl|res://*/MyModel.ssdl|res://*/MyModel.msl;provider=System.Data.EntityClient;provider connection string=&quot;Data Source=myserver;Initial Catalog=mydatabase;Integrated Security=True;&quot;" providerName="System.Data.EntityClient" />\n</connectionStrings>

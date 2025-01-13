@@ -1,1 +1,0 @@
-CREATE TABLE Customers (\n    CustomerID INT IDENTITY(1,1) PRIMARY KEY,  -- Surrogate key\n    CustomerCode VARCHAR(20) UNIQUE NOT NULL  -- Business key\n);\n\n-- Insert some sample data\nINSERT INTO Customers (CustomerCode) VALUES ('CUST001');\nINSERT INTO Customers (CustomerCode) VALUES ('CUST002');

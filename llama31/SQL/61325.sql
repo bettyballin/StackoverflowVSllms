@@ -1,1 +1,0 @@
--- Create the assembly\nCREATE ASSEMBLY MyAssembly\nFROM 'C:\Path\To\MyAssembly.dll'\nWITH PERMISSION_SET = SAFE;\n\n-- Create the stored procedure\nCREATE PROCEDURE MyStoredProcedure\nAS EXTERNAL NAME MyAssembly.MyClass.MyMethod;

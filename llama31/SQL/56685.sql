@@ -1,1 +1,0 @@
-CREATE TABLE example (\n  id INT PRIMARY KEY,\n  url VARCHAR(2083)\n);

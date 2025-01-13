@@ -1,1 +1,0 @@
-require 'ruby-proxy'\n\nproxy = RubyProxy.new(8080)\n\nproxy.start do |req, res|\n  # Handle the request and response here\n  puts "Request: #{req.inspect}"\n  puts "Response: #{res.inspect}"\nend

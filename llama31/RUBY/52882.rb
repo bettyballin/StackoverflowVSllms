@@ -1,1 +1,0 @@
-dir = '/path/to/directory'\nsubdirs = Dir.glob("#{dir}/*").select { |f| File.directory?(f) }

@@ -1,1 +1,0 @@
-echo <<<EOB\n    <html>\n    <head>\n        <title>My title</title>\n    </head>\n    ...\nEOB;

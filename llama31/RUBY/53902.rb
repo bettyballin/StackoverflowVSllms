@@ -1,1 +1,0 @@
-class Post\n  include BasicModel\n\n  validates :name, presence: true\n  validates :title, presence: true, length: { minimum: 5 }\nend

@@ -1,1 +1,0 @@
-// PHP (profile.php)\n$username = $_POST['username'];\n// Validate and sanitize the username\n$username = filter_var($username, FILTER_SANITIZE_STRING);\n\n// Query the database using the username\n$query = "SELECT * FROM members WHERE username = '$username'";\n$result = mysql_query($query);

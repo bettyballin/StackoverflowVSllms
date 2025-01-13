@@ -1,1 +1,0 @@
-import paramiko\n\nssh = paramiko.SSHClient()\nssh.set_missing_host_key_policy(paramiko.AutoAddPolicy())\nssh.connect('your_remote_machine_ip', username='your_username', password='your_password')\n\nstdin, stdout, stderr = ssh.exec_command('"C:\\path\\to\\perl.exe" your_script.pl')\nprint(stdout.read().decode())\n\nssh.close()

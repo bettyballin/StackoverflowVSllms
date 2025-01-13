@@ -1,1 +1,0 @@
-SELECT \n  HOUR(start_time) AS hour,\n  SUM(TIMESTAMPDIFF(MINUTE, start_time, end_time)) AS minutes_worked\nFROM \n  timesheet_entries\nGROUP BY \n  HOUR(start_time)

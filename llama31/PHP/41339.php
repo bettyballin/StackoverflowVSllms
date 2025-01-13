@@ -1,1 +1,0 @@
-$referer = $_SERVER['HTTP_REFERER'];\nif (strpos($referer, 'google.com') !== false) {\n    $urlParts = parse_url($referer);\n    parse_str($urlParts['query'], $query);\n    $keywords = $query['q'];\n    echo 'Hello, you\'ve reached this site by looking for ' . $keywords;\n}

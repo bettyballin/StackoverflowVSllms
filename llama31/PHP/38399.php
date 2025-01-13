@@ -1,1 +1,0 @@
-$stmt = $mysqli->prepare("SELECT SUBSTRING(column_name, LOCATE('?', column_name) - 100, 200) AS summary FROM table_name WHERE column_name LIKE '%?%'");\n$stmt->bind_param("ss", $keyword, $keyword);\n$stmt->execute();\n$result = $stmt->get_result();

@@ -1,1 +1,0 @@
-CREATE TEMPORARY TABLE temp_table AS SELECT * FROM original_table;\n-- update temp_table\nRENAME TABLE original_table TO old_table;\nRENAME TABLE temp_table TO original_table;\nDROP TABLE old_table;

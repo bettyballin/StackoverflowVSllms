@@ -1,1 +1,0 @@
-UPDATE myTable\nSET myColumn = dbo.RemoveNonAlphanumeric(myColumn)

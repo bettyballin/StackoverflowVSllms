@@ -1,1 +1,0 @@
-require_once('nusoap.php');\n$client = new soapclient('http://example.com/service?wsdl');\n$response = $client->call('method_name', array('param1' => 'value1'));

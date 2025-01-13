@@ -1,1 +1,0 @@
-SELECT DISTINCT answer\nFROM (\n  SELECT right AS answer FROM t\n  UNION ALL\n  SELECT wrong1 AS answer FROM t\n  UNION ALL\n  SELECT wrong2 AS answer FROM t\n  UNION ALL\n  SELECT wrong3 AS answer FROM t\n  UNION ALL\n  SELECT wrong4 AS answer FROM t\n) AS subquery

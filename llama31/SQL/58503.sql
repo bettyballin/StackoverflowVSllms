@@ -1,1 +1,0 @@
-ISNULL(Column1) ? "" : Column1

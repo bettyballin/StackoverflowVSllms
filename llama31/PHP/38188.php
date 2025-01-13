@@ -1,1 +1,0 @@
-$wsdlFile = 'path/to/your/wsdl/file.wsdl';\n$serverName = $_SERVER['SERVER_NAME'];\n$wsdlContent = file_get_contents($wsdlFile);\n$wsdlContent = str_replace('${SERVER_NAME}', $serverName, $wsdlContent);\n\n// Use the modified WSDL content to create your SOAP server\n$soapServer = new SoapServer($wsdlContent);

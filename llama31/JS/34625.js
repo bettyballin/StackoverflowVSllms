@@ -1,1 +1,0 @@
-// Using jQuery to send an Ajax request\n$.ajax({\n  type: 'POST',\n  url: '/submit-form',\n  data: $('#myForm').serialize(),\n  success: function(data) {\n    // Handle successful response\n  },\n  error: function(xhr, status, error) {\n    // Handle error\n  }\n});

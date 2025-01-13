@@ -1,1 +1,0 @@
-SELECT *\nFROM (\n  SELECT *, ROW_NUMBER() OVER (ORDER BY RAND()) AS row_num\n  FROM your_table\n) AS subquery\nWHERE row_num <= N;

@@ -1,1 +1,0 @@
-$token = bin2hex(random_bytes(16));\n// Store $token in your database with the user's vote

@@ -1,1 +1,0 @@
--- Create a dtsConfig file with the password\n<Configuration>\n  <Property Path="\Package.Connections[DestinationConnectionOLEDB].Properties[Password]">\n    <Value>your_password</Value>\n  </Property>\n</Configuration>

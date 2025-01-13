@@ -1,1 +1,0 @@
-// Assuming you have an element with the ID 'button'\n$('button').observe('click', function() {\n  new Ajax.Request('/your/rails/endpoint', {\n    method: 'get',\n    onSuccess: function(response) {\n      // Update your webpage with the response data\n      console.log(response.responseText);\n    }\n  });\n});

@@ -1,1 +1,0 @@
-function post_form(url) {\n  $.ajax({\n    type: 'POST',\n    url: url,\n    data: {'test': 'test'},\n    redirect: false,\n    success: function(data) {\n      $("#add_value_form").empty().append(data);\n    }\n  });\n}

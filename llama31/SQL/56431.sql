@@ -1,1 +1,0 @@
-ALTER SERVER ROLE [sysadmin] DROP MEMBER [DOMAIN\Administrators]

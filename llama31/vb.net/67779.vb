@@ -1,1 +1,0 @@
-Dim bitmap As New BitmapImage()\n\nDim buffer As Byte() = GetHugeByteArray() ' from some external source\nUsing stream As New MemoryStream(buffer, False)\n    bitmap.BeginInit()\n    bitmap.CacheOption = BitmapCacheOption.OnLoad\n    bitmap.StreamSource = stream\n    bitmap.EndInit()\n    bitmap.Freeze()\nEnd Using

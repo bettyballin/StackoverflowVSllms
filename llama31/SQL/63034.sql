@@ -1,1 +1,0 @@
-CREATE PROCEDURE sp_Search\n    @SearchTerm nvarchar(50)\nAS\nBEGIN\n    SELECT *\n    FROM YourTable\n    WHERE FREETEXT(YourColumn, @SearchTerm)\nEND

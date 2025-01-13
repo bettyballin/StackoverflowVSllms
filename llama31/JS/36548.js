@@ -1,1 +1,0 @@
-function pageLoad(sender, args) {\n  // Re-run the ShareThis script\n  var script = document.createElement('script');\n  script.src = 'http://w.sharethis.com/button/buttons.js';\n  document.body.appendChild(script);\n}

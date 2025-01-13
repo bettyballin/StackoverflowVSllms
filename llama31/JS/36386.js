@@ -1,1 +1,0 @@
-$('#interceptMe').click(function(event) {\n  event.preventDefault();\n  $.get('/Ajax/Call', goesIn, function(comesOut) {\n    $('#changeMe').html(comesOut);\n  }, "html");\n});

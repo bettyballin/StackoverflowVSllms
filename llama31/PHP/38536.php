@@ -1,1 +1,0 @@
-$module_view = $_GET["m"]::view();

@@ -1,1 +1,0 @@
-<Registry>\n  <RegistryKey>\n    <Key>SOFTWARE\YourCompany\YourApp</Key>\n    <Name>InstallPath</Name>\n    <Value>[TARGETDIR]</Value>\n    <Type>string</Type>\n  </RegistryKey>\n</Registry>

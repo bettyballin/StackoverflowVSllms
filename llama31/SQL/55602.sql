@@ -1,1 +1,0 @@
-ALTER TABLE stock_items\nADD CONSTRAINT chk_serial_number UNIQUE (serial_number)\nCHECK (serial_number IS NULL OR serial_number NOT IN (SELECT serial_number FROM stock_items WHERE serial_number IS NOT NULL));

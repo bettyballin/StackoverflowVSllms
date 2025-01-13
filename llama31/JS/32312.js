@@ -1,1 +1,0 @@
-setInterval("update()", 3000);\n\nfunction update() {\n    $.get("getlatest.php", {\n        id: latestmessage\n    }, function(response){\n        var newElements = $("#forum_entries").prepend(response).children(":first");\n        newElements.effect("highlight", {}, 1500);\n        latestmessage = $.cookie('last_post_id');\n    }, "html");\n}

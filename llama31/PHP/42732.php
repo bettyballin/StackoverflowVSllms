@@ -1,1 +1,0 @@
-// Example code for restricting access to user manual content using Restrict Content Pro\nfunction restrict_user_manual_content() {\n  // Restrict access to user manual content to logged-in users\n  if (!is_user_logged_in()) {\n    echo 'You must be logged in to access this content.';\n    exit;\n  }\n}\nadd_action('template_redirect', 'restrict_user_manual_content');

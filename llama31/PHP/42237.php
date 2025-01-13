@@ -1,1 +1,0 @@
-session_cache_expire(30);\nsession_cache_limiter('must-revalidate');

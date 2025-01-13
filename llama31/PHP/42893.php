@@ -1,1 +1,0 @@
-function foo() {}\n\nvar_dump(foo()); // outputs: NULL\n\nfunction bar() { return; }\n\nvar_dump(bar()); // outputs: NULL\n\nif (foo() === NULL) {\n    echo "foo() returns NULL";\n}\n\nif (bar() === NULL) {\n    echo "bar() returns NULL";\n}

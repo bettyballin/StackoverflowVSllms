@@ -1,1 +1,0 @@
-if (window.location.search.indexOf("print=true") != -1) {\n    window.print();\n}

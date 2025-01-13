@@ -1,1 +1,0 @@
-try {\n    $foo = bar() ? $foo : throw new Exception('Problems with bar()');\n    $aa = bb($foo) ? $aa : throw new Exception('Problems with bb()');\n    // ... and so on!\n} catch (Exception $e) {\n    echo $e->getMessage();\n}

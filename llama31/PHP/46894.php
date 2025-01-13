@@ -1,1 +1,0 @@
-$xml = file_get_contents('php://input');\n$doc = new DOMDocument();\n$doc->loadXML($xml);\n\n// Now you can access the XML nodes and content\necho $doc->documentElement->nodeName; // prints the root element name

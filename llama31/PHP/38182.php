@@ -1,1 +1,0 @@
-setlocale(LC_ALL, 'es_ES'); // set locale to Spanish\n$date = '2009-04-13'; // retrieved from database\n$displayDate = strftime('%d %B, %Y', strtotime($date));\necho $displayDate; // outputs: 13 abril, 2009

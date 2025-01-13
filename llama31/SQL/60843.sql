@@ -1,1 +1,0 @@
-ALTER TABLE YourTable\nADD ComputedColumn AS (LEFT(YourColumn, 10))\n\nCREATE INDEX idx_ComputedColumn ON YourTable(ComputedColumn)

@@ -1,1 +1,0 @@
-<?php\nsession_start();\n\nif (isset($_SESSION['user_id'])) {\n    // session is still active, return success\n    echo 'logged_in';\n} else {\n    // session has timed out, return logged out\n    echo 'logged_out';\n}\n?>

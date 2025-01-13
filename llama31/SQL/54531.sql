@@ -1,1 +1,0 @@
-SELECT *\nFROM people\nWHERE INSTR(lastname, firstname) > 0;

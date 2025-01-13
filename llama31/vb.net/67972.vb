@@ -1,1 +1,0 @@
-Imports System.Text\n\nModule Module1\n    Sub Main()\n        Dim utf8Bytes() As Byte = Encoding.UTF8.GetBytes("äöå")\n        Dim asciiString As String = Encoding.ASCII.GetString(utf8Bytes)\n\n        Console.WriteLine(asciiString) ' prints "äöå" correctly\n    End Sub\nEnd Module

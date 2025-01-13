@@ -1,1 +1,0 @@
-SELECT *\nFROM OldTable\nWHERE TRY_CAST(datecol + ' ' + substring(timecol, 1, 2) + ':' + substring(timecol, 3, 2) AS smalldatetime) IS NULL

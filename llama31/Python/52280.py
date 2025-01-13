@@ -1,1 +1,0 @@
-from lxml import etree\n\ndef get_values(category):\n    root = etree.parse('example.xml').getroot()\n    return [child.attrib['value'] for child in root.xpath(f".//parent[@name='{category}']/child")]\n\nprint(get_values("CategoryA"))  # Output: ['a1', 'a2', 'a3']\nprint(get_values("CategoryB"))  # Output: ['b1', 'b2', 'b3']

@@ -1,1 +1,0 @@
-var parent = document.getElementById('parent');\nvar child = parent.children[0];

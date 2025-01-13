@@ -1,1 +1,0 @@
-Public Class MyCollection(Of KeyType, ItemType)\n    Inherits Dictionary(Of KeyType, ItemType)\n\n    Default Public Shadows ReadOnly Property Item(ByVal key As KeyType) As ItemType\n        Get\n            Return MyBase.Item(key)\n        End Get\n    End Property\n\nEnd Class

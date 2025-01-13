@@ -1,1 +1,0 @@
-$config = json_decode(file_get_contents($getFile), true);\n\n// Access the variables\necho $config['extCss'];\necho $config['title'];\necho $config['subTitle'];\necho $config['submitButton'];

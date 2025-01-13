@@ -1,1 +1,0 @@
-$.getJSON('data.json', function(data) {\n  console.log(data); // data is already a JavaScript object\n});\n\n$.get('data.json', function(data) {\n  console.log(data); // data is a string, need to parse it as JSON\n  var jsonData = JSON.parse(data);\n  console.log(jsonData); // now jsonData is a JavaScript object\n});

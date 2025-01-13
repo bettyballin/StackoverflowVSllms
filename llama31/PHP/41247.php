@@ -1,1 +1,0 @@
-$html = '<html>...</html>'; // your HTML content\n$doc = new DOMDocument();\n$doc->loadHTML($html);\n$xpath = new DOMXPath($doc);\n$spans = $xpath->query('//span[@class="img"]');\n\n$links = array();\nforeach ($spans as $span) {\n    $links[] = $span->getElementsByTagName('a')->item(0)->getAttribute('href');\n}\n\nprint_r($links);

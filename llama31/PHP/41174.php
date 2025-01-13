@@ -1,1 +1,0 @@
-exec("sed -i '/\[homes\]/a [public_html]' /etc/samba/smb.conf");\nexec("sed -i '/\[public_html\]/a \ \ \ \ path = /home/username/public_html' /etc/samba/smb.conf");\nexec("sed -i '/\[public_html\]/a \ \ \ \ read only = no' /etc/samba/smb.conf");

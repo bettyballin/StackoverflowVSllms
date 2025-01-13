@@ -1,1 +1,0 @@
-function power(base) {\n  return function(exp) {\n    return Math.pow(base, exp);\n  };\n}\n\nconst square = power(2);\nconst cube = power(3);\n\nconsole.log(square(5)); // Outputs: 32\nconsole.log(cube(5));   // Outputs: 243

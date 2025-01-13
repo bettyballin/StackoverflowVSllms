@@ -1,1 +1,0 @@
-CREATE TABLE [dbo].[Table1] (\n    [ID] INT NOT NULL,\n    [Column1] VARCHAR(50),\n    CONSTRAINT [PK_Table1] PRIMARY KEY NONCLUSTERED ([ID] ASC)\n);

@@ -1,1 +1,0 @@
-ruby -e "Process.kill('KILL', Process.pid)"

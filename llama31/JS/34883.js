@@ -1,1 +1,0 @@
-$('#original-button').on('attrchange', function(event, attrName) {\n  if (attrName === 'value') {\n    $('#styled-button').val($(this).val());\n  }\n});

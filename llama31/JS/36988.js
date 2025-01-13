@@ -1,1 +1,0 @@
-window.open('help.html', '_blank', 'toolbar=no,location=no,status=no,menubar=no,scrollbars=yes,resizable=yes');

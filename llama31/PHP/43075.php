@@ -1,1 +1,0 @@
-$data = array(\n    array('id', 'name'),\n    array('0', 'tim'),\n    array('1', 'tom')\n);\n\n$fp = fopen('output.csv', 'w');\nforeach ($data as $row) {\n    fputcsv($fp, $row);\n}\nfclose($fp);

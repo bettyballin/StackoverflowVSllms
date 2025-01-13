@@ -1,1 +1,0 @@
-// Encode the array.\n$result = json_encode($result);\n\n// Return the encoded array.\necho $result;

@@ -1,1 +1,0 @@
-DECLARE\n  cur SYS_REFCURSOR;\n  v_year NUMBER;\n  v_column_name VARCHAR2(30);\nBEGIN\n  SELECT year INTO v_year FROM your_table;\n  IF v_year < 1950 THEN\n    v_column_name := 'OldYear';\n  ELSE\n    v_column_name := 'NewYear';\n  END IF;\n\n  OPEN cur FOR 'SELECT year AS ' || v_column_name || ' FROM your_table';\n  -- process the cursor\n  CLOSE cur;\nEND;

@@ -1,1 +1,0 @@
-class MyModel extends AppModel {\n    public $useTable = array('table1', 'table2', 'table3');\n}

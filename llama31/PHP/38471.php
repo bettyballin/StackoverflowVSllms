@@ -1,1 +1,0 @@
-$fpr = fopen($out, 'w+b');

@@ -1,1 +1,0 @@
-Sub CheckOLEServerRegistration()\n    Dim obj As Object\n    Set obj = CreateObject("MSChart.Chart")\n    If obj Is Nothing Then\n        MsgBox "OLE server not registered."\n    Else\n        MsgBox "OLE server registered."\n    End If\nEnd Sub

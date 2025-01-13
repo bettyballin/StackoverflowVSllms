@@ -1,1 +1,0 @@
-WHERE substr(my_field,1,6) = 'search'

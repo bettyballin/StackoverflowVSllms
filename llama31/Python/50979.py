@@ -1,1 +1,0 @@
-import pydbus\n\n# Create a D-Bus proxy\nbus = pydbus.SessionBus()\nproxy = bus.get("org.example.MyService")\n\n# Call the method\nresult = proxy.hello("John")\nprint(result)  # Output: "Hello, John!"

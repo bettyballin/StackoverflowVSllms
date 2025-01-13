@@ -1,1 +1,0 @@
-ALTER DATABASE [YourDatabaseName]\nSET COMPATIBILITY_LEVEL = 100  -- SQL Server 2008 compatibility level

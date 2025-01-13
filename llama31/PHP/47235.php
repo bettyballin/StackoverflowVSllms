@@ -1,1 +1,0 @@
-$array = array(1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13);\n\nfor ($i = 1; $i < count($array); $i += 2) {\n    // do something with $array[$i]\n    echo $array[$i] . "\n";\n}

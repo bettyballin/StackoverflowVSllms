@@ -1,1 +1,0 @@
-user = User.new\nuser.username = "John"\nhashed_password = "John"\nfirst_name = "John"\nlast_name = "coltrane"\nemail = "John@coltrane.com"\ndisplay_name = "Johndispay"\nuser_level = 9\nuser.save

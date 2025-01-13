@@ -1,1 +1,0 @@
-def single_change_code(n):\n    codes = []\n    for i in range(2**n):\n        code = [0] * n\n        for j in range(n):\n            code[j] = (i >> j) & 1 ^ (i >> (j + 1)) & 1\n        codes.append("".join(map(str, code)))\n    return codes\n\nsingle_change_codes = single_change_code(4)\nprint(single_change_codes)

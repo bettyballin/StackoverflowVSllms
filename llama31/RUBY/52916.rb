@@ -1,1 +1,0 @@
-map.resources :questions, :has_one => :section, :collection => { :sort => :post }, :action => :destroy

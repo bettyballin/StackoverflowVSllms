@@ -1,1 +1,0 @@
-class ORM\n  def self.inherited(klass)\n    klass.send(:include, ActiveRecord::Base)\n  end\nend

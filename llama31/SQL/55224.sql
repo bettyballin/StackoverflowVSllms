@@ -1,1 +1,0 @@
--- Example of creating a view for a specific client\nCREATE VIEW database001_customers\nAS\nSELECT *\nFROM customers\nWHERE siteId = 001;

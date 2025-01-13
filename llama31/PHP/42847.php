@@ -1,1 +1,0 @@
-<?php\n  header('Content-Type: image/jpeg');\n  readfile('image.jpg');\n?>

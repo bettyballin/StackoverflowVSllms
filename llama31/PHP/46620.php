@@ -1,1 +1,0 @@
-// system/application/config.php\n\n$config['subclass_prefix'] = 'MY_';

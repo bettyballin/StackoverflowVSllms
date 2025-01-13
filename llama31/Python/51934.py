@@ -1,1 +1,0 @@
-def format_strings(strings):\n    return ",".join(f"'{s}'" for s in strings)\n\n# Example usage:\nstrings = ["string1", "string2", "string3", "string4"]\nformatted_string = format_strings(strings)\nprint(formatted_string)

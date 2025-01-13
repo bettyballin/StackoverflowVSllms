@@ -1,1 +1,0 @@
-Imports System.Windows.Forms\n\nPublic Class TransparentForm\n    Inherits Form\n\n    Public Sub New()\n        Me.Opacity = 0.5 ' set the opacity to 50%\n        Me.TransparencyKey = Color.White ' set the transparency key to white\n        Me.BackColor = Color.White ' set the form's background color to white\n    End Sub\nEnd Class

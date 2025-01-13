@@ -1,1 +1,0 @@
-<project name="MyProject" default="publish">\n  <target name="publish">\n    <copy todir="/var/www/myproject">\n      <fileset dir="${basedir}">\n        <include name="**/*" />\n      </fileset>\n    </copy>\n  </target>\n</project>

@@ -1,1 +1,0 @@
-$mysqli = new mysqli("localhost", "username", "password", "database");\n\n// Insert a new row\n$stmt = $mysqli->prepare("INSERT INTO table (column1, column2) VALUES (?, ?)");\n$stmt->bind_param("ss", $value1, $value2);\n$stmt->execute();\n\n// Get the ID of the newly inserted row\n$id = $mysqli->insert_id;\n\n$stmt->close();\n$mysqli->close();

@@ -1,1 +1,0 @@
-$(".iframe").fancybox({\n  afterLoad: function() {\n    var caption = $(this).find(".caption");\n    $(this).append(caption);\n  }\n});

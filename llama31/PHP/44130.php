@@ -1,1 +1,0 @@
-<?php\nclass IndexControllerTest extends YourApp_Controller_TestCase\n{\n    public function testIndexAction()\n    {\n        $this->dispatch('/index');\n        $this->assertController('index');\n        $this->assertAction('index');\n    }\n}

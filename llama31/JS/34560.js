@@ -1,1 +1,0 @@
-// Client-side (customer's website)\nvar token = 'unique_token_provided_by_you';\n$.ajax({\n    type: 'POST',\n    url: 'https://your-domain.com/endpoint',\n    data: {\n        param1: 'value1',\n        param2: 'value2',\n        token: token\n    }\n});

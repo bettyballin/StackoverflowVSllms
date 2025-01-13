@@ -1,1 +1,0 @@
-VALUES (12654, 'somestuff', 'some description here', 'folder/filename.swf', '5', 0, 1, '', '500', '300', 'folder/filename.png', '3', '1');

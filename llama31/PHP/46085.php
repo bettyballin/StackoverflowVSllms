@@ -1,1 +1,0 @@
-$proxy = new SoapClient('someaddress?wsdl', array('verbose' => 1));

@@ -1,1 +1,0 @@
-SELECT *\nFROM table1\nJOIN table2\nON extract_email(table1.friendly_email) = table2.email;

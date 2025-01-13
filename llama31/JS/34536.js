@@ -1,1 +1,0 @@
-var initialValue = '<ol><li>item1</li><li>item2</li></ol>';\ndocument.getElementById('edit').innerHTML = initialValue;\nnew Ajax.InPlaceEditor('edit', 'url');

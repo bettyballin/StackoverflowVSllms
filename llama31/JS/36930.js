@@ -1,1 +1,0 @@
-window.onbeforeunload = function() {\n    if (...) {\n        return 'Your custom message here';\n    }\n}

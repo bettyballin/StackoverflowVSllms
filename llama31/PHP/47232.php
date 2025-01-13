@@ -1,1 +1,0 @@
-// in database.php\n'tablePrefix' => 'myapp_',

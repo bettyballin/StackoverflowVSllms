@@ -1,1 +1,0 @@
-CREATE TABLE Users (\n    Username nvarchar(256) NOT NULL\n);

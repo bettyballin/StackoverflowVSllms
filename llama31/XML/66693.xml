@@ -1,1 +1,0 @@
-<web-app>\n  ...\n  <security-constraint>\n    <web-resource-collection>\n      <web-resource-name>Entire Application</web-resource-name>\n      <url-pattern>/*</url-pattern>\n    </web-resource-collection>\n    <user-data-constraint>\n      <transport-guarantee>CONFIDENTIAL</transport-guarantee>\n    </user-data-constraint>\n  </security-constraint>\n</web-app>

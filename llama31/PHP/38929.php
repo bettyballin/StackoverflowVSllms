@@ -1,1 +1,0 @@
-function log($msg) {\n    $bt = debug_backtrace();\n    $caller = array_shift($bt);\n    echo "$msg (file: {$caller['file']}, line number: {$caller['line']})";\n}

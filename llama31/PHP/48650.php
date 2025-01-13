@@ -1,1 +1,0 @@
-$browser = get_browser(null, true);\necho $browser['browser'];

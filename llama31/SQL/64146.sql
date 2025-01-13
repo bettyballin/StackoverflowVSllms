@@ -1,1 +1,0 @@
--- Create a trigger to synchronize OfficeID\nCREATE TRIGGER trg_Projects_OfficeID\nAFTER INSERT OR UPDATE ON Projects\nFOR EACH ROW\nBEGIN\n    UPDATE Projects\n    SET OfficeID = (SELECT OfficeID FROM Departments WHERE DepID = NEW.CreatedByID)\n    WHERE ProjectID = NEW.ProjectID;\nEND;

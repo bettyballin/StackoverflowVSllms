@@ -1,1 +1,0 @@
-CREATE FULLTEXT INDEX ON table (column);\n\nSELECT * FROM table WHERE MATCH (column) AGAINST ('search_term' IN NATURAL LANGUAGE MODE);

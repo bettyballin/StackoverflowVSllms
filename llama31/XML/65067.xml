@@ -1,1 +1,0 @@
-<system.web>\n    <httpModules>\n        <add name="ResponseModifier" type="ResponseModifier" />\n    </httpModules>\n</system.web>

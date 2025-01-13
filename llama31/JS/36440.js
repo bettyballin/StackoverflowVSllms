@@ -1,1 +1,0 @@
-function initMap() {\n  const map = new google.maps.Map(document.getElementById("map"), {\n    center: { lat: 37.7749, lng: -122.4194 },\n    zoom: 4\n  });\n\n  locations.forEach(location => {\n    const marker = new google.maps.Marker({\n      position: location,\n      title: location.title,\n      map: map\n    });\n  });\n}

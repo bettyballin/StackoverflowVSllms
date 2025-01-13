@@ -1,1 +1,0 @@
-$domain = "http://www.google.com/docs";\n$parsed_url = parse_url($domain);\nif ($parsed_url['host'] == 'google.com') {\n    echo "yes";\n} else {\n    echo "no";\n}

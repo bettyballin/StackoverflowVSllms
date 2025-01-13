@@ -1,1 +1,0 @@
-interface GatewayInterface\n{\n    public function find($id);\n    public function fetchAll();\n}

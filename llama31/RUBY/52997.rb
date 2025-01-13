@@ -1,1 +1,0 @@
-key = "82pjd12398JKBSDIGUSisahdoahOUASDHsdapdjqwjeASIduAsdh078asdASD087asdADSsdjhA7809asdajhADSs"\ndata = "password"\n\nencrypted_data = MySQLAES.encrypt(data, key)\nputs encrypted_data\n\ndecrypted_data = MySQLAES.decrypt(encrypted_data, key)\nputs decrypted_data

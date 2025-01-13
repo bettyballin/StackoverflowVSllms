@@ -1,1 +1,0 @@
-WITH RECURSIVE interpolated_data AS (\n  SELECT value, received, received AS next_received\n  FROM your_table\n  UNION ALL\n  SELECT i.value, i.received + INTERVAL '1 second', i.next_received\n  FROM interpolated_data i\n  WHERE i.received + INTERVAL '1 second' < i.next_received\n)\nSELECT value, received\nFROM interpolated_data\nORDER BY received;

@@ -1,1 +1,0 @@
-function afterComplete(request, response) {\n    console.log('AJAX request completed');\n    // Your custom logic here\n}

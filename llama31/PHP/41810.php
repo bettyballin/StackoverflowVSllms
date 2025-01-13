@@ -1,1 +1,0 @@
-<a href="#" onclick="<?php echo $this->Js->domReady('$("#flashMessage").fadeOut();'); ?>">Dismiss</a>

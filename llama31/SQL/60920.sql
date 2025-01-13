@@ -1,1 +1,0 @@
-DECLARE @tmpStack TABLE\n(\n  EmployeeID int,\n  ParentID int,\n  LeftExtent int,\n  RightExtent int\n)

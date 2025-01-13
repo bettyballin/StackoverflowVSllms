@@ -1,1 +1,0 @@
-var token = getToken();\n// Pass token in requests to .NET\nfunction getToken() {\n    // Retrieve token from classic ASP or generate a new one\n}

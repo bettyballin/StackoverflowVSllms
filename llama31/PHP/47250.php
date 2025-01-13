@@ -1,1 +1,0 @@
-setcookie('session_id', session_id(), ['httponly' => true, 'secure' => true]);

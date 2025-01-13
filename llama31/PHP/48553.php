@@ -1,1 +1,0 @@
-header('P3P: CP="DEV PSAi NAV STP DEM OTRo NOI IDC DSP COR CURa ADMa OUR IND PHY ONL COM STA" ');\n\nsetcookie('hello', 'poopoo');\n\necho $_COOKIE['hello'];

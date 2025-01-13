@@ -1,1 +1,0 @@
-SELECT valueC\nFROM C\nWHERE EXISTS (\n  SELECT 1\n  FROM B\n  WHERE B.lookupC = C.id\n  AND EXISTS (\n    SELECT 1\n    FROM A\n    WHERE A.lookupB = B.id\n  )\n)

@@ -1,1 +1,0 @@
-from django.urls import path\nfrom . import views\n\nurlpatterns = [\n    path('map/', views.map_view, name='map_view'),\n]

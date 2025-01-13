@@ -1,1 +1,0 @@
-var text = $("#bla span").html().replace(/<[^>]*>/g, '').replace('bla bla bla', '');\n\nconsole.log(text);

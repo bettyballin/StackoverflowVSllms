@@ -1,1 +1,0 @@
-function jsEscape(str) {\n  return str.replace(/\\/g, '\\\\').replace(/'/g, '\\\'').replace(/"/g, '\\"');\n}

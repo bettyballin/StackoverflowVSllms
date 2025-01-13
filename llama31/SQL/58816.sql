@@ -1,1 +1,0 @@
--- Example using a prepared statement with parameterized query\nPREPARE stmt FROM 'SELECT * FROM mytable LIMIT 100 OFFSET ?';\nEXECUTE stmt USING @offset;

@@ -1,1 +1,0 @@
-<?php\n$timestamp = $_GET['timestamp'];\n$messages = array();\n\n// Connect to database and retrieve messages with timestamp > $timestamp\n// ...\n\n// Output the messages as JSON\nheader('Content-Type: application/json');\necho json_encode($messages);\nexit;

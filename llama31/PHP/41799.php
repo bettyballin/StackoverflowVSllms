@@ -1,1 +1,0 @@
-if (!imageResize($imageURL, $maxWidth, $maxHeight)) {\n    // handle error\n}

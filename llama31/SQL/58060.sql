@@ -1,1 +1,0 @@
--- SQL example to create an index on a table\nCREATE INDEX idx_item_name ON items (item_name);

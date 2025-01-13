@@ -1,1 +1,0 @@
-DECLARE @number INT = 1\nSELECT RIGHT(REPLICATE('0', 8) + CONVERT(VARCHAR(8), @number), 8) AS zero_padded_string

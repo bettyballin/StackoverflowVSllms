@@ -1,1 +1,0 @@
-CREATE TRIGGER trg_MyTable_AfterUpdate\nON MyTable\nAFTER UPDATE\nAS\nBEGIN\n    -- Check the data after the update\n    IF EXISTS (SELECT 1 FROM inserted WHERE MyColumn = 'invalid value')\n    BEGIN\n        RAISERROR ('Invalid value', 16, 1);\n        ROLLBACK TRANSACTION;\n    END\nEND;

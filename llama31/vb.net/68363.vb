@@ -1,1 +1,0 @@
-Public Class VbView(Of TModel)\n    Inherits VbView\n\n    Public Property Model As TModel\n\n    Public Overrides Function RenderContent() As XElement\n        ' Your implementation here\n    End Function\nEnd Class

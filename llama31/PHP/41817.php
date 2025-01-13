@@ -1,1 +1,0 @@
-if (!filter_var($_POST['email'], FILTER_VALIDATE_EMAIL)) {\n    $str = "<span style='color: red'>Not a valid email address</span>";\n}

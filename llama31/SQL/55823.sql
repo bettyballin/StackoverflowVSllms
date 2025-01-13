@@ -1,1 +1,0 @@
-SELECT TABLE_NAME, COLUMN_NAME, CHARACTER_SET_NAME \nFROM information_schema.COLUMNS \nWHERE TABLE_SCHEMA = 'your_database_name' \n  AND CHARACTER_SET_NAME = 'latin1';

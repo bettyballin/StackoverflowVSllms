@@ -1,1 +1,0 @@
-<CustomBuildStep>\n  <Command>gcc -o $(OutDir)$(ProjectName).exe $(IntDir)*.o</Command>\n  <Inputs>$(IntDir)*.o</Inputs>\n  <Outputs>$(OutDir)$(ProjectName).exe</Outputs>\n</CustomBuildStep>

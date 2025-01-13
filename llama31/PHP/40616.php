@@ -1,1 +1,0 @@
-$keys = array_keys($_POST);\nforeach ($keys as $key) {\n    echo "Key: $key, Value: $_POST[$key]\n";\n}

@@ -1,1 +1,0 @@
--- Restore with Recovery\nRESTORE DATABASE MyDB\nFROM DISK = 'C:\Backups\MyDB.bak'\nWITH RECOVERY;\n\n-- Restore with No Recovery\nRESTORE DATABASE MyDB\nFROM DISK = 'C:\Backups\MyDB.bak'\nWITH NORECOVERY;\n\n-- Restore with Standby\nRESTORE DATABASE MyDB\nFROM DISK = 'C:\Backups\MyDB.bak'\nWITH STANDBY = 'C:\Standby\MyDB.undo';

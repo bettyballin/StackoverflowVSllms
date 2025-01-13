@@ -1,1 +1,0 @@
-Dim frm As New Form2("Hello, World!")\nfrm.Show()

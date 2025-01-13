@@ -1,1 +1,0 @@
-<Configuration>\n    ...\n    <Service>\n        ...\n        <Security>\n            <Authentication>\n                ...\n            </Authentication>\n            <SSL>\n                <ServerCertificate>...</ServerCertificate>\n                <Protocol>Tls12</Protocol>\n            </SSL>\n        </Security>\n    </Service>\n</Configuration>

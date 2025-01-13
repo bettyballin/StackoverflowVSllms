@@ -1,1 +1,0 @@
-Dim db = New context.MyTable\ndb.SomeField = something\ncontext.InsertOnSubmit(db)\nTry\n    context.SubmitChanges()\nCatch ex As Exception\n    context.GetChangeSet().Inserts.Clear() ' or\n    ' context.Detach(db)\n    ' handle the exception\nEnd Try

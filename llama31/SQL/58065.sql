@@ -1,1 +1,0 @@
-CREATE VIEW searchable_data AS\nSELECT 'tenants' AS table_name, id, name, email\nFROM tenants\nUNION ALL\nSELECT 'landlords', id, name, email\nFROM landlords\nUNION ALL\nSELECT 'units', id, name, description\nFROM units\nUNION ALL\nSELECT 'properties', id, name, address\nFROM properties\nUNION ALL\nSELECT 'vendors-contacts', id, name, email\nFROM vendors-contacts;

@@ -1,1 +1,0 @@
-$message ="<html><body> \n  <table>\n    <tr>\n      <td>HELLO</td>\n    </tr>\n    <tr>\n      <td><a href='http://yourdomain.com/update.php?email=$email'>Update Table</a></td>\n    </tr>\n  </table>\n</body></html>";

@@ -1,1 +1,0 @@
-<system.runtime.remoting>\n  <application>\n    <channels>\n      <channel ref="http" useDefaultCredentials="true" />\n    </channels>\n  </application>\n</system.runtime.remoting>

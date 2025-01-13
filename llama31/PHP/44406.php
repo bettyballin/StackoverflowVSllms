@@ -1,1 +1,0 @@
-$xml->addChild('error', 'Email address invalid');

@@ -1,1 +1,0 @@
-$endsWith = substr_compare($str, $test, -strlen($test)) === 0;

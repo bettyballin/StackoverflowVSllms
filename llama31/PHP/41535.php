@@ -1,1 +1,0 @@
-<?php\ninclude("include.inc");\necho trim(ob_get_clean(), "\xef\xbb\xbf");\n?>

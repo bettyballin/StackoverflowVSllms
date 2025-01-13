@@ -1,1 +1,0 @@
-sprintf("SELECT robot FROM robots WHERE robot LIKE '%%%s%%'", strtolower($user_agent));

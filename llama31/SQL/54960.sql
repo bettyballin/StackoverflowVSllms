@@ -1,1 +1,0 @@
-CREATE TABLE MessageLocks (\n    MessageId nvarchar(255) PRIMARY KEY\n);

@@ -1,1 +1,0 @@
-$conn = NewADOConnection('access');\n$conn->Connect($db_path, '', '', 'utf8');

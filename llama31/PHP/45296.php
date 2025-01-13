@@ -1,1 +1,0 @@
-$apiKey = 'YOUR_API_KEY';\n$ipAddress = '8.8.8.8';\n$url = "https://api.ip2location.com/v1/?key=$apiKey&ip=$ipAddress&format=json";\n$json = json_decode(file_get_contents($url), true);\necho $json['latitude'] . ', ' . $json['longitude'];

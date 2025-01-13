@@ -1,1 +1,0 @@
-// Using $_SERVER\n$headerValue = $_SERVER['HTTP_X_REQUESTED_WITH'];\n\n// Using getallheaders()\n$headers = getallheaders();\n$headerValue = $headers['X-Requested-With'];

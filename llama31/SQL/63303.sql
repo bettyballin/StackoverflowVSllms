@@ -1,1 +1,0 @@
-EXEC GetApplications '33,234';

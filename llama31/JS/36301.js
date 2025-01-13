@@ -1,1 +1,0 @@
-document.getElementById('clickable-div').addEventListener('click', function() {\n  // your JavaScript function here\n  alert('Clicked!');\n});

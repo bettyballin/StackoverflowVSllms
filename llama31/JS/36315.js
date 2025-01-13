@@ -1,1 +1,0 @@
-this.whereAreWe = document.getElementById('where_are_we');\nthis.whereAreWe.onclick = function() {\n  // your code here\n  return false;\n};

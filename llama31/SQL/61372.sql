@@ -1,1 +1,0 @@
-ALTER TABLE your_table_name\nDROP COLUMN colA5;\nALTER TABLE your_table_name\nDROP COLUMN colA6;\n\nALTER TABLE your_table_name\nADD colA5 your_data_type;\nALTER TABLE your_table_name\nADD colA6 your_data_type;

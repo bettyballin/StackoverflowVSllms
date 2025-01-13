@@ -1,1 +1,0 @@
-SELECT \n    t1.rowInt, \n    t1.Value, \n    t1.Value - t2.Value AS Diff\nFROM \n    myTable t1\nLEFT JOIN \n    myTable t2 ON t1.rowInt = (SELECT MIN(rowInt) FROM myTable WHERE rowInt > t2.rowInt)\nORDER BY \n    t1.rowInt;

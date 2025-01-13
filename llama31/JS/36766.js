@@ -1,1 +1,0 @@
-const originalText = '<p>This is a <_o3a_p>test</_o3a_p> paragraph.</p>';\nconst cleanedText = originalText.replace(/<\/?_o3a_p>/g, '');\nconsole.log(cleanedText); // outputs: <p>This is a test paragraph.</p>

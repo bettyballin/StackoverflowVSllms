@@ -1,1 +1,0 @@
-if (Page_ClientValidate()) {\n    // Page is valid\n} else {\n    // Page is not valid\n}

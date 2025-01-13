@@ -1,1 +1,0 @@
-$actionStack = Zend_Controller_Action_HelperBroker::getStaticHelper('actionStack');\n$actions = $actionStack->getStack();\n\nforeach ($actions as $action) {\n    echo $action->getActionName() . "\n";\n}

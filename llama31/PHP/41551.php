@@ -1,1 +1,0 @@
-$connectionString = "DRIVER={SQL Server};SERVER=$serverName;DATABASE=$databaseName;UID=$username;PWD=$password";

@@ -1,1 +1,0 @@
-var_dump(is_int('123'));  // bool(false)\nvar_dump(ctype_digit('123'));  // bool(true)\n\nvar_dump(is_int(123));  // bool(true)\nvar_dump(ctype_digit(123));  // Error: ctype_digit() expects parameter 1 to be string, int give

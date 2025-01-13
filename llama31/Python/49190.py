@@ -1,1 +1,0 @@
-ingredients_list = [i.text for i in ingredients]

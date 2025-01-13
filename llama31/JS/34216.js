@@ -1,1 +1,0 @@
-document.getElementById("View").value = "@Model.View";

@@ -1,1 +1,0 @@
-$conn = mysql_connect('localhost:3309', 'newuser', 'newpassword');

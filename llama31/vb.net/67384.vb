@@ -1,1 +1,0 @@
-Sub sendmsg()\n    Dim msg As Byte()\n    MsgBox(myip.ToString)\n    sclient = New UdpClient(port)\n    sclient.EnableBroadcast = True\n    msg = Encoding.ASCII.GetBytes(txtmsg.Text)\n    sclient.Send(msg, msg.Length, iep)\n    sclient.Close()\n    txtmsg.Clear()\nEnd Sub

@@ -1,1 +1,0 @@
-$array = [...]; // your big array\n$value = 'ValueToSearch'; // value to search for\n\n$found = false;\nforeach ($array as $item) {\n    if (strtolower($item) === strtolower($value)) {\n        $found = true;\n        break;\n    }\n}\n\nif ($found) {\n    echo "Value found";\n} else {\n    echo "Value not found";\n}

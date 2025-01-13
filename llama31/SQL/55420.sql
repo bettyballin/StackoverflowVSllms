@@ -1,1 +1,0 @@
--- Enable row-level locking\nALTER TABLE mytable SET (LOCK_MODE = 'ROW');\n\n-- Use SELECT FOR SHARE to allow concurrent reads\nSELECT * FROM mytable FOR SHARE;

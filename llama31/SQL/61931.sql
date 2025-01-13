@@ -1,1 +1,0 @@
-UPDATE your_table\nSET your_column = UPPER(SUBSTR(your_column, 1, 2)) || LTRIM(SUBSTR(your_column, 3))

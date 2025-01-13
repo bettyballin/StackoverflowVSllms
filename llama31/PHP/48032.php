@@ -1,1 +1,0 @@
-$result = $mysqli->query("SELECT * FROM information_schema.user_privileges WHERE PRIVILEGE_TYPE = 'CREATE' AND PRIVILEGE_LEVEL = 'DATABASE'");\nif ($result->num_rows > 0) {\n    // user has create database privilege\n} else {\n    // hide "Create database" button from UI\n}

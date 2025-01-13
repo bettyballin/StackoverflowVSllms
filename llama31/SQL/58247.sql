@@ -1,1 +1,0 @@
-SELECT \n    CASE \n        WHEN divisor_column = 0 THEN NULL \n        ELSE dividend_column / divisor_column \n    END AS result\nFROM your_table;

@@ -1,1 +1,0 @@
-$suspend_data = 'aG1111111000000000BB001EC%2EacC%7E%24GS%2AayjHm110BKCBBB0B0EBAB1B1ED%2EicC%7E%24GS%2AlfkHm110BKDBCB0B0EBBB0B0EBAB1B1EE%2EwcC%7E%24GS%2ACBlHm100BKDB2BCBCDB1BABBDB0BBBADF%2E7cC%7E%24GS%2A4GmHm110BKBB0Ebl%C3%A1rRbl%C3%A1r%3Bgr%C3%A6nn%3Brau%C3%B0urB';\n\n$decoded_data = urldecode($suspend_data);\n$decoded_data = base64_decode($decoded_data);\n\necho $decoded_data;

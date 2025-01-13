@@ -1,1 +1,0 @@
-function getUsername() {\n    return filter_var($this->username, FILTER_SANITIZE_STRING);\n}

@@ -1,1 +1,0 @@
-var hiddenValue = $('#hiddenId').attr('value');\nvar encodedValue = htmlEncode(hiddenValue);

@@ -1,1 +1,0 @@
-SELECT * FROM table INNER JOIN otherTable ON table.ID = otherTable.FK

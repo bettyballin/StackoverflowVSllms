@@ -1,1 +1,0 @@
-SELECT \n  department_id,\n  salary,\n  ROW_NUMBER() OVER (PARTITION BY department_id ORDER BY salary DESC) AS row_num\nFROM \n  employees;

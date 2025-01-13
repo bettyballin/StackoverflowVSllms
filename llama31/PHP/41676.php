@@ -1,1 +1,0 @@
-class Customer {\n    private $orm;\n\n    public function __construct() {\n        $this->orm = new ORM();\n    }\n\n    public function save() {\n        $this->orm->save($this);\n    }\n\n    // other methods...\n}

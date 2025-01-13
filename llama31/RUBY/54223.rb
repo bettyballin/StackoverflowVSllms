@@ -1,1 +1,0 @@
-describe User do\n  it 'has a valid name' do\n    user = FactoryGirl.create(:user)\n    expect(user.name).to eq('John Doe')\n  end\nend

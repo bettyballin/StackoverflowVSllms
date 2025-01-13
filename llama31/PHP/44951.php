@@ -1,1 +1,0 @@
-$ch = curl_init('https://example.com');\ncurl_setopt($ch, CURLOPT_RETURNTRANSFER, true);\ncurl_setopt($ch, CURLOPT_POST, true);\ncurl_setopt($ch, CURLOPT_POSTFIELDS, $var);\ncurl_setopt($ch, CURLOPT_HTTPHEADER, array('x-example-info: 2342342'));\n$response = curl_exec($ch);\ncurl_close($ch);

@@ -1,1 +1,0 @@
-CREATE PROCEDURE GetCustomers\n    @Country nvarchar(50)\nWITH RECOMPILE\nAS\nBEGIN\n    SELECT * FROM Customers\n    WHERE Country = @Country\nEND

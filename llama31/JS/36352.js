@@ -1,1 +1,0 @@
-Sys.Application.add_load(function() {\n    // Re-initialize the UpdatePanel\n    UpdatePanel1.Update();\n});

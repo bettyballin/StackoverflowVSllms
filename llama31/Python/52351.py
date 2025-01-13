@@ -1,1 +1,0 @@
-import os\nos.environ["PATH"] += ":/usr/local/bin"  # assuming dot is in /usr/local/bi

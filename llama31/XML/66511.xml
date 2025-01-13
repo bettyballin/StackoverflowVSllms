@@ -1,1 +1,0 @@
-<servlet>\n    <servlet-name>ExternalFileServlet</servlet-name>\n    <servlet-class>com.example.ExternalFileServlet</servlet-class>\n</servlet>\n<servlet-mapping>\n    <servlet-name>ExternalFileServlet</servlet-name>\n    <url-pattern>/ExternalFileServlet</url-pattern>\n</servlet-mapping>

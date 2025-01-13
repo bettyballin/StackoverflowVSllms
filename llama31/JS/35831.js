@@ -1,1 +1,0 @@
-const WebSocket = require('ws');\nconst wss = new WebSocket.Server({ port: 8080 });\n\n// Broadcast timestamp to all connected clients every second\nsetInterval(() => {\n  const timestamp = Date.now();\n  wss.clients.forEach((client) => {\n    client.send(timestamp.toString());\n  });\n}, 1000);

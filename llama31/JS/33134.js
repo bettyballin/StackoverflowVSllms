@@ -1,1 +1,0 @@
-// pages/index.js\nimport React from 'react';\n\nfunction HomePage() {\n  return (\n    <div>\n      <h1>Welcome to my homepage!</h1>\n      <p>This is a paragraph of text.</p>\n    </div>\n  );\n}\n\nexport default HomePage;

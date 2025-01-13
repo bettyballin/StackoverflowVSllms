@@ -1,1 +1,0 @@
-CREATE INDEX idx_ProjectTransaction_RefEmployeeID_RefProjectID_Date \nON ProjectTransaction (RefEmployeeID, RefProjectID, Date);

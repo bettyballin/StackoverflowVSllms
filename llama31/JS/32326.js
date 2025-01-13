@@ -1,1 +1,0 @@
-var ArticleVote = {\n  submitVote: function(vote) {\n    // code to handle vote submission\n  }\n};

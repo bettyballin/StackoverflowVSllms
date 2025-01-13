@@ -1,1 +1,0 @@
-// Calendar.aspx\n<asp:Calendar ID="Calendar1" runat="server"></asp:Calendar>\n\n// JavaScript code to interact with the calendar\n<script type="text/javascript">\n    $(document).ready(function () {\n        $('#Calendar1').datepicker();\n    });\n</script>

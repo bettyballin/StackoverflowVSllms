@@ -1,1 +1,0 @@
-SELECT parent, child, \n       sys_connect_by_path((SELECT description FROM t1 WHERE id = child), '/') as "path"\nFROM t2\nCONNECT BY PRIOR parent = child

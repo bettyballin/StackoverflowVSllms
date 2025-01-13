@@ -1,1 +1,0 @@
-use GuzzleHttp\Client;\n\n$client = new Client();\n$response = $client->get($url, [\n    'headers' => [\n        'User-Agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.110 Safari/537.3',\n    ],\n]);\n\n$pageContent = $response->getBody()->getContents();

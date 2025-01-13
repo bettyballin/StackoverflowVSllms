@@ -1,1 +1,0 @@
-// Add this before your fadeIn/fadeOut calls\nif ($.browser.msie) {\n  $('#yourDivId').css({\n    'filter': 'alpha(opacity=50)'\n  });\n}\n\n// Then, use fadeIn/fadeOut as usual\n$('#yourDivId').fadeIn();

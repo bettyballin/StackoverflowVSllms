@@ -1,1 +1,0 @@
-$openid = new Auth_OpenID_Consumer($store);\n$auth_request = $openid->begin($openid_url);\n\n$normalized_url = $auth_request->getNormalizedUrl();

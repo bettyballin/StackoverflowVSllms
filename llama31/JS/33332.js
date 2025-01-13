@@ -1,1 +1,0 @@
-if (location.protocol === 'https:') {\n    console.log('The page is encrypted');\n} else {\n    console.log('The page is not encrypted');\n}

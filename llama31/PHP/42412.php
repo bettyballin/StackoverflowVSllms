@@ -1,1 +1,0 @@
-// In your controller\npublic function beforeFilter() {\n    parent::beforeFilter();\n    $this->components['Session']->setFlash(__d('my_plugin', 'The user has been saved'));\n}

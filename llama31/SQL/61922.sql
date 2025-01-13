@@ -1,1 +1,0 @@
-ALTER TABLE table_name\nCOLLATE new_collation_name;

@@ -1,1 +1,0 @@
-SELECT *\nFROM your_table\nWHERE time BETWEEN DATE_FORMAT(NOW(), '%Y-%m-%d %H:%i:00') AND DATE_FORMAT(NOW(), '%Y-%m-%d %H:%i:59');

@@ -1,1 +1,0 @@
-Function EscapeSpecialChars(input As String) As String\n    Return input.Replace("'", "''")\nEnd Functio

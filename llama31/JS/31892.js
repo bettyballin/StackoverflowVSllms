@@ -1,1 +1,0 @@
-// In the parent page\nvar iframe = document.getElementById("some_iframe_id");\niframe.contentWindow.postMessage("Hello, iframe!", "*");\n\n// In the iframe\nwindow.addEventListener("message", function(event) {\n  if (event.data === "Hello, iframe!") {\n    // Do something with the iframe's content\n    var iframeContent = document.body.innerHTML;\n    // ...\n  }\n});

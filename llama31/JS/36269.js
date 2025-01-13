@@ -1,1 +1,0 @@
-var screenWidth = screen.width;\nvar screenHeight = screen.height;\nvar thickboxWidth = Math.floor(screenWidth * 0.75);\nvar thickboxHeight = Math.floor(screenHeight * 0.75);\n\n// Use thickboxWidth and thickboxHeight to set the size of your thickbox

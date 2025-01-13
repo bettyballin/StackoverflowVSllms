@@ -1,1 +1,0 @@
-// test5.php\ninclude 'test.php';\n\nclass test1 {\n    public function test2() {\n        echo CONFIG_KEY_SECURITY;\n    }\n}

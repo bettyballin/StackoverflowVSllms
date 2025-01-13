@@ -1,1 +1,0 @@
-require_once 'HTMLPurifier.auto.php';\n$config = HTMLPurifier_Config::createDefault();\n$purifier = new HTMLPurifier($config);\n$text = substr($purifier->purify($original_text), 0, 50);

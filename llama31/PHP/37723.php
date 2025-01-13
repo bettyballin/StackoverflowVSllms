@@ -1,1 +1,0 @@
-$votes = $_POST['vote'];\n$row_ids = $_POST['row_id'];\nforeach ($votes as $index => $vote) {\n    $row_id = $row_ids[$index];\n    echo "Row $row_id: $vote\n";\n}

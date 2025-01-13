@@ -1,1 +1,0 @@
-$string = '<p>I have a CMS with a WYSIWYG editor...</p>'; // your input string\n\n$pattern = '/<(p|ul|ol)>(.*?)<\/\1>/s';\n\npreg_match_all($pattern, $string, $matches);\n\nforeach ($matches[2] as $match) {\n    echo $match . "\n";\n}

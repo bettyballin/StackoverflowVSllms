@@ -1,1 +1,0 @@
-$GLOBALS['screen'] = "list1.inc"; // From model.php\nrequire "controller.php"; // From model.php\ninitSession(); // From controller.php\n\n// In Include.Session.inc\n$screen = $GLOBALS['screen'];\n\n// Later, in model2.php\n$GLOBALS['screen'] = "delete1.inc";\nrequire "controller2.php";\ninitSession();

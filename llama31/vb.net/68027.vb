@@ -1,1 +1,0 @@
-Private Sub DGUserBets_CellEndEdit(sender As Object, e As DataGridViewCellEventArgs) Handles DGUserBets.CellEndEdit\n    Dim combo As ComboBox = CType(DGUserBets.EditingControl, ComboBox)\n    If combo IsNot Nothing Then\n        RemoveHandler combo.SelectedIndexChanged, AddressOf DGUBStake_SelectedIndexChanged\n    End If\nEnd Sub

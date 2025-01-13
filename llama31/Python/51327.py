@@ -1,1 +1,0 @@
-def anonymize_chatbot_training_data(data):\n    # Anonymize data by removing PII\n    anonymized_data = remove_pii(data)\n    return anonymized_data

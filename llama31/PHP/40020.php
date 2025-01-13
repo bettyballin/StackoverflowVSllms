@@ -1,1 +1,0 @@
-$wgDBssl = true;\n$wgDBsslCAPath = 'C:/newcerts/ca-cert.pem';\n$wgDBsslCertPath = 'C:/newcerts/server-cert.pem';\n$wgDBsslKeyPath = 'C:/newcerts/server-key.pem';

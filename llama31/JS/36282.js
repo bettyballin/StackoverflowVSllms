@@ -1,1 +1,0 @@
-var html = document.documentElement.outerHTML;\nvar doctype = document.doctype.name + ' ' + document.doctype.publicId + ' ' + document.doctype.systemId;\n\nvar formData = new FormData();\nformData.append('fragment', doctype + '\n' + html);\n\nvar xhr = new XMLHttpRequest();\nxhr.open('POST', 'https://validator.w3.org/nu/', true);\nxhr.send(formData);

@@ -1,1 +1,0 @@
-// Set a cookie using JavaScript\ndocument.cookie = "js_enabled=true";

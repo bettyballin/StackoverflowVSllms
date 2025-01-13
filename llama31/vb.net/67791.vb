@@ -1,1 +1,0 @@
-clientId = GenerateClientId()\nResponse.Write "Client ID: " & clientId

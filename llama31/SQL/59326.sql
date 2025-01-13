@@ -1,1 +1,0 @@
-CREATE TABLE login_attempts (\n  id INT PRIMARY KEY AUTO_INCREMENT,\n  username VARCHAR(255) NOT NULL,\n  attempt_timestamp TIMESTAMP NOT NULL DEFAULT CURRENT_TIMESTAMP,\n  attempt_count INT NOT NULL DEFAULT 1,\n  last_attempt_ip VARCHAR(255)\n);

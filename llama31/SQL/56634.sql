@@ -1,1 +1,0 @@
-SELECT strftime('%Y-%m-%d %H:%M:%S', timestamp, 'utc-6') AS timestamp_cst\nFROM your_table;

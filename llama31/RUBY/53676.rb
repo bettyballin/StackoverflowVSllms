@@ -1,1 +1,0 @@
-# spec/models/user_spec.rb\nrequire 'shoulda'\n\nclass UserSpec < ActiveSupport::TestCase\n  context 'validations' do\n    should 'be valid with a name and email' do\n      user = FactoryGirl.build(:user)\n      assert user.valid?\n    end\n\n    should 'be invalid without a name' do\n      user = FactoryGirl.build(:user, name: nil)\n      refute user.valid?\n    end\n  end\nend

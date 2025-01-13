@@ -1,1 +1,0 @@
-var myimages=new Array()\nmyimages[1]="http://sevir.sitegoz.com/jchs/Banner1.png"\nmyimages[2]="http://sevir.sitegoz.com/jchs/banner2.png"\nmyimages[3]="http://sevir.sitegoz.com/jchs/banner3.png"\nmyimages[4]="http://sevir.sitegoz.com/jchs/banner4.png"\nmyimages[5]="http://sevir.sitegoz.com/jchs/banner5.png"\nmyimages[6]="http://sevir.sitegoz.com/jchs/banner6.png"

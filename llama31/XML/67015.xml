@@ -1,1 +1,0 @@
-<filter>\n    <filter-name>JSPIncludeDetectorFilter</filter-name>\n    <filter-class>com.example.JSPIncludeDetectorFilter</filter-class>\n</filter>\n\n<filter-mapping>\n    <filter-name>JSPIncludeDetectorFilter</filter-name>\n    <url-pattern>/menu/*</url-pattern>\n</filter-mapping>

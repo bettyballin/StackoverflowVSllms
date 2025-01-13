@@ -1,1 +1,0 @@
-if (!isset($var)) {\n    // $var does not exist\n}\n\nif ($var === NULL) {\n    // $var is NULL\n}

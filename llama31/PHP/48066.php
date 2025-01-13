@@ -1,1 +1,0 @@
-// In your PHP script\n$url = 'projects'; // or any other value\n$data = array('url' => $url);\necho json_encode($data);

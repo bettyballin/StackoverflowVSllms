@@ -1,1 +1,0 @@
-document.getElementById('yourInputId').addEventListener('touchstart', function(event) {\n  event.preventDefault();\n}, false);

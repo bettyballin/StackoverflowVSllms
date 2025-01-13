@@ -1,1 +1,0 @@
-SELECT [key] AS someValue\nFROM YourTable\nWHERE [key] NOT IN (\n    SELECT [key]\n    FROM CONTAINSTABLE(YourTable, columnName, 'thisWord')\n)

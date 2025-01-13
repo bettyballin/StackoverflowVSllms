@@ -1,1 +1,0 @@
-CREATE TABLE FOO (\n  id INT PRIMARY KEY,\n  fruit_list VARCHAR(255)\n);\n\nINSERT INTO FOO (id, fruit_list) VALUES (1, 'apple,banana,orange');

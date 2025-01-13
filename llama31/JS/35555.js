@@ -1,1 +1,0 @@
-loadContent('/proxy/about/dh.php?ajax=yes', 'col2_2_content');

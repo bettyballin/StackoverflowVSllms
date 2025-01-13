@@ -1,1 +1,0 @@
-INSERT INTO #WorkTable (column1, column2)\nSELECT column1, column2\nFROM Table1\nINNER JOIN Table2 ON Table1.column3 = Table2.column3\nOPTION (RECOMPILE);

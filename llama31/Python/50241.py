@@ -1,1 +1,0 @@
-import csv\n\nHEADERS = ["name", "label", "value"]\nfileH = open('configFile')\nreader = csv.reader(fileH)\n\n# Check if headers match\nheaders = next(reader)\nif headers != HEADERS:\n    raise ValueError("Headers do not match")\n\nfor row in reader:\n    if len(row) != len(HEADERS):\n        raise ValueError("Missing fields in row: {}".format(row))\n\nfileH.close()

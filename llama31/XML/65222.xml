@@ -1,1 +1,0 @@
-<system.web>\n    <sessionState mode="Custom" customProvider="CompanySessionStateModule">\n        <providers>\n            <add name="CompanySessionStateModule" type="YourNamespace.CompanySessionStateModule" />\n        </providers>\n    </sessionState>\n</system.web>

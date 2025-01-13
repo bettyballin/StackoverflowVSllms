@@ -1,1 +1,0 @@
-DECLARE @temp TABLE (...);\n\nDECLARE @SQL1 nvarchar(max) = 'INSERT INTO @temp SELECT * WHERE ...';\nEXEC sp_executesql @SQL1, N'@temp TABLE(...)', @temp;\n\nSELECT * FROM @temp;

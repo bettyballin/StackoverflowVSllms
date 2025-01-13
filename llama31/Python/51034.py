@@ -1,1 +1,0 @@
-dx = (N / 2) * math.cos(theta)\ndy = (N / 2) * math.sin(theta)

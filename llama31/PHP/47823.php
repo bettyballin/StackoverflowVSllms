@@ -1,1 +1,0 @@
-function custom_preview_link($link, $post) {\n    // Get the custom preview link from the post meta\n    $custom_preview_link = get_post_meta($post->ID, 'custom_preview_link', true);\n    if ($custom_preview_link) {\n        return $custom_preview_link;\n    }\n    return $link;\n}\nadd_filter('preview_post_link', 'custom_preview_link', 10, 2);

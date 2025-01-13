@@ -1,1 +1,0 @@
-DECLARE\n  l_input_string VARCHAR2(4000) := '1,2,3,4,5';\n  l_array SYS.DBMS_UTILITY.LNAME_ARRAY;\n\nBEGIN\n  SELECT REGEXP_SUBSTR(l_input_string, '[^,]+', 1, LEVEL)\n  BULK COLLECT INTO l_array\n  FROM DUAL\n  CONNECT BY LEVEL <= REGEXP_COUNT(l_input_string, ',') + 1;\n\n  FOR i IN 1..l_array.COUNT LOOP\n    DBMS_OUTPUT.PUT_LINE(l_array(i));\n  END LOOP;\nEND;

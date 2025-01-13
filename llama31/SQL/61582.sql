@@ -1,1 +1,0 @@
-// Previous week\nSELECT *\nFROM your_table\nWHERE YEARWEEK(ADDDATE(CURDATE(), INTERVAL -7 DAY)) = YEARWEEK(your_date_column);\n\n// Next week\nSELECT *\nFROM your_table\nWHERE YEARWEEK(ADDDATE(CURDATE(), INTERVAL 7 DAY)) = YEARWEEK(your_date_column);

@@ -1,1 +1,0 @@
-SELECT \n  CONVERT_TZ(date_time_posting, 'server_timezone', 'your_local_timezone') AS date_time_posting\nFROM \n  table \nWHERE \n  FROM_UNIXTIME(CONVERT_TZ(date_time_posting, 'server_timezone', 'your_local_timezone'), '%d-%m-%Y') = '$c_day_date'

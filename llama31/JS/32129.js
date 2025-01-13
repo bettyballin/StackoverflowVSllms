@@ -1,1 +1,0 @@
-const userInput = req.body.userInput;\n   const sanitizedInput = userInput.replace(/</g, '&lt;').replace(/>/g, '&gt;');

@@ -1,1 +1,0 @@
-EXEC InsertMasterAndSlave 'master a', 'slave aa';\nEXEC InsertMasterAndSlave 'master a', 'slave bb';\nEXEC InsertMasterAndSlave 'master b', 'slave cc';\nEXEC InsertMasterAndSlave 'master b', 'slave dd';

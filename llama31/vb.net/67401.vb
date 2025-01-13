@@ -1,1 +1,0 @@
-' Example of XML literals in VB.NET\nDim customerXml = <customer>\n                      <name>John Doe</name>\n                      <age>30</age>\n                  </customer>\nConsole.WriteLine(customerXml.ToString())

@@ -1,1 +1,0 @@
-# Good practice\nobj = "Hello"\nputs obj.class  # Output: String\n\n# Bad practice (deprecated and may not work)\nobj = "Hello"\nputs obj.type   # Output: undefined method `type' for "Hello":String

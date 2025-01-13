@@ -1,1 +1,0 @@
-def anagram_signature(word)\n  word.chars.sort.join.gsub(/(.)\1*/) { $1 + $&.size.to_s }\nend

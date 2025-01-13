@@ -1,1 +1,0 @@
-CREATE TABLE example_table (\n    double_value BINARY_DOUBLE\n);

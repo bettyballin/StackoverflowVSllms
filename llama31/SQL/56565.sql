@@ -1,1 +1,0 @@
--- create a new database role\nCREATE ROLE [YourRoleName] AUTHORIZATION [dbo];\n\n-- add the NT login to the role\nALTER ROLE [YourRoleName] ADD MEMBER [NT_domain\username];

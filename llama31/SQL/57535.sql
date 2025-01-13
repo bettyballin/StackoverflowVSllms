@@ -1,1 +1,0 @@
-SELECT *\nFROM Data\nWHERE (observation_id, element_id) IN (\n  SELECT observation_id, element_id\n  FROM Data\n  GROUP BY observation_id, element_id\n  HAVING COUNT(*) > 1\n)

@@ -1,1 +1,0 @@
-if ($this->bln_added == false) {\n    if (isset($_POST['submit'])) {\n        // Process form data here\n        // ...\n\n        // Redirect to a new page using GET\n        header('Location: ' . $_SERVER['PHP_SELF']);\n        exit;\n    }\n}

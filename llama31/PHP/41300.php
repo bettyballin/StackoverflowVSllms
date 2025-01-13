@@ -1,1 +1,0 @@
-$tx = 0; // or $tx = ''; or $tx = false;\n\nif ($tx) {\n    // This will not be executed because 0, '', and false are considered falsy\n}\n\nif (isset($tx)) {\n    // This will be executed because $tx is set, even if its value is falsy\n}

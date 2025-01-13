@@ -1,1 +1,0 @@
-<!-- Example of using history.pushState() -->\n<a href="#" onclick="navigateToPage('newPage.html')">Go to new page</a>\n\n<script>\nfunction navigateToPage(url) {\n  // Update the URL using history.pushState()\n  history.pushState(null, null, url);\n  \n  // Update the content of the main frame\n  mainFrame.document.location.href = url;\n}\n</script>

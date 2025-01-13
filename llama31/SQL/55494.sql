@@ -1,1 +1,0 @@
-SELECT a1.id, COUNT(a2.id) AS count\nFROM tableA AS a1\nLEFT JOIN tableA AS a2 ON a2.value < a1.id\nWHERE a1.id < 5\nGROUP BY a1.id;

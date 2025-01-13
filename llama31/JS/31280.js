@@ -1,1 +1,0 @@
-document.querySelector('a').addEventListener('click', function(event) {\n  event.preventDefault();\n  alert('Hello!');\n});

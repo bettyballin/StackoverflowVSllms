@@ -1,1 +1,0 @@
-SELECT \n    DateColumn,\n    CASE \n        WHEN MONTH(DateColumn) < 8 THEN \n            CONVERT(VARCHAR, YEAR(DateColumn) - 1) + '/' + CONVERT(VARCHAR, YEAR(DateColumn))\n        ELSE \n            CONVERT(VARCHAR, YEAR(DateColumn)) + '/' + CONVERT(VARCHAR, YEAR(DateColumn) + 1)\n    END AS AcademicYear\nFROM YourTable

@@ -1,1 +1,0 @@
-DECLARE @MyTable TABLE (column1 int, column2 varchar(50));

@@ -1,1 +1,0 @@
-import html\n\ncode = "<script>alert('XSS');</script>"\nencoded_code = html.escape(code)\n\nprint(f"<pre><code>{encoded_code}</code></pre>")

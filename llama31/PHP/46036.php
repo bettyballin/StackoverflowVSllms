@@ -1,1 +1,0 @@
-$current = mysqli_fetch_assoc(mysqli_query($db, "SELECT * from `tbl_user` WHERE `userid` = '".$_GET['userid']."'"));\n$currentperms  = mysqli_fetch_assoc(mysqli_query($db, "SELECT * from `tbl_perms` WHERE `userid` = '".$_GET['userid']."'"));

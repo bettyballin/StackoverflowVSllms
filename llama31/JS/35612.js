@@ -1,1 +1,0 @@
-document.getElementById('editable-div').addEventListener('click', function() {\n  this.focus();\n});

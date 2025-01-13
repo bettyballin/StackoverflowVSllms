@@ -1,1 +1,0 @@
-usort($locations, array('Interpolator', 'sortByDistance'));

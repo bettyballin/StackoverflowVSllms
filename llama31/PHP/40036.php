@@ -1,1 +1,0 @@
-<?php\n// ...\n\n// Exit the script\nexit();

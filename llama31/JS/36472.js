@@ -1,1 +1,0 @@
-$.ajax({\n    type: 'POST',\n    url: 'ajax_handler.php',\n    data: { action: 'myMethod' },\n    dataType: 'json',\n    success: function(data) {\n        console.log(data.message);\n    }\n});

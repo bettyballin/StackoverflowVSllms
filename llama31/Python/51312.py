@@ -1,1 +1,0 @@
-def painless_algorithm_analysis():\n    print("Start with the basics")\n    print("Practice regularly")\n    print("Gradually move on to advanced topics")\n    return "Painless algorithm analysis achieved!"

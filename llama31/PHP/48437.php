@@ -1,1 +1,0 @@
-function is_logged_in() {\n    return isset($_SESSION['username']) && !empty($_SESSION['username']);\n}\n\nfunction require_login() {\n    if (!is_logged_in()) {\n        header('Location: login.php');\n        exit;\n    }\n}

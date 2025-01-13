@@ -1,1 +1,0 @@
-public function query($queryString)\n{\n    if (!$this->_connected) $this->_connectToDb(); //connect to database\n\n    $results = $this->_dbLink->query($queryString) or trigger_error($this->_dbLink->error);\n\n    $array = [];\n    while ($row = $results->fetch_array(MYSQLI_ASSOC)) {\n        $array[] = $row;\n    }\n    return $array;\n}

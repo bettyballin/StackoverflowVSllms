@@ -1,1 +1,0 @@
-document.getElementById(option).innerHTML = "<label onclick=\"updateInfo('edit', 'qualification', "+data_id+", '"+data+"')\">"+data+"</label>";

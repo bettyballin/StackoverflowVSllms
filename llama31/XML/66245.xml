@@ -1,1 +1,0 @@
-<system.net>\n    <connectionManagement>\n        <add address="*" maxconnection="100"/>\n    </connectionManagement>\n    <threadPoolSettings maxWorkerThreads="100" maxIoThreads="100"/>\n</system.net>

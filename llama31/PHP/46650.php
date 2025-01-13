@@ -1,1 +1,0 @@
-$cacheDir = 'path/to/cache';\nif (!is_writable($cacheDir)) {\n    die('Cache directory is not writable');\n}

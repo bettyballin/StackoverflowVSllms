@@ -1,1 +1,0 @@
-import { Editor } from 'slate';\n\nconst editor = new Editor({\n  placeholder: 'Type here...',\n  toolbar: [\n    { type: 'bold' },\n    { type: 'italic' },\n    { type: 'underline' },\n    { type: 'bulleted-list' },\n    { type: 'numbered-list' },\n    { type: 'link' }\n  ]\n});

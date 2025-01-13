@@ -1,1 +1,0 @@
-function SomeFunction($data) {\n    var_dump($data);\n}\n\n// Assume $_POST is empty\nSomeFunction($_POST ? $_POST : array());

@@ -1,1 +1,0 @@
-use Zend_Session;\n\n// ...\n\n$sessionId = $_POST['session_id'];\nZend_Session::setId($sessionId);\nZend_Session::start();

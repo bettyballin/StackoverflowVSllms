@@ -1,1 +1,0 @@
-SELECT \n  IF(@prev_year != year, year, '') AS year,\n  quarter,\n  total,\n  @prev_year := year\nFROM \n  your_table,\n  (SELECT @prev_year := NULL) AS init\nORDER BY \n  year, quarter;

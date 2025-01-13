@@ -1,1 +1,0 @@
-$(document).ready(function() {\n  var table = $('table');\n  var columns = table.find('tr:first').children();\n  columns.each(function(index) {\n    var width = $(this).width();\n    table.find('tr').each(function() {\n      $(this).children().eq(index).css('width', width + 'px');\n    });\n  });\n});

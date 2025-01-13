@@ -1,1 +1,0 @@
-function exec()\n{\n    func.apply(null, argum);\n}

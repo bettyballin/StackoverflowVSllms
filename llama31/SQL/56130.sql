@@ -1,1 +1,0 @@
-IF EXISTS (SELECT * FROM inserted WHERE testcol = 7)\nBEGIN\n    RAISERROR ('My Custom Error', 16, 1);\n    ROLLBACK TRANSACTION;\n    RETURN;\nEND

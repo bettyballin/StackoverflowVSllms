@@ -1,1 +1,0 @@
-<script>\n    $(function () {\n        $("#tabs").tabs();\n    });\n</script>

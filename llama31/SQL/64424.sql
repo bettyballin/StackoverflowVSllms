@@ -1,1 +1,0 @@
-SELECT \n  COUNT(DISTINCT CONCAT(IP, userid)) as online_users\nFROM \n  `bigBrother`\nWHERE \n  datetime BETWEEN DATE_SUB(NOW(), INTERVAL 3 MINUTE) AND NOW()

@@ -1,1 +1,0 @@
-import requests\n\nurl = 'https://nominatim.openstreetmap.org/search'\nparams = {'q': 'Bloomington, IN', 'format': 'json'}\nresponse = requests.get(url, params=params)\n\ndata = response.json()[0]\nlat, lng = data['lat'], data['lon']\nprint(f"Latitude: {lat}, Longitude: {lng}")

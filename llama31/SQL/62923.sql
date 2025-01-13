@@ -1,1 +1,0 @@
-UPDATE tag_data\nSET count = count + 1\nWHERE tagId = ?;\n\n-- or to decrement:\nUPDATE tag_data\nSET count = count - 1\nWHERE tagId = ?;

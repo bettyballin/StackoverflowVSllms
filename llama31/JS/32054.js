@@ -1,1 +1,0 @@
-links.forEach((link) => {\n  link.addEventListener('click', (event) => {\n    event.preventDefault();\n    window.stop();\n    window.location.href = link.href;\n  });\n});

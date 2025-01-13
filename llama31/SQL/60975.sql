@@ -1,1 +1,0 @@
-SELECT \n  name, \n  period, \n  value, \n  '1' AS category\nFROM \n  A\n\nUNION ALL\n\nSELECT \n  name, \n  period, \n  value, \n  '2' AS category\nFROM \n  B

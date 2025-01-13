@@ -1,1 +1,0 @@
-DECLARE @xml Text\n\nSELECT @xml = XML FROM YourTable\n\nEXEC sp_xml_preparedocument @hdoc OUTPUT, @xml\n\nSELECT *\nFROM OPENXML (@hdoc, '/Form/object', 1)\nWITH (ID int '@ID')\n\nWHERE ID <> YourTable.ID

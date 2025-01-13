@@ -1,1 +1,0 @@
-public function getOrderItems()\n{\n    $items = array();\n    $count = 0;\n\n    // connect to db, query.....\n\n    while($row = mysql_fetch_array($result, MYSQL_BOTH)){\n        $items[] = $row;\n        $count++;\n    }\n    echo 'Count of Order Items...' . $count;\n\n    return $items;\n}

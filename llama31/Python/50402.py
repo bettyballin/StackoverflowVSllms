@@ -1,1 +1,0 @@
-import email.utils\n\n# Your email string with spaced-out emails\nto = "john.doe@example.com jane.doe@example.com"\n\n# Parse and format the email addresses\naddresses = [email.utils.formataddr(("", addr)) for addr in to.split()]\n\n# Join the formatted addresses with commas\nto_header = ", ".join(addresses)\n\n# Use the formatted To header in your email script

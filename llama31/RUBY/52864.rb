@@ -1,1 +1,0 @@
-def process_running?(pid)\n  system("ps -p #{pid} > /dev/null")\nend

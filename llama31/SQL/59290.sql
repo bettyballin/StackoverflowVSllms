@@ -1,1 +1,0 @@
-SELECT (DATEPART(dw, ADateTimeColumn) + 6) % 7 + 1 AS MondayBasedDate\nFROM famousShipwrecks

@@ -1,1 +1,0 @@
--- Example indexing strategy\nCREATE INDEX idx_ratings_goods_type_suminsured \nON ratings (goods_type, suminsured_min, suminsured_max);

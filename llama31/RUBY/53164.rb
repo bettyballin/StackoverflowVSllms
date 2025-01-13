@@ -1,1 +1,0 @@
-x = nil\nputs defined?(x) # "local-variable"\nputs x.nil? # true\n\ny = undefined\nputs defined?(y) # nil\nputs y.nil? # undefined local variable or method `y'

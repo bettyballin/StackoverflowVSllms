@@ -1,1 +1,0 @@
-from django.db.models import Max, Subquery, OuterRef\n\nmarkets = Market.objects.annotate(\n    max_contract_price=Max('contract__current_price')\n).annotate(\n    max_contract=Subquery(\n        Contract.objects.filter(market=OuterRef('pk')).order_by('-current_price').values('name')[:1]\n    )\n)

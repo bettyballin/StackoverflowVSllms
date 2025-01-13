@@ -1,1 +1,0 @@
-$numbers = array('first', 'second', 'third');\n\n$result = array_combine($numbers, $numbers);\n\nprint_r($result);

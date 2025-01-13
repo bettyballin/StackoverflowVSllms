@@ -1,1 +1,0 @@
-$stmt = $mysqli->prepare("SELECT t1.* FROM table1 t1 INNER JOIN table2 t2 ON t1.agent_name = t2.agent_name WHERE t2.department = ?");\n$stmt->bind_param("s", $desiredDepartment);\n$stmt->execute();

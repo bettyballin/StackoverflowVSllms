@@ -1,1 +1,0 @@
-INSERT INTO YourTable (Column1, Column2)\nEXEC YourStoredProcedure

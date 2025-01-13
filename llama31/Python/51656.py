@@ -1,1 +1,0 @@
-from thumbor import Thumbor\n\nthumbor = Thumbor('input.jpg')\nthumbor.resize(800, 600).save('output.jpg')

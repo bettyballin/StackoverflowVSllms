@@ -1,1 +1,0 @@
-$date = new DateTime();\n$timezone = $date->getTimezone();\n$offset = $timezone->getOffset($date);\n\necho "UTC offset: " . ($offset / 3600);

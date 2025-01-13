@@ -1,1 +1,0 @@
-import boto3\n\nkms = boto3.client('kms')\n\n# Create a new encryption key\nresponse = kms.create_key(\n    Description='My encryption key'\n)\n\n# Store the key ID\nkey_id = response['KeyMetadata']['KeyId']\n\n# Retrieve the encryption key\nresponse = kms.get_key(\n    KeyId=key_id\n)\n\n# Use the encryption key\nencryption_key = response['Key']['Plaintext']

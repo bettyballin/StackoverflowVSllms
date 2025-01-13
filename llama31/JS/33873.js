@@ -1,1 +1,0 @@
-$('#my-text').addClass('vertical-text');

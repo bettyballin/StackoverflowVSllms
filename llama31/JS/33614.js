@@ -1,1 +1,0 @@
-$(document).ready(function() {\n  $('.tabNavigation a').click(function(e) {\n    e.preventDefault();\n    var phpFile = $(this).text().replace('Load ', '') + '.php';\n    $.ajax({\n      type: 'GET',\n      url: phpFile,\n      success: function(data) {\n        $('#displayphpfile').html(data);\n      }\n    });\n  });\n});

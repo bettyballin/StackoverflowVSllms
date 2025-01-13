@@ -1,1 +1,0 @@
-SELECT * FROM UserTable WHERE Name = @UserName\nUNION ALL\nSELECT * FROM UserTable WHERE Name = 'Jon Skeet' AND NOT EXISTS (SELECT 1 FROM UserTable WHERE Name = @UserName)

@@ -1,1 +1,0 @@
-text = "C__O__?__P__L__E__T__E"\ntext.force_encoding("UTF-8")\nYourModel.create(:text => text)

@@ -1,1 +1,0 @@
-$title = "New Amsbrook School";\n$message = "{$title} just added, Congrats!";

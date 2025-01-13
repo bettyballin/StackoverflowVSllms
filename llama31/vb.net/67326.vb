@@ -1,1 +1,0 @@
-Dim resourceName As String = "zoo_picture_1"\nUltraPictureBox1.Image = My.Resources.ResourceManager.GetObject(resourceName)

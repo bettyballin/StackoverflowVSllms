@@ -1,1 +1,0 @@
-WITH RecursiveCTE AS (\n    SELECT Id, description, quantity, 1 AS row_num\n    FROM YourTable\n    UNION ALL\n    SELECT Id, description, quantity, row_num + 1\n    FROM RecursiveCTE\n    WHERE row_num < quantity\n)\nSELECT Id, description, 1 AS quantity\nFROM RecursiveCTE\nORDER BY Id, row_num

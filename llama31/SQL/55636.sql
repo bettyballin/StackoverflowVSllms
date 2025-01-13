@@ -1,1 +1,0 @@
--- Create a new login\nCREATE LOGIN [technical_account] WITH PASSWORD = 'strong_password';\n\n-- Set the connection limit for the login\nALTER LOGIN [technical_account] WITH CONNECTION LIMIT = 2;

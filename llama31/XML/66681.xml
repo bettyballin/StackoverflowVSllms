@@ -1,1 +1,0 @@
-<appSettings>\n  <add key="AdminPassword" value="EncryptedValue" />\n  <add key="CustomKey" value="MyCustomKey" />\n</appSettings>

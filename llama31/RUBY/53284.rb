@@ -1,1 +1,0 @@
-# students_controller.rb\ndef update\n  @student = Student.find(params[:id])\n  @student.classes = params[:classes]\n  @student.save\n  respond_to do |format|\n    format.json { head :no_content }\n  end\nend

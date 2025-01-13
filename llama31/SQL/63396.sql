@@ -1,1 +1,0 @@
--- Update existing answers\nUPDATE answers\nSET description = ?\nWHERE id = ? AND question_id = ?;\n\n-- Insert new answers\nINSERT INTO answers (question_id, description)\nVALUES (?, ?);

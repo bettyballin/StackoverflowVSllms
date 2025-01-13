@@ -1,1 +1,0 @@
-$.post("/secret_url/lists/add_to_list",\n    {list_item: content, list_name: listn, group_name:groupn},\n    function(html){\n        var $html = $(html);\n        var $li = $html.find('li');\n        $("li:last").after($li);\n});

@@ -1,1 +1,0 @@
-$('#yourTableId').attr('cellPadding', '0');

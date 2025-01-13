@@ -1,1 +1,0 @@
-result = MyModel.find_by_sql("your sql query here")\ncolumn_names = result.columns

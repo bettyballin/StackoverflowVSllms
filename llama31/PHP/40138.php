@@ -1,1 +1,0 @@
-$num = 15/4;\nlist($int, $dec) = explode('.', (string)$num);

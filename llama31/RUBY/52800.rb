@@ -1,1 +1,0 @@
-BreadcrumbsOnRails.configure do |config|\n  config.resources = [:users, :messages]\nend

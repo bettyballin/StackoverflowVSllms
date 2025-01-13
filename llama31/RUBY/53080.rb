@@ -1,1 +1,0 @@
-it "should work" do\n  post 'bid', :bid => { :auction_id => 1, :user_id => @user.id, :point => 1 }\n  assigns[:bid].should be_an_instance_of(Bid)\nend

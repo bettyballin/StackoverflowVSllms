@@ -1,1 +1,0 @@
-$stmt = $mysqli->prepare("UPDATE auth SET username=?, password=?, studycode=?, description=?, server=? WHERE `index`=? LIMIT 1");\n$stmt->bind_param("sssssi", $username, $password, $studycode, $description, $server, $id);\n$stmt->execute();

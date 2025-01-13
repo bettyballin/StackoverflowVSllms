@@ -1,1 +1,0 @@
-require 'sinatra'\n\nget '/' do\n  url = 'http://example.com'\n  Thread.new do\n    system("curl -o #{url}")\n  end\n  "Job started"\nend

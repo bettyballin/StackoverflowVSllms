@@ -1,1 +1,0 @@
-var counter = 0;\n\nfunction increment() {\n  counter++;\n  console.log(counter);\n}\n\nincrement(); // logs 1\nincrement(); // logs 2

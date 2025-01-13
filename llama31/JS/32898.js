@@ -1,1 +1,0 @@
-var href = "test.php?id=100&status=active&blah=blah";\nvar url = new URL(href);\n\nconsole.log(url.pathname); // outputs: test.php\nconsole.log(url.search); // outputs: ?id=100&status=active&blah=blah\nconsole.log(url.searchParams); // outputs: URLSearchParams object

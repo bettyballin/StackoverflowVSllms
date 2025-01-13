@@ -1,1 +1,0 @@
-function highlightText(text) {\n    $('body').find(':not(:has(*))').each(function() {\n        var regex = new RegExp(text, 'gi');\n        $(this).html($(this).html().replace(regex, '<span style="background-color: yellow;">' + text + '</span>'));\n    });\n}

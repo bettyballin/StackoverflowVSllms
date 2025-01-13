@@ -1,1 +1,0 @@
-BACKUP DATABASE [your_database_name] TO DISK = '\\fileserver\backup\your_database_name.bak'

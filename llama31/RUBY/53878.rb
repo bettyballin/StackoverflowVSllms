@@ -1,1 +1,0 @@
-bundle exec rake my_script:execute

@@ -1,1 +1,0 @@
-$stmt = $mysqli->prepare("SELECT * FROM Auctions WHERE ARTICLE_NO = ?");\n$stmt->bind_param("s", $pk);\n$stmt->execute();\n$result = $stmt->get_result();

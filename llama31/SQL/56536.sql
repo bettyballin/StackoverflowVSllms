@@ -1,1 +1,0 @@
-SELECT *\nFROM faq_questions\nWHERE sort_order > ?\nORDER BY sort_order ASC\nLIMIT 1;

@@ -1,1 +1,0 @@
-Dir.glob('./scripts/**/*.rb').each do |file|\n  system("ruby #{file}")\nend

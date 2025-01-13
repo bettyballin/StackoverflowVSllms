@@ -1,1 +1,0 @@
-CREATE TABLE HQ (\n    ID INT PRIMARY KEY,\n    Names VARCHAR(255),\n    ProductName VARCHAR(255)\n)

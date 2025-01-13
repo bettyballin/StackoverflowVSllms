@@ -1,1 +1,0 @@
-<SolutionToBuild Include="$(SolutionRoot)/**/*.csproj">\n  <Properties>\n    <OutDir>$(BinariesRoot)\$(Configuration)</OutDir>\n  </Properties>\n</SolutionToBuild>

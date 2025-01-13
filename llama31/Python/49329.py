@@ -1,1 +1,0 @@
-from django.views.decorators.csrf import csrf_protect\n\n@csrf_protect\ndef game_view(request):\n    # Game logic here

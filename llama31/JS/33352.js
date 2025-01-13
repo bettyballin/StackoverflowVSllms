@@ -1,1 +1,0 @@
-var link = document.createElement("link");\nlink.rel = "stylesheet";\nlink.href = "https://www.stumbleupon.com/submit?url=" + encodeURIComponent(window.location.href);\ndocument.head.appendChild(link);

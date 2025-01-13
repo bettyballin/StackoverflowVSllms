@@ -1,1 +1,0 @@
-$html = '<img src="example.jpg"\nalt="example">';\n\n$regex = '/<[^>]*\n[^>]*>/';\nif (preg_match($regex, $html)) {\n    echo "Tag spans multiple lines";\n}

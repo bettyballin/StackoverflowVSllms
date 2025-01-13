@@ -1,1 +1,0 @@
-SELECT l.value\nFROM linked_list l\nJOIN list_order o ON l.id = o.node_id\nORDER BY o.id;

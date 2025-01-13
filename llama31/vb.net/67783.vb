@@ -1,1 +1,0 @@
-Private Sub Whatonearth()\n    Dim rs As ADODB.Recordset\n    Set rs = New ADODB.Recordset\n    rs.Open "SELECT * FROM tblLinkedABC", CurrentProject.Connection\n    \n    Debug.Print rs.RecordCount\n    \n    UpdatingSub "ALTER TABLE tblTest DROP Column ColumnNotThere"\n    \n    Debug.Print rs.RecordCount\n    \n    rs.Close\n    Set rs = Nothing\nEnd Sub

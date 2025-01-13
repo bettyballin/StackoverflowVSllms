@@ -1,1 +1,0 @@
-if (isset($_SERVER['argc'])) {\n    // Running from CLI\n} else {\n    // Running from web server\n}

@@ -1,1 +1,0 @@
-function getCookie(cookieName) {\n    var cookieValue = document.cookie.match(cookieName + "=([^;]*)");\n    return cookieValue[1];\n}

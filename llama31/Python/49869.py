@@ -1,1 +1,0 @@
-import jpype\n\n# Start the JVM\njpype.startJVM()\n\n# Create a Java object\njava_object = jpype.JClass('my.package.MyJavaClass')()\n\n# Call a Java method\nresult = java_object.myJavaMethod('hello')\n\n# Print the result\nprint(result)\n\n# Shutdown the JVM\njpype.shutdownJVM()

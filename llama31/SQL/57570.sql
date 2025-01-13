@@ -1,1 +1,0 @@
-SELECT a\nFROM b\nWHERE a LIKE ANY (ARRAY['a%', 'b%', 'c%']);

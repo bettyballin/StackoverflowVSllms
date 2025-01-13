@@ -1,1 +1,0 @@
-SELECT * FROM fn_my_permissions('MyDB', 'DATABASE')\nSELECT * FROM fn_my_permissions('MySchema', 'SCHEMA')

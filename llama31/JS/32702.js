@@ -1,1 +1,0 @@
-// Example JavaScript code that sends heartbeats every 10 seconds\nsetInterval(function() {\n  fetch('/heartbeat', { method: 'POST' });\n}, 10000);

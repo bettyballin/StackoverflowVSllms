@@ -1,1 +1,0 @@
-BACKUP TABLE oldest_table TO DISK = 'C:\Backup\oldest_table.bak';

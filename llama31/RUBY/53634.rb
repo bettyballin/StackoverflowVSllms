@@ -1,1 +1,0 @@
-assert_select '#first_name[value=?]', Regexp.new("^#{address.first_name}$")

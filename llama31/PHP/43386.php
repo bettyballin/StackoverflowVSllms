@@ -1,1 +1,0 @@
-class Service1 {\n    public function method1($arg1, $arg2) {\n        // implementation\n    }\n}\n\nclass Service2 {\n    public function method2($arg1, $arg2) {\n        // implementation\n    }\n}\n\n$server = new SoapServer(null, array('uri' => "http://example.com/soap"));\n$server->setClass('Service1');\n$server->setClass('Service2');\n$server->handle();

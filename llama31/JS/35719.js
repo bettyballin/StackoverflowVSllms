@@ -1,1 +1,0 @@
-onSuccess: function(transport) {\n    for (i = 0; (a = document.getElementsByTagName('link')[i]); i++) {\n        if (a.getAttribute('rel') == 'css' && a.getAttribute("type") == 'text/css') {\n            a.href = '/CSS?' + d.getTime();\n            a.disabled = true;\n            a.disabled = false;\n        }\n    }\n}

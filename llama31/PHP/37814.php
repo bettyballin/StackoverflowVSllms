@@ -1,1 +1,0 @@
-// Define the path to the folder and pattern\n$folderPath = '/path/to/your/folder';\n$pattern = '*.txt'; // Get only files with .txt extension\n\n// Use glob() to get a list of files\n$files = glob($folderPath . '/' . $pattern);\n\n// Print the list of files\nforeach ($files as $file) {\n    echo basename($file) . "\n";\n}

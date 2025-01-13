@@ -1,1 +1,0 @@
-$string = 'item355';\n$pattern = '/item(?=([3-4][5-9][0-9]|[5][0][0-2]))/';\nif (preg_match($pattern, $string)) {\n    echo 'Match found!';\n}

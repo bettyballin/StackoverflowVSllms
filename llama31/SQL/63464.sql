@@ -1,1 +1,0 @@
-CREATE TABLE [dbo].[Table1] (\n    [Id] uniqueidentifier NOT NULL DEFAULT (newsequentialid()),\n    [Column1] nvarchar(50) NULL,\n    CONSTRAINT [PK_Table1] PRIMARY KEY CLUSTERED ([Id] ASC)\n);

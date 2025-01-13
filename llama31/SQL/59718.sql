@@ -1,1 +1,0 @@
-SELECT * FROM entity_data WHERE entity_id = 12345;

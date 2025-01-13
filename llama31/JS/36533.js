@@ -1,1 +1,0 @@
-if (document.checks.user instanceof Array) {\n    for (i = 0; i < document.checks.user.length; i++) {\n        if (document.checks.user[i].checked == true ) {\n            document.checks.submit();\n            return 0;\n        }\n    }\n} else {\n    if (document.checks.user.checked == true ) {\n        document.checks.submit();\n        return 0;\n    }\n}

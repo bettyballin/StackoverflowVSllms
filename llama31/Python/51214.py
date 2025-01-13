@@ -1,1 +1,0 @@
-# Nested function\ndef add_one(x):\n    return 1 + x\n\n# Lambda function\nadd_one_lambda = lambda x: 1 + x

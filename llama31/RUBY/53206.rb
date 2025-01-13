@@ -1,1 +1,0 @@
-# In your routes.rb\nresources :sites do\n  resources :buildings do\n    resources :meters\n  end\nend

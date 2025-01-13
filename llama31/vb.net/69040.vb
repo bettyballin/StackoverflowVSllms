@@ -1,1 +1,0 @@
-If (condition1 AND condition2 AND condition3)\n    ...\nEnd If

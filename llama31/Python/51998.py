@@ -1,1 +1,0 @@
-import string\n\nletter_count = {c: 0 for c in string.ascii_lowercase}

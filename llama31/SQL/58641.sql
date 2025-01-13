@@ -1,1 +1,0 @@
-UPDATE c\nSET c.ContactAssociate = 'Peter'\nFROM tb_Contact c\nINNER JOIN (\n  SELECT TOP 14 ContactID\n  FROM tb_Contact\n  WHERE ContactAssociate = 'David'\n  ORDER BY NEWID()\n) AS sub ON c.ContactID = sub.ContactID

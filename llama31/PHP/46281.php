@@ -1,1 +1,0 @@
-// Assuming you have a URL parameter 'tab' to specify the tab to open\n$tab = $_GET['tab'];\n\n// Validate the input to prevent XSS\nif (!in_array($tab, array('tab1', 'tab2', 'tab3', 'tab4'))) {\n    $tab = 'tab1'; // default to first tab if invalid input\n}

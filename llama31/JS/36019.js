@@ -1,1 +1,0 @@
-// Check for the existence of the token in local storage\nif (localStorage.getItem('token') === token) {\n    // Display a warning or deny opening the new tab\n    alert('Another tab is already open!');\n} else {\n    // Store the token in local storage\n    localStorage.setItem('token', token);\n}

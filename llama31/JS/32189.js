@@ -1,1 +1,0 @@
-function sethash() {\n  var newHash = "hash" + Count;\n  top.history.pushState({}, "", newHash);\n  Count++;\n}

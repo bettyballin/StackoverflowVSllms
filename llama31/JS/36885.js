@@ -1,1 +1,0 @@
-// example: const App = Ember.Application.extend({ rootElement: '#app' });

@@ -1,1 +1,0 @@
--- Backup the database\nBACKUP DATABASE [YourDatabaseName] TO DISK = 'C:\Backup\YourDatabaseName.bak'\n\n-- On the new server, restore the database\nRESTORE DATABASE [YourDatabaseName] FROM DISK = 'C:\Backup\YourDatabaseName.bak'

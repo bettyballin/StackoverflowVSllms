@@ -1,1 +1,0 @@
-SELECT * FROM wedding_dates\nWHERE date_range OVERLAPS ('2009-01-01', '2009-12-31');

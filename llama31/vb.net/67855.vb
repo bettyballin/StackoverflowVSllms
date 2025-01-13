@@ -1,1 +1,0 @@
-Dim xml = <root>Non-breaking space: &#xA0;</root>

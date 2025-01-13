@@ -1,1 +1,0 @@
-// Client-side (e.g. JavaScript)\nfetch('/image')\n  .then(response => response.json())\n  .then(data => {\n    const imageElement = document.getElementById('image');\n    imageElement.src = data.image;\n\n    const metadataElement = document.getElementById('metadata');\n    metadataElement.textContent = data.metadata;\n  });

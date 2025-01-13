@@ -1,1 +1,0 @@
-use PhpMimeMailParser\Parser;\n\n$mailSource = 'your_email_source_as_text';\n\n$parser = new Parser();\n$email = $parser->parse($mailSource);\n\n$html = '';\nforeach ($email->getParts() as $part) {\n    if ($part->getContentType() == 'text/html') {\n        $html .= $part->getBody();\n    }\n}\n\necho $html;

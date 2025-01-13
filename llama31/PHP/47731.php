@@ -1,1 +1,0 @@
-class Proxy implements IteratorAggregate\n{\n    public $data = array();\n\n    public function __get($name)\n    {\n        return $this->data[$name];\n    }\n\n    public function getIterator()\n    {\n        return new ArrayIterator($this->data);\n    }\n}

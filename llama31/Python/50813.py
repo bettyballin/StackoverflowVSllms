@@ -1,1 +1,0 @@
-import re\n\ncompany_names = []\nticker_symbols = []\n\nwith open('your_file.txt', 'r') as file:\n    for line in file:\n        match = re.match(r'^(.*)\s+(\S+)$', line.strip())\n        if match:\n            company_names.append(match.group(1))\n            ticker_symbols.append(match.group(2))\n\nprint(company_names)\nprint(ticker_symbols)

@@ -1,1 +1,0 @@
-<?php\nif (!$someCondition) {\n    include 'error_template.php';\n    exit();\n} else {\n    # Do something\n}\n?>

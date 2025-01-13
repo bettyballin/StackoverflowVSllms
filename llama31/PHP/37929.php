@@ -1,1 +1,0 @@
-// Calling function\ntry {\n    User::loginRequired();\n    // Rest of the function code\n} catch (Exception $e) {\n    echo $e->getMessage(); // Output: Login required\n    return;\n}

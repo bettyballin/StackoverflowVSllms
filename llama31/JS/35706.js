@@ -1,1 +1,0 @@
-$(function() {\n    $("#myDiv").load("trackingCode.html");\n    alert("inside the jQuery ready");\n});

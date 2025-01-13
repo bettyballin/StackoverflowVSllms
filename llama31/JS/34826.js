@@ -1,1 +1,0 @@
-dojo.config = {\n    async: true,\n    packages: [\n        {\n            name: 'myApp',\n            location: '/js/myApp'\n        }\n    ]\n};

@@ -1,1 +1,0 @@
-document.getElementById('applet-container').style.overflow = 'auto';

@@ -1,1 +1,0 @@
-class MyClass {\n    public function __set($name, $value) {\n        $this->$name = $value;\n    }\n}\n\n$obj = new MyClass();\n$obj->newProperty = 'hello'; // sets a new property dynamically

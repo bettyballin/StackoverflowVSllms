@@ -1,1 +1,0 @@
-method = String.instance_method(:foo)\nputs method.source_locatio

@@ -1,1 +1,0 @@
-def post_classes(post)\n  {\n    "post" => true,\n    "even" => cycle("even", "odd") == "even",\n    "recent" => post.recent?,\n    "replied_to" => post.replied_to?,\n    "author_is_admin" => post.author_is_admin?\n  }.select { |k, v| v }.keys.join(" ")\nend

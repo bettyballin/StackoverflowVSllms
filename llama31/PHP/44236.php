@@ -1,1 +1,0 @@
-$query = 'SELECT Ville FROM tblLstManufacturiers where province = N"Québec"';

@@ -1,1 +1,0 @@
-def results\n  @query_form = QueryForm.new(params)\n\n  if @query_form.valid?\n    # Process the form data\n  else\n    flash[:error] = "Invalid form submission"\n    redirect_to :action => 'index'\n  end\nend

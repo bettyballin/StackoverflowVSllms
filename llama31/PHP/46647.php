@@ -1,1 +1,0 @@
-class UserController {\n    public function renderView() {\n        // ...\n        $data = array(\n            'models' => $models,\n            'currentPage' => $current,\n            'totalPages' => $total,\n        );\n        return $view->render($data);\n    }\n}

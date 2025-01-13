@@ -1,1 +1,0 @@
-$stmt = $mysqli->prepare("SELECT COUNT(*) AS test FROM ? WHERE id = ? AND tmp_mail <> ''");\n$stmt->bind_param("si", $tableName, $id);\n$stmt->execute();

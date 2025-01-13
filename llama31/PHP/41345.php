@@ -1,1 +1,0 @@
-$dbh->setAttribute(PDO::SQLSRV_ENCODING_UTF8, true);

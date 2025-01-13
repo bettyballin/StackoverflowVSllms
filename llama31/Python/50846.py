@@ -1,1 +1,0 @@
-if n == 0:\n    print("The end")

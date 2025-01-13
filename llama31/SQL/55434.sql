@@ -1,1 +1,0 @@
-CREATE TABLE #test (seconds INT);\nINSERT INTO #test VALUES (3661);\n\nSELECT \n  FLOOR(seconds / 3600) AS hours,\n  FLOOR((seconds % 3600) / 60) AS minutes,\n  seconds % 60 AS seconds\nFROM #test;\n\n-- Output:\n-- hours  minutes  seconds\n-- -----  -------  -------\n-- 1      1        1

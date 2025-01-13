@@ -1,1 +1,0 @@
-$categoryModel = new Category();\n$items = $categoryModel->getItems(1);  // retrieve items for category with ID 1

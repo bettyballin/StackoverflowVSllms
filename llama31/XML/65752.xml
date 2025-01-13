@@ -1,1 +1,0 @@
-<property column="Article" generated="never" lazy="false"\n          name="article" type="string" not-null="true" length="10485760"/>

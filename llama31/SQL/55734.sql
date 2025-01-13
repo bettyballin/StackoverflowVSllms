@@ -1,1 +1,0 @@
--- Mockaroo example\nSELECT * FROM mockaroo.generate('Company', 150);  // generates 150 company records

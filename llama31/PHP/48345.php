@@ -1,1 +1,0 @@
-$stmt = $mysqli->prepare("INSERT IGNORE INTO your_table (column_name) VALUES (?)");\n$stmt->bind_param("s", $string_value);\n$stmt->execute();

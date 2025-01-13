@@ -1,1 +1,0 @@
-$a1 = array('foo');\n$a2 = $a1; // no copy is made here\n\nvar_dump($a1 === $a2); // bool(true)\n\n$a2[0] = 'bar'; // now a copy is made\n\nvar_dump($a1 === $a2); // bool(false)

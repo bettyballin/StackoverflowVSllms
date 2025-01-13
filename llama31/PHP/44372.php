@@ -1,1 +1,0 @@
-$feed = 'https://example.com/feed';\n$xml = simplexml_load_file($feed);\n\nif ($xml !== false) {\n    foreach ($xml->channel->item as $item) {\n        echo $item->title . "\n";\n        echo $item->link . "\n";\n        echo $item->description . "\n";\n    }\n} else {\n    echo "Failed to load feed";\n}

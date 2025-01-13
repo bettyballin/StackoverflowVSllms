@@ -1,1 +1,0 @@
-$(document).ready(function() {\n  $('#your-input-id').focus();\n});

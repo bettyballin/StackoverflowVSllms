@@ -1,1 +1,0 @@
-<Chart>\n  ...\n  <CategoryAxis>\n    ...\n  </CategoryAxis>\n  <ValueAxis>\n    <LabelStyle Format="Custom" />\n    <CustomLabels>\n      <CustomLabel Text="Small" Value="0" />\n      <CustomLabel Text="Medium" Value="50" />\n      <CustomLabel Text="Large" Value="100" />\n    </CustomLabels>\n  </ValueAxis>\n  ...\n</Chart>

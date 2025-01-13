@@ -1,1 +1,0 @@
-BEGIN\n  INSERT INTO players (player_no, position, goals)\n  VALUES (:TEAM.player_no, :TEAM.position, :TEAM.goals);\n  COMMIT;\nEND;

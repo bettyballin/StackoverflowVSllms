@@ -1,1 +1,0 @@
-Array\n(\n    [0] => Vote\n    [1] => Halloween\n    [2] => Starbucks\n    [3] => #flylady\n    [4] => #votereport\n    [5] => Election Day\n    [6] => #PubCon\n    [7] => #defrag08\n    [8] => Melbourne Cup\n    [9] => Cheney\n)

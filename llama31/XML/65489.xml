@@ -1,1 +1,0 @@
-<Service Id="WinmgmtService"\n         Name="winmgmt"\n         Status="check">\n  <ServiceStatusCheck \n    ServiceName="winmgmt" \n    Status="running" \n    Message="The winmgmt service is not running." />\n</Service>

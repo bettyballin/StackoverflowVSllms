@@ -1,1 +1,0 @@
-<IIsApplicationPool \n  MaxWorkerProcesses="50" \n  MaxIoThreads="100" \n  MinLocalRequestFreeThreads="10"\n/>

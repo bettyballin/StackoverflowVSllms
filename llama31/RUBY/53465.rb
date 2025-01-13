@@ -1,1 +1,0 @@
-session.options[:key]

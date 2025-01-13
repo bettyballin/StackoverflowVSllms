@@ -1,1 +1,0 @@
-Imports System.Net.Http\n\nDim url As String = "http://xxx.xxx.xxx.xxx/nphControlCamera?Direction=TiltDown&Resolution=320x240&Quality=Standard&RPeriod=0&Size=STD&PresetOperation=Move&Language=3"\n\nUsing client As New HttpClient()\n    client.SendAsync(New HttpRequestMessage(HttpMethod.Get, url))\nEnd Using

@@ -1,1 +1,0 @@
-$mysqli = new mysqli('host', 'username', 'password', 'database');\n$result = $mysqli->query('SELECT SUM(column_name) AS total FROM table_name');\n$row = $result->fetch_assoc();\necho $row['total'];

@@ -1,1 +1,0 @@
-use Zend\Crypt\BlockCipher;\n\n$cipher = BlockCipher::factory('aes', 'cbc');\n$key = 'your_secret_key_here';\n$data = 'password123';\n\n$encrypted = $cipher->encrypt($data, $key);\necho "Encrypted: $encrypted\n";\n\n$decrypted = $cipher->decrypt($encrypted, $key);\necho "Decrypted: $decrypted\n";

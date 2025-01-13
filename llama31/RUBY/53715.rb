@@ -1,1 +1,0 @@
-def test_something\n  # ...\n  puts "Request: #{@request.inspect}"\n  puts "Response: #{@response.inspect}"\n  # ...\nend

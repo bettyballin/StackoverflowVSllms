@@ -1,1 +1,0 @@
-CREATE TABLE attendance (\n  id INT PRIMARY KEY,\n  employee_id INT,\n  shift_id INT,\n  arrived_at TIME,\n  left_at TIME,\n  is_absent BOOLEAN\n);\n\n-- Insert a record for an absent employee\nINSERT INTO attendance (employee_id, shift_id, is_absent)\nVALUES (123, 456, TRUE);\n\n-- In this case, arrived_at and left_at are NULL

@@ -1,1 +1,0 @@
-window.onload = function() {\n  var option = document.createElement("option");\n  option.innerHTML = "asdfasdfasdfasdfasdfasdfasdfasdf";\n  document.getElementById("test").appendChild(option);\n  document.getElementById("test").parentNode.style.width = "auto";\n};

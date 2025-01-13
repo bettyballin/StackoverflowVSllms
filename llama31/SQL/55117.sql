@@ -1,1 +1,0 @@
-SELECT *\nFROM your_table\nORDER BY CAST(your_char_column AS INTEGER);

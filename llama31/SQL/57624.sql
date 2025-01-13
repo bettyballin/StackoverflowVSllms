@@ -1,1 +1,0 @@
--- Update statistics and rebuild indexes\nUPDATE STATISTICS mytable;\nALTER INDEX ALL ON mytable REBUILD;

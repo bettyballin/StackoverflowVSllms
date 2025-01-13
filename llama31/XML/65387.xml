@@ -1,1 +1,0 @@
-// YourProject.StyleCop\n<StyleCopSettings>\n  <StyleCopSettingsVersion>4.3</StyleCopSettingsVersion>\n  <AnalyzerSettings>\n    <AnalyzerSetting Name="Company" Value="YourCompany" />\n  </AnalyzerSettings>\n  <RulesEnabled>\n    <Rule Name="SA1300" Enabled="True" />\n  </RulesEnabled>\n</StyleCopSettings>

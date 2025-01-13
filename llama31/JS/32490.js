@@ -1,1 +1,0 @@
-var formData = new FormData();\nformData.append('video', fileInput.files[0]);\n\nfetch('https://api.viddler.com/api/v2/videos/upload', {\n  method: 'POST',\n  body: formData,\n  headers: {\n    'Authorization': 'YOUR_API_KEY'\n  }\n})\n.then(response => response.json())\n.then(data => console.log(data))\n.catch(error => console.error(error));

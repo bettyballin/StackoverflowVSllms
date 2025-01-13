@@ -1,1 +1,0 @@
-<!-- server.xml -->\n<environmentEntry name="SOAP_ENDPOINT" value="http://example.com/soap/endpoint" />

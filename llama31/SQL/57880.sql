@@ -1,1 +1,0 @@
-BACKUP DATABASE [database_name] TO DISK = 'diff_backup.bak' WITH DIFFERENTIAL;

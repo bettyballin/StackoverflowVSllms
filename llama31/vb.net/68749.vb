@@ -1,1 +1,0 @@
-Public Sub context_Error(ByVal sender As Object, ByVal e As EventArgs)\n    Dim ex As Exception = HttpContext.Current.Server.GetLastError\n    HttpContext.Current.Items("ErrorMessage") = ex.Message\n    HttpContext.Current.Server.ClearError()\n    HttpContext.Current.Response.Redirect("ErrorPage.aspx")\nEnd Sub

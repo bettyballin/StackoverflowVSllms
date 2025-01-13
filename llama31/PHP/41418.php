@@ -1,1 +1,0 @@
-$no_errors = in_array($_error, [0, 3]);

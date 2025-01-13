@@ -1,1 +1,0 @@
-var contentHeight = $('your-content-selector').get(0).scrollHeight;

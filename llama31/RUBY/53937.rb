@@ -1,1 +1,0 @@
-// Rails example\nlink_to "Update", update_posts_path, :remote => true

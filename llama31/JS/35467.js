@@ -1,1 +1,0 @@
-$('button').click(function() {\n  var $this = $(this);\n  if ($this.data('ajax-in-progress')) {\n    return;\n  }\n  $this.data('ajax-in-progress', true);\n  $.ajax({\n    // your AJAX settings here\n  })\n  .done(function() {\n    $this.data('ajax-in-progress', false);\n  })\n  .fail(function() {\n    $this.data('ajax-in-progress', false);\n  });\n});

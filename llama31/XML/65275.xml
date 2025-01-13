@@ -1,1 +1,0 @@
-<configuration>\n  <system.web>\n    <httpHandlers>\n      <add verb="*" path="*" type="System.Web.UI.PageHandlerFactory" />\n    </httpHandlers>\n  </system.web>\n</configuration>

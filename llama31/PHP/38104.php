@@ -1,1 +1,0 @@
-class Base {\n    public function __construct() {\n        $childClassName = static::class;  // PHP 5.5+\n        // or\n        $childClassName = get_called_class();  // PHP 5.3+\n        echo "Child class name: $childClassName\n";\n    }\n}

@@ -1,1 +1,0 @@
-<%= form_for(@meal, remote: true) do |form| %>\n  <%= form.text_field :name %>\n  <%= form.fields_for :foods do |food_form| %>\n    <%= food_form.text_field :name %>\n  <% end %>\n  <%= link_to_add_fields "Add Food", form, :foods %>\n  <%= form.submit %>\n<% end %>

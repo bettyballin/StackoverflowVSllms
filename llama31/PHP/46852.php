@@ -1,1 +1,0 @@
-<?php // path/to/parent/template.php ?>\n<div>\n  <p>This is the parent template</p>\n</div>

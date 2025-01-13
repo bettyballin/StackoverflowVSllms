@@ -1,1 +1,0 @@
-class Foo {\n    private $foo2;\n\n    public function __construct(Foo2 $foo2) {\n        $this->foo2 = $foo2;\n    }\n\n    function doFoo() {\n        // use $this->foo2\n    }\n}\n\n$foo2 = new Foo2();\n$foo = new Foo($foo2);

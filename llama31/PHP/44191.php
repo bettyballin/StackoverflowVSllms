@@ -1,1 +1,0 @@
-$xml = simplexml_load_file('your_xml_file.xml');\n\n$sets = $xml->xpath('//set[@uniquename="value2"]');\nif (!empty($sets)) {\n    $items = $sets[0]->items->item;\n    foreach ($items as $item) {\n        if ($item->units->url) {\n            echo (string)$item->units->url;\n            break;\n        }\n    }\n}

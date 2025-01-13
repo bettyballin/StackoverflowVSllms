@@ -1,1 +1,0 @@
-Imports System\n\nPublic Class HelloWorld\n    Inherits System.Web.UI.Page\n\n    Protected Sub Page_Load(ByVal sender As Object, ByVal e As EventArgs)\n        Response.Write("Hello, World!")\n    End Sub\nEnd Class

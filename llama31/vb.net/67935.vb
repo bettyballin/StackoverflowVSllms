@@ -1,1 +1,0 @@
-=IIF(RowNumber(Nothing) = 1, false, true)

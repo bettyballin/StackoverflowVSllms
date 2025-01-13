@@ -1,1 +1,0 @@
-CREATE TABLE logs (\n  id INT PRIMARY KEY,\n  event VARCHAR(255) NOT NULL,\n  object_type VARCHAR(255) NOT NULL,\n  object_id INT NOT NULL,\n  timestamp DATETIME NOT NULL DEFAULT CURRENT_TIMESTAMP,\n  user_id INT NOT NULL,\n  details TEXT\n);

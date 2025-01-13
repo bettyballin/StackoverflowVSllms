@@ -1,1 +1,0 @@
-$('[data-is-dirty="true"]').each(function() {\n  // do something with the elements that have the data-is-dirty attribute set to true\n});

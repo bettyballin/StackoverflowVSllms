@@ -1,1 +1,0 @@
-var xhr = $.ajax({\n    url: displayItemUrl + '/' + el1.siblings("input:hidden").val(),\n    data: { ajax: "Y" },\n    cache: false,\n    success: function(response) { displayMore(response, el1, xhr) }\n});

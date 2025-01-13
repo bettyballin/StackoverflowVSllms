@@ -1,1 +1,0 @@
-CREATE TABLE records (\n  id INT PRIMARY KEY,\n  -- other record columns...\n);\n\nCREATE TABLE files (\n  id INT PRIMARY KEY,\n  record_id INT FOREIGN KEY REFERENCES records(id),\n  file_name VARCHAR(255),\n  file_path VARCHAR(255),\n  mime_type VARCHAR(100)\n);

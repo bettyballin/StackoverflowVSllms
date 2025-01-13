@@ -1,1 +1,0 @@
-DELIMITER //\nCREATE TRIGGER calculate_count BEFORE INSERT ON log\nFOR EACH ROW\nBEGIN\n  SET NEW.count = (SELECT COUNT(*) FROM your_other_table);\nEND;//\nDELIMITER ;

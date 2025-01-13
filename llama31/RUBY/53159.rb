@@ -1,1 +1,0 @@
-<%= form_with(url: {action: "whatever"}, method: "get") do |form| %>\n  <div><%= form.submit 'Save' %></div>\n<% end %>

@@ -1,1 +1,0 @@
-$('#mySelect').selectmenu({\n  appendTo: '#mySelect-container',\n  width: 200,\n  icons: {\n    button: 'ui-icon-triangle-1-s'\n  }\n});

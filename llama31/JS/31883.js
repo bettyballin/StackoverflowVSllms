@@ -1,1 +1,0 @@
-if(toSlide = 1) {

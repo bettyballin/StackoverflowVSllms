@@ -1,1 +1,0 @@
-<?php\nfunction sanitize($input) {\n    $input = trim($input);\n    $input = mysql_real_escape_string($input);\n    return $input;\n}\n?>

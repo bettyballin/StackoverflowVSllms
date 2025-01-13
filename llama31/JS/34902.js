@@ -1,1 +1,0 @@
-var priceText = $('.price').clone().children().remove().end().text();\n\nconsole.log(priceText); // outputs "$61.00"

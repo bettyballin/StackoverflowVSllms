@@ -1,1 +1,0 @@
-$pid = // retrieve the PID from database or file\n\n// Check if the process is still running\nexec("ps -p $pid", $output);\nif (count($output) > 1) {\n    // Process is still running\n} else {\n    // Process has finished\n}\n\n// Stop the process\nposix_kill($pid, 9); // SIGKILL signal

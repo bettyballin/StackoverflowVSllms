@@ -1,1 +1,0 @@
-tm_scope = 'text.html.php'

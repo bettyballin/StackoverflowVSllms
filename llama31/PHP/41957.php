@@ -1,1 +1,0 @@
-function countLines($file) {\n    $output = shell_exec('wc -l ' . escapeshellarg($file));\n    return trim(explode(' ', $output)[0]);\n}\n\n// usage:\n$file = 'large_data_file.txt';\n$totalRows = countLines($file);

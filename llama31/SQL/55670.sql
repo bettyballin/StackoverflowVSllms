@@ -1,1 +1,0 @@
-CREATE VIEW ColumnSet AS\nSELECT columnA\n     , columnB\n     , columnC\n;\n\nSELECT * FROM Data\nWHERE EXISTS (SELECT 1 FROM ColumnSet WHERE ColumnSet.columnA = Data.columnA);\n\nSELECT * FROM DataArchive\nWHERE EXISTS (SELECT 1 FROM ColumnSet WHERE ColumnSet.columnA = DataArchive.columnA);

@@ -1,1 +1,0 @@
-$filename = basename($_FILES['ulimage']['name']);

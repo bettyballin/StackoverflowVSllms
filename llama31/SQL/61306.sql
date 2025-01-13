@@ -1,1 +1,0 @@
-CREATE TABLE titles (\n  id INT PRIMARY KEY,\n  title JSON\n);

@@ -1,1 +1,0 @@
-use Pdf2html\Pdf2html;\n\n$pdf2html = new Pdf2html();\n$html = $pdf2html->convert('path/to/example.pdf');

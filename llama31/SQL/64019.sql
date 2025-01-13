@@ -1,1 +1,0 @@
-SELECT DISTINCT c1.colors AS color1, c2.colors AS color2\nFROM colors c1\nJOIN colors c2 ON c1.colors < c2.colors;

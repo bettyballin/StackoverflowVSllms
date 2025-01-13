@@ -1,1 +1,0 @@
-$pdf = pdf_new();\npdf_open_file($pdf, 'output.pdf');\n// ...\npdf_flush($pdf); // periodically flush the buffer\n// ...\npdf_end_document($pdf);\npdf_close($pdf); // explicitly close the PDF file

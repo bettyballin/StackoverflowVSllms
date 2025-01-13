@@ -1,1 +1,0 @@
-Public Property TransactionType As String\n    Private Set\nEnd Property

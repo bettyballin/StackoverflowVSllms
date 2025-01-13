@@ -1,1 +1,0 @@
-if (window.location.protocol === 'https:') {\n    // The page is secure (HTTPS)\n} else {\n    // The page is not secure (HTTP)\n}

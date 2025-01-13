@@ -1,1 +1,0 @@
-SELECT \n  a.MemberId, \n  a.MemberName, \n  GROUP_CONCAT(DISTINCT b.FruitName) \nFROM \n  a \n  LEFT JOIN b ON a.MemberName = b.MemberName \nGROUP BY \n  a.MemberName, a.MemberId

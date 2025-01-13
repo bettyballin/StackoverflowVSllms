@@ -1,1 +1,0 @@
-function preventErrorPage() {\n    // Add a JavaScript-based solution to prevent the browser from showing the error page\n    // For example, you could use AJAX to submit the form and handle the response\n}

@@ -1,1 +1,0 @@
-# Problem: Validate a username\ndef validate_username(username):\n    if len(username) < 3 or len(username) > 32:\n        return False\n    if not username.isalnum():\n        return False\n    return True

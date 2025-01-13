@@ -1,1 +1,0 @@
-$("#registry_ViewPanel").show();\n// Now you should be able to access its dimensions and manipulate it\nalert($("#registry_ViewPanel").height());\nalert($("#registry_ViewPanel").width());\n$("#registry_ViewPanel").draggable();\n$("#registry_ViewPanel").fadeIn();

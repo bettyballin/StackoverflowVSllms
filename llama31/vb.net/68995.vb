@@ -1,1 +1,0 @@
-Private Sub FilterBindingSource()\n    Dim filterString As String = "YourColumnName = 'YourFilterValue'" ' Change to your desired filter column and value\n    BindingSource1.Filter = filterString\n    ReportViewer1.RefreshReport()\nEnd Sub

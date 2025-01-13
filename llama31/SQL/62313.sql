@@ -1,1 +1,0 @@
-SELECT \n  e.entry_id,\n  COUNT(t.token) AS match_count,\n  e.date\nFROM \n  entries e\n  LEFT JOIN tokens t ON e.entry_id = t.entry_id AND t.token IN (:tokens)\nGROUP BY \n  e.entry_id, e.date\nORDER BY \n  match_count DESC, e.date DESC;

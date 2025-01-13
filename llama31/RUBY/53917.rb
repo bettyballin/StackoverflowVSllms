@@ -1,1 +1,0 @@
-require 'ffi'\n\nmodule MyDotNetDll\n  extend FFI::Library\n  ffi_lib 'path/to/mydotnetdll'\n  attach_function :my_method, [:string], :void\nend\n\nMyDotNetDll.my_method("Hello, World!")

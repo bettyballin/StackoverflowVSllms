@@ -1,1 +1,0 @@
-<!-- web.config -->\n<configuration>\n  <appSettings>\n    <add key="Template" value="HTML template here"/>\n  </appSettings>\n</configuration>

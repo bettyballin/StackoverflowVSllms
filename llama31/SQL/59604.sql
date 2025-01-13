@@ -1,1 +1,0 @@
-SELECT substring(version() FROM 'PostgreSQL #"%#"%' FOR '#') AS version;

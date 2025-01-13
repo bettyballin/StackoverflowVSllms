@@ -1,1 +1,0 @@
-var url = new URL("/countries/tariff/");\nurl.pathname += escape($(this).val());\n$.ajax({\n    type: "GET",\n    url: url.href,\n    success: function(html){\n        $(this).parent().next('div').html(html);\n    }\n});

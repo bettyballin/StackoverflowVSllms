@@ -1,1 +1,0 @@
-SELECT \n    Date,\n    StudentName,\n    DENSE_RANK() OVER (PARTITION BY Date ORDER BY Score DESC) as Rank\nFROM \n    YourTableName\nORDER BY \n    Date, Rank;

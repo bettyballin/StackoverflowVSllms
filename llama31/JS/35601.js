@@ -1,1 +1,0 @@
-// Example usage:\nconst annotator = new Annotator({\n  container: document.getElementById('pdf-container'),\n  pdf: 'path/to/example.pdf',\n});

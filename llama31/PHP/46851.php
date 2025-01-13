@@ -1,1 +1,0 @@
-<?php // path/to/template.php ?>\n<html>\n  <head>\n    <title>Example</title>\n  </head>\n  <body>\n    {{ parent }}\n  </body>\n</html>

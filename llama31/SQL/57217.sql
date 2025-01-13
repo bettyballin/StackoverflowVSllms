@@ -1,1 +1,0 @@
-SELECT MAX(col1), f_result\nFROM (\n  SELECT col1, f(:1, col2) AS f_result\n  FROM t\n) AS subquery\nGROUP BY f_result

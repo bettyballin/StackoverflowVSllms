@@ -1,1 +1,0 @@
-const Tesseract = require('tesseract.js');\n\nTesseract.recognize(\n  'image.jpg',\n  'eng', // language\n  { logger: m => console.log(m) }\n).then(({ data: { text } }) => {\n  console.log(text);\n});

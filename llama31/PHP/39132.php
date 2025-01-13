@@ -1,1 +1,0 @@
-function format_number($num) {\n    $units = ['', 'K', 'Mil', 'Bil'];\n    $index = 0;\n    while ($num >= 1000) {\n        $num /= 1000;\n        $index++;\n    }\n    return number_format($num, 1) . ' ' . $units[$index];\n}

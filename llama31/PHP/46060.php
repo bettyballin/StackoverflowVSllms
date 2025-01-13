@@ -1,1 +1,0 @@
-// Controller\n$data = $model->getData();\n$template = 'div_template.twig';\n$twig = new Twig_Environment(new Twig_Loader_Filesystem('templates'));\n$html = $twig->render($template, array('data' => $data));\necho $html;

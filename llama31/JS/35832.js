@@ -1,1 +1,0 @@
-const socket = new WebSocket('ws://your-time-server:8080');\n\nsocket.onmessage = (event) => {\n  const timestamp = parseInt(event.data);\n  // Fire the event at the received timestamp\n  setTimeout(() => {\n    // Your event code here\n  }, timestamp - Date.now());\n};

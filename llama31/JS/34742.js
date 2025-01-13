@@ -1,1 +1,0 @@
-requestAnimationFrame(function() {\n  // do nothing, just trigger a repaint\n});

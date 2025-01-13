@@ -1,1 +1,0 @@
-SELECT T.TrnNumber, T.TrnName\nFROM Trains T\nJOIN TrainHops TH1 ON T.TrnNumber = TH1.TrnNumber AND T.SourceStn = TH1.StationCode\nJOIN TrainHops TH2 ON T.TrnNumber = TH2.TrnNumber AND T.DestStn = TH2.StationCode\nWHERE TH1.StationCode = 'WDC' AND TH2.StationCode = 'NYC'\nGROUP BY T.TrnNumber, T.TrnName;

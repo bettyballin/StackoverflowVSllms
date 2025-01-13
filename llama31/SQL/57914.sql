@@ -1,1 +1,0 @@
-SELECT \n    CASE \n        WHEN @Configuration.value('/Configuration[1]/SomeConfigValue[1]/@xs:nil', 'varchar(5)') = 'true' \n        THEN NULL \n        ELSE @Configuration.value('/Configuration[1]/SomeConfigValue[1]', 'bit') \n    END AS SomeConfigValue

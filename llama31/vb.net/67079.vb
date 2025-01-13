@@ -1,1 +1,0 @@
-userInput = Request.Form("username")\nsanitizedInput = SanitizeInput(userInput)

@@ -1,1 +1,0 @@
-class Dog_Exception extends Exception {\n    public function __toBoolean() {\n        return false;\n    }\n}

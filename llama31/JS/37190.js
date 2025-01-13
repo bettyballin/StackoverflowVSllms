@@ -1,1 +1,0 @@
-args.IsValid = document.getElementById("fuFile").value.trim() != "" || \n               document.getElementById("c101_c7").value.trim() != "";

@@ -1,1 +1,0 @@
-If dt.Columns("myTableId").AutoIncrement Then\n    ' The column is auto-increment\nEnd If

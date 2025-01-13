@@ -1,1 +1,0 @@
-var cometd = $.cometd;\n\ncometd.configure({\n    url: 'http://localhost:8080/cometd',\n    logLevel: 'debug'\n});\n\ncometd.handshake();

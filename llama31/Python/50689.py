@@ -1,1 +1,0 @@
-import dnf\n\ndef check_for_updates(package_name):\n    base = dnf.Base()\n    base.fill_sack()\n    q = base.sack.query()\n    q = q.available()\n    q = q.filter(name=package_name)\n    return list(q)\n\npackage_name = 'example-package'  # replace with your package name\nupdates = check_for_updates(package_name)\nprint(updates)

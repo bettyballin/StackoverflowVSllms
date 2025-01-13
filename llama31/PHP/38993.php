@@ -1,1 +1,0 @@
-$construct = new Construct;\n$otherClass = new OtherClass($construct);

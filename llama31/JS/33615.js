@@ -1,1 +1,0 @@
-var infowindow = new google.maps.InfoWindow({\n  content: 'your content here',\n  maxWidth: 200\n});

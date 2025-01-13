@@ -1,1 +1,0 @@
-SELECT s.id, s.title, s.desc\nFROM Section s\nWHERE EXISTS (\n  SELECT 1\n  FROM Quest-Ans q\n  WHERE q.Sec_id = s.id\n)

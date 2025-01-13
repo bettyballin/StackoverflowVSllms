@@ -1,1 +1,0 @@
-CREATE PROCEDURE GetMyValue\nAS\nBEGIN\n    -- Your code here\n    RETURN ...;\nEND\nGO\n\n-- In your calling procedure\nDECLARE @localVariable INT;\nEXEC @localVariable = GetMyValue;

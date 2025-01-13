@@ -1,1 +1,0 @@
-# config/routes.rb\nmap.resources :notes\n\n# app/controllers/notes_controller.rb\ndef edit\n  @note = Note.find(params[:id])\nend\n\ndef update\n  @note = Note.find(params[:id])\n  if @note.update_attributes(params[:note])\n    redirect_to notes_path\n  else\n    render :action => 'edit'\n  end\nend

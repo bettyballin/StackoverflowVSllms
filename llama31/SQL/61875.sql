@@ -1,1 +1,0 @@
-DECLARE @words TABLE (word nvarchar(50));\nINSERT INTO @words (word)\nSELECT value FROM STRING_SPLIT(@user_input, ' ');\n\nSELECT t.*\nFROM your_table t\nCROSS APPLY (\n    SELECT COUNT(*) as match_count\n    FROM @words w\n    WHERE CONTAINS(t.your_column, w.word)\n) m\nORDER BY m.match_count DESC;

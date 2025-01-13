@@ -1,1 +1,0 @@
-$xml = simplexml_load_string($xml_string);\n$xml->registerXPathNamespace('n', 'http://iptc.org/std/NewsML/2003-10-10/');\n$result = $xml->xpath('/n:NewsML');

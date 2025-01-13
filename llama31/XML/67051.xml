@@ -1,1 +1,0 @@
-<configuration>\n  <system.web>\n    <sessionState mode="Off" />\n  </system.web>\n</configuration>

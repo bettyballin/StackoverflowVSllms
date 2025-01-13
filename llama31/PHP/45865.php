@@ -1,1 +1,0 @@
-usort($label, function($a, $b) {\n    return strnatcmp($a['label'], $b['label']);\n});

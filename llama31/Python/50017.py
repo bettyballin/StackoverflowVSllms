@@ -1,1 +1,0 @@
-import re\n\nwith open('input.py', 'r') as file:\n    content = file.read()\n\ncontent = re.sub(r'from\s+([\w\.]+)\s+import\s+\(([^)]+?)\)', \n                 lambda match: f'from {match.group(1)} import {", ".join(match.group(2).split())}', \n                 content, flags=re.DOTALL)\n\nwith open('output.py', 'w') as file:\n    file.write(content)

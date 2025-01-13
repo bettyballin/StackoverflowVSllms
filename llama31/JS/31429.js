@@ -1,1 +1,0 @@
-const element = document.getElementById('yourElementId');\nconst rect = element.getBoundingClientRect();\nconst offsetTop = rect.top + window.scrollY;

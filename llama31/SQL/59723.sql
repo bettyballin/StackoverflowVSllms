@@ -1,1 +1,0 @@
-SELECT * FROM users WHERE username LIKE '%jo%';  // matches 'john', 'joanna', etc.

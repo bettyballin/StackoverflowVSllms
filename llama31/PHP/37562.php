@@ -1,1 +1,0 @@
-private $checkboxDecorators = array(\n    'ViewHelper',\n    array(array('data' => 'HtmlTag'), array('tag' => 'div', 'class' => 'checkbox')),\n    array('Label', array('placement' => 'APPEND')),\n    array(array('row' => 'HtmlTag'), array('tag' => 'li')),\n);

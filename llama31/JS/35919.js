@@ -1,1 +1,0 @@
-<script>\n  setTimeout(function() {\n    location.reload();\n  }, N * 1000);\n</script>

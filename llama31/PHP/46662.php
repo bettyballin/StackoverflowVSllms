@@ -1,1 +1,0 @@
-$configFile = 'path/to/config.php';\nif (is_writable($configFile)) {\n    die('Config file is writable, please set read-only permissions');\n}

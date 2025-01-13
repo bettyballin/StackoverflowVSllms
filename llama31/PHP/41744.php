@@ -1,1 +1,0 @@
-$values = array($_POST['var_x'], $_POST['another_var'], $_POST['some_string']);\n$sql = "SELECT * FROM table WHERE id = ? AND name = ? AND email = ?";\n$escapedSql = autoEscape($sql, $values);\n$DB->Exec($escapedSql);

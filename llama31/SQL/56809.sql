@@ -1,1 +1,0 @@
-SELECT w.*\nFROM tb_Worker w\nINNER JOIN tb_Manager m ON w.ManagerID = m.ManagerID\nWHERE m.HeadID = @HeadID

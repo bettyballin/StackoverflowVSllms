@@ -1,1 +1,0 @@
-$('#yourDivId').css('visibility', 'visible');

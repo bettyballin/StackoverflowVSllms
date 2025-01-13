@@ -1,1 +1,0 @@
--- Example: Regularly check for SQL Server updates and patches\nSELECT @@VERSION AS SQLServerVersion;\n-- Use a secure key exchange protocol, like ECDH or RSA-OAEP\n-- ( implementation depends on your specific use case )

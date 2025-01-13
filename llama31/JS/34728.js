@@ -1,1 +1,0 @@
-$('#table-body').append($(newContent));

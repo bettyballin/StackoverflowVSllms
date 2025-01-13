@@ -1,1 +1,0 @@
-WITH Dates AS (\n  SELECT CAST(GETDATE() - 30 AS DATE) AS Date\n  UNION ALL\n  SELECT DATEADD(DAY, 1, Date)\n  FROM Dates\n  WHERE Date < CAST(GETDATE() AS DATE)\n)\nSELECT \n  d.Date, \n  COALESCE(SUM(o.SubTotal), 0) AS SalesSum\nFROM Dates d\nLEFT JOIN Orders o ON d.Date = o.DateCreated\nGROUP BY d.Date\nORDER BY d.Date;

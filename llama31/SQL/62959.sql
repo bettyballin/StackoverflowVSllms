@@ -1,1 +1,0 @@
-SELECT TO_CHAR(NVL(arg1 - arg2, TO_DSINTERVAL('0 00:00:00')), 'SFFMI:SS.FF3') \nFROM table1;

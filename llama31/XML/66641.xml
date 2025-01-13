@@ -1,1 +1,0 @@
-<system.webServer>\n  <handlers>\n    <remove name="ExtensionlessUrlHandler-Integrated-4.0" />\n    <add name="ExtensionlessUrlHandler-Integrated-4.0" \n         path="*." \n         verb="GET,HEAD,POST,PUT,DELETE" \n         type="System.Web.Handlers.TransferRequestHandler" \n         preCondition="integratedMode,runtimeVersionv4.0" />\n  </handlers>\n</system.webServer>

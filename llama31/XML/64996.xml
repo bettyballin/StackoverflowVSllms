@@ -1,1 +1,0 @@
-<Column Name="BlobField" Member="BlobField" \n        DbType="varbinary(max)" CanBeNull="true" IsDelayLoaded="true" />

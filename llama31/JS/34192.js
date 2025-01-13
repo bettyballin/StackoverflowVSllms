@@ -1,1 +1,0 @@
-fetch('/check-username')\n  .then(response => response.json())\n  .then(data => {\n    // handle the response\n  })\n  .catch(error => {\n    // handle the error\n  });

@@ -1,1 +1,0 @@
-window.addEventListener('unload', function() {\n  navigator.sendBeacon('/unlock-item', {\n    id: itemId // send the item id to unlock\n  });\n});

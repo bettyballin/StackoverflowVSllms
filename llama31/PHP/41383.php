@@ -1,1 +1,0 @@
-<?php\n$env = "<%= fetch(:env) %>";

@@ -1,1 +1,0 @@
-$name = 'Ross';\n$template = '<p>Hello, my name is $name.</p>';\necho output_template($template, array('name' => $name));

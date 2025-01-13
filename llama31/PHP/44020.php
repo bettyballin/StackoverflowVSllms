@@ -1,1 +1,0 @@
-$workbook->close();\n$workbook->send('test.xls');

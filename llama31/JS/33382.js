@@ -1,1 +1,0 @@
-openLightbox('path/to/your/pdf.pdf');

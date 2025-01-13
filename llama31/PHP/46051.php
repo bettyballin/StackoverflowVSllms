@@ -1,1 +1,0 @@
-class MyCompany_MyModule_Model_Article extends Mage_Core_Model_Abstract\n{\n    protected function _construct()\n    {\n        $this->_init('mycompany_mymodule/article');\n    }\n\n    public function getArticleById($id)\n    {\n        $collection = $this->getCollection()\n            ->addFieldToFilter('id', $id);\n        return $collection->getFirstItem();\n    }\n}

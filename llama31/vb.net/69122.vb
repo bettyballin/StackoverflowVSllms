@@ -1,1 +1,0 @@
-Dim getter As Func(Of YourClass, String) = Extensions.GetPropertyGetter(Of YourClass, String)(Me, NameOf(PropertyName))

@@ -1,1 +1,0 @@
-$_SESSION['foo'] = 'bar';\nputenv("SESSION_FOO=$_SESSION[foo]");

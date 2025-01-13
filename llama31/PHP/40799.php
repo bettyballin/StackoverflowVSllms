@@ -1,1 +1,0 @@
-if ( !is_string( $key ) ) {\n    return new WP_Error('invalid_key', __('Invalid key'));\n}

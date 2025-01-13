@@ -1,1 +1,0 @@
-// Assuming $pdo is your PDO connection object\n$stmt = $pdo->query("SELECT * FROM your_table");\n\n// Fetch all rows as an associative array\n$multidimensionalArray = $stmt->fetchAll(PDO::FETCH_ASSOC);\n\n// Close the PDO connection\n$pdo = null;

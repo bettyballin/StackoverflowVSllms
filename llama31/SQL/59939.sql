@@ -1,1 +1,0 @@
-SELECT \n  ROWNUM AS row_num,\n  column1,\n  column2,\n  ...\nFROM (\n  SELECT \n    column1,\n    column2,\n    ...\n  FROM \n    your_table\n  GROUP BY \n    column1, column2, ...\n  ORDER BY \n    column_name\n);

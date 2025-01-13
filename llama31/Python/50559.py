@@ -1,1 +1,0 @@
-def binary_insertion_sort(arr):\n    for i in range(1, len(arr)):\n        key = arr[i]\n        left = 0\n        right = i\n        while left < right:\n            mid = (left + right) // 2\n            if arr[mid] < key:\n                left = mid + 1\n            else:\n                right = mid\n        arr[left:i+1] = [key] + arr[left:i]\n    return arr

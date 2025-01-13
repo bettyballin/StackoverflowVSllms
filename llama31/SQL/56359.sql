@@ -1,1 +1,0 @@
-DECLARE @OriginalLogin nvarchar(256)\nSET @OriginalLogin = ORIGINAL_LOGIN()

@@ -1,1 +1,0 @@
-$result = $mysqli->query("SELECT * FROM table_name");\nwhile ($row = $result->fetch_assoc()) {\n    echo $row['column_name']; // Display Japanese text correctly\n}

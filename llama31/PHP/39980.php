@@ -1,1 +1,0 @@
-$mysqli = new mysqli("localhost", "username", "password", "database");\n\n// Insert a row into the table\n$query = "INSERT INTO table_name (column1, column2) VALUES ('value1', 'value2')";\n$mysqli->query($query);\n\n// Get the auto-incremented primary key value\n$id = $mysqli->insert_id;\n\necho "The auto-incremented primary key value is: $id";

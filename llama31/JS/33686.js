@@ -1,1 +1,0 @@
-function remove_wall(id) {\n    $("#contentArea").load("remove.php?wall_id=" + id + "", function() {\n        $("#recent_activity").load("activity.php?random=" + unique_requestid());\n    });\n}

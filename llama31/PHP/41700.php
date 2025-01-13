@@ -1,1 +1,0 @@
-$jj = file_get_contents('template.php');\neval('?>'.$jj.'<?php ');

@@ -1,1 +1,0 @@
-def show\n  # assuming you have a variable `data` containing the file contents\n  send_data(data, type: 'multipart/related', filename: 'your_descriptive_filename.ppt')\nend

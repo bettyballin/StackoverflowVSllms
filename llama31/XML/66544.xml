@@ -1,1 +1,0 @@
-<Context path="/myapp" docBase="/var/lib/tomcat/webapps/myapp" aliases="/member-data=/var/data/member-data">

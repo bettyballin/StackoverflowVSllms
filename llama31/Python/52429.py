@@ -1,1 +1,0 @@
-import ctypes\n\n# Define the MessageBox function\nMessageBox = ctypes.windll.user32.MessageBoxW\n\n# Define the MB_SERVICE_NOTIFICATION flag\nMB_SERVICE_NOTIFICATION = 0x00200000\n\n# Call MessageBox with the MB_SERVICE_NOTIFICATION flag\nMessageBox(None, "Alert message", "Service Alert", MB_SERVICE_NOTIFICATION)

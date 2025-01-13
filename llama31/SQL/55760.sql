@@ -1,1 +1,0 @@
--- Example Oracle SQL query to get started\nSELECT * FROM DUAL;

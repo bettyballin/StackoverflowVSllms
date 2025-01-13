@@ -1,1 +1,0 @@
-function reduceDimension($S, $k) {\n    $reducedS = array();\n    for ($i = 0; $i < $k; $i++) {\n        $reducedS[] = $S[$i];\n    }\n    return $reducedS;\n}\n\n$k = 2; // reduce dimensionality to 2\n$reducedS = reduceDimension($S, $k);

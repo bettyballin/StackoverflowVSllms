@@ -1,1 +1,0 @@
-' VB 2005 with Generics\nDim myList As New List(Of String)\nmyList.Add("Hello")

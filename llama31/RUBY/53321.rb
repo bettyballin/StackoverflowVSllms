@@ -1,1 +1,0 @@
-<%= Html.ValidationMessageFor(m => m.availability.StartDate, "*") %>

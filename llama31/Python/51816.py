@@ -1,1 +1,0 @@
-from collections.abc import Sequence\n\ndef is_generic_list(obj):\n    return isinstance(obj, Sequence) and not isinstance(obj, str)\n\n# Test the function\nmy_list = [1, 2, 3]\nprint(is_generic_list(my_list))  # Output: True\n\nmy_generic_list = list()\nprint(is_generic_list(my_generic_list))  # Output: True

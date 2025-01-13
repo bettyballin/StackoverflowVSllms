@@ -1,1 +1,0 @@
-$est_time = "2023-03-15 14:30:00"; // example EST time\n$gmt_time = gmdate("Y-m-d H:i:s", strtotime($est_time) - 5 * 3600); // subtract 5 hours from EST to get GMT\necho $gmt_time;

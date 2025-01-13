@@ -1,1 +1,0 @@
-ini_set('session.save_handler', 'redis');\nini_set('session.save_path', 'tcp://redis-host:6379');

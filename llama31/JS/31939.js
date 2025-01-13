@@ -1,1 +1,0 @@
-function addDependentProperty(depName, depValue) {\n    dependentProperties.push({ key: depName, value: depValue });\n}

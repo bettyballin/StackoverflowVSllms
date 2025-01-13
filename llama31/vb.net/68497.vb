@@ -1,1 +1,0 @@
-' Create a TableLayoutPanel\nDim tableLayoutPanel As New TableLayoutPanel()\ntableLayoutPanel.Dock = DockStyle.Fill\nMe.Controls.Add(tableLayoutPanel)\n\n' Add controls to the TableLayoutPanel\ntableLayoutPanel.Controls.Add(yourControlName, 0, 0)

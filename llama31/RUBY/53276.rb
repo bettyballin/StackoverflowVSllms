@@ -1,1 +1,0 @@
-<meta name="csrf-token" content="<%= form_authenticity_token %>">

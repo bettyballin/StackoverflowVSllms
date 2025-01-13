@@ -1,1 +1,0 @@
-import inspect\n\ndef my_function(a, b, c):\n    pass\n\nargspec = inspect.getfullargspec(my_function)\nprint(argspec.args)

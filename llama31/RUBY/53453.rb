@@ -1,1 +1,0 @@
-def my_action\n  # ...\n  render json: my_data, content_type: 'application/json'\nend

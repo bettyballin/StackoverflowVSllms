@@ -1,1 +1,0 @@
-var prm = Sys.WebForms.PageRequestManager.getInstance();\nprm.add_initializeRequest(function(sender, args) {\n    if (args.get_postBackElement().id === 'yourUpdatePanelId') {\n        window.onbeforeunload = null;\n    }\n});

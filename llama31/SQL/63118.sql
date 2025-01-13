@@ -1,1 +1,0 @@
-DELIMITER $$\n\nCREATE PROCEDURE conditional_update(\n  IN user_id INT,\n  IN row_id INT,\n  IN new_value VARCHAR(255)\n)\nBEGIN\n  IF row_id >= x THEN  -- replace x with your desired value\n    UPDATE your_table\n    SET column_name = new_value\n    WHERE id = row_id;\n  ELSE\n    SIGNAL SQLSTATE '45000' SET MESSAGE_TEXT = 'Access denied';\n  END IF;\nEND$$\n\nDELIMITER ;

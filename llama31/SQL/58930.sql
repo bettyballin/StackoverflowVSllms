@@ -1,1 +1,0 @@
-SELECT \n  location,\n  COUNT(CASE WHEN type = 'X' THEN 1 END) AS count_x,\n  SUM(CASE WHEN type = 'X' THEN duration END) AS sum_x,\n  COUNT(CASE WHEN type = 'Y' THEN 1 END) AS count_y,\n  SUM(CASE WHEN type = 'Y' THEN duration END) AS sum_y\nFROM \n  my.table\nWHERE \n  location = @location\n  AND date(some_tstamp) = @date\nGROUP BY \n  locatio

@@ -1,1 +1,0 @@
-p1 = np.array([1.0, 2.0, 3.0])  # X1, Y1, Z1\np2 = np.array([4.0, 5.0, 6.0])  # X2, Y2, Z2\np3 = np.array([7.0, 8.0, 9.0])  # X3, Y3, Z3\np4 = np.array([10.0, 11.0, 12.0])  # X4, Y4, Z4\n\ndistance = shortest_distance(p1, p2, p3, p4)\nprint(distance)  # prints the shortest distance between the two line segments

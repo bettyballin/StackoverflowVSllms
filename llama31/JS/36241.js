@@ -1,1 +1,0 @@
-function sub() {\n    var x = document.getElementsByName("user");\n    var i = x.length - 1;\n    while (i >= 0) {\n        if (x[i].checked) {\n            x[i].name = "id";\n        }\n        i--;\n    }\n    document.checks.submit();\n}

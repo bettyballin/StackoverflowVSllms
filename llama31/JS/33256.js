@@ -1,1 +1,0 @@
-// assume you have a variable `newUrl` with the updated URL\nhistory.pushState(null, null, newUrl);

@@ -1,1 +1,0 @@
-$newFiles = array();\nforeach ($_FILES["filedata"] as $key => $values) {\n    foreach ($values as $index => $value) {\n        $newFiles[$index][$key] = $value;\n    }\n}\n\nprint_r($newFiles);

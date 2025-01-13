@@ -1,1 +1,0 @@
-$str = 'result: ';\n$count = 5;\necho $str . $count; //result: 5

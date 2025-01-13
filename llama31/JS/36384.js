@@ -1,1 +1,0 @@
-// Capture mouse\ndocument.addEventListener('mousemove', function(event) {\n  // Handle mouse move event\n}, true);\n\n// Release mouse capture\ndocument.removeEventListener('mousemove', function(event) {\n  // Handle mouse move event\n}, true);

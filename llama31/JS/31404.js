@@ -1,1 +1,0 @@
-$("#dataTable").children("tr").length;

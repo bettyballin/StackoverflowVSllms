@@ -1,1 +1,0 @@
-ALTER TABLE ratings\nADD CONSTRAINT fk_question_id FOREIGN KEY (entity_id) REFERENCES questions(id);

@@ -1,1 +1,0 @@
-$doc = new DOMDocument('1.0', 'UTF-8');\n$fragment = $doc->createDocumentFragment();\n$fragment->appendXML($text);\n$doc->appendChild($fragment);\n\n$anchors = $doc->getElementsByTagName('a');\nforeach($anchors as $a) {\n    $a->setAttribute('href', 'http://google.com');\n}\n\nreturn $doc->saveHTML();

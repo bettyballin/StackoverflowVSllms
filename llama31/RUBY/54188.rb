@@ -1,1 +1,0 @@
-should_render_template 'new.html.haml'

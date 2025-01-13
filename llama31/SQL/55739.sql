@@ -1,1 +1,0 @@
-`StartDate` datetime NULL,\n`EndDate` datetime NULL,

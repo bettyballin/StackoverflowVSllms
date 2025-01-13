@@ -1,1 +1,0 @@
-class Model\n  def self.find_current\n    rows = find(:all)\n    filter_my_rows(rows)\n  end\n\n  def self.filter_my_rows(rows)\n    #do stuff here on rows\n    rows.reject do |row|\n      #basically I remove rows that do not meet certain conditions\n    end\n  end\nend

@@ -1,1 +1,0 @@
-import serial\n\n# Open serial connection to Arduino board\nser = serial.Serial('/dev/ttyUSB0', 9600)\n\n# Send a message to the Arduino board\nser.write(b'Hello, Arduino!')\n\n# Read a response from the Arduino board\nresponse = ser.readline()\n\nprint(response.decode())\n\n# Close the serial connection\nser.close()

@@ -1,1 +1,0 @@
-$decorator = new Zend_Form_Decorator_HtmlTag(array(\n    'tag' => 'div',\n    'class' => 'my-custom-container'\n));\n$form->setDecorator($decorator);

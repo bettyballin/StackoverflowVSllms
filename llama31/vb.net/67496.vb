@@ -1,1 +1,0 @@
-Private Sub Button1_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles Button1.Click\n    TextBox1.Text = TextBox1.Text & vbNewLine & _\n        "Button clicked." & vbNewLine & _\n        "SelectedItem is: " & ComboBox1.SelectedItem.ToString()\nEnd Sub

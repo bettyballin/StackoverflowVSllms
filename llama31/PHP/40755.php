@@ -1,1 +1,0 @@
-// In your script that edits the XML file\nif ($edit_success) {\n    $_SESSION['message'] = 'Edit successful!';\n} else {\n    $_SESSION['message'] = 'Edit failed!';\n}\nheader('Location: form_page.php');\nexit;

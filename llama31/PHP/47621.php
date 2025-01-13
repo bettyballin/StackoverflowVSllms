@@ -1,1 +1,0 @@
-abstract class ParentClass {\n    abstract public static function foo();\n}\n\nclass ChildClass extends ParentClass {\n    // How would you implement this static method?\n    // public static function foo() {}\n}

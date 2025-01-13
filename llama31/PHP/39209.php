@@ -1,1 +1,0 @@
-foreach ($_GET as $field => $label) {\n    $datarray[$field] = $_GET[$field];\n}\n\nksort($datarray);\n\nforeach ($datarray as $field => $value) {\n    echo "$field : $value <br>";\n}

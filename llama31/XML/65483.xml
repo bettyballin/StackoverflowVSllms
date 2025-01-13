@@ -1,1 +1,0 @@
-<configuration>\n  <system.webServer>\n    <caching>\n      <fileCache maxSize="1000" />\n    </caching>\n  </system.webServer>\n</configuration>

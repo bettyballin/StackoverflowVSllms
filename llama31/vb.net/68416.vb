@@ -1,1 +1,0 @@
-For i As Integer = 0 To users.Count - 1 Step 20\n    For j As Integer = i To Math.Min(i + 19, users.Count - 1)\n        Dim user = users(j)\n        Dim mbx As IMailboxStore = user.NativeObject\n        mbx.CreateMailbox(store)\n        user.CommitChanges()\n    Next\n    Thread.Sleep(2000) ' 2-second delay between batches\nNext

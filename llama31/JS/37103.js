@@ -1,1 +1,0 @@
-var hiddenField = document.getElementsByName('__TabControlAction')[0];\nhiddenField.value = 'Click';

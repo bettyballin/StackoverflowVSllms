@@ -1,1 +1,0 @@
-$image = imagecreatetruecolor($width, $height);\n// ... generate the image using imagesetpixel ...\n\n// Upscale the image to 300 DPI\n$upscaledImage = imagecreatetruecolor($width * 4, $height * 4);\nimagecopyresampled($upscaledImage, $image, 0, 0, 0, 0, $width * 4, $height * 4, $width, $height);\n\n// Output the upscaled image\nimagepng($upscaledImage, 'output.png');

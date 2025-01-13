@@ -1,1 +1,0 @@
-// Open Chrome DevTools, then run:\nchrome.devtools.network.throttle.enabled = true;\nchrome.devtools.network.throttle.profile = 'Regular 3G';

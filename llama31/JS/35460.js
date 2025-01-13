@@ -1,1 +1,0 @@
-function getMessage(messageId) {\n    var message = $("<a id='errorMessageAnchor_" + messageId + "'>" + ((MessagingModel)ViewData["Messages"]).GetMessage(7002) + "</a>");\n    message.on("click", function() {\n        messageBuilder(messageId);\n    });\n    return message.prop("outerHTML");\n}

@@ -1,1 +1,0 @@
-$headers .= 'Content-type: text/plain; charset=iso-8859-1' . "\r\n";

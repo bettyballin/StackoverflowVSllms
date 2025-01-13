@@ -1,1 +1,0 @@
-<RegistryKey Root="HKCR" Key="CLSID\{clsid}\CodeBase">\n  <RegistryValue Type="string" Value="[GAC_32]\MyAssembly.dll" />\n</RegistryKey>

@@ -1,1 +1,0 @@
-DECLARE @myvar INT\nSET @myvar = 8\n\nSELECT * FROM mytable WHERE id > @myvar

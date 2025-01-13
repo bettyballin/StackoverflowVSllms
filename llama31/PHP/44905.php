@@ -1,1 +1,0 @@
-print "Cache-Control: no-cache, no-store, must-revalidate\n";\nprint "Pragma: no-cache\n";\nprint "Expires: 0\n";

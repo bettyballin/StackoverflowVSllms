@@ -1,1 +1,0 @@
-// view.php\nrequire_once 'settings.php';

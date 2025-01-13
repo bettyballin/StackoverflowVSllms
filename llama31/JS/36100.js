@@ -1,1 +1,0 @@
-var checkboxes = Y.all('#myForm input[type="checkbox"]');\n\n// Function to check all checkboxes\nfunction checkAll() {\n  checkboxes.each(function(checkbox) {\n    checkbox.set('checked', true);\n  });\n}\n\n// Function to uncheck all checkboxes\nfunction uncheckAll() {\n  checkboxes.each(function(checkbox) {\n    checkbox.set('checked', false);\n  });\n}

@@ -1,1 +1,0 @@
-INSERT INTO mytable (id, xmldata)\nVALUES (p_id, XMLType(p_xmldata).parse());

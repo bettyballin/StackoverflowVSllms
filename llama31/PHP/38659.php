@@ -1,1 +1,0 @@
-function truncate_string($str, $length, $ending = '...') {\n    return mb_strlen($str) > $length ? mb_substr($str, 0, $length - mb_strlen($ending)) . $ending : $str;\n}

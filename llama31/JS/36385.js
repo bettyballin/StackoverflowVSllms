@@ -1,1 +1,0 @@
-const obj1Meta = document.querySelector('#obj1 #Meta');\nconst metaTags = obj1Meta.getElementsByTagName('meta');

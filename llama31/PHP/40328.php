@@ -1,1 +1,0 @@
-// Start the Session\nsession_start();\n\n// Check for a valid session\nif (!isset($_SESSION['user_id']) || empty($_SESSION['user_id'])) {\n    header("Location: login.php");\n    exit();\n}

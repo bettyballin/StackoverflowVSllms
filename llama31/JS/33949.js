@@ -1,1 +1,0 @@
-window.onpopstate = function(event) {\n    __doPostBack('<%= UpdatePanel1.ClientID %>', '');\n};

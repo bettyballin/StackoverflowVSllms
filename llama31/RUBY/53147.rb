@@ -1,1 +1,0 @@
-class Event < ActiveRecord::Base\n  scope :latest_events, -> { group(:patient_id, :event_type).maximum(:event_date) }\nend

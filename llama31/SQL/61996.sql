@@ -1,1 +1,0 @@
-(100.0 * [TotalVisit1] / [TotalVisits]) AS Visit1percent

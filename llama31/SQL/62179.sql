@@ -1,1 +1,0 @@
-SELECT value FROM v$diag_info WHERE name = 'Diag Trace';

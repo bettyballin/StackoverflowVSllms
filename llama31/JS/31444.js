@@ -1,1 +1,0 @@
-const category = getContentCategory(content);\nconst div = document.createElement('div');\ndiv.classList.add('header_div', `category-${category}`);\ndiv.innerHTML = content;

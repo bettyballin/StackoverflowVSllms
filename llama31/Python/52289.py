@@ -1,1 +1,0 @@
-import requests\n\naccess_token = 'your_access_token'\nresponse = requests.get(f'https://graph.facebook.com/v3.1/me?access_token={access_token}')\n\nprint(response.json())

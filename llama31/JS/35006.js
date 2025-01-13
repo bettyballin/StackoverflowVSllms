@@ -1,1 +1,0 @@
-var img = new Image();\nimg.onload = function() {\n  console.log('Image loaded successfully');\n};\nimg.onerror = function() {\n  console.log('Error loading image');\n};\nimg.src = 'path_to_your_image.jpg';

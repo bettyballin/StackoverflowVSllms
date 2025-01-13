@@ -1,1 +1,0 @@
-import hashlib\n\ndef seal(x, max_value=1000000):\n    salt = str(random.randint(0, max_value))\n    hashed = hashlib.sha256((str(x) + salt).encode()).hexdigest()\n    return hashed, salt\n\ndef unseal(hashed, salt):\n    for x in range(max_value):\n        if hashlib.sha256((str(x) + salt).encode()).hexdigest() == hashed:\n            return x\n    return None

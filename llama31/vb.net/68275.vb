@@ -1,1 +1,0 @@
-For i As Integer = 0 To MyProperty.PropertyActors.Count - 1\n    Dim PropertyActor As JCPropertyActor = MyProperty.PropertyActors(i)\n    ' Use PropertyActor and i as needed\nNext

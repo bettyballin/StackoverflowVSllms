@@ -1,1 +1,0 @@
-// controllers/Dashboard.php\nclass Dashboard extends MY_Controller {\n    public function __construct() {\n        parent::__construct();\n        $this->requires_login();\n    }\n\n    public function index() {\n        // Only accessible if the user is logged in\n    }\n}

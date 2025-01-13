@@ -1,1 +1,0 @@
-SELECT *\nFROM my_table\nORDER BY id  -- or any other column you want to order by\nOFFSET 300010 ROWS\nFETCH NEXT 10 ROWS ONLY;

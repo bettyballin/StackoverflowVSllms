@@ -1,1 +1,0 @@
-SELECT * FROM tblNames\nWHERE ID LIKE '[_]1'

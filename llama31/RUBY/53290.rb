@@ -1,1 +1,0 @@
-create_table :contents, options: "ENGINE=InnoDB AUTO_INCREMENT=500" do |t|\n  t.string  :type,                :null => false\n  t.string  :name,                :null => false\nend

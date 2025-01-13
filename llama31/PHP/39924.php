@@ -1,1 +1,0 @@
-$start_time = microtime(true);\n// your function call here\n$end_time = microtime(true);\necho "Execution time: " . ($end_time - $start_time) . " seconds\n";

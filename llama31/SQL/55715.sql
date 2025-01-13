@@ -1,1 +1,0 @@
-CREATE UNIQUE INDEX idx_name ON table_name (column_name)\nWHERE deleted_date IS NULL;

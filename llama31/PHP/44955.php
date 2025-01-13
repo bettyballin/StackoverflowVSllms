@@ -1,1 +1,0 @@
-$vname = 'phone';\n$$vname = '555-1234';\nprint $phone;

@@ -1,1 +1,0 @@
-$xml .= "<table>" . htmlspecialchars($row['Tables_in_blog']) . "</table>";

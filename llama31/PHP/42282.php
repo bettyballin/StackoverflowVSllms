@@ -1,1 +1,0 @@
-use Delight\Auth\Auth;\n\n$auth = new Auth($db); // $db is a PDO instance\n\n// Register a new user\n$auth->register('username', 'password', 'email@example.com');\n\n// Login a user\n$auth->login('username', 'password');\n\n// Check if a user is logged in\nif ($auth->isLoggedIn()) {\n    // User is logged in\n}

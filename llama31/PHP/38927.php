@@ -1,1 +1,0 @@
-$filteredArray = array_values($filteredArray);

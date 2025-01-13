@@ -1,1 +1,0 @@
-<System.ComponentModel.DefaultBindingProperty("BoundDate")> _\nPublic Class MyUserControl\n    ' ...\nEnd Class

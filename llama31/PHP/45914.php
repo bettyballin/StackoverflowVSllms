@@ -1,1 +1,0 @@
-$queries = preg_split('/;\s*\n(?=(?:[^`]*`[^`]*`)*[^`]*$)/', $content, -1, PREG_SPLIT_NO_EMPTY);

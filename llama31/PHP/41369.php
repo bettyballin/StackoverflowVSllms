@@ -1,1 +1,0 @@
-$stmt = $conn->prepare("INSERT INTO table (column) VALUES ('value')");\n$stmt->execute();\n$lastInsertId = $conn->lastInsertId();

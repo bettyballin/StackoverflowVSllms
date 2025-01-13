@@ -1,1 +1,0 @@
-fetch('/api/user-info')\n  .then(response => response.json())\n  .then(data => {\n    document.getElementById('username').innerHTML = `Welcome, ${data.username}!`;\n  });

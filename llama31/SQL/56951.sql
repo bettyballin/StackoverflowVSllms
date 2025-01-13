@@ -1,1 +1,0 @@
-EXPORT TO result.csv OF CSV\nSELECT col1, col2, coln\nFROM testtable t;

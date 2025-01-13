@@ -1,1 +1,0 @@
-v_query := 'SELECT * FROM table WHERE 1=1 ';\nIF v_name IS NOT NULL THEN\n    v_query := v_query || ' AND name = :name';\nEND IF;\nOPEN search_cursor FOR v_query USING v_name;

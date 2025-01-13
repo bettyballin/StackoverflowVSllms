@@ -1,1 +1,0 @@
-IF  EXISTS (SELECT name FROM msdb.dbo.sysjobs_view WHERE name = N'TestCleanupJob')\nEXEC msdb.dbo.sp_delete_job N'TestCleanupJob', @delete_unused_schedule=1\nGO

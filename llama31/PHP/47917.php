@@ -1,1 +1,0 @@
-class LoginService {\n    private $loginModel;\n\n    public function __construct(LoginModel $loginModel) {\n        $this->loginModel = $loginModel;\n    }\n\n    public function processLogin($credentials) {\n        return $this->loginModel->processLogin($credentials);\n    }\n}

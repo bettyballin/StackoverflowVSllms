@@ -1,1 +1,0 @@
-DELIMITER //\nCREATE PROCEDURE local_procedure(arg INT)\nBEGIN\n    CALL another_database.STORED_PROCEDURE(arg);\nEND//\nDELIMITER ;

@@ -1,1 +1,0 @@
-CREATE TABLE GeoCoordinates (\n    Latitude decimal(10, 7),\n    Longitude decimal(10, 7)\n);

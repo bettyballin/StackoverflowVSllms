@@ -1,1 +1,0 @@
-import React from 'react';\n\nconst posts = [...]; // your data here\n\nconst Row = ({ post, index }) => (\n  <div className={index % 2 === 0 ? 'even' : 'odd'}>\n    {post}\n  </div>\n);\n\nconst App = () => (\n  <div>\n    {posts.map((post, index) => (\n      <Row key={index} post={post} index={index} />\n    ))}\n  </div>\n);

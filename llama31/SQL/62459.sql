@@ -1,1 +1,0 @@
-CREATE TRIGGER trg_UpdateField\nON myTable\nAFTER UPDATE\nAS\nBEGIN\n    IF UPDATE(myField)\n    BEGIN\n        -- Update the field only if necessary\n        UPDATE myTable\n        SET myField = 'new value'\n        WHERE myCondition = 'true';\n    END;\nEND;

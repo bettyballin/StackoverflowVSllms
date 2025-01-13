@@ -1,1 +1,0 @@
-Dim myVariable As New TraceVariable(Of Integer)\n\nAddHandler myVariable.PropertyChanged, AddressOf MyVariableChanged\n\nmyVariable.Value = 10\n\n' ...\n\nPrivate Sub MyVariableChanged(ByVal sender As Object, ByVal e As PropertyChangedEventArgs)\n    ' Handle the variable change here\n    Trace.Write("myVariable = " & myVariable.Value)\nEnd Sub

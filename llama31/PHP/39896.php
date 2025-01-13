@@ -1,1 +1,0 @@
-<?php\n// authentication code here\nif ($authenticated) {\n    $file_path = '/path/to/file/above/webroot/';\n    $file_name = 'example.pdf';\n    header('Content-Type: application/pdf');\n    header('Content-Disposition: attachment; filename="' . $file_name . '"');\n    readfile($file_path . $file_name);\n    exit;\n} else {\n    // handle authentication failure\n}

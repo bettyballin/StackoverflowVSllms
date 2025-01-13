@@ -1,1 +1,0 @@
-$vars = array($var1, $var2, $var3);\nunset($vars);

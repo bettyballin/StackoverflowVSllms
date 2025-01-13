@@ -1,1 +1,0 @@
-match '/fruits/:id', :to => 'fruits#display', :via => :get

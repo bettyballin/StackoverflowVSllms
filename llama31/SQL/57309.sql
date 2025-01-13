@@ -1,1 +1,0 @@
-WITH ranked_data AS (\n  SELECT *, \n         DENSE_RANK() OVER (ORDER BY CAST(date_column AS DATE) DESC) AS rank\n  FROM your_table\n)\nSELECT * \nFROM ranked_data \nWHERE rank <= X;

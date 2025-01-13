@@ -1,1 +1,0 @@
-// application/controllers/MyScriptController.php\nclass MyScriptController extends Zend_Controller_Action\n{\n    public function indexAction()\n    {\n        // script logic here\n    }\n}

@@ -1,1 +1,0 @@
-<?php\nrequire_once 'PHPUnit/Framework.php';\n\nclass MyTest extends PHPUnit_Framework_TestCase\n{\n    public function testMyTest()\n    {\n        // Your test code here\n    }\n}\n\n$test = new MyTest();\n$test->convertErrorsToExceptions = true;\n$test->convertNoticesToExceptions = true;

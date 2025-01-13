@@ -1,1 +1,0 @@
-var formData = new FormData();\nformData.append('textAreaData', $('#yourTextArea').val());\n\n$.ajax({\n    type: 'POST',\n    url: '/your-url',\n    data: formData,\n    processData: false,\n    contentType: false,\n    success: function(data) {\n        console.log(data);\n    }\n});

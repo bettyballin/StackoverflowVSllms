@@ -1,1 +1,0 @@
-# Load the Rails console\nrails c\n\n# Get an instance of the controller you want to test\ncontroller = ApplicationController.new\n\n# Simulate a request\nrequest = ActionController::TestRequest.new\n\n# Set the request parameters\nrequest.params[:id] = 1\n\n# Call the controller method\ncontroller.process(request, ActionController::TestResponse.new)

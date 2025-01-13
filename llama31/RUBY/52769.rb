@@ -1,1 +1,0 @@
-module YourApp\n  class Application < Rails::Application\n    # ...\n    config.generators.test_framework = :rspec\n  end\nend

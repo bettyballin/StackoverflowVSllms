@@ -1,1 +1,0 @@
-var xhr = new XMLHttpRequest();\nxhr.open('GET', 'your-page-url', true);\nxhr.addEventListener('progress', function(event) {\n  var percent = (event.loaded / event.total) * 100;\n  document.getElementById('progress-bar').style.width = percent + '%';\n  document.getElementById('progress-text').innerHTML = Math.round(percent) + '%';\n});\nxhr.send();

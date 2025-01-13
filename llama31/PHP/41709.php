@@ -1,1 +1,0 @@
-$imageFolder = 'path/to/image/folder/';\n$imageList = array();\n\n$files = scandir($imageFolder);\nforeach ($files as $file) {\n    if (is_file($imageFolder . $file) && preg_match('/\.(jpg|jpeg|png|gif)$/', $file)) {\n        $imageList[] = $file;\n    }\n}\n\nheader('Content-Type: application/json');\necho json_encode($imageList);

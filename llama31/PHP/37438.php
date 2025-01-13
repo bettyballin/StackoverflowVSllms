@@ -1,1 +1,0 @@
-$pipe_name = '/tmp/my_pipe';\nposix_mkfifo($pipe_name, 0666);\n\n// Send a message to the C# program\n$fp = fopen($pipe_name, 'w');\nfwrite($fp, 'Hello, C#!');\nfclose($fp);

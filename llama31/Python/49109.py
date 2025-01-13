@@ -1,1 +1,0 @@
-print(aks_primality_test(25))  # False\nprint(aks_primality_test(23))  # True

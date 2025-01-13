@@ -1,1 +1,0 @@
-<head>\n    <base href="<?php echo url::base(); ?>">\n</head>

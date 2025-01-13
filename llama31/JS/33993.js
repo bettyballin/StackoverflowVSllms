@@ -1,1 +1,0 @@
-var div = jQuery("#divLeftSideModelsList");\nalert(div);

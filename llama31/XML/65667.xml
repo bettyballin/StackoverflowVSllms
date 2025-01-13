@@ -1,1 +1,0 @@
-<bindings>\n  <webHttpBinding>\n    <binding name="webHttpBindingConfig" transferMode="Streamed" />\n  </webHttpBinding>\n</bindings>

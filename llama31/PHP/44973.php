@@ -1,1 +1,0 @@
-$mysqli = new mysqli('localhost', 'username', 'password', 'dbname');\n\n$stmt = $mysqli->prepare("INSERT INTO articles (title, description, ctext, chtml) VALUES (?, ?, ?, ?)");\n$stmt->bind_param("ssss", $title, $description, $text, $html);\n$stmt->execute();

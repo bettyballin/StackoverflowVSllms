@@ -1,1 +1,0 @@
-function clearElement(elementId) {\n  var parent = document.getElementById(elementId);\n  while (parent.firstChild) {\n    parent.removeChild(parent.firstChild);\n  }\n}\n\n// Usage:\nclearElement("FirstDiv");

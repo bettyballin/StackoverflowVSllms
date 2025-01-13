@@ -1,1 +1,0 @@
-CREATE TABLE test (id INT PRIMARY KEY, value VARCHAR(255));\n\n-- Insert 1 million rows\nINSERT INTO test (id, value) VALUES (1, 'value1'), (2, 'value2'), ..., (1000000, 'value1000000');\n\n-- DELETE FROM table\nDELETE FROM test;  // takes a long time\n\n-- TRUNCATE TABLE\nTRUNCATE TABLE test;  // takes almost 0 time

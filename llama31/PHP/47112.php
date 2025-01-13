@@ -1,1 +1,0 @@
-$tag = str_replace(' ', '-', $_GET['tag']);\n$tag = mysql_real_escape_string($tag);\n\n$query = mysql_query("SELECT * FROM tags WHERE name = '$tag'");\n$row = mysql_fetch_assoc($query);\n\nif (!mysql_num_rows($query)) exit('That tag dont exist');

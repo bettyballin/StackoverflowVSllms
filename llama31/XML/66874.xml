@@ -1,1 +1,0 @@
-<configuration>\n  <system.webServer>\n    <rewrite>\n      <allowedServerVariables>\n        <add name="HTTP_HOST" />\n      </allowedServerVariables>\n    </rewrite>\n  </system.webServer>\n</configuration>

@@ -1,1 +1,0 @@
-$row['field'] = str_replace('&', '&amp;', $row['field']);

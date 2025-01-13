@@ -1,1 +1,0 @@
-UPDATE your_table\nSET your_unique_column = CASE\n    WHEN your_unique_column = 'value1' THEN 'value2'\n    WHEN your_unique_column = 'value2' THEN 'value1'\n    ELSE your_unique_column\nEND\nWHERE your_unique_column IN ('value1', 'value2');

@@ -1,1 +1,0 @@
-$profileUrl = 'https://api.myspace.com/v2/people/@me?access_token=' . $accessToken;\n\n$ch = curl_init($profileUrl);\ncurl_setopt($ch, CURLOPT_RETURNTRANSFER, true);\n\n$response = curl_exec($ch);\ncurl_close($ch);\n\n$profileData = json_decode($response, true);

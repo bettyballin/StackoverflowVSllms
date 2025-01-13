@@ -1,1 +1,0 @@
-// Add an event listener to the div that holds the message list\ndocument.getElementById('myDiv').addEventListener('DOMSubtreeModified', playSound);\n\n// Function to play the sound\nfunction playSound() {\n  // Check if the sound is enabled\n  if (soundEnabled) {\n    // Play the sound using the Web Audio API\n    var audio = new Audio('bling.mp3');\n    audio.play();\n  }\n}

@@ -1,1 +1,0 @@
-var xhr = new XMLHttpRequest();\nxhr.open("HEAD", "/path/to/resource", true);\nxhr.send();

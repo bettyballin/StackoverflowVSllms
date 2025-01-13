@@ -1,1 +1,0 @@
-let jsonData = {\n  "all": {\n    "foo": 1025,\n    "bar": {\n      "baz": 37628,\n      "quux": {\n        "a": 179,\n        "b": 7\n      }\n    }\n  }\n};\n\n$("#tree").jstree({\n  core: {\n    data: jsonData\n  }\n});

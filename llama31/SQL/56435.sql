@@ -1,1 +1,0 @@
-SELECT LEFT(field1, LEN(field1) - 1) AS result\nFROM your_table;

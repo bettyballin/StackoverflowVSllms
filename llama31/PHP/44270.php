@@ -1,1 +1,0 @@
-// In your view class\npublic function render($template, $vars = array()) {\n    extract($vars);\n    include($template);\n}\n\n// In your controller\n$vars = array('foo' => 'bar');\n$this->view->render('myView.phtml', $vars);

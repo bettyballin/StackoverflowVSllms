@@ -1,1 +1,0 @@
-element.style.opacity = 0.99999;\nelement.style.opacity = 1;

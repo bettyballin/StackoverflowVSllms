@@ -1,1 +1,0 @@
-function toggle() {\n    for (var i = 13; i <= 17; i++) {\n        jQuery("table tr th:nth-child(" + i + "), table tr td:nth-child(" + i + ")").toggle();\n    }\n}

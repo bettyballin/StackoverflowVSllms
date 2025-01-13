@@ -1,1 +1,0 @@
-container.AddComponent("httpservicewatcher", GetType(HttpServiceWatcher), New Castle.Windsor.Configuration.Parameters Parameter() { _\n    New Castle.Windsor.Configuration.Parameters.ServiceParameter(GetType(IFailureNotifier), "email.notifier") _\n})

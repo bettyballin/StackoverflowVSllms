@@ -1,1 +1,0 @@
-import inspect\n\ndef heavy_function():\n    caller_frame = inspect.stack()[1]\n    caller_function_name = caller_frame.function\n    print(f"Called by {caller_function_name}")\n    # your function code here

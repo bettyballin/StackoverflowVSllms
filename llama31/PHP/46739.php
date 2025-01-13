@@ -1,1 +1,0 @@
-$start_time = microtime(true);\n$conn = new mysqli('remote_db_host', 'username', 'password', 'database');\n$end_time = microtime(true);\necho "Connection time: " . ($end_time - $start_time) . " seconds\n";

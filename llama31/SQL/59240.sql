@@ -1,1 +1,0 @@
-SELECT emp_no, CONCAT(emp_fname, ' ', emp_lname) AS full_name\nFROM your_table

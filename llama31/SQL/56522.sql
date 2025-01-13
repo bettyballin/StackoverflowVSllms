@@ -1,1 +1,0 @@
-BEGIN TRANSACTION;\n\nINSERT INTO inactive\nSELECT * FROM active\nWHERE ...;\n\nDELETE FROM active\nWHERE EXISTS (\n  SELECT 1 FROM inactive\n  WHERE inactive.primary_key = active.primary_key\n);\n\nCOMMIT TRANSACTION;

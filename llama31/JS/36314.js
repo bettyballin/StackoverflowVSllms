@@ -1,1 +1,0 @@
-$.connection.fileSaveHub.updateStatus = function (fileToSave) {\n    $('#status-label').text(`Saving file ${fileToSave}...`);\n};

@@ -1,1 +1,0 @@
-// included.js\n(function() {\n  var myVar = "test";\n  // ...\n})();

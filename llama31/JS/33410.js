@@ -1,1 +1,0 @@
-document.getElementById("MonitorInformation").style.color = "red";\ndocument.getElementById("MonitorInformation").style.fontSize = "24px";

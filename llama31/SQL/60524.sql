@@ -1,1 +1,0 @@
-SELECT 1\n  FROM DUAL\n WHERE REGEXP_LIKE(NVL('12345', ''), '^([1-5]{5})?$');\n\nSELECT 1\n  FROM DUAL\n WHERE REGEXP_LIKE(NVL('', ''), '^([1-5]{5})?$');\n\nSELECT 1\n  FROM DUAL\n WHERE REGEXP_LIKE(NVL(NULL, ''), '^([1-5]{5})?$');

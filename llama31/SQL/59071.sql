@@ -1,1 +1,0 @@
-DECLARE @dtTopDate datetime\nSET @dtTopDate = (SELECT MAX(date_build) \n                  FROM database..table \n                  WHERE parent = @Parent AND child = @Child)

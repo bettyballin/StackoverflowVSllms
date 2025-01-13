@@ -1,1 +1,0 @@
-// Domain A\nfunction receiveData(data) {\n  console.log(data);\n}\n\n// Domain B\nfunction sendData() {\n  return JSONP({\n    data: { foo: 'bar' }\n  });\n}

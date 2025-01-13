@@ -1,1 +1,0 @@
-posix_spawn('/usr/bin/mysql', array('-u', 'root', '-pxxxx', 'db_name'), array());

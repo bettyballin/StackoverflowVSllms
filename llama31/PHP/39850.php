@@ -1,1 +1,0 @@
-<?php\n$file = 'counter.txt';\n\nif (isset($_POST['click'])) {\n    $counter = (int) file_get_contents($file);\n    $counter++;\n    file_put_contents($file, $counter);\n    echo $counter;\n}\n\nif (isset($_GET['get_counter'])) {\n    echo file_get_contents($file);\n}\n?>

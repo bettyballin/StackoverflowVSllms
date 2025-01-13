@@ -1,1 +1,0 @@
-DELETE foo\nFROM foo\nLEFT JOIN bar\n  ON foo.id = bar.id\nWHERE foo.id = 1\nAND bar.id IS NULL;

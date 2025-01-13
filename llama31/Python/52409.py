@@ -1,1 +1,0 @@
-import OpenOPC\n\n# Create an OPC client instance\nopc = OpenOPC.client()\n\n# Connect to the OPC server\nopc.connect('opc.tcp://localhost:4840/freeopcua/server/')\n\n# Read a value from the OPC server\nvalue = opc.read('YourTagName')\n\n# Print the value\nprint(value)\n\n# Disconnect from the OPC server\nopc.disconnect()

@@ -1,1 +1,0 @@
-Dim FinalResult As String = Regex.Replace(sXMLResponse, pattern, "<start><end>", RegexOptions.Singleline)

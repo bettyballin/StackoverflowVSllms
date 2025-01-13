@@ -1,1 +1,0 @@
-$Router = $this->_front->getRouter();\n$CategoryRoute = new Zend_Controller_Router_Route(\n    'category/:category/:controller/:action/*',\n    array('category' => 'default-category-value') // add default value for category\n);\n$Router->addRoute('category', $CategoryRoute);

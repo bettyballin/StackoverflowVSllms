@@ -1,1 +1,0 @@
-class MyThread extends Thread {\n    public function run() {\n        // thread code here\n    }\n}\n\n$thread = new MyThread();\n$thread->start();

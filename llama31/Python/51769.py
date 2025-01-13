@@ -1,1 +1,0 @@
-latest_edition = Edition.objects.latest('pub_date')

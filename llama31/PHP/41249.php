@@ -1,1 +1,0 @@
-session_start();\n\n// Generate a new session ID using a CSPRNG\n$new_session_id = bin2hex(random_bytes(32));\nsession_id($new_session_id);

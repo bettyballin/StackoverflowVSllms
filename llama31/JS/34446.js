@@ -1,1 +1,0 @@
-$.ajax({\n  type: "POST",\n  url: "your_server_side_script.php",\n  data: {\n    user_id: your_user_id_variable\n  },\n  dataType: "json",\n  success: function(data) {\n    // Populate the fields with the retrieved data\n    // ...\n  }\n});

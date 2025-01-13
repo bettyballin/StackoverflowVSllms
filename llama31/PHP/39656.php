@@ -1,1 +1,0 @@
-$data = $stmt->fetchAll();\n$count = count($data);

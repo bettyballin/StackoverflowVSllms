@@ -1,1 +1,0 @@
-from django.db.models import Max, F\n\nprojects_list = Project.objects.annotate(latest_budget=Max('projectfundingdetail__budget')).filter(latest_budget__lte=1000).distinct()

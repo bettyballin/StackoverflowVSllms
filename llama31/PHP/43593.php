@@ -1,1 +1,0 @@
-class PluginRegistry {\n    private $plugins = array();\n\n    public function registerPlugin(PluginInterface $plugin) {\n        $this->plugins[$plugin->getName()] = $plugin;\n    }\n\n    public function getPlugins() {\n        return $this->plugins;\n    }\n\n    public function getPlugin($name) {\n        return $this->plugins[$name];\n    }\n}

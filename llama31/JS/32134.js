@@ -1,1 +1,0 @@
-var row = $('table tr').eq(0); // Access the first row

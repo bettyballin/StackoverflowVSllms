@@ -1,1 +1,0 @@
-CREATE DIRECTORY file_dir AS '/path/to/file/system/location';

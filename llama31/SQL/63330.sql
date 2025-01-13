@@ -1,1 +1,0 @@
--- Select all columns from table1 and the ID column from table2\nSELECT \n  table2.ID, \n  table1.* \nFROM \n  table2\n  -- Perform a LEFT JOIN on table1 based on the ID\n  LEFT JOIN table1 \n  ON table1.ID = table2.table1ID

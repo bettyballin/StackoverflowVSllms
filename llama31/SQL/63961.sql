@@ -1,1 +1,0 @@
-CREATE PROCEDURE sprocGetArticles\nAS\nBEGIN\n    SELECT \n        a.*,\n        (SELECT COUNT(*) FROM comments c WHERE c.articleid = a.articleid) AS comment_count\n    FROM \n        articles a\nEND

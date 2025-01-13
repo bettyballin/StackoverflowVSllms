@@ -1,1 +1,0 @@
-$dir = '/path/to/directory';\n$iterator = new DirectoryIterator($dir);\n\n$hashString = '';\nforeach ($iterator as $file) {\n    if ($file->isFile()) {\n        $hashString .= $file->getFilename() . $file->getMTime();\n    }\n}\n\n$hash = md5($hashString);

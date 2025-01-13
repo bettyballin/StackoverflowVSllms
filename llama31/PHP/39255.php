@@ -1,1 +1,0 @@
-$whatever = true;\n\nif ($whatever == true) {\n    echo "file2.php has been included<br />";\n    return; // This stops only the included script from further execution\n}\n\n// Additional code here

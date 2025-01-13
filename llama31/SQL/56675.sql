@@ -1,1 +1,0 @@
-CREATE TABLE TestTable (\n    MyField nvarchar(10) NOT NULL DEFAULT ''\n);\n\nINSERT INTO TestTable (MyField) VALUES (NULL);\n\nSELECT MyField FROM TestTable;

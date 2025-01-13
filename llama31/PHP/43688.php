@@ -1,1 +1,0 @@
-$str = null;\nvar_dump($str == ''); // bool(true)

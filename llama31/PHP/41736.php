@@ -1,1 +1,0 @@
-if (!current_user_can('manage_options')) { // subscribers do not have this capability\n    // redirect or limit content\n}

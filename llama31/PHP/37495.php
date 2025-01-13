@@ -1,1 +1,0 @@
-if ($_POST['token'] !== $_SESSION['token']) {\n    // Token mismatch, handle as an invalid request\n}

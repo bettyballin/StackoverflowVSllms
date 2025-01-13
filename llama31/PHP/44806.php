@@ -1,1 +1,0 @@
-// update rewrites.map file\n$file = 'rewrites.map';\n$contents = 'tools index.php?page=2';\nfile_put_contents($file, $contents);

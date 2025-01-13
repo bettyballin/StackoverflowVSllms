@@ -1,1 +1,0 @@
-<configuration>\n  <system.applicationHost>\n    <applicationPools>\n      <add name="MyAppPool" autoStart="true" />\n    </applicationPools>\n  </system.applicationHost>\n</configuration>

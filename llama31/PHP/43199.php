@@ -1,1 +1,0 @@
-if (!$stmt->execute()) {\n    echo "Error: " . $mysqli->error;\n}

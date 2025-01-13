@@ -1,1 +1,0 @@
-// In your JavaScript code\nvar hasErrors = $('#hasErrors').val() === 'True';\nif (hasErrors) {\n    // validation has errors\n}

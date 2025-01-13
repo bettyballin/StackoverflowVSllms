@@ -1,1 +1,0 @@
-// Set Content-Security-Policy header\nheader("Content-Security-Policy: default-src 'self'; script-src 'self' https://code.jquery.com;");

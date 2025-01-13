@@ -1,1 +1,0 @@
-SELECT \n  t1.*,\n  t2.*\nFROM \n  t1\n  LEFT JOIN t2 ON t1.id = t2.id\nWHERE \n  t1.column1 != t2.column1 OR\n  t1.column2 != t2.column2 OR\n  ...\n  t1.columnN != t2.columnN\nUNION ALL\nSELECT \n  t1.*,\n  t2.*\nFROM \n  t2\n  LEFT JOIN t1 ON t2.id = t1.id\nWHERE \n  t2.column1 != t1.column1 OR\n  t2.column2 != t1.column2 OR\n  ...\n  t2.columnN != t1.columnN

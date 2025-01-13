@@ -1,1 +1,0 @@
-$ipAddress = '192.168.1.100';\n$octets = explode('.', $ipAddress);\n$trimmedIpAddress = implode('.', array_slice($octets, 0, 3));\n\necho $trimmedIpAddress; // Output: 192.168.1

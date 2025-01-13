@@ -1,1 +1,0 @@
-SELECT cpu_time, total_elapsed_time\nFROM sys.dm_exec_query_stats\nWHERE query_hash = (SELECT query_hash FROM sys.dm_exec_requests WHERE session_id = @@SPID)

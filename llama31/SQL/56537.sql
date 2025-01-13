@@ -1,1 +1,0 @@
-PREPARE stmt FROM 'SELECT * FROM faq_questions WHERE sort_order > ? ORDER BY sort_order ASC LIMIT 1';\nSET @sort_order = 5;\nEXECUTE stmt USING @sort_order;

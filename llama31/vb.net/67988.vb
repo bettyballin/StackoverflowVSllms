@@ -1,1 +1,0 @@
-Private Const RT_HTML = 23

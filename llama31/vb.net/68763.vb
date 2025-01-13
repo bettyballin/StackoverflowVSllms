@@ -1,1 +1,0 @@
-Dim bytesRead As Int32 = networkStream.Read(bytes, 0, CInt(tcpClient.ReceiveBufferSize))\nDim returndata As String = Encoding.ASCII.GetString(bytes, 0, bytesRead)

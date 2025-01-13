@@ -1,1 +1,0 @@
-// Set environment variable\nputenv('MY_VAR=my_value');\n\n// Access environment variable\necho getenv('MY_VAR');

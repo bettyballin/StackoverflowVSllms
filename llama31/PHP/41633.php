@@ -1,1 +1,0 @@
-$data['cell_color'] = 'red'; // or 'green', 'blue', etc.\n$this->load->view('header', $data);

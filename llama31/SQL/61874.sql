@@ -1,1 +1,0 @@
-SELECT p.*, c.*\nFROM posts p\nJOIN (\n  SELECT post_id, comment_text, ROW_NUMBER() OVER (PARTITION BY post_id ORDER BY id DESC) AS row_num\n  FROM comments\n) c ON p.id = c.post_id\nWHERE c.row_num = 1

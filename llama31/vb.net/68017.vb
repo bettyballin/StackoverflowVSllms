@@ -1,1 +1,0 @@
-_wizardDialog.UIRoot.Controls.Add(DirectCast(wizardUserControl, SetupWizardStartPage))

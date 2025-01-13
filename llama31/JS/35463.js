@@ -1,1 +1,0 @@
-const text = 'now $39.99';\nconst regex = /\$\d{1,3}(?:\.\d{2})?/g;\nconst match = text.match(regex);\n\nif (match) {\n  console.log(match[0]); // Output: "$39.99"\n}

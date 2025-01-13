@@ -1,1 +1,0 @@
-session_write_close();\n// Start the download process

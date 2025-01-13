@@ -1,1 +1,0 @@
-use Sentry\ClientBuilder;\n\n$client = ClientBuilder::create()->getSentryClient();\n\n// Capture an exception\n$client->captureException(new \Exception('Something went wrong!'));

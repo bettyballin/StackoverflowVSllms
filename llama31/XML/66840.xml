@@ -1,1 +1,0 @@
-<system.webServer>\n  <modules>\n    <add name="ScriptInjectorModule" type="ScriptInjectorModule" />\n  </modules>\n</system.webServer>

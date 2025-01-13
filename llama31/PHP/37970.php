@@ -1,1 +1,0 @@
-echo json_encode(array('result'=>'hhh'));\n// outputs: {"result":"hhh"}

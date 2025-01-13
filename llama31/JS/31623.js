@@ -1,1 +1,0 @@
-$('a.Tag.Resource').each(function() {\n    var text = $(this).text();\n    console.log(text);\n});

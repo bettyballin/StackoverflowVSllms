@@ -1,1 +1,0 @@
-max_length = 10  # adjust to your maximum length\nmy_list = [None] * max_length\n\nfor row in rows:\n    c = list_of_categories.index(row["id"])\n    if c < len(my_list):\n        my_list[c] = row["name"]\n    else:\n        print("Index out of range!")

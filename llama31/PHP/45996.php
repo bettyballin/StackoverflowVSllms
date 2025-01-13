@@ -1,1 +1,0 @@
-require_once 'vendor/autoload.php';\n\n$detector = new Mobile_Detect();\n\nif ($detector->isMobile()) {\n    // Mobile device detected\n} else {\n    // Not a mobile device\n}

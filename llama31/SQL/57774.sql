@@ -1,1 +1,0 @@
-VACUUM your_table_name;

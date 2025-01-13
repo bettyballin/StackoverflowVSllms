@@ -1,1 +1,0 @@
-if ($_GET['p'] ?? null == "account.edit.topfriends" \n    || $_GET['action'] ?? null == "newmember" \n    || $_GET['p'] ?? null == "account.profile.name") {\n    // some more code here\n}

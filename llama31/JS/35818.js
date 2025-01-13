@@ -1,1 +1,0 @@
-FB.getLoginStatus(function(response) {\n  if (response.status === 'connected') {\n    // The session is valid, no need to refresh\n  } else {\n    // The session has expired or the user is not logged in, refresh the session\n    FB.login(function(response) {\n      // The session has been refreshed\n    });\n  }\n});

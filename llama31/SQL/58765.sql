@@ -1,1 +1,0 @@
--- Enable tracing for a specific session\nALTER SESSION SET sql_trace = TRUE;\n\n-- Run your queries here...\n\n-- Disable tracing\nALTER SESSION SET sql_trace = FALSE;\n\n-- Analyze the generated trace file\ntkprof <trace_file_name> <output_file_name> SORT=exeela

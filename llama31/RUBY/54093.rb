@@ -1,1 +1,0 @@
-unless @file.content_type == 'application/pdf'\n  errors.add(:file, "Only PDF files are allowed")\n  return false\nend

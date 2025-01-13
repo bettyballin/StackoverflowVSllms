@@ -1,1 +1,0 @@
-import ansi2html\n\nansi_text = "\033[00m\033[01;34mbin\033[00m\n\033[01;34mcode\033[00m\n\033[01;31mdropbox-lnx.x86-0.6.404.tar.gz\033[00m\n\033[00mfoo\033[00m"\nhtml_text = ansi2html.ansi2html(ansi_text)\nprint(html_text)

@@ -1,1 +1,0 @@
-$.ajax({\n    type: 'GET',\n    url: '/your/url',\n    data: yourData,\n    success: function(data) {\n        // handle success\n    }\n});

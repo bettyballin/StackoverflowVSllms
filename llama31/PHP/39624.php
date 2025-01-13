@@ -1,1 +1,0 @@
-$chk = 1;\nif ($chk == 1) {\n    echo '<script>window.onload = function() { testing(); };</script>';\n}

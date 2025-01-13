@@ -1,1 +1,0 @@
-public function __construct($vars)\n{\n    $allowedProperties = array('firstName', 'lastName', /* add more properties here */);\n    foreach ($vars as $var => $val) {\n        if (in_array($var, $allowedProperties)) {\n            $this->$var = $val;\n        } else {\n            throw new Exception("Invalid property: $var");\n        }\n    }\n}

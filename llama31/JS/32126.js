@@ -1,1 +1,0 @@
-function statechanged()\n{\n    if(xmlhttp.readyState==4)\n    {\n        var response = xmlhttp.responseText;\n        document.getElementById("response").innerHTML = response;\n        eval(response); // execute the JavaScript code received in the response\n    }\n}

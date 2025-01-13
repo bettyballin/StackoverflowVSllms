@@ -1,1 +1,0 @@
-SELECT *\nFROM searchable_data\nWHERE to_tsvector('english', name || ' ' || email || ' ' || description || ' ' || address) @@ to_tsquery('english', 'search_query');

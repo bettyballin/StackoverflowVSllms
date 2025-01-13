@@ -1,1 +1,0 @@
-// Assuming you have jQuery\n$('.image-link').on 'ajax:success', (event, data) ->\n  # Update the image and other parts of the page\n  $(this).find('img').attr 'src', data.new_image_url\n  $('#completion-status').text data.completion_status\n  $('#some-other-string').text data.some_other_string

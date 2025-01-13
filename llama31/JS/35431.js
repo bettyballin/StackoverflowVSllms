@@ -1,1 +1,0 @@
-function generateUUID() {\n  return 'xxxxxxxx-xxxx-4xxx-yxxx-xxxxxxxxxxxx'.replace(/[xy]/g, function(c) {\n    var r = crypto.getRandomValues(new Uint8Array(1))[0] % 16 | 0;\n    v = c == 'x' ? r : (r & 0x3 | 0x8);\n    return v.toString(16);\n  });\n}

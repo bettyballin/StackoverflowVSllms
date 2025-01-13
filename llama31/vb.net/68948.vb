@@ -1,1 +1,0 @@
-Imports System.Windows.Forms\n\nPublic Class Form1\n    Private Sub Button1_KeyDown(sender As Object, e As KeyEventArgs) Handles Button1.KeyDown\n        If e.KeyCode = Keys.Enter Then\n            ' Perform the desired action here\n            MessageBox.Show("Enter key pressed")\n        End If\n    End Sub\nEnd Class

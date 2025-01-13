@@ -1,1 +1,0 @@
-disable_functions = ibase_connect,ibase_pconnect,ibase_close

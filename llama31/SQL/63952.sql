@@ -1,1 +1,0 @@
-SELECT DOCUMENT_ID\nFROM your_table\nWHERE TAG = 'tag1'\n\nINTERSECT\n\nSELECT DOCUMENT_ID\nFROM your_table\nWHERE TAG = 'tag2'

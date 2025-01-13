@@ -1,1 +1,0 @@
-CREATE TABLE table1 (\n  id INT PRIMARY KEY,\n  name VARCHAR(255)\n);\n\nCREATE TABLE table2 (\n  id INT PRIMARY KEY,\n  table1_id INT,\n  FOREIGN KEY (table1_id) REFERENCES table1(id)\n);\n\nCREATE TABLE table3 (\n  id INT PRIMARY KEY,\n  table1_name VARCHAR(255),\n  FOREIGN KEY (table1_name) REFERENCES table1(name)\n);

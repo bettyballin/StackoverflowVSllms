@@ -1,1 +1,0 @@
-// Get the element\nvar element = document.getElementById('tId');\n\n// Get the current styles\nvar styles = window.getComputedStyle(element);\n\n// Get the width\nvar width = styles.getPropertyValue('width');\n\n// Modify the width\nelement.style.setProperty('width', '30%');

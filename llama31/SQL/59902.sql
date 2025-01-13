@@ -1,1 +1,0 @@
-DECLARE\n  TYPE cur_typ IS REF CURSOR;\n  v_cursor cur_typ;\n  v_count NUMBER;\nBEGIN\n  OPEN v_cursor FOR SELECT * FROM your_table;\n  SELECT COUNT(*) INTO v_count FROM your_table;\n  DBMS_OUTPUT.PUT_LINE('Record Count: ' || v_count);\n  CLOSE v_cursor;\nEND;

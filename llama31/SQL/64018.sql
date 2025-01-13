@@ -1,1 +1,0 @@
-SELECT *\nFROM (\n    SELECT \n        TRY_CAST(MyVal AS INT) AS MyValInt\n    FROM \n        dbo.TestTable\n) tabela\nWHERE \n    tabela.MyValInt > 6

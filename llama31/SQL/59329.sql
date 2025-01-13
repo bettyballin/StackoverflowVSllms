@@ -1,1 +1,0 @@
-CREATE PROCEDURE MyProc\n    @Message nvarchar(50) OUTPUT\nAS\nBEGIN\n    -- ...\n    SET @Message = 'Hello, World!';\nEND;

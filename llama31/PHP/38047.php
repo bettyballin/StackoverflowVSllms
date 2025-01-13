@@ -1,1 +1,0 @@
-class Base {\n    public function __construct() {\n        $childClassName = get_class($this);\n        echo "Child class name: $childClassName\n";\n    }\n}\n\nclass Child1 extends Base {}\nclass Child2 extends Base {}\n\nnew Child1();  // Outputs: Child class name: Child1\nnew Child2();  // Outputs: Child class name: Child2

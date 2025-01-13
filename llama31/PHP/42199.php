@@ -1,1 +1,0 @@
-header('HTTP/1.1 303 See Other');\nheader('Location: ' . $_SERVER['PHP_SELF']);\nexit;

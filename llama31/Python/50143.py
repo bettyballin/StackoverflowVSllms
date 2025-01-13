@@ -1,1 +1,0 @@
-import math\n\ndef table(n):\n    if n == 2: return 1\n    if n % 4 != 1: return\n\n    sqrt_n = math.isqrt(n)\n    for a in range(1, sqrt_n + 1):\n        if (a * a) % n == n - 1: return a

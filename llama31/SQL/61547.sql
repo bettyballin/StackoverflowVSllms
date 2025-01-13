@@ -1,1 +1,0 @@
-WITH RecursiveFolders AS (\n  SELECT FolderId, Name, ParentFolderId, 0 AS Level\n  FROM Folders\n  WHERE ParentFolderId IS NULL  -- anchor query: top-level folders\n  UNION ALL\n  SELECT f.FolderId, f.Name, f.ParentFolderId, Level + 1\n  FROM Folders f\n  JOIN RecursiveFolders p ON f.ParentFolderId = p.FolderId\n)\nSELECT * FROM RecursiveFolders\nORDER BY Level, Name;

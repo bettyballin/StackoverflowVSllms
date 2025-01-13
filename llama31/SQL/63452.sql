@@ -1,1 +1,0 @@
-SELECT CONCAT_WS(', ', IFNULL(address,''), IFNULL(city,'')) FROM locals

@@ -1,1 +1,0 @@
-INSERT INTO Deployment Administrators (Id, Name, DomainName)\nVALUES ('NEW_ADMIN_GUID', 'newadmin', 'DOMAIN\newadmin');\n\nUPDATE SystemUser\nSET IsDeploymentAdmin = 1\nWHERE DomainName = 'DOMAIN\newadmin';

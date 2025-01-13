@@ -1,1 +1,0 @@
-class ListingsHelperTest < ActionView::TestCase\n  include Rails.application.routes.url_helpers\n  \n  def setup\n    # Your setup code here\n  end\nend

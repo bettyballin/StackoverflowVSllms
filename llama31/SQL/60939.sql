@@ -1,1 +1,0 @@
-SELECT XMLTYPE(bfilename('D', 'tmp.xml'), nls_charset_id('UTF8')) xml_data \nFROM dual;

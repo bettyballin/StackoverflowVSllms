@@ -1,1 +1,0 @@
-var xmlHttp = new XMLHttpRequest();\n\nxmlHttp.open("GET", "http://www.example.com", true); // Set async to true\n\nxmlHttp.timeout = 30000; // Set timeout to 30 seconds\n\nxmlHttp.ontimeout = function() {\n    console.log("Timeout occurred");\n};\n\nxmlHttp.send();

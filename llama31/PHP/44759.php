@@ -1,1 +1,0 @@
-// Open the GZIP file for writing\n$gzfile = gzopen('backup.sql.gz', 'w9');\n\n// Open the SQL file for reading\n$sqlfile = fopen('backup.sql', 'r');\n\n// Read the SQL file and write it to the GZIP file\nwhile (!feof($sqlfile)) {\n    gzwrite($gzfile, fread($sqlfile, 8192));\n}\n\n// Close the files\nfclose($sqlfile);\ngzclose($gzfile);

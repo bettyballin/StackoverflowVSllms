@@ -1,1 +1,0 @@
-SELECT \n  DATE_FORMAT(`when`, '%Y-%m-%d') AS `date`, \n  COUNT(*) AS `count`\nFROM \n  `metrics`\nWHERE \n  `vidID` = '1'\nGROUP BY \n  DATE_FORMAT(`when`, '%Y-%m-%d')

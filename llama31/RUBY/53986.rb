@@ -1,1 +1,0 @@
-Then /^I should be (editing|viewing) the (\w+) with (\w+) "([^\"]*)"$/ do |action,model,field,value|\n  # ...\n  page.should have_content("Edit User")\nend

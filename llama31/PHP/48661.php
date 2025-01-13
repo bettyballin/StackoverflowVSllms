@@ -1,1 +1,0 @@
-$userInput = $_POST['username'];\n$validatedInput = filter_var($userInput, FILTER_VALIDATE_EMAIL);\nif ($validatedInput === false) {\n    // Invalid input\n} else {\n    // Valid input\n}

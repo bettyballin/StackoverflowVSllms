@@ -1,1 +1,0 @@
-SELECT T.c.value('@foo', 'varchar(20)') AS Foo\nFROM CAST('<Test foo="bar"><Otherstuff baz="belch" /></Test>' AS xml)\n     .nodes('/Test') AS T(c)

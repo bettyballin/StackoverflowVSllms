@@ -1,1 +1,0 @@
-SELECT CONVERT(VARCHAR(MAX),\n    (SELECT column_name AS [text()]\n     FROM your_table\n     FOR XML PATH('')\n    )) AS comma_delimited_list

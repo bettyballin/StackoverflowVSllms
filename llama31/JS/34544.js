@@ -1,1 +1,0 @@
-var numbers = [1, 2, 3, 4, 5];\n$.each(numbers, function(index, value) {\n  console.log(value); // prints each number\n});\n\nvar numbers = [1, 2, 3, 4, 5];\nvar index = $.inArray(3, numbers);\nconsole.log(index); // prints 2\n\nvar numbers1 = [1, 2, 3];\nvar numbers2 = [4, 5, 6];\nvar merged = $.merge(numbers1, numbers2);\nconsole.log(merged); // prints [1, 2, 3, 4, 5, 6]

@@ -1,1 +1,0 @@
-import re\nfrom django.core.exceptions import ValidationError\n\ndef validate_slug(value):\n    slug_regex = r'^[a-z0-9-]+$'\n    if not re.match(slug_regex, value):\n        raise ValidationError('Invalid slug. Only letters, numbers, and hyphens are allowed.')\n\n# In your form\nclass MyForm(forms.ModelForm):\n    title = forms.CharField(validators=[validate_slug])

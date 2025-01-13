@@ -1,1 +1,0 @@
-FLOAT[(length, scale)] [UNSIGNED] [ZEROFILL]

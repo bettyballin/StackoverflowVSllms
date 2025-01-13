@@ -1,1 +1,0 @@
-from sklearn.feature_extraction.text import TfidfVectorizer\n\ndef similarity(phrase1, phrase2):\n    vectorizer = TfidfVectorizer()\n    tfidf = vectorizer.fit_transform([phrase1, phrase2])\n    similarity = tfidf[0].dot(tfidf[1].T) / (tfidf[0].norm() * tfidf[1].norm())\n    return similarity

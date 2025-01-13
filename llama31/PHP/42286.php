@@ -1,1 +1,0 @@
-use Illuminate\Auth\AuthManager;\n\n$auth = new AuthManager($app); // $app is a Laravel application instance\n\n// Register a new user\n$auth->createUser('username', 'password', 'email@example.com');\n\n// Login a user\n$auth->attempt('username', 'password');\n\n// Check if a user is logged in\nif ($auth->check()) {\n    // User is logged in\n}

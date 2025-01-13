@@ -1,1 +1,0 @@
-// Client-side JavaScript\n// Establish a WebSocket or SSE connection to the server\n// When the server triggers the callback, proceed with the next step

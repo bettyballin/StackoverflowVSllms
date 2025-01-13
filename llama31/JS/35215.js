@@ -1,1 +1,0 @@
-document.getElementById("a").addEventListener("input", Total);\ndocument.getElementById("b").addEventListener("input", Total);\ndocument.getElementById("c").addEventListener("input", Total);

@@ -1,1 +1,0 @@
-' With Option Strict Off\nDim obj As Object = "Hello"\nDim str As String = obj ' Implicit conversion\n\n' With Option Strict On\nDim obj As Object = "Hello"\nDim str As String = CType(obj, String) ' Explicit casting required

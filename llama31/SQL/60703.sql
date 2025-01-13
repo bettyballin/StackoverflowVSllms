@@ -1,1 +1,0 @@
-CREATE INDEX idx_friends_userid_friendid ON friends (userid, friendid);

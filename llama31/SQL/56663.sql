@@ -1,1 +1,0 @@
-ALTER TABLE `$db_table` ADD COLUMN bump_count INT DEFAULT 1;

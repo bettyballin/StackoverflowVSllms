@@ -1,1 +1,0 @@
-CREATE TABLE IF NOT EXISTS history (\n    field1 TEXT,\n    field2 INTEGER\n);

@@ -1,1 +1,0 @@
-function check_dns_rr($host, $type = 'MX') {\n    $records = dns_get_record($host, constant('DNS_' . strtoupper($type)));\n    return !empty($records);\n}\n\necho ("test.com dns check: ". check_dns_rr("test.com","NS"));

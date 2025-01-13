@@ -1,1 +1,0 @@
-import PyPDF2\n\nwith open('input.pdf', 'rb') as f:\n    pdf = PyPDF2.PdfFileReader(f)\n    for page in pdf.pages:\n        for image in page.get_images():\n            if image.get_name() == '/JPEG':\n                with open('output_folder/{}.jpg'.format(image.get_name()), 'wb') as output:\n                    output.write(image.get_data())

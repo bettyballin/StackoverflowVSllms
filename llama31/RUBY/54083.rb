@@ -1,1 +1,0 @@
-class PdfParserController < ApplicationController\n  def create\n    token = params[:token]\n    user = User.find_by(token: token)\n    if user\n      # User is authenticated, store the form data in the database\n    else\n      # User is not authenticated, handle error\n    end\n  end\nend

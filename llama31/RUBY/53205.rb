@@ -1,1 +1,0 @@
-Cucumber::RbSupport::RbDsl.register_formatter(Cucumber::Formatters::BacktraceFormatter)

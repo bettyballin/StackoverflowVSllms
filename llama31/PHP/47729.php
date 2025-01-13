@@ -1,1 +1,0 @@
-// Define a model\nuse yii\db\ActiveRecord;\n\nclass User extends ActiveRecord {\n    public static function tableName() {\n        return 'users';\n    }\n\n    public function rules() {\n        return [\n            [['name', 'email'], 'required'],\n        ];\n    }\n}\n\n// Use the model\n$user = new User();\n$user->name = 'John Doe';\n$user->save();

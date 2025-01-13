@@ -1,1 +1,0 @@
--- assuming WordPress uses the 'wp_' prefix and Wiki uses the 'wiki_' prefix\n\n-- retrieve articles from Wiki\nSELECT * FROM wiki_articles WHERE category = 'blog';\n\n-- insert articles into WordPress\nINSERT INTO wp_posts (title, content, category)\nSELECT title, content, 'wiki-articles' AS category\nFROM wiki_articles WHERE category = 'blog';

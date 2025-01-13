@@ -1,1 +1,0 @@
-SELECT *\nFROM your_table\nORDER BY TO_NUMBER(your_char_column);

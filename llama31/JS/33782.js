@@ -1,1 +1,0 @@
-$.ajaxQueue = function(options) {\n  var queue = [];\n\n  // ...\n\n  $(document).ajaxSend(function(event, xhr, settings) {\n    queue.push(settings);\n  });\n\n  $(document).ajaxComplete(function(event, xhr, settings) {\n    queue.shift();\n  });\n\n  // ...\n};

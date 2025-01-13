@@ -1,1 +1,0 @@
-$.ajax({\n  type: 'GET',\n  url: '/my_controller/index',\n  dataType: 'json',\n  success: function(data) {\n    console.log(data.message); // Output: "Hello, World!"\n  }\n});

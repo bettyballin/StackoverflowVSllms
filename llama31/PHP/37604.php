@@ -1,1 +1,0 @@
-$s3Client = new Aws\S3\S3Client(['version' => 'latest', 'region' => 'your-region']);\n$result = $s3Client->putObject(['Bucket' => 'your-bucket', 'Key' => 'temp-image', 'Body' => file_get_contents($_FILES['image']['tmp_name'])]);\n$_SESSION['image_url'] = $result['ObjectURL'];

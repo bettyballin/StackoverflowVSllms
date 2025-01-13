@@ -1,1 +1,0 @@
-CREATE TABLE parents (\n  id NUMBER PRIMARY KEY\n);\n\nCREATE TABLE children (\n  id NUMBER PRIMARY KEY,\n  parent_id NUMBER NOT NULL,\n  child_number NUMBER NOT NULL,\n  CONSTRAINT fk_parent FOREIGN KEY (parent_id) REFERENCES parents (id),\n  CONSTRAINT uc_parent_child UNIQUE (parent_id, child_number),\n  CONSTRAINT chk_child_number CHECK (child_number BETWEEN 1 AND n)\n);

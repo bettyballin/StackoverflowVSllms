@@ -1,1 +1,0 @@
-INSERT INTO my_table\nSELECT f1, ADD_MONTHS(f2, 1), f3\nFROM my_table\nWHERE status = 'etc etc';

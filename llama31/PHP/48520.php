@@ -1,1 +1,0 @@
-session_start();\n$file_contents = file_get_contents($_FILES['file']['tmp_name']);\n$_SESSION['file_contents'] = $file_contents;

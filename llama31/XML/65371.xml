@@ -1,1 +1,0 @@
-<Component Id="MyDll" Guid="*">\n  <File Id="MyDll" Source="$(var.MyProject.TargetDir)MyDll.dll" Permanent="False" />\n</Component>

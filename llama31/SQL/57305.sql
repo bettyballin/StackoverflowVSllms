@@ -1,1 +1,0 @@
-SELECT \n  COUNT(column_name) AS count_result,\n  AVG(column_name) AS average_result,\n  SUM(column_name) AS sum_result,\n  MAX(column_name) AS max_result,\n  MIN(column_name) AS min_result\nFROM your_table_name;

@@ -1,1 +1,0 @@
-import pandas as pd\n\ndef get_rows(m, row_indices):\n    df = pd.DataFrame(m)\n    return df.loc[row_indices]

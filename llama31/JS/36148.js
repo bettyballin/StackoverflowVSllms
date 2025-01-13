@@ -1,1 +1,0 @@
-// Assume you have a function to get the current layout\nvar layoutData = getLayoutData();\n\n$.ajax({\n  type: 'POST',\n  url: 'save-layout.php',\n  data: layoutData,\n  success: function(response) {\n    // Handle the response\n  }\n});

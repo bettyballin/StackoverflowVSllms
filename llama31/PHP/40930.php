@@ -1,1 +1,0 @@
-if(isset($attributes['url'])) {\n    $url = (string)$attributes['url'];\n}

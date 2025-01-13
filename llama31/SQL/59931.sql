@@ -1,1 +1,0 @@
-SELECT \n    [Current LSN],\n    [Operation],\n    [Context],\n    [Transaction ID],\n    [Description],\n    [TextData]\nFROM \n    fn_dblog(NULL, NULL)\nWHERE \n    [Operation] = 'LOP_MODIFY_ROW'\n    AND [Context] = 'LCX_TEXT'\n    AND [Description] LIKE '%CREATE PROCEDURE%'\nORDER BY \n    [Current LSN] DESC;

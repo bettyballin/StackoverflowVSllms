@@ -1,1 +1,0 @@
-curl_setopt($ch, CURLOPT_CAINFO, '/path/to/ca/cert/bundle.crt');

@@ -1,1 +1,0 @@
-$query = Doctrine_Query::create();\n$conn = $query->getConnection();\n$conn->setListener($profiler);

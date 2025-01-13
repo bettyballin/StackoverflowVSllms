@@ -1,1 +1,0 @@
-def table(s):\n    m = len(s)\n    b = [0]*m\n    i = m - 1\n    j = m - 1\n\n    while i >= 0:\n        if s[i] == s[j]:\n            b[i] = j - i\n            i -= 1\n            j -= 1\n        elif j == m - 1:\n            b[i] = m - i - 1\n            i -= 1\n        else:\n            j = m - 1\n\n    return b\n\nprint(table('anpanman'))

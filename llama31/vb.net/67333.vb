@@ -1,1 +1,0 @@
-If Me.InvokeRequired Then\n    Me.Invoke(New MethodInvoker(AddressOf UpdateMenuStrip))\nElse\n    UpdateMenuStrip()\nEnd If\n\nPrivate Sub UpdateMenuStrip()\n    ' Update MenuStrip here\nEnd Sub

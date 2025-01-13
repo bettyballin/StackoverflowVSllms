@@ -1,1 +1,0 @@
-<system.web>\n    <authentication mode="Forms">\n        <forms cookieless="false" defaultUrl="~/Default.aspx" enableCrossAppRedirects="true" name=".ASPXFORMSAUTH" path="/" requireSSL="true" slidingExpiration="true" timeout="30" />\n    </authentication>\n</system.web>

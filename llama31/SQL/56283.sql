@@ -1,1 +1,0 @@
-DECLARE\n  v_cursor MYGEN.sqlcur;\nBEGIN\n  APP_DB1.GET_JOB(123, v_cursor);\n  -- Print the results\n  FOR rec IN v_cursor LOOP\n    DBMS_OUTPUT.PUT_LINE(rec.JOB_ID || ' ' || rec.JOB_NAME);\n  END LOOP;\nEND;\n/

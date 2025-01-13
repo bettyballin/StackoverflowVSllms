@@ -1,1 +1,0 @@
-$foo = new Myclass('my params');\nif ($foo->isSuccess()) {\n    echo "Insert successful";\n} else {\n    echo "Insert failed";\n}

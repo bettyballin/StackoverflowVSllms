@@ -1,1 +1,0 @@
-UPDATE analyzedCopy2 \nSET analyzedCopy2.DateRange = CStr(#4/21/2009#) + " to " + CStr(#4/29/2009#)

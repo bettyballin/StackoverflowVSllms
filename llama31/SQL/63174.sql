@@ -1,1 +1,0 @@
-SELECT\n  ROUND(column_name, CASE WHEN column_name < 1 THEN 0 ELSE 6 END) AS rounded_column\nFROM your_table;

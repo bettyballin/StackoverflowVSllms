@@ -1,1 +1,0 @@
-require_once 'phpbb/api/bootstrap.php';\n$api = new phpbb\api\api();\n$api->create_user($username, $password, $email);\n$api->create_topic($forum_id, $topic_title, $topic_text);

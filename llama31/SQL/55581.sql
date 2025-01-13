@@ -1,1 +1,0 @@
-SELECT \n  m.id, \n  m.forum_id, \n  m.author_id, \n  IF(rm.user_id IS NULL, 0, 1) AS is_read\nFROM \n  messages m\n  LEFT JOIN read_messages rm ON m.id = rm.message_id AND rm.user_id = ?\nWHERE \n  m.forum_id = ?

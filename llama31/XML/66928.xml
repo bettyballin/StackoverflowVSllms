@@ -1,1 +1,0 @@
-<!-- Add this to your app's .csproj file -->\n<PropertyGroup>\n  <RemoteDebugEnabled>true</RemoteDebugEnabled>\n  <RemoteDebugMachine>device_ip_address</RemoteDebugMachine>\n</PropertyGroup>

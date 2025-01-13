@@ -1,1 +1,0 @@
-SELECT ROUND(1.23 * 20, 0) / 20  -- returns 1.20\nSELECT ROUND(1.28 * 20, 0) / 20  -- returns 1.30

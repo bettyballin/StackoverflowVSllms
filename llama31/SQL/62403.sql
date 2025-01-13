@@ -1,1 +1,0 @@
-SELECT * FROM A\nWHERE A.column NOT IN (SELECT column FROM B);

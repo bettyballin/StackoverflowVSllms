@@ -1,1 +1,0 @@
-use Carbon\Carbon;\n\n$dateString = 'next monday at 3pm';\n$date = Carbon::parse($dateString);\nif (!$date) {\n    // handle invalid date\n}

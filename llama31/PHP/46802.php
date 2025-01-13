@@ -1,1 +1,0 @@
-// lib/RefreshSessionFilter.class.php\nclass RefreshSessionFilter extends sfFilter\n{\n  public function execute($filterChain)\n  {\n    // Refresh the session every 10 minutes\n    if (rand(0, 100) < 10) {\n      session_regenerate_id(true);\n    }\n    $filterChain->execute();\n  }\n}

@@ -1,1 +1,0 @@
-import chardet\n\nwith open(file1, "rb") as f1:\n    result = chardet.detect(f1.read())\n    text = f1.read().decode(result['encoding'])

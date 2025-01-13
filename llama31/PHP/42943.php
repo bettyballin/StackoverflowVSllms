@@ -1,1 +1,0 @@
-// Enable Xdebug profiling\nxdebug_start_profiling();\n\n// Your PHP code here...\n\n// Stop profiling and save the results\nxdebug_stop_profiling();\n$xdebug_data = xdebug_get_profiler_data();\n\n// Print the profiling results\nprint_r($xdebug_data);

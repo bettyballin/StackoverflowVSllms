@@ -1,1 +1,0 @@
-/**\n * @ORM\Entity\n */\nclass MyEntity extends BaseEntity\n{\n    // ...\n}

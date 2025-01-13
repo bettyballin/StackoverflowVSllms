@@ -1,1 +1,0 @@
-if (isset($_POST['items'])) {\n    $items = $_POST['items'];\n} else {\n    $items = array();\n}

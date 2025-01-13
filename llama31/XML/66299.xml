@@ -1,1 +1,0 @@
-<fo:block font-family="CustomFont">\n  <fo:instream-foreign-object>\n    <pdf:embedded-file src="CustomFont.ttf"/>\n  </fo:instream-foreign-object>Hello!\n</fo:block>

@@ -1,1 +1,0 @@
--- Create a credential\nCREATE CREDENTIAL linked_server_credential WITH IDENTITY = 'automated_job_login', SECRET = 'your_password';\n\n-- Configure the job to use the credential\nEXEC sp_update_job @job_name = 'your_job_name', @credential_name = 'linked_server_credential';

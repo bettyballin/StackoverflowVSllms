@@ -1,1 +1,0 @@
-$(document).ready(function () {\n    var currentTab = '@ViewData["CurrentTab"]'; // assuming you're using Razor syntax\n    $('#menu li.tab[data-tab-name="' + currentTab + '"]').addClass('selected');\n});

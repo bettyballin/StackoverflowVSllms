@@ -1,1 +1,0 @@
-UPDATE events SET column1 = 'new value', event_time = event_time WHERE id = 1;

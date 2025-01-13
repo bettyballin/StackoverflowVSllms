@@ -1,1 +1,0 @@
-$stmt = $pdo->prepare('SELECT * FROM users WHERE id = ? AND password = ?');\n$stmt->execute([$_COOKIE['user_id'], $_COOKIE['password']]);

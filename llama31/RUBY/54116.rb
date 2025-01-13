@@ -1,1 +1,0 @@
-amed_scope :has_red_cat, { :conditions => { :cats => { :color => 'red' } } }\nnamed_scope :has_cat_of_color, lambda { |color| { :conditions => { :cats => { :color => color } } } }\n\nnamed_scope :has_red_cat_v2, lambda { has_cat_of_color('red') }

@@ -1,1 +1,0 @@
-CREATE TABLE CLIENT\n(\n  NAME VARCHAR2(11 BYTE),\n  ID_CLIENT NUMBER\n);\n\nINSERT INTO CLIENT (NAME) VALUES ('¿Cómo estás?');  // 11 characters, but more than 11 bytes in UTF-8\n\nORA-12899: value too large for column "NAME" (actual: 13, maximum: 11)

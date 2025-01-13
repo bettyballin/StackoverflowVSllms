@@ -1,1 +1,0 @@
-var dsProducts = new Spry.Data.XMLDataSet("/products.xml", "/products/product", { sortOnLoad: "name" });

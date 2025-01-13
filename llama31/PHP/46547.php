@@ -1,1 +1,0 @@
-use Symfony\Component\Validator\Constraints\Email;\nuse Symfony\Component\Validator\Validator\ValidatorFactory;\n\n$validator = ValidatorFactory::buildDefault()->getValidator();\n$constraint = new Email();\n$errors = $validator->validate('example@example.com', $constraint);\nif (count($errors) == 0) {\n    // valid\n}

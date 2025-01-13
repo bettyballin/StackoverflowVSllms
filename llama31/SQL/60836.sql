@@ -1,1 +1,0 @@
-SELECT \n    -- Your columns here\nFROM \n    Table1 t1\nINNER JOIN \n    Table2 t2 ON \n    (t1.A1 = 0 OR (t1.A1 = 1 AND t2.A2 = 1)) \n    AND (t1.B1 = 0 OR (t1.B1 = 1 AND t2.B2 = 1))\n    AND (t1.C1 = 0 OR (t1.C1 = 1 AND t2.C2 = 1))\nWHERE \n    -- Additional conditions if needed

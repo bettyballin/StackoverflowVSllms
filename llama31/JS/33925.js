@@ -1,1 +1,0 @@
-function foo(bar) {\n  console.log(bar); // outputs "hello"\n}\n\nfoo("hello");

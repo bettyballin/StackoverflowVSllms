@@ -1,1 +1,0 @@
-function getData() {\n  $location = "http://data.example.com/new-data.php";\n  $ch = curl_init($location);\n  curl_setopt($ch, CURLOPT_RETURNTRANSFER, true);\n  $contents = curl_exec($ch);\n  $error = curl_error($ch);\n  curl_close($ch);\n  if ($error) {\n    // Handle the error\n  } else {\n    $jsonVars = json_decode($contents);\n    return $jsonVars;\n  }\n}

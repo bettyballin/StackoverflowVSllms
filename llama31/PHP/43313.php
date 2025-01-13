@@ -1,1 +1,0 @@
-$server->setClassMap("Session", "Session");

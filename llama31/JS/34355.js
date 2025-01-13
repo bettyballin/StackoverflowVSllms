@@ -1,1 +1,0 @@
-$('#profilepic').on('click', '#myImage', function (event) {\n    event.preventDefault();\n    alert("You clicked the image");\n});\n\n$('#test').click(function (event) {\n    event.preventDefault();\n    img = $('<img id="myImage" class="photo" src="newImage.jpg>');\n    $("#myImage").remove();\n    $("#profilepic").append(img);\n});

@@ -1,1 +1,0 @@
-$client = new \GuzzleHttp\Client();\n\n$response = $client->post('https://example.com/tickets', ['json' => ['subject' => 'Test Ticket']]);\n$ticketId = $response->json()['id'];\n\n$response = $client->get('https://example.com/tickets/' . $ticketId);\n$ticket = $response->json();

@@ -1,1 +1,0 @@
-const inspector = new DOMInspector();\nconst element = document.getElementById('myElement');\ninspector.inspect(element);

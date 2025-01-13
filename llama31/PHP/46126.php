@@ -1,1 +1,0 @@
-if ($_POST['_token'] !== $_SESSION['csrf-token']) {\n    // handle invalid token\n}

@@ -1,1 +1,0 @@
-myarray = [3, 1, 2, 4]\nitemlist = [item for item in myarray]\nprint(itemlist)  # Output: [3, 1, 2, 4]

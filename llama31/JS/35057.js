@@ -1,1 +1,0 @@
-var xhr = new XMLHttpRequest();\nxhr.open('GET', 'your-php-script.php', true);\nxhr.send();

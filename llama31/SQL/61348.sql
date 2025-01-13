@@ -1,1 +1,0 @@
-BEGIN TRAN\nDECLARE @new_id INT = (SELECT MAX(id) + 1 FROM Table1)\nINSERT INTO Table1(id, data_field)\nVALUES (@new_id, '[blob of data]');\nCOMMIT TRAN;

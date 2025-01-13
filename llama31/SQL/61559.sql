@@ -1,1 +1,0 @@
-SELECT *\nFROM TABLE\nWHERE Phonenumber ~ '555[^0-9]*123[^0-9]*456';

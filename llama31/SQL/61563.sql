@@ -1,1 +1,0 @@
-UPDATE A\nSET A.name = (SELECT B.name FROM B WHERE B.id = A.id)\nWHERE A.id IN (SELECT id FROM B)

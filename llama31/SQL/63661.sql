@@ -1,1 +1,0 @@
-SELECT \n    p.name AS ProcedureName\nFROM \n    sys.sql_modules m\nINNER JOIN \n    sys.procedures p ON m.object_id = p.object_id\nWHERE \n    m.sql_module_option = 1  -- 1 = WITH RECOMPILE

@@ -1,1 +1,0 @@
-$keyArray = array(0 => "txt1", 1 => "txt2", 2 => "txt3");\n$contentArray = array(0 => "on", 2 => "on");\n\n$mergedArray = array_intersect_key($keyArray, $contentArray);\n\nprint_r($mergedArray);

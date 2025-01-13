@@ -1,1 +1,0 @@
-CREATE TABLE KeyFields (\n    KeyId INT PRIMARY KEY,\n    KeyField VARCHAR(255) NOT NULL\n);\n\nCREATE TABLE Keywords (\n    KeywordId INT PRIMARY KEY,\n    KeyId INT NOT NULL,\n    Keyword VARCHAR(50) NOT NULL,\n    CONSTRAINT FK_Keywords_KeyFields FOREIGN KEY (KeyId) REFERENCES KeyFields(KeyId)\n);

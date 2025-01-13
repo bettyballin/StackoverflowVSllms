@@ -1,1 +1,0 @@
-// Client-side JavaScript\n$.ajax({\n    url: 'https://restricted-uri.com?callback=myCallback',\n    dataType: 'jsonp',\n    success: function(data) {\n        // Handle the response data\n    }\n});\n\nfunction myCallback(data) {\n    // Handle the response data\n}

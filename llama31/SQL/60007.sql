@@ -1,1 +1,0 @@
-UPDATE table\nSET new_id = (\n  SELECT seq.NEXTVAL\n  FROM (\n    SELECT old_id, ROW_NUMBER() OVER (ORDER BY old_id) AS row_num\n    FROM table\n  ) sub\n  WHERE sub.old_id = table.old_id\n)

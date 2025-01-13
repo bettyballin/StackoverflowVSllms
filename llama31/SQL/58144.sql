@@ -1,1 +1,0 @@
-CREATE INDEX idx_airports_iata_name ON airports (IATA, name);

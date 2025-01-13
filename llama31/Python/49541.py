@@ -1,1 +1,0 @@
-import argparse\n\ndef secure_foo(x, y, *args):\n    parser = argparse.ArgumentParser()\n    parser.add_argument('x', type=int)\n    parser.add_argument('y', type=int)\n    args = parser.parse_args([str(x), str(y)] + list(args))\n    # Now you can safely use the validated args\n    print(args)\n\nsecure_foo(1, 2, 3, 4, 5)

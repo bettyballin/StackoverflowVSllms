@@ -1,1 +1,0 @@
-$('#tree').zTree({\n  url: '/path/to/json/data',\n  async: {\n    enable: true,\n    url: '/path/to/json/data',\n    autoParam: ['id']\n  }\n});

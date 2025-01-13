@@ -1,1 +1,0 @@
-If Not IsDBNull(editTransactionRow.pay_id) Then\n    stTransactionPaymentID = editTransactionRow.pay_id\nEnd If

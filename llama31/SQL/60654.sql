@@ -1,1 +1,0 @@
-GRANT RESOURCE TO your_schema_name;

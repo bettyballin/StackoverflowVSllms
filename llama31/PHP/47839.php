@@ -1,1 +1,0 @@
-if (!isset($_SERVER['HTTP_REFERER']) || !preg_match('/^https?:\/\/yourdomain\.com\/.*/', $_SERVER['HTTP_REFERER'])) {\n    header('Location: /index.php');\n    exit;\n}

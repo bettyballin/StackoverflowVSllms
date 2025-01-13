@@ -1,1 +1,0 @@
-// In your struts-config.xml\n<form-bean name="myForm" type="com.example.MyForm" scope="request"/>

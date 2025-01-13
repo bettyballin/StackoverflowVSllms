@@ -1,1 +1,0 @@
-SELECT r.revision\nFROM revisions r\nJOIN deltas d ON r.id = d.revision_id\nWHERE d.file_id = ? AND d.value = ?

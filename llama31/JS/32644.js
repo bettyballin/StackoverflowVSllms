@@ -1,1 +1,0 @@
-var counter = element.data("counter");

@@ -1,1 +1,0 @@
-class Actividad extends AppModel {\n    var $name = 'Actividad';\n    var $validate = array('maxfield' => array(\n        'rule'=> array('chkValue'),\n        'message'=>'maxfield must be greater than or equal to minfield'\n    ));\n\n    function chkValue($data){\n        return $this->data['Actividad']['maxfield'] >= $this->data['Actividad']['minfield'];\n    }\n}

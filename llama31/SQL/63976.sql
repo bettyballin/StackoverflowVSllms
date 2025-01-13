@@ -1,1 +1,0 @@
-ALTER TABLE tblSomething \nADD CreatedDate datetime DEFAULT GETDATE()

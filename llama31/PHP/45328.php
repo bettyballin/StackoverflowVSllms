@@ -1,1 +1,0 @@
-class MyClass {\n    public function __invoke() {\n        return $this->myMethod();\n    }\n\n    public function myMethod() {\n        // your method implementation here\n    }\n}\n\n$array2 = array_map(function($obj) {\n    return $obj();\n}, $array);

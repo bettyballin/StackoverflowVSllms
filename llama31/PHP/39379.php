@@ -1,1 +1,0 @@
-$html = file_get_contents("http://example.com/report.php?id=1249642977");\nrequire_once("dompdf/dompdf_config.inc.php");\n$dompdf = new DOMPDF();\n$dompdf->load_html($html);\n$dompdf->render();\n$dompdf->stream("sample.pdf", array('Attachment'=>'0'));

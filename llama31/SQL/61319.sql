@@ -1,1 +1,0 @@
-CREATE INDEX IX_Appointment_FranchiseId_AppointmentTypeId\nON Appointment (FranchiseId, AppointmentTypeId)\nINCLUDE (CustomerId, ApptDateTime);

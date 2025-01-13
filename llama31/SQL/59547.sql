@@ -1,1 +1,0 @@
-DECLARE @value INT\nSET @value = 14\n\nSELECT DISTINCT \n    t1.id,\n    (SELECT t2.name FROM Table2 t2 WHERE t2.id = t1.column1) AS column1,\n    (SELECT t2.name FROM Table2 t2 WHERE t2.id = t1.column2) AS column2\nFROM \n    Table1 t1\nWHERE \n    t1.id = @value

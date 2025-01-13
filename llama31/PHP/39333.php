@@ -1,1 +1,0 @@
-define('FLAG_A', 1 << 0); // 0001\ndefine('FLAG_B', 1 << 1); // 0010\ndefine('FLAG_C', 1 << 2); // 0100\n\n$flags = FLAG_A | FLAG_C; // 0101\n\nif ($flags & FLAG_A) {\n    echo "FLAG_A is set";\n}\n\nif ($flags & FLAG_B) {\n    echo "FLAG_B is set"; // This won't be executed\n}

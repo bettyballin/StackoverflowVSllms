@@ -1,1 +1,0 @@
-SELECT *\nFROM your_table\nWHERE CONCAT_WS('', *) LIKE '%your_value%';

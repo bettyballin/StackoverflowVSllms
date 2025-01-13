@@ -1,1 +1,0 @@
-var MyLibrary = new function() {\n    // Initialization code\n    console.log("Initialized");\n\n    // Other methods and properties\n    this.method1 = function() {\n        console.log("Method 1");\n    };\n\n    this.method2 = function() {\n        console.log("Method 2");\n    };\n};

@@ -1,1 +1,0 @@
-WITH LatestPrices AS (\n  SELECT *,\n  ROW_NUMBER() OVER (PARTITION BY ThingID ORDER BY PriceDateTime DESC) as RowNum\n  FROM Thing\n  WHERE ThingID IN (1,2,3,4,5,6)\n  AND PriceDateTime > CAST(GETDATE() AS DATE)\n)\nSELECT *\nFROM LatestPrices\nWHERE RowNum = 1

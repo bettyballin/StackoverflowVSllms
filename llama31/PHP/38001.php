@@ -1,1 +1,0 @@
-runkit_function_add('DebugR', function () {\n    // implementation\n});

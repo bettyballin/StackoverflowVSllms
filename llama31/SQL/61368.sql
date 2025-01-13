@@ -1,1 +1,0 @@
-SELECT v.* \nFROM videos v \nJOIN video_categories vc ON v.id = vc.video_id \nWHERE vc.category_id = 2;  -- Jokes

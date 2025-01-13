@@ -1,1 +1,0 @@
-CREATE INDEX idx_sum_column ON table_name (sum_column);\nSELECT sum_column, SUM(other_column) FROM table_name GROUP BY sum_column;

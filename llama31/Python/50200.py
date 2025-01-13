@@ -1,1 +1,0 @@
-from functools import reduce\nfrom django.db.models import Q\n\nq_list = [Q(xyz__isnull=True), Q(x__startswith='x')]\n\n# Use reduce to apply the bitwise OR operator to all elements in the list\nq_filter = reduce(lambda x, y: x | y, q_list)\n\n# Use the resulting Q object in your filter\nModel.objects.filter(q_filter)

@@ -1,1 +1,0 @@
-header("Content-Type: text/html");\necho "<a href='http://www.awebsite.com' target='_blank'>Click here to visit the website</a>";\nexit;

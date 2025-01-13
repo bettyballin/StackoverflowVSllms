@@ -1,1 +1,0 @@
-function preventFlicker() {\n    document.body.style.visibility = 'hidden';\n    setTimeout(function() {\n        document.body.style.visibility = 'visible';\n    }, 100); // adjust the timeout value as needed\n}\n\n// Call the function before the postback\npreventFlicker();

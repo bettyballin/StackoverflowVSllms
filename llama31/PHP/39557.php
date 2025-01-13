@@ -1,1 +1,0 @@
-$parser = xml_parser_create();\nxml_set_element_handler($parser, 'start_element', 'end_element');\n\n$chunk_size = 4096; // adjust the chunk size to your needs\n$fp = fopen('path/to/your/file.xml', 'r');\nwhile (!feof($fp)) {\n    $chunk = fread($fp, $chunk_size);\n    xml_parse($parser, $chunk, feof($fp));\n}\nxml_parser_free($parser);\nfclose($fp);

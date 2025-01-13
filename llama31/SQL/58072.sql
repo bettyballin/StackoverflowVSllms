@@ -1,1 +1,0 @@
-UpdateCommand="DECLARE @intID int; UPDATE [tbl_Bug] SET [strTitre] = @strTitre ,[strDescription] = @strDescription ,[intStatus_FK] = @intStatus_FK ,[intType_FK] = @intType_FK ,[intSeriousness_FK] = @intSeriousness_FK WHERE [intID] = @intID"

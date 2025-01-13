@@ -1,1 +1,0 @@
-from collections import defaultdict\n\ndef convert_to_dict(tuple_list):\n    result = defaultdict(list)\n    for tup in tuple_list:\n        result[tup[1]].append(tup[0])\n    return dict(result)\n\ntuple_list = [(1,4),(2,4),(3,4),(4,15),(5,15),(6,23),(7,23),(8,23),(9,15),(10,23),(11,15),(12,15)]\nprint(convert_to_dict(tuple_list))

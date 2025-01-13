@@ -1,1 +1,0 @@
-@if (Model.ShowLabel)\n{\n    <span>@Model.LabelText</span>\n}

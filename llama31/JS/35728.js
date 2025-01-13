@@ -1,1 +1,0 @@
-$slider.off('ajaxComplete').ajaxComplete(function() {\n    console.log("ajaxdone");\n    // items get inserted into the DOM\n});

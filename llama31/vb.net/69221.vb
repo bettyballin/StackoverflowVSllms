@@ -1,1 +1,0 @@
-Private Sub Form1_Load(sender As Object, e As EventArgs) Handles MyBase.Load\n    Timer1 = New Timer()\n    Timer1.Interval = 500\nEnd Sub

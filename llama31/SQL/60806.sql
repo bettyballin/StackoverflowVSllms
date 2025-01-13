@@ -1,1 +1,0 @@
-SELECT COALESCE(tblComponentSpecs.nPurchaseCostQuantity, 0) AS Quantity\nFROM tblComponentSpecs;

@@ -1,1 +1,0 @@
-import importlib\n\nif foo.py has changed:\n    importlib.reload(foo)\n    myfoo = foo.Foo()

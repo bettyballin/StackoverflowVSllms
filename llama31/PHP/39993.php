@@ -1,1 +1,0 @@
-$sanitized_input = filter_var($user_input, FILTER_SANITIZE_STRING);

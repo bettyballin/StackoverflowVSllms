@@ -1,1 +1,0 @@
-Public Interface IBaseRepository(Of T As Class)\n    Sub Save(ByVal obj As T)\nEnd Interface\n\nPublic Interface IAddress\n    Inherits IBaseRepository(Of Address)\n    ' ...\nEnd Interface

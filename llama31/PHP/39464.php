@@ -1,1 +1,0 @@
-use Scheduler\Scheduler;\n\n$scheduler = new Scheduler();\n$scheduler->addTask('itstime', '0 * * * *', 'hourly'); // run every hour\n\nwhile ($scheduler->run()) {\n    // your itstime() function will be called every hour\n    itstime();\n}

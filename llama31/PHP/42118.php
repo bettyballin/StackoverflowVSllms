@@ -1,1 +1,0 @@
-use Illuminate\Html\FormFacade as Form;\n\n{!! Form::open() !!}\n    {!! Form::text('name') !!}\n    {!! Form::email('email') !!}\n{!! Form::close() !!}

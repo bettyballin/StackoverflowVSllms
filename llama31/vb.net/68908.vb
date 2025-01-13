@@ -1,1 +1,0 @@
-Dim listX As List(Of X) = ...\nDim listY As List(Of Y) = ...\n\nDim minX As Integer = Math.Min(listX.Count, listY.Count)\n\nFor i As Integer = 0 To minX - 1\n    Dim _x As X = listX(i)\n    Dim _y As Y = listY(i)\n    If _x.Item = _y.Item Then\n        ' Do something\n    End If\nNext

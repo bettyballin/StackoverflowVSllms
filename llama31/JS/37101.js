@@ -1,1 +1,0 @@
-$('#tabs li').click(function() {\n  var tabTitle = $(this).text();\n  onTabClick(tabTitle);\n});

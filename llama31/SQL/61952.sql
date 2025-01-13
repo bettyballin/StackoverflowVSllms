@@ -1,1 +1,0 @@
-CREATE TABLE comment_thread (\n  comment_id INTEGER NOT NULL,\n  parent_comment_id INTEGER,\n  thread_path VARCHAR(255) NOT NULL,\n  PRIMARY KEY (comment_id),\n  FOREIGN KEY (comment_id) REFERENCES comment (comment_id),\n  FOREIGN KEY (parent_comment_id) REFERENCES comment (comment_id)\n);

@@ -1,1 +1,0 @@
-// First script\nsession_name('MySessID');\nsession_start();\n\n// ... do something ...\n\nsession_write_close(); // Release the session lock\n\n$ch = curl_init('http://example.com/second-script.php');\ncurl_setopt($ch, CURLOPT_RETURNTRANSFER, true);\n$response = curl_exec($ch);\ncurl_close($ch);

@@ -1,1 +1,0 @@
-<form class="element_form" action="general_image.php" method="post">\n    <?php generate_input('hidden', '', 'id', $id);?>\n    <button type="submit" name="action" value="delete"><img src="../images/delete.gif" alt="Delete" /></button>\n    <button type="submit" name="action" value="active_switch"><img src="../images/tick.gif" alt="Active Switch" /></button>\n</form>

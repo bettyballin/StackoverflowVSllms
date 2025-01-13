@@ -1,1 +1,0 @@
-var express = require('express');\n	var app = express();\n	var rateLimit = require('express-rate-limit');\n\n	var limiter = rateLimit({\n		windowMs: 15 * 60 * 1000, // 15 minutes\n		max: 100\n	});\n\n	app.use(limiter);\n\n	app.get('/numbers', function(req, res) {\n		// ...\n	});

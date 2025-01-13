@@ -1,1 +1,0 @@
-$db = new mysqli($host, $username, $password, $database);\n\nif ($db->connect_error) {\n    die("Connection failed: " . $db->connect_error);\n}

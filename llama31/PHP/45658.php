@@ -1,1 +1,0 @@
-/**\n * Calculates the area of a rectangle.\n *\n * @param float $width  The width of the rectangle\n * @param float $height The height of the rectangle\n * @return float The area of the rectangle\n */\nfunction calculateArea($width, $height) {\n    return $width * $height;\n}

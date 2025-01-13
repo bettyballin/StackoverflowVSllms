@@ -1,1 +1,0 @@
-use Illuminate\Database\Eloquent\Model;\n\nclass User extends Model {\n    protected $fillable = ['name', 'email', 'password'];\n}\n\n$user = new User();\n$user->name = 'John Doe';\n$user->email = 'john@example.com';\n$user->password = bcrypt('password');\n$user->save();

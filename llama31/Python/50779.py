@@ -1,1 +1,0 @@
-import hashlib\n\ndef calculate_hash(file_contents):\n    hash = hashlib.sha256()\n    hash.update(file_contents)\n    return hash.hexdigest()

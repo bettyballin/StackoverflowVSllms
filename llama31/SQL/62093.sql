@@ -1,1 +1,0 @@
-SELECT UNIX_TIMESTAMP(date_column) AS date_column FROM table_name;

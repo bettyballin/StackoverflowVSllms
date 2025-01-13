@@ -1,1 +1,0 @@
-$html = file_get_contents('your_file.html');\n\n$doc = new DOMDocument();\n$doc->loadHTML($html);\n\n$links = $doc->getElementsByTagName('a');\nforeach ($links as $link) {\n    $href = $link->getAttribute('href');\n    $link->setAttribute('href', 'site.php?url=' . urlencode($href));\n}\n\necho $doc->saveHTML();

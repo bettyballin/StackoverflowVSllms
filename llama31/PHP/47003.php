@@ -1,1 +1,0 @@
-$i = 0;\n$data = array();\nwhile ($row = mysql_fetch_array($result)) {\n    $data["idno{$i}"] = $row['usr_id'];\n    $data["res{$i}"] = $row['responce'];\n    $data["sex{$i}"] = $row['sex'];\n    $data["com1{$i}"] = $row['com1'];\n    $data["com2{$i}"] = $row['com2'];\n    $i++;\n}\n\n$output = http_build_query($data);

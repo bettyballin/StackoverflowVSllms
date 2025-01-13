@@ -1,1 +1,0 @@
-<?php\nheader('Content-Type: application/javascript');\necho "loadxml();";\n?>

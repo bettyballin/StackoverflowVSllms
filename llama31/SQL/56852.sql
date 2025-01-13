@@ -1,1 +1,0 @@
-SELECT value \nFROM STRING_SPLIT('Hello John Smith', ' ') \nWHERE ordinal = 2;

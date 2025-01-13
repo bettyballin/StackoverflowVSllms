@@ -1,1 +1,0 @@
-var o = $get('myTextBox');\nvar f = Type.parse('funcWithArgs');\n$addHandler(o, 'click', function() { f('arg1', 'arg2'); });

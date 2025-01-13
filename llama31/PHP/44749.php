@@ -1,1 +1,0 @@
-function detect_proxy() {\n    $headers = apache_request_headers();\n    if (isset($headers['X-Forwarded-For']) || \n        isset($headers['X-Proxy-User']) || \n        isset($headers['Proxy-Authorization']) || \n        (isset($headers['Via']) && strpos($headers['Via'], 'proxy') !== false)) {\n        return true;\n    }\n    return false;\n}

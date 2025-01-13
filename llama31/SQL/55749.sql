@@ -1,1 +1,0 @@
-SELECT p.*\nFROM ProductPriceHistory p\nJOIN (\n  SELECT ProductCode, MAX(EffectDate) as LatestDate\n  FROM ProductPriceHistory\n  WHERE IsActive = TRUE\n  GROUP BY ProductCode\n) l ON p.ProductCode = l.ProductCode AND p.EffectDate = l.LatestDate\nWHERE p.IsActive = TRUE;

@@ -1,1 +1,0 @@
-while ($data = mysql_fetch_array($result)) {\n    echo $data['product_groups.name'] . "\n";\n    echo $data['products'] . "\n";\n}

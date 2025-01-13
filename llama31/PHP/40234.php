@@ -1,1 +1,0 @@
-// assuming you have a user authentication system in place\n// and a way to retrieve the user's role (e.g. dealer, distributor, etc.)\n\n// example user data\n$userData = array(\n    'username' => 'johnDoe',\n    'role' => 'dealer'\n);\n\n// create a PHP session to store the user's data\nsession_start();\n$_SESSION['userData'] = $userData;

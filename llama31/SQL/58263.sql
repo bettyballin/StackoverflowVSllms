@@ -1,1 +1,0 @@
-SELECT A.*\nFROM TableA A\nINNER JOIN (\n    SELECT DISTINCT IdA\n    FROM TableB\n    WHERE Date = '2009-01-10'\n) B ON A.idA = B.IdA\nORDER BY A.Id;

@@ -1,1 +1,0 @@
-$length = intval($_POST['length']);\n$url = substr($url, 0, $length);

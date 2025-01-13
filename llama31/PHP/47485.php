@@ -1,1 +1,0 @@
-$items = array_slice($rss->items, 0, $maxitems, false);

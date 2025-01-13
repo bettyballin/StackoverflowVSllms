@@ -1,1 +1,0 @@
-var urls = ["/values/1", "/values/2"];\nvar promises = $.map(urls, function(url) {\n  return $.getJSON(url);\n});\n\n$.when.apply($, promises).then(function() {\n  var sum = 0;\n  $.each(arguments, function(index, data) {\n    sum += data.value;\n  });\n  $('#mynode').html(sum);\n});

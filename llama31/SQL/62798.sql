@@ -1,1 +1,0 @@
-EXPLAIN SELECT * FROM large_table WHERE LEFT(some_string_field, 4) = '2505';\n\nEXPLAIN SELECT * FROM large_table WHERE some_string_field LIKE '2505%';

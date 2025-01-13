@@ -1,1 +1,0 @@
-// in your main script\n$title = "MySite - Contacts";\n$parent_url = (isset($_SERVER['HTTPS']) && $_SERVER['HTTPS'] === 'on' ? "https" : "http") . "://" . $_SERVER['HTTP_HOST'] . $_SERVER['REQUEST_URI'];\ninclude("header.php");\n\n// in your header.php\necho $parent_url;

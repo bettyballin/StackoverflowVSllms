@@ -1,1 +1,0 @@
-SELECT ...\nFROM (\n  SELECT ..., ROW_NUMBER() OVER (ORDER BY Relevance) AS RowNum\n  FROM #SearchResults\n) AS PagedResults\nWHERE RowNum BETWEEN (@CurrentPage - 1) * @PageSize + 1 AND @CurrentPage * @PageSize

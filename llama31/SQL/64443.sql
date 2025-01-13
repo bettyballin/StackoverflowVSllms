@@ -1,1 +1,0 @@
-RESTORE DATABASE [database_name] WITH RECOVERY;

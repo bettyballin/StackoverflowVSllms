@@ -1,1 +1,0 @@
-$container = new Pimple\Container();\n$container['service'] = function ($c) {\n    return new Service();\n};

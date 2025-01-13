@@ -1,1 +1,0 @@
-from django import forms\n\nclass SuperForm(forms.Form):\n    # ... fields ...\n\n    def is_valid(self):\n        if not super().is_valid():\n            return False\n        for sub_form in self.sub_forms:\n            if not sub_form.is_valid():\n                return False\n        return True

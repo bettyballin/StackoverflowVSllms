@@ -1,1 +1,0 @@
-SELECT \n    qs.execution_count,\n    qs.row_count,\n    qs.estimated_row_count\nFROM \n    sys.dm_exec_query_stats qs\nCROSS APPLY \n    sys.dm_exec_sql_text(qs.sql_handle) st\nWHERE \n    st.text LIKE '%your_query_text%';

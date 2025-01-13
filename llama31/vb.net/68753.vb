@@ -1,1 +1,0 @@
-Imports System.Diagnostics\n\n''//functions.vb\nSub LogInfo(ByVal entry As String)\n    Dim stack As New StackTrace()\n    Dim callingMethod As String = stack.GetFrame(1).GetMethod().Name\n    Console.WriteLine($"[{callingMethod}] {entry}")\nEnd Sub

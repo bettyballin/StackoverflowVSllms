@@ -1,1 +1,0 @@
-WITH RECURSIVE descendants AS (\n  SELECT id, parentID, 0 AS level\n  FROM node\n  WHERE id = ?  -- given node ID\n  UNION ALL\n  SELECT n.id, n.parentID, level + 1\n  FROM node n\n  JOIN descendants d ON n.parentID = d.id\n)\nSELECT id\nFROM descendants;

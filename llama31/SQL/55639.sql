@@ -1,1 +1,0 @@
-DECLARE\n  vResult INTEGER;\nBEGIN\n  Testing('your_key', vResult);\n  DBMS_OUTPUT.PUT_LINE(vResult);\nEND;

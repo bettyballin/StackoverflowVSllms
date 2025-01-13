@@ -1,1 +1,0 @@
-# Store invalidated tokens in blacklist\nblacklist = []\n\n# Check if token is in blacklist on each request\nif token in blacklist:\n    # Invalidate token and log out user\n    pass

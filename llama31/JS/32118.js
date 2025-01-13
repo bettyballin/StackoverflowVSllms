@@ -1,1 +1,0 @@
-$(document).ready(function() {\n  // Add new fields dynamically\n  $('#newArea').html('<input type="text" class="required" id="newField" name="newField" />');\n  \n  // Re-validate the form\n  $('#form1').validate();\n});

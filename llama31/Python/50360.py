@@ -1,1 +1,0 @@
-from flask import Flask, jsonify\nimport nltk\n\napp = Flask(__name__)\n\n@app.route('/tokenize', methods=['POST'])\ndef tokenize():\n    text = request.get_json()['text']\n    tokens = nltk.word_tokenize(text)\n    return jsonify(tokens)\n\nif __name__ == '__main__':\n    app.run(debug=True)

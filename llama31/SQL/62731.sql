@@ -1,1 +1,0 @@
-ALTER AUTHORIZATION ON DATABASE::MyDatabase TO NewOwnerLogin;

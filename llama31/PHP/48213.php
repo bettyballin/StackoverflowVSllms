@@ -1,1 +1,0 @@
-$consumer = new Zend_OpenId_Consumer();\n\n// Google\n$googleId = 'https://www.google.com/accounts/o8/id';\n$consumer->login($googleId, 'https://example.com/return', '1.1');\n\n// Yahoo!\n$yahooId = 'https://me.yahoo.com/';\n$consumer->login($yahooId, 'https://example.com/return', '1.1');

@@ -1,1 +1,0 @@
-interface ArchiveFormatInterface\n{\n    public function compress($data);\n    public function decompress($data);\n}\n\nclass Zip implements ArchiveFormatInterface\n{\n    // ...\n}

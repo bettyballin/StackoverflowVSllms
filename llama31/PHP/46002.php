@@ -1,1 +1,0 @@
-$date = new DateTime('2009-01-01 10:30:00', new DateTimeZone('UTC'));\n$date->setTimezone(new DateTimeZone('Australia/ACT'));\necho $date->format('H:i:s'); //21:30:00

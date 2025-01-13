@@ -1,1 +1,0 @@
-SELECT DISTINCT salary\nFROM (\n  SELECT salary,\n         DENSE_RANK() OVER (ORDER BY salary DESC) as rank\n  FROM Employee\n) e\nWHERE rank = N;

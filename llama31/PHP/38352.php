@@ -1,1 +1,0 @@
-$date = new DateTime();\necho $date->modify('-3 months')->format('M') . "\n";\necho $date->modify('+1 month')->modify('-2 months')->format('M') . "\n";\necho $date->modify('+1 month')->modify('-1 month')->format('M') . "\n";\necho $date->format('M') . "\n";

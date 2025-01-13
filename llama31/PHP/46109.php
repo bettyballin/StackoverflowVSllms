@@ -1,1 +1,0 @@
-$receiverID = json_decode($_POST['receiverID'], true);\nforeach ($receiverID as $id) {\n    //...\n}

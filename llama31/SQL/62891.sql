@@ -1,1 +1,0 @@
-ALTER TABLE letters ADD INDEX idx_letter (letter);\nALTER TABLE numbers ADD INDEX idx_number (number);\nALTER TABLE mixed ADD INDEX idx_letter_number (letter, number);

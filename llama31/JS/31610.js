@@ -1,1 +1,0 @@
-var editor = new YAHOO.widget.Editor('editor', {\n    // editor config options\n});\n\n// Set focus to the editor\neditor.on('render', function() {\n    var iframe = editor._iframe;\n    iframe.contentWindow.focus();\n});

@@ -1,1 +1,0 @@
-EXEC ConditionalSelect @selectField1 = 1, @selectField2 = 0;

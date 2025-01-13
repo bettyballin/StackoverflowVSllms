@@ -1,1 +1,0 @@
-function myFunction() {\n  // local variable\n  var localVar = 'I am local';\n\n  console.log(localVar); // outputs: I am local\n}\n\n// trying to access localVar outside the function will result in an error\nconsole.log(localVar); // ReferenceError: localVar is not defined

@@ -1,1 +1,0 @@
-$imagehtml = "<img src='".$imageSrc."' >";\n$imagehtml = encodeURIComponent($imagehtml);\necho "<a href='#' onclick=\"makewindows('".$imagehtml."'); return false;\">Click for full description </a>";

@@ -1,1 +1,0 @@
-$.ajax({\n    type: "POST",\n    url: "/controller/action",\n    data: $("#myForm").serialize(),\n    success: function(data) {\n        // Process response data\n    }\n});

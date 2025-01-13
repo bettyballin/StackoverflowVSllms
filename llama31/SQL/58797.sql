@@ -1,1 +1,0 @@
-SELECT \n    Area.Name, \n    CHECKSUM_AGG(CHECKSUM(ProductId)) AS AggregateSetOfProductsId\nFROM \n    Area\nINNER JOIN \n    AreaToProduct ON AreaToProduct.AreaId = Area.Id\nGROUP BY \n    Area.Id

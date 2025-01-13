@@ -1,1 +1,0 @@
-upper_bound = 75 + 25  # initial upper bound guess

@@ -1,1 +1,0 @@
-import pymdb\n\n# Connect to the database\ndb = pymdb.connect('yourdatabase.mdb')\n\n# Execute the query\ncursor = db.cursor()\ncursor.execute("SELECT * FROM YourQuery")\n\n# Export the results to a CSV file\nwith open('output.csv', 'w') as f:\n    writer = csv.writer(f, delimiter='\t')\n    writer.writerows(cursor.fetchall())\n\n# Close the database connection\ndb.close()

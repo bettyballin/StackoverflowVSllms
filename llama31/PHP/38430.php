@@ -1,1 +1,0 @@
-$headers = apache_request_headers();\nif (isset($headers['Via']) || isset($headers['X-Forwarded-For'])) {\n    // Possible proxy detected\n}

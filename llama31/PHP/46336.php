@@ -1,1 +1,0 @@
-$query = sprintf("SELECT COUNT(*) AS test FROM %s WHERE id = %d AND tmp_mail <> ''", $tableName, $id);

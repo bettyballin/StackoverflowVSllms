@@ -1,1 +1,0 @@
-ALTER TABLE your_table ADD prev_id INT, next_id INT;

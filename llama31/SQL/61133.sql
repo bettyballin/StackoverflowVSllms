@@ -1,1 +1,0 @@
--- Example using PostgreSQL\nCREATE INDEX idx_customers_tenant_id ON customers (tenant_id);

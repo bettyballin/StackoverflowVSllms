@@ -1,1 +1,0 @@
-// errors/401.php\n<?php\nheader('WWW-Authenticate: Basic realm="Members"');\nheader('HTTP/1.1 401 Unauthorized');\necho 'You are not authorized to access this page.';\nexit;

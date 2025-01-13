@@ -1,1 +1,0 @@
-ALTER TRIGGER [dbo].[CopyFirstName]\nON [dbo].[Patients]\nAFTER INSERT, UPDATE\nAS\nBEGIN\n    SET NOCOUNT ON;\n\n    IF UPDATE([First])\n    BEGIN\n        UPDATE p\n        SET FirstName = i.[First]\n        FROM dbo.Patients p\n        INNER JOIN inserted i ON p.[First] = i.[First];\n    END\nEND

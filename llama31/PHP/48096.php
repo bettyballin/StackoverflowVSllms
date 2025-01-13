@@ -1,1 +1,0 @@
-$sxe = simplexml_load_string($xml_string);\n$doc = dom_import_simplexml($sxe);

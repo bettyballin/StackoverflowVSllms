@@ -1,1 +1,0 @@
-from flask import Flask, jsonify\n\napp = Flask(__name__)\n\n@app.route('/api/data', methods=['GET'])\ndef get_data():\n    # Fetch data from database or another source\n    data = {'message': 'Hello, World!'}\n    return jsonify(data)\n\nif __name__ == '__main__':\n    app.run(debug=True)

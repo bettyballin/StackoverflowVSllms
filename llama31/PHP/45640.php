@@ -1,1 +1,0 @@
-function strip_image_metadata($image_path) {\n    $img = imagecreatefromjpeg($image_path);\n    imagejpeg($img, $image_path, 90); // 90 is the quality setting\n    imagedestroy($img);\n}

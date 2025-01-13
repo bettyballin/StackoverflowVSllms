@@ -1,1 +1,0 @@
-// FrontController.php\nclass FrontController {\n    public function dispatch() {\n        $router = new Router();\n        $route = $router->getRoute($_SERVER['REQUEST_URI']);\n        $controller = new $route['controller'];\n        $controller->{$route['action']}();\n    }\n}

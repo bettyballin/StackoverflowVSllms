@@ -1,1 +1,0 @@
-SELECT tablespace_name \nFROM dba_tables \nWHERE table_name = 'SEQ$';

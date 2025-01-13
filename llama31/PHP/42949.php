@@ -1,1 +1,0 @@
-$siteRoot = '/httpdocs/';\n$reportRoot = '/reports/';

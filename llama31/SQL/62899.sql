@@ -1,1 +1,0 @@
-SELECT \n  p1.name, \n  p1.age, \n  p2.name AS child_name, \n  p2.age AS child_age\nFROM \n  persons p1\n  LEFT JOIN persons p2 ON p1.id = p2.parent\nORDER BY \n  p1.age, \n  p2.age

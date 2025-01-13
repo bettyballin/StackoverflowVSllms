@@ -1,1 +1,0 @@
-$(document).ready(function() {\n    // Initialize footer plugin here\n});

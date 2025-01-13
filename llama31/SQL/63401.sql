@@ -1,1 +1,0 @@
-DECLARE\n  v_message VARCHAR2(4000) := 'Hello, World!';\n  v_transformed_message VARCHAR2(4000);\nBEGIN\n  DBMS_TRANSFORM.COMPUTE_TRANSFORMATION(\n    MESSAGE => v_message,\n    TRANSFORMATION_SCHEMA => 'MY_SCHEMA',\n    TRANSFORMATION_NAME => 'MY_TRANSFORMATION',\n    TRANSFORMED_MESSAGE => v_transformed_message\n  );\n  DBMS_OUTPUT.PUT_LINE(v_transformed_message);\nEND;

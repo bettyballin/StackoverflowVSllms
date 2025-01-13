@@ -1,1 +1,0 @@
-// Initialize registry with existing IDs\ndocument.querySelectorAll('[id]').forEach((element) => {\n  idRegistry[element.id] = true;\n});

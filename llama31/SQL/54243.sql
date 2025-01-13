@@ -1,1 +1,0 @@
-GRANT EXECUTE ON PROCEDURE::my_stored_procedure TO MyWebAppRole;

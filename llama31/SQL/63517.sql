@@ -1,1 +1,0 @@
-SELECT TOP 1 \n    qs.execution_count, \n    qs.last_execution_time, \n    t.text AS query_text\nFROM \n    sys.dm_exec_query_stats qs\nCROSS APPLY \n    sys.dm_exec_sql_text(qs.sql_handle) t\nORDER BY \n    qs.last_execution_time DESC

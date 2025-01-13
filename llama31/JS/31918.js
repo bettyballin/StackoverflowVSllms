@@ -1,1 +1,0 @@
-const myElement = document.getElementById('myElement');\nif (isElementInViewport(myElement)) {\n  console.log('Element is visible in the viewport');\n} else {\n  console.log('Element is not visible in the viewport');\n}

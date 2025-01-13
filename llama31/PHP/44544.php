@@ -1,1 +1,0 @@
-$filtered_post = filter_input_array(INPUT_POST, [\n    'name' => FILTER_SANITIZE_STRING,\n    'email' => FILTER_SANITIZE_EMAIL,\n    'age' => FILTER_SANITIZE_NUMBER_INT,\n]);

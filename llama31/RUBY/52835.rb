@@ -1,1 +1,0 @@
-# In your Rails application\nsecret_key = ENV['SECRET_KEY']

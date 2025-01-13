@@ -1,1 +1,0 @@
-SELECT 'GRANT ' + permission_name + ' ON ' + OBJECT_NAME(major_id) + ' TO [' + grantee_name + '];'\nFROM sys.database_permissions\nWHERE state = 'G';

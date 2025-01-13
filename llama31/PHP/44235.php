@@ -1,1 +1,0 @@
-$item_id = 123;\n$html = $tagEngine->htmlItemTags($item_id);\necho $html;

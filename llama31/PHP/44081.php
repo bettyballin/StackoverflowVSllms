@@ -1,1 +1,0 @@
-<?php\nfunction benchmark() {\n    $result = 0;\n    for ($i = 0; $i < 10000000; $i++) {\n        $result += $i;\n    }\n    return $result;\n}\n\necho benchmark();

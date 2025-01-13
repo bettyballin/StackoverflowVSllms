@@ -1,1 +1,0 @@
-use PhpUpload\FileUpload;\n\n$upload = new FileUpload('file', 'uploads/');\n$upload->setChunkSize(10 * 1024 * 1024); // 10MB chunks\n$upload->setAllowedExtensions(['zip', 'rar', 'tar']);\n\nif ($upload->upload()) {\n    echo 'File uploaded successfully!';\n} else {\n    echo 'Error uploading file: ' . $upload->getError();\n}

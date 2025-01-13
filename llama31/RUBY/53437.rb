@@ -1,1 +1,0 @@
-require 'active_support/core_ext/module/delegation'\n\nclass AppSession\n  delegate :[], :[]=, to: :@session\n\n  def initialize(session)\n    @session = session\n  end\nend\n\n@app_session = AppSession.new(session)\n@app_session[@current_app[:uid]] = 'some value'

@@ -1,1 +1,0 @@
-directories = ['directory_0', 'directory_1', 'directory_2']\nfiles = ['file_a', 'file_b', 'file_c']\n\nfor i, (directory, file) in enumerate(zip(directories, files), start=1):\n    print(f"{i}. {directory}/{file}")

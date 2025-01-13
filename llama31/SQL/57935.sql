@@ -1,1 +1,0 @@
--- Oracle example\nSELECT \n    t.table_name,\n    c.column_name,\n    c.data_type\nFROM \n    all_tables t\nINNER JOIN \n    all_tab_columns c ON t.table_name = c.table_name\nFOR XML PATH('table'), ROOT('schema')

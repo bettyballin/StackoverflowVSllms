@@ -1,1 +1,0 @@
-$auth_request = $openid->prepare($claimed_id, $return_to);\n$auth_request->addExtensionArg('http://www.aol.com/openid/params', 'devId', 'YOUR_DEV_ID_HERE');\n$auth_request->addExtensionArg('http://www.aol.com/openid/params', 'siteKey', 'YOUR_SHARED_SECRET_KEY_HERE');

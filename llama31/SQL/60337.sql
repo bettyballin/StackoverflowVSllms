@@ -1,1 +1,0 @@
-SELECT * FROM Users\nORDER BY Id\nOFFSET @startRow ROWS\nFETCH NEXT @pageSize ROWS ONLY;

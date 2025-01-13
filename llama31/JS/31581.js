@@ -1,1 +1,0 @@
-document.addEventListener('copy', function(e) {\n  var selection = window.getSelection();\n  var range = selection.getRangeAt(0);\n  var preElement = range.commonAncestorContainer.closest('pre');\n\n  if (preElement) {\n    var text = preElement.textContent;\n    e.clipboardData.setData('text/plain', text);\n    e.preventDefault();\n  }\n});

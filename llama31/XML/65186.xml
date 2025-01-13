@@ -1,1 +1,0 @@
-<!-- Configure JBoss Tools to use HTTPS -->\n<plugin>\n  <groupId>org.jboss.tools</groupId>\n  <artifactId>jboss-tools</artifactId>\n  <version>4.13.0.Final</version>\n  <configuration>\n    <secure>true</secure>\n  </configuration>\n</plugin>

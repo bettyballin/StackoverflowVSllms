@@ -1,1 +1,0 @@
-from flask import make_response\n\n@app.route("/")\ndef index():\n    response = make_response("Hello, World!")\n    response.headers["Cache-Control"] = "no-cache, no-store, must-revalidate"\n    response.headers["Pragma"] = "no-cache"\n    return response

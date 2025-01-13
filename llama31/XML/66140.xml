@@ -1,1 +1,0 @@
-<system.web>\n    <httpHandlers>\n        <add verb="*" path="*.application" type="ClickOnceHandler.ClickOnceHandler, ClickOnceHandler" />\n    </httpHandlers>\n</system.web>

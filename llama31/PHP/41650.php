@@ -1,1 +1,0 @@
-$q = 'Hello, World!';\n$seed = 'my_secret_seed';\n\n$p = genKey($q, $seed);\n\nif (checkKey($p, $q, $seed)) {\n  echo "Valid signature!";\n} else {\n  echo "Invalid signature!";\n}

@@ -1,1 +1,0 @@
-CREATE TABLE myRelatedTable (\n    ID INT PRIMARY KEY,\n    myTableID INT,\n    isLinkedToAll BIT NOT NULL DEFAULT 0,\n    FOREIGN KEY (myTableID) REFERENCES myTable(ID)\n);

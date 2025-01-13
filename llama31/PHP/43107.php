@@ -1,1 +1,0 @@
-$start_date = (string)$xml->Criterions->StartDate;\n$end_date = (string)$xml->Criterions->EndDate;

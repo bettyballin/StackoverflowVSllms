@@ -1,1 +1,0 @@
-SELECT * FROM states WHERE country_id = 1;  // 1 being the ID for the United States

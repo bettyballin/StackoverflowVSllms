@@ -1,1 +1,0 @@
-# myapp/tasks.py\nfrom celery import shared_task\nfrom .trie import Trie\n\n@shared_task\ndef insert_new_tag(tag_name):\n    # Insert the new tag into the trie\n    trie = Trie()\n    trie.insert(tag_name)

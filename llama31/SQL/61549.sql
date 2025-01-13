@@ -1,1 +1,0 @@
-CREATE UNIQUE INDEX UX_Folders_Name_ParentFolderId ON Folders (Name, ParentFolderId);

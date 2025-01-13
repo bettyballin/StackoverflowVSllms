@@ -1,1 +1,0 @@
-$array = array('string1', 'string2', 'string3', 'string4');\n\n$filteredArray = array_filter($array, function($key) {\n    return $key % 2 !== 0;\n}, ARRAY_FILTER_USE_KEY);\n\nprint_r($filteredArray);

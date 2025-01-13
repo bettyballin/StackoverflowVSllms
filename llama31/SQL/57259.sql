@@ -1,1 +1,0 @@
-SELECT sum(reviews.rev_rating)/count(reviews.rev_id) as avg_rating, ...\nFROM ...\nGROUP BY ...\nHAVING avg_rating > x;

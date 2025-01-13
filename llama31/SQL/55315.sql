@@ -1,1 +1,0 @@
-SELECT datname, stats_reset \nFROM pg_stat_database \nWHERE datname = 'your_database_name';

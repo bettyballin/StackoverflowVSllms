@@ -1,1 +1,0 @@
-$('#yourInputField').keypress(function(event) {\n  if (event.which == 13 && event.target == this) { // Enter key and event target is the input field\n    event.preventDefault(); // Prevent default form submission\n    // Your redirect code here\n    var inputValue = $(this).val();\n    window.location.href = 'yourRedirectUrl?' + inputValue;\n  }\n});

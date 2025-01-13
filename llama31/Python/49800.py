@@ -1,1 +1,0 @@
-func = obj.Get_All_Locales(directory)

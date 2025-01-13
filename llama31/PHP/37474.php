@@ -1,1 +1,0 @@
-$new = preg_replace('/[[:punct:]]/', ' ', $string);

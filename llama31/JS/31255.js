@@ -1,1 +1,0 @@
-$(document).ready(function() {\n  $('select option').each(function() {\n    var level = $(this).data('level');\n    if (level > 0) {\n      $(this).text('&nbsp;'.repeat(level * 2) + $(this).text());\n    }\n  });\n});

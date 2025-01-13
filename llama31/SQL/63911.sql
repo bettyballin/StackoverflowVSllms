@@ -1,1 +1,0 @@
-SELECT Field1, Field2, CONCAT(Field1, Field2) AS Field3 FROM Table

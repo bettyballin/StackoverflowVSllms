@@ -1,1 +1,0 @@
-SELECT ErrorNumberId FROM ErrorNumbers WHERE ErrorNumberId = 10

@@ -1,1 +1,0 @@
-import urllib2\nimport StringIO\n\nresponse = urllib2.urlopen('http://example.com')\nhtml_string = StringIO.StringIO(response.read()).getvalue()

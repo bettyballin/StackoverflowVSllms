@@ -1,1 +1,0 @@
-function output_template($template, $vars = array()) {\n    $closure = function($template) use ($vars) {\n        extract($vars);\n        return eval('return "' . $template . '";');\n    };\n    return $closure($template);\n}

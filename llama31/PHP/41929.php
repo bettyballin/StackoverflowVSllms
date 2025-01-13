@@ -1,1 +1,0 @@
-array_map(function($row1, $row2) {\n    // html goes here\n    echo $row1->column1 . ' - ' . $row2->column2;\n}, $data, $data2);

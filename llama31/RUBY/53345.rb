@@ -1,1 +1,0 @@
-require 'action_view/test_case'\n\nclass MyTest < ActionView::TestCase\n  def test_renders_link\n    render partial: '/something'\n    assert_select 'a', text: 'Link text'\n  end\nend

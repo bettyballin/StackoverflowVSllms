@@ -1,1 +1,0 @@
-use Symfony\Component\Form\FormBuilderInterface;\n\n$form = $this->createFormBuilder($data)\n    ->add('name', 'text')\n    ->add('email', 'email')\n    ->getForm();

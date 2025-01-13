@@ -1,1 +1,0 @@
-create or replace view meas_pnt as\nselect ..., \n       cast(m.position.SDO_POINT.X as number(10, 2)) x_coordinate,\n       m.position.SDO_POINT.Y y_coordinate\nfrom meas_pnt_tab m;

@@ -1,1 +1,0 @@
-$sql = mysql_query("\n  SELECT p.post_contentID, MAX(p.post_date) as latest_post_date\n  FROM posts p\n  WHERE p.post_content = 'thread'\n  GROUP BY p.post_contentID\n  ORDER BY latest_post_date DESC\n  LIMIT 65\n");\n\nwhile($row = mysql_fetch_array($sql)){\n  echo "<li>$row['post_contentID']</li>";\n}

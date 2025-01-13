@@ -1,1 +1,0 @@
-$expectedValue = 'admin';\n$userInput = $_GET['input'];\n\nif ($userInput == $expectedValue) {\n    // grant admin access\n}

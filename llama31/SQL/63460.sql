@@ -1,1 +1,0 @@
-CREATE PROCEDURE GetServerTime\nAS\nBEGIN\n    SELECT GETDATE() AS ServerTime\nEND

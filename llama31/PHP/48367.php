@@ -1,1 +1,0 @@
-$input_file = 'input.mp4';\n$output_file = 'output.flv';\n\n$pid = run_ffmpeg_in_background($input_file, $output_file);\n\n// Do some other stuff...\n\n// Check if the process is still running\nif (is_process_running($pid)) {\n    echo "Process is still running";\n} else {\n    echo "Process has finished";\n}

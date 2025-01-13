@@ -1,1 +1,0 @@
-ALTER PROCEDURE [RetailAdmin].[TitleSearch] \n    (@isbn VARCHAR(50), @author VARCHAR(50), @title VARCHAR(50))\nAS\nBEGIN\n    -- Existing code here...\n    SELECT \n        [storeid],\n        [Author],\n        [Title],\n        [ISBN],\n        [Imprint],\n        [Edition],\n        [Copyright],\n        [stockonhand]\n    FROM \n        #mytemp\nEND

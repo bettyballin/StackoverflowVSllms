@@ -1,1 +1,0 @@
-class Outer:\n    def inner(self):\n        pass\n\n    def outer(self):\n        self.inner()  # call the inner method

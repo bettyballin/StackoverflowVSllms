@@ -1,1 +1,0 @@
-echo preg_replace("/^(?!dev\.)/Ui", '', 'www.yomomedia.com'); // returns 'yomomedia.com'\necho preg_replace("/^(?!dev\.)/Ui", '', 'dev.yomomedia.com'); // returns 'dev.yomomedia.com'\necho preg_replace("/^(?!dev\.)/Ui", '', 'subdomain.yomomedia.com'); // returns 'yomomedia.com'

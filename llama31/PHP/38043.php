@@ -1,1 +1,0 @@
-$type = 'my';\n$my_method = 'hello world!';\n\necho ${"{$type}_method"}; // outputs "hello world!"

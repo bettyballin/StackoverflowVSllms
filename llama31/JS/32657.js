@@ -1,1 +1,0 @@
-jQuery.fn.changingtext = function(expr) {\n  return this.each(function() {\n    $(this).not('.no-change').contents().each(function() {\n      if (this.nodeType === 3) { // only text nodes\n        this.textContent = this.textContent.replace(/Changing Text/ig, "Edited!");\n      }\n    });\n  });\n};

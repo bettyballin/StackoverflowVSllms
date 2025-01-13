@@ -1,1 +1,0 @@
-// names.php\nstatic $names = null;\n\nif ($names === null) {\n    $names = Array("Anna", "Jackson", ..., "Owen");\n    sort($names);\n}\n\n// Your AJAX handler can then include this file and use the $names array

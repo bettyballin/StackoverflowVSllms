@@ -1,1 +1,0 @@
-INSERT INTO tblSimulation (p, cfYear, cfLocation, Delta, Design, SigmaLoc, Sigma, SampleSize, Intercept)\nSELECT 0, 2, 8.3, 0, 1, 0.5, 0.2, 220, 3.4 FROM Dual\nUNION ALL\nSELECT 0, 2.4, 7.8, 0, 1, 0.5, 0.2, 220, 3.4 FROM Dual\nUNION ALL\nSELECT 0, 2.3, 5.9, 0, 1, 0.5, 0.2, 220, 3.4 FROM Dual

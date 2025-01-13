@@ -1,1 +1,0 @@
-$soapClient = new SoapClient('https://example.com/wsdl', array(\n    'stream_context' => stream_context_create(array(\n        'ssl' => array(\n            'verify_peer' => false,\n            'verify_peer_name' => false,\n        ),\n    )),\n));

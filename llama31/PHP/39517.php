@@ -1,1 +1,0 @@
-$stmt = mysqli_prepare($conn, "SELECT * FROM your_table");\nmysqli_stmt_execute($stmt);\n$result = mysqli_stmt_get_result($stmt);\nwhile ($row = mysqli_fetch_array($result)) {\n    // Process each row here\n    print_r($row);\n}

@@ -1,1 +1,0 @@
-$headers .= "Content-Type: multipart/alternative; boundary=\"$mime_boundary\"; name=\"$mime_boundary\"\n";

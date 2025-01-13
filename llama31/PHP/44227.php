@@ -1,1 +1,0 @@
-$img = imagecreatefromgif("./unit.gif");\n\nimageflip($img, IMG_FLIP_HORIZONTAL);\n\nheader("Content-type: image/gif");\nimagegif($img);\nimagedestroy($img);

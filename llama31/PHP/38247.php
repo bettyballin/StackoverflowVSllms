@@ -1,1 +1,0 @@
-class Factory {\n    public function createDatabase() {\n        $logger = new LogProxy($this->createDatabase());\n        return new Database($logger);\n    }\n}

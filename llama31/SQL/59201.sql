@@ -1,1 +1,0 @@
-UPDATE AuthorTable\nSET Earliest = (\n  SELECT MIN(Year)\n  FROM BookTable\n  WHERE BookTable.AuthorFK = AuthorTable.AuthorID\n)

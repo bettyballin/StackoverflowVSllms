@@ -1,1 +1,0 @@
-function addNums(...$args) {\n    $result = 0;\n    foreach ($args as $arg) {\n        $result += $arg;\n    }\n    return $result;\n}\n\n$result = addNums(2, 2);\necho $result; // Output: 4

@@ -1,1 +1,0 @@
-SELECT * INTO #temp\nFROM OPENROWSET('Microsoft.ACE.OLEDB.12.0',\n                'Excel 12.0;Database=C:\Path\To\Your\Excel\File.xlsx',\n                'SELECT * FROM [Sheet1$]')\n\nINSERT INTO YourDatabaseTable (column1, column2, ...)\nSELECT column1, column2, ...\nFROM #temp

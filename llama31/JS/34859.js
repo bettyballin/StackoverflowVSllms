@@ -1,1 +1,0 @@
-var xhr = new XMLHttpRequest();\nxhr.open('POST', '/update-xml-island', true);\nxhr.setRequestHeader('Content-Type', 'text/xml');\nxhr.send(xmlDoc.xml);

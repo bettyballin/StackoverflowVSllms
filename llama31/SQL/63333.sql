@@ -1,1 +1,0 @@
-SELECT COUNT(DISTINCT productId) \nFROM your_table \nWHERE keyword = '$keyword';

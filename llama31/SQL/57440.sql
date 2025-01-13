@@ -1,1 +1,0 @@
-CREATE TABLE user_product_certification (\n  id INT PRIMARY KEY,\n  user_id INT,\n  product_id INT,\n  seat_id INT,\n  certification_status VARCHAR(255),\n  created_at TIMESTAMP,\n  updated_at TIMESTAMP,\n  FOREIGN KEY (user_id) REFERENCES users(id),\n  FOREIGN KEY (product_id) REFERENCES products(id),\n  FOREIGN KEY (seat_id) REFERENCES seats(id)\n);

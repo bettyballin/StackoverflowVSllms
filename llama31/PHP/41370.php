@@ -1,1 +1,0 @@
-abstract class Animal {\n    abstract public function sound();\n}\n\nclass Dog extends Animal {\n    public function sound() {\n        return "Woof!";\n    }\n}

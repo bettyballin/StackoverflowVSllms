@@ -1,1 +1,0 @@
-SELECT COALESCE(t1.field, t2.field, t3.field) AS field, ...\nFROM table1 t1\nLEFT JOIN table2 t2 ON @Flag = 2\nLEFT JOIN table3 t3 ON @Flag = 3\nWHERE @Flag = 1 OR t2.field IS NOT NULL OR t3.field IS NOT NULL

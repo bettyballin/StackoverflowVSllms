@@ -1,1 +1,0 @@
-SELECT TOP 1 log_date \nFROM sys.syslogs \nWHERE allocunitname = 'dbo.tblSomething' \n  AND operation = 'INSERT' \n  AND [key] = 1\nORDER BY log_date ASC

@@ -1,1 +1,0 @@
-function fileExists($directory, $filename) {\n    $filePath = $directory . DIRECTORY_SEPARATOR . $filename;\n    return file_exists($filePath);\n}\n\n// usage:\n$directory = '/path/to/directory';\n$filename = 'image.jpg';\nif (fileExists($directory, $filename)) {\n    echo "File exists.";\n} else {\n    echo "File does not exist.";\n}

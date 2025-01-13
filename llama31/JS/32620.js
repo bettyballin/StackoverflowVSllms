@@ -1,1 +1,0 @@
-var fileInput = document.getElementById("uploadFile");\nvar selected = fileInput.files != null && fileInput.files.length > 0;

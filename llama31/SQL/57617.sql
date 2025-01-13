@@ -1,1 +1,0 @@
-SELECT ID, Col1, Col2, Col3, \n       (SELECT MIN(val) \n        FROM (VALUES (Col1), (Col2), (Col3)) AS vals(val)) AS TheMin\nFROM YourTable;

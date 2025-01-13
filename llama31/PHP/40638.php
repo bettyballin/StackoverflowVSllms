@@ -1,1 +1,0 @@
-putenv("MYSQL_PWD=password");\nexec($command);

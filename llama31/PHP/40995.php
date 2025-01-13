@@ -1,1 +1,0 @@
-ob_start();\nif (stripos($_SERVER['HTTP_ACCEPT_ENCODING'], "gzip") !== false) {\n  ob_start("ob_gzhandler");\n  echo file_get_contents($filename);\n  ob_end_flush();\n} else\n  echo file_get_contents($filename);\n\nheader('Content-Length: '.ob_get_length());\nob_end_flush();

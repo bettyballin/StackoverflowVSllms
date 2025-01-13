@@ -1,1 +1,0 @@
-import subprocess\n\nif job == 1:\n    subprocess.Popen(['python', '/path/to/script.py'])\n    return 'Job is running'

@@ -1,1 +1,0 @@
-Array\n(\n    [0] => body { background: #f00; font: 12px Arial; }\n    [selector] => body\n    [1] => background: #f00; font: 12px Arial;\n    [properties] => font\n    [2] => font\n    [values] => 12px Arial\n    [3] => 12px Arial\n)

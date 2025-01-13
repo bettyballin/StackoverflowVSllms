@@ -1,1 +1,0 @@
-<?php\nheader('Refresh: 10; url=livedata.php');\n?>

@@ -1,1 +1,0 @@
-ALTER TABLE YourTable\nADD ConvertedGuid AS CONVERT(uniqueidentifier, YourVarcharColumn) PERSISTED

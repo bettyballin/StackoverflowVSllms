@@ -1,1 +1,0 @@
-var bloodhound = new Bloodhound({\n  datumTokenizer: Bloodhound.tokenizers.whitespace,\n  queryTokenizer: Bloodhound.tokenizers.whitespace,\n  remote: {\n    url: "/path/to/suggestions?q=%QUERY",\n    wildcard: "%QUERY"\n  }\n});\n\n$("#input").typeahead(null, {\n  name: "suggestions",\n  source: bloodhound\n});

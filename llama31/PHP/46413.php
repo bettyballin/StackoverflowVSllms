@@ -1,1 +1,0 @@
-// In your helper file\n$ci =& get_instance();\n$ci->admin->login();

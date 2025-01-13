@@ -1,1 +1,0 @@
-$messages = $this->_messages->getMessages();\n$messages = array_map(function($message) {\n    return ['message' => $message];\n}, $messages);\n$this->view->messages = $messages;

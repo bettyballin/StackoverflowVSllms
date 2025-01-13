@@ -1,1 +1,0 @@
-ALTER TABLE Terminals\nADD Lock BIT DEFAULT 0

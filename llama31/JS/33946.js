@@ -1,1 +1,0 @@
-// Example of a plugin accessing local storage\nconst plugin = {\n  name: 'My Plugin',\n  description: 'Stores data in local storage',\n  run: function() {\n    const storage = window.localStorage;\n    storage.setItem('my-plugin-data', 'Hello, World!');\n  }\n};

@@ -1,1 +1,0 @@
-function toBeCalled(&$parameter) {\n    // Modify the parameter\n    $parameter = 'Modified';\n}\n\n$changingVar = 'passThis';\n$parameters = array(&$changingVar); // Note the '&' here\ncall_user_func_array('toBeCalled', $parameters);\n\nprint $changingVar; // Outputs: "Modified"

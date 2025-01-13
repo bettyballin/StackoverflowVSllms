@@ -1,1 +1,0 @@
-SELECT * FROM EmployerDept WHERE id = 'ID';

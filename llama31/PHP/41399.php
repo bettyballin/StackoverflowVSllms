@@ -1,1 +1,0 @@
-$stmt = $pdo->prepare("\n  SELECT *,\n  MATCH(title, content) AGAINST(:keyword IN BOOLEAN MODE) AS score\n  FROM articles\n  WHERE MATCH(title, content) AGAINST(:keyword IN BOOLEAN MODE)\n  ORDER BY score DESC\n");\n$stmt->execute(['keyword' => $keyword]);

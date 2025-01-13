@@ -1,1 +1,0 @@
-// hooks.php\nclass SecurityHook\n{\n    public function pre_controller()\n    {\n        // Code to enforce security\n    }\n}

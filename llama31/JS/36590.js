@@ -1,1 +1,0 @@
-const canvas = document.getElementById('theCanvas');\ncanvas.width = window.innerWidth;\ncanvas.height = window.innerHeight;

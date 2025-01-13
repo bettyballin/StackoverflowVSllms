@@ -1,1 +1,0 @@
-if ($_SERVER['REQUEST_METHOD'] == 'POST') {\n    // handle the form data here\n    echo $_POST['your_data'];\n}

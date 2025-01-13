@@ -1,1 +1,0 @@
-// MyRecordForm.php\nclass MyRecordForm extends Zend_Form\n{\n    public function __construct()\n    {\n        // Form config code (decorators, validations, initial values)\n    }\n\n    public function ProcessSubmit()\n    {\n        // Form submit handling code\n    }\n}

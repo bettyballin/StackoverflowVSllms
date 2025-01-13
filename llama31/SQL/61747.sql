@@ -1,1 +1,0 @@
-SELECT o.OrderId, \n       CASE \n         WHEN o.NegotiatedPrice > o.SuggestedPrice THEN o.NegotiatedPrice \n         ELSE o.SuggestedPrice \n       END AS MaxPrice\nFROM Order o

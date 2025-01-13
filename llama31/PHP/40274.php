@@ -1,1 +1,0 @@
-$fileName = "Gibt es eine schö(&#252;)ne Offroadstrecke? &#169;";\n$fileName = html_entity_decode($fileName);\necho $fileName; // Output: "Gibt es eine schöne Offroadstrecke? "

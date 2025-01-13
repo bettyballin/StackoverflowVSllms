@@ -1,1 +1,0 @@
-$('#file-upload').fileupload({\n  // options\n});

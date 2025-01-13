@@ -1,1 +1,0 @@
-SET STATISTICS PROFILE ON;\nGO\n\nIF NOT EXISTS (SELECT 1 FROM [MSmerge_[Publication]_[Table]_VIEW] WHERE [rowguid] = @rowguid)\nBEGIN\n    -- do something\nEND\n\nSET STATISTICS PROFILE OFF;\nGO

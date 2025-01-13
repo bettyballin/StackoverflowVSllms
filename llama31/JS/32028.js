@@ -1,1 +1,0 @@
-var xhr = new XMLHttpRequest();\n// ...\nif (xhr.readyState === 0) {\n  console.log("Request has been aborted");\n}

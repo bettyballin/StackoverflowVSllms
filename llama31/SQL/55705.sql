@@ -1,1 +1,0 @@
-SELECT \n  TO_CHAR(TRUNC(Registered_on, 'HH24'), 'DD-MON-YY HH24') AS hour,\n  COUNT(*) AS registrations\nFROM \n  employeeReg\nGROUP BY \n  TRUNC(Registered_on, 'HH24')\nORDER BY \n  hour;

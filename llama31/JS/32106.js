@@ -1,1 +1,0 @@
-$('#contentDiv').each(function() {\n  var wrapperHTML = "<div id='wrapperDiv'><div id='beforeDiv'></div>";\n  var afterHTML = "<div id='afterDiv'></div></div>";\n  \n  this.insertAdjacentHTML('beforebegin', wrapperHTML);\n  this.insertAdjacentHTML('afterend', afterHTML);\n});

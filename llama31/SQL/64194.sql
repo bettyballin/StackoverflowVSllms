@@ -1,1 +1,0 @@
-UPDATE inventoryDetails AS idet\nINNER JOIN (\n    SELECT bomModelNumber, MIN(bomItemDescription) AS bomItemDesc\n    FROM BOM_TEMPLATES\n    GROUP BY bomModelNumber\n) AS bt\nON idet.modelNumber = bt.bomModelNumber\nSET idet.itemDesc = bt.bomItemDesc

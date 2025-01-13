@@ -1,1 +1,0 @@
-$(document).ready(function() {\n  $("#formSearch").submit(function() {\n    var options = {\n      url: "http://localhost:8081/sniper/estabelecimento/pesquisar.action",\n      success: function(data) {\n        $("#divResult").html(data); // update the contents of #divResult\n      }\n    };\n    $(this).ajaxSubmit(options);\n    return false;\n  });\n});

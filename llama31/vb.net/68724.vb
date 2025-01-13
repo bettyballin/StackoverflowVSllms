@@ -1,1 +1,0 @@
-Public Class myPage\n    Inherits System.Web.UI.Page\n\n    Protected Overridable Sub Page_Load(ByVal sender As Object, ByVal e As System.EventArgs) Handles Me.Load\n        Me.Title = "Default Title"\n    End Sub\nEnd Class

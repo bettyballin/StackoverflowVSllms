@@ -1,1 +1,0 @@
-function number_to_words($num) {\n    $f = new NumberFormatter("en", NumberFormatter::SPELLOUT);\n    return $f->format($num);\n}\n\nprint(number_to_words(27));  // Outputs: "twenty-seven"

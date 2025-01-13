@@ -1,1 +1,0 @@
-SELECT *\n  FROM TableA\n       INNER JOIN TableB \n       ON TableB.Column1 = \n         CASE \n           WHEN TableA.Column1 = 0 THEN TableB.Column1 \n           ELSE TableA.Column1 \n         END

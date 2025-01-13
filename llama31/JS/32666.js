@@ -1,1 +1,0 @@
-const queryString = window.location.search;\nconst id = new URLSearchParams(queryString).get('id');\ndocument.documentElement.style.setProperty('--example-color', `#${id}`);

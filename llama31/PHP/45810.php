@@ -1,1 +1,0 @@
-// player.php\nif (file_exists('playlist.xml')) {\n  unlink('playlist.xml');\n}\n\n// your existing PHP code here

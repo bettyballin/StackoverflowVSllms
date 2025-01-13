@@ -1,1 +1,0 @@
-var coll = document.getElementsByName("txtState");

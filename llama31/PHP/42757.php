@@ -1,1 +1,0 @@
-if ($stmt = $link->prepare("SELECT item FROM data WHERE id = ?; INSERT INTO summaries (itemID, summary) VALUES (?, ?)")) {\n    // ...\n}

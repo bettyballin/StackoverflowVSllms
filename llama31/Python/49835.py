@@ -1,1 +1,0 @@
-x = [1, 2, 3, 4, 5, 11]\ny = [f"{i:02d}" for i in x]\nprint(y)

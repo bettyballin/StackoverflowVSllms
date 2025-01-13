@@ -1,1 +1,0 @@
-CREATE TABLE Ratios (\n    Ratio decimal(5, 2)\n);

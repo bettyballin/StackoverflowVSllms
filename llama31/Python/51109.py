@@ -1,1 +1,0 @@
-from orator import DatabaseManager, Model\n\nconfig = {\n    'postgresql': {\n        'driver': 'postgres',\n        'host': 'host',\n        'database': 'dbname',\n        'user': 'user',\n        'password': 'password',\n    }\n}\n\ndb = DatabaseManager(config)\n\nclass User(Model):\n    pass

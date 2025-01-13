@@ -1,1 +1,0 @@
-DECLARE @sql NVARCHAR(MAX) = ''\n\nSELECT @sql += 'GRANT EXECUTE ON ' + QUOTENAME(s.name) + '.' + QUOTENAME(p.name) + ' TO [YourRoleName]; '\nFROM sys.procedures p\nJOIN sys.schemas s ON p.schema_id = s.schema_id\nWHERE p.name IN (SELECT name FROM sys.procedures WHERE type = 'P')\n\nEXEC sp_executesql @sql

@@ -1,1 +1,0 @@
-$website = str_replace('http://', '', $_POST['website']);

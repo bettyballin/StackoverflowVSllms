@@ -1,1 +1,0 @@
-$(function() {\n  $("#menu").menu();\n});

@@ -1,1 +1,0 @@
-function is_browser_connected() {\n    return connection_aborted() === 0;\n}

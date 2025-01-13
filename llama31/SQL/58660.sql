@@ -1,1 +1,0 @@
-SELECT * FROM table_name WHERE REGEXP_LIKE(text_column, 'key2=def');

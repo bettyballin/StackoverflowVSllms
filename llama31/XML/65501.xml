@@ -1,1 +1,0 @@
-<configSections>\n    <section name="databases" type="YourNamespace.DatabaseConfigurationHandler, YourAssemblyName" />\n</configSections>\n<databases>\n    <database name="DatabaseOne" value="[value]" />\n    <database name="DatabaseTwo" value="[value]" />\n</databases>

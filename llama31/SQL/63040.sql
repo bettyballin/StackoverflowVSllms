@@ -1,1 +1,0 @@
-SELECT \n  value_column1,\n  AVG(value_column1) OVER (ORDER BY datetime_column1 ROWS 19 PRECEDING) AS moving_average\nFROM table1\nWHERE datetime_column1 >= '2009-01-01 00:00:00'\nORDER BY datetime_column1;

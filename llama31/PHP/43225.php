@@ -1,1 +1,0 @@
-while (true) {\n    $output = file_get_contents('output.log');\n    // Process the output and update the user interface\n    // ...\n    sleep(1); // wait for 1 second before checking again\n}

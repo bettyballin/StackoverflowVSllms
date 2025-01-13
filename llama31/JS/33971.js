@@ -1,1 +1,0 @@
-// Example of a plugin modifying the DOM\nconst plugin = {\n  name: 'My Plugin',\n  description: 'Modifies the page content',\n  run: function() {\n    const paragraph = document.createElement('p');\n    paragraph.textContent = 'This is a new paragraph';\n    document.body.appendChild(paragraph);\n  }\n};

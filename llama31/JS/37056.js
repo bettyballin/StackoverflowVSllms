@@ -1,1 +1,0 @@
-var myArray = [2, 4];\nvar form = document.getElementById('myForm');\n\nfor (var i = 0; i < myArray.length; i++) {\n  var input = document.createElement('input');\n  input.type = 'hidden';\n  input.name = 'id';\n  input.value = myArray[i];\n  form.appendChild(input);\n}

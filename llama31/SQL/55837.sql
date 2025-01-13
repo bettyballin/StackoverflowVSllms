@@ -1,1 +1,0 @@
-SELECT Co1, Co2, Co3, Co4\nFROM YourTable\nWHERE Co3 IN ('t', 'r')\nOR NOT EXISTS (\n  SELECT 1\n  FROM YourTable AS t2\n  WHERE t2.Co1 = YourTable.Co1\n  AND t2.Co2 = YourTable.Co2\n  AND t2.Co3 NOT IN ('t', 'r')\n  AND t2.Co4 < YourTable.Co4\n)\nORDER BY Co1, Co2;

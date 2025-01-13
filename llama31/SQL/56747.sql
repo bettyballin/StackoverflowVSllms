@@ -1,1 +1,0 @@
-SELECT *\nFROM addresses\nWHERE ST_Distance_Sphere(POINT(@lng, @lat), POINT(lng, lat)) <= @radius * 1609.34

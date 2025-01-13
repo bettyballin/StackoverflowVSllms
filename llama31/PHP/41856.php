@@ -1,1 +1,0 @@
-function my_function() {\n    $backtrace = debug_backtrace();\n    $caller = $backtrace[0];\n    echo "Called from file: " . $caller['file'] . "\n";\n    echo "Called from line: " . $caller['line'] . "\n";\n}

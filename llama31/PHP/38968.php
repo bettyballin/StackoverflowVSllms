@@ -1,1 +1,0 @@
-$css = 'body { background: #f00; font: 12px Arial; }';\npreg_match($pattern, $css, $matches);\n\nprint_r($matches);

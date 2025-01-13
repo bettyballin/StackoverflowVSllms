@@ -1,1 +1,0 @@
-ALTER PROCEDURE myProcedure\nWITH (ISOLATION LEVEL = READ UNCOMMITTED)\nAS\nBEGIN\n    -- your code here\nEND

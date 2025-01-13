@@ -1,1 +1,0 @@
-$c = preg_split('/\r?\n/', $content);

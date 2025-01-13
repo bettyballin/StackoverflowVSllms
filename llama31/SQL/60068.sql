@@ -1,1 +1,0 @@
-SELECT is_nullable\nFROM sys.columns\nWHERE name = 'your_column_name'\nAND object_id = OBJECT_ID('your_table_name');

@@ -1,1 +1,0 @@
-$query = "SELECT ".$param." FROM issues WHERE ".$param." >=0";\n$result = mysqli_query($db_connection, $query) or showError("query failed");\nif (!($record = mysqli_fetch_assoc($result))) return null;\nreturn $record;

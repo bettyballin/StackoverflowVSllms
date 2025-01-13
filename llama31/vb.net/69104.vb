@@ -1,1 +1,0 @@
-Dim xmlReader As XmlReader = XmlReader.Create(New StringReader(xdsIncidents.Data))\nds_me.ReadXml(xmlReader)

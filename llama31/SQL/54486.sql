@@ -1,1 +1,0 @@
-mysql> DELIMITER //\nmysql> CREATE TRIGGER trigger_name BEFORE UPDATE ON table\n    -> FOR EACH ROW BEGIN\n    ->   -- Trigger logic goes here\n    -> END //\nmysql> DELIMITER ;

@@ -1,1 +1,0 @@
-Dim numbers = {1, 2, 3, 4, 5}\nDim evenNumbers = numbers.Where(Function(x)\n                                 Return x Mod 2 = 0\n                               End Function)

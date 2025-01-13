@@ -1,1 +1,0 @@
-DROP TRIGGER IF EXISTS trigger_name;\n\n-- DELIMITER //\nCREATE TRIGGER trigger_name BEFORE UPDATE ON table\nFOR EACH ROW BEGIN\n  -- Trigger logic goes here\nEND\n-- // DELIMITER ;

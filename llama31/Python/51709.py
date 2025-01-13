@@ -1,1 +1,0 @@
-import socket\nimport stun\n\n# Create a STUN client\nclient = stun.Client()\n\n# Set the STUN server address\nclient.set_server("stun.l.google.com", 19302)\n\n# Get the external IP address and port\nexternal_ip, external_port = client.get_external_address()\n\nprint("External IP:", external_ip)\nprint("External Port:", external_port)

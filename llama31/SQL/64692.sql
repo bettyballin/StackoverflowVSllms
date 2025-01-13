@@ -1,1 +1,0 @@
-EXEC getrecords @tasktype = (SELECT tasktype FROM your_table WHERE id = @id), @other_arg1, @other_arg2;

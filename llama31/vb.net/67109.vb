@@ -1,1 +1,0 @@
-Dim Th As New Thread(New ParameterizedThreadStart(Sub(params As Object) DoStuff(DirectCast(params, Tuple(Of param1Type, param2Type)), AddressOf ReportStatus)))\nTh.Start(Tuple.Create(param1, param2))

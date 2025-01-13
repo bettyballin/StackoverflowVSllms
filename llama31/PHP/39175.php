@@ -1,1 +1,0 @@
-$config['Misc']['enable_error_reporting'] = true;\n$config['Misc']['error_reporting_level'] = E_ALL;\n$config['Misc']['error_reporting_display'] = true;

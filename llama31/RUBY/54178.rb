@@ -1,1 +1,0 @@
-class YourModel < ActiveRecord::Base\n  # ...\n  def associated_model_name\n    associated_model.name\n  end\nend

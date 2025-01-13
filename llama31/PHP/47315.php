@@ -1,1 +1,0 @@
-$array = [\n  1510790277,\n  1586522582,\n  1572272336,\n  1650049585,\n  1591332330,\n  1698088238,\n  1646561226,\n  1639050043,\n  1652067570,\n  1548161804,\n];\n\n$indexes = array_keys($array);\narsort($array);\n$largestIndexes = array_slice($indexes, 0, 3);\n\nprint_r($largestIndexes);

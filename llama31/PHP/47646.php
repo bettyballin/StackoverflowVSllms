@@ -1,1 +1,0 @@
-$guest = 1;\n$editor = 2;\n$admin = 4;\n\n$user = $editor;\n\nif ($user & $editor) {\n    echo "User is an editor";\n}\n\nif ($user & $admin) {\n    echo "User is an admin";\n}

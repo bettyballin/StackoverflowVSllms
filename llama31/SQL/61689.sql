@@ -1,1 +1,0 @@
-SELECT \n  object_id, \n  (vote + (SELECT ABS(MIN(vote)) FROM your_table WHERE object_id IN (1, 2))) / \n  (SELECT SUM(vote + (SELECT ABS(MIN(vote)) FROM your_table WHERE object_id IN (1, 2))) \n   FROM your_table WHERE object_id IN (1, 2)) AS normalized_score\nFROM \n  your_table\nWHERE \n  object_id IN (1, 2);

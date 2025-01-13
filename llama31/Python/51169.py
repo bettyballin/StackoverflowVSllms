@@ -1,1 +1,0 @@
-L = [['14', '65', 76], ['2', '5', 6], ['7', '12', 33], ['14', '22', 46]]\n\nnew_L = [sublist for i, sublist in enumerate(L) if sublist[0] not in [x[0] for x in L[:i]]]\n\nprint(new_L)

@@ -1,1 +1,0 @@
-GRANT SELECT ON SCHEMA::newrole TO [specific_user];

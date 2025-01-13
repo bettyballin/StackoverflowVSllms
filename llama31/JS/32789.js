@@ -1,1 +1,0 @@
-$(document).ready(function(){\n  $("input").focus(function () {\n    $(this).closest('.inputboximage').css('background-image', 'url(images/curvedinputblue.gif)');\n  });\n\n  $("input").blur(function () {\n    $(this).closest('.inputboximage').css('background-image', 'url(images/curvedinput.gif)');\n  });\n});

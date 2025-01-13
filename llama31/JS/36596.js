@@ -1,1 +1,0 @@
-// In the parent page\nconst iframe = document.getElementById('myIframe');\niframe.contentWindow.postMessage('Hello from parent!', 'https://iframe.example.com');

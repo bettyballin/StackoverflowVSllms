@@ -1,1 +1,0 @@
-// Get data from the saved image\n$exif = exif_read_data('phplogo-edited.jpg', 'IFD0');\nprint_r($exif);

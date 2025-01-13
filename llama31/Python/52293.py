@@ -1,1 +1,0 @@
-# child.py\nimport sys\nsys.path.insert(0, '../')\nfrom parent import ParentClass

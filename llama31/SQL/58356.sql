@@ -1,1 +1,0 @@
-SELECT * FROM dbo.WordFrequency('YourTableName', 'Response')\nWHERE word NOT IN ('and', 'the', 'a', 'an', 'is', 'in', 'it', 'of', 'to')

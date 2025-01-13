@@ -1,1 +1,0 @@
-require_once 'MyClass.php';\n\nif (isset($_POST['action']) && $_POST['action'] == 'myMethod') {\n    $myClass = new MyClass();\n    echo $myClass->myMethod();\n}

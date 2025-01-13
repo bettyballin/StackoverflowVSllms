@@ -1,1 +1,0 @@
-<system.webServer>\n    <handlers>\n        <add name="AXD" path="*.axd" verb="*" modules="IsapiModule" scriptProcessor="C:\Windows\Microsoft.NET\Framework\v4.0.30319\aspnet_isapi.dll" resourceType="Unspecified" requireAccess="None" preCondition="bitness64" />\n    </handlers>\n</system.webServer>

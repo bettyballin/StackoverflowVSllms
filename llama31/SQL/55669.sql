@@ -1,1 +1,0 @@
-WITH ColumnSet AS (\n  SELECT columnA\n       , columnB\n       , columnC\n)\nSELECT * FROM ColumnSet\nWHERE EXISTS (SELECT 1 FROM Data WHERE Data.columnA = ColumnSet.columnA);\n\nSELECT * FROM ColumnSet\nWHERE EXISTS (SELECT 1 FROM DataArchive WHERE DataArchive.columnA = ColumnSet.columnA);

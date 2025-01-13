@@ -1,1 +1,0 @@
-$.fn.bar = function() {\n  return this.html();\n}\n\nalert($('#foo').bar());

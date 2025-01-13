@@ -1,1 +1,0 @@
-function findHighestZIndex() {\n    var maxZIndex = 0;\n    var elements = document.querySelectorAll('*');\n    elements.forEach(function(element) {\n        var zIndex = parseInt(window.getComputedStyle(element).zIndex);\n        if (zIndex > maxZIndex) {\n            maxZIndex = zIndex;\n        }\n    });\n    return maxZIndex;\n}

@@ -1,1 +1,0 @@
-static public function urlExists($url)\n{\n    $headers = @get_headers($url);\n    return strpos($headers[0], '200') !== false;\n}

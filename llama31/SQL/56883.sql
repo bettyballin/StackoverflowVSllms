@@ -1,1 +1,0 @@
-CREATE TABLE main_table (\n  id INT PRIMARY KEY,\n  lookup_value VARCHAR(50)\n);

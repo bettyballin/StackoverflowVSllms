@@ -1,1 +1,0 @@
-use Doctrine\Common\Util\Debug;\n\n$doctrineObject = /* your Doctrine object */;\ndebug($doctrineObject);

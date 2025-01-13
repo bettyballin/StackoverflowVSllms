@@ -1,1 +1,0 @@
-SELECT 'INSERT INTO your_table_name (column1, column2, ...) VALUES (' + \n       CONVERT(VARCHAR(MAX), column1) + ', ' + \n       CONVERT(VARCHAR(MAX), column2) + ', ...);'\nFROM your_table_name;

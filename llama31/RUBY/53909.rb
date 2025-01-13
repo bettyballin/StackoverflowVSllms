@@ -1,1 +1,0 @@
-# controllers/sessions_controller.rb\nclass SessionsController < ApplicationController\n  def new\n    redirect_to '/auth/vbulletin'\n  end\n\n  def create\n    auth = request.env['omniauth.auth']\n    # Authenticate user and authorize access\n  end\nend

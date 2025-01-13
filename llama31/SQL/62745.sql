@@ -1,1 +1,0 @@
-SELECT Code, Date, Rate\nFROM (\n  SELECT Code, Date, Rate,\n         LAG(Rate) OVER (PARTITION BY Code ORDER BY Date) AS PrevRate\n  FROM RateTable\n) AS Subquery\nWHERE Rate <> PrevRate OR PrevRate IS NULL;

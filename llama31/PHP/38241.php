@@ -1,1 +1,0 @@
-FlexibleAccess::setDatabaseName($_SESSION['mydatabase']);

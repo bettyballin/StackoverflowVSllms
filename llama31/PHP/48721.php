@@ -1,1 +1,0 @@
-function generateSecureRandomString($length = 8) {\n    $characters = 'abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789';\n    $randomString = '';\n    for ($i = 0; $i < $length; $i++) {\n        $randomString .= $characters[random_int(0, strlen($characters) - 1)];\n    }\n    return $randomString;\n}\n\necho generateSecureRandomString();

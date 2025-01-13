@@ -1,1 +1,0 @@
-def create\n  @post = current_user.posts.build(params[:post])\n  # ...\nend

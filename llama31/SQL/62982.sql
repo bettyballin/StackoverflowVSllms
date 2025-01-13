@@ -1,1 +1,0 @@
-WITH RecursiveTree AS (\n  ...\n)\nSELECT * FROM RecursiveTree\nOPTION (MAXRECURSION 0)

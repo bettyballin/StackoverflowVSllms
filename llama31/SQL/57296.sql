@@ -1,1 +1,0 @@
-CREATE PROCEDURE [dbo].[MyProcedure]\n    @PageSize int,\n    @PageIndex int\nAS\nBEGIN\n    SELECT TOP (@PageSize) *\n    FROM (\n        SELECT ROW_NUMBER() OVER (ORDER BY MyColumn) AS RowNumber, *\n        FROM MyTable\n    ) AS p\n    WHERE p.RowNumber >= (@PageIndex * @PageSize) + 1\nEND

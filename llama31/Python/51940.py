@@ -1,1 +1,0 @@
-import PyNXC\n\n# Connect to the NXT brick\nnxt = PyNXC.NXT()\n\n# Play a beep\nnxt.play_tone(1000, 100)

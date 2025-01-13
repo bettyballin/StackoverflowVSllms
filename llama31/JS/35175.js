@@ -1,1 +1,0 @@
-$.ajax({\n    type: "POST",\n    url: "MyController/MyAction",\n    data: { /* data to send */ },\n    success: function(data) {\n        /* update UI with received data */\n    }\n});

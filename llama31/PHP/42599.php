@@ -1,1 +1,0 @@
-$allowedTables = array('users', 'posts', 'comments');\n\n$table = 'users';\n\nif (in_array($table, $allowedTables)) {\n    $sql = "SELECT * FROM $table WHERE 1";\n    $stmt = $dbh->prepare($sql);\n    // ...\n} else {\n    // Handle error: invalid table name\n}

@@ -1,1 +1,0 @@
-SELECT bookmarkid\nFROM Bookmarks\nWHERE URL = '<some url>';

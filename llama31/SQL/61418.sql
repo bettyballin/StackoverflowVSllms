@@ -1,1 +1,0 @@
--- Example for PostgreSQL\nSELECT my_column\nFROM my_table\nWHERE search_column = ANY(?);

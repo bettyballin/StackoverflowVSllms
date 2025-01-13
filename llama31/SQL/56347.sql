@@ -1,1 +1,0 @@
-CREATE TABLE tblNewData (\n    field1 DataType1,\n    field2 DataType2,\n    field3 DataType3\n);

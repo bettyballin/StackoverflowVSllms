@@ -1,1 +1,0 @@
-use Symfony\Component\String\Normalizer;\n\nfunction strClean($input) {\n    $input = Normalizer::normalize($input, Normalizer::FORM_KD);\n    $input = strtolower($input);\n    $input = str_replace(' ', '-', $input);\n    return $input;\n}

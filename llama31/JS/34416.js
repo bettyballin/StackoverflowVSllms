@@ -1,1 +1,0 @@
-var formData = new FormData();\nformData.append('image', image_data); // assume image_data is a Blob or File object\nformData.append('other_field', 'other_value');\n\n$.ajax({\n  url: '/your_django_view/',\n  type: 'POST',\n  data: formData,\n  processData: false,\n  contentType: false,\n  success: function(response) {\n    // handle response\n  }\n});

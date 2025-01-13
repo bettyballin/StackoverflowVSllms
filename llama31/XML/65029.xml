@@ -1,1 +1,0 @@
-<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">\n  <PropertyGroup>\n    <!-- ... other properties ... -->\n    <TestProjectType>NUnit</TestProjectType>\n  </PropertyGroup>\n  <!-- ... other project settings ... -->\n</Project>

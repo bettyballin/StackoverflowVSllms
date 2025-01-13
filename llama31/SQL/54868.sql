@@ -1,1 +1,0 @@
-SELECT \n  [Type],\n  [Cash],\n  [Check]\nFROM \n  (SELECT \n     [Type],\n     [Method],\n     [Amount]\n   FROM \n     YourTable) AS SourceTable\nPIVOT \n  (SUM([Amount])\n   FOR [Method] IN ([Cash], [Check])\n  ) AS PivotTable;

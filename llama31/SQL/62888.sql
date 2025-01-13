@@ -1,1 +1,0 @@
-SELECT username\nFROM table\nWHERE userid > (SELECT MAX(userid) - 50 FROM table)

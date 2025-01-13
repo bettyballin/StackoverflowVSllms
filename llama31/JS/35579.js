@@ -1,1 +1,0 @@
-Store.prototype.fetch = function(){\n    $.get("/get_items",{q:this.queryparam},(data,status) => {\n        this.data = data;\n    });\n}

@@ -1,1 +1,0 @@
-const fileInput = document.getElementById('file-input');\n\nif (navigator.userAgent.indexOf('Firefox') !== -1) {\n  fileInput.addEventListener('click', () => {\n    fileInput.mozActivateFileInput();\n  });\n}

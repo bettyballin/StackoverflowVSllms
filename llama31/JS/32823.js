@@ -1,1 +1,0 @@
-const blockquote = document.querySelector('blockquote');\nconst paragraphs = blockquote.children;\n\nArray.from(paragraphs).forEach((paragraph) => {\n  const wrapper = document.createElement('p');\n  wrapper.appendChild(paragraph.cloneNode(true));\n  paragraph.replaceWith(wrapper);\n});

@@ -1,1 +1,0 @@
-const fragment = document.createDocumentFragment();\nfor (let i = 0; i < 1000; i++) {\n  const span = document.createElement('span');\n  fragment.appendChild(span);\n}\ndocument.body.appendChild(fragment);

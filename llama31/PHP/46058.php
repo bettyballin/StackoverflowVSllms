@@ -1,1 +1,0 @@
-function decrypt($encryptedUsername, $secretKey) {\n    $encryptedBytes = base64_decode($encryptedUsername);\n    $decryptedUsername = openssl_decrypt($encryptedBytes, 'AES-128-ECB', $secretKey, OPENSSL_RAW_DATA);\n    return $decryptedUsername;\n}

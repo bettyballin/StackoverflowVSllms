@@ -1,1 +1,0 @@
-var screenWidth = screen.width;\nvar screenHeight = screen.height;

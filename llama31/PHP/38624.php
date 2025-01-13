@@ -1,1 +1,0 @@
-$image = imagecreatefromgif($source_file);\nimagepalettetotruecolor($image); // Convert GIF to truecolor\nimagecopymerge($image, $watermark, $x, $y, 0, 0, $water_width, $water_height, 30, IMG_BICUBIC);\nimagepng($image, $source_file); // Save as PNG instead of GIF

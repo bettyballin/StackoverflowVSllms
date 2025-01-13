@@ -1,1 +1,0 @@
-<FlatFileConnectionManager>\n    <ConnectionManager>\n        ...\n        <Properties>\n            <Property Name="FastParse">true</Property>\n        </Properties>\n    </ConnectionManager>\n</FlatFileConnectionManager>

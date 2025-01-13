@@ -1,1 +1,0 @@
-$last_error = '';\nset_error_handler(function($errno, $errstr) use (&$last_error) {\n    $last_error = $errstr;\n});\nif (!mkdir('/somedir')) {\n    echo "MKDIR failed, reason: $last_error\n";\n}\nrestore_error_handler();

@@ -1,1 +1,0 @@
-function calculatePoint(radius, angle, origin = [0, 0]) {\n    const x = radius * Math.cos(angle) + origin[0];\n    const y = radius * Math.sin(angle) + origin[1];\n    return [x, y];\n}

@@ -1,1 +1,0 @@
-$('a').on('click', function(event) {\n  event.preventDefault();\n});

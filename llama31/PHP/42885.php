@@ -1,1 +1,0 @@
-include 'Foo2.php';\n\nclass Foo {\n    function doFoo() {\n        // use variables from Foo2\n    }\n}

@@ -1,1 +1,0 @@
-Imports System.Windows.Forms\n\nPublic Class ValidatableLabel\n    Inherits Label\n\n    Protected Overrides Sub Validate(value As Boolean)\n        MyBase.Validate(value)\n        RaiseEvent Validating(Me, EventArgs.Empty)\n    End Sub\n\n    Public Event Validating As EventHandler\nEnd Class

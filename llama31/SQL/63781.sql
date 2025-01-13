@@ -1,1 +1,0 @@
-SELECT * FROM Sales\nWHERE CASE WHEN sold_on IS NULL THEN 1 ELSE 0 END = 1\nAND total = 9.99;

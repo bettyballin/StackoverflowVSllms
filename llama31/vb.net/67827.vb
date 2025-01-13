@@ -1,1 +1,0 @@
-Private Sub Report_Open(Cancel As Integer)\n    Me prmColumnName = "January" ' or any other column name\nEnd Sub

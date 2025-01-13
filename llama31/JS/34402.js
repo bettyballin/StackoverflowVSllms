@@ -1,1 +1,0 @@
-// Load sub-element using Ajax\n$.ajax({\n  url: '/sub-element-url',\n  success: function(data) {\n    // Append loaded content to the page\n    $('#container').append(data);\n  }\n});

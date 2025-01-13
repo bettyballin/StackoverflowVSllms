@@ -1,1 +1,0 @@
--- Example using a stored procedure\nCREATE PROCEDURE search_location @input nvarchar(50)\nAS\nBEGIN\n    IF @input MATCHES '^[A-Z]{1,2}[0-9R][0-9A-Z]? [0-9][ABD-HJLNP-UW-Z]{2}$'  -- postcode regex\n        SELECT * FROM your_table WHERE postcode = @input;\n    ELSE\n        SELECT * FROM your_table WHERE place = @input;\nEND;

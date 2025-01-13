@@ -1,1 +1,0 @@
-tinymce.init({\n  selector: 'textarea',\n  fragment: true // enable fragment mode\n});

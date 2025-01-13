@@ -1,1 +1,0 @@
-# app/models/album.rb\nclass Album < ApplicationRecord\n  def self.find_albums_with_feature(feature_id)\n    find_by_sql([\n      "SELECT al.* FROM albums al, albums_features alfe\n       WHERE al.id = alfe.album_id\n       AND alfe.feature_id = ?", feature_id\n    ])\n  end\nend

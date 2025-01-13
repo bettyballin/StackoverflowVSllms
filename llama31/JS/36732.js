@@ -1,1 +1,0 @@
-app.launchURL("http://example.com/your_servlet", true);

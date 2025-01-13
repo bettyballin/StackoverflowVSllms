@@ -1,1 +1,0 @@
-// Listen for messages from the iframe\nwindow.addEventListener('message', function(event) {\n  if (event.data.width && event.data.height) {\n    var iframe = document.getElementById('myIframe');\n    iframe.style.width = event.data.width + 'px';\n    iframe.style.height = event.data.height + 'px';\n  }\n});

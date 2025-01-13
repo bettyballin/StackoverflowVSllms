@@ -1,1 +1,0 @@
-if (isset($_GET['auth_token'])) {\n  $facebook = new Facebook($appId, $appSecret);\n  $facebook->setAccessToken($_GET['auth_token']);\n  // Make API calls to Facebook using the $facebook object\n} else {\n  // Handle the case where the user is not authenticated\n}

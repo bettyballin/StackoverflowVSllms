@@ -1,1 +1,0 @@
-If {val1, val2, val3, ..., valN}.Distinct.Count = 1 Then\n    ' values are equal\nEnd If

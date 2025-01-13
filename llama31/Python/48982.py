@@ -1,1 +1,0 @@
-y = height - 50  # adjust the offset as needed

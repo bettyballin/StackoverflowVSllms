@@ -1,1 +1,0 @@
-SELECT \n  Alternative,\n  SUM(Total) AS Total,\n  SUM(Male) AS Male,\n  SUM(Female) AS Female\nFROM \n  your_table\nGROUP BY \n  CASE \n    WHEN Alternative = 'c' THEN 'c'\n    ELSE Alternative\n  END

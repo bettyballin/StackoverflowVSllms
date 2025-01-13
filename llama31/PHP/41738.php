@@ -1,1 +1,0 @@
-$current_user = wp_get_current_user();\nif (in_array('subscriber', $current_user->roles)) {\n    // redirect or limit content\n}

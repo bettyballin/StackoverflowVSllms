@@ -1,1 +1,0 @@
-// Before submitting the form\n$_SESSION['formText'] = $_POST['text-input'];\n\n// On error, retrieve the text from session\nif (isset($_SESSION['formText'])) {\n    $formText = $_SESSION['formText'];\n    echo '<input type="text" value="' . $formText . '">';\n}

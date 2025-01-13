@@ -1,1 +1,0 @@
-// application/libraries/MY_Exceptions.php\n\nclass MY_Exceptions extends CI_Exceptions {\n\n    public function show_404($page = '', $log_error = TRUE) {\n        $this->CI =& get_instance();\n        $this->CI->load->view('errors/custom_404');\n        echo $this->CI->output->get_output();\n        exit;\n    }\n}

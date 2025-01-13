@@ -1,1 +1,0 @@
-// resources/views/ads.blade.php\n\n<!-- ads content here -->

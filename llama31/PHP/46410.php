@@ -1,1 +1,0 @@
-$options = array(\n    // ...\n    CURLOPT_SSL_VERIFYPEER => false,    // disable SSL verification\n);

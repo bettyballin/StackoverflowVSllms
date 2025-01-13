@@ -1,1 +1,0 @@
-$date = new DateTime('now', new DateTimeZone('Asia/Singapore')); // GMT+8\n$date->add(new DateInterval('PT30M')); // add 30 minutes\necho $date->format('Y-m-d H:i:s');

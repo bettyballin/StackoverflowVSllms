@@ -1,1 +1,0 @@
-SELECT RIGHT('            ' + CONVERT(VARCHAR(20), 123.45), 12)

@@ -1,1 +1,0 @@
-document.addEventListener('DOMContentLoaded', function() {\n    var img = document.getElementById('myimage');\n    \n    img.onload = function() {\n        resizeImage(this.id);\n    };\n});

@@ -1,1 +1,0 @@
-ALTER TABLE [TableName]\nADD CONSTRAINT [ConstraintName] UNIQUE ([ColumnName]);

@@ -1,1 +1,0 @@
-Dim result As Date = Calculate(10, DateTime.Now)\nConsole.WriteLine(result)

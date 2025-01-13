@@ -1,1 +1,0 @@
-from tabulate import tabulate\n\ntable = [[text, '']]\nprint(tabulate(table, headers=['Column 1', 'Column 2']))

@@ -1,1 +1,0 @@
-sajax_request_type = 'post';\nx_str_length_test(sample_field, do_str_length_test_cb);

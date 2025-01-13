@@ -1,1 +1,0 @@
-<PropertyGroup>\n  <PostBuildEvent>copy /y "$(TargetDir)*.dll" "$(SolutionDir)MainGUI\bin\release"</PostBuildEvent>\n</PropertyGroup>

@@ -1,1 +1,0 @@
-$assocArray = array(\n    'id1' => 'name1',\n    'id2' => 'name2',\n    'id3' => 'name3',\n    // ...\n);\n\n$compareArray = array('id1', 'id3');\n\n$result = array_intersect_key($assocArray, array_flip($compareArray));\n\nprint_r($result);

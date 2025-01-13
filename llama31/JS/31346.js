@@ -1,1 +1,0 @@
-function OnClientItemClicking(sender, args) {\n    var item = args.get_item();\n    if (item.get_expanded()) {\n        item.collapse();\n    } else {\n        item.expand();\n    }\n}

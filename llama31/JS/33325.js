@@ -1,1 +1,0 @@
-FB._https = true;\n$.ajax({\n  type: 'GET',\n  url: 'https://your-app-url.com/endpoint',\n  data: { param1: 'value1' },\n  success: function(response) {\n    // process response\n  }\n});

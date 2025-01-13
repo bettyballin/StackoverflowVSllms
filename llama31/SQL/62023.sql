@@ -1,1 +1,0 @@
-SELECT eid\nFROM t\nWHERE fid = 'C'\nAND NOT EXISTS (\n  SELECT 1\n  FROM t AS t2\n  WHERE t2.eid = t.eid\n  AND t2.fid = 'A'\n)

@@ -1,1 +1,0 @@
-# spec/models/user_spec.rb\nrequire 'spec_helper'\n\ndescribe User do\n  it 'is valid with a name and email' do\n    user = FactoryGirl.build(:user)\n    expect(user).to be_valid\n  end\n\n  it 'is invalid without a name' do\n    user = FactoryGirl.build(:user, name: nil)\n    expect(user).not_to be_valid\n  end\nend

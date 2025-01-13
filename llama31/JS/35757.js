@@ -1,1 +1,0 @@
-$( "#slider" ).slider({\n  stop: function( event, ui ) {\n    // Call your AJAX function here\n    updateScore(ui.value);\n  }\n});

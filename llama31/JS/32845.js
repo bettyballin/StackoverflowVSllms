@@ -1,1 +1,0 @@
-var spanElement = $(".leftpanel_keywords");

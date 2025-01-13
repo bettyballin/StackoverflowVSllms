@@ -1,1 +1,0 @@
-$number = 1400000;\n\n// Using number_format()\necho number_format($number, 0, '', '');\n\n// Using sprintf()\necho sprintf("%d", $number);

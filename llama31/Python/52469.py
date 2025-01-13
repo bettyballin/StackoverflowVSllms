@@ -1,1 +1,0 @@
-from django.db import transaction\n\n@transaction.atomic\ndef perform_database_operation():\n    # database code that might throw a deadlock exceptio

@@ -1,1 +1,0 @@
-SELECT\n  XMLELEMENT("primaryName", A.NAME),\n  XMLELEMENT("synonyms",\n    (SELECT XMLAGG(XMLELEMENT("name", B.NAME))\n     FROM B\n     WHERE B.ID = A.ID AND B.TYPE = 'S')\n  )\nFROM\n  A

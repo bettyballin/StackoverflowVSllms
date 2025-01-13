@@ -1,1 +1,0 @@
-// base.php\nfunction base_function($variable) {\n    echo $variable; // outputs: value\n}

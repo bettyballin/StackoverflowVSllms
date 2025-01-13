@@ -1,1 +1,0 @@
-$array = array('3;', '4;', '5;');\n$string = implode('', $array);\necho $string; // Outputs: 3;4;5;

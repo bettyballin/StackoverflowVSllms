@@ -1,1 +1,0 @@
-function openInIframe(iframeName, url) {\n    document.getElementById(iframeName).src = url;\n}

@@ -1,1 +1,0 @@
-import requests\n\nurl = "http://www.biglickmedia.com/art/random/index.php"\nresponse = requests.get(url)\n\nwith open("image.jpg", "wb") as f:\n    f.write(response.content)

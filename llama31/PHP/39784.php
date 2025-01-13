@@ -1,1 +1,0 @@
-$array = [1, 2, 3, 4, 5];\nloop($array, function($index, $value) {\n    echo "Index: $index, Value: $value\n";\n});

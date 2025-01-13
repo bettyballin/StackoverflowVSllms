@@ -1,1 +1,0 @@
-function checkDates(form) {\n    checkDate(form.elements['00N80000003LGJ5']);\n    checkDate(form.elements['00N80000003LGNt']);\n}

@@ -1,1 +1,0 @@
-ALTER TABLE mytable\nADD CONSTRAINT check_a_value1 CHECK (table_identifier_a IS NOT NULL OR table_value1 IS NULL);

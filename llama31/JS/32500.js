@@ -1,1 +1,0 @@
-{\n  header: 'Associated Model Name',\n  dataIndex: 'associated_model_name',\n  // ...\n}

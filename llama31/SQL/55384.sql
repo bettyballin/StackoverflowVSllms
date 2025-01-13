@@ -1,1 +1,0 @@
-CREATE ASSEMBLY HugeTableTransformer\nFROM 'C:\Path\To\HugeTableTransformer.dll'\nWITH PERMISSION_SET = EXTERNAL_ACCESS;\n\nCREATE PROCEDURE sp_transform_huge_table\nAS\nEXTERNAL NAME HugeTableTransformer.TransformHugeTable;

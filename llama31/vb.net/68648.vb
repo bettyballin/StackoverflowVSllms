@@ -1,1 +1,0 @@
-Imports System.ComponentModel\n\nPublic Class MyClass\n    Inherits System.Windows.Forms.TabControl\n\n    <DesignerSerializationVisibility(DesignerSerializationVisibility.Hidden)>\n    Public Sub New()\n        InitializeComponent()\n        MyBase.DrawMode = System.Windows.Forms.TabDrawMode.OwnerDrawFixed\n    End Sub\n\n    '...\nEnd Class

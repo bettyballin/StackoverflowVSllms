@@ -1,1 +1,0 @@
-SELECT valueC\nFROM C\nWHERE id IN (\n  SELECT lookupC\n  FROM B\n  WHERE id IN (\n    SELECT lookupB\n    FROM A\n  )\n)

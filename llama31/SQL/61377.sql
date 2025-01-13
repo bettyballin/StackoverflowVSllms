@@ -1,1 +1,0 @@
-SELECT dbo.SearchHtml(YourHtmlColumn, 'your search pattern');

@@ -1,1 +1,0 @@
->>> import mod_call\n>>> mod_call.callable_mod()\n42

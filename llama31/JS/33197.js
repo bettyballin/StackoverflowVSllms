@@ -1,1 +1,0 @@
-const selectElement = document.getElementById('mySelect');\nconst hiddenInput = document.getElementById('hiddenValue');\n\nselectElement.addEventListener('change', (e) => {\n  const selectedOption = selectElement.options[selectElement.selectedIndex];\n  hiddenInput.value = selectedOption.getAttribute('data-hidden-value');\n});

@@ -1,1 +1,0 @@
-Proc SQL;\n  /* Delete rows in batches of 1000 */\n  %do i = 1 %to 100;\n    Delete From Server003.CustomerList\n    Where (select count(*) from Server003.CustomerList) > 1000;\n  %end;\nQuit;

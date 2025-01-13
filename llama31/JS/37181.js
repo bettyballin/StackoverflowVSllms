@@ -1,1 +1,0 @@
-var date = new Date();\nvar isoDate = date.toISOString(); // Output: "2009-04-04T16:19:00.000Z"

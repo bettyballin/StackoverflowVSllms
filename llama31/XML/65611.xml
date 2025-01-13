@@ -1,1 +1,0 @@
-<security>\n    <user-service>\n        <security-role>\n            <role-name>admin</role-name>\n            <users>your-email@gmail.com</users>\n        </security-role>\n    </user-service>\n</security>

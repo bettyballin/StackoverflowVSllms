@@ -1,1 +1,0 @@
-function get_online_users() {\n  $db = new PDO('mysql:host=your_host;dbname=your_db', 'your_username', 'your_password');\n  $stmt = $db->prepare("SELECT COUNT(*) FROM online_users");\n  $stmt->execute();\n  $count = $stmt->fetchColumn();\n\n  return $count;\n}

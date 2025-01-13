@@ -1,1 +1,0 @@
-<?php\n  $out = '';\n  if ($a) {\n    $out = '[SOME MARKUP]';\n  } else {\n    $out = '[OTHER MARKUP]';\n  }\n  echo htmlspecialchars($out, ENT_QUOTES, 'UTF-8');\n?>

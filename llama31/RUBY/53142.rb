@@ -1,1 +1,0 @@
-Rails.application.secrets.payment_gateway[:username]\n   Rails.application.secrets.payment_gateway[:password]

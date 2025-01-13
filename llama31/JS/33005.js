@@ -1,1 +1,0 @@
-<script>\n  function resizeIframe() {\n    var iframe = document.getElementById('myIframe');\n    var contentHeight = iframe.contentWindow.document.body.scrollHeight;\n    iframe.style.height = contentHeight + 'px';\n  }\n  window.onload = resizeIframe;\n</script>

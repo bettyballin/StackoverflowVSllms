@@ -1,1 +1,0 @@
-const express = require('express');\nconst app = express();\nconst axios = require('axios');\n\napp.get('/proxy/osm/api/0.6/:path', async (req, res) => {\n  const osmUrl = `http://api.openstreetmap.org/api/0.6/${req.params.path}`;\n  const response = await axios.get(osmUrl, { params: req.query });\n  res.send(response.data);\n});

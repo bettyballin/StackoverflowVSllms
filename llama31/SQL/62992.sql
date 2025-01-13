@@ -1,1 +1,0 @@
-SELECT \n  name,\n  ST_Distance_Sphere(pt, POINT(-71.35368, 42.290763)) AS distance\nFROM locations\nWHERE active = 1 AND ST_Distance_Sphere(pt, POINT(-71.35368, 42.290763)) < 10\nORDER BY distance;

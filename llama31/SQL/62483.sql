@@ -1,1 +1,0 @@
-SELECT col1, col2 INTO col_val, col2_val\nFROM t1\nWHERE \n  CASE\n    WHEN REGEXP_LIKE(col1, name||'\s+'||code) THEN 1\n    WHEN REGEXP_LIKE(col1, name) THEN 2\n    ELSE 3\n  END = 1\n  OR (NOT REGEXP_LIKE(col1, name||'\s+'||code) AND REGEXP_LIKE(col1, name))\nORDER BY col1;

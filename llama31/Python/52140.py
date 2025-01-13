@@ -1,1 +1,0 @@
-from sklearn import datasets\nfrom sklearn.svm import SVC\n\n# Load iris dataset\niris = datasets.load_iris()\nX = iris.data\ny = iris.target\n\n# Create an SVM classifier\nsvm = SVC(kernel='linear', C=1)\n\n# Train the classifier\nsvm.fit(X, y)\n\n# Make predictions\npredictions = svm.predict(X)

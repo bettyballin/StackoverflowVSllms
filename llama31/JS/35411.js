@@ -1,1 +1,0 @@
-if ($.isEmptyObject(data.RoleOwners)) {\n    // array is empty\n}

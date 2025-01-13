@@ -1,1 +1,0 @@
-class bob {\n    public static function yippie() {\n        echo "skippie";\n    }\n}\n\nif (class_exists('bob')) {\n    bob::yippie();\n}

@@ -1,1 +1,0 @@
--- Function\nCREATE OR REPLACE FUNCTION greet(name IN VARCHAR2) RETURN VARCHAR2 IS\nBEGIN\n  RETURN 'Hello, ' || name || '!';\nEND;\n\n-- Procedure\nCREATE OR REPLACE PROCEDURE greet(name IN VARCHAR2, message OUT VARCHAR2) IS\nBEGIN\n  message := 'Hello, ' || name || '!';\nEND;

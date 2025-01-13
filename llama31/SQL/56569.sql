@@ -1,1 +1,0 @@
-WITH RECURSIVE page_hierarchy AS (\n  SELECT id, parent_id, level, name, 0 AS indent\n  FROM pages\n  WHERE parent_id = 0\n  UNION ALL\n  SELECT p.id, p.parent_id, p.level, p.name, indent + 2\n  FROM pages p\n  JOIN page_hierarchy ph ON p.parent_id = ph.id\n)\nSELECT LPAD('~', indent) || name AS formatted_name\nFROM page_hierarchy\nORDER BY level, parent_id;

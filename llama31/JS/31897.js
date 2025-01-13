@@ -1,1 +1,0 @@
-function isElementInViewport(element) {\n  const rect = element.getBoundingClientRect();\n  return (\n    rect.top >= 0 &&\n    rect.left >= 0 &&\n    rect.bottom <= (window.innerHeight || document.documentElement.clientHeight) &&\n    rect.right <= (window.innerWidth || document.documentElement.clientWidth)\n  );\n}

@@ -1,1 +1,0 @@
-CREATE INDEX IX_ConvertedGuid ON YourTable (ConvertedGuid)

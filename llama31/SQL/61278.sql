@@ -1,1 +1,0 @@
--- Disable foreign key constraints\nALTER TABLE RelatedTable NOCHECK CONSTRAINT ALL;\n\n-- Update the contract number\nUPDATE Contract SET ContractNumber = 'new_value' WHERE ContractID = 'existing_id';\n\n-- Re-enable foreign key constraints\nALTER TABLE RelatedTable CHECK CONSTRAINT ALL;

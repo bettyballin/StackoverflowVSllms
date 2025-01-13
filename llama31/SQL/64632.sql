@@ -1,1 +1,0 @@
-SELECT \n    CASE \n        WHEN your_column IS NOT NULL THEN TRUE \n        ELSE FALSE \n    END AS boolean_column\nFROM your_table;

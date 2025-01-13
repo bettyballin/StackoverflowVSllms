@@ -1,1 +1,0 @@
-$normal_array       = array();\n$array_of_arrayrefs = array( &$normal_array );\n\n$last_array_ref = &end($array_of_arrayrefs);\n$last_array_ref["one"] = 1;\n\nprint_r($normal_array); // should output: Array ( [one] => 1 )

@@ -1,1 +1,0 @@
-def sqrt_bisection(n, tolerance=1e-6):\n    low = 0\n    high = n\n    while high - low > tolerance:\n        mid = (low + high) / 2\n        if mid * mid < n:\n            low = mid\n        else:\n            high = mid\n    return (low + high) / 2

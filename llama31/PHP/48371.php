@@ -1,1 +1,0 @@
-public function query($queryString)\n{\n    if (!$this->_connected) $this->_connectToDb(); //connect to database\n\n    $stmt = $this->_dbLink->query($queryString);\n    return $stmt->fetchAll(PDO::FETCH_ASSOC);\n}

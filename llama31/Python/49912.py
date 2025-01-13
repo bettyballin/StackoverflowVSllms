@@ -1,1 +1,0 @@
-for file in request.FILES.getlist('file'):\n    # Do something with each file\n    print(file.name)\n    print(file.size)\n    # Save the file to a model or process it as needed\n    # e.g. file.save('path/to/uploaded/files/' + file.name)

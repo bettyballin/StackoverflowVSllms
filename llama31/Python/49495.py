@@ -1,1 +1,0 @@
-import sys\n...\nsys.stdout.flush()\nsys.stderr.flush()

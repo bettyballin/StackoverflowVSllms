@@ -1,1 +1,0 @@
-$cssFiles = array('file1.css', 'file2.css', 'file3.css');\n$minifiedCss = Zend_Filter_Minify_Css::filter($cssFiles);\n\n$jsFiles = array('file1.js', 'file2.js', 'file3.js');\n$minifiedJs = Zend_Filter_Minify_Javascript::filter($jsFiles);

@@ -1,1 +1,0 @@
-const createdElement = fragment.querySelector('div');

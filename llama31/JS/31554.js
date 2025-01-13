@@ -1,1 +1,0 @@
-$(document).keydown(function(event) {\n  console.log('Key pressed:', event.key);\n});

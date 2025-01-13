@@ -1,1 +1,0 @@
-$fp = fopen($file, 'rb');\nwhile (!feof($fp)) {\n    echo fread($fp, 8192);\n    ob_flush();\n    flush();\n}\nfclose($fp);

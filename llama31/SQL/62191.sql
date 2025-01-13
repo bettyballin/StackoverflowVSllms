@@ -1,1 +1,0 @@
-WITH RECURSIVE dates AS (\n  SELECT '2009-01-01' AS date\n  UNION ALL\n  SELECT date + INTERVAL 1 DAY\n  FROM dates\n  WHERE date < '2009-01-13'\n)\nSELECT * FROM dates;

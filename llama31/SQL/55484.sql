@@ -1,1 +1,0 @@
--- Before formatting\nCREATE PROCEDURE myProc\nAS\nBEGIN\nSELECT * FROM myTable\nWHERE myColumn = 1\nAND myOtherColumn = 2\nEND\nGO\n\n-- After formatting with Apex SQL Refactor\nCREATE PROCEDURE myProc\nAS\nBEGIN\n    SELECT *\n    FROM myTable\n    WHERE myColumn = 1\n        AND myOtherColumn = 2;\nEND;\nGO

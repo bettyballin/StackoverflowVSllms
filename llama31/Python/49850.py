@@ -1,1 +1,0 @@
-from flask import Flask, send_file\n\napp = Flask(__name__)\n\n@app.route('/download/<file_name>')\ndef download_file(file_name):\n    file_path = 'path_to_your_file/' + file_name\n    return send_file(file_path, as_attachment=True)\n\nif __name__ == '__main__':\n    app.run()

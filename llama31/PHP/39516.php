@@ -1,1 +1,0 @@
-// CONNECT TO DB HERE (persistent connection)\n\n// Warm up the connection with a few dummy queries\nfor ($i = 0; $i < 5; $i++) {\n    $db->query('SELECT 1');\n}\n\n// Test your query\n$t = hrtime();\n$fp = $sub->generateFingerprint();\n$end = hrtime();\n\n// Calculate average execution time\n$executionTime = ($end - $t) / 1e9; // convert to seconds\necho $executionTime;

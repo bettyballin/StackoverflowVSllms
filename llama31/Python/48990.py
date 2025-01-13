@@ -1,1 +1,0 @@
-@register.filter\ndef simple_join(value):\n    if len(value) == 2:\n        return '{} and {}'.format(*value)\n    return '{}, {}'.format(', '.join(value[:-1]), value[-1])

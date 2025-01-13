@@ -1,1 +1,0 @@
-<Context>\n  ...\n  <Valve className="org.apache.catalina.authenticator.SingleSignOn"/>\n  <Realm className="org.apache.catalina.realm.JNDIRealm"/>\n</Context>

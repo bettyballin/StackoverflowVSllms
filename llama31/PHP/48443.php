@@ -1,1 +1,0 @@
-$pages = array("grac", "zamknij", "dolaczyc");\n$pagesid = array("showNews", "showThread", "showProfile");\n\nforeach ($pagesid as $page) {\n  if (isset($_GET[$page])) {\n    include('sobra/'.$page.'.php');\n  }\n}\n\n// just pages\nif (in_array($_GET['page'], $pages)) {\n  include($_GET['page'].'.php');\n} else {\n  include('error.php');\n}

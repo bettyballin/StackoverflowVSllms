@@ -1,1 +1,0 @@
-$gloop = preg_match('/\[LOOP\](.*?)\[\/LOOP\]/s', $var, $match);\necho $match[1]; // outputs: <th scope="col">%Gdata_All%</th>

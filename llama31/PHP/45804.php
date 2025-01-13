@@ -1,1 +1,0 @@
-$url = 'http://example.com';\n$ch = curl_init($url);\ncurl_setopt($ch, CURLOPT_RETURNTRANSFER, true);\n$response = curl_exec($ch);\ncurl_close($ch);\n\n$xml = simplexml_load_string($response);\nif ($xml !== false && isset($xml->channel->title)) {\n    // URL is a valid RSS feed\n}

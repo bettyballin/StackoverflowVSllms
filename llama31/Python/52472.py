@@ -1,1 +1,0 @@
-from openpyxl import Workbook\n\nwb = Workbook()\nws = wb.active\nws['A1'] = 'Hello, World!'\nwb.save('example.xlsx')

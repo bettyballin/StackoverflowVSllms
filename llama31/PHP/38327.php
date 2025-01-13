@@ -1,1 +1,0 @@
-// index.php file\n$route = $_GET['route'];\n$segments = explode('/', $route);\n\n// Assuming you have a Story model with a method to retrieve a story by ID\n$storyId = $segments[1]; // 1234\n$story = Story::find($storyId);\n\n// Render the story page

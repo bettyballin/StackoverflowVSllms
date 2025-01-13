@@ -1,1 +1,0 @@
-// Generate a random token\n$csrf_token = bin2hex(random_bytes(32));\n\n// Store the token in the user's session\n$_SESSION['csrf_token'] = $csrf_token;

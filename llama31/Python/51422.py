@@ -1,1 +1,0 @@
-original = 0b10101010\nmask = 0b00110011\nnew_values = 0b11111111\n\nresult = (original & ~mask) | (new_values & mask)\n       = (0b10101010 & 0b11001100) | (0b11111111 & 0b00110011)\n       = 0b10001010 | 0b00110011\n       = 0b10111011

@@ -1,1 +1,0 @@
-$('select').on('mousedown', function() {\n  loadMyData(this, 1);\n});

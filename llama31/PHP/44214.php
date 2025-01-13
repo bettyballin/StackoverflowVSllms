@@ -1,1 +1,0 @@
-$model = new BaseModel();

@@ -1,1 +1,0 @@
--- Edit top 1000 rows of a table\nSELECT TOP 1000 * FROM [YourTable];

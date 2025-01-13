@@ -1,1 +1,0 @@
-Dim obj1 As MyObject = New MyObject()\nDim obj2 As MyObject = obj1\n\nConsole.WriteLine(obj1.GetHashCode())\nConsole.WriteLine(obj2.GetHashCode())

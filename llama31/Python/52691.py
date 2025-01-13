@@ -1,1 +1,0 @@
-import glib\n\ndef update_ui():\n    text_buffer = text_view.get_buffer()\n    text_buffer.insert(text_buffer.get_end_iter(), "Task 1 completed\n")\n\ndef my_function(widget):\n    # Perform task 1\n    # ...\n    glib.timeout_add(100, update_ui)  # Call update_ui after 100ms\n\n    # Perform task 2\n    # ...\n    glib.timeout_add(100, update_ui)  # Call update_ui after 100ms

@@ -1,1 +1,0 @@
-function PopoffWindow(url) {\n    var features = "height=400,width=550,top=60,left=100,"\n                + "toolbar=no,location=no,menubar=no,status=no,"\n                + "scrollbars=yes,resizable=yes";\n\n    // Add this line to fix the issue\n    url = url.replace(/^https/, 'http');\n\n    var win = window.open(url, "DSRocks", features);\n    win.focus();\n    return win;\n}

@@ -1,1 +1,0 @@
-from opencage.geocoder import OpenCageGeocode\n\ngeocoder = OpenCageGeocode('YOUR_API_KEY')\nresults = geocoder.geocode('Bloomington, IN')\n\nlat, lng = results[0]['geometry']['lat'], results[0]['geometry']['lng']\nprint(f"Latitude: {lat}, Longitude: {lng}")

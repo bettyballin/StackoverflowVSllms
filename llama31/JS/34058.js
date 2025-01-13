@@ -1,1 +1,0 @@
-$.ajax({\n  url: 'path_to_your_image.jpg',\n  beforeSend: function() {\n    $('#loading').show();\n  },\n  complete: function() {\n    $('#loading').hide();\n  },\n  success: function(data) {\n    $('#image').attr('src', data);\n  },\n  error: function(xhr, status, error) {\n    console.log('Error loading image:', error);\n  }\n});

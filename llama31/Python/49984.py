@@ -1,1 +1,0 @@
-from wand.image import Image\n\nwith Image(filename='image.jpg') as img:\n    img.signature = img.getImageSignature()\n    print(img.signature)

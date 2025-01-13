@@ -1,1 +1,0 @@
-Public Interface IPerson(Of T As IAuthorityFigure)\n    Property TheirLeader() As T\nEnd Interface

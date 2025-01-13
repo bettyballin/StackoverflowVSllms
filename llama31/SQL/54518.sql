@@ -1,1 +1,0 @@
-SELECT p.name AS ProcedureName\nFROM sys.sql_modules m\nINNER JOIN sys.stored_procedures p ON m.object_id = p.object_id\nWHERE m.definition LIKE '%INSERT%your_column_name%' \n   OR m.definition LIKE '%DELETE%your_column_name%';

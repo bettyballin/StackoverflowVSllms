@@ -1,1 +1,0 @@
-CREATE LOGIN [web_app_login] WITH PASSWORD = 'strong_password';\nCREATE USER [web_app_user] FOR LOGIN [web_app_login];\nGRANT SELECT, INSERT, UPDATE, DELETE ON [database_name] TO [web_app_user];

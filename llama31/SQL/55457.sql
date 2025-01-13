@@ -1,1 +1,0 @@
-CREATE TABLE entity_attributes (\n    id SERIAL PRIMARY KEY,\n    entity_id INTEGER NOT NULL,\n    key_id INTEGER NOT NULL,\n    value JSONB NOT NULL\n);

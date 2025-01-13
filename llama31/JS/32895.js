@@ -1,1 +1,0 @@
-var href = "test.php?id=100&status=active&blah=blah";\nvar urlParams = new URLSearchParams(href.split('?')[1]);\n\nvar id = urlParams.get('id');\nvar status = urlParams.get('status');\n\nconsole.log(id); // outputs: 100\nconsole.log(status); // outputs: active

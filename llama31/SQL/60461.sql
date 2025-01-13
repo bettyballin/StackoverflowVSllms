@@ -1,1 +1,0 @@
-SELECT TOP 10 \n    [sql_handle], \n    [query_hash], \n    [query_text], \n    [execution_count], \n    [total_logical_reads], \n    [total_elapsed_time]\nFROM \n    sys.dm_exec_query_stats\nORDER BY \n    [total_elapsed_time] DESC;

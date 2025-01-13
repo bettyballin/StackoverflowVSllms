@@ -1,1 +1,0 @@
-import os\n\ndef clear_console():\n    os.system('cls' if os.name == 'nt' else 'clear')\n\n# Call the function to clear the console\nclear_console()

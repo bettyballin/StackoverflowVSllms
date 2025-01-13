@@ -1,1 +1,0 @@
-import stressypy\n\ndef stress_test(num_users):\n    users = []\n    for i in range(num_users):\n        user = stressypy.User()\n        user.start()\n        users.append(user)\n    for user in users:\n        user.join()\n\nstress_test(1000)

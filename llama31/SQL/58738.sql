@@ -1,1 +1,0 @@
-CREATE TABLE your_table (\n  id INT AUTO_INCREMENT PRIMARY KEY,\n  duplicate_id INT GENERATED ALWAYS AS (id) STORED\n);

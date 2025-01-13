@@ -1,1 +1,0 @@
-from model_utils.managers import get_subclass_instance\n\nbase = BaseClass.objects.get(pk=3)\nmy_obj = get_subclass_instance(base)\nprint(my_obj.__class__)  # Should print the actual subclass instance

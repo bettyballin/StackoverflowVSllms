@@ -1,1 +1,0 @@
-EXEC sys.sp_configure 'remote access', 1;\nRECONFIGURE;\nEXEC sys.sp_configure 'remote admin connections', 1;\nRECONFIGURE;

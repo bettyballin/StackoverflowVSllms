@@ -1,1 +1,0 @@
-Loofah.sanitize(input, \n                :allowed_tags => ['p', 'span', 'a', 'img'],\n                :allowed_attributes => {'a' => ['href', 'title'], 'img' => ['src', 'alt']})

@@ -1,1 +1,0 @@
-$userdata = $session->read('Auth.User');\n$username = $userdata['username'];\necho "Welcome " . $username;

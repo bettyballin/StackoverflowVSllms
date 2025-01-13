@@ -1,1 +1,0 @@
-this.XMLHttpRequestObject = new XMLHttpRequest();

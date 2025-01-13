@@ -1,1 +1,0 @@
-def circle_shift(arr, m):\n    n = len(arr)\n    m = m % n  # handle cases where m > n\n    return arr[-m:] + arr[:-m]

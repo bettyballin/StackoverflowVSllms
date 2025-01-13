@@ -1,1 +1,0 @@
-$output = json_encode($arr, JSON_UNESCAPED_SLASHES);

@@ -1,1 +1,0 @@
-class UserMailer < ActionMailer::Base\n  def send_welcome_email(user_id)\n    # Send email in the background\n    Sidekiq::Client.enqueue(UserMailer, user_id)\n  end\nend

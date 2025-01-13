@@ -1,1 +1,0 @@
-$feed = new Zend_Feed_Rss('http://rss.exemple.com/feed');\necho $feed->getType();

@@ -1,1 +1,0 @@
-function wait() {\n  xmlhttp = GetXmlHttpObject();\n  var url = "wait.php";\n  xmlhttp.onreadystatechange = statechanged;\n  xmlhttp.open("GET", url, true);\n  xmlhttp.send(null);\n}\n\nfunction statechanged() {\n  if (xmlhttp.readyState == 4) {\n    eval(xmlhttp.responseText);\n  }\n}

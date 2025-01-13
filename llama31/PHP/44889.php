@@ -1,1 +1,0 @@
-$query = "SELECT * FROM tblProducts WHERE ProductId ='$SCId' \n          UNION \n          SELECT * FROM tblProducts WHERE Cat ='$CatType' AND Type ='$TypeType'";

@@ -1,1 +1,0 @@
-use MyApp\Models\User;\n\n$user = new User();

@@ -1,1 +1,0 @@
-module YourApp\n  class Application < Rails::Application\n    config.api_only = true\n  end\nend

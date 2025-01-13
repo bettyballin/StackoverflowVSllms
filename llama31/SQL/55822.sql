@@ -1,1 +1,0 @@
-DECLARE @i INT = 0\nWHILE @i < 10000\nBEGIN\n    INSERT INTO your_table (name, email, address, phone_number)\n    VALUES (CONVERT(VARCHAR(50), NEWID()), CONVERT(VARCHAR(50), NEWID()), CONVERT(VARCHAR(50), NEWID()), CONVERT(VARCHAR(20), NEWID()))\n    SET @i += 1\nEND

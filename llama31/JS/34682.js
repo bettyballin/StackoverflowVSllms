@@ -1,1 +1,0 @@
-var clonedElement = $('#myDiv').clone(true);

@@ -1,1 +1,0 @@
-// Example code to detect when the BCC site is loaded\nwindow.addEventListener('load', function() {\n    if (window.location.href.indexOf('bcc-site-url') !== -1) {\n        // Attempt to load the intranet site in a separate frame or window\n        var intranetSiteUrl = 'https://your-intranet-site.com';\n        window.open(intranetSiteUrl, '_blank');\n    }\n});

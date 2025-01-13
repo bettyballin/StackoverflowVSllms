@@ -1,1 +1,0 @@
-// Get the contactTable element\nvar contactTable = document.querySelector('.contactTable');\n\n// Modify the contactTable element\ncontactTable.style.background = 'red';

@@ -1,1 +1,0 @@
-function foo($params = array()) {\n    $defaults = array('firstName' => 'john', 'lastName' => 'doe');\n    $params = array_merge($defaults, $params);\n    echo $params['firstName'] . " " . $params['lastName'];\n}\n\nfoo(array('lastName' => 'smith')); // output: john smith

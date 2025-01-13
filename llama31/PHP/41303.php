@@ -1,1 +1,0 @@
-<?php\n// connect to database\n$conn = new mysqli($servername, $username, $password, $dbname);\n\n// retrieve event data\n$sql = "SELECT * FROM events";\n$result = $conn->query($sql);\n\n// populate calendar cells with event data\nwhile ($row = $result->fetch_assoc()) {\n  // echo event data in calendar cell\n}\n?>

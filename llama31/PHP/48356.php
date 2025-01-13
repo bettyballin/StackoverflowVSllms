@@ -1,1 +1,0 @@
-echo "Hello world, my name is $name";

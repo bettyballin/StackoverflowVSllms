@@ -1,1 +1,0 @@
-const express = require('express');\nconst app = express();\n\napp.get('/vulnerable-page', (req, res) => {\n  const userParam = req.query.param;\n  // Sanitize user input to prevent JavaScript injection\n  const sanitizedParam = encodeURIComponent(userParam);\n  res.send(`Hello, ${sanitizedParam}!`);\n});

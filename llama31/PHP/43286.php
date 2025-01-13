@@ -1,1 +1,0 @@
-$termsValidator = new Zend_Validate_NotEmpty();\n$termsValidator->setMessage('You must agree with terms and conditions', Zend_Validate_NotEmpty::IS_EMPTY);\n\n$form->addElement('checkbox', 'terms', array(\n    'required' => true,\n    'validators' => array($termsValidator),\n));

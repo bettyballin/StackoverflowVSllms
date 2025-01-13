@@ -1,1 +1,0 @@
-SELECT \n    SUM(CASE WHEN ReceiptAmt > 0 THEN ReceiptAmt ELSE 0 END) - \n    SUM(BalanceAmt) \nFROM Receipt

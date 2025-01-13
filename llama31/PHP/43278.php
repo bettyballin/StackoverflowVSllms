@@ -1,1 +1,0 @@
-$cookieName = 'poll_cookie';\n$cookieValue = uniqid();\n\n// Set the cookie\nsetcookie($cookieName, $cookieValue, time() + (86400 * 30), "/"); // 30-day cookie\n\n// Store $cookieValue in your database with the user's vote

@@ -1,1 +1,0 @@
-import serial\n\n# Open the serial connection\nser = serial.Serial('COM1', 9600, timeout=1)\n\n# Send a test command (e.g., a simple ASCII string)\nser.write(b'Hello, MW-3170!')\n\n# Read the response (if any)\nresponse = ser.readline()\n\n# Close the serial connection\nser.close()\n\nprint(response)

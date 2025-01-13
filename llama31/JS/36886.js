@@ -1,1 +1,0 @@
-// Example of AES encryption in JavaScript using crypto-js\nconst encrypted = CryptoJS.AES.encrypt("Your Message", "Your Secret Key");\nconst decrypted = CryptoJS.AES.decrypt(encrypted.toString(), "Your Secret Key");

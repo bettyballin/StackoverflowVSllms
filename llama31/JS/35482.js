@@ -1,1 +1,0 @@
-if (data.RoleOwners.length === 0) {\n    // array is empty\n}

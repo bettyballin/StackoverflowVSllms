@@ -1,1 +1,0 @@
-// Install via Composer\ncomposer require benedmunds/ion-auth\n\n// Load the library in your CodeIgniter controller\n$this->load->library('ion_auth');\n\n// Example usage\nif ($this->ion_auth->logged_in()) {\n    // User is logged in\n} else {\n    // User is not logged in\n}

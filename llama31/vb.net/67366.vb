@@ -1,1 +1,0 @@
-Imports MySql.Data.MySqlClient\nImports System.Data.OleDb\n\n' MySQL Connection\nPrivate mysqlConnString As String = "server=localhost;user id=root;password=yourpassword;database=yourdatabase"\n\n' MS Access Connection\nPrivate accessConnString As String = "Provider=Microsoft.Jet.OLEDB.4.0;Data Source=C:\yourdatabase.mdb"

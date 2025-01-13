@@ -1,1 +1,0 @@
-$dbh = new PDO("mysql:host=$hostname;dbname=animals", $username, $password);\n$dbh->setAttribute(PDO::ATTR_DEFAULT_FETCH_MODE, PDO::FETCH_OBJ);

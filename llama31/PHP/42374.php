@@ -1,1 +1,0 @@
-function calc($equation) {\n    return eval("return $equation;");\n}\n\nprint calc("(((4 * 5) + 6) * 2) / 8"); // Output: 6.5

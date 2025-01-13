@@ -1,1 +1,0 @@
-SET @order = 0;\nUPDATE `table`\nSET `priorityLevel` = (@order := @order + 1)\nWHERE `ID` IN (12, 17, 27, 26, 5)\nORDER BY FIELD(`ID`, 12, 17, 27, 26, 5);

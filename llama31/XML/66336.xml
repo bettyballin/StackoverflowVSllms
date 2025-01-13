@@ -1,1 +1,0 @@
-<xsl:template match="mylink">\n    <a>\n        <xsl:copy-of select="attribute::*[local-name() != 'type']"/>\n    </a>\n</xsl:template>

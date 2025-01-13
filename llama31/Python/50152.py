@@ -1,1 +1,0 @@
-from django.db.models import Q\n\nSomething.objects.filter(x='y').update(a="something")

@@ -1,1 +1,0 @@
-$randomList = array();\nfor ($i = 0; $i < 20; $i++) {\n    $randomList[] = mt_rand(1, 50);\n}\n\n$newList = reduceArray($randomList, 5);\nprint_r($newList);

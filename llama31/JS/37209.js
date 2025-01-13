@@ -1,1 +1,0 @@
-$(document).ready(function() {\n  $("#alert-box").delay(5000).fadeIn("slow", function() {\n    $(this).animate({ backgroundColor: "#ffeeee" }, 1000, function() {\n      // Flash the div 2-3 times\n      for (var i = 0; i < 3; i++) {\n        $(this).animate({ opacity: 0.5 }, 500).animate({ opacity: 1 }, 500);\n      }\n    });\n  });\n});

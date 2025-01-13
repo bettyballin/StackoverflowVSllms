@@ -1,1 +1,0 @@
-$text = substr(strip_tags($original_text), 0, 50);

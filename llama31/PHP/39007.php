@@ -1,1 +1,0 @@
-$blogs = $app->getBlogsWithAuthors();\n\n// In your Blog model\npublic function getBlogsWithAuthors() {\n    $query = $this->createQueryBuilder()\n        ->select('b', 'a')\n        ->from('blogs', 'b')\n        ->innerJoin('b.author', 'a')\n        ->getQuery();\n    // Execute the query and return the results\n}

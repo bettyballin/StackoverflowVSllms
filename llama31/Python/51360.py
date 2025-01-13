@@ -1,1 +1,0 @@
-import secrets\n\nfoo = ['a', 'b', 'c', 'd', 'e']\n\nrandom_element = secrets.choice(foo)\nprint(random_element)

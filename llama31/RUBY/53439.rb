@@ -1,1 +1,0 @@
-Rails.application.routes.draw do\n  # ...\n  get '/entries.csv', to: 'entries#getcsv', format: 'csv'\nend

@@ -1,1 +1,0 @@
-SELECT i.*, c.name AS category_name\nFROM items i\nJOIN categories c ON i.category_id = c.id\nWHERE i.id = ?

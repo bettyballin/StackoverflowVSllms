@@ -1,1 +1,0 @@
-box.addEventListener('scroll', () => {\n  const scrollTop = box.scrollTop;\n  const scrollPosition = Math.round(scrollTop / rowHeight);\n  console.log(scrollPosition);\n});

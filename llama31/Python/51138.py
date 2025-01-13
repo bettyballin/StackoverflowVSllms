@@ -1,1 +1,0 @@
-from html.parser import HTMLParser\n\nclass MyParser(HTMLParser):\n    def handle_data(self, data):\n        print(data)  # prints: ÄÄRITALO\n\nhtml_string = "&#196;&#196;RITALO"\nparser = MyParser()\nparser.feed(html_string)

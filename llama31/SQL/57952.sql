@@ -1,1 +1,0 @@
-SELECT db || TO_CHAR(SYSDATE, 'YY') FROM gct;

@@ -1,1 +1,0 @@
-setInterval(function() {\n  $.ajax({\n    type: "GET",\n    url: "/update",\n    success: function(data) {\n      // Update the page with the new data\n    }\n  });\n}, 10000); // Poll every 10 seconds

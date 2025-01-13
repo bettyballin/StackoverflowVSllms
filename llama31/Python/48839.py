@@ -1,1 +1,0 @@
-import numpy as np\n\nverts = np.array([1, 2, 3, 12.345, 4, 5, 12.345, 6])\nindices = np.where(verts == 12.345)[0]\nif len(indices):\n    first_idx, last_idx = indices[0], indices[-1]\n    print(first_idx, last_idx)  # Output: 3 6

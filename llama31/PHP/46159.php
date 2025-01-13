@@ -1,1 +1,0 @@
-<?php echo $this->url(array('blog_page'=>3, '_current' => true), 'newsIndex'); ?>

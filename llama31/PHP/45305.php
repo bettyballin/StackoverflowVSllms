@@ -1,1 +1,0 @@
-$stmt = pg_prepare($dbconn, "my_query", 'SELECT * FROM public.sf_bands LIMIT 10');\n$result = pg_execute($dbconn, "my_query", array());

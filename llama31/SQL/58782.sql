@@ -1,1 +1,0 @@
-SELECT thing.id\nFROM thing\nINNER JOIN (\n  SELECT location_id, MIN(price) AS min_price\n  FROM thing\n  INNER JOIN location ON (thing.location_id = location.id)\n  WHERE location.type = xxx\n  GROUP BY location_id\n) AS subquery\nON (thing.location_id = subquery.location_id AND thing.price = subquery.min_price)

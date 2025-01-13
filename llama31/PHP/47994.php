@@ -1,1 +1,0 @@
-function test() {\n  echo "Function name is: " . __FUNCTION__;\n}\n\ntest(); // Outputs: Function name is: test

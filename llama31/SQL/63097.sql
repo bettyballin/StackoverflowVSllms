@@ -1,1 +1,0 @@
-$ rails dbconsole\npsql (13.4)\nType "help" for help.\n\nmydatabase=# UPDATE users SET password_digest = 'new_password' WHERE id = 1;\nUPDATE 1

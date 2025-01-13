@@ -1,1 +1,0 @@
-def get_first_16_bits(hex_num):\n    return hex_num[:4]\n\n# Example usage:\nhex_num = "12345678"\nfirst_16_bits = get_first_16_bits(hex_num)\nprint(first_16_bits)  # Output: 1234

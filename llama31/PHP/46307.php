@@ -1,1 +1,0 @@
-class Person {\n    private $name;\n}

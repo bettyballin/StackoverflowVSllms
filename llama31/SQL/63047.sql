@@ -1,1 +1,0 @@
-WITH timereports_cte AS (\n  SELECT *\n  FROM timereports\n  WHERE date = '2009-05-04'\n)\nSELECT *\nFROM employees e\nLEFT JOIN timereports_cte t\nON e.id = t.employee_id;

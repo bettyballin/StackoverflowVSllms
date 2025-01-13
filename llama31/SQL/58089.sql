@@ -1,1 +1,0 @@
-EXEC sp_restartmergeagent \n    @publication = '<publication_name>';

@@ -1,1 +1,0 @@
-import colorsys\n\ndef generate_color_palette(n):\n    hues = generate_hue_sequence(n)\n    colors = []\n    for hue in hues:\n        rgb = colorsys.hls_to_rgb(hue / 360, 0.7, 0.8)  # HSL to RGB conversion\n        colors.append((int(rgb[0] * 255), int(rgb[1] * 255), int(rgb[2] * 255)))\n    return colors

@@ -1,1 +1,0 @@
-$xml = new SimpleXMLElement('<root/>');\n$xml->addChild('tag', $value);\necho $xml->asXML();

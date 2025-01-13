@@ -1,1 +1,0 @@
-$('#myForm').on('submit', function() {\n  $('#submitBtn').prop('disabled', true);\n  $('#loadingOverlay').fadeIn();\n});

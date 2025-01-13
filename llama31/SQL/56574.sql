@@ -1,1 +1,0 @@
-CREATE INDEX idx_item_name ON item (name);\nCREATE INDEX idx_item_skim ON item (skim);

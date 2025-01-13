@@ -1,1 +1,0 @@
-SET CONSTRAINTS ALL DEFERRED;\n\n-- Perform your operations here\n\nSET CONSTRAINTS ALL IMMEDIATE;

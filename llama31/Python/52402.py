@@ -1,1 +1,0 @@
-my_set = {'abc'}\nmy_list = list(my_set)\nprint(my_list)  # Output: ['abc']

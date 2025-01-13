@@ -1,1 +1,0 @@
-function debounce(func, wait) {\n  let timeout;\n  return function() {\n    const args = arguments;\n    clearTimeout(timeout);\n    timeout = setTimeout(() => {\n      func.apply(this, args);\n    }, wait);\n  };\n}\n\nconst debouncedAjaxRequest = debounce(sendAjaxRequest, 300);

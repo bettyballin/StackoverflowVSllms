@@ -1,1 +1,0 @@
-$apiUrl = 'https://example.com/api/search';\n$searchQuery = 'your_search_query';\n\n$ch = curl_init($apiUrl);\ncurl_setopt($ch, CURLOPT_RETURNTRANSFER, true);\ncurl_setopt($ch, CURLOPT_POSTFIELDS, http_build_query(['q' => $searchQuery]));\n\n$response = curl_exec($ch);\ncurl_close($ch);\n\n// Process the response data\n$data = json_decode($response, true);

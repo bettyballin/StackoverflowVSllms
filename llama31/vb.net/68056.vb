@@ -1,1 +1,0 @@
-' Create a form with text boxes and check boxes\nDim frm As Form\nSet frm = CreateForm\n\n' Add text boxes and check boxes\nfrm.Controls.Add "TextBox", "txtField1"\nfrm.Controls.Add "CheckBox", "chkField1"\nfrm.Controls.Add "TextBox", "txtField2"\nfrm.Controls.Add "CheckBox", "chkField2"\nfrm.Controls.Add "TextBox", "txtField3"\nfrm.Controls.Add "CheckBox", "chkField3"

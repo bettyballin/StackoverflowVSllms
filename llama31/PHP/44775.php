@@ -1,1 +1,0 @@
-App::import('Xml');\nApp::import('Core', 'HttpSocket');\n$url = "http://www.site.com/file.xml";\n$HttpSocket = new HttpSocket();\n$response = $HttpSocket->get($url);\n$xmlString = $response->body;\n$parsed_xml =& new XML($xmlString);

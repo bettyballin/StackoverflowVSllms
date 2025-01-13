@@ -1,1 +1,0 @@
-<?php\n// Set headers for file download\nheader('Content-Type: application/csv');\nheader("Content-length: " . filesize($NewFile));\nheader('Content-Disposition: attachment; filename="' . $FileName . '"');\necho $content;\nexit();\n?>

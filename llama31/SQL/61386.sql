@@ -1,1 +1,0 @@
-SELECT User\nFROM YourTable\nWHERE Date = (\n  SELECT MAX(Date)\n  FROM YourTable\n  WHERE Date <= '2009-02-19'\n)

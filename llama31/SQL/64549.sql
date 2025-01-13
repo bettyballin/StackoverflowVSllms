@@ -1,1 +1,0 @@
-SELECT \n  post_id,\n  SUM(CASE WHEN rating_type = 'thumb-up' THEN 1 ELSE -1 END) AS total_rating\nFROM \n  wp_sp_post_ratings\nGROUP BY \n  post_id\nORDER BY \n  total_rating DESC;

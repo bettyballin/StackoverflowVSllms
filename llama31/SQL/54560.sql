@@ -1,1 +1,0 @@
-SELECT \n  (SELECT end_block + 1 FROM your_table WHERE id = t.id - 1) AS expected_start_block,\n  (SELECT start_block - 1 FROM your_table WHERE id = t.id) AS expected_end_block\nFROM \n  your_table t\nWHERE \n  (SELECT end_block FROM your_table WHERE id = t.id - 1) + 1 != t.start_block

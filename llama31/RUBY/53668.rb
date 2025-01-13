@@ -1,1 +1,0 @@
-Factory.define :my_message, :parent => :message do |msg|\n  msg.initialize_with { Message.new(sender: @me) }\nend

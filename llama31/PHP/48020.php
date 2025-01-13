@@ -1,1 +1,0 @@
-$a = 5;   // 00000101 (binary)\n$b = 3;   // 00000011 (binary)\n\n$result = $a & $b;  // 00000001 (binary)

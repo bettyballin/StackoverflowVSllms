@@ -1,1 +1,0 @@
-$headers = 'Content-Type: text/html; charset=UTF-8';\n$body = nl2br($body);\nmail($to, $subject, $body, $headers);

@@ -1,1 +1,0 @@
-SELECT id FROM tbl WHERE data = 'something' ORDER BY id DESC LIMIT 1;

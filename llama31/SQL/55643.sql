@@ -1,1 +1,0 @@
-SELECT * FROM table_name ORDER BY RAND() LIMIT 1;

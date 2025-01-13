@@ -1,1 +1,0 @@
-import ctypes\n\nmsg = "hello world"\nbuf = ctypes.create_string_buffer(msg.encode('utf-8'))\ndata = ctypes.c_void_p(ctypes.addressof(buf))\n\n# use data as needed

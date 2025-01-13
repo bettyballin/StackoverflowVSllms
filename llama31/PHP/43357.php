@@ -1,1 +1,0 @@
-class MyClass {\n    function myFunction() {\n        global $someExternalVar;\n        if (isset($someExternalVar)) {\n            // do something\n        }\n    }\n}\n\n$someExternalVar = true;\n$obj = new MyClass();\n$obj->myFunction();

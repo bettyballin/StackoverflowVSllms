@@ -1,1 +1,0 @@
-import pandas as pd\n\n# Create a DataFrame\ndf = pd.DataFrame({'col1': ['data1', 'data4'], \n                   'col2': ['data2', 'data5'], \n                   'col3': ['data3', 'data6']})\n\n# Write the DataFrame to a CSV file\ndf.to_csv('output.txt', index=False)

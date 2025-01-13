@@ -1,1 +1,0 @@
-$conn = oci_connect('username', 'password', 'localhost/orcl');\nif (!$conn) {\n    $e = oci_error();\n    echo $e['message'];\n    exit;\n}

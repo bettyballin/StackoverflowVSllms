@@ -1,1 +1,0 @@
-CREATE TABLE Articles (\n  id INT PRIMARY KEY\n);\n\nCREATE TABLE Keywords (\n  id INT PRIMARY KEY\n);\n\nCREATE TABLE ArticleKeywords (\n  article_id INT,\n  keyword_id INT,\n  PRIMARY KEY (article_id, keyword_id),\n  FOREIGN KEY (article_id) REFERENCES Articles(id),\n  FOREIGN KEY (keyword_id) REFERENCES Keywords(id)\n);

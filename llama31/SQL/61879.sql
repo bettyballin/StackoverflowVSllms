@@ -1,1 +1,0 @@
-CREATE TABLE page_data (\n  pageid INT,\n  data MEDIUMTEXT,\n  PRIMARY KEY (pageid)\n);

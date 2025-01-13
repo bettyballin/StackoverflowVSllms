@@ -1,1 +1,0 @@
-from db_utils.raw_query import RawQuery\n\nqs = RawQuery(MyModel, "SELECT * FROM myapp_mymodel WHERE name = 'foo'")

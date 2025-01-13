@@ -1,1 +1,0 @@
-(['I', 4], ['say', 2], ['say', 5], ['tomato', 3], ['tomato', 6], ['you', 1])\n(['you', 1], ['say', 2], ['tomato', 3], ['I', 4], ['say', 5], ['tomato', 6])

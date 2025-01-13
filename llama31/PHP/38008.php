@@ -1,1 +1,0 @@
-// Example using PHP's built-in filter functions\n$postContent = filter_var($_POST['content'], FILTER_SANITIZE_STRING);

@@ -1,1 +1,0 @@
-Dim Results = From MovieWithArtist In MoviesXML...<scene> _\n              Where MovieWithArtist.<sceneartistsnames>.<sceneartistname>.Any(Function(x) x.Value = "Artist A") _\n              Select MovieWithArtist

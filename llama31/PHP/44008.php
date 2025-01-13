@@ -1,1 +1,0 @@
-$pwd = filter_input(INPUT_POST, 'pwd', FILTER_SANITIZE_STRING);\nif ($pwd === NULL || $pwd === FALSE) {\n    // Handle error\n}

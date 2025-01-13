@@ -1,1 +1,0 @@
-$query = "SELECT COUNT(DISTINCT country) AS unique_countries FROM table";\n$result = mysql_query($query) or die(mysql_error());\n$row = mysql_fetch_array($result);\necho $row['unique_countries'];

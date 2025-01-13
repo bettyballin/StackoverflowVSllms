@@ -1,1 +1,0 @@
-public function takeScriptsWithMarker($lines, $marker) {\n    // ...\n    return $modifiedLines;\n}\n\n$lines = array(...);\n$lines = takeScriptsWithMarker($lines, $marker);

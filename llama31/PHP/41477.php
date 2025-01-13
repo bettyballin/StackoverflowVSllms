@@ -1,1 +1,0 @@
-if (empty($_SERVER['SHELL'])) {\n    // Running from cron job\n} else {\n    // Running from command line\n}

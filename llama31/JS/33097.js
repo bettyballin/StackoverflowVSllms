@@ -1,1 +1,0 @@
-fetch('/myServlet')\n    .then(response => response.text())\n    .then(data => console.log(data))\n    .catch(error => console.error(error));

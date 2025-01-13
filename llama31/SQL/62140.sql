@@ -1,1 +1,0 @@
-CREATE TRIGGER fkFooBarUpdate\n  BEFORE UPDATE ON Foo_Bar\n  FOR EACH ROW BEGIN\n    SELECT RAISE (ABORT, 'Update on Foo_Bar violates foreign key')\n    WHERE NOT EXISTS (\n      SELECT 1\n      FROM FOO\n      WHERE id = NEW.fooId\n    ) OR NOT EXISTS (\n      SELECT 1\n      FROM BAR\n      WHERE id = NEW.barId\n    );\n  END;

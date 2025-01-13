@@ -1,1 +1,0 @@
-$dom = new DOMDocument();\n$dom->loadXML($xml_text);\n$item = $dom->getElementsByTagName('item')->item(0);\necho $item->nodeValue;

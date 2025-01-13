@@ -1,1 +1,0 @@
-setInterval(function() {\n  $.ajax({\n    url: '/update',\n    success: function(data) {\n      // Process updated data\n    }\n  });\n}, 5000); // 5-second interval

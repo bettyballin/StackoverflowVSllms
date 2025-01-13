@@ -1,1 +1,0 @@
-$array = [\n    2 => (object) ['title' => 'Section', 'linked' => 1],\n    1 => (object) ['title' => 'Sub-Section', 'linked' => 1],\n    0 => (object) ['title' => 'Sub-Sub-Section', 'linked' => ''],\n];\n\n$array = array_combine(range(1, count($array)), array_values($array));\n\nprint_r($array);

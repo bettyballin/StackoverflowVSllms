@@ -1,1 +1,0 @@
-virtual("/path/to/cgi/script.cgi?param1=value1&param2=value2");

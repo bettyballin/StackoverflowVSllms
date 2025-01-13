@@ -1,1 +1,0 @@
-document.getElementById('link1').addEventListener('click', function() {\n  update('Layer3', '2', '0', 'hello');\n});

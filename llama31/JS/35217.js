@@ -1,1 +1,0 @@
-const timing = performance.getEntriesByType('navigation')[0];\nconst loadTime = timing.loadEventEnd - timing.fetchStart;\n\n// Send the data to your server for analysis

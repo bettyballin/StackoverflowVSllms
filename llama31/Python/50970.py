@@ -1,1 +1,0 @@
-from django.forms.widgets import ReadOnlyWidget\n\ndef __init__(self, *args, **kwargs):\n    super(IssuesForm, self).__init__(*args, **kwargs)\n    self.fields['vehicle'].widget = ReadOnlyWidget()

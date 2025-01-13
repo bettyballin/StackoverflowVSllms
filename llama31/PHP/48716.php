@@ -1,1 +1,0 @@
-// cron.php\n$lastRun = file_get_contents('lastrun.txt');\n$newUsers = getNewUsersSince($lastRun); // implement your logic here\nforeach ($newUsers as $user) {\n    // Perform your time-consuming task here\n}\nfile_put_contents('lastrun.txt', time());

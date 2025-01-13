@@ -1,1 +1,0 @@
-params[:upload].each do |key, value|\n  if value.is_a?(ActionDispatch::Http::UploadedFile)\n    # do something with the uploaded file\n    # you can access its properties like this:\n    # value.original_filename\n    # value.content_type\n    # value.size\n    # value.read (to read the file contents)\n  end\nend

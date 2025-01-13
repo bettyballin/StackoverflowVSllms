@@ -1,1 +1,0 @@
-class DynamicClass {\n    private $data = [];\n\n    public function __set($name, $value) {\n        $this->data[$name] = $value;\n    }\n\n    public function __get($name) {\n        return $this->data[$name];\n    }\n}\n\n$obj = new DynamicClass();\n$obj->newProperty = 'Hello, World!';\necho $obj->newProperty; // Outputs: Hello, World!

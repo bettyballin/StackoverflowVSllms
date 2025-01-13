@@ -1,1 +1,0 @@
-// Using Handlebars.js\nvar navigationTemplate = Handlebars.compile($('#navigation-template').html());\nvar navigationHtml = navigationTemplate();\n$('body').append(navigationHtml);

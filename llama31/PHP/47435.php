@@ -1,1 +1,0 @@
-if ($row['username'] === null) {\n    echo 'Deleted User';\n} else {\n    echo $row['username'];\n}

@@ -1,1 +1,0 @@
-DECLARE @SomeDate datetime = '2009-05-28 16:30:22'\nSELECT DATEADD(dd, 0, DATEDIFF(dd, 0, @SomeDate))

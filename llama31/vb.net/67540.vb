@@ -1,1 +1,0 @@
-If dtDataTable IsNot Nothing AndAlso dtDataTable.Rows.Count > 0 Then\n    'some code\n    lbl_count.Text = "Found " & dtDataTable.Rows.Count.ToString & " results"\nElse\n    lbl_count.Text = "Found 0 result"\nEnd If

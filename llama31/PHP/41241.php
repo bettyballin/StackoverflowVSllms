@@ -1,1 +1,0 @@
-$sql = "INSERT INTO customer(first_name,last_name,email,password,gender,city,dob,pin) VALUES(\n    IF('$first_name' = '', NULL, '$first_name'),\n    IF('$last_name' = '', NULL, '$last_name'),\n    ...\n)";

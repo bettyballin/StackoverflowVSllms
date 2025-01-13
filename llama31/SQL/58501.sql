@@ -1,1 +1,0 @@
-COALESCE(Column1, "")

@@ -1,1 +1,0 @@
-// get sort direction, arrow\nvar dir = 1;\nif (self.innerHTML.indexOf("\u25B4") > -1) {\n  dir = -1;\n}\nvar arrow = (dir == 1) ? "\u25B4" : "\u25BC";\n\n// ... (rest of the code remains the same)

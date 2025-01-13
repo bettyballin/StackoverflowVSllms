@@ -1,1 +1,0 @@
-ob_start();\nfor ($i = 0; $i < 10000; $i++) {\n    echo 'Hello, world!';\n}\n$string = ob_get_contents();\nob_end_clean();

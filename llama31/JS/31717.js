@@ -1,1 +1,0 @@
-$(function() {\n    $("#activator").click(function(){\n        $("#social").slideToggle("slow");\n    });\n});

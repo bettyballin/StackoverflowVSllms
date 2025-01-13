@@ -1,1 +1,0 @@
-const input = document.getElementById('myInput');\n\n// Get the associated label\nconst label = input.labels[0];\n\n// Do something with the label\nconsole.log(label.textContent);

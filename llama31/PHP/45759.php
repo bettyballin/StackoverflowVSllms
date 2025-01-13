@@ -1,1 +1,0 @@
-class MyClass {\n    public function myMethod(Request $request) {\n        $validatedData = $request->get('my_var');\n        // Use $validatedData\n    }\n}

@@ -1,1 +1,0 @@
-content_item_urls = list(filter(lambda url: 'CONTENT_ITEM_ID' in url, urls))

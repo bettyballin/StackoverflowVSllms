@@ -1,1 +1,0 @@
-document.getElementsByName("name")[0].addEventListener("blur", function() {\n  alert(1);\n});

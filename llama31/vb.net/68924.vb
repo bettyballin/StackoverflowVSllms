@@ -1,1 +1,0 @@
-Using fileStream As New FileStream("path\to\file", FileMode.Open, FileAccess.Read)\n    Dim clippedBytes As Byte() = ClipBytes(fileStream)\n    ' Process the clipped bytes\nEnd Using

@@ -1,1 +1,0 @@
-try {\n    $connection = mysql_pconnect("server","tator_w","password");\n    if (!$connection) {\n        throw new Exception("Unable to connect to SQL server");\n    }\n} catch (Exception $e) {\n    // Handle the exception, e.g., log the error, send an email, etc.\n    error_log($e->getMessage());\n    // You can also call another function or method from here\n}

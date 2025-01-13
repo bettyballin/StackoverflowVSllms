@@ -1,1 +1,0 @@
-# __init__.py\n__all__ = ['module1', 'module2']\n\n# module1.py\ndef public_function():\n    pass\n\n# module2.py\nclass PublicClass:\n    pass

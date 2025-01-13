@@ -1,1 +1,0 @@
-BULK INSERT #TempTable\nFROM 'C:\Path\To\Your\File.csv'\nWITH\n(\n    FIELDTERMINATOR = ',',\n    ROWTERMINATOR = '\n'\n)

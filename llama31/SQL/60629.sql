@@ -1,1 +1,0 @@
-CREATE TABLE tags (\n    question_id INTEGER NOT NULL,\n    tag_id SERIAL NOT NULL,\n    tag1 VARCHAR(20),\n    tag2 VARCHAR(20),\n    tag3 VARCHAR(20),\n    PRIMARY KEY (question_id, tag_id),\n    CONSTRAINT no_duplicate_tag UNIQUE (question_id, tag_id)\n);

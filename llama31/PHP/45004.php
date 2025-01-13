@@ -1,1 +1,0 @@
-$info = apc_cache_info('user');\nforeach ($info['cache_list'] as $entry) {\n    apc_delete($entry['info']);\n}

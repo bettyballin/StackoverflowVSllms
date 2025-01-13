@@ -1,1 +1,0 @@
-Imports System\n\nModule HelloWorld\n    Sub Main()\n        Console.Write("Enter your name: ")\n        Dim name As String = Console.ReadLine()\n        Console.WriteLine("Hello, " & name & "!")\n    End Sub\nEnd Module

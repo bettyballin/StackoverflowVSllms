@@ -1,1 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>\n<preferences>\n  < preference\n    name="org.eclipse.wst.xml.core.internal.validation.XMLValidator"\n    value="org.eclipse.wst.xml.core.internal.validation.XMLValidator">\n      <property\n        name="EXCLUDE_PATTERNS"\n        value="*.xml,*-script.xml"/>\n  </preference>\n</preferences>

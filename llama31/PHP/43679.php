@@ -1,1 +1,0 @@
-$apacheUid = posix_geteuid();\n$apacheUser = posix_getpwuid($apacheUid);\n\necho "Apache User: " . $apacheUser['name'];

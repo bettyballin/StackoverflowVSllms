@@ -1,1 +1,0 @@
-$.ajax({\n  url: '/local-content',\n  success: function(data) {\n    $('#container').html(data);\n  }\n});

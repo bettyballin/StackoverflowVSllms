@@ -1,1 +1,0 @@
-base = BaseClass.objects.get(pk=3)\nbase.refresh_from_db()\nprint(base.__class__)  # Should print the actual subclass instance

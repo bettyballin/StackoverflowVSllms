@@ -1,1 +1,0 @@
-DECLARE @sql nvarchar(max) = '';\n\nSELECT @sql += 'ALTER SCHEMA dbo TRANSFER ' + QUOTENAME(s.name) + '.' + QUOTENAME(t.name) + ';'\nFROM sys.tables t\nINNER JOIN sys.schemas s ON t.schema_id = s.schema_id\nWHERE s.name = 'jonathan';\n\nEXEC sp_executesql @sql;

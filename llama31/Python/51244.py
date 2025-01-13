@@ -1,1 +1,0 @@
-#Check the column\nsubmission['label'] = submission['label'].astype(str).str[0] + submission['label'].astype(str).str[1:-1] + submission['label'].astype(str).str[-1].replace('1', '2')\n\nprint(submission['label'].head())

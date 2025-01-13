@@ -1,1 +1,0 @@
-$helper = $objectManager->get('Magento\Customer\Helper\Session\CurrentCustomer');\n$customer = $helper->getCustomer();\n\nif ($customer->getId()) {\n    $name = $customer->getName();\n    // Do something with the customer's name\n} else {\n    // Customer is not logged in\n}

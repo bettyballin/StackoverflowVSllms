@@ -1,1 +1,0 @@
-// Get all links on the page\nconst links = document.querySelectorAll('a');\n\n// Add event listener to each link\nlinks.forEach((link) => {\n  link.addEventListener('click', () => {\n    // Stop page loading\n    window.stop();\n  });\n});

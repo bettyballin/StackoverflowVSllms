@@ -1,1 +1,0 @@
-ALTER TABLE tbl_name\nADD COLUMN column4 AFTER column1;

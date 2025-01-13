@@ -1,1 +1,0 @@
-// In controllers/profile.php\nclass Controller_Profile extends Controller {\n    public function action_edit() {\n        if ($this->request->is_ajax()) {\n            // Handle AJAX request for edit profile\n        } else {\n            // Handle non-AJAX request for edit profile\n        }\n    }\n}

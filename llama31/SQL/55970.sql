@@ -1,1 +1,0 @@
-CREATE ASSEMBLY MyWcfClientAssembly\nFROM 'C:\Path\To\Your\Assembly.dll'\nWITH PERMISSION_SET = EXTERNAL_ACCESS;

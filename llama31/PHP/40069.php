@@ -1,1 +1,0 @@
-$query = new Query($entityManager);\n$query->select('u');\n$query->from('User', 'u');\n$query->where('u.name = :name');

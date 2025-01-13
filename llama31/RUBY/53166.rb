@@ -1,1 +1,0 @@
-file_path = "imcs2.xml"\n\n# Read the file into an array of lines\nlines = File.readlines(file_path)\n\n# Remove the last line\nlines.pop\n\n# Write the updated lines back to the file\nFile.open(file_path, "w") do |file|\n  file.puts lines\nend

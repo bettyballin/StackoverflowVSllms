@@ -1,1 +1,0 @@
-$.ajax({\n  // ...\n  beforeSend: function(xhr) {\n    console.log(xhr);\n  }\n});

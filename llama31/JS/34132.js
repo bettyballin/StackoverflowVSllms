@@ -1,1 +1,0 @@
-var xhr = new XMLHttpRequest();\nxhr.open('GET', '/check-username', true);\n\nxhr.onreadystatechange = function() {\n  if (xhr.readyState === 1) {\n    // display loading icon\n  } else if (xhr.readyState === 4 && xhr.status === 200) {\n    // hide loading icon and handle the response\n  }\n};\n\nxhr.send();

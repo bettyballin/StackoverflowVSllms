@@ -1,1 +1,0 @@
-// ...\n\nif (isset($_GET['file'])) {\n    $filename = $_GET['file'];\n\n    if (!check_visit_count($filename)) {\n        echo 'Link has expired!';\n        exit;\n    }\n\n    // Serve the file\n    // ...\n}

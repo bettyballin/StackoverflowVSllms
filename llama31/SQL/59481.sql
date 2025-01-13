@@ -1,1 +1,0 @@
-SELECT t.Name, t.Age * 2 AS DoubleAge\nFROM Table t\nWHERE DoubleAge > 30  // Error: DoubleAge is not available here\nORDER BY DoubleAge    // Okay: DoubleAge is available here

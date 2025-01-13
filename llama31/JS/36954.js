@@ -1,1 +1,0 @@
-let arr = [0, 1, 2, 3, 4, 5, 6, 7, 8, undefined, null, ''];\n\n// Incorrect way to count array elements\nconsole.log(arr.length); // Outputs: 12\n\n// Correct way to count meaningful array elements\nlet count = arr.filter(element => element !== undefined && element !== null && element !== '').length;\nconsole.log(count); // Outputs: 9

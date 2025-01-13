@@ -1,1 +1,0 @@
-$columns = new library_Label(1);\n$children = $columns->getChildren();\nif (is_array($children)) {\n    foreach ($children as $label) {\n        echo $label->Name;\n    }\n} else {\n    // Handle the case where getChildren() returns null or a non-array value\n    // For example, you could log a warning or throw an exception\n}

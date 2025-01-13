@@ -1,1 +1,0 @@
-CREATE TABLE DimTime (\n    TimeValue CHAR(10) PRIMARY KEY,  -- e.g., 0106090800\n    Hour INT,\n    Day INT,\n    Month INT,\n    Year INT,\n    -- other time-related columns...\n)

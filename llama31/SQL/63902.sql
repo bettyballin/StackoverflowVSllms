@@ -1,1 +1,0 @@
-INSERT INTO LogEntries_Archive\nSELECT *\nFROM LogEntries\nWHERE LogDate < DATEADD(day, -45, GETDATE());

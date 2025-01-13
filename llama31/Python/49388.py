@@ -1,1 +1,0 @@
-import importlib\n\nmodules = set(["sys", "os", "jinja"])\n\nfor module in modules:\n    try:\n        importlib.import_module(module)\n        print(f"Module {module} is installed")\n    except ImportError:\n        print(f"Module {module} is not installed")

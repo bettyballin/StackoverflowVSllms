@@ -1,1 +1,0 @@
-// Client-side example\nsetInterval(() => {\n  fetch('/updates')\n    .then((response) => response.json())\n    .then((data) => {\n      console.log(`Received update: ${data}`);\n    });\n}, 1000);

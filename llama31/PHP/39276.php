@@ -1,1 +1,0 @@
-ini_set('session.serialize_handler', 'php');

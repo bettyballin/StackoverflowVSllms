@@ -1,1 +1,0 @@
-SELECT \n  DATE(FROM_UNIXTIME(timecode)) AS date,\n  COUNT(timecode) AS count\nFROM \n  timecodeTable\nGROUP BY \n  DATE(FROM_UNIXTIME(timecode))

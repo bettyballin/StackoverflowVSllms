@@ -1,1 +1,0 @@
-EventClass: Audit Schema Object Access Event\nObjectName: mytable\nObjectType: Table\nAccess: Select\nResult: 0 (Permission denied)

@@ -1,1 +1,0 @@
-# config/routes.rb\nresources :users do\n  resource :public_profile do\n    resources :emails\n    resources :phone_numbers\n  end\n  resource :private_profile do\n    resources :addresses\n    resources :credit_cards\n  end\nend

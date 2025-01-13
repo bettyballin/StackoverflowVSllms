@@ -1,1 +1,0 @@
--- Create a linked server\nEXEC sp_addlinkedserver \n    @server='LinkedServerName', \n    @srvproduct='SQL Server';\n\n-- Use the linked server in a query\nSELECT \n    column1, \n    column2, \n    column3\nFROM \n    OPENQUERY(LinkedServerName, 'SELECT column1, column2, column3 FROM DatabaseB.Schema.Table');

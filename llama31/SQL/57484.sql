@@ -1,1 +1,0 @@
-JOIN users AS u USING(companyid)

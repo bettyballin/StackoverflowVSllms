@@ -1,1 +1,0 @@
-function re_encode_html_entities($str) {\n    return htmlspecialchars(html_entity_decode($str, ENT_QUOTES, 'UTF-8'), ENT_QUOTES, 'UTF-8');\n}\n\n$_POST['txt'] = re_encode_html_entities($_POST['txt']);

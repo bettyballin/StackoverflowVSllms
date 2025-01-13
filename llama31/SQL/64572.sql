@@ -1,1 +1,0 @@
-CREATE TABLE Employees (\n  EmployeeID INT,\n  Name VARCHAR(255),\n  Department VARCHAR(255),\n  Salary DECIMAL(10, 2)\n);\n\nINSERT INTO Employees (EmployeeID, Name, Department, Salary)\nVALUES\n  (1, 'John Doe', 'Sales', 50000.00),\n  (2, 'Jane Smith', 'Marketing', 60000.00),\n  (3, 'Bob Johnson', 'Sales', 55000.00);

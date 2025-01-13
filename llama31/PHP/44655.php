@@ -1,1 +1,0 @@
-$getformdata = $con->prepare("SELECT saleid, field FROM STATUS WHERE saleid = ?");\n$getformdata->bind_param("s", $pk);\n$getformdata->execute();\n$getformdata->bind_result($saleid, $checkfield);\n$getformdata->fetch();\n$getformdata->close();

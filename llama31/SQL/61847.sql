@@ -1,1 +1,0 @@
-$query = "SELECT id \n          FROM (\n            SELECT id \n            FROM movies \n            WHERE publish = 1 \n              AND showimage = 1 \n            ORDER BY date DESC \n            LIMIT 6\n          ) AS subquery\n          WHERE MOD(@cur_row := @cur_row + 1, 2) = 0";

@@ -1,1 +1,0 @@
-import numpy as np\nfrom skimage.measure import compare_ssim\n\ndef ssim(image1, image2):\n    return compare_ssim(image1, image2, multichannel=True)

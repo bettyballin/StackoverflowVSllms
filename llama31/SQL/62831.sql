@@ -1,1 +1,0 @@
-CREATE FUNCTION GetIDFromXML (@xml Text)\nRETURNS int\nAS\nBEGIN\n    DECLARE @hdoc int\n    EXEC sp_xml_preparedocument @hdoc OUTPUT, @xml\n    DECLARE @ID int\n    SELECT @ID = ID FROM OPENXML (@hdoc, '/Form/object', 1) WITH (ID int '@ID')\n    EXEC sp_xml_removedocument @hdoc\n    RETURN @ID\nEND\nGO\n\nSELECT *\nFROM YourTable\nWHERE ID <> dbo.GetIDFromXML(XML)

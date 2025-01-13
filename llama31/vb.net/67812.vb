@@ -1,1 +1,0 @@
-Sub HideTable()\n    Dim tbl As Table\n    Set tbl = ActiveDocument.Tables(1) ' Change the index to the table you want to hide\n    \n    tbl.Range.Font.Hidden = True ' Hide the text\n    tbl.Borders.Enable = False ' Disable the borders\n    tbl.TableDirection = wdTableDirectionNone ' Remove the table direction\nEnd Sub

@@ -1,1 +1,0 @@
-module TestTwo\n  class Quux\n  end\n\n  module Bar\n  end\n\n  module Foo\n    def foo\n      42\n    end\n  end\nend\n\n# First, make sure Bar includes Foo\nTestTwo::Bar.send :include, TestTwo::Foo\n\n# Then, Quux includes Bar\nTestTwo::Quux.send :include, TestTwo::Bar\n\nTestTwo::Quux.new.foo # => 42

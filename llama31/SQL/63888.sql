@@ -1,1 +1,0 @@
-SELECT AuditFieldID, AuditValue, AuditDate\nFROM (\n    SELECT \n        AuditFieldID,\n        AuditValue,\n        AuditDate,\n        ROW_NUMBER() OVER (PARTITION BY AuditFieldID ORDER BY AuditDate DESC) AS RowNum\n    FROM Tbl\n) AS Subquery\nWHERE RowNum = 1;

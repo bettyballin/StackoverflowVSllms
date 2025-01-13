@@ -1,1 +1,0 @@
-$text = 'Some text with "quotes" and \backslashes\';\n$json = json_encode(array('text' => $text));\necho $json;

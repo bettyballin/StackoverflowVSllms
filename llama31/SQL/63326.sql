@@ -1,1 +1,0 @@
-DECLARE\n  v_id VARCHAR2(10) := '12345';\nBEGIN\n  FOR cur_rec IN (SELECT * FROM theTable WHERE ID = v_id) LOOP\n    -- You can process each row here\n    DBMS_OUTPUT.PUT_LINE(cur_rec.column_name);\n  END LOOP;\nEND;

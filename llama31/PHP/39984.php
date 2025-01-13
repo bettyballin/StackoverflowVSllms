@@ -1,1 +1,0 @@
-$data = array('street_name' => $street_name);\necho json_encode($data);

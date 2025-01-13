@@ -1,1 +1,0 @@
-var editorContent = $find("<%= Editor1.ClientID %>").get_content();

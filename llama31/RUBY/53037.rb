@@ -1,1 +1,0 @@
-# main.rb\nrequire_relative 'my_class'\n\nmy_object = MyClass.new\nmy_object.my_method  # Outputs: "Hello, World!"

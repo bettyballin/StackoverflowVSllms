@@ -1,1 +1,0 @@
-VALUES BITAND(bitDataToInt('0123'::CHAR(2) FOR BIT DATA), 0xFF);

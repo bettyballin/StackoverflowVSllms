@@ -1,1 +1,0 @@
-// Output buffering on\nob_start();\n\n// Using echo with multiple arguments\necho 'The ball is ', $color;\n\n// Using string concatenation\necho 'The ball is ' . $color;\n\n// Using double-quoted strings\necho "The ball is $color";\n\n// Get the buffer contents\n$buffer = ob_get_contents();\n\n// Clean the buffer\nob_end_clean();

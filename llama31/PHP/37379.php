@@ -1,1 +1,0 @@
-<?php echo htmlspecialchars_decode($_option->getTitle(), ENT_QUOTES) ?>

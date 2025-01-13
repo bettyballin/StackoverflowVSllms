@@ -1,1 +1,0 @@
-def abc=(abc)\n  @abc = abc\nend

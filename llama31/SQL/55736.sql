@@ -1,1 +1,0 @@
-SELECT \n  r.ID AS ShippingRateID, \n  r.Name, \n  COALESCE(e.Price, r.Price) AS Price\nFROM \n  shipping r \n  LEFT JOIN shippingexceptions e ON r.ID = e.ShippingRateID AND e.ProductID = 48

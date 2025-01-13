@@ -1,1 +1,0 @@
-Sub X()\n    Dim app As New Access.Application\n    'Do Stuff\nEnd Sub

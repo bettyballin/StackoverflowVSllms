@@ -1,1 +1,0 @@
-Dim mail As New MailMessage()\nDim pdf As New LinkedResource(pdfFilePath, "application/pdf")\nmail.AlternateViews.Add(AlternateView.CreateAlternateViewFromString("<a href='cid:pdf'>View PDF</a>", Nothing, MediaTypeNames.Text.Html))\npdf.ContentId = "pdf"\nmail.AlternateViews.Add(New AlternateView(pdf))

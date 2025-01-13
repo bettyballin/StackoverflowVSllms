@@ -1,1 +1,0 @@
-// Get the menu state\nvar menuState = {};\n$('.menu-item').each(function() {\n  var id = $(this).attr('id');\n  menuState[id] = $(this).hasClass('expanded');\n});\n\n// Save the menu state to local storage\nlocalStorage.setItem('menuState', JSON.stringify(menuState));

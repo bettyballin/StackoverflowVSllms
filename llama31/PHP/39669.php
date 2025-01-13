@@ -1,1 +1,0 @@
-require_once 'UMLet.php';\n\n$uml = new UMLet();\n$uml->addClass('MyClass');\n$uml->addMethod('MyClass', 'myMethod');\n$uml->generate();

@@ -1,1 +1,0 @@
-CREATE FUNCTION Test (@top integer)\nRETURNS TABLE\nAS\nBEGIN\n    SET ROWCOUNT @top\n    SELECT * FROM SomeTable\n    SET ROWCOUNT 0\n    RETURN\nEND\nGO

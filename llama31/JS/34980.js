@@ -1,1 +1,0 @@
-$('a:has(img)').addClass('image-link');

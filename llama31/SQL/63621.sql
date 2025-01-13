@@ -1,1 +1,0 @@
-CREATE TRIGGER trg_update_row_number\nON your_table\nAFTER DELETE\nAS\nBEGIN\n    UPDATE your_table\n    SET row_number = row_number - 1\n    WHERE row_number > (SELECT row_number FROM deleted)\nEND

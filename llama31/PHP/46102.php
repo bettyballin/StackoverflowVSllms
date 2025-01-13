@@ -1,1 +1,0 @@
-<?php\n$template = new Twig_Template('your_template.twig');\n$template->render();\n?>

@@ -1,1 +1,0 @@
-class Category < ApplicationRecord\n  acts_as_tree\nend

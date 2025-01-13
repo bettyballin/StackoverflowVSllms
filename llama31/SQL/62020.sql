@@ -1,1 +1,0 @@
-SELECT \n  m.id, \n  m.name, \n  p.position_name, \n  t.team_name, \n  mtp.start_date, \n  mtp.end_date\nFROM \n  member m\n  INNER JOIN member_to_positions mtp ON m.id = mtp.member_id\n  INNER JOIN positions p ON mtp.position_id = p.id\n  INNER JOIN team t ON mtp.team_id = t.id\nWHERE \n  m.id = ?;

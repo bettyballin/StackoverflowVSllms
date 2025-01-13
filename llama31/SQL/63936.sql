@@ -1,1 +1,0 @@
-WITH RankedRows AS (\n  SELECT A, B, C, D,\n         ROW_NUMBER() OVER (PARTITION BY A, B, D ORDER BY C) AS RowNum\n  FROM YourTable\n)\nSELECT A, B, C, D\nFROM RankedRows\nWHERE RowNum = 1;

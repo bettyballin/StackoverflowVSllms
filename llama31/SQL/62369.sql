@@ -1,1 +1,0 @@
-SELECT * FROM t1 WHERE (t1.foo_desc LIKE '%foo%' OR t2.bar_desc LIKE '%foo%') AND (t1.foo_desc LIKE '%bar%' OR t2.bar_desc LIKE '%bar%')

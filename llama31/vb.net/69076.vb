@@ -1,1 +1,0 @@
-Dim Parts As SubSonic.PartCollection\n...\nParts.ForEach(AddressOf TestMethod)

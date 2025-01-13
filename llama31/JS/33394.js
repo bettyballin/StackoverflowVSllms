@@ -1,1 +1,0 @@
-// Insecure example\nconst html = '';\ndata.forEach((item) => {\n  html += '<div><img src="' + item.url + '" />' + item.name + '</div>';\n});\ncontainer.innerHTML = html;

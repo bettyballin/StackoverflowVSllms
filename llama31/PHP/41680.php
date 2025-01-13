@@ -1,1 +1,0 @@
-interface OtherClassInterface\n{\n    public function someMethod();\n}\n\nclass OtherClass implements OtherClassInterface\n{\n    public function someMethod()\n    {\n        # implementation\n    }\n}

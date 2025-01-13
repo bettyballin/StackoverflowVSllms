@@ -1,1 +1,0 @@
-// Generate a beep sound programmatically\nfunction playBeep() {\n  var context = new AudioContext();\n  var osc = context.createOscillator();\n  osc.type = 'sine';\n  osc.frequency.value = 1000; // adjust frequency to change pitch\n  osc.connect(context.destination);\n  osc.start();\n  setTimeout(function() {\n    osc.stop();\n  }, 500); // adjust duration\n}

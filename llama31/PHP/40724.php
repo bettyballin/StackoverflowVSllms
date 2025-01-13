@@ -1,1 +1,0 @@
-$hash = sha1("some input");\necho $hash; // output will likely contain both numeric and alphabetic characters

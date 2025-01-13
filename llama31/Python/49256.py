@@ -1,1 +1,0 @@
-try:\n    from string import Template\nexcept ImportError:\n    from our.compat.string import Template

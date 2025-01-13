@@ -1,1 +1,0 @@
-addElement('textarea', 'contact_address', 'Address:', <?= json_encode(isset($_SESSION['contact_address']) ? $_SESSION['contact_address'] : "") ?>);

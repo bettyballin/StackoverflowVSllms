@@ -1,1 +1,0 @@
-SELECT CONVERT('123', INT) = 123;  // explicit type conversion\nSELECT '123' = CONVERT(123, CHAR);  // explicit type conversio

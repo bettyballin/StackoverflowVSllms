@@ -1,1 +1,0 @@
-DECLARE @dbname sysname = 'northwind';\nDECLARE @filename nvarchar(255) = @dbname + '_' + CONVERT(nvarchar(10), GETDATE(), 110) + '.bak';\nBACKUP DATABASE @dbname TO DISK = @filename;

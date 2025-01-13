@@ -1,1 +1,0 @@
-<system.webServer>\n  <httpErrors existingResponse="Replace">\n    <remove statusCode="404" />\n    <error statusCode="404" path="/404.aspx" responseMode="ExecuteURL" />\n  </httpErrors>\n</system.webServer>

@@ -1,1 +1,0 @@
-For Each Key As String In Request.QueryString.Keys\n    Dim value As String = Request.QueryString(Key)\n    If Not String.IsNullOrEmpty(value) Then\n        Command.Parameters.AddWithValue("@" & Key, value)\n    Else\n        Command.Parameters.AddWithValue("@" & Key, DBNull.Value)\n    End If\nNext

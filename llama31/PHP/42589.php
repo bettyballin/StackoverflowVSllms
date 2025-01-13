@@ -1,1 +1,0 @@
-$url = 'https://stackoverflow.com/questions/ask';\n$html = file_get_contents($url);

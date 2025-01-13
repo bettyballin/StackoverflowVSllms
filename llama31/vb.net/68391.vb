@@ -1,1 +1,0 @@
-Dim guid As String = "F6D8C47B-46E6-4E93-A393-00085ACA2242"\nDim guidWithoutHyphens As String = guid.Replace("-", "")\nMsgBox(guidWithoutHyphens)

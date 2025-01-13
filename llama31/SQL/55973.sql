@@ -1,1 +1,0 @@
-SELECT DISTINCT \n    CAST(ResponseFormParent.Column1 AS VARCHAR(50)), \n    CAST(ResponseFormParent.Column2 AS VARCHAR(255))\nFROM \n    ResponseFormParent \nINNER JOIN \n    ResponseForm \n      ON ResponseFormParent.ResponseFormParentId = ResponseForm.ResponseFormParentId \nWHERE \n    ResponseForm.RegistrationDeadline >= '5/1/2009'

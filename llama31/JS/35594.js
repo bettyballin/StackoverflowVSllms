@@ -1,1 +1,0 @@
-const observer = new IntersectionObserver((entries) => {\n  if (entries[0].isIntersecting) {\n    // Load next 10 elements\n  }\n}, {\n  rootMargin: '0px',\n  threshold: 1.0\n});\n\nobserver.observe(document.querySelector('.last-element'));

@@ -1,1 +1,0 @@
-import pefile\n\n# Load the client.dll\npe = pefile.PE('client.dll')\n\n# Iterate over the exported functions\nfor func in pe.DIRECTORY_ENTRY_EXPORT.symbols:\n    print(f"Function: {func.name}")\n    # Analyze the function code here

@@ -1,1 +1,0 @@
-Dim LookupValueGroups = From d In MyDataTable _\n                         Group By Key = d(LookupValue).ToString() _\n                         Into Group _\n\nDim duplicateKeys = LookupValueGroups.Where(Function(g) g.Group.Select(Function(x) x(SortOrder).ToString()).Distinct().Count() > 1)\n\nFor Each Entry In duplicateKeys\n    'Multiple Sort Orders!!'\nNext

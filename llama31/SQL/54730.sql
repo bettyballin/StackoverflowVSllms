@@ -1,1 +1,0 @@
-SELECT \n    DB_NAME(database_id) AS DatabaseName,\n    file_id,\n    file_name,\n    size_on_disk_bytes / 1024 / 1024 AS SizeInMB,\n    CAST(fileproperty(name, 'SpaceUsed') AS int) / 1024 / 1024 AS SpaceUsedInMB\nFROM \n    sys.master_files\nWHERE \n    database_id = DB_ID('YourDatabaseName')\nORDER BY \n    SizeInMB DESC;

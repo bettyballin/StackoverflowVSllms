@@ -1,1 +1,0 @@
-SELECT \n  SUM(CASE WHEN enabled = 1 THEN 1 ELSE 0 END) AS enabled_count,\n  COUNT(*) AS total_count\nFROM widget;

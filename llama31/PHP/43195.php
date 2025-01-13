@@ -1,1 +1,0 @@
-$htmlset = mysql_query($sql2);\n$row2 = mysql_fetch_array($htmlset);\n\n// Escape the HTML content\n$articleDesc = htmlspecialchars($row2["ARTICLE_DESC"]);\n\n// Output the script\necho '<script>\nfunction makewindows(){\n  child1 = window.open ("about:blank");\n  child1.document.write(\'' . $articleDesc . '\');\n  child1.document.close(); \n}\n</script>';

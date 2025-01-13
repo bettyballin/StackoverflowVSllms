@@ -1,1 +1,0 @@
-$datetime = new DateTime($row['datetime_column']);\n$datetime->setTimezone(new DateTimeZone('America/New_York'));\necho $datetime->format('Y-m-d H:i:s');

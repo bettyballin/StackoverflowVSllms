@@ -1,1 +1,0 @@
-TRUNCATE TABLE tag_counts;\nINSERT INTO tag_counts (tag_name, tag_count)\nSELECT tag_name, COUNT(tag_id) AS 'tag_count'\nFROM tags\nLEFT OUTER JOIN videotags ON tags.id = videotags.tag_id\nGROUP BY tags.id;

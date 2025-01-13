@@ -1,1 +1,0 @@
-CREATE TABLE LogEntries_Archive (\n    LogEntryID INT,\n    LogDate DATE,\n    -- other columns\n);

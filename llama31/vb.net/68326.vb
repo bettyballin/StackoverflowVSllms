@@ -1,1 +1,0 @@
-If dTable.Rows.Count > 0 Then\n    gvUnitSystem.DataSource = dTable\n    gvUnitSystem.DataBind()\nElse\n    ' Handle the case where no data is returned\n    ' For example, display a message to the user\n    gvUnitSystem.EmptyDataText = "No data found."\nEnd If

@@ -1,1 +1,0 @@
-CREATE TABLE persons (\n  id INTEGER PRIMARY KEY,\n  first_name VARCHAR2(30),\n  last_name VARCHAR2(30)\n);

@@ -1,1 +1,0 @@
-// Assuming you have a file URL generated on the server-side\nvar fileUrl = "/path/to/your/generated/file.pdf";\n\n// Use the HTML5 'download' attribute to force the browser to download the file\nvar a = document.createElement("a");\na.href = fileUrl;\na.download = "your_file_name.pdf";\na.click();

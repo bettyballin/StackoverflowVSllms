@@ -1,1 +1,0 @@
-SELECT u.username\nFROM users u\nJOIN submissions s ON u.userId = s.userId\nGROUP BY u.userId, u.username\nHAVING COUNT(s.submissionGuid) > 10;

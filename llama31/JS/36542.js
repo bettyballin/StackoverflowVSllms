@@ -1,1 +1,0 @@
-$("#yourForm").ajaxForm({\n    beforeSubmit: function() {\n        $("#loadingModal").show();\n    },\n    // your other options here\n});

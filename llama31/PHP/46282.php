@@ -1,1 +1,0 @@
-$string = '...your string...';\n$regex = '/(.*?)\s+(\d{4})/i';\npreg_match_all($regex, $string, $matches, PREG_SET_ORDER);\n\nprint_r($matches);

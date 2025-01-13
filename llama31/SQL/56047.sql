@@ -1,1 +1,0 @@
-SELECT \n    DateDiff("d", DateValue(Format([ColA], "0000-00-00")), DateValue(Format([ColB], "0000-00-00"))) AS DateDifference\nFROM \n    YourTable;

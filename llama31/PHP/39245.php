@@ -1,1 +1,0 @@
-public function indexAction()\n{\n    $form = new MyForm();\n    $this->view->form = $form;\n}

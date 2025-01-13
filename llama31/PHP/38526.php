@@ -1,1 +1,0 @@
-// Define a constant for the application root\ndefine('APP_ROOT', dirname(__FILE__));\n\n// Define a constant for the controller directory\ndefine('CONTROLLER_DIR', APP_ROOT . '/controller/');\n\n// Set the include path to the application root\nset_include_path(APP_ROOT . PATH_SEPARATOR . get_include_path());\n\n// Usage\nrequire_once CONTROLLER_DIR . 'somecontroller.php';

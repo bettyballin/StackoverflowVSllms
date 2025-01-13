@@ -1,1 +1,0 @@
-$.validator.addMethod("watermark", function(value, element) {\n  var watermarkText = "enter text here..."; // your watermark text\n  return value !== watermarkText;\n}, "Please enter a value.");\n\n$("form").validate({\n  rules: {\n    yourInputField: {\n      watermark: true\n    }\n  }\n});

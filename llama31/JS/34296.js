@@ -1,1 +1,0 @@
-let timeoutId;\n\nfunction startScrolling() {\n    // If we're close to an edge start scrolling in that direction\n    // Else stopScrolling = true;\n\n    if (!stopScrolling) {\n        timeoutId = setTimeout(startScrolling, 1000);\n    } else {\n        clearTimeout(timeoutId);\n    }\n}

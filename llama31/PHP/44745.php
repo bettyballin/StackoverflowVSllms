@@ -1,1 +1,0 @@
-if ($rex!="" && !preg_match($rex, $file, $matches, PREG_FLAG_CASELESS)) continue;

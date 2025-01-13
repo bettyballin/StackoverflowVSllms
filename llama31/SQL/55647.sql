@@ -1,1 +1,0 @@
-ALTER TABLE mytable ALTER COLUMN mycolumn SET NOT NULL;

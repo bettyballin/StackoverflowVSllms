@@ -1,1 +1,0 @@
-<script language="JavaScript1.2" src="aj.js" onload="init()"></script>\n\nfunction init() {\n  // Call the a() function here\n  a();\n}

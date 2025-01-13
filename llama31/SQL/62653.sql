@@ -1,1 +1,0 @@
-REPLACE(Fieldname, '[\r\n]+', ' ') AS new_Fieldname

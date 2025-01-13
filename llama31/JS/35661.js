@@ -1,1 +1,0 @@
-$(document).ready(function() {\n    $("#myForm").validate({\n        rules: {\n            name: "required",\n            email: {\n                required: true,\n                email: true\n            }\n        },\n        messages: {\n            name: "Please enter your name",\n            email: "Please enter a valid email address"\n        }\n    });\n});

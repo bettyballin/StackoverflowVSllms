@@ -1,1 +1,0 @@
-CREATE TABLE test (id INT, datetime DATETIME);\n\nINSERT INTO test (id) VALUES (1), (2), (3);\n\nUPDATE test SET datetime = NOW();\n\nSELECT * FROM test;

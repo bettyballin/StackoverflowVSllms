@@ -1,1 +1,0 @@
-CREATE TABLE update_queue (\n  num INT,\n  PRIMARY KEY (num)\n);

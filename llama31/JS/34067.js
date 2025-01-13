@@ -1,1 +1,0 @@
-console.log(new Date().getTime()); // outputs a timestamp, e.g. 1643723400000

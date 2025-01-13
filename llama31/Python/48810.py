@@ -1,1 +1,0 @@
-from flask import Flask, jsonify\n\napp = Flask(__name__)\n\n@app.route('/users', methods=['GET'])\ndef get_users():\n    users = [{'id': 1, 'name': 'John'}, {'id': 2, 'name': 'Jane'}]\n    return jsonify(users)

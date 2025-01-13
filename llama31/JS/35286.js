@@ -1,1 +1,0 @@
-const express = require('express');\nconst app = express();\n\napp.post('/sms', (req, res) => {\n  const smsMessage = req.body.message;\n  // Save the SMS message to your database\n  db.saveSmsMessage(smsMessage);\n  res.status(200).send('SMS received');\n});

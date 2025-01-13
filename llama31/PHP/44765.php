@@ -1,1 +1,0 @@
-/* @var Bur $bur */\n$bur = new Bur();

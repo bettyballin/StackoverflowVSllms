@@ -1,1 +1,0 @@
-$pw = 'my_password';\n$hashed_pw = password_hash($pw, PASSWORD_DEFAULT);

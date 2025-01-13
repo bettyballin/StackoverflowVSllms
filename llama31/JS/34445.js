@@ -1,1 +1,0 @@
-function searchCallback(html) {\n  var $div = $("#divSearchResults");\n  $div.css("height", $div.height() + "px"); // set initial height\n  $div.html(html);\n  var newHeight = $div.prop("scrollHeight");\n  $div.animate({ height: newHeight }, 500); // animate to new height\n}

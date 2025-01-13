@@ -1,1 +1,0 @@
-ALTER TABLE businesses ADD COLUMN location POINT;\nCREATE SPATIAL INDEX idx_location ON businesses (location);

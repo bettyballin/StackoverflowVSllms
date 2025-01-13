@@ -1,1 +1,0 @@
-SELECT r.RoleName, ro.DisplayOrder\nFROM aspnet_roles r\nINNER JOIN aspnet_role_ordering ro ON r.RoleId = ro.RoleId\nORDER BY ro.DisplayOrder;

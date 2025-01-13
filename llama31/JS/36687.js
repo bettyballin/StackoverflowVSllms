@@ -1,1 +1,0 @@
-// Client-side code\nwindow.onbeforeunload = function(e) {\n    // Check the flag\n    var isRedirecting = '<%= Session["IsRedirecting"] %>';\n    if (isRedirecting === 'True') {\n        // Don't prompt the user\n        return null;\n    } else {\n        // Prompt the user\n        return 'Are you sure you want to leave this page?';\n    }\n};

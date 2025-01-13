@@ -1,1 +1,0 @@
-DECLARE @sql nvarchar(max) = N'\n    USE dbase;\n    CREATE TRIGGER [blah] ON [table_name] FOR [event_type] AS BEGIN [trigger_code] END;\n';\n\nEXEC sp_executesql @sql;

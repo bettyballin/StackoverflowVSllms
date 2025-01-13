@@ -1,1 +1,0 @@
-INSERT INTO YourTable (ID, ContactName, Designation)\nSELECT @ID, @ContactName1, @Designation1\nUNION ALL\nSELECT @ID, @ContactName2, @Designation2;

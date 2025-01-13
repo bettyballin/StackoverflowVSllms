@@ -1,1 +1,0 @@
-print_with_dots("Number of cards", 500, 40);

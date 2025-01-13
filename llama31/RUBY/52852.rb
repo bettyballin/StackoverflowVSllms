@@ -1,1 +1,0 @@
-require 'loofah'\n\ndef sanitize_html(input)\n  Loofah.sanitize(input, :remove_script_and_style => true)\nend

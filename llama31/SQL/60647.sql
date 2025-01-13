@@ -1,1 +1,0 @@
-SELECT *\nFROM (\n  SELECT *,\n    ROW_NUMBER() OVER (PARTITION BY name ORDER BY b DESC) AS row_num\n  FROM temp\n) AS subquery\nWHERE row_num = 1;

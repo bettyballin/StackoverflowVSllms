@@ -1,1 +1,0 @@
-from django.contrib.gis.db import models\n\nclass Location(models.Model):\n    name = models.CharField(max_length=100)\n    point = models.PointField(srid=4326)  # 4326 for WGS84\n\n    def __str__(self):\n        return self.name

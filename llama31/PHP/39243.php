@@ -1,1 +1,0 @@
-libxml_use_internal_errors(true);\n$xml = simplexml_load_file($xml_file);\n$errors = libxml_get_errors();\nif (!empty($errors)) {\n    foreach ($errors as $error) {\n        echo "XML error: " . $error->message;\n    }\n}

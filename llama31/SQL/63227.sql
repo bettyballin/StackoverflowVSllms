@@ -1,1 +1,0 @@
-CREATE OR REPLACE FORM your_form (\n  stay_field VARCHAR2(6) := 'Short';\n  ...\n  LOV stay_lov (\n    'Short',\n    'Medium',\n    'Long'\n  );\n  ...\n);

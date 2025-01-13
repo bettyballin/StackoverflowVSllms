@@ -1,1 +1,0 @@
-Dim firstVar As String = "Hello"\nDim secondVar As Integer = 123\n\nDim thirdVar As String = firstVar & secondVar.ToString()

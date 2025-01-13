@@ -1,1 +1,0 @@
-SELECT \n  DATEDIFF(DAY, RunOutDate, ResupplyDate) + 1 AS DaysUnavailable\nFROM \n  YourTable;

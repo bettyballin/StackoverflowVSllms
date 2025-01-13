@@ -1,1 +1,0 @@
--- Backup database\nSELECT * FROM mydatabase INTO OUTFILE '/path/to/backupfile.sql';

@@ -1,1 +1,0 @@
-var elements = $.map([1, 2, 3, 4, 5], function(item) {\n    return $('<span>').text('Item ' + item);\n});\n\n$('#container').append(elements);

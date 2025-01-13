@@ -1,1 +1,0 @@
-$(document).ready(function() {\n  // Load content...\n  $( "#loading" ).hide();\n});

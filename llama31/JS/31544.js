@@ -1,1 +1,0 @@
-// Original code\nfunction add(a, b) {\n  return a + b;\n}\n\n// Minified and obfuscated code\nfunction a(a,b){return a+b;}

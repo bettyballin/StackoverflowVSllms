@@ -1,1 +1,0 @@
-function removeSWF() {\n    // Get the SWF object\n    var swfObject = document.getElementById("your-swf-object-id");\n    \n    // Remove the SWF object\n    swfObject.parentNode.removeChild(swfObject);\n}

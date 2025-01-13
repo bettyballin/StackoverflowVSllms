@@ -1,1 +1,0 @@
-<select>\n    <?php foreach($var as $row): ?>\n        <option value="<?php echo $row->value;?>" <?php if ($row->value == $customDefaultValue) echo 'selected="selected"'; ?>><?php echo $row->value;?></option>\n    <?php endforeach;?>\n</select>

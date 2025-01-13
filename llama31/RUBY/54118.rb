@@ -1,1 +1,0 @@
-eval("puts #{params[:name]}")

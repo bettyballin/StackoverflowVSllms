@@ -1,1 +1,0 @@
-ALTER TABLE table-name ADD COLUMN column-name MEMO HYPERLINK

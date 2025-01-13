@@ -1,1 +1,0 @@
-$hash = hash('sha1', $data); // assume $data is the byte array

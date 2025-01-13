@@ -1,1 +1,0 @@
-SELECT COUNT(Value) AS AttachmentCount\nFROM YourTable\nWHERE YourAttachmentField IS NOT NULL

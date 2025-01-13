@@ -1,1 +1,0 @@
-CREATE FUNCTION dbo.RegexMatch (@input nvarchar(max), @pattern nvarchar(max))\nRETURNS bit\nAS\nBEGIN\n    DECLARE @regex nvarchar(max) = N'^' + @pattern + N'$';\n    DECLARE @match bit = 0;\n    IF @input LIKE @regex ESCAPE N'\' \n        SET @match = 1;\n    RETURN @match;\nEND;\nGO

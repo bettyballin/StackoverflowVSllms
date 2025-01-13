@@ -1,1 +1,0 @@
-WITH RECURSIVE series AS (\n  SELECT 2 AS num\n  UNION ALL\n  SELECT num + 1\n  FROM series\n  WHERE num < 4\n)\nSELECT num\nFROM series;

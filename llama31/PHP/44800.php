@@ -1,1 +1,0 @@
-$PageContent = preg_replace($result->module_pregmatch, '', $PageContent, -1, $count, PREG_NO_ERROR);

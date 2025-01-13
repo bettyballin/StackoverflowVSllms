@@ -1,1 +1,0 @@
-var obj = new ActiveXObject("StdLib.DLL");\n\nif (obj) {\n    var method = obj.GetType().GetMethod("ReadFileE");\n    if (method) {\n        // Method exists\n    } else {\n        // Method does not exist\n    }\n} else {\n    // Object creation failed\n}

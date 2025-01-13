@@ -1,1 +1,0 @@
-SELECT id, day\nFROM test\nWHERE day IN (\n  SELECT day\n  FROM test\n  GROUP BY day\n  HAVING COUNT(*) > 1\n)

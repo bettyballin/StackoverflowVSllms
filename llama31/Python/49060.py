@@ -1,1 +1,0 @@
-with open('words.txt', 'r') as f:\n    english_words = set(word.strip().lower() for word in f)\n\ndef is_english_word(word):\n    return word.lower() in english_words\n\n# Example usage:\nprint(is_english_word('hello'))  # Returns: True or False

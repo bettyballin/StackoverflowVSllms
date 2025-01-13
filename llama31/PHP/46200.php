@@ -1,1 +1,0 @@
-class Page {\n    private $_properties;\n\n    public function __construct() {\n        $this->_properties = array();\n    }\n\n    // ...\n}

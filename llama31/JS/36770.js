@@ -1,1 +1,0 @@
-var isClosing = false;\n\nwindow.onbeforeunload = function(event) {\n  isClosing = true;\n};\n\nwindow.onunload = function() {\n  if (isClosing) {\n    // Run your code here\n  }\n};

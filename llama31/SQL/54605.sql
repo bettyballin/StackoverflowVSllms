@@ -1,1 +1,0 @@
-INSERT INTO your_table (column_name) VALUES ('string_value')\nON DUPLICATE KEY UPDATE column_name = column_name;

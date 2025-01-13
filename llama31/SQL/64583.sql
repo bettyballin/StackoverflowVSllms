@@ -1,1 +1,0 @@
-update work\nset kilometers = calc_kilo,\n    kilo_test = test_kilo\nwhere lc = rm.lc\nAND ld = rm.ld\nAND (le IS NULL AND rm.le IS NULL OR le = rm.le)\nAND (lf IS NULL AND rm.lf IS NULL OR lf = rm.lf)\nAND code = rm.code\nAND lcode = rm.lcode\nand user_id = username;

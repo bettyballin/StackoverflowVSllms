@@ -1,1 +1,0 @@
-CREATE TABLE labels (\n  field_name VARCHAR(255) PRIMARY KEY,\n  label TEXT NOT NULL\n);\n\nINSERT INTO labels (field_name, label) VALUES\n  ('height', 'Height (cm)'),\n  ('age', 'Age in years'),\n  ('bloodAlcPct', 'Blood Alcohol %'),\n  ('monthsIncarcerated', 'Months in jail');

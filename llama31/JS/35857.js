@@ -1,1 +1,0 @@
-// JavaScript/AJAX code\n$.ajax({\n  url: '/api/data',\n  type: 'GET',\n  success: function(data) {\n    // Update the dynamic content container\n    $('#dynamic-content').html(data);\n  }\n});

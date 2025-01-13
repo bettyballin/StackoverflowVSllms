@@ -1,1 +1,0 @@
-if (document.querySelector('script[type="text/javascript"]')) {\n  console.log('This webpage uses JavaScript!');\n} else {\n  console.log('This webpage does not use JavaScript.');\n}

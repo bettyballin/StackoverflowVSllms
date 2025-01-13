@@ -1,1 +1,0 @@
-date_default_timezone_set('UTC');\n$Date = new DateTime();\n$datetime = $Date->format('Y-m-d H:i:s'); // format for MySQL datetime colum

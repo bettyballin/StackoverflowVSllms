@@ -1,1 +1,0 @@
-SELECT \n  (SELECT MAX(date) FROM table WHERE date < @date) AS prev_date,\n  (SELECT MIN(date) FROM table WHERE date > @date) AS next_date\nFROM table\nWHERE date = @date;

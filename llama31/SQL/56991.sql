@@ -1,1 +1,0 @@
-SELECT TOP 20 * \nFROM movie \nORDER BY worldwide_gross DESC;

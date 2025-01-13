@@ -1,1 +1,0 @@
-SELECT [t0].[firstName], [t0].[age]\nFROM [Person] AS [t0]\nWHERE [t0].[age] < 18 AND [t0].[firstName] = 'Daniel'

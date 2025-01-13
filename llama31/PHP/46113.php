@@ -1,1 +1,0 @@
-header("Pragma: public");\nheader("Expires: -1");\nheader("Cache-Control: private, max-age=31536000");\nheader("Content-Type: application/pdf");\nheader("Content-Disposition: attachment; filename=file.pdf");\nheader("Content-Length: 7735");\n\n// echo the PDF file

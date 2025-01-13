@@ -1,1 +1,0 @@
-$url = 'http://example.com/other-page.php';\nfile_get_contents($url);

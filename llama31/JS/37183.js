@@ -1,1 +1,0 @@
-var divToLoad = '#aSpecificDivinThatPage'; // Ensure this variable does not come from untrusted sources\nvar url = 'somefile.html ' + divToLoad;\n\n$('#somediv').load(url);

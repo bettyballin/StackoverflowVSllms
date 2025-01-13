@@ -1,1 +1,0 @@
-$(document).ready(function() {\n    $('#topleft').hide(); // Hide the #topleft div initially\n\n    $('#nav .taba').click(function() {\n        $('#topleft').show(); // Show the #topleft div when #nav .taba is clicked\n    });\n\n    $('#nav .tabb').click(function() {\n        $('#topleft').hide(); // Hide the #topleft div when #nav .tabb is clicked\n    });\n});

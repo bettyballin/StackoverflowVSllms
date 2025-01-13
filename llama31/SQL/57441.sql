@@ -1,1 +1,0 @@
-SELECT \n  upc.*,\n  p.*,\n  s.*\nFROM \n  user_product_certification upc\n  JOIN products p ON upc.product_id = p.id\n  JOIN seats s ON upc.seat_id = s.id\nWHERE \n  upc.user_id = ? AND\n  upc.product_id = ? AND\n  upc.seat_id = ?;

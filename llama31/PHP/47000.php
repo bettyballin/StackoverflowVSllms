@@ -1,1 +1,0 @@
-try {\n    $albumId = createAlbum();\n} catch (PDOException $e) {\n    if ($e->getCode() === 1062) { // duplicate entry\n        $albumId = selectAlbum();\n    } else {\n        // handle error\n    }\n}\ninsertPhoto($albumId);

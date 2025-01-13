@@ -1,1 +1,0 @@
-$stmt = $dbAdapter->prepare('SELECT * FROM your_table');\n$stmt->setFetchMode(Zend_Db::FETCH_ASSOC | Zend_Db::FETCH_NUM);\n$stmt->execute();

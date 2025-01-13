@@ -1,1 +1,0 @@
-Dim firstVar As String = "Hello"\nDim secondVar As String = "World"\n\nDim thirdVar As String = firstVar & secondVar

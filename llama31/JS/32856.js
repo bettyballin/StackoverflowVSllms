@@ -1,1 +1,0 @@
-var formData = $('#xForm' + num).serializeArray();\nvar data = {};\n$.each(formData, function(index, field) {\n  if (field.name === 'XID' || field.name === 'xNumber' || field.name === 'xAmt') {\n    data[field.name] = field.value;\n  }\n});\n$.ajax({\n  url: "X.asp",\n  cache: false,\n  type: "POST",\n  data: data\n});

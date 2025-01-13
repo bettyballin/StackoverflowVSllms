@@ -1,1 +1,0 @@
-$ffi = FFI::cdef("\n    int add(int a, int b);\n", "mydll.dll");\n\necho $ffi->add(1, 2);

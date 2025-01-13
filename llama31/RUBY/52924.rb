@@ -1,1 +1,0 @@
-if val.blank?\n  # Is nil or zero\nend

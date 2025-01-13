@@ -1,1 +1,0 @@
-$form->addElement('text', 'email', array(\n    'label'      => 'E-mail',\n    'decorators' => array(\n        'ViewHelper',\n        'Errors',\n        array('WrapLabel', array('class' => 'My_Form_Decorator_WrapLabel')),\n    ),\n));

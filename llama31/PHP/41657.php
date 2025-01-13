@@ -1,1 +1,0 @@
-header('Expires: 0');\nheader('Cache-Control: no-cache, no-store, must-revalidate');\nheader('Pragma: no-cache');

@@ -1,1 +1,0 @@
-IF CAST(SERVERPROPERTY('ProductVersion') AS INT) = 8\nBEGIN\n    -- Code for SQL 2000\nEND\nELSE IF CAST(SERVERPROPERTY('ProductVersion') AS INT) = 9\nBEGIN\n    -- Code for SQL 2005\nEND

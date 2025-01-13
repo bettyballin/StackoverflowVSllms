@@ -1,1 +1,0 @@
-Public Interface Foo\n    ReadOnly Property MyMinimallyReadOnlyPropertyThatCanAlsoBeReadWrite As Boolean\nEnd Interface

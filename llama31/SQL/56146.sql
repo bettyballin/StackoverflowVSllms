@@ -1,1 +1,0 @@
-ALTER TABLE content_link ADD INDEX idx_category_id (category_id);

@@ -1,1 +1,0 @@
-SELECT c.max_length, t.max_length\nFROM sys.columns c\nJOIN sys.types t ON c.system_type_id = t.system_type_id\nWHERE c.name = 'your_column_name';

@@ -1,1 +1,0 @@
-' Set Anchor property to resize control with form\nMe.Controls("yourControlName").Anchor = AnchorStyles.Top Or AnchorStyles.Left Or AnchorStyles.Right Or AnchorStyles.Bottom\n\n' Set Dock property to dock control to a specific side\nMe.Controls("yourControlName").Dock = DockStyle.Fill

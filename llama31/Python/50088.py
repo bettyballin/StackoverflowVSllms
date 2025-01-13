@@ -1,1 +1,0 @@
-app.entries_url

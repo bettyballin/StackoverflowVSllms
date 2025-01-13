@@ -1,1 +1,0 @@
-mail($to, $subject, $body, $headers);

@@ -1,1 +1,0 @@
-$fp = stream_socket_client('tcp://example.com:8080', $errno, $errstr, 30);\nif ($fp) {\n    stream_set_option($fp, SOL_SOCKET, SO_KEEPALIVE, 1);\n    // ...\n}

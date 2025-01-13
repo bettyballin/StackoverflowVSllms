@@ -1,1 +1,0 @@
-SELECT s.id, f.pn, f.s\nFROM Stuff s\nCROSS APPLY dbo.Split(',', s.myColumn) f\nWHERE ISNULL(f.s, '') <> ''

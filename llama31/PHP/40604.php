@@ -1,1 +1,0 @@
-$stmt = $mysqli->prepare("INSERT INTO mytable (date_column, time_column) VALUES (FROM_UNIXTIME(?), FROM_UNIXTIME(?))");\n$stmt->bind_param("ii", $timestamp, $timestamp);\n\n$timestamp = time();\n$stmt->execute();

@@ -1,1 +1,0 @@
-import xml.etree.ElementTree as ET\n\ntree1 = ET.parse('file1.xml')\ntree2 = ET.parse('file2.xml')\n\n# Compare the trees using a custom function or library

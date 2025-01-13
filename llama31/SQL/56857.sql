@@ -1,1 +1,0 @@
--- Enable remote connections\nEXEC sp_configure 'remote access', 1;\nRECONFIGURE;

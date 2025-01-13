@@ -1,1 +1,0 @@
-MyModel.objects.filter_by_myproperty(value)

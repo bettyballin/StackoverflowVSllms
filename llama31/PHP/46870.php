@@ -1,1 +1,0 @@
-$con->exec('LOCK TABLE foo WRITE');

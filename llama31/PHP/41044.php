@@ -1,1 +1,0 @@
-<base href="<?=SITE_ROOT?>/">

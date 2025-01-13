@@ -1,1 +1,0 @@
-(SELECT * FROM news_articles WHERE has_image = 1 ORDER BY created_at DESC LIMIT 1)\nUNION ALL\n(SELECT * FROM news_articles ORDER BY created_at DESC)

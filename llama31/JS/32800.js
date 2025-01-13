@@ -1,1 +1,0 @@
-$("[id^='numbers']").autocomplete({\n  // your autocomplete options here\n  source: ["option1", "option2", "option3"]\n});

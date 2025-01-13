@@ -1,1 +1,0 @@
-document.addEventListener('DOMContentLoaded', function() {\n  const listItems = document.querySelectorAll('#thumbsPhotos li');\n\n  listItems.forEach((item) => {\n    const src = item.getAttribute('src');\n    item.removeAttribute('src');\n    item.setAttribute('title', src);\n  });\n});

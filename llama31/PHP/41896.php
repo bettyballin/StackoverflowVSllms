@@ -1,1 +1,0 @@
-foreach ($items as $item) {\n    echo "<form action='item.php' method='POST'>";\n    echo "<input type='hidden' name='id' value='" . $item['id'] . "'>";\n    echo "<input type='hidden' name='action' value='delete'>";\n    echo "<button type='submit'>Delete Item</button>";\n    echo "</form>";\n}

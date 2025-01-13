@@ -1,1 +1,0 @@
-UPDATE table_name\nSET date_field = PARSE('2022-07-25 14:30:00' AS datetime)\nWHERE condition;

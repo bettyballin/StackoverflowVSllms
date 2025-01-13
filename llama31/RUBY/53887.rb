@@ -1,1 +1,0 @@
-class Hello\n  def initialize\n    @hello = "hello"\n  end\n\n  def display\n    puts @hello\n  end\nend\n\nh = Hello.new\nh.display  # prints "hello"

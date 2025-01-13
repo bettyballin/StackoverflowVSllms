@@ -1,1 +1,0 @@
-use Goutte\Client;\n\n$client = new Client();\n$xml = $client->request('GET', $xml_url);

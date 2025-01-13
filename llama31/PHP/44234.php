@@ -1,1 +1,0 @@
-$tagEngine = new TagEngine($db);\n$html = $tagEngine->htmlItemTags();\necho $html;

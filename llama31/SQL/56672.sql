@@ -1,1 +1,0 @@
-SELECT \n  Col1 = (SELECT TOP 1 Col1 FROM YourTable ORDER BY NEWID()),\n  Col2 = (SELECT TOP 1 Col2 FROM YourTable ORDER BY NEWID()),\n  Col3 = (SELECT TOP 1 Col3 FROM YourTable ORDER BY NEWID()),\n  Col4 = (SELECT TOP 1 Col4 FROM YourTable ORDER BY NEWID()),\n  Col5 = (SELECT TOP 1 Col5 FROM YourTable ORDER BY NEWID())\nFROM YourTable

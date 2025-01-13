@@ -1,1 +1,0 @@
-define('ROOT_DIR', dirname(__FILE__));\n$file_path = ROOT_DIR . DIRECTORY_SEPARATOR . 'path' . DIRECTORY_SEPARATOR . 'to' . DIRECTORY_SEPARATOR . 'file.txt';

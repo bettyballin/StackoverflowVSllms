@@ -1,1 +1,0 @@
-<?php\n// ...\n\n// Log the exit status of the script\nerror_log('Script exited with status ' . exit_status());\n\nexit();

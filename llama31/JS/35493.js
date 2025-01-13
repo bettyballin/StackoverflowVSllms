@@ -1,1 +1,0 @@
-function filterChars(sender, args) {\n    var text = args.get_text();\n    return text.replace(/[,/]/g, '');\n}

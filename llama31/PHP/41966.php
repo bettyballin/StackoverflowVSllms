@@ -1,1 +1,0 @@
-// Insert data into MySQL table...\n// Create/update variables during the insert process...\n$variable1 = 'value1';\n$variable2 = 'value2';\n\n// Encode variables as JSON\n$json_data = json_encode(array('variable1' => $variable1, 'variable2' => $variable2));\n\n// Print the JSON data\necho $json_data;

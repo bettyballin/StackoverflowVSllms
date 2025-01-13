@@ -1,1 +1,0 @@
-SELECT userid FROM your_table WHERE roleid = 1\nINTERSECT\nSELECT userid FROM your_table WHERE roleid = 2\nINTERSECT\nSELECT userid FROM your_table WHERE roleid = 3;

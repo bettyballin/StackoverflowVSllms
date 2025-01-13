@@ -1,1 +1,0 @@
-$sql = "INSERT INTO dacc_data (id, top_level_category, sub_level_category, agent_name, date, ticket_id, company)\nVALUES (NULL, '$top_level_category', '$sub_level_category', '$agent_name', NOW(), '$ticket_id', '$company')";

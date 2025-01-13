@@ -1,1 +1,0 @@
-class Adder {\n    private $value;\n\n    public function __construct($value) {\n        $this->value = $value;\n    }\n\n    public function __invoke($x) {\n        return $x + $this->value;\n    }\n}\n\n$addFive = new Adder(5);\n$result = $addFive(10); // $result = 15

@@ -1,1 +1,0 @@
-import requests\n\n# Define the proxy URL\nproxy_url = 'http://your-proxy-server.com:8080'\n\n# Make the request\nresponse = requests.get('http://www.google.com', proxies={\n    'http': proxy_url,\n    'https': proxy_url\n})\n\n# Print the response\nprint(response.content)

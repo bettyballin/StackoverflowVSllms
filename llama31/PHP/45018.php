@@ -1,1 +1,0 @@
-$story = new SimpleXMLElement($content->saveXML($content->getElementById('story')), LIBXML_NOEMPTYTAG);

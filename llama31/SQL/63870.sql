@@ -1,1 +1,0 @@
-SELECT * FROM questions WHERE token = 'page2_token' ORDER BY id LIMIT 10;

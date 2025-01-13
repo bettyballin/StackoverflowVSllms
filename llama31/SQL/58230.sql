@@ -1,1 +1,0 @@
-CREATE TABLE `locations` (\n  `id` int(11) NOT NULL AUTO_INCREMENT,\n  `latitude` decimal(10,8) NOT NULL,\n  `longitude` decimal(11,8) NOT NULL,\n  `name` varchar(255) NOT NULL,\n  PRIMARY KEY (`id`),\n  KEY `lat_lon_idx` (`latitude`,`longitude`)\n) ENGINE=InnoDB;

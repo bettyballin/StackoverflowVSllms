@@ -1,1 +1,0 @@
-SELECT TOP 10 cs-uri-stem, COUNT(*) AS Hits\nFROM [LOGFILE]\nGROUP BY cs-uri-stem\nORDER BY Hits DESC

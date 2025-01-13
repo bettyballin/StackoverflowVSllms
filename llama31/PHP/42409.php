@@ -1,1 +1,0 @@
-// MyClass.php\nnamespace MyNamespace;\n\nclass MyClass {\n    private $db;\n\n    public function __construct() {\n        $this->db = dbConnect();\n    }\n\n    public function performAction() {\n        // perform action using $this->db\n    }\n}

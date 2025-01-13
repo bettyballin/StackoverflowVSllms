@@ -1,1 +1,0 @@
-$obj = new MyClass();\necho $obj; // This will call __toString() method

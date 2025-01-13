@@ -1,1 +1,0 @@
-Response.Cookies("cookie_name").HttpOnly = True\nResponse.Cookies("cookie_name").Value = "cookie_value"

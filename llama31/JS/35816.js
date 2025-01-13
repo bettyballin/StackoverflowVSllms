@@ -1,1 +1,0 @@
-Event.observe(window, 'load', function() {\n  window.location.hash = '#id';\n});

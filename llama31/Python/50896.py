@@ -1,1 +1,0 @@
-import MySQLdb\n\ndb_host = 'localhost'\ndb_user = 'myuser'\ndb_password = 'mypassword'\ndb_name = 'mydb'\n\ntry:\n    conn = MySQLdb.connect(host=db_host, user=db_user, passwd=db_password, db=db_name)\n    print("Database exists and connection is successful!")\n    conn.close()\nexcept MySQLdb.Error as e:\n    print("Database does not exist or connection failed: %s" % e)

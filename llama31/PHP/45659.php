@@ -1,1 +1,0 @@
-$html = $_POST['blog-post'];\n$purifier = new HTMLPurifier();\n$cleanHtml = $purifier->purify($html);

@@ -1,1 +1,0 @@
-SELECT user\nFROM access_log\nWHERE date >= CURRENT_DATE\nAND action = 'login'\nAND success = 1\nAND id = (SELECT MAX(id) \n          FROM access_log \n          WHERE user = access_log.user \n          AND date >= CURRENT_DATE)

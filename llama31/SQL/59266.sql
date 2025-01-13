@@ -1,1 +1,0 @@
-RESTORE DATABASE [WSS_Content] FROM DISK = 'C:\Backup\WSS_Content.bak'\nRESTORE DATABASE [WSS_Config] FROM DISK = 'C:\Backup\WSS_Config.bak'

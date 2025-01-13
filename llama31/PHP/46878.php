@@ -1,1 +1,0 @@
-$filec = fopen('test.txt', 'r');\n$arr = file('test.txt');\nfclose($filec);\n\n$filec = fopen('test.txt', 'w');\nforeach ($arr as $key => $value) {\n    fwrite($filec, $value);\n}\nfclose($filec);

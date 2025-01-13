@@ -1,1 +1,0 @@
-import re\n\nfor line in lines:\n    result = re.search(r'href="([^"]*)"', line)\n    if result:\n        print(result.group(1))

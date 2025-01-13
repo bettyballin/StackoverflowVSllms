@@ -1,1 +1,0 @@
-SELECT 'x' FROM table WHERE addNumber(4,3) = 7;

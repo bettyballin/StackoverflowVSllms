@@ -1,1 +1,0 @@
-jQuery.get(contenturl, function(data) {\n    var parser = new DOMParser();\n    var doc = parser.parseFromString(data, 'text/html');\n    var styleElement = doc.querySelector('style');\n    var css = styleElement ? styleElement.innerHTML : '';\n    alert(css);\n});

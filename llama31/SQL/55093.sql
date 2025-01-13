@@ -1,1 +1,0 @@
-SELECT u.*\nFROM User u\nLEFT JOIN Key k ON u.userid = k.userid\nLEFT JOIN Laptop l ON u.userid = l.userid\nLEFT JOIN TableE e ON u.userid = e.userid\nLEFT JOIN TableF f ON u.userid = f.userid\n...\nWHERE k.userid IS NOT NULL OR l.userid IS NOT NULL OR e.userid IS NOT NULL OR f.userid IS NOT NULL;

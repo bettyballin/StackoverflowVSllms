@@ -1,1 +1,0 @@
-SELECT \n  title, desc, date \nFROM \n  tablename \nORDER BY \n  IF(date IS NULL, title, date) ASC, \n  title ASC;

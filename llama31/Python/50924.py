@@ -1,1 +1,0 @@
-def clean_chatbot_training_data(data):\n    # Remove duplicate examples\n    cleaned_data = remove_duplicates(data)\n    # Remove irrelevant examples\n    cleaned_data = remove_irrelevant_examples(cleaned_data)\n    return cleaned_data

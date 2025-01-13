@@ -1,1 +1,0 @@
-require 'nokogiri'\nrequire 'open-uri'\n\ndoc = Nokogiri::HTML(open('http://www.example.com'))\ntitle = doc.css('title').text

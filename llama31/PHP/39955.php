@@ -1,1 +1,0 @@
-$sql = <<<END\nUPDATE qotwVote1a\nSET Vote1a = '$newVote'\nWHERE QuestionId = '$questionId' AND MemberId = '$id'\nEND;

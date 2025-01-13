@@ -1,1 +1,0 @@
-SELECT \n  Column1 AS Integer,\n  Column2 AS Text,\n  Column3 AS Date\nFROM [qry vaBaseQuery-S2]\nUNION ALL\nSELECT \n  Column1 AS Integer,\n  Column2 AS Text,\n  Column3 AS Date\nFROM [qry BaseQuery];

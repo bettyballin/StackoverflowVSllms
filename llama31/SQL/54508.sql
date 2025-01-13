@@ -1,1 +1,0 @@
-SELECT b.* FROM Boy b\nJOIN (\n  SELECT k.* FROM Kite k\n  WHERE k.length >= 1 AND k.boyId = b.id\n) k ON b.id = k.boyId\nWHERE b.name = 'Huck';

@@ -1,1 +1,0 @@
-CREATE TABLE levels (\n  level INT,\n  min_score INT,\n  max_score INT\n);

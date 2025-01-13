@@ -1,1 +1,0 @@
-import numpy as np\n\ndef psnr(image1, image2, max_pixel_value=255):\n    mse_value = mse(image1, image2)\n    return 10 * np.log10((max_pixel_value ** 2) / mse_value)

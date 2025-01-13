@@ -1,1 +1,0 @@
-import PyPDF2\n\nwith open('example.pdf', 'rb') as f:\n    pdf = PyPDF2.PdfFileReader(f)\n    text = ''\n    for page in range(pdf.getNumPages()):\n        page_obj = pdf.getPage(page)\n        text += page_obj.extractText()\n    print(text)

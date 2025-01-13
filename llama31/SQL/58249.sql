@@ -1,1 +1,0 @@
--- On the primary server\nBACKUP LOG [database_name] TO DISK = 'backup_location'\nGO\n\n-- On the secondary server\nRESTORE LOG [database_name] FROM DISK = 'backup_location' WITH NORECOVERY\nGO

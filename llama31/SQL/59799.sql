@@ -1,1 +1,0 @@
-SELECT c.caseNo, e.eventDate\nFROM Cases c\nJOIN (\n  SELECT caseID, MAX(eventDate) as maxEventDate\n  FROM Events\n  GROUP BY caseID\n) m ON c.id = m.caseID\nJOIN Events e ON m.caseID = e.caseID AND m.maxEventDate = e.eventDate

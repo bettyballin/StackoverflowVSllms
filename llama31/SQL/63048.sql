@@ -1,1 +1,0 @@
-FROM table WHERE truncatedDate = :date

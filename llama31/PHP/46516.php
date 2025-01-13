@@ -1,1 +1,0 @@
-function display_folder_image($folder_location) {\n  // The above PHP code goes here\n}\n\n// In your theme's PHP file\n$folder_location = get_post_meta($post->ID, 'custom_field_name', true);\ndisplay_folder_image($folder_location);

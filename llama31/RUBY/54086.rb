@@ -1,1 +1,0 @@
-def current_template\n  @template.template_path\nend

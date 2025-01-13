@@ -1,1 +1,0 @@
-SELECT *\nFROM LogTable l\nJOIN OtherTable o\nON ABS(DATEDIFF(SECOND, l.datetimefield, o.datetimefield)) <= 3

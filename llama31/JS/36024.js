@@ -1,1 +1,0 @@
-ew Ajax.Request("results/testcaseHistory/" + testcase, {\n    method: 'post',\n    parameters: param,\n    onSuccess: function(transport) {\n        document.body.style.cursor = 'auto';\n        $('content').update(transport.responseText);\n    }\n});

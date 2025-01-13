@@ -1,1 +1,0 @@
-SELECT * FROM myTable WHERE MATCH (field) AGAINST ('$keyword' IN BOOLEAN MODE);

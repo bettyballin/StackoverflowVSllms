@@ -1,1 +1,0 @@
-CREATE TABLE transactions (\n  amount DECIMAL(19,4)\n);

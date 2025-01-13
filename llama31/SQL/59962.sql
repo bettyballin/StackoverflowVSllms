@@ -1,1 +1,0 @@
-SELECT \n    (DATEPART(day, '2008-10-16') - 1) / 7 + 1 AS WeekOfMonth

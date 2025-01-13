@@ -1,1 +1,0 @@
-CREATE CLUSTER 'my_cluster' WITH MEMBER 'node1'@'%' IDENTIFIED BY 'cluster_password';

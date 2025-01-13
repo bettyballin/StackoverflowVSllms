@@ -1,1 +1,0 @@
-gem 'pdf2image'\ngem 'image_processing', '~> 1.2'

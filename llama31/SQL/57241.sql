@@ -1,1 +1,0 @@
-CREATE OR REPLACE FUNCTION get_offer(p_projnum NUMBER) RETURN NUMBER IS\n  v_offer NUMBER;\nBEGIN\n  SELECT offer INTO v_offer FROM projects WHERE projnum = p_projnum;\n  RETURN v_offer;\nEXCEPTION\n  WHEN NO_DATA_FOUND THEN\n    RETURN NULL;\nEND;

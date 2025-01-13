@@ -1,1 +1,0 @@
-SELECT *\nFROM sys.dm_tran_locks\nWHERE request_session_id = @@SPID

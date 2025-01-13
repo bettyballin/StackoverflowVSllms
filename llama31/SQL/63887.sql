@@ -1,1 +1,0 @@
-CREATE TABLE Sales (\n    sold_on DATE,\n    total DECIMAL(10, 2),\n    sold_on_nullIndicator SMALLINT GENERATED ALWAYS AS (CASE WHEN sold_on IS NULL THEN 1 ELSE 0 END)\n);\n\nCREATE INDEX idx_sold_on_nullIndicator ON Sales (sold_on_nullIndicator, total);

@@ -1,1 +1,0 @@
-Public Function DoesFontStyleExist(fontName As String, style As FontStyle) As Boolean\n    Try\n        Dim fontFamily As New FontFamily(fontName)\n        Return fontFamily.IsStyleAvailable(style)\n    Catch ex As ArgumentException\n        Return False\n    End Try\nEnd Functio

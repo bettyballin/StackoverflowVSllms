@@ -1,1 +1,0 @@
-SELECT City, State FROM Locations WHERE ZipCode = @ZipCode;

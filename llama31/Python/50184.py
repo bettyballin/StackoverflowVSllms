@@ -1,1 +1,0 @@
-button.connect("selection-changed", on_selection_changed)\n\ndef on_selection_changed(button):\n    filename = button.get_filename()\n    if filename:\n        print "Selected file:", filename\n    else:\n        print "No file selected"

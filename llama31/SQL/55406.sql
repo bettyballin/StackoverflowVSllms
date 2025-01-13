@@ -1,1 +1,0 @@
-USE [Mattercentre_dev]\nGO\n\nGRANT EXECUTE ON OBJECT::dbo.UDSPRBHPRIMBUSTYPE TO [ReadUser]\nGO

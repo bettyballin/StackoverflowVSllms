@@ -1,1 +1,0 @@
-function intvalEquivalent($input) {\n    $options = array('options' => array('min_range' => 0));\n    return filter_var($input, FILTER_VALIDATE_INT, $options);\n}\n\n$inputNumber = 3147483647.37;\n$intNumber = intvalEquivalent($inputNumber);\necho $intNumber; // output: 3147483647

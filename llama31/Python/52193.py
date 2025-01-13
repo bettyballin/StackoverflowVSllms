@@ -1,1 +1,0 @@
-[\n    ['', 'predicate1', 'predicate2', 'predicate3'],\n    ['id1', 'value1', 'value2', 'value3'],\n    ['id2', 'value4', 'value5', '']\n]

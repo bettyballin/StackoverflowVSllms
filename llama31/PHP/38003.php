@@ -1,1 +1,0 @@
-$xml = '<root><node>value</node></root>';\n$doc = new DOMDocument();\nif ($doc->loadXML($xml)) {\n    echo $doc->saveXML();\n} else {\n    echo "Error parsing XML";\n}

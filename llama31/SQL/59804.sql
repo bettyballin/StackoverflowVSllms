@@ -1,1 +1,0 @@
-DELIMITER //\nCREATE TRIGGER prevent_type_deletion\nBEFORE DELETE ON types\nFOR EACH ROW\nBEGIN\n  IF EXISTS (SELECT 1 FROM components WHERE type_id = OLD.id) THEN\n    SIGNAL SQLSTATE '45000' SET MESSAGE_TEXT = 'Cannot delete type, components still exist';\n  END IF;\nEND; //\nDELIMITER ;

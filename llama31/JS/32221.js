@@ -1,1 +1,0 @@
-$.ajax({\n  url: 'your-url',\n  dataType: 'html',\n  success: function(data) {\n    document.open('text/html', 'replace');\n    document.write(data);\n    document.close();\n  }\n});

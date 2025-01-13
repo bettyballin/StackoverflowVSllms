@@ -1,1 +1,0 @@
-# Example of a human-readable file format (JSON)\ndata = {\n    "name": "John Doe",\n    "age": 30,\n    "city": "New York"\n}\n\nimport json\nwith open('data.json', 'w') as f:\n    json.dump(data, f)

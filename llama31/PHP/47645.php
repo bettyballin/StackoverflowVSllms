@@ -1,1 +1,0 @@
-$sock = socket_create(AF_INET, SOCK_STREAM, SOL_TCP);\nsocket_connect($sock, 'localhost', 8080); // Replace with your app's socket endpoint\n\n// Send data to the application\nsocket_write($sock, 'Your message or data here', strlen('Your message or data here'));\n\n// Receive data from the application\n$data = socket_read($sock, 1024);\necho $data;\n\nsocket_close($sock);

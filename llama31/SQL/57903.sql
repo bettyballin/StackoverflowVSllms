@@ -1,1 +1,0 @@
-CREATE VIEW user_post_counts AS\nSELECT u.user_id, COUNT(p.post_id) AS post_count\nFROM users u\nJOIN posts p ON u.user_id = p.user_id\nGROUP BY u.user_id;\n\nCREATE INDEX idx_user_post_counts ON user_post_counts (user_id);

@@ -1,1 +1,0 @@
-CREATE INDEX idx_mycolumn ON mytable (mycolumn);\nDELETE FROM mytable WHERE mycolumn = 'value';

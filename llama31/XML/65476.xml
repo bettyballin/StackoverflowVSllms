@@ -1,1 +1,0 @@
-<jsp-config>\n    <jsp-property-group>\n        <url-pattern>*.jsp</url-pattern>\n        <trim-directive-whitespaces>true</trim-directive-whitespaces>\n    </jsp-property-group>\n</jsp-config>

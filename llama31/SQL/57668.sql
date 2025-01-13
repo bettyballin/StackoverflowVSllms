@@ -1,1 +1,0 @@
-SELECT e.*, t.*\nFROM (\n  SELECT *\n  FROM expense\n  LIMIT 1  -- Adjust this limit as needed\n) AS e\nINNER JOIN transaction t ON e.expense_id = t.transaction_expense_id

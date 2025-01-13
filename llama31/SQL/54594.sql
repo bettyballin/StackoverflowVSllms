@@ -1,1 +1,0 @@
-SELECT @s = @s + s \nFROM (SELECT s FROM #test ORDER BY dbo.wtfunc(s)) t

@@ -1,1 +1,0 @@
-SELECT * \nFROM comments \nWHERE comments.id IN (1,3,2,4)\nORDER BY position(comments.id::text in '1,3,2,4');

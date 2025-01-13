@@ -1,1 +1,0 @@
-<dependency>\n  <groupId>org.owasp</groupId>\n  <artifactId>html-sanitizer</artifactId>\n  <version>2021.1</version>\n</dependency>

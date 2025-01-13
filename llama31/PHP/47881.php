@@ -1,1 +1,0 @@
-$pattern = '/\* '''.*$/m';\npreg_match_all($pattern, $text, $matches);\n$lines = $matches[0];

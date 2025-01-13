@@ -1,1 +1,0 @@
-def filter_single_occurrences(lst):\n    counts = {}\n    for x in lst:\n        counts[x] = counts.get(x, 0) + 1\n    return [x for x in lst if counts[x] == 1]\n\nnumbers = [0, 1, 1, 2, 2]\nprint(filter_single_occurrences(numbers))  # Output: [0]

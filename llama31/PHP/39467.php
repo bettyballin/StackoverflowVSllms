@@ -1,1 +1,0 @@
-$node = node_load($nid); // Load the node\n$fields = field_attach_view('node', $node, 'teaser'); // Get the CCK fields\n$html = drupal_render($fields); // Render the fields

@@ -1,1 +1,0 @@
-SET profiling = 1;\n-- run your queries\nSET profiling = 0;\nSHOW PROFILES;

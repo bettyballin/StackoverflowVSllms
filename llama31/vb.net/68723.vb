@@ -1,1 +1,0 @@
-Public Class myPage\n    Inherits System.Web.UI.Page\n\n    Public Overrides Property Title() As String\n        Get\n            Return MyBase.Title\n        End Get\n        Set(ByVal value As String)\n            MyBase.Title = value\n        End Set\n    End Property\nEnd Class

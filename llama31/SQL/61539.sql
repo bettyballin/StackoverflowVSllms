@@ -1,1 +1,0 @@
-CREATE TABLE Customers (\n  CustomerID INT PRIMARY KEY,\n  Name VARCHAR(50) NOT NULL,\n  Email VARCHAR(100) UNIQUE\n);\n\nCREATE INDEX idx_Email ON Customers (Email);

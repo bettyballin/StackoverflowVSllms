@@ -1,1 +1,0 @@
-// Send a signal to the client to play the beep sound\n$ws = new WebSocket('ws://example.com/websocket');\n$ws->send('new_message');

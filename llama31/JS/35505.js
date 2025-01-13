@@ -1,1 +1,0 @@
-$(self).queue(function() {\n    $(this).remove();\n});

@@ -1,1 +1,0 @@
--- Create a new connection to your Oracle database\n-- Use the "Query Builder" tool to generate a query\n-- For example, to select all columns from a table called "EMPLOYEES"\nSELECT * FROM EMPLOYEES;

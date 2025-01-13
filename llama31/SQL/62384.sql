@@ -1,1 +1,0 @@
-CREATE ROLE [MyCustomRole];\nGRANT EXECUTE ON [dbo].[StoredProcedureXPTO] TO [MyCustomRole];

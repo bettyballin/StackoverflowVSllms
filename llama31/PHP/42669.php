@@ -1,1 +1,0 @@
-$a = $_POST['input_field'];\n$b = str_split($a);\n\nprint_r($b);

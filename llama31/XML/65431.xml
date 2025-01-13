@@ -1,1 +1,0 @@
-<configuration>\n  <system.web>\n    <httpModules>\n      <add name="CustomAuthenticationModule" type="YourNamespace.CustomAuthenticationModule, YourAssembly" />\n    </httpModules>\n  </system.web>\n</configuration>

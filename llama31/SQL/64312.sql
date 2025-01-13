@@ -1,1 +1,0 @@
--- Example using a Visual Studio database project\nCREATE TABLE users (\n  id INT PRIMARY KEY,\n  name VARCHAR(50)\n);\nGO

@@ -1,1 +1,0 @@
-CREATE TABLE events (\n  id INT PRIMARY KEY,\n  event_time TIMESTAMP DEFAULT CURRENT_TIMESTAMP,\n  -- other columns...\n);

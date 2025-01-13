@@ -1,1 +1,0 @@
-function get_week_range($date) {\n    $timestamp = strtotime($date);\n    $start_date = date('Y-m-d', strtotime('Sunday this week', $timestamp));\n    $end_date = date('Y-m-d', strtotime('Saturday this week', $timestamp));\n    return array($start_date, $end_date);\n}

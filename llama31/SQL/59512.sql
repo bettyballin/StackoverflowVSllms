@@ -1,1 +1,0 @@
-DECIMAL(length, scale) [UNSIGNED] [ZEROFILL]

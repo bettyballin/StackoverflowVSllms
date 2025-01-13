@@ -1,1 +1,0 @@
-$code = '<data info="foo">\n  "bar"|tr\n</data>';\n\n$regex = '/<data[^>]*>\s*"([^"]+)"\|tr/s';\nif (preg_match($regex, $code, $matches)) {\n    echo $matches[1]; // outputs "bar"\n}

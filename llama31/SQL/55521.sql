@@ -1,1 +1,0 @@
-impdp system/manager DIRECTORY=backup_dir SQLFILE=ddl.sql \\n      EXCLUDE=TABLE:"IN ('HUGE_TABLE1', 'HUGE_TABLE2', 'HUGE_TABLE3')"

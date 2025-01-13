@@ -1,1 +1,0 @@
-var passwordValidated = false;\n\n$.validator.addMethod('authenticate', function (value) {\n    $.getJSON("./json/authenticate.do", { password: value }, function (json) {\n        passwordValidated = json.success;\n        $('form#changePasswordForm').validate().element('#password');\n    });\n    return passwordValidated;\n}, 'Wrong password');

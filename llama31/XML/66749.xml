@@ -1,1 +1,0 @@
-<configuration>\n    <system.webServer>\n        <handlers>\n            <add name="PHP" path="*.php" verb="*" modules="php5isapi" scriptProcessor="C:\Path\To\PHP\php5isapi.dll" resourceType="Unspecified" />\n        </handlers>\n        <phpIniDir>C:\Path\To\PHP</phpIniDir>\n    </system.webServer>\n</configuration>

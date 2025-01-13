@@ -1,1 +1,0 @@
-TEMPLATES = [\n    {\n        'BACKEND': 'django.template.backends.django.DjangoTemplates',\n        'DIRS': [],\n        'APP_DIRS': True,\n        'OPTIONS': {\n            'context_processors': [\n                # ...\n                'myapp.context_processors.add_user_to_context',\n            ],\n        },\n    },\n]

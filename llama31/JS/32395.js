@@ -1,1 +1,0 @@
-$(document).on('click', function(event) {\n  if (!$(event.target).is('#divInfoBox') && !$(event.target).closest('#divInfoBox').length) {\n    // Your click handler code here\n  }\n});

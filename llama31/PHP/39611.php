@@ -1,1 +1,0 @@
-$totalParams = $reflection->getNumberOfParameters();\necho "Total number of parameters: $totalParams\n";

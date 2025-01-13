@@ -1,1 +1,0 @@
-$client = new SoapClient('http://example.com/receiving_script.php?wsdl');\n$client->sendData($xml_data);

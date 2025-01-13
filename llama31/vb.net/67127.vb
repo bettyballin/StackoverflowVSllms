@@ -1,1 +1,0 @@
-Imports System.Net\nImports System.Net.Sockets\n\nDim client As New TcpClient\nclient.Connect("relayserver_ip", 8080)

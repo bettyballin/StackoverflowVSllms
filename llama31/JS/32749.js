@@ -1,1 +1,0 @@
-var ongoingRequests = [];\n\n$.ajax = function(options) {\n  var xhr = $.ajaxOriginal(options);\n  ongoingRequests.push(xhr);\n  return xhr;\n};\n\n$(window).on('beforeunload', function() {\n  ongoingRequests.forEach(function(xhr) {\n    xhr.abort();\n  });\n  ongoingRequests = [];\n});

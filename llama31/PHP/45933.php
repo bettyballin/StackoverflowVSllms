@@ -1,1 +1,0 @@
-// Non-class include file\nconfig.inc.php\n\n// Class definition file\nUser.class.php\n\n// Front-end file\nindex.php

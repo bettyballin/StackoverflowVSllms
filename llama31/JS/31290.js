@@ -1,1 +1,0 @@
-// toggle the class based on conditions\nelement.classList.toggle('hidden', condition);

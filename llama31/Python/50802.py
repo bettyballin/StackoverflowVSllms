@@ -1,1 +1,0 @@
-import os\n\ndef is_process_alive(pid):\n    try:\n        os.kill(pid, 0)\n        return True\n    except OSError:\n        return False

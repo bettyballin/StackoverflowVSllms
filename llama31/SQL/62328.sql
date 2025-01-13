@@ -1,1 +1,0 @@
-DECLARE @xml XML\nSET @xml = (SELECT * FROM your_table FOR XML PATH(''))\nSELECT CONVERT(VARCHAR(MAX), @xml) AS xml_data\nINTO #temp_table\nSELECT * FROM #temp_table

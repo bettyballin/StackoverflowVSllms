@@ -1,1 +1,0 @@
-SELECT \n  TABLENAME,\n  LOCKTYPE,\n  LOCKMODE,\n  LOCKSTATUS\nFROM \n  DBC.DBQLOGTbl\nWHERE \n  TABLENAME = 'your_table_name'\n  AND LOCKSTATUS = 'H'  -- 'H' for Held, 'W' for Waiting, 'I' for Idle

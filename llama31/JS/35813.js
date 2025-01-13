@@ -1,1 +1,0 @@
-const input = document.getElementById('numeric-input');\n\ninput.addEventListener('input', () => {\n  input.value = input.value.replace(/[^0-9]/g, '');\n});

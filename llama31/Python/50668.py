@@ -1,1 +1,0 @@
-from django.db.models import Subquery, OuterRef\n\n# Assuming your model is named Invitation\nfrom .models import Invitation\n\nlatest_invitations = Invitation.objects.order_by(\n    'to_email', '-date_invited'\n).distinct('to_email')

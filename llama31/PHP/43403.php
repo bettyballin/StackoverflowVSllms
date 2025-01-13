@@ -1,1 +1,0 @@
-<?php\n// This will output 6.\necho mb_strpos("abcc", "abc");\n?>

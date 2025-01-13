@@ -1,1 +1,0 @@
-UPDATE T1\nSET F1 = 'New Value'\nFROM (\n    SELECT TOP 100 F1, F2\n    FROM T1\n    ORDER BY F2  -- Specify the column you want to order by\n) AS Subquery\nWHERE T1.F2 = Subquery.F2;

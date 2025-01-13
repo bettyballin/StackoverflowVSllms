@@ -1,1 +1,0 @@
-if (strpos($string, '_archived') !== false) {\n    // string contains _archived\n}

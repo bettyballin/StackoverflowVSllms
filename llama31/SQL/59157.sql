@@ -1,1 +1,0 @@
-SELECT \n    LEFT(DATENAME(MONTH, your_date_column), 3) + ' ' + CONVERT(VARCHAR, YEAR(your_date_column))\nFROM \n    your_table\nGROUP BY \n    YEAR(your_date_column), \n    MONTH(your_date_column)

@@ -1,1 +1,0 @@
-SELECT \n  AQADM.GET_USER_DATA(user_data, 'TEXT') AS message_text\nFROM \n  [queue_table];

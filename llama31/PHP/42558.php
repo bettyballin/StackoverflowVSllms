@@ -1,1 +1,0 @@
-use PHPUnit\Framework\TestCase;\nuse Carbon\Carbon;\n\nclass CreateFileLinkTest extends TestCase\n{\n    public function testCreateFileLink()\n    {\n        Carbon::setTestNow(Carbon::createFromFormat('d-m-y-g-i', '01-02-20-14-30'));\n\n        $result = CreateFileLink();\n        $this->assertEquals('01-02-20-14-30', $result);\n    }\n}

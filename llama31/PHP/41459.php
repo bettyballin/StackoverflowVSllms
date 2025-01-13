@@ -1,1 +1,0 @@
-// Example usage:\nuse I18n\I18n;\n\n$i18n = new I18n('fr_FR');\necho $i18n->translate('Hello, world!'); // echoes the translated string

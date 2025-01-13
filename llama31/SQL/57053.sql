@@ -1,1 +1,0 @@
--- Update the partnr in stock_items to match the partnumber in parts\nUPDATE si\nSET partnr = p.partnumber\nFROM stock_items si\nINNER JOIN parts p ON si.partnr = p.partnumber;\n\n-- Or delete the rows in stock_items that do not have a matching partnumber\nDELETE FROM stock_items\nWHERE partnr NOT IN (SELECT partnumber FROM parts);

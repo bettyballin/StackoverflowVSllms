@@ -1,1 +1,0 @@
-import { Button } from '@material-ui/core';\n\nconst MyButton = () => {\n  return (\n    <Button variant="contained" style={{ height: 22 }}>\n      Click me\n    </Button>\n  );\n};

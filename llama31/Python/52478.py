@@ -1,1 +1,0 @@
-import numpy as np\n\n# Create a 3D array with shape (100, 100, 100)\narray = np.random.rand(100, 100, 100)\n\n# Perform a simple operation: calculate the mean of each 2D slice\nmean_array = np.mean(array, axis=0)

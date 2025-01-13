@@ -1,1 +1,0 @@
-CREATE ASSEMBLY MyAssembly FROM 'path_to_your_assembly.dll'\nWITH PERMISSION_SET = EXTERNAL_ACCESS\n\nCREATE PROCEDURE RunProgram\nAS\n    EXTERNAL NAME MyAssembly.ProgramRunner.RunProgram

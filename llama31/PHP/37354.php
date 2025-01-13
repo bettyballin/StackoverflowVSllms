@@ -1,1 +1,0 @@
-$extension = substr($file, -3); // gets the last 3 characters of the file name

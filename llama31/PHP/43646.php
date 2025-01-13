@@ -1,1 +1,0 @@
-function myFunction(mysqli $mysqli) {\n  // Use $mysqli here\n}

@@ -1,1 +1,0 @@
-$result = $xml->xpath("//StopPoint[contains(translate(normalize-space(StopName), 'ABCDEFGHIJKLMNOPQRSTUVWXYZ', 'abcdefghijklmnopqrstuvwxyz'), translate('$query', 'ABCDEFGHIJKLMNOPQRSTUVWXYZ', 'abcdefghijklmnopqrstuvwxyz'))]");

@@ -1,1 +1,0 @@
-child = window.open("","child");\nchild.document.open();\nchild.document.write(htmlPage);\nchild.document.close();

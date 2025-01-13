@@ -1,1 +1,0 @@
-Dim contractText As String = "blah blah blah... on {0}... blah blah blah"\nDim contractDate As DateTime = ' retrieve the contract date from the database\nDim formattedText As String = String.Format(contractText, contractDate.ToString("MMM dd, yyyy"))

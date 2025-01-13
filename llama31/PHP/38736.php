@@ -1,1 +1,0 @@
-$args = array(\n    'post__in' => $postarray,\n    'orderby' => 'post__in', // optional, but recommended to maintain the order\n);\n$query = new WP_Query($args);\n\nif ($query->have_posts()) :\n    while ($query->have_posts()) : $query->the_post();\n        the_title();\n        the_excerpt();\n    endwhile;\nendif;\n\nwp_reset_postdata(); // reset the query

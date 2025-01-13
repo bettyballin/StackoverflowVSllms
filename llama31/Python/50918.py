@@ -1,1 +1,0 @@
-ew_category = Category(name='New Category')\nnew_category.insert_node(parent_id=1)

@@ -1,1 +1,0 @@
-SELECT foo FROM (VALUES (5), (6), (7)) AS t (foo)

@@ -1,1 +1,0 @@
-// file: libs/User/User.php\nnamespace Libs\User;\n\nclass User {\n    // ...\n}

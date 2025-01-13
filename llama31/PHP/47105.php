@@ -1,1 +1,0 @@
-$html_string = utf8_encode($html_string);

@@ -1,1 +1,0 @@
-<a href="javascript:selectUser(this, function() { alert(this.id); });">select</a>

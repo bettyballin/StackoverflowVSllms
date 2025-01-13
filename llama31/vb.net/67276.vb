@@ -1,1 +1,0 @@
-Imports System.IO\n\nDim filePath As String = "\\intranet-server\shared\folder\file.txt"\nDim fileContent As String = File.ReadAllText(filePath)

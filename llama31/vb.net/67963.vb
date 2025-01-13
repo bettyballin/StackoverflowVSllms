@@ -1,1 +1,0 @@
-' Check the current query mode\nDim qm As Integer\nqm = Application.GetOption("SQL Syntax")\n\n' Set the query mode to ANSI-89 (default) or ANSI-92\nApplication.SetOption "SQL Syntax", 0 ' ANSI-89 (default, uses *)\n' or\nApplication.SetOption "SQL Syntax", 1 ' ANSI-92 (uses %)

@@ -1,1 +1,0 @@
-define('VAR', NULL);\n\nvar_dump(defined('VAR')); // bool(true)\nvar_dump(defined('UNSET_VAR')); // bool(false)

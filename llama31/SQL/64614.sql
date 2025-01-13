@@ -1,1 +1,0 @@
-CREATE TABLE temp1 AS\n  SELECT\n    ROW_NUMBER() OVER (ORDER BY col1, col2, col3) AS insert_num,\n    col1,\n    col2,\n    col3\n  FROM tables a\n  JOIN b ON a.id = b.id;

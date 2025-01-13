@@ -1,1 +1,0 @@
-import ctypes\nimport os\n\n# Define the path to your custom sqlite3.dll\ndll_path = os.path.join(os.path.dirname(__file__), 'sqlite3.dll')\n\n# Load the DLL using ctypes\nsqlite3_dll = ctypes.CDLL(dll_path)\n\n# Now you can use the loaded DLL

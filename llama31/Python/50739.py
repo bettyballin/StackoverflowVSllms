@@ -1,1 +1,0 @@
-# views.py\nfrom django.http import JsonResponse\n\ndef my_view(request):\n    data = {'message': 'Hello, world!'}\n    return JsonResponse(data)

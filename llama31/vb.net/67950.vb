@@ -1,1 +1,0 @@
-Partial Public Class ToyEntities1\n    Public Function GetWashingtonClients() As IQueryable(Of Client)\n        Return ClientSet.Where(Function(c) c.LastName = "Washington")\n    End Function\nEnd Class

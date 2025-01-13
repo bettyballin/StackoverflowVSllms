@@ -1,1 +1,0 @@
-import mwclient\n\n# Create a site object\nsite = mwclient.Site('en.wikipedia.org')\n\n# Parse a page\npage = site.pages['Main_Page']\ntext = page.text()\n\n# Parse the MediaWiki markup\nparser = mwclient.parser.Parser()\nparser.parse(text)\n\n# Get the HTML\nhtml = parser.get_html()

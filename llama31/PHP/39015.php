@@ -1,1 +1,0 @@
-function myHappyFunction() {\n    $args = func_get_args();\n    // now you can access the arguments without triggering warnings/notices\n    foreach ($args as $arg) {\n        // do something with $arg\n    }\n}

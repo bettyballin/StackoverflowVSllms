@@ -1,1 +1,0 @@
-require_once 'SimpleIdenticon.php';\n\n$identicon = new SimpleIdenticon();\n$identicon->generate('your_string_here');

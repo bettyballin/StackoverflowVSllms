@@ -1,1 +1,0 @@
-<httpErrors redirectMode="ResponseRewrite">\n    <remove statusCode="404" />\n    <error statusCode="404" path="/404.aspx" responseMode="ExecuteURL" />\n</httpErrors>

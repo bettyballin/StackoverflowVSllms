@@ -1,1 +1,0 @@
-SELECT TORCH_ID, distance AS thisscore,\n       DENSE_RANK() OVER (ORDER BY distance DESC) AS rank\nFROM torch_info\nORDER BY rank;

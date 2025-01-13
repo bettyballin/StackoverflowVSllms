@@ -1,1 +1,0 @@
-jQuery.noConflict();\nvar div = jQuery("#divLeftSideModelsList");\nalert(div);

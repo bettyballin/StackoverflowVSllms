@@ -1,1 +1,0 @@
-SELECT dbo.IsWatchmanPresent('2009-01-01 06:00', '2009-01-01 12:00') AS IsWatchmanPresent

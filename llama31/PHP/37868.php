@@ -1,1 +1,0 @@
-$id = mysql_insert_id($link) or die('oops');

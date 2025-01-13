@@ -1,1 +1,0 @@
-$this->headMeta()->append('keywords', 'view,specific,keywords');

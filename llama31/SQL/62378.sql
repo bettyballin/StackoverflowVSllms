@@ -1,1 +1,0 @@
-CREATE TYPE BigIntList AS TABLE (Id bigint);\nGO\n\nCREATE PROCEDURE DeleteUnusedRelations\n    @attributetypeid bigint,\n    @productid bigint,\n    @includedids BigIntList READONLY\nAS\nBEGIN\n    DELETE FROM reltable\n    WHERE productid = @productid\n    AND attributetypeid = @attributetypeid\n    AND attributeid NOT IN (SELECT Id FROM @includedids);\nEND;\nGO

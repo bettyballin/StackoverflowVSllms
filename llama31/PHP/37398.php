@@ -1,1 +1,0 @@
-<?php\nsession_start();\n$token = bin2hex(random_bytes(32));\n$_SESSION['token'] = $token;\necho $token;\n?>

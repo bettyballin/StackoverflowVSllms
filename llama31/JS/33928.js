@@ -1,1 +1,0 @@
-// Example usage:\nconst uploader = new plupload.Uploader({\n  browse_button: "pickfiles",\n  container: "container",\n  max_file_size: "2mb",\n  url: "/upload",\n  flash_swf_url: "/plupload.flash.swf",\n  silverlight_xap_url: "/plupload.silverlight.xap"\n});

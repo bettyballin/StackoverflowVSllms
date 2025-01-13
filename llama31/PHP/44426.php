@@ -1,1 +1,0 @@
-// application/controllers/AdminController.php\n\nclass AdminController extends Zend_Controller_Action\n{\n    public function indexAction()\n    {\n        $acl = new Application_Config_Acl();\n        if (!$acl->isAllowed('admin', 'admin')) {\n            throw new Zend_Controller_Exception('Access denied', 403);\n        }\n        // ...\n    }\n}

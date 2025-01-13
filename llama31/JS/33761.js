@@ -1,1 +1,0 @@
-// Open the F12 Developer Tools and switch to the Profiler tab\n// Start profiling the page\nF12Profiler.startProfiling();\n\n// Run the JavaScript code you want to profile\nmyJavaScriptFunction();\n\n// Stop profiling the page\nF12Profiler.stopProfiling();\n\n// Inspect the profiling results\nF12Profiler.getResults();

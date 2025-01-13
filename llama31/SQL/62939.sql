@@ -1,1 +1,0 @@
-WHERE \n  d.attribute3 = 'abcd*'  \n  AND x.STATUS NOT IN ('P', 'J', 'X', 'S', 'D')\n  AND CURRENT_TIMESTAMP - 1 < x.CREATION_TIMESTAMP;

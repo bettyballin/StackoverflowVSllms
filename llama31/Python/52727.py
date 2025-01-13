@@ -1,1 +1,0 @@
-def predict_with_chatbot_training_data(data):\n    # Make predictions using data prediction techniques\n    predictions = predict_with_data(data)\n    return predictions

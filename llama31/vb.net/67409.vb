@@ -1,1 +1,0 @@
-Dim obj As Object = GetSomeObject()\nDim castObj As T = DirectCast(obj, T)\n\n' if obj is not of type T, this will throw an InvalidCastExceptio

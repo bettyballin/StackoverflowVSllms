@@ -1,1 +1,0 @@
-IF NOT EXISTS (SELECT 1 FROM your_table WHERE column1 = @value1 AND column2 = @value2)\nBEGIN\n    INSERT INTO your_table (column1, column2) VALUES (@value1, @value2);\nEND

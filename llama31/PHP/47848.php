@@ -1,1 +1,0 @@
-// Example using PHP's built-in session extension\nsession_start();\nif (isset($_SESSION['user_id'])) {\n    // Check if user is already logged in\n    $existingSessionId = $_SESSION['user_id'];\n    if ($existingSessionId !== session_id()) {\n        // Invalidate existing session\n        session_destroy();\n    }\n}

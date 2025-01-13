@@ -1,1 +1,0 @@
-$route = new Zend_Controller_Router_Route_Static(\n    'foo/DEFAULT.ASP',\n    array('controller' => 'foo', 'action' => 'index')\n);\n$route->setRedirect('http://www.example.com/foo', 301);\n$router->addRoute('foo', $route);

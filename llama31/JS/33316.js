@@ -1,1 +1,0 @@
-$("#appendTD #gridFormInformation tr.ui-widget-content.ui-subtblcell").each(function() {\n    $(this).find("td:first").addClass("leftbord");\n});

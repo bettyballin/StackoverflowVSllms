@@ -1,1 +1,0 @@
--- Using DISTINCT\nSELECT DISTINCT column1, column2, column3\nFROM yourTable;\n\n-- Using GROUP BY\nSELECT column1, column2, column3\nFROM yourTable\nGROUP BY column1;  -- consider column1 as the key

@@ -1,1 +1,0 @@
-<SaveResponsesData guiClass="SaveResponsesDataGui" testClass="SaveResponsesData" testname="Save Responses to a file" enabled="true">\n  <stringProp name="filename">/path/to/file</stringProp>\n  <boolProp name="create_parent">true</boolProp>\n  <boolProp name="append">true</boolProp>\n</SaveResponsesData>

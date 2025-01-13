@@ -1,1 +1,0 @@
-GRANT SELECT ON schema.table_name TO view_owner WITH GRANT OPTION;

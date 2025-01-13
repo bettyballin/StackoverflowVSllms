@@ -1,1 +1,0 @@
-$.ajax({\n  type: "POST",\n  url: "MyUrl",\n  data: "val1=test",\n  success: function(result) {\n    // Handle successful response...\n  },\n  error: function(xhr, status, error) {\n    var errorMessage = xhr.responseJSON.message;\n    alert("An error occurred: " + errorMessage);\n  }\n});

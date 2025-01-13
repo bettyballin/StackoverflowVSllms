@@ -1,1 +1,0 @@
-from random import randint, random\nimport time\nimport heapq\n\ntest_data = [randint(10, 50) + random() for i in range(20000)]\n\ninit = time.time()\nmins = heapq.nsmallest(8, test_data)\nprint 'heapq.nsmallest(n, items):', time.time() - init\n\ninit = time.time()\nmins = sorted(test_data)[:8]\nprint 'sorted(items)[:n]:', time.time() - init

@@ -1,1 +1,0 @@
-Public Class IgnoreMissingMethodsInterceptor\n    Implements IInterceptor\n\n    Public Sub Intercept(invocation As IInvocation) Implements IInterceptor.Intercept\n        If invocation.MethodInvocationTarget Is Nothing Then\n            ' ignore missing methods\n            Return\n        End If\n        invocation.Proceed()\n    End Sub\nEnd Class

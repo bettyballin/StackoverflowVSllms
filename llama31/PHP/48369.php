@@ -1,1 +1,0 @@
-/**\n * @see B->bar\n */\npublic function foo()\n{\n    $b = new B();\n    $b->bar();\n}

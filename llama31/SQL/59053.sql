@@ -1,1 +1,0 @@
-CREATE TABLE credits (\n  id INT,\n  creds INT,\n  user_id INT,\n  version INT\n);\n\nUPDATE credits\nSET creds = 150, version = version + 1\nWHERE user_id = 1 AND version = <previous_version>;

@@ -1,1 +1,0 @@
-<bindings>\n  <basicHttpBinding>\n    <binding hostNameComparisonMode="Exact" />\n  </basicHttpBinding>\n</bindings>

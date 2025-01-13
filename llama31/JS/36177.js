@@ -1,1 +1,0 @@
-var input = "Hello, World!";\nvar charList = "abc";\nvar result = strpbrk(input, charList);\nconsole.log(result); // Output: "Hello, World!"

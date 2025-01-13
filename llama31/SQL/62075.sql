@@ -1,1 +1,0 @@
-INSERT INTO your_table\nSELECT * \nFROM your_table \nWHERE your_table.id = <id_of_row_to_duplicate>

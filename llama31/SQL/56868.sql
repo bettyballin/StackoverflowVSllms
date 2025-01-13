@@ -1,1 +1,0 @@
--- Add a demo flag column to your tables\nALTER TABLE customers ADD COLUMN is_demo BOOLEAN DEFAULT FALSE;\n\n-- Insert demo data with the demo flag set to TRUE\nINSERT INTO customers (name, is_demo) VALUES ('Demo Customer', TRUE);\n\n-- Filter out demo data in your queries\nSELECT * FROM customers WHERE is_demo = FALSE;

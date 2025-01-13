@@ -1,1 +1,0 @@
-def validate_chatbot_training_data(data):\n    # Validate data using manual review\n    validated_data = validate_data_manually(data)\n    # Validate data using automated techniques\n    validated_data = validate_data_automatically(validated_data)\n    return validated_data

@@ -1,1 +1,0 @@
-<ul>\n    <?php foreach ($archiveLinks as $link) { ?>\n        <li><?php echo $link; ?></li>\n    <?php } ?>\n</ul>

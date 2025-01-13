@@ -1,1 +1,0 @@
-SELECT \n    Sum(VisitingCount) as VisitingCount, \n    [Time], \n    CONVERT(VARCHAR(5), [Time]*@countgap, 108) AS VisitingGap\nFROM (\n    -- ...\n) X\nGROUP BY [Time]\nORDER BY 2 ASC;

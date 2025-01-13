@@ -1,1 +1,0 @@
-$descriptorspec = array(\n    0 => array("pipe", "r"),  // stdin\n    1 => array("pipe", "w"),  // stdout\n    2 => array("pipe", "w")   // stderr\n);\n\n$process = proc_open("/path/to/shell/script.sh", $descriptorspec, $pipes);\n\nif (is_resource($process)) {\n    // You can now exit the PHP script without terminating the shell process\n    exit;\n}

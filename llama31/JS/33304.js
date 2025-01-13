@@ -1,1 +1,0 @@
-// Example usage:\nvar paper = new paper.PaperScope();\nvar path = new paper.Path();\npath.strokeColor = 'black';\npath.add(new paper.Point(100, 100));\npath.add(new paper.Point(200, 200));\npaper.project.activeLayer.addChild(path);

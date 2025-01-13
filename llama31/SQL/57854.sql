@@ -1,1 +1,0 @@
-CREATE GLOBAL TEMPORARY TABLE temp_table (\n  id NUMBER(10),\n  xml_data CLOB\n) ON COMMIT DELETE ROWS;\n\nINSERT INTO temp_table (id, xml_data)\nSELECT id, TO_CLOB(xml_data)\nFROM mytable;\n\nSELECT id, \n       EXTRACTVALUE(XMLType(xml_data), '/myxml/node1/child1') AS value_to_get\nFROM temp_table;

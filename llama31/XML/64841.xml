@@ -1,1 +1,0 @@
-<dependency>\n    <groupId>org.bouncycastle</groupId>\n    <artifactId>bcpg-jdk15</artifactId>\n    <version>1.69</version>\n</dependency>

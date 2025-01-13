@@ -1,1 +1,0 @@
-$router = Zend_Controller_Front::getInstance()->getRouter();\n$router->addConfig(new Zend_Config_Ini(APPLICATION_PATH . '/configs/application.ini', 'routes'));

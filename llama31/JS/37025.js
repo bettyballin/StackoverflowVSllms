@@ -1,1 +1,0 @@
-onFileChosen: function(aEvent) {\n  var input = aEvent.explicitOriginalTarget;\n  if (input.type == "file") {\n    var doc = contentDocument;\n    var button = doc.createElement("button");\n    button.textContent = "Click me!";\n    input.parentNode.appendChild(button);\n  }\n}\n\nwindow.addEventListener("change", function(e) {xpitest.onFileChosen(e)}, false);

@@ -1,1 +1,0 @@
-WITH GuidCounts AS (\n  SELECT ID, COUNT(*) as Count\n  FROM YourTable\n  GROUP BY ID\n)\nSELECT ID\nFROM GuidCounts\nWHERE Count = (SELECT MAX(Count) FROM GuidCounts)

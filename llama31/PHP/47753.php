@@ -1,1 +1,0 @@
-if ($subdom !== 'www' && $subdom !== 'nosub') {\n    // do some stuff if the subdomain is neither 'www' nor 'nosub'\n}

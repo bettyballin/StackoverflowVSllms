@@ -1,1 +1,0 @@
-# config/initializers/omniauth.rb\nRails.application.config.middleware.use OmniAuth::Builder do\n  provider :vbulletin, \n    client_id: 'YOUR_VBULLETIN_CLIENT_ID', \n    client_secret: 'YOUR_VBULLETIN_CLIENT_SECRET', \n    site: 'https://your-vbulletin-forum.com'\nend

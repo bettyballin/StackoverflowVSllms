@@ -1,1 +1,0 @@
-if (condition) {\n    doSomething();\n    doSomethingElse(); // This line will only be executed if the condition is true\n}

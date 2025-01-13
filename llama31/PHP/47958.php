@@ -1,1 +1,0 @@
-$ldapconn = ldap_connect("ldap://company.local");\n$ldapbind = ldap_bind($ldapconn, "CN=GroupName,OU=Groups,OU=Division,DC=company,DC=local");

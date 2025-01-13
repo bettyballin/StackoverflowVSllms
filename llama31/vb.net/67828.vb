@@ -1,1 +1,0 @@
-Sub GetSQLQuery()\n    Dim qry As WorkbookQuery\n    Set qry = ThisWorkbook.Queries("YourQueryName")\n    MsgBox qry.Formula\nEnd Sub

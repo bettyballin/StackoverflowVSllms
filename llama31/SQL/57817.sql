@@ -1,1 +1,0 @@
-SELECT \n    t1.id, \n    t1.somedate, \n    t1.somevalue, \n    (SELECT SUM(t2.somevalue) FROM TestTable t2 WHERE t2.somedate <= t1.somedate) AS runningtotal\nFROM \n    TestTable t1\nORDER BY \n    t1.somedate;

@@ -1,1 +1,0 @@
-Public Class MyDBFileManager\n    Inherits DBFileManager(Of MyDBFile, MyDBFileContent, MyDBFileThumb)

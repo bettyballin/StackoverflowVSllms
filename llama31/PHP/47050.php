@@ -1,1 +1,0 @@
-$array = [1, 2, 3, 2, 4, 2, 5];\n$value = 2;\n\n$array = remove_value($array, $value);\n\nprint_r($array);

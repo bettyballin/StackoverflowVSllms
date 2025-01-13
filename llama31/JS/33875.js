@@ -1,1 +1,0 @@
-const Fingerprint2 = require('fingerprintjs2');\n\napp.get('/vote', (req, res) => {\n  const fp = new Fingerprint2();\n  fp.get((result) => {\n    const fingerprint = result.visitorId;\n    // Store fingerprint in your database or cache\n    // Process vote logic here\n  });\n});

@@ -1,1 +1,0 @@
-header('Content-Type: text/csv; charset=utf-8');\nheader('Content-Disposition: attachment; filename="export.csv"');\n\n// Load data from MySQL\n$data = mysql_query("SELECT * FROM your_table");\n\n// Output CSV data\nwhile ($row = mysql_fetch_array($data)) {\n    echo $row['column1'] . "," . $row['column2'] . "\n";\n}

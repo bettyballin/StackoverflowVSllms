@@ -1,1 +1,0 @@
-DECLARE @rows_affected INT = 1;\nWHILE @rows_affected > 0\nBEGIN\n    BEGIN TRANSACTION;\n    DELETE TOP (1000)\n    FROM gps_table\n    WHERE gps_timestamp < DATEADD(month, -1, GETDATE());\n    SET @rows_affected = @@ROWCOUNT;\n    COMMIT TRANSACTION;\n    CHECKPOINT; -- to reduce transaction log usage\n    WAITFOR DELAY '00:00:01'; -- to avoid dominating resources\nEND;

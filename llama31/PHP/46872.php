@@ -1,1 +1,0 @@
-$con->exec('UNLOCK TABLES');

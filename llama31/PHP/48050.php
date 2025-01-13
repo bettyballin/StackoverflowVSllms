@@ -1,1 +1,0 @@
-$files = scandir($path);\nforeach ($files as $file) {\n    if ($file[0] !== '.' && is_file($path . $file)) {\n        // do stuff\n    }\n}

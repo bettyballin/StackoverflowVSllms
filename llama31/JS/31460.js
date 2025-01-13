@@ -1,1 +1,0 @@
-const url = 'https://example.com?' + encodeURIComponent(formData);\nif (url.length > 2048) {\n  console.error('URL too long');\n}

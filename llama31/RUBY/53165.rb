@@ -1,1 +1,0 @@
-resources :ab_relationships

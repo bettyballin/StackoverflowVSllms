@@ -1,1 +1,0 @@
-function show() {\n    jQuery("table tr th:nth-child(13), table tr td:nth-child(13)").show();\n}\nfunction hide() {\n    jQuery("table tr th:nth-child(13), table tr td:nth-child(13)").hide();\n}

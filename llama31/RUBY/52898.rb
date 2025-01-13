@@ -1,1 +1,0 @@
-def foo(x)\n  Enumerator.new do |y|\n    x.times do |i|\n      y << i if bar(i)\n    end\n  end\nend\n\nresult = foo(100).to_a

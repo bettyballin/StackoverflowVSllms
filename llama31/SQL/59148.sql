@@ -1,1 +1,0 @@
-ALTER TABLE YourTable\nADD HashColumn AS (CONVERT(varbinary(32), HASHBYTES('SHA2_256', YourLongColumn)));\n\nCREATE INDEX idx_HashColumn ON YourTable (HashColumn);

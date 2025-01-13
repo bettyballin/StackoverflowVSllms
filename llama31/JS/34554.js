@@ -1,1 +1,0 @@
-$(document).ready(function() {\n  $("#test").click(function(event) {\n    event.preventDefault(); // Prevent default link behavior\n    // Perform AJAX call with the token\n    $.ajax({\n      type: "POST",\n      url: "/items/delete/1",\n      data: { token: "abc123" },\n      success: function() {\n        // Manipulate the DOM\n      }\n    });\n  });\n});

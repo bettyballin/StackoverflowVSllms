@@ -1,1 +1,0 @@
-use Goutte\Client;\n\n$client = new Client();\n$urls = array('/trac/', '/svn/');\n\nforeach ($urls as $url) {\n    $fullUrl = 'http://myserver' . $url;\n    $crawler = $client->request('GET', $fullUrl);\n    $uls = $crawler->filter('ul');\n    foreach ($uls as $ul) {\n        echo $ul->html();\n    }\n}

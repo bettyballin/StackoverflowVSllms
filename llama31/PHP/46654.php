@@ -1,1 +1,0 @@
-amespace YourNamespace;\n\nfunction core_oo($function) {\n    // ...\n}

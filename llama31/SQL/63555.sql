@@ -1,1 +1,0 @@
-CREATE TABLE servers (\n  id SERIAL PRIMARY KEY,\n  hostname VARCHAR(255),\n  role VARCHAR(10) CHECK (role IN ('master', 'slave')),\n  ...\n);

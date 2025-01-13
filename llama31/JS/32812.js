@@ -1,1 +1,0 @@
-document.getElementById("myButton").addEventListener("click", function() {\n    document.getElementById("mySpan").classList.add("Centered");\n});

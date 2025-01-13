@@ -1,1 +1,0 @@
-SELECT *\nFROM t1\nJOIN t2 ON t1.a = t2.a AND t1.b = t2.b;

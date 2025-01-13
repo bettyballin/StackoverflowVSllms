@@ -1,1 +1,0 @@
-$nusoap = new soap_server();\n$nusoap->soap_defencoding = 'UTF-8';

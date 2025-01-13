@@ -1,1 +1,0 @@
-CREATE UNIQUE INDEX idx_bookmarks_url_hash ON Bookmarks (ORA_HASH(URL));

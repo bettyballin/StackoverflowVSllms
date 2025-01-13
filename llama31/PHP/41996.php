@@ -1,1 +1,0 @@
-$str = $post->post_content;\nassert( isset( $str ) );\nassert( is_string( $str ) );\necho $str;\n\n$nonExistentStr = 'before <img src="/path/to/nonexistant.gif" /> after';\necho $nonExistentStr;

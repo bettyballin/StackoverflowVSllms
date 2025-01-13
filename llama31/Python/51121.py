@@ -1,1 +1,0 @@
-from scapy.all import TCP_SERVICES\n\nport_to_service = {v: k for k, v in TCP_SERVICES.items()}\nprint(port_to_service[80])  # Output: www

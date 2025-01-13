@@ -1,1 +1,0 @@
-CREATE INDEX idx_guid ON my_table (guid);

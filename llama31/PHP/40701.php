@@ -1,1 +1,0 @@
-<?php\n$lat = $_POST['lat'];\n$lng = $_POST['lng'];\n\n// Call your PHP function with the coordinates\n$result = yourPhpFunction($lat, $lng);\n\necho $result;\n?>

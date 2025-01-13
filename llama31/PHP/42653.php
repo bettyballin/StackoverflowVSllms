@@ -1,1 +1,0 @@
-if (isset($_SESSION['logged_in']) && $_SESSION['logged_in'] === 1\n    && $_SESSION['ip_address'] === $_SERVER['REMOTE_ADDR']\n    && $_SESSION['user_agent'] === $_SERVER['HTTP_USER_AGENT']\n    && hash_equals($_SESSION['token'], $_COOKIE['session_token'])) {\n    // Session is valid\n}

@@ -1,1 +1,0 @@
-$string = 'Hello, World!';\n$length = 100;\n\n$result = substr($string, 0, $length);\nvar_dump($result); // outputs: string(13) "Hello, World!"

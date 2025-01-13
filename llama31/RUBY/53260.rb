@@ -1,1 +1,0 @@
-<%= hidden_field_tag :csrf_token, session[:csrf_token] %>

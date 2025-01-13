@@ -1,1 +1,0 @@
-$(document).ready(function() {\n  $("#s1").spinner({max: 100, min: -100});\n\n  $("#s1").on("spinchange", function() {\n    $("#label1").text($("#s1").spinner("value"));\n  });\n});

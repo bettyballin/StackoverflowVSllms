@@ -1,1 +1,0 @@
-Ext.override(Ext.form.Action, {\n  handleResponse: function(response) {\n    var script = response.responseText;\n    // evaluate the script\n    (function() {\n      eval(script);\n    })();\n  }\n});

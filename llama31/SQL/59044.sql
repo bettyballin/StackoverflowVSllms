@@ -1,1 +1,0 @@
-SELECT Id, Name, total_count \nFROM (\n  SELECT Id, Name, COUNT(*) OVER () as total_count \n  FROM my_table \n  WHERE Name LIKE '%prashant%'\n) subquery \nLIMIT 0, 10;

@@ -1,1 +1,0 @@
-success: function(result) {\n    var data = JSON.parse(result);\n    $('#response').remove();\n    $('#container').append('<p id="response">' + data.message + '</p>');\n    // Use data.comment to insert the new comment into the container\n}

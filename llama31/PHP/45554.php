@@ -1,1 +1,0 @@
-function searchObject($object, $searchTerm) {\n  foreach ($object as $key => $value) {\n    if (is_string($value) && strpos($value, $searchTerm) !== false) {\n      return $object;\n    } elseif (is_object($value)) {\n      $result = searchObject($value, $searchTerm);\n      if ($result !== null) {\n        return $result;\n      }\n    }\n  }\n  return null;\n}

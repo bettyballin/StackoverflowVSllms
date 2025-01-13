@@ -1,1 +1,0 @@
-$o = new Console_Getopt;\n$opts = $o->getopt($argv, "a:b:c");\n\n$options = array();\nforeach ($opts[0] as $keyval) {\n    list($key, $val) = $keyval;\n    $options[$key] = $val;\n}\n\nprint_r($options);

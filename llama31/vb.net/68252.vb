@@ -1,1 +1,0 @@
-Public Function GetSheepCopy() As Sheep\n    Dim sheepCopy As New Sheep()\n    sheepCopy = Me.Sheep.Clone()\n    Return sheepCopy\nEnd Functio

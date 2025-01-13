@@ -1,1 +1,0 @@
-SELECT array_get(xpath('/my/xpath/expr', my_xml), 1) FROM my_table;

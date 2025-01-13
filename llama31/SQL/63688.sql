@@ -1,1 +1,0 @@
-SELECT 'CREATE LOGIN [' + name + '] WITH PASSWORD = ''' + CONVERT(VARCHAR(256), password_hash, 2) + ''';'\nFROM sys.server_principals\nWHERE type = 'S';

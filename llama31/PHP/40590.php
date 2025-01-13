@@ -1,1 +1,0 @@
-$array = [...]; // your array data\n$serialized = serialize($array);\nfile_put_contents('cache.ser', $serialized);

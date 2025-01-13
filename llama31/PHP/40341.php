@@ -1,1 +1,0 @@
-$table_Header = $_GET['tableHeader'];

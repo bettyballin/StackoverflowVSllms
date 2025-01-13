@@ -1,1 +1,0 @@
-use Knp\Snappy\Pdf;\n\n$html = '<html><body>Hello World!</body></html>';\n$css = 'body { font-size: 20px; }';\n\n$pdf = new Pdf('/path/to/wkhtmltopdf');\n$pdf->setHtml($html);\n$pdf->addCss($css);\n$pdf->save('output.pdf');

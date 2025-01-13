@@ -1,1 +1,0 @@
-$db = Database::getInstance('localhost', 'username', 'password', 'database');\n$connection = $db->getConnection();

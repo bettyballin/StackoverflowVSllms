@@ -1,1 +1,0 @@
-require 'sequel/core'\n\nDB = Sequel.connect('sqlite://example.db')\n\nclass User < Sequel::Dataset\n  def self.find(id)\n    DB[:users].where(id: id).first\n  end\nend\n\nuser = User.find(1)\nputs user[:name]

@@ -1,1 +1,0 @@
-CREATE OR REPLACE PROCEDURE your_procedure_name\nAUTHID CURRENT_USER\nAS\nBEGIN\n  SELECT * FROM DBA_JOBS_RUNNING;\n  -- rest of your procedure code\nEND;

@@ -1,1 +1,0 @@
-import re\ntext = """echo “HAL,” noted Frank, “said that everything was going extremely well.”"""\nquotations = re.findall(r'"[^"]*"|“[^”]*”', text)\nfor quotation in quotations:\n    print(quotation)

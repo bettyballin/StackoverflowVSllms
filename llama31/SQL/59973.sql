@@ -1,1 +1,0 @@
--- Example of BULK INSERT in MS SQL\nBULK INSERT your_table\nFROM 'path_to_your_data_file.csv'\nWITH\n(\n    FIELDTERMINATOR = ',',\n    ROWTERMINATOR = '\n'\n);

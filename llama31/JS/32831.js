@@ -1,1 +1,0 @@
-window.myAlias = function(id) {\n  return document.getElementById(id);\n};

@@ -1,1 +1,0 @@
-msg_footer = """This one too."""

@@ -1,1 +1,0 @@
-Public Class MyUserControl\n    Private requiredVariable As String\n\n    Public Sub New(requiredVariable As String)\n        InitializeComponent()\n        Me.requiredVariable = requiredVariable\n    End Sub\n\n    ' Rest of your control's code...\nEnd Class

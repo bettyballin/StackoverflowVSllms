@@ -1,1 +1,0 @@
-SELECT \n  customerName, \n  customerId,\n  (\n    SELECT COUNT(*) \n    FROM Purchases \n    WHERE Purchases.customerId = customerData.customerId\n  ) AS numberTransactions\nFROM customerData\nORDER BY (\n  SELECT COUNT(*) \n  FROM Purchases \n  WHERE Purchases.customerId = customerData.customerId\n);

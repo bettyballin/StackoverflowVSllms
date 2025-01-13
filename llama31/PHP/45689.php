@@ -1,1 +1,0 @@
-// PHP example using PHP-Lisp to execute Lisp code\n$lisp = new Lisp();\n$lisp->eval('(print "Hello, World!")');

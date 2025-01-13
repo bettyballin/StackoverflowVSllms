@@ -1,1 +1,0 @@
-IF @DateValue = '1/1/1900'\n  SELECT *\n  FROM table\n  WHERE field1 = 'x'\n    AND field2 = 'y'\n    AND field3 <= GETDATE()\nELSE\n  SELECT *\n  FROM table\n  WHERE field1 = 'x'\n    AND field2 = 'y'\n    AND field3 = @DateValue

@@ -1,1 +1,0 @@
-private function scan_cleanup($scan) {\n    static $seen = array();\n\n    if ($scan['reviewed'] == 0) {\n        if (in_array($scan['patientid'], $seen)) {\n            return false;\n        }\n        $seen[] = $scan['patientid'];\n    }\n    return true;\n}

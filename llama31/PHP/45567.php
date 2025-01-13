@@ -1,1 +1,0 @@
-date_default_timezone_set($user->timeZone);\n$dateLastActive = date('Y-m-d H:i:s', strtotime($oUser->dateLastActive));

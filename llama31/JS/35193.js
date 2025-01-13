@@ -1,1 +1,0 @@
-# Example using Node.js and Express.js\napp.get('/login-status', (req, res) => {\n  if (req.isAuthenticated()) {\n    res.send('logged_in');\n  } else {\n    res.send('not_logged_in');\n  }\n});

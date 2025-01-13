@@ -1,1 +1,0 @@
-from selenium import webdriver\n\ndriver = webdriver.Firefox()  # or any other browser\ndriver.get("http://example.com")\nhtml_source = driver.page_source\nyour_function(html_source)  # pass the html source to your functio

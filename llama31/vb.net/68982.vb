@@ -1,1 +1,0 @@
-Imports System.Data.Linq\n\n' Create a DataContext class\nPublic Class MyDataContext\n    Inherits DataContext\n\n    Public Property Customers As Table(Of Customer)\nEnd Class\n\n' Generate the model classes (e.g., Customer) using the LINQ to SQL Designer

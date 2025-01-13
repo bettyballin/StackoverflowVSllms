@@ -1,1 +1,0 @@
-echo filter_var($uri, FILTER_SANITIZE_URL);

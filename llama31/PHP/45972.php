@@ -1,1 +1,0 @@
-$test = preg_replace('#[^\w"-]#', '', $string);

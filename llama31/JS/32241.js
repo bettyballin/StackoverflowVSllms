@@ -1,1 +1,0 @@
-document.getElementById('yourTextboxId').addEventListener('blur', function() {\n  var date = this.value;\n  var maxDate = new Date();\n  maxDate.setMonth(maxDate.getMonth() - 2);\n\n  if (new Date(date) < maxDate) {\n    alert('Date is more than 2 months prior');\n    this.value = ''; // clear the input field\n    this.focus(); // set focus back to the input field\n  }\n});

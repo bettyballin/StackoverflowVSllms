@@ -1,1 +1,0 @@
-def find_item_in_list(lst, item):\n    for i in lst:\n        if i == item:\n            return True\n    return False

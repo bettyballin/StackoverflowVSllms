@@ -1,1 +1,0 @@
-var xhr = null;\n\n// Before sending a new request, cancel any ongoing request\nif (xhr !== null) {\n  xhr.abort();\n  xhr = null;\n}\n\n// Send a new request\nxhr = $.ajax({\n  type: "POST",\n  url: "/your/url",\n  data: yourData,\n  success: function(data) {\n    // Handle success\n  }\n});

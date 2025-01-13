@@ -1,1 +1,0 @@
-headers.each(function() {\n    var header = $(this);\n    if (header.attr('data-sortable') === 'true') {\n        header.click(function() {\n            // sorting code here\n        });\n    }\n});

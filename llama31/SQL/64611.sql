@@ -1,1 +1,0 @@
-SELECT * FROM addenda.users \nWHERE users.username LIKE '%!_' ESCAPE '!'

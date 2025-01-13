@@ -1,1 +1,0 @@
-putenv('PATH=' . getenv('PATH') . ':/path/to/ghostscript/bin');\n$im = new Imagick($pdf_file);

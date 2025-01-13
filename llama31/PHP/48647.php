@@ -1,1 +1,0 @@
-$query = "SELECT t1.* FROM Table1 t1\n          LEFT JOIN Table2 t2 ON t1.ID = t2.accountID AND t2.parent = 'your_search_value'\n          WHERE t2.accountID IS NULL";

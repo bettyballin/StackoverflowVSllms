@@ -1,1 +1,0 @@
-# Server-side Python (e.g. Flask)\nfrom flask import Flask, request\n\napp = Flask(__name__)\n\n@app.route('/resource', methods=['POST'])\ndef handle_resource():\n    if request.json.get('_method') == 'PUT':\n        # Handle PUT logic\n    elif request.json.get('_method') == 'DELETE':\n        # Handle DELETE logic\n    else:\n        # Handle regular POST logic

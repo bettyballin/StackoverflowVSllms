@@ -1,1 +1,0 @@
-def integrate_chatbot_training_data_with_knowledge_graphs(data, knowledge_graph_sources):\n    # Integrate data with knowledge graphs\n    integrated_data = integrate_data_with_knowledge_graphs(data, knowledge_graph_sources)\n    return integrated_data

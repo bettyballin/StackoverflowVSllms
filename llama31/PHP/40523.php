@@ -1,1 +1,0 @@
-// module/Application/config/module.config.php\n\n'router' => [\n    'routes' => [\n        'database' => [\n            'type' => DatabaseRouter::class,\n            'options' => [\n                'adapter' => 'db_adapter', // Replace with your database adapter service name\n            ],\n        ],\n    ],\n],

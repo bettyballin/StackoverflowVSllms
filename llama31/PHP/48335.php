@@ -1,1 +1,0 @@
-header('Content-Type: application/pdf'); // specify content type\nheader('Content-Disposition: attachment; filename="downloaded.pdf"'); // specify file name for download\nheader('Content-Length: 12345'); // specify content length in bytes

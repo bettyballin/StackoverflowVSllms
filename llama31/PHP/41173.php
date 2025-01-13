@@ -1,1 +1,0 @@
-exec("service samba restart");

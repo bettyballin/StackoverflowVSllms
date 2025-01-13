@@ -1,1 +1,0 @@
-SELECT waiting_session FROM DBA_WAITERS;

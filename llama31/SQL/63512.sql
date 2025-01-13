@@ -1,1 +1,0 @@
-CREATE LOGIN mylogin WITH PASSWORD = 'mypassword';\nGO\n\nUSE mydatabase;\nGO\n\nCREATE USER myuser FOR LOGIN mylogin;\nGO

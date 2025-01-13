@@ -1,1 +1,0 @@
-SELECT id, (\n    SELECT COUNT(*) FROM tableA AS a2 WHERE a2.value < a1.id\n)\nFROM tableA AS a1\nWHERE id < 5;

@@ -1,1 +1,0 @@
-// auth.php\nif (!isset($_SESSION['userid'])) {\n    http_response_code(401);\n    echo 'Session timed out. Please login again.';\n    exit;\n}

@@ -1,1 +1,0 @@
-$('#comment\\:commentBody').markItUp(mySettings);

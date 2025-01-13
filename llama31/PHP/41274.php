@@ -1,1 +1,0 @@
-Route::set('article', '(<title>)', array(\n    'controller' => 'Articles',\n    'action' => 'view'\n));

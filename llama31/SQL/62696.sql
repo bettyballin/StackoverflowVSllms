@@ -1,1 +1,0 @@
--- Assuming 10M rows with 5-10 characters long strings\n-- NVARCHAR(MAX) storage: 2 bytes/char * 10M rows * 10 chars (avg) = 200MB\n-- NVARCHAR(10) storage: 2 bytes/char * 10M rows * 5 chars (avg) = 100MB\n-- NVARCHAR(50) storage: 2 bytes/char * 10M rows * 10 chars (avg) = 200MB (but still less than MAX)

@@ -1,1 +1,0 @@
-EXEC sp_configure 'show advanced options', 1;\nRECONFIGURE;\nEXEC sp_configure 'SQL Server Logs', 1;\nRECONFIGURE;

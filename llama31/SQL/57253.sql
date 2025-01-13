@@ -1,1 +1,0 @@
-SELECT * FROM widget\nWHERE REGEXP_LIKE(name, '^ba.*', 'i') AND REGEXP_LIKE(name, '^.*bi', 'i')

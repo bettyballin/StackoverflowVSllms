@@ -1,1 +1,0 @@
-$character = 'š';\n$encoded = utf8_encode($character);\necho $encoded;

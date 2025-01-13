@@ -1,1 +1,0 @@
-CREATE TABLE sections (\n  id INT PRIMARY KEY,\n  name VARCHAR(255)\n);\n\nCREATE TABLE items (\n  id INT PRIMARY KEY,\n  name VARCHAR(255)\n);\n\nCREATE TABLE item_sections (\n  item_id INT,\n  section_id INT,\n  PRIMARY KEY (item_id, section_id),\n  FOREIGN KEY (item_id) REFERENCES items(id),\n  FOREIGN KEY (section_id) REFERENCES sections(id)\n);

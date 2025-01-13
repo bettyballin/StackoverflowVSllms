@@ -1,1 +1,0 @@
-SELECT \n    Id, \n    Status, \n    BatchRef, \n    ItemCount\nFROM \n(\n    SELECT \n        Id, \n        Status, \n        BatchRef, \n        ItemCount,\n        ROW_NUMBER() OVER (PARTITION BY Id ORDER BY Status DESC) as RowNum\n    FROM \n        HistoryTable\n    WHERE \n        BatchRef = @BatchRef\n) HT\nWHERE \n    RowNum = 1;

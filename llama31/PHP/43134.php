@@ -1,1 +1,0 @@
-<?= $this->url(array(\n    'controller'=>'my.controller',\n    'action'=>'my.action',\n), array('fragment' => 'myanchor')); ?>

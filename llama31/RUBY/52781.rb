@@ -1,1 +1,0 @@
-require 'nokogiri'\n\nhtml = '<html><body>Hello World!</body></html>'\ndoc = Nokogiri::HTML(html)\n\nputs doc.css('body').text # Output: "Hello World!"

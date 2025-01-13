@@ -1,1 +1,0 @@
-DECLARE @sql nvarchar(max) = '\n    SELECT \n        grade, \n        (COUNT(*) * 1.0 / (SELECT COUNT(*) FROM your_table)) * 100 AS percentage\n    FROM \n        your_table\n    GROUP BY \n        grade\n    ORDER BY \n        grade\n';\n\nEXEC sp_executesql @sql;

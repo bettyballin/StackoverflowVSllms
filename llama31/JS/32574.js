@@ -1,1 +1,0 @@
-const favicons = {\n  'brand1': 'path/to/brand1_favicon.ico',\n  'brand2': 'path/to/brand2_favicon.ico',\n  // ...\n};\n\nconst currentBrand = 'brand1'; // Replace with the current user's brand\ndocument.getElementById('favicon').href = favicons[currentBrand];

@@ -1,1 +1,0 @@
-SELECT t1.tag \nFROM (SELECT 'tag1' AS tag UNION SELECT 'tag2' UNION SELECT 'tag3' /* ... */) t1 \nLEFT JOIN tags t2 ON t1.tag = t2.tag \nWHERE t2.tag IS NULL;

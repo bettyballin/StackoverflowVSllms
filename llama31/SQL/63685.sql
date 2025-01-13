@@ -1,1 +1,0 @@
-SELECT \n  CONCAT(SUBSTRING_INDEX(Field1, '-', -1), '_', SUBSTRING_INDEX(Field1, '-', 1)) AS Field1\nFROM \n  YourTable;

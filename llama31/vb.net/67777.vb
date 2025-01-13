@@ -1,1 +1,0 @@
-Response.Cookies("myVariable") = "someValue"

@@ -1,1 +1,0 @@
-SELECT Order\nFROM your_table\nWHERE Sequence != (SELECT MIN(Sequence) + (Order - 1)\n                   FROM your_table\n                   WHERE Group = your_table.Group)

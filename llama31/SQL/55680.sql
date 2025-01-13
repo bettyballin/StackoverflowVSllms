@@ -1,1 +1,0 @@
-CREATE TABLE test (\n  id INT PRIMARY KEY,\n  name VARCHAR(9),\n  email VARCHAR(32)\n);\n\nCREATE TABLE test_aligned (\n  id INT PRIMARY KEY,\n  name VARCHAR(16),\n  email VARCHAR(32)\n);

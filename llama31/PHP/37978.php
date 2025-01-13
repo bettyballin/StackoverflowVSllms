@@ -1,1 +1,0 @@
-$finfo = finfo_open(FILEINFO_MIME_TYPE);\n$mime_type = finfo_file($finfo, $nomeFile);\nfinfo_close($finfo);\n\nif (in_array($mime_type, array('image/jpeg', 'image/png', 'application/pdf', ...))) {\n    // File type is acceptable\n} else {\n    // File type is not acceptable\n}

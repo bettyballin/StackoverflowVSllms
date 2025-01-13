@@ -1,1 +1,0 @@
-CREATE TABLE journal_entries (\n  id INT PRIMARY KEY,\n  account_id INT,\n  amount DECIMAL(10, 2),\n  transaction_date DATE\n);\n\nINSERT INTO journal_entries (account_id, amount, transaction_date)\nVALUES\n  (1, -29.00, '2022-01-01'),  -- Debit Consulting & Accounting (E)\n  (2, -31.39, '2022-01-01'),  -- Debit AP (L)\n  (3, 2.39, '2022-01-01');  -- Credit Sales Tax (L)

@@ -1,1 +1,0 @@
-import pycrpt\n\nreport = pycrpt.Report('input.rpt')\nsql_queries = report.sql_queries\n\nfor query in sql_queries:\n    print(query)

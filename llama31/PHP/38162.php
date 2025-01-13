@@ -1,1 +1,0 @@
-// Start the session\nsession_start();\n\n// Retrieve the key from the session\n$key = $_SESSION['key'];\n\n// Use the key as needed

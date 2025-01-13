@@ -1,1 +1,0 @@
-SET SESSION date_format = '%d-%b-%Y';

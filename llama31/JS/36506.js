@@ -1,1 +1,0 @@
-// myHandler.js\nvar myHandler = (function() {\n  var handler = {\n    init: function() {\n      // initialization code here\n    },\n    doSomething: function() {\n      // some other method\n    }\n  };\n  return handler;\n}());

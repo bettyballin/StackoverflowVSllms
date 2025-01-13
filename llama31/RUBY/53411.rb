@@ -1,1 +1,0 @@
-config.active_record.yaml_encoding = 'utf-8'

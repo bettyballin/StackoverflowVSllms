@@ -1,1 +1,0 @@
-// In your module's config\n'view_helpers' => array(\n    'invokables' => array(\n        'ObjectName' => 'YourModule\View\Helper\ObjectName',\n    ),\n),

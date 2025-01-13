@@ -1,1 +1,0 @@
-$output = shell_exec('dig ...'); // run the dig command and capture output\n$pattern = '/"([^"]+)"/'; // regular expression to match contents inside double quotes\npreg_match_all($pattern, $output, $matches); // run regex on entire output\n$array = array_chunk($matches[1], 4); // group matches into arrays of 4\n\nprint_r($array);

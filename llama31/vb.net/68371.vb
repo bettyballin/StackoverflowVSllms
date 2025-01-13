@@ -1,1 +1,0 @@
-Dim data As New Dictionary(Of String, Integer)\ndata.Add("Jan", 10)\ndata.Add("Feb", 20)\ndata.Add("Mar", 30)\ndata.Add("Apr", 40)\ndata.Add("May", 50)\n\nDim graph As Bitmap = LineGraph.CreateLineGraph(data)\ngraph.Save("graph.png", ImageFormat.Png)

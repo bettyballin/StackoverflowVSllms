@@ -1,1 +1,0 @@
-SELECT *\nFROM YourTable\nWHERE HashColumn = CONVERT(varbinary(32), HASHBYTES('SHA2_256', @SearchValue))\n  AND YourLongColumn = @SearchValue;

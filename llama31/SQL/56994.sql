@@ -1,1 +1,0 @@
-if (COALESCE(@date, 0) = 0) SELECT 'date is null' ELSE SELECT 'date not null'

@@ -1,1 +1,0 @@
-<mxmlc ...>\n    <arg value="-services"/>\n    <arg value="${basedir}/services-config.xml"/>\n</mxmlc>

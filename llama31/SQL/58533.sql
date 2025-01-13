@@ -1,1 +1,0 @@
--- Enable auditing on a procedure\nAUDIT EXECUTE ON PROCEDURE my_procedure BY ACCESS;\n\n-- Query the audit trail\nSELECT * \nFROM dba_audit_object \nWHERE object_name = 'MY_PROCEDURE';

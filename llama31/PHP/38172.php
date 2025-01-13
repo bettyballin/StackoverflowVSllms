@@ -1,1 +1,0 @@
-$xml_results = '<?xml version="1.0" encoding="UTF-8"?><Properties><Property><Name>Joes Crab Shack</Name><Address>111 Shack Street</Address></Property><Property><Name>Johns Shoe Store</Name><Address>123 Shoe Avenue</Address></Property></Properties>';\n\n$xml = simplexml_load_string($xml_results);\n\nforeach ($xml->Property as $property) {\n    echo $property->Name . "\n";\n}

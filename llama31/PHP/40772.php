@@ -1,1 +1,0 @@
-$caturl = Mage::getUrl($_category->getUrlPath(), array('_store' => 'default'));

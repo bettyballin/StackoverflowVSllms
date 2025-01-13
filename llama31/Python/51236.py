@@ -1,1 +1,0 @@
-import sqlparse\n\nsql = "SELECT * FROM users WHERE id = 123 AND name = 'John Doe'"\nnormalized_sql = sqlparse.format(sql, strip_comments=True, reindent=True, keyword_case='upper')\n\nprint(normalized_sql)\n# Output: "SELECT * FROM users WHERE id = ? AND name = ?"

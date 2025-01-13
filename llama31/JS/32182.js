@@ -1,1 +1,0 @@
-$('#section').html(data).fadeIn();

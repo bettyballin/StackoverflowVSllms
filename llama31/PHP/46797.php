@@ -1,1 +1,0 @@
-$form = new Zend_Form();\n$form->setEnctype(Zend_Form::ENCTYPE_MULTIPART);

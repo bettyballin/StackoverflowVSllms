@@ -1,1 +1,0 @@
-google.load("feeds", "1");\n\nfunction checkFeedUpdates(feedUrl) {\n  var feed = new google.feeds.Feed(feedUrl);\n  feed.getHead(function(result) {\n    if (!result.error) {\n      var updated = result.feed.updated;\n      // compare the updated timestamp with the previous one\n      // to determine if the feed has been updated\n    }\n  });\n}

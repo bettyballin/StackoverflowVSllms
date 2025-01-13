@@ -1,1 +1,0 @@
-// Example PHP script using the CLI\n<?php\n  // Print a message to the console\n  echo "Hello, World!\n";\n\n  // Read input from the user\n  $name = readline("What is your name? ");\n\n  // Print a greeting\n  echo "Hello, $name!\n";\n?>

@@ -1,1 +1,0 @@
-SELECT DISTINCT Year, Month\nFROM (\n  SELECT Year, Month FROM Table1\n  UNION\n  SELECT Year, Month FROM Table2\n  UNION\n  SELECT Year, Month FROM Table3\n) AS CombinedTable\nORDER BY Year DESC, Month DESC;

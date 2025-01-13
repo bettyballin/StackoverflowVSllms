@@ -1,1 +1,0 @@
-SELECT * FROM pictures WHERE item_id = ?;

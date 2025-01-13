@@ -1,1 +1,0 @@
-<?php ec3_get_events(\n    5,                                          // limit\n    '%DATE%: <a style="text-decoration: underline;" href="%LINK%">%TITLE%</a> (%TIME%)',  // template_event\n    '',                                         // template_day\n    'j',                                        // date_format\n    '<h2>%MONTH%</h2>' ); ?>

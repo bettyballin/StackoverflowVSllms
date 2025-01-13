@@ -1,1 +1,0 @@
-SELECT t1.ID, t1.DateCreated\nFROM your_table t1\nINNER JOIN (\n  SELECT ID, MAX(DateCreated) as max_DateCreated\n  FROM your_table\n  GROUP BY ID\n) t2\nON t1.ID = t2.ID AND t1.DateCreated = t2.max_DateCreated

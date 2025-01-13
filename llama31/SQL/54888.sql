@@ -1,1 +1,0 @@
-CREATE TABLE votes (\n  user_id INT,\n  rating_instance_id INT,\n  PRIMARY KEY (user_id, rating_instance_id)\n);

@@ -1,1 +1,0 @@
-$.post("Default.aspx/TestMethod",\n    {name:"Bob"},\n    function(msg) {\n        alert("Data Recieved: " + msg);\n    },\n    "json"\n);

@@ -1,1 +1,0 @@
-function RetrievePageContent($url) {\n    if (!preg_match('/^https?:\/\//', $url)) {\n        throw new Exception("Invalid URL");\n    }\n    // rest of the function...\n}

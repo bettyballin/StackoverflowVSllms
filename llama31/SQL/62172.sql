@@ -1,1 +1,0 @@
-SELECT t \nFROM Test t \nLEFT JOIN FETCH t.testExtension \nWHERE t.testId = :testId

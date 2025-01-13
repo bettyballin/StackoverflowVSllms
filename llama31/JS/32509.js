@@ -1,1 +1,0 @@
-$('#toggle-button').on('click', function() {\n  $('#table-to-toggle').toggleClass('show');\n});

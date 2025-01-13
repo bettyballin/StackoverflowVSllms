@@ -1,1 +1,0 @@
-$input = 'matchme';\n$pattern = '/^matchme.*/';\n\nif (preg_match($pattern, $input)) {\n    echo 'Match found';\n} else {\n    echo 'No match found';\n}

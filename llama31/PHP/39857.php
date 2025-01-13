@@ -1,1 +1,0 @@
-$type = preg_replace('/([^a-z]|^.{3,})/', '', strtolower($_GET["type"]), 1);

@@ -1,1 +1,0 @@
-<?php\nwhile (true) {\n    // Your code here\n    exec("php your_script.php");\n    sleep(10);\n}

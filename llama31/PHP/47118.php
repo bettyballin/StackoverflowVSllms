@@ -1,1 +1,0 @@
-if (filter_var($url, FILTER_VALIDATE_URL)) {\n    // The URL is valid\n} else {\n    // The URL is not valid\n}

@@ -1,1 +1,0 @@
-import subprocess\n\n# Handle form submission\nform_data = request.form\n\n# Execute the executable file using subprocess\nsubprocess.run(['./Lib.exe', form_data['user']])

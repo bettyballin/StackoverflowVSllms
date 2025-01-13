@@ -1,1 +1,0 @@
-SELECT c.*, ct.thread_path\nFROM comment c\nJOIN comment_thread ct ON c.comment_id = ct.comment_id\nORDER BY ct.thread_path;

@@ -1,1 +1,0 @@
-if (isset($req[$name])) {\n    // index exists, you can access it\n} else {\n    // index doesn't exist, you can initialize it\n    $req[$name] = $value;\n}

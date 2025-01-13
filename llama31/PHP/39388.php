@@ -1,1 +1,0 @@
-setcookie("username", "George", 0, "/", ".localhost", false);\nsetcookie("name", "Joe", 0, "/", ".localhost", false);

@@ -1,1 +1,0 @@
-BEGIN\n    DECLARE @a INT = 1;\n    DECLARE @b INT = 2;\n    PRINT @a + @b;\nEND;\n\nBEGIN\n    DECLARE @a INT = 3;\n    DECLARE @b INT = 4;\n    PRINT @a + @b;\nEND;

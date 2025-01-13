@@ -1,1 +1,0 @@
-<select id="yourSqlId" resultClass="java.util.HashMap">\n    SELECT column1, column2, column3\n    FROM your_table\n    WHERE your_condition\n</select>

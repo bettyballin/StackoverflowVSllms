@@ -1,1 +1,0 @@
-mysql_query("SET @user_update = TRUE");

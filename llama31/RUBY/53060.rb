@@ -1,1 +1,0 @@
-# db/migrate/20230220150359_rename_timestamp_columns.rb\nclass RenameTimestampColumns < ActiveRecord::Migration[7.0]\n  def change\n    rename_column :users, :created_at, :created_on\n    rename_column :users, :updated_at, :updated_on\n  end\nend

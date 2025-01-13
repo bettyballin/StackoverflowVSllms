@@ -1,1 +1,0 @@
-class OrganizationService {\n    public function saveOrganization(Organization $org): void {\n        // Save the organization to the database\n    }\n\n    public function getOrganizationById($orgId): Organization {\n        // Retrieve an organization by its ID\n    }\n}

@@ -1,1 +1,0 @@
-CREATE TABLE XmlTable (\n    Name nvarchar(50),\n    Age int\n);\n\nDECLARE @xmlData xml = '<root><person><name>John</name><age>30</age></person></root>';\n\nINSERT INTO XmlTable (Name, Age)\nSELECT *\nFROM OPENXML(@xmlData, '/root/person')\nWITH (\n    Name nvarchar(50) '(name)',\n    Age int '(age)'\n);

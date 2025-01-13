@@ -1,1 +1,0 @@
-const obj = { foo: 'bar', baz: { qux: 'quux' } };\nconsole.log(JSON.stringify(obj, null, 2));

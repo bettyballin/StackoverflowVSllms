@@ -1,1 +1,0 @@
-d = dict(param='test')\n\ndef f(param):\n    print(param)\n\nf(**d)  # prints: test\n\nd = dict(p1=1, p2=2)\n\ndef f2(p1, p2):\n    print(p1, p2)\n\nf2(**d)  # prints: 1 2

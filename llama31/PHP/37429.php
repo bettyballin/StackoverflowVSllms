@@ -1,1 +1,0 @@
-$client = new GuzzleHttp\Client();\n$response = $client->post('https://api.example.com/device/control', [\n    'json' => ['speed' => 50]\n]);

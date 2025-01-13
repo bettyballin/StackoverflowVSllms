@@ -1,1 +1,0 @@
-SELECT t.column1, udf_result\nFROM your_table t\nCROSS APPLY your_udf(t.column1) AS udf_result;

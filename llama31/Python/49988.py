@@ -1,1 +1,0 @@
-def inner():\n    pass\n\ndef outer():\n    inner()  # call the inner functio

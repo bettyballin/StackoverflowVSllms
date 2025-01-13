@@ -1,1 +1,0 @@
-// Set page state\nwindow.name = JSON.stringify({\n  sortingOption: 'name',\n  pageNumber: 2\n});\n\n// Get page state\nvar state = JSON.parse(window.name);

@@ -1,1 +1,0 @@
-import faker\n\ndef anonymize_user_data(user_data):\n    fake = faker.Faker()\n    anonymized_data = {\n        'username': fake.username(),\n        'email': fake.email(),\n        'name': fake.name(),\n        # ...\n    }\n    return anonymized_data

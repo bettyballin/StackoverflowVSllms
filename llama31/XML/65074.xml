@@ -1,1 +1,0 @@
-<taskdef resource="net/sf/antcontrib/antlib.xml">\n    <classpath>\n        <pathelement location="${ant.contrib.jar}"/>\n    </classpath>\n</taskdef>

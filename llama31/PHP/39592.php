@@ -1,1 +1,0 @@
-$requiredParams = $reflection->getNumberOfRequiredParameters();\necho "Number of required parameters: $requiredParams\n";

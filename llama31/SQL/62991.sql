@@ -1,1 +1,0 @@
-SELECT ItemID\nFROM ItemCategory\nWHERE CategoryID IN (01, 02)\nINTERSECT\nSELECT ItemID\nFROM ItemCategory\nWHERE CategoryID NOT IN (12)

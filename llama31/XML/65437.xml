@@ -1,1 +1,0 @@
-<hibernate-configuration>\n    ...\n    <property name="hbm2ddl.auto">update</property>\n    <property name="hibernate.id.new_generator_mappings">true</property>\n    <mapping class="com.example.BaseClass"/>\n</hibernate-configuration>

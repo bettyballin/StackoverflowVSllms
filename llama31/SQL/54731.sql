@@ -1,1 +1,0 @@
-SELECT \n  ID,\n  DECODE(LEVEL, 1, 'Value1', 2, 'Value2', 3, 'Value3') AS Name,\n  DECODE(LEVEL, 1, Value1, 2, Value2, 3, Value3) AS Value\nFROM \n  your_table\nCONNECT BY \n  LEVEL <= 3 AND PRIOR ID = ID AND PRIOR DBMS_RANDOM.VALUE IS NOT NULL

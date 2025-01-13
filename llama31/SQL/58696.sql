@@ -1,1 +1,0 @@
-WITH MatchResultCTE AS (\n    SELECT MatchId FROM MatchResult WHERE SOME_CONDITION\n)\nDELETE FROM MatchEvent WHERE MatchId IN (SELECT MatchId FROM MatchResultCTE);\n\nWITH MatchResultCTE AS (\n    SELECT MatchId FROM MatchResult WHERE SOME_CONDITION\n)\nDELETE FROM MatchResult WHERE MatchId IN (SELECT MatchId FROM MatchResultCTE);

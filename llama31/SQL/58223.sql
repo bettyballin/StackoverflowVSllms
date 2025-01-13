@@ -1,1 +1,0 @@
-SELECT CONCAT('INSERT INTO `table_name` (`field1`, `field2`) VALUES (',\n               QUOTE(field1), ',', QUOTE(field2), ');')\nFROM table_name;

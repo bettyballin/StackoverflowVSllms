@@ -1,1 +1,0 @@
-import logging\n\n# Set the log level to DEBUG for development\nlogging.basicConfig(level=logging.DEBUG)\n\n# In your code, use the debug function to print debug messages\nlogging.debug("This is a debug message")\n\n# To disable debugging output for release, set the log level to INFO or higher\nlogging.basicConfig(level=logging.INFO)

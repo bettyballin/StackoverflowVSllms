@@ -1,1 +1,0 @@
-<configuration>\n  <location path="App_Data">\n    <system.web>\n      <authorization>\n        <deny users="*" />\n      </authorization>\n    </system.web>\n    <system.webServer>\n      <handlers>\n        <remove name="StaticFile" />\n      </handlers>\n    </system.webServer>\n  </location>\n</configuration>

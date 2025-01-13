@@ -1,1 +1,0 @@
-data : {\n    id : '1',\n    data : encodeURIComponent('<p>This is a test of the system that shows me an alert !</p>')\n}

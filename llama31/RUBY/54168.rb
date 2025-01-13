@@ -1,1 +1,0 @@
-# In your ApplicationController or a specific controller\nbefore_action :restrict_access\n\nprivate\n\ndef restrict_access\n  allowed_ips = ['192.168.1.100', '192.168.1.200'] # Replace with your allowed IP addresses\n  if !allowed_ips.include?(request.remote_ip)\n    render status: :unauthorized, text: 'Access denied'\n  end\nend

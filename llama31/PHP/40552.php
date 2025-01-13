@@ -1,1 +1,0 @@
-$stmt = $mysqli->prepare("INSERT INTO blog_posts (title, content) VALUES (?, ?)");\n$stmt->bind_param("ss", $title, $content);\n$stmt->execute();

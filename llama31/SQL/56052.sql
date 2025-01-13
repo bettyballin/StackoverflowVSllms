@@ -1,1 +1,0 @@
-CREATE PROCEDURE MyProcedure\n    @LargeText varchar(max)\nAS\nBEGIN\n    -- Process the large text data\n    SELECT @LargeText\nEND

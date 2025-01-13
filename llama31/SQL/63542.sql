@@ -1,1 +1,0 @@
-CREATE INDEX idx_legacy_product_table ON LEGACY_PRODUCT_TABLE (STYLE_NBR, COLOR_NBR);\nCREATE INDEX idx_marketing_product_table ON MARKETING_PRODUCT_TABLE (style_number, colour_number);

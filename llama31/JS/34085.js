@@ -1,1 +1,0 @@
-// Get the container element\nvar container = document.getElementById('topics');\n\n// Add HTML content to the container\ncontainer.innerHTML += '<div id="mysection"></div>';

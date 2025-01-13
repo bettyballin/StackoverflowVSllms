@@ -1,1 +1,0 @@
-var firstDiv = document.getElementById( 'one' );

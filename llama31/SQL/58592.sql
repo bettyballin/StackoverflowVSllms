@@ -1,1 +1,0 @@
-SELECT DISTINCT p.product_id\nFROM products p\nJOIN attribproducts ap1 ON p.product_id = ap1.product_id AND ap1.attribute_id IN (9, 10, 11)\nJOIN attribproducts ap2 ON p.product_id = ap2.product_id AND ap2.attribute_id IN (60, 61)

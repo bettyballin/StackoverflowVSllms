@@ -1,1 +1,0 @@
-SELECT mp.*, mprice.*\nFROM MyParts mp\nLEFT JOIN MyPrices mprice\nON mp.Partid = mprice.Partid\nAND mprice.PriceDate = (SELECT MAX(m2.PriceDate)\n                        FROM MyPrices m2\n                        WHERE m2.Partid = mp.Partid);

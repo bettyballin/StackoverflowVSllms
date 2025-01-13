@@ -1,1 +1,0 @@
-// delete all cookies\nfunction deleteCookies() {\n  var cookies = document.cookie.split(';');\n  for (var i = 0; i < cookies.length; i++) {\n    var cookieName = cookies[i].split('=')[0].trim();\n    document.cookie = cookieName + '=; expires=Fri, 12-Mar-1999 19:36:15 GMT; path=/; domain=www.example.com';\n  }\n}

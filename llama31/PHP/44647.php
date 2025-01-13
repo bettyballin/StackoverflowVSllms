@@ -1,1 +1,0 @@
-$xpath = new DOMXPath($doc);\n$mediaAttribute = $xpath->query("fn:normalize-space(./@media)");

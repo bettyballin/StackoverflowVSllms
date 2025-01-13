@@ -1,1 +1,0 @@
-function myFunction() {\n  $db = Database::getInstance();\n  $mysqli = $db->getMysqli();\n  // Use $mysqli here\n}

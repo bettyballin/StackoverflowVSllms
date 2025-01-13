@@ -1,1 +1,0 @@
-header('Content-Length: ' . filesize($file));

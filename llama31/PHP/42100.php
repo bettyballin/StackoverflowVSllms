@@ -1,1 +1,0 @@
-$stat = statvfs('.');\n$max_length = $stat['namemax'];\necho $max_length;

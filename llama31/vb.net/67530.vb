@@ -1,1 +1,0 @@
-Dim yourOuterComplexType As New YourOuterComplexType()\nyourOuterComplexType.InnerComplexType = New YourInnerComplexType()\nyourOuterComplexType.InnerComplexType.PartNumber = "12345"

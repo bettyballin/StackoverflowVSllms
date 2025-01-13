@@ -1,1 +1,0 @@
--- Standard SQL\nSELECT * FROM customers\nWHERE country='USA';\n\n-- T-SQL (specific to SQL Server)\nDECLARE @country nvarchar(50) = 'USA';\nSELECT * FROM customers\nWHERE country = @country;

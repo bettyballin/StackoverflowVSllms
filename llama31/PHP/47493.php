@@ -1,1 +1,0 @@
-$password2->addValidator(new My_Validate_PasswordMatch());

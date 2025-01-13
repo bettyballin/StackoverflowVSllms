@@ -1,1 +1,0 @@
-$token = $_GET['oauth_token'];

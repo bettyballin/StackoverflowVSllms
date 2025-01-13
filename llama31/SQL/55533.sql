@@ -1,1 +1,0 @@
-SELECT \n    [name], \n    crdate, \n    refdate, \n    updatedate \nFROM \n    sysobjects \nWHERE \n    xtype = 'U' \nORDER BY \n    updatedate DESC

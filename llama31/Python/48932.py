@@ -1,1 +1,0 @@
-import lz4\n\n# Serialize the data using struct (same as above)\nserialized_data = b''.join(struct.pack('>ii', x[0], x[1]) + struct.pack('>f', x[2]) for x in data)\n\n# Compress the serialized data using lz4\ncompressed_data = lz4.compress(serialized_data)

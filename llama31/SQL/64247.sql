@@ -1,1 +1,0 @@
-CREATE TABLE merged_table LIKE table1;\nALTER TABLE merged_table DROP PRIMARY KEY;\nINSERT INTO merged_table SELECT * FROM table1;\nINSERT INTO merged_table SELECT * FROM table2;\nALTER TABLE merged_table ADD PRIMARY KEY (new_primary_key_column);

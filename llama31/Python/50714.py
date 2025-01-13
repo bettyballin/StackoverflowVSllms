@@ -1,1 +1,0 @@
-from google.appengine.ext import db\n\nclass User(db.Model):\n    id = db.IntegerProperty()\n    name = db.StringProperty()\n\nclass Message(db.Model):\n    user = db.ReferenceProperty(User)\n    text = db.StringProperty()

@@ -1,1 +1,0 @@
-$brand = trim($brand);

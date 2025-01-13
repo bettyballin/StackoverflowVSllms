@@ -1,1 +1,0 @@
-$query = 'INSERT INTO mytable SET somevarchar = ?';\n$value = '';\n\n$prepared = $db->prepare($query, array('text'), array('MDB2_PREPARE_EMPTY_STRING_AS_NULL' => false));\n$result = $prepared->execute($value);

@@ -1,1 +1,0 @@
-echo "Memory usage before loop: " . memory_get_usage() . "\n";\nforeach ($clientFact as $line) {\n    // ...\n}\necho "Memory usage after loop: " . memory_get_usage() . "\n";

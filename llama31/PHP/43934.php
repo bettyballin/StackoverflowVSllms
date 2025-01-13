@@ -1,1 +1,0 @@
-<?php\nheader('Location: en/index.htm', true, 301);\nexit;\n?>

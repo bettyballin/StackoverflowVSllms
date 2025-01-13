@@ -1,1 +1,0 @@
-$files = glob('*.*');\nusort($files, function($a, $b) {\n    return filemtime($b) - filemtime($a);\n});

@@ -1,1 +1,0 @@
-DECLARE\n  v_alias VARCHAR2(100) := 'This is an alias with " quotes';\n  v_sql   VARCHAR2(4000);\nBEGIN\n  v_sql := 'SELECT table1.Col1 AS q''[' || v_alias || ']'' FROM table1';\n  EXECUTE IMMEDIATE v_sql;\nEND;

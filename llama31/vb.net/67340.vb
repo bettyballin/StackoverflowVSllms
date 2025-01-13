@@ -1,1 +1,0 @@
-' Form1\nPublic Class Form1\n    Private Sub Form1_Load(sender As Object, e As EventArgs) Handles MyBase.Load\n        TextBox1.Text = Form2.GetTextBoxText()\n    End Sub\nEnd Class\n\n' Form2\nPublic Class Form2\n    Public Function GetTextBoxText() As String\n        Return TextBox1.Text\n    End Function\nEnd Class

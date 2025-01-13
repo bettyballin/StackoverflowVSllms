@@ -1,1 +1,0 @@
-UPDATE my_table\nSET xml = updateXML(xml, \n                    '/a/b', '1', \n                    '/a/c', '2')\nWHERE document_id = 123;

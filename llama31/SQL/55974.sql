@@ -1,1 +1,0 @@
-CREATE TABLE Files (\n    Id INT PRIMARY KEY,\n    FileData VARBINARY(MAX)\n);\n\n-- Insert a 10MB file\nINSERT INTO Files (Id, FileData)\nSELECT 1, CAST(REPLICATE('A', 10*1024*1024) AS VARBINARY(MAX));\n\n-- Measure read time\nSET STATISTICS TIME ON;\nSELECT FileData FROM Files WHERE Id = 1;\nSET STATISTICS TIME OFF;

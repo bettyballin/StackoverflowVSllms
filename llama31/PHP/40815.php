@@ -1,1 +1,0 @@
-function mymodule_create_node($data) {\n  // create the node object\n  $node = new stdClass();\n  // ...\n  node_save($node);\n}\n\n// in your cron job\nmymodule_create_node($data);

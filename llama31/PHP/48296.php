@@ -1,1 +1,0 @@
-$stmt = $pdo->prepare('SELECT * FROM products WHERE category = :category');\n$stmt->bindParam(':category', $id);\n$stmt->execute();

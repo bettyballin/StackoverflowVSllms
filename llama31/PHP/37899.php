@@ -1,1 +1,0 @@
-$result = $client->soap_call($function_name, $arguments, null, null, $soapAction);

@@ -1,1 +1,0 @@
-$result = mysql_query($query);\n$data = array();\nwhile ($row = mysql_fetch_assoc($result)) {\n    $data[] = $row;\n}\n$string = json_encode($data);\nfile_put_contents('cache.txt', $string);

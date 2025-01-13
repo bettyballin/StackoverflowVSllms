@@ -1,1 +1,0 @@
--- Stored Procedure\nCREATE PROCEDURE GetEmployees\nAS\nBEGIN\n    SELECT * FROM Employees;\nEND;\nGO\n\n-- Table-Valued Function\nCREATE FUNCTION GetEmployeesTable()\nRETURNS TABLE\nAS\nRETURN\n(\n    SELECT * FROM Employees\n);\nGO\n\n-- Using the stored procedure\nEXEC GetEmployees;\n\n-- Using the table-valued function\nSELECT * FROM GetEmployeesTable();

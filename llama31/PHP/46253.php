@@ -1,1 +1,0 @@
-class Bootstrap extends Zend_Application_Bootstrap_Bootstrap\n{\n    protected function _initRequestFilter()\n    {\n        $filterChain = new Zend_Filter_Input(array(\n            '*' => array('StringTrim', 'StripTags', 'HtmlEntities')\n        ));\n        Zend_Controller_Front::getInstance()->setRequestFilter($filterChain);\n    }\n}

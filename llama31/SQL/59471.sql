@@ -1,1 +1,0 @@
-SELECT \n  A, \n  ConcatValues(A) AS B_values\nFROM \n  TBL\nGROUP BY \n  A;

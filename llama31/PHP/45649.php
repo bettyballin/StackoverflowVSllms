@@ -1,1 +1,0 @@
-// PHP example using curl to call Lisp API\n$url = 'http://lisp-app:8080/api/endpoint';\n$ch = curl_init($url);\ncurl_setopt($ch, CURLOPT_RETURNTRANSFER, true);\n$response = curl_exec($ch);\ncurl_close($ch);

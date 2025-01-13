@@ -1,1 +1,0 @@
-function shutdown_function() {\n    $error = error_get_last();\n    if ($error) {\n        echo "Script terminated due to error: " . $error['message'] . " in " . $error['file'] . " on line " . $error['line'];\n    } else {\n        echo "Script terminated normally";\n    }\n}\n\nregister_shutdown_function('shutdown_function');

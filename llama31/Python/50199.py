@@ -1,1 +1,0 @@
-my_list = ["Hello", "world"]\nseparator = "-"\nresult = separator.join(my_list)\nprint(result)  # Output: "Hello-world"

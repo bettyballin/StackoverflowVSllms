@@ -1,1 +1,0 @@
-WITH Hours AS (\n  SELECT 0 AS Hour\n  UNION ALL\n  SELECT Hour + 1\n  FROM Hours\n  WHERE Hour < 23\n)\nSELECT H.Hour, COALESCE(SUM(O.order_id), 0) AS OrderCount\nFROM Hours H\nLEFT JOIN ORDERS O ON DATEPART(hh, O.order_date) = H.Hour\nGROUP BY H.Hour

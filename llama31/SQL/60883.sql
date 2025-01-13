@@ -1,1 +1,0 @@
-CREATE TABLE Events (\n    Id INT PRIMARY KEY,\n    EventType VARCHAR(20) NOT NULL,  -- discriminator column\n    -- common columns for all events\n    -- columns specific to ShiftEvents\n    ShiftStart DATETIME NULL,\n    ShiftEnd DATETIME NULL,\n    -- columns specific to StaffEvents\n    StaffId INT NULL,\n    TimeOffReason VARCHAR(50) NULL,\n    -- ...\n);

@@ -1,1 +1,0 @@
-SELECT \n  pm_info.is_read, \n  sender.usrFirst AS sender_name, \n  pm_data.date_sent, \n  pm_data.title, \n  pm_data.thread_id\nFROM \n  pm_info\n  INNER JOIN pm_data ON pm_info.thread_id = pm_data.thread_id\n  INNER JOIN tblUsers AS sender ON pm_data.sender_id = sender.usrID\nWHERE \n  pm_info.receiver_id = '$usrID'\nORDER BY \n  pm_data.date_sent DESC;

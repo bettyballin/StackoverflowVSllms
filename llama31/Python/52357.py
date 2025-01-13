@@ -1,1 +1,0 @@
-from java.lang import Float\n\n# assuming 'data' is your PyJavaInstance\nnumbers = [x for x in data if isinstance(x, Float)]\n\n# convert the numbers to a Python list\nnumbers_list = [float(x) for x in numbers]

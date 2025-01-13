@@ -1,1 +1,0 @@
-Dim myNewCars As List(Of Namespace.Car)\nmyNewCars = CarServiceProxy.GetCars().AsList()

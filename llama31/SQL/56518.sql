@@ -1,1 +1,0 @@
-SELECT \n    DENSE_RANK() OVER (ORDER BY EmpGroupID) AS Counter,\n    EmpID,\n    EmpGroupID\nFROM \n    Emp\nORDER BY \n    EmpGroupID, EmpID

@@ -1,1 +1,0 @@
-Array\n(\n    [Profile::LABEL_FIRST_NAME] => First Name\n    [Profile::LABEL_LAST_NAME] => Last Name\n    [Profile::LABEL_COMPANY_NAME] => Company\n)

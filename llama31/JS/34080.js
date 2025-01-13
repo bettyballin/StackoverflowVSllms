@@ -1,1 +1,0 @@
-var selectStatement = encodeURIComponent("[3023.2#1]");

@@ -1,1 +1,0 @@
-$.post("logout.php",\n    function(data) {\n        $("li.login").html(data);\n        // Re-bind the events\n        $("form#login").submit(function() {\n            // ...\n        });\n        $("a[name='logout']").click(function() {\n            // ...\n        });\n    });

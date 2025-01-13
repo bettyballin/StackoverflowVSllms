@@ -1,1 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>\n<!DOCTYPE book PUBLIC "-//OASIS//DTD DocBook XML V4.5//EN"\n         "http://www.oasis-open.org/docbook/xml/4.5/docbookx.dtd">\n<book>\n  <title>My Technical Documentation</title>\n  <chapter>\n    <title>Chapter 1</title>\n    <para>This is a paragraph of text.</para>\n  </chapter>\n</book>

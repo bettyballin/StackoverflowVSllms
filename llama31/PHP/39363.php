@@ -1,1 +1,0 @@
-$url = 'https://example.com/external-content';\n$content = file_get_contents($url);\necho $content;

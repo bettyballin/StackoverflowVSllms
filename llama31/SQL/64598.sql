@@ -1,1 +1,0 @@
-SELECT * FROM table WHERE a = b AND b = c;\nSELECT * FROM table WHERE a = b AND b = c AND a = c;

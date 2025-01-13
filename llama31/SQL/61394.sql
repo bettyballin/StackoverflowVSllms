@@ -1,1 +1,0 @@
--- Example using PostgreSQL\nCREATE TABLE customers (\n  id SERIAL PRIMARY KEY,\n  tenant_id INTEGER NOT NULL,\n  -- other columns...\n);\n\n-- Create a separate partition for each tenant\nCREATE TABLE customers_tenant_1 (\n  CHECK (tenant_id = 1)\n) INHERITS (customers);\n\nCREATE TABLE customers_tenant_2 (\n  CHECK (tenant_id = 2)\n) INHERITS (customers);

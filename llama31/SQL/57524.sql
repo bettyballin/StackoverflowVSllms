@@ -1,1 +1,0 @@
-INSERT INTO x(a,b,c) VALUES (@a,@b,@c);\nSELECT @affected = @@ROWCOUNT;\nIF @affected > 0\nBEGIN\n    SELECT @newID = SCOPE_IDENTITY();\nEND\nELSE\nBEGIN\n    SET @newID = NULL;\nEND

@@ -1,1 +1,0 @@
-SELECT \n  TRIM(assigner_staff_id) AS staff_id,\n  TRIM(active_flag) AS active_flag,\n  TRIM(TO_CHAR(assign_date, 'YYYY-MM-DD')) AS assign_date,\n  TRIM(TO_CHAR(complete_date, 'YYYY-MM-DD')) AS complete_date,\n  TRIM(TO_CHAR(mod_date, 'YYYY-MM-DD HH24:MI:SS')) AS mod_date\nFROM work \nWHERE assigner_staff_id = '2096';

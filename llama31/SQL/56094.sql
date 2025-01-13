@@ -1,1 +1,0 @@
-CREATE TABLE messages_1_10000 (\n  id INT PRIMARY KEY,\n  from_user_id INT,\n  to_user_id INT,\n  message TEXT,\n  created_at TIMESTAMP\n);\n\nCREATE TABLE messages_10001_20000 (\n  id INT PRIMARY KEY,\n  from_user_id INT,\n  to_user_id INT,\n  message TEXT,\n  created_at TIMESTAMP\n);

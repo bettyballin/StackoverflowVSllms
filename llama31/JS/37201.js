@@ -1,1 +1,0 @@
-function getClasses(pattern) {\n  var classes = [];\n\n  $('*').each(function() {\n    var classNames = $(this).attr('class').split(/\s+/);\n    classNames.forEach(function(className) {\n      if (className.match(pattern) && classes.indexOf(className) === -1) {\n        classes.push(className);\n      }\n    });\n  });\n\n  return classes;\n}

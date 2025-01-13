@@ -1,1 +1,0 @@
-require 'pygments'\n\ncode = "def hello_world; puts 'Hello World!'; end"\nlexer = Pygments::Lexer.guess(code)\nformatter = Pygments::Formatters::Html.new\nhighlighted_code = Pygments.highlight(code, lexer, formatter)\n\nputs highlighted_code

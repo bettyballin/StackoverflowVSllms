@@ -1,1 +1,0 @@
-SELECT *\nFROM articles\nWHERE CONTAINS(tags, 'Italian food')

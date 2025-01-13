@@ -1,1 +1,0 @@
-var w = document.getElementById('embeddedBrowser').contentWindow;\nw.history.back();

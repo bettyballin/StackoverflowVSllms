@@ -1,1 +1,0 @@
-var feedback = function() {\n  var params = Form.serialize($('contactForm'));\n  return function() {\n    new Ajax.Updater('feedback', 'contact.php', {\n      method: 'post',\n      parameters: params,\n      onFailure: reportError\n    });\n\n    new Effect.Highlight('feedback', {\n      duration: 1\n    });\n  }\n}();\nfeedback.delay(1.5);

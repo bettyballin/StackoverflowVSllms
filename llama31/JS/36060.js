@@ -1,1 +1,0 @@
-// Main Modal\n$(function(){\n  $("#modal").jqm({\n    ajax:'@href',\n    onHide: function(){\n      $(".jqmOverlay").remove();\n    }\n  });\n});

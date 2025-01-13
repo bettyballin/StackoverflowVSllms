@@ -1,1 +1,0 @@
-$.ajax({\n  type: "GET",\n  url: url,\n  timeout: 2000,\n  cache: false, // add this option\n  complete: function(xhr) {\n    // your code here\n  }\n});

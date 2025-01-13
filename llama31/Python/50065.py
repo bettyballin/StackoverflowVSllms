@@ -1,1 +1,0 @@
-facebook_session.logout

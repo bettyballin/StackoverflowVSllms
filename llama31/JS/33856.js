@@ -1,1 +1,0 @@
-$.ajax({\n    type: 'POST',\n    url: '/MyController/Update',\n    headers: { 'X-HTTP-Method-Override': 'PUT' },\n    data: { id: 1, /* other data */ }\n});

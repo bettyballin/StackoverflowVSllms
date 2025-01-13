@@ -1,1 +1,0 @@
-const token = '...'; // stored securely in local storage or a cookie\nconst headers = {\n  'Authorization': `Bearer ${token}`,\n  'Content-Type': 'application/json'\n};\n\nfetch('/protected-resource', {\n  method: 'GET',\n  headers: headers\n})\n  .then(response => response.json())\n  .then(data => console.log(data))\n  .catch(error => console.error(error));

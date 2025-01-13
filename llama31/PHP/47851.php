@@ -1,1 +1,0 @@
-// processing.php\nsession_start();\n$_SESSION['results'] = $processedData;\nheader('Location: display.php');\nexit;\n\n// display.php\nsession_start();\n$results = $_SESSION['results'];\n// display the results

@@ -1,1 +1,0 @@
-<% @created = scenario.created_at.in_time_zone('Eastern Time (US & Canada)').strftime("%B %d, %Y at %I:%M %p") %>

@@ -1,1 +1,0 @@
-WITH RECURSIVE top_parent AS (\n  SELECT id, parentid, 0 AS level\n  FROM example\n  WHERE id = ?  -- start with the child ID you're interested in\n  UNION ALL\n  SELECT e.id, e.parentid, level + 1\n  FROM example e\n  JOIN top_parent p ON e.id = p.parentid\n)\nSELECT id, name\nFROM top_parent\nORDER BY level DESC\nLIMIT 1;

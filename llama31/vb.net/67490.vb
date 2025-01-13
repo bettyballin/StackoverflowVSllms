@@ -1,1 +1,0 @@
-Imports System.Reflection\n\nModule Module1\n    Sub Main()\n        Dim startupPath As String = System.IO.Path.GetDirectoryName(Assembly.GetExecutingAssembly().Location)\n        Console.WriteLine(startupPath)\n    End Sub\nEnd Module

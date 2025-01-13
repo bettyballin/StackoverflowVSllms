@@ -1,1 +1,0 @@
-var ax = new ActiveXObject("YourActiveXControl");\nvar someString = new VBArray([""]); // Create a VBArray with a single empty string\nax.GetSomething(0, someString);\nvar result = someString.getItem(0); // Retrieve the modified string

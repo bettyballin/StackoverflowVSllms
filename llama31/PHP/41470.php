@@ -1,1 +1,0 @@
-$constants = json_decode(file_get_contents('constants.json'), true);\n\nclass Constants {\n  public static function get($constantName) {\n    global $constants;\n    return $constants[$constantName];\n  }\n}\n\n// Usage\necho Constants::get('RESOURCE_TYPE_REGSITER'); // Outputs: 2

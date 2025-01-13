@@ -1,1 +1,0 @@
-fetch('/graph', { method: 'DELETE' });

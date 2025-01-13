@@ -1,1 +1,0 @@
-DECLARE @PageSize INT = 10;\nDECLARE @PageIndex INT = 1;\n\nSELECT \n  TotalCount = (SELECT COUNT(*) FROM YourTable),\n  *\nFROM \n  (SELECT TOP (@PageSize) * FROM \n    (SELECT TOP (@PageIndex * @PageSize) * FROM YourTable ORDER BY YourColumn) AS InnerQuery\n   ORDER BY YourColumn DESC) AS PaginatedQuery;

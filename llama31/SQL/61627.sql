@@ -1,1 +1,0 @@
-SELECT timestamp, value\nFROM (\n  SELECT timestamp, value,\n         LAG(value) OVER (ORDER BY timestamp) AS prev_value\n  FROM your_table\n) AS subquery\nWHERE value <> prev_value OR prev_value IS NULL;

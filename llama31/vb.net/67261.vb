@@ -1,1 +1,0 @@
-Dim db As DAO.Database\nDim rs As DAO.Recordset\n\nSet db = CurrentDb()\nSet rs = db.OpenRecordset("analyzedCopy2")\n\nDo Until rs.EOF\n    rs!DateRange = Format(rs!DateRange, "mm/dd/yyyy") + " to " + Format(rs!DateRange, "mm/dd/yyyy")\n    rs.MoveNext\nLoop\n\nrs.Close\ndb.Close

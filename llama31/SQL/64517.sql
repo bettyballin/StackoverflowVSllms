@@ -1,1 +1,0 @@
-INSERT INTO hashes (id, hash) VALUES (1, UNHEX('your_hash_value_here'));

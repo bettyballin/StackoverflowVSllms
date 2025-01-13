@@ -1,1 +1,0 @@
-from google.appengine.api import users\n\nuser = users.get_current_user()\nuser_id = users.user_id()

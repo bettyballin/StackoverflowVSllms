@@ -1,1 +1,0 @@
-$params = array(\n  'Person' => array(\n    'FirstName' => new soapval('Thomas', 'string', 'http://domain.tld/namespace2'),\n    // ...\n  ),\n  'Attribute' => new soapval('foo', 'string', 'http://domain.tld/namespace1')\n);

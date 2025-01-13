@@ -1,1 +1,0 @@
-SELECT TOP 5 *\nFROM (\n  SELECT *\n  FROM news_table\n  ORDER BY news_date\n) AS subquery

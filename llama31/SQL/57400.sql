@@ -1,1 +1,0 @@
-SELECT \n    ID,\n    MIN(DateStamp) AS MinDateStamp,\n    MAX(DateStamp) AS MaxDateStamp\nFROM \n    YourTableName\nGROUP BY \n    ID;

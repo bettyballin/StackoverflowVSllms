@@ -1,1 +1,0 @@
-<pictures>\n  <picture>\n    <size>{{ size }}</size>\n    <dimensions>{{ dimensions }}</dimensions>\n    <title>{{ title }}</title>\n  </picture>\n</pictures>

@@ -1,1 +1,0 @@
-$xml = simplexml_load_string(file_get_contents('your_xml_file.xml'));\n$xml->registerXPathNamespace('ns', 'http://www.domain.com/schema/data');\n$elements = $xml->xpath('//*');\n\nforeach ($elements as $element) {\n    echo $element->getName() . "\n";\n}

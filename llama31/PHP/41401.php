@@ -1,1 +1,0 @@
-$serverEnv = getenv('SERVER_ENV');\n$serverName = getenv('SERVER_NAME');\n\nswitch ($serverEnv) {\n    case 'production':\n        // production config\n        break;\n    case 'staging':\n        // staging config\n        break;\n    // ...\n}

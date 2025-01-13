@@ -1,1 +1,0 @@
-for ($i = 1; $i <= 20; $i++) {\n    $art = 'artist' . $i;\n    $artist = $_POST[$art];\n    // Add $artist to your database here\n}

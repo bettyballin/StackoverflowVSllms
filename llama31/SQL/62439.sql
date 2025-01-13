@@ -1,1 +1,0 @@
-CREATE TABLE example (\n    id INT PRIMARY KEY,\n    is_active INT CHECK (is_active IN (0, 1))\n);\n\n-- or\n\nCREATE TABLE example (\n    id INT PRIMARY KEY,\n    is_active VARCHAR(5) CHECK (is_active IN ('yes', 'no'))\n);

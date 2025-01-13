@@ -1,1 +1,0 @@
-$array = array();\n\nvar_dump((bool)$array); // false\nvar_dump((bool)count($array)); // false\n\n$array = array('a', 'b', 'c');\n\nvar_dump((bool)$array); // true\nvar_dump((bool)count($array)); // true

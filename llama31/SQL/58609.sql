@@ -1,1 +1,0 @@
-SELECT \n    OBJECT_NAME(id) AS TableName,\n    name AS IndexName,\n    reads,\n    writes\nFROM \n    sysindexes\nWHERE \n    reads = 0 AND writes = 0

@@ -1,1 +1,0 @@
-$putdata = fopen("php://input", "r");\n$rawdata = stream_get_contents($putdata);\nfclose($putdata);\n\n// Now $rawdata contains the request body

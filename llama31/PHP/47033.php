@@ -1,1 +1,0 @@
-class MyClass {\n    public $publicProperty = 'public';\n    private $privateProperty = 'private';\n}\n\n$obj = new MyClass();\n\n$properties = get_object_vars($obj);\nforeach ($properties as $property => $value) {\n    echo "$property: $value\n";\n}

@@ -1,1 +1,0 @@
-WITH latest_link AS (\n  SELECT ptl.ProjectID, ptl.ThingID, ROW_NUMBER() OVER (PARTITION BY ptl.ThingID ORDER BY ptl.CreatedDate DESC) as row_num\n  FROM ProjectThingLink ptl\n)\nSELECT p.ProjectName, t.ThingName\nFROM Project p\nJOIN latest_link\nON p.ProjectID = latest_link.ProjectID\nJOIN Thing t\nON latest_link.ThingID = t.ThingID\nWHERE latest_link.row_num = 1

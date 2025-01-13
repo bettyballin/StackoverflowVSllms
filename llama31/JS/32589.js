@@ -1,1 +1,0 @@
-document.getElementById('your-input-field').addEventListener('keydown', function(event) {\n  if (event.keyCode === 38) {\n    // Up arrow pressed\n  } else if (event.keyCode === 40) {\n    // Down arrow pressed\n  }\n});

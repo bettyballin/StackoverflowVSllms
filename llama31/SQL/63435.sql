@@ -1,1 +1,0 @@
-CREATE FUNCTION CheckChildRecord (@parentId INT)\nRETURNS BIT\nAS\nBEGIN\n    IF EXISTS (SELECT 1 FROM ChildTable WHERE ParentId = @parentId)\n        RETURN 1\n    RETURN 0\nEND\nGO\n\nALTER TABLE ParentTable\nADD CONSTRAINT CHK_ChildRecord CHECK (dbo.CheckChildRecord(ParentId) = 1)

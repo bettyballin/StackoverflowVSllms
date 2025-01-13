@@ -1,1 +1,0 @@
-keywords = input.split(/\s+/)\nqueries = []\nparams = []\n\nkeywords.each do |keyword|\n  queries << "(classifications.species LIKE ? OR \n               classifications.family LIKE ? OR \n               classifications.trivial_names LIKE ? OR\n               place LIKE ?)"\n  params += ["%#{keyword}%"] * 4\nend\n\noptions[:conditions] = [queries.join(' AND '), *params]

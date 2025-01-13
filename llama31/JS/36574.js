@@ -1,1 +1,0 @@
-PageMethods.GetData(function(data) {\n    // Do something with the data\n});

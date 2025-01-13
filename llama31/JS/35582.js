@@ -1,1 +1,0 @@
-const parentDiv = document.querySelector('.parent-div');\nconst childDiv = document.querySelector('.child-div');\n\n// Get the width of the parent div\nconst parentWidth = parentDiv.offsetWidth;\n\n// Calculate the margin-left property\nconst marginLeft = -60 + (parentWidth * 0.5);\n\n// Apply the style\nchildDiv.style.marginLeft = `${marginLeft}px`;

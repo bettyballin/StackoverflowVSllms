@@ -1,1 +1,0 @@
-$userInput = '<b>Hello</b> <script>alert("XSS")</script> <br /> World!';\n\n$allowedTags = '<b><br><p><span>'; // add more allowed tags as needed\n$filteredInput = strip_tags($userInput, $allowedTags);\n$filteredInput = htmlspecialchars($filteredInput, ENT_QUOTES);\n\necho $filteredInput;

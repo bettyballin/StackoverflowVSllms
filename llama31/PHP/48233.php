@@ -1,1 +1,0 @@
-class MyClass {\n    /**\n     * @amf Ignore\n     */\n    private $_privateVar;\n\n    public function getPrivateVar() {\n        return $this->_privateVar;\n    }\n}

@@ -1,1 +1,0 @@
-$oldArray = array(0.00, 1000.11, 988.92, 978.22, 964.01, 953.07, 948.82, 917.26, 902.56, 913.21, 904.08, 898.86, 892.79);\n\n$myVar = '0.00'; // Initialize $myVar as a string\nfor ($k = 1; $k < 10; $k++) {\n    $myVar = bcadd($myVar, $oldArray[$k], 2); // Use bcadd() to add the values\n}\n\nprint_r($myVar);

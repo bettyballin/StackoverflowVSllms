@@ -1,1 +1,0 @@
-from wtforms import Form, StringField, IntegerField, validators\n\nclass RegistrationForm(Form):\n    username = StringField('Username', [validators.Length(min=4, max=25)])\n    email = StringField('Email Address', [validators.Length(min=6, max=35)])\n    age = IntegerField('Age', [validators.NumberRange(min=18, max=100)])

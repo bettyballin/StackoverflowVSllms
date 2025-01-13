@@ -1,1 +1,0 @@
-SELECT i.ItemID, i.Title, GROUP_CONCAT(t.Title) AS Tags\nFROM Item i\nLEFT JOIN Tag t ON i.ItemID = t.ItemID\nGROUP BY i.ItemID, i.Title;

@@ -1,1 +1,0 @@
-result = subprocess.run(args, stdout=subprocess.PIPE, stderr=subprocess.PIPE)\nprint(result.stdout.decode())\nprint(result.stderr.decode())

@@ -1,1 +1,0 @@
-header('Content-Type: application/vnd.openxmlformats-officedocument.spreadsheetml.sheet');\nheader('Content-Disposition: attachment;filename="example.xlsx"');

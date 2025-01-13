@@ -1,1 +1,0 @@
-$auth = base64_encode($username.'@'.$this->domain.chr(0).$username.chr(0).$password);

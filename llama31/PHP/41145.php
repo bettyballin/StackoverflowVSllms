@@ -1,1 +1,0 @@
-exec('convert -density 300 path/to/your/document.pdf[0] -quality 90 path/to/your/output.jpg');

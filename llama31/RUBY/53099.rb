@@ -1,1 +1,0 @@
-MyScriptJob.perform_later

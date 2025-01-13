@@ -1,1 +1,0 @@
-const userInput = document.getElementById('userInput').value;\nconst sanitizedInput = userInput.replace(/</g, '&lt;').replace(/>/g, '&gt;');

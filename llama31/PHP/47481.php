@@ -1,1 +1,0 @@
-$sql = "INSERT INTO orders (user, 1st row, 2nd row, 3rd row, 4th row) VALUES (?, ?, ?, ?, ?)";\n$stmt = $con->prepare($sql);\n$stmt->bind_param("sssss", $session->username, $var1, $var2, $var3, $var4);\n$stmt->execute();

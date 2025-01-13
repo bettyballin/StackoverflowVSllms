@@ -1,1 +1,0 @@
-$referrers = array(\n    'yourwebsite.com', // add your website domain here\n    'www.yourwebsite.com' // also add the www version if applicable\n);

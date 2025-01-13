@@ -1,1 +1,0 @@
-// Set the session cookie expiration time to 30 minutes\nini_set('session.cookie_lifetime', 1800); // 1800 seconds = 30 minutes\n\n// Start the session\nsession_start();

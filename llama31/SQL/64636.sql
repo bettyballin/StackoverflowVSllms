@@ -1,1 +1,0 @@
-SELECT CASE WHEN word1 = 1 THEN word2 ELSE word1 END AS synonym\nFROM word_link\nWHERE word1 = 1 OR word2 = 1;

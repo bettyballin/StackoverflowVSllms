@@ -1,1 +1,0 @@
-// Set ACLs on the directory\n$acl = 'u:nobody:rw,u:username:rw';\nexec("setfacl -d -m $acl /path/to/image/directory");

@@ -1,1 +1,0 @@
-<reference name="root">\n    <action method="setTemplate">\n        <template>page/2columns-left.phtml</template>\n    </action>\n</reference>

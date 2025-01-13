@@ -1,1 +1,0 @@
-$wpdb->query( 'START TRANSACTION' );\n$wpdb->query( 'INSERT INTO wp_posts (post_title, post_content) VALUES ("Test", "This is a test post")' );\n$wpdb->query( 'INSERT INTO wp_postmeta (post_id, meta_key, meta_value) VALUES (LAST_INSERT_ID(), "test_key", "test_value")' );\n$wpdb->query( 'COMMIT' );

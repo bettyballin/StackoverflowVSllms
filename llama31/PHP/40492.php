@@ -1,1 +1,0 @@
-function ltrim_chars($str, $num) {\n    return substr($str, $num);\n}\n\nfunction rtrim_chars($str, $num) {\n    return substr($str, 0, -$num);\n}

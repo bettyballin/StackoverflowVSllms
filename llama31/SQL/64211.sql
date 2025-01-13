@@ -1,1 +1,0 @@
-CREATE INDEX idx_word_id ON sentence_word (word_id);

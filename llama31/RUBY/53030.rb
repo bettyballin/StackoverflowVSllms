@@ -1,1 +1,0 @@
-animation = Shoes::Animation.new(...)\nanimation.toggle

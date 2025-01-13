@@ -1,1 +1,0 @@
-function is_url_file($url) {\n    $headers = get_headers($url, 1);\n    return strpos($headers[0], '200 OK') !== false;\n}

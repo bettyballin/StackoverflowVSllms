@@ -1,1 +1,0 @@
-// Get the scrollable div element\nvar scrollableDiv = document.getElementById('scrollableDiv');\n\n// Function to prevent scrolling when menu is open\nfunction preventScrolling() {\n  scrollableDiv.classList.add('no-scroll');\n}\n\n// Function to allow scrolling when menu is closed\nfunction allowScrolling() {\n  scrollableDiv.classList.remove('no-scroll');\n}

@@ -1,1 +1,0 @@
-$config = array();\n\nfunction loadConfig() {\n  $query = "SELECT * FROM config";\n  $result = mysql_query($query);\n  while ($row = mysql_fetch_assoc($result)) {\n    $config[$row['key']] = $row['value'];\n  }\n}\n\nloadConfig();\n\n// To retrieve a config value\nfunction getConfig($key) {\n  return $config[$key];\n}

@@ -1,1 +1,0 @@
--- Example validation (simplified, adjust according to your needs)\nIF p_columnName NOT IN ('ColumnA', 'ColumnB', 'ColumnC') THEN\n  RAISE_APPLICATION_ERROR(-20001, 'Invalid column name');\nEND IF;

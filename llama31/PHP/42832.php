@@ -1,1 +1,0 @@
-// base.php\necho $variable; // outputs: value

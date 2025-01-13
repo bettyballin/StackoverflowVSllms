@@ -1,1 +1,0 @@
-SELECT {cols} FROM Customers WHERE EmailDomain LIKE @term + '%'

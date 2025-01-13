@@ -1,1 +1,0 @@
-document.querySelector('.clear-button').addEventListener('click', function() {\n  document.querySelector('#search-input').value = '';\n});

@@ -1,1 +1,0 @@
-if (id && !isNaN(id) && id > 0) {\n  // Use the sanitized id value\n}

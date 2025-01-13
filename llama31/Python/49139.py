@@ -1,1 +1,0 @@
-def f(x):\n    return 2 * x\n\na = 2\nb = 3\n\nprint(f(a + b) == f(a) + f(b))  # True

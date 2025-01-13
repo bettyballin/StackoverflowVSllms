@@ -1,1 +1,0 @@
-$attachment = new Attachment_Model();\n$attachment->name = $info['FileName'];\n$attachment->size = strlen($info['Data']);\n$attachment->data = DB::expr('UNHEX('. bin2hex($info['Data']) .')'); // Convert binary to hex\n$attachment->mime_type = $info['content-type'];\n$attachment->save();

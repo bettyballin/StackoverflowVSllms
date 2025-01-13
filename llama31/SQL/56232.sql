@@ -1,1 +1,0 @@
-INSERT INTO table_name (created_at) VALUES (NOW());

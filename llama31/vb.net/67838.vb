@@ -1,1 +1,0 @@
-Sub MySub()\n    ' Code here\nEnd Sub\n\nFunction MyFunction() As Integer\n    ' Code here\n    Return 1\nEnd Functio

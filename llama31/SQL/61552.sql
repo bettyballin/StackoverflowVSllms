@@ -1,1 +1,0 @@
-GRANT CREATE ANY TRIGGER TO <your_username>;

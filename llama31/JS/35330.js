@@ -1,1 +1,0 @@
-// Remove all children of #bar\ndocument.getElementById('bar').innerHTML = '';

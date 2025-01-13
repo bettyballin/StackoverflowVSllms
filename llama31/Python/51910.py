@@ -1,1 +1,0 @@
-import types\n\nclass MyWidget(wx.Window):\n    buttons = [\n        ("OK", OnOK),\n        ("Cancel", OnCancel)\n    ]\n\n    def setup(self):\n        for text, handler in MyWidget.buttons:\n            bound_handler = types.MethodType(handler, self)\n            b = wx.Button(parent, label=text).Bind(wx.EVT_BUTTON, bound_handler)

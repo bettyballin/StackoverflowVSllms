@@ -1,1 +1,0 @@
-<bindings>\n    <netMsmqBinding>\n        <binding durable="true">\n        </binding>\n    </netMsmqBinding>\n</bindings>

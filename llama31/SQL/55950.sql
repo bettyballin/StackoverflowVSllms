@@ -1,1 +1,0 @@
-SELECT DISTINCT \n    CONVERT(VARCHAR(10), DATEFROMPARTS(YEAR(datecol), MONTH(datecol), 1), 111) AS dt1\nFROM \n    Table\nORDER BY \n    dt1

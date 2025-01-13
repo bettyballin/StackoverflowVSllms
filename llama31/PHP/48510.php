@@ -1,1 +1,0 @@
-header("Refresh: 0; url=http://www.awebsite.com");

@@ -1,1 +1,0 @@
-WITH ordered_table AS (\n  SELECT key, date,\n         LAG(key) OVER (ORDER BY date, key) AS prev_key,\n         LEAD(key) OVER (ORDER BY date, key) AS next_key\n  FROM table\n)\nSELECT key, date, prev_key, next_key\nFROM ordered_table;

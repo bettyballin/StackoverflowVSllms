@@ -1,1 +1,0 @@
-$ldapserver = "mail";\n$ds = ldap_connect($ldapserver);\n$r = ldap_bind($ds, "uid=myusername,ou=$domain,o=mygroup.com", $password);

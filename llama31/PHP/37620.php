@@ -1,1 +1,0 @@
-$stmt->bind_param('s', 'hello');\n$stmt->bind_param('d', 42);

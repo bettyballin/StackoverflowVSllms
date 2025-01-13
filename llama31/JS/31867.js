@@ -1,1 +1,0 @@
-document.addEventListener("DOMContentLoaded", function() {\n  var passwordField = document.querySelector("input[type='password']");\n  passwordField.addEventListener("click", function() {\n    passwordField.focus();\n  });\n});

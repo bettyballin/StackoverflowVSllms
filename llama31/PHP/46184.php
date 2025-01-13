@@ -1,1 +1,0 @@
-$encodedValue = htmlspecialchars($yourEncodedString);

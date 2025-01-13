@@ -1,1 +1,0 @@
-$sql = "INSERT INTO table (column1, column2) VALUES (?, ?)";\n$params = array('value1', 'value2');\n$this->query($sql, $params);\n\n$sql = "DELETE FROM table WHERE column = ?";\n$params = array('value');\n$this->query($sql, $params);\n\n$sql = "UPDATE table SET column = ? WHERE column = ?";\n$params = array('new_value', 'old_value');\n$this->query($sql, $params);

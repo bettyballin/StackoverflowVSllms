@@ -1,1 +1,0 @@
-SELECT \n    -- ... (rest of your columns)\n    f.path\nFROM \n    -- ... (rest of your joins)\n    CROSS APPLY dbo.Fileimagepath(Table2.column21, Table2.column22) f\nWHERE \n    Envelope.column21 = 8\nFOR XML AUTO, ELEMENTS

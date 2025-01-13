@@ -1,1 +1,0 @@
-SELECT *\nFROM Group\nWHERE GroupId NOT IN (SELECT GroupId FROM People)

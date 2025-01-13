@@ -1,1 +1,0 @@
-google.maps.event.addListener(map, 'idle', function() {\n  var bounds = map.getBounds();\n  // Make AJAX request here\n});

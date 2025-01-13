@@ -1,1 +1,0 @@
-DEFINE _EDITOR = 'vi'\nEDIT <procedure_name>

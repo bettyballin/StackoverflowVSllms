@@ -1,1 +1,0 @@
-SELECT LISTAGG(column_name, ',') WITHIN GROUP (ORDER BY column_name) AS concatenated_string\nFROM your_table\nGROUP BY group_by_column;

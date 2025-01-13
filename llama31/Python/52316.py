@@ -1,1 +1,0 @@
-env.Append(CCFLAGS=['-c', '-std=gnu99', '-march=i486', ...])

@@ -1,1 +1,0 @@
-$(".link").mouseenter(function(){ //highlight on mouseover\n  $(this).css({background: "url('file:///Users/J/Desktop/DHTML/Menu/linkselect.png')"});\n})\n$(".link").mouseleave(function(){ //un-highlight on mouseout\n  $(this).css({background: "url('./link.png')"});\n})

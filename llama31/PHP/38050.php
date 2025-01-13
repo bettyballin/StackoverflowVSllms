@@ -1,1 +1,0 @@
-$dom = new DOMDocument();\n$dom->loadHTML($raw2, LIBXML_NOERROR | LIBXML_NOWARNING);\n$dom->encoding = 'UTF-8';\n$xpath = new DOMXPath($dom);\n$query = '//td/text()';\n$nodes = $xpath->query($query);\nforeach($nodes as $node) {\n  var_dump($node->wholeText);\n}

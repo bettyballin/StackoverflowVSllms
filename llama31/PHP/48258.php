@@ -1,1 +1,0 @@
-// Example using PHP's `$_SERVER['REMOTE_ADDR']`\n$ipAddress = $_SERVER['REMOTE_ADDR'];\n// Store $ipAddress in user's session or database

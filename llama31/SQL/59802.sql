@@ -1,1 +1,0 @@
-CREATE NONCLUSTERED INDEX IX_EventTable_EventTypeCode_EventStatusCode \nON EventTable (EventTypeCode, EventStatusCode)

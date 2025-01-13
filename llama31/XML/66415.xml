@@ -1,1 +1,0 @@
-<allow-http-request-headers-from domain="*" headers="*"/>\n<allow-http-request-headers-from domain="https://example.com" headers="*"/>

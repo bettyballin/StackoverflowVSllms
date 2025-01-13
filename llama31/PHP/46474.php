@@ -1,1 +1,0 @@
-require_once 'PHPWord.php';\n$PHPWord = new PHPWord();\n$section = $PHPWord->createSection();\n$section->addText('Hello World!');\n$objWriter = PHPWord_IOFactory::createWriter($PHPWord, 'Word2007');\n$objWriter->save('example.docx');

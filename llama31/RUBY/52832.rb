@@ -1,1 +1,0 @@
-# Module (mixin)\nmodule Logger\n  def log(message)\n    puts message\n  end\nend\n\n# Class\nclass User\n  include Logger\nend\n\n# Class with state\nclass Counter\n  def initialize\n    @count = 0\n  end\n\n  def increment\n    @count += 1\n  end\n\n  def count\n    @count\n  end\nend

@@ -1,1 +1,0 @@
-SELECT log_reuse_wait, log_reuse_wait_desc\nFROM sys.databases\nWHERE NAME='bybox'

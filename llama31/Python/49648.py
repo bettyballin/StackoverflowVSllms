@@ -1,1 +1,0 @@
-from sklearn.cluster import KMeans\n\nkmeans = KMeans(n_clusters=N)\nclusters = kmeans.fit_predict(coords_scaled)

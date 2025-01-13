@@ -1,1 +1,0 @@
-session_start();\nif (!isset($_SESSION['user'])) {\n    $_SESSION['user'] = "name";\n    echo "Session set!";\n} else {\n    echo "Session already set!";\n}

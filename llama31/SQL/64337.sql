@@ -1,1 +1,0 @@
-SELECT column_name(s) FROM table1\nUNION ALL\nSELECT column_name(s) FROM table2;

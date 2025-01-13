@@ -1,1 +1,0 @@
-function stopPeriodicExecution() {\n  if (window.periodicalExecutions) {\n    window.periodicalExecutions.forEach(function(execution) {\n      execution.stop();\n    });\n  }\n}\n\n// Call this function when the user navigates away from the div\nstopPeriodicExecution();

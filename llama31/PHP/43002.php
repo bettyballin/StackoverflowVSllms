@@ -1,1 +1,0 @@
-// Create a log file\n$logFile = 'widget_usage.log';\n\n// Log each request\nfunction logRequest() {\n    global $logFile;\n    $fp = fopen($logFile, 'a');\n    fwrite($fp, date('Y-m-d H:i:s') . ' - ' . $_SERVER['REMOTE_ADDR'] . "\n");\n    fclose($fp);\n}\n\n// Call the logRequest function on each page load\nlogRequest();

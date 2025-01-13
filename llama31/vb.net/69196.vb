@@ -1,1 +1,0 @@
-With myComboBox\n    .DataSource = myDataTable\n    .DisplayMember = "key_code"\n    .ValueMember = "key_code"\n    .FormatString = "{0} - {1}"\n    .FormatInfo.DataSource = myDataTable\n    .FormatInfo.DisplayMember = "descript"\nEnd With

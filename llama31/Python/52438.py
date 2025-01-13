@@ -1,1 +1,0 @@
-import cv2\n\n# Load images\nimg1 = cv2.imread('image1.png')\nimg2 = cv2.imread('image2.png')\n\n# Compare images\ndiff = cv2.absdiff(img1, img2)\nthreshold = cv2.threshold(diff, 25, 255, cv2.THRESH_BINARY)[1]\n\n# Check if images are identical\nif cv2.countNonZero(threshold) == 0:\n    print("Images are identical")\nelse:\n    print("Images are different")

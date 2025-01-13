@@ -1,1 +1,0 @@
-module FieldUpdater = struct\n  let update_field p field_name value =\n    add_delta p;\n    match field_name with\n    | "x" -> p.x <- value\n    | "y" -> p.y <- value\n    | "z" -> p.z <- value\n    | _ -> failwith "Invalid field name";\n    refresh p\nend

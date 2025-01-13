@@ -1,1 +1,0 @@
-SELECT CONCAT(notes, 'SomeText')\nFROM NotesTable a

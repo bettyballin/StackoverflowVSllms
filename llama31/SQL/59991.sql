@@ -1,1 +1,0 @@
-CREATE PROCEDURE GetUsersByCountry\n    @Country nvarchar(50)\nAS\nBEGIN\n    SELECT * FROM Users WHERE Country = @Country\nEND

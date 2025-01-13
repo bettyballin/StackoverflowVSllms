@@ -1,1 +1,0 @@
-use Normalizer;\n\n$str1 = 'a';\n$str2 = 'À';\n\n$str1Normalized = Normalizer::normalize($str1, Normalizer::FORM_D);\n$str2Normalized = Normalizer::normalize($str2, Normalizer::FORM_D);\n\nvar_dump($str1Normalized === $str2Normalized); // bool(true)

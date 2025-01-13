@@ -1,1 +1,0 @@
-Dim db = New LogTimeDataContext\nDim LogUser = From lu In db.Users\n              Join lt In db.Log_Times On lu.UserID Equals lt.UserID\n              Group By lu.Name Into TotalDuration = Sum(lt.TimeOut - lt.TimeIn)\n              Select Name, TotalDuration\n\nGridview1.DataSource = LogUser\nGridview1.DataBind()

@@ -1,1 +1,0 @@
-$.ajax({\n  type: "POST",\n  url: "/bulkaction",\n  data: {\n    ids: ids,\n    authenticity_token: AUTH_TOKEN\n  },\n  success: function(data){\n    // ...\n  }\n});

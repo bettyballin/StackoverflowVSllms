@@ -1,1 +1,0 @@
-if ($authFailed) {\n    header('Cache-Control: no-store');\n    header('Pragma: no-cache');\n}

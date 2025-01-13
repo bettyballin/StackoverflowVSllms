@@ -1,1 +1,0 @@
-function loadContent(id, data) {\n    var container = $('#' + id);\n    var $data = $(data); // cache the jQuery object\n    var title = $data.find('h1:first').html();\n    var content = $data.find('h1:first').next().html();\n\n    container.find('div.header').html(title);\n    container.find('div.content').html(content);\n}

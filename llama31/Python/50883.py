@@ -1,1 +1,0 @@
-def dampen(lr, x):\n    return x + lr * (1 - x)\n\ndef dampenN(n, lr, x):\n    return (1 - lr)**n * x + 1 - (1 - lr)**n\n\n# Test the functions\nlr = 0.5\nx = 0.8\nn = 3\n\nprint(dampen(lr, x))  # Output: 0.9\nprint(dampenN(n, lr, x))  # Output: 0.9625

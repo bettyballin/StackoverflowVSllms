@@ -1,1 +1,0 @@
-CREATE FUNCTION dbo.GetTransformedData (@inputParam INT)\nRETURNS TABLE\nAS\nRETURN\n(\n    SELECT transformedData\n    FROM yourTable\n    WHERE yourColumn = @inputParam\n);

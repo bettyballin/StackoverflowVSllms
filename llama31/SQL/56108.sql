@@ -1,1 +1,0 @@
-CREATE PROCEDURE MyStoredProcedure\nAS\nBEGIN\n    EXECUTE AS OWNER;\n    DECLARE @sql nvarchar(max) = 'SELECT * FROM listing_counter';\n    EXEC sp_executesql @sql;\n    REVERT;\nEND

@@ -1,1 +1,0 @@
-CREATE TABLE test_table (id NUMBER, name VARCHAR2(20));\n\nINSERT INTO test_table (id, name) VALUES (1, 'John');\nINSERT INTO test_table (id, name) VALUES (2, 'Jane');\nINSERT INTO test_table (id, name) VALUES (3, 'Bob');\n\nSELECT * FROM test_table;

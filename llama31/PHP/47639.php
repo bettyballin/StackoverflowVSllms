@@ -1,1 +1,0 @@
-$gfc_auth->setAccessToken($token);\n$gfc_osapi = new osapi($gfc_provider, $gfc_auth);\n\n$batch = $gfc_osapi->newBatch();\n$batch->add($gfc_osapi->people->get(array('userId' => '@me')));\n$result = $batch->execute();\n\nprint_r($result);

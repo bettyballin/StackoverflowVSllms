@@ -1,1 +1,0 @@
-<p class="capitalize"><?php echo $fname . ' ' . $lname; ?></p>

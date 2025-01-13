@@ -1,1 +1,0 @@
-window.addEventListener('load', function() {\n  document.getElementById('loading-screen').style.display = 'none';\n  document.getElementById('site-content').style.display = 'block';\n});

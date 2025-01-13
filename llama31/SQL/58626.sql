@@ -1,1 +1,0 @@
-SELECT \n  timefield, \n  NTILE(20) OVER (ORDER BY timefield) AS bucket\nFROM \n  entries \nWHERE \n  uid = ?\nORDER BY \n  timefield;

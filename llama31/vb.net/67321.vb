@@ -1,1 +1,0 @@
-Imports System.Numerics\n\nProtected Sub ComputeFactorial(ByVal n As Integer)\n    Dim factorial As BigInteger = 1\n    For i As Integer = 1 To n\n        factorial = factorial * i\n    Next\n    lblAnswer.Text = factorial.ToString()\nEnd Sub

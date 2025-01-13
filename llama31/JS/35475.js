@@ -1,1 +1,0 @@
-window.addEventListener('unload', function() {\n  fetch('/unlock-item', {\n    method: 'POST',\n    headers: {\n      'Content-Type': 'application/json'\n    },\n    body: JSON.stringify({ id: itemId }),\n    keepalive: true\n  });\n});

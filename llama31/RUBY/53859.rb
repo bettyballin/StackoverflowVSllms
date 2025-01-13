@@ -1,1 +1,0 @@
-e = Employee.find(1)\ne.name = 'Jane Doe'\ne.save\n\nEmployee.delete(1)

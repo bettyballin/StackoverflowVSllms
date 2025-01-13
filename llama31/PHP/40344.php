@@ -1,1 +1,0 @@
-if (isset($_GET['tableHeader'])) {\n  $table_Header = $_GET['tableHeader'];\n  // rest of your code\n} else {\n  // handle the case where tableHeader is not set\n}

@@ -1,1 +1,0 @@
-function greet(Person $person) {\n    echo "Hello, " . $person->getName() . "!";\n}\n\nclass Person {\n    private $name;\n\n    public function __construct($name) {\n        $this->name = $name;\n    }\n\n    public function getName() {\n        return $this->name;\n    }\n}

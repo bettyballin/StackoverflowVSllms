@@ -1,1 +1,0 @@
-if ($valid_credentials) {\n    $username = 'username';\n    $password = 'password';\n    $auth_header = 'Basic ' . base64_encode("$username:$password");\n    header('Authorization: ' . $auth_header);\n}

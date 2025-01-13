@@ -1,1 +1,0 @@
-def compare(arr1, arr2):\n    if len(arr1) != len(arr2):\n        return False\n    set1 = set(arr1)\n    set2 = set(arr2)\n    return set1 == set2\n\n# Example usage:\nprint(compare(['a', 'b', 'c', 'd'], ['b', 'a', 'd', 'c']))  # True\nprint(compare(['a', 'b', 'e'], ['a', 'b', 'c']))  # False\nprint(compare(['a', 'b', 'c'], ['a', 'b']))  # False

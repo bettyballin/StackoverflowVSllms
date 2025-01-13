@@ -1,1 +1,0 @@
-list($name, $age, $id) = array_values(array_intersect_key($data, array_flip($wantedKeys)));

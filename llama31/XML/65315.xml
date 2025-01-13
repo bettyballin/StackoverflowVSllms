@@ -1,1 +1,0 @@
-<validation>\n  <validators>\n    <add name="MultiTableExistenceValidator" type="MultiTableExistenceValidator, YourAssemblyName" />\n  </validators>\n</validation>

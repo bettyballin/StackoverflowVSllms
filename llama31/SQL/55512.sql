@@ -1,1 +1,0 @@
-DELIMITER //\n\nCREATE PROCEDURE nested_sp()\nBEGIN\n  CREATE TEMPORARY TABLE tmp AS\n  SELECT * FROM your_complicated_select;\nEND //\n\nDELIMITER ;\n\nCALL nested_sp();\n\nSELECT * FROM tmp;

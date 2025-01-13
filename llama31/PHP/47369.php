@@ -1,1 +1,0 @@
-// resources/views/content.blade.php\n\n<!-- content here -->

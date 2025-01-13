@@ -1,1 +1,0 @@
-// app/Model/Address.php\nclass Address extends AppModel {\n    // ...\n\n    public function generateMapUrl($id = null) {\n        // method implementation here\n    }\n}

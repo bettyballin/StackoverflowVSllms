@@ -1,1 +1,0 @@
-SELECT Department, AVG(Salary) AS AverageSalary\nFROM Employees\nWHERE Salary > 50000\nGROUP BY Department\nHAVING AVG(Salary) > 70000;

@@ -1,1 +1,0 @@
-$elements = $xPath->query("//*[@class='nombrecomplejo']");\nif ($elements != null) {\n    foreach ($elements as $e) {\n        echo $e->nodeValue; // access the text content of the element\n    }\n}

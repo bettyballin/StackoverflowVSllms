@@ -1,1 +1,0 @@
-$allowedMethods = array('method1', 'method2', 'method3');\n\nif (in_array($methodName, $allowedMethods)) {\n    $this->{$methodName}($arg1, $arg2, $arg3);\n} else {\n    throw new Exception("Invalid method name");\n}

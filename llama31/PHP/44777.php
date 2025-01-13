@@ -1,1 +1,0 @@
-class Mem\n{\n    private $pdo;\n    private $memcached;\n\n    public function __construct($pdo, $memcached)\n    {\n        $this->pdo = $pdo;\n        $this->memcached = $memcached;\n    }\n\n    // ...\n}

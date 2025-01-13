@@ -1,1 +1,0 @@
-SELECT SUM(column_name) AS total;

@@ -1,1 +1,0 @@
-SELECT t.tag_id, t.tag\nFROM Post_tag_nn pt\nJOIN Tags t ON pt.tag_id = t.tag_id\nWHERE pt.post_id = ?;  // replace ? with the specific post_id

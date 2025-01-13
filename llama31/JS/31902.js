@@ -1,1 +1,0 @@
-OnClientClick="if (!validate()) return false; return true;"

@@ -1,1 +1,0 @@
-$redis = new Redis();\n$redis->connect('127.0.0.1', 6379);\n\n// Cache a value\n$redis->set('cache_key', 'Hello, World!');\n\n// Retrieve the cached value\n$cachedValue = $redis->get('cache_key');\n\n// Invalidate the cache\n$redis->del('cache_key');

@@ -1,1 +1,0 @@
-SELECT \n    pid, \n    state, \n    query_start, \n    xact_start, \n    (now() - query_start) AS elapsed_time, \n    (pg_relation_size('pagelinks') - pg_relation_size('pagelinks', 'main')) AS dead_tuples_size\nFROM \n    pg_stat_activity \nWHERE \n    pid = (SELECT pid FROM pg_locks WHERE relation = 'pagelinks'::regclass);

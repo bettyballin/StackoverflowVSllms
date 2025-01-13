@@ -1,1 +1,0 @@
-<project name="MyWebApp">\n  <tasks>\n    <msbuild>\n      <projectFile>MyWebApp.csproj</projectFile>\n      <targets>Build</targets>\n      <properties>\n        <property name="OutputPath" value="artifacts\Debug" />\n      </properties>\n    </msbuild>\n  </tasks>\n</project>

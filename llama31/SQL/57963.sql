@@ -1,1 +1,0 @@
-CREATE TRIGGER audit_orders\nON orders\nAFTER INSERT, UPDATE, DELETE\nAS\nBEGIN\n  INSERT INTO audit_log (table_name, action, data)\n  VALUES ('orders', 'INSERT/UPDATE/DELETE', 'data');\nEND;

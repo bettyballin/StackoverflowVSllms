@@ -1,1 +1,0 @@
-const container = document.createElement('div');\nconst shadowRoot = container.attachShadow({ mode: 'open' });\nshadowRoot.innerHTML = 'your HTML content';

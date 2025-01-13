@@ -1,1 +1,0 @@
-$transport = Swift_SmtpTransport::newInstance('SERVER_HOSTNAME', 25);\n$transport->setStreamOptions(array('socket' => array('bindto' => 'SERVER_IP:0')));

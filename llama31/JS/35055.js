@@ -1,1 +1,0 @@
-var sessionData = document.getElementById('<%= hfSessionData.ClientID %>').value;

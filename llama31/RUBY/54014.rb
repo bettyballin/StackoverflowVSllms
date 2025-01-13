@@ -1,1 +1,0 @@
-require 'digest/md5'\n\ndef md5_encode(str)\n  Digest::MD5.hexdigest(str)\nend\n\n# Example usage:\nputs md5_encode("Hello, World!")

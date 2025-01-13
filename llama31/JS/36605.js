@@ -1,1 +1,0 @@
-// Assume you have a form with id "my_form"\n$('#my_form').submit(function(event) {\n  event.preventDefault();\n  $.ajax({\n    type: 'POST',\n    url: $(this).attr('action'),\n    data: $(this).serialize(),\n    success: function(data) {\n      // Update the page with the response\n    }\n  });\n});

@@ -1,1 +1,0 @@
-SELECT x\nFROM (\n  VALUES (1), (2), (3)\n) AS temp(x);

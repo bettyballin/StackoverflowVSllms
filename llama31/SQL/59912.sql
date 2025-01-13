@@ -1,1 +1,0 @@
-CREATE TABLE online_users (\n  id INT PRIMARY KEY,\n  user_id INT,\n  last_activity TIMESTAMP\n);

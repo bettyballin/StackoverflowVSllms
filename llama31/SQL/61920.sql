@@ -1,1 +1,0 @@
-WITH RankedTable AS (\n  SELECT columnB, columnA,\n         ROW_NUMBER() OVER (ORDER BY columnA DESC) AS RowNum\n  FROM someTable\n)\nSELECT columnB, columnA\nFROM RankedTable\nWHERE RowNum <= 5\nUNION ALL\nSELECT 'Other', SUM(columnA)\nFROM RankedTable\nWHERE RowNum > 5

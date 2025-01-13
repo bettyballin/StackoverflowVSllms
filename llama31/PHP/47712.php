@@ -1,1 +1,0 @@
-Zend_View_Helper_Proker::addPath('My/View/Helper', 'My_View_Helper');

@@ -1,1 +1,0 @@
-CREATE PARTITION FUNCTION pf_RandomPartition (int)\nAS\n    RANGE RIGHT FOR VALUES (RAND() * 100);

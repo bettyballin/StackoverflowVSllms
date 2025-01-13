@@ -1,1 +1,0 @@
-require_once('tcpdf/tcpdf.php');\n\n$pdf = new TCPDF(PDF_PAGE_ORIENTATION, PDF_UNIT, PDF_PAGE_FORMAT, true, 'UTF-8', false);\n\n$pdf->SetFont('helvetica', '', 12);\n$pdf->AddPage();\n$pdf->Cell(0, 10, 'Hello World !', 0, 1, 'C');\n\n$pdf->Output('hello_world.pdf', 'I');

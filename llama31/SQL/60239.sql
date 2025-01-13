@@ -1,1 +1,0 @@
-SELECT "comment" FROM tablename;

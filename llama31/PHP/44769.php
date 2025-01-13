@@ -1,1 +1,0 @@
-use ZendSearchLuceneExt\Document\Field;\nuse ZendSearchLuceneExt\Index;\n\n// Create an index\n$index = new Index('test_search_index');\n\n// Create a document\n$doc = new Zend_Search_Lucene_Document();\n\n// Add a numeric field\n$doc->addField(new Field('ts', '1236917100', Field::TYPE_NUMERIC));\n\n// Add the document to the index\n$index->addDocument($doc);

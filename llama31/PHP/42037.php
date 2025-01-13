@@ -1,1 +1,0 @@
-// Example of proper coding style using PSR-2\nclass MyClass\n{\n    public function myMethod()\n    {\n        // code here\n    }\n}

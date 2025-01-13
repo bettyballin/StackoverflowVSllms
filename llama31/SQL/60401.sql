@@ -1,1 +1,0 @@
--- Create a temporary table with the IDs to update\nCREATE TABLE #IdsToUpdate (Id INT PRIMARY KEY);\n\n-- Insert the IDs into the temporary table\nINSERT INTO #IdsToUpdate (Id) VALUES (1), (2), ..., (10000);\n\n-- Perform the update\nUPDATE t\nSET t.Property = 'New Value'\nFROM TargetTable t\nJOIN #IdsToUpdate i ON t.Id = i.Id;

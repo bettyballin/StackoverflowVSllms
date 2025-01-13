@@ -1,1 +1,0 @@
-oClients = (\n    From P In ERM.Parties\n    Let O = P as Organisation\n    Where O IsNot Nothing\n    Order By O.CoName\n);

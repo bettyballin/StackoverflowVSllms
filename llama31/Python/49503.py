@@ -1,1 +1,0 @@
-import numpy as np\n\n# Your signal\nsignal = np.array([23, 26, 28, 22, 48, 49, 51, 49])\n\n# Compute autocorrelation\nautocorr = np.correlate(signal, signal, mode='full')\n\n# Find the first peak in the autocorrelation (indicating the periodicity)\npeak_idx = np.argmax(autocorr)\nperiod = peak_idx - len(signal)\nmax_freq = 1 / period

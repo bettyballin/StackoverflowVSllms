@@ -1,1 +1,0 @@
--- Example rollback script\n-- 1. Restore from backup\nINSERT INTO mytable SELECT * FROM #backup_table;\n\n-- 2. Drop temporary backup table\nDROP TABLE #backup_table;

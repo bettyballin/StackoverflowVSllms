@@ -1,1 +1,0 @@
-// In your controller\npublic function indexAction()\n{\n    $translate = Zend_Registry::get('Zend_Translate');\n    $this->view->message = $translate->_('Hello, world!');\n}

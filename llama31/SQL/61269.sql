@@ -1,1 +1,0 @@
-BEGIN\n  logging.log('Starting procedure X');\n  -- procedure code here\n  logging.log('Ending procedure X');\nEND;

@@ -1,1 +1,0 @@
-class DSequence:\n    # ... existing code ...\n\n    def __repr__(self):\n        return f"DSequence(sid={self.sid}, seq={self.seq})"

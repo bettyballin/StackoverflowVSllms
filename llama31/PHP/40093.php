@@ -1,1 +1,0 @@
-$result = $dbConnection->query('SELECT * FROM my_table');

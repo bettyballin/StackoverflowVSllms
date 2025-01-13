@@ -1,1 +1,0 @@
-// Add WikiEditor extension to LocalSettings.php\nrequire_once "$IP/extensions/WikiEditor/WikiEditor.php";\n\n// Add Vector skin to LocalSettings.php\n$wgDefaultSkin = 'vector';

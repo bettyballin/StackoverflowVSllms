@@ -1,1 +1,0 @@
-<build>\n  <plugins>\n    <plugin>\n      <groupId>org.apache.maven.plugins</groupId>\n      <artifactId>maven-jar-plugin</artifactId>\n      <configuration>\n        <timestamp>${maven.build.timestamp}</timestamp>\n      </configuration>\n    </plugin>\n  </plugins>\n</build>

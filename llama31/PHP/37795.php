@@ -1,1 +1,0 @@
-$handle = fopen("http://example.com", "r");\nif ($handle) {\n    while (($buffer = fgets($handle)) !== false) {\n        // Process the buffer\n    }\n    fclose($handle);\n}

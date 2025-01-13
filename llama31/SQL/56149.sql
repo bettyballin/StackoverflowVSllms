@@ -1,1 +1,0 @@
-SELECT b.date, SUM(b.amount) AS amount\nFROM balances b\nJOIN (\n    SELECT bank, account\n    FROM accounts\n    WHERE (bank, account) IN ((@bank1, @account1), (@bank2, @account2), ...)  -- list of bank-account pairs\n) a ON b.bank = a.bank AND b.account = a.account\nGROUP BY b.date

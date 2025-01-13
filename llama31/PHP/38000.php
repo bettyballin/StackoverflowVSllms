@@ -1,1 +1,0 @@
-require_once 'php-curl-master/Curl.php';\n\n$curl = new Curl();\n$curl->get('https://example.com');

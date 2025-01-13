@@ -1,1 +1,0 @@
-$day = count($_POST['day']);

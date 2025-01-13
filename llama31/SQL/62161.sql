@@ -1,1 +1,0 @@
-ALTER TABLE payments\nADD CONSTRAINT chk_payment_method_card_type\nCHECK (\n    (method = 'CC' AND cardType IN ('Visa', 'MasterCard', 'Discover', 'American Express'))\n    OR (method != 'CC' AND cardType IS NULL)\n);

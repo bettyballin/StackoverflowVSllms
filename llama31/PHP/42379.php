@@ -1,1 +1,0 @@
-class MyFilter implements Symfony\Component\EventDispatcher\EventSubscriberInterface\n{\n    public function onKernelRequest()\n    {\n        // do something with request parameters\n    }\n\n    public static function getSubscribedEvents()\n    {\n        return [\n            KernelEvents::REQUEST => 'onKernelRequest',\n        ];\n    }\n}

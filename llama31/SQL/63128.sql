@@ -1,1 +1,0 @@
-SELECT * FROM pg_indexes WHERE tablename = 'your_table_name';

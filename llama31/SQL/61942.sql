@@ -1,1 +1,0 @@
-CREATE DATABASE PseudoTempDB;\nGO\n\nUSE PseudoTempDB;\nGO\n\nCREATE TABLE MyTable (column1 int, column2 varchar(50));

@@ -1,1 +1,0 @@
-$mysqli = new mysqli("localhost", "username", "password", "database");\n\n$query = "DELETE FROM foo WHERE bar = 'stuff'";\n$mysqli->query($query);\n\n$rows_affected = $mysqli->affected_rows;\n\nif ($rows_affected > 0) {\n    echo "Delete was successful";\n} else {\n    echo "No rows were deleted";\n}

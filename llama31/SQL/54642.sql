@@ -1,1 +1,0 @@
-SELECT DISTINCT c.CN as ClaimNumber, \n         a.ItemDate as BillReceivedDate, \n         c.DTN as DocTrackNumber,\n         a.DateStored\nFROM ItemData a,\n         ItemDataPage b,\n         KeyGroupData c\nWHERE a.ItemTypeNum in (112, 113, 116, 172, 189)\nAND a.ItemNum = b.ItemNum\nAND b.ItemNum = c.ItemNum\nORDER BY a.DateStored DESC;

@@ -1,1 +1,0 @@
-Private Sub btnRunQuery_Click()\n    DoCmd.SetParameter "[Start Date]", Me.txtStartDate\n    DoCmd.SetParameter "[End Date]", Me.txtEndDate\n    DoCmd.OpenQuery "YourQueryName"\nEnd Sub

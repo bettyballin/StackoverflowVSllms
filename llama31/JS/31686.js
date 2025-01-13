@@ -1,1 +1,0 @@
-var userInput = prompt("Please enter a value:");\n$.ajax({\n    type: "POST",\n    url: "/YourController/YourAction",\n    data: { userInput: userInput },\n    success: function(data) {\n        // handle success\n    }\n});

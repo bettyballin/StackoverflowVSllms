@@ -1,1 +1,0 @@
-$array1 = ['test' => [0, 0, 0, [0, 0, 0]]];\n$array2 = ['test' => [0, 0, 0, [6, 0, 0]]];\n\nvar_dump(hasNonZeroValue($array1)); // false\nvar_dump(hasNonZeroValue($array2)); // true

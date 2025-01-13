@@ -1,1 +1,0 @@
-$number_array_loop = array();\n$temp_number = $number;\nwhile ($temp_number > 0) {\n    $found_number = 1 << (floor(log($temp_number, 2)));\n    $temp_number -= $found_number;\n    $number_array_loop[] = $found_number;\n}

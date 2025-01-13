@@ -1,1 +1,0 @@
-SELECT FORMAT(CAST('2009-01-01' AS DATE), 'MMMM yyyy') AS formatted_date;

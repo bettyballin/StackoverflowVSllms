@@ -1,1 +1,0 @@
-// Dynamically importing a file\nimport('./includedFile.js').then(module => {\n  module.functionName(); // Call a function from the included file\n});

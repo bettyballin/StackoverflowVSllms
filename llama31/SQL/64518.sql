@@ -1,1 +1,0 @@
-SELECT /*+ INDEX(sometable bar) INDEX(sometable foo) */ *\nFROM sometable\nWHERE foo='hello' AND bar='world';

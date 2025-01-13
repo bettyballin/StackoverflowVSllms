@@ -1,1 +1,0 @@
-$text = htmlspecialchars(convert_smart_quotes($text));

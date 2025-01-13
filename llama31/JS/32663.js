@@ -1,1 +1,0 @@
-// after adding content to the table\ndiv.style.height = 'auto';\ndiv.style.height = '100%';

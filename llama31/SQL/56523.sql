@@ -1,1 +1,0 @@
-SELECT ... INTO analyzedCopy2 FROM ... WHERE ... AND readings_miu_id <= 5000\nUNION ALL\nSELECT ... INTO analyzedCopy2 FROM ... WHERE ... AND readings_miu_id > 5000

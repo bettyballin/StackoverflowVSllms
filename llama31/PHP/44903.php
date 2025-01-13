@@ -1,1 +1,0 @@
-$movetohistory = mysql_query("\n  INSERT INTO $storehistory (column1, column2, column3, ...)\n  SELECT column1, column2, column3, ... \n  FROM $storetbl \n  WHERE $time - datecreated >= 432000\n") or die ("Query failed: " . mysql_error() . " Actual query: " . $query);

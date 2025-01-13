@@ -1,1 +1,0 @@
-Public Function UserToken(ByVal tokenStream As System.IO.Stream) As Boolea

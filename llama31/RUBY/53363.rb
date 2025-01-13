@@ -1,1 +1,0 @@
-class User < ApplicationRecord\n  include StateMachine\n\n  state_machine :state, initial: :invited do\n    state :invited\n    state :active\n\n    event :accept_invitation do\n      transition invited: :active\n    end\n  end\n\n  validates :name, :email, presence: true\n  validates :password, presence: true, if: -> { state == 'active' }\nend

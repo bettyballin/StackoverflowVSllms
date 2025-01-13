@@ -1,1 +1,0 @@
-$existingQuery = "/* your existing query here */";\n$distinctQuery = "SELECT DISTINCT product_field FROM ($existingQuery) AS subquery";\n$result = mysqli_query($conn, $distinctQuery);

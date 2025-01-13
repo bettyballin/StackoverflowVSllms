@@ -1,1 +1,0 @@
-# Capistrano deployment script (config/deploy.rb)\nset :application, 'my_app'\nset :repo_url, 'git@github.com:my_username/my_repo.git'

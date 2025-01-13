@@ -1,1 +1,0 @@
-ssh_stdin, ssh_stdout, ssh_stderr = ssh.exec_command("psql -U factory -d factory -f /tmp/data.sql")\nssh_stdin.channel.send("your_password\n")\nssh_stdin.channel.shutdown_write()  # Close the write channel

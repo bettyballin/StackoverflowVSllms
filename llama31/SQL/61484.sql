@@ -1,1 +1,0 @@
-CREATE TRIGGER trg_MyTable_Update ON MyTable\nAFTER UPDATE\nAS\nBEGIN\n    IF (COLUMNS_UPDATED() & 0x00000001) = 0x00000001 -- Check if only the first column was updated\n        AND (COLUMNS_UPDATED() & 0xFFFFFFFE) = 0x00000000 -- Check if no other columns were updated\n    BEGIN\n        -- Only the first column was updated, take action\n    END\nEND

@@ -1,1 +1,0 @@
-SELECT *\nFROM Product\nWHERE featured IN ('Y', 'N')\nORDER BY featured DESC\nLIMIT 1;

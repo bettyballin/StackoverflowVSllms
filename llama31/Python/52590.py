@@ -1,1 +1,0 @@
-def process_numbers(numbers):\n    return [x**2 for x in numbers]\n\nnumbers = [1, 2, 3, 4, 5]\nresult = process_numbers(numbers)\nprint(result)

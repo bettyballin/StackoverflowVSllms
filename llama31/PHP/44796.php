@@ -1,1 +1,0 @@
-$deleted = (isset($_POST['checkboxes']) && in_array('deleted', $_POST['checkboxes'])) ? 'checked' : '';

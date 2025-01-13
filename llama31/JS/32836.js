@@ -1,1 +1,0 @@
-// mynamespace.js\nvar mynamespace = (function() {\n  // your code here\n})();\n\n// usage\nmynamespace.myFunction();

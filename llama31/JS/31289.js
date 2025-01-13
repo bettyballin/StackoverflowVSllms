@@ -1,1 +1,0 @@
-// how do I get the next and previous divs?

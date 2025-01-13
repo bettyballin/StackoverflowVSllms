@@ -1,1 +1,0 @@
-ALTER SESSION SET NLS_SORT = BINARY;\n\nSELECT utl_match.edit_distance('á', 'b') FROM DUAL;

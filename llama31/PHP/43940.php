@@ -1,1 +1,0 @@
-$facebookUserId = '1234567890'; // Replace with the actual user ID\n$hashedFacebookUserId = password_hash($facebookUserId, PASSWORD_BCRYPT);

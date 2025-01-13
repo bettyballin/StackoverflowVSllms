@@ -1,1 +1,0 @@
-ALTER TABLE Table1\nADD CONSTRAINT fk_authorId\nFOREIGN KEY (authorId)\nREFERENCES Table2 (authorId);

@@ -1,1 +1,0 @@
-$public_ip = gethostbyname(gethostname());\necho $public_ip;

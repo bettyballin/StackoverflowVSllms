@@ -1,1 +1,0 @@
-function sumArray($foo) {\n    if (!is_array($foo)) {\n        throw new InvalidArgumentException('Input is not an array');\n    }\n    return array_sum($foo);\n}

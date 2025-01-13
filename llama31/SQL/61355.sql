@@ -1,1 +1,0 @@
-UPDATE your_table\nSET user_timezone = \n  CASE \n    WHEN user_timezone = '10+' THEN 'Australia/Sydney'\n    WHEN user_timezone = '1-' THEN 'America/New_York'\n    WHEN user_timezone = '5+' THEN 'Europe/London'\n    -- Add more cases as needed\n    ELSE user_timezone  # Leave unchanged if no match\n  END;

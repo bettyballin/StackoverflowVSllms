@@ -1,1 +1,0 @@
-EXEC sp_trace_setevent @TraceID, 47, 1, 6;  -- filter by delete event\nEXEC sp_trace_setfilter @TraceID, 10, 0, 6, N'my_database';  -- filter by database name\nEXEC sp_trace_setfilter @TraceID, 10, 0, 6, N'my_table';  -- filter by table name

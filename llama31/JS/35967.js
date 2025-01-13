@@ -1,1 +1,0 @@
-tinyMCE.init({\n  ...\n  convert_urls : {\n    relative_urls : false,\n    remove_script_host : false\n  },\n  ...\n});

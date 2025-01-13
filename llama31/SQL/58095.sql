@@ -1,1 +1,0 @@
-CREATE TRIGGER trg_update_date ON mytable\nAFTER UPDATE\nAS\nBEGIN\n    UPDATE mytable\n    SET updated_date = GETDATE()\n    WHERE id = inserted.id\nEND;

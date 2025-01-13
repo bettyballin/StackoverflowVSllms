@@ -1,1 +1,0 @@
-SELECT * \nFROM weblogs.dbo.vwlogs \nWHERE Log_time BETWEEN @BeginDate AND @EndDate \nAND (@UserName IS NULL OR client_user = @UserName)

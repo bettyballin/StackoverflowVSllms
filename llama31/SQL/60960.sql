@@ -1,1 +1,0 @@
-UPDATE p\nSET p.TemplateID = t.TemplateID\nFROM Products p\nINNER JOIN Templates t ON p.TemplateName = t.TemplateName;

@@ -1,1 +1,0 @@
-$makeItLink = new MakeItLink();\n$text = "Hello @username, check out #hashtag";\necho $makeItLink->transform( $text );

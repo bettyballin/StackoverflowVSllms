@@ -1,1 +1,0 @@
-UPDATE table\nSET status = 1\nWHERE status = 2\nORDER BY id  -- or any other column that makes sense for your use case\nLIMIT 400;

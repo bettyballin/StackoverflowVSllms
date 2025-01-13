@@ -1,1 +1,0 @@
-CREATE TABLE entity (\n    entity_id  VARCHAR(10) NOT NULL,\n    group_id   VARCHAR(10) NOT NULL,\n    first_seen DATE        NOT NULL DEFAULT CURDATE(),\n    last_seen  DATE        NOT NULL,\n    PRIMARY KEY (entity_id,group_id)\n)

@@ -1,1 +1,0 @@
-$body = file_get_contents('index.htm');\n\n$doc = new DOMDocument();\n$doc->loadHTML($body);\n\n$xpath = new DOMXPath($doc);\n$tables = $xpath->query('//td/table');\n\nforeach ($tables as $table) {\n    $table->parentNode->removeChild($table);\n}\n\n$body = $doc->saveHTML();\n\necho $body;

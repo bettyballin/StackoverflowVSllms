@@ -1,1 +1,0 @@
-def _dir_list(self, dir_name, whitelist):\n    outputList = []\n    for f in os.listdir(dir_name):\n        if os.path.isfile(os.path.join(dir_name, f)) and os.path.splitext(f)[1] in whitelist:\n            outputList.append(os.path.join(dir_name, f))\n        elif os.path.isfile(os.path.join(dir_name, f)):\n            self._email_to_("ignore")\n    return outputList

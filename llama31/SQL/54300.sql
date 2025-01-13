@@ -1,1 +1,0 @@
-SELECT *\nFROM incidents inc\nJOIN cause_attack catk ON inc.id = catk.incident_id\nJOIN obscure_table obt ON catk.obt_id = obt.id

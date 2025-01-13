@@ -1,1 +1,0 @@
-SELECT CASE\n       WHEN EXISTS (\n              SELECT 1\n              FROM YourTableName\n              WHERE Ticket NOT LIKE '%CertainSuffix'\n           ) THEN 'False'\n       ELSE 'True'\n       END AS AllMatchCondition;

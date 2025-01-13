@@ -1,1 +1,0 @@
-COLUMN os NEW_VALUE os\nSELECT CASE WHEN INSTR(DBMS_JAVA.get_os_name, 'Windows') > 0 THEN 'WINDOWS' ELSE 'LINUX' END AS os FROM DUAL;\nIF '&os' = 'WINDOWS' THEN\n  @%ORACLE_HOME%/rdbms/admin/utlrp.sql\nELSE\n  @$ORACLE_HOME/rdbms/admin/utlrp.sql\nEND IF;

@@ -1,1 +1,0 @@
-fetch('http://printer-ip:9100', {\n  method: 'POST',\n  body: 'Hello, printer!',\n  headers: {\n    'Content-Type': 'text/plain',\n    'User-Agent': '' // empty user agent\n  }\n});

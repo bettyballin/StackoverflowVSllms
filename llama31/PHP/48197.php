@@ -1,1 +1,0 @@
-use PhpAudio\Format\Speex;\nuse PhpAudio\Format\Mp3;\n\n$speex = new Speex('input.spx');\n$mp3 = new Mp3('output.mp3');\n\n$audioData = $speex->getAudioData();\n$mp3->setAudioData($audioData);\n$mp3->save();

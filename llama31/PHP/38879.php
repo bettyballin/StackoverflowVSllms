@@ -1,1 +1,0 @@
-$text = preg_replace('/((\*) (.*?)\n)+/', '<ul>' . preg_replace('/\* (.*?)\n/', '<li>$1</li>', '$0') . '</ul>', $text);

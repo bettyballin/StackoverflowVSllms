@@ -1,1 +1,0 @@
-$conditions = array(\n    'message_id = ?' => $messageId,\n    'user_id = ?'    => $userId\n);\n\n$n = $db->delete('messages', $conditions);

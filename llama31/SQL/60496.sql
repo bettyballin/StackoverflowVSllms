@@ -1,1 +1,0 @@
-SET @row_number = 0;\n\nSELECT \n  (@row_number := @row_number + 1) AS row_number\nFROM \n  information_schema.columns\nWHERE \n  @row_number <= 10;

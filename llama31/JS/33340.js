@@ -1,1 +1,0 @@
-const url = "http://seneca.sunyconnect.suny.edu:4730/F/?request=79396&func=find-b&find_code=sys&local_base=her01pub";\nconst encodedUrl = encodeURIComponent(url);\n\n// Output:\n// http%3A%2F%2Fseneca.sunyconnect.suny.edu%3A4730%2FF%2F%3Frequest%3D79396%26func%3Dfind-b%26find_code%3Dsys%26local_base%3Dher01pub

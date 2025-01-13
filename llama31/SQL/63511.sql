@@ -1,1 +1,0 @@
-CREATE FUNCTION GetFilteredTable\n(\n    @InputTable TABLE (Id INT, Name VARCHAR(50))\n)\nRETURNS TABLE\nAS\nRETURN\n(\n    SELECT Id, Name\n    FROM @InputTable\n    WHERE Name LIKE '%filter%'\n);

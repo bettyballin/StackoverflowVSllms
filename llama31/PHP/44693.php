@@ -1,1 +1,0 @@
-$dir = '/path/to/directory';\n$files = glob($dir . '/*', GLOB_NOSORT);\n$files = array_filter($files, function($file) {\n    return !preg_match('/\/\.SVN$/', $file);\n});

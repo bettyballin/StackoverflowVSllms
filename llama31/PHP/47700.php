@@ -1,1 +1,0 @@
-$long_url = "gallery/main.php?g2_view=core.DownloadItem&g2_itemId=8161&g2_serialNumber=2&g2_GALLERYSID=5b24df90ee45f0e01795a3c01a1d634b";\n$real_url = get_real_image_url($long_url);\necho "<img src='$real_url'>";

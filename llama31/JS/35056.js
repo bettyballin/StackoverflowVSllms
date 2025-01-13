@@ -1,1 +1,0 @@
-PageMethods.GetSessionData("yourKey", function(data) {\n    console.log(data);\n});

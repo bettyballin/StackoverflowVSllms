@@ -1,1 +1,0 @@
-function btnClick(btnNum) {\n  // ... existing code ...\n  setCookie("selectedTab", btnNum); // assuming you have a function to set the cookie value\n}

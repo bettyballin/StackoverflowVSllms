@@ -1,1 +1,0 @@
-from scipy.stats import triang\n\nA = 1  # lower limit\nB = 3  # mode\nC = 5  # upper limit\n\n# Calculate the mode (c) for the triang function\nc = (B - A) / (C - A)\n\n# Generate a random variable from the triangular distribution\nrandom_value = triang.rvs(c, loc=A, scale=C-A)\n\nprint(random_value)

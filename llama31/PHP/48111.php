@@ -1,1 +1,0 @@
-$col = clone UserGroup::GetCollection("User", _DB_GET_ALL_INSTANCE_NOGROUP_MEMBERS, $instanceID);

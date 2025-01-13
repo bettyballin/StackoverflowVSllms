@@ -1,1 +1,0 @@
-// Get the current domain\n$domain = $_SERVER['HTTP_HOST'];\n\n// Generate a unique session ID for each domain\n$sessionId = session_id($domain);\n\n// Start the session with the unique ID\nsession_id($sessionId);\nsession_start();\n\n// Now, when you set a session variable, it will be specific to the current domain\n$_SESSION['cart'] = array('item1', 'item2');

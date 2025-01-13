@@ -1,1 +1,0 @@
-function get_precise_date() {\n    $microtime = microtime(true);\n    $timestamp = floor($microtime);\n    $microseconds = round(($microtime - $timestamp) * 1000000);\n    $date = date('Y-m-d H:i:s', $timestamp);\n    return sprintf('%s.%06d', $date, $microseconds);\n}\n\necho get_precise_date();

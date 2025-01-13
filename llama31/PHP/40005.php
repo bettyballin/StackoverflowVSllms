@@ -1,1 +1,0 @@
-$imageBytes = file_get_contents('php://input');\n$imageType = exif_imagetype($imageBytes);\nif ($imageType !== IMAGETYPE_JPEG && $imageType !== IMAGETYPE_PNG) {\n    // invalid image type\n    http_response_code(400);\n    exit;\n}

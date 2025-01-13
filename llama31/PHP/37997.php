@@ -1,1 +1,0 @@
-$database = new Database(new Log($database));

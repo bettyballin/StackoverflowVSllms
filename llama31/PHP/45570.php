@@ -1,1 +1,0 @@
-<?php\nsession_unset();\nsession_destroy();\nsession_regenerate_id(true);\nheader('Location: ../Home/index.php');\nexit;\n?>

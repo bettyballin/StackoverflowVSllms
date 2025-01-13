@@ -1,1 +1,0 @@
-SELECT e.* \nFROM entities e \nJOIN values v ON e.id = v.entity_id \nJOIN attributes a ON v.attribute_id = a.id \nWHERE a.name = 'email' AND v.value = 'foo@bar.net';

@@ -1,1 +1,0 @@
-CREATE TABLE index_control (\n  id INT PRIMARY KEY,\n  current_year INT,\n  current_index INT\n);

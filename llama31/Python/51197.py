@@ -1,1 +1,0 @@
-from django.db import models\n\nclass DirtyMixin:\n    def __init__(self, *args, **kwargs):\n        super().__init__(*args, **kwargs)\n        self._initial_state = self.__dict__.copy()\n\n    def is_dirty(self):\n        return self.__dict__ != self._initial_state\n\nclass MyModel(DirtyMixin, models.Model):\n    # your model fields\n    pass

@@ -1,1 +1,0 @@
-$(document).ready(function() {\n  $('.image-container img').each(function() {\n    var imgHeight = $(this).height();\n    var overlayText = $(this).siblings('.overlay-text');\n    overlayText.css('top', (imgHeight / 2) - (overlayText.height() / 2));\n  });\n});

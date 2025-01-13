@@ -1,1 +1,0 @@
-SELECT t1.Id, t1.UserName\nFROM table1 t1\nINNER JOIN (\n  SELECT UserName, MAX(SubmittedDate) as MaxSubmittedDate\n  FROM table1\n  GROUP BY UserName\n) t2\nON t1.UserName = t2.UserName AND t1.SubmittedDate = t2.MaxSubmittedDate

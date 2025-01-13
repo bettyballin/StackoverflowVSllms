@@ -1,1 +1,0 @@
-$date = '2009-05-01';\nlist($start_date, $end_date) = get_week_range($date);\necho "Start date: $start_date, End date: $end_date";

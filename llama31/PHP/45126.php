@@ -1,1 +1,0 @@
-<?php\necho "hello world";\n$jsonData = $_POST['data'];\n$decodedData = json_decode($jsonData, true);\nvar_dump($decodedData);\n?>

@@ -1,1 +1,0 @@
-import * as yup from 'yup';\n\nconst validationSchema = yup.object().shape({\n  firstName: yup.string().required(),\n  favoriteColor: yup.string().oneOf(['red', 'blue']),\n});\n\nconst MyForm = () => {\n  const { register, handleSubmit, errors } = useForm({\n    validationSchema,\n  });\n\n  // ...\n};

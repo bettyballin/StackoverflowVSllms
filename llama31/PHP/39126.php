@@ -1,1 +1,0 @@
-// Set Memcached as session handler\nini_set('session.save_handler', 'memcached');\nini_set('session.save_path', 'localhost:11211');

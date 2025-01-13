@@ -1,1 +1,0 @@
-import psutil\n\ndef is_process_alive(pid):\n    return psutil.pid_exists(pid)

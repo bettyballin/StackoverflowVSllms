@@ -1,1 +1,0 @@
-$config['environment'] = 'development'; // or 'production'

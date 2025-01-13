@@ -1,1 +1,0 @@
-con.send(stdout + "\n")

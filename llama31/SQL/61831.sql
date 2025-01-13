@@ -1,1 +1,0 @@
-CREATE TABLE MyTable (\n    MyColumn INT\n)\n\nALTER TABLE MyTable\nADD CONSTRAINT CHK_MyColumn CHECK (MyColumn BETWEEN 1 AND 5)

@@ -1,1 +1,0 @@
-import ssl\n\ncontext = ssl.create_default_context(ssl.Purpose.CLIENT_AUTH)\ncontext.load_verify_locations(cafile='comodo_root_cert.pem')\ncontext.load_cert_chain('your_server_cert.pem', 'your_server_private_key.pem')

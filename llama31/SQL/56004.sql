@@ -1,1 +1,0 @@
-DELETE child_table\nFROM child_table\nINNER JOIN parent_table\nON child_table.parent_id = parent_table.id\nWHERE parent_table.condition = 'true';\nDELETE FROM parent_table\nWHERE condition = 'true';

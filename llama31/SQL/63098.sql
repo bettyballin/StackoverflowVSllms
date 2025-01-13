@@ -1,1 +1,0 @@
-CREATE VIEW riders AS\nSELECT \n  r.uid AS rid,\n  SUM(r.distance) AS total_distance,\n  SUM(IF(YEAR(r.ride_date) = YEAR(CURDATE()), r.distance, 0)) AS ytd_distance\nFROM \n  ridelog r\nGROUP BY \n  r.uid

@@ -1,1 +1,0 @@
-<?php\n// ...\necho $response; // send the response\nexit; // terminate the script

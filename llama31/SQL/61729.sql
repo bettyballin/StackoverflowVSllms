@@ -1,1 +1,0 @@
--- Enable auditing for login attempts\nAUDIT SESSION BY ACCESS;

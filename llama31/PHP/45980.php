@@ -1,1 +1,0 @@
-function shutdown_function1() {\n    echo "Shutdown function 1 executed\n";\n}\n\nfunction shutdown_function2() {\n    echo "Shutdown function 2 executed\n";\n}\n\nregister_shutdown_function('shutdown_function1');\nregister_shutdown_function('shutdown_function2');

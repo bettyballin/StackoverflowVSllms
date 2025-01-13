@@ -1,1 +1,0 @@
-for i in range(400, 501):\n    print(my_list[i])

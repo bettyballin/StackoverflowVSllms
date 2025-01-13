@@ -1,1 +1,0 @@
-<PropertyGroup>\n  <AssemblyName>$(AssemblyName)</AssemblyName>\n  <AssemblyType>library</AssemblyType>\n</PropertyGroup>

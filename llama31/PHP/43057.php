@@ -1,1 +1,0 @@
-$url = $_GET['youtube_url'];\n// Validate and sanitize the input URL\nif (preg_match('/^https:\/\/www\.youtube\.com\/watch\?v=[a-zA-Z0-9_-]+$/', $url)) {\n    // Use Method 2 to generate the embed code\n    $embedCode = ...;\n    echo $embedCode;\n} else {\n    echo 'Invalid YouTube URL';\n}

@@ -1,1 +1,0 @@
-$mime_type = mime_content_type($_FILES['imagefile']['tmp_name']);\nif ($mime_type != "image/jpeg" && $mime_type != "image/png" && $mime_type != "image/gif") {\n    // Handle invalid file type\n}

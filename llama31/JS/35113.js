@@ -1,1 +1,0 @@
-# Fiddler configuration example\nstatic function OnBeforeRequest(oSession: Session) {\n    // Forward a copy of the request to dev server\n    oSession["x-Forward-To"] = "http://dev-server:8080";\n}

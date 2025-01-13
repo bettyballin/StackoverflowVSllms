@@ -1,1 +1,0 @@
-<!-- In your web.config -->\n<configSections>\n    <section name="connectionStrings" type="YourCustomConfigurationSection, YourAssembly"/>\n</configSections>\n\n<connectionStrings configSource="IIS://Default Website/Connection string manager/YourConnectionStringName"/>

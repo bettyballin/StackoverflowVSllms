@@ -1,1 +1,0 @@
-$page = simplexml_load_file('http://www.example.com/page.html');\nif ($page === FALSE) {\n    $error = libxml_get_last_error();\n    if ($error->code == 28) {\n        // timeout error, retry\n    } elseif ($error->code == 404) {\n        // 404 error, add to list of not found pages\n    }\n    libxml_clear_errors();\n}

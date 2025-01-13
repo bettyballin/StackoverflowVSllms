@@ -1,1 +1,0 @@
--- Example of rolling up data to daily averages\nINSERT INTO MetricRollups (MetricID, AverageValue, DateCollected)\nSELECT MetricID, AVG(MetricValue), CONVERT(date, DateCollected)\nFROM Metrics\nGROUP BY MetricID, CONVERT(date, DateCollected);

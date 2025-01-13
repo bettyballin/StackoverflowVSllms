@@ -1,1 +1,0 @@
-$mysqli = new mysqli($host, $username, $password, $database);\n\n$query = "SELECT COUNT(*) AS total_rows FROM your_table";\n$result = $mysqli->query($query);\n$total_rows = $result->fetch_assoc()['total_rows'];\n\n$rows_per_page = 10; // adjust this to your desired page size\n$total_pages = ceil($total_rows / $rows_per_page);

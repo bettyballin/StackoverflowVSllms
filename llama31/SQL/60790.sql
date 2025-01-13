@@ -1,1 +1,0 @@
--- Server-side (place order endpoint)\nBEGIN TRANSACTION;\nINSERT INTO orders (customer_id, order_data) VALUES (?, ?);\nIF ROW_COUNT() > 0 THEN\n  COMMIT;\nELSE\n  ROLLBACK;\nEND IF;

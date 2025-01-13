@@ -1,1 +1,0 @@
-window.location.assign('http://example.com/file.zip');

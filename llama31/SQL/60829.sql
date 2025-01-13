@@ -1,1 +1,0 @@
-SELECT yt.*, cr.IsComplete\nFROM YourTable yt\nINNER JOIN CachedResults cr ON yt.YourTableId = cr.YourTableId;

@@ -1,1 +1,0 @@
-class MyClass {\n    public function getJavaScriptCode() {\n        $code = 'your long JavaScript code here';\n        return json_encode($code);\n    }\n}

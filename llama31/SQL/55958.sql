@@ -1,1 +1,0 @@
-CREATE TABLE ProductBlocks (\n  id INT PRIMARY KEY,\n  category_id INT,\n  FOREIGN KEY (category_id) REFERENCES Categories(id)\n);

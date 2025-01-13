@@ -1,1 +1,0 @@
-SELECT o.*\nFROM objects o\nJOIN object_ordering oo ON o.id = oo.object_id\nORDER BY oo.order_index;

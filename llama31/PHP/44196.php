@@ -1,1 +1,0 @@
-// auto_prepend_file.php\n// Code to run before every PHP script

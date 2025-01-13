@@ -1,1 +1,0 @@
-ALTER DATABASE MyDatabase SET WITNESS = 'TCP://datawitness.somedomain.com:7024';

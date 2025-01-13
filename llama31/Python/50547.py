@@ -1,1 +1,0 @@
-from stats_collector import StatisticsCollector\n\ncollector = StatisticsCollector()\n\n# Collect active users statistic\nactive_users = stats_models.ActiveUsers(100)\ncollector.collect(active_users)\n\n# Collect requests processed statistic\nrequests_processed = stats_models.RequestsProcessed(500)\ncollector.collect(requests_processed)

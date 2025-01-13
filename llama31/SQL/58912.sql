@@ -1,1 +1,0 @@
-EXEC sp_msforeachtable 'SELECT TOP 10 * FROM ?';

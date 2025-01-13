@@ -1,1 +1,0 @@
-// Send SSE headers\nheader('Content-Type: text/event-stream');\nheader('Cache-Control: no-cache');\n\n// Send an event to the client\necho "data: New message!\n\n";\nflush();

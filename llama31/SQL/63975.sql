@@ -1,1 +1,0 @@
-SELECT DISTINCT p.Name, p.Bio, p.Location\nFROM People p\nINNER JOIN GroupRecords gr ON p.GroupRecordsId = gr.Id\nWHERE gr.SchoolYear = '2000'\nAND gr.Id = (\n  SELECT TOP 1 Id\n  FROM GroupRecords\n  WHERE SchoolYear = '2000'\n  AND People.Name = p.Name\n  ORDER BY RecordDate DESC\n)

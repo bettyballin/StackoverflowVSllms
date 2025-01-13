@@ -1,1 +1,0 @@
-<system.diagnostics>\n    <trace autoflush="true" indentsize="4">\n        <listeners>\n            <add name="myListener" type="System.Diagnostics.TextWriterTraceListener" initializeData="soap.log" />\n        </listeners>\n    </trace>\n</system.diagnostics>

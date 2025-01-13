@@ -1,1 +1,0 @@
-<configuration>\n  <system.webServer>\n    <handlers>\n      <add name="StaticFileHandler" path="*" verb="*" modules="StaticFileModule" />\n    </handlers>\n  </system.webServer>\n</configuration>

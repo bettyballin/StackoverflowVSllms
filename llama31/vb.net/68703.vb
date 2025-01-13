@@ -1,1 +1,0 @@
-Imports System.Windows.Forms\n\nModule Main\n    Sub Main()\n        Application.EnableVisualStyles()\n        Application.SetCompatibleTextRenderingDefault(False)\n        Application.Run(New MyStartupForm()) ' Change this line\n    End Sub\nEnd Module

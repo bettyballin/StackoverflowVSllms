@@ -1,1 +1,0 @@
-$method = 'post';\n$method = strtoupper($method);\n\n// Create a mapping of method names to superglobal arrays\n$superglobals = [\n    'POST' => $_POST,\n    'GET' => $_GET,\n    // Add more mappings as needed\n];\n\n// Access the corresponding superglobal array\necho $superglobals[$method].'test3';

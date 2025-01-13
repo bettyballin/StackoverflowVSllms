@@ -1,1 +1,0 @@
-// JavaScript code (using jQuery)\n$.ajax({\n    type: "GET",\n    url: "/myServlet",\n    success: function(data) {\n        console.log(data); // Output: "Hello from Servlet!"\n    }\n});

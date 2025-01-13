@@ -1,1 +1,0 @@
-$db1 = new PDO('mysql:host=host;dbname=database1', 'user', 'password');\n$db2 = new PDO('mysql:host=host;dbname=database2', 'user', 'password');\n\n// Now you can use $db1 and $db2 to query the respective databases

@@ -1,1 +1,0 @@
-$string = "A/B/PA ID U/PA ID U/C/D";\npreg_match_all('/\/([^\/]+)/', $string, $matches);\nprint_r($matches[1]);

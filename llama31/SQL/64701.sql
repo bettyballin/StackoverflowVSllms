@@ -1,1 +1,0 @@
-INSERT INTO table_name (guid_column) \nVALUES (UUID_TO_BIN(UUID()));

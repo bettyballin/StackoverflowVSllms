@@ -1,1 +1,0 @@
-SELECT dbo.SetDBNullNvarChar('Hello')  -- returns 'Hello'\nSELECT dbo.SetDBNullNvarChar('')       -- returns NULL\nSELECT dbo.SetDBNullNvarChar('0')      -- returns NULL

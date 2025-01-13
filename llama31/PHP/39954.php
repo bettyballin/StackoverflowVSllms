@@ -1,1 +1,0 @@
-if (isset($_FILES['data']['tmp_name']['FileUpload']['file'])) {\n    $file = $_FILES['data']['tmp_name']['FileUpload']['file'];\n    // Process the uploaded file\n}

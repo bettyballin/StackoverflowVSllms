@@ -1,1 +1,0 @@
-<!-- pom.xml -->\n<project>\n    <groupId>com.example</groupId>\n    <artifactId>myapp</artifactId>\n    <version>1.0</version>\n    <packaging>pom</packaging>\n\n    <modules>\n        <module>module1</module>\n        <module>module2</module>\n    </modules>\n</project>

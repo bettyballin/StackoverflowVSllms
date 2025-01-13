@@ -1,1 +1,0 @@
-CREATE TABLE orders (\n    id INT PRIMARY KEY,\n    amount DECIMAL(10, 2) NOT NULL,\n    tax DECIMAL(10, 2) NOT NULL,\n    total DECIMAL(10, 2) NOT NULL\n);

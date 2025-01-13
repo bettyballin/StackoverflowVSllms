@@ -1,1 +1,0 @@
-$inputValue = 'How do I do this?';\n$escapedValue = htmlspecialchars($inputValue, ENT_QUOTES);\necho '<input type="text" name="something" value="' . $escapedValue . '" />';

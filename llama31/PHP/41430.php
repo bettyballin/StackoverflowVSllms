@@ -1,1 +1,0 @@
-// File 1\nnamespace MyNamespace1;\nclass MyClass {}\n\n// File 2\nnamespace MyNamespace2;\nclass MyClass {}

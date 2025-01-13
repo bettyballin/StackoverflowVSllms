@@ -1,1 +1,0 @@
-$result = mysqli_query($conn, $query);\nwhile ($row = mysqli_fetch_assoc($result)) {\n    echo $row['translation'] . "\n";\n}

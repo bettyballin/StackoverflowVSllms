@@ -1,1 +1,0 @@
-SELECT \n  i.itemID, \n  i.itemTitle, \n  m.deleted, \n  m.userID\nFROM \n  Items i\n  LEFT JOIN MyList m ON i.itemID = m.itemID AND m.userID = ?

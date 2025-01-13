@@ -1,1 +1,0 @@
-$('#firstId').rules('add', { required: true, minlength: 1});\n$('#secondId').rules('add', { required: true, minlength: 1});

@@ -1,1 +1,0 @@
-SELECT t1.ID, t1.Foo, t1.Bar, t1.Blagh\nFROM Table t1\nINNER JOIN (\n  SELECT Foo, MIN(Bar) AS MinBar\n  FROM Table\n  GROUP BY Foo\n) t2\nON t1.Foo = t2.Foo AND t1.Bar = t2.MinBar

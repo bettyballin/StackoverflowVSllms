@@ -1,1 +1,0 @@
-echo ini_get('upload_max_filesize') . "\n";\necho ini_get('post_max_size') . "\n";

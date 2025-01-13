@@ -1,1 +1,0 @@
-For Each control As Control In Me.Controls\n    If TypeOf control Is TextBox Then\n        Dim textBox As TextBox = DirectCast(control, TextBox)\n        If textBox.Text = "" Then\n            ' TextBox is empty\n        ElseIf textBox.Modified = False Then\n            ' TextBox has not been modified\n        End If\n    End If\nNext

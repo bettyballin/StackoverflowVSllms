@@ -1,1 +1,0 @@
-import telnetlib\n\ntn = telnetlib.Telnet('mud.example.com', 23)\ntn.write(b'login username\n')\ntn.write(b'password password\n')\nprint(tn.read_all().decode())

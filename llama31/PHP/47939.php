@@ -1,1 +1,0 @@
-$guid = com_create_guid();\n$com = new COM($guid);

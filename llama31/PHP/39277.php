@@ -1,1 +1,0 @@
-if (isset($_COOKIE['token'])) { /* do stuff */ }

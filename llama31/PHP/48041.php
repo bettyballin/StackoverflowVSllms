@@ -1,1 +1,0 @@
-$currency = new Zend_Currency('en_GB', array('encoding' => 'ISO-8859-1'));

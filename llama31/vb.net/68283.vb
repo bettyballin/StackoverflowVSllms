@@ -1,1 +1,0 @@
-Dim sample As New CounterSample(timePiece.ElapsedMilliseconds, 1)\nAvgCounter.AddSample(sample)

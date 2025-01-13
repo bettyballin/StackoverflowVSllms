@@ -1,1 +1,0 @@
-<p class="acp3">\n  <%= label_tag "Status" %>\n  <%= select_tag("status", options_for_select([["Active", "Active"], ["Disabled", "Disabled"]], account["status"])) %>\n</p>

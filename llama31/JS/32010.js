@@ -1,1 +1,0 @@
-var dynamicText = "Click me!";\nvar template = "<div id='newDiv'>{{{text}}}</div>";\nvar compiledTemplate = Handlebars.compile(template);\nvar newHtml = compiledTemplate({ text: dynamicText });\n\n$("#myID").append(newHtml);\n\n$("#newDiv").on("click", function() {\n  alert("Clicked!");\n});

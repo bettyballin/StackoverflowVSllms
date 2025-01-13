@@ -1,1 +1,0 @@
-$("[id$=" + endOfIdToMatch + "]").each(function () {\n    if ($(this).is('input')) {\n        // it's a textbox, use val()\n        var value = $(this).val();\n    } else if ($(this).is('label')) {\n        // it's a label, use html()\n        var value = $(this).html();\n    }\n});

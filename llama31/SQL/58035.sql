@@ -1,1 +1,0 @@
--- SQL example to optimize a query using efficient joins\nSELECT i.item_name, k.keyword \nFROM items i \nINNER JOIN keywords k ON i.item_id = k.item_id \nWHERE i.item_name LIKE '%query%';

@@ -1,1 +1,0 @@
-function myFunction($first_par, $second_par) {\n    echo $first_par . ' ' . $second_par;\n}\n\n$function_call_spec = array(\n    "prototype"  => "myFunction",\n    "parameters" => array("Hello", "World")\n);\n\n$funcPrototype = $function_call_spec["prototype"];\n$funcPrototype(...$function_call_spec["parameters"]);

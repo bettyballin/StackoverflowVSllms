@@ -1,1 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>\n<configuration>\n  <connectionStrings>\n    <add name="MyConnectionString" connectionString="Server=myServer;Database=myDB;User Id=myUser;Password=myPassword;" />\n  </connectionStrings>\n</configuration>

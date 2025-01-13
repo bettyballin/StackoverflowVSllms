@@ -1,1 +1,0 @@
-ALTER TABLE your_table\nADD ipv6_address AS CONVERT(binary(16), ipv6_high) + CONVERT(binary(8), ipv6_low);

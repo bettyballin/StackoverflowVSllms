@@ -1,1 +1,0 @@
-# myapp/urls.py\nfrom django.urls import path\nfrom . import views\n\nurlpatterns = [\n    path('my-view/', views.my_view, name='my_view'),\n]

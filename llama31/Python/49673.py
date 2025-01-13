@@ -1,1 +1,0 @@
-# Define a list\nmy_list = [1, 2, 3, 4, 5]\n\n# Define the element to remove\nelement_to_remove = 3\n\n# Create a new list that excludes the element\nnew_list = [x for x in my_list if x != element_to_remove]\n\n# Print the new list\nprint(new_list)  # Output: [1, 2, 4, 5]

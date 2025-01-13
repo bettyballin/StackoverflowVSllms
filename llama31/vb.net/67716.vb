@@ -1,1 +1,0 @@
-Dim div As New HtmlControls.HtmlGenericControl("div")\ndiv.InnerText = "Hello, " & HttpUtility.HtmlEncode(Request.QueryString("name")) & "!"

@@ -1,1 +1,0 @@
-$start_time = microtime(true);\n\n// Your script code here...\n\n$end_time = microtime(true);\n$execution_time = $end_time - $start_time;\n\necho "Execution time: " . $execution_time . " seconds";

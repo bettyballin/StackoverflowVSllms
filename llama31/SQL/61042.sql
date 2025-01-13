@@ -1,1 +1,0 @@
--- SQL Server\nCREATE SCHEMA my_schema;\n\n-- Oracle\nCREATE USER my_user IDENTIFIED BY password;\nGRANT CREATE SESSION, CREATE TABLE TO my_user;

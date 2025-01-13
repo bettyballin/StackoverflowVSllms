@@ -1,1 +1,0 @@
-SELECT pv1.uid\nFROM profile_values pv1\nJOIN profile_values pv2 ON pv1.uid = pv2.uid\nWHERE pv1.fid = 1 AND pv1.value LIKE 'S%'\nAND pv2.fid = 11 AND pv2.value LIKE 'D%';

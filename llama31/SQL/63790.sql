@@ -1,1 +1,0 @@
-SELECT t1.column1, t2.column2, t3.column3, t4.column4\nFROM table1 t1\nJOIN table2 t2 ON t1.id = t2.id\nJOIN table3 t3 ON t1.id = t3.id\nJOIN table4 t4 ON t1.id = t4.id\nWHERE t1.id = ?;

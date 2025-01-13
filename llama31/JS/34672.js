@@ -1,1 +1,0 @@
-var encryptedData = CryptoJS.AES.encrypt($('#ssn-field').val(), 'your_secret_key');\n$.ajax({\n    type: 'POST',\n    url: '/path/to/proxy/script.php',\n    data: {\n        encryptedData: encryptedData.toString()\n    },\n    // ...\n});

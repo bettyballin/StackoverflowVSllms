@@ -1,1 +1,0 @@
-SELECT *\nFROM your_table t1\nWHERE NOT EXISTS (\n  SELECT 1\n  FROM your_table t2\n  WHERE t1.ID = t2.ID AND t2.CODE = 'BADCODE'\n)

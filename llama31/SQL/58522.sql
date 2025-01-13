@@ -1,1 +1,0 @@
-DECLARE @plaintext VARCHAR(50) = 'Sensitive Data'\nDECLARE @encrypted VARBINARY(255) = dbo.EncryptData(@plaintext)\nDECLARE @decrypted VARCHAR(50) = dbo.DecryptData(@encrypted)\n\nPRINT @decrypted

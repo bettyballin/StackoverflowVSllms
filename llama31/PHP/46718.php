@@ -1,1 +1,0 @@
-$doc = new DOMDocument();\n$doc->loadHTML($str);\n$font_tags = $doc->getElementsByTagName('font');\necho $font_tags->item(0)->nodeValue;

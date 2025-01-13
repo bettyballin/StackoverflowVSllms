@@ -1,1 +1,0 @@
-if (isset($_POST['form1_submit'])) {\n    // process form1 data\n} elseif (isset($_POST['form2_submit'])) {\n    // process form2 data\n}

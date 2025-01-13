@@ -1,1 +1,0 @@
-def add_bom(file_path, encoding):\n    bom = b'\xef\xbb\xbf' if encoding == 'utf-8' else b'\xfe\xff' if encoding == 'utf-16' else None\n    with open(file_path, 'rb') as file:\n        content = file.read()\n    with open(file_path, 'wb') as file:\n        if bom:\n            file.write(bom)\n        file.write(content)\n\n# Example usage:\nadd_bom('example.txt', 'utf-8')

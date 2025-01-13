@@ -1,1 +1,0 @@
-$data = $_POST['field'];\n$data = stripslashes($data);

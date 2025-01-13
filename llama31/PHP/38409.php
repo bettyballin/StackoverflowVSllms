@@ -1,1 +1,0 @@
-$ip = $_SERVER['REMOTE_ADDR'];\n$url = "https://check.torproject.org/cgi-bin/TorBulkExitList.py?ip=$ip";\n$response = file_get_contents($url);\nif (trim($response) == '1') {\n    // TOR exit node detected\n}

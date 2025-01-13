@@ -1,1 +1,0 @@
-SELECT t1.orderID\nFROM tasks t1\nLEFT JOIN (\n  SELECT DISTINCT orderID\n  FROM tasks\n  WHERE engineer1 IS NOT NULL AND engineer2 IS NOT NULL\n) t2\nON t1.orderID = t2.orderID\nWHERE t2.orderID IS NULL;

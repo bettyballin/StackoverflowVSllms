@@ -1,1 +1,0 @@
-$(document).ready(function() {\n    $('#commentForm').validate({\n        rules: {\n            name: {\n                required: true,\n                minlength: 2\n            }\n        }\n    });\n});

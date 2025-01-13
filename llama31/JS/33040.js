@@ -1,1 +1,0 @@
-function hideMessage(sender, args) {\n    var ctl = args.get_postBackElement();\n    if (ctl.id === "yourButtonId") {\n        // fire your JS code here\n    }\n}

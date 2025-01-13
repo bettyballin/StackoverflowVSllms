@@ -1,1 +1,0 @@
-FOR [Method] IN ([Cash], [Check], [CreditCard], [BankTransfer])

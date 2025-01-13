@@ -1,1 +1,0 @@
-// Example APCu usage\nif (apcu_exists('my_key')) {\n    $data = apcu_fetch('my_key');\n} else {\n    // Compute the data\n    $data = expensive_computation();\n    apcu_store('my_key', $data);\n}

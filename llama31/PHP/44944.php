@@ -1,1 +1,0 @@
-<?php\n$text = 'Japanese text: ';\necho htmlspecialchars($text, ENT_QUOTES, 'UTF-8');

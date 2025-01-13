@@ -1,1 +1,0 @@
-const selectElement = document.getElementById('Id');\nselectElement.insertAdjacentHTML('beforeend', "<option value='foo'>Foo</option>");

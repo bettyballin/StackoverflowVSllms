@@ -1,1 +1,0 @@
-Imports System.ComponentModel\n\n<EditorBrowsable(EditorBrowsableState.Always), Browsable(True), Bindable(True), _\nDesignerSerializationVisibility(DesignerSerializationVisibility.Visible)> _\nOverrides Property Text() As String\n    Get\n        Return Me.ControlText.Text\n    End Get\n    Set(ByVal value As String)\n        Me.ControlText.Text = value\n    End Set\nEnd Property

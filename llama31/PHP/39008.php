@@ -1,1 +1,0 @@
-$blog = $app->getBlog($id);\n$author = $blog->getAuthor(); // This will cache the author data\n\n// In your Blog model\npublic function getAuthor() {\n    if (!isset($this->author)) {\n        $this->author = $app->getAuthor($this->author_id);\n        // Cache the author data\n    }\n    return $this->author;\n}

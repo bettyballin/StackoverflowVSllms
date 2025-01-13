@@ -1,1 +1,0 @@
-$now = new DateTime();\n$eob = new DateTime("2009/07/02 17:00");\n\n$interval = $now->diff($eob);\n$seconds = $interval->days * 86400 + $interval->h * 3600 + $interval->i * 60 + $interval->s;\n\necho $seconds;

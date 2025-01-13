@@ -1,1 +1,0 @@
-$doc = new DOMDocument();\n$doc->loadHTMLFile('http://foo.com');\n$index_text = $doc->saveHTML();\nprint $index_text;

@@ -1,1 +1,0 @@
-MasterPageFile = "~/MasterPages/" & Theme & "/Site.master"

@@ -1,1 +1,0 @@
-var_dump(NULL); // outputs: NULL\nvar_dump(null); // outputs: NULL

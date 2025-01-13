@@ -1,1 +1,0 @@
-SELECT \n    SUM(CASE WHEN MONTH(evdtApplication) = MONTH(GETDATE()) AND YEAR(evdtApplication) = YEAR(GETDATE()) THEN 1 ELSE 0 END) AS monthApplicationEntered,\n    SUM(CASE WHEN YEAR(evdtApplication) = YEAR(GETDATE()) THEN 1 ELSE 0 END) AS yearApplicationEntered\nFROM \n    tblEventDates

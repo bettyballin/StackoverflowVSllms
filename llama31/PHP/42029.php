@@ -1,1 +1,0 @@
-use UserFrosting\User;\nuse UserFrosting\Authentication\AuthenticationService;\n\n// Create an instance of the authentication service\n$authService = new AuthenticationService();\n\n// Login a user\n$user = new User($username, $password);\nif ($authService->login($user)) {\n    // User is logged in\n} else {\n    // Login failed\n}

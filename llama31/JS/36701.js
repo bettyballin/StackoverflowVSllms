@@ -1,1 +1,0 @@
-function sort() {\n    $.ajax({\n        url: "sort.php",\n        dataType: "json",\n        success: function(data) {\n            $("#t1").html(data.html);\n        }\n    });\n}

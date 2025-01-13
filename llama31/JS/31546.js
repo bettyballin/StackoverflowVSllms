@@ -1,1 +1,0 @@
-$(document).ready(function() {\n  $('input[type="checkbox"][data-remote="true"]').on('ajax:success', function(event, data, status, xhr) {\n    $(this).prop('checked', data.success);\n  });\n});

@@ -1,1 +1,0 @@
-$stmt = $conn->prepare("SELECT * FROM table WHERE column = :value");\n$stmt->bindParam(":value", $value);\n$stmt->execute();

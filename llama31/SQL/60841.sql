@@ -1,1 +1,0 @@
-SELECT FLOOR(1.95)  -- returns 1\nSELECT FLOOR(1.45678)  -- returns 1\nSELECT FLOOR(12.00)  -- returns 12\nSELECT FLOOR(12.9999)  -- returns 12

@@ -1,1 +1,0 @@
-$html = '<TEXTFORMAT LEADING=\'2\'><P ALIGN=\'LEFT\'><FONT FACE=\'Verdana\' style="font-size:10" COLOR=\'#0B333C\'>My name\'s Mark</FONT></P></TEXTFORMAT>';\n\n$pattern = '/(<[^>]*\')([^\'>]*)\'/'; // match single quotes within HTML tags\n$replacement = '$1"$2"'; // replace with double quotes\n\n$html = preg_replace($pattern, $replacement, $html);\n\necho $html;

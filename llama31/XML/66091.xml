@@ -1,1 +1,0 @@
-<action name="MyAction" class="your.package.MyAction">\n    <result name="success">/path/to/success/page.jsp</result>\n    <result name="input">/path/to/your/form/page.jsp</result>\n</action>

@@ -1,1 +1,0 @@
-function CheckKey(keycode) {\n    if (keycode === 113) {\n        // ...\n    }\n}

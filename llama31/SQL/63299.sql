@@ -1,1 +1,0 @@
-DECLARE @PageSize INT = 1000\nDECLARE @Page INT = 1\n\nSELECT TOP (@PageSize) *\nFROM (\n  SELECT *, ROW_NUMBER() OVER (ORDER BY column_name) AS RowNum\n  FROM table_name\n  WHERE condition\n) AS subquery\nWHERE RowNum BETWEEN (@Page - 1) * @PageSize + 1 AND @Page * @PageSize

@@ -1,1 +1,0 @@
-if (!empty($_POST['actualSubmit'])) {\n    if ($_POST['actualSubmit'] == 'enterKey') {\n        echo "Form submitted by pressing the Enter key.";\n    } else {\n        echo "Form submitted by clicking the " . $_POST['actualSubmit'] . " button.";\n    }\n} else {\n    // Handle case where actualSubmit field is empty\n    echo "Form submitted, but unable to determine method.";\n}

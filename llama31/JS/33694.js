@@ -1,1 +1,0 @@
-const xml2js = require('xml2js');\n\nconst xml = '<root><person><name>John</name></person></root>';\nconst parser = new xml2js.Parser();\n\nparser.parseString(xml, (err, result) => {\n  if (err) {\n    console.error(err);\n  } else {\n    console.log(result.root.person[0].name); // Output: John\n  }\n});

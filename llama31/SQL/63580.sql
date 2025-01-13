@@ -1,1 +1,0 @@
-UPDATE table_name\nSET timestamp = SUBSTRING(id, 1, 8);

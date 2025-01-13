@@ -1,1 +1,0 @@
-const link = document.querySelector('a');\nconst articleId = link.dataset.articleId;\nconst target = link.dataset.target;

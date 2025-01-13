@@ -1,1 +1,0 @@
-' Open your project's properties\nDim projectProperties As New ProjectProperties()\n\n' Go to the "Compile" tab\nprojectProperties.CompileTab()\n\n' Click "Advanced Compile Options"\nprojectProperties.AdvancedCompileOptions()\n\n' Set "Generate serialization assemblies" to "Off"\nprojectProperties.GenerateSerializationAssemblies = False

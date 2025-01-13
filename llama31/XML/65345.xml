@@ -1,1 +1,0 @@
-<project name="myproject" default="build">\n  <logger classname="org.apache.tools.ant.util.TimestampedLogger"/>\n  ...\n</project>

@@ -1,1 +1,0 @@
-SELECT @@SERVERNAME AS ServerName,\n       CASE WHEN server_id = 1 THEN 'PRIMARY' ELSE 'SECONDARY' END AS Role\nFROM sys.servers\nWHERE server_id = 1;

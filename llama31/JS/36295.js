@@ -1,1 +1,0 @@
-var element = document.getElementById('myElement');\nsetMouseCapture(element);\n// Later...\nreleaseMouseCapture(element);

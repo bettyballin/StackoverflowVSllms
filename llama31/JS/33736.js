@@ -1,1 +1,0 @@
-function selectUser(anchor, callback) {\n  // remove all 'selected' classes from $user_selector child divs\n  // add 'selected' class to parent div.user of anchor\n  \n  // call the callback function with the 'this' reference set to div#user_selector\n  callback.call(document.getElementById('user_selector'));\n}

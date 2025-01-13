@@ -1,1 +1,0 @@
-pt_register('GET', 'username', 'password');

@@ -1,1 +1,0 @@
-// Synchronous Request\nvar xhr = new XMLHttpRequest();\nxhr.open('GET', '/example', false); // synchronous request\nxhr.send();\n\n// Asynchronous Request\nvar xhr = new XMLHttpRequest();\nxhr.open('GET', '/example', true); // asynchronous request\nxhr.onload = function() {\n  if (xhr.status === 200) {\n    console.log(xhr.responseText);\n  }\n};\nxhr.send();

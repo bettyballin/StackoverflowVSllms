@@ -1,1 +1,0 @@
-$username = $_SERVER['AUTH_USER'];

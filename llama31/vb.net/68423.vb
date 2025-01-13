@@ -1,1 +1,0 @@
-Imports Moq\n\nPublic Class MyClassTests\n    <Test>\n    Public Sub MyTest()\n        Dim mock = New Mock(Of IMyInterface)()\n        mock.Setup(Function(x) x.DoSomething()).Returns("Mocked result")\n        \n        ' Use the mock\n        Dim myClass = New MyClass(mock.Object)\n        myClass.DoSomethingElse()\n    End Sub\nEnd Class

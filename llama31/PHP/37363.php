@@ -1,1 +1,0 @@
-<?php\nsession_start();\nif (isset($_POST['username'])) {\n    $_SESSION['loginid'] = $_POST['username'];\n}\n?>

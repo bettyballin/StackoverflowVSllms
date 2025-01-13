@@ -1,1 +1,0 @@
-import colour\n\ndef pms_to_cmyk(pms_value):\n    rgb = colour.convert(pms_value, 'pantone', 'rgb')\n    cmyk = colour.convert(rgb, 'rgb', 'cmyk')\n    return cmyk\n\npms_value = "Pantone 288C"  # replace with your PMS value\ncmyk_value = pms_to_cmyk(pms_value)\nprint(cmyk_value)

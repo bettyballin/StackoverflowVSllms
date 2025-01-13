@@ -1,1 +1,0 @@
-$queryString = parse_url($_SERVER['REQUEST_URI'], PHP_URL_QUERY);\nparse_str($queryString, $queryParams);\n\necho $queryParams['x.y']; // outputs: a.b

@@ -1,1 +1,0 @@
-SELECT p.* \nFROM products p \nJOIN product_attributes pa ON p.id = pa.product_id \nJOIN attributes a ON pa.attribute_id = a.id \nWHERE a.attribute_name = 'LCD/CRT' AND pa.attribute_value = 'LCD';

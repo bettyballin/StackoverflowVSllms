@@ -1,1 +1,0 @@
-<?php\n// Load the initial page content using a PHP template\nrequire_once 'template.php';\n?>\n\n<!-- main content -->\n<div class="span-24" id="main">\n  <?php echo $content; ?>\n</div>

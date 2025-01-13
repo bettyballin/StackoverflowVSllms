@@ -1,1 +1,0 @@
-class ApplicationController < ActionController::Base\n  def perform_action(*args)\n    super\n    authenticate if respond_to?(:authenticate)\n  end\nend

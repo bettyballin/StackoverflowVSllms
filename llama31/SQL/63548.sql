@@ -1,1 +1,0 @@
-CREATE INDEX idx_customer_id ON katalogbestilling_katalog (customer_id);

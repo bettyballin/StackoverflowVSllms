@@ -1,1 +1,0 @@
-$json_object = json_decode(file_get_contents('php://input'));\necho $json_object->{'firstName'};\necho $json_object->{'lastName'};\necho $json_object->{'email'};\necho $json_object->{'deviceUUID'};

@@ -1,1 +1,0 @@
-import hashlib\n\nmac_address = "00:11:22:33:44:55"\nhashed_mac = hashlib.sha256(mac_address.encode()).hexdigest()\nprint(hashed_mac)

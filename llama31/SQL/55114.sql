@@ -1,1 +1,0 @@
-CREATE TYPE IdTableType AS TABLE (Id INT);\nGO\n\nCREATE PROCEDURE MyProcedure\n    @Ids IdTableType READONLY\nAS\nBEGIN\n    SELECT * \n    FROM sometable \n    WHERE tableid IN (SELECT Id FROM @Ids);\nEND\nGO\n\nDECLARE @Ids IdTableType;\nINSERT INTO @Ids (Id) VALUES (1), (2), (3), (5), (4), (6), (7), (98), (234);\n\nEXEC MyProcedure @Ids;

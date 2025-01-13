@@ -1,1 +1,0 @@
-$totalResults = // retrieve the total number of results from the database\n$totalPages = ceil($totalResults / $perPage);

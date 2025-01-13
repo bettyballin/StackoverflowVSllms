@@ -1,1 +1,0 @@
-SELECT \n    x, \n    ROUND(23 * (1 + SIN(2 * PI() * (x / 10.0))) / 2) AS y\nFROM \n    your_table;

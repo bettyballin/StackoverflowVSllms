@@ -1,1 +1,0 @@
-$db = NewADOConnection('mysql');\n$db->Connect('localhost', 'user', 'pass', 'database');\n\n// Enable query caching\n$db->cacheSeconds = 300; // cache for 5 minutes\n\n// Execute a query\n$rs = $db->Execute("SELECT * FROM table");\n\n// The result is now cached for 5 minutes

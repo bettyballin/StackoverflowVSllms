@@ -1,1 +1,0 @@
-var width = elem.offsetWidth;\nif (isQuirksMode) {\n  width += paddingLeft + paddingRight + borderLeftWidth + borderRightWidth;\n}

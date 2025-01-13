@@ -1,1 +1,0 @@
-CREATE TEMPORARY TABLE temp_table (\n  id INT,\n  name VARCHAR(255),\n  ...\n);

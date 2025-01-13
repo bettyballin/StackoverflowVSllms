@@ -1,1 +1,0 @@
-SELECT * FROM customers\nJOIN (\n  SELECT 32343 AS user_id UNION ALL\n  SELECT 45676 UNION ALL\n  SELECT 12345 UNION ALL\n  ...\n) AS user_ids ON customers.user_id = user_ids.user_id;

@@ -1,1 +1,0 @@
-tinymce.init({\n  selector: 'textarea',\n  plugins: 'paste',\n  paste_word_valid_elements: 'b,strong,i,em,u,span,ul,ol,li,a[href,name],p,br',\n  paste_retain_style_properties: 'color font-size',\n  paste_convert_headers_to_strong: true\n});

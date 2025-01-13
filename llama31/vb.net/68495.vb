@@ -1,1 +1,0 @@
-Dim row As DataGridViewRow = DataGridView1.Rows(0) ' Replace 0 with the desired row index\nDim combo As DataGridViewComboBoxCell = CType(row.Cells("VAT Rate"), DataGridViewComboBoxCell)\nDim items As DataGridViewComboBoxCell.ObjectCollection = combo.Items

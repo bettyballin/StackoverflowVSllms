@@ -1,1 +1,0 @@
-list_of_pairs = [(0, 1), (2, 3), (5, 7), (2, 1)]\nsum_of_first_items = sum(pair[0] for pair in list_of_pairs)\nprint(sum_of_first_items)

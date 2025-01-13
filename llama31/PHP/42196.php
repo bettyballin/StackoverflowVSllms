@@ -1,1 +1,0 @@
-$baseDIR = realpath('I:\Development\wamp\www\mySite\wp-content\uploads\slgallery');

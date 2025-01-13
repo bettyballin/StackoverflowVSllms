@@ -1,1 +1,0 @@
-CREATE GLOBAL TEMPORARY TABLE temp_ids (id NUMBER) ON COMMIT DELETE ROWS;\n\n-- insert IDs into temp table\nINSERT INTO temp_ids (id) VALUES (1);\nINSERT INTO temp_ids (id) VALUES (2);\n...\nINSERT INTO temp_ids (id) VALUES (1001);\nINSERT INTO temp_ids (id) VALUES (1002);\n...\n\n-- join with main table\nSELECT * FROM table1 WHERE ID IN (SELECT id FROM temp_ids);

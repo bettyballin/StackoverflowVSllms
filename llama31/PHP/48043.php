@@ -1,1 +1,0 @@
-$ch = curl_init('https://example.com/large_file');\ncurl_setopt($ch, CURLOPT_RANGE, '0-10239'); // retrieve the first 10k bytes\ncurl_setopt($ch, CURLOPT_RETURNTRANSFER, true);\n$response = curl_exec($ch);\ncurl_close($ch);

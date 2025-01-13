@@ -1,1 +1,0 @@
-$x = 996; // $x is an integer\n$x = mysql_query("SELECT aString FROM table1"); // $x is now a resource identifier\n\n// Trying to use $x as an integer or string will produce unexpected results\necho $x + 1; // outputs "Resource id #x" instead of 997\necho strlen($x); // outputs "Resource id #x" instead of the length of the string

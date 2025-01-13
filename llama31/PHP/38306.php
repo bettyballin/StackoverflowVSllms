@@ -1,1 +1,0 @@
-$view = views_get_view('your_view_name');\n$view->execute();\n$rows = views_get_view_rows($view);\n\n// $rows is now an array of all rows in the view

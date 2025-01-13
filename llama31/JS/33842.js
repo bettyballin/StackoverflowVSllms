@@ -1,1 +1,0 @@
-$('.new-button').live('click', function() {\n    // code to handle the click event\n});

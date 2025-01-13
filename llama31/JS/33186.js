@@ -1,1 +1,0 @@
-<script language="javascript">\n<![CDATA[\n    alert("a$b".replace(/\$/g,"k"));\n]]>\n</script>

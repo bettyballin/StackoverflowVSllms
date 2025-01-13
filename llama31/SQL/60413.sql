@@ -1,1 +1,0 @@
-SELECT \n  HOUR(`timestamp`) AS hour, \n  AVG(`value`) AS average\nFROM \n  your_table\nGROUP BY \n  HOUR(`timestamp`)

@@ -1,1 +1,0 @@
-onblur="alert(document.activeElement + ' class:' + document.activeElement.className)"

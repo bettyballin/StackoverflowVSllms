@@ -1,1 +1,0 @@
-text = 'This is a [url="http://www.google.com"]test[/url] string with [lis|t] some BBCodes.'\nsafe_index = find_safe_index(text)\nprint(safe_index)  # Output: 207

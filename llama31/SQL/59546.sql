@@ -1,1 +1,0 @@
-CREATE TABLE mytable (\n    mycolumn text\n)

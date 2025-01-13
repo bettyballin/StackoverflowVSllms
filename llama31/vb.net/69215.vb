@@ -1,1 +1,0 @@
-Imports System.Text.RegularExpressions\n\n' Validate input\nFunction ValidateInput(input As String) As Boolean\n    Dim regex As New Regex("^[a-zA-Z0-9]+$") ' Allow only alphanumeric characters\n    Return regex.IsMatch(input)\nEnd Functio

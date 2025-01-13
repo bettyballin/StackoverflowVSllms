@@ -1,1 +1,0 @@
-<iq id='bind_1' type='set'>\n  <bind xmlns='urn:ietf:params:xml:ns:xmpp-bind'>\n    <resource>client-123456</resource>\n  </bind>\n</iq>

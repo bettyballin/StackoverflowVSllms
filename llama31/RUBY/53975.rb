@@ -1,1 +1,0 @@
-class Order < ApplicationRecord\n  attr_accessor :name, :email, :phone\nend\n\nparams = { order: { name: 'John', email: 'john@example.com' } }\n\n@order = Order.new(params[:order])

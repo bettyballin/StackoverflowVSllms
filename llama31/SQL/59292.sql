@@ -1,1 +1,0 @@
-SELECT ... FROM ... WHERE someDate < dbo.CalculateNextPayDateFrom('2009-06-12')

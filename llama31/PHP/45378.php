@@ -1,1 +1,0 @@
-$string = getStringFromDatabase();\n$string = trim($string, "\x00..\x1F"); // remove non-printable characters\nprintf($string);

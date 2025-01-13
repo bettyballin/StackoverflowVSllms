@@ -1,1 +1,0 @@
-$row->verified_date = new Zend_Db_Expr('NOW()');\n$row->save();

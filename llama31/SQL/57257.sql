@@ -1,1 +1,0 @@
-SELECT * FROM database1.dbo.MyView\nUNION\nSELECT * FROM database2.dbo.MyView

@@ -1,1 +1,0 @@
-Dim ds As New DataSet("MyTable")\ngridView.DataSource = ds\n\nDim dataRow As DataRow = ds.Tables("MyTable").Rows(0) 'Access the first row\nDim ID_Equipamento As String = dataRow("ID_Equipamento").ToString()\nDim ID_Password As String = dataRow("ID_Password").ToString()

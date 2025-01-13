@@ -1,1 +1,0 @@
-<membership defaultProvider="CentralizedMembershipProvider">\n  <providers>\n    <add name="CentralizedMembershipProvider" type="YourNamespace.CentralizedMembershipProvider" />\n  </providers>\n</membership>

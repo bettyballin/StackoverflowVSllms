@@ -1,1 +1,0 @@
-<configuration>\n  <system.web>\n    <applicationPoolDefaults>\n      <add name="MyAppPool" \n           preloadProvider="MyPreloadClient" />\n    </applicationPoolDefaults>\n  </system.web>\n</configuration>

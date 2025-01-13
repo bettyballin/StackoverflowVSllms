@@ -1,1 +1,0 @@
-<configuration>\n    <system.web>\n        <healthMonitoring>\n            <healthMonitoring>\n                <rules>\n                    <add name="PerfCounter" eventName="All Events" provider="EventLogProvider" profile="Default" />\n                </rules>\n            </healthMonitoring>\n        </healthMonitoring>\n    </system.web>\n</configuration>

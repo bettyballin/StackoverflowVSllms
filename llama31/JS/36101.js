@@ -1,1 +1,0 @@
-const forge = require("node-forge");\n\nconst key = forge.random.getBytes(32);\nconst iv = forge.random.getBytes(16);\nconst cipher = forge.cipher.createCipher("AES-CBC", key);\ncipher.start({ iv: iv });\ncipher.update(forge.util.createBuffer("Message"));\ncipher.finish();\nconst encrypted = cipher.output;

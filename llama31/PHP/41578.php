@@ -1,1 +1,0 @@
-$input = "Some terms with spaces between";\n$output = explode(' ', $input);\n\n// To prevent potential security vulnerabilities, \n// consider filtering and validating the input\n$output = array_filter($output, function($word) {\n    return ctype_alnum($word) || ctype_space($word);\n});

@@ -1,1 +1,0 @@
-EXEC sp_msforeachdb 'SELECT TOP 10 * FROM [?].dbo.MyTable';

@@ -1,1 +1,0 @@
-// In your view template\n<h2><?= $this->name ?></h2>

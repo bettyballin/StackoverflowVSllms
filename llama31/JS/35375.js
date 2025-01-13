@@ -1,1 +1,0 @@
-$(window).on('beforeunload', function() {\n    $.ajax({\n        type: 'POST',\n        url: 'path/to/user-leave',\n        data: { userId: 'user-id' }\n    });\n});

@@ -1,1 +1,0 @@
-EXPLAIN SELECT * FROM topic_info\n    LEFT JOIN topic_data ON topic_info.id = topic_data.id\nWHERE id = ?;\n\nEXPLAIN SELECT * FROM topic_info\n    LEFT JOIN topic_data ON topic_data.id = topic_info.id\nWHERE id = ?;

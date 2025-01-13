@@ -1,1 +1,0 @@
-import ldap3\n\nserver = ldap3.Server('ldap://localhost')\nconnection = ldap3.Connection(server, user='cn=admin,dc=example,dc=com', password='password')\n\nif connection.bind():\n    print("Authenticated!")\n    connection.unbind()\nelse:\n    print("Authentication failed")

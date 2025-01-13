@@ -1,1 +1,0 @@
-# This is an IPython extension module\n\n# Define a function that uses IPython's language extensions\ndef my_function():\n    !echo "Hello, world!"\n    x = $some_var\n    return x

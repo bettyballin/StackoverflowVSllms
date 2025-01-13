@@ -1,1 +1,0 @@
-# config/environments/test.rb\nRails.application.configure do\n  # ...\n  config.action_controller.allow_forgery_protection = false\n  # ...\nend

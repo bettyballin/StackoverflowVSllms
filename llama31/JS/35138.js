@@ -1,1 +1,0 @@
-function handleClick(item) {\n  var checkbox = document.getElementById('chk_' + item);\n  var textField = document.getElementById('txt_' + item);\n  \n  if (!checkbox.checked) {\n    textField.disabled = true;\n    textField.removeAttribute('name');\n  } else {\n    textField.disabled = false;\n    textField.setAttribute('name', 'addresses[]');\n  }\n}

@@ -1,1 +1,0 @@
-<persistence-unit name="myPU">\n    <properties>\n        <property name="hibernate.cache.use_second_level_cache" value="true"/>\n        <property name="hibernate.cache.provider_class" value="org.hibernate.cache.EhCacheProvider"/>\n        <property name="hibernate.cache.default_cache_concurrency_strategy" value="READ_WRITE"/>\n    </properties>\n</persistence-unit>

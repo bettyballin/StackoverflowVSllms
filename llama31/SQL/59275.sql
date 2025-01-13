@@ -1,1 +1,0 @@
-SELECT \n  item.title, \n  CONVERT(GROUP_CONCAT(CONCAT_WS(',', attachments.id, attachments.type, attachments.name)) USING utf8) AS attachments\nFROM \n  story AS item\n  LEFT OUTER JOIN story_attachment AS attachments ON item.id = attachments.item_id\nGROUP BY \n  item.id

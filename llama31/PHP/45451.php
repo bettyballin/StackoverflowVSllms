@@ -1,1 +1,0 @@
-$string = getStringFromDatabase();\nfor ($i = 0; $i < strlen($string); $i++) {\n    echo ord($string[$i]) . "\n";\n}

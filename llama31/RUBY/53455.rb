@@ -1,1 +1,0 @@
-if 1==1\n  puts "true"\nend

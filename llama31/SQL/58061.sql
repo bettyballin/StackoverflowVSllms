@@ -1,1 +1,0 @@
-CREATE SPATIAL INDEX idx_period ON events (period);

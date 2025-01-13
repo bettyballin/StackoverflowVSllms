@@ -1,1 +1,0 @@
-class Record {\n    private $data;\n\n    public function __construct(array $data) {\n        $this->data = $data;\n    }\n\n    public function get($key) {\n        return $this->data[$key] ?? null;\n    }\n\n    public function set($key, $value) {\n        $this->data[$key] = $value;\n    }\n}

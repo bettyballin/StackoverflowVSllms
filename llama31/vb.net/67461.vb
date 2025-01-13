@@ -1,1 +1,0 @@
-Module Module1\n    Sub Main()\n        Dim value As Object = "Hello, World!"\n        Console.WriteLine(CStr(value))  ' Output: Hello, World!\n        Console.WriteLine(value.ToString())  ' Output: Hello, World!\n    End Sub\nEnd Module

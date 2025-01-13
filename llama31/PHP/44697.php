@@ -1,1 +1,0 @@
-// Original PHP code\nfunction helloWorld() {\n  echo "Hello, World!";\n}\n\n// Encode the code using phpBolt\n$encodedCode = phpBolt_encode('helloWorld', 'your_secret_key');\n\n// Output the encoded code\necho $encodedCode;

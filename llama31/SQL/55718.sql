@@ -1,1 +1,0 @@
-CREATE PROCEDURE myProcedure\nWITH ENCRYPTION\nAS\nBEGIN\n    -- procedure code here\nEND

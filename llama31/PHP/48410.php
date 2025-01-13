@@ -1,1 +1,0 @@
-use PHP_CodeCoverage\PHP_CodeCoverage;\n\n$coverage = new PHP_CodeCoverage();\n$coverage->start();\n\n// Code to be tested here\n\n$coverage->stop();\n$report = $coverage->report();

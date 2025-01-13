@@ -1,1 +1,0 @@
-SELECT entity_type, entity_id\nFROM tokens\nWHERE MATCH (token) AGAINST (:article_text IN NATURAL LANGUAGE MODE);

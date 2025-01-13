@@ -1,1 +1,0 @@
-$mysqli = new mysqli('your_host', 'your_user', 'your_password', 'your_database');\n$result = $mysqli->query('SELECT blob_column FROM your_table');\nwhile ($row = $result->fetch_assoc()) {\n    $blob_data = bin2hex($row['blob_column']);\n    echo '<field name="blob_data">' . $blob_data . '</field>';\n}

@@ -1,1 +1,0 @@
-foreach ($funcs as $func) {\n  $func();\n}

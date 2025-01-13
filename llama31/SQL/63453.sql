@@ -1,1 +1,0 @@
-DECLARE @[test-id] INT;\nSET @[test-id] = 1;\nSELECT * FROM tblTest WHERE testid = @[test-id];

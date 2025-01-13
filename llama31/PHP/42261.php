@@ -1,1 +1,0 @@
-$string = "15.11-101";\n$parts = explode("-", $string);\necho $parts[1]; // outputs "101"

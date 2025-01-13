@@ -1,1 +1,0 @@
-window.addEventListener('scroll', () => {\n  const lastElement = document.querySelector('.last-element');\n  const rect = lastElement.getBoundingClientRect();\n  if (rect.top < window.innerHeight && rect.bottom > 0) {\n    // Load next 10 elements\n  }\n});

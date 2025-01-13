@@ -1,1 +1,0 @@
-<dependency>\n    <groupId>com.github.difflib</groupId>\n    <artifactId>java-diff-utils</artifactId>\n    <version>4.8</version>\n</dependency>

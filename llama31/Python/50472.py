@@ -1,1 +1,0 @@
-import setproctitle\n\nsetproctitle.setproctitle("My Python Script")

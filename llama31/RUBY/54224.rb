@@ -1,1 +1,0 @@
-def add_comment\n  if my_validation?\n    # save the object\n    redirect_to :action => "show", :id => params[:id]\n  else\n    flash[:notice] = "Error message"\n    render :action => "show", :id => params[:id]\n  end\nend

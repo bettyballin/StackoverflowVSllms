@@ -1,1 +1,0 @@
-$.ajax({\n    type: "GET",\n    url: "/MyController/GetList",\n    dataType: "json",\n    success: function(data) {\n        $("#MyDiv").html(data.html);\n    }\n});

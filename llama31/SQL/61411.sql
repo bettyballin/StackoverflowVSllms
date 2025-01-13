@@ -1,1 +1,0 @@
-UPDATE table_name SET column_name = LTRIM(column_name);

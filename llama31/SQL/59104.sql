@@ -1,1 +1,0 @@
-CREATE TABLE EmailBodies (\n    EmailBody VARBINARY(MAX)\n);\n\n-- Compress the email body using the COMPRESS function\nINSERT INTO EmailBodies (EmailBody)\nVALUES (COMPRESS('your_email_body_here'));\n\n-- Decompress the email body using the DECOMPRESS function\nSELECT CONVERT(VARCHAR(MAX), DECOMPRESS(EmailBody)) AS DecompressedEmailBody\nFROM EmailBodies;

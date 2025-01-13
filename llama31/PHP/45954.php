@@ -1,1 +1,0 @@
-$start_index = ($current_page - 1) * $images_per_page;\n$end_index = $start_index + $images_per_page;

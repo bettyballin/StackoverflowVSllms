@@ -1,1 +1,0 @@
-class User {\n    private $username;\n    private $password;\n\n    public function __construct($username, $password) {\n        $this->username = $username;\n        $this->password = password_hash($password, PASSWORD_DEFAULT);\n    }\n\n    public function authenticate($inputPassword) {\n        return password_verify($inputPassword, $this->password);\n    }\n}

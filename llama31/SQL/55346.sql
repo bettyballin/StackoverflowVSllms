@@ -1,1 +1,0 @@
-SELECT *\nFROM Dataset2\nWHERE subsNumber IN (SELECT subsNumber FROM Dataset1);

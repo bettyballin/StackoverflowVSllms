@@ -1,1 +1,0 @@
-/**\n * Get a list of categories from a specific site.\n *\n * @return View\n */\nprivate function categories()\n{\n    // ...\n}

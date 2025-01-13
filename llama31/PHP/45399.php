@@ -1,1 +1,0 @@
-if ($searchType == 'item') {\n    $query->setFields(array('item-title', 'item-description', 'item-tags', 'item-price'));\n} elseif ($searchType == 'seller') {\n    $query->addTerm(new Zend_Search_Lucene_Index_Term($searchTerm, 'seller-name'));\n}

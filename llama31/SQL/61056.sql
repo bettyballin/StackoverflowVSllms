@@ -1,1 +1,0 @@
-CREATE PROCEDURE sp_OpenMasterKey\n    @SecureToken nvarchar(50)\nAS\nBEGIN\n    OPEN MASTER KEY DECRYPTION BY PASSWORD = @SecureToken;\nEND;

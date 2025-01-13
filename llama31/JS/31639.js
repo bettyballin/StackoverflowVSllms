@@ -1,1 +1,0 @@
-$("a[href$='.jpg' i], a[href$='.jpg' i]")

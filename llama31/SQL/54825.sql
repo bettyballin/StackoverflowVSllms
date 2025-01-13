@@ -1,1 +1,0 @@
-CREATE OR REPLACE procedure some_procedure is\n    v_procedure_name varchar2(32);\nbegin\n    v_procedure_name := UTL_CALL_STACK.SUBPROGRAM(1);\n    DBMS_OUTPUT.PUT_LINE(v_procedure_name);\nend;

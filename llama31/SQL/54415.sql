@@ -1,1 +1,0 @@
-SELECT user_id, COUNT(*) as post_count\nFROM posts\nGROUP BY user_id;

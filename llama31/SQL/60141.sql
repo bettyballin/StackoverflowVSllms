@@ -1,1 +1,0 @@
-CREATE TABLE people (\n  person_id INT PRIMARY KEY,\n  name VARCHAR(255),\n  email VARCHAR(255),\n  phone_number VARCHAR(20)\n);\n\nCREATE TABLE users (\n  user_id INT PRIMARY KEY,\n  person_id INT,\n  username VARCHAR(255),\n  password VARCHAR(255),\n  email VARCHAR(255),\n  FOREIGN KEY (person_id) REFERENCES people(person_id)\n);

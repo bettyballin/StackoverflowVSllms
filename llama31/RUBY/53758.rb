@@ -1,1 +1,0 @@
-Startup directory: C:\path\to\your\ruby\project\nStartup command: ruby script/console

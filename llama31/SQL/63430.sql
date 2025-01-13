@@ -1,1 +1,0 @@
-INSERT INTO OPENROWSET('Microsoft.Jet.OLEDB.4.0', 'your_access_database';'your_access_username';'your_access_password', 'your_access_table')\nSELECT * FROM your_sql_table

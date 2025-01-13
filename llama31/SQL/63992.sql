@@ -1,1 +1,0 @@
-DECLARE @date datetime = '2005-03-03 14:23'\n\nSELECT DATEADD(month, DATEDIFF(month, 0, @date), 0) AS FirstDayOfMonth

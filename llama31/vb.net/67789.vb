@@ -1,1 +1,0 @@
-Dim objShell As Object\nSet objShell = CreateObject("Shell.Application")\nobjShell.ShellExecute "iexplore.exe", "http://www.google.com", "", "open", 1

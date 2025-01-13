@@ -1,1 +1,0 @@
-CREATE TABLE mytable (\n  id INT PRIMARY KEY,\n  date DATE\n);

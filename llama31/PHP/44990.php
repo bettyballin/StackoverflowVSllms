@@ -1,1 +1,0 @@
-class Object {\n    public function __construct(MyOtherObject $object) {\n        if (!$object instanceof MyOtherObject) {\n            throw new TypeError('Expected instance of MyOtherObject');\n        }\n        // do something with $object\n    }\n}

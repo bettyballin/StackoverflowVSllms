@@ -1,1 +1,0 @@
-// Serialize the form data\nvar formData = $('#myForm').serialize();\n\n// Send the form data to the server via AJAX\n$.ajax({\n    type: 'POST',\n    url: '/my-page.aspx',\n    data: formData,\n    success: function(data) {\n        // Server-side code can access the form data here\n    }\n});

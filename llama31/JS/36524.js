@@ -1,1 +1,0 @@
-function creatediv(id, html, left, top) {\n    // ...\n    $(newdiv).css({\n        position: 'absolute',\n        left: left,\n        top: top,\n        display: 'none'\n    });\n    // ...\n}

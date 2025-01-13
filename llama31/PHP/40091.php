@@ -1,1 +1,0 @@
-exec('sudo -u <user_name> /usr/local/bin/convert ...');

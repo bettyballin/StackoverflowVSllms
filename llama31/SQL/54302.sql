@@ -1,1 +1,0 @@
-DECLARE\n  dst_date DATE;\nBEGIN\n  dst_date := ORA_DST_AFFECTED.BEGIN_DATE('America/New_York', SYSDATE);\n  DBMS_OUTPUT.PUT_LINE('DST begins on: ' || TO_CHAR(dst_date, 'YYYY-MM-DD HH24:MI:SS'));\nEND;\n/

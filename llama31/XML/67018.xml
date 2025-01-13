@@ -1,1 +1,0 @@
-<jsp-config>\n  <taglib>\n    <taglib-uri>http://java.sun.com/jsp/jstl/fmt</taglib-uri>\n    <taglib-location>/WEB-INF/tld/fmt.tld</taglib-location>\n  </taglib>\n</jsp-config>

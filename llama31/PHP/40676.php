@@ -1,1 +1,0 @@
-try {\n    // Soap server code here\n} catch (SoapFault $e) {\n    // Catch the SoapFault exception and return a custom error message\n    $error = new SoapFault('Server', 'Type mismatch: ' . $e->getMessage());\n    $error->setCode($e->getCode());\n    return $error;\n}

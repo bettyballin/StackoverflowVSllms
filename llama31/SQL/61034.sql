@@ -1,1 +1,0 @@
--- Delete from changeitem table\n   DELETE FROM changeitem WHERE issueid = <ISSUE_ID>;\n\n   -- Delete from jiraaction table\n   DELETE FROM jiraaction WHERE issueid = <ISSUE_ID>;\n\n   -- Delete from customfieldvalue table\n   DELETE FROM customfieldvalue WHERE issueid = <ISSUE_ID>;\n\n   -- Delete from issue table\n   DELETE FROM jiraissue WHERE id = <ISSUE_ID>;

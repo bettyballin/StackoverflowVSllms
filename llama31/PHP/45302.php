@@ -1,1 +1,0 @@
-$ch = curl_init('http://www.test.com/foo.xml');\ncurl_setopt($ch, CURLOPT_RETURNTRANSFER, true);\ncurl_setopt($ch, CURLOPT_FOLLOWLOCATION, true);\n$xml = curl_exec($ch);\ncurl_close($ch);\n\n// $xml should now contain the contents of the XML file

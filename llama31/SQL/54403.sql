@@ -1,1 +1,0 @@
-CREATE INDEX idx_blobCol_not_null ON your_table ((blobCol IS NOT NULL));

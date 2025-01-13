@@ -1,1 +1,0 @@
-DECLARE @CustomerId VARCHAR(8)\n\nDECLARE cur CURSOR FOR\n    SELECT DISTINCT id\n    FROM openitems\n\nOPEN cur\n\nFETCH NEXT FROM cur INTO @CustomerId\n\nWHILE @@FETCH_STATUS = 0\nBEGIN\n    EXEC ApplyPayment @CustomerId, 550.00\n    FETCH NEXT FROM cur INTO @CustomerId\nEND\n\nCLOSE cur\nDEALLOCATE cur\nGO

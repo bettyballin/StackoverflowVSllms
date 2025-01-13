@@ -1,1 +1,0 @@
-<ReportParameter Name="TicketNumber">\n    <DataType>String</DataType>\n    <Prompt>Enter ticket number:</Prompt>\n</ReportParameter>

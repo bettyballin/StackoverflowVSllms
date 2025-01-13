@@ -1,1 +1,0 @@
-$("form.shipping").submit(function() {\n    var rushValue = $("input[name='rush']:checked").val();\n    if (rushValue === "yes") {\n        return confirm("Rush orders are subject to an upcharge. (Just wanted to make sure you read the note). Is this ok?");\n    }\n});

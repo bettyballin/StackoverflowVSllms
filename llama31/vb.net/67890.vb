@@ -1,1 +1,0 @@
-Dim objFtpSite As New CWMIFTPSite\nobjFtpSite.UserIsolation = True\nobjFtpSite.Put_()

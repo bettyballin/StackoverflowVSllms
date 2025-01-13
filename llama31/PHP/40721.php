@@ -1,1 +1,0 @@
-function drupal_add_css($data = NULL, $options = NULL) {\n  // ...\n  $query_string = '?' . substr(md5(serialize($options)), 0, 8);\n  // ...\n  $css['#attributes']['href'] .= $query_string;\n  // ...\n}

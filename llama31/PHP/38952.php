@@ -1,1 +1,0 @@
-<?php\n$file = 'example.mp3';\n$download_count = file_get_contents('download_count.txt');\n$download_count++;\nfile_put_contents('download_count.txt', $download_count);\nheader('Content-Disposition: attachment; filename="' . $file . '"');\nheader('Content-Type: audio/mpeg');\nreadfile($file);\n?>

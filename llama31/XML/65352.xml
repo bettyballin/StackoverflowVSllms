@@ -1,1 +1,0 @@
-<?xml version="1.0"?>\n<layout version="0.1.0">\n    <default>\n        <remove name="currency" />\n        <block type="directory/currency" name="currency" template="directory/currency.phtml" after="-">\n            <action method="setTemplate"><template>directory/currency.phtml</template></action>\n        </block>\n    </default>\n</layout>

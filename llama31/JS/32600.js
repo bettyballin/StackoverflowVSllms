@@ -1,1 +1,0 @@
-const script = document.createElement('script');\nscript.src = '/api/data?callback=myCallback';\n\n// Remove the script tag to cancel the request\ndocument.body.removeChild(script);

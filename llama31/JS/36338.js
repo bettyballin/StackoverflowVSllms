@@ -1,1 +1,0 @@
-// assuming 'tableRow' is the table row element\ntableRow.addEventListener('click', function() {\n  history.pushState({}, '', url);\n});

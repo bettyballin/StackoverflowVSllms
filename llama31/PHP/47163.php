@@ -1,1 +1,0 @@
-$conn = new COM('ADODB.Connection');\n$conn->Open('DRIVER={SQL Server};SERVER=myServer;DATABASE=myDatabase;Trusted_Connection=yes;');

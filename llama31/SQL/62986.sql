@@ -1,1 +1,0 @@
-SELECT * FROM login_session WHERE EXTRACT(EPOCH FROM (now()-modified)) > timeout;

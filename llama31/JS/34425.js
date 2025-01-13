@@ -1,1 +1,0 @@
-// to replace text after the element\nelement.insertAdjacentHTML('afterend', newText);\n\n// to replace text before the element\nelement.insertAdjacentHTML('beforebegin', newText);

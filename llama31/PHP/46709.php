@@ -1,1 +1,0 @@
-$query = "SELECT * FROM `table`";\n$results = mysqli_query($connection, $query);\n\nif (!$results) {\n    // Handle error\n    echo mysqli_error($connection);\n    exit;\n}\n\nif (mysqli_num_rows($results) > 0) {\n    // There are rows in the result set\n} else {\n    // There are no rows in the result set\n}

@@ -1,1 +1,0 @@
-$.ajaxSetup({\n    error: function(xhr, status, error) {\n        if (xhr.getResponseHeader('X-Session-Timeout') == '1') {\n            // Session has timed out, redirect to login page\n            window.location.href = '/login/';\n        }\n    }\n});

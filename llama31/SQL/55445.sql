@@ -1,1 +1,0 @@
-SELECT \n    t.name AS TableName,\n    c.name AS ColumnName,\n    c.collation_name AS Collation\nFROM \n    sys.tables t\nINNER JOIN \n    sys.columns c ON t.object_id = c.object_id\nWHERE \n    t.name = 'mytable';

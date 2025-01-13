@@ -1,1 +1,0 @@
-DECLARE @datetime_str VARCHAR(50) = '2009-06-24 09:52:43.000'\n\nINSERT INTO your_table (datetime_column)\nVALUES (CONVERT(DATETIME, CONVERT(DATE, @datetime_str)))

@@ -1,1 +1,0 @@
-$pattern = '/[A-Z]\+/'; // matches "A+" or any other uppercase letter followed by a +

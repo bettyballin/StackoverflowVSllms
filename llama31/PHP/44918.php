@@ -1,1 +1,0 @@
-if (php_sapi_name() == "cgi") {\n    // is web\n} else if (php_sapi_name() == "cli") {\n    // is cli\n}

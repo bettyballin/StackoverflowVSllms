@@ -1,1 +1,0 @@
--- After setting up Full-Text Search and indexing address3\nSELECT * FROM YourTable\nWHERE CONTAINS(address3, 'SomePartOfTheAddress');

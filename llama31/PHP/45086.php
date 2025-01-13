@@ -1,1 +1,0 @@
-$functions = $client->__getFunctions();\nprint_r($functions);

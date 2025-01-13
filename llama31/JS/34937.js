@@ -1,1 +1,0 @@
-function pageLoad(sender, args) {\n    // Your jQuery code to access the GridView's HTML goes here\n    var gridViewHtml = $('#<%= GridView1.ClientID %>'); // assuming GridView1 is your GridView's ID\n    // Perform actions on gridViewHtml\n}

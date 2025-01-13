@@ -1,1 +1,0 @@
-<?php\n$imagePath = 'path/to/your/background/image.jpg';\n$imageMimeType = 'image/jpeg';\n\nheader('Content-Type: ' . $imageMimeType);\nheader('Cache-Control: public, max-age=31536000'); // 1 year caching\nheader('Expires: ' . date('D, d M Y H:i:s T', strtotime('+1 year')));\n\nreadfile($imagePath);\nexit;

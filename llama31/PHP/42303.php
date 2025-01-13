@@ -1,1 +1,0 @@
-class Process {\n    private $module;\n\n    public function __construct(Module $module) {\n        $this->module = $module;\n    }\n\n    public function process_data($child) {\n        $this->module->process_data("module_" . $child);\n    }\n}

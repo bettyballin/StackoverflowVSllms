@@ -1,1 +1,0 @@
-SELECT COALESCE(TRY_CAST(REPLACE(Column1, '"', '') AS float), 0) AS NumericValue

@@ -1,1 +1,0 @@
-if (gettype($value) === 'array') {\n    echo "The variable is an array";\n} else {\n    echo "The variable is not an array";\n}

@@ -1,1 +1,0 @@
-ini_set('display_errors', 1);\nini_set('log_errors', 1);\nini_set('error_log', './error.log');

@@ -1,1 +1,0 @@
-<bindings>\n  <wsHttpBinding>\n    <binding name="wsHttpBinding">\n      <security mode="Message">\n        <message clientCredentialType="UserName"/>\n      </security>\n    </binding>\n  </wsHttpBinding>\n</bindings>

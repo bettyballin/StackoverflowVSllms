@@ -1,1 +1,0 @@
-SELECT m.*\nFROM Messages m\nINNER JOIN (\n  SELECT CategoryID, MAX(Priority) as MaxPriority\n  FROM Messages\n  GROUP BY CategoryID\n) p ON m.CategoryID = p.CategoryID AND m.Priority = p.MaxPriority

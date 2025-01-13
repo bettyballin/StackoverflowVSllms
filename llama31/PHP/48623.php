@@ -1,1 +1,0 @@
-class MyORM {\n    private $pdo;\n    private $data;\n\n    public function __sleep() {\n        return ['data']; // only serialize the $data property\n    }\n}

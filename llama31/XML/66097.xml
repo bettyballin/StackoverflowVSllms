@@ -1,1 +1,0 @@
-<query>\n  <query>range:field_name:[lower_bound TO upper_bound]</query>\n</query>

@@ -1,1 +1,0 @@
-CHECK TABLE your_table_name;

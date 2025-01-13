@@ -1,1 +1,0 @@
-CREATE TABLE FOO (\n  id INT PRIMARY KEY\n);\n\nCREATE TABLE FOO_FRUITS (\n  foo_id INT,\n  fruit_id INT,\n  PRIMARY KEY (foo_id, fruit_id),\n  FOREIGN KEY (foo_id) REFERENCES FOO (id),\n  FOREIGN KEY (fruit_id) REFERENCES FRUITS (id)\n);\n\nINSERT INTO FOO (id) VALUES (1);\nINSERT INTO FOO_FRUITS (foo_id, fruit_id) VALUES (1, 1), (1, 2), (1, 3);

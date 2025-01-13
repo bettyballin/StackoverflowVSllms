@@ -1,1 +1,0 @@
-SELECT id\nFROM (\n  SELECT id, ROW_NUMBER() OVER (PARTITION BY location_id ORDER BY price) AS row_num\n  FROM thing\n  INNER JOIN location ON (thing.location_id = location.id)\n  WHERE location.type = xxx\n) AS subquery\nWHERE row_num = 1

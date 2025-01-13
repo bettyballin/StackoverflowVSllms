@@ -1,1 +1,0 @@
-puts "Hello, world!"\nputs("Hello, world!")

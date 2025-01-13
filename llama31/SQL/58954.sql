@@ -1,1 +1,0 @@
--- Individual SQL statements with semicolons\nCREATE TABLE foo (id NUMBER PRIMARY KEY);\nINSERT INTO foo (id) VALUES (1);\n\n-- PL/SQL block with forward slash\nDECLARE\n  v_id NUMBER;\nBEGIN\n  SELECT id INTO v_id FROM foo WHERE id = 1;\n  DBMS_OUTPUT.PUT_LINE(v_id);\nEND;\n/

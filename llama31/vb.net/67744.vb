@@ -1,1 +1,0 @@
-Me.Title.Value = Join(Array( _\n    IIf([Conference] Is Null, "", [Conference]), _\n    IIf([Speaker] Is Null, "", [Speaker]), _\n    IIf(partstr Is Null, "", partstr) _\n), " - ")

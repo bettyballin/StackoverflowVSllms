@@ -1,1 +1,0 @@
-SELECT *\nFROM table1\nJOIN table2\nUSING (column_name);

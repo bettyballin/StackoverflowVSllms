@@ -1,1 +1,0 @@
-$data = mysql_query("\n  SELECT * FROM tblusers WHERE usrID = '$sender_id'\n  UNION\n  SELECT * FROM tblusers WHERE usrID = '$receiver_id'\n") or die(mysql_error());\n\nwhile($row = mysql_fetch_array($data)) {\n  echo $row['usrFirstName'];\n  echo $row['usrLastName'];\n}

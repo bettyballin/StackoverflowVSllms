@@ -1,1 +1,0 @@
-SELECT [count], CONVERT(VARCHAR(5), [Time], 108) AS [Time] FROM #temp

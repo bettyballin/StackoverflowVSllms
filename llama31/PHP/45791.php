@@ -1,1 +1,0 @@
-$city = "London";\necho "This website is a funky guide to " . $city . "!!!";

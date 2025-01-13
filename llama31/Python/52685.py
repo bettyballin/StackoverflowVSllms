@@ -1,1 +1,0 @@
-def document_chatbot_training_data(data):\n    # Document data to provide information about its structure and usage\n    documented_data = document_data(data)\n    return documented_data

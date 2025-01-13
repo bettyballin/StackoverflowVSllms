@@ -1,1 +1,0 @@
-document.addEventListener("DOMContentLoaded", function() {\n  const elements = document.querySelectorAll("td#dark[height='260']");\n  elements.forEach(function(element) {\n    const link = document.createElement("a");\n    link.href = "http://www.website.com";\n    element.appendChild(link);\n  });\n});

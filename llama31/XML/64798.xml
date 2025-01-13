@@ -1,1 +1,0 @@
-<target name="war" depends="compile">\n    <war destfile="target/myapp.war" webxml="src/main/webapp/WEB-INF/web.xml">\n        <fileset dir="src/main/webapp" />\n    </war>\n</target>

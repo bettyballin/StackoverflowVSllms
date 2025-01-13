@@ -1,1 +1,0 @@
-DECLARE @floatValue FLOAT = 123456789.01234\nSELECT CONVERT(VARCHAR(20), FORMAT(@floatValue, 'N5')) AS formattedValue

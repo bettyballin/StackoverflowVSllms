@@ -1,1 +1,0 @@
-var element = document.getElementById('myElement');\nvar rect = element.getBoundingClientRect();\n\nvar canvas = document.createElement('canvas');\ncanvas.width = rect.width;\ncanvas.height = rect.height;\n\nvar ctx = canvas.getContext('2d');\nctx.drawImage(element, 0, 0, rect.width, rect.height);\n\nvar img = canvas.toDataURL();\n// send the image data to your server

@@ -1,1 +1,0 @@
-EXEC sp_addlinkedsrvlogin \n    @rmtsrvname='LinkedServer', \n    @useself='false', \n    @locallogin='your_local_login', \n    @rmtuser='your_remote_login', \n    @rmtpassword='your_remote_password'

@@ -1,1 +1,0 @@
-import random\n\nvulnerabilities = [\n    "SQL Injection",\n    "Cross-Site Scripting (XSS)",\n    "Cross-Site Request Forgery (CSRF)",\n    "Buffer Overflow",\n    "Weak Passwords",\n    # add more here...\n]\n\ndef generate_vulnerability():\n    return random.choice(vulnerabilities)\n\nprint("Your system has a vulnerability:", generate_vulnerability())

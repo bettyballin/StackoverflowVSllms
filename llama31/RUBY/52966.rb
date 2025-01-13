@@ -1,1 +1,0 @@
-# my_script.rb\nclass MyScript\n  def execute\n    # Your script logic here, e.g.,\n    User.all.each do |user|\n      # Do something with user\n    end\n  end\nend\n\nMyScript.new.execute

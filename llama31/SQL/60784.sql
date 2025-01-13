@@ -1,1 +1,0 @@
-EXEC DynamicPivot 'YourTableName', 'employee_id', 'value';

@@ -1,1 +1,0 @@
-Imports System.Xml.Serialization\n\n<XmlRoot("IAlphabeticListItem")>\nPublic Interface IAlphabeticListItem\n    Property StartingLetter() As String\n    Property DetailsList() As Generic.List(Of DetailsData)\nEnd Interface

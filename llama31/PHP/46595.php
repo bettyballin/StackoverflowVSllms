@@ -1,1 +1,0 @@
-try {\n    $pdo = new PDO('mysql:host=localhost;dbname=yourdb', 'youruser', 'yourpass');\n} catch (PDOException $e) {\n    die('MySQL connection failed: ' . $e->getMessage());\n}

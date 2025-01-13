@@ -1,1 +1,0 @@
-Dir.foreach(dirname, encoding: 'UTF-8') do |filename|\n  # process filename\nend

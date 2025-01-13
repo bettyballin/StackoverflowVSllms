@@ -1,1 +1,0 @@
-CREATE NONCLUSTERED INDEX IX_MasterData\nON MasterData (iBatchNumber, sTableName, iRowIndex, sFieldName)\nINCLUDE (sFieldValue);

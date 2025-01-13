@@ -1,1 +1,0 @@
-$.ajax({\n    type: "GET",\n    url: "Modules/" + ModuleID + "/ModuleContent.xml",\n    dataType: "text",\n    success: function(data) {\n        var xml = $.parseXML(data);\n        ProcessXML(xml);\n    },\n    error: function(x) { alert(x.responseText); }\n});

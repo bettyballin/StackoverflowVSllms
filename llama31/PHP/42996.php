@@ -1,1 +1,0 @@
-$a = true;\n$b = false;\n\n// Bitwise OR\n$result1 = $a | $b;  // Evaluates both $a and $b\nvar_dump($result1);  // Outputs: bool(true)\n\n// Logical OR\n$result2 = $a || $b;  // Short-circuits, only evaluates $a\nvar_dump($result2);  // Outputs: bool(true)

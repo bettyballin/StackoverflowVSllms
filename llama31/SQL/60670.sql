@@ -1,1 +1,0 @@
-SELECT  t1.Id, t1.Name\nFROM    Table1 t1\nJOIN    Table2 t2 ON t1.FK1 = t2.FK1

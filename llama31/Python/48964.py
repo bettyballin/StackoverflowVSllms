@@ -1,1 +1,0 @@
->>> 'add \x93Monitoring\x93 to list '.decode('latin-1').encode('latin-1', 'ignore')

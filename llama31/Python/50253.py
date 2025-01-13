@@ -1,1 +1,0 @@
-try:\n    from skynet import SkyNet\n    base_class = SkyNet\nexcept ImportError:\n    base_class = object\n\nclass SelfAwareSkyNet(base_class):\n    pass

@@ -1,1 +1,0 @@
-$.get($(this).attr("href"), $(this).serialize(), function(response) {\n  // Remove script tags from the response\n  var scriptContent = response.replace(/<script>|<\/script>/g, '');\n  \n  // Execute the JavaScript code\n  eval(scriptContent);\n}, "text");

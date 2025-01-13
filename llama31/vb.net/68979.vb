@@ -1,1 +1,0 @@
-Imports System.Web.Mvc\n\nPublic Class MyModel\n    <AllowHtml>\n    Public Property HtmlContent As String\nEnd Class\n\nPublic Class MyController\n    Inherits Controller\n\n    <ValidateInput(False), HttpPost>\n    Public ActionResult MyAction(MyModel model)\n        ' ...\n    End Function\nEnd Class

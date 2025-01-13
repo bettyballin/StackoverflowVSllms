@@ -1,1 +1,0 @@
-// Disable default link behavior temporarily\n$('a').on('click', function(e) {\n    e.preventDefault();\n});\n\n// When document is ready, enhance and re-enable links\n$(document).ready(function() {\n    // Enhance the links with your SoundManager and Youtube popup functionality\n    // ...\n\n    // Re-enable the links\n    $('a').off('click');\n});

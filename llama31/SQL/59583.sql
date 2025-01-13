@@ -1,1 +1,0 @@
-BEGIN\n  DBMS_XPLAN.DISPLAY_CURSOR(sql_id => 'your_procedure_name');\nEND;

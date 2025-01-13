@@ -1,1 +1,0 @@
-require 'process'\n\ndef process_running?(pid)\n  Process.kill(0, pid)\n  true\nrescue Errno::ESRCH\n  false\nend

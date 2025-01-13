@@ -1,1 +1,0 @@
-def get_session(db_name, verbose, test):\n    """Returns current DB session from SQLAlchemy pool.\n\n    >>> get_session('Mmusc20090126', False, True)\n    <sqlalchemy\.orm\.session\.Session object .*?>\n\n    """\n    # ... (rest of your code remains the same)

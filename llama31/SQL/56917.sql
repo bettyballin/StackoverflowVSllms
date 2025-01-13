@@ -1,1 +1,0 @@
-SELECT \n   order, \n   TRY_CONVERT(DATETIME, orderDate) AS orderDate\nFROM orders

@@ -1,1 +1,0 @@
-CREATE PROCEDURE sp_GetUserMetrics\nAS\nBEGIN\n    SELECT \n        COUNT(DISTINCT UserId) AS TotalUsers,\n        SUM(CASE WHEN IsActive = 1 THEN 1 ELSE 0 END) AS ActiveUsers,\n        SUM(CASE WHEN Country = 'USA' THEN 1 ELSE 0 END) AS USUsers\n    FROM \n        Users\n    WHERE \n        CreatedDate >= DATEADD(month, -6, GETDATE())\nEND\nGO

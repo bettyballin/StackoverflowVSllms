@@ -1,1 +1,0 @@
-my_set = set([element.lower() for element in my_list])

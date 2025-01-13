@@ -1,1 +1,0 @@
-var initialValue = '<ol><li>item1</li><li>item2</li></ol>';\nvar escapedValue = initialValue.escapeHTML();\nnew Ajax.InPlaceEditor('edit', 'url', {\n  defaultValue: escapedValue\n});

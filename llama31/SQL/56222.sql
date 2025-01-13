@@ -1,1 +1,0 @@
-CREATE TABLE PlayerRelations (\n    Id INT PRIMARY KEY,\n    PlayerId INT NOT NULL,\n    RelatedPlayerId INT NOT NULL,\n    FOREIGN KEY (PlayerId) REFERENCES Players(Id),\n    FOREIGN KEY (RelatedPlayerId) REFERENCES Players(Id)\n);

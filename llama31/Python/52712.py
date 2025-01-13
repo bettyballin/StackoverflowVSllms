@@ -1,1 +1,0 @@
-import fitz  # PyMuPDF\n\ndef split_pdf(input_file, output_dir):\n    doc = fitz.open(input_file)\n    for page in doc:\n        pix = page.get_pixmap()\n        output_file = f"{output_dir}/page-{page.number}.pdf"\n        pix.save(output_file)\n\n# Example usage\ninput_file = "input.pdf"\noutput_dir = "output"\nsplit_pdf(input_file, output_dir)

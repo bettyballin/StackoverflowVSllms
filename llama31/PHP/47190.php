@@ -1,1 +1,0 @@
-$query = "SELECT * FROM `table`";\n$results = mysql_query($query, $connection);\n\nif (mysql_num_rows($results) > 0) {\n    // There are rows in the result set\n} else {\n    // There are no rows in the result set\n}

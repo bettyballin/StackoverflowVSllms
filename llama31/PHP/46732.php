@@ -1,1 +1,0 @@
-$stmt = $pdo->prepare('SELECT ... WHERE i.id = :someid');\n$stmt->bindParam(':someid', $someid);\n$stmt->execute();

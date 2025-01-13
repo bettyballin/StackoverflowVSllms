@@ -1,1 +1,0 @@
-// my_function.php\nfunction add($a, $b) {\n    return $a + $b;\n}

@@ -1,1 +1,0 @@
-Dim db As DAO.Database\nDim tbl As DAO.TableDef\nDim cbo As DAO.Field\n\nSet db = CurrentDb()\nSet tbl = db.TableDefs("YourTableName")\nSet cbo = tbl.Fields("YourComboBoxFieldName")\n\ncbo.Properties("RowSource") = "SELECT Field1, Field2 FROM YourQueryName"

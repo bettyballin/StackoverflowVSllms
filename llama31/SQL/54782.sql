@@ -1,1 +1,0 @@
--- Export a package using expdp\nexpdp system/manager DIRECTORY=DATA_PUMP_DIR SQLFILE=package.sql PACKAGE=your_package_name

@@ -1,1 +1,0 @@
-CREATE FUNCTION GetTimeZoneOffset()\nRETURNS DATETIME\nAS\nBEGIN\n    DECLARE @CurrentYear INT = YEAR(GETDATE())\n    DECLARE @Midnight DATETIME = DATEFROMPARTS(@CurrentYear, 1, 1)\n    DECLARE @TimeZone NVARCHAR(50) = 'Central Standard Time'  -- Replace with your time zone\n\n    RETURN @Midnight AT TIME ZONE @TimeZone\nEND\nGO

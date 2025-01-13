@@ -1,1 +1,0 @@
-$args = [3, 6];\nrange(...$args); // equivalent to range(3, 6)

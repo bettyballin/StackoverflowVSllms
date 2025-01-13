@@ -1,1 +1,0 @@
-Private Sub dgv_CellEndEdit(sender As Object, e As DataGridViewCellEventArgs) Handles dgv.CellEndEdit\n    If e.ColumnIndex = 'your column index' Then\n        Dim cb As ComboBox = DirectCast(dgv.EditingControl, ComboBox)\n        RemoveHandler cb.SelectedIndexChanged, AddressOf cb_SelectedIndexChanged\n    End If\nEnd Sub

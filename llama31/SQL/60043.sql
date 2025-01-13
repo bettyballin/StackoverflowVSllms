@@ -1,1 +1,0 @@
-DECLARE @vfpGuid BINARY(16) = 'your_vfp_guid_bytes_here';\nDECLARE @sqlGuid UNIQUEIDENTIFIER;\n\nSET @sqlGuid = CONVERT(UNIQUEIDENTIFIER, @vfpGuid);\n\nSELECT @sqlGuid AS ConvertedGuid;

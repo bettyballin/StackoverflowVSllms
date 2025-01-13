@@ -1,1 +1,0 @@
-tempPanelDropDownBox = TryCast(form1.FindControl(("txt_" & panelUsed & "_ddinput") + counter.ToString()), DropDownList)\n\nIf tempPanelDropDownBox IsNot Nothing Then\n    tempCollector = tempCollector + ": " + tempPanelDropDownBox.SelectedValue\nElse\n    ' handle the case where the control is not found\n    tempCollector = tempCollector + ": Not found"\nEnd If

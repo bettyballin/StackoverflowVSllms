@@ -1,1 +1,0 @@
-$conn = NewADOConnection('mssql');\n$conn->Connect($host, $username, $password, $database);\n\n$query = "SELECT * FROM users WHERE username = ?";\n$stmt = $conn->Prepare($query);\n$stmt->Execute($username);

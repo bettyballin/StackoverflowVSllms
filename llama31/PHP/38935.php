@@ -1,1 +1,0 @@
-$nexus = fsockopen("ssl://nexus.passport.com", 443);

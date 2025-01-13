@@ -1,1 +1,0 @@
-if (httpxml.responseText.toLowerCase().indexOf("username ok") !== -1) {\n    ...\n}

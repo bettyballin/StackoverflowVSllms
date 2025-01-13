@@ -1,1 +1,0 @@
-<behaviors>\n  <endpointBehaviors>\n    <behavior name="ipFilterBehavior">\n      <ipAddressFilterBehavior allowedIps="192.168.1.1,192.168.1.2" />\n    </behavior>\n  </endpointBehaviors>\n</behaviors>\n<extensions>\n  <behaviorExtensions>\n    <add name="ipAddressFilterBehavior" type="YourNamespace.IPAddressFilterBehavior, YourAssembly" />\n  </behaviorExtensions>\n</extensions>

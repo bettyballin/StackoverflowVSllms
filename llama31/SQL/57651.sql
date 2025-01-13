@@ -1,1 +1,0 @@
-shutdown immediate;\n        startup;

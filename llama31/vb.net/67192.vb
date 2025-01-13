@@ -1,1 +1,0 @@
-Dim lockObject As New Object()\n\nSyncLock lockObject\n    ' Code to be executed within the lock\nEnd SyncLock

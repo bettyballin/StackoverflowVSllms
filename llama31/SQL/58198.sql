@@ -1,1 +1,0 @@
-SELECT columnlist\nFROM table1\nJOIN table2 ON joincond2\nJOIN table3 ON joincond3\nWHERE conditions1 AND @param1 IS NULL AND cond3a\n\nUNION ALL\n\nSELECT columnlist\nFROM table1\nJOIN table2 ON joincond2\nJOIN table3 ON joincond3\nWHERE conditions1 AND cond3b

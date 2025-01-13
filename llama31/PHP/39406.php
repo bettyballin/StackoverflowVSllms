@@ -1,1 +1,0 @@
-if (!$logged_in) {\n    include 'login_form.html';\n}

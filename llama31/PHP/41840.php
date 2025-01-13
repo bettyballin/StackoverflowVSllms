@@ -1,1 +1,0 @@
-$d = DOMDocument::loadXML($xml);\n$rootnode = $d->documentElement;\nif ($rootnode->hasChildNodes()) echo 'yayy!';

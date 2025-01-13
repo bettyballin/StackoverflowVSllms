@@ -1,1 +1,0 @@
-CREATE PROCEDURE [dbo].[TestProc]\nAS\nBEGIN\n    DECLARE @i INT\n    SET @i = 10\n    PRINT 'TestProc: ' + CONVERT(VARCHAR(10), @i)\nEND\nGO

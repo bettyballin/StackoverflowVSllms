@@ -1,1 +1,0 @@
-SELECT LISTAGG(column_name, ',') WITHIN GROUP (ORDER BY column_name) AS comma_separated_list\nFROM (\n  SELECT column_name\n  FROM your_table\n  WHERE your_condition\n);

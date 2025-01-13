@@ -1,1 +1,0 @@
-// Example: Display a greeting message\nfunction greet(name) {\n  console.log(`Hello, ${name}!`);\n}\n\n// Call the function\ngreet('World');

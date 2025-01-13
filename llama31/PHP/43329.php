@@ -1,1 +1,0 @@
-$lat = 40.7560540;\n$long = -73.9869510;\n$mapWidth = 1000;\n$mapHeight = 446;\n\nlist($x, $y) = latLongToXY($lat, $long, $mapWidth, $mapHeight);\necho "X: $x, Y: $y"; // Output: X: 289, Y: 111

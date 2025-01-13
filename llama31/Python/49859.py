@@ -1,1 +1,0 @@
-with open('file.txt', 'r') as f:\n    content = f.read()\n    lines = content.splitlines()\n    last_line = lines[-1]\nprint(last_line)

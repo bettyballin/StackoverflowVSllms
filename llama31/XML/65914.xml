@@ -1,1 +1,0 @@
-<rewrite>\n    <rules>\n        <rule name="Redirect to myApplication" stopProcessing="true">\n            <match url="^$" />\n            <action type="Redirect" url="/myApplication" />\n        </rule>\n    </rules>\n</rewrite>

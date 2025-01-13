@@ -1,1 +1,0 @@
-USE msdb\nGO\nGRANT CREATE JOB TO [username]\nGO

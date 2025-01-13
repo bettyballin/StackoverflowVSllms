@@ -1,1 +1,0 @@
-$json = file_get_contents('cache.json');\n$array = json_decode($json, true, 512, JSON_BIGINT_AS_STRING);

@@ -1,1 +1,0 @@
-$form->setElementFilters(array(new StripslashesFilter()));

@@ -1,1 +1,0 @@
-$svn = svn_create_context();\n$svn->set_option(SVN_OPT_REVISION, 'HEAD');\n$revision = svn_revnum($svn, 'https://example.com/svn/repo');\necho "Revision: $revision";

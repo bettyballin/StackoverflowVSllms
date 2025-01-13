@@ -1,1 +1,0 @@
-chunk_list = list(chunks(my_list, chunk_size))\nprint(chunk_list)  # [[1, 2, 3], [4, 5, 6], [7, 8, 9]]

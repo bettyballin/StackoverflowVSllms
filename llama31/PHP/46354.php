@@ -1,1 +1,0 @@
-preg_match("/abcd(™)?/gui","AbCd™  U9+",$matches);\nprint_r($matches);

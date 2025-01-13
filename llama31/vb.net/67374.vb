@@ -1,1 +1,0 @@
-<TestAttr("a", "abc", Optional1:="foo", Optional2:=3)>\nPublic Class MyClass\n    ' ...\nEnd Class

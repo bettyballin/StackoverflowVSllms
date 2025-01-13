@@ -1,1 +1,0 @@
-oRequest.open("get", "get_text.php?id=" + id + "&_=" + new Date().getTime(), true);

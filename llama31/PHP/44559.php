@@ -1,1 +1,0 @@
-function extractUrls($string) {\n    $regex = '/\b(https?:\/\/[^\s]+)/';\n    preg_match_all($regex, $string, $matches);\n    return $matches[0];\n}\n\n// Example usage:\n$string = "I am testing this application for http://test.com YAY!";\n$urls = extractUrls($string);\nprint_r($urls);

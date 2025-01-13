@@ -1,1 +1,0 @@
-IF @ID IS NULL OR @ID <= 0\nBEGIN\n    DECLARE @ErrorMessage VARCHAR(255)\n    SET @ErrorMessage = 'ID is ' + CONVERT(VARCHAR(10), ISNULL(@ID, 'null')) + '. ID cannot be null or less than zero.'\n    RAISERROR 27001 @ErrorMessage\n    RETURN 27001\nEND

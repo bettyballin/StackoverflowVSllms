@@ -1,1 +1,0 @@
-# Server-side Python code (using Flask)\nfrom flask import Flask, request, jsonify\n\napp = Flask(__name__)\n\n@app.route('/update-data', methods=['POST'])\ndef update_data():\n    data = request.get_json()\n    # Process the data and return a response\n    return jsonify({ /* your response data here */ })

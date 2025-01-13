@@ -1,1 +1,0 @@
-$ch = curl_init('http://domain.com/rss/feed.xml');\ncurl_setopt($ch, CURLOPT_RETURNTRANSFER, true);\ncurl_setopt($ch, CURLOPT_HEADER, true);\ncurl_setopt($ch, CURLOPT_HTTPHEADER, array('Host: www.domain.com'));\n$rss_content = curl_exec($ch);

@@ -1,1 +1,0 @@
-switch ($variable) {\n    case 'value1':\n        // do something\n        break;\n    case 'value2':\n        // do something else\n        break;\n    // ...\n    default:\n        // handle unknown values\n        break;\n}

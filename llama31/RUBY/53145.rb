@@ -1,1 +1,0 @@
-config.cache_store = :redis_store, { url: 'redis://localhost:6379/0' }

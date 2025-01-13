@@ -1,1 +1,0 @@
->>> lst = [2]\n>>> lst.extend([])\n>>> lst == [2]\nTrue

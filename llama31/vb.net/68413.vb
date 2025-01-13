@@ -1,1 +1,0 @@
-Imports System.Text.RegularExpressions\n\nDim myString As String = mydll.GetString()\nmyString = Regex.Replace(myString, "\x00", "")

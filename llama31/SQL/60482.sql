@@ -1,1 +1,0 @@
-CREATE TABLE Party (\n  PartyID INT PRIMARY KEY,\n  Name VARCHAR(50),\n  Address VARCHAR(100)\n);\n\nCREATE TABLE Party_Role (\n  PartyID INT,\n  RoleID INT,\n  PRIMARY KEY (PartyID, RoleID),\n  FOREIGN KEY (PartyID) REFERENCES Party(PartyID),\n  FOREIGN KEY (RoleID) REFERENCES Role(RoleID)\n);\n\nCREATE TABLE Role (\n  RoleID INT PRIMARY KEY,\n  RoleName VARCHAR(50)\n);

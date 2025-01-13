@@ -1,1 +1,0 @@
-$opts = array(\n    'socket' => array(\n        'tcp_nodelay' => true,\n    ),\n);\n$context = stream_context_create($opts);\n$fp = stream_socket_client("smtp.gmail.com:25", $errno, $errstr, 30, STREAM_CLIENT_CONNECT, $context);

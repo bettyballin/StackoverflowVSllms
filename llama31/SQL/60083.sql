@@ -1,1 +1,0 @@
--- Get an estimate of the row count\nSELECT reltuples FROM pg_class WHERE relname = 'my_table';\n\n-- Get an exact row count\nSELECT COUNT(*) FROM my_table;

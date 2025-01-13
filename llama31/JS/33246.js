@@ -1,1 +1,0 @@
-var version = SomeObject.TypeLib.Version;

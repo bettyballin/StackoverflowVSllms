@@ -1,1 +1,0 @@
-SELECT * FROM sys.configurations WHERE name IN ('max degree of parallelism', 'max worker threads')

@@ -1,1 +1,0 @@
-Private Sub SortNameAsc_Click(sender As Object, e As RoutedEventArgs) Handles SortNameAsc.Click\n    Dim collectionViewSource = CType(Application.Current.Resources("myCollectionView"), CollectionViewSource)\n    collectionViewSource.SortDescriptions.Clear()\n    collectionViewSource.SortDescriptions.Add(New SortDescription("FirstName", ListSortDirection.Ascending))\nEnd Sub

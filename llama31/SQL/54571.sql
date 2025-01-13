@@ -1,1 +1,0 @@
-DECLARE\n  v_sql VARCHAR2(100);\n  v_order_by VARCHAR2(30) := 'PERSON.NAME';\nBEGIN\n  v_sql := 'SELECT * FROM PERSON ORDER BY ' || v_order_by;\n  EXECUTE IMMEDIATE v_sql;\nEND;

@@ -1,1 +1,0 @@
-$mock = $this->getMock(\MyNamespace\NonPersistentStorage::class);

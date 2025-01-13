@@ -1,1 +1,0 @@
-$myDB = new DAL();

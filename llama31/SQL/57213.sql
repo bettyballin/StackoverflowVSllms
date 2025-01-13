@@ -1,1 +1,0 @@
-DELIMITER //\n\nCREATE AGGREGATE FUNCTION checksum_agg(value INT) RETURNS INT\nBEGIN\n  DECLARE checksum INT DEFAULT 0;\n  DECLARE count INT DEFAULT 0;\n\n  UPDATE checksum, count\n  SET checksum = checksum + value,\n      count = count + 1;\n\n  RETURN checksum;\nEND //\n\nDELIMITER ;

@@ -1,1 +1,0 @@
-import pkg_resources\n\nfrom myframework.addons import register_plugin\n\nregister_plugin('foo', __name__)

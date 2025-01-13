@@ -1,1 +1,0 @@
-CREATE COLLATION nocase (text1, text2) RETURNS (LOWER(text1) = LOWER(text2));\nSELECT * FROM tableNames ORDER BY Name COLLATE nocase;

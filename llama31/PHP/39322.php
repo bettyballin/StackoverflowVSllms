@@ -1,1 +1,0 @@
-$stmt = $pdo->prepare($query);\n$stmt->execute();\n$rows = $stmt->fetchAll(PDO::FETCH_ASSOC);

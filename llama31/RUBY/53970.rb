@@ -1,1 +1,0 @@
-a.try(:to_s) == b.try(:to_s)

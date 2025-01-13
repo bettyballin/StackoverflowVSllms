@@ -1,1 +1,0 @@
-Private Function GetNullableValue(Of T)( ByVal reader As IDataReader, ByVal columnName As String, ByVal defaultValue As T) As T\n    If reader.IsDBNull(reader.GetOrdinal(columnName)) Then\n        Return defaultValue\n    Else\n        Return CType(reader.GetValue(reader.GetOrdinal(columnName)), T)\n    End If\nEnd Functio

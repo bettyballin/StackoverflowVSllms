@@ -1,1 +1,0 @@
-import nltk\nfrom nltk.sentiment.vader import SentimentIntensityAnalyzer\n\n# Load the VADER model\nsia = SentimentIntensityAnalyzer()\n\n# Analyze a sentence\nsentence = "Jason is the worst SO user I have ever witnessed"\nsentiment_scores = sia.polarity_scores(sentence)\n\n# Print the sentiment scores\nprint(sentiment_scores)

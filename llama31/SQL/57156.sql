@@ -1,1 +1,0 @@
-IF EXISTS (SELECT 1 FROM your_table WHERE id = 'your_id') THEN\n  UPDATE your_table SET column = 'your_value' WHERE id = 'your_id';\nELSE\n  INSERT INTO your_table (id, column) VALUES ('your_id', 'your_value');\nEND IF;

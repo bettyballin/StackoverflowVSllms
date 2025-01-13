@@ -1,1 +1,0 @@
-UPDATE table_name\nSET column_name = REPLACE(column_name, '&lt', '&lt;')\nWHERE CHARINDEX('&lt;', column_name) > 0

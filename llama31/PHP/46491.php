@@ -1,1 +1,0 @@
-<?php\n$id = $_GET['id'];\n$cssContent = ".example { background-color: #$id; }";\nheader('Content-Type: text/css');\necho $cssContent;\n?>

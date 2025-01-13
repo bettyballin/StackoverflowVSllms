@@ -1,1 +1,0 @@
-$locale = 'en_US'; // or any other locale\n$formatter = new IntlDateFormatter($locale, IntlDateFormatter::MEDIUM, IntlDateFormatter::NONE);\n$date = new DateTime();\necho $formatter->format($date);

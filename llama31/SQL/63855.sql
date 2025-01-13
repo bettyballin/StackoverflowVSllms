@@ -1,1 +1,0 @@
-GRANT SELECT_CATALOG_ROLE TO <username>;

@@ -1,1 +1,0 @@
-fetch('https://example.com/your-html-file.html')\n  .then(response => {\n    const lastModified = response.headers.get('Last-Modified');\n    console.log(lastModified);\n  });

@@ -1,1 +1,0 @@
-Public Class FancyLabel\n    Inherits Label\n\n    Protected Overrides Sub OnPaint(ByVal e As System.Windows.Forms.PaintEventArgs)\n        e.Graphics.TextRenderingHint = Drawing.Text.TextRenderingHint.ClearTypeGridFit\n        MyBase.OnPaint(e)\n        e.Graphics.TextRenderingHint = Drawing.Text.TextRenderingHint.SystemDefault\n    End Sub\n\nEnd Class

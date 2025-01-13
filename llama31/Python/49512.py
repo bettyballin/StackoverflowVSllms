@@ -1,1 +1,0 @@
-import boto3\n\ns3 = boto3.client('s3')\n\ndef update_permissions(bucket_name):\n    objects = s3.list_objects_v2(Bucket=bucket_name)\n    for obj in objects['Contents']:\n        s3.put_object_acl(Bucket=bucket_name, Key=obj['Key'], ACL='public-read')\n\nupdate_permissions('your-bucket-name')

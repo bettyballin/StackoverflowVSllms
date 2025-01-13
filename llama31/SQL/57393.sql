@@ -1,1 +1,0 @@
-REPAIR TABLE notes QUICK;

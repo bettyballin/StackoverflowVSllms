@@ -1,1 +1,0 @@
-function sort(orderByType) {\n    $.ajax({\n        url: "sort.php",\n        type: "get",\n        data: {orderby: orderByType}, // use object notation to send data\n        success: function(data) {\n            // Update the table content\n            $("tbody").html(data);\n        }\n    });\n}

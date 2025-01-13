@@ -1,1 +1,0 @@
-$client = new SoapClient('your_wsdl_url');\n$param = new SoapVar('your_long_value', XSD_LONG);\n$client->yourMethod($param);

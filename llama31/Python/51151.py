@@ -1,1 +1,0 @@
-from ctypes import *\n\n# Load the DLL\ndll = CDLL('RingBell')\n\n# Get the function object by its mangled name\nring_bell_func = getattr(dll, '?ringBell@MyClass@MyNamespace@@SAHXZ')\n\n# Call the function\nring_bell_func()

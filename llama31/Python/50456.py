@@ -1,1 +1,0 @@
-# models.py\nfrom django.db import models\n\nclass Book(models.Model):\n    title = models.CharField(max_length=200)\n    author = models.CharField(max_length=100)

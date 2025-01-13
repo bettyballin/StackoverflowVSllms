@@ -1,1 +1,0 @@
-var jsonData = '{"name":"John","age":30}';\nvar obj = JSON.parse(jsonData);\nconsole.log(obj.name); // outputs "John"\nconsole.log(obj.age); // outputs 30

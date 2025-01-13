@@ -1,1 +1,0 @@
-require 'vendor/autoload.php';\n\nuse GuzzleHttp\Client;\n\n$client = new Client();\n$client->getAsync('http://www.externalsite.com/script1.php?variable=45');

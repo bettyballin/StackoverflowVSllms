@@ -1,1 +1,0 @@
-if (php_sapi_name() === 'cli') {\n    // Running from the command line\n} else {\n    // Running from a web server\n}

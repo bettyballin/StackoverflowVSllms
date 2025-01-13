@@ -1,1 +1,0 @@
-// Connect to the database\n$conn = mysql_connect($Host, $User, $Password);\n\n// Set the character encoding to UTF-8\nmysql_set_charset('utf8', $conn);\n\n// Select the database\nmysql_select_db($Database);\n\n// Perform your query\n$qry = "INSERT INTO table VALUES (0 , 'こんにちは')";\necho mysql_query($qry);

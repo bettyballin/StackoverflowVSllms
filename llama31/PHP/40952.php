@@ -1,1 +1,0 @@
-// update_database.php\n// Update the database using the form data\n// ...\n\n// Return the updated data in JSON format\nheader('Content-Type: application/json');\necho json_encode($updatedData);

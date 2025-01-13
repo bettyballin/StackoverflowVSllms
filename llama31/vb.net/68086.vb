@@ -1,1 +1,0 @@
-' Make sure the .aspx file is correctly formatted and saved\n' Then, try one of the above methods to generate the .aspx.designer.vb file

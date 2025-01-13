@@ -1,1 +1,0 @@
-NotInheritable Class MyStaticClass\n    Private Sub New()\n    End Sub\n\n    Public Shared Function MyMethod() As String\n        Return "Hello, World!"\n    End Function\nEnd Class

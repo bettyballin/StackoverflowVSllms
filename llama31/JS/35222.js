@@ -1,1 +1,0 @@
-// Simple example of a unit test for a JavaScript function\nfunction add(a, b) {\n    return a + b;\n}\n\ndescribe('add', () => {\n    it('should add two numbers', () => {\n        expect(add(1, 1)).toBe(2);\n        expect(add(1, 2)).toBe(3);\n    });\n});

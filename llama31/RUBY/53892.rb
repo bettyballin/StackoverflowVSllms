@@ -1,1 +1,0 @@
-[1, 2, 3].each { |x| puts x }\n[1, 2, 3].each do |x|\n  puts x\nend

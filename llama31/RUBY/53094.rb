@@ -1,1 +1,0 @@
-module LoginHelper\n  def login_with_credentials(type)\n    # do stuff with type being one of "invalid" or "valid"\n  end\nend\n\nWorld(LoginHelper)\n\nGiven /^I login with (.*) credentials$/ do |type|\n  login_with_credentials(type)\nend\n\nGiven /^I login successfully$/ do\n  login_with_credentials("valid")\nend

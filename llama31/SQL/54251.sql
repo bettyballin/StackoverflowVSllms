@@ -1,1 +1,0 @@
-SELECT TOP 5 *\nFROM (\n  SELECT rootcause, COUNT(IIF(accountability="Team 1",1,0)) as count\n  FROM MOAQ\n  WHERE CDT=1\n  GROUP BY rootcause\n  ORDER BY count DESC\n) AS subquery

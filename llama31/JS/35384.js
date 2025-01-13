@@ -1,1 +1,0 @@
-const http = require('http');\n\nconst server = http.createServer((req, res) => {\n  if (req.headers['expect'] === '100-continue') {\n    res.writeHead(100, { 'Content-Length': 0 });\n    res._send('');\n  } else {\n    // Handle the request as usual\n  }\n});

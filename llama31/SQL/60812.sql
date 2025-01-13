@@ -1,1 +1,0 @@
-SELECT \n    e.*,\n    COALESCE(SUM(r.rating), 0) AS total_rating\nFROM \n    entities e\n    LEFT JOIN ratings r ON e.id = r.entity_id AND e.type = r.entity_type\nGROUP BY \n    e.id, e.type\nORDER BY \n    total_rating DESC;

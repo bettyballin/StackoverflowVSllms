@@ -1,1 +1,0 @@
-SELECT DISTINCT number, name, contact, special\nFROM clients\nWHERE (special & 2048) != 0;

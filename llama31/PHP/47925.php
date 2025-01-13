@@ -1,1 +1,0 @@
-$ch = curl_init($url);\ncurl_setopt($ch, CURLOPT_TCP_KEEPALIVE, 1);\ncurl_setopt($ch, CURLOPT_TCP_KEEPIDLE, 30); // keepalive idle time in seconds\ncurl_setopt($ch, CURLOPT_TCP_KEEPINTVL, 10); // keepalive interval in seconds

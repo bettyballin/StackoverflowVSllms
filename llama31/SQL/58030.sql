@@ -1,1 +1,0 @@
-CREATE TABLE permissions (\n  id INT PRIMARY KEY,\n  name VARCHAR(255) NOT NULL,\n  description TEXT\n);\n\nCREATE TABLE user_permissions (\n  user_id INT NOT NULL,\n  permission_id INT NOT NULL,\n  PRIMARY KEY (user_id, permission_id),\n  FOREIGN KEY (user_id) REFERENCES users(id),\n  FOREIGN KEY (permission_id) REFERENCES permissions(id)\n);

@@ -1,1 +1,0 @@
-INSERT INTO DestinationDB.Table1\nSELECT * \nFROM SourceDB.Table1;

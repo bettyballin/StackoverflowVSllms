@@ -1,1 +1,0 @@
-$text = "I go to school";\n$word = "to";\n\nif (strpos($text, $word) !== false) {\n    return true;\n} else {\n    return false;\n}

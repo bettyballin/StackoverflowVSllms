@@ -1,1 +1,0 @@
-BEGIN\n    -- Procedure 1\n    CREATE OR REPLACE PROCEDURE proc1 AS\n    BEGIN\n        -- Code here\n    END;\n\n    -- Procedure 2\n    CREATE OR REPLACE PROCEDURE proc2 AS\n    BEGIN\n        -- Code here\n    END;\n\n    -- Trigger\n    CREATE OR REPLACE TRIGGER trg1\n    BEFORE INSERT ON table1\n    FOR EACH ROW\n    BEGIN\n        -- Code here\n    END;\nEND;

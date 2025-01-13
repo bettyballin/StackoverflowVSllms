@@ -1,1 +1,0 @@
-for ($i = 1; $i <= 5; $i++) {\n    echo ${'variable' . $i};\n}

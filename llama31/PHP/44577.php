@@ -1,1 +1,0 @@
-function validate_url($url) {\n    return filter_var($url, FILTER_VALIDATE_URL) !== false;\n}

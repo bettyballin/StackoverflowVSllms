@@ -1,1 +1,0 @@
-$xml = new SimpleXMLElement('<root/>');\n\n$xml->addChild('child1', 'value1');\n$xml->addChild('child2', 'value2');\n\n$xml->child1->addChild('grandchild1', 'grandvalue1');\n\nprint $xml->asXML();

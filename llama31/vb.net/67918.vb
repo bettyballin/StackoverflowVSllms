@@ -1,1 +1,0 @@
-If CapsLockChecker.IsCapsLockOn() Then\n    Console.WriteLine("Caps Lock is on")\nElse\n    Console.WriteLine("Caps Lock is off")\nEnd If

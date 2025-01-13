@@ -1,1 +1,0 @@
-var receiverID = JSON.parse($("#toField").val());

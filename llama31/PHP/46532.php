@@ -1,1 +1,0 @@
-<?php\n$data = array('name' => 'John Doe', 'age' => 30);\nheader('Content-Type: application/json');\necho json_encode($data);\n?>

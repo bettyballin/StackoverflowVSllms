@@ -1,1 +1,0 @@
-$tempTotal = 0;\n\n$pBalance1 = 5;\n$pBalance2 = 5;\n$pBalance3 = 5;\n\nfor ($i = 1; $i <= 3; $i++) {\n    $varName = 'pBalance' . $i;\n    $tempTotal += $$varName;\n}\n\necho $tempTotal;

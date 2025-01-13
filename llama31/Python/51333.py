@@ -1,1 +1,0 @@
-from django.db.models import F\n\nmsg1_qs = Msg1.objects.values('date', 'title')\nmsg2_qs = Msg2.objects.values('date', 'title')\n\ncombined_qs = msg1_qs.union(msg2_qs).order_by('date')\n\n# Paginate the combined query\nfrom django.core.paginator import Paginator\npaginator = Paginator(combined_qs, 10)  # 10 items per page

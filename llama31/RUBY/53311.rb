@@ -1,1 +1,0 @@
-<%= asset_url('your_swf_file.swf') %>

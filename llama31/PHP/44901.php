@@ -1,1 +1,0 @@
-$doc = $MSWord->Documents->Open($name);\nprint $doc->PageCount . " \n";

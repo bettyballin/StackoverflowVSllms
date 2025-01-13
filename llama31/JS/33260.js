@@ -1,1 +1,0 @@
-$.ajax({\n  type: 'GET',\n  url: '/your/url',\n  dataType: 'json',\n  success: function(data) {\n    var select = $('#yourSelectBox');\n    select.empty();\n    $.each(data, function(index, option) {\n      select.append($('<option>').val(option.value).text(option.label));\n    });\n  }\n});

@@ -1,1 +1,0 @@
-COPY your_table (column1, column2, ...) \nFROM '/path/to/your/data.csv' \nDELIMITER ',' \nCSV HEADER;

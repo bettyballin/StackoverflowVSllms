@@ -1,1 +1,0 @@
-module MyModule\n  @var = 0\n\n  def self.method_a(param)\n    # other logic goes here\n  end\nend

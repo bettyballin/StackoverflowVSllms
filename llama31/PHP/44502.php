@@ -1,1 +1,0 @@
-// Confirmation page\nforeach ($_POST as $key => $value) {\n    echo '<input type="hidden" name="' . $key . '" value="' . $value . '">';\n}

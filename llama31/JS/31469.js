@@ -1,1 +1,0 @@
-var changes = false;\n\nwindow.onbeforeunload = function() {\n    if (changes) {\n        return "Are you sure you want to navigate away from this page?\n\nYou have started writing or editing a post.\n\nPress OK to continue or Cancel to stay on the current page.";\n    }\n}\n\n<input type='text' onchange='changes=true;'>

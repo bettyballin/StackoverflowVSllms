@@ -1,1 +1,0 @@
-$screenshotLink =  "<p><a href=\"#\" onclick='makewindows(" . $imagehtml . "); return false;'>View Screenshot</a>";

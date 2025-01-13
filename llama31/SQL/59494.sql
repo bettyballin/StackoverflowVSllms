@@ -1,1 +1,0 @@
-SELECT bool_and(someBool) FROM myTable WHERE someKey = 1;

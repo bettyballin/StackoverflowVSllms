@@ -1,1 +1,0 @@
-function doAjaxPostOnline(shouldPost, bizID) {\n  $.ajax({\n    type: 'GET',\n    url: 'ajaxPostOnline.php',\n    data: { b: bizID, p: shouldPost },\n    dataType: 'json',\n    success: function(response) {\n      // Update the link text and href\n      $('#onlineStatus' + bizID).find('a').text(response.return).attr('href', '#');\n    }\n  });\n}

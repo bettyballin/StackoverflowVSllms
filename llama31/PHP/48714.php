@@ -1,1 +1,0 @@
-if (isset($_POST['comment'])) {\n    // return a json string\n}

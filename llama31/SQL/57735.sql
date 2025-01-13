@@ -1,1 +1,0 @@
-Table Scan (Heap)\n  -> Table Scan (Heap)\n    -> Table '@temp'\n      -> Scan ( Direction: FORWARD )\n        -> Row Count: 1

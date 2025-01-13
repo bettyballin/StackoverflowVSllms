@@ -1,1 +1,0 @@
-Imports System.Web.Script.Serialization\n\nDim jsonSerializer As New JavaScriptSerializer()\nDim driverJson As String = mywebserviceinstance.GetDriverByID(1)\nDim driver As Driver = jsonSerializer.Deserialize(Of Driver)(driverJson)

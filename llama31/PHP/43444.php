@@ -1,1 +1,0 @@
-// in your error/notfound page\nheader('HTTP/1.1 404 Not Found');\n// display the error page content

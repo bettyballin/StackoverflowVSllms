@@ -1,1 +1,0 @@
-import gc\n\ndef find_referrers(obj):\n    referrers = gc.get_referrers(obj)\n    for referrer in referrers:\n        print(referrer)\n\n# Example usage:\nmy_object = object()\nfind_referrers(my_object)

@@ -1,1 +1,0 @@
-// Shared library: lib.php\nclass MyLib {\n    public function doSomething() {\n        // code here\n    }\n}\n\n// App A's PHP file: appA.php\nrequire_once '/path/to/lib.php';\n$lib = new MyLib();\n$lib->doSomething();\n\n// App B's PHP file: appB.php\nrequire_once '/path/to/lib.php';\n$lib = new MyLib();\n$lib->doSomething();

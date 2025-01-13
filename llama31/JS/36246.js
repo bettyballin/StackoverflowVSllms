@@ -1,1 +1,0 @@
-var textBox = document.getElementById('<%= txtTotalAmount.ClientID %>');\ntextBox.value = 'your_value_here';
