@@ -1,0 +1,1 @@
+<?php\nrequire $_SERVER['DOCUMENT_ROOT'] . '/path/to/your/script.php';

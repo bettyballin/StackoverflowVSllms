@@ -1,0 +1,1 @@
+$parsedDoc = new MiniXMLDoc();\n$parsedDoc->fromFile('path/to/your/xml/file.xml');

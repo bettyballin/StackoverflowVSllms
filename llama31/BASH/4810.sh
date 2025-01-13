@@ -1,1 +1,0 @@
-set SQLNET_TRACE=TRUE\nset SQLNET_TRACE_DIR=C:\temp

@@ -1,1 +1,0 @@
-# Load the GELI kernel module\nkldload geom_eli\n\n# Create a new encrypted device\ngeli init -e AES -l 256 -s 4096 /dev/ada0

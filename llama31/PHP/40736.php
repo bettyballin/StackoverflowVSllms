@@ -1,0 +1,1 @@
+if (!is_array($x[1])) {\n    $x[1] = array($x[1]);\n}\n$x[1][] = 'child';

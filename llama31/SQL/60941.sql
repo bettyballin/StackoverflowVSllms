@@ -1,0 +1,1 @@
+CREATE TABLE MyTable (\n    Id UNIQUEIDENTIFIER PRIMARY KEY DEFAULT (NEWSEQUENTIALID()),\n    -- other columns...\n)

@@ -1,1 +1,0 @@
-[DllImport("shared.dll", EntryPoint = "_getVtableInfo_f_get_hello_world@12")]\nstatic extern string f_get_hello_world();

@@ -1,1 +1,0 @@
-using System.Security.Cryptography;\n\npublic class PasswordHash {\n    public static string GenerateHash(string password, byte[] salt, int iterations) {\n        using (var pbkdf2 = new Rfc2898DeriveBytes(password, salt, iterations)) {\n            var hash = pbkdf2.GetBytes(32);\n            return Convert.ToBase64String(hash);\n        }\n    }\n}

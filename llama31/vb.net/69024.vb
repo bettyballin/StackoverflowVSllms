@@ -1,0 +1,1 @@
+Dim db As New MilkModel\ndb.Database.ExecuteSqlCommand("EXEC Inventory_Snapshot_Create")

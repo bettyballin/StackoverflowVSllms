@@ -1,0 +1,1 @@
+import uuid\n\n# Generate a random UUID\nrandom_uuid = uuid.uuid4()\nprint(random_uuid)\n\n# Generate a UUID based on the host ID, sequence number, and current time\nhost_uuid = uuid.uuid1()\nprint(host_uuid)

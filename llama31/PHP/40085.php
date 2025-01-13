@@ -1,0 +1,1 @@
+$tempTotal = 0;\n\n$pBalances = array(5, 5, 5);\n\nforeach ($pBalances as $balance) {\n    $tempTotal += $balance;\n}\n\necho $tempTotal;

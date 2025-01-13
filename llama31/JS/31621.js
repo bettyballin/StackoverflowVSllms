@@ -1,0 +1,1 @@
+// actions.js\nexport const ADD_ITEM = 'ADD_ITEM';\nexport const REMOVE_ITEM = 'REMOVE_ITEM';\n\nexport function addItem(item) {\n  return { type: ADD_ITEM, item };\n}\n\nexport function removeItem(item) {\n  return { type: REMOVE_ITEM, item };\n}

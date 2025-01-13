@@ -1,0 +1,1 @@
+<UpdateParameters>\n    <asp:Parameter Name="intID" Type="Int32" />\n    <asp:Parameter Name="strTitre" Type="String" />\n    <asp:Parameter Name="strDescription" Type="String" />\n    <asp:Parameter Name="intStatus_FK" Type="Int32" />\n    <asp:Parameter Name="intType_FK" Type="Int32" />\n    <asp:Parameter Name="intSeriousness_FK" Type="Int32" />\n</UpdateParameters>

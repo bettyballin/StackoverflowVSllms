@@ -1,0 +1,1 @@
+Dim uniqueCatlogs As New HashSet(Of String)\nFor Each row As DataRowView In dv\n    uniqueCatlogs.Add(row("catlog").ToString())\nNext\n\nDropDownList1.DataSource = uniqueCatlogs.ToList()\nDropDownList1.DataBind()

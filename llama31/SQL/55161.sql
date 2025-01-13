@@ -1,0 +1,1 @@
+SELECT Group\nFROM your_table\nGROUP BY Group\nHAVING COUNT(*) != MAX(Sequence) - MIN(Sequence) + 1

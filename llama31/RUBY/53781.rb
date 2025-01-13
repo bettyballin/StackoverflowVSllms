@@ -1,0 +1,1 @@
+%pretrans\nif [ $1 -eq 1 ]; then\n    # Code to run during upgrade\nfi

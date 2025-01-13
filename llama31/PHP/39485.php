@@ -1,0 +1,1 @@
+// shared/libraries/DateTime.php\n\nnamespace App\Libraries;\n\nuse App\Classes\Config;\n\nclass DateTime\n{\n    public static function format($timestamp, $format)\n    {\n        // Use the Config class to get the timezone\n        $timezone = Config::get('timezone');\n        // ...\n    }\n\n    public static function isValid($date)\n    {\n        // ...\n    }\n}

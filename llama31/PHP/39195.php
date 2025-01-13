@@ -1,0 +1,1 @@
+// Store file metadata in a database\n$fileMetadata = [\n    'id' => '00000001',\n    'name' => 'example.txt',\n    'path' => '/files/00/00/00000001.txt'\n];\n\n// Construct a direct download link\n$downloadLink = sprintf('%s/%s', $fileMetadata['path'], $fileMetadata['name']);\n\n// Output the direct download link\nheader('Location: ' . $downloadLink);\nexit;

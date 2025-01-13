@@ -1,1 +1,0 @@
-chmod +x update_xdisplay.sh

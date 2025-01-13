@@ -1,0 +1,1 @@
+$('#commentList').empty();\ngetComments('blog', $('input#blogId').val(), function() {\n    window.location = "#addComment";\n    $('#comAdd').removeAttr('disabled');\n});

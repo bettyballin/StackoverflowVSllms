@@ -1,1 +1,0 @@
-XmlNodeList nodes = doc.SelectNodes("//*[local-name()='result']");

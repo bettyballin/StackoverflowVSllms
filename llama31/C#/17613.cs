@@ -1,1 +1,0 @@
-internal static DependencyObject GetVisualRoot(DependencyObject d)\n{\n    DependencyObject root = d;\n    while (root is FrameworkElement element && element.Parent is DependencyObject parent)\n    {\n        root = parent;\n    }\n    return root;\n}

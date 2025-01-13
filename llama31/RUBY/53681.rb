@@ -1,0 +1,1 @@
+match '/identity' => 'identities#show'

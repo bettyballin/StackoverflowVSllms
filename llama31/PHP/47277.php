@@ -1,0 +1,1 @@
+$this->$var = $val; // assign\nreturn $this->$var; // access

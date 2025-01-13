@@ -1,1 +1,0 @@
-[DllImport("kernel32")]\nprivate static extern int SetErrorMode(int mode);\n\n// Set error mode to suppress runtime error dialog\nSetErrorMode(0x0002);

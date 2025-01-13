@@ -1,1 +1,0 @@
-jarsigner -verify jar-file

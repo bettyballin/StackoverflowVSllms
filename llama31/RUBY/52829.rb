@@ -1,0 +1,1 @@
+@clients = Client.joins("LEFT JOIN invoices ON clients.id = invoices.client_id")\n                 .joins("LEFT JOIN deliveries ON clients.id = deliveries.client_id")\n                 .where("invoices.date >= ? OR deliveries.date >= ?", Date.current.beginning_of_month, Date.current.beginning_of_month)\n                 .distinct

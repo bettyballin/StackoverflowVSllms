@@ -1,1 +1,0 @@
-RoleCheckBox.Checked = selectedUsersRoles.Contains(RoleCheckBox.Text)

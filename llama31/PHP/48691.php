@@ -1,0 +1,1 @@
+// Example using PHP-ML\nrequire_once 'vendor/autoload.php';\nuse Phpml\Classification\KNearestNeighbors;\n$ml = new KNearestNeighbors();\n// Train machine learning model with user behavior data\n$ml->train($data);\n// Predict anomalies\n$anomalyScore = $ml->predict($newData);\nif ($anomalyScore > 0.5) {\n    // Flag account for review\n}

@@ -1,1 +1,0 @@
-ModelState.AddModelError("UserId", "*", ValueProvider["UserId"]);

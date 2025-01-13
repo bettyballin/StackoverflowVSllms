@@ -1,1 +1,0 @@
-DllSignatureVerifier verifier = new DllSignatureVerifier();\nbool isValid = verifier.VerifySignature(@"C:\Windows\System32\kernel32.dll");

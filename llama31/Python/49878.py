@@ -1,0 +1,1 @@
+from wtforms.validators import Length\n\nclass User(Base):\n    __tablename__ = 'users'\n    name = Column(String)\n\n    @validates('name')\n    def validate_name(self, key, name):\n        validator = Length(min=2, max=50)\n        if not validator(name):\n            raise ValueError("Name must be between 2 and 50 characters long")\n        return name

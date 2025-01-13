@@ -1,0 +1,1 @@
+WHERE bmf.trans_date = DATE '1996-08-14'

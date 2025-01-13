@@ -1,0 +1,1 @@
+INSERT INTO object_ordering (object_id, order_index)\nVALUES (:object_id, :order_index);

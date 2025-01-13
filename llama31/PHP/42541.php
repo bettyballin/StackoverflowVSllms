@@ -1,0 +1,1 @@
+abstract class AbstractClass {\n    public static function getInstance() {\n        return new static(); // Creates an instance of the current class\n    }\n}\n\nclass ConcreteClass extends AbstractClass {}\n\n$instance = ConcreteClass::getInstance();

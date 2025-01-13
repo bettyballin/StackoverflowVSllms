@@ -1,0 +1,1 @@
+// Select the 2nd previous sibling\n$('.last').prevAll().eq(1);

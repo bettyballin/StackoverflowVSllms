@@ -1,1 +1,0 @@
-using System.Windows.Forms;\n\npublic class FileOrFolderDialog : OpenFileDialog\n{\n    public FileOrFolderDialog()\n    {\n        ValidateNames = false;\n        CheckFileExists = false;\n        CheckPathExists = true;\n    }\n}

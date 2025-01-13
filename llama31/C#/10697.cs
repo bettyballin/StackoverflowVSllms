@@ -1,1 +1,0 @@
-Guid randomGuid = Guid.NewGuid();\nConsole.WriteLine(randomGuid); // outputs a random GUID

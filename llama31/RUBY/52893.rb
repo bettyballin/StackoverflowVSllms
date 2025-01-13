@@ -1,0 +1,1 @@
+Widget.find(:all, :conditions => ["name like :query", { :query => "%awesome%" }])

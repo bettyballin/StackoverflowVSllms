@@ -1,0 +1,1 @@
+SELECT search_mode, COUNT(*) AS frequency\nFROM search_queries\nGROUP BY search_mode\nORDER BY frequency DESC;

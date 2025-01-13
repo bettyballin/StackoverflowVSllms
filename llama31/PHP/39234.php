@@ -1,0 +1,1 @@
+function remove_carriage_returns($html) {\n    return str_replace(array("\n", "\r"), '', $html);\n}

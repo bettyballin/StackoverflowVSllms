@@ -1,1 +1,0 @@
-// Before JIT compilation\nint x = 5 + 3;\n\n// After JIT compilation (constant folding)\nint x = 8;

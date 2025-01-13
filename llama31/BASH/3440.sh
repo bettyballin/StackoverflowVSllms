@@ -1,1 +1,0 @@
-cdvd-gen -o hello_world.iso hello_world.elf

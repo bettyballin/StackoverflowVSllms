@@ -1,1 +1,0 @@
-reg set %KEY% /v %VALUE% /t REG_SZ /d %DATA%

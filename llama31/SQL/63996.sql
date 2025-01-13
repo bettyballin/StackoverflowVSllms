@@ -1,0 +1,1 @@
+SELECT tf.* \nFROM kp kp\nCROSS APPLY MM.test_1(dbo.test_2(kp.id)) AS tf\nWHERE kp.id = 4679

@@ -1,0 +1,1 @@
+CREATE FUNCTION dbo.Split(@string nvarchar(max), @delimiter nvarchar(10))\nRETURNS @output TABLE (id int)\nBEGIN\n    DECLARE @xml xml\n    SET @xml = CONVERT(xml, '<root><item>' + REPLACE(@string, @delimiter, '</item><item>') + '</item></root>')\n\n    INSERT INTO @output (id)\n    SELECT T.c.value('.', 'int')\n    FROM @xml.nodes('/root/item') T(c)\n\n    RETURN\nEND

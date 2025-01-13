@@ -1,0 +1,1 @@
+// Set a timestamp in the session data\n$_SESSION['last_activity'] = time();\n\n// On each request, check if the timestamp is older than 1 hour\nif (time() - $_SESSION['last_activity'] > 3600) {\n    // Log out the user\n    session_destroy();\n}

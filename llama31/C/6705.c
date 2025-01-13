@@ -1,1 +1,0 @@
-struct Node {\n    int member;\n    struct Node* p_member;\n};\n\n// Syntax #1: Using multiple dereference operators\nstruct Node* p_node = ...;\nint value = (*(*(*p_node).p_member).p_member).member;\n\n// Syntax #2: Using arrow operators\nint value = p_node->p_member->p_member->member;

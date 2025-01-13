@@ -1,0 +1,1 @@
+$("#girc-content").load("home.html", function() {\n  $(this).find(".classname").css("width", "your-width-value");\n});

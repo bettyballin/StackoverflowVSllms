@@ -1,0 +1,1 @@
+<Config>\n  ...\n  <HttpServer>\n    ...\n    <HttpsRedirect enabled="true" />\n  </HttpServer>\n</Config>

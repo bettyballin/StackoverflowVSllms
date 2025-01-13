@@ -1,0 +1,1 @@
+# Get the first column\ncolumn = tree_view.get_column(0)\n\n# Make the column expand to fill available space\ncolumn.set_expand(True)\n\n# Or, set a fixed width for the column\ncolumn.set_fixed_width(200)

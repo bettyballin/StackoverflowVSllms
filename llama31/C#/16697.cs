@@ -1,1 +1,0 @@
-Label label = new Label();\nlabel.AutoSize = false;\nlabel.MaximumSize = new Size(100, 0); // Set the maximum width to 100 pixels\nlabel.Text = "This is a very long text that needs to be wrapped.";

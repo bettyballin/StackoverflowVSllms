@@ -1,0 +1,1 @@
+def intersect_nested(a, b):\n    return [[val for val in sublist if val in a] for sublist in b]\n\nc1 = [1, 6, 7, 10, 13, 28, 32, 41, 58, 63]\nc2 = [[13, 17, 18, 21, 32], [7, 11, 13, 14, 28], [1, 5, 6, 8, 15, 16]]\n\nc3 = intersect_nested(c1, c2)\nprint(c3)  # Output: [[13, 32], [7, 13, 28], [1, 6]]

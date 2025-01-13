@@ -1,1 +1,0 @@
-// Set the authentication credentials\nreportsService.Credentials = new NetworkCredential("your_username", "your_password");

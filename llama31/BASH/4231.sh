@@ -1,1 +1,0 @@
-gcc -pg -finstrument-functions -fprofile-arcs trivial.c -o trivial\n./trivial\ngprof trivial gmon.out

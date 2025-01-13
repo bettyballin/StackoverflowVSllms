@@ -1,1 +1,0 @@
-float nextFloat = ...;\nSInt16 nextInt;\n\n__asm__ volatile(\n    "ftosi %0, %1\n"\n    : "=r" (nextInt)  // output\n    : "f" (nextFloat) // input\n    : "cc"            // clobber condition codes\n);

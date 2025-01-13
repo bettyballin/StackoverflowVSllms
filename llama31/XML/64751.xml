@@ -1,0 +1,1 @@
+<!-- Bootstrap Entries -->\n<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER">\n    <attributes>\n        <attribute name="module" value="true"/>\n    </attributes>\n</classpathentry>\n\n<!-- User Entries -->\n<classpathentry kind="lib" path="/path/to/your/lib.jar"/>\n<classpathentry kind="lib" path="/path/to/another/lib.jar"/>

@@ -1,0 +1,1 @@
+use League\Csv\Reader;\n\n$reader = Reader::createFromPath('example.csv', 'r');\n$reader->setDelimiter(',');\n$reader->setEnclosure('"');\n$reader->setEscape('\\');\n\nforeach ($reader as $row) {\n    print_r($row);\n}

@@ -1,0 +1,1 @@
+DECLARE\n  sql_stmt VARCHAR2(4000);\nBEGIN\n  sql_stmt := 'CREATE OR REPLACE VIEW ALL_SERV AS ';\n  FOR rec IN (SELECT OWNER FROM ALL_OBJECTS WHERE OBJECT_TYPE = 'VIEW' AND OBJECT_NAME = 'SERV') LOOP\n    sql_stmt := sql_stmt || 'SELECT * FROM ' || rec.OWNER || '.SERV UNION ALL ';\n  END LOOP;\n  sql_stmt := RTRIM(sql_stmt, ' UNION ALL ');\n  EXECUTE IMMEDIATE sql_stmt;\nEND;\n/

@@ -1,1 +1,0 @@
-ln -s ~/.sqldeveloper ~/Dropbox/.sqldeveloper

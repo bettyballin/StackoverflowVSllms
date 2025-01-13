@@ -1,1 +1,0 @@
-Response.Headers.Add("Content-Security-Policy", "script-src 'self';")

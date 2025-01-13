@@ -1,1 +1,0 @@
-#!/bin/bash\n\necho "Available commands:"\necho "  1. less logfile"\necho "  2. shutdown.sh"\necho "  3. run.sh"\n\nread -p "Enter the number of the command to execute: " choice\n\ncase $choice in\n  1) less logfile;;\n  2) shutdown.sh;;\n  3) run.sh;;\n  *) echo "Invalid choice";;\nesac

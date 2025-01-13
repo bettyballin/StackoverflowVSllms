@@ -1,1 +1,0 @@
-#include <rpc.h>\n\nUUID uuid;\nUuidCreate(&uuid);\n// Use the generated UUID

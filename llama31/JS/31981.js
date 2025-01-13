@@ -1,0 +1,1 @@
+var chkResult = Validation();\nsetTimeout(function() {\n  document.getElementById('abc').innerHTML = chkResult;\n}, 10000);

@@ -1,0 +1,1 @@
+$path = '/home/john/smith/web/test/testing/nothing/';\n$levelsToRemove = 4;\n\n$parts = explode('/', $path);\n$parts = array_slice($parts, $levelsToRemove);\n$newPath = implode('/', $parts);\n\necho $newPath; // outputs: /test/testing/nothing/

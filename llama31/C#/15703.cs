@@ -1,1 +1,0 @@
-public void SaveCollection(DictionaryBase objCollection, string TableName, string spSave)\n{\n    PropertyInfo propInfo;\n\n    foreach (DictionaryEntry entry in objCollection)\n    {\n        object objClass = entry.Value; // Get the value object\n        propInfo = objClass.GetType().GetProperty("TableFieldName");\n        // ... rest of your code ...\n    }\n}

@@ -1,1 +1,0 @@
-#include <qatzip.h>\n\n// Initialize the QuickAssist API\nQzSession_T session;\nQzInit(&session);\n\n// Set up the encryption parameters\nQzAESParams_T params;\nparams.key = my_aes_key;\nparams.key_len = sizeof(my_aes_key);\nparams.cipher = QzAES_ECB;\n\n// Encrypt the data\nQzAESEncrypt(&session, &params, plaintext, ciphertext, data_len);\n\n// Clean up\nQzCleanup(&session);

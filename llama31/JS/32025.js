@@ -1,0 +1,1 @@
+if (xhr.readyState === 0 && xhr.sent) {\n  console.log("Request has been aborted");\n}

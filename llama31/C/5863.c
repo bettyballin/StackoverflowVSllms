@@ -1,1 +1,0 @@
-#include <sys/stat.h>\n#include <fcntl.h>\n\n// ...\n\n// Save the current umask\nmode_t old_umask = umask(0);\n\nint fd = open(fileName, O_CREAT | O_RDWR, 0777);\nif (fd != -1) {\n    // Restore the original umask\n    umask(old_umask);\n}

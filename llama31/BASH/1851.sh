@@ -1,1 +1,0 @@
-openssl dgst -sha256 -verify publickey.pub -signature signature.pem updatefile.bi

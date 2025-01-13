@@ -1,1 +1,0 @@
-int retryCount = 0;\nwhile (retryCount < 3)\n{\n    try\n    {\n        base.Channel.RemoteMethod();\n        break;\n    }\n    catch (CommunicationException ex)\n    {\n        retryCount++;\n        Thread.Sleep(1000); // wait for 1 second before retrying\n    }\n}

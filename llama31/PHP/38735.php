@@ -1,0 +1,1 @@
+$ch = curl_init("/path/to/cgi/script.cgi");\ncurl_setopt($ch, CURLOPT_RETURNTRANSFER, true);\ncurl_setopt($ch, CURLOPT_POST, 1);\ncurl_setopt($ch, CURLOPT_POSTFIELDS, http_build_query(array('param1' => 'value1', 'param2' => 'value2')));\n\n$response = curl_exec($ch);\ncurl_close($ch);\n\n// Process $response as needed

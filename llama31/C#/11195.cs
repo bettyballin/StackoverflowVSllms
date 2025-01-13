@@ -1,1 +1,0 @@
-string executablePath = "cmd.exe";\nstring argument = "/c \"" + Path.GetFullPath(Path.Combine(AppDomain.CurrentDomain.BaseDirectory, @"..\My-Bridge.bat")) + "\"";\n\nbridge_process = System.Diagnostics.Process.Start(\n    executablePath,\n    argument);

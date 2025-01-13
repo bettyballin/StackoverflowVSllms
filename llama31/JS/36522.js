@@ -1,0 +1,1 @@
+Sys.Application.add_init(function(){\n    $create(AjaxControlToolkit.CalendarBehavior, {\n        'Format': 'MMMM d, yyyy', \n        'PopupButtonID': 'Image1'\n    }, null, null, $get('Birthday'));\n});

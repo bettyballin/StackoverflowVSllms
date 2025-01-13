@@ -1,0 +1,1 @@
+SELECT length(hex(blob_column)) / 2 AS blob_length\nFROM your_table;

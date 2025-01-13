@@ -1,1 +1,0 @@
-protected void Application_Start(object sender, EventArgs e)\n{\n    // Access cache via HttpRuntime.Cache\n    var cache = System.Web.HttpRuntime.Cache;\n    // Now you can work with the cache\n    cache.Add("yourKey", "yourValue", null, DateTime.MaxValue, TimeSpan.Zero, System.Web.Caching.CacheItemPriority.Normal, null);\n}

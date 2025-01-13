@@ -1,1 +1,0 @@
-string connectionString = "Data Source=myServerAddress;Initial Catalog=myDataBase;Integrated Security=True;Pooling=False;";\nusing (SqlConnection conn = new SqlConnection(connectionString))\n{\n    conn.Open();\n    // ...\n    conn.Close();\n}

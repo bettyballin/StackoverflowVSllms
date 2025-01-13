@@ -1,1 +1,0 @@
-public static class GlobalSwitch\n{\n    private static readonly TraceSwitch _applicationSwitch = new TraceSwitch("Application", "Enables logging in the whole application.");\n\n    public static TraceSwitch ApplicationSwitch => _applicationSwitch;\n}

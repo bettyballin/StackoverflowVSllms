@@ -1,0 +1,1 @@
+session_save_path('/path/to/my/app/sessions');\nsession_start();

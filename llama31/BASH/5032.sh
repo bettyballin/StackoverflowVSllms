@@ -1,1 +1,0 @@
-# Set the remote repository URL\nsvn propset svn:repository-root "http://svn.example.com/myproject" /path/to/htdocs\n\n# Set the commit message template\nsvn propset svn:log-template "Automated commit from TortoiseSVN" /path/to/htdocs

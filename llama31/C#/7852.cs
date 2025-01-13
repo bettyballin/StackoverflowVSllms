@@ -1,1 +1,0 @@
-amespace ...DAL\n{\n    // ...\n\n    #region Databases\n    public partial struct Databases \n    { \n        // ...\n    }\n    #endregion\n}

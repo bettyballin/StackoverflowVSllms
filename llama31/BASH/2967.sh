@@ -1,1 +1,0 @@
-#!/bin/bash\n\nmysql -h your_host -u your_user -p your_database -e "SHOW TABLES" | while read table; do\n  mysql -h your_host -u your_user -p your_database -e "SELECT * FROM $table INTO OUTFILE '/path/to/output/$table.csv' FIELDS TERMINATED BY ',' ENCLOSED BY '\"' LINES TERMINATED BY '\n';"\ndone

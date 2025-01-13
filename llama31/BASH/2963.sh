@@ -1,1 +1,0 @@
-g++ traits2.cpp

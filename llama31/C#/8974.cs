@@ -1,1 +1,0 @@
-[Test]\npublic void AdminMode_SetsModeObjectToDBNull()\n{\n    // Arrange\n    DiaryMode mode = DiaryMode.Admin;\n\n    // Act\n    YourMethod(mode);\n\n    // Assert\n    Assert.AreEqual(DBNull.Value, modeObject);\n}

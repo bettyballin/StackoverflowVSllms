@@ -1,1 +1,0 @@
-aspnet_regiis.exe -s MyVirtualDirectory -i v2.0.50727

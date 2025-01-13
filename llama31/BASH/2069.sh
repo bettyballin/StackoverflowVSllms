@@ -1,1 +1,0 @@
-# Retrieve the semaphore ID\nsem_id=$(ipcs -s | grep "your_semaphore_name" | awk '{print $1}')\n\n# Remove the semaphore\nipcrm -s $sem_id\n\n# Recreate the semaphore with new ownership and permissions\nipcmk -S your_semaphore_name -o 660 -p 1000

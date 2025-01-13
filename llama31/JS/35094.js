@@ -1,0 +1,1 @@
+if ($('#droptarget').has('.widget').length > 0) {\n    console.log('Widget is inside #droptarget');\n} else {\n    console.log('Widget is not inside #droptarget');\n}

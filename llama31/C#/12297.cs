@@ -1,1 +1,0 @@
-using Windows.Security.Credentials;\n\n// Create a new credential locker\nvar locker = new PasswordVault();\n\n// Add a new credential to the locker\nvar credential = new PasswordCredential(\n    "Your App Name",\n    "username",\n    "password"\n);\nlocker.Add(credential);

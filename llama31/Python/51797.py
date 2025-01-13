@@ -1,0 +1,1 @@
+import pandas as pd\n\ndf = pd.read_csv('contacts.csv')\ninvalid_emails = df[~df['Email'].str.match(email_regex)]\nprint(invalid_emails)

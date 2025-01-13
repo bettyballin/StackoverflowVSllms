@@ -1,0 +1,1 @@
+<dependency>\n    <groupId>com.drewnoakes</groupId>\n    <artifactId>metadata-extractor</artifactId>\n    <version>2.12.0</version>\n</dependency>

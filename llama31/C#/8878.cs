@@ -1,1 +1,0 @@
-// Example of a WCF service contract\n[ServiceContract]\npublic interface IMembershipService\n{\n    [OperationContract]\n    bool ValidateUser(string username, string password);\n\n    [OperationContract]\n    string[] GetRolesForUser(string username);\n}

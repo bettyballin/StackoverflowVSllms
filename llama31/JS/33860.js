@@ -1,0 +1,1 @@
+var scriptUrl = document.currentScript.src;

@@ -1,0 +1,1 @@
+// update rewrites.conf file\n$file = 'rewrites.conf';\n$contents = 'RewriteRule ^tools$ index.php?page=2 [L]';\nfile_put_contents($file, $contents);

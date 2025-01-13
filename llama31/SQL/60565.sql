@@ -1,0 +1,1 @@
+CREATE TABLE records (\n    id INT PRIMARY KEY,\n    start_date DATE NOT NULL,\n    end_date DATE NOT NULL DEFAULT '9999-12-31'\n);

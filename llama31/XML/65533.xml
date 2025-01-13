@@ -1,0 +1,1 @@
+<enunciate>\n  ...\n  <include-lib>${lib}/your.custom.jar</include-lib>\n  ...\n</enunciate>

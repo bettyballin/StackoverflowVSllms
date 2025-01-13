@@ -1,1 +1,0 @@
-body .js_enabled_only { display: none; }\nbody .js_disabled_only { display: block; }\nbody.has_js .js_enabled_only { display: block; }\nbody.has_js .js_disabled_only { display: none; }

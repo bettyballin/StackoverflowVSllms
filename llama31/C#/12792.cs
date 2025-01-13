@@ -1,1 +1,0 @@
-public static void Main(string[] args) {\n    string database = "mydatabase.db";\n    SQLiteConnection.CreateFile(database);\n}

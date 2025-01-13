@@ -1,0 +1,1 @@
+$query = Zend_Search_Lucene_Search_Query::parse($searchTerm);\n$query->addTerm(new Zend_Search_Lucene_Index_Term($searchTerm, 'seller-name'));

@@ -1,1 +1,0 @@
-string textAreaText = textArea.Text;\nSystem.Diagnostics.Debugger.Break(); // add a breakpoint here to inspect the value of textAreaText

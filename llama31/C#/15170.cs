@@ -1,1 +1,0 @@
-using (SqlConnection connection = new SqlConnection(connectionString))\n{\n    connection.Open();\n    SqlCommand command = new SqlCommand("GetTotalOrderValue", connection);\n    command.CommandType = CommandType.StoredProcedure;\n    command.Parameters.AddWithValue("@CustomerId", customerId);\n    object result = command.ExecuteScalar();\n    // Process the result\n}

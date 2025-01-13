@@ -1,0 +1,1 @@
+$.ajax({\n  // your AJAX settings here\n  beforeSend: function() {\n    $('#loading').show(); // show the loading image\n  },\n  complete: function() {\n    $('#loading').hide(); // hide the loading image\n  }\n});

@@ -1,1 +1,0 @@
-// Example usage (using the PJSIP .NET wrapper):\nusing Pjsip;\n\nSIPClient client = new SIPClient("sip.example.com", "username", "password");\nclient.MakeCall("sip:1234567890@example.com");

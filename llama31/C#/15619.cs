@@ -1,1 +1,0 @@
-class Program\n{\n    static void Main(string[] args)\n    {\n        ProcessWatcher watcher = new ProcessWatcher("notepad.exe");\n        Console.ReadLine();\n    }\n}

@@ -1,1 +1,0 @@
-protected void Transform(XmlDocument document, string xsltFileName, StreamWriter writer)\n{\n    var xslTransform = new XslCompiledTransform();\n    xslTransform.Load(xsltFileName);\n    xslTransform.Transform(createNavigator(document), null, writer);\n}

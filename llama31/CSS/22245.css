@@ -1,1 +1,0 @@
-.container {\n  display: flex;\n  flex-direction: column;\n  height: 100vh; /* or any other fixed height */\n}\n\n.master {\n  flex-grow: 1;\n  overflow-y: auto;\n}\n\n.detail {\n  height: 100px; /* or any other fixed height */\n  overflow-y: auto;\n}

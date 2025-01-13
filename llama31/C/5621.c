@@ -1,1 +1,0 @@
-// Create multiple kernels\ncl_kernel kernel1 = clCreateKernel(program, "kernel1", &err);\ncl_kernel kernel2 = clCreateKernel(program, "kernel2", &err);\n\n// Execute kernels concurrently\nclEnqueueNDRangeKernel(queue, kernel1, 1, NULL, &global_size, &local_size, 0, NULL, NULL);\nclEnqueueNDRangeKernel(queue, kernel2, 1, NULL, &global_size, &local_size, 0, NULL, NULL);

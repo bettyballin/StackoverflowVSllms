@@ -1,1 +1,0 @@
-public IEnumerable<Entry> GetEntries(int parentId)\n{\n    using (var context = new MyDataContext())\n    {\n        return context.EntryHierarchies.Where(e => e.ParentId == parentId).ToList();\n    }\n}

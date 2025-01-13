@@ -1,1 +1,0 @@
-// party.cpp\n#include "CFunExt.hpp"\n\nint main() {\n    CFun obj;\n    hello(obj); // prints "hello"\n    return 0;\n}

@@ -1,1 +1,0 @@
-#!/bin/bash\n\n# Compile a simple Java class with Java 1.5\njavac -source 1.5 -target 1.5 YourJavaClass.java\n\n# Check the version of the compiled class file\njavap -verbose YourJavaClass.class | grep "major version"

@@ -1,1 +1,0 @@
-db2look -d <database_name> -s <schema_name> -e -f <output_file>

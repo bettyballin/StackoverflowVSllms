@@ -1,1 +1,0 @@
-int optval = 1;\nsocklen_t optlen = sizeof(optval);\nsetsockopt(client_socket, SOL_SOCKET, SO_KEEPALIVE, &optval, optlen);

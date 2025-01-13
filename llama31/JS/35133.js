@@ -1,0 +1,1 @@
+/* Example CSS-in-JS with styled-components */\nimport styled from 'styled-components';\n\nconst Button = styled.button`\n  background-color: #4CAF50;\n  color: #fff;\n  padding: 10px 20px;\n  border: none;\n  border-radius: 5px;\n  cursor: pointer;\n`;

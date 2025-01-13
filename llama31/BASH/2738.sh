@@ -1,1 +1,0 @@
-# Example using openssl\nopenssl enc -aes-256-cbc -in my_database.db -out my_database.db.enc -pass pass:my_secret_password

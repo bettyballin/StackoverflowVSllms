@@ -1,1 +1,0 @@
-// Open the binary in IDA Pro\n// Set the CPU architecture and load the binary\n#include <ida.hpp>\n\nint main() {\n  // Load the binary\n  auto binary = get_first_seg();\n  // Set the CPU architecture\n  set_processor_type("x86", SETPROC_ALL);\n  // Disassemble the binary\n  auto disasm = disasm_binary(binary);\n  // Print the disassembly\n  printf("%s", disasm);\n  return 0;\n}

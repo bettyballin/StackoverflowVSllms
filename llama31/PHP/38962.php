@@ -1,0 +1,1 @@
+$sql = "SELECT * FROM $tbl_name WHERE username = '$myusername' AND pwd = '$pass' AND priv_level = '$privlevel'";

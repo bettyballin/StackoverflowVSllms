@@ -1,1 +1,0 @@
-public class YourEntityConfiguration : EntityTypeConfiguration<YourEntity>\n{\n    public YourEntityConfiguration()\n    {\n        HasRequired(e => e.YourNavigationProperty)\n            .WithMany()\n            .HasForeignKey(e => e.YourForeignKeyColumn);\n    }\n}

@@ -1,1 +1,0 @@
-public class BatchCalculatorService\n{\n    public decimal CalculateBatchTotal(VendorApplicationBatch batch)\n    {\n        var applications = AppRepo.GetByBatchId(batch.Id);\n        // ...\n    }\n}

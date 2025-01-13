@@ -1,1 +1,0 @@
-// myclass.h\nclass MyClass {\npublic:\n    void myMethod();\n};

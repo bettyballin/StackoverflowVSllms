@@ -1,1 +1,0 @@
-// Replace this\nRDS.DataSpace ds = new RDS.DataSpace();\nds.ConnectionString = "your_connection_string";\nds.SQL = "your_sql_query";\n\n// With this\nusing (SqlConnection conn = new SqlConnection("your_connection_string"))\n{\n    SqlCommand cmd = new SqlCommand("your_sql_query", conn);\n    // ...\n}

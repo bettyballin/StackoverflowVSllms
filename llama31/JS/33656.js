@@ -1,0 +1,1 @@
+// In the report design, add a Background element\n// Set the Background property to the following JavaScript expression:\nif (params["isDraft"].value == true) {\n  "url('draft_image.png')";\n} else {\n  "";\n}

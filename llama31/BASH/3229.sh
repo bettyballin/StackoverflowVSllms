@@ -1,1 +1,0 @@
-# Generate two PGP key pairs\ngpg --gen-key --key-name key1\ngpg --gen-key --key-name key2\n\n# Encrypt a message using the first key\ngpg --encrypt --recipient key1 message.txt\n\n# Encrypt the encrypted message using the second key\ngpg --encrypt --recipient key2 message.txt.gpg

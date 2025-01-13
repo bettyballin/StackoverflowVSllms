@@ -1,1 +1,0 @@
-keytool -certreq -alias tomcat -keystore keystore.jks -file csr.txt

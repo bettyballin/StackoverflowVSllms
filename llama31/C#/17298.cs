@@ -1,1 +1,0 @@
-// assuming 'a' is the original entity and 'aPrime' is the new occurrence\nusing (var scope = new TransactionScope())\n{\n    // merge the new occurrence into the original entity\n    a.Merge(aPrime);\n    \n    // save the changes to the database\n    using (var adapter = new DataAccessAdapter())\n    {\n        adapter.SaveEntity(a);\n    }\n    \n    scope.Complete();\n}

@@ -1,1 +1,0 @@
-find . -name "*.html" -o -name "*.php" -exec sed -i 's/<\([^>]*\)>/<\L\1>/g' {} \;

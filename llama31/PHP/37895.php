@@ -1,0 +1,1 @@
+$url = 'http://remote.com/client.asp';\n$xml = simplexml_load_string(file_get_contents($url));\n\nif ($xml !== false) {\n    // XML is well-formed\n} else {\n    // XML is not well-formed\n    $error = libxml_get_last_error();\n    libxml_clear_errors();\n    echo "XML error: " . $error->message;\n}

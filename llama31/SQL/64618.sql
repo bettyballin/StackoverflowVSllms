@@ -1,0 +1,1 @@
+SELECT f_name, l_name, (f_name + ' ' + l_name) AS full_name\nFROM users_table\nWHERE f_name = @user_input\n   OR l_name = @user_input\n   OR (f_name + ' ' + l_name) = @user_input

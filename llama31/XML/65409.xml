@@ -1,0 +1,1 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">\n  <PropertyGroup>\n    <StyleCopEnabled>true</StyleCopEnabled>\n    <StyleCopTreatErrorsAsWarnings>false</StyleCopTreatErrorsAsWarnings>\n  </PropertyGroup>\n  <ItemGroup>\n    <StyleCopRules Include="$(MSBuildThisFileDirectory)..\stylecop.json" />\n  </ItemGroup>\n</Project>

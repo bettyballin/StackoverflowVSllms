@@ -1,1 +1,0 @@
-public class MyController : Controller\n{\n    public ActionResult MyAction()\n    {\n        var myClass = new MyClass(HttpContext);\n        myClass.MyMethod();\n        // ...\n    }\n}

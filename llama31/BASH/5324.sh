@@ -1,1 +1,0 @@
-sc \\<remote_server> query w3svc

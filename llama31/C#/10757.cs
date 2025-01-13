@@ -1,1 +1,0 @@
-List<string> L = Enumerable.Repeat<string>(null, 10).ToList();

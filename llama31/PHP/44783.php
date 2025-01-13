@@ -1,0 +1,1 @@
+class Mem\n{\n    function event($event)\n    {\n        global $pdo;\n        global $memcached;\n\n        $key = md5(sha1($event) . sha1('events'));\n\n        $this->key = $key;\n        return $this;\n    }\n\n    function delete()\n    {\n        global $memcached;\n        return $memcached->delete($this->key);\n    }\n}

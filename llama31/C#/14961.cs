@@ -1,1 +1,0 @@
-using DotNetNuke.Entities.Portals;\nusing DotNetNuke.Entities.Tabs;\n\nPortalSettings portalSettings = PortalSettings.Current;\nint loginTabId = portalSettings.LoginTabId;\nTabInfo loginTab = TabController.Instance.GetTab(loginTabId, portalSettings.PortalId);\nstring loginUrl = loginTab.FullUrl;

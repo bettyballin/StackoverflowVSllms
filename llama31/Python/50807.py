@@ -1,0 +1,1 @@
+from pypy.rlib.jit import JitDriver, purefunction\n\ndef my_function(x):\n    return x * x\n\njitdriver = JitDriver(greens=['x'], reds=['result'])\n\n@purefunction\ndef my_function_jit(x):\n    jitdriver.can_enter_jit(x=x)\n    result = my_function(x)\n    jitdriver.jit_merge_point(x=x, result=result)\n    return result

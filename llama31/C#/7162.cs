@@ -1,1 +1,0 @@
-public partial class MyEntity : IEntity\n{\n    int IEntity.ID\n    {\n        get { return Id; }\n        set { Id = value; }\n    }\n}

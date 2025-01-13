@@ -1,1 +1,0 @@
-/* Firefox */\n@-moz-document url-prefix() {\n    /* Firefox-specific styles here */\n}\n\n/* IE */\n@media all and (-ms-high-contrast: none), (-ms-high-contrast: active) {\n    /* IE-specific styles here */\n}

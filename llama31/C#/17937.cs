@@ -1,1 +1,0 @@
-using System.IO;\n\nclass Foo\n{\n   public string Path;\n\n   void Bar()\n   {\n       global::System.IO.Path.Combine("", ""); \n   }\n}

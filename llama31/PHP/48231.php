@@ -1,0 +1,1 @@
+$consumer->setHttpClient(new Zend_Http_Client_Adapter_Curl());\n$consumer->getHttpClient()->setOptions(array('curloptions' => array(CURLOPT_SSL_VERIFYPEER => true)));

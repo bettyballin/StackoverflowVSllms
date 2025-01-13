@@ -1,1 +1,0 @@
-byte[] data = ...; // your binary data\nint value = EndianHelper.ToInt32(data, 0, false); // big endia

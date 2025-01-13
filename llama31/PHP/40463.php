@@ -1,0 +1,1 @@
+if (empty($_POST['eng_0'])) {\n    // No options were selected\n} else {\n    // Options were selected\n}

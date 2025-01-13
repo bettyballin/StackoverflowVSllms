@@ -1,0 +1,1 @@
+private $radioDecorators = array(\n    'Label',\n    'ViewHelper',\n    array(array('row' => 'HtmlTag'), array('tag' => 'span')), // Changed 'li' to 'span'\n);

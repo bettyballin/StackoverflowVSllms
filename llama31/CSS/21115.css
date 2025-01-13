@@ -1,1 +1,0 @@
-.form-grid {\n  display: grid;\n  grid-template-columns: repeat(2, 1fr);\n  gap: 10px;\n}\n\n.form-grid input[type='text'] {\n  grid-column: 1;\n}\n\n.form-grid select {\n  grid-column: 2;\n}

@@ -1,0 +1,1 @@
+// Register the default implementations in the container\n$container->bind(ResourceLoader::class, DefaultResourceLoader::class);\n$container->bind(Logger::class, DefaultLogger::class);\n\n// Resolve the Engine instance with the default dependencies\n$engine = $container->make(Engine::class);

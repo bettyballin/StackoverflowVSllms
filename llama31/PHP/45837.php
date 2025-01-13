@@ -1,0 +1,1 @@
+// assuming you have a PDO connection $pdo\n$pdo->prepare('INSERT INTO your_table (your_column) VALUES (:your_variable)')->execute(['your_variable' => $your_variable]);

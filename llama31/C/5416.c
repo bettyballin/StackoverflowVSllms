@@ -1,1 +1,0 @@
-int* determine_searches(int row, int col, int last_row, int last_col) {\n    // ...\n\n    int* active_search = malloc(SEARCH_DIRECTIONS * sizeof(int));\n    if (!active_search) {\n        // handle memory allocation error\n    }\n\n    // ...\n\n    return active_search;\n}

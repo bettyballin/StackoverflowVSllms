@@ -1,0 +1,1 @@
+Public Class ImageButton\n    Inherits Button\n\n    Protected Overrides Sub OnPaint(e As PaintEventArgs)\n        If Me.Image IsNot Nothing Then\n            e.Graphics.DrawImage(Me.Image, Me.ClientRectangle)\n        Else\n            MyBase.OnPaint(e)\n        End If\n    End Sub\nEnd Class

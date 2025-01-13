@@ -1,0 +1,1 @@
+from django.db import models\n\nclass DataElement(models.Model):\n    string = models.CharField(max_length=100)\n    number1 = models.IntegerField()\n    number2 = models.IntegerField()\n\n@transaction.atomic\ndef save_data_elements(input_list):\n    DataElement.objects.bulk_create([\n        DataElement(string=s, number1=i1, number2=i2) for (s, i1, i2) in input_list\n    ])

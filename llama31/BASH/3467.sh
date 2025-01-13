@@ -1,1 +1,0 @@
-openssl enc -aes-256-cbc -in input.docx -out encrypted.docx -pass pass:your_password

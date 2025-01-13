@@ -1,1 +1,0 @@
-cpulimit -l 50 php script.php

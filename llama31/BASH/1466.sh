@@ -1,1 +1,0 @@
-rtcwake -m no -s 1

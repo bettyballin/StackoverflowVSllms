@@ -1,0 +1,1 @@
+SELECT Spl_No, Spl_Name\nFROM Spl\nWHERE NOT EXISTS (\n  SELECT 1\n  FROM Del\n  WHERE Del.Spl_No = Spl.Spl_No AND Item_Name = 'Compass'\n)

@@ -1,1 +1,0 @@
-public void ForEach(Action<T> action)\n{\n    for (int i = 0; i < _size; i++)\n    {\n        action(_items[i]);\n    }\n}

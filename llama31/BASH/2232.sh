@@ -1,1 +1,0 @@
-g++ main.cpp parse.cpp -o output

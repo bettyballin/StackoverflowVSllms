@@ -1,0 +1,1 @@
+$stmt = $mysqli->prepare("SELECT * FROM users WHERE name = ?");\n$stmt->bind_param("s", $username);\n$stmt->execute();\n$result = $stmt->get_result();

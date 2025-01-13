@@ -1,0 +1,1 @@
+$file = 'example.csv';\n$data = 'Numéro 1';\n\n// Add BOM to the beginning of the file\n$bom = "\xef\xbb\xbf";\nfile_put_contents($file, $bom . $data);

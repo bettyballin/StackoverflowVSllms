@@ -1,0 +1,1 @@
+$string = "test.test";\npreg_match('/^[^ .]+/', $string, $match);\n$result = $match[0];\n\necho $result; // outputs "test"\n\n$string = "test doe";\npreg_match('/^[^ .]+/', $string, $match);\n$result = $match[0];\n\necho $result; // outputs "test"

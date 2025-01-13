@@ -1,1 +1,0 @@
-DataSet dataSet = new DataSet();\nDataTable dataTable = new DataTable("MyTable");\ndataSet.Tables.Add(dataTable);\n\nDataColumn column = new DataColumn("MyColumn", typeof(string));\ncolumn.Caption = "User Friendly Caption";\ndataTable.Columns.Add(column);

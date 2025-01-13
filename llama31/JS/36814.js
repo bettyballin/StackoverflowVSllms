@@ -1,0 +1,1 @@
+// Assuming you have a function to add a new item to the list via AJAX\nfunction addNewItem() {\n  // Your AJAX code to add the new item...\n  // ...\n\n  // Get the existing Sortable list\n  var sortable = Sortable.instance('my_list');\n\n  // Add the new item to the list\n  sortable.add(newItem);\n}

@@ -1,1 +1,0 @@
-using (var dbContext = new MyDbContext())\n{\n    var birds = dbContext.Birds.ToList();\n    // Do something with the birds\n}

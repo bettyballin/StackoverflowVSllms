@@ -1,1 +1,0 @@
-if (ControllerContext.IsAjax)\n{\n    // It's an AJAX request\n}

@@ -1,0 +1,1 @@
+CREATE PROCEDURE Dummy\n    @ID INT\nAS\nBEGIN\n    IF @ID IS NULL\n    BEGIN\n        RAISERROR ('@ID cannot be NULL', 16, 1)\n        RETURN\n    END\n\n    -- rest of the procedure code here\nEND

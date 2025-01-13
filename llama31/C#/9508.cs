@@ -1,1 +1,0 @@
-List<MyObject> objects = LoadObjectsFromDatabase();\n\n// Query the in-memory collection using LINQ\nvar results = objects.Where(o => o.ParentId == 123)\n                     .Select(o => o.Name)\n                     .ToList();

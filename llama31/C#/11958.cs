@@ -1,1 +1,0 @@
-[WebMethod]\npublic static void YourMethod()\n{\n    // Write out the XML file\n}

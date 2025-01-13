@@ -1,0 +1,1 @@
+ob_start(); // Start buffering output\n\n// Print some output\necho "Hello, World!";\n\n// Flush the buffer to send output to the client\nob_flush();\n\n// Continue with the rest of your script

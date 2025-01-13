@@ -1,0 +1,1 @@
+function errorHandler($errno, $errstr, $errfile, $errline) {\n    echo "Error: $errstr in $errfile on line $errline\n";\n    debug_print_backtrace();\n}\n\nset_error_handler('errorHandler');

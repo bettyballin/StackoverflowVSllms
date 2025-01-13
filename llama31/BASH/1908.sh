@@ -1,1 +1,0 @@
-CC = gcc\nCFLAGS = -O2 -Wall -DAMIGAOS\nLDFLAGS = -lamiga -lauto\n\nall:\n    $(CC) $(CFLAGS) -o myapp myapp.c\n    $(CC) $(LDFLAGS) -o myapp myapp.o

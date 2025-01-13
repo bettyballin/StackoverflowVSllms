@@ -1,1 +1,0 @@
-adsutil SET_WAM_USER_PASS <VirtualDirectoryPath> <Username> <Password>

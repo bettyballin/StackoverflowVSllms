@@ -1,1 +1,0 @@
-# Allow incoming HTTP traffic from trusted sources\niptables -A INPUT -p tcp --dport 80 -s <trusted_source_ip> -j ACCEPT\n\n# Allow incoming FTP traffic from trusted sources\niptables -A INPUT -p tcp --dport 21 -s <trusted_source_ip> -j ACCEPT\n\n# Drop all other incoming traffic\niptables -A INPUT -j DROP

@@ -1,0 +1,1 @@
+<?= page_link_by_title('Page_title') ?>

@@ -1,1 +1,0 @@
-java -XX:+PrintFlagsFinal -version | grep HeapSize

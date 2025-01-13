@@ -1,1 +1,0 @@
-var provider = new SimpleQueryProvider();\n\nvar query = provider.CreateQuery<MyClass>(myClass => myClass.MyProperty == "value");\n\nvar sql = query.Execute<string>();

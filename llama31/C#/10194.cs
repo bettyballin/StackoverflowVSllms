@@ -1,1 +1,0 @@
-using System.Runtime.Serialization.Formatters.Binary;\n\npublic Bookmarks DeepCopyBookmarks(Bookmarks original)\n{\n    using (var stream = new MemoryStream())\n    {\n        var formatter = new BinaryFormatter();\n        formatter.Serialize(stream, original);\n        stream.Position = 0;\n        return (Bookmarks)formatter.Deserialize(stream);\n    }\n}

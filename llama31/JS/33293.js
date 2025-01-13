@@ -1,0 +1,1 @@
+// In your SVG script\nfunction RunScript(loadEvent) {\n  // ...\n  window.postMessage('svgLoaded', '*');\n}\n\n// In your HTML document\nwindow.addEventListener('message', function(event) {\n  if (event.data === 'svgLoaded') {\n    var objElement = document.getElementById('objid1');\n    // Perform actions on objElement\n  }\n});

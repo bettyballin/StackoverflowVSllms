@@ -1,0 +1,1 @@
+DECLARE @myParam nvarchar;\nPRINT LEN(@myParam);  -- prints 30

@@ -1,1 +1,0 @@
-using Microsoft.Win32;\n\nRegistryKey key = Registry.CurrentUser.OpenSubKey(@"Software\Microsoft\Windows\CurrentVersion\Internet Settings");\nstring proxyServer = (string)key.GetValue("ProxyServer");\nint proxyPort = (int)key.GetValue("ProxyPort");\n\nSystem.Net.WebProxy proxy = new System.Net.WebProxy(proxyServer, proxyPort);\nSystem.Net.WebRequest.DefaultWebProxy = proxy;

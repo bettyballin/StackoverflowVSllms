@@ -1,0 +1,1 @@
+create table question_bank\n(\n    question_id uniqueidentifier primary key,\n    question_exam_id uniqueidentifier not null,\n    question_text varchar(1024) not null,\n    question_point_value decimal,\n    constraint FK_question_bank_exams foreign key (question_exam_id) references exams(exam_id)\n);

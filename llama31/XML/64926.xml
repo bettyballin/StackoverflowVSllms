@@ -1,0 +1,1 @@
+<enterprise-beans>\n    <ejb>\n        <ejb-name>MyStatefulBean</ejb-name>\n        <jndi-name>MyStatefulBean</jndi-name>\n        <bean-pool>\n            <max-pool-size>5</max-pool-size>\n        </bean-pool>\n    </ejb>\n</enterprise-beans>

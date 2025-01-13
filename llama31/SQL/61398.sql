@@ -1,0 +1,1 @@
+WITH temp_result AS (\n  SELECT a, b, c, d\n  FROM example\n  WHERE <the_where_clause>\n  ORDER BY d\n)\nSELECT a, b, expensive_procedure(c)\nFROM temp_result;

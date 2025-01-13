@@ -1,1 +1,0 @@
-// In your project's AssemblyInfo.cs\n[assembly: InternalsVisibleTo("YourProject.Tests")]

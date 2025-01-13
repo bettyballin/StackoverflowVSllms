@@ -1,0 +1,1 @@
+INSERT INTO VOUCHER (VOUCHER_NUMBER, BOOK_ID, DENOMINATION)\n  SELECT \n    (@row_num := @row_num + 1) AS VOUCHER_NUMBER,\n    b.ID,\n    b.DENOMINATION\n  FROM BOOK b\n  JOIN (SELECT @row_num := 0) r\n  JOIN (\n    SELECT 0 AS row_num UNION ALL\n    SELECT 1 UNION ALL\n    SELECT 2 UNION ALL\n    ...\n    SELECT 9999999\n  ) a ON a.row_num < b.UNITS

@@ -1,1 +1,0 @@
-USER_INFO_1 userInfo;\nuserInfo.usri1_name = (LPWSTR)username;\nuserInfo.usri1_password = (LPWSTR)password;\nuserInfo.usri1_flags = UF_NORMAL_ACCOUNT;\n\nDWORD dwError = NetUserAdd(NULL, 1, (LPBYTE)&userInfo, NULL);\nif (dwError != 0) {\n    // Handle error\n}

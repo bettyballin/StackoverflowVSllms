@@ -1,1 +1,0 @@
-IUnknown* pUnknown;\nHRESULT hr = CoCreateInstance(CLSID_MyObject, NULL, CLSCTX_INPROC_SERVER, IID_IUnknown, (LPVOID*)&pUnknown);\nif (SUCCEEDED(hr))\n{\n    // Use pUnknown\n    // ...\n    // Release the interface when you're done\n    pUnknown->Release();\n}

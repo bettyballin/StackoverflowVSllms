@@ -1,0 +1,1 @@
+select DocumentID, ClientID, DocumentName\nfrom (\n    select DocumentID, ClientID, DocumentName\n    from Document\n    union all\n    select DocumentID, ClientID, DocumentName\n    from Document\n    where ClientID = (select ClientID from CurrentUser)\n) v

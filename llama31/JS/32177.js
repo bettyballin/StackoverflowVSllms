@@ -1,0 +1,1 @@
+// In dialog window\nwindow.opener.postMessage('Update testDiv', '*');\n\n// In opener window\nwindow.addEventListener('message', function(event) {\n  if (event.data === 'Update testDiv') {\n    document.getElementById('testDiv').innerHTML = 'Updated!';\n  }\n});

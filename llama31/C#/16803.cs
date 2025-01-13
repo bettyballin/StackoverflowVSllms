@@ -1,1 +1,0 @@
-public class StructureFactory\n{\n    public static object CreateStructure(myEnum val)\n    {\n        Type structType = getTypeFromEnum(val);\n        return Activator.CreateInstance(structType);\n    }\n}

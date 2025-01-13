@@ -1,1 +1,0 @@
-#include <unistd.h>\n#include <sys/types.h>\n#include <sys/wait.h>\n\n// ...\n\npid_t pid = fork();\nif (pid == -1) {\n    // Error handling\n} else if (pid == 0) {\n    // Child process\n    execl("/path/to/your/console/app", "your_console_app", (char*) NULL);\n} else {\n    // Parent process (GUI)\n    waitpid(pid, NULL, 0);\n}

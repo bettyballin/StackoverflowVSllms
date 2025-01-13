@@ -1,1 +1,0 @@
-if (foo->bar == NULL); // warning: empty body in an if-statement\n    foo->bar = strdup("Unknown");

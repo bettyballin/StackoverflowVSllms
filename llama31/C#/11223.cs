@@ -1,1 +1,0 @@
-var service = new ServiceClass(new Repository1(), new Repository2());

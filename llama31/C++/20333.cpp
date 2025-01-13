@@ -1,1 +1,0 @@
-IGlobalInterfaceTable* pGIT;\nHRESULT hr = CoCreateInstance(CLSID_StdGlobalInterfaceTable, NULL, CLSCTX_INPROC_SERVER, IID_IGlobalInterfaceTable, (void**)&pGIT);\nif (FAILED(hr)) { /* handle error */ }

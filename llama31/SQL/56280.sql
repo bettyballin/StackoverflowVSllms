@@ -1,0 +1,1 @@
+IF (SELECT COUNT(*) FROM tblProducts WHERE ProductCode = '12345') > 0\nBEGIN\n    -- Handle duplicate key\nEND

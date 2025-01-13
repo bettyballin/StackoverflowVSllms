@@ -1,0 +1,1 @@
+{jumi [directory/index.php?var=10&anotherVar=20]}

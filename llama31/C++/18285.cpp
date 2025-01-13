@@ -1,1 +1,0 @@
-CoRegisterClassObject(CLSCTX_LOCAL_SERVER, typeof(MyComClass).GUID, &MyCustomClassFactory.CreateInstance, CLSCTX_LOCAL_SERVER, REGCLS_SINGLEUSE)

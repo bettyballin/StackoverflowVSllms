@@ -1,0 +1,1 @@
+class MyDataStructure implements DataStructure\n{\n    // You must implement methods from Iterator and Countable here\n    public function rewind() {}\n    public function current() {}\n    public function key() {}\n    public function next() {}\n    public function valid() {}\n    public function count() {}\n}

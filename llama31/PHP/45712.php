@@ -1,0 +1,1 @@
+function process_uri($tablePages) {\n    $this->category = $tablePages;\n}

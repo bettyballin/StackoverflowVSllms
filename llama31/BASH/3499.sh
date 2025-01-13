@@ -1,1 +1,0 @@
-#!/bin/bash\n\n# Extract the encrypted file\nopenssl enc -d -aes-256-cbc -in encrypted.docx -out output.docx -pass pass:$1\n\n# Prompt the user for the password\nread -s -p "Enter password: " password\n\n# Decrypt the file\nopenssl enc -d -aes-256-cbc -in encrypted.docx -out output.docx -pass pass:$password

@@ -1,0 +1,1 @@
+If Not String.IsNullOrEmpty(new_username) Then\n    ' your code here\nEnd If

@@ -1,0 +1,1 @@
+function ReceiveServerResponse(response, context) {\n    // Handle the server response\n    alert(response);\n}\n\nfunction CallServer(arg, context) {\n    // Call the server-side method\n    CallServer(arg, context);\n}

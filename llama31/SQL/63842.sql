@@ -1,0 +1,1 @@
+CREATE TABLE tmp_table AS\n  SELECT * FROM table@prod_db_link;

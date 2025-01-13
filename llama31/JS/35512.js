@@ -1,0 +1,1 @@
+$.ajax({\n  url: 'http://www.google.com/cse',\n  data: {\n    cx: 'MY_UNIQUE_KEY',\n    client: 'google-csbe',\n    output: 'xml_no_dtd',\n    q: 'query+terms'\n  },\n  success: function(data) {\n    // Process the XML data\n  }\n});

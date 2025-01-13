@@ -1,1 +1,0 @@
-string originalText = myLabel.Attributes["OriginalText"];

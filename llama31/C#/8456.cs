@@ -1,1 +1,0 @@
-using HtmlSanitizer;\n\n// assume 'html' is the HTML string from the RSS feed\nvar sanitizer = new HtmlSanitizer();\nsanitizer.AllowedTags.Add("img");\nsanitizer.AllowedTags.Add("a");\nsanitizer.AllowedTags.Add("br");\n\nvar sanitizedHtml = sanitizer.Sanitize(html);

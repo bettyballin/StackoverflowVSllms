@@ -1,1 +1,0 @@
-awk '{if ((NR-32) % 15 == 0) print "#"; print}' input.txt > output.txt

@@ -1,0 +1,1 @@
+$file = 'path/to/your/file.txt';\n$fp = fopen($file, 'r');\n$mm = mmap_open($fp, 0, MMAP_ACCESS_READ);\n// Process the file using $mm\nmmap_close($mm);\nfclose($fp);

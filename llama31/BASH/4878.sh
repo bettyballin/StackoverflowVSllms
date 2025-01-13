@@ -1,1 +1,0 @@
-icacls s:\ /grant:r "SQL Server Service Account":RW\nicacls s:\ /grant:r "BI_WEB\Administrator":RW

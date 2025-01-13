@@ -1,1 +1,0 @@
-rsync -avz --delete --exclude '.DS_Store' /path/to/directory/ user@ip.address:/path/to/directory

@@ -1,0 +1,1 @@
+CREATE PROCEDURE proc1()\nBEGIN\n  CALL proc2() ASYNC;\n  -- continue executing proc1 without waiting for proc2 to complete\nEND;

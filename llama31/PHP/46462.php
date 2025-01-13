@@ -1,0 +1,1 @@
+// Before\necho $undefinedVariable;\n\n// After\n$definedVariable = 'Hello, World!';\necho $definedVariable;

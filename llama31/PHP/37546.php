@@ -1,0 +1,1 @@
+echo posix_getpwuid(posix_getuid)['name'];\necho posix_getgrgid(posix_getgid())['name'];

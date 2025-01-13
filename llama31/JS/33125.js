@@ -1,0 +1,1 @@
+createImage('#FF0000', 'circle', 50);

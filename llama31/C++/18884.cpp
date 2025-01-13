@@ -1,1 +1,0 @@
-CMyClient client;\nCMyServer server;\n\nIConnectionPoint* pCP;\nHRESULT hr = server.GetConnectionPoint(IID_IMyEvent, &pCP);\nif (SUCCEEDED(hr))\n{\n    hr = pCP->Advise(&client, &m_dwCookie);\n    pCP->Release();\n}

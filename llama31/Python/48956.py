@@ -1,0 +1,1 @@
+def min_cost(n):\n    dp = [0] * (n + 1)\n    dp[1] = 1\n    for i in range(2, n + 1):\n        dp[i] = dp[i - 1] + i + 1\n        for j in range(1, i):\n            dp[i] = min(dp[i], dp[j] + dp[i - j] + 1)\n    return dp[n]\n\nprint(min_cost(10))  # prints 74

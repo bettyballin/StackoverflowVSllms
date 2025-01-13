@@ -1,0 +1,1 @@
+INSERT INTO #IDMapping (OldAccountID)\nSELECT accountID\nFROM accounts;

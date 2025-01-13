@@ -1,0 +1,1 @@
+WITH cost_percentages AS (\n  SELECT cost, SUM(cost) OVER() AS total, cost / SUM(cost) OVER() AS per\n  FROM my_table\n)\nSELECT cost, total, per,\n       SUM(per) OVER (ORDER BY cost DESC) AS per_sum\nFROM cost_percentages\nORDER BY cost DESC;

@@ -1,0 +1,1 @@
+// MODX Snippet: authenticateUser\nif ($modx->authenticate()) {\n    // Set session variable with authenticated user's data\n    $_SESSION['modx_user'] = $modx->user->get('username');\n    // Include your app's PHP files\n    include_once 'path/to/your/app/index.php';\n} else {\n    // Handle authentication failure\n}

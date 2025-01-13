@@ -1,0 +1,1 @@
+ALTER DATABASE [mydatabase] SET ENCRYPTION ON (FILE = 'mydatabase_log.ldf');

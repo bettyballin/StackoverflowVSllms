@@ -1,1 +1,0 @@
-using (SqlConnection connectSQL = new SqlConnection())\n{\n    // ...\n}

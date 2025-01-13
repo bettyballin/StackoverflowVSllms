@@ -1,0 +1,1 @@
+// Example of using MDN's JavaScript documentation\n// https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array\n\n// Create an array\nvar arr = [1, 2, 3];\n\n// Use the `map()` method to square each element\nvar squared = arr.map(function(x) { return x * x; });\n\nconsole.log(squared); // [1, 4, 9]

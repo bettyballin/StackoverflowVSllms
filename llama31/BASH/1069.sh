@@ -1,1 +1,0 @@
-cscript adsutil.vbs SET /w3svc/<site_id>/AnonymousPasswordSync TRUE

@@ -1,0 +1,1 @@
+DECLARE\n  v_data VARCHAR2(20);\n  c SYS_REFCURSOR;\nBEGIN\n  OPEN c FOR SELECT data FROM table1;\n  FETCH c INTO v_data;\n  IF c%FOUND THEN\n    CLOSE c;\n    RETURN v_data;\n  END IF;\n  -- repeat for table2 and table3\nEND;

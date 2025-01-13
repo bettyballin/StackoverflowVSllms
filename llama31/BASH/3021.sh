@@ -1,1 +1,0 @@
-# On the commercial server\nmysqldump -u username -p password database_name > dump.sql\n\n# On your private server\nmysql -u username -p password database_name < dump.sql

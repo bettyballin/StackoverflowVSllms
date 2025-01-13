@@ -1,1 +1,0 @@
-public class RegisterViewModel\n{\n    public string FirstName { get; set; }\n    public string LastName { get; set; }\n    public string Email { get; set; }\n    // ... other properties ...\n}

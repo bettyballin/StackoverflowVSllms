@@ -1,1 +1,0 @@
-const char* filter = "(&(objectCategory=person)(objectClass=user)(|(uid={username})(CN={username})(SAMAccountName={username})))";

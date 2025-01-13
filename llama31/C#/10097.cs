@@ -1,1 +1,0 @@
-using NHibernate;\nusing NHibernate.Linq;\n\npublic class MyEntity\n{\n    public virtual int Id { get; set; }\n    public virtual string Name { get; set; }\n}\n\n// Usage\nvar sessionFactory = CreateSessionFactory();\nvar session = sessionFactory.OpenSession();\nvar query = session.Query<MyEntity>().Where(e => e.Name.Contains("example"));\nvar results = query.ToList();

@@ -1,0 +1,1 @@
+$(document).ready(function() {\n  var referer = document.referrer;\n  if (referer.indexOf("google.com") != -1) {\n    $.fancybox({\n      content: '<div>Welcome Googler!<img src="image.jpg" /></div>',\n      modal: true\n    });\n  }\n});

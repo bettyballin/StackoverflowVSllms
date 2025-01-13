@@ -1,1 +1,0 @@
-java -agentpath:/path/to/yjp.jar=offline CPU -jar myapp.jar

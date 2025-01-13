@@ -1,1 +1,0 @@
-# Install Gunicorn\npip install gunicorn\n\n# Run your CGI code with Gunicorn\ngunicorn -w 4 your_cgi_script:app

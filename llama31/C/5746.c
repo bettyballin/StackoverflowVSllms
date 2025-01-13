@@ -1,1 +1,0 @@
-strncpy(Org_arr, input_string, sizeof(Org_arr) - 1);\nOrg_arr[sizeof(Org_arr) - 1] = '\0';

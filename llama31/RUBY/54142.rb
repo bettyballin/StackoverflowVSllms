@@ -1,0 +1,1 @@
+require 'rubygems'\n\nputs "ZenTest version: #{Gem.loaded_specs['ZenTest'].version}"\nputs "test-unit version: #{Gem.loaded_specs['test-unit'].version}"

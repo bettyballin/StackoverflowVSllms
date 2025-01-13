@@ -1,0 +1,1 @@
+<externalTools>\n  <tool\n    id="tail-log-file"\n    name="Tail Log File"\n    program="/usr/bin/tail"\n    arguments="-f /path/to/log/file.log"\n  />\n</externalTools>

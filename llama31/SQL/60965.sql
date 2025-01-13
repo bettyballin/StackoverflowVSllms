@@ -1,0 +1,1 @@
+-- Grant SELECT permission on a table to a user\nGRANT SELECT ON [myTable] TO [myUser];\nGO

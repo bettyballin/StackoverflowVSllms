@@ -1,0 +1,1 @@
+$hash = $_POST['hash'];

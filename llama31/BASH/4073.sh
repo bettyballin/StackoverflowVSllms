@@ -1,1 +1,0 @@
-curl -u $Masi sftp://host/folder/file.txt

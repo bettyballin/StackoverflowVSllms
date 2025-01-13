@@ -1,0 +1,1 @@
+Dim myObject As Object = "Hello, World!"\nDim myString As String = CType(myObject, String)

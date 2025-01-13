@@ -1,0 +1,1 @@
+decoded_data = uu.decode(encoded_data.decode('utf-8'))

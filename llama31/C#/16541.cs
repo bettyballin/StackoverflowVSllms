@@ -1,1 +1,0 @@
-var dates = db.Dates.Select(d => DbFunctions.TruncateTime(d.DateTimeColumn));

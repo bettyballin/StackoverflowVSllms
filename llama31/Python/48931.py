@@ -1,0 +1,1 @@
+import requests\n\n# Assuming Flask (Python) as your server-side framework\n@app.route('/proxy')\ndef proxy():\n    url = 'https://example.com/iframe-content'\n    response = requests.get(url)\n    return response.text

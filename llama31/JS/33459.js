@@ -1,0 +1,1 @@
+$.getJSON('your_url', function(data) {\n  // success callback\n})\n.beforeSend(function(xhr) {\n  // override global ajaxStart handler\n  $(document).ajaxStart(function() {});\n})\n.complete(function(xhr, status) {\n  // override global ajaxStop handler\n  $(document).ajaxStop(function() {});\n});

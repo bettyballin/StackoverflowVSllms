@@ -1,1 +1,0 @@
-int countSetBits(int n) {\n    static const int table[256] = {\n        /* precomputed table of set bit counts for 8-bit integers */\n        0, 1, 1, 2, 1, 2, 2, 3, 1, 2, 2, 3, 2, 3, 3, 4,\n        /* ... */\n    };\n    int count = 0;\n    for (int i = 0; i < 4; i++) {\n        count += table[(n >> (i * 8)) & 0xFF];\n    }\n    return count;\n}

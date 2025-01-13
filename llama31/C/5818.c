@@ -1,1 +1,0 @@
-char buffer[10];\nchar temp[4];\nint value = 123;\n\nsprintf(temp, "%03d", value);\nmemcpy(buffer + 3, temp, 3); // copies "123" into the buffer starting from the 4th character

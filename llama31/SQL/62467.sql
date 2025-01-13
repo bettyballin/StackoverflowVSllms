@@ -1,0 +1,1 @@
+SELECT median(col1) FROM tbl ORDER BY col1;

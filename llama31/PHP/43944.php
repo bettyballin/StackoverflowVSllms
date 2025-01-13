@@ -1,0 +1,1 @@
+use Drupal\block\Entity\Block;\n\n$block = Block::create([\n  'id' => 'my_block_id',\n  'settings' => [\n    'label' => 'My Block Label',\n    'content' => 'My Block Content',\n  ],\n]);\n$block->save();

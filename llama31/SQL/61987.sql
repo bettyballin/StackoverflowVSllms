@@ -1,0 +1,1 @@
+SELECT * \nFROM user_info \nLEFT OUTER JOIN addresses \n    ON addresses.user_id = user_info.user_id \n    AND addresses.app_id = dbo.fnGetAppId(addresses.user_id)

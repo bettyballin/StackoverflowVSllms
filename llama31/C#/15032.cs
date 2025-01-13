@@ -1,1 +1,0 @@
-public partial class CatalogControl : UserControl\n{\n    protected void Page_Load(object sender, EventArgs e)\n    {\n        if (!IsPostBack)\n        {\n            ViewState["CatalogData"] = GetCatalogData();\n        }\n    }\n\n    private object GetCatalogData()\n    {\n        // Return catalog data\n    }\n}

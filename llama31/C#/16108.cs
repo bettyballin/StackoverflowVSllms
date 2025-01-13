@@ -1,1 +1,0 @@
-using LumiSoft.Net.IMAP.Server;\n\n// Create an IMAP4 server instance\nvar server = new IMAP_Server();\n\n// Start the server\nserver.Start();

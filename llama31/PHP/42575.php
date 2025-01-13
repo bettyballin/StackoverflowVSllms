@@ -1,0 +1,1 @@
+$sql = "UPDATE venues SET has_amenities = :has_amenities WHERE id = :id";\n$stmt = $pdo->prepare($sql);\n$stmt->bindParam(':has_amenities', $_POST['has_amenities']);\n$stmt->bindParam(':id', $_POST['query']);\n$stmt->execute();

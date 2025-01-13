@@ -1,0 +1,1 @@
+$("input[name^=myboxes]").click(function() {\n    var element_id = $(this).attr("name").match(/\[(\d+)\]/)[1];\n    alert(element_id); //will alert 3, 8, or 10\n});

@@ -1,0 +1,1 @@
+$input = array('a', 'b', 'c', 'd', 'e', 'f', 'g', 'h', 'i', 'j');\n$output = array_map(function($value, $key) { return $key % 2 == 0 ? $value : null; }, $input, array_keys($input));\n$output = array_filter($output);\n\nvar_dump(array_values($output));

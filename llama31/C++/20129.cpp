@@ -1,1 +1,0 @@
-template <class Type> class myclass {\n  Type x;\npublic:\n  myclass() { x=0; }\n  void setx(Type y);\n  Type  getx();\n};\n\nextern template class myclass<int>;

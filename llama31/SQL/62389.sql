@@ -1,0 +1,1 @@
+SELECT UPPER(LEFT('hello world', 1)) + LOWER(SUBSTRING('hello world', 2, LEN('hello world'))) AS capitalized_string;

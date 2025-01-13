@@ -1,1 +1,0 @@
-pprof --objdump=/usr/local/bin/objdump /usr/local/bin/jags jags.prof

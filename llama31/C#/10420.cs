@@ -1,1 +1,0 @@
-string[] resources = assembly.GetManifestResourceNames();\nforeach (string resource in resources)\n{\n    if (resource.EndsWith(file))\n    {\n        Stream stream = assembly.GetManifestResourceStream(resource);\n        // ...\n    }\n}

@@ -1,0 +1,1 @@
+GRANT ALL PRIVILEGES ON your_database.* TO 'your_username'@'%' IDENTIFIED BY 'your_password';

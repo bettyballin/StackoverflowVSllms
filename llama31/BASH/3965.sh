@@ -1,1 +1,0 @@
-svn status --verbose\nsvn commit --verbose\nsvn ls -R --verbose

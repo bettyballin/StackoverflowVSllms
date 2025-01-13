@@ -1,0 +1,1 @@
+function is_animated_gif($filename) {\n    $img = imagecreatefromgif($filename);\n    $frames = 0;\n    while (imagevalid($img, $frames)) {\n        $frames++;\n    }\n    imagedestroy($img);\n    return $frames > 1;\n}

@@ -1,1 +1,0 @@
-// Example of a direct approach using a DLL\npublic class AdminWebsite\n{\n    private readonly CampaignService _campaignService;\n\n    public AdminWebsite()\n    {\n        _campaignService = new CampaignService();\n    }\n\n    public void CreateClient(int clientId)\n    {\n        _campaignService.CreateClient(clientId);\n    }\n}

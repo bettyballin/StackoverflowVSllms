@@ -1,1 +1,0 @@
-using System.IO;\nusing System.Reflection;\n\nstring appPath = Path.GetDirectoryName(Assembly.GetExecutingAssembly().Location);

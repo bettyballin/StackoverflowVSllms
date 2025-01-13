@@ -1,1 +1,0 @@
-[Route("api/myservice")]\npublic class MyServiceController : ApiController\n{\n    [HttpGet]\n    public string MyMethod(int param1, string param2)\n    {\n        // implementation\n    }\n}

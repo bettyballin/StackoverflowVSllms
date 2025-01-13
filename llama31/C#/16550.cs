@@ -1,1 +1,0 @@
-// Allocate memory\ndouble[] array = null;\ncomObject.MemAlloc(ref array, 10);\n\n// Use the allocated memory...\n\n// Free the memory\ncomObject.MemFree(ref array);

@@ -1,1 +1,0 @@
-# Generate delta between two schema versions\nmysqldiff -h localhost -u user -p password \\n  --source-schema mydb --target-schema mydb_updated \\n  > delta.sql

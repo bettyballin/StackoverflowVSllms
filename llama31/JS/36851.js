@@ -1,0 +1,1 @@
+swfobject.embedSWF("your_flash_file.swf", "your_flash_container", "width", "height", "9.0.0", null, null, { wmode: "transparent" });

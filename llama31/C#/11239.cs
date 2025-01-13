@@ -1,1 +1,0 @@
-ChangeStartupType("MyService", "Automatic");

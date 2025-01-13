@@ -1,1 +1,0 @@
-if (myLabel.IsHandleCreated)\n{\n    ToolTip.SetToolTip(myLabel, customDataStructure);\n}\nelse\n{\n    myLabel.HandleCreated += (sender, args) =>\n    {\n        ToolTip.SetToolTip(myLabel, customDataStructure);\n    };\n}

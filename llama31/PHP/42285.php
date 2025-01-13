@@ -1,0 +1,1 @@
+function enqueue_comment_scripts() {\n    wp_enqueue_script('jquery');\n    wp_enqueue_script('comment-ajax', get_template_directory_uri() . '/js/comment-ajax.js', array('jquery'));\n}\nadd_action('wp_enqueue_scripts', 'enqueue_comment_scripts');

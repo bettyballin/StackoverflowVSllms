@@ -1,1 +1,0 @@
-mpstat -u | awk '{print $13}'

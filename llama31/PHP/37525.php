@@ -1,0 +1,1 @@
+<?php\n$array = array("a"=>"Caucho", "b"=>"Resin", "c"=>"Quercus");\n$json = json_encode($array);\n\n// Set the appropriate content type header\nheader('Content-Type: application/json');\n\n// Output the JSON\necho $json;\n?>

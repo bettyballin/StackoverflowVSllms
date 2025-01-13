@@ -1,0 +1,1 @@
+// Add an event listener to the form submission\ndocument.addEventListener('submit', function(event) {\n  console.log('Form submission:', event);\n  // Inspect the form data being sent\n  console.log('Form data:', new FormData(event.target));\n});

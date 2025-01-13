@@ -1,1 +1,0 @@
-# Create a new task\nschtasks /create /tn "Run PHP Script" /tr "C:\Path\To\php.exe C:\Path\To\your\script.php" /sc daily /st 08:00

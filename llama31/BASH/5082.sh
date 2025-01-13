@@ -1,1 +1,0 @@
-reg import yourfile.reg

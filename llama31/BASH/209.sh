@@ -1,1 +1,0 @@
-awk '!found && /#include/ {print "#include \"newfile.h\""; found=1} 1' file.cpp > newfile.cpp

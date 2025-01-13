@@ -1,1 +1,0 @@
-# /etc/ppp/options\nmodem /dev/ttyUSB0\n115200\nnoauth\nlocal

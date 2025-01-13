@@ -1,1 +1,0 @@
-private void button1_Click(object sender, EventArgs e)\n{\n    ColorDialog colorDialog = new ColorDialog();\n    if (colorDialog.ShowDialog() == DialogResult.OK)\n    {\n        this.BackColor = colorDialog.Color;\n    }\n}

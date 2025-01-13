@@ -1,0 +1,1 @@
+CREATE FUNCTION DateDiffBusinessDays (@StartDate DATETIME, @EndDate DATETIME)\nRETURNS TABLE\nAS\nRETURN (\n  SELECT COUNT(*) AS BusinessDays\n  FROM Calendar\n  WHERE Date BETWEEN @StartDate AND @EndDate\n  AND IsWeekday = 1 AND IsHoliday = 0\n);

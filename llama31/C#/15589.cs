@@ -1,1 +1,0 @@
-using (var transaction = connection.BeginTransaction(IsolationLevel.Serializable))\n{\n    command.CommandText = "UPDATE tag_name SET count = count+1 WHERE tagid=@tagid";\n    command.Parameters.Add("@tagid", DbType.Int64).Value = tagId;\n    command.ExecuteNonQuery();\n    transaction.Commit();\n}

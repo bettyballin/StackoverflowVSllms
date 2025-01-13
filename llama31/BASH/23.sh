@@ -1,1 +1,0 @@
-git bundle create feature1-feature2.bundle -2

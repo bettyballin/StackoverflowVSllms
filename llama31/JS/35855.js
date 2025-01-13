@@ -1,0 +1,1 @@
+const input = document.getElementById('pattern-input');\n\ninput.addEventListener('input', () => {\n  const value = input.value;\n  const pattern = /^\d{2}\/\d{2}\/\d{4}$/;\n  if (pattern.test(value)) {\n    // input is valid, do something\n  } else {\n    // input is not valid, do something else\n  }\n});

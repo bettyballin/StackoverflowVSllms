@@ -1,1 +1,0 @@
-using (var newSession = sessionFactory.OpenSession())\n{\n    var fromDB = newSession.Get<ProductCategory>(beverages.Id);\n    // perform your checks here\n}

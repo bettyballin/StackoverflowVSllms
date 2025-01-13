@@ -1,0 +1,1 @@
+$fpr = fopen($out, 'r+');\nfseek($fpr, 1); // seek to second byte\n$byte = pack('C', 0x63); // pack the byte value into a binary string\nfwrite($fpr, $byte);\nfclose($fpr);

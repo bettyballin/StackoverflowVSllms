@@ -1,1 +1,0 @@
-#include <iostream>\n#include <string>\n\nint main() {\n    int x, y;\n    std::cin >> x;\n    std::cin >> y;\n\n    // Create a string with the command to execute the separate program\n    std::string command = "add.exe " + std::to_string(x) + " " + std::to_string(y);\n\n    // Execute the separate program using system\n    system(command.c_str());\n\n    return 0;\n}

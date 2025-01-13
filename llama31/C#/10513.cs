@@ -1,1 +1,0 @@
-System.Runtime.InteropServices.Marshal.ReleaseComObject(chkBox)\nSystem.Runtime.InteropServices.Marshal.ReleaseComObject(doc)\nSystem.Runtime.InteropServices.Marshal.ReleaseComObject(app)

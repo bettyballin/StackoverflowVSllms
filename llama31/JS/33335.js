@@ -1,0 +1,1 @@
+const xpath = require('xpath');\nconst dom = require('xmldom').DOMParser;\n\nconst xml = '<root><book id="bk101"><author>John</author></book></root>';\nconst doc = new dom().parseFromString(xml);\nconst result = xpath.select('//book[@id="bk101"]/author/text()', doc);\nconsole.log(result);

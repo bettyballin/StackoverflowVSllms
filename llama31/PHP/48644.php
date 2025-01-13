@@ -1,0 +1,1 @@
+$stmt = $pdo->prepare('UPDATE photos\n                        SET photo_title = :photo_title,\n                            type_name = (SELECT type_name FROM types WHERE type_id = photos.type_id)\n                        WHERE photo_id = :photo_id');\n$stmt->bindParam(':photo_title', $_POST['photo_title']);\n$stmt->bindParam(':photo_id', 3);\n$stmt->execute();

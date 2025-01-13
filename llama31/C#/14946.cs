@@ -1,1 +1,0 @@
-using (CryptoStream cs = new CryptoStream(ms, aes.CreateEncryptor(), CryptoStreamMode.Write))\n{\n    cs.Write(rawPlaintext, 0, rawPlaintext.Length);\n    cs.Flush();\n    cs.FlushFinalBlock();\n}

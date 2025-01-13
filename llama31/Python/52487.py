@@ -1,0 +1,1 @@
+myFile = open(r'C:\NEWMASTERLIST\FULLLIST.txt', 'a')\nmyFile.seek(0)\nnum_lines = sum(1 for line in myFile)\n# Now you can append to the file\nmyFile.write('new line\n')\nmyFile.close()

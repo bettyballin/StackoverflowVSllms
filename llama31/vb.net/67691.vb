@@ -1,0 +1,1 @@
+' Check cookie expiration\nResponse.Write "Cookie Expiration: " & Response.Cookies("YourAuthCookie").Expires

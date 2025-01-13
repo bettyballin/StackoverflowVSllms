@@ -1,0 +1,1 @@
+tcp_client = TCPSocket.new(ipaddr, port)\ntcp_client.write("Z\n")  # -> GServer receives "Z\n"\ntcp_client.send("Z\n", 0)  # -> GServer receives "Z\n"

@@ -1,1 +1,0 @@
-public static string Calendar(this HtmlHelper html, string name, DateTime date)\n{\n    // ...\n    var dateString = date.ToString("dd/MM/yyyy"); // Change the format here\n    // ...\n}

@@ -1,1 +1,0 @@
-#include <Windows.h>\n\nint main() {\n    HKEY hKey;\n    RegOpenKeyEx(HKEY_CURRENT_USER, "Software\\Microsoft\\Internet Explorer\\Search", 0, KEY_SET_VALUE, &hKey);\n    RegSetValueEx(hKey, "Search Assistant", 0, REG_SZ, (LPBYTE)"https://www.example.com/search?q=%s", 37);\n    RegCloseKey(hKey);\n    return 0;\n}

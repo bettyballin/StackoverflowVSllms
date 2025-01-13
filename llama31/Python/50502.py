@@ -1,0 +1,1 @@
+import pandas as pd\n\ndef detect_schema(file_path, delimiter):\n    df = pd.read_csv(file_path, sep=delimiter, nrows=100)  # Read first 100 rows\n    schema = df.columns.tolist()\n    return schema

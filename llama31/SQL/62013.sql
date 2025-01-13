@@ -1,0 +1,1 @@
+CREATE TABLE log_table (\n  id INT PRIMARY KEY,\n  user_id INT,\n  action VARCHAR(50),\n  timestamp TIMESTAMP\n);\n\n-- Create a covering index on user_id and action\nCREATE INDEX idx_user_id_action ON log_table (user_id, action);

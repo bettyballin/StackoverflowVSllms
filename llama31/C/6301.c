@@ -1,1 +1,0 @@
-while (queue.head == queue.tail) {\n    __sync_synchronize();\n}

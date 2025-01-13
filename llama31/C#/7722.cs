@@ -1,1 +1,0 @@
-public class MyClass\n{\n    private static int _sharedVariable;\n    private int _instanceVariable;\n\n    public static void StaticMethod()\n    {\n        _sharedVariable = 10; // shared across all instances\n    }\n\n    public void InstanceMethod()\n    {\n        _instanceVariable = 20; // specific to this instance\n    }\n}

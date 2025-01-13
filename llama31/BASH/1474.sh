@@ -1,1 +1,0 @@
-python change-svn-wc-format.py <path/to/working/directory>

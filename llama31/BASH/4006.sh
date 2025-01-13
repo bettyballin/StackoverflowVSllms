@@ -1,1 +1,0 @@
-wkhtmltopdf --page-size=A4 --margin-top 0 --margin-bottom 0 input.html output.pdf

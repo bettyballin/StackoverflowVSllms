@@ -1,0 +1,1 @@
+$str = '|apples}';\n\necho startsWith($str, '|') ? 'true' : 'false'; // Returns true\necho endsWith($str, '}') ? 'true' : 'false'; // Returns true

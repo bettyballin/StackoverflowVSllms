@@ -1,1 +1,0 @@
-mysqldump -u root -p dbname --compatible=mysql50  > mrdb.sql

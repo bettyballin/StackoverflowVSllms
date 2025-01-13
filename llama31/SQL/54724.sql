@@ -1,0 +1,1 @@
+CREATE TABLE Cars (\n  CarId INT NOT NULL,\n  CarVer INT NOT NULL,\n  ValidFrom DATETIME NOT NULL,\n  ValidTo DATETIME,\n  Colour VARCHAR(50) NOT NULL,\n  PRIMARY KEY (CarId, CarVer)\n);\n\nCREATE TABLE Wheels (\n  WheelId INT NOT NULL,\n  WheelVer INT NOT NULL,\n  ValidFrom DATETIME NOT NULL,\n  ValidTo DATETIME,\n  CarId INT NOT NULL,\n  PRIMARY KEY (WheelId, WheelVer)\n);

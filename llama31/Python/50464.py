@@ -1,0 +1,1 @@
+conn = dbao.getConnection()\nwith conn:\n    # Do stuff

@@ -1,1 +1,0 @@
-protected void gvResults_SelectedIndexChanged(object sender, EventArgs e)\n{\n    int rowIndex = gvResults.SelectedIndex;\n    string cstno = gvResults.Rows[rowIndex].Cells[0].Text;\n    string ordno = gvResults.Rows[rowIndex].Cells[1].Text;\n\n    string url = string.Format("GenerateReport.aspx?cstno={0}&ordno={1}", cstno, ordno);\n    Response.Redirect(url);\n}

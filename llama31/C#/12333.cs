@@ -1,1 +1,0 @@
-// Form 1\nstring token = GenerateSecureToken();\nStoreDataInSession(token, userData);\n\n// Form 2\nstring token = Request.QueryString["token"];\nUserData userData = RetrieveDataFromSession(token);

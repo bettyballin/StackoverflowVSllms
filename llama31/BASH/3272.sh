@@ -1,1 +1,0 @@
-awk 'END {print NR}' your_large_file.xml

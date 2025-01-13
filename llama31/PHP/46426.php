@@ -1,0 +1,1 @@
+<?php\n	$array = new SplFixedArray(1000); // create a fixed-size array\n	$array[0] = 'value1';\n	$array[1] = 'value2';\n?>

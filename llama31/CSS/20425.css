@@ -1,1 +1,0 @@
-span.image-replacement {\n  display: inline-block;\n}\n\nspan.image-replacement:before {\n  content: "";\n  background-image: url(your-image.png);\n  width: 20px; /* adjust to your image size */\n  height: 20px; /* adjust to your image size */\n}

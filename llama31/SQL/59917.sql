@@ -1,0 +1,1 @@
+DECLARE\n  TYPE cur_typ IS REF CURSOR;\n  v_cursor cur_typ;\n  v_collection your_table%ROWTYPE;\n  v_count NUMBER;\nBEGIN\n  OPEN v_cursor FOR SELECT * FROM your_table;\n  FETCH v_cursor BULK COLLECT INTO v_collection;\n  v_count := v_collection.COUNT;\n  DBMS_OUTPUT.PUT_LINE('Record Count: ' || v_count);\n  CLOSE v_cursor;\nEND;

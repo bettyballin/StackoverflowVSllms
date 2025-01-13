@@ -1,0 +1,1 @@
+$result = mysql_query("SELECT Product_NO, USERNAME, ACCESSSTARTS, Product_NAME, date_format(mycolumn, '%d %m %Y') as shortDate FROM {$table} WHERE upper(Product_NAME) LIKE '%" . $searchString . "%'" . $max);

@@ -1,1 +1,0 @@
-public static string validateisMoreThanOneWord(string input, int numberWords)\n{\n    if (string.IsNullOrWhiteSpace(input)) return string.Empty;\n    string[] words = input.Split(new[] { ' ' }, StringSplitOptions.RemoveEmptyEntries);\n    return words.Length >= numberWords ? input : string.Empty;\n}

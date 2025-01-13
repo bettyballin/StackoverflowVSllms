@@ -1,0 +1,1 @@
+INSERT INTO UserGuidMapping (Guid, Initials)\nSELECT objectguid, initials\nFROM ActiveDirectoryView;

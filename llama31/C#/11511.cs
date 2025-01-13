@@ -1,1 +1,0 @@
-using Mono.Cecil;\n\n// Load the assembly\nAssemblyDefinition assembly = AssemblyDefinition.ReadAssembly("path/to/your/assembly.dll");\n\n// Get the module\nModuleDefinition module = assembly.MainModule;\n\n// Set the 32BIT flag\nmodule.Architecture = TargetArchitecture.I386;\n\n// Save the assembly\nassembly.Write("path/to/your/modified/assembly.dll");

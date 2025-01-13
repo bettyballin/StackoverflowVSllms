@@ -1,0 +1,1 @@
+Dim propID As String = Request.QueryString("propID")\nDim isValid As Boolean = Integer.TryParse(propID, Nothing)\n\nIf isValid Then\n    ' Proceed with the valid integer value\n    Dim propIDValue As Integer = CInt(propID)\n    ' ...\nElse\n    ' Handle invalid input (e.g., display an error message)\nEnd If

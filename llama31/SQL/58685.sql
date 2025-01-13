@@ -1,0 +1,1 @@
+DELETE t\nFROM team t\nJOIN schedule s ON t.schedule_id = s.schedule_id\nJOIN event e ON s.event_id = e.event_id\nWHERE e.event_id = 183\nAND NOT EXISTS (\n  SELECT 1\n  FROM signup\n  WHERE team_id = t.team_id\n);

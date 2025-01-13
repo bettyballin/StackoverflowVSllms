@@ -1,0 +1,1 @@
+SELECT u.*\nFROM User u\nWHERE EXISTS (\n  SELECT 1 FROM Key k WHERE k.userid = u.userid\n) OR EXISTS (\n  SELECT 1 FROM Laptop l WHERE l.userid = u.userid\n) OR EXISTS (\n  SELECT 1 FROM TableE e WHERE e.userid = u.userid\n) OR EXISTS (\n  SELECT 1 FROM TableF f WHERE f.userid = u.userid\n);

@@ -1,1 +1,0 @@
-#include <iostream>\n\nint main() {\n    bool x = true;\n    bool y = false;\n    if (x and y) {\n        std::cout << "Both x and y are true\n";\n    }\n    if (x or y) {\n        std::cout << "Either x or y is true\n";\n    }\n    return 0;\n}

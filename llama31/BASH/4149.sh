@@ -1,1 +1,0 @@
-gcc -shared -o libtime_intercept.so time_intercept.c

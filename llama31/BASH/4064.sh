@@ -1,1 +1,0 @@
-gcc -isystem /home/me/development/skia your_file.c -o your_file

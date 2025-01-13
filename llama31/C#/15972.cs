@@ -1,1 +1,0 @@
-string filter = "(objectClass=user)";

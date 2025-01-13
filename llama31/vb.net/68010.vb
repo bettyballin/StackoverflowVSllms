@@ -1,0 +1,1 @@
+Private Sub IncidentGrid_SelectionChanged(ByVal sender As System.Object, ByVal e As System.EventArgs)\n    If TypeOf IncidentGrid.SelectedItem IsNot SimpleASMX.EMailMonitor Then\n        ' A header was clicked, do nothing\n        Return\n    End If\n\n    ' Your existing code here\nEnd Sub

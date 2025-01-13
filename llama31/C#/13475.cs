@@ -1,1 +1,0 @@
-void SetFocusControl(dynamic ctl)\n{\n    ctl.Focus();\n}

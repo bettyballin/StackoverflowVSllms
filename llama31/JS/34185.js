@@ -1,0 +1,1 @@
+var user = app.response({cQuestion: "Please enter your username", cTitle: "Username"});\nconsole.println("Username: " + user);

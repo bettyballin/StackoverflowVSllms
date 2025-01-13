@@ -1,1 +1,0 @@
-div.menu {\n  width: 550px;\n  display: flex;\n  flex-wrap: wrap;\n}\n\ndiv.menu div {\n  width: 200px;\n}\n\ndiv.menu div.right {\n  order: 1;\n}

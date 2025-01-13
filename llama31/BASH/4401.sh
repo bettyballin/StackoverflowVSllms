@@ -1,1 +1,0 @@
-tnsping -c 10 DB_CONNECTION

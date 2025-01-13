@@ -1,1 +1,0 @@
-protected void Application_End(object sender, EventArgs e)\n{\n    // Dispose of objects here\n}

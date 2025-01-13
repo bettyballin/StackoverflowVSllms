@@ -1,0 +1,1 @@
+CREATE FULLTEXT CATALOG ftCatalog AS DEFAULT;\nCREATE FULLTEXT INDEX ON YourTable (KeywordSearch)\n    KEY INDEX YourTablePrimaryKey;

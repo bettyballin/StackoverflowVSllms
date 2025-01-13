@@ -1,1 +1,0 @@
-dotnet build -c Release -p:DebugSymbols=false -p:DebugType=none

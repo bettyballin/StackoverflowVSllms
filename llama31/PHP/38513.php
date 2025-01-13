@@ -1,0 +1,1 @@
+// In your model\nfunction get_data($order_by) {\n    $this->db->order_by($order_by);\n    $query = $this->db->get('table_name');\n    return $query->result();\n}\n\n// In your controller\n$order_by = 'column_name';\n$data = $this->model_name->get_data($order_by);

@@ -1,1 +1,0 @@
-string clientIpAddress = HttpContext.Current.Request.UserHostAddress;

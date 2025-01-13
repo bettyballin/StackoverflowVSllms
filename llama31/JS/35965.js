@@ -1,0 +1,1 @@
+$theDialog.on("dialogclose", function(event) {\n    $($.jqId("requestQueuesText"), $theForm).autocomplete("close");\n});

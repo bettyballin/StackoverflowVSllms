@@ -1,0 +1,1 @@
+<?php\n// Configuration\n$redisHost = 'your-redis-host';\n$redisPort = 6379;\n\n// Create a Redis client\n$redis = new Redis();\n$redis->connect($redisHost, $redisPort);\n\n// Set Redis as the session store\nini_set('session.save_handler', 'redis');\nini_set('session.save_path', 'tcp://' . $redisHost . ':' . $redisPort);\n\n// Start the session\nsession_start();

@@ -1,1 +1,0 @@
-./configure -static -prefix /path/to/qt/installation\nmake\nmake install

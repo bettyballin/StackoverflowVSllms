@@ -1,0 +1,1 @@
+$CategoryRoute = new Zend_Controller_Router_Route(\n    'category/:category?/:controller/:action/*'\n);

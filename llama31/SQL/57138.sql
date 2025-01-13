@@ -1,0 +1,1 @@
+SELECT \n  s.sid, \n  s.serial#, \n  s.username, \n  s.status, \n  p.spid, \n  s.machine, \n  s.program\nFROM \n  v$session s, \n  v$process p\nWHERE \n  s.paddr = p.addr\n  AND s.status = 'ACTIVE';

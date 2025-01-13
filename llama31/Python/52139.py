@@ -1,0 +1,1 @@
+def r(a):\n    i = a.find('0')\n    if ~i:\n        return\n    exit(a)\n\n    possible_values = [\n        (i-j)%9*(i/9^j/9)*(i/27^j/27|i%9/3^j%9/3) or a[j]\n        for j in range(81)\n    ]\n\n    for m in '%d'%5**18:\n        r(a[:i] + m + a[i+1:])\n\nfrom sys import argv\nr(argv[1])

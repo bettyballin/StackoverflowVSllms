@@ -1,0 +1,1 @@
+Public Sub AddControl(Of T As Control)(ByVal control As T)\n    _wizardDialog.UIRoot.Controls.Add(control)\nEnd Sub

@@ -1,1 +1,0 @@
-for file in *.txt; do\n  sed -i '5,15!d' "$file"\n  sed -n '6,15p' template.txt >> "$file"\ndone

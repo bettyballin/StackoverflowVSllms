@@ -1,0 +1,1 @@
+BEGIN TRANSACTION outer_tran\n    SAVE TRANSACTION savepoint\n    BEGIN TRANSACTION inner_tran\n        INSERT INTO table1 (column1) VALUES ('value1')\n    COMMIT TRANSACTION inner_tran\n    -- If needed, roll back to the savepoint\n    ROLLBACK TRANSACTION savepoint\nCOMMIT TRANSACTION outer_tra

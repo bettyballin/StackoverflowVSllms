@@ -1,0 +1,1 @@
+myXHReq.xmlHttpReq.open("GET", "someUrl", true);

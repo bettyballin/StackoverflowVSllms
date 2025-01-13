@@ -1,1 +1,0 @@
-#include <Windows.h>\n\nint main(int argc, char* argv[]) {\n    // Hide console window\n    ShowWindow(GetConsoleWindow(), SW_HIDE);\n\n    // Your SDL code here\n    // ...\n}

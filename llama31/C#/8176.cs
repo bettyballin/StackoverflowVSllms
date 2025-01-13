@@ -1,1 +1,0 @@
-public List<SomeEntity> GetSomeEntities() {\n    return db.SomeEntities\n        .Where(entity => isDate(entity.Field1))\n        .Select(entity => entity)\n        .ToList();\n}

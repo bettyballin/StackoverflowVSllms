@@ -1,1 +1,0 @@
-Uri uri = new Uri("https://www.parurval.se/urval/");\nuri = uri.AddQuery("username", parSettings.GetSettings(parSettings.SettingsType.PARSelection, parSettings.SectionType.Username));\nuri = uri.AddQuery("password", parSettings.GetSettings(parSettings.SettingsType.PARSelection, parSettings.SectionType.Password));\n\niFrame.Attributes.Add("src", uri.ToString());

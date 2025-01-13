@@ -1,1 +1,0 @@
-using (var dc = new MyDataContext()) {\n    dc.ExecuteCommand("UPDATE MyTable SET MyColumn = @value WHERE MyPredicate", myValue);\n}

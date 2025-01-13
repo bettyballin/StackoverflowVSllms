@@ -1,0 +1,1 @@
+$formValues = $_POST;\n\n// Access the first POST value (e.g., the text input)\n$value = $formValues[0];

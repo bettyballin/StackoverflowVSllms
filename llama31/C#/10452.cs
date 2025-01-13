@@ -1,1 +1,0 @@
-List<string> fields = values.OfType<string>().ToList();

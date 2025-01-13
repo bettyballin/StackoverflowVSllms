@@ -1,1 +1,0 @@
-// Inefficient\nfor (int i = 0; i < collection.size(); i++) {\n    // ...\n}\n\n// Efficient\nint size = collection.size();\nfor (int i = 0; i < size; i++) {\n    // ...\n}

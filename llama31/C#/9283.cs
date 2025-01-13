@@ -1,1 +1,0 @@
-var contacts = from c in db.Contacts\n               select new { Contact = c, Addresses = c.ContactAddresses };

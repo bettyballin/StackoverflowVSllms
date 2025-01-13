@@ -1,1 +1,0 @@
-let command = new SqlCommand("sp_getSomeValue", myConnection)

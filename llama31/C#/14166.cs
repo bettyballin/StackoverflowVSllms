@@ -1,1 +1,0 @@
-var results = db.dateTable\n    .Where(d => d.category == "someCat")\n    .SelectMany(d => db.tvFunction(d.dt, "anotherParam"), (d, tvf) => new { d.dateCol, tvf.descr, tvf.value });

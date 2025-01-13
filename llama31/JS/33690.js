@@ -1,0 +1,1 @@
+document.getElementById('image').addEventListener('mouseover', function() {\n  document.getElementById('popup').style.display = 'block';\n});\n\ndocument.getElementById('image').addEventListener('mouseout', function() {\n  document.getElementById('popup').style.display = 'none';\n});

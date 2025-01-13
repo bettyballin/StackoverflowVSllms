@@ -1,1 +1,0 @@
-#include <pthread.h>\n\nvoid* operator new(size_t size) {\n    return malloc(size);\n}\n\nvoid operator delete(void* ptr) {\n    free(ptr);\n}

@@ -1,1 +1,0 @@
-#!/bin/ksh\n\nfor ((i=0; i<7; i++)); do\n  PROCESS_DATE=$(date -d "-$i days" +%Y-%m-%d)\n  LATEST_FILE=$(find . -type f -newermt "$PROCESS_DATE 00:00:00" -not -newermt "$PROCESS_DATE 23:59:59" -print | xargs ls -rt | tail -n 1)\n  if [ -n "$LATEST_FILE" ]; then\n    echo "Latest file for $PROCESS_DATE is: $LATEST_FILE"\n  fi\ndone

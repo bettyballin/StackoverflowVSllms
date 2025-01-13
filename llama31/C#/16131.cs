@@ -1,1 +1,0 @@
-protected void grdObitList_DataBound(object sender, EventArgs e)\n{\n    int currentPage = grdObitList.PageIndex + 1;\n    HyperLinkField linkField = (HyperLinkField)grdObitList.Columns[0];\n    linkField.DataNavigateUrlFormatString = "obitDisplay.aspx?oid={0}&page=" + currentPage;\n}

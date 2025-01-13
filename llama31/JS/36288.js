@@ -1,0 +1,1 @@
+const date = new Date('2009-07-06T15:54:12.000+02:00');\nconst formattedDate = new Intl.DateTimeFormat().format(date);\nconsole.log(formattedDate); // Output: "7/6/2009, 5:54:12 PM"

@@ -1,0 +1,1 @@
+public function parseText($newData) {\n    ...\n    $callback = fn ($matches) => {\n        // you can use $newData here\n    };\n    ...\n    preg_replace_callback('...', $callback, $textToReplace);\n}

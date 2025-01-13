@@ -1,0 +1,1 @@
+Imports System.Transactions\n\n<TransactionScope(TransactionScopeOption.Required)> _\nPublic Sub InsertOrder(order As Order)\n    ' insert order header SQL\n    ' insert order items SQL (LOOP)\nEnd Sub

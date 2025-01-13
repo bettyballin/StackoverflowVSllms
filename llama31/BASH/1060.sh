@@ -1,1 +1,0 @@
-javac -XDignore.symbol.file YourJavaFile.java

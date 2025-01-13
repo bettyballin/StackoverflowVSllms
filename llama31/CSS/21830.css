@@ -1,1 +1,0 @@
-html, body {\n    margin: 0;\n    padding: 0;\n    width: 100%;\n    height: 100%;\n}\n\n#wrap {\n    position: absolute;\n    top: 50%;\n    left: 50%;\n    transform: translate(-50%, -50%);\n    width: 960px;\n    padding: 6px;\n    background: #FFFFFF;\n}

@@ -1,0 +1,1 @@
+setcookie(\n    'cookie_name', \n    'cookie_value', \n    [\n        'expires' => time() + 3600,\n        'path' => '/',\n        'domain' => 'example.com',\n        'secure' => true,\n        'httponly' => true,\n        'samesite' => 'Strict'\n    ]\n);

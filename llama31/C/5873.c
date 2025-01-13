@@ -1,1 +1,0 @@
-#include "svdpi.h"\n\nvoid read_register(int addr, int *data) {\n    svdpi_read_register(addr, data);\n}\n\nvoid write_register(int addr, int data) {\n    svdpi_write_register(addr, data);\n}

@@ -1,0 +1,1 @@
+Protected Sub GridView1_RowCommand(sender As Object, e As GridViewCommandEventArgs)\n    Dim rowIndex As Integer = Convert.ToInt32(e.CommandArgument)\n    ' Use rowIndex as needed\nEnd Sub

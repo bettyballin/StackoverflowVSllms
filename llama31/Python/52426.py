@@ -1,0 +1,1 @@
+ascii_values = [72, 101, 108, 108, 111]\n\nstring = ''.join(chr(i) for i in ascii_values)\n\nprint(string)

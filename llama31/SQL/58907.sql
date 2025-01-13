@@ -1,0 +1,1 @@
+SELECT \n  A, \n  Concat(B, ',') AS B_values\nFROM \n  TBL\nGROUP BY \n  A;

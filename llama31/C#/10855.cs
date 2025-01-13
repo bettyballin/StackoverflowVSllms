@@ -1,1 +1,0 @@
-// Form_Load :\nThread t = new Thread(displaySentences);\nt.Start();\n\n// display sentences:\nvoid displaySentences()\n{\n    while (true)\n    {\n        if (i >= 5)\n            i = 0;\n\n        this.Invoke((MethodInvoker)delegate\n        {\n            label4.Text = textarray[i];\n        });\n        i++;\n    }\n}

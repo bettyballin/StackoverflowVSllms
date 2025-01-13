@@ -1,1 +1,0 @@
-public class VirtualDirectoryTraceListener : TextWriterTraceListener\n{\n    public VirtualDirectoryTraceListener(string logFilePath) : base(logFilePath) { }\n}

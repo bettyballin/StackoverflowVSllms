@@ -1,1 +1,0 @@
-this.Response.AddHeader("Content-Disposition", "attachment; filename=yourfilename.pdf");

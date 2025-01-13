@@ -1,0 +1,1 @@
+CREATE TABLE user_streaks (\n  id INT PRIMARY KEY,\n  user_id INT,\n  streak INT,\n  last_visit DATE,\n  FOREIGN KEY (user_id) REFERENCES users (id)\n);

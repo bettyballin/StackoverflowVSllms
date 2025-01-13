@@ -1,0 +1,1 @@
+from django import template\nfrom django.template.loader import get_template\nfrom htmlmin import minify\n\ntemplate = get_template('template.html')\nhtml = template.render()\nminified_html = minify(html, remove_empty_space=True)

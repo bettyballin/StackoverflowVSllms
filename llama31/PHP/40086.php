@@ -1,0 +1,1 @@
+$result = mysql_query($query);\nwhile ($row = mysql_fetch_assoc($result)) {\n    echo $row['date_added'] . ': user posted a ' . $row['type'] . "\n";\n}

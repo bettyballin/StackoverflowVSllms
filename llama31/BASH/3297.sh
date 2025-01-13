@@ -1,1 +1,0 @@
-# .git/hooks/pre-push\n#!/bin/sh\n./run-tests.sh\nif [ $? -ne 0 ]; then\n  echo "Tests failed, push cancelled."\n  exit 1\nfi

@@ -1,0 +1,1 @@
+CREATE TABLE Employee (\n  EmployeeID NUMBER PRIMARY KEY,\n  Name VARCHAR2(50),\n  Address VARCHAR2(100)\n);\n\nCREATE TABLE Manager (\n  EmployeeID NUMBER PRIMARY KEY,\n  FOREIGN KEY (EmployeeID) REFERENCES Employee(EmployeeID),\n  Department VARCHAR2(50)\n);

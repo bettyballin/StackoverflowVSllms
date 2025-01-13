@@ -1,1 +1,0 @@
-public class SuperClass\n{\n    protected void DoSomethingInternal()\n    {\n        // implementation\n    }\n}\n\npublic class SubClass : SuperClass\n{\n    public void DoSomething()\n    {\n        DoSomethingInternal();\n    }\n}

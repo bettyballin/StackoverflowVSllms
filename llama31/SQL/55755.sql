@@ -1,0 +1,1 @@
+UPDATE t1\nSET column_name = 'new_value'\nFROM table_name t1\nLEFT JOIN table_name t2\n  ON t1.constraint_column = t2.constraint_column\n  AND t2.column_name = 'new_value'\nWHERE t1.column_name = 'old_value'\nAND t2.id IS NULL

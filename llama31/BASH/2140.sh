@@ -1,1 +1,0 @@
-cmdkey /add:<your_tfs_server_url> /user:<your_username> /pass:<your_password>

@@ -1,0 +1,1 @@
+SELECT q.Id, q.Text, a.Id AS AnswerId, a.Text AS AnswerText\nFROM Questions q\nLEFT JOIN Answers a ON q.Id = a.QuestionId\nWHERE q.Id IN (SELECT Id FROM Questions WHERE /* your selection criteria */);

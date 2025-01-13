@@ -1,0 +1,1 @@
+SESSION_ENGINE = 'django.contrib.sessions.backends.cache'\nCACHES = {\n    'default': {\n        'BACKEND': 'django_redis.cache.RedisCache',\n        'LOCATION': 'redis://localhost:6379/1',\n    }\n}

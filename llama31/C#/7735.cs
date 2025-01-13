@@ -1,1 +1,0 @@
-if (Enum.TryParse(comboBox1.SelectedItem.ToString(), out Keys key))\n{\n    // use the key value\n}\nelse\n{\n    // handle invalid input\n}

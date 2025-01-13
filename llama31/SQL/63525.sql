@@ -1,0 +1,1 @@
+SELECT DISTINCT \n  old.STYLE_NBR, old.COLOR_NBR \nFROM \n  LEGACY_PRODUCT_TABLE old\nWHERE \n  (old.STYLE_NBR, old.COLOR_NBR) NOT IN (\n    SELECT style_number, colour_number\n    FROM MARKETING_PRODUCT_TABLE\n  );

@@ -1,1 +1,0 @@
-public class MyViewModel : INotifyPropertyChanged\n{\n    private double _rightColumnWidth;\n\n    public double RightColumnWidth\n    {\n        get { return _rightColumnWidth; }\n        set { _rightColumnWidth = value; OnPropertyChanged(); }\n    }\n\n    // load and save logic here\n}

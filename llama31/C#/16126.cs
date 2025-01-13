@@ -1,1 +1,0 @@
-var query = session.QueryOver<Customer>()\n    .Skip(10) // start from the 11th record\n    .Take(20); // retrieve 20 records\n\nIList<Customer> customers = query.List();

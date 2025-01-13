@@ -1,0 +1,1 @@
+module SslRequirement\n  module ControllerExtensions\n    def ssl_required?\n      return false if Rails.env.development? || Rails.env.test?\n      super\n    end\n  end\nend

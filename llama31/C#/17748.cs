@@ -1,1 +1,0 @@
-for (int i = 0; i < 10; i++)\n{\n    int localI = i;\n    Task.Run(() => Console.WriteLine(localI));\n}

@@ -1,1 +1,0 @@
-amespace myNamespace {\n    void myFunction(int x);\n    void anotherFunction();\n}\n\n// Definition of myFunction\nvoid myNamespace::myFunction(int x) {\n    // Function body\n}\n\n// Definition of anotherFunction\nvoid myNamespace::anotherFunction() {\n    myFunction(5);\n}

@@ -1,0 +1,1 @@
+var bar = { baz: "qqqq" };\n\n// Assign a function to the bar variable\nbar = function() { return 1; };\n\n// Set the prototype of the function to the original object\nObject.setPrototypeOf(bar, { baz: "qqqq" });\n\nconsole.log(bar.baz); // "qqqq"\nconsole.log(bar()); // 1

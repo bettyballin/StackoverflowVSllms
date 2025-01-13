@@ -1,0 +1,1 @@
+Sub ExportSchema()\n    DoCmd.TransferDatabase acExport, "Microsoft Access", CurrentDb.Name, acTable, , "C:\schema.sql"\nEnd Sub

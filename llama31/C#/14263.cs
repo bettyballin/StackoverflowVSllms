@@ -1,1 +1,0 @@
-string plainText = Regex.Replace(MyRichTextBox.Rtf, @"\\[a-zA-Z]+[0-9]*\s?", "");\nFile.WriteAllText(filepath, plainText);

@@ -1,0 +1,1 @@
+$(document).ready(function() {\n  $('#addInput').click(function() {\n    var newInput = '<input type="text" name="input[]" />';\n    $('#inputContainer').append(newInput);\n  });\n});

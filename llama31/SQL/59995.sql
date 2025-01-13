@@ -1,0 +1,1 @@
+CREATE TABLE mytable (\n    id INT PRIMARY KEY,\n    name VARCHAR(50)\n);\n\n-- Check the indexes on the table\nSELECT * FROM sys.indexes\nWHERE object_id = OBJECT_ID('mytable');

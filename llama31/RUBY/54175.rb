@@ -1,0 +1,1 @@
+# Gemfile\ngem 'pg'\n\n# database.yml\ndevelopment:\n  adapter: postgresql\n  encoding: unicode\n  host: localhost\n  database: myapp_development\n  username: myapp\n  password: myapp_password

@@ -1,1 +1,0 @@
-using PdfSharp.Pdf;\nusing PdfSharp.Ocr;\n\n// Load the PDF document\nPdfDocument pdfDocument = PdfDocument.Open("path/to/pdf.pdf");\n\n// Perform OCR on the PDF\nPdfOcr ocr = new PdfOcr();\nstring extractedText = ocr.GetText(pdfDocument);

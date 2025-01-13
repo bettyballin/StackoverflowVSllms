@@ -1,1 +1,0 @@
-[BotFilter]\npublic ActionResult SendEmail(EmailModel model)\n{\n    // Process email form submission\n}

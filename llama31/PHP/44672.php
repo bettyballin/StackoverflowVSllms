@@ -1,0 +1,1 @@
+$geocodeUrl = "https://maps.googleapis.com/maps/api/geocode/json?address={postcode/town name}&key={YOUR_API_KEY}";\n$response = json_decode(file_get_contents($geocodeUrl), true);\n$lat = $response["results"][0]["geometry"]["location"]["lat"];\n$lng = $response["results"][0]["geometry"]["location"]["lng"];

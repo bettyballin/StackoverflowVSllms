@@ -1,1 +1,0 @@
-protected void Page_Load(object sender, EventArgs e)\n{\n    List<int> preferredColumnIds = GetColumnPreferences();\n\n    var visibleColumns = AvailableColumns\n        .Where(c => preferredColumnIds.Contains(c.Id))\n        .ToList();\n\n    GridView1.DataSource = visibleColumns;\n    GridView1.DataBind();\n}

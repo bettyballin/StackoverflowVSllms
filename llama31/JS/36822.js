@@ -1,0 +1,1 @@
+if (onew.addEventListener) {\n  onew.addEventListener('click', function() {\n    fnDisplay_Computers("'" + alines[i] + "'");\n  });\n} else {\n  onew.attachEvent('onclick', function() {\n    fnDisplay_Computers("'" + alines[i] + "'");\n  });\n}

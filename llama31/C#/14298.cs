@@ -1,1 +1,0 @@
-// Embed the Skype4COM.dll into your class library\nusing System.IO;\nusing System.Reflection;\n\n[assembly: EmbeddedResource("Skype4COM.dll", "Skype4COM", "dll")]\n\npublic class MyLibrary\n{\n    // ...\n}

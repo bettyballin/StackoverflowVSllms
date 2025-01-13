@@ -1,0 +1,1 @@
+Array\n(\n    [Color] => blue\n)

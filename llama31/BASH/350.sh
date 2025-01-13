@@ -1,1 +1,0 @@
-find . -type f -name "*.php" -exec wc -l {} \; | awk '{total += $1} END {print total}'

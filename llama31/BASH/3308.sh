@@ -1,1 +1,0 @@
-sc config wer start= disabled

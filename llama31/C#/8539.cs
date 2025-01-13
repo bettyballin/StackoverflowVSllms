@@ -1,1 +1,0 @@
-var doc = new HtmlDocument();\ndoc.LoadHtml(htmlString, Encoding.GetEncoding("iso-8859-1")); // Load with Latin1 encoding\n\nvar nodes = doc.DocumentNode.SelectNodes(@"//h2[text()='F\u00f6retag']/../div//span[text()='Resultat:']/../div");

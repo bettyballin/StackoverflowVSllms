@@ -1,1 +1,0 @@
-// Create an instance of your control\nMyControl row = (MyControl)LoadControl("~/controls/MyControl.ascx");\n\n// Create a TableRow\nTableRow tableRow = new TableRow();\n\n// Add your control to the TableRow\ntableRow.Cells.Add(new TableCell());\ntableRow.Cells[0].Controls.Add(row);\n\n// Add the TableRow to the table\nMyTable.Rows.Add(tableRow);

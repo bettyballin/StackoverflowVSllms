@@ -1,1 +1,0 @@
-[TestMethod]\npublic void SecureSocketLayerSetToTrue()\n{\n    var ldapConnection = new LdapConnection(\n        new LdapDirectoryIdentifier("ldap.test.com", 636));\n    ldapConnection.SessionOptions.SecureSocketLayer = true;\n    ldapConnection.Bind(); // Add this line\n    Assert.IsTrue(ldapConnection.SessionOptions.SecureSocketLayer);\n}

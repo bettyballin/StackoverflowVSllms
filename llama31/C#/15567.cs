@@ -1,1 +1,0 @@
-this.Adapter.Fill(dataTable);\ndataTable.Dispose();

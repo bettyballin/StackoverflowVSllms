@@ -1,0 +1,1 @@
+$.ajax({\n    // your options here...\n    beforeSend: function(xhr) {\n        xhr.setRequestHeader('X-Requested-With', 'XMLHttpRequest');\n    }\n});

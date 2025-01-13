@@ -1,0 +1,1 @@
+UPDATE YourTableName\nSET YourColumnName = REPLACE(YourColumnName COLLATE Latin1_General_CS_AS, 'oldvalue', 'newvalue');

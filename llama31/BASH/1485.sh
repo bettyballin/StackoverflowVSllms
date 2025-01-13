@@ -1,1 +1,0 @@
-find /path/to/search -type f -perm 777 -print

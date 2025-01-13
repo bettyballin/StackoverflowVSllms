@@ -1,0 +1,1 @@
+$$('.delete-row').addEventListener('click', function() {\n    var row = this.parentNode.parentNode;\n    row.remove();\n});

@@ -1,1 +1,0 @@
-input[type="checkbox"]:disabled {\n  opacity: 1; /* override default opacity */\n  filter: grayscale(100%); /* convert to grayscale */\n  pointer-events: none; /* disable mouse events */\n}\n\ninput[type="checkbox"]:disabled + label {\n  color: #ccc; /* change label color */\n}

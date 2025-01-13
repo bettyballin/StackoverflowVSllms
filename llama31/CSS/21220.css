@@ -1,1 +1,0 @@
-input.custom {\n  background: url(/images/input-bkg-w173.gif) no-repeat;\n  background-color: #fff;\n  width: 173px;\n  height: 28px;\n  padding: 8px 5px 4px 5px;\n  border: none;\n  font-size: 10px;\n  overflow: hidden; /* add this to fix IE issue */\n}

@@ -1,0 +1,1 @@
+$container = new Aura\Di\Container();\n$container->set('service', function () {\n    return new Service();\n});

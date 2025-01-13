@@ -1,0 +1,1 @@
+# db/seeds.rb\n\nrequire 'yaml'\n\nconstant_values = YAML.load_file('config/constant_values.yml')\n\nConstantValue.delete_all\n\nconstant_values.each do |value|\n  ConstantValue.create(name: value['name'], value: value['value'])\nend

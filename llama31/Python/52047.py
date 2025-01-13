@@ -1,0 +1,1 @@
+import pyparsing as pp\n\n# Define the grammar for the DSL\ngrammar = pp.Forward()\ngrammar << pp.OneOrMore(pp.Word(pp.alphas) + pp_COLON + pp.Word(pp.alphas))\n\n# Define a parser for the DSL\nparser = grammar.parseString\n\n# Test the parser with a sample input\ninput_str = "behavior: foo"\nresult = parser(input_str)\nprint(result)

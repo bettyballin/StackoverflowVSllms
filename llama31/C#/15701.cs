@@ -1,1 +1,0 @@
-image.ImageUrl = "~/ImageHandler.ashx?timestamp=" + DateTime.Now.Ticks.ToString();

@@ -1,0 +1,1 @@
+def gs(a, b):\n    def ry():\n        nonlocal result\n        if a == b:\n            result = a\n    result = None\n    ry()\n    a += 1\n    ry()\n    b *= 2\n    ry()\n    return result

@@ -1,1 +1,0 @@
-protected override void OnStart(string[] args)\n{\n    // Your startup code here...\n    \n    // If something goes wrong\n    if (/*some condition*/)\n    {\n        throw new Exception("Service cannot start.");\n    }\n}

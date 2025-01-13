@@ -1,0 +1,1 @@
+// Set the correct path and domain\n$path = '/';\n$domain = $_SERVER['SERVER_NAME'];\n\n// Expire the cookies\nsetcookie('reitinvestor_user', '', time() - 3600, $path, $domain);\nsetcookie('reitinvestor_pass', '', time() - 3600, $path, $domain);\n\n// Print the updated cookies\necho '<pre>'; print_r($_COOKIE); echo '</pre>';\nexit;

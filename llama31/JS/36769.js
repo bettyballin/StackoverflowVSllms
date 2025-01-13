@@ -1,0 +1,1 @@
+fetch(`/emails/${emailId}/read`, { method: 'POST' })\n  .then(response => response.json())\n  .then(data => console.log(data));

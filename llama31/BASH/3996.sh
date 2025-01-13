@@ -1,1 +1,0 @@
-# Enable SSL module\nsudo a2enmod ssl\n\n# Generate SSL certificate and key\nsudo openssl req -x509 -newkey rsa:2048 -nodes -keyout /etc/apache2/ssl.key -out /etc/apache2/ssl.crt -days 365

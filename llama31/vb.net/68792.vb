@@ -1,0 +1,1 @@
+Dim username As String = WindowsIdentityHelper.GetCurrentWindowsUser()

@@ -1,1 +1,0 @@
-using iTextSharp.text;\nusing iTextSharp.text.pdf;\n\n// Create a new PDF document\nDocument doc = new Document();\n\n// Add a page\nPdfWriter.GetInstance(doc, new FileStream("example.pdf", FileMode.Create));\n\n// Add content\ndoc.Add(new Paragraph("Hello, World!"));\n\n// Close the document\ndoc.Close();

@@ -1,0 +1,1 @@
+<configuration>\n  <system.web>\n    <trust level="Medium" originUrl="*"/>\n    <securityPolicy>\n      <trustLevel name="Medium" policyFile="web_mediumtrust.config"/>\n    </securityPolicy>\n  </system.web>\n</configuration>

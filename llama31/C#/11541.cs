@@ -1,1 +1,0 @@
-// GUI.dll or Core.dll\nvar pluginLoader = new PluginLoader();\npluginLoader.LoadPlugins(@"C:\Plugins");\nforeach (var plugin in pluginLoader.Plugins)\n{\n    // interact with the plugin\n}

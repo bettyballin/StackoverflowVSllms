@@ -1,1 +1,0 @@
-using System.Runtime.InteropServices;\n\nnamespace MyNetDll\n{\n    [ComVisible(true)]\n    [ProgId("MyNetDll.MyClass")]\n    public class MyClass\n    {\n        // your class members here\n    }\n}

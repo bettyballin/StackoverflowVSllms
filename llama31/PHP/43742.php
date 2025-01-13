@@ -1,0 +1,1 @@
+$obj1 = new clsUsagerEmailUserName('example@example.com');\n$obj2 = new clsUsagerEmailUserName('example@example.com', 'John Doe');

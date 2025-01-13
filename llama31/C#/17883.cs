@@ -1,1 +1,0 @@
-void OnReceive(Array pData)\n{\n    byte[] data = new byte[pData.Length];\n    pData.CopyTo(data, 0);\n    // process the data\n}

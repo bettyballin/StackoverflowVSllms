@@ -1,0 +1,1 @@
+<StyleRules>\n  <StyleRule Name="HTML">\n    <TagWrapping Tag="h1" Wrap="false" />\n    <TagWrapping Tag="h2" Wrap="false" />\n    <!-- Add more tags as needed -->\n  </StyleRule>\n</StyleRules>

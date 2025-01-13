@@ -1,0 +1,1 @@
+from Contest c\njoin c.RequiredCountries rc\nwhere rc.CountryCode = :CountryCode

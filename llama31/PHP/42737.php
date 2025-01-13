@@ -1,0 +1,1 @@
+// ListsController.php\npublic function view($id) {\n    $list = $this->List->findById($id);\n    $relatedLists = $list->getRelatedLists();\n    // ...\n}

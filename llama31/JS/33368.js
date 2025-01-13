@@ -1,0 +1,1 @@
+$(document).ajaxSend(function(event, xhr, settings) {\n  if (/* some condition */) {\n    return false; // cancel the request\n  }\n});

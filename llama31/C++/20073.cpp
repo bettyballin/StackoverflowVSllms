@@ -1,1 +1,0 @@
-[object, uuid(...)]\ninterface IFooEx : IUnknown\n{\n    HRESULT Foo([in, out] CACLSID *items, [out] ULONG *pcbItems);\n}

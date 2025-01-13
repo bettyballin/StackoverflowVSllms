@@ -1,1 +1,0 @@
-[WebMethod]\npublic static string GetData(int pageIndex, int pageSize, string sortExpression)\n{\n    // Retrieve data from your data source (e.g. database)\n    var data = MyDataService.GetData(pageIndex, pageSize, sortExpression);\n    return JsonConvert.SerializeObject(data);\n}

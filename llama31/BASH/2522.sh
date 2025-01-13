@@ -1,1 +1,0 @@
-pyinstaller --onefile --requirements=requirements.txt main.py

@@ -1,1 +1,0 @@
-// Load DLL using absolute path\nHMODULE hModule = LoadLibraryA("C:\\path\\to\\dll.dll");\n\n// Implement DLL Redirection\nSetDllDirectoryA("C:\\path\\to\\dll\\directory");

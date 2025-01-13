@@ -1,1 +1,0 @@
-gcc your_code.c -o your_code 2>&1 | awk '\n  /warning: unused variable/ { print "\033[34m" $0 "\033[0m" }\n  /warning: index/ { print "\033[31m" $0 "\033[0m" }\n  { print }\n'

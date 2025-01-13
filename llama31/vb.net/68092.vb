@@ -1,0 +1,1 @@
+=Switch(\n    Fields!column_label.Value = "1 employer", "01",\n    Fields!column_label.Value = "2-9 employers", "02",\n    Fields!column_label.Value = "10-19 employers", "03",\n    ...\n)

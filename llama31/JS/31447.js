@@ -1,0 +1,1 @@
+var canvas = document.getElementById('yourCanvasId');\nvar ctx = canvas.getContext('2d');\n\n// Disable antialiasing\nctx.imageSmoothingEnabled = false; // for Chrome and Opera\nctx.mozImageSmoothingEnabled = false; // for Firefox

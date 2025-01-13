@@ -1,0 +1,1 @@
+<?php\nif (extension_loaded('imagick')) {\n    echo "Imagick extension is loaded\n";\n} else {\n    echo "Imagick extension is not loaded\n";\n}\n?>

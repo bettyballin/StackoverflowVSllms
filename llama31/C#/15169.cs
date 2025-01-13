@@ -1,1 +1,0 @@
-// Create a strong name key pair\nsn -k MyAssembly.snk\n\n// Sign the assembly with the strong name key pair\ncsc /keyfile:MyAssembly.snk MyAssembly.cs

@@ -1,1 +1,0 @@
-App.Current.MainWindow = YourMainWindowInstance;

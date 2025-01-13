@@ -1,0 +1,1 @@
+preg_match_all($combinedPattern, $html, $matches);\nforeach ($matches[0] as $match) {\n    // $match contains the matched text\n}

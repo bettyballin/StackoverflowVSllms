@@ -1,1 +1,0 @@
-[Guid("xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx")]\npublic interface IMyInterface\n{\n    void MyMethod();\n}

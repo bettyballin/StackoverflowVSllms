@@ -1,0 +1,1 @@
+$form = new UsersForm();\n$form->setDefaults($user->toArray());

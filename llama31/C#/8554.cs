@@ -1,1 +1,0 @@
-using System;\n\nclass Program\n{\n    static void Main()\n    {\n        Guid guid = Guid.NewGuid();\n        string hexadecimalNumber = guid.ToString("N");\n        Console.WriteLine(hexadecimalNumber);\n    }\n}

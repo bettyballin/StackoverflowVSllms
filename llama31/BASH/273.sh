@@ -1,1 +1,0 @@
-export PERL5LIB=$PERL5LIB:/usr/lib/perl5/5.10.0/

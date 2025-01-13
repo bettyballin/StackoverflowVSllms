@@ -1,1 +1,0 @@
-OracleCommand cmd = new OracleCommand("your_sql_statement", connection);\nOracleCommandBuilder cb = new OracleCommandBuilder();\nOracleParameter[] params = cb.GetParameterInfo(cmd);

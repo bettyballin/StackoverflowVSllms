@@ -1,1 +1,0 @@
-.accordion-content {\n  display: none;\n  transition: opacity 0.3s ease;\n}\n\n.accordion-content.show {\n  display: block;\n}

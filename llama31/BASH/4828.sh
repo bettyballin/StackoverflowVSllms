@@ -1,1 +1,0 @@
-@echo off\nset recipient=your_email@example.com\nset subject=CPU Alert: %COMPUTERNAME%\nset body=CPU usage has exceeded 80%% on %COMPUTERNAME%\nschtasks /create /tn "CPU Alert" /tr "powershell -Command \"Send-MailMessage -To '%recipient%' -Subject '%subject%' -Body '%body%'\""

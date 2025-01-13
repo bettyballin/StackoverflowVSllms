@@ -1,0 +1,1 @@
+$templatePath = JUri::base() . 'templates/' . JFactory::getApplication()->getTemplate();

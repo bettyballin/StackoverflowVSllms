@@ -1,1 +1,0 @@
-# Compress a file using zstd with skippable frames\nzstd -c --skippable-frame input.txt > compressed.zst\n\n# Extract the last 10 lines of the compressed file\nzstd -d compressed.zst | tail -n 10

@@ -1,1 +1,0 @@
-// Example using Dotfuscator\n[Dotfuscator.Attributes.Obfuscate]\npublic class MyClass\n{\n    // ...\n}

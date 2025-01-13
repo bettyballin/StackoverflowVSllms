@@ -1,1 +1,0 @@
-takeown /f <old_data_directory> /r /d y

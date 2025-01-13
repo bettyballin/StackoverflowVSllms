@@ -1,0 +1,1 @@
+SELECT t1.username, t1.ip, t1.time_stamp\nFROM your_table t1\nJOIN (\n  SELECT username, MAX(time_stamp) AS max_time_stamp\n  FROM your_table\n  GROUP BY username\n) t2\nON t1.username = t2.username AND t1.time_stamp = t2.max_time_stamp;

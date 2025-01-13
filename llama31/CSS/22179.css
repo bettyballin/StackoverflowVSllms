@@ -1,1 +1,0 @@
-.table {\n  display: table;\n  border-collapse: collapse;\n}\n\n.row {\n  display: table-row;\n}\n\n.cell {\n  display: table-cell;\n  border: 1px solid #ccc;\n  padding: 10px;\n}

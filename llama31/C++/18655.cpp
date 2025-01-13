@@ -1,1 +1,0 @@
-#include <type_traits>\n\nif (static_cast<std::underlying_type_t<decltype(Enumerator::VALUE)>>(Enumerator::VALUE) ==\n    static_cast<std::underlying_type_t<decltype(TemplatedEnumerator<5>::VALUE)>>(TemplatedEnumerator<5>::VALUE))\n{\n    ...\n}

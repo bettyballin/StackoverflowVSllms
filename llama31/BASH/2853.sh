@@ -1,1 +1,0 @@
-strace -f -p <parent_pid>

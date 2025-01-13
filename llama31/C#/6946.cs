@@ -1,1 +1,0 @@
-try\n{\n    // File upload code here\n}\ncatch (UnauthorizedAccessException ex)\n{\n    Elmah.ErrorSignal.FromCurrentContext().Raise(ex);\n}

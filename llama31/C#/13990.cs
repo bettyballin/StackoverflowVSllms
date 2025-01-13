@@ -1,1 +1,0 @@
-var groupedResults = dbContext.YourTable\n    .GroupBy(x => new { x.DateTimeColumn.Date, x.DateTimeColumn.Hour })\n    .Select(g => new { Date = g.Key.Date, Hour = g.Key.Hour, Count = g.Count() });

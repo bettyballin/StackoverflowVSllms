@@ -1,0 +1,1 @@
+CREATE PROCEDURE proc1\n(\n    i1 INT,\n    i2 INT,\n    i3 INT,\n    i4 INT,\n    i5 INT\n)\nBEGIN\n\nSELECT\n    y.id\nFROM\n    y\n    LEFT JOIN x ON x.id = y.id AND x.exclude = 1\nWHERE\n    y.field1 = i1\n    AND y.field2 = i2\n    AND y.field3 = i3\n    AND y.field4 = i4\n    AND y.field5 = i5\n    AND x.id IS NULL;\n\nEND;

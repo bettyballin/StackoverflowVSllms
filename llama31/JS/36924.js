@@ -1,0 +1,1 @@
+// JavaScript function to send Ajax request\nfunction refreshOpenOrders() {\n  $.ajax({\n    type: "GET",\n    url: "getOpenOrders.php",\n    success: function(data) {\n      // Update the HTML of the Spry panel\n      $("#open-orders-panel").html(data);\n    }\n  });\n}\n\n// Call the JavaScript function every 15 seconds\nsetInterval(refreshOpenOrders, 15000);

@@ -1,1 +1,0 @@
-#!/bin/bash\n\ndirectory=/path/to/directory\ntarget_directory=/path/to/target/directory\n\nfor file in "$directory"/*; do\n  encoding=$(uchardet "$file")\n  if [ "$encoding" != "ISO-8859-1" ]; then\n    mv "$file" "$target_directory"\n  fi\ndone

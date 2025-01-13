@@ -1,0 +1,1 @@
+$myOrder = 'burrito';\n$lunch->{'order_'.$myOrder}();

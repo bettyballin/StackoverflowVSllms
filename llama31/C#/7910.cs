@@ -1,1 +1,0 @@
-Customer customer = new Customer();\nAbstractValidator<Customer> validator = ValidatorFactory.getValidator(customer);

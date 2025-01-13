@@ -1,1 +1,0 @@
-using System;\nusing System.ServiceModel;\n\nclass Program\n{\n    static void Main(string[] args)\n    {\n        using (var host = new ServiceHost(typeof(MyService)))\n        {\n            host.Open();\n            Console.WriteLine("Service started. Press any key to stop...");\n            Console.ReadKey();\n            host.Close();\n        }\n    }\n}

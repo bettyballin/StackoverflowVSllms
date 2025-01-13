@@ -1,1 +1,0 @@
-int main() {\n    const char *command = "ls -l";\n    char *output;\n    int exit_status;\n\n    execute_command(command, &output, &exit_status);\n\n    printf("Output: %s\n", output);\n    printf("Exit status: %d\n", exit_status);\n\n    free(output);\n    return 0;\n}

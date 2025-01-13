@@ -1,1 +1,0 @@
-#define ARRAY_LEN 4\n\nlong *targetArray = malloc(sizeof(long) * ARRAY_LEN);\nread(socketFD, targetArray, sizeof(long) * ARRAY_LEN);\n\n// Don't forget to free the memory when you're done with it\nfree(targetArray);

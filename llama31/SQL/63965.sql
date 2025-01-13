@@ -1,0 +1,1 @@
+SELECT * FROM your_view;

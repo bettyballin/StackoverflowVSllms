@@ -1,1 +1,0 @@
-string[] words = { "man", "car", "kile", "arc", "none", "like" };\nAnagramGrouper.GroupAnagrams(words);

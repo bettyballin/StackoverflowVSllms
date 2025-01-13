@@ -1,0 +1,1 @@
+CREATE TABLE Employee_Audit (\n  Audit_ID INT PRIMARY KEY IDENTITY(1,1),\n  EmployeeID INT,\n  -- other columns from the main table...\n  Change_Date DATETIME DEFAULT GETDATE(),\n  Change_Type VARCHAR(10)  -- e.g., 'INSERT', 'UPDATE', 'DELETE'\n);

@@ -1,0 +1,1 @@
+$.ajax({\n    type: "POST",\n    url: "process.php",\n    data: dataString2, // Fix: Changed 'data2' to 'data'\n    dataType: "json",\n    success: function(data2) {\n        // Rest of your code...\n    }\n});

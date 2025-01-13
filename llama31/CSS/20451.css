@@ -1,1 +1,0 @@
-.currency-input {\n  position: relative;\n}\n\n.currency-prefix {\n  position: absolute;\n  top: 50%;\n  transform: translateY(-50%);\n  left: 5px;\n  font-size: 14px;\n  color: #ccc;\n}\n\ninput[type="text"] {\n  padding-left: 30px;\n}

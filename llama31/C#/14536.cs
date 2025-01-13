@@ -1,1 +1,0 @@
-using Microsoft.Win32;\n\n// Open the registry key\nRegistryKey key = Registry.CurrentUser.OpenSubKey(@"Software\Microsoft\VisualStudio\14.0\Text Editor", true);\n\n// Add a new string value for the guideline\nkey.SetValue("Guides", "RGB(100,100,100), 80", RegistryValueKind.String);

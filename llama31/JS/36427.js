@@ -1,0 +1,1 @@
+// Add the "Please select" option back to the list\n$('select').prepend('<option value="">Please select</option>');\n\n// Add the other options back to the list and sort them\nvar options = $('select option:not(:first)').sort(function(a, b) {\n  return $(a).text().localeCompare($(b).text());\n});\n$('select').append(options);

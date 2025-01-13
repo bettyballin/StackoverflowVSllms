@@ -1,1 +1,0 @@
-using Ganss.XSS;\n\nforeach (DataRow row in dataTable.Rows) {\n    string title = row["Title"].ToString();\n    var sanitizer = new HtmlSanitizer();\n    string sanitizedTitle = sanitizer.Sanitize(title);\n    ListItem item = new ListItem(sanitizedTitle);\n    item.HtmlEncode = false;\n    DropDownList1.Items.Add(item);\n}

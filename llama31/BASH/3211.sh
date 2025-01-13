@@ -1,1 +1,0 @@
-diff -r --unchanged dir1 dir2

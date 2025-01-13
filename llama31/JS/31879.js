@@ -1,0 +1,1 @@
+if ($('.test:hidden').length === $('.test').length) {\n    $('#wrap1').hide();\n}

@@ -1,0 +1,1 @@
+$foot = "<script type=\"text/javascript\">" . htmlspecialchars("if(document.getElementById){loadEvents();}") . "</script>";

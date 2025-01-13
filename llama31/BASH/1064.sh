@@ -1,1 +1,0 @@
-bundle exec rake db:schema:dump db/structure.sql

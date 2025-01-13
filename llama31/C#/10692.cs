@@ -1,1 +1,0 @@
-DataView dv = new DataView(yourDataSet.Tables[0]);\ndv.Sort = "Column1, Column2"; // sort on the columns you want to search\n\nDataRowView[] foundRows = dv.FindRows(new object[] { value1, value2 });

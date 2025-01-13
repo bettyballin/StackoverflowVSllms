@@ -1,0 +1,1 @@
+function callback(data) {\n  // Handle data\n}\n\n// Request JSONP data\nvar script = document.createElement('script');\nscript.src = 'https://example.com/api/data?callback=callback';\ndocument.body.appendChild(script);

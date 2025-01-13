@@ -1,1 +1,0 @@
-DataRow row = // retrieve the data row to validate\nvar errors = GetRuleViolations(row);\n\nif (errors.Count > 0)\n{\n    // handle validation errors\n}

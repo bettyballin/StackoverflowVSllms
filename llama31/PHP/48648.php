@@ -1,0 +1,1 @@
+function dirToArray($dir) {\n  $result = array();\n  $files = scandir($dir);\n  foreach ($files as $file) {\n    if ($file == '.' || $file == '..') {\n      continue;\n    }\n    $filePath = $dir . DIRECTORY_SEPARATOR . $file;\n    if (is_dir($filePath)) {\n      $result[$file] = dirToArray($filePath);\n    } else {\n      $result[] = $file;\n    }\n  }\n  return $result;\n}

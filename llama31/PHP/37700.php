@@ -1,0 +1,1 @@
+// Inside your model\n$this->load->library('auth');\n$this->auth->authenticate();

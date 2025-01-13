@@ -1,0 +1,1 @@
+SELECT COUNT(*) AS HasSuggestedChanges\nFROM [dbo].[TEST_TABLE]\nWHERE refID = @refID\nAND (newFirstName IS NOT NULL OR newLastName IS NOT NULL)

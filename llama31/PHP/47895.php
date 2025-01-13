@@ -1,0 +1,1 @@
+// ... your PHP code ...\n\n// If you don't want to update the #someid element\nheader('HTTP/1.1 204 No Content');\nexit;

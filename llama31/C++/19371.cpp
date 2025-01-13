@@ -1,1 +1,0 @@
-HRESULT hr = CoCreateInstance(\n    CLSID_YourWrapperClass,\n    NULL,\n    CLSCTX_SERVER,\n    IID_IYourWrapperInterface,\n    (void**)&pWrapper\n);

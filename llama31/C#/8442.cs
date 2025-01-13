@@ -1,1 +1,0 @@
-// Example usage:\nusing SubSonic;\n\n[SubSonicTable]\npublic class MyClass {\n    [SubSonicPrimaryKey]\n    public int Id { get; set; }\n    [SubSonicColumn]\n    public string Name { get; set; }\n}\n\n// Initialize the SubSonic framework\nSubSonicRepository repository = new SubSonicRepository();\n\n// Retrieve data\nvar myObjects = repository.GetAll<MyClass>();

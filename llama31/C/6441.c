@@ -1,1 +1,0 @@
-#include <sys/resource.h>\n#include <unistd.h>\n\nint main() {\n    struct rlimit rl;\n    getrlimit(RLIMIT_STACK, &rl);\n    rl.rlim_cur = rl.rlim_max;\n    setrlimit(RLIMIT_STACK, &rl);\n    execl("./your_program", "your_program", NULL);\n}

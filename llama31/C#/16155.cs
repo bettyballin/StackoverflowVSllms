@@ -1,1 +1,0 @@
-public interface IMyAppApi\n{\n    void PerformAction();\n}\n\npublic class VisioApiAdapter : IMyAppApi\n{\n    private Microsoft.Office.Interop.Visio.Class _visioInstance;\n\n    public VisioApiAdapter()\n    {\n        _visioInstance = new Microsoft.Office.Interop.Visio.Class();\n    }\n\n    public void PerformAction()\n    {\n        _visioInstance.DoSomething();\n    }\n}

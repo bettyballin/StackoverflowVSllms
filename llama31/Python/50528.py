@@ -1,0 +1,1 @@
+pattern = re.compile('<p class="thisClass">(.*?(?:<br />\s*)*)</p>')

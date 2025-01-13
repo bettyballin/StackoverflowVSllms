@@ -1,1 +1,0 @@
-[ComVisible(true)]\npublic interface IMyInterface\n{\n    [return: MarshalAs(UnmanagedType.Variant)]\n    object GetNestedArray();\n}\n\n[ComVisible(true)]\npublic class MyImplementation : IMyInterface\n{\n    public object GetNestedArray()\n    {\n        string[][] nestedArray = new string[][] { new string[] { "Hello", "World" } };\n        return nestedArray;\n    }\n}

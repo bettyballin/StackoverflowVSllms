@@ -1,0 +1,1 @@
+myInteger = 999\nformatedInteger = Right("00000" & myInteger, 5)

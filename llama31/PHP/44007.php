@@ -1,0 +1,1 @@
+$result = $xml->xpath("//StopPoint[matches(StopName, '$query', 'i')]");

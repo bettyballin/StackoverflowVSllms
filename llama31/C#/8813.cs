@@ -1,1 +1,0 @@
-var regex = new Regex(@"<tr>\s*\n    <td[^>]*>Max Temperature[^<]*</td>\s*\n    <td[^>]*>(?<value>\d+)</td>\s*\n    <td[^>]*>(?<time>\d{2}:\d{2}:\d{2})</td>\s*\n</tr>", RegexOptions.IgnoreCase | RegexOptions.Multiline | RegexOptions.IgnorePatternWhitespace);

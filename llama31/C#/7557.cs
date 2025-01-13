@@ -1,1 +1,0 @@
-if (list != null) {\n    MyClass[] myArray = list.ToArray();\n    // process the array...\n}

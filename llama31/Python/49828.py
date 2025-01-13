@@ -1,0 +1,1 @@
+umbers = [12, 45, 7, 23]\ngreatest = max(numbers)\nprint("The greatest number is:", greatest)

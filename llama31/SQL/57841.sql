@@ -1,0 +1,1 @@
+SELECT * FROM YourTable\nWHERE address3 LIKE 'StartingPartOfAddress%';

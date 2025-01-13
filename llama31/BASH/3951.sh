@@ -1,1 +1,0 @@
-printf "Cache-Control: no-cache\n"\nprintf "Pragma: no-cache\n"\nprintf "Expires: 0\n"\nprintf "Location: /foo.txt\n"\nprintf "Content-Type: text/html\n\n"

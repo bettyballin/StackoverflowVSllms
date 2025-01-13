@@ -1,1 +1,0 @@
-protected void Page_Init(object sender, EventArgs e)\n{\n    ScriptManager scriptManager = ScriptManager.GetCurrent(Page);\n    scriptManager.EnablePartialRendering = false;\n}

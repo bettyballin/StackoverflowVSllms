@@ -1,0 +1,1 @@
+SELECT * FROM Sales\nWHERE sold_on_nullIndicator = 1\nAND total = 9.99;

@@ -1,1 +1,0 @@
-using CsQuery;\n\n// Create a new CQ object\nvar cq = CQ.CreateDocument("<html><body></body></html>");\n\n// Add a new paragraph element to the body\ncq["body"].Append("<p>Hello World!</p>");\n\n// Render the HTML document as a string\nvar html = cq.Render();\n\nConsole.WriteLine(html);

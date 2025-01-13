@@ -1,1 +1,0 @@
-gcc your_program.cpp -o your_program

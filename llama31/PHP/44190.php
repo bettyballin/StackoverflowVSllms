@@ -1,0 +1,1 @@
+function errorHandler($errno, $errstr, $errfile, $errline) {\n    echo "Error: $errstr";\n    // continue execution\n}\n\nset_error_handler('errorHandler');\nfopen($file);

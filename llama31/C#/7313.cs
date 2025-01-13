@@ -1,1 +1,0 @@
-var clientPermutations = PermutationGenerator.GetPermutations(typeof(Client));\nforeach (var client in clientPermutations)\n{\n    Console.WriteLine(client);\n}

@@ -1,1 +1,0 @@
-protected void DoItAllButton_Click(object sender, EventArgs e)\n{\n    Page.Validate("AddressGroup");\n    Page.Validate("CreditCardGroup");\n    Page.Validate();\n    if (Page.IsValid)\n    {\n        // Perform action\n    }\n}

@@ -1,0 +1,1 @@
+CREATE TABLE civil_status (\n  id INT PRIMARY KEY,\n  status VARCHAR(20) NOT NULL\n);\n\nINSERT INTO civil_status (id, status) VALUES\n  (1, 'Single'),\n  (2, 'Married'),\n  (3, 'Separated'),\n  (4, 'Widow/Widower');

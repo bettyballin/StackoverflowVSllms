@@ -1,0 +1,1 @@
+$numAdultPairs = floor($oForm->adult / 2);\n$numChildPairs = floor($oForm->child / 2);\n\n$numberOfFamilyTickets = min($numAdultPairs, $numChildPairs);\n\n$remainingAdult = $oForm->adult - ($numberOfFamilyTickets * 2);\n$remainingChild = $oForm->child - ($numberOfFamilyTickets * 2);

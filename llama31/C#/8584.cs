@@ -1,1 +1,0 @@
-OldProjectNamespace.ProblemReport report = new OldProjectNamespace.ProblemReport();

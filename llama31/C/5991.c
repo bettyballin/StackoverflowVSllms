@@ -1,1 +1,0 @@
-// Create a condition variable\nCONDITION_VARIABLE cv;\n\n// Thread B: signal that data is available\nvoid ThreadB() {\n    // ...\n    WakeConditionVariable(&cv);\n}\n\n// Thread A: wait for data to become available\nvoid ThreadA() {\n    // ...\n    SleepConditionVariableCS(&cv, &FQueueLock, INFINITE);\n    // Process the data\n}

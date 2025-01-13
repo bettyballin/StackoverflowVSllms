@@ -1,0 +1,1 @@
+CREATE TABLE users (\n  id INT PRIMARY KEY,\n  is_active TINYINT(1) DEFAULT 0\n);

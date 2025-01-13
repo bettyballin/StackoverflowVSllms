@@ -1,0 +1,1 @@
+# settings.py\nimport os\n\n# Jython-specific settings\nif os.name == 'java':\n    # Use the Jython-compatible database backend\n    DATABASES['default']['ENGINE'] = 'django.db.backends.sqlite3'

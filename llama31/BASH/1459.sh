@@ -1,1 +1,0 @@
-keytool -genkey -alias myapplet -keystore myapplet.keystore\njarsigner -keystore myapplet.keystore -signedjar myapplet.jar myapplet.jar

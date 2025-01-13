@@ -1,1 +1,0 @@
-public partial class Customer\n{\n    partial void OnNameChanging(string value)\n    {\n        if (string.IsNullOrEmpty(value))\n        {\n            throw new ValidationException("Name is required");\n        }\n    }\n}

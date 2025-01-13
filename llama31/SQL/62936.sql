@@ -1,0 +1,1 @@
+DECLARE @Num VARCHAR(20)\nSET @Num = ' + (82) 468 6152 '\n\nSELECT @Num = REPLACE(@Num, '[^0-9]', '', 1, 0, ' ')\n\nPRINT @Num

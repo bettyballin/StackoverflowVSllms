@@ -1,1 +1,0 @@
-for file in *; do if ! grep -q "word1" "$file" || ! grep -q "word2" "$file" || ! grep -q "word3" "$file"; then echo "Would delete $file"; fi; done

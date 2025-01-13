@@ -1,1 +1,0 @@
-#include <Windows.h>\n#include <Msi.h>\n\nint main() {\n    const char* productCode = "{7299052b-02a4-4627-81f2-1818da5d550d}"; // Visual C++ Runtime 8.0 SP1 product code\n    INSTALLSTATE state = MsiQueryProductStateA(productCode);\n    return state == INSTALLSTATE_DEFAULT;\n}

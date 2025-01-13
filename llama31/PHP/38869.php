@@ -1,0 +1,1 @@
+$route = new Zend_Controller_Router_Route(\n    'index/action/:start/:end',\n    array(\n        'module' => 'default',\n        'controller' => 'index',\n        'action' => 'action',\n        'start' => null,\n        'end' => null\n    ),\n    array(\n        'start' => '\d{4}-\d{2}-\d{2}',\n        'end' => '\d{4}-\d{2}-\d{2}'\n    )\n);

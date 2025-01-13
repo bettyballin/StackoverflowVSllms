@@ -1,0 +1,1 @@
+for s in spanningsets([1, 2, 3, 4]):\n    print(s)

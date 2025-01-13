@@ -1,0 +1,1 @@
+if (is_writable($write_file)) {\n    // file is writable\n} else {\n    // file is not writable\n}

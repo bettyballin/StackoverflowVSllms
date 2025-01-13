@@ -1,1 +1,0 @@
-WCHAR buffer[512];\n\n// ...\n\nhresult = SafeArrayGetElement(safearray, &index, (void*)&fromarray);\n\nwcscpy_s(buffer, 512, fromarray);\n\nMessageBoxW(0, buffer, L"...", 0);

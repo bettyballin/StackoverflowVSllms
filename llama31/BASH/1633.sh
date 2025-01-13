@@ -1,1 +1,0 @@
-#!/bin/bash\n\n# Load the tunnel key\nssh-add tunnel_key\n\n# Establish the tunnel\nssh -i tunnel_key -L 8080:localhost:8080 user@target_server

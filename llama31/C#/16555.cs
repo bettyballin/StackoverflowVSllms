@@ -1,1 +1,0 @@
-using System.Text.RegularExpressions;\n\n// assuming 'data' is your collection of strings\nvar results = data.Where(d => Regex.IsMatch(d, ".*Test.*if.*it.*work.*", RegexOptions.IgnoreCase));

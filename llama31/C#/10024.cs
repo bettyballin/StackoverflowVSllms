@@ -1,1 +1,0 @@
-// Set session value\nSession.SetSessionValue(SessionKey.MyVar1, something);\n\n// Get session value\nobject value = Session.GetSessionValue(SessionKey.MyVar1);

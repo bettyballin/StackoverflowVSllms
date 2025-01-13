@@ -1,1 +1,0 @@
-@echo off\nipconfig /release\nipconfig /renew\nipconfig /flushdns\nipconfig /registerdns\nnetsh interface set interface "Local Area Connection" adminstate=disable\nnetsh interface set interface "Local Area Connection" adminstate=enable

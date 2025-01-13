@@ -1,1 +1,0 @@
-if (!snapshotTaken)\n{\n    throw new InvalidOperationException("Cannot analyze snapshot before taking it.");\n}

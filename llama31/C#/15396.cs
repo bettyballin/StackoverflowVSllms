@@ -1,1 +1,0 @@
-byte[] pdfBytes = GetPDF(parameters);\nDisplayPdf(pdfBytes);

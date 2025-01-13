@@ -1,1 +1,0 @@
-using System.Web.UI.HtmlControls;\n\npublic string GetCheckboxHtml()\n{\n    var checkbox = new HtmlInputCheckBox();\n    checkbox.Name = "somename";\n    return checkbox.RenderControl(new StringWriter()).ToString();\n}

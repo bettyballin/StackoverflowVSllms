@@ -1,1 +1,0 @@
-#if defined(__GNUC__)\nif (__builtin_types_compatible_p(typeof(*ptr), struct type1)) {\n    /* ptr is likely of type struct type1 */\n}\n#endif

@@ -1,1 +1,0 @@
-export PLATFORM=/Developer/Platforms/MacOSX.platform

@@ -1,0 +1,1 @@
+<RegistryKey Root="HKLM" Key="Software\YourCompany\YourApp">\n  <RegistryValue Type="string" Name="InstallationFolder" Value="[TARGETDIR]" />\n  <RegistryValue Type="string" Name="ExecutablePath" Value="[TARGETFILENAME]" />\n</RegistryKey>

@@ -1,0 +1,1 @@
+SELECT * FROM InCompleOrders\nUNION\nSELECT * FROM CompleteOrders

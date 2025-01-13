@@ -1,0 +1,1 @@
+const xhr = new XMLHttpRequest();\n\nxhr.onreadystatechange = function() {\n  if (xhr.readyState === 4) { // Complete\n    // Invoke callback function\n  }\n};\n\nxhr.open('POST', 'https://example.com', true);\nxhr.send(data);

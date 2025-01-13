@@ -1,0 +1,1 @@
+from bottle import route, run\n\n@route('/')\ndef hello_world():\n    return '{"hello": "world"}'\n\nrun(host='localhost', port=8080)

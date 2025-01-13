@@ -1,0 +1,1 @@
+<script>\n  var iframe = document.getElementById('iframeId');\n  iframe.src = 'http://www.site.com/companyname/Login.aspx?style=companyname&lang=en&l=login&p=password';\n</script>

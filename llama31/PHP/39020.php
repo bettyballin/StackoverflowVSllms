@@ -1,0 +1,1 @@
+$link = $_POST['link'];\n// Update the counter for the given link

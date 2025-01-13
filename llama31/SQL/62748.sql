@@ -1,0 +1,1 @@
+INSERT @tablename \nSELECT kontrol1, key0, tarih, hizkod, hizad, ytlhizfiyat, hizmiktar, ytlhiztutar \nFROM TH_Islem \nWHERE refno = @refNo AND DekontNo = '0' AND anahtar <> -1\nAND maktipi IN (SELECT maktipi FROM TH_Islem WHERE refNo = @refNo)

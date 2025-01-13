@@ -1,0 +1,1 @@
+define('WP_HOME', 'http://' . $_SERVER['SERVER_ADDR']);\ndefine('WP_SITEURL', 'http://' . $_SERVER['SERVER_ADDR']);

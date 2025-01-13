@@ -1,1 +1,0 @@
-public partial class MyTable\n{\n    [Column(DbType = "VarChar(50)")]\n    public string MyStringField { get; set; }\n}

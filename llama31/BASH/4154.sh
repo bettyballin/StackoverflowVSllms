@@ -1,1 +1,0 @@
-cflow -d main.c\ndot -Tpng -o callgraph.png

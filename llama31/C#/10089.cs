@@ -1,1 +1,0 @@
-var query = db.Orders\n    .Where(o => db.Orders.Where(o2 => o2.TotalOrder > o.TotalOrder).Count() < 6);

@@ -1,0 +1,1 @@
+$idsToDelete = $chan[2];\n\n// Create a prepared statement\n$stmt = $mysqli->prepare("DELETE FROM members WHERE member_id IN (?)");\n\n// Bind the parameter (array of IDs)\n$stmt->bind_param("s", implode(",", $idsToDelete));\n\n// Execute the statement\n$stmt->execute();\n\n// Close the statement\n$stmt->close();

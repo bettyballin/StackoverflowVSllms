@@ -1,0 +1,1 @@
+import numpy as np\n\ndef fbm(n, H):\n    x = np.zeros(n)\n    for i in range(1, n):\n        x[i] = x[i-1] + np.random.normal(0, 1) * (i ** (H - 0.5))\n    return x

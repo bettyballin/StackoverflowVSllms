@@ -1,1 +1,0 @@
-dd bs=1 skip=$(head -n 1 "$FILE" | wc -c) if="$FILE" of=temp_file && mv temp_file "$FILE"

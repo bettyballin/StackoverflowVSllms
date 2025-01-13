@@ -1,0 +1,1 @@
+CREATE TABLE orders (\n  id INT PRIMARY KEY,\n  customer_name VARCHAR(50),\n  order_date DATE\n);\n\nSELECT id, customer_name, order_date\nFROM orders;

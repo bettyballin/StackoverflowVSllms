@@ -1,1 +1,0 @@
-protected void CompareValidator1_ServerValidate(object source, ServerValidateEventArgs args)\n{\n    if (Password.Text.Trim() == string.Empty && ConfirmPassword.Text.Trim() == string.Empty)\n    {\n        args.IsValid = true;\n    }\n}

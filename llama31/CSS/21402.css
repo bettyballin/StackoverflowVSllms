@@ -1,1 +1,0 @@
-.container {\n  display: grid;\n  grid-template-columns: 1fr 1fr;\n}\n\n.left {\n  grid-column: 1;\n}\n\n.right {\n  grid-column: 2;\n  text-align: right;\n}

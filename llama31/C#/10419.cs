@@ -1,1 +1,0 @@
-string file = "com.company.package.filename.txt";\nAssembly assembly = typeof(ClassName).Assembly;\nStream stream = assembly.GetManifestResourceStream(file);

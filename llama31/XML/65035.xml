@@ -1,0 +1,1 @@
+// Example of a secure release build configuration\n<PropertyGroup Condition=" '$(Configuration)' == 'Release' ">\n  <Optimize>true</Optimize>\n  <DebugType>none</DebugType>\n  <DefineConstants>TRACE</DefineConstants>\n  <ErrorReport>prompt</ErrorReport>\n  <WarningLevel>4</WarningLevel>\n</PropertyGroup>

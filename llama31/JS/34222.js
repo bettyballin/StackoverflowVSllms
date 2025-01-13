@@ -1,0 +1,1 @@
+select.selectedIndex = 0;\nselect.blur();

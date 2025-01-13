@@ -1,0 +1,1 @@
+function displayNotification(message) {\n  $("#notification").html(message);\n  $("#notification").fadeIn("slow");\n  setTimeout(function() {\n    $("#notification").fadeOut("slow");\n  }, 2000);\n}\n\n// Call the function when a record is added or deleted\ndisplayNotification("Record added successfully!");

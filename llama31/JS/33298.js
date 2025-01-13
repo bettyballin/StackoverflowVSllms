@@ -1,0 +1,1 @@
+// set a cookie\ndocument.cookie = "app_installed=1; expires=Fri, 31 Dec 2022 23:59:59 GMT";\n\n// check if cookie exists\nif (document.cookie.indexOf("app_installed=1") !== -1) {\n    // app is installed\n}

@@ -1,0 +1,1 @@
+require_once 'vendor/autoload.php';\n\n// Create a connection to the database\n$db = new \idiorm\db('sqlite:db.sqlite');\n\n// Define a model\nclass User extends \idiorm\model {\n    public function __construct() {\n        parent::__construct($db);\n    }\n}\n\n// Use the model\n$user = new User();\n$user->find(1);

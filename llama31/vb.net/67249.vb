@@ -1,0 +1,1 @@
+Imports System.Net.Http\n\nDim client As New HttpClient()\nDim response As HttpResponseMessage = client.GetAsync("http://intranet-server-url").Result

@@ -1,0 +1,1 @@
+use Symfony\Component\Console\Question\Question;\nuse Symfony\Component\Console\Terminal;\n\n$terminal = new Terminal();\n$question = new Question('Password: ');\n$question->setHidden(true);\n\n$password = $terminal->ask($question);\n\necho $password . PHP_EOL;

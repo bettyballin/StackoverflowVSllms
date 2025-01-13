@@ -1,0 +1,1 @@
+SELECT * \nFROM employees \nINNER JOIN employees AS managers \nON employees.manager_id > managers.employee_id

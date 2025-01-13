@@ -1,1 +1,0 @@
-List<Whatever> whatever = new List<Whatever>();\nDataTable dt = whatever.ToDataTable();

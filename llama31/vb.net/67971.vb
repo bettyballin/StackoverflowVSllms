@@ -1,0 +1,1 @@
+For i As Integer = 1 To 100\n    Dim arguments As String = "some" + i.ToString()\n    Process.Start("YourProcess.exe", arguments).WaitForExit()\nNext i

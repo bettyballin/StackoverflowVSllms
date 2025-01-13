@@ -1,1 +1,0 @@
-using System.Runtime.InteropServices;\n\n// Register the OCX\nvar rs = new RegistrationServices();\nrs.RegisterAssembly("myocx.ocx", AssemblyLoadWithPartialName("myocx"));

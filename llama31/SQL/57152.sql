@@ -1,0 +1,1 @@
+CREATE OR REPLACE FUNCTION delete_except_ids(p_ids INTEGER[])\nRETURNS VOID AS $$\nBEGIN\n    DELETE FROM your_table_name\n    WHERE id <> ANY($1);\nEND;\n$$ LANGUAGE plpgsql;

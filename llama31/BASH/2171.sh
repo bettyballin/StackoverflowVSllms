@@ -1,1 +1,0 @@
-aws s3 sync /local/data/ s3://my-bucket/data/

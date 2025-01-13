@@ -1,0 +1,1 @@
+function customSubmit() {\n    if (Page_ClientValidate()) {\n        // Page is valid, proceed with custom logic\n        // ...\n    } else {\n        // Page is not valid, cancel submit\n        return false;\n    }\n}

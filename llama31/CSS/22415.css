@@ -1,1 +1,0 @@
-table {\n  border-collapse: collapse;\n}\n\ntable td {\n  border: 1px solid black;\n}\n\ntable td:first-child, table td:nth-child(2) {\n  width: 1%;\n  white-space: nowrap;\n}\n\ntable td:last-child {\n  width: 100%;\n}

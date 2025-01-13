@@ -1,0 +1,1 @@
+-- Example in T-SQL\nSELECT \n    COALESCE(dim_column, 'Unknown') AS dim_column\nFROM \n    your_fact_table\n    LEFT JOIN your_dimension_table ON your_fact_table.dim_key = your_dimension_table.dim_key;

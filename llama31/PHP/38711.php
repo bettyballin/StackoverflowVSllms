@@ -1,0 +1,1 @@
+$string = "THIS IS A STRING IN ALL UPPER CASE.";\n\n$normalizedString = ucfirst(strtolower($string));\n\necho $normalizedString; // Output: "This is a string in all upper case."

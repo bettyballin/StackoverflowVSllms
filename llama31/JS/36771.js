@@ -1,0 +1,1 @@
+var tableA = getID("tableA");\nvar tableB = getID("tableB");\n\n// Clear TableA contents\nwhile (tableA.firstChild) {\n  tableA.removeChild(tableA.firstChild);\n}\n\n// Import TableB contents and append to TableA\nvar importedNode = document.importNode(tableB, true);\ntableA.appendChild(importedNode);

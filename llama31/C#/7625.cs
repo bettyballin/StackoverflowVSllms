@@ -1,1 +1,0 @@
-public class PhraseService\n{\n    // existing code...\n\n    public Phrase GetPhrase(int phraseId)\n    {\n        return _phraseRepository.GetPhrase(phraseId);\n    }\n}

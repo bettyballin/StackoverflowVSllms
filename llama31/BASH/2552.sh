@@ -1,1 +1,0 @@
-sqlcmd -S < ReportingDB_Server_Name > -i RestoreReportingDB.sql

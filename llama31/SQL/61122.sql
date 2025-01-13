@@ -1,0 +1,1 @@
+-- Example using PostgreSQL and pgcrypto\nCREATE TABLE customers (\n  id SERIAL PRIMARY KEY,\n  tenant_id INTEGER NOT NULL,\n  encrypted_data BYTEA NOT NULL\n);\n\n-- Use a tenant-specific encryption key\nCREATE FUNCTION encrypt_data(tenant_id INTEGER, data TEXT)\n  RETURNS BYTEA AS $$\nBEGIN\n  RETURN encrypt(data, 'my_secret_key_' || tenant_id);\nEND;\n$$ LANGUAGE plpgsql;

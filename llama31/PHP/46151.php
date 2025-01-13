@@ -1,0 +1,1 @@
+// get_buffer.php\n$buffer_data = $_POST['buffer'];\n// Now you can use $buffer_data as needed

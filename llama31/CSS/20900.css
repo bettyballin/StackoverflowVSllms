@@ -1,1 +1,0 @@
-/* styles.css */\n.image-preview {\n  position: relative;\n}\n\n.hidden-text {\n  position: absolute;\n  top: 0;\n  left: 0;\n  width: 100%;\n  height: 100%;\n  opacity: 0;\n  overflow: hidden;\n}\n\n.image-preview:hover .hidden-text {\n  opacity: 1;\n  background-color: rgba(0, 0, 0, 0.7);\n  color: #fff;\n  padding: 10px;\n}

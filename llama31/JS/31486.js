@@ -1,0 +1,1 @@
+const token = document.querySelector('meta[name="csrf-token"]').content;\nconst url = "getchat.php?latest=" + encodeURIComponent(latest) + "&token=" + token;

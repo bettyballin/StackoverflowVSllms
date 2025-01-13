@@ -1,0 +1,1 @@
+$locale = 'en_US'; // or any other locale\n$formatter = new NumberFormatter($locale, NumberFormatter::CURRENCY);\n$amount = 1234.56;\n$currency = 'USD';\necho $formatter->formatCurrency($amount, $currency);

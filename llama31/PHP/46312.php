@@ -1,0 +1,1 @@
+class MockFunction {\n    public function __invoke() {\n        // simulate some behavior\n    }\n}\n\n$mock = new MockFunction();\n$mock(); // calls the __invoke method

@@ -1,0 +1,1 @@
+var xhr = new XMLHttpRequest();\nxhr.open('GET', '/myServlet', true);\nxhr.onload = function() {\n    if (xhr.status === 200) {\n        console.log(xhr.responseText);\n        // process the response text here\n    }\n};\nxhr.send();

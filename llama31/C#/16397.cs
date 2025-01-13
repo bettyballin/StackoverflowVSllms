@@ -1,1 +1,0 @@
-public interface IProvider\n{\n    string GetName();\n    Dictionary<string, object> GetProperties();\n    Stream GetDataStream();\n}

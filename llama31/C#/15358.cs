@@ -1,1 +1,0 @@
-[ValidateInput(false)]\npublic ActionResult MyAction(MyModel model)\n{\n    // ...\n}

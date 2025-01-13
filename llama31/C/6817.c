@@ -1,1 +1,0 @@
-struct curl_slist *cookies;\ncurl_easy_setopt(curl, CURLOPT_COOKIELIST, &cookies);

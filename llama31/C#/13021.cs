@@ -1,1 +1,0 @@
-AppDomain.CurrentDomain.UnhandledException += (sender, e) =>\n{\n    // Handle the exception\n    Exception ex = (Exception)e.ExceptionObject;\n    // Log or handle the exception\n};

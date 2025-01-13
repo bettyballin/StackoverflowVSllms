@@ -1,0 +1,1 @@
+CREATE OR REPLACE PROCEDURE Testing\n(\n  iKey IN VARCHAR2,\n  oResult OUT INTEGER\n)\nAS\nBEGIN\n  DELETE FROM MyTable WHERE TheKey = iKey;\n  IF SQL%ROWCOUNT > 0 THEN\n    oResult := 0; -- Success\n  ELSE\n    oResult := 1; -- Failure\n  END IF;\nEND Testing;

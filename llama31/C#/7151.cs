@@ -1,1 +1,0 @@
-public IQueryable<T> SelectFromView(string viewName)\n{\n    return db.Database.SqlQuery<T>($"SELECT * FROM {viewName}").AsQueryable();\n}

@@ -1,0 +1,1 @@
+Public Sub CopyFrom(other As BookEntity)\n    Me.Title = other.Title\n    Me.Author = other.Author\n    ' Copy other properties as needed\nEnd Sub

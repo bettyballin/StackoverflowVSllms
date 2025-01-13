@@ -1,0 +1,1 @@
+$db = Zend_Db::factory('Mysqli', $config);\n$stmt = $db->prepare('SELECT * FROM users WHERE username = ?');\n$stmt->execute(array($username));

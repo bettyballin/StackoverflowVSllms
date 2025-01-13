@@ -1,1 +1,0 @@
-struct InputData {\n    // ...\n    vector<InputData> children;  // Instead of vector<InputData*>\n    // ...\n};

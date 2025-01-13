@@ -1,0 +1,1 @@
+// template.blade.php\n<p>Hello, {{ $name }}!</p>\n\n// PHP code\n$blade = new Blade();\necho $blade->render('template', array('name' => 'John'));

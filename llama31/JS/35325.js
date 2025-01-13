@@ -1,0 +1,1 @@
+logAction: function(action) {\n    try {\n        var i = new Image(1, 1);\n        i.src = "http://dev/tracker/urchin.ashx?action=" + action;\n        i.crossOrigin = "use-credentials"; // Add this line\n    } catch (e) {\n        //alert(e);\n    }\n}

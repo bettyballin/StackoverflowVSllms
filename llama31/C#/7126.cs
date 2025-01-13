@@ -1,1 +1,0 @@
-string filePath = Path.Combine(Environment.GetFolderPath(Environment.SpecialFolder.ApplicationData), "MyApp", "MyList.bin");\n\n// Deserialize the binary data back to a list\nFileStream stream = new FileStream(filePath, FileMode.Open);\nBinaryFormatter formatter = new BinaryFormatter();\nList<string> myList = (List<string>)formatter.Deserialize(stream);\nstream.Close();

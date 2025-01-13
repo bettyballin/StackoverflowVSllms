@@ -1,1 +1,0 @@
-// assuming you have a List<TextBox> dynamicTextBoxes\nforeach (TextBox textBox in dynamicTextBoxes)\n{\n    string value = textBox.Text;\n    // insert value into database using your chosen approach\n    // e.g., using ADO.NET or an ORM like Entity Framework\n}

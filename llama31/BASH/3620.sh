@@ -1,1 +1,0 @@
-[root@machine plugins]# sqldeveloper

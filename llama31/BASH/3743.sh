@@ -1,1 +1,0 @@
-convert input.jpg -resize 800x600 output.jpg

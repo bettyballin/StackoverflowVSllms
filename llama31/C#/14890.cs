@@ -1,1 +1,0 @@
-using Microsoft.EntityFrameworkCore;\nusing System.Linq;\n\n// assume you have a DbContext instance named 'context'\nvar customers = context.Customers.ToList();\n\npublic class Customer\n{\n    public int Id { get; set; }\n    public string Name { get; set; }\n}

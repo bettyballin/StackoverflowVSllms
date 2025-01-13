@@ -1,1 +1,0 @@
-Environment.SetEnvironmentVariable("ORACLE_HOME", @"C:\Path\To\Oracle\Home");

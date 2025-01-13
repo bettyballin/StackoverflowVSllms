@@ -1,0 +1,1 @@
+DBCC TRACEON (3604, -1)

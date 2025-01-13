@@ -1,1 +1,0 @@
-a {\n  display: block;\n  background-image: url('image.jpg');\n  background-repeat: no-repeat;\n  height: 50px; /* set height */\n  width: 100px; /* set width */\n}\n\na:hover {\n  background-image: url('image-hover.jpg');\n}

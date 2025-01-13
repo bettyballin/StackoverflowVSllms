@@ -1,0 +1,1 @@
+$("img.delete").click(function() {\n  var id = $(this).data('id'); // Get the ID from the data attribute\n  var row = $(this).closest('tr'); // Get the parent row\n\n  $.ajax({\n    type: "POST",\n    url: "delete.php",\n    data: "id=" + id,\n    success: function() {\n      row.remove(); // Remove the row\n      $('div.success').fadeIn();\n    }\n  });\n\n  return false;\n});

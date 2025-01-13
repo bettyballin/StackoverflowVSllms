@@ -1,0 +1,1 @@
+$postFields['file'] = '@path/to/file.txt';

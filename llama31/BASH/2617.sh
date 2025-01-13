@@ -1,1 +1,0 @@
-convert -colorspace sRGB input.psd output.png

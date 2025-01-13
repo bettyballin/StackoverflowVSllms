@@ -1,0 +1,1 @@
+$var_name = 'foo';\n$$var_name = 'bar'; // creates a variable named $foo with value 'bar'

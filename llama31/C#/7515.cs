@@ -1,1 +1,0 @@
-using CloudinaryDotNet;\n\n// Initialize Cloudinary\nvar cloudinary = new Cloudinary("YOUR_CLOUD_NAME", "YOUR_API_KEY", "YOUR_API_SECRET");\n\n// Upload an image\nvar uploadParams = new ImageUploadParams()\n{\n    File = new FileDescription("image.jpg", "image/jpeg")\n};\nvar result = cloudinary.Upload(uploadParams);

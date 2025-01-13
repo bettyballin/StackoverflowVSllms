@@ -1,1 +1,0 @@
-private void compose()\n{\n    var catalog = new AssemblyCatalog(typeof(Program).Assembly);\n    var container = new CompositionContainer(catalog);\n\n    container.AddPart(this);\n    container.Compose();\n}

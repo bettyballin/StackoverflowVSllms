@@ -1,1 +1,0 @@
-:0\n| /usr/bin/curl -X POST -d "$BODY" https://example.com/email-processor

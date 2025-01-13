@@ -1,0 +1,1 @@
+select (select count(*) from gt_roster r where r.ROS_ROSTERPLAN_ID = rp.RPL_ID) as cnt\nfrom gt_rosterplan rp\nwhere rp.RPL_ID = 432065061

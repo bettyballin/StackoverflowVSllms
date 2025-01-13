@@ -1,1 +1,0 @@
-TextBox1.ViewStateMode = ViewStateMode.Disabled;

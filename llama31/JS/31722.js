@@ -1,0 +1,1 @@
+$('#fileInput').uploadify({\n    // ...\n    postData: { token: $('#token').val() }\n});

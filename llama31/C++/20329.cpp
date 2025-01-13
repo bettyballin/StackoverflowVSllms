@@ -1,1 +1,0 @@
-// internalclass.h (original)\nclass internalclass {\npublic:\n    void method1();\n    void method2();\n};\n\n// internalclass.h (updated)\nclass internalclass {\npublic:\n    void method1();\n    void method2();\n    void newMethod(); // new method added\n};

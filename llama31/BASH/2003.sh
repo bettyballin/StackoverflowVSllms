@@ -1,1 +1,0 @@
-# Save ACLs\nGet-Acl -Path C:\path\to\directory | Export-Clixml -Path aclfile.xml\n\n# Restore ACLs\n$acl = Import-Clixml -Path aclfile.xml\nSet-Acl -Path C:\path\to\directory -AclObject $acl

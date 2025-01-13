@@ -1,0 +1,1 @@
+-- Example: Running Explain Plan on a query\nEXPLAIN PLAN FOR\nSELECT *\nFROM customers\nWHERE country='USA' AND age>18;\n\n-- Example: Creating an index on a column\nCREATE INDEX idx_country_age ON customers (country, age);

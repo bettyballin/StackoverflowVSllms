@@ -1,1 +1,0 @@
-svn merge --dry-run -r BASE:HEAD .\nif [ $? -ne 0 ]; then\n  echo "Conflict detected!"\nfi

@@ -1,0 +1,1 @@
+document.getElementById('cancelButton').addEventListener('click', function() {\n    var tooltips = document.querySelectorAll('.tooltip');\n    tooltips.forEach(function(tooltip) {\n        tooltip.parentNode.removeChild(tooltip);\n    });\n});

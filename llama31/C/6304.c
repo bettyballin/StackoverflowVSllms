@@ -1,1 +1,0 @@
-for (i = 1; i < length; i++) {\n    particle temp = particles[i]; // store the entire particle struct\n    j = i - 1;\n    while (j >= 0 && particles[j].position.x > temp.position.x) {\n        particles[j + 1] = particles[j];\n        j = j - 1;\n    }\n    particles[j + 1] = temp; // assign the entire particle struct\n}

@@ -1,0 +1,1 @@
+WITH recursive_cte AS (\n    SELECT TOP 1 id, * FROM your_table ORDER BY id\n    UNION ALL\n    SELECT t.id, * FROM your_table t\n    INNER JOIN recursive_cte r ON t.id = r.id + 1\n)\nSELECT * FROM recursive_cte;

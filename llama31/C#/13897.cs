@@ -1,1 +1,0 @@
-button = (mshtml.HTMLButtonElement)theDoc.getElementById("ID1");

@@ -1,1 +1,0 @@
-[Test]\npublic void MyTest([Range(0, 100)] int value) \n{\n    // Use value in your test\n}

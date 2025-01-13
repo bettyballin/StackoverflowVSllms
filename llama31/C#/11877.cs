@@ -1,1 +1,0 @@
-[Table(Name = "Customers")]\npublic class Customer\n{\n    // ...\n}

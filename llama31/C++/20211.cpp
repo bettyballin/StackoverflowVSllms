@@ -1,1 +1,0 @@
-hr = pGIT->RevokeInterfaceFromGlobal(dwCookie);\nif (FAILED(hr)) { /* handle error */ }

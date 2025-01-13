@@ -1,1 +1,0 @@
-ildasm /DEPENDENCIES yourapp.exe

@@ -1,1 +1,0 @@
-mysqlbinlog --start-position=<start_position> --stop-position=<stop_position> <binary_log_file> | mysql -h <host> -u <user> -p<password> <database>

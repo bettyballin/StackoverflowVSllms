@@ -1,0 +1,1 @@
+Options (BindSize=10000000,Readsize=10000000,Rows=5000,Errors=100)\n  Load Data\n  Infile 'XXX.txt'\n  Append into table T_XXX\n  Fields Terminated By ';'\n  TRAILING NULLCOLS\n(\n    ...\n    COMMENTS BOUNDFILLER,\n    ...\n)

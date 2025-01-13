@@ -1,1 +1,0 @@
-foreach (People someone in Peoples)\n{\n    if (someone.Name == "foo")\n    {\n        break;\n    }\n    // rest of your code\n}

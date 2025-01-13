@@ -1,0 +1,1 @@
+CREATE PROCEDURE grant_select_on_all_tables()\nBEGIN\n    FOR TABLE IN (SELECT tabname FROM systables WHERE tabtype = 'T')\n    LOOP\n        EXECUTE IMMEDIATE 'GRANT SELECT ON ' || TABLE.tabname || ' TO someuser AS dba';\n    END LOOP;\nEND;

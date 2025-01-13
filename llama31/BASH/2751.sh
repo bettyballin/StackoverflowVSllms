@@ -1,1 +1,0 @@
-awk '/^Release: / { $2++; print; next } { print }' file.txt > file.new

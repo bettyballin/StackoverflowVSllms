@@ -1,1 +1,0 @@
-using Microsoft.WindowsMobile.Storage;\n\n// Get the Application Data folder\nstring appDataPath = Path.Combine(\n    Environment.GetFolderPath(Environment.SpecialFolder.ApplicationData),\n    "<YourAppName>");\n\n// Get the My Documents folder\nstring myDocsPath = Environment.GetFolderPath(Environment.SpecialFolder.MyDocuments);

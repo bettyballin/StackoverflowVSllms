@@ -1,0 +1,1 @@
+print(detect_repetitions(['a', 'b', 'c', 'b', 'c', 'a', 'b', 'c', 'b', 'c', 'a', 'b', 'b']))

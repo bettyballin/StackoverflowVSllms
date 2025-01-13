@@ -1,0 +1,1 @@
+function checkForm() {\n    name = document.getElementById("name").value;\n    email = document.getElementById("email").value;\n    terms = document.getElementById("terms").checked;\n\n    // ... rest of the function remains the same ...\n}

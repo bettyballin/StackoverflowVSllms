@@ -1,1 +1,0 @@
-ul.blogEntry li.title {\n  background-color: #67A7FF;\n  font-size: 14px;\n  font-weight: bold;\n}\n\nul.blogEntry li.title:after {\n  content: "";\n  display: table;\n  clear: both;\n}\n\nul.blogEntry li.title span {\n  display: inline;\n}\n\nul.blogEntry li.title span.date {\n  float: right;\n}

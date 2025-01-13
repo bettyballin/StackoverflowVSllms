@@ -1,1 +1,0 @@
-OleDbParameter parameter = cmd.Parameters.Add(null, OleDbType.Integer);\nparameter.DbType = System.Data.DbType.Int32;\nparameter.IsNullable = true;\n\nif (myValue == null)\n{\n    cmd.CommandText = "select * from myTable where myColumn IS NULL";\n}\nelse\n{\n    cmd.CommandText = "select * from myTable where myColumn = ?";\n    parameter.Value = myValue;\n}

@@ -1,1 +1,0 @@
-CC=gcc\nCFLAGS=-o output_file\n\nall:\n    $(CC) $(CFLAGS) source_file.c

@@ -1,0 +1,1 @@
+<?php\n$data = $_POST['foo'];\n// process the data and return a response\necho "Received data: $data";\n?>

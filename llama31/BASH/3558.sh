@@ -1,1 +1,0 @@
-#!/bin/bash\n\nGCC_4.1=/usr/local/gcc-4.1/bin/gcc\nINCLUDES=-I/usr/local/gcc-4.1/include\nLIBS=-L/usr/local/gcc-4.1/lib\n\n$GCC_4.1 -nostdinc -nostdlib $INCLUDES $LIBS "$@"

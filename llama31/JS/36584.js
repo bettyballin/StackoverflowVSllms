@@ -1,0 +1,1 @@
+$(document).ready(function() {\n    setTimeout(function() {\n        $('.foobar').css("display","none");\n        $('.doobar').css("display","inline");\n        // ... so on and so forth ...\n    }, 100); // adjust the delay as needed\n});

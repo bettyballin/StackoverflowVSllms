@@ -1,1 +1,0 @@
-// Create a new PropertyGridEx instance\nPropertyGridEx grid = new PropertyGridEx();\n\n// Add a property with multiple lines\ngrid.Properties.Add(new PropertyGridExProperty("MultiLineProperty", "Line 1\r\nLine 2\r\nLine 3"));

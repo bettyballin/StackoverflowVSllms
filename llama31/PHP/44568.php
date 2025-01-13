@@ -1,0 +1,1 @@
+$array = array('key1' => 'value1', 'key2' => 'value2');\n$json = json_encode($array);\n\necho "<script>var data = $json;</script>";

@@ -1,1 +1,0 @@
-using System.Data.Linq;\n\n[Table(Name = "MyClasses")]\npublic class MyClass\n{\n    [Column(IsPrimaryKey = true)]\n    public int Id { get; set; }\n\n    [Column]\n    public string Name { get; set; }\n}

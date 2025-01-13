@@ -1,1 +1,0 @@
-FreeLibrary(hDll);

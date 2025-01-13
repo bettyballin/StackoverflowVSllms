@@ -1,1 +1,0 @@
-sc config fax start= auto

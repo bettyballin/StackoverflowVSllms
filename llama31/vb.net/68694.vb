@@ -1,0 +1,1 @@
+Imports Core\n\nPublic Class MyClass\n    Private instance As Core.ObjectName\nEnd Class

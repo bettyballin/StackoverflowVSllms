@@ -1,0 +1,1 @@
+// Get the current document\nvar doc = fl.getDocumentDOM();\n\n// Get the stage object\nvar stage = doc.getStage();\n\n// Access stage properties and methods\nstage.width = 800;\nstage.height = 600;

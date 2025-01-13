@@ -1,1 +1,0 @@
-var names = new[] { "Alice", null, "Bob", null, "Charlie" };\nvar nonNullNames = names.Select(n => n ?? "Unknown"); // Returns ["Alice", "Unknown", "Bob", "Unknown", "Charlie"]

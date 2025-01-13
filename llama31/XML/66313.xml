@@ -1,0 +1,1 @@
+<xsl:if test="count(preceding-sibling::*) &lt; 3">\n  <!-- node is one of the first three children -->\n</xsl:if>

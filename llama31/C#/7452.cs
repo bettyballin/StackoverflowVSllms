@@ -1,1 +1,0 @@
-// MyUtilities.dll\n\nnamespace MyUtilities\n{\n    public class EncryptionHelper\n    {\n        // ...\n    }\n\n    public class Logger\n    {\n        // ...\n    }\n\n    public class CustomErrorForm : Form\n    {\n        // ...\n    }\n\n    public class PrintPreviewDialog : Form\n    {\n        // ...\n    }\n}

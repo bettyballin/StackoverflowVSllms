@@ -1,0 +1,1 @@
+Public Property MyList() As ObservableCollection(Of String)\n    Get\n        Return _mylist\n    End Get\n    Set(ByVal value As ObservableCollection(Of String))\n        _mylist = value\n    End Set\nEnd Property\n\nPrivate _mylist As New ObservableCollection(Of String)\n\nPublic Sub New()\n    _mylist.Add("Joe")\n    _mylist.Add("Steve")\nEnd Sub

@@ -1,1 +1,0 @@
-gswin64c.exe -dBATCH -dNOPAUSE -sDEVICE=pdfwrite -dPDFSETTINGS=/prepress -sOutputFile=output.pdf input.pdf

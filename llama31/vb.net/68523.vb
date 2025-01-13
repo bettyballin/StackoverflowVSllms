@@ -1,0 +1,1 @@
+Session.Timeout = 20 ' in minutes

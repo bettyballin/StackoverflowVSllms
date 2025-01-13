@@ -1,0 +1,1 @@
+def szudzik_pairing(a, b):\n    if a >= b:\n        return a * a + a + b\n    else:\n        return a + b * b

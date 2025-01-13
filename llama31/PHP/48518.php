@@ -1,0 +1,1 @@
+header('Location: /error-page', true, 404);\nexit;

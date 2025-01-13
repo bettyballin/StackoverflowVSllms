@@ -1,1 +1,0 @@
-.sticky-div {\n  position: fixed;\n  top: 0;\n  left: 0;\n  width: 100%;\n  z-index: 9999; /* adjust the z-index value as needed */\n}

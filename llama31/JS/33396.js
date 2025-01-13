@@ -1,0 +1,1 @@
+$.ajax({\n  type: 'GET',\n  url: 'ConferenceRoomSchedules.xml',\n  dataType: 'xml',\n  success: function(xml) {\n    // access the response XML using the xml property\n    console.log(xml.documentElement.nodeName);\n  }\n});

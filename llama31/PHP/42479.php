@@ -1,0 +1,1 @@
+$rtfContent = '...your rtf content here...';\n\n$pattern = '/}\s*\\\page.*?\{\\\rtf1.*?\}/s';\n$replacement = '\\\page';\n\n$cleanRtfContent = preg_replace($pattern, $replacement, $rtfContent);\n\necho $cleanRtfContent;

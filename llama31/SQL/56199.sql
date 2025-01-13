@@ -1,0 +1,1 @@
+CREATE FUNCTION MyFunc (@datepart varchar(2), @date datetime)\nRETURNS int\nAS\nBEGIN\n    IF @datepart NOT IN ('dd', 'mm', 'yy', 'hh') \n        RAISERROR('Invalid datepart constant', 16, 1);\n\n    -- rest of your function logic here\nEND

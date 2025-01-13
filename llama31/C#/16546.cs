@@ -1,1 +1,0 @@
-myNewRow.myGuidColumn = myGuid.GetValueOrDefault();

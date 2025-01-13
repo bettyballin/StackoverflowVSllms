@@ -1,0 +1,1 @@
+<plugin>\n  <groupId>org.eclipse.jetty</groupId>\n  <artifactId>jetty-maven-plugin</artifactId>\n  <configuration>\n    <webAppConfig>\n      <jspConfig>\n        <sourceLevel>1.5</sourceLevel>\n      </jspConfig>\n    </webAppConfig>\n  </configuration>\n</plugin>

@@ -1,1 +1,0 @@
-mysqldump -u yourusername -p yourdatabase > backup.sql\ngit add backup.sql\ngit commit -m "Backup database"\ngit push origin master

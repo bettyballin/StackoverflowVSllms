@@ -1,0 +1,1 @@
+SET SQLBLANKLINES ON\n\nCREATE TABLE Person (\n  name CHAR(10),\n\n  ssn INTEGER\n);

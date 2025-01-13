@@ -1,1 +1,0 @@
-iptables-save > /etc/iptables.rules

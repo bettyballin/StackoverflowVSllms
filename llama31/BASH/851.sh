@@ -1,1 +1,0 @@
-sql -username <username> -password <password> -connect <hostname>:<port>/<service_name>

@@ -1,0 +1,1 @@
+// Open the file containing the list of files to delete\n$fp = fopen('delete_files.txt', 'r');\nwhile ($line = fgets($fp)) {\n    list($file, $deleteTime) = explode('|', $line);\n    if (time() > $deleteTime) {\n        unlink($file);\n    }\n}\nfclose($fp);

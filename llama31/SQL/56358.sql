@@ -1,0 +1,1 @@
+UPDATE your_table\nSET sort_order = ROW_NUMBER() OVER (PARTITION BY item1ID ORDER BY item2ID)

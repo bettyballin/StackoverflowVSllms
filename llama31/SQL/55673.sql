@@ -1,0 +1,1 @@
+DECLARE @tablevar TABLE (COLUMN_NAME nvarchar(128));\n\nINSERT INTO @tablevar\nEXEC sp_columns 'tblSomeTableName';\n\nSELECT COLUMN_NAME FROM @tablevar;

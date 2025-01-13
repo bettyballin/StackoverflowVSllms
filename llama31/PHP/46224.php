@@ -1,0 +1,1 @@
+$data = array('foo' => 'bar', 'baz' => 'qux');\n$serialized = serialize($data);\n// Store $serialized in a database column\n\n// Later, retrieve the data and unserialize it\n$unserialized = unserialize($serialized);\nprint_r($unserialized); // Output: Array ( [foo] => bar [baz] => qux )

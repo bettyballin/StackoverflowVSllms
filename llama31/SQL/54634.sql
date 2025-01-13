@@ -1,0 +1,1 @@
+CREATE TABLE BigTable AS\nSELECT col1, col2, col3 FROM Table1\nUNION ALL\nSELECT col1, col2, col3 FROM Table2;

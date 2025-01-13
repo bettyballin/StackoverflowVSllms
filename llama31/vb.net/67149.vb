@@ -1,0 +1,1 @@
+Private myButton As Button\n\nPrivate Sub AttachEventHandler()\n    AddHandler myButton.Click, AddressOf myButton_Click\nEnd Sub\n\nPrivate Sub myButton_Click(sender As Object, e As EventArgs)\n    ' Event handler code\nEnd Sub

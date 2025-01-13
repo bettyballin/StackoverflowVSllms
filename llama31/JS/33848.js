@@ -1,0 +1,1 @@
+// Get the current PDF document\nvar doc = app.activeDocs[0];\n\n// Create a new tag\nvar tag = doc.tags.add("p", "Para");\n\n// Set the tag properties\ntag.title = "Paragraph";\ntag.altText = "This is a paragraph of text";

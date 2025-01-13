@@ -1,0 +1,1 @@
+$(document).ready(function() {\n  $(document).on('change', '#c_b input[type="checkbox"]', function() {\n    var checkedValues = $('#c_b input[type="checkbox"]:checked').map(function() {\n      return $(this).val();\n    }).get().join(',');\n    $('#t').val(checkedValues);\n  });\n});

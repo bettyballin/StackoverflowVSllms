@@ -1,0 +1,1 @@
+// In your index/main.phtml\n<?= $this->someVariable ?>

@@ -1,0 +1,1 @@
+UPDATE UserAttributes\nSET str1 = SUBSTRING(Data, 1, CHARINDEX('~@~', Data) - 1),\n    str2 = SUBSTRING(Data, CHARINDEX('~@~', Data) + 3, LEN(Data))

@@ -1,0 +1,1 @@
+function experience_query($id) {\n    $mysqli = new mysqli("localhost", "username", "password", "database");\n    $stmt = $mysqli->prepare("SELECT * FROM table WHERE id = ?");\n    $stmt->bind_param("i", $id);\n    $stmt->execute();\n    $result = $stmt->get_result();\n    return $result;\n}

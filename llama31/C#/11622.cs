@@ -1,1 +1,0 @@
-using (var dbContext = new MyDbContext())\n{\n    var user = dbContext.Users.FirstOrDefault();\n    if (user.EmailAddress == null) // equivalent to DBNull\n    {\n        Console.WriteLine("Email address is null");\n    }\n}

@@ -1,0 +1,1 @@
+foreach ($_POST as $key => $value) {\n    if (preg_match('/^address\d+$/', $key)) {\n        // Process each address field\n        echo "$key: $value\n";\n    }\n}

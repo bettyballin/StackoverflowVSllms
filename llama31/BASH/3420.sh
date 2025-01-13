@@ -1,1 +1,0 @@
-jscriptmem.exe -h

@@ -1,0 +1,1 @@
+$.ajaxSetup({\n  timeout: 1000 // 1 second timeout\n});\n\n$(window).on('beforeunload', function() {\n  $.ajaxActive = $.ajaxActive.filter(function(xhr) {\n    xhr.abort();\n    return false;\n  });\n});

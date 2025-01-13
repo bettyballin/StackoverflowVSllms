@@ -1,1 +1,0 @@
-#include <cstdint>\n#include <string>\n\nuint32_t fnv1a_hash(const std::string& str) {\n    const uint32_t prime = 0x811C9DC5;\n    uint32_t hash = 0;\n    for (char c : str) {\n        hash = (hash ^ c) * prime;\n    }\n    return hash;\n}

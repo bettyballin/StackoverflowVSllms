@@ -1,0 +1,1 @@
+CREATE OR REPLACE PROCEDURE get_lob_data(\n  p_id IN NUMBER,\n  p_lob_data OUT VARCHAR2\n)\nAS\n  v_lob_data VARCHAR2(4000);\nBEGIN\n  SELECT DBMS_LOB.SUBSTR(column_lob, 4000, 1)\n  INTO v_lob_data\n  FROM data_user.sample_table@TEST_LINK\n  WHERE id = p_id;\n\n  p_lob_data := v_lob_data;\nEND;\n/

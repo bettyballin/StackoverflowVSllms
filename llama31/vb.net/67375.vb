@@ -1,0 +1,1 @@
+<AttributeUsage(AttributeTargets.Class)>\nPublic Class TestAttr\n    Inherits Attribute\n\n    Public Sub New(param1 As String, param2 As String, Optional Optional1 As String = "", Optional Optional2 As Integer = 0)\n        ' ...\n    End Sub\nEnd Class

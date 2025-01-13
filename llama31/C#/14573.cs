@@ -1,1 +1,0 @@
-string redirectUrl = Request.QueryString["redirectUrl"];\nif (!string.IsNullOrEmpty(redirectUrl) && IsUrlLocal(redirectUrl))\n{\n    Response.Redirect(redirectUrl);\n}\n\n// Helper method to check if the URL is local\nprivate bool IsUrlLocal(string url)\n{\n    Uri uri = new Uri(url);\n    return uri.Host == Request.Url.Host;\n}

@@ -1,1 +1,0 @@
-// native code (e.g., C)\n#include <jni.h>\n\n// ...\n\njclass clazz = (*env)->FindClass(env, "your/java/Class");\njmethodID method = (*env)->GetMethodID(env, clazz, "yourMethod", "()V");\n(*env)->CallVoidMethod(env, obj, method);

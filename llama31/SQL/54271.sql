@@ -1,0 +1,1 @@
+CREATE PROCEDURE my_stored_procedure(IN input_value INT, OUT out_value INT)\nBEGIN\n    SET out_value = input_value * 2;\nEND;

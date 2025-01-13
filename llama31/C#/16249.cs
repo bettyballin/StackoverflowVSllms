@@ -1,1 +1,0 @@
-using (SqlConnection conn = new SqlConnection(connectionString))\n{\n    conn.Open();\n    SqlCommand cmd = new SqlCommand("MyProc", conn);\n    cmd.CommandType = CommandType.StoredProcedure;\n    SqlDataReader reader = cmd.ExecuteReader();\n    while (reader.Read())\n    {\n        string message = reader["Message"].ToString();\n        // Process the message\n    }\n}

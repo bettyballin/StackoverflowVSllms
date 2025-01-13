@@ -1,0 +1,1 @@
+const RegExpTree = require('regexp-tree');\n\nconst regex = new RegExpTree('a*b');\nconst matcher = regex.matcher('aaab');\n\nwhile (matcher.find()) {\n  console.log(matcher.group(0)); // Output: "aaab"\n}

@@ -1,1 +1,0 @@
-body {\n  padding-bottom: 50px; /* Assuming your widget is 50px high */\n}\n\n#widget {\n  position: fixed;\n  bottom: 0;\n  height: 50px;\n}

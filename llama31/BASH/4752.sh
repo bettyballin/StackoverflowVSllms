@@ -1,1 +1,0 @@
-cat /path/to/virtual_file

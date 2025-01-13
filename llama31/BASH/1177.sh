@@ -1,1 +1,0 @@
-tar -X exclude_list.txt -zcvf archive.tar.gz /directory/to/archive

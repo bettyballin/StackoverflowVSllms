@@ -1,0 +1,1 @@
+SELECT \n  DATE(order_placed_date) AS order_date, \n  COUNT(order_id) AS num_orders, \n  SUM(order_total) AS daily_total\nFROM \n  orders\nWHERE \n  YEAR(order_placed_date) = YEAR(CURRENT_DATE) \n  AND MONTH(order_placed_date) = MONTH(CURRENT_DATE)\nGROUP BY \n  DATE(order_placed_date)

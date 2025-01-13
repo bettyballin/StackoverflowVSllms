@@ -1,0 +1,1 @@
+const timeInput = document.getElementById('time-input');\n\ntimeInput.addEventListener('input', () => {\n  const value = timeInput.value;\n  const regex = /^([01][0-9]|2[0-3]):?([0-5][0-9])?$/;\n  \n  if (value.length === 2 && value.match(/^[0-9]{2}$/)) {\n    timeInput.value = `${value}:`;\n  } else if (!value.match(regex)) {\n    timeInput.value = value.slice(0, -1);\n  }\n});

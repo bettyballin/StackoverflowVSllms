@@ -1,1 +1,0 @@
-using HtmlAgilityPack;\n\n// Load the HTML document\nvar html = "<html><body><h1>Hello World!</h1></body></html>";\nvar doc = new HtmlDocument();\ndoc.LoadHtml(html);\n\n// Parse the HTML document\nvar nodes = doc.DocumentNode.SelectNodes("//h1");\n\n// Iterate over the nodes\nforeach (var node in nodes)\n{\n    Console.WriteLine(node.InnerText); // Output: Hello World!\n}

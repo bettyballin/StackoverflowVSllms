@@ -1,1 +1,0 @@
-var records = dbContext.Table.AsEnumerable()\n    .Where((x, i) => i % 5 == 0)\n    .ToList();

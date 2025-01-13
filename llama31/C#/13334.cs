@@ -1,1 +1,0 @@
-using System.Runtime.InteropServices;\n\n// Assuming 'obj' is the COM object\nIDispatch disp = (IDispatch)obj;\nIntPtr typeInfoPtr;\ndisp.GetTypeInfo(0, 0, out typeInfoPtr);\nITypeInfo typeInfo = (ITypeInfo)Marshal.GetObjectForIUnknown(typeInfoPtr);\n\n// Use typeInfo to inspect the object's methods and properties

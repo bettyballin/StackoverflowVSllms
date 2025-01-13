@@ -1,0 +1,1 @@
+// file: vendor/composer/autoload_classmap.php\nreturn array(\n    'Libs\\User\\User' => $baseDir . '/libs/User/User.php',\n    // ...\n);

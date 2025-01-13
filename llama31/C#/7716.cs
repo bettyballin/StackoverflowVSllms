@@ -1,1 +1,0 @@
-string formatString = "{0:dddd MMMM}";\nType[] argumentTypes = new Type[] { typeof(int) };\n\nFormatStringValidator validator = new FormatStringValidator();\nbool isValid = validator.IsValidFormatString(formatString, argumentTypes);\n\nConsole.WriteLine(isValid); // Output: False

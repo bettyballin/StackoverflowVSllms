@@ -1,1 +1,0 @@
-foreach (string file in Directory.EnumerateFiles("S:\\", "*", SearchOption.AllDirectories))\n{\n    // process file\n}

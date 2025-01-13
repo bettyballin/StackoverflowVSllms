@@ -1,0 +1,1 @@
+def count_neighbors(grid, x, y):\n    neighbors = 0\n    for dx in [-1, 0, 1]:\n        for dy in [-1, 0, 1]:\n            if dx == 0 and dy == 0:\n                continue  # skip the current cell\n            nx, ny = x + dx, y + dy\n            if nx >= 0 and nx < len(grid) and ny >= 0 and ny < len(grid[0]):\n                neighbors += grid[nx][ny]\n    return neighbors

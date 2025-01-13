@@ -1,0 +1,1 @@
+$subfolderRoute = new Zend_Controller_Router_Route_Static('subfolder');\n$router = Zend_Controller_Front::getInstance()->getRouter();\n\n// Chain the subfolder route with the default route\n$defaultRoute = $router->getRoute('default');\n$router->addRoute('default', $subfolderRoute->chain($defaultRoute));

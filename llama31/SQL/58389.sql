@@ -1,0 +1,1 @@
+DELETE FROM your_table\nWHERE pri_id IN (\n  SELECT pri_id\n  FROM (\n    SELECT pri_id, item_id, date,\n           ROW_NUMBER() OVER (PARTITION BY item_id ORDER BY date DESC) AS row_num\n    FROM your_table\n  ) AS subquery\n  WHERE item_id = ? AND date < ? AND row_num > 15\n);

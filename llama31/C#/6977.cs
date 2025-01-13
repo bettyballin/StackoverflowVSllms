@@ -1,1 +1,0 @@
-var xdoc = XDocument.Parse("<root><item><element><child/></element></item></root>");\nvar child = xdoc.Descendants("child").First();\nvar path = child.GetXPath();\nConsole.WriteLine(path);  // outputs: /root[1]/item[1]/element[1]/child[1]

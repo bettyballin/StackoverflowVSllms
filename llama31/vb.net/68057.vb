@@ -1,0 +1,1 @@
+Dim nodes As XmlNodeList = objDoc.SelectNodes("//books/book")\nFor i As Integer = 0 To nodes.Count - 1\n    Dim objNode As XmlNode = nodes(i)\n    ' Do something with the node and the index (i + 1)\n    Console.WriteLine(i + 1)\nNext

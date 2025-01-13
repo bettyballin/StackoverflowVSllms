@@ -1,1 +1,0 @@
-using System.Security.Cryptography.X509Certificates;\n\n// Load a certificate using X509Certificate\nX509Certificate cert = new X509Certificate("path/to/cert.cer");\n\n// Load a certificate using X509Certificate2\nX509Certificate2 cert2 = new X509Certificate2("path/to/cert.cer");

@@ -1,0 +1,1 @@
+<?xml version="1.0" encoding="UTF-8"?>\n<config>\n    <setting name="api_key">YOUR_API_KEY</setting>\n    <setting name="log_level">INFO</setting>\n</config>

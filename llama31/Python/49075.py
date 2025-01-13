@@ -1,0 +1,1 @@
+umbers = [i for i in range(0, 145, 6)]\nprint(numbers)

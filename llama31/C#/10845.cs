@@ -1,1 +1,0 @@
-protected void DeleteButton_Click(object sender, EventArgs e)\n{\n    // Start the delete operation\n    UpdateProgress1.Visible = true;\n    // Your delete logic here\n    // ...\n    // End the delete operation\n    UpdateProgress1.Visible = false;\n}

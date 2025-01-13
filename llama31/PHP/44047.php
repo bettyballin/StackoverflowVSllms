@@ -1,0 +1,1 @@
+$objects = array();\nforeach (get_defined_vars() as $var_name => $var_value) {\n    if (is_object($var_value)) {\n        $objects[$var_name] = get_class($var_value);\n    }\n}\nprint_r($objects);

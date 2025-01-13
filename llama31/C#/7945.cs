@@ -1,1 +1,0 @@
-using Markdig;\n\n// Assuming you have a 'markup' string from your database\nstring markup = "...";\n\n// Render to HTML\nvar html = Markdig.Markdown.ToHtml(markup);\n\n// Return the rendered HTML\nreturn html;

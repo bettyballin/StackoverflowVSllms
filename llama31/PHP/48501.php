@@ -1,0 +1,1 @@
+function f($x1, $x2, $x3, $x4) {\n    return (IntegerOverflowAdd($x1, $x2) ^ $x3) + $x4;\n}

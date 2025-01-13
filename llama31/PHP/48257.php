@@ -1,0 +1,1 @@
+foreach ($categories as $category) {\n    echo $category['Category']['name'] . "\n";\n    \n    if (isset($category['Forum'])) {\n        foreach ($category['Forum'] as $forum) {\n            echo $forum['name'] . "\n";\n        }\n    }\n}

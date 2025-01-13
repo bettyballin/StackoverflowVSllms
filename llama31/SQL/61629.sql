@@ -1,0 +1,1 @@
+SELECT * FROM your_table WITH (NOLOCK) WHERE your_primary_key_column = 'problematic_row_id'

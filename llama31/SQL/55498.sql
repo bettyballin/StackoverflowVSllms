@@ -1,0 +1,1 @@
+SELECT \n  name,\n  GROUP_CONCAT(size, ' ', date SEPARATOR '\n') AS details\nFROM \n  your_table\nGROUP BY \n  name

@@ -1,1 +1,0 @@
-char* argv[] = {"java", "-cp", "c:\\dir\\updates.jar;c:\\dir\\main.jar", "Main"};\n_spawnv(_P_WAIT, "java", argv);

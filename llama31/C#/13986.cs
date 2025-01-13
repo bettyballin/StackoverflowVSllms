@@ -1,1 +1,0 @@
-ListView listView = new ListView();\nlistView.View = View.Details;\nlistView.Columns.Add("Network Name");\nlistView.Columns.Add("Network Details");\n\n// Add WirelessNetworkViewItem instances to the ListView\nforeach (WirelessNetwork network in networks)\n{\n    WirelessNetworkViewItem item = new WirelessNetworkViewItem(network);\n    listView.Items.Add(item);\n}

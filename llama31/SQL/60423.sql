@@ -1,0 +1,1 @@
+ALTER TABLE dbo.Profiles\nADD LastUpdate AS (GETDATE() + 0) PERSISTED

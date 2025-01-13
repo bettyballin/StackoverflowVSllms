@@ -1,1 +1,0 @@
-public class DataWrapper\n{\n    private readonly object _data;\n\n    public DataWrapper(object data)\n    {\n        _data = data;\n    }\n\n    public override string ToString()\n    {\n        // serialize data to string\n        return Newtonsoft.Json.JsonConvert.SerializeObject(_data);\n    }\n}

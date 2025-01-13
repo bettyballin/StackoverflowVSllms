@@ -1,0 +1,1 @@
+var cookies = document.cookie.split(';');\nfor (var i = 0; i < cookies.length; i++) {\n  var cookie = cookies[i].trim();\n  var cookieName = cookie.split('=')[0];\n  console.log(cookieName);\n}

@@ -1,1 +1,0 @@
-:: On the old server\nmsdeploy -verb:sync -source:webServer -dest:auto,ComputerName='https://newserver'\n\n:: On the new server\nmsdeploy -verb:sync -source:auto -dest:webServer

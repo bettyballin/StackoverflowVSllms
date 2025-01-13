@@ -1,1 +1,0 @@
-#pragma pack(push, 1)\nstruct SomeStruct {\n    // ...\n};\n#pragma pack(pop)

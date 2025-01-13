@@ -1,1 +1,0 @@
-Int32   = 1\nDouble  = 1.0, 1.0e5, 1D\nDecimal = 1M\nSingle  = 1F\nInt16   = (short)1\nUInt64  = 1UL\nInt64   = 1L\nUInt32  = 1U\nUInt16  = (ushort)1\nByte    = (byte)1\nSByte   = (sbyte)1

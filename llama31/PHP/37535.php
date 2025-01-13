@@ -1,0 +1,1 @@
+function highlight_search_terms($text, $search_terms) {\n  $pattern = '/(' . implode('|', array_map('preg_quote', $search_terms)) . ')/i';\n  return preg_replace($pattern, '<span class="highlight">$1</span>', $text);\n}

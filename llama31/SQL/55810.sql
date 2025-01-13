@@ -1,0 +1,1 @@
+CREATE PROCEDURE delayed_update()\nBEGIN\n    SLEEP(3 * 60);  -- 3 minutes\n    UPDATE your_table SET checking_status = 'success';\nEND;

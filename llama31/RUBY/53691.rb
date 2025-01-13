@@ -1,0 +1,1 @@
+<%= button_to 'delete', complete_todo, :method => :delete, :confirm => 'Are you sure?' %>

@@ -1,1 +1,0 @@
-gcc test.cpp -o test\n# Linking errors due to missing -lstdc++

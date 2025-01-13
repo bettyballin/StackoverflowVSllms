@@ -1,0 +1,1 @@
+Protected Sub Page_Load(ByVal sender As Object, ByVal e As System.EventArgs) Handles Me.Load\n    Dim username As String = Session("Username")\n\n    If Not String.IsNullOrEmpty(username) AndAlso String.Equals(username, "medev", StringComparison.OrdinalIgnoreCase) Then\n        ImageButton1.Enabled = True\n    Else\n        ImageButton1.Enabled = False\n    End If\nEnd Sub

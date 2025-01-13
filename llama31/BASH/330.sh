@@ -1,1 +1,0 @@
-cvs update | tee /dev/tty | grep '^C' | sed '1i Conflict Summary:'

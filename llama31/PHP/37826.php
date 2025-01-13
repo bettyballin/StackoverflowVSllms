@@ -1,0 +1,1 @@
+$db = new Database();\n$myClass = new MyClass($db);

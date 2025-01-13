@@ -1,0 +1,1 @@
+$stmt = $pdo->prepare('SELECT * FROM your_table WHERE column = :value');\n$stmt->execute(['value' => $user_input]);

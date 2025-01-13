@@ -1,1 +1,0 @@
-ProcessStartWatcher watcher = new ProcessStartWatcher("notepad.exe");\n// ...\nwatcher.Stop();

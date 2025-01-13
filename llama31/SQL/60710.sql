@@ -1,0 +1,1 @@
+SELECT AVG(LENGTH(rowid) + \n           SUM(DATA_LENGTH) + \n           SUM(INDEX_LENGTH)) \nFROM USER_TAB_COLUMNS \nWHERE TABLE_NAME = 'your_table_name';

@@ -1,0 +1,1 @@
+// In the iframe\nconst data = { /* some data */ };\nconst callback = 'parentCallback';\nconst script = document.createElement('script');\nscript.src = `https://parent-page.com/callback?data=${JSON.stringify(data)}&callback=${callback}`;\ndocument.body.appendChild(script);\n\n// In the parent page\nfunction parentCallback(data) {\n  console.log(data); // { /* some data */ }\n}

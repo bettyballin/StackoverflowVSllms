@@ -1,1 +1,0 @@
-using StackExchange.Redis;\n\n// Connect to Redis\nvar connection = ConnectionMultiplexer.Connect("localhost");\nvar cache = connection.GetDatabase();\n\n// Set cache value\ncache.StringSet("myKey", "myValue");\n\n// Get cache value\nvar cachedValue = cache.StringGet("myKey");

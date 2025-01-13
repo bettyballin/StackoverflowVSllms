@@ -1,0 +1,1 @@
+active_entry_list = Entry.objects.filter(is_published=True, comment__approved='Y')\n    .annotate(latest_comment=Max('comment__date_published'), comments=Count('comment'))\n    .filter(comments__gte=1)\n    .values('name', 'name_slug', 'latest_comment')\n    .order_by('-latest_comment')[:6]

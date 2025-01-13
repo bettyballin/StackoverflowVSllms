@@ -1,0 +1,1 @@
+$pet = "lamb";\n$template = file_get_contents('myFile.txt');\n$newContents = strtr($template, array(\n    '$pet' => $pet,\n));

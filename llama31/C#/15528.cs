@@ -1,1 +1,0 @@
-using (var fileStream = new FileStream(Server.MapPath(imageFilename), FileMode.Create, FileAccess.Write))\n{\n    chart.SaveImage(fileStream, ChartImageFormat.Png);\n}

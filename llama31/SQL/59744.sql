@@ -1,0 +1,1 @@
+SELECT \n  (SELECT column_name FROM table_name ORDER BY rowid LIMIT 1) AS first_element,\n  (SELECT column_name FROM table_name ORDER BY rowid DESC LIMIT 1) AS last_element;

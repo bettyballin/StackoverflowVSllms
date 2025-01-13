@@ -1,0 +1,1 @@
+function startTime() {\n  return new Date().getTime();\n}\n\nfunction endTime() {\n  return new Date().getTime();\n}\n\nfunction mySlowFunction() {\n  var startTime = startTime();\n  // your slow code here\n  var endTime = endTime();\n  console.log("mySlowFunction took " + (endTime - startTime) + "ms");\n}

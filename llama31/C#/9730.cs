@@ -1,1 +1,0 @@
-private async void ScaleImage(object sender, EventArgs e)\n{\n    await Task.Run(() =>\n    {\n        // Your scaling code goes here\n    });\n}

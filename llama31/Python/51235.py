@@ -1,0 +1,1 @@
+import html\n\nhtml_string = "&#196;&#196;RITALO"\nunescaped_string = html.unescape(html_string)\n\nprint(unescaped_string)  # prints: ÄÄRITALO

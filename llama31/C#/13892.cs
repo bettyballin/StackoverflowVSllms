@@ -1,1 +1,0 @@
-using System.Collections;\nusing System.Linq;\n\n// assume 'list' is your List<object>\nvar hashtable = list.ToDictionary(\n    obj => (string)obj.GetType().GetProperty("Description").GetValue(obj),\n    obj => (int)obj.GetType().GetProperty("Id").GetValue(obj)\n);

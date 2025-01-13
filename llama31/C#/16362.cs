@@ -1,1 +1,0 @@
-public class Validator\n{\n    public bool Validate(IValidatableControl control)\n    {\n        string errorMessage;\n        if (!control.IsValid(out errorMessage))\n        {\n            // Display error message using your error control provider\n            return false;\n        }\n        return true;\n    }\n}

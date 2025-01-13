@@ -1,1 +1,0 @@
-tidy --show-comments yes input.html

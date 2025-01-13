@@ -1,1 +1,0 @@
-winegcc -o your_app your_app.c -lwinelib

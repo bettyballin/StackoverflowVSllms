@@ -1,0 +1,1 @@
+function getRootDomain($domain) {\n    $parts = explode('.', $domain);\n    if (count($parts) > 2) {\n        return implode('.', array_slice($parts, -2));\n    } else {\n        return $domain;\n    }\n}

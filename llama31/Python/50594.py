@@ -1,0 +1,1 @@
+import maya.cmds as cmds\n\ncons = cmds.ls(type='constraint')\nfor con in cons:\n    targets = cmds.getAttr(con + '.targetList')\n    print(targets)

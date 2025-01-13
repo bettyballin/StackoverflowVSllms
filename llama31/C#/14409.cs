@@ -1,1 +1,0 @@
-public class MyClass\n{\n    private readonly IHttpContextAccessor _httpContextAccessor;\n\n    public MyClass(IHttpContextAccessor httpContextAccessor)\n    {\n        _httpContextAccessor = httpContextAccessor;\n    }\n\n    public void MyMethod()\n    {\n        var myObject = (MyObject)_httpContextAccessor.HttpContext.Session["MyObject"];\n    }\n}

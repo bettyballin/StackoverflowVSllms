@@ -1,0 +1,1 @@
+def is_binary_file(file_path):\n    with open(file_path, 'rb') as file:\n        chunk = file.read(1024)\n        if b'\0' in chunk or not chunk.decode('utf-8', 'ignore').isprintable():\n            return True\n        return False

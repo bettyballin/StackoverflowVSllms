@@ -1,0 +1,1 @@
+INSERT INTO account_type_standard (account_type_Standard_id, tax_status_id, recipient_id)\nSELECT account_type_standard_seq.nextval, ts.tax_status_id, r.recipient_id\nFROM tax_status ts\nLEFT JOIN recipient r ON r.recipient_code = ?\nWHERE ts.tax_status_code = ?

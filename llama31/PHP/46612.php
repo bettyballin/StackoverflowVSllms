@@ -1,0 +1,1 @@
+$stmt = $db->prepare('\n  SELECT id, title, date, content\n  FROM (\n    SELECT id, title, date, content, views\n    FROM news\n    ORDER BY date DESC\n    LIMIT 20\n  ) AS recent\n  ORDER BY views DESC\n  LIMIT 5\n');\n$stmt->execute();\n$result = $stmt->fetchAll();

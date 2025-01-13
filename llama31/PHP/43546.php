@@ -1,0 +1,1 @@
+$cubes_with_usd_currency = $xpath->query("//Cube[@currency='USD']");

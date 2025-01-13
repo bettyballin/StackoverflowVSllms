@@ -1,1 +1,0 @@
-git fetch git@url.com:/home/username/workfolder/

@@ -1,1 +1,0 @@
-protected void Session_Start(object sender, EventArgs e)\n{\n    // Initialize session variables\n    Session["UserId"] = null;\n    Session["Username"] = null;\n\n    // Set up session-specific settings\n    Session.Timeout = 30; // in minutes\n}

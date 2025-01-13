@@ -1,0 +1,1 @@
+SELECT * FROM user_permissions\nWHERE user_id = $1 AND permission_id = (SELECT id FROM permissions WHERE name = 'CREATE_POST');

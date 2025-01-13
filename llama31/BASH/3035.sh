@@ -1,1 +1,0 @@
-find images -type f -name '*.jpg' | while read file; do\n  prefix=${file:0:3}  # extract first 3 characters of filename\n  mkdir -p "images/$prefix"  # create directory if it doesn't exist\n  mv "$file" "images/$prefix/"  # move file to new directory\ndone

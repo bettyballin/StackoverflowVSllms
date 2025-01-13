@@ -1,1 +1,0 @@
-LogManager.GetLogger("EntityFramework").Info("SQL Query: {0}", sql);

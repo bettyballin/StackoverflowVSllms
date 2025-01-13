@@ -1,1 +1,0 @@
-auto_ptr<Table> table;\ntable.reset(db->query("select * from t"));

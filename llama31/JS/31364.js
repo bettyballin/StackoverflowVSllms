@@ -1,0 +1,1 @@
+// load content into the iframe\nloadContent('https://example.com/small-content');\nloadContent('https://example.com/medium-content');\nloadContent('https://example.com/large-content');

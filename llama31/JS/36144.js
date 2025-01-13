@@ -1,0 +1,1 @@
+const crypto = require('crypto');\nconst token = crypto.randomBytes(16).toString('hex');\nSession("EditModeToken") = token;

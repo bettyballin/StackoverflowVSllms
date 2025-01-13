@@ -1,1 +1,0 @@
-// Example usage:\nEsri.ArcGIS.Client.Map map = new Esri.ArcGIS.Client.Map();\nmap.AddLayer(new Esri.ArcGIS.Client.ArcGISTiledMapServiceLayer(\n    "http://services.arcgisonline.com/ArcGIS/rest/services/World_Street_Map/MapServer"));

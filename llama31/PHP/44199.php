@@ -1,0 +1,1 @@
+// index.php (front controller)\nrequire_once ' filters.php';\n// Route request to appropriate controller

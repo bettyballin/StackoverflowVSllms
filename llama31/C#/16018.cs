@@ -1,1 +1,0 @@
-[OperationContract]\nbool IsServiceAvailable();\n\n// On the client-side:\nif (base.Channel.IsServiceAvailable())\n{\n    base.Channel.RemoteMethod();\n}

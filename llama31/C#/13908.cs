@@ -1,1 +1,0 @@
-class Program\n{\n    static void Main()\n    {\n        // Assuming your parent process ID is 1234\n        int parentProcessId = 1234;\n        \n        // Terminate its child processes\n        ProcessHelper.TerminateChildProcesses(parentProcessId);\n    }\n}

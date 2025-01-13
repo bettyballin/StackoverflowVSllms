@@ -1,0 +1,1 @@
+USE [dev_database]\nGO\n\nTRUNCATE TABLE [logging_table]\nGO\n\nDELETE FROM [useless_table]\nGO

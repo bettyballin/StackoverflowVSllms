@@ -1,0 +1,1 @@
+class Validator {\n  public function validate($input, $rules) {\n    foreach ($rules as $rule) {\n      if (!preg_match($rule, $input)) {\n        return false;\n      }\n    }\n    return true;\n  }\n}

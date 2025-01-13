@@ -1,0 +1,1 @@
+SELECT \n  COUNT(*) \nFROM \n  v$open_cursor;

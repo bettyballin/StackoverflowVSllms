@@ -1,0 +1,1 @@
+describe ScoringMethods do\n  describe "should have scorePublicContest method" do\n    methods = ScoringMethods.instance_methods\n    expect(methods[0]).to match(/scorePublicContest/)\n  end\nend

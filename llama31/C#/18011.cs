@@ -1,1 +1,0 @@
-dataGridView1.DefaultCellStyle.Font = new Font("Segoe UI", 10);\ndataGridView1.DefaultCellStyle.ForeColor = Color.FromArgb(64, 64, 64);\ndataGridView1.DefaultCellStyle.BackColor = Color.White;

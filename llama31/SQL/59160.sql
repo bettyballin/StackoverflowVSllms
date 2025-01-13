@@ -1,0 +1,1 @@
+SELECT *\nFROM Keyboard\nWHERE KeyboardID = (SELECT MAX(KeyboardID) - 1 FROM Keyboard)

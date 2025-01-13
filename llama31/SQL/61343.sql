@@ -1,0 +1,1 @@
+SELECT STRING_AGG(column_name, ',') AS comma_delimited_list\nFROM your_table

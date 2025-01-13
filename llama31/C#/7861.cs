@@ -1,1 +1,0 @@
-Object[,] array = new Object[list.Count, list[0].Length];\n\nfor (int i = 0; i < list.Count; i++)\n{\n    for (int j = 0; j < list[i].Length; j++)\n    {\n        array[i, j] = list[i][j];\n    }\n}

@@ -1,0 +1,1 @@
+INSERT INTO sequencer (id) VALUES (NULL);

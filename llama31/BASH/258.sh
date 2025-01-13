@@ -1,1 +1,0 @@
-rtmpdump -r rtmp://fms-server.com/app -o shared_object.amf -t "SharedObject.getRemote('shared_object_name')"

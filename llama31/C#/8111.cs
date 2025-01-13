@@ -1,1 +1,0 @@
-for (int page = 1; page <= pdfReader.NumberOfPages; page++)\n{\n    var text = PdfTextExtractor.GetTextFromPage(pdfReader, page);\n    // ...\n}

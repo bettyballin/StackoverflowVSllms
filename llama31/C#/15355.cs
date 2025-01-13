@@ -1,1 +1,0 @@
-public class MyType {        \n    public string Name {get;set;}\n    public decimal Value { get; set; }\n}\n\nDictionary<int, CustomType> dict;\n\ndict = (from t in table\n        select new {\n           id = av.Account.Id,\n           mt = new MyType { Name = t.Name, Value = t.Value }\n        }).ToDictionary(item => item.id, item => item.mt);

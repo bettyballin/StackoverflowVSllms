@@ -1,1 +1,0 @@
-CFLAGS="-fdisable-gcov"\nCXXFLAGS="-fdisable-gcov"

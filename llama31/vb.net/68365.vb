@@ -1,0 +1,1 @@
+Dim urlPath As String = Request.Url.AbsolutePath\nDim folderName As String = System.IO.Path.GetDirectoryName(urlPath).Split("/").Last()\n\nIf Not String.IsNullOrEmpty(folderName) Then\n    ' Same logic as before\nEnd If

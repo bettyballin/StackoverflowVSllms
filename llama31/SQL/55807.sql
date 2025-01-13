@@ -1,0 +1,1 @@
+SELECT * FROM Customers\nWHERE dbo.RemoveApostrophes(LastName) LIKE dbo.RemoveApostrophes('%O''Brien%')

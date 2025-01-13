@@ -1,1 +1,0 @@
-// Define a CSS class in your stylesheet\n// .dynamic-style { width: 500px; height: 300px; background-color: red; position: absolute; left: 100px; top: 50px; }\n\n// Get the control (e.g. a DIV)\nHtmlGenericControl divControl = (HtmlGenericControl)Page.FindControl("myDiv");\n\n// Add the CSS class to the control\ndivControl.CssClass = "dynamic-style";

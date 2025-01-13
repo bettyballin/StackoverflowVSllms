@@ -1,0 +1,1 @@
+SELECT \n    c.cursor_id,\n    c.name,\n    c.status\nFROM \n    sys.dm_exec_cursors(0) c\nWHERE \n    c.status = 'open';

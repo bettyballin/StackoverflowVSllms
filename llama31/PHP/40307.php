@@ -1,0 +1,1 @@
+use Flarum\Api\Client;\n\n$client = new Client('https://your-forum.com/api');\n$client->post('/users', [\n    'username' => 'username',\n    'password' => 'password',\n    'email' => 'email@example.com'\n]);\n\n$client->post('/discussions', [\n    'title' => 'Discussion Title',\n    'content' => 'Discussion text',\n    'tags' => ['tag1', 'tag2']\n]);

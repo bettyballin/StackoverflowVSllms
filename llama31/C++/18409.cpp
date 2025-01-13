@@ -1,1 +1,0 @@
-if (FAILED(hresult))\n{\n    LPTSTR errorMessage = NULL;\n    FormatMessage(FORMAT_MESSAGE_FROM_SYSTEM | FORMAT_MESSAGE_ALLOCATE_BUFFER, \n                  NULL, hresult, 0, (LPTSTR)&errorMessage, 0, NULL);\n    cerr << "COM error: " << errorMessage << endl;\n    LocalFree(errorMessage);\n    exit (EXIT_FAILURE);\n}

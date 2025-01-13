@@ -1,0 +1,1 @@
+setInterval(function() {\n  $("#myDiv").toggle();\n}, 60000); // 60000 milliseconds = 1 minute

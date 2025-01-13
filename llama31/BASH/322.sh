@@ -1,1 +1,0 @@
-pdf2image -j -o output_folder input.pdf

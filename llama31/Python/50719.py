@@ -1,0 +1,1 @@
+obj = MyObject()\nmethod_name = 'my_method'\nparams = ['arg1', 'arg2']\n\nmethod = obj.__getattribute__(method_name)\nmethod(*params)

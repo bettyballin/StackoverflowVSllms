@@ -1,0 +1,1 @@
+$format_str = "My name is %name.";\n$params = array('name' => 'Joe', 'age' => 150);\n\n$str = preg_replace_callback('/%(\w+)/', function($match) use ($params) {\n    return $params[$match[1]];\n}, $format_str);\n\necho $str; // Outputs: My name is Joe.

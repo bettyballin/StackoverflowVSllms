@@ -1,0 +1,1 @@
+// Add an event handler to the hyperlink\nHyperLink1.Attributes.Add("onclick", "return preventDoubleClick(this);");\n\n// JavaScript function to prevent double-clicking\nfunction preventDoubleClick(link) {\n    if (link.clicked) {\n        return false;\n    }\n    link.clicked = true;\n    return true;\n}

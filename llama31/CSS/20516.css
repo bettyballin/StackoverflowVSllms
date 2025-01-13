@@ -1,1 +1,0 @@
-#sub-title {\n  display: flex;\n  justify-content: space-between;\n}\n\n#sub-left {\n  flex: 1;\n}\n\n#sub-right {\n  flex: 1;\n}

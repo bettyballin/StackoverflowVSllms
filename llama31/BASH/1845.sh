@@ -1,1 +1,0 @@
-sqlcmd -S <server_name> -d <database_name> -Q "SELECT * FROM sys.tables" -o tables.sql\nsqlcmd -S <server_name> -d <database_name> -Q "SELECT * FROM sys.indexes" -o indexes.sql\nsqlcmd -S <server_name> -d <database_name> -Q "SELECT * FROM sys.foreign_keys" -o foreign_keys.sql

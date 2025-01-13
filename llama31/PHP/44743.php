@@ -1,0 +1,1 @@
+curl_setopt($ch, CURLOPT_SSL_VERIFYPEER, true);\ncurl_setopt($ch, CURLOPT_SSL_VERIFYHOST, 2);

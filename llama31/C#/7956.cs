@@ -1,1 +1,0 @@
-using Microsoft.Win32;\n\n// assuming 'settings' is a dictionary of key-value pairs\nforeach (var kvp in settings)\n{\n    using (RegistryKey key = Registry.CurrentUser.OpenSubKey("Software\\YourCompany\\YourApp", true))\n    {\n        key.SetValue(kvp.Key, kvp.Value);\n    }\n}

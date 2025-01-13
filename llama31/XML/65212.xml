@@ -1,0 +1,1 @@
+<system.serviceModel>\n    <serviceHostingEnvironment>\n        <serviceActivations>\n            <add relativeAddress="~/Services/SalesService.svc" service="Services.SalesService" />\n        </serviceActivations>\n    </serviceHostingEnvironment>\n</system.serviceModel>

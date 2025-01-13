@@ -1,0 +1,1 @@
+use PHPUnit\Framework\TestCase;\n\nclass MyTest extends TestCase\n{\n    public function testSomething()\n    {\n        $text = 'foo';\n        $this->assertEquals('foo', $text);\n    }\n}

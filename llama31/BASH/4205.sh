@@ -1,1 +1,0 @@
-tf diff /recursive /format:unified /patch > mypatch.patch

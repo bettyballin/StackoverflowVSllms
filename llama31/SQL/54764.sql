@@ -1,0 +1,1 @@
+ALTER SYSTEM SET UNDO_RETENTION = 300;  -- 5 minutes

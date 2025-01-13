@@ -1,1 +1,0 @@
-int main(int argc, char *argv[]) {\n    char *x;\n    int a;\n\n    x = "zz";\n\n    char *next_id = get_next_id(x);\n\n    printf("incrementando %s -> %s\n", "zz", next_id);\n\n    free(next_id);\n\n    return 0;\n}

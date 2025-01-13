@@ -1,1 +1,0 @@
-using System.Security.Cryptography;\n\npublic class CsrfTokenGenerator\n{\n    private static RNGCryptoServiceProvider _rng = new RNGCryptoServiceProvider();\n\n    public static string GenerateToken()\n    {\n        byte[] tokenBytes = new byte[32];\n        _rng.GetBytes(tokenBytes);\n        return Convert.ToBase64String(tokenBytes);\n    }\n}

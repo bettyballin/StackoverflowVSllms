@@ -1,1 +1,0 @@
-using System.Text.RegularExpressions;\n\npublic string ConvertHtmlToPlainText(string html)\n{\n    return Regex.Replace(html, "<.*?>", string.Empty);\n}

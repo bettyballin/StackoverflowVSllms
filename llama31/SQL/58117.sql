@@ -1,0 +1,1 @@
+SELECT *\nFROM (\n  SELECT @rownum:=@rownum+1 AS rownum, your_table.*\n  FROM your_table, (SELECT @rownum:=0) AS r\n  ORDER BY your_table.primary_key\n) AS subquery\nWHERE subquery.rownum % 5 = 0;

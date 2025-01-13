@@ -1,1 +1,0 @@
-ld -v -o your_binary your_object_files.o

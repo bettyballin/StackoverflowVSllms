@@ -1,1 +1,0 @@
-if (Request["__EVENTARGUMENT"] == "Flag")\n{\n    // Handle the event\n}

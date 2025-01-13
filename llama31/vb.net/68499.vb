@@ -1,0 +1,1 @@
+' WPF with XBAP example\nImports System.Windows\n\nPublic Class MyWindow\n    Inherits Window\n\n    Public Sub New()\n        InitializeComponent()\n    End Sub\nEnd Class

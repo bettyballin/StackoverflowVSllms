@@ -1,1 +1,0 @@
-var directoryInfo = new System.IO.DirectoryInfo(@"\\fors343a.ww123.somedomain.net\folder\1");\nif (directoryInfo.FullName.StartsWith(@"\\"))\n{\n    Console.WriteLine("UNC path");\n}\nelse\n{\n    Console.WriteLine("Local drive");\n}

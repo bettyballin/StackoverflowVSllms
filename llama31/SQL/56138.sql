@@ -1,0 +1,1 @@
+SELECT \n  A.name, \n  B.marks\nFROM \n  A\n  JOIN B ON A.num = B.num\nUNION ALL\nSELECT \n  A.name, \n  B.marks\nFROM \n  A\n  CROSS JOIN B\nWHERE \n  A.num = 0

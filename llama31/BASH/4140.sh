@@ -1,1 +1,0 @@
-upx -9 your_app.exe

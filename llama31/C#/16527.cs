@@ -1,1 +1,0 @@
-string resolvedUrl = VirtualPathUtility.ToAbsolute("~/someUrl");

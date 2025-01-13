@@ -1,1 +1,0 @@
-composer require --dev phpstan/phpsta

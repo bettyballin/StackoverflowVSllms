@@ -1,1 +1,0 @@
-for (int i = 0; i < menuStrip1.Items.Count; i++)\n{\n    ToolStripMenuItem item = (ToolStripMenuItem)menuStrip1.Items[i];\n    item.Enabled = myUser.IsAdministrator;\n}

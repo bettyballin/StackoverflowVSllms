@@ -1,1 +1,0 @@
-var accounts = session.Query<Account>();\naccounts.DeleteWhere(a => a.Amount < 1000);

@@ -1,1 +1,0 @@
-string args = "very long argument list...";\n\n// Set an environment variable with the arguments\nEnvironment.SetEnvironmentVariable("ARGS", args);\n\n// Start the process\nProcess.Start("your_program.exe");

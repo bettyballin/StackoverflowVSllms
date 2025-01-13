@@ -1,0 +1,1 @@
+from RestrictedPython import compile_restricted\ncompile_restricted(script.py, restrictions={'allow_import': False})

@@ -1,0 +1,1 @@
+Imports System.ServiceProcess\n\nPublic Class Window1\n    Private sc As ServiceController\n\n    Public Sub New()\n        InitializeComponent()\n        Dim permission As New ServiceControllerPermission(ServiceControllerPermissionAccess.Control, "Spooler")\n        permission.Demand()\n        sc = New ServiceController("Spooler")\n    End Sub\n\n    ' ...\nEnd Class

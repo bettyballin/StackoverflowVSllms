@@ -1,1 +1,0 @@
-curl -X POST \\n  https://your-forum.com/api/v1/users \\n  -H 'Content-Type: application/json' \\n  -d '{"username": "username", "password": "password", "email": "email@example.com"}'\n\ncurl -X POST \\n  https://your-forum.com/api/v1/topics \\n  -H 'Content-Type: application/json' \\n  -d '{"title": "Topic Title", "content": "Topic text", "cid": "category-id"}'

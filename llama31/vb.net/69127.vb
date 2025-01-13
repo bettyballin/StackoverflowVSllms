@@ -1,0 +1,1 @@
+Imports System.Runtime.CompilerServices\n\nPublic Class TestVB\n    Inherits Test\n\n    <MethodImpl(MethodImplOptions.NoInlining)>\n    Public Sub AccessFields()\n        Console.WriteLine(Me.GetType().GetField("A").GetValue(Me)) ' Access field A\n        Console.WriteLine(Me.GetType().GetField("a").GetValue(Me)) ' Access field a\n    End Sub\nEnd Class

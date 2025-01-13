@@ -1,1 +1,0 @@
-# Set debug to false in web.config\n$xml = [xml](Get-Content 'C:\Path\To\Web.Config')\n$xml.configuration.system.web.compilation.debug = 'false'\n$xml.Save('C:\Path\To\Web.Config')

@@ -1,0 +1,1 @@
+-- Bad\nSELECT * FROM users WHERE name = '$username';\n\n-- Good\nSELECT * FROM users WHERE name = @username;

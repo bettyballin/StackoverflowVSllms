@@ -1,0 +1,1 @@
+$('#image').click(function() {\n  var info = $(this).data('info'); // Assuming the image has a data-info attribute\n  $.ajax({\n    type: 'POST',\n    url: 'set_session.php',\n    data: { info: info },\n    success: function() {\n      console.log('Session variable set');\n    }\n  });\n});

@@ -1,1 +1,0 @@
-public class PackageDTO\n{\n    public NodeType NodeType { get; set; }\n    public bool NodeTypeIsNull { get; set; }\n}

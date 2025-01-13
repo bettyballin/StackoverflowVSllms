@@ -1,0 +1,1 @@
+SELECT event_time, statement\nFROM sys.server_audit_specifications\nWHERE audit_action_name = 'INSERT'

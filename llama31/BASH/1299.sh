@@ -1,1 +1,0 @@
-mysqlimport -u your_username -p your_database_name your_new_table /path/to/your/file.csv

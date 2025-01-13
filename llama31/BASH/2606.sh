@@ -1,1 +1,0 @@
-#!/bin/sh\napt-get update\napt-get upgrade -y

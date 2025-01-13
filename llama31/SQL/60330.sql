@@ -1,0 +1,1 @@
+PREPARE stmt FROM 'SELECT * FROM your_table WHERE your_column LIKE ? ESCAPE '\''';\nEXECUTE stmt USING '%\%\%\%\%';

@@ -1,0 +1,1 @@
+$mysqli->query('INSERT IGNORE INTO tblUser (email, ...) VALUES ("foo@bar.org", ...)');

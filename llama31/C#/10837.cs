@@ -1,1 +1,0 @@
-XmlDocument xmlDoc = new XmlDocument();\n// load your xml into xmlDoc\n\nstring formattedXml = xmlDoc.OuterXml;\n\n// Create a Pre element to preserve whitespace\nPre xmlPre = new Pre();\nxmlPre.InnerText = formattedXml;\n\n// Add the Pre element to your page\nPage.Controls.Add(xmlPre);

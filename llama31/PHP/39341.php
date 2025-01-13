@@ -1,0 +1,1 @@
+$params = array(\n    'anId' => 3,\n    'action' => 'OMNOMNOMNOM',\n    'parameters' => array(\n        array('Name' => 'firstName', 'Value' => 'Scott'),\n        array('Name' => 'lastName', 'Value' => 'Smith')\n    )\n);

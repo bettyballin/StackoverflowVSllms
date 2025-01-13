@@ -1,1 +1,0 @@
-string[] textFiles = Directory.GetFiles(@"c:\mydir", "*.txt")\n    .Where(file => (File.GetAttributes(file) & FileAttributes.Hidden) == 0)\n    .ToArray();

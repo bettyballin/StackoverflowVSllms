@@ -1,0 +1,1 @@
+function init(t, y, u) {\n  alert(t + " " + y + " " + u);\n}\n\n// String.prototype.add = init; // assigns the init function reference\n// String.prototype.add(5, 6, 7); // executes the init function later\n\n// or\n// window.onload = function() { init(5, 6, 7); }; // executes the init function on load

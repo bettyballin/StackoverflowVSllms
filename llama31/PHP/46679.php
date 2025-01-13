@@ -1,0 +1,1 @@
+$string = '"this is a test "';\n\n$string = preg_replace('/\s+(?=")/', '', $string);\n\necho $string; // outputs: "this is a test"

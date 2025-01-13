@@ -1,1 +1,0 @@
-stream << "test" << make_daytime_string() << std::endl;

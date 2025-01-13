@@ -1,0 +1,1 @@
+EXEC sp_addlinkedserver \n    @server = 'OracleLinkedServer', \n    @srvproduct = 'Oracle', \n    @provider = 'MSDAORA', \n    @datasrc = 'your_oracle_server_name', \n    @catalog = 'your_oracle_database_name'

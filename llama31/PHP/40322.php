@@ -1,0 +1,1 @@
+// Convert UTF-8 to ISO-8859-1\n$utf8_string = "Hëllö Wørld";\n$iso_string = iconv("UTF-8", "ISO-8859-1", $utf8_string);\necho $iso_string . "\n";\n\n// Convert ISO-8859-1 back to UTF-8\n$utf8_string_again = iconv("ISO-8859-1", "UTF-8", $iso_string);\necho $utf8_string_again . "\n";

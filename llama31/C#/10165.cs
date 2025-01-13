@@ -1,1 +1,0 @@
-listView1.View = View.Details;

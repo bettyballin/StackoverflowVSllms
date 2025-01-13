@@ -1,1 +1,0 @@
-sqlmodel->removeColumn(0);

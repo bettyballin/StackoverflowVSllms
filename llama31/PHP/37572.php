@@ -1,0 +1,1 @@
+sort($myArray);\n$firstElement = reset($myArray);

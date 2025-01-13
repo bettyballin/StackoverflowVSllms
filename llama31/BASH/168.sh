@@ -1,1 +1,0 @@
-appcmd.exe set config -section:system.applicationHost/sites /maxConnections:100

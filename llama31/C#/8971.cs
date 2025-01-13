@@ -1,1 +1,0 @@
-string path = @"C:\Test\foo.txt";\ntry\n{\n    FileAttributes attr = File.GetAttributes(path);\n    bool isFile = !attr.HasFlag(FileAttributes.Directory);\n    // process isFile\n}\ncatch (FileNotFoundException)\n{\n    // handle file not found\n}

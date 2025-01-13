@@ -1,1 +1,0 @@
-# Use monitoring tools like top, htop, or New Relic to identify bottlenecks\n# Collect metrics on CPU usage, memory usage, disk I/O, and network I/O

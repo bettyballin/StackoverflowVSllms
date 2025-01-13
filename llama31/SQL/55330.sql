@@ -1,0 +1,1 @@
+SET TRANSACTION ISOLATION LEVEL READ UNCOMMITTED;\n\n-- Perform queries that require non-blocking reads

@@ -1,0 +1,1 @@
+SELECT UNIX_TIMESTAMP('2009-06-23 16:21:48') AS unix_timestamp;

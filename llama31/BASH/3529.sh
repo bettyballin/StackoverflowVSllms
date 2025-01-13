@@ -1,1 +1,0 @@
-gcc -Wunused-function your_file.cpp

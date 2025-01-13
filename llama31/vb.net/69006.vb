@@ -1,0 +1,1 @@
+Private Sub clboxOptions_ItemCheck(ByVal sender As System.Object, ByVal e As System.Windows.Forms.ItemCheckEventArgs) Handles clboxOptions.ItemCheck\n\n    If backupStarted = True Then\n        e.NewValue = e.CurrentValue\n    End If\n\nEnd Sub

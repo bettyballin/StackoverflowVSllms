@@ -1,0 +1,1 @@
+DELETE FROM employee\nWHERE (EmpId, EmpSSN) IN (\n  SELECT EmpId, EmpSSN\n  FROM employee\n  GROUP BY EmpId, EmpSSN\n  HAVING COUNT(*) > 1\n);

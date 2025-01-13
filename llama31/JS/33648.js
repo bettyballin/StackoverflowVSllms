@@ -1,0 +1,1 @@
+<script type="text/javascript">\n    function pageLoad() {\n        $find('mpeLoader').show();\n    }\n\n    function pageLoadComplete() {\n        $find('mpeLoader').hide();\n    }\n</script>

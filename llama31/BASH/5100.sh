@@ -1,1 +1,0 @@
-icacls /grant:r "DOMAIN\Username":M file.txt

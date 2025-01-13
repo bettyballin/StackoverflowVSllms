@@ -1,1 +1,0 @@
-// Example of accessing these parameters\nstring eventTarget = Request["__EVENTTARGET"];\nstring viewState = Request["__VIEWSTATE"];\nstring eventValidation = Request["__EVENTVALIDATION"];

@@ -1,1 +1,0 @@
-mkdir -p /path/to/pear-channel\ncd /path/to/pear-channel

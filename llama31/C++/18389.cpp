@@ -1,1 +1,0 @@
-rnObj obj = somefunction(); // compiler may elide the copy constructor call

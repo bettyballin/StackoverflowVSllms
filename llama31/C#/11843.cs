@@ -1,1 +1,0 @@
-static int Main(string[] args)\n{\n    try\n    {\n        // Your application code here\n        return 0; // Success\n    }\n    catch (Exception ex)\n    {\n        Console.Error.WriteLine($"An error occurred: {ex.Message}");\n        return 1; // Failure\n    }\n}

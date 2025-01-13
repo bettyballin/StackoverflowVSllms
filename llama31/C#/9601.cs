@@ -1,1 +1,0 @@
-FlashSmsSender sender = new FlashSmsSender();\nsender.SendFlashSms("+1234567890", "Hello, world!");

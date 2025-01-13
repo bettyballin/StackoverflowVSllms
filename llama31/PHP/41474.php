@@ -1,0 +1,1 @@
+$pattern = '/\[code\]([\s\S]*)\[/code\]/si';

@@ -1,1 +1,0 @@
-public struct Test\n{\n    public string x;\n    public string[] y;\n\n    public Test(string x, int capacity)\n    {\n        this.x = x;\n        this.y = new string[capacity];\n    }\n}

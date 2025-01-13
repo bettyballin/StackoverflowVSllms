@@ -1,0 +1,1 @@
+amespace MyApp\Models;\n\nclass User {\n    // ...\n}\n\nfunction foo() {\n    // ...\n}\n\nconst BAR = 'baz';

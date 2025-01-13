@@ -1,0 +1,1 @@
+Dim mismatch As Boolean = Not _Bytes.SequenceEqual(item.Bytes)

@@ -1,0 +1,1 @@
+SELECT \n  UserID, \n  Service, \n  COUNT(*) as TimesAccessed\nFROM \n  your_table\nGROUP BY \n  UserID, \n  Service\nORDER BY \n  UserID, \n  Service;

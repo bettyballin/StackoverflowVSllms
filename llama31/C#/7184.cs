@@ -1,1 +1,0 @@
-public class Triple\n{\n    public string Key { get; set; }\n    public string Value1 { get; set; }\n    public string Value2 { get; set; }\n}\n\nvar triple = new Triple { Key = "Key", Value1 = "Value1", Value2 = "Value2" };

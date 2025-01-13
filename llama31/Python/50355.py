@@ -1,0 +1,1 @@
+Name = unicode('w\xc3\xb6rner', 'utf-8')\nfile.write('Name: %s - %s\n' % (Name, type(Name)))

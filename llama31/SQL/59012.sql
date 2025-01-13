@@ -1,0 +1,1 @@
+SELECT m.*\nFROM movies m\nJOIN ratings r ON m.id = r.movie_id\nGROUP BY m.id\nHAVING COUNT(r.id) > x;

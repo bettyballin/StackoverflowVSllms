@@ -1,1 +1,0 @@
-git fetch ssh://username@url.com:/home/username/workfolder/

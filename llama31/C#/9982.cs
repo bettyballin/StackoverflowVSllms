@@ -1,1 +1,0 @@
-uint ipInteger = (uint)((octet1 << 24) + (octet2 << 16) + (octet3 << 8) + octet4);

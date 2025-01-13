@@ -1,1 +1,0 @@
-// C# code\npublic class MyClass {\n    public void MyMethod() {\n        // ...\n    }\n}

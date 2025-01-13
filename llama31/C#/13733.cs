@@ -1,1 +1,0 @@
-ameList = nameList.OrderByDescending(x => x.Text).ToList();

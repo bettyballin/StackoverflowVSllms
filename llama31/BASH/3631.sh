@@ -1,1 +1,0 @@
-gcc -fplugin=my_plugin.so my_code.c -o my_code

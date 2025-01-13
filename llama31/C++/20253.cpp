@@ -1,1 +1,0 @@
-int main() {\n    std::string text = readFile("text.txt");\n    // use the text\n    return 0;\n}

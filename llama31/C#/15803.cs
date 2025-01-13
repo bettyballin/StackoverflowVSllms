@@ -1,1 +1,0 @@
-let p = new Person(Name = "John", BirthDate = System.DateTime.Now)

@@ -1,0 +1,1 @@
+Sys.Application.add_load(function() {\n    var dropdownList = $get('<%= YourDropDownListID.ClientID %>');\n    // unlock the control here\n});

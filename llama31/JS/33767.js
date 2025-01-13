@@ -1,0 +1,1 @@
+// script.js\nconst popupContent = document.getElementById('popup-content');\nconst popupWindow = window.open('', 'popup', `width=400,height=100`);\n\npopupWindow.document.body.appendChild(popupContent);\npopupWindow.addEventListener('load', () => {\n  const contentHeight = popupContent.offsetHeight;\n  popupWindow.resizeTo(400, contentHeight);\n});

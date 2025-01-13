@@ -1,0 +1,1 @@
+class MyModel < ApplicationRecord\n  validates :field1, presence: true, step: 1\n  validates :field2, presence: true, step: 2\nend

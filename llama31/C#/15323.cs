@@ -1,1 +1,0 @@
-using System.Diagnostics;\n\n// Load the DLL with debug symbols\nDebugger.Break();\nvar dll = Assembly.LoadFrom("path/to/your/dll.dll");

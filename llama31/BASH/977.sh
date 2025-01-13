@@ -1,1 +1,0 @@
-ssh -X -C -o "CompressionLevel 9" user@centos-server

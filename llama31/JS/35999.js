@@ -1,0 +1,1 @@
+function display() {\n  showUser(str);\n}

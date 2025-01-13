@@ -1,1 +1,0 @@
-.myclass li {\n  list-style: none;\n  display: inline-block;\n  vertical-align: top;\n}\n\n.item {\n  /* no need for display: inline here */\n}

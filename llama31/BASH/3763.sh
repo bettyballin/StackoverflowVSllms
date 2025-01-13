@@ -1,1 +1,0 @@
-# Clear the TOAD cache\nrm -rf $USER_HOME/.toad/cache/*

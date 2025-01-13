@@ -1,1 +1,0 @@
-svn co http://framework.zend.com/svn/framework/standard/trunk/ ZendFramework

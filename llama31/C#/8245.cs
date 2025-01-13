@@ -1,1 +1,0 @@
-string sql = "";\nforeach (var obj in objectsToInsert)\n{\n    sql += $"INSERT INTO YourTable (Column1, Column2, Column3) VALUES ('{obj.Column1}', '{obj.Column2}', '{obj.Column3}');\n";\n}

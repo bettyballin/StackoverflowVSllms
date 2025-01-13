@@ -1,1 +1,0 @@
-void main() {\n    char buffer[17];\n}

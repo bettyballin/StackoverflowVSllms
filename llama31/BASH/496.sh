@@ -1,1 +1,0 @@
-flex -t lexer.l | gcc -x c -c -o lexer.o -

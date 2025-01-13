@@ -1,1 +1,0 @@
-using System.Diagnostics;\n\npublic class CPUUsageHelper\n{\n    public static float GetCpuUsage()\n    {\n        var process = Process.GetCurrentProcess();\n        var cpuUsage = process.TotalProcessorTime.Ticks / (float)Stopwatch.Frequency;\n        return cpuUsage;\n    }\n}

@@ -1,1 +1,0 @@
-using System.Reflection;\n\npublic bool IsCrystalReportsInstalled()\n{\n    try\n    {\n        Assembly.Load("CrystalDecisions.CrystalReports.Engine, Version=13.0.2000.0, Culture=neutral, PublicKeyToken=692fbea5521e1304");\n        return true;\n    }\n    catch (FileNotFoundException)\n    {\n        return false;\n    }\n}

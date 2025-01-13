@@ -1,0 +1,1 @@
+// In the IE8 Script Debugger Console\nwindow.ReturnValue("adf", "asdf");

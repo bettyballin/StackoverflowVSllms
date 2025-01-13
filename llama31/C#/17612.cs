@@ -1,1 +1,0 @@
-using System.Data.SQLite;\n\n// Example usage:\nstring connectionString = "Data Source=your_database.db";\nusing (SQLiteConnection connection = new SQLiteConnection(connectionString))\n{\n    connection.Open();\n    // Perform database operations\n}

@@ -1,0 +1,1 @@
+// templates/views-view--pictures--xml.tpl.php\n\n<pictures>\n  <?php foreach ($rows as $row): ?>\n    <picture size="<?php print $row->size; ?>" dimensions="<?php print $row->dimensions; ?>">\n      <title><?php print $row->title; ?></title>\n    </picture>\n  <?php endforeach; ?>\n</pictures>

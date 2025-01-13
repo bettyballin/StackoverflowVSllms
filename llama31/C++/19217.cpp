@@ -1,1 +1,0 @@
-cl.exe /c /FA your_source_file.cpp

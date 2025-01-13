@@ -1,1 +1,0 @@
-public static class QueryExtensions\n{\n    public static void DeleteWhere<T>(this IQueryable<T> query, Expression<Func<T, bool>> predicate)\n    {\n        var session = // get your NHibernate session\n        var hql = $"DELETE FROM {typeof(T).Name} WHERE {predicate.Body}";\n        var query = session.CreateQuery(hql);\n        query.ExecuteUpdate();\n    }\n}

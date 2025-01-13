@@ -1,0 +1,1 @@
+use PhpDiff\PhpDiff;\n\n$diff = new PhpDiff();\n$diff->setOldString($old_text);\n$diff->setNewString($new_text);\n$diff->build();

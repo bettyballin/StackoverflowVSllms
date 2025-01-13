@@ -1,1 +1,0 @@
-[assembly: PermissionSet(SecurityAction.RequestMinimum, Name = "CustomPermissionSet")]

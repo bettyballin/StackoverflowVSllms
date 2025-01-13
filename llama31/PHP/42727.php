@@ -1,0 +1,1 @@
+function sortByDistanceWrapper($a, $b) {\n    return Interpolator::sortByDistance($a, $b);\n}\n\nusort($locations, 'sortByDistanceWrapper');

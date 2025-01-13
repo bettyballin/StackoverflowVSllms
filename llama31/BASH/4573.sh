@@ -1,1 +1,0 @@
-#!/bin/bash\n\n# Check user's group membership\nif [ $(id -Gn $USER) != "projectA-dev" ] && [ $(id -Gn $USER) != "projectA-readonly" ]; then\n  echo "Access denied"\n  exit 1\nfi\n\n# Check directory permissions\nif [ ! -r dirA ] || [ ! -w dirA ]; then\n  echo "Access denied"\n  exit 1\nfi\n\n# Allow push\ngit-shell -c "$@"

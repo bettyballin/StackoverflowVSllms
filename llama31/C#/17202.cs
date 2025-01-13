@@ -1,1 +1,0 @@
-Response.Redirect("new-page.aspx", true);

@@ -1,1 +1,0 @@
-public class CustomStringLengthValidator : StringLengthValidator\n{\n    public CustomStringLengthValidator(int upperBound)\n        : base(upperBound)\n    {\n        MessageTemplateResourceType = typeof(Xltech.Common.Resources.XLStrings);\n        MessageTemplateResourceName = "InvalidStringLengthMessage";\n    }\n}

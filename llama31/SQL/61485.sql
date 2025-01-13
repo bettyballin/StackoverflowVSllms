@@ -1,0 +1,1 @@
+SELECT C.company, C.shname, C.fullname, count(d_to_c.designer)\nFROM companies C\n     LEFT JOIN ind_to_c IC ON C.company = IC.company\n     LEFT JOIN d_to_c ON C.company = d_to_c.company\nWHERE IC.industry = :industry\nGROUP BY C.company, C.shname, C.fullname\nORDER BY C.shname

@@ -1,0 +1,1 @@
+SELECT \n    type, \n    name, \n    schema_name(schema_id) as schema_name\nFROM \n    sys.objects\nWHERE \n    name LIKE 'your_prefix%';

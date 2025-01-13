@@ -1,0 +1,1 @@
+$approot = dirname($_SERVER['SCRIPT_NAME']);

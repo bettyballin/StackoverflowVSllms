@@ -1,0 +1,1 @@
+try {\n    document.getElementById('elementId').style.display = 'none';\n} catch (e) {\n    // ignore error and continue\n}

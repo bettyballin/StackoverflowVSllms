@@ -1,1 +1,0 @@
-bindingSource.EndEdit();\ntableAdapter.Update();

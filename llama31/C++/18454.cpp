@@ -1,1 +1,0 @@
-// C++ code\nextern "C" {\n    class bar : public foo {\n    public:\n        int my_bar() {\n            return ret_foo(reinterpret_cast<const foo*>(this));\n        }\n    };\n}

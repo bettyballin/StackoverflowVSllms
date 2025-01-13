@@ -1,0 +1,1 @@
+SELECT CONVERT(nvarchar(128), SERVERPROPERTY('InstanceDefaultBackupPath')) AS InstanceDefaultBackupPath

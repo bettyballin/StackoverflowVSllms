@@ -1,0 +1,1 @@
+$(document).ready(function() {\n  $("#hidden-rows").hide();\n  $("#toggle-link a").click(function() {\n    $("#hidden-rows").toggle();\n    $(this).text($(this).text() == "Show middle rows" ? "Hide middle rows" : "Show middle rows");\n    return false;\n  });\n});

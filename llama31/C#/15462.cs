@@ -1,1 +1,0 @@
-using Microsoft.SharePoint.Client;\n\n// assuming you have the ListItem object 'item' and the User object 'user'\nitem.SetPermissions(user, RoleType.Reader);

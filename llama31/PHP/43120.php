@@ -1,0 +1,1 @@
+$string = '<p class="test">Hello World</p>';\n$clean_string = preg_replace('/<p\s+class=".*?">/', '<p>', $string);\necho $clean_string;

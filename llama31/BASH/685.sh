@@ -1,1 +1,0 @@
-./configure --with-build-sysroot=/usr/local --prefix=/usr/local/gcc-4.4.0

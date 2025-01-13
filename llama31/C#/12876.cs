@@ -1,1 +1,0 @@
-[XmlArrayItem(typeof(long))]\npublic long[] MyLongArray { get; set; }

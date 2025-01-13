@@ -1,0 +1,1 @@
+$view = views_get_view('my_view_name');\n$view->execute();\n$result = $view->result;\n\n// Manipulate the $result array here

@@ -1,0 +1,1 @@
+match '/identity/:openid' => 'identities#show', :constraints => { :openid => /.*/ }

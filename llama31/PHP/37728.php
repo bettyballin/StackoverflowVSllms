@@ -1,0 +1,1 @@
+require_once 'vendor/autoload.php';\n\nuse Goutte\Client;\n\n$client = new Client();\n$crawler = $client->request('GET', 'https://example.com/search?q=your_search_query');\n\n// Extract the search results\n$results = $crawler->filter('.search-result');

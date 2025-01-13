@@ -1,1 +1,0 @@
-void writeToFile(const InventoryItem& item, const std::string& filename) {\n    std::ofstream file(filename, std::ios_base::app); // append mode\n    file << item.description << "|" << item.quantity << "|" << item.wholesaleCost << "|" << item.retailCost << "|" << item.dateAdded << std::endl;\n}

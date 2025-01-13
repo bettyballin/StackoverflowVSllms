@@ -1,1 +1,0 @@
-destDA.FillSchema(destTable, SchemaType.Source);

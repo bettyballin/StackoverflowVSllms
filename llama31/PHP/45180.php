@@ -1,0 +1,1 @@
+// Session start\nif (isset($_POST['lang'])) {\n  $lang = $_POST['lang'];\n  $lang = replace($lang);\n  $_SESSION['site_lang'] = $lang;\n  header('Location: '.$_SESSION['page_refer']);\n  exit;\n} else {\n  // Showing form with flags... which returns var 'lang'\n}

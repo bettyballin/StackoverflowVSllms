@@ -1,0 +1,1 @@
+Dim objDoCmd As Object\nSet objDoCmd = CreateObject("Access.DoCmd")\nobjDoCmd.SendObject acSendNoObject, , , _\n    "email@address.com", "", "", _\n    "Helpdesk Submission", msg, False, ""

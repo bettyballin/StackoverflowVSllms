@@ -1,1 +1,0 @@
-[ServiceBehavior(InstanceContextMode = InstanceContextMode.Single)]\npublic class MyService : IMyService\n{\n    private string _text;\n\n    public string ReturnText()\n    {\n        return _text;\n    }\n\n    public void SetText(string s)\n    {\n        _text = s;\n    }\n}

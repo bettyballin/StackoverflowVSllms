@@ -1,0 +1,1 @@
+CREATE OR REPLACE PROCEDURE my_procedure(\n  p1 IN VARCHAR2 NOT NULL,\n  p2 IN NUMBER NOT NULL,\n  p3 IN DATE NOT NULL,\n  p4 IN VARCHAR2,\n  p5 IN NUMBER,\n  ...\n)\nAS\nBEGIN\n  -- procedure code here\nEND;

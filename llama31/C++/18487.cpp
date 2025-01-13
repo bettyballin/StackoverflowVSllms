@@ -1,1 +1,0 @@
-for (const auto& entry : data) {\n    std::cout << entry.first << ": " << entry.second << std::endl;\n}

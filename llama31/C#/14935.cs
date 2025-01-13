@@ -1,1 +1,0 @@
-public static class DbExtensions\n{\n    public static T GetValue<T>(this IDataRecord record, string columnName)\n    {\n        object value = record[columnName];\n        if (value == DBNull.Value)\n        {\n            return default(T); // returns null for reference types, default value for value types\n        }\n        return (T)value;\n    }\n}

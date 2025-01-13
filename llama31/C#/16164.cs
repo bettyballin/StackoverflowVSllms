@@ -1,1 +1,0 @@
-using System.Data.SqlXml;\n\nclass GenerateSchema\n{\n    static void Main(string[] args)\n    {\n        string xsdFile = "your_schema.xsd";\n        string sqlFile = "your_schema.sql";\n\n        XmlSchemaToSql schemaConverter = new XmlSchemaToSql();\n        schemaConverter.Convert(xsdFile, sqlFile);\n    }\n}

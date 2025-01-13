@@ -1,0 +1,1 @@
+use Hoa\Math\Visitor\Arithmetic;\nuse Hoa\Math\Parser;\n\n$parser = new Parser();\n$expression = 'firstname == "John" or lastname == "Doe"';\n$ast = $parser->parse($expression);\n\n$visitor = new Arithmetic();\n$result = $visitor->visit($ast);\n\nvar_dump($result); // bool(true)

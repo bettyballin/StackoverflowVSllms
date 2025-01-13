@@ -1,0 +1,1 @@
+ob_start(); // buffer 1\necho "Hello ";\nob_start(); // buffer 2\necho "World!";\nob_end_flush(); // outputs "World!" and removes buffer 2\necho "!"; // outputs "!" to buffer 1\nob_end_flush(); // outputs "Hello !" and removes buffer 1

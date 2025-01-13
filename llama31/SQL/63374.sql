@@ -1,0 +1,1 @@
+LOAD DATA\nINFILE 'badges.xml'\nBADFILE 'badges.bad'\nDISCARDFILE 'badges.dsc'\nAPPEND\nINTO TABLE badges_table\nFIELDS (userid  CHAR(10),\n        name    CHAR(20),\n        date    CHAR(20))\n(\n  '<row UserId="',\n  userid,\n  '" Name="',\n  name,\n  '" Date="',\n  date,\n  '"/>'\n)

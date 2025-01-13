@@ -1,1 +1,0 @@
-MailMessage email = new MailMessage();\nemail.IsBodyHtml = true;\nemail.Body = "<p>Hello World!</p>";\n\nAlternateView plainTextView = AlternateView.CreateAlternateViewFromString("Hello World!", null, "text/plain");\nemail.AlternateViews.Add(plainTextView);

@@ -1,0 +1,1 @@
+UPDATE b\nSET b.col1 = \n    CASE \n        WHEN 1 <= 0 THEN 1\n        ELSE 0\n    END\nFROM \n    dbo.table1 b\nINNER JOIN \n    dbo.table1 a\nON \n    b.id = a.id\nAND \n    b.date = a.date

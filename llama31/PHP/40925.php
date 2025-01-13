@@ -1,0 +1,1 @@
+$url = 'http://stackoverflow.com/question/ask/asdfasneransea';\n$parsedUrl = parse_url($url);\n$baseUrl = $parsedUrl['scheme'] . '://' . $parsedUrl['host'];\n\necho $baseUrl; // Outputs: http://stackoverflow.com

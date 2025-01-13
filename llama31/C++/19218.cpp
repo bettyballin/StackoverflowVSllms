@@ -1,1 +1,0 @@
-# Define a list of source files for each module\nset(MODULE1_SOURCES\n  module1/source1.cpp\n  module1/source2.cpp\n  ...\n)\n\n# Create a single translation unit for each module\nforeach(MODULE ${MODULES})\n  add_library(${MODULE} ${MODULE}_cxx)\n  target_sources(${MODULE} PRIVATE ${${MODULE}_SOURCES})\nendforeach()

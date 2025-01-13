@@ -1,1 +1,0 @@
-SmtpClient smtp = new SmtpClient();\nsmtp.Send(new MailMessage("sender@example.com", "", "subject", "body") { Bcc = { "recipient1@example.com", "recipient2@example.com" } });

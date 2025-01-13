@@ -1,1 +1,0 @@
-using System;\nusing System.Security.Cryptography;\nusing System.Text;\n\npublic class KeyDerivation\n{\n    public static byte[] DeriveKey(string password, byte[] salt, int iterations, int keySize)\n    {\n        using (var pbkdf2 = new Rfc2898DeriveBytes(password, salt, iterations))\n        {\n            return pbkdf2.GetBytes(keySize);\n        }\n    }\n}

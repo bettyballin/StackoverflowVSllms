@@ -1,0 +1,1 @@
+$stmt = $pdo->prepare("SELECT DISTINCT username FROM users WHERE fb_uid IN (:uids)");\n$stmt->bindParam(":uids", implode(',', $fb_uids));\n$stmt->execute();

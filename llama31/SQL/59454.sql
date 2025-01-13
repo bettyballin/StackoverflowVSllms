@@ -1,0 +1,1 @@
+ALTER PROCEDURE [dbo].[ProcessFile]\n    (\n         @x XML\n    )\nAS\nBEGIN\n    DECLARE @idoc INT\n\n    EXEC sp_xml_preparedocument @idoc OUTPUT, @x;\n\n    SELECT * INTO #temp\n    FROM OPENXML (@idoc, '/NewDataSet/Table', 2)\n    WITH ( /* specify your column names and data types here */ );\n\n    EXEC sp_xml_removedocument @idoc;\n\n    'DO STUFF WITH #temp TABLE\nEND

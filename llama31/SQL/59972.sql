@@ -1,0 +1,1 @@
+SELECT grantee, privilege\nFROM all_tab_privs\nWHERE table_name = '<procedure name>';

@@ -1,1 +1,0 @@
-DateTime dt = new DateTime(2009, 3, 24, 1, 0, 0, DateTimeKind.Local);\nTimeZoneInfo tz = TimeZoneInfo.FindSystemTimeZoneById("GMT Standard Time");\nDateTime utcDt = TimeZoneInfo.ConvertTimeToUtc(dt, tz);\nConsole.WriteLine(utcDt.ToString());

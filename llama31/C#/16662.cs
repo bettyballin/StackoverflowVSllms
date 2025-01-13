@@ -1,1 +1,0 @@
-using System.IdentityModel.Context;\nusing System.IdentityModel.Policy;\nusing System.Security.Principal;\nusing System.ServiceModel;\n\n// Within your service method\nvar identity = ServiceSecurityContext.Current.PrimaryIdentity;\nif (identity != null)\n{\n    var userName = identity.Name;\n    // Use the username for audit purposes\n}

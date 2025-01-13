@@ -1,1 +1,0 @@
-var query = NHibernateSession.CreateQuery("from User u where u.id in (COALESCE(:ids, NULL))");\nquery.SetParameterList("ids", new Guid[] { /* your ids here */ });\nquery.ToList();

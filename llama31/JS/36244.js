@@ -1,0 +1,1 @@
+$('#<%= txtTotalAmount.ClientID %>').val('your_value_here');

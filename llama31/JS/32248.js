@@ -1,0 +1,1 @@
+const option = document.querySelector('option');\n\n// Add the selected attribute\noption.setAttribute('selected', '');\n\n// Remove the selected attribute\noption.removeAttribute('selected');

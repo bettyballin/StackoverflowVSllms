@@ -1,0 +1,1 @@
+$reversed_values = strrev(rtrim($all_values, ","));

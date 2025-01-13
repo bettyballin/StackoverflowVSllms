@@ -1,0 +1,1 @@
+$string = eregi_replace('foo\s+bar', 'fubar', $string);

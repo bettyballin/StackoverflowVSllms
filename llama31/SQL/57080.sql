@@ -1,0 +1,1 @@
+CREATE TABLE Student (\n  ID INT PRIMARY KEY,\n  PeopleID INT,\n  StudentSpecificData VARCHAR(100),\n  FOREIGN KEY (PeopleID) REFERENCES People(ID)\n);

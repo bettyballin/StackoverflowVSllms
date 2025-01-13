@@ -1,0 +1,1 @@
+ini_set('include_path', '.;c:\xampp\htdocs\application\includes');

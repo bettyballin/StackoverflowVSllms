@@ -1,0 +1,1 @@
+$array = array();\n$index1 = 'abc';\n$index2 = 'def';\n\n$array["{$index1}{$index2}"] = 'Concatenated key';\nprint_r($array);

@@ -1,1 +1,0 @@
-using Microsoft.Web.WebView2.Core;\n\n// Initialize the WebView2 control\nvar webView = new WebView2();\n\n// Set the initial URL\nwebView.Source = new Uri("https://www.example.com");\n\n// Add the WebView2 control to your application\nthis.Controls.Add(webView);

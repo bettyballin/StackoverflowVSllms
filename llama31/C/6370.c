@@ -1,1 +1,0 @@
-#include <libgen.h>\n\n// ...\n\nchar *dir = dirname("/tmp/somefile");

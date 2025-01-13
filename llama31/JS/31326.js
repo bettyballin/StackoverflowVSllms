@@ -1,0 +1,1 @@
+onSuccess: function(response){\n    var myresult = response.responseText;\n    // ModelGlue returns results as a JSON object, so parse it\n    var result = eval('(' + myresult + ')');\n    alert(result.justtest);\n}

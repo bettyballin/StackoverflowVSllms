@@ -1,0 +1,1 @@
+fetch(url, { responseType: "text" })\n  .then(response => response.text())\n  .then(data => console.log(data));

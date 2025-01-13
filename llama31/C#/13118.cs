@@ -1,1 +1,0 @@
-string token = Request.QueryString["token"];\nif (Session["EditModeToken"] == token) {\n    Session["EditMode"] = "Edit";\n}

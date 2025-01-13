@@ -1,0 +1,1 @@
+Array\n(\n    [0] => key1\n    [1] => key2\n    [2] => key3\n)\nArray\n(\n    [0] => value1\n    [1] => value2\n    [2] => value3\n)

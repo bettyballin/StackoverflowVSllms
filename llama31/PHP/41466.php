@@ -1,0 +1,1 @@
+$nodes = $xpath->query('//your/xpath/expression');\n$nodeCount = $nodes->length;\n\nfor ($i = 0; $i < $nodeCount; $i++) {\n    $node = $nodes->item($i);\n    // Process the node\n    echo $dom->savexml($node);\n}

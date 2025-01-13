@@ -1,1 +1,0 @@
-dialog.ShowDialog(this.Handle);

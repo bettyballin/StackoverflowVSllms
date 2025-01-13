@@ -1,1 +1,0 @@
-screen -d -r <session_id>

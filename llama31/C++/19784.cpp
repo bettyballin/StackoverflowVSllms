@@ -1,1 +1,0 @@
-#include <cmath>\n\ndouble result = exp(3 * log(2)); // raises 2 to the power of 3

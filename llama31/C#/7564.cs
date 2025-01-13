@@ -1,1 +1,0 @@
-MessageHeader<string> header = new MessageHeader<string>(HttpContext.Current.User.Identity.Name);\nheader.ProtectionLevel = ProtectionLevel.EncryptAndSign;

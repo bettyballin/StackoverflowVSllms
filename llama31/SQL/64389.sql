@@ -1,0 +1,1 @@
+WHERE\n   ([table].mode = 0 AND getDate() >= 0)\nOR ([table].mode = 1 AND getDate() >= [log].interval_start)\nOR ([table].mode = 2 AND getDate() >= [log].interval_start + [table].interval_period)

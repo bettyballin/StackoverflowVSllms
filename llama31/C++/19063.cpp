@@ -1,1 +1,0 @@
-if (traverse_position != nullptr) {\n    out_s << (traverse_position->data);\n    traverse_position = traverse_position->next;\n}

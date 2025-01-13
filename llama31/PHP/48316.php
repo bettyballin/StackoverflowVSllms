@@ -1,0 +1,1 @@
+<?php\n// Securely include a shared PHP library\ninclude_once 'vendor/autoload.php';\n\n// Use a shared PHP class\nuse Shared\ExampleClass;\n\n// Instantiate the class\n$example = new ExampleClass();\n\n// Use a shared PHP function\n$result = $example->sharedFunction();\n\n// Output the result\necho $result;

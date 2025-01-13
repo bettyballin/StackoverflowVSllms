@@ -1,1 +1,0 @@
-// In your controller\nViewData["HtmlContent"] = "<h1>Hello World</h1>";\n\n// In your view\n@Html.Raw(ViewData["HtmlContent"])

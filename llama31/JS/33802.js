@@ -1,0 +1,1 @@
+var paramsObj = Object.toQueryString(params);\nObject.keys(paramsObj).each(function(key) {\n  form.down('select[name="' + key + '"]').setValue(paramsObj[key]);\n});

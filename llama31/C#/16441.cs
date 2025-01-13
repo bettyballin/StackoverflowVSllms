@@ -1,1 +1,0 @@
-string keyName = "HARDWARE\\TOUCH";\nstring valueName = "CalibrationData";\nobject value = /* your calibration data */;\n\nRegistryHelper.SaveRegistryValues(keyName, valueName, value);

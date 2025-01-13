@@ -1,0 +1,1 @@
+$(".deleteThis").live("click", function(){\n    // ...\n});\n\n// Re-bind the event after adding new content to the DOM\n$("body").append(newContent);\n$(".deleteThis").live("click", function(){\n    // ...\n});

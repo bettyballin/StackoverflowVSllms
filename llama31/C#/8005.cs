@@ -1,1 +1,0 @@
-// FiddlerScript.cs\nusing Fiddler;\n\nclass SimulateDomain : IAutoTamper\n{\n    public void AutoTamperRequestAfter(Session oSession)\n    {\n        if (oSession.HostnameIs("simdomain.com"))\n        {\n            oSession.host = "127.0.0.1";\n        }\n    }\n}

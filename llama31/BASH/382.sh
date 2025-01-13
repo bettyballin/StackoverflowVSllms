@@ -1,1 +1,0 @@
-sqlcmd -S your_server -d your_database -Q "your_query" -o output.csv -s "," -W

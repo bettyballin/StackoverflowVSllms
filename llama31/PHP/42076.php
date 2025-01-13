@@ -1,0 +1,1 @@
+function waste_lots_of_memory($iters) {\n  $storage = new SplObjectStorage();\n  for ($i = 0; $i < $iters; $i++) {\n    $object = new StdClass;\n    // ...\n    $storage->attach($object);\n  }\n  // ...\n  $storage->detach($object);\n  gc_collect_cycles();\n}

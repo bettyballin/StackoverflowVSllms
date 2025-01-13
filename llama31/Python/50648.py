@@ -1,0 +1,1 @@
+polls = Poll.objects.filter(category='foo').prefetch_related('choice_set')\nfor poll in polls:\n    print poll.choice_set.all()  # this won't perform a SQL query at each iteratio

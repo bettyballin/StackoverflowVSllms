@@ -1,1 +1,0 @@
-etsh interface teredo set state enterpriseclient=enabled

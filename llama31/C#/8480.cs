@@ -1,1 +1,0 @@
-using Dapper;\n\n// create a connection string\nstring connectionString = "Server=myServerAddress;Database=myDataBase;User Id=myUsername;Password=myPassword;";\n\n// create a connection\nusing (var connection = new MySqlConnection(connectionString))\n{\n    // query the database\n    var customers = connection.Query<Customer>("SELECT * FROM Customers").ToList();\n}

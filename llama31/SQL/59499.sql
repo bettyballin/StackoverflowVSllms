@@ -1,0 +1,1 @@
+UPDATE your_table\nSET your_column = SUBSTRING(your_column, \n                            CHARINDEX('(', your_column) + 1, \n                            CHARINDEX(')', your_column) - CHARINDEX('(', your_column) - 1)

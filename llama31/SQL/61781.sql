@@ -1,0 +1,1 @@
+SHOW TABLES;  -- MySQL\n\dt  -- PostgreSQL (in psql client)\nSELECT TABLE_NAME FROM INFORMATION_SCHEMA.TABLES;  -- SQL Server, Oracle\nSELECT name FROM sqlite_master WHERE type='table';  -- SQLite

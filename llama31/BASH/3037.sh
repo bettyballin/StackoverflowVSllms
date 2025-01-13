@@ -1,1 +1,0 @@
-svn propset svn:executable yes your_file

@@ -1,0 +1,1 @@
+SELECT CONCAT(CONVERT(VARCHAR(20), 1299125), ' other field value') AS ConcatenatedValue

@@ -1,0 +1,1 @@
+Namespace Base\n    Public Class AnotherClass\n        Public Sub DoSomething()\n            Dim baseElement As New BaseElement()\n            ' baseElement.SubElements is accessible here\n        End Sub\n    End Class\nEnd Namespace

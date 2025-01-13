@@ -1,0 +1,1 @@
+-- Enable pg_stat_statements\nCREATE EXTENSION pg_stat_statements;\n\n-- Query pg_stat_statements to analyze performance\nSELECT * FROM pg_stat_statements ORDER BY total_time DESC;

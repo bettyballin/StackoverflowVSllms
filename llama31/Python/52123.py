@@ -1,0 +1,1 @@
+import secrets\n\ntoken = secrets.token_urlsafe(16)

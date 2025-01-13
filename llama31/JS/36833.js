@@ -1,0 +1,1 @@
+const fileInput = document.getElementById('fileInput');\nconst file = fileInput.files[0];\n\nfetch('/upload', {\n  method: 'POST',\n  body: file,\n  headers: {\n    'Content-Type': 'application/octet-stream'\n  }\n})\n.then(response => response.text())\n.then(result => console.log(result))\n.catch(error => console.error(error));

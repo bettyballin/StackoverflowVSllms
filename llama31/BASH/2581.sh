@@ -1,1 +1,0 @@
-service viewvc restart

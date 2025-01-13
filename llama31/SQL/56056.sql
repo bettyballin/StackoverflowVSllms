@@ -1,0 +1,1 @@
+SELECT \n    DateDiff("d", DateSerial(Left([ColA], 4), Mid([ColA], 5, 2), Right([ColA], 2)), DateSerial(Left([ColB], 4), Mid([ColB], 5, 2), Right([ColB], 2))) AS DateDifference\nFROM \n    YourTable;

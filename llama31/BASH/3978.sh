@@ -1,1 +1,0 @@
-rpmbuild -ba my-perl-package.spec

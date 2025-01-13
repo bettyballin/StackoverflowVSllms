@@ -1,0 +1,1 @@
+$array = array('3;', '4;', '5;');\n$string = rtrim(implode('', $array), ';');\necho $string; // Outputs: 3;4;5

@@ -1,1 +1,0 @@
-var profile = (CustomProfile)HttpContext.Current.Profile;\nprofile.CustomSetting1 = "Hello, World!";\nprofile.Save();

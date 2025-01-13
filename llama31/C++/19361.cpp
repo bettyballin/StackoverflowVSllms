@@ -1,1 +1,0 @@
-bool has_cycle(Node* head) {\n    Node* slow = head;\n    Node* fast = head;\n\n    while (fast != NULL && fast->next != NULL) {\n        slow = slow->next;  // move slow one step\n        fast = fast->next->next;  // move fast two steps\n\n        if (slow == fast) {\n            return true;  // cycle detected\n        }\n    }\n\n    return false;  // no cycle\n}

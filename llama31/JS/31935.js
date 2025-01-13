@@ -1,0 +1,1 @@
+$( "#autocomplete" ).autocomplete({\n  source: function( request, response ) {\n    var matcher = new RegExp($.ui.autocomplete.escapeRegex(request.term), "i");\n    var matches = [];\n    $.each(data, function(index, value) {\n      if (matcher.test(value.label) || matcher.test(value.value)) {\n        matches.push(value);\n      }\n    });\n    response(matches);\n  }\n});

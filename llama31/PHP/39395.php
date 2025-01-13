@@ -1,0 +1,1 @@
+$username = 'Game_Admin';\n$restricted_string = 'Admin';\n\nif (strpos($username, $restricted_string) !== false) {\n    echo 'Username contains the restricted string "Admin"';\n} else {\n    echo 'Username does not contain the restricted string "Admin"';\n}

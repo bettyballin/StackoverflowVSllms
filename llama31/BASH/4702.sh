@@ -1,1 +1,0 @@
-gcc -o myapp myapp.c -locci -Wl,-rpath,/path/to/oracle/instantclient/lib

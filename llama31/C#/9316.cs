@@ -1,1 +1,0 @@
-using System.Text.RegularExpressions;\n\npublic class UrlValidator\n{\n    private const string UrlPattern = @"^(http|https)://[a-zA-Z0-9\-\.]+\.[a-zA-Z]{2,3}(:[a-zA-Z0-9]+)?(/.*)?$";\n\n    public bool IsValidUrl(string url)\n    {\n        return Regex.IsMatch(url, UrlPattern);\n    }\n}

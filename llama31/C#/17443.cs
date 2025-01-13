@@ -1,1 +1,0 @@
-using System.Security.Cryptography;\n\npublic static class SBackend\n{\n    private static readonly RandomNumberGenerator _rng = RandomNumberGenerator.Create();\n\n    public static long GetRandomId()\n    {\n        var bytes = new byte[8];\n        _rng.GetBytes(bytes);\n        return BitConverter.ToInt64(bytes, 0);\n    }\n}

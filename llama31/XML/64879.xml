@@ -1,0 +1,1 @@
+<system.web>\n    <siteMap defaultProvider="CustomSiteMapProvider">\n        <providers>\n            <add name="CustomSiteMapProvider" type="YourNamespace.CustomSiteMapProvider" siteMapFile="Web.sitemap" />\n        </providers>\n    </siteMap>\n</system.web>

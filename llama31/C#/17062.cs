@@ -1,1 +1,0 @@
-foreach (Type type in assembly.GetTypes())\n{\n    if (type.IsClass && typeof(IReport).IsAssignableFrom(type))\n    {\n        IReport report = Activator.CreateInstance(type) as IReport;\n        if (report != null)\n        {\n            // Call necessary methods on the report instance\n            report.Print();\n        }\n    }\n}

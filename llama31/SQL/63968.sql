@@ -1,0 +1,1 @@
+SELECT * FROM your_table_name\nWHERE DATE = CURDATE() - INTERVAL 1 DAY;

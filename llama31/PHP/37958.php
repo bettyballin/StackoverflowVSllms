@@ -1,0 +1,1 @@
+// Simple HTTPS example using PHP's built-in curl library\n$url = 'https://example.com/api/endpoint';\n$ch = curl_init($url);\ncurl_setopt($ch, CURLOPT_RETURNTRANSFER, true);\ncurl_setopt($ch, CURLOPT_SSL_VERIFYPEER, true); // Verify the SSL/TLS certificate\n$response = curl_exec($ch);\ncurl_close($ch);

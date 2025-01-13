@@ -1,1 +1,0 @@
-protected override void OnInit(EventArgs e)\n{\n    Page.SaveStateComplete += new EventHandler(RegisterSaveStuff);\n    base.OnInit(e);\n}\n\nvoid RegisterSaveStuff(object sender, EventArgs e)\n{\n    Page.ClientScript.RegisterOnSubmitStatement(typeof(Page), "name", "JS code here");\n}

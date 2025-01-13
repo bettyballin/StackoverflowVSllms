@@ -1,1 +1,0 @@
-public class CustomOperationSelector : WebHttpDispatchOperationSelector\n{\n    public override string SelectOperation(ref Message message)\n    {\n        message.Properties.Remove("UriTemplateMatchResults");\n        return base.SelectOperation(ref message);\n    }\n}

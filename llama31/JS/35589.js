@@ -1,0 +1,1 @@
+const map = (fn, arr) => arr.map(item => fn(item));\n\nmap(translateMenu.add.bind(translateMenu), languages);

@@ -1,1 +1,0 @@
-pear install package_name

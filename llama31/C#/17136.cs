@@ -1,1 +1,0 @@
-using Microsoft.Win32;\n\n// ...\n\nRegistryKey appKey = Registry.CurrentUser.OpenSubKey("Software\\Microsoft\\Windows\\CurrentVersion\\Explorer\\AppKey", true);\n\nif (appKey != null)\n{\n    appKey.CreateSubKey("MyApp");\n    appKey.SetValue("MyApp", "Ctrl+T", RegistryValueKind.String);\n}

@@ -1,1 +1,0 @@
-pdftk Badge-1114044091.pdf info

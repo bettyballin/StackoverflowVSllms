@@ -1,1 +1,0 @@
-ss -tlnp | grep port

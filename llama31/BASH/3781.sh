@@ -1,1 +1,0 @@
-svnadmin hotcopy C:\Path\To\Repository C:\Backup\repo_backup

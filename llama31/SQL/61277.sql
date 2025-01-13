@@ -1,0 +1,1 @@
+SELECT edi_parser.extract_field(clob_column, 'ISA', 4) FROM edi_table;

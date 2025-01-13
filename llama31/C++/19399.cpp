@@ -1,1 +1,0 @@
-// Rayleigh scattering algorithm\nfloat rayleighScattering(float wavelength, float density, float scatteringCoefficient) {\n  return scatteringCoefficient * pow(density, 2) / pow(wavelength, 4);\n}

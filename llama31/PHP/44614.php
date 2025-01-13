@@ -1,0 +1,1 @@
+// delete.php\n$csrfToken = $_SESSION['csrf_token'];\n\nif (!isset($_POST['csrf_token']) || $_POST['csrf_token'] !== $csrfToken) {\n    http_response_code(403); // Forbidden\n    echo 'Invalid CSRF token';\n    exit;\n}

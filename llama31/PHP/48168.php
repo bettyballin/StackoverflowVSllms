@@ -1,0 +1,1 @@
+$email = 'example@example.com';\nif (checkGravatar($email)) {\n    echo 'Gravatar image exists for ' . $email;\n} else {\n    echo 'No Gravatar image exists for ' . $email;\n}

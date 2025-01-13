@@ -1,1 +1,0 @@
-sudo kextunload /System/Library/Extensions/afs.kext

@@ -1,1 +1,0 @@
-using System.Collections.Generic;\nusing System.Linq;\n\nList<double> myList = Enumerable.Repeat(0.0, 10).ToList();

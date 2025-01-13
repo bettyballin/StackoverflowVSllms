@@ -1,0 +1,1 @@
+if ($_POST['submit'] == "Next") {\n    foreach(array_slice($_POST['info'], 1, null, true) as $key => $value) {\n        echo $value;\n    }\n}

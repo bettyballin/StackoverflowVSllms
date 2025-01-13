@@ -1,0 +1,1 @@
+if (!isset($_SESSION['uid']) || !hash_equals($_COOKIE['session_id'], session_id())) {\n    // Redirect to index page\n}

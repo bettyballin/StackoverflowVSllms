@@ -1,0 +1,1 @@
+require 'nokogiri'\n\nhtml = Nokogiri::HTML(File.open("example.html").read)

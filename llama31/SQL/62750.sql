@@ -1,0 +1,1 @@
+BEGIN TRANSACTION;\n\nINSERT INTO your_table (column1, column2, ...) VALUES ('value1', 'value2', ...);\nINSERT INTO your_table (column1, column2, ...) VALUES ('value1', 'value2', ...);\n...\nINSERT INTO your_table (column1, column2, ...) VALUES ('value1', 'value2', ...);\n\nCOMMIT TRANSACTION;

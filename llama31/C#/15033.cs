@@ -1,1 +1,0 @@
-ClientEntities clientContext = new ClientEntities();\nvar clientQuery = clientContext.Clients\n    .Where(c => c.email == "xxx@hotmail.com" && c.password == "xAdxar12s");\nConsole.WriteLine(clientQuery.Count());

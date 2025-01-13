@@ -1,1 +1,0 @@
-Bitmap bmp = new Bitmap(100, 100, PixelFormat.Format16bppRgb555);\n// ...\nbmp.Save("image.png", ImageFormat.Png);

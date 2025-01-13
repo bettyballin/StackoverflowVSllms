@@ -1,1 +1,0 @@
-Response.Status = "302 Found";\nResponse.AddHeader("Location", "https://thirdpartydomain.com/paymentpage");\nResponse.End();

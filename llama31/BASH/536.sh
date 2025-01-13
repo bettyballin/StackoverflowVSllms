@@ -1,1 +1,0 @@
-chown phpuser.phpgroup /path/to/php-cgi-wrapper\nchmod 755 /path/to/php-cgi-wrapper

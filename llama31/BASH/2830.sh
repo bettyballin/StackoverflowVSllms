@@ -1,1 +1,0 @@
-# Example: Installing OpenJDK 6 on Ubuntu-based systems\nsudo apt-get update\nsudo apt-get install openjdk-6-jdk

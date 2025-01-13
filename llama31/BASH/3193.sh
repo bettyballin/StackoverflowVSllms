@@ -1,1 +1,0 @@
-openssl req -x509 -newkey rsa:2048 -nodes -keyout example.key -out example.crt -days 36500 -subj "/C=US/ST=State/L=Locality/O=Organization/CN=example.com"

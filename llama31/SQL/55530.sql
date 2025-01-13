@@ -1,0 +1,1 @@
+SELECT \n    backup_finish_date \nFROM \n    msdb..backupset \nWHERE \n    database_name = 'your_database_name' \n    AND type = 'L'\nORDER BY \n    backup_finish_date DESC

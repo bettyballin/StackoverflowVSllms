@@ -1,0 +1,1 @@
+SELECT * FROM questions\nWHERE tags @> ARRAY['keyword1', 'keyword2', ...]\nORDER BY vote_count DESC;

@@ -1,0 +1,1 @@
+year_id = request.GET['year_id']\nif Year.objects.filter(pk=year_id).exists():\n    projectyr = Researchproject.objects.exclude(activeyesno=2).filter(grantstartdt__year=year_id)\nelse:\n    # handle the case when year_id does not exist\n    pass

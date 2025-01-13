@@ -1,0 +1,1 @@
+DECLARE @YesterdayTimestamp binary(8) = (SELECT @@DBTS - (24 * 60 * 60 * 1000)); -- rough estimate of yesterday's timestamp\n\nSELECT *\nFROM YourTable\nWHERE YourTimestampColumn >= @YesterdayTimestamp;

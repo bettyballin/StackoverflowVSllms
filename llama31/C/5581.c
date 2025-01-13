@@ -1,1 +1,0 @@
-void do() {\n    char *a = malloc(1024);\n    // ...\n}\n\nvoid cleanup() {\n    free(a);\n}\n\n// In the DLL's main code\nvoid DLLMain(HINSTANCE hinstDLL, DWORD fdwReason, LPVOID lpvReserved) {\n    if (fdwReason == DLL_PROCESS_DETACH) {\n        cleanup();\n    }\n}

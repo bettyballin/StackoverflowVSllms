@@ -1,1 +1,0 @@
-[DllImport("kernel32.dll")]\nstatic extern uint WaitForSingleObject(IntPtr hHandle, uint dwMilliseconds);\n\n// ...\n\nif (WaitForSingleObject(info.hProcess, 0) == 0xFFFFFFFF)\n{\n    // Process is still running\n}\nelse\n{\n    // Process has exited\n}

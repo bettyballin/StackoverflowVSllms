@@ -1,0 +1,1 @@
+$("#add_video").dialog({\n  autoOpen: false,\n  buttons: {\n    "Ok": function() {\n      $(this).dialog("close");\n      $("#video_video").appendTo("#myForm"); // append file input to main form\n      $("#myForm").submit(); // submit the form\n    }\n  }\n});

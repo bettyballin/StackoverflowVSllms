@@ -1,0 +1,1 @@
+<Obsolete("This method is deprecated", IsError:=False)>\nPublic Sub MyMethod()\n    ' Your code here\nEnd Sub

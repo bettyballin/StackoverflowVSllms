@@ -1,0 +1,1 @@
+$con = mysql_connect("localhost:/var/lib/mysql/mysql.sock", "abc" , "xyz");\nif (!$con) {\n    die('Could not connect: ');\n}\nmysql_select_db("database_name", $con);\n\n// Your parsing and database operations go here\n\n// Close the connection when you're done\nmysql_close($con);

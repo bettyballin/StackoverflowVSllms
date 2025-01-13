@@ -1,1 +1,0 @@
-using WatiN.Core;\n\nclass ExampleTest {\n  [Test]\n  public void TestGoogleSearch() {\n    IE ie = new IE("http://www.google.com");\n    ie.TextField(Find.ByName("q")).TypeText("watin");\n    ie.Button(Find.ByName("btnG")).Click();\n    Assert.IsTrue(ie.Title.Contains("watin"));\n    ie.Close();\n  }\n}

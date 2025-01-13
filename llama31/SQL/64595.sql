@@ -1,0 +1,1 @@
+-- SQL Server Query using IN operator\nSELECT * \nFROM your_sql_server_table \nWHERE id IN (/* list of IDs from Oracle */);

@@ -1,1 +1,0 @@
-findstr /s /i /c:"div style=\"border: 1px solid red;\"" *.module

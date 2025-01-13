@@ -1,1 +1,0 @@
-java -Xmx4g YourApp

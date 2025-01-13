@@ -1,1 +1,0 @@
-logparser -i:iisw3c "SELECT cs-uri-stem, cs-uri-query, c-ip, s-port, cs-username FROM C:\inetpub\logs\LogFiles\W3SVC1\u_ex*.log"

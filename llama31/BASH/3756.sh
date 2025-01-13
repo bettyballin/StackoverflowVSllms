@@ -1,1 +1,0 @@
-sudo inotifywatch -v -e modify -t 30 -r /

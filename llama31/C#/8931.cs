@@ -1,1 +1,0 @@
-webBrowser1.Navigate("javascript:__doPostBack('ctl00$cphMain$lnkNameserverUpdate', '')");

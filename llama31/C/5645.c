@@ -1,1 +1,0 @@
-#include <mysql.h>\n\nint main() {\n    // Your MySQL-related code here\n    return 0;\n}

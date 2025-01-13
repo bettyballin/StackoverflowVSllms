@@ -1,1 +1,0 @@
-sudo yum install https://dev.mysql.com/downloads/repo/yum/mysql-workbench-community-8.0-1.el7.x86_64.rpm

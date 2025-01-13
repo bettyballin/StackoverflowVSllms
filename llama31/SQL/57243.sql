@@ -1,0 +1,1 @@
+SELECT checksum_agg(some_column) AS checksum\nFROM your_table;

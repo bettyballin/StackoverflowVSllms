@@ -1,0 +1,1 @@
+SELECT \n  COLUMN_NAME,\n  DATA_TYPE,\n  LENGTH,\n  SCALE,\n  NULLS\nFROM \n  SYSCAT.COLUMNS\nWHERE \n  TABNAME = 'your_table_name';

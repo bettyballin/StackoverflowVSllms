@@ -1,1 +1,0 @@
-TwitterVerifier verifier = new TwitterVerifier();\nbool isValid = verifier.VerifyCredentials("username", "password");\nif (!isValid)\n{\n    // Handle invalid credentials\n}

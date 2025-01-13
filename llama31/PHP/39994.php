@@ -1,0 +1,1 @@
+$stmt = $mysqli->prepare("SELECT COUNT(*) AS total FROM table");\n$stmt->execute();\n$result = $stmt->get_result();\n$row = $result->fetch_assoc();\n$total = $row['total'];

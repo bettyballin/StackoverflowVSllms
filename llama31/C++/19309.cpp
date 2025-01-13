@@ -1,1 +1,0 @@
-class X {};\nclass Y {};\nclass Both : public X, public Y {};\n\nvoid doIt(X *arg) { } // candidate function 1\nvoid doIt(Y *arg) { } // candidate function 2\n\nBoth *b = new Both();\ndoIt(b); // ambiguous call

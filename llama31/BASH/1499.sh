@@ -1,1 +1,0 @@
-# Download and install Nokia S60 Emulator\nwget http://www.developer.nokia.com/Devices/S60/

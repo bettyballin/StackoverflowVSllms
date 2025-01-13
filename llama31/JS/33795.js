@@ -1,0 +1,1 @@
+console.log('Ajax request initiated');\n$.ajax({\n    // your Ajax request code here\n});

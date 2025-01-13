@@ -1,0 +1,1 @@
+if (jQuery().colorbox) {\n  // plugin is loaded\n  $("a[rel]").colorbox(...);\n} else {\n  // plugin is not loaded\n  console.log("Colorbox plugin is not loaded");\n}

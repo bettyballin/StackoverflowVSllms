@@ -1,1 +1,0 @@
-ProcessStartInfo startInfo = new ProcessStartInfo(fileName);\nstartInfo.CreateNoWindow = true;\nstartInfo.UseShellExecute = true;\nstartInfo.RedirectStandardOutput = true;\nstartInfo.RedirectStandardError = true;\n\nProcess proc = Process.Start(startInfo);\nproc.WaitForExit();

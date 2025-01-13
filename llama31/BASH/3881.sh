@@ -1,1 +1,0 @@
-grep -oE 'function\s+\w+' your_combined_file.js | sort | uniq -d

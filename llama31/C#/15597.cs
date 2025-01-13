@@ -1,1 +1,0 @@
-[HttpPut]\npublic ActionResult Update(int id, string value)\n{\n    // Update logic here\n}\n\n[HttpDelete]\npublic ActionResult Delete(int id)\n{\n    // Delete logic here\n}

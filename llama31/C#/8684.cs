@@ -1,1 +1,0 @@
-OracleConnection conn = new OracleConnection(connectionString);\ntry\n{\n    // Use the connection\n}\nfinally\n{\n    conn.Dispose();\n}

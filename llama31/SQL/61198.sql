@@ -1,0 +1,1 @@
+FROM\s+([\w\s,]+)(?:\s+WHERE|\s+GROUP BY|\s+ORDER BY|$)

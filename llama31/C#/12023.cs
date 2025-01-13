@@ -1,1 +1,0 @@
-[TestMethod]\npublic void SystemUnavailable_TriggersEventAfterBufferPeriod()\n{\n    var testTimer = new TestTimer();\n    var monitor = new SystemAvailabilityMonitor(testTimer, TimeSpan.FromMinutes(10));\n\n    monitor.SystemUnavailable();\n\n    // Simulate timer tick\n    testTimer.TickNow();\n\n    // Assert that SystemBecameUnavailable was raised\n}

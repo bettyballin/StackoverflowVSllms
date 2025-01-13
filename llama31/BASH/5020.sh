@@ -1,1 +1,0 @@
-git rm --cached project.pbxuser\ngit rm --cached xcuserdata\ngit commit -m "Remove sensitive files"

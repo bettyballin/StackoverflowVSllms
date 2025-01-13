@@ -1,1 +1,0 @@
-using System.Security.Principal;\n\n// ...\n\nWindowsIdentity identity = (WindowsIdentity)HttpContext.Current.User.Identity;\nusing (identity.Impersonate())\n{\n    // Connect to SQL Server here\n}

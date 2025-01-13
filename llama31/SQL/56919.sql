@@ -1,0 +1,1 @@
+ALTER TABLE Stu_Table\nRENAME TO Stu_Table_10;

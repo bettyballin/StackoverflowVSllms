@@ -1,0 +1,1 @@
+ALTER TABLE example MODIFY COLUMN value VARCHAR(255) COLLATE latin1_bin;

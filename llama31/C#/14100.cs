@@ -1,1 +1,0 @@
-string scriptManagerId = ScriptManager.GetCurrent(Page).UniqueID;\nstring eventTarget = Request.Form[scriptManagerId];\nstring[] parts = eventTarget.Split('|');\nstring updatePanelId = parts[0];\nstring eventTargetId = parts[1];

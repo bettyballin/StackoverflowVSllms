@@ -1,1 +1,0 @@
-DataSet dataSet = ...; // your dataset\nstring columnName = "YourColumnName"; // name of the column you want to access\n\nDataTable dataTable = dataSet.Tables[0]; // assume you have only one table\nDataColumn dataColumn = dataTable.Columns[columnName];\nobject[] values = dataColumn.Data;

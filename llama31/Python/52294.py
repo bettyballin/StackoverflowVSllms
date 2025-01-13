@@ -1,0 +1,1 @@
+input_str = "x/y"\nmy_variable, my_variable2 = input_str.split('/')\n\nprint(my_variable)  # outputs: x\nprint(my_variable2) # outputs: y

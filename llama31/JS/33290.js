@@ -1,0 +1,1 @@
+const originalEntity = { id: 1, name: 'John', age: 30 };\n\n// Update the entity in a functional style\nconst updatedEntity = { ...originalEntity, name: 'Jane' };\n\nconsole.log(originalEntity); // { id: 1, name: 'John', age: 30 }\nconsole.log(updatedEntity); // { id: 1, name: 'Jane', age: 30 }

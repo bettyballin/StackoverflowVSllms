@@ -1,1 +1,0 @@
-// MyCSharpClass.cs\nnamespace MyCSharpProject\n{\n    public class MyCSharpClass\n    {\n        public void MyCSharpMethod()\n        {\n            // C# code here\n        }\n    }\n}

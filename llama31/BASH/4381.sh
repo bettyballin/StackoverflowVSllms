@@ -1,1 +1,0 @@
-convert input.jpg -colorspace sRGB -quality 80 output.jpg

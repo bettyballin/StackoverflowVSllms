@@ -1,0 +1,1 @@
+// Update the graph with the new data\n$.plot(graphContainer, [ [[0, 0], [1, 1]] ], { yaxis: { max: 1 } });

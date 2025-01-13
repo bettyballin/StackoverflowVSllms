@@ -1,1 +1,0 @@
-string text = "I love c# and .net, but not vb.net";\nstring pattern = @"(?<!\w)c\#(?!\w)";\nMatch match = Regex.Match(text, pattern);\nif (match.Success)\n{\n    Console.WriteLine("Found c#");\n}\n\npattern = @"(?<!\w)\.net(?!\w)";\nmatch = Regex.Match(text, pattern);\nif (match.Success)\n{\n    Console.WriteLine("Found .net");\n}

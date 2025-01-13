@@ -1,1 +1,0 @@
-using (var db = new MyDataContext())\n{\n    var orderIds = new[] { 1, 4, 5 };\n    var orders = from o in db.Orders\n                 where orderIds.Contains(o.OrderId)\n                 select o;\n}

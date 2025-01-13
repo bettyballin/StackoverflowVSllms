@@ -1,0 +1,1 @@
+CONSTRAINT [CK_Branch Depth] CHECK \n  (\n    satellite_to_branch_id IS NULL \n    OR NOT EXISTS (\n      SELECT 1 \n      FROM Branch \n      WHERE branch_id = satellite_to_branch_id \n      AND satellite_to_branch_id IS NOT NULL\n    )\n  )

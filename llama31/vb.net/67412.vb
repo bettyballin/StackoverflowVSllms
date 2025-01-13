@@ -1,0 +1,1 @@
+Private _foo As String

@@ -1,0 +1,1 @@
+// Client-side example (JavaScript)\nfunction longPoll() {\n  $.ajax({\n    type: 'GET',\n    url: '/update',\n    data: {\n      values: ['votes', 'comments', 'messages']\n    },\n    success: function(data) {\n      // Update the page with the received data\n      // ...\n      longPoll(); // Send the next request\n    }\n  });\n}

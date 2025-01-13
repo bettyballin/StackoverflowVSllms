@@ -1,0 +1,1 @@
+from google.appengine.ext import db\n\nclass User(db.Model):\n  name = db.StringProperty()\n\nclass Order(db.Model):\n  user = db.ReferenceProperty(User)

@@ -1,1 +1,0 @@
-public class FloatTextBox : TextBox\n{\n    protected override void OnTextChanged(EventArgs e)\n    {\n        base.OnTextChanged(e);\n\n        string text = this.Text;\n        float value;\n        if (!float.TryParse(text, out value))\n        {\n            this.Text = ""; // or some other error handling\n        }\n    }\n}

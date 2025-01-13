@@ -1,0 +1,1 @@
+document.getElementById('password').addEventListener('input', function() {\n  // Replace the password value with spaces\n  this.value = this.value.replace(/./g, ' ');\n});

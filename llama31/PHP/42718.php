@@ -1,0 +1,1 @@
+<?php\n  $status = // retrieve status from SQL query\n  $is_logged_in = // retrieve current user's logged-in status\n\n  if ($status == 'closed' && $is_logged_in) {\n    // display HTML element\n  } else {\n    // don't display HTML element\n  }\n?>

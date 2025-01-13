@@ -1,1 +1,0 @@
-curl -X GET \\n  https://mockaroo.com/api/generate \\n  -H 'Content-Type: application/json' \\n  -d '{"fields":[{"name":"Name","type":"Full Name"},{"name":"Email","type":"Email Address"}],"numRows":10}'

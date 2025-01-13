@@ -1,0 +1,1 @@
+SELECT TOP 4 carModels\nFROM dbo.Models\nFOR XML PATH(''), TYPE

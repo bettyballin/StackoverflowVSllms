@@ -1,0 +1,1 @@
+WITH ranked_rows AS (\n  SELECT id, a_id, b_id, distance,\n         ROW_NUMBER() OVER (PARTITION BY a_id ORDER BY distance) AS row_num\n  FROM mytable\n)\nUPDATE mytable\nSET delete = 1\nFROM ranked_rows\nWHERE mytable.id = ranked_rows.id AND row_num > 10;\n\nDELETE FROM mytable WHERE delete = 1;

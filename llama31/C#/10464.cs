@@ -1,1 +1,0 @@
-string username = "myuser";\nstring password = "mypassword";\nstring authHeader = "Basic " + Convert.ToBase64String(Encoding.UTF8.GetBytes(username + ":" + password));\n\nWebRequest request = WebRequest.Create("https://example.com/myservice");\nrequest.Headers["Authorization"] = authHeader;

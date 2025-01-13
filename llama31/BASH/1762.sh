@@ -1,1 +1,0 @@
-# Get all Access databases on the network\n$dbFiles = Get-ChildItem -Path \\network\path -Recurse -Include *.accdb,*.mdb\n\n# Collect metadata and analyze usage\nforeach ($dbFile in $dbFiles) {\n    $dbPath = $dbFile.FullName\n    $lastModified = $dbFile.LastWriteTime\n    $size = $dbFile.Length\n\n    # Add your analysis logic here...\n    # ...\n}

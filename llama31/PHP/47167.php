@@ -1,0 +1,1 @@
+$pagesize = isset($_GET['pagesize']) ? $_GET['pagesize'] : 20;

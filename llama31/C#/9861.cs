@@ -1,1 +1,0 @@
-[ScriptService]\npublic class XYZ : WebService\n{\n    [WebMethod(EnableSession = true)]\n    public string Method(string param1, string param2)\n    {\n        if (SessionExpired())\n        {\n            return sessionExpiredMessage;\n        }\n        // Rest of your code...\n    }\n}

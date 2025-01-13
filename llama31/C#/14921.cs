@@ -1,1 +1,0 @@
-using System;\nusing System.Threading;\n\npublic class MyPage : System.Web.UI.Page\n{\n    protected void Page_Load(object sender, EventArgs e)\n    {\n        // Get the current thread ID\n        int threadId = Thread.CurrentThread.ManagedThreadId;\n        Response.Write("Thread ID: " + threadId);\n    }\n}

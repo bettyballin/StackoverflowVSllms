@@ -1,0 +1,1 @@
+class Child extends Parent {\n    protected static $message;\n}

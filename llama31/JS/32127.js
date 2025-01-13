@@ -1,0 +1,1 @@
+import Handsontable from 'handsontable';\n\nconst container = document.getElementById('grid-container');\nconst hot = new Handsontable(container, {\n  data: [], // Initialize with empty data\n  colHeaders: true,\n  rowHeaders: true,\n  copyPaste: true, // Enable copy-paste functionality\n});

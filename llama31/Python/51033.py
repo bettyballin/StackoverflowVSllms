@@ -1,0 +1,1 @@
+import re\n\npattern = r'^[A-Za-z0-9_.][A-Za-z0-9_ ]{0,31}$'\n\n# Test the pattern\nstrings = [".hello hello", ".hello hello /.."]\n\nfor s in strings:\n    if re.match(pattern, s):\n        print(f"'{s}' is valid")\n    else:\n        print(f"'{s}' is not valid")

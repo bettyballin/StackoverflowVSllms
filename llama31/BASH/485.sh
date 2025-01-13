@@ -1,1 +1,0 @@
-pattern="^[A-Za-z]+$"

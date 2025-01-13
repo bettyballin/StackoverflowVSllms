@@ -1,1 +1,0 @@
-ppu-gcc mathtest.c -lm

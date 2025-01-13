@@ -1,0 +1,1 @@
+ew Sortable('myList', {\n  onEnd: function(element) {\n    // your callback function here\n  }\n});

@@ -1,1 +1,0 @@
-# Example JMeter test in CLI mode\n   jmeter -n -t your-test-plan.jmx -l your-test-results.jtl

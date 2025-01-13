@@ -1,0 +1,1 @@
+var isExecuting = false;\n\n$(window).scroll(function() {\n  if (!isExecuting) {\n    isExecuting = true;\n    // your function code here\n    // ...\n    // when the function is finished executing, reset the flag\n    isExecuting = false;\n  }\n});

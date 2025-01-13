@@ -1,1 +1,0 @@
-Set-ItemProperty 'IIS:\Sites\Default Website' -Name logFile.directory -Value 'd:\'

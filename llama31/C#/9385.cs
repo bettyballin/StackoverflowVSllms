@@ -1,1 +1,0 @@
-using System;\nusing System.Linq;\n\nclass Program\n{\n    static void Main()\n    {\n        var rnd = new Random();\n        var numbers = Enumerable.Range(1, 100).OrderBy(x => rnd.Next()).ToArray();\n\n        foreach (var number in numbers)\n        {\n            Console.WriteLine(number);\n        }\n    }\n}

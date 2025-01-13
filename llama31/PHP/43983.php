@@ -1,0 +1,1 @@
+// Example using Xdebug\nxdebug_start_profiling();\n// Your PHP code here\nxdebug_stop_profiling();

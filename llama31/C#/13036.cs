@@ -1,1 +1,0 @@
-XPathNavigator node = xNav.SelectSingleNode("language/header/about");\nif (node != null)\n{\n    return node.Value;\n}\nreturn null;

@@ -1,0 +1,1 @@
+<?xml version="1.0"?>\n<root>\n  <group id="1">\n    <item name="John"/>\n    <item name="Jane"/>\n  </group>\n  <group id="2">\n    <item name="Bob"/>\n    <item name="Alice"/>\n  </group>\n  <group id="3">\n    <item name="Charlie"/>\n  </group>\n</root>

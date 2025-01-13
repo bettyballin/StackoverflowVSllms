@@ -1,0 +1,1 @@
+if (myString == null) {\n  // handle null or undefined\n}

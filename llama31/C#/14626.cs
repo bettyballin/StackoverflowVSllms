@@ -1,1 +1,0 @@
-[ComVisible(true)]\n[ClassInterface(ClassInterfaceType.None)]\n[ProgId("MyNetClass")]\n[Guid("XXXXXXXX-XXXX-XXXX-XXXX-XXXXXXXXXXXX")]\npublic class MyNetClass\n{\n    [DispId(1)]\n    public string MyMethod(string param)\n    {\n        // implementation\n    }\n}

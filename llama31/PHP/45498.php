@@ -1,0 +1,1 @@
+$clean = str_replace(array_map('strtolower', $array), $filter, strtolower($str));

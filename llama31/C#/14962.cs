@@ -1,1 +1,0 @@
-using DotNetNuke.Common;\n\nstring loginUrl = Globals.LoginURL;

@@ -1,1 +1,0 @@
-var product = new Product\n{\n    StorageHistories = new HashSet<StorageHistory>()\n};

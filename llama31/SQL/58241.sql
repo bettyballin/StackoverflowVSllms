@@ -1,0 +1,1 @@
+USE msdb;\nGO\n\nBEGIN TRY\n    EXEC sp_delete_job @job_name = N'YourJobName';\n    PRINT 'Job deleted successfully.';\nEND TRY\nBEGIN CATCH\n    PRINT 'Error deleting job: ' + ERROR_MESSAGE();\nEND CATCH;\nGO

@@ -1,0 +1,1 @@
+Imports Microsoft.Win32\n\nPrivate WithEvents systemEvents As New SystemEvents()\n\nPrivate Sub systemEvents_DisplaySettingsChanged(sender As Object, e As EventArgs) Handles systemEvents.DisplaySettingsChanged\n    ' Adjust control sizes and positions here\nEnd Sub

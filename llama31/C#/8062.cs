@@ -1,1 +1,0 @@
-// C# code\nusing System;\n\npublic class HelloWorld \n{\n    public static void Main(string[] args) \n    {\n        Console.WriteLine("Hello, World!");    \n    }\n}

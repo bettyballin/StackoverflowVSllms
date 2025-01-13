@@ -1,1 +1,0 @@
-[RequireHttps]\n[Authorize(Roles = Constants.ROLECLIENT)]\npublic partial class RestrictedPage : Page\n{\n    // ...\n}

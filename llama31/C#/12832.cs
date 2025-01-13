@@ -1,1 +1,0 @@
-public ActionResult NextAction()\n{\n    string notification = (string)Session["notification"];\n    // display the notification\n    return View();\n}

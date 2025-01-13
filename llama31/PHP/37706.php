@@ -1,0 +1,1 @@
+$json_data = json_encode($data);\n// Store $json_data in the database\n\n// Later...\n$unserialized_data = json_decode($json_data, true);

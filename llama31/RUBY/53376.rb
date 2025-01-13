@@ -1,0 +1,1 @@
+# Gemfile\nsource 'https://rubygems.org'\n\ngem 'my_gem', '~> 1.2.3' # Specify a version range

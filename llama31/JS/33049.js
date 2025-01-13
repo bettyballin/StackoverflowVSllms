@@ -1,0 +1,1 @@
+$("#dialog").dialog({\n  // your other options here\n  open: function(event, ui) {\n    $(".ui-dialog-titlebar-close", ui.dialog | ui).hide();\n  }\n});

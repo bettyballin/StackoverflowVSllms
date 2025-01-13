@@ -1,1 +1,0 @@
-sqlcmd -S <server_name> -Q "BACKUP DATABASE [<database_name>] TO DISK = '<backup_file>.bak'"

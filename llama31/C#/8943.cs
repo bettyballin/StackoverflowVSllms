@@ -1,1 +1,0 @@
-[AcceptVerbs(HttpVerbs.Post)]\npublic ActionResult Delete([Bind(Prefix = "")] DDW2File ddw2file)\n{\n    repository.Delete(ddw2file);\n    return RedirectToAction("Index");\n}

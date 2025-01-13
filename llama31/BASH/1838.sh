@@ -1,1 +1,0 @@
-pg_dump -U your_username your_database_name > backup.sql\npg_restore -U your_username -d your_database_name backup.sql

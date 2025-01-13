@@ -1,1 +1,0 @@
-telnet <linux_server_ip> 10000

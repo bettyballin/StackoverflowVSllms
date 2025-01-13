@@ -1,1 +1,0 @@
-using System.Reflection;\n\npublic class MainWindow : Window\n{\n    public MainWindow() : base("Welcome")\n    {\n        var assembly = Assembly.GetExecutingAssembly();\n        var stream = assembly.GetManifestResourceStream("welcome.html");\n        var html = new Html();\n        html.LoadStream(stream);\n        Add(html);\n    }\n}

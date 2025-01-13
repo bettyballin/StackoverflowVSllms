@@ -1,0 +1,1 @@
+const crypto = require('crypto');\nconst strcmp = (str1, str2) => {\n    const buf1 = Buffer.from(str1);\n    const buf2 = Buffer.from(str2);\n    return crypto.timingSafeEqual(buf1, buf2);\n};

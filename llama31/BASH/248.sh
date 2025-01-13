@@ -1,1 +1,0 @@
-awk 'NR>=105 && /description=/ {f=1} f && /host|port/ {print $2} /connect_data=/ {f=0}' .tnsnames.ora

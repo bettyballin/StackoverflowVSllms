@@ -1,1 +1,0 @@
-protected void FinishButton_Click(object sender, EventArgs e)\n{\n    // Validate all controls, including invisible ones\n    Page.Validate("MyValidationGroup");\n\n    // Check if the page is valid\n    if (Page.IsValid)\n    {\n        // Page is valid, proceed with your logic\n    }\n    else\n    {\n        // Page is not valid, display errors\n    }\n}

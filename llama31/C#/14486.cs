@@ -1,1 +1,0 @@
-if (Math.Abs(p43.x) < EPS && Math.Abs(p43.y) < EPS && Math.Abs(p43.z) < EPS) return false;

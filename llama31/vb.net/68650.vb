@@ -1,0 +1,1 @@
+Dim persister As New GenericPersister(Of MyEntity)()\npersister.Update(myEntityInstance)

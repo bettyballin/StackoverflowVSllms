@@ -1,1 +1,0 @@
-[HttpPost]\npublic ActionResult CreateUser(User user)\n{\n    if (ModelState.IsValid)\n    {\n        // Save user to database\n        return RedirectToAction("Index");\n    }\n\n    return View(user);\n}

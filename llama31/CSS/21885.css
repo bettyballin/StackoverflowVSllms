@@ -1,1 +1,0 @@
-/* Add this to your Joomla template's CSS file */\n.multicolumn {\n    display: flex;\n    flex-wrap: wrap;\n    justify-content: space-between;\n}\n\n.multicolumn .col-md-4 {\n    flex-basis: 33.3333%;\n    padding: 10px;\n}

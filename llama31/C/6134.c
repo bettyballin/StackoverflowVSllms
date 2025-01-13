@@ -1,1 +1,0 @@
-int bytes_read = read(client_socket, buffer, buffer_size);\nif (bytes_read == -1 && errno == ECONNRESET) {\n    // Client has disconnected\n}

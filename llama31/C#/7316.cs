@@ -1,1 +1,0 @@
-protected void Page_Load(object sender, EventArgs e)\n{\n    if (!IsPostBack)\n    {\n        RequiredFieldValidator1.Enabled = false;\n    }\n}

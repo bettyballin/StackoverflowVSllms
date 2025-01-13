@@ -1,0 +1,1 @@
+ini_set('xdebug.remote_host', 'your_zend_studio_ip');\nini_set('xdebug.remote_port', 'your_zend_studio_port');

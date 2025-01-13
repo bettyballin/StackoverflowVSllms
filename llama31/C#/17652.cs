@@ -1,1 +1,0 @@
-List<SelectListItem> myList = new List<SelectListItem>();\nmyList.Add(new SelectListItem { Text = "", Value = "" });\nmyList.AddRange(db.Values.Select(v => new SelectListItem { Text = v.Text, Value = v.Value }));\n\n@Html.DropDownList("myList", myList)

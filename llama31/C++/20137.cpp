@@ -1,1 +1,0 @@
-std::list<Foo> l;\nl.reserve(10); // reserve memory for 10 elements

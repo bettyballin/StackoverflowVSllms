@@ -1,0 +1,1 @@
+mapObject.prototype.SetLocation = function(response) {\n  // ...\n}.bindAsEventListener(this);

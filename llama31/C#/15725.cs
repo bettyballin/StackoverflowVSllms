@@ -1,1 +1,0 @@
-Photo photo = rep.NewPhoto();\nphoto.Title = "Some Title";\nstring guid = Guid.NewGuid().ToString("N");\nstring filename = $"{guid}.jpg"; // or whatever file extension you're using\nrep.SavePhoto(uploadedPhoto, filename);\nphoto.FileName = filename;\nrep.InsertPhoto(photo);\nrep.SaveAll();

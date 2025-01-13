@@ -1,1 +1,0 @@
-string guid1 = "XXXXXXXX-XXXX-XXXX-XXXX-XXXXXXXXXXXX";\nstring guid2 = "XXXXXXXX-XXXX-XXXX-XXXX-XXXXXXXXXXXX";\n\n// Convert both GUIDs to lowercase\nstring guid1Lower = guid1.ToLowerInvariant();\nstring guid2Lower = guid2.ToLowerInvariant();\n\n// Compare the lowercase GUIDs\nif (guid1Lower == guid2Lower)\n{\n    // GUIDs are equal\n}

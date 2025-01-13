@@ -1,0 +1,1 @@
+DECLARE\n  v_cnt NUMBER;\nBEGIN\n  SELECT COUNT(*) INTO v_cnt FROM all_tables WHERE table_name = 'TABLE1' AND owner = 'AMS';\n  \n  IF v_cnt = 0 THEN\n    EXECUTE IMMEDIATE '\n      BEGIN\n        CREATE TABLE TABLE1(VALUE VARCHAR2(50) NOT NULL);\n        ALTER TABLE TABLE1 ADD (MYVAL2 NVARCHAR2(10));\n      END;\n    ';\n  END IF;\nEND;

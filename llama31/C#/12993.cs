@@ -1,1 +1,0 @@
-using System.Data.Objects;\n\n// Create a new ObjectContext\nObjectContext context = new ObjectContext();\n\n// Add your dataset to the context\ncontext.AddObject("YourDataSet", yourDataSet);\n\n// Query the context\nvar results = from o in context.CreateObjectSet<YourType>()\n              select o;

@@ -1,1 +1,0 @@
-[MetadataType(typeof(UserMetadata))]\npublic partial class User\n{\n    // ...\n}\n\npublic class UserMetadata\n{\n    [DataType(DataType.EmailAddress, ErrorMessage = "Please enter an email address")]\n    public string Email { get; set; }\n}

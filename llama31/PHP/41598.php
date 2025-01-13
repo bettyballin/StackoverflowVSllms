@@ -1,0 +1,1 @@
+function IsAuthorized($url, $user) {\n    // Check if cached result exists\n    $cacheKey = "auth_result_{$url}_{$user}";\n    if (isset($_SESSION[$cacheKey])) {\n        return $_SESSION[$cacheKey];\n    }\n\n    // Perform LDAP query and cache result\n    $ldapResult = ldap_query($url, $user);\n    $_SESSION[$cacheKey] = $ldapResult;\n    return $ldapResult;\n}

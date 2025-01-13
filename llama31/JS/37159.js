@@ -1,0 +1,1 @@
+var printContent = document.getElementById('report-content').innerHTML;\nvar printWindow = window.open('', '', 'height=500,width=700');\nprintWindow.document.write('<html><head><style>/* your print styles here */</style></head><body>' + printContent + '</body></html>');\nprintWindow.print();\nprintWindow.close();

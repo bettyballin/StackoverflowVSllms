@@ -1,0 +1,1 @@
+<!-- build.xml -->\n<project name="my_app" default="build">\n  <target name="build">\n    <!-- Compile, package, and prepare your application -->\n  </target>\n</project>

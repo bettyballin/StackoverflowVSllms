@@ -1,0 +1,1 @@
+$text = filter_input(INPUT_GET, 'text', FILTER_SANITIZE_STRING);\n$text = html_entity_decode($text);

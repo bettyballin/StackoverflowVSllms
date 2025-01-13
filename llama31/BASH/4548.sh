@@ -1,1 +1,0 @@
-directory=/path/to/directory\nwhile IFS= read -r file; do\n  if [ -f "$directory/$file" ]; then\n    echo "$file exists"\n  else\n    echo "$file does not exist"\n  fi\ndone < filelist.txt

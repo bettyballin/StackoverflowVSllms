@@ -1,1 +1,0 @@
-xgettext -o output.po your/template/directory/*.tpl

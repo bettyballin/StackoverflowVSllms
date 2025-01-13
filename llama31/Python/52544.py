@@ -1,0 +1,1 @@
+# module1.py\nimport config\nprint(config.foo)  # prints 'bar'

@@ -1,1 +1,0 @@
-MemoryStream ms = new MemoryStream();\n// Populate your MemoryStream...\n\nstring result = MemoryStreamToString.ReadStringFromMemoryStream(ms);\nConsole.WriteLine(result);

@@ -1,1 +1,0 @@
-using System.Security.Cryptography;\n\npublic ActionResult Upload()\n{\n    var token = Guid.NewGuid().ToString("N");\n    return View(new UploadModel { Token = token });\n}

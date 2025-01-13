@@ -1,1 +1,0 @@
-mkdir -p /var/www/usr/local/bin\nmkdir -p /var/www/usr/local/lib

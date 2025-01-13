@@ -1,1 +1,0 @@
-string username = "your_username";\nstring password = "your_password";\nstring credentials = $"{username}:{password}";\nstring encodedCredentials = Convert.ToBase64String(Encoding.ASCII.GetBytes(credentials));\nstring authorizationHeader = $"Basic {encodedCredentials}";

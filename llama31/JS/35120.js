@@ -1,0 +1,1 @@
+let nums = [1, 2, 3, 4, 5]\nmoveToHead 4 nums  -- returns [4, 1, 2, 3, 5]

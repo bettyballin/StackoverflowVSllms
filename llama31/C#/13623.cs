@@ -1,1 +1,0 @@
-[WebMethod]\npublic void MyWebServiceMethod(string param1, string param2)\n{\n    // Use param1 and param2\n}

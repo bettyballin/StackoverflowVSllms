@@ -1,0 +1,1 @@
+# config/routes.rb\nmap.resources :notes\n\n# app/controllers/notes_controller.rb\ndef new\n  @note = Note.new\nend\n\ndef create\n  @note = Note.new(params[:note])\n  if @note.save\n    redirect_to notes_path\n  else\n    render :action => 'new'\n  end\nend

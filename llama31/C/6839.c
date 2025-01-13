@@ -1,1 +1,0 @@
-COINIT init;\ninit.cb = sizeof(init);\ninit.dwCoInit = COINIT_MULTITHREADED;\ninit.dwOleRequestPendingTimeout = 30000; // 30 seconds\n\nCoInitialize(&init);

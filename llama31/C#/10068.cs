@@ -1,1 +1,0 @@
-[WebMethod]\npublic static bool ValidateLogin(string arg)\n{\n    // Validate the input data\n    if (string.IsNullOrEmpty(arg) || arg.Length > 50)\n    {\n        // Reject the request\n        return false;\n    }\n    // Rest of your validation logic here...\n}

@@ -1,1 +1,0 @@
-using XInput;\n\nclass Program\n{\n    static void Main(string[] args)\n    {\n        XINPUT_STATE state;\n        uint result = XInput.XInputGetState(0, out state);\n        if (result == 0)\n        {\n            Console.WriteLine("Controller connected");\n        }\n        else\n        {\n            Console.WriteLine("Controller not connected");\n        }\n    }\n}

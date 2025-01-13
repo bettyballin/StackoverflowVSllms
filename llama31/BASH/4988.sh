@@ -1,1 +1,0 @@
-ip netns add restricted

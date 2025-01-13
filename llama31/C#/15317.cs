@@ -1,1 +1,0 @@
-AssemblyName dalAssemblyName = new AssemblyName("DAL");\ndalAssemblyName.Version = new Version("1.0.0.0");\ndalAssemblyName.PublicKeyToken = new byte[] { /* public key token */ };\nAssembly dalAssembly = Assembly.Load(dalAssemblyName);

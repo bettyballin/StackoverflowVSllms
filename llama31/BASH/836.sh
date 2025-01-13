@@ -1,1 +1,0 @@
-export DYLD_PRINT_LIBRARIES=1\n./MyApplicatio

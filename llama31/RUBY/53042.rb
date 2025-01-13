@@ -1,0 +1,1 @@
+# config/initializers/patch_gem.rb\n\n# Require the gem\nrequire 'gem_name'\n\n# Apply the patch\nGemName::ClassName.class_eval do\n  # your patch code here\nend

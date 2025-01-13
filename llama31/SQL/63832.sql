@@ -1,0 +1,1 @@
+CREATE INDEX idx_MessageLookup_Key_CampaignTypeID_ServiceProviderID_DistributorID_CampaignID \nON MessageLookup ([Key], CampaignTypeID, ServiceProviderID, DistributorID, CampaignID);

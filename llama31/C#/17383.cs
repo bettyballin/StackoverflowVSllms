@@ -1,1 +1,0 @@
-// In your controller\nif (ModelState.IsValid)\n{\n    ViewBag.HasErrors = false;\n}\nelse\n{\n    ViewBag.HasErrors = true;\n}

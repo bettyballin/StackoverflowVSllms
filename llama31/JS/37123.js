@@ -1,0 +1,1 @@
+window.onbeforeunload = function(event) {\n  // Your code here\n};\n\n// or\n\nwindow.onunload = function(event) {\n  // Your code here\n};

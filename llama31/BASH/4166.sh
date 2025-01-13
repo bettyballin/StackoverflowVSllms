@@ -1,1 +1,0 @@
-wsimport -p com.example -o outputDir http://localhost:9704/analytics/saw.dll?WSDL

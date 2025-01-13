@@ -1,1 +1,0 @@
-extern "C" __declspec(dllexport) int MyFunction(int param) {\n    // implementation\n}

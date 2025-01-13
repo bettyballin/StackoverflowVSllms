@@ -1,1 +1,0 @@
-// Securely delete the RDLC file after viewing\nSystem.IO.File.Delete(rdlcPath);

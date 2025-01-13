@@ -1,0 +1,1 @@
+// In child window\nvar oParts = window.opener.GetParts();

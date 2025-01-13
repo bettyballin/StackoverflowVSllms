@@ -1,0 +1,1 @@
+// Expose a function to get the current state of a widget\nwindow.getWidgetState = function() {\n  // Return the current state\n};

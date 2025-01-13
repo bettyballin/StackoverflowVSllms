@@ -1,0 +1,1 @@
+$pattern = '/[\w-]+@([\w-]+\.)+[\w-]+/i';\n$offset = 0;\n$array = array();\nwhile (preg_match($pattern, $site, $match, PREG_OFFSET_CAPTURE, $offset)) {\n    $array[] = $match[0][0];\n    $offset = $match[0][1] + strlen($match[0][0]);\n}

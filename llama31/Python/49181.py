@@ -1,0 +1,1 @@
+if rowColumn[1][3].replace(',','').strip('$').isdigit():\n    value = int(rowColumn[1][3].replace(',','').strip('$'))\nelse:\n    value = None  # or any other default value you want to use

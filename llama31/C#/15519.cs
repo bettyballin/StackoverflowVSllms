@@ -1,1 +1,0 @@
-string referrerUrl = Request.UrlReferrer.ToString();\n// or\nstring parentUrl = Request.Headers["Referer"];

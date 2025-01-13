@@ -1,0 +1,1 @@
+this.initializeStep1 = function() {\n    PeopleServices.getFirstName(id, this.initializeStep2.bind(this));\n}

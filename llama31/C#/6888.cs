@@ -1,1 +1,0 @@
-DataTable dataTable = new DataTable();\n// populate the data table with the DB2 data\n\nusing (SqlBulkCopy bulkCopy = new SqlBulkCopy(sqlConnectionString))\n{\n    bulkCopy.DestinationTableName = "all_table_information";\n    bulkCopy.WriteToServer(dataTable);\n}

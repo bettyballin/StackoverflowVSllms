@@ -1,0 +1,1 @@
+Imports System.Web.Services\n\nPartial Class YourPage\n    Inherits System.Web.UI.Page\n\n    <WebMethod()>\n    Public Shared Sub DestroySession()\n        HttpContext.Current.Session("YourSessionVariable") = Nothing\n    End Sub\nEnd Class

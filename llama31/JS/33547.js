@@ -1,0 +1,1 @@
+function limitRootNodes() {\n  var tree_ul = $('#Tree ul li ul:first').children();\n  var max_listCount = 3;\n  tree_ul.filter(':gt(' + (max_listCount - 1) + ')').remove();\n}

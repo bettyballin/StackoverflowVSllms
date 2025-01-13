@@ -1,1 +1,0 @@
-using System;\nusing System.Web.Hosting;\n\npublic class MyPreloadClient : IProcessHostPreloadClient\n{\n    public void Preload(string[] parameters)\n    {\n        // Initialize Fluorine and its RTMP server here\n    }\n}

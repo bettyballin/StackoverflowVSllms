@@ -1,1 +1,0 @@
-public class CustomLabel : Label\n{\n    public string OriginalText { get; set; }\n\n    protected override void Render(HtmlTextWriter writer)\n    {\n        base.Render(writer);\n        OriginalText = Text;\n    }\n}

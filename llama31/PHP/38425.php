@@ -1,0 +1,1 @@
+$order = new Zend_Db_Expr("\n  CASE\n    WHEN navigation_category IN ({$commaPath}) THEN 1\n    WHEN navigation_parent = {$id} THEN 2\n    ELSE 3\n  END, LENGTH(navigation_path), navigation_name\n");\n\n$select->where($where)->order($order);

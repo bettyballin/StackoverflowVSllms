@@ -1,0 +1,1 @@
+BEGIN TRANSACTION\n\n-- Acquire locks in a consistent order\nSELECT * FROM TableA WITH (ROWLOCK) WHERE ...\nSELECT * FROM TableB WITH (ROWLOCK) WHERE ...\n\n-- Perform operations\nINSERT INTO TableC ...\nUPDATE TableD ...\n\nCOMMIT TRANSACTION

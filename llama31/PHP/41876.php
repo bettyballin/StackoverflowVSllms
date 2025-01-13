@@ -1,0 +1,1 @@
+class ArtifactFinder\n{\n    public function create($params)\n    {\n        // implementation\n    }\n\n    public function get($params)\n    {\n        // implementation\n    }\n\n    public function getCollection($params = null)\n    {\n        // implementation\n    }\n\n    public function factory($row)\n    {\n        // implementation\n    }\n}

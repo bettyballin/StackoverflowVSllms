@@ -1,1 +1,0 @@
-vector<int> Foo() {\n    vector<int> result;\n    result.push_back(1);\n    return std::move(result); // explicitly transfer ownership\n}\n\nvector<int> Bar() {\n    return Foo();\n}

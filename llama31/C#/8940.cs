@@ -1,1 +1,0 @@
-public Item GetItemByIdx(int idx)\n{\n    if ((idx < 0) || (idx >= m_items.Count))\n    {\n        throw new ArgumentOutOfRangeException("idx", "Invalid index");\n    }\n\n    return m_items[idx];\n}

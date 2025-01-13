@@ -1,0 +1,1 @@
+# controllers/application_controller.rb\nclass ApplicationController < ActionController::API\n  before_action :authenticate_request\nend\n\n# lib/authenticate_request.rb\nclass AuthenticateRequest\n  def initialize(request)\n    @request = request\n  end\n\n  def call\n    # Authenticate the request\n  end\nend

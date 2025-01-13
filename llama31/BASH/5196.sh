@@ -1,1 +1,0 @@
-find /path/to/directory -type f -name "*.php" > filelist.txt

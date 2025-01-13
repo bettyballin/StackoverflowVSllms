@@ -1,1 +1,0 @@
-ssh -t user@remote-server 'source ~/.bash_profile; vim'

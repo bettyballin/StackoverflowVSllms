@@ -1,1 +1,0 @@
-// Disable echoing\nConsole.TreatControlCAsInput = true;\n\n// Read input without echoing\nConsoleKeyInfo cki = Console.ReadKey(true);\n\n// Restore echoing\nConsole.TreatControlCAsInput = false;

@@ -1,0 +1,1 @@
+<textFieldExpression><![CDATA[String.valueOf($P{myIntegerParam})]]></textFieldExpression>

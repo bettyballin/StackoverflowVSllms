@@ -1,1 +1,0 @@
-DateTime? dt = myObject.MyDateTimeProperty;\nif (dt != null)\n{\n    // Do something with the DateTime value\n}

@@ -1,0 +1,1 @@
+function __autoload($class_name) {\n    if (preg_match('/^vPrimaryKey_(\w+)$/', $class_name, $matches)) {\n        $table_name = $matches[1];\n        $class_definition = "\n            class $class_name extends vPrimaryKey {\n                protected \$table = '$table_name';\n            }\n        ";\n        eval($class_definition);\n    }\n}

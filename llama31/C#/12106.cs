@@ -1,1 +1,0 @@
-int? test = null; // declaration and initialization\ntry\n{\n    test = (int?) Int32.Parse ("7"); // assignment, but only if no exception is thrown\n} catch {}

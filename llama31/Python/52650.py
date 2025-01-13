@@ -1,0 +1,1 @@
+user = db.GqlQuery("SELECT user_hash FROM links")\nunique_users = set([u.user_hash for u in user])\ndistinct_users = list(unique_users)\ncount = len(distinct_users)

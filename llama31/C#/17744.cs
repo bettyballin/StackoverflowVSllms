@@ -1,1 +1,0 @@
-var obj1 = new object();\nvar obj2 = new {};\n\nConsole.WriteLine(obj1.GetType()); // System.Object\nConsole.WriteLine(obj2.GetType()); // <>f__AnonymousType0`1[System.Object]\n\nConsole.WriteLine(obj1.Equals(obj2)); // False\nConsole.WriteLine(obj2.Equals(new {})); // True

@@ -1,0 +1,1 @@
+public function verifySession($token) {\n    session_start();\n    if ($token == $_SESSION['token']) {\n        return 'valid';\n    } else {\n        return 'invalid';\n    }\n}

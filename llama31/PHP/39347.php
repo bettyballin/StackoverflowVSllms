@@ -1,0 +1,1 @@
+$pdo = new PDO('mysql:host=localhost;dbname=database', 'username', 'password');\n$stmt = $pdo->prepare('INSERT INTO tags (tag) VALUES (:tag)');\n$stmt->bindParam(':tag', $proposedtag);\n$stmt->execute();

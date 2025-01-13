@@ -1,1 +1,0 @@
-@echo off\nset OUTDIR=C:\MyProject\Release\nset PDBFILE=MyProject.pdb\n\ndel /f /q "%OUTDIR%\%PDBFILE%"\necho Deleted PDB file\n\nmsbuild MyProject.sln /t:Build /p:Configuration=Release /p:Platform=x86\necho Build completed

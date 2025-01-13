@@ -1,0 +1,1 @@
+$array = $_POST;\n\nforeach ($array as $key => $value) {\n    if (empty($value)) {\n        // stop submission and show error message\n        break;\n    }\n}

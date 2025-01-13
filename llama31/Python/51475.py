@@ -1,0 +1,1 @@
+import unicodedata\n\n...\n\nwith open('converted/' + file_path, 'w', encoding='utf-8') as file:\n    file.write(unicodedata.normalize('NFC', text))

@@ -1,0 +1,1 @@
+class MyValidate_NotEmpty extends Zend_Validate_NotEmpty\n{\n    public function isValid($value)\n    {\n        if (!parent::isValid($value)) {\n            $this->_messages = array('Please enter a value for this field');\n            return false;\n        }\n        return true;\n    }\n}

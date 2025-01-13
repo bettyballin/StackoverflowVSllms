@@ -1,0 +1,1 @@
+<?php\ninclude('header.php');\nset_page_metadata('Page 1 Title', 'keyword1, keyword2', 'This is page 1 description');\n?>\n\n<!-- Page 1 content -->

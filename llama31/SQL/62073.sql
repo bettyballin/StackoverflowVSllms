@@ -1,0 +1,1 @@
+SELECT it.id, it.name\nFROM item_types it\nWHERE NOT EXISTS (\n  SELECT 1\n  FROM items i\n  WHERE i.entity_id = 1 AND i.item_type_id = it.id\n)

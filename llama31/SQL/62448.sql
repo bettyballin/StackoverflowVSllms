@@ -1,0 +1,1 @@
+DECLARE @foo INT\nSET @foo = null\n\nSELECT 'foo was null' INTO #TempTable\nWHERE @foo IS NULL\n\nUNION ALL\n\nSELECT 'foo not null'\nWHERE @foo IS NOT NULL

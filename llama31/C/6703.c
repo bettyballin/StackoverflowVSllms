@@ -1,1 +1,0 @@
-int buffer[10] = {3, 6, 1, 8, 2, 4, 5, 7, 9, 0};\nsort_circular_buffer(buffer, 10, 5);

@@ -1,1 +1,0 @@
-uint32_t murmurhash3(const vector<int>& v) {\n  uint32_t hash = 0;\n  for (int x : v) {\n    hash = murmurhash3_x86_32(x, hash);\n  }\n  return hash;\n}

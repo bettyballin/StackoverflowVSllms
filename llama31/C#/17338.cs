@@ -1,1 +1,0 @@
-SqlDatabase db = new SqlDatabase(connectionManager.SqlConnection.ConnectionString);\ndb.CommandTimeout = 180; // Set timeout to 3 minutes\n\nreturn db.ExecuteScalar(Enum.GetName(typeof(StoredProcs), storedProc), parameterValues);

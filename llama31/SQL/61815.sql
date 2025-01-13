@@ -1,0 +1,1 @@
+SELECT \n  DATE_FORMAT(m.`when`, '%e/%c/%Y') AS date,\n  COUNT(m.`ip`) AS AddressCount\nFROM \n  `metrics` m\n  INNER JOIN `projects` p ON m.`projID` = p.`projID`\nWHERE \n  p.`userID` = '1'\nGROUP BY \n  DATE(m.`when`)

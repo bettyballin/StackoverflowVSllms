@@ -1,1 +1,0 @@
-time_t currentTime = time(NULL);\n// Use currentTime ten times

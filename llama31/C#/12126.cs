@@ -1,1 +1,0 @@
-using System.Runtime.InteropServices;\nusing System.Reflection;\n\n[assembly: ComVisible(true)]\n[assembly: ClassInterface(ClassInterfaceType.AutoDispatch)]

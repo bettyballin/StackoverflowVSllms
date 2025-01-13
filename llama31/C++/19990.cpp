@@ -1,1 +1,0 @@
-value = static_cast<long>(first_value + getIncrement()) * (long)(index - first_index);

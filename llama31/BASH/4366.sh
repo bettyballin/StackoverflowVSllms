@@ -1,1 +1,0 @@
-sed '1s/ /_/g' file.txt

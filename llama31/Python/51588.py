@@ -1,0 +1,1 @@
+from django.test import TestCase\n\nclass MyTestCase(TestCase):\n    use_transaction = False\n\n    def test_my_test(self):\n        # Your test code here\n        pass

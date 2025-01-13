@@ -1,0 +1,1 @@
+<?php\n// Turn off output buffering\nob_end_clean();\n\n// Do some work...\nfor ($i = 0; $i < 10; $i++) {\n    // Do some task...\n    sleep(1); // Simulate work\n\n    // Output progress\n    echo "Completed task $i of 10<br>\n";\n    ob_flush();\n    flush();\n}\n?>

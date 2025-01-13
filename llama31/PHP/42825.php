@@ -1,0 +1,1 @@
+// Define the group and its permissions\n$wgGroupPermissions['Human Resource']['edit'] = true;\n\n// Allow bureaucrats to add and remove users from the group\n$wgAddGroups['bureaucrat'][] = 'Human Resource';\n$wgRemoveGroups['bureaucrat'][] = 'Human Resource';

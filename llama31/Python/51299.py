@@ -1,0 +1,1 @@
+import importlib\nimport sys\n\nclass ClassOne():\n   def reload_module():\n       module_name = __package__ + '.' + __name__\n       importlib.reload(sys.modules[module_name])

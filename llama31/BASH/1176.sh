@@ -1,1 +1,0 @@
-libreoffice --headless --convert-to xls input.csv

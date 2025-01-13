@@ -1,0 +1,1 @@
+Public Class Address\n    Inherits BaseRepository(Of Address)\n    Implements IAddress\n\n    Public Sub Save(ByVal obj As IAddress) Implements IBaseRepository(Of IAddress).Save\n        MyBase.Save(CType(obj, Address))\n    End Sub\nEnd Class

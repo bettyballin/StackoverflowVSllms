@@ -1,1 +1,0 @@
-stat -f /path/to/your/database/file

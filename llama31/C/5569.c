@@ -1,1 +1,0 @@
-CloseHandle(hReadPipe);\n_close(fd);

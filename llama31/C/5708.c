@@ -1,1 +1,0 @@
-LONG result = RegOpenKeyEx(HKEY_CURRENT_USER, "SOFTWARE\\YourKey", 0, KEY_WRITE, &hKey);

@@ -1,0 +1,1 @@
+# config.ru\nuse Rack::Static, urls: ['/images'], root: 'public'

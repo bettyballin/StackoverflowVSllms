@@ -1,0 +1,1 @@
+RESTORE DATABASE [dev_database] FROM DISK = 'backup_file.bak' WITH MOVE 'logical_file_name' TO 'physical_file_name', REPLACE

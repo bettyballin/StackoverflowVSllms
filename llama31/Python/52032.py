@@ -1,0 +1,1 @@
+from bs4 import BeautifulSoup\nimport urllib\n\nsoup = BeautifulSoup(urllib.urlopen(url), 'html.parser')\nlinks = soup.findAll('a')\n\nfor link in links:\n    print("Link Text:", link.text.strip())\n    print("Link URL:", link.get('href'))

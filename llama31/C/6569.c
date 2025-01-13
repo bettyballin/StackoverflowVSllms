@@ -1,1 +1,0 @@
-if (fclose(handle) != 0) {\n    printf("Error closing file.\n");\n}

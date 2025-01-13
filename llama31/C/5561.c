@@ -1,1 +1,0 @@
-int num = 0;\n    assert(num > 0, "The number must be greater than zero!");

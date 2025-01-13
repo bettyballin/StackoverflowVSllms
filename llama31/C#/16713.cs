@@ -1,1 +1,0 @@
-OdbcCommand cmdList = new OdbcCommand("select name, user_name(uid) from sysobjects where type IN ('U', 'V')", cn);

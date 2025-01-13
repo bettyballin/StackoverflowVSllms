@@ -1,0 +1,1 @@
+<configuration>\n  <configSections>\n    <section name="library1" type="System.Configuration.NameValueSectionHandler" />\n    <section name="library2" type="System.Configuration.NameValueSectionHandler" />\n  </configSections>\n  <library1 configSource="library1.config" />\n  <library2 configSource="library2.config" />\n</configuration>

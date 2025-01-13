@@ -1,1 +1,0 @@
-using System.IO;\n\npublic class FileSearch\n{\n    public static void SearchFiles(string drive, string extension)\n    {\n        string[] files = Directory.GetFiles(drive, "*" + extension, SearchOption.AllDirectories);\n\n        foreach (string file in files)\n        {\n            Console.WriteLine(file);\n        }\n    }\n}

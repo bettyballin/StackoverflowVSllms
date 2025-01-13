@@ -1,1 +1,0 @@
-keytool -import -keystore ./broker.ks -file mycert.crt -key mykey.key

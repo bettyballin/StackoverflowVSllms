@@ -1,1 +1,0 @@
-[ComVisible(true)]\npublic interface IUnitModel\n{\n    // ...\n\n    [DispId(2)]\n    double[] DoCalc(double[] inputArray);\n}

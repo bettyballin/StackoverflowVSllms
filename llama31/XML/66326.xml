@@ -1,0 +1,1 @@
+<xsl:template match="ExistingTemplateName">\n    <xsl:call-template name="namespace-agnostic-template"/>\n</xsl:template>

@@ -1,1 +1,0 @@
-PdfContentByte cb = new PdfContentByte();\ncb.Transform(new Matrix(0.352777778f, 0f, 0f, 0.352777778f, 0f, 0f));

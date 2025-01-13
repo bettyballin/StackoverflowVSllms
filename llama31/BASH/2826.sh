@@ -1,1 +1,0 @@
-svn propset svn:externals "^/branches/codeplex-sync" "https://codeplex_repository_url"

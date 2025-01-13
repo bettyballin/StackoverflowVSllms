@@ -1,0 +1,1 @@
+$.ajax({\n  url: 'your-url.html',\n  dataType: 'html',\n  success: function(html) {\n    // Find and execute script tags\n    $(html).find('script').each(function() {\n      eval($(this).text());\n    });\n    // Append the HTML to your container\n    $('#your-container').append(html);\n  }\n});

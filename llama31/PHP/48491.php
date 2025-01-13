@@ -1,0 +1,1 @@
+while ($stmt->fetch()) {\n    // process the row\n    echo "$article_id: $title - $article\n";\n}

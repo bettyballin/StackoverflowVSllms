@@ -1,1 +1,0 @@
-using System;\nusing System.Diagnostics;\n\npublic class MapHelper\n{\n    public static void ShowMap(string address)\n    {\n        string url = $"https://maps.google.com/maps?q={address}";\n        Process.Start("iexplore.exe", url);\n    }\n}

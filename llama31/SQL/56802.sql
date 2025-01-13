@@ -1,0 +1,1 @@
+CREATE TABLE Dictionary (\n    WordID INT PRIMARY KEY,\n    Word VARCHAR(50) NOT NULL\n);\n\nBULK INSERT Dictionary\nFROM 'C:\path\to\words.csv'\nWITH (FORMAT = 'CSV', FIRSTROW = 2);

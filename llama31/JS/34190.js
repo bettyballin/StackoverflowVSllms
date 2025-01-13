@@ -1,0 +1,1 @@
+const userAgent = navigator.userAgent;\nif (userAgent.match(/(iPhone|iPad|iPod|Android|BlackBerry|Windows Phone)/i)) {\n  // Mobile device detected\n} else {\n  // PC detected\n}

@@ -1,1 +1,0 @@
-#include "dtd_dll.h"\n#include "windows.h"\n\nconst char* getDtd(int id) {\n    switch (id) {\n        case DTD1:\n            return "xhtml11-flat.dtd";\n        case DTD2:\n            return "xhtml11.dtd";\n        ...\n        case DTD9:\n            return "your_last_dtd_file.dtd";\n        default:\n            return NULL;\n    }\n}

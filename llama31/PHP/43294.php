@@ -1,0 +1,1 @@
+function getLatestID() {\n    $query = "SELECT LAST_INSERT_ID() as last_id";\n    $result = @mysql_query($query) or showError("unable to query database for user information");\n    if (!($record = mysql_fetch_array($result))) return null;\n    return $record['last_id'];\n}

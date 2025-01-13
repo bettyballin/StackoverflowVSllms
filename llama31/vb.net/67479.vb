@@ -1,0 +1,1 @@
+Dim frm As New MyForm()\nfrm.ShowDialog(Me, True)

@@ -1,0 +1,1 @@
+SELECT B, C\nFROM Table\nWHERE B IN (\n  SELECT B\n  FROM Table\n  GROUP BY B\n  HAVING COUNT(B) > 1\n)

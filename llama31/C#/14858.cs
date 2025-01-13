@@ -1,1 +1,0 @@
-byte[] bytURL = new byte[txtURLText.Text.Length / 2];\nfor (int intParseIndex = 0; intParseIndex < txtURLText.Text.Length; intParseIndex += 2)\n{\n    bytURL[intParseIndex / 2] = Convert.ToByte(txtURLText.Text.Substring(intParseIndex, 2), 16);\n}\ntxtDecodedText.Text = Encoding.Unicode.GetString(bytURL);

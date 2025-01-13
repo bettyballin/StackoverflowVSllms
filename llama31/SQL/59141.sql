@@ -1,0 +1,1 @@
+MERGE INTO TableA AS target\nUSING TableB AS source\nON target.ID = source.ID\nWHEN MATCHED THEN\n    UPDATE SET target.Name = source.Name\nWHEN NOT MATCHED THEN\n    INSERT (ID, Name) VALUES (source.ID, source.Name);

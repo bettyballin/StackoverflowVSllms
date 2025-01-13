@@ -1,1 +1,0 @@
-gzip -9 file.txt

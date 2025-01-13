@@ -1,0 +1,1 @@
+$this->db->select('*');\n$this->db->from('books');\n$this->db->join('collections', 'collections.collectid = books.collectionid');\n$this->db->join('(SELECT bookid, GROUP_CONCAT(tagname) as tags FROM bookstags JOIN tags ON bookstags.tagid = tags.tagid GROUP BY bookid) as booktags', 'booktags.bookid = books.bookid');\n$data['query'] = $this->db->get();

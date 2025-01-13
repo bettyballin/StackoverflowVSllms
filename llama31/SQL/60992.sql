@@ -1,0 +1,1 @@
+SET @id = (SELECT id FROM table WHERE condition);\nIF @id IS NULL THEN\n  EXIT;\nEND IF;

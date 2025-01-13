@@ -1,0 +1,1 @@
+# wrapper function\ndef lib1_encrypt(data):\n    return lib1.encrypt(data)

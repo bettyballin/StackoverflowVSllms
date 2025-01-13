@@ -1,0 +1,1 @@
+SELECT tb.*\nFROM (\n    SELECT \n        vCodesWithPEs.*,\n        vDeriveAvailabilityFromPE.*,\n        PE_PDP.*\n    FROM vCodesWithPEs \n    INNER JOIN vDeriveAvailabilityFromPE AS vDA\n    ON vCodesWithPEs.PROD_PERM = vDA.PEID\n    INNER JOIN PE_PDP \n    ON vCodesWithPEs.PROD_PERM = PE_PDP.PEID\n) AS tb;

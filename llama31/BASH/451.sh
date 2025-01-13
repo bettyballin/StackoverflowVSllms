@@ -1,1 +1,0 @@
-# Package your AIR project as a native Linux executable\nadt -package -target native myapp.deb myapp.air

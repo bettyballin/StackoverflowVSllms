@@ -1,0 +1,1 @@
+SELECT \n  n.nid, \n  n.timestamp, \n  n.title, \n  ua.dst\nFROM \n  (\n    SELECT \n      nid, \n      MAX(timestamp) as timestamp, \n      title \n    FROM \n      node_revisions \n    GROUP BY \n      nid \n    ORDER BY \n      timestamp DESC \n    LIMIT 0,5\n  ) n\n  LEFT JOIN url_alias ua ON ua.src REGEXP CONCAT('^node/', n.nid, '$')\n  AND ua.src NOT REGEXP 'feed$';

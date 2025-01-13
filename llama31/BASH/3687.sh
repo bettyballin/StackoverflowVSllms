@@ -1,1 +1,0 @@
-TMPDIR=/var/tmp pecl install <package_name>

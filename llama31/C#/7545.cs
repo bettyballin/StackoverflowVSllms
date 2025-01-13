@@ -1,1 +1,0 @@
-AcroFields af = stamper.AcroFields;\nAcroFields.Item afi = af.GetFieldItem("fieldName");\n\nPdfDictionary widget = afi.GetWidget(0);\nPdfNumber rotation = widget.GetAsNumber(PdfName.ROTATE);\n\nif (rotation != null)\n{\n    int rotationDegrees = rotation.IntValue;\n    // Do something with the rotation value\n}

@@ -1,1 +1,0 @@
-using System.Net.Http;\n\nvar client = new HttpClient();\nvar response = await client.SendAsync(new HttpRequestMessage(HttpMethod.Head, url));\nstring contentType = response.Content.Headers.ContentType.ToString();\n\n// same logic as above

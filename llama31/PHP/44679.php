@@ -1,0 +1,1 @@
+use Recess\Application as RecessApp;\nuse VCL4PHP\Application as VCLApp;\n\n$recessApp = new RecessApp();\n$vclApp = new VCLApp();

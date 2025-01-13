@@ -1,0 +1,1 @@
+SELECT count(address)\nFROM (\n  SELECT name, address, phone\n  FROM USER\n) AS derived_table;

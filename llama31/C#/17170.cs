@@ -1,1 +1,0 @@
-JavaScriptSerializer serializer = new JavaScriptSerializer();\nTranslationResponse translationResponse = \n    serializer.Deserialize<TranslationResponse>(responseJson);

@@ -1,1 +1,0 @@
-public class MyController : BaseController\n{\n    public MyController(ICacheProvider cacheProvider) : base(cacheProvider)\n    {\n    }\n\n    public ActionResult MyAction()\n    {\n        // Use the cache provider to get some data\n        var data = _cacheProvider.Get("mykey");\n        // ...\n    }\n}

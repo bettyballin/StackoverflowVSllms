@@ -1,1 +1,0 @@
-RunAs /user:domain\adminuser "powershell -File C:\path\to\script.ps1"

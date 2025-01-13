@@ -1,1 +1,0 @@
-strace -o strace_output.txt ld -o your_binary your_object_files.o

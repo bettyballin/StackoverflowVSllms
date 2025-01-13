@@ -1,1 +1,0 @@
-foreach (var word in GetWords(4))\n{\n    Console.WriteLine(word);\n}

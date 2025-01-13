@@ -1,1 +1,0 @@
-// Create a new session\nSession["username"] = "George";\n\n// Access a session variable\nstring username = (string)Session["username"];\n\n// Remove a session variable\nSession.Remove("username");\n\n// Abandon a session\nSession.Abandon();

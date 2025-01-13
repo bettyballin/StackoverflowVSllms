@@ -1,1 +1,0 @@
-// Example of how to properly close database connections\nusing (var db = new MyDataContext())\n{\n    // Perform database operations\n    db.SubmitChanges();\n    db.Connection.Close();\n}

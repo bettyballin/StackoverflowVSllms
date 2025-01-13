@@ -1,1 +1,0 @@
-pdfinfo -meta example.pdf

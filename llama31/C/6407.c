@@ -1,1 +1,0 @@
-#include <stdio.h>\n\nmain() {\n    printf("Hello, world!\n");\n    getchar(); // wait for a key press before exiting\n}

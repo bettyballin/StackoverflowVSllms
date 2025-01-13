@@ -1,1 +1,0 @@
-protected void Page_Init(object sender, EventArgs e)\n{\n    btnLookup.Click += (s, args) => btnLookup_Clicked(s, args);\n}\n\nprotected void btnLookup_Clicked(object sender, EventArgs e)\n{\n    // your code here\n}

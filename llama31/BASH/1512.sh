@@ -1,1 +1,0 @@
-dotnet publish -c release -r <runtime_identifier>

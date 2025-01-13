@@ -1,1 +1,0 @@
-sudo chmod 664 /path/to/your/file.txt

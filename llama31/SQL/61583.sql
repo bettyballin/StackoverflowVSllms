@@ -1,0 +1,1 @@
+CREATE OR REPLACE TRIGGER A.trigger_name\nON B.table\nFOR EACH ROW\nAUTHID CURRENT_USER\nBEGIN\n    -- trigger code here\nEND;

@@ -1,0 +1,1 @@
+SELECT EXISTS (\n  SELECT 1 \n  FROM Options \n  WHERE user_id = ? AND option = ?\n)

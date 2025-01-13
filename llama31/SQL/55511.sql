@@ -1,0 +1,1 @@
+CREATE TRIGGER trg_events ON your_table FOR UPDATE\nAS\nBEGIN\n    IF @@NESTLEVEL = 0\n    BEGIN\n        -- insert event information into events table\n    END\nEND

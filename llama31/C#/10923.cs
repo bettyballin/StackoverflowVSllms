@@ -1,1 +1,0 @@
-var before = GC.GetTotalMemory(true);\nvar myObject = new MyClass();\nvar after = GC.GetTotalMemory(true);\nvar size = after - before;

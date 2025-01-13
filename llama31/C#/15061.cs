@@ -1,1 +1,0 @@
-using Plumtree.Portal;\n\n// Get the PortletSession object\nPortletSession session = PortletContext.Current.Session;\n\n// Set a session variable\nsession["MyVariable"] = "Hello, World!";\n\n// Get the session variable\nstring myVariable = (string)session["MyVariable"];

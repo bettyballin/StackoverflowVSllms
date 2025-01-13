@@ -1,1 +1,0 @@
-typedef struct _SHELLSTATE_OTHER {\n    DWORD fShowToolTips:1;   // Show tool tips\n    // ... other settings ...\n} SHELLSTATE_OTHER;

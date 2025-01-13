@@ -1,1 +1,0 @@
-ppm install Template-Stash-XS

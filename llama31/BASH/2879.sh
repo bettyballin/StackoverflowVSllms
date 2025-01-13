@@ -1,1 +1,0 @@
-sudo yum --nodeps install php-devel

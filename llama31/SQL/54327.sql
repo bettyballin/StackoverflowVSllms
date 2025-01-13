@@ -1,0 +1,1 @@
+SELECT IS_MEMBER('db_datawriter') AS HasWritePermissio

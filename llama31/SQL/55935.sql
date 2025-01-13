@@ -1,0 +1,1 @@
+ALTER INDEX ALL ON transactions REBUILD;

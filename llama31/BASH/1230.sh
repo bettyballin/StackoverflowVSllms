@@ -1,1 +1,0 @@
-g++ test-sdl.cpp -o test-sdl -static -lSDL_image -lSDL

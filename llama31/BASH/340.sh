@@ -1,1 +1,0 @@
-mkdir /path/to/new/directory\nchown apache:apache /path/to/new/directory

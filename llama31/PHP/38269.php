@@ -1,0 +1,1 @@
+$serverChallenge = substr($bytes, 24, 8);\n$nonce = unpack('Q', $serverChallenge)[1]; // Q format is 64-bit unsigned long long, Little-Endia

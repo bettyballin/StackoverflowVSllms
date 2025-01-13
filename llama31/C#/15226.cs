@@ -1,1 +1,0 @@
-PdfGenerator generator = new PdfGenerator();\ngenerator.GeneratePdf("example.pdf", "Hello, World!");

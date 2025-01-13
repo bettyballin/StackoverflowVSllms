@@ -1,0 +1,1 @@
+$finfo = finfo_open(FILEINFO_MIME_TYPE);\n$mimeType = finfo_file($finfo, $_FILES['file']['tmp_name']);\nfinfo_close($finfo);

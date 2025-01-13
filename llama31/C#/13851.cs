@@ -1,1 +1,0 @@
-using System.Runtime.InteropServices;\n\n[DllImport("user32")]\nstatic extern IntPtr SendMessage(IntPtr hWnd, uint Msg, IntPtr wParam, IntPtr lParam);\n\n// Send the integer as a message\nSendMessage(hWnd, 0x0400, IntPtr.Zero, new IntPtr(42));

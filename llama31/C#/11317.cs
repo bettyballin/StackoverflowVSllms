@@ -1,1 +1,0 @@
-using NHibernate;\nusing NHibernate.Tool.hbm2ddl;\n\n// Configure NHibernate\nvar cfg = new Configuration();\ncfg.Configure();\n\n// Update the schema\nnew SchemaUpdate(cfg).Execute(false, true);

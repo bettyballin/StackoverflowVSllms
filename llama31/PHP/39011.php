@@ -1,0 +1,1 @@
+$token = $_SESSION['download_token'];\nif (empty($token) || $token !== $_GET['token']) {\n    exit('Invalid request');\n}\n\n// Process the download

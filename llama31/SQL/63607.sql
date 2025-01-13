@@ -1,0 +1,1 @@
+SELECT a.name, \n       LISTAGG(b.name, ', ') WITHIN GROUP (ORDER BY b.name) AS brands\nFROM alert a\nJOIN alert_brand_xref ab ON a.id = ab.alert_id\nJOIN brand b ON ab.brand_id = b.id\nGROUP BY a.name\nORDER BY a.name;

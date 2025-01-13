@@ -1,0 +1,1 @@
+Imports System.Web.Mvc\n\nDim xml As String = "<systemCode>APP</systemCode>"\nDim encodedXml As String = HttpUtility.HtmlEncode(xml)\n\nDim hiddenField As New MvcHtmlString(encodedXml)

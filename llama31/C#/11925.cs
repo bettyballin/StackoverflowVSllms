@@ -1,1 +1,0 @@
-Response.WriteFile(filePath);\nResponse.End();

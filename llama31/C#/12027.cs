@@ -1,1 +1,0 @@
-ManualResetEvent waitHandle = new ManualResetEvent(false);\nwhile (true)\n{\n    waitHandle.WaitOne(TimeSpan.FromHours(1)); // wait for 1 hour\n}

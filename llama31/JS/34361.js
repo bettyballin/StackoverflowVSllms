@@ -1,0 +1,1 @@
+$(document).ajaxStop(function() {\n  // All AJAX requests have completed, signal UI change here\n});

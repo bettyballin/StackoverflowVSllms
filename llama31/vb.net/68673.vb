@@ -1,0 +1,1 @@
+If Request.QueryString("variableName") IsNot Nothing Then\n    Dim variable As String = Request.QueryString("variableName")\nElse\n    ' Handle missing variable\nEnd If

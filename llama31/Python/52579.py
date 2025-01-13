@@ -1,0 +1,1 @@
+from jinja2 import Template\n\ntemplate = '''\n{% macro book(data) %}\n  <book>\n    <author>{{ data.author }}</author>\n  </book>\n{% endmacro %}\n\n{% for book in books %}\n  {{ book(data[book]) }}\n{% endfor %}\n'''\n\ndata = {'books': ['bk101', 'bk102'], 'bk101': {'author': 'John'}, 'bk102': {'author': 'Jane'}}\nresult = Template(template).render(data)\nprint(result)

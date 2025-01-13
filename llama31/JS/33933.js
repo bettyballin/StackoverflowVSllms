@@ -1,0 +1,1 @@
+$.ajax({\n    type: "POST",\n    url: "./updateField",\n    data: "name=" + fieldname,\n    success: function(msg){\n    }//success\n});//ajax\n\n//Retriving the updated value in JSON Format\nvar htm = $.ajax({\n    type: "GET",\n    url: "./viewforms",\n    async: false\n}).responseText;\n\nvar myObject = JSON.parse(htm);

@@ -1,0 +1,1 @@
+<class name="BackerEntry">\n    <!-- ... -->\n    <many-to-one name="Backer" column="BackerId" />\n</class>

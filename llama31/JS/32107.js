@@ -1,0 +1,1 @@
+$("input#title").get(0).setAttribute("maxlength", 25);\n\n$("input#title").on("input", function() {\n  if (this.value.length >= this.maxLength) {\n    this.value = this.value.substring(0, this.maxLength);\n  }\n});

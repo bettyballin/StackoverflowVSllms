@@ -1,1 +1,0 @@
-BitArray bits = new BitArray(17);\nbits[0] = true;\nbits[1] = false;\n// ...\nBitWriter.WriteBits("output.bin", bits);

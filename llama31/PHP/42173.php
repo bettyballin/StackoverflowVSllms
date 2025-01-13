@@ -1,0 +1,1 @@
+App::uses('ConnectionManager', 'Model');\n$ds = ConnectionManager::getDataSource('db1');\n$username = $ds->config['login'];\n$password = $ds->config['password'];

@@ -1,0 +1,1 @@
+$var = "echo 'FOZZ';";\nfor ($i = 0; $i < 100; $i++) {\n    eval($var);\n}

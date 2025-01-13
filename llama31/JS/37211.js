@@ -1,0 +1,1 @@
+$.ajax({\n    type: "POST",\n    url: "yourasmxservice.asmx/yourmethod",\n    crossDomain: false,\n    // other settings...\n});

@@ -1,0 +1,1 @@
+// Select all elements with the class "my-class"\n$('.my-class').on('click', function() {\n  // Handle click event\n  console.log('Clicked!');\n});

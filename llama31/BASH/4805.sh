@@ -1,1 +1,0 @@
-echo '<root><myel name="Foo" /><myel name="Bar" /></root>' | xmllint --xpath "//myel/@name" -

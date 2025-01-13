@@ -1,0 +1,1 @@
+Dim combinedPredicate = predicate1.Or(predicate2)\nDim test = From d In myDocuments\n           Join p In myPlans On d.ID Equals p.ID\n           Where combinedPredicate(p)\n           Select New With {d.Name, p.Name}

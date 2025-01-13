@@ -1,1 +1,0 @@
-:root {\n  --primary-color: #333;\n  --background-color: #fff;\n}\n\n.high-contrast-mode {\n  --primary-color: #fff;\n  --background-color: #333;\n}\n\nbody {\n  background-color: var(--background-color);\n  color: var(--primary-color);\n}

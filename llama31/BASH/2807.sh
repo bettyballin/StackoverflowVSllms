@@ -1,1 +1,0 @@
-awk '{ print $3 }' in.txt | uniq > out.txt

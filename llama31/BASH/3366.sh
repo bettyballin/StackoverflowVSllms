@@ -1,1 +1,0 @@
-ionice -c 3 -n 7 your_applicatio

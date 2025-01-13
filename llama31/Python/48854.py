@@ -1,0 +1,1 @@
+def a(**kwargs):\n    print(kwargs['size'])\n\ndef b():\n    size = 20\n    a(**locals())

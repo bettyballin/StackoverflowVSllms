@@ -1,0 +1,1 @@
+If Me.IsValid Then\n    Try\n        ' Save function here\n    Catch ex As Exception\n        ' Log the exception and display an error message\n    End Try\nEnd If

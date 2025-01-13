@@ -1,0 +1,1 @@
+SELECT TOP 3 \n    (SELECT COUNT(*) FROM PuppyNames p2 WHERE p2.NumberOfVotes > p1.NumberOfVotes) + 1 AS RowNumber,\n    Name\nFROM \n    PuppyNames p1\nORDER BY \n    NumberOfVotes

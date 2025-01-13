@@ -1,0 +1,1 @@
+$last_night_at_midnight = (new DateTime('yesterday midnight'))->getTimestamp();\n$tonight_at_midnight = (new DateTime('midnight'))->getTimestamp();

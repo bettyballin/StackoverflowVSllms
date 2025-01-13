@@ -1,0 +1,1 @@
+const textAreaContent = $('.exported').val();\nconst blob = new Blob([textAreaContent], {type: 'text/plain'});\nconst link = document.createElement('a');\nlink.href = URL.createObjectURL(blob);\nlink.download = 'exported_code.txt';\nlink.click();

@@ -1,1 +1,0 @@
-string unformattedXml = "<element1><element2>some data</element2></element1>";\nstring formattedXml = XmlFormatter.FormatXml(unformattedXml);\nConsole.WriteLine(formattedXml);

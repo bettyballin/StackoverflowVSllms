@@ -1,0 +1,1 @@
+ALTER TABLE [YourTableName]\nALTER COLUMN [YourColumnName] nvarchar(YourLength);\n\nUPDATE [YourTableName]\nSET [YourColumnName] = LTRIM(RTRIM([YourColumnName]));

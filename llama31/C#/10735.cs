@@ -1,1 +1,0 @@
-decimal result1 = RoundFractional(1.9m, 8);  // returns 1.875\ndecimal result2 = RoundFractional(1.95m, 8); // returns 2.0

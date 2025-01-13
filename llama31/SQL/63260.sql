@@ -1,0 +1,1 @@
+SELECT 'Hello' + CHAR(13) + CHAR(10) + 'World' AS NewLineText

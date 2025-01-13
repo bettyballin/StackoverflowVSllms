@@ -1,1 +1,0 @@
-var obj = list.OrderByDescending(x => x.val1?.Length).FirstOrDefault();

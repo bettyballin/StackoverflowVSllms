@@ -1,0 +1,1 @@
+<system.web>\n    <httpHandlers>\n        <add verb="*" path="Mp3Handler.ashx" type="YourNamespace.Mp3Handler" />\n    </httpHandlers>\n</system.web>

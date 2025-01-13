@@ -1,0 +1,1 @@
+Dim reader As New StreamReader("path/to/your/file.rtf")\n' your code here\nreader.Close()\nreader.Dispose()\nGC.Collect()

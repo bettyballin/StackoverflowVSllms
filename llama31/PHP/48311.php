@@ -1,0 +1,1 @@
+// app/Controller/Component/MenuComponent.php\nclass MenuComponent extends Component {\n    public function initialize(Controller $controller) {\n        $this->Menu = ClassRegistry::init('Menu');\n    }\n\n    public function getMenu() {\n        $menuItems = $this->Menu->getMenuItems();\n        return $menuItems;\n    }\n}

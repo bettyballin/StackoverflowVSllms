@@ -1,0 +1,1 @@
+from PIL import Image\n\n# Open an image file\nimg = Image.open('original.jpg')\n\n# Save the image with the same quality grade (e.g., 80)\nimg.save('re_saved.jpg', quality=80)\n\n# Open the re-saved image and save it again with the same quality grade\nre_saved_img = Image.open('re_saved.jpg')\nre_saved_img.save('re_saved_again.jpg', quality=80)

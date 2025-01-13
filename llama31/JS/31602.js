@@ -1,0 +1,1 @@
+$.post("http://localhost/getCinema.php", { cinemaid: 'W5'},\n  function(data){\n    var jsonData = JSON.parse(data);\n    alert(jsonData.horas[0]);\n  }\n  ,"json");

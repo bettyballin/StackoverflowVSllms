@@ -1,0 +1,1 @@
+SELECT shop_id, COUNT(*) as number_of_products\nFROM your_table\nGROUP BY shop_id;

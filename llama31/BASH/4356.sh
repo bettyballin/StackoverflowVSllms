@@ -1,1 +1,0 @@
-curl -v http://example.com

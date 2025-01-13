@@ -1,0 +1,1 @@
+$client = new GuzzleHttp\Client();\n$stream = $client->get('https://api.twitter.com/1.1/statuses/filter.json?follow=twitterapi', [\n    'headers' => ['Authorization' => 'Bearer YOUR_BEARER_TOKEN'],\n    'stream' => true\n]);\nwhile (!$stream->eof()) {\n    $line = $stream->read(128);\n    // Process the streamed data here\n    echo $line;\n}

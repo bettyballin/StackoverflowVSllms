@@ -1,0 +1,1 @@
+for (var i = 0; i < rows.length; i++) {\n  var row = rows[i];\n  var id = row.id;\n  // Update the div with the id\n  document.getElementById(id).innerHTML = row.title;\n}

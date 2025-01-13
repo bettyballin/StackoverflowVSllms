@@ -1,1 +1,0 @@
-# Install the iis package on Ubuntu WSL\nsudo apt-get install iis\n\n# List all running IIS application pools\nsudo iis apppool list

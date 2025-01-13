@@ -1,0 +1,1 @@
+function PostForm() {\n    var formData = $('#form').serializeArray();\n    var extraParams = $('.additionalParams').serializeArray();\n    var combinedData = $.extend({}, formData, extraParams);\n\n    $.ajax({\n        url: "/Home/TestMVC",\n        type: "POST",\n        dataType: "application/JSON",\n        data: combinedData\n    });\n}

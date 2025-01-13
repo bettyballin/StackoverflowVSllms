@@ -1,1 +1,0 @@
-extern "C" {\n    __declspec(dllexport) BOOL __stdcall Install();\n    __declspec(dllexport) BOOL __stdcall PPPConnect();\n}

@@ -1,1 +1,0 @@
-udt.DatabaseConnectionString = InteractiveDatabaseConnection.AddSQLConnection(udt.ErrorLoggingMethod ?? CMAC_DummyErrorLoggingMethod);

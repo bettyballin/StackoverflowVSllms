@@ -1,1 +1,0 @@
-xsd2php -c MyService.xsd -n MyService

@@ -1,1 +1,0 @@
-void MyMethod(ref int x)\n{\n    x = 10; // modifies the original variable\n}\n\nint myVar = 5;\nMyMethod(ref myVar);\nConsole.WriteLine(myVar); // prints 10

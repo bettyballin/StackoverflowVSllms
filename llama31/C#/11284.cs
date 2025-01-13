@@ -1,1 +1,0 @@
-var html = "your_html_string_here";\nvar validator = new HtmlValidator(html);\nConsole.WriteLine($"DOCTYPE: {validator.Doctype}");\nConsole.WriteLine($"IsValid: {validator.IsValid}");\nforeach (var error in validator.Errors)\n{\n    Console.WriteLine($"Error: {error}");\n}

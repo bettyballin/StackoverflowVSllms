@@ -1,1 +1,0 @@
-find . -type f -exec iconv -f auto -t utf-8 {} -o {}.utf8 \;

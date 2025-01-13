@@ -1,1 +1,0 @@
-Control focusedControl = this.ActiveControl;

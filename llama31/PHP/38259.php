@@ -1,0 +1,1 @@
+$registry = Registry::getInstance();\n$registry->set('page', $page);

@@ -1,1 +1,0 @@
-// mytemplate.cpp\n#include "mytemplate.h"\n// implementation of MyTemplate

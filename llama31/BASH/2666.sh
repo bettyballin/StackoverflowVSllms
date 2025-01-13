@@ -1,1 +1,0 @@
-/usr/local/mit-scheme-7.5.1/bin/scheme -large -band 6001.com -edit

@@ -1,0 +1,1 @@
+CREATE INDEX IX_Blah ON Blah (FirstName ASC, Rank DESC)

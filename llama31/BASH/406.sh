@@ -1,1 +1,0 @@
-gcc -Os -o example example.c

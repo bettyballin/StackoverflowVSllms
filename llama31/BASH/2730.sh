@@ -1,1 +1,0 @@
-php -c /etc/php.ini -d disable_functions=dl /path/to/script.php

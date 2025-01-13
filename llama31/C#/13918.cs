@@ -1,1 +1,0 @@
-using (var db = new YourDbContext()) {\n  var onlineUsers = db.Sessions\n    .Where(s => s.LastActivity > DateTime.Now.AddMinutes(-15)) // adjust the timeout as needed\n    .Select(s => new { s.UserId, s.LoginTime })\n    .ToList();\n  // Display the online users list\n}

@@ -1,1 +1,0 @@
-// mywrapper.h\npublic ref class MyWrapper {\npublic:\n    MyWrapper();\n    ~MyWrapper();\n    void myMethod();\n\nprivate:\n    MyClass* nativeObj_;\n};\n\n// mywrapper.cpp\nMyWrapper::MyWrapper() : nativeObj_(new MyClass()) {}\nMyWrapper::~MyWrapper() { delete nativeObj_; }\n\nvoid MyWrapper::myMethod() {\n    nativeObj_->myMethod();\n}

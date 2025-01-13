@@ -1,0 +1,1 @@
+$xml = file_get_contents($xmlfile);\n$xml = preg_replace_callback('/<Name>(.*)<\/Name>/', function ($match) {\n    return '<Name>' . strtolower($match[1]) . '</Name>';\n}, $xml);\nfwrite(fopen($xmlfile, 'wb'), $xml);

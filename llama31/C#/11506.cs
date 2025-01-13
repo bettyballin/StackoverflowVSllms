@@ -1,1 +1,0 @@
-private void textBox1_Validating(object sender, CancelEventArgs e)\n{\n    if (!int.TryParse(textBox1.Text, out int value))\n    {\n        e.Cancel = true;\n        MessageBox.Show("Please enter a numeric value.");\n    }\n}

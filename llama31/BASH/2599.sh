@@ -1,1 +1,0 @@
-gcc -o guid_example guid_example.c -luuid

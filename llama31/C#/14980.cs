@@ -1,1 +1,0 @@
-public class User\n{\n    [Required]\n    [StringLength(50, MinimumLength = 3)]\n    public string Username { get; set; }\n\n    [Required]\n    [RegularExpression(@"^[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}$")]\n    public string Email { get; set; }\n\n    [Range(18, 100)]\n    public int Age { get; set; }\n}

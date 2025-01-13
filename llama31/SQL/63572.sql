@@ -1,0 +1,1 @@
+SELECT UserID, COUNT(*) as num_posts\nFROM postings\nGROUP BY UserID\nORDER BY num_posts DESC;

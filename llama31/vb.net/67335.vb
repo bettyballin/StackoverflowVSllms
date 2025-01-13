@@ -1,0 +1,1 @@
+Dim receipt As New Receipt("Your text", New Printing.PrinterSettings)\nreceipt.PrinterSettings.PrinterName = "YourPrinterName"\nreceipt.Print()

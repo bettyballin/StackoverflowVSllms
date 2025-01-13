@@ -1,0 +1,1 @@
+var jsonData = {...}; // your JSON data\nvar ul = jsonToUl(jsonData);\ndocument.body.appendChild(ul);

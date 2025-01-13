@@ -1,1 +1,0 @@
-textarea {\n  overflow: hidden;\n  resize: none; /* prevent resizing */\n  height: 100px; /* set fixed height */\n  width: 200px; /* set fixed width */\n}

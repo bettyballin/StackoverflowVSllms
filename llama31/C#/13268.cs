@@ -1,1 +1,0 @@
-public static class EnumHelper\n{\n    public static int GetEnumMemberValue(Enum enumMember)\n    {\n        return (int)Enum.Parse(enumMember.GetType(), enumMember.ToString());\n    }\n}

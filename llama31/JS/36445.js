@@ -1,0 +1,1 @@
+function select(item, type) {\n    // ...\n\n    xmlHttp.abort();\n    xmlHttp.open("GET", url, true);\n    xmlHttp.send(null);\n    xmlHttp.onreadystatechange = catchResponse;\n\n    return false;\n}

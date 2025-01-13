@@ -1,0 +1,1 @@
+$redirector = Zend_Controller_Action_HelperBroker::getStaticHelper('Redirector');\n$redirector->gotoUrl('/');

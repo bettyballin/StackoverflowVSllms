@@ -1,0 +1,1 @@
+$array = $_POST;\n\nif (!array_reduce($array, function ($carry, $item) {\n    return $carry && !empty($item);\n}, true)) {\n    // there were empty values, stop submission and show error message\n}

@@ -1,0 +1,1 @@
+<Reference Include="CompanyBAssembly">\n  <SpecificVersion>True</SpecificVersion>\n  <HintPath>..\CompanyB\CompanyBAssembly.dll</HintPath>\n</Reference>

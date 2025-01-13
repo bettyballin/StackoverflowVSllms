@@ -1,0 +1,1 @@
+<?xml version="1.0" encoding="utf-8"?>\n<ConfuserProject xmlns="http://confuser.codeplex.com">\n  <Assembly Path="YourDll.dll" />\n  <Rule preset="maximum" pattern="true">\n    <protection id="rename" />\n    <protection id="control flow" />\n    <protection id=" resources" />\n    <protection id="strings" />\n  </Rule>\n</ConfuserProject>

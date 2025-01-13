@@ -1,0 +1,1 @@
+Dim parentNode As TreeNode = TreeView1.SelectedNode\nDim allChildNodes As List(Of TreeNode) = GetAllChildNodes(parentNode)\nFor Each childNode As TreeNode In allChildNodes\n    ' do something with childNode\nNext

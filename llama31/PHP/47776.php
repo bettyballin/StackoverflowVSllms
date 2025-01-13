@@ -1,0 +1,1 @@
+$hostname = '_xmpp-server._tcp.gmail.com';\n$record_type = DNS_SRV;\n\n$records = dns_get_record($hostname, $record_type);\n\nforeach ($records as $record) {\n    echo "Target: " . $record['target'] . "\n";\n    echo "Port: " . $record['port'] . "\n";\n    echo "Priority: " . $record['pri'] . "\n";\n    echo "Weight: " . $record['weight'] . "\n\n";\n}

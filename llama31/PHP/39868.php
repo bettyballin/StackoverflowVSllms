@@ -1,0 +1,1 @@
+class MyController extends Controller {\n    public function myMethod() {\n        $sessionManager = SessionManager::getInstance();\n        $data = $sessionManager->get('my_key');\n        // Use the retrieved data\n    }\n}

@@ -1,1 +1,0 @@
-git rebase --interactive master\n# squash the commits\ngit format-patch --stdout master..HEAD > patch.patch

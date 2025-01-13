@@ -1,0 +1,1 @@
+WHERE DATE(`table`.`Date`) = CURDATE()

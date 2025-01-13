@@ -1,1 +1,0 @@
-deleteButton.OnClientClick = string.Format("if (confirm('Are you sure you want to delete payment method {0}?')) {{ __doPostBack('{1}','Delete${2}'); }}", row.Name.Replace("'", @"\'"), GridPaymentMethod.ClientID, e.Row.RowIndex);

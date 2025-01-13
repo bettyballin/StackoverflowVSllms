@@ -1,1 +1,0 @@
-ldapsearch -z 1000 -b "dc=example,dc=com" "(objectClass=person)"

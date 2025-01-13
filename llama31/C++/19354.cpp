@@ -1,1 +1,0 @@
-// Divide x by 1000000 using bit shift and multiplication\nuint64_t x;\nuint64_t result = (x >> 6) * (1 << 6) / 15625;

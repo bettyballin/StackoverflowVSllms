@@ -1,0 +1,1 @@
+INSERT INTO `option` (choice) VALUES ('Test Choice');

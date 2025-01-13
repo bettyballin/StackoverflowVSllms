@@ -1,0 +1,1 @@
+SELECT * INTO #temp \nFROM OPENROWSET('BULK', 'C:\path\to\file.doc', SINGLE_BLOB) AS blob

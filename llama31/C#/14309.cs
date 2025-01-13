@@ -1,1 +1,0 @@
-// Enable second-level caching in NHibernate configuration\nvar cfg = new Configuration();\ncfg.CacheIMPProviderClass = "NHibernate.Caches.SysCache.SysCacheProvider, NHibernate.Caches.SysCache";

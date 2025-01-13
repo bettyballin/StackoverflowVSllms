@@ -1,1 +1,0 @@
-// in aspx\n<div id="ajaxPanel">\n    <% Html.RenderPartial("carmodels", Model); %>\n</div>\n\n<% using (Ajax.BeginForm("SimpleUpdate", new AjaxOptions { UpdateTargetId = "ajaxPanel" })) { %>\n    <%= Html.DropDownList("CarMake") %>\n    <br />\n    <input type="submit" value="SimpleUpdate" />\n<% } %>

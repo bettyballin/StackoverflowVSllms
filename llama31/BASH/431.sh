@@ -1,1 +1,0 @@
-gdb -c core_file /path/to/executable

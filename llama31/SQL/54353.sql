@@ -1,0 +1,1 @@
+SELECT \n    p.name AS sp_name, \n    (LEN(m.definition) - LEN(REPLACE(m.definition, CHAR(13) + CHAR(10), ' '))) / 2 + 1 AS lines_of_code\nFROM \n    sys.procedures p\nINNER JOIN \n    sys.sql_modules m ON p.object_id = m.object_id\nWHERE \n    p.type = 'P'\nORDER BY \n    sp_name;

@@ -1,0 +1,1 @@
+echo json_encode(array('message' => 'Comment updated!', 'comment' => $comment));

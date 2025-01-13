@@ -1,0 +1,1 @@
+$string = '{"key": "value"}';\nif (is_json($string)) {\n    echo "The string is valid JSON.";\n} else {\n    echo "The string is not valid JSON.";\n}

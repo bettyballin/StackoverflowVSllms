@@ -1,0 +1,1 @@
+if ($_POST['token'] == $token) {\n    // Authenticate user and proceed with upload\n}

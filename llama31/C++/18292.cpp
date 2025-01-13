@@ -1,1 +1,0 @@
-int main() {\n    std::string input = "aardvark";\n    uint32_t hash_value = fnv1a_hash(input);\n    // Use hash_value for quick searches or comparisons\n    return 0;\n}

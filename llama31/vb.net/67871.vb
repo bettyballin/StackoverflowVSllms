@@ -1,0 +1,1 @@
+Dim FoundPolicyholders = From p As Policyholder In db.PolicyholderSet.Include("Keywords").Include("Services") _\n                         Where p.Services.Any(Function(s) s.Id = ServicesId) _\n                         And p.Keywords.Any(Function(k) k.Status = KeywordStatus) _\n                         Select p

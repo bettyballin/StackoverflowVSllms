@@ -1,0 +1,1 @@
+DECLARE @batchSize INT = 10;  -- adjust batch size according to your needs\n\nWHILE EXISTS (SELECT 1 FROM YourTable WHERE UserNo = @userToDiscard)\nBEGIN\n    UPDATE TOP (@batchSize) YourTable\n    SET UserNo = @userToKeep\n    WHERE UserNo = @userToDiscard;\n\n    COMMIT TRANSACTION;\nEND

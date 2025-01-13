@@ -1,1 +1,0 @@
-#include <tpie/tpie.h>\n\nint main() {\n  // Create a disk-backed vector\n  tpie::vector<int> vec("example.vec");\n\n  // Add some elements\n  vec.push_back(1);\n  vec.push_back(2);\n  vec.push_back(3);\n\n  // Access elements\n  std::cout << vec[0] << std::endl;  // prints 1\n\n  return 0;\n}

@@ -1,0 +1,1 @@
+$date1 = new DateTime('2022-01-01');\n$date2 = new DateTime('2022-01-15');\n$interval = $date1->diff($date2);\necho $interval->days; // outputs 14

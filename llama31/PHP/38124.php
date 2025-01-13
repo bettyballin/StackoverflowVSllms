@@ -1,0 +1,1 @@
+public function afterSave($created, $options = array()) {\n    if ($this->dirty('source_id')) {\n        // source_id has been changed, update the cache counter\n    }\n}

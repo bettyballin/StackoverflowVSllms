@@ -1,0 +1,1 @@
+$searchString = 'ליבני';\n$encodedString = urlencode($searchString);

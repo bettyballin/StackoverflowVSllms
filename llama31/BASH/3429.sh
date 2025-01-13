@@ -1,1 +1,0 @@
-regsvr32 /i <your_ocx_file>.ocx

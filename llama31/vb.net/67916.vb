@@ -1,0 +1,1 @@
+Sub Session_OnStart\n    Response.Cookies("ASPSESSIONID").Expires = DateAdd("d", 1, Now())\nEnd Sub

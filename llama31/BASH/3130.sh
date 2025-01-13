@@ -1,1 +1,0 @@
-keytool -importkeystore -srckeystore mykeystore.jks -destkeystore keystore.p12 -deststoretype PKCS12\n\nopenssl pkcs12 -in keystore.p12 -out keystore.pem -nodes

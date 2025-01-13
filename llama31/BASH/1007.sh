@@ -1,1 +1,0 @@
-mkdir ~/CA\ncd ~/CA

@@ -1,1 +1,0 @@
-[WebMethod]\n[ScriptMethod(ResponseFormat = ResponseFormat.Json)]\npublic string Update(string action)\n{\n    // ...\n}

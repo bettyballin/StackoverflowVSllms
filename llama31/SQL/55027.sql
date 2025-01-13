@@ -1,0 +1,1 @@
+SELECT r.date, r.delta, r.iv, r.days\nFROM RAWDATA r\nINNER JOIN (\n  SELECT date, MIN(days) AS min_days\n  FROM (\n    SELECT date, [expiration]-[date] AS days, delta\n    FROM RAWDATA\n    WHERE callput = 'C' AND delta > 0.5 AND [expiration]-[date] BETWEEN 15 AND 50\n  ) t\n  GROUP BY date\n) m\nON r.date = m.date AND r.days = m.min_days

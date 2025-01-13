@@ -1,1 +1,0 @@
-// C# DLL\n[ComVisible(true)]\npublic class MyCSharpClass\n{\n    public int MyMethod(int value)\n    {\n        // implementation\n    }\n}

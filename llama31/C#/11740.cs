@@ -1,1 +1,0 @@
-public static IEnumerable<T> Filter<T>(Func<T, bool> pred, IEnumerable<T> seq)\n{\n    return Foldr((x, acc) => pred(x) ? Cons(x, acc) : acc,\n                 Enumerable.Empty<T>(),\n                 Map(x => new { Value = x, Pass = pred(x) }, seq));\n}

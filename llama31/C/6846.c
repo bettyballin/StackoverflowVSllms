@@ -1,1 +1,0 @@
-int16_t mix_samples(int16_t sample1, int16_t sample2) {\n    int32_t sum = (int32_t)sample1 + (int32_t)sample2;\n    if (sum > 32767) {\n        sum = 32767 - (sum - 32767) / 2; // soft clip\n    } else if (sum < -32768) {\n        sum = -32768 - (sum + 32768) / 2; // soft clip\n    }\n    return (int16_t)sum;\n}

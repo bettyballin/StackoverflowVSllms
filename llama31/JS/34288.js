@@ -1,0 +1,1 @@
+// Client-side sorting example using YUI\nvar employees = [\n  { name: 'John', age: 30 },\n  { name: 'Jane', age: 25 },\n  // ...\n];\n\nYUI().use('datatable', function (Y) {\n  var datatable = new Y.DataTable({\n    columns: ['name', 'age'],\n    data: employees,\n    sortable: true\n  });\n  datatable.render('#employees');\n});

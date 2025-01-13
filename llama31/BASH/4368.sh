@@ -1,1 +1,0 @@
-pip install PyPDF2 pdfminer pdfquery pdfplumber

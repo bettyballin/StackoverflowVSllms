@@ -1,0 +1,1 @@
+SELECT p.*\nFROM Projects p\nJOIN (\n  SELECT projectId\n  FROM Roofing WHERE status = 'completed'\n  INTERSECT\n  SELECT projectId\n  FROM Siding WHERE status = 'completed'\n  INTERSECT\n  SELECT projectId\n  FROM Gutters WHERE status = 'completed'\n  INTERSECT\n  SELECT projectId\n  FROM Misc WHERE status = 'completed'\n) j ON p.projectId = j.projectId;

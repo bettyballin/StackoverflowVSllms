@@ -1,0 +1,1 @@
+function latLongToXY(lat, long, mapWidth, mapHeight) {\n  const x = (long + 180) * (mapWidth / 360);\n  const y = (90 - lat) * (mapHeight / 180);\n  return [x, y];\n}

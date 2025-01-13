@@ -1,1 +1,0 @@
-List<MyClass> extract = list.FindAll(new Predicate<MyClass>(delegate(MyClass obj) { return obj.Number == exampleint; }));

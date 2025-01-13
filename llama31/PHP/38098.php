@@ -1,0 +1,1 @@
+$query = "DELETE FROM votes WHERE question_id = ? AND user_id = ?";\n$stmt = $pdo->prepare($query);\n$stmt->execute([$questionId, $userId]);

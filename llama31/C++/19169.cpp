@@ -1,1 +1,0 @@
-#include <algorithm>\n#include <vector>\n\nint main() {\n    std::vector<std::vector<int>> v;\n    // ...\n    auto largest = std::max_element(v.begin(), v.end(),\n        [](const auto& a, const auto& b) {\n            return a.size() < b.size();\n        }\n    );\n    unsigned int h = largest->size();\n    return 0;\n}

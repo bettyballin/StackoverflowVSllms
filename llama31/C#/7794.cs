@@ -1,1 +1,0 @@
-DataTable result = DataSourceWrapper.Query(@"\n    SELECT Col1, Col2, Col3\n    FROM TableName\n    WITH CRITERIA CriteriaName(Param1Name={0}, Param2Name={1})\n    WITH REPORTPARAMS (Param1Name={2}, Param2Name={3})\n    WHERE Col4 = {4} AND Col5 = {5}",\n    CriteriaParam1, CriteriaParam2,\n    ReportParam1, ReportParam2,\n    FilterParam1, FilterParam2);

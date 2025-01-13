@@ -1,1 +1,0 @@
-exiftool -q -q -s3 -ImageSize -FileType image.jpg

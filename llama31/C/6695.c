@@ -1,1 +1,0 @@
-void external_sort(const char* input_file, const char* output_file) {\n    // Read blocks from input file, sort, and write to output file\n}

@@ -1,0 +1,1 @@
+const express = require('express');\nconst app = express();\n\napp.get('/api/data', (req, res) => {\n  const dataArray = ['string1', 'string2', 'string3', /* ... */];\n  res.json(dataArray);\n});\n\napp.listen(3000, () => {\n  console.log('API listening on port 3000');\n});

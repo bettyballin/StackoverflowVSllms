@@ -1,1 +1,0 @@
-[AllowAnonymous]\npublic ActionResult Rss(string username)\n{\n    // Return the RSS feed for the specified user\n}

@@ -1,0 +1,1 @@
+UPDATE t1\nSET t1.CODE = t2.CODE,\n    t1.NAME = t2.NAME\nFROM YourOriginalTable t1\nINNER JOIN (\n    SELECT 2 AS ID, 'h1100h1' AS CODE, 'Cool example1' AS NAME\n    UNION ALL\n    SELECT 1, 'h654441', 'Another cool1'\n) t2 ON t1.ID = t2.ID;

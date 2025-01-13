@@ -1,0 +1,1 @@
+SELECT a.PostId\nFROM PostsCleanSubjectView a WITH (NOEXPAND)\nWHERE a.CleanedSubject = 'Just-out-of-town'

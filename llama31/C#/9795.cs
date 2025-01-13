@@ -1,1 +1,0 @@
-Marshal.FinalReleaseComObject(wsnew);\nwsnew = null;

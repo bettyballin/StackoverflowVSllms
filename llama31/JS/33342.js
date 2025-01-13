@@ -1,0 +1,1 @@
+$(document).ajaxSend(function(event, xhr, settings) {\n  console.log(settings.url);\n});

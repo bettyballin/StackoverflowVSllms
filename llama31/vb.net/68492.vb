@@ -1,0 +1,1 @@
+Shared Sub CheckFileIfFileIsInUse(ByVal thefilename As String)\n    ' method implementation\nEnd Sub

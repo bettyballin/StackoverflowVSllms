@@ -1,0 +1,1 @@
+$monthlybill = $_GET['monthlybill'];\n$offer1calcsavings = $offer1calcsavings; // assuming this is defined in values.php\n\n$annualSavings = ($monthlybill - $offer1calcsavings) * 12;\necho "Your annual savings with Offer 1 would be $" . $annualSavings;

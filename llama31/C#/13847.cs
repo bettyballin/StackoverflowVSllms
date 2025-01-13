@@ -1,1 +1,0 @@
-protected void Button1_Click(object sender, EventArgs e)\n{\n    TextBox1.Text = "1";\n    TextBox2.Text = "1";\n}

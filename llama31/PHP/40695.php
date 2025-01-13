@@ -1,0 +1,1 @@
+// in main.php\ninclude(__DIR__ . '/common1.php');

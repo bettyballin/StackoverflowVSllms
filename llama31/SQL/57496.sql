@@ -1,0 +1,1 @@
+CREATE TABLE mytable (\n    id INT PRIMARY KEY,\n    title VARCHAR(255) COLLATE utf8mb4_unicode_ci,\n    sort_value VARCHAR(255) COLLATE utf8mb4_unicode_ci\n);\n\nINSERT INTO mytable (title, sort_value) VALUES ('The Quick Brown Fox', normalizeString('The Quick Brown Fox'));\n\nSELECT * FROM mytable ORDER BY sort_value;

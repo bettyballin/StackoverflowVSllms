@@ -1,0 +1,1 @@
+$url = 'http://example.com/your_script.php?id=123&email='.$email_from_db;\n$ch = curl_init($url);\ncurl_setopt($ch, CURLOPT_RETURNTRANSFER, true);\ncurl_setopt($ch, CURLOPT_POST, true);\ncurl_setopt($ch, CURLOPT_POSTFIELDS, http_build_query($_POST));\n$response = curl_exec($ch);\ncurl_close($ch);

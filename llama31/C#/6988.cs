@@ -1,1 +1,0 @@
-public class Person\n{\n    private Lazy<CustomClass1> _customClass1 = new Lazy<CustomClass1>(() => new CustomClass1(PersonId));\n    public CustomClass1 CustomClass1 => _customClass1.Value;\n\n    private Lazy<CustomClass2> _customClass2 = new Lazy<CustomClass2>(() => new CustomClass2(PersonId));\n    public CustomClass2 CustomClass2 => _customClass2.Value;\n\n    // ...\n}

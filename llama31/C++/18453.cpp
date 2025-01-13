@@ -1,1 +1,0 @@
-std::vector<std::pair<std::string, double>> data = {{"var1", 1.0}, {"var2", 2.0}, {"var3", 3.0}};

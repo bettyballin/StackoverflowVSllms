@@ -1,0 +1,1 @@
+<?php\nexec('read -p "Press Enter to continue..."');\n// Your script will wait for the user to press Enter before continuing\n?>

@@ -1,0 +1,1 @@
+SELECT c.name\nFROM cust c\nWHERE MONTH(c.birthdate) = MONTH(@suppliedDate)\n  AND YEAR(c.birthdate) = YEAR(@suppliedDate)\nORDER BY c.name;

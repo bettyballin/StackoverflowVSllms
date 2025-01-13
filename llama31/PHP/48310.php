@@ -1,0 +1,1 @@
+// app/View/Layouts/default.ctp\n<?php echo $this->element('menu'); ?>

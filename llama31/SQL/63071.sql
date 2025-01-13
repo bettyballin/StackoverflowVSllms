@@ -1,0 +1,1 @@
+SELECT *\nFROM TableA\nWHERE NOT EXISTS (\n  SELECT 1\n  FROM TableB\n  WHERE TableB.Key = TableA.Key\n)

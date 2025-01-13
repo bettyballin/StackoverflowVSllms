@@ -1,1 +1,0 @@
-lsof -p <apache_pid>

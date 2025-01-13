@@ -1,1 +1,0 @@
-protected void gvResults_PageIndexChanging(object sender, GridViewPageEventArgs e)\n{\n    gvResults.DataSource = SearchResults;\n    gvResults.PageIndex = e.NewPageIndex;\n    gvResults.DataBind();\n\n    // Disable Event Validation for the paging event\n    Page.ClientScript.RegisterForEventValidation(gvResults.UniqueID, "Page");\n}

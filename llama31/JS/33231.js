@@ -1,0 +1,1 @@
+document.addEventListener('DOMContentLoaded', function() {\n  if (document.fullscreenEnabled) {\n    document.documentElement.requestFullscreen();\n  }\n});

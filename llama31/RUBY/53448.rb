@@ -1,0 +1,1 @@
+s = "'apples,bananas','lemons'"\nresult = s.split(/','/).map { |x| x.gsub("'", "") }\n\n# result is ["apples,bananas", "lemons"]

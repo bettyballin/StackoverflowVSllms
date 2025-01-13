@@ -1,1 +1,0 @@
-#ifndef MYCLASS_H\n#define MYCLASS_H\n\n// Class definition\n\n#endif // MYCLASS_H

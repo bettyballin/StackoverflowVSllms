@@ -1,0 +1,1 @@
+$("#datepicker").datepicker({\n  minDate: +5,\n  maxDate: '+1M +10D',\n  changeMonth: true,\n  onSelect: function(dateText, inst) {\n    var startDate = new Date(dateText);\n    $("#datepicker2").datepicker("option", "minDate", startDate);\n  }\n});\n\n$("#datepicker2").datepicker();

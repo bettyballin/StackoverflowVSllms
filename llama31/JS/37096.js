@@ -1,0 +1,1 @@
+// Example using local storage\nlocalStorage.setItem("formData", JSON.stringify($("#myForm").serializeArray()));

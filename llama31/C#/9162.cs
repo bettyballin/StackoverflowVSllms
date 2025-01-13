@@ -1,1 +1,0 @@
-WaitForRemoteProcessExit((int)outParams["ProcessId"]);

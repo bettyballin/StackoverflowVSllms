@@ -1,0 +1,1 @@
+CREATE TABLE project_files (\n  id INT PRIMARY KEY,\n  file_path VARCHAR(255) NOT NULL,\n  file_name VARCHAR(255) NOT NULL,\n  project_id INT NOT NULL,\n  FOREIGN KEY (project_id) REFERENCES projects(id)\n);\n\nINSERT INTO project_files (file_path, file_name, project_id)\nVALUES ('/path/to/workbook.xls', 'workbook.xls', 1);

@@ -1,1 +1,0 @@
-// Add the DLL as a reference\nusing System;\nusing Bass.Net; // Use the namespace of the DLL\n\n// Add the DLL as a file\nProject -> Add -> Existing Item... -> select the DLL file

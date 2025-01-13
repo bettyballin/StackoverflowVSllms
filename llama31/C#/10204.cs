@@ -1,1 +1,0 @@
-[ComVisible(false)]\npublic override string GetServiceConfig()\n{\n    return "<ServiceConfig><Identity type='Interactive User'/></ServiceConfig>";\n}

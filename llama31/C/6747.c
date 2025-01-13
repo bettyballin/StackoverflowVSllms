@@ -1,1 +1,0 @@
-// Example of a B-Tree node\nstruct BTreeNode {\n    int key;\n    struct BTreeNode *left;\n    struct BTreeNode *right;\n};

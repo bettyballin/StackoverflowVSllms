@@ -1,0 +1,1 @@
+// Create a hidden link with a unique token\n$token = uniqid();\necho '<a href="logout.php?token=' . $token . '">Logout</a>';\n\n// In logout.php\nif (isset($_GET['token']) && $_GET['token'] == $token) {\n    // Log out the user and disable their account\n}

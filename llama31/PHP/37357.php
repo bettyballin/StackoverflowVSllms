@@ -1,0 +1,1 @@
+// assuming $_GET['foo'] = 'get_value', $_POST['foo'] = 'post_value', and $_COOKIE['foo'] = 'cookie_value'\n\necho $_REQUEST['foo']; // outputs 'get_value'

@@ -1,0 +1,1 @@
+SELECT \n  DATE(FROM_UNIXTIME(timecode)) AS date,\n  HOUR(FROM_UNIXTIME(timecode)) AS hour,\n  COUNT(timecode) AS count\nFROM \n  timecodeTable\nGROUP BY \n  DATE(FROM_UNIXTIME(timecode)),\n  HOUR(FROM_UNIXTIME(timecode))

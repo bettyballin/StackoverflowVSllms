@@ -1,0 +1,1 @@
+-- Create a new extended event session\nCREATE EVENT SESSION mysession ON SERVER ( -- replace with your server name\n    ADD EVENT sqlserver.sql_batch_completed(\n        ACTION(sqlserver.sql_text)\n    ),\n    ADD EVENT sqlserver.rpc_completed(\n        ACTION(sqlserver.sql_text)\n    )\n) \nFOR SERVER 'myserver'  -- replace with your server name

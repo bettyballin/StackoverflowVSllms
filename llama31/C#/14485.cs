@@ -1,1 +1,0 @@
-cancelButton.Attributes.Add("onclick", "Page_BlockSubmit = true;");

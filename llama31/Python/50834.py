@@ -1,0 +1,1 @@
+import ast\n\n# Create a dictionary\nd = {"abc": [1, 2, 3], "qwerty": [4, 5, 6]}\n\n# Convert it to Python source code\nsource_code = ast.literal_eval(repr(d))\n\n# Save it to a file\nwith open("data.py", "w") as f:\n    f.write("data = " + repr(source_code) + "\n")\n\n# Load it from the file\nfrom data import data\n\nprint(data)  # prints: {'abc': [1, 2, 3], 'qwerty': [4, 5, 6]}

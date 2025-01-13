@@ -1,1 +1,0 @@
-# Example vi command to edit a PHP file\nvi /var/www/index.php

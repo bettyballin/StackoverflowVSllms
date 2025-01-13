@@ -1,1 +1,0 @@
-Type someType = ...;\nvar export = _container.GetExport(someType);\nif (export != null)\n{\n    var exportedObject = export.Value;\n    // Do something with the exported object\n}

@@ -1,0 +1,1 @@
+// tests.js\nQUnit.module("My module");\n\nQUnit.test("My test", function(assert) {\n  assert.ok(true, "True is true");\n});

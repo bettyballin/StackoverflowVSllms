@@ -1,0 +1,1 @@
+Protected Overrides Sub OnFormClosed(ByVal e As System.Windows.Forms.FormClosedEventArgs)\n    MyBase.OnFormClosed(e)\n    m_imgLiftingEye.Image.Dispose()\nEnd Sub

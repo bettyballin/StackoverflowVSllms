@@ -1,1 +1,0 @@
-DataSet1.ChildTableRow[] childRows = parentRow.GetChildRows()\n    .OrderBy(r => r.Order)\n    .ToArray();

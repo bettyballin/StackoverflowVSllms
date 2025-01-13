@@ -1,0 +1,1 @@
+BEGIN\n  myProc(1,100);\n  myProc(101,200);\n  ...\nEND;

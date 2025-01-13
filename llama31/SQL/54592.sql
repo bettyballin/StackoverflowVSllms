@@ -1,0 +1,1 @@
+SELECT su.update_text \nFROM status_updates su \nJOIN users u ON su.user_id = u.id \nWHERE u.username = 'username';

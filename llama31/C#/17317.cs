@@ -1,1 +1,0 @@
-private void HandleError(object parameter)\n{\n    ValidationError error = parameter as ValidationError;\n    if (error != null)\n    {\n        MessageBox.Show("in view model");\n    }\n}

@@ -1,1 +1,0 @@
-icacls C:\inetpub\wwwroot\logfolder /grant:r "NETWORK SERVICE":W

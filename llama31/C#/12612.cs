@@ -1,1 +1,0 @@
-DirectoryEntry entry = new DirectoryEntry("LDAP://DC=yourdomain,DC=com", AuthenticationTypes.Secure);

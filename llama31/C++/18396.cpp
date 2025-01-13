@@ -1,1 +1,0 @@
-struct Coordinate {\n    int32_t x;\n    int32_t y;\n\n    bool operator<(const Coordinate& other) const {\n        if (x != other.x) return x < other.x;\n        return y < other.y;\n    }\n};\n\nstd::map<Coordinate, YourValueType> coordinateMap;

@@ -1,0 +1,1 @@
+function makewindows() {\n  var xhr = new XMLHttpRequest();\n  xhr.open("GET", "test3.php", true);\n  xhr.onload = function() {\n    if (xhr.status === 200) {\n      var data = xhr.responseText;\n      var child1 = window.open("", "_blank", "width=400,height=300");\n      child1.document.write(data);\n    }\n  };\n  xhr.send();\n}

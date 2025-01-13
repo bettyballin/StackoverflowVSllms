@@ -1,0 +1,1 @@
+$('#myForm').submit(function() {\n  resetForm();\n});

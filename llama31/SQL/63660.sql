@@ -1,0 +1,1 @@
+SELECT \n  p.name,\n  MAX(CASE WHEN pc.cat_id = 1 THEN c.name END) AS Category_1,\n  MAX(CASE WHEN pc.cat_id = 2 THEN c.name END) AS Category_2,\n  MAX(CASE WHEN pc.cat_id = 3 THEN c.name END) AS Category_3\nFROM \n  product p\n  LEFT JOIN product_to_category pc ON p.id = pc.prod_id\n  LEFT JOIN category c ON pc.cat_id = c.id\nGROUP BY \n  p.name

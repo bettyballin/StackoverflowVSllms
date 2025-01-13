@@ -1,0 +1,1 @@
+Foreign Key(`cID`) references categories (cID),\nForeign Key(`uID`) references users (uID)

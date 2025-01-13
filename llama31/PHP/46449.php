@@ -1,0 +1,1 @@
+function myFunction($stage) {\n    echo '<input type="hidden" name="stage" value="' . ($stage + 1) . '" />';\n}\n\n// Call the function with the $stage variable as an argument\nmyFunction($stage);

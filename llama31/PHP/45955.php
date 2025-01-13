@@ -1,0 +1,1 @@
+for ($i = $start_index; $i < $end_index; $i++) {\n    if ($i >= $total_images) break;\n    $image = $images[$i];\n    // display the image\n    echo '<img src="' . $image_dir . '/' . $image . '">';\n}

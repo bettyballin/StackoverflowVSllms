@@ -1,1 +1,0 @@
-// example.c\n#include <stdio.h>\n\nint main() {\n    printf("%f\n", 3.14159);  // implicit double\n    printf("%f\n", 3.14159f); // explicit float\n    return 0;\n}

@@ -1,1 +1,0 @@
-public interface IEntity\n{\n    int ID { get; set; }\n}

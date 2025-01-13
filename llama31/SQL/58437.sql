@@ -1,0 +1,1 @@
+SELECT * \nFROM sys.dm_exec_sql_text \nWHERE sql_handle = (SELECT sql_handle \n                    FROM sys.dm_exec_query_stats \n                    WHERE query_hash = <query_hash>);

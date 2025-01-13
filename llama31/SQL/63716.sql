@@ -1,0 +1,1 @@
+INSERT INTO bar (foo_id) \nVALUES ((SELECT id FROM foo WHERE name = ?));

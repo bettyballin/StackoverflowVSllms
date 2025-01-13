@@ -1,0 +1,1 @@
+<?php\n  $row2 = // your database query here\n  echo htmlspecialchars(json_encode($row2['ARTICLE_DESC']), ENT_QUOTES);\n?>

@@ -1,1 +1,0 @@
-using System.Xml.XPath;\n\n// Create an XPath factory\nXPathFactory factory = new XPathFactory();\n\n// Create an XPath expression\nXPathExpression expression = factory.CreateXPath("your-xpath-2.0-expression");\n\n// Execute the XPath expression\nXPathNavigator navigator = yourXmlDocument.CreateNavigator();\nobject result = expression.Evaluate(navigator);

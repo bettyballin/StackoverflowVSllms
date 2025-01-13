@@ -1,0 +1,1 @@
+$bat_file = 'C:/path/to/file.bat';\nexec($bat_file);

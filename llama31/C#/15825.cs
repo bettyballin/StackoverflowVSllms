@@ -1,1 +1,0 @@
-public class Handler : IHttpHandler, IRequiresSessionState\n{\n    public void ProcessRequest(HttpContext context)\n    {\n        ...\n        context.Session["StackOverflow"] = "overflowing";\n        context.Response.Redirect("~/AnotherPage.aspx");\n        ...\n    }\n    ...\n}

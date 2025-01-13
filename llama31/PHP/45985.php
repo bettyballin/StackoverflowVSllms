@@ -1,0 +1,1 @@
+$string = "Hello, World!";\n$binaryArray = unpack('C*', $string);\n\nprint_r($binaryArray);

@@ -1,1 +1,0 @@
-string articleTitle = "How StackOverflow helps you in your development";\nstring id = "1234";\nstring url = string.Format("~/Content/Articles/{0}/{1}", id, articleTitle);

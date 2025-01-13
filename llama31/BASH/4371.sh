@@ -1,1 +1,0 @@
-g++ -Weffc++ -Wno-strict-aliasing your_file.cpp

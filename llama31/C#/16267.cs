@@ -1,1 +1,0 @@
-protected void ManagerList_GV_RowCommand(object sender, GridViewCommandEventArgs e)\n{\n    if (e.CommandName == "deleteRow")\n    {\n        int rowIndex = Convert.ToInt32(e.CommandArgument);\n        int managerID = (int)ManagerList_GV.DataKeys[rowIndex].Value;\n\n        // Call your business layer subroutine to delete the manager\n        DeleteManager(managerID);\n    }\n}

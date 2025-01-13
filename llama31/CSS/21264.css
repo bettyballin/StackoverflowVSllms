@@ -1,1 +1,0 @@
-::-webkit-scrollbar {\n  width: 12px;\n  background-image: url('scrollbar-background.png');\n}\n\n::-webkit-scrollbar-thumb {\n  background-image: url('scrollbar-thumb.png');\n}\n\n::-webkit-scrollbar-thumb:hover {\n  background-image: url('scrollbar-thumb-hover.png');\n}\n\n::-webkit-scrollbar-track {\n  background-image: url('scrollbar-track.png');\n}

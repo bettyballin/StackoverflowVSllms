@@ -1,0 +1,1 @@
+$str = '';\n$array = [];\n\nfor ($i = 0; $i < 10000; $i++) {\n    $str .= 'Hello, World!';\n    $array[] = 'Hello, World!';\n}\n\necho "String concatenation: " . microtime(true) . "\n";\necho "Array implode: " . microtime(true) . "\n";\n\n$str = implode('', $array);\necho "Implode: " . microtime(true) . "\n";

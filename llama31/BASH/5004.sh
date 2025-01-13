@@ -1,1 +1,0 @@
-repoquery -l --installed package_name-versio

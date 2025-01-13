@@ -1,0 +1,1 @@
+-- Set character set and collation for a database\nALTER DATABASE mydatabase CHARACTER SET utf8 COLLATE utf8_general_ci;\n\n-- Set character set and collation for a table\nALTER TABLE mytable CONVERT TO CHARACTER SET utf8 COLLATE utf8_general_ci;

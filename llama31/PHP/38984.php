@@ -1,0 +1,1 @@
+$token = uniqid('', true); // generates a unique ID\n// or, if you really need a hash\n$token = hash('sha256', uniqid('', true));

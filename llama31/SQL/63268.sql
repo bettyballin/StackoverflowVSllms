@@ -1,0 +1,1 @@
+SELECT \n  a.name, \n  SUM(av.value) AS total_sum\nFROM \n  attributes a\n  JOIN attribute_values_int av ON a.id = av.attribute_id\n  JOIN products p ON av.product_id = p.id\nWHERE \n  a.product_group_id = 1  -- e.g., Ipods\n  AND a.name = 'capacity'\nGROUP BY \n  a.name, \n  av.value

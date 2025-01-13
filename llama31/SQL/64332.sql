@@ -1,0 +1,1 @@
+// Example PostgreSQL schema\nCREATE TABLE disk_usage (\n    id SERIAL PRIMARY KEY,\n    user VARCHAR(50),\n    space FLOAT,\n    report_date DATE\n)\n\nCREATE TABLE memory_usage (\n    id SERIAL PRIMARY KEY,\n    user VARCHAR(50),\n    memory FLOAT,\n    report_date DATE\n)

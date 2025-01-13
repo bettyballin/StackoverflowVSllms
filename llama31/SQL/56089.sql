@@ -1,0 +1,1 @@
+CREATE OR REPLACE TRIGGER validate_application_name\nBEFORE LOGON ON DATABASE\nBEGIN\n  IF SYS_CONTEXT('USERENV', 'MODULE') != 'ourTool.exe' THEN\n    RAISE_APPLICATION_ERROR(-20001, 'Invalid application name');\n  END IF;\nEND validate_application_name;

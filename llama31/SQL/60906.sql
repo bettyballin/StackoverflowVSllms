@@ -1,0 +1,1 @@
+CREATE TABLE Table_parent (\n    pk_parent_surrogate INT PRIMARY KEY,\n    parent_natural_unique_key INT UNIQUE\n);\n\nCREATE TABLE Table_child (\n    pk_child_surrogate INT PRIMARY KEY,\n    child_natural_NOT_unique INT,\n    CONSTRAINT fk_child_parent FOREIGN KEY (child_natural_NOT_unique)\n        REFERENCES Table_parent (parent_natural_unique_key)\n);

@@ -1,0 +1,1 @@
+CREATE TEMPORARY TABLE codes (code VARCHAR(255));\nINSERT INTO codes VALUES ('code1'), ('code2'), ..., ('code1200');\n\nSELECT e.* FROM employees e \nJOIN codes c ON e.code = c.code;

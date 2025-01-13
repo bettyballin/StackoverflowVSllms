@@ -1,1 +1,0 @@
-cpp -dM your_file.cc

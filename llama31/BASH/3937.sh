@@ -1,1 +1,0 @@
-jar cvf HelloWorld.jar HelloWorld.class\njarsigner -keystore ~/Library/Java/KeyStore.jks HelloWorld.jar

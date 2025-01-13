@@ -1,1 +1,0 @@
-ar rcs liblibrary.a lib_file1.o lib_file2.o

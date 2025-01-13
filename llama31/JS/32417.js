@@ -1,0 +1,1 @@
+const formData = new FormData();\nformData.append('field', 'abcd');\n\nfetch('/endpoint', {\n  method: 'POST',\n  body: formData\n});

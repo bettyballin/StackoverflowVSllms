@@ -1,1 +1,0 @@
-var newReferrals = new List<Referral>();\n\nfor (int i = 0; i < refSize; i++)\n{\n    // ...\n\n    if (URLPresent == false && KeywordPresent == false)\n    {\n        var newReferral = new Referral(referringURL.Trim(), referringWords.Trim(), 3);\n        newReferrals.Add(newReferral);\n    }\n\n    // ...\n}\n\nReferrals.AddRange(newReferrals);

@@ -1,0 +1,1 @@
+UPDATE dest\nSET dest.Title = source.title\nFROM tbl_dest dest\nINNER JOIN tbl_source source ON dest.id = source.ID\nWHERE source.title IS NOT NULL AND source.title <> '';

@@ -1,1 +1,0 @@
-// assuming 'myCanvas' is the name of your Canvas and 'myUserControl' is the name of your UserControl\nmyCanvas.Children.Add(myUserControl);\nCanvas.SetZIndex(myUserControl, 1); // sets the Z-order to 1

@@ -1,0 +1,1 @@
+CREATE OR REPLACE PROCEDURE greet(name IN VARCHAR2) AS\nBEGIN\n  DBMS_OUTPUT.PUT_LINE('Hello, ' || name || '!');\nEND;

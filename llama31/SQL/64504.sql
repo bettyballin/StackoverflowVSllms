@@ -1,0 +1,1 @@
+SELECT \n    CASE \n        WHEN TRY_CAST(T.Value AS INT) IS NOT NULL THEN SomeConversionFunction(T.Value)\n        ELSE T.Value\n    END AS SomeAlias\nFROM SomeTable T

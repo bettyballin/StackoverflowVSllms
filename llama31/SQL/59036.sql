@@ -1,0 +1,1 @@
+SELECT sid, serial#\nFROM v$session\nWHERE sql_trace = 'ENABLED';

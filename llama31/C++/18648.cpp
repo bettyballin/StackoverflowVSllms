@@ -1,1 +1,0 @@
-// Example code to demonstrate the issue\n#include <list>\n\nclass Slave {\npublic:\n    // ...\n};\n\nclass Master {\npublic:\n    std::list<Slave*> slaves;\n\n    void addSlave(Slave* slave) {\n        slaves.push_front(slave);\n    }\n};\n\nint main() {\n    Master master;\n    Slave* slave = new Slave();\n    master.addSlave(slave);\n\n    // ...\n\n    return 0;\n}

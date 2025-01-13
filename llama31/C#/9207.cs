@@ -1,1 +1,0 @@
-Func<MyObject, object> sortClause = p => {\n    var value = p.MyObjectProperties.Find(s => s.Name == theSortProperty).Value;\n    if (dataType == "integer") {\n        return int.Parse(value);\n    } else {\n        return value;\n    }\n};

@@ -1,1 +1,0 @@
-adsutil.vbs set /MSFTPSVC/PassivePortRange "5500-5600"\nadsutil.vbs set /MSFTPSVC/SocketPool "false"

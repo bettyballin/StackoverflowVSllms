@@ -1,0 +1,1 @@
+import re\n\ndef double_metaphone(word):\n    # ... (base Double Metaphone implementation)\n\n    # Additional adjustments\n    word = re.sub(r'[aeiou]', '', word)  # ignore vowels\n    word = re.sub(r'([bcdfghjklmnpqrstvwxyz])\1+', r'\1', word)  # merge consonant clusters\n    word = word.strip()  # ignore word boundaries\n\n    # ... (continue with Double Metaphone encoding)

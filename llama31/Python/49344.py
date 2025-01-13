@@ -1,0 +1,1 @@
+def my_function():\n    # ...\n    return (list, string)

@@ -1,0 +1,1 @@
+from datetime import datetime\n\ntimestamp_in_milliseconds = 1241711346274\ntimestamp_in_seconds = timestamp_in_milliseconds / 1000\n\nprint datetime.fromtimestamp(timestamp_in_seconds)

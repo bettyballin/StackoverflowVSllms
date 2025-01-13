@@ -1,1 +1,0 @@
-var serviceHost = new ServiceHost(typeof(ServerService));\nvar wsdlExporter = new WsdlExporter();\nwsdlExporter.Extensions.Add(new WsdlExportExtension());\nserviceHost.Description.WsdlExporter = wsdlExporter;

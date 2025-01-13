@@ -1,1 +1,0 @@
-ssm install Redmine "C:\Ruby24-x64\bin\ruby.exe" "C:\Path\To\Redmine\script\rails server"

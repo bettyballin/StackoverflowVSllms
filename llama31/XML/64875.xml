@@ -1,0 +1,1 @@
+<configuration>\n  <system.webServer>\n    <httpLogging dontLog="false" />\n    <customFields>\n      <add name="X-Forwarded-For" source="X-Forwarded-For" />\n      <add name="User-Agent" source="User-Agent" />\n    </customFields>\n  </system.webServer>\n</configuration>

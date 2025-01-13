@@ -1,0 +1,1 @@
+const safeEval = require('safe-eval');\n\nconst userCode = 'alert("Hello World!");';\nconst sandbox = safeEval(userCode, {\n  alert: (message) => console.log(`Alert: ${message}`),\n});\n\nsandbox();

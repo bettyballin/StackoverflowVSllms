@@ -1,0 +1,1 @@
+$html = <<<HTML\n<html>\n  <head>\n    <title>My Page</title>\n  </head>\n  <body>\n    <!-- your content here -->\n  </body>\n</html>\nHTML;\n\necho $html;

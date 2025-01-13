@@ -1,0 +1,1 @@
+-- Change the SQL Server port\nUSE master\nGO\nEXEC xp_instance_regwrite N'HKEY_LOCAL_MACHINE', N'SOFTWARE\Microsoft\Microsoft SQL Server\MSSQLServer\SuperSocketNetLib\TcpIp', N'TcpPort', REG_DWORD, 1435\nGO

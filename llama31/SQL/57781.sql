@@ -1,0 +1,1 @@
+BEGIN\n  DBMS_PARALLEL_EXECUTE.RUN_TASK(\n    task_name => 'task1',\n    sql_stmt => 'BEGIN myProc(1,100); END;',\n    language_flag => DBMS_SQL.NATIVE);\n  DBMS_PARALLEL_EXECUTE.RUN_TASK(\n    task_name => 'task2',\n    sql_stmt => 'BEGIN myProc(101,200); END;',\n    language_flag => DBMS_SQL.NATIVE);\n  ...\nEND;

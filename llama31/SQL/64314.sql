@@ -1,0 +1,1 @@
+SELECT \n    Table1.Column1, \n    Table1.Column2, \n    ..., \n    Table3.Column1, \n    Table3.Column2, \n    ...\nFROM \n    Table1 \n    INNER JOIN Table2 \n        ON Table1.ID = Table2.T1ID \n    INNER JOIN Table3 \n        ON Table2.T3ID = Table3.PK

@@ -1,0 +1,1 @@
+SELECT v.name \nFROM vocabulary v \nLEFT JOIN collapse_menu c ON v.vid = c.vid \nWHERE c.vid IS NULL;

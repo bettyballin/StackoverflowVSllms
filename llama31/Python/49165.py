@@ -1,0 +1,1 @@
+class Tag:\n    def __init__(self, name, count):\n        self.name = name\n        self.count = count\n\ntags = [Tag(name="toe", count=10), Tag(name="leg", count=2), Tag(name="arm", count=5)]\n\n# Sort the list of tags in descending order by 'count'\nsorted_tags = sorted(tags, key=lambda x: x.count, reverse=True)\n\nfor tag in sorted_tags:\n    print(f"{tag.name}: {tag.count}")

@@ -1,1 +1,0 @@
-T Accept<T>(ObjectVisitorEx<T> visitor);

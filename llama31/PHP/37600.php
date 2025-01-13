@@ -1,0 +1,1 @@
+add_filter('cfct_context', 'scompt_front_page_context');\n\nfunction scompt_front_page_context($context) {\n    if ( is_front_page() )\n        return 'frontpage';\n    return $context;\n}

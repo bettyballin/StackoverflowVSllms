@@ -1,1 +1,0 @@
-public class MyEntity\n{\n    public DateTime MyDate { get; set; }\n}

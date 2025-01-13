@@ -1,1 +1,0 @@
-file <(curl -s https://example.com/webpage.html)

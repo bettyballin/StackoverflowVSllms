@@ -1,0 +1,1 @@
+$content = "SELECT * FROM table1; INSERT INTO table2 VALUES ('foo', 'bar');";\n$queries = preg_split('/;\s*\n(?=(?:[^`]*`[^`]*`)*[^`]*$)/', $content, -1, PREG_SPLIT_NO_EMPTY);\n\nforeach ($queries as $query) {\n    // Execute the query using your MySQL class\n    $mysql->query($query);\n}

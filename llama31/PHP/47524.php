@@ -1,0 +1,1 @@
+$query = $database->prepare('SELECT * FROM table WHERE column LIKE ?');\n$query->execute(array('%value%')); // Add the % wildcard to the parameter value\n\nwhile ($results = $query->fetch()) {\n    echo $results['column'];\n}

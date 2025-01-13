@@ -1,0 +1,1 @@
+CREATE TABLE Employees (\n    EmployeeID INT PRIMARY KEY,\n    DepartmentID INT\n);\n\nCREATE TABLE EmployeeHistory (\n    EmployeeHistoryID INT PRIMARY KEY,\n    EmployeeID INT,\n    DepartmentID INT,\n    FOREIGN KEY (EmployeeID) REFERENCES Employees(EmployeeID) ON UPDATE CASCADE\n);

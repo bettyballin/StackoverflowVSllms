@@ -1,0 +1,1 @@
+CREATE TABLE IF NOT EXISTS mytable (\n  id INT PRIMARY KEY,\n  name VARCHAR(255),\n  email VARCHAR(255)\n);\n\n-- assume mytable already exists with only 2 columns: id and name\n\nCREATE TABLE IF NOT EXISTS mytable (\n  id INT PRIMARY KEY,\n  name VARCHAR(255),\n  email VARCHAR(255),\n  phone VARCHAR(20)\n);

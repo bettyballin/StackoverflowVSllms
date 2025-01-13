@@ -1,0 +1,1 @@
+Public Sub Load()\n    MapDataRowToProperties(dataRow, Me)\nEnd Sub

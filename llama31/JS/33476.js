@@ -1,0 +1,1 @@
+$.getJSON("http://localhost/wordpress/test.php")\n    .done(function (data) {\n        $.each(data, function (i, item) {\n            $("<img/>").attr("src", item).appendTo("#images");\n        });\n        \n        $("img").each(function (i, item) {\n            alert(item);\n        });\n    });

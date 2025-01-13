@@ -1,0 +1,1 @@
+class User < ApplicationRecord\n  before_create :generate_remember_token\n\n  private\n\n  def generate_remember_token\n    self.remember_token = SecureRandom.urlsafe_base64\n  end\nend

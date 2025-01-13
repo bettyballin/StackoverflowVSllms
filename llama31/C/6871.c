@@ -1,1 +1,0 @@
-OPENFILENAME ofn = {0};\nofn.lStructSize = sizeof(ofn);\nofn.hwndOwner = hwndParent;\nofn.hInstance = hInstance;\nofn.lpstrFilter = "Text Files (*.txt)\0*.txt\0";\nofn.lpstrFile = filename;\nofn.nMaxFile = MAX_PATH;\nofn.Flags = OFN_PATHMUSTEXIST | OFN_FILEMUSTEXIST | OFN_BUTTONTEXT;\nofn.lpstrButtonText = "Select";\n\nif(GetOpenFileName(&ofn) == TRUE)\n{\n    // file selected\n}

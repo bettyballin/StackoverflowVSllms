@@ -1,1 +1,0 @@
-var ticket = new FormsAuthenticationTicket(\n    1,\n    username,\n    DateTime.Now,\n    DateTime.Now.AddMinutes(30),\n    false,\n    HttpContext.Current.Session.SessionID);

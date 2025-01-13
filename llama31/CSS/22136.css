@@ -1,1 +1,0 @@
-ul, li {\n  padding: 0px;\n  margin-left: 0px;\n  margin-bottom: 0px;\n  display: inline;\n}\n\nli {\n  border: solid 1px #333333;\n  margin-right: 5px;\n  padding: 2px;\n  background-color: #222222;\n  color: #999999;\n}\n\nli:last-child {\n  display: inline-block;\n  width: 100%;\n  background-color: #222222; /* optional, to maintain the background color */\n}

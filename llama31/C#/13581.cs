@@ -1,1 +1,0 @@
-var client = new YourWebService();\nvar authHeader = new CustomAuthHeader { Token = "YourSecretToken" };\nclient.AuthHeaderValue = authHeader;

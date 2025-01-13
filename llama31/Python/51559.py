@@ -1,0 +1,1 @@
+import gc\n\ndef find_referents(obj):\n    referents = gc.get_referents(obj)\n    for referent in referents:\n        print(referent)\n\n# Example usage:\nmy_object = object()\nfind_referents(my_object)

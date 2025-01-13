@@ -1,1 +1,0 @@
-reg add "HKLM\SYSTEM\CurrentControlSet\Services\<ServiceName>\Parameters" /v "AllowServiceToInteractWithDesktop" /t REG_DWORD /d 1

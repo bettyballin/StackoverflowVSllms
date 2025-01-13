@@ -1,1 +1,0 @@
-screen -X -S <session_id> quit

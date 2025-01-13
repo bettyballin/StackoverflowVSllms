@@ -1,0 +1,1 @@
+CREATE FUNCTION [dbo].[usf_GIS_GET_LAT_TV]\n(\n    @City VARCHAR(30),\n    @State CHAR(2)\n)\nRETURNS TABLE\nWITH EXECUTE AS CALLER\nAS\nRETURN\n(\n    SELECT TOP 1 LAT\n    FROM GIS_Location WITH(NOLOCK)\n    WHERE [State] = @State AND [City] = @City\n)

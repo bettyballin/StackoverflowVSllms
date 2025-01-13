@@ -1,0 +1,1 @@
+Dim result = From tbl1 In table1\n             Let column1Values = (From tbl2 In table2 Select tbl2.column1)\n             Let column2Values = (From tbl2 In table2 Select tbl2.column2)\n             Where Not column1Values.Contains(tbl1.column1.value1) AndAlso\n                   Not column2Values.Contains(tbl1.column2.value2)\n             Select tbl1.column1, tbl1.column2

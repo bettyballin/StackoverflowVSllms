@@ -1,0 +1,1 @@
+Public Property SelectedPeople() As ObservableCollection(Of Person)\n    Get\n        Return _SelectedPeople\n    End Get\n    Set(ByVal value As ObservableCollection(Of Person))\n        _SelectedPeople = value\n    End Set\nEnd Property

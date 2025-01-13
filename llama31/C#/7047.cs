@@ -1,1 +1,0 @@
-using System.Security.Cryptography;\nusing System.Text;\n\npublic static string GenerateKey(string userData, string salt)\n{\n    using var sha256 = SHA256.Create();\n    var bytes = sha256.ComputeHash(Encoding.UTF8.GetBytes(userData + salt));\n    return BitConverter.ToString(bytes).Replace("-", "").ToLower();\n}

@@ -1,0 +1,1 @@
+DELIMITER //\nCREATE PROCEDURE my_sp(IN param INT)\nBEGIN\n  IF param IS NULL THEN\n    SET param = 'some_default_value';\n  END IF;\n  -- Rest of the procedure\nEND//\nDELIMITER ;

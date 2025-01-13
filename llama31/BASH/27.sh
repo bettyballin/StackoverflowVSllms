@@ -1,1 +1,0 @@
-curl -X POST -H "Content-Type: text/plain" -d "This is the request body" http://example.com/myservlet

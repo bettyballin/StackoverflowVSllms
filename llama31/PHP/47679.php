@@ -1,0 +1,1 @@
+$files = $_FILES['addFile'];\nforeach ($files['name'] as $i => $fileName) {\n    $fileToCopy = $files['tmp_name'][$i];\n    // ... rest of your code\n}

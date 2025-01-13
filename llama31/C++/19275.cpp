@@ -1,1 +1,0 @@
-class Car {\npublic:\n    __declspec(dllexport) Car();\n    __declspec(dllexport) void drive(void);\n    __declspec(dllexport) typedef enum { None, Indented } Formatting;\n}

@@ -1,0 +1,1 @@
+Private Sub dgvFMSelected_DragOver(ByVal sender As System.Object, ByVal e As System.Windows.Forms.DragEventArgs) Handles dgvFMSelected.DragOver\n\n    If e.Data.GetDataPresent(GetType(DataGridViewSelectedRowCollection)) AndAlso sender Is dgvFMAvailable Then\n        e.Effect = DragDropEffects.None\n    Else\n        e.Effect = DragDropEffects.Move\n    End If\n\nEnd Sub

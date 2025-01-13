@@ -1,1 +1,0 @@
-#site-title {\n  background-image: url(site-logo.png);\n  background-repeat: no-repeat;\n  width: 200px; /* width of the image */\n  height: 50px; /* height of the image */\n}\n\n#site-title span {\n  display: none;\n}

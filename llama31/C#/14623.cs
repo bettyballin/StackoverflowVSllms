@@ -1,1 +1,0 @@
-private bool enabled;\n\npublic bool Enabled\n{\n    get { return Thread.VolatileRead(ref enabled); }\n    set { Thread.VolatileWrite(ref enabled, value); }\n}

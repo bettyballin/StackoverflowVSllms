@@ -1,0 +1,1 @@
+-- Enable statistics profile\nSET STATISTICS PROFILE ON\n\n-- Execute your query\nSELECT *\nFROM your_table\nWHERE your_column = 'your_value'\n\n-- Disable statistics profile\nSET STATISTICS PROFILE OFF

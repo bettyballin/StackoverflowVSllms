@@ -1,1 +1,0 @@
-@echo off\nregsvr32 /n /i Redemption.dll

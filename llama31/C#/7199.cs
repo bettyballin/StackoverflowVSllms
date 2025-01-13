@@ -1,1 +1,0 @@
-using System.Diagnostics;\n\nclass MyClass\n{\n    [MethodImpl(MethodImplOptions.NoInlining)]\n    public void MyMethod()\n    {\n        // code to be profiled\n    }\n}

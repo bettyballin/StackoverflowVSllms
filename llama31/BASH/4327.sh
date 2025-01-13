@@ -1,1 +1,0 @@
-# Compile C code with GCC\ngcc -o output_file source_file.c\n\n# Example:\ngcc -o hello hello.c

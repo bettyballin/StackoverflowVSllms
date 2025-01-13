@@ -1,1 +1,0 @@
-# Use rsync to synchronize your Emacs configuration\nrsync -avz ~/.emacs.d/ user@work-machine:~/.emacs.d/

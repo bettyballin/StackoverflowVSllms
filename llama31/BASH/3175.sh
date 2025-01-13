@@ -1,1 +1,0 @@
-robocopy C:\Projects\WebSite \\test.lala.com\C$\Inetpub\wwwroot\Website1 /MIR

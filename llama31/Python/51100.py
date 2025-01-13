@@ -1,0 +1,1 @@
+from flask_security import Security\nsecurity = Security(app)

@@ -1,0 +1,1 @@
+var proxy = new MyServiceProxy();\nproxy.GetData(OnSuccess, OnError);\n\n// ...\n\nfunction OnSuccess(data) {\n    // Process data\n}\n\nfunction OnError(error) {\n    // Handle error\n}

@@ -1,1 +1,0 @@
-.rounded-corner {\n  background-image: linear-gradient(180deg, #fff, #fff);\n  background-position: 0 0, 100% 0, 100% 100%, 0 100%;\n  background-size: 10px 10px; /* adjust the size to your liking */\n  border-radius: 10px;\n}

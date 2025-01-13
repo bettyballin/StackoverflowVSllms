@@ -1,0 +1,1 @@
+$(document).ready(function() {\n  $("#audioplayer_1 object").css("display", "none");\n});

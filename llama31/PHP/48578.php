@@ -1,0 +1,1 @@
+// Old code (FPDF 1.53)\n$pdf->Cell(40, 10, 'Hello World!', 1);\n\n// New code (FPDF 1.6)\n$pdf->CellFit(40, 10, 'Hello World!', 1);

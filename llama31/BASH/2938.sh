@@ -1,1 +1,0 @@
-fpc -lXi -L/usr/lib/X11 your_lazarus_code.lpr

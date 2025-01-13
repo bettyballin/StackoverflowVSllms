@@ -1,1 +1,0 @@
-SearchResponse searchResult = (SearchResponse) port.search("Toyota");

@@ -1,1 +1,0 @@
-valgrind --tool=callgrind ./your_code\nkcachegrind callgrind.out

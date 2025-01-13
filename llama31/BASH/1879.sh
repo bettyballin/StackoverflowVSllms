@@ -1,1 +1,0 @@
-$ php -f detector.php /path/to/your/php/file.php

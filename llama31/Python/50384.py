@@ -1,0 +1,1 @@
+import numpy as np\nnumbers = np.array([1, 2, 3, 4, 5])\ntotal = np.sum(numbers)\nprint(total)

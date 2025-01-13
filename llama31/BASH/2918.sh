@@ -1,1 +1,0 @@
-svn diff --new > patch.diff

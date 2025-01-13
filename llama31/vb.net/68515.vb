@@ -1,0 +1,1 @@
+Dim obj\nSet obj = CreateObject("MyComVisibleClass")\nobj.MyComVisibleMethod

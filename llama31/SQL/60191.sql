@@ -1,0 +1,1 @@
+SELECT group#, sequence#, bytes FROM v$log;

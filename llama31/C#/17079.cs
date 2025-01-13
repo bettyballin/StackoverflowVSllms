@@ -1,1 +1,0 @@
-string url = "http://localhost/BTSHTTPReceive.dll?ReqResp";\nHttpWebRequest request = (HttpWebRequest)WebRequest.Create(url);

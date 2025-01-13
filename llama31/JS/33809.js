@@ -1,0 +1,1 @@
+$(document).ready(function() {\n    $("#add_new_ride").delegate("a", "click", function() {\n        alert("Hello world!");\n    });\n});

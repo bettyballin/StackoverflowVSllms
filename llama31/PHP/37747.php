@@ -1,0 +1,1 @@
+$usrID = 25;\n$string = "22,23,24,25";\n$receivers = explode(',', $string);\n$receivers = array_diff($receivers, [$usrID]);\n$receivers = implode(',', $receivers);\n\necho $receivers;  // Output: "22,23,24"

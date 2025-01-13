@@ -1,1 +1,0 @@
-sed -i '1a\inserted text' file1 file2 file3

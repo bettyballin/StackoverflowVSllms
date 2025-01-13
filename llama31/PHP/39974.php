@@ -1,0 +1,1 @@
+$str1 = "abc";\n$str2 = "def";\n$str3 = "ghi";\n\n// Using the dot (.) operator\n$result = $str1 . $str2 . $str3;\necho $result;\n\n// Using the implode() function\n$result = implode("", array($str1, $str2, $str3));\necho $result;

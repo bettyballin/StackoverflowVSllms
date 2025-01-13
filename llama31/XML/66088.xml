@@ -1,0 +1,1 @@
+<query>\n  <query>range:price:[10 TO 20]</query>\n</query>

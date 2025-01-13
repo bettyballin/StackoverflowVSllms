@@ -1,1 +1,0 @@
-xunit.console YourTestAssembly.dll -parallel

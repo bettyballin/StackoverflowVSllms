@@ -1,0 +1,1 @@
+class Search extends CI_Controller {\n  public function index($keyword = null) {\n    // Get the search term from the URI segment\n    $keyword = $this->uri->segment(2);\n    \n    // Perform search logic here...\n  }\n}

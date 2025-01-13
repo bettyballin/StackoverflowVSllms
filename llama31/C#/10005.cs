@@ -1,1 +1,0 @@
-// Assuming you have a WebTestRequest object named 'request'\nrequest.Headers.Add(new WebTestRequestHeader("Cache-Control", "no-cache"));

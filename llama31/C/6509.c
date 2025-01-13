@@ -1,1 +1,0 @@
-// Enable asynchronous execution\nSQLSetStmtAttr(hStmt, SQL_ATTR_ASYNC_ENABLE, (SQLPOINTER)SQL_ASYNC_ENABLE_ON, 0);

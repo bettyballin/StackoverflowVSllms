@@ -1,0 +1,1 @@
+CREATE TRIGGER trg_Profiles_Update_LastUpdate\nON dbo.Profiles\nAFTER UPDATE\nAS\nBEGIN\n    UPDATE p\n    SET LastUpdate = GETDATE()\n    FROM Profiles p\n    INNER JOIN inserted i ON p.UserName = i.UserName\nEND

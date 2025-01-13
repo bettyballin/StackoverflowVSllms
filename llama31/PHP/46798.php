@@ -1,0 +1,1 @@
+$videoVideo = new Zend_Form_Element_File('video_video');\n$videoVideo->setDestination('/path/to/upload/directory');

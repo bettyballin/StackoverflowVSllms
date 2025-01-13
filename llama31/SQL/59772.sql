@@ -1,0 +1,1 @@
+SELECT t1.ID, t1.Signal, t1.Station, t1.OwnerID\nFROM your_table t1\nINNER JOIN (\n  SELECT ID, MAX(Signal) as max_signal\n  FROM your_table\n  GROUP BY ID\n) t2\nON t1.ID = t2.ID AND t1.Signal = t2.max_signal;

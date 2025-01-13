@@ -1,0 +1,1 @@
+<!-- web.xml -->\n<web-app>\n  <servlet>\n    <servlet-name>Quercus Servlet</servlet-name>\n    <servlet-class>com.caucho.quercus.servlet.QuercusServlet</servlet-class>\n  </servlet>\n  <servlet-mapping>\n    <servlet-name>Quercus Servlet</servlet-name>\n    <url-pattern>*.php</url-pattern>\n  </servlet-mapping>\n</web-app>

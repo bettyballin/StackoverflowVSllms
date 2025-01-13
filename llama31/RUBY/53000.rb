@@ -1,0 +1,1 @@
+amespace :api do\n  resources :users do\n    member do\n      get :ajax_action\n    end\n  end\nend

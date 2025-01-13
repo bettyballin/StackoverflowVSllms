@@ -1,1 +1,0 @@
-class MyUsefulClass {\npublic:\n    // ...\nprivate:\n    void doProcessA(std::vector<int>& data, int dataMember_);\n    void doProcessB(std::vector<int>& data, int otherDataMember_);\n    // ...\n};

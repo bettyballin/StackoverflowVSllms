@@ -1,0 +1,1 @@
+$(":text").each(function() {\n  var $this = $(this);\n  var $clone = $("<label/>").attr("for", $this.attr("id"));\n  $clone.html($this.val());\n  $clone.addClass($this.attr("class"));\n  $clone.css($this.attr("style"));\n  $this.replaceWith($clone);\n});

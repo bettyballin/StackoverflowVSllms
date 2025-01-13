@@ -1,0 +1,1 @@
+SELECT * FROM table1\nFULL OUTER JOIN table2 ON table1.id = table2.id\nFULL OUTER JOIN table3 ON table2.id = table3.id

@@ -1,1 +1,0 @@
-scrollView.PreviewKeyDown += scrollView_PreviewKeyDown;\n\nvoid scrollView_PreviewKeyDown(object sender, KeyEventArgs e)\n{\n    // Handle the event here\n}

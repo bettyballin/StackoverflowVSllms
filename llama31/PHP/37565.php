@@ -1,0 +1,1 @@
+$headers = array (\n    'From' => $from,\n    'To' => $emailto,\n    'Subject' => $subject\n);\n$headers['Content-Type'] = 'text/html; charset=UTF-8';

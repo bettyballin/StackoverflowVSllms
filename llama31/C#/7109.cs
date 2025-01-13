@@ -1,1 +1,0 @@
-public static class MyEntity\n{\n    static MyEntity()\n    {\n        TypeDescriptor.AddProvider(new HyperTypeDescriptionProvider(typeof(MyEntity)), typeof(MyEntity));\n    }\n}

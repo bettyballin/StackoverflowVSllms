@@ -1,0 +1,1 @@
+# views.py\nfrom django.shortcuts import render\nfrom django.views.decorators.http import require_http_methods\n\n@require_http_methods(["GET", "POST"])\ndef my_view(request):\n    # validate user input\n    if request.method == "POST":\n        # handle POST request\n        pass\n    return render(request, "my_template.html")

@@ -1,0 +1,1 @@
+try {\n    $foo = new Myclass('my params');\n    echo "Insert successful";\n} catch (Exception $e) {\n    echo "Insert failed: " . $e->getMessage();\n}

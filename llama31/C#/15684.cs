@@ -1,1 +1,0 @@
-protected void ddl_SelectedIndexChanged(object sender, EventArgs e)\n{\n    // Validate the dropdown list\n    ddl.Validate();\n    if (!ddl.IsValid)\n    {\n        // Handle the error\n    }\n}

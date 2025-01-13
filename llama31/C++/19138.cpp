@@ -1,1 +1,0 @@
-ULONG refCount = pointer->Release();

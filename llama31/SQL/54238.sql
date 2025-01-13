@@ -1,0 +1,1 @@
+WITH RankedObjects AS (\n  SELECT *,\n    ROW_NUMBER() OVER (PARTITION BY Id ORDER BY GenerationId DESC) AS Rank\n  FROM MyObjects\n  WHERE GenerationId <= ?\n)\nSELECT *\nFROM RankedObjects\nWHERE Rank = 1 AND DeleteAction = FALSE;

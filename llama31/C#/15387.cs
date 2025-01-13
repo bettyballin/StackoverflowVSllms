@@ -1,1 +1,0 @@
-List<string> list1 = new List<string> { "A1", "A2", "A3" };\nList<string> list2 = new List<string> { "B1", "B2" };\nList<string> list3 = new List<string> { "C1", "C2", "C3", "C4", "C5" };\n\nList<string> result = MergeLists(list1, list2, list3);\n\nConsole.WriteLine(string.Join("\n", result));

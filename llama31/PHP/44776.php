@@ -1,0 +1,1 @@
+App::import('Xml');\n$url = "http://www.site.com/file.xml";\n$parsed_xml =& new XML($url);

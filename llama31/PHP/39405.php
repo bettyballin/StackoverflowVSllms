@@ -1,0 +1,1 @@
+function showLoginForm() {\n    echo '<form action="login.php" method="post">';\n    echo '<input type="text" name="username">';\n    echo '<input type="password" name="password">';\n    echo '<input type="submit">';\n    echo '</form>';\n}

@@ -1,0 +1,1 @@
+CREATE INDEX idx_log_date ON Log (Date DESC);

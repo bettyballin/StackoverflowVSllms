@@ -1,1 +1,0 @@
-using (SqlDataReader reader = BuildAndExecuteCommand(command))\n{\n    // Do stuff with reader\n}

@@ -1,0 +1,1 @@
+SELECT *\nFROM queue_manager q1\nWHERE NOT EXISTS (\n  SELECT 1\n  FROM queue_manager q2\n  WHERE q2.priority_number < q1.priority_number\n  OR (q2.priority_number = q1.priority_number AND q2.timestamp < q1.timestamp)\n)

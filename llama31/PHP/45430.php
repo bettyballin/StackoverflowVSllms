@@ -1,0 +1,1 @@
+$keyword = $_POST['search_keyword'];\n$stmt = $db->prepare($query);\n$stmt->bindParam(':keyword', $keyword);\n$stmt->execute();\n$results = $stmt->fetchAll();

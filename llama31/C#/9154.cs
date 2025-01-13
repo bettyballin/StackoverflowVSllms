@@ -1,1 +1,0 @@
-List<String> upperCaseList = text.Select(s => s.ToUpper()).ToList();

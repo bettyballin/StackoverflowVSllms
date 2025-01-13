@@ -1,0 +1,1 @@
+$.ajax({\n    type: 'POST',\n    url: '@Url.Action("MyAction")',\n    data: /* your data */,\n    success: function(response) {\n        if (response.success) {\n            // method was successful\n        } else {\n            // method failed, display error message\n        }\n    }\n});

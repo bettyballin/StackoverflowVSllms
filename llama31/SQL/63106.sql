@@ -1,0 +1,1 @@
+SELECT \n    Brand,\n    IsUnspoiled = CASE \n        WHEN SUM(HasWorms) = 0 THEN 1 \n        ELSE 0 \n    END\nFROM \n    Apples\nGROUP BY \n    Brand

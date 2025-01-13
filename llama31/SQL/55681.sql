@@ -1,0 +1,1 @@
+CREATE PROCEDURE GetUserData\n    @username nvarchar(50)\nAS\nBEGIN\n    SELECT * FROM Users\n    WHERE username = @username;\nEND;

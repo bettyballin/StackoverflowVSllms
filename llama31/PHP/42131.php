@@ -1,0 +1,1 @@
+$mail = new PHPMailer();\n$mail->SMTPDebug = 2; // Enable debug mode

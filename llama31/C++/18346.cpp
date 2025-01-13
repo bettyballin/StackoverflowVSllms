@@ -1,1 +1,0 @@
-// main.cpp\n#include "mydll.h"\n\nint main() {\n    myFunction();\n    return 0;\n}

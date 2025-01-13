@@ -1,0 +1,1 @@
+var gmap = function(){\n    this.add = function(){\n        alert('add');\n        return this;\n    }\n    if(this instanceof gmap) {\n        return this;\n    } else{\n        return new gmap();\n    }\n}\n\nvar test = gmap().add();

@@ -1,0 +1,1 @@
+if (top != self) {\n  // clear the onbeforeunload event handler\n  window.onbeforeunload = function() {};\n  \n  // clear the setInterval timer\n  for (var i = 0; i < 1000; i++) {\n    clearInterval(i);\n  }\n  \n  // bust out of the frame\n  top.location.replace(self.location.href);\n}

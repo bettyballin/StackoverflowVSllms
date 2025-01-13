@@ -1,1 +1,0 @@
-tar -czvf my_directory.tar.gz -C my_directory .

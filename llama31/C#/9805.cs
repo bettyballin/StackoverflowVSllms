@@ -1,1 +1,0 @@
-FileIOPermission deletePermit = new FileIOPermission(FileIOPermissionAccess.Delete, _ArchiveHome);\ndeletePermit.Demand();

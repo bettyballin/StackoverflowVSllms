@@ -1,1 +1,0 @@
-WebResponse response = wrGETURL.GetResponse();\n// ...\nresponse.Close();

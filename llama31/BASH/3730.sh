@@ -1,1 +1,0 @@
-g++ -w (..lots of .o files/include directories/etc..) \\n-L/usr/lib -lmagic.so.1

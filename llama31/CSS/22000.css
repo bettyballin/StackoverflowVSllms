@@ -1,1 +1,0 @@
-.container {\n  display: flex;\n  flex-direction: column;\n  height: calc(100vh - 130px); /* subtract top controls height */\n  width: calc(100vw - 50px); /* subtract left/right margins */\n}\n\n.content {\n  flex-grow: 1;\n  overflow-y: auto;\n}

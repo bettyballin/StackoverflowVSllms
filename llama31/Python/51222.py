@@ -1,0 +1,1 @@
+import nltk\nfrom nltk.tokenize import word_tokenize\n\n# User input\nquery = "What is the average salary of employees in the sales department?"\n\n# Tokenize the query\ntokens = word_tokenize(query)\n\n# Part-of-speech tagging\ntagged_tokens = nltk.pos_tag(tokens)\n\n# Print the tagged tokens\nprint(tagged_tokens)

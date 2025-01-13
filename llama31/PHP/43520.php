@@ -1,0 +1,1 @@
+function menufun_menu_link_alter(&$item, $menu) {\n  dpm($item); // Use the Devel module's dpm function to print the contents of $item\n}

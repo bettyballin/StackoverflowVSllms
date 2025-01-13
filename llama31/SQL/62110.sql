@@ -1,0 +1,1 @@
+INSERT AccountsAdded(AccountNum, Name)\nSELECT AccountNum, Name\nFROM AccountsNew\nEXCEPT\nSELECT AccountNum, Name\nFROM AccountsCurrent\n\nINSERT AccountsRemoved(AccountNum, Name)\nSELECT AccountNum, Name\nFROM AccountsCurrent\nEXCEPT\nSELECT AccountNum, Name\nFROM AccountsNew

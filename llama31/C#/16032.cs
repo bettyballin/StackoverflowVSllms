@@ -1,1 +1,0 @@
-using (FileStream fs = new FileStream(filePath, FileMode.Open, FileAccess.Read, FileShare.ReadWrite))\n{\n    using (StreamReader sr = new StreamReader(fs))\n    {\n        // read the file\n    }\n}

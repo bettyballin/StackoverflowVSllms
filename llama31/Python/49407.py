@@ -1,0 +1,1 @@
+import importlib.metadata\n\ndef get_module_version(module_name):\n    try:\n        version = importlib.metadata.version(module_name)\n    except importlib.metadata.PackageNotFoundError:\n        version = None\n    return version\n\nprint(get_module_version('libxslt'))\nprint(get_module_version('libxml2'))

@@ -1,1 +1,0 @@
-string version = ComFileVersion.GetFileVersion("Your.ProgId.Here");

@@ -1,1 +1,0 @@
-#!/bin/bash\n\n# Set the path to the test resources\nTEST_RESOURCES_PATH=$SRCROOT/TestResources\n\n# Set the path to the iPhone Simulator's document folder\nDOCUMENT_FOLDER_PATH=$HOME/Library/Application\ Support/iPhone\ Simulator/User/$PRODUCT_UUID/Documents\n\n# Copy the test resources to the document folder\ncp -r "$TEST_RESOURCES_PATH" "$DOCUMENT_FOLDER_PATH"

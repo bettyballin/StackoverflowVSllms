@@ -1,1 +1,0 @@
-mock.Expect(m => m.Method(out param))\n    .WillReturn(10);

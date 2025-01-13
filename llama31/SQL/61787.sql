@@ -1,0 +1,1 @@
+SELECT TOP 5 \n    COUNT(id_book_orddetails) 'books_sold', \n    bk.*\nFROM \n    orderdetails_orddetails ord \nINNER JOIN \n    books_book bk ON ord.id_book_orddetails = bk.id_book\nGROUP BY \n    id_book, \n    name_book,\n    author_book,\n    CONVERT(nvarchar(max), desc_book), \n    id_ctg_book,\n    qty_book,\n    image_book,\n    isdeleted\nORDER BY \n    'books_sold' DESC

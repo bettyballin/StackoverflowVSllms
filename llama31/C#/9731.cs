@@ -1,1 +1,0 @@
-var buf = new StringBuilder(100);\nint len = StringTest(buf, buf.Capacity);\nif (len > 0)\n    Console.WriteLine(buf.ToString());

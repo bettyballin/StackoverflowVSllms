@@ -1,1 +1,0 @@
-uint8_t byte = ...; // your byte value\nbyte ^= 0x14; // toggle bits 2 and 4

@@ -1,1 +1,0 @@
-// In User.dll\nclass User {\npublic:\n    // ...\n};\n\nclass Dummy {\npublic:\n    Dummy() {\n        Resources& resources = Resources::getInstance();\n    }\n};\n\nstatic Dummy dummy;

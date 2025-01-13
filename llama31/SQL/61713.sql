@@ -1,0 +1,1 @@
+SET COMMAND TIMEOUT <timeout_value>;

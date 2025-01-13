@@ -1,1 +1,0 @@
-DbParameter theDate = new OleDbParameter("", new DateTime(2009, 1, 1));\nDbParameter theFlat = new OleDbParameter("", 1);\n\nusing (DbDataReader reader = dbHelper.ExecuteReader(sqlText, theDate, theFlat)) { }

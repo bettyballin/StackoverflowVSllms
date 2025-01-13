@@ -1,0 +1,1 @@
+$name = filter_var($_POST["name"], FILTER_SANITIZE_STRING);

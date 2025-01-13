@@ -1,1 +1,0 @@
-TcpClient client = new TcpClient();\nclient.NoDelay = true; // disable Nagle's algorithm\n// ...\nclient.Send(data);

@@ -1,0 +1,1 @@
+SELECT \n  h.home_id,\n  h.address,\n  h.city,\n  h.state,\n  h.zip,\n  hp.photo_id,\n  hp.photo_url_dir\nFROM \n  homes h\n  LEFT JOIN home_photos hp \n    ON h.home_id = hp.home_id \n    AND h.primary_photo_group_id = hp.photo_group_id \n    AND hp.home_photo_type_id = 2

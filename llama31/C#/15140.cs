@@ -1,1 +1,0 @@
-var orderedList = yourList\n    .OrderBy(x => x.IsCompany ? x.CompanyName : $"{x.LastName}, {x.FirstName}")\n    .ToList();

@@ -1,0 +1,1 @@
+$referer = $_SERVER['HTTP_REFERER'];\n$refererParts = parse_url($referer);\n$schemeAndHost = $refererParts['scheme'] . '://' . $refererParts['host'];\n\n// $schemeAndHost now holds 'http://example.com'

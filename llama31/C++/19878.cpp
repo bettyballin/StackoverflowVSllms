@@ -1,1 +1,0 @@
-#include <Windows.h>\n\nbool isWindowVisible(HWND hWnd) {\n    return IsWindowVisible(hWnd) != 0;\n}

@@ -1,1 +1,0 @@
-[HttpPost]\npublic ActionResult MyAction(MyModel model, string[] ListBox1_All)\n{\n    // ListBox1_All will contain all items in ListBox1\n    foreach (var item in ListBox1_All)\n    {\n        // Process each item\n    }\n    // ...\n}

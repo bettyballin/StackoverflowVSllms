@@ -1,1 +1,0 @@
-telnet DBHOST 1521

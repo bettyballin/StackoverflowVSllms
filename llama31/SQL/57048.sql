@@ -1,0 +1,1 @@
+-- Example of creating an index on the ShipDetailType table\nCREATE INDEX idx_ShipDetailType_ID ON ShipDetailType (ID);

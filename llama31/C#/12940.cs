@@ -1,1 +1,0 @@
-if (dataTable.Rows.Count > 0)\n{\n    object value = dataTable.Rows[0][columnName];\n    // process the value\n}\nelse\n{\n    // handle the empty DataTable case\n}

@@ -1,1 +1,0 @@
-g++ -static-libstdc++ -o myprogram myprogram.cpp

@@ -1,1 +1,0 @@
-#include <windows.h>\n#include <shellapi.h>\n\nint WINAPI WinMain(HINSTANCE hInstance, HINSTANCE hPrevInstance, LPSTR lpCmdLine, int nCmdShow)\n{\n    ShellExecute(NULL, "open", "notepad.exe", NULL, NULL, SW_SHOW);\n    return 0;\n}

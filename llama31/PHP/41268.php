@@ -1,0 +1,1 @@
+$html = '<div class="info"><h5>title</h5>text <a href="somelink">anchor</a></div>';\n$doc = new DOMDocument();\n$doc->loadHTML($html);\n$xpath = new DOMXPath($doc);\n\n$elements = $xpath->query('//div[@class="info"]');\n\nforeach ($elements as $element) {\n    echo $doc->saveHTML($element);\n}

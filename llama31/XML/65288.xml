@@ -1,0 +1,1 @@
+<dependency>\n    <groupId>com.github.osmnx</groupId>\n    <artifactId>osmnx</artifactId>\n    <version>1.1.0</version>\n</dependency>

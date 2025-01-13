@@ -1,1 +1,0 @@
-public PartialViewResult SearchParts(string searchTerm)\n{\n    var parts = db.Parts.Where(p => p.PartNumber.Contains(searchTerm))\n                        .Take(10) // limit the number of results\n                        .ToList();\n\n    return PartialView("_PartSearchResults", parts);\n}

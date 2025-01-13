@@ -1,0 +1,1 @@
+import pywinauto\n\n# Connect to the application\napp = pywinauto.application()\napp.connect(title='Your Application Title')\n\n# Get the main window\ndlg = app.top_window()\n\n# Perform actions on the window\ndlg.Edit1.TypeKeys('Hello, world!', with_spaces=True)\ndlg.Button1.Click()

@@ -1,1 +1,0 @@
-SAFEARRAY* pData = SafeArrayCreateVector(VT_UI1, 0, lSize);\nvoid* pDataPtr = NULL;\nSafeArrayAccessData(pData, &pDataPtr);\nmemcpy(pDataPtr, pBuffer, lSize);\nSafeArrayUnaccessData(pData);

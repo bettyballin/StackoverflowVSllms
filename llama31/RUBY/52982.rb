@@ -1,0 +1,1 @@
+require 'test_helper'\n\nclass UtilsTest < ActiveSupport::TestCase\n  def test_my_utility_method\n    assert_equal expected_result, Utils.my_utility_method\n  end\nend

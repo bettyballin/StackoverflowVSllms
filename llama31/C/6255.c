@@ -1,1 +1,0 @@
-RetVal=fread(&secret,1,size,file);

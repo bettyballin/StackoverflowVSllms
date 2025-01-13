@@ -1,0 +1,1 @@
+If ds.Tables("MyTable").Rows.Count > 0 Then\n    Dim dataRow As DataRow = ds.Tables("MyTable").Rows(0)\n    '...\nEnd If

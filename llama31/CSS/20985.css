@@ -1,1 +1,0 @@
-#sidePanel {\n  float: left;\n  width: 200px;\n}\n\n#sidePanel:after {\n  content: "";\n  display: table;\n  clear: both;\n}

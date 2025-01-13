@@ -1,1 +1,0 @@
-var people = new[] { new Person("John", 30), new Person("Alice", 25) };\nvar names = people.Select(p => p.Name);

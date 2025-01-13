@@ -1,0 +1,1 @@
+<!-- article.xslt -->\n<xsl:stylesheet version="1.0" xmlns:xsl="http://www.w3.org/1999/XSL/Transform">\n  <xsl:template match="/">\n    <html>\n      <body>\n        <h1><xsl:value-of select="article/title"/></h1>\n        <p><xsl:value-of select="article/content"/></p>\n      </body>\n    </html>\n  </xsl:template>\n</xsl:stylesheet>

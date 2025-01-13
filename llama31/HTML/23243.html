@@ -1,1 +1,0 @@
-<!-- Assuming you have a form to add a comment -->\n<form id="comment-form">\n    <input type="text" id="comment-text" name="text">\n    <button type="submit">Add Comment</button>\n</form>\n\n<!-- The container where you want to display the comments -->\n<div id="comments-container">\n    {% for comment in comments %}\n        <p>{{ comment.text }}</p>\n    {% endfor %}\n</div>

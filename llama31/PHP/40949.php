@@ -1,0 +1,1 @@
+$myArray = new MyArray(new MyInterfaceImplementation(), new AnotherImplementation());\n$myArray->add(new YetAnotherImplementation());\n\nforeach ($myArray->getElements() as $element) {\n    $element->doSomething();\n}

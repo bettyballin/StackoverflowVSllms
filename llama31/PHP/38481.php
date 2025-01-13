@@ -1,0 +1,1 @@
+$variable1 = 1;\n$variable2 = sprintf('%05d', $variable1 + 1);\necho $variable2; // Outputs: "00002"

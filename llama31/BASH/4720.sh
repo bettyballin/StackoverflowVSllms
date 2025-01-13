@@ -1,1 +1,0 @@
-# Install OWASP ZAP\nsudo apt-get install zap\n\n# Run OWASP ZAP\nzap -openapi /path/to/your/api/openapi.jso

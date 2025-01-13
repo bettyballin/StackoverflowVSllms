@@ -1,1 +1,0 @@
-#container {\n  display: table;\n  width: 100%;\n}\n\n#container #mainContentsWrapper {\n  display: table-cell;\n  width: 70%;\n  height: 100%;\n}\n\n#container #sidebarWrapper {\n  display: table-cell;\n  width: 29.7%;\n  height: 100%;\n}

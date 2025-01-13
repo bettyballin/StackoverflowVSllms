@@ -1,1 +1,0 @@
-iptables -t nat -A PREROUTING -d xx.xx.xx.xx -j DNAT --to-destination zz.zz.zz.zz\niptables -t nat -A POSTROUTING -s zz.zz.zz.zz -j SNAT --to-source xx.xx.xx.xx

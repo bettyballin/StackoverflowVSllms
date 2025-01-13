@@ -1,0 +1,1 @@
+<?php\n   while (true) {\n       $now = new DateTime();\n       if ($now->format('H:i') == '08:00' && $now->format('N') <= 5) {\n           // Run your script\n           require '/path/to/your/script.php';\n       }\n       sleep(60); // wait 1 minute\n   }

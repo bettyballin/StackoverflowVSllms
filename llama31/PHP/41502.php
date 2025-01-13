@@ -1,0 +1,1 @@
+Array\n(\n    [0] => \n    /**\n     * @todo Implement test{$entry.name}().\n     */\n    public function test{$entry.name}() {\n        $this->markTestIncomplete("This test has not been implemented yet.");\n    }\n)

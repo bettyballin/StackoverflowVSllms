@@ -1,0 +1,1 @@
+CREATE UNIQUE INDEX IX_Table_ID_RecordStatus ON Table (ID)\nWHERE RecordStatus = 1;

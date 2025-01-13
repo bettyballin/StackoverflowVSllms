@@ -1,1 +1,0 @@
-wmic diskgroup get name, descriptio

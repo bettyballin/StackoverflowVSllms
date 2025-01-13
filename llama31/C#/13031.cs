@@ -1,1 +1,0 @@
-[DllExport]\npublic static void MyFunction()\n{\n    // ...\n}

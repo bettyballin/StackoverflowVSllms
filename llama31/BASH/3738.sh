@@ -1,1 +1,0 @@
-gcc -o chown_wrapper chown_wrapper.c\nchmod u+s chown_wrapper

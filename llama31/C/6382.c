@@ -1,1 +1,0 @@
-int roundToNearest100(int num) {\n    return (num + 50) / 100 * 100;\n}

@@ -1,1 +1,0 @@
-// Example of using FullTrust\n[Assembly: System.Security.Permissions.PermissionSet(System.Security.Permissions.SecurityAction.RequestMinimum, Unrestricted = true)]\n\n// Example of using SkipVerification\n[Assembly: System.Security.Permissions.SecurityPermission(System.Security.Permissions.SecurityAction.RequestMinimum, SkipVerification = true)]

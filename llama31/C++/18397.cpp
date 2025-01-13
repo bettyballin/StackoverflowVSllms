@@ -1,1 +1,0 @@
-vector <int> neighbors(vector<int>& arg, int posNo, int baseNo) {\n    vector <int> transfVec = arg;  // Create a copy\n    transfVec[posNo] = baseNo;  // Modify the copy\n    return transfVec;\n}

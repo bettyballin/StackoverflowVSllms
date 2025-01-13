@@ -1,0 +1,1 @@
+function currentDateTime() {\n  list($micro, $Unixtime) = explode(" ", microtime());\n  return date("Y-m-d H:i:s", $Unixtime) . $micro;\n}

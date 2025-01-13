@@ -1,0 +1,1 @@
+const jwt = require('jwt-decode');\n\nconst cookieValue = document.cookie.match(/user_preferences=([^;]*)/)[1];\nconst preferences = jwt(cookieValue, 'your_secret_key');

@@ -1,0 +1,1 @@
+// Get the table element\nconst table = document.querySelector('.table');\n\n// Get the button element\nconst button = document.querySelector('.button');\n\n// Add event listener to the button\nbutton.addEventListener('click', () => {\n  table.classList.toggle('vertical');\n});

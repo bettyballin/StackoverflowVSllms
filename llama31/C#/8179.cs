@@ -1,1 +1,0 @@
-#if DEBUG\n  Console.WriteLine("Debug mode.");\n#endif

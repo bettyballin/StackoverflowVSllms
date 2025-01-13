@@ -1,0 +1,1 @@
+Protected Overrides Sub Render(ByVal writer As System.Web.UI.HtmlTextWriter)\n    If Me.Enabled AndAlso Me.Visible Then\n        _item.RenderControl(writer)\n    Else\n        _display_text.RenderControl(writer)\n    End If\nEnd Sub

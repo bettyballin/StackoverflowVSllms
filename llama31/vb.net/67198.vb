@@ -1,0 +1,1 @@
+Private Sub btnSave_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles btnSave.Click\n    With main.passlist.SelectedItems(0)\n        .Text = appedit.Text\n        .SubItems(1).Text = useredit.Text\n        .SubItems(2).Text = passedit.Text\n    End With\nEnd Sub

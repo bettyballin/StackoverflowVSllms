@@ -1,1 +1,0 @@
-void MyMethod(string! arg)\n{\n    // no need for a null check here\n    Console.WriteLine(arg.Length);\n}

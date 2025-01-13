@@ -1,1 +1,0 @@
-class Foo\n{\n    private static string joke = "yo momma";\n\n    private string GetJoke()\n    {\n        return Foo.joke; // no lock needed if joke is not written to by another thread\n    }\n}

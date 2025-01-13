@@ -1,1 +1,0 @@
-using System.Management;\n\npublic bool IsCrystalReportsInstalled()\n{\n    var query = "SELECT * FROM Win32_Product WHERE Name='Crystal Reports'";\n    var searcher = new ManagementObjectSearcher(query);\n    return searcher.Get().Count > 0;\n}

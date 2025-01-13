@@ -1,0 +1,1 @@
+<property name="cache.provider_class">NHibernate.Cache.SysCache.SysCacheProvider, NHibernate.Cache.SysCache</property>

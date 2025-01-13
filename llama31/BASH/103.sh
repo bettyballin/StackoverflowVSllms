@@ -1,1 +1,0 @@
-test1=$(echo "Hello World")\ntest2=`echo "Hello World"`\n\necho "$test1"  # Output: "Hello World"\necho "$test2"  # Output: "Hello World"\n\ntest3=$(echo "Hello *World*")\ntest4=`echo "Hello *World*"`\n\necho "$test3"  # Output: "Hello *World*"\necho "$test4"  # Output: "Hello" (globbing occurs)

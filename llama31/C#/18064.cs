@@ -1,1 +1,0 @@
-PrintAllPilots(typeof(Pilot), "path_to_your_database");

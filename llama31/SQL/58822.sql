@@ -1,0 +1,1 @@
+CREATE TABLE my_view (\n  id INT,\n  column1 INT,\n  column2 INT\n);\n\nCREATE TRIGGER trg_my_view_update\nAFTER INSERT OR UPDATE ON my_table\nFOR EACH ROW\nBEGIN\n  INSERT INTO my_view (id, column1, column2)\n  VALUES (NEW.id, NEW.column1, NEW.column2);\nEND;\n\nCREATE INDEX idx_my_view_column1 ON my_view (column1);

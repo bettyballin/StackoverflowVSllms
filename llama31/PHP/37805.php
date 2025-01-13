@@ -1,0 +1,1 @@
+$xml = simplexml_load_string($xml_string);\n$array = json_decode(json_encode($xml), true);

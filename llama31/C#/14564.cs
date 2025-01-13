@@ -1,1 +1,0 @@
-using (var db = new MyDataContext()) {\n    var newRow = new MyTable { /* set other properties */ };\n    db.MyTables.InsertOnSubmit(newRow);\n    db.SubmitChanges();\n    var newId = newRow.Id; // retrieve the generated Id value\n}

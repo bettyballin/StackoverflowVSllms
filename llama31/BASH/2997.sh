@@ -1,1 +1,0 @@
-./configure --enable-monolithic --enable-shared --with-macosx-sdk=/Developer/SDKs/MacOSX10.5.sdk --with-macosx-version-min=10.5\nmake\nsudo make install

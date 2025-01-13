@@ -1,0 +1,1 @@
+$mail->AddAddress("andrew@yahoo.co.uk", "Andrew");

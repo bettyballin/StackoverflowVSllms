@@ -1,0 +1,1 @@
+$snkFile = file_get_contents('your_key.snk');\n$rsaKey = new RSA();\n$rsaKey->loadKey($snkFile, 'MS_PRIVATEKEYBLOB');\n$xml = new SimpleXMLElement('<RSAKeyValue/>');\n$xml->addChild('Modulus', base64_encode($rsaKey->getModulus()));\n$xml->addChild('Exponent', base64_encode($rsaKey->getExponent()));\n$xml->addChild('BitStrength', $rsaKey->getBitStrength());\necho $xml->asXML();

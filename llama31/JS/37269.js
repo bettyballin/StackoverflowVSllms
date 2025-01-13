@@ -1,0 +1,1 @@
+// Assuming you have a dataset called 'data'\nvar chart = new dojox.charting.Chart2D("chartDiv");\nchart.addPlot("default", { type: "Lines" });\nchart.addSeries("Series 1", data);\nchart.render();

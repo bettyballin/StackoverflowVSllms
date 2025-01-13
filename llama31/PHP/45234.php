@@ -1,0 +1,1 @@
+$output1 = $str1 . $str2;

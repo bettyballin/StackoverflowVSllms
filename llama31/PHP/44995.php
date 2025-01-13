@@ -1,0 +1,1 @@
+if (preg_match("/<p>([^<]+)<\/p>/", $blog_post, $blog_paragraph)) {\n    echo "<p>" . $blog_paragraph[1] . "</p>";\n} else {\n    echo $blog_post;\n}

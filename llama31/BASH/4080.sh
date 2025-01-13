@@ -1,1 +1,0 @@
-gcc -I/home/me/development/skia/core -I/home/me/development/skia/animator your_file.c -o your_file

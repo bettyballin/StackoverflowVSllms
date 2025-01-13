@@ -1,0 +1,1 @@
+function refreshDropDown() {\n    var dropDown = $find("<%= YourDropDown.ClientID %>");\n    dropDown.refresh();\n}

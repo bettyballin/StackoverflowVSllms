@@ -1,1 +1,0 @@
-ul {\n  width: 200px; /* Set the width of the ul to ensure wrapping occurs */\n}\n\nli {\n  word-wrap: break-word; /* Enable word wrapping */\n}

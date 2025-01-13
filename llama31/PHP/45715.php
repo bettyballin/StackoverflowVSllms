@@ -1,0 +1,1 @@
+$file = fopen('output.xml', 'w');\nfwrite($file, $output);\nfclose($file);

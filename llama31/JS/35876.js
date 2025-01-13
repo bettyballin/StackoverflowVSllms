@@ -1,0 +1,1 @@
+addWrapper: function(toToggle) {\n    if (this.settings.wrapper) {\n        toToggle = $(toToggle); // Wrap toToggle in a jQuery object\n        toToggle = toToggle.add(toToggle.parents(this.settings.wrapper));\n    }\n    return toToggle;\n}

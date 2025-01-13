@@ -1,1 +1,0 @@
-[AdminAuthorize]\npublic class ManageUsersController : Controller\n{\n    // actions\n}

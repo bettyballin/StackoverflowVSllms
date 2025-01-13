@@ -1,0 +1,1 @@
+CREATE TRIGGER [tr_AU_ddl_All_Server] ON SERVER\n    WITH EXECUTE AS self\n    FOR DDL_SERVER_LEVEL_EVENTS\nAS\n    DECLARE\n        @data XML\n      , @rc INT\n    SET @data = EVENTDATA()\n    EXEC @rc = __AU.dbo.AU_DDLLog @data\nGO

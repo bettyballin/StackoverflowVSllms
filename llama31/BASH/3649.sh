@@ -1,1 +1,0 @@
-#!/bin/bash\n/etc/init.d/portmap restart

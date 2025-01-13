@@ -1,1 +1,0 @@
-#include <stdio.h>\n#include <fcntl.h>\n\nint main() {\n    int fd = open("/proc/my_pipe/data", O_RDONLY);\n    if (fd < 0)\n        return -1;\n\n    char data[1024];\n    read(fd, data, 1024);\n\n    printf("%s\n", data);\n\n    close(fd);\n    return 0;\n}

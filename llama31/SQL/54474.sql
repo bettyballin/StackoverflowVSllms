@@ -1,0 +1,1 @@
+SELECT \n  TYPE,\n  SUM(DECODE(STATUS, 'A', 1, 0)) AS "Count A",\n  SUM(DECODE(STATUS, 'I', 1, 0)) AS "Count I",\n  SUM(DECODE(STATUS, 'F', 1, 0)) AS "Count F"\nFROM \n  YOUR_TABLE_NAME\nGROUP BY \n  TYPE\nORDER BY \n  TYPE;

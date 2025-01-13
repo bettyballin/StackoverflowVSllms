@@ -1,0 +1,1 @@
+Dim symbol\nsymbol = ChrW(&H2192)

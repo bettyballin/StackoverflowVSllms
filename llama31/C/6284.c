@@ -1,1 +1,0 @@
-int x = -5;\nint absolute_value = abs(x);

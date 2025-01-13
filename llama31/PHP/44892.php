@@ -1,0 +1,1 @@
+$query = 'SELECT count(distinct accessid) FROM (`accesslog`) WHERE record = ?';

@@ -1,1 +1,0 @@
-extern "C" IMAGE_DOS_HEADER __ImageBase;\nHMODULE hModule = (HMODULE)&__ImageBase;

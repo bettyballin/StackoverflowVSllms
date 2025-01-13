@@ -1,0 +1,1 @@
+# my_controller.js.rjs\npage.replace_html 'my_div', :partial => 'my_partial'

@@ -1,1 +1,0 @@
-a {\n  text-decoration: none; /* Remove default underline */\n  color: #00698f; /* Use a distinct color */\n}\n\na:hover {\n  text-decoration: underline; /* Add underline on hover */\n}

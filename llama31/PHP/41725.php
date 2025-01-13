@@ -1,0 +1,1 @@
+public function show($file){\n    $view = $this;\n    include(function() use ($view){\n        include($file.".php");\n    });\n}

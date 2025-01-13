@@ -1,0 +1,1 @@
+const dgram = require('dgram');\n\nconst server = dgram.createSocket('udp4');\n\nserver.on('listening', () => {\n  console.log('Server listening on port 12345');\n});\n\nserver.on('message', (message, remoteInfo) => {\n  console.log(`Received message from ${remoteInfo.address}:${remoteInfo.port}`);\n  // Handle matchmaking logic here\n});\n\nserver.bind(12345);

@@ -1,1 +1,0 @@
-icacls "D:\files" /grant:r "NT AUTHORITY\SYSTEM:(OI)(CI)F"\nicacls "D:\oldfiles" /grant:r "NT AUTHORITY\SYSTEM:(OI)(CI)F"

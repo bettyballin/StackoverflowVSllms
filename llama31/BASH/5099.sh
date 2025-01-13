@@ -1,1 +1,0 @@
-icacls /grant:r "DOMAIN\Username":M file1.txt file2.txt file3.txt

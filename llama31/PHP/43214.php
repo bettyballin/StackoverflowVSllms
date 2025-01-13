@@ -1,0 +1,1 @@
+// In a controller\n$userId = $this->Session->read('User.UserId');\n$formId = $this->Session->read('Form.FormId');\n\n// In a view file\n<?php echo $this->Session->read('User.UserId'); ?>\n<?php echo $this->Session->read('Form.FormId'); ?>

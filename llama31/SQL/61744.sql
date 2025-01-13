@@ -1,0 +1,1 @@
+SELECT STRING_AGG(name, ', ') AS concatenated_string\nFROM your_table;

@@ -1,0 +1,1 @@
+obj = MyObject()\nmethod_name = 'my_method'\nparams = ['arg1', 'arg2']\n\nif hasattr(obj, method_name):\n    method = getattr(obj, method_name)\n    method(*params)

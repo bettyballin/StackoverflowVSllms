@@ -1,0 +1,1 @@
+module B\n  def self.included(base)\n    base.const_set(:CONST, base.find)\n  end\nend\n\nclass A\n  def self.find\n    "AAA"\n  end\n  include B\nend\n\nputs A::CONST # prints "AAA"

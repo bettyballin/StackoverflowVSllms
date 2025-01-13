@@ -1,1 +1,0 @@
-g++ -o guid_example guid_example.cpp -luuid

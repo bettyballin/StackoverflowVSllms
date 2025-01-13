@@ -1,1 +1,0 @@
-diff -rupN --exclude=.git --exclude=*.o --exclude=*.class flyingsaucer-R8pre2_b/ flyingsaucer-R8pre2/ > a.patch

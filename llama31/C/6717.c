@@ -1,1 +1,0 @@
-seed ^= (seed << 13) & 0xFFFFFFFF;\nseed ^= (seed >> 17) & 0xFFFFFFFF;\nseed ^= (seed << 5) & 0xFFFFFFFF;

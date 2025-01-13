@@ -1,1 +1,0 @@
-// Create a new app domain with the custom security manager\nAppDomain domain = AppDomain.CreateDomain("SandboxDomain", null, new AppDomainSetup\n{\n    SecurityManager = new CustomSecurityManager()\n});\n\n// Run the third-party script in the sandboxed app domain\ndomain.ExecuteAssembly(script.Assembly);

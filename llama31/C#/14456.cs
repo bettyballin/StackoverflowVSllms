@@ -1,1 +1,0 @@
-string unencodedText = "Hello, World!";\nstring encodedText = ModifiedBase64Url.Encode(unencodedText);\nstring decodedText = ModifiedBase64Url.Decode(encodedText);

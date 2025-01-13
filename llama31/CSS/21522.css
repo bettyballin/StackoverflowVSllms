@@ -1,1 +1,0 @@
-.formSubmitButtons {\n  display: flex;\n  justify-content: space-between;\n}\n\n.formSubmitButtons input {\n  margin: 0 5px; /* adjust the margin value as needed */\n}

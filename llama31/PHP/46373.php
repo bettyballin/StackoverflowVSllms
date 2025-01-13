@@ -1,0 +1,1 @@
+$batchCount = $_SERVER['HTTP_BATCH_COUNT'];\n$vendorId = $_SERVER['HTTP_VENDOR_ID'];

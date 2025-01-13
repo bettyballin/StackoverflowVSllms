@@ -1,1 +1,0 @@
-int* ptr = malloc(sizeof(int));\nif (ptr != NULL) {\n    // use the memory\n    *ptr = 5;\n    // free the memory\n    free(ptr);\n}

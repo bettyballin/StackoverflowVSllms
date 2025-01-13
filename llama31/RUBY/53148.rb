@@ -1,0 +1,1 @@
+host = 'http://localhost:3000' # or some method that returns the host\nsetup do\n  @request.env['HTTP_REFERER'] = "#{host}/sessions/new"\n  post :create, { :user => { :email => 'invalid@abc' } }, {}\nend

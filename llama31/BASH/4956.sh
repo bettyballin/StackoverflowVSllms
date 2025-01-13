@@ -1,1 +1,0 @@
-# Install Tesseract OCR\nsudo apt-get install tesseract-ocr\n\n# Convert PDF to searchable PDF using Tesseract\ntesseract input.pdf output -l eng pdf

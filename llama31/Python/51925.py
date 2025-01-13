@@ -1,0 +1,1 @@
+import readline\nimport atexit\n\ndef save_history():\n    readline.write_history_file('.python_history')\n\ndef load_history():\n    try:\n        readline.read_history_file('.python_history')\n    except FileNotFoundError:\n        pass\n\nload_history()\natexit.register(save_history)

@@ -1,1 +1,0 @@
-curl -X POST -d "item[name]=myname" -H "Accept: application/xml" http://localhost:3000/items

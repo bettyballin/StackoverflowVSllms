@@ -1,0 +1,1 @@
+ALTER TABLE filesystem_data.$tablename\nADD COLUMN file_path_prefix VARCHAR(10);\n\nUPDATE filesystem_data.$tablename\nSET file_path_prefix = LEFT(file_path, 10);\n\nCREATE INDEX idx_file_path_prefix ON filesystem_data.$tablename (file_path_prefix);

@@ -1,1 +1,0 @@
-[FormatFilter]\npublic ActionResult Details(string id)\n{\n    var userModel = GetUserModel(id);\n    return View(userModel);\n}

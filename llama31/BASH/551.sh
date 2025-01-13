@@ -1,1 +1,0 @@
-#!/bin/bash\n\n# Get the background dump destination\ndump_dest=$(sqlplus -s / as sysdba <<EOF\nSELECT value FROM v$parameter WHERE name = 'background_dump_dest';\nEOF\n)\n\n# Get the alert log file name\nalert_log_file=$(ls -t ${dump_dest}/*.log | head -1)\n\n# Tail the alert log file\ntail -f ${alert_log_file}

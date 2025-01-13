@@ -1,1 +1,0 @@
-screen -S <session_name> -X screen <command> <param1> <param2>

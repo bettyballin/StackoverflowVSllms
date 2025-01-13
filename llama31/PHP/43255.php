@@ -1,0 +1,1 @@
+$limit = 10;\n$offset = 0;\n\n$query = "SELECT * FROM your_table LIMIT $limit OFFSET $offset";\n$result = mysqli_query($your_db_connection, $query);

@@ -1,0 +1,1 @@
+ALTER TABLE forums\nADD CONSTRAINT fk_cat_id FOREIGN KEY (cat_id) REFERENCES categories (id);

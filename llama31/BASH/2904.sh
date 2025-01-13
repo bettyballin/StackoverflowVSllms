@@ -1,1 +1,0 @@
-lsof +f -- /mnt/mountpoint

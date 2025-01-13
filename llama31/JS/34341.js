@@ -1,0 +1,1 @@
+// In the iframe (external page)\nparent.postMessage({ url: window.location.href }, '*');\n\n// In the parent page\nwindow.addEventListener('message', (event) => {\n  if (event.data.url) {\n    console.log(event.data.url);\n  }\n});

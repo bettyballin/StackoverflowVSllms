@@ -1,1 +1,0 @@
-BindingSource bs = new BindingSource();\nbs.DataSource = yourDataTable;\ndataGridView1.DataSource = bs;\n\n// When the DataTable changes...\nbs.ResetBindings(false);

@@ -1,0 +1,1 @@
+var count = 0;\nfor (var i = 32; i <= 287; i++) {\n  if (i.toString().indexOf('6') !== -1) {\n    count++;\n  }\n}\nconsole.log(count);

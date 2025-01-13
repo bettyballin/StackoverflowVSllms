@@ -1,0 +1,1 @@
+$validator = new Zend_Validate_Callback(function($value, $context) use ($authAdapter) {\n    $result = $authAdapter->authenticate($value, $context['password']);\n    if (!$result->isValid()) {\n        return false;\n    }\n    return true;\n});\n\n$validator->setMessage('Username or password do not exist');\n\n$form->getElement('userName')->addValidator($validator);

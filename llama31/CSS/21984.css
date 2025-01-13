@@ -1,1 +1,0 @@
-#left {\n  width: 250px; /* increase width of left column */\n  margin-left: -100%; /* keep the negative margin to pull it left */\n}\n\n#middle {\n  margin-left: 250px; /* adjust margin-left to match the new width of left column */\n}

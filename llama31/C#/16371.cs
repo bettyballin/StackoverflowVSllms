@@ -1,1 +1,0 @@
-ProcessStartInfo psInfo = new ProcessStartInfo(@"MyApplication.exe");\npsInfo.RedirectStandardOutput = true;\npsInfo.RedirectStandardError = true;\npsInfo.UseShellExecute = false;\npsInfo.CreateNoWindow = true;\nProcess proc = Process.Start(psInfo);\n\n// Wait for the process to become idle\nproc.WaitForInputIdle();

@@ -1,0 +1,1 @@
+jQuery(function(){ \n  jQuery(".add_answer").on('click', function(){\n    // ...\n  });\n});

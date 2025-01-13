@@ -1,1 +1,0 @@
-public void UpdateDatabaseFromDataSet()\n{\n    adapter.AcceptChangesDuringUpdate = false;\n    adapter.Update(exampleDataSet);\n    adapter.AcceptChangesDuringUpdate = true;\n}

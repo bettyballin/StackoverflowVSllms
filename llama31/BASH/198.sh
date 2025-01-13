@@ -1,1 +1,0 @@
-#!/bin/ape\n\necho "HTTP/1.0 200 OK"\necho "Content-Type: text/html"\necho ""\necho "<html><body>Hello, World!</body></html>"

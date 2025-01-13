@@ -1,0 +1,1 @@
+var xhr = new XMLHttpRequest();\nxhr.responseType = "text";

@@ -1,0 +1,1 @@
+function setAttribute(element, attributeName, value) {\n  if (element.setAttribute) {\n    element.setAttribute(attributeName, value);\n  } else {\n    element[attributeName] = value;\n  }\n}

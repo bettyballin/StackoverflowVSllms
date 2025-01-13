@@ -1,0 +1,1 @@
+import dns.zone\n\nzone_file = 'path/to/your/zonefile'\nzone = dns.zone.from_file(zone_file)\n\nfor name, ttl, rdata in zone.iterate_rdatas('A'):\n    print(name, ttl, rdata)

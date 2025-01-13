@@ -1,1 +1,0 @@
-#ifdef BUILD_STATIC\n  #define MYLIBRARY_EXPORT\n#else\n  #ifdef _WIN32\n    #define MYLIBRARY_EXPORT __declspec(dllexport)\n  #else\n    #define MYLIBRARY_EXPORT __attribute__((visibility("default")))\n  #endif\n#endif

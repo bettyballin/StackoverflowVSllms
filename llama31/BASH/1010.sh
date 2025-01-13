@@ -1,1 +1,0 @@
-unzip -p oc4j.jar META-INF/MANIFEST.MF

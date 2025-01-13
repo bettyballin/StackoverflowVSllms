@@ -1,0 +1,1 @@
+class MySuperglobal {\n    public static $my_var = 'Hello, World!';\n}\n\n// Access the static property\necho MySuperglobal::$my_var; // Outputs: Hello, World!

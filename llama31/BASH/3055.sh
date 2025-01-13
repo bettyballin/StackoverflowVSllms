@@ -1,1 +1,0 @@
-icacls "C:\ProgramData\Microsoft\Crypto\RSA\MachineKeys" /grant:r "NETWORK SERVICE":R

@@ -1,1 +1,0 @@
-tcpkill -i <interface> -p <src_port> -r <dst_ip>:<dst_port>

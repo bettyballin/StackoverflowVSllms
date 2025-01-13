@@ -1,1 +1,0 @@
-bmpOut.Save(HttpContext.Current.Server.MapPath(strOutputFilePath) + strFileName)

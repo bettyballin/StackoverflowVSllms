@@ -1,1 +1,0 @@
-ilspycmd -t --project=your_project_name --output=your_output_folder your_exe_file.exe

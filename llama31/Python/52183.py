@@ -1,0 +1,1 @@
+array_A = [13, 4, 59, 38, 9, 69, 72, 93, 1, 3, 5]\narray_B = [29, 72, 21, 3, 6]\n\nset_A = set(array_A)\nset_B = set(array_B)\n\ncommon = set_A & set_B\nprint(len(common))  # Output: 2

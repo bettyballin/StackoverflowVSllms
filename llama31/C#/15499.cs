@@ -1,1 +1,0 @@
-XmlDocument doc = new XmlDocument();\ndoc.InnerXml = @"<Element1 attr1=""value1"" xmlns=""http://mynamespace.com/"" attr2=""value2""/>";\n\n// Remove the xmlns attribute\ndoc.DocumentElement.RemoveAttribute("xmlns", "http://www.w3.org/2000/xmlns/");\n\nConsole.WriteLine(doc.OuterXml);

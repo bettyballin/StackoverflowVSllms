@@ -1,0 +1,1 @@
+if ($_POST['js_enabled'] == '0') {\n    // JavaScript is likely disabled\n} else {\n    // JavaScript is likely enabled\n}

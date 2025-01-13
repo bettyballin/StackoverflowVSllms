@@ -1,0 +1,1 @@
+$result = mysql_query("SELECT my_timestamp FROM some_table WHERE id=42", $DB_CONN);\n$row = mysql_fetch_array($result);\n$formatted_date = date("F j, Y", strtotime($row['my_timestamp']));\necho $formatted_date;

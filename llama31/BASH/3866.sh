@@ -1,1 +1,0 @@
-xxhash -H 1 large_file

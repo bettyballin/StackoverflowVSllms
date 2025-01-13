@@ -1,1 +1,0 @@
-select {\n  max-width: 200px;\n  overflow: hidden;\n  text-overflow: ellipsis;\n}

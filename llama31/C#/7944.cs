@@ -1,1 +1,0 @@
-DataTable table = dataSet.Tables[0];\nDataRow row = table.Rows.Find(ID);\n\nif (row != null)\n{\n    row[ColumnName] = NewValue;\n    dataAdapter.Update(dataSet);\n}

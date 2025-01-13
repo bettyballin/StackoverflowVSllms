@@ -1,1 +1,0 @@
-perl -MList::Util=shuffle -e 'print shuffle <>' input.txt > output.txt

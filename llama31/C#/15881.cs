@@ -1,1 +1,0 @@
-private void myButton_Click(object sender, EventArgs e)\n{\n    ((ToolStripButton)bindingNavigator1.Items["bindingNavigatorAddNewItem"]).PerformClick();\n}

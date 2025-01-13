@@ -1,0 +1,1 @@
+function clean_url_var($var) {\n  $var = preg_replace('/[^a-zA-Z0-9_-]/', '', $var);\n  return $var;\n}

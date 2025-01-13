@@ -1,1 +1,0 @@
-using (var client = new WcfClientWrapper<SomeWCFServiceClient>(new SomeWCFServiceClient()))\n{\n    // Do something with the client\n}

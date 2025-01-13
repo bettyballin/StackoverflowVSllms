@@ -1,0 +1,1 @@
+<plugin>\n  ...\n  <javadoc>\n    <doczip>path/to/javadoc/zip/file</doczip>\n    <package>org.eclipse.ui</package>\n    <package>org.eclipse.jface</package>\n  </javadoc>\n  ...\n</plugin>

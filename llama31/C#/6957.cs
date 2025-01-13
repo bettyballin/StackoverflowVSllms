@@ -1,1 +1,0 @@
-using OSGeo.GDAL;\n\n// Load the ENC file\nDataset dataset = Gdal.Open("path_to_enc_file.000", Access.GA_ReadOnly);

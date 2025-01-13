@@ -1,0 +1,1 @@
+SELECT COLLATION_NAME FROM sys.databases WHERE name = 'YourDatabaseName';

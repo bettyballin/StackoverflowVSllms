@@ -1,0 +1,1 @@
+def sorensen_dice_coefficient(s1, s2):\n    intersection = set(s1) & set(s2)\n    union = set(s1) | set(s2)\n    return 2 * len(intersection) / (len(s1) + len(s2))

@@ -1,1 +1,0 @@
-using System.Net.Security;\n\n// Disable certificate validation\nServicePointManager.ServerCertificateValidationCallback = (sender, cert, chain, sslPolicyErrors) => true;

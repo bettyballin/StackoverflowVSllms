@@ -1,0 +1,1 @@
+$orderDate = time();\nprint("Order Date: ".date("M/d/Y h:i A", $orderDate)."<br />");

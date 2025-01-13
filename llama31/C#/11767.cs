@@ -1,1 +1,0 @@
-dataGridView1.SortCompare += new DataGridViewSortCompareEventHandler(dataGridView1_SortCompare);

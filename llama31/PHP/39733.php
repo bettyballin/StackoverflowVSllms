@@ -1,0 +1,1 @@
+// views/layout.php\n\n<?php $this->load->view('include/head'); ?>\n<?php $this->load->view('include/top'); ?>\n<?php echo $featured; ?>\n<?php echo $eventslist; ?>\n<?php echo $dynamicstuff; ?>\n<?php $this->load->view('footer'); ?>

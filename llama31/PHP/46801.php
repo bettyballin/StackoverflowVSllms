@@ -1,0 +1,1 @@
+$var = "1,3,5,7,9";  // Note the commas instead of spaces\n$query = "UPDATE tablename SET seen_before = 1 WHERE id IN ($var)";

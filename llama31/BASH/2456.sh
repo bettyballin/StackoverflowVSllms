@@ -1,1 +1,0 @@
-clang-format -style=gedit your_code.c

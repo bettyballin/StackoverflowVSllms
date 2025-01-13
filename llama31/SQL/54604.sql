@@ -1,0 +1,1 @@
+ALTER TABLE your_table ADD UNIQUE (column_name);

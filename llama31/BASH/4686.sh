@@ -1,1 +1,0 @@
-# Run VisualVM from the command line\nvisualvm --jdkhome /path/to/jdk

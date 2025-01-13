@@ -1,0 +1,1 @@
+Me.myPersonRecord.MyPerson.Name = "Some Name"

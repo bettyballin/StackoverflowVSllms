@@ -1,0 +1,1 @@
+$alphabeticChars = range('A', 'Z');\nforeach ($alphabeticChars as $char) {\n    echo $char . "\n";\n}

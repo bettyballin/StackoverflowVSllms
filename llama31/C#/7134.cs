@@ -1,1 +1,0 @@
-DataLoadOptions options = new DataLoadOptions();\noptions.AssociateWith<Person>(p => p.Notes, db.PersonNotesGet(p.ID));\n\ndb.LoadOptions = options;\n\nPerson myPerson = db.PersonGet(pnID).Single();

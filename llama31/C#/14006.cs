@@ -1,1 +1,0 @@
-query = (from p in query\njoin n in notes on p.PROJECT_ID equals n.PROJECT_ID\nwhere n.NOTES.Contains(cwForm.search1Form)\nselect p).Distinct();

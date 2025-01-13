@@ -1,1 +1,0 @@
-// To install the service, use the InstallUtil.exe tool:\n// InstallUtil.exe MyService.exe\n\n// To uninstall the service, use the following command:\n// InstallUtil.exe /u MyService.exe

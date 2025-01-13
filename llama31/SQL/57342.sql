@@ -1,0 +1,1 @@
+SELECT EmpID\nFROM YourTable\nWHERE DeptID IN (@DeptIDs)\nGROUP BY EmpID\nHAVING COUNT(DISTINCT DeptID) = @DeptIDCount

@@ -1,0 +1,1 @@
+$os = php_uname('s');\n$version = php_uname('r');\n$architecture = php_uname('m');\n\nif ($os === 'Windows NT') {\n    // Windows-specific code\n} elseif ($os === 'Darwin') {\n    // macOS-specific code\n} elseif ($os === 'Linux') {\n    // Linux-specific code\n} else {\n    // Other OS-specific code\n}

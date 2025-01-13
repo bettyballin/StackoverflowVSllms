@@ -1,0 +1,1 @@
+SELECT * FROM table JOIN otherTable ON table.ID = otherTable.FK

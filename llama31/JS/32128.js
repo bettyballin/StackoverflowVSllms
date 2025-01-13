@@ -1,0 +1,1 @@
+var isHuman = false;\ndocument.addEventListener('mousemove', function() {\n  isHuman = true;\n});

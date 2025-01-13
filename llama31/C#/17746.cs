@@ -1,1 +1,0 @@
-using (var waitHandle = new EventWaitHandle(false, EventResetMode.AutoReset))\n{\n    // use the wait handle\n}

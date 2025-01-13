@@ -1,0 +1,1 @@
+# Example Logstash configuration for IIS logs\ninput {\n  file {\n    path => ["C:/inetpub/logs/LogFiles/W3SVC1/*.log"]\n    type => "iis"\n  }\n}\n\nfilter {\n  grok {\n    match => { "message" => "%{IISLOG}" }\n  }\n}\n\noutput {\n  elasticsearch {\n    hosts => ["localhost:9200"]\n    index => "iis_logs"\n  }\n}

@@ -1,0 +1,1 @@
+$subject = mb_encode_mimeheader($subject, 'UTF-8', 'B');

@@ -1,0 +1,1 @@
+var xhr = new XMLHttpRequest();\nxhr.open('DELETE', '/user/someone', true);\nxhr.send();

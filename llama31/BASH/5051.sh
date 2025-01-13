@@ -1,1 +1,0 @@
-crontab -e\n# Add the following line:\n0 * * * * svnsync sync /path/to/mirror/repo

@@ -1,0 +1,1 @@
+setInterval(function() {\n    $.ajax({\n        type: 'GET',\n        url: 'update_table.php',\n        dataType: 'json',\n        success: function(data) {\n            $('#your_table_container').html(data.table_data);\n        }\n    });\n}, 2000); // 2000 milliseconds = 2 seconds

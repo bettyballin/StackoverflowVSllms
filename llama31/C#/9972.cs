@@ -1,1 +1,0 @@
-protected void Page_Init(object sender, EventArgs e)\n{\n    ScriptManager.GetCurrent(this).RegisterAsyncPostBackControl(DropDown1);\n}

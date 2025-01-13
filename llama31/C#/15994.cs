@@ -1,1 +1,0 @@
-[Authorize]\npublic ActionResult Delete(int commentId)\n{\n    var comment = _dbContext.Comments.Find(commentId);\n    if (comment == null || comment.AuthorId != User.Identity.GetUserId())\n    {\n        return HttpNotFound();\n    }\n    // Delete comment logic here\n}

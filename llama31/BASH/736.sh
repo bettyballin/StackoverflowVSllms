@@ -1,1 +1,0 @@
-puttygen server_key.pub -O private -o server_key.ppk

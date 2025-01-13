@@ -1,0 +1,1 @@
+const scrollDiv = document.getElementById('scroll');\nscrollDiv.scrollTop = scrollDiv.scrollHeight;

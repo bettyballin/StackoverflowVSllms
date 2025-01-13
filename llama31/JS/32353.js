@@ -1,0 +1,1 @@
+document.getElementById('help-link').addEventListener('click', function() {\n  FB.ui({\n    // ...\n  });\n});

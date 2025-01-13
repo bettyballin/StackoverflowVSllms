@@ -1,0 +1,1 @@
+$("#mydiv").on("focus", "#filterdiv input", function(){\n  alert("Hello");\n});

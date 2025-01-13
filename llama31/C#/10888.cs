@@ -1,1 +1,0 @@
-using Microsoft.Web.Administration;\n\npublic class IISVersionDetector\n{\n    public static string GetIISVersion()\n    {\n        using (ServerManager serverManager = new ServerManager())\n        {\n            return serverManager.ApplicationPools.Section.Grouping.ToString();\n        }\n    }\n}

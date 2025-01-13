@@ -1,0 +1,1 @@
+document.querySelectorAll('.my_link').forEach((element) => {\n  element.addEventListener('click', () => {\n    window.location.href = 'https://www.example.com'; // replace with your desired URL\n  });\n});

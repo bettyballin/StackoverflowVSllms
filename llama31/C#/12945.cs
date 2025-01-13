@@ -1,1 +1,0 @@
-using System.IO;\n\n[HttpPost]\npublic ActionResult UploadFile(HttpPostedFileBase file)\n{\n    string sharedFolder = @"C:\SharedFiles";\n    string filePath = Path.Combine(sharedFolder, file.FileName);\n    file.SaveAs(filePath);\n    // Save the file path to DB through DAL\n    return RedirectToAction("Index");\n}

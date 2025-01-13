@@ -1,0 +1,1 @@
+SELECT (\n  SELECT COUNT(*) + 1\n  FROM people\n  WHERE name < (SELECT name FROM people WHERE id = 1)\n) AS rank

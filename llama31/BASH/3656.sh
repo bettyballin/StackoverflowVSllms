@@ -1,1 +1,0 @@
-./svn_update.sh your_subdirectory

@@ -1,0 +1,1 @@
+var getPlansUrl = '<%= Url.Action("GetPlansByYear", "Report", new { rid = "{0}", year = "{1}" }) %>';\n\n$.ajax({\n    type: "GET",\n    contentType: "application/json; charset=utf-8",\n    url: getPlansUrl.replace("{0}", rid).replace("{1}", year),\n    data: "{}",\n    dataType: "json",\n    success: function(data) {\n        // your success function here\n    }\n});

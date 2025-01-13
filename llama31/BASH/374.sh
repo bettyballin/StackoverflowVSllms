@@ -1,1 +1,0 @@
-curl -u <username>:<password> -T <local_file> sftp://<hostname>/<remote_file>

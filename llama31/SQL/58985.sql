@@ -1,0 +1,1 @@
+DBCC LOG ('YourDatabaseName', 2)

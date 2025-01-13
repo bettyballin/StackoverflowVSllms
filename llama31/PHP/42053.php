@@ -1,0 +1,1 @@
+function format_object($obj) {\n    foreach ($obj as $prop => $value) {\n        if (is_string($value)) {\n            $obj->$prop = format_string($value);\n        }\n    }\n    return $obj;\n}

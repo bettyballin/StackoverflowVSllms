@@ -1,0 +1,1 @@
+<PropertyGroup Condition="'$(Configuration)' == 'Disabled'">\n  <DefineConstants>DISABLE_FEATURE</DefineConstants>\n</PropertyGroup>\n\n<PropertyGroup Condition="'$(Configuration)' == 'Enabled'">\n  <DefineConstants></DefineConstants>\n</PropertyGroup>

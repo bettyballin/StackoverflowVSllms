@@ -1,0 +1,1 @@
+# myapp/apps.py\nfrom django.apps import AppConfig\nfrom .trie import Trie\n\nclass MyAppConfig(AppConfig):\n    name = 'myapp'\n    def ready(self):\n        # Initialize the trie\n        trie = Trie()\n        # Populate the trie from the database\n        tags = Tag.objects.all()\n        for tag in tags:\n            trie.insert(tag.name)

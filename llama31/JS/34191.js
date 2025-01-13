@@ -1,0 +1,1 @@
+const screenWidth = window.screen.width;\nconst screenHeight = window.screen.height;\nif (screenWidth < 768 || screenHeight < 1024) {\n  // Mobile device detected ( rough estimate )\n} else {\n  // PC detected\n}

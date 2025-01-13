@@ -1,0 +1,1 @@
+$json = '{"name": "John", "age": 30}';\n$data = json_decode($json, true);\nprint_r($data); // Output: Array ( [name] => John [age] => 30 )

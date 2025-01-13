@@ -1,1 +1,0 @@
-tfpt fixencoding /collection:<your_collection> /recursive

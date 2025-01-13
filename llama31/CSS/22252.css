@@ -1,1 +1,0 @@
-#content {\n  background-image: url('border-left.png'), url('border-right.png');\n  background-position: left top, right top;\n  background-repeat: repeat-y, repeat-y;\n  padding: 0 20px; /* adjust padding to match the width of your border images */\n}

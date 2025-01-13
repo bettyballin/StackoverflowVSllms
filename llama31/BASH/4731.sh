@@ -1,1 +1,0 @@
-sed '/regexp/{2{x;p;x;};}' file.txt

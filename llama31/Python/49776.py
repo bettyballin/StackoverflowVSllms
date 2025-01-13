@@ -1,0 +1,1 @@
+with open('file.txt', 'r', encoding='utf-8') as f:\n    ascii_text = f.read().encode('ascii', errors='ignore')

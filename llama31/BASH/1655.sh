@@ -1,1 +1,0 @@
-wsdl2html -wsdl http://example.com/service?wsdl -out service.html

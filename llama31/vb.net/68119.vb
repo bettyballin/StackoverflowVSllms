@@ -1,0 +1,1 @@
+Dim paramValue As String\nparamValue = Range("ParamValue").Value\n\nDim qry As String\nqry = "PARAMETERS ParamValue TEXT; " & _\n      "SELECT * FROM dbo.MyDataTable WHERE Col1 = ParamValue"\n\n' Use the qry string to execute the query

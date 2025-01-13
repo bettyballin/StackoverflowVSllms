@@ -1,1 +1,0 @@
-public static IEnumerable<T> Distinct<T>(IEnumerable<T> source)\n{\n    Dictionary<T, object> uniqueItems = new Dictionary<T, object>();\n    foreach (T item in source)\n    {\n        if (!uniqueItems.ContainsKey(item))\n        {\n            uniqueItems.Add(item, null);\n            yield return item;\n        }\n    }\n}

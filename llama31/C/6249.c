@@ -1,1 +1,0 @@
-// Example in C\ntypedef struct ClassDefNode {\n    char *name;\n    struct ClassDefNode *parent; // NULL if no parent\n    List *members; // list of MemberNode*\n} ClassDefNode;

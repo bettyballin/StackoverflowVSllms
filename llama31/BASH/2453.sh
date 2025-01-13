@@ -1,1 +1,0 @@
-readlink -f /proc/1234/exe

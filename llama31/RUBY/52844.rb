@@ -1,0 +1,1 @@
+before_filter :check_ajax_request\n\ndef check_ajax_request\n  unless request.xhr?\n    redirect_to some_non_ajax_url\n  end\nend

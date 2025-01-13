@@ -1,1 +1,0 @@
-using System.Web.Security;\n\n// In your Web.config file\n<authentication mode="Windows" />\n<authorization>\n    <deny users="?"/> // Deny anonymous users\n</authorization>\n\n// In your application code\nWindowsIdentity identity = WindowsIdentity.GetCurrent();\nWindowsPrincipal principal = new WindowsPrincipal(identity);

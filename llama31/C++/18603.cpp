@@ -1,1 +1,0 @@
-typedef std::basic_string<char, std::char_traits<char>, SecureAllocator<char>> SecureString;

@@ -1,0 +1,1 @@
+import subprocess\n\ncmd = ["mysqldiff", "--server1=user1:password1@host1:port1/db1", \n       "--server2=user2:password2@host2:port2/db2", "--difftype=sql"]\noutput = subprocess.check_output(cmd)\nprint(output.decode())

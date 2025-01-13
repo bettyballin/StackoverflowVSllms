@@ -1,1 +1,0 @@
-[ImportMany]\nprivate IEnumerable<INodeTypePlugin> nodeTypePlugins;\n\n[ImportMany]\nprivate IEnumerable<IContextActionPlugin> contextActionPlugins;

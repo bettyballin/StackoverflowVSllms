@@ -1,1 +1,0 @@
-phplint -f example.php

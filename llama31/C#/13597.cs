@@ -1,1 +1,0 @@
-IQueryable<Event> test3 = this.GetSortedEvents().Where(e => RiyadhTimeFromUtcExpression().Compile()(e.FinishDateTime).Date >= DateTime.UtcNow.RiyadhTimeFromUtc().Date);

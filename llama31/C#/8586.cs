@@ -1,1 +1,0 @@
-using (var writer = new StreamWriter(new BufferedStream(new FileStream("output.txt", FileMode.Create, FileAccess.Write), 1024 * 1024)))\n{\n    writer.Write(text);\n}

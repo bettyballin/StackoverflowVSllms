@@ -1,0 +1,1 @@
+ALTER TABLE your_table_name CHANGE your_text_field_name your_text_field_name VARCHAR(255) NOT NULL;

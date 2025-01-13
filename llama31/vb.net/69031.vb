@@ -1,0 +1,1 @@
+Dim myControl As New MyUserControl()\nMe.Controls.Add(myControl)\nmyControl.Location = New Point(100, 100) ' set the location\nmyControl.Size = New Size(200, 200) ' set the size

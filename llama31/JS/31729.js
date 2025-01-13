@@ -1,0 +1,1 @@
+// Get the table and the row to clone\nconst table = document.getElementById('your-table-id');\nconst rowToClone = table.rows[0]; // assuming you want to clone the first row\n\n// Clone the row\nconst clonedRow = rowToClone.cloneNode(true);\n\n// Append the cloned row to the table\ntable.tBodies[0].appendChild(clonedRow);

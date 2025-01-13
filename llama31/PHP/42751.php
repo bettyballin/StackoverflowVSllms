@@ -1,0 +1,1 @@
+function getRequestVar($var, $default = '') {\n    return isset($_REQUEST[$var]) ? $_REQUEST[$var] : $default;\n}\n\n$my_id = getRequestVar('my_id');\n$another_var = getRequestVar('another_var', 42);

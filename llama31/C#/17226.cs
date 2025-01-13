@@ -1,1 +1,0 @@
-HttpContext.Current.Response.Status = "301 Moved Permanently";\nHttpContext.Current.Response.AddHeader("Location", "new-page.aspx");

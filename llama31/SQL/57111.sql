@@ -1,0 +1,1 @@
+WITH CountCTE AS (\n    SELECT \n        ID, \n        COUNT(*) as Count\n    FROM \n        YourTable\n    GROUP BY \n        ID\n)\nSELECT \n    t1.ID, \n    t1.Color, \n    t1.Name, \n    cte.Count\nFROM \n    YourTable t1\nJOIN \n    CountCTE cte\nON \n    t1.ID = cte.ID\nORDER BY \n    cte.Count DESC;

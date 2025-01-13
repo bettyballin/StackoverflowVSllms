@@ -1,1 +1,0 @@
-string filename = "%programfiles%\\directory\\tool.exe";\nstring expandedFilename = Environment.ExpandEnvironmentVariables(filename);\nSystem.Diagnostics.Process.Start(expandedFilename);

@@ -1,0 +1,1 @@
+import os\nimport shutil\n\ndef copy_files(file_dict, source_dir):\n    for dir, files in file_dict.items():\n        dir_path = os.path.join(source_dir, dir)\n        if not os.path.exists(dir_path):\n            os.makedirs(dir_path)\n        for file in files:\n            file_path = os.path.join(source_dir, file)\n            shutil.copy(file_path, dir_path)

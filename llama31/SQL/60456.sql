@@ -1,0 +1,1 @@
+DECLARE @OLD_NAV_VALUE AS INT\nDECLARE @FINAL AS INT\nDECLARE @sql nvarchar(max)\n\nSET @sql = N'SELECT @OLD_NAV_VALUE = [' + @DYNAMIC_COL_NAME + '] from TBL_BA where DATE = @id_Date'\n\nEXEC sp_executesql @sql, N'@OLD_NAV_VALUE INT OUTPUT, @id_Date DATE', \n                   @OLD_NAV_VALUE OUTPUT, @id_Date = @id_Date\n\nSET @FINAL =  @OLD_NAV_VALUE * 50

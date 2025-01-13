@@ -1,1 +1,0 @@
-HRESULT hr = GetActiveObject(\n    CLSID_MyObject,  // CLSID of your COM object\n    NULL,            // Reserved\n    &pMyObject       // Pointer to your object\n);\n\nif (SUCCEEDED(hr)) {\n    // Use pMyObject\n    pMyObject->Release();\n}

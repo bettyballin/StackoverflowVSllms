@@ -1,1 +1,0 @@
-struct Bar {\n   void method ( Foo<int,int> const& stuff = Foo<int,int>{} );\n};

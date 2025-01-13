@@ -1,0 +1,1 @@
+CREATE TABLE bins_videos (\n    id INT AUTO_INCREMENT,\n    bin_id INT,\n    video_id INT,\n    sort_order INT,\n    PRIMARY KEY (id)\n);

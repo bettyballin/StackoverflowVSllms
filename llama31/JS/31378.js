@@ -1,0 +1,1 @@
+function stripBadChars(str) {\n  return str.replace(/[\x00-\x1F\x80-\x9F]/g, '');\n}\n\n// usage:\nconst originalString = 'Hello\x00World\x80!';\nconst cleanedString = stripBadChars(originalString);\nconsole.log(cleanedString); // outputs: "HelloWorld!"

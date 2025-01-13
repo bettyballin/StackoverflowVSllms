@@ -1,0 +1,1 @@
+$x = null;\nvar_dump(isset($x)); // bool(false)\nvar_dump(empty($x)); // bool(true)\n\n$y;\nvar_dump(isset($y)); // bool(false)\nvar_dump(empty($y)); // bool(true)

@@ -1,0 +1,1 @@
+CREATE TABLE patch_history (\n    id SERIAL PRIMARY KEY,\n    patch_name VARCHAR(255) NOT NULL,\n    applied_at TIMESTAMP NOT NULL DEFAULT CURRENT_TIMESTAMP,\n    version VARCHAR(50) NOT NULL,\n    checksum VARCHAR(64) NOT NULL\n);

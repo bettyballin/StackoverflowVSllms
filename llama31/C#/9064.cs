@@ -1,1 +1,0 @@
-// Example ODP.NET connection string for an 11g client connecting to a 10g server\nstring connectionString = "Data Source=(DESCRIPTION=(ADDRESS=(PROTOCOL=TCP)(HOST=your_host)(PORT=your_port))(CONNECT_DATA=(SERVICE_NAME=your_service_name)));User ID=your_username;Password=your_password;";

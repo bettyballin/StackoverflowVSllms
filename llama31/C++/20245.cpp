@@ -1,1 +1,0 @@
-#include <stdexcept>\n\nvoid myFunction(int arg) {\n    if (arg < 0) {\n        throw std::invalid_argument("Argument must be non-negative");\n    }\n    // ...\n}

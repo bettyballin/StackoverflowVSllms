@@ -1,0 +1,1 @@
+CREATE OR REPLACE FUNCTION mypolicy_function()\nRETURNS BOOLEAN AS $$\nBEGIN\n    RETURN current_user = 'myuser' AND current_database() = 'mydb';\nEND;\n$$ LANGUAGE plpgsql;\n\nCREATE POLICY mypolicy ON mytable FOR SELECT\nTO PUBLIC\nUSING (mypolicy_function());

@@ -1,0 +1,1 @@
+CREATE INDEX idx_ProjectType_ProjectTypeName \nON ProjectType (ProjectTypeName);

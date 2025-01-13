@@ -1,0 +1,1 @@
+SELECT \n    cr.RulingId, \n    cr.ReferenceType\nFROM \n    CrossReference cr\nWHERE \n    cr.CardId = @CardId;

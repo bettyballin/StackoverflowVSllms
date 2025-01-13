@@ -1,0 +1,1 @@
+const oauth = new OAuth({\n  consumerKey: 'YOUR_CONSUMER_KEY',\n  consumerSecret: 'YOUR_CONSUMER_SECRET',\n  callbackURL: 'YOUR_CALLBACK_URL'\n});\n\noauth.requestToken((err, token, tokenSecret) => {\n  if (err) {\n    // handle error\n  } else {\n    // store token and tokenSecret securely\n    // ...\n  }\n});

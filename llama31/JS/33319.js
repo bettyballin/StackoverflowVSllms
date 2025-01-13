@@ -1,0 +1,1 @@
+// Add this script to your HTML page to enable error logging\nwindow.onerror = function(message, url, lineNumber) {\n  console.error("Error occurred:", message, url, lineNumber);\n};

@@ -1,1 +1,0 @@
-case WM_QUERYENDSESSION:\n    DebugBreak();\n    // Your code here\n    break;

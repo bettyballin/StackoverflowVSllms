@@ -1,0 +1,1 @@
+$nb = "Hello\r\n\r\nMy\r\n\r\n\r\n\r\n\r\n\r\nName is\r\nShadow";\n$array = preg_split("/\r\n{2,}/", $nb);\nprint_r($array);

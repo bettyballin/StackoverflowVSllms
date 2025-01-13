@@ -1,0 +1,1 @@
+<?php\n// Start the session only once\nif (!isset($_SESSION)) {\n    session_start();\n}\n\n// Set the session variable\n$_SESSION['site_user_country'] = 'USA';\n?>

@@ -1,0 +1,1 @@
+$today = new DateTime();\n$previousWeek = clone $today;\n$previousWeek->modify('-7 days');\n$nextWeek = clone $today;\n$nextWeek->modify('+7 days');

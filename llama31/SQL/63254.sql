@@ -1,0 +1,1 @@
+CREATE TABLE measured_value (\n    id SERIAL PRIMARY KEY,\n    measurement_type_id INTEGER NOT NULL,\n    measurement_unit_id INTEGER NOT NULL,\n    value NUMERIC NOT NULL,\n    FOREIGN KEY (measurement_type_id) REFERENCES measurement_type (id),\n    FOREIGN KEY (measurement_unit_id) REFERENCES measurement_unit (id)\n);

@@ -1,0 +1,1 @@
+Dim bloops As New List(Of Bloop) ' populate with data\n\nDim razzies = bloops.Select(Function(b) New Razzie With {\n    .FirstName = b.FirstName,\n    .LastName = b.LastName\n}).ToList()

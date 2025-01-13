@@ -1,0 +1,1 @@
+SELECT COUNT(*) \nFROM sys.foreign_keys \nWHERE parent_object_id = OBJECT_ID('YourTableName') \nAND name = 'YourForeignKeyName';

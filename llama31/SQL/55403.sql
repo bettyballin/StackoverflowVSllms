@@ -1,0 +1,1 @@
+SELECT [Column Name]\nFROM [Sheet Name]$\nWHERE RowNum = [Row Index];

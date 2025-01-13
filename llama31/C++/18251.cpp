@@ -1,1 +1,0 @@
-items.erase(i++);  // i++ is evaluated first, then erase is called

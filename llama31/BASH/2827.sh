@@ -1,1 +1,0 @@
-svn copy ^/trunk ^/branches/codeplex-sync -m "Create branch for CodePlex sync"

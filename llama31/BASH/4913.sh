@@ -1,1 +1,0 @@
-# Initialize a new Git repository\ngit init\n\n# Add all files in the current directory to the repository\ngit add .\n\n# Commit changes with a meaningful message\ngit commit -m "Initial commit"\n\n# Create a new branch for feature development\ngit branch feature/new-feature\n\n# Switch to the new branch\ngit checkout feature/new-feature

@@ -1,1 +1,0 @@
-using System.ServiceModel;\n\nnamespace LoginService\n{\n    [ServiceContract]\n    public interface ILoginService\n    {\n        [OperationContract]\n        string Login(string username, string password);\n    }\n}

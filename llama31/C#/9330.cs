@@ -1,1 +1,0 @@
-public ActionResult Friends()\n{\n    if (Request.HttpMethod == "POST")\n    {\n        // do some stuff for POST\n    }\n    else\n    {\n        // do some stuff for GET\n    }\n    return View();\n}

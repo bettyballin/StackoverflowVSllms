@@ -1,0 +1,1 @@
+<XmlRoot(Namespace:="http://www.w3.org/1999/xml")>\nPublic Class cResponseMessage\n    ' ...\nEnd Class

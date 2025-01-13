@@ -1,0 +1,1 @@
+$stmt = $mysqli->prepare("UPDATE forum SET replys = replys - 1 WHERE fid = ?");\n$stmt->bind_param("i", $id);\n$stmt->execute();

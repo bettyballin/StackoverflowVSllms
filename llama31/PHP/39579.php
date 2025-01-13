@@ -1,0 +1,1 @@
+<?php\n  $ipAddress = $_SERVER['REMOTE_ADDR'];\n  echo '<input type="text" id="ip-address" value="' . $ipAddress . '">';\n?>

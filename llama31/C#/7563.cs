@@ -1,1 +1,0 @@
-using FluentNHibernate.Mapping;\n\npublic class EmployeeMap : ClassMap<Employee>\n{\n    public EmployeeMap()\n    {\n        Table("LEGACY_EMPLOYEES_TABLE"); // Map to a specific table\n        Id(x => x.Id, "EMPLOYEE_ID").GeneratedBy.Identity(); // Custom ID mapping\n        Map(x => x.Name, "FULL_NAME"); // Map property to a specific column\n    }\n}

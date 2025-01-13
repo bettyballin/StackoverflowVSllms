@@ -1,0 +1,1 @@
+// using vanilla JavaScript\ndocument.getElementById('myfield').autocomplete = 'off';

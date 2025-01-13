@@ -1,0 +1,1 @@
+def vacuum(self):\n    self.conn.autocommit = True\n    query = "VACUUM FULL"\n    self.cursor.execute(query)\n    self.conn.autocommit = False

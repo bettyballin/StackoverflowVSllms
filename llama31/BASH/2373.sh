@@ -1,1 +1,0 @@
-gcc -o output.exe input.c -lstatic_lib_name -L/path/to/static_lib

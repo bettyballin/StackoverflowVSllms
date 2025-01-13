@@ -1,0 +1,1 @@
+Me.tabMenu = New MyClass

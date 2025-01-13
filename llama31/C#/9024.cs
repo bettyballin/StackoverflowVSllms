@@ -1,1 +1,0 @@
-using System.Net.Mime;\n\nbyte[] binaryData = File.ReadAllBytes("example.bin");\nstring encodedData = HttpEncode.UrlEncode(binaryData);

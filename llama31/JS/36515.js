@@ -1,0 +1,1 @@
+$(element).hide("slide", { direction: "left" }, duration, callback);

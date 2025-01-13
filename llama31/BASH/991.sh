@@ -1,1 +1,0 @@
-sudo svnadmin create /path/to/repo

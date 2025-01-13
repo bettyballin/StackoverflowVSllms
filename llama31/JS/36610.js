@@ -1,0 +1,1 @@
+fetch('https://example.com', {\n  method: 'POST',\n  mode: 'cors',\n  headers: {\n    'Content-Type': 'application/x-www-form-urlencoded'\n  },\n  body: 'key=value'\n})\n.then(response => {\n  if (response.ok) {\n    console.log('Request successful');\n  } else {\n    console.log('Request failed');\n  }\n})\n.catch(error => {\n  console.log('Error:', error);\n});

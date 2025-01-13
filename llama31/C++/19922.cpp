@@ -1,1 +1,0 @@
-#include <iostream>\n#include <cstring>\n\nint main() {\n    char buffer[10];\n    strcpy(buffer, "Hello, World!"); // overflow the buffer\n    return 0;\n}

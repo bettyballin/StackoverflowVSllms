@@ -1,0 +1,1 @@
+success: function(msg) {\n    console.log(msg); // Should print the JSON data\n}

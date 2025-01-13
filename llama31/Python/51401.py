@@ -1,0 +1,1 @@
+{'class': 'Foo', 'methods': [{'name': 'bar', 'params': ['self', 'hello']}, {'name': 'baz', 'params': ['self', 'world']}]}

@@ -1,1 +1,0 @@
-public class MyClass\n{\n    private readonly IMemoryCache _cache;\n\n    public MyClass(IMemoryCache cache)\n    {\n        _cache = cache;\n    }\n\n    public void MyMethod()\n    {\n        if (_cache.TryGetValue("MyObject", out MyObject myObject))\n        {\n            // use myObject\n        }\n    }\n}

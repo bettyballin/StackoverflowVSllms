@@ -1,0 +1,1 @@
+// Get all links on the page\nconst links = document.querySelectorAll('a');\n\n// Add an event listener to each link\nlinks.forEach((link) => {\n  link.addEventListener('click', (event) => {\n    // Your tracking code goes here\n    console.log('Link clicked:', event.target.href);\n  });\n});

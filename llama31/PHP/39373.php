@@ -1,0 +1,1 @@
+$result = mysql_query($query);\nif ($result !== false) {\n    // query was executed successfully\n    $data = mysql_fetch_array($result);\n} else {\n    // query failed\n    echo "Error: " . mysql_error();\n}

@@ -1,0 +1,1 @@
+$.ajax({\n  type: 'POST',\n  url: 'includes/verify.php',\n  data: JSON.stringify({invoiceId:invoiceIdval , email:emailval }),\n  contentType: 'application/json',\n  success: function(data) {\n    //stuff here.\n  }\n});

@@ -1,0 +1,1 @@
+INSERT INTO table2 (column1, column2, column3)\nSELECT column1, column2, column3\nFROM table1\nWHERE condition;

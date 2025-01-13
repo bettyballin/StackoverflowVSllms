@@ -1,0 +1,1 @@
+<CustomAction Id="ChangeProductCode" BinaryKey="CustomActions" DllEntry="ChangeProductCode" />

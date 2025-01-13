@@ -1,0 +1,1 @@
+add_five = lambda x: x + 5\nprint(add_five(10))  # Outputs: 15

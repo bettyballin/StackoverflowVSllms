@@ -1,1 +1,0 @@
-/* Example of using Modernizr to detect support for CSS gradients */\n.no-cssgradients .header {\n  background-image: url('gradient.png');\n}

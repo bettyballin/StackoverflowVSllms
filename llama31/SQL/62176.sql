@@ -1,0 +1,1 @@
+SELECT t1.id, COUNT(t2.id) as num_things\nFROM t1\nJOIN t2 ON t1.id = t2.id\nGROUP BY t1.id\nHAVING COUNT(t2.id) = 5;

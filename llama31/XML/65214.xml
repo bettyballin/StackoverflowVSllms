@@ -1,0 +1,1 @@
+<x3d>\n  <Scene>\n    <Transform rotation="0 1 0 1.57">\n      <Inline url="model.x3dv" />\n    </Transform>\n  </Scene>\n</x3d>

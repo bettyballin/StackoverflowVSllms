@@ -1,1 +1,0 @@
-.float-right {\n  float: right;\n}\n\n.header {\n  /* stuff we don't care about */\n}\n\n.header img.float-right {\n  display: inline;\n  margin: 0 0 0 0.5em;\n}

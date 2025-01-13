@@ -1,1 +1,0 @@
-// Store search criteria in ViewState\nViewState["SearchCriteria"] = new Dictionary<string, string>\n{\n    { "Parameter1", txtParameter1.Text },\n    { "Parameter2", txtParameter2.Text }\n};\n\n// Retrieve search criteria from ViewState\nvar searchCriteria = (Dictionary<string, string>)ViewState["SearchCriteria"];

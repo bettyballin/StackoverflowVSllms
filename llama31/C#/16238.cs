@@ -1,1 +1,0 @@
-[MethodImpl(MethodImplOptions.AggressiveOptimization)]\npublic static void MyMethod()\n{\n    // Method implementation\n}

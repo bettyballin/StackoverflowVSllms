@@ -1,0 +1,1 @@
+var frame = document.getElementById('mainFrame').contentWindow;\nvar contentDiv = frame.document.getElementById('content');

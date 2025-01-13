@@ -1,0 +1,1 @@
+CREATE TABLE mytable (\n  col VARCHAR(255) CONSTRAINT uppercase_col CHECK (col = UPPER(col))\n);

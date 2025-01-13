@@ -1,1 +1,0 @@
-string commandText = "dbo.Save";\n\nSqlParameter[] parameters = new[]\n{\n    CreateInputParameter("identity", item.Identity),\n    CreateInputParameter("name", item.Name),\n    CreateInputParameter("desc", item.Description),\n    CreateInputParameter("title", item.Title),\n    // Add more parameters as needed\n};\n\nExecuteStoredProcedure(commandText, parameters);

@@ -1,1 +1,0 @@
-logparser.exe -i:iisw3c -o:csv "SELECT TOP 10 cs-uri-stem, COUNT(*) AS Hits FROM <log_file> GROUP BY cs-uri-stem ORDER BY Hits DESC"

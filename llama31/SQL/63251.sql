@@ -1,0 +1,1 @@
+SELECT *\nFROM table1\nJOIN table2\nON REGEXP_SUBSTR(table1.friendly_email, '\b[A-Za-z0-9._%+-]+@[A-Za-z0-9.-]+\.[A-Z|a-z]{2,}\b') = table2.email;

@@ -1,1 +1,0 @@
-Scan(x =>\n{\n    x.Assembly("MVCDemo");\n    x.Assembly("MVCDemo.Infrastructure");\n    x.Assembly("MVCDemo.Services");\n\n    x.AddAllTypesOf(typeof (IRepository<>));\n});\n\nForRequestedType<IRepository<Employee>>().TheDefault.Is.OfConcreteType<EmployeeRepository>();\n\nvar tmp4 = ObjectFactory.GetInstance<IRepository<Employee>>();

@@ -1,0 +1,1 @@
+CREATE SCHEMA MyPackage AUTHORIZATION dbo;\nGO\n\nCREATE PROCEDURE MyPackage.MyProcedure\nAS\nBEGIN\n    -- procedure code here\nEND\nGO\n\nCREATE FUNCTION MyPackage.MyFunction\nRETURNS INT\nAS\nBEGIN\n    -- function code here\n    RETURN 1;\nEND\nGO

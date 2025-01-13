@@ -1,1 +1,0 @@
-etsh firewall set portopening protocol=TCP port=443 name=SSL mode=ENABLE

@@ -1,0 +1,1 @@
+myarray = [3, 1, 2, 4]\nitemlist = []\nfor item in myarray:\n    itemlist.append(item)\nprint(itemlist)  # Output: [3, 1, 2, 4]

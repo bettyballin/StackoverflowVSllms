@@ -1,0 +1,1 @@
+DECLARE @sql NVARCHAR(MAX)\nDECLARE @datePart VARCHAR(2)\nDECLARE @dateParameter INT\n\nSELECT @datePart = 'dd'\nSELECT @dateParameter = 28\n\nSET @sql = N'SELECT * FROM MyTable WHERE DATEDIFF(' + @datePart + ', MyTable.MyDate, GETDATE()) < @dateParameter'\n\nEXEC sp_executesql @sql, N'@dateParameter INT', @dateParameter = @dateParameter

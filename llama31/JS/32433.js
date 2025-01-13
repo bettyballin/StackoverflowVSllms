@@ -1,0 +1,1 @@
+function preventUnload(event) {\n    window.onbeforeunload = null;\n    return true;\n}\n\nvar gridView = document.getElementById('yourGridViewId');\nvar anchors = gridView.getElementsByTagName('a');\nfor (var i = 0; i < anchors.length; i++) {\n    if (anchors[i].className === 'yourPageLinkCssClass') {\n        anchors[i].attachEvent('onclick', preventUnload);\n    }\n}

@@ -1,0 +1,1 @@
+SELECT foo\nFROM bar\nWHERE foo BETWEEN 5 AND 10

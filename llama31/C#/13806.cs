@@ -1,1 +1,0 @@
-public ActionResult AddView(string AnnIDs, string gsa, string OpenedFrom)\n{\n    try\n    {\n        // ...\n        return Json(new { url = blobDoc.remoteURL });\n    }\n    // ...\n}

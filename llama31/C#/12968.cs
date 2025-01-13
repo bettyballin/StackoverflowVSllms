@@ -1,1 +1,0 @@
-public class EqualityComparer<T>\n{\n    public bool Equals(object x, object y)\n    {\n        if (x is T tx && y is T ty)\n        {\n            // Perform equality check using tx and ty\n        }\n        return false;\n    }\n}

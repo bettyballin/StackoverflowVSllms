@@ -1,0 +1,1 @@
+function isFormDirty(form) {\n  var originalData = $(form).serialize();\n  var currentData = $(form).serialize();\n  return originalData !== currentData;\n}

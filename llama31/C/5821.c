@@ -1,1 +1,0 @@
-int pickRandomUnusedCard(int used[52]) {\n    int count = 0;\n    int target = rand() % 52;\n    for (int i = 0; i < 52; i++) {\n        if (!used[i]) {\n            if (count == target) {\n                return i;\n            }\n            count++;\n        }\n    }\n    // If we reach this point, all cards are used\n    return -1;\n}

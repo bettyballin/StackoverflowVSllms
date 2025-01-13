@@ -1,1 +1,0 @@
-PictureNameTextEdit.Text = Path.GetFileName(OpenFileDialog.FileName);

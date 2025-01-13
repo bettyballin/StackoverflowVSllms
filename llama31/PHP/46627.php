@@ -1,0 +1,1 @@
+$rss_content = file_get_contents('/path/to/your/rss/feed.xml');

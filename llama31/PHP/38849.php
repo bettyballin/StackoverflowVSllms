@@ -1,0 +1,1 @@
+<html>\n  <body>\n    The content of the <?= htmlspecialchars($container) ?> element is displayed in your <?= htmlspecialchars($other_container) ?>\n  </body>\n</html>

@@ -1,1 +1,0 @@
-public static void AddSomething(string something)\n{\n    using (SqlConnection connection = new SqlConnection("..."))\n    {\n        connection.Open();\n        // ...\n    } // connection is automatically closed and returned to the pool here\n}

@@ -1,1 +1,0 @@
-using System.Configuration;\n\n// ...\nstring connectionString = ConfigurationManager.ConnectionStrings["YourConnectionString"].ConnectionString;

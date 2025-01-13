@@ -1,0 +1,1 @@
+use Delight\Auth\Auth;\n\n$auth = new Auth();\n$auth->login($username, $password);

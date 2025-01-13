@@ -1,1 +1,0 @@
-keytool -importcert -alias myCA -keystore cacerts -storepass changeit -file ca.crt

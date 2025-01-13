@@ -1,1 +1,0 @@
-# Install Nessus\nsudo apt-get install nessus\n\n# Run Nessus\nnessus -scan /path/to/your/app

@@ -1,0 +1,1 @@
+$html = '<div>This is some <b>text';\n\n$doc = new DOMDocument();\n$doc->loadHTML($html);\necho $doc->saveHTML();

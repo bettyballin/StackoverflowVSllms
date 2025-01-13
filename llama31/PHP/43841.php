@@ -1,0 +1,1 @@
+function all_images(&$post){\n    $content = $post->post_content;\n    if(preg_match_all('/<img[^>]+src="(.*?)"[^>]*>/', $content, $results)){\n        foreach($results[1] as $image){\n            echo $image;\n        }\n    }\n}

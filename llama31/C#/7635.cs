@@ -1,1 +1,0 @@
-public class HomeController : Controller\n{\n    public ActionResult Index()\n    {\n        ContactView contact = new ContactView { Name = "John Doe", Email = "john.doe@example.com" };\n        return View(contact);\n    }\n}

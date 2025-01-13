@@ -1,0 +1,1 @@
+SELECT \n  t1.memberid, \n  t1.name, \n  GROUP_CONCAT(t2.interestName SEPARATOR ', ') AS interests\nFROM \n  table1 t1\n  INNER JOIN table3 t3 ON t1.memberid = t3.memberid\n  INNER JOIN table2 t2 ON t3.interestId = t2.interestId\nGROUP BY \n  t1.memberid, t1.name

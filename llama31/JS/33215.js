@@ -1,0 +1,1 @@
+$('#myForm').ajaxSubmit({\n  url: '/your/url',\n  type: 'post'\n})\n.fail(function(xhr, status, error) {\n  // your error handling code here\n});

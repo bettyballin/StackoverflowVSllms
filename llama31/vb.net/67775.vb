@@ -1,0 +1,1 @@
+Declare Function GetTickCount Lib "kernel32" () As Long\n\nSub Main()\n    Dim startTime As Long\n    startTime = GetTickCount\n    \n    ' your code here\n    \n    Dim endTime As Long\n    endTime = GetTickCount\n    \n    Debug.Print "Time elapsed: " & (endTime - startTime) & " ms"\nEnd Sub

@@ -1,1 +1,0 @@
-aspnet_regsql.exe -S <your_database_server> -U <your_database_username> -P <your_database_password> -d <your_database_name> -A m

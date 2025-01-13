@@ -1,0 +1,1 @@
+<validators>\n    <validator name="dateformat" class="com.example.DateFormatValidator"/>\n</validators>

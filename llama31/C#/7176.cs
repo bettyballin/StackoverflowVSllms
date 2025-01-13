@@ -1,1 +1,0 @@
-protected void Page_Load(object sender, EventArgs e)\n{\n    Page.ClientScript.RegisterStartupScript(typeof(YourPageClass), "YourScriptKey", "alert('Hello, world!');", true);\n}

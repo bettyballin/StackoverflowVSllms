@@ -1,0 +1,1 @@
+Dim r = myEntity.employee.FirstOrDefault(Function(e) e.employeeID = myEmployeeIDVariable)\nIf r IsNot Nothing Then\n    ' ... do stuff ...\nEnd If

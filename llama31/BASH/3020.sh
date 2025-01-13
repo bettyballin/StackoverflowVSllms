@@ -1,1 +1,0 @@
-svn copy -r revision --recursive ProjectA/trunk https://svn.example.com/repos/ProjectA/tags/release-1.0

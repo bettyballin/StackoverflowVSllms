@@ -1,0 +1,1 @@
+SELECT *\nFROM communications\nJOIN actors ON communications.actor_id = actors.id\nWHERE actors.type = 'worker';

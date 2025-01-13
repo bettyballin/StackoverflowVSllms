@@ -1,0 +1,1 @@
+// Use jQuery UI's tabs method to select the tab\n$(function() {\n    $('#tabs').tabs({\n        active: '<?php echo $tab; ?>' // Use the validated PHP variable to select the tab\n    });\n});

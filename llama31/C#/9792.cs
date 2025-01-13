@@ -1,1 +1,0 @@
-SqlCommand com = (SqlCommand)HttpContext.Current.Cache["mycommand"];\nif (com != null)\n{\n    // Create a clone of the command\n    SqlCommand clonedCom = (SqlCommand)com.Clone();\n    // Update parameters on the cloned command\n    clonedCom.Parameters["@id"].Value = newId;\n    // Execute the cloned command\n    clonedCom.ExecuteNonQuery();\n}

@@ -1,1 +1,0 @@
-#!/bin/bash\n\nfor file in *; do\n  if [ -f "${file,,}" ] && [ "${file,,}" != "$file" ]; then\n    svn rm "$file"\n  fi\ndone

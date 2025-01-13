@@ -1,0 +1,1 @@
+CREATE TABLE question (\n    id SERIAL PRIMARY KEY,\n    text TEXT,\n    correct_answer INTEGER REFERENCES answer(id) DEFERRABLE\n);\n\nCREATE TABLE answer (\n    id SERIAL PRIMARY KEY,\n    question_id INTEGER REFERENCES question(id),\n    text TEXT\n);

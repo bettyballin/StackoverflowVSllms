@@ -1,0 +1,1 @@
+$("#myForm").validate({\n  rules: {\n    myInput: {\n      maxlength: 10\n    }\n  }\n});

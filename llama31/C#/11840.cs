@@ -1,1 +1,0 @@
-[Serializable]\npublic class MyClass\n{\n    public int Age { get; set; }\n    public int MyClassB { get; set; }\n\n    public bool ShouldSerializeAge()\n    {\n        return Age >= 0;\n    }\n}

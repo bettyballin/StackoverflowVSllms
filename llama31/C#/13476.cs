@@ -1,1 +1,0 @@
-using System.Reflection;\n\n// Get the assembly object\nAssembly assembly = Assembly.Load("YourAssemblyName");\n\n// Get the location of the DLL file\nstring dllLocation = assembly.Location;\n\nConsole.WriteLine(dllLocation);

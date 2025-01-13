@@ -1,0 +1,1 @@
+for value in required_values:\n    if value not in some_map:\n        raise CustomException(value)

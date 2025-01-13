@@ -1,0 +1,1 @@
+CREATE FUNCTION GetDateOffset(@offset int)\nRETURNS @OffsetDate TABLE (OffsetDate datetime)\nAS\nBEGIN\n    INSERT INTO @OffsetDate (OffsetDate)\n    VALUES (DATEADD(d, @offset, GETDATE()))\n    RETURN\nEND

@@ -1,1 +1,0 @@
-protected void ddl_SelectedIndexChanged(object sender, EventArgs e)\n{\n    // Get the selected value\n    string selectedValue = ddl.SelectedValue;\n\n    // Store it in Session\n    Session["SelectedValue"] = selectedValue;\n\n    // Update the UpdatePanel\n    UpdatePanel1.Update();\n}

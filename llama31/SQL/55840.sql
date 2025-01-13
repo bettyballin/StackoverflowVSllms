@@ -1,0 +1,1 @@
+EXPLAIN SELECT\n*\nFROM\ncontent_link link\nSTRAIGHT_JOIN\ncontent\nON\nlink.content_id = content.id\nWHERE\nlink.content_id > 0\nLIMIT 10;

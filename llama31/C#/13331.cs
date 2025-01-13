@@ -1,1 +1,0 @@
-var email = "user@example.com";\nvar (domainName, userName) = AdHelper.GetDomainAndUserName(email);\n\nConsole.WriteLine($"Domain Name: {domainName}");\nConsole.WriteLine($"User Name: {userName}");

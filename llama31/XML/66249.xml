@@ -1,0 +1,1 @@
+<?xml version="1.0" encoding="UTF-8"?>\n<configuration>\n  <system.webServer>\n    <handlers>\n      <add name="jRuby" path="*" verb="*" modules="IsapiModule" scriptProcessor="C:\jruby\bin\jruby.exe" resourceType="Unspecified" requireAccess="None" preCondition="bitness64" />\n    </handlers>\n  </system.webServer>\n</configuration>

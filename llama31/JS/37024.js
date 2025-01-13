@@ -1,0 +1,1 @@
+function initEditor() {\n    var w = document.frames['writer'] || window.frames['writer'];\n    var wc = g('writerCopy');\n\n    if (w == null) return;\n\n    w.contentWindow.document.designMode = 'on';\n    w.contentWindow.document.body.innerHTML = styleSheet + wc.value;\n    w.contentWindow.focus();\n}

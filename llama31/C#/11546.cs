@@ -1,1 +1,0 @@
-public int GetCount()\n{\n    lock (lockObject)\n    {\n        return queue.Count;\n    }\n}

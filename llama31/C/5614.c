@@ -1,1 +1,0 @@
-void sum(double *a, double *b, double *c, int n) {\n    for (int i = 0; i < n; i++) {\n        c[i] = a[i] + b[i];\n    }\n}

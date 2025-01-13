@@ -1,1 +1,0 @@
-gdb -p <pid> -batch -ex 'call close(<fd>)' -ex 'detach' -ex 'quit'

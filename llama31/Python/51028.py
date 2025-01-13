@@ -1,0 +1,1 @@
+import math\n\ndef calculate_perpendicular_point(x1, y1, x2, y2, N):\n    m = (y2 - y1) / (x2 - x1)\n    m_perp = -1 / m\n    theta = math.atan(m_perp)\n    dx = (N / 2) * math.cos(theta)\n    dy = (N / 2) * math.sin(theta)\n    x3 = x1 + dx\n    y3 = y1 + dy\n    return x3, y3

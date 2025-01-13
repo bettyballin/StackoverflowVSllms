@@ -1,1 +1,0 @@
-curl -X POST -H "Content-Type: application/xml" -d @yourfile.xml http://example.com/your-endpoint

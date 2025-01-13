@@ -1,1 +1,0 @@
-$ echo 'int main() {return 0;}' > a.c\n$ gcc -I$HOME/include a.c

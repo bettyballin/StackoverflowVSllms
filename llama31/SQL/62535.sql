@@ -1,0 +1,1 @@
+SELECT\n    ST.ColumnName1,\n    JT.ColumnName2,\n    SJT.ColumnName3\nFROM \n    SourceTable ST\nINNER JOIN JoinTable JT\n    ON JT.SourceTableID = ST.SourceTableID\nINNER JOIN SecondJoinTable SJT\n    ON ST.SourceTableID = SJT.SourceTableID\n    AND JT.Column3 = SJT.Column4\nWHERE\n    ST.SourceTableID = X\n    AND JT.ColumnName3 = Y

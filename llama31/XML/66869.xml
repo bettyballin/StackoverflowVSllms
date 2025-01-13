@@ -1,0 +1,1 @@
+<servlet>\n    <servlet-name>paymentStatusServlet</servlet-name>\n    <servlet-class>com.example.PaymentStatusServlet</servlet-class>\n</servlet>\n<servlet-mapping>\n    <servlet-name>paymentStatusServlet</servlet-name>\n    <url-pattern>/payment-status</url-pattern>\n</servlet-mapping>

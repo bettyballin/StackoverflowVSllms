@@ -1,1 +1,0 @@
-awk -v RS= -v ORS='\n\n' 'NR==2{print "TEST"}1' file

@@ -1,1 +1,0 @@
-byte[] excelBytes = File.ReadAllBytes("path/to/excel/file.xlsx");\nstring encodedExcel = Convert.ToBase64String(excelBytes);

@@ -1,1 +1,0 @@
-int x = 5;\nx++;  // two operations: read x, increment x

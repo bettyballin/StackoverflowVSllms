@@ -1,0 +1,1 @@
+import math\n\ndef f(x):\n    return math.floor(x)\n\na = 2.5\nb = 1.8\n\nprint(f(a + b) == f(a) + f(b))  # False

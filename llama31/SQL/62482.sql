@@ -1,0 +1,1 @@
+BEGIN TRY\n    SET @Id = CONVERT(int, @Criteria);\nEND TRY\nBEGIN CATCH\n    IF ERROR_NUMBER() = 8114  -- Error number for overflow\n        RAISERROR ('Overflow occurred while converting @Criteria to int.', 16, 1);\n    ELSE\n        RAISERROR ('An error occurred while converting @Criteria to int.', 16, 1);\nEND CATCH

@@ -1,0 +1,1 @@
+$data = array_fill(0, 31, 0); // Initialize an array with 31 zeros\n\nwhile($row = mysql_fetch_array($result)) {\n    $day = date('j', strtotime($row['date'])); // Get the day of the month\n    $data[$day-1] = intval($row['order_total']); // Populate the $data array\n}

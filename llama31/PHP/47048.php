@@ -1,0 +1,1 @@
+// routes.php\n$routes = array(\n    '/:lang/museum/gallery/garden' => 'MuseumController@galleryGarden',\n    '/:lang/museo/galeria/jardin' => 'MuseumController@galleryGarden',\n);

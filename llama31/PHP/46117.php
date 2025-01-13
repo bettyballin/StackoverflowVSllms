@@ -1,0 +1,1 @@
+<?php\n// No whitespace before the opening tag\n\n// Your PHP code here...\n\n// No whitespace after the closing tag\nob_start();\n// Your response here...\necho $response;\nob_end_clean();\n?>

@@ -1,0 +1,1 @@
+CREATE FUNCTION dbo.WorkDaysBetweenDates (@StartDate DATE, @EndDate DATE)\nRETURNS INT\nAS\nBEGIN\n    DECLARE @WorkDays INT = 0\n    WHILE @StartDate <= @EndDate\n    BEGIN\n        IF DATENAME(WEEKDAY, @StartDate) NOT IN ('Saturday', 'Sunday')\n            SET @WorkDays += 1\n        SET @StartDate = DATEADD(DAY, 1, @StartDate)\n    END\n    RETURN @WorkDays\nEND\nGO

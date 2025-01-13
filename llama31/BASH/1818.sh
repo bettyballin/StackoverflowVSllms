@@ -1,1 +1,0 @@
-awk '/Monday/ {sub(/:/,"&\\n")} 1' file

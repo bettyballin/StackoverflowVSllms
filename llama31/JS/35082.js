@@ -1,0 +1,1 @@
+$( "#selectable" ).selectable({\n  stop: function() {\n    $( ".ui-selected", this ).each(function() {\n      $(this).addClass("ui-selected");\n    });\n  }\n});

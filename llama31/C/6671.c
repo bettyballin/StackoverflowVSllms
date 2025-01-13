@@ -1,1 +1,0 @@
-size_t t = (size_t)f;

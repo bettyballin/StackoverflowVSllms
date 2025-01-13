@@ -1,0 +1,1 @@
+// Get the editor content\n$content = tinymce.get('editor_id').getContent();\n\n// Encode the content\n$encodedContent = htmlspecialchars($content);\n\n// Create a parameterized query\n$stmt = $db->prepare("INSERT INTO table_name (content) VALUES (:content)");\n$stmt->bindParam(':content', $encodedContent);\n$stmt->execute();

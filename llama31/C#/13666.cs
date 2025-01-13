@@ -1,1 +1,0 @@
-public class Message\n{\n    public virtual IList<Answer> Answers { get; set; }\n}\n\npublic class Answer : Message\n{\n    // No additional properties needed\n}

@@ -1,1 +1,0 @@
-btnSubmit.Style.Add("position", "relative");\nbtnSubmit.Style.Add("top", "20px"); // adjust the top position\nbtnSubmit.Style.Add("left", "30px"); // adjust the left positio

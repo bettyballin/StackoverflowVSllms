@@ -1,1 +1,0 @@
-var collection = new QueryableCollection<int>();\n\ncollection.Add(1);\ncollection.Add(2);\ncollection.Add(3);\n\nvar query = collection.Where(x => x > 1);\n\nforeach (var item in query)\n{\n    Console.WriteLine(item);\n}

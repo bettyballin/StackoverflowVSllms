@@ -1,1 +1,0 @@
-protected override void CreateChildControls()\n{\n    base.CreateChildControls();\n\n    CustomGridView gridView = new CustomGridView();\n    this.Controls.Add(gridView);\n}

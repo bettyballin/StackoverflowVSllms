@@ -1,1 +1,0 @@
-#include <vector>\n\nclass Matrix {\npublic:\n    Matrix(int n) : n_(n), data_(n * n) {}\n\n    double& operator()(int i, int j) {\n        return data_[i + n_ * j];\n    }\n\n    const double& operator()(int i, int j) const {\n        return data_[i + n_ * j];\n    }\n\nprivate:\n    int n_;\n    std::vector<double> data_;\n};

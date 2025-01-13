@@ -1,0 +1,1 @@
+<servlet>\n    <servlet-name>excelServlet</servlet-name>\n    <servlet-class>your.package.ExcelServlet</servlet-class>\n</servlet>\n<servlet-mapping>\n    <servlet-name>excelServlet</servlet-name>\n    <url-pattern>/excel</url-pattern>\n</servlet-mapping>

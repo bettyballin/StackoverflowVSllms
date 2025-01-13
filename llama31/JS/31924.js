@@ -1,0 +1,1 @@
+$.validator.addMethod(\n    'myEqual', \n    function (value, element, param) {\n        var target = $(param);\n        return value == target.val();\n    }, \n    'Please enter a greater year!'\n);

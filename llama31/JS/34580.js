@@ -1,0 +1,1 @@
+$(document).ready(function() {\n    $('a.outgoing-link').on('mousedown', function() {\n        var link = $(this).attr('href');\n        $.ajax({\n            type: 'POST',\n            url: '/update-counter.php',\n            data: { link: link },\n            async: false // Ensure the request is sent before the link is followed\n        });\n    });\n});

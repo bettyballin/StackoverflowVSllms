@@ -1,1 +1,0 @@
-$ jhat -dump java-38942.hprof

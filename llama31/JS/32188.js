@@ -1,0 +1,1 @@
+$.ajax({\n    type: 'POST',\n    url: '/ajax-example',\n    data: { foo: 'bar' },\n    success: function (response) {\n        console.log(response.message);\n    }\n});

@@ -1,0 +1,1 @@
+user_dict = {\n    'queryset': User.objects.filter(groups__name='blogger')\n}

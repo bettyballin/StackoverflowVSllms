@@ -1,0 +1,1 @@
+$xml = '<root><node>value</node></root>';\ntry {\n    $sxe = new SimpleXMLElement($xml);\n    echo $sxe->asXML();\n} catch (Exception $e) {\n    echo "Error parsing XML: " . $e->getMessage();\n}

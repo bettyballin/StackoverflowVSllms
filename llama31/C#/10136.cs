@@ -1,1 +1,0 @@
-// Early binding (explicit typing)\nY X = new Y();\n// Late binding (implicit typing) is not allowed in C#

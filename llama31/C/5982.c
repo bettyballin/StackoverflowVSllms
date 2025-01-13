@@ -1,1 +1,0 @@
-// Example usage:\n#include <mad.h>\n\nint main() {\n    // Initialize libmad\n    mad_stream_init(&stream);\n\n    // Open an MP3 file\n    FILE *file = fopen("input.mp3", "rb");\n    if (!file) {\n        // Error handling\n    }\n\n    // Decode the audio\n    mad_frame frame;\n    mad_synth_frame(&frame, &stream, file);\n\n    // ...\n}

@@ -1,1 +1,0 @@
-#include <stdio.h>\n\nint main() {\n    static char big_array[10 * 1024 * 1024]; // 10MB array\n    return 0;\n}

@@ -1,1 +1,0 @@
-# .htaccess file\n\n# Redirect requests to HTML files to a PHP script\nRewriteRule ^(.+)\.html$ verify_session.php?file=$1 [L]

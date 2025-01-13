@@ -1,0 +1,1 @@
+SELECT t1.*\nFROM table t1\nLEFT JOIN table t2 ON t1.REF = t2.ID\nWHERE t2.ID IS NULL;

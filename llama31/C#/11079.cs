@@ -1,1 +1,0 @@
-public override void OnActionExecuting(ActionExecutingContext filterContext)\n{\n    // ...\n    response.Filter = new WhiteSpaceFilter(response.Filter);\n    // ...\n}

@@ -1,1 +1,0 @@
-BackgroundWorker worker = new BackgroundWorker();\nworker.DoWork += Worker_DoWork;\nworker.RunWorkerCompleted += Worker_RunWorkerCompleted;\nworker.RunWorkerAsync();

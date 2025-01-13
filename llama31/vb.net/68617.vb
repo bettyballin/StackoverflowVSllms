@@ -1,0 +1,1 @@
+Imports iTextSharp.text.pdf\n\nSub PrintToPdf(ByVal filePath As String, ByVal outputFilePath As String)\n    Dim pdfWriter As New PdfWriter(outputFilePath)\n    pdfWriter.AddDocument(filePath)\nEnd Sub

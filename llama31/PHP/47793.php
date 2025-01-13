@@ -1,0 +1,1 @@
+$result = $mysqli->query("SELECT i.item_name \n                         FROM user_items ui \n                         JOIN items i ON ui.item_id = i.item_id \n                         WHERE ui.user_id = '$userid'");\n\nwhile ($row = $result->fetch_assoc()) {\n  $itemName = $row['item_name'];\n  $imageSrc = $itemName . '.jpg';\n  // display the image using $imageSrc\n}

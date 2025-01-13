@@ -1,0 +1,1 @@
+$('#element').animate({\n  width: 'toggle',\n  opacity: 'toggle'\n}, 500);

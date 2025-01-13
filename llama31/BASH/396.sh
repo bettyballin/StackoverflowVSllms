@@ -1,1 +1,0 @@
-gcc -M your_file.c

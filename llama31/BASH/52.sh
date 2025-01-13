@@ -1,1 +1,0 @@
-dd if=file2 of=file1 bs=1M conv=notrunc oflag=append\nrm file2

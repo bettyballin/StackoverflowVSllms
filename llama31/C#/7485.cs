@@ -1,1 +1,0 @@
-using System;\nusing System.Web;\nusing System.Xml;\n\npublic class HtmlStripper\n{\n    public static string StripHtmlTags(string html)\n    {\n        var xmlDoc = new XmlDocument();\n        xmlDoc.LoadXml("<root>" + html + "</root>");\n        return HttpUtility.HtmlDecode(xmlDoc.DocumentElement.InnerText);\n    }\n}

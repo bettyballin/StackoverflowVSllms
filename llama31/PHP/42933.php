@@ -1,0 +1,1 @@
+function foldersize($path) {\n    $total_size = 0;\n    $iterator = new RecursiveIteratorIterator(new RecursiveDirectoryIterator($path));\n    foreach ($iterator as $file) {\n        if ($file->isFile()) {\n            $total_size += $file->getSize();\n        }\n    }\n    return $total_size;\n}

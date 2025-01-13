@@ -1,1 +1,0 @@
-protected void Application_BeginRequest(object sender, EventArgs e)\n{\n    // Log request data here\n    LogRequest(Request);\n}\n\nprivate void LogRequest(HttpRequest request)\n{\n    // Log relevant data, such as request URL, method, and headers\n    // ...\n}

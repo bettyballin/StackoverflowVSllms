@@ -1,1 +1,0 @@
-// In your admin/tools page\nprotected void Page_Load(object sender, EventArgs e)\n{\n    int sessionCount = SessionTracker.GetSessions().Count();\n    foreach (var session in SessionTracker.GetSessions())\n    {\n        // Display session information, e.g. session.IpAddress\n    }\n}

@@ -1,0 +1,1 @@
+$link = '/directory/link.php';\n$link = ltrim($link, '/');\necho $link; // outputs: directory/link.php

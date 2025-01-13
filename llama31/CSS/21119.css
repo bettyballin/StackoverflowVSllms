@@ -1,1 +1,0 @@
-.tooltip:after {\n  content: attr(aria-label);\n  position: absolute;\n  background-color: #fff;\n  border: 1px solid #000;\n  padding: 5px;\n  visibility: hidden;\n}\n\n.tooltip:hover:after {\n  visibility: visible;\n}

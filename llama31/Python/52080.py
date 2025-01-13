@@ -1,0 +1,1 @@
+import pandas as pd\n\n# Create a pandas DataFrame from your list of tuples\ndf = pd.DataFrame(coords, columns=['x', 'y', 'z'])\n\n# Perform addition\ndf['x'] += 1\ndf['y'] += 2\ndf['z'] += 3\n\n# Perform multiplication\ndf['x'] *= 2\ndf['y'] *= 3\ndf['z'] *= 4\n\n# Perform logarithm\ndf['log_x'] = np.log(df['x'])\ndf['log_y'] = np.log(df['y'])\ndf['log_z'] = np.log(df['z'])

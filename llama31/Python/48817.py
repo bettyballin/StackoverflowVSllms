@@ -1,0 +1,1 @@
+struct = __import__("neoform.structures.index", fromlist=['*'])

@@ -1,0 +1,1 @@
+<configuration>\n  <configSections>\n    <sectionGroup name="htmlEditor">\n      <section name="insertParagraphTags" type="System.Boolean" />\n    </sectionGroup>\n  </configSections>\n  <htmlEditor>\n    <insertParagraphTags value="false" />\n  </htmlEditor>\n</configuration>

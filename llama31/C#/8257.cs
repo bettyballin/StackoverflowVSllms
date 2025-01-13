@@ -1,1 +1,0 @@
-// Create a new ScriptScope\nScriptScope scope = engine.CreateScope();\n\n// Add a .NET object to the scope\nscope.SetVariable("myObject", new MyObject());\n\n// Execute a script that uses the object\nengine.ExecuteFile("script.py", scope);

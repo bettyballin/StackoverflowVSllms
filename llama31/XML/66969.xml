@@ -1,0 +1,1 @@
+<burrow>\n    <persistence>\n        <config-type type="YourNamespace.CustomBurrowConfig, YourAssembly" />\n    </persistence>\n</burrow>

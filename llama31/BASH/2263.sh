@@ -1,1 +1,0 @@
-ftp> ls -l | more

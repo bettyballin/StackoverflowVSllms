@@ -1,1 +1,0 @@
-#!/bin/sh\nsuexec -u username php /path/to/your/script.php

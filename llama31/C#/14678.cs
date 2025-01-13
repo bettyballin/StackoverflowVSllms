@@ -1,1 +1,0 @@
-S.DoSecond(new List<T>().Cast<A>().ToList());

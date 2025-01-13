@@ -1,1 +1,0 @@
-public interface ILoggedInUserService\n{\n    User GetLoggedInUser();\n}\n\npublic class LoggedInUserService : ILoggedInUserService\n{\n    private User _loggedInUser;\n\n    public void SetLoggedInUser(User user)\n    {\n        _loggedInUser = user;\n    }\n\n    public User GetLoggedInUser()\n    {\n        return _loggedInUser;\n    }\n}

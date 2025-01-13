@@ -1,1 +1,0 @@
-public static class EnumerableExtensions\n{\n    public static T ElementAtOrDefault<T>(this IEnumerable<T> source, int index, T defaultValue)\n    {\n        return source.ElementAtOrDefault(index) ?? defaultValue;\n    }\n}

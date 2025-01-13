@@ -1,1 +1,0 @@
-# Set the keepalive interval to 20 seconds\nsysctl -w net.ipv4.tcp_keepalive_time=20\n# Set the keepalive probe interval to 10 seconds\nsysctl -w net.ipv4.tcp_keepalive_intvl=10\n# Set the maximum number of keepalive probes to 6\nsysctl -w net.ipv4.tcp_keepalive_probes=6

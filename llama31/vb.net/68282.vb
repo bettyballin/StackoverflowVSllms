@@ -1,0 +1,1 @@
+Enum Color\n    Red\n    Green\n    Yellow\nEnd Enum\n\nFunction getPaint(color As Color)\n    ' function implementation\nEnd Functio

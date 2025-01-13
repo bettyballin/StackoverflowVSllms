@@ -1,1 +1,0 @@
-Schedule schedule = new Schedule();\n// populate schedule with timeslots and days\n\n// bind schedule to datagrid\ndatagrid.ItemsSource = schedule.TimeSlots;

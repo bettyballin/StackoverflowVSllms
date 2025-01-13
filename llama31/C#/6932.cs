@@ -1,1 +1,0 @@
-public List<int> GetColumnPreferences()\n{\n    return (List<int>)Profile.GetPropertyValue("GridColumnPreferences");\n}\n\npublic void SaveColumnPreferences(List<int> columnIds)\n{\n    Profile.SetPropertyValue("GridColumnPreferences", columnIds);\n    Profile.Save();\n}

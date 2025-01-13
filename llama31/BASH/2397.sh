@@ -1,1 +1,0 @@
-gcc --explain=-Werror=format

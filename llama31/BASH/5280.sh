@@ -1,1 +1,0 @@
-@echo off\nset username=myuser\nset password=mypassword\nset db=//localhost:1521/ORCL\n\nsqlplus -s /nolog\nconnect %username%/%password%@%db%\nSELECT * FROM mytable;\nEXIT

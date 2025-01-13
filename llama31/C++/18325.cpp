@@ -1,1 +1,0 @@
-// Save image as JPEG with compression quality (0-100)\nstd::vector<int> compression_params;\ncompression_params.push_back(CV_IMWRITE_JPEG_QUALITY);\ncompression_params.push_back(90);\ncv::imwrite("image.jpg", image, compression_params);

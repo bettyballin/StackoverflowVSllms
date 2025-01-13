@@ -1,0 +1,1 @@
+<configuration>\n  <system.webServer>\n    <security>\n      <authentication>\n        <basicAuthentication enabled="true" defaultDomain="" realm="" >\n          <providers>\n            <add name="YourProvider" type="YourProviderType" />\n          </providers>\n        </basicAuthentication>\n      </authentication>\n    </security>\n  </system.webServer>\n</configuration>

@@ -1,1 +1,0 @@
-private void compose()\n{\n    var catalog1 = new AssemblyCatalog(typeof(LyanController).Assembly);\n    var catalog2 = new AssemblyCatalog(typeof(VialisController).Assembly);\n    var aggregateCatalog = new AggregateCatalog(catalog1, catalog2);\n\n    var container = new CompositionContainer(aggregateCatalog);\n\n    container.AddPart(this);\n    container.Compose();\n}

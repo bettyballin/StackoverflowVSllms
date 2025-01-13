@@ -1,1 +1,0 @@
-chown -R www-data:www-data /tmp/apc.shm\nchmod 0600 /tmp/apc.shm

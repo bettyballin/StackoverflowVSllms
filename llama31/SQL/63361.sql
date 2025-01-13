@@ -1,0 +1,1 @@
+SELECT ht_encode('Hello, World!', 'my_mask') FROM DUAL;

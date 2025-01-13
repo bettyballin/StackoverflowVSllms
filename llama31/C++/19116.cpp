@@ -1,1 +1,0 @@
-// mydll.h (header file provided by the DLL)\nnamespace MyDll {\n    void myFunction();\n}\n\n// mycppfile.cpp (your C++ source file)\n#include "mydll.h"\n\nint main() {\n    MyDll::myFunction();\n    return 0;\n}

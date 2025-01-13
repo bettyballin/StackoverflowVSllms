@@ -1,1 +1,0 @@
-identify -format "%[fx:colorspace]" input.psd

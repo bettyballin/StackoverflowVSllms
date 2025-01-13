@@ -1,1 +1,0 @@
-# Create a PDF with a digital signature field\npdfsig -create -pdf input.pdf -signame "Signature" -sigform "Text" output.pdf\n\n# Sign the PDF using Adobe Acrobat\npdfsig -sign -pdf output.pdf -signame "Signature" -identity "Ralph" -reason "Approval"

@@ -1,0 +1,1 @@
+<?php\nini_set('memory_limit', '128M');\nini_set('max_execution_time', 300);

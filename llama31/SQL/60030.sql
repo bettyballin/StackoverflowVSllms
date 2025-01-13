@@ -1,0 +1,1 @@
+CREATE GLOBAL TEMPORARY TABLE temp_table (\n  old_id INTEGER,\n  new_id INTEGER\n) ON COMMIT DELETE ROWS;\n\nINSERT INTO temp_table (old_id, new_id)\nSELECT old_id, seq.NEXTVAL\nFROM table\nORDER BY old_id;\n\nUPDATE table\nSET new_id = (\n  SELECT new_id\n  FROM temp_table\n  WHERE temp_table.old_id = table.old_id\n)

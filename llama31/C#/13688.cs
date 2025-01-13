@@ -1,1 +1,0 @@
-using System.Diagnostics;\nusing System.Security.Principal;\n\n// ...\n\nvar eventLog = new EventLog("MyEventLog");\nvar entry = new EventLogEntry();\n\nentry.Message = "My Special Message";\nentry.UserName = WindowsIdentity.GetCurrent().Name;\n\neventLog.WriteEntry(entry.Message, EventLogEntryType.Information, 0, 0, entry.UserName);

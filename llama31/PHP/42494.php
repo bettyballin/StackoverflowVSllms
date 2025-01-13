@@ -1,0 +1,1 @@
+use GuzzleHttp\Client;\n\n$client = new Client();\n$response = $client->post('https://example.com/get.php', ['body' => $data]);

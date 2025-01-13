@@ -1,1 +1,0 @@
-// Set page state\nSession["PageState"] = new PageState {\n  SortingOption = "name",\n  PageNumber = 2\n};\n\n// Get page state\nPageState state = (PageState)Session["PageState"];

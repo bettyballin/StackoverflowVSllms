@@ -1,0 +1,1 @@
+$stmt = $pdo->prepare('SELECT text FROM table WHERE id = ?');\n$stmt->execute([$id]);\n$fetchedText = $stmt->fetchColumn();

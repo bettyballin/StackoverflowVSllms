@@ -1,0 +1,1 @@
+SELECT \n  SUM(end_time - start_time) AS total_duration\nFROM \n  your_table;

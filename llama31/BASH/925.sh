@@ -1,1 +1,0 @@
-java -jar fakeSMTP.jar -p 1025 -o outputfolder

@@ -1,0 +1,1 @@
+$('#myForm').submit(function() {\n  $.blockUI();\n  // Submit the form via AJAX\n  $.ajax({\n    type: 'POST',\n    url: '/your-url',\n    data: $(this).serialize(),\n    success: function(data) {\n      $.unblockUI();\n      // Display a success message or update the page\n    }\n  });\n  return false;\n});

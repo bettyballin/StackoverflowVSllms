@@ -1,0 +1,1 @@
+header('Content-type: application/pdf');\nheader('Content-Disposition: attachment; filename="downloadedFile.pdf"');\nheader('Cache-Control: max-age=3600');\nprint $results[1];

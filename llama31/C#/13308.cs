@@ -1,1 +1,0 @@
-public ActionResult GetData(string format)\n{\n    // Your data retrieval logic here\n    var data = new MyData();\n\n    if (format == "json")\n    {\n        return Json(data, JsonRequestBehavior.AllowGet);\n    }\n    else\n    {\n        return PartialView("_MyPartialView", data);\n    }\n}

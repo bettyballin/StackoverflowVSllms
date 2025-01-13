@@ -1,1 +1,0 @@
-using (SqlConnection connection = new SqlConnection(connectionString))\n{\n    connection.Open();\n\n    using (SqlCommand command = new SqlCommand("BULK INSERT ...", connection))\n    {\n        command.ExecuteNonQuery();\n    }\n\n    using (SqlCommand checkpointCommand = new SqlCommand("CHECKPOINT", connection))\n    {\n        checkpointCommand.ExecuteNonQuery();\n    }\n}

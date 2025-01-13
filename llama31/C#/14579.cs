@@ -1,1 +1,0 @@
-string xmlString = File.ReadAllText("path/to/your/file.xml");

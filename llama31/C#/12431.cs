@@ -1,1 +1,0 @@
-string name = null;\nstring fullName = name?.ToUpper(); // fullName will be null if name is null

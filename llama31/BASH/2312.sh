@@ -1,1 +1,0 @@
-# Set the password and salt\nPASSWORD="mysecretpassword"\nSALT="randomsaltvalue"\n\n# Derive the encryption key using PBKDF2\nKEY=$(echo -n "$PASSWORD" | openssl dgst -sha256 -hmac "$SALT" -binary | base64)\n\n# Encrypt the SQLite database\nsqlite3 mydatabase.db ".backup encrypted.db"\nopenssl enc -aes-256-cbc -md sha256 -in encrypted.db -out encrypted.db.enc -k "$KEY"

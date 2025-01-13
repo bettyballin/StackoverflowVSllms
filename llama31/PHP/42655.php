@@ -1,0 +1,1 @@
+try {\n    $xml = new SimpleXMLElement(file_get_contents('yourfile.xml'));\n    $info = (string) $xml->tag1->subtag1;\n    echo $info;\n} catch (Exception $e) {\n    echo "Error parsing XML: " . $e->getMessage();\n}

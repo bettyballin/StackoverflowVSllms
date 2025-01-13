@@ -1,1 +1,0 @@
-# Enable post-mortem debugging\nSet-ItemProperty -Path "HKLM:\SOFTWARE\Microsoft\Windows\Windows Error Reporting" -Name "Disabled" -Type DWord -Value 0

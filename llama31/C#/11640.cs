@@ -1,1 +1,0 @@
-using Mono.Nat;\n\n// Create a new NAT interface\nvar nat = new NatInterface();\n\n// Discover UPnP devices on the network\nvar devices = await nat.DiscoverDevicesAsync();\n\n// Create a new port mapping\nvar mapping = new Mapping(Protocol.Tcp, 8080, 8080);\n\n// Add the port mapping to the first discovered device\nawait devices.FirstOrDefault().CreatePortMapAsync(mapping);

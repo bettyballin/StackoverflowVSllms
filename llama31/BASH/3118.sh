@@ -1,1 +1,0 @@
-sudo ldconfig /path/to/library/

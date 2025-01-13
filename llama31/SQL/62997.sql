@@ -1,0 +1,1 @@
+SELECT p.* \nFROM posts p \nJOIN listen l ON p.userid = l.listenid \nWHERE l.userid = ?;

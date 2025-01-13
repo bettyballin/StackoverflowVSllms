@@ -1,1 +1,0 @@
-# Generate a private key and certificate for Wireshark\nopenssl genrsa -out server.key 2048\nopenssl req -new -key server.key -out server.csr\nopenssl x509 -req -days 365 -in server.csr -signkey server.key -out server.crt\n\n# Run Wireshark with the private key\nwireshark -o "ssl.keys_list:443,server.key"

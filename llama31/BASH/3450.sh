@@ -1,1 +1,0 @@
-tr -s ', ' '\n' < filename.txt | sort -u | tr '\n' ', '

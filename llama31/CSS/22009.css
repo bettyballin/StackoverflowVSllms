@@ -1,1 +1,0 @@
-/* Example: Using vendor prefixes for box-shadow */\n-webkit-box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);\n-moz-box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);\n-ms-box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);\n-o-box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);\nbox-shadow: 0 0 10px rgba(0, 0, 0, 0.5);

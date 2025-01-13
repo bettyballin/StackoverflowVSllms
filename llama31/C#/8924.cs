@@ -1,1 +1,0 @@
-using System.Reflection;\n\n// ...\n\nvar assembly = Assembly.GetExecutingAssembly();\nvar stream = assembly.GetManifestResourceStream("SomeAssembly1.dll");\nvar someAssembly1 = Assembly.Load(stream);\n\n// Use types from SomeAssembly1.dll\nvar type = someAssembly1.GetType("SomeType");

@@ -1,1 +1,0 @@
-HRESULT GetFoo([in] VARIANT buffer);

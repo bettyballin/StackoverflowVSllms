@@ -1,1 +1,0 @@
-int main() {\n    int x = 10, y = 20, z = 30;\n\n    // Incorrect allocation (single object with initializer)\n    GLfloat* array1 = new GLfloat(x * y * z); // Don't do this!\n\n    // Correct allocation (array)\n    GLfloat* array2 = new GLfloat[x * y * z]; // Do this instead!\n\n    return 0;\n}

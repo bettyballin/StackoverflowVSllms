@@ -1,1 +1,0 @@
-openssl s_client -connect your_server:443 -showcerts

@@ -1,1 +1,0 @@
-snmpwalk -v 1 -c public proxy-host .1.3.6.1.4.1.42.2.190.1.1.3.0

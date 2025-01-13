@@ -1,0 +1,1 @@
+if (mysql_num_rows() == 0) {\n    header('Location: ' . $_SERVER['REQUEST_URI']);\n    exit();\n}

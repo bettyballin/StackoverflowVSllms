@@ -1,0 +1,1 @@
+class Post < ActiveRecord::Base\n  has_many :comments, :counter_cache => true\nend

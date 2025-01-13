@@ -1,0 +1,1 @@
+frequency_bin = (sample_rate / 2) * (bin_index / num_bins)

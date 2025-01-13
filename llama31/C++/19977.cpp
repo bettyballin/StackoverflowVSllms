@@ -1,1 +1,0 @@
-hThread = (HANDLE)_beginthreadex(NULL, 0, CBlah::Start, NULL, NULL, NULL);

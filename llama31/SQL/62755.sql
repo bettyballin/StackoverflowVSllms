@@ -1,0 +1,1 @@
+SELECT \n  a.*,\n  b.catname\nFROM \n  job a,\n  category b\nWHERE \n  a.catid = b.catid AND\n  CONCAT(a.jobpos, a.jobloc, a.jobsalrange, a.description, a.refno, b.catname) LIKE '%:keyword%'

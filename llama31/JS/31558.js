@@ -1,0 +1,1 @@
+$(document).keypress(function(event) {\n  console.log('Printable key pressed:', event.key);\n});

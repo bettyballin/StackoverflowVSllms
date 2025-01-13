@@ -1,0 +1,1 @@
+$encoded_xml_string = htmlentities($malformed_xml_string, ENT_XML1);\n$doc = new DOMDocument();\n$doc->loadXML($encoded_xml_string);

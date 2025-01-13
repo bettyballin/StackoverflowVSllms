@@ -1,0 +1,1 @@
+function hideModal() {\n    // code to hide the modal\n}

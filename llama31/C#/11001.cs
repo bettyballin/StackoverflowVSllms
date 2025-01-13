@@ -1,1 +1,0 @@
-RequiredFieldValidator validator = (RequiredFieldValidator)Page.FindControl("MyRequiredFieldValidator");\nvalidator.Validate();

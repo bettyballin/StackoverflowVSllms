@@ -1,0 +1,1 @@
+// Example usage:\nconst pdfjsLib = require('pdfjs-dist');\n\n// Load the PDF\nconst pdf = pdfjsLib.getDocument('path/to/example.pdf');\n\n// Display the PDF\nconst pdfViewer = new pdfjsLib.PDFViewer({\n  container: document.getElementById('pdf-container'),\n  pdf: pdf,\n});

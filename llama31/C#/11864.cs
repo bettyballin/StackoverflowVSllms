@@ -1,1 +1,0 @@
-protected void Session_End(object sender, EventArgs e)\n{\n    Response.Redirect("~/Login.aspx");\n}

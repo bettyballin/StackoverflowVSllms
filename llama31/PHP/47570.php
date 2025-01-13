@@ -1,0 +1,1 @@
+use Ramsey\Uuid\Uuid;\n\n$uuid = Uuid::uuid4();\n$secureUrl = $uuid->toString();

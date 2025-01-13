@@ -1,0 +1,1 @@
+$cart = array();\n$cart[] = 13;\n$cart[] = "foo";\n$cart[] = $obj; // assuming $obj is a defined variable

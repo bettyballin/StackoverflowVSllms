@@ -1,0 +1,1 @@
+console.log(Number("20")); // outputs 20

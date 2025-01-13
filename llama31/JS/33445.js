@@ -1,0 +1,1 @@
+success: function(response) {\n    var jsonData = Ext.decode(response.responseText);\n    if (jsonData && jsonData.options && Array.isArray(jsonData.options)) {\n        var mymessages = jsonData.options;\n        console.log(mymessages);\n    } else {\n        console.error('Invalid response data');\n    }\n}

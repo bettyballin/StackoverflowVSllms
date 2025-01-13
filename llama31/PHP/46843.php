@@ -1,0 +1,1 @@
+$database = Database::load();\n$sql = "SELECT * FROM test_single_resultset()";\n$p = $database->query($sql);\n$result = $p->fetchAll(PDO::FETCH_ASSOC);

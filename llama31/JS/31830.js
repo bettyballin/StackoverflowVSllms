@@ -1,0 +1,1 @@
+try {\n  // code that might throw an error\n} catch (error) {\n  console.error('Error:', error);\n}

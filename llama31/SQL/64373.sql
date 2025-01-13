@@ -1,0 +1,1 @@
+UPDATE table t\nJOIN (\n    VALUES\n        (1, 1, NULL),\n        (2, 2, NULL),\n        (3, NULL, 3),\n        (4, 10, 12)\n) AS v (id, Col1, Col2)\nON t.id = v.id\nSET t.Col1 = COALESCE(v.Col1, t.Col1),\n    t.Col2 = COALESCE(v.Col2, t.Col2);

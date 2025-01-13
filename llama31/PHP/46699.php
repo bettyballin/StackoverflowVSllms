@@ -1,0 +1,1 @@
+ini_set('session.use_cookies', 0);\nini_set('session.use_only_cookies', 0);

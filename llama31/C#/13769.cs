@@ -1,1 +1,0 @@
-string input = "{Token1}asdasasd{Token2}asd asdacscadase dfb db {Token3}";\nstring pattern = @"\{([^}]*)\}";\nMatchCollection matches = Regex.Matches(input, pattern);\n\nforeach (Match match in matches)\n{\n    Console.WriteLine(match.Groups[1].Value);\n}

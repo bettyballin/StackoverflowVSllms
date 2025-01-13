@@ -1,1 +1,0 @@
-using (var writer = PdfWriter.GetInstance(document, Response.OutputStream))\n{\n    writer.SetPageLayout(PdfWriter.ONECOLUMN);\n    // ...\n}

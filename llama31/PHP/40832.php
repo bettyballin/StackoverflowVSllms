@@ -1,0 +1,1 @@
+function showFields($selClient) {\n    $result = mysql_query("SELECT * FROM project WHERE projectid = $selClient");\n    $values = array();\n    while($row = mysql_fetch_array($result)) {\n        $values[] = $row['clientname'];\n        $values[] = $row['prospect'];\n        $values[] = $row['salesperson'];\n    }\n    return $values;\n}

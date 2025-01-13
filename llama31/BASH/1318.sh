@@ -1,1 +1,0 @@
-memlimit -l 512M -p 1234

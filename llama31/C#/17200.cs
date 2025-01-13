@@ -1,1 +1,0 @@
-private void UpdateStatusOnClient(string fileToSave)\n{\n    Response.BufferOutput = false;\n    Response.Write($"Saving file {fileToSave}...");\n    Response.Flush();\n}

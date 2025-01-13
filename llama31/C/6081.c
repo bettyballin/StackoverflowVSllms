@@ -1,1 +1,0 @@
-void interrupt_handler() {\n    // C code to handle interrupt\n}

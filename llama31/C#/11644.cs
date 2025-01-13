@@ -1,1 +1,0 @@
-using System.Diagnostics;\n\nclass MemoryUsage\n{\n    public static void GetMemoryUsage()\n    {\n        var process = Process.GetCurrentProcess();\n        var memoryUsage = process.WorkingSet64;\n        Console.WriteLine($"Memory Usage: {memoryUsage} bytes");\n    }\n}

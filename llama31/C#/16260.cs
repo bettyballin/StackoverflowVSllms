@@ -1,1 +1,0 @@
-protected void Page_Load(object sender, EventArgs e)\n{\n    // Find the label control in the master page\n    Label lblHeading = (Label)Master.FindControl("lblHeading");\n\n    // Change the text of the label\n    lblHeading.Text = "New Heading";\n}

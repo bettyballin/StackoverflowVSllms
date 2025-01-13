@@ -1,0 +1,1 @@
+$("#tabs").tabs({ \n  ajaxOptions: { \n    contentType: "text/html; charset=UTF-8" \n  } \n});

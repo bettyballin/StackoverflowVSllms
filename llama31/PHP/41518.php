@@ -1,0 +1,1 @@
+$filtered_text = str_ireplace(array_keys($bad_words), array_values($bad_words), $text);

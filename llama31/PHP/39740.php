@@ -1,0 +1,1 @@
+// Example Laravel route\nRoute::get('/', function () {\n    return view('welcome');\n});

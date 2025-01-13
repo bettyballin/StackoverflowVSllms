@@ -1,0 +1,1 @@
+<hibernate-configuration>\n  <session-factory>\n    <property name="hbm2ddl.auto">create</property>\n  </session-factory>\n</hibernate-configuration>

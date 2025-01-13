@@ -1,1 +1,0 @@
-#include "mydll.h"\n\nint main() {\n    int result = IsolatedFunction(5);\n    std::cout << "Result: " << result << std::endl;\n    return 0;\n}

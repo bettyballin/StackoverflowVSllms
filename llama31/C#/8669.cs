@@ -1,1 +1,0 @@
-ModelBinders.Binders.Add(typeof(Binary), new BinaryModelBinder());

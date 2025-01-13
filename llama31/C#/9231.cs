@@ -1,1 +1,0 @@
-public class LoginPage\n{\n    private IWebDriver driver;\n\n    public LoginPage(IWebDriver driver)\n    {\n        this.driver = driver;\n    }\n\n    public void ClickLoginButton()\n    {\n        driver.FindElement(By.CssSelector("[data-test-id='login-button']")).Click();\n    }\n}

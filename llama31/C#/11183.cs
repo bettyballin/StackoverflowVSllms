@@ -1,1 +1,0 @@
-public SingleType getSingle(int id)\n{\n    var query = context.Singles\n        .Where(s => s.ID == id)\n        .Take(2)\n        .SingleOrDefault();\n    return query;\n}

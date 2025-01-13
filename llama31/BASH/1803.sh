@@ -1,1 +1,0 @@
-set backupdir^=~/.vim/backups/

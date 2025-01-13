@@ -1,0 +1,1 @@
+function properCaseName(name) {\n  return name.replace(/\b([A-Z])([A-Z]+)\b/g, function(match, p1, p2) {\n    return p1 + p2.toLowerCase();\n  }).replace(/\b([A-Z])([a-z]+)\b/g, function(match, p1, p2) {\n    return p1 + p2;\n  }).replace(/'/g, "'").replace(/\bMc([A-Z])/g, "Mc$1");\n}

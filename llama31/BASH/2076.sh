@@ -1,1 +1,0 @@
-ipfw add pipe 1 ip from any to any out\nipfw pipe 1 config bw 100Kbit/s delay 100ms plr 0.05

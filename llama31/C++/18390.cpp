@@ -1,1 +1,0 @@
-class rnObj {\npublic:\n    rnObj() {}\n    rnObj(const rnObj& other) { /* copy constructor */ }\n    rnObj(rnObj&& other) { /* move constructor */ }\n};\n\nrnObj somefunction() {\n    return rnObj(); // creates a temporary rnObj instance\n}

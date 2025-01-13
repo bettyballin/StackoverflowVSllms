@@ -1,0 +1,1 @@
+const userAgent = navigator.userAgent;\nconst isiPhone = userAgent.match(/iPhone/i) !== null;\n\nif (isiPhone) {\n  // Apply iPhone-specific styles or functionality\n}

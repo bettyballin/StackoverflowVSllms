@@ -1,0 +1,1 @@
+CREATE TABLE Organizations (\n    Id INT PRIMARY KEY,\n    Name VARCHAR(255)\n);\n\nCREATE TABLE Customers (\n    Id INT PRIMARY KEY,\n    OrganizationId INT NOT NULL,\n    Name VARCHAR(255),\n    FOREIGN KEY (OrganizationId) REFERENCES Organizations(Id)\n);

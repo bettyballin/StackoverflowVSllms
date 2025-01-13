@@ -1,0 +1,1 @@
+callback({ "name": "John", "age": 30 });

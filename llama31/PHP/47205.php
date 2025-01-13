@@ -1,0 +1,1 @@
+$compressed_data = base64_decode($base64_encoded_data);\n$uncompressed_data = decompress_gzip($compressed_data);

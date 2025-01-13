@@ -1,1 +1,0 @@
-[AcceptVerbs(HttpVerbs.Post)]\npublic PartialViewResult UpdateStep2(FormCollection form)\n{\n    // ...\n    return PartialView("IngredientsListControl", recipe.Ingredients);\n}

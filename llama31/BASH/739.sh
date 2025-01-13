@@ -1,1 +1,0 @@
-gcc -c -o your_file.o your_file.c

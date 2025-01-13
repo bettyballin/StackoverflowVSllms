@@ -1,0 +1,1 @@
+$( "#loading" ).progressbar({\n  value: false\n});

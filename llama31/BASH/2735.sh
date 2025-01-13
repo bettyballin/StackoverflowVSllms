@@ -1,1 +1,0 @@
-clone /nfs/src /nfs/dst

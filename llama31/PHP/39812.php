@@ -1,0 +1,1 @@
+function findByYear($year = null){\n    $date = $year.'-01-01 00:00:00';\n    $end_date = $year.'-12-31 23:59:59';\n    return $this->find('all',array(\n        'conditions'=>array(\n            'Post.date BETWEEN ? AND ?' => array($date, $end_date)\n        )\n    ));\n}

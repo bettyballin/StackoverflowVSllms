@@ -1,1 +1,0 @@
-[WebMethod]\npublic static string YourMethod(string name)\n{\n    // Process the request\n    return "Hello, " + name;\n}

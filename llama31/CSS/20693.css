@@ -1,1 +1,0 @@
-.container {\n  display: flex;\n  flex-direction: column;\n}\n\n.div1, .div2 {\n  flex: 1;\n}

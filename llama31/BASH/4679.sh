@@ -1,1 +1,0 @@
-sudo echo "/path/to/oracle/instantclient/lib" > /etc/ld.so.conf.d/oracle-instantclient.conf

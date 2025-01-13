@@ -1,0 +1,1 @@
+SELECT email, department FROM employees WHERE email = 'john.doe@example.com';

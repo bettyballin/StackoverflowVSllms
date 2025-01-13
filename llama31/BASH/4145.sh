@@ -1,1 +1,0 @@
-chown your_app_user:your_app_group database.yml

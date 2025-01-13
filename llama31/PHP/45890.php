@@ -1,0 +1,1 @@
+$file_path = '/path/to/your/text/file.txt';\n$f = fopen($file_path, 'w');\nfwrite($f, 'Hello, world!');\nfclose($f);

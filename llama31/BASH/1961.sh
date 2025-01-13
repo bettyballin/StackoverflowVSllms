@@ -1,1 +1,0 @@
-# Import the VSS module\nImport-Module -Name VSS\n\n# Define the volume and snapshot name\n$volume = "C:\"\n$snapshotName = "MySnapshot"\n\n# Create a new VSS snapshot\n$vss = New-Object -ComObject VSS.VSSCoordinator\n$vol = New-Object -ComObject VSS.VSSVolume($volume)\n$snapshot = $vss.CreateSnapshot($vol, $snapshotName)\n\n# Release the snapshot when done\n$snapshot.Release()

@@ -1,0 +1,1 @@
+Imports Oracle.DataAccess.Client\n\nDim connectionString As String = "Data Source=(DESCRIPTION=(ADDRESS=(PROTOCOL=TCP)(HOST=your_host)(PORT=your_port))(CONNECT_DATA=(SID=your_sid)));User ID=your_username;Password=your_password"\nDim connection As New OracleConnection(connectionString)

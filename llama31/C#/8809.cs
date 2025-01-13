@@ -1,1 +1,0 @@
-using System.Data.SqlClient;\n\nwhile (true) {\n    try {\n        using (SqlConnection conn = new SqlConnection("Data Source=(local);Initial Catalog=master;Integrated Security=True")) {\n            conn.Open();\n            conn.Close();\n            break;\n        }\n    } catch (SqlException) {\n        System.Threading.Thread.Sleep(500);\n    }\n}

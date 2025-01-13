@@ -1,1 +1,0 @@
-pecl package-info translit

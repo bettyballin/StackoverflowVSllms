@@ -1,1 +1,0 @@
-using System.Numerics;\n\nclass Program\n{\n    static void Main()\n    {\n        Vector<float> a = new Vector<float>(new float[] { 1, 2, 3, 4 });\n        Vector<float> b = new Vector<float>(new float[] { 5, 6, 7, 8 });\n\n        Vector<float> result = a + b;\n\n        Console.WriteLine(result);\n    }\n}

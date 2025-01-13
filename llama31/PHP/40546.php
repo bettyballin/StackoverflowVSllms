@@ -1,0 +1,1 @@
+$handle = fopen($file, 'r+');\nif ($handle === false) {\n    // Handle the error, e.g., log it and implement your contingency plan\n    error_log("Failed to open file for writing: $file");\n    // Apply contingency plan here\n} else {\n    // Proceed with file operations\n    fwrite($handle, $str);\n    fclose($handle);\n}

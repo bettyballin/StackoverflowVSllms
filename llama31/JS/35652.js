@@ -1,0 +1,1 @@
+$.ajax({\n    type: 'POST',\n    url: 'your_php_script.php',\n    data: $('#myForm').serialize(),\n    success: function(data) {\n        // handle response\n    }\n});

@@ -1,0 +1,1 @@
+SELECT e.*, s.score, s.date_added\nFROM entities e\nLEFT JOIN (\n  SELECT entity_id, score, date_added,\n         ROW_NUMBER() OVER (PARTITION BY entity_id ORDER BY date_added DESC) as score_rank\n  FROM scores\n) s ON e.id = s.entity_id AND s.score_rank = 1

@@ -1,1 +1,0 @@
-table {\n  width: 100%;\n  max-width: 800px; /* set the maximum width in pixels */\n}\n\nth, td {\n  width: 20%; /* set the percentage width for columns */\n  min-width: 150px; /* set the minimum width in pixels */\n}

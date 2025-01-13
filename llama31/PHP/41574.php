@@ -1,0 +1,1 @@
+$cookieValue = $_COOKIE['test'];\n$salt = 'mysalt';\n\n// create a new hash with the salt\n$newHash = SHA1($salt . $cookieValue);\n\n// now query the database\n$stmt = $mysqli->prepare("SELECT * FROM users WHERE SHA1(CONCAT(?, `id`)) = ?");\n$stmt->bind_param("ss", $salt, $newHash);\n$stmt->execute();

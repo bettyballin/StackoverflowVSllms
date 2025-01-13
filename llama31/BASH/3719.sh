@@ -1,1 +1,0 @@
-procdump.exe -ma <process_name> <dump_file>

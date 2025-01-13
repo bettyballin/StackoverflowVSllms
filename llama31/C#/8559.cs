@@ -1,1 +1,0 @@
-port.DataReceived += new SerialDataReceivedEventHandler(port_DataReceived);\n\nvoid port_DataReceived(object sender, SerialDataReceivedEventArgs e)\n{\n    string data = port.ReadLine();\n    Console.WriteLine(data);\n}

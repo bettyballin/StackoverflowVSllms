@@ -1,0 +1,1 @@
+$string = "hello, this is some email copy-- check this out\n --\n Tom Foolery";\n$signatureDelimiter = '--';\n\n$string = preg_replace('/' . preg_quote($signatureDelimiter, '/') . '[\s\S]*$/', '', $string);\n\necho $string;

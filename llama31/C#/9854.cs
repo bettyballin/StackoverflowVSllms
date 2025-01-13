@@ -1,1 +1,0 @@
-DataSet ds = new DataSet();\n// populate the dataset\n\n// Create a read-only view of the DataSet\nDataSet readOnlyDs = ds.GetDataReader().GetDataSet();

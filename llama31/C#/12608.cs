@@ -1,1 +1,0 @@
-using NHibernate.Validator;\nusing NHibernate.Validator.Rules;\n\npublic class User : IValidatable\n{\n    [NotNullNotEmpty]\n    public string Name { get; set; }\n\n    [Email]\n    public string Email { get; set; }\n}

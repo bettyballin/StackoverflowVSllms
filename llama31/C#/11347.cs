@@ -1,1 +1,0 @@
-using System.Web;\n\npublic class MyHandler : IHttpHandler\n{\n    public void ProcessRequest(HttpContext context)\n    {\n        string parameter = context.Request.QueryString["param"];\n        string result = "Hello, " + parameter;\n        context.Response.Write(result);\n    }\n\n    public bool IsReusable { get { return true; } }\n}

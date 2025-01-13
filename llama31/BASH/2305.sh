@@ -1,1 +1,0 @@
-rsync -avz --link-dest=previous_backup/ source/ current_backup/

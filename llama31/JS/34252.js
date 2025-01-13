@@ -1,0 +1,1 @@
+const colors = [...]; // your array of hex colors\nconst container = document.createElement('div');\n\ncolors.forEach((color) => {\n  const div = document.createElement('div');\n  div.style.width = '80px';\n  div.style.height = '80px';\n  div.style.background = color;\n  container.appendChild(div);\n});\n\ndocument.body.appendChild(container);

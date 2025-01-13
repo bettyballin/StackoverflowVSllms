@@ -1,1 +1,0 @@
-#ifndef SPOOLER_H\n#define SPOOLER_H\n// ... your header file content ...\n#endif  // SPOOLER_H

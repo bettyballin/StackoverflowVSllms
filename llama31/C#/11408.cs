@@ -1,1 +1,0 @@
-void MyMethod(object arg) { Console.WriteLine("object"); }\nvoid MyMethod(string arg) { Console.WriteLine("string"); }\n\n// This calls the "object" overload\nMyMethod(null); \n\n// This calls the "string" overload\nMyMethod((string)null);

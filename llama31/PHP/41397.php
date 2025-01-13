@@ -1,0 +1,1 @@
+$html = '<img src="example.jpg"\nalt="example">';\n$regex = '/<[^>]*\n[^>]*>/';\npreg_match($regex, $html, $match);\nif ($match) {\n    $tag = preg_replace('/\n/', '', $match[0]);\n    echo $tag; // Output: <img src="example.jpg"alt="example">\n}

@@ -1,0 +1,1 @@
+$stmt = $db->query('SELECT last_insert_rowid()');\n$lastInsertId = $stmt->fetchColumn(0);

@@ -1,0 +1,1 @@
+GRANT GRANT OPTION ON OBJECT::schema_name.table_name TO developer_login;

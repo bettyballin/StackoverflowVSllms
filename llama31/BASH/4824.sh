@@ -1,1 +1,0 @@
-sc config YourServiceName obj= DOMAIN\Username password= Password

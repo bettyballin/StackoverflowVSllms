@@ -1,1 +1,0 @@
-using System.Web;\n\npublic class MyModule : IHttpModule\n{\n    public void Init(HttpApplication context)\n    {\n#if IIS7\n        // IIS7-specific code\n        HttpContext currentContext = context.Context;\n#else\n        // IIS6-specific code\n        HttpContext currentContext = HttpContext.Current;\n#endif\n    }\n\n    public void Dispose()\n    {\n    }\n}

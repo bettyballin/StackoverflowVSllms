@@ -1,0 +1,1 @@
+ALTER ROLE [MyCustomRole] ADD MEMBER [MyUser];

@@ -1,0 +1,1 @@
+const nsIURI = Components.interfaces.nsIURI;\nconst uri = Components.classes["@mozilla.org/network/standard-url;1"]\n                     .createInstance(nsIURI);\n\ntry {\n  uri.spec = userInput;\n  // if we reach this point, the input is a valid URI\n} catch (e) {\n  // if an exception is thrown, the input is not a valid URI\n}

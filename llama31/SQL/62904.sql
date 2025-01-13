@@ -1,0 +1,1 @@
+CREATE TABLE mytable (\n  id INT PRIMARY KEY,\n  name VARCHAR(255) CHARACTER SET utf8 COLLATE utf8_unicode_ci\n);

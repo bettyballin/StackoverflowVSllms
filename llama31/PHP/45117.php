@@ -1,0 +1,1 @@
+$role_auth = @$_SESSION['role_auth'];\nif(!is_null($role_auth) && is_numeric($role_auth)) {\n    access($role_auth, array(0,1,2,3,4));\n} else {\n    header("Location: ../index.html");\n    exit;\n}

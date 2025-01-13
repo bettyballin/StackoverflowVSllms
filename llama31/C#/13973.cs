@@ -1,1 +1,0 @@
-using System.Xml;\n\nXmlDocument doc1 = new XmlDocument();\ndoc1.Load("file1.xml");\n\nXmlDocument doc2 = new XmlDocument();\ndoc2.Load("file2.xml");\n\n// Compare the documents using a custom function or library

@@ -1,1 +1,0 @@
-// Linux side\n#include <sys/socket.h>\n#include <netinet/in.h>\n#include <arpa/inet.h>\n\n// Create a socket client\nint clientSocket = socket(AF_INET, SOCK_STREAM, 0);\nconnect(clientSocket, ...);\n\n// Send request to the Windows server\n// Read response from the server

@@ -1,1 +1,0 @@
-.container {\n  display: flex;\n  flex-direction: column;\n  min-height: 100vh;\n}\n\n.sidebar {\n  flex-basis: 200px; /* fixed width */\n  background-color: #f0f0f0;\n}\n\n.content {\n  flex-grow: 1;\n  background-color: #ffffff;\n}\n\n.footer {\n  background-color: #333333;\n  color: #ffffff;\n}

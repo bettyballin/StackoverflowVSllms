@@ -1,1 +1,0 @@
-// Implement logging mechanisms in your application\n// to gather error information and debug messages\nusing System.Diagnostics;\n\n// ...\n\nprivate void LogError(string message)\n{\n    Log.WriteLine("Error: " + message);\n}\n\n// ...\n\nprivate void LogDebug(string message)\n{\n    Log.WriteLine("Debug: " + message);\n}

@@ -1,1 +1,0 @@
-#include <Windows.h>\n\n// ...\n\n// Get the handle of the minimized window\nHWND hWnd = ...;\n\n// Move the window off-screen\nSetWindowPos(hWnd, HWND_BOTTOM, -1000, -1000, 0, 0, SWP_NOSIZE | SWP_NOZORDER);

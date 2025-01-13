@@ -1,0 +1,1 @@
+INSERT INTO BorrowerGroups DEFAULT VALUES;

@@ -1,0 +1,1 @@
+public function renderSomeHTML($topOfThePage = true) {\n    // Use $topOfThePage here\n}

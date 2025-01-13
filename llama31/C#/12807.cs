@@ -1,1 +1,0 @@
-MyType mFalse = new MyType(-100);\nMyType mTrue = new MyType(100);\n\nif (mFalse && mTrue) { /* this will not be executed */ }

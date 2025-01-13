@@ -1,1 +1,0 @@
-#divHeader {\n    height: 50px;\n}\n\n#divContainer {\n    position: absolute;\n    top: 50px; /* height of header */\n    bottom: 50px; /* height of footer */\n    width: 100%;\n    display: flex;\n    align-items: center;\n}\n\n#divContent {\n    margin: auto;\n}\n\n#divFooter {\n    height: 50px;\n    position: absolute;\n    bottom: 0;\n    width: 100%;\n}

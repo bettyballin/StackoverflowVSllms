@@ -1,0 +1,1 @@
+<location path="Css">\n  <system.web>\n    <authorization>\n      <allow users="*" />\n    </authorization>\n  </system.web>\n</location>\n<location path="Images">\n  <system.web>\n    <authorization>\n      <allow users="*" />\n    </authorization>\n  </system.web>\n</location>

@@ -1,1 +1,0 @@
-java -jar sqlformat.jar -i input.sql -o output.sql

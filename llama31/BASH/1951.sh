@@ -1,1 +1,0 @@
-# Create a new permission level\n$web = Get-SPWeb "https://your-site-url"\n$permissionLevel = New-SPPermissionLevel -Web $web -Name "Restricted Read" -Description "Limited read-only access"\n$permissionLevel.AddPermission([Microsoft.SharePoint.SPRights]::Read)\n$permissionLevel.Update()

@@ -1,1 +1,0 @@
-#include "minunit.h"\n\nint add(int a, int b) {\n    return a + b;\n}\n\nMU_TEST(test_add) {\n    MU_ASSERT_INT_EQ(2, add(1, 1));\n    MU_ASSERT_INT_EQ(3, add(2, 1));\n}\n\nint main() {\n    MU_RUN_TEST(test_add);\n    return 0;\n}

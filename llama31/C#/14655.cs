@@ -1,1 +1,0 @@
-// example usage:\nusing Microsoft.Diagnostics.Tracing;\nusing System.Diagnostics;\n\nclass ProfilingTests\n{\n    public void TestProfiling()\n    {\n        // ...\n    }\n}

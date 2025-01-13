@@ -1,1 +1,0 @@
-// Assembly-level permission\n[assembly: SecurityPermission(SecurityAction.RequestMinimum, Execution = true)]\n\n// Method-level permission\n[SecurityPermission(SecurityAction.Demand, UnmanagedCode = true)]\npublic void MethodRequiringUnmanagedCode() { ... }

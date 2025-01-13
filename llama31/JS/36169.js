@@ -1,0 +1,1 @@
+<script type="text/javascript">\n  if (google.loader.ClientLocation) {\n    visitor_countrycode = google.loader.ClientLocation.address.country_code;\n    var script = document.createElement('script');\n    script.src = 'http://www.mysite.com/widget.php?mid=12&c=' + visitor_countrycode;\n    document.body.appendChild(script);\n  }\n</script>

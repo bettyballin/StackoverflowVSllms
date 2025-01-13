@@ -1,0 +1,1 @@
+const express = require('express');\nconst app = express();\n\napp.get('/download', (req, res) => {\n  const url = 'http://history.nasa.gov/monograph15b.pdf';\n  const filename = 'NASA.pdf';\n\n  res.set('Content-Disposition', `attachment; filename="${filename}"`);\n  res.set('Content-Type', 'application/pdf');\n\n  require('request')(url).pipe(res);\n});

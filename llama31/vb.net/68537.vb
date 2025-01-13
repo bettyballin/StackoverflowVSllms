@@ -1,0 +1,1 @@
+Dim userInput As String = "abc123def"\nDim correctedInput As Integer = CorrectInput(userInput)\nConsole.WriteLine(correctedInput)  ' Outputs: 123

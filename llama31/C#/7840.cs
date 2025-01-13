@@ -1,1 +1,0 @@
-public class SqlServerDataAdapter : SqlDataAdapter\n{\n    // Implementation\n}\n\npublic class OracleDataAdapter : OracleDataAdapter\n{\n    // Implementation\n}

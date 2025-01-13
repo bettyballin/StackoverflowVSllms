@@ -1,1 +1,0 @@
-switch (dayOfWeek) {\n    case DayOfWeek.Monday:\n        Console.WriteLine("Monday");\n        break;\n    case DayOfWeek.Tuesday:\n        Console.WriteLine("Tuesday");\n        break;\n    // ...\n}

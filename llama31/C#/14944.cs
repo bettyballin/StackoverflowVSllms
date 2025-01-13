@@ -1,1 +1,0 @@
-FileInfo newFile = new FileInfo(fileName);\nif (newFile.IsReadOnly)\n{\n    newFile.IsReadOnly = false;\n    File.Copy(newFile.FullName, Path.Combine(destinationDirPath, newFile.Name), true);\n    newFile.IsReadOnly = true; // restore the read-only attribute\n}\nelse\n{\n    File.Copy(newFile.FullName, Path.Combine(destinationDirPath, newFile.Name), true);\n}

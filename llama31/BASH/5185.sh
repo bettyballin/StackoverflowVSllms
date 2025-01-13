@@ -1,1 +1,0 @@
-sudo bash -c "ls -hal /root/ > /root/test.out"

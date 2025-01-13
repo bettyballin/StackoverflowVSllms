@@ -1,0 +1,1 @@
+exec('/usr/local/bin/restart_portmap');

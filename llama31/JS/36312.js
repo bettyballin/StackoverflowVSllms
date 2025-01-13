@@ -1,0 +1,1 @@
+// In the iframe\nwindow.parent.postMessage('expandAd', '*');\n\n// In the parent page\nwindow.addEventListener('message', function(event) {\n  if (event.data === 'expandAd') {\n    // Expand the iframe or adjust the ad size\n  }\n});

@@ -1,0 +1,1 @@
+CREATE TABLE example (\n    id INT PRIMARY KEY,\n    timestamp BIGINT\n);\n\nINSERT INTO example (id, timestamp) VALUES (1, -2208988800);  -- 1900-01-01 00:00:00\nINSERT INTO example (id, timestamp) VALUES (2, 253402300799);  -- 2050-01-01 00:00:00

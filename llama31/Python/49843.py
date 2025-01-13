@@ -1,0 +1,1 @@
+from django.db import models\n\nclass TABLE(models.Model):\n    id = models.AutoField(primary_key=True)\n    parent = models.ForeignKey("TABLE", on_delete=models.CASCADE, null=True, blank=True)

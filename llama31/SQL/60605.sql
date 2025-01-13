@@ -1,0 +1,1 @@
+SELECT value\nFROM (\n  VALUES ('aa'), ('bb'), ('cc')\n) AS values_table (value);

@@ -1,0 +1,1 @@
+SELECT \n    Website.*,\n    GETDATE() AS Timestamp\nINTO \n    [WebsiteHistory]\nFROM \n    [Website]

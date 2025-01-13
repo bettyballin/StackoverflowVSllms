@@ -1,0 +1,1 @@
+WITH MyCTE AS (\n  SELECT TOP (100) PERCENT ID, CAST(MyCol AS bigint) AS MyCol\n  FROM MyTable\n  WHERE isnumeric(MyCol) = 1\n)\nSELECT * FROM MyCTE WHERE MyCol = 1;

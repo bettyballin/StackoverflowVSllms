@@ -1,1 +1,0 @@
-Response.AddHeader("Content-Length", displayFile.Length.ToString());

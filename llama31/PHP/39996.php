@@ -1,0 +1,1 @@
+$storeHelper = $this->_helper->getHelper('Store');\n$store = $storeHelper->getStore();

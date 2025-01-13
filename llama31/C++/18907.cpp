@@ -1,1 +1,0 @@
-void InitFoo() {\n    static std::once_flag flag;\n    std::call_once(flag, [] {\n        // Actual code goes here.\n    });\n}

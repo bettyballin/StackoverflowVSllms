@@ -1,1 +1,0 @@
-// mydll.h\n#ifndef MYDLL_H\n#define MYDLL_H\n\n__declspec(dllexport) int calculateSquare(int num);\n\n#endif  // MYDLL_H

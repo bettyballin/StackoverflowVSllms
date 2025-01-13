@@ -1,0 +1,1 @@
+// insecure\necho $_GET['username'];\n\n// secure\n$username = filter_var($_GET['username'], FILTER_SANITIZE_STRING);\necho $username;

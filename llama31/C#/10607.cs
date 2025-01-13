@@ -1,1 +1,0 @@
-// In your code-behind\nprotected override void OnPreRender(EventArgs e)\n{\n    base.OnPreRender(e);\n    string script = $"var myObject_{ClientID} = new MyObject({{ x: {99} }});";\n    Page.ClientScript.RegisterStartupScript(GetType(), "myObject_" + ClientID, script, true);\n}

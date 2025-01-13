@@ -1,0 +1,1 @@
+CREATE NONCLUSTERED INDEX idx_myvarchar\nON mytable (id)\nINCLUDE (myvarchar);

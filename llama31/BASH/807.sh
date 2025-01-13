@@ -1,1 +1,0 @@
-screen -dm your_command

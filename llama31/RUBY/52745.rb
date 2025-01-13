@@ -1,0 +1,1 @@
+require 'rubygems'\nrequire 'crypt/blowfish'\n\nplain = "This is the plain text"\nputs plain\n\nblowfish = Crypt::Blowfish.new("A key up to 56 bytes long")\nenc = blowfish.encrypt_block(plain)\nputs enc\n\nhex_string = enc.unpack('H*').first\nputs hex_string

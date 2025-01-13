@@ -1,1 +1,0 @@
-using System.Data.SqlClient;\n\n// Create a new SqlConnection object\nSqlConnection connection = new SqlConnection("Your Connection String");\n\n// Open the connection\nconnection.Open();\n\n// Get the schema for the specified table\nDataTable schema = connection.GetSchema("Columns", new[] { "YourTableName" });\n\n// Close the connection\nconnection.Close();

@@ -1,1 +1,0 @@
-public class MyModel\n{\n    public string SelectedValue { get; set; }\n}\n\n[HttpPost]\npublic ActionResult MyAction(MyModel model)\n{\n    string selectedValue = model.SelectedValue;\n    // Do something with the selected value\n    return RedirectToAction("Index");\n}

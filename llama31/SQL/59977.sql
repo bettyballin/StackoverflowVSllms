@@ -1,0 +1,1 @@
+SELECT :pfilm AS debug_value FROM DUAL;

@@ -1,1 +1,0 @@
-gcc -o executable clean_code.o dirty_code.o --no-war

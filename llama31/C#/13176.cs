@@ -1,1 +1,0 @@
-// In your DLL\npublic class YourDllClass\n{\n    public void YourMethod()\n    {\n        var connectionString = ConfigurationManager.ConnectionStrings["YourConnectionStringName"].ConnectionString;\n        // Use the connection string here\n    }\n}

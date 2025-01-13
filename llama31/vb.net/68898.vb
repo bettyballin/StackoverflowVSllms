@@ -1,0 +1,1 @@
+Dim pub = _Data.publications.FirstOrDefault(Function(s) s.name = e..Value)\nIf pub Is Nothing Then\n    pub = New publication With {.name = e..Value}\nEnd If\n.publication = pub

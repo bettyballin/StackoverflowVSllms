@@ -1,1 +1,0 @@
-# Example of creating a virtual machine with VMware\n# Assuming you have VMware installed and an older OS X installer\nvmware create-vm --name "Safari 3 Test" --os "Mac OS X" --version "10.5"

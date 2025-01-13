@@ -1,1 +1,0 @@
-MenuStrip menuStrip1 = new MenuStrip();\n\n// ...\n\nforeach (ToolStripMenuItem item in menuStrip1.Items)\n{\n    item.Enabled = myUser.IsAdministrator;\n}

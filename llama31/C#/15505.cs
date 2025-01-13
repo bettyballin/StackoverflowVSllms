@@ -1,1 +1,0 @@
-using Microsoft.Win32;\n\nclass Program {\n    static void Main(string[] args) {\n        using (RegistryKey key = Registry.CurrentUser.OpenSubKey(@"Software\Microsoft\Windows\CurrentVersion\Explorer\User Shell Folders")) {\n            string programsPath = key.GetValue("Programs") as string;\n            // Use the path\n        }\n    }\n}

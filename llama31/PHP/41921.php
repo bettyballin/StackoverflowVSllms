@@ -1,0 +1,1 @@
+// Check for the cookie on the server-side (e.g. using PHP)\nif (!isset($_COOKIE['js_enabled'])) {\n  // JavaScript is likely disabled\n}

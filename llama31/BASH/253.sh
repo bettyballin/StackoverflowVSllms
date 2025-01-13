@@ -1,1 +1,0 @@
-strace -c -p <apache_pid>

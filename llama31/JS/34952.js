@@ -1,0 +1,1 @@
+fetch('myUrl.aspx', {\n  headers: {\n    'User-Agent': '',\n    'Accept': '',\n    'Accept-Language': '',\n    'Content-Type': ''\n  }\n})\n  .then(response => response.text())\n  .then(data => console.log(data));

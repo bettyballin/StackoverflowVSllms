@@ -1,1 +1,0 @@
-find /path/to/folder -type f -exec sed -i 's/old text/new text/g' {} \;

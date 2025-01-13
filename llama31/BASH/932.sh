@@ -1,1 +1,0 @@
-keytool -import -v -alias mycert -file mycert.cer -keystore truststore.jks -storepass changeit

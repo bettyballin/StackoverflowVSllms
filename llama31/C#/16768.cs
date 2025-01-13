@@ -1,1 +1,0 @@
-// SQL Server Express (C#)\nusing (SqlConnection connection = new SqlConnection(connectionString))\n{\n    connection.Open();\n    // Use the connection\n}

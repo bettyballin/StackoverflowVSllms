@@ -1,1 +1,0 @@
-#include <boost/format.hpp>\n#include <iostream>\n\nint main() {\n    std::wstring s = boost::str(boost::wformat(L"Hello, %s!") % L"World");\n    std::wcout << s << std::endl;\n    return 0;\n}

@@ -1,1 +1,0 @@
-File.WriteAllBytes("output.txt", File.ReadAllBytes("header.txt").Concat(File.ReadAllBytes("content.txt")).Concat(File.ReadAllBytes("footer.txt")).ToArray());

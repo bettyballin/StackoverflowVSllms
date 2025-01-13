@@ -1,1 +1,0 @@
-using System;\nusing System.IO;\nusing System.Linq;\n\npublic class Program\n{\n    public static void Main()\n    {\n        string filePath = "path_to_your_file.txt";\n        int desiredLineNumber = 5;\n\n        string line = File.ReadLines(filePath).Skip(desiredLineNumber - 1).FirstOrDefault();\n\n        Console.WriteLine(line);\n    }\n}

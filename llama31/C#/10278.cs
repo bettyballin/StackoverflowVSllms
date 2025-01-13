@@ -1,1 +1,0 @@
-public class CustomerMapper {\n    public Customer MapToCustomer(DbDataReader reader) { ... }\n    public void MapToDb(Customer customer, DbCommand command) { ... }\n}

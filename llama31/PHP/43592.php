@@ -1,0 +1,1 @@
+interface PluginInterface {\n    public function getName();\n    public function getDescription();\n    public function init();\n    public function run();\n}

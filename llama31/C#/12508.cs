@@ -1,1 +1,0 @@
-CustomerList.ItemsSource = _mainViewModel.CustomerCollection;

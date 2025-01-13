@@ -1,0 +1,1 @@
+/**\n * mymodule.module\n */\nfunction mymodule_menu() {\n  $items = array();\n  return $items;\n}

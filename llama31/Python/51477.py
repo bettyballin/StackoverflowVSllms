@@ -1,0 +1,1 @@
+import uuid\nimport secrets\n\ndef generate_id():\n    return uuid.UUID(secrets.token_bytes(16))

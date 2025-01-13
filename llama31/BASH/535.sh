@@ -1,1 +1,0 @@
-smbclient //server/share -U username -c "pread file.txt 1024 4096"

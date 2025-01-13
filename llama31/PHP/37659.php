@@ -1,0 +1,1 @@
+$pw = 'my_password';\n$salt = '$6$' . substr(sha1(rand()), 0, 16); // generate a random salt\n$hashed_pw = crypt($pw, $salt);

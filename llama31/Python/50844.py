@@ -1,0 +1,1 @@
+import re\n\ntext = "Hello, world!"\n\n# re.match() only matches at the beginning of the string\nmatch = re.match("world", text)\nprint(match)  # Output: None\n\n# re.search() matches anywhere in the string\nsearch = re.search("world", text)\nprint(search)  # Output: <_sre.SRE_Match object; span=(7, 12), match='world'>

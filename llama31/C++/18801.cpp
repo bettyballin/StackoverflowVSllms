@@ -1,1 +1,0 @@
-// CustomBuildTool.cpp\n#include <Windows.h>\n\nint main(int argc, char* argv[])\n{\n    // Run your generator tool here\n    // For example:\n    system("own_generator.exe X.own X.h");\n    return 0;\n}

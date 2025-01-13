@@ -1,1 +1,0 @@
-using Microsoft.Practices.EnterpriseLibrary.Data;\nusing Microsoft.Practices.EnterpriseLibrary.Data.Sql;\n\n// Create a Database object\nDatabase db = DatabaseFactory.CreateDatabase();\n\n// Create a Command object\nDbCommand cmd = db.GetSqlStringCommand("SELECT * FROM Customers");\n\n// Execute the command and retrieve the data\nDataSet dataSet = db.ExecuteDataSet(cmd);

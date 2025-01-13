@@ -1,0 +1,1 @@
+$dateString = '2022-07-25';\n$mysqlTimestamp = strtotime($dateString);

@@ -1,0 +1,1 @@
+class Page {\n    private $db;\n\n    public function __construct() {\n        $config = // load config from file\n        $this->db = new DB($config);\n    }\n}

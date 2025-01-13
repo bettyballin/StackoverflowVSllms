@@ -1,1 +1,0 @@
-gcc -shared -o myextension.so -I/usr/include/php/20190902 -lphp7.4 myextension.c

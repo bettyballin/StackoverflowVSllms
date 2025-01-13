@@ -1,0 +1,1 @@
+$db['default']['char_set'] = 'utf8';\n$db['default']['dbcollat'] = 'utf8_general_ci';

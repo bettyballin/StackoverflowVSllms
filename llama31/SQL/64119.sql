@@ -1,0 +1,1 @@
+SELECT p.PatientID, \n       MIN(v.VisitDate) AS FirstVisitDate, \n       v.HeartRate AS FirstVisitHeartRate\nFROM Patient p\nJOIN Visit v ON p.PatientID = v.PatientID\nGROUP BY p.PatientID

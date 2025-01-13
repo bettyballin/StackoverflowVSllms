@@ -1,0 +1,1 @@
+// In your model\nfunction __construct($params = array()) {\n    parent::__construct();\n    $this->params = $params;\n}\n\n// In your controller\n$params = array('order_by' => 'column_name');\n$this->load->model('model_name', $params);

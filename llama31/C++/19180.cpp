@@ -1,1 +1,0 @@
-// myexception.h\n#ifndef MYEXCEPTION_H\n#define MYEXCEPTION_H\n\nclass MyException : public std::exception {\npublic:\n    MyException(const char* message) : message_(message) {}\n    const char* what() const override { return message_; }\n\nprivate:\n    const char* message_;\n};\n\n#endif  // MYEXCEPTION_H

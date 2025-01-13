@@ -1,1 +1,0 @@
-etstat -an | grep <port_number>

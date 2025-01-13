@@ -1,1 +1,0 @@
-for file in *.php; do\n  unexpand -t 4 "$file" > "${file}.tmp"\n  mv "${file}.tmp" "$file"\ndone

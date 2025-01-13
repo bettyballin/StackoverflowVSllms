@@ -1,0 +1,1 @@
+Dim noGroup = (From item In items _\n               Where item.Relationships.All(Function(r) Not groupIds.Contains(r.TargetID)) _\n               Select item).ToList

@@ -1,1 +1,0 @@
-CRect rect(10, 10, 200, 200); // adjust the size and position as needed\npDotNetControl->CreateControl(rect, this, 100); // 100 is a control ID

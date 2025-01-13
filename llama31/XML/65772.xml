@@ -1,0 +1,1 @@
+<?xml version="1.0" encoding="UTF-8"?>\n<!DOCTYPE project SYSTEM "http://www.apache.org/tools/ant/dtd/ant.dtd" [\n  <!ENTITY % ant SYSTEM "http://www.apache.org/tools/ant/dtd/ant.dtd">\n  %ant;\n]>

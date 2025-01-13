@@ -1,1 +1,0 @@
-ModelState.AddModelError("_FORM", ex.Message);

@@ -1,1 +1,0 @@
-public class MyHelper {\n    private readonly IConfiguration _configuration;\n\n    public MyHelper(IConfiguration configuration) {\n        _configuration = configuration;\n    }\n\n    public void MyMethod() {\n        // use _configuration\n    }\n}

@@ -1,0 +1,1 @@
+$.ajax({\n    type: "POST",\n    url: "MyUrl",\n    data: "val1=test",\n    success: function(result){\n        // Do stuff\n    },\n    error: function(xhr, status, errorThrown) {\n        var error = xhr.responseJSON.error;\n        alert(error);\n    }\n});

@@ -1,1 +1,0 @@
-java -XX:+UseConcMarkSweepGC -jar yourapplication.jar

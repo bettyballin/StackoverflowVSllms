@@ -1,1 +1,0 @@
-oracleasm configure -i

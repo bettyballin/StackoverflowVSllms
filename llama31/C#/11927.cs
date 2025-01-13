@@ -1,1 +1,0 @@
-protected void btnDelete_Click(object sender, EventArgs e)\n{\n    // Directly proceed with the deletion logic here\n    // Code to delete the record\n}

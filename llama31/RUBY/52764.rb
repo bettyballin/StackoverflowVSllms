@@ -1,0 +1,1 @@
+class ApplicationController < ActionController::Base\n  def error_messages_for(object)\n    if object.errors.any?\n      I18n.t('errors.template.header', count: object.errors.count, model: object.class.model_name.human)\n    else\n      ''\n    end\n  end\nend

@@ -1,0 +1,1 @@
+$htmlForm = '<form id="frmlogin" action="" method="post">';

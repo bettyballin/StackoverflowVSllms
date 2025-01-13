@@ -1,1 +1,0 @@
-.ui-autocomplete {\n  position: absolute;\n  z-index: 1000;\n  background-color: #fff;\n  border: 1px solid #ddd;\n  padding: 5px;\n}\n\n.ui-autocomplete .ui-menu-item {\n  padding: 5px;\n  border-bottom: 1px solid #ddd;\n  cursor: pointer;\n}\n\n.ui-autocomplete .ui-menu-item:hover {\n  background-color: #f0f0f0;\n}

@@ -1,0 +1,1 @@
+Dim stream As New MemoryStream(buffer, False)\nTry\n    bitmap.BeginInit()\n    bitmap.CacheOption = BitmapCacheOption.OnLoad\n    bitmap.StreamSource = stream\n    bitmap.EndInit()\n    bitmap.Freeze()\nFinally\n    stream.Dispose()\nEnd Try

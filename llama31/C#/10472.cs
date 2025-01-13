@@ -1,1 +1,0 @@
-[HttpPost]\npublic PartialViewResult AddRecord()\n{\n    // Add new record to database\n    var newRecord = new MyModel();\n    // ...\n    db.MyModels.Add(newRecord);\n    db.SaveChanges();\n\n    return PartialView("_GridRow", newRecord);\n}

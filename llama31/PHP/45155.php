@@ -1,0 +1,1 @@
+if ($_FILES["file"]["error"] > 0) {\n    echo "Error: " . $_FILES["file"]["error"];\n} else {\n    $filename = $_FILES["file"]["name"];\n    $tmpname = $_FILES["file"]["tmp_name"];\n    move_uploaded_file($tmpname, "uploads/" . $filename);\n}

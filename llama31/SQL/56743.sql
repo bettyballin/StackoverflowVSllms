@@ -1,0 +1,1 @@
+SELECT COUNT(predicate), subject\nFROM TableA\nGROUP BY subject\nINTO OUTFILE '/tmp/output.txt';

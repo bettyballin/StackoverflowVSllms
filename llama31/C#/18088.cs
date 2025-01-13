@@ -1,1 +1,0 @@
-HttpWebRequest request = (HttpWebRequest)WebRequest.Create("https://example.com");\n\n// ...\n\nusing (Stream stream = request.GetRequestStream())\n{\n    stream.Position = 0;\n    using (StreamReader reader = new StreamReader(stream))\n    {\n        string requestBody = reader.ReadToEnd();\n        Console.WriteLine(requestBody);\n    }\n}

@@ -1,0 +1,1 @@
+$testPics = takeFiles($picsDir, "/\.(jpg|JPG|jpeg|JPEG|png|PNG|gif|GIF)$/");

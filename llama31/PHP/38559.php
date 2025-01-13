@@ -1,0 +1,1 @@
+$name = "DFectuoso";\n$path = "/path/to/your/files/"; // Make sure to include the trailing slash\n\n$files = glob($path . $name . "*");\n\nforeach ($files as $file) {\n    // For security, ensure we only deal with files\n    if (is_file($file)) {\n        echo "<a href='" . basename($file) . "'>" . basename($file) . "</a><br>";\n    }\n}

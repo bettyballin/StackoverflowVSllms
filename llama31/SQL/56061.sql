@@ -1,0 +1,1 @@
+SELECT [...]\nFROM [...]\nWHERE (some_col in (1,2,3) or some_col in (4,5)) AND some_other_expr

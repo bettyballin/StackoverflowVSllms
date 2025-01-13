@@ -1,1 +1,0 @@
-void function(int a, int... args, int theend) {\n    // ...\n}\n\n// Valid calls:\nfunction(1, 2);\nfunction(1, 3, 4);\nfunction(1, 5, 6, 7);

@@ -1,0 +1,1 @@
+document.getElementById('paste-input').addEventListener('paste', function(event) {\n  event.preventDefault();\n  const pastedData = event.clipboardData.getData('text/plain');\n  // Process the pasted data and populate your grid\n  // ...\n});

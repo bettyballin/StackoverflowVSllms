@@ -1,0 +1,1 @@
+SELECT *\nFROM your_table\nORDER BY FIELD(Code, 'Health', 'Phone', 'Freeze', 'Hot');

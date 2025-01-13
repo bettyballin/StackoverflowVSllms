@@ -1,1 +1,0 @@
-public void UpdatePerson(Person person)\n{\n    using (var dataContext = new DataContext())\n    {\n        dataContext.Person.Attach(person);\n        dataContext.Entry(person).State = EntityState.Modified;\n        dataContext.SaveChanges();\n    }\n}

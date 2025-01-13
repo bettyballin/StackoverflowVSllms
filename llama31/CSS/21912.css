@@ -1,1 +1,0 @@
-.combo-box {\n  position: relative;\n}\n\n.down-arrow {\n  position: absolute;\n  right: 5px;\n  top: 50%;\n  transform: translateY(-50%);\n  background-image: url('down-arrow.png'); /* replace with your image */\n  background-size: 10px 10px;\n  width: 10px;\n  height: 10px;\n}

@@ -1,0 +1,1 @@
+SELECT \n  zr.zip, \n  MIN(CASE WHEN SUM(locations) OVER (PARTITION BY zr.zip ORDER BY zipdistance(zr.zip, za.zip)) >= n THEN zipdistance(zr.zip, za.zip) END) AS min_distance\nFROM \n  zips_required zr \n  LEFT JOIN zips_available za ON (zipdistance(zr.zip, za.zip) < 100) -- arbitrary large distance\nGROUP BY \n  zr.zip

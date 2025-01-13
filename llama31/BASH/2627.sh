@@ -1,1 +1,0 @@
-doxygen -w html -o single_html

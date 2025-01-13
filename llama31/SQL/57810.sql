@@ -1,0 +1,1 @@
+SELECT \n  cost, \n  participant, \n  ROUND(cost / participant) AS single_cost\nFROM \n  your_table;

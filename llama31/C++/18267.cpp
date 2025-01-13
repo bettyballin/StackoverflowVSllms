@@ -1,1 +1,0 @@
-// external_linkage.cpp\nint x = 5; // external linkage\n\n// another_file.cpp\nextern int x; // declare x with external linkage\nint main() {\n    return x;\n}

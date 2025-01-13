@@ -1,1 +1,0 @@
-#include <unordered_map>\n#include <string>\n\nint main() {\n    std::unordered_map<std::string, int> dictionary;\n    dictionary["one"] = 1;\n    dictionary["two"] = 2;\n    return 0;\n}

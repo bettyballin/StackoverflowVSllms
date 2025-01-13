@@ -1,1 +1,0 @@
-pdftotext -layout resume.pdf

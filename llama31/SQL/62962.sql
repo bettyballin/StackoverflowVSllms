@@ -1,0 +1,1 @@
+RESTORE LOG [your_database_name] FROM DISK = 'C:\Path\To\Backup\TransactionLog.bak' WITH STOPAT = 'YYYY-MM-DD HH:MM:SS'

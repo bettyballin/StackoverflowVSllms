@@ -1,0 +1,1 @@
+<p>\n  <b>Name:</b>\n  <%= @contact.name %>\n</p>\n\n<p>\n  <b>Email:</b>\n  <%= @contact.email %>\n</p>\n\n<p>\n  <b>Phone:</b>\n  <%= @contact.phone %>\n</p>\n\n<%= link_to 'Edit', edit_contact_path(@contact) %> |\n<%= link_to 'Back', contacts_path %>

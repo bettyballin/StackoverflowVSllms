@@ -1,0 +1,1 @@
+$.ajax({\n    // ...\n    success: function(data) {\n        if (typeof data === 'object') {\n            // JSON response\n        } else if (typeof data === 'string') {\n            // HTML or XML response\n        }\n    }\n});

@@ -1,0 +1,1 @@
+// apps/frontend/modules/categories/actions/actions.class.php\n\npublic function executeAddProductToCart(sfWebRequest $request)\n{\n  $form = new CartAddProductForm();\n  $form->bind($request->getParameter($form->getName()));\n\n  if ($form->isValid()) {\n    // Add the product to the cart\n    // ...\n  }\n}

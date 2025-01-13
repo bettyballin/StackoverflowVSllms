@@ -1,1 +1,0 @@
-gunzip -c dumpfile.gz | isql -n -S <server_name> -U <username> -P <password>

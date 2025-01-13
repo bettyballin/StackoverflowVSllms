@@ -1,0 +1,1 @@
+DECLARE @locations LocationTableType;\nINSERT INTO @locations (location_id) VALUES (2), (3), (4), (5);\nEXEC GetApps @locations;

@@ -1,1 +1,0 @@
-TCHAR szVolumeName[MAX_PATH];\nDWORD dwVolumeSerialNumber;\nDWORD dwMaximumComponentLength;\nDWORD dwFileSystemFlags;\nTCHAR szFileSystemName[MAX_PATH];\n\nif (GetVolumeInformation(pVol->dbcv_unitmask, szVolumeName, MAX_PATH, &dwVolumeSerialNumber, &dwMaximumComponentLength, &dwFileSystemFlags, szFileSystemName, MAX_PATH)) {\n    // Handle the volume information\n}

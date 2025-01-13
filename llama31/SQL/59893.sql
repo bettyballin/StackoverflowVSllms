@@ -1,0 +1,1 @@
+SELECT value - (SELECT TOP 1 value FROM table WHERE id < t1.id ORDER BY id DESC) AS difference\nFROM table t1

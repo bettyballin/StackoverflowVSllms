@@ -1,1 +1,0 @@
-#include <stdio.h>\n\nint main() {\n    FILE *fp = fopen("large_file.bin", "rb");\n    if (fp == NULL) {\n        // handle error\n    }\n\n    // Seek to the desired offset\n    fseek(fp, 1024 * 1024, SEEK_SET); // 1MB offset\n\n    // Read 4KB of data\n    char buffer[4096];\n    fread(buffer, 1, 4096, fp);\n\n    fclose(fp);\n    return 0;\n}

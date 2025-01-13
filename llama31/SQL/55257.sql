@@ -1,0 +1,1 @@
+-- Create a covering index on the main table\nCREATE INDEX idx_field ON table (field);\n\n-- Query the cache table\nSELECT * FROM cachetable;\n\n-- Query the main table using the covering index\nSELECT DISTINCT field FROM table;

@@ -1,1 +1,0 @@
-var start = new DateTime(2009, 1, 1, 1, 0, 0);\nvar end = new DateTime(2009, 1, 6, 17, 0, 0);\nvar recurrence = TimeSpan.FromYears(1); // or TimeSpan.FromMonths(6), etc.\nvar date = new DateTime(2010, 1, 3);\n\nif (IsDateBetweenRecurringSpan(date, start, end, recurrence))\n{\n    Console.WriteLine("Date is between recurring span");\n}

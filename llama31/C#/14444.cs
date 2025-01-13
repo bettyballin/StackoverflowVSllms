@@ -1,1 +1,0 @@
-[WebMethod]\n[ScriptMethod(UseHttpGet = true)]\npublic string GetData()\n{\n    // This method can only be called using HTTP GET\n    return "Some data";\n}\n\n[WebMethod]\n[ScriptMethod(UseHttpPost = true)]\npublic string SaveData(string data)\n{\n    // This method can only be called using HTTP POST\n    return "Data saved";\n}

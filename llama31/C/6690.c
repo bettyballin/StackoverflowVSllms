@@ -1,1 +1,0 @@
-#include <stdio.h>\n#include <sys/stat.h>\n\nint is_pipe(FILE *fp) {\n    int fd = fileno(fp);\n    struct stat st;\n    if (fstat(fd, &st) == -1) {\n        return -1; // error\n    }\n    return S_ISFIFO(st.st_mode);\n}

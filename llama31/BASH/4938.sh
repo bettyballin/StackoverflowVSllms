@@ -1,1 +1,0 @@
-curl -X POST -d "key=value&key2=value2" http://example.com

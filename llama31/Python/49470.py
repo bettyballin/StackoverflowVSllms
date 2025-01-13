@@ -1,0 +1,1 @@
+import cProfile\nimport pstats\n\ndef my_function():\n    # your code here\n\nif __name__ == "__main__":\n    profiler = cProfile.Profile()\n    profiler.enable()\n    my_function()\n    profiler.disable()\n    pstats.Stats(profiler).dump_stats('profile.stats')

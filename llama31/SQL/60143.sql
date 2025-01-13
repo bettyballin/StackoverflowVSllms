@@ -1,0 +1,1 @@
+SELECT DATE_FORMAT(STR_TO_DATE('01/09', '%m/%y'), '%M %Y') AS formatted_date;

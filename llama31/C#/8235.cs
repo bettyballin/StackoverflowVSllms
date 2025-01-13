@@ -1,1 +1,0 @@
-var grid = new DynamicPropertyGrid();\n\ngrid.AddProperty("MyStringProperty", typeof(string));\ngrid.AddProperty("MyColorProperty", typeof(Color));\ngrid.AddProperty("MyDateTimeProperty", typeof(DateTime));\n\n// Set the selected object to an instance of a class that has no properties\ngrid.SelectedObject = new object();\n\n// Show the property grid\ngrid.ShowDialog();

@@ -1,0 +1,1 @@
+text = "hello john\nyour username is: jj\nthanks for signing up\n"\nmatch = text.match(/your username is: (.*)/)\nvalue = match[1] if match

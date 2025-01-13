@@ -1,1 +1,0 @@
-DataView dv = new DataView(myDS.myTable);\nDataTable uniqueTable = dv.ToTable(true, "id");\n\nstring filter = "id IN (SELECT parentID FROM myOtherTable)";\nDataView filteredDV = new DataView(uniqueTable, filter, "name asc", DataViewRowState.CurrentRows);

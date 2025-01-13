@@ -1,0 +1,1 @@
+# Install twilio-python\npip install twilio\n\n# Send an SMS using Twilio's Python library\nfrom twilio.rest import Client\n\naccount_sid = "your_account_sid"\nauth_token = "your_auth_token"\nclient = Client(account_sid, auth_token)\n\nmessage = client.messages.create(\n    from_="your_twilio_number",\n    body="Hello from Linux!",\n    to="+1234567890"\n)

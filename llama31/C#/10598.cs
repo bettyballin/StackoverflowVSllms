@@ -1,1 +1,0 @@
-using (var transaction = db.Connection.BeginTransaction())\n{\n    try\n    {\n        // Insert new record\n        transaction.Commit();\n    }\n    catch\n    {\n        transaction.Rollback();\n    }\n}

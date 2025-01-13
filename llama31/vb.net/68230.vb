@@ -1,0 +1,1 @@
+Dim result As Integer = task("123", GetType(Integer))

@@ -1,1 +1,0 @@
-#include <list>\n\nint main() {\n    std::list<int> the_list = {4, 2, 7, 1, 3};\n    the_list.sort();\n    // the_list is now sorted\n    return 0;\n}

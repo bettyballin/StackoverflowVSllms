@@ -1,0 +1,1 @@
+SELECT synonym_name, table_owner, table_name\nFROM all_synonyms\nWHERE synonym_name = '<procedure name>';

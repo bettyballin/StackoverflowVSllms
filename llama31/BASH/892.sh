@@ -1,1 +1,0 @@
-# Create a new Twilio account and purchase a phone number\n# Install the Twilio CLI and authenticate your account\ntwilio login\n\n# Create a new TwiML bin for incoming SMS messages\ntwilio api:core:v1:accounts:twiml-bins:create \\n  --friendly-name "SMS Alert" \\n  --twiml '<Response><Message>Server alert: {{alert_message}}</Message></Response>'

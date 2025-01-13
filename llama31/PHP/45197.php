@@ -1,0 +1,1 @@
+$scriptDir = __DIR__;\nchdir($scriptDir);

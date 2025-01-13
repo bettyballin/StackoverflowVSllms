@@ -1,0 +1,1 @@
+$jsonurl = "http://search.twitter.com/trends.json";\n$json = file_get_contents($jsonurl, 0, null, null);\n$json_output = json_decode($json);\n\n$names = array();\nforeach ($json_output->trends as $trend) {\n    $names[] = $trend->name;\n}\n\nprint_r($names);

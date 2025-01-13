@@ -1,1 +1,0 @@
-public class CustomAssemblyResolver : IAssemblyResolver\n{\n    public Assembly Resolve(AssemblyName assemblyName)\n    {\n        if (assemblyName.Name == "Telerik.Web.UI")\n        {\n            return Assembly.LoadFrom("Telerik.Web.UI.dll");\n        }\n        return null;\n    }\n}

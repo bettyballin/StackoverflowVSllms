@@ -1,0 +1,1 @@
+try {\n    // division code here\n} catch (DivisionByZeroError $e) {\n    // handle division by zero error\n} catch (Exception $e) {\n    // handle any other exceptions\n}

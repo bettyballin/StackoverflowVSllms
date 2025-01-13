@@ -1,0 +1,1 @@
+#Const PRE611 = True\n\n#If PRE611 = True Then\n    Console.WriteLine("PRE611 is True")\n#Else\n    Console.WriteLine("PRE611 is False")\n#End If

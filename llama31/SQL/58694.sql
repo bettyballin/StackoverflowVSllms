@@ -1,0 +1,1 @@
+create type B.tr_rad as object (\n  name     varchar2(64)\n ,code     number\n ,vendor   number\n ,val      varchar2(255)\n ,num      number\n);\n\ncreate type B.tt_rad as varray(256) of B.tr_rad;

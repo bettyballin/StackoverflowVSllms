@@ -1,0 +1,1 @@
+DECLARE @LicenseLimit INT = 10;\nDECLARE @UserId INT = 123;\n\nSELECT COUNT(*) AS ActiveUsers\nFROM LoginHistory\nWHERE LoginDateTime <= GETDATE() AND (LogoutDateTime IS NULL OR LogoutDateTime > GETDATE()) AND UserId != @UserId;

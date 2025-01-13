@@ -1,1 +1,0 @@
-depends.exe <your_com_object.dll>

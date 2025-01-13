@@ -1,0 +1,1 @@
+$.ajaxSetup({\n    error: function(xhr, status, error) {\n        if (xhr.status == 401 || xhr.status == 403) {\n            // Session has timed out, redirect to login page\n            window.location.href = '/login/';\n        }\n    }\n});

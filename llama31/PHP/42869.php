@@ -1,0 +1,1 @@
+$token = bin2hex(random_bytes(32));\n$_SESSION['csrf_token'] = $token;\n\n// In your AJAX request\nheaders: {\n    'X-CSRF-Token': '<?php echo $token; ?>'\n}

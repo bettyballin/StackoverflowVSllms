@@ -1,1 +1,0 @@
-TranslateMessage(&msg, MAPVK_VK_TO_CHAR);

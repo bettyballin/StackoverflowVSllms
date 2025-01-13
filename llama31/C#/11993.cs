@@ -1,1 +1,0 @@
-DateTime sessionStartTime = (DateTime)Session["SessionStartTime"];\nif (sessionStartTime == null)\n{\n    // If this is a new session, set the start time\n    Session["SessionStartTime"] = DateTime.Now;\n    sessionStartTime = DateTime.Now;\n}\n\nTimeSpan sessionAge = DateTime.Now - sessionStartTime;\nint sessionAgeInMinutes = sessionAge.TotalMinutes;

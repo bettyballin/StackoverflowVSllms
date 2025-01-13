@@ -1,0 +1,1 @@
+class MyClass\n  def vulnerable_method\n    # vulnerable code\n  end\nend\n\n# Remove the vulnerable method\nMyClass.class_eval do\n  undef vulnerable_method\nend

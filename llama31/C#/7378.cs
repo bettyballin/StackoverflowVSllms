@@ -1,1 +1,0 @@
-using PdfSharp.Pdf;\n\n// Merge PDFs\nPdfDocument pdf1 = PdfReader.Open("file1.pdf");\nPdfDocument pdf2 = PdfReader.Open("file2.pdf");\nPdfDocument mergedPdf = new PdfDocument();\nmergedPdf.AddPage(pdf1.Pages[0]);\nmergedPdf.AddPage(pdf2.Pages[0]);\nmergedPdf.Save("output.pdf");

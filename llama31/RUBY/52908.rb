@@ -1,0 +1,1 @@
+require 'smtp-tls'\n\nMY_SMTP_SETTINGS = {\n  :address => 'oz.some.server.edu',\n  :port => 465,\n  :user_name => MY_USERNAME,\n  :authentication => :login,\n  :password => MY_PASSWORD,\n  :tls => true\n}

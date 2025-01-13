@@ -1,0 +1,1 @@
+try {\n    $id = mysql_pconnect('localhost', 'myusername', 'mypassword', true);\n    print "id=" . $id . "\n";\n} catch (Exception $e) {\n    print "Error: " . $e->getMessage() . "\n";\n}

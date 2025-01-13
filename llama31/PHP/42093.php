@@ -1,0 +1,1 @@
+<!-- main.php -->\n<?php include 'common.php'; ?>\n\n<!-- common.php -->\n<!-- your shared HTML code here -->

@@ -1,1 +1,0 @@
-// Clone the repo\ngit clone https://github.com/kohana/auth-demo.git\n\n// Install dependencies\ncomposer install\n\n// Configure the database and run migrations\nphp minion db:setup

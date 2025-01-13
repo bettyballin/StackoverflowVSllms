@@ -1,1 +1,0 @@
-using System;\nusing System.IO;\nusing System.Text;\n\n// ...\n\nusing (BinaryReader reader = new BinaryReader(socketStream))\n{\n    byte[] buffer = reader.ReadBytes(length); // read the desired length\n    string unicodeString = Encoding.Unicode.GetString(buffer);\n    Console.WriteLine(unicodeString);\n}

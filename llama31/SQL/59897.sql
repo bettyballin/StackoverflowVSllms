@@ -1,0 +1,1 @@
+CREATE TABLE YourTable (\n    YourColumn DECIMAL(38, 20)\n);

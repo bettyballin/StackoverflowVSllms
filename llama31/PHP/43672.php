@@ -1,0 +1,1 @@
+$output = shell_exec('php other_file.php');

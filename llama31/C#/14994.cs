@@ -1,1 +1,0 @@
-class Program\n{\n    [STAThread]\n    static void Main(string[] args)\n    {\n        MyComServer server = new MyComServer();\n        int cookie = 0;\n        CoRegisterClassObject(ref server.GetType().GUID, server, CLSCTX.LOCAL_SERVER, REGCLS.MULTIPLEUSE, out cookie);\n        //...\n    }\n}

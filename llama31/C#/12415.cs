@@ -1,1 +1,0 @@
-using System;\nusing System.Text;\n\npublic class ByteArrayToString\n{\n    public static string ByteArrayToString(byte[] ba)\n    {\n        return Convert.ToBase64String(ba);\n    }\n\n    public static byte[] StringToByteArray(string str)\n    {\n        return Convert.FromBase64String(str);\n    }\n}

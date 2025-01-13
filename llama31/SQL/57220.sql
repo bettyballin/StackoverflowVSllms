@@ -1,0 +1,1 @@
+DECLARE @schema xml\nSET @schema = xml_schema_collection_schema('YourSchemaCollectionName')\nSELECT CONVERT(nvarchar(max), @schema) AS schema_text

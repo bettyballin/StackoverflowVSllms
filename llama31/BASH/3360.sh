@@ -1,1 +1,0 @@
-sed -r -b 's#Dev\\Suite\\.*\\Modules#dev\\suite\\simple\\#g' test.txt

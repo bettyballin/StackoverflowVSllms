@@ -1,1 +1,0 @@
-protected void Page_Load(object sender, EventArgs e)\n{\n    if (!IsPostBack)\n    {\n        ScriptManager.RegisterStartupScript(this, this.GetType(), "pageLoad", "pageLoad();", true);\n    }\n}\n\nprotected void Page_PreRender(object sender, EventArgs e)\n{\n    ScriptManager.RegisterStartupScript(this, this.GetType(), "pageLoadComplete", "pageLoadComplete();", true);\n}

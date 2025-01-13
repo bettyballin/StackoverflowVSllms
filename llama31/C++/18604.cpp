@@ -1,1 +1,0 @@
-// Client.cpp\nint main()\n{\n    IHelloWorld* pHelloWorld = NULL;\n    HRESULT hr = CreateHelloWorld(&pHelloWorld);\n    if (SUCCEEDED(hr))\n    {\n        hr = pHelloWorld->SayHello();\n        pHelloWorld->Release();\n    }\n    return 0;\n}

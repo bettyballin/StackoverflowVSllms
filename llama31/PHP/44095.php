@@ -1,0 +1,1 @@
+// delete a large variable\nunset($large_variable);\n\n// delete a session variable\nsession_unset('large_session_variable');

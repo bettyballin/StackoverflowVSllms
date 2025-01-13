@@ -1,0 +1,1 @@
+-- Bad\nSELECT * FROM orders WHERE total_amount > (SELECT AVG(total_amount) FROM orders);\n\n-- Good\nSELECT o.* FROM orders o JOIN (SELECT AVG(total_amount) AS avg_amount FROM orders) AS sub ON o.total_amount > sub.avg_amount;

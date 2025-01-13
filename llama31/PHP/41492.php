@@ -1,0 +1,1 @@
+preg_match('#pattern#i', 'string'); // delimiter is #

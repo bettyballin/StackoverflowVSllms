@@ -1,1 +1,0 @@
-.tool-window {\n  /* visual styles */\n  color: blue;\n  background-color: white;\n}\n\n.tool-window__header {\n  /* visual styles for the header */\n}\n\n.tool-window__content {\n  /* visual styles for the content */\n}\n\n.tool-window--active {\n  /* visual styles for the active state */\n}

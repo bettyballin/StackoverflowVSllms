@@ -1,0 +1,1 @@
+Imports NUnit.Framework\n\n[TestFixture]\nPublic Class MyTest\n    [Test]\n    Public Sub MyTest_Method()\n        ' test code here\n    End Sub\nEnd Class

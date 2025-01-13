@@ -1,0 +1,1 @@
+DECLARE @date1 DATE = '2009-04-16'\nDECLARE @date2 DATE = '2009-05-16'\n\nSELECT DATEDIFF(MONTH, @date1, @date2) - \n       CASE \n           WHEN DAY(@date1) > DAY(@date2) THEN 1 \n           ELSE 0 \n       END AS FullMonths

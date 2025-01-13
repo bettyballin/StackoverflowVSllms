@@ -1,1 +1,0 @@
-using (var output = File.Create("output.txt"))\n{\n    using (var header = File.OpenRead("header.txt"))\n    {\n        header.CopyTo(output);\n    }\n    using (var content = File.OpenRead("content.txt"))\n    {\n        content.CopyTo(output);\n    }\n    using (var footer = File.OpenRead("footer.txt"))\n    {\n        footer.CopyTo(output);\n    }\n}

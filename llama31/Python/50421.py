@@ -1,0 +1,1 @@
+# Tuple example\nmy_tuple = (1, 2, 3)\nprint(my_tuple[0])  # prints 1\ntry:\n    my_tuple[0] = 10  # raises a TypeError\nexcept TypeError:\n    print("Tuples are immutable!")\n\n# List example\nmy_list = [1, 2, 3]\nprint(my_list[0])  # prints 1\nmy_list[0] = 10\nprint(my_list[0])  # prints 10

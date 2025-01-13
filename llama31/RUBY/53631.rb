@@ -1,0 +1,1 @@
+class MyModel < ApplicationRecord\n  def self.visible_to_user_with_status(user, status)\n    where("visible = ? AND user_id = ? AND status = ?", true, user.id, status)\n  end\nend

@@ -1,1 +1,0 @@
-tdump.exe -E mydelphidll.dll > mydelphidll.h

@@ -1,1 +1,0 @@
-#!/bin/bash\n\ntest -f kill_me && rm kill_me\n\n(\n    touch kill_me\n    tail -f kill_me\n) &\n\nwhile true; do\n    sleep 1\n    test -f kill_me && {\n        pkill -P $$ tail\n        exit\n    }\ndone

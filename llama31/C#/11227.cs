@@ -1,1 +1,0 @@
-List<List<UInt32>> sortedList = unsortedList.OrderBy(x => x[0]).ToList();

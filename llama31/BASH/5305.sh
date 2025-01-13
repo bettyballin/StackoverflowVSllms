@@ -1,1 +1,0 @@
-fsutil.exe usn deletejournal /D <volume> /N <folder_path>

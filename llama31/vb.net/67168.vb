@@ -1,0 +1,1 @@
+Imports System.Text.Json\n\nDim myArray As String() = {"apple", "banana", "orange"}\nDim jsonArray As String = JsonSerializer.Serialize(myArray)\n\nConsole.WriteLine(jsonArray)

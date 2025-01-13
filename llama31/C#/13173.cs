@@ -1,1 +1,0 @@
-amespace MyAPI\n{\n    // Interfaces\n    public interface ILogger { }\n\n    // Base classes\n    public abstract class BaseService { }\n\n    // Core types\n    public enum LogLevel { Debug, Info, Warn, Error }\n\n    // Exceptions\n    public class MyApiException : Exception { }\n\n    // Helper classes\n    public static class ApiUtils { }\n}

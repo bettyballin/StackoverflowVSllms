@@ -1,1 +1,0 @@
-sudo chmod +x /usr/local/bin/ssh_login_notify.sh

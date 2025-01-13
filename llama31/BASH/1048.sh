@@ -1,1 +1,0 @@
-odbcinst -i -d -n "Oracle Instant Client" -f "C:\path\to\instantclient\odbc\odbc.ini"

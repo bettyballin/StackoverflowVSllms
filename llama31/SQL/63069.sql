@@ -1,0 +1,1 @@
+SELECT *\nFROM (\n  SELECT *,\n         ROW_NUMBER() OVER (PARTITION BY make, model ORDER BY year DESC) as rn\n  FROM cars\n) c\nWHERE rn = 1;

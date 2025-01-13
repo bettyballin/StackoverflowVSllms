@@ -1,0 +1,1 @@
+$(document).ready(function() {\n  Pace.start();\n});

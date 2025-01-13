@@ -1,0 +1,1 @@
+<properties>\n    <property name="oracle.jdbc.date_time_timezone" value="GMT+02:00"/>\n</properties>

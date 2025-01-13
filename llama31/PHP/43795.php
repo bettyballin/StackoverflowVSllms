@@ -1,0 +1,1 @@
+// CronJob.php\nabstract class CronJob {\n    protected $logger;\n\n    public function __construct() {\n        $this->logger = new Logger();\n    }\n\n    abstract public function execute();\n\n    protected function log($message) {\n        $this->logger->log($message);\n    }\n}

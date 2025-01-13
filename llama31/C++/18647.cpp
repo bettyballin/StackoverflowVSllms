@@ -1,1 +1,0 @@
-template <typename T>\nclass Foo;\n\ntemplate <typename T>\nclass Foo<T, typename enable_if<std::is_base_of<IFoo, T>::value>::type> {\n    // implementation\n};

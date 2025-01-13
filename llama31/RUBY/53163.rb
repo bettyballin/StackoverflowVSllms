@@ -1,0 +1,1 @@
+versions = Version.arel_table\neditions = Edition.arel_table\nproducts = Product.arel_table\n\nVersion.find(:all, \n             :joins => versions.join(editions).on(versions[:edition_id].eq(editions[:id]))\n                              .join(products).on(editions[:product_id].eq(products[:id])), \n             :select => [products[:name], versions[:name].as("version_name")])

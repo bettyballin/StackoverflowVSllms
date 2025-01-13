@@ -1,1 +1,0 @@
-java -Xmx512m -XX:MaxHeapFreeRatio=50 -XX:MinHeapFreeRatio=30 -XX:GCTimeRatio=50 -XX:+UseAdaptiveSizePolicy -jar yourapp.jar

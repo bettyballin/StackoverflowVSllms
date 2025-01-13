@@ -1,0 +1,1 @@
+var xhr = new XMLHttpRequest();\nxhr.open("GET", iframe.src, true);\nxhr.onload = function() {\n  var iframeContent = xhr.responseText;\n  // ...\n};\nxhr.send();

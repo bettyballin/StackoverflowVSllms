@@ -1,1 +1,0 @@
-using System.DirectoryServices;\n\nclass MetabaseBackup\n{\n    public void Backup(string backupFileName)\n    {\n        DirectoryEntry iis = new DirectoryEntry("IIS://localhost");\n        iis.Invoke("Backup", new object[] { backupFileName, 0 });\n    }\n}

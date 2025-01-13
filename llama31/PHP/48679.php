@@ -1,0 +1,1 @@
+$server_socket = stream_socket_server("tcp://localhost:8080", $errno, $errstr);\n$client_socket = stream_socket_accept($server_socket);\nfwrite($client_socket, "Hello, client!");\nfclose($client_socket);\nfclose($server_socket);

@@ -1,0 +1,1 @@
+SELECT a FROM table\nWHERE c = 1 AND CASE WHEN c = 1 THEN d = 2 ELSE 1 = 1 END

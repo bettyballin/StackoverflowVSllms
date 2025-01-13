@@ -1,1 +1,0 @@
-Parallel.ForEach(files, file =>\n{\n    string otherFile = Path.Combine(otherFolder, Path.GetFileName(file));\n    File.Copy(file, otherFile, true);\n});

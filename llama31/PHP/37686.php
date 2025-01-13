@@ -1,0 +1,1 @@
+$array = array('apple', 'banana', 'cherry');\n$keys = array_keys($array);\nforeach ($array as $value) {\n    $index = array_search($value, $array);\n    echo $index . ' ' . $value . "\n";\n}

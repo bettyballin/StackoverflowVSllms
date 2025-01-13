@@ -1,0 +1,1 @@
+define('ROOT', $_SERVER['DOCUMENT_ROOT'] . '/2008/2009/');

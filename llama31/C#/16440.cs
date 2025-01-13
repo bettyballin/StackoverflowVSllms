@@ -1,1 +1,0 @@
-using Microsoft.Win32;\n\npublic class RegistryHelper\n{\n    public static void SaveRegistryValues(string keyName, string valueName, object value)\n    {\n        using (RegistryKey key = Registry.LocalMachine.OpenSubKey(keyName, true))\n        {\n            key.SetValue(valueName, value);\n            key.Flush();\n        }\n    }\n}

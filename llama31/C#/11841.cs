@@ -1,1 +1,0 @@
-foreach (DataColumn column in dataSet.Tables["YourTable"].Columns)\n{\n    if (column.ColumnName == "YourColumn")\n    {\n        column.ColumnMapping = MappingType.Hidden;\n    }\n}\n\ndataSet.WriteXml("output.xml");

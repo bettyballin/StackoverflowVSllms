@@ -1,1 +1,0 @@
-awk '{ printf("%d%s\n", (NR-1)%3+1, $0) }' input_file > output_file

@@ -1,0 +1,1 @@
+SELECT \n    t1.ID, \n    t1.Color, \n    t1.Name, \n    t2.Count\nFROM \n    YourTable t1\nJOIN \n    (\n        SELECT \n            ID, \n            COUNT(*) as Count\n        FROM \n            YourTable\n        GROUP BY \n            ID\n    ) t2\nON \n    t1.ID = t2.ID\nORDER BY \n    t2.Count DESC;

@@ -1,0 +1,1 @@
+import yfinance as yf\n\nreit_info = yf.Ticker("AX-UN.TO")\nprint(reit_info.info)

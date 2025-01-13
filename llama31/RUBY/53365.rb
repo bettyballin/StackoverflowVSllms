@@ -1,0 +1,1 @@
+t.boolean :admin, default: false, null: false

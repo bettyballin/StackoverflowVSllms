@@ -1,1 +1,0 @@
-[SessionState(SessionStateBehavior.Disabled)]\npublic class UpdateStats : IHttpHandler

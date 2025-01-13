@@ -1,1 +1,0 @@
-#include <Windows.h>\n\nbool isValidPointer(void* ptr) {\n    return !IsBadReadPtr(ptr, sizeof(void*));\n}

@@ -1,0 +1,1 @@
+$stmt = $mysqli->prepare("UPDATE profilevalues SET profilevalue_8 = ? WHERE profilevalue_user_id = ?");\n$stmt->bind_param("si", $name, uid());\n$stmt->execute();

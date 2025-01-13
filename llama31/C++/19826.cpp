@@ -1,1 +1,0 @@
-#include <windows.h>\n#include <crtdbg.h>\n\nint __cdecl MyAllocHook(int allocType, void* userData, size_t size, int blockType, long requestNumber, const unsigned char* filename, int lineNumber)\n{\n    if (allocType == _FREE_BLOCK_TYPE)\n    {\n        memset(userData, 0, size);\n    }\n    return TRUE;\n}\n\nint main()\n{\n    _CrtSetAllocHook(MyAllocHook);\n    // ...\n}

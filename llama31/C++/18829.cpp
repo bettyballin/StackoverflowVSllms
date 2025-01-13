@@ -1,1 +1,0 @@
-template <class T>\nvoid bar(T* ptr);\n\nclass MyClass {\nprivate:\n    void foo();\n\n    template <class T>\n    friend void bar<>(T*);  // Note the <> syntax\n};\n\ntemplate <class T>\nvoid bar(T* ptr) {\n    if (ptr) {\n        MyClass obj;\n        obj.foo();\n    }\n}

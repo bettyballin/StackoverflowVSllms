@@ -1,0 +1,1 @@
+Private Sub ComboBox1_SelectedIndexChanged(sender As Object, e As EventArgs) Handles ComboBox1.SelectedIndexChanged\n    ' Get the selected value\n    Dim selectedValue As Object = ComboBox1.SelectedItem\n    \n    ' Use the selected value as needed\n    ' ...\nEnd Sub

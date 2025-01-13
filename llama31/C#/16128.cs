@@ -1,1 +1,0 @@
-X509Store store = new X509Store("My", StoreLocation.LocalMachine);\nstore.Open(OpenFlags.OpenExistingOnly | OpenFlags.ReadOnly);\n\nforeach (X509Certificate2 cert in store.Certificates)\n{\n    foreach (X509Extension ext in cert.Extensions)\n    {\n        ext.Load();\n    }\n}

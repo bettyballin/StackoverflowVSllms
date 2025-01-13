@@ -1,1 +1,0 @@
-[AcceptVerbs(HttpVerbs.Get)]\npublic JsonResult Edit(string idSub = null)\n{\n    // your code here\n}

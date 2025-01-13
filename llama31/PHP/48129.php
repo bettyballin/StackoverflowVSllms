@@ -1,0 +1,1 @@
+$myArray['config']['usertype'] = 'user'; // Warning: Cannot use a scalar value as an array

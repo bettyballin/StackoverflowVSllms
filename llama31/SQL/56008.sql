@@ -1,0 +1,1 @@
+SELECT id, title, date, content\nFROM (\n  SELECT id, title, date, content, views\n  FROM news\n  ORDER BY date DESC\n  LIMIT 20\n) AS recent\nORDER BY views DESC\nLIMIT 5;

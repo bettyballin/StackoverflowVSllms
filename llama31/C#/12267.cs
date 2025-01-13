@@ -1,1 +1,0 @@
-var client = new WebServiceClient();\nclient.Encoding = new MTOMMessageEncoder();\n\nbyte[] excelBytes = File.ReadAllBytes("path/to/excel/file.xlsx");\nclient.GetReport(excelBytes);

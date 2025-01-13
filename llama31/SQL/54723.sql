@@ -1,0 +1,1 @@
+SELECT * FROM sys.service_broker_message_types;\nSELECT * FROM sys.service_broker_contracts;\nSELECT * FROM sys.service_broker_services;\nSELECT * FROM sys.service_broker_queues;\nSELECT * FROM sys.service_broker_routes;

@@ -1,1 +1,0 @@
-using System.Web.Mvc;\n\npublic class CDNController : Controller\n{\n    public ActionResult GetFile(string filename)\n    {\n        string cdnUrl = "https://cdn.example.com/" + filename;\n        return Redirect(cdnUrl);\n    }\n}

@@ -1,1 +1,0 @@
-protected void ExportToCsvButton_Click(object sender, EventArgs e)\n{\n    Response.Clear();\n    Response.Buffer = true;\n    Response.ContentType = "text/csv";\n    Response.AddHeader("Content-Disposition", "attachment;filename=Report.csv");\n\n    yourTable.RenderControl(new HtmlTextWriter(Response.Output)); // yourTable is the ID of your HTML table\n\n    Response.End();\n}

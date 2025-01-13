@@ -1,1 +1,0 @@
-foreach (DataTable table in ds.Tables)\n{\n    Console.WriteLine(table.TableName);\n    foreach (DataRow row in table.Rows)\n    {\n        foreach (DataColumn column in table.Columns)\n        {\n            Console.Write(row[column] + " ");\n        }\n        Console.WriteLine();\n    }\n}

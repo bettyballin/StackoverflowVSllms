@@ -1,0 +1,1 @@
+$.ajax({\n    type: "Post",\n    url: "/Rep.mvc/AddView",\n    data: { AnnIDs: IDs, gsa: GAS, OpenedFrom: From },\n    dataType: "json",\n    success: function(result) {\n        window.open(result.url, "Ann");\n    },\n    error: function(req, status, error) {\n        alert("An error occurred while processing your request.");\n    }\n});

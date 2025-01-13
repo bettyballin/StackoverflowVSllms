@@ -1,1 +1,0 @@
-#!/bin/bash\n\nfoo &\nFOO_PID=$!\n\nbar\n\ntrap "kill $FOO_PID" SIGINT SIGTERM\n\nwait $FOO_PID

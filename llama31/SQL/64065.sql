@@ -1,0 +1,1 @@
+CREATE FUNCTION RoundTo05(@value decimal(18, 2))\nRETURNS decimal(18, 2)\nAS\nBEGIN\n    DECLARE @remainder decimal(18, 2)\n    SET @remainder = @value % 0.05\n    \n    IF @remainder < 0.025\n        RETURN FLOOR(@value / 0.05) * 0.05\n    ELSE\n        RETURN CEILING(@value / 0.05) * 0.05\nEND\nGO

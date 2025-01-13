@@ -1,0 +1,1 @@
+from wordcloud import WordCloud\n\ntext = "Your text here"\nwordcloud = WordCloud(width=800, height=400).generate(text)\nimage = wordcloud.to_image()\nimage.show()

@@ -1,1 +1,0 @@
-gcc -o dpi_example dpi_example.c `pkg-config --cflags --libs gtk+-3.0`

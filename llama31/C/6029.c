@@ -1,1 +1,0 @@
-#include <stdio.h>\n\n#define ARRAY_SIZE 1000000\n\nfloat array[ARRAY_SIZE];\n\nint main() {\n    for (int i = 0; i < ARRAY_SIZE; i++) {\n        array[i] = i * 0.1f;\n    }\n\n    // Perform some array-intensive computation\n    for (int i = 0; i < ARRAY_SIZE; i++) {\n        array[i] = array[i] * array[i];\n    }\n\n    return 0;\n}

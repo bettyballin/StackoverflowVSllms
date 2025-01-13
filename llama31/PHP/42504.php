@@ -1,0 +1,1 @@
+class G {\n    public static function Loading($value) {\n        // Do something with $value\n    }\n}\n\n// Access the static method\nG::Loading("some value");

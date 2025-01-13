@@ -1,0 +1,1 @@
+colModel: [\n    {name: 'cell.0', width: 30, sortable: true, align: 'center'},\n    {name: 'cell.1', width: 40, sortable: false, align: 'center'},\n    {name: 'cell.2', width: 180, sortable: true, align: 'left'},\n    {name: 'cell.3', width: 380, sortable: true, align: 'left'},\n    {name: 'cell.4', width: 0, sortable: false, align: 'center'}\n]

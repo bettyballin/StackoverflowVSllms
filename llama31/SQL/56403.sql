@@ -1,0 +1,1 @@
+SET STATISTICS PROFILE ON;\nGO\n\n-- Run the original query\nSELECT ...;\n\n-- Run the optimized query\nSELECT ...;\n\nSET STATISTICS PROFILE OFF;\nGO

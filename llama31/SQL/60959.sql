@@ -1,0 +1,1 @@
+SELECT *, \n       DATE_FORMAT(timestamp1, '%c/%e/%y') AS timestamp1, \n       DATE_FORMAT(timestamp2, '%c/%e/%y') AS timestamp2, \n       ... \nFROM your_table;

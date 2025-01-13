@@ -1,0 +1,1 @@
+// create a blob object\nvar blob = GearsFactory.createBlob();\n\n// open the blob for reading\nblob.open("r");\n\n// read the contents of the blob as a string\nvar contents = blob.getBlob();\n\n// do something with the contents\nconsole.log(contents);\n\n// close the blob\nblob.close();

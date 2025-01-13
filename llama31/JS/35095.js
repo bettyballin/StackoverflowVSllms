@@ -1,0 +1,1 @@
+var rootNode = ...; // get the root node of your tree\nTraverseTree(rootNode);

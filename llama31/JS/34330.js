@@ -1,0 +1,1 @@
+$(".meuble-tab").closest("li").addClass("active");

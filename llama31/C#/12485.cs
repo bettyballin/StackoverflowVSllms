@@ -1,1 +1,0 @@
-catch (SqlException ex)\n{\n    if (ex.Number == 10054) // "An existing connection was forcibly closed by the remote host"\n    {\n        // Retry the operation after a short delay\n        Thread.Sleep(500); // adjust the delay as needed\n        // Retry the operation\n    }\n    else\n    {\n        // Handle other SQL exceptions\n    }\n}

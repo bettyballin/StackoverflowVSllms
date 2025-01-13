@@ -1,1 +1,0 @@
-using System.DirectoryServices;\n\n// Find the user to delete\nDirectoryEntry user = new DirectoryEntry("LDAP://CN=John Doe,OU=Users,DC=example,DC=com");\n\n// Delete the user\nuser.DeleteTree();

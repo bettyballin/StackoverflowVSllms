@@ -1,1 +1,0 @@
-public class CustomAuthHeader : SoapHeader\n{\n    public string Token { get; set; }\n}

@@ -1,0 +1,1 @@
+// build.php\n\n$files = array('includes.php', 'classes.php', 'libraries.php');\n$output = '';\n\nforeach ($files as $file) {\n    $output .= file_get_contents($file);\n}\n\nfile_put_contents('rolled.php', $output);

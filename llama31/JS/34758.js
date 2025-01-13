@@ -1,0 +1,1 @@
+// Add new entry to history stack\nwindow.history.pushState({\n  sortingOption: 'name',\n  pageNumber: 2\n}, '', '/page2');

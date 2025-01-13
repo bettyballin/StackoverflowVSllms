@@ -1,0 +1,1 @@
+SELECT T1.id, T1.type, T1.siteid, T2.id AS id2, T2.type AS type2, T2.siteid AS siteid2\nFROM test T1\nLEFT OUTER JOIN test T2 ON T1.siteid = T2.siteid AND T1.id < T2.id\nWHERE T1.id = (SELECT MIN(id) FROM test T3 WHERE T3.siteid = T1.siteid)\n   OR T2.id IS NULL;

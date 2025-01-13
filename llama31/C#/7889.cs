@@ -1,1 +1,0 @@
-string[] ipAddresses = { "192.168.1.100", "192.168.1.101" };\n\nforeach (string ipAddress in ipAddresses)\n{\n    if (HasActiveTcpConnection(ipAddress))\n    {\n        Console.WriteLine($"Active connection found to {ipAddress}");\n    }\n}

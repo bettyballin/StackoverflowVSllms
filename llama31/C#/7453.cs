@@ -1,1 +1,0 @@
-SqlCommand command = new SqlCommand("SELECT foo FROM bar WHERE baz = @baz", connection);\ncommand.Parameters.AddWithValue("@baz", 123.45);

@@ -1,1 +1,0 @@
-tshark -r input.pcap -Y "data" -T fields -e data > output.txt

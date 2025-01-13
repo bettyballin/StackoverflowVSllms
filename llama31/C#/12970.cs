@@ -1,1 +1,0 @@
-public class MyEntity\n{\n    [Column(TypeName = "nvarchar(max)")]\n    public string? MyProperty { get; set; }\n}\n\nmodelBuilder.Entity<MyEntity>()\n    .Property(e => e.MyProperty)\n    .HasConversion(new EmptyStringToNullConverter());

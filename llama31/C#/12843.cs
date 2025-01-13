@@ -1,1 +1,0 @@
-[HttpPost]\npublic ActionResult Submit(MyModel model)\n{\n    string name = model.Name;\n    // ...\n}

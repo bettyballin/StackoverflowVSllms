@@ -1,1 +1,0 @@
-using FSharpLib;\n\nclass Program\n{\n    static void Main(string[] args)\n    {\n        int result = Math.add(2, 3);\n        Console.WriteLine(result); // prints 5\n    }\n}

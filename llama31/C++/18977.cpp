@@ -1,1 +1,0 @@
-// myclass.h\nclass MyClass {\npublic:\n    void myMethod();\n};\n\n// myclass.cpp\nvoid MyClass::myMethod() {\n    // implementation\n}\n\n// mydll.cpp\n__declspec(dllexport) MyClass myClass;

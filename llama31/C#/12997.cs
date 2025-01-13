@@ -1,1 +1,0 @@
-[DllImport("user32.dll")]\nstatic extern IntPtr SetWindowLong(IntPtr hWnd, int nIndex, IntPtr dwNewLong);\n\nconst int GWLP_HWNDPARENT = -8;\n\n// assume 'handle' is the handle of the Win32App\n// and 'formHandle' is the handle of your .NET Form\n\nSetWindowLong(formHandle, GWLP_HWNDPARENT, handle);

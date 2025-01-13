@@ -1,1 +1,0 @@
-propel:build-model --xml schema.xml

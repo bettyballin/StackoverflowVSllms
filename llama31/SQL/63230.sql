@@ -1,0 +1,1 @@
+-- Get disk usage\nSELECT cntr_value \nFROM sys.dm_os_performance_counters \nWHERE counter_name = 'Disk Reads/sec' OR counter_name = 'Disk Writes/sec';\n\n-- Get CPU usage\nSELECT cntr_value \nFROM sys.dm_os_performance_counters \nWHERE counter_name = '% Processor Time';

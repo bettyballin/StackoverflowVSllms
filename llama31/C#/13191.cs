@@ -1,1 +1,0 @@
-private string GenerateUniqueId()\n{\n    var stopwatch = Stopwatch.StartNew();\n    return stopwatch.ElapsedTicks.ToString() + Guid.NewGuid().ToString();\n}

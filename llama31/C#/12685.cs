@@ -1,1 +1,0 @@
-dynamic myClassInstance = testDLL.CreateInstance("MyNamespace.MyClass");\nmyClassInstance.MyMethod(); // or pass parameters if needed

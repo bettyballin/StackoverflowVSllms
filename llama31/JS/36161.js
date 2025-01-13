@@ -1,0 +1,1 @@
+$.ajax({\n  type: "GET",\n  url: "fileReader.php?_=" + new Date().getTime(),\n  data: 'textFile=' + fileNameTxt,\n  success: function(response){\n    // ...\n  }\n});

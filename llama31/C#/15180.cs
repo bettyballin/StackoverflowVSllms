@@ -1,1 +1,0 @@
-var container = new WindsorContainer();\nvar myInstance = new MyClass();\ncontainer.Register(Component.For<MyClass>().Instance(myInstance));

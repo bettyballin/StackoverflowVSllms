@@ -1,1 +1,0 @@
-if (WebServerChecker.IsRunningUnderWebServer())\n{\n    // Use ProvidersHelper class\n    ProvidersHelper.InstantiateProviders( /* ... */ );\n}\nelse\n{\n    // Use your own implementation\n    // ...\n}

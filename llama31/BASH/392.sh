@@ -1,1 +1,0 @@
-# Install OpenRefine, then run:\nopenrefine input.csv

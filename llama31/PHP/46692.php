@@ -1,0 +1,1 @@
+$email = 'user@example.com';\nif (!filter_var($email, FILTER_VALIDATE_EMAIL)) {\n    echo 'Invalid email address';\n}

@@ -1,0 +1,1 @@
+error: function(request, error, exception) {\n  // Evaluate the exception object, if available\n  if (exception) {\n    console.log(exception);\n  }\n  // ...\n}

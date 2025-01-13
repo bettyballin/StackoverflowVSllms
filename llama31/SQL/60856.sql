@@ -1,0 +1,1 @@
+CREATE TABLE CachedResults (\n    YourTableId INT PRIMARY KEY,\n    IsComplete BIT\n);\n\nCREATE TRIGGER trg_UpdateCache ON YourTable\nAFTER UPDATE, INSERT\nAS\nBEGIN\n    UPDATE cr\n    SET cr.IsComplete = dbo.YourScalarFunction(i.YourColumn)\n    FROM CachedResults cr\n    INNER JOIN inserted i ON cr.YourTableId = i.YourTableId;\nEND;

@@ -1,0 +1,1 @@
+CREATE TABLE transactions (\n  id INT PRIMARY KEY,\n  customer_id INT,\n  -- other columns...\n) PARTITION BY RANGE (customer_id) (\n  PARTITION p_customer_1 VALUES LESS THAN (1000),\n  PARTITION p_customer_2 VALUES LESS THAN (2000),\n  -- ...\n);

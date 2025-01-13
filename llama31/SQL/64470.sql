@@ -1,0 +1,1 @@
+SELECT *\nFROM your_table\nWHERE date_column = \n  CASE\n    WHEN WEEKDAY(date_column) < 4 THEN DATE_ADD(date_column, INTERVAL 1 DAY)\n    ELSE DATE_ADD(date_column, INTERVAL 3 DAY)\n  END;

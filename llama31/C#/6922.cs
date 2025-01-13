@@ -1,1 +1,0 @@
-string connectionString = "User Id=myuser;Password=mypassword;Server=myserver;Port=1521;Service Name=mydatabase;Mode=Direct;";\nusing (OracleConnection connection = new OracleConnection(connectionString))\n{\n    connection.Open();\n    // execute queries, etc.\n}

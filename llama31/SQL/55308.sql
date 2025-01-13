@@ -1,0 +1,1 @@
+DECLARE @searchTerm nvarchar(50) = 'Overdose of "Vitamin C" for child*'\n\nSELECT *\nFROM yourTable\nWHERE CONTAINS(yourColumn, @searchTerm LANGUAGE N'English');

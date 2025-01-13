@@ -1,1 +1,0 @@
-$path = "E:\Exchange\Databases\Mailbox Database.edb"\n$mountPoint = Get-WmiObject -Class Win32_MountPoint -Filter "Directory='$(Split-Path -Parent $path)'"\n$volume = Get-WmiObject -Class Win32_Volume -Filter "DeviceID='$($mountPoint.Volume.DeviceID)'"\necho $volume.DeviceID

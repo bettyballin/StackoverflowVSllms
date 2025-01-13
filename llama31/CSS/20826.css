@@ -1,1 +1,0 @@
-.container {\n  display: grid;\n  grid-template-columns: repeat(2, 1fr);\n  gap: 10px;\n  border: solid thin;\n}\n\n.chld {\n  width: 20px;\n  height: 20px;\n  border: dashed thin;\n}

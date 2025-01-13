@@ -1,1 +1,0 @@
-gcc -Wl,--stack=1048576 your_file.cpp -o your_file

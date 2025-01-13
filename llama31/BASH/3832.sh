@@ -1,1 +1,0 @@
-# Install AV-Scan on Ubuntu/Debian\nsudo apt-get update\nsudo apt-get install avscan\n\n# Scan a file using AV-Scan\navscan /path/to/file

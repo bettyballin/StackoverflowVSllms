@@ -1,0 +1,1 @@
+$translations = json_decode(file_get_contents('translations.json'), true);\necho $translations[$_SESSION['language']]['hello'];

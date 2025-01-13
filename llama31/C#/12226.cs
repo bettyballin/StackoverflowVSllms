@@ -1,1 +1,0 @@
-public class MyEntity\n{\n    public virtual string MyString { get; set; }\n}\n\npublic class MyEntityMapping : ClassMapping<MyEntity>\n{\n    public MyEntityMapping()\n    {\n        Property(x => x.MyString, m =>\n        {\n            m.Column(c =>\n            {\n                c.SqlType("nvarchar(255)"); // specify max length\n            });\n        });\n    }\n}

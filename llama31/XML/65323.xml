@@ -1,0 +1,1 @@
+<configuration>\n  <cache>\n    <host name="localhost" port="22233" />\n  </cache>\n</configuration>

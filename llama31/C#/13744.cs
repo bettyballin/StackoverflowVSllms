@@ -1,1 +1,0 @@
-public class Resume : Entity\n{\n    public virtual byte[] PdfFile { get; set; }\n}

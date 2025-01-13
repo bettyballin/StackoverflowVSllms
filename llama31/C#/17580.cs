@@ -1,1 +1,0 @@
-using Microsoft.Extensions.Configuration;\n\n// ...\nIConfiguration configuration = new ConfigurationBuilder()\n    .AddJsonFile("appsettings.json")\n    .Build();\n\nstring connectionString = configuration.GetConnectionString("YourConnectionString");

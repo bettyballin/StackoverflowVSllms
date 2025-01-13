@@ -1,0 +1,1 @@
+WHERE my_field LIKE 'search%'

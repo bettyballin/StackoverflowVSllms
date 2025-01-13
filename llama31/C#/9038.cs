@@ -1,1 +1,0 @@
-using Shell32;\n\nclass Program\n{\n    static void Main(string[] args)\n    {\n        Shell shell = new Shell();\n        Folder startMenu = shell.NameSpace(11);\n        MessageBox.Show(startMenu.Self.Path);\n    }\n}

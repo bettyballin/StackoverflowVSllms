@@ -1,0 +1,1 @@
+function changeObjectUrl(newUrl) {\n    var objTag = document.getElementById("contentarea");\n    if (objTag !== null) {\n        objTag.setAttribute('data', newUrl);\n    }\n}

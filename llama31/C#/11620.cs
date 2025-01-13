@@ -1,1 +1,0 @@
-ds.EnforceConstraints = false;\nforeach (DataTable dt in ds.Tables)\n{\n    dt.Constraints.Clear();\n    dt.ColumnChanging -= new DataColumnChangeEventHandler(ColumnChanging);\n    dt.ColumnChanged -= new DataColumnChangeEventHandler(ColumnChanged);\n}

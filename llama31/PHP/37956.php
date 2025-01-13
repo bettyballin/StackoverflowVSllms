@@ -1,0 +1,1 @@
+$conn = mysql_connect('localhost', 'username', 'password');\nmysql_select_db('db_1', $conn);\n\n// You can now access tables in db_1 and db_2 (if the username has privileges)\n$query = "SELECT * FROM db_2.usersTable WHERE ...";\n$result = mysql_query($query, $conn);

@@ -1,1 +1,0 @@
-// console_app.cpp\n#include <windows.h>\n#include "mydll.h"\n\nint main()\n{\n    HMODULE hModule = LoadLibraryA("mydll.dll");\n    if (hModule == NULL)\n    {\n        // error handling\n    }\n\n    int result = Add(2, 3);\n    printf("Result: %d\n", result);\n\n    FreeLibrary(hModule);\n    return 0;\n}

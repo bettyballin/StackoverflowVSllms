@@ -1,0 +1,1 @@
+$utcDate = '2009-04-01 15:36:13';\n$siteTimezone = 'America/Los_Angeles'; // PDT\n\n$dateTime = new DateTime($utcDate, new DateTimeZone('UTC'));\n$dateTime->setTimezone(new DateTimeZone($siteTimezone));\n\necho $dateTime->format('Y-m-d H:i:s'); // outputs: 2009-04-01 08:36:13

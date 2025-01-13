@@ -1,1 +1,0 @@
-public class CustomerValidator\n{\n    public bool IsValid(Customer customer)\n    {\n        // validation logic here\n    }\n}

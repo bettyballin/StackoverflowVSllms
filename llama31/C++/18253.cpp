@@ -1,1 +1,0 @@
-CDC dc;\n// ...\nHDC hdc = dc.GetSafeHdc();

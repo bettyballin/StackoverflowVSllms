@@ -1,1 +1,0 @@
-using System.Net.Security;\n\n// ...\n\nSslStream sslStream = new SslStream(client.GetStream(), false, ValidateServerCertificate);\nsslStream.AuthenticateAsServer(serverCertificate, false, SslProtocols.Tls12, true);

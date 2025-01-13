@@ -1,0 +1,1 @@
+class MyClass\n  def to_yaml(opts = {})\n    if self.is_a?(Lock)\n      YAML.dump({}, opts)\n    else\n      super\n    end\n  end\nend

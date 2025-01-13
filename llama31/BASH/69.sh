@@ -1,1 +1,0 @@
-curl -s -I http://myurl.com:15000/myhtml.html | grep "HTTP/1.1 302"

@@ -1,0 +1,1 @@
+class CustomException extends Exception {}\n\ntry {\n    // Code that might throw an exception\n    if ($error) {\n        throw new CustomException('Sorry, custom error has occurred');\n    }\n} catch (CustomException $e) {\n    // Handle the custom exception\n    echo $e->getMessage();\n} catch (Exception $e) {\n    // Handle general exceptions\n    echo $e->getMessage();\n}

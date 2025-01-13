@@ -1,0 +1,1 @@
+SELECT \n  employees.id, \n  employees.name, \n  departments.name AS department_name\nFROM \n  employees\n  JOIN departments ON employees.department_id = departments.id\nWHERE \n  employees.hire_date > '2010-01-01'\nORDER BY \n  employees.name ASC;

@@ -1,1 +1,0 @@
-lnkShowHide.ClientIDMode = ClientIDMode.Static;

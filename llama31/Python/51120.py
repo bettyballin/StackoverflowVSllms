@@ -1,0 +1,1 @@
+import numpy as np\n\n# Define a sample matrix\nA = np.array([[1, 2], [3, 4]])\n\n# Compute the inverse of the matrix\nA_inv = np.linalg.inv(A)\n\nprint(A_inv)

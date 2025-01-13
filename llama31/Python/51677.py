@@ -1,0 +1,1 @@
+tree_view.set_grid_lines(Gtk.TreeViewGridLines.BOTH)

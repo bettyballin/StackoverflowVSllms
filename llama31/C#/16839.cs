@@ -1,1 +1,0 @@
-if (Process.GetCurrentProcess().SessionId == 0)\n{\n    // Running as a service\n}\nelse\n{\n    // Running as a console application\n}

@@ -1,0 +1,1 @@
+from myapp.models import MyModel\n\nqs = MyModel.objects.filter(name='example')\nprint(str(qs.query))

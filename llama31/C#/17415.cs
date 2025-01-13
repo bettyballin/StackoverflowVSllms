@@ -1,1 +1,0 @@
-var list2Column1Values = new HashSet<int>(list2.Select(x => x.column1));\nvar result = list1\n    .Where(t => !list2Column1Values.Contains(t.column1));

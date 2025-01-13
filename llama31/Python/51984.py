@@ -1,0 +1,1 @@
+def enrich_chatbot_training_data(data, enrichment_data):\n    # Enrich data with additional information or context\n    enriched_data = enrich_data(data, enrichment_data)\n    return enriched_data

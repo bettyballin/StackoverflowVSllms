@@ -1,0 +1,1 @@
+-- Get the list of tables\nSELECT table_name FROM all_tables;\n\n-- Get the list of columns for each table\nSELECT column_name FROM all_tab_columns WHERE table_name = 'TABLE_NAME';

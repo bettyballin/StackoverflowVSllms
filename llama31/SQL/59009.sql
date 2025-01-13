@@ -1,0 +1,1 @@
+CREATE TABLE SearchableTable (\n    ID AUTOINCREMENT,\n    Field1 TEXT,\n    Field2 TEXT,\n    Field3 TEXT\n);

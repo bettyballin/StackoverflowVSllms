@@ -1,1 +1,0 @@
-public static int GetNextValue()\n{\n    using (var connection = new SqlConnection(connectionString))\n    {\n        connection.Open();\n        using (var command = new SqlCommand("SELECT NEWID()", connection))\n        {\n            var guid = (Guid)command.ExecuteScalar();\n            return guid.GetHashCode();\n        }\n    }\n}

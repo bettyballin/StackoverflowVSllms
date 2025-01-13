@@ -1,0 +1,1 @@
+class DB {\n    private $dsn;\n    private $db_user;\n    private $db_pass;\n\n    public function __construct($dsn, $db_user, $db_pass) {\n        $this->dsn = $dsn;\n        $this->db_user = $db_user;\n        $this->db_pass = $db_pass;\n    }\n\n    public function getInstance() {\n        return new PDO($this->dsn, $this->db_user, $this->db_pass);\n    }\n}

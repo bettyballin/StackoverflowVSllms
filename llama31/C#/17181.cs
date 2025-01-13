@@ -1,1 +1,0 @@
-// Install via NuGet: Install-Package Formio\nusing Formio;\n\n// Create a form\nvar form = new FormioForm() { \n    Name = "My Form", \n    Fields = new[] { \n        new FormioField() { \n            Name = "My Property", \n            Type = "text", \n            Label = "My Property" \n        } \n    } \n};

@@ -1,1 +1,0 @@
-// Example LINQ query with FROM-first syntax\nvar customers = from c in db.Customers\n                where c.Country == "USA"\n                select c;

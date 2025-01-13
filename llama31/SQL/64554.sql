@@ -1,0 +1,1 @@
+SELECT DISTINCT posts.id, posts.title, posts.content\nFROM posts\nWHERE NOT EXISTS (\n  SELECT 1\n  FROM tags\n  WHERE tags.post_id = posts.id\n  AND tags.tag LIKE '%$keywords%'\n)

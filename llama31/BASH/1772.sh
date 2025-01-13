@@ -1,1 +1,0 @@
-psql -U postgres -c "ALTER ROLE john PASSWORD 'test' VALID UNTIL 'infinity';"\npsql -U postgres -c "ALTER ROLE john SET default_transaction_isolation TO 'read committed';"

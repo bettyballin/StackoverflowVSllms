@@ -1,0 +1,1 @@
+session_start();\necho '<a href="nextpage.php?' . SID . '">Next Page</a>';

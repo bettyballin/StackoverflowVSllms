@@ -1,0 +1,1 @@
+// Before (in each page controller)\nif (!isset($_SESSION['user_id'])) {\n    header('Location: login.php');\n    exit;\n}\n\n// After (in a separate class or function)\nclass Auth {\n    public static function checkLogin() {\n        if (!isset($_SESSION['user_id'])) {\n            header('Location: login.php');\n            exit;\n        }\n    }\n}

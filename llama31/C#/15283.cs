@@ -1,1 +1,0 @@
-private void Button_PreviewMouseDown(object sender, MouseButtonEventArgs e)\n{\n    if (e.ChangedButton == MouseButton.Left)\n    {\n        // Handle the left mouse button click\n    }\n}

@@ -1,0 +1,1 @@
+def modify_list(lst):\n    lst[0] = 10\n\nmy_list = [5]\nmodify_list(my_list)\nprint(my_list[0])  # prints 10\n\ndef modify_int(x):\n    x = 10\n\nmy_int = 5\nmodify_int(my_int)\nprint(my_int)  # prints 5

@@ -1,0 +1,1 @@
+sl = SortedList()\nsl.push(3)\nsl.push(1)\nsl.push(2)\n\nprint(sl.to_list())  # [1, 2, 3]\n\nindex = sl.find(2)\nprint(index)  # 1\n\nsl.push(4)\nprint(sl.to_list())  # [1, 2, 3, 4]

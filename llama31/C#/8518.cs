@@ -1,1 +1,0 @@
-[Authorize]\npublic class MyController : Controller\n{\n    // ...\n}

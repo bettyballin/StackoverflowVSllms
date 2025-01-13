@@ -1,1 +1,0 @@
-sudo echo "server_ip_address server_hostname" >> /etc/hosts

@@ -1,1 +1,0 @@
-// Paging example using ASP.NET\nint pageSize = 10;\nint currentPage = 1;\nDataSet searchResults = GetSearchResults(query, currentPage, pageSize);

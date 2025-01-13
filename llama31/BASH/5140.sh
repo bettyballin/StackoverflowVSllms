@@ -1,1 +1,0 @@
-:: Find the PID of the process owning the connection\nnetstat -ano | findstr <port_number>\n\n:: Use the PID to kill the connection\ntaskkill /pid <PID> /t /f

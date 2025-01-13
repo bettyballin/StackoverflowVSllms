@@ -1,1 +1,0 @@
-wsimport -keep -verbose http://your-wcf-service-url.com/your-service?wsdl

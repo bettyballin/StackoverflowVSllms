@@ -1,1 +1,0 @@
-var xmlDoc = new XmlDocument();\nxmlDoc.LoadXml(htmlString);

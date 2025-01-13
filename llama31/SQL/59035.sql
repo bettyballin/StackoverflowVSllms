@@ -1,0 +1,1 @@
+SELECT ID, TIME, DATA\nFROM (\n  SELECT ID, TIME, DATA,\n         ROW_NUMBER() OVER (PARTITION BY ID ORDER BY TIME) AS row_num\n  FROM your_table\n) AS subquery\nWHERE row_num = 1;

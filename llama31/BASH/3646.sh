@@ -1,1 +1,0 @@
-git archive --format=tar.gz <commit_hash> -o snapshot.tar.gz

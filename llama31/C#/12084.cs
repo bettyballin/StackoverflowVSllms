@@ -1,1 +1,0 @@
-int pid = 1234; // Replace with the actual PID\nstring processInfo = ProcessInfo.GetProcessInfo(pid);\nConsole.WriteLine(processInfo);

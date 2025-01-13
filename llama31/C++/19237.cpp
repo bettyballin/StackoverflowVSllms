@@ -1,1 +1,0 @@
-template<typename T>\nIData* createData();\n\nstd::vector<int> a;\n\nIData* newData = createData<decltype(a)>();

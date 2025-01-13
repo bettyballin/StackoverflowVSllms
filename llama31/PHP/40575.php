@@ -1,0 +1,1 @@
+$file_path = '/path/to/image.jpg';\nif (is_jpeg_corrupted($file_path)) {\n    echo "The JPEG file is corrupted.";\n} else {\n    echo "The JPEG file appears to be valid.";\n}

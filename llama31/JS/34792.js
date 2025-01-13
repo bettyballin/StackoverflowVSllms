@@ -1,0 +1,1 @@
+var jsonData = [\n    [1, 2, 3],\n    [4, 5, 6],\n    [7, 8, 9]\n];\n\nvar jsonString = JSON.stringify(jsonData);\n\nnew Ajax.Request('your_php_script.php', {\n    method: 'post',\n    parameters: {\n        data: jsonString\n    },\n    onSuccess: function(transport) {\n        var response = transport.responseText;\n        // do something with the response\n    }\n});

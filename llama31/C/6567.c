@@ -1,1 +1,0 @@
-#include <stdio.h>\n#include <stdlib.h>\n#include <oracle/oci.h>\n\nint main() {\n    OCIEnv *env;\n    OCIError *err;\n    OCISvcCtx *svc;\n\n    /* Set tracing level */\n    putenv("TRACE_LEVEL=16");\n\n    /* Initialize OCI environment */\n    OCIEnvCreate((OCIEnv **)&env, OCI_DEFAULT, NULL, NULL, NULL, NULL, 0, NULL);\n\n    /* Rest of your code... */\n}

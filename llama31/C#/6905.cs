@@ -1,1 +1,0 @@
-public IQueryable<User> GetActiveUsers()\n{\n    return SelectFromView("UsersActive");\n}

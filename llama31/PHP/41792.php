@@ -1,0 +1,1 @@
+$seven_days_ago = strtotime('-7 days');\n$seven_days_ago_date = date('F j', $seven_days_ago);\n$current_date = date('F j');\n$time_span = $seven_days_ago_date . ' - ' . $current_date;

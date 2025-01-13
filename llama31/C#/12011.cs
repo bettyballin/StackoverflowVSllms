@@ -1,1 +1,0 @@
-public class FixService : IFixService\n{\n    public void SendMessage(string message)\n    {\n        // Process the message\n    }\n}

@@ -1,0 +1,1 @@
+SELECT \n    COALESCE(YourColumn, 'false') AS IsNotNUll\nFROM YourTable;

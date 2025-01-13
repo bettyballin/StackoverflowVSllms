@@ -1,1 +1,0 @@
-public static class PathExtensions\n{\n    public static string Combine(params string[] paths)\n    {\n        string result = "";\n        foreach (string path in paths)\n        {\n            result = Path.Combine(result, path);\n        }\n        return result;\n    }\n}

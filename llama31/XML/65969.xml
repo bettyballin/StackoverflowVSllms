@@ -1,0 +1,1 @@
+<location path="foo/upload" inheritInChildApplications="false">\n    <system.web>\n        <!-- your configuration settings here -->\n    </system.web>\n</location>

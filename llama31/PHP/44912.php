@@ -1,0 +1,1 @@
+echo '<script>\nfunction makewindows(){\n  var child1 = window.open("about:blank");\n  child1.document.write("<img src=\''.$lastImg.'\'>");\n  child1.document.close();\n}\n</script>';

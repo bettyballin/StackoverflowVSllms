@@ -1,1 +1,0 @@
-openssl x509 -inform PEM -in publickey.cer -out publickey.crt

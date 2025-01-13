@@ -1,1 +1,0 @@
-using System.Runtime.InteropServices;\n\n// ...\n\nfor (int i = 1; i <= 30; i++)\n{\n    string propertyName = "Text" + i.ToString();\n    Marshal.SetPropertyValue(interopObject, propertyName, someValue);\n}

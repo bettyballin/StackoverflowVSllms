@@ -1,1 +1,0 @@
-DataTable filingTabsTable = dsTabData.Tables["FilingTabs"];\nDataTable parentTabsTable = dsTabData.Tables["ParentTabs"];\n\nstring filter = $"fs_ID NOT IN ({string.Join(",", parentTabsTable.AsEnumerable().Select(x => x.Field<int>("fsp_fsid")))})";\n\nDataRow[] selectedRows = filingTabsTable.Select(filter);

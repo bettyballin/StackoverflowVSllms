@@ -1,0 +1,1 @@
+>>> from decimal import Decimal\n>>> Decimal(4) / Decimal(100)\nDecimal('0.04')

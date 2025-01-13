@@ -1,0 +1,1 @@
+var S = 0;\nvar X = 1;\nvar S2 = 2;\nvar X2 = 3;\nvar M = 4;\nvar E = "SE";

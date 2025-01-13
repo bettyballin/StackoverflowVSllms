@@ -1,0 +1,1 @@
+CREATE OR REPLACE FUNCTION get_first(xml[] text[]) RETURNS text AS $$\n  SELECT $1[1];\n$$ LANGUAGE sql;

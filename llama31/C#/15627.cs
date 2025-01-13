@@ -1,1 +1,0 @@
-if (item.Rate?.Equals(0) ?? true) { }

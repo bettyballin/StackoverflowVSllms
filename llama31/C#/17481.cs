@@ -1,1 +1,0 @@
-SqlCommand command = new SqlCommand("INSERT INTO Contacts (Name, Email) VALUES (@Name, @Email)", connection);\ncommand.Parameters.AddWithValue("@Name", "John Doe");\ncommand.Parameters.AddWithValue("@Email", "john.doe@example.com");\ncommand.ExecuteNonQuery();

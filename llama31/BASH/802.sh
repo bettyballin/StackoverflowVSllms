@@ -1,1 +1,0 @@
-iconv -f ISO-8859-1 -t UTF-8 "$file" >/dev/null 2>&1\nif [ $? -ne 0 ]; then\n  mv "$file" "$target_directory"\nfi

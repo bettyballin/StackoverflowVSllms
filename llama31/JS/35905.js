@@ -1,0 +1,1 @@
+const selectedNode = document.getElementById('inner1');\nconst nextSibling = selectedNode.nextSibling;\nconst previousSibling = selectedNode.previousSibling;\n\nconsole.log(nextSibling); // outputs: div#inner2\nconsole.log(previousSibling); // outputs: null (since inner1 is the first child)

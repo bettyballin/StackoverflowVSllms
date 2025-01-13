@@ -1,0 +1,1 @@
+$expr = new Zend_Db_Expr('NULL');\n$data = array(\n    'field1' => 'value1',\n    'field2' => $expr, // sets field2 to NULL\n);\n\n$db->insert('table_name', $data);

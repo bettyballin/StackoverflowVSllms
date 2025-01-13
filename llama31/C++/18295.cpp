@@ -1,1 +1,0 @@
-#include <Windows.h>\n\nint main() {\n    OSVERSIONINFOEX osvi;\n    ZeroMemory(&osvi, sizeof(OSVERSIONINFOEX));\n    osvi.dwOSVersionInfoSize = sizeof(OSVERSIONINFOEX);\n\n    if (GetVersionEx((LPOSVERSIONINFO)&osvi)) {\n        printf("Service Pack: %s\n", osvi.szCSDVersion);\n    } else {\n        printf("Failed to get version info\n");\n    }\n\n    return 0;\n}

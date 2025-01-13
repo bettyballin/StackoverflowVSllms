@@ -1,0 +1,1 @@
+$partnername22 = "Discover<sup>tm</sup> Magazine";\n$escapedPartnername22 = htmlspecialchars($partnername22);\necho "<title>$escapedPartnername22</title>";

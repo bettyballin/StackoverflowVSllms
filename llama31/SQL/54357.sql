@@ -1,0 +1,1 @@
+CREATE TABLE IF NOT EXISTS users (\n  id INT PRIMARY KEY,\n  username VARCHAR(255)\n);\n\nINSERT INTO users (id, username)\nSELECT 1, 'admin'\nFROM (SELECT 1) AS temp\nWHERE NOT EXISTS (SELECT 1 FROM users);

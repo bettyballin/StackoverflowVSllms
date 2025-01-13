@@ -1,1 +1,0 @@
-.container {\n  display: grid;\n  grid-template-rows: 1fr auto;\n}\n\n.content {\n  grid-row: 1;\n  z-index: 1;\n}\n\n.footer {\n  grid-row: 2;\n  margin-top: -100px; /* adjust this value to control the overlap */\n}

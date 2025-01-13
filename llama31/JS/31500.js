@@ -1,0 +1,1 @@
+$(document).ready(function() {\n  $('td').on('mouseover', function() {\n    var title = $(this).find('span').attr('title');\n    // Display the title as a tooltip\n    tip(title); // Assuming you have a function named tip() to display the tooltip\n  });\n});

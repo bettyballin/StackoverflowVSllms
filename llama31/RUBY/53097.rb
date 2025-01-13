@@ -1,0 +1,1 @@
+# app/models/model.rb\nclass Model < ApplicationRecord\n  include DateHelper\n\n  def self.find_records\n    startd, endd = set_start_and_end_dates\n    find(:all, conditions: ['created_at >= ? AND created_at <= ?', startd, endd])\n  end\nend

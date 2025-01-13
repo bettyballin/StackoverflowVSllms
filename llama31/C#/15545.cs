@@ -1,1 +1,0 @@
-XmlNode stuffChild = stuff.SelectSingleNode(".//stuffChild");

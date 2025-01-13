@@ -1,1 +1,0 @@
-iptables -A INPUT -p tcp --dport 25 -j ACCEPT

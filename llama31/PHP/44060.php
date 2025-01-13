@@ -1,0 +1,1 @@
+function calculateArea($width, $height) {\n    function calculateRectangleArea($width, $height) {\n        return $width * $height;\n    }\n    return calculateRectangleArea($width, $height);\n}

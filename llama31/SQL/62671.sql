@@ -1,0 +1,1 @@
+-- Set SQL mode to a more permissive value\nSET SESSION sql_mode = 'NO_ENGINE_SUBSTITUTION';

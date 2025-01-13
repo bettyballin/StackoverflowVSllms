@@ -1,0 +1,1 @@
+IF EXISTS (SELECT * FROM inserted WHERE testcol = 7)\nBEGIN\n    THROW 51000, 'My Custom Error', 1;\nEND

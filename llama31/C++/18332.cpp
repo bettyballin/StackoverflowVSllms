@@ -1,1 +1,0 @@
-auto it = mmap.insert(std::make_pair("foo1", "test"));\nlist.push_back(it.first);

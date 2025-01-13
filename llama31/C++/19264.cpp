@@ -1,1 +1,0 @@
-int main() {\n    Parser parser("example.txt");\n    pky structure;\n    if (parser.parse(structure)) {\n        // ...\n    }\n    return 0;\n}

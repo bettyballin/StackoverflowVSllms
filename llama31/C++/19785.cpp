@@ -1,1 +1,0 @@
-amespace nsA {\n    namespace subA {\n        using namespace nsB; // bring nsB into scope\n        void myFunction() {\n            theFunctionInNsB(...); // no need to qualify with nsB::\n        }\n    }\n}

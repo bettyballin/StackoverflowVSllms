@@ -1,1 +1,0 @@
-gcc -o example example.c\nobjdump -x example | grep -i debug

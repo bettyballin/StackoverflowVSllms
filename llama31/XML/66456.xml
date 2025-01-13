@@ -1,0 +1,1 @@
+<connectionStrings>\n    <add name="MyConnection" connectionString="Data Source=ftp://ftp.example.com/mydatabase.sdf;Persist Security Info=False;" providerName="System.Data.SqlServerCe.4.0" />\n</connectionStrings>

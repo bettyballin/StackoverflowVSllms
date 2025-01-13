@@ -1,0 +1,1 @@
+array(1) {\n  ["foo"]=>\n  string(3) "bar"\n}

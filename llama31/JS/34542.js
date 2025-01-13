@@ -1,0 +1,1 @@
+const zlib = require('zlib');\nconst json = { /* your large JSON object */ };\n\n// Compress JSON data using Gzip\nconst compressedJson = zlib.gzipSync(JSON.stringify(json));\n\n// Send compressed data to client\nres.setHeader('Content-Encoding', 'gzip');\nres.send(compressedJson);

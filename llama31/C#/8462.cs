@@ -1,1 +1,0 @@
-private static readonly Regex FindNumberRegex = new Regex(@"\d+", RegexOptions.IgnoreCase | RegexOptions.Compiled);\nprivate static readonly Regex FindDaysRegex = new Regex(/* pattern */, RegexOptions.IgnoreCase | RegexOptions.Compiled);

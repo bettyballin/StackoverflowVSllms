@@ -1,1 +1,0 @@
-public static void Main(string[] args)\n{\n    int number = 1;\n    switch (number)\n    {\n        case 1:\n            goto L0;\n        default:\n            goto EL0;\n    }\n\nL0:\n    Console.WriteLine("Number is 1");\n    goto EL0;\n\nEL0:\n    Console.WriteLine("End of switch");\n}

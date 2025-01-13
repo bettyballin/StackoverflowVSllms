@@ -1,0 +1,1 @@
+// Example usage:\nconst dropzone = new Dropzone("div#my-dropzone", {\n  url: "/upload",\n  maxFiles: 10,\n  maxFilesize: 2, // MB\n  acceptedFiles: ".jpg, .png, .zip"\n});

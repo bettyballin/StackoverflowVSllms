@@ -1,1 +1,0 @@
-var request = (HttpWebRequest)WebRequest.Create("http://localhost:8080/images");\nrequest.Method = "POST";\nrequest.ContentType = "image/jpeg";\n\nusing (var stream = new FileStream("image.jpg", FileMode.Open))\n{\n    request.ContentLength = stream.Length;\n    using (var requestStream = request.GetRequestStream())\n    {\n        stream.CopyTo(requestStream);\n    }\n}

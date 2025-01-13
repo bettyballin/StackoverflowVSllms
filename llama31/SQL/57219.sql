@@ -1,0 +1,1 @@
+SELECT *\nFROM hardware\nWHERE tag IN (\n  SELECT tag\n  FROM incidents\n  WHERE status = 'unresolved'\n)

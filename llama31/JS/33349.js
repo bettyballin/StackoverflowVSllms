@@ -1,0 +1,1 @@
+// To disable form submission\n$('#yourForm').bind('submit', function(e) {\n    e.preventDefault();\n});\n\n// To enable form submission\n$('#yourForm').unbind('submit');

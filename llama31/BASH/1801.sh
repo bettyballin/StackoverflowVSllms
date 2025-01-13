@@ -1,1 +1,0 @@
-:mksession ~/.vim/sessions/my_session.vim

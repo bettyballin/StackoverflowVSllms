@@ -1,1 +1,0 @@
-public class BaseController : Controller\n{\n    protected override void OnException(ExceptionContext filterContext)\n    {\n        // Handle errors here\n    }\n}

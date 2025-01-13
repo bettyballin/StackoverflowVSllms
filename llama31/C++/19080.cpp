@@ -1,1 +1,0 @@
-std::string line;\nwhile (std::getline(file, line)) {\n    str.append(line + "\n");\n}\nfputs(str.c_str(), file);\n_chsize(fileno(file), (int)str.size());

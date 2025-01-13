@@ -1,0 +1,1 @@
+echo '<script>alert("values:'.$_REQUEST["id"].", ".$_REQUEST["add_single"]."");</script>';

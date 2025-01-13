@@ -1,0 +1,1 @@
+SELECT IF(ROW_COUNT() > threshold, COMPRESS(...), ...) AS compressed_data\nFROM your_table\nWHERE condition;

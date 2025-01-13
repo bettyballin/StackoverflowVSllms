@@ -1,1 +1,0 @@
-public class LawyerModel\n{\n    public int[] SelectedStates { get; set; }\n    public List<State> States { get; set; }\n}\n\npublic class State\n{\n    public int Id { get; set; }\n    public string Name { get; set; }\n}

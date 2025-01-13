@@ -1,1 +1,0 @@
-rs.exe -i <your_report_project>.rds /s http://prod-ssrs-server/ReportServer

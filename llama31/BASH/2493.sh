@@ -1,1 +1,0 @@
-svnadmin info /path/to/repo | grep "Repository Format"

@@ -1,1 +1,0 @@
-XmlNode node = xmlDoc.SelectSingleNode("//Node/id[@type='image']/id[@attr1='myVal']/ancestor::Node");

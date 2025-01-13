@@ -1,1 +1,0 @@
-public static class UrlHelper\n{\n    public static string ResolveUrl(string url)\n    {\n        return HttpContext.Current.Request.ApplicationPath + url;\n    }\n}

@@ -1,0 +1,1 @@
+EXEC sp_maintenance_plan @plan_name = 'YourMaintenancePlanName', @operation = 'Export', @filename = 'C:\MaintenancePlanScript.sql'

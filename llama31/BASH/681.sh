@@ -1,1 +1,0 @@
-# Update the timestamp of the file to match the current system time\ntouch sendmailpm.jsp

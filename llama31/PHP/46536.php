@@ -1,0 +1,1 @@
+$xmlString = $node->ownerDocument->saveXML($node);

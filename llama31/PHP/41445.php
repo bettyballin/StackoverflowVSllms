@@ -1,0 +1,1 @@
+if (strcasecmp($parsed_url['host'], 'google.com') == 0) {\n    echo "yes";\n} else {\n    echo "no";\n}

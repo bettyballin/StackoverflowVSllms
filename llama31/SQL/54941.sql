@@ -1,0 +1,1 @@
+SELECT \n  SUM(EXTRACT(EPOCH FROM (end_time - start_time))) / 60 AS total_duration_in_minutes\nFROM \n  your_table;

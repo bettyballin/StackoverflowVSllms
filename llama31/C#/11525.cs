@@ -1,1 +1,0 @@
-string sql = "SELECT * FROM users WHERE username = '" + username + "' AND password = '" + password + "'";\nSqlCommand cmd = new SqlCommand(sql, conn);

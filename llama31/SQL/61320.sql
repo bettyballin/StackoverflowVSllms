@@ -1,0 +1,1 @@
+CREATE TABLE LoginHistory (\n    LogId INT PRIMARY KEY,\n    UserId INT,\n    LoginDateTime DATETIME,\n    LogoutDateTime DATETIME,\n    IsLogin BIT  -- 1 for login, 0 for logout\n);

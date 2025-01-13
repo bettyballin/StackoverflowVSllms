@@ -1,0 +1,1 @@
+<!-- NLB Configuration -->\n<configuration>\n  <system.net>\n    <loadBalancing>\n      <clusters>\n        <cluster name="WCFCluster" ip="192.168.1.100" />\n      </clusters>\n    </loadBalancing>\n  </system.net>\n</configuration>

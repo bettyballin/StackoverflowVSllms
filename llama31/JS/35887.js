@@ -1,0 +1,1 @@
+$('#myElement').attr('myAttribute', 'myValue');

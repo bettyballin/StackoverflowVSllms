@@ -1,1 +1,0 @@
-#include <boost/thread.hpp>\n\nint main() {\n    boost::thread thread(&my_function);\n    thread.join();\n    return 0;\n}

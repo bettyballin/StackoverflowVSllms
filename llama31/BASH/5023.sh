@@ -1,1 +1,0 @@
-php -d "zend.enable_gc=0" -d "apc.enabled=0" -d "zend.debug_mode=1" -r "require '/path/to/your/script.php';"

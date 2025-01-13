@@ -1,0 +1,1 @@
+class User {\n    function __construct(...$args) {\n        if (empty($args)) {\n            throw new InvalidArgumentException("At least one of id, email, or username is required");\n        }\n        list($id, $email, $username) = array_pad($args, 3, FALSE);\n        // rest of your constructor code here\n    }\n}

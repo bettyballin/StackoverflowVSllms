@@ -1,0 +1,1 @@
+class PolicyDSL:\n    def allow(self, action, group):\n        print(f"Allowing {action} access to {group}")\n\n    def deny(self, action, group):\n        print(f"Denying {action} access to {group}")\n\npolicy = PolicyDSL()\n\n# Define a policy using the DSL\npolicy.allow("read", "admin")\npolicy.deny("write", "external")

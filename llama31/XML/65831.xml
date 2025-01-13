@@ -1,0 +1,1 @@
+<xsd:key name="uniqueQuestion">\n  <xsd:selector xpath="//*[self::MainQuestion or self::AlternateQuestion]"/>\n  <xsd:field xpath="@id"/>\n</xsd:key>

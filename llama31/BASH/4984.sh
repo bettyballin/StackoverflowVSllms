@@ -1,1 +1,0 @@
-regmon -l -n <process_name>

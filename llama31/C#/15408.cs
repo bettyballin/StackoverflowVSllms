@@ -1,1 +1,0 @@
-public bool IsComComponentInstalled(string classId)\n{\n    try\n    {\n        Type.GetTypeFromCLSID(new Guid(classId));\n        return true;\n    }\n    catch (COMException)\n    {\n        return false;\n    }\n}

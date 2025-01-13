@@ -1,1 +1,0 @@
-.main-container {\n  display: flex;\n  flex-direction: column;\n  height: 300px; /* or any other fixed height */\n}\n\n.div_upper {\n  flex-grow: 1;\n  overflow-y: auto;\n}\n\n.div_lower {\n  flex-grow: 1;\n  overflow-y: auto;\n}

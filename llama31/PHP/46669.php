@@ -1,0 +1,1 @@
+$var = array(1, 3, 5, 7, 9);\n$placeholders = implode(',', array_fill(0, count($var), '?'));\n\n$query = "UPDATE tablename SET seen_before = 1 WHERE id IN ($placeholders)";\n$stmt = $pdo->prepare($query);\n$stmt->execute($var);

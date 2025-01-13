@@ -1,1 +1,0 @@
-public ActionResult Details(string id)\n{\n    MyModelDataContext db = new MyModelDataContext();\n    Product user = db.Products.Single(t => t.Name == id);\n    return View(user);\n}

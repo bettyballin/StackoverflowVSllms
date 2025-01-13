@@ -1,0 +1,1 @@
+if (typeof document.createElement('canvas').getContext === 'function') {\n  // Browser supports HTML5 canvas element\n} else {\n  // Browser does not support HTML5 canvas element\n}

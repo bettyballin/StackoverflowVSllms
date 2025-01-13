@@ -1,1 +1,0 @@
-cat /proc/<pid>/status | grep State

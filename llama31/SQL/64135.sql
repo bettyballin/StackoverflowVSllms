@@ -1,0 +1,1 @@
+CREATE TABLE myTable (id INT, name VARCHAR(50));\n\nINSERT INTO myTable (id, name) VALUES (1, 'John'), (2, 'Jane'), (3, 'Bob');\n\nCREATE VIEW myView AS\nSELECT * FROM myTable;\n\nSELECT * FROM myView;\n\nSELECT * FROM (SELECT * FROM myTable) AS subquery;

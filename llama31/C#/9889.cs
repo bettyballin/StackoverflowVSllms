@@ -1,1 +1,0 @@
-protected void MyObjectDataSource_Selecting(object sender, ObjectDataSourceSelectingEventArgs e)\n{\n    e.InputParameters["PageSize"] = MyObjectDataSource.PageSize;\n    e.InputParameters["PageIndex"] = MyObjectDataSource.StartRowIndex / MyObjectDataSource.PageSize;\n}

@@ -1,0 +1,1 @@
+$fp = fopen($_SESSION['filename'], "r");\n\n// Read and discard the first line (column headers)\nfgets($fp);\n\nwhile (($data = fgetcsv($fp, 1000, ",")) !== FALSE) {\n    $import = "INSERT into csv_table(name,address,age) values('$data[0]','$data[1]','$data[2]')";\n    mysql_query($import) or die(mysql_error());\n}\n\nfclose($fp);

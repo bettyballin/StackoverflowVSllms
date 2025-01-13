@@ -1,0 +1,1 @@
+class My_Db_Adapter_Mysqli extends Zend_Db_Adapter_Mysqli\n{\n    public function queryUnbuffered($sql)\n    {\n        $this->_connect();\n        $result = mysqli_use_result($this->_connection);\n        return $result;\n    }\n}

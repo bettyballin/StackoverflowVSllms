@@ -1,0 +1,1 @@
+SELECT itemcode, desc\nFROM (\n  SELECT itemcode, desc,\n         ROW_NUMBER() OVER (PARTITION BY itemcode ORDER BY COUNT(desc) DESC) as rn\n  FROM table\n  GROUP BY itemcode, desc\n) AS subquery\nWHERE rn = 1

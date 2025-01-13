@@ -1,1 +1,0 @@
-pm install -g http-server\nhttp-server -c-1 -e 404.html

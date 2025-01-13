@@ -1,0 +1,1 @@
+Private _allowedLocations As Point() = {New Point(50, 50), New Point(500, 500), New Point(700, 100)}

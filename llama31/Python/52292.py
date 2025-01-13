@@ -1,0 +1,1 @@
+import math\n\ndef calculate_bid(final_cost):\n    # assuming bid > 1500 and < 2000, PIN sections are constant\n    pin1 = 50\n    pin2 = 10\n    pin3 = 5\n    storing_cost = 100\n    \n    # calculate bid\n    bid = (final_cost - pin1 - pin2 - pin3 - storing_cost) / 1.02\n    \n    return bid\n\n# test the function\nfinal_cost = 2000\nprint(calculate_bid(final_cost))

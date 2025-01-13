@@ -1,1 +1,0 @@
-// example usage:\nusing JetBrains.dotMemoryUnit;\nusing NUnit.Framework;\n\n[TestFixture]\npublic class MemoryTests\n{\n    [Test]\n    public void TestMemoryLeak()\n    {\n        // ...\n    }\n}

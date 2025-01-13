@@ -1,0 +1,1 @@
+// in your controller\n$this->Session->setFlash('Record edited', 'default', array('dismiss' => true));

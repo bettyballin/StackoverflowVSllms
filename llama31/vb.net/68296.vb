@@ -1,0 +1,1 @@
+Module MyStaticClass\n    Public Function MyMethod() As String\n        Return "Hello, World!"\n    End Function\nEnd Module

@@ -1,0 +1,1 @@
+SELECT video_name \nFROM videos \nINNER JOIN videogroups ON videos.id=videogroups.video_id \nWHERE videogroups.group_id IN (\n  SELECT group_id \n  FROM videogroups \n  WHERE video_id = 'current_video_id'\n) \nAND videos.id <> 'current_video_id' \nLIMIT 5;

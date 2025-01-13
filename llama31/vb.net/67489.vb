@@ -1,0 +1,1 @@
+' File1.vb\n<Serializable()> Partial Public Class Customers\n    ' ...\nEnd Class\n\n' File2.vb\nPartial Public Class Customers\n    ' ...\nEnd Class

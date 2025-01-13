@@ -1,1 +1,0 @@
-fxcopcmd.exe /project:MyProject.dll /out:MyProject.FxCopReport.xml /rules:+Microsoft.Design#CA1000

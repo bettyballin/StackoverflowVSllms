@@ -1,0 +1,1 @@
+class Cache:\n    def __init__(self):\n        self.cache = {}\n        self.tags = {}\n\n    def set(self, key, value, tag):\n        self.cache[key] = value\n        self.tags[key] = tag\n\n    def get(self, key, expected_tag):\n        if key in self.cache and self.tags[key] == expected_tag:\n            return self.cache[key]\n        else:\n            return None

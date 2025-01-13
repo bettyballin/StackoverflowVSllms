@@ -1,0 +1,1 @@
+putenv('LD_LIBRARY_PATH=' . $_SERVER['HOME'] . '/lib');

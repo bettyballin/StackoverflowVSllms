@@ -1,0 +1,1 @@
+Protected Sub Page_Init(ByVal sender As Object, ByVal e As System.EventArgs)\n    ' Recreate the dynamic GridView controls on postback\n    If Page.IsPostBack Then\n        Dim gridNode As XmlNode = ' retrieve the grid node from your data source\n        sbLoadGrid(gridNode)\n    End If\nEnd Sub

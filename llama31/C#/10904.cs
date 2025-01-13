@@ -1,1 +1,0 @@
-if (Page_IsValid) {\n    // Submit the form\n} else {\n    // Display an error message\n}

@@ -1,0 +1,1 @@
+BEGIN TRAN eg\n    UPDATE tblPrimaryKey SET PkId = 3 WHERE PkId = 3\nCOMMIT TRAN eg

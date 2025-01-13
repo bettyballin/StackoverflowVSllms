@@ -1,1 +1,0 @@
-isql -S$server -D$database -U$userID -P$password << EOF > $test\nexec MY_STORED_PROC\ngo\nEOF\n\nstatus_code=$(grep -oE 'return status = [0-9]+' $test | cut -d' ' -f4)\necho "Status code: $status_code"

@@ -1,0 +1,1 @@
+DELETE t\nFROM table t\nLEFT OUTER JOIN (\n  SELECT MAX(id) AS rowid, dupcol1, dupcol2\n  FROM table\n  GROUP BY dupcol1, dupcol2\n  HAVING COUNT(*) > 3\n) AS keeprows ON t.id = keeprows.rowid\nWHERE keeprows.rowid IS NULL\nAND (dupcol1, dupcol2) IN (\n  SELECT dupcol1, dupcol2\n  FROM table\n  GROUP BY dupcol1, dupcol2\n  HAVING COUNT(*) > 3\n)

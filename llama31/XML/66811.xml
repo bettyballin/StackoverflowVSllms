@@ -1,0 +1,1 @@
+<jboss-web>\n  ...\n  <jsp-configuration>\n    <development>true</development>\n  </jsp-configuration>\n  ...\n</jboss-web>

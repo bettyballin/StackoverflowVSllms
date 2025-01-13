@@ -1,0 +1,1 @@
+<?php\n$dataURL = $_POST['dataURL'];\n$imageData = base64_decode(substr($dataURL, strpos($dataURL, ',') + 1));\n$image = imagecreatefromstring($imageData);\nimagepng($image, 'output.png');\nimagedestroy($image);\n?>

@@ -1,1 +1,0 @@
-int i = ReadAllDigital();\ncbi[1].Checked = (i & 1) != 0;\ncbi[2].Checked = (i & 2) != 0;\ncbi[3].Checked = (i & 4) != 0;\ncbi[4].Checked = (i & 8) != 0;\ncbi[5].Checked = (i & 16) != 0;

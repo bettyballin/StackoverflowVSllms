@@ -1,0 +1,1 @@
+<mxmlc ...>\n    <compiler.additional-options>\n        <option value="-services ${basedir}/services-config.xml"/>\n    </compiler.additional-options>\n</mxmlc>

@@ -1,1 +1,0 @@
-// Compile for Intel Core i7 (Haswell)\ngcc -march=corei7-avx -O3 example.c -o example\n\n// Compile for AMD Ryzen 9 (Zen 2)\ngcc -march=znver2 -O3 example.c -o example

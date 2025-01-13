@@ -1,1 +1,0 @@
-public bool IsValidWord(string word)\n{\n    using (SqlConnection conn = new SqlConnection(connectionString))\n    {\n        conn.Open();\n        SqlCommand cmd = new SqlCommand("SELECT 1 FROM Dictionary WHERE Word = @word", conn);\n        cmd.Parameters.AddWithValue("@word", word);\n        object result = cmd.ExecuteScalar();\n        return result != null;\n    }\n}

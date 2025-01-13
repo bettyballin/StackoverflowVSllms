@@ -1,0 +1,1 @@
+echo '<td><a href="#" onclick="deleteAndRefresh(\'Layer2\', \'' . $pk . '\')">'.$row['ARTICLE_NAME'].'</a></td>' . "\n";

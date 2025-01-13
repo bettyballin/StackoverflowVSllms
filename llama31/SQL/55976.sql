@@ -1,0 +1,1 @@
+DELETE FROM child_table\nWHERE parent_id IN (\n  SELECT id\n  FROM parent_table\n  WHERE condition = 'true'\n);\nDELETE FROM parent_table\nWHERE condition = 'true';

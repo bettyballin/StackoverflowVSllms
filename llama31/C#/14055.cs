@@ -1,1 +1,0 @@
-OleDbCommand odc = new OleDbCommand("UpdatePaid", connection);\n// ...\nodc.Prepare();\nmyAdapter.UpdateCommand = odc;

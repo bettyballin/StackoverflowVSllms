@@ -1,1 +1,0 @@
-[XmlElement("Name", IsNullable = true, DefaultValue = "")]\npublic string Name { get; set; }

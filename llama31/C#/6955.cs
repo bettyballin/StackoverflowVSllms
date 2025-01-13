@@ -1,1 +1,0 @@
-ultraCombo1.SelectedItem = "Pre-selected value";

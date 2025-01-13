@@ -1,0 +1,1 @@
+const url = 'https://your-website.com';\nconst validatorUrl = 'https://validator.w3.org/nu/';\n\nfetch(`${validatorUrl}?uri=${url}`)\n  .then(response => response.json())\n  .then(data => {\n    if (data.results.valid) {\n      console.log('HTML 5 is valid');\n    } else {\n      console.log('HTML 5 is not valid');\n    }\n  });

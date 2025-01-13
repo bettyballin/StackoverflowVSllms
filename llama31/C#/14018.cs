@@ -1,1 +1,0 @@
-query = from p in query\njoin n in notes on p.PROJECT_ID equals n.PROJECT_ID\nwhere n.NOTES.Contains(cwForm.search1Form)\ngroup p by p.PROJECT_ID into g\nselect g.First();

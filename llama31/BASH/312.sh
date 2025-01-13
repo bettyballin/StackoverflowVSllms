@@ -1,1 +1,0 @@
-xmlstarlet val -r relaxng-schema.rng input.xml

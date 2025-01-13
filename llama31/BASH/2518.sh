@@ -1,1 +1,0 @@
-# Example usage:\nzfs send -Rv <pool>/<dataset>@<snapshot> | ssh <remote_host> zfs receive -Fv <pool>/<dataset>

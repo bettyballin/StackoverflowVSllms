@@ -1,0 +1,1 @@
+SELECT *\nFROM (\n  SELECT OrderID, OrderDate, ROW_NUMBER() OVER (ORDER BY OrderID) AS RowNumber\n  FROM Orders\n)\nWHERE RowNumber = 1000000;

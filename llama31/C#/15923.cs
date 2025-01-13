@@ -1,1 +1,0 @@
-[ComVisible(true)]\n[ClassInterface(ClassInterfaceType.AutoDispatch)]\npublic class MyComObject : IMyComObject\n{\n    public DataSet MyMethod()\n    {\n        // Your existing implementation here\n    }\n}

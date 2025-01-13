@@ -1,1 +1,0 @@
-# Synthesize RTL code into a netlist\nvivado -mode batch -source my_design.vhd -tcl my_design.tcl\n\n# Program the FPGA with the netlist\nvivado -mode batch -source my_design.tcl -tcl program_fpga.tcl

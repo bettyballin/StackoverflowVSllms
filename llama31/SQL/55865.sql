@@ -1,0 +1,1 @@
+SELECT replace_special_chars('Hello' || CHR(10) || 'World', 'CSTYLE') FROM DUAL;

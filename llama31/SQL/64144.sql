@@ -1,0 +1,1 @@
+CREATE TABLE Test (VoidedIndicator bit NULL);\n\nINSERT INTO Test (VoidedIndicator) VALUES (0), (1), (NULL);\n\nSELECT * FROM Test WHERE VoidedIndicator <> 1;\n\n-- Only returns rows with VoidedIndicator = 0\n\nSELECT * FROM Test WHERE (VoidedIndicator <> 1 OR VoidedIndicator IS NULL);\n\n-- Returns rows with VoidedIndicator = 0 and VoidedIndicator IS NULL

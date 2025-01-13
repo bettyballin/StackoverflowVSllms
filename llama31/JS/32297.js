@@ -1,0 +1,1 @@
+function FindProxyForURL(url, host) {\n  dump("PAC script called for " + url + "\n");\n  // ...\n}

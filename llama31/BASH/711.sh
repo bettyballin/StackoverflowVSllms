@@ -1,1 +1,0 @@
-# Run mitmproxy with the default configuration\nmitmproxy -T --set intercept=true\n\n# Configure your application to use the mitmproxy server\nexport http_proxy=http://localhost:8080\nexport https_proxy=http://localhost:8080

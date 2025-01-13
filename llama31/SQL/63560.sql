@@ -1,0 +1,1 @@
+SELECT \n    DateColumn,\n    CONVERT(VARCHAR, YEAR(DateColumn) - (DATEPART(MONTH, DateColumn) < 8)) + '/' + \n    CONVERT(VARCHAR, YEAR(DateColumn) + (DATEPART(MONTH, DateColumn) >= 8)) AS AcademicYear\nFROM YourTable

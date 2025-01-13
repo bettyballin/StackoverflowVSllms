@@ -1,1 +1,0 @@
-ssh -q user@target "cd /some/directory; nohup program-to-execute &"

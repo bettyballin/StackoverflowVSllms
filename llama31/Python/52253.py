@@ -1,0 +1,1 @@
+import win32api\n\n# Get the current username\nusername = win32api.GetUserName()\nprint(username)\n\n# Get the current computer name\ncomputer_name = win32api.GetComputerName()\nprint(computer_name)

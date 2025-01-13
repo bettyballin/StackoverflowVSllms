@@ -1,0 +1,1 @@
+SET @id = (SELECT id FROM table WHERE condition);\nIF @id IS NULL THEN\n  SIGNAL SQLSTATE '45000' SET MESSAGE_TEXT = 'No id found';\nEND IF;

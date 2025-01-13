@@ -1,1 +1,0 @@
-utch crawl urls -dir output_dir -threads 10 -depth 10

@@ -1,0 +1,1 @@
+user = User.find(1)\nif user.roles.includes?(:admin)\n  # user has admin role\nend\n\nif user.has_permission?(:edit_posts)\n  # user has edit_posts permission\nend

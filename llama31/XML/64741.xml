@@ -1,0 +1,1 @@
+<Application x:Class="YourApplication.App"\n             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"\n             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"\n             xmlns:local="clr-namespace:YourNamespace"\n             StartupUri="MainWindow.xaml">\n    <!-- ... -->\n</Application>

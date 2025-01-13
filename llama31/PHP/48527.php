@@ -1,0 +1,1 @@
+use phpseclib3\Net\SSH2;\n\n$ssh = new SSH2('SERVER_IP', 22);\nif (!$ssh->login('username', 'password')) {\n    exit('Login failed');\n}\n\n$ssh->forwardPort(3307, 'DESTINATION_IP', 3306);\n\n$db = new mysqli('127.0.0.1', 'DB_USERNAME', 'DB_PASSWORD', 'dbname', 3307);

@@ -1,1 +1,0 @@
-#include <d3d9.h>\n\n// Create the Direct3D device\nLPDIRECT3D9 pD3D;\npD3D = Direct3DCreate9(D3D_SDK_VERSION);\n\n// Create the Direct3D device\nLPDIRECT3DDEVICE9 pDevice;\npD3D->CreateDevice(D3DADAPTER_DEFAULT, D3DDEVTYPE_HAL, NULL, 0, &pDevice);

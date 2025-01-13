@@ -1,1 +1,0 @@
-ddlPrimaryContact.Items.Clear();\nforeach (SubscriptionUser su in subscriptionDetails.UserList)\n{\n    ddlPrimaryContact.Items.Add(new ListItem(su.FirstName + " " + su.LastName, su.EmailAddress));\n}

@@ -1,0 +1,1 @@
+for ($i = 1; $i <= 5; $i++) {\n    $var_name = 'var' . $i;\n    $$var_name = 'value' . $i;\n}

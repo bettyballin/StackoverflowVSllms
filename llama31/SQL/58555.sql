@@ -1,0 +1,1 @@
+DECLARE @p1 VARCHAR(50);\nDECLARE @utcDateTime DATETIME;\n\nSET @p1 = '2009-06-26 14:30:00.000Z-4:00';\n\nSET @utcDateTime = CONVERT(DATETIME, @p1, 127);\n\nSELECT @utcDateTime;

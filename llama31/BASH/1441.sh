@@ -1,1 +1,0 @@
-*/5 * * * * httping -g http://example.com

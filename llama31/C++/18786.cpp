@@ -1,1 +1,0 @@
-// myclass_c.cpp\n#include "myclass.h"\n#include "myclass_c.h"\n\nMyClass* myclass_new() {\n    return new MyClass();\n}\n\nvoid myclass_myMethod(MyClass* obj) {\n    obj->myMethod();\n}\n\nvoid myclass_delete(MyClass* obj) {\n    delete obj;\n}

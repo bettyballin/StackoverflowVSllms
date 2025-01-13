@@ -1,0 +1,1 @@
+$decrypted_string = trim(mcrypt_decrypt($cipher_alg, $key, $encrypted_string, MCRYPT_MODE_CBC, trim(hex2bin(trim($hexiv)))));

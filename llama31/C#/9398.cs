@@ -1,1 +1,0 @@
-private static Predicate<Car> ByYear(int year)\n{\n    return delegate(Car car) { return car.Year == year; };\n}\n\n// Usage:\nfor (int x = 1980; x < 2000; x++)\n{\n    myCar = carList.Find(ByYear(x));\n    Console.WriteLine(myCar.Make + myCar.Model);\n}

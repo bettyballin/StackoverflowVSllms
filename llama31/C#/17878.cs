@@ -1,1 +1,0 @@
-Server.Transfer(Request.RawUrl);

@@ -1,1 +1,0 @@
-sed -i '/*** Start.*$/,/*** Finish.*$/!d' file.txt

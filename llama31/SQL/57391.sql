@@ -1,0 +1,1 @@
+LENGTH(NAME) VSIZE(NAME)\n----------- -----------\n         4          8

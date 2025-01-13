@@ -1,0 +1,1 @@
+// Assume $_GET['foo'] = 'bar'\n\nextract(array('foo' => 'baz'), EXTR_PREFIX_SAME, 'prefixed_');\necho $foo; // outputs 'baz'\necho $prefixed_foo; // does not exist\n\nextract(array('foo' => 'baz'), EXTR_PREFIX_IF_EXISTS, 'prefixed_');\necho $foo; // outputs 'bar'\necho $prefixed_foo; // outputs 'baz'

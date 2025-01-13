@@ -1,1 +1,0 @@
-php_value allow_url_include O

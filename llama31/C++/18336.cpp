@@ -1,1 +1,0 @@
-#include <string>\n#include <regex>\n\nstd::string sanitizeFilename(const std::string& input) {\n    // Allow only alphanumeric characters, dots, underscores, and hyphens\n    std::regex pattern("[^a-zA-Z0-9._-]");\n    return std::regex_replace(input, pattern, "");\n}

@@ -1,1 +1,0 @@
-[Serializable]\n[DataContract]\npublic class SomeClass\n{\n    [DataMember]\n    public string PropertyA { get; set; }\n\n    [DataMember(IsRequired = false)]\n    public string PropertyB => "Hi There";\n}

@@ -1,0 +1,1 @@
+alter system set "_sort_cost_model"='PGA' scope=spfile;

@@ -1,0 +1,1 @@
+original_list = [[1, 2, 3], [4, 5, 6], [7, 8, 9]]\nprefix_number = 9\n\nnew_list = [[prefix_number] + sublist for sublist in original_list]\n\nprint(new_list)  # Output: [[9, 1, 2, 3], [9, 4, 5, 6], [9, 7, 8, 9]]

@@ -1,0 +1,1 @@
+UPDATE your_table\nSET your_column = INITCAP(your_column);

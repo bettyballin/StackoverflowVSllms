@@ -1,1 +1,0 @@
-private void Form1_KeyUp(object sender, KeyEventArgs e)\n{\n    if (e.KeyCode == Keys.D8 && e.Modifiers == Keys.Shift)\n    {\n        // Asterisk (*) was pressed\n    }\n}

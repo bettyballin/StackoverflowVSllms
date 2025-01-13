@@ -1,1 +1,0 @@
-setup.exe -q -P gcc4-4.4.7-1

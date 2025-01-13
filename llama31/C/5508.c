@@ -1,1 +1,0 @@
-#include "matrix.h"\n\n// ... your code ...\n\n// Get the last error message\nconst char* errMsg = mexErrMsgIdAndTxt(NULL, NULL);\nif (errMsg != NULL) {\n    // Handle the error message\n    printf("Error: %s\n", errMsg);\n}

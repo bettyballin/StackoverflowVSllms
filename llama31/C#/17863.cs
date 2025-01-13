@@ -1,1 +1,0 @@
-public static T Method<T>() where T : IClassA<T>

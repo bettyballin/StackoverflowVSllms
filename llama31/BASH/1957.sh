@@ -1,1 +1,0 @@
-Get-Content -Path .\example.jsp -Encoding String

@@ -1,0 +1,1 @@
+if (!empty($_SERVER['TERM'])) {\n    // Disable notifications when running from command line\n    $notify = false;\n} else {\n    // Enable notifications when running from cron job\n    $notify = true;\n}\n\nif ($notify) {\n    // Send notifications (e.g. post to Twitter, send email)\n}

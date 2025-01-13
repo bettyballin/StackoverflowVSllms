@@ -1,0 +1,1 @@
+$array = $rowset->toArray();\n$filteredArray = array_filter($array, function($row) {\n    return $condition == satisfied;\n});\n$newRowset = new Zend_Db_Table_Rowset($filteredArray);

@@ -1,0 +1,1 @@
+SELECT COUNT(*) AS count\nFROM your_table\nWHERE your_condition;

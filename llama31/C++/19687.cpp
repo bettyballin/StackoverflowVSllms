@@ -1,1 +1,0 @@
-CComVariant var = resultsDataString;\nCComBSTR bstr;\nHRESULT hr = var.ChangeType(VT_BSTR, &bstr);\nif (SUCCEEDED(hr))\n{\n    // Use the string value\n    printf("%S\n", bstr.m_str);\n}

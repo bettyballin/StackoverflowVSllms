@@ -1,0 +1,1 @@
+WHERE tt.id = '.PRODUCT_TAG_TYPE_FREE_TAG.'\n  AND p.status = 1\n  AND (lower(pt.value) = 'cats' AND (lower(pt.value) = 'kittens' OR lower(pt.value) = 'dogs'))\n  AND lower(pt.value) != 'parrots'

@@ -1,0 +1,1 @@
+// In your JSP page\nfunction rotateImage() {\n    parent.appletFrame.appletName.rotateImage();\n}

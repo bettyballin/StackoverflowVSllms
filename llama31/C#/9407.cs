@@ -1,1 +1,0 @@
-string labelText = "2009-05-29 12:06:00";\nDateTime date = DateTime.ParseExact(labelText, "yyyy-MM-dd HH:mm:ss", CultureInfo.InvariantCulture);\n\nSqlDataSource1.SelectParameters.Add("@date", date);

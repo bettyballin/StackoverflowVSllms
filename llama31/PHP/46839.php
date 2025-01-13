@@ -1,0 +1,1 @@
+$payments = $_POST['payment'];\nforeach ($payments as $payment) {\n    echo $payment['type'];\n    echo $payment['amount'];\n    echo $payment['account'];\n}

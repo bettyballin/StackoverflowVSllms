@@ -1,1 +1,0 @@
-for (auto& ptr : foo_list) {\n    delete ptr;\n}\nfoo_list.clear();

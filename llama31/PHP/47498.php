@@ -1,0 +1,1 @@
+$fso = new COM('Scripting.FileSystemObject');\n$longName = 'path/to/your/file with spaces.txt';\n$shortName = $fso->GetFile($longName)->ShortName;\n\necho $shortName;

@@ -1,0 +1,1 @@
+CREATE NONCLUSTERED INDEX IX_prodtree_element_id ON prodtree_element (prodtree_element_id);\nCREATE NONCLUSTERED INDEX IX_line_code ON line (line_code);\nCREATE NONCLUSTERED INDEX IX_attribute_definition_id ON attribute_values (attribute_definition_id);\nCREATE NONCLUSTERED INDEX IX_prodtree_element_id_av ON attribute_values (prodtree_element_id);

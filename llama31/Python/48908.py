@@ -1,0 +1,1 @@
+import gnupg\n\ngpg = gnupg.GPG()\n\n# verify a signature\ndata = b"Hello, World!"\nsignature = b"...signature data..."\nverified = gpg.verify_data(data, signature)\n\nif verified:\n    print("Signature is valid")\nelse:\n    print("Signature is invalid")

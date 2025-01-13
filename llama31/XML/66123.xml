@@ -1,0 +1,1 @@
+<taglib>\n  <taglib-uri>http://example.com/tags</taglib-uri>\n  <taglib-location>/WEB-INF/tags.tld</taglib-location>\n</taglib>

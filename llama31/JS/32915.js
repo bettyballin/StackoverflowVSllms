@@ -1,0 +1,1 @@
+// Focus on the email field on page load\nwindow.onload = function() {\n  document.getElementById('email').focus();\n};

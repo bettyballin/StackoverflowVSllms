@@ -1,1 +1,0 @@
-using OfficeOpenXml;\n\n// Load the Excel file\nusing (var package = new ExcelPackage("path/to/excel/file.xlsx"))\n{\n    // Get the first worksheet\n    var worksheet = package.Workbook.Worksheets[1];\n\n    // Evaluate a formula\n    var result = worksheet.Cells["A1"].Formula;\n    Console.WriteLine(result);\n}

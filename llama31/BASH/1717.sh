@@ -1,1 +1,0 @@
-# Convert Callgrind data to dot graph\ngprof2dot.py -f callgrind -o output.dot input.callgrind\n\n# Render the graph using Graphviz\ndot -Tpng output.dot -o output.png

@@ -1,0 +1,1 @@
+assert_select '#first_name' do |field|\n  if address.first_name.blank?\n    assert field['value'].blank?\n  else\n    assert_equal address.first_name, field['value']\n  end\nend

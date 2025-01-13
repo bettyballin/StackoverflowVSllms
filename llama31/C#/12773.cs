@@ -1,1 +1,0 @@
-using System;\n\npublic class MyClass\n{\n    public void MyMethod()\n    {\n        Console.WriteLine("Hello from class library!");\n    }\n}

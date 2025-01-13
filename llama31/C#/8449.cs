@@ -1,1 +1,0 @@
-string programDataPath = Environment.GetFolderPath(Environment.SpecialFolder.CommonApplicationData);

@@ -1,0 +1,1 @@
+from cryptography import x509\nfrom cryptography.x509 import oid\n\nwith open('cert.pem', 'rb') as f:\n    cert = x509.load_pem_x509_certificate(f.read())\n\nissuer_dn = cert.issuer\nasn1_seq = issuer_dn.public_bytes()\n\nprint(len(asn1_seq))

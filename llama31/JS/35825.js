@@ -1,0 +1,1 @@
+// Generate a random token\nvar csrfToken = Math.random().toString(36).substr(2);\n\n// Set the token in a cookie\ndocument.cookie = 'csrfToken=' + csrfToken;\n\n// Include the token in each AJAX request\n$.ajaxSetup({\n  beforeSend: function(xhr) {\n    xhr.setRequestHeader('X-CSRF-Token', csrfToken);\n  }\n});

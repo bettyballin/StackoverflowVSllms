@@ -1,0 +1,1 @@
+$("#mySelect").val("1"); // selects the "male" optio

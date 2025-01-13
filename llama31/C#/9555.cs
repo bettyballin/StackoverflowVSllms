@@ -1,1 +1,0 @@
-protected void Page_Load(object sender, EventArgs e)\n{\n    USPSApi uspsApi = new USPSApi("YOUR_API_KEY");\n    string county = uspsApi.GetCounty("10021");\n    // Use the county information as needed\n}

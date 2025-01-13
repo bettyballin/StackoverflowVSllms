@@ -1,1 +1,0 @@
-public class PersonViewModel\n{\n    public string FirstName { get; set; }\n    public string LastName { get; set; }\n    public int MyPetId { get; set; } // or MyPetName, depending on your needs\n}

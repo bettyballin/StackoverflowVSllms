@@ -1,1 +1,0 @@
-div {\n  background-image: url('image.jpg');\n  background-position: 50% 50%; /* focus on the middle of the image */\n  background-size: 100px 100px; /* define the size of the section to repeat */\n  background-repeat: repeat; /* repeat the section */\n}

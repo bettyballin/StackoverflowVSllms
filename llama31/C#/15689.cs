@@ -1,1 +1,0 @@
-protected void Page_Load(object sender, EventArgs e)\n{\n    // Validate the page\n    Page.Validate();\n    if (!Page.IsValid)\n    {\n        // Handle the error\n    }\n}

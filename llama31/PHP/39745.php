@@ -1,0 +1,1 @@
+$html_embed_code = '<object width="100%" height="100%"><param name="movie" value="http://example.com/video.swf"></param><embed src="http://example.com/video.swf" width="100%" height="100%"></embed></object>';\n$encoded_html = htmlspecialchars($html_embed_code, ENT_QUOTES, 'UTF-8');

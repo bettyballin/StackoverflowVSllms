@@ -1,0 +1,1 @@
+WITH provider_data AS (\n  SELECT /*+ NOPARALLEL bypass_recursive_check */ \n         SP_ALIAS_190, \n         CASE SP_ALIAS_191\n           WHEN 1 THEN 'PROVIDER::ALL_PROV::'\n           WHEN 0 THEN 'OTHER_VALUE'\n         END AS provider_value\n  FROM some_table\n)\nSELECT * \nFROM provider_data \nWHERE provider_value = 'PROVIDER::ALL_PROV::';

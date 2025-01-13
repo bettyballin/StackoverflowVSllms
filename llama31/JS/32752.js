@@ -1,0 +1,1 @@
+// Variables and function names use camelCase\nlet myVariable = 'hello';\nfunction myFunction() {\n  console.log(myVariable);\n}\n\n// Constructor functions use PascalCase\nfunction MyConstructor() {\n  this.myProperty = 'world';\n}\n\n// Constants use uppercase with underscores\nconst MY_CONSTANT = 'javascript';

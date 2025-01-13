@@ -1,0 +1,1 @@
+EXECUTE greet('John');

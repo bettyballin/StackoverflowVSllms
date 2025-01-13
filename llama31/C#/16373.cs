@@ -1,1 +1,0 @@
-var uniqueList = myList.Distinct(StringComparer.OrdinalIgnoreCase).ToList();

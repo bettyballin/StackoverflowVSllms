@@ -1,1 +1,0 @@
-errno_t strcpy_s(char *dest, size_t destMax, const char *src);

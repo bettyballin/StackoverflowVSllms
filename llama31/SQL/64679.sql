@@ -1,0 +1,1 @@
+VARIABLE c INTEGER;\nEXECUTE :c := orm_helper.orm_helper.SaveShipment(9999, 31896, NULL, '');\nPRINT c;

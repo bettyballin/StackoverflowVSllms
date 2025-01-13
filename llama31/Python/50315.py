@@ -1,0 +1,1 @@
+def get_num_required_params(func):\n    params = inspect.signature(func).parameters\n    return sum(1 for param in params.values() if param.kind == param.POSITIONAL_OR_KEYWORD)\n\nprint(get_num_required_params(my_function))  # Output: 3\nprint(get_num_required_params(my_function_with_args))  # Output: 0\nprint(get_num_required_params(my_function_with_kwargs))  # Output: 0

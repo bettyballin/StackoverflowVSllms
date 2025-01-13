@@ -1,0 +1,1 @@
+// mytag.tld\n<taglib>\n    <tlib-version>1.0</tlib-version>\n    <jsp-version>2.0</jsp-version>\n    <short-name>mytags</short-name>\n    <uri>http://example.com/mytags</uri>\n    <tag>\n        <name>mycontrol</name>\n        <tag-class>com.example.MyTag</tag-class>\n        <body-content>scriptless</body-content>\n    </tag>\n</taglib>

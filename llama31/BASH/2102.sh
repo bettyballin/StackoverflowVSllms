@@ -1,1 +1,0 @@
-find src/ -type f -not -name "*.*" -exec rm {} \;

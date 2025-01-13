@@ -1,1 +1,0 @@
-[Retry(3)] // retry up to 3 times\npublic void MyTest()\n{\n    // test logic here\n}

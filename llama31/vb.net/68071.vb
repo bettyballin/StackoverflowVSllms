@@ -1,0 +1,1 @@
+Sub Main()\n    App.TaskVisible = True\n    ' Your code here...\nEnd Sub

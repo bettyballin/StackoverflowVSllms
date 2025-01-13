@@ -1,1 +1,0 @@
-HttpWebRequest request = (HttpWebRequest)WebRequest.Create("http://example.com/api");\ntry\n{\n    // ...\n}\nfinally\n{\n    if (request != null)\n    {\n        request.Abort();\n    }\n    if (response != null)\n    {\n        response.Close();\n    }\n}

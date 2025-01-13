@@ -1,0 +1,1 @@
+function log_slow_pages() {\n    $execution_time = microtime(true) - $_SERVER['REQUEST_TIME_FLOAT'];\n    if ($execution_time > 2) { // log pages that take more than 2 seconds to load\n        error_log("Slow page: " . $_SERVER['REQUEST_URI'] . " ({$execution_time} seconds)");\n    }\n}\nregister_shutdown_function('log_slow_pages');

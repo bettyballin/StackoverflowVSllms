@@ -1,0 +1,1 @@
+import PyPDF2\n\ndef rtf_to_pdf(rtf_file, pdf_file):\n    with open(rtf_file, 'rb') as rtf:\n        with open(pdf_file, 'wb') as pdf:\n            pdf_writer = PyPDF2.PdfFileWriter()\n            pdf_writer.addPage(PyPDF2.PdfFileReader(rtf))\n            pdf_writer.write(pdf)\n\nrtf_file = 'input.rtf'\npdf_file = 'output.pdf'\nrtf_to_pdf(rtf_file, pdf_file)

@@ -1,1 +1,0 @@
-// C++/CLI wrapper\n#include <msclr\marshal_cppstd.h>\n\nusing namespace System::Runtime::InteropServices;\n\npublic ref class MyCSharpWrapper\n{\npublic:\n    static int MyMethod(int value)\n    {\n        MyCSharpClass^ csharpClass = gcnew MyCSharpClass();\n        return csharpClass->MyMethod(value);\n    }\n};

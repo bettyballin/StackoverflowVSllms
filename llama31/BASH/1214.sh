@@ -1,1 +1,0 @@
-awk '{ print "new "$1" = "$1"; :{$row[\""$1"\"]} <br>" }' your_file.txt

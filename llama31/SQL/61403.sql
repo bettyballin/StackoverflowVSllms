@@ -1,0 +1,1 @@
+SELECT * FROM dbo.GetWeekDates(2009, 1)

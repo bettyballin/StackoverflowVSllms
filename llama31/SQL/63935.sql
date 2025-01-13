@@ -1,0 +1,1 @@
+CREATE TABLE log_partitioned (\n  id INT PRIMARY KEY,\n  email VARCHAR(255),\n  type ENUM('played', 'reg', 'friend'),\n  timestamp TIMESTAMP,\n  play_date DATE,\n  email_refer VARCHAR(255),\n  remote_addr VARCHAR(15)\n) PARTITION BY RANGE (play_date) (\n  PARTITION p_2009_02_23 VALUES LESS THAN ('2009-02-24'),\n  PARTITION p_2009_02_24 VALUES LESS THAN ('2009-02-25')\n);

@@ -1,0 +1,1 @@
+function truncateUrl(url, maxLength) {\n  if (url.length <= maxLength) {\n    return url;\n  }\n\n  const mid = Math.floor(maxLength / 2);\n  const ellipsis = '...';\n  const truncatedUrl = url.substring(0, mid) + ellipsis + url.substring(url.length - mid + ellipsis.length);\n\n  return truncatedUrl;\n}

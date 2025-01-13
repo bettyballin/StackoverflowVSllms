@@ -1,1 +1,0 @@
-jpeg2ps -b $(identify -format "%w %h" image.jpg) image.jpg image.eps

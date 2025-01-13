@@ -1,1 +1,0 @@
-int delta = (objdeg - gundeg + 360) % 360;\nif (delta > 180) {\n    delta -= 360;\n}\n\nif (delta > 0) {\n    gundeg++;\n} else if (delta < 0) {\n    gundeg--;\n}

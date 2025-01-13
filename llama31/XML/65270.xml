@@ -1,0 +1,1 @@
+<?xml version="1.0" encoding="UTF-8"?>\n<quiz>\n  <question id="1" content="What is the capital of France?">\n    <answer>A) Paris</answer>\n    <answer>B) London</answer>\n    <answer>C) Berlin</answer>\n  </question>\n  <!-- more questions -->\n</quiz>

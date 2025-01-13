@@ -1,1 +1,0 @@
-svn --config-option http-proxy=http://your-proxy-server:port update

@@ -1,1 +1,0 @@
-#include <boost/random/lognormal_distribution.hpp>\n#include <boost/random/lagged_fibonacci.hpp> \n\nint main() {\n\n  const double mean  = 0.0;\n  const double sigma = 1.0;\n\n  boost::lognormal_distribution<double> lognorm_dist(mean, sigma);\n  boost::lagged_fibonacci44497 engine;\n\n  const double value = lognorm_dist(engine);\n\n}

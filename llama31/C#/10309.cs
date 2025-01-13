@@ -1,1 +1,0 @@
-List<int> numbers = new List<int> { 1, 2, 2, 3, 3, 3, 4, 4, 4, 4 };\nint mostOccurringNumber = FindMostOccurringNumber(numbers);\nConsole.WriteLine(mostOccurringNumber); // Output: 4

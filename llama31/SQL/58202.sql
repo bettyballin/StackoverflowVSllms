@@ -1,0 +1,1 @@
+ALTER TABLE DOC_Documents\nADD CONSTRAINT DF_DOC_Order DEFAULT ([dbo].[NEWDOC_Order]()) FOR DOC_Order

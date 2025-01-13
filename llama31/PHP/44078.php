@@ -1,0 +1,1 @@
+require('fpdf.php');\n\n$pdf = new FPDF();\n$pdf->Open();\n$pdf->AddPage();\n$pdf->SetFont('Arial', '', 12);\n\n// Open the original PDF\n$pdf->OpenPDF('original.pdf');\n\n// Replace text in the PDF\n$pdf->ReplaceText('old text', 'new text');\n\n// Write out the modified PDF\n$pdf->Output('modified.pdf', 'F');

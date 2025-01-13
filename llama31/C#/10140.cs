@@ -1,1 +1,0 @@
-// Create a CSS resolver\nvar cssResolver = new StyleAttrCSSResolver();\n\n// Add a CSS file\nvar cssFile = new FileStream("styles.css", FileMode.Open);\ncssResolver.AddCss(cssFile);\n\n// Create an XML worker\nvar worker = new XMLWorker(document, writer, cssResolver);\n\n// Parse the HTML\nworker.Parse(new StringReader(html));

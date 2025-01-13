@@ -1,1 +1,0 @@
-LRESULT YourControl::PreRegisterClass(WNDCLASS* pwc)\n{\n    // Add UNICODE_NOCHAR flag to the window class\n    pwc->style |= UNICODE_NOCHAR;\n    return __super::PreRegisterClass(pwc);\n}

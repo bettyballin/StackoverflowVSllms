@@ -1,0 +1,1 @@
+document.getElementById("output").value = "Your text here";

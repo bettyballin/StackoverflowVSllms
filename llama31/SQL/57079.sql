@@ -1,0 +1,1 @@
+CREATE TRIGGER trg_People_Insert ON People\nFOR INSERT\nAS\nBEGIN\n  INSERT INTO Teacher (PeopleID, TeacherSpecificData)\n  SELECT i.ID, 'Default Teacher Data'\n  FROM inserted i;\n\n  INSERT INTO Student (PeopleID, StudentSpecificData)\n  SELECT i.ID, 'Default Student Data'\n  FROM inserted i;\nEND;

@@ -1,0 +1,1 @@
+<?php\n// Assuming the C program is compiled and executable\nexec('/path/to/c_program', $output, $return_var);\nif ($return_var === 0) {\n    // Process the output from the C program\n    echo $output;\n} else {\n    // Handle errors\n}\n?>

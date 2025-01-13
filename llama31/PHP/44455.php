@@ -1,0 +1,1 @@
+$unionCriteria = new Criteria();\n$unionCriteria->addSelectColumn('foo');\n$unionCriteria->addSelectColumn('bar');\n$unionCriteria->addUnion(Table1Peer::TABLE_NAME);\n$unionCriteria->addUnion(Table2Peer::TABLE_NAME);\n\n$c->addSelectQuery($unionCriteria, 'unioned_table');

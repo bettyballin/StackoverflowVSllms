@@ -1,1 +1,0 @@
-whois -h whois.arin.net microsoft.com

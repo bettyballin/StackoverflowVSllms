@@ -1,1 +1,0 @@
-tar -czf backup.tar.gz /path/to/php/site

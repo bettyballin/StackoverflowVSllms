@@ -1,1 +1,0 @@
-for (int x = 1980; x < 2000; x++)\n{\n    myCar = carList.Find(delegate(Car car) { return car.Year == x; });\n    Console.WriteLine(myCar.Make + myCar.Model);\n}

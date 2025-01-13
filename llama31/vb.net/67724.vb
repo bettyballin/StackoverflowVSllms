@@ -1,0 +1,1 @@
+Dim myNS As XNamespace = "urn:nbf:namespacename"\nDim root As XElement = myXML.Element("nameofrootelement")\nroot.Name = myNS + root.Name.LocalName

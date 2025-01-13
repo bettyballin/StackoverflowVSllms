@@ -1,0 +1,1 @@
+SELECT * FROM table WHERE DATE_FORMAT(date, '%Y-%m-%d') = '2020-12-31'

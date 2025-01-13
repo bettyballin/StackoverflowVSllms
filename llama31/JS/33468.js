@@ -1,0 +1,1 @@
+$("#signupForm").validate({\n    rules: {\n        '.required': {\n            required: true\n        },\n        '.email': {\n            email: true\n        }\n    },\n    messages: {\n        '.required': {\n            required: "Please enter a value"\n        },\n        '.email': {\n            email: "Invalid email"\n        }\n    }\n});

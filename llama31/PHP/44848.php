@@ -1,0 +1,1 @@
+$smarty = new Smarty();\n$smarty->compile_id = 'dir1';\n// or\n$smarty->compile_id = 'dir2';

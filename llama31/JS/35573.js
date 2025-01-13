@@ -1,0 +1,1 @@
+onSuccess: function(response) {\n    var json = response.responseText.evalJSON();\n    alert(json.lastid); // or alert(json.error);\n}

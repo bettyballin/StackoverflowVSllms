@@ -1,1 +1,0 @@
-db2batch -d <target_database_name> -f <input_file>

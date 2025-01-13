@@ -1,0 +1,1 @@
+$(document).ready(function() {\n    var count = $("#mylist li").length;\n    console.log(count);\n});

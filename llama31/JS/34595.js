@@ -1,0 +1,1 @@
+$.ajax({\n  url: 'your-ajax-url',\n  success: function(response) {\n    $('#your-div').html(response);\n    eval($('#your-div script').text()); // execute the script block\n    myFunction(); // call the function\n  }\n});

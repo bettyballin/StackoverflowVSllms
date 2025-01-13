@@ -1,1 +1,0 @@
-public enum Switches\n{\n    ShowSalaryOnChecks,\n    // Add more switches here\n}

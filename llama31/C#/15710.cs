@@ -1,1 +1,0 @@
-var files = Directory.GetFiles(".", "*").Select(f => new FileInfo(f)).ToArray();\nArray.Sort(files, new NaturalSortComparer());

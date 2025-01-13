@@ -1,1 +1,0 @@
-var query = dbContext.MyTable.Where(x => x.IsActive);\nvar list = query.ToList(); // retrieves all rows\nvar count = list.Count; // counts the rows in memory

@@ -1,0 +1,1 @@
+function signCookie($cookieValue, $secretKey) {\n    $signature = hash_hmac('sha256', $cookieValue, $secretKey, true);\n    return base64_encode($signature);\n}

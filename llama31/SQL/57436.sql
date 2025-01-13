@@ -1,0 +1,1 @@
+DECLARE\n  v_string VARCHAR2(20) := 'Hello World';\nBEGIN\n  IF REGEXP_LIKE(v_string, 'World') THEN\n    DBMS_OUTPUT.PUT_LINE('Match found');\n  END IF;\nEND;

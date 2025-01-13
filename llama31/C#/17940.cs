@@ -1,1 +1,0 @@
-[Serializable]\nstruct Person { public int Age; }\nPerson person = new Person { Age = 42 };\nStream stream = new MemoryStream();\nBinaryFormatter formatter = new BinaryFormatter();\nformatter.Serialize(stream, person); // person is boxed to an object

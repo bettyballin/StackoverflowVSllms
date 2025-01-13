@@ -1,0 +1,1 @@
+puts "example.com".match(/^[^.]+(?:\.[^.]+)*/)[0]  # => "example"\nputs "sub.example.com".match(/^[^.]+(?:\.[^.]+)*/)[0]  # => "sub.example"\nputs "sub.sub.example.com".match(/^[^.]+(?:\.[^.]+)*/)[0]  # => "sub.sub.example"

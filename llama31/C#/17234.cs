@@ -1,1 +1,0 @@
-XmlDocument ColorTable = new XmlDocument();\nColorTable.Load(HttpContext.Current.Server.MapPath("~/App_Data/ColorTable.xml"));\nint percentage = 2;\nstring xpath = string.Format(@"//color[@index='{0}']", percentage.ToString());\nvar r = ColorTable.SelectSingleNode(xpath).InnerText;

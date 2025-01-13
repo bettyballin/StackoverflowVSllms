@@ -1,1 +1,0 @@
-p.Start();\np.BeginOutputReadLine((sender, data) => {\n    string output = data.Data;\n    // Process the output here\n});

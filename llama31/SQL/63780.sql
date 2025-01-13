@@ -1,0 +1,1 @@
+SELECT @@SERVERNAME\n-- Returns: MachineName\InstanceName

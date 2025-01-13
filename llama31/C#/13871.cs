@@ -1,1 +1,0 @@
-lblPetName.ClientIDMode = ClientIDMode.Static;

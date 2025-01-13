@@ -1,1 +1,0 @@
-etstat -an | findstr 81

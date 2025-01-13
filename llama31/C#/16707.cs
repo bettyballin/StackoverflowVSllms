@@ -1,1 +1,0 @@
-// Example of using feature detection in ASP.NET\nbool isJavaScriptEnabled = Request.Browser.JavaScriptEnabled;\nif (isJavaScriptEnabled) {\n    // JavaScript is enabled, use it\n} else {\n    // JavaScript is disabled, provide alternative functionality\n}

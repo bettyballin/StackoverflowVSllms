@@ -1,0 +1,1 @@
+$file = dirname(__FILE__);\n$anotherVariable = $file;\n\n// Print the values\necho $file . "\n";\necho $anotherVariable . "\n";

@@ -1,1 +1,0 @@
-public void Intercept(IInvocation invocation)\n{\n    object fieldName = omitted; // get field name based on invocation information\n\n    DataContainer container = (DataContainer)invocation.InvocationTarget;\n    invocation.ReturnValue = container.Fields[fieldName];\n}

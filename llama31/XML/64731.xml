@@ -1,0 +1,1 @@
+<rewrite>\n  <rules>\n    <rule name="ReverseProxy" stopProcessing="true">\n      <match url="^directory/(.*)" />\n      <action type="Rewrite" url="http://secondary-server.com/{R:1}" />\n    </rule>\n  </rules>\n</rewrite>

@@ -1,0 +1,1 @@
+$values = array();\nwhile ($row = mysql_fetch_array($result)) {\n    $object = new stdClass();\n    $object->count = mysql_num_rows($result);\n    $object->userLevel = $row['userlevel'];\n    $object->email = $row['email'];\n    $object->memberId = $row['member_id'];\n    $values[] = $object;\n}\nreturn $values;

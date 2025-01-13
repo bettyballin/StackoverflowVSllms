@@ -1,0 +1,1 @@
+public function replace($Content)\n{\n    foreach ($this->results as $Element) {\n        $clonedNode = $Content->cloneNode(true);\n        $Element->parentNode->insertBefore($clonedNode, $Element);\n        $Element->parentNode->removeChild($Element);\n    }\n\n    return $this;\n}

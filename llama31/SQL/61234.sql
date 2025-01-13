@@ -1,0 +1,1 @@
+DECLARE\n    v_count NUMBER;\nBEGIN\n    SELECT COUNT(*) INTO v_count FROM Table1;\n    \n    IF v_count > 0 THEN\n        DBMS_OUTPUT.PUT_LINE('Test');\n    END IF;\nEND;

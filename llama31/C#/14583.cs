@@ -1,1 +1,0 @@
-public FileStreamResult GetFileStream()\n{\n    Stream fileStream = GetFileStreamFromDatabase();\n    return File(fileStream, "application/octet-stream", "example.txt");\n}

@@ -1,1 +1,0 @@
-gcc -pedantic -Wno-pedantic-ms-enum your_file.cpp

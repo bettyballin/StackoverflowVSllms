@@ -1,0 +1,1 @@
+Dim childType As Type = GetType(ChildClass)\nDim propertyInfo As PropertyInfo = childType.GetProperty("TempProperty")\n\nIf propertyInfo IsNot Nothing Then\n    Dim methodInfo As MethodInfo = propertyInfo.GetGetMethod()\n    If methodInfo.IsHideBySig Then\n        Console.WriteLine("TempProperty is hiding an inherited member")\n    End If\nEnd If

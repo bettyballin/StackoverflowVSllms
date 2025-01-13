@@ -1,1 +1,0 @@
-#include <stdio.h>\n#include <pthread.h>\n\nvoid* threadFunction(void* arg) {\n    printf("Hello from thread!\n");\n    return NULL;\n}\n\nint main() {\n    pthread_t thread;\n    pthread_create(&thread, NULL, threadFunction, NULL);\n    pthread_join(thread, NULL);\n    return 0;\n}

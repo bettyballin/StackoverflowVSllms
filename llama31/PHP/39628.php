@@ -1,0 +1,1 @@
+$id = 1; // Assuming this is how you obtain the ID in your actual code\n$url = "my.php?action=show&id=" . urlencode($id);\n\necho '<a href="' . htmlspecialchars($url) . '" onclick="return display(' . $id . ');">Click</a>';

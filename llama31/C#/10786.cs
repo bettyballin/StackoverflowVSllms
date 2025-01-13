@@ -1,1 +1,0 @@
-public Visibility ActionsVisible\n{\n    get { return _actionsVisible; }\n    set\n    {\n        _actionsVisible = value;\n        OnPropertyChanged();\n    }\n}

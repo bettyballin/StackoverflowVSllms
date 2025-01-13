@@ -1,0 +1,1 @@
+setInterval(function() {\n  $.ajax({\n    type: "GET",\n    url: "/KeepSessionAlive.ashx"\n  });\n}, 300000); // 5 minutes

@@ -1,0 +1,1 @@
+$contents = curl_exec($curl);\npreg_match_all('/(?:\$|£)[0-9]+(?:\.[0-9]{2})?/u', $contents, $matches);

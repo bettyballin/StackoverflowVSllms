@@ -1,1 +1,0 @@
-if (textblock.Text != "")\n{\n    grid.RowDefinitions[elementRow].Height = new GridLength(20, GridUnitType.Star);\n}\nelse\n{\n    grid.RowDefinitions[elementRow].Height = GridLength.Auto;\n}

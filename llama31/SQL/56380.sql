@@ -1,0 +1,1 @@
+USE [YourOLAPDatabaseName]\nGO\n\nCREATE SCHEMA DataWarehouseReports\nGO

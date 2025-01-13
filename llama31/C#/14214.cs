@@ -1,1 +1,0 @@
-public class User\n{\n    public int Id { get; set; }\n    [Include]\n    public ICollection<GroupMember> GroupMember { get; set; }\n}

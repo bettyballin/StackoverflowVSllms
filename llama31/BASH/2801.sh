@@ -1,1 +1,0 @@
-chmod 660 test.db

@@ -1,0 +1,1 @@
+import mgrs\n\n# Define the Latitude/Longitude coordinates\nlat = 40.7128\nlon = -74.0060\n\n# Create an MGRS converter\nm = mgrs.MGRS()\n\n# Convert Latitude/Longitude to MGRS\nmgrs_coords = m.toMgrs(lat, lon)\n\nprint(f"MGRS coordinates: {mgrs_coords}")

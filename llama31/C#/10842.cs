@@ -1,1 +1,0 @@
-protected void dlImages_ItemDataBound(object sender, DataListItemEventArgs e)\n{\n    if (e.Item.ItemType == ListItemType.Item || e.Item.ItemType == ListItemType.AlternatingItem)\n    {\n        string imageUrl = (string)e.Item.DataItem;\n        Image imgStore = (Image)e.Item.FindControl("imgStore");\n        imgStore.ImageUrl = imageUrl;\n    }\n}

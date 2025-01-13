@@ -1,0 +1,1 @@
+<bean class="org.springframework.web.servlet.view.UrlFilenameViewController" id="viewController"/>\n\n<bean class="org.springframework.web.servlet.view.InternalViewResolver">\n    <property name="prefix" value="/WEB-INF/output/"/>\n    <property name="suffix" value=".jsp"/>\n    <property name="viewNames" value="viewController"/>\n</bean>

@@ -1,1 +1,0 @@
-_PostThreadMessage(_Module.dwThreadID, WM_QUIT, 0, 0);

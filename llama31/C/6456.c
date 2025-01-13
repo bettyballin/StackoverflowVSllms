@@ -1,1 +1,0 @@
-int optval = 1;\nsetsockopt(sockfd, IPPROTO_TCP, TCP_CORK, &optval, sizeof(optval));

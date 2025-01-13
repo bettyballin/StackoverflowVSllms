@@ -1,1 +1,0 @@
-#container {\n  display: table;\n  direction: rtl;\n}\n\n#one, #two {\n  display: table-cell;\n}

@@ -1,1 +1,0 @@
-protected void Page_Init(object sender, EventArgs e)\n{\n    HttpContext.Current.Session.Timeout = 1;\n    HttpContext.Current.Session.Abandon();\n}

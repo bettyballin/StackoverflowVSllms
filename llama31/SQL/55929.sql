@@ -1,0 +1,1 @@
+-- Sample Teradata SQL query\nSELECT *\nFROM dbc.dbcinfo\nWHERE InfoKey = 'VERSION';

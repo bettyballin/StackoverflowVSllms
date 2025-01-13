@@ -1,0 +1,1 @@
+// Example using RabbitMQ\n$message = 'Process user saved search';\n$queue = 'saved_search_queue';\n\n// Send message to queue\n$rabbitMq->send($message, $queue);\n\n// Worker process consumes messages from queue\n$consumer = new Consumer($queue);\nwhile ($message = $consumer->consume()) {\n    processUserSavedSearch($message);\n}

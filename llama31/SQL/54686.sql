@@ -1,0 +1,1 @@
+SETUSER 'username'\nGO\nEXEC mystoredprocedure\nGO\nSETUSER\nGO

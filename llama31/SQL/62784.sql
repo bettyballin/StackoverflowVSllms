@@ -1,0 +1,1 @@
+SELECT n.*\nFROM news n\nJOIN news_tags nt ON n.id = nt.news_id\nJOIN user_favored_tags uft ON nt.tag_id = uft.tag_id\nWHERE uft.user_id = ?;

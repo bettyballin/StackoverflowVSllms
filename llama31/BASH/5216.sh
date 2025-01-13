@@ -1,1 +1,0 @@
-svn co --username username svn+ssh://URL

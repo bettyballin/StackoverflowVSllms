@@ -1,0 +1,1 @@
+<connectionStrings>\n    <add name="MyConnectionString" connectionString="Data Source=myServerAddress;Initial Catalog=myDataBase;Integrated Security=True;" />\n</connectionStrings>

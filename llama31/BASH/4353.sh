@@ -1,1 +1,0 @@
-export TARGET=arm-linux-gnueabi\nexport CC=gcc-arm-linux-gnueabi\nexport CXX=g++-arm-linux-gnueabi

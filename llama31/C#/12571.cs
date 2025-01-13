@@ -1,1 +1,0 @@
-using Microsoft.Diagnostics.Tracing;\n\npublic class DllDependencies\n{\n    public static void Main(string[] args)\n    {\n        using (var traceEvent = new TraceEvent("path/to/your/dll.or.exe"))\n        {\n            foreach (var module in traceEvent.Modules)\n            {\n                Console.WriteLine(module.Name);\n            }\n        }\n    }\n}

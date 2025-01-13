@@ -1,0 +1,1 @@
+$db->cacheDir = '/path/to/cache/directory';\n$db->debug = true; // for debugging

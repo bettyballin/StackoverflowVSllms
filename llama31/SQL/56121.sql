@@ -1,0 +1,1 @@
+DECLARE @input decimal(10, 3) = 1.125\n\nSELECT TOP 1 *\nFROM [myTable]\nWHERE Name = 'Test' AND Size = 2 AND PType = 'p'\nORDER BY ABS(Area - @input)

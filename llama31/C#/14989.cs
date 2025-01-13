@@ -1,1 +1,0 @@
-using TimeZoneConverter;\n\n// ...\n\nvar converter = new TimeZoneConverter();\nvar timeZone = converter.FromUtcOffset(timezoneOffset);\nif (timeZone != null)\n{\n    // do something here if this is a valid timezone\n}

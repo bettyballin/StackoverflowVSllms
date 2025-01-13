@@ -1,1 +1,0 @@
-enum Foo testFunc() {\n    return BAR;\n}

@@ -1,1 +1,0 @@
-using System.Drawing;\nusing System.Windows.Forms;\n\npublic Bitmap CaptureControl(Control control)\n{\n    Bitmap bitmap = new Bitmap(control.Width, control.Height);\n    control.DrawToBitmap(bitmap, control.ClientRectangle);\n    return bitmap;\n}

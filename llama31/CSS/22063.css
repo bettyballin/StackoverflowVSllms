@@ -1,1 +1,0 @@
-body {\n  font-size: 1em; /* sets the base font size */\n}\n\nh1 {\n  font-size: 1.5em; /* relative to the base font size */\n}\n\np {\n  font-size: 0.8em; /* relative to the base font size */\n}

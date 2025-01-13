@@ -1,0 +1,1 @@
+CREATE SERVER TRIGGER trg_PreventDropDeleteUpdate\nON SERVER\nFOR DROP_DATABASE, DROP_TABLE, DELETE, UPDATE\nAS\nBEGIN\n    IF SUSER_NAME() IN ('username1', 'username2', 'domain\groupname')\n    BEGIN\n        RAISERROR ('You do not have permission to execute this command.', 16, 1)\n        ROLLBACK TRANSACTION\n    END\nEND

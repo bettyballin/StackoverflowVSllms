@@ -1,0 +1,1 @@
+// Trait example\ntrait Logger {\n    public function log($message) {\n        // logging logic\n    }\n}\n\nclass MyController {\n    use Logger;\n\n    public function index() {\n        $this->log('Hello, World!');\n    }\n}

@@ -1,0 +1,1 @@
+SELECT *\nFROM your_table\nWHERE (@check1 = 0 OR col1 = 'match_value_1')\n  AND (@check2 = 0 OR col2 = 'match_value_2')\n  AND (@check3 = 0 OR col3 = 'match_value_3');

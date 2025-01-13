@@ -1,0 +1,1 @@
+DECLARE\nBEGIN\n  FOR i IN (SELECT * FROM emp)\n  LOOP\n    IF i.sal = 1300 THEN\n      UPDATE emp\n      SET sal = 13000\n      WHERE empno = i.empno;  -- Assuming empno is the primary key\n    END IF;\n  END LOOP;\nEND;

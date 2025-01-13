@@ -1,1 +1,0 @@
-typedef struct MemberVarNode {\n    char *name;\n    DataType *type;\n    ExpressionNode *initValue; // NULL if no initialization\n} MemberVarNode;

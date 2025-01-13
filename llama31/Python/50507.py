@@ -1,0 +1,1 @@
+def make_teams(que):\n    que.sort()\n    mid = len(que) // 2\n    t1, t2 = que[:mid], que[mid:]\n    print(sum(t1), sum(t2))

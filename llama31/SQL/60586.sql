@@ -1,0 +1,1 @@
+SELECT * \nFROM Data \nORDER BY SortOrder IIF(@Direction = 1, DESC, ASC);

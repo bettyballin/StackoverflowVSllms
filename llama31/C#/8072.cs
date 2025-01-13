@@ -1,1 +1,0 @@
-using CrystalDecisions.Shared;\nusing CrystalDecisions.Web;\n\n// Create a new instance of the CrystalReportDesigner control\nCrystalReportDesigner designer = new CrystalReportDesigner();\n\n// Set the report to design\ndesigner.ReportSource = new Report();\n\n// Add the CrystalReportDesigner control to the ASP.NET page\nthis.Controls.Add(designer);

@@ -1,1 +1,0 @@
-public IQueryable<Employee> FetchEntities(Expression<Func<Employee, bool>> predicate)\n{\n    // Use the expression to filter the employees\n    return employees.Where(predicate);\n}

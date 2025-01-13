@@ -1,1 +1,0 @@
-using IPWorksEncrypt;\n\n// Example: AES-256 encryption\nEncrypt encrypt = new Encrypt();\nencrypt.Algorithm = EncryptAlgorithms.aes256;\nencrypt.Mode = EncryptModes.cbc;\nencrypt.InputMessage = "your_string_to_encrypt";\nstring encrypted = encrypt.Encrypt();

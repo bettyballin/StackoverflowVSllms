@@ -1,0 +1,1 @@
+$array = array();\n$index = 'abc';\n\n$array[$index] = 'String key';\n$array["$index"] = 'String key with quotes';\n$array["{$index}"] = 'String key with curly braces';\n\nprint_r($array);

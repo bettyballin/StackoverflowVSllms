@@ -1,0 +1,1 @@
+WITH hash_value AS (SELECT HASHBYTES('SHA2_256', 'HELLO') AS value)\nSELECT a, b, c, value AS hash_value\nFROM my_table\nCROSS JOIN hash_value;

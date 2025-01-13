@@ -1,1 +1,0 @@
-int x = 10;  // allocated in data segment (initialized data)\nstatic int y = 20;  // allocated in data segment (initialized data)\nconst int z = 30;  // allocated in read-only data segment

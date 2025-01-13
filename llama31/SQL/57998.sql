@@ -1,0 +1,1 @@
+INSERT INTO `tableA` (`Col1`, `Col2`, `created_at`)\nSELECT `Col1`, `Col2`, NOW()\nFROM `tableB` b\nWHERE NOT EXISTS (\n  SELECT 1\n  FROM `tableA` a\n  WHERE a.`Col1` = b.`Col1`\n)

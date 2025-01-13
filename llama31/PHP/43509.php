@@ -1,0 +1,1 @@
+class Model_Action extends Zend_Db_Table_Abstract\n{\n    protected $_name = 'actions';\n\n    public function fetchAllWithUser()\n    {\n        $select = $this->select()\n                       ->from($this->_name)\n                       ->join('users', 'actions.user_id = users.id');\n\n        return $this->fetchAll($select);\n    }\n}

@@ -1,1 +1,0 @@
-Uri uri = new Uri(Request.Url.AbsoluteUri);\nstring protocol = uri.Scheme;\nstring host = uri.Host;\nint port = uri.Port;\n\nstring result = $"{protocol}://{host}:{port}";

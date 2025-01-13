@@ -1,0 +1,1 @@
+-- Example query in DBeaver\nSELECT * FROM my_table;

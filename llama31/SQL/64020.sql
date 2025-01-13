@@ -1,0 +1,1 @@
+// Using a single incrementing ID as primary key\nCREATE TABLE auctions (\n  id INT PRIMARY KEY AUTO_INCREMENT,\n  user_id INT,\n  auction_name VARCHAR(255)\n);\n\n// Using a composite key (user_id and auction_name)\nCREATE TABLE auctions (\n  user_id INT,\n  auction_name VARCHAR(255),\n  PRIMARY KEY (user_id, auction_name)\n);

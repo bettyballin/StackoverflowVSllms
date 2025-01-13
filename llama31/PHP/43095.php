@@ -1,0 +1,1 @@
+$stmt->bindParam(4, pack('d', $this->latitude), PDO::PARAM_LOB);

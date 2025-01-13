@@ -1,1 +1,0 @@
-pdffonts -f your_document.pdf

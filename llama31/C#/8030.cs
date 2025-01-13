@@ -1,1 +1,0 @@
-public MyType GetMyTypes(string criteria)\n{\n    try\n    {\n        return GetMyTypes();\n    }\n    catch (Exception ex)\n    {\n        throw new WebFaultException<string>("A Big fat error occurred", HttpStatusCode.Forbidden);\n    }\n}

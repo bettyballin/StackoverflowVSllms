@@ -1,1 +1,0 @@
-tio.c_cc[VTIME] = 20; // corresponds to a time of around 2 seconds

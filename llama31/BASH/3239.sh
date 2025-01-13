@@ -1,1 +1,0 @@
-wshprofiler.exe -run your_script.wsf

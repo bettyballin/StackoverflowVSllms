@@ -1,1 +1,0 @@
-// Store the current page in session state\nSession["CurrentPage"] = "Default.aspx";\n\n// Retrieve the current page from session state\nstring currentPage = (string)Session["CurrentPage"];

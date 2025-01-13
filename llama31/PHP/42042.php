@@ -1,0 +1,1 @@
+class User {\n  private $username;\n  private $password;\n\n  public function __construct($username, $password) {\n    $this->username = $username;\n    $this->password = $password;\n  }\n\n  public function authenticate() {\n    // authentication logic here\n  }\n}

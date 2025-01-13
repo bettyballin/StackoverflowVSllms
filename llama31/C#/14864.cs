@@ -1,1 +1,0 @@
-// Web service example (ASP.NET)\n[WebService]\npublic class QuestionnaireService : WebService\n{\n    [WebMethod]\n    public string GetNextQuestion(int currentQuestionId, string userResponse)\n    {\n        // Logic to determine the next question based on user response\n        return nextQuestion;\n    }\n}

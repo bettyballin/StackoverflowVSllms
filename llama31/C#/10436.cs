@@ -1,1 +1,0 @@
-ServicePointManager.CertificatePolicy = new BypassCertificatePolicy();

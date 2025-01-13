@@ -1,1 +1,0 @@
-using Oracle.DataAccess.Client;\n\n// Create an Oracle connection\nvar conn = new OracleConnection(connectionString);\n\n// Create an Oracle command\nvar cmd = new OracleCommand(query, conn);\n\n// Execute the query\nvar reader = cmd.ExecuteReader();

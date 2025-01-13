@@ -1,0 +1,1 @@
+USE msdb\nGO\n\nEXEC sp_addrolemember 'SQLAgentOperatorRole', 'developer_username'\nGO

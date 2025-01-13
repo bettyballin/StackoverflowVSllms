@@ -1,0 +1,1 @@
+SELECT mz_t_Services.p_ID \nFROM mz_t_Services \nWHERE NOT EXISTS (\n    SELECT 1 \n    FROM mz_t_NaznExec \n    WHERE mz_t_NaznExec.p_Services = mz_t_Services.p_ID\n)

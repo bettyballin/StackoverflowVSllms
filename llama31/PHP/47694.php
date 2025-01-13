@@ -1,0 +1,1 @@
+$stmt = $mysqli->prepare("SELECT * FROM table1 WHERE id = ? AND name = ?");\n$stmt->bind_param("is", $id, $name);\n\n// Get the query string after parameters have been bound\n$query = $stmt->attr_get(MYSQLI_STMT_ATTR_QUERY);\n\necho $query;

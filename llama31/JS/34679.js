@@ -1,0 +1,1 @@
+var myArray = [];\nmyArray.push('element1', 'element2'); // add two elements to the array

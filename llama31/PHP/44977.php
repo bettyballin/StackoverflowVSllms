@@ -1,0 +1,1 @@
+$queryString = "SELECT * FROM table_name WHERE 1=0"; // query with no results\n$queryResult = mysql_query($queryString);\n$queryArray = mysql_fetch_array($queryResult);\n\nvar_dump($queryArray); // outputs: bool(false)

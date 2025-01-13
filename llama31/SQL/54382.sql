@@ -1,0 +1,1 @@
+SELECT column1, column2\nFROM table1\nWHERE column1 NOT IN (\n  SELECT column1\n  FROM table2\n)

@@ -1,0 +1,1 @@
+EXEC sp_SimilarArticles 'search term';

@@ -1,1 +1,0 @@
-AssertButtonExists("CBooking")

@@ -1,1 +1,0 @@
-// Example in C (GCC-specific)\nvoid execute_opcode(uint8_t opcode) {\n    static void *opcode_labels[] = {&&opcode_1, &&opcode_2, ...};\n    goto *opcode_labels[opcode];\n\nopcode_1:\n    // handle opcode 1\n    return;\n\nopcode_2:\n    // handle opcode 2\n    return;\n}

@@ -1,0 +1,1 @@
+$image = new Image();\n$image->open($imagePath);\nif ($image->width() > 1024 || $image->height() > 768) {\n    $image->resize(1024, 768); // Resize the image to the allowed dimensions\n}\n$image->save($imagePath);

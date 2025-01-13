@@ -1,1 +1,0 @@
-#include <sys/socket.h>\n#include <netinet/in.h>\n#include <netinet/tcp.h>\n\n// Create a socket\nint sockfd = socket(AF_INET, SOCK_STREAM, 0);\n\n// Set TCP MD5 option\nint optval = 1;\nsetsockopt(sockfd, IPPROTO_TCP, TCP_MD5SIG, &optval, sizeof(optval));

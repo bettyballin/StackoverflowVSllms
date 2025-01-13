@@ -1,0 +1,1 @@
+WHERE (grp1 | grp2 | ... | grpn) = (grp1 + grp2 + ... + grpn)

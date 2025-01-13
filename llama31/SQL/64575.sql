@@ -1,0 +1,1 @@
+SELECT * \nFROM sys.objects \nWHERE type IN ('FN', 'IF', 'TF', 'FS', 'FT');

@@ -1,0 +1,1 @@
+<backupList>\n  <add address="net.tcp://failoverserver1:8080/MyService" priority="1"/>\n  <add address="net.tcp://failoverserver2:8080/MyService" priority="2"/>\n</backupList>

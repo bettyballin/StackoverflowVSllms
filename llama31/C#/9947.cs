@@ -1,1 +1,0 @@
-WebBrowser1.Hide();\nWebBrowser1.Navigate("about:blank");\nWebBrowser1.Dispose(); // Add this line

@@ -1,0 +1,1 @@
+document.observe('dom:loaded', function() {\n  UpdateJS('your_file');\n});

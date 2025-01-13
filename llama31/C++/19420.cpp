@@ -1,1 +1,0 @@
-// mydll.h\nextern "C" __declspec(dllexport, NONAME) int MyFunction(int x);

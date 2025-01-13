@@ -1,1 +1,0 @@
-string needle = "example";\nFooObj result = _list.FirstOrDefault(foo => foo.Name == needle);

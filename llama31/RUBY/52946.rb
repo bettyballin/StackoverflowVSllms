@@ -1,0 +1,1 @@
+irb(main):001:0> foo = "bar"\nirb(main):002:0> baz = 123\nirb(main):003:0> local_variables\n=> [:foo, :baz]

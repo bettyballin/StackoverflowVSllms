@@ -1,0 +1,1 @@
+UPDATE MYTABLE\nSET STATUS = 1,\n    UPDATE_COUNT = (\n        SELECT MAX_UPDATE_COUNT\n        FROM (\n            SELECT MAX(UPDATE_COUNT) + 1 AS MAX_UPDATE_COUNT\n            FROM MYTABLE\n        ) AS DERIVED_TABLE\n    )\nWHERE NAME IN ('John', 'Mary');

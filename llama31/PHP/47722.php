@@ -1,0 +1,1 @@
+session.use_cookies = 1\nsession.use_only_cookies = 1

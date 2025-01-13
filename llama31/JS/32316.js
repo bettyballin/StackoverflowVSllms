@@ -1,0 +1,1 @@
+// application.js\nrsh.onPopState(function(state) {\n  // Handle the popped state here\n});

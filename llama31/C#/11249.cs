@@ -1,1 +1,0 @@
-using Moq;\n\n[TestMethod]\npublic void TestMethod()\n{\n    var repo1Mock = new Mock<Repository1>();\n    var repo2Mock = new Mock<Repository2>();\n\n    var service = new ServiceClass(repo1Mock.Object, repo2Mock.Object, null, null, ...);\n\n    // Configure mock behavior as needed\n    repo1Mock.Setup(r => r.GetData()).Returns(new Data());\n}

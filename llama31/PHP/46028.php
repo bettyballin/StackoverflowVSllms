@@ -1,0 +1,1 @@
+$header_image = get_header_image($post->ID);\nif ($header_image) {\n    // display the header image\n}

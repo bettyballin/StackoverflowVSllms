@@ -1,0 +1,1 @@
+require_once 'HTTP/Session2.php';\n\n$session = HTTP_Session2::singleton();\n$session->start();\n\n// Set a session variable\n$session->set('remember_me', $token);\n\n// When the user returns, verify the session variable\nif ($session->get('remember_me') === $token) {\n    // Verified\n}

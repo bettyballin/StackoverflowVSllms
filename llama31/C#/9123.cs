@@ -1,1 +1,0 @@
-HashSet<int> bSet = new HashSet<int>(b);\nList<int> common = new List<int>();\nforeach (int num in a)\n{\n    if (bSet.Contains(num))\n    {\n        common.Add(num);\n    }\n}

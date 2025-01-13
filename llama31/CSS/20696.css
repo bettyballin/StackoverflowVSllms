@@ -1,1 +1,0 @@
-* html body #left-sidebar,\n* html body #right-sidebar,\n* html body #header,\n* html body #footer,\n* html body #content {\n  position: absolute;\n  top: expression(eval(document.body.scrollTop));\n}

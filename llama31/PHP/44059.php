@@ -1,0 +1,1 @@
+include_once('/path/to/your/include/file.php');

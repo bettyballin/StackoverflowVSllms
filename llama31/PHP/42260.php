@@ -1,0 +1,1 @@
+$document_root = $_SERVER['DOCUMENT_ROOT'];\n$desired_root = '/path/to/directory/';\n$_SERVER['DOCUMENT_ROOT'] = $desired_root;

@@ -1,0 +1,1 @@
+ALTER SYSTEM SET sql_trace = true SCOPE=MEMORY;

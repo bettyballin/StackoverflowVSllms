@@ -1,1 +1,0 @@
-public class CustomerGateway {\n    public IList<Customer> GetAllCustomers() { ... }\n    public Customer GetCustomerById(int id) { ... }\n    public void UpdateCustomer(Customer customer) { ... }\n}

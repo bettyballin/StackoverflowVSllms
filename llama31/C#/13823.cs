@@ -1,1 +1,0 @@
-using System.Drawing;\nusing System.Drawing.Imaging;\n\n// ...\n\npublic Bitmap GetPictureFromObject()\n{\n    // original code to retrieve the map view image...\n    // assume 'img' is the image data\n\n    using (MemoryStream ms = new MemoryStream(img))\n    {\n        return new Bitmap(ms);\n    }\n}

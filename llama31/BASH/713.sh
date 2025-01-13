@@ -1,1 +1,0 @@
-certreq -retrieve -f ClickOnceCert.cer -c <CA_Name> -config <CA_Config>

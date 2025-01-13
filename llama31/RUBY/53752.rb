@@ -1,0 +1,1 @@
+# Step 1: Regress the mediator on the independent variable\nstep1 <- lm(m ~ x, data = df)\nsummary(step1)\n\n# Step 2: Regress the dependent variable on the independent variable\nstep2 <- lm(y ~ x, data = df)\nsummary(step2)\n\n# Step 3: Regress the dependent variable on both the mediator and independent variable\nstep3 <- lm(y ~ x + m, data = df)\nsummary(step3)

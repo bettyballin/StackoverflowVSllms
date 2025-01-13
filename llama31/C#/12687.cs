@@ -1,1 +1,0 @@
-using System.Data.Design;\n\n// Create a new DataSetGenerator instance\nDataSetGenerator generator = new DataSetGenerator();\n\n// Load your XSD schema\nXmlSchema schema = XmlSchema.Read("YourSchema.xsd", null);\n\n// Generate the typed dataset\ngenerator.GenerateDataSet(schema, "YourNamespace", "YourDataSetName");

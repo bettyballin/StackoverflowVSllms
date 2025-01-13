@@ -1,1 +1,0 @@
-string name = null;\nstring fallbackName = null;\nstring defaultName = "John Doe";\n\nstring result = name ?? fallbackName ?? defaultName; // Returns "John Doe"

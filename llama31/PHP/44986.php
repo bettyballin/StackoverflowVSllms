@@ -1,0 +1,1 @@
+$var = 'bar';\n$bar = new $var . 'Class'('var for __construct()');

@@ -1,1 +1,0 @@
-// Example of subtraction producing a negative result\nfloat a = 1.0f;\nfloat b = 2.0f;\nfloat result = a - b;  // result is -1.0f

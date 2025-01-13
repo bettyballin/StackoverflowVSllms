@@ -1,0 +1,1 @@
+RECOVER DATABASE LOGFILE '/path/to/archive/log1' LOGFILE '/path/to/archive/log2' ...;

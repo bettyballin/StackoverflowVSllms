@@ -1,0 +1,1 @@
+function SelectSubCheckboxes(lnk) {\n  $(lnk).nextAll('.Grup:first').find('input[type="checkbox"]').prop('checked', true);\n}

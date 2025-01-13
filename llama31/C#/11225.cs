@@ -1,1 +1,0 @@
-using System.Windows.Forms;\n\npublic class MyForm : Form\n{\n    public MyForm()\n    {\n        // Initialize form controls and layout\n    }\n}

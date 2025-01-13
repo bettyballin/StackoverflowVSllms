@@ -1,1 +1,0 @@
-public class MyEqualityComparer<T> : EqualityComparer<T>\n{\n    public override bool Equals(T x, T y)\n    {\n        // Your custom implementation here\n    }\n\n    public override int GetHashCode(T obj)\n    {\n        // Your custom implementation here\n    }\n}

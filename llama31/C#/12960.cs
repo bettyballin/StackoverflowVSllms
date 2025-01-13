@@ -1,1 +1,0 @@
-var sale = db.Sales.Include(s => s.User).Single(s => s.ID == 1);\nstring username = sale.User.Name;

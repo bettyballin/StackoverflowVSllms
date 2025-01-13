@@ -1,1 +1,0 @@
-// C example\n#include <pthread.h>\n\npthread_mutex_t mutex = PTHREAD_MUTEX_INITIALIZER;\n\nvoid accessResource() {\n    pthread_mutex_lock(&mutex);\n    // Access shared resource\n    pthread_mutex_unlock(&mutex);\n}

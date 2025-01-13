@@ -1,0 +1,1 @@
+CREATE PROCEDURE [dbo].[sp_FindMatches] @SearchString varchar(30)\nAS\n  SELECT *, \n         dbo.JaroWinklerDistance(@SearchString, Field1 + Field2) AS Similarity\n  FROM Table1\n  ORDER BY Similarity DESC;

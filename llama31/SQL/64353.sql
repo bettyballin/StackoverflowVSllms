@@ -1,0 +1,1 @@
+CREATE PROCEDURE UpdateRecords\nAS\nBEGIN\n    UPDATE t\n    SET flag = 1\n    FROM YourTable t\n    WHERE t.id IN (SELECT id FROM YourStoredProcedure);\nEND;

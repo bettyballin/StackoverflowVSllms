@@ -1,0 +1,1 @@
+document.getElementById('fancy_frame').onload = function() {\n  var iframeWindow = document.getElementById('fancy_frame').contentWindow;\n  iframeWindow.print();\n};

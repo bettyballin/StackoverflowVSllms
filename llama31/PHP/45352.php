@@ -1,0 +1,1 @@
+<?php\n$accessKeyId = getenv('AWS_ACCESS_KEY_ID');\n$secretAccessKey = getenv('AWS_SECRET_ACCESS_KEY');\n?>

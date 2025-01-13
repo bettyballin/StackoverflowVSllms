@@ -1,0 +1,1 @@
+$string = new SplString('Hello, World!');\necho $string->toUpperCase(); // outputs "HELLO, WORLD!"

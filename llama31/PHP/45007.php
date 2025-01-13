@@ -1,0 +1,1 @@
+apc_clear_cache('system');

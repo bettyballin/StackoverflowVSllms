@@ -1,0 +1,1 @@
+CREATE TABLE ASPStateTempApplications (\n    AppId int IDENTITY(1,1) PRIMARY KEY,\n    ApplicationName nvarchar(255) NOT NULL,\n    -- ... other columns ...\n)

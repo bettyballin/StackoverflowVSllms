@@ -1,0 +1,1 @@
+Private Sub billingDatagrid_Sorting(sender As Object, e As DataGridViewSortingEventArgs) Handles billingDatagrid.Sorting\n    ' Update custom columns here\n    ' ...\nEnd Sub

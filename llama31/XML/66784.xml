@@ -1,0 +1,1 @@
+<configuration xmlns:xdt="http://schemas.microsoft.com/XML-Document-Transform">\n  <appSettings>\n    <add key="newSetting" value="newValue" xdt:Transform="Insert"/>\n  </appSettings>\n</configuration>

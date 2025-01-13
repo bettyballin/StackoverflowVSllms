@@ -1,0 +1,1 @@
+function openModal(url) {\n    if (window.showModalDialog) {\n        var dialogWindow = showModalDialog(url);\n        dialogWindow.document.write("<html><body onload='document.location.replace(\"" + url + "\")'></body></html>");\n    } else {\n        // ... rest of your code ...\n    }\n}

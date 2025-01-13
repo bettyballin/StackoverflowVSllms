@@ -1,1 +1,0 @@
-tar -xvf php-5.2.6.tar.gz\ncd php-5.2.6/ext/gd

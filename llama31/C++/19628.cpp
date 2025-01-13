@@ -1,1 +1,0 @@
-char padding = 0x0;\nbmFile.Write(&padding, (4 - (actualWidth % 4)));

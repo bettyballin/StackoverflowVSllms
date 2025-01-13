@@ -1,1 +1,0 @@
-DataGridViewComboBoxCell cell = (DataGridViewComboBoxCell)row.Cells["Location"];\nobject selectedLocation = cell.Items[cell.Value];

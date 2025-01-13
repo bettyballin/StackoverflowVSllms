@@ -1,1 +1,0 @@
-[ActionInvoker(typeof(ThunderdomeActionInvoker))]\npublic class MyController : Controller\n{\n    public ActionResult Index(Employee employee)\n    {\n        // The action invoker will take care of converting the HttpContext to your ViewModel\n        return View(employeeViewModel);\n    }\n}

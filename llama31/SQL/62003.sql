@@ -1,0 +1,1 @@
+SELECT el.EmailAddress\nFROM #EmailList el\nLEFT JOIN EmailsInDB eid\n    ON el.EmailAddress = eid.EmailAddress\nWHERE eid.EmailAddress IS NULL;

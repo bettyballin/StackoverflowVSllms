@@ -1,1 +1,0 @@
-// assume 'table' is the ID of your HTML table\nvoid HideColumns()\n{\n    foreach (TableRow row in table.Rows)\n    {\n        if (row.Cells.Count > 2)\n        {\n            row.Cells[2].Visible = false; // hide 3rd column\n            row.Cells[3].Visible = false; // hide 4th column\n        }\n    }\n}

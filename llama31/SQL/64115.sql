@@ -1,0 +1,1 @@
+SELECT * FROM sys.dm_db_log_space_usage WHERE database_id = DB_ID('your_database_name')

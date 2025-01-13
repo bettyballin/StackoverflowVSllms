@@ -1,1 +1,0 @@
-// ASP.NET (C#)\nusing System;\n\nnamespace HelloWorld\n{\n    public partial class Default : System.Web.UI.Page\n    {\n        protected void Page_Load(object sender, EventArgs e)\n        {\n            Response.Write("Hello, World!");\n        }\n    }\n}

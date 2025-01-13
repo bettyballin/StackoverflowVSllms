@@ -1,1 +1,0 @@
-@echo off\n"C:\Path\To\PHP\php.exe" "C:\php_beautifier\php_beautifier.php" %1

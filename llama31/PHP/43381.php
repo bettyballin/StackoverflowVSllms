@@ -1,0 +1,1 @@
+// config.php (shared by both applications)\nsession.save_handler = 'redis';\nsession.save_path = 'tcp://localhost:6379';

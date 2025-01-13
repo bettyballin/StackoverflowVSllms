@@ -1,0 +1,1 @@
+// Use ImageMagick to add the text to the image\n$image = new Imagick('image.jpg');\n$image->annotateImage($text, '24px Arial', 'black', 'left', 'top', 10, 10);\n$image->writeImage('output.jpg');

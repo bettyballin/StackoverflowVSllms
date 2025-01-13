@@ -1,0 +1,1 @@
+# In your Gemfile\nsource :rubygems\ngemspec\n\n# In your Rakefile\nrequire 'bundler'\nBundler.setup\n\n# Run your tests using bundle exec\nbundle exec rake test

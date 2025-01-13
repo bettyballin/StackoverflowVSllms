@@ -1,1 +1,0 @@
-try\n{\n    string assemblyPath = Path.Combine(AppDomain.CurrentDomain.BaseDirectory, "bin", "Foo.dll");\n    Assembly assembly = Assembly.LoadFrom(assemblyPath);\n    // Use the loaded assembly\n}\ncatch (FileNotFoundException ex)\n{\n    // Handle the exception\n}\ncatch (FileLoadException ex)\n{\n    // Handle the exception\n}

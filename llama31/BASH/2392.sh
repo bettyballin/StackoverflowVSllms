@@ -1,1 +1,0 @@
-# Download and install TPV from IBM's website\n# Configure TPV to connect to your WebSphere instance\ntpv -config <websphere_config_file>

@@ -1,0 +1,1 @@
+# get a play instance\np = Play.objects.get(id=8581)\n\n# create a new PlayParticipant instance\nPlayParticipant.objects.create(play=p, player_id=2383)

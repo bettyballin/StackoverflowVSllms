@@ -1,1 +1,0 @@
-# m h  dom mon dow   command\n*/5 * * * * curl -s -o /dev/null -w "%{http_code}" http://example.com

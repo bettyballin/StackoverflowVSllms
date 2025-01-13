@@ -1,1 +1,0 @@
-tasklist /FI "STATUS eq WAITING"

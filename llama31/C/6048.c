@@ -1,1 +1,0 @@
-int test (int x)\n{\n  int y;\n  // do something with the low byte (AL, BL, CL, or DL)\n  asm ("movb $0x12, %0\n\t": "=b"(y) :"0"(x));\n  return y;\n}

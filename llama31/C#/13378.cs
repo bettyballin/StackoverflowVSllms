@@ -1,1 +1,0 @@
-// MyProxy.dll\npublic class MyProxy : IMyApi\n{\n    private readonly IMyApi _myApi;\n\n    public MyProxy(IMyApi myApi)\n    {\n        _myApi = myApi;\n    }\n\n    public void DoSomething(string param)\n    {\n        _myApi.DoSomething(param);\n    }\n}

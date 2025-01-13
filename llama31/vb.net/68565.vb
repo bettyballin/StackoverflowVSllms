@@ -1,0 +1,1 @@
+Imports System.Globalization\n\nDim cultures As CultureInfo() = CultureInfo.GetCultures(CultureTypes.AllCultures)\nFor Each culture As CultureInfo In cultures\n    Console.WriteLine(culture.Name & " - " & culture.DisplayName)\nNext

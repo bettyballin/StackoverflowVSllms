@@ -1,1 +1,0 @@
-protected void Page_Load(object sender, EventArgs e)\n{\n    ScriptManager scriptManager = ScriptManager.GetCurrent(this.Page);\n    scriptManager.RegisterPostBackControl(UploadButton);\n}

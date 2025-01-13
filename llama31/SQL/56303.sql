@@ -1,0 +1,1 @@
+CHECKSUM TABLE your_table_name;

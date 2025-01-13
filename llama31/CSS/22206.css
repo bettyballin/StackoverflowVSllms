@@ -1,1 +1,0 @@
-.container {\n  display: grid;\n  grid-template-rows: 1fr 100px;\n  height: 100vh;\n}\n\n.master {\n  grid-row: 1;\n  overflow-y: auto;\n}\n\n.detail {\n  grid-row: 2;\n  overflow-y: auto;\n}

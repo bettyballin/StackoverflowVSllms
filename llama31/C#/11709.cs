@@ -1,1 +1,0 @@
-DateTime now = DateTime.Now;\nstring sqlDateTime = now.ToString("yyyy-MM-dd HH:mm:ss");\n\n// Use sqlDateTime in your SQL query

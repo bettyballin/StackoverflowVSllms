@@ -1,0 +1,1 @@
+var trHeight = document.getElementById('myTr').offsetHeight;\n// adjust resizing logic based on trHeight

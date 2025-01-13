@@ -1,0 +1,1 @@
+SELECT user, data, sequence\nFROM (\n  SELECT user, data, sequence,\n         ROW_NUMBER() OVER (PARTITION BY user ORDER BY sequence DESC) AS row_num\n  FROM your_table\n) t\nWHERE row_num = 1;

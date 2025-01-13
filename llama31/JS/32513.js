@@ -1,0 +1,1 @@
+var parent = document.getElementById("FirstDiv");\nwhile (parent.firstChild) {\n  parent.removeChild(parent.firstChild);\n}

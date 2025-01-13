@@ -1,1 +1,0 @@
-List<string> values = new List<string>();\nwhile (reader.Read())\n{\n    values.Add(reader[0]);\n}\nstring result = string.Join("<br />", values);

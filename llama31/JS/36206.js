@@ -1,0 +1,1 @@
+var name = $('#input-name').length ? $('#input-name').attr("value") : null;

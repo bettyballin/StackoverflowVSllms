@@ -1,0 +1,1 @@
+import numpy as np\nfrom gensim.models import Word2Vec\n\ndef word_embedding_similarity(articles):\n    model = Word2Vec(articles, size=100, window=5, min_count=1)\n    return model.wv.similarity_matrix()

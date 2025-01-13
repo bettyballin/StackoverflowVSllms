@@ -1,0 +1,1 @@
+<target name="copyconfig">\n  <copy file="web.config" tofile="web.config.copy">\n    <filterchain>\n      <replacestring from="oldvalue" to="newvalue" />\n    </filterchain>\n  </copy>\n</target>

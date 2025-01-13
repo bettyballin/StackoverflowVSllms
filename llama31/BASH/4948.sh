@@ -1,1 +1,0 @@
-# Example usage:\nxmlstarlet val --well-formed --quiet input.xml

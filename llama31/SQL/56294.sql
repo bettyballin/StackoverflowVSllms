@@ -1,0 +1,1 @@
+SELECT \n  E.id, \n  E.title, \n  COUNT(C.id) AS recent_comment_count\nFROM \n  entries E\n  LEFT JOIN comments C ON E.id = C.entry_id\n  AND C.created BETWEEN NOW() - INTERVAL 1 MONTH AND NOW()\nGROUP BY \n  E.id, \n  E.title\nORDER BY \n  recent_comment_count DESC\nLIMIT 10;

@@ -1,1 +1,0 @@
-var personServices = new PersonServices();\nvar person = new Person { FirstName = "John", LastName = "Doe" };\nvar validationResult = personServices.AddPerson(person);\n\nif (!validationResult.IsValid)\n{\n    foreach (var errorMessage in validationResult.ErrorMessages)\n    {\n        Console.WriteLine(errorMessage);\n    }\n}

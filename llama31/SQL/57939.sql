@@ -1,0 +1,1 @@
+SELECT \n  team_id,\n  SUM(CASE WHEN home_team_id = team_id THEN 1 ELSE 0 END) AS home_games,\n  SUM(CASE WHEN away_team_id = team_id THEN 1 ELSE 0 END) AS away_games\nFROM (\n  SELECT home_team_id AS team_id FROM game\n  UNION\n  SELECT away_team_id AS team_id FROM game\n) AS teams\nJOIN game ON teams.team_id IN (home_team_id, away_team_id)\nGROUP BY team_id

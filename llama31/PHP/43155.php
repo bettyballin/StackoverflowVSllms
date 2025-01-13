@@ -1,0 +1,1 @@
+$str   = "My name is jingle <br>";\n$str2  = "I am a boy";\n\necho $str . $str2;

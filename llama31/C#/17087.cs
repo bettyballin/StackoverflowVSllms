@@ -1,1 +1,0 @@
-public class MyTest\n{\n    [Fact]\n    public void MyMethod Should_Return_Expected_Result()\n    {\n        // Arrange\n        var myObject = new MyObject();\n\n        // Act\n        var result = myObject.MyMethod();\n\n        // Assert\n        Assert.Equal("Expected result", result);\n    }\n}

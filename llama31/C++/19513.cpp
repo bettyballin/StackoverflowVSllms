@@ -1,1 +1,0 @@
-std::vector<int> copyVecFast(const std::vector<int>& original) {\n    return original;\n}

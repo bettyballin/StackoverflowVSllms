@@ -1,0 +1,1 @@
+const container = document.getElementById('your_container');\ncontainer.requestFullscreen();

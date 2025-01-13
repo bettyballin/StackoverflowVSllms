@@ -1,1 +1,0 @@
-#!/bin/bash\n\n# Mount the encrypted volume\nhdiutil attach /path/to/sourcecode.dmg -stdinpass

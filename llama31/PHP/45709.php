@@ -1,0 +1,1 @@
+$allowedFilters = array('date', 'category');\nforeach ($_GET as $key => $value) {\n    if (!in_array($key, $allowedFilters)) {\n        unset($_GET[$key]);\n    }\n}

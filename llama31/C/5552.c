@@ -1,1 +1,0 @@
-uint32_t* rgb_data = /* your RGB data */;\nuint32_t* argb_data = /* your ARGB data */;\nint num_pixels = /* number of pixels */;\n\nfor (int i = 0; i < num_pixels; i++) {\n    argb_data[i] = (255 << 24) | (rgb_data[i] & 0x00FFFFFF);\n}

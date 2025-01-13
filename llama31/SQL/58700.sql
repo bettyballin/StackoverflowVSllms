@@ -1,0 +1,1 @@
+CREATE TABLE events (\n    id SERIAL PRIMARY KEY,\n    start_date DATE NOT NULL,\n    end_date DATE NOT NULL,\n    CHECK (start_date < end_date),\n    EXCLUDE USING GIST (numrange(start_date, end_date, '[]') WITH &&)\n);

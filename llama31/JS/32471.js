@@ -1,0 +1,1 @@
+function swapNameOrder(nameString) {\n  const nameParts = nameString.split(', ');\n  return `${nameParts[1]} ${nameParts[0]}`;\n}\n\n// Example usage:\nconst originalString = "Lastname, Firstname";\nconst reorderedString = swapNameOrder(originalString);\nconsole.log(reorderedString); // Output: "Firstname Lastname"

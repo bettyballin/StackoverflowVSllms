@@ -1,1 +1,0 @@
-cpanm File::Type\ncpanm File::MimeInfo

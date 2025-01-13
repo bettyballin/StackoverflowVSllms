@@ -1,1 +1,0 @@
-using (var context = new MyDbContext()) {\n    try {\n        // database code that might throw a deadlock exception\n        context.SaveChanges();\n    } catch (DbUpdateException ex) {\n        if (ex.IsRetryable) {\n            // retry the operation\n        } else {\n            throw;\n        }\n    }\n}

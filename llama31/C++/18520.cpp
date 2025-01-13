@@ -1,1 +1,0 @@
-HRESULT CTest::QueryInterface(const IID& riid, void** ppvObject)\n{\n    if (riid == IID_IUnknown)\n    {\n        *ppvObject = this;\n        AddRef();\n        return S_OK;\n    }\n    else\n    {\n        *ppvObject = NULL;\n        return E_NOINTERFACE;\n    }\n}

@@ -1,0 +1,1 @@
+cell.appendChild(document.createTextNode(contents));\ncell.appendChild(document.createElement('br'));\ncell.appendChild(document.createTextNode("Another text"));

@@ -1,0 +1,1 @@
+$stmt = $mysqli->prepare($sql);\n$stmt->bind_param('si', $slug, $parent_id); // 'si' means string and integer\n$stmt->execute();

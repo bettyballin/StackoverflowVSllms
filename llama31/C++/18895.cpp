@@ -1,1 +1,0 @@
-#include <fstream>\n#include <string>\n\nstd::ifstream fifo("my_fifo");\n\n// ... (initial read blocks until data is available)\n\nwhile (true) {\n    std::string line;\n    std::getline(fifo, line);\n\n    // handle line\n\n    if (fifo.eof() && !fifo.fail()) {\n        fifo.clear();\n        fifo.seekg(0);\n    }\n}

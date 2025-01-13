@@ -1,1 +1,0 @@
-awk -v RS='\n Wed Nov' '/cat/' log_file

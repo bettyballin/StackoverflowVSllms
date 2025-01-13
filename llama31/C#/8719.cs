@@ -1,1 +1,0 @@
-public class MyClass\n{\n    public DateTime? MyDateTimeProperty { get; set; }\n}

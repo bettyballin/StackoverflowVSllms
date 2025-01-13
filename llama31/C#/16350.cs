@@ -1,1 +1,0 @@
-if (key.Equals("search", StringComparison.OrdinalIgnoreCase))\n{\n    DoSomething();\n}

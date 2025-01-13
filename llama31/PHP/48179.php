@@ -1,0 +1,1 @@
+<?php\n\n// Add the lib directory to the autoloader\nsfAutoload::addDirectory(sfConfig::get('sf_plugins_dir') . '/sfUtilsPlugin/modules/sfSearchLucene/lib');\n\n?>

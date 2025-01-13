@@ -1,0 +1,1 @@
+CREATE PROCEDURE MyProcedure\n    @IncludeSecondTable bit = 0\nAS\nBEGIN\n    SELECT * FROM Table1\n    UNION ALL\n    SELECT * FROM Table2\n    WHERE @IncludeSecondTable = 1;\nEND

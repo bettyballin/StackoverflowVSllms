@@ -1,0 +1,1 @@
+$privateKey = openssl_pkey_get_private('file:///path/to/your/private/key.pem');\n$signature = '';\nopenssl_sign($data, $signature, $privateKey, OPENSSL_ALGO_SHA1);

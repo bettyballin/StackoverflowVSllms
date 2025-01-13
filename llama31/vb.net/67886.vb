@@ -1,0 +1,1 @@
+Dim db As DAO.Database\nDim tdf As DAO.TableDef\n\nSet db = CurrentDb()\nSet tdf = db.CreateTableDef("LinkedTable")\n\ntdf.Connect = "ODBC;DRIVER={SQL Server};SERVER=your_server;DATABASE=your_database;UID=your_username;PWD=your_password"\ntdf.SourceTableName = "your_sql_table"\ntdf.RefreshLink\n\ndb.TableDefs.Append tdf

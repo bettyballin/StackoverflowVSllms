@@ -1,0 +1,1 @@
+const moment = require('moment');\n\n// Get the current date and time\nconst now = moment();\n\n// Format the date and time using a specific culture\nconst formattedDateTime = now.format('LL', 'fr'); // French culture\n\nconsole.log(formattedDateTime); // Output: 24 février 2023

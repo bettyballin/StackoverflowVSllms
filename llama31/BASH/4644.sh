@@ -1,1 +1,0 @@
-for host in $(cat hosts.txt); do\n  ssh user@$host "sudo su - && /path/to/your/script.sh" &\ndone\nwait

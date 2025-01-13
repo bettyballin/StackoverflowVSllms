@@ -1,1 +1,0 @@
-string restUrl = "http://example.com/rest_service.html?action=test_result&cachebuster=" + Guid.NewGuid().ToString();

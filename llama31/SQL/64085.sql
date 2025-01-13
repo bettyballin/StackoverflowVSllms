@@ -1,0 +1,1 @@
+CREATE EXTENSION pgcrypto;\nSELECT crypt('password', 'salt');

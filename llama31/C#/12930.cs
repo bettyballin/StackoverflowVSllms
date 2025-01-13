@@ -1,1 +1,0 @@
-public static string WholeWordPattern(string word)\n{\n    return $@"(?<!\w){Regex.Escape(word)}(?!\w)";\n}

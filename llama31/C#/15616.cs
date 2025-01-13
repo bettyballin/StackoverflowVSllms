@@ -1,1 +1,0 @@
-X509Certificate2 cert = new X509Certificate2("path/to/cert", "password", X509KeyStorageFlags.MachineKeySet | X509KeyStorageFlags.Exportable);

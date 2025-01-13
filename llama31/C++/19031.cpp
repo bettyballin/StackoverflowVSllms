@@ -1,1 +1,0 @@
-#include <iostream>\n#include <iomanip>\n\nstruct Data {\n    int x;\n    float y;\n    char z;\n};\n\nint main() {\n    Data data = {10, 3.14f, 'A'};\n    std::cout << std::hex << std::showbase;\n    std::cout << "x: " << data.x << std::endl;\n    std::cout << "y: " << data.y << std::endl;\n    std::cout << "z: " << (int)data.z << std::endl;\n    return 0;\n}

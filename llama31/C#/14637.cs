@@ -1,1 +1,0 @@
-using System;\nusing System.Web;\n\nnamespace WebApp1\n{\n  public partial class SetSessionVariable : System.Web.UI.Page\n  {\n    protected void Page_Load(object sender, EventArgs e)\n    {\n      Session["myVarImSetting"] = "Hello from Web App 1!";\n    }\n  }\n}

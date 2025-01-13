@@ -1,0 +1,1 @@
+SELECT * FROM aspnet_Applications\nWHERE ApplicationName = 'YourApplicationName';

@@ -1,1 +1,0 @@
-try\n{\n    // Make COM call here\n}\ncatch (COMException ex) when (ex.HResult == 0x80010100)\n{\n    // Retry the call or handle the error\n}

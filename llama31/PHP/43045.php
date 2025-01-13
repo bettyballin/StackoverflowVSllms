@@ -1,0 +1,1 @@
+$ids = $id_array;\n$placeholders = implode(',', array_fill(0, count($ids), '?'));\n\n$sql = "SELECT * FROM myTbl WHERE category_id IN ($placeholders)";\n$stmt = $mysqli->prepare($sql);\n$stmt->bind_param(str_repeat('i', count($ids)), ...$ids);\n$stmt->execute();\n$results = $stmt->get_result()->fetch_all();

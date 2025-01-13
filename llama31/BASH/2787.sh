@@ -1,1 +1,0 @@
-midl.exe /oldtlb your_idl_file.idl

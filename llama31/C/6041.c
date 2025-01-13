@@ -1,1 +1,0 @@
-BarList *l = EMPTY_LIST;\nbarPush(&l, &b1);\nbarPush(&l, &b2);

@@ -1,1 +1,0 @@
-static_assert(sizeof(int) == 4, "sizeof_int_is_not_4");

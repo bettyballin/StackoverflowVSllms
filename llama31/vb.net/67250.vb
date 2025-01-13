@@ -1,0 +1,1 @@
+Public Shared ReadOnly Property rubrique_id() As Nullable(Of Integer)\n    Get\n        Return If(Current.Request.QueryString("rid") <> "", CInt(Current.Request.QueryString("rid")), Nothing)\n    End Get\nEnd Property

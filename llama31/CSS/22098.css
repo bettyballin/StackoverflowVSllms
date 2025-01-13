@@ -1,1 +1,0 @@
-.ranImg {\n  position: fixed;\n  z-index: 0;\n  width: 250px;\n  height: 250px;\n  display: block;\n}\n\n#ranImg1 {\n  left: 10px;\n  top: 200px;\n  background-image: url(http://localhost/MyAlbum//images/background/ranPaperclips.png);\n  background-repeat: no-repeat;\n}

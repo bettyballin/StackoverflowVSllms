@@ -1,1 +1,0 @@
-var miProxy = new WebServiceInvoker("http://webServiceLocation", "ns", "Binding");\nvar res = miProxy.InvokeFunction<string>("MyWebMethod", stringPar1, stringPar2);

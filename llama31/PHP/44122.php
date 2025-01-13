@@ -1,0 +1,1 @@
+public function addAction()\n{\n    // ... your code to display the custom block and validate form input ...\n\n    // Redirect to your custom module\n    $this->_redirect('yourmodule/yourcontroller/youraction');\n\n    // Set the redirect URL to return to checkout\n    $this->getResponse()->setRedirectUrl(Mage::getUrl('checkout/cart'));\n}

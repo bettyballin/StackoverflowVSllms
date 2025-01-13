@@ -1,0 +1,1 @@
+require 'httparty'\n\nclass TreasureHuntClient\n  include HTTParty\n\n  base_uri 'site.com'\n\n  def get_treasure_hunts(params)\n    response = self.class.post('/gettreasurehunts', body: params.to_xml)\n    # parse response XML\n  end\nend

@@ -1,0 +1,1 @@
+<!-- Example of secure configuration using Struts SecurityConfiguration -->\n<security-config>\n    <security-setting name="security-enabled" value="true"/>\n    <security-setting name=" password-encryption-enabled" value="true"/>\n</security-config>

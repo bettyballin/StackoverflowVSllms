@@ -1,1 +1,0 @@
-plink -v -ssh -P 22 user@EC2Instance

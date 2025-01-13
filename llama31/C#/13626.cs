@@ -1,1 +1,0 @@
-public class CurrentUser\n{\n    [ThreadStatic]\n    public static string Name;\n    [ThreadStatic]\n    public static string Role;\n}

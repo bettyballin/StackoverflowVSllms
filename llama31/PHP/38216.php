@@ -1,0 +1,1 @@
+$button = new Zend_Form_Element_Button('submit');\n$button->setLabel('Submit')\n       ->setAttrib('class', 'my-custom-button-class');\n$form->addElement($button);

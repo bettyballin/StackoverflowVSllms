@@ -1,1 +1,0 @@
-svn info --show-item repos-path FILE_NAME

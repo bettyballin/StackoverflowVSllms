@@ -1,1 +1,0 @@
-[HttpPost]\npublic ActionResult YourAction(string userInput)\n{\n    // process the user's input\n    return Json(new { success = true });\n}

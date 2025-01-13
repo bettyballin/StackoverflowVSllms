@@ -1,1 +1,0 @@
-public class LargeObject\n{\n    private byte[] _data;\n\n    public byte[] Data\n    {\n        get\n        {\n            if (_data == null)\n            {\n                // Load data from database or other storage\n                _data = LoadData();\n            }\n            return _data;\n        }\n    }\n}

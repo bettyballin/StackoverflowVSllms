@@ -1,0 +1,1 @@
+<profile>\n  <providers>\n    <clear />\n    <add name="SqlProfileProvider"\n         type="System.Web.Profile.SqlProfileProvider"\n         connectionStringName="YourConnectionString"\n         applicationName="YourApplicationName" />\n  </providers>\n</profile>

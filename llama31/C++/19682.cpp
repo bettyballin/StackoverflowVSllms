@@ -1,1 +1,0 @@
-// thunking_example.cpp\n#include "myallocator.h"\n\nvoid* operator new(size_t size) {\n    return mylib::mynew(size);\n}\n\nvoid operator delete(void* ptr) {\n    mylib::mydelete(ptr);\n}\n\ntemplate <typename T>\nclass allocator : public mylib::allocator<T> {\npublic:\n    // implement the thunking logic here\n};

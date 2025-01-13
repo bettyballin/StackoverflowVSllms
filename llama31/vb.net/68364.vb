@@ -1,0 +1,1 @@
+Dim myCachedObject As MyClass = GetCache(Of MyClass)("myCacheKey")

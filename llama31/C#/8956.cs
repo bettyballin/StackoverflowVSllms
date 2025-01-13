@@ -1,1 +1,0 @@
-using System.Web;\n\npublic class MyModule : IHttpModule\n{\n    public void Init(HttpApplication context)\n    {\n        // Access the HttpContext object\n        HttpContext currentContext = context.Context;\n    }\n\n    public void Dispose()\n    {\n    }\n}

@@ -1,1 +1,0 @@
-CString str;\nstr.AppendFormat(_T("SELECT * FROM %s WHERE %s = %d"), tableName, columnName, value);

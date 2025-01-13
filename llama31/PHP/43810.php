@@ -1,0 +1,1 @@
+if (property_exists($user, 'fbc_uid')) {\n    $fbc_uid = $user->fbc_uid;\n} else {\n    // handle the case where the property does not exist\n}

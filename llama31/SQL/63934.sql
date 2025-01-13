@@ -1,0 +1,1 @@
+GRANT EXECUTE ON SCHEMA::private_schema TO [specific_user_or_role];

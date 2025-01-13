@@ -1,1 +1,0 @@
-HMODULE hDll = LoadLibrary("path/to/your/dll.dll");\nif (hDll == NULL) {\n    // handle error\n}\n\n// Get the exported function pointer\nvoid* pFunc = GetProcAddress(hDll, "YourExportedFunctionName");\nif (pFunc == NULL) {\n    // handle error\n}\n\n// Call the function\npFunc();\n\n// Unload the DLL\nFreeLibrary(hDll);

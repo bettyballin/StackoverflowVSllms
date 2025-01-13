@@ -1,0 +1,1 @@
+<bean id="dataSource" class="oracle.jdbc.pool.OracleDataSource">\n    <property name="dataSourceName" value="myDataSource"/>\n    <property name="url" value="jdbc:oracle:thin:myDevDb/myDevDb@fooServer:1521:MYSIDNAME"/>\n    <property name="user" value="myDevDb"/>\n    <property name="password" value="myDevDb"/>\n</bean>

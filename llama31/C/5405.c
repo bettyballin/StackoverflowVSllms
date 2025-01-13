@@ -1,1 +1,0 @@
-__global__ void AesEncrypt(byte* data, byte* key)\n{\n    __shared__ byte sData[16];\n    __shared__ byte sKey[16];\n\n    int idx = blockIdx.x * blockDim.x + threadIdx.x;\n\n    sData[threadIdx.x] = data[idx];\n    sKey[threadIdx.x] = key[threadIdx.x];\n\n    __syncthreads();\n\n    // AES encryption kernel implementation goes here\n\n    data[idx] = sData[threadIdx.x];\n}

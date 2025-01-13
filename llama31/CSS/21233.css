@@ -1,1 +1,0 @@
-.menu-item {\n  position: relative;\n  width: 100px;\n  height: 50px;\n  clip: rect(0 100px 50px 0);\n}\n\n.menu-item:hover {\n  clip: rect(50px 100px 100px 0);\n}

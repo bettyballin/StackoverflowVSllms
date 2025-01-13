@@ -1,0 +1,1 @@
+$password = $_POST['password'];\n$storedHash = $user['password_hash']; // retrieve the stored hash from the database\n\nif (password_verify($password, $storedHash)) {\n    // password is valid\n} else {\n    // password is invalid\n}

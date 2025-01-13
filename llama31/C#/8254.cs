@@ -1,1 +1,0 @@
-public void FunctionA(object param)\n{\n    ValidateParam(param);\n    DoA(param);\n    DoB(param);\n    DoC(param);\n    // etc.\n}\n\nprivate void ValidateParam(object param)\n{\n    if (param == null)\n    {\n        throw new ArgumentNullException(nameof(param));\n    }\n}

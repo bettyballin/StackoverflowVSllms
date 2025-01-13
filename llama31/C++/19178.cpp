@@ -1,1 +1,0 @@
-char str2[] = "Hi world!";\nchar *str = new char[100];\n\nstd::cout << sizeof(str2) << std::endl;  // prints the size of the array (e.g., 10)\nstd::cout << sizeof(str) << std::endl;   // prints the size of the pointer (e.g., 4 or 8)

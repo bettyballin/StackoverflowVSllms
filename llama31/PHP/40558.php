@@ -1,0 +1,1 @@
+$mysqli = new mysqli('host', 'username', 'password', 'database');\n\n// Your query here\n$query = "INSERT INTO `events` ...";\n$mysqli->query($query);\n\n// Get warnings\n$warnings = $mysqli->get_warnings();\nif ($warnings) {\n    foreach ($warnings as $warning) {\n        echo "Warning: " . $warning->message . "\n";\n    }\n}

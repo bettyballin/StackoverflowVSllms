@@ -1,1 +1,0 @@
-ToolStripMenuItem minimizeToolStripMenuItem = new ToolStripMenuItem("Minimize");\nminimizeToolStripMenuItem.Click += new EventHandler(minimizeToolStripMenuItem_Click);\n\n// ...\n\nvoid minimizeToolStripMenuItem_Click(object sender, EventArgs e)\n{\n    this.WindowState = FormWindowState.Minimized;\n}

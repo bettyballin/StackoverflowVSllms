@@ -1,0 +1,1 @@
+INSERT INTO OPENROWSET('MSDASQL', 'Driver={Microsoft Text Driver (*.txt; *.csv)};DefaultDir=C:\;Extensions=asc,csv,tab,txt;', 'SELECT * FROM your_table')\nSELECT * FROM your_table

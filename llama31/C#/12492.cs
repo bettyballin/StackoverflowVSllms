@@ -1,1 +1,0 @@
-YourDialog.Owner = YourMainWindowInstance;\nYourDialog.ShowDialog();

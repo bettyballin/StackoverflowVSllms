@@ -1,1 +1,0 @@
-using Microsoft.LiveMesh;\n\n// Create a new LiveMesh object\nLiveMesh mesh = new LiveMesh();\n\n// Define a data entry\nMeshDataEntry entry = new MeshDataEntry("myData", "Hello, World!");\n\n// Add the entry to the mesh\nmesh.Data.Add(entry);\n\n// Synchronize the data with the remote server\nmesh.SynchronizeAsync();

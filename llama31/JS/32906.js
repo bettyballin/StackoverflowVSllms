@@ -1,0 +1,1 @@
+$('.clickme').click(function(event) {\n  event.preventDefault();\n  var href = $(this).attr("href");\n  var urlParams = new URLSearchParams(href.split('?')[1]);\n  var id = urlParams.get('id');\n  var status = urlParams.get('status');\n  // ...\n});

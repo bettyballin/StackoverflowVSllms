@@ -1,0 +1,1 @@
+CREATE INDEX idx_temperature_ref ON temperatures (ref, temperature);

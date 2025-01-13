@@ -1,1 +1,0 @@
-.menu-container {\n  display: table;\n  width: 100%; /* adjust to your desired width */\n}\n\n.menu-item {\n  display: table-cell;\n  width: auto;\n  vertical-align: middle; /* optional, adjust to your desired alignment */\n}

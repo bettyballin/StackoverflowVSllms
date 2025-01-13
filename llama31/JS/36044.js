@@ -1,0 +1,1 @@
+// JavaScript code to load the partial view\n$.ajax({\n    type: "GET",\n    url: "/Home/ReportOne",\n    dataType: "html",\n    success: function(data) {\n        $("#resultOne").html(data);\n    }\n});

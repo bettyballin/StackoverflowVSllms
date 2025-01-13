@@ -1,1 +1,0 @@
-webBrowser1.Document.InvokeScript("__doPostBack", new object[] { "ctl00$cphMain$lnkNameserverUpdate", "" });

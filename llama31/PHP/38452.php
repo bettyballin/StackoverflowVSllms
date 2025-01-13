@@ -1,0 +1,1 @@
+$hashed_password = password_hash($pwd, PASSWORD_DEFAULT);

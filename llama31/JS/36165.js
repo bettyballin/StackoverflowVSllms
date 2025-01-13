@@ -1,0 +1,1 @@
+// Client-side JavaScript\n$.ajax({\n  type: 'POST',\n  url: '/proxy',\n  data: $('#myForm').serialize(),\n  success: function(response) {\n    // Make your other logic here\n  }\n});

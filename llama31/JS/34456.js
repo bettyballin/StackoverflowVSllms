@@ -1,0 +1,1 @@
+$.ajax({\n  url: 'your-page-url',\n  cache: true,\n  success: function(data) {\n    // Handle the response data\n  }\n});

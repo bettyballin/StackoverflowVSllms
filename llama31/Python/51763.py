@@ -1,0 +1,1 @@
+# x.py\nprint("Importing x.py")\n\n# y.py (symbolic link to x.py)\n\n# main.py\nimport x\nimport y

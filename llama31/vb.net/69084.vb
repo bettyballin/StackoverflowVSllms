@@ -1,0 +1,1 @@
+Dim input As String = "term: 156^^^:^^59 datainput"\nDim output As String = RemoveWhitespaceBetweenNumbersAndColon(input)\nConsole.WriteLine(output)  ' Output: "term: 156:59 datainput"

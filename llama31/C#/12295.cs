@@ -1,1 +1,0 @@
-public static class MyStaticClass\n{\n    public static void Reset()\n    {\n        var type = typeof(MyStaticClass);\n        var fields = type.GetFields(BindingFlags.Static | BindingFlags.Public | BindingFlags.NonPublic);\n        foreach (var field in fields)\n        {\n            field.SetValue(null, Activator.CreateInstance(field.FieldType));\n        }\n    }\n}

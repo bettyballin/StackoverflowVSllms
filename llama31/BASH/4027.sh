@@ -1,1 +1,0 @@
-ar -M -rcs combined_lib.a libpng.a libz.a libjpeg.a

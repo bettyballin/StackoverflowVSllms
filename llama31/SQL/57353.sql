@@ -1,0 +1,1 @@
+declare @table table (\n    [column] xml\n)\n\ninsert @table ([column]) values ('<r><i>1</i><i>2</i><i>3</i></r>')\n\ndeclare @parameter xml\nset @parameter = '<r><i>1</i><i>2</i></r>'\n\nupdate @table\nset [column].modify('\n    delete (\n        for $i in //i\n        where $i/text() = (sql:variable("@parameter")//i/text())\n        return $i\n    )\n')

@@ -1,0 +1,1 @@
+SELECT column1, column2, \n       ABS(CHECKSUM(NEWID())) % 10000 AS column3\nFROM table1

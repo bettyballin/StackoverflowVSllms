@@ -1,1 +1,0 @@
-# Create a keyfile and add it to the LUKS keyring\ndd if=/dev/urandom of=/root/keyfile bs=1024 count=4\ncryptsetup luksAddKey /dev/sda1 /root/keyfile\n\n# Configure the initramfs to load the keyfile\necho "KEYFILE=/root/keyfile" >> /etc/cryptsetup-initramfs/conf-hook\n\n# Update the initramfs\nupdate-initramfs -u

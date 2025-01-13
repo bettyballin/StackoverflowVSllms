@@ -1,1 +1,0 @@
-public class DiagnosticContext\n{\n    public List<DiagnosticResult> Results { get; } = new List<DiagnosticResult>();\n\n    public void AddResult(DiagnosticResult result) => Results.Add(result);\n}\n\npublic class DiagnosticResult\n{\n    public string Name { get; set; }\n    public bool Success { get; set; }\n    public string ErrorMessage { get; set; }\n}

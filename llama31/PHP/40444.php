@@ -1,0 +1,1 @@
+include_once 'yourfile.php';\nrequire_once 'yourfile.php';

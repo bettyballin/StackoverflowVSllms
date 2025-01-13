@@ -1,0 +1,1 @@
+# toolbar_view.py\nimport gtk\n\nclass ToolbarView(gtk.Toolbar):\n    def __init__(self):\n        super(ToolbarView, self).__init__()\n        self.add_button(gtk.Button("Click me"))

@@ -1,0 +1,1 @@
+SELECT i.*, \n       GROUP_CONCAT(DISTINCT f.userid SEPARATOR ',') AS idlist\nFROM items i\nLEFT JOIN favourites f ON i.id = f.itemid\nWHERE i.id = $someid\nGROUP BY i.id

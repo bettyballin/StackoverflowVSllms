@@ -1,1 +1,0 @@
-if (myReader.HasRows)\n{\n    while (myReader.Read())\n    {\n        if (!myReader.IsDBNull(myReader.GetOrdinal("Additional")))\n        {\n            ltlAdditional.Text = "contains data";\n        }\n        else\n        {\n            ltlAdditional.Text = "is null";\n        }\n    }\n}\nelse\n{\n    // Handle the case when there are no rows\n}

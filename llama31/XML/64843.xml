@@ -1,0 +1,1 @@
+<?xml version="1.0" encoding="utf-8"?>\n<mx:Application xmlns:mx="http://www.adobe.com/2006/mxml" layout="absolute">\n    <mx:IFrame id="iframe" source="http://www.example.com" width="100%" height="100%"/>\n</mx:Application>

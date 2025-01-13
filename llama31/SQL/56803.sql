@@ -1,0 +1,1 @@
+SELECT FIRST 1 event_code\nFROM your_table\nORDER BY your_column DESC;

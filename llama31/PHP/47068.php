@@ -1,0 +1,1 @@
+function obfuscate_email_ignore_mailto($html) {\n  $html = preg_replace_callback('/(?<!mailto:)([a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,})/', function($match) {\n    return obfuscate_email($match[1]);\n  }, $html);\n  return $html;\n}

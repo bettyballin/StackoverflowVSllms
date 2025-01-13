@@ -1,1 +1,0 @@
-curl -I -H 'Accept-Encoding: gzip' http://yourwebsite.com

@@ -1,0 +1,1 @@
+Dim s1 As String = "Hello"\nDim s2 As String = "World"\n\nDim result1 As String = s1 + s2  ' works, but less efficient\nDim result2 As String = s1 & s2  ' preferred way of string concatenatio

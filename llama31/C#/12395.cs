@@ -1,1 +1,0 @@
-var customerUS = new Customer("US");\nvar taxServiceUS = customerUS.TaxService; // resolves to TaxServiceUS\n\nvar customerEU = new Customer("EU");\nvar taxServiceEU = customerEU.TaxService; // resolves to TaxServiceEU

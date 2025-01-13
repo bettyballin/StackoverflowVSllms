@@ -1,0 +1,1 @@
+// main.js\nimport { functionName } from './includedFile.js';\n\nfunctionName(); // Call a function from the included file

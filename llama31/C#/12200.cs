@@ -1,1 +1,0 @@
-var table1Collection = new Table1Collection();\nvar table2Collection = new Table2Collection();\n\nvar relations = new RelationCollection();\nrelations.Add(Table1Entity.Relations.Table2EntityUsingID, JoinHint.Left, \n    new FieldCompareValuePredicate(Table2Fields.Col5, ComparisonOperator.Equal, "test"));\n\ntable1Collection.GetMulti(relations);

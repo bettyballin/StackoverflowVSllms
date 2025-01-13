@@ -1,1 +1,0 @@
-// ASP.NET Web API (server-side)\n[Route("api/data")]\npublic class DataController : Controller\n{\n    [HttpGet]\n    public IActionResult GetData()\n    {\n        // Return some sample data\n        return Json(new[] { new { Id = 1, Name = "John" }, new { Id = 2, Name = "Jane" } });\n    }\n}

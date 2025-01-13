@@ -1,1 +1,0 @@
-libvirt --connect xen:/// stats --raw --since=yesterday guest_name

@@ -1,0 +1,1 @@
+import re\n\nhtml_text = '<link href="https://example.com/style.css" rel="stylesheet">'\n\npattern = r'<link\s+href\s*=\s*["\'](.*?)["\']'\nmatches = re.findall(pattern, html_text)\n\nfor match in matches:\n    print(match)  # Output: https://example.com/style.css

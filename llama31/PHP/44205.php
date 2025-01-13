@@ -1,0 +1,1 @@
+$htmlTable = '<table>...</table>'; // your HTML table\n\n$cmd = 'wkhtmltopdf --page-size A4 --margin-top 0 --margin-bottom 0 --margin-left 0 --margin-right 0 - ';\n$cmd .= escapeshellarg($htmlTable) . ' table.pdf';\nexec($cmd);

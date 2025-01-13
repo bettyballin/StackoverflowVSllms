@@ -1,0 +1,1 @@
+$fi = get_file_contents($friendsurl.$username1."xml?page".$page);\nif ($fi !== false && strpos($fi, '<') !== false) {\n    $xml[$page] = new SimpleXMLElement($fi);\n} else {\n    // handle the case where the response is not XML or is an error\n    echo "Error: Invalid response from Twitter API";\n    die();\n}

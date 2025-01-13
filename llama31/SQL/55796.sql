@@ -1,0 +1,1 @@
+uuid_generate_random(bin_uuid);

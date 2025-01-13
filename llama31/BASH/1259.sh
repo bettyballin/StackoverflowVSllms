@@ -1,1 +1,0 @@
-yum --python=/usr/local/bin/python2.6 install package_name

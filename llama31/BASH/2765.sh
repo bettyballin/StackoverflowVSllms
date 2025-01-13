@@ -1,1 +1,0 @@
-git config --global core.sshCommand "plink -batch"

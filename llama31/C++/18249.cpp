@@ -1,1 +1,0 @@
-sAttr = sAttr + std::string(VAL_TAG_OPEN) + sVal->c_str() + std::string(VAL_TAG_CLOSE);

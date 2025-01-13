@@ -1,0 +1,1 @@
+from line_profiler import LineProfiler\n\ndef my_view(request):\n    # code to profile\n    pass\n\nprofiler = LineProfiler()\nprofiler.add_function(my_view)\nprofiler.run('my_view(request)')\nprofiler.print_stats()

@@ -1,0 +1,1 @@
+DEFINE ID = '12345'\nSELECT * FROM theTable WHERE ID = '&ID';

@@ -1,0 +1,1 @@
+$smarty = new Smarty();\n$templateDirs = array('/path/to/dir1', '/path/to/dir2');\n$smarty->registerResource('custom', new CustomTemplateResource($smarty, $templateDirs));

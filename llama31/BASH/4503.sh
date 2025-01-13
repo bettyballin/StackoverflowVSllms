@@ -1,1 +1,0 @@
-certbot certonly --webroot --webroot-path=/var/www/html --email your_email@example.com --agree-tos --non-interactive \\n-d example1.com -d example2.com -d example3.com

@@ -1,0 +1,1 @@
+Protected Overrides Sub OnPaintBackground(e As PaintEventArgs)\n    MyBase.OnPaintBackground(e)\n    Me.Invalidate()\nEnd Sub

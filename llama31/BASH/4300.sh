@@ -1,1 +1,0 @@
-yum upgrade --enablerepo=rpmforge subversio

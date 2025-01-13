@@ -1,0 +1,1 @@
+$dbUsername = get_calling_class_vars('configArray')['dbUserName'];

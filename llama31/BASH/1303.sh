@@ -1,1 +1,0 @@
-#!/bin/bash\n\ntrap 'exit' INT TERM\n\necho "Welcome to Dervin's shell."\n/path/to/your/applicatio

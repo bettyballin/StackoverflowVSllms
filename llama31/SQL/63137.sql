@@ -1,0 +1,1 @@
+SELECT notes.*\nFROM notes\nJOIN note_labels ON notes.id = note_labels.note_id\nJOIN labels ON note_labels.label_id = labels.id\nWHERE labels.name = 'one'\n\nINTERSECT\n\nSELECT notes.*\nFROM notes\nJOIN note_labels ON notes.id = note_labels.note_id\nJOIN labels ON note_labels.label_id = labels.id\nWHERE labels.name = 'two'

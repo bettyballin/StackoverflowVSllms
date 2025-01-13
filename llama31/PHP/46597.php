@@ -1,0 +1,1 @@
+$conn = mysqli_connect('localhost', 'westbrookc16', 'megadots', 'your_database_name');\n\nif (!$conn) {\n    die('Connection failed: ' . mysqli_connect_error());\n}

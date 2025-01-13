@@ -1,1 +1,0 @@
-cleartool find . -nxname -version '!lbtype(LBL_A) && !lbtype(!LBL_A)' -print

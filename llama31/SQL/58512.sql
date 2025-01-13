@@ -1,0 +1,1 @@
+sp_addmessage @msgnum = 27001, @severity = 16, @msgtext = 'ID is %1. ID cannot be null or less than zero.'

@@ -1,1 +1,0 @@
-public class GenericClass<T> {\n    public T GetValue() { return default(T); }\n}\n\n// Usage:\nGenericClass<int> intClass = new GenericClass<int>();\nint value = intClass.GetValue();

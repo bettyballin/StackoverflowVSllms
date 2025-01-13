@@ -1,0 +1,1 @@
+do {\n    $response = queryAlexaApi();\n    $retries++;\n    if (strpos($response, 'AuthFailure') !== false) {\n        usleep(500000); // wait 0.5 seconds before retrying\n    }\n} while (strpos($response, 'AuthFailure') !== false && $retries < $maxRetries);

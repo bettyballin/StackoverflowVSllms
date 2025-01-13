@@ -1,1 +1,0 @@
-protected override void Validate()\n{\n    base.Validate();\n    foreach (Control control in Controls)\n    {\n        if (control is IValidator)\n        {\n            ((IValidator)control).Validate();\n        }\n    }\n}

@@ -1,1 +1,0 @@
-using System.IO;\n\nstring filename = @"C:\MyDirectory\MyFile.bat";\nstring directory = Path.GetDirectoryName(filename);

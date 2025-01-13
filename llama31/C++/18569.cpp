@@ -1,1 +1,0 @@
-#include <windows.h>\n\nint main() {\n    Sleep(1000); // sleep for 1 second\n    return 0;\n}

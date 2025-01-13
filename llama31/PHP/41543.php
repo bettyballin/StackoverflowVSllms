@@ -1,0 +1,1 @@
+if (empty($_SERVER['TERM'])) {\n    // Running from cron job\n} else {\n    // Running from command line\n}

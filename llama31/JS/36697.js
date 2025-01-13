@@ -1,0 +1,1 @@
+$('#comment-box').on('click', function(event) {\n  event.stopPropagation();\n});

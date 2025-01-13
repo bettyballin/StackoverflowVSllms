@@ -1,1 +1,0 @@
-xperf -start -on base -f explorer.exe\n// reproduce the scenario (e.g., interact with your BHO)\nxperf -stop\nxperf -i

@@ -1,0 +1,1 @@
+rank_value = rank.first.attributes['rank'].to_i

@@ -1,0 +1,1 @@
+SELECT dbo.INET_ATON('192.168.1.1')

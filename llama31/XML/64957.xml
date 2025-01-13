@@ -1,0 +1,1 @@
+<system.webServer>\n  <rewrite>\n    <rules>\n      <rule name="RewriteRule1" stopProcessing="true">\n        <match url="^old-page\.aspx$" />\n        <action type="Rewrite" url="new-page.aspx" />\n      </rule>\n    </rules>\n  </rewrite>\n</system.webServer>

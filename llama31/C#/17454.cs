@@ -1,1 +1,0 @@
-// Save the current row\nDataRowView currentRow = (DataRowView)bindingSource.Current;\n\n// End edit to apply changes to the underlying data source\nbindingSource.EndEdit();\n\n// Use the saved row to perform the insert operation\ntableAdapter.Insert(currentRow.Row);

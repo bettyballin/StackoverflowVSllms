@@ -1,0 +1,1 @@
+SELECT G.GroupId, U.*\nFROM Groups G\nCROSS JOIN Users U\nLEFT JOIN GroupUsers GU ON U.UserId = GU.UserId AND G.GroupId = GU.GroupId\nWHERE GU.UserId IS NULL

@@ -1,1 +1,0 @@
-public Tuple<DataTable, DataTable, DataTable> GetEmployees()\n{\n    DataTable dataTable1 = GetDataTable1();\n    DataTable dataTable2 = GetDataTable2();\n    DataTable dataTable3 = GetDataTable3();\n\n    return Tuple.Create(dataTable1, dataTable2, dataTable3);\n}

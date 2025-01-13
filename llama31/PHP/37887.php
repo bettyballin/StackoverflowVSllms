@@ -1,0 +1,1 @@
+function is_suspicious_user_agent($user_agent) {\n    $suspicious_agents = array('bot', 'crawler', 'spider');\n    foreach ($suspicious_agents as $agent) {\n        if (strpos(strtolower($user_agent), $agent) !== false) {\n            return true;\n        }\n    }\n    return false;\n}

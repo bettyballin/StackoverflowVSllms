@@ -1,0 +1,1 @@
+SELECT T1.ColumnA, T1.ColumnB, T2.ColumnC\nFROM Table1 T1\nINNER JOIN Table2 T2\nON T1.ColumnX = T2.ColumnX;

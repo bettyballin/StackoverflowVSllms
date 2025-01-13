@@ -1,0 +1,1 @@
+<configuration>\n  <system.webServer>\n    <httpProtocol>\n      <customHeaders>\n        <add name="Content-Disposition" value="attachment; filename=&quot;image.png&quot;" />\n      </customHeaders>\n    </httpProtocol>\n  </system.webServer>\n</configuration>

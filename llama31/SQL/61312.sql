@@ -1,0 +1,1 @@
+CREATE TABLE TIMESTAMP (\n  id INT PRIMARY KEY,\n  TABLE_UPDATED VARCHAR(255) NOT NULL,\n  id_of_entry_updated INT NOT NULL,\n  timestamp_type INT NOT NULL,  -- 1 = insertion, 2 = update, etc.\n  timestamp DATETIME NOT NULL DEFAULT CURRENT_TIMESTAMP\n);\n\nCREATE INDEX idx_timestamp ON TIMESTAMP (TABLE_UPDATED, id_of_entry_updated);

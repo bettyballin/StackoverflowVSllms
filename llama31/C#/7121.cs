@@ -1,1 +1,0 @@
-label.FontWeight = FontWeights.Bold;\nlabel.FontStyle = FontStyles.Italic;

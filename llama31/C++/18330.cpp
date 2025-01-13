@@ -1,1 +1,0 @@
-#include <benchmark/benchmark.h>\n\nstatic void myFunction(benchmark::State& state) {\n    // code to be benchmarked\n}\n\nBENCHMARK(myFunction);\n\nint main(int argc, char** argv) {\n    benchmark::Initialize(&argc, argv);\n    benchmark::RunSpecifiedBenchmarks();\n    return 0;\n}

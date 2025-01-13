@@ -1,1 +1,0 @@
-curl -v https://wsbeta.fedex.com:443/web-services

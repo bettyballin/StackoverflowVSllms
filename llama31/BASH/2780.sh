@@ -1,1 +1,0 @@
-gcc -o your_program your_program.c -lole32

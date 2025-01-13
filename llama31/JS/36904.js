@@ -1,0 +1,1 @@
+$("#grid").jqGrid('bindKeys');

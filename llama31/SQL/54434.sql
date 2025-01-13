@@ -1,0 +1,1 @@
+DELETE FROM categories\nWHERE catId NOT IN (SELECT catId FROM map);

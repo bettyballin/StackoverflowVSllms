@@ -1,1 +1,0 @@
-int _tmain(int argc, _TCHAR* argv[])\n{\n    cout << "Hello World";\n    system("pause");\n    return 0;\n}

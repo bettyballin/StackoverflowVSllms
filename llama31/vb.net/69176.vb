@@ -1,0 +1,1 @@
+Imports System.Diagnostics\n\nPublic Shared Sub Test1()\n    Test2()\nEnd Sub\n\nPublic Shared Sub Test2()\n    Dim stackTrace As New StackTrace()\n    Dim callingMethod As String = stackTrace.GetFrame(1).GetMethod().Name\n    MsgBox(callingMethod) ' Outputs: Test1\nEnd Sub

@@ -1,0 +1,1 @@
+<!-- app/views/calendars/index.html.erb -->\n<div id="calendar"></div>\n\n<script>\n  $(document).ready(function() {\n    $('#calendar').fullCalendar({\n      events: <%= @events.to_json %>,\n      header: {\n        left: 'prev,next today',\n        center: 'title',\n        right: 'month,agendaWeek,agendaDay'\n      },\n      defaultView: 'month'\n    });\n  });\n</script>

@@ -1,0 +1,1 @@
+Dim obj As Object = Nothing\nConsole.WriteLine(obj.ToString)  ' Throws NullReferenceException at runtime\nConsole.WriteLine(obj.ToString())  ' Evaluates to Nothing

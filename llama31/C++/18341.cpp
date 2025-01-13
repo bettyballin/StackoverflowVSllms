@@ -1,1 +1,0 @@
-HRESULT STDMETHODCALLTYPE OnSessionCreated(IAudioSessionControl *NewSession)\n{\n    return S_OK;\n}

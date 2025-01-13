@@ -1,0 +1,1 @@
+CKEDITOR.replace('textarea', {\n  fullPage: false // disable full page mode\n});

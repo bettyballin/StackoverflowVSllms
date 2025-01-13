@@ -1,1 +1,0 @@
-SCODE GetText( [in, out] ULONG* pcwcBuffer,\n              [out, size_is(*pcwcBuffer, multiply(sizeof(WCHAR)))] WCHAR* awcBuffer );

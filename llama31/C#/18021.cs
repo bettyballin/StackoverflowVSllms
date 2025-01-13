@@ -1,1 +1,0 @@
-Form2 form2 = new Form2();\nform2.Show();\nform2.Activate();

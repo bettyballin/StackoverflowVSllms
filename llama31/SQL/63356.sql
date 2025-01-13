@@ -1,0 +1,1 @@
+BEGIN TRANSACTION;\nUPDATE your_table SET number = id;\nCOMMIT;

@@ -1,0 +1,1 @@
+$(document).ready(function() {\n  $("a.ajax").on("click", function(event) {\n    event.preventDefault();\n    var href = $(this).attr("href");\n    $.ajax({\n      type: "GET",\n      url: href,\n      success: function(data) {\n        $("#viewport").html(data);\n      }\n    });\n  });\n});

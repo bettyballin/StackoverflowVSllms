@@ -1,1 +1,0 @@
-javap -c HelloWorld.class

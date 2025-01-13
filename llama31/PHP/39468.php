@@ -1,0 +1,1 @@
+function itstime() {\n    // log to file\n    $logFile = 'path/to/log.txt';\n    file_put_contents($logFile, date('Y-m-d H:i:s') . ' - itstime()' . PHP_EOL, FILE_APPEND);\n\n    // send email\n    $to = 'recipient@example.com';\n    $subject = 'itstime() executed';\n    $body = 'itstime() function executed at ' . date('Y-m-d H:i:s');\n    mail($to, $subject, $body);\n}

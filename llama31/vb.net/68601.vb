@@ -1,0 +1,1 @@
+Dim options = New TableOptions("path/to/table")\n    .WithOpenAs("alias")\n    .WithHide()\n    .AsReadOnly()\n    .Interactive()\n    .WithPassword("password")\n    .NoIndex()\n    .ViewAutomatic()\n\nDim tableInfo = OpenTable(options)

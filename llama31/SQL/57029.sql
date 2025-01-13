@@ -1,0 +1,1 @@
+INSERT INTO UserPostings (UserID, PostID) VALUES (1, 1);

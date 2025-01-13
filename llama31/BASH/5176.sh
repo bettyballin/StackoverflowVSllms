@@ -1,1 +1,0 @@
-dlltool -z python.def --export-all-symbols -v c:\windows\system32\python26.dll

@@ -1,1 +1,0 @@
-void SetFocusControl(object ctl)\n{\n    MethodInfo focusMethod = ctl.GetType().GetMethod("Focus");\n    if (focusMethod != null)\n    {\n        focusMethod.Invoke(ctl, null);\n    }\n}

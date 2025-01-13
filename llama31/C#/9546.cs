@@ -1,1 +1,0 @@
-var serializer = new DataContractSerializer(typeof(List<FontFamily>), new FontFamilySurrogate());\nvar deserializedList = (List<FontFamily>)serializer.ReadObject(stream);

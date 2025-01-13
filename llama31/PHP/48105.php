@@ -1,0 +1,1 @@
+$doc = new DOMDocument();\n$root = $doc->createElement('root');\n$doc->appendChild($root);\n\n$child = $doc->createElement('child', 'Child text');\n$root->appendChild($child);

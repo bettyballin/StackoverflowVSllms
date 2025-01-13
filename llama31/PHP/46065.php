@@ -1,0 +1,1 @@
+$query = "SELECT site, total_votes_up\n          FROM aggregated_votes\n          ORDER BY total_votes_up DESC\n          LIMIT 25";\n$result = $db->query($query);\n\nwhile ($row = $result->fetch_assoc()) {\n  echo "$row[site]: $row[total_votes_up]\n";\n}

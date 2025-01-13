@@ -1,0 +1,1 @@
+START TRANSACTION;\nSET TRANSACTION ISOLATION LEVEL SERIALIZABLE;\nIF NOT book THEN\n    UPDATE your_table SET book = TRUE WHERE memberid = $memberid AND classid = $classid;\nCOMMIT;

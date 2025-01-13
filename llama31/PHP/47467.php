@@ -1,0 +1,1 @@
+if (is_array($rss->items)) {\n    $items = array_slice($rss->items, 0, $maxitems, false);\n} else {\n    // handle the case where $rss->items is not an array\n}

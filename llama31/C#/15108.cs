@@ -1,1 +1,0 @@
-using mshtml;\n\n// assuming 'element' is your HTMLAnchorElementClass object\nint top = element.offsetTop;\nint left = element.offsetLeft;

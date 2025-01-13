@@ -1,1 +1,0 @@
-mysqldump -u [username] -p[password] [database_name] [table_name] > table_backup.sql

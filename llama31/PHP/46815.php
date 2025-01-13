@@ -1,0 +1,1 @@
+$user = new User();\n$user->name = 'John Doe';\n$user->email = 'john@example.com';\n$user->save();

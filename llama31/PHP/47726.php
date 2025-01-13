@@ -1,0 +1,1 @@
+$result = "Country: USA City: NY Latitude: 32.2667 Longitude: 71.9167";\n\n$parts = explode(" ", $result);\n$parsedResult = [];\n\nforeach ($parts as $part) {\n    list($key, $value) = explode(":", $part);\n    $parsedResult[] = trim($key) . "=" . trim($value);\n}\n\n$parsedString = implode("&", $parsedResult);\n\necho $parsedString;

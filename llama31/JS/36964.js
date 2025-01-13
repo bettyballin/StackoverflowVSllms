@@ -1,0 +1,1 @@
+$(document).ready(function() {\n    $('#job_id').change(function() {\n        var jobId = $(this).val();\n        $.ajax({\n            type: 'POST',\n            url: '/surveys/jobdetails',\n            data: {id: jobId},\n            success: function(data) {\n                $('#job_details').html(data);\n            }\n        });\n    });\n});

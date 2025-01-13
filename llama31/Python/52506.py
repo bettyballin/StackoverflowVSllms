@@ -1,0 +1,1 @@
+elements = root.findall(xpath_expr)\nif elements:\n    print("Found!")\nelse:\n    print("Not found!")

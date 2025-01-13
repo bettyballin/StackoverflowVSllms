@@ -1,0 +1,1 @@
+$find = preg_quote($find, '/');\n$find = str_replace('\+', '[+]', $find); // match the + character literally

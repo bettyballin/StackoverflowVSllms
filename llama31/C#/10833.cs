@@ -1,1 +1,0 @@
-Response.Redirect("en/index.htm", true);

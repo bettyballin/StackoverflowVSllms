@@ -1,1 +1,0 @@
-using System.Linq;\n\nclass Program\n{\n    static void Main()\n    {\n        int[] numbers = { 1, 2, 3, 4, 5 };\n\n        var evenNumbers = numbers.Where(n => n % 2 == 0);\n\n        foreach (var number in evenNumbers)\n        {\n            Console.WriteLine(number);\n        }\n    }\n}

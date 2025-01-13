@@ -1,0 +1,1 @@
+print(any([True, True, False]))  # Output: True\nprint(any([False, False, False]))  # Output: False

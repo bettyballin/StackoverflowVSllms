@@ -1,1 +1,0 @@
-if (orderLines.Any(ol => ol.Product.Equals(myLine.Product)))\n{\n    // ...\n}

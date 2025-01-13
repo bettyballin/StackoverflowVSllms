@@ -1,1 +1,0 @@
-composer require sensiolabs/symfony-upgrade-fixer --dev\n./vendor/bin/symfony-upgrade-fixer fix src/

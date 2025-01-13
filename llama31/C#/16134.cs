@@ -1,1 +1,0 @@
-Rectangle rect = new Rectangle();\nint generation = GC.GetGeneration(rect);

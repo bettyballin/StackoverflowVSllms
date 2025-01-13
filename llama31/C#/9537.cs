@@ -1,1 +1,0 @@
-BusinessLayer businessLayer = new BusinessLayer();\nList<MyObject> data = businessLayer.GetData();\ngrid.DataSource = data;\n\n// when the user navigates to the next page\nbusinessLayer.MoveNextPage();\ndata = businessLayer.GetData();\ngrid.DataSource = data;

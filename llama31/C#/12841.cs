@@ -1,1 +1,0 @@
-public class NewList<T>\n{\n    private List<T> _list = new List<T>();\n\n    // Add your own methods and properties here\n}

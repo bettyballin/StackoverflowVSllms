@@ -1,1 +1,0 @@
-using (var context = new DataContext())\n{\n    // Use context here\n}

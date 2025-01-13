@@ -1,1 +1,0 @@
-public void ConfigureServices(IServiceCollection services)\n{\n    services.AddDbContext<MyDbContext>(options =>\n        options.UseSqlServer(Configuration.GetConnectionString("DefaultConnection")),\n        ServiceLifetime.Scoped);\n\n    services.AddSingleton<IModelCacheKeyFactory>(provider =>\n        new PrefixModelCacheKeyFactory(Configuration["TablePrefix"]));\n}

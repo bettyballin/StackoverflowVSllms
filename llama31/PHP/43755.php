@@ -1,0 +1,1 @@
+// Simple example of a unit test for a PHP function\nfunction add($a, $b) {\n    return $a + $b;\n}\n\nclass AddTest extends PHPUnit\Framework\TestCase {\n    public function testAdd() {\n        $this->assertEquals(2, add(1, 1));\n        $this->assertEquals(3, add(1, 2));\n    }\n}

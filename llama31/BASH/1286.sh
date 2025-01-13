@@ -1,1 +1,0 @@
-./configure\nmake\nmake install

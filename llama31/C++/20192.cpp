@@ -1,1 +1,0 @@
-#include <Windows.h>\n\n// Assuming 'asciiData' is a char* containing your ASCII data\nBSTR bstrData = NULL;\nint len = MultiByteToWideChar(CP_ACP, 0, asciiData, -1, NULL, 0);\nif (len > 0) {\n    bstrData = SysAllocStringLen(NULL, len);\n    MultiByteToWideChar(CP_ACP, 0, asciiData, -1, bstrData, len);\n}

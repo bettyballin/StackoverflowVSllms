@@ -1,0 +1,1 @@
+<class name="Group">\n    <id name="UniqueId" column="UniqueId" type="Guid" generator="guid" />\n    <!-- other properties -->\n</class>

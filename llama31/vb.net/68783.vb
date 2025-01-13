@@ -1,0 +1,1 @@
+Public Class Page\n  Private _IdList As List(Of Integer)\n  Private _HasNewItems As Boolean = False\n\n  Public Sub AddItems(ByVal Items As List(Of Item))\n    Dim newIds = Items.Select(Function(item) item.ID).Except(_IdList)\n    _HasNewItems = newIds.Any()\n    _IdList.AddRange(newIds)\n  End Sub\nEnd Class

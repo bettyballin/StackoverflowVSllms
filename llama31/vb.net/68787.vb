@@ -1,0 +1,1 @@
+Private Sub IndexFolders()\n    ' Your indexing code here\n    Thread.Yield() ' yield the thread to other threads\nEnd Sub

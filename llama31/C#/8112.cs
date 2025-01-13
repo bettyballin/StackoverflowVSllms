@@ -1,1 +1,0 @@
-protected void ReorderList1_ItemDataBound(object sender, ReorderListItemEventArgs e)\n{\n    e.Item.ComponentID = UniqueIDGenerator.GetNextID();\n}

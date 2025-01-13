@@ -1,0 +1,1 @@
+echo $this->Form->create('Comment', array('url' => array('controller' => 'comments', 'action' => 'add', $person['Person']['id'])));\necho $this->Form->input('text');\necho $this->Form->end('Add Comment');

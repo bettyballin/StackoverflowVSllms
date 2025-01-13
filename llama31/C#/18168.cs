@@ -1,1 +1,0 @@
-[ClassInterface(ClassInterfaceType.AutoDispatch)]\npublic class MyExposedClass\n{\n    // ...\n}

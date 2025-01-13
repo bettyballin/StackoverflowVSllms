@@ -1,0 +1,1 @@
+const file = new File(['Hello, World!'], 'example.txt', { type: 'text/plain' });\nconst fileReader = new FileReader();\nfileReader.onload = () => {\n  console.log(fileReader.result);\n};\nfileReader.readAsText(file);

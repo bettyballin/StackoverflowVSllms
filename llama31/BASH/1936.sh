@@ -1,1 +1,0 @@
-# Makefile for merging DLLs\n\n# List of DLLs to merge\nDLLS = dll1.lib dll2.lib dll3.lib\n\n# Name of the merged DLL\nMERGED_DLL = merged.dll\n\n# Link command\n$(MERGED_DLL): $(DLLS)\n    link /DLL /OUT:$(MERGED_DLL) $(DLLS)

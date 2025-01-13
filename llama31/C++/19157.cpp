@@ -1,1 +1,0 @@
-_variant_t mode(VT_I4, MSIDBOPEN_TRANSACT);\nDatabasePtr pDB = pInstaller->OpenDatabase("c:\\foo\\bar.msi", mode);

@@ -1,1 +1,0 @@
-// server-side C#\nvar rulesEngine = new RulesEngine();\nrulesEngine.AddRule("IsValidDate", (date) => {\n    // validation logic here\n});

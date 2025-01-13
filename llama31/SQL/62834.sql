@@ -1,0 +1,1 @@
+select * from html where url="http://stackoverflow.com"\nand xpath='//div/h3/a/@href' item

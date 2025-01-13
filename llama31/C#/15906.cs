@@ -1,1 +1,0 @@
-protected void Page_Load(object sender, EventArgs e)\n{\n    if (Session["PageViewed"] == null)\n    {\n        // Run the routine to increment view count\n        IncrementViewCount();\n        Session["PageViewed"] = true;\n    }\n}\n\nprivate void IncrementViewCount()\n{\n    // Your code to increment view count goes here\n}

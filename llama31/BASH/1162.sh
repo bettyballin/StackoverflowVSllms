@@ -1,1 +1,0 @@
-bcp #TempTable in C:\Path\To\Your\File.csv -c -t, -r\n -S <your_server_name> -U <your_username> -P <your_password>

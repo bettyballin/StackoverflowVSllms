@@ -1,1 +1,0 @@
-typedef struct _BY_HANDLE_FILE_INFORMATION {\n  DWORD dwFileAttributes;\n  FILETIME ftCreationTime;\n  FILETIME ftLastAccessTime;\n  FILETIME ftLastWriteTime;\n  DWORD dwVolumeSerialNumber;\n  DWORD nFileSizeHigh;\n  DWORD nFileSizeLow;\n  DWORD nNumberOfLinks;\n  BYTE  nFileIndexHigh;\n  BYTE  nFileIndexLow;\n} BY_HANDLE_FILE_INFORMATION, *PBY_HANDLE_FILE_INFORMATION;

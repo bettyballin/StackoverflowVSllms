@@ -1,1 +1,0 @@
-// Set the .designer.cs file as read-only in Windows\nFile.SetAttributes("path_to_your_file.designer.cs", FileAttributes.ReadOnly);

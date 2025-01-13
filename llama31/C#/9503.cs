@@ -1,1 +1,0 @@
-enum A {\n    B = 0,\n    C = 1,\n    D = 2\n}\n\nstring str = "C";\nA enumValue = (A)Enum.Parse(typeof(A), str);\nif (enumValue == A.C) {\n    Console.WriteLine("Match!");\n}

@@ -1,1 +1,0 @@
-#container {\n  position: relative;\n}\n\n#leftborder, #rightborder {\n  position: absolute;\n  top: 0;\n  bottom: 0;\n  width: 10px;\n}\n\n#leftborder {\n  left: 0;\n}\n\n#rightborder {\n  right: 0;\n}\n\n#middlecontainer {\n  margin: 0 10px;\n}

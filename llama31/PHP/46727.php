@@ -1,0 +1,1 @@
+if ($row['domain_name'] == "test") {\n    $found = true;\n    break;\n}

@@ -1,0 +1,1 @@
+Private Sub ReverseSelect(start As Integer, length As Integer)\n    txtChat.SelectionStart = start + length\n    txtChat.SelectionLength = -length\nEnd Sub

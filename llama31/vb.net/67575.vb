@@ -1,0 +1,1 @@
+Declare Function TmSendByLen Lib "tmctl.dll" (ByVal id As Integer, ByVal msg As String, ByVal blen As Integer) As Integer\n\nDeclare Function TmSendByLen Lib "tmctl.dll" (ByVal id As Integer, ByVal msg As Byte(), ByVal blen As Integer) As Integer

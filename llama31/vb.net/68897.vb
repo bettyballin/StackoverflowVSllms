@@ -1,0 +1,1 @@
+If Me.Context.Response.IsClientConnected Then\n    ' Client is still connected, proceed with writing to the output stream\n    XMLWriter.Flush()\nElse\n    ' Client has disconnected, handle the situation accordingly\nEnd If

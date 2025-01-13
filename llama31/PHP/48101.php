@@ -1,0 +1,1 @@
+function make_request($url) {\n    return file_get_contents($url);\n}

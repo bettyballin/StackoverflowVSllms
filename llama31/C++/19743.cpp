@@ -1,1 +1,0 @@
-#include <gtkmm/gtkmm.h>\n\n// ...\n\nbool on_button_release_event(GdkEventButton* event) {\n    if (event->button == 1 && gdk_event_button_get_click_count(event) == 1) {\n        // Handle single left click\n    }\n    return true;\n}\n\n// ...\n\ng_signal_connect(button, "button-release-event", G_CALLBACK(on_button_release_event), nullptr);

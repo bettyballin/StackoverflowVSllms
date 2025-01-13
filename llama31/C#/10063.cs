@@ -1,1 +1,0 @@
-[Table("YourTableName")]\npublic class YourTable : IActiveRecord\n{\n    [Column(IsPrimaryKey = true, IsDbGenerated = true, AutoIncrement = true)]\n    public Guid Id { get; set; }\n    // other columns\n}

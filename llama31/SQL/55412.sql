@@ -1,0 +1,1 @@
+CREATE TABLE addresses (\n  address_id SERIAL PRIMARY KEY,\n  street VARCHAR(255),\n  post_code VARCHAR(20),\n  country VARCHAR(50),\n  fax VARCHAR(20),\n  email VARCHAR(100),\n  UNIQUE (street, post_code, country)  -- to prevent duplicates\n);

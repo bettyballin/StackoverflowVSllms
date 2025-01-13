@@ -1,0 +1,1 @@
+SELECT count(*) \nFROM transactions \nWHERE REGEXP_REPLACE(desc, '[^a-zA-Z0-9 ]', '') = ? \n  AND dated_on = ? \n  AND amount = ?

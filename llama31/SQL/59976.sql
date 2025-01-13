@@ -1,0 +1,1 @@
+VARCHAR_FORMAT(v_date, 'YYYY-MM-DD')

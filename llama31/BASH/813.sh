@@ -1,1 +1,0 @@
-fadvise64 -v --posix_fadv_normal --offset=0 --len=0 <file_name>

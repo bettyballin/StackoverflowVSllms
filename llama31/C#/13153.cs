@@ -1,1 +1,0 @@
-using System;\nusing System.IO;\n\npublic class BaseAddressCalculator\n{\n    public static UInt32 CalculateBaseAddress(string dllPath, UInt32 offset)\n    {\n        FileInfo fileInfo = new FileInfo(dllPath);\n        UInt32 dllSize = (UInt32)fileInfo.Length;\n        UInt32 baseAddress = offset + (dllSize / 0x10000) * 0x10000;\n        return baseAddress;\n    }\n}

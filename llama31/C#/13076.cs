@@ -1,1 +1,0 @@
-using CrystalDecisions.CrystalReports.Engine;\nusing CrystalDecisions.Shared;\n\n// Create a new report document\nReportDocument report = new ReportDocument();\n\n// Load the report template\nreport.Load("path/to/your/report.rpt");\n\n// Set the data source for the report\nreport.SetDataSource(yourData);\n\n// Print the report\nreport.PrintToPrinter(1, false, 0, 0);

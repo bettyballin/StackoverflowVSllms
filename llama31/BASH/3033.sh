@@ -1,1 +1,0 @@
-pt-query-digest --explain h=localhost,u=root,p=password,D=my_database,t=my_table

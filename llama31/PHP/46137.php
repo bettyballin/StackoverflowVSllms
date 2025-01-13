@@ -1,0 +1,1 @@
+$lines = explode("\n", str_replace("\r\n", "\n", str_replace("\r", "\n", $content)));

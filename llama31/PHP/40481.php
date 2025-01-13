@@ -1,0 +1,1 @@
+<?php echo $this->jQuery()\n    ->setUiVersion('1.5.2');?>

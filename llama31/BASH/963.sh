@@ -1,1 +1,0 @@
-./your_scheme_program.scm arg1

@@ -1,0 +1,1 @@
+preg_match('/^[\p{L}\'\-\s]+$/u', $name)

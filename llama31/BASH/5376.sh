@@ -1,1 +1,0 @@
-set JAVA_OPTS=-Duser.language=en -Duser.country=US

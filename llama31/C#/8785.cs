@@ -1,1 +1,0 @@
-using System.ServiceProcess;\n\nstring serviceName = "W3SVC";\nServiceController sc = new ServiceController(serviceName);\n\nif (sc.Status == ServiceControllerStatus.Running) {\n    Console.WriteLine("IIS is enabled");\n} else {\n    Console.WriteLine("IIS is not enabled");\n}

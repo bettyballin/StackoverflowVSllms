@@ -1,1 +1,0 @@
-catch (Exception ex)\n{\n    using (var eventLog = new EventLog("Application"))\n    {\n        eventLog.Source = "MyApplication";\n        eventLog.WriteEntry(ex.ToString(), EventLogEntryType.Error);\n    }\n}

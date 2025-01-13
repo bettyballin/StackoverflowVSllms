@@ -1,1 +1,0 @@
-public class TestControl : Control\n{\n    public override ControlCollection Controls\n    {\n        get { return new ControlCollection(this); }\n    }\n\n    public void CreateChildControls()\n    {\n        this.CreateChildControls();\n    }\n}

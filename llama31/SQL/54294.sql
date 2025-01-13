@@ -1,0 +1,1 @@
+CREATE TABLE Dates (\n    DateID INT PRIMARY KEY,\n    Year INT,\n    Month INT,\n    Day INT\n);\n\nCREATE TABLE MyTable (\n    ID INT PRIMARY KEY,\n    StartDateID INT,\n    EndDateID INT,\n    FOREIGN KEY (StartDateID) REFERENCES Dates(DateID),\n    FOREIGN KEY (EndDateID) REFERENCES Dates(DateID)\n);

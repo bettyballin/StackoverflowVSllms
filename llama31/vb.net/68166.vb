@@ -1,0 +1,1 @@
+Dim myStructArray(alList.Count - 1) As MyStruct\nFor i As Integer = 0 To alList.Count - 1\n    myStructArray(i) = DirectCast(alList(i), MyStruct)\nNext

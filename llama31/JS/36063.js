@@ -1,0 +1,1 @@
+jQuery('a.editcontent').on('click', function() {\n  jQuery(this).closest('li').find('.content').trigger('edit');\n});

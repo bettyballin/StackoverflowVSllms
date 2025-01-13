@@ -1,0 +1,1 @@
+$a = new DataStrip;\necho $a->stripVars($projCat);

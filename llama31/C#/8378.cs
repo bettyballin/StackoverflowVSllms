@@ -1,1 +1,0 @@
-System.Diagnostics.ProcessStartInfo procInfo = new System.Diagnostics.ProcessStartInfo();\nprocInfo.UseShellExecute = false; // Set this to false to use CreateNoWindow\nprocInfo.CreateNoWindow = true; // This will suppress the security warning dialog\nprocInfo.WorkingDirectory = "C:";\nprocInfo.FileName = "curl.exe";\nprocInfo.Arguments = cmd;

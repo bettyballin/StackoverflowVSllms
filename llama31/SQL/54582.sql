@@ -1,0 +1,1 @@
+RECOVER DATABASE LOGFILE '/path/to/last/archive/log';

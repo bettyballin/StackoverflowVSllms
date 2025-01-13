@@ -1,1 +1,0 @@
-inline void my_small_function(void) {\n    // function body\n}

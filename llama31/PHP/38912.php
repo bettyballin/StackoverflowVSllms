@@ -1,0 +1,1 @@
+function experience_query($id) {\n    $sql = mysql_query("SELECT * FROM table WHERE id = '$id'");\n    return $sql;\n}

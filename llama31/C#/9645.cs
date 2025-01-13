@@ -1,1 +1,0 @@
-// Programmatically set the language for a page\nusing DotNetNuke.Services.Localization;\n\n// Get the language code from the query string\nstring langCode = Request.QueryString["language"];\n\n// Set the culture and ui culture\nThread.CurrentThread.CurrentCulture = new CultureInfo(langCode);\nThread.CurrentThread.CurrentUICulture = new CultureInfo(langCode);

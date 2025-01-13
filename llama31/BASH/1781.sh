@@ -1,1 +1,0 @@
--- Reverse engineer the database using DbDesigner 4\njava -jar dbdesigner4.jar -reverse-engineer -db-type mssql -db-name mydatabase -db-user myuser -db-password mypassword

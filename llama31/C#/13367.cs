@@ -1,1 +1,0 @@
-List<string> GetPage(List<string> docList, List<int> pageBreakList, int pageNum)\n{\n    if (pageNum <= 0) pageNum = 1;\n    if (pageBreakList.Count == 0) return docList; // single page document\n\n    var pageSize = pageBreakList[0];\n    var skip = (pageNum - 1) * pageSize;\n    return docList.Skip(skip).Take(pageSize).ToList();\n}

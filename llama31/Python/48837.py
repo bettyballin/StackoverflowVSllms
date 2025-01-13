@@ -1,0 +1,1 @@
+import win32com.client\n\ndte = win32com.client.GetActiveObject("VisualStudio.DTE.7.1")

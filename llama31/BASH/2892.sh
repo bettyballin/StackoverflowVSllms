@@ -1,1 +1,0 @@
-mysqldump -u [username] -p[password] [database_name] --where="SELECT * FROM information_schema.tables WHERE table_schema = '[database_name]'" > dump.sql

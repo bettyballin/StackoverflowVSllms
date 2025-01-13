@@ -1,0 +1,1 @@
+Public Sub Open(ByVal connectionstring As String)\n    If String.IsNullOrEmpty(connectionstring) Then\n        Throw New InvalidOperationException("Connection string is empty")\n    End If\n    RefCount = RefCount + 1\n\n    If con Is Nothing Then\n        con = New SqlConnection(connectionstring)\n    End If\n    If Not IsOpen() Then\n        con.Open()\n    End If\nEnd Sub

@@ -1,0 +1,1 @@
+SET @dbfrom = 'db1';\nSET @dbto = 'db2';\nSET @query = CONCAT('INSERT INTO ', @dbto, '.mytable (col1, col2, col3) SELECT col2, col1, col3 FROM ', @dbfrom, '.mytable');\nPREPARE stmt FROM @query;\nEXECUTE stmt;\nDEALLOCATE PREPARE stmt;

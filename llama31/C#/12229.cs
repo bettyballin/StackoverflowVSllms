@@ -1,1 +1,0 @@
-using (var db = new MyDataContext()) {\n    var query = from e in db.Employees\n                where e.TotalSales > 1000\n                select e;\n}

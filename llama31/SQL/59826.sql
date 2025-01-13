@@ -1,0 +1,1 @@
+CREATE OR REPLACE PROCEDURE my_procedure AS\nBEGIN\n  -- Set a breakpoint here\n  DBMS_OUTPUT.PUT_LINE('Hello World!');\nEND;

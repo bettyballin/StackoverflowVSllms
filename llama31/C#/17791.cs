@@ -1,1 +1,0 @@
-// Create an XPath expression\nXPathExpression expr = XPathExpression.Compile("//Property1");\n\n// Evaluate the XPath expression\nXPathNodeIterator iterator = nav.Select(expr);\n\n// Get the value of the first matching node\nstring value = iterator.Current.Value;

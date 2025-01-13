@@ -1,0 +1,1 @@
+Dim obj As Object = GetSomeObject()\nDim castObj As T = TryCast(obj, T)\n\nIf castObj IsNot Nothing Then\n    ' cast was successful, use castObj\nElse\n    ' handle the case where cast was not possible\nEnd If

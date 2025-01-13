@@ -1,1 +1,0 @@
-if (!Console.IsInputRedirected)\n{\n    // Prompt for input\n}\nelse\n{\n    // Don't prompt for input\n}

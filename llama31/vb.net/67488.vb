@@ -1,0 +1,1 @@
+If ReportEvent IsNot Nothing Then\n    RaiseEvent Report("Sending request: " & queryString)\nEnd If

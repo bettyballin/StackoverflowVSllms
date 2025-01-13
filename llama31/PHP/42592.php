@@ -1,0 +1,1 @@
+try {\n   $bib = new Bib('612e436');\n   // do what I intend to do with the object\n} catch (InvalidArgumentException $e) {\n   echo 'Error Message: ' . $e->getMessage();\n}

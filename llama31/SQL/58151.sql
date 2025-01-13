@@ -1,0 +1,1 @@
+where NVL(MYCOLUMN, 'x') = NVL(SEARCHVALUE, 'x')

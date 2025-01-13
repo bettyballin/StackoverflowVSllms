@@ -1,1 +1,0 @@
-sudo mount -t ntfs-3g -o rw,sync /dev/sdb1 /mnt/ntfs1

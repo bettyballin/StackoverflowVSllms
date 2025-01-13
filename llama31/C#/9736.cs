@@ -1,1 +1,0 @@
-public enum ProviderOrder\n{\n    First,\n    Early,\n    Normal,\n    Late,\n    Last\n}\n\n[ProviderOrder(ProviderOrder.Early)]\nclass ImageByNameProvider {}

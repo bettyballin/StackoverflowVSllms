@@ -1,1 +1,0 @@
-WindowsImpersonationContext impersonationContext = windowsIdentity.Impersonate(ImpersonationLevel.Delegate);

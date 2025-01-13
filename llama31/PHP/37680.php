@@ -1,0 +1,1 @@
+$dir = '\\\\server\\dir';\nif (is_dir($dir)) {\n    echo 'success';\n}

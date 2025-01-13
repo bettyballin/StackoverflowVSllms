@@ -1,1 +1,0 @@
-objdump -d your_binary | sed 's/e1a0c00d/e1a00000/g' | as -o modified_binary

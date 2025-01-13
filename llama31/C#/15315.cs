@@ -1,1 +1,0 @@
-using System.Collections.Generic;\nusing System.Web.Mvc;\n\npublic ActionResult AddItems([FromBody]Dictionary<string, object> values)\n{\n    // do something with the dictionary\n}

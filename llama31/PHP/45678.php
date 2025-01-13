@@ -1,0 +1,1 @@
+$encoded_data = "&quot;Hello World&quot;";\n$decoded_data = html_entity_decode($encoded_data);\necho $decoded_data; // Outputs: "Hello World"

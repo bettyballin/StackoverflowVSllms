@@ -1,0 +1,1 @@
+$pid = pg_backend_pid();\nexec("schedtool -e -p $pid");

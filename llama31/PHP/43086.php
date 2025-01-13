@@ -1,0 +1,1 @@
+<?php\n// Send chunked response header\nheader('Transfer-Encoding: chunked');\n\n// Do some work...\nfor ($i = 0; $i < 10; $i++) {\n    // Do some task...\n    sleep(1); // Simulate work\n\n    // Output progress\n    echo sprintf("%x\r\n%s\r\n", strlen("Completed task $i of 10"), "Completed task $i of 10");\n    ob_flush();\n    flush();\n}\n?>

@@ -1,0 +1,1 @@
+$template = preg_replace('/<!--\[(.*?)\]-->/', '', $template);

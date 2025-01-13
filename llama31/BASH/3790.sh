@@ -1,1 +1,0 @@
-yappi --pid <pid> --output_type both --log_file output.log

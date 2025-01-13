@@ -1,0 +1,1 @@
+mb_internal_encoding('UTF-8');\n\n$str = "bla bla here is my string";\n$utf8_string_from_database = mb_convert_encoding($utf8_string_from_database, 'UTF-8', 'UTF-8');\n\n// Now you can safely concatenate the two strings\n$str = $str . $utf8_string_from_database;

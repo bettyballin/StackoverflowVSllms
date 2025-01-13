@@ -1,0 +1,1 @@
+CREATE TABLE mytable (\n    mycolumn datetime2\n);

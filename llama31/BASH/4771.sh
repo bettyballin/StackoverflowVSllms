@@ -1,1 +1,0 @@
-svnadmin hotcopy /path/to/repo /path/to/backup

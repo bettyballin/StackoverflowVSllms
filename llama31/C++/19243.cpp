@@ -1,1 +1,0 @@
-LPVOID pMemory = VirtualAlloc(NULL, 0x1000, MEM_COMMIT, PAGE_READWRITE);\nif (pMemory != NULL) {\n    // Change the protection to PAGE_READONLY\n    DWORD dwOldProtect;\n    VirtualProtect(pMemory, 0x1000, PAGE_READONLY, &dwOldProtect);\n}

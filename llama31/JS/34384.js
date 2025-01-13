@@ -1,0 +1,1 @@
+// config.js\nvar cdnUrl = 'http://cdn-dev.example.com';\n\n// script.js\n$('.cool-button').css('background-image', 'url(' + cdnUrl + '/images/button.png)');

@@ -1,1 +1,0 @@
-svn diff > reverted_changes.patch

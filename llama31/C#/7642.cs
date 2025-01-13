@@ -1,1 +1,0 @@
-public class Phrase\n{\n    // existing code...\n\n    public static Phrase GetById(int phraseId, IPhraseRepository repository)\n    {\n        return repository.GetPhrase(phraseId);\n    }\n}

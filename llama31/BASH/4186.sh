@@ -1,1 +1,0 @@
-awk '{print $0, FILENAME}' file.txt

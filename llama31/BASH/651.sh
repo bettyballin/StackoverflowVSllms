@@ -1,1 +1,0 @@
-java -XX:+UseMembar -jar myapplication.jar

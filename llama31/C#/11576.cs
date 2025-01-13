@@ -1,1 +1,0 @@
-using ComEventHandler;\n\npublic class MyEventSink : ComEventHandler\n{\n    public MyEventSink(object source)\n        : base(source, typeof(MyEventInterface))\n    {\n    }\n\n    public void Event3() { /* actual event handler code */ }\n    // ...\n}

@@ -1,0 +1,1 @@
+$array = array_filter($array, function($key) {\n    return $key !== '';\n}, ARRAY_FILTER_USE_KEY);

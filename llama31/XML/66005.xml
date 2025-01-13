@@ -1,0 +1,1 @@
+<rewrite>\n  <rules>\n    <rule name="Redirect stuff folder" stopProcessing="true">\n      <match url="^stuff/(.*)" />\n      <action type="Redirect" url="http://stuff.mysite.org.uk/{R:1}" />\n    </rule>\n  </rules>\n</rewrite>

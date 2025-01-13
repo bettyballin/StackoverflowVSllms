@@ -1,0 +1,1 @@
+SELECT DATENAME(WEEKDAY, '2009-05-01') AS DayName  -- Returns "Friday"\nSELECT DATENAME(WEEKDAY, '2009-05-12') AS DayName  -- Returns "Tuesday"

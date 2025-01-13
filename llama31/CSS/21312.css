@@ -1,1 +1,0 @@
-.form-row {\n  display: flex;\n  align-items: center;\n  margin-bottom: 10px;\n}\n\n.form-row label {\n  width: 150px; /* adjust the width as needed */\n  text-align: right;\n  padding-right: 10px;\n}\n\n.form-row input {\n  width: 200px; /* adjust the width as needed */\n}\n\n.form-row .error {\n  color: red;\n  font-size: 12px;\n  padding-left: 10px;\n}

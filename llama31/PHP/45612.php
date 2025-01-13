@@ -1,0 +1,1 @@
+$zip1 = '10021'; // New York, NY\n$zip2 = '94105'; // San Francisco, CA\n$distance = calculateDistance($zip1, $zip2);\necho "The distance between $zip1 and $zip2 is $distance miles.";

@@ -1,0 +1,1 @@
+Imports HtmlAgilityPack\n\nDim html As String = "<html><body><p>Hello World!</p></body></html>"\nDim doc As New HtmlDocument()\ndoc.LoadHtml(html)\n\nDim node As HtmlNode = doc.DocumentNode.SelectSingleNode("//p")\nIf node IsNot Nothing Then\n    Console.WriteLine(node.InnerText)  ' Outputs: Hello World!\nEnd If

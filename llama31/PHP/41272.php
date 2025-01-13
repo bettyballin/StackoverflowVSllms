@@ -1,0 +1,1 @@
+$document = JFactory::getDocument();\n$document->addScriptDeclaration('\n    // Your MooTools code here\n');

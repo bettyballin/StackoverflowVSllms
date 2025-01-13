@@ -1,0 +1,1 @@
+<script type="text/javascript">\n    $(document).ready(function () {\n        $('#<%= radBook.ClientID %>').trigger('click');\n    });\n</script>

@@ -1,0 +1,1 @@
+$myString = "This is some text, the email is here example@example.com, and other things over here";\n$pattern = '/^\w+[\w-.]*@\w+((-\w+)|(\w*)).[a-z]{2,3}$/';\n\nif (preg_match($pattern, $myString, $match)) {\n    echo $match[0]; // outputs: example@example.com\n} else {\n    echo false;\n}

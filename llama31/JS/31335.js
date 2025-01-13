@@ -1,0 +1,1 @@
+function heartOver(id) {\n  if (document.getElementById('heart' + id).src == 'images/heart.png') {\n    parent.document.getElementById('heart' + id).src = 'images/unheart.png';\n  } else if (document.getElementById('heart' + id).src == 'images/unheart.png') {\n    parent.document.getElementById('heart' + id).src = 'images/heart.png';\n  }\n}

@@ -1,1 +1,0 @@
-using System.Xml.Linq;\n\n// ...\n\nDataTable dataTable = ...; // your DataTable instance\n\nXElement xmlElement = XElement.Load(dataTable.CreateReader());\n\n// return xmlElement as the result of your WCF service

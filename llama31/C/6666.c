@@ -1,1 +1,0 @@
-#include <stdio.h>\n\nint main() {\n    double probability = 1 / pow(2, 16);\n    printf("Probability of corrupted packet with correct checksum: %f\n", probability);\n    return 0;\n}

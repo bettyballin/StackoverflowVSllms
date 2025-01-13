@@ -1,1 +1,0 @@
-#include <fstream>\n\nstd::ifstream file("data.txt");\nchar c;\nfile.seekg(1); // move the file pointer to the second character (0-indexed)\nfile.get(c); // read the character at the current file position\n\nconst int n = c - '0'; // convert the character to an integer

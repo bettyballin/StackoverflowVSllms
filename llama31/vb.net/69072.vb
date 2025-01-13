@@ -1,0 +1,1 @@
+Dim letter As Char = "a"c\nletter = Chr(Asc(letter) + 1)\nConsole.WriteLine(letter) ' Outputs: b

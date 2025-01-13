@@ -1,0 +1,1 @@
+create table attribute (\n  name varchar(50) primary key,\n  value_type varchar(10),\n  str_value varchar(100),\n  int_value int,\n  dec_value decimal\n);

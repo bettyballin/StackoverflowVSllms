@@ -1,1 +1,0 @@
-CString sqlCommand = "SELECT * FROM DOG WHERE DOG.NAME LIKE ?;";\nm_pAdoCommand->CommandText = _bstr_t(sqlCommand);\nm_pAdoCommand->Parameters->Append( m_pAdoCommand->CreateParameter("p0", adVarChar, adParamInput, 25, _bstr_t("%bob%")) );\nm_pAdoRecordset = m_pAdoCommand->Execute(NULL,NULL,adCmdText);

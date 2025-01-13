@@ -1,1 +1,0 @@
-#!/bin/bash\n\nmy_function() {\n  # your code here\n}

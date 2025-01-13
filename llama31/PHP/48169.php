@@ -1,0 +1,1 @@
+$newPasswd = escapeshellarg($inputPasswd);\n$cmdline = $htpasswd . " " . $passwd_file . " " . escapeshellarg($username) . " " . $newPasswd;\nexec($cmdline, $output, $return_var);

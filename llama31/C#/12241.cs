@@ -1,1 +1,0 @@
-using (BinaryWriter writer = new BinaryWriter(File.Open("output.bin", FileMode.Create)))\n{\n    decimal value = 123.45m;\n    MoneyWriter.WriteMoney(writer, value);\n}

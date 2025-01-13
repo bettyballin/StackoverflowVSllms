@@ -1,0 +1,1 @@
+SET GLOBAL date_format = '%d-%b-%Y';

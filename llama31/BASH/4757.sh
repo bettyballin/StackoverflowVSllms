@@ -1,1 +1,0 @@
-git diff --output="diff_report.html" --html folder1 folder2

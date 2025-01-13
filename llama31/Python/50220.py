@@ -1,0 +1,1 @@
+import http.server\nimport socketserver\n\nPORT = 8080\n\ndef sync_handler(request):\n    # Handle sync requests from clients\n    # ...\n\nhttpd = http.server.HTTPServer(('localhost', PORT), sync_handler)\nhttpd.serve_forever()

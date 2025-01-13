@@ -1,1 +1,0 @@
-protected void Page_ValidateRequest(object sender, EventArgs e)\n{\n    if (IsPostBack)\n    {\n        // Skip authentication check for postbacks\n        Request.ValidateRequest = false;\n    }\n}

@@ -1,1 +1,0 @@
-Func<int, int> square = x => x * x;

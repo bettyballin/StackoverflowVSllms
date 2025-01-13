@@ -1,0 +1,1 @@
+if ($_POST['options'] == 'other') {\n    $option = $_POST['options-other'];\n} else {\n    $option = $_POST['options'];\n}

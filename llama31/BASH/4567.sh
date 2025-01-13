@@ -1,1 +1,0 @@
-gcc -std=c99 your_file.c -o your_file

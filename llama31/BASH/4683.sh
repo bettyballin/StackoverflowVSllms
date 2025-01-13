@@ -1,1 +1,0 @@
-timeout 30s bzip2 file

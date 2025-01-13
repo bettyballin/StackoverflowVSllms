@@ -1,1 +1,0 @@
-string dbType = column.DbType;\nint start = dbType.IndexOf('(');\nint end = dbType.IndexOf(')');\nif (start != -1 && end != -1)\n{\n    string sizeStr = dbType.Substring(start + 1, end - start - 1);\n    int size = int.Parse(sizeStr);\n    // size will be 50 for varchar(50)\n}

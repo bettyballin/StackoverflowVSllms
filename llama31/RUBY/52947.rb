@@ -1,0 +1,1 @@
+# app/models/category.rb\nclass Category < ApplicationRecord\n  has_many :children, class_name: 'Category', foreign_key: 'parent_id'\n  belongs_to :parent, class_name: 'Category', optional: true\nend\n\n# config/active_admin.rb\nActiveAdmin.register Category do\n  menu parent: 'Categories'\n  permit_params :name, :parent_id\nend

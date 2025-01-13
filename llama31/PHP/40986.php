@@ -1,0 +1,1 @@
+$numbers = array('first', 'second', 'third');\n$result = array();\n\narray_walk_recursive($numbers, function($value) use (&$result) {\n    $result[$value] = $value;\n});\n\nprint_r($result);

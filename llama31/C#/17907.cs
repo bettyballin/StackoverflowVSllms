@@ -1,1 +1,0 @@
-// Replace vbLf with \n\nstring unixLineFeed = "\n";\n\n// Replace Chr(13) with \r\nchar carriageReturn = '\r';\n\n// Replace Chr(10) with \n\nchar lineFeed = '\n';

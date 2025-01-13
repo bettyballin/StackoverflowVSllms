@@ -1,1 +1,0 @@
-[DllImport("MyDll")]\npublic static extern IntPtr CreateMyClassWrapper();\n\n[DllImport("MyDll")]\npublic static extern void MyMethod(IntPtr wrapper);\n\n// ...\n\nIntPtr wrapper = CreateMyClassWrapper();\nMyMethod(wrapper);

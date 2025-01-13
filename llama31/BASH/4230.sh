@@ -1,1 +1,0 @@
-# Dump schema on local server\nmysqldump -h localhost -u user -p --no-data --skip-triggers db_name > local_schema.sql\n\n# Dump schema on live server\nmysqldump -h live_server -u user -p --no-data --skip-triggers db_name > live_schema.sql\n\n# Generate patch file\ndiff -u live_schema.sql local_schema.sql > schema_patch.sql

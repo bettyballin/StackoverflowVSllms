@@ -1,0 +1,1 @@
+SELECT \n  c1.Id, \n  c1.ParentId, \n  c1.Comment\nFROM \n  comments c1\nWHERE \n  c1.ParentId = 0\n\nUNION ALL\n\nSELECT \n  c2.Id, \n  c2.ParentId, \n  c2.Comment\nFROM \n  comments c1\n  JOIN comments c2 ON c1.Id = c2.ParentId\nORDER BY \n  c1.Id, \n  c2.Id

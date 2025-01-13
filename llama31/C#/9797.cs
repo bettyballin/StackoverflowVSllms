@@ -1,1 +1,0 @@
-protected void Page_PreRender(object sender, EventArgs e)\n{\n    ImageButton imgbtnRemove = (ImageButton)tRow.Cells[3].FindControl(ViewState["DynamicImageButton"]["ID"]);\n    if (imgbtnRemove != null)\n    {\n        // Do something with the dynamic ImageButton\n    }\n}

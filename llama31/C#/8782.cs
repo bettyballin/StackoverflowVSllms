@@ -1,1 +1,0 @@
-public class AssemblyLoader : MarshalByRefObject\n{\n    public void LoadAssembly(string path)\n    {\n        Assembly.LoadFrom(path);\n    }\n}

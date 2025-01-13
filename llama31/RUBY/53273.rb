@@ -1,0 +1,1 @@
+use Devel::NYTProf;\n\nmy $str = "Hello, World!";\nmy $regex = qr/Hello/;\n\nNYTProf::start_profile();\n$str =~ $regex;\nNYTProf::stop_profile();

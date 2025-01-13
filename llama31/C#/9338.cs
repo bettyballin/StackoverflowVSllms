@@ -1,1 +1,0 @@
-IEnumerable<T> enumerable = ...;\nList<T> list = enumerable as List<T>;\nif (list != null)\n{\n    // Use the list\n}\nelse\n{\n    // Handle the case where the cast failed\n}

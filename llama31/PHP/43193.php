@@ -1,0 +1,1 @@
+if ($_SERVER['SERVER_PORT'] !== '443') {\n    doSomething();\n}

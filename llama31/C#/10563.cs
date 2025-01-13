@@ -1,1 +1,0 @@
-sWebsiteText = HttpUtility.HtmlEncode(sSomeText).Replace("—", "&#8212;")

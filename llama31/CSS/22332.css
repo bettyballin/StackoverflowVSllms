@@ -1,1 +1,0 @@
-#menu li#selected:after {\n    content: "";\n    background: url(nav-tab-right.gif) bottom right no-repeat;\n    width: 10px; /* adjust the width to match the image */\n    height: 35px; /* adjust the height to match the image */\n    position: absolute;\n    right: 0;\n    top: 0;\n}

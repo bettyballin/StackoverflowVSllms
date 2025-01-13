@@ -1,0 +1,1 @@
+SELECT a.Name, b.Status \nFROM a \nINNER JOIN b \nON a.StatusID = b.ID \nAND a.Category = b.Category;

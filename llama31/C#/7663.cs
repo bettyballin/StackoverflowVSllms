@@ -1,1 +1,0 @@
-var query = from p in ctx.SomeTable()\n            select new Dictionary<string, object>\n            {\n                ["Product Name"] = p.product_name,\n                ["Expiration Date"] = p.expiration_date,\n                ["% of Sales"] = p.pct_sales\n            };

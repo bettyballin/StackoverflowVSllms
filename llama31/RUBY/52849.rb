@@ -1,0 +1,1 @@
+class ItemsController < ApplicationController\n  def approve\n    item = Item.find(params[:id])\n    item.update(approved: true, approved_by: current_user, approved_at: Time.current)\n    respond_to do |format|\n      format.js { render json: { success: true } }\n    end\n  end\nend

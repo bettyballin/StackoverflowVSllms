@@ -1,1 +1,0 @@
-Response.AddHeader("X-XRDS-Location", url)

@@ -1,1 +1,0 @@
-vector<int*> v1;\nvector<const int*> v2;\nv2.reserve(v1.size());\nfor (auto p : v1) {\n    v2.push_back(static_cast<const int*>(p));\n}

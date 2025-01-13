@@ -1,1 +1,0 @@
-public class MyDal\n{\n    private readonly ISessionFactory _sessionFactory;\n\n    public MyDal(ISessionFactory sessionFactory)\n    {\n        _sessionFactory = sessionFactory;\n    }\n\n    public void DoSomeWork()\n    {\n        using (var session = _sessionFactory.CreateSession())\n        {\n            // do some work with the session\n        }\n    }\n}

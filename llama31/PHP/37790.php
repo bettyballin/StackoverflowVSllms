@@ -1,0 +1,1 @@
+$s = new SimpleXMLElement('<root/>');\n$t = new SimpleXMLElement('<child/>');\n\n// Create a new child in $s\n$child = $s->addChild('a');\n\n// Add the child elements of $t to the new child\n$dom = dom_import_simplexml($child);\n$dom->appendChild($dom->ownerDocument->importNode(dom_import_simplexml($t), true));\n\necho $s->asXML();

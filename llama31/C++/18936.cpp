@@ -1,1 +1,0 @@
-QOpenGLContext* context = new QOpenGLContext();\n// ... render something ...\ncontext->doneCurrent();

@@ -1,1 +1,0 @@
-#!/bin/bash\n\nLOCAL_FILE=/path/to/local/file\nREMOTE_SERVER=user@remote-server:/path/to/remote/directory/\n\nrsync -avz --progress $LOCAL_FILE $REMOTE_SERVER

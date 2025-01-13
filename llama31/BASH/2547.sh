@@ -1,1 +1,0 @@
-curl -s --head http://example.com/image.jpg | grep -E "Content-Length|Content-Type"

@@ -1,0 +1,1 @@
+function myFunc(requiredArg, optionalArg) {\n  if (typeof optionalArg === 'undefined') {\n    optionalArg = 'defaultValue';\n  }\n  // Do stuff\n}

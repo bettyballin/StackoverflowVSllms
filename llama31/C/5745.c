@@ -1,1 +1,0 @@
-#include <string.h>\n\nint main() {\n    char a[] = "hello";\n    char b[] = "hello";\n    return memcmp(a, b, sizeof(a));\n}

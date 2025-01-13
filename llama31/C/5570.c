@@ -1,1 +1,0 @@
-#include <gtk/gtk.h>\n\nint main(int argc, char *argv[]) {\n  GtkWidget *window;\n  GtkWidget *button;\n\n  gtk_init(&argc, &argv);\n\n  window = gtk_window_new(GTK_WINDOW_TOPLEVEL);\n  button = gtk_button_new_with_label("Click me");\n\n  gtk_container_add(GTK_CONTAINER(window), button);\n\n  gtk_widget_show_all(window);\n\n  gtk_main();\n\n  return 0;\n}

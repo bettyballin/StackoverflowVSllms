@@ -1,0 +1,1 @@
+DECLARE @PhoneNumber VARCHAR(20) = '(123) 456-7890';\nEXEC RemoveNonNumericChars @PhoneNumber, @CleanPhoneNumber OUTPUT;\nSELECT @CleanPhoneNumber;

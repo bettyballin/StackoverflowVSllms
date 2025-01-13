@@ -1,1 +1,0 @@
-using System.IO;\n\n// Assuming you have a div with the id "contentDiv"\nstring filePath = Server.MapPath("~/path/to/your/file.txt"); // path to your file\nstring fileContents = File.ReadAllText(filePath);\ncontentDiv.InnerHtml = fileContents;

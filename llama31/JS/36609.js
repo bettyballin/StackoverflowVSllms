@@ -1,0 +1,1 @@
+$(window).load(function() {\n    $('.foobar').css("display","none");\n    $('.doobar').css("display","inline");\n    // ... so on and so forth ...\n});

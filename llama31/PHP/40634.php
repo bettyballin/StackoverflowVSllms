@@ -1,0 +1,1 @@
+$mock = \Mockery::mock('MyClass');\n$mock->shouldReceive('__get')->with('foo')->andReturn('bar');\n$mock->shouldReceive('__set')->with('foo', 'baz');

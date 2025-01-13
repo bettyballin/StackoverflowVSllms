@@ -1,0 +1,1 @@
+CREATE FUNCTION Test (@top integer)\nRETURNS TABLE\nAS\nRETURN\nSELECT TOP (@top) * FROM SomeTable\nGO

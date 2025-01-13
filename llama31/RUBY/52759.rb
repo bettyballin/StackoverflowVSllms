@@ -1,0 +1,1 @@
+<% form_for ([@network, @channel], :path_prefix => 'network') do |f| %>\n  ...\n<% end %>

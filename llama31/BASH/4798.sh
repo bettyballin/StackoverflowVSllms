@@ -1,1 +1,0 @@
-cat server_cert.pem server_key.pem ca_cert.pem > cert_key_ca.pem

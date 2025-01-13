@@ -1,1 +1,0 @@
-#popup {\n  position: absolute;\n  background-color: #f0f0f0;\n  border: 1px solid #ccc;\n  padding: 10px;\n  width: 200px;\n}\n\n#popup:after {\n  content: "";\n  position: absolute;\n  top: 100%;\n  left: 50%;\n  margin-left: -10px;\n  border-width: 10px;\n  border-style: solid;\n  border-color: #f0f0f0 transparent transparent transparent;\n}

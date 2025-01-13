@@ -1,0 +1,1 @@
+Dim shell, connString\nSet shell = CreateObject("WScript.Shell")\nconnString = shell.RegRead("HKLM\SOFTWARE\YourApp\ConnString")

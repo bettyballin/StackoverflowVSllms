@@ -1,1 +1,0 @@
-List<UInt32> list = new List<UInt32> { 12, 23, 33, 11 };\nList<int> indicesToRemove = new List<int> { 0, 2 };\n\nList<UInt32> newList = list.Where((x, i) => !indicesToRemove.Contains(i)).ToList();

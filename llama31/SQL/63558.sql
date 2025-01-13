@@ -1,0 +1,1 @@
+DECLARE @installPath nvarchar(128)\nEXEC xp_instance_regread 'HKEY_LOCAL_MACHINE', 'SOFTWARE\Microsoft\Microsoft SQL Server\Instance Names', 'MSSQLSERVER', @installPath OUTPUT\nSELECT @installPath AS InstallPath

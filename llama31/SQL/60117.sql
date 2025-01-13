@@ -1,0 +1,1 @@
+SELECT i1.id\nFROM items i1\nLEFT JOIN items i2 ON i1.parent_id = i2.id\nWHERE i2.id IS NULL;

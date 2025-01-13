@@ -1,1 +1,0 @@
-# Install PHP-FPM\nsudo apt-get install php7.4-fpm\n\n# Configure Apache to use PHP-FPM\nsudo a2enmod proxy_fcgi\nsudo a2enconf php7.4-fpm\n\n# Update Apache configuration\nsudo nano /etc/apache2/sites-available/000-default.conf

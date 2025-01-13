@@ -1,0 +1,1 @@
+INSERT INTO MV6.Posts (column1, column2, ...)\nOUTPUT inserted.ID, inserted.column1, inserted.column2, ...\nINTO #tempTable (MV6ID, column1, column2, ...)\n\nSELECT column1, column2, ...\nFROM MV5.Posts;\n\nUPDATE p\nSET p.MV6ID = t.MV6ID\nFROM MV5.Posts p\nINNER JOIN #tempTable t ON p.ID = t.ID;\n\nDROP TABLE #tempTable;

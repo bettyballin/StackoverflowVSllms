@@ -1,1 +1,0 @@
-// Example usage of aspnet_compiler.exe\n// Precompile an ASP.NET application\naspnet_compiler.exe -v / -p "C:\Path\To\Your\Application" -f "C:\Path\To\Your\Compiled\Application"

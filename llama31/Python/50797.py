@@ -1,0 +1,1 @@
+# myapp/tables.py\nimport django_tables2 as tables\nfrom .models import MyModel\n\nclass MyTable(tables.Table):\n    class Meta:\n        model = MyModel\n        fields = ('field1', 'field2', 'field3')\n        per_page = 10  # paginatio

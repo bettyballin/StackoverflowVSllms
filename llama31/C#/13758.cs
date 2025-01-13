@@ -1,1 +1,0 @@
-public class OrdersService\n{\n    private readonly ILoggedInUserService _loggedInUserService;\n\n    public OrdersService(ILoggedInUserService loggedInUserService)\n    {\n        _loggedInUserService = loggedInUserService;\n    }\n\n    public OrderCollection GetOrdersByUserID()\n    {\n        var user = _loggedInUserService.GetLoggedInUser();\n        // ...\n    }\n}

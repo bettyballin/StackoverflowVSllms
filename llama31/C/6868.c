@@ -1,1 +1,0 @@
-#include <uuid/uuid.h>\n\nuuid_t bin_uuid;\nuuid_generate_random(bin_uuid);\nuint32_t guid = *(uint32_t*)bin_uuid;

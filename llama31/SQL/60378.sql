@@ -1,0 +1,1 @@
+CREATE INDEX idx_sourceTable_matchCodes ON sourceTable (matchCode1, matchCode2, matchCode3);\nCREATE INDEX idx_destTable_matchCodes ON destTable (matchCode1, matchCode2, matchCode3);

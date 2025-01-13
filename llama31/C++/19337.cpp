@@ -1,1 +1,0 @@
-// wrapper DLL code\n#include "original_dll.h"\n\n__declspec(dllexport) int wrapper_function() {\n    return original_function();\n}

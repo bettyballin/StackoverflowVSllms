@@ -1,1 +1,0 @@
-ohup /path/to/your/script.sh &

@@ -1,1 +1,0 @@
-public class MyModel\n{\n    [AllowHtml]\n    public string MyProperty { get; set; }\n}

@@ -1,1 +1,0 @@
-// Create the modal dialog form\nModalDialogForm dialog = new ModalDialogForm();\n\n// Set the Owner property to the main application form\ndialog.Owner = this; // 'this' refers to the main application form\n\n// Show the modal dialog\ndialog.ShowDialog();

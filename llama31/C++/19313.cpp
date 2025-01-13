@@ -1,1 +1,0 @@
-template <typename T>\nvoid groupIdentical(T* arr, int n) {\n    std::unordered_map<T, int> counts;\n\n    for (int i = 0; i < n; i++) {\n        counts[arr[i]]++;\n    }\n\n    int offset = 0;\n    for (auto& pair : counts) {\n        for (int i = 0; i < pair.second; i++) {\n            arr[offset++] = pair.first;\n        }\n    }\n}

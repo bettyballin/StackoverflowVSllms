@@ -1,1 +1,0 @@
-<#@ template language="C#" #>\n<#@ output extension=".cs" #>\n<#@ include file="AssemblyInfo.ttinclude" #>\n\nusing System.Reflection;\n\n[assembly: AssemblyCompany("<#= this.Company #>")]\n[assembly: AssemblyCopyright("<#= this.Copyright #>")]\n[assembly: AssemblyTrademark("<#= this.Trademark #>")]

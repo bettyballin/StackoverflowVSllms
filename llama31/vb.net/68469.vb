@@ -1,0 +1,1 @@
+Dim filter As New PropertyFilter With {.CountryId = 1, .Bedrooms = 3}\nDim properties As List(Of Property) = propertyRepository.SearchProperties(filter)

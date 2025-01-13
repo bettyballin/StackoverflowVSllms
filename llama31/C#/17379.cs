@@ -1,1 +1,0 @@
-return (from t in Db.Concessions \n        where t.Country == string.Format("'{0}'", "ga") \n        select t.ConcessionID, t.Title, t.Country);

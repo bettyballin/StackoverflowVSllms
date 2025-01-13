@@ -1,1 +1,0 @@
-btnview.OnClientClick = "$('#hiddenButtonId').trigger('click'); return false;"

@@ -1,1 +1,0 @@
-[WebService]\npublic class MyService : System.Web.Services.WebService\n{\n    public MyService()\n    {\n        SoapExtensions.Add(new CustomSoapExtension());\n    }\n}

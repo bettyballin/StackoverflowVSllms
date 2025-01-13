@@ -1,0 +1,1 @@
+$(':not(:has(*))').mousemove(myMouseOverHandler);

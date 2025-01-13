@@ -1,1 +1,0 @@
-.container {\n  position: relative;\n  width: 80%;\n  margin: 0 auto;\n}\n\n.board {\n  position: relative;\n  width: 60%;\n  float: left;\n}\n\n.piece-tray {\n  position: relative;\n  width: 30%;\n  float: right;\n}

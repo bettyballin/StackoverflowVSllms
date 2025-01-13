@@ -1,1 +1,0 @@
-#floating-menu {\n  position: absolute;\n  top: 100px; /* initial position */\n  left: 0;\n}\n\n#floating-menu.fixed {\n  position: fixed;\n  top: 0;\n  left: 0;\n}

@@ -1,0 +1,1 @@
+CREATE VIEW my_view AS\nSELECT * FROM my_table\nWHERE region = CURRENT_USER_REGION();

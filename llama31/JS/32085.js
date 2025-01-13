@@ -1,0 +1,1 @@
+// WebResource.axd\nfunction ValidationSummaryOnSubmit(validationGroup) {\n    // ...\n    var end = ...; // internal variable\n    // ...\n}

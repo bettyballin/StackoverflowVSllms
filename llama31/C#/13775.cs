@@ -1,1 +1,0 @@
-using System;\nusing System.Reflection;\n\npublic class MyClass\n{\n    public MyClass()\n    {\n        Assembly callingAssembly = Assembly.GetCallingAssembly();\n        string executablePath = callingAssembly.Location;\n        // use executablePath as needed\n    }\n}

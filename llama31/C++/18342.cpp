@@ -1,1 +1,0 @@
-std::set<int> s1, s2;\ns1 = getAnExcitingSet();\nstd::transform(s1.begin(), s1.end(), std::inserter(s2, s2.begin()), ExcitingUnaryFunctor());

@@ -1,1 +1,0 @@
-#bdydiv, #coldiv {\n  box-sizing: border-box;\n  -moz-box-sizing: border-box; /* for Firefox */\n  -webkit-box-sizing: border-box; /* for Safari and Chrome */\n}

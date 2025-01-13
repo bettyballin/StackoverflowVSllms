@@ -1,0 +1,1 @@
+$client = new GuzzleHttp\Client();\n$client->postAsync($url, ['timeout' => 0.001])->wait(false);

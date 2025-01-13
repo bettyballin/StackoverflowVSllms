@@ -1,1 +1,0 @@
-// Assume you have a dynamically generated radio button with the name "Q1"\nstring answer = Request.Form["Q1"];

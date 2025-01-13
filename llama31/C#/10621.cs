@@ -1,1 +1,0 @@
-$64bitReg.OpenSubKey("SOFTWARE").GetSubKeyNames()

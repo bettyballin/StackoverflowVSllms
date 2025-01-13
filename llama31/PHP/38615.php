@@ -1,0 +1,1 @@
+$xml = new DOMDocument();\n$xml->loadXML($xmlString);\n\n$xpath = new DOMXPath($xml);\n$elements = $xpath->query('//your/xpath/query');\n\nforeach ($elements as $element) {\n    echo $element->nodeValue;\n}

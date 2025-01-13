@@ -1,1 +1,0 @@
-extern "C" BOOL APIENTRY DllMain(HMODULE hModule, DWORD dwReason, LPVOID lpReserved)\n{\n    return TRUE;\n}

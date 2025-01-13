@@ -1,1 +1,0 @@
-openssl pkcs12 -in mykeystore.p12 -out exported_private_key.pem -nodes -passin pass:mypassword

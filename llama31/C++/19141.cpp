@@ -1,1 +1,0 @@
-#include <Sddl.h>\n\nLPWSTR SidToString(PSID pSid) {\n    LPWSTR pSidString = NULL;\n    if (!ConvertSidToStringSid(pSid, &pSidString)) {\n        return NULL;\n    }\n    return pSidString;\n}

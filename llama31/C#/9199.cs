@@ -1,1 +1,0 @@
-[ServiceContract]\npublic interface IDataService\n{\n    [OperationContract]\n    IEnumerable<MyData> GetData();\n\n    [OperationContract]\n    void SaveData(MyData data);\n}\n\n[DataContract]\npublic class MyData\n{\n    [DataMember]\n    public int Id { get; set; }\n\n    [DataMember]\n    public string Name { get; set; }\n}

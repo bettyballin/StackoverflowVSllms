@@ -1,0 +1,1 @@
+$votes = $_POST['vote'];\nforeach ($votes as $vote) {\n    echo $vote . "\n";\n}

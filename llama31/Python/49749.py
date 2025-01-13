@@ -1,0 +1,1 @@
+def check_equality(func):\n    def wrapper(a, b):\n        if a == b:\n            return a\n        else:\n            return func(a, b)\n    return wrapper\n\n@check_equality\ndef gs(a, b):\n    a += 1\n    b *= 2\n    return gs(a, b)

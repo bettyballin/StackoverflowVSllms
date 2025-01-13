@@ -1,0 +1,1 @@
+public function addAction()\n{\n    // ... your code to display the custom block and validate form input ...\n\n    // Redirect to your custom module\n    $this->_redirect('yourmodule/yourcontroller/youraction');\n\n    // If you want to return to checkout after the redirect, you can use the following code\n    // $this->_redirect('checkout/cart');\n}

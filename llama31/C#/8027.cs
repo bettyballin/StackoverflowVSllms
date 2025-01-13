@@ -1,1 +1,0 @@
-public class CustomMembershipProvider : MembershipProvider\n{\n    public override bool ValidateUser(string username, string password)\n    {\n        if (SqlMembershipProvider.Instance.ValidateUser(username, password))\n            return true;\n\n        return ActiveDirectoryMembershipProvider.Instance.ValidateUser(username, password);\n    }\n}

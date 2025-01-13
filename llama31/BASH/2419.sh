@@ -1,1 +1,0 @@
-find . -type f -not -name "$(cat list_files | tr '\n' '|')"

@@ -1,1 +1,0 @@
-c:\php\php.exe -c c:\php\php.ini -r "phpinfo();"

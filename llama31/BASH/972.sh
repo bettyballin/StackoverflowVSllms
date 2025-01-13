@@ -1,1 +1,0 @@
-icacls C:\Path\To\Files /grant ArchiveUser:(OI)(CI)F

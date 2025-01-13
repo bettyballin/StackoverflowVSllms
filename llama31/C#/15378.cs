@@ -1,1 +1,0 @@
-X509Certificate2 clientCert = new X509Certificate2("path/to/client/cert.pfx", "password");\nif (!clientCert.HasPrivateKey)\n{\n    throw new Exception("Client certificate does not have a private key");\n}

@@ -1,0 +1,1 @@
+ActionDispatch::Request.parameter_parsers['application/vnd.com.example.Foo+json'] = -> (raw_post) {\n  JSON.parse(raw_post, symbolize_names: true)\n}

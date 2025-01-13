@@ -1,1 +1,0 @@
-long size = (long)width * height * 4;\nbyte[] buffer = new byte[size];

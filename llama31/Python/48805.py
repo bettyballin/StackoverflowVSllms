@@ -1,0 +1,1 @@
+import datetime\n\n# assuming 'date_tuple' is your 9-tuple date\ndate_tuple = (2009, 3, 23, 13, 6, 34, 0, 82, 0)\n\n# create a datetime object from the tuple\ndt = datetime.datetime(*date_tuple[:6])\n\n# convert to MySQL datetime format\nmysql_datetime = dt.strftime('%Y-%m-%d %H:%M:%S')\n\nprint(mysql_datetime)  # Output: 2009-03-23 13:06:34

@@ -1,0 +1,1 @@
+$write_file = "/usr/home/public_html/php/users_v2.sql";\n$write_handle = fopen($write_file, "w") or die("Couln't open users_v2!");\n\nif (is_writable($write_file)) {\n    if (fwrite($write_handle, "Hi\n") === FALSE) echo "Failed write!\n";\n} else {\n    echo "File is not writable!\n";\n}\n\nfclose($write_handle);

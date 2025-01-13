@@ -1,0 +1,1 @@
+curl_setopt($curlHandle, CURLOPT_POSTFIELDS, $request);

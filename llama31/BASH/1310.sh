@@ -1,1 +1,0 @@
-git merge --no-commit other_branch

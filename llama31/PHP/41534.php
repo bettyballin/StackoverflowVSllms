@@ -1,0 +1,1 @@
+$start = microtime(true);\nfor ($i = 0; $i < 1000; $i++) {\n    php_uname('s n');\n}\n$end = microtime(true);\necho "Time taken: " . ($end - $start) . " seconds\n";\n\n$start = microtime(true);\nfor ($i = 0; $i < 1000; $i++) {\n    php_uname('a');\n}\n$end = microtime(true);\necho "Time taken: " . ($end - $start) . " seconds\n";

@@ -1,0 +1,1 @@
+import math\n\ndef round_to_resolution(x, y):\n    return math.ceil(x / y) * y\n\n# Test cases\nprint(round_to_resolution(1.002, 0.1))  # Output: 1.1\nprint(round_to_resolution(0.348, 0.1))  # Output: 0.4\nprint(round_to_resolution(0.50, 1))     # Output: 1\nprint(round_to_resolution(0.32, 0.05))  # Output: 0.35

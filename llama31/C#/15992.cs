@@ -1,1 +1,0 @@
-var discoveryClient = new DiscoveryClient(new UdpDiscoveryEndpoint());\nvar services = discoveryClient.Find(new FindCriteria(typeof(MyService)));\nif (services.Count > 0)\n{\n    var serviceAddress = services[0].Endpoints[0].Address;\n    base.Endpoint.Address = serviceAddress;\n    base.Channel.RemoteMethod();\n}

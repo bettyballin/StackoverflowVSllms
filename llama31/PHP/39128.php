@@ -1,0 +1,1 @@
+require_once 'prettify.php';\n\n$source = 'your_code_here';\n$language = 'php'; // or 'csharp', 'perl', 'ruby', etc.\n\necho prettify($source, $language);

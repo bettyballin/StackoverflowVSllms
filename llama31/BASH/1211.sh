@@ -1,1 +1,0 @@
-#!/bin/sh\n\necho "Content-Type: text/event-stream"\necho\n\nfor i in A B C D E\ndo\n  echo "data: $i"\n  echo\n  sleep 10\ndone

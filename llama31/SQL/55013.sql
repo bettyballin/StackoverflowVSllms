@@ -1,0 +1,1 @@
+CREATE INDEX idx_actions_username_actiondate_status\nON actions (username, actiondate, status);

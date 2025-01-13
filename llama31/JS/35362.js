@@ -1,0 +1,1 @@
+// Enable memory profiling in IE6\nwindow.external.msAddSiteMode();

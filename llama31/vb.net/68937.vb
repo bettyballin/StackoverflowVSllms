@@ -1,0 +1,1 @@
+Public Sub RaiseMyEvent()\n    If MyEvent IsNot Nothing Then\n        MyEvent(Me, EventArgs.Empty)\n    Else\n        ' Event has no subscribers\n    End If\nEnd Sub

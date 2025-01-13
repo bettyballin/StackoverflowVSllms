@@ -1,0 +1,1 @@
+<a href="thread.php?id=<?=$row['thread_id']?>">Link</a>

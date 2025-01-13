@@ -1,0 +1,1 @@
+function __construct($article_id)\n{\n    $article = Article::getById($article_id);\n    if (!empty($article)) {\n        $this->setTitle($article->getTitle());\n    }\n}

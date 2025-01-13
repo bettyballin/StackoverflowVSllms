@@ -1,1 +1,0 @@
-.container {\n  display: flex;\n  flex-direction: column;\n  align-items: center;\n  padding: 20px;\n}\n\n.header {\n  background-color: #333;\n  color: #fff;\n  padding: 10px;\n  text-align: center;\n}\n\n.content {\n  flex-grow: 1;\n  padding: 20px;\n}\n\n.footer {\n  background-color: #333;\n  color: #fff;\n  padding: 10px;\n  text-align: center;\n}

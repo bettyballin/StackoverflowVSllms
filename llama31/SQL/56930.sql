@@ -1,0 +1,1 @@
+UPDATE Facilities-NOID\nINNER JOIN Facilities-ID \nON Facilities-NOID.[Structure ID] = Facilities-ID.[Structure ID]\nSET Facilities-NOID.ID = Facilities-ID.ID;

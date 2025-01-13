@@ -1,0 +1,1 @@
+if (!isset($_SERVER['HTTP_ACCEPT']) || !isset($_SERVER['HTTP_ACCEPT_LANGUAGE'])) {\n    // Bot detected, don't increment counter\n}

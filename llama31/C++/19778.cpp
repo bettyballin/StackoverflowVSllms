@@ -1,1 +1,0 @@
-amespace nsA {\n    namespace subA {\n        void myFunction() {\n            // Use the fully qualified name to reference theFunctionInNsB\n            nsB::theFunctionInNsB(...);\n        }\n    }\n}

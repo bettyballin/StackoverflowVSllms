@@ -1,1 +1,0 @@
-// Retrieve a product from the database (cached)\nvar product = session.Get<Product>(1);

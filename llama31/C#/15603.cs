@@ -1,1 +1,0 @@
-public partial class MyForm : Form\n{\n    public MyForm()\n    {\n        InitializeComponent();\n        UseCompatibleTextRendering = false;\n    }\n}

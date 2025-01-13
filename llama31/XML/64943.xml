@@ -1,0 +1,1 @@
+<configuration>\n  <system.runtime.remoting>\n    <application>\n      <service>\n        <wellknown mode="Singleton" type="MyRemotingService, MyAssembly" objectUri="MyRemotingService" />\n      </service>\n      <channels>\n        <channel ref="http" />\n      </channels>\n    </application>\n  </system.runtime.remoting>\n</configuration>

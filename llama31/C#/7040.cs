@@ -1,1 +1,0 @@
-MyForms.Select(f => f.GetLink()).ToList().ForEach(AddLink);

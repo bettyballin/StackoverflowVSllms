@@ -1,1 +1,0 @@
-gcc -fsanitize=undefined ./your_program

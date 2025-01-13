@@ -1,1 +1,0 @@
-using System.Drawing;\nusing System.Drawing.Imaging;\n\n// Create a bitmap with 8bpp pixel format\nBitmap bmp = new Bitmap(100, 100, PixelFormat.Format8bppIndexed);\n\n// Draw your graphics on the bitmap...\n// ...\n\n// Save the bitmap to a PNG file\nbmp.Save("image.png", ImageFormat.Png);

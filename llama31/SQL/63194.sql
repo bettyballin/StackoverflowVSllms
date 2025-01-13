@@ -1,0 +1,1 @@
+UPDATE your_table SET z_code = format_z_code(z_code);

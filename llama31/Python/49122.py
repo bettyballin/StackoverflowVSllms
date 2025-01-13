@@ -1,0 +1,1 @@
+def myFunction(**kwargs):\n    # access the value using kwargs[outerkey]

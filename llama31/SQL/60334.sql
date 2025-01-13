@@ -1,0 +1,1 @@
+SELECT d1.Student_ID, d1.Grade\nFROM data d1\nJOIN (\n    SELECT Student_ID, MAX(ExamEntry) as MaxExamEntry\n    FROM data\n    GROUP BY Student_ID\n) d2\nON d1.Student_ID = d2.Student_ID AND d1.ExamEntry = d2.MaxExamEntry\nWHERE d1.Grade >= 50  // adjust the passing grade as needed

@@ -1,1 +1,0 @@
-DbCommand command = new OracleCommand(\n    "insert into hardware (HardwareID) VALUES (:hardwareId)", myConnection);\ncommand.Parameters.Add(new OracleParameter("hardwareId", 6));\ncommand.ExecuteNonQuery();

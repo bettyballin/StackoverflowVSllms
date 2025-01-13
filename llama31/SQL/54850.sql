@@ -1,0 +1,1 @@
+CREATE TABLE item (\n  id INT PRIMARY KEY,\n  title VARCHAR(255),\n  description TEXT,\n  FULLTEXT (title, description)\n);\n\nSELECT * FROM item WHERE MATCH (title, description) AGAINST ('search query' IN NATURAL LANGUAGE MODE);

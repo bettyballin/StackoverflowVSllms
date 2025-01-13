@@ -1,1 +1,0 @@
-BitArray ba = new BitArray(new bool[] { true, false, true });\n\n// Check if any true value exists\nbool hasTrue = ba.Cast<bool>().Any(b => b);\n\n// Check if any false value exists\nbool hasFalse = ba.Cast<bool>().Any(b => !b);

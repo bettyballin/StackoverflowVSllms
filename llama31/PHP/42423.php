@@ -1,0 +1,1 @@
+$xmlFile = 'bugs_features_listdata.xml';\n$rootNode = 'root'; // Change this to your root node name\n\n// Load the XML file\n$xml = simplexml_load_file($xmlFile);\n\n// Remove the last node\n$nodes = $xml->xpath("/*/*[last()]");\nif (isset($nodes[0])) {\n    unset($nodes[0][0]);\n}\n\n// Save the XML file\n$xml->asXML($xmlFile);

@@ -1,1 +1,0 @@
-.toolboxpanel {\n    max-height: 700px;\n    overflow-y: auto;\n    display: flex;\n    flex-wrap: wrap;\n    justify-content: space-between;\n}\n\n.toolboxpanel .drag {\n    width: calc(33.33% - 10px); /* calculate width for 3 columns */\n    margin: 5px;\n    float: left;\n}

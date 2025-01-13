@@ -1,1 +1,0 @@
-public class UserInputProvider : IUserInputProvider\n{\n    public string GetUserInput(string question)\n    {\n        // Show a dialog or other means to get user input\n        // Return the user's response\n    }\n}

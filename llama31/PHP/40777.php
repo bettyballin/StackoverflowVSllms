@@ -1,0 +1,1 @@
+$triggers = [];\n\nfunction registerTrigger($triggerName, $callback) {\n    global $triggers;\n    $triggers[$triggerName][] = $callback;\n}\n\nfunction trigger($triggerName, $data = false) {\n    global $triggers;\n    if (isset($triggers[$triggerName])) {\n        foreach ($triggers[$triggerName] as $callback) {\n            $callback($data);\n        }\n    }\n}

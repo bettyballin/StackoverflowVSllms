@@ -1,0 +1,1 @@
+DECLARE @floatValue FLOAT = 123456789.01234\nSELECT CONVERT(VARCHAR(20), @floatValue, 1) AS formattedValue

@@ -1,1 +1,0 @@
-void foo() {\n    // do work 1\n    // do work 2\n}

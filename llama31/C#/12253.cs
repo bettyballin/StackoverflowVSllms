@@ -1,1 +1,0 @@
-public static MvcHtmlString ValidationSummary(this HtmlHelper helper, string message, bool wrapInDiv)\n{\n    var validationSummary = helper.ValidationSummary(message);\n    if (wrapInDiv)\n    {\n        return MvcHtmlString.Create("<div class=\"validation-summary\">" + validationSummary.ToString() + "</div>");\n    }\n    return validationSummary;\n}

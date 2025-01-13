@@ -1,1 +1,0 @@
-OracleCommand cmd = new OracleCommand();\ncmd.CommandText = "SELECT * FROM your_table";\ncmd.Connection = your_connection;\ncmd.CommandType = CommandType.Text;\ncmd.Parameters.Add("CharacterSet", "WE8ISO8859P1");

@@ -1,1 +1,0 @@
-try\n{\n    // Data access code here\n}\ncatch (Exception ex)\n{\n    // Log the exception\n    Log.Error(ex);\n    // Handle the error or rethrow it\n}

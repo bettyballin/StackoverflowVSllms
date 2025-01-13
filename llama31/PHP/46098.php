@@ -1,0 +1,1 @@
+$allowed_pages = array('main', 'products');\n$x = $_GET['x'];\n\nif (!in_array($x, $allowed_pages)) {\n    $x = 'main';\n}\n\ninclude("inc/$x.php");

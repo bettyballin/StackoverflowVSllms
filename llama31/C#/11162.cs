@@ -1,1 +1,0 @@
-char c = 'Š';\nbool isLetterOrDigit = char.IsLetterOrDigit(c); // returns true, but not what you want\n\n// Better approach:\nbool isAZor09 = (c >= 'A' && c <= 'Z') || (c >= '0' && c <= '9');

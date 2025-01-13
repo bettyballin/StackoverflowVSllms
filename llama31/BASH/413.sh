@@ -1,1 +1,0 @@
-#!/bin/bash\n\nfor i in ~/mail/home/user/mail/domain.com/josh/cur/*\ndo\n  grep -i Value $i\ndone

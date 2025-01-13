@@ -1,1 +1,0 @@
-interface IMyInterface\n{\n    // methods and properties here\n};

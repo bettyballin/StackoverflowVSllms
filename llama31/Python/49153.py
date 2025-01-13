@@ -1,0 +1,1 @@
+d = {}\n\n# assuming t and c are defined\nd.setdefault(t, []).append(c)

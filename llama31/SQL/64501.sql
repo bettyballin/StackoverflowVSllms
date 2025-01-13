@@ -1,0 +1,1 @@
+SELECT *\nFROM table1\nLEFT OUTER JOIN table2\nON table1.col1 = table2.col2;

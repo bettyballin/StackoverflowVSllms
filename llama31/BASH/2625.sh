@@ -1,1 +1,0 @@
-# Installation script\n#!/bin/bash\n\n# Display license agreement\nyast2 --popup "License Agreement" --text "My Package License Agreement..."\n\n# Ask user to accept or decline\nif yast2 --query "Do you accept the license agreement?"; then\n  # Install package\nelse\n  # Abort installation\nfi

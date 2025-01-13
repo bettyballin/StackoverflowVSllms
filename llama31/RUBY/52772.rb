@@ -1,0 +1,1 @@
+class Schedule < ApplicationRecord\n  validates :assignment, presence: true\nend

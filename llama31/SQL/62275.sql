@@ -1,0 +1,1 @@
+SELECT name, protocol_desc, port FROM sys.tcp_endpoints WHERE type_desc = 'DATABASE_MIRRORING';

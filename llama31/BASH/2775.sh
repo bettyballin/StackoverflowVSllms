@@ -1,1 +1,0 @@
-sqlcmd -S <your_server_name> -d <your_database_name> -i <your_sql_file_path>

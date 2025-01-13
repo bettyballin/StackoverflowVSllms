@@ -1,0 +1,1 @@
+DELIMITER //\n\nCREATE PROCEDURE FindByXPath(IN fieldName TEXT, IN xpath TEXT)\nBEGIN\n  SET @xml = fieldName;\n  SET @xpath = xpath;\n\n  SELECT ExtractValue(@xml, @xpath) AS result;\nEND //\n\nDELIMITER ;

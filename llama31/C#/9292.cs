@@ -1,1 +1,0 @@
-var contacts = from c in db.Contacts\n               join ca in db.ContactAddresses on c.Id equals ca.ContactId\n               select new { Contact = c, Address = ca };

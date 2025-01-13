@@ -1,1 +1,0 @@
-sudo nano /etc/apache2/sites-available/php-5.0.0.conf

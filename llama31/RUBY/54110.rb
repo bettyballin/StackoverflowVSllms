@@ -1,0 +1,1 @@
+company = Company.joins(:emails).select("companies.*, emails.email_address")

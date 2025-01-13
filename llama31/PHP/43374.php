@@ -1,0 +1,1 @@
+$name = "JOHN MCdonald";\necho capitalizeName($name); // Output: "John McDonald"\n\n$name = "THEO DE RAADT";\necho capitalizeName($name); // Output: "Theo de Raadt"

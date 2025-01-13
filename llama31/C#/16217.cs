@@ -1,1 +1,0 @@
-// Assuming you have a Dictionary<string, string> named 'myDictionary'\nSession["myDictionary"] = myDictionary;

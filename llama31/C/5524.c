@@ -1,1 +1,0 @@
-struct s;\ntypedef struct s s;\n\ntypedef void (*func_t)(s);\n\nstruct s {\n    func_t method;\n    int dummy_member;\n};

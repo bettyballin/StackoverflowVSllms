@@ -1,0 +1,1 @@
+CREATE PROCEDURE get_user_by_id(IN id INT)\nBEGIN\n    SELECT * FROM users WHERE id = id;\nEND;

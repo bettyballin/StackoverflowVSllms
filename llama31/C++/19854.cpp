@@ -1,1 +1,0 @@
-std::list<int>* createList() {\n    std::list<int>* myList = new std::list<int>();\n    // populate the list\n    return myList;\n}

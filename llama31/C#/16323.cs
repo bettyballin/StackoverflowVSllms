@@ -1,1 +1,0 @@
-// Check for null references before using objects\nif (snmpObject != null) \n{\n    // Use the snmpObject here\n}\nelse \n{\n    // Handle the null reference exception\n    // Log the error, notify the admin, etc.\n}

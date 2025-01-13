@@ -1,1 +1,0 @@
-ohup macports_upgrade_command &

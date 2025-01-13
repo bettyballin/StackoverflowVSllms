@@ -1,1 +1,0 @@
-IntPtr ptr = Marshal.AllocHGlobal(10);\ntry\n{\n    byte* p = (byte*)ptr.ToPointer();\n    // Use p to access memory\n}\nfinally\n{\n    Marshal.FreeHGlobal(ptr);\n}

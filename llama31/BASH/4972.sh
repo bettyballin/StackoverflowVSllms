@@ -1,1 +1,0 @@
-valgrind --trace-children=yes ./z

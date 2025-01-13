@@ -1,0 +1,1 @@
+var theURL = "//webservices/method.asmx";\n$.ajax({\n    type: "POST",\n    url: theURL + "/" + method,\n    data: body,\n    success: function (msg) {\n        alert("Data Saved: " + msg);\n    },\n    error: function (msg) {\n        alert("Broken: " + theURL + "/" + method + msg.responseText);\n    }\n});

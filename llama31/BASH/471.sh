@@ -1,1 +1,0 @@
-#!/bin/bash\n\nfor file in *.txt; do\n  date_string=$(echo "$file" | cut -d '_' -f 1)\n  touch -t "$date_string" "$file"\ndone

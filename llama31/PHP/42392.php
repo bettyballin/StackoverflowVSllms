@@ -1,0 +1,1 @@
+// Assume session.auto_start is enabled\n\n// Initial session data is loaded from disk into memory\nsession_start();\n\n// Modify some session data\n$_SESSION['foo'] = 'bar'; // No disk I/O occurs here\n\n// More modifications...\n$_SESSION['baz'] = 'qux'; // Still no disk I/O\n\n// Script terminates, session data is written to disk\nexit;

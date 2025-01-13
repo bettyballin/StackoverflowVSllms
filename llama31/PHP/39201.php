@@ -1,0 +1,1 @@
+// In your /admin/index.php file\nset_include_path(get_include_path() . PATH_SEPARATOR . $_SERVER['DOCUMENT_ROOT']);\n\n// Now you can include files from the root directory\ninclude 'autoload.php';

@@ -1,0 +1,1 @@
+$content = mysql_real_escape_string($_POST['content']);\n$by = mysql_real_escape_string($_SESSION['exp_user']['username']);\n$dt = mysql_real_escape_string(date("F j, Y, g:i a"));\n\nmysql_query("UPDATE tbl_intmsg SET time = '$dt', by = '$by', content = '$content'");

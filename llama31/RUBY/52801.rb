@@ -1,0 +1,1 @@
+Rails.application.config.session_store :cookie_store, {\n  key: '_your_app_session',\n  secure: true,\n  httponly: true\n}

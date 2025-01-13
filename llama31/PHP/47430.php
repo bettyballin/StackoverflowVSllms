@@ -1,0 +1,1 @@
+session_name('my_session');\nsession_start();\n$_SESSION["current_page"] = 'special1';

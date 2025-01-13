@@ -1,0 +1,1 @@
+function profile($func) {\n    return function(...$args) use ($func) {\n        $start_time = microtime(true);\n        $result = $func(...$args);\n        $end_time = microtime(true);\n        echo sprintf("Elapsed:  %f", $end_time - $start_time);\n        return $result;\n    };\n}\n\n$myFunc = profile('myFunc');\n$myFunc();

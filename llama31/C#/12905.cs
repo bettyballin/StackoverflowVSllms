@@ -1,1 +1,0 @@
-hfSelectedCount.Value = this.IDs.Count.ToString();

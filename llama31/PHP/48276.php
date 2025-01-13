@@ -1,0 +1,1 @@
+$user =& JFactory::getUser();\nif ($user->guest) {\n    // User is not logged in\n} else {\n    // User is logged in\n}

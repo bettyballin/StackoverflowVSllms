@@ -1,0 +1,1 @@
+videoPlayer.source = "path/to/your/video.flv";

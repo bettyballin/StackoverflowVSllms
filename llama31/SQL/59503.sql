@@ -1,0 +1,1 @@
+MEDIUMINT[(length)] [UNSIGNED] [ZEROFILL]

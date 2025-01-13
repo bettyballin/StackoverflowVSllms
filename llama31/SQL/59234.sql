@@ -1,0 +1,1 @@
+WITH t2_unique AS (\n  SELECT ID, NAME, ADDRESS,\n  ROW_NUMBER() OVER (PARTITION BY ID, NAME, ADDRESS ORDER BY ID) AS row_num\n  FROM table2\n)\nSELECT t1.*\nFROM table1 t1\nINNER JOIN t2_unique t2\nON t2.ID = t1.ID\nAND t2.NAME = t1.NAME\nAND t2.ADDRESS <> t1.ADDRESS\nAND t2.row_num = 1\n\n-- Repeat the same pattern for the other two queries

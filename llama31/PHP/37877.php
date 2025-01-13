@@ -1,0 +1,1 @@
+// Display ratings in your theme\nif (function_exists('the_ratings')) {\n    the_ratings();\n}

@@ -1,0 +1,1 @@
+// Example using Escodegen\nconst escodegen = require('escodegen');\nconst templateAst = escodegen.parse('function render() { /* placeholder */ }');\nconst userSpecificCode = 'console.log("Hello, ' + username + '!");';\ntemplateAst.body[0].body = userSpecificCode;\nconst generatedJs = escodegen.generate(templateAst);

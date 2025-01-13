@@ -1,0 +1,1 @@
+var extension = Components.classes['@your-extension-id'].getService(Components.interfaces.nsIObserver);\nextension.print('Hello, World!');

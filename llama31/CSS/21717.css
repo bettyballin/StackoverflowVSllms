@@ -1,1 +1,0 @@
-#mainBody {\n  display: flex;\n  flex-wrap: nowrap;\n}\n\n#leftNav {\n  width: 150px;\n  height: 800px;\n  border: 2px solid #777;\n  background-color: #FF9;\n}\n\n#bodyContent {\n  flex-grow: 1;\n  border: 2px solid #707;\n  background-color: #AAA;\n  overflow: hidden;\n}

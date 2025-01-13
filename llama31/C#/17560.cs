@@ -1,1 +1,0 @@
-using Microsoft.WindowsMobile.PocketOutlook;\n\n// Assuming you have already retrieved the message via MAPI\n// and have the message's EntryID\n\nstring entryId = "your_message_entry_id_here";\n\nMessagingApplication.DisplayMessageForm(entryId);

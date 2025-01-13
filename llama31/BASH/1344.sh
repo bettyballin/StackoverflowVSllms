@@ -1,1 +1,0 @@
-for file in */*/*.mov; do\n  newname=$(echo "$file" | sed "s|[^/]*/[^/]*/||g")\n  if [ ! -e "$newname" ]; then\n    ln -s "$file" "$newname"\n  else\n    echo "Skipping $newname, already exists"\n  fi\ndone

@@ -1,1 +1,0 @@
-gzip your_database.sql

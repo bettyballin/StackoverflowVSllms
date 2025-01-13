@@ -1,0 +1,1 @@
+<?php\nheader('HTTP/1.1 401 Unauthorized');\nheader('WWW-Authenticate: Basic realm="Restricted Area"');\n?>

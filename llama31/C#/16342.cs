@@ -1,1 +1,0 @@
-ReaderWriterLockSlim _lock = new ReaderWriterLockSlim();\n\n// ...\n\n_lock.EnterWriteLock();\ntry\n{\n    ClassInstance.Event += Me_Method;\n}\nfinally\n{\n    _lock.ExitWriteLock();\n}

@@ -1,1 +1,0 @@
-# In your .autotest file or via the command line\nexport AUTOTEST_SLEEP=10

@@ -1,1 +1,0 @@
-#include <stdio.h>\n#include <sqlca.h>\n\nEXEC SQL INCLUDE SQLCA;\n\nvoid myproc(void)\n{\n    EXEC SQL SELECT * FROM EMP INTO :emp_rec;\n}

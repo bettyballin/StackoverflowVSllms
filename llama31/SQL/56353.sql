@@ -1,0 +1,1 @@
+CREATE VIEW myview AS\nSELECT \n    table1.id AS table1_id,\n    table2.id AS table2_id,\n    -- other columns you're interested in\nFROM table1\nJOIN table2 ON table1.id = table2.id;

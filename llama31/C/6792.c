@@ -1,1 +1,0 @@
-#include <sys/ptrace.h>\n#include <sys/types.h>\n#include <fcntl.h>\n\nint main() {\n    pid_t pid = <pid>;\n    int fd = <fd>;\n\n    ptrace(PTRACE_ATTACH, pid, 0, 0);\n    wait(NULL);\n\n    fcntl(fd, F_SETFD, FD_CLOEXEC);\n\n    ptrace(PTRACE_DETACH, pid, 0, 0);\n    return 0;\n}

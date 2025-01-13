@@ -1,1 +1,0 @@
-protected void Page_Load(object sender, EventArgs e)\n{\n    Timer1.Interval = 60000; // 1 minute\n    Timer1.Tick += Timer1_Tick;\n    Timer1.Enabled = true;\n}\n\nprotected void Timer1_Tick(object sender, EventArgs e)\n{\n    Timer1.Enabled = false;\n}

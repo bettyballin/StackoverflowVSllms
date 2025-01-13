@@ -1,1 +1,0 @@
-bcp "exec YourStoredProcedure '2022-01-01'" queryout "C:\output.csv" -c -S YourServerName -U YourUsername -P YourPassword

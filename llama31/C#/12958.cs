@@ -1,1 +1,0 @@
-ManagementBaseObject inParams = regProv.GetMethodParameters("GetNamesAndValues");\ninParams["sSubKeyName"] = "YourSubKey";\n\nManagementBaseObject outParams = regProv.InvokeMethod("GetNamesAndValues", inParams, null);\n\nforeach (PropertyData prop in outParams.Properties)\n{\n    string valueName = prop.Name;\n    object value = prop.Value;\n    // Do something with the value\n}

@@ -1,0 +1,1 @@
+import numpy as np\n\nlist_3 = np.repeat(0, 10).tolist()

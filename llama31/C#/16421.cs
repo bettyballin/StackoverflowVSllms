@@ -1,1 +1,0 @@
-public abstract class BaseController : Controller\n{\n    private readonly IFooRepository _fooRepository;\n\n    protected BaseController(IFooRepository fooRepository)\n    {\n        _fooRepository = fooRepository;\n    }\n\n    protected override void OnActionExecuting(ActionExecutingContext filterContext)\n    {\n        ViewData["foo"] = _fooRepository.GetFoo();\n    }\n}

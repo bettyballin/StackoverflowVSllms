@@ -1,0 +1,1 @@
+function scrollToRow(table, row) {\n  var container = table.parent();\n  var rowOffset = row.offset().top - container.offset().top + container.scrollTop();\n  container.scrollTop(rowOffset);\n}

@@ -1,0 +1,1 @@
+<root>\n  <data name="LOGINSUCCESS">\n    <value>You have logged in successfully</value>\n  </data>\n  <data name="ERRORMESSAGE">\n    <value>An error has occurred, please call the helpdesk on x100</value>\n  </data>\n  <data name="PASSWORDRESETERROR">\n    <value>You do not have the authority to reset all system passwords</value>\n  </data>\n</root>

@@ -1,0 +1,1 @@
+$referer = $_SERVER['HTTP_REFERER'];\nif ($referer) {\n    $urlParts = parse_url($referer);\n    $queryParams = array();\n    parse_str($urlParts['query'], $queryParams);\n    $searchQuery = $queryParams['q'];\n    // Use $searchQuery to generate your dynamic page\n}

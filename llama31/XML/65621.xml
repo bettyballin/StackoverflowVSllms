@@ -1,0 +1,1 @@
+<move todir="basedir">\n    <fileset dir="parentdir">\n        <include name="**" />\n    </fileset>\n</move>

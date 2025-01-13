@@ -1,0 +1,1 @@
+var dynamicText = "Click me!";\nvar newHtml = $("<div id='newDiv'>" + dynamicText + "</div>");\n\n$("#myID").append(newHtml);\n\n$("#newDiv").on("click", function() {\n  alert("Clicked!");\n});

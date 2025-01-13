@@ -1,1 +1,0 @@
-using OfficeOpenXml;\n\n// Load the .xlsx file\nusing (ExcelPackage package = new ExcelPackage("file.xlsx"))\n{\n    // Read the file content\n    ExcelWorksheet worksheet = package.Workbook.Worksheets[1];\n    // ...\n}

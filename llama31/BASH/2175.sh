@@ -1,1 +1,0 @@
-pdftotext input.pdf output.txt\nperl -pi -e 's/old text/new text/g' output.txt\npdfstamp -t output.txt input.pdf output.pdf

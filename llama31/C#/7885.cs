@@ -1,1 +1,0 @@
-StringBuilder sql = new StringBuilder("SELECT * FROM x WHERE ");\nsql.Append("y = ").Append(parameter1);\nsql.Append(" AND z = ").Append(parameter2);\n// ...\nstring finalSql = sql.ToString();

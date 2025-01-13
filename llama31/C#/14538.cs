@@ -1,1 +1,0 @@
-public class MyWebService : WebService\n{\n    [WebMethod]\n    public void DeleteSomething(int id)\n    {\n        string xRequestedWith = HttpContext.Current.Request.Headers["X-Requested-With"];\n        if (xRequestedWith != "XMLHttpRequest")\n        {\n            throw new HttpException(403, "Forbidden");\n        }\n        // delete logic here\n    }\n}

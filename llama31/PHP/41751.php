@@ -1,0 +1,1 @@
+$url = 'http://example.com/view_category.php?product_category_id=4&error_id=5';\n\n$parts = parse_url($url);\nparse_str($parts['query'], $query);\n\nunset($query['error_id']); // Remove the error_id variable\n\n$new_query = http_build_query($query);\n$new_url = $parts['scheme'] . '://' . $parts['host'] . $parts['path'] . '?' . $new_query;\n\nheader('Location: ' . $new_url);

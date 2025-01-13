@@ -1,0 +1,1 @@
+header('Access-Control-Allow-Origin: *');\nheader('Access-Control-Allow-Methods: POST, GET, OPTIONS');\nheader('Access-Control-Allow-Headers: Content-Type, x-requested-with');

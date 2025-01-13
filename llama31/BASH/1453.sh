@@ -1,1 +1,0 @@
-echo 0 > /sys/module/printk/parameters/console_suspend

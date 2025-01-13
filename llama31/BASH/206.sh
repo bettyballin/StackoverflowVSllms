@@ -1,1 +1,0 @@
-tlibimp -P mylib.tlb

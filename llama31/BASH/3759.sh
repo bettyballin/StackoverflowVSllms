@@ -1,1 +1,0 @@
-gcc -E -dM your_file.cpp

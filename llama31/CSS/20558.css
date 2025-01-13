@@ -1,1 +1,0 @@
-.overlay {\n  position: absolute;\n  z-index: 10;\n  width: 100%;\n  height: 100%; /* use 100% instead of fixed height */\n  top: 0px;\n  left: 0px;\n  background-image: url('transparent-overlay.png'); /* use a PNG with alpha transparency */\n}

@@ -1,0 +1,1 @@
+CREATE FUNCTION dbo.at_Test_Function (@input INT)\nRETURNS INT\nAS\nBEGIN\n    PRINT 'Function executed!'\n    RETURN @input * 2\nEND\nGO\n\nSELECT CASE WHEN (1 = 1) THEN 10 ELSE dbo.at_Test_Function(5) END AS Result

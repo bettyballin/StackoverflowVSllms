@@ -1,0 +1,1 @@
+dojo.addOnLoad(function(){\n    var $bodyRow = dojo.query('#body tr')[0];\n    var $headRow = dojo.query('#head tr')[0];\n    dojo.forEach($bodyRow.cells, function(item, index){\n        var w = item.offsetWidth;\n        // Add 1px to account for the border\n        dojo.style($headRow.cells[index], 'width', (w + 1) + "px");\n    });\n});

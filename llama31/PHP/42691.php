@@ -1,0 +1,1 @@
+$result = mysql_query("SELECT * FROM your_table");\n$row_count = 0;\nwhile ($row = mysql_fetch_assoc($result)) {\n    // process the row data\n    $row_count++;\n}

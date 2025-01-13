@@ -1,0 +1,1 @@
+EXEC DeleteHierarchy @Id = 123;

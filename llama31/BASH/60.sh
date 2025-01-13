@@ -1,1 +1,0 @@
-rsync -avz /path/to/windows/images/ /path/to/osx/images/

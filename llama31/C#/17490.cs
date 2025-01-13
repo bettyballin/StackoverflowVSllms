@@ -1,1 +1,0 @@
-public class JsonActionResult : JsonResult\n{\n    public override void ExecuteResult(ControllerContext context)\n    {\n        context.HttpContext.Response.ContentType = "text/javascript";\n        base.ExecuteResult(context);\n    }\n}

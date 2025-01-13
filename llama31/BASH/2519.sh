@@ -1,1 +1,0 @@
-# Example usage:\nowncloudcmd --user <username> --password <password> --sync

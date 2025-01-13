@@ -1,0 +1,1 @@
+// Assume this is the login page\nsession_start();\n\nif (isset($_GET['session_id'])) {\n    session_id($_GET['session_id']); // This is the vulnerability\n}\n\n// User logs in with credentials\n$username = $_POST['username'];\n$password = $_POST['password'];\n\n// Login logic...\n\n// If login is successful, the user is now using the fixed session ID

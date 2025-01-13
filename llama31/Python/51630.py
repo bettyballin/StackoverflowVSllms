@@ -1,0 +1,1 @@
+for result in results:\n    for i, value in enumerate(result):\n        print(f"{result.keys()[i]}: {value}")

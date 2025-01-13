@@ -1,1 +1,0 @@
-ld -o main --exclude-symbols symbol_name libclntsh.so main.o A.so B.so libldap_r.so

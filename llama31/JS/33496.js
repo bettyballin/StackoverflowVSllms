@@ -1,0 +1,1 @@
+// client-side JavaScript\nconst rulesEngine = new RulesEngine();\nrulesEngine.addRule("IsValidDate", (date) => {\n    // validation logic here\n});

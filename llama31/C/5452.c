@@ -1,1 +1,0 @@
-// Original process\nHANDLE hQueue = CreateMessageQueue(NULL, 1024, 1024);\n\n// Remote thread\nPostMessageQueue(hQueue, MSG, 0, 0);

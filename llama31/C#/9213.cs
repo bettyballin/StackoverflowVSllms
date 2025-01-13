@@ -1,1 +1,0 @@
-[WebResource("Mri.Controls.Scripts.MyScript.js", "text/javascript")]\npublic static class MyScript { }

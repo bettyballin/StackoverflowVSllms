@@ -1,0 +1,1 @@
+$storedTotal = round($row['total'], 2);\n$calculatedTotal = round($subtotal + $tax + $shipping - $deduct, 2);\n\nif ($storedTotal !== $calculatedTotal) {\n    # Send an alert\n    mail("admin@domain.com","Total check fail","Stored total:$storedTotal \n\n Calculated total:$calculatedTotal \n\n");\n}

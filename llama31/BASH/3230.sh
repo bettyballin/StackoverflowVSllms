@@ -1,1 +1,0 @@
-7z a -t7z -m0=lzma2 -mx=9 C:\Backup\Compressed.7z C:\Backup\*

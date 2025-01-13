@@ -1,1 +1,0 @@
-proc.StartInfo.RedirectStandardOutput = true;\nproc.StartInfo.RedirectStandardError = true;

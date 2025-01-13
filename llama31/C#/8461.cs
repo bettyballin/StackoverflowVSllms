@@ -1,1 +1,0 @@
-// Example usage:\nusing Castle.ActiveRecord;\n\n[ActiveRecord]\npublic class MyClass : ActiveRecordBase {\n    [PrimaryKey]\n    public int Id { get; set; }\n    [Property]\n    public string Name { get; set; }\n}\n\n// Initialize the ActiveRecord framework\nActiveRecordStarter.Initialize();\n\n// Retrieve data\nvar myObjects = MyClass.FindAll();

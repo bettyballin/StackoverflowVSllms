@@ -1,1 +1,0 @@
-$ssid = "YourNetworkSSID"\n$interface = "Wi-Fi"\n\nnetsh wlan connect name=$ssid interface=$interface

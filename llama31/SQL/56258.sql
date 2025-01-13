@@ -1,0 +1,1 @@
+-- No specific SQL command, use the Workbench UI to profile queries

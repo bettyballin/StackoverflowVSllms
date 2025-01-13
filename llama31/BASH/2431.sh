@@ -1,1 +1,0 @@
-# Run tests with verbosity\npython manage.py test --verbosity=3\n\n# Run tests for auth app specifically\npython manage.py test auth

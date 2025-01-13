@@ -1,0 +1,1 @@
+<?php\nrequire_once 'header.php';\nforeach ($data as $row) {\n    echo $row['column1'];\n    echo $row['column2'];\n    echo $row['column3'];\n}\n?>

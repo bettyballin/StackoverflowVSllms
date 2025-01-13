@@ -1,0 +1,1 @@
+WHERE type NOT IN ('Arms', 'Feet', 'Hands', 'Head', 'Neck', 'Orb', 'Potion', 'Ring', 'Rod', 'Staff', 'Symbol', 'Waist', 'Wand', 'Wondrous Item', 'Alchemical Item', 'Elixir', 'Reagent', 'Whetstone', 'Other Consumable', 'Companion', 'Mount')

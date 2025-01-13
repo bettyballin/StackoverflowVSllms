@@ -1,1 +1,0 @@
-using BeaEngine;\n\n// Load the binary\nvar binary = new Binary("path/to/binary");\n\n// Create a disassembler\nvar disassembler = new Disassembler(binary);\n\n// Disassemble the code\nvar instructions = disassembler.Disassemble();\n\n// Iterate over the instructions\nforeach (var instruction in instructions)\n{\n    Console.WriteLine(instruction.ToString());\n}

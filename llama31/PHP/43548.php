@@ -1,0 +1,1 @@
+$dateTime = new DateTime('now', new DateTimeZone('America/New_York'));\necho $dateTime->format('Y-m-d H:i:sP');

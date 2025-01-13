@@ -1,1 +1,0 @@
-public class MyObjComparer : IEqualityComparer<MyObj>\n{\n    public bool Equals(MyObj x, MyObj y)\n    {\n        return String.Compare(x.Symbol, y.Symbol, true) == 0;\n    }\n\n    public int GetHashCode(MyObj obj)\n    {\n        return obj.Symbol.GetHashCode();\n    }\n}

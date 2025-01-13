@@ -1,1 +1,0 @@
-using NHibernate.Mapping;\n\n// Get the class mapping for your class\nClassMapping mapping = session.SessionFactory.GetClassMapping(typeof(YourClass));\n\n// Get the column names for the class\nforeach (Property property in mapping.Properties)\n{\n    Console.WriteLine(property.ColumnNames[0]);\n}

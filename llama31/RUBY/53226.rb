@@ -1,0 +1,1 @@
+# custom_app.rb (publisher)\nrequire 'bunny'\n\n# Set up RabbitMQ connection\nconn = Bunny.new('amqp://guest:guest@localhost')\nch = conn.create_channel\n\n# Publish data readings to queue\nqueue = ch.queue('data_readings')\nqueue.publish(data_reading.to_json)\n\n# Close connection\nconn.close

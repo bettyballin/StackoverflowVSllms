@@ -1,0 +1,1 @@
+-- Create a new connection\nCREATE CONNECTION my_conn AS\n  (DESCRIPTION=\n    (ADDRESS=(PROTOCOL=TCP)(HOST=my_host)(PORT=my_port))\n    (CONNECT_DATA=(SERVICE_NAME=my_service))\n  );\n\n-- Connect to the database\nCONNECT my_co

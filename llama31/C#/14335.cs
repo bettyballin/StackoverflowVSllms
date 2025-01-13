@@ -1,1 +1,0 @@
-public class JsonResultWithError : JsonResult\n{\n    public string ErrorMessage { get; set; }\n}

@@ -1,1 +1,0 @@
-byte[] buffer = new byte[1024];\nint bytesRead = stream.Read(buffer, 0, buffer.Length);\nbyte[] data = new byte[bytesRead];\nArray.Copy(buffer, data, bytesRead);

@@ -1,0 +1,1 @@
+use GuzzleHttp\Client;\n\n$client = new Client();\n$url = 'https://example.com/api/endpoint';\n$data = array('key' => 'value', 'another_key' => 'another_value');\n\n$response = $client->post($url, ['form_params' => $data]);\n\necho $response->getBody()->getContents();

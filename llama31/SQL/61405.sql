@@ -1,0 +1,1 @@
+SELECT COUNT(EventID), Customer, Year, Month\nFROM [Event] \nJOIN #T ON [Event].CustomerID = #T.CustomerID\n    AND DATEPART(YEAR, [Event].DateOpened) = #T.Year\n    AND DATEPART(MONTH, [Event].DateOpened) = #T.Month\nGROUP BY Customer, Year, Month\nORDER BY Year, Month

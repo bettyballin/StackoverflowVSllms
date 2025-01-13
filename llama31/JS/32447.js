@@ -1,0 +1,1 @@
+function initMap() {\n  var map = new google.maps.Map(document.getElementById('map'), {\n    center: {lat: 54.5, lng: -4.0}, // center of the UK\n    zoom: 6,\n    restriction: {\n      latLngBounds: {\n        north: 61.0,\n        south: 49.0,\n        east: 2.0,\n        west: -12.0\n      },\n      strictBounds: true\n    }\n  });\n}

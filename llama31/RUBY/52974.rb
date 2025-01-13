@@ -1,0 +1,1 @@
+#!/usr/bin/ruby\n\nrequire 'net/smtp'\n\ndef send_email(to, subject = "", body = "")\n    from = "my@email.com"\n    body= "From: <#{from}>\r\nTo: <#{to}>\r\nSubject: #{subject}\r\n\r\n#{body}\r\n"\n\n    Net::SMTP.start('192.168.10.213', 25, '192.168.0.218') do |smtp|\n        smtp.send_message body, from, to\n    end\nend\n\nsend_email "my@email.com", "test", "blah blah blah"

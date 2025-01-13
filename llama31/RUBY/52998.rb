@@ -1,0 +1,1 @@
+expect(controller.instance_variable_get(:@variable)).to eq('3.15')

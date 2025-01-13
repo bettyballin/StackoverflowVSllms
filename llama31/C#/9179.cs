@@ -1,1 +1,0 @@
-public class MySelectItem\n{\n    public int ID { get; set; }\n    public string Name { get; set; }\n}\n\nIQueryable<MyObject> query = ...; // your IQueryable<> object\n\nList<MySelectItem> list = query\n    .Select(s => new MySelectItem { ID = s.ID, Name = s.Name })\n    .ToList();

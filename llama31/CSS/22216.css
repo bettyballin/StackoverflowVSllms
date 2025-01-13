@@ -1,1 +1,0 @@
-#content {\n  margin-right: auto;\n  margin-left: auto;\n  background-color: #FFF;\n  width: 772px;\n  min-height: 400px;\n  float: left;\n  margin-bottom: 0px;\n  padding: 20px 5px 5px 20px;\n  border: 0px solid #000;\n  color: #333;\n  box-sizing: border-box; /* add this property */\n}

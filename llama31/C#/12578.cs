@@ -1,1 +1,0 @@
-string filePath = @"C:\Path\To\VanillaExe.exe";\n\nIntPtr iconHandle = IconExtractor.GetIcon(filePath);\n\nif (iconHandle != IntPtr.Zero)\n{\n    // Use the icon handle, e.g. draw it on a form\n    // ...\n}

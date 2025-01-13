@@ -1,1 +1,0 @@
-cd Unicode-Map-0.112\nperl Makefile.PL\nnmake\nnmake test\nnmake install

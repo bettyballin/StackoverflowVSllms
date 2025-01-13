@@ -1,0 +1,1 @@
+class Test\n{\n    private SomeObj[] $someObjInstances;\n}

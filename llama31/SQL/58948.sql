@@ -1,0 +1,1 @@
+SELECT name, LEAST(COALESCE(score_a, 0), COALESCE(score_b, 0)) AS min_score\nFROM table;

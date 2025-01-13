@@ -1,1 +1,0 @@
-class MyClass {\npublic:\n    void myFunction() { /* non-const implementation */ }\n    void myFunction() const { /* const implementation */ }\n};

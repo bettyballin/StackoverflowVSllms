@@ -1,0 +1,1 @@
+// Example of vulnerable code\n<div><?php echo $_POST['user_input']; ?></div>

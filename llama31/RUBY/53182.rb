@@ -1,0 +1,1 @@
+module YourApp\n  class Application < Rails::Application\n    config.date_format = "%Y-%m-%d"\n    config.time_format = "%Y-%m-%d %H:%M:%S"\n  end\nend

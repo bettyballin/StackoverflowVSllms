@@ -1,0 +1,1 @@
+Protected Overrides Sub OnMove(e As EventArgs)\n    MyBase.OnMove(e)\n    Me.Invalidate()\nEnd Sub\n\nProtected Overrides Sub OnResize(e As EventArgs)\n    MyBase.OnResize(e)\n    Me.Invalidate()\nEnd Sub

@@ -1,0 +1,1 @@
+<!-- deploy.xml -->\n<project name="deploy" default="deploy">\n  <target name="deploy">\n    <!-- Execute SSH command using ExecTask -->\n    <exec command="ssh username@example.com 'ls -l'" />\n  </target>\n</project>

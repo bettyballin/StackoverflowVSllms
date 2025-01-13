@@ -1,0 +1,1 @@
+$this->headStyle()->setStyle('body { background: #FFFFFF; }');

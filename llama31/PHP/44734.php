@@ -1,0 +1,1 @@
+curl_setopt($ch, CURLOPT_PROXY, 'http://proxy.example.com:8080');

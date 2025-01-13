@@ -1,0 +1,1 @@
+import os\n\ndef get_true_random_number():\n    with open("/dev/random", "rb") as f:\n        random_bytes = f.read(4)\n        return int.from_bytes(random_bytes, byteorder="big")\n\nprint(get_true_random_number())

@@ -1,0 +1,1 @@
+result = (original & ~mask) | (new_values & mask)

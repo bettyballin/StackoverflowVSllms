@@ -1,1 +1,0 @@
-string src = string.Format(\n    "https://www.parurval.se/urval/?username={0}&password={1}",\n    parSettings.GetSettings(parSettings.SettingsType.PARSelection, parSettings.SectionType.Username),\n    parSettings.GetSettings(parSettings.SettingsType.PARSelection, parSettings.SectionType.Password)\n);\n\niFrame.Attributes.Add("src", HttpUtility.HtmlDecode(src));

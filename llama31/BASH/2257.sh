@@ -1,1 +1,0 @@
-gnome-terminal --profile=myfolder

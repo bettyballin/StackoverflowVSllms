@@ -1,1 +1,0 @@
-using System.Security.Cryptography;\nusing System.IO;\n\nAssembly assembly = Assembly.LoadFrom(@"c:\some\path\to\a\file.dll");\nbyte[] assemblyBytes = File.ReadAllBytes(assembly.Location);\nbyte[] hashBytes = SHA256.Create().ComputeHash(assemblyBytes);\nstring hash = BitConverter.ToString(hashBytes).Replace("-", "").ToLower();

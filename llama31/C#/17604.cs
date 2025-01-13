@@ -1,1 +1,0 @@
-[DllImport("user32.dll")]\nstatic extern int GetSysColor(int nIndex);\n\nconst int COLOR_ACTIVECAPTIONTEXT = 9;\n\nint captionColor = GetSysColor(COLOR_ACTIVECAPTIONTEXT);\nlabel1.ForeColor = Color.FromArgb(captionColor);

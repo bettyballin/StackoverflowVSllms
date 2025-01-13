@@ -1,0 +1,1 @@
+def generate_hue_sequence(n):\n    hue_step = 360.0 / n\n    hues = []\n    for i in range(n):\n        hue = (i * hue_step + 30) % 360  # +30 to avoid 0° (red)\n        hues.append(hue)\n    return hues

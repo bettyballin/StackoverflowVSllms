@@ -1,0 +1,1 @@
+let isRefreshing = false;\n\nwindow.onbeforeunload = function() {\n  // Set a flag to indicate that the page is being unloaded\n  isRefreshing = true;\n};\n\nwindow.onunload = function() {\n  if (!isRefreshing) {\n    // Perform logout functions here\n  }\n};

@@ -1,0 +1,1 @@
+$(document).on('click', '#birthdate', function() {\n    if (!$(this).hasClass('has-datepicker')) {\n        $(this).datepicker({ showOn: 'focus' });\n        $(this).addClass('has-datepicker');\n    }\n});

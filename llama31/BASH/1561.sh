@@ -1,1 +1,0 @@
-mvn --batch-mode --quiet clea

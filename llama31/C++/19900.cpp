@@ -1,1 +1,0 @@
-// Example usage of std::vector\nstd::vector<int> vec = {1, 2, 3, 4, 5};\nint element = vec[2];  // Access element at index 2

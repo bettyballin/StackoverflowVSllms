@@ -1,0 +1,1 @@
+DELETE FROM news_stories\nWHERE id NOT IN (\n  SELECT id\n  FROM news_stories\n  ORDER BY unix_timestamp DESC\n  LIMIT 50\n);

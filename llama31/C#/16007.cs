@@ -1,1 +1,0 @@
-public class SystemMenu\n{\n    public IList<MenuItem> Items { get; private set; }\n    public MenuItem DefaultItem { get; set; }\n}\n\npublic class MenuItem\n{\n    public string Name { get; set; }\n}

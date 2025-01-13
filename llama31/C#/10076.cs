@@ -1,1 +1,0 @@
-using System.Globalization;\n\nvar currentCulture = Thread.CurrentThread.CurrentCulture;\nvar listSeparator = currentCulture.TextInfo.ListSeparator;\n\n// Use listSeparator as the CSV separator

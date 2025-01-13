@@ -1,1 +1,0 @@
-#include <sched.h>\n\nstruct sched_attr attr;\nattr.sched_policy = SCHED_DEADLINE;\nattr.sched_runtime = 2500000; // 2.5 seconds\nattr.sched_deadline = 5000000; // 5 seconds\nattr.sched_period = 5000000; // 5 seconds\n\nsched_setattr(0, &attr, 0);

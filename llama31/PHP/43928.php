@@ -1,0 +1,1 @@
+function is_multidimensional(array $array): bool {\n    return array_reduce($array, function($carry, $item) {\n        return $carry || is_array($item);\n    }, false);\n}\n\n// Example usage:\n$array1 = [1, 2, 3];\n$array2 = [1, [2], 3];\n\nvar_dump(is_multidimensional($array1)); // bool(false)\nvar_dump(is_multidimensional($array2)); // bool(true)

@@ -1,1 +1,0 @@
-#!/bin/bash\n\nfor i in `seq 0 9`; do\n  doCalculations $i &\n  pids+=($!)\ndone\n\nfor pid in "${pids[@]}"; do\n  wait $pid\n  if [ $? -ne 0 ]; then\n    exit 1\n  fi\ndone

@@ -1,0 +1,1 @@
+if (method_exists($this, $methodName)) {\n    $this->{$methodName}($arg1, $arg2, $arg3);\n} else {\n    throw new Exception("Method not found");\n}

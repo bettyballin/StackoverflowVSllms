@@ -1,1 +1,0 @@
-std::ifstream cf;\ncf.open(path, std::ios::binary);\ncf.rdbuf()->pubsetbuf(nullptr, 0); // disable buffering\n\ncf.read(&b, 1);\nbool good = cf.good(); // should now return true

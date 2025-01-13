@@ -1,1 +1,0 @@
-// Create a new tab\nGtk.Notebook notebook = new Gtk.Notebook();\nGtk.Widget widget = myWindow.Children[0];\n\n// Remove the widget from the window\nmyWindow.Remove(widget);\n\n// Create a new tab and add the widget to it\nnotebook.AppendPage(widget, "Tab Label");

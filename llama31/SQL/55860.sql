@@ -1,0 +1,1 @@
+CREATE TABLE userRanks (\n  userid INT PRIMARY KEY,\n  rank INT AUTO_INCREMENT\n);

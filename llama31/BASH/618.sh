@@ -1,1 +1,0 @@
-# Create a new branch for a custom module\ngit checkout -b custom-module\n\n# Update the Composer file to include the custom module\ncomposer require --dev custom-module\n\n# Commit the changes and push to the remote repository\ngit commit -m "Added custom module"\ngit push origin custom-module

@@ -1,0 +1,1 @@
+// Example payment gateway verification function\nfunction verify_payment_gateway_response($payment_gateway_response) {\n    if ($payment_gateway_response['amount'] == 0) {\n        log_checkout('Suspicious payment gateway response', $payment_gateway_response);\n        throw new Exception('Invalid payment gateway response');\n    }\n}

@@ -1,0 +1,1 @@
+fooext/\nfooext/__init__.py\nfooext/myframework/\nfooext/myframework/__init__.py\nfooext/myframework/addons/\nfooext/myframework/addons/__init__.py\nfooext/myframework/addons/foo.py

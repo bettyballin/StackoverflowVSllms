@@ -1,0 +1,1 @@
+DB('BEGIN TRANSACTION;');\n\n$stmt = DB('INSERT INTO "test" ("id", "name") VALUES (?, ?);');\n\nfor ($i = 1; $i <= 10000; $i++) {\n    for ($j = 1; $j <= 100; $j++) {\n        $stmt->execute(array($i, 'Testing ' . $j));\n    }\n}\n\nDB('END TRANSACTION;');

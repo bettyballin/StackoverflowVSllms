@@ -1,1 +1,0 @@
-CComPtr<IRawPdu>* MyClass::getRawPdu()\n{\n    if (mRawPdu == NULL)\n    {\n        // Initialize mRawPdu here...\n    }\n    return &mRawPdu;\n}

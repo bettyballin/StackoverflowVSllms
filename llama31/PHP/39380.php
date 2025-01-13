@@ -1,0 +1,1 @@
+$stmt = $pdo->prepare('SELECT n.* FROM news n JOIN news_tags nt ON n.id = nt.news_id JOIN user_favored_tags uft ON nt.tag_id = uft.tag_id WHERE uft.user_id = ?');\n$stmt->execute([$userId]);\n$news = $stmt->fetchAll();

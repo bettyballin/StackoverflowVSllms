@@ -1,1 +1,0 @@
-using System.IO;\nusing System.Web.Script.Serialization;\n\n// ...\n\nstring json = new StreamReader(Request.InputStream).ReadToEnd();\nJavaScriptSerializer serializer = new JavaScriptSerializer();\nobject obj = serializer.Deserialize(json);

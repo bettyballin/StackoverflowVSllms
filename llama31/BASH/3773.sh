@@ -1,1 +1,0 @@
-regsvr32 c:\php\php5isapi.dll

@@ -1,0 +1,1 @@
+For Each myItem As DataRow In myDataTable.Rows\n    Dim lastname = myItem("lastname").ToString() ?? String.Empty\n    Dim initials = myItem("initials").ToString() ?? String.Empty\n    Dim sIDValue = Convert.ToInt32(myItem("sID") ?? 0)\n\n    tmpStr = lastname + " " + initials\n\n    If sIDValue = sID Then\n        ' Do something\n    End If\n\n    ' print tmpStr\nNext

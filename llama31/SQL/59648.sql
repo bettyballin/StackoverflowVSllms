@@ -1,0 +1,1 @@
+SELECT u.user_id, u.score\nFROM user_scores u\nJOIN (\n  SELECT user_id, MAX(score) as max_score\n  FROM user_scores\n  GROUP BY user_id\n) m ON u.user_id = m.user_id AND u.score = m.max_score\nORDER BY u.score DESC\nLIMIT 5;

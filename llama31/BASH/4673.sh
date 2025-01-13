@@ -1,1 +1,0 @@
-export GMON_OUT_PREFIX=/path/to/profile/data

@@ -1,0 +1,1 @@
+// application/helpers/format_helper.php\nfunction format_string($str) {\n    // formatting logic here\n    return $str;\n}

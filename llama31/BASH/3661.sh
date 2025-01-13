@@ -1,1 +1,0 @@
-valgrind --leak-check=full --show-leak-kinds=all --xml=yes --xml-file=valgrind_output.xml ./my_test_suite

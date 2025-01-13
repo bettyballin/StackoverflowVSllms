@@ -1,0 +1,1 @@
+Dim yourComplexType As New YourComplexType()\nyourComplexType.PartNumber = "12345"\nyourComplexType.Description = "Your description"\nyourComplexType.QuantityOnHand = 10

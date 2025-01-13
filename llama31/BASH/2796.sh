@@ -1,1 +1,0 @@
-gs -sDEVICE=pdfwrite -dCompatibilityLevel=1.4 -dPDFSETTINGS=/printer -dFitPage -sOutputFile=output.pdf -sPAPERSIZE=letter input.pdf

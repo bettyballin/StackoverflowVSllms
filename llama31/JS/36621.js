@@ -1,0 +1,1 @@
+var sanitizedHTML = DOMPurify.sanitize(yourHTMLContent);

@@ -1,0 +1,1 @@
+CREATE TABLE table1 (\n  column1 INT,\n  column2 INT,\n  column3 INT,\n  PRIMARY KEY (column1, column2, column3)\n);\n\nCREATE TABLE table2 (\n  column4 INT,\n  column5 INT,\n  column6 INT,\n  FOREIGN KEY (column4, column5, column6) REFERENCES table1 (column1, column2, column3)\n);

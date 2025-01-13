@@ -1,1 +1,0 @@
-werconv -e -d <path_to_your_executable>

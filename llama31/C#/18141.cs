@@ -1,1 +1,0 @@
-string date = "April,1,2009";\nDateTime dt = DateTime.Parse(date);\nstring formattedDate = dt.ToString("M/dd/yyyy");\nConsole.WriteLine(formattedDate); // Output: 4/01/2009

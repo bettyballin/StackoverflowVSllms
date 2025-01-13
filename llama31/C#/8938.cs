@@ -1,1 +1,0 @@
-ForeignKeyField = (object)ForeignKeyField ?? DBNull.Value;

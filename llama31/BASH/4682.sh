@@ -1,1 +1,0 @@
-mkdir -p /var/run/nginx\nchown www-data:www-data /var/run/nginx

@@ -1,1 +1,0 @@
-svn update /path/to/your/project

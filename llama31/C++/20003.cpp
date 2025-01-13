@@ -1,1 +1,0 @@
-void TestClass::TestFunction()\n{\n    FuncTracer();\n    // ...\n}

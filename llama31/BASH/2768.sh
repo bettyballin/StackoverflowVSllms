@@ -1,1 +1,0 @@
-svn --username <username> --password <password> mkdir http://<svn-server>/repos/<repo-name>

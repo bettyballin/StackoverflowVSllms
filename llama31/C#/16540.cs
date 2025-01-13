@@ -1,1 +1,0 @@
-this.WindowState = FormWindowState.Minimized;

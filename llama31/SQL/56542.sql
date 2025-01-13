@@ -1,0 +1,1 @@
+DECLARE @sql NVARCHAR(MAX) = '';\n\nSELECT @sql += 'DROP TABLE ' + QUOTENAME(TABLE_NAME) + '; '\nFROM INFORMATION_SCHEMA.TABLES\nWHERE TABLE_NAME LIKE 'your_string%';\n\nEXEC sp_executesql @sql;

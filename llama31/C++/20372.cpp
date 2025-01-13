@@ -1,1 +1,0 @@
-interface IConfig : IUnknown\n{\n    HRESULT SetConfigValue(BSTR key, BSTR value);\n    HRESULT GetConfigValue(BSTR key, BSTR* value);\n}

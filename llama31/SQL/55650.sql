@@ -1,0 +1,1 @@
+CREATE INDEX idx_main_id ON main (id);

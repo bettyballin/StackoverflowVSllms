@@ -1,1 +1,0 @@
-using Microsoft.ManagementConsole;\n\n// ...\n\n[SnapInSettings(RootVisible = false)]\npublic class MySnapIn : SnapIn\n{\n    // ...\n}

@@ -1,1 +1,0 @@
-var tuple = new Tuple<string, string, string>("Key", "Value1", "Value2");

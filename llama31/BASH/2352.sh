@@ -1,1 +1,0 @@
-sysctl -w net.core.rmem_max=1048576\nsysctl -w net.core.wmem_max=1048576

@@ -1,1 +1,0 @@
-valgrind --pid=<pid_of_x> --trace-children=yes

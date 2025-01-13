@@ -1,0 +1,1 @@
+-- Example:\nCREATE INDEX idx_employee_name\nON employees (name);

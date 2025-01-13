@@ -1,1 +1,0 @@
-/* Desktop layout */\n@media (min-width: 960px) {\n  .container {\n    width: 960px;\n    margin: 0 auto;\n  }\n}\n\n/* Mobile layout */\n@media (max-width: 480px) {\n  .container {\n    width: 100%;\n    padding: 0 20px;\n  }\n}

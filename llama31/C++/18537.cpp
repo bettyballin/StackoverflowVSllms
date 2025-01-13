@@ -1,1 +1,0 @@
-// mydll.cpp\n#include "mydll.h"\n\nint calculateSquare(int num)\n{\n    return num * num;\n}

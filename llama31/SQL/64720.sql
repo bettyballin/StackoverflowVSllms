@@ -1,0 +1,1 @@
+GRANT ALTER ON dbo.TableName TO DBAccountName;

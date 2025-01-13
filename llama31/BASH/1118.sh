@@ -1,1 +1,0 @@
-# Pull the official WordPress image\ndocker pull wordpress\n\n# Run the WordPress container\ndocker run -p 8080:80 --name wordpress \\n  -e WORDPRESS_DB_HOST=your_mysql_host \\n  -e WORDPRESS_DB_USER=your_mysql_user \\n  -e WORDPRESS_DB_PASSWORD=your_mysql_password \\n  -e WORDPRESS_DB_NAME=your_mysql_database \\n  wordpress

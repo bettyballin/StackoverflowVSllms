@@ -1,1 +1,0 @@
-var m = new MapPoint.Application();\nvar map = m.ActiveMap;\nMapPoint.PlaceCategory category = map.PlaceCategories["Police Stations"];\nMapPoint.FindResults r = map.FindPlaceResults(category, "West Bend, WI");

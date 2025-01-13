@@ -1,0 +1,1 @@
+jQuery(document).ready(function($) {\n    myConfirm("Hello");\n\n    function myConfirm(message){\n        $.ajax({\n            url: 'ajax.php',\n            // ...\n        });\n    }\n});

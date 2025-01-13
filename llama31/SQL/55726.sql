@@ -1,0 +1,1 @@
+SELECT SUM(foo), CAST(mydate as DATE) as date_only\nFROM a_table\nGROUP BY CAST(mydate as DATE);

@@ -1,0 +1,1 @@
+CREATE QUERY SearchQuery (\n    SELECT *\n    FROM SearchableTable\n    WHERE (\n        (Field1 LIKE '*' & [txtField1] & '*') AND\n        (Field2 LIKE '*' & [txtField2] & '*') AND\n        (Field3 LIKE '*' & [txtField3] & '*')\n    )\n);

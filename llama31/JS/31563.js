@@ -1,0 +1,1 @@
+// assuming your session variable is named "lineNumber"\nvar lineNumber = '<%= Session("lineNumber") %>';\n\n// get the anchor element with the corresponding name\nvar anchor = document.getElementsByName(lineNumber)[0];\n\n// if the anchor exists, scroll to it\nif (anchor) {\n  anchor.scrollIntoView(true);\n}

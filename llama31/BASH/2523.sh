@@ -1,1 +1,0 @@
-curl -s --write-out '%{http_code} %{last_modified}' -o /dev/null https://example.com/remote-file.txt

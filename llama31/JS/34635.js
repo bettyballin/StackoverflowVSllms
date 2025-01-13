@@ -1,0 +1,1 @@
+$('#questions-form ul li').each(function() {\n    var fieldset = $(this).closest('fieldset'); // Find the closest fieldset\n    qIndex = $('#questions-form fieldset').index(fieldset); // Get the index of the fieldset within the form\n});

@@ -1,0 +1,1 @@
+<!-- web.test.config -->\n<connectionStrings>\n    <add name="TestDbConnectionString" connectionString="..." providerName="..." />\n</connectionStrings>

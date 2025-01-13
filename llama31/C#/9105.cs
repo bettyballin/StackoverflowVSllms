@@ -1,1 +1,0 @@
-[TestMethod]\npublic void testOne()\n{\n    using (IE ie = new IE("http://news.bbc.co.uk"))\n    {\n        Assert.IsTrue(ie.ContainsText("Low graphics"));\n    }\n}\n\n[TestMethod]\npublic void testTwo()\n{\n    using (IE ie = new IE("http://news.bbc.co.uk"))\n    {\n        Assert.IsTrue(ie.ContainsText("Low graphics"));\n    }\n}

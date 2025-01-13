@@ -1,1 +1,0 @@
-// myclass.h\nclass __declspec(dllexport) MyClass {\npublic:\n    MyClass();\n    ~MyClass(); // Explicitly declare the destructor\n};\n\n// myclass.cpp\nMyClass::~MyClass() {\n    // Perform specific cleanup tasks\n}

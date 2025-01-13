@@ -1,1 +1,0 @@
-ab -n 1000 -c 10 http://your-php-app.com/your-test-page\nab -n 1000 -c 10 http://your-pylons-app.com/your-test-page

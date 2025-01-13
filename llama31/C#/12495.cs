@@ -1,1 +1,0 @@
-using System.Text.RegularExpressions;\n\npublic bool IsValidEmail(string email)\n{\n    string pattern = @"^[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}$";\n    return Regex.IsMatch(email, pattern);\n}

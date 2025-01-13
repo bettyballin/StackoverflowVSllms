@@ -1,1 +1,0 @@
-BinaryHeap<int> heap = new BinaryHeap<int>(10);\nheap.Insert(5);\nheap.Insert(2);\nheap.Insert(8);\nheap.Insert(3);\nheap.Insert(1);\n\nConsole.WriteLine(heap.ExtractMin()); // prints 1\nConsole.WriteLine(heap.ExtractMin()); // prints 2\nConsole.WriteLine(heap.ExtractMin()); // prints 3

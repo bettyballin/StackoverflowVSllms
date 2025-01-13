@@ -1,1 +1,0 @@
-#include <Windows.h>\n\nint main() {\n    HKEY hKey;\n    LONG result = RegOpenKeyEx(HKEY_LOCAL_MACHINE, "SOFTWARE\\YourKey", 0, KEY_WRITE, &hKey);\n    if (result == ERROR_SUCCESS) {\n        // Current user has write access to the key\n        RegCloseKey(hKey);\n    } else {\n        // Current user does not have write access to the key\n    }\n\n    return 0;\n}

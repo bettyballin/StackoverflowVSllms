@@ -1,1 +1,0 @@
-var results = session.Query<MyEntity>()\n                     .SetResultTransformer(Transformers.DistinctRootEntity)\n                     .ToList();\ngridview.DataSource = results;

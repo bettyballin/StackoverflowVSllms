@@ -1,0 +1,1 @@
+-- Example SQL query in a .sql file within a Database Project\nSELECT *\nFROM MyTable\nWHERE MyColumn = 'value';

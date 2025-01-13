@@ -1,1 +1,0 @@
-# Create a new application\nNew-WebApplication -Name "MyApp" -Site "Default Web Site" -PhysicalPath "C:\inetpub\wwwroot\MyApp" -Force\n\n# Create a new virtual directory\nNew-WebVirtualDirectory -Name "MyVDir" -Site "Default Web Site" -PhysicalPath "C:\inetpub\wwwroot\MyVDir"

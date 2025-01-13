@@ -1,0 +1,1 @@
+DECLARE @Year int\nDECLARE @Month int\n\nSET @Year = 2022\nSET @Month = 6\n\nSELECT DATEADD(s, -1, DATEADD(mm, DATEDIFF(m, 0, DATEFROMPARTS(@Year, @Month, 1)) + 1, 0))

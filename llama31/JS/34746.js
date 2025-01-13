@@ -1,0 +1,1 @@
+function getCurrentTime() {\n    const date = new Date();\n    return {\n        year: date.getFullYear(),\n        month: date.getMonth(),\n        day: date.getDate()\n    };\n}\n\nconst time = getCurrentTime();\nconsole.log(time.year);  // prints "2023"

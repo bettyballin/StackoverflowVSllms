@@ -1,1 +1,0 @@
-# Encrypting a file with OpenSSL\nopenssl enc -aes-256-cbc -in yourfile.txt -out encrypted_file.txt\n\n# Decrypting the file\nopenssl enc -d -aes-256-cbc -in encrypted_file.txt -out decrypted_file.txt

@@ -1,0 +1,1 @@
+$.ajax({\n    type: 'GET',\n    url: '/ProductHandler.ashx',\n    dataType: 'json',\n    success: function(data) {\n        // Update your UI elements with the received data\n    }\n});

@@ -1,1 +1,0 @@
-private void Task()\n{\n    // ...\n\n    // Assign result fields with proper fencing\n    Volatile.Write(ref _a, resultA);\n    Volatile.Write(ref _b, resultB);\n    Volatile.Write(ref _c, resultC);\n\n    _completed = true;\n    _completedSignal.Set();\n}

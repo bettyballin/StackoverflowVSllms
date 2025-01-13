@@ -1,1 +1,0 @@
-private void bindingSource1_PositionChanged(object sender, EventArgs e)\n{\n    IsDirty = true;\n}

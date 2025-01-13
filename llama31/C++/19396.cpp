@@ -1,1 +1,0 @@
-SendMessage(hWnd, WM_COMMAND, MAKEWPARAM(buttonId, BN_CLICKED), 0);

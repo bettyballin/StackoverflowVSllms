@@ -1,0 +1,1 @@
+UPDATE nations\nSET count = (\n  SELECT COUNT(*) \n  FROM poets \n  WHERE poets.nation = nations.id\n)

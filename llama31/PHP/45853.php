@@ -1,0 +1,1 @@
+$cfg['blowfish_secret'] = 'your_secret_key_here'; // Update this value\n$cfg['Servers'][$i]['password'] = 'your_new_password'; // Update this value

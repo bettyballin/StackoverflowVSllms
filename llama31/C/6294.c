@@ -1,1 +1,0 @@
-typedef struct MemberMethodNode {\n    char *name;\n    DataType *returnType;\n    List *params; // list of ParameterNode*\n    BlockNode *body;\n} MemberMethodNode;

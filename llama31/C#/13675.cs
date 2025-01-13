@@ -1,1 +1,0 @@
-// You can check the installed framework version and profile using the following code:\nusing System;\n\nclass FrameworkVersionChecker\n{\n    static void Main(string[] args)\n    {\n        Console.WriteLine("Framework version: " + Environment.Version);\n        Console.WriteLine("Framework profile: " + Environment.Is64BitOperatingSystem ? "Full" : "Client");\n    }\n}

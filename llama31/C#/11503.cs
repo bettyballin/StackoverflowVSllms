@@ -1,1 +1,0 @@
-[ServiceContract]\npublic interface IMyService\n{\n  [OperationContract]\n  [FaultContract(typeof(MyFault))]\n  string GetData();\n}\n\n[DataContract]\npublic class MyFault\n{\n  [DataMember]\n  public string ErrorMessage { get; set; }\n\n  [DataMember]\n  public string ErrorDetails { get; set; }\n}

@@ -1,1 +1,0 @@
-SSL_CTX* ctx = SSL_CTX_new(TLS_server_method());\nif (SSL_CTX_use_certificate_file(ctx, "server.crt", SSL_FILETYPE_PEM) <= 0) {\n    // handle error\n}

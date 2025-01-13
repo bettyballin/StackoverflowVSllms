@@ -1,0 +1,1 @@
+// controller.php\n$lang = 'en'; // or 'fr'\n$template = 'template.twig';\n$translations = json_decode(file_get_contents("translations/$lang.json"), true);\n\necho Twig::render($template, ['lang' => $lang, 'translations' => $translations]);

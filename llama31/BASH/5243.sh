@@ -1,1 +1,0 @@
-// Example usage:\n// wkhtmltopdf.exe input.html output.pdf

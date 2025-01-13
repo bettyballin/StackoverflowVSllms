@@ -1,0 +1,1 @@
+var pages = jsonObject.query.pages;\nfor (var pageId in pages) {\n  var revision = pages[pageId].revisions[0]['*'];\n  // do something with revision\n}

@@ -1,0 +1,1 @@
+class myLibrary_Item extends myLibrary\n{\n    public function __construct($vars)\n    {\n        foreach ($vars as $var => $val) {\n            $this->$var = $val;\n        }\n    }\n\n    public function __set($var, $val)\n    {\n        $this->$var = $val;\n    }\n\n    public function __get($var)\n    {\n        return $this->$var;\n    }\n}

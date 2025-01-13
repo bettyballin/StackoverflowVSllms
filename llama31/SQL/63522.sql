@@ -1,0 +1,1 @@
+CREATE TEMPORARY TABLE mapping (\n  table1_id INT,\n  something_id INT\n);\n\nINSERT INTO mapping (table1_id, something_id)\nVALUES\n  (1446, 423),\n  (2372, 426),\n  (2402, 428),\n  -- add more values here\n;\n\nUPDATE table1 t1\nJOIN mapping m ON t1.table1_id = m.table1_id\nSET t1.something_id = m.something_id;

@@ -1,1 +1,0 @@
-List<Record> records = new List<Record>();\n\nwhile (dataReader.Read())\n{\n    Record record = new Record\n    {\n        Id = dataReader["Id"].ToString(),\n        Name = dataReader["Name"].ToString(),\n        Address = dataReader["Address"].ToString(),\n        City = dataReader["City"].ToString()\n    };\n    records.Add(record);\n}

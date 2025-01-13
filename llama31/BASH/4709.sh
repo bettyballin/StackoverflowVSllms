@@ -1,1 +1,0 @@
-pmap -d <pid> | grep "total"

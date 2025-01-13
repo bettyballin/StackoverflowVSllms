@@ -1,0 +1,1 @@
+use MemcachedTag\MemcachedTag;\n\n$memcached = new MemcachedTag();\n\n// Set a cache entry with a tag\n$memcached->set('Forum::getThreads|123', $threads, ['tag' => 'Forum::getThreads|123']);\n\n// Delete all cache entries with the tag\n$memcached->deleteTag('Forum::getThreads|123');

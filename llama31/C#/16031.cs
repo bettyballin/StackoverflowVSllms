@@ -1,1 +1,0 @@
-private static int FindIndexOfInvalidXml(string theString)\n{\n    try\n    {\n        using (var reader = XmlReader.Create(new StringReader(theString)))\n        {\n            while (reader.Read()) { }\n        }\n        return -1; // no errors found\n    }\n    catch (XmlException ex)\n    {\n        return ex.LinePosition;\n    }\n}

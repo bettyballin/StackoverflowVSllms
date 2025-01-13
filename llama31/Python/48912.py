@@ -1,0 +1,1 @@
+from django.db import models\n\nclass ValidationKey(models.Model):\n    key = models.CharField(max_length=16, unique=True)\n    is_used = models.BooleanField(default=False)

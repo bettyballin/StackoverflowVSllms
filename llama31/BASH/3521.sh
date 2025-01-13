@@ -1,1 +1,0 @@
-makeself --archivesize 1000000 --.extractor extract.sh -- encrypted.docx self_extracting.exe

@@ -1,0 +1,1 @@
+CREATE TABLE test (\n  id TINYINT(1) NULL\n) ENGINE=InnoDB;

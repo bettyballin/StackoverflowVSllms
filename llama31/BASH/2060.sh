@@ -1,1 +1,0 @@
-git commit -m "Fixed bug #829: description of fix"

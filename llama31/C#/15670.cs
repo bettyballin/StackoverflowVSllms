@@ -1,1 +1,0 @@
-using Microsoft.Web.Administration;\n\nusing (ServerManager serverManager = new ServerManager())\n{\n    Site site = serverManager.Sites["Default Web Site"];\n    site.PhysicalPath = @"C:\inetpub\wwwroot\newpath";\n    serverManager.CommitChanges();\n}

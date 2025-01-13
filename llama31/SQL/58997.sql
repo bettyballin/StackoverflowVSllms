@@ -1,0 +1,1 @@
+CREATE TABLE Availability (\n    id INT,\n    timeFrom VARCHAR(5),\n    timeTo VARCHAR(5)\n)

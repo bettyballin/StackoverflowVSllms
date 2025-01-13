@@ -1,1 +1,0 @@
-ResponseWrapper wrappedResponse = new ResponseWrapper(response);

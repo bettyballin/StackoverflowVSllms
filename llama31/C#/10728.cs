@@ -1,1 +1,0 @@
-string userConfigPath = Environment.GetFolderPath(Environment.SpecialFolder.ApplicationData);

@@ -1,0 +1,1 @@
+$string = 'The %site% site %adj% because it %adj%';\n$vars = array('site' => 'Stackoverflow', 'adj' => 'rocks');\n\necho strtr($string, $vars);

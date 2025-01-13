@@ -1,1 +1,0 @@
-asm volatile(".byte 0x12, 0x34, 0x56" ::: "memory");

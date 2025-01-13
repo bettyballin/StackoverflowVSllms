@@ -1,0 +1,1 @@
+$data = mysql_query("\n  SELECT * \n  FROM tblpm \n  WHERE receiver_id = '$usrID' \n  UNION \n  SELECT * \n  FROM tblpm \n  WHERE sender_id = '$usrID' AND thread_id IN (\n    SELECT thread_id \n    FROM tblpm \n    WHERE receiver_id = '$usrID'\n  )\n  ORDER BY id DESC\n") or die(mysql_error());

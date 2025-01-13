@@ -1,0 +1,1 @@
+-- Recreate the temp table\nCREATE TABLE #TempTable (\n    Id INT,\n    Value INT\n);\n\n-- Recreate the check constraint\nALTER TABLE #TempTable\nADD CONSTRAINT CK_TempTable_Value CHECK (Value > 0);

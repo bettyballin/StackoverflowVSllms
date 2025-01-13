@@ -1,0 +1,1 @@
+$src = '<example example2 />';\n\n$result = preg_replace_callback('/<(example )?(example2)+>/', function ($matches) {\n    return analyze($matches);\n}, $src);\n\nfunction analyze($matches) {\n    if ($matches[0] == '<example example2 />') {\n        return 'something_awesome';\n    } elseif ($matches[1] == 'example') {\n        return 'ftw';\n    }\n}\n\necho $result;

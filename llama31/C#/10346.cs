@@ -1,1 +1,0 @@
-System.Diagnostics.Process process = new System.Diagnostics.Process();\nprocess.StartInfo.FileName = "netsh";\nprocess.StartInfo.Arguments = "http add urlacl url=http://+:8080/app user=" + Environment.UserName;\nprocess.StartInfo.UseShellExecute = false;\nprocess.StartInfo.RedirectStandardOutput = true;\nprocess.Start();\nprocess.WaitForExit();

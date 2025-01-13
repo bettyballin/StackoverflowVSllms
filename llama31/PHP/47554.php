@@ -1,0 +1,1 @@
+// template.php\n<html>\n  <body>\n    <?php echo $content; ?>\n  </body>\n</html>

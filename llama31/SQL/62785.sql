@@ -1,0 +1,1 @@
+CREATE TABLE default_category (id INTEGER PRIMARY KEY);\n\nINSERT INTO default_category (id) VALUES ((SELECT id FROM your_table ORDER BY id LIMIT 1));\n\nALTER TABLE your_table\nADD CONSTRAINT prevent_default_category_deletion\nCHECK (id != (SELECT id FROM default_category));

@@ -1,1 +1,0 @@
-void foo() {\n    void bar(); // forward declaration\n    bar(); // okay, bar is declared\n}\n\nvoid bar() {\n    // definition\n}

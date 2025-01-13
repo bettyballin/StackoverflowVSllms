@@ -1,0 +1,1 @@
+header('Cache-Control: no-cache'); // disable caching\nheader('Cache-Control: max-age=3600'); // set cache expiration time\nheader('Expires: Thu, 01 Dec 2022 16:00:00 GMT'); // set expiration date

@@ -1,1 +1,0 @@
-pdfimages -list -p <pagenumber> input.pdf

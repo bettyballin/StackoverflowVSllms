@@ -1,1 +1,0 @@
-wevtutil sl Application /ca:DOMAIN\GroupOrUser:R,W

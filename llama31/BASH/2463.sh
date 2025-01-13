@@ -1,1 +1,0 @@
-convert -profile AdobeRGB1998.icc -profile sRGB.icc input.jpg output.jpg

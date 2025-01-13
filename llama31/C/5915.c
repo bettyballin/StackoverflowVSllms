@@ -1,1 +1,0 @@
-FILE* fp = fopen(filename, "w");\nwhile(xyz) {\n    fwrite(buffer, 1, BLOCK_SIZE, fp);\n}\nfflush(fp); // Flushes the output stream\nfclose(fp);\nsync(); // Force all system buffers to synchronize with the underlying device

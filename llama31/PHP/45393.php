@@ -1,0 +1,1 @@
+$semaphore = sem_open("/your/lock/name", O_CREAT, 0644, 1);\nif ($semaphore === false) {\n    // handle error\n}\n\n// Acquire the semaphore (lock)\nsem_acquire($semaphore);\n\n// Perform your file write operations here\n\n// Release the semaphore (unlock)\nsem_release($semaphore);\n\nsem_close($semaphore);

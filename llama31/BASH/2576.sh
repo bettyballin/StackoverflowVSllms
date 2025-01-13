@@ -1,1 +1,0 @@
-svn patch patch_file.patch /path/to/restored/repo

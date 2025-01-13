@@ -1,0 +1,1 @@
+import phash\n\ndef get_image_fingerprint(image_path):\n    image_hash = phash.ImageHash(image_path)\n    return str(image_hash)\n\n# Example usage:\nimage_path = "path/to/image.jpg"\nfingerprint = get_image_fingerprint(image_path)\nprint(fingerprint)

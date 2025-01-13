@@ -1,1 +1,0 @@
-List<String> filteredList = text.Where(s => s.StartsWith("d")).ToList();

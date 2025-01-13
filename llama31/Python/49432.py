@@ -1,0 +1,1 @@
+from django.http import JsonResponse\nfrom .models import MyModel\n\ndef mymodel_list(request):\n    mymodels = MyModel.objects.all()\n    data = [{'name': m.name, 'description': m.description} for m in mymodels]\n    return JsonResponse(data, safe=False)

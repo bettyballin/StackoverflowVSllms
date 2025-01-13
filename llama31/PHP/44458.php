@@ -1,0 +1,1 @@
+$db = Zend_Registry::get('db');\n$username = $db->quote($username . '%');\n$select = "SELECT COUNT(*) AS num\n           FROM message m\n           WHERE m.message LIKE $username";\n\n$row = $db->fetchRow($select);

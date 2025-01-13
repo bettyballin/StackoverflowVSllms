@@ -1,1 +1,0 @@
-r2 -c 'f[*]' your_binary.dll

@@ -1,1 +1,0 @@
-using System;\nusing System.IO;\nusing WebSupergoo.ABCpdf7;\n\npublic class HtmlToPdf {\n    public void ConvertHtmlToPdf(string htmlUrl, string pdfFile) {\n        Doc doc = new Doc();\n        doc.HtmlOptions.Engine = EngineType.Gecko;\n        doc.AddUrl(htmlUrl);\n        doc.Save(pdfFile);\n        doc.Clear();\n    }\n}

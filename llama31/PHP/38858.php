@@ -1,0 +1,1 @@
+class PersonService {\n    private $mapper;\n\n    public function __construct(PersonMapper $mapper) {\n        $this->mapper = $mapper;\n    }\n\n    public function inactivatePerson($personId) {\n        $person = $this->mapper->load($personId);\n        $person->active = false;\n        $this->mapper->save($person);\n    }\n}

@@ -1,1 +1,0 @@
-protected void btnLogout_Click(object sender, EventArgs e)\n{\n    Session.Clear();\n    Session.Abandon();\n    Session.RemoveAll();\n\n    Response.Cache.SetCacheability(HttpCacheability.NoCache);\n    Response.Cache.SetNoStore();\n\n    Response.Redirect("Home.aspx?timestamp=" + DateTime.Now.Ticks);\n}

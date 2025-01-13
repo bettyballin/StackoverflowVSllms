@@ -1,1 +1,0 @@
-try\n{\n    string[] files = Directory.GetFiles(drive, "*" + extension, SearchOption.AllDirectories);\n\n    foreach (string file in files)\n    {\n        Console.WriteLine(file);\n    }\n}\ncatch (UnauthorizedAccessException ex)\n{\n    Console.WriteLine("Access denied: " + ex.Message);\n}

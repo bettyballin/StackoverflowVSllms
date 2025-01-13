@@ -1,0 +1,1 @@
+var frame = document.getElementById('rsPrintFrame');\nvar component = frame.contentWindow.Sys.Application.findComponent('componentId');

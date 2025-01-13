@@ -1,1 +1,0 @@
-# Initialize a new encrypted repository\ngitcrypt init\n\n# Add a new encrypted remote\ngit remote add encrypted https://example.com/encrypted-repo.git\n\n# Push changes to the encrypted remote\ngit push encrypted master

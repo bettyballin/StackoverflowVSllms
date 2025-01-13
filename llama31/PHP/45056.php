@@ -1,0 +1,1 @@
+// PHP code (script.php)\n$x = $_GET['x'];\n$y = $_GET['y'];\n// Do something with the coordinates

@@ -1,0 +1,1 @@
+$(document).ready(function() {\n  $('#video').click(function() {\n    $(this).toggleClass('enlarged');\n  });\n});

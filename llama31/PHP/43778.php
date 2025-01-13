@@ -1,0 +1,1 @@
+if ((int) $myVal === 0) {\n    // value is 0\n}

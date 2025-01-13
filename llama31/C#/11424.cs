@@ -1,1 +1,0 @@
-using System.Net.Mail;\n\n// Create a MailAddress object with the email address\nMailAddress address = new MailAddress("myFirstName.O'Reilly@mywebsite.com", "myFirstName.O'Reilly", "mywebsite.com");\n\n// Use the MailAddress object to send the email\nSmtpClient smtp = new SmtpClient();\nsmtp.Send("your_from_email@example.com", address.Address, "Subject", "Body");

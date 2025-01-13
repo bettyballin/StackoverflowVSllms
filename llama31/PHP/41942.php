@@ -1,0 +1,1 @@
+$server2 = explode(":", $xfr[3]);\n$socket2 = pfsockopen($server2[0], (int)$server2[1]);\n\nwhile (true) {\n    $input = fgets(STDIN);\n    fputs($socket2, $input);\n    echo fread($socket2, 5000);\n}

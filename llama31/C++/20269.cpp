@@ -1,1 +1,0 @@
-// mydll.h\nextern "C" __declspec(dllexport) int add(int a, int b);\n\n// mydll.cpp\nextern "C" __declspec(dllexport) int add(int a, int b)\n{\n    return a + b;\n}

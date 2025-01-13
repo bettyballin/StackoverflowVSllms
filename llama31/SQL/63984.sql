@@ -1,0 +1,1 @@
+UPDATE users \nSET total_messages = total_messages + 1 \nWHERE id = ?;

@@ -1,1 +1,0 @@
-.grid-container {\n  display: grid;\n  grid-template-columns: repeat(3, 1fr);\n  grid-gap: 10px;\n}\n\n.grid-item {\n  background-color: #f2f2f2;\n  padding: 20px;\n}\n\n.grid-item:nth-child(2) {\n  grid-column: 2 / 3;\n}

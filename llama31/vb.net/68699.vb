@@ -1,0 +1,1 @@
+Public Class SomeClass\n    Implements IDisposable\n\n    ' ...\n\n    Protected Overrides Sub Finalize()\n        Try\n            Dispose()\n        Finally\n            MyBase.Finalize()\n        End Try\n    End Sub\nEnd Class

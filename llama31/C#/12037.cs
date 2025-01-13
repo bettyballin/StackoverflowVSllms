@@ -1,1 +1,0 @@
-using Gtk;\n\nclass HelloWorld {\n    public static void Main(string[] args) {\n        Application.Init();\n        Window window = new Window("Hello World");\n        Label label = new Label("Hello, world!");\n        window.Add(label);\n        window.ShowAll();\n        Application.Run();\n    }\n}

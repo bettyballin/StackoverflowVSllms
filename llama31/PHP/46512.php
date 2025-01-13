@@ -1,0 +1,1 @@
+if ($currentperms['newapp'] == "1") { echo " checked "; }

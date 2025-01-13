@@ -1,1 +1,0 @@
-using Excel = Microsoft.Office.Interop.Excel;\n\n// Using _Worksheet\nExcel._Worksheet worksheet = (Excel._Worksheet)app.ActiveSheet;\n\n// Using Worksheet\nExcel.Worksheet worksheet = app.ActiveSheet;

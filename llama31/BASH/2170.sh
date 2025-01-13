@@ -1,1 +1,0 @@
-pecl download geoip\ncd geoip\npatch -p0 < geoip.patch\npecl install geoip

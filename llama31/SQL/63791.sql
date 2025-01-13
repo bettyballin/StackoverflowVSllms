@@ -1,0 +1,1 @@
+ALTER TABLE MessageLookup\nADD CONSTRAINT UC_MessageLookup UNIQUE ([Key], CampaignTypeID, ServiceProviderID, DistributorID, CampaignID);

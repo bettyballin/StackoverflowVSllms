@@ -1,0 +1,1 @@
+class Movie < ApplicationRecord\n  # ...\n  scope :with_attribute, ->(attribute_name) { joins(:movie_attributes).where(movie_attributes: { name: attribute_name }) }\nend

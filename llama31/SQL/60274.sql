@@ -1,0 +1,1 @@
+INSERT INTO cache (key, generation) VALUES ('your_key', 0)\nON DUPLICATE KEY UPDATE generation = generation + 1;

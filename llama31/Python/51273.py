@@ -1,0 +1,1 @@
+self.response.set_cookie('uniqueid', unique_identifier)\nself.response.set_cookie('nickname', nickname)

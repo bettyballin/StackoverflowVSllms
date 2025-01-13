@@ -1,0 +1,1 @@
+import time\n\ndef generate_timestamp():\n    timestamp_ns = time.time_ns()\n    return datetime.datetime.fromtimestamp(timestamp_ns / 1e9)\n\n# Example usage:\nfor i in range(1000):\n    timestamp = generate_timestamp()\n    print(timestamp)

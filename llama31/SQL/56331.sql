@@ -1,0 +1,1 @@
+WHERE MONTH(date_column) = @month AND YEAR(date_column) = @year

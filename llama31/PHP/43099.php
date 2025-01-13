@@ -1,0 +1,1 @@
+// test5.php\ninclude 'test.php';\n\nclass test1 {\n    private $config_key_security;\n\n    public function __construct($config_key_security) {\n        $this->config_key_security = $config_key_security;\n    }\n\n    public function test2() {\n        echo $this->config_key_security;\n    }\n}\n\n// Usage\n$test = new test1($config_key_security);\n$test->test2();

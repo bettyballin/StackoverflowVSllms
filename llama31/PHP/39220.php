@@ -1,0 +1,1 @@
+// assuming you have already connected to the database and selected the rows\n// and stored the results in a variable named `$results`\n\nforeach ($results as $row) {\n    $display = htmlspecialchars($row['display']);\n    $link = htmlspecialchars($row['link']);\n    echo "<a href='$link'>$display</a>";\n}

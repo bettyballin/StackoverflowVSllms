@@ -1,1 +1,0 @@
-OpenNETCF.Net.WirelessLAN.WlanInfo wlanInfo = new OpenNETCF.Net.WirelessLAN.WlanInfo();\nOpenNETCF.Net.WirelessLAN.WlanAPInfo[] apInfoList = wlanInfo.GetWlanAPInfo();

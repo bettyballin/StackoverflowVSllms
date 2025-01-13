@@ -1,1 +1,0 @@
-keytool -printcert -v -file certificate.der

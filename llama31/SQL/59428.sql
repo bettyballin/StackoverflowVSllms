@@ -1,0 +1,1 @@
+UPDATE entries\nSET processed = TRUE\nWHERE id IN (\n  SELECT id\n  FROM (\n    SELECT id, ROW_NUMBER() OVER (PARTITION BY user_id ORDER BY created DESC) AS row_num\n    FROM entries\n  ) AS subquery\n  WHERE row_num > 3\n)

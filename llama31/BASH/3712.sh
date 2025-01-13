@@ -1,1 +1,0 @@
-gacutil /l YourAssemblyName

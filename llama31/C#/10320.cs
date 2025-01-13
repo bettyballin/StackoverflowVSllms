@@ -1,1 +1,0 @@
-using System;\n\nnamespace YourNamespace\n{\n    public partial class Page : System.Web.UI.Page\n    {\n        protected void Page_Load(object sender, EventArgs e)\n        {\n            Label1.Text = "Hello, World!";\n        }\n    }\n}

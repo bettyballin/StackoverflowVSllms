@@ -1,1 +1,0 @@
-using HtmlAgilityPack;\n\n// assume 'html' is the string containing the webpage's HTML\nvar doc = new HtmlDocument();\ndoc.LoadHtml(html);\n\nvar links = doc.DocumentNode.SelectNodes("//a[@href]");\nforeach (var link in links)\n{\n    var href = link.GetAttributeValue("href", string.Empty);\n    // do something with the href value\n}

@@ -1,1 +1,0 @@
-# Set environment variables\nexport DB_USERNAME=myuser\nexport DB_PASSWORD=mypassword

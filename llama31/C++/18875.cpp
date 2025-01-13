@@ -1,1 +1,0 @@
-#include <iostream>\n#include <string>\n\nint main() {\n    std::string greeting = "Hello, World!";\n    std::cout << greeting << std::endl;\n    return 0;\n}

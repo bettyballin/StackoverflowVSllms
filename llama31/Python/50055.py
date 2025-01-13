@@ -1,0 +1,1 @@
+def largest_prime_factor(n):\n    i = 2\n    while i * i <= n:\n        if n % i:\n            i += 1\n        else:\n            n //= i\n    retur

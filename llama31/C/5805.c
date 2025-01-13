@@ -1,1 +1,0 @@
-/* Figure out which language to use.  */\nif (strcmp (programname, "gcc") == 0\n    || strcmp (programname, "cc") == 0\n    || strcmp (programname, "xgcc") == 0)\n  {\n    /* These names indicate a C compiler, so the default is C.  */\n    lang = "c";\n  }

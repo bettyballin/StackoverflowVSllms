@@ -1,0 +1,1 @@
+// in the parent page\nvar iframe = document.getElementById("myIframe");\niframe.contentWindow.postMessage("invoke_myFunction", "*");\n\n// in the iframe\nwindow.addEventListener("message", function(event) {\n  if (event.data === "invoke_myFunction") {\n    myFunction();\n  }\n});

@@ -1,1 +1,0 @@
-// Close any existing pipe connections\nRpcAsyncDisconnectCall(&hAsync, &dwStatus);

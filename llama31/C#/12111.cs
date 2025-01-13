@@ -1,1 +1,0 @@
-AppDomain.CurrentDomain.AssemblyResolve += (sender, args) =>\n{\n    if (args.Name == "Telerik.Charting")\n    {\n        // Load the correct assembly\n        return Assembly.LoadFrom("path/to/MyTelerik/Telerik.Charting.dll");\n    }\n    return null;\n};

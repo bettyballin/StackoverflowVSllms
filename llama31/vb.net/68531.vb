@@ -1,0 +1,1 @@
+' Regenerate session ID after login\nSession.Abandon\nSession.Clear\nResponse.Cookies("ASPSESSIONID").Value = ""\nResponse.Cookies("ASPSESSIONID").Expires = DateAdd("s", -1, Now())\nSession.SessionID = ""\n\n' Create a new session\nSession.Timeout = 20\nSession("username") = Request.Form("username")

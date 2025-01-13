@@ -1,0 +1,1 @@
+max_attempts = 1000\nattempts = 0\nwhile attempts < max_attempts:\n    key = makeKey()\n    if not keyExists(key):\n        break\n    attempts += 1\nif attempts == max_attempts:\n    raise Exception("Failed to generate a unique key after {} attempts".format(max_attempts))

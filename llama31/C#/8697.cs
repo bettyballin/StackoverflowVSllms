@@ -1,1 +1,0 @@
-string logDirectory = Server.MapPath("~/Logs");\nif (!Directory.Exists(logDirectory))\n{\n    Directory.CreateDirectory(logDirectory);\n}\n\nstring logFilePath = Path.Combine(logDirectory, "log.txt");\nusing (StreamWriter writer = new StreamWriter(logFilePath, true))\n{\n    writer.WriteLine("Log message");\n}

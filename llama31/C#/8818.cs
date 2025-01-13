@@ -1,1 +1,0 @@
-ClassA newObject = myObjects.ElementAtOrDefault(3, new ClassA { fieldA = "default", fieldB = "default", fieldC = new ClassB() });

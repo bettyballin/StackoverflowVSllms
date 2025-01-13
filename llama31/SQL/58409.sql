@@ -1,0 +1,1 @@
+SELECT * FROM xxx WHERE z = 1\nUNION \nSELECT * FROM xxx WHERE z = 2\nUNION\nSELECT * FROM xxx WHERE z = 3

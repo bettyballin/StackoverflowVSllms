@@ -1,0 +1,1 @@
+exec('pdfimages -j input.pdf output');

@@ -1,1 +1,0 @@
-public class Ticket\n{\n    public int Id { get; set; }\n    public string Content { get; set; }\n    public int Version { get; set; }\n}\n\n// When updating the ticket\nif (ticket.Version != originalVersion)\n{\n    // Notify the user that someone else has modified the content\n}

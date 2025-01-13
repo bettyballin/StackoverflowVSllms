@@ -1,1 +1,0 @@
-find . -type f -exec rename -v 's/.{256,}$//' {} \;

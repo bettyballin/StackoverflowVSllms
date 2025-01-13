@@ -1,0 +1,1 @@
+<%= periodically_call_remote(:url => {:action => 'progress_monitor', :controller => 'files'},\n                             :frequency => '5',\n                             :complete => 'updateProgressBar(request.responseText)') %>

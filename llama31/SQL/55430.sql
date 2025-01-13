@@ -1,0 +1,1 @@
+SELECT * FROM MyTable\nWHERE TRY_CAST(MyCol AS bigint) = 1;

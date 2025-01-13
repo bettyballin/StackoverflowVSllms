@@ -1,0 +1,1 @@
+$array = [...]; // your array structure\n$words = array_column($array, 'word');\n$combinedWords = implode(' ', $words);

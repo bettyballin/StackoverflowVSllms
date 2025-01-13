@@ -1,1 +1,0 @@
-perl -0777 -pe "s/ style='[^']*'//" fileA > fileB

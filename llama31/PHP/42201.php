@@ -1,0 +1,1 @@
+function log_message($message) {\n    $requestId = $_SERVER['HTTP_X_REQUEST_ID'] ?? generate_uuid(); // fallback to UUID if header is missing\n    $logMessage = sprintf('[%s] %s', $requestId, $message);\n    // log $logMessage to your log file or system\n}

@@ -1,0 +1,1 @@
+document.querySelector('form').addEventListener('submit', function(event) {\n  event.preventDefault();\n  var formData = new FormData(this);\n  formData.delete('x');\n  formData.delete('y');\n  // submit the form data using XMLHttpRequest or fetch API\n});

@@ -1,0 +1,1 @@
+$db = new mysqli('127.0.0.1', 'DB_USERNAME', 'DB_PASSWORD', 'dbname', 3307);

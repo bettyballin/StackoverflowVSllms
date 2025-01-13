@@ -1,1 +1,0 @@
-@echo off\nmmc /s "C:\Path\To\Certificates.msc" /a

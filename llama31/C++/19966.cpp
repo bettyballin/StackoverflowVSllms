@@ -1,1 +1,0 @@
-// mydll.cpp\nextern "C" __declspec(dllexport) int MyFunction(int x) {\n    return x * 2;\n}

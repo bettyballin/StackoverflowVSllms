@@ -1,0 +1,1 @@
+ALTER TABLE part_test DROP PARTITION part_test_1;\n\nSELECT object_name, object_type, status FROM all_objects WHERE object_name = 'PART_TEST_SYN';

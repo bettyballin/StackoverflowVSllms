@@ -1,1 +1,0 @@
-if (Request.Url.Scheme == "https")\n{\n    // Request is secure\n}

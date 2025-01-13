@@ -1,1 +1,0 @@
-using System;\nusing System.Security.Cryptography;\n\npublic class SecureGuidGenerator\n{\n    private static RandomNumberGenerator _rng = new RNGCryptoServiceProvider();\n\n    public static Guid GenerateSecureGuid()\n    {\n        var bytes = new byte[16];\n        _rng.GetBytes(bytes);\n        return new Guid(bytes);\n    }\n}

@@ -1,1 +1,0 @@
-foreach (var path in NetworkPaths)\n{\n    var tempPath = Path.GetTempFileName();\n    using (var tempFileStream = File.OpenWrite(tempPath))\n    {\n        // Write modified XML data to temporary file\n    }\n}

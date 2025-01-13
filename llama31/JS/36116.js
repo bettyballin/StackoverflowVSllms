@@ -1,0 +1,1 @@
+// toggle fade-in class on top image\ndocument.querySelector('.top-image').classList.toggle('fade-in');

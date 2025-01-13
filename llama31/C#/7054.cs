@@ -1,1 +1,0 @@
-System.IO.Stream stream = new System.IO.Stream((IStream)comStream);

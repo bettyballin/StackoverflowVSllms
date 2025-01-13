@@ -1,1 +1,0 @@
-openssl req -x509 -newkey rsa:2048 -nodes -keyout private_key.pem -out certificate.pem -days 365

@@ -1,0 +1,1 @@
+$data = array(\n    array(\n        'column1' => 'value1',\n        'column2' => 'value2',\n    ),\n    array(\n        'column1' => 'value3',\n        'column2' => 'value4',\n    ),\n    // ... more rows\n);\n\n$this->db->insert_batch('your_table_name', $data);

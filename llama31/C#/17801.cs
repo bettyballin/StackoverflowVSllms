@@ -1,1 +1,0 @@
-// Example usage:\nvar myList = new List<string> { "apple", "banana", "cherry" };\nvar myDictionary = new Dictionary<string, int> { { "apple", 1 }, { "banana", 2 } };\nvar myHashSet = new HashSet<string> { "apple", "banana", "cherry" };

@@ -1,0 +1,1 @@
+if ($user->match_password($_POST['pass']) == true) {\n    $_SESSION['authenticated'] = true;\n    $_SESSION['user_id'] = $u_result[0]['user_id'];\n    $_SESSION['user'] = $user;\n    var_dump($_SESSION); // debug statement\n}

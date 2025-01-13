@@ -1,1 +1,0 @@
-public class MyController : ControllerBase\n{\n    private int mVar;\n\n    protected override void OnActionExecuting(ActionExecutingContext filterContext)\n    {\n        if (Session["value"] != null)\n        {\n            mVar = (int)Session["value"];\n        }\n    }\n}

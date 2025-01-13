@@ -1,1 +1,0 @@
-var evaluator = new DynamicExpressionEvaluator();\nbool result = evaluator.Evaluate("(A1 AND A2) OR (A1 AND A3) OR (NOT A2 AND A3)", true, false, true);

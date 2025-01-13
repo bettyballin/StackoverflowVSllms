@@ -1,0 +1,1 @@
+Imports System.Windows.Forms\n\nPublic Class NonFocusForm\n    Inherits Form\n\n    Protected Overrides ReadOnly Property ShowWithoutActivation As Boolean\n        Get\n            Return True\n        End Get\n    End Property\n\n    ' Your form code here...\nEnd Class

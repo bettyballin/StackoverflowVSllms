@@ -1,0 +1,1 @@
+document.createStyleSheet('../../mz/mz.css');

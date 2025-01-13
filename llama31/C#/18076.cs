@@ -1,1 +1,0 @@
-using System.Drawing.Printing;\n\n// ...\n\nPrintDocument pd = new PrintDocument();\npd.DocumentName = fileName;\npd.PrinterSettings.PrinterName = "YourPrinterName"; // or use the default printer\npd.PrintPage += (sender, e) => {\n    // do nothing, just send the file to the printer\n};\npd.Print();

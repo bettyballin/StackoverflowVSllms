@@ -1,1 +1,0 @@
-WebProxy proxy = new WebProxy("http://proxyserver:8080", true);\nproxy.Credentials = CredentialCache.DefaultCredentials;\nServicePointManager.DefaultWebProxy = proxy;

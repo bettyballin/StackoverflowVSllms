@@ -1,0 +1,1 @@
+ALTER TABLE MyTable\nADD Column1_Uniq AS (CASE WHEN Column1 IS NULL THEN NULL ELSE Column1 END) PERSISTED\n\nCREATE UNIQUE INDEX unq_idx ON MyTable (Column1_Uniq)

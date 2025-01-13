@@ -1,1 +1,0 @@
-// Calculate RMS value\ndouble rms = 0.0;\nfor (int i = 0; i < num_samples; i++) {\n  double sample = filtered_samples[i];\n  rms += sample * sample;\n}\nrms = sqrt(rms / num_samples);

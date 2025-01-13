@@ -1,1 +1,0 @@
-// Unspecified number of arguments\nint func() {\n    // ...\n}\n\n// No arguments\nint func(void) {\n    // ...\n}

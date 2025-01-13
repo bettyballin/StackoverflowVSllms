@@ -1,1 +1,0 @@
-LinkButton linkButton = new LinkButton();\nlinkButton.Attributes.Add("onmouseover", "changeColor(this)");

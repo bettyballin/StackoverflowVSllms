@@ -1,0 +1,1 @@
+$.ajax({\n  url: '/your-endpoint',\n  dataType: 'json',\n  success: function(data) {\n    if (data.cookie) {\n      setCookie(data.cookie.name, data.cookie.value, data.cookie.expires, data.cookie.path, data.cookie.domain, data.cookie.secure);\n    }\n  }\n});

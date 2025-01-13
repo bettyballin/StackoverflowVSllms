@@ -1,1 +1,0 @@
-// In processform.aspx\nif (!IsValidForm())\n{\n    Server.Transfer("form.html");\n}\nelse\n{\n    Response.Redirect("success.html");\n}\n\n// Note: IsValidForm() is a method that validates the form data

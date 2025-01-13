@@ -1,0 +1,1 @@
+require 'rspec/mocks'\n\ndef test_adding_task_to_project\n  p = Project.new\n  task = double('Task', name: 'paint fence')\n  expect(p.tasks).to receive(:build).with({name: 'paint fence'})\n  p.new_tasks_attributes = [{ "name" => "paint fence"}]\n  p.save\n  assert p.tasks.length == 1\nend

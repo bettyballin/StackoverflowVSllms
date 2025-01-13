@@ -1,1 +1,0 @@
-public class Use : TextGame.Commands.ACommand, TextGame.Commands.ICommand\n{\n    public override string Name { get; set; }\n    public override string Description { get; set; }\n    public override string Params { get; set; }\n\n    // ...\n}

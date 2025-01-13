@@ -1,1 +1,0 @@
-public async Task SendHtmlViaEmail(string url, string recipientEmail)\n{\n    var html = await GetHtmlFromUrl(url);\n    var message = new MailMessage\n    {\n        Body = html,\n        IsBodyHtml = true,\n        To = { recipientEmail }\n    };\n    using (var smtpClient = new SmtpClient())\n    {\n        smtpClient.Send(message);\n    }\n}

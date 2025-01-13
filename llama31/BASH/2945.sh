@@ -1,1 +1,0 @@
-sudo zypper install libXi-devel

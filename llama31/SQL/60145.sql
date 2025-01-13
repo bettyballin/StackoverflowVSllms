@@ -1,0 +1,1 @@
+SELECT DATE_FORMAT('2009-01-01', '%M %Y') AS formatted_date;

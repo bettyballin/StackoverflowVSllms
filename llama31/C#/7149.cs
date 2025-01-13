@@ -1,1 +1,0 @@
-try {\n  // code that might throw an exception\n} catch (Exception ex) {\n  return Json(new { Message = ex.Message }, JsonRequestBehavior.AllowGet);\n}

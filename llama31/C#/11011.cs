@@ -1,1 +1,0 @@
-List<string> myList = new List<string>();\nmyList.Add("Item 1");\nmyList.Add("Item 2");\nmyList.Add("Item 3");\n\nforeach (string item in myList)\n{\n    Console.WriteLine(item);\n}

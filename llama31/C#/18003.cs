@@ -1,1 +1,0 @@
-Bitmap buffer = new Bitmap(width, height);\nusing (Graphics g = Graphics.FromImage(buffer))\n{\n    // Draw everything except the rectangle to the buffer\n}\n\n// Draw the rectangle on the screen\ngraphics.DrawRectangle(p, innerRectangle);\nSystem.Threading.Thread.Sleep(75);\n\n// "Clear" the rectangle by drawing the buffered graphic\ngraphics.DrawImage(buffer, 0, 0);

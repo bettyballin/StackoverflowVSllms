@@ -1,0 +1,1 @@
+Option Strict On\nOption Infer O

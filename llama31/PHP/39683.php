@@ -1,0 +1,1 @@
+$fp = gzopen($linkToXmlFile, 'r');\n$xml = new XMLReader();\n$xml->XML($fp);\n\n// Now you can use the XMLReader object to parse the XML file\nwhile ($xml->read()) {\n    // Do something with the XML data\n}\n\n$xml->close();\ngzclose($fp);

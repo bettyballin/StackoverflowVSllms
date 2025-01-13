@@ -1,0 +1,1 @@
+// Assuming you have an element with id "myElement"\nvar element = document.getElementById("myElement");\n\n// Add a new class\nelement.classList.add("newClass");\n\n// Remove an existing class\nelement.classList.remove("oldClass");\n\n// Toggle a class (add if it doesn't exist, remove if it does)\nelement.classList.toggle("toggleClass");

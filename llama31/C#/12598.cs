@@ -1,1 +1,0 @@
-using System.IO;\n\nstring basePath = @"C:\Base\Path";\nstring userInput = "Some User Input";\nstring datePart = DateTime.Now.ToString("yyyy-MM-dd");\n\nstring fullPath = Path.Combine(basePath, userInput, datePart, "file.txt");\n\nConsole.WriteLine(fullPath); // Output: C:\Base\Path\Some User Input\2023-02-20\file.txt

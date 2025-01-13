@@ -1,0 +1,1 @@
+$directoryPath = dirname(__FILE__);\necho $directoryPath;

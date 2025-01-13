@@ -1,1 +1,0 @@
-protected void cvTerms_ServerValidate(object source, ServerValidateEventArgs args)\n{\n    args.IsValid = chkTerms.Checked;\n}

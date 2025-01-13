@@ -1,0 +1,1 @@
+CREATE TABLE Triggers (\n    Id INT PRIMARY KEY,\n    TriggerType TINYINT NOT NULL, -- 1 = manual, 2 = timed\n    NextExecution DATETIME NULL,\n    -- other columns...\n);\n\nCREATE UNIQUE INDEX IX_NextExecution ON Triggers (NextExecution);\n\n-- Windows service polling query\nSELECT * FROM Triggers\nWHERE TriggerType = 2 AND NextExecution <= GETDATE();

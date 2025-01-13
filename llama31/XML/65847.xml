@@ -1,0 +1,1 @@
+<sequence minOccurs="0" maxOccurs="unbounded">\n  <element ref="tns:A" />\n  <choice>\n    <element ref="tns:B" />\n    <element ref="tns:C" />\n    <element ref="tns:D" />\n    <!-- add more elements as needed -->\n  </choice>\n</sequence>

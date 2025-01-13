@@ -1,1 +1,0 @@
-string[] objects = { "John", "Doe", "Jane", "Smith" };\nDictionary<ulong, object> index = new Dictionary<ulong, object>();\n\nforeach (string obj in objects)\n{\n    ulong hash = Fnv1aHash(obj);\n    index[hash] = obj;\n}\n\n// Retrieve an object by its hash\nstring retrievedObj = (string)index[FNV1aHash("John")];

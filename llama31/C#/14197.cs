@@ -1,1 +1,0 @@
-using System.Text.RegularExpressions;\n\npublic static string[] SplitCapsDelimitedString(string input)\n{\n    return Regex.Replace(input, @"(\w)([A-Z])", "$1 $2").Split(' ');\n}\n\n// Usage:\nstring input = "ThisIsMyCapsDelimitedString";\nstring[] result = SplitCapsDelimitedString(input);\nConsole.WriteLine(string.Join(" ", result)); // Output: "This Is My Caps Delimited String"

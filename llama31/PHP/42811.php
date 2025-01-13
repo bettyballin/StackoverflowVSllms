@@ -1,0 +1,1 @@
+// Set the user ID in a session variable\n$_SESSION['uid'] = $uid;\n\n// Access the user ID in another script\n$uid = $_SESSION['uid'];

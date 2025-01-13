@@ -1,0 +1,1 @@
+function checkAvailability(){\n    debugger;\n    // your code here\n}

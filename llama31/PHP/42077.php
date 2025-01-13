@@ -1,0 +1,1 @@
+$mail->SMTPSecure = 'tls';\n$mail->Port = 587; // Update the port number

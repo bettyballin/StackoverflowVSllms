@@ -1,1 +1,0 @@
-gcc -Wall -Wno-unknown-pragmas your_file.c

@@ -1,0 +1,1 @@
+function joinPath($path1, $path2) {\n    return rtrim($path1, DIRECTORY_SEPARATOR) . DIRECTORY_SEPARATOR . ltrim($path2, DIRECTORY_SEPARATOR);\n}

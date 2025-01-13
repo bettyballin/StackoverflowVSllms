@@ -1,1 +1,0 @@
-div.container {\n  width: 500px;\n}\n\ndiv.left {\n  float: left;\n  clear: left;\n}\n\ndiv.right {\n  float: right;\n  clear: right;\n}\n\ndiv.wrapper {\n  overflow: hidden;\n}\n\ndiv.wrapper div.left,\ndiv.wrapper div.right {\n  margin-bottom: 20px;\n}

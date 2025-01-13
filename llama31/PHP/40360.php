@@ -1,0 +1,1 @@
+<?php\n\ndefine('MENU_DEFAULT_VALUE', 'menu_default_value');\ndefine('ODP_DEFAULT_VALUE', 'odp_default_value');\n\nfunction ftw($foo = 'pwnage', $nub = MENU_DEFAULT_VALUE, $odp = ODP_DEFAULT_VALUE) {\n    // lots_of_awesome_code\n    echo "foo: $foo, nub: $nub, odp: $odp\n";\n}\n\nftw();\n\n?>

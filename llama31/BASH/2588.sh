@@ -1,1 +1,0 @@
-scp /path/to/export/zeus.dmp user@new-instance:/path/to/import

@@ -1,1 +1,0 @@
-#include <Windows.h>\n\nint main() {\n    WinExec("notepad.exe", SW_SHOWNORMAL);\n    return 0;\n}

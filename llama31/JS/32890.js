@@ -1,0 +1,1 @@
+function findInArray(arr, searchStr) {\n  const regex = typeof searchStr === 'function' ? searchStr : RegExp(searchStr, 'g');\n  const indices = [];\n\n  for (let i = 0; i < arr.length; i++) {\n    if (regex.test(arr[i])) {\n      indices.push(i);\n    }\n  }\n\n  return indices;\n}

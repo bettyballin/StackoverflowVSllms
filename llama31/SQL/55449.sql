@@ -1,0 +1,1 @@
+CREATE INDEX idx_id ON TEST (id);\nCREATE INDEX idx_name ON TEST (name);

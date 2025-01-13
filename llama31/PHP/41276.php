@@ -1,0 +1,1 @@
+class User extends AppModel {\n    public $hasMany = array('Post');\n}\n\nclass Post extends AppModel {\n    public $belongsTo = array('User');\n}

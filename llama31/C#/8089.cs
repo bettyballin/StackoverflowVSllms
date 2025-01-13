@@ -1,1 +1,0 @@
-using System.Reflection;\n\n// ...\n\nType type = Type.GetType("YourNamespace.InvoiceItem");\nif (type != null)\n{\n    // ReSharper should be able to resolve the symbol now\n    InvoiceItem invoiceItems = GetInvoiceItems(serviceLineItemID);\n}

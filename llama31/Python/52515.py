@@ -1,0 +1,1 @@
+import numpy as np\n\nli = np.empty(10**7, dtype=np.uint64)\n\nfor i in range(10**7):\n    li[i] = i**2\n\nprint(li.nbytes)  # prints approximately 80000000

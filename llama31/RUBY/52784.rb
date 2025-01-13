@@ -1,0 +1,1 @@
+class Entry < ActiveRecord::Base\n  # ...\n\n  validate :validate_tag_names\n\n  def validate_tag_names\n    @tag_names.split(",").each do |name|\n      tag = Tag.new(name: name.strip)\n      unless tag.valid?\n        errors.add(:tag_names, tag.errors.full_messages.join(', '))\n      end\n    end\n  end\nend

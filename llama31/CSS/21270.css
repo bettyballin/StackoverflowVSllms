@@ -1,1 +1,0 @@
-.truncate {\n  position: relative;\n  width: 200px; /* fixed width */\n  height: 20px; /* fixed height */\n  overflow: hidden;\n  white-space: nowrap;\n}\n\n.truncate::after {\n  content: "...";\n  position: absolute;\n  right: 0;\n  top: 0;\n  background-color: #fff; /* match the background color */\n  padding-left: 5px;\n}

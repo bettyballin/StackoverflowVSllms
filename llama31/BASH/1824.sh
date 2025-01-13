@@ -1,1 +1,0 @@
-:cp /path/to/your/project/bi

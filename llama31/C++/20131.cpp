@@ -1,1 +1,0 @@
-#include <lua.hpp>\n\nint main() {\n    lua_State* L = luaL_newstate();\n    luaL_openlibs(L);\n\n    std::string code = "print('Hello, World!')";\n    luaL_loadstring(L, code.c_str());\n    lua_pcall(L, 0, 0, 0);\n\n    lua_close(L);\n    return 0;\n}

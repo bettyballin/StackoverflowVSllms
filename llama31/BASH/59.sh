@@ -1,1 +1,0 @@
-openssl s_client -connect <repository-url>:443 -showcerts

@@ -1,1 +1,0 @@
-Color color = Color.Red;\nif (Enum.IsDefined(typeof(Color), color))\n{\n    // Insert or update the value in the database\n}\nelse\n{\n    // Handle invalid value\n}

@@ -1,0 +1,1 @@
+// in view.ctp\n<?php $this->set('pageTitle', $guitar['Guitar']['Name']); ?>

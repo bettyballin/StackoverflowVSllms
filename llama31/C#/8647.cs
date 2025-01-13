@@ -1,1 +1,0 @@
-public class BusinessMap : ClassMap<Business>\n{\n    public BusinessMap()\n    {\n        // ...\n\n        HasMany<Review>(x => x.Reviews)\n            .Inverse()\n            .LazyLoad()\n            .Cascade.None(); // <--- Add this line\n    }\n}

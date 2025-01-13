@@ -1,0 +1,1 @@
+RMAN> RECOVER DATABASE UNTIL SEQUENCE = <sequence number> THREAD = <thread number>;

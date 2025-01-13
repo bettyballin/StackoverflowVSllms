@@ -1,1 +1,0 @@
-ld /s /p <path_to_symbol_file>

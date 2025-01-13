@@ -1,1 +1,0 @@
-// Example Avian boot code (in C)\n#include <avian.h>\n\nint main() {\n    // Initialize Avian runtime\n    avian_init();\n    // Load Java application\n    avian_load_class("my.JavaApp");\n    // Run Java application\n    avian_run();\n    return 0;\n}

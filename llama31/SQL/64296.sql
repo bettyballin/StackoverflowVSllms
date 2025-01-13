@@ -1,0 +1,1 @@
+ALTER TABLE events \nADD CONSTRAINT fk_adr_id FOREIGN KEY (adr_id) REFERENCES addresses (adr_id) ON DELETE CASCADE;

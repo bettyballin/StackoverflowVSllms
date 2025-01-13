@@ -1,0 +1,1 @@
+function ValidateAllGroups() {\n    Page_ClientValidate("AddressGroup");\n    Page_ClientValidate("CreditCardGroup");\n    Page_ClientValidate();\n}

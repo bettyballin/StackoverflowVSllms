@@ -1,0 +1,1 @@
+INSERT IGNORE INTO pivot_table (table1ID, table2ID) VALUES (1, 2);

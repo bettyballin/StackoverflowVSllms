@@ -1,0 +1,1 @@
+DELETE FROM your_table\nWHERE date_column IS NULL;

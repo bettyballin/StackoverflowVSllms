@@ -1,1 +1,0 @@
-// C++ DLL\nint main()\n{\n    int result = MyCSharpWrapper::MyMethod(42);\n    return 0;\n}

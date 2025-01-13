@@ -1,0 +1,1 @@
+CREATE PROCEDURE claim_message()\nBEGIN\n  DECLARE message_id INT;\n\n  -- Select the first available message\n  SELECT id INTO message_id FROM messages WHERE claimed = 0 LIMIT 1;\n\n  -- Mark the message as claimed\n  UPDATE messages SET claimed = 1, claimed_by = 'current_user' WHERE id = message_id;\nEND;

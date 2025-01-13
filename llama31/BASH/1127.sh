@@ -1,1 +1,0 @@
-linkchecker -r -o broken_links.txt http://example.com

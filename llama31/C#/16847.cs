@@ -1,1 +1,0 @@
-string storedInput = // retrieve from database\nstring modifiedInput = storedInput.Replace("[LINE_BREAK]", "\n");\nstring decodedInput = HttpUtility.HtmlDecode(modifiedInput);\n\n// Display decodedInput in TextBox or HTML TextArea

@@ -1,1 +1,0 @@
-sudo -l -u username

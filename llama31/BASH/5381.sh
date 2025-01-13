@@ -1,1 +1,0 @@
-@echo off\nsetlocal\n\nset src=C:\path\to\source\directory\nset dst=\\linux-server\path\to\target\directory\n\n:loop\nrobocopy "%src%" "%dst%" /mov /mon:1 /mot:1\ngoto loop

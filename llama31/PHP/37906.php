@@ -1,0 +1,1 @@
+$fileContents = file_get_contents('yourfile.html');\n$pattern = '/<!-- widget -->(.*?)<!-- widget -->/s';\npreg_match_all($pattern, $fileContents, $matches);\n$widgets = $matches[1];\n\n// $widgets now contains an array of contents between the <!-- widget --> boundaries

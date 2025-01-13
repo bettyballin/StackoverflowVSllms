@@ -1,0 +1,1 @@
+SELECT *\nFROM customers\nLEFT OUTER JOIN orders\nON customers.customer_id = orders.customer_id;

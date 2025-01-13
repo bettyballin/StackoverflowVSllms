@@ -1,1 +1,0 @@
-open -a Terminal /path/to/your/executable

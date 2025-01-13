@@ -1,0 +1,1 @@
+SELECT i.*, \n       GROUP_CONCAT(DISTINCT u.userid SEPARATOR ',') AS idlist\nFROM items i\nLEFT JOIN (\n  SELECT itemid, userid FROM favourites\n  UNION ALL\n  SELECT id, creator FROM items\n) u ON i.id = u.itemid\nWHERE i.id = $someid\nGROUP BY i.id

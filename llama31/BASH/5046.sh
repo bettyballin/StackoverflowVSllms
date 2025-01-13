@@ -1,1 +1,0 @@
-procmon.exe /accepteula /quiet /BackingFile C:\temp\procmon.log

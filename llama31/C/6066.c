@@ -1,1 +1,0 @@
-LPVOID GetCurrentAddress()\n{\n    return (LPVOID)_ReturnAddress();\n}

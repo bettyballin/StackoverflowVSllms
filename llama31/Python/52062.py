@@ -1,0 +1,1 @@
+class_name = foo.__class__.__name__

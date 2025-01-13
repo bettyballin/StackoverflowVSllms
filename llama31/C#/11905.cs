@@ -1,1 +1,0 @@
-uint foo = 1;\nConsole.WriteLine(foo == ~0); // prints "True", but only because ~0 is implicitly converted to uint.MaxValue\nConsole.WriteLine(foo == (uint)~0); // prints "False", because ~0 is explicitly converted to uint

@@ -1,1 +1,0 @@
-.image-wrapper {\n  position: relative;\n  display: inline-block;\n}\n\n.overlay {\n  position: absolute;\n  top: 10px; /* adjust to your needs */\n  left: 10px; /* adjust to your needs */\n  z-index: 1;\n}

@@ -1,0 +1,1 @@
+import pkg_resources\n\n__import__('pkg_resources').declare_namespace(__name__)

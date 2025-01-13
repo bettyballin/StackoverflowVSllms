@@ -1,1 +1,0 @@
-cp file1 file2\ngit add file2\ngit commit -m "Copy file1 to file2"\ngit replace --graft file2 file1

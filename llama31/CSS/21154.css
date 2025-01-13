@@ -1,1 +1,0 @@
-ul {\n  display: table;\n  table-layout: fixed;\n  width: 100%; /* or any other width that suits your needs */\n  margin: 0 auto;\n}

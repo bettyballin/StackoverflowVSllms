@@ -1,0 +1,1 @@
+function adjust_link($link) {\n    $current_dir = dirname($_SERVER['PHP_SELF']);\n    if ($current_dir != '/') {\n        $link = '../' . $link;\n    }\n    return $link;\n}\n\n// Usage:\n$link = adjust_link('index.php');\necho '<a href="' . $link . '">Home</a>';

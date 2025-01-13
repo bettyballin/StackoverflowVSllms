@@ -1,0 +1,1 @@
+function confirmDelete() {\n    return confirm('Delete entry?');\n}

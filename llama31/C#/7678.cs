@@ -1,1 +1,0 @@
-public class CustomerViewModel : ViewModelBase\n{\n    // ...\n\n    private void ValidateLastName()\n    {\n        if (LastName.Length > 50)\n        {\n            Messenger.Default.Send(new ErrorMessage("Last name may only contain 50 characters."));\n        }\n    }\n}

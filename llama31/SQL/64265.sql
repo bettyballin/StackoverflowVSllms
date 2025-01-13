@@ -1,0 +1,1 @@
+CREATE TABLE example (\n  id NUMBER PRIMARY KEY,  -- P\n  name VARCHAR2(50) UNIQUE,  -- U\n  salary NUMBER CHECK (salary > 0),  -- C\n  dept_id NUMBER REFERENCES departments(id)  -- R\n);

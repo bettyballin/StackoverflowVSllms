@@ -1,0 +1,1 @@
+<filter>\n    <filter-name>CaptureOutputFilter</filter-name>\n    <filter-class>com.example.CaptureOutputFilter</filter-class>\n</filter>\n\n<filter-mapping>\n    <filter-name>CaptureOutputFilter</filter-name>\n    <url-pattern>/path/to/your/jsp.jsp</url-pattern>\n</filter-mapping>

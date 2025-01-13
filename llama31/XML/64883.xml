@@ -1,0 +1,1 @@
+<configuration>\n  <system.webServer>\n    <httpCompression>\n      <scheme name="gzip" dll="%Windir%\system32\inetsrv\gzip.dll" />\n      <fileTypes>\n        <add mimeType="application/x-ms-application" enabled="true" />\n      </fileTypes>\n    </httpCompression>\n  </system.webServer>\n</configuration>

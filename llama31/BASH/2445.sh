@@ -1,1 +1,0 @@
-sysdig -c topprocs_memory -p $(pgrep php)

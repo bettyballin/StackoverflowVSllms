@@ -1,0 +1,1 @@
+foreach ($userfolders as $uf) {\n    $uf = sprintf($uf, $user_id);\n    $uf = ltrim($uf, '/');\n    $path = trim($base . '/' . $uf);\n\n    if (file_exists($path)) {\n        $res = is_dir($path);\n        $this->assertFalse($res, $path);\n    } else {\n        $this->assertFalse(true, "Path does not exist: $path");\n    }\n}

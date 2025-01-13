@@ -1,0 +1,1 @@
+if (isset($_POST['action']) && $_POST['action'] == 'getRandomImages') {\n    $numImages = intval($_POST['numImages']);\n    echo getRandomImages($numImages);\n    exit;\n}\n\n// Your existing getRandomImages function...\nfunction getRandomImages($numImages) {\n    // Your code here...\n}

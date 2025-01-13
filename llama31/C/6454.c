@@ -1,1 +1,0 @@
-#ifndef __PROC__\n#warning ...\n#endif

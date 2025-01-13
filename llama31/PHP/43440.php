@@ -1,0 +1,1 @@
+function ipv6_binary_to_decimal($binary_ipv6) {\n  $hex_ipv6 = bin2hex($binary_ipv6);\n  $decimal_ipv6 = hexdec($hex_ipv6);\n  return $decimal_ipv6;\n}\n\nfunction ipv6_decimal_to_binary($decimal_ipv6) {\n  $hex_ipv6 = dechex($decimal_ipv6);\n  $binary_ipv6 = hex2bin($hex_ipv6);\n  return $binary_ipv6;\n}

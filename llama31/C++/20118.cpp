@@ -1,1 +1,0 @@
-void *__gxx_personality_v0(void *exception) {\n    // Simplified example; actual implementation is much more complex\n    if (/* check if exception can be handled */) {\n        // Transfer control to catch block\n        return /* address of catch block */;\n    } else {\n        // Continue unwinding\n        return _Unwind_Resume(exception);\n    }\n}

@@ -1,1 +1,0 @@
-var posting = repository.Get<Posting>(postingId);\nposting.Comments.Load();

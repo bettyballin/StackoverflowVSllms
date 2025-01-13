@@ -1,1 +1,0 @@
-[HttpPost]\npublic ActionResult Create(RegisterViewModel model)\n{\n    if (ModelState.IsValid)\n    {\n        // Create your business objects using the data from the ViewModel\n        // ...\n    }\n    // ...\n}

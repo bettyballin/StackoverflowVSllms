@@ -1,1 +1,0 @@
-robocopy /mir /mov /mon:1 C:\Local\Path \\Virtual\Machine\Path *.txt *.html

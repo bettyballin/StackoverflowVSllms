@@ -1,1 +1,0 @@
-protected void Application_Start(object sender, EventArgs e)\n{\n    // Preload assemblies\n    string[] assemblies = new string[] {\n        "YourAssembly1.dll",\n        "YourAssembly2.dll",\n        // Add more assemblies as needed\n    };\n\n    foreach (string assemblyName in assemblies)\n    {\n        Assembly assembly = Assembly.Load(assemblyName);\n    }\n}

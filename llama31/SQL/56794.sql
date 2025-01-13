@@ -1,0 +1,1 @@
+EXPLAIN PLAN FOR\nSELECT * FROM my_table WHERE column1 = 'value1';

@@ -1,0 +1,1 @@
+var img = document.createElement('img');\nimg.src = 'loading.gif'; // URL of the animated GIF image\nimg.style.display = 'none';\ndocument.body.appendChild(img);

@@ -1,0 +1,1 @@
+SELECT column1, column2\nFROM tablename\nWHERE column_name LIKE 'a%';

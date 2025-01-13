@@ -1,0 +1,1 @@
+IF EXISTS (SELECT * FROM sysobjects WHERE id = object_id('your_table_name') AND xtype = 'U')\n    DROP TABLE your_table_name;

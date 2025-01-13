@@ -1,0 +1,1 @@
+// Older technique - Not recommended unless necessary\nvar script = document.createElement('script');\nscript.src = 'includedFile.js';\ndocument.head.appendChild(script);

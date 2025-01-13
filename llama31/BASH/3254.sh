@@ -1,1 +1,0 @@
-psexec -i -s powershell -File C:\path\to\script.ps1

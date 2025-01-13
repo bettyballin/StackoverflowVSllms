@@ -1,1 +1,0 @@
-using Microsoft.Win32;\n\npublic bool IsNet35Installed()\n{\n    using (RegistryKey key = Registry.LocalMachine.OpenSubKey(@"SOFTWARE\Microsoft\NET Framework Setup\NDP\v3.5"))\n    {\n        return key != null;\n    }\n}

@@ -1,0 +1,1 @@
+UPDATE your_table\nSET Id = Id + 1\nORDER BY Id DESC;

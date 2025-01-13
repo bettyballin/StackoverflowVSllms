@@ -1,1 +1,0 @@
-protected void Page_Load(object sender, EventArgs e)\n{\n    Guid threadId = (Guid)Session["ThreadId"];\n    if (!ThreadMonitor.IsThreadRunning(threadId))\n    {\n        Response.Redirect("ScriptCompleted.aspx");\n    }\n    else\n    {\n        // Refresh the page after 5 seconds\n        Response.AddHeader("Refresh", "5");\n    }\n}

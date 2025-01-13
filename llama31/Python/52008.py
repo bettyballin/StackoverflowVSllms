@@ -1,0 +1,1 @@
+somelist = [1, 2, 3, 4, 5]\nindices_to_delete = [0, 2]\n\n# Create a new list that excludes the elements at indices 0 and 2\nnewlist = [x for i, x in enumerate(somelist) if i not in indices_to_delete]\n\nprint(newlist)  # [2, 4, 5]

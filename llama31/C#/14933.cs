@@ -1,1 +1,0 @@
-// Production code\nnamespace Company.Website.Controls\n{\n    public class MyControl\n    {\n        // ...\n    }\n}\n\n// Test code\nnamespace Company.Website.Controls.Tests\n{\n    public class MyControlTests\n    {\n        // ...\n    }\n}

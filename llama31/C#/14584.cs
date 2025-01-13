@@ -1,1 +1,0 @@
-public FilePathResult GetFilePath()\n{\n    string filePath = @"C:\path\to\example.txt";\n    return File(filePath, "application/octet-stream", "example.txt");\n}

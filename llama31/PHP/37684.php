@@ -1,0 +1,1 @@
+$array = array('apple', 'banana', 'cherry');\nforeach ($array as $key => $value) {\n    echo $key . ' ' . $value . "\n";\n}

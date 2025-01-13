@@ -1,0 +1,1 @@
+const div = document.getElementById('myid');\nconst attributes = div.attributes;\nfor (let i = 0; i < attributes.length; i++) {\n  const attribute = attributes[i];\n  console.log(`${attribute.nodeName} = ${attribute.nodeValue}`);\n}

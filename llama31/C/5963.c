@@ -1,1 +1,0 @@
-#include <stdio.h>\n\nvoid function(float *arr) {\n    printf("%f %f %f %f\n", arr[0], arr[1], arr[2], arr[3]);\n}\n\nint main() {\n    function((float[]) {1, 2, 3, 4});\n    return 0;\n}

@@ -1,1 +1,0 @@
-var entry = dbContext.ChangeTracker.Entries().Where(e => e.Entity == myEntity).FirstOrDefault();\n\nif (entry.State == EntityState.Modified)\n{\n    // myEntity has been modified\n}

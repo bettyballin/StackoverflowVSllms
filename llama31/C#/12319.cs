@@ -1,1 +1,0 @@
-string userIdString = Request.QueryString["id"];\nGuid userId = Guid.Parse(userIdString);

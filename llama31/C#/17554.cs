@@ -1,1 +1,0 @@
-svcs[0].DataContext.AttachAll(outs, true);

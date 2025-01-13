@@ -1,0 +1,1 @@
+# In your spec_helper.rb or test_helper.rb file\nrequire 'database_cleaner'\n\nRSpec.configure do |config|\n  config.before(:suite) do\n    DatabaseCleaner.strategy = :transaction\n  end\n\n  config.before(:each) do\n    DatabaseCleaner.start\n  end\n\n  config.after(:each) do\n    DatabaseCleaner.clean\n  end\nend

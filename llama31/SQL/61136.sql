@@ -1,0 +1,1 @@
+CREATE FUNCTION AddTwoNumbers (@a int, @b int)\nRETURNS int\nAS\nBEGIN\n    RETURN @a + @b\nEND\nGO

@@ -1,1 +1,0 @@
-// Parent process\npid_t pid = fork();\nif (pid == 0) {\n    // Child process\n    // To join the same process group as the parent:\n    // do nothing\n\n    // To join a different process group:\n    setpgid(0, new_pgid);\n\n    // To become a session leader (new process group):\n    setsid();\n\n    execve(...);\n}

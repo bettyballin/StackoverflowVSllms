@@ -1,0 +1,1 @@
+<configuration>\n  <system.web>\n    <urlrewritingnet>\n      <rewriteRules>\n        <add name="ContentRewrite" virtualUrl="^~/Content/Articles/([0-9]+)/(.*)" \n             rewriteUrlParameter="Id" \n             destinationUrl="~/viewContent.aspx?Id=$1" />\n      </rewriteRules>\n    </urlrewritingnet>\n  </system.web>\n</configuration>

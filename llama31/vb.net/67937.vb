@@ -1,0 +1,1 @@
+Sub TestIsLeapYear()\n    Debug.Print IsLeapYear(2020) ' True\n    Debug.Print IsLeapYear(2019) ' False\nEnd Sub

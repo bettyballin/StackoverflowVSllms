@@ -1,0 +1,1 @@
+Dim myString As String = mydll.GetString()\nmyString = myString.Trim(vbNullChar)

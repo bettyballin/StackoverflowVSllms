@@ -1,0 +1,1 @@
+SELECT \n    CAST(DateField AS DATE) + CAST(TimeField AS TIME) AS CombinedDateTime\nFROM \n    YourTable;

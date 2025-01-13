@@ -1,1 +1,0 @@
-ilmerge /target:winexe /out:MyApp.exe MyApp.exe MyDll1.dll MyDll2.dll

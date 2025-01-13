@@ -1,1 +1,0 @@
-repoquery -l package_name

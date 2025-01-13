@@ -1,1 +1,0 @@
-awk -F '|' '{print NR, NF-1}' records.txt | awk '$2 != 35'

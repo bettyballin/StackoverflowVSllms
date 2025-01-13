@@ -1,1 +1,0 @@
-# Edit SSH configuration file\nsudo nano /etc/ssh/sshd_config\n\n# Change the default port (22) to a non-standard port (e.g., 2222)\nPort 2222\n\n# Limit access to specific IP addresses\nAllowUsers your_username@your_ip_address\n\n# Restart SSH service\nsudo service ssh restart

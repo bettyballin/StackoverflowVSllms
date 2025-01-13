@@ -1,0 +1,1 @@
+import os\nimport select\n\n# Create a pipe\nr, w = os.pipe()\n\n# ... do something with the pipe ...\n\n# Check if there's data to read without blocking\nrlist, _, _ = select.select([r], [], [], 0)  # timeout=0 means non-blocking\nif rlist:\n    # There's data to read, read it\n    data = os.read(r, 1024)\n    print(data)\nelse:\n    print("Pipe is empty")

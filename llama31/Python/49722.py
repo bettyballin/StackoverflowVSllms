@@ -1,0 +1,1 @@
+f = open(locfile, "rb")\nftp.storbinary("STOR %s" % ftpfile, f)

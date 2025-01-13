@@ -1,0 +1,1 @@
+-- Create an SSIS package to transfer the data\n-- This requires creating a new SSIS project in Visual Studio\n-- and designing a package with an OLE DB Source and OLE DB Destinatio

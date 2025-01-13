@@ -1,0 +1,1 @@
+$cipher = 'AES-256-CBC';\n$key = 'your_secret_key';\n$encrypted_data = openssl_encrypt($data, $cipher, $key, 0, $iv);

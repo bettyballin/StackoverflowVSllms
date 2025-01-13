@@ -1,0 +1,1 @@
+from cryptography.fernet import Fernet\n\nkey = Fernet.generate_key()\ncipher_suite = Fernet(key)\n\npassword = "mysecretpassword"\ncipher_text = cipher_suite.encrypt(password.encode())\n\nprint(cipher_text)

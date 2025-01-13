@@ -1,0 +1,1 @@
+$.ajax({\n  type: 'GET',\n  url: 'https://api.twitter.com/1.1/users/show.json',\n  beforeSend: function(xhr) {\n    xhr.setRequestHeader('Authorization', 'Bearer INVALID_TOKEN');\n  }\n})

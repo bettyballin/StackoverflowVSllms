@@ -1,0 +1,1 @@
+SELECT \n  Col1, \n  Col2, \n  CASE \n    WHEN Col1 = 'AAA' THEN Col2 \n    WHEN Col1 = 'BBB' THEN Col2 * 2 \n  END AS Col3\nFROM \n  YourTable

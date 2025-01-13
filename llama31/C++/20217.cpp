@@ -1,1 +1,0 @@
-HRESULT CoCreateInstance(\n  REFCLSID rclsid,      // CLSID of the object to create\n  LPUNKNOWN pUnkOuter,  // Outer IUnknown pointer (can be NULL)\n  DWORD dwClsContext,   // Context for the object creation\n  REFIID riid,          // IID of the interface to retrieve\n  LPVOID *ppv           // Pointer to the retrieved interface\n);

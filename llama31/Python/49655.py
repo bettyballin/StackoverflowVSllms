@@ -1,0 +1,1 @@
+import urllib2\n\nresponse = urllib2.urlopen('http://example.com')\nhtml_string = response.read()\n\n# Now you can perform regex operations on html_string\nimport re\nmatches = re.findall(r'your_pattern_here', html_string)

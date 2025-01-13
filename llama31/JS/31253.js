@@ -1,0 +1,1 @@
+// Example using the official Google Maps JavaScript API\nfunction initMap() {\n  const map = new google.maps.Map(document.getElementById('map'), {\n    center: { lat: 37.7749, lng: -122.4194 },\n    zoom: 13,\n  });\n}

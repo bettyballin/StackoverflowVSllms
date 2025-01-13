@@ -1,1 +1,0 @@
-public class MyClass\n{\n    private static readonly object _lock = new object();\n    private static int _sharedVariable;\n\n    public static void StaticMethod()\n    {\n        lock (_lock)\n        {\n            _sharedVariable = 10;\n        }\n    }\n}

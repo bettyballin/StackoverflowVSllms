@@ -1,1 +1,0 @@
-string userInput = "Hello"; // validated user input\nstring formattedString = String.Format("You entered: {0}", userInput);

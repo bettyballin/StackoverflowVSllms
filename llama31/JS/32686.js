@@ -1,0 +1,1 @@
+$('#fileupload').fileupload({\n  url: '/upload',\n  dataType: 'json',\n  done: function (e, data) {\n    console.log('File uploaded successfully!');\n  },\n  progressall: function (e, data) {\n    const progress = parseInt(data.loaded / data.total * 100, 10);\n    console.log(`Uploaded ${progress}%`);\n    // Update your progress bar here\n  },\n});

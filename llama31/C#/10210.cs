@@ -1,1 +1,0 @@
-// When storing dates in your database\nDateTime utcDate = DateTime.UtcNow;\n\n// When retrieving dates from your webservice\nDateTime utcDate = DateTime.ParseExact(dateString, "yyyy-MM-dd HH:mm:ss", CultureInfo.InvariantCulture, DateTimeStyles.AssumeUniversal);

@@ -1,1 +1,0 @@
-public class Global : System.Web.HttpApplication\n{\n    protected void Application_Start(object sender, EventArgs e)\n    {\n        PluginLoader pluginLoader = new PluginLoader(Server.MapPath("~/Plugins"));\n        pluginLoader.LoadPlugins();\n    }\n}

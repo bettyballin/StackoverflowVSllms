@@ -1,0 +1,1 @@
+<config>\n  <server>\n    <name>localhost</name>\n    <description>My IRC Server</description>\n    <port>6667</port>\n  </server>\n  <admin>\n    <nick>admin</nick>\n    <password>password</password>\n  </admin>\n  <channels>\n    <channel>\n      <name>#main</name>\n      <topic>Welcome to my IRC server!</topic>\n    </channel>\n  </channels>\n</config>

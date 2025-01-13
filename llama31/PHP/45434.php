@@ -1,0 +1,1 @@
+use PhpTransliterator\Transliterator;\n\n$transliterator = new Transliterator();\n\n$clean_input = $transliterator->transliterate($clean_input);

@@ -1,1 +1,0 @@
-#include <stdio.h>\n\nint main() {\n    FILE* file = fopen("example.txt", "r");\n    if (file == NULL) {\n        printf("Failed to open file\n");\n        return 1;\n    }\n\n    // Read from the file\n    char buffer[1024];\n    fread(buffer, 1, 1024, file);\n\n    fclose(file);\n    return 0;\n}

@@ -1,1 +1,0 @@
-protected void DetailsView1_ItemInserting(object sender, DetailsViewInsertEventArgs e)\n{\n    AsyncFileUpload fileUpload = (AsyncFileUpload)DetailsView1.FindControl("AsyncFileUpload1");\n    if (fileUpload.HasFile)\n    {\n        // Get the uploaded file\n        HttpPostedFile file = fileUpload.PostedFile;\n        // Process the file as needed\n    }\n}

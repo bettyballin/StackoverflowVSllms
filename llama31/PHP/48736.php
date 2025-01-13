@@ -1,0 +1,1 @@
+unset($queryVars['year']);\n$newQueryString = http_build_query($queryVars);

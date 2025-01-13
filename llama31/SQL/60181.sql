@@ -1,0 +1,1 @@
+DELETE TOP (1) \nFROM YourTableName;

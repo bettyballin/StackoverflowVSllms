@@ -1,0 +1,1 @@
+SELECT \n    EXISTS(\n        SELECT 1 \n        FROM INFORMATION_SCHEMA.TABLES \n        WHERE table_name = 'your_table_name' AND table_schema = 'your_schema_name'\n    ) AS table_exists;

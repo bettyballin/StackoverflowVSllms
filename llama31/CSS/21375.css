@@ -1,1 +1,0 @@
-* {\n  box-sizing: border-box;\n  -moz-box-sizing: border-box;\n  -webkit-box-sizing: border-box;\n}\n\ndiv {\n  display: inline-block;\n  vertical-align: top;\n}\n\ninput, select {\n  width: 100%;\n  -ms-box-sizing: border-box;\n  -moz-box-sizing: border-box;\n  -webkit-box-sizing: border-box;\n  box-sizing: border-box;\n}

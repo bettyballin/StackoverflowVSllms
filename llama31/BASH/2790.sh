@@ -1,1 +1,0 @@
-cl /MT example.cpp

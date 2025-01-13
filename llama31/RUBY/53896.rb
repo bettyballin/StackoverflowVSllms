@@ -1,0 +1,1 @@
+require 'csv'\nrequire 'open-uri'\n\nurl = 'http://www.testing.com/test.csv'\nrecords = CSV.read(open(url), :headers => true, :header_converters => :symbol)

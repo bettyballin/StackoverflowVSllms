@@ -1,1 +1,0 @@
-sed 'N;N;s/\n/,/g' yourfile.txt

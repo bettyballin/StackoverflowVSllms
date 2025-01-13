@@ -1,0 +1,1 @@
+Dim vProcessInfo As New ProcessStartInfo\nDim p As New Process\n\nFor i As Integer = 1 To 100\n    vProcessInfo.Arguments = "some" + i.ToString()\n    p.StartInfo = vProcessInfo\n    p.Start()\n    p.WaitForExit()\n    p.Close()\n    p.Dispose() ' Add this to properly dispose the process\nNext i

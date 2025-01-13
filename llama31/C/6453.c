@@ -1,1 +1,0 @@
-hash_table* ht = malloc(sizeof(hash_table));\nif (ht == NULL) {\n    // handle memory allocation error\n}\n\nht->size = 101;\nht->table = malloc(sizeof(bucket*) * ht->size);\nif (ht->table == NULL) {\n    // handle memory allocation error\n}

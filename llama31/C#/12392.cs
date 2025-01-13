@@ -1,1 +1,0 @@
-using System.Runtime.InteropServices;\nusing System.Security.Permissions;\n\n[ComVisible(true)]\n[SecurityPermission(SecurityAction.Demand, UnmanagedCode = true)]\npublic class MyNetComponent : IMyNetComponent\n{\n    // ...\n}

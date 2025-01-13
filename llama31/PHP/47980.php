@@ -1,0 +1,1 @@
+// file1.php\nif (isset($_POST['button1'])) {\n    $result = processInformation();\n    $_SESSION['result'] = $result;\n    header('Location: file2.php');\n    exit;\n}\n\n// file2.php\n$result = $_SESSION['result'];\necho $result;

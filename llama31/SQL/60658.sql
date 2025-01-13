@@ -1,0 +1,1 @@
+SELECT \n    CASE \n        WHEN ISNUMERIC('123') = 1 THEN CAST('123' AS INT)\n        ELSE NULL\n    END AS ConvertedToInt

@@ -1,1 +1,0 @@
-// ValueObjects.cs\nnamespace DddExample.Domain\n{\n    public class Money : ValueObject\n    {\n        public decimal Amount { get; private set; }\n        public string Currency { get; private set; }\n\n        public Money(decimal amount, string currency)\n        {\n            Amount = amount;\n            Currency = currency;\n        }\n    }\n}

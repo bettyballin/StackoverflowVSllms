@@ -1,0 +1,1 @@
+SELECT *\nFROM your_table\nWHERE MY_DATE >= DATEADD(year, -1, GETDATE())\n  AND DATEPART(month, MY_DATE) = DATEPART(month, GETDATE())

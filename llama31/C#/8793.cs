@@ -1,1 +1,0 @@
-public class LogRun\n{\n    public virtual int Id { get; private set; }\n    public virtual DateTime StartTime { get; set; }\n    public virtual DateTime EndTime { get; set; }\n    public virtual IList<Log> LogMessages { get; set; } = new List<Log>();\n    public virtual int LogMessageCount => LogMessages.Count;\n}

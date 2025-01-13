@@ -1,0 +1,1 @@
+var xhr = new XMLHttpRequest();\nxhr.open('GET', url, true);\nxhr.mozAnon = true; // Firefox only\nxhr.msie = true; // Internet Explorer only\nxhr.onload = function() {\n  if (xhr.status >= 300 && xhr.status < 400) {\n    // Handle redirect status code\n  } else {\n    // Handle non-redirect status code\n  }\n};\nxhr.send();

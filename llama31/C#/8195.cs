@@ -1,1 +1,0 @@
-System.Diagnostics.Trace.WriteLine(obj.ToString());

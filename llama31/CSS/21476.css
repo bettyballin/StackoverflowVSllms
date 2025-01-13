@@ -1,1 +1,0 @@
-body::before {\n  content: '';\n  position: absolute;\n  top: 0;\n  left: 0;\n  width: 100%;\n  height: 100%;\n  margin: -1px; /* to compensate for the body margin */\n  padding: 1px; /* to include the body margin */\n  box-sizing: border-box;\n  z-index: -1; /* to stack it below the body content */\n}\n\n.cover-div {\n  position: relative;\n  z-index: 1;\n}

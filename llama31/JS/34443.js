@@ -1,0 +1,1 @@
+$("body").on("click", "button", function() {\n    alert("Button clicked!");\n});

@@ -1,1 +1,0 @@
-#include <chrono>\n\nauto start_time = std::chrono::high_resolution_clock::now();\nfor (blah; blah; blah) {\n    Blah();\n    auto current_time = std::chrono::high_resolution_clock::now();\n    auto elapsed_time = std::chrono::duration_cast<std::chrono::milliseconds>(current_time - start_time).count();\n    if (elapsed_time >= 30) {\n        break;\n    }\n}

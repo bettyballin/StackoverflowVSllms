@@ -1,1 +1,0 @@
-throw new WebFaultException<MyErrorResponse>(new MyErrorResponse { ErrorMessage = ex.Message }, HttpStatusCode.InternalServerError);

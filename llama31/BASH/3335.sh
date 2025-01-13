@@ -1,1 +1,0 @@
-diff --unchanged file1 file2 > common12\ndiff3 --unchanged file1 file2 file3 > common123\ncomm -12 common12 common123 > common_lines

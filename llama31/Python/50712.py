@@ -1,0 +1,1 @@
+result = ', '.join([str(obj) for obj in list])

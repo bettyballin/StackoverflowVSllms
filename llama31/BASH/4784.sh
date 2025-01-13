@@ -1,1 +1,0 @@
-erl -name fred@ipaddress -setcookie YOUR_COOKIE_VALUE

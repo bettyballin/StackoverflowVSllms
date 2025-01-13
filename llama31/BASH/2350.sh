@@ -1,1 +1,0 @@
-# Example Apache JMeter command\njmeter -n -t path/to/your/test.jmx -l path/to/your/results.jtl -j path/to/your/jmeter.log

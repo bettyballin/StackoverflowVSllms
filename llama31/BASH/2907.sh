@@ -1,1 +1,0 @@
-iostat | sed --unbuffered | netcat

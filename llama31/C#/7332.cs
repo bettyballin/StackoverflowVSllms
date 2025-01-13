@@ -1,1 +1,0 @@
-using System;\n\nclass FrameworkVersion\n{\n    static void Main(string[] args)\n    {\n        Console.WriteLine("Installed .NET Framework versions:");\n        foreach (var version in System.AppDomain.CurrentDomain.GetAssemblies())\n        {\n            Console.WriteLine(version.ImageRuntimeVersion);\n        }\n    }\n}

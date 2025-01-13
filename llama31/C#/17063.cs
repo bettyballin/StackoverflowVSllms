@@ -1,1 +1,0 @@
-string[] dllFiles = Directory.GetFiles(@"C:\Reports", "*.dll");\n\nforeach (string dllFile in dllFiles)\n{\n    Assembly assembly = Assembly.LoadFrom(dllFile);\n    // ...\n}

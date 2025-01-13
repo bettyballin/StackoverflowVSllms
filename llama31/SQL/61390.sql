@@ -1,0 +1,1 @@
+CREATE TABLE quotes (\n  id INT PRIMARY KEY,\n  customer_id INT\n);\n\nCREATE TABLE quote_items (\n  id INT PRIMARY KEY,\n  quote_id INT,\n  product_name VARCHAR(255),\n  quantity INT,\n  price DECIMAL(10, 2)\n);

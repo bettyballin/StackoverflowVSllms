@@ -1,1 +1,0 @@
-using Microsoft.Build.Evaluation;\n\n// Get the project path\nstring projectPath = @"C:\Path\To\Your\Project.csproj";\n\n// Create a new project instance\nProject project = new Project(projectPath);\n\n// Check if the project is up-to-date\nbool isUpToDate = project.IsUpToDate();\n\nif (!isUpToDate)\n{\n    // The project is not up-to-date, you need to rebuild it\n}

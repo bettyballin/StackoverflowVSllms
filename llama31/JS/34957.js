@@ -1,0 +1,1 @@
+function getProducts(Category) {\n  $.ajax({\n    type: "GET",\n    url: "getInfo.cfm",\n    data: "Action=getProducts&Category=" + Category,\n    success: function(result){\n      $("#Products").html(result);\n      $("#Products").val(""); // set the selected value to the first option\n    }\n  });\n};

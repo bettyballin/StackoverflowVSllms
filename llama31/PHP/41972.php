@@ -1,0 +1,1 @@
+$ch = curl_init();\ncurl_setopt($ch, CURLOPT_URL, 'https://example.com/xml');\ncurl_setopt($ch, CURLOPT_RETURNTRANSFER, true);\n$response = curl_exec($ch);\ncurl_close($ch);\n\n$xml = simplexml_load_string($response);

@@ -1,1 +1,0 @@
-interface ScriptingEngine {\n    void eval(string code);\n    string readFile(string filename);\n    // Add more methods as needed\n}

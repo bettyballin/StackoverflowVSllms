@@ -1,1 +1,0 @@
-using System.Web;\n\nprotected void ResetButton_Click(object sender, EventArgs e)\n{\n    HttpRuntime.UnloadAppDomain();\n}

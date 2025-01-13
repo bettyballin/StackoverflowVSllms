@@ -1,0 +1,1 @@
+<?php\ndl('myextension.so');\necho my_extension_function();\n?>

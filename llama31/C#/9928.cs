@@ -1,1 +1,0 @@
-User user = DB.Select().From(User.Schema)\n    .Where(User.PasswordColumn).IsEqualTo(password)\n    .And(User.SINumberColumn).IsEqualTo(siNumber)\n    .Single<User>();

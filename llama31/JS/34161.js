@@ -1,0 +1,1 @@
+const evtSource = new EventSource('your_script_url');\n\nevtSource.onmessage = function(event) {\n  console.log(event.data); // prints "A", "B", "C", etc.\n};

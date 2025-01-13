@@ -1,0 +1,1 @@
+WITH numbered_rows AS (\n  SELECT col1, ROW_NUMBER() OVER (ORDER BY col1) AS row_num\n  FROM tbl1\n)\nSELECT \n  MAX(CASE WHEN row_num % 3 = 1 THEN col1 END) AS col1,\n  MAX(CASE WHEN row_num % 3 = 2 THEN col1 END) AS col2,\n  MAX(CASE WHEN row_num % 3 = 0 THEN col1 END) AS col3\nFROM numbered_rows\nGROUP BY FLOOR((row_num - 1) / 3)

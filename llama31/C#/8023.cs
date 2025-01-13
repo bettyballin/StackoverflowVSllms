@@ -1,1 +1,0 @@
-[RequireHttps]\npublic ActionResult SecureAction()\n{\n    //...\n}

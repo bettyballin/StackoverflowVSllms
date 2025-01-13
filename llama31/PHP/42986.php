@@ -1,0 +1,1 @@
+$client->setParameterGet(array(\n    'action' => 'search',\n    'srsearch' => 'Stadium Name', // replace with your stadium name\n    'format' => 'json'\n));\n\n$response = $client->request();\n$data = json_decode($response->getBody(), true);\n\n// loop through the search results\nforeach ($data['query']['search'] as $result) {\n    // process each result\n}

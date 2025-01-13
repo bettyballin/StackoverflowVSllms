@@ -1,1 +1,0 @@
-public class UserRepository : IUserRepository\n{\n    private readonly UnitOfWork _unitOfWork;\n\n    public UserRepository(UnitOfWork unitOfWork)\n    {\n        _unitOfWork = unitOfWork;\n    }\n\n    public User GetByID(string userID)\n    {\n        return _unitOfWork.Session.Get<User>(userID);\n    }\n}

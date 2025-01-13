@@ -1,1 +1,0 @@
-protected void _Build_Click(object sender, EventArgs e)\n{\n    if (Build.IsBuilding) return;\n    ThreadPool.QueueUserWorkItem(state => Build.DoBuild());\n}

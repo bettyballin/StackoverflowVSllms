@@ -1,1 +1,0 @@
-keytool -genkey -keyalg RSA -alias your_server_name -keystore your_keystore_name.jks -storepass your_password -keypass your_password

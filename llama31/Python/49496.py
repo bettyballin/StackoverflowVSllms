@@ -1,0 +1,1 @@
+def f(n):\n    if n == 1:\n        return 2\n    elif n == 2:\n        return 3\n    else:\n        return f(n-1) + f(n-2)

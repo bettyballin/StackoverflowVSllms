@@ -1,1 +1,0 @@
-// mydll.cpp\n#include "mydll.h"\n\nint add(int a, int b) {\n    return a + b;\n}

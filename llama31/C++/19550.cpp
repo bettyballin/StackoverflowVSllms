@@ -1,1 +1,0 @@
-MyStringStream str("Hello World");\nstr << " Foo Bar";\nstd::string result = str.str();

@@ -1,0 +1,1 @@
+// Before (multiple entry points)\n// login.php, register.php, etc.\n\n// After (single entry point)\n// index.php\nrequire_once 'FrontController.php';\n$frontController = new FrontController();\n$frontController->dispatch();

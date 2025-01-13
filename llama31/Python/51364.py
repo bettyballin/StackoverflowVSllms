@@ -1,0 +1,1 @@
+import socket\n\ndef receive_data_from_socket_server(host, port):\n    sock = socket.socket(socket.AF_INET, socket.SOCK_STREAM)\n    sock.connect((host, port))\n\n    data = b''\n    while True:\n        chunk = sock.recv(4096)\n        if not chunk:\n            break\n        data += chunk\n\n    sock.close()\n    return data

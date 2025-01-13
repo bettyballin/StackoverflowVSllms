@@ -1,0 +1,1 @@
+$record = new Record($pdo->fetchObject());\necho $record->get('name'); // outputs the value of the 'name' colum

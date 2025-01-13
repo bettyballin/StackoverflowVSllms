@@ -1,1 +1,0 @@
-py-spy --pid <pid> --duration 10

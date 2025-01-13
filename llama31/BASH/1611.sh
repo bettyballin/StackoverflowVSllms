@@ -1,1 +1,0 @@
-cwebp -q 90 -m 6 -mt -o output.webp input.png

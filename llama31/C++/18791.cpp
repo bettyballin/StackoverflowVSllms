@@ -1,1 +1,0 @@
-HKEY hKey;\nRegCreateKeyEx(HKEY_CURRENT_USER, L"Software\\Classes\\PROTOCOLS\\Handler\\yourprotocol", 0, NULL, REG_OPTION_NON_VOLATILE, KEY_WRITE, NULL, &hKey, NULL);

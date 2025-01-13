@@ -1,0 +1,1 @@
+$.ajax({\n    type: 'POST',\n    url: 'ChatResponse.aspx',\n    data: { message: encodeURIComponent(message) },\n    success: function(data) {\n        // handle response\n    }\n});

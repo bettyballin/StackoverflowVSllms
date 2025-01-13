@@ -1,0 +1,1 @@
+a = [1, 2, 3, 4, 5]\n\n# Move values one position to the right\na = a[1:] + a[:1]\nprint(a)  # [2, 3, 4, 5, 1]\n\n# Move values one position to the right again\na = a[1:] + a[:1]\nprint(a)  # [3, 4, 5, 1, 2]

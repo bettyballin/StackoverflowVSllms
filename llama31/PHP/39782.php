@@ -1,0 +1,1 @@
+$w = 'world';\n$iterations = 10000;\n$runs = 10;\n\n$results = [];\n\nfor ($i = 0; $i < $runs; $i++) {\n    $start = hrtime();\n    for ($j = 0; $j < $iterations; $j++) {\n        echo 'Hello ' . $w . '!';\n    }\n    $end = hrtime();\n    $results[] = $end - $start;\n}\n\n$average = array_sum($results) / $runs;\n\necho "Concatination: " . $average . "\n";

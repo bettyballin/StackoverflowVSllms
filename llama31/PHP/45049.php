@@ -1,0 +1,1 @@
+$currentGetVars = $_GET;\n$newVar = array('newVar' => 2);\n\n$allVars = array_merge($currentGetVars, $newVar);\n\n$allPreviousVars = http_build_query($allVars);\n\necho "<a href='?" . $allPreviousVars . "'>Link</a>";

@@ -1,1 +1,0 @@
-sudo apt-get install wine\nwget http://www.tatanka.com.br/ies4linux/downloads/ies4linux-latest.tar.gz\ntar -xvf ies4linux-latest.tar.gz\ncd ies4linux-*\n./ies4linux

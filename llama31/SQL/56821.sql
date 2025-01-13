@@ -1,0 +1,1 @@
+SELECT U.userid, CA.groups_in\nFROM tbl_users U\nCROSS APPLY (\n    SELECT COUNT(*) AS groups_in\n    FROM usersgroup\n    WHERE userid = U.userid\n) CA

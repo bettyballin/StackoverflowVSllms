@@ -1,1 +1,0 @@
-bool? myBoolean = (bool?)myDataRow["MyBooleanColumn"];\nif (myBoolean.HasValue)\n{\n    // myBoolean is not null, you can use its value\n}\nelse\n{\n    // myBoolean is null, handle accordingly\n}

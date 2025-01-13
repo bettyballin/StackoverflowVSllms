@@ -1,1 +1,0 @@
-#include <io.h>\n\nint main() {\n    FILE *file = fopen("example.txt", "w");\n    if (file == NULL) {\n        // handle error\n    }\n\n    // truncate file to 10 bytes\n    if (_chsize(fileno(file), 10) != 0) {\n        // handle error\n    }\n\n    fclose(file);\n    return 0;\n}

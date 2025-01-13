@@ -1,1 +1,0 @@
-<%@ Page Language="C#" %>\n\n<%\n  // Do nothing, just return a response to keep the session alive\n  Response.StatusCode = 200;\n  Response.StatusDescription = "OK";\n  Response.End();\n%>

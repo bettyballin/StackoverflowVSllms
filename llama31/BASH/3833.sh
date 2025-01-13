@@ -1,1 +1,0 @@
-sed -i.backup -e 's/thisisthestudycodereplacethiswiththestudycode/'"$study"'/ freq.spx

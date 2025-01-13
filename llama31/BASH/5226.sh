@@ -1,1 +1,0 @@
-mklink /j c:\www\project1\htdocs c:\www\project1\svn\htdocs

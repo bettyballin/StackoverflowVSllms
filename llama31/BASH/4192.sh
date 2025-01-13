@@ -1,1 +1,0 @@
-ffmpeg -i input.ima4 -c:a pcm_s16le output.wav

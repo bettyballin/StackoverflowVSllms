@@ -1,1 +1,0 @@
-#include <sys/socket.h>\n\n// Create a listening socket\nint sockfd = socket(AF_INET, SOCK_STREAM, 0);\n\n// Set the backlog to 256\nlisten(sockfd, 256);

@@ -1,1 +1,0 @@
-public (DateTime StartTime, DateTime EndTime) RefreshData()\n{\n    // Perform data refresh\n    return (DateTime.Now, DateTime.Now.AddMinutes(1));\n}

@@ -1,0 +1,1 @@
+// Using the attr method to change the href attribute\n$("a").attr("href", "https://www.newlink.com");\n\n// Using the prop method to change the href property\n$("a").prop("href", "https://www.newlink.com");

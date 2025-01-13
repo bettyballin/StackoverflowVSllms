@@ -1,0 +1,1 @@
+-- Example to create a new user with privileges\nCREATE USER myuser IDENTIFIED BY mypassword;\nGRANT CONNECT, RESOURCE TO myuser;

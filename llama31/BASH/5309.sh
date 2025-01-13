@@ -1,1 +1,0 @@
-regsvr32 /u yourcomobject.dll\nregsvr32 yourcomobject.dll

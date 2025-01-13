@@ -1,0 +1,1 @@
+<class name="Customer" table="Customers">\n    <id name="Id" column="Id" type="Int32">\n        <generator class="native"/>\n    </id>\n    <many-to-one name="Organization" column="OrganizationId" class="Organization"/>\n    <!-- other properties -->\n</class>

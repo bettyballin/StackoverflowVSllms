@@ -1,1 +1,0 @@
-gcc -o program program.o -L/usr/lib -lXaw

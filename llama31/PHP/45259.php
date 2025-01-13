@@ -1,0 +1,1 @@
+$pages = $_POST['pages'];\n\nforeach ($pages as $page) {\n    // EXECUTE SQL HERE\n    // Use prepared statements to prevent SQL injection!\n    $stmt = $db->prepare('INSERT INTO posts (page) VALUES (:page)');\n    $stmt->bindParam(':page', $page);\n    $stmt->execute();\n}

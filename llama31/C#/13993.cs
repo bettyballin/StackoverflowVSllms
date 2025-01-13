@@ -1,1 +1,0 @@
-public partial class CustomTextBox : TextBox\n{\n    // ...\n\n    public override bool Validate()\n    {\n        if (this.Text.Trim() == "")\n        {\n            errorProvider.SetError(this, "Required field");\n            return false;\n        }\n        errorProvider.SetError(this, "");\n        return true;\n    }\n}

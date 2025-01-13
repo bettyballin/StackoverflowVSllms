@@ -1,0 +1,1 @@
+import types\n\n# ...\n\nif __name__ == "__main__":\n    myfunc1()  # prints: aDecorator, myfunc1\n\n    # replace the decorator\n    myfunc1 = types.FunctionType(myfunc1.__code__, myfunc1.__globals__, myfunc1.__name__, myfunc1.__defaults__, otherDecorator)\n\n    myfunc1()  # prints: otherDecorator, myfunc1

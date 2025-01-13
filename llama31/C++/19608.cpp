@@ -1,1 +1,0 @@
-class MyClass : public MyBaseClass {\npublic:\n    Calc* Compile(Evaluator* evaluator, ResolvedFunCall* fun_call, string* error) override;\n};

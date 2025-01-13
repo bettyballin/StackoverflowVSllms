@@ -1,0 +1,1 @@
+preg_match(\n    '/^J[0-9]{7}:\s+\n    (.*?)             #Extract the Transaction Start Date msg\n    \s+J[0-9]{7}:\s+Project\sname:\s+\n    (.*?)             #Extract the Project Name\n    \s+J[0-9]{7}:\s+Job\sname:\s+\n    (.*?)             #Extract the Job Name\n    \s+J[0-9]{7}:\s+/x',\n    $this->getResultVar('FullMessage'),\n    $atmp\n);

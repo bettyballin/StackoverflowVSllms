@@ -1,1 +1,0 @@
-curl -X POST \\n  https://www.webpagetest.org/runtest.php \\n  -H 'Content-Type: application/x-www-form-urlencoded' \\n  -d 'url=https://example.com&k=API_KEY&location=London:Chrome&location=NewYork:Firefox&runs=3'

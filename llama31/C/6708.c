@@ -1,1 +1,0 @@
-#include <gtk/gtk.h>\n\nint main(int argc, char *argv[]) {\n    gtk_init(&argc, &argv);\n\n    GdkScreen *screen = gdk_screen_get_default();\n    double dpi = gdk_screen_get_resolution(screen);\n\n    g_print("DPI: %f\n", dpi);\n\n    gtk_main_quit();\n    return 0;\n}

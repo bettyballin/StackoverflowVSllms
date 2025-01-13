@@ -1,1 +1,0 @@
-public class Basket : ISerializable\n{\n    // ...\n\n    public void GetObjectData(SerializationInfo info, StreamingContext context)\n    {\n        // Customize the serialization process\n    }\n}

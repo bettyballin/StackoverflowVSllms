@@ -1,1 +1,0 @@
-HtmlNode imageNode = linkNode.SelectSingleNode(".//img[@alt]");

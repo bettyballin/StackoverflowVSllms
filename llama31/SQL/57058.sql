@@ -1,0 +1,1 @@
+CREATE TABLE change_log (\n  id INT PRIMARY KEY,\n  user_id INT,\n  action VARCHAR(50),\n  table_name VARCHAR(50),\n  row_id INT,\n  changes TEXT,\n  timestamp TIMESTAMP DEFAULT CURRENT_TIMESTAMP\n);

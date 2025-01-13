@@ -1,0 +1,1 @@
+# Controller/user_controller.py\nfrom Model.model_factory import create_user\n\ndef get_user_data(name):\n    user = create_user(name, 'example@example.com')\n    return user.get_user_data()

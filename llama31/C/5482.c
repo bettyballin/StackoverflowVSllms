@@ -1,1 +1,0 @@
-// Compile with: gcc -Wall -Wextra -Werror example.c\n\n#include <stdio.h>\n\nint main() {\n    int x = 5 / 0; // Division by zero error\n    return 0;\n}

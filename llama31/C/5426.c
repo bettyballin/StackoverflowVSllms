@@ -1,1 +1,0 @@
-HANDLE hEvent = CreateEvent(NULL, FALSE, FALSE, NULL);\n\n// Signal the event\nSetEvent(hEvent);\n\n// Wait for the event\nWaitForSingleObject(hEvent, INFINITE);

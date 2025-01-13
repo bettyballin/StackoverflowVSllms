@@ -1,1 +1,0 @@
-XmlDocument xmlDoc = new XmlDocument();\nxmlDoc.LoadXml(GetErrorMessage());\nxmlDoc.Save(Console.Out); // just to verify the encoding\nthrow new Exception(xmlDoc.OuterXml);

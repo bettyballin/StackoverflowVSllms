@@ -1,0 +1,1 @@
+function calculateTotal(int $price, int $quantity): float {\n    return $price * $quantity;\n}

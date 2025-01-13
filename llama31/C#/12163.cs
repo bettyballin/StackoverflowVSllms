@@ -1,1 +1,0 @@
-public static DataTable ConvertXmlStringToDataTable(string xmlString)\n{\n    DataSet dsAPDP = new DataSet();\n    // Load the DataSet directly from the XML string\n    dsAPDP.ReadXml(new StringReader(xmlString));\n    // Assuming the first table in the DataSet is the one you want\n    DataTable dtAPDP = dsAPDP.Tables[0];\n    return dtAPDP;\n}

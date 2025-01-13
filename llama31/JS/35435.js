@@ -1,0 +1,1 @@
+for (i = 0; i < 3; i++) {\n  (function(index) {\n    document.getElementById("list").childNodes[i]\n      .addEventListener("click", function() {\n        foo(index);\n      }, false);\n  })(i);\n}\n\nfunction foo(index) {\n  console.log(index);\n}

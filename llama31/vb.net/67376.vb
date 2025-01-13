@@ -1,0 +1,1 @@
+Public Sub DisplayOnlyPublic(ByVal Someobject As Foo)\n    For Each prop In Someobject.GetPropertiesWithAttribute(Of ShowInDisplayAttribute)()\n        Console.WriteLine(prop.Name & "=" & prop.GetValue(Someobject, Nothing))\n    Next\nEnd Sub

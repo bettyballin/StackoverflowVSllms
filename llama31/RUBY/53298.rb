@@ -1,0 +1,1 @@
+validates_length_of :name, within: ->(record) { record.dynamic_range }\n\n# In your model, define a method that returns the dynamic range\ndef dynamic_range\n  # Assuming 'dynamic' is an attribute set by the user\n  (1..self.dynamic).to_a\nend

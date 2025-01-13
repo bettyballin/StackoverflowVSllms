@@ -1,1 +1,0 @@
-amespace Other {\n    // code in Other namespace\n}

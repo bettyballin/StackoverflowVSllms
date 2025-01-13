@@ -1,0 +1,1 @@
+Private _listOfThings As List(Of Thing) = New List(Of Thing)\n\nPublic ReadOnly Property ListOfThings() As List(Of Thing)\n    Get\n        Return _listOfThings\n    End Get\nEnd Property

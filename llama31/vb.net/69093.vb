@@ -1,0 +1,1 @@
+Dim gridViewRow As GridViewRow = FindParentControlByType(myUserControl, GetType(GridViewRow))

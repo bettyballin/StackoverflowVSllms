@@ -1,0 +1,1 @@
+SELECT *\nFROM YourTable\nWHERE YourDateColumn IS NOT NULL AND YourDateColumn NOT LIKE '[0-9][0-9]/[0-9][0-9]/[0-9][0-9][0-9][0-9]'

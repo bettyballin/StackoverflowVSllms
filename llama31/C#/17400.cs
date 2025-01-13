@@ -1,1 +1,0 @@
-public class MyClass\n{\n    [ConditionalBrowsable(PropertyName = "MyOtherProperty", PropertyValue = true)]\n    public string MyProperty { get; set; }\n\n    public bool MyOtherProperty { get; set; }\n}

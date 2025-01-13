@@ -1,0 +1,1 @@
+// your-validation-script.php\n// ... perform validation ...\n\n// Output validation messages\necho '<div id="validation-messages">';\nif ($errors) {\n  foreach ($errors as $error) {\n    echo '<p class="error">' . $error . '</p>';\n  }\n} else {\n  echo '<p class="success">Form is valid!</p>';\n}\necho '</div>';

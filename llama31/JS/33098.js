@@ -1,0 +1,1 @@
+window.open('https://example.com', '_blank', 'toolbar=no,location=no,directories=no,status=no,menubar=no,scrollbars=yes,resizable=yes');

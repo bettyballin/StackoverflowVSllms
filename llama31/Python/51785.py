@@ -1,0 +1,1 @@
+# remote_app.py\nfrom django.core.management import call_command\n\ndef get_data_from_orm(query):\n    call_command('remote_orm', query=query)

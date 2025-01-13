@@ -1,1 +1,0 @@
-cake acl grant User read\ncake acl grant Admin create\ncake acl grant Moderator update

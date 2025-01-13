@@ -1,1 +1,0 @@
-dte.ExecuteCommand("Build.BuildSolution")

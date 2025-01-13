@@ -1,1 +1,0 @@
-java -XX:+AlwaysPreTouch -jar your_app.jar

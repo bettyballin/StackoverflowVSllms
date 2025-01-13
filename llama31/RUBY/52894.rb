@@ -1,0 +1,1 @@
+render_to_string :partial => 'control', :locals => { :control => control }

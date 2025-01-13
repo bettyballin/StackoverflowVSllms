@@ -1,0 +1,1 @@
+xml.load("/swfs/123456/images.xml");

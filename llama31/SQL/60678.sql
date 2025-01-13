@@ -1,0 +1,1 @@
+WITH cte AS (\n  SELECT *, ROW_NUMBER() OVER (PARTITION BY column1 ORDER BY column1) as rn\n  FROM yourTable\n)\nSELECT * FROM cte WHERE rn = 1;

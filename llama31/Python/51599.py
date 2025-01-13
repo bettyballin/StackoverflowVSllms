@@ -1,0 +1,1 @@
+import os\nimport secrets\n\ndef secure_delete(file_path, num_overwrites=3):\n    file_size = os.path.getsize(file_path)\n    with open(file_path, 'r+b') as file:\n        for _ in range(num_overwrites):\n            file.seek(0)\n            file.write(secrets.token_bytes(file_size))\n        file.close()\n    os.remove(file_path)

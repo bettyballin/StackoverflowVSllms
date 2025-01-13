@@ -1,0 +1,1 @@
+var noscript = document.getElementsByTagName('noscript')[0];\nvar ad = noscript.innerHTML;\n// do something with the ad content

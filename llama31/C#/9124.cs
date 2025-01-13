@@ -1,1 +1,0 @@
-List<int> common = new List<int>();\nforeach (int num in a)\n{\n    if (b.Contains(num))\n    {\n        common.Add(num);\n    }\n}

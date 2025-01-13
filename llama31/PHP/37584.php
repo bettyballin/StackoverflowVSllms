@@ -1,0 +1,1 @@
+$obj = Vendor_ClassName_Helper::createWithFirstOption($var);

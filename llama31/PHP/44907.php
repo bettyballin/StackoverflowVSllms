@@ -1,0 +1,1 @@
+$query = "\n  SELECT p.*, pt.*\n  FROM produto p\n  JOIN pt ON p.refPT = pt.ref\n  JOIN amb_prod ap ON p.refPT = ap.idProduto\n  WHERE ap.idAmbiente = '1'\n";

@@ -1,1 +1,0 @@
-// WCF Service Project\nusing SharedContracts;\n\npublic class MyService\n{\n    public void ProcessUser(User user)\n    {\n        // process the user instance\n    }\n}

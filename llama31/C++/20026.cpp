@@ -1,1 +1,0 @@
-const char *simFile;\nsimFile = new char;\n//omitted\n_bstr_t simFileToOpen(simFile);\nBSTR raw_sim_Open = simFileToOpen.copy();\n\nhresult = pis8->raw_Open (raw_sim_Open);\n\nSysFreeString(raw_sim_Open); // free the BSTR string after the COM method call\ndelete simFile;

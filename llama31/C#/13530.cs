@@ -1,1 +1,0 @@
-private void LoadData()\n{\n    // Create a client instance\n    var client = new MyServiceClient();\n\n    // Get the data from the service\n    var data = client.GetData();\n\n    // Bind the data to the DataGrid\n    dataGrid.ItemsSource = data;\n}

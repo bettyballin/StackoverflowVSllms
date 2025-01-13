@@ -1,0 +1,1 @@
+$query = "SELECT IF(your_boolean_column, 'Yes', 'No') AS boolean_value FROM your_table";\n$result = mysqli_query($your_db_connection, $query);

@@ -1,1 +1,0 @@
-COleVariant vSubset = L"A1:C3"; // specify the subset range\nhr = AutoWrap(\n    DISPATCH_METHOD, \n    &result, \n    irange, \n    L"Range", \n    1, \n    vSubset);\nif (FAILED(hr)) return hr;\n\nhr = AutoWrap(\n    DISPATCH_METHOD, \n    &result, \n    result.pdispVal, \n    L"Select", \n    0);\nif (FAILED(hr)) return hr;

@@ -1,0 +1,1 @@
+var dateTextBox = new dijit.form.DateTextBox({\n  constraints: {\n    selector: function(date){\n      var day = date.getDay(); // 0 = Sunday, 1 = Monday, etc.\n      return day == 0; // only allow Sundays\n    }\n  }\n});

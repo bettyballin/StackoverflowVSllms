@@ -1,1 +1,0 @@
-int foo(int x) {\n    if (likely(x > 0)) {\n        // Do something\n    } else {\n        // Handle error case\n    }\n}

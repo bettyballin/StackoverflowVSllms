@@ -1,0 +1,1 @@
+<%= link_to(image_tag('image1.jpg'), { controller: 'images', action: 'update_image', id: image.id }, remote: true, data: { params: { image_id: image.id, some_string: 'Hello' } }) %>

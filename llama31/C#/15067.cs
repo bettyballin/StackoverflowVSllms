@@ -1,1 +1,0 @@
-[ HttpPost ]\npublic ActionResult Upload(HttpPostedFileBase file)\n{\n    // validate file type and size\n    // save file to disk or database\n    return RedirectToAction("Index");\n}

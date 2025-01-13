@@ -1,0 +1,1 @@
+SET COMMAND TIMEOUT 300;  -- sets the timeout to 5 minutes

@@ -1,1 +1,0 @@
-IQuery query = session.CreateQuery("from Customer")\n    .AddOrder(Order.Asc("Name"));\nquery.SetFirstResult(10);\nquery.SetMaxResults(20);

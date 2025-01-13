@@ -1,0 +1,1 @@
+use jamesiarmes\PhpEws\Request\FindItemType;\n\n$request = new FindItemType();\n$request->setParentFolderIds(array('Contacts'));\n$request->setItemShape(\jamesiarmes\PhpEws\Enumeration\ItemQueryTraversalType::SHALLOW);\n\n$response = $client->FindItem($request);

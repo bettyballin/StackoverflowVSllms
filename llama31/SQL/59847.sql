@@ -1,0 +1,1 @@
+START TRANSACTION;\nSELECT * FROM table WHERE status = 'new' AND id = 10;\nUPDATE table SET status = 'old' WHERE id = 10;\nCOMMIT;

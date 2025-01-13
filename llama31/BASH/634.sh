@@ -1,1 +1,0 @@
-history | grep 510 | sed '1q;d' | awk '{for(i=2;i<=NF;i++) print $i}' | pbcopy

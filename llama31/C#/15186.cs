@@ -1,1 +1,0 @@
-private void Button_Click(object sender, RoutedEventArgs e)\n{\n    var bindingGroup = BindingOperations.GetBindingGroup(this);\n    if (bindingGroup != null)\n    {\n        var validationErrors = bindingGroup.Validate();\n        if (validationErrors.Count > 0)\n        {\n            // Display the validation errors\n        }\n    }\n}

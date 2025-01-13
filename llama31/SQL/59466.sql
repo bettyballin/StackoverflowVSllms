@@ -1,0 +1,1 @@
+SELECT \n  TABLENAME,\n  ISLOCKED\nFROM \n  DBC.TABLESV\nWHERE \n  TABLENAME = 'your_table_name'\n  AND ISLOCKED = 'Y'

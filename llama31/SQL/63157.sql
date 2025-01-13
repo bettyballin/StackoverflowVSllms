@@ -1,0 +1,1 @@
+SELECT notes.*\nFROM notes\nWHERE EXISTS (\n  SELECT 1\n  FROM note_labels\n  JOIN labels ON note_labels.label_id = labels.id\n  WHERE note_labels.note_id = notes.id AND labels.name = 'one'\n)\nAND EXISTS (\n  SELECT 1\n  FROM note_labels\n  JOIN labels ON note_labels.label_id = labels.id\n  WHERE note_labels.note_id = notes.id AND labels.name = 'two'\n)

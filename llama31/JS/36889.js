@@ -1,0 +1,1 @@
+const file = new Blob(['Hello, World!'], { type: 'text/plain' });\nsaveAs(file, 'example.txt');

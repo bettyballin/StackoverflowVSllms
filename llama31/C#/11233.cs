@@ -1,1 +1,0 @@
-Process.Start(new ProcessStartInfo(tStartParameter) { UseShellExecute = true, Verb = "open" });

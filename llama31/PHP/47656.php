@@ -1,0 +1,1 @@
+$pdo = new PDO("mysql:host=your_host;dbname=your_database", "your_username", "your_password");\n\n$stmt = $pdo->prepare("UPDATE offtopic SET next = :next WHERE id = :id");\n$stmt->bindParam(":next", $insert);\n$stmt->bindParam(":id", $id);\n$stmt->execute();\n\n$pdo = null;

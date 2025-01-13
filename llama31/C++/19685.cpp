@@ -1,1 +1,0 @@
-void do_something() noexcept {\n    // code that will not throw an exception\n}

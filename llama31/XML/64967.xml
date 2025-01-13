@@ -1,0 +1,1 @@
+<?xml version="1.0" encoding="UTF-8"?>\n<skins>\n  <skin id="customSkin">\n    <bundle-class>your.package.CustomSkinBundle</bundle-class>\n  </skin>\n</skins>

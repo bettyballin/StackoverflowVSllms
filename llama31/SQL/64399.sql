@@ -1,0 +1,1 @@
+SELECT \n  emp_no,\n  TO_CHAR(ROW_NUMBER() OVER (PARTITION BY emp_no ORDER BY book_id), 'FM00') AS book_no,\n  book_id\nFROM \n  your_table;

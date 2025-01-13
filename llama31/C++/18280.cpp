@@ -1,1 +1,0 @@
-LRESULT CYourApp::OnProcessFinished(WPARAM wParam, LPARAM lParam)\n{\n    // Close the process handle\n    CloseHandle(m_hProcess);\n\n    // Perform any other necessary cleanup\n    return 0;\n}

@@ -1,0 +1,1 @@
+class UsersController < ApplicationController\n  def create\n    # Get the request headers\n    headers = request.headers\n\n    # Get the request body as a stream\n    body = request.body\n\n    # Read the body as a stream\n    while chunk = body.read(1024)\n      # Process the chunk\n    end\n\n    # ...\n  end\nend

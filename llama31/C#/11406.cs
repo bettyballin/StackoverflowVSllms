@@ -1,1 +1,0 @@
-public DecodedProxyExcerpt Current(int stepSize)\n{\n    DecodedProxyExcerpt excerpt = new DecodedProxyExcerpt(stepSize);\n    Array.Copy(buffer, index, excerpt.data, 0, stepSize);\n    return excerpt;\n}

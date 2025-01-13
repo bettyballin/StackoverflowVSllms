@@ -1,1 +1,0 @@
-gcc -Wall -Wextra example.c

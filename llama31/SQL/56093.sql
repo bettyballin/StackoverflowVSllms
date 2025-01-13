@@ -1,0 +1,1 @@
+CREATE TABLE messages_2022 (\n  id INT PRIMARY KEY,\n  from_user_id INT,\n  to_user_id INT,\n  message TEXT,\n  created_at TIMESTAMP\n);\n\nCREATE TABLE messages_2023 (\n  id INT PRIMARY KEY,\n  from_user_id INT,\n  to_user_id INT,\n  message TEXT,\n  created_at TIMESTAMP\n);

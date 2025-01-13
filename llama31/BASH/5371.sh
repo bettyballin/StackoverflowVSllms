@@ -1,1 +1,0 @@
-set COMPLUS_JITOptimizations=0

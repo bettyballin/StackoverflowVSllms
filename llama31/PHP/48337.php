@@ -1,0 +1,1 @@
+header('Location: https://example.com/redirect'); // redirect to a new URL\nheader('Refresh: 5; url=https://example.com/redirect'); // refresh and redirect

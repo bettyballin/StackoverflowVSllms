@@ -1,0 +1,1 @@
+$array = array('Text1', 'World', 'Hello');\n\n// Swap values of keys 1 and 2\nlist($array[1], $array[2]) = array($array[2], $array[1]);\n\nprint_r($array);

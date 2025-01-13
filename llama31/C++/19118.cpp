@@ -1,1 +1,0 @@
-int main() {\n    auto SomeFun = []() {\n        std::cout << "WOW this is unexpected" << std::endl;\n    };\n\n    SomeFun();\n    return 0;\n}

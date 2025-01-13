@@ -1,0 +1,1 @@
+SELECT GROUP_CONCAT(hobbies SEPARATOR ', ') \nFROM peoples_hobbies \nWHERE person_id = 5;

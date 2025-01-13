@@ -1,1 +1,0 @@
-sudo apt-get install virtualbox-guest-dkms\nsudo service vboxadd restart

@@ -1,0 +1,1 @@
+class CommentForm(forms.Form):\n    comment = forms.CharField(widget=forms.Textarea(attrs={"label": ""}))

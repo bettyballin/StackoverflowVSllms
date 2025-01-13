@@ -1,0 +1,1 @@
+def truncate_log_file(file_path, max_size, lines_to_delete):\n    with open(file_path, 'r') as f:\n        lines = f.readlines()\n\n    if len(lines) > max_size:\n        with open(file_path, 'w') as f:\n            f.writelines(lines[lines_to_delete:])\n\n# Example usage:\ntruncate_log_file('log.txt', 1000, 100)

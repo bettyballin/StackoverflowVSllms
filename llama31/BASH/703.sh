@@ -1,1 +1,0 @@
-g++ -I/path/to/includes main.cpp parse.cpp -o output

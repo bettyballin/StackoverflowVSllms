@@ -1,0 +1,1 @@
+require_once 'vendor/autoload.php';\n\nuse Mf2\Parser;\n\n$html = '<!-- your HTML content here -->';\n$parser = new Parser();\n$mf = $parser->parse($html);\n\nif ($mf['items'][0]['type'] === 'h-entry') {\n    echo 'hAtom implementation is valid!';\n} else {\n    echo 'hAtom implementation is invalid.';\n}

@@ -1,1 +1,0 @@
-iostat | stdbuf -o0 sed | netcat

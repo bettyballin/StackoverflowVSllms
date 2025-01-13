@@ -1,0 +1,1 @@
+const jsonData = JSON.parse(document.getElementById('json-data').textContent);

@@ -1,0 +1,1 @@
+SELECT table_name, num_rows\nFROM all_tables\nWHERE num_rows = (SELECT MAX(num_rows) FROM all_tables);

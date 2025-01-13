@@ -1,1 +1,0 @@
-# Create test files\ntouch /root/testfile\ntouch /usr/testfile\n\n# Check permissions\nls -l /root/testfile\nls -l /usr/testfile

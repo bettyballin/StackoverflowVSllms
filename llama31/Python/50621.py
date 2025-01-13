@@ -1,0 +1,1 @@
+def iterate(i):\n    try:\n        value = next(i)\n    except StopIteration:\n        print('i is empty')\n    else:\n        yield value\n        yield from i

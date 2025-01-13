@@ -1,0 +1,1 @@
+ob_start();\ninclude 'other_file.php';\n$output = ob_get_clean();

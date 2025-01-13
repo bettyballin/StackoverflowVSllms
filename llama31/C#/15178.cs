@@ -1,1 +1,0 @@
-bool isChecked = Convert.ToBoolean(Request.Form["selectUnionDuesValue"]);

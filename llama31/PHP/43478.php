@@ -1,0 +1,1 @@
+require_once 'php-smpp/SMPP.php';\n\n$smpp = new SMPP('your_smpp_server', 'your_smpp_port');\n$smpp->bindTransmitter('your_system_id', 'your_password');\n\n$message = new SMPP_Message();\n$message->setDestinationAddress('recipient_number');\n$message->setMessage('Hello, world!');\n\n$smpp->send($message);

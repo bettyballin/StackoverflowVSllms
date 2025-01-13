@@ -1,1 +1,0 @@
-awk -F'[][]' '{print $2}' log_file

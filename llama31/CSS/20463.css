@@ -1,1 +1,0 @@
-.container {\n  background-image: url('background-image.jpg');\n  position: relative;\n}\n\n#logo {\n  position: absolute;\n  top: 0;\n  left: 0;\n  z-index: 1;\n}

@@ -1,0 +1,1 @@
+if (true) {\n    function functionTwo() {\n        console.log("Hello");\n    }\n}\n\nfunctionTwo(); // outputs "Hello"

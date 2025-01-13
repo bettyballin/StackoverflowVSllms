@@ -1,0 +1,1 @@
+<target name="process-file">\n  <condition property="file.exists">\n    <available file="path/to/your/file"/>\n  </condition>\n  <antcall target="do-processing" if="file.exists"/>\n</target>\n\n<target name="do-processing">\n  <!-- your special processing here -->\n</target>

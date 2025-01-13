@@ -1,0 +1,1 @@
+$.ajax({\n  url: 'your-url.html',\n  dataType: 'jsonp',\n  success: function(html) {\n    // Append the HTML to your container\n    $('#your-container').append(html);\n  }\n});

@@ -1,1 +1,0 @@
-ParentContentType = action.ParentContentType?.ToEnum<ContentType>()

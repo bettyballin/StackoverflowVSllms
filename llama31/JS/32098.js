@@ -1,0 +1,1 @@
+$(document).ready(function() {\n  $('#switches li').on('mouseover', function() {\n    var index = $(this).index();\n    $('#switches li').removeClass('active');\n    $(this).addClass('active');\n    $('#slides div').hide();\n    $('#slides div').eq(index).show();\n  });\n});

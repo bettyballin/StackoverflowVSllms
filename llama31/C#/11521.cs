@@ -1,1 +1,0 @@
-var control = Activator.CreateInstance(typeof(Draco));

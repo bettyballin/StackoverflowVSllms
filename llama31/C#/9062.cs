@@ -1,1 +1,0 @@
-static void Main()\n{\n    ServiceBase[] ServicesToRun = new ServiceBase[] { new ListenerSVC() };\n    ServiceBase.Run(ServicesToRun);\n}

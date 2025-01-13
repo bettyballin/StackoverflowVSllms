@@ -1,1 +1,0 @@
-protected void Application_BeginRequest(object sender, EventArgs e)\n{\n    if (!Request.IsSecureConnection)\n    {\n        string url = Request.Url.ToString().Replace("http:", "https:");\n        Response.Redirect(url, true);\n    }\n}

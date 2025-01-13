@@ -1,0 +1,1 @@
+$('#buttoncancel').click(function() {\n    $('#radiodj').addClass('disabled');\n});

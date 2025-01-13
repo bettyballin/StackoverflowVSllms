@@ -1,0 +1,1 @@
+SELECT \n  s.id, \n  s.classDate, \n  s.instructor, \n  (SELECT COUNT(*) FROM enrolled e WHERE e.scheduleId = s.id) AS enrolled,\n  (SELECT COUNT(*) FROM waitlist w WHERE w.scheduleId = s.id) AS waitlist\nFROM \n  schedule s;

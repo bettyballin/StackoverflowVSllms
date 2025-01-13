@@ -1,0 +1,1 @@
+SELECT \n    CASE \n        WHEN calculated_score > 100 THEN 100 \n        WHEN calculated_score < 0 THEN 0 \n        ELSE calculated_score \n    END AS final_score

@@ -1,0 +1,1 @@
+# config/initializers/application_settings.rb\nRails.application.config.application_title = 'Abc'

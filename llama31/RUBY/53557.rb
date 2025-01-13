@@ -1,0 +1,1 @@
+# app/controllers/my_controller.rb\n\nclass MyController < ApplicationController\n  def index\n    default_region = DefaultRegion.get\n    # use the default region\n  end\nend

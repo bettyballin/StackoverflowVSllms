@@ -1,0 +1,1 @@
+$testglobal = 1;\n\n$cmp = function($a, $b) use ($testglobal) {\n    echo 'hi' . $testglobal;\n};\n\nusort($topics, $cmp);

@@ -1,0 +1,1 @@
+function trackDownload() {\n  var xhr = new XMLHttpRequest();\n  xhr.open('POST', '/track_download', true);\n  xhr.setRequestHeader('Content-Type', 'application/x-www-form-urlencoded');\n  xhr.send('file=foo.zip');\n}

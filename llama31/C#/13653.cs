@@ -1,1 +1,0 @@
-var user = new User();\nvar validator = new Validator();\nvalidator.AddRule("Name", user, x => x.IsNotEmpty().IsLength(1, 50));\nvalidator.AddRule("Email", user, x => x.IsNotEmpty().IsEmail());\n\nif (!validator.IsValid())\n{\n    // get error messages\n    var errors = validator.GetErrorSummary();\n}

@@ -1,0 +1,1 @@
+$t = new Zend_Form_Element_Select(....);\n$t->removeDecorator('DtDdWrapper');\necho $t->render();

@@ -1,0 +1,1 @@
+BEGIN TRANSACTION\n    EXEC spStoredProcedure\n    -- other operations...\nCOMMIT TRANSACTION

@@ -1,0 +1,1 @@
+SELECT *\nFROM (\n  SELECT *, SUM(size) OVER (ORDER BY size) AS running_sum\n  FROM table\n) AS subquery\nWHERE running_sum <= 150

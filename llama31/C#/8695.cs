@@ -1,1 +1,0 @@
-using NUnit.Framework;\n\n[TestFixture]\npublic class MyTests\n{\n    [Test]\n    public void MyTest()\n    {\n        // Arrange\n        var myObject = new MyObject();\n\n        // Act\n        var result = myObject.DoSomething();\n\n        // Assert\n        Assert.AreEqual("Expected result", result);\n    }\n}

@@ -1,1 +1,0 @@
-var textBox = (TextBox)txtTotalAmount.NamingContainer.FindControl("txtTotalAmount");

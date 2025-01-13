@@ -1,0 +1,1 @@
+map.resources :workouts, :path_prefix => '/:user_login', :only => [:show], :constraints => {:user_login => /[^\/]+/}

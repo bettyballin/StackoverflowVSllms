@@ -1,0 +1,1 @@
+import math\n\ndef calculate_point(radius, angle, origin=None):\n    x = radius * math.cos(angle) + (origin[0] if origin else 0)\n    y = radius * math.sin(angle) + (origin[1] if origin else 0)\n    return x, y

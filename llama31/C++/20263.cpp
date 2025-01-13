@@ -1,1 +1,0 @@
-// MyComInterface.h\ninterface IMyComInterface : public IUnknown\n{\n    virtual HRESULT __stdcall MyMethod() = 0;\n};\n\n// MyComClass.cpp\nclass MyComClass : public IMyComInterface\n{\npublic:\n    HRESULT __stdcall MyMethod()\n    {\n        // implementation\n    }\n};

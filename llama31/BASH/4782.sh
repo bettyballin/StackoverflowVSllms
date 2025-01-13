@@ -1,1 +1,0 @@
-svnsync init /path/to/mirror /path/to/repo\nsvnsync sync /path/to/mirror

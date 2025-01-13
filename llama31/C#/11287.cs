@@ -1,1 +1,0 @@
-string appPath = AppDomain.CurrentDomain.BaseDirectory;

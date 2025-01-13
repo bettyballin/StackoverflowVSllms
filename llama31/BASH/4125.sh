@@ -1,1 +1,0 @@
-pm install docxtemplater\n\n# Convert HTML to Word\ndocxtemplater input.html output.doc

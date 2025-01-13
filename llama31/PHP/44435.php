@@ -1,0 +1,1 @@
+for ($i = 0; $i <= $x->length - 1; $i++) {\n    $zz = $z->item($i)->nodeValue;\n    $ww = $w->item($i)->nodeValue;\n    $yy = $y->item($i)->nodeValue;\n\n    $stmt = $mysqli->prepare("INSERT INTO Persons (FirstName, LastName, Age) VALUES (?, ?, ?)");\n    $stmt->bind_param("sss", $zz, $ww, $yy);\n    $stmt->execute();\n    $stmt->close();\n}

@@ -1,1 +1,0 @@
-diff --unchanged-group-format=" %L" file1 file2

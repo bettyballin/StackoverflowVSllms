@@ -1,0 +1,1 @@
+WITH DistinctTimestamps AS (\n  SELECT DISTINCT timestamp\n  FROM your_table\n  ORDER BY timestamp\n),\nTimestampDiffs AS (\n  SELECT\n    timestamp,\n    TIMESTAMPDIFF(SECOND, LAG(timestamp) OVER (ORDER BY timestamp), timestamp) AS diff\n  FROM DistinctTimestamps\n)\nSELECT\n  AVG(diff) AS average_time_difference_in_seconds\nFROM TimestampDiffs\nWHERE diff IS NOT NULL;

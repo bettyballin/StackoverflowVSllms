@@ -1,0 +1,1 @@
+<?php\nmysql_connect('localhost', 'username', 'password');\nmysql_select_db('database');\n$result = mysql_query('SELECT * FROM table');\nwhile ($row = mysql_fetch_assoc($result)) {\n    echo $row['column'];\n}\nmysql_close();\n?>

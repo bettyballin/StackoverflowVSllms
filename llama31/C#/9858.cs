@@ -1,1 +1,0 @@
-using EnvDTE;\n\n// Get the current solution\nvar solution = (Solution)_dte.Solution;\n\n// Get the workspace associated with the solution\nvar workspace = solution.GetWorkspace();

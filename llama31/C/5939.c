@@ -1,1 +1,0 @@
-// Get the first column\nGtkTreeViewColumn *column = gtk_tree_view_get_column(GTK_TREE_VIEW(tree_view), 0);\n\n// Make the column expand to fill available space\ngtk_tree_view_column_set_expand(column, TRUE);\n\n// Or, set a fixed width for the column\ngtk_tree_view_column_set_fixed_width(column, 200);

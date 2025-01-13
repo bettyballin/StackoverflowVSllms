@@ -1,0 +1,1 @@
+exec('C:\\Path\\To\\php.exe ' . escapeshellarg($script), $output, $retval);

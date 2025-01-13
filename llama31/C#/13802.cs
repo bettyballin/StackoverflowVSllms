@@ -1,1 +1,0 @@
-using NPlot;\n\n// Create a new plot\nPlot plot = new Plot();\n\n// Add a line to the plot\nplot.Add(new LinePlot(new[] { 1, 2, 3, 4, 5 }, new[] { 10, 20, 30, 40, 50 }));\n\n// Customize the plot's appearance\nplot.XAxis.Label = "X Axis";\nplot.YAxis.Label = "Y Axis";\nplot.Title = "Line Chart Example";\n\n// Show the plot\nplot.Show();

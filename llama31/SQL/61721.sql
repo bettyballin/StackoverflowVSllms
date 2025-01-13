@@ -1,0 +1,1 @@
+SELECT * INTO #tempTable\nFROM OPENROWSET('SQLNCLI', 'Server=(local);Database=myDb;Trusted_Connection=yes;',\n                'EXEC myDb.dbo.multitableProc ''A'', ''B'', ''C'', 100')

@@ -1,0 +1,1 @@
+ob_start();\n// Generate HTML here\n$html = ob_get_contents();\nob_end_clean();\n\n// Manipulate $html here\necho $html;

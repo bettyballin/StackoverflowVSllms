@@ -1,0 +1,1 @@
+$array = array(1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13);\n\n$evenElements = array_filter($array, function($var) use (&$i) {\n    return !($i++ % 2);\n}, ARRAY_FILTER_USE_BOTH);\n\nprint_r($evenElements);

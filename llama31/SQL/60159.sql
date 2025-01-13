@@ -1,0 +1,1 @@
+CREATE PARTITION SCHEME ps_MyTable\n    AS RANGE RIGHT FOR VALUES ( '20100101', '20110101', '20120101' );\n\nCREATE PARTITION FUNCTION pf_MyTable (datetime)\n    AS RANGE RIGHT FOR VALUES ( '20100101', '20110101', '20120101' );\n\nCREATE TABLE MyTable (\n    id INT,\n    date datetime\n) ON ps_MyTable (date);

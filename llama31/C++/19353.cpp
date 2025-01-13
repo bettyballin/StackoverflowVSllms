@@ -1,1 +1,0 @@
-#include "matrix.h"\n\n// ... your code ...\n\n// Get the last error information\nmxArray* lastError = mexCallMATLAB(1, &lastError, 0, NULL, "lasterror");\nif (lastError != NULL) {\n    // Handle the error information\n    const char* errMsg = mxArrayToString(lastError);\n    printf("Error: %s\n", errMsg);\n    mxDestroyArray(lastError);\n}

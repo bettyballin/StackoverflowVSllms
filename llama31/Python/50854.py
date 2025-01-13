@@ -1,0 +1,1 @@
+import datetime\n\ndef validate_oracle_date(date_string):\n    try:\n        # Oracle's default date format is 'YYYY-MM-DD'\n        datetime.strptime(date_string, '%Y-%m-%d')\n        return True\n    except ValueError:\n        return False

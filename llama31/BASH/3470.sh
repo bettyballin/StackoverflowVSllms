@@ -1,1 +1,0 @@
-# Run SQLIO tests\nsqlio -t 1 -s 3600 -o 8 -f param.txt

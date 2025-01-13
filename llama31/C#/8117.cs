@@ -1,1 +1,0 @@
-if (Request.HttpMethod == "POST")\n{\n    // Handle the form submission here\n}

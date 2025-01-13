@@ -1,1 +1,0 @@
-getpcaps -p <PID>

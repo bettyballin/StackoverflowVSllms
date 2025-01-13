@@ -1,1 +1,0 @@
-MyStream.Close()

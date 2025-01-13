@@ -1,0 +1,1 @@
+$array1 = array(false, 200);\n$array2 = array(true, 80, 60, 75, 50, 0, 0, 30, 40);\n\n$array3 = $array1 + $array2;\n\nprint_r($array3);

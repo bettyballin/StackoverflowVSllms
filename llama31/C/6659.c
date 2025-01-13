@@ -1,1 +1,0 @@
-// Create a critical section\nCRITICAL_SECTION cs;\nInitializeCriticalSection(&cs);\n\n// Acquire the critical section before accessing the DOM\nEnterCriticalSection(&cs);\n// ...\nLeaveCriticalSection(&cs);

@@ -1,0 +1,1 @@
+// Twig example\nrequire_once 'vendor/autoload.php';\nTwig_Autoloader::register();\n\n$loader = new Twig_Loader_Filesystem('templates/');\n$twig = new Twig_Environment($loader, array(\n    'cache' => 'cache/',\n));\n\n$data = array(\n    'logged_in' => true,\n    'form_filled_out' => false\n);\n\necho $twig->render('index.html.twig', $data);

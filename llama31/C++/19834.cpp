@@ -1,1 +1,0 @@
-bool isMessageSent(UINT msg) {\n    MSG msgStruct;\n    return GetMessage(&msgStruct, NULL, msg, msg) != 0;\n}

@@ -1,0 +1,1 @@
+def resolve_conflict(server1, server2, nickname):\n    # compare registration timestamps\n    if server1.get_registration_timestamp(nickname) < server2.get_registration_timestamp(nickname):\n        return server1\n    else:\n        return server2

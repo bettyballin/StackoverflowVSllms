@@ -1,1 +1,0 @@
-#include <Windows.h>\n\nint main() {\n    MessageBox(NULL, L"Hello, World!", L"Title", MB_OK);\n    return 0;\n}

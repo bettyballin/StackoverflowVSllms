@@ -1,1 +1,0 @@
-using (var context = new DataContext())\n{\n    var query = context.Orders.Where(o => o.CustomerName == userInput);\n    // Use parameterized query\n    query = context.Orders.Where(o => o.CustomerName == SqlMethods.Like(userInput, "%"));\n}

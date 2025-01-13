@@ -1,0 +1,1 @@
+function calculate_hotness($item) {\n  $age = time() - $item['submitted_at'];\n  $score = 1 / pow($age + 2, 1.5);\n  $score += $item['votes'] * 1; // adjust this value to tweak the vote weight\n  $score += $item['views'] * 0.1; // adjust this value to tweak the view weight\n  $hotness = $score / pow($age + 2, 1.5);\n  return $hotness;\n}

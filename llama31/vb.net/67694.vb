@@ -1,0 +1,1 @@
+Using parser As New TextFieldParser("path/to/your/file.csv")\n    parser.SetDelimiters(",")\n    parser.HasFieldsEnclosedInQuotes = True\n\n    While Not parser.EndOfData\n        Dim fields As String() = parser.ReadFields()\n        ' Process the fields here\n    End While\nEnd Using

@@ -1,0 +1,1 @@
+DECLARE\n  l_vendor_name VARCHAR2(100) := 'John Doe';\nBEGIN\n  AP_VENDOR_PUB_PKG.CREATE_VENDOR(l_vendor_name);\n  COMMIT;\nEND;

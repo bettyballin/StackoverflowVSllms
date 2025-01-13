@@ -1,0 +1,1 @@
+CREATE INDEX idx_userid ON friend_friend (userid);\nCREATE INDEX idx_friendid ON friend_friend (friendid);\nCREATE INDEX idx_user_id ON friend_bulletin (user_id);\nCREATE INDEX idx_submit_date ON friend_bulletin (submit_date);

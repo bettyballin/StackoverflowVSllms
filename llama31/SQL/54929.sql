@@ -1,0 +1,1 @@
+SET SERVEROUTPUT ON\nDECLARE\n  v_ename EMP.FIRST_NAME%TYPE;\n  v_salary EMP.SALARY%TYPE;\n  CURSOR c_emp IS SELECT first_name, salary FROM emp;\nBEGIN\n  OPEN c_emp;\n  LOOP\n    FETCH c_emp INTO v_ename, v_salary;\n    EXIT WHEN c_emp%NOTFOUND;\n    DBMS_OUTPUT.PUT_LINE('Employee Details ' || v_ename || ' ' || v_salary);\n  END LOOP;\n  CLOSE c_emp;\nEND;

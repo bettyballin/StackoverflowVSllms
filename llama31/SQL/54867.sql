@@ -1,0 +1,1 @@
+SELECT *\nFROM [dbo].[RealTime]\nUNION ALL\nSELECT *\nFROM [dbo].[Query] q\nWHERE q.Id NOT IN (SELECT Id FROM [dbo].[RealTime])

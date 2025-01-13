@@ -1,0 +1,1 @@
+Dim myControl As Control = TryCast(specialTextBox, Control)\nIf myControl IsNot Nothing AndAlso TypeOf myControl Is ISomething Then\n    ' myControl is a Control that implements ISomething\nEnd If

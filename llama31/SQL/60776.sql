@@ -1,0 +1,1 @@
+CREATE TABLE foo (\n    id SERIAL PRIMARY KEY,\n    blah INTEGER,\n    deleted_at TIMESTAMP\n);\n\nCREATE VIEW foo_active AS\nSELECT * FROM foo WHERE deleted_at IS NULL;

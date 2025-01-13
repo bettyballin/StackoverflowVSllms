@@ -1,0 +1,1 @@
+<listener>\n    <listener-class>your.package.SessionTimeoutListener</listener-class>\n</listener>

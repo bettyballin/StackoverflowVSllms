@@ -1,1 +1,0 @@
-%windir%\system32\inetsrv\appcmd.exe set apppool /apppool.name:HighPriorityApps /processModel.shutdownTimeLimit:00:02:00

@@ -1,0 +1,1 @@
+// Page 1: Create the object instance and store it in the session\n$obj = new MyClass();\n$_SESSION['myObject'] = $obj;\n\n// Page 2 (or any other page): Retrieve the object instance from the session\n$obj = $_SESSION['myObject'];

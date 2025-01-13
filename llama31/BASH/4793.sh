@@ -1,1 +1,0 @@
-* * * * * php /path/to/delete_files.php

@@ -1,1 +1,0 @@
-etsh advfirewall set rule dir=in action=allow protocol=TCP localport=5655 name="Remote Debugging"

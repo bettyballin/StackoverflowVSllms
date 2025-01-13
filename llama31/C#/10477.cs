@@ -1,1 +1,0 @@
-using (var context = new DataContext())\n{\n    context.DeferredLoadingEnabled = false;\n    var orders = context.Orders.ToList();\n}

@@ -1,1 +1,0 @@
-AppDomain.CurrentDomain.AssemblyResolve += (sender, args) => {\n    if (args.Name == "CountryLayers") {\n        return Assembly.LoadFrom("CountryLayers.dll");\n    }\n    return null;\n};

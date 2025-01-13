@@ -1,1 +1,0 @@
-[WebMethod]\npublic void SubmitCheckboxes(string[] checkedValues)\n{\n    // Your logic to handle the checkbox submit\n}

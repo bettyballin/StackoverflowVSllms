@@ -1,0 +1,1 @@
+document.addEventListener('DOMContentLoaded', function() {\n  document.getElementById('showimage').checked = false;\n});

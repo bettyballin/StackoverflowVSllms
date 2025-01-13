@@ -1,1 +1,0 @@
-$ ld --version\nGNU ld (GNU Binutils) 2.19\n\n$ gcc --version\ngcc (GCC) 4.3.2

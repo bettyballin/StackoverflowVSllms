@@ -1,1 +1,0 @@
-public ActionResult DeleteUser(int id)\n{\n    try\n    {\n        // Delete user logic here\n        return new Content("ok");\n    }\n    catch (Exception ex)\n    {\n        Response.TrySkipIisCustomErrors = true;\n        Response.StatusCode = 400;\n        return Json(new { error = "User could not be deleted" });\n    }\n}

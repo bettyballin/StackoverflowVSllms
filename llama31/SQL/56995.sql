@@ -1,0 +1,1 @@
+SELECT \n  t1.id, \n  t1.title, \n  t1.contenttext,\n  t1.fk_idothertable,\n  t1.version\nFROM mytable as t1\nINNER JOIN (\n  SELECT fk_idothertable, MAX(version) AS topversion\n  FROM mytable\n  GROUP BY fk_idothertable\n) AS t2\nON t1.fk_idothertable = t2.fk_idothertable AND t1.version = t2.topversio

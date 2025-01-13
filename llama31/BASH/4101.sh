@@ -1,1 +1,0 @@
-g++ -Wno-unused-variable -Wno-uninitialized your_file.cpp

@@ -1,0 +1,1 @@
+$uploadDir = '/path/to/your/directory/'; // specify your directory path here\n$fileName = basename($_FILES['Filedata']['name']);\n$filePath = $uploadDir . $fileName;\n\nif(move_uploaded_file($_FILES['Filedata']['tmp_name'], $filePath)) {\n    echo "File moved successfully";\n} else {\n    echo "Failed to move file";\n}

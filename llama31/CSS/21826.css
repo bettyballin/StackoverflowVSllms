@@ -1,1 +1,0 @@
-.overlay {\n  position: fixed;\n  top: 0;\n  left: 0;\n  width: 100vw;\n  height: 100vh;\n  background-color: rgba(0, 0, 0, 0.5); /* adjust the color and opacity to your liking */\n  z-index: 1000; /* make sure it's on top of all other elements */\n}

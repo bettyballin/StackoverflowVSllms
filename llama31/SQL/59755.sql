@@ -1,0 +1,1 @@
+SELECT *\nFROM tableB\nWHERE NOT EXISTS (\n  SELECT 1\n  FROM tableA\n  WHERE tableA.con_number = tableB.con_number\n)

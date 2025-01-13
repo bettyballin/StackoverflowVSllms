@@ -1,0 +1,1 @@
+def get_first_non_empty(strings):\n    return next((s for s in strings if s), None)\n\n# Example usage:\nstrings = ["", "", "Hello", "World"]\nfirst_non_empty = get_first_non_empty(strings)\nprint(first_non_empty)  # Output: Hello

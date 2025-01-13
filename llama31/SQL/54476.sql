@@ -1,0 +1,1 @@
+SELECT *\nFROM people\nWHERE lastname LIKE '%' || firstname || '%';

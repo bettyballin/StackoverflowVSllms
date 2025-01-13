@@ -1,0 +1,1 @@
+// Enable tracing in web.config\n<configuration>\n  <system.web>\n    <trace enabled="true" requestLimit="100" />\n  </system.web>\n</configuration>

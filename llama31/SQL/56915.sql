@@ -1,0 +1,1 @@
+SELECT \n   order, \n   CASE \n      WHEN TRY_CONVERT(DATETIME, orderDate) IS NULL THEN 'Invalid date'\n      ELSE CONVERT(DATETIME, orderDate)\n   END AS orderDate\nFROM orders

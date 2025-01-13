@@ -1,1 +1,0 @@
-string[] columns = { "Column 1", "Column 2", "Column 3", "Column 4" };\nint[] widths = { 15, 15, 15, 15 };\nstring[][] data = new[]\n{\n    new[] { "Data 1", "Data 2", "Data 3", "Data 4" },\n    new[] { "More data 1", "More data 2", "More data 3", "More data 4" }\n};\n\nTableDrawer.DrawTable(columns, widths, data);

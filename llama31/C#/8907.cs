@@ -1,1 +1,0 @@
-private void MyControl_KeyPress(object sender, KeyPressEventArgs e)\n{\n    if (e.KeyChar == (char)Keys.Enter)\n    {\n        e.Handled = true;\n    }\n}

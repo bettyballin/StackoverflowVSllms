@@ -1,1 +1,0 @@
-public static void RegisterRoutes(RouteCollection routes)\n{\n    routes.MapPageRoute(\n        "MyWebServiceRoute",\n        "soap/MyWebService",\n        "~/soap/MyWebService.asmx"\n    );\n}

@@ -1,0 +1,1 @@
+var chat = $.connection.chatHub;\nchat.client.addMessage = function(message) {\n    $('#chat').append(message);\n};\n$.connection.hub.start();

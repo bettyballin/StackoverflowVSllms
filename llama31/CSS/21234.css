@@ -1,1 +1,0 @@
-.menu-item {\n  background-image: url(sprite.png);\n  background-position: 0 0;\n  width: 100px;\n  height: 50px;\n}\n\n.menu-item:hover {\n  background-position: 0 50px;\n}

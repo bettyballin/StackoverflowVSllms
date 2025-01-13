@@ -1,0 +1,1 @@
+ALTER TABLE your_table_name ADD UNIQUE (your_text_field_name);

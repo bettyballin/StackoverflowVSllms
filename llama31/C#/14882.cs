@@ -1,1 +1,0 @@
-using PubnubApi;\n\npublic class ChatService\n{\n    private readonly Pubnub _pubnub;\n\n    public ChatService()\n    {\n        _pubnub = new Pubnub(new PNConfiguration());\n    }\n\n    public void SendMessage(string channel, string message)\n    {\n        _pubnub.Publish().Channel(channel).Message(message).Execute();\n    }\n}

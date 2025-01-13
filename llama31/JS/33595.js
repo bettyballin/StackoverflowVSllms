@@ -1,0 +1,1 @@
+// Client-side (JavaScript)\nvar socket = new WebSocket('ws://example.com/updates');\nsocket.onmessage = function(event) {\n  // Update the page with new content\n};

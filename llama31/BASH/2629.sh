@@ -1,1 +1,0 @@
-#!/bin/bash\n\n# Update package list\nsudo apt update\n\n# Upgrade all packages\nsudo apt full-upgrade -y\n\n# Clean up\nsudo apt autoremove -y\nsudo apt autoclean -y

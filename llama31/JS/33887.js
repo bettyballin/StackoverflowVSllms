@@ -1,0 +1,1 @@
+function () { ... }() // this will still work, but it's less clear

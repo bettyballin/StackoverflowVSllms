@@ -1,1 +1,0 @@
-IntPtr hWnd = ...; // get the window handle\nint checkState = TreeViewHelper.GetCheckState(hWnd);\nswitch (checkState)\n{\n    case 0:\n        // unchecked\n        break;\n    case 1:\n        // checked\n        break;\n    ...\n}

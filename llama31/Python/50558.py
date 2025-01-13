@@ -1,0 +1,1 @@
+from django.db.models import Q\n\nuser = User.objects.get(id=given_user_id)\nprojects = Project.objects.filter(\n    Q(donation__user=user) | Q(campaign__user=user)\n).distinct()

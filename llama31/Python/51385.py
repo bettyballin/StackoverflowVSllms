@@ -1,0 +1,1 @@
+p_value = 2 * (1 - tcdf(abs(Tb), n - 2))

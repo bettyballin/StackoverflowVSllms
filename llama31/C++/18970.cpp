@@ -1,1 +1,0 @@
-#include <dirent.h>\n#include <iostream>\n\nint main() {\n    DIR* dir;\n    struct dirent* ent;\n\n    if ((dir = opendir("/path/to/directory")) != NULL) {\n        while ((ent = readdir(dir)) != NULL) {\n            std::cout << ent->d_name << std::endl;\n        }\n        closedir(dir);\n    } else {\n        // Handle error\n    }\n\n    return 0;\n}

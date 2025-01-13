@@ -1,1 +1,0 @@
-# Configure a new encrypted softraid device\nbioctl -c C -l /dev/sd0a softraid0

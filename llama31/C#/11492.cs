@@ -1,1 +1,0 @@
-if (string.IsNullOrEmpty(inputString))\n{\n    // handle the case\n}

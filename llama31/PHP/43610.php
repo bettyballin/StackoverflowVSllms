@@ -1,0 +1,1 @@
+// students.php\nif ($_SESSION['role_id'] == 'city') {\n    $students = Student::find_all_by_sql("SELECT * FROM students_city");\n} elseif ($_SESSION['role_id'] == 'national') {\n    $students = Student::find_all_by_sql("SELECT * FROM students_national");\n} else {\n    // display access denied message\n}

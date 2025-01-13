@@ -1,0 +1,1 @@
+var xhr; // Keep track of the current request\n\nfunction makeRequest() {\n  // Cancel any pending request\n  if (xhr && xhr.readystate != 4) {\n    xhr.abort();\n  }\n\n  // Make the new request\n  xhr = $.ajax({\n    // Your AJAX settings here\n    url: '/your-url',\n    success: function(data) {\n      // Handle the response data\n    }\n  });\n}

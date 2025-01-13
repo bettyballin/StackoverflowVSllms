@@ -1,1 +1,0 @@
-int main() {\n    int a = 1;\n    generic_function(&a, (void (*)(void*))printf("%d ", *(int*)));\n\n    char str[] = "hello";\n    generic_function(str, (void (*)(void*))printf("%s ", (char*)));\n\n    return 0;\n}

@@ -1,0 +1,1 @@
+SELECT compatibility_level\nFROM sys.databases\nWHERE name = 'YourDatabaseName'

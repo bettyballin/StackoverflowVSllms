@@ -1,1 +1,0 @@
-using Telnet;\n\nTelnetClient client = new TelnetClient('mud.example.com', 23);\nclient.Write('login username');\nclient.Write('password password');\nConsole.WriteLine(client.ReadAll());

@@ -1,0 +1,1 @@
+import pythoncom\n\n# ...\n\nflags = pythoncom.STGM_READ | pythoncom.STGM_SHARE_READ\nstorage = pythoncom.StgOpenStorage(filename, None, flags)

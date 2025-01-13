@@ -1,1 +1,0 @@
-mysql -uroot -p -e "SET GLOBAL slow_query_log = 'ON';"

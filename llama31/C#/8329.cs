@@ -1,1 +1,0 @@
-string currentUserName = User.Identity.Name;

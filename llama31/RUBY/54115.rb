@@ -1,0 +1,1 @@
+def avatar\n  self[:avatar].force_encoding(nil)\nend

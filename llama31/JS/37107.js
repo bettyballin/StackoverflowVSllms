@@ -1,0 +1,1 @@
+document.querySelector('.header span').addEventListener('click', function(event) {\n  alert('you clicked inside the header');\n  event.stopPropagation();\n});

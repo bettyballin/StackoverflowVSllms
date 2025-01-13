@@ -1,1 +1,0 @@
-#include <Windows.h>\n\n// inside your DLL code\nconst WCHAR* getModuleFileName()\n{\n    WCHAR szPath[MAX_PATH];\n    HMODULE hModule = NULL;\n    GetModuleHandleEx(GET_MODULE_HANDLE_EX_FLAG_FROM_ADDRESS, (LPCTSTR)getModuleFileName, &hModule);\n    if (hModule)\n    {\n        GetModuleFileName(hModule, szPath, MAX_PATH);\n        return szPath;\n    }\n    return NULL;\n}

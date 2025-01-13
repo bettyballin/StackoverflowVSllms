@@ -1,1 +1,0 @@
-#include <boost/filesystem.hpp>\n#include <boost/system/error_code.hpp>\n\n// ...\n\nboost::system::error_code ec;\nboost::filesystem::path p("your_path");\nif (!boost::filesystem::exists(p, ec)) {\n    // handle error\n}

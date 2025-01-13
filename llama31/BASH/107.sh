@@ -1,1 +1,0 @@
-curl -X POST \\n  https://your-application.com/data-service \\n  -H 'Content-Type: application/json' \\n  -d '{"param1": "value1", "param2": "value2"}'

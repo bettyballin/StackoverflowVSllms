@@ -1,0 +1,1 @@
+'name' => array(\n    'rule' => array('custom', '/^[a-zA-Z0-9\s]+$/')\n)

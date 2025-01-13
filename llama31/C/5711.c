@@ -1,1 +1,0 @@
-bool neko_thread_register( bool t ) {\n    // function implementation here\n}

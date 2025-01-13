@@ -1,1 +1,0 @@
-CComBSTR str;\nfor (int i = 0; i < 10; i++)\n{\n    str.Append(_T("Hello, World!"));\n}

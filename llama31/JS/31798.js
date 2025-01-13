@@ -1,0 +1,1 @@
+container.style.display = 'none';\ncontainer.innerHTML = content;\ncontainer.style.display = 'block';

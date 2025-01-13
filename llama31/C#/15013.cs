@@ -1,1 +1,0 @@
-using Microsoft.Win32;\n\nRegistryKey key = Registry.CurrentUser.OpenSubKey("SOFTWARE\\YourCompany\\YourApp");\nif (key != null)\n{\n    // Read or write values here\n    key.Close();\n}

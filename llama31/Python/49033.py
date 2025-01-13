@@ -1,0 +1,1 @@
+from bitarray import bitarray\n\n# Create a bitarray from a bytes object\nba = bitarray(endian='big')\nba.frombytes(b'\x12\x34\x56\x78')\n\n# Extract the next 13 bits\nbits = ba[0:13]\nprint(bits.to01())  # prints the bits as a string of '0's and '1's\n\n# Convert the bits to an integer\nvalue = int(bits.to01(), 2)\nprint(value)

@@ -1,1 +1,0 @@
-time php your_script.php\ntime python your_script.py

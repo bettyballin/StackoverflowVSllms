@@ -1,1 +1,0 @@
-std::list<Request>& getAsRequestList() {\n    // function implementation\n}

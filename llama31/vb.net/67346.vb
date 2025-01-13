@@ -1,0 +1,1 @@
+Imports System.IO\nImports System.Reflection\n\nModule Wrapper\n    Sub Main()\n        ' Load the embedded API DLL\n        Dim apiAssembly As Assembly = Assembly.Load("Api")\n        ' Use the API\n        Dim api As New Api.ApiClass()\n        ' ...\n    End Sub\nEnd Module

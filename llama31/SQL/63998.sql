@@ -1,0 +1,1 @@
+-- Given permission IDs: 1, 2, 3\n-- Number of permissions: 3\n\nSELECT r.roleid\nFROM role r\nJOIN role_permission rp ON r.roleid = rp.roleid\nWHERE rp.permissionid IN (1, 2, 3)\nGROUP BY r.roleid\nHAVING COUNT(rp.permissionid) = 3

@@ -1,0 +1,1 @@
+$route = new Zend_Controller_Router_Route_Regex(\n    '([a-z0-9]+)(?!/)$', // negative lookahead for trailing slash\n    array(\n        'controller' => 'redirect',\n        'action'     => 'redirect'\n    )\n);

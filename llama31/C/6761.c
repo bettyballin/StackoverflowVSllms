@@ -1,1 +1,0 @@
-volatile int x = 0;\n\n// CPU 1\nx++;\n\n// CPU 2\nx++;

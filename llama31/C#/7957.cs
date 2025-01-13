@@ -1,1 +1,0 @@
-short a = 10;\nshort b = 20;\nint result = a + b;

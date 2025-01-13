@@ -1,1 +1,0 @@
-jar -tf target/your-project.jar

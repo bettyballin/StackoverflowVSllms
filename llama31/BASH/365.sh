@@ -1,1 +1,0 @@
-dir /s /b /a-d "C:\path\to\directory\*.php" > filelist.txt

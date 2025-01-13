@@ -1,0 +1,1 @@
+my_list = list(0 for _ in range(10))\nprint(my_list)  # Output: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0]

@@ -1,0 +1,1 @@
+ini_set('session.bug_compat_42', 0);\nini_set('session.bug_compat_warn', 0);

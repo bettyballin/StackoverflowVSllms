@@ -1,1 +1,0 @@
-perfdump -s ssl

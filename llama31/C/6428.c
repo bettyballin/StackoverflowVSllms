@@ -1,1 +1,0 @@
-int fd = open("filename", O_WRONLY | O_CREAT | O_TRUNC, 0644);

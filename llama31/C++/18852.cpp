@@ -1,1 +1,0 @@
-std::list<unsigned char> b = static_cast<std::list<unsigned char>>(a);

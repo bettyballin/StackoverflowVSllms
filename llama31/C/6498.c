@@ -1,1 +1,0 @@
-void* p = malloc(100);\n// use p\nfree(p);

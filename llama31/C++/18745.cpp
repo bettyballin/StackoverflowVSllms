@@ -1,1 +1,0 @@
-#pragma comment(lib, "qtmaind.lib")\n#pragma comment(lib, "qtcored.lib")

@@ -1,0 +1,1 @@
+$insertQuery = "INSERT INTO blog_articles (title, tags, category, blog, author, date) VALUES (?, ?, ?, ?, ?, ?)";\n$stmt = $connector->prepare($insertQuery);\n$stmt->bind_param("ssssss", $title, $tags, $category, $blog, $author, $date);\nif ($stmt->execute()) {\n    echo '<center><b>Article added to the database</b></center><br>';\n} else {\n    die($connector->error);\n}

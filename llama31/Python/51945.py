@@ -1,0 +1,1 @@
+import collections\nfrom nltk.tokenize import word_tokenize\n\ndef frequency_analysis(text):\n    words = word_tokenize(text)\n    freq = collections.Counter(words)\n    # Analyze the frequency distribution\n    return freq

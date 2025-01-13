@@ -1,0 +1,1 @@
+error_reporting(0);\nini_set('display_errors', 0);\nini_set('error_reporting', 0);

@@ -1,1 +1,0 @@
-int main() {\n    HKEY hKey;\n    RegOpenKeyEx(HKEY_LOCAL_MACHINE, L"Software\\MyCompany\\MyApp", 0, KEY_READ | KEY_WRITE, &hKey);\n    RegDeleteTree(hKey, L"MySubKey");\n    RegCloseKey(hKey);\n    return 0;\n}

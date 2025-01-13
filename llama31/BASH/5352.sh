@@ -1,1 +1,0 @@
-if zenity --question --text="Are you sure?"; then\n    echo "Confirmed"\nelse\n    echo "Cancelled"\nfi

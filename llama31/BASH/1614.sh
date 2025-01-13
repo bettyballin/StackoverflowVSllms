@@ -1,1 +1,0 @@
-svn add --use-commit-times /path/to/source/tree\nsvn commit -m "Initial import"

@@ -1,1 +1,0 @@
-public class CustomSessionParameter : SessionParameter\n{\n    public override string SessionField\n    {\n        get { return RM.SessionParams.SESSION_PAREMETER_NAME; }\n        set { base.SessionField = value; }\n    }\n}

@@ -1,0 +1,1 @@
+$page = new Page("My Awesome Website");\n$page->addHeader("<h1>Welcome to my website!</h1>");\n$page->addContent("<p>This is the main content of my website.</p>");\n$page->addFooter("<p>&copy; 2023 My Website</p>");\n$page->render();

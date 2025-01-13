@@ -1,1 +1,0 @@
-item.SetPermissions(user, SPRoleType.Reader);

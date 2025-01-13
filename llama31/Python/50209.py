@@ -1,0 +1,1 @@
+ame = "John Doe"\nage = 30\ncity = "New York"

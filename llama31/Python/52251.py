@@ -1,0 +1,1 @@
+import ctypes\n\n# Get the current username\nusername = ctypes.windll.advapi32.GetUserNameW()\nprint(username)

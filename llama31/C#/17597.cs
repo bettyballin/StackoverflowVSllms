@@ -1,1 +1,0 @@
-label1.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;

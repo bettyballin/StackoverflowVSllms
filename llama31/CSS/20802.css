@@ -1,1 +1,0 @@
-.parent {\n  display: inline-block;\n}\n\n.parent img {\n  display: block;\n}\n\n.parent .text {\n  word-wrap: break-word;\n  width: 100%;\n}

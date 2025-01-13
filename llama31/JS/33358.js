@@ -1,0 +1,1 @@
+function ajaxCall(ajaxMethod, parameters) {\n    var response = ajaxMethod.call(presenter, parameters);\n    if (response.error != null) {\n        alert('An error has occured\r\n' + response.error.Message);\n        return;\n    }\n    return response.value;\n}

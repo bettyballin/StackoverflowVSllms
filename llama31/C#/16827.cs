@@ -1,1 +1,0 @@
-string newConnectionString = "Data Source=YourTestDBServer;Initial Catalog=YourTestDB;Integrated Security=True";\n\nYourDataContext context = new YourDataContext(newConnectionString);

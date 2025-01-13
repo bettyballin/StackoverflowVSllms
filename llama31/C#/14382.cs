@@ -1,1 +1,0 @@
-public class MyWebService\n{\n    private static readonly object syncHandle = new object();\n\n    public void MyMethod()\n    {\n        lock (syncHandle)\n        {\n            // Critical section of code\n        }\n    }\n}

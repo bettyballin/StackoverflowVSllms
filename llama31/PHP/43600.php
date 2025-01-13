@@ -1,0 +1,1 @@
+$stock = filter_var($_GET['s'], FILTER_SANITIZE_STRING);

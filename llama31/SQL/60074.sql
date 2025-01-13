@@ -1,0 +1,1 @@
+SELECT SEC_TO_TIME(your_duration_in_seconds) AS duration;

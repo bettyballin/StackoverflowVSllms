@@ -1,0 +1,1 @@
+CREATE UNIQUE INDEX idx_product_task_order ON product_task_relation (ProductID, TaskOrder);

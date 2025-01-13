@@ -1,1 +1,0 @@
-// Replace [TestFixture] with [TestClass]\n[TestClass]\npublic class MyTest\n{\n    // Replace [Test] with [TestMethod]\n    [TestMethod]\n    public void MyTest_Method()\n    {\n        // Test code here\n    }\n}

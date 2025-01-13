@@ -1,1 +1,0 @@
-# Export the client's certificate from their JKS file\nkeytool -export -alias client -keystore client.jks -storepass changeit -file client.cer\n\n# Import the client's certificate into the Tomcat truststore\nkeytool -import -alias client -keystore tomcat.jks -storepass changeit -file client.cer

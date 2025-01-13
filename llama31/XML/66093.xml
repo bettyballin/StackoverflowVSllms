@@ -1,0 +1,1 @@
+<config>\n    <email>\n        <helpers>\n            <your_module>\n                <class>Your_Module_Helper_Email</class>\n            </your_module>\n        </helpers>\n    </email>\n</config>

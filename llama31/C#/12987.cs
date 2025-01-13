@@ -1,1 +1,0 @@
-using Microsoft.VisualStudio.TestTools.UnitTesting;\nusing TypeMock.ArrangeActAssert;\n\nnamespace MyTestProject\n{\n    [TestClass]\n    public class MyTest\n    {\n        [TestMethod]\n        public void MyTestMethod()\n        {\n            // Your test code here\n        }\n    }\n}

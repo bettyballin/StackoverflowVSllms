@@ -1,1 +1,0 @@
-#include <iostream>\n\nint main() {\n    myFunction();\n    return 0;\n}

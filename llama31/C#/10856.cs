@@ -1,1 +1,0 @@
-[ServiceContract(SessionMode = SessionMode.Required)]\npublic interface IMyService\n{\n    // ...\n}

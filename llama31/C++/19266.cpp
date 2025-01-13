@@ -1,1 +1,0 @@
-int main() {\n    BaseC* bc = new Child();\n    Child* child = new Child();\n\n    bc->foo();   // Calls BaseC::foo() (hiding)\n    child->foo(); // Calls Child::foo() (overriding)\n\n    return 0;\n}

@@ -1,0 +1,1 @@
+$statement = $pdo->query('SELECT * FROM table');\n$results = $statement->fetchAll(PDO::FETCH_OBJ);\n\n// Iterate over the results as many times as you need\nforeach ($results as $result) {\n    // do something with result\n}\nforeach ($results as $result) {\n    // do something else with result\n}

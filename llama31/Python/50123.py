@@ -1,0 +1,1 @@
+import gtk\n\nwindow = gtk.Window(gtk.WINDOW_TYPE_HINT_DOCK)\nwindow.set_title("Persistent Window")\nwindow.set_default_size(200, 200)\nwindow.connect("destroy", gtk.main_quit)\n\ngtk.main()

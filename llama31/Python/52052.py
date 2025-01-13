@@ -1,0 +1,1 @@
+import yaml\n\n# Open the command line app's output as a file object\nwith open('app_output.yaml', 'r') as f:\n    # Create a generator that parses the YAML stream\n    docs = yaml.safe_load_all(f)\n\n    # Iterate over the generator to process each document\n    for doc in docs:\n        # Process each document (a Python dictionary)\n        print(doc)

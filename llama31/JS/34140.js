@@ -1,0 +1,1 @@
+// get all classes\nvar classes = $('div').attr('class').split(' ');\n\n// check if the element has a "special" class\nvar hasSpecialClass = false;\n$.each(classes, function(index, className) {\n  if (className.indexOf('_spec') !== -1) {\n    hasSpecialClass = true;\n    return false;\n  }\n});\n\nif (hasSpecialClass) {\n  console.log('The element has a "special" class');\n}

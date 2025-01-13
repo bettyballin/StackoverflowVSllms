@@ -1,1 +1,0 @@
-schtasks /create /tn "Daily Backup" /tr "wbadmin start backup -backupTarget:E: -include:C:\Users\username\Documents -allCritical -quiet" /st 22:00

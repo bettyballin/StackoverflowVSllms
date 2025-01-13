@@ -1,0 +1,1 @@
+SELECT * FROM PivotMonths('2022-01-01', 100.00)

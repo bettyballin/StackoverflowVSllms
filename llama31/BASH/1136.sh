@@ -1,1 +1,0 @@
-gdc -fdump-tree-original -c your_d_file.d

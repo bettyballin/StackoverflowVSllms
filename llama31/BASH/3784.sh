@@ -1,1 +1,0 @@
-ack -a "search_string" file.txt

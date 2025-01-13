@@ -1,0 +1,1 @@
+result = [main_list[i] for i in indexes if i < len(main_list)]

@@ -1,0 +1,1 @@
+$memcached = new Memcached();\n$memcached->addServer('localhost', 11211);\n\n// Store data\n$memcached->set('shared_data', 'Hello, world!');\n\n// Retrieve data\n$data = $memcached->get('shared_data');\necho $data; // Output: Hello, world!

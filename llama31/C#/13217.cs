@@ -1,1 +1,0 @@
-using System;\n\npublic class Record\n{\n    public Guid Id { get; set; } = Guid.NewGuid();\n    // ...\n}

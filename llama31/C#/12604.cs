@@ -1,1 +1,0 @@
-if (dataRow.Table.Columns.Contains("column_name") && !dataRow.IsNull("column_name"))\n{\n    // column exists and is not DBNull\n}

@@ -1,1 +1,0 @@
-using (SqlConnection conn = new SqlConnection(DBConnString))\n{\n    conn.Open();\n    // ...\n    conn.Close();\n    SqlConnection.ClearPool(conn);\n}

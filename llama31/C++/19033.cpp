@@ -1,1 +1,0 @@
-orb->set_timeout(30000); // 30 seconds

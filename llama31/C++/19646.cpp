@@ -1,1 +1,0 @@
-int __myVariable; // Bad practice! This name is reserved for the implementation.

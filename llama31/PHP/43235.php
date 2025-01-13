@@ -1,0 +1,1 @@
+// middleware.php\nuse Psr\Http\Message\ResponseInterface;\nuse Psr\Http\Message\ServerRequestInterface;\n\nclass SecurityMiddleware\n{\n    public function __invoke(ServerRequestInterface $request, ResponseInterface $response, callable $next)\n    {\n        // Code to enforce security\n        return $next($request, $response);\n    }\n}

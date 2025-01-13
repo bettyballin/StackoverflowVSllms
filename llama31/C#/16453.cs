@@ -1,1 +1,0 @@
-var catalog = new AggregateCatalog();\ncatalog.Catalogs.Add(new AssemblyCatalog(typeof(MyInterface).Assembly));\ncatalog.Catalogs.Add(new InterfaceExportProvider(typeof(MyInterface)));\n\nvar container = new CompositionContainer(catalog);

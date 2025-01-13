@@ -1,1 +1,0 @@
-int (*data[2])[2];\n\n// Initialize the pointers\ndata[0] = (int[2]){1, 2};\ndata[1] = (int[2]){3, 4};\n\n// Access the integers\nprintf("%d %d\n", (*data[0])[0], (*data[0])[1]);  // prints "1 2"\nprintf("%d %d\n", (*data[1])[0], (*data[1])[1]);  // prints "3 4"

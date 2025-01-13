@@ -1,0 +1,1 @@
+def segment_list(input_list, seg_length):\n    return [input_list[i:i+seg_length] for i in range(0, len(input_list), seg_length)]

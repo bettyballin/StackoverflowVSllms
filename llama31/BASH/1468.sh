@@ -1,1 +1,0 @@
-mvn -Dmy.property=somevalue

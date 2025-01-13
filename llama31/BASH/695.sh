@@ -1,1 +1,0 @@
-find . -type f -name "*.php" -exec sed -i 's/\b\([a-zA-Z_][a-zA-Z_0-9]*\)\b/$\1/g' {} \;

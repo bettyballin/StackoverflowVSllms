@@ -1,1 +1,0 @@
-public class Global : HttpApplication\n{\n    protected void Application_Start(object sender, EventArgs e)\n    {\n        RouteTable.Routes.Add(new ServiceRoute("Service", new WebServiceHostFactory(), typeof(Service)));\n    }\n}

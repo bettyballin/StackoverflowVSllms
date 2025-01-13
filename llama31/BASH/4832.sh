@@ -1,1 +1,0 @@
-regsvr32 adsldp.dll\nregsvr32 adsldpc.dll

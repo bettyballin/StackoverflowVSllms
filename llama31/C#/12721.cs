@@ -1,1 +1,0 @@
-Regex tag_re = new Regex("({{.*}}");

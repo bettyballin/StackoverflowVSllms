@@ -1,0 +1,1 @@
+Private Sub TextBox1_KeyDown(sender As Object, e As KeyEventArgs) Handles TextBox1.KeyDown\n    If e.KeyCode = Keys.Enter Then\n        e.SuppressKeyPress = True\n        TextBox1.SelectedText = Environment.NewLine\n    End If\nEnd Sub

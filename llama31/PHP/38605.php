@@ -1,0 +1,1 @@
+function doSomething() {\n    // .. code here ..\n\n    try {\n        set_time_limit(10); // set time limit to 10 seconds\n        function1();\n    } catch (Error $e) {\n        if ($e->getCode() === 1) { // timeout error code\n            // handle timeout error\n        } else {\n            throw $e;\n        }\n    }\n\n    // .. some code here ..\n}

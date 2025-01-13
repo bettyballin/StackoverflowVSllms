@@ -1,1 +1,0 @@
-#include <esapi.h>\n\n// ...\n\nchar *dest = esapi_strdup("Hello, World!");\nif (dest == NULL) {\n    // handle error\n}

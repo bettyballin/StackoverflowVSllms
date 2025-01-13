@@ -1,0 +1,1 @@
+<#@ template language="VB" #>\n<#@ output extension=".vb" #>\n<#@ include file="AssemblyInfo.ttinclude" #>\n\nImports System.Reflection\n\n<Assembly: AssemblyCompany("<#= this.Company #>")>\n<Assembly: AssemblyCopyright("<#= this.Copyright #>")>\n<Assembly: AssemblyTrademark("<#= this.Trademark #>")>

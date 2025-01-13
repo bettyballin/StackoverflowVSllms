@@ -1,0 +1,1 @@
+import axios from 'axios';\n\naxios.get('/api/data')\n  .then(response => {\n    console.log(response.data);\n  })\n  .catch(error => {\n    console.error(error);\n  });

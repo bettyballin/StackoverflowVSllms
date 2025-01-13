@@ -1,0 +1,1 @@
+dl($_SERVER['HOME'] . '/lib/libmcrypt.so');

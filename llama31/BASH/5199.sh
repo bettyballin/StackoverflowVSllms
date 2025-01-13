@@ -1,1 +1,0 @@
-regsvr32.exe /s faxcomex.dll

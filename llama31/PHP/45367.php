@@ -1,0 +1,1 @@
+ini_set('memory_limit', '128M'); // or higher, depending on your needs

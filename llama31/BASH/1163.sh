@@ -1,1 +1,0 @@
-$ base64 input.pdf | mysql -u username -p password database -e "INSERT INTO table (blob_column) VALUES (FROM_BASE64('$output'))"

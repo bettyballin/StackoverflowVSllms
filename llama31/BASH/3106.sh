@@ -1,1 +1,0 @@
-tail -n +2 "$FILE" > temp_file && mv temp_file "$FILE"

@@ -1,1 +1,0 @@
-#!/bin/bash\n\necho_header_and_instructions\necho "<html><body>"\necho "Instructions..."\necho "</body></html>"\n\n# Set the Content-Disposition header to force a download\necho "Content-Disposition: attachment; filename=your_file.zip"\necho "Content-Type: application/zip"\n\n# Stream the file\ncat your_file.zip\n\necho_end_tags

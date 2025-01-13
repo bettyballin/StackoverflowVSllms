@@ -1,0 +1,1 @@
+Public Sub RaiseMyEventAsync()\n    Dim handler As EventHandler = AddressOf HandleMyEvent\n    handler.BeginInvoke(Me, EventArgs.Empty, Nothing, Nothing)\nEnd Sub

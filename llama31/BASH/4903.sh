@@ -1,1 +1,0 @@
-# /etc/ppp/peers/demand-dial\nconnect "/usr/local/bin/get_available_modem"\ndevice "/dev/${DEVICE}"

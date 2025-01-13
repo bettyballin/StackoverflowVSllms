@@ -1,1 +1,0 @@
-cppcheck --enable=style,unusedFunction your_project_path

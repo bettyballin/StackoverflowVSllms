@@ -1,1 +1,0 @@
-.container {\n  display: flex;\n  flex-direction: row;\n}\n\n#leftcontent {\n  width: 170px;\n  border: 1px solid #C0C0C0;\n  padding: 2px;\n}\n\n#centercontent {\n  flex: 1;\n  border: 1px solid #C0C0C0;\n}

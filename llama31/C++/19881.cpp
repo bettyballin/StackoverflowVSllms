@@ -1,1 +1,0 @@
-CAsyncSocket sock;\nsock.Create();\nsock.Connect("your-own-server.com", 81); // Replace with a non-standard port

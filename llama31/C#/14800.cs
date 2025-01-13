@@ -1,1 +1,0 @@
-using System.Runtime.InteropServices;\n\nclass Program\n{\n    [DllImport("kernel32.dll")]\n    static extern bool AllocConsole();\n\n    static void Main(string[] args)\n    {\n        AllocConsole();\n        Console.WriteLine("Hello World!");\n    }\n}

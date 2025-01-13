@@ -1,0 +1,1 @@
+# Dashboard model\nclass Dashboard < ApplicationRecord\n  def self.graph1_data\n    # Fetch data for graph1\n  end\n\n  def self.graph2_data\n    # Fetch data for graph2\n  end\nend

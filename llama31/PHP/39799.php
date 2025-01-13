@@ -1,0 +1,1 @@
+$new = array_change_key_case($old, CASE_LOWER);

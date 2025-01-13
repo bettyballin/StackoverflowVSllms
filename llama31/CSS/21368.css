@@ -1,1 +1,0 @@
-/* Default styles for desktop devices */\nbody {\n    width: 800px;\n    margin: 0 auto;\n}\n\n/* Styles for mobile devices with a maximum width of 480px */\n@media only screen and (max-width: 480px) {\n    body {\n        width: 100%;\n        margin: 0;\n        padding: 0;\n    }\n}

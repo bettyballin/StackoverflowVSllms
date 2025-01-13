@@ -1,0 +1,1 @@
+error: function(request, error, exception) {\n  $("#loading").addClass("hide");\n  if (error == "timeout") {\n    $("#error").append("The request timed out, please resubmit");\n  } else {\n    $("#error").append("ERROR: " + error);\n    if (exception) {\n      console.log(exception);\n    }\n    if (request.responseText) {\n      console.log(request.responseText);\n    }\n  }\n}

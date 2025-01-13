@@ -1,0 +1,1 @@
+function onSilverlightLoaded() {\n    // Silverlight control is now loaded and accessible\n}\n\n// <param name="onload" value="onSilverlightLoaded" />

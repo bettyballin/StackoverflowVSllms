@@ -1,0 +1,1 @@
+$mysqli = new mysqli("localhost", "username", "password", "database");\n$result = $mysqli->query("SELECT * FROM table WHERE filename = 'test1.jpg'");\nif ($result->num_rows > 0) {\n    $data = $result->fetch_assoc();\n    var_dump($data);\n} else {\n    echo "No rows returned";\n}

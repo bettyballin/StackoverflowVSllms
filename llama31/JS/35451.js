@@ -1,0 +1,1 @@
+function testAJAX() {\n  $.ajax({\n    url: "test-ajax.php",\n    dataType: "text",\n    success: function(data) {\n      var json = JSON.parse(data);\n      $("#div1").html(json.var1[1]);\n    }\n  });\n}

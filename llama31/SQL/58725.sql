@@ -1,0 +1,1 @@
+SELECT *\nFROM events\nWHERE (start_date, end_date) OVERLAPS ('2009-01-22', '2009-01-24');

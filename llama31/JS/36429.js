@@ -1,0 +1,1 @@
+document.getElementById("mySilverlightApp").Content.DoSomething();

@@ -1,0 +1,1 @@
+class SessionDataHandler {\n    private function write() {}\n}\n\nclass Session {\n    private $dataHandler;\n\n    public function __construct() {\n        $this->dataHandler = new SessionDataHandler();\n    }\n\n    public function write() {\n        $this->dataHandler->write();\n    }\n}

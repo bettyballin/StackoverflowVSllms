@@ -1,0 +1,1 @@
+class CreateTriggersAndStoredProcedures < ActiveRecord::Migration[6.0]\n  def up\n    execute(File.read('path/to/your/sql/file.sql'))\n  end\n\n  def down\n    # Code to drop triggers and stored procedures goes here\n  end\nend

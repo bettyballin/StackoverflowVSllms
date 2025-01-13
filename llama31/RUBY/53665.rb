@@ -1,0 +1,1 @@
+module Finance\n  module CompoundInterest\n    def self.future_value(present_value, interest, length)\n      interest /= 100 if interest >= 1 # if given in percent 1..100\n      present_value * ((1 + interest)**length)\n    end\n  end\nend

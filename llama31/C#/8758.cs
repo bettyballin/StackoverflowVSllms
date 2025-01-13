@@ -1,1 +1,0 @@
-[AcceptVerbs(HttpVerbs.Post)]\npublic void SaveImage(FormCollection formValues)\n{\n    // Add some logging or debugging statements here\n    System.Diagnostics.Debug.WriteLine("SaveImage method called!");\n    byte[] contents = Convert.FromBase64String(Request.Form["file"]);\n    System.IO.File.WriteAllBytes(Server.MapPath(Request.Form["name"]), contents);\n}

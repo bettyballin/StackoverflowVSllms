@@ -1,1 +1,0 @@
-// C# DLL (MyCSharpDll.cs)\nusing System;\nusing System.Runtime.InteropServices;\n\n[assembly: ComVisible(true)]\n\npublic class MyCSharpClass\n{\n    [ComVisible(true)]\n    public void MyCSharpMethod()\n    {\n        Console.WriteLine("Hello from C#!");\n    }\n}

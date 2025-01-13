@@ -1,0 +1,1 @@
+function checkOverflow(element) {\n  return element.scrollHeight > element.clientHeight || \n         element.scrollWidth > element.clientWidth;\n}

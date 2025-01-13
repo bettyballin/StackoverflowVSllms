@@ -1,1 +1,0 @@
-// Install PHP Depend via Composer\ncomposer require pdepend/pdepend\n\n// Run PHP Depend on your codebase\nvendor/bin/pdepend --summary-xml=summary.xml /path/to/your/code\n\n// Generate a graph from the summary XML file\nvendor/bin/pdepend --graph=graph.dot summary.xml\n\n// Render the graph using Graphviz\ndot -Tpng graph.dot -o graph.png

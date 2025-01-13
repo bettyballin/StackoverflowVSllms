@@ -1,1 +1,0 @@
-int choi(char *Tvide[48]) {\n    // ...\n    int ch;\n    printf("\n S.V.P introduire votre choix :");\n    scanf("%d", &ch);\n\n    Tvide[ch] = 'n';\n    int ch1 = ch;\n    return ch1;\n}

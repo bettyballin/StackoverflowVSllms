@@ -1,1 +1,0 @@
-int pow(int base, int exponent) {\n    int result = 1;\n    while (exponent > 0) {\n        if (exponent % 2 == 1) {\n            result *= base;\n        }\n        base *= base;\n        exponent /= 2;\n    }\n    return result;\n}

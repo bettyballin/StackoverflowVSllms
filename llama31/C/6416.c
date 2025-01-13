@@ -1,1 +1,0 @@
-// A simple C function to calculate the area of a rectangle\nint calculate_area(int width, int height) {\n    return width * height;\n}\n\nint main() {\n    int width = 5;\n    int height = 3;\n    int area = calculate_area(width, height);\n    printf("Area: %d\n", area);\n    return 0;\n}

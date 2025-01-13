@@ -1,0 +1,1 @@
+function shelfStacking(items, m) {\n  let row = [];\n  let currentWidth = 0;\n\n  for (let item of items) {\n    if (currentWidth + item.width > m) {\n      console.log(row);\n      row = [item];\n      currentWidth = item.width;\n    } else {\n      row.push(item);\n      currentWidth += item.width;\n    }\n  }\n\n  if (row.length > 0) {\n    console.log(row);\n  }\n}

@@ -1,0 +1,1 @@
+from collections import deque\n\nclass Entity:\n    # ...\n\n    def children(self):\n        stack = deque([self.entities])\n        while stack:\n            entities = stack.pop()\n            for e in entities:\n                yield e\n                if e.entities:\n                    stack.append(e.entities)

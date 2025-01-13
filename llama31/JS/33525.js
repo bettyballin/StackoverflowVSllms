@@ -1,0 +1,1 @@
+// assuming you're using jQuery for AJAX\n$.ajax({\n  // your AJAX settings here\n  success: function(data) {\n    // update the content\n    // ...\n\n    // toggle the active class on the link\n    $('a').removeClass('active');\n    $(this).addClass('active');\n  }\n});

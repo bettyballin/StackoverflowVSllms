@@ -1,0 +1,1 @@
+SELECT \n  q.qid,\n  q.question,\n  q.date,\n  (SELECT COUNT(*) FROM comments c WHERE c.qid = q.qid) AS total_comments\nFROM \n  questions q\nORDER BY \n  q.date DESC;

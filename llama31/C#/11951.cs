@@ -1,1 +1,0 @@
-string inputValue = "Hello ' World";\nstring escapedValue = EscapeSqlString(inputValue);\n\nstring sqlQuery = "INSERT INTO TABLE_A (COLUMN_A, COLUMN_B) SELECT ('" + escapedValue + "', COLUMN_C) FROM TABLE_B WHERE COLUMN_D = ?";

@@ -1,1 +1,0 @@
-# Generate a test RSA key pair\nopenssl genrsa -out test_key.pem 2048\n\n# Encrypt a test message using the public key\nopenssl rsautl -encrypt -inkey test_key.pem -pubin -in test_message.txt -out encrypted_message.bin\n\n# Decrypt the message using the private key\nopenssl rsautl -decrypt -inkey test_key.pem -in encrypted_message.bin -out decrypted_message.txt

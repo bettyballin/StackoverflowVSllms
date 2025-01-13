@@ -1,0 +1,1 @@
+My.Settings.YourSettingName = "some value"\nMy.Settings.Save()

@@ -1,0 +1,1 @@
+use Symfony\Component\ExpressionLanguage\ExpressionLanguage;\n\n$language = new ExpressionLanguage();\n$equation = "(((4 * 5) + 6) * 2) / 8";\n$result = $language->evaluate($equation);\n\nprint $result; // Output: 6.5

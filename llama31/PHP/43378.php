@@ -1,0 +1,1 @@
+class MyClass {\n    function myFunction($externalVar) {\n        if (isset($externalVar)) {\n            // do something\n        }\n    }\n}\n\n$someExternalVar = true;\n$obj = new MyClass();\n$obj->myFunction($someExternalVar);

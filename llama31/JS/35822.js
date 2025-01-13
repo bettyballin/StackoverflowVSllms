@@ -1,0 +1,1 @@
+const couchdb = require('couchdb');\n\n// Connect to CouchDB\nconst db = couchdb.createClient();\n\n// Store a document\ndb.save({\n  _id: 'user:1',\n  name: 'John Doe',\n  email: 'johndoe@example.com'\n});\n\n// Retrieve a document\ndb.get('user:1', (err, doc) => {\n  console.log(doc);\n});

@@ -1,1 +1,0 @@
-qmake CONFIG+=static\nmake

@@ -1,0 +1,1 @@
+swfobject.embedSWF("header.swf", "flash-header", "800", "200", "9.0.0", null, null, { wmode: "transparent" });

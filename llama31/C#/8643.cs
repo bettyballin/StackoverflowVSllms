@@ -1,1 +1,0 @@
-public ActionResult MyAction()\n{\n    ViewBag.Message = "Your message here";\n    return View("Message");\n}

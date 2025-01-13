@@ -1,1 +1,0 @@
-output.Rows[r][c] = string.Format("{0:#,##0}", input.Rows[c - 1][r + 1]);

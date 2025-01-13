@@ -1,1 +1,0 @@
-class Thing {\npublic:\n    // ...\n    bool operator<(const Thing& rhs) const {\n        std::cout << "this works!";\n        return this->val() < rhs.val();\n    }\n    // ...\n};\n\nstruct Sort {\n    bool operator()(const Thing& start, const Thing& end) const {\n        return start.val() < end.val();\n    }\n};

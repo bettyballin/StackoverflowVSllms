@@ -1,0 +1,1 @@
+If Books.Count > 0 Then\n    Me.CopyFrom(Books(0))\nEnd If

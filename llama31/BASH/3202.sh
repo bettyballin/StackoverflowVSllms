@@ -1,1 +1,0 @@
-sudo apt-get install sun-java6-jdk=1.4.2-17ubuntu1

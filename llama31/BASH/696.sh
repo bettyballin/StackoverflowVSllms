@@ -1,1 +1,0 @@
-# Increase the maximum number of open files (file descriptors)\nulimit -n 65536\n\n# Increase the maximum number of socket connections\nsysctl -w net.core.somaxconn=65536

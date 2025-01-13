@@ -1,0 +1,1 @@
+// In your INDEX.PHTML\n$this->Layout()->header = $this->partial('index/header.phtml');\n$this->Layout()->main = $this->partial('index/main.phtml', array('someVariable' => 'someValue'));\n$this->Layout()->footer = $this->partial('index/footer.phtml');

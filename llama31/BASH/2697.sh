@@ -1,1 +1,0 @@
-# Configure the Qt build with only the necessary modules\nconfigure -nomake tests -nomake examples -nomake demos -no-webkit -no-phonon -no-db -no-sql -no-svg

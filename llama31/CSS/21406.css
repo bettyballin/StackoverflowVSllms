@@ -1,1 +1,0 @@
-#tabs-nav-cont {\n  display: flex;\n}\n\n.tabs-navs {\n  flex: 1;\n  width: 100px; /* adjust the width to your liking */\n  height: 50px; /* adjust the height to your liking */\n  background-image: url('your-background-image.jpg'); /* add your background image */\n}

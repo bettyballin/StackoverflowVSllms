@@ -1,1 +1,0 @@
-Func<string> getName = () => null;\nstring result = getName() ?? "Default Name"; // Returns "Default Name"

@@ -1,1 +1,0 @@
-string filePath = fileUpload.PostedFile.FileName;

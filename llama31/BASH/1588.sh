@@ -1,1 +1,0 @@
-bcp your_database_name..your_table_name out your_data_file.sql -S your_server_name -T

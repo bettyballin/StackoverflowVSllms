@@ -1,1 +1,0 @@
-string nodeName = CleanNodeName("Hello World!");\n// nodeName will be "Hello_World_0021"

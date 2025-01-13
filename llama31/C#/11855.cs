@@ -1,1 +1,0 @@
-Uri codeBaseUri = new Uri(System.Reflection.Assembly.GetExecutingAssembly().CodeBase);\nstring directoryPath = System.IO.Path.GetDirectoryName(codeBaseUri.LocalPath);

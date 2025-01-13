@@ -1,0 +1,1 @@
+// /project/Session/Abstract.php\nnamespace Project\Session;\n\nclass AbstractSession { ... }\n\n// /project/Session/Database.php\nnamespace Project\Session;\n\nclass DatabaseSession extends AbstractSession { ... }

@@ -1,0 +1,1 @@
+$headers = getallheaders();\n$referrerUrl = $headers['Referer'];

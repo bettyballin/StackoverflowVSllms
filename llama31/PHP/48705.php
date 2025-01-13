@@ -1,0 +1,1 @@
+$xml = new SimpleXMLElement($xml_string);\n\nforeach ($xml->object->data as $data) {\n    if ($data->attributes()->type == 'me') {\n        echo $data . "\n";\n    }\n}

@@ -1,1 +1,0 @@
-aspnet_regiis -pe "connectionStrings" -app "/W3SVC/1/ROOT"

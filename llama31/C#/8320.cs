@@ -1,1 +1,0 @@
-using System.Xml;\n\npublic partial class XmlGenerator\n{\n    [SqlProcedure]\n    public static void GenerateXml(SqlXml xml)\n    {\n        // Generate XML using XmlDocument or XDocument\n        XmlDocument doc = new XmlDocument();\n        // ...\n        xml.Value = doc.OuterXml;\n    }\n}

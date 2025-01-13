@@ -1,1 +1,0 @@
-#include <io.h>\n...\nif (_chsize(fileno(file), offset) != 0) {\n    perror("Error truncating file");\n    return -1;\n}

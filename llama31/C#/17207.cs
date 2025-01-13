@@ -1,1 +1,0 @@
-// Install via NuGet: Install-Package Microsoft.AspNet.DynamicData\nusing System.Web.DynamicData;\n\n// Create a form from a model\nvar model = new MyModel();\nvar form = new Form() { \n    Items = new[] { \n        new FormItem() { \n            Name = "MyProperty", \n            Label = "My Property", \n            Control = new TextBox() \n        } \n    } \n};

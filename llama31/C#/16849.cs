@@ -1,1 +1,0 @@
-string[] filePaths = new string[] { "file1.bin", "file2.bin", "file3.bin" };\nstring outputFilePath = "output.bin";\nBinaryFileJoiner.JoinFiles(filePaths, outputFilePath);

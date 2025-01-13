@@ -1,0 +1,1 @@
+/**\n * Implements hook_filter_info_alter().\n */\nfunction mymodule_filter_info_alter(&$filters) {\n  // Check if the aggregator filter is present\n  if (isset($filters['aggregator'])) {\n    // Allow specific HTML attributes\n    $filters['aggregator']['allowed_attributes'] = array('style', 'dir', 'title');\n  }\n}

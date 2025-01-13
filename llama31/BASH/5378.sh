@@ -1,1 +1,0 @@
-signtool verify /pa your_extension.xpi

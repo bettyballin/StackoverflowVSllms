@@ -1,1 +1,0 @@
-ew ReflectionPermission(ReflectionPermissionFlag.AllFlags).Assert();

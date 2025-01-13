@@ -1,1 +1,0 @@
-byte[] bytURL = new byte[txtURLText.Text.Length / 2];\nMatchCollection matches = Regex.Matches(txtURLText.Text, @"([0-9A-F]{2})");\nfor (int i = 0; i < matches.Count; i++)\n{\n    bytURL[i] = Convert.ToByte(matches[i].Groups[1].Value, 16);\n}\ntxtDecodedText.Text = Encoding.Unicode.GetString(bytURL);

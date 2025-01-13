@@ -1,1 +1,0 @@
-int amount = -1234;\nstring formattedAmount = amount.ToString("$#,##0.00;-$#,##0.00");

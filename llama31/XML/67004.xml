@@ -1,0 +1,1 @@
+<system.web>\n    <httpHandlers>\n        <remove verb="*" path="*.asmx" />\n        <remove verb="*" path="*_AppService.axd" />\n        <remove verb="*" path="*_asmx/*.asmx" />\n    </httpHandlers>\n</system.web>

@@ -1,0 +1,1 @@
+content = content.replace('\r', '\n').replace('\n\n', '\n')

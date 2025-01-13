@@ -1,0 +1,1 @@
+var options = {\n  hAxis: {\n    slantedText: true,\n    slantedTextAngle: 90, // vertical labels\n    showTextEvery: 1 // show every label\n  }\n};

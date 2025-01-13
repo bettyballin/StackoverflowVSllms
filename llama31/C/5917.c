@@ -1,1 +1,0 @@
-unsigned char emptyBuffer[1];\nfoo(0, emptyBuffer);

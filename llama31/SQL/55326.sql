@@ -1,0 +1,1 @@
+SELECT \n    CONVERT(VARCHAR(10), Time15, 101) AS Date, \n    MAX(UserCount) AS PeakUserCount\nFROM \n    YourTable\nGROUP BY \n    CONVERT(VARCHAR(10), Time15, 101)\nORDER BY \n    Date

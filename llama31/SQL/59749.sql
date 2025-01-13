@@ -1,0 +1,1 @@
+IF (@dateParam NOT LIKE '19[0-9][0-9]-[0-9][0-9]-[0-9][0-9]' AND \n    @dateParam NOT LIKE '2[0-9][0-9][0-9]-[0-9][0-9]-[0-9][0-9]')\nBEGIN\n    RAISERROR ('Invalid date format. Use yyyy-mm-dd.', 16, 1);\n    RETURN;\nEND;

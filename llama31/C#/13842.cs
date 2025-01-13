@@ -1,1 +1,0 @@
-public JsonResult UpdateSections()\n{\n    // Update your model and other logic here\n    var topHtml = RenderPartialViewToString("_TopPartial");\n    var bottomHtml = RenderPartialViewToString("_BottomPartial");\n    var mainHtml = RenderPartialViewToString("_MainPartial");\n\n    return Json(new { topHtml, bottomHtml, mainHtml });\n}

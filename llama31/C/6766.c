@@ -1,1 +1,0 @@
-int main() {\n    char *original_string = "Hello";\n    char *pad = "0";\n    int padded_len = 10;\n\n    char *padded_string = StringPadRight(original_string, padded_len, pad);\n\n    printf("%s\n", padded_string);  // Output: "Hello00000"\n\n    free(padded_string);  // Don't forget to free the allocated memory\n\n    return 0;\n}

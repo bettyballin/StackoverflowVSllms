@@ -1,0 +1,1 @@
+use Monolog\Logger;\nuse Monolog\Handler\StreamHandler;\n\n$logger = new Logger('my_logger');\n$logger->pushHandler(new StreamHandler('logs/exceptions.log', Logger::ERROR));\n\ntry {\n    // Your code here\n} catch (Exception $e) {\n    $logger->error($e->getMessage(), array('exception' => $e));\n}

@@ -1,1 +1,0 @@
-[HttpPost]\npublic JsonResult VoteUp(int postId)\n{\n    // Validate the request data\n    if (!ModelState.IsValid)\n    {\n        return Json(new { success = false, message = "Invalid request data" });\n    }\n\n    // Increment Post Vote Count\n    var voteCount = // ...\n\n    return Json(new { success = true, voteCount });\n}

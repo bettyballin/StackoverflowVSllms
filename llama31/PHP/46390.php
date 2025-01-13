@@ -1,0 +1,1 @@
+$urls = array('/trac/', '/svn/');\n\nforeach ($urls as $url) {\n    $fullUrl = 'http://myserver' . $url;\n    $response = file_get_contents($fullUrl);\n    $doc = new DOMDocument();\n    @$doc->loadHTML($response);\n    $uls = $doc->getElementsByTagName('ul');\n    foreach ($uls as $ul) {\n        echo $ul->ownerDocument->saveHTML($ul);\n    }\n}

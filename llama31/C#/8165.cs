@@ -1,1 +1,0 @@
-byte[] unsignedCharArray = new byte[] { (byte) 0xFF, (byte) 0xFE, (byte) 0xFD };\n\n// When you need to use the byte as an unsigned char,\n// you can simply perform a bitwise AND operation with 0xFF\nint unsignedChar = unsignedCharArray[0] & 0xFF;

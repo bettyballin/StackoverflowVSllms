@@ -1,1 +1,0 @@
-public void Reset()\n{\n    // Log the current thread ID and the callstack\n    Debug.WriteLine($"Thread ID: {Thread.CurrentThread.ManagedThreadId}");\n    Debug.WriteLine(new StackTrace().ToString());\n\n    // Rest of the Reset() method implementation...\n}

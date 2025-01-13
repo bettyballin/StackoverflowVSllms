@@ -1,0 +1,1 @@
+// Example using Redis\n$redis = new Redis();\n$redis->connect('localhost', 6379);\n$redis->set('dataentry', json_encode($dataentry));

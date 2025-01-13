@@ -1,1 +1,0 @@
-public interface IFoo { }\n\npublic class Foo<T> : IFoo { }\n\nIFoo x;

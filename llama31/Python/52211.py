@@ -1,0 +1,1 @@
+# toolbar_controller.py\nimport gtk\n\nclass ToolbarController:\n    def __init__(self, view):\n        self.view = view\n        self.view.connect("clicked", self.on_clicked)\n\n    def on_clicked(self, button):\n        # Handle toolbar button click\n        print("Toolbar button clicked")

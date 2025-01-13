@@ -1,1 +1,0 @@
-openssl x509 -in certificate_file -inform der  # for DER encoded certificates\nopenssl x509 -in certificate_file -inform pem  # for Base64 encoded certificates (PEM format)

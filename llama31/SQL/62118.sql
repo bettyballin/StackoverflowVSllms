@@ -1,0 +1,1 @@
+SELECT Acct_id, Name FROM MasterList m\nWHERE NOT EXISTS (SELECT 1 FROM NewMasterList n WHERE n.Acct_id = m.Acct_id)\n\nUNION\n\nSELECT Acct_id, Name FROM NewMasterList n\nWHERE NOT EXISTS (SELECT 1 FROM MasterList m WHERE m.Acct_id = n.Acct_id)

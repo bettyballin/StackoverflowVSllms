@@ -1,0 +1,1 @@
+<servlet>\n    <servlet-name>static</servlet-name>\n    <servlet-class>com.example.StaticServlet</servlet-class>\n</servlet>

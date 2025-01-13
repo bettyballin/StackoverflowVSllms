@@ -1,0 +1,1 @@
+ALTER TABLE MemberAccount\nADD CONSTRAINT FK_MemberAccount_MemberPreferences\nFOREIGN KEY (MemberID) REFERENCES MemberPreferences(MemberID)\n\nALTER TABLE MemberProfile\nADD CONSTRAINT FK_MemberProfile_MemberAccount\nFOREIGN KEY (MemberID) REFERENCES MemberAccount(MemberID)

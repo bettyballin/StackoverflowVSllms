@@ -1,1 +1,0 @@
-public class MyEntityMap : ClassMap<MyEntity>\n{\n    public MyEntityMap()\n    {\n        CompositeId()\n            .KeyProperty(x => x.Id1)\n            .KeyProperty(x => x.Id2);\n    }\n}

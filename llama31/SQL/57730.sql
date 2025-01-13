@@ -1,0 +1,1 @@
+CurrentProject.Connection.Execute _\n    "ALTER TABLE tblLogs ALTER date_created DATETIME DEFAULT NOW() NOT NULL;"

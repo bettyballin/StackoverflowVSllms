@@ -1,1 +1,0 @@
-export ERLANG_COOKIE=YOUR_COOKIE_VALUE\nerl -name fred@ipaddress

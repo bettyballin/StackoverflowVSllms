@@ -1,1 +1,0 @@
-public static string EscapeSqlString(string input)\n{\n    return input.Replace("'", "''");\n}

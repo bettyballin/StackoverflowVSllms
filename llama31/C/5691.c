@@ -1,1 +1,0 @@
-int hash = 0;\nfor (int i = 0; i < length; i++) {\n    hash = 31*hash + value[i];\n}

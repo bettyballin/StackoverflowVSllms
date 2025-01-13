@@ -1,1 +1,0 @@
-HttpWebRequest request = (HttpWebRequest)WebRequest.Create(msgURL);\nHttpWebResponse response = (HttpWebResponse)request.GetResponse();\nStream stream = response.GetResponseStream();

@@ -1,0 +1,1 @@
+// Correct\nif ($condition) {\n    // code here\n} elseif ($anotherCondition) {\n    // code here\n} else {\n    // code here\n}\n\n// Incorrect\nif($condition) {\n  // code here\n} else if($anotherCondition) {\n  // code here\n} else {\n  // code here\n}

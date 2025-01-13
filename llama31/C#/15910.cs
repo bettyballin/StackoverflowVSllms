@@ -1,1 +1,0 @@
-ProxyChanger.SetProxy("http://myproxyserver", 8080);

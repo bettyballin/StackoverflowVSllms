@@ -1,0 +1,1 @@
+$someXmlDoc->xpath("//*[translate(name(), 'ABCDEFGHIJKLMNOPQRSTUVWXYZ', 'abcdefghijklmnopqrstuvwxyz') = 'item']/text()");

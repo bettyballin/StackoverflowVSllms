@@ -1,0 +1,1 @@
+Dim bMuteSound As Boolean\n\n' Set CheckBox value from Boolean\nBooleanToCheckBox bMuteSound, ChkMute\n\n' Get Boolean value from CheckBox\nbMuteSound = CheckBoxToBoolean(ChkMute)\n\nIf bMuteSound Then\n    ' blah blah\nEnd If

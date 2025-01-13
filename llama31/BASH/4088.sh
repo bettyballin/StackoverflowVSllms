@@ -1,1 +1,0 @@
-chmod g+s uploads/

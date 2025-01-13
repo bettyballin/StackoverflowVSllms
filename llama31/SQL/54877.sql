@@ -1,0 +1,1 @@
+DO $$\nDECLARE \n  col_type text;\nBEGIN\n  SELECT pg_typeof(elevation) INTO col_type;\n  IF col_type = 'character varying' THEN\n    ALTER TABLE mytable\n      ALTER COLUMN elevation TYPE integer USING varchar_to_int(elevation, -1);\n  END IF;\nEND $$;

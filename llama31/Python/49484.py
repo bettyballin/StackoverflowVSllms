@@ -1,0 +1,1 @@
+import requests\n\ndef is_active_node():\n    try:\n        response = requests.get('http://localhost:8080/healthcheck', timeout=1)\n        if response.status_code == 200:\n            return True\n    except requests.RequestException:\n        pass\n    return False\n\nif is_active_node():\n    # Send pager alert\nelse:\n    # Send email alert

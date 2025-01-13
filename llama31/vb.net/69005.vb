@@ -1,0 +1,1 @@
+Public Sub LoadDict(ByVal phoneticType As PhoneticType, ByVal strDict As String)

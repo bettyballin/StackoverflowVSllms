@@ -1,0 +1,1 @@
+$('textarea').on('paste', function(event) {\n  event.preventDefault();\n  var text = event.originalEvent.clipboardData.getData('text/plain');\n  $(this).val(text);\n});

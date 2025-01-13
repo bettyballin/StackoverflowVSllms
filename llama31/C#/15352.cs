@@ -1,1 +1,0 @@
-int number = 4;\nint length = 4;\n\nstring paddedNumber = number.ToString("D" + length);\n\nConsole.WriteLine(paddedNumber);  // Outputs: "0004"

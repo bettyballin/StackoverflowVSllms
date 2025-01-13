@@ -1,0 +1,1 @@
+$question = new Zend_Form_Element_Radio('question');\n$question->setRequired(true)\n    ->setLabel('Are you sure?')\n    ->setMultiOptions(array('Yes', 'No'))\n    ->addValidator(new Zend_Validate_InArray(array('Yes')));

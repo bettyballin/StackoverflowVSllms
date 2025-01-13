@@ -1,1 +1,0 @@
-IEnumerable<T> enumerable = ...;\nList<T> list = enumerable.ToList();

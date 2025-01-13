@@ -1,1 +1,0 @@
-ls -l /Applications/xampp/xamppfiles/htdocs/mysite/cache/

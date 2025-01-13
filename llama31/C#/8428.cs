@@ -1,1 +1,0 @@
-private void Form1_Load(object sender, EventArgs e)\n{\n    if (listBox1.Items.Count > 0)\n    {\n        listBox1.SelectedIndex = 0; // Select the first item\n    }\n}

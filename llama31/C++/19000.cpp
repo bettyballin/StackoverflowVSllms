@@ -1,1 +1,0 @@
-try {\n    // ...\n} catch (...) {\n    for (auto& ptr : foo_list) {\n        delete ptr;\n    }\n    foo_list.clear();\n    throw; // rethrow the exception\n}

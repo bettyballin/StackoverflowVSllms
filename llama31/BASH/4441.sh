@@ -1,1 +1,0 @@
-et user postgres /delete

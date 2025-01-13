@@ -1,1 +1,0 @@
-class MyClass {\npublic:\n    virtual Calc* Compile(Evaluator* evaluator, ResolvedFunCall* fun_call, string* error);\n};

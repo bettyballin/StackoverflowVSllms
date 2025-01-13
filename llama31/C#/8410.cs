@@ -1,1 +1,0 @@
-IEnumerable<Team> drew = fixtures\n    .Where(f => f.Played && f.HomeScore == f.AwayScore)\n    .SelectMany(f => new[] { f.HomeTeam, f.AwayTeam });

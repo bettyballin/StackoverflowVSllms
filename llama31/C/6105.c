@@ -1,1 +1,0 @@
-#include <zlib.h>\n\nuLong compressed_size = /* size of compressed data */;\nuLong uncompressed_size = compressBound(compressed_size);\n\nprintf("Estimated uncompressed size: %lu\n", uncompressed_size);

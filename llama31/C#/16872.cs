@@ -1,1 +1,0 @@
-DataRow row = myDataSet.Tables["myTable"].Rows[0];\n\n// Get the original version of the row\nDataRow originalRow = row.GetOriginalVersion(DataRowVersion.Original);\n\n// Now you can access the original values\nstring originalValue = originalRow["myColumn"].ToString();

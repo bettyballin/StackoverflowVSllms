@@ -1,0 +1,1 @@
+$filehandle = fopen($tmpfile, 'rb');\nstream_encoding($filehandle, 'UTF-16LE'); // UTF-16 Little Endia

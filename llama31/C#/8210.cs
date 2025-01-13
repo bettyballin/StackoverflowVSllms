@@ -1,1 +1,0 @@
-SqlCommand CodeStatus = new SqlCommand(SQL, DB);\nDB.Open();\nSqlDataReader Reader = CodeStatus.ExecuteReader();\n\nDataTable dt = new DataTable();\ndt.Load(Reader);\n\nFormView1.DataSource = dt;\nFormView1.DataBind();\n\nDB.Close();

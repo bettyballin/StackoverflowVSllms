@@ -1,0 +1,1 @@
+-- Example SQL query with SELECT-first syntax\nSELECT *\nFROM customers\nWHERE country='USA';

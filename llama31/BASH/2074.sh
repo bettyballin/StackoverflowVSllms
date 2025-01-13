@@ -1,1 +1,0 @@
-#!/bin/sh\n\nfile=$1\nn=$2\n\n# if number is zero exit\nif [ "$n" -eq "0" ]\nthen\n    exit 0\nfi\n\necho "Generating list of $n people."\n\nfor i in $(seq 1 $n); do\n    echo "name$i $((RANDOM % 75 + 15)) (###)###-####"\ndone > $file\n\necho "List generated."

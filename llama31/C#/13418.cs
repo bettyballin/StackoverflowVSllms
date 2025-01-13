@@ -1,1 +1,0 @@
-private void Button1_Click(object sender, EventArgs e)\n{\n    Panel uc = new Panel();\n    // ...\n    this.Controls.Remove(uc);\n}

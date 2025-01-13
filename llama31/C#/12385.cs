@@ -1,1 +1,0 @@
-using HtmlSanitizer;\n\npublic class HtmlValidator\n{\n    public string ValidateHtml(string html)\n    {\n        var sanitizer = new HtmlSanitizer();\n        var cleanHtml = sanitizer.Sanitize(html);\n        return cleanHtml;\n    }\n}

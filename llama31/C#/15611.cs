@@ -1,1 +1,0 @@
-using System.Web.Mvc;\n\n[Authorize]\npublic class MyController : Controller\n{\n    public ActionResult MyAction()\n    {\n        // This action is only accessible if the user is logged in\n        return View();\n    }\n}

@@ -1,0 +1,1 @@
+$openid->setRequiredAttributes(array(\n    'http://axschema.org/contact/email',\n    'http://axschema.org/namePerson/first'\n));\n\n// or, if you want to request optional attributes\n$openid->setOptionalAttributes(array(\n    'http://axschema.org/namePerson/last',\n    'http://axschema.org/pref/language'\n));

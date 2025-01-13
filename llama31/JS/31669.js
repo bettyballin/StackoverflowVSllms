@@ -1,0 +1,1 @@
+var rootUrl = window.location.protocol + '//' + window.location.host;\n$.post(rootUrl + '/some/subdir/file.php', ...);

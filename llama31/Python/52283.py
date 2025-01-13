@@ -1,0 +1,1 @@
+def remove_values_from_list(lst, value):\n    while value in lst:\n        lst.remove(value)\n\nlst = [1, 2, 3, 4, 2, 2, 3]\nremove_values_from_list(lst, 2)\nprint(lst)  # Output: [1, 3, 4, 3]

@@ -1,0 +1,1 @@
+$rawfile = "mediumfile.csv";\n$handle = fopen($rawfile, "r");\nif ($handle) {\n    while (($line = fgets($handle)) !== false) {\n        // process the line\n    }\n    fclose($handle);\n} else {\n    // error opening the file\n}

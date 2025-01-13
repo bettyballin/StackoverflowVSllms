@@ -1,1 +1,0 @@
-sed -n '/xxxx/{x;1!p;d;};1h;1!x' file

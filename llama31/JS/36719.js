@@ -1,0 +1,1 @@
+$.ajax({\n    type: 'POST',\n    url: '/your-url',\n    data: {\n        textAreaData: $('#yourTextArea').val()\n    },\n    success: function(data) {\n        console.log(data);\n    }\n});

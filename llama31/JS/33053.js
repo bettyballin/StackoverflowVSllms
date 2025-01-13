@@ -1,0 +1,1 @@
+// In your other file\nvar grid = window.myGrid;\nvar columnModel = grid.getColumnModel();\nvar columnCount = columnModel.getColumnCount();

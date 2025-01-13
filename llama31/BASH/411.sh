@@ -1,1 +1,0 @@
-echo $ORACLE_BASE

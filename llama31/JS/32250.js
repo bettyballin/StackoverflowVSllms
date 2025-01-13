@@ -1,0 +1,1 @@
+// in jquery.ajaxmanager.js, around line 75\nif (q[num] && q[num].xhr) {\n    q[num].xhr.abort();\n}

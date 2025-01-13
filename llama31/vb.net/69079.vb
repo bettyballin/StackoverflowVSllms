@@ -1,0 +1,1 @@
+Imports MyComLibrary\n\nPublic Class BaseClass\n    Protected Overridable Sub MySub(ByVal Parameter As MyComLibrary.MyType)\nEnd Class\n\nPublic Class DerivedClass\n    Inherits BaseClass\n    Protected Overrides Sub MySub(ByVal Parameter As MyComLibrary.MyType)\nEnd Class

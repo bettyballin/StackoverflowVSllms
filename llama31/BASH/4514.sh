@@ -1,1 +1,0 @@
-xcodebuild -project YourProject.xcodeproj -scheme YourScheme -destination generic/platform=iOS archive

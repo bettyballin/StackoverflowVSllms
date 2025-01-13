@@ -1,0 +1,1 @@
+CREATE NONCLUSTERED INDEX idx_cos_sin\nON ConSisHis2005 (cos, sin)\nINCLUDE (cos, sin);\nGO\n\n-- Repeat for ConSisHis2006, ConSisHis2007, and ConSisHis2008 tables

@@ -1,1 +1,0 @@
-find /source/dir -type d -exec mkdir -p /dest/dir/{} \;\nfind /source/dir -type f -exec ln -s {} /dest/dir/{} \;

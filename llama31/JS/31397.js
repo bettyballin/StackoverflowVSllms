@@ -1,0 +1,1 @@
+$.ajax({\n  // your ajax settings here...\n  success: function(data) {\n    console.log(data);\n  }\n});

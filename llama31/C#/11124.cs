@@ -1,1 +1,0 @@
-String description = (String)node.XPathSelectElement("//car")?.Attribute("description");

@@ -1,0 +1,1 @@
+CREATE TABLE users (\n  id SERIAL PRIMARY KEY,  -- auto-incrementing integer\n  name VARCHAR(50),\n  email VARCHAR(100) UNIQUE\n);

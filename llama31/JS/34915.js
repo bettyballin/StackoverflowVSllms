@@ -1,0 +1,1 @@
+document.addEventListener('DOMContentLoaded', function() {\n  document.querySelector('form').addEventListener('submit', openPlayerWindow);\n});

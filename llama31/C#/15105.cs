@@ -1,1 +1,0 @@
-using System;\nusing System.IO;\nusing System.Xml.Serialization;\n\n// ...\n\nstring xmlString = // receive the xmlString from App1\n\nXmlSerializer serializer = new XmlSerializer(typeof(object[]));\nStringReader reader = new StringReader(xmlString);\nobject[] rowData = (object[])serializer.Deserialize(reader);\n\n// Use the rowData as needed

@@ -1,0 +1,1 @@
+$output = $tinyMCE->getContent();\n$output = html_entity_decode($output);\necho $output;

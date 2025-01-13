@@ -1,1 +1,0 @@
-#include <math.h>\n#include <stdio.h>\n#include <time.h>\n\nint main() {\n    int i;\n    clock_t time1, time2;\n    double diff;\n\n    time1 = clock();\n    for (i = 0; i < 10000000; ++i) {\n        diff += atan2(0, -1) - M_PI;\n    }\n    time2 = clock();\n\n    printf("atan2(0, -1) => %f seconds\n", (double)(time2 - time1) / CLOCKS_PER_SEC);\n\n    return 0;\n}

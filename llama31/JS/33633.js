@@ -1,0 +1,1 @@
+var divContainsP = $("div").find("p").length > 0;

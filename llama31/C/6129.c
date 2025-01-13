@@ -1,1 +1,0 @@
-// Create a chrooted environment\nmkdir -p /tmp/sandbox\nchroot /tmp/sandbox\n\n// Set up seccomp filters\nseccomp_rule_add(SCMP_ACT_ALLOW, SCMP_SYS(exit), 0)\nseccomp_rule_add(SCMP_ACT_ALLOW, SCMP_SYS(read), 0)\nseccomp_rule_add(SCMP_ACT_ALLOW, SCMP_SYS(write), 0)\nseccomp_load()\n\n// Run the user's compiled executable\nexecve("/path/to/executable", NULL, NULL)

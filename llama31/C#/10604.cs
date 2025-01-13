@@ -1,1 +1,0 @@
-using Microsoft.AspNetCore.Media;\n\n// Create an HLS stream\nvar hlsStream = new HlsStream();\nhlsStream.AddSegment(new HlsSegment(mediaServerUrl));

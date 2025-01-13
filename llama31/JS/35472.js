@@ -1,0 +1,1 @@
+$.get('/GetSummary?id=' + nextId, function (result) {\n    if (result) {\n        var scrollTop = $(window).scrollTop();\n        $('#memberList').fadeOut('slow', function () {\n            $(this).html(result).fadeIn('slow');\n            $(window).scrollTop(scrollTop);\n        });\n    }\n});

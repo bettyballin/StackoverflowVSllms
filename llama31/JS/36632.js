@@ -1,0 +1,1 @@
+$.ajax({\n    type: 'post',\n    url: '/Users/SaveUser/',\n    data: $('#theForm').serialize(),\n    contentType: 'application/x-www-form-urlencoded',\n    dataType: 'html',\n    success: function(responseText, status) {\n        $('#mainContent').text(responseText);\n    }\n});

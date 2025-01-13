@@ -1,1 +1,0 @@
-#include "mydll.h"\n\nint IsolatedFunction(int someParam) {\n    // function implementation\n    return someParam * 2;\n}

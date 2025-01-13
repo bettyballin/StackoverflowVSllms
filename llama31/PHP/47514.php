@@ -1,0 +1,1 @@
+try {\n    // some code\n} catch (Exception $e) {\n    error_log("Exception caught: " . $e->getMessage(), 0, '/path/to/log/file.log');\n    // Optional: display a generic error message to the user\n    echo "An error occurred. Please contact support.";\n    exit;\n}

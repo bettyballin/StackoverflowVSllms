@@ -1,0 +1,1 @@
+declare @LanguageId varchar(10)\nset @LanguageId = 'en-US'\n\ndeclare @SQL nvarchar(4000)\nset @SQL = '\nselect * from ##example\norder by xmltest.value(''(/languages/language[@id=sql:variable("@LanguageId")])[1]'', ''varchar'')\n'\n\nexec sp_executesql @SQL, N'@LanguageId varchar(10)', @LanguageId = @LanguageId

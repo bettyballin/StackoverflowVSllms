@@ -1,1 +1,0 @@
-public class MyClass\n{\n    // ...\n\n    public static explicit operator double(MyClass obj)\n    {\n        // implementation\n    }\n\n    public double ToDouble()\n    {\n        return (double)this;\n    }\n\n    public static MyClass FromDouble(double value)\n    {\n        // implementation\n    }\n\n    // ...\n}

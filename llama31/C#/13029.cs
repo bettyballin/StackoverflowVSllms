@@ -1,1 +1,0 @@
-[Table("{table_name}")]\npublic class GisObject\n{\n    // ...\n}

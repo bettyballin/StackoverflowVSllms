@@ -1,1 +1,0 @@
-**DLL B**\n\n// Forward declaration of fooA() from DLL A\nvoid fooA(void);\n\nvoid fooB()\n{\n  fooA();\n}\n\nvoid fooBB()\n{\n}

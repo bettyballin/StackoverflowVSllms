@@ -1,0 +1,1 @@
+function normalizeImdbUrl($url) {\n    $url = preg_replace('/^http:\/\//', '', $url); // remove http://\n    $url = preg_replace('/^www\./', '', $url); // remove existing www.\n    $url = 'http://www.' . $url; // add www.\n    return $url;\n}

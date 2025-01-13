@@ -1,1 +1,0 @@
-using System;\n\nnamespace MyDotNetComponent\n{\n    public class MyClass\n    {\n        public void MyMethod()\n        {\n            Console.WriteLine("Hello, .NET!");\n        }\n    }\n}

@@ -1,0 +1,1 @@
+selectElement.onclick = function() {\n    // Add options here...\n    // ...\n    \n    // Re-expand the list in IE\n    if (document.all) { // check for IE\n        this.style.width = this.offsetWidth + 'px'; \n        this.size = this.options.length;\n        this.style.width = 'auto';\n    }\n};

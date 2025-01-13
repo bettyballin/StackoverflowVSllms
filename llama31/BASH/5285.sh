@@ -1,1 +1,0 @@
-set /p pid=<AppServer.pid\ntaskkill /pid %pid% /f

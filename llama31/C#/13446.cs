@@ -1,1 +1,0 @@
-UpdateProperties(NewCaller, OldCaller);

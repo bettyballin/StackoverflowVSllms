@@ -1,1 +1,0 @@
-java -Xint YourJavaProgram

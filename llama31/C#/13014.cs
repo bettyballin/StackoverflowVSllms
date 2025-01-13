@@ -1,1 +1,0 @@
-public enum EnumWithSpaces\n{\n    ConstantWithoutSpaces,\n    Constant_With_Spaces\n}

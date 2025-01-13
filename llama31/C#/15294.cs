@@ -1,1 +1,0 @@
-private void Button_PreviewMouseDown(object sender, MouseButtonEventArgs e)\n{\n    // Handle the event before the button's Click event is triggered\n    Console.WriteLine("PreviewMouseDown handled");\n}\n\nprivate void Button_Click(object sender, RoutedEventArgs e)\n{\n    // This will be executed after the PreviewMouseDown event\n    Console.WriteLine("Click event handled");\n}

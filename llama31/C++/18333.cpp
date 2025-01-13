@@ -1,1 +1,0 @@
-#include <objbase.h>\n\nint main() {\n    IUnknown* punk = NULL;\n    HRESULT hr = CoGetObject(L"someprogid", NULL, IID_IUnknown, (void**)&punk);\n    if (SUCCEEDED(hr)) {\n        // Use the object\n        punk->Release();\n    }\n    return 0;\n}

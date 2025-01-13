@@ -1,0 +1,1 @@
+header('Content-Type: application/pdf');\nheader('Content-Disposition: attachment; filename="myfile.pdf"');\nreadfile('myfile.pdf');

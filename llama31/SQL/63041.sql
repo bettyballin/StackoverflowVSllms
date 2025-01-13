@@ -1,0 +1,1 @@
+from Alert alert\nwhere alert.expiration > SYSTIMESTAMP\norder by alert.priority, alert.updated, alert.name

@@ -1,0 +1,1 @@
+function fatalErrorHandler() {\n    $error = error_get_last();\n    if ($error['type'] === E_ERROR) {\n        // Log the error or perform some cleanup\n        echo "Fatal error occurred: " . $error['message'] . "\n";\n    }\n}\n\nregister_shutdown_function('fatalErrorHandler');

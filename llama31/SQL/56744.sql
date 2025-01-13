@@ -1,0 +1,1 @@
+DECLARE @center GEOGRAPHY;\nSET @center = GEOGRAPHY::Point(37.7749, -122.4194, 4326); -- San Francisco, CA\n\nDECLARE @radius FLOAT;\nSET @radius = 50 * 1609.34; -- 50 miles in meters\n\nSELECT *\nFROM your_table\nWHERE your_geography_column.STDistance(@center) <= @radius;

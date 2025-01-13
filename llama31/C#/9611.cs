@@ -1,1 +1,0 @@
-protected void SqlDataSource1_Selecting(object sender, SqlDataSourceSelectingEventArgs e)\n{\n    SqlDataSource1.SelectParameters["EventDate"].DefaultValue = GetFirstofMonth(DateTime.Today);\n    SqlDataSource1.SelectParameters["EventDate2"].DefaultValue = GetLastofMonth(DateTime.Today);\n}

@@ -1,1 +1,0 @@
-g++ -O2 your_source_file.cpp -o your_executable

@@ -1,0 +1,1 @@
+$stmt = $pdo->prepare("INSERT INTO table_name (text_field) VALUES (:textarea)");\n$stmt->bindParam(":textarea", $_POST['textarea']);\n$stmt->execute();

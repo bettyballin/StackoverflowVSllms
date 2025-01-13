@@ -1,0 +1,1 @@
+from wsgiref.simple_server import make_server\n\ndef app(environ, start_response):\n    start_response('200 OK', [('Content-Type', 'text/html')])\n    return ['Test']

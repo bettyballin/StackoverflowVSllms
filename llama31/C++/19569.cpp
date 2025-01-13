@@ -1,1 +1,0 @@
-// SocketServer.cpp\n#include "SocketServer.h"\n\nCSocketServer::CSocketServer()\n{\n    // Create socket\n}\n\nCSocketServer::~CSocketServer()\n{\n    // Close socket\n}\n\nvoid CSocketServer::SendCommand(const char* command)\n{\n    // Send command through socket\n}\n\nvoid CSocketServer::GetData(char* data)\n{\n    // Get data through socket\n}

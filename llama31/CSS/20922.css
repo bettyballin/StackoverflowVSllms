@@ -1,1 +1,0 @@
-#credentials {\n  position: absolute;\n  right: 5px;\n  top: 10px;\n  background-color: #494949;\n  display: flex;\n  align-items: center;\n}\n\n#username, #password, #login {\n  margin: 0 5px;\n}

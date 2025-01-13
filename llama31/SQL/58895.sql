@@ -1,0 +1,1 @@
+SELECT *\nFROM table1 t1\n  INNER JOIN table2 t2 ON t2.id = t1.fkId\n  INNER JOIN table3 t3 ON t3.id = t2.fkId\nWHERE t2.aField <> 'C' AND t3.anotherField = 'D'

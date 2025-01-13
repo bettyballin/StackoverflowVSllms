@@ -1,1 +1,0 @@
-var linkedList = new LinkedList<int> { 1, 2, 3, 4, 5 };\nvar convertedList = linkedList.ConvertAll(x => (double)x);

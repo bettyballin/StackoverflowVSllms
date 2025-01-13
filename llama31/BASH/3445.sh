@@ -1,1 +1,0 @@
-openssl genrsa -out myCA/private/cakey.pem 2048\nopenssl req -new -x509 -days 365 -key myCA/private/cakey.pem -out myCA/cacert.pem

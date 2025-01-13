@@ -1,0 +1,1 @@
+import smtplib\nfrom email.mime.text import MIMEText\n\n# ...\n\nmsg = MIMEText("Hello world!", "plain", "utf-8")\nmsg["Subject"] = "Hello world!"\n\nserver = smtplib.SMTP("your-smtp-server")\nserver.sendmail("your-from-address", "your-to-address", msg.as_string())

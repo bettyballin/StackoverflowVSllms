@@ -1,1 +1,0 @@
-const int x = 5; // internal linkage\nextern const int y = 5; // external linkage

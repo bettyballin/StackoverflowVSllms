@@ -1,1 +1,0 @@
-jmxterm -l localhost:1099 -u username -p password -q "java.lang:type=Memory/HeapMemoryUsage"

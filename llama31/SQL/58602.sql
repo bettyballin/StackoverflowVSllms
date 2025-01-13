@@ -1,0 +1,1 @@
+EXEC sp_addlinkedserver \n    @server = 'LinkedServerName', \n    @srvproduct = 'SQL Server', \n    @provider = 'SQLNCLI', \n    @datasrc = 'SQL2000ServerName'

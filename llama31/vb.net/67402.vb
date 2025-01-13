@@ -1,0 +1,1 @@
+Try\n    ObjRapi.Connect()\n    ObjRapi.CopyFileToDevice("C:\results.txt", "\My Documents\results.txt")\nCatch ex As Exception\n    ' Handle the exception\nFinally\n    ObjRapi.Dispose()\n    ObjRapi.Disconnect()\nEnd Try

@@ -1,0 +1,1 @@
+$ch = curl_init('https://example.com/data.json');\ncurl_setopt($ch, CURLOPT_RETURNTRANSFER, true);\n$response = curl_exec($ch);\ncurl_close($ch);\n\n$data = json_decode($response, true);\nif (json_last_error() !== JSON_ERROR_NONE) {\n    // Handle JSON parsing error\n}

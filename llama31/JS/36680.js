@@ -1,0 +1,1 @@
+// Client-side JavaScript\nsetInterval(function() {\n    $.ajax({\n        url: '/ping-record',\n        data: { id: recordId }\n    });\n}, 60000); // Ping every 1 minute

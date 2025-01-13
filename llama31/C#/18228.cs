@@ -1,1 +1,0 @@
-[ServiceBehavior(AddressFilterMode = AddressFilterMode.Any)]\npublic class YourWebService : WebService\n{\n    // Your web methods here...\n}

@@ -1,0 +1,1 @@
+SELECT ItemNumber, ItemType, Description\nFROM TableA\nWHERE ItemType = 'A' AND ItemNumber = @itemNumber\n\nUNION ALL\n\nSELECT ItemNumber, ItemType, Description\nFROM TableB\nWHERE ItemType <> 'A' AND PartNumber = @itemNumber

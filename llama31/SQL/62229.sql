@@ -1,0 +1,1 @@
+RESTORE DATABASE [Some_db] FROM DISK = 'C:\Backup\Some_db.bak'\nWITH MOVE 'Some_db' TO 'C:\Program Files\Microsoft SQL Server\MSSQL.1\MSSQL\DATA\Some_db.mdf',\nMOVE 'Some_db_log' TO 'C:\Program Files\Microsoft SQL Server\MSSQL.1\MSSQL\DATA\Some_db_log.ldf'

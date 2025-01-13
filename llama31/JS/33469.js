@@ -1,0 +1,1 @@
+$("#signupForm").validate({\n    ignore: ":hidden:not(#signupForm input)",\n    // rules and messages\n});

@@ -1,0 +1,1 @@
+$db = mysql_connect('localhost', 'root', '');\nmysql_select_db("aqaria", $db);\n\n$property = new Property($db);\n$property->saveProperty();

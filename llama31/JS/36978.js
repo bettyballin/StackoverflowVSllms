@@ -1,0 +1,1 @@
+// After setting the innerHTML of the pager div\npagerDiv.innerHTML = newPagerHtml;\n\n// Try this to "refresh" the DOM\npagerDiv.outerHTML = pagerDiv.outerHTML;

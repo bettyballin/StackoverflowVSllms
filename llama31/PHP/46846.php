@@ -1,0 +1,1 @@
+define('CAKE_APP_DIR', '/home/iopener/webapps/myapp.com/app');

@@ -1,0 +1,1 @@
+Dim http\nSet http = Server.CreateObject("MSXML2.ServerXMLHTTP")\n\nhttp.Open "GET", "/path/to/cgi/script.py", False\nhttp.Send\n\nResponse.Write http.ResponseText

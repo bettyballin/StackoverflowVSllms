@@ -1,1 +1,0 @@
-using System.Net;\n\nvar client = new WebClient();\nclient.UploadString("http://example.com/resource", "PUT", "Hello, World!");

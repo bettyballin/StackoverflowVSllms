@@ -1,0 +1,1 @@
+// In your Bin model\npublic $hasAndBelongsToMany = array(\n    'Video' => array(\n        'className' => 'Video',\n        'joinTable' => 'bins_videos',\n        'foreignKey' => 'bin_id',\n        'associationForeignKey' => 'video_id',\n        'order' => 'BinsVideo.sort_order ASC'\n    )\n);

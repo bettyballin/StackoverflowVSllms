@@ -1,1 +1,0 @@
-svn remove --force *

@@ -1,0 +1,1 @@
+import os\n\n# Specify the files you want to remove\nfile1 = 'path/to/file1.txt'\nfile2 = 'path/to/file2.txt'\n\ntry:\n    # Remove the files\n    os.remove(file1)\n    os.remove(file2)\nexcept OSError as e:\n    print("Error removing files: %s" % e)

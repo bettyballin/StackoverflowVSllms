@@ -1,0 +1,1 @@
+$errno = curl_errno($ch);\n$error = curl_error($ch);

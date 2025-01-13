@@ -1,0 +1,1 @@
+// Generate the data\n$data = array();\nforeach ($bookmarks as $bookmark) {\n    $data[] = array(\n        'name' => $bookmark['name'],\n        // ... other columns ...\n    );\n}\n\n// Output the data as JSON\nheader('Content-Type: application/json');\necho json_encode($data);

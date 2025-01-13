@@ -1,1 +1,0 @@
-private void btnSave_Click(object sender, EventArgs e)\n{\n    db.SubmitChanges();\n}

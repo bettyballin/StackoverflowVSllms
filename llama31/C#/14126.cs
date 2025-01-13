@@ -1,1 +1,0 @@
-List<int> common = c.FindAll(x => a.Contains(x));

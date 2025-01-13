@@ -1,1 +1,0 @@
-#include <unistd.h>\n\nint main() {\n    long cache_line_size = sysconf(_SC_LEVEL1_DCACHE_LINESIZE);\n    if (cache_line_size == -1) {\n        // handle error\n    }\n    return 0;\n}

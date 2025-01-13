@@ -1,1 +1,0 @@
-using WikiPlex;\n\n// example usage:\nstring wikiText = "= Heading =\nThis is a paragraph.";\nstring html = WikiEngine.Convert(wikiText, WikiSyntax.MediaWiki);

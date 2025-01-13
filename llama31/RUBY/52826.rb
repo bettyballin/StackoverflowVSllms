@@ -1,0 +1,1 @@
+# In your Rails application\nRails.application.secrets.secret_key

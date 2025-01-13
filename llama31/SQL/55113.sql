@@ -1,0 +1,1 @@
+SELECT * FROM data\nWHERE id > ?  // or any other unique column\nORDER BY id\nLIMIT ?

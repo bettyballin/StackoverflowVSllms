@@ -1,0 +1,1 @@
+description 'Simple glass of water' do\n  serve_in 'Glass'\n  pour do\n    2.ounces.of :water\n  end\nend

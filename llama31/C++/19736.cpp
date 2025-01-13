@@ -1,1 +1,0 @@
-#include <Windows.h>\n#include <iostream>\n\nint main() {\n    DWORD currentProcessId = GetCurrentProcessId();\n    std::cout << "Current Process ID: " << currentProcessId << std::endl;\n    return 0;\n}

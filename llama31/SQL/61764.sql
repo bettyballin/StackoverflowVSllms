@@ -1,0 +1,1 @@
+SELECT STUFF((SELECT ', ' + name\n              FROM your_table\n              FOR XML PATH('')), 1, 2, '') AS concatenated_string;

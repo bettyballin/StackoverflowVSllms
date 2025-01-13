@@ -1,1 +1,0 @@
-using System.Xml.Schema;\n\n// Load XML schema\nXmlSchema schema = XmlSchema.Read("path/to/schema.xsd", null);\n\n// Validate XML against schema\nxmlDoc.Validate(schema, (sender, args) => {\n    if (args.Severity == XmlSeverityType.Error) {\n        // Handle validation error\n    }\n});

@@ -1,0 +1,1 @@
+' Example authentication check\nIf Session("LoggedIn") = True Then\n    ' User is logged in, proceed with page content\nElse\n    ' User is not logged in, redirect to login page\nEnd If

@@ -1,1 +1,0 @@
-cat email1.eml email2.eml email3.eml > concatenated_emails.txt

@@ -1,1 +1,0 @@
-// Update the connection string with the new port\nstring connectionString = "Data Source=<server_name>,1435;Initial Catalog=<database_name>;User ID=<username>;Password=<password>;";

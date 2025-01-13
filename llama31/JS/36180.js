@@ -1,0 +1,1 @@
+function start() {\n  myspan = document.getElementById("myspan");\n  myspan.onclick = function() { alert ("hi"); };\n\n  mydiv = document.getElementById("mydiv");\n  mydiv.insertAdjacentHTML('beforeend', 'bar');\n}

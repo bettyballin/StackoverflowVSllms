@@ -1,1 +1,0 @@
-[DataContract]\n[KnownType(typeof(B))]\npublic class A\n{\n    [DataMember]\n    public MyCustomType AValue1 { get; set; }\n\n    [DataMember]\n    public MyCustomType AValue2 { get; set; }\n}\n\n[DataContract]\npublic class B : A\n{\n    [DataMember]\n    public double BValue1 { get; set; }\n\n    [DataMember]\n    public double BValue2 { get; set; }\n}

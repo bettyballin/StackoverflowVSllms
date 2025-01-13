@@ -1,1 +1,0 @@
-sqlite3 example.db "SELECT * FROM table_name"

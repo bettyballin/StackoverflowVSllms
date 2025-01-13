@@ -1,1 +1,0 @@
-#include <dnssd.h>\n\nint main() {\n    // Create a service record\n    DNSServiceRef serviceRef;\n    DNSServiceCreate(&serviceRef, "_my_service._tcp", NULL, NULL, 1234);\n\n    // Register the service\n    DNSServiceRegister(serviceRef, NULL, NULL, NULL, NULL);\n\n    // ...\n}

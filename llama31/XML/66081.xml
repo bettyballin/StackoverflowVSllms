@@ -1,0 +1,1 @@
+<configuration>\n  <system.net>\n    <mailSettings>\n      <smtp>\n        <network host="your_smtp_server" port="25" userName="your_username" password="your_password" />\n      </smtp>\n    </mailSettings>\n  </system.net>\n</configuration>

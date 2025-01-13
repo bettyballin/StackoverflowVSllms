@@ -1,0 +1,1 @@
+$startMemory = memory_get_usage();\n// your script code here\n$endMemory = memory_get_usage();\n$memoryUsed = $endMemory - $startMemory;\n\n// convert bytes to KB or MB\n$memoryUsedKB = round($memoryUsed / 1024, 2);\n$memoryUsedMB = round($memoryUsedKB / 1024, 2);\n\necho "Memory used: $memoryUsed bytes ($memoryUsedKB KB / $memoryUsedMB MB)";

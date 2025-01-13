@@ -1,1 +1,0 @@
-[PrincipalPermission(SecurityAction.Demand, Role = WellKnownSidType.BuiltinAdministrators.ToString())]\npublic string HelloWorld()\n{\n    return "Hello";\n}

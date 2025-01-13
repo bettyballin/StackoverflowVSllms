@@ -1,1 +1,0 @@
-icacls %app_directory% /grant:r "IIS APPPOOL\ClassicASP:(OI)(CI)(RX)"

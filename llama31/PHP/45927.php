@@ -1,0 +1,1 @@
+$imagePath = $imageDir . $pk . '.jpg';\n\nif (file_exists($imagePath) && filesize($imagePath) > 0) {\n    // File exists and has content, proceed with file_get_contents()\n    $contents = file_get_contents($imagePath);\n    // ...\n} else {\n    // File doesn't exist or is empty, handle accordingly\n    // ...\n}

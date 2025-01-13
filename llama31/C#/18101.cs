@@ -1,1 +1,0 @@
-var results = session.Query<MyEntity>().ToList();\nforeach (var result in results)\n{\n    NHibernateUtil.Initialize(result);\n}\ngridview.DataSource = results;

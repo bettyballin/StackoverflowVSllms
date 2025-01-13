@@ -1,0 +1,1 @@
+Imports Shell32\n\nModule Program\n    Sub Main()\n        Dim shell As New Shell()\n        Dim startMenu As Folder = shell.NameSpace(11)\n        MsgBox(startMenu.Self.Path)\n    End Sub\nEnd Module

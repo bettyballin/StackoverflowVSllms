@@ -1,1 +1,0 @@
-sqlcmd -S <your_server_name> -Q "DBCC CHECKDB ('master') WITH REPAIR_ALLOW_DATA_LOSS"

@@ -1,0 +1,1 @@
+// fetch the first 20 rows\n$result = mysql_query("SELECT * FROM table_name LIMIT 20");\n\n// store the last row's primary key\n$last_row_id = mysql_fetch_assoc($result)['id'];\n\n// fetch the next 20 rows\n$result = mysql_query("SELECT * FROM table_name WHERE id > $last_row_id LIMIT 20");

@@ -1,0 +1,1 @@
+def reversed_count(n, prefix=""):\n    if len(prefix) == n:\n        print(f"{prefix} -> {int(prefix, 2)}")\n    else:\n        reversed_count(n, prefix + "0")\n        reversed_count(n, prefix + "1")\n\nreversed_count(3)

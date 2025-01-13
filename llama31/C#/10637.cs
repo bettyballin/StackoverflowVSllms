@@ -1,1 +1,0 @@
-public static int SumOrZero<T>(this IEnumerable<T> source, Func<T, int?> selector)\n{\n    return source != null ? source.Select(selector).Sum() ?? 0 : 0;\n}

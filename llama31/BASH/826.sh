@@ -1,1 +1,0 @@
-curl -X GET 'https://api.phonevalidator.com/v1/validate?phone_number=+1234567890&api_key=YOUR_API_KEY'

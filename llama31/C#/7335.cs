@@ -1,1 +1,0 @@
-List<UInt32> list = new List<UInt32> { 12, 23, 33, 11 };\nList<int> indicesToRemove = new List<int> { 0, 2 };\n\nindicesToRemove.Sort((a, b) => b.CompareTo(a)); // Sort in descending order\n\nforeach (int index in indicesToRemove)\n{\n    list.RemoveAt(index);\n}

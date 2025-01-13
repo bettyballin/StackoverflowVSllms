@@ -1,0 +1,1 @@
+SELECT IS_MEMBER('Domain\TestGroup');

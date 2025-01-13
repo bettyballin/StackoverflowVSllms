@@ -1,1 +1,0 @@
-string[] args = Environment.GetCommandLineArgs();

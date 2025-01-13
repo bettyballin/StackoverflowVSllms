@@ -1,1 +1,0 @@
-sudo useradd -m -s /bin/rbash guest

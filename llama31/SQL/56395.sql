@@ -1,0 +1,1 @@
+SELECT MIN(TIMEDIFF(time, LAG(time) OVER (ORDER BY time))) AS smallest_time_diff\nFROM temperatures;

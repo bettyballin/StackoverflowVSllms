@@ -1,0 +1,1 @@
+const express = require('express');\nconst app = express();\n\napp.get('/api/data', (req, res) => {\n  res.json({ data: 'Mock data' });\n});\n\napp.listen(8080, () => {\n  console.log('Mock server listening on port 8080');\n});

@@ -1,0 +1,1 @@
+$('#autocomplete').autocomplete({\n  // your autocomplete options\n});\n\n$('.combo-box').on('click', function() {\n  $('#autocomplete').val('').trigger('focus');\n});

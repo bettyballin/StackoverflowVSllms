@@ -1,0 +1,1 @@
+class MyClass {\n    private function myPrivateMethod() {\n        // explicitly private\n    }\n}

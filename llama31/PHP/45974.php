@@ -1,0 +1,1 @@
+<?php\n  $url = "https://example.com";\n  $html = file_get_contents($url);\n  $dom = new DOMDocument();\n  $dom->loadHTML($html);\n  $section = $dom->getElementsByTagName('section')->item(0);\n\n  // Sanitize the HTML to prevent XSS\n  $sanitized_section = htmlspecialchars($section->nodeValue);\n\n  // Embed the sanitized section in your HTML page\n  echo $sanitized_section;\n?>

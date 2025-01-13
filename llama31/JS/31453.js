@@ -1,0 +1,1 @@
+const socket = new WebSocket('wss://example.com:8080');\n\nsocket.onmessage = (event) => {\n  console.log(`Received message: ${event.data}`);\n};\n\nsocket.onopen = () => {\n  console.log('Connected to server');\n  // Send messages to the server here\n};\n\nsocket.onclose = () => {\n  console.log('Disconnected from server');\n};

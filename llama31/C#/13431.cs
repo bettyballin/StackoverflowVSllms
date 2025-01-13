@@ -1,1 +1,0 @@
-retValue = WinApi.CreateProcessAsUser(hUserTokenDuplicate, null, this.CommandLine,\n    ref procAttrs, ref threadAttrs, false, CreationFlags.CREATE_NEW_CONSOLE |\n    CreationFlags.CREATE_SUSPENDED | CreationFlags.CREATE_UNICODE_ENVIRONMENT,\n    pNewEnvironmentBlock, null, ref startupInfo, out _processInfo);

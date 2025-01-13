@@ -1,0 +1,1 @@
+CREATE PROCEDURE sp_DeleteOldRows\nAS\nBEGIN\n    DELETE FROM YourTable\n    WHERE Timestamp < DATEADD(day, -30, GETDATE())\nEND

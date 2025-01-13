@@ -1,1 +1,0 @@
-using System.IO;\nusing System.Text;\n\nStreamReader reader = new StreamReader("path/to/file.txt", Encoding.Default);

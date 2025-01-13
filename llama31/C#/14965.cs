@@ -1,1 +1,0 @@
-ColorDialog colorDialog = new ColorDialog();\n\ncolorDialog.HelpRequest += (sender, args) => {\n    // User has added a new custom color\n    Console.WriteLine("Custom color added");\n};\n\ncolorDialog.ShowDialog();

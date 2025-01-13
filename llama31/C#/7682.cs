@@ -1,1 +1,0 @@
-bool exists;\nconst string sqlStatement = @"SELECT 1 FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_NAME = 'my_table' AND TABLE_SCHEMA = 'my_schema'";\n\nusing (OdbcCommand cmd = new OdbcCommand(sqlStatement, myOdbcConnection))\n{\n    object result = cmd.ExecuteScalar();\n    exists = (result != null && result != DBNull.Value);\n}

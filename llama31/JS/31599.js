@@ -1,0 +1,1 @@
+$.ajax({\n    type: "POST",\n    url: "YourPage.aspx/GetRepeaterHtml",\n    dataType: "html",\n    success: function (data) {\n        $("#RepeaterContainer").html(data);\n    }\n});

@@ -1,0 +1,1 @@
+CREATE TABLE versions (\n  id INT PRIMARY KEY AUTO_INCREMENT,\n  version VARCHAR(50) NOT NULL,\n  update_package BLOB NOT NULL\n);

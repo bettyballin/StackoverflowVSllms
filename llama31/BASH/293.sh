@@ -1,1 +1,0 @@
-pm install -g uncss\nuncss path/to/your/html/file.html path/to/your/css/file.css

@@ -1,0 +1,1 @@
+$pdo = new PDO('mysql:host=' . $host . ';dbname=' . $database, $username, $password);\n$pdo->exec('SET NAMES utf8');

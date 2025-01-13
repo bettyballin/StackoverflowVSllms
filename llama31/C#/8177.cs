@@ -1,1 +1,0 @@
-int num1 = 10;\nint num2 = 20;\nint sum = num1 + num2;\n\nConsole.WriteLine("The sum is " + sum);

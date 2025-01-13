@@ -1,1 +1,0 @@
-public class CometHandler : IHttpAsyncHandler\n{\n    public IAsyncResult BeginProcessRequest(HttpContext context, AsyncCallback cb, object extraData)\n    {\n        // Hold the request until a message is available or a timeout occurs\n        // ...\n    }\n\n    public void EndProcessRequest(IAsyncResult result)\n    {\n        // Send the response\n        // ...\n    }\n}

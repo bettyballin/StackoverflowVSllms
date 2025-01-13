@@ -1,0 +1,1 @@
+// Example secure password hashing in PHP\n$password = 'my_secret_password';\n$hashed_password = password_hash($password, PASSWORD_DEFAULT);

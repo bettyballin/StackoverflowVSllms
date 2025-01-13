@@ -1,1 +1,0 @@
-public partial class ConfirmDialog : System.Web.UI.UserControl\n{\n    public void SetButtonClientClick(string buttonId, string jsFunction)\n    {\n        Button btn = (Button)this.FindControl(buttonId);\n        if (btn != null)\n        {\n            btn.OnClientClick = jsFunction;\n        }\n    }\n}

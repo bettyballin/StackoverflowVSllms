@@ -1,1 +1,0 @@
-#include <windows.h>\n\nint main() {\n    __declspec(dllexport) void myFunction();\n    return 0;\n}

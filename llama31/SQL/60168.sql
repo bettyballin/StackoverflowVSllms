@@ -1,0 +1,1 @@
+SELECT \n    db.name AS DatabaseName\nFROM \n    sys.databases db\nWHERE \n    db.database_id IN (\n        SELECT \n            db_id \n        FROM \n            sys.dm_db_objects \n        WHERE \n            name = 'MyTable' AND type = 'U'\n    );

@@ -1,1 +1,0 @@
-using System.Text.RegularExpressions;\n\n// ...\n\nstring sensitiveData = "creditCardNumber";\nstring maskedData = Regex.Replace(sensitiveData, @"\d(?=\d{4})", "*");\n\n// Log or debug the masked data

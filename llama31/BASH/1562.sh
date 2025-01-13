@@ -1,1 +1,0 @@
-ln -s /etc/xen/vm /etc/xe

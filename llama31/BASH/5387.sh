@@ -1,1 +1,0 @@
-aspnet_compiler.exe -v / -p "C:\YourSite" -f "C:\YourSite\Precompiled"

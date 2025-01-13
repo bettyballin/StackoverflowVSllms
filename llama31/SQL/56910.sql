@@ -1,0 +1,1 @@
+# Example test case from PostgreSQL\n# File: src/test/regress/sql/ select.sql\n--\n-- Test simple SELECT statements\n--\n\nSELECT 1 AS foo;\n\nSELECT 'hello' AS bar;\n\nSELECT 1 + 2 AS foobar;

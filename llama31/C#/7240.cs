@@ -1,1 +1,0 @@
-object obj = "123";\nint number = (int)Convert.ChangeType(obj, typeof(int));

@@ -1,0 +1,1 @@
+const inputElement = document.getElementById('in1');\ninputElement.setAttribute('name', 'submit_content');

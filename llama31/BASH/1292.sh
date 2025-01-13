@@ -1,1 +1,0 @@
-pgpwde --decrypt --disk /dev/disk0s2 --passphrase 'your_passphrase'

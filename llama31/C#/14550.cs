@@ -1,1 +1,0 @@
-void readout()\n{\n    char[] buffer = new char[1];\n    while (true)\n    {\n        int bytesRead = p1.StandardOutput.Read(buffer, 0, 1);\n        if (bytesRead == 0)\n        {\n            break; // end of output\n        }\n        richTextBox1.Invoke(new UpdateOutputCallback(this.updateoutput), new object[] { buffer[0].ToString() });\n    }\n}

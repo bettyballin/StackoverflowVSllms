@@ -1,1 +1,0 @@
-AppDomain.CurrentDomain.AssemblyResolve += (sender, args) =>\n{\n    if (args.Name == "Microsoft.SharePoint.Publishing")\n    {\n        // Load the GAC assembly\n        return Assembly.LoadFrom(@"C:\Windows\assembly\GAC_MSIL\Microsoft.SharePoint.Publishing\12.0.0.0__71e9bce111e9429c\Microsoft.SharePoint.Publishing.dll");\n    }\n    return null;\n};

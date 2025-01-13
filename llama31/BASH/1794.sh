@@ -1,1 +1,0 @@
-<!-- Create a new application pool for ASP.NET 2.0 -->\n<cscript adsutil.vbs CREATE_APPPOOL "MyAspNet20Pool" 2.0>

@@ -1,0 +1,1 @@
+$today = new DateTime();\n$daysToAdd = 10;\n\n$newDate = $today->modify("+$daysToAdd days");\n\necho $newDate->format('Y-m-d');

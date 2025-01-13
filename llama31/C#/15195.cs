@@ -1,1 +1,0 @@
-@if (ViewData.ModelState.Values.Any(x => x.Errors.Count > 0))\n{\n    // Render validation summary\n}

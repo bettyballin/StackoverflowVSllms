@@ -1,0 +1,1 @@
+$.ajax({\n    type: 'POST',\n    url: '/path/to/proxy/script.php',\n    data: {\n        ssn: $('#ssn-field').val()\n    },\n    success: function(response) {\n        // Handle the response from the proxy script\n    },\n    error: function(xhr, status, error) {\n        // Handle any errors\n    }\n});

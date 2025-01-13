@@ -1,0 +1,1 @@
+CREATE TABLE test (id INT, statustime DATETIME, duration INT);\n\nINSERT INTO test (id, statustime) VALUES (2009, '2022-01-01 00:00:00');\n\nUPDATE test\nSET duration = DATEDIFF(ss, statustime, GETDATE()),\n    statustime = GETDATE()\nWHERE id = 2009;\n\nSELECT * FROM test;

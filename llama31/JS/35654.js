@@ -1,0 +1,1 @@
+// Request from www.blah.com\n<script type="text/javascript" src="http://www.foo.com/jsfile.js?callback=myCallback" />\n\n// Response from www.foo.com\nmyCallback({ "html": "<p>Hello World!</p>" });

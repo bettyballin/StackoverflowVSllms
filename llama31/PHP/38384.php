@@ -1,0 +1,1 @@
+// Assuming you're using the CodeIgniter 3.x bcrypt library\n$this->load->library('bcrypt');\n\n$password = 'your_password';\n$hashed_password = $this->bcrypt->hash($password);\n\n// Store the hashed password in your database

@@ -1,0 +1,1 @@
+Dim myFantasy As Integer = BinaryToInteger("1000")

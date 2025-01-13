@@ -1,1 +1,0 @@
-regsvr32 "C:\Program Files\Microsoft SQL Server\100\SDK\Assemblies\Microsoft.AnalysisServices.AdomdClient.dll"

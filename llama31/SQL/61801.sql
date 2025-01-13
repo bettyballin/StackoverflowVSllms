@@ -1,0 +1,1 @@
+INSERT INTO assignment_table (user_id, course_id)\nSELECT user_id, 'your_course_id' \nFROM users_table;\n\nINSERT INTO course_tracking_table (user_id, course_id)\nSELECT user_id, 'your_course_id' \nFROM users_table;

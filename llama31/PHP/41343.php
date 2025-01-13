@@ -1,0 +1,1 @@
+// src/Component/DataAnalyzerInterface.php\ninterface DataAnalyzerInterface\n{\n    public function analyzeData(array $data);\n    public function saveData(array $data);\n}

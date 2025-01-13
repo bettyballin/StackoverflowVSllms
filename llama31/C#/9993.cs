@@ -1,1 +1,0 @@
-// Example in C#\nstring connectionString = Environment.GetEnvironmentVariable("DB_CONNECTION_STRING");\nstring password = Environment.GetEnvironmentVariable("DB_PASSWORD");

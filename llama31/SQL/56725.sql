@@ -1,0 +1,1 @@
+CREATE INDEX idx_posted ON your_table (posted);

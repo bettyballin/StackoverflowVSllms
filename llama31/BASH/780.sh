@@ -1,1 +1,0 @@
-sudo service xfs status\nsudo update-rc.d xfs defaults

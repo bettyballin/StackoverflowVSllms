@@ -1,1 +1,0 @@
-public interface IMyInterface {\n    event EventHandler MyEvent;\n}

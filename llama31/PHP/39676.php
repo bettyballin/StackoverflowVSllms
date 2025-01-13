@@ -1,0 +1,1 @@
+$result = $s3->putObjectFile($uploadDIR, $bucket, $name, S3::ACL, array('waitUntilComplete' => true));

@@ -1,1 +1,0 @@
-public SqlInt32 ForeignKeyField { get; set; }

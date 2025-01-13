@@ -1,1 +1,0 @@
-if [ -z "$SSH_AGENT_PID" ]; then\n  eval $(ssh-agent)\nfi\nssh-add

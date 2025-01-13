@@ -1,1 +1,0 @@
-#include <vector>\n#include <memory>\n\nint main(int argc, char* argv[])\n{\n    std::vector<std::unique_ptr<Base>> bases;\n\n    bases.push_back(std::make_unique<A>());\n    bases.push_back(std::make_unique<B>());\n\n    for (auto& base : bases)\n    {\n        base->Test();\n    }\n}

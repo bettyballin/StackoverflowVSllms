@@ -1,0 +1,1 @@
+def create_innovation\n  @post = Post.new(params[:post])\n  @post.title = sanitize(params[:post][:title])\n  @post.body = sanitize(params[:post][:body])\n  # ...\nend\n\nprivate\n\ndef sanitize(text)\n  ActionController::Base.helpers.sanitize(text)\nend

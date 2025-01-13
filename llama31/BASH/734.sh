@@ -1,1 +1,0 @@
-cppdepend -fMyProject.cpp -o dependency_graph.dot\ndot -Tpng dependency_graph.dot -o dependency_graph.png

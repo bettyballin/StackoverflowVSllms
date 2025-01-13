@@ -1,0 +1,1 @@
+EXPLAIN (ANALYZE, VERBOSE) SELECT pl_namespace, COUNT(*) FROM pagelinks GROUP BY (pl_namespace);

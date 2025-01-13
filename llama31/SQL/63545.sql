@@ -1,0 +1,1 @@
+UPDATE source ev\nSET (ev.station_type, ev.adt) = (\n  SELECT t.st_type, t.adt\n  FROM dataTbl t\n  WHERE t.counterID = ev.counterID\n)\nWHERE EXISTS (\n  SELECT 1\n  FROM dataTbl t\n  WHERE t.counterID = ev.counterID\n);

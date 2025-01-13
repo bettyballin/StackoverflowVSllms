@@ -1,0 +1,1 @@
+$stmt = $mysqli->prepare("SELECT * FROM your_table WHERE id = ?");\n$stmt->bind_param("i", $id);\n$stmt->execute();\n$result = $stmt->get_result();

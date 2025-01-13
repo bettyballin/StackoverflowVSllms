@@ -1,0 +1,1 @@
+If ColorDialog1.ShowDialog() = Windows.Forms.DialogResult.OK Then\n    Form1.BackColor = ColorDialog1.Color\n    My.Settings.mytext = My.Settings.mytext & Str(Abs(ColorDialog1.Color.ToArgb)) & ", "\n    My.Settings.Save() ' Add this line to save the settings\nEnd If

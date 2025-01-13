@@ -1,0 +1,1 @@
+$myList = array();\narray_push($myList, $myObject1);\narray_push($myList, $myObject2);

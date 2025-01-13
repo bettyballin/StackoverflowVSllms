@@ -1,0 +1,1 @@
+$data = iconv("latin-1", "UTF-8", $row["intro"]);\n$data = utf8_encode($data); // Add this line\n$serialized_data = serialize($data);

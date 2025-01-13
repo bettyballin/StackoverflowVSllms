@@ -1,1 +1,0 @@
-Console.WriteLine(MyCompany.Nation.State.City.Restaurant.GetMenu())

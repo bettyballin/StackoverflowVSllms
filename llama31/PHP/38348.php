@@ -1,0 +1,1 @@
+$stmt = $db->prepare("SELECT * FROM posts WHERE post_date >= :date");\n$stmt->bindParam(':date', $date);\n$stmt->execute();\n$posts = $stmt->fetchAll();

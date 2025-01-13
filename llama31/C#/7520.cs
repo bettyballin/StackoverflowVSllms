@@ -1,1 +1,0 @@
-var memberId = "a45bd16d-9be0-421b-b5bf-143d334c8155";\nvar projects = dbContext.Projects\n    .Where(p => dbContext.ProjectMembers\n        .Any(pm => pm.ProjectId == p.ProjectId && pm.MemberId == memberId));

@@ -1,0 +1,1 @@
+SELECT *\nFROM your_table\nWHERE EXISTS (\n    SELECT 1\n    FROM dbo.SplitTextIntoWords(BusinessName) w\n    WHERE w.word LIKE @search_word + '%'\n)

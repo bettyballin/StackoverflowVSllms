@@ -1,0 +1,1 @@
+import subprocess\n\n# Start a background process\nprocess = subprocess.Popen(['your_command', 'arg1', 'arg2'],\n                           stdout=subprocess.PIPE,\n                           stderr=subprocess.PIPE)\n\n# Make the process a daemon\nprocess.daemon = True

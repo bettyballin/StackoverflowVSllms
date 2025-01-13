@@ -1,0 +1,1 @@
+import tldextract\n\ndef validate_email(email):\n    local_part, domain = email.split('@')\n    extracted_domain = tldextract.extract(domain)\n    if not extracted_domain.suffix:  # TLD\n        return False\n    if not extracted_domain.domain:  # SLD\n        return False\n    # Additional checks can be performed here\n    return True

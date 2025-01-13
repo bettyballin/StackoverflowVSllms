@@ -1,0 +1,1 @@
+var baseUrl = '${pageContext.request.contextPath}';\nvar imageUrl = baseUrl + '/myimage.gif';

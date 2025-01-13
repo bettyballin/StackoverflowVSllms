@@ -1,0 +1,1 @@
+public function show($file){\n    extract(get_object_vars($this)); // extract variables from current scope\n    include($file.".php");\n}

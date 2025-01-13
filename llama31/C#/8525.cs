@@ -1,1 +1,0 @@
-[ServiceContract(ProtectionLevel = ProtectionLevel.EncryptAndSign)]\npublic interface IMyService\n{\n    [OperationContract(IsOneWay = true)]\n    void MyMethod(MyRequest request);\n}

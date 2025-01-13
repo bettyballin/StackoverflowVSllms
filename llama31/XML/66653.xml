@@ -1,0 +1,1 @@
+<feed xmlns="http://www.w3.org/2005/Atom">\n  <title>My Feed</title>\n  <entry>\n    <title>Entry 1</title>\n    <link rel="self" href="http://example.com/entries/1"/>\n  </entry>\n  <entry>\n    <title>Entry 2</title>\n    <link rel="self" href="http://example.com/entries/2"/>\n  </entry>\n</feed>

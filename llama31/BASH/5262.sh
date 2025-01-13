@@ -1,1 +1,0 @@
-iisweb /create "C:\Path\To\Your\WebApp" "MyWebApp" /d "www.example.com" /dontstart

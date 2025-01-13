@@ -1,0 +1,1 @@
+$superglobals = [\n    'get' => $_GET,\n    'post' => $_POST,\n    'request' => $_REQUEST,\n];\n\n$method = 'get';\n$value = $superglobals[$method]['id'];

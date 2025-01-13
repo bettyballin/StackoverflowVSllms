@@ -1,0 +1,1 @@
+$$('#mySelect option[value="2"]').invoke('select');

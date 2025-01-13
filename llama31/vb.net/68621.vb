@@ -1,0 +1,1 @@
+Public Class Serializer\n    Public Shared Sub Serializing()\n        ' your serialization code here\n    End Sub\nEnd Class

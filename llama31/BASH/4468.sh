@@ -1,1 +1,0 @@
-certutil -addTemplate csr_file.csr TemplateName

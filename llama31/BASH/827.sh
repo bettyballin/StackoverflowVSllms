@@ -1,1 +1,0 @@
-chmod u+s your_script.php

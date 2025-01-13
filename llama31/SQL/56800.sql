@@ -1,0 +1,1 @@
+SELECT sql_text, error_message\nFROM V$SQL\nWHERE sql_text LIKE '%your_query_text%' AND error_message LIKE '%ORA-00942%';

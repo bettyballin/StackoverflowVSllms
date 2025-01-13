@@ -1,0 +1,1 @@
+-- Create a parameter in your SSIS project\nDECLARE @password Parameter(NVARCHAR(50)) = "your_password";\n\n-- Reference the parameter in your connection string\nData Source=your_server;Initial Catalog=your_database;Provider=SQLOLEDB;User ID=your_username;Password=@password;

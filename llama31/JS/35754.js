@@ -1,0 +1,1 @@
+// Before:\nvar imgUrl = 'http://example.com/image.jpg';\n\n// After:\nvar imgUrl = 'https://example.com/image.jpg';

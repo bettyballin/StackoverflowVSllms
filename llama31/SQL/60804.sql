@@ -1,0 +1,1 @@
+ALTER TABLE YourTable\nADD IsComplete AS (dbo.YourScalarFunction(YourColumn));\n\nCREATE INDEX IX_IsComplete ON YourTable (IsComplete);

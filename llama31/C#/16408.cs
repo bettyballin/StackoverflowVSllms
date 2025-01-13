@@ -1,1 +1,0 @@
-public class BusinessObject\n{\n    private readonly BusinessObjectDAL _dal;\n\n    public BusinessObject(BusinessObjectDAL dal)\n    {\n        _dal = dal;\n    }\n\n    public void Populate()\n    {\n        _dal.Populate(this);\n    }\n}

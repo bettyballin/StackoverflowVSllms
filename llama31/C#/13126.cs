@@ -1,1 +1,0 @@
-byte[] buffer = new byte[1024]; // try reducing this to 512 or 256

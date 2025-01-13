@@ -1,0 +1,1 @@
+SELECT u.userid, ua.action_date\nFROM users u\nLEFT JOIN (\n  SELECT userid, MIN(action_date) as action_date\n  FROM user_actions\n  WHERE action_date >= (SELECT pay_date FROM users WHERE userid = user_actions.userid)\n  GROUP BY userid\n) ua ON u.userid = ua.userid

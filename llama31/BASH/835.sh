@@ -1,1 +1,0 @@
-gunzip -c dumpfile.gz | sybinit -c

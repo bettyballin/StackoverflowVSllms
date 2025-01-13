@@ -1,0 +1,1 @@
+$stmt = $pdo->prepare("SELECT * FROM your_table WHERE column = :search");\n$stmt->bindParam(":search", $escaped);\n$stmt->execute();\n$numrows = $stmt->rowCount();\n\nif ($numrows == 0) {\n    echo "<h3>Results</h3>";\n    echo "<p>Sorry, your search: &quot;" . $escaped . "&quot; returned zero results</p>";\n}

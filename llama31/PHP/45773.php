@@ -1,0 +1,1 @@
+// Example of storing data in session\n$_SESSION['temp_data'] = 'Some temporary data';\n\n// Example of storing data in a database (using PDO)\n$pdo = new PDO('mysql:host=localhost;dbname=example', 'username', 'password');\n$stmt = $pdo->prepare('INSERT INTO temp_data (data) VALUES (:data)');\n$stmt->bindParam(':data', 'Some temporary data');\n$stmt->execute();

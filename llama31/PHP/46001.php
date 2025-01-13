@@ -1,0 +1,1 @@
+function check_value($postID)\n{\n    $ID = $postID;\n    $cookie = str_replace('.', '', $_COOKIE['list_of_IDS']); // remove dots from the cookie string\n    $position = strpos($cookie, $ID);\n    echo 'ID:'.$ID.'-Cookie:'.$cookie;\n    if ($position !== false)\n    {\n        echo "ID is in the cookie";\n    }\n}

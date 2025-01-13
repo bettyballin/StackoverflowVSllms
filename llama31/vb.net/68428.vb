@@ -1,0 +1,1 @@
+Public Class MyObject\n    Public Property Name As String\n    Public Property Description As String\nEnd Class\n\nDim objects As List(Of MyObject) = ...\n\nComboBox1.DataSource = objects\nComboBox1.DisplayMember = "Name, Description"

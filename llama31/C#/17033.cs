@@ -1,1 +1,0 @@
-string xpath = "/RootData/FirstChild/FirstGrandChild";\nXmlSchema schema = XmlSchema.Read("schema.xsd", null);\nbool isValid = XPathValidator.ValidateXPath(xpath, schema);\nConsole.WriteLine(isValid);

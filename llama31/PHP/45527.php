@@ -1,0 +1,1 @@
+if ($value) {\n    // code to be executed if $value is true\n}

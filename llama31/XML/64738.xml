@@ -1,0 +1,1 @@
+<properties>\n    <property name="hibernate.jdbc.time_zone" value="GMT+02:00"/>\n</properties>

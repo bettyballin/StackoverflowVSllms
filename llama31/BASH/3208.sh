@@ -1,1 +1,0 @@
-ffprobe -i input.mp4

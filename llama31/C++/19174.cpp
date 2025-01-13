@@ -1,1 +1,0 @@
-// Get the IIS thread pool\nIHttpServer* pServer = ...; // get the IHttpServer instance\nIThreadPool* pThreadPool = pServer->GetThreadPool();\n\n// Queue a work item to be executed on a thread pool thread\npThreadPool->QueueUserWorkItem(\n    []() {\n        // Your thread function here\n        // Listen for multicasts and update local cache\n    },\n    WT_EXECUTEDEFAULT);

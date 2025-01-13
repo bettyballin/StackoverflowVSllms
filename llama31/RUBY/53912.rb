@@ -1,0 +1,1 @@
+<% form_with(url: checkout_path) do |form| %>\n  <%= form.submit "Checkout" %>\n<% end %>

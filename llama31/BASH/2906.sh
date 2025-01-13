@@ -1,1 +1,0 @@
-rails db:migrate:sql VERSION=your_migration_versio

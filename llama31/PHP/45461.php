@@ -1,0 +1,1 @@
+$cppFile = fopen('path/to/your/file.cpp', 'r');\n$contents = fread($cppFile, filesize('path/to/your/file.cpp'));\nfclose($cppFile);\n\necho '<pre>';\necho htmlspecialchars($contents);\necho '</pre>';

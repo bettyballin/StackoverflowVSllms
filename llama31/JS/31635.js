@@ -1,0 +1,1 @@
+const evtSource = new EventSource('your_script.php');\n\nevtSource.onmessage = function(event) {\n    console.log(event.data);\n};\n\nevtSource.onerror = function() {\n    console.log('Error occurred');\n};\n\nevtSource.onopen = function() {\n    console.log('Connection established');\n};

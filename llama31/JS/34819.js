@@ -1,0 +1,1 @@
+setTimeout(function() {\n  window.location.hash = "page_top";\n}, 100);

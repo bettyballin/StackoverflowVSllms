@@ -1,0 +1,1 @@
+function lvCharOrgsValidator_ClientValidate(sender, args) {\n    args.IsValid = validateSelectedCount();\n}

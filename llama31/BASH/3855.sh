@@ -1,1 +1,0 @@
-gcc -Wno-unknown-warning-option -Wno-deprecated -Wno-unknown-warning-option your_file.c

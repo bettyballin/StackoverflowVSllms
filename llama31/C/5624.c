@@ -1,1 +1,0 @@
-#include <sys/stat.h>\n#include <time.h>\n\n// ...\n\nstruct timespec times[2];\ntimes[0].tv_sec = time(NULL); // access time\ntimes[1].tv_sec = time(NULL); // modification time\nutimensat(AT_FDCWD, path, times, AT_SYMLINK_NOFOLLOW);

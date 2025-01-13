@@ -1,0 +1,1 @@
+<?php\n\nreturn PhpCsFixer\Config::create()\n    ->setRules([\n        '@PSR2' => true,\n        'indentation_type' => true,\n        'line_ending' => true,\n    ])\n    ->setFinder(\n        PhpCsFixer\Finder::create()->in(__DIR__)\n    );

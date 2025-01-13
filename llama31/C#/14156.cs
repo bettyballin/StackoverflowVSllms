@@ -1,1 +1,0 @@
-input = input.Replace("è", "e");\ninput = input.Replace("ò", "o");\ninput = input.Replace("à", "a");

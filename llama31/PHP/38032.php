@@ -1,0 +1,1 @@
+class MyClass {\n    public static $CLASS = 'MyClass';\n\n    public function myMethod() {\n        $METHOD = 'myMethod';\n        log("{self::$CLASS} $METHOD entering");\n    }\n}

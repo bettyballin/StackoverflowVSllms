@@ -1,0 +1,1 @@
+Dim wrappedObject As Object = Activator.CreateInstance(specificType, o)\nMe.PropertyGrid1.SelectedObject = wrappedObject

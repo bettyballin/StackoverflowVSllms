@@ -1,1 +1,0 @@
-php -c /path/to/php.ini run_all.php >/dev/null

@@ -1,1 +1,0 @@
-crystalmark.exe /S /L \\server\share

@@ -1,1 +1,0 @@
-string path = System.Web.Hosting.HostingEnvironment.MapPath("~/"+recipient+FileExtension);

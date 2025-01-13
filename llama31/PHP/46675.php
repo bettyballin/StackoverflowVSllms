@@ -1,0 +1,1 @@
+if (isset($_GET['gender']) && !empty($_GET['gender'])) {\n    // Input is valid\n}

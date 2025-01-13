@@ -1,1 +1,0 @@
-#!/bin/bash\n\n# Set the path to your SVN repositories\nREPO_PATH=/path/to/svn/repos\n\n# Loop through all repositories and dump them to a backup file\nfor repo in $REPO_PATH/*; do\n  if [ -d "$repo" ]; then\n    repo_name=$(basename "$repo")\n    svnadmin dump "$repo" > "$repo_name".bak\n  fi\ndone

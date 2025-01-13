@@ -1,0 +1,1 @@
+<bindings>\n  <customBinding>\n    <binding name="SocksProxyBinding">\n      <tcpTransport proxy="socks-proxy-host" proxyPort="1080" />\n    </binding>\n  </customBinding>\n</bindings>

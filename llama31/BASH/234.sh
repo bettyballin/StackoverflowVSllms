@@ -1,1 +1,0 @@
-awk '{ if ($0 ~ /foo/) { cnt++; sub(/foo/, "foo_" sprintf("%02d", cnt)); } }1' file.txt

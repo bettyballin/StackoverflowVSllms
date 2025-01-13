@@ -1,1 +1,0 @@
-openssl genrsa -out example.key 2048

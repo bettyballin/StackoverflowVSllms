@@ -1,0 +1,1 @@
+INSERT INTO TargetTable (\n    ColumnName1,\n    ColumnName2,\n    ColumnName3\n) VALUES (\n    @value1,\n    @value2,\n    @value3\n)

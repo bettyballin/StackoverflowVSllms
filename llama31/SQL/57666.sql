@@ -1,0 +1,1 @@
+SELECT \n    t.name AS TableName,\n    COUNT(*) AS RecordCount\nFROM \n    sys.tables t\nCROSS APPLY \n    sys.fn_GetRowCount(t.object_id) AS rc\nGROUP BY \n    t.name\nORDER BY \n    t.name;

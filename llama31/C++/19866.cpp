@@ -1,1 +1,0 @@
-HRESULT hr = CoCreateInstance(CLSID_CANoe, NULL, CLSCTX_SERVER, IID_ICANoe, (LPVOID*)&pCANoe);\nif (FAILED(hr)) {\n    // Handle error\n}

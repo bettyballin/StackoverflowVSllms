@@ -1,0 +1,1 @@
+deletecshr.CommandArgument = e.Row.RowIndex.ToString()\nAddHandler deletecshr.Click, AddressOf deletecshr_Click\n\nProtected Sub deletecshr_Click(sender As Object, e As ImageClickEventArgs)\n    Dim imgButton As ImageButton = DirectCast(sender, ImageButton)\n    Dim rowID As Integer = Integer.Parse(imgButton.CommandArgument)\n    ' Use rowID as needed\nEnd Sub

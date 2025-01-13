@@ -1,1 +1,0 @@
-# PowerShell command to touch web.config\nSet-ItemProperty -Path "IIS:\Sites\YourSiteName\web.config" -Name LastWriteTime -Value (Get-Date)

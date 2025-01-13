@@ -1,0 +1,1 @@
+CREATE TABLE MyTable (\n    ID INT PRIMARY KEY,\n    StartDate INT,\n    EndDate INT,\n    StartYear AS (StartDate / 10000),\n    StartMonth AS ((StartDate / 100) % 100),\n    StartDay AS (StartDate % 100)\n);

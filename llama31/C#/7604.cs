@@ -1,1 +1,0 @@
-private static OleDbConnection _connection;\n\nprotected void cboPeople_SelectedIndexChanged(object sender, EventArgs e)\n{\n    if (_connection == null)\n    {\n        string dataSource = ConfigurationSettings.AppSettings["contactsDB"];\n        _connection = new OleDbConnection(dataSource);\n    }\n    string id = People[cboPeople.Text];\n    UpdateLiteral(_connection, id);\n}

@@ -1,0 +1,1 @@
+$mil = 1227643821310;\n$seconds = intval($mil / 1000);\necho date("d-m-Y", $seconds);

@@ -1,1 +1,0 @@
-// myclass.cpp\nstruct MyClass::Impl {\n    int data;\n    // other private members\n};\n\nMyClass::MyClass() : pimpl(new Impl) {}\nMyClass::~MyClass() { delete pimpl; }\nvoid MyClass::doSomething() { pimpl->data = 5; }

@@ -1,0 +1,1 @@
+$("#button_holder > span").each(function () {\n    var doThis = window[this.id];\n    if (typeof doThis === 'function') {\n        $(this).click(doThis);\n    }\n});

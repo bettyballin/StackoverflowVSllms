@@ -1,0 +1,1 @@
+SELECT SUM(DATEDIFF(ToDate, FromDate) / 365.25) AS TotalYears\nFROM YourTable;

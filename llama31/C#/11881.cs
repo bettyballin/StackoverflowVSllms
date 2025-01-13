@@ -1,1 +1,0 @@
-string lastName = customProfile.LastName;\nstring firstName = customProfile.FirstName;\nint age = customProfile.Age;

@@ -1,1 +1,0 @@
-./smbread.sh file.txt 1024 4096

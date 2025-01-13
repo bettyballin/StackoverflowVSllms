@@ -1,1 +1,0 @@
-auto it = std::list<boost::function<T()>>::begin();

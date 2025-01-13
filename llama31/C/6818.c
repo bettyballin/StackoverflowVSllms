@@ -1,1 +1,0 @@
-bool binSearch(int array[], int key, int left, int right) {\n    while (left <= right) {\n        int mid = left + (right - left) / 2;\n        if (array[mid] == key) {\n            return true; // Found\n        } else if (array[mid] < key) {\n            left = mid + 1;\n        } else {\n            right = mid - 1;\n        }\n    }\n    return false; // Not Found\n}

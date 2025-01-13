@@ -1,0 +1,1 @@
+CREATE TABLE Message (\n    ID INT PRIMARY KEY,\n    FromID INT,\n    FromType VARCHAR(10),  -- 'Company' or 'Employee'\n    ToID INT,\n    ToType VARCHAR(10),    -- 'Company' or 'Employee'\n    Message TEXT,\n    ...\n);

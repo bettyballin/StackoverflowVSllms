@@ -1,0 +1,1 @@
+Dim test As String = " "\nIf String.IsNullOrWhiteSpace(test) Then\n    MessageBox.Show("Empty or whitespace-only String")\nElse\n    MessageBox.Show("Not empty or whitespace-only String")\nEnd If

@@ -1,0 +1,1 @@
+window.onbeforeunload = function() {\n  stopPeriodicExecution();\n};

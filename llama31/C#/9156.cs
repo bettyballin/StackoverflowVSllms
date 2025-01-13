@@ -1,1 +1,0 @@
-List<String> uniqueList = text.Distinct().ToList();

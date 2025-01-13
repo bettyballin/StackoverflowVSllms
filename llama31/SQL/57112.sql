@@ -1,0 +1,1 @@
+SELECT ID\nFROM your_table\nWHERE Value IN (2, 5)\nGROUP BY ID\nHAVING COUNT(DISTINCT Value) = 2;

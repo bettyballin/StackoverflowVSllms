@@ -1,0 +1,1 @@
+DELIMITER //\nCREATE PROCEDURE procedure_name(param1, param2, ...)\nBEGIN\n    -- procedure body\nEND//\nDELIMITER ;

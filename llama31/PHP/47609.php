@@ -1,0 +1,1 @@
+// AppController.php (parent controller)\nclass AppController extends Controller {\n    // common logic and methods\n}\n\n// MyController.php (child controller)\nclass MyController extends AppController {\n    // specific logic and methods\n}

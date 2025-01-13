@@ -1,0 +1,1 @@
+document.addEventListener('keydown', function(event) {\n    if (event.ctrlKey && event.which === 78) { // 78 is the key code for 'N'\n        console.log('Ctrl+N was pressed');\n        // Handle the event, potentially by informing the server via an AJAX call\n    }\n}, false);

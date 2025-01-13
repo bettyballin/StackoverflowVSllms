@@ -1,0 +1,1 @@
+san_fran = Location.objects.get(country='US', state='Calif', city='San-Fran')\njobs_in_san_fran_region = Job.objects.filter(\n    location__in=Location.objects.filter(big_city=san_fran)\n).select_related('location')

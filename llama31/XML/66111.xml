@@ -1,0 +1,1 @@
+<CustomAction Id="RegisterComDll" Execute="deferred" Directory="INSTALLDIR" \n              ExeCommand="[SystemFolder]regasm.exe /codebase [INSTALLDIR]YourComDll.dll" \n              Return="check" />

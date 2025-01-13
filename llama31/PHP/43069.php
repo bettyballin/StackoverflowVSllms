@@ -1,0 +1,1 @@
+$route['survey/(:num)'] = 'survey/index/$1';\n$route['survey/(:num)/(:num)'] = 'survey/index/$1/$2';

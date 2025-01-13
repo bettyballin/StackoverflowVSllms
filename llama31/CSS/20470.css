@@ -1,1 +1,0 @@
-.container {\n  display: flex;\n  flex-direction: row;\n  justify-content: center;\n}\n\n.center {\n  width: 400px; /* constant width */\n  margin: 0 auto; /* center horizontally */\n}\n\n.left, .right {\n  flex: 1; /* variable width */\n}\n\n.left {\n  background-color: #f0f0f0;\n}\n\n.right {\n  background-color: #ccc;\n}

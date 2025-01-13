@@ -1,1 +1,0 @@
-# Install rsnapshot (on Ubuntu-based systems)\nsudo apt-get install rsnapshot\n\n# Configure rsnapshot to backup your project directory\nsudo nano /etc/rsnapshot.conf

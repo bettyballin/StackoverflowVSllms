@@ -1,1 +1,0 @@
-#!/bin/bash\n\nLOG_FOLDERS=(api email2sms scheduled_sending billing etc.)\n\nfor folder in "${LOG_FOLDERS[@]}"; do\n  mkdir -p "tmp/$folder"\n  chmod -R 755 "tmp/$folder"\ndone

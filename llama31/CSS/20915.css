@@ -1,1 +1,0 @@
-div.userlink {\n  position: relative;\n  white-space: nowrap;\n  height: 20px;\n}\n\ndiv.userlink .image {\n  position: absolute;\n  top: 5px; /* adjust this value to control the vertical position of the image */\n  left: 100%; /* place the image next to the text */\n}\n\ndiv.userlink .image img {\n  width: 16px;\n  height: 16px;\n}

@@ -1,1 +1,0 @@
-svn resolve --accept theirs-full path/to/conflicted/dll

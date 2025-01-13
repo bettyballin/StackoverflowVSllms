@@ -1,1 +1,0 @@
-var results = yourContext.YourTable\n    .OrderBy(y => y.YourColumn)\n    .Skip((pageNumber - 1) * recordsPerPage)\n    .Take(recordsPerPage);

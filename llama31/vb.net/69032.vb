@@ -1,0 +1,1 @@
+For i As Integer = 0 To 5\n    Dim myControl As New MyUserControl()\n    Me.Controls.Add(myControl)\n    myControl.Location = New Point(100 + i * 200, 100)\n    myControl.Size = New Size(200, 200)\nNext

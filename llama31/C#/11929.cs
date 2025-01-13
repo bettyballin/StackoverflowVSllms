@@ -1,1 +1,0 @@
-[ServiceContract]\npublic interface IDataService\n{\n    [OperationContract]\n    void Subscribe();\n\n    [OperationContract]\n    void Unsubscribe();\n\n    [OperationContract(IsOneWay = true)]\n    void OnDataAdded(string data);\n}

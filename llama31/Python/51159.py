@@ -1,0 +1,1 @@
+import io\nimport sys\n\n# Create a StringIO object\nsio = io.StringIO()\n\n# Redirect stdout to the StringIO object\nsys.stdout = sio\n\n# Print something\nprint("foo", "bar", "baz")\n\n# Get the string value\ns = sio.getvalue()\n\n# Reset stdout\nsys.stdout = sys.__stdout__\n\nprint(s)  # Output: "foo bar baz\n"

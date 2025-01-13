@@ -1,1 +1,0 @@
-string connectionString = "your_connection_string";\nstring tableName = "your_table_name";\nint pollingInterval = 10; // check for changes every 10 seconds\n\nTableChangeMonitor monitor = new TableChangeMonitor(connectionString, tableName, pollingInterval);\nmonitor.StartMonitoring();

@@ -1,0 +1,1 @@
+SELECT * \n   FROM sys.dm_os_waiting_tasks \n   WHERE wait_type = 'FULLTEXT INDEX';

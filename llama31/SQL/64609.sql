@@ -1,0 +1,1 @@
+SELECT * \nFROM your_table \nWHERE WORD_COUNT(your_field) < 4;

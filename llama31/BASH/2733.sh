@@ -1,1 +1,0 @@
-xcrun simctl launch 'iPhone 12' 'your.app.bundle.identifier'\nxcrun simctl launch 'iPad Pro' 'your.app.bundle.identifier'

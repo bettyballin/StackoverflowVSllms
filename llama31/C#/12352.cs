@@ -1,1 +1,0 @@
-// HtmlHelperExtensions.cs\npublic static class HtmlHelperExtensions\n{\n    public static MvcHtmlString DashboardPart1(this HtmlHelper html, Part1Model model)\n    {\n        // Render Part 1 content\n    }\n\n    public static MvcHtmlString DashboardPart2(this HtmlHelper html, Part2Model model)\n    {\n        // Render Part 2 content\n    }\n}

@@ -1,0 +1,1 @@
+$query = $em->createQuery('SELECT u.id, u.name FROM User u');

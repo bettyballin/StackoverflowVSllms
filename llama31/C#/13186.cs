@@ -1,1 +1,0 @@
-public class PersonModelBinder : DefaultModelBinder\n{\n    public override object BindModel(ControllerContext controllerContext, ModelBindingContext bindingContext)\n    {\n        // Custom binding logic here\n        // For example, you can bind the MyPet property to a Pet object\n        // or ignore it altogether\n    }\n}

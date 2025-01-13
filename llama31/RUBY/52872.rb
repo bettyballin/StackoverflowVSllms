@@ -1,0 +1,1 @@
+untrusted_string = "<script>alert('XSS')</script>"\nencoded_string = html_escape(untrusted_string)\n\nputs encoded_string\n# Output: &lt;script&gt;alert(&#39;XSS&#39;)&lt;/script&gt;

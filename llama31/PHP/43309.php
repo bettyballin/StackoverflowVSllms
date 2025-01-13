@@ -1,0 +1,1 @@
+// on the referring site\n$token = generate_token();\nheader('Location: https://your-site.com?token=' . $token);\n\n// on your site\n$token = $_GET['token'];\nif (verify_token($token)) {\n    // allow access\n} else {\n    // deny access\n}

@@ -1,0 +1,1 @@
+<configuration>\n  <system.web>\n    <trust>\n      <trustedSites>\n        <add value="http://myIPAddress" />\n      </trustedSites>\n    </trust>\n  </system.web>\n</configuration>

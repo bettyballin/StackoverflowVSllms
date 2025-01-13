@@ -1,0 +1,1 @@
+var isValid = false;\n\nfunction validate(input) {\n  // your validation logic here\n  if (/* input is valid */) {\n    isValid = true;\n  } else {\n    isValid = false;\n  }\n}\n\nfunction checkValidArray() {\n  return isValid;\n}

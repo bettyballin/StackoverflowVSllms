@@ -1,1 +1,0 @@
-gcc -M file.c -o file.d

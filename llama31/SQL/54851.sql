@@ -1,0 +1,1 @@
+DELIMITER ;//\n\nCREATE PROCEDURE `blah`\n(\n  SearchText varchar(4000)\n)\nBEGIN\n  SELECT *\n  FROM table_name\n  WHERE table_name.StringField LIKE CONCAT('%', SearchText, '%');\nEND;//

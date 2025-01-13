@@ -1,1 +1,0 @@
-string filePath = @"C:\Windows\System32\SomeFile.dll";\nint iconIndex = -203; // Note the negative index\n\nIntPtr iconHandle = IconExtractor.ExtractIcon(filePath, iconIndex);\n\nif (iconHandle != IntPtr.Zero)\n{\n    // Use the icon handle, e.g. draw it on a form\n    // ...\n}

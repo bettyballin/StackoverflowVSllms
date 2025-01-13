@@ -1,0 +1,1 @@
+$allowed_tables = array('05_26_09', 'other_table_name'); // list of allowed table names\n$day = $_GET['day'];\n\nif (!in_array($day, $allowed_tables)) {\n    throw new Exception("Invalid table name");\n}\n\n$query = $link->prepare("SELECT locality_name FROM $day GROUP BY locality_name ORDER BY locality_name DESC");\n$query->execute();\n$result = $query->fetchAll();

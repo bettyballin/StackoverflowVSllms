@@ -1,1 +1,0 @@
-string description = FileTypeHelper.GetFileTypeDescription(".doc");\nConsole.WriteLine(description); // Output: Microsoft Office Word 97 - 2003 Document

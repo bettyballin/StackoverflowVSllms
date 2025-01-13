@@ -1,0 +1,1 @@
+require 'fileutils'\n\nsrc = 'source_file'\ndst = 'destination_file'\n\nFileUtils.cp_r(src, dst, :remove_destination => true)

@@ -1,0 +1,1 @@
+FUNCTION hashPassword(password)\n  // Generate a random salt\n  salt = generateRandomSalt()\n\n  // Combine password and salt\n  combined = password + salt\n\n  // Hash the combined string\n  hashedPassword = hash(combined)\n\n  // Return the hashed password and salt\n  RETURN hashedPassword, salt\nEND FUNCTION

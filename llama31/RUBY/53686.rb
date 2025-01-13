@@ -1,0 +1,1 @@
+module MyApp\n  class Application < Rails::Application\n    # ...\n    config.session_store = :active_record_store\n  end\nend

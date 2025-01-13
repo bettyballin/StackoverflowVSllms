@@ -1,1 +1,0 @@
-devenv /debugexe A.exe /remote

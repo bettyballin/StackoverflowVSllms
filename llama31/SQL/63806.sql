@@ -1,0 +1,1 @@
+CREATE PROCEDURE MyProc\nAS\nBEGIN\n    CREATE TABLE #TempTable (column1 INT, column2 VARCHAR(50))\n    INSERT INTO #TempTable (column1, column2) VALUES (1, 'value1')\n    PRINT '#TempTable contents:'\n    SELECT * FROM #TempTable\n    DROP TABLE #TempTable\nEND\nGO

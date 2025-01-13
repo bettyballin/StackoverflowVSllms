@@ -1,0 +1,1 @@
+#!/usr/bin/php\n<?php\n// Call the C++ binary\nexec("./your_cpp_binary");\n?>

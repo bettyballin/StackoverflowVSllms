@@ -1,1 +1,0 @@
-wget --spider -r -o broken_links.txt http://example.com

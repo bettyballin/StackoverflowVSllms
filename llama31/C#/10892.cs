@@ -1,1 +1,0 @@
-linkButton.Attributes.Add("onmouseout", "resetColor(this)");

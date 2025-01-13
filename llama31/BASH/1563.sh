@@ -1,1 +1,0 @@
-service xendomains restart

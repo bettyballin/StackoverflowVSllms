@@ -1,0 +1,1 @@
+SELECT b.*, g.resp_name\nFROM biglist b\nLEFT JOIN grabname g ON 1=1  -- dummy join condition\nORDER BY prnt_item, account_amt\nINTO TEMP xxx WITH NO LOG;

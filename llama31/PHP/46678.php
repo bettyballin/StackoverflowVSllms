@@ -1,0 +1,1 @@
+$string = '"this is a test "';\n\n$string = str_replace(' "', '"', $string);\n\necho $string; // outputs: "this is a test"

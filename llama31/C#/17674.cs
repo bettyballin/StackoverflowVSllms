@@ -1,1 +1,0 @@
-protected void Application_Start()\n{\n    AreaRegistration.RegisterAllAreas();\n    FilterConfig.RegisterGlobalFilters(GlobalFilters.Filters);\n    // ...\n}\n\npublic class FilterConfig\n{\n    public static void RegisterGlobalFilters(GlobalFilterCollection filters)\n    {\n        filters.Add(new LoggingFilterAttribute());\n    }\n}

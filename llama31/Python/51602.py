@@ -1,0 +1,1 @@
+rect1 = [(0, 0), (2, 0), (2, 2), (0, 2)]  # Rotated rectangle\nrect2 = [(1, 1), (3, 1), (3, 3), (1, 3)]  # Non-rotated rectangle\n\nif is_separating_axis(rect1, rect2):\n    print("Rectangles do not intersect")\nelse:\n    print("Rectangles intersect")

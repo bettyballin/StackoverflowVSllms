@@ -1,1 +1,0 @@
-<%@ Page Language="C#" %>\n\n<%\n    // Generate the graph image here\n    // ...\n\n    Response.ContentType = "image/png";\n    Response.AppendHeader("Cache-Control", "no-cache");\n    Response.AppendHeader("Pragma", "no-cache");\n    Response.AppendHeader("Expires", "0");\n\n    // Output the image\n    // ...\n%>

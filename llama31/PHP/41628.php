@@ -1,0 +1,1 @@
+$dbAdapter->setFetchMode(Zend_Db::FETCH_ASSOC | Zend_Db::FETCH_NUM);

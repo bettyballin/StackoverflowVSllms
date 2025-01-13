@@ -1,1 +1,0 @@
-req.Headers.Add("SOAPAction", url);

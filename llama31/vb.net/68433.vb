@@ -1,0 +1,1 @@
+' Compact VB.NET specific syntax\nDim _StreamReader As New StreamReader(mystream)\n\n' Explicit declaration and initialization, similar to C#\nDim _StreamReader As StreamReader = New StreamReader(mystream)

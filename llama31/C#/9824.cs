@@ -1,1 +1,0 @@
-if (ds.Tables.Count > 0)\n{\n    foreach (DataRow row in ds.Tables[0].Rows)\n    {\n        // do something with the row data\n    }\n}\nelse\n{\n    // handle the case where there are no tables in the dataset\n}

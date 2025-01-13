@@ -1,0 +1,1 @@
+USE master;\nGO\nCREATE DATABASE MyDatabase\nON PRIMARY (FILENAME = 'C:\path\to\MyDatabase.mdf')\nFOR ATTACH;\nGO

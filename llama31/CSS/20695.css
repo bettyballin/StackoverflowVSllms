@@ -1,1 +1,0 @@
-ul {\n    list-style: none;\n    padding: 0;\n    margin: 0;\n}\n\nli {\n    padding-left: 15px;\n    width: 400px;\n    display: flex; /* add this */\n    justify-content: space-between; /* add this */\n}\n\n.options {\n    width: 50px;\n    margin-left: auto; /* add this */\n}

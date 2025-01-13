@@ -1,0 +1,1 @@
+SELECT t1.Stuff, t2.MoreStuff\nFROM table_1 t1\nJOIN table_2 t2\n  ON t1.ID_1 = t2.ID_1\nWHERE t1.ID_1 > 0\n\nUNION ALL\n\nSELECT t1.Stuff, t2.MoreStuff\nFROM table_1 t1\nJOIN table_2 t2\n  ON t1.ID_1 = -t2.ID_2\nWHERE t1.ID_1 < 0

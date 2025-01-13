@@ -1,0 +1,1 @@
+require 'yaml'\n\ntest = "I'm a b&d string"\n\n# Manually add single quotes and escape special characters if necessary\nyaml_output = "--- '#{test.gsub("'", "''")}'\n"\n\nFile.open('test.yaml', 'w') do |out|\n  out.write(yaml_output)\nend

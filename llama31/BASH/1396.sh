@@ -1,1 +1,0 @@
-# Install OWASP ZAP\nsudo apt-get install zap\n\n# Scan a website\nzap -scan "http://example.com"

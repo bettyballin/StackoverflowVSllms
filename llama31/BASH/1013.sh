@@ -1,1 +1,0 @@
-scp ~/.ssh/id_rsa.pub user@webserver:~/.ssh/authorized_keys

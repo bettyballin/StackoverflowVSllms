@@ -1,1 +1,0 @@
-var binding = new BasicHttpBinding();\nbinding.TextEncoding = Encoding.GetEncoding("ISO-8859-1");\nvar soapClient = new SiteInspect.SiteInspectPortClient(binding, new EndpointAddress("http://www.flash-db.com/services/ws/siteInspect.wsdl"));

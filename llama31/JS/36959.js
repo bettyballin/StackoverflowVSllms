@@ -1,0 +1,1 @@
+function resizeAccordion() {\n    var accordion = $find('<%= Accordion1.ClientID %>');\n    var container = accordion.get_element().parentNode;\n    accordion.set_Height(container.offsetHeight);\n}\n\nwindow.onresize = resizeAccordion;

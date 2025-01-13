@@ -1,1 +1,0 @@
-foreach (string email in subscribers)\n{\n    MailMessage mail = new MailMessage();\n    mail.To.Add(email);\n    mail.Subject = "Your Email Subject";\n    mail.Body = "Your Email Body";\n    // ...\n    smtpClient.Send(mail);\n}

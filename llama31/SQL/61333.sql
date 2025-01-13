@@ -1,0 +1,1 @@
+SELECT ID, Product, Color\nFROM (\n  SELECT ID, Product, Color,\n         ROW_NUMBER() OVER (PARTITION BY Product ORDER BY ID) AS rn\n  FROM Products\n) AS subquery\nWHERE rn = 1

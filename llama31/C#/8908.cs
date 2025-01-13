@@ -1,1 +1,0 @@
-public class MyControl : Control\n{\n    protected override bool ProcessCmdKey(ref Message msg, Keys keyData)\n    {\n        if (keyData == Keys.Enter)\n        {\n            // Do nothing or handle the key press in a different way\n            return true;\n        }\n        return base.ProcessCmdKey(ref msg, keyData);\n    }\n}

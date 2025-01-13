@@ -1,1 +1,0 @@
-using System.Web.Http;\n\nnamespace MyService\n{\n    public class MyController : ApiController\n    {\n        public string Get()\n        {\n            return "Hello, world!";\n        }\n    }\n}

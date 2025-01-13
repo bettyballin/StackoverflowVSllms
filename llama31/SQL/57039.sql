@@ -1,0 +1,1 @@
+CREATE TABLE Posts (\n  Id INT PRIMARY KEY,\n  Title VARCHAR(255),\n  Content TEXT\n);\n\nCREATE TABLE Tags (\n  Id INT PRIMARY KEY,\n  Name VARCHAR(255) UNIQUE\n);\n\nCREATE TABLE PostTags (\n  PostId INT,\n  TagId INT,\n  PRIMARY KEY (PostId, TagId),\n  FOREIGN KEY (PostId) REFERENCES Posts(Id),\n  FOREIGN KEY (TagId) REFERENCES Tags(Id)\n);

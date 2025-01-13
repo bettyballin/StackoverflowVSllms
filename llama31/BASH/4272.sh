@@ -1,1 +1,0 @@
-ErrorDocument 404 /error.php\nErrorDocument 500 /error.php\n# Add more error codes as needed

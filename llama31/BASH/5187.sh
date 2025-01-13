@@ -1,1 +1,0 @@
-curl -o output.txt -w %{http_code} http://example.com/yourpage

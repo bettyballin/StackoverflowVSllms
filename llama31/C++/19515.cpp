@@ -1,1 +1,0 @@
-#include <iostream>\n#include <vector>\n\nint main() {\n    // Create an empty list\n    std::vector<int> my_list;\n\n    // Add elements to the list\n    my_list.push_back(1);\n    my_list.push_back(2);\n    my_list.push_back(3);\n\n    // Print the list\n    for (int i = 0; i < my_list.size(); i++) {\n        std::cout << my_list[i] << " ";\n    }\n\n    return 0;\n}

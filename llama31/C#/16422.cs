@@ -1,1 +1,0 @@
-// Using NHibernate\nusing NHibernate;\nusing NHibernate.Cfg;\n\n// Create a session factory\nvar sessionFactory = new Configuration()\n    .Configure()\n    .BuildSessionFactory();\n\n// Using Subsonic\nusing Subsonic.Repository;\n\n// Create a repository\nvar repository = new SubsonicRepository("YourConnectionString");

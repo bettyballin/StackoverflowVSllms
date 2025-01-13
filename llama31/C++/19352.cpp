@@ -1,1 +1,0 @@
-std::atomic<bool> dataUpdated(false);

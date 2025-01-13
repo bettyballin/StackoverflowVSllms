@@ -1,1 +1,0 @@
-int main()\n{\n    // Encrypt a file\n    encryptFile("input.txt", "output.encrypted", "mysecretpassword");\n\n    // Decrypt a file\n    decryptFile("output.encrypted", "decrypted.txt", "mysecretpassword");\n\n    return 0;\n}

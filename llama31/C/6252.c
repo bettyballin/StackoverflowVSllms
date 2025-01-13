@@ -1,1 +1,0 @@
-#include <sys/socket.h>\n#include <netinet/tcp.h>\n\n// ...\n\nint sockfd = socket(AF_INET, SOCK_STREAM, 0);\n\n// Set TCP retransmission timeout to 10 seconds\nint timeout = 10;\nsetsockopt(sockfd, IPPROTO_TCP, TCP_RETRANSMIT_TIMEOUT, &timeout, sizeof(timeout));

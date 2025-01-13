@@ -1,1 +1,0 @@
-X509Certificate2 cert = new X509Certificate2("your_pfx_file.pfx", "your_password");

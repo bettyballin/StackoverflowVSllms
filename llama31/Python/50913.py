@@ -1,0 +1,1 @@
+import xmpp\n\n# Connect to the XMPP server\nclient = xmpp.Client('example.com')\nclient.connect(server=('example.com', 5222))\n\n# Authenticate\nclient.auth('username', 'password', 'ignore')\n\n# Join a channel\nclient.sendInitPresence()\nclient.sendMessage('Game.3636534.chat', 'Hello, world!')

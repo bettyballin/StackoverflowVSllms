@@ -1,1 +1,0 @@
-void barPush(BarList **list, Bar *bar) {\n    // ...\n    *list = newNode;\n}

@@ -1,1 +1,0 @@
-string filePath = @"C:\path\to\file.txt";\nstring password = "mysecretpassword";\n\nFileEncryptor.EncryptFile(filePath, password);

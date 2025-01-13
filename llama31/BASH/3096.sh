@@ -1,1 +1,0 @@
-sudo -u nobody python ttyUSB_wrapper.py

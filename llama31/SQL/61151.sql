@@ -1,0 +1,1 @@
+CALL add_field_to_tables('new_field', 'INT', 'table1,table2,table3');

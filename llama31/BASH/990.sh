@@ -1,1 +1,0 @@
-sudo svnserve -d -r /path/to/repo

@@ -1,0 +1,1 @@
+SELECT deptno, LISTAGG(ename, ',') WITHIN GROUP (ORDER BY row_number) AS concatenated_string\nFROM wd_emp\nGROUP BY deptno;

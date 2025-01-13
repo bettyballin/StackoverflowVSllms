@@ -1,1 +1,0 @@
-mklink /J "C:\Users\<username>\AppData\Roaming\SQL Developer" "C:\Users\<username>\Dropbox\SQL Developer"

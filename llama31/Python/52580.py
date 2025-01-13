@@ -1,0 +1,1 @@
+>>> lst = [2]\n>>> print(lst.extend([]))  # prints None\n>>> print(lst)  # prints [2]

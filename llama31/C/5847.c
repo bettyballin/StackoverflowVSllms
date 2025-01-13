@@ -1,1 +1,0 @@
-WriteConsoleA(hConsole, "test", 4, NULL, NULL);

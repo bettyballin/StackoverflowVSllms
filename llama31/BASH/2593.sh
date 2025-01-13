@@ -1,1 +1,0 @@
-# checkout the one.one branch\ngit checkout one.one\n\n# pull changes from master, ignoring submodules\ngit pull --ignore-submodules . master\n\n# resolve conflicts in the submodule\ncd subby\ngit checkout --ours\ncd ..\n\n# stage and commit the changes\ngit add subby\ngit commit -m "resolved conflicts in subby"

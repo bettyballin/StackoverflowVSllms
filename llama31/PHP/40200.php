@@ -1,0 +1,1 @@
+while ($stmt->fetch()) {\n    foreach($row as $key => $val) {\n        $c[$key] = performFunction($val);\n    }\n    $result[] = $c;\n}

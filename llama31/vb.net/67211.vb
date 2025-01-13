@@ -1,0 +1,1 @@
+Public Module ContainerAccessor\n    Public ReadOnly Property Container() As IWindsorContainer\n        Get\n            Return MvcApplication.IoC\n        End Get\n    End Property\nEnd Module

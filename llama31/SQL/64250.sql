@@ -1,0 +1,1 @@
+SELECT sql_text, object_name FROM dba_audit_object;

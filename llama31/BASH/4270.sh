@@ -1,1 +1,0 @@
-set SQLPATH=c:\new\directory\nsqlplus username/password

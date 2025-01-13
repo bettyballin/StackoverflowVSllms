@@ -1,1 +1,0 @@
-#!/bin/sh\nsort -n -k2 $1 > $2

@@ -1,1 +1,0 @@
-svnadmin load C:\newrepo\ < mydumpfile

@@ -1,0 +1,1 @@
+SELECT\n    SUSP.Susp_Visits.SuspReason, SUSP.Susp_Visits.SiteID,\n    (SELECT TOP 1 Name FROM DATA.Dim_Member WHERE MembershipNum = SUSP.Susp_Visits.MemID) AS Name\nFROM\n    SUSP.Susp_Visits

@@ -1,1 +1,0 @@
-// Before\npublic class MyClass\n{\n    public void MyMethod(int param) { }\n}\n\n// After (breaking changes)\npublic class MyClass\n{\n    public void MyMethod(string param) { } // changed method signature\n}\n\n// or\n\npublic class MyClass\n{\n    public void NewMethod() { } // removed original method\n}

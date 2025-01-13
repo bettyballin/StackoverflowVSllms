@@ -1,0 +1,1 @@
+$html = // your HTML content from curl\n\n$doc = new DOMDocument();\nlibxml_use_internal_errors(true);\n$doc->loadHTML($html);\nlibxml_clear_errors();\n\n$div = $doc->getElementById('image');\n$img = $div->getElementsByTagName('img')->item(0);\n\nif ($img) {\n    $src = $img->getAttribute('src');\n    echo $src;\n} else {\n    echo "Image not found";\n}

@@ -1,0 +1,1 @@
+if (validators.length > 0) {\n    focusManager.setFocus(usernameInput);\n}

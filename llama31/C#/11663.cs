@@ -1,1 +1,0 @@
-foreach (var item in myCollection)\n{\n    Console.WriteLine($"Thread {Thread.CurrentThread.ManagedThreadId} is iterating over myCollection");\n    // ...\n}

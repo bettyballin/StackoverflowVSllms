@@ -1,1 +1,0 @@
-grep -r '\s+$' /path/to/folder

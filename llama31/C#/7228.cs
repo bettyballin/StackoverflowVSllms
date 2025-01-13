@@ -1,1 +1,0 @@
-[Association(Name="DeliciousCandyBar_CandyBar", Storage="_DeliciousCandyBar", ThisKey="Id", OtherKey="CandyBarId", IsForeignKey=true)]\npublic EntityRef<DeliciousCandyBar> DeliciousCandyBar { get; set; }

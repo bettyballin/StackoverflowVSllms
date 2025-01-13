@@ -1,1 +1,0 @@
-using Microsoft.WindowsMobile.Status;\n\n// ...\n\nvar batteryLevel = SystemState.PowerBatteryStrength;

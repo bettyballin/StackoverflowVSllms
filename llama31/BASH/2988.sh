@@ -1,1 +1,0 @@
-# Create a Tar archive\ntar -czf archive.tar.gz AWK awk awk_tip awk_notes\n\n# Encrypt the archive using GPG\ngpg -c archive.tar.gz

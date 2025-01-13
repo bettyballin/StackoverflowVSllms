@@ -1,0 +1,1 @@
+$id = mysql_pconnect('localhost', 'myusername', 'mypassword', true);\nprint "id=" . $id . "\n";

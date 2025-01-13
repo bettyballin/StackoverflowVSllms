@@ -1,0 +1,1 @@
+IF dbo.ValidateEmail('example@example.com') = 1\n    PRINT 'Valid email address'\nELSE\n    PRINT 'Invalid email address'

@@ -1,0 +1,1 @@
+import re\n\nwith open('file.txt', 'r') as f:\n    chunk_size = 1024 * 1024  # Read 1MB chunks\n    chunk = ''\n    for data in iter(lambda: f.read(chunk_size), ''):\n        chunk += data\n        for match in re.finditer('your_pattern', chunk):\n            yield match\n        chunk = chunk[-len(data):]  # Keep some overlap for multi-line matches

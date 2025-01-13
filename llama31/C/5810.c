@@ -1,1 +1,0 @@
-// Generate a random salt value (16 bytes)\nunsigned char salt[16];\ngenerate_random_salt(salt);\n\n// Fill in the lower 16 bytes of the AUTH_PASSWORD value\nunencrypted_AUTH_PASSWORD[0 .. 15] = salt;

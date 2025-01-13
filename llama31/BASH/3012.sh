@@ -1,1 +1,0 @@
-curl -X POST \\n  https://api.trello.com/1/cards \\n  -H 'Content-Type: application/json' \\n  -d '{"name": "New Task", "desc": "Task description", "idList": "LIST_ID", "key": "YOUR_API_KEY", "token": "YOUR_API_TOKEN"}'

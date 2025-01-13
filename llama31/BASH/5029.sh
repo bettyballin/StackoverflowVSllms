@@ -1,1 +1,0 @@
-telnet <build_machine_name> 9191

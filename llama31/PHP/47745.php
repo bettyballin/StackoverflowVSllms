@@ -1,0 +1,1 @@
+$rid = t3lib_div::_GP('rid');

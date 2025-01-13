@@ -1,0 +1,1 @@
+use PhpDaemon\Daemon;\n\nclass ScrapeDaemon extends Daemon\n{\n    public function run()\n    {\n        // Execute the scrape job\n        $this->scrape();\n    }\n}\n\n$daemon = new ScrapeDaemon();\n$daemon->start();

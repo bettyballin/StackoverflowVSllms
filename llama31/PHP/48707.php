@@ -1,0 +1,1 @@
+$xml = new SimpleXMLElement($xml_string);\n\n$data_elements = $xml->xpath('//object/data[@type="me"]');\n\nforeach ($data_elements as $data) {\n    echo $data . "\n";\n}

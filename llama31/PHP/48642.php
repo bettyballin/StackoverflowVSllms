@@ -1,0 +1,1 @@
+$mockDB_DataObject = $this->getMock('DB_DataObject', array('factory'));\n$mockDB_DataObject->expects($this->any())\n    ->method('factory')\n    ->with('mytable')\n    ->willReturn($mockTableRepresentation);

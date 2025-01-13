@@ -1,1 +1,0 @@
-mysqldump -u [username] -p[password] [database_name] --routines | mysql -u [username] -p[password] [database_name]

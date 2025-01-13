@@ -1,0 +1,1 @@
+function doSubAction() {\n    if (true) {\n        $backtrace = debug_backtrace();\n        $line = $backtrace[1]['line'];\n        trigger_error("Custom error on line $line", E_USER_WARNING);\n    }\n}

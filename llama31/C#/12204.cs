@@ -1,1 +1,0 @@
-// Clearing parent collection only\nMasterDictionary.Clear();\n\n// Clearing child collections explicitly\nforeach (var listDef in MasterDictionary)\n{\n    listDef.Value.Clear();\n}\nMasterDictionary.Clear();

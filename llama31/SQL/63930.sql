@@ -1,0 +1,1 @@
+SELECT \n  t1.*\nFROM \n  table1 t1\nWHERE \n  t1.id = 1\n  AND t1.id IN (SELECT t2.id FROM table2 t2)\n  AND EXISTS (\n    SELECT 1\n    FROM table3 t3\n    WHERE t3.id2 = t1.id2 AND t3.id3 = t1.id3\n  );

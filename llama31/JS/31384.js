@@ -1,0 +1,1 @@
+function initValidation() {\n    if (Modernizr.input.required && Modernizr.input.minlength) {\n        $("#post-text").rules("add", { required: true, minlength: 5 });\n    }\n}

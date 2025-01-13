@@ -1,1 +1,0 @@
-string sendEmailsFromPassword = "your_application_specific_password";

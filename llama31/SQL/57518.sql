@@ -1,0 +1,1 @@
+UPDATE queue SET version = version + 1 WHERE id = ? AND version = ?;

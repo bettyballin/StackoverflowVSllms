@@ -1,1 +1,0 @@
-int main() {\n  int year = 2008;\n  int month = 1;\n  int day = 10;\n\n  int week_num = getWeekNumber(year, month, day);\n  std::cout << "Week number: " << week_num << std::endl;\n\n  return 0;\n}

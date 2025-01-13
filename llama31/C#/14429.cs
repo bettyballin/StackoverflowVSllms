@@ -1,1 +1,0 @@
-string appDataPath = System.IO.Path.GetFullPath("~/App_Data");\nstring filePath = System.IO.Path.Combine(appDataPath, "test.txt");\nSystem.IO.File.WriteAllText(filePath, "Hello World!");

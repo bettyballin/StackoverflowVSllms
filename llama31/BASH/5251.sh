@@ -1,1 +1,0 @@
-// compile with -O2 optimization\ngcc -O2 -o myprogram myprogram.c

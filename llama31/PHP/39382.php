@@ -1,0 +1,1 @@
+$url = dirname($_SERVER['PHP_SELF']);

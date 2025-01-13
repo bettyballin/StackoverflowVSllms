@@ -1,1 +1,0 @@
-./validate_string.sh "your-test-string"

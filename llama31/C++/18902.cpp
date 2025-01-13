@@ -1,1 +1,0 @@
-int main()\n{\n    B* b = new B();\n    b->DoSomething(); // Now this works\n    delete b;\n    return 0;\n}

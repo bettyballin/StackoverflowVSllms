@@ -1,0 +1,1 @@
+function process_data($data) {\n    if ($data === null) {\n        goto error_handling;\n    }\n    // process data\n    return true;\n\n    error_handling:\n    // handle error, e.g., log error, send notification\n    return false;\n}

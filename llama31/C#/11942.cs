@@ -1,1 +1,0 @@
-// Your C# code\npublic class YourClass\n{\n    public void YourMethod()\n    {\n        Console.WriteLine("Hello, world!");\n    }\n}

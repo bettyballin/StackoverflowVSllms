@@ -1,1 +1,0 @@
-// native extension example (C++ code)\n#include <FlashRuntimeExtensions.h>\n\nFREObject callProprietaryFunction(FREContext ctx, void* funcData, uint32_t argc, FREObject argv[]) {\n    // Call your proprietary function here\n    // ...\n    return FREObject_newObject("result", result);\n}

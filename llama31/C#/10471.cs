@@ -1,1 +1,0 @@
-void Application_AuthenticateRequest(object sender, EventArgs e)\n{\n    if (Context.Request.Headers["X-Requested-With"] == "XMLHttpRequest")\n    {\n        FormsAuthenticationSettings.LoginUrl = string.Empty;\n    }\n}

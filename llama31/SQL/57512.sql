@@ -1,0 +1,1 @@
+BEGIN\n  DBMS_JOB.SUBMIT(\n    job => :job_id,\n    what => 'BEGIN myProc(1,100); END;',\n    next_date => SYSTIMESTAMP,\n    interval => NULL);\n  DBMS_JOB.SUBMIT(\n    job => :job_id,\n    what => 'BEGIN myProc(101,200); END;',\n    next_date => SYSTIMESTAMP,\n    interval => NULL);\n  ...\nEND;

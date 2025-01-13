@@ -1,1 +1,0 @@
-@echo off\nset USER=your_username\nset PASSWORD=your_password\nset DATABASE=your_database\nset HOST=your_host\n\nmysqldump -u %USER% --password=%PASSWORD% %DATABASE% -h %HOST% > backup.sql

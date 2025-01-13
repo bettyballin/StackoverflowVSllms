@@ -1,1 +1,0 @@
-ln -s /usr/lib/python2.4/site-packages /usr/local/lib/python2.6/site-packages

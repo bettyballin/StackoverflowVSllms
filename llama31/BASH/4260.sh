@@ -1,1 +1,0 @@
-# Initialize a Git repository in your project directory\ngit init\n\n# Add all files to the repository\ngit add .\n\n# Commit your changes\ngit commit -m "Initial commit"\n\n# Set up a remote repository (e.g., on GitHub)\ngit remote add origin <your-repo-url>\n\n# Push your changes to the remote repository\ngit push -u origin master

@@ -1,0 +1,1 @@
+SELECT ot.*, bt.BlobData\nFROM OriginalTable ot\nLEFT JOIN BlobTable bt ON ot.BlobID = bt.ID\nWHERE ot.ID = @ID;

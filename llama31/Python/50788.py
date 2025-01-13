@@ -1,0 +1,1 @@
+def outer(x):\n    def inner():\n        return x\n    return inner\n\nclosure = outer(10)\nprint(closure())  # Outputs: 10

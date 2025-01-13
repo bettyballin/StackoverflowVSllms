@@ -1,1 +1,0 @@
-setspn -s http/<IP Address> <Server Name>

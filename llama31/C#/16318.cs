@@ -1,1 +1,0 @@
-CommandText: "GetMemberByID"\nCommandType: StoredProcedure\nParameters:\n  @ID (DbType.Integer) = memberID

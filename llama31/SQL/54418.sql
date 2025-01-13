@@ -1,0 +1,1 @@
+ALTER TABLE my_table ADD (new_column VARCHAR2(20)) ONLINE;

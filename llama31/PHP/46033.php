@@ -1,0 +1,1 @@
+$username = '';\n$key = '';

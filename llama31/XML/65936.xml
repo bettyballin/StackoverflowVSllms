@@ -1,0 +1,1 @@
+<extension point="org.eclipse.ui.workbenchConfigurer">\n   <configurer showMenuIcons="false"/>\n</extension>

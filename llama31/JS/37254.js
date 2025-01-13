@@ -1,0 +1,1 @@
+var div = document.createElement('div');\ndiv.style.height = '150px';\ndiv.style.clear = 'both';\ndocument.body.appendChild(div);

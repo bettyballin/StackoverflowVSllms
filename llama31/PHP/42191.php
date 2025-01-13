@@ -1,0 +1,1 @@
+$string = "Hello World!!\nHow are you?";\necho nl2br(htmlspecialchars($string));

@@ -1,1 +1,0 @@
-string s = null;\nConsole.WriteLine(s != null); // prints: False

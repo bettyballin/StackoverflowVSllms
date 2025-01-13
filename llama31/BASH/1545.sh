@@ -1,1 +1,0 @@
-aspnet_regsql -S <your_local_sql_server_instance> -E -d aspnetdb -f export.sql

@@ -1,0 +1,1 @@
+// In your controller\npublic function myMethod(Request $request)\n{\n    // Validate CSRF token\n    $request->validate([\n        '_token' => 'required|csrf',\n    ]);\n\n    // Process request...\n}

@@ -1,0 +1,1 @@
+Private Sub MyMethod()\n    Try\n        ' Your code here...\n    Catch ex As Exception\n        Console.WriteLine("Error: " & ex.Message)\n        Console.WriteLine("Stack Trace:")\n        Console.WriteLine(ex.StackTrace)\n    End Try\nEnd Sub

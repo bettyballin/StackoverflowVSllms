@@ -1,1 +1,0 @@
-int main() {\n    // program code here\n    if (/* some error condition */) {\n        return 1; // indicate an error\n    }\n    return 0; // successful execution\n}

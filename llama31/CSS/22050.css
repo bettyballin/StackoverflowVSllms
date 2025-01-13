@@ -1,1 +1,0 @@
-.abs-parent {\n  position: absolute;\n  width: 100%; /* add this */\n}\n\n.rel-child {\n  position: relative;\n  width: 50%; /* this should now work */\n}

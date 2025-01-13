@@ -1,0 +1,1 @@
+class Question < ActiveRecord::Base\n  acts_as_list scope: :section_id\n  belongs_to :section\nend

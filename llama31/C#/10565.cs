@@ -1,1 +1,0 @@
-logLine = "e.Value: " + (e.Value?.ToString() ?? "")

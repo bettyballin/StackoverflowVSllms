@@ -1,0 +1,1 @@
+try {\n    // PDO operations here\n} catch(PDOException $e) {\n    echo 'ERROR: ' . $e->getMessage();\n}

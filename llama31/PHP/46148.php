@@ -1,0 +1,1 @@
+$arr = array(\n    "abc" => array("val1", "val2", "val3"),\n    "xyz" => array("val4", "val5", "val6")\n);\n\n$newArr = array();\nforeach ($arr as $key => $values) {\n    foreach ($values as $index => $value) {\n        $newArr[$index][$key] = $value;\n    }\n}\n\nprint_r($newArr);

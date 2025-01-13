@@ -1,0 +1,1 @@
+UPDATE t1\nSET c1 = new_seq\nFROM (\n  SELECT c1, c2,\n         ROW_NUMBER() OVER (ORDER BY c2) AS new_seq\n  FROM t1\n) AS subquery

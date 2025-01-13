@@ -1,1 +1,0 @@
-public class TypeResolver\n{\n    public static Type ResolveType(string typeName)\n    {\n        // Resolve the type from the external assembly\n        Type type = Type.GetType(typeName);\n        return type;\n    }\n}

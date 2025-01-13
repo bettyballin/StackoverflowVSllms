@@ -1,0 +1,1 @@
+Dim myCollection As New PrimitiveCollection(Of Square)\nmyCollection.Add(New Square())\nDim mySquare As Square = myCollection(0)\nConsole.WriteLine(mySquare.SideLength) ' Accessing a derived class member

@@ -1,1 +1,0 @@
-public class BaseClassProxy\n{\n    private BaseClass _baseClass;\n\n    public BaseClassProxy(int someValue)\n    {\n        _baseClass = new BaseClass(someValue);\n    }\n\n    // Delegate all calls to the base class\n    public void SomeMethod()\n    {\n        _baseClass.SomeMethod();\n    }\n}

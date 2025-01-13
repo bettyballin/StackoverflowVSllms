@@ -1,0 +1,1 @@
+const obj = {\n  func: function(x, y) {\n    console.log(x, y);\n  }\n};\nobj.func(1, 2);  // outputs: 1 2

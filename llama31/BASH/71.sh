@@ -1,1 +1,0 @@
-wget -SO- -T 1 -t 1 http://myurl.com:15000/myhtml.html | awk '/^  HTTP/'

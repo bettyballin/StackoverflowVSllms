@@ -1,0 +1,1 @@
+const zxcvbn = require('zxcvbn');\n\nconst password = 'Tr0ub4d3!K1ng';\nconst strength = zxcvbn(password);\n\nconsole.log(strength.score); // 4 (out of 5)\nconsole.log(strength.feedback); // { suggestions: [...], warning: '...' }

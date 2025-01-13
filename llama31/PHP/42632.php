@@ -1,0 +1,1 @@
+$userTimezone = 'America/Chicago'; // example timezone\n$Date = new DateTime($row['time'], new DateTimeZone('UTC')); // instantiate with UTC timezone\n$Date->setTimezone(new DateTimeZone($userTimezone)); // adjust to user's timezone\n$displayDate = $Date->format('Y-m-d H:i:s'); // format for display

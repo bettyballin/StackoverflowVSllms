@@ -1,1 +1,0 @@
-// Generated User entity class\npublic class User\n{\n    public int Id { get; set; }\n    public string Name { get; set; }\n    // ...\n}\n\n// Hand-crafted UserBusiness class\npublic class UserBusiness : User\n{\n    public bool IsActive { get; set; }\n    public void Activate()\n    {\n        // Additional business logic\n    }\n    // ...\n}

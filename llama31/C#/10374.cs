@@ -1,1 +1,0 @@
-using Serilog;\n\npublic class PerformanceMonitor\n{\n    private readonly ILogger _logger;\n\n    public PerformanceMonitor(ILogger logger)\n    {\n        _logger = logger;\n    }\n\n    public void LogPerformanceData(string key, int value)\n    {\n        _logger.Information("Performance data: {key} = {value}", key, value);\n    }\n}

@@ -1,1 +1,0 @@
-void CMyDialog::OnOK()\n{\n    // Example of simple validation\n    CString strName;\n    GetDlgItemText(IDC_NAME, strName);\n    if (strName.IsEmpty())\n    {\n        AfxMessageBox("Please enter your name.");\n        return;\n    }\n\n    // Further validation or processing here...\n\n    // Call base class method if everything is fine\n    CDialog::OnOK();\n}

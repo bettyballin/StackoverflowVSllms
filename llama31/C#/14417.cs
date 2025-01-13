@@ -1,1 +1,0 @@
-class NewCombo : System.Windows.Forms.ComboBox\n{\n    [DefaultValue(50)]\n    public new int DropDownItems\n    {\n        get { return base.DropDownItems; }\n        set { base.DropDownItems = value; }\n    }\n\n    public NewCombo() { DropDownItems = 50; }\n}

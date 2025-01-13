@@ -1,1 +1,0 @@
-_collection = _collection.Where(user => user.IsApproved()).ToList();

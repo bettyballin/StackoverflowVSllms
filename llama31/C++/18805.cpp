@@ -1,1 +1,0 @@
-ref class MyBaseClass {\npublic:\n    virtual void Execute() {}\n};\n\nref class MyDerivedClass : MyBaseClass {\npublic:\n    virtual void Execute() override {} // override the base class method\n};

@@ -1,1 +1,0 @@
-public static string GetFullUrl(HttpContext context)\n{\n    string url = context.Request.ServerVariables["SCRIPT_NAME"];\n    string queryString = context.Request.ServerVariables["QUERY_STRING"];\n    if (queryString != null && queryString.Length > 0)\n        url += "?" + queryString;\n    return url;\n}

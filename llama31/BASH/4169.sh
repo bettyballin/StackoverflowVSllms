@@ -1,1 +1,0 @@
-#!/bin/bash\nset -e\n\nfor i in `seq 0 9`; do\n  doCalculations $i &\ndone\n\nwait

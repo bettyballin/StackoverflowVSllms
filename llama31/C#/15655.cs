@@ -1,1 +1,0 @@
-byte[] encryptedBytes = Convert.FromBase64String("your_base64_encoded_encrypted_password");\nbyte[] key = Convert.FromBase64String("your_base64_encoded_key");\n\nstring decryptedPassword = AESDecryptor.DecryptString(encryptedBytes, key);

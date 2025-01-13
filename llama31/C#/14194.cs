@@ -1,1 +1,0 @@
-using YourProjectName.Properties;\n\n// Get a setting value\nstring settingValue = Settings.Default.anysetting;\n\n// Set a setting value\nSettings.Default.anysetting = "new value";\nSettings.Default.Save();

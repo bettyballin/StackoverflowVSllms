@@ -1,0 +1,1 @@
+# app/controllers/users_controller.rb\nclass UsersController < ApplicationController\n  def index\n    @users = User.all\n  end\n\n  def show\n    @user = User.find(params[:id])\n  end\nend

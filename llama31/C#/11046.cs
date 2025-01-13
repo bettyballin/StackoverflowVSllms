@@ -1,1 +1,0 @@
-unsafe {\n    int* ptr = &myInt;\n    // Use the pointer...\n}

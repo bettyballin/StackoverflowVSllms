@@ -1,1 +1,0 @@
-cp Foo.ear /path/to/glassfish/domains/domain1/autodeploy

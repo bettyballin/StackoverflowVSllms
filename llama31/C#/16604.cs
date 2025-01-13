@@ -1,1 +1,0 @@
-public class BackerEntry\n{\n    // ...\n    public virtual Backer Backer { get; set; }\n}

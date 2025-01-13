@@ -1,0 +1,1 @@
+SELECT * FROM docs\nWHERE FREETEXT(WordHtml, 'beleid', LANGUAGE N'English');

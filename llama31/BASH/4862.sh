@@ -1,1 +1,0 @@
-sqlplus username/password@databasename <<EOF\nexecute some_procedure;\nEOF

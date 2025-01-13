@@ -1,0 +1,1 @@
+import codecs\n\nprice_info = u'it costs \u20ac 5'\nwith codecs.open('priceinfo.txt', 'w', 'utf-8') as f:\n    f.write(price_info)

@@ -1,1 +1,0 @@
-private void webBrowser1_StatusTextChanged(object sender, EventArgs e)\n{\n    if (webBrowser1.StatusText.Contains("Error"))\n    {\n        // Handle error here\n    }\n}

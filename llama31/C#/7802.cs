@@ -1,1 +1,0 @@
-[ScriptMethod]\npublic string GetCurrentDate()\n{\n    return DateTime.Now.ToString();\n}\n\nprotected override void OnPreRender(EventArgs e)\n{\n    // ...\n    sm.RegisterScriptControl(this);\n    sm.EnablePageMethods = true;\n    sm.RegisterScriptMethod(this, "GetCurrentDate");\n}

@@ -1,0 +1,1 @@
+$(document).ready(function() {\n    $('form').attr('target', '_self');\n});

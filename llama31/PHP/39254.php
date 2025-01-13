@@ -1,0 +1,1 @@
+// Example for CodeMirror\n$config = array(\n    ' mode' => 'html',\n    'allowedTags' => array('iframe')\n);

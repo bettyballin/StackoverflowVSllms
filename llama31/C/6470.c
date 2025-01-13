@@ -1,1 +1,0 @@
-HANDLE hThread = CreateThread(NULL, 0, ThreadProc, (LPVOID)dwCookie, 0, NULL);\nif (hThread == NULL) { /* handle error */ }

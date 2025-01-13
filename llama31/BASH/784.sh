@@ -1,1 +1,0 @@
-apt-get install galera-3

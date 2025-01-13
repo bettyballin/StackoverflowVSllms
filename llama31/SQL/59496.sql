@@ -1,0 +1,1 @@
+SELECT id + 1 AS missing_id\nFROM (\n  SELECT id, LAG(id) OVER (ORDER BY id) AS prev_id\n  FROM table1\n) AS subquery\nWHERE id - prev_id > 1\nORDER BY missing_id\nLIMIT 1;

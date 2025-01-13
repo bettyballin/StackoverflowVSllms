@@ -1,0 +1,1 @@
+SELECT COALESCE(\n    (SELECT * FROM UserTable WHERE Name = @UserName),\n    (SELECT * FROM UserTable WHERE Name = 'Jon Skeet')\n)

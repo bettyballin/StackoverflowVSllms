@@ -1,0 +1,1 @@
+$total_results_value = intval((string)$total_results);

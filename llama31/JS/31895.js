@@ -1,0 +1,1 @@
+document.addEventListener('focus', function(event) {\n  console.log('Focus event:', event.target);\n}, true);

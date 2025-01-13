@@ -1,0 +1,1 @@
+require 'Win32API'\n\n# Load the DLL\ndll = Win32API.new('mydll', 'myfunction', ['L'], 'L')\n\n# Call the function\nresult = dll.call(1)

@@ -1,0 +1,1 @@
+Schedule.includes(:assignment).find(params[:id])

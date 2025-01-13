@@ -1,0 +1,1 @@
+const img = new Image();\nimg.src = 'https://cdn.example.com/image.jpg';\nimg.onerror = () => {\n  img.src = 'https://fallback.example.com/image.jpg';\n};\ndocument.body.appendChild(img);

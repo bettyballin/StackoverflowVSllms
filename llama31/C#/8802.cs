@@ -1,1 +1,0 @@
-using (var db = new YourDataContext())\n{\n    var results = db.slot_sp_EngineerTimeslots_Group(propRef, priorityCode, jobLength, timeSlot);\n    var enumerator = results.GetEnumerator();\n\n    while (enumerator.MoveNext())\n    {\n        var result = enumerator.Current;\n        // Process the result set\n    }\n}

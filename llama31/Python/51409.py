@@ -1,0 +1,1 @@
+maxLeftSum = 3\nmaxRightSum = 4

@@ -1,1 +1,0 @@
-public class MyObject\n{\n    public string Property1 { get; set; }\n    public int Property2 { get; set; }\n}\n\n// Deserialize XML to MyObject\nMyObject obj = (MyObject)serialization.Deserialize(xmlStream);

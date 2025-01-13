@@ -1,1 +1,0 @@
-public class MyClass\n{\n    public void MyMethod(int x) { }\n}\n\npublic class Program\n{\n    public static void Main()\n    {\n        var obj = new MyClass();\n        obj. // C# IntelliSense will suggest MyMethod, but may not provide additional info\n    }\n}

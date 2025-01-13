@@ -1,1 +1,0 @@
-@echo off\n\n:: Build your XPI file using PKZip\npkzipc -add your_extension.xpi your_extension_files\n\n:: Sign the XPI file\nsigntool sign /a /fd SHA256 /td SHA256 /tr http://timestamp.comodoca.com/rfc3161 your_extension.xpi\n\n:: Verify the signature\nsigntool verify /pa your_extension.xpi

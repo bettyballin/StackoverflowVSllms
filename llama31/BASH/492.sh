@@ -1,1 +1,0 @@
-sqlldr username/password control=excel_import.ctl

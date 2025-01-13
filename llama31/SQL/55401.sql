@@ -1,0 +1,1 @@
+SELECT id\nFROM Product_Attribute\nWHERE name = <attribute_name> AND is_active = FALSE;\n\n-- if a matching inactive attribute is found, reactivate it\nUPDATE Product_Attribute\nSET is_active = TRUE\nWHERE id = <found_attribute_id>;

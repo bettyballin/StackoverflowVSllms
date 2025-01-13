@@ -1,0 +1,1 @@
+$handle = popen('python last', 'r');\nstream_set_blocking($handle, 0);\n$read = stream_get_contents($handle);\npclose($handle);

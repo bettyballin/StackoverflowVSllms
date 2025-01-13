@@ -1,1 +1,0 @@
-// myheader.h\ninline void myInlineFunction() {\n    printf("Hello from myInlineFunction!\n");\n}\n\n// mysource.c\nvoid myExternFunction() {\n    printf("Hello from myExternFunction!\n");\n}

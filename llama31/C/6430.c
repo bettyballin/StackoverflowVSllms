@@ -1,1 +1,0 @@
-// Example of duplicated calculations\nint result1 = perform_calculation(data);\nint result2 = perform_calculation(data);\nif (result1 != result2) {\n    // Error detected, handle accordingly\n}

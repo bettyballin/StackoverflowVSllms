@@ -1,1 +1,0 @@
-IntPtr dllAddress = DllAddressFinder.GetDllAddress("mydll.dll");

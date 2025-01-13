@@ -1,0 +1,1 @@
+<configuration>\n  <runtime>\n    <assemblyBinding xmlns="urn:schemas-microsoft-com:asm.v1">\n      <dependentAssembly>\n        <assemblyIdentity name="MyCompany.MyDll" publicKeyToken="your_public_key_token" />\n        <bindingRedirect oldVersion="1.0.0.0-1.0.0.0" newVersion="1.0.0.0" />\n      </dependentAssembly>\n    </assemblyBinding>\n  </runtime>\n</configuration>

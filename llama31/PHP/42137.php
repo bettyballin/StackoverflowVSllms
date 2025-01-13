@@ -1,0 +1,1 @@
+$username = strtolower($_POST['username']);\n$query = "SELECT * FROM users WHERE username = '$username'";

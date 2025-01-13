@@ -1,1 +1,0 @@
-#!/bin/sh\n\n# Update the live site\nsvn export --force /home/administrator/Project File/trunk /var/www

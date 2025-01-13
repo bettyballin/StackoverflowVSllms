@@ -1,0 +1,1 @@
+$xml = new SimpleXMLElement('<response/>');\n$xml->addChild('message', 'Hello, World!');\n$xml->addChild('status', 'success');\n\nheader('Content-Type: text/xml');\necho $xml->asXML();

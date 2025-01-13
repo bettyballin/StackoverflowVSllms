@@ -1,0 +1,1 @@
+WITH price_filled AS (\n  SELECT v.date, v.itemid, v.volume_amt,\n         MAX(p.price) OVER (PARTITION BY v.itemid ORDER BY v.date) AS price\n  FROM volume v\n  LEFT JOIN price p ON v.date = p.date AND v.itemid = p.itemid\n)\nSELECT date, price, volume_amt\nFROM price_filled\nORDER BY date;

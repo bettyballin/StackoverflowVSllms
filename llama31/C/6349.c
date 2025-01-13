@@ -1,1 +1,0 @@
-#ifdef __GNUC__\n    /* statement expression is supported */\n#else\n    /* use a function instead */\n#endif

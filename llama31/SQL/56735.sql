@@ -1,0 +1,1 @@
+SELECT tab1.id, tab2.id, tab3.id\nFROM tab1\nLEFT OUTER JOIN tab2 ON tab1.col1 = tab2.col1\nLEFT OUTER JOIN tab3 ON tab2.col2 = tab3.col2;

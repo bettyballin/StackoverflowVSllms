@@ -1,1 +1,0 @@
-unsigned int row_index(unsigned int i, unsigned int M) {\n    return (unsigned int)floor((-1 + sqrt(1 + 8*i)) / 2);\n}\n\nunsigned int column_index(unsigned int i, unsigned int M) {\n    unsigned int row = row_index(i, M);\n    return i - (row * (row + 1)) / 2;\n}

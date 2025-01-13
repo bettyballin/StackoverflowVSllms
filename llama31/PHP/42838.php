@@ -1,0 +1,1 @@
+$mysqli = new mysqli("localhost", "username", "password", "database");\n\n$query = "SELECT A, B FROM Table1 UNION SELECT A, B FROM Table2";\n$result = $mysqli->query($query);\n\nwhile ($row = $result->fetch_assoc()) {\n    echo $row['A'] . ' ' . $row['B'] . "\n";\n}

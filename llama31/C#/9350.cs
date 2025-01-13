@@ -1,1 +1,0 @@
-MailMessage mail = new MailMessage();\nLinkedResource pdf = new LinkedResource(pdfFilePath, "application/pdf");\nmail.AlternateViews.Add(AlternateView.CreateAlternateViewFromString("<a href='cid:pdf'>View PDF</a>", null, MediaTypeNames.Text.Html));\npdf.ContentId = "pdf";\nmail.AlternateViews.Add(new AlternateView(pdf));

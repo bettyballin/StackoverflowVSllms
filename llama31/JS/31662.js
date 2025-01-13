@@ -1,0 +1,1 @@
+// Use JavaScript to add interactivity to the page\ndocument.addEventListener('DOMContentLoaded', function() {\n  // Add event listeners to elements\n  document.querySelector('nav').addEventListener('click', function(event) {\n    // Handle navigation click event\n  });\n});

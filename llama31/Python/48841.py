@@ -1,0 +1,1 @@
+x = [1, 2, 2, 2, 2]\ni = 0\nwhile i < len(x):\n    x.remove(x[i])\n    # Don't increment i here\nprint(x)

@@ -1,0 +1,1 @@
+-- Store the current date format\nDECLARE @currentDateFormat nvarchar(3)\nSELECT @currentDateFormat = dateformat FROM sys.syslanguages WHERE langid = @@langid\n\n-- Change the date format to your desired format (e.g. mdy)\nSET DATEFORMAT mdy\n\n-- Insert your data here...\n\n-- Reset the date format to the original value\nSET DATEFORMAT @currentDateFormat

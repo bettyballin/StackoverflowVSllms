@@ -1,1 +1,0 @@
-int foo(int x) {\n    static int cache[256]; // assuming x is in the range 0-255\n    if (cache[x] != 0) {\n        return cache[x];\n    }\n    // costly operation\n    int result = ...;\n    cache[x] = result;\n    return result;\n}

@@ -1,0 +1,1 @@
+$("li").click(function(event){\n    var current_id = $(this).attr('id');\n    alert(current_id);\n    event.stopPropagation();\n});

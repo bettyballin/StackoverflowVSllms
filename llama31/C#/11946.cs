@@ -1,1 +1,0 @@
-using System.Security.Principal;\n\n// ...\n\nvar identity = new WindowsIdentity("NT AUTHORITY\\ANONYMOUS LOGON");\nvar principal = new WindowsPrincipal(identity);

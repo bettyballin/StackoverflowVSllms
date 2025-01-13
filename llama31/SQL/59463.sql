@@ -1,0 +1,1 @@
+CREATE INDEX idx_Prefix ON YourTable (LEFT(YourLongColumn, 100));

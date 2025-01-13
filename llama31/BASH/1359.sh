@@ -1,1 +1,0 @@
-pdftopng -r 300 input.pdf output.png\nconvert output.png -compress zip output.tiff

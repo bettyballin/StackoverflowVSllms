@@ -1,1 +1,0 @@
-using System.Windows.Forms;\n\n// Get the primary screen\nScreen primaryScreen = Screen.PrimaryScreen;\n\n// Get the resolution of the primary screen\nint width = primaryScreen.Bounds.Width;\nint height = primaryScreen.Bounds.Height;\n\n// Adjust the application's size to fit the primary screen\nForm form = new Form();\nform.Width = width;\nform.Height = height;

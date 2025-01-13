@@ -1,0 +1,1 @@
+// Get the first stylesheet\nconst stylesheet = document.styleSheets[0];\n\n// Update the background color of all elements with the class "example"\nstylesheet.cssRules[0].style.backgroundColor = "red";

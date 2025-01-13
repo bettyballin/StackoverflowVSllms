@@ -1,1 +1,0 @@
-CustomerAllView view = container.Resolve<CustomerAllView>();\nCustomerAllViewModel layoutManager = new CustomerAllViewModel(view);

@@ -1,0 +1,1 @@
+<application xmlns="http://ns.adobe.com/air/application/1.0">\n    ...\n    <allow-http-request-headers-from domain="*" headers="*" />\n    ...\n</application>

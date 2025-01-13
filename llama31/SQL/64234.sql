@@ -1,0 +1,1 @@
+DECLARE @sql nvarchar(max) = '';\nSELECT @sql += 'SELECT ''' + name + ''' AS db, TABLE_NAME FROM ' + name + '.INFORMATION_SCHEMA.COLUMNS WHERE COLUMN_NAME = ''classtypeid'';' \nFROM sys.databases;\nEXEC sp_executesql @sql;

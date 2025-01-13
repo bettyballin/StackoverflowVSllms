@@ -1,1 +1,0 @@
-.div1 {\n  position: relative;\n}\n.div1 .div3 {\n  position: absolute;\n  top: 30px;\n  left: 0px;\n  width: 250px;\n  display: none;\n  background-color: transparent; /* add this line */\n}\n.div1:hover .div3 {\n  display: block;\n}

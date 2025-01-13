@@ -1,1 +1,0 @@
-// foo.h\nclass Foo {\npublic:\n    template <typename F>\n    inline void func(F f) {\n        f(member_);\n    }\n\nprivate:\n    int member_;\n};

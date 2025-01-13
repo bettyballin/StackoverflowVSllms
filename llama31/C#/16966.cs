@@ -1,1 +1,0 @@
-public static void RegisterRoutes(RouteCollection routes)\n{\n    routes.MapPageRoute("Root", "", "~/virtualdir/default.aspx");\n}

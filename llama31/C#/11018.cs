@@ -1,1 +1,0 @@
-// Check for updates\nvar updateService = new UpdateService();\nif (updateService.IsUpdateAvailable())\n{\n    // Apply update\n}

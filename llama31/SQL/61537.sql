@@ -1,0 +1,1 @@
+-- Count the number of rows in the table\nSELECT count(*) FROM table_name;\n\n-- Count the number of rows where the expression '1' is not null\nSELECT count(1) FROM table_name;

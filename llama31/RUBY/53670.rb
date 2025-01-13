@@ -1,0 +1,1 @@
+rank = MathScore.find_by_sql(\n  "select count(*) as rank \n   from (\n     select * from math_scores \n     where score > (select score from high_scores where test_id = 33 \n     AND first_name = 'John' AND last_name = 'Doe'\n   ) \n   order by score desc\n ) as s"\n)\n\nrank_value = rank.first.attributes['rank']

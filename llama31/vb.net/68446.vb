@@ -1,0 +1,1 @@
+Dim list As New List(Of String)\n\n' ... populate the list ...\n\nDim seen As New HashSet(Of String)\n\nFor Each item In list\n    Dim parts = item.Split("-"c)\n    Dim key = parts(0) & "-" & parts(1)\n    If seen.Contains(key) Then\n        ' duplicate found\n    Else\n        seen.Add(key)\n    End If\nNext

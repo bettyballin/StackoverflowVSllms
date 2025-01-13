@@ -1,0 +1,1 @@
+class Dog_Exception extends Exception {\n    public function __toString() {\n        return '';\n    }\n}

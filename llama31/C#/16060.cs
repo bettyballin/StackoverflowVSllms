@@ -1,1 +1,0 @@
-protected override void OnInit(EventArgs e)\n   {\n       base.OnInit(e);\n       if (ViewState.IsItemDirty("ViewState"))\n       {\n           Response.Redirect("ErrorPage.aspx", true);\n       }\n   }

@@ -1,0 +1,1 @@
+map.resources :fruits, :collection => { :list => :get }, :member => { :display => :get }

@@ -1,0 +1,1 @@
+SELECT b.*, NULL AS resp_name\nFROM biglist b\nWHERE NOT EXISTS (SELECT 1 FROM grabname)\nUNION ALL\nSELECT b.*, g.resp_name\nFROM biglist b, grabname g\nORDER BY prnt_item, account_amt\nINTO TEMP xxx WITH NO LOG;

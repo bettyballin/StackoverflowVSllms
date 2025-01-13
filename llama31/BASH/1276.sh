@@ -1,1 +1,0 @@
-# Add a new key to the repository\ngit add username@hostname.pub\ngit commit -m "Add new key for username@hostname"\ngit push origin master\n\n# Run the playbook to deploy the new key\nansible-playbook -i hosts playbook.yml

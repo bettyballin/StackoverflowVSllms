@@ -1,0 +1,1 @@
+<client>\n  <endpoint address="http://service_url"\n            binding="wsHttpBinding"\n            bindingConfiguration="BindingConfig"\n            contract="IServiceContract"\n            behaviorConfiguration="EndpointBehavior">\n    <identity>\n      <servicePrincipalName value="<service_name>/<domain_name>" />\n    </identity>\n  </endpoint>\n</client>

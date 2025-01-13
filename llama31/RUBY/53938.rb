@@ -1,0 +1,1 @@
+FinancialData.group(:category).sum(:amount)

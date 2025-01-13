@@ -1,0 +1,1 @@
+$filter = "content:{value} title:{value}^4.0 path.title:{value}^4.0 description:{value}";\n$filter = str_replace("{value}", "Cheese", $filter);

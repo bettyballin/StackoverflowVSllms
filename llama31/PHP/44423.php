@@ -1,0 +1,1 @@
+$url = 'https://example.com/data/' . hash('sha256', $user_id . $timestamp);

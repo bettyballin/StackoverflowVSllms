@@ -1,0 +1,1 @@
+start = 0\nend = 10\njobs = [(1, 3), (2, 4), (5, 6), (7, 9)]\nprint(find_idle_time(start, end, jobs))  # Output: 4

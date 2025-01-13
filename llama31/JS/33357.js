@@ -1,0 +1,1 @@
+const sanitizedUserId = DOMPurify.sanitize(userId);

@@ -1,1 +1,0 @@
-#left {\n    float: left;\n    width: 500px;\n    display: inline; /* add this */\n}\n\n#right {\n    width: 300px;\n    float: right;\n    padding: 7px;\n    background-color: #F0FCEB;\n    display: inline; /* add this */\n}

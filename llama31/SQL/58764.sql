@@ -1,0 +1,1 @@
+CREATE PROCEDURE sp_InsertAndDelete\nAS\nBEGIN\n    INSERT INTO YourTable (...)\n    VALUES (...)\n\n    DELETE FROM YourTable\n    WHERE Timestamp < DATEADD(day, -30, GETDATE())\nEND

@@ -1,1 +1,0 @@
-table {\n  table-layout: fixed;\n  width: 100%;\n}\n\ntable tr td:nth-child(1) {\n  width: 30%;\n}\n\ntable tr td:nth-child(2) {\n  width: 70%;\n}

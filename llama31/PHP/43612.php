@@ -1,0 +1,1 @@
+<?php\n// Assuming you have a user authentication system in place\n$user_id = $_SESSION['user_id'];\n\n// Validate and sanitize user input\n$status = filter_input(INPUT_POST, 'status', FILTER_SANITIZE_STRING);\n\n// Update user profile data\n$query = "UPDATE users SET status = '$status' WHERE id = '$user_id'";\nmysqli_query($db, $query);\n?>

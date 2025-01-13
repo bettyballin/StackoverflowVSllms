@@ -1,1 +1,0 @@
-using System.Diagnostics;\n\n// Create a new performance counter\nPerformanceCounter cpuUsage = new PerformanceCounter("Processor", "% Processor Time", "_Total");\n\n// Get the current value\nfloat currentValue = cpuUsage.NextValue();\n\n// Print the value\nConsole.WriteLine(currentValue);

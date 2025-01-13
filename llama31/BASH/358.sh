@@ -1,1 +1,0 @@
-sshfs -o ssh_command="ssh -i /path/to/private/key root@remote_host 'su -c \"sshfs-server\" username'" remote_host:/path/to/mountpoint /local/mountpoint

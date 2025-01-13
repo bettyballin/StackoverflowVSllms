@@ -1,0 +1,1 @@
+INSERT INTO destination (A, B, C)\nSELECT s.a1, s.b1, s.c1\nFROM source s\nLEFT JOIN destination d\nON s.a1 = d.A\nWHERE d.A IS NULL;

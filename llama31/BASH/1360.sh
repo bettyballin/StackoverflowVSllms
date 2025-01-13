@@ -1,1 +1,0 @@
-pdftotiff -r 300 -c zip input.pdf output.tiff

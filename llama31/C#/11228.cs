@@ -1,1 +1,0 @@
-if (Request.Form.TryGetValue("inputName", out string value))\n{\n    // Process the input value here\n}

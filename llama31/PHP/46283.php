@@ -1,0 +1,1 @@
+$configFile = __DIR__ . '/config.ini';

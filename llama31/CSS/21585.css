@@ -1,1 +1,0 @@
-.mainpanel {\n  display: grid;\n  grid-template-columns: repeat(3, 1fr);\n  grid-gap: 10px;\n}\n\n.mainpanel div {\n  background-color: #f0f0f0;\n  padding: 5px;\n}

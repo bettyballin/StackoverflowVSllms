@@ -1,0 +1,1 @@
+# LocalSettings.php\n\n# Enable Lockdown extension\nwfLoadExtension( 'Lockdown' );\n\n# Restrict access to the "Product Information" page\n$wgLockdownRules[] = array(\n    'page' => 'Product Information',\n    'permissions' => array( 'read' => array( 'sysop', 'product-team' ) )\n);

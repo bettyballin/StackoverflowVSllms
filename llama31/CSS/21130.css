@@ -1,1 +1,0 @@
-.chat-container {\n  position: relative;\n  height: 100vh; /* adjust the height as needed */\n}\n\n.footer {\n  position: absolute;\n  bottom: 0;\n  left: 0;\n  width: 100%;\n  padding: 10px;\n  background-color: #f0f0f0;\n  border-top: 1px solid #ccc;\n}

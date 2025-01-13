@@ -1,0 +1,1 @@
+data : JSON.stringify({\n    id : '1',\n    data : '<p>This is a test of the system that shows me an alert !</p>'\n})

@@ -1,1 +1,0 @@
-using System;\nusing System.IO;\n\nclass TiffImageSaver\n{\n    public void SaveTiffImage(string filePath, byte[] tiffImageData)\n    {\n        using (FileStream fs = new FileStream(filePath, FileMode.Create, FileAccess.Write))\n        {\n            fs.Write(tiffImageData, 0, tiffImageData.Length);\n        }\n    }\n}

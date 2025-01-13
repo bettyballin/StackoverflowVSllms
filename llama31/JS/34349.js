@@ -1,0 +1,1 @@
+elem.nextElementSibling.style.display = 'none';

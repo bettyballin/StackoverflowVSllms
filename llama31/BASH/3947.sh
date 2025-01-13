@@ -1,1 +1,0 @@
-XDEBUG_CONFIG="remote_enable=1 remote_port=9000 remote_host=localhost"

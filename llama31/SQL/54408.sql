@@ -1,0 +1,1 @@
+SELECT \n    TaskID, \n    STUFF((SELECT ', ' + Name \n           FROM YourTable AS t2 \n           WHERE t2.TaskID = t1.TaskID \n           FOR XML PATH('')), 1, 2, '') AS PeopleAssigned\nFROM \n    YourTable AS t1\nGROUP BY \n    TaskID

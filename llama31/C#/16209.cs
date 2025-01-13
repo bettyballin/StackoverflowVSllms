@@ -1,1 +1,0 @@
-var endpointBehavior = new EndpointBehavior("MyCustomEndpointBehavior");\nvar clientCredentials = new CentralAuthClientCredentials(endpointBehavior);

@@ -1,0 +1,1 @@
+Dim xmlDoc\nSet xmlDoc = CreateObject("MSXML2.DOMDocument")\n\nxmlDoc.Load "C:\path\to\your\file.log"\nIf xmlDoc.parseError.errorCode = 0 Then\n    ' File loaded successfully\n    WScript.Echo xmlDoc.documentElement.xml\nElse\n    ' Error loading file\n    WScript.Echo "Error loading file: " & xmlDoc.parseError.errorCode\nEnd If

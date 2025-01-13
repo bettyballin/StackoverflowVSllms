@@ -1,1 +1,0 @@
-int main() {\n    MyApp::ApplicationClass* pApp = new MyApp::ApplicationClass();\n    DWORD dwPID = GetPIDFromCOMObject(pApp); // Using the function above\n    std::cout << "PID: " << dwPID << std::endl;\n    return 0;\n}

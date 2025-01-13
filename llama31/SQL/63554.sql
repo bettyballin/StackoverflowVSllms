@@ -1,0 +1,1 @@
+SELECT \n  A.id AS aid, \n  GROUP_CONCAT(B.id) AS bid\nFROM \n  A\n  LEFT JOIN B ON B.aid = A.id\nWHERE \n  A.id = 1\nGROUP BY \n  A.id

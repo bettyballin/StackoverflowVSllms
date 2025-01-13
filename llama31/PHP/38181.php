@@ -1,0 +1,1 @@
+// Assuming you want to delete a cookie named 'my_cookie'\nsetcookie('my_cookie', '', time() - 3600, '/');

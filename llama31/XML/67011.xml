@@ -1,0 +1,1 @@
+<connectionStrings>\n    <add name="YourConnectionString"\n         connectionString="Data Source=YourServer;Initial Catalog=YourDatabase;Integrated Security=True;Connect Timeout=30;Command Timeout=30"\n         providerName="System.Data.SqlClient" />\n</connectionStrings>

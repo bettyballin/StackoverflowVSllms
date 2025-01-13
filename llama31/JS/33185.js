@@ -1,0 +1,1 @@
+${user.isAdmin ? 'true' : 'false'}

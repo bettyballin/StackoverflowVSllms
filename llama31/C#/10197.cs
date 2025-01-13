@@ -1,1 +1,0 @@
-string logFilePath = HostingEnvironment.MapPath("~/VirtualDirectory/SomeLog.log");

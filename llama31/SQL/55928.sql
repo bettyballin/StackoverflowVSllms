@@ -1,0 +1,1 @@
+SELECT nr.*\nFROM node_revisions nr\nJOIN (SELECT MAX(timestamp) as max_timestamp FROM node_revisions WHERE nid = 51) as sub\nON nr.timestamp = sub.max_timestamp\nAND nr.nid = 51;

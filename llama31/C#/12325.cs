@@ -1,1 +1,0 @@
-public static int[] FindIndexes(string source, string pattern, bool ignoreCase)\n{\n    if (ignoreCase)\n    {\n        source = source.ToLower();\n        pattern = pattern.ToLower();\n    }\n    // ... rest of the implementation remains the same\n}

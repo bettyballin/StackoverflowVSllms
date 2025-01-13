@@ -1,1 +1,0 @@
-client.DefaultRequestHeaders.Authorization = new AuthenticationHeaderValue("Bearer", "your_token");

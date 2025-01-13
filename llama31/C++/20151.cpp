@@ -1,1 +1,0 @@
-#include <iostream>\n#include <climits>\n\nint main() {\n    unsigned long value1 = LONG_MAX;\n    std::cout << "value1: " << value1 << std::endl;\n\n    unsigned short value2 = value1; // This should generate a warning\n    std::cout << "value2: " << value2 << std::endl;\n\n    return 0;\n}

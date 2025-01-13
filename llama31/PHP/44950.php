@@ -1,0 +1,1 @@
+echo "<p>" . htmlspecialchars(basename($curimg)) . "</p>\n";

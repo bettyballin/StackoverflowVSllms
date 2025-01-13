@@ -1,0 +1,1 @@
+SELECT \n  FLOOR(mynum / 3) * 3 AS interval_start,\n  FLOOR(mynum / 3) * 3 + 2 AS interval_end,\n  COUNT(*) AS count\nFROM \n  mytable\nGROUP BY \n  FLOOR(mynum / 3)\nORDER BY \n  interval_start;

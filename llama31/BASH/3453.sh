@@ -1,1 +1,0 @@
-for feed in feed1.xml feed2.xml ...; do\n    # Process the feed\ndone

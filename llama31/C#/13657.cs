@@ -1,1 +1,0 @@
-// Validate user input to prevent XSS\nstring userInput = Request.QueryString["input"];\nif (!string.IsNullOrEmpty(userInput))\n{\n    // Use SharePoint's built-in encoding to prevent XSS\n    string encodedInput = SPUtility.HtmlEncode(userInput);\n    // Use the encoded input in your code\n}

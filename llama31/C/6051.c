@@ -1,1 +1,0 @@
-#include <pwd.h>\n#include <sys/stat.h>\n\n- (uid_t)getConsoleUserID {\n    struct stat statbuf;\n    stat("/dev/console", &statbuf);\n    uid_t uid = statbuf.st_uid;\n    return uid;\n}

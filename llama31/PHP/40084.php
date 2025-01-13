@@ -1,0 +1,1 @@
+if (array_key_exists('checkbox_name', $_POST)) {\n    $checkbox_value = $_POST['checkbox_name'];\n} else {\n    $checkbox_value = ''; // or some other default value\n}

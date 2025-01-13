@@ -1,1 +1,0 @@
-slookup <FQDN_of_SQL_Server>

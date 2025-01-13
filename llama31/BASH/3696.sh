@@ -1,1 +1,0 @@
-pandoc -s input.docx -t xml -o output.xml

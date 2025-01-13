@@ -1,1 +1,0 @@
-:: On the old server\ncscript iiscnfg.vbs /export /f "C:\IISConfig.xml"\n\n:: On the new server\ncscript iiscnfg.vbs /import /f "C:\IISConfig.xml"

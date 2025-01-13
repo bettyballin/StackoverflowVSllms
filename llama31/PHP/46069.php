@@ -1,0 +1,1 @@
+$db = new PDO('mysql:host=yourHost;dbname=yourDatabase', 'yourUsername', 'yourPassword');\n\n// Prepare the insert statement\n$stmt = $db->prepare('INSERT INTO yourTable (column1, column2) VALUES (:value1, :value2)');\n\n// Inside the XMLReader loop\n$stmt->execute(array(':value1' => $xmlReader->getAttribute('yourAttribute1'), ':value2' => $xmlReader->readString()));

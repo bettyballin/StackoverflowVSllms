@@ -1,0 +1,1 @@
+Route::get('articles/{slug}', 'ArticleController@show');\nRoute::get('galleries/{id}', 'GalleryController@show');

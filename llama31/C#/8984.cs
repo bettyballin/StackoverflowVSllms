@@ -1,1 +1,0 @@
-GridView1.ShowFooter = true;\n\n// Create a new FooterRow\nGridViewRow footerRow = new GridViewRow(0, 0, DataControlRowType.Footer, DataControlRowState.Insert);\n\n// Add cells to the FooterRow\nTableCell cell = new TableCell();\ncell.Text = "Your text here";\nfooterRow.Cells.Add(cell);\n\n// Add the FooterRow to the GridView\nGridView1.Controls[0].Controls.Add(footerRow);

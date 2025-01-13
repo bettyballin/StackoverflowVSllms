@@ -1,1 +1,0 @@
-var nextExample = dbContext.Examples\n    .Where(e => e.ExampleID == exampleID)\n    .Let(currentExample => dbContext.Examples\n        .Where(e => e.TopicID == currentExample.TopicID && e.ExampleOrder > currentExample.ExampleOrder)\n        .OrderBy(e => e.ExampleOrder)\n        .FirstOrDefault());

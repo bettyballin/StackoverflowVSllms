@@ -1,0 +1,1 @@
+$(document).ready(function() {\n  $('.cats_showall').click(function() {\n    $(this).parent().siblings().slideToggle();\n  });\n});

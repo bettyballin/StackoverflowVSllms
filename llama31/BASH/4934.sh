@@ -1,1 +1,0 @@
-curl -X GET 'https://api.opencnam.org/v1/lookup?number=+1234567890'

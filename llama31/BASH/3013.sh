@@ -1,1 +1,0 @@
-lvchange -ay /dev/vg_name/lv_name

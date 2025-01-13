@@ -1,1 +1,0 @@
-# Create a new feature branch\ngit checkout -b feature/new-feature\n\n# Develop and test the new feature\n# ...\n\n# Merge the feature branch into the main branch\ngit merge feature/new-feature\n\n# Tag the release\ngit tag v1.2.0\n\n# Push the changes to the CI/CD pipeline\ngit push origin v1.2.0\n\n# The CI/CD pipeline will build, test, and deploy the new versio

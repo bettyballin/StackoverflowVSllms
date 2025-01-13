@@ -1,0 +1,1 @@
+<configuration>\n    <system.web>\n        <identity impersonate="true" />\n        <aspnet:AllowAnonymousImpersonation enabled="true" />\n    </system.web>\n</configuration>

@@ -1,0 +1,1 @@
+$('.radio-wrapper').on('click', function() {\n  var dropdown = $(this).find('select');\n  if (dropdown.is(':disabled')) {\n    dropdown.removeAttr('disabled');\n  }\n});

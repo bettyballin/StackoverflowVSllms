@@ -1,0 +1,1 @@
+$new_array = array_intersect_key($arr2, $arr1);\n\nforeach ($new_array as $key => $val) {\n    if (is_array($arr1[$key])) {\n        if (is_array($val)) {\n            $new_array[$key] = array_merge($arr1[$key], $val);\n        } else {\n            $new_array[$key] = $arr1[$key];\n        }\n    }\n}

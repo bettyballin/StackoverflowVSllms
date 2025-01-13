@@ -1,0 +1,1 @@
+$ch = curl_init("https://nexus.passport.com/rdr/pprdr.asp");\ncurl_setopt($ch, CURLOPT_RETURNTRANSFER, true);\n$response = curl_exec($ch);\necho $response;

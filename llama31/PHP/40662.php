@@ -1,0 +1,1 @@
+$content = mysqli_real_escape_string($mysqli, $_POST['content']);

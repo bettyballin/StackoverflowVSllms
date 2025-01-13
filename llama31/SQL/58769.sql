@@ -1,0 +1,1 @@
+CREATE FULLTEXT INDEX ON dbo.Card (Description);\n\nDECLARE @tblKeyword TABLE (Value VARCHAR(50));\n\nINSERT INTO @tblKeyword (Value)\nVALUES ('warrior'), ('fiend'), ('damage');\n\nSELECT Id, Name, Description\nFROM dbo.Card\nWHERE CONTAINS(Description, (SELECT Value FROM @tblKeyword FOR XML PATH('')));

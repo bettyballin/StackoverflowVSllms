@@ -1,0 +1,1 @@
+use Zend\Db\Sql\Sql;\n\n// Update user's language in database\n$sql = new Sql($dbAdapter);\n$update = $sql->update('users', array('lang' => $userLang), array('id' => $userId));

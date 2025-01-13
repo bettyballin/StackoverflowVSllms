@@ -1,1 +1,0 @@
-std::multimap<std::string, std::string> mmap;\nstd::list<std::multimap<std::string, std::string>::iterator> list;\n\n// Insert the new element and get the iterator\nauto it = mmap.insert(std::make_pair("foo1", "test"));\nlist.push_back(it);

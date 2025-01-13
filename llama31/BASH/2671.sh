@@ -1,1 +1,0 @@
-eps2svg input.eps output.svg\nxamlune output.svg output.xaml

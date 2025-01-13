@@ -1,0 +1,1 @@
+if($form_submitted) {\n    ...\n    setcookie('type_id', $new_type_id, time() + 60*60*24*30);\n    header("Refresh: 0; url=$url");\n    exit;\n}

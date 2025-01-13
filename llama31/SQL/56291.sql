@@ -1,0 +1,1 @@
+SELECT \n  CONCAT(\n    SUBSTRING_INDEX(column, 'news', 1),\n    'news',\n    SUBSTRING_INDEX(SUBSTRING_INDEX(column, 'news', -1), ' ', 1)\n  ) AS teaser\nFROM table\nWHERE column LIKE '%news%';

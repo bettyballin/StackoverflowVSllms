@@ -1,0 +1,1 @@
+require 'active_support/time'\n\nt = Time.now\nt.advance(months: 1)

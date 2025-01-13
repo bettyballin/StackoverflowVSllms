@@ -1,0 +1,1 @@
+For Each item As Object In collection\n    Console.WriteLine(item)\nNext

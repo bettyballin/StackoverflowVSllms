@@ -1,1 +1,0 @@
-// Assume the ASP.NET application is running on C:\WebSites\MyWebSite\n\nstring path1 = Server.MapPath(".");  // returns C:\WebSites\MyWebSite\nstring path2 = Server.MapPath("~");  // returns C:\WebSites\MyWebSite\nstring path3 = Server.MapPath(@"\"); // returns C:\\nstring path4 = Server.MapPath("/");  // returns C:\WebSites\MyWebSite

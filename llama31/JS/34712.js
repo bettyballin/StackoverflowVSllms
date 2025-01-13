@@ -1,0 +1,1 @@
+// Example JavaScript file\nconsole.log("Hello World!");

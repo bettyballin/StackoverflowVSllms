@@ -1,1 +1,0 @@
-Font originalFont = new Font("Arial", 12);\nFont resizedFont = new Font(originalFont.FontFamily, 14, originalFont.Style);

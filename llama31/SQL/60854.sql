@@ -1,0 +1,1 @@
+CREATE FUNCTION DeleteHierarchy (@Id INT)\nRETURNS INT\nAS\nBEGIN\n    DECLARE @RowCount INT = 1;\n\n    WHILE @RowCount > 0\n    BEGIN\n        DELETE FROM YourTable\n        WHERE PARENT_ID = @Id;\n\n        SET @RowCount = @@ROWCOUNT;\n        SET @Id = (SELECT TOP 1 ID FROM YourTable WHERE PARENT_ID = @Id);\n    END;\n\n    RETURN 0;\nEND;

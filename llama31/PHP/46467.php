@@ -1,0 +1,1 @@
+// Create a new connection using mysqli_connect\n$link_mysqli = new mysqli('localhost', 'username', 'password', 'database');

@@ -1,1 +1,0 @@
-gcc -pg -o myapp myapp.cpp

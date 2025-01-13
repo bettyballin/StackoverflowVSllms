@@ -1,0 +1,1 @@
+USE Mydatabase\nGO\n\nEXECUTE AS USER = 'Test'\nGO\n\nSELECT * FROM fn_my_permissions('MyView', 'OBJECT')\nGO\n\nREVERT\nGO

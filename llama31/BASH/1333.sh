@@ -1,1 +1,0 @@
-# profiling.sh\njava -agentlib:profiler=cpu, sampling.period=10 -jar myapp.jar arg1 arg2

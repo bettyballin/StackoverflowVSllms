@@ -1,0 +1,1 @@
+$output = array();\nexec('ps -o user= -p ' . getmypid(), $output);\n$apacheUser = trim($output[0]);\n\necho "Apache User: " . $apacheUser;

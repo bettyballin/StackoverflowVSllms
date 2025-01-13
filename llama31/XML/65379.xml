@@ -1,0 +1,1 @@
+<junit forkMode="perTest" fork="yes">\n    <!-- your test class and other settings here -->\n</junit>

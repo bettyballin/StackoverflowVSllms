@@ -1,0 +1,1 @@
+SELECT * \nFROM sys.server_principals\nWHERE type = 'S' OR type = 'U';

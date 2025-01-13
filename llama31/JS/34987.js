@@ -1,0 +1,1 @@
+equalHeights(document.getElementById('container'));

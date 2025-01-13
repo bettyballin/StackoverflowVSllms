@@ -1,1 +1,0 @@
-php -d include_path=/path/to/propel/lib -f propel-gen ./ creole

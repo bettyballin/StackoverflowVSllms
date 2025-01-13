@@ -1,0 +1,1 @@
+GRANT CREATE PROCEDURE TO your_schema_name;

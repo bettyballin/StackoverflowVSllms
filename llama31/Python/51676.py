@@ -1,0 +1,1 @@
+DATABASES = {\n    'default': {\n        'ENGINE': 'django.db.backends.postgresql_psycopg2',\n        # ...\n        'TEST': {\n            'ENGINE': 'django.db.backends.postgresql_psycopg2',\n            # ...\n        }\n    }\n}

@@ -1,0 +1,1 @@
+$absolutePath = realpath(__FILE__);\necho $absolutePath;

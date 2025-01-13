@@ -1,1 +1,0 @@
-var attachmentPart = new MimePart("text/csv");\nattachmentPart.ContentDisposition = new ContentDisposition("attachment");\nattachmentPart.ContentDisposition.FileName = "example.csv";\nattachmentPart.Content = new StreamContent(File.OpenRead(attachment));\n\nmailMessage.AlternateViews.Add(attachmentPart);

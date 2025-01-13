@@ -1,0 +1,1 @@
+ALTER DATABASE [your_database_name] SET ENCRYPTION ON

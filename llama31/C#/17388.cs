@@ -1,1 +1,0 @@
-var query = dbContext.MyTable.AsQueryable();\nvar allData = query.ToList();\n\n// manipulate the data using LINQ\nvar processedData = allData.Where(x => x.Condition == true)\n                           .Select(x => new { x.Column1, x.Column2 });

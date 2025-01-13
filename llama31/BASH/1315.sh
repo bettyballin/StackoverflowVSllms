@@ -1,1 +1,0 @@
-apache\bin\httpd.exe -k restart

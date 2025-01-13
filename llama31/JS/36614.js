@@ -1,0 +1,1 @@
+var myArray = [\n  {id: 1, name: 'John'},\n  {id: 2, name: 'Jane'}\n];\n\nvar json = myArray.toJSON();\nconsole.log(json);

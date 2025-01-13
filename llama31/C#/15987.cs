@@ -1,1 +1,0 @@
-OracleConfiguration.TnsAdmin = @"C:\path\to\tnsnames.ora";

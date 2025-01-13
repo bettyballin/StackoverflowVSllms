@@ -1,1 +1,0 @@
-// internal_linkage.cpp\nstatic int x = 5; // internal linkage\n\nint main() {\n    return x;\n}

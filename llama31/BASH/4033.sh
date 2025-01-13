@@ -1,1 +1,0 @@
-mysqldump -h your_host -u your_user -p your_password your_database --compatible=ansi --skip-extended-insert > dump.sql

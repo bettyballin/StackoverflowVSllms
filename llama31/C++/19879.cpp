@@ -1,1 +1,0 @@
-#include <Windows.h>\n\nint main() {\n    HWND hWnd = GetConsoleWindow();\n    if (hWnd) {\n        ShowWindow(hWnd, SW_HIDE);\n    }\n    // rest of your code\n    return 0;\n}

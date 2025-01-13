@@ -1,1 +1,0 @@
-dumpbin /DEPENDENTS yourapp.exe

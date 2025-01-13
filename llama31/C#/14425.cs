@@ -1,1 +1,0 @@
-[Authorize(Roles = "Admin, Moderator")]\npublic ActionResult MyAction()\n{\n    // Only accessible to users with the Admin or Moderator roles\n}

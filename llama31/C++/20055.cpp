@@ -1,1 +1,0 @@
-LIBRARY DLLCLASS\n\nEXPORTS\n    ??0MyClass@QEAA@XZ  ; constructor\n    ??1MyClass@QEAA@XZ  ; destructor\n    ?myMethod@MyClass@QEAAXXZ  ; myMethod

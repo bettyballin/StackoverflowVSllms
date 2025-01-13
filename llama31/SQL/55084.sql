@@ -1,0 +1,1 @@
+INSERT INTO roles (name) VALUES ('Client Management');\nINSERT INTO roles (name) VALUES ('Invoice Management');\nINSERT INTO roles (name) VALUES ('View Report');

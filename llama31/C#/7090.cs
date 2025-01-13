@@ -1,1 +1,0 @@
-DateTime dateTime = new DateTime(2009, 4, 1, 8, 0, 0);\nstring dateOnly = dateTime.ToString("M/d/yyyy");\n\nConsole.WriteLine(dateOnly); // prints 4/1/2009

@@ -1,1 +1,0 @@
-DirectoryEntry directoryEntry = new DirectoryEntry("LDAP://your-ldap-server", "username", "password");\n\ntry\n{\n    directoryEntry.Bind();\n    // Connection was successful\n}\ncatch (DirectoryServicesCOMException ex)\n{\n    // Connection failed\n}

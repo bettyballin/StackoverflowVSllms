@@ -1,1 +1,0 @@
-type C:\path\to\file

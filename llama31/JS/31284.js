@@ -1,0 +1,1 @@
+// Client-side (checkout page)\nconst token = generateUUID();\nsessionStorage.setItem('orderToken', token);\n\n// Server-side (place order endpoint)\nconst token = req.body.token;\nif (token !== sessionStorage.getItem('orderToken')) {\n  // Reject duplicate order\n}

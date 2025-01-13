@@ -1,1 +1,0 @@
-pdf2img \\n  -dNOPAUSE \\n  -dBATCH \\n  -dSAFER \\n  -sDEVICE=png256 \\n  -dGraphicsAlphaBits=4 \\n  -dTextAlphaBits=4 \\n  -dDOINTERPOLATE \\n  -dAlignToPixels=1 \\n  -r300x300 \\n  -sOutputFile=GLOSS.png \\n  -dFirstPage=1 \\n  -dLastPage=9999 \\n  -dPageHeight=-1 \\n  -dPageWidth=WIDTH_OF_PAGE \\n  GLOSS.pdf

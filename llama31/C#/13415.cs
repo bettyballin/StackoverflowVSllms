@@ -1,1 +1,0 @@
-public void StoreUsingKey<T>(T value) where T : class {\n    var idModel = value as IIDModel;\n    if (idModel != null)\n        Store<IIDModel>(idModel);\n\n    AddToCacheUsingKey(value);\n}\n\npublic void Store<T>(T value) where T : IIDModel {\n    AddModelToCache(value);\n}

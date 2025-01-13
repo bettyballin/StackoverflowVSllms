@@ -1,0 +1,1 @@
+SELECT t2.fragment\nFROM table1 t1\nJOIN table2 t2 ON t1.string >= t2.fragment\nLEFT JOIN table2 t3 ON t3.fragment > t2.fragment AND t3.fragment LIKE 'g%'\nWHERE t1.string = 'gumby' AND (t3.fragment IS NULL OR t1.string < t3.fragment);

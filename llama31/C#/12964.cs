@@ -1,1 +1,0 @@
-TfsClientCredentials credentials = new TfsClientCredentials();\ncredentials.WindowsCredential = new System.Net.NetworkCredential("your-username", "your-password");\nteamProjectCollection = new TfsTeamProjectCollection("http://your-tfs-server:8080/tfs", credentials);

@@ -1,0 +1,1 @@
+require 'selenium-webdriver'\n\n# Load test environment\nRails.env = 'test'\n\n# Create a new Selenium WebDriver instance\ndriver = Selenium::WebDriver.for :chrome

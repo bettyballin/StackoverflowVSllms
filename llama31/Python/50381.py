@@ -1,0 +1,1 @@
+import sys\nimport pkg_resources\n\n# Add the egg to the sys.path\nsys.path.insert(0, '/path/to/egg.egg')\n\n# Use pkg_resources to declare the egg as a requirement\npkg_resources.require('my_egg')\n\n# Now you can import the extension module\nimport my_extensio

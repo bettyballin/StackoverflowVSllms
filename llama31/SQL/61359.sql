@@ -1,0 +1,1 @@
+TRUNCATE TABLE tbltable1;\nINSERT INTO tbltable1\nSELECT * FROM tbltable1_Link;

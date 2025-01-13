@@ -1,0 +1,1 @@
+TO_CHAR(v_date, 'ISO')

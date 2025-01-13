@@ -1,1 +1,0 @@
-string input = "AABCD";\nvar frequencies = GetCharacterFrequencies(input);\nforeach (var kvp in frequencies)\n{\n    Console.WriteLine($"Character '{kvp.Key}' appears {kvp.Value} times.");\n}

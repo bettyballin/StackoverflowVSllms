@@ -1,1 +1,0 @@
-var results = db.myTable\n    .GroupBy(r => r.title)\n    .Select(g => new\n    {\n        title = g.Key,\n        f1Count = g.Count(r => r.f1 == 1),\n        f2Count = g.Count(r => r.f2 == 1),\n        f3Count = g.Count(r => r.f3 == 1)\n    })\n    .ToList();

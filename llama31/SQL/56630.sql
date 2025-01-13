@@ -1,0 +1,1 @@
+SELECT value, attribute_definition_id, value_rk\nFROM (\n  SELECT value, attribute_definition_id, value_rk,\n         (SELECT MIN(value_rk) FROM attribute_values AS av2 WHERE av2.value = av1.value) AS min_value_rk\n  FROM attribute_values AS av1\n) AS subquery\nWHERE value_rk = min_value_rk\nORDER BY attribute_definition_id;

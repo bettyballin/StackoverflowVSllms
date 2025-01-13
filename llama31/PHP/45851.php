@@ -1,0 +1,1 @@
+$galleries = array(1, 2, 5);\n\n// Convert the array to a comma-separated string\n$galleryIds = implode(',', array_map('intval', $galleries));\n\n// Prepare the SQL query\n$sql = 'SELECT * FROM galleries WHERE id IN (:ids)';\n$sth = $pdo->prepare($sql);\n$sth->bindParam(':ids', $galleryIds);\n$sth->execute();\n\n// Fetch the results\n$result = $sth->fetchAll();

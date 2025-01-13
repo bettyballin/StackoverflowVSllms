@@ -1,1 +1,0 @@
-private void MainForm_Load(object sender, EventArgs e)\n{\n    myGameCountLbl = new Label(); // Initialize the label here\n    // ...\n}

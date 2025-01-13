@@ -1,0 +1,1 @@
+container.innerHTML = '';\ncontainer.innerHTML = content;

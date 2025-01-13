@@ -1,1 +1,0 @@
-public static Gauss operator + (Gauss a, Gauss b) {\n    double mean = a.mean + b.mean;\n    double variance = a.variance + b.variance;\n    return new Gauss(mean, variance);\n}

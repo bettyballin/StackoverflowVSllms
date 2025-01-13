@@ -1,0 +1,1 @@
+header('Content-Type: text/html; charset=UTF-8');\n\n// Database connection example (PDO)\n$dbh = new PDO('mysql:host=localhost;dbname=example', 'username', 'password');\n$dbh->exec('SET NAMES utf8');

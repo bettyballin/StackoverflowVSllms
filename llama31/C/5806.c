@@ -1,1 +1,0 @@
-struct tcp_header {\n    uint16_t src_port;  // Source port\n    uint16_t dst_port;  // Destination port\n    uint32_t seq_num;   // Sequence number\n    uint32_t ack_num;   // Acknowledgment number\n    // ...\n};

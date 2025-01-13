@@ -1,1 +1,0 @@
-template<class T, T initial_t> class Bar {\n  // something\n};\n\n// Using nullptr (C++11 and later)\nBar<Foo*, nullptr> foo_and_bar_whatever_it_means_;\n\n// Using a constant pointer expression\nBar<Foo*, (Foo*)0> foo_and_bar_whatever_it_means_;

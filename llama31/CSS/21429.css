@@ -1,1 +1,0 @@
-td a.fullcell::before {\n  content: '';\n  display: block;\n  width: 100%;\n  height: 100%;\n  margin: -1px; /* adjust the margin to match the cell's padding */\n}

@@ -1,0 +1,1 @@
+SELECT date_and_time + INTERVAL '30' MINUTE\nFROM your_table;

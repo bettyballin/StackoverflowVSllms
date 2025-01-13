@@ -1,0 +1,1 @@
+$handle = popen('python last 2>&1', 'r');\n$read = fread($handle, 4096);\nprint_r($read);\npclose($handle);

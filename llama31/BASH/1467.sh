@@ -1,1 +1,0 @@
-bcp "mytable" in "C:\mytable.csv" -c -S myprodserver -U myusername -P mypassword

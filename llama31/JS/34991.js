@@ -1,0 +1,1 @@
+var ActiveXObject = window.ActiveXObject;\nvar XMLHttpRequest = window.XMLHttpRequest;\nvar alert = window.alert;\nvar handleAjaxResponse = window.handleAjaxResponse;

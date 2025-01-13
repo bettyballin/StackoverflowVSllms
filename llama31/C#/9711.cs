@@ -1,1 +1,0 @@
-MyWcfApplication\nMyWcfApplication.Services\nMyService.cs\nIMyService.cs\nMyWcfApplication.BusinessLogic\nMyBusinessLogic.cs\nMyWcfApplication.Data\nMyRepository.cs\nMyWcfApplication.Models\nMyModel.cs

@@ -1,1 +1,0 @@
-svn checkout --depth files C:\Projects\test C:\Projects\test-build

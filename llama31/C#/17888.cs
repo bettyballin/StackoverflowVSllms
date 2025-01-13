@@ -1,1 +1,0 @@
-int number = 1;\nstring paddedNumber = number.ToString().PadLeft(2, '0');\nConsole.WriteLine(paddedNumber); // Outputs: 01

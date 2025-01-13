@@ -1,0 +1,1 @@
+$output = shell_exec('python your_python_script.py');

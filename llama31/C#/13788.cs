@@ -1,1 +1,0 @@
-using Microsoft.Benchmarking;\n\n[Benchmark]\npublic void MyMethod()\n{\n    // Code to benchmark\n}

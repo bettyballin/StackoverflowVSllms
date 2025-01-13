@@ -1,1 +1,0 @@
-robocopy <source_folder> <destination_folder> /mov /mt:16 /log:copy_log.txt

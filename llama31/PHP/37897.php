@@ -1,0 +1,1 @@
+class MyController extends Zend_Controller_Action\n{\n    public function someAction()\n    {\n        $request = $this->getRequest();\n        $form = new MyForm($request);\n        // ...\n    }\n}

@@ -1,1 +1,0 @@
-List<T> list = new List<T>(new MyEqualityComparer<T>());

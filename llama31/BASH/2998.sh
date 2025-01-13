@@ -1,1 +1,0 @@
-scp your_database.sql.gz user@target_machine:/path/to/destination/

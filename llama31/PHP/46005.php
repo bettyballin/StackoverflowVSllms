@@ -1,0 +1,1 @@
+$data = json_decode($foo, true, 512, JSON_UNESCAPED_UNICODE);

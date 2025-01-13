@@ -1,1 +1,0 @@
-[HttpPost]\npublic ActionResult UploadFile(HttpPostedFileBase file)\n{\n    if (file != null && file.ContentLength > 0)\n    {\n        // Save the file\n        var filePath = Server.MapPath("~/uploads/" + file.FileName);\n        file.SaveAs(filePath);\n    }\n    return Json(new { success = true });\n}

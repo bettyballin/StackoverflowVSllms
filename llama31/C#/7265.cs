@@ -1,1 +1,0 @@
-private async void button1_Click(object sender, EventArgs e)\n{\n    await Task.Run(() =>\n    {\n        foreach (System.IO.FileInfo f in dir.GetFiles("*.txt"))\n        {\n            // Do processing\n            // Show progress bar\n            label1.Invoke((MethodInvoker)delegate { label1.Text = f.Name + " is done processing, now processing..."; });\n        }\n    });\n}

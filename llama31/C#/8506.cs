@@ -1,1 +1,0 @@
-var list = new OrderedDictionary();\n\nlist.Add("key1", "value1");\nlist.Add("key2", "value2");\n\n// Access by index\nConsole.WriteLine(list[0]); // prints "value1"\n\n// Access by key\nConsole.WriteLine(list["key2"]); // prints "value2"

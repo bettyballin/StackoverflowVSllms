@@ -1,1 +1,0 @@
-// SiteB can access the same session variable\nstring value = Session["sharedVariable"] as string;\n// value will be "Hello, World!"

@@ -1,0 +1,1 @@
+SELECT SDO_GEOM.SDO_INTERIOR_POINT(geometry) \nFROM your_table;

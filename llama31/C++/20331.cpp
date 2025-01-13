@@ -1,1 +1,0 @@
-// obj_c.h\n#ifndef __OBJ_C_H__\n#define __OBJ_C_H__\n\nGLboolean load_obj(const char *filename, GLuint *object_list);\n\n#endif // __OBJ_C_H__

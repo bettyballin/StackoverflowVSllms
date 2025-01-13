@@ -1,1 +1,0 @@
-var dimensions = ImageMetadataReader.GetImageDimensions(@"C:\path\to\image.jpg");\nConsole.WriteLine($"Width: {dimensions.width}, Height: {dimensions.height}");

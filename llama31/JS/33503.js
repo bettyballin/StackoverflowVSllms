@@ -1,0 +1,1 @@
+// Iframe (send token to parent page)\nparent.postMessage({ token: sessionToken }, '*');\n\n// Parent page (receive token from iframe)\nwindow.addEventListener('message', (event) => {\n  if (event.data.token) {\n    localStorage.setItem('sessionToken', event.data.token);\n  }\n});

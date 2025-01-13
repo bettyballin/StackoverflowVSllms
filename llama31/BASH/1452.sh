@@ -1,1 +1,0 @@
-benerator -setup my_setup.xml -generate 100000

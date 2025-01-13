@@ -1,0 +1,1 @@
+class ORM {\n    protected function save() {\n        // implementation...\n    }\n\n    // other methods...\n}\n\nclass Customer extends ORM {\n    public function save() {\n        parent::save();\n    }\n\n    // other methods...\n}

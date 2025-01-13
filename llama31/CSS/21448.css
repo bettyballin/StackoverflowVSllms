@@ -1,1 +1,0 @@
-.outer-link {\n  display: block;\n  padding: 10px;\n  border: 1px solid #ccc;\n  width: 100%;\n}\n\n.inner-link-container {\n  float: right;\n}\n\n.inner-link {\n  padding: 10px;\n  border: none;\n  background-color: transparent;\n  text-decoration: underline;\n}

@@ -1,0 +1,1 @@
+<column name="ID" sql-type="CHAR(6)" not-null="true" />

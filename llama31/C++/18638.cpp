@@ -1,1 +1,0 @@
-#include "yaml-cpp/yaml.h"\n\nint main() {\n    YAML::Emitter emitter;\n    emitter << YAML::BeginMap;\n    emitter << YAML::Key << "key";\n    emitter << YAML::Value << "value";\n    emitter << YAML::EndMap;\n\n    std::cout << emitter.c_str() << std::endl;\n\n    return 0;\n}

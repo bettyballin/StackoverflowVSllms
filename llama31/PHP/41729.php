@@ -1,0 +1,1 @@
+Configure::write('App.autoModel', false);

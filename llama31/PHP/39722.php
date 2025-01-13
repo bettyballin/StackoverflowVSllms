@@ -1,0 +1,1 @@
+$doc->addField(Zend_Search_Lucene_Field::keyword('_area', \n    iconv('iso-8859-1', 'utf-8', strtolower($item['area'])), \n    'utf-8'\n));

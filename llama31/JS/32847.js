@@ -1,0 +1,1 @@
+// Add event listener to all table cells\ndocument.querySelectorAll('td').forEach(cell => {\n  cell.addEventListener('focusin', () => {\n    // Add highlight class when cell is focused\n    cell.classList.add('highlight');\n  });\n  cell.addEventListener('focusout', () => {\n    // Remove highlight class when cell is blurred\n    cell.classList.remove('highlight');\n  });\n});

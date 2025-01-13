@@ -1,0 +1,1 @@
+auto_link(h(wrap_long_string(post.text, 50))).gsub(/\n/, "<br />")

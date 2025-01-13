@@ -1,0 +1,1 @@
+SELECT \n  REGEXP_REPLACE(Field1, '(.*)-(.*)', '\2_\1') AS Field1\nFROM \n  YourTable;

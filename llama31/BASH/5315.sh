@@ -1,1 +1,0 @@
-cl /clr:safe /LD MyManagedCPPDll.cpp /FeMyManagedCPPDll.dll

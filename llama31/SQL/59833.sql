@@ -1,0 +1,1 @@
+INSERT INTO table_a (column1, column2)\nVALUES ('value1', 'value2')\nRETURNING id AS new_id;\n\nINSERT INTO table_b (table_a_id, column3)\nVALUES (new_id, 'value3');

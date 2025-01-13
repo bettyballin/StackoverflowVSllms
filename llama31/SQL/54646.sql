@@ -1,0 +1,1 @@
+CREATE TABLE Sessions (\n  Id INT PRIMARY KEY,\n  UserId INT,\n  SessionId VARCHAR(255),\n  LoginTime DATETIME,\n  LastActivity DATETIME\n);

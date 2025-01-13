@@ -1,1 +1,0 @@
-wkhtmltoimage --width 800 --height 600 input.html output.png

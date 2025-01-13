@@ -1,0 +1,1 @@
+CREATE USER 'newuser'@'%' IDENTIFIED BY 'newpassword';\nGRANT ALL PRIVILEGES ON *.* TO 'newuser'@'%';\nFLUSH PRIVILEGES;

@@ -1,0 +1,1 @@
+ew_channel_data = {...}  # New data from JSON string\n\nfor channel, data in new_channel_data.items():\n    if channel in channel_data:\n        # Update existing channel data\n        channel_data[channel].update(data)\n    else:\n        # Add new channel data\n        channel_data[channel] = data

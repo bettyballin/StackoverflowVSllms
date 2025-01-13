@@ -1,0 +1,1 @@
+# spec/factories/themes.rb\nFactoryBot.define do\n  factory :theme do\n    name 'Default Theme'\n    colors [...]\n  end\n\n  factory :dark_theme, class: Theme do\n    name 'Dark Theme'\n    colors [...]\n  end\nend

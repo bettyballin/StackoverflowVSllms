@@ -1,0 +1,1 @@
+$imageinfo = getimagesize($imageurl);\n$image_type = $imageinfo[2];\n\nswitch ($image_type) {\n    case IMAGETYPE_JPEG:\n        echo "Image is a JPEG";\n        break;\n    case IMAGETYPE_PNG:\n        echo "Image is a PNG";\n        break;\n    // ...\n}

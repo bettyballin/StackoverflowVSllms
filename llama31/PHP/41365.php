@@ -1,0 +1,1 @@
+if ($_POST['submit_token'] === $_SESSION['submit_token']) {\n    // Process the form submission\n    // ...\n\n    // Invalidate the token\n    unset($_SESSION['submit_token']);\n} else {\n    // Handle duplicate submission\n    // ...\n}

@@ -1,0 +1,1 @@
+SELECT CONVERT_TZ(utc_date_time, 'UTC', 'America/New_York') AS local_date_time\nFROM your_table;

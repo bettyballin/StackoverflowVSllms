@@ -1,1 +1,0 @@
-sudo yum install httpd mysql-server php php-mysql

@@ -1,0 +1,1 @@
+// In your view\n$item = $this->data['Item'];\n$userId = $this->Session->read('Auth.User.id');\necho $this->Item->isOwnedByUser($item, $userId) ? 'You own this item' : 'You don\'t own this item';

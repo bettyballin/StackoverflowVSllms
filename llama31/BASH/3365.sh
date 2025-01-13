@@ -1,1 +1,0 @@
-xmlstarlet val -d diff.xml file1.xml file2.xml

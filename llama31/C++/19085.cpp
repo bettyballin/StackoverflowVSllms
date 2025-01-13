@@ -1,1 +1,0 @@
-unique_ptr<double[]> CFE(int density[])\n{\n    // ...do stuff to generate 'double Energy[]'....\n    unique_ptr<double[]> Energy(new double[size]);\n\n    // ...fill Energy array...\n\n    return Energy;\n}

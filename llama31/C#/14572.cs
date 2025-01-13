@@ -1,1 +1,0 @@
-if (val == null)\n    throw new ArgumentNullException("val", "message");

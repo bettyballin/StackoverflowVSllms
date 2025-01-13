@@ -1,1 +1,0 @@
-# Update PHP on Windows using a package manager like Chocolatey\nchoco install php

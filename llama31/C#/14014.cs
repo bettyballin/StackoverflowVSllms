@@ -1,1 +1,0 @@
-browser.Timeout = 60000; // 1 minute

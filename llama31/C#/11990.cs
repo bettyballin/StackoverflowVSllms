@@ -1,1 +1,0 @@
-public class YourControllerNameController : Controller\n{\n    public ActionResult Move()\n    {\n        // Your code here\n        return RedirectToAction("Index"); // or any other action\n    }\n}

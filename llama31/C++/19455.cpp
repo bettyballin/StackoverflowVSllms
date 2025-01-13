@@ -1,1 +1,0 @@
-cl.exe /clr /keyfile:MyKey.snk MyAssembly.cpp

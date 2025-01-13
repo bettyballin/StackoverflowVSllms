@@ -1,1 +1,0 @@
-bcp "SELECT * FROM YourTable" queryout "C:\Path\To\Your\Data.csv" -c -S YourServerName -U YourUsername -P YourPassword

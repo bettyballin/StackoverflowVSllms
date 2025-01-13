@@ -1,1 +1,0 @@
-using System.IO;\n\n// ...\n\nFileInfo fileInfo = new FileInfo(filePath);\nfileInfo.Attributes &= ~FileAttributes.ReadOnly;\nfileInfo.Delete();

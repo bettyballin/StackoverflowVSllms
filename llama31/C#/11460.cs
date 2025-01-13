@@ -1,1 +1,0 @@
-StringBuilder sb = new StringBuilder();\nfor (int i = 0; i < 10; i++)\n{\n    sb.Append(i.ToString());\n}\nstring result = sb.ToString();

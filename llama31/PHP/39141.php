@@ -1,0 +1,1 @@
+function fisherYatesShuffle(array $array): array\n{\n    $length = count($array);\n    for ($i = $length - 1; $i > 0; $i--) {\n        $j = random_int(0, $i);\n        $temp = $array[$i];\n        $array[$i] = $array[$j];\n        $array[$j] = $temp;\n    }\n    return $array;\n}

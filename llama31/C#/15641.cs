@@ -1,1 +1,0 @@
-using (SqlConnection connection = new SqlConnection(connectionString))\n{\n    connection.Open();\n\n    SqlCommand command = new SqlCommand("ALLOCATE_BUDGET", connection);\n    command.CommandType = CommandType.StoredProcedure;\n    command.Parameters.AddWithValue("@budget_scenario_id", budgetScenarioId);\n\n    command.ExecuteNonQuery(CommandBehavior.SingleResult);\n}

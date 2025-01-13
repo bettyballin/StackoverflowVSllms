@@ -1,0 +1,1 @@
+' Create a new subreport\nDim subreport As New CrystalDecisions.CrystalReports.Engine.SubreportObject()\nsubreport.ReportSource = New MySubreport() ' Replace with your subreport name\nsubreport.LinkChild = "MyField" ' Link to a field in the main report\n\n' Add the subreport to the main report\nMe.Section2.ReportObjects.Add(subreport)

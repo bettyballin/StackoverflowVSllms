@@ -1,0 +1,1 @@
+CREATE TABLE your_table (\n  a VARCHAR(255),\n  b VARCHAR(255),\n  PRIMARY KEY (a, b)\n);

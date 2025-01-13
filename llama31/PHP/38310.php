@@ -1,0 +1,1 @@
+$string = "Hello World!<br>&nbsp;";\n$trimmed_string = rtrim($string, "<br>&nbsp;");\necho $trimmed_string; // outputs "Hello World!"

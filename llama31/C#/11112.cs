@@ -1,1 +1,0 @@
-using Microsoft.MultiPoint;\n\nclass HelloWorld : MultiPointApplication\n{\n    protected override void OnMultiPointStarted()\n    {\n        Console.WriteLine("Hello, World!");\n    }\n}

@@ -1,0 +1,1 @@
+setTimeout(function() {\n  window.location.reload();\n}, 300000); // 5 minutes

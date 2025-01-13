@@ -1,0 +1,1 @@
+$command = "ls -l"; // example command\n$output = shell_exec($command);\necho $output; // prints the output of the command

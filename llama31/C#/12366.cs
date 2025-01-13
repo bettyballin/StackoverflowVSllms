@@ -1,1 +1,0 @@
-// Dashboard.cshtml (main view)\n@model DashboardModel\n\n@Html.DashboardPart1(Model.Part1)\n@Html.DashboardPart2(Model.Part2)

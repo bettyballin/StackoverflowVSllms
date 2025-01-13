@@ -1,1 +1,0 @@
-public class Camera\n{\n    public Vector3 Position { get; set; }\n    public Vector3 Target { get; set; }\n    public Vector3 UpVector { get; set; }\n\n    public Matrix ViewMatrix\n    {\n        get { return Matrix.CreateLookAt(Position, Target, UpVector); }\n    }\n}

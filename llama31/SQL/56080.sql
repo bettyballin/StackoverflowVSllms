@@ -1,0 +1,1 @@
+-- Template\nSELECT $ColumnSet\nFROM $TableName\n\n-- Usage\nSELECT columnA, columnB, columnC\nFROM Data\n\nSELECT columnA, columnB, columnC\nFROM DataArchive

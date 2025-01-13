@@ -1,0 +1,1 @@
+require_once 'autoloader.php';\n\n$feed = new SimplePie();\n$feed->set_feed_url('https://example.com/feed');\n$feed->init();\n\nforeach ($feed->get_items() as $item) {\n    echo $item->get_title() . "\n";\n    echo $item->get_permalink() . "\n";\n    echo $item->get_description() . "\n";\n}

@@ -1,0 +1,1 @@
+// Example: Auto-completion with jQuery\n$(document).ready(function() {\n  $('#search').keyup(function() {\n    $.ajax({\n      type: 'GET',\n      url: '/search',\n      data: { query: $(this).val() },\n      success: function(data) {\n        $('#results').html(data);\n      }\n    });\n  });\n});

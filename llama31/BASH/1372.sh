@@ -1,1 +1,0 @@
-; Compile Clojure code to Java bytecode\n$ lein compile\n\n; Create an Android APK\n$ android create project --target android-21 --name MyClojureProject --path myclojureproject\n$ cd myclojureproject\n$ ant debug

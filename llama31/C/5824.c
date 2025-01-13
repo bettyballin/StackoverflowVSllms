@@ -1,1 +1,0 @@
-#include <time.h>\n\n// ...\n\nstruct timeval tv;\ngettimeofday(&tv, NULL);\nprintf("[%ld.%06ld] Boot sequence message\n", tv.tv_sec, tv.tv_usec);

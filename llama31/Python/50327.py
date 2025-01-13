@@ -1,0 +1,1 @@
+from tabulate import tabulate\n\n# Read the file content\nwith open('file.txt', 'r') as f:\n    lines = [line.strip().split('\t') for line in f.readlines()]\n\n# Convert to tabular format with border\ntable = tabulate(lines, headers='firstrow', tablefmt='grid')\n\n# Print the result\nprint(table)

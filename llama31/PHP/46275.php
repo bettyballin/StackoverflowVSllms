@@ -1,0 +1,1 @@
+$ipAddress = $_POST['ip_address'];\n$escapedIpAddress = escapeshellarg($ipAddress);\n\n$pingCommand = "ping -c 1 $escapedIpAddress";\nexec($pingCommand, $output, $returnCode);

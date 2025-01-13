@@ -1,1 +1,0 @@
-var dbContext = new MyDbContext();\nvar sql = "UPDATE Products SET Count = 0 WHERE Type = 1";\ndbContext.Database.ExecuteSqlRaw(sql);

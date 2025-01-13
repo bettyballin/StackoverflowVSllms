@@ -1,0 +1,1 @@
+import psycopg2\n\nvalue = "Unsafe string"\nquoted_value = psycopg2.extensions.adapters.quote(value)\n\nquery = "SELECT * FROM some_table WHERE some_char_field = %s;" % quoted_value\ncursor.execute(query)

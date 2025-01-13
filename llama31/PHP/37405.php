@@ -1,0 +1,1 @@
+public function testLoadFile()\n{\n    try {\n        $result = load_file('/some/non-existent/file');\n    } catch (PHPUnit\Framework\Error\Warning $e) {\n        $this->assertEquals("file /some/non-existent/file does not exist", $e->getMessage());\n    }\n    $this->assertFalse($result);\n}

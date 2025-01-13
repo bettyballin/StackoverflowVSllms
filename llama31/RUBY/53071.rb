@@ -1,0 +1,1 @@
+class Entry < ActiveRecord::Base\n  # ...\n\n  before_validation :validate_tag_names\n\n  def validate_tag_names\n    # same code as above\n  end\nend

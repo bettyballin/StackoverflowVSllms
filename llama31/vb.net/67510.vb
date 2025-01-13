@@ -1,0 +1,1 @@
+stTransactionPaymentID = If(editTransactionRow.pay_id, String.Empty)

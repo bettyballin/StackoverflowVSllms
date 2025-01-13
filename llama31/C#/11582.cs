@@ -1,1 +1,0 @@
-using System;\nusing SharpSSH;\n\nclass SftpExample\n{\n    public static void Main(string[] args)\n    {\n        Sftp sftp = new Sftp("sftp.example.com", "username", "password");\n        sftp.Connect();\n        sftp.Put("/local/file.txt", "/remote/file.txt");\n        sftp.Close();\n    }\n}

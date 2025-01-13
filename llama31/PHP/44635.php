@@ -1,0 +1,1 @@
+switch ($idd) {\n    case 1021:\n        $r[0] = '<img src="IMAGE_URL">';\n        break;\n    case 1022:\n        $r[0] = '<img src="IMAGE_URL_2">';\n        break;\n    default:\n        $r[0] = '';\n}

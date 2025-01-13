@@ -1,0 +1,1 @@
+var scriptUrl = (function() {\n  var scripts = document.getElementsByTagName('script');\n  var script = scripts[scripts.length - 1];\n  var url = new URL(script.src, document.baseURI);\n  return url.href;\n})();

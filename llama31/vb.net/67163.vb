@@ -1,0 +1,1 @@
+myForm = New Form()\n' add controls and setup the form as needed\nmyForm.Show()\nmyForm.BringToFront()

@@ -1,0 +1,1 @@
+MERGE INTO table_name t\nUSING (SELECT key, value FROM dual) s\nON (t.key = s.key)\nWHEN MATCHED THEN\n    UPDATE SET t.value = s.value\nWHEN NOT MATCHED THEN\n    INSERT (t.key, t.value)\n    VALUES (s.key, s.value);

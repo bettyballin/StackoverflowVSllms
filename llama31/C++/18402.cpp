@@ -1,1 +1,0 @@
-HRESULT hr = pConnection->QueryInterface(IID_IConnectionPoint, (LPVOID*)&pConnectionPoint);\nif (FAILED(hr)) {\n    // Handle error\n}

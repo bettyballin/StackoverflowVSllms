@@ -1,1 +1,0 @@
-SCODE GetText( [out] SAFEARRAY(WCHAR)* awcBuffer );

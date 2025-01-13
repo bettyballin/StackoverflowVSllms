@@ -1,1 +1,0 @@
-void addIntToSet(Set *s, int n) {\n    unsigned char mask = (unsigned char) pow(2, (CHAR_SIZE - 1) - (n % CHAR_SIZE));\n    (*s)[n/CHAR_SIZE] |= mask;\n}

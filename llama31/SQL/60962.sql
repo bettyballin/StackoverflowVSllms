@@ -1,0 +1,1 @@
+SELECT program_id, program_line, package_name, procedure_name\nFROM ora_processes\nWHERE session_id = SYS_CONTEXT('USERENV', 'SESSIONID');

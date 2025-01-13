@@ -1,0 +1,1 @@
+$tsql = "SELECT * from tblUsers where email=(?) AND password=(?)";\n$params = array($email, $encryptedPass);\n$stmt = sqlsvr_prepare($conn, $tsql, $params);

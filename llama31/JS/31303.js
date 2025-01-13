@@ -1,0 +1,1 @@
+var stomple = new Stomple.Client('ws://localhost:61614/stomp');\nstomple.connect('guest', 'guest', function(frame) {\n    stomple.subscribe('/topic/myTopic', function(message) {\n        console.log(message.body);\n    });\n});

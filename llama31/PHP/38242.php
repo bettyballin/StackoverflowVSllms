@@ -1,0 +1,1 @@
+class FlexibleAccess {\n  static $dbName;\n\n  public static function setDatabaseName($name) {\n    self::$dbName = $name;\n  }\n}

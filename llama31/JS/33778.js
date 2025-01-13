@@ -1,0 +1,1 @@
+var someVar = (function () {\n  // ...\n}()); // explicit immediate invocatio

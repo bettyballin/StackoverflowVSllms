@@ -1,0 +1,1 @@
+myServices.getName(userId, onSuccess, onFailure);\n\nfunction onSuccess(result) {\n    name = result;\n    alert(name);\n}\n\nfunction onFailure(error) {\n    // Handle error here\n}

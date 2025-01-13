@@ -1,1 +1,0 @@
-public static string HtmlEncode(object value)\n{\n    return HttpUtility.HtmlEncode(value.ToString());\n}

@@ -1,1 +1,0 @@
-private static readonly MyObjectType s_instance = new MyObjectType();

@@ -1,1 +1,0 @@
-[HttpPost]\npublic ActionResult Create(Dinner dinner)\n{\n    try\n    {\n        dbContext.SaveChanges(SaveOptions.ValidateOnSaveEnabled);\n    }\n    catch (DbUpdateException ex)\n    {\n        // Get the validation errors from the exception...\n    }\n\n    // ...\n}

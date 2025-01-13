@@ -1,1 +1,0 @@
-# Create a new branch for changes\ngit checkout -b temp-branch\n\n# Make your changes to the file(s)\n\n# Compare the current branch (temp-branch) with the main branch (e.g., master)\ngit diff master..temp-branch

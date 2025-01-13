@@ -1,0 +1,1 @@
+$doc = new SimpleXMLElement('<root/>');\n$doc->addChild('myToken');\n\n$dom = dom_import_simplexml($doc);\n$dom->formatOutput = true;\n$dom->preserveWhiteSpace = false;\n$dom->loadXML($dom->saveXML(), LIBXML_NOEMPTYTAG);\n\necho $dom->saveXML();

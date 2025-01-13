@@ -1,0 +1,1 @@
+$ch = curl_init('http://example.com/imported/code');\ncurl_setopt($ch, CURLOPT_ENCODING, 'utf-8');\ncurl_setopt($ch, CURLOPT_RETURNTRANSFER, true);\n$output = curl_exec($ch);\ncurl_close($ch);

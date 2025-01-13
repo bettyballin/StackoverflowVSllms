@@ -1,0 +1,1 @@
+// modules/test/controllers/TttController.php\nclass TttController extends Zend_Controller_Action\n{\n    public function indexAction()\n    {\n        // ...\n    }\n}

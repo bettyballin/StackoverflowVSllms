@@ -1,1 +1,0 @@
-// MyCSharpLibrary.cs (continued)\nusing System.Runtime.InteropServices;\n\n[DllExport("MyCSharpMethod", CallingConvention.StdCall)]\npublic static void MyCSharpMethod()\n{\n    // Your C# code here\n    Console.WriteLine("Hello from C#!");\n}

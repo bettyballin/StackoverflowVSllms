@@ -1,1 +1,0 @@
-using Microsoft.Owin;\nusing Owin;\n\nnamespace MyService\n{\n    public class Startup\n    {\n        public void Configuration(IAppBuilder app)\n        {\n            var config = new HttpConfiguration();\n            config.MapHttpAttributeRoutes();\n            app.UseWebApi(config);\n        }\n    }\n}

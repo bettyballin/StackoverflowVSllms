@@ -1,0 +1,1 @@
+class MyClass {\n    private $myField;\n\n    public function getMyField() {\n        return $this->myField;\n    }\n\n    public function setMyField($value) {\n        $this->myField = $value;\n    }\n}

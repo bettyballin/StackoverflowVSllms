@@ -1,0 +1,1 @@
+import unicodedata\n\nf1 = open(file1, "r")\ntext = unicodedata.normalize('NFKD', f1.read()).replace('\u2018', "'").replace('\u2019', "'")

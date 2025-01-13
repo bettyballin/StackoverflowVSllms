@@ -1,1 +1,0 @@
-string query = "SELECT TypeName FROM Access.MSysDataTypes";

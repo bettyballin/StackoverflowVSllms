@@ -1,0 +1,1 @@
+MERGE INTO cache AS target\nUSING (SELECT 'your_key' AS key) AS source\nON target.key = source.key\nWHEN MATCHED THEN\n    UPDATE SET generation = generation + 1\nWHEN NOT MATCHED THEN\n    INSERT (key, generation) VALUES (source.key, 0);

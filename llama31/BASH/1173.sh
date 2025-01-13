@@ -1,1 +1,0 @@
-mcli c show

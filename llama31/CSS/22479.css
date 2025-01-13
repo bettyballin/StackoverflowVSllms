@@ -1,1 +1,0 @@
-.left-column {\n  width: 200px;\n  float: left;\n}\n\n.right-table {\n  margin-left: 200px; /* match the width of the left column */\n}\n\n.right-table table {\n  width: 100%;\n  border-collapse: collapse;\n}

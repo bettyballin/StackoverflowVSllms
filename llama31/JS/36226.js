@@ -1,0 +1,1 @@
+function getTextWidth(text, font) {\n  const canvas = document.createElement('canvas');\n  const ctx = canvas.getContext('2d');\n  ctx.font = font;\n  const width = ctx.measureText(text).width;\n  return width;\n}

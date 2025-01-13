@@ -1,1 +1,0 @@
-int? n1 = null;\nint? n2 = null;\nAssert.IsTrue((n1 ?? int.MinValue) <= (n2 ?? int.MaxValue));

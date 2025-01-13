@@ -1,0 +1,1 @@
+ruby -y your_script.rb

@@ -1,0 +1,1 @@
+IF (my boolean expression)\n  SELECT 'my message' AS result\nELSE\n  SELECT TOP 1 name FROM people;

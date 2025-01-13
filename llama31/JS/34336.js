@@ -1,0 +1,1 @@
+$.ajax({\n    type: 'POST',\n    url: '/your/webservice.asmx',\n    data: {},\n    xhrFields: {\n        withCredentials: true\n    }\n});

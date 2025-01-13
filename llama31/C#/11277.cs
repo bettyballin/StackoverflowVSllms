@@ -1,1 +1,0 @@
-public ActionResult MyAction()\n{\n    if (someCondition)\n    {\n        return PartialView("_PartialView");\n    }\n    else\n    {\n        return Json(new { redirect = Url.Action("OtherAction", "OtherController") });\n    }\n}

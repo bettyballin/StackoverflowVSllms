@@ -1,0 +1,1 @@
+function checkAvailability(){\n    console.log('card_select:', document.getElementById('card_select').value);\n    console.log('price_select:', document.getElementById('price_select').value);\n    console.log('num_of_cards:', document.getElementById('num_of_cards').value);\n    // your code here\n}

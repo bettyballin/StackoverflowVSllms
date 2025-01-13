@@ -1,1 +1,0 @@
-httpWebRequest.SendChunked = true;

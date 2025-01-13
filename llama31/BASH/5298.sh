@@ -1,1 +1,0 @@
-@echo off\nset backupdir=C:\Backup\nset backupcmd=ntbackup backup\n\n%backupcmd% systemstate "C:\Exchange\Database\" /J "Daily Backup" /F "%backupdir%\Backup.bkf"

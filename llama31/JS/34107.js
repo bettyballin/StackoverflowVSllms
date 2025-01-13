@@ -1,0 +1,1 @@
+fetch('/api/data')\n  .then(response => response.json())\n  .then(data => {\n    const table = document.getElementById('myTable');\n    data.forEach(row => {\n      const rowElement = document.createElement('tr');\n      rowElement.innerHTML = `\n        <td>${row.column1}</td>\n        <td>${row.column2}</td>\n      `;\n      table.appendChild(rowElement);\n    });\n  });

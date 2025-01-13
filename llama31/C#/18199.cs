@@ -1,1 +1,0 @@
-var conditionSync = new ConditionSynchronizationExample();\n\n// Start a thread that waits for the condition\nvar waitingThread = new Thread(conditionSync.WaitUntilConditionIsMet);\nwaitingThread.Start();\n\n// Do some work...\nConsole.WriteLine("Doing some work...");\n\n// Set the condition\nconditionSync.SetCondition();\n\n// The waiting thread will now continue executio

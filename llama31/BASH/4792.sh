@@ -1,1 +1,0 @@
-# Install Dovecot on Ubuntu/Debian\nsudo apt-get install dovecot-imapd\n\n# Configure Dovecot to use Postfix as the MTA\nsudo nano /etc/dovecot/dovecot.conf

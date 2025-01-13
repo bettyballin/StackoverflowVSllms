@@ -1,1 +1,0 @@
-using Rtf2Html;\n\n// Load the RTF file\nstring rtfText = File.ReadAllText("path/to/your/report.rtf");\n\n// Convert RTF to HTML\nstring htmlText = Rtf2HtmlConverter.ConvertRtfToHtml(rtfText);\n\n// Send the HTML email

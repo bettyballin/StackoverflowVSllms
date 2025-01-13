@@ -1,1 +1,0 @@
-#include "myextension.h"\n#include <php.h>\n\nPHP_FUNCTION(my_extension_function)\n{\n    // Call your C++ binary here\n    // ...\n    RETURN_STRING("Hello from C++!", 1);\n}

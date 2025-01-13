@@ -1,0 +1,1 @@
+Dim IndexedLetters = From aLetter In Letters\n                     Let index = Letters.IndexOf(aLetter) + 1\n                     Select New With {.Index = index, .Letter = aLetter}

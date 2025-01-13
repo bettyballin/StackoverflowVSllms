@@ -1,1 +1,0 @@
-linkButton.CssClass = "link-button";

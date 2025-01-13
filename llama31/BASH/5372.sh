@@ -1,1 +1,0 @@
-w32tm /config /manualpeerlist:"<fake_time_server>" /syncfromflags:MANUAL

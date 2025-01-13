@@ -1,1 +1,0 @@
-chkconfig --list\nchkconfig --add <service>\nchkconfig --del <service>\nchkconfig --level <runlevel> <service> on|off

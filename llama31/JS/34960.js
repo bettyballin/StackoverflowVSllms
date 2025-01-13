@@ -1,0 +1,1 @@
+$("#login_Form").submit(function (event) {\n    event.preventDefault();\n    loginHandler();\n});

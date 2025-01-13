@@ -1,0 +1,1 @@
+SELECT *\nFROM your_table\nWHERE \n    CONVERT(VARCHAR(10), date_of_birth, 120) = CONVERT(VARCHAR(10), :input_date, 120)

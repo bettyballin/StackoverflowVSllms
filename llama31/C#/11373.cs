@@ -1,1 +1,0 @@
-public class CustomBurrowConfig : BurrowConfig\n{\n    public override Configuration GetConfiguration()\n    {\n        return Fluently.Configure()\n            .Database(MsSqlConfiguration.MsSql2008.ConnectionString("your_connection_string"))\n            .Mappings(m => m.FluentMappings.AddFromAssembly(typeof(YourEntity).Assembly))\n            .BuildConfiguration();\n    }\n}

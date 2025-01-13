@@ -1,0 +1,1 @@
+$.ajax({\n  url: '/your-url',\n  dataType: 'html',\n  success: function(data) {\n    // Insert HTML into the page\n  },\n  error: function(xhr, status, error) {\n    // Set error flag, display message, and don't insert HTML\n    console.error('Error:', error);\n    // Handle error here\n  }\n});

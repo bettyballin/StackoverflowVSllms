@@ -1,0 +1,1 @@
+$wordList = unserialize(file_get_contents('word_list.cache'));\nif (!$wordList) {\n    $wordList = array('apple', 'basic', 'cloud', ...); // 300 words\n    file_put_contents('word_list.cache', serialize($wordList));\n}\n$randomWord = $wordList[array_rand($wordList)];

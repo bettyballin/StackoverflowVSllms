@@ -1,1 +1,0 @@
-int value = 5;\nbyte[] lpData = BitConverter.GetBytes(value);\n\n// Ensure the byte array is in the correct order (little-endian)\nif (BitConverter.IsLittleEndian)\n{\n    Array.Reverse(lpData);\n}\n\n// Now you can pass lpData to RegSetValueExW\nRegSetValueExW(hKey, lpValueName, 0, (uint)RegistryValueKind.DWord, lpData, (uint)lpData.Length);

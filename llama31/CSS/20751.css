@@ -1,1 +1,0 @@
-.form-grid {\n  display: grid;\n  grid-template-columns: auto 1fr;\n  grid-gap: 10px;\n}\n\n.form-grid label {\n  grid-column: 1;\n  text-align: right;\n  padding-right: 10px;\n}\n\n.form-grid input {\n  grid-column: 2;\n}

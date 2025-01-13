@@ -1,1 +1,0 @@
-public class Animal\n{\n    public virtual void MakeSound()\n    {\n        Console.WriteLine("The animal makes a sound.");\n    }\n}\n\npublic class Dog : Animal\n{\n    public override void MakeSound()\n    {\n        Console.WriteLine("The dog barks.");\n    }\n}

@@ -1,0 +1,1 @@
+INSERT INTO MyTable (uniqueId, field1, field2, PreviousId)\nSELECT NEWID(), field1, field2, uniqueId\nFROM MyTable\nWHERE uniqueId = @Id;

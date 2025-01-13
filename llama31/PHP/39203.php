@@ -1,0 +1,1 @@
+use Doctrine\Common\CodeGenerator;\n$generator = new CodeGenerator();\n$generator->generateEntity('MyEntity', array('myField'));

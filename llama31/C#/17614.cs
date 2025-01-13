@@ -1,1 +1,0 @@
-public class ApiWrapper\n{\n    private readonly ExternalApi _api;\n\n    public ApiWrapper(ExternalApi api)\n    {\n        _api = api;\n    }\n\n    public object GetErrorCode()\n    {\n        object errorCode = _api.GetErrorCode();\n        // Add your own error handling or logging here\n        return errorCode;\n    }\n}

@@ -1,0 +1,1 @@
+wp_nav_menu(array(\n    'menu' => 'primary',\n    'exclude' => '2',\n    'show_home' => 'Home', // Add this line\n    'depth' => 1,\n    'title_li' => '',\n));

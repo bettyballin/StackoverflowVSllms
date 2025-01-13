@@ -1,0 +1,1 @@
+fetch('/api/endpoint', {\n  method: 'POST',\n  headers: {\n    'Content-Type': 'application/json'\n  },\n  body: JSON.stringify({\n    param1: 'value1',\n    param2: 'value2'\n  })\n})

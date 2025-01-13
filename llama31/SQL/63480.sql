@@ -1,0 +1,1 @@
+SELECT DISTINCT f.foo_id, f.foo_fluff, b.timestamp\nFROM foo f\nJOIN (\n  SELECT foo_id, timestamp,\n         ROW_NUMBER() OVER (PARTITION BY foo_id ORDER BY timestamp DESC) as row_num\n  FROM bar\n) b ON f.foo_id = b.foo_id AND b.row_num = 1

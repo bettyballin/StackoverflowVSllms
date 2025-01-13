@@ -1,1 +1,0 @@
-using PdfSharp;\nusing PdfSharp.Pdf;\n\n// ...\n\nprivate void OpenPdfFile(string filePath)\n{\n    PdfDocument pdfDoc = PdfReader.Open(filePath);\n    string rtfContent = PdfSharp.Convert.ToRtf(pdfDoc);\n    richTextBox.Document.Blocks.Clear();\n    richTextBox.Document.Blocks.Add(new Paragraph(new Run(rtfContent)));\n}

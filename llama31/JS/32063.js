@@ -1,0 +1,1 @@
+$.ajax({\n    type: "POST",\n    url: "/Controller/AddItems",\n    data: values,\n    contentType: "application/json",\n    success: function(data) { }\n});

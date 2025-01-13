@@ -1,1 +1,0 @@
-var originalBitmap = new Bitmap("path/to/your/image.png");\nvar croppedBitmap = CropWhitespace(originalBitmap);\ncroppedBitmap.Save("path/to/save/cropped/image.png");

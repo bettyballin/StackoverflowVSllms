@@ -1,1 +1,0 @@
-using System;\n\nclass Program\n{\n    static void Main()\n    {\n        Console.WriteLine("\u00A9 2024 My Company"); // \u00A9 is the Unicode escape sequence for the copyright symbol\n    }\n}

@@ -1,1 +1,0 @@
-using (StreamWriter writer = new StreamWriter("output.csv"))\n{\n    foreach (var record in records)\n    {\n        writer.WriteLine(string.Join(",", record));\n    }\n}

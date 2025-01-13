@@ -1,0 +1,1 @@
+Public Class YourDataType\n    Public Property DateTimeSubmitted As DateTime\n    Public ReadOnly Property FormattedDate As String\n        Get\n            Return NiceDate(DateTimeSubmitted)\n        End Get\n    End Property\nEnd Class

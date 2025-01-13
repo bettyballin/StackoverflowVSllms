@@ -1,0 +1,1 @@
+$start_date = date('Y-m-d H:i:s', strtotime("{$_GET['start_hours']}:{$_GET['start_minutes']} {$_GET['start_ampm']}"));\n$next_day = date('Y-m-d H:i:s', strtotime('+1 day', strtotime($start_date)));

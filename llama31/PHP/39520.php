@@ -1,0 +1,1 @@
+class MyController extends AppController {\n    function isAuthorized() {\n        // your authorization logic here\n    }\n}

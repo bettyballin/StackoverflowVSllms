@@ -1,1 +1,0 @@
-ffmpeg -i $infile -vcodec copy -an test.flv

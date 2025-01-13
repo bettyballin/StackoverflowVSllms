@@ -1,0 +1,1 @@
+function increment(&$value) {\n    $value++;\n}\n\n$a = 5;\nincrement($a);\necho $a; // outputs 6

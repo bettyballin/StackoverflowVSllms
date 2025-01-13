@@ -1,1 +1,0 @@
-bool pass = d?.ContainsKey("k") ?? false && (bool)d["k"];

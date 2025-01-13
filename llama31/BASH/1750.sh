@@ -1,1 +1,0 @@
-TFSBackup.exe /backup /collection:http://your-tfs-server:8080/tfs/YourCollection /filename:C:\Backup\TFS_Backup.bak

@@ -1,1 +1,0 @@
-msgfmt -o /path/to/translations/en_US.mo /path/to/translations/en_US.po

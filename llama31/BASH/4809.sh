@@ -1,1 +1,0 @@
-@echo off\n\n:: Add to startup\nreg add "HKCU\Software\Microsoft\Windows\CurrentVersion\Run" /v "MyBatchFile" /t REG_SZ /d "%~f0" /f\n\n:: Remove from startup\n:: reg delete "HKCU\Software\Microsoft\Windows\CurrentVersion\Run" /v "MyBatchFile" /f

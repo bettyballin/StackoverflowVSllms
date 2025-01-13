@@ -1,1 +1,0 @@
-sed -i '1i new line 1\nnew line 2' config_file

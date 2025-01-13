@@ -1,0 +1,1 @@
+-- Create empty temp table\nSELECT CAST(1 AS NUMERIC(18,0)) AS ID2, *\nINTO #Tmp\nFROM TestTable\nWHERE 1=0\n\n-- Drop the identity column\nALTER TABLE #Tmp DROP COLUMN ID\n\n-- Rename the new column to the old column's name\nEXEC sp_rename '#Tmp.ID2', 'ID', 'COLUMN'

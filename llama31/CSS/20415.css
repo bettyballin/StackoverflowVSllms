@@ -1,1 +1,0 @@
-.niw-button {\n    background: #1f81c0 url(niw-btn-gradient-normal.png) repeat-x;\n    border: none;\n    color: #fff;\n    display: inline;\n    zoom: 1; /* Trigger hasLayout in IE6 and IE7 */\n    font-weight: bold;\n    margin-right: 6px;\n    min-width: 95px;\n    padding: 2px;\n    text-decoration: none;\n}

@@ -1,1 +1,0 @@
-#include <stdint.h>\n\n// Assuming a 64-bit high-resolution timer\nuint64_t start_time, stop_time;\n\nstart_time = get_high_res_timer_value();\nfor (i = 0; i < 100; i++) {\n    /* do something here */\n}\nstop_time = get_high_res_timer_value();\n\nuint64_t elapsed_time = stop_time - start_time;

@@ -1,0 +1,1 @@
+var userInput = $('#userInput').val();\nvar escapedInput = escapeHtml(userInput);\n$('#preview').append('<li>' + escapedInput + '</li>');

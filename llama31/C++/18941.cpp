@@ -1,1 +1,0 @@
-int main() {\n    Foo* foo = new Foo();\n    foo->say_hi(); // works correctly\n    foo->say_virtual_hi(); // works correctly\n    delete foo; // don't forget to free the memory!\n    return 0;\n}

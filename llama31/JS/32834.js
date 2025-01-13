@@ -1,0 +1,1 @@
+document.body.style.cursor = "progress";\nsetTimeout(function() {\n    MyLongRunningMethod();\n    document.body.style.cursor = "auto";\n}, 10);

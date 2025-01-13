@@ -1,1 +1,0 @@
-systemctl daemon-reload\nsystemctl start my_service

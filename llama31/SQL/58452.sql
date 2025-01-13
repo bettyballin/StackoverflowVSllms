@@ -1,0 +1,1 @@
+BEGIN TRANSACTION;\n\nDELETE t1\nFROM table1 AS t1\nINNER JOIN table2 AS t2 ON t1.column = t2.column\nINNER JOIN table3 AS t3 ON t2.column = t3.column\nWHERE condition;\n\nDELETE t2\nFROM table2 AS t2\nINNER JOIN table3 AS t3 ON t2.column = t3.column\nWHERE condition;\n\nDELETE t3\nFROM table3 AS t3\nWHERE condition;\n\nCOMMIT TRANSACTION;

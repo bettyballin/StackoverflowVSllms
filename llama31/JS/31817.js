@@ -1,0 +1,1 @@
+data.query.results.item.forEach(item => {\n  document.getElementById("results").innerHTML += `\n    <h2>${item.title}</h2>\n    <p>${item.abstract}</p>\n    <p><a href="${item.url}">${item.url}</a></p>\n  `;\n});

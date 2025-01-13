@@ -1,1 +1,0 @@
-void vulnerableFunction(char *input) {\n    char buffer[20];\n    strcpy(buffer, input); // buffer overflow vulnerability\n}

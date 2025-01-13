@@ -1,1 +1,0 @@
-svn patch changes.patch /path/to/base/working/copy

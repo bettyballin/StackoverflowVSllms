@@ -1,1 +1,0 @@
-pdfgrep -i "search_pattern" file.pdf

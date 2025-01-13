@@ -1,1 +1,0 @@
-cscript adsutil.vbs SET_W3SVC_Metabase_Property "W3SVC/AppPools/DefaultAppPool/Identity" "Network Service"

@@ -1,1 +1,0 @@
-[Flags]\nenum DataGridViewElementStates { ... }\n\n// ...\n\nDataGridViewColumnCollection dgv = myDataGridView.Columns;\nvar firstColumn = dgv.Cast<DataGridViewColumn>()\n                     .FirstOrDefault(c => c.State.HasFlag(DataGridViewElementStates.Visible) \n                                        || c.State.HasFlag(DataGridViewElementStates.Frozen));

@@ -1,1 +1,0 @@
-python PythonCOMServer.py --register

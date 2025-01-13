@@ -1,0 +1,1 @@
+function isValidFile($filename) {\n    $expr = "/^(?!\.{1,2}$).*\.(jpg|jpeg|gif|png)$/i";\n    return preg_match($expr, $filename);\n}

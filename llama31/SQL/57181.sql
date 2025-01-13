@@ -1,0 +1,1 @@
+SELECT * \nFROM your_table \nWHERE DATE(mydate) <= '2008-11-25';

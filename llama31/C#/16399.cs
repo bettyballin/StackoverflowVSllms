@@ -1,1 +1,0 @@
-// Add the following attribute to the AssemblyInfo.cs file\n[assembly: Microsoft.VisualStudio.TestTools.UnitTesting.TestFramework("Microsoft.VisualStudio.TestTools.UnitTesting", "9.0.0.0")]

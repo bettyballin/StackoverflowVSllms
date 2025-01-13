@@ -1,0 +1,1 @@
+CREATE OR REPLACE PACKAGE my_package AS\n  g_default_number NUMBER := 0;\nEND;\n\nCREATE OR REPLACE FUNCTION testFunction\n(\n  varNumber IN NUMBER DEFAULT my_package.g_default_number\n)\nRETURN NUMBER\nAS\nBEGIN\n  dbms_output.put_line(varNumber);\n  RETURN varNumber;\nEND;

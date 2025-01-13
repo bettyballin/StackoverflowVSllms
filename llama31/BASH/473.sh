@@ -1,1 +1,0 @@
-# Create a new repository for a small custom module\ngit init custom-module\n\n# Add the custom module to the main CMS repository as a subtree\ngit subtree add --prefix=custom-module custom-module\n\n# Use Composer to include the custom module as a dependency\ncomposer require --dev custom-module

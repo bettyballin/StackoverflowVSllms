@@ -1,1 +1,0 @@
-trap 'exit' INT TERM\n/path/to/your/applicatio

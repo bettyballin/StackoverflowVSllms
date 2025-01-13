@@ -1,0 +1,1 @@
+$plaintext = 'your data';\n$key = 'your secret key'; // 256-bit key\n$iv = openssl_random_pseudo_bytes(openssl_cipher_iv_length('aes-256-cbc'));\n\n$ciphertext = openssl_encrypt($plaintext, 'aes-256-cbc', $key, 0, $iv);\n\n// Store the IV and ciphertext in your cookie\n$cookieValue = base64_encode($iv . $ciphertext);

@@ -1,0 +1,1 @@
+Dim del As Del = Sub() Console.WriteLine("Hello, World!")\ndel.Invoke()

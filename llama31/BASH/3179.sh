@@ -1,1 +1,0 @@
-msbuild /t:ResolveReferences;Compile /p:Configuration=Debug /p:Platform=AnyCPU YourProject.vbproj

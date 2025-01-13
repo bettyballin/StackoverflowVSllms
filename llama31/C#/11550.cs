@@ -1,1 +1,0 @@
-using System.Data.Entity;\nusing System.Linq;\n\npublic class MyDbContext : DbContext\n{\n    public DbSet<MyTable> MyTables { get; set; }\n}\n\npublic class MyTable\n{\n    public int Id { get; set; }\n    public string Name { get; set; }\n}\n\nvar dbContext = new MyDbContext();\nvar results = dbContext.MyTables.Where(t => t.Name == "John").ToList();

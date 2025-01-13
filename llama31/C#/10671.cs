@@ -1,1 +1,0 @@
-public class MyServiceClient : ClientBase<IMyService>\n{\n    public void Send(Message message)\n    {\n        using (var scope = new OperationContextScope(InnerChannel))\n        {\n            InnerChannel.Send(message);\n        }\n    }\n}

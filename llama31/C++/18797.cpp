@@ -1,1 +1,0 @@
-EktronTelerik::Telerik.Charting.ChartSeries ektronSeries = new EktronTelerik::Telerik.Charting.ChartSeries();\nMyTelerik::Telerik.Charting.ChartSeries mySeries = new MyTelerik::Telerik.Charting.ChartSeries();

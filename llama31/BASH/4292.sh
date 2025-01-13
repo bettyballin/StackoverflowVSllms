@@ -1,1 +1,0 @@
-find ./logs_dir -mmin +58 -print

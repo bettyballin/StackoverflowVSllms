@@ -1,0 +1,1 @@
+DECLARE @LocTotal bigint\n\nSELECT TOP 1 \n    @LocTotal = \n        (cbHPILoc1 * 1) + \n        (cbHPILoc2 * 2) + \n        (cbHPILoc3 * 4) + \n        ... \n        (cbHPILoc25 * 16777216)\nFROM \n    dbo.MyTest_BitMap\nWHERE \n    RecKey = @ID

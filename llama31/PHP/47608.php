@@ -1,0 +1,1 @@
+$queryString = $_SERVER['QUERY_STRING'];\nparse_str($queryString, $queryParams);\n\n// Print the query parameters\nprint_r($queryParams);

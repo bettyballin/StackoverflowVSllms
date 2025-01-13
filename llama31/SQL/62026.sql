@@ -1,0 +1,1 @@
+-- Instead of this:\nDELETE FROM mytable WHERE column = 'value';\n\n-- Run this:\nSELECT * FROM mytable WHERE column = 'value';

@@ -1,1 +1,0 @@
-// Dynamically linking a DLL\n#include <windows.h>\n\nint main() {\n    HMODULE hModule = LoadLibraryA("mylib.dll");\n    if (hModule) {\n        mylib_function = (MYLIB_FUNCTION)GetProcAddress(hModule, "mylib_function");\n        if (mylib_function) {\n            mylib_function();\n        }\n    }\n    return 0;\n}

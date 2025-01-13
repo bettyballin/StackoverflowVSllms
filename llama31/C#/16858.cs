@@ -1,1 +1,0 @@
-dataGridView1.Columns.Clear();\n\nforeach (DataColumn column in aDataSet.aTableName.Columns)\n{\n    var dgvColumn = new DataGridViewColumn\n    {\n        Name = column.ColumnName,\n        HeaderText = column.ColumnName,\n        DataPropertyName = column.ColumnName\n    };\n    dataGridView1.Columns.Add(dgvColumn);\n}\n\ndataGridView1.DataSource = aDataSet.aTableName;

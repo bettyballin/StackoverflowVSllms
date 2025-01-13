@@ -1,1 +1,0 @@
-using System.Net.Http;\n\nvar handler = new HttpClientHandler();\nhandler.UseDefaultCredentials = true;\nhandler.Proxy = WebRequest.DefaultWebProxy;\n\nvar client = new HttpClient(handler);

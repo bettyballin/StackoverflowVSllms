@@ -1,0 +1,1 @@
+App::uses('CakeLog', 'Log');\n\nclass MyModel extends AppModel {\n    public function beforeSave($options = array()) {\n        // ...\n        CakeLog::write('debug', 'Your log message here');\n        // ...\n    }\n}

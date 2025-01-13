@@ -1,0 +1,1 @@
+return [\n    // ...\n    Lexik\Bundle\DBalBrowserBundle\LexikDBalBrowserBundle::class => ['all' => true],\n];

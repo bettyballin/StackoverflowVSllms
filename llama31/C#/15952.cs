@@ -1,1 +1,0 @@
-using System.Web;\n\n// ...\n\nstring userInput = "Some user input";\nstring encodedInput = HttpUtility.HtmlEncode(userInput);\n\n// Use encodedInput in your HTML

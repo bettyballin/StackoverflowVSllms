@@ -1,1 +1,0 @@
-#include <iostream>\n\nextern "C" {\n    void myFunction() {\n        std::cout << "Hello from mylib!" << std::endl;\n    }\n}

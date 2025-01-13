@@ -1,0 +1,1 @@
+$output = addslashes(stripslashes($data));

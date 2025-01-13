@@ -1,1 +1,0 @@
-xsd.exe /c /namespace:MyNamespace MySchema.xsd

@@ -1,0 +1,1 @@
+// Using a token-based approach\nconst csrfToken = '{{ csrf_token }}';\nconst destination = document.querySelector('select[name="destination"]').value;\nwindow.location.href = `/navigate?destination=${destination}&csrf_token=${csrfToken}`;

@@ -1,1 +1,0 @@
-let command = new SqlCommand("sp_getSomeValue", myConnection)\ncommand.CommandType = CommandType.StoredProcedure\ncommand.Parameters.AddWithValue("@theValue", 1)

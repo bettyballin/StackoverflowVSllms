@@ -1,1 +1,0 @@
-[ImportMany(typeof(ILedPanel))]\npublic IEnumerable<ExportFactory<ILedPanel>> PanelFactories { get; set; }

@@ -1,1 +1,0 @@
-objdump -T yourlib.so

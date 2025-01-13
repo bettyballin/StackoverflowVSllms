@@ -1,1 +1,0 @@
-public static bool IsNullOrZero(object obj)\n{\n    return obj == null || obj.Equals(0);\n}

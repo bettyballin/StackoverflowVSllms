@@ -1,0 +1,1 @@
+Dim inputValue As String = "InputValueforWork"\nDim task As Task = Task.Factory.StartNew(Sub() functiontodowork(inputValue))

@@ -1,0 +1,1 @@
+const style = document.createElement('style');\nstyle.type = 'text/css';\nstyle.innerHTML = '#myDiv:hover { background: #000000; }';\ndocument.head.appendChild(style);

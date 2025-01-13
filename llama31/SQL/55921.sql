@@ -1,0 +1,1 @@
+SELECT \n    Field1, \n    Field2, \n    ...,\n    Variance\nFROM \n    VarianceReport\nWHERE \n    OfficeID = @OfficeID

@@ -1,0 +1,1 @@
+SELECT dbo.AddWorkingHours('2009-06-26 15:45:00', '1900-01-01 09:00:00')\nSELECT dbo.AddWorkingHours('2009-07-12 14:22:36', '1900-01-01 18:00:00')\nSELECT dbo.AddWorkingHours('2009-07-15 08:50:00', '1900-01-01 04:00:00')

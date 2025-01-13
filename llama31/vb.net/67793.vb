@@ -1,0 +1,1 @@
+<script runat="server" strict="true" infer="true">\n    Protected Sub Page_Load(ByVal sender As Object, ByVal e As System.EventArgs)\n\n    End Sub\n</script>

@@ -1,0 +1,1 @@
+header('Content-Type: application/pdf');\nheader('Content-Disposition: attachment; filename="yourfile.pdf"');\nheader('Content-Transfer-Encoding: binary');

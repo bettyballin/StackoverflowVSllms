@@ -1,0 +1,1 @@
+$filec = fopen('test.txt', 'r+');\n$arr = file('test.txt');\nrewind($filec); // Reset the file pointer to the beginning\nforeach ($arr as $key => $value) {\n    fwrite($filec, $value);\n}\nfclose($filec);

@@ -1,0 +1,1 @@
+CREATE TABLE #tmp (\n  primary_key INT,\n  ...\n);\n\nINSERT INTO #tmp\nSELECT * FROM active\nWHERE ...;\n\nINSERT INTO inactive\nSELECT * FROM #tmp;\n\nDELETE FROM active\nWHERE primary_key IN (SELECT primary_key FROM #tmp);\n\nDROP TABLE #tmp;

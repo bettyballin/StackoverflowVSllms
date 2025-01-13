@@ -1,1 +1,0 @@
-# Create a new task\nschtasks /create /tn "MyTask" /tr "C:\Path\To\Your\Executable.exe" /sc onstart /ru SYSTEM

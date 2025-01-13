@@ -1,0 +1,1 @@
+CREATE OR REPLACE FUNCTION create_new_year_tables()\nRETURNS void AS $$\nBEGIN\n    CREATE TABLE orders_2023 (LIKE orders_2022 INCLUDING ALL);\n    ALTER TABLE items_2023\n        DROP CONSTRAINT "$1";\n    ALTER TABLE items_2023\n        ADD CONSTRAINT "$1" FOREIGN KEY (order_id) REFERENCES orders_2023(id) ON DELETE CASCADE;\nEND;\n$$ LANGUAGE plpgsql;

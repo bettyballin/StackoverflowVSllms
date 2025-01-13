@@ -1,0 +1,1 @@
+SELECT i.* \nFROM items i \nWHERE i.id IN (\n  SELECT it.item_id \n  FROM item_tags it \n  WHERE it.tag_id IN (SELECT id FROM tags WHERE name IN ('tag1', 'tag2', ...))\n  GROUP BY it.item_id \n  HAVING COUNT(DISTINCT it.tag_id) = <number_of_tags>\n);

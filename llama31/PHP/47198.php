@@ -1,0 +1,1 @@
+function is_ascii($file_path) {\n    $fp = fopen($file_path, 'r');\n    $contents = fread($fp, 1024);\n    fclose($fp);\n    return !preg_match('/[^\x20-\x7E]/', $contents);\n}

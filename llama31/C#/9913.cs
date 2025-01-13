@@ -1,1 +1,0 @@
-using (var writer = new StreamWriter("file.txt", FileMode.Create, FileAccess.Write, FileShare.None, 4096, FileOptions.DeleteOnClose))\n{\n    writer.Write(i);\n}

@@ -1,1 +1,0 @@
-using System.Windows.Input;\n\npublic System.Windows.Input.Key ResolveKey(char charToResolve)\n{\n    KeyConverter kc = new KeyConverter();\n    return (Key)kc.ConvertFrom(charToResolve.ToString());\n}

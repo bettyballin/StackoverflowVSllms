@@ -1,0 +1,1 @@
+SELECT s1.* \nFROM score s1\nJOIN (\n  SELECT game_id, thescore, \n  @cur_rank := IF(@prev_game = game_id, @cur_rank + 1, 1) AS rank,\n  @prev_game := game_id\n  FROM score, (SELECT @cur_rank := 0, @prev_game := 0) r\n  ORDER BY game_id, thescore DESC\n) s2\nON s1.game_id = s2.game_id AND s1.thescore = s2.thescore AND s2.rank <= 3\nWHERE s1.user_id = [your_user_id];

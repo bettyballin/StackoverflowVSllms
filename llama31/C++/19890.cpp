@@ -1,1 +1,0 @@
-ADODB::_CommandPtr cmd = NULL;\ncmd.CreateInstance(__uuidof(ADODB::Command));\ncmd->ActiveConnection = oDatabase.m_pConnection;\ncmd->CommandText = sQuery;\ncmd->CommandType = ADODB::adCmdText;\n\ntry {\n    cmd->Execute(NULL, NULL, ADODB::adExecuteNoRecords);\n} catch (_com_error& e) {\n    // Handle the error\n}

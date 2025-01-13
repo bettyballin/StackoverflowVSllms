@@ -1,1 +1,0 @@
-protected override void LoadViewState(object savedState)\n{\n    var guid = (Guid)savedState;\n    var viewState = ViewStateStore.GetViewState(guid);\n    base.LoadViewState(viewState);\n}

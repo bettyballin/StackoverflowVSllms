@@ -1,1 +1,0 @@
-string imei = telephony.GetIMEI();

@@ -1,0 +1,1 @@
+CREATE PROCEDURE UpdateTable\n    @ID INT,\n    @Column1 VARCHAR(50),\n    @Column2 INT\nAS\nBEGIN\n    UPDATE YourTable\n    SET \n        Column1 = COALESCE(@Column1, Column1),\n        Column2 = COALESCE(@Column2, Column2)\n    WHERE ID = @ID\nEND

@@ -1,1 +1,0 @@
-byte[] assemblyBytes = File.ReadAllBytes("path/to/assembly.dll");\nAssembly assembly = Assembly.Load(assemblyBytes);

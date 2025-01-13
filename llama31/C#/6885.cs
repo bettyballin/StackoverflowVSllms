@@ -1,1 +1,0 @@
-public void MyMethod([NotNull] string param)\n{\n    // ...\n}\n\npublic string MyProperty { [CanBeNull] get; set; }

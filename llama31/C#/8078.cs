@@ -1,1 +1,0 @@
-public class MyController : Controller\n{\n  [HttpPost]\n  public JsonResult GetDate()\n  {\n    return Json(DateTime.Now);\n  }\n}

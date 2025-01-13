@@ -1,0 +1,1 @@
+$array = array(\n    "Part1" => array(\n        "Subpart1" => array(0, 1),\n        "Subpart2" => array(1, 0)\n    ),\n    "Part2" => array(0),\n    "Part3" => array(0, 1, 0)\n);\n\n$jsonArray = json_encode($array);\n\n$stmt = $mysqli->prepare("INSERT INTO table_name (array_column) VALUES (?)");\n$stmt->bind_param("s", $jsonArray);\n$stmt->execute();

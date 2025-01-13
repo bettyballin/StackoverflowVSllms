@@ -1,1 +1,0 @@
-using System;\n\npublic static int GetInt32FromGuid(Guid guid)\n{\n    Span<byte> bytes = stackalloc byte[4];\n    guid.TryWriteBytes(bytes);\n    return MemoryMarshal.ReadInt32(bytes);\n}

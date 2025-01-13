@@ -1,1 +1,0 @@
-dataGridView1.DataSource = bazList;\ndataGridView1.AutoGenerateColumns = true;

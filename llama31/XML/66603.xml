@@ -1,0 +1,1 @@
+<config>\n    <modules>\n        <MyCompany_MyModule>\n            <active>true</active>\n            <codePool>local</codePool>\n        </MyCompany_MyModule>\n    </modules>\n</config>

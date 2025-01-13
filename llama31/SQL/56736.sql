@@ -1,0 +1,1 @@
+SELECT * FROM search_index\nJOIN mytable ON search_index.mytable_id = mytable.id\nJOIN category ON mytable.category_id = category.id\nJOIN geographic_location ON mytable.location_id = geographic_location.id\nWHERE MATCH (search_data) AGAINST ('word1 word2 word3' IN NATURAL LANGUAGE MODE)\nAND status = 'live'\nAND geographic_location.distance <= 10; // example filter

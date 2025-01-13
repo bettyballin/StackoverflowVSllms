@@ -1,1 +1,0 @@
-pRend->cp->Release(); // decrement reference count

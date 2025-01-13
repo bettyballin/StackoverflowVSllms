@@ -1,0 +1,1 @@
+SELECT [SessionId], [Item] \nFROM [ASPStateTempSessions] \nWHERE [SessionId] = @SessionId

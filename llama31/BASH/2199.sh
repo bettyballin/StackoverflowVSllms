@@ -1,1 +1,0 @@
-curl -x http://proxy_server:port --proxy-user username:password http://example.com

@@ -1,1 +1,0 @@
-using SubSonic;\n\n// Define your model\n[SubSonicTable]\npublic class MyEntity\n{\n    [SubSonicPrimaryKey]\n    public int Id { get; set; }\n}\n\n// Initialize SubSonic\nSubSonicRepository.Instance.Initialize();\n\n// Update the schema\nSubSonicRepository.Instance.CreateSchema();

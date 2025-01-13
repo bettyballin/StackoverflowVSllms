@@ -1,0 +1,1 @@
+// PHP\n$name = $_GET['name'];

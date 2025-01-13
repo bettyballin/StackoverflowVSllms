@@ -1,0 +1,1 @@
+<e>\n  <xsl:for-each select="$A/a/b[text() = $B/c/d/text()]">\n    <xsl:element name="f">\n      <xsl:attribute name="i">\n        <xsl:value-of select="position()" />\n      </xsl:attribute>\n      <xsl:copy-of select="text()" />\n    </xsl:element>\n  </xsl:for-each>\n</e>

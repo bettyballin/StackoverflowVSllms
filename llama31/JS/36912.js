@@ -1,0 +1,1 @@
+<script type="text/javascript">\n    function RemoveFromOnlineUsers() {\n        debugger;\n        if ($.browser.msie) {\n            alert("this is msie!");\n        }\n\n        $.post("../Main/FloatingWindowAjax.aspx", { REMOVEONLINEUSER: "<%=Master.UserId.ToString() %>" });\n\n        return false;\n    }\n    window.onbeforeunload = RemoveFromOnlineUsers;\n</script>

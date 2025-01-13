@@ -1,0 +1,1 @@
+Dim originalDate As String\noriginalDate = "2/31/2006"\n\nDim convertedDate As String\nconvertedDate = Format(CDate(originalDate), "dd-mmm-yyyy")\n\nDebug.Print convertedDate ' outputs: 31-Feb-2006

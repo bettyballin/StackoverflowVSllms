@@ -1,0 +1,1 @@
+import sys\n\nif sys.flags.inspect:\n    print("Inspection mode is enabled")\n\nif sys.flags.interactive:\n    print("Interactive mode is enabled")

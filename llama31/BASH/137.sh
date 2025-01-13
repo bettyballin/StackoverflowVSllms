@@ -1,1 +1,0 @@
-# Open the Extensions view in VS Code\nCtrl + Shift + X (Windows/Linux) or Cmd + Shift + X (macOS)\n\n# Search for PHP IntelliSense\next install php intellisense\n\n# Install the extension\nClick the Install butto

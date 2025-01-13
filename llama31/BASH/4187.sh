@@ -1,1 +1,0 @@
-sed 's/\r$//' your_script.sql > new_script.sql

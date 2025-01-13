@@ -1,1 +1,0 @@
-iptables -A INPUT -p tcp --dport 4369 -j ACCEPT\niptables -A INPUT -p tcp --dport 4370 -j ACCEPT

@@ -1,0 +1,1 @@
+points = [(6, 2, 6.1580555555555554), (2, 1, 5.4861111111111107), ...]\nthreshold_distance = 5\nfiltered_points = filter_nearby_points(points, threshold_distance)\nprint(filtered_points)

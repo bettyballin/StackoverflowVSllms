@@ -1,0 +1,1 @@
+require 'ev3'\n\n# Connect to the EV3 brick\nev3 = EV3.new\n\n# Play a beep\nev3.speaker.beep

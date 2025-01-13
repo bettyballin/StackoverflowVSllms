@@ -1,0 +1,1 @@
+import time\nimport datetime\n\ndef generate_timestamp():\n    timestamp = time.perf_counter()\n    return datetime.datetime.fromtimestamp(timestamp)\n\n# Example usage:\nfor i in range(1000):\n    timestamp = generate_timestamp()\n    print(timestamp)

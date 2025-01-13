@@ -1,0 +1,1 @@
+$var = 'test';\nunset($var); // $var is no longer accessible

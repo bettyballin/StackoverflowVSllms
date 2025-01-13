@@ -1,1 +1,0 @@
-// Example of creating a desktop window with Xamarin.Forms\nusing Xamarin.Forms;\n\nnamespace MyDesktopApp\n{\n    public class App : Application\n    {\n        public App()\n        {\n            MainPage = new Label { Text = "Hello, World!" };\n        }\n    }\n}

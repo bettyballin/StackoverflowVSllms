@@ -1,0 +1,1 @@
+$(window).on('popstate', function(event) {\n  // The user has navigated back to a previous page\n  // You can update your application state here\n});

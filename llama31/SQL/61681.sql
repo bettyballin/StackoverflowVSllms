@@ -1,0 +1,1 @@
+SELECT first_name, last_name FROM v_player WHERE last_name like ')); DROP TABLE t_player; --%'

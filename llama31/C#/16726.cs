@@ -1,1 +1,0 @@
-// Use Secure and HttpOnly cookies\nResponse.Cookies["ASP.NET_SessionId"].Secure = true;\nResponse.Cookies["ASP.NET_SessionId"].HttpOnly = true;

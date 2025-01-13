@@ -1,1 +1,0 @@
-./b2 --with-atomic=spinlock --toolset=gcc-arm --prefix=/path/to/installation install

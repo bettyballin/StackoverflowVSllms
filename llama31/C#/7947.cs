@@ -1,1 +1,0 @@
-Event[] events = new Event[] {\n    new Event(0L, 0),\n    new Event(1L, 1),\n    new Event(1L, 2),\n    new Event(2L, 3)\n};

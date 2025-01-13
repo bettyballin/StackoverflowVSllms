@@ -1,0 +1,1 @@
+$(document).ready(function () {\n    $('#tabs').tabs({\n        selected: 3,\n        load: function(event, ui) {\n            if (ui.tab.href != "#manageallusers") {\n                $("#manageallusers").hide();\n            } else {\n                $("#manageallusers").show();\n            }\n        }\n    });\n});

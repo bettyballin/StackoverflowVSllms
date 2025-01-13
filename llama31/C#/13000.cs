@@ -1,1 +1,0 @@
-[DllImport("user32.dll")]\nstatic extern IntPtr GetWindowLong(IntPtr hWnd, int nIndex);\n\n// ...\n\nIntPtr currentOwner = GetWindowLong(formHandle, GWLP_HWNDPARENT);\nSetWindowLong(formHandle, GWLP_HWNDPARENT, handle);

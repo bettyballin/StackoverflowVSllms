@@ -1,0 +1,1 @@
+$strings = array('>Data 1-23</a>', '>Datkl3</a>', '>RA Ndom</a>');\n\n$pattern = '/>(.*?)<\/a>/';\n\n$matches = array();\n\nforeach ($strings as $string) {\n    preg_match($pattern, $string, $match);\n    $matches[] = $match[1];\n}\n\nprint_r($matches);

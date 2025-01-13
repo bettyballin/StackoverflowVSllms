@@ -1,1 +1,0 @@
-class NeutralSharedPtr {\npublic:\n    NeutralSharedPtr(void* ptr) : ptr_(ptr) {}\n    ~NeutralSharedPtr() { /* delete ptr_ or handle destruction */ }\n\n    void* get() const { return ptr_; }\n\n    // Optional: add shared_ptr-like methods (e.g., reset, swap)\n\nprivate:\n    boost::shared_ptr<void> ptr_;\n};

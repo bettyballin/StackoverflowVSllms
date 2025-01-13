@@ -1,1 +1,0 @@
-ssh-keygen -c -C "mynewcomment" -f path/to/existing/key

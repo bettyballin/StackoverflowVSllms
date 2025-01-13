@@ -1,0 +1,1 @@
+CREATE TABLE appointments (\n    id INT AUTO_INCREMENT PRIMARY KEY,\n    title VARCHAR(255),\n    type ENUM('meeting', 'event', 'reminder'),\n    start_time DATETIME,\n    end_time DATETIME,\n    description TEXT\n);

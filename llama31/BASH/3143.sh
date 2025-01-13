@@ -1,1 +1,0 @@
-#!/bin/bash\n\n# Install the service\nmono-service -l:/etc/mono/MyLinuxService.exe MyLinuxService.exe\n\n# Start the service\nmono-service -s:/etc/mono/MyLinuxService.exe

@@ -1,0 +1,1 @@
+// PHP code to process only visible fields\n$visibleFields = explode(',', $_POST['visibleFields']);\nforeach ($visibleFields as $field) {\n    if (isset($_POST[$field])) {\n        // Process the field\n    }\n}

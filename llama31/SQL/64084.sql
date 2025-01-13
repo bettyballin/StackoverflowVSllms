@@ -1,0 +1,1 @@
+CREATE EXTENSION pg_stat_statements;\nSELECT * FROM pg_stat_statements ORDER BY total_time DESC;

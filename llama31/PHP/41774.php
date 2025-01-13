@@ -1,0 +1,1 @@
+$doc = new DOMDocument();\n$doc->load('yourfile.xml');\n\n$xpath = new DOMXPath($doc);\n$comments = $xpath->query("//comment()");\n\nforeach ($comments as $comment) {\n    echo $comment->nodeValue . "\n";\n}

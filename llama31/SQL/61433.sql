@@ -1,0 +1,1 @@
+DECLARE @value sql_variant = 123;\n\nSELECT \n    SQL_VARIANT_PROPERTY(@value, 'BaseType') AS BaseType,\n    SQL_VARIANT_PROPERTY(@value, 'Precision') AS Precision,\n    SQL_VARIANT_PROPERTY(@value, 'Scale') AS Scale;

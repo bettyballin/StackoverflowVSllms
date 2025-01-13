@@ -1,0 +1,1 @@
+$inbox = $db->Query("SELECT * FROM mail_inbox");\n$outbox = $db->Query("SELECT * FROM mail_outbox");\n\n$output = array();\n\nforeach($inbox as $key => $array) {\n  $output['Inbox']['id'][] = $array['msg_seq'];\n}\n\nforeach($outbox as $key => $array) {\n  $output['Outbox']['id'][] = $array['msg_seq'];\n}\n\nprint_r($output);

@@ -1,1 +1,0 @@
-[ComVisible(true)]\n[Guid("your-guid-here")]\npublic interface IReadStream\n{\n    int Read(byte[] buffer, int offset, int count);\n}

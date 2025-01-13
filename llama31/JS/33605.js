@@ -1,0 +1,1 @@
+const lang = $(document.documentElement).attr("lang");\nconsole.log(lang); // Output: "en"

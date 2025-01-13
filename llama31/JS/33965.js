@@ -1,0 +1,1 @@
+var str = "<h2>{title}</h2><p><a href=\"{url}\">{content}</a></p>";\nvar pattern = /\{([a-zA-Z0-9_]+)\}/g;\nvar match;\n\nvar matches = [];\nwhile ((match = pattern.exec(str)) !== null) {\n    matches.push(match[1]); // match[1] refers to the captured group within the parentheses\n}\n\nconsole.log(matches);

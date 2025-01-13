@@ -1,1 +1,0 @@
-git restore path/to/your/file

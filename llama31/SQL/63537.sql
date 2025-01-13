@@ -1,0 +1,1 @@
+SELECT *\nFROM tab1\nWHERE id IN (SELECT id FROM tab2 WHERE condition = 'your_condition');

@@ -1,1 +1,0 @@
-using System.Management.Automation;\n\n// Create a PowerShell engine\nPowerShell ps = PowerShell.Create();\n\n// Execute a PowerShell script\nps.AddScript("your_script.ps1");\nps.Invoke();

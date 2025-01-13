@@ -1,0 +1,1 @@
+INSERT INTO item_relations (item1ID, item2ID)\nVALUES\n  (1, 123),\n  (1, 12),\n  (1, 45),\n  (1, 22),\n  (1, 456),\n  (2, 5),\n  (2, 234),\n  (2, 56);

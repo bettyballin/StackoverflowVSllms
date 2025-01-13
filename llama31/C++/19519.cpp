@@ -1,1 +1,0 @@
-QSqlTableModel *sqlmodel = new QSqlTableModel();\n\nsqlmodel->setTable("Names");\nsqlmodel->setEditStrategy(QSqlTableModel::OnFieldChange);\nsqlmodel->select();\n\ntableView->setModel(sqlmodel);\ntableView->hideColumn(0); // hide primary key column\ntableView->show();

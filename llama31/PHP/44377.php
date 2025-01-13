@@ -1,0 +1,1 @@
+if ($_SERVER['HTTP_HOST'] !== 'www.domain.com') {\n    header('HTTP/1.1 403 Forbidden');\n    exit;\n}

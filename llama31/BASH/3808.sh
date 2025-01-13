@@ -1,1 +1,0 @@
-# Stash all changes\ngit stash\n\n# Create a new branch for the isolated change\ngit checkout -b isolated-change\n\n# Apply only the changes related to task ABC\ngit apply --index stash@{0} <path/to/abc/files>\n\n# Build and test the EXE\n# ...\n\n# Switch back to the original branch\ngit checkout master\n\n# Drop the isolated branch\ngit branch -D isolated-change

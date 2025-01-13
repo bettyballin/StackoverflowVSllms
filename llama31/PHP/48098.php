@@ -1,0 +1,1 @@
+// application/models/data_model.php\nclass Data_model extends CI_Model {\n    public function format_string($str) {\n        // formatting logic here\n        return $str;\n    }\n}

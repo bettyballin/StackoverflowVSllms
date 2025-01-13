@@ -1,0 +1,1 @@
+SELECT IF(payment1_paid AND payment2_paid, TRUE, FALSE) AS paid_in_full\nFROM denormalized_payments\nWHERE payment1_type = 'check';

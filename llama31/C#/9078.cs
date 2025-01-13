@@ -1,1 +1,0 @@
-[Route("users/{username}/bookmarks")]\npublic IActionResult GetBookmarks(string username)\n{\n    // Return the bookmarks for the user\n}\n\n[Route("users/{username}/bookmarks/{bookmarkid}")]\n[HttpPut]\npublic IActionResult UpdateBookmark(string username, int bookmarkid, Bookmark bookmark)\n{\n    // Update the bookmark for the user\n}

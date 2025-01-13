@@ -1,1 +1,0 @@
-// Create a test class for the selected component and write a single test method.\n[TestMethod]\npublic void TestComponentBehavior()\n{\n    // Arrange\n    var component = new Component();\n\n    // Act\n    var result = component.DoSomething();\n\n    // Assert\n    Assert.AreEqual(expectedResult, result);\n}

@@ -1,1 +1,0 @@
-public bool Equals(MyClass obj)\n{\n    return obj != null\n        && SomeValue1.Equals(obj.SomeValue1)\n        && SomeValue2.Equals(obj.SomeValue2);\n}

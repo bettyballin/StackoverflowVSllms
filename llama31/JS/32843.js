@@ -1,0 +1,1 @@
+var amountDue = document.getElementById('<%= FeeDue.ClientID %>');\nvar amountPaid = document.getElementById('<%= FeePaid.ClientID %>');

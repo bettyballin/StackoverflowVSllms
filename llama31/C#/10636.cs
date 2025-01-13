@@ -1,1 +1,0 @@
-if (!DateTime.TryParse(startDateTextBox.Text, out DateTime startDate))\n{\n    startDateTextBox.Text = DateTime.Today.ToShortDateString();\n}

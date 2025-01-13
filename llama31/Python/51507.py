@@ -1,0 +1,1 @@
+lat = 37.7749  # latitude in degrees\nlon = -122.4194  # longitude in degrees\nalt = 0  # altitude in meters\n\nx, y, z = latlon_to_cartesian(lat, lon, alt)\nprint(f"Cartesian coordinates: ({x:.2f}, {y:.2f}, {z:.2f})")

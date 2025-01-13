@@ -1,0 +1,1 @@
+<?php\nrequire_once 'Zend/Loader/Autoloader.php';\n\n$autoloader = Zend_Loader_Autoloader::getInstance();\n$autoloader->registerNamespace('YourAppNamespace');

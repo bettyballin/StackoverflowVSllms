@@ -1,1 +1,0 @@
-echo "LoadModule php7_module /usr/lib64/apache2/modules/libphp7.so" >> /etc/apache2/httpd.conf

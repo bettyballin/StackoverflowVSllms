@@ -1,1 +1,0 @@
-// In your Controller\npublic ActionResult Index()\n{\n    var model = new List<MyModel>();\n    // populate model\n    return View(model);\n}\n\n// In your View\n@Html.Grid(Model).Columns(column =>\n{\n    column.For(m => m.Name).Named("Name");\n    column.For(m => m.Description).Named("Description");\n})

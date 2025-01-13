@@ -1,1 +1,0 @@
-openssl verify -CApath <trusted_certificates_folder> <server_certificate>

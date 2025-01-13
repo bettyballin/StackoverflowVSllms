@@ -1,1 +1,0 @@
-template<class X>\nclass MyClass : Derived {\nprivate:\n    explicit MyClass(const MyClass& ) : x() {}\npublic:\n    MyClass(const X& value) : x(value) {}\n};

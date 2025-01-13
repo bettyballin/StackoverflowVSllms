@@ -1,0 +1,1 @@
+/** @var string $myvar Holds path to the remote server */\n$myvar = ...;

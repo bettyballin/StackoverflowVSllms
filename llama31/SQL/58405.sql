@@ -1,0 +1,1 @@
+CREATE SCHEMA target_schema;\nSELECT * INTO target_schema FROM source_schema;

@@ -1,0 +1,1 @@
+CREATE TABLE products (\n  id INT PRIMARY KEY,\n  name VARCHAR(255),\n  price DECIMAL(10, 2)\n);\n\nCREATE TABLE product_history (\n  id INT PRIMARY KEY,\n  product_id INT UNIQUE,\n  change_date DATE,\n  old_price DECIMAL(10, 2),\n  FOREIGN KEY (product_id) REFERENCES products(id)\n);

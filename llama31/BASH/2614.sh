@@ -1,1 +1,0 @@
-sudo -g developers /usr/bin/svn update /server/staging

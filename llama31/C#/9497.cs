@@ -1,1 +1,0 @@
-int i = 0;\nwhile (i < temp.Count)\n{\n    if (temp[i].Count == 1)\n    {\n        temp.RemoveAt(i);\n    }\n    else\n    {\n        i++;\n    }\n}

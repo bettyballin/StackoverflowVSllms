@@ -1,0 +1,1 @@
+// Server-side error handling example (PHP)\nif ($loginFailed) {\n    header('HTTP/1.1 401 Unauthorized');\n    exit('Invalid credentials');\n}

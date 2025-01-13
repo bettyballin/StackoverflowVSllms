@@ -1,0 +1,1 @@
+sp_add_agent_profile @profile_id = ' Snapshot Agent Profile', \n                     @agent_type = 'Snapshot', \n                     @profile_name = 'Snapshot Agent Profile with Compression'\n\nsp_add_agent_parameter @profile_id = 'Snapshot Agent Profile', \n                       @parameter_name = 'UseCompression', \n                       @parameter_value = '1'

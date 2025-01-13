@@ -1,1 +1,0 @@
-@media print {\n  body:after {\n    content: url(/print-tracker.png);\n  }\n}

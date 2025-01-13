@@ -1,0 +1,1 @@
+// Ajax request using jQuery\n$.ajax({\n    type: "POST",\n    url: "/myServlet",\n    data: JSON.stringify(myData),\n    contentType: "application/json; charset=utf-8",\n    dataType: "json",\n    success: function(data) {\n        // Handle response\n    }\n});

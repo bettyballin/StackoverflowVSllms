@@ -1,0 +1,1 @@
+$adapter = new Zend_ProgressBar_Adapter_JsPush();\n$adapter->addElement(new Zend_ProgressBar_Element_Text());

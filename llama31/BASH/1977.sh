@@ -1,1 +1,0 @@
-# Uncompress the file\ngunzip -f data.Z\n\n# Import the data into SQL Server\nbcp YourDatabase.YourTable in data.txt -T -c -S YourServerName -U YourUsername -P YourPassword

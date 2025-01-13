@@ -1,1 +1,0 @@
-public partial class EventLogViewer : System.Web.UI.Page\n{\n    protected void Page_Load(object sender, EventArgs e)\n    {\n        EventLogReader reader = new EventLogReader("Application");\n        GridView1.DataSource = reader;\n        GridView1.DataBind();\n    }\n}

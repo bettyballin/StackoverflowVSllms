@@ -1,1 +1,0 @@
-[OperationBehavior(Impersonation = ImpersonationOption.Required, ImpersonationLevel = TokenImpersonationLevel.Identification)]\npublic void MyOperation(int arg)

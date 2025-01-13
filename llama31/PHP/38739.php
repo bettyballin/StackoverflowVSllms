@@ -1,0 +1,1 @@
+$sessionVar = $_SESSION['foo'];\nif (is_serialized($sessionVar)) {\n    echo "The session variable is a serialized object.";\n} else {\n    echo "The session variable is not a serialized object.";\n}

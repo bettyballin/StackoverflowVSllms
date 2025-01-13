@@ -1,0 +1,1 @@
+$('#myCheckbox').click();\n\n// or, to toggle the checkbox state\n$('#myCheckbox').prop('checked', !$('#myCheckbox').prop('checked'));

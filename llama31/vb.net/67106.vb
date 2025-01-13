@@ -1,0 +1,1 @@
+Me.ToolStrip1.Dock = System.Windows.Forms.DockStyle.Top

@@ -1,0 +1,1 @@
+$.ajax({\n  // your AJAX settings here\n  beforeSend: function() {\n    $('#loading').fadeIn(); // fade in the loading animation\n  },\n  complete: function() {\n    $('#loading').fadeOut(); // fade out the loading animation\n  }\n});

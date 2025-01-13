@@ -1,0 +1,1 @@
+CREATE TABLE Employees (\n    EmployeeId UNIQUEIDENTIFIER PRIMARY KEY DEFAULT (NEWID()),\n    Name VARCHAR(50),\n    Email VARCHAR(100)\n);

@@ -1,1 +1,0 @@
-public class Account\n{\n    public string Code { get; set; }\n    public decimal Amount { get; set; }\n}\n\npublic class Detail\n{\n    public string Code { get; set; }\n    public int EID { get; set; }\n}\n\npublic class AccEntry\n{\n    public int EID { get; set; }\n    public DateTime EDate { get; set; }\n}

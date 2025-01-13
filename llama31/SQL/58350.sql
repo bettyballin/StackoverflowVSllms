@@ -1,0 +1,1 @@
+ALTER TABLE your_table NOCHECK CONSTRAINT ALL;\n-- Import your data here\nALTER TABLE your_table CHECK CONSTRAINT ALL;

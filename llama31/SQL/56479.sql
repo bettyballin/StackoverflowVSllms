@@ -1,0 +1,1 @@
+SELECT * FROM match m\nWHERE NOT EXISTS (\n  SELECT 1 FROM email e WHERE e.id = m.id\n);

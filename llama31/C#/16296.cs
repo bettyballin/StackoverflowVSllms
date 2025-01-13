@@ -1,1 +1,0 @@
-[ComImport]\n[Guid("75400500-939F-11D4-9E44-0050040CE72C")]\n[InterfaceType(ComInterfaceType.InterfaceIsIUnknown)]\npublic interface IResSrvDll\n{\n    int ResObjOpen(string aClientID, string aClientSubID, string aResFileName, int aResShared);\n}

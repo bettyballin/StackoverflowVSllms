@@ -1,1 +1,0 @@
-regsvr32 /i <component_dll>

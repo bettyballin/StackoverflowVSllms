@@ -1,1 +1,0 @@
-// my_api.h\nvoid* my_api_create(void);\nvoid my_api_destroy(void*);\n\n// my_api.c\nvoid* my_api_create(void) {\n    // allocate memory and initialize the object\n    return malloc(sizeof(MyObject));\n}\n\nvoid my_api_destroy(void* obj) {\n    // perform any necessary cleanup\n    free(obj);\n}

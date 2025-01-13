@@ -1,0 +1,1 @@
+def app_session\n  session[@current_app[:uid]]\nend

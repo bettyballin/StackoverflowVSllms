@@ -1,0 +1,1 @@
+list1, list2 = map(list, zip(*data))\nprint(list1)  # prints: [1, 40, 9]\nprint(list2)  # prints: [2, 2, 80]

@@ -1,1 +1,0 @@
-// Using the DLL version of the runtime library\n#pragma comment(lib, "msvcrt.lib")\n\n// Using the static version of the runtime library\n#pragma comment(lib, "libcmt.lib")

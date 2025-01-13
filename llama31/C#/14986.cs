@@ -1,1 +1,0 @@
-partial class MyTable\n{\n    partial void OnCreated()\n    {\n        MyDataContext context = (MyDataContext)DataContext;\n        string contextValue = context.MyValue;\n    }\n}

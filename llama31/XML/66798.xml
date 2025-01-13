@@ -1,0 +1,1 @@
+<ftpServer>\n  <host>ftp.example.com</host>\n  <port>21</port>\n  <username>username</username>\n  <password>password</password>\n  <syncLocalFiles>true</syncLocalFiles>\n  <localSyncDir>/path/to/local/sync/directory</localSyncDir>\n</ftpServer>

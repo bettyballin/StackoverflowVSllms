@@ -1,1 +1,0 @@
-awk '$2 == "qux" { $2 = "" } { print }' your_file

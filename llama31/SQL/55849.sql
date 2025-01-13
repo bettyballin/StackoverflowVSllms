@@ -1,0 +1,1 @@
+CREATE SEQUENCE Seq_AutoKey\n    START WITH 1\n    INCREMENT BY 1;\n\nINSERT INTO Temp2 (id, fkTemp1, data)\nSELECT NEXT VALUE FOR Seq_AutoKey, t1.id, t1.data\nFROM Temp1 t1\nLEFT JOIN Temp2 t2 ON t2.fkTemp1 = t1.id\nWHERE t2.id IS NULL;

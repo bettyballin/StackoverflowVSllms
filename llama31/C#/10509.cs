@@ -1,1 +1,0 @@
-using (SqlCommand searchResult = new SqlCommand("SELECT ItemID, Name, RelDate, Price, Status FROM item_k WHERE itemID IN (SELECT value FROM STRING_SPLIT(@itemIDs, ','))", searchCon))

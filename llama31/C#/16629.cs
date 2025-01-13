@@ -1,1 +1,0 @@
-XPathExpression expr = navigator.Compile("/*");\nexpr.SetContext(namespaceManager);

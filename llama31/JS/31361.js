@@ -1,0 +1,1 @@
+// assuming you have a form with id "searchForm"\n$("#searchForm").submit(function(e) {\n  e.preventDefault(); // prevent default form submission\n  $.ajax({\n    type: "POST",\n    url: "/yourServletUrl",\n    data: $(this).serialize(),\n    success: function(data) {\n      // display the results below the form\n      $("#results").html(data);\n    }\n  });\n});

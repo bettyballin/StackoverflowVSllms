@@ -1,0 +1,1 @@
+date_default_timezone_set('Europe/Stockholm');\n$timestamp = time();\necho date('M d, H:i', $timestamp);

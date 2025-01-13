@@ -1,0 +1,1 @@
+jQuery.validator.addMethod("csv", function(value, element) {\n  return this.optional(element) || /^(\w+)(,\w+)*$/.test(value);\n}, "Must be comma separated if entering multiple values: value1,value2");

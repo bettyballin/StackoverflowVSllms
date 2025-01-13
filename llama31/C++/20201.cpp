@@ -1,1 +1,0 @@
-#pragma GCC diagnostic push\n#pragma GCC diagnostic error "-Wuninitialized"\n// your code here\n#pragma GCC diagnostic pop

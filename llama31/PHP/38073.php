@@ -1,0 +1,1 @@
+// application/modules/module1/plugins/MyPlugin.php\nclass Module1_MyPlugin extends Zend_Plugin_Abstract\n{\n    public function preDispatch(Zend_Controller_Request_Http $request)\n    {\n        // do something before dispatch\n    }\n}

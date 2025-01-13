@@ -1,0 +1,1 @@
+-- Check current edition\nSELECT SERVERPROPERTY('Edition') AS Edition;\n\n-- Check current version\nSELECT @@VERSION AS Version;

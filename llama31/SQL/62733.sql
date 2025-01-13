@@ -1,0 +1,1 @@
+INSERT INTO OPENROWSET('MSXML2.XMLHTTP', 'C:\your_file.xml')\nSELECT *\nFROM your_table\nFOR XML PATH('your_root_element'), ROOT('your_root_element')

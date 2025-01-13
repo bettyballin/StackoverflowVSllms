@@ -1,1 +1,0 @@
-[ComVisible(true)]\npublic class MyExposedClass\n{\n    // ...\n}

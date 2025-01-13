@@ -1,1 +1,0 @@
-template <typename ForwardIterator, typename T>\nForwardIterator binary_search(ForwardIterator first, ForwardIterator last, const T& value) {\n    auto it = std::lower_bound(first, last, value);\n    if (it != last && *it == value) {\n        return it;\n    } else {\n        return last;\n    }\n}

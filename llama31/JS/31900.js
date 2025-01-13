@@ -1,0 +1,1 @@
+$.ajax({\n    type: "GET",\n    url: "/api/users",\n    success: function(data) {\n        console.log(data);\n    }\n});

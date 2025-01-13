@@ -1,0 +1,1 @@
+$.ajax({\n    type: "post",\n    url: "http://myServer/cgi-bin/broker",\n    datatype: "json",\n    contentType: "application/json; charset=utf-8",\n    data: {'start' : start,'end' : end},\n    error: function(request,error){\n        alert(error);\n    },\n    success: function(request) {\n        alert(request.length);\n    }\n});

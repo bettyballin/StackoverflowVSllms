@@ -1,1 +1,0 @@
-void MyMethod(val int x) { x = 10; } // x is a copy, original value is not changed\nvoid MyMethod(ref int x) { x = 10; } // x is a reference, original value is changed\nvoid MyMethod(out int x) { x = 10; } // x is a reference, must be assigned a value

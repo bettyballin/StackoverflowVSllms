@@ -1,1 +1,0 @@
-gacutil /l YourAssemblyName | findstr /i "YourAssemblyName.dll" | csc /reference:@- YourCode.cs

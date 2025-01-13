@@ -1,1 +1,0 @@
-svnadmin dump /path/to/repository > repository-name.dmp

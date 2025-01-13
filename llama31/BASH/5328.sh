@@ -1,1 +1,0 @@
-@echo off\nYourProgram.exe\npause

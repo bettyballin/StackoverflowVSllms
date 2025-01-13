@@ -1,1 +1,0 @@
-.link-wrapper {\n  position: relative;\n  display: inline-block;\n}\n\n.floating-object {\n  position: absolute;\n  top: 100%; /* place the object below the link */\n  left: 0;\n  background-color: #fff;\n  padding: 10px;\n  border: 1px solid #ddd;\n  display: none;\n}\n\n.link-wrapper:hover .floating-object {\n  display: block;\n}

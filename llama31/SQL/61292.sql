@@ -1,0 +1,1 @@
+ALTER TABLE MyTable \nADD COLUMN MyField NUMBER(9, 4);

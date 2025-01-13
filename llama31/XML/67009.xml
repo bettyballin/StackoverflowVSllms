@@ -1,0 +1,1 @@
+<class name="Entity1" table="Entity1">\n  <!-- ... other properties ... -->\n  <component name="ValueType1" class="ValueType1">\n    <property name="Id" column="ValueType1_Id" />\n    <!-- ... other properties of ValueType1 ... -->\n    <many-to-one name="Entity2" class="Entity2" column="Entity2_Id" />\n  </component>\n</class>

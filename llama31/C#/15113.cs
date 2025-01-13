@@ -1,1 +1,0 @@
-SqlCommand com = new SqlCommand("UPDATE Questions SET Question = @Question, Answer = @Answer, LastEdit = @LastEdit WHERE ID = @ID");\n\ncom.Parameters.AddWithValue("@Question", tbQuestion.Text);\ncom.Parameters.AddWithValue("@Answer", tbAnswer.Text);\ncom.Parameters.AddWithValue("@LastEdit", CurrentUser.Login);\ncom.Parameters.AddWithValue("@ID", CurrentQuestion.ID);

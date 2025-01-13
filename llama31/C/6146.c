@@ -1,1 +1,0 @@
-fd_set read_fds;\nFD_ZERO(&read_fds);\nFD_SET(client_socket, &read_fds);\n\nstruct timeval timeout;\ntimeout.tv_sec = 0;\ntimeout.tv_usec = 0;\n\nint result = select(client_socket + 1, &read_fds, NULL, NULL, &timeout);\nif (result == -1) {\n    // Error occurred\n} else if (result == 0) {\n    // Timeout occurred\n} else {\n    // Client has disconnected\n}

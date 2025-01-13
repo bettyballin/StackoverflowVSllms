@@ -1,0 +1,1 @@
+Public Sub ShowModalView(ByVal ViewName As String)\n    Dim view As IView = ViewFactory.CreateView(ViewName)\n    ShowViewInWorkspace(view.GetType(), ViewName, WorkspaceNames.RightWorkspace)\n    view.Show()\nEnd Sub

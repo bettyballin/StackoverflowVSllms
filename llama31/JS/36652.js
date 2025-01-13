@@ -1,0 +1,1 @@
+myDelete.open("GET", query, true);\nmyDelete.onreadystatechange = removeArticleResponse;\nmyDelete.send(null);

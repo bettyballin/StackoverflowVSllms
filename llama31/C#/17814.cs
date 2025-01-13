@@ -1,1 +1,0 @@
-dotnet ef dbcontext scaffold "Data Source=your_server_name;Initial Catalog=your_database_name;Integrated Security=True" Microsoft.EntityFrameworkCore.SqlServer -o YourNamespace

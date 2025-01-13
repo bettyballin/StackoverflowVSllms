@@ -1,1 +1,0 @@
-string labelText = "2009-05-29 12:06:00";\nDateTime date = Convert.ToDateTime(labelText);\n\nSqlDataSource1.SelectParameters.Add("@date", date);

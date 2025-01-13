@@ -1,0 +1,1 @@
+var pattern = new RegExp(\n  /some regex segment/.source + \n  /* comment here */\n  /another segment/.source, \n  'g' // flags\n);

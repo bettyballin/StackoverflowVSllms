@@ -1,1 +1,0 @@
-// MyApplication.dll\n[ServiceContract]\npublic interface IMyApi\n{\n    [OperationContract]\n    void DoSomething(string param);\n}\n\npublic class MyApi : IMyApi\n{\n    public void DoSomething(string param)\n    {\n        // implementation details\n    }\n}

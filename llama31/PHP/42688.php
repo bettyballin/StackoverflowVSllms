@@ -1,0 +1,1 @@
+if (!$something_important) {\n    echo '<h1>Access Denied</h1>';\n    exit;\n}

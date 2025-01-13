@@ -1,1 +1,0 @@
-iconv -f UTF-8 -t ASCII//TRANSLIT input.txt -o output.txt

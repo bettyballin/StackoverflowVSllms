@@ -1,1 +1,0 @@
-int* active_search = determine_searches(row, col, last_row, last_col);\n// ...\nfree(active_search);

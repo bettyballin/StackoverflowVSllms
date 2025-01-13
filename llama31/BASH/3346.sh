@@ -1,1 +1,0 @@
-openssl x509 -in your_ca_cert.pem -out your_ca_cert.der -outform der

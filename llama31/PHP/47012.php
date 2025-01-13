@@ -1,0 +1,1 @@
+$pdo->setAttribute(PDO::MYSQL_ATTR_USE_BUFFERED_QUERY, true);\n$statement = $pdo->query('SELECT * FROM table');\nforeach ($statement as $result) {\n    // do something with result\n}\n$statement->rewind();\nforeach ($statement as $result) {\n    // do something else with result\n}

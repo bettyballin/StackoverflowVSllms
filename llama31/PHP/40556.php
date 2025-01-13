@@ -1,0 +1,1 @@
+// application/helpers/MY_string_helper.php\n\nfunction my_new_function($str) {\n    // your code here\n    return $str;\n}

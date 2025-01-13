@@ -1,1 +1,0 @@
-// Client certificate authentication\nX509Certificate2 clientCert = new X509Certificate2("clientCert.pfx", "password");\n\n// Use client certificate to authenticate and obtain security token\nSecurityToken token = AuthenticateClient(clientCert);

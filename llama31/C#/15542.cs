@@ -1,1 +1,0 @@
-public bool StoreAcceleration(string strStringSession, DateTime receivedTime, double accelerationX, double accelerationY, double accelerationZ)\n{\n    // ...\n    SqlCommand cmd = new SqlCommand(select, DatabaseManager.Instance.Connection);\n    // ...\n}

@@ -1,0 +1,1 @@
+// in your helpers directory (e.g. RtfHelper.php)\nclass RtfHelper extends AppHelper {\n    public function link($type) {\n        if ($type['has_rtf']) {\n            return $this->Html->link('View RTF', array('controller' => 'types', 'action' => 'view_rtf', $type['id']));\n        }\n    }\n}

@@ -1,0 +1,1 @@
+$comment_id = 123; // Replace with the ID of the comment you want to print\n$comment = comment_load($comment_id);\nif ($comment) {\n  $build = comment_view($comment, 'full');\n  $rendered_comment = drupal_render($build);\n  print $rendered_comment;\n}

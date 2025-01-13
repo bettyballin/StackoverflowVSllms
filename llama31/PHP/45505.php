@@ -1,0 +1,1 @@
+// Echo can take multiple arguments\necho 'Hello, ', 'world!'; // Outputs: Hello, world!\n\n// Print can only take one argument\nprint('Hello, ' . 'world!'); // Outputs: Hello, world!\n\n// Echo does not have a return value\nvar_dump(echo 'Hello, world!'); // Outputs: Hello, world! NULL\n\n// Print returns 1\nvar_dump(print('Hello, world!')); // Outputs: Hello, world! int(1)

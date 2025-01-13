@@ -1,1 +1,0 @@
--- Compare Table A\nsql-data-compare --comparison-key "Name" --source "DEV" --target "TEST" TableA\n\n-- Compare Table B\nsql-data-compare --comparison-key "Name,Description" --source "DEV" --target "TEST" TableB

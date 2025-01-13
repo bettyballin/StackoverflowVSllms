@@ -1,0 +1,1 @@
+SELECT *\nFROM your_table\nWHERE timestamp_column < DATE_TRUNC('day', CURRENT_TIMESTAMP);

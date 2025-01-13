@@ -1,0 +1,1 @@
+<attribute>\n    <name>myAttribute</name>\n    <required>true</required>\n    <rtexprvalue>true</rtexprvalue>\n</attribute>

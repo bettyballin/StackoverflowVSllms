@@ -1,0 +1,1 @@
+SELECT id, message\nFROM yourTable\nWHERE timestamp >= '2008-12-20 00:00:00'\n  AND timestamp < '2008-12-21 00:00:00';

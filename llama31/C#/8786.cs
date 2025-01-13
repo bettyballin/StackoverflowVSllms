@@ -1,1 +1,0 @@
-Console.WriteLine(IncrementAlphabet("a"));  // Outputs: "b"\nConsole.WriteLine(IncrementAlphabet("z"));  // Outputs: "aa"\nConsole.WriteLine(IncrementAlphabet("az")); // Outputs: "ba"\nConsole.WriteLine(IncrementAlphabet("bnc")); // Outputs: "bnd"

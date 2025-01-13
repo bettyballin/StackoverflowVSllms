@@ -1,0 +1,1 @@
+CREATE PROC bsp_susf_DeleteTable (@TableName sysname)\nAS\nBEGIN\n    IF EXISTS (SELECT name FROM sys.objects WHERE name = @TableName)\n    BEGIN\n        DECLARE @sql nvarchar(500) = N'DROP TABLE ' + QUOTENAME(@TableName);\n        EXEC sp_executesql @sql;\n    END\nEND

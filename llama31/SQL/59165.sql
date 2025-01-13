@@ -1,0 +1,1 @@
+SELECT *\nFROM your_table\nFETCH FIRST N ROWS ONLY;

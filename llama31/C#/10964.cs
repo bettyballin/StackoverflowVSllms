@@ -1,1 +1,0 @@
-var results = dbContext.aTable\n    .Where(a => dbContext.bTable\n        .Any(b => b.aTableId == a.aTableId && dbContext.cTable\n            .Any(c => c.bTableId == b.bTableId && dbContext.dTable\n                .Any(d => d.cTableId == c.cTableId && d.dField == "a guid")\n            )\n        )\n    );

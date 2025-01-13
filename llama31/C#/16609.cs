@@ -1,1 +1,0 @@
-string namespaceUri = (string)navigator.Evaluate("namespace-uri(/*)");

@@ -1,1 +1,0 @@
-gammu sendsms TEXT "recipient_number" -text "Hello, world!"

@@ -1,1 +1,0 @@
-DataTable dt = // your data table\n\ndt.DefaultView.Sort = "YourColumnName ASC"; // or DESC for descending\ndt = dt.DefaultView.ToTable();

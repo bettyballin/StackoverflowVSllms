@@ -1,1 +1,0 @@
-# Encrypt your credentials using KMS\naws kms encrypt --key-id <KMS_KEY_ID> --plaintext file://credentials.json --output file://encrypted-credentials.json\n\n# Pass the encrypted credentials as user data\naws ec2 run-instances --image-id ami-a83fabc0 --instance-type t2.micro --user-data file://encrypted-credentials.jso

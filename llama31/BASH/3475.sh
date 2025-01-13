@@ -1,1 +1,0 @@
-windbg -p <process_id>

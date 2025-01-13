@@ -1,0 +1,1 @@
+<system.diagnostics>\n    <sources>\n        <source name="System.Data.SqlClient" switchValue="Verbose">\n            <listeners>\n                <add name="SqlClientTrace" type="System.Diagnostics.TextWriterTraceListener" initializeData="sqlclient.log" />\n            </listeners>\n        </source>\n    </sources>\n</system.diagnostics>

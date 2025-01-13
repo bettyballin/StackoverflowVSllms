@@ -1,1 +1,0 @@
-using TimeZoneConverter;\n\n// ...\n\nDateTime utcDateTime = DateTime.UtcNow;\nstring timeZoneId = "Eastern Standard Time";\nDateTime localDateTime = utcDateTime.ConvertTo(timeZoneId);\n\n// Display the local date and time\nResponse.Write(localDateTime.ToString("yyyy-MM-dd HH:mm:ss"));

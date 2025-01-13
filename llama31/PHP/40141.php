@@ -1,0 +1,1 @@
+$sql = "INSERT INTO ..."; // your insert query\necho $sql; // print the query to the scree

@@ -1,1 +1,0 @@
-public bool AutentificacionUsuario(string userID, string passID)\n{\n    return _db.USER.Any(u => u.siglas == userID && u.codigousuario == passID);\n}

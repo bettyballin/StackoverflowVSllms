@@ -1,1 +1,0 @@
-protected void Page_Load(object sender, EventArgs e)\n{\n  ClientScript.RegisterStartupScript(this.GetType(), "ShareThis", "reRunShareThisScript();", true);\n}\n\nfunction reRunShareThisScript() {\n  // Re-run the ShareThis script\n  var script = document.createElement('script');\n  script.src = 'http://w.sharethis.com/button/buttons.js';\n  document.body.appendChild(script);\n}

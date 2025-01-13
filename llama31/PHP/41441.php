@@ -1,0 +1,1 @@
+$fileArray = array_filter(iterator_to_array($files), function($file) {\n    return !$file->isDot();\n});

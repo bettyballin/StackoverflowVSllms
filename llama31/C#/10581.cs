@@ -1,1 +1,0 @@
-ReportViewer1.LocalReport.DataSources.Add(new ReportDataSource("MyData", DataAccessLayer.GetData()));

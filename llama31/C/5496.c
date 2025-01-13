@@ -1,1 +1,0 @@
-int main(){\n  typedef short int (__stdcall *vbfun)(short int); // VB6 "Integer" is 16 bits\n  vbfun popup_message;\n  HANDLE dllhnd;\n  dllhnd = LoadLibrary("vbdll.dll");\n  if(dllhnd>(void*)HINSTANCE_ERROR){\n    popup_message = (vbfun)GetProcAddress(dllhnd, "PopupMessage");\n    printf("%d", popup_message(3));\n  }\n  return 0;\n}

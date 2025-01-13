@@ -1,1 +1,0 @@
-#include <stdio.h>\n#include <stdlib.h>\n#include <unistd.h>\n\nint main(int argc, char **argv) {\n    if (argc != 4) {\n        fprintf(stderr, "Usage: %s <user> <group> <file>\n", argv[0]);\n        exit(1);\n    }\n    setuid(0); // set uid to root\n    execl("/bin/chown", "chown", argv[1], argv[2], argv[3], (char *)NULL);\n    return 0;\n}

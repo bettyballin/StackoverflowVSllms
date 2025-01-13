@@ -1,1 +1,0 @@
-// MT19937 parameters\nconst uint32_t w = 32;\nconst uint32_t n = 624;\nconst uint32_t m = 397;\nconst uint32_t r = 31;\n\n// ...\n\nuint32_t y = (mt[0] & 0x80000000) | (mt[1] & 0x7fffffff);\nmt[0] = mt[m] ^ (y >> 1) ^ ((y & 0x1) ? 0x9908b0df : 0);

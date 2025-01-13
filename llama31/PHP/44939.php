@@ -1,0 +1,1 @@
+$dirname = "images";\n$images = scandir($dirname);\n$ignore = Array(".", "..", "otherfiletoignore");\n\nforeach($images as $curimg){\n    if (!in_array($curimg, $ignore)) {\n        echo "<img src='images/$curimg' />\n";\n        echo "<p>$curimg</p>\n"; // Add this line to display the file name\n    }\n}

@@ -1,1 +1,0 @@
-readelf -A mylib.a

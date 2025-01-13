@@ -1,1 +1,0 @@
-void do_something() throw() {\n    // code that might throw an exception\n}

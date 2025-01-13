@@ -1,1 +1,0 @@
-public class RepositoryFactory\n{\n    private readonly string _connectionString;\n\n    public RepositoryFactory(string connectionString)\n    {\n        _connectionString = connectionString;\n    }\n\n    public IOrderRepository CreateOrderRepository()\n    {\n        return new OrderRepository(_connectionString);\n    }\n}

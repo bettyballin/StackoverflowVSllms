@@ -1,0 +1,1 @@
+vendor/gems/gem_name-1.0.0

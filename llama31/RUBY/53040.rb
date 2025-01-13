@@ -1,0 +1,1 @@
+# config/initializers/patch_gem.rb\n\n# Require the gem\nrequire 'gem_name'\n\n# Apply the patch using refinements\nmodule GemNameRefine\n  refine GemName::ClassName do\n    # your patch code here\n  end\nend\n\nusing GemNameRefine

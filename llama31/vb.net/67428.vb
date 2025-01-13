@@ -1,0 +1,1 @@
+Dim obj As Object = "Hello"\nIf GetType(String).IsInstanceOfType(obj) Then\n    Console.WriteLine("obj is a string")\nEnd If

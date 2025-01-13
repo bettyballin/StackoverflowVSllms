@@ -1,0 +1,1 @@
+// Using JavaScript to disable JavaScript\ndocument.write('<script>javascript:void(document.cookie="javascript=disabled");</script>');

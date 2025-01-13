@@ -1,1 +1,0 @@
-private void SaveChanges()\n{\n    // Get the DataTable from the DataGridView's DataSource\n    DataTable dataTable = (DataTable)DataGridView1.DataSource;\n\n    // Accept changes made to the DataTable\n    dataTable.AcceptChanges();\n\n    // Update the Access MDB file using the TableAdapter\n    TableAdapter.Update(dataTable);\n}

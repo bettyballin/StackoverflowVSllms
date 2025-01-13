@@ -1,1 +1,0 @@
-using System;\n\nGuid profileGuid = Guid.NewGuid();

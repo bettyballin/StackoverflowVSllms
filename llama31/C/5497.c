@@ -1,1 +1,0 @@
-#include <stdio.h>\n\nlong fsize(char* file) {\n    FILE *fp = fopen(file, "rb");\n    if (fp == NULL) {\n        return -1; // File could not be opened\n    }\n\n    fseek(fp, 0, SEEK_END);\n    long size = ftell(fp);\n    fclose(fp);\n\n    return size;\n}

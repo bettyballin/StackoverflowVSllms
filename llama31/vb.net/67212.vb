@@ -1,0 +1,1 @@
+Public Class MyModel\n    Public Sub DoSomething()\n        Dim container = ContainerAccessor.Container\n        ' Use the container\n    End Sub\nEnd Class

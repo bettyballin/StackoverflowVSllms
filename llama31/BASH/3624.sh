@@ -1,1 +1,0 @@
-# Create a shared directory on a physical filesystem\nmkdir -p /mnt/shared\n\n# Export the directory via NFS\necho "/mnt/shared 192.168.1.0/24(ro,async,no_subtree_check)" >> /etc/exports\n\n# Restart the NFS server\nsystemctl restart nfs-server

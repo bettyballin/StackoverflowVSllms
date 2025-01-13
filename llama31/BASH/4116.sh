@@ -1,1 +1,0 @@
-traceroute -n <server_ip>

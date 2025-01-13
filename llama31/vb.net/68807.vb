@@ -1,0 +1,1 @@
+Imports System.Media\n\nModule Module1\n    Sub Main()\n        Dim filePath As String = "path_to_your_wav_file.wav"\n        Dim soundPlayer As New SoundPlayer(filePath)\n        Dim duration As TimeSpan = soundPlayer.SoundDuration\n\n        Console.WriteLine("Duration: " & duration.ToString)\n    End Sub\nEnd Module

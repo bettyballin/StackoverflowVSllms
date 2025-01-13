@@ -1,1 +1,0 @@
-using ConsoleExtensions;\n\nclass Program\n{\n    static void Main(string[] args)\n    {\n        Console.WriteLine("Select a file:");\n        var filePath = Console.GetFileName();\n\n        Console.WriteLine($"You selected: {filePath}");\n    }\n}

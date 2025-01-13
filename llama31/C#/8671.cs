@@ -1,1 +1,0 @@
-public partial class YourPage : Page\n{\n    protected void HandleLookup(string input, ref List<string> list)\n    {\n        list = new List<string>();\n        // Query database for list of items..\n        for (int i = 0; i < 10; i++)\n        {\n            list.Add($"Item {i}");\n        }\n    }\n}

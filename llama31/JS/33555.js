@@ -1,0 +1,1 @@
+$.ajax({\n  type: "GET",\n  url: "/ProxyPage.aspx?id=" + GoalID\n});

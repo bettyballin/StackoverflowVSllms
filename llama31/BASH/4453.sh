@@ -1,1 +1,0 @@
-cleartool mklabel -recurse <label_name> <directory_path>

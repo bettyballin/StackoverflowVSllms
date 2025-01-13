@@ -1,0 +1,1 @@
+<servlet-mapping>\n    <servlet-name>WeatherServlet</servlet-name>\n    <url-pattern>/*</url-pattern>\n</servlet-mapping>

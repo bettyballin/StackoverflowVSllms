@@ -1,0 +1,1 @@
+if (!(substr($res, 0, 6) == 'Failed')) {\n    try {\n        $xml = new SimpleXMLElement($res);\n        $imagelink = (string) $xml->image_link;\n        $_SESSION['shack_link'] = $imagelink;\n        echo 'done';\n    } catch (Exception $e) {\n        // Handle invalid XML error\n        echo 'Error parsing XML';\n    }\n}

@@ -1,1 +1,0 @@
-#!/bin/bash\n\necho $(($1 - 1))

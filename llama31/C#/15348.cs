@@ -1,1 +1,0 @@
-richTextBox1.Text = "Hello, Amazing World!";\nint index = 0;\nwhile (index < richTextBox1.TextLength)\n{\n    index = richTextBox1.Text.IndexOf("A", index);\n    if (index != -1)\n    {\n        richTextBox1.Select(index, 1);\n        richTextBox1.SelectionColor = Color.Red;\n        index++;\n    }\n    else\n        break;\n}

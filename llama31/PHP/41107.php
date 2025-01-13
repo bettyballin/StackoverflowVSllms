@@ -1,0 +1,1 @@
+<form id="attendance-form" method="post">\n  <ul>\n    <?php foreach ($people as $person) { ?>\n      <li>\n        <?= $person->name ?>\n        <button type="submit" name="person_id" value="<?= $person->id ?>">\n          <?= $person->attendance_status ? 'Unattend' : 'Attend' ?>\n        </button>\n      </li>\n    <?php } ?>\n  </ul>\n</form>

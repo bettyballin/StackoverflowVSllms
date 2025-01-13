@@ -1,1 +1,0 @@
-ServiceHelper.ImpersonateUser("localusername", "localpassword", "localhost");

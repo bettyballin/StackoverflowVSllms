@@ -1,1 +1,0 @@
-public ActionResult Test()\n{\n    string json = Request.Form.ToString();\n    var serializer = new JavaScriptSerializer();\n    var data = serializer.Deserialize<Dictionary<string, string>>(json);\n\n    string keyword = data["keyword"];\n    return new JsonResult { Data = keyword };\n}

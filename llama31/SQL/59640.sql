@@ -1,0 +1,1 @@
+WHERE b.col3 IS NOT NULL OR a.col2 IS NULL

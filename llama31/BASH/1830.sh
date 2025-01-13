@@ -1,1 +1,0 @@
-openssl x509 -in publickey.cer -out publickey.crt

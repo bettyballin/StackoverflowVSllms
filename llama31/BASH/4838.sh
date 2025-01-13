@@ -1,1 +1,0 @@
-tf history /collection:<collection> /noprompt /v:Dfrom.date.to.date /recursive /item:<project> > changes.txt

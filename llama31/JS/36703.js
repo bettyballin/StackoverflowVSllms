@@ -1,0 +1,1 @@
+const http = require('http');\n\nhttp.createServer((req, res) => {\n  // Set up long-lived connection\n  req.socket.setTimeout(0);\n  res.writeHead(200, {'Content-Type': 'text/plain'});\n\n  // Send data to client\n  setInterval(() => {\n    res.write('Hello, client!\n');\n  }, 1000);\n}).listen(8080, () => {\n  console.log('Comet server listening on port 8080');\n});

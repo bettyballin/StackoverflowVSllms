@@ -1,1 +1,0 @@
-#overlay-div {\n  position: absolute;\n  top: 0;\n  left: 0;\n  width: 100%;\n  height: 100%;\n  z-index: 1000; /* adjust z-index to ensure it's on top of Silverlight */\n}

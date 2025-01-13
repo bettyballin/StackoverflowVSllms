@@ -1,0 +1,1 @@
+require 'open-uri'\n\nurl = "http://www.minscandboo.com/minscgame/001-Title01.jpg"\nimage_data = open(url).read\n\n# Save the image data to a temporary file\ntemp_file = Tempfile.new('image')\ntemp_file.binmode\ntemp_file.write(image_data)\ntemp_file.close\n\n# Load the image from the temporary file\n@sprite.bitmap = Bitmap.new(temp_file.path)

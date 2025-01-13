@@ -1,0 +1,1 @@
+var selectedValues = [];\n$('select option:selected').each(function() {\n  selectedValues.push($(this).val());\n});\n\n$.ajax({\n  type: 'POST',\n  url: 'your_php_script.php',\n  data: { values: JSON.stringify(selectedValues) },\n  success: function(data) {\n    console.log(data);\n  }\n});

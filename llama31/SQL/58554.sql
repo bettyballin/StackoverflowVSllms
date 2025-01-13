@@ -1,0 +1,1 @@
+CALL mark_duplicates();

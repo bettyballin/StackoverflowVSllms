@@ -1,0 +1,1 @@
+$index = array_search($username, $allUsernames, true);\nif ($index !== false) {\n    // process this row\n}

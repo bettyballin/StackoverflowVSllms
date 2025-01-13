@@ -1,1 +1,0 @@
-int getNextWeekday(int bitmask, int today) {\n    int nextDay = (today % 7) + 1; // wrap around to Sunday if necessary\n    while (!(bitmask & (1 << (nextDay - 1)))) {\n        nextDay = (nextDay % 7) + 1;\n    }\n    return nextDay;\n}

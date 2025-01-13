@@ -1,0 +1,1 @@
+function isUsernameAvailable(username, callback) {\n  $.ajax({\n    type: 'POST',\n    url: '/check-username',\n    data: { username: username },\n    dataType: 'json',\n    success: function(response) {\n      callback(response.available);\n    }\n  });\n}

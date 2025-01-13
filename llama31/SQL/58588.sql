@@ -1,0 +1,1 @@
+SELECT question_id, LISTAGG(element_id, ',') WITHIN GROUP (ORDER BY element_id) AS element_id\nFROM your_table\nGROUP BY question_id;

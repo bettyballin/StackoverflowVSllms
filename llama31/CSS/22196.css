@@ -1,1 +1,0 @@
-@page {\n  size: A4;\n  margin: 1in;\n}\n\n@page:first {\n  @top-center {\n    content: none;\n  }\n}\n\nthead {\n  display: table-header-group;\n  running: no-header-on-first-page;\n}\n\ntbody {\n  display: table-row-group;\n}\n\n@page:left:right {\n  @top-center {\n    content: string(no-header-on-first-page, "");\n  }\n}

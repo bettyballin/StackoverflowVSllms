@@ -1,0 +1,1 @@
+1) create a group, say "g1"\n2) create a user, say "u1"\n3) assign the group "g1" to the user "u1"\n4) assign the group "g1" to the view\n5) grant execute on the view to "g1"

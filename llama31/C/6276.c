@@ -1,1 +1,0 @@
-#include <stdio.h>\n#include <stdlib.h>\n\nint main() {\n    char *buf = malloc(10);\n    strcpy(buf, "AAAAAAAAAAAAAAAAAAAAAAAA"); // overflow the buffer\n    free(buf);\n    return 0;\n}

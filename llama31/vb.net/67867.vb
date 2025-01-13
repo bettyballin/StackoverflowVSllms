@@ -1,0 +1,1 @@
+Dim db As DAO.Database\n\nSet db = CurrentDb()\ndb.Close\n\n' Switch to exclusive mode\ndb.OpenDatabase "", True\n\n' Switch back to shared mode\ndb.OpenDatabase "", False

@@ -1,0 +1,1 @@
+import inspect\n\ndef f(x):\n    current_function = inspect.currentframe().f_code.co_name\n    globals()[current_function].thing = "hello!"\n    return x + 3\n\nprint(f.thing)  # This will raise AttributeError because thing is not defined yet\nf(5)\nprint(f.thing)  # This will print "hello!"

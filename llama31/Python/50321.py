@@ -1,0 +1,1 @@
+import mylibrary.config\nfrom mylibrary import config\nimport mylibrary.config as X

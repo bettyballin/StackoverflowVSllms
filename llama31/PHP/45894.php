@@ -1,0 +1,1 @@
+// Example PHP code with IntelliSense\nfunction greet($name) {\n    echo "Hello, $name!";\n}\n\n// Type hinting and auto-completion for the greet function\ngreet('John'); // Hello, John!

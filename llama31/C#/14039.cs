@@ -1,1 +1,0 @@
-using System;\n\nnamespace Microsoft.VisualStudio.Editor\n{\n    public class GoToStartOfLine : EditorCommand\n    {\n        public override void Execute(EditorCommandEventArgs args)\n        {\n            args.TextView.Caret.MoveTo(args.TextView.Caret.Position.BufferPosition.GetContainingLine().Start);\n        }\n    }\n}

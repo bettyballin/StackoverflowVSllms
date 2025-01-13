@@ -1,1 +1,0 @@
-int port = GetAvailableTcpPort();\nstring endpoint = $"net.tcp://localhost:{port}/Service";

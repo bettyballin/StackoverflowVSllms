@@ -1,0 +1,1 @@
+$monthlybill = str_replace('$', '', $_GET['monthlybill']);

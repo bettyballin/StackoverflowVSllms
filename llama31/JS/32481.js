@@ -1,0 +1,1 @@
+// jQuery 1.12.4, line 518\nparseJSON: function(data) {\n    // ... (some error checking and edge cases)\n\n    // Use a recursive descent parser\n    return (new Function("return " + data))();\n}

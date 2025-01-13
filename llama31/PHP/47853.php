@@ -1,0 +1,1 @@
+$dom = new DOMDocument();\n$dom->load('xml.xml');\n$root = $dom->getElementsByTagName('root');\nforeach ($root as $tag) {\n    $subChild = $tag->getElementsByTagName('child');\n    // extract values and loop again if needed\n}

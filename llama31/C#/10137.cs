@@ -1,1 +1,0 @@
-using System;\n\nclass TimeZoneConfig\n{\n    public static void SetTimeZone()\n    {\n        TimeZoneInfo.ClearCachedData();\n        TimeZoneInfo.Default = TimeZoneInfo.FindSystemTimeZoneById("TimeZone B's Id");\n    }\n}

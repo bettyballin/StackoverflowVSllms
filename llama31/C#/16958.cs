@@ -1,1 +1,0 @@
-public static DataSet ConvertXmlToDataSet(string xmlFile)\n{\n    // Create a new DataSet\n    DataSet dataSet = new DataSet();\n\n    // Create a new XmlReader\n    XmlReader xmlReader = XmlReader.Create(xmlFile);\n\n    // Read the XML into the DataSet\n    dataSet.ReadXml(xmlReader);\n\n    return dataSet;\n}

@@ -1,0 +1,1 @@
+$guid = com_create_guid();\n$com = new COM($guid);\n\n$netClass = $com->CreateInstance('YourNamespace.YourClass');\n$result = $netClass->YourMethod('arg1', 'arg2');\n\necho $result;

@@ -1,1 +1,0 @@
-static void my_static_function(void) {\n    // function body\n}

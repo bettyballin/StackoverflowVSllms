@@ -1,0 +1,1 @@
+Configure::write('Session.timeout', '120'); // 2 hours

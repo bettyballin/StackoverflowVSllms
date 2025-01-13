@@ -1,1 +1,0 @@
-double __attribute__((aligned(4))) d;

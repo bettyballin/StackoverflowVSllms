@@ -1,0 +1,1 @@
+const phantom = require('phantom');\n\nphantom.create().then((ph) => {\n  ph.createPage().then((page) => {\n    page.open('https://example.com/widget.html').then((status) => {\n      page.evaluateJavaScript('/* your JavaScript code to generate HTML */').then((html) => {\n        console.log(html); // rendered HTML source\n        ph.exit();\n      });\n    });\n  });\n});

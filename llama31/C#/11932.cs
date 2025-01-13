@@ -1,1 +1,0 @@
-int master1Id = 123; // Replace with the desired Master1ID\n\nSub1Collection sub1Collection = DB.Select()\n    .From<Sub1>()\n    .InnerJoin<Master1Sub1_Map>(m => m.Sub1ID == Sub1.Sub1ID)\n    .Where(m => m.Master1ID == master1Id)\n    .ExecuteAsCollection<Sub1Collection>();

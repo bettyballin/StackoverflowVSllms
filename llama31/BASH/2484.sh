@@ -1,1 +1,0 @@
-pip install django_tables2 django-ajax

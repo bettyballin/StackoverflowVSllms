@@ -1,1 +1,0 @@
-icacls "C:\Windows\Microsoft.NET\Framework\v2.0.50727\Temporary ASP.NET Files" /grant:r "NetworkService:(OI)(CI)(M)"

@@ -1,1 +1,0 @@
-.parent-div {\n  height: 300px; /* set a fixed height */\n  display: flex;\n  flex-direction: column;\n}\n\n#div1 {\n  flex-grow: 1; /* allow div1 to grow, but not exceed parent's height */\n  overflow-y: auto; /* show scrollbar when content exceeds height */\n}

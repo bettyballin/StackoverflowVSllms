@@ -1,0 +1,1 @@
+def cauchy_matrix(k, n):\n    matrix = []\n    for i in range(k):\n        row = []\n        for j in range(n):\n            row.append(1 / (i + j + 1))\n        matrix.append(row)\n    return matrix

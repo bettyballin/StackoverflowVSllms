@@ -1,0 +1,1 @@
+<xs:element name="MRIDNumber" type="xs:string" form="qualified" />\n<xs:element minOccurs="1" name="CrewMemberIdentifier" type="xs:string" form="qualified" />

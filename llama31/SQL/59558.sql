@@ -1,0 +1,1 @@
+SELECT /*+ RECOMPILE */ *\nFROM your_table\nWHERE column = :param;

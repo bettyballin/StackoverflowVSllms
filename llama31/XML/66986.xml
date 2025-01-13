@@ -1,0 +1,1 @@
+<system.data>\n  <DbProviderFactories>\n    <add name="Oracle Data Provider for .NET" invariant="Oracle.DataAccess.Client" description="Oracle Data Provider for .NET" type="Oracle.DataAccess.Client.OracleClientFactory, Oracle.DataAccess, Version=2.112.3.0, Culture=neutral, PublicKeyToken=89b483f429c47342" />\n  </DbProviderFactories>\n</system.data>

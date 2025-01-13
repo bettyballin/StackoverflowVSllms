@@ -1,0 +1,1 @@
+$(document).ready( function(){\n    $('.rounded').corners({\n        noGaps: true\n    });\n});

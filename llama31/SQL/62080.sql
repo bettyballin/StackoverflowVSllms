@@ -1,0 +1,1 @@
+CREATE TABLE MyTable (\n    Id INT PRIMARY KEY,\n    CreatedDate DATETIME NOT NULL DEFAULT GETDATE()\n);\n\nCREATE INDEX IX_CreatedDate ON MyTable (CreatedDate);

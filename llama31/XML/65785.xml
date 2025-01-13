@@ -1,0 +1,1 @@
+<AttachToProcess>\n  <ProcessId>1234</ProcessId>\n  <AttachTo>Managed code</AttachTo>\n</AttachToProcess>

@@ -1,0 +1,1 @@
+UPDATE YourTable\nSET Image = Image + '.jpg'\nWHERE Image <> '';

@@ -1,0 +1,1 @@
+SELECT CONVERT(NVARCHAR(10), datetime_column, 103) AS formatted_date\nFROM your_table;

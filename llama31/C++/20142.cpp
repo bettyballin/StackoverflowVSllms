@@ -1,1 +1,0 @@
-#include <algorithm>\n#include <vector>\n\nbool isVectorSorted(const std::vector<float>& v) {\n    return std::is_sorted(v.begin(), v.end());\n}

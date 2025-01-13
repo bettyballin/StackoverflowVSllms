@@ -1,0 +1,1 @@
+WITH RankedData AS (\n    SELECT \n        Code,\n        Number,\n        ROW_NUMBER() OVER (PARTITION BY Code ORDER BY Number) AS Seq\n    FROM \n        YourTable\n)\nUPDATE \n    rd\nSET \n    Seq = rd.Seq\nFROM \n    RankedData rd\nINNER JOIN \n    YourTable yt ON rd.Code = yt.Code AND rd.Number = yt.Number;

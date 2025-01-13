@@ -1,1 +1,0 @@
-svn export --force --quiet http://svn.example.com/repos/project/trunk /path/to/web/root

@@ -1,1 +1,0 @@
-curl -H 'Accept-Encoding: identity' -v http://example.com/your/url

@@ -1,1 +1,0 @@
-sudo iptables -t nat -A OUTPUT -d localhost -p tcp --dport 80 -j REDIRECT --to-port 3000

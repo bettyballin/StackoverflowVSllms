@@ -1,0 +1,1 @@
+function run_ffmpeg_in_background($input_file, $output_file) {\n    $command = "ffmpeg -i $input_file -c:v libx264 -crf 18 -c:a aac -b:a 128k $output_file";\n    $pid = shell_exec("nohup $command > /dev/null 2>&1 & echo $!");\n    return $pid;\n}

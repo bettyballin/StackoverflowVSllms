@@ -1,0 +1,1 @@
+GRANT CONTROL ON dbo.TableName TO DBAccountName;

@@ -1,0 +1,1 @@
+$stmt = $pdo->prepare("SELECT * FROM table_name");\n$stmt->execute();\n\nwhile($item = $stmt->fetchObject()) {\n    my_function($item->rowname);\n}

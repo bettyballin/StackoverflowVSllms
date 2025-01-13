@@ -1,1 +1,0 @@
-gcc -Wstrict-overflow your_file.cpp

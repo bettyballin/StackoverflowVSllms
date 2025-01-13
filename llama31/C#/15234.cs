@@ -1,1 +1,0 @@
-try\n{\n    Monitor.Enter(_sync);\n    _otherThing = otherThing;\n}\nfinally\n{\n    Monitor.Exit(_sync);\n}

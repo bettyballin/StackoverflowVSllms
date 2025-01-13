@@ -1,0 +1,1 @@
+final class DataStrip\n{\n    private $result;\n\n    public function stripVars($vars)\n    {\n        $this->result = $vars;\n        return $vars;\n    }\n\n    public function __toString()\n    {\n        return (string) $this->result;\n    }\n}

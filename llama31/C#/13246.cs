@@ -1,1 +1,0 @@
-throw new HttpException(401, "Unauthorized");

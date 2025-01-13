@@ -1,1 +1,0 @@
-# Example of using Multi-Safari\n# Assuming you have Multi-Safari installed\nmultisafari --install 3.2.1

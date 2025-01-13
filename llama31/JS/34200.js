@@ -1,0 +1,1 @@
+function Test() {\n    var html = "<input type='text' value='ab&#39;cef'>";\n    document.getElementById("test").innerHTML = unescape(html);\n}

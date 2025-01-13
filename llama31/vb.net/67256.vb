@@ -1,0 +1,1 @@
+Protected Sub listview1_PagePropertiesChanging(ByVal sender As Object, ByVal e As PagePropertiesChangingEventArgs)\n    currentPage = e.StartRowIndex / pageSize + 1\n    Dim bookmarks = (From data In dal.getData(userid)).Skip((currentPage - 1) * pageSize).Take(pageSize)\n    listview1.DataSource = bookmarks\n    listview1.DataBind()\nEnd Sub

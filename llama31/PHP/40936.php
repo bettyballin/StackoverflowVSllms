@@ -1,0 +1,1 @@
+// application/config/hooks.php\n\n$hook['after_update'] = array(\n    'class' => 'Audit',\n    'function' => 'after_update',\n    'filename' => 'Audit.php',\n    'filepath' => 'hooks'\n);\n\n$hook['after_insert'] = array(\n    'class' => 'Audit',\n    'function' => 'after_insert',\n    'filename' => 'Audit.php',\n    'filepath' => 'hooks'\n);

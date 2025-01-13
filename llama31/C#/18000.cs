@@ -1,1 +1,0 @@
-public IEnumerable<MyObject> GetMyObjects()\n{\n    using (var reader = command.ExecuteReader())\n    {\n        while (reader.Read())\n        {\n            yield return new MyObject\n            {\n                Id = reader.GetInt32(0),\n                Name = reader.GetString(1)\n            };\n        }\n    }\n}

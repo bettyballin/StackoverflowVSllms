@@ -1,1 +1,0 @@
-/* styles.css */\n\nbody {\n  font-family: Arial, sans-serif;\n  background-color: #f0f0f0;\n}\n\nheader {\n  background-color: #333;\n  color: #fff;\n  padding: 1em;\n}\n\nnav ul {\n  list-style: none;\n  margin: 0;\n  padding: 0;\n}\n\nnav li {\n  display: inline;\n  margin-right: 1em;\n}

@@ -1,1 +1,0 @@
-div.outer {\n  font-size: 0;\n}\ndiv.outer div {\n  font-size: 16px; /* or any other font size you need */\n  display: inline;\n  margin: 0;\n  padding: 0 12px;\n  border-left: solid 1px silver;\n  border-top: solid 3px red;\n}

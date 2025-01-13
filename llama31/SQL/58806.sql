@@ -1,0 +1,1 @@
+SELECT *\nFROM mytable\nWHERE ticket_id IN (\n  SELECT ticket_id\n  FROM mytable\n  WHERE COMPLETIONDATE >= TO_DATE('29/06/08','DD/MM/YY')\n  AND COMPLETIONDATE <= TO_DATE('29/06/09','DD/MM/YY')\n);

@@ -1,1 +1,0 @@
-@echo off\nset SVN_REPO=%1\nset IIS_FOLDER=C:\inetpub\wwwroot\ProjectName\n\nsvn update %IIS_FOLDER% --accept theirs-full

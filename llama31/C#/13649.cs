@@ -1,1 +1,0 @@
-public static MvcHtmlString ValidationMessageRaw(this HtmlHelper htmlHelper, string modelName)\n{\n    var validationMessage = htmlHelper.ValidationMessage(modelName);\n    return MvcHtmlString.Create(validationMessage.ToHtmlString());\n}

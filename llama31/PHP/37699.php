@@ -1,0 +1,1 @@
+$letters = array('a', 'b', 'c');\n$data = array();\n\nforeach($letters as $letter) {\n    $data[$letter] = array();\n}\n\n// Now you have an array with three empty arrays\nprint_r($data['a']);\nprint_r($data['b']);\nprint_r($data['c']);

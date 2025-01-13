@@ -1,1 +1,0 @@
-X509Certificate2 cert = ...;\nX509ExtensionCollection extensions = cert.GetExtensions();\nforeach (X509Extension ext in extensions)\n{\n    ext.Load();\n}

@@ -1,1 +1,0 @@
-InputData* iDeadEnd = new InputData(1.01f, 0.5f);\niDeadEnd->deadEnd = true;\niDeadEnd->parent = current;\ncurrent->children.push_back(iDeadEnd);

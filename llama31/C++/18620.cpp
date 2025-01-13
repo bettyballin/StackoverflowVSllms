@@ -1,1 +1,0 @@
-#include "myextension.h"\n\nextern "C" {\n    void my_extension_function(INTERNAL_FUNCTION_PARAMETERS)\n    {\n        // C++ implementation here\n        // ...\n    }\n}

@@ -1,1 +1,0 @@
-cfg.AddResource("CompanyName.AppName.Data.DataTypes.MSSQLTypes.hbm.xml", assembly);

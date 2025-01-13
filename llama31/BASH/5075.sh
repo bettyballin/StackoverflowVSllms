@@ -1,1 +1,0 @@
-REG ADD "HKLM\Path\To\Key" /v "ValueName" /t REG_SZ /d "Line 1\nLine 2\nLine 3" /f

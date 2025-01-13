@@ -1,1 +1,0 @@
-void pushSynonyms(string synline, BST<WordInfo> &wordTree)

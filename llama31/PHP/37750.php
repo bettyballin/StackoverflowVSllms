@@ -1,0 +1,1 @@
+function fetch($remoteFile, $localFile) {\n    if (!copy($remoteFile, $localFile)) {\n        throw new Exception("Failed to copy file from $remoteFile to $localFile");\n    }\n}

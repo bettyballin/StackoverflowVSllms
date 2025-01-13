@@ -1,1 +1,0 @@
-ls *.jpg | sort -n -k 2 -t _ | rename -n 's/.*_(\d+)/image_$1/'

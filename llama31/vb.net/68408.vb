@@ -1,0 +1,1 @@
+Imports System.Windows.Forms\n\n' Assuming contextMenu is your ContextMenuStrip\n' and SubMenuItem1 is the ToolStripMenuItem you want to select\n\nDim subMenuItem1 As ToolStripMenuItem = CType(contextMenu.Items(1).DropDownItems(0), ToolStripMenuItem)\n\ncontextMenu.Show(MainForm.GetSingleton(), Cursor.Position)\nsubMenuItem1.Select()

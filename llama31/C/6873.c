@@ -1,1 +1,0 @@
-WCHAR longPath[MAX_PATH];\nGetLongPathNameW(L"\\\\server\\share\\short\\path", longPath, MAX_PATH);\nHANDLE hFile = CreateFileW(longPath, GENERIC_READ, 0, NULL, OPEN_EXISTING, 0, NULL);

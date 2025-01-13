@@ -1,0 +1,1 @@
+import zlib\n\ndef get_file_crc(file_path):\n    with open(file_path, 'rb') as file:\n        crc = 0\n        while chunk := file.read(4096):\n            crc = zlib.crc32(chunk, crc)\n    return crc & 0xffffffff\n\n# Example usage:\nfile_list = ['file1.txt', 'file2.txt', 'file3.txt']\ncrc_values = {file: get_file_crc(file) for file in file_list}\nprint(crc_values)

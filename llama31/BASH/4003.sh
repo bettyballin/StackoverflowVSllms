@@ -1,1 +1,0 @@
-jstack -l <pid> > thread_dump.txt

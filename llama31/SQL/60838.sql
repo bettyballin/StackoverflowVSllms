@@ -1,0 +1,1 @@
+SELECT b.B_data, c.C_data\nFROM tableB b\nINNER JOIN tableA a ON b.A_id = a.A_id\nINNER JOIN tableC c ON a.A_id = c.A_id;

@@ -1,0 +1,1 @@
+header("Vary: Accept-Encoding");

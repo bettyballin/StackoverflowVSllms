@@ -1,1 +1,0 @@
-foreach (var item in integerList)\n{\n    Console.WriteLine("{0}\t{1}\t{2}\t{3}\t{4}\n", \n        item.m_MessageID,\n        item.m_MessageType,\n        item.m_ClassID,\n        item.m_CategoryID, \n        item.m_MessageText);\n}

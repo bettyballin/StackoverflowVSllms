@@ -1,1 +1,0 @@
-# Create a new user account\nnet user sqlservice password /add\n\n# Grant required permissions\nntrights +r SeServiceLogonRight -u sqlservice\nntrights +r SeBatchLogonRight -u sqlservice\nntrights +r SeAssignPrimaryTokenPrivilege -u sqlservice\n\n# Add user to local Users group\nnet localgroup Users sqlservice /add

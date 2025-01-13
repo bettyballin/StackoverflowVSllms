@@ -1,1 +1,0 @@
-// libfoo.i (SWIG interface file)\n%module libfoo\n%{\n#include "libfoo.h"\n%}\n\n%include "libfoo.h"

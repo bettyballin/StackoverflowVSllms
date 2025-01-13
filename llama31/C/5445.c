@@ -1,1 +1,0 @@
-double sin(double x) {\n    double result = 0;\n    double term = x;\n    int i = 1;\n    while (i < 10) { // truncate to 10 terms\n        result += term;\n        term *= -x * x / (2 * i + 1);\n        i++;\n    }\n    return result;\n}

@@ -1,1 +1,0 @@
-protected void Session_End(object sender, EventArgs e)\n{\n    SessionImageManager manager = new SessionImageManager(new ImageManager(Server.MapPath("~/Temp")));\n    manager.Session_End(sender, e);\n}

@@ -1,0 +1,1 @@
+DBCC SHRINKFILE ('ByBox_1_Log' , 1)

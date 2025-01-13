@@ -1,1 +1,0 @@
-using NLog;\n\n// ...\n\nLogger logger = LogManager.GetCurrentClassLogger();\nlogger.Info("This is a log message");

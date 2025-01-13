@@ -1,1 +1,0 @@
-Ajax.ActionLink(" ", "Action", Args, AjaxArgs, new { @style = "display: none;" })

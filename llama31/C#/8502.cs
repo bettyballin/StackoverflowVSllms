@@ -1,1 +1,0 @@
-using Mailgun;\n\n// Initialize the Mailgun client\nvar client = new MailgunClient("your-api-key", "your-domain");\n\n// Send an email\nvar message = new Message\n{\n    From = "anon@example.com",\n    To = "your-email@example.com",\n    Subject = "Anonymous email",\n    Text = "This is an anonymous email sent from the app."\n};\n\nawait client.SendAsync(message);

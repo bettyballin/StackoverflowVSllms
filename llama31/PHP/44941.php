@@ -1,0 +1,1 @@
+use PhpOle\PhpOle;\n\n$docFile = 'path/to/document.doc';\n$ole = new PhpOle($docFile);\n$text = $ole->getStream('WordDocument');

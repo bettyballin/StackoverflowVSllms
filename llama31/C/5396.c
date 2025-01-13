@@ -1,1 +1,0 @@
-struct tcp_header {\n    uint16_t src_port;\n    uint16_t dst_port;\n    uint32_t seq_num;\n    uint32_t ack_num;\n    uint8_t  data_offset;\n    uint8_t  reserved;\n    uint8_t  flags;\n    uint16_t window_size;\n    uint16_t checksum;\n    uint16_t urgent_ptr;\n};

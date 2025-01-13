@@ -1,0 +1,1 @@
+Public Class MyClass\n    Private WithEvents treeView1 As TreeView\n\n    Public ReadOnly Property ExposedNode As TreeNode\n        Get\n            Return treeView1.Nodes("NodeKey")\n        End Get\n    End Property\nEnd Class

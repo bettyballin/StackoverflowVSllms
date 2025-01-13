@@ -1,0 +1,1 @@
+$results = array_merge($ourDatabaseResults, $apiResults);\nusort($results, function($a, $b) {\n    return strtotime($a['date']) - strtotime($b['date']);\n});

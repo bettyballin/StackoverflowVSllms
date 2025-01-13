@@ -1,0 +1,1 @@
+# app/controllers/your_controller.rb\nclass YourController < ApplicationController\n  skip_before_action :verify_authenticity_token, only: [:load_test_action]\n  # ...\nend

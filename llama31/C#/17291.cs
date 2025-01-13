@@ -1,1 +1,0 @@
-ViewData["OfficeLocations"] = new SelectList(ulsdb_dc.GetOfficeLocations(), "LocationAddress", "LocationName");

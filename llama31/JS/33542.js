@@ -1,0 +1,1 @@
+function loadFavoritesOnlineListing() {\n    // your code to load the content...\n    $('#favoritesOnlineListing').html('your content here');\n    // after content has been loaded...\n    $('#favoritesOnlinePopUp').css('height', 'auto');\n}

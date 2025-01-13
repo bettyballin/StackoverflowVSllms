@@ -1,0 +1,1 @@
+// Assuming your DropDownList ID is "ddlList"\nvar ddlList = document.getElementById("<%= ddlList.ClientID %>");\n\n// Get all option elements\nvar options = ddlList.options;\n\n// Iterate through options and get their values\nfor (var i = 0; i < options.length; i++) {\n    var optionValue = options[i].value;\n    // Do something with the option value\n}

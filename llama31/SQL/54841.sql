@@ -1,0 +1,1 @@
+SELECT op.id, bo.id\nFROM opening op\nLEFT JOIN booking bo ON bo.openingId = op.id\nWHERE op.id NOT IN (\n  SELECT bo.openingId\n  FROM booking bo\n  WHERE bo.bookingType = 'C'\n  OR (bo.arrivalDate >= '2009/06/20' AND bo.departureDate <= '2009/06/27')\n)

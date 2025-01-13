@@ -1,1 +1,0 @@
-plutil -p ~/Library/Preferences/widget-name.plist

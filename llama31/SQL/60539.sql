@@ -1,0 +1,1 @@
+UPDATE YourTable\nSET EmployeeID = \n    IIf([Name] = "Joe Doe", 334, \n    IIf([Name] = "Barry Davis", 456, \n    ... \n    IIf([Name] = "Last Employee", LastEmployeeID, NULL)))

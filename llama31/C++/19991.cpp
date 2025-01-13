@@ -1,1 +1,0 @@
-STDMETHODIMP CAnalisis::getImgName(BSTR* imgName)\n{\n    *imgName = ::SysAllocString(img.imgName);\n    return S_OK;\n}\n\nSTDMETHODIMP CAnalisis::setImgName(BSTR imgName)\n{\n    if (img.imgName)\n        ::SysFreeString(img.imgName);\n\n    img.imgName = ::SysAllocString(imgName);\n    return S_OK;\n}

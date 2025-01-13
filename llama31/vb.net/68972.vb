@@ -1,0 +1,1 @@
+Imports System.Globalization\n\nDim decimalValue As Decimal = 123.45\nDim usCulture As CultureInfo = New CultureInfo("en-US")\nDim stringValue As String = decimalValue.ToString("N2", usCulture)\n\nConsole.WriteLine(stringValue) ' Outputs: 123.45

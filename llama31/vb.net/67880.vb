@@ -1,0 +1,1 @@
+If Not Request.Cookies("LoginInfo") Is Nothing Then\n    Dim RateCookie As HttpCookie = Request.Cookies("LoginInfo")\n    Session("myEmailSession") = Server.HtmlEncode(RateCookie.Values("Email"))\nEnd If

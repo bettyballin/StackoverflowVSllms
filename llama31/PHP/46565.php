@@ -1,0 +1,1 @@
+$str = 'Hello, World!';\necho $str[0];  // Outputs: H\necho $str{0};  // Outputs: H

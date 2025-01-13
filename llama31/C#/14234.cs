@@ -1,1 +1,0 @@
-using MyProject.Data;\n\n// ...\n\nMyTypedDataset ds = new MyTypedDataset();

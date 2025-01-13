@@ -1,1 +1,0 @@
-$ ar -x libsamplerate.a\n$ ls\nlibsamplerate.o  src.o  utils.o

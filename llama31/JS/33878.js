@@ -1,0 +1,1 @@
+var ajaxSubmit = true;\n\n$('form').ajaxForm({\n  beforeSubmit: function() {\n    if (!ajaxSubmit) {\n      return false;\n    }\n  },\n  success: function() {\n    ajaxSubmit = false;\n    confirmDialog();\n  }\n});\n\nfunction confirmDialog() {\n  // show confirm dialog\n  // ...\n  // if user confirms\n  $('form')[0].submit(); // submit the form normally\n}

@@ -1,1 +1,0 @@
-CC = mingw32-gcc\nCFLAGS = -Wall -O2\n\nall: program.exe\n\nprogram.exe: source_file.c\n    $(CC) $(CFLAGS) -o program.exe source_file.c

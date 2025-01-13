@@ -1,1 +1,0 @@
-InvValue = nInvValue + 0.01D

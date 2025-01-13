@@ -1,1 +1,0 @@
-template <class T>\nvoid Class::setData( vector<T> data )\n{\n    vector<T> ::iterator it;\n}

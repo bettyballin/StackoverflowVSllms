@@ -1,1 +1,0 @@
-sqlplus -s user/pwd@tnsname <<EOF\nSET DEFINE OFF\nEOF

@@ -1,0 +1,1 @@
+$get_param = $this->input->get('param_name', TRUE);

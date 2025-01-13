@@ -1,0 +1,1 @@
+SELECT col1 \nFROM table1 \nWHERE col2 = 'x' \nORDER by col3 \nFOR XML path(''), TYPE) AS my_column_name

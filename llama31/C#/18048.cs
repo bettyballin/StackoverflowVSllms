@@ -1,1 +1,0 @@
-HasManyToMany(x => x.Permissions)\n    .WithParentKeyColumn("RoleId")\n    .WithChildKeyColumn("PermissionId")\n    .WithTableName("RolePermissions")\n    .LazyLoad()\n    .Cascade.All()\n    .CustomType<PermissionEnumType>();

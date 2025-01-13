@@ -1,0 +1,1 @@
+use Monolog\Logger;\nuse Monolog\Handler\StreamHandler;\n\n$logger = new Logger('my_logger');\n$logger->pushHandler(new StreamHandler('path/to/log/file.log', Logger::ERROR));\n\n// Log an error\n$logger->addError('Something went wrong!');

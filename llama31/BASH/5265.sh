@@ -1,1 +1,0 @@
-@echo off\njavaw -jar myprogram.jar

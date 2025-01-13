@@ -1,1 +1,0 @@
-protected void CustomValidator1_ServerValidate(object source, ServerValidateEventArgs args)\n{\n    string value = args.Value;\n    try\n    {\n        float.Parse(value, CultureInfo.CurrentCulture);\n        args.IsValid = true;\n    }\n    catch (FormatException)\n    {\n        args.IsValid = false;\n    }\n}

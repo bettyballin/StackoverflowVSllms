@@ -1,0 +1,1 @@
+Sub btnedit_Click(ByVal sender As Object, ByVal e As ImageClickEventArgs)\n    Dim argument As String = CType(sender, ImageButton).CommandArgument\n    // use the argument value as needed\nEnd Sub

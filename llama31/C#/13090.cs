@@ -1,1 +1,0 @@
-try\n{\n    // Your database code here\n}\ncatch (ArgumentOutOfRangeException ex)\n{\n    // Log the exception\n    // Retry the operation\n}

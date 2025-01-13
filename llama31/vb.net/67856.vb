@@ -1,0 +1,1 @@
+Dim imagePath As String = "path/to/empty/image.jpg"\nDim imageBytes As Byte()\n\nUsing reader As New BinaryReader(File.Open(imagePath, FileMode.Open))\n    imageBytes = reader.ReadBytes(CInt(reader.BaseStream.Length))\nEnd Using\n\nDim picture As New SqlParameter("@picture", imageBytes)

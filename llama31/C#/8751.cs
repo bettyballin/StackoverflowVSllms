@@ -1,1 +1,0 @@
-var sequence = new[] { 'A', 'B', 'C', 'D', 'E' };\nvar subsequences = sequence.Subsequences(3);\n\nforeach (var subsequence in subsequences)\n{\n    Console.WriteLine(string.Join(", ", subsequence));\n}

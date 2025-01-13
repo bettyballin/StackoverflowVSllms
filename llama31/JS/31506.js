@@ -1,0 +1,1 @@
+$(document).ready(function() {\n  function get(jsonData) {\n    $('#content').append('<p>' + jsonData.rank + '</p>');\n  }\n\n  var req = 'http://twittercounter.com/api/?username=Anand_Dasgupta&output=json&results=3&callback=?';\n\n  $.ajax({\n    url: req,\n    dataType: 'jsonp',\n    success: get\n  });\n});

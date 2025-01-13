@@ -1,1 +1,0 @@
-gcore -o core_file pid

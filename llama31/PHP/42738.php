@@ -1,0 +1,1 @@
+$groupName = null;\nwhile ($data = mysql_fetch_array($result)) {\n    if ($data['product_groups.name'] !== $groupName) {\n        echo $data['product_groups.name'] . "\n";\n        $groupName = $data['product_groups.name'];\n    }\n    echo $data['products.name'] . "\n";\n}

@@ -1,0 +1,1 @@
+from sqlalchemy import text\n\nresult = session.query(YourTable).from_statement(\n    text("SELECT * FROM your_table TABLESAMPLE SYSTEM_ROWS(1)")\n).first()

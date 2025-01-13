@@ -1,0 +1,1 @@
+**Row data (binary)**\n----------------\n| id (INT) | NULL flag | name (VARCHAR(255)) |\n| --- | --- | --- |\n| 01 00 00 01 | 01     |                   |

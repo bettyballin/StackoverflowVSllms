@@ -1,0 +1,1 @@
+// Add this to the $hook array\n$hook['display_override'][] = array(\n    'class' => 'ErrorEmailer',\n    'function' => 'send_error_email',\n    'filename' => 'ErrorEmailer.php',\n    'filepath' => 'hooks'\n);

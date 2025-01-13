@@ -1,1 +1,0 @@
-uint16_t saturating_add16(uint16_t a, uint16_t b) {\n    uint16_t sum = a + b;\n    return (sum & 0x8000) ? UINT16_MAX : sum;\n}\n\nuint32_t saturating_add32(uint32_t a, uint32_t b) {\n    uint32_t sum = a + b;\n    return (sum & 0x80000000) ? UINT32_MAX : sum;\n}

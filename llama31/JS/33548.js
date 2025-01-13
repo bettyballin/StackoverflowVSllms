@@ -1,0 +1,1 @@
+foo.bar = +foo.bar | 0; // (int) 123

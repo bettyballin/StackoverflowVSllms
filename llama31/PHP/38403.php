@@ -1,0 +1,1 @@
+$numRows = mysql_num_rows($result);\n$last = ceil($numRows/$page_rows);

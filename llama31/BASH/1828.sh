@@ -1,1 +1,0 @@
-system("qpdf --split-pages input.pdf output_%d.pdf")

@@ -1,0 +1,1 @@
+-- Left shift (equivalent to <<)\nfunction left_shift(p_value in number, p_shift in number) return number is\nbegin\n  return p_value * power(2, p_shift);\nend;\n\n-- Right shift (equivalent to >>)\nfunction right_shift(p_value in number, p_shift in number) return number is\nbegin\n  return trunc(p_value / power(2, p_shift));\nend;

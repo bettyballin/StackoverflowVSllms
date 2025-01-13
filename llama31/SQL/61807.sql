@@ -1,0 +1,1 @@
+SELECT f.flag_name\nFROM my_table_flags mf\nJOIN flags f ON mf.flag_id = f.flag_id\nWHERE mf.my_table_id = <my_table_id>;

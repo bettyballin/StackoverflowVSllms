@@ -1,1 +1,0 @@
-var stats = TcpStatistics.GetTcpStatistics();\nConsole.WriteLine("Packet loss: " + stats.SegmentsRetransmitted);

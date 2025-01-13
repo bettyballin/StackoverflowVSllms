@@ -1,0 +1,1 @@
+<dependency>\n    <groupId>org.jfree</groupId>\n    <artifactId>jfreechart</artifactId>\n    <version>1.5.3</version>\n</dependency>

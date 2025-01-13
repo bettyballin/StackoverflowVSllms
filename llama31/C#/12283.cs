@@ -1,1 +1,0 @@
-List<List<string>> items = ...;\n\n// Sort in ascending order\nitems = items.OrderBy(x => x.Count).ToList();\n\n// Sort in descending order\nitems = items.OrderByDescending(x => x.Count).ToList();

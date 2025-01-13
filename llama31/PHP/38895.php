@@ -1,0 +1,1 @@
+$start_time = microtime(true);\n$subscriber_count = count($subscribers);\n\nfor ($i = 0; $i < $subscriber_count; $i++) {\n    // Send email code here...\n    $current_time = microtime(true);\n    echo "Sent email to subscriber $i in " . ($current_time - $start_time) . " seconds\n";\n    $start_time = $current_time;\n}

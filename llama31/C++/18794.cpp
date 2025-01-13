@@ -1,1 +1,0 @@
-std::ofstream logFile;\nlogFile.open("C:\\mylog.log");\nlogFile << "Hello World!" << std::endl;\nlogFile.flush(); // Add this line to flush the buffer

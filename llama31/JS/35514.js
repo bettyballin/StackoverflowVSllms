@@ -1,0 +1,1 @@
+// Assuming you have a proxy server set up at /proxy on your domain\n$.ajax({\n  url: '/proxy',\n  data: {\n    cx: 'MY_UNIQUE_KEY',\n    client: 'google-csbe',\n    output: 'xml_no_dtd',\n    q: 'query+terms'\n  },\n  success: function(data) {\n    // Process the XML data\n  }\n});

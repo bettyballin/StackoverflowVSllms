@@ -1,0 +1,1 @@
+function sub() {\n    var x = document.getElementsByName("user");\n    for (var i = 0; i < x.length; i++) {\n        if (x[i].checked) {\n            x[i].setAttribute("data-id", "true");\n        }\n    }\n    document.checks.submit();\n}

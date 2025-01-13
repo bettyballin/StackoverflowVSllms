@@ -1,0 +1,1 @@
+CREATE TABLE size_enum (\n  value VARCHAR2(10) PRIMARY KEY\n);\n\nINSERT INTO size_enum (value) VALUES ('small');\nINSERT INTO size_enum (value) VALUES ('medium');\nINSERT INTO size_enum (value) VALUES ('large');\n\nCREATE TABLE sizes (\n  name VARCHAR2(10) REFERENCES size_enum(value)\n);

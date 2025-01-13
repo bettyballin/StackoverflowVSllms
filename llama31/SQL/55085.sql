@@ -1,0 +1,1 @@
+CREATE NONCLUSTERED INDEX IX_Person_PersonTypeId\nON Person (PersonTypeId);

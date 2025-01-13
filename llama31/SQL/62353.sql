@@ -1,0 +1,1 @@
+CREATE TABLE OriginalTable (\n    ID INT PRIMARY KEY,\n    Field1 VARCHAR(50),\n    Field2 VARCHAR(50),\n    Field3 VARCHAR(50),\n    BlobID INT NULL\n);\n\nCREATE TABLE BlobTable (\n    ID INT PRIMARY KEY,\n    BlobData VARBINARY(MAX)\n);\n\nALTER TABLE OriginalTable\nADD CONSTRAINT FK_OriginalTable_BlobTable\nFOREIGN KEY (BlobID) REFERENCES BlobTable(ID);

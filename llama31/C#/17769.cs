@@ -1,1 +1,0 @@
-string connectionString = ConfigurationManager.ConnectionStrings["YourConnectionStringName"].ConnectionString;\nusing (SqlConnection connection = new SqlConnection(connectionString))\n{\n    // your database code here\n}

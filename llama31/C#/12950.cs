@@ -1,1 +1,0 @@
-var srcValue = htmlDoc.DocumentNode.SelectSingleNode("//div[@id='topslot']/a/img/@src").Value;

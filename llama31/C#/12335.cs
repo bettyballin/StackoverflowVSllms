@@ -1,1 +1,0 @@
-using System.Web.Security;\n\nclass CreateUser\n{\n    static void Main(string[] args)\n    {\n        Membership.CreateUser("admin", "password", "admin@example.com");\n        Roles.AddUserToRole("admin", "Administrator");\n    }\n}

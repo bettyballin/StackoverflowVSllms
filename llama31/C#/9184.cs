@@ -1,1 +1,0 @@
-// Using Tuple class\nList<Tuple<Node, Node>> nodePairs = new List<Tuple<Node, Node>>();\n\n// Using custom class\npublic class NodePair\n{\n    public Node StartNode { get; set; }\n    public Node EndNode { get; set; }\n}\n\nList<NodePair> nodePairs = new List<NodePair>();

@@ -1,0 +1,1 @@
+$this->output->set_content_type('application/rss+xml');

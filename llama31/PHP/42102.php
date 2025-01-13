@@ -1,0 +1,1 @@
+class UI {\n    private static $title;\n\n    public static function getTitle() { \n        return self::$title; \n    }\n\n    public static function setTitle($value) { \n        // Ensure title is properly sanitized to prevent XSS\n        self::$title = htmlspecialchars($value, ENT_QUOTES, 'UTF-8'); \n    }\n}

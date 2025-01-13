@@ -1,1 +1,0 @@
-using (ZipOutputStream zos = new ZipOutputStream(File.Create(filesPath + "\\" + this.zipName)))\n{\n    // create the zip file\n}

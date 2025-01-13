@@ -1,0 +1,1 @@
+SQL> IMPORT USER username FILE=backup.dmp GRANTS=N STATISTICS=NONE

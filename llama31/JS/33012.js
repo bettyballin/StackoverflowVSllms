@@ -1,0 +1,1 @@
+window.onbeforeprint = function() {\n  // Send AJAX request to server to track print event\n  var xhr = new XMLHttpRequest();\n  xhr.open('GET', '/print-tracker', true);\n  xhr.send();\n};

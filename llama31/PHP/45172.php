@@ -1,0 +1,1 @@
+function my_function($functionToBeCalled, $additionalParam) {\n    call_user_func($functionToBeCalled, $additionalParam);\n}\n\nfunction test_function($param) {\n    echo "Hello, $param!";\n}\n\nmy_function('test_function', 'World');

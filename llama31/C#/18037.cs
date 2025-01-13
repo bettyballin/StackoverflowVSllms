@@ -1,1 +1,0 @@
-// Example using Moq\nvar mockService = new Mock<IService>();\nvar sut = new MyClass(mockService.Object);

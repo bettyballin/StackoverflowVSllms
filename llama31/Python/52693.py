@@ -1,0 +1,1 @@
+from openpyxl import Workbook\n\n# Create a new workbook\nwb = Workbook()\n\n# Select the first sheet\nsheet = wb.active\n\n# Write data to a cell\nsheet['A1'] = 'Hello, World!'\n\n# Save the workbook to a file\nwb.save('example.xlsx')

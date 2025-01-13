@@ -1,1 +1,0 @@
-keytool -v -list -keystore mykeystore.jks -storepass mypassword\n\nkeytool -v -export -alias myprivatekey -keystore mykeystore.jks -storepass mypassword -file exported_private_key.pem

@@ -1,1 +1,0 @@
-cat file1 | grep "search_string" | grep -v "another_search_string" | grep -oP "\[.*?\] " | sort | uniq -u | tr -d "\n" | sed 's/[][]/[]/g'

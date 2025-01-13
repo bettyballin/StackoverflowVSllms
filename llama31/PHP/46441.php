@@ -1,0 +1,1 @@
+protected function getChar()\n{\n    $char = fgetc($this->_socket);\n    if ($char === "\xFF" && fread($this->_socket, 1) === "\xF0") {\n        // End of Telnet message detected\n        return false;\n    }\n    return $char;\n}

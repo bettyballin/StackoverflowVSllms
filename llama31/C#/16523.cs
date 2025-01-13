@@ -1,1 +1,0 @@
-public static List<string> RemoveSequences(List<string> input)\n{\n    return input.Where((x, i) => i == 0 || x != input[i - 1]).ToList();\n}

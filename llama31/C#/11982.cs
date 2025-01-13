@@ -1,1 +1,0 @@
-using NCover.Framework;\n\nnamespace MyProject.Tests\n{\n    [TestClass]\n    public class MyTests\n    {\n        [TestMethod]\n        public void MyTest()\n        {\n            // Your test code here\n        }\n    }\n}

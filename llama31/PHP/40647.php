@@ -1,0 +1,1 @@
+amespace Application\Controller;\n\nuse Zend\Mvc\Controller\AbstractActionController;\nuse Zend\View\Model\ViewModel;\n\nclass HelloWorldController extends AbstractActionController\n{\n    public function indexAction()\n    {\n        return new ViewModel(['message' => 'Hello, World!']);\n    }\n}

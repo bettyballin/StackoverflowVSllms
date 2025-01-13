@@ -1,0 +1,1 @@
+Public Function GetValue(ID As Long) As Boolean\n    On Error GoTo ErrorHandler\n\n    ' ... DAL Logic...\n\nErrorHandler:\n    On Error GoTo 0\n    Exit Function\nEnd Functio

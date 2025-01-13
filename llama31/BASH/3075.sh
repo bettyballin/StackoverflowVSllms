@@ -1,1 +1,0 @@
-pg_top -U myuser

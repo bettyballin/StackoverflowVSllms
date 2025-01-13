@@ -1,1 +1,0 @@
-public class Person\n{\n    public int PersonId { get; set; }\n    public byte PersonTypeId { get; set; }\n}

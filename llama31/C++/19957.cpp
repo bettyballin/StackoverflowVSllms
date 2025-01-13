@@ -1,1 +1,0 @@
-#include <Windows.h>\n#include <ImageHlp.h>\n\nbool isConsoleApp() {\n    HANDLE hModule = GetModuleHandle(NULL);\n    MODULEINFO mi;\n    GetModuleInformation(GetCurrentProcess(), hModule, &mi, sizeof(mi));\n    return mi.Subsystem == IMAGE_SUBSYSTEM_WINDOWS_CUI;\n}

@@ -1,0 +1,1 @@
+CREATE TABLE test_table (name NVARCHAR2(20));\n\nINSERT INTO test_table (name) VALUES ('€uro');

@@ -1,0 +1,1 @@
+Imports System.Runtime.InteropServices\n\n<DllImport("kernel32.dll")>\nPublic Shared Function GetTickCount() As Integer\nEnd Functio

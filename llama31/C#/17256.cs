@@ -1,1 +1,0 @@
-int number = 1234567;\nstring formattedNumber = number.ToString("N0", CultureInfo.InvariantCulture);\nConsole.WriteLine(formattedNumber);  // Outputs: 1,234,567

@@ -1,0 +1,1 @@
+CREATE TABLE MyTable (\n    column1,\n    column2,\n    ...\n)\n\nINSERT INTO MyTable\nSELECT ...\nFROM ...\n\nCREATE CLUSTERED INDEX idx_MyTable ON MyTable ( column1, column2, ... )

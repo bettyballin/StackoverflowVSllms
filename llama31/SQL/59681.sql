@@ -1,0 +1,1 @@
+CREATE TABLE cities (\n    state_id integer,\n    name varchar(32),\n    slug varchar(32)\n);\n\nCREATE UNIQUE INDEX idx_cities_state_id_slug ON cities (state_id, slug);\nCREATE INDEX idx_cities_state_id ON cities (state_id);\nCREATE INDEX idx_cities_slug ON cities (slug);

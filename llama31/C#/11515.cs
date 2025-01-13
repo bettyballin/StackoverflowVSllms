@@ -1,1 +1,0 @@
-[ServiceBehavior]\npublic class MyService\n{\n    [OperationContract]\n    public void MyMethod()\n    {\n        try\n        {\n            // Method implementation\n        }\n        catch (FaultException ex)\n        {\n            // Clean up resources here\n        }\n    }\n}

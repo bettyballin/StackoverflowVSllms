@@ -1,0 +1,1 @@
+SELECT COUNT(*) + 1 AS position\nFROM photos\nWHERE taken_at < (SELECT taken_at FROM photos WHERE id = 123)

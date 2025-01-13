@@ -1,0 +1,1 @@
+var firstDiv = document.getElementById( 'one' );\n\nvar secondDiv = firstDiv.nextElementSibling;\n\nvar previousDiv = firstDiv.previousElementSibling;

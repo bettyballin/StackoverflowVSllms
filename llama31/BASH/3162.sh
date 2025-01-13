@@ -1,1 +1,0 @@
-php -dxdebug.profiler_enable=1 -dxdebug.profiler_output_dir=/path/to/output -r "require '/path/to/your/script.php';"

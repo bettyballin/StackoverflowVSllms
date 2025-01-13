@@ -1,0 +1,1 @@
+<aop>\n    <aspect class="org.yourcompany.ProfilingInterceptor" scope="PER_VM"/>\n    <bind pointcut="execution(* *->*(..))">\n        <interceptor-ref name="ProfilingInterceptor"/>\n    </bind>\n</aop>

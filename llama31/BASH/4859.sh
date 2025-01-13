@@ -1,1 +1,0 @@
-pkgadd -d http://ftp.sunfreeware.com/pub/freeware/sparc/8/libstdc++-3.4.2-sol8-sparc-local.gz

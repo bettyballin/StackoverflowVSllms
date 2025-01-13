@@ -1,1 +1,0 @@
-RemotingConfiguration.CustomErrorsMode = CustomErrorsModes.Off;\nBinaryServerFormatterSinkProvider serverProvider = new BinaryServerFormatterSinkProvider();\nserverProvider.TypeFilterLevel = TypeFilterLevel.Full;

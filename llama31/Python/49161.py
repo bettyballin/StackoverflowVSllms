@@ -1,0 +1,1 @@
+from collections import defaultdict\n\nd = defaultdict(list)\n\n# assuming t and c are defined\nd[t].append(c)

@@ -1,1 +1,0 @@
-[HttpPost]\npublic ActionResult Upload()\n{\n    HttpPostedFileBase file = Request.Files["myFile"];\n    if (file != null && file.ContentLength > 0)\n    {\n        // Process the file\n    }\n    return View();\n}

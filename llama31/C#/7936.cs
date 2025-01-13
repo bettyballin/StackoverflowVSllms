@@ -1,1 +1,0 @@
-using System.Reflection;\n\n// Load the assembly manually\nAssembly assembly = Assembly.LoadFrom("C:\Path\To\Assembly.dll");

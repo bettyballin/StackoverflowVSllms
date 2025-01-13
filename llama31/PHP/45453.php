@@ -1,0 +1,1 @@
+$unserialized_data = unserialize($row['node_data_field_factsheet_field_factsheet_data']);\n$file_uri = $unserialized_data['uri'];\n$file_path = file_create_url($file_uri);

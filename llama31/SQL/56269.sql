@@ -1,0 +1,1 @@
+-- Grant the Manage Subscriptions permission\nINSERT INTO dbo.RolePermissions (RoleId, PermissionId)\nVALUES ((SELECT Id FROM dbo.Roles WHERE Name = 'Subscription Manager'), \n        (SELECT Id FROM dbo.Permissions WHERE Name = 'Manage Subscriptions'));

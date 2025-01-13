@@ -1,1 +1,0 @@
-var evaluator = new DynamicExpressionEvaluator();\nbool result = evaluator.Evaluate("(A1 && A2) || (A1 && A3) || (!A2 && A3)", true, false, true);

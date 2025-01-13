@@ -1,0 +1,1 @@
+CREATE VIEW pivmehis WITH ENCRYPTION\nAS\nSELECT [Approved], [Reject], [Null]\nFROM \n  (SELECT MgtApproval, SchedId\n   FROM LeaveRequest) l\nPIVOT \n  (\n    MAX(SchedId) -- Use MAX or MIN instead of SUM\n    FOR MgtApproval IN \n      ([Approved], [Reject], [Null])\n  ) as pvt

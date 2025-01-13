@@ -1,1 +1,0 @@
-// obj.cpp\n#include "obj.h"\n\nextern "C" GLboolean load_obj(const char *filename, GLuint &object_list)\n{\n    // code...\n}

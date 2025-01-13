@@ -1,0 +1,1 @@
+viewport_width = 271\nnum_boxes = 3\nbox_sizes = calculate_box_sizes(viewport_width, num_boxes)\nprint(box_sizes)  # Output: [100, 90, 81]

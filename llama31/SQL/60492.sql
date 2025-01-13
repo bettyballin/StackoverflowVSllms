@@ -1,0 +1,1 @@
+INSERT INTO Country (CountryName)\nSELECT DISTINCT column_name\nFROM information_schema.columns\nWHERE table_name = 'your_original_table_name'\n  AND column_name NOT IN ('ID', 'Species');

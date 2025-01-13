@@ -1,0 +1,1 @@
+-- Create a stored procedure\nCREATE PROCEDURE GetCustomerData\n    @CustomerId INT\nAS\nBEGIN\n    SELECT * FROM Customers\n    WHERE CustomerId = @CustomerId;\nEND\nGO\n\n-- Call the stored procedure\nEXEC GetCustomerData @CustomerId = 123;

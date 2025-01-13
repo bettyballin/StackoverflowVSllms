@@ -1,0 +1,1 @@
+CREATE TABLE oauth_tokens (\n    id INT PRIMARY KEY,\n    access_token VARCHAR(255),\n    access_secret VARCHAR(255)\n);

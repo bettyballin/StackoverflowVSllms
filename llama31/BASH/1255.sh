@@ -1,1 +1,0 @@
-pip2.6 install --upgrade package_name

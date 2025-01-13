@@ -1,1 +1,0 @@
-using System.Messaging;\n\n// Create a message queue\nMessageQueue queue = new MessageQueue("myQueue");\n\n// Create a message\nMessage message = new Message("Hello, World!");\n\n// Send the message to the queue\nqueue.Send(message);

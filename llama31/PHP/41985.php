@@ -1,0 +1,1 @@
+$this->load->controller('dx_auth');\n$this->dx_auth->register();

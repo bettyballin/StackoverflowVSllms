@@ -1,1 +1,0 @@
-Response.Headers["X-XRDS-Location"] = url

@@ -1,0 +1,1 @@
+class ContactsController < ApplicationController\n  def create\n    @contact_form = ContactForm.new(params[:contact_form])\n    if @contact_form.valid?\n      # Send email or perform other actions\n      redirect_to root_path, notice: "Message sent successfully"\n    else\n      render :new\n    end\n  end\nend

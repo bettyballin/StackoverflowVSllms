@@ -1,1 +1,0 @@
-sudo auditctl -R /etc/audit/rules.d/process-tracking.rules

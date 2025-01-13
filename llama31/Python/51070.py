@@ -1,0 +1,1 @@
+class Event(models.Model):\n    users = models.ManyToManyField(User, through='EventUserRole')\n    # event fields

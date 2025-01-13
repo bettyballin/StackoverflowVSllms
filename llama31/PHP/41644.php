@@ -1,0 +1,1 @@
+Array\n(\n    [0] => three\n)

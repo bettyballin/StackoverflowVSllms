@@ -1,0 +1,1 @@
+class Person {\n  private $name;\n  private $age;\n\n  public function __construct($name, $age) {\n    $this->name = $name;\n    $this->age = $age;\n  }\n\n  public function sayHello() {\n    echo "Hello, my name is " . $this->name . " and I am " . $this->age . " years old.";\n  }\n}\n\n$person = new Person("John", 30);\n$person->sayHello();

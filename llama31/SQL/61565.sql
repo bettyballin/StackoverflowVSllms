@@ -1,0 +1,1 @@
+insert into table1 ([columnname1], columnname2) values (val1, val2)

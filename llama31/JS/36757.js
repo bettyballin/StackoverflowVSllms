@@ -1,0 +1,1 @@
+var userDefinedFunctions = [];\n\nfor (var f in window) {\n    if (window.hasOwnProperty(f) && typeof window[f] === 'function') {\n        if (!/^\s*function\s*[^(]*\([^)]*\)\s*{\s*\[native code]\s*}$/.test(window[f].toString())) {\n            userDefinedFunctions.push(f);\n        }\n    }\n}\n\nconsole.log(userDefinedFunctions);

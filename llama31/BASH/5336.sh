@@ -1,1 +1,0 @@
-@echo off\npsftp user@remote_server:/remote/path ^\n  get *.txt ^\n  del *.txt ^\n  quit

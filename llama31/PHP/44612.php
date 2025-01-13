@@ -1,0 +1,1 @@
+$var = 'test';\n$var = null; // $var is still accessible, but its value is null

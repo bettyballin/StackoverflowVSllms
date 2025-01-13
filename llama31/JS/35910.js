@@ -1,0 +1,1 @@
+function handleError(error) {\n  alert(error.message);\n}\n\nfunction validate(formData) {\n  const result = validateRules(formData);\n  if (result.error) {\n    handleError(result.error);\n  }\n}

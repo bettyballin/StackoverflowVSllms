@@ -1,0 +1,1 @@
+stringValue = otherString if otherString else defaultString

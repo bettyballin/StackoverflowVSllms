@@ -1,1 +1,0 @@
-serialPort.PinChanged += (sender, e) =>\n{\n    if (e.EventType == SerialPinChange.Dtr)\n    {\n        // Reset the sensor by setting DTR high\n        serialPort.DtrEnable = true;\n        Thread.Sleep(100); // wait for 100ms\n        serialPort.DtrEnable = false;\n    }\n};

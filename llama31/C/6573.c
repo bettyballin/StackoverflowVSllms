@@ -1,1 +1,0 @@
-int lookup(const char *word, const char *array[])\n{\n    register int i;\n\n    for (i = 0; array[i] != NULL; i++)\n        if (strcmp(word, array[i]) == 0)\n            return i;\n\n    return -1;\n}

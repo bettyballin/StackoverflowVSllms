@@ -1,0 +1,1 @@
+SELECT \n  batch,\n  status0,\n  status1,\n  status2\nFROM \n  (SELECT batch, status FROM your_table)\n  PIVOT \n  (COUNT(*) FOR status IN (0 AS status0, 1 AS status1, 2 AS status2));

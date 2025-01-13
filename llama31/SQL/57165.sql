@@ -1,0 +1,1 @@
+SELECT * FROM (\n  SELECT * FROM your_table\n  UNPIVOT (\n    excluded_value\n    FOR excluded_column IN (your_excluded_column)\n  ) AS unpiv\n) AS subquery;

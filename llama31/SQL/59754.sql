@@ -1,0 +1,1 @@
+SELECT i.*\nFROM items i\nJOIN item_sections is ON i.id = is.item_id\nWHERE is.section_id = 5;

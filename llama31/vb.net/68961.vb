@@ -1,0 +1,1 @@
+Imports System.Runtime.InteropServices\n\nPublic Class ServerUptime\n    <DllImport("kernel32")> _\n    Private Shared Function GetTickCount() As UInt32\n    End Function\n\n    Public Shared Function GetUptime() As TimeSpan\n        Dim tickCount As UInt32 = GetTickCount()\n        Return TimeSpan.FromMilliseconds(tickCount)\n    End Function\nEnd Class

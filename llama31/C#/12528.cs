@@ -1,1 +1,0 @@
-using System.Drawing;\n\npublic class ImageDimensions\n{\n    public static void GetImageDimensions(string filePath)\n    {\n        using (var img = new Bitmap(filePath))\n        {\n            var dimensions = img.Width + " x " + img.Height;\n            Console.WriteLine("Dimensions: " + dimensions);\n        }\n    }\n}

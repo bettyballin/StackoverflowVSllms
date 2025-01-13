@@ -1,1 +1,0 @@
-return Fluently.Configure().Database(\n    MsSqlConfiguration.MsSql2005\n        .ConnectionString(c => c\n        .TrustedConnection()\n        .Server("localhost")\n        .Database("LDTT")))\n        .Mappings(m => m.FluentMappings.AddFromAssembly(typeof(UserMap).Assembly))\n    .ExposeConfiguration(BuildSchema)\n    .BuildSessionFactory();

@@ -1,1 +1,0 @@
-.color-palette {\n  display: flex;\n  flex-wrap: wrap;\n  gap: 10px;\n}\n\n.color {\n  width: 50px;\n  height: 50px;\n  border-radius: 5px;\n  cursor: pointer;\n}\n\n.color:hover {\n  transform: scale(1.1);\n}

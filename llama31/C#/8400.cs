@@ -1,1 +1,0 @@
-if (!MyFunction())\n{\n    // Handle the error, e.g., display a messagebox\n    MessageBox.Show("An error occurred.");\n}

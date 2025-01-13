@@ -1,1 +1,0 @@
-void receivingFunction(MyObject obj) {\n    // obj is a valid copy of the original object\n}\n\nvoid sendingFunction() {\n    MyObject obj; // stack-allocated object\n    receivingFunction(obj); // pass by value\n}

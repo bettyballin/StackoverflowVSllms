@@ -1,0 +1,1 @@
+$dir = opendir('//server/share');\nwhile (($file = readdir($dir)) !== false) {\n    echo $file . "\n";\n}\nclosedir($dir);

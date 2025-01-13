@@ -1,1 +1,0 @@
-public int GetCommentCount(int postId)\n{\n    using (var db = new YourDbContext())\n    {\n        var post = db.Posts.Find(postId);\n        return post.CommentCount;\n    }\n}

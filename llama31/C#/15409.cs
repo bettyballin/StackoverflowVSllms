@@ -1,1 +1,0 @@
-this.AppManager.DB.Refresh(RefreshMode.OverwriteCurrentValues, this.AppManager.DB.GetChangeSet().Updates);

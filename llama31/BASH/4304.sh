@@ -1,1 +1,0 @@
-grep -rL "pattern" .

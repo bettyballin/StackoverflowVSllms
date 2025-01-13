@@ -1,0 +1,1 @@
+UPDATE item SET rank_id = 2 WHERE link = 3;

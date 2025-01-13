@@ -1,0 +1,1 @@
+// settings file or database field\n$maintenance_mode = array('enabled' => true, 'start_time' => strtotime('+5 minutes'));

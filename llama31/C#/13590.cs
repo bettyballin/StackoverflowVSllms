@@ -1,1 +1,0 @@
-using (DirectoryEntry de = new DirectoryEntry("LDAP://" + distinguishedName))\n{\n    string userPrincipalName = (string)de.Properties["userPrincipalName"].Value;\n}

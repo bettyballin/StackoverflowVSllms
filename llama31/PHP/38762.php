@@ -1,0 +1,1 @@
+if (!file_exists($file)) {\n    throw new Exception("File not found.", 123);\n}

@@ -1,1 +1,0 @@
-using NSubstitute;\n\n// Arrange\nvar controller = Substitute.For<Controller>();\nvar httpContext = Substitute.For<HttpContextBase>();\n\n// Act\ncontroller.HttpContext.Returns(httpContext);\n\n// Assert\nAssert.AreEqual(httpContext, controller.HttpContext);

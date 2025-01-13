@@ -1,1 +1,0 @@
-string path = "C:\\temp\\temp2\\foo\\bar.txt";\nint lastSlash = path.LastIndexOf("\\");\nint lastTab = path.LastIndexOf("\\t");\nint lastDirectory = Math.Max(lastSlash, lastTab);\nif (lastDirectory >= 0)\n    string directory = path.Substring(0, lastDirectory);

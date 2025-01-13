@@ -1,0 +1,1 @@
+Private Shared ReadOnly log As ILog = LogManager.GetLogger("")

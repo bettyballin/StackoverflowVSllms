@@ -1,0 +1,1 @@
+CREATE TABLE itineraries (\n  id SERIAL PRIMARY KEY,\n  items JSONB NOT NULL\n);

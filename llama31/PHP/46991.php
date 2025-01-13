@@ -1,0 +1,1 @@
+// anything.php\nclass Anything {\n    private $db;\n\n    public function __construct(Database $db) {\n        $this->db = $db;\n    }\n\n    public function doSomething() {\n        $this->db->execute($something);\n    }\n}

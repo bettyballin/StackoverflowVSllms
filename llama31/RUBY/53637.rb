@@ -1,0 +1,1 @@
+class SessionsController < ApplicationController\n  # Only allow new, create, and destroy actions\n  before_action :authenticate_user!, only: [:destroy]\n\n  def new\n    # Display login form\n  end\n\n  def create\n    # Authenticate and login user\n  end\n\n  def destroy\n    # Logout user\n  end\nend

@@ -1,1 +1,0 @@
-var svcProxy = new MyWebService();\n\nvar endpointBehavior = new EndpointBehavior();\nendpointBehavior.Proxies.Add(new System.Net.WebProxy("http://proxyserver:1234", true));\n\nsvcProxy.Endpoint.Behaviors.Add(endpointBehavior);

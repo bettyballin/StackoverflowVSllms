@@ -1,1 +1,0 @@
-using System.Text.RegularExpressions;\n\npublic static bool IsValidInput(string input)\n{\n    string pattern = @"^[a-zA-Z0-9\s\-_\.]+$"; // adjust the pattern to fit your needs\n    return Regex.IsMatch(input, pattern);\n}

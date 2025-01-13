@@ -1,1 +1,0 @@
-this.AppManager.DB.ClearCache();

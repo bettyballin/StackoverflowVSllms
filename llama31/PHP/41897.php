@@ -1,0 +1,1 @@
+use PHPMailer\PHPMailer\PHPMailer;\n\n$mail = new PHPMailer();\n$mail->setFrom('sender@example.com');\n$mail->addAddress('recipient@example.com');\n$mail->Subject = 'Email with attached image';\n$mail->msgHTML('<html><body><img src="cid:logo"></body></html>');\n$mail->addEmbeddedImage('path/to/logo.png', 'logo');\n$mail->send();

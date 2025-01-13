@@ -1,1 +1,0 @@
-string directoryPath = @"C:\Users\username\Documents";

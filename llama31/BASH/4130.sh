@@ -1,1 +1,0 @@
-scp <old_server>:/path/to/<zone_name>.zone /etc/bind/zones/

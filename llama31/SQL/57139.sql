@@ -1,0 +1,1 @@
+-- Step 1 & 2: Identify itemId and new catId(s) - This is usually done in your application logic\n\n-- Assuming itemId = 1 and new catId = 2\n\n-- Step 3: Delete existing associations for the item\nDELETE FROM map WHERE itemId = 1;\n\n-- Step 4: Insert new associations\nINSERT INTO map (mapId, itemId, catId) VALUES (NULL, 1, 2);

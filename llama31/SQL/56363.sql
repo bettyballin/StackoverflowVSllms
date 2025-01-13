@@ -1,0 +1,1 @@
+CREATE TABLE recurrences (\n  id SERIAL PRIMARY KEY,\n  event_id INTEGER,\n  recurrence_rule TEXT,  -- e.g., "FREQ=WEEKLY;BYDAY=MO"\n  start_date DATE,\n  end_date DATE,\n  -- other fields...\n);

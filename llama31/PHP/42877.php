@@ -1,0 +1,1 @@
+use phpseclib3\Math\BigInteger;\n\n$longValue = new BigInteger('your_long_value');\n$client = new SoapClient('your_wsdl_url');\n$client->yourMethod($longValue);

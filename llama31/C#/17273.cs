@@ -1,1 +1,0 @@
-// Install MiniProfiler via NuGet\nInstall-Package MiniProfiler\n\n// Initialize MiniProfiler in your application\nusing StackExchange.Profiling;\nprotected void Application_BeginRequest()\n{\n    if (Request.IsLocal)\n    {\n        MiniProfiler.Start();\n    }\n}

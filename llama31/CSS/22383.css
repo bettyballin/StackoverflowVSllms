@@ -1,1 +1,0 @@
-input, select {\n  display: inline-block; /* default display value */\n  width: 100px; /* works because of inline-block display */\n}

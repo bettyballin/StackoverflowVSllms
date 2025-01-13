@@ -1,0 +1,1 @@
+function sub_delete() {\n    var checkboxes = document.querySelectorAll('input[name="user"]');\n    alert(checkboxes.length);\n\n    for (var i = 0; i < checkboxes.length; i++) {\n        if (checkboxes[i].checked) {\n            document.checks.submit();\n            return 0;\n        }\n    }\n\n    alert("Select Data to Delete");\n    return 0;\n}

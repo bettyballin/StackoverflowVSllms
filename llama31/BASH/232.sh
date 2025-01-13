@@ -1,1 +1,0 @@
-awk '{a[i++]=$0} /regexp/{print ""} END{for (i in a) print a[i]}' file.txt

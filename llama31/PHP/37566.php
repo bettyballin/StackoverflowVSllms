@@ -1,0 +1,1 @@
+class Vendor_ClassName_Helper {\n    private $option;\n\n    private function __construct($otherArgument) {}\n\n    public static function createWithFirstOption($otherArgument) {\n        $helper = new self($otherArgument);\n        $helper->option = self::FIRST_OPTION;\n        return $helper;\n    }\n}

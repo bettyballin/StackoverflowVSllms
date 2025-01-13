@@ -1,0 +1,1 @@
+CREATE TABLE auto_increment_table (\n  id INT AUTO_INCREMENT PRIMARY KEY\n);\n\nCREATE TABLE mytable (\n  id INT PRIMARY KEY,\n  auto_increment_column INT\n);\n\nCREATE TRIGGER auto_increment_trigger\nBEFORE INSERT ON mytable\nFOR EACH ROW\nBEGIN\n  INSERT INTO auto_increment_table (id) VALUES (NULL);\n  SET NEW.auto_increment_column = LAST_INSERT_ID();\nEND;

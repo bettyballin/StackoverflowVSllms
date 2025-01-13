@@ -1,1 +1,0 @@
-// Example of creating a new browser instance for each simulated user\nlr_browser_create("IE8", "User1");\nlr_browser_create("IE8", "User2");

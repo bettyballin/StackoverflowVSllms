@@ -1,1 +1,0 @@
-if (File.Exists(tempFilePath))\n{\n    File.Delete(tempFilePath);\n}

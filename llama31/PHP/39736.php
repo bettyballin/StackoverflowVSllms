@@ -1,0 +1,1 @@
+// controllers/Home.php\n\nfunction index()\n{\n    $data['featured'] = $this->load->view('featured', '', TRUE);\n    $data['eventslist'] = $this->load->view('eventslist', '', TRUE);\n    $this->load->view('layout', $data);\n}\n\nfunction create()\n{\n    $data['dynamicstuff'] = $this->load->view('dynamicstuff', '', TRUE);\n    $this->load->view('layout', $data);\n}

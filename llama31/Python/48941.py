@@ -1,0 +1,1 @@
+um_circles = 10\nradius = 5\nwidth = 100\nheight = 100\n\ncircles = generate_non_overlapping_circles(num_circles, radius, width, height)\nprint(circles)

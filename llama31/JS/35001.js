@@ -1,0 +1,1 @@
+fetch('/api/configure', {\n  method: 'POST',\n  headers: {\n    'Content-Type': 'application/json'\n  },\n  body: JSON.stringify({\n    password: 'mySecurePassword'\n  })\n})

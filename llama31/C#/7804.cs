@@ -1,1 +1,0 @@
-var criteria = DetachedCriteria.For<FirstClass>("fc")\n    .CreateAlias("fc.SomeID", "sc", JoinType.InnerJoin, "fc.SomeID = sc.ID")\n    .SetProjection(Projections.Property("fc.Property1"), Projections.Property("sc.Property2"));\n    \nvar results = criteria.GetExecutableCriteria(session).List();

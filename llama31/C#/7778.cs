@@ -1,1 +1,0 @@
-DataTable result = DataSourceWrapper.StartQuery("TableName")\n    .SetVisibleColumns("Col1", "Col2", "Col3")\n    .SetCriteria("CriteriaName", "Param1Name", CriteriaParam1, "Param2Name", CriteriaParam2)\n    .SetFilter("Col4 = ? AND Col5 = ?", FilterParam1, FilterParam2)\n    .SetReportParams("Param1Name", ReportParam1, "Param2Name", ReportParam2)\n    .Execute();

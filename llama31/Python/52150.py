@@ -1,0 +1,1 @@
+f = flip()\nprint(f())  # prints: count is: 0, returns 1\nprint(f())  # prints: count is: 1, returns 0\nprint(f())  # prints: count is: 0, returns 1

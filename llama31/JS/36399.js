@@ -1,0 +1,1 @@
+$(document).ajaxComplete(function() {\n  manipulateIds();\n});

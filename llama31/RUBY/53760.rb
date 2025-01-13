@@ -1,0 +1,1 @@
+defuzzify <- function(x1, x2, x3, z, rule1_dom, rule2_dom) {\n  # Rule 1 output\n  rule1_output <- z * min(x1, x2)\n  \n  # Rule 2 output\n  rule2_output <- max(x2, x3) * rule2_dom\n  \n  # Aggregate and normalize\n  output <- (rule1_output + rule2_output) / (rule1_dom + rule2_dom)\n  \n  return(output)\n}

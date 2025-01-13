@@ -1,0 +1,1 @@
+# config/routes.rb\nRails.application.routes.draw do\n  # ...\n  post '/validate', to: 'your_controller#validate'\nend

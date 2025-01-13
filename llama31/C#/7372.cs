@@ -1,1 +1,0 @@
-byte[] binaryData = (byte[])dataRow["YourVarBinaryField"];\n\nstring hexString = BitConverter.ToString(binaryData).Replace("-", "");\n\n// Now bind hexString to your GridView

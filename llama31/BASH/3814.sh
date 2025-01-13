@@ -1,1 +1,0 @@
-find . -name "*.java" -exec sed -i '1i import package.name.*;' {} \;

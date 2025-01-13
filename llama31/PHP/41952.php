@@ -1,0 +1,1 @@
+// Set a session variable\n$_SESSION['username'] = 'johnDoe';\n\n// Retrieve a session variable\n$username = $_SESSION['username'];

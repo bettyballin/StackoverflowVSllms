@@ -1,1 +1,0 @@
-svn propset "startup-form" "Form1.vb" your_project.vbproj

@@ -1,1 +1,0 @@
-[HttpsOnly]\npublic class MyController : ApiController\n{\n    // ...\n}

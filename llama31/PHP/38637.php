@@ -1,0 +1,1 @@
+// assuming $records is an array of records\n$json_data = json_encode($records);\nheader('Content-Type: application/json');\necho $json_data;

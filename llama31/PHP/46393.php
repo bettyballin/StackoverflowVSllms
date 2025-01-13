@@ -1,0 +1,1 @@
+$id = $i->getContents()['id']; // This is valid as of PHP 5.4

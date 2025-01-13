@@ -1,0 +1,1 @@
+$docFile = 'path/to/document.doc';\n$text = shell_exec('wvText ' . escapeshellarg($docFile));

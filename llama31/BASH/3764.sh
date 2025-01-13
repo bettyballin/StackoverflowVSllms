@@ -1,1 +1,0 @@
-# Check the wallet location\ncat $ORACLE_HOME/network/admin/sqlnet.ora | grep wallet\n\n# Verify the wallet credentials\nmkstore -wrl <wallet_location> -list

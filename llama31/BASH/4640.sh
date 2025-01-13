@@ -1,1 +1,0 @@
-$ tnsping mydatabase\n\nUsed TNSNAMES adapter to resolve the alias\nAttempting to contact (DESCRIPTION = (ADDRESS = (PROTOCOL = TCP)(HOST = myhost)(PORT = 1521)) (CONNECT_DATA = (SERVICE_NAME = mydatabase)))\nOK (10 msec)\n\n$ echo $ORACLE_HOME/network/admin/tnsnames.ora\n/opt/oracle/product/12.2.0/client_1/network/admin/tnsnames.ora

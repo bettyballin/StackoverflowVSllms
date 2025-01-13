@@ -1,0 +1,1 @@
+<system.webServer>\n    <staticContent>\n        <mimeMap fileExtension=".jar" mimeType="application/java-archive" />\n    </staticContent>\n</system.webServer>

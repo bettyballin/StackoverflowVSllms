@@ -1,1 +1,0 @@
-public class SearchController : Controller\n{\n    [HttpPost]\n    public JsonResult Search(string query)\n    {\n        // Your search logic here\n        var results = // retrieve search results from database or elsewhere\n        return Json(results);\n    }\n}

@@ -1,1 +1,0 @@
-perl -pi -e "s/\A.*?Foo bar//sim" 00ws110.txt

@@ -1,1 +1,0 @@
-var results = dbContext.Table\n    .Where(t => t.Field.Contains(" abc ") || t.Field.StartsWith("abc ") || t.Field.EndsWith(" abc"));

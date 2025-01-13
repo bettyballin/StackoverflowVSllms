@@ -1,0 +1,1 @@
+# In your Rails app, e.g., config/initializers/tcp_server.rb\nrequire './tcp_server'\n\n# Start the TCP server when the Rails app boots\ntcp_server_pid = File.read('tcp_server.pid')\nif tcp_server_pid.blank?\n  # Start the TCP server if it's not already running\n  require './tcp_server'\n  pid = fork do\n    start_tcp_server\n  end\n  File.write('tcp_server.pid', pid)\nend

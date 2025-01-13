@@ -1,1 +1,0 @@
-svn list svn://your-lan-server-ip:3690/your/repo

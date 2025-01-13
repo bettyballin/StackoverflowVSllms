@@ -1,1 +1,0 @@
-awk '{if (NR==32 || NR==47 || NR==62 || NR==77) print "#"; print}' input.txt > output.txt

@@ -1,1 +1,0 @@
-int main() {\n    int initial_size = 5;\n    int* array = calloc(initial_size, sizeof(int));\n\n    // ... use the array ...\n\n    // Resize the array to a new size\n    int new_size = 10;\n    array = realloc(array, new_size * sizeof(int));\n\n    // ... use the resized array ...\n\n    free(array);\n    return 0;\n}

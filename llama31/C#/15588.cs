@@ -1,1 +1,0 @@
-void Profile_MigrateAnonymous(object sender, ProfileMigrateEventArgs e)\n{\n    // Clear the anonymous identifier\n    e.AnonymousID = null;\n}

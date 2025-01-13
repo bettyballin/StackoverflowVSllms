@@ -1,0 +1,1 @@
+CREATE INDEX idx_item_id ON items (item_id);

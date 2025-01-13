@@ -1,1 +1,0 @@
-gcc -x c-header stdafx.h -o stdafx.h.gch

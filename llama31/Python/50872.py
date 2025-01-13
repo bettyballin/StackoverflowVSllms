@@ -1,0 +1,1 @@
+server = SOAPProxy('http://my.domain.com/my/webservice/', namespace)

@@ -1,1 +1,0 @@
-launchctl load ~/Library/LaunchAgents/com.yourcompany.automount.plist

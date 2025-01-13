@@ -1,1 +1,0 @@
-try\n{\n    // code to delete registry value\n}\ncatch (Exception ex)\n{\n    // handle exception\n}

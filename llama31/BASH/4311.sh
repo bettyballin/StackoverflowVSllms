@@ -1,1 +1,0 @@
-sc config YourServiceName stderr= "C:\\Path\\To\\ErrorLog.txt"

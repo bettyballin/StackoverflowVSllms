@@ -1,0 +1,1 @@
+<!-- phpstorm.xml (example project configuration file) -->\n<?xml version="1.0" encoding="UTF-8"?>\n<project version="4">\n  <component name="SymfonySettings">\n    <option name="symfonyPath" value="/path/to/symfony/installation" />\n  </component>\n</project>

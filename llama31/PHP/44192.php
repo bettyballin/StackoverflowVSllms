@@ -1,0 +1,1 @@
+function is_url_file($url) {\n    $ch = curl_init($url);\n    curl_setopt($ch, CURLOPT_RETURNTRANSFER, true);\n    curl_setopt($ch, CURLOPT_HEADER, true);\n    curl_setopt($ch, CURLOPT_NOBODY, true); // Send a HEAD request\n    $response = curl_exec($ch);\n    $httpCode = curl_getinfo($ch, CURLINFO_HTTP_CODE);\n    curl_close($ch);\n    return $httpCode == 200;\n}

@@ -1,0 +1,1 @@
+<system.web>\n    <compilation debug="true" targetFramework="2.0"/>\n    <!-- other settings -->\n</system.web>

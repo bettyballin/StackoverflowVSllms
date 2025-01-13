@@ -1,1 +1,0 @@
-// Async processing example using C#\npublic async Task<DataSet> GetSearchResultsAsync(string query) {\n    // Perform search query asynchronously\n    return await Task.Run(() => GetSearchResults(query));\n}

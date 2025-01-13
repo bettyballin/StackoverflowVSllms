@@ -1,1 +1,0 @@
-function ff() {\n  find . -type f -exec grep -il "$@" {} \;\n}

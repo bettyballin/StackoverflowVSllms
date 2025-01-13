@@ -1,0 +1,1 @@
+// prepend.php\n<?php\n// log request\n$log = 'requests.log';\nfile_put_contents($log, date('Y-m-d H:i:s') . ' ' . $_SERVER['REQUEST_METHOD'] . ' ' . $_SERVER['REQUEST_URI'] . PHP_EOL, FILE_APPEND);\n?>

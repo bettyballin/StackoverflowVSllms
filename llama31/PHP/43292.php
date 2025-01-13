@@ -1,0 +1,1 @@
+$lastTuesday = strtotime('last Tuesday');\necho date('Y-m-d', $lastTuesday);

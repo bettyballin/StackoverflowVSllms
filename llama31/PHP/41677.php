@@ -1,0 +1,1 @@
+$node0 = new Node;\n$node1 = new Node;\n\n// nodes 1 and 2 have a circular reference to each other\n$node0->addChild( $node1 );\n\n// later, when you're done with the nodes\n$node0->children = null;\n$node1->parent = null;

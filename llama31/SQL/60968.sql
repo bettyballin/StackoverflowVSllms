@@ -1,0 +1,1 @@
+CREATE DATABASE LINK db2_link\n  CONNECT TO <db2_username> IDENTIFIED BY <db2_password>\n  USING '(DESCRIPTION=(ADDRESS=(PROTOCOL=TCP)(HOST=<db2_host>)(PORT=<db2_port>))(CONNECT_DATA=(SERVICE_NAME=<db2_service_name>)))';\n\nSELECT * FROM accounts a\nJOIN db2_link.db2_table b ON a.accountnum = b.accountnum;

@@ -1,1 +1,0 @@
-using System.Security.Cryptography.X509Certificates;\n\n// ...\n\nX509Certificate2 certificate = new X509Certificate2("path/to/certificate.pfx", "password");\n\nX509Store store = new X509Store(StoreName.My, StoreLocation.CurrentUser);\nstore.Open(OpenFlags.ReadWrite);\nstore.Add(certificate);\nstore.Close();

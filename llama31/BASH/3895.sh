@@ -1,1 +1,0 @@
-msgfmt -o myapp.mo myapp.po

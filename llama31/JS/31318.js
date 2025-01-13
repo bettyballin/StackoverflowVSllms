@@ -1,0 +1,1 @@
+// Assuming you're using a library like Axios for HTTP requests\nconst axios = require('axios');\n\n// Send the password securely over HTTPS\naxios.post('https://your-server.com/login', {\n  username: 'your-username',\n  password: 'your-password'\n})\n  .then(response => {\n    // Handle the response\n  })\n  .catch(error => {\n    // Handle the error\n  });

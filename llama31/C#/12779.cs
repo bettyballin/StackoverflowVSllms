@@ -1,1 +1,0 @@
-public class Stack<T> {\n    private LinkedList<T> list;\n\n    public void Push(T item) {\n        list.AddFirst(item);\n    }\n\n    public T Pop() {\n        return list.RemoveFirst();\n    }\n}

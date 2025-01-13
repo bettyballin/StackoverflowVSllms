@@ -1,1 +1,0 @@
-// mylib.h\nvoid myFunction();\n\n// mylib.c\nvoid myFunction() {\n    // implementation\n}

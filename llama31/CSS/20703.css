@@ -1,1 +1,0 @@
-.ListStyle ul {\n  display: flex;\n  flex-wrap: wrap;\n}\n\n.ListStyle ul > li {\n  flex: 1 1 50%; /* Take 50% of the width */\n}\n\n.ListStyle ul > li ul {\n  display: block; /* Reset display to block for child ul */\n}\n\n.ListStyle ul > li ul li {\n  display: block; /* Reset display to block for child li */\n}

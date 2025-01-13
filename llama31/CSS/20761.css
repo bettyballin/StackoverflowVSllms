@@ -1,1 +1,0 @@
-.rating-cell {\n  position: relative;\n}\n\n.rating-cell input[type="radio"] {\n  position: absolute;\n  top: 0;\n  left: 0;\n  margin-left: 10px; /* adjust to match your table cell width */\n}

@@ -1,0 +1,1 @@
+$userInput = $_GET['name'];\n$greeting = "Hello, $userInput!";\necho $greeting;

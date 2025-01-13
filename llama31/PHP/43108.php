@@ -1,0 +1,1 @@
+$start_date = filter_var($_POST['start_date'], FILTER_SANITIZE_STRING);\n$end_date = filter_var($_POST['end_date'], FILTER_SANITIZE_STRING);

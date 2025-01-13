@@ -1,1 +1,0 @@
-float volume = 0.0f;\nfor (int i = 0; i < numTriangles; i++) {\n    Vector3 v1 = vertices[indices[i * 3 + 0]];\n    Vector3 v2 = vertices[indices[i * 3 + 1]];\n    Vector3 v3 = vertices[indices[i * 3 + 2]];\n    volume += (v1.x * (v2.y * v3.z - v3.y * v2.z) +\n               v2.x * (v3.y * v1.z - v1.y * v3.z) +\n               v3.x * (v1.y * v2.z - v2.y * v1.z)) / 6.0f;\n}

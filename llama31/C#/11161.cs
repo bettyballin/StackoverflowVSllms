@@ -1,1 +1,0 @@
-using System.Text.RegularExpressions;\n\nstring input = "I_999Š";\nbool isValid = Regex.IsMatch(input, @"^[A-Z0-9_]+$");

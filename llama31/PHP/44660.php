@@ -1,0 +1,1 @@
+define('ROOT_DIR', dirname(__FILE__) . '/');\n\nset_include_path(ROOT_DIR . 'includes/');\n\n// or, using realpath for more flexibility\nset_include_path(realpath(ROOT_DIR . '../includes/'));

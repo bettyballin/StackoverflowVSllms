@@ -1,0 +1,1 @@
+SELECT * \nFROM your_table \nWHERE place = @input OR postcode = @input;

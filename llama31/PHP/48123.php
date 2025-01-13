@@ -1,0 +1,1 @@
+<? echo view::getUserSelector(array('onSelect' => 'function() { alert(this.id); }')); ?>

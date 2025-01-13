@@ -1,0 +1,1 @@
+def label_chatbot_training_data(data):\n    # Label data based on its content or characteristics\n    labeled_data = label_data(data)\n    return labeled_data

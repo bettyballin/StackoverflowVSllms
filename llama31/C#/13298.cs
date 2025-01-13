@@ -1,1 +1,0 @@
-DynamicDataConfiguration.AddPermissionProvider(new CustomPermissionProvider());

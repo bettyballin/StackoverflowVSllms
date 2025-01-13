@@ -1,0 +1,1 @@
+Private Sub Foo()\n    Try\n        ' Do something\n    Catch ex As Exception\n        LogException(ex)\n        Throw ' or Throw ex to preserve the original exception\n    End Try\nEnd Sub

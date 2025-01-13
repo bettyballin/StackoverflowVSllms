@@ -1,1 +1,0 @@
-using Microsoft.Win32;\n\npublic bool IsComDllInstalled(string classId)\n{\n    using (RegistryKey key = Registry.ClassesRoot.OpenSubKey($"CLSID\\{classId}"))\n    {\n        return key != null;\n    }\n}

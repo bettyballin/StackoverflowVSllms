@@ -1,1 +1,0 @@
-grep -c '^' your_large_file.xml

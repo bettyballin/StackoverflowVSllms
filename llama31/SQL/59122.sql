@@ -1,0 +1,1 @@
+CREATE TABLE my_table (...) TABLESPACE my_tablespace;

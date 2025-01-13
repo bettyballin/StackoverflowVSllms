@@ -1,1 +1,0 @@
-public class Closure<T>\n{\n    private T value;\n\n    public Closure(T value)\n    {\n        this.value = value;\n    }\n\n    public T Value\n    {\n        get { return value; }\n    }\n}\n\n// ...\n\nClosure<ILayer> layerClosure = new Closure<ILayer>(layer);\n\nvisibilityChangedEvent += (visible) =>\n{\n    ILayer layer = layerClosure.Value;\n    // Use the layer object\n};

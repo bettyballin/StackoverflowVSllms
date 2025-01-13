@@ -1,1 +1,0 @@
-#!/bin/bash\n\nUSER="foo"\nHOST="localhost"\n\nsed -e "s/{{USER}}/$USER/g" -e "s/{{HOST}}/$HOST/g" deployment.sql > deployment-generated.sql

@@ -1,0 +1,1 @@
+function getData() {\n    return [1, 2, 3];\n}\n\nforeach (getData() as $data) {\n    echo $data;\n}\n\n// PHP 7.0 and later: no copy is created\n// PHP 5.x: a copy is created

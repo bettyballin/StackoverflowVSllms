@@ -1,0 +1,1 @@
+from selenium import webdriver\n\n# Create a new instance of the Chrome driver\ndriver = webdriver.Chrome()\n\n# Navigate to the page\ndriver.get("https://example.com")\n\n# Get the HTML content after JavaScript has been executed\nhtml = driver.page_source\n\n# Close the browser window\ndriver.quit()

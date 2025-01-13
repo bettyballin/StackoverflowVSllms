@@ -1,1 +1,0 @@
-echo 128 > /sys/block/sda/queue/nr_requests

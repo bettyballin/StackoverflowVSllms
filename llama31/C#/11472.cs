@@ -1,1 +1,0 @@
-[DllImport("vshadow.dll")]\npublic static extern int MyFunction(int param);

@@ -1,1 +1,0 @@
-private OracleDataReader OracleDescribe(string tablename)\n{\n    OracleCommand cmd = new OracleCommand("SELECT * FROM ALL_TAB_COLUMNS WHERE TABLE_NAME = :tablename", OracleConn);\n    cmd.Parameters.Add("tablename", OracleType.VarChar).Value = tablename;\n    return cmd.ExecuteReader();\n}

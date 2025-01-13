@@ -1,1 +1,0 @@
-sed -e '1,$ { s/a/b/; $! }' file.txt

@@ -1,0 +1,1 @@
+-- Example of adding a siteId column to a table\nALTER TABLE customers\nADD siteId INT NOT NULL DEFAULT 0;

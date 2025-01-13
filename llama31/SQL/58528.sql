@@ -1,0 +1,1 @@
+column_name >= value2 AND column_name <= value1

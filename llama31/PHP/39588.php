@@ -1,0 +1,1 @@
+$select = new Select();\n$select->addOption('1', 'Option 1');\n$select->addOption('2', 'Option 2');\n\n// or\n\n$options = [\n    '1' => 'Option 1',\n    '2' => 'Option 2',\n];\n$select->addOptions($options);\n\necho $select->render();

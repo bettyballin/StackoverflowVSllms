@@ -1,0 +1,1 @@
+SELECT *\nFROM `products` AS `p`\nLEFT JOIN (\n  SELECT `product_id`, MAX(`modified`) AS `max_modified`\n  FROM `revisions`\n  GROUP BY `product_id`\n) AS `max_revisions` ON `p`.`product_id` = `max_revisions`.`product_id`\nLEFT JOIN `revisions` AS `r` ON `r`.`product_id` = `p`.`product_id` AND `r`.`modified` = `max_revisions`.`max_modified`

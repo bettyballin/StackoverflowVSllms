@@ -1,1 +1,0 @@
-# Restart the Keychain Access service\nsudo killall -HUP mDNSResponder\n\n# Clear the Xcode cache\nrm -rf ~/Library/Developer/Xcode/DerivedData

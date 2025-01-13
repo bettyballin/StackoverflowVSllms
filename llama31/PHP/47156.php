@@ -1,0 +1,1 @@
+ob_start();\nforeach ($items as $item) {\n    echo '<div>' . $item . '</div>';\n}\n$test = ob_get_clean();

@@ -1,0 +1,1 @@
+SELECT \n  ID_STUDENT,\n  ID_CLASS,\n  GRADE,\n  @rank:=IF(@prev_class=ID_CLASS, @rank+1, 1) AS RANK,\n  @prev_class:=ID_CLASS\nFROM \n  your_table, (SELECT @rank:=0, @prev_class:=NULL) AS init\nORDER BY \n  ID_CLASS, GRADE DESC;

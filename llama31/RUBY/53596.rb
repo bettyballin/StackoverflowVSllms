@@ -1,0 +1,1 @@
+def gen_link(path)\n  url = URI.parse(request.url)\n  url.path = "/this/is/where/the/app/is#{path}"\n  url.to_s\nend

@@ -1,1 +1,0 @@
-routes.MapRoute(\n    name: "Redirect",\n    template: "old-page.aspx",\n    defaults: new { controller = "Home", action = "NewPage" },\n    constraints: new { redirect = true }\n);

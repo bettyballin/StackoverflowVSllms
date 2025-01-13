@@ -1,0 +1,1 @@
+<httpErrors trySkipIisCustomErrors="true">\n    <remove statusCode="400" />\n    <error statusCode="400" path="/your-custom-error-page" responseMode="ExecuteURL" />\n</httpErrors>

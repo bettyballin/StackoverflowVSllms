@@ -1,1 +1,0 @@
-svn mkdir -m "Create local branch" file:///local-repo/branches/local-branch

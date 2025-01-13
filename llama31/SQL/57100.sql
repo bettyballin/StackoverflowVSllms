@@ -1,0 +1,1 @@
+SELECT * FROM history;\nIF @@ERROR = 3078 THEN\n    CREATE TABLE history (\n        field1 TEXT,\n        field2 INTEGER\n    );\nEND IF;

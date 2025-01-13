@@ -1,1 +1,0 @@
-ohup ./your_command.sh &

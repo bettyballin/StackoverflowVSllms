@@ -1,0 +1,1 @@
+SELECT \n  a.BankName AS Bank, \n  a.AcctNumber AS AcctNum, \n  a.Balance, \n  STRING_AGG(g.GroupName, ', ') AS Groups\nFROM \n  Accounts a\n  LEFT JOIN JoinAccountsGroups jag ON a.id = jag.aid\n  LEFT JOIN AccountGroups g ON jag.gid = g.id\nGROUP BY \n  a.id, a.BankName, a.AcctNumber, a.Balance

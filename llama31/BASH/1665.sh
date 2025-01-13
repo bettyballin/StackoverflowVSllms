@@ -1,1 +1,0 @@
-hg push --username $HG_USERNAME --password $HG_PASSWORD

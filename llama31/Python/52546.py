@@ -1,0 +1,1 @@
+import tldextract\n\ndef extract_domain(url):\n    extracted = tldextract.extract(url)\n    return f"{extracted.domain}.{extracted.suffix}"\n\n# Example usage:\nprint(extract_domain("http://www.example.com"))  # Output: example.com\nprint(extract_domain("www.example.co.uk/path/script.php?=whatever"))  # Output: example.co.uk

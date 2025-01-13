@@ -1,1 +1,0 @@
-grep -l 'foo' * | xargs sed -i 's/foo/bar/g'

@@ -1,1 +1,0 @@
-# Create a CNAME record\naws route53 create-resource-record-set --hosted-zone-id <ZONE_ID> --changes '\n{\n  "Action": "CREATE",\n  "ResourceRecordSet": {\n    "Name": "image.mydomain.com",\n    "Type": "CNAME",\n    "TTL": 300,\n    "ResourceRecords": [\n      {\n        "Value": "bucket.amazons3.com"\n      }\n    ]\n  }\n}\n'

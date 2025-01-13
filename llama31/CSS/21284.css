@@ -1,1 +1,0 @@
-#modalWindow {\n    position: fixed;\n    top: 50%;\n    left: 50%;\n    margin-top: -250px;\n    margin-left: -250px;\n    width: 500px;\n    height: 500px;\n    background-color: #fff;\n    border: 1px solid #000;\n    z-index: 1000;\n}

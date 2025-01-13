@@ -1,1 +1,0 @@
-var host = new ServiceHost(typeof(MyService));\nhost.Description.Behaviors.Add(new RemoteAdminBehavior());\nhost.Open();

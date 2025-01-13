@@ -1,1 +1,0 @@
-public IActionResult Edit(int id)\n{\n    var model = new EditProfileModel { Id = id };\n    if (!TryValidateModel(model))\n    {\n        return BadRequest(ModelState);\n    }\n    // Model is valid, proceed with editing the profile\n}

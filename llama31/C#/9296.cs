@@ -1,1 +1,0 @@
-var generator = new PoFileGenerator();\nvar translations = new Dictionary<string, string>\n{\n    {"Hello", "Bonjour"},\n    {"Goodbye", "Au revoir"}\n};\ngenerator.GeneratePoFile("translations.po", translations);

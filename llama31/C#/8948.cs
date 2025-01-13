@@ -1,1 +1,0 @@
-Guid guid = Guid.NewGuid();\nuint dwRand = (uint)(guid.ToInt32() & 0x7FFFFFFF);

@@ -1,0 +1,1 @@
+SELECT\n    table1.this, table2.that, table2.somethingelse\nFROM\n    table1\nINNER JOIN table2\n    ON table1.foreignkey = table2.primarykey\nWHERE\n    (some other conditions)

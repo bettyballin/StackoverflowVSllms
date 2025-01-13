@@ -1,0 +1,1 @@
+function startScrolling() {\n    // If we're close to an edge start scrolling in that direction\n    // Else stopScrolling = true;\n\n    if (!stopScrolling) {\n        setTimeout(startScrolling, 1000); // Pass a reference to the function\n    }\n}

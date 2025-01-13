@@ -1,1 +1,0 @@
-// ...\n\nConstantExpression expectedConstant = (ConstantExpression)expected.Body.Nodes().OfType<ConstantExpression>().Single();\nConstantExpression actualConstant = (ConstantExpression)actual.Body.Nodes().OfType<ConstantExpression>().Single();\n\nAssert.AreEqual(expectedConstant.Value, actualConstant.Value);

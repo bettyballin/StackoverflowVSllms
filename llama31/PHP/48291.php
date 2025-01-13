@@ -1,0 +1,1 @@
+$fp = fopen('http://rss.fok.nl/feeds/nieuws', 'r');\nstream_set_timeout($fp, 5); // set a 5-second timeout\nwhile ($line = fgets($fp)) {\n    // process the line\n}

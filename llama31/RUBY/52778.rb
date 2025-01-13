@@ -1,0 +1,1 @@
+# Good practice\ntest "the truth" do\n  assert true\nend\n\n# Not recommended\ndef test_the_truth\n  assert true\nend

@@ -1,0 +1,1 @@
+<smtp from="your-email@example.com">\n  <network host="your-smtp-host" port="587" enableSsl="true" \n           userName="your-smtp-username" password="your-smtp-password" />\n</smtp>

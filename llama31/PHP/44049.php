@@ -1,0 +1,1 @@
+class hello {\n    var $instance_name;\n    var $greeting = "hello";\n    function hello($instance_name){\n        $this->instance_name = $instance_name;\n        echo $this->greeting;\n        return;\n    }\n    function get_instance_name() {\n        return $this->instance_name;\n    }\n}\n$hello1 = new hello('hello1');\necho $hello1->get_instance_name(); // outputs "hello1"

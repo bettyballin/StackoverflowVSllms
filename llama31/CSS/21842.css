@@ -1,1 +1,0 @@
-#treeview-container {\n  /* ... other styles ... */\n  display: none; /* hide by default */\n}\n\n#treeview-container.visible {\n  display: block; /* show when visible class is added */\n}

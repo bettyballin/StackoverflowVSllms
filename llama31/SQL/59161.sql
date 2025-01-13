@@ -1,0 +1,1 @@
+CREATE TABLE cart (\n  id INT AUTO_INCREMENT,\n  PRIMARY KEY (id)\n);\n\nCREATE TABLE items (\n  id INT AUTO_INCREMENT,\n  PRIMARY KEY (id)\n);\n\nCREATE TABLE cart_items (\n  cart_id INT,\n  item_id INT,\n  quantity INT,\n  PRIMARY KEY (cart_id, item_id),\n  FOREIGN KEY (cart_id) REFERENCES cart(id),\n  FOREIGN KEY (item_id) REFERENCES items(id)\n);

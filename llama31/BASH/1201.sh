@@ -1,1 +1,0 @@
-#!/bin/bash\n\n# URL of the main frame\nMAIN_URL="http://example.com/main.html"\n\n# Download the main frame\nwget -q -O main.html "$MAIN_URL"\n\n# Extract frame URLs from the main frame\nFRAME_URLS=$(grep -oP '(?<=src=")[^"]*' main.html)\n\n# Download each frame\nfor URL in $FRAME_URLS; do\n  wget -q -O "${URL##*/}.html" "$URL"\ndone

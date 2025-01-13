@@ -1,0 +1,1 @@
+with open('output.mp3', 'wb') as output:\n    for file in ['file1.mp3', 'file2.mp3', ...]:  # list your files here\n        with open(file, 'rb') as input_file:\n            output.write(input_file.read())

@@ -1,0 +1,1 @@
+$("#form1").validate({\n    // rules and messages for form1\n});\n\n$("#form2").validate({\n    // rules and messages for form2\n});

@@ -1,0 +1,1 @@
+ew Ajax.Request('/servlet/GetName', {\n    method: 'post',\n    parameters: {\n        'requestType': 'ref',\n        'value': refId\n    },\n    dataType: 'text', // <--- add this option\n    onSuccess: function(transport) {\n        setName((String(transport.responseText)).trim());\n    }\n});

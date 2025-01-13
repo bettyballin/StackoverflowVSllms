@@ -1,1 +1,0 @@
-public static class SessionExtensions\n{\n    public static bool IsNullOrEmpty(this HttpSessionStateBase session, string key)\n    {\n        return session[key] == null || string.IsNullOrEmpty(session[key].ToString());\n    }\n}

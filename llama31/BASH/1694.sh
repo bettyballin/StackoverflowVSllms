@@ -1,1 +1,0 @@
-# Import MSDeploy module\nImport-Module WebDeploy\n\n# Set deployment parameters\n$siteName = "MySite"\n$serverName = "myserver.com"\n$packagePath = "C:\Path\To\Package.csproj_zip"\n\n# Deploy package to server\nRestore-WDPackage -Package $packagePath -Destination $serverName -Site $siteName

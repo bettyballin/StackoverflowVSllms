@@ -1,0 +1,1 @@
+$keyword = 'Mixed-Case Keyword';\n$lowercase_keyword = strtolower($keyword);\necho $lowercase_keyword; // outputs: mixed-case keyword

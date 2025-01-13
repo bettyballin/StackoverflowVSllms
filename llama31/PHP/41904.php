@@ -1,0 +1,1 @@
+$postIds = array();\nforeach ($searchResults as $result) {\n  $postIds = array_merge($postIds, explode(',', $result['post_ids']));\n}\n$posts = $db->query("SELECT * FROM posts WHERE id IN (" . implode(',', $postIds) . ")");

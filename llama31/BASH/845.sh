@@ -1,1 +1,0 @@
-cd gcc-3.4.6\n./configure

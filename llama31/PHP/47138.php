@@ -1,0 +1,1 @@
+function contains_invalid_characters($text) {\n    $text = html_entity_decode($text); // decode html entities\n    $pattern = '/^[a-zA-Z0-9\säöüß\!\§\$%&\/\(\)=\?\.,;:_-]+$/';\n    $found = !preg_match($pattern, $text); // invert match result\n    return $found;\n}

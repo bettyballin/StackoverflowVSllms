@@ -1,1 +1,0 @@
-// Example usage:\n#include <docraptor.h>\n\nint main() {\n    DocRaptor::Client client("your_api_key");\n    client.generatePdf("input.html", "output.pdf");\n    return 0;\n}

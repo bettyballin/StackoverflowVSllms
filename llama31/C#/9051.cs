@@ -1,1 +1,0 @@
-protected void Page_Init(object sender, EventArgs e)\n{\n    dynVal = new DynamicValidator();\n    dynVal.ID = "dynVal";\n    dynVal.ControlToValidate = tb1.ID;\n    Page.Validators.Add(dynVal);\n}

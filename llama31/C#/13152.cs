@@ -1,1 +1,0 @@
-SmtpClient smtpClient = new SmtpClient();\nsmtpClient.Host = ConfigurationManager.AppSettings["SMTPServer"];\nsmtpClient.Port = int.Parse(ConfigurationManager.AppSettings["SMTPPort"]);\nsmtpClient.Credentials = new NetworkCredential(ConfigurationManager.AppSettings["SMTPUsername"], ConfigurationManager.AppSettings["SMTPPassword"]);

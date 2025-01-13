@@ -1,0 +1,1 @@
+use Illuminate\Support\Facades\Hash;\n\n// Hash a password\n$password = 'mysecretpassword';\n$hashedPassword = Hash::make($password);\n\n// Verify a password\n$storedHash = $hashedPassword;\n$isValid = Hash::check($password, $storedHash);

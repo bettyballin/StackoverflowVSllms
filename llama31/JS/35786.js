@@ -1,0 +1,1 @@
+// Assuming you have the AdSense API script loaded\ngoogletag.cmd.push(function() {\n  // Define the ad slot\n  var slot = googletag.defineSlot('/your-ad-unit-id', [300, 250], 'ads');\n  \n  // Refresh the ad\n  googletag.pubads().refresh([slot]);\n});

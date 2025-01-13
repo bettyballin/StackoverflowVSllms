@@ -1,1 +1,0 @@
-class __declspec(dllexport) Car {\n    // ...\n}

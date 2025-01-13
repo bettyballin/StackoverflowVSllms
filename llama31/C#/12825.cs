@@ -1,1 +1,0 @@
-using System.IO;\n\n// Get the file path\nstring filePath = @"C:\path\to\your\file.txt";\n\n// Get the FileInfo object\nFileInfo fileInfo = new FileInfo(filePath);\n\n// Remove the ReadOnly attribute\nfileInfo.Attributes &= ~FileAttributes.ReadOnly;

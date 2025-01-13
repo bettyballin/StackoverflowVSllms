@@ -1,1 +1,0 @@
-// Good practice\nvoid myFunction(int a, int b, int c = 0);\n\n// Bad practice\nvoid myFunction(int a, int b = 0, int c);

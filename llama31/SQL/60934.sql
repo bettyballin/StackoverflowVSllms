@@ -1,0 +1,1 @@
+update t\nset xml = appendChildXML(xml, '/a/b', XMLType('<text>gaga</text>'));

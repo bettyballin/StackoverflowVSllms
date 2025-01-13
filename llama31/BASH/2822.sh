@@ -1,1 +1,0 @@
-chmod 700 ~/.ssh\nchmod 600 ~/.ssh/*

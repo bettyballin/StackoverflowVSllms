@@ -1,0 +1,1 @@
+from RestrictedPython import compile_restricted\n\n# Define the restricted environment\nenv = {'__builtins__': {}}\n\n# Compile the script in the restricted environment\nbytecode = compile_restricted(script, '<string>', 'exec', env)\n\n# Execute the bytecode\nexec(bytecode)

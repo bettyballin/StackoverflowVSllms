@@ -1,1 +1,0 @@
-.input-container {\n  position: relative;\n}\n\n.input-container label {\n  position: absolute;\n  top: 0;\n  left: 0;\n}\n\n.input-container input {\n  padding-left: 100px; /* adjust this value to match the width of the label */\n}

@@ -1,0 +1,1 @@
+def add_rgb(rgb1, rgb2):\n    r1, g1, b1 = rgb1\n    r2, g2, b2 = rgb2\n    return (min(r1+r2, 255), min(g1+g2, 255), min(b1+b2, 255))

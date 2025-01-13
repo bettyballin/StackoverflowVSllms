@@ -1,0 +1,1 @@
+$('div').focusout(function() {\n  $(this).hide();\n});

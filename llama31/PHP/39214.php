@@ -1,0 +1,1 @@
+$question = trim($_POST['question']);\n\nif (!isset($question) || trim($question) === '') {\n    // Handle error here\n}

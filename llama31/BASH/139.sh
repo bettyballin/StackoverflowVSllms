@@ -1,1 +1,0 @@
-pip install nuitka\nnuitka --standalone your_script.py

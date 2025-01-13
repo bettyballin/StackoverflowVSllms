@@ -1,1 +1,0 @@
-using System.Net;\n\nWebProxy proxy = new WebProxy();\nproxy.UseDefaultCredentials = true;\n\n// Use the proxy to make a web request\nWebRequest request = WebRequest.Create("http://ws.lokad.com/");\nrequest.Proxy = proxy;

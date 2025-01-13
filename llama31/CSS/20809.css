@@ -1,1 +1,0 @@
-.image-container {\n  width: 200px;\n  height: 100px;\n  overflow: hidden;\n}\n\n.image-container img {\n  width: 100%;\n  height: auto;\n  margin: 50% 0;\n  transform: translateY(-50%);\n}

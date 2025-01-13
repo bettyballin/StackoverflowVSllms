@@ -1,1 +1,0 @@
-protected void Button1_Click(object sender, EventArgs e)\n{\n    thisTextbox.Text = "I know this is silly";\n    UpdatePanel1.Update();\n}

@@ -1,1 +1,0 @@
-awk 'NR>=105 && /host|port/ {print $2}' .tnsnames.ora

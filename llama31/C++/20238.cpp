@@ -1,1 +1,0 @@
-bool AllSatisfy(std::vector<SomeType>& v, SomeType& valueToFind) {\n    auto negatedPredicate = std::not_fn(FindPredicate(valueToFind));\n    return std::none_of(v.begin(), v.end(), negatedPredicate);\n}

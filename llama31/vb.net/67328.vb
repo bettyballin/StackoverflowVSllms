@@ -1,0 +1,1 @@
+Dim obj As Object = "Hello"\n\nDim str1 As String = obj.ToString() ' conversion, not a cast\nDim str2 As String = CStr(obj) ' cast, may throw exception\nDim str3 As String = CType(obj, String) ' cast, may throw exception\nDim str4 As String = DirectCast(obj, String) ' cast, requires obj to be a string\nDim str5 As String = TryCast(obj, String) ' cast, returns Nothing if fails

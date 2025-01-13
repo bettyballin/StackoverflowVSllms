@@ -1,1 +1,0 @@
-using SwaggerGen;\n\n// ...\n\npublic class MyService : IService\n{\n    [SwaggerOperation("GetUser")]\n    public User GetUser(int id)\n    {\n        // ...\n    }\n}\n\n// ...\n\nSwaggerGenerator generator = new SwaggerGenerator();\nstring swaggerJson = generator.GenerateSwaggerJson(typeof(MyService));

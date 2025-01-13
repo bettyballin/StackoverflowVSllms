@@ -1,1 +1,0 @@
-public void UpdateQuestion(int questionNumber, string answer)\n{\n    // Retrieve the question from your data source\n    Question question = GetQuestion(questionNumber);\n\n    // Update the answer\n    question.Answer = answer;\n\n    // Persist the changes\n    SaveQuestion(question);\n}

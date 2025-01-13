@@ -1,1 +1,0 @@
-for file in *.txt; do\n  sed '/*** Start.*$/,/*** Finish.*$/!d' "$file" > "output_dir/$file"\ndone

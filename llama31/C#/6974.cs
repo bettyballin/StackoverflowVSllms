@@ -1,1 +1,0 @@
-RSACryptoServiceProvider cruptoEngine = new RSACryptoServiceProvider(512);

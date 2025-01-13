@@ -1,0 +1,1 @@
+RESTORE DATABASE YourDatabaseName FROM DISK = 'BackupFile.bak' WITH NORECOVERY

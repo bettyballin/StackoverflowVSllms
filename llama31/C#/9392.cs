@@ -1,1 +1,0 @@
-public class Customer\n{\n    [Required]\n    public string Name { get; set; }\n\n    [EmailAddress]\n    public string Email { get; set; }\n}

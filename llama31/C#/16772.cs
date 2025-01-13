@@ -1,1 +1,0 @@
-protected void Page_Load(object sender, EventArgs e)\n{\n    if (IsPostBack)\n    {\n        // re-apply selected values\n        DropDownList1.SelectedValue = Request.Form[DropDownList1.ClientID];\n        // ...\n    }\n}

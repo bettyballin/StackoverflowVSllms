@@ -1,0 +1,1 @@
+use Respect\Validation\Validator as v;\n\n$validator = v::create()\n    ->key('username', v::stringType()->notEmpty())\n    ->key('email', v::email())\n    ->key('password', v::stringType()->length(8));\n\ntry {\n    $validator->assert($_POST);\n} catch (ValidationException $e) {\n    $errors = $e->getMessages();\n}

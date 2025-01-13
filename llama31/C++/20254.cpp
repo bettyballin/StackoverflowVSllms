@@ -1,1 +1,0 @@
-_bstr_t str;\nstr.append(_T("Hello, World!"));

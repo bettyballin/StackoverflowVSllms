@@ -1,1 +1,0 @@
-rpm -ivh --force --nodeps package_name.rpm

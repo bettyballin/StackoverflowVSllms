@@ -1,1 +1,0 @@
-C:\>net share\n\nShare name   Resource                        Remark\n\n-------------------------------------------------------------------------------\nC$           C:\                             Default share\nD$           D:\                             Default share\nMyShare      C:\Path\To\Shared\Folder\n\nC:\>net share MyShare /delete\nMyShare was deleted successfully.

@@ -1,1 +1,0 @@
-grep -r "extension=ldap" /etc/php.d/*\ngrep -r "extension=mysql" /etc/php.d/*

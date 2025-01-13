@@ -1,1 +1,0 @@
-@media print {\n  @page {\n    size: landscape;\n    orientation: landscape; /* for Chrome and Safari */\n    -webkit-orientation: landscape; /* for Chrome and Safari */\n    -moz-orientation: landscape; /* for Firefox */\n  }\n}

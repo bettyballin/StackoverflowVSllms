@@ -1,0 +1,1 @@
+// Relational Database (MySQL)\nSELECT p.* FROM products p\nJOIN product_attributes pa ON p.id = pa.product_id\nWHERE pa.attribute_id = (SELECT id FROM attributes WHERE name = 'whipped cream frosting')\nAND pa.value = 'yes';

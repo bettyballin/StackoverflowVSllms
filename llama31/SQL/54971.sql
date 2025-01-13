@@ -1,0 +1,1 @@
+SELECT * FROM page WHERE LOWER(pageTitle) = LOWER('Something');

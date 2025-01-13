@@ -1,0 +1,1 @@
+function page_properties($objPortal, $objPage) {\n    if ($objPage instanceof PageAttributes) {\n        $objPage->set_page_title($myrow['title']);\n    } else {\n        // Handle the case where $objPage is not an instance of PageAttributes\n    }\n}

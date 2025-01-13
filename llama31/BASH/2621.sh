@@ -1,1 +1,0 @@
-LOGFILE=$(./log_file_name.sh "$0" "$1")\njava CMD | tee "$LOGFILE"

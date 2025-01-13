@@ -1,0 +1,1 @@
+$array = array('jim' => 'hello');\n\n$key = 'jim';\n\n$start = microtime(true);\nfor ($i = 0; $i < 100000; $i++) {\n    if (isset($array[$key])) {}\n}\necho "Isset: " . (microtime(true) - $start) . "\n";\n\n$start = microtime(true);\nfor ($i = 0; $i < 100000; $i++) {\n    if (array_key_exists($key, $array)) {}\n}\necho "Array_key_exists: " . (microtime(true) - $start) . "\n";

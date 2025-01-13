@@ -1,0 +1,1 @@
+// Compress data\n$compressed_data = gzcompress($data, 9);\n\n// Decompress data\n$decompressed_data = gzuncompress($compressed_data);

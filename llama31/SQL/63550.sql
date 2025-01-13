@@ -1,0 +1,1 @@
+SELECT * FROM YourTable\nWHERE ROW_NUMBER() OVER (ORDER BY (SELECT 1)) = Y\n\n-- If the result is correct, then update\nUPDATE YourTable\nSET ColumnName = 'NewValue'\nWHERE ROW_NUMBER() OVER (ORDER BY (SELECT 1)) = Y

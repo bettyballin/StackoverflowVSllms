@@ -1,1 +1,0 @@
-pdfjam --nup 2x1 --landscape --outfile output.pdf input1.pdf input2.pdf

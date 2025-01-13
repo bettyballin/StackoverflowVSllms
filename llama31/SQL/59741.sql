@@ -1,0 +1,1 @@
+CREATE TABLE entity_data (\n  entity_id int,\n  date_id int,\n  value_1 int,\n  value_2 int,\n  PRIMARY KEY (entity_id, date_id)\n);

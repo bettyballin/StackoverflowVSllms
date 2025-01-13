@@ -1,1 +1,0 @@
-// IQueryable<T>\nvar query1 = dbContext.Table1.Where(t => t.Region == 1 && t.Name == "test");\nvar query2 = dbContext.Table1.Where(t => t.Name == "test" && t.Region == 1);\n\n// IEnumerable<T>\nvar data = dbContext.Table1.ToList();\nvar query3 = data.Where(t => t.Region == 1 && t.Name == "test");\nvar query4 = data.Where(t => t.Name == "test" && t.Region == 1);

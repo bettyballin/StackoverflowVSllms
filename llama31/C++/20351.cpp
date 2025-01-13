@@ -1,1 +1,0 @@
-#include <WinSock2.h>\n\n// ...\n\nWSADATA wsaData;\nWSAStartup(MAKEWORD(2, 2), &wsaData);\n\nSOCKET sock = WSASocket(AF_INET, SOCK_STREAM, IPPROTO_TCP, NULL, 0, 0);\n\nint timeout = 10;\nWSAIoctl(sock, SIO_TCP_INITIAL_RTO, &timeout, sizeof(timeout), NULL, 0, NULL, NULL);

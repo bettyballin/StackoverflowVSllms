@@ -1,1 +1,0 @@
-/* output CSS */\n.container {\n  width: 100%;\n}\n\n.left-column {\n  float: left;\n  width: 65%;\n  border-bottom: 1px solid #ff9600;\n  border-right: 1px solid #ff9600;\n  background-color: #FDD69E;\n}

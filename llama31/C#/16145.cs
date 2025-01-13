@@ -1,1 +1,0 @@
-using Castle.MicroKernel.Registration;\nusing Castle.Windsor;\n\n// create a new Windsor container\nvar container = new WindsorContainer();\n\n// register a component using the fluent interface\ncontainer.Register(\n    Component.For<MyComponent>()\n        .ImplementedBy<MyComponentImplementation>()\n        .Named("mycomponent")\n        .LifestyleSingleton()\n);

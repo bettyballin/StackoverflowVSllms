@@ -1,0 +1,1 @@
+$('form').on('submit', function(event) {\n  // Find all input elements with the validate class\n  var inputs = $(this).find('.validate');\n\n  // Loop through the inputs and apply validation\n  inputs.each(function() {\n    var input = $(this);\n    // Apply validation logic here\n  });\n});

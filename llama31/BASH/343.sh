@@ -1,1 +1,0 @@
-sc config "MyService" obj= "MYDOMAIN\MyUser" password= "MySecurePassword123!"

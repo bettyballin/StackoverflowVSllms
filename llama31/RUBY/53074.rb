@@ -1,0 +1,1 @@
+require 'rake'\n\ndescribe 'my_rake_task' do\n  let(:task) { Rake::Task['my_rake_task'] }\n\n  it 'runs the task' do\n    expect(task.invoke).to be_true\n  end\n\n  it 'performs the expected action' do\n    # set up expectations and mocks as needed\n    task.invoke\n    # verify the expected action was taken\n  end\nend

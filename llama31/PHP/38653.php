@@ -1,0 +1,1 @@
+$response = $client->__getLastResponse();\n$response = utf8_encode($response);\n$xml = simplexml_load_string($response);

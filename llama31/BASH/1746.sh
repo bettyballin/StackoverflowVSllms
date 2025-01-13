@@ -1,1 +1,0 @@
-$drive = "C:"\n$allocationUnitSize = 64KB\n\nSet-NTFSAllocationUnitSize -Drive $drive -AllocationUnitSize $allocationUnitSize

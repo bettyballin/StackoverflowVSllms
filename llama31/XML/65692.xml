@@ -1,0 +1,1 @@
+<configuration>\n  <system.web>\n    <compilation batch="false" batchTimeout="1" />\n  </system.web>\n</configuration>

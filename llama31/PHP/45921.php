@@ -1,0 +1,1 @@
+if (@file_put_contents($imageDir . $pk . '.jpg', file_get_contents($pic_url))) {\n    // ...\n} else {\n    // ...\n}

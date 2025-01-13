@@ -1,1 +1,0 @@
-std::list<int> createList() {\n    std::list<int> myList;\n    // populate the list\n    return std::move(myList);\n}

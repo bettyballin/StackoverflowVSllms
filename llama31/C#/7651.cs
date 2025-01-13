@@ -1,1 +1,0 @@
-var query = from p in ctx.SomeTable()\n            select new \n            {\n                ProductName = p.product_name,\n                Expiration_Date = p.expiration_date,\n                Percent_of_Sales = p.pct_sales\n            };

@@ -1,0 +1,1 @@
+DBCC SHRINKFILE (N'YourDatabaseName_log', 1);

@@ -1,1 +1,0 @@
-HRESULT hr = CoInitializeEx(NULL, COINIT_MULTITHREADED);\nif (FAILED(hr)) {\n    // Handle error\n}

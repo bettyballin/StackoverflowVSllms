@@ -1,1 +1,0 @@
-string comment = Html.Encode(Model.Comment).Replace("\r\n", "<br />\r\n");

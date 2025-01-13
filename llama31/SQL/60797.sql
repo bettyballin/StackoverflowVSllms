@@ -1,0 +1,1 @@
+SELECT tablespace_name, contents \nFROM user_tablespaces;

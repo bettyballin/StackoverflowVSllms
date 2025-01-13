@@ -1,0 +1,1 @@
+$string = "Hello, <b>World</b>!";\necho htmlspecialchars($string);\n// Output: Hello, &lt;b&gt;World&lt;/b&gt;!

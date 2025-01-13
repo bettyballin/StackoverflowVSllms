@@ -1,1 +1,0 @@
-using (SqlConnection connection = new SqlConnection(connectionString))\n{\n    try\n    {\n        connection.Open();\n        // Execute stored procedure or query\n    }\n    catch (SqlException ex)\n    {\n        // Handle exception\n    }\n    finally\n    {\n        connection.Close();\n    }\n}

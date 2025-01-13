@@ -1,0 +1,1 @@
+setTimeout(function() {\n  getStatus();\n}, 3000);

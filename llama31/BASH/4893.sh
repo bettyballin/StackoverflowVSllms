@@ -1,1 +1,0 @@
-jstack <PID> | grep "java.lang.Thread.State" | wc -l

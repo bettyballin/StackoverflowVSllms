@@ -1,1 +1,0 @@
-// Before updating the database\nDataSet changes = dataSet1.GetChanges();\n\ntry\n{\n    // Update the database\n    dataAdapter1.Update(dataSet1);\n}\ncatch (Exception ex)\n{\n    // Rollback the database transaction\n    // ...\n\n    // Restore the original state of the dataset\n    dataSet1.RejectChanges();\n    dataSet1.Merge(changes);\n}

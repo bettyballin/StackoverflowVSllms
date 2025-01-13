@@ -1,1 +1,0 @@
-protected void Session_Start(object sender, EventArgs e)\n{\n    if (User.IsInRole("Admin"))\n    {\n        Session.Timeout = 180; // 3 hours\n    }\n    else\n    {\n        Session.Timeout = 30; // 30 minutes\n    }\n}

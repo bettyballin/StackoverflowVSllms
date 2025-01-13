@@ -1,0 +1,1 @@
+$("#the_div ul li").eq(2).text("3");

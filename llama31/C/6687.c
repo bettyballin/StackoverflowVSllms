@@ -1,1 +1,0 @@
-void gtk_label_set_text(GtkLabel *label, const gchar *text) {\n    // label is a copy of the original pointer, but it still points to the same GtkLabel struct\n    label->text = text; // modifies the GtkLabel struct\n}

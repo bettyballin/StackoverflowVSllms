@@ -1,0 +1,1 @@
+const element = document.getElementById('myElement');\nelement.classList.add('zoomed');

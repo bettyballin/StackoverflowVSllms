@@ -1,1 +1,0 @@
-void baz() {\n    std::optional<std::string> savedInput = "stackoverflow";\n    foo(savedInput);\n    savedInput = std::nullopt;\n    foo(savedInput); // prints "null"\n}

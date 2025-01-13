@@ -1,0 +1,1 @@
+$QueryString = implode($Amp, array_map(function($Key, $Value) {\n    return $Key . '=' . $Value;\n}, array_keys($Parameters), $Parameters));

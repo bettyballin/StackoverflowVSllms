@@ -1,0 +1,1 @@
+<?php\n$conn = mysql_connect('localhost', 'myuser', 'mypassword');\nif (!$conn) {\n    die('Could not connect: ' . mysql_error());\n}\nmysql_select_db('mydatabase', $conn);\necho 'Connected successfully';\nmysql_close($conn);\n?>

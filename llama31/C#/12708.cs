@@ -1,1 +1,0 @@
-// instead of evicting each object individually\n// session.Evict(beverages);\n// session.Evict(beer);\n// ...\n\n// clear the entire session cache\nsession.Clear();\n\n// now load the object from the database\nvar fromDB = session.Get<ProductCategory>(beverages.Id);

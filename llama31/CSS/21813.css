@@ -1,1 +1,0 @@
-.button {\n  background-image: url('button.png');\n  background-position: 0 0;\n  background-repeat: no-repeat;\n  height: 32px;\n  width: 100px;\n}\n\n.button:hover {\n  background-position: 0 -32px;\n}\n\n.button:active {\n  background-position: 0 -64px;\n  position: relative;\n  top: 1px;\n  left: 1px;\n}

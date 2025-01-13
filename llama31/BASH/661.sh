@@ -1,1 +1,0 @@
-# Example build command\nmake\n./myprogram

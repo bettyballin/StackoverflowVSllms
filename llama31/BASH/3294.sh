@@ -1,1 +1,0 @@
-screen -S mysession -X screen /bin/bash -c "echo hello; sleep 10"

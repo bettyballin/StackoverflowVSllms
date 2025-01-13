@@ -1,1 +1,0 @@
-using HtmlDiff;\n\n// Compare two strings\nvar diff = new HtmlDiff("old text", "new text");\n\n// Render the diff as HTML\nvar html = diff.ToHtml();

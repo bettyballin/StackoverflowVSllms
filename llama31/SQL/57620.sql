@@ -1,0 +1,1 @@
+SET @a = "1";\nSELECT typeof(@a);

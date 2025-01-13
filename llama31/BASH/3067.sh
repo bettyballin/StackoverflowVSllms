@@ -1,1 +1,0 @@
-aspnet_regiis -pef "appSettings" "YourSitePath" -prov "DataProtectionConfigurationProvider"

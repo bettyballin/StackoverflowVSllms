@@ -1,0 +1,1 @@
+class EditAdminForm(forms.ModelForm):\n    password = forms.CharField(widget=forms.PasswordInput())\n    password_confirm = forms.CharField(widget=forms.PasswordInput())\n\n    def __init__(self, *args, **kwargs):\n        super(EditAdminForm, self).__init__(*args, **kwargs)\n        if self.instance:\n            self.fields['password_confirm'].initial = self.instance.password

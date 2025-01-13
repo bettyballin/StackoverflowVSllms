@@ -1,1 +1,0 @@
-dataGridView1.Columns[0].DefaultCellStyle.NullValue = null;

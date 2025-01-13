@@ -1,0 +1,1 @@
+If String.Equals(strTag, tmp, StringComparison.OrdinalIgnoreCase) Then\n    ' ...\nEnd If

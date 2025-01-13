@@ -1,0 +1,1 @@
+foreach ($data as $item) {\n    echo '<ATTR>', $item, '</ATTR>', "\n";\n}

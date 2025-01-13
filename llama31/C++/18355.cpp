@@ -1,1 +1,0 @@
-void* pBuffer = malloc(uliSize.QuadPart);\nif (pBuffer)\n{\n    HRESULT hr = pStream->Read(pBuffer, uliSize.QuadPart, NULL);\n    if (SUCCEEDED(hr))\n    {\n        // pBuffer now holds the JPEG data\n    }\n}

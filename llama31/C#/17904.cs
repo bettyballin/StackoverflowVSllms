@@ -1,1 +1,0 @@
-[assembly: ComVisible(true)]\n[assembly: ClassInterface(ClassInterfaceType.AutoDispatch)]\n[assembly: ComSourceInterfaces(typeof(IMyInterface))]

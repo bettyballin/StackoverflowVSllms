@@ -1,1 +1,0 @@
-apt-get install gcc-multilib libc6-dev-i386

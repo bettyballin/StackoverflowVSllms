@@ -1,1 +1,0 @@
-// MemberForm.cs (UI)\nprivate Member _member;\n\npublic MemberForm(int memberId)\n{\n    _member = MemberService.GetMember(memberId);\n    // Use the _member object as needed\n}

@@ -1,0 +1,1 @@
+def destroy\n  # existing code to destroy the join record\n  respond_to do |format|\n    format.json { render json: { success: true } }\n  end\nend

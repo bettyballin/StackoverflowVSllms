@@ -1,0 +1,1 @@
+<?php\nini_set('error_reporting', E_ALL);\nini_set('display_errors', 'On');\nerror_reporting(E_ALL);\n?>

@@ -1,0 +1,1 @@
+alter table B WITH CHECK add constraint FKBtoA foreign key (AID) references A(ID)

@@ -1,1 +1,0 @@
-protected void Session_Start(object sender, EventArgs e)\n{\n    Session.Timeout = 60;\n}

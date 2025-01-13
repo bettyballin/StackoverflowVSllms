@@ -1,0 +1,1 @@
+SELECT *\nFROM items\nORDER BY MOD(position - ?, COUNT(*)) + 1;

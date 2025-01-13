@@ -1,1 +1,0 @@
-gcc -I/opt/gnu/include -L/opt/gnu/lib

@@ -1,1 +1,0 @@
-chown -R svnuser:svnuser /root/root/trunk

@@ -1,1 +1,0 @@
-public class CustomValidator : BaseValidator\n{\n    protected override void Render(HtmlTextWriter writer)\n    {\n        base.Render(writer);\n        writer.AddStyleAttribute(HtmlTextWriterStyle.Color, string.Empty);\n    }\n}

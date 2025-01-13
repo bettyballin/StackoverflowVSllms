@@ -1,1 +1,0 @@
-perf top -p <pid>

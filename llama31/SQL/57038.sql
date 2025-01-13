@@ -1,0 +1,1 @@
+INSERT INTO Posts (Title, Content) VALUES ('My Post', 'This is my post');\nINSERT INTO Tags (Name) VALUES ('tag1'), ('tag2');\nINSERT INTO PostTags (PostId, TagId) VALUES (1, 1), (1, 2);

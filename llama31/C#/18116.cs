@@ -1,1 +1,0 @@
-public class MyDatabaseDataContext : DatabaseDataContext\n{\n    public MyDatabaseDataContext() \n        : base(Settings.DSN)\n    {\n    }\n}

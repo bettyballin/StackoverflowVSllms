@@ -1,0 +1,1 @@
+mapObject.prototype.SetLocation = function(response) {\n  var self = this;\n  return function() {\n    // ...\n    self.Create();\n  };\n};

@@ -1,0 +1,1 @@
+Dim result As String = "hello world".ToUpper()

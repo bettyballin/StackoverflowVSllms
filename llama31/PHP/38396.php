@@ -1,0 +1,1 @@
+$shell = new COM("WScript.Shell");\n$exec = $shell->Exec("C:\\path\\to\\your\\exe.exe");\n$output = $exec->StdOut->ReadAll;

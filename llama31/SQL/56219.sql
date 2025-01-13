@@ -1,0 +1,1 @@
+SELECT p_ID \nFROM mz_t_Services \nEXCEPT \nSELECT p_Services \nFROM mz_t_NaznExec

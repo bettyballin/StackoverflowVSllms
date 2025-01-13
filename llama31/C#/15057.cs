@@ -1,1 +1,0 @@
-[HttpOptions]\npublic ActionResult FindWidgetsOptions()\n{\n    Response.Headers.Add("Access-Control-Allow-Origin", "*");\n    Response.Headers.Add("Access-Control-Allow-Methods", "GET, POST, PUT, DELETE");\n    Response.Headers.Add("Access-Control-Allow-Headers", "Content-Type, Accept");\n    return new EmptyResult();\n}

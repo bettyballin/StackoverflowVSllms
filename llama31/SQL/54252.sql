@@ -1,0 +1,1 @@
+CREATE PROCEDURE [dbo].[GetRadioServiceCodes] \n    @RadioServiceGroup nvarchar(1000) = NULL\nAS\nBEGIN\n    SELECT rsc.RadioService\n    FROM sbi_l_radioservicecodes rsc\n    WHERE rsc.RadioServiceGroup = @RadioServiceGroup OR @RadioServiceGroup IS NULL\nEND

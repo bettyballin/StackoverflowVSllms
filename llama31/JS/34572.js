@@ -1,0 +1,1 @@
+my_a = document.createElement('a');\nmy_a.onclick = function() {\n    somefunction('x');\n};

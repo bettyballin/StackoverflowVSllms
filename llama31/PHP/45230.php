@@ -1,0 +1,1 @@
+if (isset($_POST['comment_content'])) {\n    // Assuming you've already set up your database connection\n    $content = mysqli_real_escape_string($conn, $_POST['comment_content']);\n    $query = "INSERT INTO comments (content) VALUES ('$content')";\n    mysqli_query($conn, $query);\n    $comment_id = mysqli_insert_id($conn);\n    echo $comment_id; // Return the ID\n}

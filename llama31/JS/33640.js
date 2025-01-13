@@ -1,0 +1,1 @@
+function remove_fields(link) {\n  $(link).parent().remove();\n}\n\nfunction link_to_remove_fields(name, f) {\n  link_to_function(name, "remove_fields(this)")\n}

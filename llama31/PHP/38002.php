@@ -1,0 +1,1 @@
+if (filesize($_FILES['imagefile']['tmp_name']) > 2097152) {\n    die("ERROR: File size exceeds 2MB limit");\n}

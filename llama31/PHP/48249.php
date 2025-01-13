@@ -1,0 +1,1 @@
+public function my_method() {\n    // Your code here\n    $data = array('attributes' => array(array('type' => 'Text', 'labels' => 'Untitled1')));\n    $this->set('data', $data);\n    $this->set('_serialize', array('data'));\n    $this->render(false); // Render without layout\n}

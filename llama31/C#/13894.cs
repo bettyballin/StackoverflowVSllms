@@ -1,1 +1,0 @@
-var hashtable = list.Cast<MyBaseClass>().ToDictionary(obj => obj.Description, obj => obj.Id);

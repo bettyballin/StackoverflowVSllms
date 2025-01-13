@@ -1,1 +1,0 @@
-// This will compile and cause unexpected behavior\nif (var = 0) {\n    // ...\n}\n\n// This will throw a compiler error\nif (0 = var) {\n    // ...\n}

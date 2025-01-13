@@ -1,1 +1,0 @@
-.mybox {\n  float: left;\n  overflow: hidden; /* or overflow-y: hidden; */\n  visibility: visible;\n  width: 220px;\n  height: 100px;\n  margin: 3px;\n  padding: 10px;\n  border-left: 1px solid gray;\n  border-right: 1px solid black;\n  border-top: 1px solid gray;\n  border-bottom: 1px solid black;\n  background-color: gold;\n}

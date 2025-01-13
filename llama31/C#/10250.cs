@@ -1,1 +1,0 @@
-[assembly: System.Security.Permissions.ZoneIdentifier("MyComputer")]

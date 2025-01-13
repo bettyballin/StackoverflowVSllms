@@ -1,1 +1,0 @@
-string userInput = "Hello, <script>alert('XSS')</script>!";\nstring encodedInput = HttpUtility.HtmlEncode(userInput);\nConsole.WriteLine(encodedInput); // Output: "Hello, &lt;script&gt;alert(&#39;XSS&#39;)&lt;/script&gt;!"

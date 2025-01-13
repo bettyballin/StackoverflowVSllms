@@ -1,0 +1,1 @@
+$email_content = stream_get_contents(STDIN);\n// process email

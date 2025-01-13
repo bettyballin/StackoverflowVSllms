@@ -1,1 +1,0 @@
-[Table(Name = "dbo.Products")]\npublic class Product\n{\n    [Column(IsPrimaryKey = true, Name = "ProductID")]\n    public int Id { get; set; }\n\n    [Column(Name = "ProductName")]\n    public string Name { get; set; }\n}

@@ -1,1 +1,0 @@
-.dropdown-left {\n    position: absolute;\n    background-color: green;\n    color: white;\n}\n\n.dropdown-right {\n    position: absolute;\n    right: 0;\n    background-color: green;\n    color: white;\n}\n\ntable {\n    position: relative;\n}

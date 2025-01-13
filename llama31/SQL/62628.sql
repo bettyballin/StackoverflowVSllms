@@ -1,0 +1,1 @@
+ALTER TABLE table_name\nADD COLUMN region_id VARCHAR(10) NOT NULL;\n\nALTER TABLE table_name\nDROP PRIMARY KEY;\n\nALTER TABLE table_name\nADD PRIMARY KEY (original_pk, region_id);

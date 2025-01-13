@@ -1,0 +1,1 @@
+CREATE FULLTEXT CATALOG ftCatalog AS DEFAULT;\nCREATE FULLTEXT INDEX ON Articles (ArticleTitle, ArticleContent) KEY INDEX PK_Articles_ArticleID;

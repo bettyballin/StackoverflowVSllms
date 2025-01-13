@@ -1,0 +1,1 @@
+UPDATE ejl_registration\nSET end_date = MAKEDATE(YEAR(start_date), 1) + INTERVAL 1 YEAR - INTERVAL 1 DAY\nWHERE end_date IS NULL OR end_date = '0000-00-00';

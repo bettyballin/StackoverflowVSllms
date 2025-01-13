@@ -1,1 +1,0 @@
-using Rebex.Imap;\n\n// Create an IMAP4 server instance\nvar server = new ImapServer();\n\n// Start the server\nserver.Start();

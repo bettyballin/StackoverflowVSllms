@@ -1,1 +1,0 @@
-size_t i, size = _tcslen(str);\nfor (i = 0; i < size; i++) {\n    // code here\n}

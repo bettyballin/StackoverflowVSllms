@@ -1,1 +1,0 @@
-protected virtual void OnPropertyChanged([CallerMemberName] string propertyName = null)\n{\n    PropertyChanged?.Invoke(this, new PropertyChangedEventArgs(propertyName));\n}

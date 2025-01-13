@@ -1,1 +1,0 @@
-string keyString = "your_key_here";\nbyte[] keyBytes = Encoding.UTF8.GetBytes(keyString);

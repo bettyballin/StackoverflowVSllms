@@ -1,1 +1,0 @@
-using WebKit;\n\nnamespace MyWinFormsApp\n{\n    public partial class MainForm : Form\n    {\n        private WebKitBrowser _browser;\n\n        public MainForm()\n        {\n            InitializeComponent();\n\n            _browser = new WebKitBrowser();\n            _browser.Dock = DockStyle.Fill;\n            this.Controls.Add(_browser);\n        }\n    }\n}

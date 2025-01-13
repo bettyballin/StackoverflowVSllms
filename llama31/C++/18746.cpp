@@ -1,1 +1,0 @@
-template <class _Ty>\nsize_type size() const _NOEXCEPT\n{   // return length of sequence\n    return (_Size);\n}

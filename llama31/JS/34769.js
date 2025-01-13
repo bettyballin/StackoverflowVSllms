@@ -1,0 +1,1 @@
+const xmlString = '<root><person id="1"><name>John</name></person></root>';\nconst xmlDoc = new DOMParser().parseFromString(xmlString, 'text/xml');\nconst xpath = '/root/person[@id="1"]/name';\nconst result = xmlDoc.evaluate(xpath, xmlDoc, null, XPathResult.ANY_TYPE, null);\nconst name = result.iterateNext().textContent;\nconsole.log(name); // "John"

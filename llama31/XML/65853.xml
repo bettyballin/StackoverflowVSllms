@@ -1,0 +1,1 @@
+<!-- In the devenv.exe.config file (usually located at C:\Program Files\Microsoft Visual Studio 9.0\Common7\IDE) -->\n<configuration>\n  <appSettings>\n    <add key="BackupFileLocation" value="C:\Documents and Settings\YourUsername\My Documents\Visual Studio 2008\Backup Files" />\n  </appSettings>\n</configuration>

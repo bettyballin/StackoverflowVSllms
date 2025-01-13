@@ -1,0 +1,1 @@
+function myFunction($arg1, $arg2, $arg3) {\n    // do something\n}\n\n$array = [1, 2, 3];\nmyFunction(...$array);

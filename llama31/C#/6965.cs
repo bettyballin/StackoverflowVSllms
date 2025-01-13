@@ -1,1 +1,0 @@
-using System.Windows.Forms;\n\nOpenFileDialog openFileDialog = new OpenFileDialog();\nopenFileDialog.InitialDirectory = Environment.GetFolderPath(Environment.SpecialFolder.ProgramFiles);

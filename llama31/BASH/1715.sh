@@ -1,1 +1,0 @@
-# Example usage:\npython swfobfuscator.py -i input.swf -o output.swf -rename -encrypt-strings

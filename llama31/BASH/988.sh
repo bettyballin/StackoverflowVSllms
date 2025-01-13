@@ -1,1 +1,0 @@
-openssl req -x509 -new -nodes -key ca.key -subj "/C=US/ST=State/L=Locality/O=Organization/CN=Root CA" -out ca.crt

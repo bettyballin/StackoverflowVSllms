@@ -1,0 +1,1 @@
+foreach ($categories as $category) {\n    echo $category['Category']['name'] . "\n";\n    \n    $forums = $category['Forum'];\n    foreach ($forums as $forum) {\n        echo $forum['name'] . "\n";\n    }\n}

@@ -1,0 +1,1 @@
+$logPath = '/var/log/nginx/access.log'; // adjust to your log file location\n$logs = shell_exec("nginx -s $logPath");\n$logEntries = explode("\n", $logs);

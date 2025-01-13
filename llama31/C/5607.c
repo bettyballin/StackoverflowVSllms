@@ -1,1 +1,0 @@
-uuid.time_low = htonl(uuid.time_low);\nuuid.time_mid = htons(uuid.time_mid);\nuuid.time_hi_and_version = htons(uuid.time_hi_and_version);\n// no swapping needed for clock_seq_hi_and_reserved, clock_seq_low, and node[6]

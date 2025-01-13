@@ -1,1 +1,0 @@
-ldapadd -x -D "cn=admin,dc=example,dc=com" -w "admin_password" <<EOF\ndn: cn=svn_users,dc=example,dc=com\nobjectClass: groupOfNames\ncn: svn_users\nEOF

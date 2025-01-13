@@ -1,1 +1,0 @@
-0 0 */7 * * /path/to/mysql_script.sh

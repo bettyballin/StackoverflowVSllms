@@ -1,0 +1,1 @@
+SELECT \n  p.product_id, \n  p.product_name, \n  COALESCE(SUM(b.quantity), 0) - COALESCE(SUM(s.quantity), 0) AS available_quantity\nFROM \n  products p\n  LEFT JOIN bought b ON p.product_id = b.product_id\n  LEFT JOIN sold s ON p.product_id = s.product_id\nGROUP BY \n  p.product_id, \n  p.product_name

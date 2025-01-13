@@ -1,0 +1,1 @@
+CREATE VIEW RLIC2GIS AS\nSELECT CAST(REPLACE(RCAPIN, ' ', '') AS VARCHAR(13) CCSID 37) AS RCAPIN13,\n       -- ... rest of the columns ...\nFROM RLIC2;

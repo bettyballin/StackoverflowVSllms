@@ -1,0 +1,1 @@
+' In your Utility module\nModule Utility\n    Public Function MyMethod() As String\n        Return "Hello, World!"\n    End Function\nEnd Module\n\n' In your consuming class\nImports YourNamespace.Utility\n\nPublic Class MyClass\n    Public Sub MySub()\n        Dim result As String = MyMethod()\n        ' Use the result\n    End Sub\nEnd Class

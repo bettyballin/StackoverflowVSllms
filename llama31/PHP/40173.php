@@ -1,0 +1,1 @@
+<?php\n// Set UTF-8 encoding for PHP\nheader('Content-Type: text/html; charset=UTF-8');\n\n// Use Unicode-aware functions\n$string = 'Hello, àçé!';\n$encoded_string = utf8_encode($string);\necho $encoded_string;\n\n// Use a Unicode library (e.g., php-unicode)\nrequire_once 'vendor/autoload.php';\nuse Unicode\String;\n$string = new String('Hello, àçé!');\necho $string->toUTF8();

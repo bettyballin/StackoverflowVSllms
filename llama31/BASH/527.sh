@@ -1,1 +1,0 @@
-curl -I -s -H "Accept: */*" https://example.com/webpage.html

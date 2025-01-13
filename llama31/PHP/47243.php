@@ -1,0 +1,1 @@
+if ($mysqli->error) {\n    echo "Error deleting row: " . $mysqli->error;\n}

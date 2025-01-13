@@ -1,1 +1,0 @@
-div#thing {\n  position: absolute;\n  top: 0px;\n  z-index: 2;\n  left: 50%; /* move the div 50% to the right */\n  transform: translateX(-50%); /* move the div back to the left by half its width */\n}

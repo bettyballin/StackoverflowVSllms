@@ -1,0 +1,1 @@
+<location path="site1">\n  <system.web>\n    <httpModules>\n      <add name="AuthModule" type="YourNamespace.AuthModule, YourAssembly" />\n    </httpModules>\n  </system.web>\n</location>

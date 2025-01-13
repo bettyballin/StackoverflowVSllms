@@ -1,1 +1,0 @@
-#include <mutex>\n#include <stdio.h>\n\nstd::once_flag flag;\nvoid foo() {\n    static int x = 0;\n    std::call_once(flag, []{ x = 0; });\n    printf("%d\n", x++);\n}

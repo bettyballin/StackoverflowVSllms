@@ -1,0 +1,1 @@
+import calendar\nimport time\n\ntimestamp = calendar.timegm(time.strptime("2009-06-16", "%Y-%m-%d"))\nprint(timestamp)

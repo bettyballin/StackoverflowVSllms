@@ -1,0 +1,1 @@
+require_once 'PhpRtfParser.php';\n\n$rtfFile = 'path/to/your/template.rtf';\n$parser = new PhpRtfParser();\n$rtfText = file_get_contents($rtfFile);\n$parser->parse($rtfText);\n\n$pages = array();\nforeach ($parser->getPages() as $page) {\n    $pages[] = $page->getText();\n}\n\n// Now $pages is an array of individual pages

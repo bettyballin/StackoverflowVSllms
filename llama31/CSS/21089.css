@@ -1,1 +1,0 @@
-hr {\n  border: none;\n  height: 1px;\n  background-image: none;\n  position: relative;\n}\n\nhr:after {\n  content: "";\n  position: absolute;\n  top: 0;\n  left: 0;\n  width: 100%;\n  height: 1px;\n  background-image: url('your-image-url.jpg'); /* replace with your image */\n  background-repeat: no-repeat;\n  background-position: center;\n}

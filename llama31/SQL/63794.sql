@@ -1,0 +1,1 @@
+SELECT `b` FROM `y` WHERE `a` = '1'\nUNION ALL\nSELECT `b` FROM `y` WHERE `a` = 0 AND NOT EXISTS (SELECT 1 FROM `y` WHERE `a` = '1')

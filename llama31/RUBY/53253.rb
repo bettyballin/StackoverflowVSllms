@@ -1,0 +1,1 @@
+rails generate breadcrumbs_on_rails:install

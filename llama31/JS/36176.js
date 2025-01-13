@@ -1,0 +1,1 @@
+function strpbrk(input, charList) {\n  var regex = new RegExp('[' + charList.replace(/[-\/\\^$*+?.()|[\]{}]/g, '\\$&') + ']');\n  var match = input.match(regex);\n  return match ? input.substring(match.index) : false;\n}

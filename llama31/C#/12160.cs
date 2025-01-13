@@ -1,1 +1,0 @@
-public class UserService\n{\n    public ICollection<KeyValuePair<string, string>> ValidateUser(User user)\n    {\n        // Validate all properties (username, email, password)\n    }\n\n    public ICollection<KeyValuePair<string, string>> ValidateLogin(string username, string password)\n    {\n        // Validate only username and password\n    }\n}

@@ -1,0 +1,1 @@
+Array\n(\n    [pg_response_type] => D\n    [pg_response_code] => U51\n    [pg_response_description] => MERCHANT STATUS\n    [pg_trace_number] => 477DD76B-B608-4318-882A-67C051A636A6\n)

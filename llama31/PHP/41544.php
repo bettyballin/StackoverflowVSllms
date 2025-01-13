@@ -1,0 +1,1 @@
+$clientId = 'YOUR_CLIENT_ID';\n$clientSecret = 'YOUR_CLIENT_SECRET';\n$redirectUri = 'YOUR_REDIRECT_URI';\n\n$oauth = new OAuth($clientId, $clientSecret, $redirectUri);\n$accessToken = $oauth->getAccessToken();\n\n$outlookApi = new OutlookApi($accessToken);\n$messages = $outlookApi->getMessages();

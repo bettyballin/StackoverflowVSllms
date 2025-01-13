@@ -1,1 +1,0 @@
-string originalQueryString = "id=12345&year=2008";\nstring encryptedQueryString = QueryStringEncryption.EncryptQueryString(originalQueryString);\nstring decryptedQueryString = QueryStringEncryption.DecryptQueryString(encryptedQueryString);

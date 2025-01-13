@@ -1,0 +1,1 @@
+SELECT SwitchName, SwitchValue\nFROM ClientSwitches\nWHERE ClientId = @ClientId

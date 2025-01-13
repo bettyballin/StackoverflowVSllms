@@ -1,0 +1,1 @@
+message = MIMEMultipart()\nmessage['Subject'] = 'Test Draft'\nmessage['From'] = 'test@test.net'\nmessage['to'] = 'test@test.com'\nmessage['cc'] = 'testcc@test.com'\nmessage['X-Receiver'] = 'testbcc@test.com'  # Add BCC recipient to X-Receiver header\nmessage.attach(MIMEText('This is a test.\n'))

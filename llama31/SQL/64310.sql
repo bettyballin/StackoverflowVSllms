@@ -1,0 +1,1 @@
+SELECT e.*\nFROM employee e\nINNER JOIN (\n  SELECT department, MIN(salary) as min_salary\n  FROM employee\n  GROUP BY department\n) m ON e.department = m.department AND e.salary = m.min_salary

@@ -1,0 +1,1 @@
+function int2coord($i) {\n    return array(floor($i / 8), $i % 8);\n}

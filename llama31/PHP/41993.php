@@ -1,0 +1,1 @@
+$array = [\n    0 => 'Apple',\n    2 => 'Orange',\n    5 => 'Pear',\n    8 => 'Pear'\n];\n\n$maxIndex = max(array_keys($array));\n$result = [];\n\nfor ($i = 0; $i <= $maxIndex; $i++) {\n    $result[$i] = $array[$i] ?? '';\n}\n\nprint_r($result);

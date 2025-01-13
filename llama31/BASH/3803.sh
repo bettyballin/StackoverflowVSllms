@@ -1,1 +1,0 @@
-xattr -d com.apple.quarantine /path/to/your/directory

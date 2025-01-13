@@ -1,1 +1,0 @@
-perfmon /s /c "\Process(w3wp*AppPoolName)\% Processor Time"

@@ -1,1 +1,0 @@
-Response.AppendHeader("Content-Disposition", "inline; filename=yourfile.pdf");

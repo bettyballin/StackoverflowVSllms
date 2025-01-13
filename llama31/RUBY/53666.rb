@@ -1,0 +1,1 @@
+X = "hello"\nX.object_id  # => 123456\n\nX.concat(" world")\nX.object_id  # => 123456 (still the same object)\n\nX = X.concat(" again")\nX.object_id  # => 654321 (new object)

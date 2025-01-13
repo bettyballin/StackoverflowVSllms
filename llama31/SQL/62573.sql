@@ -1,0 +1,1 @@
+CREATE TABLE customers (\n  id INT PRIMARY KEY,\n  name VARCHAR(255),\n  email VARCHAR(255)\n);\n\nCREATE TABLE customer_details (\n  id INT PRIMARY KEY,\n  customer_id INT UNIQUE,\n  address VARCHAR(255),\n  phone VARCHAR(20),\n  FOREIGN KEY (customer_id) REFERENCES customers(id)\n);

@@ -1,0 +1,1 @@
+// Assuming you have a form with id="search-form"\nconst form = document.getElementById('search-form');\nconst query = 'example search query';\n\nform.querySelector('input[name="query"]').value = query;\nform.submit();

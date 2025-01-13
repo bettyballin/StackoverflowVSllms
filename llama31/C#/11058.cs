@@ -1,1 +1,0 @@
-[InterfaceType(ComInterfaceType.InterfaceIsIDispatch)]\npublic interface IMyClass\n{\n    string MyMethod();\n}

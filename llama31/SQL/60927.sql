@@ -1,0 +1,1 @@
+SELECT temporary_tablespace \nFROM dba_users \nWHERE username = '<existing_database_username>';

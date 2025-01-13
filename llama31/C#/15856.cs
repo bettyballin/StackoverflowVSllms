@@ -1,1 +1,0 @@
-var person = new Person\n{\n    Name = "John",\n    Age = 30,\n    City = "New York"\n};

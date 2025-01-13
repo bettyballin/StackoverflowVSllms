@@ -1,1 +1,0 @@
-openssl s_client -connect remote_server:443 -servername remote_server \\n  -showcerts 2>&1 | sed -ne '/-BEGIN CERTIFICATE-/,/-END CERTIFICATE-/p' \\n  > remote_server.crt\n\nsudo cp remote_server.crt /usr/local/share/ca-certificates/\nsudo update-ca-certificates

@@ -1,1 +1,0 @@
-String jqlQuery = "project = '" + projectName + "' AND fixVersion = '" + versionName + "'";\nRemoteIssue[] issues = _soapService.getIssuesFromJql(jqlQuery, 100); // 100 is the maximum number of results

@@ -1,1 +1,0 @@
-Response.StatusCode = 401;\nResponse.StatusDescription = "Unauthorized";\nResponse.Headers["WWW-Authenticate"] = "Basic realm=\"My Realm\"";\nResponse.End();

@@ -1,1 +1,0 @@
-// Assuming your server is in the Eastern Standard Time (EST) zone\nTimeZoneInfo estZone = TimeZoneInfo.FindSystemTimeZoneById("Eastern Standard Time");\nDateTime serverDate = TimeZoneInfo.ConvertTimeFromUtc(date, estZone);

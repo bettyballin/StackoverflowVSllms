@@ -1,1 +1,0 @@
-# Example using GeoIP2\ncurl -H "X-Forwarded-For: <spoofed_ip>" http://example.com

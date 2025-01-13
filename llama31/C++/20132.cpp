@@ -1,1 +1,0 @@
-TEST(MyMFCTest, TestOracleConnection) {\n  // Initialize Oracle connection\n  // ...\n\n  // Test Oracle query execution\n  // ...\n\n  // Verify results\n  // ...\n\n  // Clean up\n  // ...\n}

@@ -1,1 +1,0 @@
-[SoapLogger]\npublic class MyWebServiceProxy : SoapHttpClientProtocol\n{\n    // ...\n}

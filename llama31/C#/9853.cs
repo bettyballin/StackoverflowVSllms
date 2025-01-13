@@ -1,1 +1,0 @@
-public static string CreateTimestampString(DateTime dateTime)\n{\n    return dateTime.ToString("yyyyMMddHHmmssfff");\n}

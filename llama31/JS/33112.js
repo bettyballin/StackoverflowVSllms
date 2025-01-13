@@ -1,0 +1,1 @@
+$('#messages').append(message + '<br>');

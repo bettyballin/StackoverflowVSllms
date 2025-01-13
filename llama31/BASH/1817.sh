@@ -1,1 +1,0 @@
-openssl genrsa -out privatekey.pem 2048\nopenssl req -new -x509 -key privatekey.pem -out publickey.cer -days 365

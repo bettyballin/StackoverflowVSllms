@@ -1,0 +1,1 @@
+$checked = $_POST['checked'];\n\n$checkedNames = array();\n$checkedImages = array();\n\nforeach ($checked as $key) {\n    $checkedNames[] = $names[$key];\n    $checkedImages[] = $images[$key];\n}\n\n// Now $checkedNames and $checkedImages contain only the checked values\nprint_r($checkedNames);\nprint_r($checkedImages);

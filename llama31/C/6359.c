@@ -1,1 +1,0 @@
-enum somestruct_type {SOMESTRUCT_NODE, SOMESTRUCT_REAL};

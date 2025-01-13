@@ -1,1 +1,0 @@
-Console.CancelKeyPress += Console_CancelKeyPress;\n\nstatic void Console_CancelKeyPress(object sender, ConsoleCancelEventArgs e)\n{\n    // Cleanup code here...\n    Console.WriteLine("Exiting program...");\n    // Close file handles, connections, etc.\n    e.Cancel = true; // Prevent the process from terminating immediately\n}

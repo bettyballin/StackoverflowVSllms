@@ -1,1 +1,0 @@
-sed -r 's/(.*)your_string(.*)/\1your_string\2/g'

@@ -1,0 +1,1 @@
+SELECT TO_CHAR(datetime_field, 'YYYY-MM-DD HH24:MI:SS') \nFROM your_table;

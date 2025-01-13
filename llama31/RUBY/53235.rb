@@ -1,0 +1,1 @@
+<%= rating_for @my_model, :show_rating => true %>

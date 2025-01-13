@@ -1,1 +1,0 @@
-foreach (DataRow row in dataTable.Rows)\n{\n    DateTime date = row.Field<DateTime>("DateColumn");\n    string dateString = date.ToString(CultureInfo.CurrentCulture.DateTimeFormat.ShortDatePattern);\n    row.SetField("DateColumn", dateString);\n}

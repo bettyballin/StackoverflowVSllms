@@ -1,0 +1,1 @@
+$usersession = new Zend_Session_Namespace('userdata');\n$usersession->unsetAll();\n$usersession->user = $user;\n$menuMap = $this->processMenuMap($menuMapPath);\n$usersession->menus = serialize($menuMap);

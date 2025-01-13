@@ -1,0 +1,1 @@
+$smarty = new Smarty();\n$smarty->setTrustedDir(array('/path/to/your/templates/Default'));

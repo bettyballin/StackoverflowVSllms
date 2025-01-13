@@ -1,1 +1,0 @@
-class Program\n{\n    static void Main(string[] args)\n    {\n        string directory = @"C:\Path\To\DLLs";\n        string architecture = "x64";\n        if (!DllArchitectureChecker.CheckArchitecture(directory, architecture))\n        {\n            Console.WriteLine("Error: Not all DLLs are " + architecture);\n        }\n    }\n}

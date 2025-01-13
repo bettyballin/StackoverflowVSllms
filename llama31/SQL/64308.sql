@@ -1,0 +1,1 @@
+SELECT *\nFROM YourTable\nWHERE NVL(YourColumn, ' dummy value') != ' dummy value';

@@ -1,0 +1,1 @@
+import copy\n\noldList = [[1], 2, 3]\nnewList = copy.deepcopy(oldList)\noldList[0][0] = 10\nprint(newList)  # prints [[1], 2, 3]

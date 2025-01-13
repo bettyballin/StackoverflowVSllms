@@ -1,1 +1,0 @@
-LoadKeyboardLayout(KLID_US_UNICODE, KLF_ACTIVATE);

@@ -1,1 +1,0 @@
-cmd="find . -type f"\nwhile IFS= read -r file; do\n  cmd+=" -not -name $file"\ndone < list_files\n$cmd -delete

@@ -1,1 +1,0 @@
-public override int GetHashCode()\n{\n    return Tuple.Create(a, b).GetHashCode();\n}

@@ -1,0 +1,1 @@
+DECLARE @MyTemp TABLE (id INT, name VARCHAR(50));\n\nINSERT INTO @MyTemp\nSELECT * FROM FooTable;\n\nSELECT * FROM @MyTemp WHERE id = @id;\nSELECT * FROM @MyTemp WHERE name = @name;

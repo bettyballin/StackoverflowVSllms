@@ -1,0 +1,1 @@
+$time = microtime(true);\necho date('H:i:s', (int)$time) . '.' . substr($time, strpos($time, '.') + 1) . "\n";

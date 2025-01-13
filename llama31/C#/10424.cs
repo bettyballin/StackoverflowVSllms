@@ -1,1 +1,0 @@
-routes.MapRoute(\n    name: "Languages",\n    template: "{controller}/{action}/{languages}",\n    defaults: new { controller = "Home", action = "Index" }\n);

@@ -1,0 +1,1 @@
+SELECT \n    country, \n    state, \n    city, \n    postalcode, \n    areacode\nFROM (\n    SELECT \n        country, \n        state, \n        city, \n        postalcode, \n        areacode,\n        ROW_NUMBER() OVER (PARTITION BY city ORDER BY postalcode) AS row_num\n    FROM \n        your_table\n) AS subquery\nWHERE \n    row_num = 1;

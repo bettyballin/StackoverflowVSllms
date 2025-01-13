@@ -1,1 +1,0 @@
-dataGridView1.RowTemplate.Height = 25;\ndataGridView1.DefaultCellStyle.Padding = new Padding(5, 5, 5, 5);

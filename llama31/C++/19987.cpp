@@ -1,1 +1,0 @@
-class FuncTracer\n{\npublic:\n    FuncTracer()\n    {\n        m_strFuncName = __func__;\n        // ...\n    }\n    // ...\n};

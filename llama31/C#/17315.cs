@@ -1,1 +1,0 @@
-protected void CreatingUser(object sender, EventArgs e)\n{\n    CreateUserWizardStep step = (CreateUserWizardStep)CreateUserWizard1.FindControl("CreateUserWizardStep1");\n    TextBox nameTextBox = (TextBox)step.ContentTemplateContainer.FindControl("Name");\n\n    // Now you can access the Name TextBox\n    string name = nameTextBox.Text;\n}

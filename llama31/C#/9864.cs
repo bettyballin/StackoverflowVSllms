@@ -1,1 +1,0 @@
-[ComVisible(true)]\npublic partial class dontnetcontrolClass : UserControl, dotnetcontrol\n{\n    // ...\n}

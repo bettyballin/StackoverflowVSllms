@@ -1,0 +1,1 @@
+CREATE UNIQUE INDEX idxUniqueEmail\nON TableName (Email)\nWHERE Email IS NOT NULL

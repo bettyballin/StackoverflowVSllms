@@ -1,0 +1,1 @@
+$data = array($address, $city, $name, $state, $zip);\n$escapedData = array_map(function($value) use ($dbh) {\n    return mysql_real_escape_string($value, $dbh);\n}, $data);\n\n$columns = "name, address, city, state, zip";\n$values = implode(',', $escapedData);\n\n$count = $dbh->exec("INSERT INTO customer($columns) VALUES ($values)");

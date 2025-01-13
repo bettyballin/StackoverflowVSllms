@@ -1,0 +1,1 @@
+SELECT `field`\nFROM `tbl`\nORDER BY `field`\nLIMIT 1;

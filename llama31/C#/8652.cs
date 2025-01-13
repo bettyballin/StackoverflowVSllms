@@ -1,1 +1,0 @@
-using (OracleConnection conn = new OracleConnection(connectionString))\n{\n    // Use the connection\n}

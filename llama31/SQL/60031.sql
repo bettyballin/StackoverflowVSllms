@@ -1,0 +1,1 @@
+CREATE TABLE test (\n  id INT,\n  value INT\n);\n\nINSERT INTO test (id, value) VALUES\n  (1, 10),\n  (2, 20),\n  (3, NULL),\n  (4, 40);\n\nSELECT COUNT(value), COUNT(*) FROM test;

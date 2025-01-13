@@ -1,1 +1,0 @@
-// just a simple console to show the config \n// to test it in your console application\nclass Program\n{\n    static void Main(string[] args)\n    {\n        Console.WriteLine("Process done.");\n    }\n}

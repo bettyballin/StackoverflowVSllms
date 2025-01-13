@@ -1,0 +1,1 @@
+// config.php\nfunction autoload($class) {\n    $file = 'path/to/classes/' . $class . '.php';\n    if (file_exists($file)) {\n        require $file;\n    }\n}\n\nspl_autoload_register('autoload');

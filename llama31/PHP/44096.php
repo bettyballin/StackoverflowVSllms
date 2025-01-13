@@ -1,0 +1,1 @@
+function substr_word($str, $start, $length) {\n    preg_match('/^.{0,' . $length . '}\b/', $str, $match);\n    return $match[0];\n}\n\n$body = "Your text here";\necho substr_word($body, 0, 260);

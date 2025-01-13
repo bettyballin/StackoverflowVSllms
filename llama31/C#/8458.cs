@@ -1,1 +1,0 @@
-string encodedText = HttpUtility.HtmlEncode(text);

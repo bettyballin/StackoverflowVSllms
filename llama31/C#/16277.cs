@@ -1,1 +1,0 @@
-// Example logging using Serilog\nusing Serilog;\n\nLog.Logger = new LoggerConfiguration()\n    .WriteTo.File("log.txt")\n    .CreateLogger();\n\n// Log sensitive data access\nLog.Information("Sensitive data accessed by user {UserId}", userId);

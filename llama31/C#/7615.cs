@@ -1,1 +1,0 @@
-public class Lab\n{\n  public virtual LabIdentifier Id { get; set; }\n  public virtual string Department { get; set; }\n  public virtual int LabID { get; set; }\n  public virtual ISet<Employee> Employees { get; set; }\n}

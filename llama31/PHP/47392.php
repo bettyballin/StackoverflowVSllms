@@ -1,0 +1,1 @@
+$stmt = $mysqli->prepare("SELECT col1, col2, col3 FROM table WHERE col3 = ?");\n$stmt->execute();\n\n$meta = $stmt->result_metadata();\n$fields = array();\nwhile ($field = $meta->fetch_field()) {\n    $fields[] = &$field->name;\n}\n\ncall_user_func_array(array($stmt, 'bind_result'), $fields);\n\n$stmt->fetch();

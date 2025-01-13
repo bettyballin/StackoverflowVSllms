@@ -1,1 +1,0 @@
-using System.Linq;\nusing System.Threading.Tasks;\n\n// assuming 'list' is your IList of objects\nvar filteredList = list.AsParallel().Where(obj => obj.Property == "someValue").ToList();

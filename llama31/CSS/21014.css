@@ -1,1 +1,0 @@
-.grid-container {\n  overflow-y: auto;\n  height: 200px; /* adjust to your desired height */\n}\n\n.grid {\n  border-collapse: collapse;\n  width: 100%;\n}\n\n.grid th, .grid td {\n  border: 1px solid #ddd;\n  padding: 8px;\n  text-align: left;\n}\n\n.grid th {\n  background-color: #f0f0f0;\n}

@@ -1,0 +1,1 @@
+const element = document.getElementById('yourElementId');\nlet offsetTop = 0;\nwhile (element.offsetParent) {\n  offsetTop += element.offsetTop;\n  element = element.offsetParent;\n}

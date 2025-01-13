@@ -1,1 +1,0 @@
-openssl verify -CApath /path/to/java/cacerts certificate.der

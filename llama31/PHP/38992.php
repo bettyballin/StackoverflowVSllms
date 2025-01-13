@@ -1,0 +1,1 @@
+class Construct {\n    public static function error($msg) {\n        // handle error\n    }\n}\n\nclass OtherClass {\n    public function methodThatMightError() {\n        // ...\n        if ($error) {\n            Construct::error($msg);\n        }\n    }\n}

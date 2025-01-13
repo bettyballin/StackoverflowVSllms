@@ -1,0 +1,1 @@
+CREATE TRIGGER AfterInsertTG\nON dbo.usage_reports_Dummy2\nAFTER INSERT AS\nBEGIN\n    UPDATE u\n    SET logout_time = DATEADD(ss, RAND() * 3600, i.login_time)\n    FROM usage_reports_Dummy2 u\n    INNER JOIN inserted i ON u.pk_id = i.pk_id\n    WHERE i.logout_time IS NULL\nEND\nGO

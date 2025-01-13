@@ -1,1 +1,0 @@
-List<IntPair> list = ...;\nlist.Sort(new IntPairComparer());

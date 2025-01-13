@@ -1,0 +1,1 @@
+function attack() {\n    ScriptServiceMadness.Chewbacca.ShootImperialProbeDroid(true, function(result) {\n        alert(result);\n        document.getElementById('form1').submit();\n    }, youvefailedme);\n}\n\nfunction youvefailedme(error) {\n    alert(error);\n}

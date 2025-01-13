@@ -1,1 +1,0 @@
-firefox --kiosk --print-pdf output.pdf input.html

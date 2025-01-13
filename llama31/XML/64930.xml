@@ -1,0 +1,1 @@
+<configuration>\n    <debug>true</debug>\n    <debugPort>8787</debugPort>\n</configuration>

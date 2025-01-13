@@ -1,1 +1,0 @@
-DataRow[] rows = dataSet.Tables["YourTableName"].Select("YourDateColumn = #" + yourDateTime.ToString("yyyy-MM-dd HH:mm:ss") + "#");

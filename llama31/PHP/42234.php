@@ -1,0 +1,1 @@
+<?php\n// Include the WordPress header\nrequire_once($_SERVER['DOCUMENT_ROOT'].'/wp-load.php');\nget_header();\n?>\n\n// Your custom content goes here\n\n<?php\n// Include the WordPress footer\nget_footer();\n?>

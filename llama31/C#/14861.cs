@@ -1,1 +1,0 @@
-// View\n<a href="@Url.Action("MyAction", "MyController", new { myData = "someValue" })">Click me</a>\n\n// Controller\npublic ActionResult MyAction(string myData)\n{\n    // Process the data\n    return RedirectToAction("Index");\n}

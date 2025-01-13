@@ -1,0 +1,1 @@
+UPDATE table_name\nSET \n  column1 = IF(table_name.type = 'volunteer', 'new_value1', column1),\n  column2 = IF(table_name.type = 'volunteer', 'new_value2', column2),\n  column3 = IF(table_name.type = 'mailing_list', 'new_value3', column3)\nWHERE id = 'record_id';

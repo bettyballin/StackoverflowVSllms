@@ -1,0 +1,1 @@
+$('#right').load('textes.html #nicolas', function() {\n  $('#right').append('<hr>');\n  $('#right').append($('#antoine').load('textes.html #antoine'));\n});

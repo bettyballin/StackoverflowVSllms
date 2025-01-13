@@ -1,1 +1,0 @@
-protected void grdHistory_RowDataBound(object sender, GridRowEventArgs e)\n{\n    if (e.Row.RowType == GridRowType.DataRow)\n    {\n        Hashtable records = (Hashtable)e.Row.DataItem;\n        string eventDescription = FormatEventDescription(records);\n        e.Row.Cells[3].Text = eventDescription; // assuming the EventDescription column is at index 3\n    }\n}

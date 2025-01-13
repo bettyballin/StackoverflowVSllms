@@ -1,1 +1,0 @@
-pdfsizeopt input.pdf output.pdf

@@ -1,0 +1,1 @@
+// Get the values of the checked radio buttons\nvar checkedValues = $('input[type="radio"]:checked').map(function() {\n  return $(this).val();\n}).get();\n\n// Do something with the checked values\nconsole.log(checkedValues);

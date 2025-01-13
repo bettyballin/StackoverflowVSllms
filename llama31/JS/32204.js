@@ -1,0 +1,1 @@
+window.onload = function() {\n  var mytestdiv = document.getElementById("testdiv");\n  var mytestbutton = mytestdiv.childNodes[0];\n\n  var y = mytestdiv.offsetHeight;\n  var x = mytestdiv.offsetWidth;\n\n  mytestbutton.style.right = x + 'px';\n  mytestbutton.style.top = y + 'px';\n}

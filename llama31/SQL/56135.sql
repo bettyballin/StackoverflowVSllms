@@ -1,0 +1,1 @@
+UPDATE your_table\nSET new_field = SUBSTRING(CONVERT(varchar(50), NEWID()), 1, 10)

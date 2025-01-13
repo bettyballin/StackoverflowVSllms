@@ -1,1 +1,0 @@
-sudo chmod -R u=rwX,g=rwX,o= /path/to/your/project

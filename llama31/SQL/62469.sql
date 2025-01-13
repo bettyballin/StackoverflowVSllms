@@ -1,0 +1,1 @@
+-- Create a publication on the warehouse database\nCREATE PUBLICATION [Warehouse_Publication]\n    FOR DATABASE = 'Warehouse'\n    WITH ALLOW_initialize_from_backup = 1;\n\n-- Create a subscription on the report database\nCREATE SUBSCRIPTION [Report_Subscription]\n    TO PUBLICATION [Warehouse_Publication]\n    FOR DATABASE = 'Report'\n    WITH ALLOW_initialize_from_backup = 1;

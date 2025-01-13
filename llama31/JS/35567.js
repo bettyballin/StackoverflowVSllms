@@ -1,0 +1,1 @@
+// Assume 'responseData' is the JSON data returned from the asynchronous request\nconst data = JSON.parse(responseData);\nconst html = `\n  <div>\n    <h1>${data.title}</h1>\n    <p>${data.description}</p>\n  </div>\n`;\ndocument.getElementById('container').innerHTML = html;

@@ -1,1 +1,0 @@
-// MainMenu.ascx\n<%@ Control Language="C#" Inherits="System.Web.Mvc.ViewUserControl" %>\n\n<!-- Main menu markup here -->

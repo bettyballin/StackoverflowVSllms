@@ -1,1 +1,0 @@
-curl http://pear.php.net/go-pear.phar > go-pear.phar\nphp -d detect_unicode=0 go-pear.phar

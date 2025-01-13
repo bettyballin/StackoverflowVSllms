@@ -1,0 +1,1 @@
+<?php\nif (isset($_FILES['image'])) {\n    $image = $_FILES['image'];\n    $filename = $image['name'];\n    $tmp_name = $image['tmp_name'];\n\n    // Move the uploaded file to a permanent location\n    move_uploaded_file($tmp_name, 'uploads/' . $filename);\n\n    // Handle the uploaded file here\n}\n?>

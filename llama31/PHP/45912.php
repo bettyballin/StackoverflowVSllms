@@ -1,0 +1,1 @@
+$datetime = '2008-09-01 12:35:45';\n$pattern = '/^\d{4}-(0[1-9]|1[0-2])-(0[1-9]|[12][0-9]|3[01]) (0[0-9]|1[0-9]|2[0-3]):([0-5][0-9]):([0-5][0-9])$/';\n\nif (preg_match($pattern, $datetime)) {\n    echo 'Valid datetime';\n} else {\n    echo 'Invalid datetime';\n}

@@ -1,1 +1,0 @@
-#include <sys/stat.h>\n\nstruct stat sb;\nstat("filename", &sb);\nprintf("%lu\n", sb.st_ino);

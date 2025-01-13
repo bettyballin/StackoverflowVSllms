@@ -1,1 +1,0 @@
-# On the backup server\nsvnadmin create /path/to/svn/repo\nsvn import /path/to/staging/dev/code /path/to/svn/repo -m "Initial import"

@@ -1,1 +1,0 @@
-keytool -genkey -alias mydomain -keyalg RSA -keystore keystore.jks -storepass changeit\nkeytool -import -alias mydomain -keystore keystore.jks -storepass changeit -file certificate.pem

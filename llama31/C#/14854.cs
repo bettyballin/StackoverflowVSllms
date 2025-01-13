@@ -1,1 +1,0 @@
-comboBox1.SelectedItem = null;

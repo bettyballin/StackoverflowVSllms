@@ -1,0 +1,1 @@
+<target name="run">\n    <foreach list="${projects}" param="project" target="run-subproject" />\n</target>\n\n<target name="run-subproject">\n    <subant target="run" failonerror="true" verbose="true">\n        <fileset dir="${project}" includes="build.xml"/>\n    </subant>\n</target>

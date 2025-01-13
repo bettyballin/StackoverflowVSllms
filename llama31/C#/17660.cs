@@ -1,1 +1,0 @@
-// MyJsonEndpoint.ashx\nusing System;\nusing System.Web;\n\npublic class MyJsonEndpoint : IHttpHandler\n{\n    public void ProcessRequest(HttpContext context)\n    {\n        // Handle the request and response similarly to the ASP.NET page example\n    }\n\n    public bool IsReusable => true;\n}

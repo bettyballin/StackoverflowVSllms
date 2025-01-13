@@ -1,1 +1,0 @@
-echo "<?php phpinfo(); ?>" > /var/www/php-5.0.0/index.php\necho "<?php phpinfo(); ?>" > /var/www/php-5.2.8/index.php

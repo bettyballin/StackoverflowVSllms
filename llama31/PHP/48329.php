@@ -1,0 +1,1 @@
+public function init()\n{\n    if (!$this->getRequest()->isSecure()) {\n        $url = $this->getRequest()->getRequestUri();\n        $this->_redirect('https://' . $_SERVER['HTTP_HOST'] . $url);\n    }\n}

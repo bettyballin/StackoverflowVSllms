@@ -1,1 +1,0 @@
-var fileSize = 7326629;\nvar formattedSize = FormatFileSize(fileSize);\nConsole.WriteLine(formattedSize); // Outputs: 6.98 MB

@@ -1,0 +1,1 @@
+select type, craft, sum(regular + COALESCE(overtime, 0)) as total_hours\nfrom hours_t\ngroup by type, craft\norder by type, craft

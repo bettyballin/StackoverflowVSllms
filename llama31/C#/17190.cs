@@ -1,1 +1,0 @@
-exportContainer = new CompositionContainer(catalog, CompositionOptions.EnableRecomposition);

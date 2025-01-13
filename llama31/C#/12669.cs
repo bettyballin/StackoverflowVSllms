@@ -1,1 +1,0 @@
-// Insert\ncontext.AddObject("YourDataSet", new YourType { /* initialize properties */ });\n\n// Update\nYourType obj = context.GetObjectByKey(new EntityKey("YourDataSet", "Id", 1));\nobj.Property = "New Value";\n\n// Delete\nYourType obj = context.GetObjectByKey(new EntityKey("YourDataSet", "Id", 1));\ncontext.DeleteObject(obj);

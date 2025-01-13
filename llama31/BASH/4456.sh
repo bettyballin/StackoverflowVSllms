@@ -1,1 +1,0 @@
-curl -k https://localhost:443/

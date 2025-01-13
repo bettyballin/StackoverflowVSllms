@@ -1,1 +1,0 @@
-tar -xvf php-gtk-2.0.1.tar.gz\ncd php-gtk-2.0.1

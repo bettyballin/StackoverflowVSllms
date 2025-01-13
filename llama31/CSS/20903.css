@@ -1,1 +1,0 @@
-.vertical-text {\n  -webkit-transform: rotate(-90deg);\n  -moz-transform: rotate(-90deg);\n  -ms-transform: rotate(-90deg);\n  -o-transform: rotate(-90deg);\n  transform: rotate(-90deg);\n  filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=3);\n  width: 1px;\n  white-space: nowrap;\n  display: inline-block;\n}

@@ -1,0 +1,1 @@
+$mysql_timestamp = '2009-06-23 16:21:48';\n$unix_timestamp = strtotime($mysql_timestamp);\necho $unix_timestamp;

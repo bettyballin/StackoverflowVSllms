@@ -1,1 +1,0 @@
-// compile and link with /DELAYLOAD option\ncl /LD /DELAYLOAD:dependent_dll.dll mydll.c

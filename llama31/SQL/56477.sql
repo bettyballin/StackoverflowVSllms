@@ -1,0 +1,1 @@
+WITH Records AS (\n  SELECT id, Type, Name,\n         ROW_NUMBER() OVER (PARTITION BY Type ORDER BY id) AS RowNum\n  FROM Records\n  WHERE Name LIKE '%Foo%'\n)\nSELECT TOP 100 id, Type, Name\nFROM (\n  SELECT id, Type, Name\n  FROM Records\n  WHERE RowNum = 1\n  UNION ALL\n  SELECT id, Type, Name\n  FROM Records\n  WHERE RowNum > 1\n  ORDER BY Type, RowNum\n) AS x

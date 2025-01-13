@@ -1,0 +1,1 @@
+CREATE TABLE MyTable (\n    ID INT,\n    Value varbinary(255),\n    Type VARCHAR(255)\n);

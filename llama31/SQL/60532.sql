@@ -1,0 +1,1 @@
+CREATE UNIQUE INDEX idx_name ON your_table (name) WHERE deleted = 0;

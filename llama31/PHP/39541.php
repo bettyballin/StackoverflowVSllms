@@ -1,0 +1,1 @@
+include APP_ROOT . '/path/to/include/file.php';

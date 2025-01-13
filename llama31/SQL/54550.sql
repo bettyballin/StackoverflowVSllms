@@ -1,0 +1,1 @@
+ALTER SESSION ENABLE PARALLEL DML;\n\nINSERT /*+ PARALLEL(4) */ INTO your_table (column1, column2)\nSELECT /*+ PARALLEL(4) */ * FROM another_table;

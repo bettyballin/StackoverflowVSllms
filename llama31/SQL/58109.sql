@@ -1,0 +1,1 @@
+-- Create a new query in MySQL Workbench\n-- Drag and drop tables onto the query canvas\n-- Create a JOIN by dragging a line between columns\n\nSELECT *\nFROM customers\nJOIN orders ON customers.customer_id = orders.customer_id\nJOIN order_items ON orders.order_id = order_items.order_id

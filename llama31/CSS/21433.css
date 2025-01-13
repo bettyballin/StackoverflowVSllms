@@ -1,1 +1,0 @@
-#toolbar #onlineStatusPopUp {\n    position: absolute;\n    left: -1px;\n    bottom: 100%; /* position the popup above the parent element */\n}\n\n#toolbar #favoritesOnlinePopUp {\n    position: absolute;\n    left: -1px;\n    bottom: 100%; /* position the popup above the parent element */\n}

@@ -1,1 +1,0 @@
-#include <net-snmp/net-snmp-config.h>\n#include <net-snmp/net-snmp-includes.h>\n\n// Create a new PDU\nnetsnmp_pdu *pdu = snmp_create_pdu();\n\n// ... do something with the PDU ...\n\n// Free the PDU\nsnmp_pdu_free(pdu);

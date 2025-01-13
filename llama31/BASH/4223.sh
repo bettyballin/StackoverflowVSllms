@@ -1,1 +1,0 @@
-echo "$HOSTNAME" | awk -F- '{print $2" "$3}' | sed 's/.local//'

@@ -1,1 +1,0 @@
-var traceSource = new CustomTraceSource("MyCustomTraceSource");\nvar traceListener = new CustomTraceListener();\ntraceSource.Listeners.Add(traceListener);\n\n// Raise an event with custom data\nvar eventData = new CustomEventData { Id = 1, Message = "Hello, World!" };\ntraceSource.NewEventRegistered(eventData);

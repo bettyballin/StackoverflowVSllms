@@ -1,0 +1,1 @@
+function ajaxinclude(url) {\n  return fetch(url)\n    .then(response => response.text())\n    .catch(error => console.error('Error:', error));\n}

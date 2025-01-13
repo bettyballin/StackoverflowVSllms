@@ -1,0 +1,1 @@
+def sorted_sums(nums):\n    result = []\n    i, j = 0, 0\n    while j < len(nums):\n        sum_ij = nums[i] + nums[j]\n        result.append(sum_ij)\n        j += 1\n        if j < len(nums) and sum_ij < nums[i] + nums[j]:\n            i += 1\n    return result

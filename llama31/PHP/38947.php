@@ -1,0 +1,1 @@
+$lat1 = 37.7749; // Starting latitude\n$lon1 = -122.4194; // Starting longitude\n$distance = 100; // Distance in kilometers\n$bearing = 45; // Direction in degrees (NE)\n\n$destination = pointFromDistanceAndBearing($lat1, $lon1, $distance, $bearing);\necho "Destination latitude: " . $destination[0] . "\n";\necho "Destination longitude: " . $destination[1] . "\n";

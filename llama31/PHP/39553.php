@@ -1,0 +1,1 @@
+add_action('template_redirect', 'my_plugin_template_redirect');\nfunction my_plugin_template_redirect() {\n    if (is_page('foo')) {\n        // Handle the request here\n        // You can access the page object using get_page_by_path('foo')\n    }\n}

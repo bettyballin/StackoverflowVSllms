@@ -1,1 +1,0 @@
-boost::bind(&msgSrv::pckRcvd, this,\n            boost::asio::placeholders::error,\n            boost::asio::placeholders::bytes_transferred)

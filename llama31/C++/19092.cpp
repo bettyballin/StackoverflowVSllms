@@ -1,1 +1,0 @@
-class __declspec(dllexport) K {\npublic:\n    static __declspec(dllexport) int a;\n    static __declspec(dllexport) int b;\n};

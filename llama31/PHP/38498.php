@@ -1,0 +1,1 @@
+require_once('database.php');\n$db_conn = new Database();\n$conn = $db_conn->getConn();\n\n// Use the connection resource to execute queries\nmysql_query("SELECT * FROM table", $conn);

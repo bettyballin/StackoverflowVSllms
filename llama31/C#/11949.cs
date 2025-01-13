@@ -1,1 +1,0 @@
-bool isValid = Membership.Provider.ValidateUser(userName, secretAnswer);

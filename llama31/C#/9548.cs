@@ -1,1 +1,0 @@
-public class MyController\n{\n    private readonly ServerModel _serverModel;\n\n    public MyController(ServerModel serverModel)\n    {\n        _serverModel = serverModel;\n    }\n\n    public void StudentChanged(Student student)\n    {\n        _serverModel.RemoveStudent(student);\n        // or\n        _serverModel.AddStudent(student);\n    }\n}

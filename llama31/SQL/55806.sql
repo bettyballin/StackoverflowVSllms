@@ -1,0 +1,1 @@
+CREATE TABLE Videos (\n    VideoID INT PRIMARY KEY,\n    Duration TIME(7)\n);

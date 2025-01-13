@@ -1,1 +1,0 @@
-[Test]\npublic void GetAllUsers_ReturnsAllUsers()\n{\n    // Arrange\n    var mockContext = new Mock<DbContext>();\n    var userRepository = new UserRepository(mockContext.Object);\n\n    // Act\n    var users = userRepository.GetAllUsers();\n\n    // Assert\n    Assert.IsNotNull(users);\n    // Additional assertions...\n}

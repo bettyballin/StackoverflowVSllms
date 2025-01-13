@@ -1,1 +1,0 @@
-#!/bin/bash\n\n# Set the VM name and backup location\nVM_NAME="my_dev_env"\nBACKUP_LOCATION="/path/to/external/hdd"\n\n# Stop the VM (if it's running)\nvboxmanage controlvm $VM_NAME stop\n\n# Export the VM to a backup file\nvboxmanage export $VM_NAME --output $BACKUP_LOCATION/$VM_NAME.ova\n\n# Start the VM (if you want to continue working)\nvboxmanage startvm $VM_NAME

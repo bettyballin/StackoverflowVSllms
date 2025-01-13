@@ -1,1 +1,0 @@
-// main.cpp\n#include <Windows.h>\n#include "mydll.h"\n\nint main() {\n    int result = add(2, 3);\n    printf("Result: %d\n", result);\n    return 0;\n}

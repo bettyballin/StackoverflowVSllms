@@ -1,1 +1,0 @@
-HRESULT hr = CoLoadLibrary(L"library.dll", FALSE);\nif (FAILED(hr)) {\n    // handle error\n}

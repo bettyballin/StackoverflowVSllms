@@ -1,1 +1,0 @@
-public class Entity\n{\n    public EntityCollection Location { get; private set; }\n\n    public void MoveTo(EntityCollection to)\n    {\n        if (Location != null)\n        {\n            Location.Remove(this);\n        }\n        to.Add(this);\n        Location = to;\n    }\n}

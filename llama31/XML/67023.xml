@@ -1,0 +1,1 @@
+<servlet>\n    <servlet-name>jarServlet</servlet-name>\n    <servlet-class>com.example.JarServlet</servlet-class>\n</servlet>\n<servlet-mapping>\n    <servlet-name>jarServlet</servlet-name>\n    <url-pattern>/jars/PublicJar.jar</url-pattern>\n</servlet-mapping>

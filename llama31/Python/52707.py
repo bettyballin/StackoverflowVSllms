@@ -1,0 +1,1 @@
+def discover_chatbot_training_data(data):\n    # Discover data using data discovery techniques\n    discovered_data = discover_data(data)\n    return discovered_data

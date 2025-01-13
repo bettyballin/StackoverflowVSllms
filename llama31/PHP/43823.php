@@ -1,0 +1,1 @@
+class DogObject implements Countable {\n    public function count() {\n        return 0;\n    }\n}\n\n$dog = new DogObject();\nif (count($dog)) {\n    return "This is bad;";\n} else {\n    return "Excellent! $dog was false!";\n}

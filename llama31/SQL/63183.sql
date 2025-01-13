@@ -1,0 +1,1 @@
+SELECT *\nFROM news_table\nORDER BY news_date\nLIMIT 5

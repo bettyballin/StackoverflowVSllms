@@ -1,1 +1,0 @@
-make\nsudo make install

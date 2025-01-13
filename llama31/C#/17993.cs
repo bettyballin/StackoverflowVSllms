@@ -1,1 +1,0 @@
-bindingSource.AddNew();\nbindingSource.ResetBindings(false);\nbindingSource.MoveLast();

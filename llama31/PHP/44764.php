@@ -1,0 +1,1 @@
+public function getChildren()\n{\n    // $children is declared earlier\n    return $children ?: [];\n}

@@ -1,1 +1,0 @@
-myloader -h private_server_ip -u username -p password -B database_name -d dump.sql

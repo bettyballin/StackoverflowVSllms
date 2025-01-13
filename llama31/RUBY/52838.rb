@@ -1,0 +1,1 @@
+# SiteController\ndef index\n  @title = Rails.application.config.application_title\nend

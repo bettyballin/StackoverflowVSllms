@@ -1,0 +1,1 @@
+$route = new Zend_Controller_Router_Route_Hostname(\n    ':username.mywebapp.com',\n    array('controller' => 'user', 'action' => 'view')\n);

@@ -1,0 +1,1 @@
+<Permission allow="Read" deny="*">\n  <TeamProjectCollection uri="http://your-tfs-server:8080/tfs/YourCollection" />\n</Permission>\n<Permission allow="Read" deny="None">\n  <TeamProject uri="http://your-tfs-server:8080/tfs/YourCollection/YourProject" />\n</Permission>

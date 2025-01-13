@@ -1,0 +1,1 @@
+function myFunction() {\n  global $mysqli;\n  // Use $mysqli here\n}

@@ -1,1 +1,0 @@
-<!-- Create a virtual directory for the ASP.NET 2.0 application -->\n<cscript adsutil.vbs CREATE_VDIR "MyAspNet20App" "C:\Path\To\AspNet20App" "MyAspNet20Pool">

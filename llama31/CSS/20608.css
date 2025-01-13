@@ -1,1 +1,0 @@
-/* CSS example: using vendor prefixes */\n.example {\n  -webkit-border-radius: 10px;\n  -moz-border-radius: 10px;\n  border-radius: 10px;\n}

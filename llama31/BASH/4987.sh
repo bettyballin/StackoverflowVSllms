@@ -1,1 +1,0 @@
-useradd -m restricted_user\necho "restricted_user:restricted" >> /etc/netns/restricted/uid_map

@@ -1,0 +1,1 @@
+// On example1.example.com\ndocument.domain = "example.com";\n\n// On example2.example.com\ndocument.domain = "example.com";

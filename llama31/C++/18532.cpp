@@ -1,1 +1,0 @@
-int a = 5;\nint b = 10;\nint& ref = a;\nref = b; // does not change ref to point to b, but rather assigns b's value to a\nstd::cout << a << std::endl; // prints 10

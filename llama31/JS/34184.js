@@ -1,0 +1,1 @@
+// Submit individual edit form\n$('#edit-form-1').submit(function(event) {\n  event.preventDefault();\n  $.ajax({\n    url: '/edit',\n    method: 'POST',\n    data: $(this).serialize(),\n    success: function(response) {\n      // Handle response\n    }\n  });\n});

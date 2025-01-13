@@ -1,0 +1,1 @@
+-- Example in T-SQL\nSELECT \n    REPLACE(account_name, '', 'Unknown') AS account_name\nFROM \n    your_table;

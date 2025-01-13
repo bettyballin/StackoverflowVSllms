@@ -1,0 +1,1 @@
+# Use a before_action in ApplicationController\nclass ApplicationController < ActionController::Base\n  before_action :my_filter\n\n  private\n\n  def my_filter\n    # do something with request parameters\n  end\nend

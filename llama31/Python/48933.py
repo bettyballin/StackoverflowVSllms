@@ -1,0 +1,1 @@
+def MyRandomMethod(self):\n    return self * 2\n\nint.MyRandomMethod = MyRandomMethod\n\nmyInt = 5\nprint(myInt.MyRandomMethod())  # Outputs: 10

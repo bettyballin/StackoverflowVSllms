@@ -1,1 +1,0 @@
-uint8_t compute_crc_remainder(uint8_t divisor, uint8_t dividend) {\n  uint8_t remainder = 0;\n  for (int i = 0; i < 8; i++) {\n    if ((remainder ^ dividend) & 0x80) {\n      remainder = (remainder << 1) ^ divisor;\n    } else {\n      remainder = remainder << 1;\n    }\n    dividend = dividend << 1;\n  }\n  return remainder;\n}

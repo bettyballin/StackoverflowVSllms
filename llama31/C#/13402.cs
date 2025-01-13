@@ -1,1 +1,0 @@
-DirectoryEntry entry = new DirectoryEntry(_path, domainAndUsername, strPass, \n    AuthenticationTypes.Secure | AuthenticationTypes.ServerBind);

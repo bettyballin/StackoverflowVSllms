@@ -1,0 +1,1 @@
+Imports System\n\nModule Program\n    Sub Main()\n        Dim del As New Del(AddressOf MyMethod)\n        del.Invoke()\n    End Sub\n\n    Delegate Sub Del()\n\n    Sub MyMethod()\n        Console.WriteLine("Hello, World!")\n    End Sub\nEnd Module

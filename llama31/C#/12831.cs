@@ -1,1 +1,0 @@
-[Authorize]\n[AcceptVerbs(HttpVerbs.Post)]\npublic void RetireSelf(int playerKey)\n{\n    // your code here\n    Session["notification"] = "You were retired from the ladder.";\n}

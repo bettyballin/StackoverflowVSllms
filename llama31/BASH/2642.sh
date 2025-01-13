@@ -1,1 +1,0 @@
-convert input.jpg -crop 100x100 +repage output_%d.jpg

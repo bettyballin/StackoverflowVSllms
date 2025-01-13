@@ -1,0 +1,1 @@
+$headers .= "Content-ID: <" . $mime_boundary . ">\n";

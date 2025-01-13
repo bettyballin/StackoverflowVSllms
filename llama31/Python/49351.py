@@ -1,0 +1,1 @@
+import re\n\nlistINeed = [[re.search(r'<[234]>(.*)', line).group(1) for line in sublist if re.search(r'<[234]>', line)] for sublist in biglist]

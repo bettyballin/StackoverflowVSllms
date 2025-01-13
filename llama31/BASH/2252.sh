@@ -1,1 +1,0 @@
-# Install Docker\napt-get install docker.io\n\n# Pull the official Apache image\ndocker pull httpd\n\n# Create a new Docker container for Apache\ndocker run -d --name apache -p 80:80 httpd\n\n# Start the Apache container\ndocker start apache

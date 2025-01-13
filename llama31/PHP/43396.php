@@ -1,0 +1,1 @@
+$files = new SplFileInfo('/path/to/directory');\n$files = $files->getFiles();\nusort($files, function($a, $b) {\n    return $a->getSize() - $b->getSize();\n});\nforeach ($files as $file) {\n    echo $file->getFilename() . ' - ' . $file->getSize() . ' bytes - ' . $file->getMTime() . "\n";\n}

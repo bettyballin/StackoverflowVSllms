@@ -1,1 +1,0 @@
-tlbimp yourcomservice.tlb /namespace:YourComService /out:YourComService.dll /silent

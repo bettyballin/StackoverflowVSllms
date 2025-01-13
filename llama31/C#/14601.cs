@@ -1,1 +1,0 @@
-string[] arr = "1;2;;3;".Split(new[] { ';' }, StringSplitOptions.RemoveEmptyEntries);

@@ -1,1 +1,0 @@
-sudo apt-get install arm-wince-cegcc

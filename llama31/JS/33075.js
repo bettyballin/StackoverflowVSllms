@@ -1,0 +1,1 @@
+const url = new URL(document.currentScript.src);\nconst config = url.searchParams.get('config');\nalert(config); // should display "true"

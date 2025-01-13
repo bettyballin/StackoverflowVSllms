@@ -1,0 +1,1 @@
+document.querySelector('#dest').value = document.querySelector('#source').value;

@@ -1,0 +1,1 @@
+$a = 5;\n$b = $a; // $b is a copy of $a\n$c =& $a; // $c is a reference to $a\n\n$a = 10;\n\necho $b; // outputs 5\necho $c; // outputs 10

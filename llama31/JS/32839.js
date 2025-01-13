@@ -1,0 +1,1 @@
+function onDropDownPopulated(sender, e) {\n    // unlock the control here\n}

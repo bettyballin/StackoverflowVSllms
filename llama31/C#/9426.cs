@@ -1,1 +1,0 @@
-using System.ComponentModel.DataAnnotations;\n\npublic class User\n{\n    [Key]\n    public int Id { get; set; }\n    public string Name { get; set; }\n    public string Email { get; set; }\n}

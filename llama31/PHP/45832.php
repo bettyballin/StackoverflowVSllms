@@ -1,0 +1,1 @@
+$html = new simple_html_dom();\n$html->load($your_html_string);\n\n$tag = $html->find('text', function($element) {\n    return strpos($element->plaintext, 'search text') !== false;\n});\n\nif ($tag) {\n    $next_tag = $tag->next_sibling();\n    // do something with $next_tag\n}

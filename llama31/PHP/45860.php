@@ -1,0 +1,1 @@
+$dob = DateTime::createFromFormat('d/m/Y', $dob);\n$date = $dob->format('Y-m-d');

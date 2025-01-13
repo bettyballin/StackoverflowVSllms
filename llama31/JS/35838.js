@@ -1,0 +1,1 @@
+var childControl = Sys.UI.Control.get(this._childControlID);\nif (childControl instanceof ChildControl) {\n    childControl.callMethod();\n}

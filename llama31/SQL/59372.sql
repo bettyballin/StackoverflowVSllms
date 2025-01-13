@@ -1,0 +1,1 @@
+WITH RECURSIVE category_tree AS (\n  SELECT id, parent, title, 0 AS level\n  FROM categories\n  WHERE parent = 0  -- start with the root categories\n  UNION ALL\n  SELECT c.id, c.parent, c.title, level + 1\n  FROM categories c\n  JOIN category_tree p ON c.parent = p.id\n)\nSELECT * FROM category_tree;

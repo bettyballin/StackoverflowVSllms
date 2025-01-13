@@ -1,1 +1,0 @@
-# Download the Certbot client\nwget https://dl.eff.org/certbot-auto\n\n# Run the Certbot client\nchmod a+x certbot-auto\n./certbot-auto --apache --email your_email@example.com --agree-tos --non-interactive

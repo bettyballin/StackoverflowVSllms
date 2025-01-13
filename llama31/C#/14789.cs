@@ -1,1 +1,0 @@
-if (Properties.Settings.Default.NeedSettingsUpgrade)\n{\n    Properties.Settings.Default.Upgrade();\n    Properties.Settings.Default.NeedSettingsUpgrade = false;\n    Properties.Settings.Default.Save();\n}

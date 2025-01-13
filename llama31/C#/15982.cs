@@ -1,1 +1,0 @@
-string filter = "(&(objectClass=user)(memberOf=CN=Group,CN=Users,DC=example,DC=com))";

@@ -1,1 +1,0 @@
-using PdfSharp.Pdf;\nusing PdfSharp.Drawing;\n\n// Create a PDF document\nPdfDocument doc = new PdfDocument();\nPdfPage page = doc.AddPage();\n\n// Add content to the PDF\nXGraphics gfx = XGraphics.FromPdfPage(page);\ngfx.DrawString("Email content goes here", new XFont("Arial", 12), XBrushes.Black, new XRect(0, 0, page.Width, page.Height));\ndoc.Save("email.pdf");

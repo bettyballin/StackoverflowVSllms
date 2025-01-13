@@ -1,1 +1,0 @@
-template <typename T>\nclass MyAllocator {\npublic:\n    void construct(pointer p, const T& val) {\n        // Custom construction mechanism\n        ::new (p) T(val, some_additional_arg);\n    }\n\n    void destroy(pointer p) {\n        p->~T();\n    }\n};

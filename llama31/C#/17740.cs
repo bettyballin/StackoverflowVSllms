@@ -1,1 +1,0 @@
-Response.Redirect("~/SearchResults.aspx?SearchQuery=" + searchQuery, false);

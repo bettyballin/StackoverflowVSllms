@@ -1,0 +1,1 @@
+$.ajax({\n    type: "POST",\n    url: theURL + "/" + method,\n    data: body,\n    contentType: "application/json; charset=utf-8",\n    success: function (msg) {\n        alert("Data Saved: " + msg);\n    },\n    error: function (msg) {\n        alert("Broken: " + theURL + "/" + method + msg.responseText);\n    }\n});

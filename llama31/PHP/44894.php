@@ -1,0 +1,1 @@
+// Example of vulnerable code\n$username = $_POST['username'];\n$password = $_POST['password'];\n$query = "SELECT * FROM users WHERE username = '$username' AND password = '$password'";

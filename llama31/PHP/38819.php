@@ -1,0 +1,1 @@
+fastcgi_finish_request();\n\n// Code to be executed after the request is complete\nlog_entries_to_database();

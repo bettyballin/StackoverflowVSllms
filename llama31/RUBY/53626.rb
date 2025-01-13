@@ -1,0 +1,1 @@
+class ApplicationController < ActionController::Base\n  protect_from_forgery\nend

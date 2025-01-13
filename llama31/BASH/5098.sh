@@ -1,1 +1,0 @@
-icacls C:\Windows\System32\DataLinks.xml /inheritance:r /grant:r "BUILTIN\Administrators":F

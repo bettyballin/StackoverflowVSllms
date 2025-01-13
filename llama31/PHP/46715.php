@@ -1,0 +1,1 @@
+// index.php\n$lang = $_GET['lang']; // or use a more robust routing mechanism\nif (!in_array($lang, array('en', 'fr', 'ch'))) {\n    $lang = 'en'; // default language\n}\n// use the $lang variable to determine the language and display the correct translations

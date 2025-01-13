@@ -1,1 +1,0 @@
-public partial class MyDataSet\n{\n    public override DataColumn GetColumn(string columnName)\n    {\n        if (columnName == "MyCalculatedColumn")\n        {\n            return new DataColumn(columnName, typeof(bool));\n        }\n        return base.GetColumn(columnName);\n    }\n}

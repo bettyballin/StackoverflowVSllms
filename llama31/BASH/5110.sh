@@ -1,1 +1,0 @@
-# Example using git-crypt\ngit-crypt init\ngit-crypt add -- symmetric-key <path/to/sensitive/file>

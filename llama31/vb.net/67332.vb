@@ -1,0 +1,1 @@
+Dim smtp As New Net.Mail.SmtpClient(MAIL_SERVER)\nsmtp.Port = 587\nsmtp.EnableSsl = True\nsmtp.Credentials = New NetworkCredential("your_username", "your_password")\nsmtp.Send(mailMessage)

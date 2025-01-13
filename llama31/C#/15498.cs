@@ -1,1 +1,0 @@
-string connectionString = "Data Source=mydb;User Id=myuser;Password=mypassword;NLS_LANG=.AL32UTF8;";

@@ -1,1 +1,0 @@
-// Display the Oracle Report\nResponse.ContentType = "application/pdf";\nResponse.OutputStream.Write(reportBytes, 0, reportBytes.Length);\nResponse.End();

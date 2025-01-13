@@ -1,1 +1,0 @@
-xmlsort --indent 4 --output sorted.vcproj input.vcproj

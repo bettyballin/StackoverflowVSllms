@@ -1,1 +1,0 @@
-// Example using Windows Credential Manager in C#\nusing System.Security.Cryptography;\n\n// ...\n\nSecureString password = new SecureString();\n// Load the password from the Windows Credential Manager

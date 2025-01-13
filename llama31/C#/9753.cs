@@ -1,1 +1,0 @@
-void CreateInstances() {\n    List<Ppb.Drawing.Image> list = new List<Ppb.Drawing.Image>();\n    for (int i = 0; i < 10; i++) {\n        using (Ppb.Drawing.Image g = resourcesObj.someBitmap) {\n            list.Add(g);\n        }\n    }\n}

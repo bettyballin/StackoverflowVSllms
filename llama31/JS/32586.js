@@ -1,0 +1,1 @@
+const iframe = document.querySelector('iframe');\niframe.addEventListener('load', () => {\n  const contentHeight = iframe.contentDocument.body.scrollHeight;\n  iframe.style.height = `${contentHeight}px`;\n});

@@ -1,0 +1,1 @@
+function register_contact($person = array()) {\n    // ...\n    $mail->AddAddress("Andrew <andrew@yahoo.co.uk>");\n    // ...\n}\n\n// Consider using environment variables or a secure storage mechanism to store sensitive information\n$mail->Password = getenv('SMTP_PASSWORD');

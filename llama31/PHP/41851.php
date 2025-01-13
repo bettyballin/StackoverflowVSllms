@@ -1,0 +1,1 @@
+$oldMessage = 'old message here';\n$newMessage = 'new message starts here' . "\r\n\r\n" . '--------------' . "\r\n" . $oldMessage;

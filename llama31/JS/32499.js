@@ -1,0 +1,1 @@
+$.ajax({\n  type: "GET",\n  url: "xml/classes.xml",\n  dataType: "XML",\n  beforeSend: function(){\n    $('#classContainer').append("<p>Loading</p>");\n  },\n  success: function(xml) {\n    $(xml).find('monday').each(function(){\n      // process the XML data here\n    });\n  }\n});

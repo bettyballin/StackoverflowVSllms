@@ -1,1 +1,0 @@
-using System.Data.Entity;\n\n// Assume 'context' is your DbContext instance\nvar query = context.YourEntity\n    .OrderBy(e => DbFunctions.Log(e.YourProperty))\n    .ThenBy(e => DbFunctions.Power(e.YourProperty, 2));

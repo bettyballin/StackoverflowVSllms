@@ -1,1 +1,0 @@
-@echo off\ntaskkill /im mongrel_rails.exe

@@ -1,0 +1,1 @@
+if ($_SERVER['REQUEST_METHOD'] === 'POST') {\n    // Process POST data\n    // You can access the POST data using $_POST\n} elseif ($_SERVER['REQUEST_METHOD'] === 'GET') {\n    // Process GET data\n    // You can access the GET data using $_GET\n}

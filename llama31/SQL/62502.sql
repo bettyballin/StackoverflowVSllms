@@ -1,0 +1,1 @@
+SELECT DISTINCT LEN(CAST(textfield AS NVARCHAR(MAX))) FROM tablename

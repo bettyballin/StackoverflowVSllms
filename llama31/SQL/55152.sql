@@ -1,0 +1,1 @@
+SELECT *\nFROM your_table\nWHERE YEARWEEK(purchased, 0) = YEARWEEK(CURDATE(), 0) - 1

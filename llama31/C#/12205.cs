@@ -1,1 +1,0 @@
-private enum ColumnIndex\n{\n    Price = 3\n}\n\nint price = (int)dr[ColumnIndex.Price];

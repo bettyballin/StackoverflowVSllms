@@ -1,0 +1,1 @@
+INSERT INTO TestIdentity (Name) VALUES ('John')\nGO 2147483647

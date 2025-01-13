@@ -1,0 +1,1 @@
+// example using PDO\n$stmt = $pdo->prepare('INSERT INTO table (column1, column2) VALUES (:value1, :value2)');\n$stmt->bindParam(':value1', $form_data['value1']);\n$stmt->bindParam(':value2', $form_data['value2']);\n$stmt->execute();

@@ -1,1 +1,0 @@
-# Import the SharePoint PowerShell module\nImport-Module SharePoint\n\n# Set the site URL and list name\n$siteUrl = "https://your-site.sharepoint.com"\n$listName = "YourList"\n\n# Set the Excel file path\n$excelFilePath = "C:\Path\To\Your\Excel\File.xlsx"\n\n# Import the data from the Excel sheet\nImport-SPList -SiteUrl $siteUrl -ListName $listName -FilePath $excelFilePath

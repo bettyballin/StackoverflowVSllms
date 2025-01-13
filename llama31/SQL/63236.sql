@@ -1,0 +1,1 @@
+SELECT * FROM your_table\nORDER BY your_column\nFETCH NEXT 10 ROWS ONLY;

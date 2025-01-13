@@ -1,0 +1,1 @@
+function on_shutdown() {\n    // Handle browser disconnection\n}\n\nregister_shutdown_function('on_shutdown');

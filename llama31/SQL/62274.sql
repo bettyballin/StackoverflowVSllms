@@ -1,0 +1,1 @@
+SELECT REGEXP_SUBSTR(your_field, '^\\w+') AS first_word\nFROM your_table;

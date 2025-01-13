@@ -1,0 +1,1 @@
+FETCH p_cursor INTO \n  var_name, \n  var_table1_timetag, \n  var_status, \n  var_table2_timetag, \n  var_description;

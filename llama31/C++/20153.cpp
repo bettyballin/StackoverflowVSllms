@@ -1,1 +1,0 @@
-bool success = CreateProcess(m_Process,\n             NULL,\n             NULL,\n             NULL,\n             FALSE,\n             NORMAL_PRIORITY_CLASS | CREATE_SUSPENDED,\n             NULL,\n             NULL,\n             &suInfo,\n             &procInfo);

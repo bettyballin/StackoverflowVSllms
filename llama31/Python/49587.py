@@ -1,0 +1,1 @@
+# Store IP address in database\nuser_ip = request.remote_addr\n\n# Verify IP address on each request\nif user_ip != request.remote_addr:\n    # Invalidate token and log out user\n    pass

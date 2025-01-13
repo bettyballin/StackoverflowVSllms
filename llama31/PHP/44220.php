@@ -1,0 +1,1 @@
+use Zend\Uri\Uri;\n\n$uri = new Uri($this->getRequest()->getUri());\n\n$fullUrl = $uri->toString();\n\n// or if you want to get specific parts of the URL\n$subdomain = $uri->getHost();\n$domain = $uri->getHost(); // you may need to parse this further to extract the domain\n$directories = $uri->getPath();\n\n// Note: getUri() is a method of the Request object in ZF2+

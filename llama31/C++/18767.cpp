@@ -1,1 +1,0 @@
-class B {\n    A a; // composition: B contains an A object\n};

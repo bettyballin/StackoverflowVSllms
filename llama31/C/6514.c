@@ -1,1 +1,0 @@
-HKEY hKey;\nRegOpenKeyEx(HKEY_CLASSES_ROOT, L"msgfile\\shell\\Open\\command", 0, KEY_SET_VALUE, &hKey);\n\nconst wchar_t* newValue = L"outlook.exe /f \"%1\"";\nRegSetValueEx(hKey, L"", 0, REG_SZ, (LPBYTE)newValue, (wcslen(newValue) + 1) * sizeof(wchar_t));\n\nRegCloseKey(hKey);

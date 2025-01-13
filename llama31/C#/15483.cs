@@ -1,1 +1,0 @@
-if (resultSet.Rows[0]["fk_id"] == DBNull.Value)\n{\n    // code to handle null value\n}

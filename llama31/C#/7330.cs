@@ -1,1 +1,0 @@
-[PrincipalPermission(SecurityAction.Demand, Role = "Users")]\npublic void MyServiceMethod() { ... }

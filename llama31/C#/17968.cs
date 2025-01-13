@@ -1,1 +1,0 @@
-oClients = ERM.Parties.OfType<Organisation>().OrderBy(o => o.CoName);

@@ -1,0 +1,1 @@
+$data = $_POST["data"];\n// Use $data as needed

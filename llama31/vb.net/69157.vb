@@ -1,0 +1,1 @@
+Private Function FileAvailable(ByVal fileName As String) As Boolean\n    Using inputStream As FileStream = File.Open(fileName, FileMode.Open, FileAccess.Read, FileShare.None)\n        Return inputStream.CanRead\n    End Using\nEnd Functio

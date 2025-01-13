@@ -1,1 +1,0 @@
-[BelongsTo("UserId", Insert = true)]\npublic ARUser User { get; set; }

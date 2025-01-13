@@ -1,1 +1,0 @@
-[Column(DbType = "Currency")]\npublic double MyMoneyProperty { get; set; }

@@ -1,0 +1,1 @@
+require_once 'vendor/autoload.php';\n\nuse PhpWordNet\WordNet;\n\n$wordnet = new WordNet();\n\n$words = array('community', 'communities');\n\nforeach ($words as $word) {\n    $lemma = $wordnet->lemmatize($word);\n    echo "$word -> $lemma\n";\n}

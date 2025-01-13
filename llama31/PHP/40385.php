@@ -1,0 +1,1 @@
+use Michelf\Markdown;\n$text = Markdown::defaultTransform($newsPost['text']);

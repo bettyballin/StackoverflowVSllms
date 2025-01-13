@@ -1,0 +1,1 @@
+CREATE TABLE FactRoles (\n    RoleID INT,\n    DateKey INT,\n    OrganizationKey INT,\n    RoleTypeKey INT,\n    PersonKey INT,\n    Count INT\n);

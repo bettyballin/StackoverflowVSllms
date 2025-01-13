@@ -1,1 +1,0 @@
-var factory = new SqlServerFactory();\nvar repository = new Repository(factory);\nvar translator = new SqlServerQueryTranslator();\n\nvar query = "SELECT * FROM Customers";\nvar translatedQuery = translator.TranslateQuery(query);\nvar table = repository.ExecuteQuery(translatedQuery);

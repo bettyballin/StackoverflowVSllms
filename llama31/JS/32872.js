@@ -1,0 +1,1 @@
+var obj = { name: "John", time: "2pm" };\n\n// Accessing properties using dot notation\nconsole.log(obj.name);  // Outputs: John\nconsole.log(obj.time);  // Outputs: 2pm\n\n// Accessing properties using bracket notation\nconsole.log(obj["name"]);  // Outputs: John\nconsole.log(obj["time"]);  // Outputs: 2pm

@@ -1,1 +1,0 @@
-ModelState.Clear();\nif (!TryValidateModel(model))\n    return View(model);

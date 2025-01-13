@@ -1,1 +1,0 @@
-protected void Page_PreRender(object sender, EventArgs e)\n{\n    DataList1.DataSource = YourDataSouce; // Re-bind the data source\n    DataList1.DataBind();\n}

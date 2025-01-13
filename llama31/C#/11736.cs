@@ -1,1 +1,0 @@
-[TestFixture]\npublic class MyTests\n{\n    [SetUp]\n    public void SetUp()\n    {\n        // Set up test database using DbUnit or NDbUnit\n    }\n\n    [TearDown]\n    public void TearDown()\n    {\n        // Tear down test database using DbUnit or NDbUnit\n    }\n\n    // ...\n}

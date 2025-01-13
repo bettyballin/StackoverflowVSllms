@@ -1,0 +1,1 @@
+$date = strtotime($row['datetime_field']);\necho date('Y-m-d', $date);

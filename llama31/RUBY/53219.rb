@@ -1,0 +1,1 @@
+has_many :posts, :dependent => :destroy do\n  def recent\n    find(:all, :order => 'created_at desc', :limit => 12)\n  end\nend

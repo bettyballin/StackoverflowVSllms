@@ -1,0 +1,1 @@
+// Client-side (JavaScript)\n$.ajax({\n  url: '/task-status',\n  method: 'GET',\n  data: { taskId: 'your-task-id' },\n  success: function() {\n    var eventSource = new EventSource('/task-status');\n    eventSource.onmessage = function(event) {\n      // Update the progress bar with the received data\n      $('#progress-bar').html(event.data + '%');\n    };\n  }\n});

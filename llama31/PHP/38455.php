@@ -1,0 +1,1 @@
+$rtfText = file_get_contents($rtfFile);\n$pages = preg_split('/\page\s+/', $rtfText);\n\n// Now $pages is an array of individual pages

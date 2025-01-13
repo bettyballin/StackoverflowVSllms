@@ -1,1 +1,0 @@
-void arryprnt(int[], string, int, string = ", ", string = ".");\n\nvoid arryprnt(int[] a, string intro, int len, string sep, string end) {\n    // stuff\n}

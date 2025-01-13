@@ -1,0 +1,1 @@
+function isElementDisplayed(element) {\n  const style = globalThis.getComputedStyle(element);\n  return style.display !== 'none';\n}

@@ -1,1 +1,0 @@
-#container {\n  width: 500px;\n  display: flex;\n  justify-content: space-between;\n}\n\n#left-sibling {\n  flex-basis: auto;\n}\n\n#right-sibling {\n  flex-basis: auto;\n  margin: 0 auto;\n}

@@ -1,0 +1,1 @@
+function foo() {\n  console.log(this); // logs the global object (window in browser, global in Node.js)\n}\n\nfoo(); // called on the global object\n\nvar obj = {\n  foo: foo\n};\nobj.foo(); // logs obj, because foo is called on obj

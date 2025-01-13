@@ -1,1 +1,0 @@
-File.Delete("file.txt", FileOptions.IgnoreReadOnly);

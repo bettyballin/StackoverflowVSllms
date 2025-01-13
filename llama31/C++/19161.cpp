@@ -1,1 +1,0 @@
-SDL_Event event;\nwhile (SDL_PollEvent(&event)) {\n    Console::Result result = Console::HandleInput(event);\n    if (result == Console::ENTERED) {\n        // Process the input string\n        std::string input = Console::GetInput();\n        // ...\n    }\n}

@@ -1,0 +1,1 @@
+language_to_anchor = {\n    "en": gnomecanvas.ANCHOR_WEST,\n    "he": gnomecanvas.ANCHOR_EAST,\n    # Add more languages as needed\n}\n\n# ...\n\ntext_item.set_property("anchor", language_to_anchor[language])

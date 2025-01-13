@@ -1,0 +1,1 @@
+function outer() {\n  let counter = 0;\n\n  function inner() {\n    counter++;\n    console.log(counter);\n  }\n\n  return inner;\n}\n\nconst closure = outer();\nclosure(); // prints 1\nclosure(); // prints 2\nclosure(); // prints 3

@@ -1,0 +1,1 @@
+Dim img As Image = Image.FromFile(.FileName)\n\nIf img.Width <= 150 AndAlso img.Height <= 150 AndAlso New FileInfo(.FileName).Length < 25 * 1024 Then\n    PictureBox2.Image = img\nElse\n    ' Handle the case where the image is too large\nEnd If

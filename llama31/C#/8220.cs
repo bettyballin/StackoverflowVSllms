@@ -1,1 +1,0 @@
-[TestMethod]\npublic void CreateProduct_ValidData_ReturnsProductId()\n{\n    // Arrange\n    var product = new Product { Name = "Test Product" };\n\n    // Act\n    var productId = _productDal.Create(product);\n\n    // Assert\n    Assert.IsTrue(productId > 0);\n\n    // Cleanup\n    _productDal.Delete(productId);\n}

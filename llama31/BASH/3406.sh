@@ -1,1 +1,0 @@
-# Set TIME_WAIT to 30 seconds\nsysctl -w net.ipv4.tcp_fin_timeout=30\n\n# Make the change permanent\necho "net.ipv4.tcp_fin_timeout=30" >> /etc/sysctl.conf

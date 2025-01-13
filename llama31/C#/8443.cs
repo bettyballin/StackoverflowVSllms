@@ -1,1 +1,0 @@
-// Example usage:\nusing System.Data.Linq;\n\n[Table]\npublic class MyClass {\n    [Column(IsPrimaryKey = true)]\n    public int Id { get; set; }\n    [Column]\n    public string Name { get; set; }\n}\n\n// Create a Linq to SQL data context\nDataContext context = new DataContext("connection string");\n\n// Retrieve data\nvar myObjects = context.GetTable<MyClass>().ToList();

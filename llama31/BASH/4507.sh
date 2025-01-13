@@ -1,1 +1,0 @@
-# Disable mod_autoindex\na2dismod autoindex

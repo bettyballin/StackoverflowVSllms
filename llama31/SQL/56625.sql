@@ -1,0 +1,1 @@
+SELECT CONVERT(VARCHAR(50), NEWID(), 2) AS HexadecimalNumber

@@ -1,1 +1,0 @@
-// Assume 'xmlString' is your dynamic XML string\nstring xmlString = "<Root><Person><Name>John</Name><Age>30</Age></Person></Root>";\n\n// Create an XmlDataProvider in code\nXmlDataProvider provider = new XmlDataProvider();\nprovider.Xml = xmlString;\n\n// Set the provider as the DataContext for your UI controls\nthis.DataContext = provider;

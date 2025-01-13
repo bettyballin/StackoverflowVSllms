@@ -1,1 +1,0 @@
-byte[] initData = { /* your initialization data */ };\nbyte[] key = { /* your key */ };\ninit(initData, key);

@@ -1,1 +1,0 @@
-mysqldump -h your_host -u your_user -p your_database --max-allowed-packet=16M > output.sql

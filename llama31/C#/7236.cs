@@ -1,1 +1,0 @@
-using (FileStream fileStream = new FileStream(filePath, FileMode.Create))\n{\n    // Write to the file stream...\n}

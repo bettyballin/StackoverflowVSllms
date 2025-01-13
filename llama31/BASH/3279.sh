@@ -1,1 +1,0 @@
-for domain in $(cat wordlist.txt); do\n  whois $domain | grep -q "No match" && echo "$domain is available"\ndone

@@ -1,1 +1,0 @@
-[ServiceContract(CallbackContract = typeof(ICallbackContract))]\npublic interface IServiceContract\n{\n    // Other service methods...\n}

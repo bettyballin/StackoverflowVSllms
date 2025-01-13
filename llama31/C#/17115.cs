@@ -1,1 +1,0 @@
-using Microsoft.Win32;\n\n// Store a value in the registry\nRegistryKey key = Registry.CurrentUser.CreateSubKey("MyApp");\nkey.SetValue("Setting1", "Value1");\n\n// Retrieve a value from the registry\nstring value = (string)key.GetValue("Setting1");

@@ -1,1 +1,0 @@
-CComboBox* pCombo = ...; // your combo box pointer\npCombo->SetSystemCursor(IDC_ARROW); // restore the arrow cursor\npCombo->ShowDropDown();

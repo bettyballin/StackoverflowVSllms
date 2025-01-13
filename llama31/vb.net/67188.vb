@@ -1,0 +1,1 @@
+Public Class MyPage\n    Implements IErrorHandlingControl\n\n    Private WithEvents myControl As MyUserControl\n\n    Private Sub myControl_CustomErrorOccurred(sender As Object, e As CustomErrorEventArgs) Handles myControl.CustomErrorOccurred\n        ' Handle the custom error event\n    End Sub\nEnd Class

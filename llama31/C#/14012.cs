@@ -1,1 +1,0 @@
-// Using Windows DPAPI to encrypt the key\nbyte[] encryptedKey = ProtectedData.Protect(Encoding.UTF8.GetBytes(activationKey), null, DataProtectionScope.LocalMachine);

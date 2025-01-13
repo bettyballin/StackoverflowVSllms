@@ -1,1 +1,0 @@
-for (i = 0; i < sizeOfPortRatesArray; i++) {\n    BSTR bstr = SysAllocString((const char*)rateMaterialTypeNames[i]);\n    if (bstr != NULL) {\n        pIUnit->createPort(bstr);\n        SysFreeString(bstr); // Don't forget to free the allocated string\n    }\n}

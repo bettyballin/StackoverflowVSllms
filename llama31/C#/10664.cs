@@ -1,1 +1,0 @@
-NetworkStream ns = new NetworkStream(clientSocket);\nStreamReader sr = new StreamReader(ns);\nchar[] buffer = new char[1024]; // Define a buffer with a maximum size\nint bytesRead = sr.Read(buffer, 0, buffer.Length);\nstring request = new string(buffer, 0, bytesRead);

@@ -1,1 +1,0 @@
-// MyProxy.dll\npublic class MyProxy : IMyApi\n{\n    private readonly ChannelFactory<IMyApi> _factory;\n\n    public MyProxy()\n    {\n        _factory = new ChannelFactory<IMyApi>("MyApiEndpoint");\n    }\n\n    public void DoSomething(string param)\n    {\n        var channel = _factory.CreateChannel();\n        channel.DoSomething(param);\n    }\n}

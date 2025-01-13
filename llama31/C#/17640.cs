@@ -1,1 +1,0 @@
-string startTime = ManagementDateTimeConverter.ToDateTime((string)wmisearcherData["StartTime"]).ToString("o");

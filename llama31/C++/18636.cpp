@@ -1,1 +1,0 @@
-// Example of using Qt for UI development\n#include <QApplication>\n#include <QPushButton>\n\nint main(int argc, char** argv) {\n    QApplication app(argc, argv);\n    QPushButton button("Click me!");\n    button.show();\n    return app.exec();\n}

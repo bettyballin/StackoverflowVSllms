@@ -1,0 +1,1 @@
+-- Add a new column to your table\nALTER TABLE YourTableName\nADD ID INT;\n\n-- Update the new column with unique numbers\nWITH UpdateCTE AS (\n    SELECT *, ROW_NUMBER() OVER (ORDER BY (SELECT 1)) AS NewID\n    FROM YourTableName\n)\nUPDATE UpdateCTE\nSET ID = NewID;

@@ -1,1 +1,0 @@
-gcc -O3 -funroll-loops -mtune=generic -msse2 -msse3 your_file.c -o output

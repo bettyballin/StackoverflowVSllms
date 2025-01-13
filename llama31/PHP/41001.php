@@ -1,0 +1,1 @@
+$largeData = getLargeData();\n// process $largeData\nunset($largeData);

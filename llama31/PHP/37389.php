@@ -1,0 +1,1 @@
+<?php echo  $this->htmlEscape($_option->getTitle()) ?>

@@ -1,1 +1,0 @@
-# Install Burp Suite\nsudo apt-get install burpsuite\n\n# Run Burp Suite\nburpsuite

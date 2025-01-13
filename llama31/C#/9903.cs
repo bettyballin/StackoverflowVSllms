@@ -1,1 +1,0 @@
-public class MyClass\n{\n    private string _data;\n\n    public string Data\n    {\n        get { return _data; }\n    }\n\n    public void LoadData()\n    {\n        using (var dbConnection = new SqlConnection(...))\n        {\n            dbConnection.Open();\n            _data = dbConnection.ExecuteScalar(...).ToString();\n        }\n    }\n}

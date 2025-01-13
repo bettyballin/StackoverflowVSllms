@@ -1,0 +1,1 @@
+// public/js/custom.js\n$(document).ready(function() {\n    // Your custom jQuery code here\n});

@@ -1,0 +1,1 @@
+SELECT \n    CASE \n        WHEN StringValue IS NOT NULL THEN StringValue \n        ELSE CONVERT(VARCHAR(50), Value) \n    END AS Value\nFROM Results;

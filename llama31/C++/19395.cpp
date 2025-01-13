@@ -1,1 +1,0 @@
-BOOL WINAPI DllMain(HINSTANCE hinstDLL, DWORD fdwReason, LPVOID lpvReserved)\n{\n    switch (fdwReason)\n    {\n    case DLL_PROCESS_ATTACH:\n        // DLL is being loaded\n        break;\n    case DLL_PROCESS_DETACH:\n        // DLL is being unloaded\n        break;\n    }\n    return TRUE;\n}

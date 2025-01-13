@@ -1,0 +1,1 @@
+// Create a file system object\nvar fso = new ActiveXObject('Scripting.FileSystemObject');\n\n// Create a file\nvar file = fso.CreateTextFile('todo.txt', true);\nfile.WriteLine('Buy milk');\nfile.Close();

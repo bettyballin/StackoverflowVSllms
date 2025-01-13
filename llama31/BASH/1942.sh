@@ -1,1 +1,0 @@
-# Copy vjslib.dll to the /bin directory\nCopy-Item -Path "C:\Path\To\vjslib.dll" -Destination "C:\Path\To\Your\App\bin"

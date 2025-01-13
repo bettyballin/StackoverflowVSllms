@@ -1,0 +1,1 @@
+SELECT Mid([FullPath], InStrRev([FullPath], '\') + 1) AS FileName\nFROM YourTable;

@@ -1,1 +1,0 @@
-int getBet () {\n    int bet;\n    scanf("%d", &bet);  // Remove the \n from the format string\n    return bet;\n}

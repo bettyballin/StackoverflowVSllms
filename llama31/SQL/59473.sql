@@ -1,0 +1,1 @@
+CREATE TABLE images (\n  entry_id INT PRIMARY KEY AUTO_INCREMENT,\n  entry_data VARCHAR(255),\n  entry_order_no INT\n);

@@ -1,0 +1,1 @@
+if (isset($_SESSION['username'])) {\n    // User is logged in, get the username\n    $username = $_SESSION['username'];\n    echo "User is logged in as: $username";\n} else {\n    // User is not logged in\n    echo "User is not logged in";\n}

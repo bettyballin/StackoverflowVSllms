@@ -1,1 +1,0 @@
-java Main text.txt

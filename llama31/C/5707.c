@@ -1,1 +1,0 @@
-#include <stdio.h>\n#include <limits.h>\n\n#define DELTA 1e-8\n\nint main() {\n    double d = 0;\n    long i = (1L << 53); // Start from 2^53\n\n    while (1) {\n        d = (double)i;\n        if (d - (double)i != 0) {\n            printf("%f\n", d);\n            break;\n        }\n        i++;\n    }\n\n    return 0;\n}

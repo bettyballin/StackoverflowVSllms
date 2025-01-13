@@ -1,0 +1,1 @@
+<servlet>\n    <servlet-name>errorServlet</servlet-name>\n    <servlet-class>com.example.ErrorServlet</servlet-class>\n</servlet>\n\n<servlet-mapping>\n    <servlet-name>errorServlet</servlet-name>\n    <url-pattern>/errorServlet</url-pattern>\n</servlet-mapping>

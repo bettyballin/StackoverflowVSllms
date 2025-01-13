@@ -1,1 +1,0 @@
-Method(default(TypeA));\nMethod(default(TypeB));

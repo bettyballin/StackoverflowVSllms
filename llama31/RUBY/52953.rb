@@ -1,0 +1,1 @@
+module CollectiveIdea::Acts::NestedSet\n  module Model\n    def move_to(target, position)\n      @move_target = target\n      # ... rest of the method ...\n    end\n  end\nend

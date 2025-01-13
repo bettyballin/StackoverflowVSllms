@@ -1,1 +1,0 @@
-using System.Web;\n\npublic partial class _Default : System.Web.UI.Page\n{\n    protected void Page_Load(object sender, EventArgs e)\n    {\n        Response.Write("ASP.NET Version: " + System.Web.HttpRuntime.FrameworkVersion);\n    }\n}

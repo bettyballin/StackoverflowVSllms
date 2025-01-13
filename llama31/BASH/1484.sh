@@ -1,1 +1,0 @@
-cucumber --backtrace features/manage_orders.feature

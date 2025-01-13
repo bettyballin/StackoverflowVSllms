@@ -1,1 +1,0 @@
-using System.Net;\n\n// Before making the HTTPS request\nServicePointManager.SecurityProtocol = SecurityProtocolType.Tls12;\nServicePointManager.ServerCertificateValidationCallback = delegate { return true; };\n\n// Alternatively, you can also clear the ServicePointManager cache\nServicePointManager.DefaultConnectionLimit = 100; // adjust the limit as needed

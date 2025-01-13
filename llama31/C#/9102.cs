@@ -1,1 +1,0 @@
-string htmlOutput = grid.Render(new HtmlTextWriter(new StringWriter())).ToString();

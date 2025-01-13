@@ -1,0 +1,1 @@
+$("input[name='theme']").click(function(){\n    var selectedValue = $(this).val();\n    // do something with selectedValue\n});

@@ -1,0 +1,1 @@
+$dateString = '2008-12-30';\n\ntry {\n    $date = new DateTime($dateString);\n    if ($date->format('Y-m-d') === $dateString) {\n        // Date is valid\n    } else {\n        // Date is not valid\n    }\n} catch (Exception $e) {\n    // Date is not valid\n}

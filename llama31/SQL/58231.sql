@@ -1,0 +1,1 @@
+CREATE TABLE users (\n    firstName VARCHAR(100),\n    lastName VARCHAR(100),\n    email VARCHAR(254) UNIQUE,\n    passwordHash CHAR(64), -- Assuming SHA-256 hashing\n    phoneNumber VARCHAR(20),\n    address VARCHAR(200)\n);

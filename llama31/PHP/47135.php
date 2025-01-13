@@ -1,0 +1,1 @@
+$service->__getLastRequestHeaders();\n$service->__getLastRequest();

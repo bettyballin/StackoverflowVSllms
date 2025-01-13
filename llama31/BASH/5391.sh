@@ -1,1 +1,0 @@
-@echo off\nset APP_FILE=%1.application\nset APP_NAME=%~n1\n\nREM Remove the run attribute from the .application file\nsed -i "/run/d" %APP_FILE%

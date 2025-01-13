@@ -1,1 +1,0 @@
-rpmbuild -bb --target aix my-perl-app.spec

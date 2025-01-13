@@ -1,0 +1,1 @@
+# myapp/trie.py\nclass Trie:\n    def __init__(self):\n        self.trie = {}\n        self.frequencies = {}\n\n    def insert(self, word):\n        # Insert the word into the trie\n        ...\n        # Update the frequency\n        self.frequencies[word] = self.frequencies.get(word, 0) + 1

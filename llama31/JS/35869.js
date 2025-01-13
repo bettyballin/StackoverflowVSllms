@@ -1,0 +1,1 @@
+$.ajax({\n  type: 'POST',\n  url: 'http://api.pennysms.com/xmlrpc',\n  data: xml,\n  contentType: 'text/xml',\n  success: function(response) {\n    console.log(response);\n  }\n});

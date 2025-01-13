@@ -1,1 +1,0 @@
-sed 's,^--- ,--- a/,; s,^+++ ,+++ b/,' input.patch > output.patch

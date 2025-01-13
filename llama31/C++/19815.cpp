@@ -1,1 +1,0 @@
-void ShutdownService(DWORD dwError)\n{\n    // Log the shutdown reason and error information\n    LogEvent("Service shutting down due to error: %d", dwError);\n\n    // Post the WM_QUIT message to the service thread\n    _PostThreadMessage(_Module.dwThreadID, WM_QUIT, 0, 0);\n}

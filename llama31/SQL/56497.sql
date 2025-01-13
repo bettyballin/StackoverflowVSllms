@@ -1,0 +1,1 @@
+CREATE TRIGGER trg_data_insert AFTER INSERT ON data FOR EACH ROW\nSET NEW.dt_checksum = UNHEX(SHA2(NEW.dt, 256));\n\nCREATE TRIGGER trg_data_update AFTER UPDATE ON data FOR EACH ROW\nSET NEW.dt_checksum = UNHEX(SHA2(NEW.dt, 256));

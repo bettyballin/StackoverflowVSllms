@@ -1,1 +1,0 @@
-// Example usage:\n#include <pdfcrowd.h>\n\nint main() {\n    PdfCrowd::Client client("your_username", "your_api_key");\n    client.convertHtmlToFile("input.html", "output.pdf");\n    return 0;\n}

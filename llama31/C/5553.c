@@ -1,1 +1,0 @@
-#include <sys/xattr.h>\n\n// Set an xattr\nsetxattr("example.txt", "user.myattr", "Hello, World!", 13, 0);\n\n// Get an xattr\nchar buf[1024];\ngetxattr("example.txt", "user.myattr", buf, 1024);

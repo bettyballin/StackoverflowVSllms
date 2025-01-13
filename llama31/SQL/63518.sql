@@ -1,0 +1,1 @@
+SELECT \n  a AS b,\n  CONCAT(first_name, ' ', last_name) AS full_name  -- creates a virtual column 'full_name'\nFROM \n  customers\nWHERE \n  b > 10  -- uses the virtual column 'b'\nORDER BY \n  full_name;  -- uses the virtual column 'full_name'

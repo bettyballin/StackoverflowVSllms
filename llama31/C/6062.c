@@ -1,1 +1,0 @@
-int w[] = {229, 233, 239, 241, 251, 257}; // pairwise coprime numbers

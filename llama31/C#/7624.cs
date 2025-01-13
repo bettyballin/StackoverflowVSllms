@@ -1,1 +1,0 @@
-public class Phrase\n{\n    // existing code...\n\n    public void Save(IPhraseRepository repository)\n    {\n        repository.SavePhrase(this);\n    }\n}

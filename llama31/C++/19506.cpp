@@ -1,1 +1,0 @@
-// mydll.cpp\nvoid MyFunction() {\n    // implementation\n}

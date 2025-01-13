@@ -1,0 +1,1 @@
+echo "{\"result\":\"hhh\"}";\n// outputs: {"result":"hhh"}

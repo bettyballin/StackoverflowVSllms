@@ -1,0 +1,1 @@
+$handle = fopen("file.txt", "r");\nwhile (($line = fgets($handle)) !== FALSE) {\n    $line = iconv('ISO-8859-1', 'UTF-8', $line);\n    echo $line;\n}\nfclose($handle);

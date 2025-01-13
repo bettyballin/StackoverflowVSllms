@@ -1,1 +1,0 @@
-tar --snapshot -cf archive.tar directory

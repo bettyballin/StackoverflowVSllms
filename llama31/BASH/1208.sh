@@ -1,1 +1,0 @@
-# Install lldpctl on your system (if not already installed)\nsudo apt-get install lldpd\n\n# Enable LLDP on your network interface (e.g., eth0)\nsudo lldpctl configure system interface eth0\n\n# Display neighboring devices\nsudo lldpctl show neighbors

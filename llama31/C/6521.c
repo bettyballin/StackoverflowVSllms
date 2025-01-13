@@ -1,1 +1,0 @@
-ShortString result;\nresult = pGetSerial((BYTE)"1");\nprintf("%s\n", result.data);\n\nresult = pGetPID("C:");\nprintf("%s\n", result.data);

@@ -1,1 +1,0 @@
-#include <Windows.h>\n\nbool IsShuttingDown()\n{\n    return GetSystemMetrics(SM_SHUTTINGDOWN) != 0;\n}\n\nbool IsRestarting()\n{\n    return GetSystemMetrics(SM_SHUTTINGDOWN) == 0 && \n           GetSystemMetrics(SM_RESTARTING) != 0;\n}

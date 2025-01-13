@@ -1,1 +1,0 @@
-var customers = new[] {\n    new Customer { Name = "John", Age = 30 },\n    new Customer { Name = "Jane", Age = 25 },\n    new Customer { Name = "Bob", Age = 40 }\n};\n\nvar results = from c in customers\n              where c.Age > 30\n              select c;\n\nforeach (var customer in results) {\n    Console.WriteLine(customer.Name);\n}

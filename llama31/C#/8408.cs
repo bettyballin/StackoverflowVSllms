@@ -1,1 +1,0 @@
-bool IsValidLoginId(string loginId)\n{\n    if (loginId.Length < 6 || loginId.Length > 32)\n        return false;\n\n    if (!loginId.Any(c => char.IsLetter(c)))\n        return false;\n\n    if (!loginId.All(c => char.IsLetterOrDigit(c) || "-_+.@".Contains(c)))\n        return false;\n\n    return true;\n}

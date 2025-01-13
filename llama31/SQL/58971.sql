@@ -1,0 +1,1 @@
+DELETE FROM table WHERE id < ANY\n(SELECT id FROM table ORDER BY id DESC LIMIT N);

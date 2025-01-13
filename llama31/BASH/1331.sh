@@ -1,1 +1,0 @@
-msmdsrv /a "path_to_your_assl_script.assl" /s "your_analysis_services_server_name"

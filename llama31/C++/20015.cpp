@@ -1,1 +1,0 @@
-EnhSimOutput& operator<< (setw&& p);

@@ -1,1 +1,0 @@
-etsh int tcp delete connection <connection_id>

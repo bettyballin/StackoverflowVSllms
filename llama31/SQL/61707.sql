@@ -1,0 +1,1 @@
+-- Create an audit policy\nCREATE AUDIT POLICY dml_audit_policy\n PRIVILEGES INSERT, UPDATE, DELETE\n CONTAINER = ALL;\n\n-- Enable auditing for a specific user\nAUDIT POLICY dml_audit_policy BY user1;

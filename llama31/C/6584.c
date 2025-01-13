@@ -1,1 +1,0 @@
-#include <unistd.h>\n\n// ...\n\nwhile (/* your loop condition */) {\n    // your code here\n\n    // sleep for 10 seconds\n    sleep(10);\n}

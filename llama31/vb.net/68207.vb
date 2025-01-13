@@ -1,0 +1,1 @@
+Imports System.Reflection\n\nDim sReadString As String = oReader.ReadString\nDim propInfo As PropertyInfo = Me.Elements.GetType().GetProperty(sReadString)\nIf propInfo IsNot Nothing Then\n    propInfo.SetValue(Me.Elements, sReadString, Nothing)\nEnd If

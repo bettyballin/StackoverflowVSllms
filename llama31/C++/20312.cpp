@@ -1,1 +1,0 @@
-// Alternatively, you can use the following C++ code to get the DLL path\n#include <Windows.h>\n#include <stdio.h>\n\nint main() {\n    HMODULE hModule;\n    GetModuleHandleExA(GET_MODULE_HANDLE_EX_FLAG_FROM_ADDRESS, (LPCSTR)YourDLLFunction, &hModule);\n    char dllPath[MAX_PATH];\n    GetModuleFileNameA(hModule, dllPath, MAX_PATH);\n    printf("%s\n", dllPath);\n    return 0;\n}

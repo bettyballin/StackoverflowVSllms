@@ -1,1 +1,0 @@
-FileUpload fileUpload = new FileUpload();\nfileUpload.SaveAs(Server.MapPath("~/uploads/" + fileUpload.FileName));

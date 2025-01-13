@@ -1,0 +1,1 @@
+alter table MyTable\nalter column MyCol varchar(50) COLLATE SQL_Latin1_General_CP1_CS_AS

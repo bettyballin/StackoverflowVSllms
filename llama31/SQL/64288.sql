@@ -1,0 +1,1 @@
+SELECT \n    E.EmpID, \n    E.FirstName, \n    E.LastName, \n    E.Email, \n    E.Phone, \n    O.OtherName\nFROM \n    EMPLOYEE E\nINNER JOIN \n    OTHERNAME O ON E.FirstName = O.Name;

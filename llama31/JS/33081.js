@@ -1,0 +1,1 @@
+$.ajax({\n  type: 'DELETE',\n  url: '/posts/5',\n  success: function() {\n    // Handle successful deletion\n  }\n});

@@ -1,1 +1,0 @@
-regsvr32.exe %windir%\system32\msdbg2.dll

@@ -1,1 +1,0 @@
-pdflatex -dPDFAllowComments yourfile.tex

@@ -1,1 +1,0 @@
-sshfs username@remote_host:/remote/path /local/mount/point

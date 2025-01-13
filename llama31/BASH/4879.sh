@@ -1,1 +1,0 @@
-cake acl create aro root User\ncake acl create aro User Admin\ncake acl create aro User Moderator\ncake acl create aro User User\n\ncake acl create aco root controllers\ncake acl create aco controllers Users\ncake acl create aco controllers Posts

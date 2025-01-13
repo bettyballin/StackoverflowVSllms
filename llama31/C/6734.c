@@ -1,1 +1,0 @@
-freopen("C:\\path\\to\\file.in","r",stdin);\nfreopen("C:\\path\\to\\file.out","w",stdout);

@@ -1,0 +1,1 @@
+<PermissionLevel Name="Developer" Description="Read-only access for developers">\n  <Permissions>\n    <Permission Name="ViewListItems" />\n    <Permission Name="OpenItems" />\n    <Permission Name="ViewVersions" />\n    <Permission Name="CreateAlerts" />\n  </Permissions>\n</PermissionLevel>

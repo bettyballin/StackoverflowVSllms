@@ -1,1 +1,0 @@
-// Example of using ASP.NET controls in C#\nprotected void Page_Load(object sender, EventArgs e)\n{\n    // Create a panel (renders as a div)\n    Panel panel = new Panel();\n    panel.Controls.Add(new LiteralControl("Hello, World!"));\n    Page.Controls.Add(panel);\n}

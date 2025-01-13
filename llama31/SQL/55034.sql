@@ -1,0 +1,1 @@
+CASE \n  WHEN SUM(ExtPrice) * 0.01 < 0 AND RecordNum BETWEEN 4000 AND 5999 \n    THEN REPLACE(CAST(SUM(ExtPrice) * 0.01 AS VARCHAR), '-', '')\n  ELSE SUM(ExtPrice) * 0.01 \nEND AS Totals

@@ -1,1 +1,0 @@
-DateTime currentTime = DateTime.UtcNow;

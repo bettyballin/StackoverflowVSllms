@@ -1,0 +1,38 @@
+import java.lang.String;
+import java.io.BufferedReader;
+import java.io.IOException;
+import java.io.InputStreamReader;
+
+public class ProcessTracker
+{
+    public static void main(String[] args)
+    {
+        String osName = System.getProperty("os.name");
+        String command = "";
+
+        if (osName.contains("Windows"))
+        {
+            command = "tasklist";
+        }
+        else if (osName.contains("Mac") || osName.contains("Linux"))
+        {
+            command = "ps -ef";
+        }
+
+        try
+        {
+            Process process = Runtime.getRuntime().exec(command);
+            BufferedReader reader = new BufferedReader(new InputStreamReader(process.getInputStream()));
+
+            String line;
+            while ((line = reader.readLine()) != null)
+            {
+                System.out.println(line);
+            }
+        }
+        catch (IOException e)
+        {
+            e.printStackTrace();
+        }
+    }
+}

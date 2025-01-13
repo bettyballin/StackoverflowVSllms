@@ -1,1 +1,0 @@
-using System.Security.Cryptography;\n\npublic static string GenerateUniqueId(int length)\n{\n    using (var rng = new RNGCryptoServiceProvider())\n    {\n        var bytes = new byte[length];\n        rng.GetBytes(bytes);\n        return Convert.ToBase64String(bytes);\n    }\n}

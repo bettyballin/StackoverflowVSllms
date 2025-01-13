@@ -1,0 +1,1 @@
+setcookie('session_id', 'value', 0, '/', 'yourdomain.com', true, true);

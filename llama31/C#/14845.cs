@@ -1,1 +1,0 @@
-host.AddServiceEndpoint(typeof(Inventory.IInventoryService), new NetTcpBinding(),\n    "net.tcp://localhost:9000/GetInventory");

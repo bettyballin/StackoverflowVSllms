@@ -1,0 +1,1 @@
+LEFT JOIN weblog_data AS pwd \n  ON pwd.field_id_41 = COALESCE(\n    (SELECT field_id_41 FROM weblog_data WHERE field_id_41 = ewd.field_id_32),\n    (SELECT field_id_41 FROM weblog_data WHERE field_id_41 LIKE CONCAT('%', ewd.field_id_32, '%'))\n  )

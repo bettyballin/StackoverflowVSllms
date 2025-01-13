@@ -1,0 +1,1 @@
+SELECT "Category", "Timestamp", "Value"\nFROM (\n  SELECT "Category", "Timestamp", "Value",\n         ROW_NUMBER() OVER (PARTITION BY "Category" ORDER BY "Timestamp" DESC) AS row_num\n  FROM "Table"\n) AS subquery\nWHERE row_num <= 5;

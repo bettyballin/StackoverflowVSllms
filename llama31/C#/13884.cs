@@ -1,1 +1,0 @@
-int voteCount = 5;\nint result = Interlocked.Increment(ref voteCount);\nConsole.WriteLine(result); // prints 6\nConsole.WriteLine(voteCount);  // prints 6

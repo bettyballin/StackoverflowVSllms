@@ -1,1 +1,0 @@
-// In BigClass.h\nstatic FILEINFO* PassThis(FILEINFO*);\n\n// Then here is where I'm actually calling the function\nMyFuncClass->MyFunc(GetNumber(), &BigClass::PassThis, GetArgs(), TheType);

@@ -1,1 +1,0 @@
-using System.Net.Mail;\n\nSmtpClient smtpClient = new SmtpClient("your_exchange_server");\nsmtpClient.Credentials = new NetworkCredential("your_username", "your_password");\nsmtpClient.EnableSsl = true; // if your Exchange server uses SSL\n\nMailMessage mailMessage = new MailMessage("your_from_address", "external_to_address", "Subject", "Body");\nsmtpClient.Send(mailMessage);

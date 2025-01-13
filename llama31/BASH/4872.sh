@@ -1,1 +1,0 @@
-wmic datafile where name="path/to/your/file.exe" get Block

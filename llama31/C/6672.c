@@ -1,1 +1,0 @@
-HDESK hDesktop = OpenDesktop("OtherDesktop", 0, FALSE, GENERIC_ALL);\nif (hDesktop != NULL) {\n    HWND hWnd = FindWindowEx(hDesktop, NULL, "ClassName", "WindowName");\n    if (hWnd != NULL) {\n        SendMessage(hWnd, WM_MYMESSAGE, wParam, lParam);\n    }\n    CloseDesktop(hDesktop);\n}

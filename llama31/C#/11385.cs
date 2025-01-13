@@ -1,1 +1,0 @@
-void AsyncInvoke(Delegate method, object arg1, ElapsedEventArgs arg2)\n{\n    // Basic null checks\n    if (method == null) throw new ArgumentNullException(nameof(method));\n    // Handle arg1 and arg2 being null, or throw if they are not expected to be null\n}

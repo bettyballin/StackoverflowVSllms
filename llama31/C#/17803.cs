@@ -1,1 +1,0 @@
-public void UpdateDatabaseFromDataSet()\n{\n    adapter.Update(exampleDataSet);\n    adapter.Fill(exampleDataSet, LoadOption.PreserveChanges);\n}

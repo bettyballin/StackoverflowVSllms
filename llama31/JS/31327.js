@@ -1,0 +1,1 @@
+const script = document.getElementById('scripty');\nscript.src = 'new-script.js'; // update the script source

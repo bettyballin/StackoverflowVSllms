@@ -1,1 +1,0 @@
-Matrix matrix(10);\nmatrix(3, 4) = 5.0;\ndouble value = matrix(3, 4);

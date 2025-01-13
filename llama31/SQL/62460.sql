@@ -1,0 +1,1 @@
+-- Create a trigger\nCREATE TRIGGER trg_UpdateField\nON myTable\nAFTER UPDATE\nAS\nBEGIN\n    -- Update the field\n    UPDATE myTable\n    SET myField = 'new value'\n    WHERE myCondition = 'true';\nEND;\n\n-- Prevent recursive firing of the trigger\nsp_settriggerorder @triggername = 'trg_UpdateField', @order = 'First', @stmttype = 'UPDATE';

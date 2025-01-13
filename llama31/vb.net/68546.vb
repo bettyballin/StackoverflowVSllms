@@ -1,0 +1,1 @@
+Dim myObject As Object = Nothing\n\nIf myObject Is Nothing Then\n    Console.WriteLine("Reference equality: True")\nEnd If\n\nIf myObject = Nothing Then ' Compiler error!\n    Console.WriteLine("Value equality: True")\nEnd If

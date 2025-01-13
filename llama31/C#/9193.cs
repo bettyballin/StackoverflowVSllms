@@ -1,1 +1,0 @@
-[WebMethod]\n[ResponseFormat(ResponseFormat.Text)]\npublic string HelloWorld()\n{\n    return "Hello, World!";\n}

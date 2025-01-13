@@ -1,1 +1,0 @@
-// Server-side (your ASP.NET application)\n[HttpPost]\npublic ActionResult Endpoint(string param1, string param2)\n{\n    string ipAddress = Request.UserHostAddress;\n    if (!ipAddress.Equals("customer_ip_address"))\n    {\n        return HttpNotFound();\n    }\n    // Process the request\n}

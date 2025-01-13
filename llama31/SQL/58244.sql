@@ -1,0 +1,1 @@
+SELECT dividend_column / NULLIF(divisor_column, 0) AS result\nFROM your_table;

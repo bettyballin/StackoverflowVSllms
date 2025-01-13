@@ -1,0 +1,1 @@
+// ... (your code here)\n\nif (isset($_COOKIE['login'])) {\n    // ... (your code here)\n\n    if ($login_cookie == $_COOKIE['login']) {\n        header('Location: index.php');\n        exit;\n    }\n}\n\n// ... (your code here)

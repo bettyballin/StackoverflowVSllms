@@ -1,0 +1,1 @@
+function throw_exception() {\n    throw new Exception('Fail');\n}\n\ntry {\n    throw_exception();\n} catch (Exception $e) {\n    echo 'Succeed';\n}

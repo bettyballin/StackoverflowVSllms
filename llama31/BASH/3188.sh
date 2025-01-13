@@ -1,1 +1,0 @@
-mount -t nfs -o nfsvers=4,rsize=32768,wsize=32768,async,noatime,proto=tcp <server_ip>:/path/to/export /mnt

@@ -1,0 +1,1 @@
+import base64\n\npassword = "mysecretpassword"\nobfuscated_password = base64.b64encode(password.encode()).decode()\n\nprint(obfuscated_password)

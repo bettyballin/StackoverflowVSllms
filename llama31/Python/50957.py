@@ -1,0 +1,1 @@
+import gi\ngi.require_version('Wnck', '3.0')\nfrom gi.repository import Wnck\n\nscreen = Wnck.Screen.get_default()\nscreen.force_update()\n\nfor window in screen.get_windows():\n    print(window.get_name())

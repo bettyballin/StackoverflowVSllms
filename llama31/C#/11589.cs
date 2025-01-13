@@ -1,1 +1,0 @@
-public bool IsList(object value)\n{\n    return value is IList;\n}

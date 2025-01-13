@@ -1,1 +1,0 @@
-svn export http://myrepository/svn/project - | ssh me@otherlocation.net "rsync -av - /var/www/project"

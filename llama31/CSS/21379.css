@@ -1,1 +1,0 @@
-ul.imgzchoose li img {\n  cursor: pointer;\n  margin-left: 9px;\n  margin-top: 1px;\n  width: 50px; /* add this */\n  height: 50px; /* add this */\n  position: relative;\n  display: block; /* add this */\n}

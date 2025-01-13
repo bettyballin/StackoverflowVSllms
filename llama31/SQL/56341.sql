@@ -1,0 +1,1 @@
+INSERT INTO MY_DATA.my_table\nSELECT *\nFROM CORE_DATA.core_table;

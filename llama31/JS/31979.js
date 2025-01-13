@@ -1,0 +1,1 @@
+browser.webRequest.onBeforeRequest.addListener(\n  function(request) {\n    // Send sync request to server\n    fetch('https://your-server-url.com/sync', {\n      method: 'POST',\n      headers: {\n        'Content-Type': 'application/json'\n      },\n      body: JSON.stringify({ /* sync data */ })\n    });\n  },\n  { urls: ['<all_urls>'] }\n);

@@ -1,1 +1,0 @@
-int is_type1(void* ptr) {\n    struct type1* t1 = (struct type1*)ptr;\n    return t1->specific_member == NULL; // or some other valid check\n}

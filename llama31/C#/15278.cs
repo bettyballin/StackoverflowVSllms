@@ -1,1 +1,0 @@
-if (tvTreeView.SelectedNode.PrevNode != null && tvTreeView.Nodes.IndexOf(tvTreeView.SelectedNode.PrevNode) == 0)\n{\n    // your code here\n}

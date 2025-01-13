@@ -1,0 +1,1 @@
+import pandas as pd\n\n# Convert entries to a pandas DataFrame\ndf = pd.DataFrame(entries)\n\n# Filter the DataFrame\nfiltered_df = df[(df['category'] == category) & (df['item_currency'] == currency)]\n\n# Calculate the sum\ntotals['quantity'] = filtered_df['quantity'].sum()

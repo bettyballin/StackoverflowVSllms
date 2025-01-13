@@ -1,0 +1,1 @@
+$output .= "idno".$i."=".urlencode($row['usr_id'])."&";\n$output .= "res".$i."=".urlencode($row['responce'])."&";\n$output .= "sex".$i."=".urlencode($row['sex'])."&";\n$output .= "com1".$i."=".urlencode($row['com1'])."&";\n$output .= "com2".$i."=".urlencode($row['com2']);

@@ -1,0 +1,1 @@
+function AddContent(Content) {\n    var div = $(Content);\n    div.appendTo($("#contentAreas"));\n    div.fadeIn("slow");\n}

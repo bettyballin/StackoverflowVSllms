@@ -1,0 +1,1 @@
+// components/ProductModel.php\nclass ProductModel {\n    public function getData($params = []) {\n        // retrieve data from database or API\n        return $data;\n    }\n}

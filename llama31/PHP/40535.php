@@ -1,0 +1,1 @@
+public function logout()\n{\n    // ...\n    delete_cookie('remember_me');\n    // ...\n}

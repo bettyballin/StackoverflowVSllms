@@ -1,0 +1,1 @@
+Dim nullableValue As Nullable(Of T) = CType(Convert.ChangeType(obj, targetType), Nullable(Of T))

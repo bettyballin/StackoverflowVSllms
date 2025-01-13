@@ -1,1 +1,0 @@
-using (SqlBulkCopy bulkCopy = new SqlBulkCopy(connection))\n{\n    bulkCopy.DestinationTableName = "Mytable";\n    bulkCopy.WriteToServer(employees.ToDataTable());\n}

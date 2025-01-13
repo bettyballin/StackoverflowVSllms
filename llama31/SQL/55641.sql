@@ -1,0 +1,1 @@
+SELECT * FROM (SELECT * FROM table_name ORDER BY RAND()) AS subquery LIMIT 1;

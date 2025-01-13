@@ -1,0 +1,1 @@
+// In your PDF's JavaScript code\nfunction pingServer() {\n  var xhr = new XMLHttpRequest();\n  xhr.open('GET', 'https://your-server.com/ping', true);\n  xhr.send();\n}\n\n// Call the function when the PDF is opened\npingServer();

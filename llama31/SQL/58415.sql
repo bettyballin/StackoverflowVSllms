@@ -1,0 +1,1 @@
+ALTER TABLE mytable\nADD COLUMN new_column INT\nAFTER existing_column;

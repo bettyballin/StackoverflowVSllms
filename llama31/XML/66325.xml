@@ -1,0 +1,1 @@
+<?xml version="1.0" encoding="UTF-8"?>\n<xsl:stylesheet version="1.0" xmlns:xsl="http://www.w3.org/1999/XSL/Transform">\n  <xsl:template match="/">\n    <html>\n      <body>\n        <img src="data:image/jpeg;base64,{encode-base64(.)}"/>\n      </body>\n    </html>\n  </xsl:template>\n</xsl:stylesheet>

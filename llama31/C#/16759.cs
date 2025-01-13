@@ -1,1 +1,0 @@
-foreach (DataRow row in yourDataSet.Tables[0].Rows)\n{\n    string datetimeString = row["YourDateTimeColumn"].ToString();\n    DateTime datetimeObject = DateTime.ParseExact(datetimeString, "M/d/yyyy hh:mm:ss tt", CultureInfo.InvariantCulture);\n    row["YourDateTimeColumn"] = datetimeObject.ToString("M/d/yyyy");\n}

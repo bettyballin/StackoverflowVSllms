@@ -1,0 +1,1 @@
+$.ajax({\n    url: "Home/Ajax1",\n    error: function(request, status, error) {\n        // ...\n    },\n    success: function(data, status) {\n        // ...\n    },\n    type: "GET",\n    dataType: "text",\n    contentType: "text/plain"\n});

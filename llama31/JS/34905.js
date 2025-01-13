@@ -1,0 +1,1 @@
+$("your_droppable_selector").hover(\n  function() {\n    $(this).addClass("droppable-hover");\n  },\n  function() {\n    $(this).removeClass("droppable-hover");\n  }\n);

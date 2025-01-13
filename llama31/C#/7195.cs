@@ -1,1 +1,0 @@
-var cfg = new Configuration();\ncfg.Configure();\ncfg.AddAssembly(typeof(MyClass).Assembly);\n\nvar schemaUpdate = new SchemaUpdate(cfg);\nschemaUpdate.Execute(true, true);

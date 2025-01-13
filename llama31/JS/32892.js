@@ -1,0 +1,1 @@
+button.addEventListener('click', function() {\n  if (window.top !== window.self) {\n    // We're inside an iframe, use postMessage to communicate with the parent window\n    window.parent.postMessage('buttonClicked', '*');\n  } else {\n    // We're not inside an iframe, call the JavaScript function directly\n    myJavaScriptFunction();\n  }\n});

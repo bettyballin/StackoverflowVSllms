@@ -1,0 +1,1 @@
+// admin-ajax.php\n// your code here\ndie();

@@ -1,0 +1,1 @@
+<system.webServer>\n  <handlers>\n    <add name="ASP.NET-ISAPI-4.0_64bit" path="*.html" verb="*" modules="IsapiModule" scriptProcessor="C:\Windows\Microsoft.NET\Framework\v4.0.30319\aspnet_isapi.dll" resourceType="Unspecified" requireAccess="None" preCondition="bitness64" />\n  </handlers>\n</system.webServer>

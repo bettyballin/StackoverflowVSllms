@@ -1,1 +1,0 @@
-x.SetButton(100, 100, TEXT("buttonNormal.png"), TEXT("buttonHover.png"), TEXT("buttonPressed.png"), 100, 40, &testMenu::test2);

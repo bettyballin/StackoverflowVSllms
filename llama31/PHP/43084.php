@@ -1,0 +1,1 @@
+$dsn = 'pgsql:host=localhost;dbname=mydatabase';\n$username = 'myusername';\n$password = 'mypassword';\n\ntry {\n    $pdo = new PDO($dsn, $username, $password);\n    // execute queries here\n} catch (PDOException $e) {\n    echo 'Error: ' . $e->getMessage();\n}

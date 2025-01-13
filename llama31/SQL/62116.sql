@@ -1,0 +1,1 @@
+SELECT p.product_name\nFROM products p\nJOIN productsales ps ON p.product_id = ps.product_id\nWHERE ps.date BETWEEN 'Y' AND 'Z'\nGROUP BY p.product_name\nHAVING SUM(ps.quantity) > X;

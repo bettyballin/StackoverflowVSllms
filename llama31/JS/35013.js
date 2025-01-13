@@ -1,0 +1,1 @@
+function shuffleArray(array) {\n  for (let i = array.length - 1; i > 0; i--) {\n    const j = Math.floor(Math.random() * (i + 1));\n    [array[i], array[j]] = [array[j], array[i]];\n  }\n  return array;\n}\n\n// Example usage:\nconst images = ['img1', 'img2', ..., 'img18'];\nconst shuffledImages = shuffleArray(images);\nconst thumbnails = shuffledImages.slice(0, 12);

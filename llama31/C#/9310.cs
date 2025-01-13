@@ -1,1 +1,0 @@
-Person p = new Person\n{\n    Name = (string)dataRow["Name"],\n    Amount = Convert.IsDBNull(dataRow["Amount"]) ? (decimal?)null : (decimal)dataRow["Amount"]\n}

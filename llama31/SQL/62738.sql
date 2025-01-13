@@ -1,0 +1,1 @@
+SELECT u.firstname, u.lastname, ud.NumOccurrences\nFROM users u\nJOIN (\n  SELECT userID, COUNT(userID) AS NumOccurrences\n  FROM userDepartments\n  GROUP BY userID\n  HAVING COUNT(userID) > 1\n) ud ON u.userID = ud.userID

@@ -1,0 +1,1 @@
+const express = require('express');\nconst app = express();\n\napp.get('/api/customers', (req, res) => {\n  // return a list of customers\n});\n\napp.get('/api/orders', (req, res) => {\n  // return a list of orders\n});\n\napp.listen(3000, () => {\n  console.log('API listening on port 3000');\n});

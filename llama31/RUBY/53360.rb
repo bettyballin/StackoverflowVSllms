@@ -1,0 +1,1 @@
+require 'ruby-progressbar'\n\nssh.exec!(cmd) do |channel, stream, data|\n  progress_bar = ProgressBar.create(total: 100)\n  progress_bar.increment(data.size)\n  puts data\nend

@@ -1,1 +1,0 @@
-openssl rsa -in private_key.pem -pubout -out public_key.pem

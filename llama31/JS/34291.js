@@ -1,0 +1,1 @@
+$.ajax({\n  // ...\n  success: function(data) {\n    $.each(data, function(index, point) {\n      var latlng = new google.maps.LatLng(point.lat, point.lng);\n      var marker = new google.maps.Marker({\n        position: latlng,\n        map: map\n      });\n    });\n  }\n});

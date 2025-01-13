@@ -1,0 +1,1 @@
+MERGE INTO myschema.tableA update_tableA\nUSING (\n  SELECT src.field_id, tableB.id\n  FROM myschema.srcTable src\n  INNER JOIN myschema.tableB tableB ON tableB.id = src.id\n  WHERE SDO_ANYINTERACT(tableB.shape, src.shape) = 'TRUE'\n) subquery\nON (update_tableA.id = subquery.id)\nWHEN MATCHED THEN\n  UPDATE SET field_id = subquery.field_id;

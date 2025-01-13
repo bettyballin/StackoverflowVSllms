@@ -1,0 +1,1 @@
+Protected Sub GridView1_RowCommand(sender As Object, e As GridViewCommandEventArgs)\n    If e.CommandName = "Delete" Then\n        ' Handle the delete command\n    End If\nEnd Sub

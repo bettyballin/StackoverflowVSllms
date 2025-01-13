@@ -1,0 +1,1 @@
+CREATE TABLE bar (\n  column_name VARCHAR2(1 CHAR)\n) AS SELECT * FROM #link#.foo;

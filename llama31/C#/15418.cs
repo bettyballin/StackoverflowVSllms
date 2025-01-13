@@ -1,1 +1,0 @@
-IList<int> myList = ...;\nint index = myList.BinarySearch(5);\nif (index != -1)\n    Console.WriteLine("Found at index: " + index);\nelse\n    Console.WriteLine("Value not found");

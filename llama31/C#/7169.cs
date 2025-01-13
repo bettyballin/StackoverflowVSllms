@@ -1,1 +1,0 @@
-public partial class MyEntity\n{\n    public int Id { get; set; }\n}

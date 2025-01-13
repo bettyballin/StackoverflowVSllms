@@ -1,0 +1,1 @@
+$var .= 'blah blah';\n$var .= $var2;\n$var .= 'blah blah';

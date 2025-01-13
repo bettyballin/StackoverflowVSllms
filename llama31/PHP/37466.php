@@ -1,0 +1,1 @@
+// left.php\nfunction renderLeftColumn() {\n    echo '<div class="left">';\n    // HTML content here\n    echo '</div>';\n}

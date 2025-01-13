@@ -1,0 +1,1 @@
+use Cron\CronExpression;\n\n$cronExpression = new CronExpression($userInput);\n\nif ($cronExpression->isDue()) {\n    // The cron expression is valid\n} else {\n    // The cron expression is invalid\n}

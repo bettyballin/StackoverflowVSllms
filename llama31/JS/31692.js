@@ -1,0 +1,1 @@
+$(document).ready(function () {\n    var modal = $find('modal1');\n    // rest of your code...\n});

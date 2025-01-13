@@ -1,1 +1,0 @@
-OracleConnection conn = new OracleConnection(connectionString);\nconn.DefaultSchemaName = "myDB";\nconn.Open();\n\nOracleCommand cmd = new OracleCommand("SELECT ID, NAME FROM MyTempTable WHERE ID IN (10780, 10760, 11890)", conn);\nOracleDataReader reader = cmd.ExecuteReader();

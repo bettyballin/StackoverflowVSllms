@@ -1,1 +1,0 @@
-IEController ieController = new IEController();\nieController.Navigate("http://example.com");\nieController.ClickButton("myButton");\nstring value = ieController.GetControlValue("myTextbox");\nieController.SetControlValue("myTextbox", "Hello, World!");

@@ -1,0 +1,1 @@
+$string = 'piece1;piece2;piece3;piece4;piece5;piece6;piece7;piece8;';\n$pieces = preg_split('/(;)(?=(?:[^;]*;){3}(?:[^;]*$))/', $string, -1, PREG_SPLIT_DELIM_CAPTURE);\n$output = array();\nforeach ($pieces as $piece) {\n    if (!empty($piece)) {\n        $output[] = $piece;\n    }\n}\nprint_r($output);

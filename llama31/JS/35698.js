@@ -1,0 +1,1 @@
+const form = $('#myForm');\nconst params = form.serializeArray();\n\nsajax_do_call('funcName', params, 'callbackFuncName');

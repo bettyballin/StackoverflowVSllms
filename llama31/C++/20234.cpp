@@ -1,1 +1,0 @@
-#include <d3d10.h>\n\n// Create a Direct3D 10 device and swap chain\nIDXGIAdapter *pAdapter = NULL;\nIDXGISwapChain *pSwapChain = NULL;\nID3D10Device *pDevice = NULL;\n\nHRESULT hr = D3D10CreateDeviceAndSwapChain(\n    pAdapter,\n    D3D10_DRIVER_TYPE_HARDWARE,\n    NULL,\n    0,\n    D3D10_SDK_VERSION,\n    &pSwapChain,\n    &pDevice\n);

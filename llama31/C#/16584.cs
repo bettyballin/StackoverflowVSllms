@@ -1,1 +1,0 @@
-using (var client = new MyServiceClient())\n{\n    try\n    {\n        // Use the client to make a request\n        client.MyMethod();\n    }\n    catch (FaultException)\n    {\n        // Handle faulted state\n    }\n    finally\n    {\n        // Close the client\n        client.Close();\n    }\n}

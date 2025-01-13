@@ -1,1 +1,0 @@
-public class SelectorTool<T> : UserControl where T : ISelectable\n{\n    // Implement your control's specific UI and behavior here.\n    // Use T as the type for your lists and operations.\n}

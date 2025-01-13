@@ -1,1 +1,0 @@
-sed 's/<html>/<html><link rel="stylesheet" type="text/css" href="LivingInStyle.css">/g' input.html > output.html

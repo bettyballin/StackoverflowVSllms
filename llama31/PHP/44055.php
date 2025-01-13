@@ -1,0 +1,1 @@
+// Example usage:\n$array = new CustomArray();\n$array['foo'] = 'bar';\necho $array['foo']; // outputs "bar"\n\nforeach ($array as $key => $value) {\n    echo "$key => $value"; // outputs "foo => bar"\n}\n\necho count($array); // outputs 1

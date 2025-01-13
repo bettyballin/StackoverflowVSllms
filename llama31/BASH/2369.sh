@@ -1,1 +1,0 @@
-bind ^A\nbind ^D\nbind ^R

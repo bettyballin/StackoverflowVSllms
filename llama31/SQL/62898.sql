@@ -1,0 +1,1 @@
+CREATE NONCLUSTERED INDEX IX_userAccountInfo_Flags ON dbo.userAccountInfo (Flags);

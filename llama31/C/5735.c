@@ -1,1 +1,0 @@
-int nanosleep(const struct timespec *rqtp, struct timespec *rmtp)\n{\n    ...\n    struct timespec ts;\n    getnanouptime(&ts);\n    ts.tv_sec += rqtp->tv_sec;\n    ts.tv_nsec += rqtp->tv_nsec;\n    ...\n    while (ts.tv_sec > 0 || ts.tv_nsec > 0) {\n        ...\n        ts.tv_nsec -= tick * 1000;\n        ...\n    }\n    ...\n}

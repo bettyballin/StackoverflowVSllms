@@ -1,1 +1,0 @@
-cp -rfv `find /mp3Dir -type f -name \*.mp3` /tmp | sed -e 's:^.*\(/.*\)-> \(.*\):\1 -> \2:'

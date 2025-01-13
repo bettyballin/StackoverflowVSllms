@@ -1,0 +1,1 @@
+SELECT * \nFROM (\n  SELECT * \n  FROM spy_hits \n  ORDER BY date DESC\n) AS subquery \nGROUP BY ip \nLIMIT 10;

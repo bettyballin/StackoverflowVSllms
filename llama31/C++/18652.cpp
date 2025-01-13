@@ -1,1 +1,0 @@
-std::ifstream file("file.txt");\nstd::string file_contents((std::istreambuf_iterator<char>(file)), std::istreambuf_iterator<char>());\nif (!file.is_open() || !file.good()) {\n    // handle error\n}

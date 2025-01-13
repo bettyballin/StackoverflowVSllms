@@ -1,1 +1,0 @@
-int sock = socket(AF_INET, SOCK_STREAM, 0);\n// ...\n\n// Shut down the socket for writing\nshutdown(sock, SHUT_WR);\n\n// Close the socket\nclose(sock);

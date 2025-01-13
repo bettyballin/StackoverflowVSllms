@@ -1,0 +1,1 @@
+respond_to :js => { :basic_stuff }, :html => { :basic_stuff, :user_redirect }

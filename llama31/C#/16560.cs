@@ -1,1 +1,0 @@
-using System;\n\nnamespace MyLibrary\n{\n    public class MyClass\n    {\n        public void MyMethod()\n        {\n            Console.WriteLine("Hello, World!");\n        }\n    }\n}

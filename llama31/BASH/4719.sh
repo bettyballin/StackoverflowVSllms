@@ -1,1 +1,0 @@
-sudo a2ensite php-5.0.0.conf\nsudo a2ensite php-5.2.8.conf

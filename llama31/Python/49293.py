@@ -1,0 +1,1 @@
+data = data.decode('latin1', 'replace')  # use latin1 as the default encoding

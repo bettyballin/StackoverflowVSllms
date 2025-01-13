@@ -1,0 +1,1 @@
+include 'non_existent_file.php'; // Warning: include(non_existent_file.php): failed to open stream: No such file or directory

@@ -1,0 +1,1 @@
+class MealsController < ApplicationController\n  def new\n    @meal = Meal.new\n  end\n\n  def create\n    @meal = Meal.new(meal_params)\n    # ...\n  end\n\n  private\n\n  def meal_params\n    params.require(:meal).permit(:name, foods_attributes: [:name])\n  end\nend

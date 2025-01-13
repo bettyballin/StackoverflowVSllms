@@ -1,1 +1,0 @@
-svn propset svn:ignore '*.[Cc][Aa][Ss][Ee]' .

@@ -1,1 +1,0 @@
-bcp [database_name].[schema_name].[table_name] in "C:\export\table_name.bcp" -S [server_name] -U [username] -P [password] -

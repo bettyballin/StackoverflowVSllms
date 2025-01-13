@@ -1,0 +1,1 @@
+Kohana::modules(array(\n    // ...\n    'MyModule' => MODPATH.'MyModule',\n    // ...\n));

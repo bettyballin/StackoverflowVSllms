@@ -1,0 +1,1 @@
+<changeSet id="1" author="your_name">\n  <addColumn tableName="your_table">\n    <column name="new_column_x" type="int"/>\n  </addColumn>\n</changeSet>

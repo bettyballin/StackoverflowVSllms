@@ -1,0 +1,1 @@
+// autoload.php\nfunction autoload($class) {\n    $file = $class . '.php';\n    if (file_exists($file)) {\n        require_once $file;\n    }\n}\nspl_autoload_register('autoload');

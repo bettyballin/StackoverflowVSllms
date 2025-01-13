@@ -1,0 +1,1 @@
+<rewrite>\n  <rules>\n    <rule name="Hide DLL extension" stopProcessing="true">\n      <match url="^test/myapp/(.*)" />\n      <action type="Rewrite" url="test/myapp.dll/{R:1}" />\n    </rule>\n  </rules>\n</rewrite>

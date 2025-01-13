@@ -1,1 +1,0 @@
-# Start phpdbg\nphpdbg -e /path/to/script.php\n\n# Set a breakpoint at a specific line\nb 10\n\n# Run the script until the breakpoint is hit\nr\n\n# Step over the next line\nn\n\n# Step into the next function call\ns\n\n# Print the value of a variable\np $variable

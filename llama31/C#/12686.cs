@@ -1,1 +1,0 @@
-using System.Diagnostics;\n\nProcessStartInfo startInfo = new ProcessStartInfo("iexplore.exe", "path/to/local/html/page");\nstartInfo.Verb = "runas";\nstartInfo.Arguments = "/user:Administrator";\nProcess.Start(startInfo);

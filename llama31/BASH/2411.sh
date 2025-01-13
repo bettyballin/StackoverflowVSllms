@@ -1,1 +1,0 @@
-sqlldr username/password@database control=control_file.ctl data=data_file.csv

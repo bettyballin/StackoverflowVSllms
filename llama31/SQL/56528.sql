@@ -1,0 +1,1 @@
+SELECT UPDATE_TIME\nFROM information_schema.tables\nWHERE TABLE_NAME = 'your_table_name'\n  AND TABLE_SCHEMA = 'your_database_name';

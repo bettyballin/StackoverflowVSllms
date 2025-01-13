@@ -1,0 +1,1 @@
+var $tempContainer = $("<tbody>");\nfor (var i = 0; i < arrCSV.length; i++) {\n  $('#' + tableId)\n    .find('[fname = ' + arrCSV[i] + ']')\n    .eq(0)\n    .parents('tr')\n    .eq(0)\n    .appendTo($tempContainer);\n}\n$("#" + tableId).append($tempContainer.children());

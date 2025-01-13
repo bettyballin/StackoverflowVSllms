@@ -1,1 +1,0 @@
-Response.Clear();\nResponse.ContentType = "text/plain";\nResponse.Charset = "windows-1252";\nResponse.WriteFile(filePath);\nResponse.End();

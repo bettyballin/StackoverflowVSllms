@@ -1,1 +1,0 @@
-gpg.exe --keyring C:\Path\To\Keyring --a -u Alex --passphrase secretpassword --yes --clearsign -o C:\Result.asc C:\InputFile.txt

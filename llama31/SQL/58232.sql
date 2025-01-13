@@ -1,0 +1,1 @@
+SELECT ParentId, ChildId\nFROM YourTableName\nWHERE ParentId = @parentId\nAND ChildId = (\n    SELECT MAX(ChildId)\n    FROM YourTableName\n    WHERE ParentId = @parentId\n);

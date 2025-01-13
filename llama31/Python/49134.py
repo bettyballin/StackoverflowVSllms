@@ -1,0 +1,1 @@
+def small_function_1():\n    # focused on one specific task\n    pass\n\ndef small_function_2():\n    # focused on another specific task\n    pass\n\ndef long_function():\n    small_function_1()\n    small_function_2()\n    # other logic here

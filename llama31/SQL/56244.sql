@@ -1,0 +1,1 @@
+SELECT \n  name,\n  CASE \n    WHEN name IN (SELECT name FROM admins) THEN 'admins'\n    ELSE 'users'\n  END AS source_table\nFROM (\n  SELECT name FROM users WHERE name LIKE '%alex%'\n  UNION ALL\n  SELECT name FROM admins WHERE name LIKE '%alex%'\n) AS merged_table;

@@ -1,1 +1,0 @@
-typedef void (WINAPI *INITCOMMONCONTROLS)(void);

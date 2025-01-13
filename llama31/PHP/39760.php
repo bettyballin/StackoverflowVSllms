@@ -1,0 +1,1 @@
+$probabilityPercentage = 0.05;\n$threshold = (int) (100 / $probabilityPercentage); // 2000\n\n$randomValue = rand(1, $threshold);\nreturn $randomValue === 1; // 1 in 2000 chance of returning true

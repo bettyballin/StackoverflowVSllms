@@ -1,0 +1,1 @@
+$(document).ready(function() {\n    $('.edit').editable('save.php', {\n        onblur: 'cancel'\n    });\n});

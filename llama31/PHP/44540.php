@@ -1,0 +1,1 @@
+$text = htmlspecialchars($_GET['text']);\necho strtoupper($text);

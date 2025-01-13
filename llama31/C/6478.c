@@ -1,1 +1,0 @@
-void* src = ...;\nvoid* dst = ...;\nsize_t size = sizeof(src);\n\nif (size <= sizeof(dst)) {\n    memcpy(dst, src, size);\n} else {\n    // handle error: destination buffer too small\n}

@@ -1,0 +1,1 @@
+Option Strict On\n\nPublic Class Form1\n\n  Private Sub btnPlus_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles btnPlus.Click\n    Dim i As Integer\n    If Integer.TryParse(txtAdd.Text, i) Then\n      i += 1\n      txtAdd.Text = i.ToString()\n    Else\n      MessageBox.Show("Invalid input. Please enter a valid integer.")\n    End If\n  End Sub\nEnd Class

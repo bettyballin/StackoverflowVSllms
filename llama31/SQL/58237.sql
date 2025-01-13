@@ -1,0 +1,1 @@
+CREATE PROCEDURE dbo.dmsInsertTestData @ptestdata VarChar(50)\nAS\n  SET NOCOUNT ON\n  MERGE INTO dbo.MyTestData AS target\n  USING (VALUES (@ptestdata)) AS source (testdata)\n  ON target.testdata = source.testdata\n  WHEN NOT MATCHED THEN\n    INSERT (testdata) VALUES (source.testdata);\nRETURN 0

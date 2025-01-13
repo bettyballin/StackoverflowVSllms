@@ -1,0 +1,1 @@
+class UserTest < ActiveSupport::TestCase\n  should_respond_to :calculate_hashed_password\nend

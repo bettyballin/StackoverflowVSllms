@@ -1,1 +1,0 @@
-.parent {\n  display: flex;\n  align-items: center;\n  height: 200px;\n  background-color: #f0f0f0;\n}\n\n.child {\n  background-color: #ccc;\n  width: 50%;\n  height: 50%;\n  margin: 0 auto;\n}

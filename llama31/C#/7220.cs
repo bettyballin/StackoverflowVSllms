@@ -1,1 +1,0 @@
-[SetUp]\npublic void SetUp()\n{\n    mocks = new MockRepository();\n    _cityService = MockRepository.GenerateStub<ICityService>();\n    _sesssionData = new SessionData { UserId = 1, SessionId = "1" };\n\n    controller = new TestSessionController();\n    controller.SessionData = _sesssionData;\n}

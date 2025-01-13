@@ -1,1 +1,0 @@
-#buttonsColumn {\n  display: flex;\n  flex-direction: row;\n}\n\n#buttonsColumn button, #buttonsColumn a {\n  flex-grow: 1;\n  width: 100%;\n}

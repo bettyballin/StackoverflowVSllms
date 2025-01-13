@@ -1,1 +1,0 @@
-public class BaseController : Controller\n{\n    protected override void OnActionExecuting(ActionExecutingContext filterContext)\n    {\n        // Put your host header logic here\n        var hostHeader = filterContext.HttpContext.Request.Url.Host;\n        // ...\n    }\n}

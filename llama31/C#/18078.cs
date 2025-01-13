@@ -1,1 +1,0 @@
-using NUnit.Framework;\n\n[TestFixture]\n[Parallelizable(ParallelScope.All)]\npublic class YourTestFixture\n{\n    // Your tests here\n}

@@ -1,0 +1,1 @@
+require 'webrick'\nrequire 'erb'\n\nserver = WEBrick::HTTPServer.new(:Port => 8000)\n\nserver.mount_proc '/' do |req, res|\n  template = ERb.new(File.read('template.erb'))\n  # set variables here...\n  res.body = template.result(binding)\nend\n\ntrap 'INT' do\n  server.shutdown\nend\n\nserver.start

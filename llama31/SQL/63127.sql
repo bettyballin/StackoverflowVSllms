@@ -1,0 +1,1 @@
+GRANT EXECUTE ON PROCEDURE your_database.conditional_update TO your_user;

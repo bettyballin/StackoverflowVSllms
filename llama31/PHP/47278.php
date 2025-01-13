@@ -1,0 +1,1 @@
+$stmt = $mysqli->prepare("SELECT * FROM " . $db_table . " WHERE id REGEXP '^?=[0-9]*'");\n$stmt->bind_param("i", $id);\n$stmt->execute();

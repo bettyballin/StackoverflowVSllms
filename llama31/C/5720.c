@@ -1,1 +1,0 @@
-struct file_operations Fops = {\n    .read = device_read,\n    .write = device_write,\n    .unlocked_ioctl = device_ioctl, // No BKL acquired\n    // .ioctl = device_ioctl, // Would acquire BKL\n};

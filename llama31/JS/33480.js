@@ -1,0 +1,1 @@
+$(".varSel").live("change", function(){\n    var formdata = $(this).closest('form').serialize();\n    $.ajax({\n        type: "POST",\n        url: "library/varPrice.php",\n        data: formdata,\n        success: function(html){\n            $('.price').html(html);\n        }\n    });\n});

@@ -1,0 +1,1 @@
+SELECT empName, GroupConcat(projID) AS projIDs\nFROM project_members\nGROUP BY empName;

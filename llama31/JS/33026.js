@@ -1,0 +1,1 @@
+const bcrypt = require('bcrypt');\n\n// Hash a password\nconst hashedPassword = bcrypt.hashSync('mysecretpassword', 10);\n\n// Verify a password\nconst isValid = bcrypt.compareSync('mysecretpassword', hashedPassword);

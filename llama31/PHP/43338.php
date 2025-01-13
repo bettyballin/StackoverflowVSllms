@@ -1,0 +1,1 @@
+function YOURMODULE_init() {\n  if (!isset($_COOKIE['referer'])) {\n    $referer = $_SERVER['HTTP_REFERER'];\n    setcookie('referer', $referer, time() + 3600); // expires in 1 hour\n  }\n}

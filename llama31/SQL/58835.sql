@@ -1,0 +1,1 @@
+CREATE TABLE MyTable (\n    Col1 INT PRIMARY KEY,\n    Col2 INT,\n    Col3 INT,\n    Col4 INT\n);

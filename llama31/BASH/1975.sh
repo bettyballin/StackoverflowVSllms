@@ -1,1 +1,0 @@
-# Add the new user account to the IIS_IUSRS group\nnet localgroup IIS_IUSRS <new_username> /add

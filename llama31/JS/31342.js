@@ -1,0 +1,1 @@
+// Get the element\nconst barElement = document.getElementById('bar');\n\n// Set the event handler\nbarElement.addEventListener('click', doBar);

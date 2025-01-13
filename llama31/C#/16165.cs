@@ -1,1 +1,0 @@
-public ActionResult CreateCourseDate(MyViewModel model)

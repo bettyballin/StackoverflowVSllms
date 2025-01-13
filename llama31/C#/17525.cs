@@ -1,1 +1,0 @@
-foreach (XPathNavigator node in xPathNavigator.Select("//locations/*"))\n{\n    string value = node.SelectSingleNode("./cell").Value;\n}

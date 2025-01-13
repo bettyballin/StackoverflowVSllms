@@ -1,1 +1,0 @@
-.image-link {\n  position: relative;\n}\n\n.image-hover {\n  position: absolute;\n  top: 0;\n  left: 0;\n  display: none;\n}\n\n.image-link:hover .image-hover {\n  display: block;\n}

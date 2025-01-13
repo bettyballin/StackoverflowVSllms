@@ -1,1 +1,0 @@
-[ServiceBehavior(MaxStackSize = 1024 * 1024)] // 1MB stack size\npublic class MyService : IMyService\n{\n    // ...\n}

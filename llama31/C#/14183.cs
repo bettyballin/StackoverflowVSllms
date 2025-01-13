@@ -1,1 +1,0 @@
-string inputFile = "input.xml";\nstring encryptedFile = "encrypted.xml";\nstring decryptedFile = "decrypted.xml";\n\nXmlEncryption.EncryptXmlFile(inputFile, encryptedFile);\nXmlEncryption.DecryptXmlFile(encryptedFile, decryptedFile);

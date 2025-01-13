@@ -1,0 +1,1 @@
+import sqlparse\n\n# Sample SQL query\nquery = "SELECT * FROM users WHERE age > 18 AND country = 'USA'"\n\n# Parse the query\nparsed_query = sqlparse.parse(query)\n\n# Print the parsed query\nprint(parsed_query)

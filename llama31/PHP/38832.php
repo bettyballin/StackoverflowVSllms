@@ -1,0 +1,1 @@
+$randomId = openssl_random_pseudo_bytes(32);\n$token = JWT::encode(['exp' => time() + 3600, 'form' => 'step2'], 'your_secret_key', 'HS256');\n\n$link = 'https://www.mysite.com/form/step2/' . bin2hex($randomId) . '?token=' . $token;

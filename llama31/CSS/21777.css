@@ -1,1 +1,0 @@
-#wrapper {\n    position: relative;\n    z-index: 1;\n}\n\n#header {\n    position: fixed;\n    z-index: 2;\n}\n\n#content {\n    position: relative;\n    z-index: 3;\n}\n\n#popup {\n    position: absolute;\n    z-index: 4;\n}

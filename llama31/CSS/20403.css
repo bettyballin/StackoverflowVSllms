@@ -1,1 +1,0 @@
-#arrow {\n  border-style: solid;\n  margin: 0;\n  padding: 0;\n  border-width: 100px 0px 100px 50px;\n  border-color: blue blue blue red;\n  border: none; /* Add this line */\n  box-sizing: border-box; /* Add this line */\n}

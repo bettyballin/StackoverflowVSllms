@@ -1,0 +1,1 @@
+SELECT \n    index_name = ix.name,\n    index_size_mb = (ps.used_page_count * 8) / 1024.0\nFROM \n    sys.dm_db_index_physical_stats(DB_ID(), OBJECT_ID('your_table_name'), NULL, NULL, NULL) AS ps\nINNER JOIN \n    sys.indexes AS ix ON ps.object_id = ix.object_id AND ps.index_id = ix.index_id\nWHERE \n    ix.name = 'IX_MY_INDEX';

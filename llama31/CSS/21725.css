@@ -1,1 +1,0 @@
-div {\n  background: \n    url('main-background-image.jpg') no-repeat top, \n    url('repeatable-sliver-image.jpg') repeat bottom;\n  background-size: 100% auto, auto 100px; /* set size for each image */\n}

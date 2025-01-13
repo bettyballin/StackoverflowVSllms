@@ -1,0 +1,1 @@
+var swf = air.bridge.createRootSprite();\nswf.load("path/to/your/swf/file.swf");\n\n// Call the myFunction function in the SWF\nswf.myFunction();

@@ -1,0 +1,1 @@
+function tokenizer($text) {\n    $text = trim(strtolower($text));\n    $pattern = '/[^\wäöüß-]+/u'; // added unicode modifier\n    return preg_split($pattern, $text, -1, PREG_SPLIT_NO_EMPTY);\n}\n\n$text = 'This is an example text, it contains commas and full-stops. Exclamation marks, too! Question marks? All punctuation marks you know.';\nprint_r(tokenizer($text));

@@ -1,0 +1,1 @@
+use Zend\Filter\StringTrim;\nuse Zend\Validate\InArray;\n\n// Validate language input\n$languages = array('en', 'fr', 'de'); // allowed languages\n$validator = new InArray($languages);\n$filter = new StringTrim();\n\n$userLang = $filter->filter($userInput);\nif (!$validator->isValid($userLang)) {\n    // handle invalid input\n}

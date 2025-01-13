@@ -1,1 +1,0 @@
-int test (int x)\n{\n  int y;\n  // do something with the high byte (AH, BH, CH, or DH)\n  asm ("movb $0x12, %0\n\t": "=h"(y) :"0"(x));\n  return y;\n}

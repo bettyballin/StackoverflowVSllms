@@ -1,0 +1,1 @@
+$rowid = $_GET['rowid'];\n$values = explode(',', $rowid);\n$firstValue = $values[0];\n$secondValue = $values[1];\n\necho "First value: $firstValue";\necho "Second value: $secondValue";

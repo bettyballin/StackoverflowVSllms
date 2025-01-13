@@ -1,1 +1,0 @@
-public JsonResult List(int count)\n{\n    var announcements = // retrieve announcements\n    return Json(new { announcements }, JsonRequestBehavior.AllowGet);\n}

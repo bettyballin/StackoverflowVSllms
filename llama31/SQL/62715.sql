@@ -1,0 +1,1 @@
+SELECT\nCASE WHEN fldField LIKE '%YYY%' COLLATE SQL_Latin1_General_CP1_CI_AS THEN 'OTH' ELSE 'XXX' END AS newField\nFROM tmpTable

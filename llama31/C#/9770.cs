@@ -1,1 +1,0 @@
-IQueryable<IRevision<T>> query = context.GetTable(typeof(T))\n    .Cast<IRevision<T>>();\n\n// At this point, the query has not been executed\n\nIRevision<T> result = query.SingleOrDefault(o => o.ID == recordId);\n\n// Now the query has been executed

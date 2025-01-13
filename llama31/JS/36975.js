@@ -1,0 +1,1 @@
+app.post('/MyUrl', (req, res) => {\n  // Error handling checks...\n  if (error) {\n    res.status(401).json({ message: 'You are not logged in' });\n  } else if (anotherError) {\n    res.status(403).json({ message: 'You do not have permission' });\n  } else {\n    // Successful response...\n    res.json({ result: 'success' });\n  }\n});

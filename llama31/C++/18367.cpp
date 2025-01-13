@@ -1,1 +1,0 @@
-template <typename T> T max(T a, T b) {} // external linkage

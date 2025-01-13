@@ -1,1 +1,0 @@
-int result = 1;\nfor (int i = 0; i < 3; i++) {\n    result *= 2;\n}

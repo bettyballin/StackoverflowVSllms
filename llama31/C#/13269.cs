@@ -1,1 +1,0 @@
-using System.Globalization;\nusing System.Threading;\n\nprotected void Application_Start(object sender, EventArgs e)\n{\n    Thread.CurrentThread.CurrentCulture = CultureInfo.CreateSpecificCulture("en-GB");\n    Thread.CurrentThread.CurrentUICulture = CultureInfo.CreateSpecificCulture("en-GB");\n}

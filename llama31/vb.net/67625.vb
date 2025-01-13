@@ -1,0 +1,1 @@
+Imports System.Collections.Generic\n\nClass Deck\n    Public cards As New List(Of Card)\n\n    Sub New()\n        For i As Integer = 0 To 51\n            cards.Add(New Card())\n        Next\n    End Sub\nEnd Class

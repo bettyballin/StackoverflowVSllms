@@ -1,0 +1,1 @@
+var images = new Array();\nfunction preload() {\n  for (i = 0; i < preload.arguments.length; i++) {\n    images[i] = new Image();\n    images[i].src = preload.arguments[i];\n  }\n}\npreload("pic.jpg", "pic2.jpg");

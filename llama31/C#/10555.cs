@@ -1,1 +1,0 @@
-sqlCommand.Parameters.AddWithValue("@DateParam", DBNull.Value)\nsqlCommand.Parameters("@DateParam").DbType = DbType.DateTime

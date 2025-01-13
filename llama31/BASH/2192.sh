@@ -1,1 +1,0 @@
-sudo ln -s /usr/lib/libXaw.so.7 /usr/lib/libXaw.so

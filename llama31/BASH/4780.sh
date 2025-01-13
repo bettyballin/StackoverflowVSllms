@@ -1,1 +1,0 @@
-g++ -pthread -Wl,-bnoasync exception.cpp\n./a.out

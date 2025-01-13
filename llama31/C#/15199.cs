@@ -1,1 +1,0 @@
-public class YourTable1\n{\n    public int Id { get; set; }\n    public string Column1 { get; set; }\n    public string Column2 { get; set; }\n    // ...\n}

@@ -1,0 +1,1 @@
+echo "msg_footer = " . json_encode($msg_footer, JSON_PRETTY_PRINT) . "\n";

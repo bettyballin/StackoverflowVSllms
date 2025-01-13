@@ -1,0 +1,1 @@
+import hashlib\n\nwith open('file1.txt', 'rb') as f1, open('file2.txt', 'rb') as f2:\n    hash1 = hashlib.md5(f1.read()).hexdigest()\n    hash2 = hashlib.md5(f2.read()).hexdigest()\n\nif hash1 == hash2:\n    print("Files are identical")\nelse:\n    print("Files are different")

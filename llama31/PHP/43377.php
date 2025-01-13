@@ -1,0 +1,1 @@
+$test = $_GET['test'];\nif (strpos($test, 'myprotocol://') === 0) {\n    // Handle the custom protocol\n    $url = substr($test, 12); // Remove the custom protocol prefix\n    // Process the URL\n}

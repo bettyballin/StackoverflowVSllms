@@ -1,1 +1,0 @@
-git remote add origin https://github.com/yourusername/yourrepository.git\ngit push -u origin master

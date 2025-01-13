@@ -1,0 +1,1 @@
+from bs4 import BeautifulSoup\n\nsoup = BeautifulSoup(c, 'lxml')

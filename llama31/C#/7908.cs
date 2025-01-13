@@ -1,1 +1,0 @@
-int bpp = calculateBitsPerPixel(8, 3); // bpp = 24

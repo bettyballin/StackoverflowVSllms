@@ -1,1 +1,0 @@
-public class DepartmentEmployees\n{\n    public ILookup<string, Employee> Departments { get; set; }\n\n    public DepartmentEmployees(IEnumerable<Employee> employees)\n    {\n        Departments = employees.ToLookup(e => e.DepartmentId);\n    }\n}

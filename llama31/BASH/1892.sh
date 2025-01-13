@@ -1,1 +1,0 @@
-perl -e 'srand(); print $line if (rand() < 0.025);' input.txt > output.txt

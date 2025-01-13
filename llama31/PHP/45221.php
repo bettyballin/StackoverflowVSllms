@@ -1,0 +1,1 @@
+while($row = mysql_fetch_array($result)){\n    var_dump($row);\n}

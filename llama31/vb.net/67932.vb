@@ -1,0 +1,1 @@
+=IIF(IsNothing(Fields!YourField.Value), True, False)

@@ -1,1 +1,0 @@
-ul.navMenu li {\n  display: inline;\n  margin-left: 0;\n}\n\nul.navMenu a {\n  border-left: solid 1px #333333;\n  padding-left: 0.4em;\n  padding-right: 0.4em;\n}\n\nul.navMenu li:not(:first-child) a {\n  border-left: solid 1px #333333;\n}

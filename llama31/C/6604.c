@@ -1,1 +1,0 @@
-// Example of a stack\nstruct Stack {\n    int size;\n    struct StackNode *top;\n};\n\nstruct StackNode {\n    int data;\n    struct StackNode *next;\n};

@@ -1,0 +1,1 @@
+<?php\n  error_reporting(E_ALL);\n  ini_set('display_errors', 1);\n\n  $fp = @fopen('php://input', 'r');\n  if ($fp) {\n    $requestBody = stream_get_contents($fp);\n    fclose($fp);\n  }\n\n  $headers = apache_request_headers();\n\n  echo "Request Body:\n";\n  var_dump($requestBody);\n  echo "\n\nHeaders:\n";\n  var_dump($headers);\n?>

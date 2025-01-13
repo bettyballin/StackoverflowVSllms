@@ -1,1 +1,0 @@
-void generic_function(void* data, void (*func)(void*)) {\n    func(data);\n}

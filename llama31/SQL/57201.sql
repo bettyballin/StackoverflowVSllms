@@ -1,0 +1,1 @@
+WITH PaginatedResults AS (\n    SELECT *, ROW_NUMBER() OVER (ORDER BY YourColumn) AS RowNum\n    FROM MyTable\n)\nSELECT * \nFROM PaginatedResults\nWHERE RowNum BETWEEN 51 AND 75;

@@ -1,1 +1,0 @@
-someuser="username with spaces"\n\nif [ "$someuser" = "username with spaces" ]; then\n  echo "Match"\nfi\n\nif [[ $someuser == "username with spaces" ]]; then\n  echo "Match"\nfi

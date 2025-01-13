@@ -1,1 +1,0 @@
-keytool -importkeystore -srckeystore combined.p12 -srcstoretype PKCS12 -destkeystore ./broker.ks

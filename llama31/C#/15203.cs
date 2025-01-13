@@ -1,1 +1,0 @@
-ScriptObject state = HtmlPage.Window.CreateInstance("Object");\nstate["foo"] = myState.Foo;\nstate["bar"] = myState.Bar;\n\nHtmlPage.Window.Invoke("Sys.Application.addHistoryPoint", state);

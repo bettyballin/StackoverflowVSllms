@@ -1,0 +1,1 @@
+var newRequired = jQuery.validator.methods.required.bind(jQuery.validator.methods);

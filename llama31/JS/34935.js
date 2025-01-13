@@ -1,0 +1,1 @@
+function openPlayerWindow() {\n  var playerWindow = window.open('', 'player_window', 'width=295,height=200');\n  if (playerWindow.location.href !== 'about:blank') {\n    playerWindow.location.href = '/player.php';\n  }\n}

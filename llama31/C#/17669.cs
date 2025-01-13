@@ -1,1 +1,0 @@
-string initVector = "HR$2pIjHR$2pIj";\nbyte[] initVectorBytes = Encoding.ASCII.GetBytes(initVector);

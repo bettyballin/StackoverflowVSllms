@@ -1,1 +1,0 @@
-Process process = new Process();\nprocess.StartInfo.FileName = "xdiscbld.exe";\nprocess.StartInfo.Arguments = "your arguments here";\nprocess.StartInfo.UseShellExecute = false;\nprocess.StartInfo.RedirectStandardOutput = true;\nprocess.Start();\n\n// Read the output\nstring output = process.StandardOutput.ReadToEnd();\nprocess.WaitForExit();

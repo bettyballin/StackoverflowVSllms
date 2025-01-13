@@ -1,1 +1,0 @@
-@echo off\n\n:: Set the registry key and value\nset KEY=HKCU\Software\MyApp\nset VALUE=MySetting\nset DATA=NewValue\n\n:: Modify the registry value\nreg add %KEY% /v %VALUE% /t REG_SZ /d %DATA% /f

@@ -1,1 +1,0 @@
-regsvr32 /i "C:\Program Files\Company Name\Shared\MyDll.dll"

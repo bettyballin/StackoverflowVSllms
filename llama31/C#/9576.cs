@@ -1,1 +1,0 @@
-void Session_End(object sender, EventArgs e)\n{\n    HttpCookie cookie = new HttpCookie("sessionGUID");\n    cookie.Expires = DateTime.Now.AddDays(-1);\n    Response.Cookies.Set(cookie);\n}

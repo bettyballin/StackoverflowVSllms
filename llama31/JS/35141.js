@@ -1,0 +1,1 @@
+$(document).ready(function(){\n  $('#form1').submit(function(event){\n    if (!$('.cBox:checked').length || !$('input[name="print"]:checked').length) {\n      alert('Please select at least one checkbox and one radio button.');\n      event.preventDefault();\n    }\n  });\n});

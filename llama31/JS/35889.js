@@ -1,0 +1,1 @@
+$(document).ajaxSend(function(event, xhr, settings) {\n    // Show loading notification\n    $("#loading-notification").show();\n});\n\n$(document).ajaxComplete(function(event, xhr, settings) {\n    // Hide loading notification\n    $("#loading-notification").hide();\n});

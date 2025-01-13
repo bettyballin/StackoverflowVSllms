@@ -1,0 +1,1 @@
+<configuration>\n  <system.web>\n    <authentication mode="Windows">\n      <providers>\n        <add type="System.Web.Security.KerberosAuthenticationModule, System.Web" />\n      </providers>\n    </authentication>\n  </system.web>\n</configuration>

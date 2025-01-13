@@ -1,0 +1,1 @@
+// In application/bootstrap.php\nRoute::set('ajax/login', 'ajax/login(/<action>)')\n    ->defaults(array(\n        'controller' => 'home',\n        'action'     => 'login',\n    ));

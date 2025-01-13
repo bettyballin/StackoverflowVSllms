@@ -1,1 +1,0 @@
-sdelete /accepteula /p 3 /s /q yourfile.txt

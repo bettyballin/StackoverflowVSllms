@@ -1,1 +1,0 @@
-using Evtx;\n\nEvtxReader reader = new EvtxReader("path/to/archived/eventlog.evtx");\n\nforeach (EvtxRecord record in reader)\n{\n    Console.WriteLine(record.EventId);\n    Console.WriteLine(record.LogName);\n    Console.WriteLine(record.Level);\n    Console.WriteLine(record.Description);\n}

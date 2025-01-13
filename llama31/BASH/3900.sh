@@ -1,1 +1,0 @@
-openssl enc -aes-256-cbc -in config.json -out config.json.enc

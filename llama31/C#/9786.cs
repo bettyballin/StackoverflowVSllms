@@ -1,1 +1,0 @@
-public class GenericProxy<T>\n    where T: ClientBase\n{\n    T _proxy;\n    public GenericProxy(Func<string, T> factory, string configName)\n    {\n        _proxy = factory(configName);\n    }\n}

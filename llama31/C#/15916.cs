@@ -1,1 +1,0 @@
-TryUpdateModel(newUser, collection);

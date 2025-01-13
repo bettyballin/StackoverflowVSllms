@@ -1,1 +1,0 @@
-using Microsoft.Silverlight.Testing;

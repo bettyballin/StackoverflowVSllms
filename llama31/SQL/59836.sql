@@ -1,0 +1,1 @@
+DECLARE @N int = 6\nDECLARE @RowID int = 14\nDECLARE @ColumnName nvarchar(128)\n\nSELECT @ColumnName = COLUMN_NAME\nFROM INFORMATION_SCHEMA.COLUMNS\nWHERE TABLE_NAME = 'MyTable' AND ORDINAL_POSITION = @N\n\nDECLARE @sql nvarchar(max) = 'SELECT [' + @ColumnName + '] FROM MyTable WHERE RowID = @RowID'\n\nEXEC sp_executesql @sql, N'@RowID int', @RowID = @RowID

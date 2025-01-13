@@ -1,1 +1,0 @@
-if (context.Request.Url.Scheme != "https")\n{\n    // Reject non-SSL requests\n    context.Response.StatusCode = 403;\n    context.Response.StatusDescription = "SSL is required";\n    context.Response.End();\n    return;\n}

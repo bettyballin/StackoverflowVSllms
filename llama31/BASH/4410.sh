@@ -1,1 +1,0 @@
-msdeploy -verb:sync -source:package="C:\Path\To\Your\PackageTmp" -dest:auto,ComputerName="https://your-remote-server.com/msdeploy.axd"

@@ -1,0 +1,1 @@
+var features = "height=400,width=550,top=60,left=100,"\n                + "toolbar=no,location=no,menubar=no,status=no,"\n                + "scrollbars=yes,resizable=yes,showHelp=false";

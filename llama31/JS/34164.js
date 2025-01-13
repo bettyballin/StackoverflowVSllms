@@ -1,0 +1,1 @@
+var docDefinition = {\n  header: 'simple text',\n  content: [\n    // Your table content here, structured according to pdfMake's syntax\n  ],\n};\n\npdfMake.createPdf(docDefinition).download();

@@ -1,0 +1,1 @@
+Sys.WebForms.PageRequestManager.getInstance().add_pageLoaded(function(sender, args) {\n    var updatedPanels = args.get_panelsUpdated();\n    for (var i = 0; i < updatedPanels.length; i++) {\n        if (updatedPanels[i].id === "YourUpdatePanelId") {\n            // Call your JavaScript function here\n            yourFunction();\n            break;\n        }\n    }\n});

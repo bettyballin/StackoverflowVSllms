@@ -1,0 +1,1 @@
+while (($data = fgetcsv($filehandle, 1000, "\t")) !== FALSE) {\n    // ...\n}

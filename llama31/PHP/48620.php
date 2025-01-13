@@ -1,0 +1,1 @@
+$jsonData = file_get_contents('http://www.trynt.com/symbol-lookup-api/v2/?s=IBM&fo=json&f=0');\n$jsonData = json_decode($jsonData, true);

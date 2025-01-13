@@ -1,0 +1,1 @@
+user = User.objects.get(id=1)\nevent = Event.objects.get(id=1)\nrole = Role.objects.get(id=1)\n\nevent_user_role = EventUserRole.objects.create(event=event, user=user, role=role)

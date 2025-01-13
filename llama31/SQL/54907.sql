@@ -1,0 +1,1 @@
+SELECT ocp.*, oc.*, GROUP_CONCAT( u.username SEPARATOR ', ') AS `memjoined`\nFROM gangs_ocs_process ocp\nJOIN gangs_ocs oc ON oc.oc_name = ocp.crimename\nLEFT JOIN users u ON FIND_IN_SET(u.userid, ocp.membersin)\nWHERE ocp.ocid = 1 AND ocp.gangid = 1\nGROUP BY ocp.ocid\nLIMIT 0, 30

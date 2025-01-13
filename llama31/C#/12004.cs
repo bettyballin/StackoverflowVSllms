@@ -1,1 +1,0 @@
-bool continueProcessing = true;\nPeoples.ForEach(delegate(People someone)\n{\n    if (continueProcessing)\n    {\n        if (someone.Name == "foo")\n        {\n            continueProcessing = false;\n        }\n        else\n        {\n            // rest of your code\n        }\n    }\n});

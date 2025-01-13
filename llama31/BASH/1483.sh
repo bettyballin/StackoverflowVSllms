@@ -1,1 +1,0 @@
-# Generate CA certificate and private key\nopenssl req -x509 -newkey rsa:2048 -nodes -keyout ca.key -out ca.crt -days 365\n\n# Generate client certificate and private key\nopenssl req -newkey rsa:2048 -nodes -keyout client.key -out client.csr\nopenssl x509 -req -in client.csr -CA ca.crt -CAkey ca.key -CAcreateserial -out client.crt -days 365

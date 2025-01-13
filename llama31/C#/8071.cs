@@ -1,1 +1,0 @@
-using System.Security.Principal;\n\nbool IsRunningAsAdmin()\n{\n    return new WindowsPrincipal(WindowsIdentity.GetCurrent()).IsInRole(WindowsBuiltInRole.Administrator);\n}

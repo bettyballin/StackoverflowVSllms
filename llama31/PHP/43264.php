@@ -1,0 +1,1 @@
+$string = 'http://foo.bar.com/some_directory/xx/a12.php?whatever=youwant';\n\n$pattern = '/\/([a-z]{2})\/([^\/]+)\.php/';\n\npreg_match($pattern, $string, $matches);\n\n$xx = $matches[1];\n$a12 = $matches[2];\n\necho "xx: $xx, a12: $a12";

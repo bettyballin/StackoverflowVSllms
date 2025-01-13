@@ -1,1 +1,0 @@
-text = Regex.Replace(text, @"(?<=\d)(?=(\d{3})+\b)", ",");

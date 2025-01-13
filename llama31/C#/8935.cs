@@ -1,1 +1,0 @@
-// Add a delay to give Excel a chance to recover\nThread.Sleep(100); // sleep for 100ms

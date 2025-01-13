@@ -1,1 +1,0 @@
-sftp -r <remote_file> <local_file>

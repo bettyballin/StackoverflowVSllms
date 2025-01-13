@@ -1,1 +1,0 @@
-// Handle errors and exceptions\ntry {\n    // LDAP operations here\n} catch (LDAPException e) {\n    // Handle LDAP exceptions\n} catch (Exception e) {\n    // Handle other exceptions\n}

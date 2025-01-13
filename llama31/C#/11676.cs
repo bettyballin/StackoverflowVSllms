@@ -1,1 +1,0 @@
-using Markdig;\n\n// assume 'comment' is the user-input comment string\nvar html = Markdig.Markdown.ToHtml(comment);\n\n// now 'html' is safe to render

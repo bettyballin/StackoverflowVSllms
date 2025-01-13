@@ -1,1 +1,0 @@
-#!/bin/bash\n\nSERVER="//server/share"\nUSERNAME="username"\nFILE=$1\nOFFSET=$2\nLENGTH=$3\n\nsmbclient $SERVER -U $USERNAME -c "pread $FILE $OFFSET $LENGTH"

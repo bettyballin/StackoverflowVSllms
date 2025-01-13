@@ -1,0 +1,1 @@
+fetch(url, { timeout: 5000 })\n  .then(response => {\n    if (response.ok) {\n      element(id).innerHTML = "Online";\n    } else {\n      element(id).innerHTML = "Offline";\n    }\n  })\n  .catch(error => {\n    element(id).innerHTML = "Offline";\n  });

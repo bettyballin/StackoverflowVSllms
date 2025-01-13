@@ -1,1 +1,0 @@
-#include <stdio.h>\n#include <stdlib.h>\n\nint main() {\n    char input[10];\n    printf("Enter an integer: ");\n    fgets(input, sizeof(input), stdin);\n    int num = atoi(input);\n    printf("You entered: %d\n", num);\n    return 0;\n}

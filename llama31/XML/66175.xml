@@ -1,0 +1,1 @@
+<class name="Parent" table="Parent">\n    <id name="ID" column="ID" type="Int32">\n        <generator class="native" />\n    </id>\n    <!-- other properties -->\n</class>\n\n<subclass name="Child" table="Child" extends="Parent">\n    <!-- other properties -->\n</subclass>

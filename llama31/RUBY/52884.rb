@@ -1,0 +1,1 @@
+class Payment < ApplicationController\n  before_filter :login_required\n\n  def new\n    if response.status == 302 && response.location.present?\n      # A redirect has already been called, do nothing\n    else\n      redirect_to some_other_path if @order.is_free?\n    end\n    @payment = Payment.new\n  end\nend

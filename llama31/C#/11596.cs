@@ -1,1 +1,0 @@
-dataGridView1.KeyDown += dataGridView1_KeyDown;

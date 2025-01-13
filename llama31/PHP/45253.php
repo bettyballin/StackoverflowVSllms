@@ -1,0 +1,1 @@
+// Create a common group (e.g., "imageadmins")\n// Add both "nobody" and "username" users to the group\n\n// Set the setgid bit on the directory\nchmod('/path/to/image/directory', 02775); // 02775 = rwxrws

@@ -1,1 +1,0 @@
-gcc -std=c99 your_code.c -o your_output

@@ -1,1 +1,0 @@
-foreach (var user in users)\n{\n    foreach (var group in user.BelongsTo)\n    {\n        groupUsers[group.Id].Add(user);\n    }\n}

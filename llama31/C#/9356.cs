@@ -1,1 +1,0 @@
-// In your GUI project\nusing MyDllNamespace;\n\npublic class MyGuiClass\n{\n    private MyDllClass _myDll;\n\n    public MyGuiClass()\n    {\n        _myDll = new MyDllClass();\n        _myDll.MyMethod();\n        int result = _myDll.MyOtherMethod(42);\n    }\n}

@@ -1,0 +1,1 @@
+Imports System.IO\n\nModule Module1\n    Sub Main()\n        Dim filePath As String = Path.Combine(AppDomain.CurrentDomain.BaseDirectory, "yourfile.txt")\n        Dim fileContent As String = File.ReadAllText(filePath)\n        Console.WriteLine(fileContent)\n    End Sub\nEnd Module

@@ -1,0 +1,1 @@
+Dim prodSvc = ObjectFactory.GetInstance(Of IProductService)\nDim prod = prodSvc.GetProductWithRelatedData(1)\nprod.Name = "New Name"\nprodSvc.UpdateProduct(prod)

@@ -1,1 +1,0 @@
-git config --global remote.uploadpack /usr/local/bin/git-upload-pack

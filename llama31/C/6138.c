@@ -1,1 +1,0 @@
-HMODULE handleB = LoadLibraryA("libB.dll");\n// ...\nFreeLibrary(handleB); // Unload library B

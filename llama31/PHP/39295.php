@@ -1,0 +1,1 @@
+$stmt = $pdo->prepare("INSERT IGNORE INTO my_table VALUES(:client_id, :id, 1, NOW())");\n$stmt->bindParam(':client_id', $_SESSION['client']['id']);\n$stmt->bindParam(':id', $_POST['id']);\n$stmt->execute();

@@ -1,1 +1,0 @@
-# You can use PowerShell to check for driver updates\nGet-WmiObject Win32_PnPSignedDriver | Where-Object {$_.DriverName -like "*your_driver_name*"} | ForEach-Object {\n    Write-Host "Driver Name: $($_.DriverName)"\n    Write-Host "Driver Version: $($_.DriverVersion)"\n    Write-Host "Driver Date: $($_.DriverDate)"\n}

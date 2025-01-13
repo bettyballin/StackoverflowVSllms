@@ -1,1 +1,0 @@
-using System.Net;\n\nHttpWebRequest request = (HttpWebRequest)WebRequest.Create("https://api.example.com/data");\nHttpWebResponse response = (HttpWebResponse)request.GetResponse();\n\nstring responseBody = new StreamReader(response.GetResponseStream()).ReadToEnd();

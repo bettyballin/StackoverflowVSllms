@@ -1,1 +1,0 @@
-using System.IO.Ports;\n\nSerialPort serialPort = new SerialPort("COM1", 9600, Parity.None, 8, StopBits.One);\nserialPort.Handshake = Handshake.None;\nserialPort.Open();\n\n// Reset the sensor by setting DTR high\nserialPort.DtrEnable = true;\nThread.Sleep(100); // wait for 100ms\nserialPort.DtrEnable = false;\n\n// Send your command\nserialPort.Write("your_command");

@@ -1,1 +1,0 @@
-# Compile "dirty" code with lenient flags\ngcc -c -isystem /path/to/dirty/code/includes -o dirty_code.o dirty_code.c\n\n# Compile clean code with strict flags\ngcc -c -I/path/to/clean/code/includes -ansi -pedantic-errors -Wextra -o clean_code.o clean_code.c

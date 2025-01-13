@@ -1,1 +1,0 @@
-string username = HttpContext.Current.User.Identity.Name;

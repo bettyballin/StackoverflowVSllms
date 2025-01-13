@@ -1,0 +1,1 @@
+SELECT DISTINCT employee_id, name FROM employees;

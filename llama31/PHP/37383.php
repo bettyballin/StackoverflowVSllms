@@ -1,0 +1,1 @@
+$xml = new SimpleXMLElement('<root><person><name>John</name><age>30</age></person></root>');\n\n$xpath = new DOMXPath($xml);\n$person = $xpath->query('/root/person');\n\necho $person->item(0)->name; // outputs "John"

@@ -1,1 +1,0 @@
-git log --since=2.hours.ago\ngit checkout <commit-hash>

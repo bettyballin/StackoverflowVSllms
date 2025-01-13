@@ -1,1 +1,0 @@
-byte[] pdfbytes = Convert.FromBase64String(rapportB64);\nResponse.ClearContent();\nResponse.ClearHeaders();\nResponse.Buffer = true;\nResponse.ContentType = GetContentType(format);\nstring header = GetContentDispostionHeader(fileName, format, type);\nResponse.AddHeader("Content-Disposition", header);\nResponse.OutputStream.Write(pdfbytes, 0, pdfbytes.Length);\nResponse.End();

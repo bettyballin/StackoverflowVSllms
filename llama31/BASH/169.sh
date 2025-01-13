@@ -1,1 +1,0 @@
-tlbimp Excel.tlb /namespace:MyExcelWrapper /out:MyExcelWrapper.dll

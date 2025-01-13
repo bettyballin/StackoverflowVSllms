@@ -1,0 +1,1 @@
+# Recommended way to open a file in Python 2.5\nwith open('example.txt', 'r') as f:\n    contents = f.read()

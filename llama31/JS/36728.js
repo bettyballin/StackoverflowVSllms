@@ -1,0 +1,1 @@
+var data = { name: 'niall' };\n$.ajax({\n    type: "POST",\n    url: "/WebServices/BasketServices.asmx/AddItemToBasket",\n    data: JSON.stringify({ json: data }), // properly serialize the data as JSON\n    contentType: "application/json; charset=utf-8",\n    dataType: "json",\n    success: OnItemAddedSuccess\n});

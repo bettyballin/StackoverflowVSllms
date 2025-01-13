@@ -1,1 +1,0 @@
-[AcceptVerbs(HttpVerbs.Post)]\npublic ActionResult LogIn(LogIn model)\n{\n    if (!TryValidateModel(model))\n        return View(model);\n\n    // ... code to log in the user\n}

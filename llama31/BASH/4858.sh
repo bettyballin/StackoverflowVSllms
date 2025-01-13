@@ -1,1 +1,0 @@
-$ /path/to/gc-patched-ruby/bin/gem install rails --install-dir /path/to/gc-patched-ruby/lib/ruby/gems

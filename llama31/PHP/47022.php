@@ -1,0 +1,1 @@
+$ch = curl_init($url);\ncurl_setopt($ch, CURLOPT_RETURNTRANSFER, true);\ncurl_setopt($ch, CURLOPT_POST, true);\ncurl_setopt($ch, CURLOPT_POSTFIELDS, $raw_data);\ncurl_setopt($ch, CURLOPT_HTTPHEADER, array('Content-Type: text/plain'));\n$response = curl_exec($ch);\ncurl_close($ch);

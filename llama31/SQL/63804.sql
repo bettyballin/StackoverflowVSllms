@@ -1,0 +1,1 @@
+CREATE PROCEDURE MyProc\nAS\nBEGIN\n    CREATE TABLE #TempTable (column1 INT, column2 VARCHAR(50))\n    INSERT INTO #TempTable (column1, column2) VALUES (1, 'value1')\n    DBCC PAGE (#TempTable, 1, 0)\n    DROP TABLE #TempTable\nEND\nGO

@@ -1,1 +1,0 @@
-[Test]\npublic async Task Test_SecurePage_IsAccessible_WhenLoggedIn()\n{\n    // Arrange\n    var fakeAuthManager = new FakeAuthenticationManager();\n    var controller = new MyController(fakeAuthManager);\n\n    // Act\n    await controller.Index();\n\n    // Assert\n    Assert.IsTrue(controller.ViewBag.IsAccessible);\n}

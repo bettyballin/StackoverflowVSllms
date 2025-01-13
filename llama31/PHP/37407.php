@@ -1,0 +1,1 @@
+$_POST['txt'] = htmlspecialchars($_POST['txt'], ENT_QUOTES, 'UTF-8');

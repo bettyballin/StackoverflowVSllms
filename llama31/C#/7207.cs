@@ -1,1 +1,0 @@
-using DnsClient;\n\n// Create a DNS client\nvar dnsClient = new DnsClient();\n\n// Query the DNS SRV records\nvar srvRecords = dnsClient.QuerySrv("yourdomain.com");\n\n// Create a list of endpoints\nvar endpoints = srvRecords.Select(record => new EndpointAddress($"http://{record.Target}/{record.Port}")).ToList();

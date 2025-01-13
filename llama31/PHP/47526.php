@@ -1,0 +1,1 @@
+class lineItem extends Doctrine_Record\n{\n  // ...\n\n  public function getType()\n  {\n    if ($this instanceof rentLineItem) {\n      return 1;\n    } elseif ($this instanceof buyLineItem) {\n      return 2;\n    }\n  }\n}

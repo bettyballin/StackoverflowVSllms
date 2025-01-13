@@ -1,1 +1,0 @@
-using NUnit.Framework;\n\n[TestFixture]\n[Parallelizable(ParallelScope.Fixtures)]\npublic class MyTest\n{\n    [Test]\n    public void TestMethod1()\n    {\n        // Your test code here\n    }\n\n    [Test]\n    public void TestMethod2()\n    {\n        // Your test code here\n    }\n}

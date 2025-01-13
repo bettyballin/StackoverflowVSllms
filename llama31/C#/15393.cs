@@ -1,1 +1,0 @@
-public class Customer\n{\n    public int CustomerId { get; set; }\n}

@@ -1,0 +1,1 @@
+SELECT * FROM myTable WHERE myField COLLATE Latin1_General_CI_AS = 'sOmeVal'

@@ -1,0 +1,1 @@
+$conn = sqlsrv_connect($serverName, $connectionOptions);\nif ($conn === false) {\n    die("Error connecting to database: " . sqlsrv_errors());\n}

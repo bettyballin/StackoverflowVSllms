@@ -1,0 +1,1 @@
+if ($authFailed) {\n    header('WWW-Authenticate: Basic realm="Secure Area"');\n    header('HTTP/1.1 401 Unauthorized');\n}

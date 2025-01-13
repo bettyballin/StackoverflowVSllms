@@ -1,1 +1,0 @@
-undefined reference to `example_function()'

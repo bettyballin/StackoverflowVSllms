@@ -1,0 +1,1 @@
+button_to "Continue", "/next_page", :form_class => "button-to"

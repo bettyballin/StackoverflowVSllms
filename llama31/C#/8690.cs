@@ -1,1 +1,0 @@
-List<Person> people = PopulateList();\nvar orderedPeople = people.OrderBy(p => p.lastname).ToList();

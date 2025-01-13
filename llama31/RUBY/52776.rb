@@ -1,0 +1,1 @@
+schedule.try(:assignment) || handle_missing_assignment

@@ -1,1 +1,0 @@
-mblookup -B '*' -S -W <workgroup_name>

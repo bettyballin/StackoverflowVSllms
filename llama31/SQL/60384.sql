@@ -1,0 +1,1 @@
+SELECT * \nFROM sys.dm_tran_locks \nWHERE resource_type = 'OBJECT' \nAND resource_associated_entity_id = OBJECT_ID('your_table_name');

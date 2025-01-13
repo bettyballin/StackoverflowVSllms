@@ -1,0 +1,1 @@
+SELECT property1, property2, COUNT(*) as Count\nFROM AnotherTable\nWHERE ForeignID = @ID

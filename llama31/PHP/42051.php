@@ -1,0 +1,1 @@
+$title = Title::newFromText('Page_title');\n$url = $title->getFullURL();\necho '<a href="' . $url . '">' . $title->getText() . '</a>';

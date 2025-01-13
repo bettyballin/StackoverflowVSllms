@@ -1,0 +1,1 @@
+// Client-side example\nconst socket = new WebSocket('ws://example.com');\n\nsocket.onmessage = (event) => {\n  console.log(`Received message: ${event.data}`);\n};\n\n// Server-side example (using Node.js and ws library)\nconst WebSocket = require('ws');\nconst wss = new WebSocket.Server({ port: 8080 });\n\nwss.on('connection', (ws) => {\n  ws.send('Hello, client!');\n});

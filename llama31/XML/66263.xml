@@ -1,0 +1,1 @@
+<resultMap id="StringList" class="System.String">\n  <result column="Value"/>\n</resultMap>

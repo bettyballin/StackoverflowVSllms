@@ -1,0 +1,1 @@
+<img src="<?php echo asset_url('images/img1.gif'); ?>" />

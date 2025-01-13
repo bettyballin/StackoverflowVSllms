@@ -1,1 +1,0 @@
-string xpath = string.Format("//mediawiki/page[id='{0}']", id.ToString());\nXmlNode node = _xmlArticlesDocument.DocumentElement.SelectSingleNode(xpath);

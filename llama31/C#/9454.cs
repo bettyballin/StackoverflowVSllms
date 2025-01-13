@@ -1,1 +1,0 @@
-protected void UpdatePanel1_Load(object sender, EventArgs e)\n{\n    ScriptManager.RegisterStartupScript(this, this.GetType(), "FadeIn", "FadeIn()", true);\n}

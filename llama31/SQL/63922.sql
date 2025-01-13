@@ -1,0 +1,1 @@
+SELECT dbms_random.value FROM dual;

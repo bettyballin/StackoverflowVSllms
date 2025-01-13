@@ -1,1 +1,0 @@
-git config --global submodule.recurse false

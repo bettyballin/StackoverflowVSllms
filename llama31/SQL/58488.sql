@@ -1,0 +1,1 @@
+SELECT dbo.WorkDaysBetweenDates('2022-01-01', '2022-01-31') AS WorkDays

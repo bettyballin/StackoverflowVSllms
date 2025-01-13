@@ -1,1 +1,0 @@
-public class User\n{\n    public string? Name { get; set; } // Nullable string\n    public DateTime? BirthDate { get; set; } // Nullable DateTime\n}

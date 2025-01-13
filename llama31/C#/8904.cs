@@ -1,1 +1,0 @@
-public static string IncrementAlphabet(string input)\n{\n    var chars = input.ToCharArray();\n    for (int i = chars.Length - 1; i >= 0; i--)\n    {\n        if (chars[i] == 'z')\n        {\n            chars[i] = 'a';\n        }\n        else\n        {\n            chars[i]++;\n            return new string(chars);\n        }\n    }\n    return "a" + new string(chars);\n}

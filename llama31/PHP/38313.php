@@ -1,0 +1,1 @@
+foreach ($_POST as $key => $value) {\n    // Process each field\n    echo "$key: $value\n";\n}

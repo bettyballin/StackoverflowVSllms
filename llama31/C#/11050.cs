@@ -1,1 +1,0 @@
-_AllDone.WaitOne(1000); // wait for 1 second

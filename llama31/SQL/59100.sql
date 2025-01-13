@@ -1,0 +1,1 @@
+ALTER TABLE files\nALTER COLUMN date_uploaded TYPE timestamp;

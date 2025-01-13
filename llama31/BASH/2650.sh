@@ -1,1 +1,0 @@
-perf record -F 99 -g -- your_program

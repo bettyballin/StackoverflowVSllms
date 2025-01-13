@@ -1,1 +1,0 @@
-chmod +x convert_to_text.sh

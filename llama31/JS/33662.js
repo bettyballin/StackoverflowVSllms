@@ -1,0 +1,1 @@
+$(document).ready(function() {\n  $('#content').html('');\n  $.ajax({\n    url: 'http://twittercounter.com/api/username=Anand_Dasgupta&output=json&results=3',\n    dataType: "jsonp",\n    success: function(data) {\n      $('#content').append('<p>'+data.rank+'</p>');\n    }\n  });\n});

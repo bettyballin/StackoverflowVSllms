@@ -1,0 +1,1 @@
+require_once 'PHPXMLSerialization.php';\n\n$obj = new stdClass();\n$obj->name = 'John';\n$obj->age = 30;\n\n$xml = new XMLSerialization();\necho $xml->serialize($obj);

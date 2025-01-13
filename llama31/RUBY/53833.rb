@@ -1,0 +1,1 @@
+before_validation :normalize\n\ndef normalize\n  self.thenumber = thenumber.to_s.gsub(',', '')\nend

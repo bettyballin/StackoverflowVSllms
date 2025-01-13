@@ -1,0 +1,1 @@
+SELECT * FROM myTable WHERE LOWER(myField) = LOWER('sOmeVal')

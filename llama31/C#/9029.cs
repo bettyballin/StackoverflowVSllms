@@ -1,1 +1,0 @@
-using MediaInfo;\n\npublic class VideoFileInfo\n{\n    public static string GetVideoDuration(string filePath)\n    {\n        MediaInfo mediaInfo = new MediaInfo();\n        mediaInfo.Open(filePath);\n        string duration = mediaInfo.Get(StreamKind.Video, 0, "Duration");\n        mediaInfo.Close();\n        return duration;\n    }\n}

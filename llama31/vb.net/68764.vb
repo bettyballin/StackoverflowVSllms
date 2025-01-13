@@ -1,0 +1,1 @@
+Imports System.Xml\n\nDim xmlDoc As New XmlDocument()\nxmlDoc.LoadXml(xmlString)\n\nDim author As String = xmlDoc.SelectSingleNode("/xml/author").InnerText\nDim title As String = xmlDoc.SelectSingleNode("/xml/title").InnerText\n\nShowMessage(author, title)

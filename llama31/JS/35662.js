@@ -1,0 +1,1 @@
+// Client-side (JS)\n$.ajax({\n  type: 'GET',\n  url: '/data',\n  success: function(html) {\n    $('#container').html(html);\n  }\n});

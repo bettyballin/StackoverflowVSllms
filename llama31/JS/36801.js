@@ -1,0 +1,1 @@
+function test_tree(opt) {\n    val = opt;\n    $.ajax({\n        type: 'POST',\n        url: 'your_php_file.php',\n        data: {val: val},\n        success: function(data) {\n            console.log(data);\n        }\n    });\n}

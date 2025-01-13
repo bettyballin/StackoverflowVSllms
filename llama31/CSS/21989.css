@@ -1,1 +1,0 @@
-html, body {\n  height: 100%;\n  margin: 0;\n  padding: 0;\n}\n\n#container {\n  height: 100vh; /* Use viewport height instead of percentage */\n  width: 100%;\n  display: table; /* Add this to make the table stretch */\n}\n\n#container tr {\n  height: 100%; /* Make the table row stretch */\n}\n\n#container td {\n  height: 100%; /* Make the table cell stretch */\n}

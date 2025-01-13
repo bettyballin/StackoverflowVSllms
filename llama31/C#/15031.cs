@@ -1,1 +1,0 @@
-using System.Data.SqlServerCe;\n\n// Create a connection to the database\nSqlCeConnection conn = new SqlCeConnection("Data Source=your_database.sdf;Password=your_password");\n\n// Set the encryption mode to "Engine Default"\nSqlCeEngine engine = new SqlCeEngine(conn);\nengine.Encrypt("your_password", SqlCeEncryptionMode.EngineDefault);

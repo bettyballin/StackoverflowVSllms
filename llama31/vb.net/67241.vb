@@ -1,0 +1,1 @@
+config = ConfigurationManager.OpenExeConfiguration(ConfigurationUserLevel.None)\nIf config.ConnectionStrings.SectionInformation.IsProtected = False Then\n    config.ConnectionStrings.SectionInformation.ProtectSection(Nothing)\n    config.Save(ConfigurationSaveMode.Modified, True)\nEnd If

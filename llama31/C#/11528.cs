@@ -1,1 +1,0 @@
-[HttpPost]\npublic JsonResult MyAction(MyModel model)\n{\n    if (!ModelState.IsValid)\n    {\n        // ModelState errors will be serialized to JSON and returned\n        return Json(ModelState.Values.SelectMany(x => x.Errors));\n    }\n    // Return a successful JsonResult\n    return Json(new { success = true });\n}

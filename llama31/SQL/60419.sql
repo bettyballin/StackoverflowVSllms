@@ -1,0 +1,1 @@
+WITH Numbers AS (\n    SELECT TOP 1000 ROW_NUMBER() OVER (ORDER BY t1.object_id) AS num\n    FROM master.sys.all_columns t1\n    CROSS JOIN master.sys.all_columns t2\n)\nSELECT t.Id, t.description, 1 AS quantity\nFROM YourTable t\nJOIN Numbers n ON n.num <= t.quantity\nORDER BY t.Id, n.num

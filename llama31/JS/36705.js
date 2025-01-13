@@ -1,0 +1,1 @@
+function showErrorSteps() {\n    var el = document.getElementById("t1");\n\n    if (el.style.visibility == "hidden") {\n        el.style.visibility = "visible";\n    } else {\n        el.style.visibility = "hidden";\n    }\n}

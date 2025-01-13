@@ -1,1 +1,0 @@
-* * * * * cd /path/to/your/script/directory && php your_script.php

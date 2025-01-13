@@ -1,0 +1,1 @@
+CREATE TABLE your_table (\n  id INT PRIMARY KEY AUTO_INCREMENT,\n  email VARCHAR(255) NOT NULL\n);

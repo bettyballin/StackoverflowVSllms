@@ -1,0 +1,1 @@
+// Set a cookie\nfunction setCookie(name, value, expires, path, domain, secure) {\n  document.cookie = `${name}=${value}; expires=${expires}; path=${path}; domain=${domain}; secure=${secure}`;\n}\n\n// Delete a cookie\nfunction deleteCookie(name, path, domain) {\n  document.cookie = `${name}=; expires=Thu, 01 Jan 1970 00:00:01 GMT; path=${path}; domain=${domain}`;\n}

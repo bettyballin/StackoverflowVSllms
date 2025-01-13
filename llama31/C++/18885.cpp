@@ -1,1 +1,0 @@
-class Rect {\npublic:\n    bool contains(const Point& point) const {\n        return (point.x >= x && point.x <= x + width) &&\n               (point.y >= y && point.y <= y + height);\n    }\n\n    // Other methods and properties\nprivate:\n    int x, y, width, height;\n};

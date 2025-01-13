@@ -1,0 +1,1 @@
+class AppController extends Controller {\n    var $components = array('Auth');\n\n    function beforeFilter() {\n        // ...\n        $this->Auth->authorize = new CustomAuthorize();\n    }\n}\n\nclass CustomAuthorize {\n    function authorize($user, $request) {\n        // your authorization logic here\n    }\n}

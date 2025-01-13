@@ -1,1 +1,0 @@
-context.RewritePath("~/Lab1Service.svc?format=pox", false, false);

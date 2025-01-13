@@ -1,1 +1,0 @@
-insertPanel.CssClass = "panel-container"

@@ -1,0 +1,1 @@
+$fbc_uid = $user->fbc_uid;

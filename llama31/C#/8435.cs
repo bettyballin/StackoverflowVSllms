@@ -1,1 +1,0 @@
-class Program\n{\n    static void Main(string[] args)\n    {\n        HttpMonitor monitor = new HttpMonitor(8080);\n        monitor.Start();\n        Console.ReadLine();\n        monitor.Stop();\n    }\n}

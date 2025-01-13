@@ -1,1 +1,0 @@
-var parser = new SqlParser();\nvar query = "select b.FirstName As Name, c.Address From BusinessOwner b left join ContactLocation c on b.ID = c.OwnerID";\nvar result = parser.ParseQuery(query);\n\nforeach (var kvp in result)\n{\n    Console.WriteLine($"Column: {kvp.Key}, Table: {kvp.Value.tableName}, Original Column: {kvp.Value.columnName}");\n}

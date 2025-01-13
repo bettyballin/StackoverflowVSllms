@@ -1,1 +1,0 @@
-MailMessage email = new MailMessage();\nemail.IsBodyHtml = true;\nemail.Body = "<span style='font-family: Arial; font-size: 12pt;'>Hello World!</span>";

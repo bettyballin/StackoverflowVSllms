@@ -1,1 +1,0 @@
-// MyDll.h\npublic ref class MyDllClass\n{\npublic:\n    static MyDllClass()\n    {\n        // Initialization code here\n        Console::WriteLine("MyDllClass initialized");\n    }\n};

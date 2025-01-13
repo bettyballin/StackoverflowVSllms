@@ -1,1 +1,0 @@
-// Example of include guard\n#ifndef MY_HEADER_H\n#define MY_HEADER_H\n\n// Header file contents\n\n#endif  // MY_HEADER_H

@@ -1,0 +1,1 @@
+Dim newloc As Point = Me.PointToClient(ctl.PointToScreen(Point.Empty))

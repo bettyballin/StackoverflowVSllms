@@ -1,0 +1,1 @@
+if(isset($_FILES['file'])) {\n    $file = $_FILES['file'];\n    $path = $_POST['path'];\n\n    // Validate file type, size, etc.\n    // ...\n\n    // Move uploaded file to destination\n    move_uploaded_file($file['tmp_name'], $path . '/' . $file['name']);\n}

@@ -1,1 +1,0 @@
-openssl pkcs12 -in input.pfx -out output.cer -nokeys

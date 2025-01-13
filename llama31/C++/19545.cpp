@@ -1,1 +1,0 @@
-char str2[] = "Hi world!";  // str2 is an array of chars\nchar *str = new char[100];  // str is a pointer to a char (or an array of chars)

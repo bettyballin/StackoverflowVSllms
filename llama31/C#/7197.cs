@@ -1,1 +1,0 @@
-var sessionFactory = Fluently.Configure()\n    .Database(MySQLConfiguration.Standard.ConnectionString("connection string"))\n    .Mappings(m => m.FluentMappings.AddFromAssembly(typeof(MyClass).Assembly))\n    .BuildSessionFactory();\n\nvar schemaUpdate = new SchemaUpdate(sessionFactory.SessionFactoryOptions);\nschemaUpdate.Execute(true, true);

@@ -1,0 +1,1 @@
+$.post("/Create", JSON.stringify(person), function(data) {\n    // callback function\n}, "json");

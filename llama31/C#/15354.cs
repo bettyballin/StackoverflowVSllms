@@ -1,1 +1,0 @@
-using System;\n\nclass MyClass\n{\n    public static void Main()\n    {\n        // Create an object\n        object obj = new object();\n\n        // Get the generation of the object\n        int generation = GC.GetGeneration(obj);\n\n        Console.WriteLine("Generation: " + generation);\n    }\n}

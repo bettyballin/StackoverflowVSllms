@@ -1,0 +1,1 @@
+if ($_SERVER['REQUEST_METHOD'] == 'POST' && $_POST) {\n    // Handle POST request with data\n}

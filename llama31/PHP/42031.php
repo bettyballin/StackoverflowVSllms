@@ -1,0 +1,1 @@
+// Example usage:\nrequire_once 'SVNPHP/SVNPHP.php';\n$client = new SVNClient('/path/to/your/repo');

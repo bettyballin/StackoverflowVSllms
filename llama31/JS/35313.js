@@ -1,0 +1,1 @@
+fetch('https://api.example.com/data', {\n  method: 'GET',\n  headers: {\n    'Authorization': 'Bearer YOUR_TOKEN',\n  },\n});

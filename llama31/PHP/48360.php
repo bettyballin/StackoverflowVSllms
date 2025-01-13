@@ -1,0 +1,1 @@
+$ratings = array(5, 5, 4);\n$weights = array(2, 2, 1);\n\n$weighted_sum = array_sum(array_map(function($rating, $weight) {\n  return $rating * $weight;\n}, $ratings, $weights));\n\n$weight_sum = array_sum($weights);\n\n$weighted_mean = $weighted_sum / $weight_sum;\n\necho $weighted_mean; // Output: 4.8

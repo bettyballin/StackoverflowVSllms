@@ -1,0 +1,1 @@
+$doc = new DOMDocument();\n$doc->loadXML('<foo>Blah blah <bar baz="1">bah</bar> blah blah</foo>');\n$node = $doc->getElementsByTagName('foo')->item(0);\n\n$xmlString = $doc->saveXML($node);\necho $xmlString;

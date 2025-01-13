@@ -1,0 +1,1 @@
+function $get(id) {\n  return document.getElementById(id);\n}

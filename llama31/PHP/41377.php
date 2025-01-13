@@ -1,0 +1,1 @@
+header("Location: your_script.php");

@@ -1,0 +1,1 @@
+require 'nokogiri'\nrequire 'open-uri'\n\ndoc = Nokogiri::HTML(open('http://www.google.com/search?q=tenderlove'))

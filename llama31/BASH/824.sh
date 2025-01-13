@@ -1,1 +1,0 @@
-openssl dgst -sha256 -sign private_key.pem -binary input_binary_stream > signature

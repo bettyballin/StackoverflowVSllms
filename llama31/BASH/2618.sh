@@ -1,1 +1,0 @@
-ln -s /path/to/common/file.php /var/www/domain1/common/file.php

@@ -1,1 +1,0 @@
-// C# example\nclass Program\n{\n    static void Main(string[] args)\n    {\n        ConcurrencyModelChecker.CheckConcurrencyModel();\n    }\n}

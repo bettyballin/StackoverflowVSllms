@@ -1,0 +1,1 @@
+SELECT t1.id, t2.id\nFROM mytable AS t1, mytable AS t2\nWHERE t2.ROWID > t1.ROWID;

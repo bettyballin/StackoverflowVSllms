@@ -1,1 +1,0 @@
-sed -i '1a\inserted text' *

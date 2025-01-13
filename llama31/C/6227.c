@@ -1,1 +1,0 @@
-struct sockaddr_storage local_addr;\nsocklen_t local_len = sizeof(local_addr);\ngetsockname(sockfd, (struct sockaddr *)&local_addr, &local_len);

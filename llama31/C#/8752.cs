@@ -1,1 +1,0 @@
-float worldFontSize = 10.0f; // font size in GraphicsUnit.World\nfloat dpi = 72.0f; // resolution of the device (PDF)\nfloat pointFontSize = worldFontSize * (dpi / 72.0f);\n\nFont font = new Font("Arial", pointFontSize, FontStyle.Regular, GraphicsUnit.Point);

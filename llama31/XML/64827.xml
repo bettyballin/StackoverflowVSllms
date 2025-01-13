@@ -1,0 +1,1 @@
+<system.web>\n    <proxy usesystemdefault="true" />\n</system.web>

@@ -1,1 +1,0 @@
-RSACryptoServiceProvider rsa = new RSACryptoServiceProvider();\nrsa.CspParameters.ProviderName = "Microsoft Enhanced RSA and AES Cryptographic Provider";

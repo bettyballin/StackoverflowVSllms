@@ -1,0 +1,1 @@
+SELECT *\nFROM (\n  SELECT \n    ...,\n    CASE\n      WHEN date_due = 0 AND date_sent = 0 THEN "opened"\n      WHEN date_sent > 0 AND (CURRENT_DATE - date_due) <= 0 THEN "sent"\n    END AS status\n  FROM your_table\n) AS subquery\nWHERE status = "sent";

@@ -1,1 +1,0 @@
-public class VisioWrapper\n{\n    private Microsoft.Office.Interop.Visio.Class _visioInstance;\n\n    public VisioWrapper()\n    {\n        _visioInstance = new Microsoft.Office.Interop.Visio.Class();\n    }\n\n    // Add methods that delegate to the Visio API instance\n    public void DoSomething()\n    {\n        _visioInstance.DoSomething();\n    }\n}

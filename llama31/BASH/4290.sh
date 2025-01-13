@@ -1,1 +1,0 @@
-ctags -R --php-kinds=+cf-v --fields=+iaS --extra=+q --output-format=e-ctags --language=php -f php.tags /path/to/php/code

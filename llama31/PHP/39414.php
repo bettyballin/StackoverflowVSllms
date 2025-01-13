@@ -1,0 +1,1 @@
+$app = JFactory::getApplication();\n$app->mimeType = 'application/pdf';

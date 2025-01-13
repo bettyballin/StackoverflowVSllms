@@ -1,1 +1,0 @@
-// Using File.Open\nusing (FileStream fs = File.Open("example.txt", FileMode.Open, FileAccess.Read))\n{\n    // Read from the file...\n}\n\n// Using new FileStream\nusing (FileStream fs = new FileStream("example.txt", FileMode.Open, FileAccess.Read))\n{\n    // Read from the file...\n}

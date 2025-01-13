@@ -1,1 +1,0 @@
-files.reserve(initial_size);

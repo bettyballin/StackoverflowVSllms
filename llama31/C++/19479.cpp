@@ -1,1 +1,0 @@
-IFileDialog* pfd = NULL;\nHRESULT hr = CoCreateInstance(CLSID_FileOpenDialog, NULL, CLSCTX_INPROC_SERVER, IID_PPV_ARGS(&pfd));\nif(SUCCEEDED(hr))\n{\n    pfd->SetOkButtonLabel("Select");\n    pfd->SetOptions(FOS_OKBUTTONNEEDED);\n    hr = pfd->Show(NULL);\n    if(SUCCEEDED(hr))\n    {\n        // file selected\n    }\n    pfd->Release();\n}

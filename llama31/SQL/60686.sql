@@ -1,0 +1,1 @@
+INSERT INTO customers (name, email, phone)\nSELECT name, email, phone\nFROM import_table\nWHERE type = 'customer';

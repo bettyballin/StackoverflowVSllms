@@ -1,0 +1,1 @@
+$peekedByte = socket_recv($socket, $peekedData, 1, MSG_PEEK);\nif ($peekedByte === false) {\n    // handle error\n} elseif ($peekedData === "\x00") {\n    // read the entire packet with socket_read\n}

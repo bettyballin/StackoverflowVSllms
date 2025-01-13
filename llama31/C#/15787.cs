@@ -1,1 +1,0 @@
-foreach (ToolStripMenuItem item in menuStrip1.Items.OfType<ToolStripMenuItem>().Where(i => i.Name == "File"))\n{\n    item.Enabled = myUser.IsAdministrator;\n}

@@ -1,0 +1,1 @@
+CREATE TABLE [Customers] (\n    [CustomerID] int PRIMARY KEY,\n    [CompanyName] nvarchar(50)\n);\n\nCREATE INDEX [IX_CompanyName] ON [Customers] ([CompanyName]);

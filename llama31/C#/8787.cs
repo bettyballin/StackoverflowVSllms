@@ -1,1 +1,0 @@
-using (var context = new MyDbContext())\n{\n    var user = context.Users\n        .Where(u => u.Username == username && u.Password == password)\n        .FirstOrDefault();\n    // ...\n}

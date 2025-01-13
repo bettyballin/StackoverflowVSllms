@@ -1,1 +1,0 @@
-sudo nano /etc/supervisor/conf.d/my-php-service.conf

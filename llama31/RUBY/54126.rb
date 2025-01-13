@@ -1,0 +1,1 @@
+@roles = Role.where(simulation_id: session[:sim_id])\n@messages = RolesMessages.where(sender_id: @roles.map(&:id))\n                         .order('created_at DESC')\n                         .group('sender_id, message_id')\n                         .having('COUNT(*) = 1')

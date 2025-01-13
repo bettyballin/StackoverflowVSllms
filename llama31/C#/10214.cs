@@ -1,1 +1,0 @@
-using System.EnterpriseServices;\n\n[assembly: ApplicationName("YourAssemblyName")]\n[assembly: ApplicationActivation(ActivationOption.Server)]\n\nnamespace YourNamespace\n{\n    [ClassInterface(ClassInterfaceType.AutoDual), ComVisible(true)]\n    public sealed class Main : ServicedComponent\n    {\n        // ...\n    }\n}

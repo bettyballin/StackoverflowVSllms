@@ -1,1 +1,0 @@
-string installationFolder = Context.Parameters["TARGETDIR"];\nstring executablePath = Context.Parameters["TARGETFILENAME"];

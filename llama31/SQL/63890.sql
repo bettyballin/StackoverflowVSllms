@@ -1,0 +1,1 @@
+SELECT w.word, t.translation\nFROM words w\nJOIN translations t ON w.id = t.word_id\nWHERE w.id = ? AND t.lang_id = ?;

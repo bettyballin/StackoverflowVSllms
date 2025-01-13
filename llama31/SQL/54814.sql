@@ -1,0 +1,1 @@
+UPDATE your_table\nSET your_column = REPLACE(your_column, 'character_to_remove', '');

@@ -1,1 +1,0 @@
-using System.Web.Services;\n\n[WebService(Namespace = "http://example.com/paypal")]\npublic class PayFlowService : WebService\n{\n    [WebMethod]\n    public string ProcessPayment(string paymentInfo)\n    {\n        // Process payment using PayPal's PayFlow API\n        return "Payment processed successfully";\n    }\n}

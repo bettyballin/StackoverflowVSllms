@@ -1,0 +1,1 @@
+Dim classCodeDetails As List(Of ClassCodeDetail) = \n    db.ClassCodeHeaders.Single(Function(cch) \n        cch.CLCH_ID = classCodeHeaderId\n    ).ClassCodeDetails.ToList()\n\nclassCodeDetails = classCodeDetails.OrderBy(Function(c) c.Make.MAKE_English) _\n                                   .ThenBy(Function(c) c.Model.MODL_English) _\n                                   .ToList()

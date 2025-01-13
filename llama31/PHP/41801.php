@@ -1,0 +1,1 @@
+$squares = array_map(function($x) { return $x**2; }, range(0, 9));

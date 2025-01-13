@@ -1,1 +1,0 @@
-#!/bin/bash\n\n# Find the latest temporary deployment directory\nlatest_dir=$(ls -td /path/to/jboss/server/tmp/deploy/tmp*AMF-gateway-exp.war/ | head -1)\n\n# Update the symbolic link\nln -s $latest_dir /path/to/jboss/server/deploy/amf-gateway

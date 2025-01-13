@@ -1,0 +1,1 @@
+class Obj {\n    private $allowedProperties = ['property1', 'property2'];\n\n    function populate($array) {\n        foreach ($array as $key => $value) {\n            if (in_array($key, $this->allowedProperties)) {\n                $this->$key = $value;\n            } else {\n                throw new Exception("Invalid property: $key");\n            }\n        }\n    }\n}

@@ -1,0 +1,1 @@
+# child.py\nfrom ..parent import ParentClass

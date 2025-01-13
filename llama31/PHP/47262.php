@@ -1,0 +1,1 @@
+$pdo = new PDO("mysql:host=localhost;dbname=database", "username", "password");\n\n$query = "DELETE FROM foo WHERE bar = 'stuff'";\n$stmt = $pdo->prepare($query);\n$stmt->execute();\n\n$rows_affected = $stmt->rowCount();\n\nif ($rows_affected > 0) {\n    echo "Delete was successful";\n} else {\n    echo "No rows were deleted";\n}

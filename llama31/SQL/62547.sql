@@ -1,0 +1,1 @@
+CREATE INDEX idx_upload_date ON songs (upload_date);

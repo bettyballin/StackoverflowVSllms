@@ -1,0 +1,1 @@
+GEvent.addListener(marker, 'click', function() {\n  var infoWindow = new google.maps.InfoWindow({\n    content: html,\n    maxWidth: 500\n  });\n  infoWindow.open(map, marker);\n});

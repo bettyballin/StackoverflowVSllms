@@ -1,1 +1,0 @@
-composer require php-identicon/php-identico

@@ -1,1 +1,0 @@
-tidy --preserve-entities yes input.html

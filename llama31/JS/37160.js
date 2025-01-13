@@ -1,0 +1,1 @@
+$('#imgselect').on('change', '#images', function() {\n  var image = $(this).val();\n  var img = $('<img/>').attr('src', image);\n  $('#preview').html(img);\n  document.getElementById('picsmall').value = image;\n});

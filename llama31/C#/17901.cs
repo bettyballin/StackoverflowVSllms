@@ -1,1 +1,0 @@
-// MyClass.cs\npublic partial class MyClass\n{\n    // some members\n}\n\n// MyClass.Extensions.cs\npublic partial class MyClass\n{\n    // additional members\n}

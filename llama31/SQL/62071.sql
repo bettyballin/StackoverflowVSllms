@@ -1,0 +1,1 @@
+SELECT \n  A.itemid, \n  A.mark AS A_mark, \n  B.mark AS B_mark\nFROM \n  A \n  LEFT JOIN B ON A.itemid = B.itemid\nUNION\nSELECT \n  B.itemid, \n  A.mark AS A_mark, \n  B.mark AS B_mark\nFROM \n  A \n  RIGHT JOIN B ON A.itemid = B.itemid

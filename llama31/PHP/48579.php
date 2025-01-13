@@ -1,0 +1,1 @@
+if ($_SERVER['REQUEST_METHOD'] === 'DELETE') {\n  // Handle delete request for post with ID 5\n}

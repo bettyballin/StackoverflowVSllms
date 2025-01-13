@@ -1,0 +1,1 @@
+$(document).ready(function() {\n    var jsonData = { Name: 'joe' };\n    $.ajax({\n        type: "POST",\n        url: "GetTestJsonData",\n        data: JSON.stringify(jsonData),\n        contentType: "application/json; charset=utf-8",\n        dataType: "json",\n        success: function(msg) {\n            alert("Name = " + msg.Name);\n        }\n    });\n});

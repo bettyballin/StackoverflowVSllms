@@ -1,0 +1,1 @@
+<security-constraint>\n  <web-resource-collection>\n    <web-resource-name>Protected Pages</web-resource-name>\n    <url-pattern>/protected-page.jsp</url-pattern>\n  </web-resource-collection>\n  <auth-constraint>\n    <role-name>authenticated</role-name>\n  </auth-constraint>\n</security-constraint>

@@ -1,1 +1,0 @@
-var foundRows = yourDataSet.Tables[0].AsEnumerable()\n    .Where(row => row.Field<string>("Column1") == value1 && row.Field<string>("Column2") == value2)\n    .CopyToDataTable();

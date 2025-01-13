@@ -1,1 +1,0 @@
-find . -not -regex ".*\.\(jpg\|png\|gif\)$" -exec grep -s "B206" '{}' \; -print

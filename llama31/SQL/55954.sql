@@ -1,0 +1,1 @@
+CREATE FUNCTION GetTableData (@TableName sysname)\nRETURNS TABLE\nAS\nRETURN\n(\n    SELECT * \n    FROM \n    (\n        SELECT 'TableA' AS TableName, * FROM [dbo].[TableA]\n        UNION ALL\n        SELECT 'TableB' AS TableName, * FROM [dbo].[TableB]\n        -- Add more tables as needed\n    ) AS SubQuery\n    WHERE SubQuery.TableName = @TableName\n)

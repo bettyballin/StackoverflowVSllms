@@ -1,1 +1,0 @@
-ssm set Redmine Start SERVICE_AUTO_START

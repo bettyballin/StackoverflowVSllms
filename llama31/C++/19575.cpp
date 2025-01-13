@@ -1,1 +1,0 @@
-HDC hdc = CreateCompatibleDC(NULL);\nHBITMAP hbm = CreateBitmap(1280, 800, 1, 24, your_memory_buffer);\nSelectObject(hdc, hbm);\n// Now you can use hdc as a DC for GDI operations

@@ -1,0 +1,1 @@
+INSERT INTO NewTasks (TaskName, MilestoneID, CategoryID, SkillID, RateID)\nSELECT \n  t.TaskName,\n  m.MilestoneID,\n  c.CategoryID,\n  s.SkillID,\n  p.RateID\nFROM OldTasks t\nJOIN NewMilestones m ON t.MilestoneName = m.Name\nJOIN NewCategories c ON t.CategoryName = c.Name\nJOIN NewSkills s ON t.SkillName = s.Name\nJOIN NewPayRates p ON t.PayRateName = p.Name;

@@ -1,0 +1,1 @@
+import lxml.etree as etree\n\n# assuming 'element' is your lxml ElementTree element\ninner_html = etree.tostring(element, encoding='unicode', method='html', include_self=False)\n\nprint(inner_html)

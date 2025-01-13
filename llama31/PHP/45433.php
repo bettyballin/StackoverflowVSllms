@@ -1,0 +1,1 @@
+public $default = array(\n    'datasource' => 'Database/DboOracleCustom',\n    // ... other config settings ...\n);

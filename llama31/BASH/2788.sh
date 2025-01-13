@@ -1,1 +1,0 @@
-chmod +x app.py

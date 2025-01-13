@@ -1,1 +1,0 @@
-if (start < 0 || count < 0 || start + count > originalList.Count)\n{\n    throw new ArgumentOutOfRangeException();\n}

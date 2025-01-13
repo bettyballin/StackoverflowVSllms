@@ -1,0 +1,1 @@
+<system.serviceModel>\n  ...\n  <behaviors>\n    <serviceBehaviors>\n      <behavior name="Silverheat.Cloud_WebRole.API.DataServiceBehavior">\n        <serviceMetadata httpGetEnabled="true" httpsGetEnabled="true" />\n        ...\n      </behavior>\n    </serviceBehaviors>\n  </behaviors>\n  ...\n</system.serviceModel>

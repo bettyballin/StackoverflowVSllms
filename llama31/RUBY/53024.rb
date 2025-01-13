@@ -1,0 +1,1 @@
+gem 'reportlab'\n\n# Example usage\nrequire 'reportlab'\n\nReportLab::Document.generate('example.pdf') do |doc|\n  doc.add_table([[1, 2], [3, 4]])\nend

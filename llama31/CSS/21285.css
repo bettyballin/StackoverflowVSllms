@@ -1,1 +1,0 @@
-.box {\n  border: solid gray 2px;\n  width: 200px;\n  margin: 5px;\n  overflow: hidden;\n  white-space: normal;\n}\n\n.box input[type="radio"] {\n  float: left;\n}\n\n.box label {\n  display: block;\n  overflow: hidden;\n  text-overflow: ellipsis;\n}

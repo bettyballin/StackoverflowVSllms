@@ -1,0 +1,1 @@
+INSERT INTO sequences (name, value) VALUES ('my_sequence', 0);

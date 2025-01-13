@@ -1,0 +1,1 @@
+import smtplib\nimport ssl\n\n# Explicit SSL (STARTTLS)\nserver = smtplib.SMTP('smtp.example.com', 587)\nserver.starttls()\nserver.login('username', 'password')\n\n# Implicit SSL\nserver = smtplib.SMTP_SSL('smtp.example.com', 465)\nserver.login('username', 'password')

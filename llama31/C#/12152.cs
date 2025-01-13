@@ -1,1 +1,0 @@
-Stream outputStream = response.OutputStream;\nbyte[] buffer = new byte[4096];\nwhile (/* generate data */)\n{\n    int bytesRead = /* fill buffer */;\n    outputStream.Write(buffer, 0, bytesRead);\n    outputStream.Flush();\n}\noutputStream.Close();

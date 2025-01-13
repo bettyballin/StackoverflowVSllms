@@ -1,1 +1,0 @@
-[Authorize(AuthenticationSchemes = "Bearer")]\npublic IActionResult Edit(int id)\n{\n    // Token is validated and user is authorized\n}

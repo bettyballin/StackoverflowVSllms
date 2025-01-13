@@ -1,1 +1,0 @@
-public class FooWrapper\n{\n    private readonly FooData _data;\n\n    public FooWrapper(FooData data)\n    {\n        _data = data;\n    }\n\n    public int Price => _data.Price;\n    public int Quantity => _data.Quantity;\n\n    public double GetTotal()\n    {\n        // Calculations here\n    }\n}

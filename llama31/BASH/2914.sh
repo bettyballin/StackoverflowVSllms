@@ -1,1 +1,0 @@
-# Example usage\n$ c2j MyCFile.c\n$ javac MyCFile.java\n$ java MyCFile

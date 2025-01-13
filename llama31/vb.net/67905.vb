@@ -1,0 +1,1 @@
+Function GetUsername() As String\n    Dim objNetwork As Object\n    Set objNetwork = CreateObject("WScript.Network")\n    GetUsername = objNetwork.UserName\n    Set objNetwork = Nothing\nEnd Functio

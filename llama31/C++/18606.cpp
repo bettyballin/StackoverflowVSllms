@@ -1,1 +1,0 @@
-#include <cal3d/cal3d.h>\n\n// Load a 3D model using Cal3D\nCalModel model;\nmodel.load("model.xsf");

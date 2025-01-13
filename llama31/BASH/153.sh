@@ -1,1 +1,0 @@
-gcc -D_GLIBCXX_DEBUG_PEDANTIC your_code.c -o your_code

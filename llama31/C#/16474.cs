@@ -1,1 +1,0 @@
-Html.RenderPartial("_Bar", (object)Model.Bar);

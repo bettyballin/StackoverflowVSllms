@@ -1,1 +1,0 @@
-#container {\n  display: flex;\n  justify-content: flex-end; /* align elements to the right */\n}\n\n#container > div:only-child {\n  margin: 0 auto; /* center the element when it's alone */\n}

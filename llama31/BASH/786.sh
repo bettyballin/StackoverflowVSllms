@@ -1,1 +1,0 @@
-sudo apt-get install miniupnpd\nsudo miniupnpd -i eth0 -a 192.168.1.100

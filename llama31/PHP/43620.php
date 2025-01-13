@@ -1,0 +1,1 @@
+function myFunction(Whatever $blah) {\n    // Now $blah will have autocomplete suggestions\n}

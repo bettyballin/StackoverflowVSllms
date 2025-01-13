@@ -1,0 +1,1 @@
+const http = require('http');\n\nhttp.createServer((req, res) => {\n  res.write('Hello, world!');\n  res.end();\n}).listen(8080);

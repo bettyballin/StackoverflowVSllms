@@ -1,1 +1,0 @@
-ssh remotemachine -f 'tail -f logfile' | tee /dev/null

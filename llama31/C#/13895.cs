@@ -1,1 +1,0 @@
-var hashtable = new Hashtable(list.ToDictionary(...));

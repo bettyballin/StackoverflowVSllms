@@ -1,1 +1,0 @@
-checkbox-container {\n  display: flex;\n  flex-direction: column;\n  height: 100px;\n  width: 25px;\n  float: left;\n}\n\n checkbox-container input[type="checkbox"] {\n  margin: 0;\n  padding: 0;\n}

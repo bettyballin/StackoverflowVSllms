@@ -1,0 +1,1 @@
+SELECT Name, Color\nFROM TableA a\nWHERE NOT EXISTS (\n  SELECT 1\n  FROM TableB b\n  WHERE a.Name = b.Name AND a.Color = b.Color\n);

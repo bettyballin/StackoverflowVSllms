@@ -1,1 +1,0 @@
-.resize-handle {\n  position: absolute;\n  bottom: 0;\n  right: 0;\n  width: 10px;\n  height: 10px;\n  cursor: ns-resize;\n  background-color: #ccc;\n}\n\n.resize-handle:hover {\n  background-color: #666;\n}

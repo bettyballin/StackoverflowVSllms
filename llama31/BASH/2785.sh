@@ -1,1 +1,0 @@
-# Initialize a Git repository\ngit init\n\n# Add all files in the current directory\ngit add .\n\n# Commit changes with a message\ngit commit -m "Initial commit"\n\n# Create a new branch\ngit branch feature/new-feature\n\n# Switch to the new branch\ngit checkout feature/new-feature\n\n# Merge changes from another branch\ngit merge mai

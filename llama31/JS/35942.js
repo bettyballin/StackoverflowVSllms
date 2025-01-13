@@ -1,0 +1,1 @@
+// Print the document\nwindow.print();

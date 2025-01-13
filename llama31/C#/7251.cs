@@ -1,1 +1,0 @@
-protected void Application_PreRequestHandlerExecute(object sender, EventArgs e)\n{\n    if (System.Web.HttpContext.Current.Session != null)\n    {\n        // Set your custom security principal object here\n    }\n}

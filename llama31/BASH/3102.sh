@@ -1,1 +1,0 @@
-readelf -d /path/to/your/executable | grep NEEDED

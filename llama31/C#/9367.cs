@@ -1,1 +1,0 @@
-oProcess.BeginOutputReadLine()

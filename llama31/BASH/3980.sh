@@ -1,1 +1,0 @@
-xdotool windowmap <window_id> && xwd -root -id <window_id> | convert - capture.png

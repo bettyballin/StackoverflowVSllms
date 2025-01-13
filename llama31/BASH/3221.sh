@@ -1,1 +1,0 @@
-sqlplus -s /nolog <<EOF\nSET LONG 1000000\nSET LONGCHUNKSIZE 1000000\nSET LINESIZE 1000\nSET PAGESIZE 0\nSET TAB OFF\nSET TRIM ON\nSET VERIFY OFF\n\nspool formatted_code.sql\n\n-- paste your PL/SQL code here\n\nspool off\nexit\nEOF

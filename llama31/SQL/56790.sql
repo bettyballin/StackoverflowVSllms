@@ -1,0 +1,1 @@
+SELECT CONVERT(DECIMAL(18, 8), Rate) / 10000000 AS Result\nFROM YourTable;

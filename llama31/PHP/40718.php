@@ -1,0 +1,1 @@
+$template = new Twig_Template();\n$template->render('template.html', array('jquery_code' => 'jQuery("#myDiv").html("Hello, World!");'));

@@ -1,0 +1,1 @@
+$id = preg_match('/Server ID: (i-[a-zA-Z0-9]+)/', implode("\n", $output), $matches);\nif ($id) {\n    $id = $matches[1];\n}

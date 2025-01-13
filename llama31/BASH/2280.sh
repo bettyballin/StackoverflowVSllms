@@ -1,1 +1,0 @@
-jar -xvf yourapplication.war

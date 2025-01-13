@@ -1,1 +1,0 @@
-string imagesPath = Path.Combine(Application.UserAppDataPath, "Images");

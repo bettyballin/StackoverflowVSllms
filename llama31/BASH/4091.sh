@@ -1,1 +1,0 @@
-glade2script -o output.py input.glade

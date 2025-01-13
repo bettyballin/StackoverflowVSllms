@@ -1,1 +1,0 @@
-routes.MapRoute(\n    "Default",\n    "{controller}.aspx/{action}/{id}",\n    new { controller = "Home", action = "Index", id = "" }\n);

@@ -1,1 +1,0 @@
-sudo mkdir -p /usr/local/lib/php/extensions/\nsudo cp mylib.dylib /usr/local/lib/php/extensions/

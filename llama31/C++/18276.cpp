@@ -1,1 +1,0 @@
-int main() {\n    std::string graphicsCard = getGraphicsCardModel();\n    std::cout << "Graphics Card Model: " << graphicsCard << std::endl;\n    return 0;\n}

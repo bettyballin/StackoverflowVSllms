@@ -1,0 +1,1 @@
+$checkboxes = ['checkbox1', 'checkbox2', 'checkbox3'];\nforeach ($checkboxes as $checkbox) {\n    $values[$checkbox] = $_POST[$checkbox] ?? 0;\n}

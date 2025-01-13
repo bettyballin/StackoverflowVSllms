@@ -1,1 +1,0 @@
-phpunit --skeleton-test --suffix=.class MyClass

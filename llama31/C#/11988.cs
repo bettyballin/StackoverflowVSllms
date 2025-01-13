@@ -1,1 +1,0 @@
-void Session_End(object sender, EventArgs e)\n{\n    // Get the session state\n    HttpSessionState session = (HttpSessionState)sender;\n\n    // Iterate through the session items\n    foreach (var item in session.Items)\n    {\n        if (item is IDisposable disposable)\n        {\n            disposable.Dispose();\n        }\n    }\n}

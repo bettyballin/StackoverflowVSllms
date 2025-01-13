@@ -1,1 +1,0 @@
-# Identify conflicting files\ngit status\n\n# Resolve conflicts and add the files\ngit add <file_name>\n\n# Rebase continue\ngit rebase --continue\n\n# Svn rebase\ngit svn rebase

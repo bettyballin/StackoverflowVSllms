@@ -1,1 +1,0 @@
-#include <string.h>\n\nint main() {\n    char sensitiveArray[2][10] = {"secret1", "secret2"};\n    \n    // Clearing the array securely\n    memset(sensitiveArray, 0, sizeof(sensitiveArray));\n    \n    return 0;\n}

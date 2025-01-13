@@ -1,1 +1,0 @@
-string valueToConvertFrom = "123";\nType convertToType = typeof(int);\n\nTypeConverter converter = TypeDescriptor.GetConverter(convertToType);\nobject convertedValue = converter.ConvertFromInvariantString(valueToConvertFrom);

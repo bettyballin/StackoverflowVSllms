@@ -1,1 +1,0 @@
-gcc -Wall -ansi file1.c file2.c -o program

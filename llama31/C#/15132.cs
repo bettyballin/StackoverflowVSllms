@@ -1,1 +1,0 @@
-[OperationContract]\n[FaultContract(typeof(InvalidInputFault))]\npublic void MyMethod(MyRequest request)\n{\n    // Validate input...\n    if (/* invalid input */)\n    {\n        var fault = new InvalidInputFault(request.Id, "Invalid input", true, "Invalid input reason");\n        throw new FaultException<InvalidInputFault>(fault);\n    }\n    // ...\n}

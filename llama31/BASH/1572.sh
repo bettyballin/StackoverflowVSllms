@@ -1,1 +1,0 @@
-openssl crl2pkcs7 -nocrl -certfile your_cert.crt -out your_cert.p7b

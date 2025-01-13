@@ -1,0 +1,1 @@
+CREATE TABLESPACE my_tablespace\nDATAFILE '\\server\share\oracle\datafiles\my_tablespace.dbf'\nSIZE 100M\nAUTOEXTEND ON\nNEXT 100M\nMAXSIZE UNLIMITED;

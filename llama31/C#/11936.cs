@@ -1,1 +1,0 @@
-private SqlParameter CreateInputParameter(string name, object value)\n{\n    return new SqlParameter(name, value) { Direction = ParameterDirection.Input };\n}

@@ -1,1 +1,0 @@
-string[] values = new string[reader.FieldCount];\nwhile (reader.Read())\n{\n    values = reader[0].ToString().Split(',');\n}\nstring result = string.Join("<br />", values);

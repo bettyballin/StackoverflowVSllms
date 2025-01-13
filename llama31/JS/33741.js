@@ -1,0 +1,1 @@
+function doReady() {\n    $('.drag').draggable({ revert: true, helper: 'clone' });\n    $('.drop').droppable({\n        tolerance: "touch", \n        drop: function() {\n            $('#myHidden').val('Testy test test');\n            __doPostBack('<%= UpdatePanel1.UniqueID %>', '');\n            alert($('#myHidden').val());\n        }\n    });\n}

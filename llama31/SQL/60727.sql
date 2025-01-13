@@ -1,0 +1,1 @@
+SELECT *\nFROM your_table\nWHERE your_column REGEXP 'word1|word2|word3';

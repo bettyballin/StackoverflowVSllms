@@ -1,1 +1,0 @@
-[WebMethod(EnableSession = true)]\npublic void MySecureMethod(string requestData)\n{\n    // Validate anti-forgery token\n    if (!AntiForgery.Validate(requestData))\n    {\n        throw new SecurityException("Invalid anti-forgery token");\n    }\n\n    // Process request data\n    // ...\n}

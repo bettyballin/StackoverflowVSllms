@@ -1,1 +1,0 @@
-public class MenuItem\n{\n    public string Text { get; set; }\n    public string Action { get; set; }\n    public string Controller { get; set; }\n}

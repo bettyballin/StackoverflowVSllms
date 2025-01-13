@@ -1,0 +1,1 @@
+<struts>\n    <package name="default" extends="struts-default">\n        <result-types>\n            <result-type name="roleBased" class="com.example.RoleBasedResult"/>\n        </result-types>\n        <action name="myAction" class="com.example.MyAction">\n            <result name="success" type="roleBased">myAction.jsp</result>\n        </action>\n    </package>\n</struts>

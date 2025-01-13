@@ -1,0 +1,1 @@
+<filter>\n  <filter-name>maintenanceFilter</filter-name>\n  <filter-class>com.example.MaintenanceFilter</filter-class>\n</filter>\n<filter-mapping>\n  <filter-name>maintenanceFilter</filter-name>\n  <url-pattern>/*</url-pattern>\n</filter-mapping>

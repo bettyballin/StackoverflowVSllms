@@ -1,0 +1,1 @@
+DECLARE\n  class_data BLOB;\nBEGIN\n  DBMS_JAVA.CLASS_LOAD('YOUR_JAVA_CLASS_NAME', class_data);\n  -- Process the class_data BLOB\nEND;

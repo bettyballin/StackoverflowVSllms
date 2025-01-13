@@ -1,1 +1,0 @@
-string processName = System.Web.Hosting.HostingEnvironment.ApplicationHost.GetPhysicalPath();

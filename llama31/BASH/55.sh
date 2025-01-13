@@ -1,1 +1,0 @@
-gcc -o mycgi.cgi mycgi.cpp -static -lmysql

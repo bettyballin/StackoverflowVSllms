@@ -1,0 +1,1 @@
+EXPLAIN select ... from v_envoiautomate where etat=0 and typeenvoi='EXPORT' and nbessais<1;\n\nEXPLAIN select ... from v_envoiautomate where etat=0 and typeenvoi='MAIL' and nbessais<1;

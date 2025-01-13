@@ -1,1 +1,0 @@
-public class DynamicFormViewModel\n{\n    public List<DynamicField> Fields { get; set; }\n}\n\npublic class DynamicField\n{\n    public string Value { get; set; }\n    public DateTime Date { get; set; }\n}

@@ -1,0 +1,1 @@
+$finfo = new finfo(FILEINFO_MIME_ENCODING);\n$mime_type = $finfo->file('ftp://username:password@host/path/file');

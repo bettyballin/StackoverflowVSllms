@@ -1,0 +1,1 @@
+$post_param = '%u015F';\n$decoded_param = mb_convert_encoding($post_param, 'UTF-8', 'UTF-16LE');\necho $decoded_param; // outputs 'š'

@@ -1,1 +1,0 @@
-wget --convert-links --html-extension --restrict-file-names=windows --no-parent http://example.com/yourpage.php

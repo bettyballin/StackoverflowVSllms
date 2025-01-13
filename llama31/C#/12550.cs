@@ -1,1 +1,0 @@
-TextBox textBox = new TextBox();\ntextBox.Multiline = true;\ntextBox.ReadOnly = true;\ntextBox.ScrollBars = ScrollBars.None;\ntextBox.TabStop = false;\n\n// Set the height and width as needed\ntextBox.Height = 100;\ntextBox.Width = 200;

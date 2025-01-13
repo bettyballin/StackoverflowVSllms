@@ -1,0 +1,1 @@
+<sessionState mode="Custom" customProvider="RedisSessionProvider">\n  <providers>\n    <add name="RedisSessionProvider" type="Microsoft.Web.RedisSessionStateProvider.RedisSessionStateProvider" connectionString="your_redis_connection_string" />\n  </providers>\n</sessionState>

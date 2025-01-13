@@ -1,0 +1,1 @@
+// proxy.php\n<?php\n$server_path = '/home/full/server/path/file.php';\n$data = $_POST;\n$response = file_get_contents($server_path, false, stream_context_create([\n    'http' => [\n        'method' => 'POST',\n        'header' => 'Content-Type: application/x-www-form-urlencoded',\n        'content' => http_build_query($data)\n    ]\n]));\necho $response;

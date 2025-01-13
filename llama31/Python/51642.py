@@ -1,0 +1,1 @@
+import sklearn\n\n# ... train a model ...\ndef classify_decryption_result(data):\n    return model.predict(data)

@@ -1,1 +1,0 @@
-#include <gmp.h>\n#include <ecm.h>\n\nint main() {\n    mpz_t n;\n    mpz_init_set_str(n, "123456789012345", 10);\n\n    ecm_params params;\n    ecm_init(params);\n\n    ecm_factor(n, params);\n\n    mpz_clear(n);\n    ecm_clear(params);\n\n    return 0;\n}

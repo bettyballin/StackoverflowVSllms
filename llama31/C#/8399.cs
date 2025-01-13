@@ -1,1 +1,0 @@
-public bool MyFunction()\n{\n    try\n    {\n        // Code that may throw an exception\n    }\n    catch (Exception ex)\n    {\n        // Log the exception, if desired\n        return false; // or return an error code/object\n    }\n    return true;\n}

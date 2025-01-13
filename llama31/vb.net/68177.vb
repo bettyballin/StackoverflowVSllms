@@ -1,0 +1,1 @@
+Protected Sub cmdMarkComplete_Click(ByVal sender As Object, ByVal e As System.EventArgs) Handles cmdMarkComplete.Click\n    ScriptManager.RegisterStartupScript(Me, Me.GetType, "mymsg", "<script>alert('hello');</script>", True)\n    UpdatePanel1.Update()\nEnd Sub

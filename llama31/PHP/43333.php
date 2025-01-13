@@ -1,0 +1,1 @@
+<?php\nob_start();\ninclude 'header.php';\nob_end_clean();\n\n// ... some code\nif ($redirect) {\n    header('Location: index.php');\n    exit;\n}\n?>

@@ -1,0 +1,1 @@
+<list name="fieldData" cascade="all">\n    <key column="parentuid" not-null="true" />\n    <index column="uid" />\n    <one-to-many class="com.agetor.commons.fields.FieldData"/>\n</list>

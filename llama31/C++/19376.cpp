@@ -1,1 +1,0 @@
-#include "MyPlugin.h"\n\nextern "C" __declspec(dllexport) MyPlugin* createMyPlugin() {\n    return new MyPlugin();\n}

@@ -1,1 +1,0 @@
-public static class ZipValidator {\n  public static bool IsValidZip(string zip) {\n    string regex = @"^\d{5}(-\d{4})?$";\n    return System.Text.RegularExpressions.Regex.IsMatch(zip, regex);\n  }\n}

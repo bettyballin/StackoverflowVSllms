@@ -1,0 +1,1 @@
+myString = "a" & " " & "b"

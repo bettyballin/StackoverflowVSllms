@@ -1,1 +1,0 @@
-#define _DllImport [DllImport("Controller.dll", CallingConvention = CallingConvention::StdCall)] static\n_DllImport bool DisplayScan(bool bShow, bool bAllPasses)

@@ -1,1 +1,0 @@
-gcc -o dns_lookup dns_lookup.c -lresolv

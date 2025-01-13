@@ -1,1 +1,0 @@
-// mytemplate.h\ntemplate <typename T>\nclass __declspec(dllexport) MyTemplate {\n    // class definition\n};

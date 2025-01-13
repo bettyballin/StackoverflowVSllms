@@ -1,0 +1,1 @@
+Imports WebSupergoo.ABCpdf6\n\nPublic Class PdfGenerator\n    Public Sub GeneratePdf()\n        Using doc As New Document()\n            ' add images and generate PDF...\n        End Using\n        GC.Collect()\n    End Sub\nEnd Class

@@ -1,1 +1,0 @@
-[AttributeUsage(AttributeTargets.Class, AllowMultiple = false)]\npublic sealed class ConnectionPointMapAttribute : Attribute\n{\n    private readonly Type _interfaceType;\n\n    public ConnectionPointMapAttribute(Type interfaceType)\n    {\n        _interfaceType = interfaceType;\n    }\n\n    public Type InterfaceType\n    {\n        get { return _interfaceType; }\n    }\n}

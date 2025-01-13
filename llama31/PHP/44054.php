@@ -1,0 +1,1 @@
+$headers = array(\n    'Disposition-Notification-To: your_email@example.com',\n    'Return-Receipt-To: your_email@example.com',\n);

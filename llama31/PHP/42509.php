@@ -1,0 +1,1 @@
+// getStatus.php example\n<?php\n// Simulate getting the current status from a file or database\n$status = file_get_contents('status.txt');\necho $status;\n?>

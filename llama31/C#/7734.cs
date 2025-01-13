@@ -1,1 +1,0 @@
-public IActionResult Edit(int id)\n{\n    var userProfile = _userRepository.GetProfile(id);\n    if (userProfile.UserId != HttpContext.User.FindFirstValue(ClaimTypes.NameIdentifier))\n    {\n        return Forbid(); // or return a custom error page\n    }\n    // User has permission to edit this profile\n}

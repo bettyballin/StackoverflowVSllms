@@ -1,0 +1,1 @@
+// assuming 'url' is the URL you want to redirect to\nhistory.pushState({}, '', url);

@@ -1,0 +1,1 @@
+' Compact and repair the database on application startup\nSub Main()\n    ' ...\n    Dim db As New OleDbConnection("Provider=Microsoft.Jet.OLEDB.4.0;Data Source=C:\Path\To\Your\Database.mdb")\n    db.Open()\n    Dim command As New OleDbCommand("COMPACT DATABASE", db)\n    command.ExecuteNonQuery()\n    db.Close()\n    ' ...\nEnd Sub

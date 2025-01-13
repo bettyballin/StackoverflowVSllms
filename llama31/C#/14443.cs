@@ -1,1 +1,0 @@
-SqlString sqlString = ...; // retrieve the value from the database\nStatusCode statusCode = (StatusCode)Convert.ToChar(sqlString);

@@ -1,1 +1,0 @@
-#!/bin/bash\n\n# Restore full backup\nmysql -h <host> -u <user> -p<password> < /backup/full_backup.sql\n\n# Apply incremental backups\nmysqlbinlog --stop-position=<stop-position> /backup/inc_backup.sql | mysql -h <host> -u <user> -p<password>

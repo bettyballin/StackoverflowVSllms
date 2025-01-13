@@ -1,1 +1,0 @@
-public partial class Contact\n{\n    public ICollection<ContactAddress> ContactAddresses { get; set; }\n}

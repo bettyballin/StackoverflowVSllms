@@ -1,1 +1,0 @@
-# Download and install VisualVM from the official website\n# Launch VisualVM and connect to your WebSphere instance\nvisualvm --openjmx <websphere_jmx_url>

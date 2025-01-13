@@ -1,1 +1,0 @@
-#include <memory>\n\nclass MyClass {\npublic:\n    MyClass() : ptr_(new int(5)) {}\n    ~MyClass() = default;\n\n    void doSomething() {\n        if (ptr_) {\n            // ptr_ is valid, use it\n            std::cout << *ptr_ << std::endl;\n        }\n    }\n\nprivate:\n    std::unique_ptr<int> ptr_;\n};

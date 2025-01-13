@@ -1,0 +1,1 @@
+UPDATE sequences SET value = value + 1 WHERE name = 'my_sequence';\nSELECT value FROM sequences WHERE name = 'my_sequence';

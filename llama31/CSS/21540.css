@@ -1,1 +1,0 @@
-.greencontainer {\n  width: 100%;\n  margin: 10px;\n  float: left;\n}\n\n.redcontainer {\n  float: right;\n  width: 20px;\n  padding: 2px 0;\n  font-size: 11px;\n  font-family: sans-serif;\n  text-align: center;\n}\n\n.bluecontainer {\n  float: left;\n  width: 400px;\n  padding: 2px 10px;\n  font-size: 11px;\n  font-family: sans-serif;\n  text-align: left;\n}

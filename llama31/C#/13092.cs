@@ -1,1 +1,0 @@
-string connectionString = "Data Source=myServerAddress;Initial Catalog=myDataBase;Integrated Security=True;Pooling=False;";

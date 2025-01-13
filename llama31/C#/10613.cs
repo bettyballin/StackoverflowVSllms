@@ -1,1 +1,0 @@
-protected void UploadButton_Click(object sender, EventArgs e)\n{\n    if (FileUploadControl.HasFile)\n    {\n        var fileBytes = FileUploadControl.FileBytes;\n        var extractedText = ExtractTextFromPdf(fileBytes);\n        // Store the extracted text in your database\n    }\n}

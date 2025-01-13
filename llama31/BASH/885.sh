@@ -1,1 +1,0 @@
-# Create a new alert contact in UptimeRobot\ncurl -X POST \\n  https://api.uptimerobot.com/v2/alertContacts \\n  -H 'Content-Type: application/json' \\n  -d '{"alertContact": {"name": "SMS Alert", "type": "sms", "data": {"phoneNumber": "+1234567890"}}}'

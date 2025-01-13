@@ -1,1 +1,0 @@
-public class XmlEncoder\n{\n    private static Regex _badAmpersand;\n\n    public static Regex BadAmpersand => _badAmpersand ?? (_badAmpersand = new Regex("&(?![a-zA-Z]{2,6};|#[0-9]{2,4};)"));\n\n    public string EncodeForXml(string data)\n    {\n        data = BadAmpersand.Replace(data, "&amp;");\n        // more processing\n        return data;\n    }\n}

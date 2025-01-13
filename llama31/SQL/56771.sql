@@ -1,0 +1,1 @@
+SELECT \n    start_datetime,\n    program_name,\n    run_sequence,\n    batchno,\n    detail_log,\n    summary_log,\n    errorcount,\n    warningcount,\n    totmsgcount,\n    end_datetime,\n    totalrows,\n    inserted,\n    updated\nFROM \n    update_log\nWHERE \n    start_datetime >= '5/29/2009 16:15'\nORDER BY \n    start_datetime DESC;

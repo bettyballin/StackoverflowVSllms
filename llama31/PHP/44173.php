@@ -1,0 +1,1 @@
+$phpThumb->addFilter('blur', array('amount' => 5));

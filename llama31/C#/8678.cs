@@ -1,1 +1,0 @@
-public static bool IsInRange(int input, int minimum, int maximum)\n{\n    return input >= minimum && input <= maximum;\n}

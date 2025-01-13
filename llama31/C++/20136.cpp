@@ -1,1 +1,0 @@
-void foo(int);  // (1)\nint foo(int);   // (2) Error: cannot be overloaded with just return type modified

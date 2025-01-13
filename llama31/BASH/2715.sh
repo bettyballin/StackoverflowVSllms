@@ -1,1 +1,0 @@
-openssl pkcs8 -topk8 -inform PEM -in your_pem_file.pem -outform DER -out your_der_file.der

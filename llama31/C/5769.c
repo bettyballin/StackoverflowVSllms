@@ -1,1 +1,0 @@
-if (strcmp(data, 'YourString')) {\n    // Your code here\n}

@@ -1,1 +1,0 @@
-this.myTable.Style.Add("display", "none");

@@ -1,1 +1,0 @@
-powershell.exe -Command "& { script.ps1 }"

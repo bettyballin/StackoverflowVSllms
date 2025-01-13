@@ -1,1 +1,0 @@
-protected void Page_Load(object sender, EventArgs e)\n{\n    TextBox textBox = new TextBox();\n    textBox.ID = "myTextBox";\n    this.Controls.Add(textBox);\n}

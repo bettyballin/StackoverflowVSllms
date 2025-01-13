@@ -1,0 +1,1 @@
+Imports System.Diagnostics\n\nModule Module1\n    Sub Main()\n        Dim filePath As String = "C:\Path\To\Document.docx"\n        Process.Start(filePath)\n    End Sub\nEnd Module

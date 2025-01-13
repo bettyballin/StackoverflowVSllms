@@ -1,0 +1,1 @@
+//= require ajaxful_rating/jquery.rating\n//= require ajaxful_rating/rating

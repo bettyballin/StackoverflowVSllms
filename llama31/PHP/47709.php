@@ -1,0 +1,1 @@
+if ($userInput === $expectedValue) {\n    // grant admin access\n}

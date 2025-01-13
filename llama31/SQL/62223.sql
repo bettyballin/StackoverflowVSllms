@@ -1,0 +1,1 @@
+SELECT * FROM ALL_TAB_COLUMNS@<database> WHERE TABLE_NAME = '<table>';

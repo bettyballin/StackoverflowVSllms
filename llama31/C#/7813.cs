@@ -1,1 +1,0 @@
-[TestMethod]\npublic void Index_Action_Should_Return_View_For_Default_HomePage()\n{\n    // Arrange.\n    var controller = PostController; // Wrapper, cause I use D.I.\n\n    // Act.\n    ViewResult viewResult = controller.Index(null, null) as ViewResult;\n\n    // Assert.\n    Assert.IsNotNull(viewResult);\n    Assert.IsNotNull(viewResult.ViewData.Model as IndexViewData);\n}

@@ -1,1 +1,0 @@
-List<Employee> List1 = ...;\nList<Employee> List2 = ...;\n\nvar differences = CompareTwoLists_ReturnDifferences(List1, List2);\nif (differences != CoreFormat.StringNoCharacters)\n{\n    Console.WriteLine(differences);\n}

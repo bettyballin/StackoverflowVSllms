@@ -1,1 +1,0 @@
-public class MySiteControllerBase : Controller\n{\n    protected void PopulateModelBase(ModelBase model)\n    {\n        model.PartnerId = Session["partnerId"];\n        model.CurrentLoggedInUserEmail = Session["currentLoggedInUserEmail"];\n    }\n}

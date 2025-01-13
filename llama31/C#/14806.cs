@@ -1,1 +1,0 @@
-var validator = new SmtpValidator();\nvar email = "test@example.com";\nif (validator.ValidateEmail(email))\n{\n    Console.WriteLine("Email is valid");\n}\nelse\n{\n    Console.WriteLine("Email is not valid");\n}

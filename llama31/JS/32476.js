@@ -1,0 +1,1 @@
+// NativeArchDetector.js\nvar nativeArchDetector = new ActiveXObject("NativeArchDetector");\n\nfunction getNativeArchitecture()\n{\n    var arch = nativeArchDetector.GetNativeArchitecture();\n    return arch;\n}

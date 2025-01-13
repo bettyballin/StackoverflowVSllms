@@ -1,1 +1,0 @@
-using Microsoft.Win32;\n\npublic bool IsComComponentInstalled(string classId)\n{\n    using (RegistryKey key = Registry.LocalMachine.OpenSubKey(@"SOFTWARE\Classes\CLSID\" + classId))\n    {\n        return key != null;\n    }\n}

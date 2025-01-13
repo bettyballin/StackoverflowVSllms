@@ -1,1 +1,0 @@
-string cpuArchitecture = CPUArchitecture.GetCPUArchitecture();\nConsole.WriteLine(cpuArchitecture);

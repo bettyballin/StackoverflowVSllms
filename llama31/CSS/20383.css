@@ -1,1 +1,0 @@
-table {\n  table-layout: fixed;\n}\n\ntd {\n  border: solid green 1px;\n  width: 200px;\n  overflow: hidden;\n}

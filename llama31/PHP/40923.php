@@ -1,0 +1,1 @@
+$doc = new DOMDocument();\n$doc->load('your_rss_file.xml');\n$items = $doc->getElementsByTagName('item');\nforeach ($items as $item) {\n    $description = $item->getElementsByTagName('description')->item(0);\n    echo $description->nodeValue;\n}

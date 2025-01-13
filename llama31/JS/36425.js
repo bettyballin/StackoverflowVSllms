@@ -1,0 +1,1 @@
+$('select option:first').prop('selected', true);

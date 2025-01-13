@@ -1,1 +1,0 @@
-int detect_prm(Param prm) {\n  int prm_arr[3];\n  int* prm_ptr = &prm.field1;\n\n  for (int i = 0; i < 3; i++) {\n    prm_arr[i] = *prm_ptr;\n    prm_ptr++;\n  }\n\n  return 0;\n}

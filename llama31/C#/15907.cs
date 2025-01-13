@@ -1,1 +1,0 @@
-byte[] key = Encoding.UTF8.GetBytes("your_session_key_here");\nstring plainText = "Hello, World!";\nstring encryptedText = AesEncryption.Encrypt(plainText, key);

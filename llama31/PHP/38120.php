@@ -1,0 +1,1 @@
+$redis = new Redis();\n$redis->set('dbname', 'my_database');

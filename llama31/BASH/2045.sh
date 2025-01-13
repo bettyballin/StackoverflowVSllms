@@ -1,1 +1,0 @@
-pm install -g lighthouse\nlighthouse https://your-web-app.com --only-categories=security

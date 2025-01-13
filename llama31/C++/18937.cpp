@@ -1,1 +1,0 @@
-#include <iostream>\n#include <string>\n\nint main() {\n    std::string input;\n    std::getline(std::cin, input); // Read input from PHP\n\n    // Process the input\n    std::string result = "Processed: " + input;\n\n    // Output the result to PHP\n    std::cout << result << std::endl;\n\n    return 0;\n}

@@ -1,0 +1,1 @@
+CREATE SPFILE FROM MEMORY\n  DATABASE "MYDB"\n  CONTROL_FILES = ('/path/to/control/file1.ctl', '/path/to/control/file2.ctl')\n;

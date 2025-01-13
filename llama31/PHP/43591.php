@@ -1,0 +1,1 @@
+$r_header = '/Prev\. Week(.+?)Next Week/s';\n$r_date = '/<b>(.+?)<\/b>/s';\n\npreg_match($r_header, $data, $header);\npreg_match($r_date, $header[1], $date);\n\necho $date[1];

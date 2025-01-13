@@ -1,1 +1,0 @@
-// Add the YourKit agent to your Tomcat startup script\njava -agentpath:/path/to/yourkit/lib/yjpagent.jar -jar /path/to/tomcat/bin/bootstrap.jar

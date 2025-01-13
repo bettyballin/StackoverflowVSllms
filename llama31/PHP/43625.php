@@ -1,0 +1,1 @@
+curl_setopt($s, CURLOPT_HTTPHEADER, array('User-Agent: MyApplication/1.0'));

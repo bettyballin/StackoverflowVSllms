@@ -1,0 +1,1 @@
+var dataString = "email="+encodeURIComponent(username)+"&password="+encodeURIComponent(password)+"&remember="+encodeURIComponent(remember);

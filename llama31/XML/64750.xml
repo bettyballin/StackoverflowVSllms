@@ -1,0 +1,1 @@
+<iis:WebSite Id="MyWebSite" Description="My Web Service" AutoStart="yes" Version="6">\n  <!-- IIS 6 settings -->\n</iis:WebSite>\n<iis:WebSite Id="MyWebSite" Description="My Web Service" AutoStart="yes" Version="7">\n  <!-- IIS 7 settings -->\n</iis:WebSite>

@@ -1,0 +1,1 @@
+Private Sub Button_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles cmdButton1.Click, cmdButton2.Click, cmdButton3.Click, cmdButton4.Click, cmdButton5.Click, cmdButton6.Click, cmdButton7.Click, cmdButton8.Click, cmdButton9.Click, cmdButton10.Click\n\n    Dim btn As Button = DirectCast(sender, Button)\n    currentTag = btn.Tag\n\nEnd Sub

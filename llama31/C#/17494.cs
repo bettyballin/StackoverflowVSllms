@@ -1,1 +1,0 @@
-var country = "ga";\nreturn (from t in Db.Concessions \n        where t.Country == country \n        select t.ConcessionID, t.Title, t.Country);

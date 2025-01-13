@@ -1,1 +1,0 @@
-public static class Utils\n{\n    public static string Left(this string str, int length)\n    {\n        return str.Substring(0, Math.Min(length, str.Length));\n    }\n}

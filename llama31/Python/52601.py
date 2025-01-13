@@ -1,0 +1,1 @@
+import gzip\n\nwith gzip.open('dumpfile.gz', 'rb') as f:\n    contents = f.read()\n\n# Check the contents for errors\n# ...\n\nif errors:\n    print("Dump file is invalid")\nelse:\n    print("Dump file is valid")

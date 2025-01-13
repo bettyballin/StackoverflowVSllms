@@ -1,0 +1,1 @@
+CREATE FUNCTION GetTimeZoneOffset()\nRETURNS INT\nAS\nBEGIN\n    DECLARE @Offset INT\n    SET @Offset = DATEDIFF(HH, GETDATE(), GETUTCDATE())\n    IF @Offset < 0\n        SET @Offset = @Offset - 1\n    RETURN @Offset\nEND\nGO

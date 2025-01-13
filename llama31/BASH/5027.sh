@@ -1,1 +1,0 @@
-curl -v -k https://your-page-url.com

@@ -1,1 +1,0 @@
-Type someType = ...;\nvar exports = _container.GetExports(someType);

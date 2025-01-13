@@ -1,1 +1,0 @@
-#include <Windows.h>\n\nint main()\n{\n    // Specify the directory where the DLL is located\n    SetDllDirectory(L"C:\\Path\\To\\Dll");\n\n    // Load the DLL\n    HMODULE hModule = LoadLibrary(L"MyDll.dll");\n\n    // ...\n}

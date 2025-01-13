@@ -1,0 +1,1 @@
+{% if messages %}\n  <ul>\n    {% for message in messages %}\n      <li>{{ message }}</li>\n    {% endfor %}\n  </ul>\n{% endif %}

@@ -1,0 +1,1 @@
+// Get the form data and class names\n$formData = $_POST['formData'];\n$classData = json_decode($_POST['classData'], true);\n\n// Iterate over the form data and validate using class names\nforeach ($formData as $key => $value) {\n  $classNames = $classData[$key];\n  // Perform specific PHP validations based on class names\n  // ...\n}

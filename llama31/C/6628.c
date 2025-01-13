@@ -1,1 +1,0 @@
-curl_easy_setopt(curl_handle, CURLOPT_SSL_SESSIONID_CACHE, 0);

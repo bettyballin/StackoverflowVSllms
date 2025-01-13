@@ -1,0 +1,1 @@
+<!-- terracotta.xml -->\n<tc:tc-config xmlns:tc="http://www.terracotta.org/config">\n  <tc:server>\n    <tc:config-storage>\n      <tc:file-storage path="/path/to/shared/config.xml"/>\n    </tc:config-storage>\n  </tc:server>\n</tc:tc-config>

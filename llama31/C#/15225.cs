@@ -1,1 +1,0 @@
-[TypeConverter(typeof(DecimalConverter))]\npublic decimal? MyValue { get; set; }

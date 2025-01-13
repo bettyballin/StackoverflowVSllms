@@ -1,1 +1,0 @@
-#!/bin/sh\nUSER=phpuser\nGROUP=phpgroup\n\nexec /usr/bin/php-cgi -c /path/to/php.ini

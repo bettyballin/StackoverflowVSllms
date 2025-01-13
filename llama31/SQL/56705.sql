@@ -1,0 +1,1 @@
+UPDATE table1\nSET field2 = 'value';

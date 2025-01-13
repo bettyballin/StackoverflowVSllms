@@ -1,0 +1,1 @@
+UPDATE YourTable\nSET YourDateTimeField = YourDateTimeField AT TIME ZONE 'Eastern Standard Time' AT TIME ZONE 'UTC';

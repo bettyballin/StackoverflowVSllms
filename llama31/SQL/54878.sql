@@ -1,0 +1,1 @@
+ALTER TABLE mytable\n  ALTER COLUMN elevation TYPE integer USING \n    CASE \n      WHEN elevation ~ '^[0-9]+$' THEN elevation::integer \n      ELSE -1 \n    END;

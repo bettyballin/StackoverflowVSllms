@@ -1,1 +1,0 @@
-// Use HTTPS for web requests\nvar request = HttpWebRequest.Create("https://example.com");

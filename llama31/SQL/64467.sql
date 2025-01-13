@@ -1,0 +1,1 @@
+BEGIN TRANSACTION\n\nUPDATE TableA\nSET [columns] = #TableB.[columns]\nFROM TableA\nINNER JOIN #TableB\nON TableA.id = #TableB.id\n\nINSERT INTO TableA ([columns])\nSELECT [columns]\nFROM #TableB\nWHERE id NOT IN (SELECT id FROM TableA)\n\nCOMMIT TRANSACTION

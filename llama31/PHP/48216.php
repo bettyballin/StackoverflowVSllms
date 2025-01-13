@@ -1,0 +1,1 @@
+include '/path/to/shared/nav.php';

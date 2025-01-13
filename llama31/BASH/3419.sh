@@ -1,1 +1,0 @@
-awk -v RS='*\n' -v FS=' ' 'NR>1{print $1}' your_data_file

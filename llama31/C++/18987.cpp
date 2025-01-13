@@ -1,1 +1,0 @@
-int main() {\n    Console::Print("This is a non-coloured message\n");\n    Console::Warning("This is a YELLOW warning message\n");\n    Console::Error("This is a RED error message\n");\n    return 0;\n}

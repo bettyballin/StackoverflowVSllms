@@ -1,0 +1,1 @@
+<?php\necho ini_get('SMTP');\n?>

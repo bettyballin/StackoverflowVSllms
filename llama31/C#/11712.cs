@@ -1,1 +1,0 @@
-using System.Diagnostics;\n\nclass Program {\n    static void Main() {\n        // Set the system to Sleep mode\n        Process.Start("powercfg", "/devicequery /devicename:\"System Power\" /S");\n    }\n}

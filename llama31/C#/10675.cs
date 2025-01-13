@@ -1,1 +1,0 @@
-int S_OK = Marshal.S_OK;

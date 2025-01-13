@@ -1,1 +1,0 @@
-string input = "Text with curly quotes: “example”";\nstring encoded = HtmlEncoder.Encode(input);

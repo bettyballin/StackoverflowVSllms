@@ -1,0 +1,1 @@
+require 'vendor/autoload.php';\nuse MaxMind\Db\Reader;\n\n$reader = new Reader('path/to/GeoLite2-Country.mmdb');\n$ip = $_SERVER['REMOTE_ADDR'];\n$record = $reader->get($ip);\n$country = $record->country->names['en'];\n\necho $country;

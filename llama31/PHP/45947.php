@@ -1,0 +1,1 @@
+// Set the cookie on Page1.php\nsetcookie('myVariable', $myVariable, time() + 3600); // expires in 1 hour\n\n// Read the cookie on Page2.php\n$myVariable = $_COOKIE['myVariable'];

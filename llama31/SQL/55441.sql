@@ -1,0 +1,1 @@
+-- Create a linked server\nEXEC sp_addlinkedserver \n    @server = 'RemoteServer', \n    @srvproduct = 'SQL Server', \n    @provider = 'SQLNCLI', \n    @datasrc = 'RemoteServer\InstanceName';\n\n-- Query the remote database\nSELECT * FROM OPENQUERY(RemoteServer, 'SELECT * FROM database_name.schema_name.table_name');

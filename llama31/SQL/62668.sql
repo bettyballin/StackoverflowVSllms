@@ -1,0 +1,1 @@
+EXEC GetDataFromView 'myViewName', 'myCode', @Desc OUTPUT;

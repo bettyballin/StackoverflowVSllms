@@ -1,1 +1,0 @@
-bool canCreateFile = CanCreateFile(@"C:\myfolder");\nif (canCreateFile)\n{\n    // you can create a file in the folder\n}

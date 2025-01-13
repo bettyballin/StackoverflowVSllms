@@ -1,0 +1,1 @@
+$query = "SELECT q.*, u.* \n          FROM questions q \n          JOIN users u ON q.author_id = u.id \n          ORDER BY q.created_at DESC";\n$results = $mysqli->query($query);

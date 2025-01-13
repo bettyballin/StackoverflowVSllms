@@ -1,0 +1,1 @@
+BEGIN\n  DBMS_XPLAN.DISPLAY_PROCEDURE(procedure_name => 'my_procedure_name');\nEND;

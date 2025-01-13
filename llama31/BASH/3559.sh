@@ -1,1 +1,0 @@
-csc /reference:C:\Windows\assembly\GAC_MSIL\YourAssemblyName\1.0.0.0__your_public_key_token\YourAssemblyName.dll YourCode.cs

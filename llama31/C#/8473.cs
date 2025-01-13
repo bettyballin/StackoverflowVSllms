@@ -1,1 +1,0 @@
-List<string> departmentNames = GetDepartmentNames("yourdomain.com", "username", "password");\nforeach (string department in departmentNames)\n{\n    Console.WriteLine(department);\n}

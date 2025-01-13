@@ -1,0 +1,1 @@
+// Controller\npublic function loadCommentsAction()\n{\n    $entryId = $this->_getParam('id');\n    $comments = $this->_getModel()->getComments($entryId);\n    $this->_helper->json($comments);\n}

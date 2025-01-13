@@ -1,0 +1,1 @@
+// user.php\nfunction authenticate($username, $password) {\n    // duplicate code\n}\n\n// admin.php\nfunction authenticate($username, $password) {\n    // duplicate code\n}

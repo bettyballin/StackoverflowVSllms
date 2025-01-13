@@ -1,1 +1,0 @@
-#include <boost/lambda/bind.hpp>\n#include <boost/lambda/lambda.hpp>\n\nvoid p_map(point& p) {\n    p.x += 1;\n    p.y += 1;\n}\n\nvoid foreach(std::vector<pinfo>& pi_vec) {\n    boost::function<void (pinfo&)> pi_map = \n        boost::lambda::bind(&p_map, boost::lambda::bind(&pinfo::p, boost::lambda::_1));\n    std::for_each(pi_vec.begin(), pi_vec.end(), pi_map);\n}

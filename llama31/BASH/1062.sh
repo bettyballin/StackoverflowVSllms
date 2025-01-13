@@ -1,1 +1,0 @@
-#!/bin/bash\n\nAPPLICATION_URL="http://example.com/your-application"\nEMAIL_LIST="dev-team@example.com"\n\n# Check for HTTP errors\nHTTP_STATUS=$(curl -s -o /dev/null -w "%{http_code}" "$APPLICATION_URL")\n\nif [ "$HTTP_STATUS" -ge 400 ]; then\n  # Send an email to the team\n  echo "Error detected: $HTTP_STATUS" | mail -s "Application Error" "$EMAIL_LIST"\nfi

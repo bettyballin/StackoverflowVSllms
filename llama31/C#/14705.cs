@@ -1,1 +1,0 @@
-mshtml.IHTMLElementCollection divs = myDiv.getElementsByTagName("DIV");\n\nforeach (mshtml.IHTMLElement div in divs)\n{\n    mshtml.HTMLDivElement childDiv = (mshtml.HTMLDivElement)div;\n    // Do something with childDiv\n}

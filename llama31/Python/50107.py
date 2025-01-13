@@ -1,0 +1,1 @@
+from google.appengine.ext import ndb\n\nclass MyModel(ndb.Model):\n    my_integer_property = ndb.IntegerProperty(required=True)

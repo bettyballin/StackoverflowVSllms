@@ -1,1 +1,0 @@
-public partial class MainWindow : Window\n{\n    public MainWindow()\n    {\n        InitializeComponent();\n        DataContext = MyPrincipal.CurrentPrincipal;\n    }\n}

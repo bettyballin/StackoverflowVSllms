@@ -1,1 +1,0 @@
-stat -c "%y" /test/emailfile

@@ -1,1 +1,0 @@
-int i;\nfor (i = low; i <= high; ++i) {\n    ...\n}

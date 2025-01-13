@@ -1,1 +1,0 @@
-DropDownList1.DataSource = YourDataSource;\nDropDownList1.DataBind();\nDropDownList1.Items.Insert(0, new ListItem("-- Select One ---", ""));

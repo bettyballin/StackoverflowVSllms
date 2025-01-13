@@ -1,1 +1,0 @@
-context.Response.AddHeader("Content-Disposition", "attachment; filename=Report.pdf");

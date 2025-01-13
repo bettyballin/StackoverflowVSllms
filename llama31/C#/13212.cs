@@ -1,1 +1,0 @@
-string currentFolder = Application.StartupPath;

@@ -1,0 +1,1 @@
+// Example of using relative paths in PHP\n$rootPath = dirname(__DIR__);\n$filePath = $rootPath . '/path/to/your/file.php';\nrequire_once $filePath;

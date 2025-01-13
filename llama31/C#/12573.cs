@@ -1,1 +1,0 @@
-[assembly: SecurityPermission(SecurityAction.RequestMinimum, UnmanagedCode = true)]\n[assembly: OraclePermission(SecurityAction.RequestMinimum, Unrestricted = true)]

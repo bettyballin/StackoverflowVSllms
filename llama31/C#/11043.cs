@@ -1,1 +1,0 @@
-string[] allowedTableNames = { "MyTable", "AnotherTable" };\nstring tableName = "MyTable";\n\nif (allowedTableNames.Contains(tableName))\n{\n    string query = $"SELECT * FROM {tableName}";\n    SqlCommand command = new SqlCommand(query, connection);\n}\nelse\n{\n    throw new InvalidOperationException($"Invalid table name: {tableName}");\n}

@@ -1,1 +1,0 @@
-echo "execute some_procedure;" | sqlplus -s username/password@databasename

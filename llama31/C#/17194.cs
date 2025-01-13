@@ -1,1 +1,0 @@
-public static float PixelsToPoints(int pixels)\n{\n    return (float)pixels / 96 * 72;\n}

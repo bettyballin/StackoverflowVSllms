@@ -1,0 +1,1 @@
+Dim regex\nSet regex = New RegExp\nregex.Pattern = ChrW(&H2192)

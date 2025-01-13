@@ -1,0 +1,1 @@
+// Example usage:\n$this->load->library('ion_auth');\n$this->ion_auth->add_group('admin');\n$this->ion_auth->add_permission('create_post');\n$this->ion_auth->add_permission_to_group('admin', 'create_post');

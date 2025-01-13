@@ -1,1 +1,0 @@
-HWND hWnd = GetOpenClipboardWindow();\nif (hWnd != NULL) {\n    // Another application has the clipboard open\n    // You can use the hWnd to identify the application\n}

@@ -1,0 +1,1 @@
+spl_autoload_register(function ($class) {\n    $file = __DIR__ . '/classes/' . $class . '.php';\n    if (file_exists($file)) {\n        include $file;\n    }\n});

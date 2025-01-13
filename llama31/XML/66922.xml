@@ -1,0 +1,1 @@
+<bindings>\n  <basicHttpBinding allowCookies="true" />\n</bindings>

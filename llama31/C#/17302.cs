@@ -1,1 +1,0 @@
-using System.Text.RegularExpressions;\n\npublic static string RemoveNonAsciiCharacters(string input)\n{\n    return Regex.Replace(input, @"[^\x00-\x7F]+", string.Empty);\n}

@@ -1,0 +1,1 @@
+CREATE TABLE user_records (\n  id INT AUTO_INCREMENT,\n  user_id INT,\n  record_data VARCHAR(255),\n  PRIMARY KEY (id)\n);

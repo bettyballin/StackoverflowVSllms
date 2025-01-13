@@ -1,0 +1,1 @@
+from sqlalchemy import any_\n\nprojects_with_entries = Session.query(Project).filter(Project.entries.any()).all()

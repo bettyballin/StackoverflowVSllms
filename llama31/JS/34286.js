@@ -1,0 +1,1 @@
+// Assume your GridView is inside a modal popup with ID "myModal"\n// and the TextBox with the value is "txtValue"\n\nfunction reloadGridView() {\n    __doPostBack('<%= txtValue.ClientID %>', '');\n}\n\n// Call this function on client click\n<a href="#" onclick="reloadGridView();">Reload GridView</a>

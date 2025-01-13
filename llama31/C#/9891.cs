@@ -1,1 +1,0 @@
-using System.Net;\n\nHttpWebRequest request = (HttpWebRequest)WebRequest.Create("https://example.com");\nrequest.Proxy = new WebProxy("localhost:8080");\nHttpWebResponse response = (HttpWebResponse)request.GetResponse();

@@ -1,1 +1,0 @@
-public interface IStaticContract\n{\n    static void StaticMethod();\n}\n\npublic class ConcreteClass : IStaticContract\n{\n    public static void StaticMethod()\n    {\n        // implementation\n    }\n}

@@ -1,0 +1,1 @@
+def show\n  # assuming you have a template `show.ppt.builder` in `app/views/elements`\n  send_file("#{Rails.root}/app/views/elements/show.ppt.builder", type: 'multipart/related', filename: 'your_descriptive_filename.ppt')\nend

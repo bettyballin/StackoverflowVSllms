@@ -1,0 +1,1 @@
+SELECT \n    r.command,\n    r.status,\n    r.wait_type,\n    r.percent_complete,\n    r.estimated_completion_time\nFROM \n    sys.dm_exec_requests r\nWHERE \n    r.command IN ('BACKUP DATABASE', 'RESTORE DATABASE')

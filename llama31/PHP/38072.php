@@ -1,0 +1,1 @@
+// application/modules/module1/controllers/IndexController.php\nclass Module1_IndexController extends Zend_Controller_Action\n{\n    public function __construct(Module1_Service $service)\n    {\n        $this->_service = $service;\n    }\n}

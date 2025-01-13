@@ -1,0 +1,1 @@
+import requests\nfrom bs4 import BeautifulSoup\n\nurl = "http://localhost/server-status"\nresponse = requests.get(url)\nsoup = BeautifulSoup(response.content, 'html.parser')\n\nuptime_section = soup.find('p', text=lambda t: t.startswith('Server uptime'))\nstart_time = uptime_section.text.split(':')[1].strip()\n\nprint("Apache WebServer start time:", start_time)

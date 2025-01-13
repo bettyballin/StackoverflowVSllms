@@ -1,0 +1,1 @@
+const puppeteer = require('puppeteer');\n\n(async () => {\n  const browser = await puppeteer.launch();\n  const page = await browser.newPage();\n  await page.goto('input.html');\n  await page.setViewport({ width: 800, height: 600 });\n  await page.screenshot({ path: 'output.png' });\n  await browser.close();\n})();

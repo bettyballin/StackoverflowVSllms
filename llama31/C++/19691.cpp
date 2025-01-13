@@ -1,1 +1,0 @@
-#include <QProcess>\n\n// ...\n\nQProcess process;\nprocess.setProgram("/path/to/your/console/app");\nprocess.setArguments(QStringList() << "arg1" << "arg2");\nprocess.setStandardOutputFile("log_file.log");\nprocess.start();

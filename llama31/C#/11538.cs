@@ -1,1 +1,0 @@
-// Make sure to compile as x86\nusing System.Runtime.InteropServices;\n\n// ...\n\n[DllImport("CQG.CQGCEL.4.0.dll", EntryPoint = "CQGCEL")]\npublic static extern int CQGCEL();

@@ -1,0 +1,1 @@
+require_once 'lib/swift_required.php';\n\n$transport = Swift_SmtpTransport::newInstance('smtp.gmail.com', 587, 'tls')\n  ->setUsername('your_email@gmail.com')\n  ->setPassword('your_password')\n  ;\n\n$mailer = Swift_Mailer::newInstance($transport);

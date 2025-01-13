@@ -1,0 +1,1 @@
+link_to "Click me", \n        {:controller => 'my_controller', :action => 'my_action'},\n        :remote => true,\n        :params => {:param1 => 'value1', :param2 => 'value2'}

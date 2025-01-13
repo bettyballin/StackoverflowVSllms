@@ -1,0 +1,1 @@
+' Form code\nPrivate Sub cmdMultiplier_Click()\n    Dim customer As Customer\n    Set customer = CustomerFactory.GetCustomer(CurrentCustomerID)\n    PriceMultiplier = customer.GetPriceMultiplier\nEnd Sub

@@ -1,0 +1,1 @@
+Dim app As New Word.Application\nDim doc As Document\ndoc = app.Documents.Open("C:\myDoc.doc")\nDim chkBox As FormField\nchkBox = doc.FormFields("MyCheckbox")\nDim isChecked As Boolean\nisChecked = chkBox.CheckBox.Value

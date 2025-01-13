@@ -1,1 +1,0 @@
-[HttpPost]\npublic ActionResult YourAction(HttpPostedFileBase file)\n{\n    // handle the file\n    return Json(new { success = true });\n}

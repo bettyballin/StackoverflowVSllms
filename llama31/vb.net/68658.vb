@@ -1,0 +1,1 @@
+Dim o As Object = Nothing\nDim T As Type = GetType(Point)\n\n' Using Convert.ChangeType\no = Convert.ChangeType(o, T)\n\n' Using FormatterServices.GetUninitializedObject\no = FormatterServices.GetUninitializedObject(T)

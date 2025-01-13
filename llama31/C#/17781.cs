@@ -1,1 +1,0 @@
-using JetBrains.dotMemoryUnit;\n\n// ...\n\n[MemoryTest]\npublic void ProfileMemoryUsage()\n{\n    // Your code here\n    var myObject = new MyObject();\n    // ...\n}\n\n// Run the test with the release build configuratio

@@ -1,1 +1,0 @@
-// Example of algorithmic redundancy\nint result1 = perform_calculation_algorithm1(data);\nint result2 = perform_calculation_algorithm2(data);\nif (result1 != result2) {\n    // Error detected, handle accordingly\n}

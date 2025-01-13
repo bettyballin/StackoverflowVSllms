@@ -1,0 +1,1 @@
+s = "Word to Split"\nwordlist = [char for char in s]\nprint(wordlist)

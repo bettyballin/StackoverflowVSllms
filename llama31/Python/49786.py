@@ -1,0 +1,1 @@
+request.session['messages'] = request.session.get('messages', []) + ["message to user"]

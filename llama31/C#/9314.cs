@@ -1,1 +1,0 @@
-string FullPath = TempPath + FileName;\nSystem.Drawing.Image Adimg = null;\n\nif (Page != null) {\n    Adimg = System.Drawing.Image.FromFile(Page.MapPath(FullPath));\n} else {\n    // handle the case where Page is null\n    // e.g., throw an exception or return an error message\n}

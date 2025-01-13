@@ -1,1 +1,0 @@
-void* pBuffer = CoTaskMemAlloc(1024); // allocate 1024 bytes\nif (pBuffer != NULL) {\n    // use the allocated memory\n    // ...\n    CoTaskMemFree(pBuffer); // don't forget to free the memory!\n}

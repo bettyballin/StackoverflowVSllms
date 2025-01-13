@@ -1,1 +1,0 @@
-var selector = new AdamRandomRecordSelector("your_adam_server", "OU=Your OU,DC=Your DC");\nvar randomRecordDn = selector.GetRandomRecordDn();\nConsole.WriteLine(randomRecordDn);

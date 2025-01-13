@@ -1,0 +1,1 @@
+MERGE INTO [table2] AS target\nUSING [table1] AS source\nON target.PrimaryKey = source.PrimaryKey\n\nWHEN MATCHED THEN\n    UPDATE SET target.UpdateTimestamp = GETDATE()\n\nWHEN NOT MATCHED THEN\n    INSERT (column1, column2, ..., UpdateTimestamp)\n    VALUES (source.column1, source.column2, ..., GETDATE());

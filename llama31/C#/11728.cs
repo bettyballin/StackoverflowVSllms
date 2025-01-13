@@ -1,1 +1,0 @@
-public ActionResult GenerateLetter(LetterModel model)\n{\n    return PdfActionResult(model, "LetterTemplate");\n}

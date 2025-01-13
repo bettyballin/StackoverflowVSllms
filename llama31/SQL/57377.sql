@@ -1,0 +1,1 @@
+UPDATE Table T\nJOIN (\n  SELECT category, SUM(appearances) AS total_appearances\n  FROM Table\n  GROUP BY category\n) AS S ON T.category = S.category\nSET T.ratio = T.appearances / S.total_appearances;

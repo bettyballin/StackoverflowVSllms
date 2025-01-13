@@ -1,0 +1,1 @@
+Dim enumX As IEnumerator(Of X) = listX.GetEnumerator()\nDim enumY As IEnumerator(Of Y) = listY.GetEnumerator()\n\nWhile enumX.MoveNext() AndAlso enumY.MoveNext()\n    Dim _x As X = enumX.Current\n    Dim _y As Y = enumY.Current\n    If _x.Item = _y.Item Then\n        ' Do something\n    End If\nEnd While

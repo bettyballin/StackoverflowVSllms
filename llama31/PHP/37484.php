@@ -1,0 +1,1 @@
+$stmt = $pdo->prepare($query);\n$stmt->execute([$user_id, $user_id]);\n$results = $stmt->fetchAll();

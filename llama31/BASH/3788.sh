@@ -1,1 +1,0 @@
-grep -F "/path/to/search" file.txt

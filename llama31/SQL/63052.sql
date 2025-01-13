@@ -1,0 +1,1 @@
+SELECT a.*\nFROM a\nINNER JOIN b ON a.c = b.d;

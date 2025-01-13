@@ -1,1 +1,0 @@
-int arr[100];\nfor (int i = 0; i < 100; i += 4) {\n    __m128i vec = _mm_loadu_si128((__m128i*)arr);\n    // do work on vec\n}

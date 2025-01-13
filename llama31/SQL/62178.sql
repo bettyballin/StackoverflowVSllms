@@ -1,0 +1,1 @@
+CREATE TABLE Documents (\n  idDoc INT PRIMARY KEY,\n  Name VARCHAR(255),\n  Location VARCHAR(255)\n);\n\nCREATE TABLE Words (\n  idWord INT PRIMARY KEY,\n  Word VARCHAR(255) UNIQUE\n);\n\nCREATE TABLE Word_Docs (\n  idWord INT,\n  idDoc INT,\n  PRIMARY KEY (idWord, idDoc),\n  FOREIGN KEY (idWord) REFERENCES Words(idWord),\n  FOREIGN KEY (idDoc) REFERENCES Documents(idDoc)\n);

@@ -1,0 +1,1 @@
+ALTER TABLE your_table\nADD new_id INT IDENTITY(1,1);\n\nUPDATE your_table\nSET new_id = old_id;\n\nALTER TABLE your_table\nDROP COLUMN old_id;\n\nEXEC sp_rename 'your_table.new_id', 'old_id', 'COLUMN';

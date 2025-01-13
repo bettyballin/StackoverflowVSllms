@@ -1,1 +1,0 @@
-asm -f win32 your_asm_file.asm -o your_asm_file.o\ngcc -mno-cygwin -c your_c_file.c -o your_c_file.o\nld -mno-cygwin -Ttext 0x100000 -o your_kernel.exe your_asm_file.o your_c_file.o

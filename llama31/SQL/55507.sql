@@ -1,0 +1,1 @@
+DECLARE\n  CURSOR my_cursor IS\n    SELECT * FROM my_table FOR UPDATE;\nBEGIN\n  OPEN my_cursor;\n  -- process the rows\n  CLOSE my_cursor;\nEND;

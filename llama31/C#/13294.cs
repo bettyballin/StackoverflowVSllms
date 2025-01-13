@@ -1,1 +1,0 @@
-[AutoRefresh(ControllerName="Download", ActionName="GetFile", DurationInSeconds=3)]\n[AcceptVerbs(HttpVerbs.Get)]\npublic ActionResult Thankyou()\n{\n    return View();\n}

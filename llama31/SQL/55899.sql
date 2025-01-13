@@ -1,0 +1,1 @@
+CREATE TABLE us_state_codes (\n  state_code CHAR(2) PRIMARY KEY\n);

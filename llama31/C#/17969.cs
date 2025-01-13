@@ -1,1 +1,0 @@
-[WebMethod(EnableSession = true)]\npublic static string MyMethod(string parameter)\n{\n    // Now you can access the Session object\n    string userId = Session["UserId"].ToString();\n    // ...\n}

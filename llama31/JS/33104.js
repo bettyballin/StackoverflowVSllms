@@ -1,0 +1,1 @@
+document.getElementById('fileInput').value = '/path/to/file'; // will not work

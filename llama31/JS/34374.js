@@ -1,0 +1,1 @@
+// Client-side JavaScript\n$.ajax({\n    url: 'your-proxy-server.com/restricted-uri',\n    success: function(data) {\n        // Handle the response data\n    }\n});

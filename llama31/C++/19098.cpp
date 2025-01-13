@@ -1,1 +1,0 @@
-class MulProxy {\npublic:\n    MulProxy(int i, int j) : i_(i), j_(j) {}\n\n    operator int() const { return i_ * j_; }\n\n    operator std::string() const { return std::string(j_, '0' + i_); }\n\nprivate:\n    int i_;\n    int j_;\n};\n\nMulProxy mul(int i, int j) {\n    return MulProxy(i, j);\n}

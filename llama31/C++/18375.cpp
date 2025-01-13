@@ -1,1 +1,0 @@
-CList<int, int> myList;\nmyList.SetFixedSize(10); // set fixed size to 10 elements\n\n// ... add some elements ...\n\nif (!myList.Add(123)) {\n    // list is full, handle the error\n    AfxMessageBox("List is full!");\n}

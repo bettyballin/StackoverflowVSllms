@@ -1,1 +1,0 @@
-ssh -f user@host command

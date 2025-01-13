@@ -1,0 +1,1 @@
+$ch = curl_init('https://example.com/login');\ncurl_setopt($ch, CURLOPT_RETURNTRANSFER, true);\ncurl_setopt($ch, CURLOPT_POST, true);\ncurl_setopt($ch, CURLOPT_POSTFIELDS, 'username=your_username&password=your_password');\n$response = curl_exec($ch);\ncurl_close($ch);

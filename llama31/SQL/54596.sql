@@ -1,0 +1,1 @@
+SELECT * FROM logs WHERE ip_address = '192.0.2.1' AND request_method = 'GET';

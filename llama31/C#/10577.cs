@@ -1,1 +1,0 @@
-public static class LinqExtensions\n{\n    public static int SumOrZero<T>(this IEnumerable<T> source, Func<T, int?> selector)\n    {\n        return source.Select(selector).Sum() ?? 0;\n    }\n}

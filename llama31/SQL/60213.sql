@@ -1,0 +1,1 @@
+SELECT \n  p.product_id,\n  p.name,\n  GROUP_CONCAT(v.variation_id, ',', v.name, ',', v.kind SEPARATOR '-') AS variations\nFROM \n  products p\n  JOIN product_variations pv ON p.product_id = pv.product_id\n  JOIN variations v ON pv.variation_id = v.variation_id\nGROUP BY \n  p.product_id, p.name

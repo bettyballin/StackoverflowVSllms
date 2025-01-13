@@ -1,0 +1,1 @@
+function delChar($str, $index) {\n    $str = str_split($str);\n    unset($str[$index]);\n    return implode('', $str);\n}

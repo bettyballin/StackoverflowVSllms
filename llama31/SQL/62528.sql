@@ -1,0 +1,1 @@
+CREATE TABLE Locations (\n    ZipCode nvarchar(10) PRIMARY KEY,\n    City nvarchar(50),\n    State nvarchar(2)\n);

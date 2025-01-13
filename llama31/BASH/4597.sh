@@ -1,1 +1,0 @@
-scp --chown slave:master importantFile.txt slave@theServerAddress:/pathToFile/importantFile.txt

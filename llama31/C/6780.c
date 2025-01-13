@@ -1,1 +1,0 @@
-// Example gSOAP code\n#include <soapH.h>\n\nint main() {\n    // Initialize gSOAP\n    soap_init(&soap);\n    // Register COM DLL\n    soap_register_com_dll(&soap, "YourCOMDLL");\n    // Create a service\n    soap_create_service(&soap, "YourService");\n    // Start the service\n    soap_serve(&soap);\n    // ...\n}

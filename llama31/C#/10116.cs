@@ -1,1 +1,0 @@
-protected void txtValue_TextChanged(object sender, EventArgs e)\n{\n    // Update your GridView data source here\n    gridView.DataSource = GetData(txtValue.Text);\n    gridView.DataBind();\n}

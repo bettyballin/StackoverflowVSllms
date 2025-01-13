@@ -1,1 +1,0 @@
-string tempPath = System.IO.Path.GetTempPath();\nusing (StreamWriter writer = new StreamWriter(tempPath + "MyFile.txt")) {\n    writer.WriteLine("Hello, World!");\n}

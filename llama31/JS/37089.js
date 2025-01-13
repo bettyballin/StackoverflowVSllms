@@ -1,0 +1,1 @@
+const userInput = {\n  firstName: "", // user left it blank\n  lastName: "Doe"\n};\n\n// Trim input values\nObject.keys(userInput).forEach(key => {\n  userInput[key] = userInput[key].trim();\n});\n\n// Set NULL for empty values if field is not required\nif (!userInput.firstName && !isRequired("firstName")) {\n  userInput.firstName = null;\n}

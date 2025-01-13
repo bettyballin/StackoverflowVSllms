@@ -1,1 +1,0 @@
-public class PurchaseOrder\n{\n    public string Factory { get; set; }\n    public string Product { get; set; }\n    // ...\n}

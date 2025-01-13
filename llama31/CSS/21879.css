@@ -1,1 +1,0 @@
-.workflow {\n  display: flex;\n  flex-wrap: wrap;\n  justify-content: space-between;\n}\n\n.workflow-item {\n  flex-basis: auto;\n  margin: 10px;\n}

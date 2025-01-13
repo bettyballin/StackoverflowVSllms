@@ -1,0 +1,1 @@
+Dim results = DataContext.MyTable.HasID(123).ToList()

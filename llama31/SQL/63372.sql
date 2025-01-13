@@ -1,0 +1,1 @@
+SELECT p.id, p.name, (\n  SELECT GROUP_CONCAT(ph.id, ',', ph.path, ',', ph.title)\n  FROM photos ph\n  WHERE ph.person_id = p.id\n) AS photos\nFROM persons p\nORDER BY photos.title;

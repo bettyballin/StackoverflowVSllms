@@ -1,1 +1,0 @@
-setfacl -m u:apache:rw the_writable_file

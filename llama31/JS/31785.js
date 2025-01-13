@@ -1,0 +1,1 @@
+const readability = require('readability');\n\nconst url = "https://example.com";\nconst html = await fetch(url).then(response => response.text());\n\nconst article = new readability.Article(html);\nconst textContent = article.textContent();

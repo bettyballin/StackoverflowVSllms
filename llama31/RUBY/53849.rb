@@ -1,0 +1,1 @@
+# test/integration/users_test.rb\nrequire 'test_helper'\n\nclass UsersTest < ActionDispatch::IntegrationTest\n  test 'users can log in' do\n    user = users(:one)\n    get login_url\n    assert_response :success\n    post login_url, params: { username: user.username, password: user.password }\n    assert_redirected_to root_url\n  end\nend

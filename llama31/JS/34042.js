@@ -1,0 +1,1 @@
+success: function(xml) {\n    try {\n        $(xml).find("ringType").each( function(){\n            // ...\n        });\n    } catch (e) {\n        console.error("Error parsing XML response:", e);\n    }\n}

@@ -1,0 +1,1 @@
+<sessionState mode="SQLServer"\n  sqlConnectionString="..."\n  allowCustomSqlDatabase="true"\n  customProvider="MySqlSessionStateProvider"\n  cookieless="false"\n  timeout="20"\n/>

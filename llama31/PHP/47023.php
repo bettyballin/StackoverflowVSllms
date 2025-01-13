@@ -1,0 +1,1 @@
+class SessionHandler {\n    private $namespace;\n\n    public function __construct($namespace) {\n        $this->namespace = $namespace;\n    }\n\n    public function set($key, $value) {\n        $_SESSION[$this->namespace][$key] = $value;\n    }\n\n    public function get($key) {\n        return $_SESSION[$this->namespace][$key] ?? null;\n    }\n\n    // ... other methods ...\n}

@@ -1,0 +1,1 @@
+<system.web>\n    <applicationInitialization>\n        <add initializationPage="/" />\n    </applicationInitialization>\n</system.web>

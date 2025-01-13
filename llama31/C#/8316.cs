@@ -1,1 +1,0 @@
-Response.ContentType = "application/pdf";\nResponse.AppendHeader("Content-Disposition", "inline; filename=yourfile.pdf");

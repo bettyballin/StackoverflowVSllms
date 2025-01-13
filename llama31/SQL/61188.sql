@@ -1,0 +1,1 @@
+SELECT * \nFROM OPENQUERY(LinkedServer, 'SELECT * FROM your_remote_database.your_remote_table')

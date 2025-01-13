@@ -1,1 +1,0 @@
-public class Test\n{\n    public string x;\n    public List<string> y;\n\n    public Test()\n    {\n        this.y = new List<string>();\n    }\n}

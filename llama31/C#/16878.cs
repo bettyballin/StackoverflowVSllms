@@ -1,1 +1,0 @@
-[DllImport("kernel32", SetLastError = true)]\npublic static extern bool SetDllDirectory(string lpPathName);\n\n// ...\n\nSetDllDirectory(@"C:\Path\To\Libraries");

@@ -1,1 +1,0 @@
-var tableAdapter = new YourTableAdapter();\ntableAdapter.SelectCommand.Parameters.AddWithValue("@fromDate", fromDate);\ntableAdapter.SelectCommand.Parameters.AddWithValue("@toDate", toDate);\ntableAdapter.Fill(yourDataSet.YourTable);

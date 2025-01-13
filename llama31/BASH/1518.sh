@@ -1,1 +1,0 @@
-# Create a keystore\nkeytool -genkey -alias myalias -keystore mykeystore.jks\n\n# Generate a certificate\nkeytool -selfcert -alias myalias -keystore mykeystore.jks\n\n# Sign the applet JAR file\njarsigner -keystore mykeystore.jks -storepass <password> applet.jar myalias

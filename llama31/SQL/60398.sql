@@ -1,0 +1,1 @@
+DELETE sp\nFROM dbo.SubProtocols sp\nINNER JOIN @Protocols p ON sp.ProtocolID = p.ProtocolID

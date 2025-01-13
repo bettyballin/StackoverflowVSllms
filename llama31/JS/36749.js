@@ -1,0 +1,1 @@
+const obj = { foo: 'bar' };\nobj.foo = null;\nconsole.log(obj); // { foo: null }

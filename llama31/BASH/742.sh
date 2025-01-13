@@ -1,1 +1,0 @@
-openssl genrsa -out wildcard.key 2048

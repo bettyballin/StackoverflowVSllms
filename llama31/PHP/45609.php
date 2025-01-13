@@ -1,0 +1,1 @@
+$array = array('key1' => 'value1', 'key2' => 'value2');\n$encoded_data = http_build_query($array);\n\n$ch = curl_init('https://example.com');\ncurl_setopt($ch, CURLOPT_POST, true);\ncurl_setopt($ch, CURLOPT_POSTFIELDS, $encoded_data);\ncurl_exec($ch);\ncurl_close($ch);

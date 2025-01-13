@@ -1,1 +1,0 @@
-Assembly entryAssembly = Assembly.GetEntryAssembly();\nstring executablePath = entryAssembly.Location;

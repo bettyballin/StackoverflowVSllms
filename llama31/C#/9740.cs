@@ -1,1 +1,0 @@
-List<Person> vet = new List<Person>();\n\nPerson p = new Person { name = "aaa", email = new Email { desc = "bbb@aaa.com" } };\nPerson pp = new Person { name = "bbb", email = new Email { desc = "aaa@aaa.com" } };\nvet.Add(p);\nvet.Add(pp);\n\nvet.Sort("name", true); // works\nvet.Sort("email.desc", true); // should work now

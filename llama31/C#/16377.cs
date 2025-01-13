@@ -1,1 +1,0 @@
-int x = 5;  // valid\nint x = null;  // compiler error\n\nint? y = 5;  // valid\nint? y = null;  // valid

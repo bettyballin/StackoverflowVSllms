@@ -1,0 +1,1 @@
+// In your config/bootstrap.php file\nCakeLog::config('queries', array(\n    'engine' => 'FileLog',\n    'types' => array('notice', 'info', 'debug'),\n    'file' => 'queries',\n));

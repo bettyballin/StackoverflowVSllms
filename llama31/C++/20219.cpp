@@ -1,1 +1,0 @@
-// Instrument your code with BullseyeCoverage\n#include "BullseyeCoverage.h"\n\nint main() {\n    // Initialize BullseyeCoverage\n    BULLSEYE_EXE_START();\n\n    // Your application code here...\n\n    // Flush coverage data to file\n    BULLSEYE_EXE_STOP();\n    return 0;\n}

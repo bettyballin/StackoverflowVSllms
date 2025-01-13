@@ -1,1 +1,0 @@
-using (SqlConnection connection = new SqlConnection(connectionString))\n{\n    connection.Open();\n\n    string query = "SELECT * FROM mytable WHERE id = @id";\n    SqlCommand command = new SqlCommand(query, connection);\n    command.Parameters.AddWithValue("@id", Request.QueryString["id"]);\n\n    SqlDataReader reader = command.ExecuteReader();\n    // ...\n}

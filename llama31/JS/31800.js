@@ -1,0 +1,1 @@
+function getElementAtPosition(x, y) {\n  return document.elementFromPoint(x, y);\n}

@@ -1,0 +1,1 @@
+SELECT AVG(vote) AS average_rating, COUNT(*) AS total_votes\nFROM votes\nWHERE gid = $gid;

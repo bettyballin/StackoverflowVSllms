@@ -1,0 +1,1 @@
+CREATE TABLE MyTable (id INT PRIMARY KEY, name VARCHAR(50));\nINSERT INTO MyTable (id, name) VALUES (1, 'John'), (2, 'Jane');\n\nCREATE VIEW MyView AS\nSELECT * FROM MyTable;

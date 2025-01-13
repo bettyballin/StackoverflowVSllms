@@ -1,0 +1,1 @@
+CREATE TABLE stores (\n  id INT PRIMARY KEY,\n  name VARCHAR(255)\n);\n\nCREATE TABLE items (\n  id INT PRIMARY KEY,\n  name VARCHAR(255)\n);\n\nCREATE TABLE store_items (\n  store_id INT,\n  item_id INT,\n  value VARCHAR(255),\n  PRIMARY KEY (store_id, item_id),\n  FOREIGN KEY (store_id) REFERENCES stores(id),\n  FOREIGN KEY (item_id) REFERENCES items(id)\n);

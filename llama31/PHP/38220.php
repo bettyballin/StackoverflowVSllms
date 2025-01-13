@@ -1,0 +1,1 @@
+$note = new Zend_Form_Element_Note('my-note');\n$note->setValue('This is some custom text');\n$form->addElement($note);

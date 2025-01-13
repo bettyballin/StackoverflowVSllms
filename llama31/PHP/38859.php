@@ -1,0 +1,1 @@
+$stmt = $mysqli->prepare("INSERT INTO user_name (Name,Email) VALUES (?, ?)");\n$stmt->bind_param("ss", $name, $email);\n$name = 'Example';\n$email = 'example@xyz.com';\n$stmt->execute();\n$new_userid = $mysqli->insert_id;

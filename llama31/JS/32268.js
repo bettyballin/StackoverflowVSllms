@@ -1,0 +1,1 @@
+$(document).ready(function() {\n  $('.x').click(function() {\n    var s = document.getElementById('StateContainer');\n    s.className = (s.className == 'StateOne' ? 'StateTwo' : 'StateOne');\n  });\n});

@@ -1,0 +1,1 @@
+CREATE NONCLUSTERED INDEX IX_Objects_OrderColumns ON Objects (column1, column2, ...);

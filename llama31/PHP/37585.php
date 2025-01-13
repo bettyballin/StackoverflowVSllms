@@ -1,0 +1,1 @@
+// bootstrap.php\nrequire_once 'include/dal.php';\nrequire_once 'include/bll.php';\n// ...\n\n// jquery_bll.php\nrequire_once 'bootstrap.php';\n$myDB = new DAL();

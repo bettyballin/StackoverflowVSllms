@@ -1,0 +1,1 @@
+$input = array('a', 'b', 'c', 'd', 'e', 'f', 'g', 'h', 'i', 'j');\n$output = array_filter($input, function($key) { return $key % 2 == 0; }, ARRAY_FILTER_USE_KEY);\n\nvar_dump(array_values($output));

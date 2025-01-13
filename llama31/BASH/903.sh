@@ -1,1 +1,0 @@
-grep -G 'defn -test.*' OctaneFullTest.clj  | cut -c 1-10

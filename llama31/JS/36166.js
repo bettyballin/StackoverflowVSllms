@@ -1,0 +1,1 @@
+$.ajax({\n    type: 'POST',\n    url: '/mycontroller/add-element',\n    data: {\n        // Send the necessary data to add the new element\n    },\n    success: function(response) {\n        // Update the form with the new element\n        $('#my-form').append(response);\n    }\n});

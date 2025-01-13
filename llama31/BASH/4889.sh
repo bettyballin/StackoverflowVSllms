@@ -1,1 +1,0 @@
-xcopy /s /y $(SolutionDir)*.* C:\DestinationFolder

@@ -1,0 +1,1 @@
+CREATE OR REPLACE PACKAGE TEST_APP_DB1 AS\n  PROCEDURE TEST_GET_JOB;\nEND;\n/\n\nCREATE OR REPLACE PACKAGE BODY TEST_APP_DB1 AS\n  PROCEDURE TEST_GET_JOB AS\n    v_cursor MYGEN.sqlcur;\n  BEGIN\n    APP_DB1.GET_JOB(123, v_cursor);\n    -- Assert the results\n    ut.Assert.Equals('Expected job name', 'Actual job name', v_cursor.JOB_NAME);\n  END;\nEND;\n/

@@ -1,1 +1,0 @@
-public interface ICallbackContract\n{\n    void UpdateValue(string newValue);\n}

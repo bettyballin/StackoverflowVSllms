@@ -1,1 +1,0 @@
-sn.exe -k MyKey.snk

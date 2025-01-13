@@ -1,1 +1,0 @@
-splint -weak your_code.c

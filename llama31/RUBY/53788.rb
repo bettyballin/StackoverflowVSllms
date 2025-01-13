@@ -1,0 +1,1 @@
+def show\n  game = Game.find(params[:id])\n  if params[:history]\n    render xml: game.to_xml(include: [:turns])\n  else\n    render xml: game.to_xml\n  end\nend

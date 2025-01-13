@@ -1,1 +1,0 @@
-.sitename {\n  width: 700px; /* Increase the width to accommodate the longest URL */\n  /* Remove overflow:hidden */\n}\n\n/* Alternatively, you can add text-overflow: ellipsis */\n.sitename {\n  width: 535px;\n  text-overflow: ellipsis;\n  white-space: nowrap;\n  overflow: hidden;\n}

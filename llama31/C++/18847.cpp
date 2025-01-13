@@ -1,1 +1,0 @@
-unique_ptr<Table> table = db->query("select * from t");

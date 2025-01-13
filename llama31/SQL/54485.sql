@@ -1,0 +1,1 @@
+Template cell (e.g., A1): "INSERT INTO Table (ID, Name) VALUES ({ID}, '{Name}')"\n\nFormula cell (e.g., B2): =SUBSTITUTE(A$1, "{ID}", C2, "{Name}", D2)

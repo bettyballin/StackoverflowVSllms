@@ -1,1 +1,0 @@
-public partial class _Default : System.Web.UI.Page\n{\n    protected void Page_Load(object sender, EventArgs e)\n    {\n        throw new HttpException(null, new Exception("Test"));\n    }\n}

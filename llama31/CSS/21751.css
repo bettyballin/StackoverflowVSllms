@@ -1,1 +1,0 @@
-.container {\n  display: flex;\n  flex-direction: column;\n}\n\n.content {\n  display: flex;\n  flex-direction: row;\n}\n\n.nav {\n  flex: 1;\n}\n\n.iframe {\n  flex: 1;\n}

@@ -1,1 +1,0 @@
-tail -f <alert_log_file>

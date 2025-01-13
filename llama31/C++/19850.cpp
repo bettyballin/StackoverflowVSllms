@@ -1,1 +1,0 @@
-void Grid::InsertArray(int (*arr)[4]) {\n    if (arr == nullptr) {\n        // Handle the error\n        return;\n    }\n    for (int i = 0; i < 4; ++i) {\n        for (int j = 0; j < 4; ++j) {\n            squares[i][j] = (*arr)[i][j];\n        }\n    }\n}

@@ -1,1 +1,0 @@
-void MyComponent::MyMethod()\n{\n    // Log the current instance and thread ID\n    _TRACE("Instance %p, Thread %d: MyMethod called\n", this, GetCurrentThreadId());\n\n    // Rest of the method implementation...\n}

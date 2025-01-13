@@ -1,0 +1,1 @@
+$("#search-input").on("keyup", function() {\n    var searchTerm = $(this).val();\n    $.ajax({\n        url: "@Url.Action("SearchParts", "YourController")",\n        data: { searchTerm: searchTerm },\n        success: function(data) {\n            $("#search-results").html(data);\n        }\n    });\n});

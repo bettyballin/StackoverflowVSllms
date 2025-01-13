@@ -1,0 +1,1 @@
+SELECT GROUP_CONCAT(username SEPARATOR ', ') AS usernames\nFROM Users;

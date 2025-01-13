@@ -1,0 +1,1 @@
+$key = $_POST['key'];\n// Process the key press data

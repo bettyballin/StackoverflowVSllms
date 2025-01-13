@@ -1,0 +1,1 @@
+<CustomAction Id="AddWebsiteToIIS" \n              AssemblyFile="$(OutputPath)\AddWebsiteToIIS.dll" \n              Class="AddWebsiteToIIS.AddWebsiteToIIS" \n              Method="Main" \n              Execute="deferred" \n              Return="check" />

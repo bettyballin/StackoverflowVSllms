@@ -1,1 +1,0 @@
-protected override object SaveViewState()\n{\n    var viewState = base.SaveViewState();\n    var guid = ViewStateStore.StoreViewState(viewState);\n    return guid;\n}

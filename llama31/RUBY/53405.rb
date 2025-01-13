@@ -1,0 +1,1 @@
+data = data.transpose.reject { |column| column.any? { |cell| cell == 'remove_me' } }.transpose

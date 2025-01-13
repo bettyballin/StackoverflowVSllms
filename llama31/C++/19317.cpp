@@ -1,1 +1,0 @@
-struct SomeStruct {\n    // ...\n    alignas(4) long someLongArray[25]; // align to 4-byte boundary\n    // ...\n};

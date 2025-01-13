@@ -1,0 +1,1 @@
+DECLARE @Year INT = 2009\nDECLARE @WeekNumber INT = 1\n\nDECLARE @FirstDayOfYear DATE = DATEFROMPARTS(@Year, 1, 1)\nDECLARE @FirstDayOfWeek DATE = DATEADD(wk, @WeekNumber - 1, @FirstDayOfYear)\n\nDECLARE @StartDate DATE = @FirstDayOfWeek\nDECLARE @EndDate DATE = DATEADD(dd, 6, @StartDate)\n\nSELECT @StartDate AS StartDate, @EndDate AS EndDate

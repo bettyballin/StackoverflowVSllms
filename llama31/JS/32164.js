@@ -1,0 +1,1 @@
+var listOfItems = [\n  {id: 4, setting: 2},\n  {id: 3, setting: 1}\n  // add more items here...\n];\n\n// store listOfItems in the row with id 'myRow'\n$('#myRow').data('listOfItems', listOfItems);\n\n// retrieve listOfItems from the row with id 'myRow'\nvar storedItems = $('#myRow').data('listOfItems');

@@ -1,1 +1,0 @@
-svn_load_dirs.pl -svn <path_to_svn_working_copy> <path_to_temporary_directory>

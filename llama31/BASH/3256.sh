@@ -1,1 +1,0 @@
-curl --range 0-99 https://example.com/remote_file.txt

@@ -1,1 +1,0 @@
-[WebMethod]\npublic static void MyButton_Click()\n{\n    // server-side code here\n}

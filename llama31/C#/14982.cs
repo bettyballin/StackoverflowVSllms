@@ -1,1 +1,0 @@
-Response.Cookies["CookieName"].HttpOnly = true;\nResponse.Cookies["CookieName"].Secure = true;

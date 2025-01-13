@@ -1,1 +1,0 @@
-var cache = DataCache.Instance.GetCache();

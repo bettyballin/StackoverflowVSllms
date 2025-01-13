@@ -1,1 +1,0 @@
-string serviceName = "YourServiceName";\nstring machineName = "YourMachineName";\n\nIntPtr hService = ServiceSecurity.GetServiceHandle(serviceName, machineName);

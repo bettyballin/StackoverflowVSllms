@@ -1,0 +1,1 @@
+function sanitize($data) {\n    // Trim and encode special characters\n    $data = trim(htmlspecialchars($data, ENT_QUOTES, 'UTF-8'));\n\n    // Validate data using filter_var\n    $data = filter_var($data, FILTER_SANITIZE_STRING);\n\n    return $data;\n}

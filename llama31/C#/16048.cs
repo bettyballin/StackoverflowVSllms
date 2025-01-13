@@ -1,1 +1,0 @@
-string constr = "Data Source=servername;Initial Catalog=dbname;Integrated Security=True;";

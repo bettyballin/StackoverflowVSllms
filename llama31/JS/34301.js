@@ -1,0 +1,1 @@
+// ASP.NET page\n<script>\n  var config = {\n    topicsClientId: '<%= Topics.ClientID %>',\n    // ...\n  };\n</script>\n\n// external JavaScript file\nvar list = $get(config.topicsClientId);

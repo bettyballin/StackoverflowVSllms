@@ -1,0 +1,1 @@
+$file = $target_path;\n$data = file($file) or die('Could not read file!');\n$sections = splitArrayAtBlankLines($data);\nprint_r($sections);

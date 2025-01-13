@@ -1,0 +1,1 @@
+// shared/classes/User.php\n\nnamespace App\Classes;\n\nuse App\Libraries\DateTime;\n\nclass User\n{\n    public function getCreatedAt()\n    {\n        $timestamp = $this->created_at;\n        return DateTime::format($timestamp, 'Y-m-d H:i:s');\n    }\n}

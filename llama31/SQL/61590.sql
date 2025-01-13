@@ -1,0 +1,1 @@
+SELECT name \nFROM user \nWHERE LOCATE(name, 'John Smith and Peter Johnson are best friends') > 0;

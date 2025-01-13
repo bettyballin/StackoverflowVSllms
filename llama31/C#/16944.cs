@@ -1,1 +1,0 @@
-[DllImport(@"Libraries\XYZ.dll")]\npublic static extern int SomeFunction();

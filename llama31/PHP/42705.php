@@ -1,0 +1,1 @@
+<?php\n  $stmt = $pdo->prepare('SELECT status FROM table WHERE column = ?');\n  $stmt->execute([$column_value]);\n  $status = $stmt->fetchColumn();\n\n  if ($status == 'closed' && is_logged_in()) {\n    // display HTML element\n  }\n?>

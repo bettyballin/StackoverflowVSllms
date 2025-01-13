@@ -1,1 +1,0 @@
-using System;\n\nclass MyProfiledClass\n{\n    public void MyMethod()\n    {\n        // Code to be profiled...\n    }\n}\n\nclass Program\n{\n    static void Main(string[] args)\n    {\n        var myClass = new MyProfiledClass();\n        myClass.MyMethod();\n    }\n}

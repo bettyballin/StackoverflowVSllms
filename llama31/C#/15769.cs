@@ -1,1 +1,0 @@
-<!-- CommentPartialView.cshtml -->\n<div id="comments-list">\n    @foreach (var comment in Model.Comments)\n    {\n        <div>@comment.Text</div>\n    }\n</div>\n\n<form id="comment-form">\n    @Html.TextAreaFor(m => m.Text)\n    <input type="submit" value="Post Comment" />\n</form>

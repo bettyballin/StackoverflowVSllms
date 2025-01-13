@@ -1,0 +1,1 @@
+function validateCheckboxTextBox(sender, args) {\n    var checkbox = sender.parentNode.querySelector('input[type="checkbox"]');\n    var textbox = sender.parentNode.querySelector('input[type="text"]');\n    if (checkbox.checked && textbox.value !== "0" && textbox.value !== "") {\n        args.IsValid = false;\n    } else {\n        args.IsValid = true;\n    }\n}

@@ -1,0 +1,1 @@
+class My_Controller_Router_Route extends Zend_Controller_Router_Route\n{\n    protected function _getRegex($part)\n    {\n        // Remove the 'u' modifier\n        $regex = $this->_regexDelimiter . '^' . $part['regex'] . '$' . $this->_regexDelimiter . 'i';\n        return $regex;\n    }\n}

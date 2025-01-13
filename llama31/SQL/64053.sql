@@ -1,0 +1,1 @@
+declare @data xml\nset @data = \n    '<DOD   xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" \n            xsi:nil="true" />'\nselect  Value1 = @data.value('/DOD[1]', 'datetime', 'xsd:nil')

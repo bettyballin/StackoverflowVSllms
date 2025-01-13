@@ -1,0 +1,1 @@
+$db = NewADOConnection('mysql:host=localhost;dbname=test');\n$sql = "SELECT * FROM users WHERE name = :name AND password = :password";\n$db->SetParameter(':name', 'John');\n$db->SetParameter(':password', 'mysecretpassword');\n$rs = $db->Execute($sql);

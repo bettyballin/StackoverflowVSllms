@@ -1,0 +1,1 @@
+$flv_file_path = 'path/to/video.flv';\n$command = "ffprobe -v error -show_streams -print_format json $flv_file_path";\n$json_output = shell_exec($command);\n$json_data = json_decode($json_output, true);\n\n$video_width = $json_data['streams'][0]['width'];\n$video_height = $json_data['streams'][0]['height'];

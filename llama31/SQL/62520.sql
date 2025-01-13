@@ -1,0 +1,1 @@
+DECLARE @signature VARBINARY(MAX);\nSET @signature = (SELECT Signature FROM BusinessTransactionLog WHERE Id = 1);\n\nIF (DECRYPTBYKEY(KEY_GUID('TamperEvidenceKey'), @signature) = 'some data')\n    PRINT 'Data is valid';\nELSE\n    PRINT 'Data has been tampered with';

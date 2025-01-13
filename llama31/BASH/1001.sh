@@ -1,1 +1,0 @@
-comsvcs /dump /c <component_name>

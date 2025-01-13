@@ -1,0 +1,1 @@
+$string = "name=Shake & Bake&difficulty=easy";\n\n$result = array();\n$parts = preg_split('/&(?=[^=]+=)/', $string);\nforeach ($parts as $part) {\n    list($key, $value) = explode('=', $part);\n    $result[$key] = $value;\n}\n\nprint_r($result);

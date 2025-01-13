@@ -1,1 +1,0 @@
-string htmlContent = Request.Form["editor1"];

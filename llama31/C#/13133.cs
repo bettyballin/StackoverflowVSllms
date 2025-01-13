@@ -1,1 +1,0 @@
-using System.Linq;\n\n// Assuming your DataGridView is named dataGridView1\nvar count = dataGridView1.Rows.Cast<DataGridViewRow>()\n    .Where(row => row.Cells["ColumnBoxAge"].Value != null \n                 && (int)row.Cells["ColumnBoxAge"].Value > 3 \n                 || (int)row.Cells["ColumnBoxAge"].Value < 5)\n    .Count();\n\nlabel1.Text = count.ToString();

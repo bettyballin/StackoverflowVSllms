@@ -1,0 +1,1 @@
+<target name="copyconfig">\n  <copy file="web.config" tofile="web.config.copy" />\n</target>

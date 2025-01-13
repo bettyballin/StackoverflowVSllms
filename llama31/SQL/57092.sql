@@ -1,0 +1,1 @@
+CREATE INDEX idx_date_time ON table (date_time);

@@ -1,0 +1,1 @@
+CREATE TABLE #TempResults (\n    AccountNumber INT,\n    -- other columns...\n);\n\nINSERT INTO #TempResults\nEXEC mystoredproc_sp;\n\nSELECT AccountNumber, COUNT(*) \nFROM #TempResults\nGROUP BY AccountNumber;\n\nDROP TABLE #TempResults;

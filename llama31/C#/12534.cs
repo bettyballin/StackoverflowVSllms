@@ -1,1 +1,0 @@
-AppDomain.CurrentDomain.ProcessExit += (sender, e) =>\n{\n    // Carry out cleanup here...\n    Console.WriteLine("Cleanup started...");\n    // Your cleanup logic here...\n    Console.WriteLine("Cleanup completed.");\n};

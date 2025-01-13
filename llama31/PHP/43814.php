@@ -1,0 +1,1 @@
+$user = $_GET['user']; // returns "roa3"\n$age = $_GET['age']; // returns "30"

@@ -1,1 +1,0 @@
-// example in C#\nXmlSchema schema = new XmlSchema();\nschema.Source = "http://schemas.microsoft.com/cdo/configuration/smtpauthenticate";\nschema.AlternateSource = "file:///path/to/local/cdo.configuration.xsd";

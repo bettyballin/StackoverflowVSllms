@@ -1,0 +1,1 @@
+var data = {\n  name: "ÆØÅ Test"\n};\n\n$.ajax({\n  type: "POST",\n  url: "/your-endpoint",\n  data: encodeURIComponent(JSON.stringify(data)),\n  contentType: "application/x-www-form-urlencoded; charset=UTF-8",\n  success: function(data) {\n    console.log(data);\n  }\n});

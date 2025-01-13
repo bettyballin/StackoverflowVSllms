@@ -1,1 +1,0 @@
-class InvalidArgumentException : public std::runtime_error {\npublic:\n    InvalidArgumentException(const std::string& message)\n        : std::runtime_error(message) {}\n};\n\nvoid myFunction(int arg) {\n    if (arg < 0) {\n        throw InvalidArgumentException("Argument must be non-negative");\n    }\n    // ...\n}

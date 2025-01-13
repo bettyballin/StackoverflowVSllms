@@ -1,1 +1,0 @@
-Response.AddHeader("Cache-Control", "max-age=1");\nResponse.AddHeader("Expires", "Mon, 01 Jan 1990 00:00:00 GMT");

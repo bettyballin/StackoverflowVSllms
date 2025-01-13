@@ -1,1 +1,0 @@
-ionice -c 3 cp -r bigtree bigtree2

@@ -1,1 +1,0 @@
-QMAKE_LFLAGS += -L"C:/...path..." -lnewmat

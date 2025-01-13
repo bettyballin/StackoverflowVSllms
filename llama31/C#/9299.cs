@@ -1,1 +1,0 @@
-DateTimeOffset dt = new DateTimeOffset(2009, 3, 24, 1, 0, 0, TimeSpan.Zero);\nDateTimeOffset utcDt = dt.ToUniversalTime();\nConsole.WriteLine(utcDt.ToString());

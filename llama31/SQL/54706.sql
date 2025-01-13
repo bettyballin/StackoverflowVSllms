@@ -1,0 +1,1 @@
+SELECT (enddate - stardate) * 86400

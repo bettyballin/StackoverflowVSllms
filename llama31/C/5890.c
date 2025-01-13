@@ -1,1 +1,0 @@
-memset(token, 0, token_size);

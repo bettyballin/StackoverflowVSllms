@@ -1,1 +1,0 @@
-oDataGrid.DataBind()

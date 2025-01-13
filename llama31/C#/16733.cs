@@ -1,1 +1,0 @@
-// Example of LINQ to SQL mapping\n[Table(Name = "Users")]\npublic class User\n{\n    [Column(IsPrimaryKey = true)]\n    public int Id { get; set; }\n    [Column]\n    public string Name { get; set; }\n}

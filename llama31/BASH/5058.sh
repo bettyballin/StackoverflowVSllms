@@ -1,1 +1,0 @@
-# MySQL\nmysqldump -u user -p password nexus_database > nexus_database.sql\n\n# PostgreSQL\npg_dump -U user nexus_database > nexus_database.sql

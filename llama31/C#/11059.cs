@@ -1,1 +1,0 @@
-[ClassInterface(ClassInterfaceType.None)]\npublic class MyClass : IMyClass\n{\n    public string MyMethod()\n    {\n        return "Hello from .NET!";\n    }\n}

@@ -1,1 +1,0 @@
-HRESULT CMyInterface::InterfaceSupportsErrorInfo(REFIID riid)\n{\n    if (riid == __uuidof(IMyInterface))\n    {\n        return S_OK;\n    }\n    return S_FALSE;\n}

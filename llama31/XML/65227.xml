@@ -1,0 +1,1 @@
+<system.serviceModel>\n  <behaviors>\n    <serviceBehaviors>\n      <behavior>\n        <serviceMetadata httpGetEnabled="true" useRequestHeadersForMetadataAddress="true" />\n      </behavior>\n    </serviceBehaviors>\n  </behaviors>\n</system.serviceModel>

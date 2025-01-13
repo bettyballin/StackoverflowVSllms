@@ -1,0 +1,1 @@
+use MathPHP\Parser;\n\n$parser = new Parser();\n$equation = "(((4 * 5) + 6) * 2) / 8";\n$result = $parser->evaluate($equation);\n\nprint $result; // Output: 6.5

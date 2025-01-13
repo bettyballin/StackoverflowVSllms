@@ -1,0 +1,1 @@
+from django.db.models import Prefetch\n\n# Eager loading using select_related()\nbooks = Book.objects.select_related('author').all()\n\n# Eager loading using prefetch_related()\nbooks = Book.objects.prefetch_related(Prefetch('author')).all()

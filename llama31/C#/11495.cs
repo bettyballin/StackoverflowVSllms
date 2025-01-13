@@ -1,1 +1,0 @@
-var user = new User { Id = 1 };\nvar roleId = 2;\n\nusing (var context = new YourDbContext())\n{\n    var roleStub = new Role { Id = roleId };\n    context.Roles.Attach(roleStub);\n\n    user.Roles.Add(roleStub);\n\n    context.Users.Attach(user);\n    context.Entry(user).State = EntityState.Modified;\n\n    context.SaveChanges();\n}

@@ -1,1 +1,0 @@
-using System;\n\nclass Program\n{\n    static void Main()\n    {\n        unsafe\n        {\n            int* ptr = (int*)Marshal.AllocHGlobal(sizeof(int));\n            *ptr = 10;\n            Console.WriteLine(*ptr);\n            Marshal.FreeHGlobal((IntPtr)ptr);\n        }\n    }\n}

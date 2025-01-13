@@ -1,0 +1,1 @@
+SELECT \n    ET.activityKey,\n    ET.activityDesc,\n    E.eventKey,\n    E.eventDesc\nFROM \n    EventTask ET\nJOIN \n    Event E ON E.eventKey BETWEEN ET.startEventKey AND ET.endEventKey\nORDER BY \n    ET.activityKey, E.eventKey;

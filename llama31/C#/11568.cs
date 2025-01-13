@@ -1,1 +1,0 @@
-public event EventHandler DataLoaded;\n\nprotected void Mag_Button_Load_Click(object sender, EventArgs e)\n{\n    // ...\n    DataLoaded(this, EventArgs.Empty);\n}\n\n// Other class\nprivate void LoadData(object sender, EventArgs e)\n{\n    // ...\n}\n\n// Attach event handler\noData.DataLoaded += LoadData;

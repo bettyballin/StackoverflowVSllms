@@ -1,0 +1,1 @@
+START TRANSACTION;\nINSERT INTO members (name, `order`)\nVALUES ('new member', 0);\nUPDATE members\nSET `order` = (SELECT MAX(`order`) + 1 FROM members)\nWHERE id = LAST_INSERT_ID();\nCOMMIT;

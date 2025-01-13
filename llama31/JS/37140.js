@@ -1,0 +1,1 @@
+const userHtml = '<script>alert("XSS")</script>';\nconst encodedHtml = DOMPurify.sanitize(userHtml);\n// encodedHtml is now safe to render

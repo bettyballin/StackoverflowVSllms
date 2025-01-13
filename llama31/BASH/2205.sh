@@ -1,1 +1,0 @@
-mkdir -p /path/to/package\ncd /path/to/package

@@ -1,1 +1,0 @@
-ProcessStartInfo startInfo = new ProcessStartInfo();\nstartInfo.FileName = @"\\machine_name\share_name\directory\runme.exe";\nstartInfo.UseShellExecute = false;

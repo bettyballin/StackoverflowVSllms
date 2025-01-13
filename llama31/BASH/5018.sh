@@ -1,1 +1,0 @@
-xwait() {\n  while ! xwininfo -name "$1" | grep -q 'Map State: IsViewable'; do\n    sleep 1\n  done\n}

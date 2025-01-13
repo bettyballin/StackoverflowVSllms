@@ -1,1 +1,0 @@
-diskutil info /dev/disk1s1 | grep UUID

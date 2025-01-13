@@ -1,1 +1,0 @@
-iconv -f utf-8 -t utf-8 your_file.txt

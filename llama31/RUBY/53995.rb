@@ -1,0 +1,1 @@
+class UsersController < ApplicationController\n  force_ssl if: :ssl_required?\n\n  private\n\n  def ssl_required?\n    # Return true if the action requires SSL, false otherwise\n    # For example:\n    %w(new create).include?(params[:action])\n  end\nend

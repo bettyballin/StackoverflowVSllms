@@ -1,0 +1,1 @@
+INSERT INTO blah (name, firstName, middleName, lastName, suffix)\nSELECT a.name, b.firstName, b.middleName, b.lastName, b.suffix\nFROM employees a\nINNER JOIN (\n  SELECT * FROM dbo.parseName(a.name)\n) b ON 1 = 1

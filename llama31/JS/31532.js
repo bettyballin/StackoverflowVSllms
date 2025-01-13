@@ -1,0 +1,1 @@
+// assuming 'element' is a valid Element object\nelement.setStyle({\n  backgroundColor: '#f00',\n  fontSize: '14px'\n});

@@ -1,1 +1,0 @@
-void parseId((string variableName, int id) info)\n{\n    // Use info.id and info.variableName as needed\n}\n\nint myId = 123;\nparseId(("myId", myId));

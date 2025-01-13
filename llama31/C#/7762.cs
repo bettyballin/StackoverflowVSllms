@@ -1,1 +1,0 @@
-using NUnit.Framework;\n\n[TestFixture]\npublic class MyTest\n{\n    [Test]\n    public void MyTest_Method()\n    {\n        // test code here\n    }\n}

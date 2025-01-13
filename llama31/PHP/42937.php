@@ -1,0 +1,1 @@
+class FrontController {\n    private $sessionManager;\n\n    public function __construct() {\n        $this->sessionManager = new SessionManager();\n    }\n\n    public function handleRequest(Request $request) {\n        // delegate tasks to other components, including session management\n        $this->sessionManager->createSession();\n        // ...\n    }\n}

@@ -1,1 +1,0 @@
-cd translit\ncscript /nologo configure.js\nnmake

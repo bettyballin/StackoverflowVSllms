@@ -1,0 +1,1 @@
+SELECT COUNT(*) AS total_books\nFROM books_audit\nWHERE created_at >= DATE_TRUNC('month', CURRENT_DATE - INTERVAL '1 month')\n  AND (deleted_at IS NULL OR deleted_at > DATE_TRUNC('month', CURRENT_DATE - INTERVAL '1 month'));

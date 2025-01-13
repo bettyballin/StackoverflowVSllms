@@ -1,1 +1,0 @@
-int retryCount = 0;\nwhile (retryCount < 5)\n{\n    try\n    {\n        DoSomething();\n        break;\n    }\n    catch (IOException)\n    {\n        // File is still locked, wait for 1 second and retry\n        Thread.Sleep(1000);\n        retryCount++;\n    }\n}

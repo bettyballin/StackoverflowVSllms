@@ -1,1 +1,0 @@
-#include <stdio.h>\n#include <stdlib.h>\n\nint main() {\n    char hex_str[] = "0xfffffff";\n    long int decimal = strtol(hex_str, NULL, 16);\n    printf("Decimal value: %ld\n", decimal);\n    return 0;\n}

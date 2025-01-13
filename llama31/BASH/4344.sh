@@ -1,1 +1,0 @@
-regsvr32 /s "C:\Program Files\Microsoft SQL Server\90\SDK\Assemblies\Microsoft.SqlServer.ManagedDTS.dll"

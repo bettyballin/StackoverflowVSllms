@@ -1,1 +1,0 @@
-void increment() {\n    static int counter = 0;\n    counter++;\n    printf("%d\n", counter);\n}

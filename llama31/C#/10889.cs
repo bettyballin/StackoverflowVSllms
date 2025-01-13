@@ -1,1 +1,0 @@
-// SomeController.cs\npublic class SomeController : Controller\n{\n    public ActionResult SomeAction()\n    {\n        return PartialView("MainMenu");\n    }\n}

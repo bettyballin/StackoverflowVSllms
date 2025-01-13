@@ -1,0 +1,1 @@
+CREATE VIEW combined_view AS\nSELECT *\nFROM local_table\nUNION ALL\nSELECT *\nFROM oracle_table;

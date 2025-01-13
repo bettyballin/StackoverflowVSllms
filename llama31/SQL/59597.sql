@@ -1,0 +1,1 @@
+SELECT ColumnA\nFROM Table1\nUNION ALL\nSELECT ColumnA\nFROM Table2;

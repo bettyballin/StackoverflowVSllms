@@ -1,1 +1,0 @@
-// Example: Task parallelism\npublic void performMultipleTasks() {\n    Task task1 = Task.Run(() => performTask1());\n    Task task2 = Task.Run(() => performTask2());\n    Task.WaitAll(task1, task2);\n}

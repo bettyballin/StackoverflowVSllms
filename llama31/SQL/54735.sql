@@ -1,0 +1,1 @@
+CREATE TABLE SportMap (\n  SportID INT,\n  SportName VARCHAR(50)\n);\n\nINSERT INTO SportMap (SportID, SportName)\nVALUES\n  (1, 'Basketball'),\n  (2, 'Hockey'),\n  (3, 'Soccer'),\n  (4, 'Kickball');\n\nSELECT \n  p.Player,\n  p.Team,\n  sm.SportName AS Sport\nFROM YourTable p\nJOIN SportMap sm ON p.Sport = sm.SportID;

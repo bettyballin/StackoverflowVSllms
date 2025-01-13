@@ -1,1 +1,0 @@
-// func.h\ninline void func() {\n    // implementation\n}

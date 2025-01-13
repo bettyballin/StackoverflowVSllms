@@ -1,0 +1,1 @@
+$url = 'http://imdb.com/whatever';\n$normalizedUrl = normalizeImdbUrl($url);\necho $normalizedUrl; // outputs: http://www.imdb.com/whatever\n\n$url = 'http://www.imdb.com/whatever';\n$normalizedUrl = normalizeImdbUrl($url);\necho $normalizedUrl; // outputs: http://www.imdb.com/whatever

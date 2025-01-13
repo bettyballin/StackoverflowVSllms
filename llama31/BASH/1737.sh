@@ -1,1 +1,0 @@
-$logFile = "path\to\your\log\file.log"\n$password = $env:PASSWORD_VARIABLE\n$placeholder = "*****"\n\n(Get-Content $logFile -Raw) -replace $password, $placeholder | Set-Content $logFile

@@ -1,1 +1,0 @@
-// Create a new console for the current process\nif (!AllocConsole()) {\n    // handle error\n}\n\n// Attach to the console of the parent process\nif (!AttachConsole(-1)) {\n    // handle error\n}

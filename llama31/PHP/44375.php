@@ -1,0 +1,1 @@
+amespace Orm;\n\nclass Exception extends \Exception {}

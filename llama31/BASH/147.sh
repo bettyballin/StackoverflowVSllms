@@ -1,1 +1,0 @@
-#!/bin/sh\n\n# Start Synergy client\n/usr/bin/synergyc fried-chicke

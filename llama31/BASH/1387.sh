@@ -1,1 +1,0 @@
-ssh -nxv -i /path/to/private/key user@remotehost echo "hello world"

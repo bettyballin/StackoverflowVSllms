@@ -1,0 +1,1 @@
+spl_autoload_register(function ($function_name) {\n    if ($function_name === 'DebugR') {\n        include_once 'path/to/DebugR.php';\n    }\n});

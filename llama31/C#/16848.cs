@@ -1,1 +1,0 @@
-string userInput = txtMultiLine.Text;\nstring encodedInput = HttpUtility.HtmlEncode(userInput);\nstring modifiedInput = encodedInput.Replace("&#10;", "[LINE_BREAK]");\n\n// Store modifiedInput in database

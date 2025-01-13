@@ -1,0 +1,1 @@
+def post_classes(post)\n  classes = ["post"]\n  classes << cycle("even", "odd")\n  classes << "recent" if post.recent?\n  classes << "replied_to" if post.replied_to?\n  classes << "author_is_admin" if post.author_is_admin?\n  classes.join(" ")\nend

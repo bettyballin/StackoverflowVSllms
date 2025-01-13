@@ -1,1 +1,0 @@
-using System;\nusing System.IO;\n\nclass Program\n{\n    static void Main(string[] args)\n    {\n        using (var writer = new StreamWriter(Console.OpenStandardOutput()))\n        {\n            // Your console program's output\n            writer.WriteLine("Hello, world!");\n            writer.Flush();\n        }\n    }\n}

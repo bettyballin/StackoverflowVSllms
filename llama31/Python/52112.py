@@ -1,0 +1,1 @@
+import psutil\n\ndef check_pid(pid):\n    try:\n        process = psutil.Process(pid)\n        return process.is_running()\n    except psutil.NoSuchProcess:\n        return False\n\n# Example usage:\npid = 1234  # Replace with the PID you want to check\nif check_pid(pid):\n    print(f"Process with PID {pid} exists.")\nelse:\n    print(f"Process with PID {pid} does not exist.")

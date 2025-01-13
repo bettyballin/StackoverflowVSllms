@@ -1,1 +1,0 @@
-class Program\n{\n    static void Main()\n    {\n        string ssid = WifiInfo.GetSSID();\n        Console.WriteLine(ssid);\n    }\n}

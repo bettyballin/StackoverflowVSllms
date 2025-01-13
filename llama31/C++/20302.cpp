@@ -1,1 +1,0 @@
-void foo() {\n    void bar(int); // local function declaration\n    bar(5); // calls local bar(int)\n}\n\nvoid bar(int x) {\n    // definition\n}\n\nvoid bar(double x) {\n    // definition\n}

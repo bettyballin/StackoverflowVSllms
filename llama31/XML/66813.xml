@@ -1,0 +1,1 @@
+<!-- Example XSLT transformation -->\n<xsl:stylesheet version="1.0" xmlns:xsl="http://www.w3.org/1999/XSL/Transform">\n  <xsl:template match="/">\n    <html>\n      <body>\n        <h1><xsl:value-of select="/title"/></h1>\n      </body>\n    </html>\n  </xsl:template>\n</xsl:stylesheet>

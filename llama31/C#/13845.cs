@@ -1,1 +1,0 @@
-foreach (DataRow row in dataTable.Rows) {\n    string title = row["Title"].ToString();\n    string decodedTitle = HttpUtility.HtmlDecode(title);\n    ListItem item = new ListItem(decodedTitle);\n    item.HtmlEncode = false;\n    DropDownList1.Items.Add(item);\n}

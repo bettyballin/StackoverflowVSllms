@@ -1,0 +1,1 @@
+CREATE TABLE employees (\n  id INT PRIMARY KEY,\n  name VARCHAR(255),\n  manager_id INT,\n  FOREIGN KEY (manager_id) REFERENCES employees(id)\n);

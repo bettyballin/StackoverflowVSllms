@@ -1,1 +1,0 @@
-mkdir local-code\nsvn add local-code\nsvn propset svn:externals "http://remote-svn/trunk" local-code

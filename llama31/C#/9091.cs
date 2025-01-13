@@ -1,1 +1,0 @@
-[OperationContract]\n[WebGet(UriTemplate = "/service.svc?criteria={criteria}")]\npublic string GetData(string criteria)\n{\n    // ...\n    WebOperationContext.Current.OutgoingResponse.Headers.Add("Cache-Control", "no-cache");\n    return jsonData;\n}

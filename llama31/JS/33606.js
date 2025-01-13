@@ -1,0 +1,1 @@
+const lang = $(":root").attr("lang");\nconsole.log(lang); // Output: "en"

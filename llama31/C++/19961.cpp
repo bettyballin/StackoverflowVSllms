@@ -1,1 +1,0 @@
-CoRegisterClassObject(CLSID_MyServer, &MyServerClassFactory, CLSCTX_LOCAL_SERVER, REGCLS_SINGLEUSE, &dwRegister);

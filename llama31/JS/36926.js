@@ -1,0 +1,1 @@
+var updating = false;\n\nnew Sortable('myList', {\n  onUpdate: function(element) {\n    if (!updating) {\n      updating = true;\n      // your callback function here\n      updating = false;\n    }\n  }\n});

@@ -1,1 +1,0 @@
-out.exe | Out-File -Width 200 -FilePath $file

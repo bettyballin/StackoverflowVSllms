@@ -1,1 +1,0 @@
-gcc -ggdb -gsplit-dwarf your_file.c -o your_executable

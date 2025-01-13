@@ -1,1 +1,0 @@
-var doc = new HtmlDocument();\nusing (var reader = new StreamReader(htmlFile, Encoding.GetEncoding("iso-8859-1")))\n{\n    doc.Load(reader);\n}\n\nvar nodes = doc.DocumentNode.SelectNodes(@"//h2[text()='Företag']/../div//span[text()='Resultat:']/../div");

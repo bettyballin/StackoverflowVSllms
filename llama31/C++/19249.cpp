@@ -1,1 +1,0 @@
-template <int Size>\nclass Array {\npublic:\n    int data[Size];\n};

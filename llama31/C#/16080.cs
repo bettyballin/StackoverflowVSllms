@@ -1,1 +1,0 @@
-// Use internal by default\ninternal class MyClass\n{\n    internal void MyMethod()\n    {\n        // ...\n    }\n}\n\n// Only use public when necessary\npublic class MyPublicClass\n{\n    public void MyPublicMethod()\n    {\n        // ...\n    }\n}

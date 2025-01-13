@@ -1,0 +1,1 @@
+SELECT @AloneRecordCount = count(i.id) \nFROM inserted i \nINNER JOIN deleted d on i.id = d.id \nJOIN vwFundingDisbursement fd on i.id = fd.settlementid \nWHERE i.StatusID = 32 \nAND d.StatusID <> 32 \nAND fd.DisbTypeName like '%Alone' \nAND fd.PaymentMethodID = 0

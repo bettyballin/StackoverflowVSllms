@@ -1,1 +1,0 @@
-// Compilation step (before execution)\njavac HelloWorld.java\n\n// Execution step\njava HelloWorld

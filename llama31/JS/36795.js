@@ -1,0 +1,1 @@
+var regex = new RegExp("<(fieldset)\\b[^>]*>.*?</fieldset>", "gi");

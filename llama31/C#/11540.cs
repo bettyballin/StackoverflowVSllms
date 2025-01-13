@@ -1,1 +1,0 @@
-using Hypothesis;\n\n[Test]\npublic void MyProperty() \n{\n    Assume.That(x => MyMethod(x) == ExpectedResult(x));\n}

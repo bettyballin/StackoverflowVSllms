@@ -1,1 +1,0 @@
-using System.Globalization;\n\nvar currentCulture = Thread.CurrentThread.CurrentCulture;\nvar numberFormat = currentCulture.NumberFormat;\n\nif (numberFormat.NumberDecimalSeparator == ",")\n{\n    // Assume CSV separator is a semicolon\n    var csvSeparator = ";";\n}\nelse\n{\n    // Assume CSV separator is a comma\n    var csvSeparator = ",";\n}

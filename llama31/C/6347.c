@@ -1,1 +1,0 @@
-#include <uuid/uuid.h>\n\nint main() {\n    uuid_t bin_uuid;\n    uuid_generate_random(bin_uuid);\n\n    char uuid[37];\n    uuid_unparse(bin_uuid, uuid);\n\n    printf("GUID: %s\n", uuid);\n\n    return 0;\n}

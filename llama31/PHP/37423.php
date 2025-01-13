@@ -1,0 +1,1 @@
+function myadmintheme_theme(&$existing, $type, $theme, $path) {\n  return array(\n    'node_form' => array(\n      'arguments' => array('form' => NULL),\n      'template' => 'ccktype',\n      'render element' => 'form', // Add this line\n    ),\n  );\n}

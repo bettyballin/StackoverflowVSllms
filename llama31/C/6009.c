@@ -1,1 +1,0 @@
-const char* base = "dc=example,dc=com";

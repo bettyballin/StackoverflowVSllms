@@ -1,1 +1,0 @@
-GridViewA.ClientIDMode = ClientIDMode.Static;\nTextBoxTotalPrice.ClientIDMode = ClientIDMode.Static;

@@ -1,0 +1,1 @@
+CREATE VIEW EmployerDept AS\nSELECT E.name, D.deptName\nFROM Employers E\nJOIN Depts D ON E.deptId = D.id;

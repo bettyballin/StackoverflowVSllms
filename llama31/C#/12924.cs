@@ -1,1 +1,0 @@
-[DllImport("mydll")]\nprivate static extern IntPtr createMyClass();\n\n[DllImport("mydll")]\nprivate static extern void deleteMyClass(IntPtr obj);\n\n[DllImport("mydll")]\nprivate static extern void myMethod(IntPtr obj);\n\n// usage:\nIntPtr obj = createMyClass();\nmyMethod(obj);\ndeleteMyClass(obj);

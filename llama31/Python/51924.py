@@ -1,0 +1,1 @@
+records = [{"key1": "AAA", "key2": "BBB", "key3": "CCC", "key4": "AAA"}]\n\nrecords = [{k: "XXX" if v == "AAA" else v for k, v in record.items()} for record in records]\nprint(records)  # Output: [{"key1": "XXX", "key2": "BBB", "key3": "CCC", "key4": "XXX"}]

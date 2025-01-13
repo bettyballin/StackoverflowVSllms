@@ -1,1 +1,0 @@
-keytool -import -alias yourAlias -keystore yourTruststore.jks -trustcacerts -file server.crt

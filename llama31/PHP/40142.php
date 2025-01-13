@@ -1,0 +1,1 @@
+$num = 15/4;\nlist($int, $dec) = explode('.', (string)$num);\n$dec = ltrim($dec, '0');

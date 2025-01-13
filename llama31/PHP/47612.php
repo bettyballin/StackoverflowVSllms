@@ -1,0 +1,1 @@
+$node = node_load(array('title' => $issue->title));\n$nid = $node->nid;

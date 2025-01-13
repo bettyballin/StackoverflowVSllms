@@ -1,0 +1,1 @@
+function addEmployee(employeeName, employeeJob) {\n    var tableElement = document.getElementById("employeetable");\n    if (tableElement) {\n        var newRowHtml = "<tr><td>" + employeeName + "</td><td>" + employeeJob + "</td></tr>";\n        tableElement.innerHTML += newRowHtml;\n        alert("code executed!");\n    }\n}

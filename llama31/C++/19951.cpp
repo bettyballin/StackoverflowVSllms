@@ -1,1 +1,0 @@
-CComModule _Module;\n_Module.Init(NULL, CLSID_MyServer, NULL, NULL, REGCLS_SINGLEUSE);

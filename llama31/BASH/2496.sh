@@ -1,1 +1,0 @@
-git clone https://github.com/arm-embedded/gcc-arm-none-eabi.git

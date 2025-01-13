@@ -1,0 +1,1 @@
+$longName = 'path/to/your/file with spaces.txt';\n$shortName = '';\n\nexec('dir /x "' . $longName . '"', $output);\n\nforeach ($output as $line) {\n    if (preg_match('/^\s+([A-Z0-9~_]{1,6})\s+/', $line, $matches)) {\n        $shortName = $matches[1];\n        break;\n    }\n}\n\necho $shortName;

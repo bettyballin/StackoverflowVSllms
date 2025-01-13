@@ -1,1 +1,0 @@
-[ComVisible(true)]\npublic interface IMyClass\n{\n    void MyMethod();\n    string MyProperty { get; set; }\n}

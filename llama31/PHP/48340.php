@@ -1,0 +1,1 @@
+// app/Controller/AppController.php\nclass AppController extends Controller {\n    public $components = array('Menu');\n}

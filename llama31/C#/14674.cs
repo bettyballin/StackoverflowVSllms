@@ -1,1 +1,0 @@
-WebBrowser webBrowser = new WebBrowser();\n// Navigate to your webpage...\nWebBrowserHelper.SimulateKeyPress(webBrowser, "your text", Keys.Enter);

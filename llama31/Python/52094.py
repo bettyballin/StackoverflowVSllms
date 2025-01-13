@@ -1,0 +1,1 @@
+from flask import Flask, jsonify\nfrom flask_sqlalchemy import SQLAlchemy\n\napp = Flask(__name__)\napp.config["SQLALCHEMY_DATABASE_URI"] = "postgresql://user:password@host:port/dbname"\ndb = SQLAlchemy(app)\n\n@app.route("/api/data", methods=["GET"])\ndef get_data():\n    data = db.session.query(Model).all()\n    return jsonify([d.to_dict() for d in data])

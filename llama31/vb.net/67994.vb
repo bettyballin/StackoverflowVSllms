@@ -1,0 +1,1 @@
+' Early binding\nPublic Sub SomeMethod(someControl as SpecificControl)\n    ' do stuff to the control\nEnd Sub\n\n' Using TypeName\nIf TypeName(someControl) = "SpecificControl" Then\n    ' do stuff to the control\nEnd If\n\n' Using the Is operator\nIf someControl Is SpecificControl Then\n    ' do stuff to the control\nEnd If

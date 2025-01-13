@@ -1,1 +1,0 @@
-export MY_VAR="my_value"

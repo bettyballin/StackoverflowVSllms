@@ -1,1 +1,0 @@
-using System.Web.Hosting;\n\npublic string GetSiteId()\n{\n    var site = HostingEnvironment.ApplicationHost.GetSite();\n    return site.Id.ToString();\n}

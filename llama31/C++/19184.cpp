@@ -1,1 +1,0 @@
-// Example of using a setter method, which is the preferred approach\nHRESULT hr = comObjectPtr->PutValue(value);\nif (FAILED(hr)) {\n    // Handle the error\n}

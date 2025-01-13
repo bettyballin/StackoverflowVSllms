@@ -1,0 +1,1 @@
+SELECT \n  `username`, \n  `cardname`, \n  MIN(`timeStamp`) as earliest_timestamp,\n  `msToAnswer` as earliest_msToAnswer\nFROM \n  `usercardinfo`\nWHERE \n  `timeStamp` between '2009-04-01' and '2009-06-01'\nGROUP BY \n  `username`, `cardname`

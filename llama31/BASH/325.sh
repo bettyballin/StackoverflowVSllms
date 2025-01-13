@@ -1,1 +1,0 @@
-#!/bin/bash\n\n# Define the database and tables to exclude\nDB="database"\nEXCLUDE_TABLES=("table1" "table2")\n\n# Generate the list of tables to dump\nTABLES=($(mysql -u username -p -s -N -e "SHOW TABLES IN $DB" | grep -v -E "^(${EXCLUDE_TABLES[@]}$)"))\n\n# Dump the tables\nmysqldump -u username -p $DB "${TABLES[@]}" > database.sql

@@ -1,0 +1,1 @@
+// In Filesystem.php, add the following line after readdir()\nclosedir($dirHandle);

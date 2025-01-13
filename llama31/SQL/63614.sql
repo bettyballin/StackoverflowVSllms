@@ -1,0 +1,1 @@
+SELECT *, ROW_NUMBER() OVER (ORDER BY some_column) AS row_number\nFROM your_table

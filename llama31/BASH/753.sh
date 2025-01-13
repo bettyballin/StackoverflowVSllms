@@ -1,1 +1,0 @@
-#!/bin/bash\n\nsource my_function.sh\n\nmy_function # call the functio

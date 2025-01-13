@@ -1,1 +1,0 @@
-foreach (Outlook.MAPIFolder folder in rootFolder.Folders)\n{\n    if (folder.Name == "YourFolderName")\n    {\n        string entryID = folder.EntryID;\n        string storeID = folder.StoreID;\n        // Store these values for later use\n        break;\n    }\n}

@@ -1,0 +1,1 @@
+CREATE TRIGGER trg_DeleteMasterRecord\nON MasterRecord\nINSTEAD OF DELETE\nAS\nBEGIN\n    DELETE FROM Table1 WHERE MasterRecordID = deleted.id;\n    DELETE FROM Table2 WHERE MasterRecordID = deleted.id;\nEND;

@@ -1,0 +1,1 @@
+<connectionStrings>\n    <add name="MyDBConnection" \n         connectionString="Data Source=PrimaryDBServer;Failover Partner=BackupDBServer;Initial Catalog=MyDB;Integrated Security=True" \n         providerName="System.Data.SqlClient" />\n</connectionStrings>

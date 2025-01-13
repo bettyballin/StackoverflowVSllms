@@ -1,0 +1,1 @@
+Model.update_all({ created_at: legacy_data['created_at'], updated_at: legacy_data['updated_at'] }, { where: { id: model.id } })

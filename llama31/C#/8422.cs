@@ -1,1 +1,0 @@
-using (var context = new MyDataContext())\n{\n    var myObject = new MyEntity { Name = "John Doe" };\n    context.MyEntities.InsertOnSubmit(myObject);\n\n    var changeSet = context.GetChangeSet();\n    foreach (var obj in changeSet.Inserts)\n    {\n        Console.WriteLine(obj.Name);\n    }\n}

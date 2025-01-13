@@ -1,0 +1,1 @@
+require 'wordnik'\n\nWordnik.configure do |config|\n  config.api_key = 'YOUR_API_KEY'\nend\n\ndef get_definition(word)\n  Wordnik.word_info(word)['definitions'].first['text']\nend\n\nputs get_definition('example')

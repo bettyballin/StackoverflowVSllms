@@ -1,0 +1,1 @@
+CREATE TABLE mytable (\n  id INT PRIMARY KEY,\n  code CHAR(1) NOT NULL\n);

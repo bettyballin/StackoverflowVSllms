@@ -1,1 +1,0 @@
-using System;\n\nclass Game1 : Game\n{\n    public Game1()\n    {\n#if WINDOWS\n        Console.WriteLine(".NET Framework version: " + Environment.Version);\n#endif\n    }\n}

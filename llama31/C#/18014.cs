@@ -1,1 +1,0 @@
-dataGridView1.AutoSizeColumnsMode = DataGridViewAutoSizeColumnsMode.AllCells;\ndataGridView1.AutoSizeRowsMode = DataGridViewAutoSizeRowsMode.AllCells;

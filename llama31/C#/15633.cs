@@ -1,1 +1,0 @@
-using System;\nusing System.Reflection;\n\nnamespace YourScriptTask\n{\n    public class YourScript\n    {\n        public void Main()\n        {\n            Type yourType = Type.GetTypeFromProgID("YourVb6Dll.YourClass");\n            object yourInstance = Activator.CreateInstance(yourType);\n            // Call the methods you need\n        }\n    }\n}

@@ -1,0 +1,1 @@
+-- MySQL 4 (allowed, but incorrect)\nSELECT id, name, COUNT(*) FROM users GROUP BY id;\n\n-- MySQL 5 (correct)\nSELECT id, name, COUNT(*) FROM users GROUP BY id, name;

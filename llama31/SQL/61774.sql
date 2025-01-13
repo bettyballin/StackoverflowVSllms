@@ -1,0 +1,1 @@
+DESCRIBE table_name;  -- MySQL\n\dt table_name  -- PostgreSQL (in psql client)\nSELECT COLUMN_NAME, DATA_TYPE FROM INFORMATION_SCHEMA.COLUMNS WHERE TABLE_NAME = 'table_name';  -- SQL Server, Oracle\nPRAGMA table_info(table_name);  -- SQLite

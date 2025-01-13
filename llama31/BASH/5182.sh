@@ -1,1 +1,0 @@
-cd /cygdrive/c/Users/YourUsername/Desktop

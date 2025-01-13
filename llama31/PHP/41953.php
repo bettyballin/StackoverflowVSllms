@@ -1,0 +1,1 @@
+session_start([\n    'cookie_lifetime' => 0, // Delete cookie when browser closes\n    'cookie_secure' => true, // Only transmit cookie over HTTPS\n    'cookie_httponly' => true, // Prevent JavaScript access to cookie\n]);

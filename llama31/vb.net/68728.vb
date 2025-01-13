@@ -1,0 +1,1 @@
+Public Class MyClass\n    Public Sub New(param As Integer)\n        Console.WriteLine("Constructor with parameter called")\n    End Sub\nEnd Class\n\nPublic Class MyOtherClass\n    Private myInstance As New MyClass\nEnd Class

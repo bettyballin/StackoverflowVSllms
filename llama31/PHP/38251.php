@@ -1,0 +1,1 @@
+if (!checkdate($start_date->format('m'), $start_date->format('d'), $start_date->format('Y'))) {\n    // Handle invalid start date\n}\n\nif (!checkdate($end_date->format('m'), $end_date->format('d'), $end_date->format('Y'))) {\n    // Handle invalid end date\n}

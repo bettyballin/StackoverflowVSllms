@@ -1,0 +1,1 @@
+$dsn = 'mysql:host=localhost;dbname=your_database';\n$username = 'your_username';\n$password = 'your_plaintext_password'; // not the hashed password!\n\ntry {\n    $pdo = new PDO($dsn, $username, $password);\n    // ...\n} catch (PDOException $e) {\n    // Handle errors\n}

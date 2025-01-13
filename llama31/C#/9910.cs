@@ -1,1 +1,0 @@
-LinkLabel linkLabel = new LinkLabel();\nlinkLabel.Text = "Visit our website";\nlinkLabel.LinkArea = new LinkArea(0, linkLabel.Text.Length);\nlinkLabel.LinkClicked += (sender, e) => Process.Start("https://www.example.com");

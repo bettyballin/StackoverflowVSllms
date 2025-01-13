@@ -1,0 +1,1 @@
+CREATE TABLE Colors (\n    Color char(10) CHECK (Color IN ('Black', 'White', 'Red', 'Blue'))\n);

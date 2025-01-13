@@ -1,1 +1,0 @@
-perf stat your_program

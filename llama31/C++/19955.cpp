@@ -1,1 +1,0 @@
-std::vector<int> vec = {1, 2, 3, 4, 6, 7, 8, 9};\nauto it = binary_search(vec.begin(), vec.end(), 5);\nif (it != vec.end()) {\n    std::cout << "Found: " << *it << std::endl;\n} else {\n    std::cout << "Not found" << std::endl;\n}

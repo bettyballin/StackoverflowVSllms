@@ -1,1 +1,0 @@
-xxd -r -p < encoded_code.txt > decoded_code.txt

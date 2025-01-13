@@ -1,1 +1,0 @@
-@echo off\n\n:: Stop Apache service\nnet stop apache2.4\n\n:: Stop MySQL service\nnet stop mysql

@@ -1,1 +1,0 @@
-#!/bin/bash\n\nfor i in /test/emailfile\ndo\n    date=$(sed -n '/Received: from/ { :a; n; /;/ {s/.*; //p;q}; b a }' "$i")\n    newdate=$(date -d "$date" +'%Y%m%d%H%M.%S')\n    echo "Updating timestamp for $i to $newdate"\n    if ! touch -t "$newdate" "$i"; then\n        echo "Error updating timestamp for $i"\n    fi\ndone

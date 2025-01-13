@@ -1,1 +1,0 @@
-Bitmap capturedImage = CaptureControl(myControl);\ncapturedImage.Save("capture.png", System.Drawing.Imaging.ImageFormat.Png);

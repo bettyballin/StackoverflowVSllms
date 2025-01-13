@@ -1,1 +1,0 @@
-// Example code to enable 'lock checks' in Application Verifier\nint main() {\n    // Enable 'lock checks' for the w3wp.exe process\n    system("Appverif.exe -enable locks -for w3wp.exe");\n    return 0;\n}

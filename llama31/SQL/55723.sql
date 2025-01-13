@@ -1,0 +1,1 @@
+BEGIN\n  PACKAGE.PROCA(:1, :2);\n  PACKAGE.PROCB(:3, :4, :5);\n  -- repeat the calls 5000 times...\nEND;

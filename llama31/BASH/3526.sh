@@ -1,1 +1,0 @@
-dumpbin /IMPORTS your_executable.exe

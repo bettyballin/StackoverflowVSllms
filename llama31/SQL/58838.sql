@@ -1,0 +1,1 @@
+WITH GroupedLogEntries AS (\n  SELECT LogEntry, \n         ROW_NUMBER() OVER (ORDER BY ID) - ROW_NUMBER() OVER (PARTITION BY LogEntry ORDER BY ID) AS GroupID\n  FROM LogEntries\n)\nSELECT LogEntry, COUNT(*) AS EntryCount\nFROM GroupedLogEntries\nGROUP BY LogEntry, GroupID\nORDER BY MIN(ID)

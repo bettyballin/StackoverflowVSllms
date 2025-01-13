@@ -1,1 +1,0 @@
-TCHAR szName[MAX_PATH];\nGetModuleBaseName(GetCurrentProcess(), NULL, szName, MAX_PATH);\n\n// szName will now contain the filename of the executable (e.g. "bar.exe")

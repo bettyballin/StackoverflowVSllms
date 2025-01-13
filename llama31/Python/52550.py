@@ -1,0 +1,1 @@
+def abstract_chatbot_training_data(data):\n    # Abstract data to represent it at a higher level\n    abstracted_data = abstract_data(data)\n    return abstracted_data

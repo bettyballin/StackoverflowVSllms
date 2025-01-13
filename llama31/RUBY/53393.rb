@@ -1,0 +1,1 @@
+def test_method(*args)\n  puts args.class\n  puts args.inspect\nend\n\ntest_method(:a => 1)\ntest_method({:a => 1})

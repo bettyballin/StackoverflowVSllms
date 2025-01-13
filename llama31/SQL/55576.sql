@@ -1,0 +1,1 @@
+DECLARE myCursor CURSOR FORWARD_ONLY FOR \n    SELECT id, column1 FROM myTable;

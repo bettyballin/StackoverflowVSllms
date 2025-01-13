@@ -1,1 +1,0 @@
-List<string> filePaths = new List<string>()\n{\n    @"C:/WINDOWS/Temp/ErrorLog.txt",\n    @"C:/Program Files/FileZilla/GPL.html",\n    @"C:/Documents and Settings/Administrator/ntuser.dat.LOG"\n};\n\nTreeViewBuilder builder = new TreeViewBuilder();\nTreeView treeView = builder.BuildTreeView(filePaths);

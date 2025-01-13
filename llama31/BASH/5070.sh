@@ -1,1 +1,0 @@
-@echo off\npython %1

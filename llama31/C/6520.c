@@ -1,1 +1,0 @@
-SECURITY_STATUS status = QueryContextAttributes(\n    NULL,  // phContext\n    SECPKG_ATTR_SESSION_TICKET,  // ulAttribute\n    NULL  // pBuffer\n);\nif (status == SEC_E_OK) {\n    // Server supports SSL session reuse\n}

@@ -1,1 +1,0 @@
-vfd.exe create -f compiler.vfd -s 1440k

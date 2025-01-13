@@ -1,0 +1,1 @@
+date = Date.parse('20090506')\n@Table>.find_by_sql("select * from <table> where trunc(create_date) = ?", date)

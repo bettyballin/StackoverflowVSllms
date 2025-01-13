@@ -1,0 +1,1 @@
+const obj = { foo: 'bar' };\ndelete obj.foo;\nconsole.log(obj); // {}

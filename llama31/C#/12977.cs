@@ -1,1 +1,0 @@
-var token = new JwtSecurityToken(\n    claims: new[]\n    {\n        new Claim("UserId", userId.ToString()),\n        new Claim("ChannelId", channelId.ToString())\n    }\n);\nvar tokenString = new JwtSecurityTokenHandler().WriteToken(token);

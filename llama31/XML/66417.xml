@@ -1,0 +1,1 @@
+<configuration>\n  <system.web>\n    <httpModules>\n      <add name="CompressionModule" type="YourNamespace.CompressionModule, YourAssembly"/>\n    </httpModules>\n  </system.web>\n</configuration>

@@ -1,1 +1,0 @@
-gcc -o your_executable.exe your_source_file.c resources.o

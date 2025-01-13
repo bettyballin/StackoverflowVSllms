@@ -1,1 +1,0 @@
-var myObject = new MyActiveRecordObject();\n// ... set some properties ...\nvar query = myObject.GetDbQuery();\nvar sql = query.Sql;

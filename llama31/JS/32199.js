@@ -1,0 +1,1 @@
+function escapeQuotes(str) {\n  return str.replace(/"/g, '&quot;').replace(/'/g, '&#39;');\n}\n\n// example usage:\nvar dynamicHtml = '<a href="xyz">'; // this could come from your database\nvar escapedHtml = escapeQuotes(dynamicHtml);\nvar html = '<a href="#x" onclick="parse(\'#\', false, \'' + escapedHtml + '\'); return false">Test</a>';

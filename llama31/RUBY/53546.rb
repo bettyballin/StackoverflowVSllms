@@ -1,0 +1,1 @@
+class Document < ApplicationRecord\n  has_attached_file :pdf,\n                    content_type: { content_type: ['application/pdf'] },\n                    message: 'Only PDF files are allowed'\nend

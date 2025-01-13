@@ -1,1 +1,0 @@
-using Microsoft.VisualStudio.Modeling;\n\n// assuming you have a Store instance\nStore store = ...;\n\n// create a new transaction\nTransaction transaction = new Transaction(store.UndoManager, true); // true means hidden\n\n// do your changes within the transaction\ntransaction.Do(() =>\n{\n    // your code here\n});\n\n// commit the transaction\ntransaction.Commit();

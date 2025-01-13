@@ -1,1 +1,0 @@
-string connectionString = \n    "Data Source=myServerAddress;Initial Catalog=myDataBase;Integrated Security=True;UID=myDomain\\myUsername;PWD=myPassword";

@@ -1,0 +1,1 @@
+// Set a value\nlocalStorage.setItem('key', 'value');\n\n// Get a value\nconst value = localStorage.getItem('key');

@@ -1,0 +1,1 @@
+$result = null;\n$result = isset($result) ? $result : check1();\n$result = isset($result) ? $result : check2();\n$result = isset($result) ? $result : "default";

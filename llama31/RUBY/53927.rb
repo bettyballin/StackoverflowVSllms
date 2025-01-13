@@ -1,0 +1,1 @@
+amespace :db do\n  task :migrate do\n    # ... (rest of the migrate task remains the same)\n    # Disable schema dump\n    Rails.application.config.dump_schema_after_migration = false\n  end\nend

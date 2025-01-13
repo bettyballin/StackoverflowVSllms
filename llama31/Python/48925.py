@@ -1,0 +1,1 @@
+import os\nimport hashlib\n\n# Generate a random salt\nsalt = os.urandom(16)\n\n# Store the salt with the user's password\npassword = "my_secret_password"\nhashed_password = hashlib.pbkdf2_hmac("sha256", password.encode(), salt, 100000)\n\n# Store the salt and hashed password in your database

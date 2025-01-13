@@ -1,1 +1,0 @@
-# Create a Git repository for your CMS\ngit init\n\n# Create a Composer file to manage dependencies\ncomposer init\n\n# Add your CMS modules as separate Composer packages\ncomposer create-project --repository-url=../path/to/your/cms-modules my-module\n\n# Use Composer to update dependencies\ncomposer update

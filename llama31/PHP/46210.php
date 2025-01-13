@@ -1,0 +1,1 @@
+// db-com.php\nerror_reporting(E_ALL);\nini_set('display_errors', 1);\n\necho "entered db-com.php";\n\nclass DBCom {\n    // ...\n}

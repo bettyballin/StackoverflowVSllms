@@ -1,0 +1,1 @@
+Namespace MyProject\n    Public Class MyClass\n        '...\n    End Class\nEnd Namespace

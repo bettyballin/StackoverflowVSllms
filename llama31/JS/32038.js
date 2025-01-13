@@ -1,0 +1,1 @@
+// When the responseXML attribute is accessed\n// and the synchronous flag is set to false\n// and the response body is not empty\n// and the response body is an XML document\n// that has not been parsed yet,\n// parse the response body as an XML document\n// and set the responseXML attribute to the result.

@@ -1,1 +1,0 @@
-List<double> data = new List<double> { 1.0, 2.0, 3.0 };\nIntPtr ptr = Marshal.AllocHGlobal(data.Count * sizeof(double));\nMarshal.Copy(data.ToArray(), 0, ptr, data.Count);\nYourCFunction(ptr);\nMarshal.FreeHGlobal(ptr);

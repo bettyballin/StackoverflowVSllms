@@ -1,0 +1,1 @@
+SELECT DISTINCT some_field \nFROM (\n  SELECT some_field \n  FROM some_table \n  WHERE some_field LIKE 'text%' \n  LIMIT 100  -- increased limit to reduce the chance of not getting 10 unique rows\n) AS subquery \nLIMIT 10;

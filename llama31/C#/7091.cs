@@ -1,1 +1,0 @@
-var messages = (from msg in dc.MessageItems\nwhere String.IsNullOrEmpty(fromname) || msg.FromName.ToLower().Contains((fromname ?? "").ToLower())\nselect msg);

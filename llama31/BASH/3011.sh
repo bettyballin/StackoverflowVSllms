@@ -1,1 +1,0 @@
-echo -e "\x02\x03" > file.txt

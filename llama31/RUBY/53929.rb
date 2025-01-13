@@ -1,0 +1,1 @@
+validates_uniqueness_of :value1, :value2, :unless => Proc.new { |model| params[:commit] == "Resubmit" }

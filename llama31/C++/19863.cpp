@@ -1,1 +1,0 @@
-if (pCANoe) {\n    // Call functions on the COM interface\n    pCANoe->SomeFunction();\n}

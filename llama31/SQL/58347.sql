@@ -1,0 +1,1 @@
+USE TfsWorkItemTracking;\nGO\nSELECT * FROM sys.database_permissions \nWHERE grantee_principal_id = SUSER_ID('tfsservice');\nGO

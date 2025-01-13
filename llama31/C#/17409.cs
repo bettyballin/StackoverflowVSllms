@@ -1,1 +1,0 @@
-string mystring = "hello world";\nAction testit2 = new Action(delegate { Debug.WriteLine(mystring); });\nmystring = "new value";\ntestit2(); // prints "new value"

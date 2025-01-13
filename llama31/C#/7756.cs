@@ -1,1 +1,0 @@
-public ActionResult Ajax1()\n{\n    return this.Content("Test Content", "text/plain");\n}

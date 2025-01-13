@@ -1,1 +1,0 @@
-using (var tempFile = File.Create(Path.GetTempFileName(), 4096, FileOptions.DeleteOnClose))\n{\n    // Use the temporary file...\n}

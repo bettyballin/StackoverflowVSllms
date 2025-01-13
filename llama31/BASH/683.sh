@@ -1,1 +1,0 @@
-rm -rf /path/to/joomla/cache/*\nrm -rf /path/to/joomla/session/*

@@ -1,0 +1,1 @@
+$foo = getenv('FOO');\necho $foo; // Outputs: /bar/baz

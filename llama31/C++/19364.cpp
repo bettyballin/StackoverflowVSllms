@@ -1,1 +1,0 @@
-_TablePtr spTable = NULL;\nif (SUCCEEDED(spContactsFolder->GetTable(&spTable)))\n{\n    spTable->put_Filter(L"[FullName] = 'John Doe'");\n    spTable->Sort(L"FullName", olAscending);\n    _RowPtr spRow = NULL;\n    if (SUCCEEDED(spTable->GetNextRow(&spRow)))\n    {\n        // Do something with the contact item\n    }\n}

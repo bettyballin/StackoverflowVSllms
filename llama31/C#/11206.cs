@@ -1,1 +1,0 @@
-using System.Web;\nusing System.Collections.Specialized;\n\nstring queryString = "?action=a&current=b&something=c";\nNameValueCollection queryParameters = HttpUtility.ParseQueryString(queryString.Substring(1));\n\nstring currentValue = queryParameters["current"];

@@ -1,1 +1,0 @@
-# Load the GBDE kernel module\nkldload geom_bde\n\n# Create a new encrypted device\ngbde init /dev/ada0 -l 256

@@ -1,0 +1,1 @@
+CREATE PROCEDURE ProcessNewCustomers\nAS\nBEGIN\n    BEGIN TRANSACTION;\n\n    DECLARE @CustomerID INT;\n\n    WHILE EXISTS (SELECT 1 FROM NewCustomers)\n    BEGIN\n        SELECT TOP 1 @CustomerID = CustomerID FROM NewCustomers;\n\n        -- Process the new customer\n\n        DELETE FROM NewCustomers WHERE CustomerID = @CustomerID;\n    END;\n\n    COMMIT TRANSACTION;\nEND;

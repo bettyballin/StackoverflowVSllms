@@ -1,1 +1,0 @@
-#include <execinfo.h>\n#include <stdio.h>\n#include <stdlib.h>\n\nvoid handler() {\n    void *array[10];\n    size_t size = backtrace(array, 10);\n    char **strings = backtrace_symbols(array, size);\n    printf("Obtained %zd stack frames.\n", size);\n    for (size_t i = 0; i < size; i++) {\n        printf("%s\n", strings[i]);\n    }\n    free(strings);\n}

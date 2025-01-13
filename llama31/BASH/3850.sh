@@ -1,1 +1,0 @@
-sudo yum install gcc glib2-devel gtk2-devel libglade2-devel

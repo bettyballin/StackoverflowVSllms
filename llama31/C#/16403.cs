@@ -1,1 +1,0 @@
-string originalString = "Hello," + Environment.NewLine + "World!";\n\n// Write originalString to the output stream

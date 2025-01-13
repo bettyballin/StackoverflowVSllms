@@ -1,1 +1,0 @@
-# Stop Nexus service\nservice nexus stop\n\n# Backup nexus.xml file\ntar -czf nexus-config.tar.gz /path/to/nexus/etc/nexus.xml\n\n# Start Nexus service\nservice nexus start

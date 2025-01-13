@@ -1,0 +1,1 @@
+CREATE TABLE Orders (\n    OrderID varchar(20) PRIMARY KEY,\n    OrderType char(2) CHECK (OrderType = 'OR'),\n    OrderNumber int IDENTITY(1,1)\n);\n\nCREATE TABLE Deliveries (\n    DeliveryID varchar(20) PRIMARY KEY,\n    DeliveryType char(2) CHECK (DeliveryType = 'DL'),\n    DeliveryNumber int IDENTITY(1,1)\n);

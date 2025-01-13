@@ -1,0 +1,1 @@
+use Intl\Transliterator;\n\n$title = 'Aït Ben Haddou';\n\n$transliterator = Transliterator::createFromRules(':: Any-Latin; :: Latin-ASCII; :: NFD; :: [:Nonspacing Mark:] Remove; :: NFC;', Transliterator::FORWARD);\n\n$asciiTitle = $transliterator->transliterate($title);\n\n$slug = strtolower(str_replace(' ', '-', $asciiTitle));\n\necho $slug; // outputs: ait-ben-haddou

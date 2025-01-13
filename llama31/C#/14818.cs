@@ -1,1 +1,0 @@
-string requestData = new StreamReader(Request.InputStream).ReadToEnd();

@@ -1,0 +1,1 @@
+if (event.result.loginsuccess.name[0] == "") {\n    Alert.show("Name is empty");\n} else if (!event.result.loginsuccess.hasOwnProperty("name")) {\n    Alert.show("Name is null");\n}

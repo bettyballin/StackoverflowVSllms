@@ -1,0 +1,1 @@
+$text = strip_tags($_POST['text']);\n// or\nrequire_once 'HTMLPurifier.auto.php';\n$config = HTMLPurifier_Config::createDefault();\n$purifier = new HTMLPurifier($config);\n$text = $purifier->purify($_POST['text']);

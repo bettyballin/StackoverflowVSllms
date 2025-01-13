@@ -1,1 +1,0 @@
-echo "<meta http-equiv=\"expires\" content=\"0\" />"\necho "<META HTTP-EQUIV=\"Pragma-directive\" CONTENT=\"no-cache\"/>"\necho "<META HTTP-EQUIV=\"Cache-directive\" CONTENT=\"no-cache\"/>"\necho "<META HTTP-EQUIV=\"Cache-control\" CONTENT=\"no-cache\"/>"\necho "<META HTTP-EQUIV=\"Pragma\" CONTENT=\"no-cache\"/>"\necho "<META HTTP-EQUIV=\"Refresh\" CONTENT=\"1; URL=/foo.txt\"/>"

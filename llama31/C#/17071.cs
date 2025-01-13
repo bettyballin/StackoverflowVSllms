@@ -1,1 +1,0 @@
-string filePath = System.Web.Hosting.HostingEnvironment.MapPath("~/filefolder/myfile.txt");

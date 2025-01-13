@@ -1,1 +1,0 @@
-JsonSerializerSettings settings = new JsonSerializerSettings();\nsettings.NullValueHandling = NullValueHandling.Include;\n\nstring json = JsonConvert.SerializeObject(myObject, settings);

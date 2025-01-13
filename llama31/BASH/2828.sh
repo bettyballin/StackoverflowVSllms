@@ -1,1 +1,0 @@
-#!/bin/bash\n\nfiles=("$@")\nnum_files=${#files[@]}\n\nfor ((i=0; i<num_files-1; i++)); do\n  for ((j=i+1; j<num_files; j++)); do\n    diff -u "${files[i]}" "${files[j]}" > "/tmp/diff_${i}_${j}.diff"\n  done\ndone\n\nvimdiff "/tmp/diff_"*.diff

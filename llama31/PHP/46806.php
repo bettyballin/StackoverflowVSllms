@@ -1,0 +1,1 @@
+if (!is_animated_gif($filename)) {\n    // resize the image using GD\n}

@@ -1,0 +1,1 @@
+// In your Bootstrap.php or a custom routes file\n$router = Zend_Controller_Front::getInstance()->getRouter();\n$router->addRoute('outputFormat', new Zend_Controller_Router_Route(\n    '/:format/:controller/:action/*',\n    array('format' => 'xhtml'), // default format\n    array('format' => '(wml|xhtml)') // validation for format parameter\n));

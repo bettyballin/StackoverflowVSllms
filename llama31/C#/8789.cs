@@ -1,1 +1,0 @@
-// C#\npublic class MyClass\n{\n    public static void MyStaticMethod()\n    {\n        Console.WriteLine("Static method called");\n    }\n}\n\nclass Program\n{\n    static void Main(string[] args)\n    {\n        MyClass.MyStaticMethod();  // Works\n        var mc = new MyClass();\n        // mc.MyStaticMethod();    // Does not compile\n    }\n}

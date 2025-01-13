@@ -1,0 +1,1 @@
+$chunkSize = 1024 * 1024; // 1MB chunks\n$uploadFile = $_FILES['file']['tmp_name'];\n$fp = fopen($uploadFile, 'rb');\n\nwhile (!feof($fp)) {\n    $chunk = fread($fp, $chunkSize);\n    // Process the chunk\n    // You can save it to disk, database, or process it in memory\n}\n\nfclose($fp);

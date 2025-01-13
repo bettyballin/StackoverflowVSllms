@@ -1,0 +1,1 @@
+from rest_framework.views import APIView\nfrom rest_framework.permissions import IsAuthenticated, IsAdminUser\n\nclass MyModelView(APIView):\n    permission_classes = [IsAuthenticated, IsAdminUser]\n\n    def get(self, request, *args, **kwargs):\n        # Return the data\n        pass

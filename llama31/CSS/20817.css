@@ -1,1 +1,0 @@
-.container {\n  display: flex;\n  justify-content: space-between;\n}\n\n.textbox {\n  flex: 1;\n  margin-right: 10px;\n}\n\n.button {\n  margin-left: auto;\n}

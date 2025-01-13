@@ -1,1 +1,0 @@
-SmtpClient smtpClient = new SmtpClient("localhost");\n   smtpClient.Port = 25; // default port\n   smtpClient.EnableSsl = false;

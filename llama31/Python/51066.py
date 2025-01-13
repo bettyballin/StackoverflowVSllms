@@ -1,0 +1,1 @@
+import pygdbmi\n\n# Create a GDBMI object\ngdbmi = pygdbmi.GDBMI(('localhost', 1234))\n\n# Send a command to gdbserver\ngdbmi.send_command('qSupported')\n\n# Receive response from gdbserver\nresponse = gdbmi.recv_response()

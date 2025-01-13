@@ -1,1 +1,0 @@
-.parent-div {\n  height: 300px; /* set a fixed height */\n  overflow-y: hidden; /* hide overflow by default */\n}\n\n#div1 {\n  overflow-y: auto; /* show scrollbar when content exceeds height */\n  max-height: 100%; /* ensure div1 doesn't exceed parent's height */\n}

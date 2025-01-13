@@ -1,1 +1,0 @@
-docker pull oracle/database:12.2.0.1-se2\ndocker run -d -p 1521:1521 oracle/database:12.2.0.1-se2

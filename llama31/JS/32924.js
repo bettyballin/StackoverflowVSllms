@@ -1,0 +1,1 @@
+var link = document.createElement('a');\nlink.href = 'file.mp3';\nlink.download = 'file.mp3';\nlink.click();

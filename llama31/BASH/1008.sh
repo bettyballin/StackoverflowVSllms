@@ -1,1 +1,0 @@
-sudo rsync -avz -e "ssh -F /Users/jbloggs/.ssh/config" /Users/jbloggs myserv:/var/Backup/

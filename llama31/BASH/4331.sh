@@ -1,1 +1,0 @@
-mkdir myproject\ncd myproject\ngit init

@@ -1,0 +1,1 @@
+IF EXISTS (SELECT 1 FROM sys.types WHERE name = 'YourTypeName' AND is_user_defined = 1)\n    PRINT 'Type exists'\nELSE\n    PRINT 'Type does not exist'

@@ -1,1 +1,0 @@
-private bool isTooltipShown = false;\n\nprivate void toolTip1_Draw(object sender, DrawToolTipEventArgs e)\n{\n    isTooltipShown = true;\n}\n\nprivate void toolTip1_Popup(object sender, PopupEventArgs e)\n{\n    isTooltipShown = true;\n}\n\nprivate void toolTip1_Hide(object sender, EventArgs e)\n{\n    isTooltipShown = false;\n}

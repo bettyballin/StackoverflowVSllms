@@ -1,1 +1,0 @@
-void MyMethod(string! arg) { }

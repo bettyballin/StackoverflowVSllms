@@ -1,1 +1,0 @@
-var catalog = new AssemblyCatalog(typeof(MyClass).Assembly);\ncatalog.PrivateBinPath = @"C:\Path\To\PrivateBin";\n\nvar container = new CompositionContainer(catalog);

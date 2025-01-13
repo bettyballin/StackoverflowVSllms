@@ -1,1 +1,0 @@
-keytool -importkeystore -srckeystore <jks_file> -destkeystore <pkcs12_file> -deststoretype PKCS12

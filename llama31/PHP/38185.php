@@ -1,0 +1,1 @@
+$openssl_enabled = extension_loaded('openssl');\necho "OpenSSL enabled: " . ($openssl_enabled ? "Yes" : "No");

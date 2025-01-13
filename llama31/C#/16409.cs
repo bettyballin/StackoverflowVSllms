@@ -1,1 +1,0 @@
-int? myNullableInt = null;\n   if (myNullableInt.HasValue) {

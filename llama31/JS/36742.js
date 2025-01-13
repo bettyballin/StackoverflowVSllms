@@ -1,0 +1,1 @@
+Event.observe('myForm', 'submit', function(event) {\n  event.stop(); // Prevent the default form submission\n  new Ajax.Updater('result', '/getResults', {\n    method: 'post',\n    parameters: Form.serialize('myForm')\n  });\n});

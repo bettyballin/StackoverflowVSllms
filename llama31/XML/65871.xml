@@ -1,0 +1,1 @@
+<CustomHeaders>\n    <Remove Name="Expires" />\n    <Add Name="Expires" Value="Mon, 01 Jan 1997 00:00:00 GMT" />\n    <Add Name="Expires-workaround" Value="<% Response.AddHeader &quot;Expires&quot;, DateAdd(&quot;s&quot;, 60, Now()) %>" />\n</CustomHeaders>

@@ -1,0 +1,1 @@
+require 'net/smtp'\n\nsmtp = Net::SMTP.new('smtp.gmail.com', 587)\nsmtp.enable_starttls\n\nsmtp.start('your_email@gmail.com', 'your_password', 'plain') do |smtp|\n  smtp.send_message "Subject: Hello\n\nHello, world!", 'your_email@gmail.com', 'recipient@example.com'\nend

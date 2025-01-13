@@ -1,1 +1,0 @@
-$ export GEM_HOME=/path/to/gc-patched-ruby/lib/ruby/gems\n$ /path/to/gc-patched-ruby/bin/gem install rails

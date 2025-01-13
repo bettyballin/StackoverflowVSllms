@@ -1,0 +1,1 @@
+SELECT it.id, it.name\nFROM item_types it\nWHERE it.id NOT IN (\n  SELECT i.item_type_id\n  FROM items i\n  WHERE i.entity_id = 1\n)

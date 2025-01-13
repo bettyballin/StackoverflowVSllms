@@ -1,1 +1,0 @@
-int[] myArray = new int[5];\nint[] newArray = new int[10];\nArray.Copy(myArray, newArray, myArray.Length);\nmyArray = newArray;

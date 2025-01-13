@@ -1,1 +1,0 @@
-# Edit Nginx configuration file\nsudo nano /etc/nginx/nginx.conf\n\n# Disable directory browsing\nautoindex off;\n\n# Enable SSL/TLS encryption\nssl_certificate /path/to/ssl.crt;\nssl_certificate_key /path/to/ssl.key;\n\n# Restart Nginx service\nsudo service nginx restart

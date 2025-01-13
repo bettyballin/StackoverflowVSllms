@@ -1,0 +1,1 @@
+CREATE INDEX idx_routes_carrier_origin_destination ON routes (carrier, origin, destination);

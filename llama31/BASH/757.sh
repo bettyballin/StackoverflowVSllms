@@ -1,1 +1,0 @@
-certreq -new -f ClickOnceCSR.txt

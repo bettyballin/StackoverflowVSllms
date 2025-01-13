@@ -1,0 +1,1 @@
+Public Sub SomeMethod()\n    If System.Windows.Threading.Dispatcher.CurrentDispatcher IsNot m_presenterDispatcher Then\n        m_presenterDispatcher.Invoke(New Action(AddressOf SomeMethod))\n        Return\n    End If\n\n    ' method implementation here\nEnd Sub

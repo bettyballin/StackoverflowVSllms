@@ -1,1 +1,0 @@
-// Example of Factory pattern\nclass ButtonFactory {\npublic:\n    static Button* createButton(const std::string& text);\n};\n\nclass Button {\npublic:\n    virtual void onClick() = 0;\n};\n\nclass WindowsButton : public Button {\npublic:\n    void onClick() override;\n};

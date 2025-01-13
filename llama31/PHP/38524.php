@@ -1,0 +1,1 @@
+$response = $item['response'];\n$response = preg_replace('/s:(\d+):"/', 's:' . strlen(substr($response, strpos($response, '"') + 1)) . ':"', $response);\nprint_r(unserialize($response));

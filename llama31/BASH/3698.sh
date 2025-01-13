@@ -1,1 +1,0 @@
-# Example using Ghostscript\ngswin64c.exe -sDEVICE=pdfwrite -sOutputFile=output.pdf -dBATCH -dNOPAUSE input.ps

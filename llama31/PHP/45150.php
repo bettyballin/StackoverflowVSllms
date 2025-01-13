@@ -1,0 +1,1 @@
+echo current([0]); // outputs 0

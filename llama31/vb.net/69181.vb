@@ -1,0 +1,1 @@
+Dim date1 As DateTime = New DateTime(2022, 12, 15, 10, 0, 0)\nDim date2 As DateTime = New DateTime(2022, 12, 15, 12, 0, 0)\n\nIf date1.Date = date2.Date Then\n    Console.WriteLine("Dates are equal")\nElse\n    Console.WriteLine("Dates are not equal")\nEnd If

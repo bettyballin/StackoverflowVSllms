@@ -1,1 +1,0 @@
-var headlines = dt.AsEnumerable()\n    .Where(row => row.Field<int>("NewsType") == 0)\n    .OrderByDescending(row => row.Field<DateTime>("DateAdded"))\n    .Take(5)\n    .Select(row => new {\n        NewsID = row.Field<int>("NewsID"),\n        NewsTitle = row.Field<string>("NewsTitle"),\n        NewsText = row.Field<string>("NewsText")\n    });

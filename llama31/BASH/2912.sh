@@ -1,1 +1,0 @@
-rpm -Uvh --dbpath /path/to/your/rpm/db my-perl-app-1.0-1.aix.rpm

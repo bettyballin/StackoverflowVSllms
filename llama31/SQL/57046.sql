@@ -1,0 +1,1 @@
+SELECT T1.*\nFROM Table1 T1\nINNER JOIN (\n    SELECT ID, MAX(DateStamp) as MaxDate\n    FROM Table2\n    GROUP BY ID\n) T2\nON T1.ID = T2.ID\nORDER BY T2.MaxDate DESC;

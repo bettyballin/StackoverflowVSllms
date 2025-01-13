@@ -1,0 +1,1 @@
+<?php\nrequire_once 'svnserve.php';\n\n$svnserve = new SvnServe();\n$svnserve->setRepository('/path/to/your/svn/repo');\n$svnserve->setUsername('your_username');\n$svnserve->setPassword('your_password');\n\n$svnserve->start();\n?>

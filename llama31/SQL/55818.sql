@@ -1,0 +1,1 @@
+SELECT 'Hello, ' || NVL('', 'world!') FROM DUAL;  -- returns 'Hello, world!'

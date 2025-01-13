@@ -1,0 +1,1 @@
+$font = 'path/to/verdana.ttf';\n$fallback_font = 'path/to/arial_unicode.ttf';\n\n$text = ' your East Asian text here ';\nimagettftext($image, 12, 0, 10, 20, $text, $font);\nif (!imagettftext($image, 12, 0, 10, 20, $text, $font)) {\n    // use fallback font\n    imagettftext($image, 12, 0, 10, 20, $text, $fallback_font);\n}

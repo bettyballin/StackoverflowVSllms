@@ -1,0 +1,1 @@
+$$column = $columns[$column] ? 'YES' : 'NO';

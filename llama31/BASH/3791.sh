@@ -1,1 +1,0 @@
-git archive --format=tar.gz HEAD -o snapshot.tar.gz

@@ -1,0 +1,1 @@
+use GuzzleHttp\Client;\n\n$client = new Client(['base_uri' => 'https://example.com/news-module/api/']);\n$response = $client->get('latest-news');\n$newsData = json_decode($response->getBody(), true);\n\n// Pass the data to your view\nreturn view('your-view', ['newsData' => $newsData]);

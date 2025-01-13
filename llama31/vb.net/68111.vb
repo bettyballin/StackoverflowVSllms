@@ -1,0 +1,1 @@
+Label1.Content = (From c As Client In dc.GetWashingtonClients()).First().FirstName

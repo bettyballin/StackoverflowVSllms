@@ -1,1 +1,0 @@
-struct distanceToPointSort {\n    indexedDocument* point;\n    distanceToPointSort(indexedDocument* p) : point(p) {}\n    bool operator()(indexedDocument* p1, indexedDocument* p2) {\n        float d1 = distance(point, p1);\n        float d2 = distance(point, p2);\n        return d1 < d2;\n    }\n};

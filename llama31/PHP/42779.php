@@ -1,0 +1,1 @@
+$jsonString = '[{"name":"John","age":30},{"name":"Jane","age":25}]';\n$jsonArray = json_decode($jsonString, true);\nprint_r($jsonArray);

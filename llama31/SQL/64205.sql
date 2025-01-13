@@ -1,0 +1,1 @@
+CREATE VIEW part_test_view AS SELECT * FROM part_test;\n\nCREATE PUBLIC SYNONYM part_test_syn FOR part_test_view;

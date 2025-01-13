@@ -1,0 +1,1 @@
+function resize_divProgress() {\n    var control = document.getElementById('thEngineCategories');\n    var div = document.getElementById('divProgress');\n\n    div.setAttribute('style', `left: ${control.offsetLeft}px; top: ${control.offsetTop}px; width: ${control.offsetWidth}px; height: ${control.offsetHeight}px;`);\n}

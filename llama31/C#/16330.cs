@@ -1,1 +1,0 @@
-protected void Button1_Click(object sender, EventArgs e)\n{\n    gvInvoice.DataBind();\n    mdlPopup.Hide();\n}

@@ -1,0 +1,1 @@
+$picUrl = $_REQUEST[$PIC_URL];\n\nif ($fp = fopen($picUrl, "r")) {\n    fclose($fp); // Close the file pointer to avoid resource leaks\n    $status = "1";\n} else {\n    $status = "2";\n}\n\nif ($status == "2") {\n    $picUrl = "http://www.tricityhomes.com/assets/images/noimage.gif";\n}

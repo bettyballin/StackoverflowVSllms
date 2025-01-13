@@ -1,0 +1,1 @@
+ALTER TABLE [TableName]\nALTER COLUMN [PrimaryKeyColumn] UNIQUEIDENTIFIER DEFAULT (newsequentialid()) NOT NULL;

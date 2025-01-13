@@ -1,0 +1,1 @@
+If PictureBox1.Image Is Nothing Then\n    ' PictureBox does not contain an image\nElse\n    ' PictureBox contains an image\nEnd If

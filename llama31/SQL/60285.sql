@@ -1,0 +1,1 @@
+SELECT \n  DAYOFWEEK(eventDate) AS DAY, \n  YEAR(eventDate) AS YEAR, \n  `primary`, \n  secondary, \n  weekend, \n  GROUP_CONCAT(username SEPARATOR ', ') AS usernames\nFROM \n  eventcal\nWHERE \n  region = 4\n  AND MONTH(eventDate) = 7\nGROUP BY \n  DAYOFWEEK(eventDate), YEAR(eventDate)\nORDER BY \n  DAYOFWEEK(eventDate)

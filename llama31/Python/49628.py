@@ -1,0 +1,1 @@
+from astropy.time import Time\n\ntimestamp = 1232559922\nt = Time(timestamp, format='unix')\njulian_date = t.jd\nprint(julian_date)

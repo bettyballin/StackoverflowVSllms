@@ -1,0 +1,1 @@
+<%\n  concat "hello"\n%>

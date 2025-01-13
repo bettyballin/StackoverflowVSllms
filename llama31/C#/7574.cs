@@ -1,1 +1,0 @@
-using NHibernate.Metadata;\n\n// Get the class metadata for your class\nIClassMetadata metadata = session.SessionFactory.GetClassMetadata(typeof(YourClass));\n\n// Get the column names for the class\nstring[] columnNames = metadata.PropertyNames;\n\n// Iterate over the column names\nforeach (string columnName in columnNames)\n{\n    Console.WriteLine(columnName);\n}

@@ -1,1 +1,0 @@
-sizeof(values) == 20 * sizeof(int)\nsizeof(foo.values) == 20 * sizeof(int)

@@ -1,0 +1,1 @@
+// Pagination.php\ntrait Pagination {\n    public function paginate($data) {\n        // pagination logic here\n    }\n}\n\n// Staff_Base.php (auto-generated)\nclass Staff_Base {\n    // auto-generated properties and methods\n}\n\n// Staff.php\nclass Staff extends Staff_Base {\n    use Pagination;\n\n    // custom methods and properties\n}

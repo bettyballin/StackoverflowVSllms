@@ -1,0 +1,1 @@
+DECLARE @id INT;\nDECLARE @max_id INT;\n\nSELECT @max_id = MAX(id) FROM your_table;\n\nWHILE @id <= @max_id\nBEGIN\n    SELECT @id = MIN(id) FROM your_table WHERE id > @id;\n\n    IF @id IS NOT NULL\n    BEGIN\n        -- Perform your operation here\n        PRINT 'Processing row ' + CONVERT(VARCHAR, @id);\n    END\nEND

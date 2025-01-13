@@ -1,1 +1,0 @@
-body > div {\n  height: 260px;\n  overflow: hidden;\n  display: flex;\n  justify-content: space-around;\n  margin: 10px;\n}\n\ndiv div {\n  height: 250px;\n  width: 250px;\n  margin: 1px;\n  background: #ccc;\n}

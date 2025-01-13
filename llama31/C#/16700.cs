@@ -1,1 +1,0 @@
-using (var wrapper = new ComWrapper())\n{\n    // Use the wrapper\n}

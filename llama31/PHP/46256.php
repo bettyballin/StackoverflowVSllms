@@ -1,0 +1,1 @@
+$text = $_POST['textareaName'];\n$text = str_replace(array("\r\n", "\n"), "<br/>", $text);\n// text now contains the line breaks replaced with <br/>

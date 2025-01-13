@@ -1,0 +1,1 @@
+# Ruby 1.8.6\nhash = { :name => 'John', :age => 30 }\n\n# Ruby 1.9\nhash = { name: 'John', age: 30 }

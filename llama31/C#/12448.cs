@@ -1,1 +1,0 @@
-ICriteria criteria = session.CreateCriteria(typeof(YourObject));\n\n// Define the custom order\nOrder customOrder = Order.Custom((x => x.YourProperty), new CustomOrderComparer("video"));\n\n// Add the custom order to the criteria\ncriteria.AddOrder(customOrder);\n\n// Execute the query\nvar results = criteria.List<YourObject>();

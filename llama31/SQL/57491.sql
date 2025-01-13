@@ -1,0 +1,1 @@
+SELECT *\nFROM (\n  (A \n    LEFT JOIN B \n      ON A.b = B.b\n  ) \n  LEFT JOIN C \n    ON A.c = C.c\n) \nINNER JOIN D \n  ON A.d = D.d\nLEFT JOIN (\n  B \n  INNER JOIN E \n    ON B.e = E.e\n) \nON B.b = A.b

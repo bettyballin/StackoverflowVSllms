@@ -1,0 +1,1 @@
+<?php\necho '<pre>';\n\n// Execute the shell command and capture the output\nexec("~/public_html/cgi-bin/srch.sh 2>&1", $output, $retval);\n\n// Print the output\necho implode("\n", $output);\n\n// Print additional info\necho "\n</pre>\n<hr />Return value: $retval\n";\n?>

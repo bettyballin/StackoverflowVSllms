@@ -1,1 +1,0 @@
-php -d display_errors=Off your_script.php

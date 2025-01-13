@@ -1,0 +1,1 @@
+$lockFile = '/path/to/lock/file.lock';\n\nif (file_exists($lockFile)) {\n    exit('Script is already running.');\n}\n\ntouch($lockFile);\n\n// Your conversion script here...\n\nunlink($lockFile);

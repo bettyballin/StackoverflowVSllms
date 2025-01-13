@@ -1,1 +1,0 @@
-[StructLayout(LayoutKind.Sequential)]\npublic struct KEYBDINPUT\n{\n    public ushort wVk;\n    public ushort wScan;\n    public uint dwFlags;\n    public int time;\n    public IntPtr dwExtraInfo;\n}

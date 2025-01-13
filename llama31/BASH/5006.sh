@@ -1,1 +1,0 @@
-cake acl grant User controllers/Users/index\ncake acl grant Admin controllers/Users/add\ncake acl grant Moderator controllers/Posts/edit

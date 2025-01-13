@@ -1,1 +1,0 @@
-[TestFixture]\npublic class MyTest\n{\n    [Test]\n    public void MyMethod Should_Return_Expected_Result()\n    {\n        // Arrange\n        var myObject = new MyObject();\n\n        // Act\n        var result = myObject.MyMethod();\n\n        // Assert\n        Assert.AreEqual("Expected result", result);\n    }\n}

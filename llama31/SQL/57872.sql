@@ -1,0 +1,1 @@
+DECLARE\n  l_cursor SYS_REFCURSOR;\n  l_rec your_table_name%ROWTYPE;\nBEGIN\n  l_cursor := your_function_name();\n  LOOP\n    FETCH l_cursor INTO l_rec;\n    EXIT WHEN l_cursor%NOTFOUND;\n    DBMS_OUTPUT.PUT_LINE(l_rec.column_name1 || ' ' || l_rec.column_name2);\n  END LOOP;\n  CLOSE l_cursor;\nEND;

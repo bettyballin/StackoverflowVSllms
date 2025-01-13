@@ -1,1 +1,0 @@
-[Test, ExpectedException(__typeof(ArgumentOutOfRangeException))]\nvoid Test_Something_That_Throws_Exception()\n{\n    throw gcnew ArgumentOutOfRangeException("Some more detail");\n}

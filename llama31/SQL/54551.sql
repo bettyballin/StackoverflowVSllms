@@ -1,0 +1,1 @@
+SELECT employee_id, name, department\nFROM employees\nGROUP BY employee_id, name, department\nHAVING COUNT(*) > 1

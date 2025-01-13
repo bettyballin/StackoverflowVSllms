@@ -1,1 +1,0 @@
-void myFunction(int a, int b = 0, int c);

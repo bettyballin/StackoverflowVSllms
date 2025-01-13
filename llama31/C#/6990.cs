@@ -1,1 +1,0 @@
-public class TenantService : ITenantService\n{\n    private readonly ITenantRepository _repository;\n\n    public TenantService(string tenantId)\n    {\n        _repository = new TenantRepository(tenantId);\n    }\n\n    public IEnumerable<Customer> GetCustomers()\n    {\n        return _repository.GetCustomers();\n    }\n}

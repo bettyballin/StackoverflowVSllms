@@ -1,1 +1,0 @@
-// Ensure the connection string is correct and the database is updated:\nSqlConnection conn = new SqlConnection(ConfigurationManager.ConnectionStrings["YourConnectionString"].ConnectionString);\nconn.Open();

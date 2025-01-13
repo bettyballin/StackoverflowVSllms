@@ -1,1 +1,0 @@
-protected void PdfDropDownList_SelectedIndexChanged(object sender, EventArgs e)\n{\n    string pdfPath = PdfDropDownList.SelectedValue;\n    // Update the object or canvas element with the selected PDF path\n}

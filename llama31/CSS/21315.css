@@ -1,1 +1,0 @@
-table {\n  position: relative;\n  height: calc(100vh - 20px);\n}\n\n.middle-cell {\n  position: absolute;\n  top: 10px;\n  bottom: 10px;\n  left: 0;\n  right: 0;\n}

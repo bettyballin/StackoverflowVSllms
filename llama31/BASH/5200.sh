@@ -1,1 +1,0 @@
-for %%r in (*.rar) do (\n  unrar x "%%r"\n)

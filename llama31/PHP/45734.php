@@ -1,0 +1,1 @@
+use Zend\Session\Container;\n\n// Set language in session\n$session = new Container('lang');\n$session->lang = $userLang;

@@ -1,1 +1,0 @@
-#include <iostream>\n\nclass MyComComponent : public IUnknown\n{\npublic:\n    HRESULT MyMethod()\n    {\n        std::cout << "Hello, COM!" << std::endl;\n        return S_OK;\n    }\n};

@@ -1,0 +1,1 @@
+' Using a lambda expression\nwidgetList.ForEach(Sub(w As Widget) w.Save())\n\n' Using a regular method\nPrivate Sub SaveWidget(w As Widget)\n    w.Save()\nEnd Sub\n\nwidgetList.ForEach(AddressOf SaveWidget)\n\n' Using a lambda expression with a closure\nDim saver As Action(Of Widget) = Sub(w) w.Save()\nwidgetList.ForEach(saver)

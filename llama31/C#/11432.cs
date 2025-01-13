@@ -1,1 +1,0 @@
-protected void listView_ItemDataBound(object sender, ListViewItemEventArgs e)\n{\n    if (e.Item.ItemType == ListViewItemType.DataItem)\n    {\n        LinkButton boldNameLink = (LinkButton)e.Item.FindControl("boldNameLink");\n        boldNameLink.OnClientClick = string.Format("loadSecondaryList('{0}'); return false;", e.Item.DataItemIndex);\n    }\n}

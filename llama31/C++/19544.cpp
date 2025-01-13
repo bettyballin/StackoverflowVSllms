@@ -1,1 +1,0 @@
-// Example usage:\n#include <html2pdf.h>\n\nint main() {\n    Html2Pdf converter;\n    converter.convert("input.html", "output.pdf");\n    return 0;\n}

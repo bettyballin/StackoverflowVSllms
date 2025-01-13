@@ -1,1 +1,0 @@
-IntPtr mainWindowHandle = proc.MainWindowHandle;\nControl control = Control.FromHandle(mainWindowHandle);\nif (control is Form)\n{\n    Form form = (Form)control;\n    // Now you can call methods on the form\n}

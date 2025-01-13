@@ -1,1 +1,0 @@
-#menu a {\n    color: red;\n    font-size: 16px; /* Set a fixed font size */\n}\n\n#menu a:hover {\n    color: blue;\n    font-weight: bold;\n    font-size: 16px; /* Keep the same font size on hover */\n}

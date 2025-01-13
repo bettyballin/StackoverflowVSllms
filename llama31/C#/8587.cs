@@ -1,1 +1,0 @@
-Regex.IsMatch(HTML, Pattern, RegexOptions.Singleline)

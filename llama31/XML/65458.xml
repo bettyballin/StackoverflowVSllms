@@ -1,0 +1,1 @@
+<configuration>\n  <system.web>\n    <webResourceUrlProvider type="CustomWebResourceUrlProvider" />\n  </system.web>\n</configuration>

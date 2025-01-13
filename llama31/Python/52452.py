@@ -1,0 +1,1 @@
+import gobject\n\ndef on_event(window, event):\n    print "Event:", event.type\n\nseekbar.realize()\nwindow = seekbar.get_window()\nwindow.connect("event", on_event)

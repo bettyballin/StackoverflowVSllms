@@ -1,1 +1,0 @@
-// Your application code\nGlobal.AddFileLocation(file);

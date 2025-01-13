@@ -1,1 +1,0 @@
-#include <openssl/ssl.h>\n\n// Create an SSL context\nSSL_CTX *ctx = SSL_CTX_new(TLS_client_method());\n\n// Set the cipher list\nSSL_CTX_set_cipher_list(ctx, "AESGCM");\n\n// Create an SSL object\nSSL *ssl = SSL_new(ctx);\n\n// Set the socket to use for TLS communication\nSSL_set_fd(ssl, sock);\n\n// Perform the TLS handshake\nSSL_connect(ssl);

@@ -1,0 +1,1 @@
+function myFunction(array $argument)\n{\n    // ...\n}\n\n$myArray = new MyArray();\n$myArray['foo'] = 'bar';\n\nmyFunction($myArray); // Works!

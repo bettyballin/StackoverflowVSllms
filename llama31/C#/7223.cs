@@ -1,1 +1,0 @@
-DataGridViewComboBoxColumn column = (DataGridViewComboBoxColumn)dataGridView1.Columns["Location"];\nBindingSource bindingSource = (BindingSource)column.DataSource;\nobject selectedLocation = bindingSource.List.OfType<YourLocationClass>().FirstOrDefault(x => x.ID == (string)row.Cells["Location"].Value);

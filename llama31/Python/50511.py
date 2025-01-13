@@ -1,0 +1,1 @@
+a, b, rest = perms(x)[0], perms(x)[1], perms(x)[2:]

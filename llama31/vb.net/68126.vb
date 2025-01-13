@@ -1,0 +1,1 @@
+Sub RemoveVBAPassword()\n    Dim objVBP As Object\n    Set objVBP = ThisWorkbook.VBProject\n    \n    ' Replace "YourPassword" with the actual password\n    objVBP.Password = "YourPassword"\n    objVBP.Locked = False\n    objVBP.Password = ""\nEnd Sub

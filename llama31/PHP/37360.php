@@ -1,0 +1,1 @@
+// In your User model\npublic $hasAndBelongsToMany = array(\n    'Contact' => array(\n        'className' => 'User',\n        'joinTable' => 'users_users',\n        'foreignKey' => 'user_id',\n        'associationForeignKey' => 'contact_id'\n    )\n);

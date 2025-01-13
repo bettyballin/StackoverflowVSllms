@@ -1,1 +1,0 @@
-GridViewToPdf(myGridView, "myGridView.pdf");

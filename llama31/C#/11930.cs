@@ -1,1 +1,0 @@
-string index = param.Split(':')[0];\nstring value = param.Split(':')[1];\n\nParameterField paramField = repDoc.ParameterFields.GetItemByName(index);\nparamField.CurrentValues.Clear();\nparamField.CurrentValues.AddValue(value);

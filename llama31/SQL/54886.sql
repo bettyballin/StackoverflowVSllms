@@ -1,0 +1,1 @@
+INSERT INTO BAR (A, B, C)\n  SELECT A, B, C\n  FROM FOO;

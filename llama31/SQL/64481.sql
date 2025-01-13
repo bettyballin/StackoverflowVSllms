@@ -1,0 +1,1 @@
+SELECT Id, UserName\nFROM (\n  SELECT Id, UserName,\n    ROW_NUMBER() OVER (PARTITION BY UserName ORDER BY SubmittedDate DESC) as RN\n  FROM table1\n) t\nWHERE RN = 1

@@ -1,1 +1,0 @@
-using System.Globalization;\n\nCultureInfo culture = CultureInfo.InvariantCulture;\nculture.DateTimeFormat.ShortDatePattern = "yyyyMMdd";

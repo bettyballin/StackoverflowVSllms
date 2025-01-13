@@ -1,0 +1,1 @@
+exec getSomething 'John,Tom'

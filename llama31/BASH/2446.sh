@@ -1,1 +1,0 @@
-systeminfo\nmsinfo32

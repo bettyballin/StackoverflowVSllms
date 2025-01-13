@@ -1,1 +1,0 @@
-wrapper -i wrapper.conf

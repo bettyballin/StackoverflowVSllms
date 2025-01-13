@@ -1,0 +1,1 @@
+WITH RecursiveOrgs AS (\n    SELECT Id, ParentId, 0 AS Level\n    FROM Organizations\n    WHERE Id = @TopmostOrgId  -- parameter for topmost organization Id\n\n    UNION ALL\n\n    SELECT o.Id, o.ParentId, Level + 1\n    FROM Organizations o\n    INNER JOIN RecursiveOrgs r ON o.ParentId = r.Id\n)\nSELECT Id\nFROM RecursiveOrgs\nWHERE Level > 0;  -- exclude topmost organizatio

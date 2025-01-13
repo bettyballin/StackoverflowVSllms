@@ -1,0 +1,1 @@
+CREATE TABLE Checklist (\n    ChecklistMonth tinyint NOT NULL CHECK (ChecklistMonth BETWEEN 1 AND 12),\n    ChecklistQuestionID int NOT NULL,\n    PRIMARY KEY (ChecklistMonth, ChecklistQuestionID)\n);

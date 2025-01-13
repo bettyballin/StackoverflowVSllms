@@ -1,1 +1,0 @@
-var innerHtml = xml.Descendants("title")\n    .SelectMany(t => t.DescendantsAndSelf())\n    .Skip(1) // skip the title element itself\n    .Select(t => t.ToString());\n\nforeach (var html in innerHtml)\n{\n    Console.WriteLine(html);\n}

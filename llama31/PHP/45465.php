@@ -1,0 +1,1 @@
+$conf['smtp_host'] = 'your_smtp_host';\n$conf['smtp_port'] = 'your_smtp_port';\n$conf['smtp_username'] = 'your_smtp_username';\n$conf['smtp_password'] = 'your_smtp_password';

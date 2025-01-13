@@ -1,0 +1,1 @@
+$name = 'John';\n$greeting = "Hello, $name!";\necho $greeting; // Output: Hello, John!

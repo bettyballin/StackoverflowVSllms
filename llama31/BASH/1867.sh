@@ -1,1 +1,0 @@
-perl myapp.pl daemo

@@ -1,0 +1,1 @@
+function unsignedToSigned($unsignedInt) {\n    if ($unsignedInt >= (1 << 31)) {\n        return $unsignedInt - (1 << 32);\n    }\n    return $unsignedInt;\n}

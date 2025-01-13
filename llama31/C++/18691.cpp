@@ -1,1 +1,0 @@
-amespace {\n    // code in global namespace\n}

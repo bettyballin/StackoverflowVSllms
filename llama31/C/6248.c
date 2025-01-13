@@ -1,1 +1,0 @@
-// Securely erase sensitive data from memory\nSecureZeroMemory(password, wcslen(password) * sizeof(WCHAR));

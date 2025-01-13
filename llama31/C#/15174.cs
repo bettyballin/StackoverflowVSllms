@@ -1,1 +1,0 @@
-void HideColumns()\n{\n    foreach (TableRow row in table.Rows)\n    {\n        if (row.Cells.Count > 2)\n        {\n            row.Cells[2].CssClass = "hidden"; // hide 3rd column\n            row.Cells[3].CssClass = "hidden"; // hide 4th column\n        }\n    }\n}

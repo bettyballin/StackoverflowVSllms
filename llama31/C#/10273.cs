@@ -1,1 +1,0 @@
-Page.ClientScript.RegisterScriptInclude("file.js", "/path/to/file.js");

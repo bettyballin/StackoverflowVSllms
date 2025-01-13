@@ -1,0 +1,1 @@
+CASE WHEN e.Price IS NOT NULL THEN e.Price ELSE r.Price END AS Price

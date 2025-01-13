@@ -1,1 +1,0 @@
-IntPtr handle = ...; // your process handle\nProcess process = ProcessHelper.GetProcessFromHandle(handle);

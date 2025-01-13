@@ -1,1 +1,0 @@
-static void Main(string[] args)\n{\n    _timer = new Timer(TimerCallback, null, 1000, 1000); // 1 second interval\n    Console.ReadLine(); // block the main thread\n}

@@ -1,0 +1,1 @@
+const timestamp = "2022/07/25 14:30:00";\nif (timestampRegex.test(timestamp)) {\n  console.log("Valid timestamp");\n} else {\n  console.log("Invalid timestamp");\n}

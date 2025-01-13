@@ -1,0 +1,1 @@
+const fileInput = document.getElementById('fileInput');\n\nfileInput.addEventListener('change', (e) => {\n  const files = e.target.files;\n  // Handle the selected files\n});

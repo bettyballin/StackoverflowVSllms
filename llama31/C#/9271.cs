@@ -1,1 +1,0 @@
-SmtpClient mailClient = new SmtpClient("smtp.gmail.com", 587);\nmailClient.EnableSsl = true;

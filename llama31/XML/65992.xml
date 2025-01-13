@@ -1,0 +1,1 @@
+<configuration>\n  <system.webServer>\n    <rewrite>\n      <rules>\n        <rule name="ExampleRule" stopProcessing="true">\n          <match url="^example/([0-9]+)/([a-zA-Z]+)$" />\n          <action type="Rewrite" url="example.aspx?id={R:1}&amp;name={R:2}" />\n        </rule>\n      </rules>\n    </rewrite>\n  </system.webServer>\n</configuration>

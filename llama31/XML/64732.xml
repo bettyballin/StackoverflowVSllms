@@ -1,0 +1,1 @@
+<dependency>\n    <groupId>javax.mail</groupId>\n    <artifactId>mail</artifactId>\n    <version>1.6.2</version>\n</dependency>

@@ -1,0 +1,1 @@
+$obj = new stdClass();\n\n// Using spl_object_id() (PHP 7.2+)\n$id = spl_object_id($obj);\necho $id . "\n";\n\n// Using spl_object_hash() (PHP 5.2+)\n$hash = spl_object_hash($obj);\necho $hash . "\n";

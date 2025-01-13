@@ -1,0 +1,1 @@
+SELECT a.col, b_local.col\nFROM a, b_local\nWHERE a.b_id = b_local.id;

@@ -1,1 +1,0 @@
-jobdepartmentTableAdapter ta = new jobdepartmentTableAdapter();\nta.NullValue = DBNull.Null;\ncareers.jobdepartmentDataTable dtDepartments = ta.GetDepartmentByJobID(iJobID);

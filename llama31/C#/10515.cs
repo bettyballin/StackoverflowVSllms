@@ -1,1 +1,0 @@
-myUltraGrid.Override.DeleteConfirmation = Infragistics.Win.DefaultableBoolean.False

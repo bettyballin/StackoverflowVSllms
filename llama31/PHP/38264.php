@@ -1,0 +1,1 @@
+class Blog {\n    public static $template = array('content' => 'some value');\n\n    public static function getTemplate($action) {\n        return self::$template[$action];\n    }\n}\n\n$class = 'Blog';\n$action = 'content';\necho call_user_func(array($class, 'getTemplate'), $action);

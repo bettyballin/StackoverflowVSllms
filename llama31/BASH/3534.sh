@@ -1,1 +1,0 @@
-gem install --http-proxy http://localhost:3128

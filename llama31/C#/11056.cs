@@ -1,1 +1,0 @@
-<#@ template language="C#" #>\n<#@ import namespace="MyNamespace" #>\n\nvar data = HostSpecific as DataWrapper;\nif (data != null)\n{\n    var jsonData = data.ToString();\n    // deserialize jsonData to access original data\n}

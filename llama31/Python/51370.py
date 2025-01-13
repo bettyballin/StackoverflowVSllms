@@ -1,0 +1,1 @@
+{% for item in items %}\n  {{ item.title }} ({{ item.location.city }}, {{ item.location.state }}, {{ item.location.country }})\n{% endfor %}

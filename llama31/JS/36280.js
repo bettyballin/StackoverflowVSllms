@@ -1,0 +1,1 @@
+$.ajax({\n  url: 'proxy.php?q=' + encodeURIComponent(searchQuery),\n  success: function(data) {\n    // handle the response data\n  }\n});

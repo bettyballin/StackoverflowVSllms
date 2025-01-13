@@ -1,1 +1,0 @@
-BUGZILLA_URL="https://your-bugzilla-instance.com/rest"\nBUG_ID=123\nCOMMENT="This is a new comment!"\n\ncurl -X POST \\n  $BUGZILLA_URL/bug/$BUG_ID/comment \\n  -H 'Content-Type: application/json' \\n  -d '{"comment": "'"$COMMENT"'"}'

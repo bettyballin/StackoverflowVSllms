@@ -1,1 +1,0 @@
-curl -X GET 'https://numverify.com/api/validate?access_key=YOUR_ACCESS_KEY&number=+1234567890'

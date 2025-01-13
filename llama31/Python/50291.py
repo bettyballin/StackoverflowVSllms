@@ -1,0 +1,1 @@
+if foo.py has changed:\n    reload(foo)\n    myfoo = foo.Foo()

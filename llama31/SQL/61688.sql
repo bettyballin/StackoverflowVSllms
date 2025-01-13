@@ -1,0 +1,1 @@
+WITH RecursiveLocales AS (\n  SELECT ID, LocationName, ParentID, 0 AS Level\n  FROM Locales\n  WHERE ParentID = ID  -- anchor query\n  UNION ALL\n  SELECT L.ID, L.LocationName, L.ParentID, Level + 1\n  FROM Locales L\n  INNER JOIN RecursiveLocales P ON L.ParentID = P.ID\n)\nSELECT * FROM RecursiveLocales;

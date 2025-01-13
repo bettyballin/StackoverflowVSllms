@@ -1,1 +1,0 @@
-sudo supervisorctl start my-php-service

@@ -1,1 +1,0 @@
-protected void btnSubmit_Click(object sender, EventArgs e)\n{\n    string editorContent = Editor1.Content;\n    // Now you can use the content as needed\n}

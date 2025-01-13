@@ -1,1 +1,0 @@
-curl -X POST -d "item[name]=myname&item[description]=mydescription" http://localhost:3000/items

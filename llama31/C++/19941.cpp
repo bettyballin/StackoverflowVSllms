@@ -1,1 +1,0 @@
-// C++0x concept example\nconcept Arithmetic {\n  requires(T a, T b) {\n    { a + b } -> T;\n    { a * b } -> T;\n  }\n};\n\ntemplate <Arithmetic T>\nT add(T a, T b) {\n  return a + b;\n}

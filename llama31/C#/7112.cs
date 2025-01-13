@@ -1,1 +1,0 @@
-var m = new MapPoint.Application();\nvar map = m.ActiveMap;\nMapPoint.FindResults r = map.FindPlaceResults("Police Stations", "West Bend, WI");

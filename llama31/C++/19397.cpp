@@ -1,1 +1,0 @@
-// MyDll.cpp\nint MyFunction(int x) {\n    // Set breakpoint here\n    return x * 2;\n}

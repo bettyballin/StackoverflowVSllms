@@ -1,1 +1,0 @@
-#include <boost/process.hpp>\n\n// ...\n\nboost::process::child c("/path/to/your/console/app", "arg1", "arg2");\nboost::process::pipe p = c.stdout();\nstd::ofstream log_file("log_file.log");\nboost::process::file_descriptor_sink sink(log_file);\nboost::process::pipe::source src(p, sink);

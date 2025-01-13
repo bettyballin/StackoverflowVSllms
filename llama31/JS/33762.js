@@ -1,0 +1,1 @@
+document.addEventListener('mousedown', function(event) {\n  if (event.target !== document.getElementById('textbox')) {\n    event.preventDefault();\n  }\n});

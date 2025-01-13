@@ -1,1 +1,0 @@
-string encodedCategory = Uri.EscapeDataString(category);

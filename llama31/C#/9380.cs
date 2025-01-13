@@ -1,1 +1,0 @@
-MyMethod(null); // compiler warning

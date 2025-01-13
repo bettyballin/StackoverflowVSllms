@@ -1,0 +1,1 @@
+$netClass = $com->CreateInstance('YourNamespace.YourClass');

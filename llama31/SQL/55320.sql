@@ -1,0 +1,1 @@
+CREATE TABLE Categories (\n  CategoryId INT PRIMARY KEY,\n  Name VARCHAR(50) NOT NULL\n)

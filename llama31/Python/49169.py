@@ -1,0 +1,1 @@
+import hashlib\n\ninput_string1 = "Hello, World!"\ninput_string2 = "Goodbye, Universe!"\n\nhash1 = hashlib.sha1(input_string1.encode()).hexdigest()\nhash2 = hashlib.sha1(input_string2.encode()).hexdigest()\n\nprint(hash1)  # e.g., "2ef7bde608ce5404e97d5f042f95f89f1c232871"\nprint(hash2)  # e.g., "4b2550f0700a7a80dedef322f95f89f1c232871"

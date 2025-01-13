@@ -1,0 +1,1 @@
+SELECT c.CategoryNumber, c.Desc\nFROM Category c\nWHERE NOT EXISTS (\n  SELECT 1\n  FROM Media m\n  JOIN Sales s ON m.MediaID = s.MediaID\n  JOIN Employees e ON s.EmployeeID = e.EmployeeID\n  WHERE e.EmployeeID = ? AND m.CategoryNumber = c.CategoryNumber\n)

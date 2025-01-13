@@ -1,1 +1,0 @@
-int id1 = (int)row["ID1"];\nint id2 = (int)row["ID2"];

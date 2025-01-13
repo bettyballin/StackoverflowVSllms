@@ -1,0 +1,1 @@
+SELECT \n    ((CAST(COUNT(DISTINCT id) as Decimal(10, 2)) / CAST(COUNT(*) as Decimal(10, 2))) * 100) as 'Percent'\nFROM TABLE_NAME

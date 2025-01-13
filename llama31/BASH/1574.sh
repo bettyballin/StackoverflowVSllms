@@ -1,1 +1,0 @@
-phpmd your_php4_file.php text deprecated

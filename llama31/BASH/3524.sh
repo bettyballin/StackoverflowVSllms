@@ -1,1 +1,0 @@
-export LIBSSH2_PATH=/usr/lib\npecl install -f ssh2

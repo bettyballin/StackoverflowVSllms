@@ -1,1 +1,0 @@
-char command[] = "ls -l; echo 'Hello World!' ; mkdir test";\nsystem(command);

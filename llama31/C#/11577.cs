@@ -1,1 +1,0 @@
-var openid = new CustomOpenIdRelyingParty();\nopenid.Url = "https://openid.example.com";

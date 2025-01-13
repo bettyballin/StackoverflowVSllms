@@ -1,0 +1,1 @@
+try {\n    // your script code here\n} catch (Exception $e) {\n    error_log('Exception caught: ' . $e->getMessage());\n}

@@ -1,0 +1,1 @@
+If lReturnStringBuilder.Length = 0 Then\n    lReturnStringBuilder.Append("|")\nEnd If\nReturn lReturnStringBuilder.ToString()

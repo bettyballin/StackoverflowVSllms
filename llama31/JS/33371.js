@@ -1,0 +1,1 @@
+$("#myForm").validate({\n  errorPlacement: function(error, element) {\n    return false; // Don't display error messages\n  }\n});

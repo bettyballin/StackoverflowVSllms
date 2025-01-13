@@ -1,1 +1,0 @@
-// instead of\ndriver.FindElement(By.Id("ctl00_MainContentPlaceHolder_ctl01_LoginButton"));\n\n// use\ndriver.FindElement(By.CssSelector("[data-test-id='login-button']"));

@@ -1,0 +1,1 @@
+SELECT name, email FROM customers\nUNION\nSELECT name, email FROM employees;

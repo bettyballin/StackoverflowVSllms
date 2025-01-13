@@ -1,0 +1,1 @@
+redis = Redis.new\nredis.set("my_model:#{session[:user_id]}", params.to_json)

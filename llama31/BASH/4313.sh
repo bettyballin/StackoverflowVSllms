@@ -1,1 +1,0 @@
-msbuild /t:GenerateHFiles /p:Configuration=$(Configuration) /p:Platform=$(Platform) OwnFiles.targets

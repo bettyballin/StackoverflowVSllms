@@ -1,1 +1,0 @@
-[StructLayout(LayoutKind.Sequential)]\npublic struct TStringList\n{\n    public IntPtr List;\n    public int Count;\n}\n\n[DllImport("opt7bja.dll", CharSet = CharSet.Ansi, CallingConvention = CallingConvention.StdCall)]\npublic static extern int SubmitJobStringList(ref TStringList tStringList, ref int jobno);

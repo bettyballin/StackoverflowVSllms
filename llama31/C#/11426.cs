@@ -1,1 +1,0 @@
-public List<Permission> GetPermissions(int roleId)\n{\n    var permissions = db.Permissions.Where(p => p.RoleId == roleId).ToList();\n    var role = db.Roles.FirstOrDefault(r => r.Id == roleId);\n    if (role.ParentId != null)\n    {\n        permissions.AddRange(GetPermissions(role.ParentId));\n    }\n    return permissions;\n}

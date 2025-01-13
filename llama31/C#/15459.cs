@@ -1,1 +1,0 @@
-public void DisplayPdf(byte[] pdfBytes)\n{\n    Response.Clear();\n    Response.ContentType = "application/pdf";\n    Response.AppendHeader("Content-Disposition", "attachment; filename=yourfile.pdf");\n    Response.OutputStream.Write(pdfBytes, 0, pdfBytes.Length);\n    Response.End();\n}

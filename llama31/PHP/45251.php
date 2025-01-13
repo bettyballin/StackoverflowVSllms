@@ -1,0 +1,1 @@
+$test1 = "d85d1d81b25614a3504a3d5601a9cb2e";\n$test2 = "3581169b064f71be1630b321d3ca318f";\n\nif ($test1 === "0") {\n    echo "Test 1 is Equal!?";\n}\nif ($test2 === "0") {\n    echo "Test 2 is Equal!?";\n}

@@ -1,1 +1,0 @@
-int logPixelsX = GetDeviceCaps(hdc, LOGPIXELSX);

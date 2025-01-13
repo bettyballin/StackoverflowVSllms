@@ -1,1 +1,0 @@
-lock (_sync) _otherThing = otherThing;

@@ -1,0 +1,1 @@
+$an_array = [...]; // your array\n$first_key = array_key_first($an_array);

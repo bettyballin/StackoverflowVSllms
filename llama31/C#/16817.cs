@@ -1,1 +1,0 @@
-private static Target CreateTarget(db_Target source)\n{\n    return new Target\n    {\n        id = source.id,\n        LastModified = source.db_TargetBase?.LastModified, // note the null-conditional operator\n        // ...\n    };\n}

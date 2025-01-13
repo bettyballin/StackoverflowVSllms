@@ -1,1 +1,0 @@
-for (int i = 0; i < maxi; ++i) {\n    for (int j = 0; j < maxj; ++j) {\n        if (i == 4 && j == 3) {\n            goto exit_point;\n        }\n    }\n}\nexit_point:;

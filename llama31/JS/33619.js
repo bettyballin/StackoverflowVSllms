@@ -1,0 +1,1 @@
+if ($('#isAgeSelected').is(':checked')) {\n  $("#txtAge").show();\n} else {\n  $("#txtAge").hide();\n}

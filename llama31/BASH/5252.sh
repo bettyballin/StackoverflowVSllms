@@ -1,1 +1,0 @@
-g++ -static -o myprogram myprogram.cpp

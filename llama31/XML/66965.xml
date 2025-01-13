@@ -1,0 +1,1 @@
+<profile defaultProvider="ProfileProvider" enabled="true">\n    <properties>\n        <add name="Username" allowAnonymous="false" type="System.String" />\n        <add name="LoginToken" allowAnonymous="false" type="System.Byte[]" />\n    </properties>\n</profile>

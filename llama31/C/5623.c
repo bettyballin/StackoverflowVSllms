@@ -1,1 +1,0 @@
-#include <stdio.h>\n\nint main() {\n    printf("%d\n", pow(2, 3));  // Output: 8\n    printf("%d\n", pow(5, 5));  // Output: 3125\n    return 0;\n}

@@ -1,1 +1,0 @@
-lsof | grep <extra_log_file_name>

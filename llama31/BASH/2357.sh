@@ -1,1 +1,0 @@
-sudo ln -s ~/projects/myproject /opt/lampp/htdocs/myproject

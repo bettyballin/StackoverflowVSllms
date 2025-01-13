@@ -1,0 +1,1 @@
+Declare Function csd_HandleData Lib "chsdet.dll" (ByVal aBuf As Long, ByVal aLen As Integer) As Integer

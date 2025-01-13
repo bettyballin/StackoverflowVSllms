@@ -1,1 +1,0 @@
-using Microsoft.Office.Interop.Word;\n\npublic string ExtractTextFromDoc(byte[] docBytes)\n{\n    var wordApp = new Application();\n    var document = wordApp.Documents.Open(new MemoryStream(docBytes));\n    var text = document.Content.Text;\n    document.Close();\n    wordApp.Quit();\n    return text;\n}

@@ -1,0 +1,1 @@
+Master1\n(\n    Master1ID (PK)\n)\n\nSub1\n(\n    Sub1ID (PK)\n)\n\nMaster1Sub1_Map\n(\n    Master1ID (FK to Master1.Master1ID),\n    Sub1ID (FK to Sub1.Sub1ID)\n)

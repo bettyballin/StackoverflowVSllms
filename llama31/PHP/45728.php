@@ -1,0 +1,1 @@
+function hasDeepKey($array, $keys) {\n    $current = $array;\n    foreach ($keys as $key) {\n        if (!isset($current[$key])) {\n            return false;\n        }\n        $current = $current[$key];\n    }\n    return true;\n}

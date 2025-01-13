@@ -1,0 +1,1 @@
+WHERE dateField1 >= DATE(NOW()) AND dateField2 >= DATE(NOW())

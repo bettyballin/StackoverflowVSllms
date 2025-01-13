@@ -1,1 +1,0 @@
-var regex = new Regex(@"^'.*$|.*''.*$", RegexOptions.Multiline);

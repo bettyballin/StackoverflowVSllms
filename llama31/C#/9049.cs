@@ -1,1 +1,0 @@
-public IHttpHandler GetHttpHandler(RequestContext requestContext)\n{\n    // ...\n\n    if (!allowed)\n    {\n        throw new HttpException(401, "Unauthorized");\n    }\n\n    // ...\n}

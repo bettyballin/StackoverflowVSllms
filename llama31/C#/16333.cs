@@ -1,1 +1,0 @@
-// In your Master Page (Root.Master)\nprotected void LoginView1_OnItemCommand(object sender, LoginViewCommandEventArgs e)\n{\n    if (e.CommandName == "Logout")\n    {\n        // Register a full page postback\n        ScriptManager scriptManager = (ScriptManager)Page.Master.FindControl("ScriptManager1");\n        scriptManager.RegisterPostBackControl(LoginView1);\n    }\n}

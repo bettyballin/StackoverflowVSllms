@@ -1,1 +1,0 @@
-// mock_dll_wrapper.cpp\nclass MockDLLWrapper : public DLLWrapper {\npublic:\n    void getinfo(params...) override {\n        // Return a specific value or throw an exception\n        param.option = true;\n    }\n};

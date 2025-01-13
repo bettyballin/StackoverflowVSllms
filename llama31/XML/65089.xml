@@ -1,0 +1,1 @@
+<jboss-web>\n  <context-root>/admin-console</context-root>\n  <security-domain>java:/jaas/admin-console</security-domain>\n  <valve>\n    <class-name>org.jboss.web.tomcat.security.SecurityAssociationValve</class-name>\n  </valve>\n</jboss-web>

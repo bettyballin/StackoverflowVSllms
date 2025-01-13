@@ -1,0 +1,1 @@
+CREATE TABLE Orders (\n    OrderID INT IDENTITY(1,1) PRIMARY KEY,\n    CustomerID INT,\n    OrderDate DATE,\n    OrderNumber AS (CONVERT(VARCHAR(10), OrderID) + '-' + CONVERT(VARCHAR(10), CustomerID))\n);

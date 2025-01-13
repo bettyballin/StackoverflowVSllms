@@ -1,1 +1,0 @@
-csc /target:exe /out:MyProject.exe MyProject.cs

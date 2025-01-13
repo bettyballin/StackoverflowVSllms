@@ -1,0 +1,1 @@
+$("form").validate({\n  errorPlacement: function(error, element) {\n    error.appendTo(element.parent("div"));\n  }\n});

@@ -1,1 +1,0 @@
-# Create an IAM role with necessary permissions\naws iam create-role --role-name MyEC2Role --assume-role-policy-document file://ec2-role-policy.json\n\n# Attach the IAM role to your EC2 instance\naws ec2 run-instances --image-id ami-a83fabc0 --instance-type t2.micro --iam-instance-profile Name=MyEC2Role

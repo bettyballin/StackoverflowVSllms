@@ -1,1 +1,0 @@
-string username = "SomeUser";\nstring sidString = GetSidString(username);\nConsole.WriteLine(sidString);

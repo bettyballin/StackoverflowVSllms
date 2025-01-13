@@ -1,1 +1,0 @@
-var tmpCNoteID = dr["CaseNoteID"].ToString();\nvar filter = "ParentNote='" + tmpCNoteID + "'";\nDataRow[] childRows = cNoteDT.Select(filter);

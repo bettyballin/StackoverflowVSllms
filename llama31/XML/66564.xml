@@ -1,0 +1,1 @@
+<serviceAuthorization>\n  <authorizationPolicies>\n    <add policyType="YourNamespace.CustomServiceAuthorizationManager, YourAssembly" />\n  </authorizationPolicies>\n</serviceAuthorization>

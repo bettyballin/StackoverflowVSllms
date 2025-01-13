@@ -1,0 +1,1 @@
+document.getElementById('yourTextboxId').addEventListener('input', function() {\n  // same validation logic as above\n});

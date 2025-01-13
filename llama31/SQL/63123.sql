@@ -1,0 +1,1 @@
+SELECT * FROM customers\nJOIN (VALUES (32343), (45676), (12345), ...) AS user_ids (user_id)\nON customers.user_id = user_ids.user_id;

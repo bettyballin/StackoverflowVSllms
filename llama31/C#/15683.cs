@@ -1,1 +1,0 @@
-[CustomValidation(typeof(MyValidator), "ValidateDropdown")]\npublic partial class MyPage : Page\n{\n    // ...\n}\n\npublic class MyValidator\n{\n    public static bool ValidateDropdown(string value)\n    {\n        // Validate the value here\n        return true; // or false\n    }\n}

@@ -1,0 +1,1 @@
+SELECT o.*\nFROM orders o\nJOIN (\n  SELECT user, RAND() as rand_order\n  FROM orders\n  GROUP BY user\n) u ON o.user = u.user\nORDER BY u.rand_order, o.user;

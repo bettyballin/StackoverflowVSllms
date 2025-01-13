@@ -1,1 +1,0 @@
-#include <stdio.h>\n#include <stdlib.h>\n\nvoid cleanup() {\n    // Deallocate resources here\n    printf("Cleaning up...\n");\n}\n\nint main() {\n    atexit(cleanup);\n\n    // Your process code here...\n}

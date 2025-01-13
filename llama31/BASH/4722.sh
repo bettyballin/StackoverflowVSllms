@@ -1,1 +1,0 @@
-svn update --non-interactive\nif [ $? -ne 0 ]; then\n  echo "Conflict detected!"\nfi

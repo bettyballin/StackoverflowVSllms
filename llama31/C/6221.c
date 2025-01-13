@@ -1,1 +1,0 @@
-struct substring {\n    char *str;\n    size_t len;\n};\n\nstruct substring get_substring(const char *str, size_t start, size_t len) {\n    struct substring substr;\n    substr.str = malloc(len + 1);\n    strncpy(substr.str, str + start, len);\n    substr.str[len] = '\0';\n    substr.len = len;\n    return substr;\n}

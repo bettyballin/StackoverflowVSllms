@@ -1,0 +1,1 @@
+// Install via NuGet\nInstall-Package AvalonDock\n\n// Basic usage\nxmlns:avalonDock="http://schemas.xceed.com/wpf/xaml/avalondock"\n\n<avalonDock:DockingManager>\n    <!-- Your content here -->\n</avalonDock:DockingManager>

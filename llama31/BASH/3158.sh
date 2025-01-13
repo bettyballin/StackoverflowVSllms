@@ -1,1 +1,0 @@
-export C_INCLUDE_PATH=/my/custom/include

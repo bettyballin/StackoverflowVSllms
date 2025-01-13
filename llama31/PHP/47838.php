@@ -1,0 +1,1 @@
+$ch = curl_init('http://www.example.com/page.html');\ncurl_setopt($ch, CURLOPT_RETURNTRANSFER, TRUE);\n$page = curl_exec($ch);\n$httpCode = curl_getinfo($ch, CURLINFO_HTTP_CODE);\nif ($httpCode == 408) {\n    // timeout error, retry\n} elseif ($httpCode == 404) {\n    // 404 error, add to list of not found pages\n}\ncurl_close($ch);

@@ -1,0 +1,1 @@
+CREATE TABLE packages (\n  productCode char(2) CHECK (productCode IN ('XJ', 'XD')),\n  name nvarchar(100),\n  ...\n)

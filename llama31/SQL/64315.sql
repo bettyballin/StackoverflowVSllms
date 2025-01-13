@@ -1,0 +1,1 @@
+-- Example using SQL Source Control\nEXEC sp_addtable @database_name='MyDB', @schema_name='dbo', @table_name='users';\nGO\nALTER TABLE users ADD id INT PRIMARY KEY;\nGO\nALTER TABLE users ADD name VARCHAR(50);\nGO

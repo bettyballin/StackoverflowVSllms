@@ -1,1 +1,0 @@
-etsh interface ipv4 delete connection 10.0.0.100:1234 8.8.8.8:80

@@ -1,1 +1,0 @@
-using System.Web.Security;\n\n// Check if the user is in a specific role\nif (Roles.IsUserInRole("YourDomain\\YourRole"))\n{\n    // User is in the role, allow access\n}\nelse\n{\n    // User is not in the role, deny access\n}

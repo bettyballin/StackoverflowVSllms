@@ -1,0 +1,1 @@
+function Create() {\n    var txt = document.getElementById("longTxt").value;\n\n    if (txt == "Insert Name") {\n        alert("You must provide a name");\n        return;\n    }\n\n    var data = { Name: txt };\n    $.post("/Home/Create", data, function(response) {\n        $("#longTxt").val(response.data);\n    }, "json");\n}

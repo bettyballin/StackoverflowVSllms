@@ -1,1 +1,0 @@
-public SqlDataReader BuildAndExecuteCommand(SqlCommand command)\n{\n    using (SqlConnection connection = OpenConnection())\n    {\n        command.Connection = connection;\n        return command.ExecuteReader(CommandBehavior.CloseConnection);\n    }\n}

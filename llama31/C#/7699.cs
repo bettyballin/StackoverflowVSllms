@@ -1,1 +1,0 @@
-public static class MathHelper\n{\n    public static int Add(int a, int b) => a + b;\n}

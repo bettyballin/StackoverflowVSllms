@@ -1,0 +1,1 @@
+SELECT \n    A.column1 - B.column1 AS column1_diff,\n    A.column2 - B.column2 AS column2_diff\nFROM \n    TableA A\nCROSS JOIN \n    TableB B;

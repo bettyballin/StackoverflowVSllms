@@ -1,1 +1,0 @@
-@echo off\n\n:: Shut down EM Server\nnet stop "Oracle Enterprise Manager Server"\n\n:: Shut down EM Agent\nnet stop "Oracle Enterprise Manager Agent"\n\n:: Restart EM Server\nnet start "Oracle Enterprise Manager Server"\n\n:: Restart EM Agent\nnet start "Oracle Enterprise Manager Agent"

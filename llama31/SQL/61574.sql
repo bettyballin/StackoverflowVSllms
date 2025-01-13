@@ -1,0 +1,1 @@
+-- Define a test\n!define TEST {SELECT * FROM users WHERE name = 'John'}\n\n-- Define the expected result\n!define EXPECTED { id | name | email \n          1  | John | john@example.com }\n\n-- Run the test\n{TEST}\n\n-- Verify the result\n{EXPECTED}

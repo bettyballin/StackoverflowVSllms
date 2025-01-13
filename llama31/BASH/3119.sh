@@ -1,1 +1,0 @@
-java -debug -consoleLog -jar your_app.jar

@@ -1,0 +1,1 @@
+$formattedString = sprintf(currentDateTime());\necho $formattedString;

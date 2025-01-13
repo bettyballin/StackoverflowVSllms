@@ -1,1 +1,0 @@
-protected void Page_Load(object sender, EventArgs e)\n{\n    // Check if the CustomValidator is registered\n    var validator = Page.Validators.Find(_AssessmentValidator.ID);\n    if (validator == null)\n    {\n        // CustomValidator is not registered\n    }\n}

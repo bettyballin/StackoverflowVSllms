@@ -1,1 +1,0 @@
-if (myList.GetCount() >= myList.GetFixedSize()) {\n    myList.RemoveAt(0); // remove oldest element\n}\nmyList.Add(123); // add new element

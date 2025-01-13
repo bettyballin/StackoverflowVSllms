@@ -1,0 +1,1 @@
+$title = apply_filters('the_title', get_the_title($post->ID));\n$permalink = apply_filters('the_permalink', get_permalink($post->ID));\n$content = apply_filters('the_content', get_the_content($post->ID));

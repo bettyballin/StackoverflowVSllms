@@ -1,1 +1,0 @@
-public int interpolate(int target) {\n    int smallest = nextSmallest(target);\n    int largest = nextLargest(target);\n    return (int) ((target - smallest) / (double) (largest - smallest) * (largest - smallest) + smallest);\n}

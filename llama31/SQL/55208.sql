@@ -1,0 +1,1 @@
+SELECT procedure_name \nFROM all_procedures \nORDER BY procedure_name;

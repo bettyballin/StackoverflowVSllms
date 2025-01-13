@@ -1,0 +1,1 @@
+$('#content').html($response.filter('.teaser'));

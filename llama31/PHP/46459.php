@@ -1,0 +1,1 @@
+$handle->insert('table', $data);\n$handle->update('table', $data, 'id = 1');

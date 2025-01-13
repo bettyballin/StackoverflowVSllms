@@ -1,0 +1,1 @@
+$dateString = $_SERVER['HTTP_DATE'];\n$pattern = '/^([A-Z][a-z]{2}, \d{1,2} [A-Z][a-z]{2} \d{4} \d{2}:\d{2}:\d{2} GMT)$/';\nif (preg_match($pattern, $dateString)) {\n    $dt = new DateTime($dateString);\n    // compare $dt to the actual date\n} else {\n    // invalid date string\n}

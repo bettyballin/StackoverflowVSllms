@@ -1,1 +1,0 @@
-routes.MapRoute(\n    "OpenSortAndFilter",\n    "Issue/Open/{sort}/{filterBy}/{filterValue}",\n    new { controller = "Issue", action = "Open", sort = "TimeLogged", filterBy = "", filterValue = "" }\n);

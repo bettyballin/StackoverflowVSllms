@@ -1,0 +1,1 @@
+<group name="jdbc">\n    <prop name="url">jdbc:oracle:thin:@MYDB</prop>\n    <prop name="username">user</prop>\n    <prop name="password">pass</prop>\n    <prop name="TNS_ADMIN">/path/to/tnsnames.ora</prop>\n</group>

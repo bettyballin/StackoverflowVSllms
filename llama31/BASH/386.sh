@@ -1,1 +1,0 @@
-gcc -o your_binary your_source.c -static -lgcc -lglibc -ldynamic -lfontconfig

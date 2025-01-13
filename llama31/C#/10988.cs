@@ -1,1 +1,0 @@
-[DllImport("YourMfcAppDll.dll", CharSet = CharSet.Ansi)]\nstatic extern void GetXmlData([MarshalAs(UnmanagedType.LPStr)] StringBuilder xmlData);

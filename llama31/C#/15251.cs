@@ -1,1 +1,0 @@
-private string GenerateSalt()\n{\n    var saltBytes = new byte[16]; // 128 bits\n    using (var rng = new RNGCryptoServiceProvider())\n    {\n        rng.GetNonZeroBytes(saltBytes);\n    }\n    return Convert.ToBase64String(saltBytes);\n}

@@ -1,1 +1,0 @@
-var imageArray = imageStream.ToArray();\nreqStream.Write(imageArray, 0, imageArray.Length);

@@ -1,0 +1,1 @@
+Dim configMapping As New Dictionary(Of String, Func(Of Object))\n\nconfigMapping.Add("HEADERS_PATH", Function() Me.headers_path)\n\n' Later, when you want to retrieve the value\nDim headersPath As Object = configMapping("HEADERS_PATH")()

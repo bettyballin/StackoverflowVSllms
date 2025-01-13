@@ -1,1 +1,0 @@
-var counties = new List<SelectListItem>();\nforeach (var county in countyList)\n{\n    counties.Add(new SelectListItem\n    {\n        Value = county.Id.ToString(),\n        Text = county.Name,\n        Selected = county.Id == selectedCountyId\n    });\n}

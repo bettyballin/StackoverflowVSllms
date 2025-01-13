@@ -1,0 +1,1 @@
+Dim myArray(5) As Integer\nReDim myArray(10)

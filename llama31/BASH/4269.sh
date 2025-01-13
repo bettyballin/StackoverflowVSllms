@@ -1,1 +1,0 @@
-# Run MySQL installation in the background\nmysql_installation_command &\n\n# Get the PID of the MySQL installation process\nmysql_pid=$!\n\n# Wait for the MySQL installation to complete\nwait $mysql_pid\n\n# Run DB scripts after MySQL installation completes\nrun_db_scripts

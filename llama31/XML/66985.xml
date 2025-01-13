@@ -1,0 +1,1 @@
+<filter>\n    <filter-name>UrlPatternFilter</filter-name>\n    <filter-class>com.example.UrlPatternFilter</filter-class>\n</filter>\n\n<filter-mapping>\n    <filter-name>UrlPatternFilter</filter-name>\n    <url-pattern>/*</url-pattern>\n</filter-mapping>\n\n<servlet>\n    <servlet-name>MyServlet</servlet-name>\n    <servlet-class>com.example.MyServlet</servlet-class>\n</servlet>

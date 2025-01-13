@@ -1,0 +1,1 @@
+SELECT * FROM users WHERE name = 'admin' AND ASCII(SUBSTRING(password, 1, 1)) > 100

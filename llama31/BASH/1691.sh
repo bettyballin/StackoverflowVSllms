@@ -1,1 +1,0 @@
-# On the laptop (client)\nmstsc /v:<desktop_vm_ip_address>:3389

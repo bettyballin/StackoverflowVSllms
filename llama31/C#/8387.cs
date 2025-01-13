@@ -1,1 +1,0 @@
-public void ProcessRequest(HttpContext context)\n{\n    DataTable dt = // get your DataTable instance\n    context.Response.ContentType = "text/csv";\n    context.Response.AppendHeader("Content-Disposition", "attachment; filename=data.csv");\n    using (var outputStream = context.Response.OutputStream)\n    {\n        WriteDataTableToCsvStream(dt, outputStream);\n    }\n}

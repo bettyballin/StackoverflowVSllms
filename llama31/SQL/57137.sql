@@ -1,0 +1,1 @@
+MERGE INTO your_table AS t\nUSING (SELECT 'your_value' AS value) AS s\nON t.id = 'your_id'\nWHEN MATCHED THEN\n  UPDATE SET t.column = s.value\nWHEN NOT MATCHED THEN\n  INSERT (id, column)\n  VALUES ('your_id', s.value);

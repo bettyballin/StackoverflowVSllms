@@ -1,0 +1,1 @@
+INSERT IGNORE INTO your_table (column_name) VALUES ('string_value');

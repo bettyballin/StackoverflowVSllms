@@ -1,1 +1,0 @@
-td.profitable:before {\n  content: '';\n  position: absolute;\n  top: 0;\n  left: 0;\n  width: 100%;\n  height: 100%;\n  background-color: #C6F4D6;\n  z-index: -1;\n}

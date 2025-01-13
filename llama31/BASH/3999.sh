@@ -1,1 +1,0 @@
-ffmpeg -i $infile -vcodec copy -acodec libmp3lame test.flv

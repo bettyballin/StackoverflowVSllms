@@ -1,1 +1,0 @@
-var query = session.Query<Entity>()\n    .Fetch(e => e.Relationship)\n    .ToList();

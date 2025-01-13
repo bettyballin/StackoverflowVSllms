@@ -1,0 +1,1 @@
+CREATE PROCEDURE InsertMasterAndSlave\n    @MasterName CHAR(50),\n    @SlaveName CHAR(50)\nAS\nBEGIN\n    INSERT INTO Master (Name) VALUES (@MasterName);\n    DECLARE @MasterId INT = SCOPE_IDENTITY();\n    INSERT INTO Slave (MasterId, Name) VALUES (@MasterId, @SlaveName);\nEND;

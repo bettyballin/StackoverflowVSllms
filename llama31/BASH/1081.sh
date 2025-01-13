@@ -1,1 +1,0 @@
-gcc -shared -Wl,--whole-archive -Wl,-soname,c.so -o c.so a.so b.so

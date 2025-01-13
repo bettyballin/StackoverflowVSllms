@@ -1,0 +1,1 @@
+import numpy as np\nfrom sklearn.feature_extraction.text import TfidfVectorizer\n\ndef tfidf_similarity(articles):\n    vectorizer = TfidfVectorizer()\n    tfidf_matrix = vectorizer.fit_transform(articles)\n    return tfidf_matrix.dot(tfidf_matrix.T)

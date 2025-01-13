@@ -1,1 +1,0 @@
-#include <stdio.h>\n#include <math.h>\n\nint main() {\n    printf("%f\n", log10((double)100));\n    return 0;\n}

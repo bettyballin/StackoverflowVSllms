@@ -1,0 +1,1 @@
+cmd = ["waitsome.py"]\nproc = subprocess.Popen(cmd, bufsize=256, stdout=subprocess.PIPE)

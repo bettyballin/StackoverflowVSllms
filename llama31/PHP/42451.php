@@ -1,0 +1,1 @@
+// Use prepared statements\n$stmt = $pdo->prepare("SELECT * FROM departments WHERE company_id = :company_id");\n$stmt->bindParam(":company_id", $company_id);\n$stmt->execute();

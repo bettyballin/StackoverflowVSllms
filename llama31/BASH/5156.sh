@@ -1,1 +1,0 @@
-curl -H "Accept-Charset: utf-8" -o output.html http://example.com/imported/code

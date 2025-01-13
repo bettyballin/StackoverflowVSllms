@@ -1,1 +1,0 @@
-@echo off\n\nset SERVER=myserver\nset DATABASE=mydatabase\nset PROCEDURE=myprocedure\n\nsqlcmd -S %SERVER% -d %DATABASE% -Q "sp_helptext '%PROCEDURE%'" -o "%PROCEDURE%.sql" -x

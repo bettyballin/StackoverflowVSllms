@@ -1,1 +1,0 @@
-public override int GetHashCode()\n{\n    unchecked // allow overflow\n    {\n        int hash = 17; // prime number\n        hash = hash * 23 + field1.GetHashCode(); // multiply by prime and add\n        hash = hash * 23 + field2.GetHashCode();\n        // ...\n        return hash;\n    }\n}

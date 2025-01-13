@@ -1,0 +1,1 @@
+# in your AssetsController\ndef edit\n  @asset = Asset.find(params[:id])\n  render partial: 'edit_form'\nend

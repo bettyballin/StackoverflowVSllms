@@ -1,0 +1,1 @@
+$extract = extracting_comments($table, $fields, $condition, $order, $limit);\nforeach ($extract as $value) {\n    print_r($value);\n}

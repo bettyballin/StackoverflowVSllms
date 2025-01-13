@@ -1,0 +1,1 @@
+Protected Overrides Sub Finalize()\n    Dispose(False)\n    MyBase.Finalize()\nEnd Sub

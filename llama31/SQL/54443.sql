@@ -1,0 +1,1 @@
+SELECT instrument, bar_dttm, bar_open, bar_close\nFROM (\n  SELECT instrument, bar_dttm, bar_open, bar_close,\n         ROW_NUMBER() OVER (PARTITION BY instrument ORDER BY bar_dttm DESC) AS row_num\n  FROM bar\n) AS subquery\nWHERE row_num <= 5

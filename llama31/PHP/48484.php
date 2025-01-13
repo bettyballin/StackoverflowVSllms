@@ -1,0 +1,1 @@
+function getUsername() {\n    return $this->username;\n}

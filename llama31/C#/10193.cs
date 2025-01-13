@@ -1,1 +1,0 @@
-public class Bookmarks : ICloneable\n{\n    public List<Bookmark> BookmarkList { get; set; }\n\n    public object Clone()\n    {\n        return DeepCopyBookmarks(this);\n    }\n}

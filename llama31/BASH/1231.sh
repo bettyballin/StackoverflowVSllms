@@ -1,1 +1,0 @@
-# Record CPU usage for 10 seconds\nperf record -a -g -- sleep 10\n\n# Analyze the recorded data\nperf report

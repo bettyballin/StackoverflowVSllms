@@ -1,0 +1,1 @@
+from lxml import html\n\nhtml_string = "<html>...</html>"\ndoc = html.fromstring(html_string)\nresult = doc.xpath("//a/@href")\nprint(result)

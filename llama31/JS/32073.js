@@ -1,0 +1,1 @@
+$(window).on('popstate', function () {\n    __doPostBack('<%= Page.ClientID %>', '');\n});

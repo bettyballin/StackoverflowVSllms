@@ -1,1 +1,0 @@
-class MyClass {\nprivate:\n    int privateVariable;\n\n    friend class MyClassTest;\n};\n\nclass MyClassTest {\npublic:\n    void testPrivateVariable() {\n        MyClass obj;\n        obj.privateVariable = 42;\n        // ...\n    }\n};

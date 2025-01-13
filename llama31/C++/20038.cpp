@@ -1,1 +1,0 @@
-HRESULT CDemo::Div(/*[in]*/ LONG a, /*[in]*/LONG b, /*[out,retval]*/ LONG* pRet)\n{\n    if (pRet == NULL)\n        return E_POINTER;\n\n    if (b == 0)\n    {\n        *pRet = 0; // assign a default value\n        return E_INVALIDARG;\n    }\n\n    *pRet = a/b;\n    return S_OK;\n}

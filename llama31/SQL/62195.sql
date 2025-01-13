@@ -1,0 +1,1 @@
+SELECT modelDescription, appearance\nFROM (\n  SELECT modelDescription, COUNT(*) as appearance\n  FROM your_table\n  GROUP BY modelDescription\n  ORDER BY appearance DESC\n)\nWHERE ROWNUM = 1;

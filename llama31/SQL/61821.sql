@@ -1,0 +1,1 @@
+UPDATE Table_Name\nSET PAR = (SELECT SUM(S_val) FROM Table_Name AS t2 WHERE t2.ID = Table_Name.ID)

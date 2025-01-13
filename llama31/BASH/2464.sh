@@ -1,1 +1,0 @@
-ssh-keygen -p -t rsa -m PEM -f private_key.pem

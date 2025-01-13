@@ -1,1 +1,0 @@
-IDictionaryEnumerator enumerator = HttpContext.Current.Cache.GetEnumerator();\nwhile (enumerator.MoveNext())\n{\n    string key = enumerator.Key.ToString();\n    object value = enumerator.Value;\n    // do something with the key and value\n}

@@ -1,1 +1,0 @@
-public interface ICalculationPlugin\n{\n    double Calculate(double num1, double num2);\n}

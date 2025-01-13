@@ -1,1 +1,0 @@
-[DllImport("yourdll.dll", CallingConvention = CallingConvention.Cdecl)]\npublic static extern void YourDllFunction();

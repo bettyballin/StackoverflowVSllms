@@ -1,0 +1,1 @@
+var isQuirksMode = document.compatMode === 'BackCompat';

@@ -1,0 +1,1 @@
+<?php\n// Example: using DIRECTORY_SEPARATOR to handle directory separators\n$path = 'path' . DIRECTORY_SEPARATOR . 'to' . DIRECTORY_SEPARATOR . 'file.php';\nrequire_once $path;

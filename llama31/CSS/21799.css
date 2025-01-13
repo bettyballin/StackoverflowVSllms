@@ -1,1 +1,0 @@
-img {\n  filter: none;\n  transition: filter 0.3s ease-in-out;\n}\n\nimg:hover {\n  filter: brightness(1.2) contrast(1.1);\n}

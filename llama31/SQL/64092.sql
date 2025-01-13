@@ -1,0 +1,1 @@
+SELECT \n    SUM(DATEDIFF(mi, Start, \n        CASE \n            WHEN Stop = '9999-12-31 00:00:00' THEN GETDATE() \n            ELSE Stop \n        END)) AS TotalElapsedMinutes\nFROM \n    YourTable

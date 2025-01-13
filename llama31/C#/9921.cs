@@ -1,1 +1,0 @@
-[ComVisible(true)]\npublic interface IMyInterface\n{\n    string MyProperty { get; set; }\n}\n\n[ComVisible(true)]\npublic class MyClass : IMyInterface\n{\n    public string MyProperty { get; set; }\n}

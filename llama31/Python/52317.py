@@ -1,0 +1,1 @@
+import numpy as np\nfrom scipy.integrate import odeint\n\ndef model(state, t):\n    x, y = state\n    dxdt = x * y\n    dydt = x - y\n    return [dxdt, dydt]\n\nstate0 = [1.0, 2.0]\nt = np.linspace(0, 10, 1000)\n\nstate = odeint(model, state0, t)\n\nimport matplotlib.pyplot as plt\nplt.plot(t, state[:, 0])\nplt.xlabel('t')\nplt.ylabel('x')\nplt.show()

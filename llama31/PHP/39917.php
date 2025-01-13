@@ -1,0 +1,1 @@
+class MyController extends Zend_Controller_Action\n{\n    public function indexAction()\n    {\n        // Assign sidebar content\n        $this->view->sidebar = 'This is my sidebar content';\n    }\n}

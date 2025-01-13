@@ -1,0 +1,1 @@
+item = Item.create(name: 'Item 1')\ntransaction = item.transactions.build(profit: 10.99)\ntransaction.save\n\n# or\ntransaction = Transaction.create(profit: 10.99)\nitem = transaction.items.build(name: 'Item 1')\nitem.save

@@ -1,1 +1,0 @@
-objectA.Location = new System.Drawing.Point((int)A.position, objectA.Location.Y);\nobjectA.Refresh();

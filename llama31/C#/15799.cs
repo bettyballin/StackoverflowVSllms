@@ -1,1 +1,0 @@
-using (var dbContext = new MyDbContext())\n{\n    var connection = dbContext.Database.Connection;\n    var serverPropertiesTable = connection.GetSchema("ServerProperties");\n\n    // serverPropertiesTable will contain information about the server properties\n    // e.g., edition, version, collation, etc.\n}

@@ -1,1 +1,0 @@
-$drive = "Q:\"\n\nGet-ChildItem -Path $drive -Recurse -Force | Where-Object {$_.Attributes -match "ReparsePoint"} | ForEach-Object {\n    $junctionPath = $_.FullName\n    $targetPath = (Get-ItemProperty -Path $junctionPath -Name "Target").Value\n    Remove-Item -Path $junctionPath -Force\n    New-Item -Path $junctionPath -ItemType Junction -Target $targetPath\n}

@@ -1,0 +1,1 @@
+CREATE PROCEDURE [dbo].[GetData]\n    @ServerName sysname\nAS\nBEGIN\n    DECLARE @sql nvarchar(max)\n    SET @sql = N'SELECT * FROM OPENQUERY([' + @ServerName + '], ''SELECT * FROM ClientDataBase.dbo.Client'')'\n    EXEC sp_executesql @sql\nEND

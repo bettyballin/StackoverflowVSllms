@@ -1,1 +1,0 @@
-IUnknown* pInterface; // the interface pointer you want to pass\nDWORD dwCookie;\nhr = pGIT->RegisterInterfaceInGlobal(pInterface, IID_IUnknown, &dwCookie);\nif (FAILED(hr)) { /* handle error */ }

@@ -1,1 +1,0 @@
-export CC="gcc -I/usr/local/mysql/include/mysql"

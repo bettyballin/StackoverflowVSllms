@@ -1,1 +1,0 @@
-$ ./configure --prefix=/usr/local/pspsdk\n$ make\n$ make install

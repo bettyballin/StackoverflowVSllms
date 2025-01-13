@@ -1,1 +1,0 @@
-$ eta script.hs

@@ -1,0 +1,1 @@
+$("#girc-content").append($("#nav-home").load("home.html"));

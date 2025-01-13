@@ -1,0 +1,1 @@
+$ch = curl_init('http://www.google.com');\ncurl_setopt($ch, CURLOPT_RETURNTRANSFER, true);\n$output = curl_exec($ch);\ncurl_close($ch);\necho $output;

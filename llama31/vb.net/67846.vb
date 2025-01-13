@@ -1,0 +1,1 @@
+= "This is text" & Chr(13) & Chr(10) & "This is another text"

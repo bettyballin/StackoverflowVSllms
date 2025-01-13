@@ -1,0 +1,1 @@
+require 'docx'\n\n# Create a new Word document\ndoc = Docx::Document.new\n\n# Add a paragraph to the document\nparagraph = doc.add_paragraph\nparagraph << 'This is a sample paragraph.'\n\n# Add a heading to the document\nheading = doc.add_heading\nheading << 'This is a sample heading.'\n\n# Save the document to a file\ndoc.save('example.docx')

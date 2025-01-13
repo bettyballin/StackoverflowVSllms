@@ -1,1 +1,0 @@
-protected void Page_Load(object sender, EventArgs e)\n{\n    if (Request.QueryString["QS"] != null)\n    {\n        // Remove the query string parameter\n        string action = Request.Url.AbsolutePath;\n        Page.Form.Action = action;\n    }\n}

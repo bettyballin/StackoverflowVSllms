@@ -1,0 +1,1 @@
+$path = '/path/to/';\n$file_name = 'example.txt';\n\nif (is_file($path . $file_name)) {\n    echo "File exists and is a regular file.";\n} else {\n    echo "File does not exist or is not a regular file.";\n}

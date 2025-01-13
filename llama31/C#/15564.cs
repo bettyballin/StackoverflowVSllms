@@ -1,1 +1,0 @@
-var wrapper = new ComWrapper();\ntry\n{\n    // Use the wrapper\n}\nfinally\n{\n    wrapper.Dispose();\n}

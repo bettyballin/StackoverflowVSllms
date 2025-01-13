@@ -1,0 +1,1 @@
+header('Content-Type: application/json');\nheader('Cache-Control: no-cache, must-revalidate');

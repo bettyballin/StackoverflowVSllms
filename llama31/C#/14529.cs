@@ -1,1 +1,0 @@
-var xml = XElement.Parse("<root><item><title><p>some title</p></title></item></root>");\n\nvar titles = xml.Descendants("title")\n    .Select(t => t.ToString());\n\nforeach (var title in titles)\n{\n    Console.WriteLine(title);\n}

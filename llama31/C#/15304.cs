@@ -1,1 +1,0 @@
-public ActionResult YourAction()\n{\n    var model = new YourModel();\n    return new CustomActionResult(model);\n}

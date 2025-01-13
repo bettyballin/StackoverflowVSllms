@@ -1,0 +1,1 @@
+import hashlib\nimport os\n\ndef hash_password(password):\n    salt = os.urandom(16)\n    iterations = 100000\n    hashed_password = hashlib.pbkdf2_hmac('sha256', password.encode('utf-8'), salt, iterations)\n    return salt + hashed_password\n\npassword = "mysecretpassword"\nhashed_password = hash_password(password)\nprint(hashed_password)

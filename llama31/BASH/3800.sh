@@ -1,1 +1,0 @@
-gcc -shared -fno-toplevel-reorder -o libexample.so example.c

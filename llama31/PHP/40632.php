@@ -1,0 +1,1 @@
+class MyClass {\n    private $data = array();\n\n    public function get($name) {\n        return $this->data[$name];\n    }\n\n    public function set($name, $value) {\n        $this->data[$name] = $value;\n    }\n}

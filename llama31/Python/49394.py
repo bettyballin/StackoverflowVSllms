@@ -1,0 +1,1 @@
+import itertools\n\nsomelists = [\n   [1, 2, 3],\n   ['a', 'b'],\n   [4, 5]\n]\n\nresult = list(itertools.product(*somelists))\n\nprint(result)

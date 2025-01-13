@@ -1,0 +1,1 @@
+onchange="changeCurrentWebsite(this.options[this.selectedIndex].textContent)"

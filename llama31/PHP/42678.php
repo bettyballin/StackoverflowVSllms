@@ -1,0 +1,1 @@
+$canMerge = ($condition1 && $condition2);

@@ -1,1 +1,0 @@
-#include <stdio.h>\n\nvoid myFunction() {\n    printf("Hello, World!\n");\n}\n\nint main() {\n    void (*funcPtr)() = myFunction;\n    funcPtr(); // calls myFunction()\n    return 0;\n}

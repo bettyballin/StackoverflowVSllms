@@ -1,1 +1,0 @@
-public class User\n{\n    public string Name { get; set; } // Non-nullable string\n    public DateTime BirthDate { get; set; } // Non-nullable DateTime\n}

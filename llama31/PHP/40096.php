@@ -1,0 +1,1 @@
+Array\n(\n    [123] => String key with curly braces\n)

@@ -1,0 +1,1 @@
+SELECT * FROM dba_synonyms WHERE synonym_name = 'YOUR_SYNONYM_NAME' AND owner = 'PUBLIC';

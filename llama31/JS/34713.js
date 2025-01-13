@@ -1,0 +1,1 @@
+$.ajax({\n  url: "/Main_Page #jq-p-Getting-Started li",\n  success: function(data) {\n    $("#links").html(data);\n    // Run success function here\n    console.log("Load successful!");\n  },\n  error: function(xhr, status, error) {\n    // Run error function here\n    console.log("Load failed!");\n  }\n});

@@ -1,1 +1,0 @@
-var user = _context.Users\n    .Include(u => u.GroupMember)\n    .ThenInclude(gm => gm.AnotherRelatedEntity)\n    .FirstOrDefault(u => u.Id == _userId);

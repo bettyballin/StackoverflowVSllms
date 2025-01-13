@@ -1,0 +1,1 @@
+var chatDiv = $('#chatDiv'); // replace with your div's ID\n\n// after appending new message to the div\nchatDiv.animate({ scrollTop: chatDiv.prop('scrollHeight') }, 1000);

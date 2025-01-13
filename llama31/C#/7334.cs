@@ -1,1 +1,0 @@
-public void MyMethod(string a, int b)\n{\n    ArgumentNullException.ThrowIfNull(a);\n    ArgumentNullException.ThrowIfNull(b); // Note: int cannot be null, so this check is unnecessary\n\n    // more stuff here\n}

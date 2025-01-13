@@ -1,0 +1,1 @@
+SELECT t2.fragment\nFROM table1 t1\nJOIN (\n  SELECT fragment, MAX(fragment) OVER (ORDER BY fragment) AS next_fragment\n  FROM table2\n  WHERE fragment LIKE 'g%'\n) t2 ON t1.string >= t2.fragment AND (t1.string < t2.next_fragment OR t2.next_fragment IS NULL)\nWHERE t1.string = 'gumby';

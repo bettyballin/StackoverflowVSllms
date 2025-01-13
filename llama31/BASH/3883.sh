@@ -1,1 +1,0 @@
-curl -s http://dev.example.com > dev.html\ncurl -s http://stage.example.com > stage.html\ndiff -u dev.html stage.html

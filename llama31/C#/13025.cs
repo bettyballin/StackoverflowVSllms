@@ -1,1 +1,0 @@
-using System.Diagnostics;\n\npublic static void ExecuteCommand(string command, string argument)\n{\n    using (var process = new Process())\n    {\n        process.StartInfo.FileName = command;\n        process.StartInfo.Arguments = argument;\n        process.Start();\n        process.WaitForExit();\n    }\n}

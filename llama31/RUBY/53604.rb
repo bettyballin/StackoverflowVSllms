@@ -1,0 +1,1 @@
+# MovieAttribute model\nclass MovieAttribute < ApplicationRecord\n  belongs_to :movie\n  validates :name, presence: true\nend

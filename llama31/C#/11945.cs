@@ -1,1 +1,0 @@
-public class User\n{\n    private string _username;\n\n    public string Username\n    {\n        get { return _username; }\n        set\n        {\n            if (string.IsNullOrEmpty(value))\n            {\n                throw new ArgumentException("Username cannot be empty");\n            }\n            _username = value;\n        }\n    }\n}

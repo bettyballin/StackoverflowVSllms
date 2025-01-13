@@ -1,0 +1,1 @@
+Location.where("EXISTS (\n  SELECT 1\n  FROM locations l2\n  WHERE l2.lat = locations.lat AND l2.lng = locations.lng\n  AND l2.id != locations.id\n  AND (l2.url IS NOT NULL OR l2.created_at < locations.created_at)\n)").destroy_all

@@ -1,0 +1,1 @@
+$var = "stackoverflow";\necho (strlen($var) > 1) ? "TRUE" : "FALSE";

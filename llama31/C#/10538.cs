@@ -1,1 +1,0 @@
-VATCombo.DefaultCellStyle.NullValue = "Default Value"

@@ -1,0 +1,1 @@
+// Generate a random CSRF token\nconst csrfToken = crypto.randomBytes(32).toString('hex');\n\n// Set the CSRF token in the session\nreq.session.csrfToken = csrfToken;\n\n// Include the CSRF token in the response\nres.locals.csrfToken = csrfToken;\n\n// Verify the CSRF token on subsequent requests\nif (req.body.csrfToken !== req.session.csrfToken) {\n    // Handle the error\n}

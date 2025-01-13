@@ -1,1 +1,0 @@
-var stdout = Console.OpenStandardOutput();\nvar stderr = Console.OpenStandardError();\n\nif (stdout.CanSeek)\n{\n    // Console.Out is being redirected\n}\nif (stderr.CanSeek)\n{\n    // Console.Error is being redirected\n}

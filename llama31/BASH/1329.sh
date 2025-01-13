@@ -1,1 +1,0 @@
-convert input.jpg -bordercolor white -border 5x5 output.jpg

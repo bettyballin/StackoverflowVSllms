@@ -1,1 +1,0 @@
-#include <stdio.h>\n#include <string.h>\n\nvoid secureCopy(char *dst, const char *src, size_t len) {\n    if (len > 0) {\n        strncpy(dst, src, len);\n        dst[len - 1] = '\0';\n    }\n}\n\nint main() {\n    char buffer[10];\n    secureCopy(buffer, "Hello", sizeof(buffer));\n    printf("%s\n", buffer);\n    return 0;\n}

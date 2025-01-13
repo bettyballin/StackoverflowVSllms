@@ -1,0 +1,1 @@
+# Example LogParser query for IIS logs\nSELECT * FROM 'C:\inetpub\logs\LogFiles\W3SVC1\*.log'\nWHERE cs-uri-stem LIKE '/path/to/resource'

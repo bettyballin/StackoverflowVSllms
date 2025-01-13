@@ -1,1 +1,0 @@
-// Create a strong name key pair\nsn -k MyStrongNameKey.snk\n\n// Sign your assembly\nAssemblyKeyFileAttribute("MyStrongNameKey.snk")

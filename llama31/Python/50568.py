@@ -1,0 +1,1 @@
+from cryptography.hazmat.primitives import SecretBytes\n\npassword = SecretBytes(b'mysecretpassword')\n\n# Use the password as needed\n# ...\n\n# When done, clear the password\npassword._material[:] = b'\0' * len(password._material)

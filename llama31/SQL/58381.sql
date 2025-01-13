@@ -1,0 +1,1 @@
+WITH RankedDetailRecords AS (\n  SELECT MasterRecord, DetailRecord,\n         ROW_NUMBER() OVER (PARTITION BY MasterRecord ORDER BY DetailRecord) AS RowNum\n  FROM MasterDetailTable\n)\nSELECT MasterRecord, DetailRecord\nFROM RankedDetailRecords\nWHERE RowNum <= 2;

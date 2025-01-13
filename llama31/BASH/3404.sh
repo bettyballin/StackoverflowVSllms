@@ -1,1 +1,0 @@
-gcc -c -o opcodes.o opcodes.c

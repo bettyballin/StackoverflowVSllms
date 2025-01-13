@@ -1,0 +1,1 @@
+DELETE FROM Areas\nWHERE RegionID IN (\n  SELECT Region_ID\n  FROM Regions\n  WHERE Country_ID = @Country_ID\n);\n\nDELETE FROM Regions\nWHERE Country_ID = @Country_ID;\n\nDELETE FROM Country\nWHERE Country_ID = @Country_ID;

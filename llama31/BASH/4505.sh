@@ -1,1 +1,0 @@
-mysql -u [username] -p[password] [database_name] < dump_file.sql

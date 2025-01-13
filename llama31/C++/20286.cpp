@@ -1,1 +1,0 @@
-#include <fstream>\n#include <sstream>\n#include <string>\n\nstd::string readFile(const std::string& filename) {\n    std::ifstream file(filename);\n    std::stringstream buffer;\n    buffer << file.rdbuf();\n    return buffer.str();\n}

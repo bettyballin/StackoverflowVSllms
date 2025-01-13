@@ -1,0 +1,1 @@
+import numpy as np\n\n# User X's ratings\nx_ratings = np.array([9, 0, 0, 1, 0, 0, 1, 0, 5])\n\n# User Y's ratings\ny_ratings = np.array([0, 0, 4, 6, 0, 0, 0, 1, 8])\n\n# User Z's ratings\nz_ratings = np.array([9, 0, 6, 4, 0, 0, 0, 0, 7])

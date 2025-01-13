@@ -1,0 +1,1 @@
+document.getElementById('foo').addEventListener('input', function() {\n  console.log(this.value); // logs the current value of the input\n});

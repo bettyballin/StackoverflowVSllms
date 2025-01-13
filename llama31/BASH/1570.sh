@@ -1,1 +1,0 @@
-sudo vmware-config.pl

@@ -1,1 +1,0 @@
-#include <thread>\n#include <unistd.h>\n#include <sys/types.h>\n\n// Get thread identifier\nstd::thread::id getThreadId() {\n    return std::this_thread::get_id();\n}\n\n// Get process identifier\npid_t getProcessId() {\n    return getpid();\n}

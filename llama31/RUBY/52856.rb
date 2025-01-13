@@ -1,0 +1,1 @@
+if !val || val.zero?\n  # Is nil or zero\nend

@@ -1,0 +1,1 @@
+$dsn = 'pgsql:host=localhost;dbname=mydatabase';\n$username = 'myuser';\n$password = 'mypassword';\n\n$pdo = new PDO($dsn, $username, $password);\n\n// Perform queries using PDO's API\n$stmt = $pdo->prepare('SELECT * FROM mytable');\n$stmt->execute();\n$result = $stmt->fetchAll();

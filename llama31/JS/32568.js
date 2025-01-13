@@ -1,0 +1,1 @@
+$('#obal form').validate({\n    rules: {\n        name: 'required',\n        pass: 'required'\n    },\n    messages: {\n        name: 'Please enter your name',\n        pass: 'Please enter your password'\n    }\n});

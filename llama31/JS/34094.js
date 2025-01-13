@@ -1,0 +1,1 @@
+var xml = '<your_xml_data_here>';\nvar url = 'https://example.com/your_endpoint.php';\n\nvar xhr = new XMLHttpRequest();\nxhr.open('POST', url, true);\nxhr.setRequestHeader('Content-Type', 'application/xml');\nxhr.onload = function() {\n  if (xhr.status === 200) {\n    var responseXml = xhr.responseXML;\n    console.log(responseXml);\n  }\n};\nxhr.send(xml);

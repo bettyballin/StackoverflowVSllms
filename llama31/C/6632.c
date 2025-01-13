@@ -1,1 +1,0 @@
-RedrawWindow(parentHwnd, NULL, NULL, RDW_INVALIDATE | RDW_NOCHILDREN);

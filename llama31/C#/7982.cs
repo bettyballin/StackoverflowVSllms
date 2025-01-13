@@ -1,1 +1,0 @@
-// Set auto size rows\nradGridView1.AutoSizeRows = true;

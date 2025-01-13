@@ -1,1 +1,0 @@
-private void dataGridView1_CellPainting(object sender, DataGridViewCellPaintingEventArgs e)\n{\n    if (e.RowIndex >= 0 && e.ColumnIndex >= 0)\n    {\n        if (dataGridView1.CurrentCell == dataGridView1.Rows[e.RowIndex].Cells[e.ColumnIndex])\n        {\n            e.CellStyle.BackColor = Color.LightBlue; // set the back color for the current cell\n        }\n    }\n}

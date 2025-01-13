@@ -1,1 +1,0 @@
-#include <cppspec/cppspec.h>\n\ndescribe(MyClass) {\n  it("should do something") {\n    // Your test code here\n  }\n};

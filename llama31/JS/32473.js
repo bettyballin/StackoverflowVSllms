@@ -1,0 +1,1 @@
+// Get the current page URL\nconst currentPage = window.location.pathname;\n\n// Get all navigation links\nconst navLinks = document.querySelectorAll('.nav-link');\n\n// Loop through links and add active class if it matches the current page\nnavLinks.forEach((link) => {\n  if (link.getAttribute('data-page') === currentPage) {\n    link.classList.add('active');\n  }\n});

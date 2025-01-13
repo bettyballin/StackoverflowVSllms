@@ -1,0 +1,1 @@
+from collections import Counter\n\ndef filter_single_occurrences(lst):\n    counts = Counter(lst)\n    return [x for x in lst if counts[x] == 1]\n\nnumbers = [0, 1, 1, 2, 2]\nprint(filter_single_occurrences(numbers))  # Output: [0]

@@ -1,0 +1,1 @@
+// Get all options from the ListBox1\nvar options = $('#ListBox1 option');\n\n// Create a hidden input field for each option\noptions.each(function() {\n    var value = $(this).val();\n    var text = $(this).text();\n    $('#form').append('<input type="hidden" name="ListBox1_All" value="' + value + '" />');\n});

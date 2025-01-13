@@ -1,1 +1,0 @@
-setfacl -d -m u::rwx,g::rwx,o::r /path/to/shared/directory

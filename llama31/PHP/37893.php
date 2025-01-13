@@ -1,0 +1,1 @@
+// Using mysql_fetch_assoc()\n$result = mysql_query("SELECT * FROM users");\nwhile ($row = mysql_fetch_assoc($result)) {\n    echo $row['username'] . "\n";\n}\n\n// Using mysql_fetch_object()\n$result = mysql_query("SELECT * FROM users");\nwhile ($row = mysql_fetch_object($result)) {\n    echo $row->username . "\n";\n}

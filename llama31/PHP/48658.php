@@ -1,0 +1,1 @@
+use Symfony\Component\Routing\RouterInterface;\n\nclass MyController extends Controller\n{\n    public function myAction(RouterInterface $router)\n    {\n        $url = $router->generate('my_route_name', ['param1' => 'value1', 'param2' => 'value2']);\n        // $url will be a friendly URL like /my-route/value1/value2\n    }\n}

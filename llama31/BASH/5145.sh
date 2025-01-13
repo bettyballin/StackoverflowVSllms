@@ -1,1 +1,0 @@
-forfiles /p "C:\SourceDir" /d -3 /c "cmd /c copy @file C:\DestDir"

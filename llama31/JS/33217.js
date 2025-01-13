@@ -1,0 +1,1 @@
+$('#myForm').ajaxForm({\n  url: '/your/url',\n  type: 'post',\n  ajaxOptions: {\n    error: function(xhr, status, error) {\n      // your error handling code here\n    }\n  }\n});

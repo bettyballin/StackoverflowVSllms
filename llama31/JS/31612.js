@@ -1,0 +1,1 @@
+// assume you have a JSON object called 'data'\nvar data = {\n  "name": "John Doe",\n  "age": 30,\n  " occupation": "Software Engineer"\n};\n\n// define a Handlebars template\nvar template = Handlebars.compile($("#template").html());\n\n// bind the data to the template\nvar html = template(data);\n\n// append the rendered template to the page\n$("#output").append(html);

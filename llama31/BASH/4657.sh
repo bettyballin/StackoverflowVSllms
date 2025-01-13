@@ -1,1 +1,0 @@
-javap -v MyClass.class

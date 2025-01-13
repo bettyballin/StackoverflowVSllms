@@ -1,1 +1,0 @@
-#pragma GCC push_options\n#pragma GCC optimize ("O0") // disable optimizations\n\n// your sensitive code here\n\n#pragma GCC pop_options

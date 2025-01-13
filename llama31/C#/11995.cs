@@ -1,1 +1,0 @@
-[Column(UpdateCheck = UpdateCheck.Always)]\npublic string Property1 { get; set; }

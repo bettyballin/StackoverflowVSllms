@@ -1,1 +1,0 @@
-[root@machine plugins]# echo $JAVA_HOME

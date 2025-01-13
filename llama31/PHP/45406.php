@@ -1,0 +1,1 @@
+function my_function() {\n    $backtrace = debug_backtrace();\n    print_r($backtrace);\n}\n\nmy_function();

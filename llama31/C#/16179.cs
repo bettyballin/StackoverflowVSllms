@@ -1,1 +1,0 @@
-() => Console.WriteLine("Hello World!")\n() => 42\n() => new MyClass()

@@ -1,1 +1,0 @@
-./configure --target=i386-linux-gnu --with-crti=/path/to/glibc-VERSION/csu/crti.o --with-crtn=/path/to/glibc-VERSION/csu/crtn.o

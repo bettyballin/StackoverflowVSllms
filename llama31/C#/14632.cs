@@ -1,1 +1,0 @@
-// Original code\npublic class MyClass {\n    public string MyMethod() {\n        return "Hello, World!";\n    }\n}\n\n// Obfuscated code (using a simple substitution cipher)\npublic class Œ‰€ {\n    public string ƒŸæ() {\n        return "Í€‰Ž€!";\n    }\n}

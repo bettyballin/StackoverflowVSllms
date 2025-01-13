@@ -1,0 +1,1 @@
+class YourController < ApplicationController\n  def load_content\n    # Retrieve content from database or other sources\n    content = YourModel.find(params[:id])\n\n    # Render a partial with the content\n    render partial: 'content', locals: { content: content }\n  end\nend

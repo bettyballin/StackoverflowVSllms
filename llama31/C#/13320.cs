@@ -1,1 +1,0 @@
-public class WikiRouteConstraint : IRouteConstraint\n{\n    public bool Match(HttpContextBase httpContext, Route route, string parameterName, RouteValueDictionary values, RouteDirection routeDirection)\n    {\n        var path = httpContext.Request.Url.AbsolutePath;\n        return path.EndsWith("/wiki", StringComparison.OrdinalIgnoreCase);\n    }\n}

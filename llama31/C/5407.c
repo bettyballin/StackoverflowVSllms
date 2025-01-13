@@ -1,1 +1,0 @@
-int a = 5;\nint b = 6;\nint sum = a + b;\nint square_sum = sum * sum;

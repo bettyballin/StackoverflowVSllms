@@ -1,0 +1,1 @@
+Sub PasteText()\n    Dim objWebPage As WebPage\n    Set objWebPage = ActiveWebPage\n    \n    objWebPage.Document.body.innerHTML = "Your text here"\nEnd Sub

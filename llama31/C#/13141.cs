@@ -1,1 +1,0 @@
-httpWebRequest.Timeout = 300000; // 5 minutes

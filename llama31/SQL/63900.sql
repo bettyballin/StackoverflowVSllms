@@ -1,0 +1,1 @@
+SELECT *\nFROM LogEntries\nWHERE LogDate >= DATEADD(day, -30, GETDATE());

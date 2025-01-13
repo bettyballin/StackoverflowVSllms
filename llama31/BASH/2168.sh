@@ -1,1 +1,0 @@
-paste -d '' - - - - < input.txt > output.txt

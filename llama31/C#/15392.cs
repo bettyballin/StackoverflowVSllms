@@ -1,1 +1,0 @@
-var callback = OperationContext.Current.GetCallbackChannel<ICallbackContract>();\ncallback.UpdateValue("New value from server");

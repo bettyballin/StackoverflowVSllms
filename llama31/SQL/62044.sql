@@ -1,0 +1,1 @@
+SET @year = 2009;\n\nSELECT \n  country,\n  PIVOT(\n    COUNT(*),\n    FOR MONTH(`when`) IN (1, 2, 3, ..., 12)\n  ) AS pivot_table\nFROM \n  metrics\nWHERE \n  projID = 'projID' \n  AND country != 'XX' \n  AND YEAR(`when`) = @year\nGROUP BY \n  country

@@ -1,0 +1,1 @@
+SELECT *, ROW_NUMBER() OVER (ORDER BY OrderDate DESC) AS RowNumber\nFROM Orders

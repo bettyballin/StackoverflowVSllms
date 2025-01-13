@@ -1,0 +1,1 @@
+const data = new Uint8Array([1, 2, 3, 4, 5]);\nconst hash = crypto.createHash('SHA-256');\nhash.update(data);\nconst digest = hash.digest();\nconsole.log(digest);

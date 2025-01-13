@@ -1,0 +1,1 @@
+$formatted_date = date('Y-m-d H:i:s', strtotime($row['date_added']));\necho $formatted_date;

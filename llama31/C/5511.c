@@ -1,1 +1,0 @@
-#define BSWAP_LOWER_32(T) { \\n    __asm__ __volatile__ ( \\n            "movl %k0, %%eax;" \\n            "bswap %%eax;" \\n            "movl %%eax, %k0;" \\n            : "=q" (T) \\n            : "q" (T) \\n            : "eax"); \\n}

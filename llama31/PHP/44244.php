@@ -1,0 +1,1 @@
+$db = new mysqli('localhost', 'username', 'password', 'database');\n$query = "SELECT word FROM captcha_words ORDER BY RAND() LIMIT 1";\n$result = $db->query($query);\n$randomWord = $result->fetch_assoc()['word'];

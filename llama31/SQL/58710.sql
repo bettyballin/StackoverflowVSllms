@@ -1,0 +1,1 @@
+CREATE TABLE transactions (\n  id INT PRIMARY KEY,\n  amount DECIMAL(10, 2) NOT NULL,\n  -- other columns...\n);

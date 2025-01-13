@@ -1,1 +1,0 @@
-var binding = new WebHttpBinding();\nbinding.MaxReceivedMessageSize = int.MaxValue;\nhost.AddServiceEndpoint("Uploader.IUploaderService", binding, "").Behaviors.Add(new WebHttpBehavior());

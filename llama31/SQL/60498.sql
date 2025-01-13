@@ -1,0 +1,1 @@
+UPDATE foo\nSET flag = true\nWHERE id IN (?, ?, ?, ...);  -- The number of ? should match the count of your IDs

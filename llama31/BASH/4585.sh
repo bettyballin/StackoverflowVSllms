@@ -1,1 +1,0 @@
-sed -e "1,$(($(wc -l < file.txt) - 1)) s/a/b/" file.txt

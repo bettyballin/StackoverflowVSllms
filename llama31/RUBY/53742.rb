@@ -1,0 +1,1 @@
+<%= form_tag do %>\n  <%= hidden_field_tag :authenticity_token, form_authenticity_token %>\n  <!-- form fields here -->\n<% end %>

@@ -1,0 +1,1 @@
+'scriptData': {'album':"1", "session":"<?php echo session_id(); ?>"},

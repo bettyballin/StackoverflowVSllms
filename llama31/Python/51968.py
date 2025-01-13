@@ -1,0 +1,1 @@
+import importlib.util\n\ndef load_module(module_name):\n    spec = importlib.util.spec_from_file_location(module_name, f"modules/{module_name}.py")\n    module = importlib.util.module_from_spec(spec)\n    spec.loader.exec_module(module)\n    return module

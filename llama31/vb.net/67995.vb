@@ -1,0 +1,1 @@
+Imports System.Web\n\nPublic Class Page2\n    Inherits System.Web.UI.Page\n\n    Protected Sub Page_Load(sender As Object, e As EventArgs)\n        Dim variable1 As String = Request.Form("Variable1")\n        Dim variable2 As String = Request.Form("Variable2")\n\n        ' Use the variables as needed\n    End Sub\nEnd Class

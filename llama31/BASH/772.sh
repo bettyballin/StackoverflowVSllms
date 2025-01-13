@@ -1,1 +1,0 @@
-regasm "C:\Path\To\Inventor.tlb" /codebase

@@ -1,1 +1,0 @@
-// Enable debug logging\n#define DEBUG_LOGGING\n\n// Log specific events or variables\nlog_event("Event X occurred");\nlog_variable("Variable Y has value:", y);

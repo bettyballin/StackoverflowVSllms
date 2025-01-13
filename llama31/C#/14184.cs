@@ -1,1 +1,0 @@
-class Program\n{\n    static void Main(string[] args)\n    {\n        List<int> c = new List<int>() { 1, 2, 3 };\n        List<int> a = new List<int>() { 5, 3, 2, 4 };\n        IEnumerable<int> common = c.Intersect(a);\n        Console.Write(common.Count().ToString());\n    }\n}

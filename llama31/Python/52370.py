@@ -1,0 +1,1 @@
+import nltk\nfrom nltk.stem import PorterStemmer\n\n# Initialize the stemmer\nstemmer = PorterStemmer()\n\n# Stem some words\nwords = ["parse", "parser", "parsing"]\nstemmed_words = [stemmer.stem(word) for word in words]\n\nprint(stemmed_words)  # Output: ["pars", "pars", "pars"]

@@ -1,0 +1,1 @@
+$items = glob($dir . '/*');\nif ($items === false) die("glob returned failure");\nprint_r($items);

@@ -1,0 +1,1 @@
+Dim testId As Integer = 123\nDim url As String = $"~/Net/TestPage.aspx?TestID={testId}"\nResponse.Redirect(url)

@@ -1,1 +1,0 @@
-stap -e 'probe kernel.function("sys_execve") { println("execve called") }' -c ./your_program

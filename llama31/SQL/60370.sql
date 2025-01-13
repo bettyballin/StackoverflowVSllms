@@ -1,0 +1,1 @@
+SELECT * INTO #temp\nFROM OPENROWSET('MSDASQL', 'Driver={Microsoft Access Text Driver (*.txt, *.csv)};DefaultDir=C:\Path\To\Files\', 'SELECT * FROM Item_Table.txt')\n\nINSERT INTO item_table (Record_ID, Filename, Path, Width, Height)\nSELECT Record_ID, Filename, Path, Width, Height\nFROM #temp

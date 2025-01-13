@@ -1,1 +1,0 @@
-// Parameterized queries\nSqlCommand cmd = new SqlCommand("SELECT * FROM users WHERE name = @name", connection);\ncmd.Parameters.AddWithValue("@name", userInput);\n\n// Stored procedures with parameter validation\nSqlCommand cmd = new SqlCommand("my_stored_procedure", connection);\ncmd.CommandType = CommandType.StoredProcedure;\ncmd.Parameters.AddWithValue("@name", userInput);

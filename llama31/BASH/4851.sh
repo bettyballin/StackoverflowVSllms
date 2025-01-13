@@ -1,1 +1,0 @@
-sed -ri 's/<hr \/>(\n|\r|\t| )+<div id="sidebar">/<\/div><hr \/>\n<div id="sidebar">/g' file.txt

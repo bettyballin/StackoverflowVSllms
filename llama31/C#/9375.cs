@@ -1,1 +1,0 @@
-byte[] data = File.ReadAllBytes("embedsource.bin");\nClipboardHelper.ReloadEmbedSource(data);

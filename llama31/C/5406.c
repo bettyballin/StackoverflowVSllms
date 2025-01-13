@@ -1,1 +1,0 @@
-int array[] = { 1, 2, 3, 4, 5, -1 }; // -1 is the sentinel value\n\nvoid myFunction(int array[]) {\n    for (int i = 0; array[i] != -1; i++) {\n        // process array[i]\n    }\n}

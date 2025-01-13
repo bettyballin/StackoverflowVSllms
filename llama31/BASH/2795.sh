@@ -1,1 +1,0 @@
-wget -r -l 0 -A ".htm,.html" ftp://ftp.myserver.com/public_html/ -P ./local_folder

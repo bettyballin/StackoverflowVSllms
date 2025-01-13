@@ -1,1 +1,0 @@
-private void MyControl_Click(object sender, EventArgs e)\n{\n    if (e is KeyEventArgs)\n    {\n        // Click event was fired by the keyboard\n    }\n    else\n    {\n        // Click event was fired by the mouse\n    }\n}

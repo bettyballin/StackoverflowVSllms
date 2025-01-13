@@ -1,0 +1,1 @@
+Dim intArray(5) As Int32

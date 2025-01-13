@@ -1,1 +1,0 @@
-.myImage {\n  background-image: url('sprite.png');\n  background-position: 0 0;\n}\n\n.myImage:hover {\n  background-position: 0 -20px; /* adjust the position */\n}

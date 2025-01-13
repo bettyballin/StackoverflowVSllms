@@ -1,0 +1,1 @@
+session_id($_POST['session_id']);\nsession_start();

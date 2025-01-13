@@ -1,1 +1,0 @@
-// ASPX Page 1\nprotected void Page_Load(object sender, EventArgs e)\n{\n    MyHelper helper = new MyHelper();\n    helper.MyMethod();\n}\n\n// ASPX Page 2\nprotected void Page_Load(object sender, EventArgs e)\n{\n    MyHelper helper = new MyHelper();\n    helper.MyMethod();\n}

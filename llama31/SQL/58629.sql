@@ -1,0 +1,1 @@
+INSERT INTO ParentTable (UserID, Group, Name)\nSELECT DISTINCT \n  c.UserId, \n  c.Group, \n  CONCAT('User ', c.UserId, ' - ', c.Group, ' data') AS Name\nFROM \n  ChildTable c;\n\nINSERT INTO ChildTable (ParentID, Value)\nSELECT \n  p.ID, \n  c.Value\nFROM \n  ChildTable c\n  JOIN ParentTable p ON c.UserId = p.UserID AND c.Group = p.Group;

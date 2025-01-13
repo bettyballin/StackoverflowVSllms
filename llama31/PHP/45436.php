@@ -1,0 +1,1 @@
+$path = 'Mail.php';\n$pearDir = 'path/to/pear'; // replace with your PEAR directory\n\n$files = glob($pearDir . '/' . $path, GLOB_NOSORT);\nif ($files) {\n    require_once $files[0];\n} else {\n    // handle file not found error\n}

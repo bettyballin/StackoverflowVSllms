@@ -1,0 +1,1 @@
+update  btd.dbo.tblpayroll\nset     empname = ( \n    select  b.Legal_Name\n    from    ( \n        SELECT    Legal_Name,\n                  Employee_ID\n        FROM      Com.dbo.Workers\n        WHERE     Employee_ID NOT LIKE '%[^0-9]%'\n    ) b\n    where   b.Employee_ID = empnum\n            and b.Legal_name is not NULL\n)\nwhere   empname is NULL

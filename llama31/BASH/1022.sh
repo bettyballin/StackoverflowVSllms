@@ -1,1 +1,0 @@
-chattr +i /etc/svn-access-file

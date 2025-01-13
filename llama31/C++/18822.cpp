@@ -1,1 +1,0 @@
-std::sort(unsortedFiles.begin(), unsortedFiles.end(), [](const CFileInfo& a, const CFileInfo& b) {\n    return a.m_FileDateTime < b.m_FileDateTime;\n});

@@ -1,0 +1,1 @@
+def my_method(param1, param2, param3):\n    # method body

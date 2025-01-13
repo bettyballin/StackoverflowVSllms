@@ -1,1 +1,0 @@
-// MyCSharpClass.cs\n[DllImport("mydll.dll", CallingConvention = CallingConvention.Cdecl)]\nstatic extern int addInt(int a, int b);\n\npublic static void Main()\n{\n    int result = addInt(2, 3);\n    Console.WriteLine(result); // prints 5\n}

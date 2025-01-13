@@ -1,1 +1,0 @@
-.section .init\n    .global _start\n_start:\n    # Initialize runtime environment\n    call    __libc_init_first\n    call    main\n    # Call atexit handlers and flush I/O buffers\n    call    __libc_fini\n    # Terminate program\n    call    _exit

@@ -1,0 +1,1 @@
+$string = 'your input string here...';\n\n$pattern = '/John Doe(?![^<]*\/>|[^<]*>)/i';\n\n$replacement = ' replacement string here...';\n\necho preg_replace($pattern, $replacement, $string);

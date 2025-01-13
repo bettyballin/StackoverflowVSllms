@@ -1,0 +1,1 @@
+SELECT ...\nFROM main ...\n...\nLEFT JOIN a ON (main.col2 = a.col2)\nLEFT JOIN b ON (a.col3 = b.col3)\nWHERE b.col3 IS NOT NULL

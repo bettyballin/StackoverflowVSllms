@@ -1,0 +1,1 @@
+$perl_script = '/path/to/perl/script.pl';\n$output = array();\nexec('perl ' . $perl_script, $output);\necho implode("\n", $output);

@@ -1,0 +1,1 @@
+SELECT t.due_date\nFROM thread t\nWHERE t.user_id = '5' OR t.prod_id IN (\n  SELECT id\n  FROM product\n  WHERE user_id = '5'\n);

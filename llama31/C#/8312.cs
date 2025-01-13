@@ -1,1 +1,0 @@
-long memoryBefore = GC.GetTotalMemory(true);\nMyObject obj = new MyObject();\nlong memoryAfter = GC.GetTotalMemory(true);\nlong objectSize = memoryAfter - memoryBefore;

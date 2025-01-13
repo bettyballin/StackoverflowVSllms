@@ -1,0 +1,1 @@
+$.ajax({\n  type: "GET",\n  url: "http://www.externallink.co.uk/GoalAccessed.aspx?id=" + GoalID,\n  dataType: "jsonp"\n});

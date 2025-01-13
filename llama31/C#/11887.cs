@@ -1,1 +1,0 @@
-using iTextSharp.text.pdf;\n\n// Open the PDF file\nusing (PdfReader pdfReader = new PdfReader("example.pdf")) {\n    // Extract the text from the PDF\n    string text = PdfTextExtractor.GetTextFromPage(pdfReader, 1);\n}

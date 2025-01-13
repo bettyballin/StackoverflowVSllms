@@ -1,0 +1,1 @@
+DECLARE @Date DATE = '2022-02-15'\n\nSELECT DAY(EOMONTH(@Date)) AS DaysInMonth

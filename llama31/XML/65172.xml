@@ -1,0 +1,1 @@
+<siteMap xmlns="http://schemas.microsoft.com/AspNet/SiteMap-File-1.0">\n  <siteMapNode url="~/Default.aspx" title="Home" roles="YourDomain\\YourRole">\n    <siteMapNode url="~/Admin.aspx" title="Admin" roles="YourDomain\\YourAdminRole" />\n    <siteMapNode url="~/User.aspx" title="User" roles="YourDomain\\YourUserRole" />\n  </siteMapNode>\n</siteMap>

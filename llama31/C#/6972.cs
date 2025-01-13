@@ -1,1 +1,0 @@
-byte[] output = cruptoEngine.Encrypt(byteConverter.GetBytes(input), true);

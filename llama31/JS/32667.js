@@ -1,0 +1,1 @@
+window.onload = function() {\n  if (confirm("Do you want to print this page?")) {\n    window.print();\n  }\n}

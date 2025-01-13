@@ -1,0 +1,1 @@
+console.log("20" == 20); // outputs true\nconsole.log("20" === 20); // outputs false

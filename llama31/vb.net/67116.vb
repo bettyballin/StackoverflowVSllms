@@ -1,0 +1,1 @@
+Dim output = <Books>\n    <%= From book In Books _\n    Select _\n    <Book Name:=book/> %>\n</Books>

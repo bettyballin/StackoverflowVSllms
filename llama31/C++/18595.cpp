@@ -1,1 +1,0 @@
-public ref class MyVCPPClass\n{\npublic:\n    __declspec(dllexport) static void MyVCPPMethod()\n    {\n        // Method implementation\n    }\n};

@@ -1,0 +1,1 @@
+SELECT *\nFROM Employees\nWHERE DATEPART(month, Birthday) = DATEPART(month, DATEADD(day, @NumDays, @Today))\nAND DATEPART(day, Birthday) BETWEEN DATEPART(day, @Today) AND DATEPART(day, DATEADD(day, @NumDays, @Today))

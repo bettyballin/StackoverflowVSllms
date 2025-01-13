@@ -1,0 +1,1 @@
+$url = 'https://example.com/rewritten-url';\n$docRoot = $_SERVER['DOCUMENT_ROOT'];\n$uriPath = parse_url($url, PHP_URL_PATH);\n\n$filePath = $docRoot . $uriPath;\n\nif (file_exists($filePath)) {\n    $fileContents = file_get_contents($filePath);\n    // Process the file contents as needed\n} else {\n    // Handle the case where the file does not exist\n}

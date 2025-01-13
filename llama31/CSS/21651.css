@@ -1,1 +1,0 @@
-.box {\n    width: 800px;\n    margin: 0 auto;\n    margin-top: 40px;\n    padding: 10px;\n    border: 3px solid #A5927C;\n\n    background-color: #3D2216;\n    background-image: url(Contents/img/icon_neutral.png);\n    background-repeat: no-repeat;\n    background-position: 10px -20px;\n    background-origin: border-box; /* Add this line */\n}

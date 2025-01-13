@@ -1,0 +1,1 @@
+const userHtml = '<div>...</div>'; // user-generated HTML\nconst shadowHost = document.createElement('div');\nconst shadowRoot = shadowHost.attachShadow({ mode: 'open' });\nshadowRoot.innerHTML = userHtml;

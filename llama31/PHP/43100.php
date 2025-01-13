@@ -1,0 +1,1 @@
+// test.php\nconst CONFIG_KEY_SECURITY = "test";

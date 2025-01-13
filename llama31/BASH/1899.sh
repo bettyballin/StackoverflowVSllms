@@ -1,1 +1,0 @@
-CFLAGS = -O\n\n.cc.o:\n    gcc $(CFLAGS) -c $<\n\nO = lookupa.o recycle.o perfhex.o perfect.o\n\nconst64 : $(O)\n    gcc -o perfect $(O) -lm\n\n# DEPENDENCIES\n\nlookupa.o : lookupa.c standard.h lookupa.h\n\nrecycle.o : recycle.c standard.h recycle.h\n\nperfhex.o : perfhex.c standard.h lookupa.h recycle.h perfect.h\n\nperfect.o : perfect.c standard.h lookupa.h recycle.h perfect.h

@@ -1,1 +1,0 @@
-// Export the form fields to an XML file\nusing (FileStream xmlStream = new FileStream("path/to/your/export.xml", FileMode.Create))\n{\n    formFields.Export(xmlStream, "fields");\n}

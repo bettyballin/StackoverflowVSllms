@@ -1,0 +1,1 @@
+CREATE TABLE books (\n  id INT PRIMARY KEY,\n  title VARCHAR(255),\n  client_id INT,\n  project_stage VARCHAR(50),\n  estimated_completion_date DATE\n);\n\nCREATE TABLE clients (\n  id INT PRIMARY KEY,\n  company_name VARCHAR(255),\n  email VARCHAR(255)\n);\n\nCREATE TABLE users (\n  id INT PRIMARY KEY,\n  username VARCHAR(255),\n  password VARCHAR(255),\n  client_id INT\n);

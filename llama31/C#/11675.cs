@@ -1,1 +1,0 @@
-using HtmlSanitizer;\n\n// assume 'comment' is the user-input comment string\nvar sanitizer = new HtmlSanitizer();\nvar sanitizedComment = sanitizer.Sanitize(comment);\n\n// now 'sanitizedComment' is safe to render

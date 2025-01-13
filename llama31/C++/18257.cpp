@@ -1,1 +1,0 @@
-void orTogether(std::vector<bool>& v1, const std::vector<bool>& v2) {\n    std::transform(v1.begin(), v1.end(), v2.begin(), v1.begin(),\n        [](bool a, bool b) { return a || b; });\n}

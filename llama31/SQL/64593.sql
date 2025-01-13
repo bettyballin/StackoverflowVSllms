@@ -1,0 +1,1 @@
+select *, \n       case when u.email=(select email from companies where Id=1) then 1 else 2 end AS SortMeFirst \nfrom Users u \nwhere u.companyId=1 \norder by SortMeFirst

@@ -1,1 +1,0 @@
-private static bool IsValidString(string input)\n{\n    string[] allowedValues = { "Value1", "Value2", "Value3" };\n    return allowedValues.Contains(input);\n}\n\n// Usage:\nstring userInput = Console.ReadLine();\nif (!IsValidString(userInput))\n{\n    Console.WriteLine("Invalid input. Please try again.");\n    // Handle invalid input\n}

@@ -1,1 +1,0 @@
-[DataContract]\npublic class MyContract\n{\n    [DataMember]\n    public IDictionary<string, string> MyDictionary { get; set; }\n}

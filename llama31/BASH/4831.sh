@@ -1,1 +1,0 @@
-set "str=your complex string with quotes"\n\ncall :stripquotes str\necho %str%\n\n:stripquotes\nset "%~1=%~1:"=%"\ngoto :eof

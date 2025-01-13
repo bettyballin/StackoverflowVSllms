@@ -1,1 +1,0 @@
-sqlcmd -S <server_name> -d <database_name> -Q "SELECT * FROM sys.sql_modules" -o script.sql

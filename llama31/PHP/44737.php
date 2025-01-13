@@ -1,0 +1,1 @@
+$array = array('first', 'second', 'third');\n$popped = array_slice($array, 0, 1);\n$array = array_slice($array, 1);\nprint($popped[0]); // prints 'first'\nprint_r($array); // prints Array ( [0] => second [1] => third )

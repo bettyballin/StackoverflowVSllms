@@ -1,0 +1,1 @@
+Array\n(\n    [0] => Foo\n    [1] => Bar\n    [2] => Foobar\n)

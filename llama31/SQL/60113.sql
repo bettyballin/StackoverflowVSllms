@@ -1,0 +1,1 @@
+SELECT id\nFROM items\nWHERE parent_id NOT IN (SELECT id FROM items);

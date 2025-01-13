@@ -1,0 +1,1 @@
+$encodedValue = $_POST['encodedValue'];\n$decodedValue = decodeValue($encodedValue);\nprint_r($decodedValue);

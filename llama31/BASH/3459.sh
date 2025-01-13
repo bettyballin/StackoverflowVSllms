@@ -1,1 +1,0 @@
-#!/bin/bash\n\n# Get the dimensions of the JPEG file\ndimensions=$(identify -format "%w %h" image.jpg)\n\n# Convert the JPEG file to EPS\nconvert image.jpg -resize $dimensions image.eps

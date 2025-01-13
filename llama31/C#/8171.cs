@@ -1,1 +1,0 @@
-public class User : Control {\n    public event EventHandler LoggedIn;\n\n    protected void OnLoggedIn(EventArgs e) {\n        if(LoggedIn != null) {\n            LoggedIn(this, e);\n        }\n    }\n\n    public void Login() {\n        // TODO: Login code\n        OnLoggedIn(new EventArgs());\n    }\n}

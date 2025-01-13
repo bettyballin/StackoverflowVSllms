@@ -1,1 +1,0 @@
-public ActionResult Index()\n{\n    var model = new YourModelType { Tralala = "Hello" };\n    ViewData["LayoutModel"] = model;\n    return View();\n}

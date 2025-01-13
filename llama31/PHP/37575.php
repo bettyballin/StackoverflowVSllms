@@ -1,0 +1,1 @@
+use Vendor\ClassName\Helper;\n\nclass ClientCode {\n    public function example() {\n        $option = Helper::FIRST_OPTION;\n        $obj = new Helper($option, $var);\n    }\n}

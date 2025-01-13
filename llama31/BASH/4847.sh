@@ -1,1 +1,0 @@
-robocopy \\server1\static\ \\server2\static\ /MIR /XD

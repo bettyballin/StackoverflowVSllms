@@ -1,1 +1,0 @@
-pRend->cp = cpRT;\ncpRT->AddRef(); // increment reference count

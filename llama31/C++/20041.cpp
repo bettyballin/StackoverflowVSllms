@@ -1,1 +1,0 @@
-#include <Windows.h>\n\nDWORD getParentProcessId() {\n    HANDLE hProcess = GetCurrentProcess();\n    PROCESS_BASIC_INFORMATION pbi;\n    DWORD dwSize = sizeof(PROCESS_BASIC_INFORMATION);\n\n    if (!GetProcessInformation(hProcess, ProcessBasicInformation, &pbi, dwSize, &dwSize)) {\n        return 0;\n    }\n\n    return pbi.InheritedFromUniqueProcessId;\n}

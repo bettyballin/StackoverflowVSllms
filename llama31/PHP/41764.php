@@ -1,0 +1,1 @@
+// app/code/Local/Affiliate/Model/Session.php\nclass Local_Affiliate_Model_Session extends Mage_Core_Model_Session_Abstract\n{\n    public function saveAfId($afid)\n    {\n        $this->setData('afid', $afid);\n    }\n\n    public function getAfId()\n    {\n        return $this->getData('afid');\n    }\n}

@@ -1,0 +1,1 @@
+$stmt = $conn->prepare("\n    SELECT * \n    FROM comments \n    INNER JOIN users ON comments.poster = users.id \n    WHERE comments.content_id = ? AND comments.content = 'thread' \n    ORDER BY comments.date ASC\n");\n$stmt->bind_param("i", $id);\n$stmt->execute();\n$result = $stmt->get_result();\n\nwhile ($comment = $result->fetch_assoc()) {\n    // process the comment\n}

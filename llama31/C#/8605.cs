@@ -1,1 +1,0 @@
-public partial class MyUserControl : UserControl\n{\n    public Label MyLabel { get { return label1; } }\n}

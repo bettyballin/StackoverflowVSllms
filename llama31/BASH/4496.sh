@@ -1,1 +1,0 @@
-gcc -pg your_code.c -o your_code\n./your_code\ngprof your_code gmon.out > gprof_output.txt

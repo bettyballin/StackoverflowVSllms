@@ -1,0 +1,1 @@
+mysql_query("REPLACE INTO users SET ip = '$uip', lastcheck = NOW()") or throwerror("part2 ".mysql_error());

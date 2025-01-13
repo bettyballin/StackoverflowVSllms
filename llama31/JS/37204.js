@@ -1,0 +1,1 @@
+var divToLoad = '#aSpecificDivinThatPage'; // Example variable\nvar url = 'somefile.html ' + divToLoad.replace(/[^a-zA-Z0-9#_-]/g, '');\n\n$('#somediv').load(url);

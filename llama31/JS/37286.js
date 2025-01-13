@@ -1,0 +1,1 @@
+// Set a cookie\ndocument.cookie = 'key=value; expires=Fri, 31 Dec 2022 23:59:59 GMT';\n\n// Get a cookie\nconst cookie = document.cookie.match(/key=([^;]*)/)[1];

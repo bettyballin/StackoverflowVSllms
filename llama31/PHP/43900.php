@@ -1,0 +1,1 @@
+$string = 'foo bar';\n\n// without !== FALSE\nif (stripos($string, 'foo')) {\n    echo "Found foo\n";\n} else {\n    echo "Not found foo\n";\n}\n\n// with !== FALSE\nif (stripos($string, 'foo') !== FALSE) {\n    echo "Found foo\n";\n} else {\n    echo "Not found foo\n";\n}

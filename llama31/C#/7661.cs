@@ -1,1 +1,0 @@
-int OpenForRead(string file_name)\n{\n  int file_handle = -1;\n  if (File.Exists(file_name))\n  {\n    file_handle = OpenFile(file_name, FileMode.Open, FileAccess.Read,\n      FileShare.ReadWrite);\n  }\n  return file_handle;\n}

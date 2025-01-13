@@ -1,0 +1,1 @@
+import types\n\nvariables = {'foo': 'bar', 'baz': 'qux'}\nnamespace = types.SimpleNamespace(**variables)\nprint(namespace.foo)  # Outputs: bar\nprint(namespace.baz)  # Outputs: qux

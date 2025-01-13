@@ -1,0 +1,1 @@
+header('X-Sendfile: ' . $filePath);

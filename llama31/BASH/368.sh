@@ -1,1 +1,0 @@
-symchk /v /r c:\path\to\XXX.dll c:\path\to\XXX.pdb

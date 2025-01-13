@@ -1,1 +1,0 @@
-RemoveEventHandlers(this, "SolutionExpired", new EventHandler(DefObj_SolutionExpired));

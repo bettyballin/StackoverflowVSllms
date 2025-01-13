@@ -1,1 +1,0 @@
-ssh -o "StrictHostKeyChecking=no" -o "UserKnownHostsFile=/dev/null" -o "LogLevel=quiet" -f user@target "cd /some/directory; program-to-execute &"

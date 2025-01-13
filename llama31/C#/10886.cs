@@ -1,1 +1,0 @@
-var employees = db.Employees.ToArray();

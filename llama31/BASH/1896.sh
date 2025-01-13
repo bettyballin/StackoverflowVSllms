@@ -1,1 +1,0 @@
-sudo perl -MCPAN -e 'o conf urllist push http://cpan.yahoo.com/'

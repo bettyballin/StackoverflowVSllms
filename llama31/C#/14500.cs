@@ -1,1 +1,0 @@
-Environment.SetEnvironmentVariable("TMP", @"C:\Temp");\nEnvironment.SetEnvironmentVariable("TEMP", @"C:\Temp");

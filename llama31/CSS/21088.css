@@ -1,1 +1,0 @@
-ul {\n  list-style: none;\n  padding: 0;\n  margin: 0;\n  border: 1px solid #ccc;\n  border-radius: 10px;\n  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);\n}\n\nul li {\n  padding: 10px;\n  border-bottom: 1px solid #ccc;\n}\n\nul li:last-child {\n  border-bottom: none;\n}\n\nul li:hover {\n  background-color: #f0f0f0;\n}

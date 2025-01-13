@@ -1,0 +1,1 @@
+function pass(a) {\n    myjson = a;\n    \n    // Loop through the array\n    for (var i = 0; i < myjson.length; i++) {\n        var obj = myjson[i];\n        alert(obj.name);\n        alert(obj.distance);\n        alert(obj.code);\n    }\n    \n    // Or, access a specific index\n    alert(myjson[0].name);\n    alert(myjson[0].distance);\n    alert(myjson[0].code);\n}

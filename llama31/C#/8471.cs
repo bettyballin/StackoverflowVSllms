@@ -1,1 +1,0 @@
-[DllImport("YourDllName")]\nstatic extern void init(byte[] initData, byte[] key);\n\n[DllImport("YourOtherDllName")]\nstatic extern IntPtr encrypt(IntPtr inOut, uint inputSize, IntPtr secretKey, uint secretKeySize);

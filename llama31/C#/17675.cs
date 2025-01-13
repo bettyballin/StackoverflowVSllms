@@ -1,1 +1,0 @@
-public class DynamicAuthorizeAttribute : AuthorizeAttribute\n{\n    protected override bool AuthorizeCore(HttpContextBase httpContext)\n    {\n        // Dynamically determine if the URL needs authorizing\n        var url = httpContext.Request.Url;\n        var requiresAuthorization = // Your logic here\n        return requiresAuthorization;\n    }\n}

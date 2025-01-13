@@ -1,1 +1,0 @@
-using System.Web;\npublic class CustomModule : IHttpModule\n{\n    public void Init(HttpApplication application)\n    {\n        application.BeginRequest += new EventHandler(Application_BeginRequest);\n    }\n\n    private void Application_BeginRequest(object source, EventArgs e)\n    {\n        // Logic to monitor and edit files\n    }\n\n    public void Dispose() { }\n}

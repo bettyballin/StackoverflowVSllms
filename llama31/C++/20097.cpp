@@ -1,1 +1,0 @@
-#include <gcroot.h>\n\npublic ref class MyCSharpClassWrapper\n{\npublic:\n    MyCSharpClassWrapper()\n    {\n        myCSharpClass = gcnew MyCSharpClass();\n    }\n\n    void MyCSharpMethod()\n    {\n        myCSharpClass->MyCSharpMethod();\n    }\n\nprivate:\n    gcroot<MyCSharpClass^> myCSharpClass;\n};

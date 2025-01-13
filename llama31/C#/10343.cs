@@ -1,1 +1,0 @@
-foreach (var group in groups)\n{\n    group.Users = groupUsers[group.Id];\n}

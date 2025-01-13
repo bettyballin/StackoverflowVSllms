@@ -1,0 +1,1 @@
+let cardNumber = "4111111111111111";\nif (validateCreditCardNumber(cardNumber)) {\n  console.log("Card number is valid");\n} else {\n  console.log("Card number is not valid");\n}

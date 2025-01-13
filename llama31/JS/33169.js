@@ -1,0 +1,1 @@
+$(document).ready(function() {\n  $('#tabs ul li a').on('click', function(e) {\n    e.preventDefault();\n    var tabId = $(this).attr('href');\n    $('.tab-content').removeClass('active');\n    $(tabId).addClass('active');\n  });\n});

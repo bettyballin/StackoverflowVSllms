@@ -1,0 +1,1 @@
+SELECT COALESCE((SELECT * FROM table1 WHERE id = 'a'), (SELECT * FROM table1 WHERE id = 'b'));

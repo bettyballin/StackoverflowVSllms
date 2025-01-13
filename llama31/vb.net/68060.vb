@@ -1,0 +1,1 @@
+' Assuming you have a dataset named "DataSet1" with a field named "HtmlContent"\n' Create a Placeholder control and set its properties\nDim htmlPlaceholder As New Placeholder()\nhtmlPlaceholder.MarkupType = MarkupType.HTML\nhtmlPlaceholder.Value = "=Fields!HtmlContent.Value"

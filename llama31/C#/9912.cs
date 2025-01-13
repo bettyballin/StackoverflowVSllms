@@ -1,1 +1,0 @@
-RichTextBox richTextBox = new RichTextBox();\nrichTextBox.Text = "Click here to visit our website: ";\nrichTextBox.AppendText("https://www.example.com", Color.Blue);\nrichTextBox.LinkClicked += (sender, e) => Process.Start(e.LinkText);

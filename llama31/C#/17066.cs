@@ -1,1 +1,0 @@
-dataGridView1.CellPainting += dataGridView1_CellPainting;

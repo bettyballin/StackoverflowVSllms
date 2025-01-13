@@ -1,1 +1,0 @@
-ProcessStartInfo startInfo = new ProcessStartInfo();\nstartInfo.FileName = "update.exe";\nstartInfo.Verb = "runas";\nstartInfo.Arguments = "/update";\nProcess.Start(startInfo);

@@ -1,1 +1,0 @@
-mvn liquibase:update -Dliquibase.tag=version-5

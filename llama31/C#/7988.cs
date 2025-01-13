@@ -1,1 +1,0 @@
-using OpenCvSharp;\n\n// Load images\nMat img1 = Cv2.ImRead("image1.jpg");\nMat img2 = Cv2.ImRead("image2.jpg");\n\n// Calculate PSNR\ndouble psnr = Cv2.PSNR(img1, img2);\n\nConsole.WriteLine($"PSNR: {psnr}");

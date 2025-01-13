@@ -1,0 +1,1 @@
+CREATE EXTENSION pg_partman;\nSELECT * FROM partman.partition_info;

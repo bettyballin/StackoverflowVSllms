@@ -1,0 +1,1 @@
+$header = 'Set-Cookie: ' . $cookie_name . '=' . $cookie_value . '; Expires=Wed, 21-Jan-2026 01:23:45 GMT; Path=/; Domain=.example.com; Secure; HttpOnly';

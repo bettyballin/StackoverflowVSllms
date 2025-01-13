@@ -1,1 +1,0 @@
-using System;\n\npublic class SessionTokenGenerator\n{\n    public static string GenerateSessionToken()\n    {\n        return Guid.NewGuid().ToString("N");\n    }\n}

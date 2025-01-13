@@ -1,0 +1,1 @@
+SELECT EmailAddress\nFROM (\n    SELECT 'email1@example.com' AS EmailAddress UNION\n    SELECT 'email2@example.com' UNION\n    SELECT 'email3@example.com' -- Add more emails here\n) AS el\nLEFT JOIN EmailsInDB eid\n    ON el.EmailAddress = eid.EmailAddress\nWHERE eid.EmailAddress IS NULL;

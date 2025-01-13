@@ -1,0 +1,1 @@
+SELECT score FROM user_scores WHERE user_id = ?;

@@ -1,1 +1,0 @@
-a {\n  text-decoration: none;\n}\n\na:hover::after {\n  content: "";\n  display: block;\n  height: 1px;\n  background-color: #000; /* or any other color that works for your design */\n}

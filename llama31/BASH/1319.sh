@@ -1,1 +1,0 @@
-cpulimit -l 20 -p 1234

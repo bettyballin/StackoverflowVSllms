@@ -1,1 +1,0 @@
-DataGridView1.DefaultCellStyle = new DataGridViewCellStyle { CellType = typeof(DataGridViewTextBoxCell) };

@@ -1,1 +1,0 @@
-using (ISession session = _sessionManager.OpenSession())\n{\n    try\n    {\n        ICriteria crit = session.CreateCriteria(typeof(Content));\n        return crit.List();\n    }\n    finally\n    {\n        session.Dispose();\n    }\n}

@@ -1,1 +1,0 @@
-[Serializable]\npublic class YourClass\n{\n    [NonSerialized]\n    private ReflectPropertyDescriptor descriptor;\n\n    // Other serializable properties and methods...\n}

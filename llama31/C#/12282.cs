@@ -1,1 +1,0 @@
-XElement resultElement = doc.Descendants(XName.Get("result", "http://dev1/MyWebService1.wsdl")).FirstOrDefault();\nstring itemNumber = resultElement.Value;

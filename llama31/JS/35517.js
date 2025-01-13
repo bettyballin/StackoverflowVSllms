@@ -1,0 +1,1 @@
+$(document).ready(function() {\n    $('.ip-field').keypress(function(e) {\n        if(e.which == 46) { // 46 is the key code for period (.)\n            e.preventDefault();\n            $(this).next('.ip-field').focus();\n        }\n    });\n});

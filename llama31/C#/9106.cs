@@ -1,1 +1,0 @@
-protected void Page_Load(object sender, EventArgs e)\n{\n    myPlaceHolder.Visible = condition;\n}

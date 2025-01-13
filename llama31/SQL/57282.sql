@@ -1,0 +1,1 @@
+SELECT M.ID, M.MDESC, \n       STUFF((SELECT ', ' + D.DID \n              FROM DETAIL D \n              WHERE D.MID = M.ID \n              FOR XML PATH('')), 1, 2, '') AS DetailList\nFROM MASTER M

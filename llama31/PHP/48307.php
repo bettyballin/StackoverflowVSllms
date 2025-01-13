@@ -1,0 +1,1 @@
+function filter_get($key, $filter) {\n    return filter_var($_GET[$key], $filter);\n}\n\n$_GET['name'] = '(default name)';\n$name = filter_get('name', FILTER_SANITIZE_STRING);

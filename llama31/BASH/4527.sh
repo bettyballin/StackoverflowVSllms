@@ -1,1 +1,0 @@
-sed -r 's/.*your_string.*/your_string/g'

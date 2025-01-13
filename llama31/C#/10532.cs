@@ -1,1 +1,0 @@
-ScreenColorAdjuster.AdjustScreenColor(0.5F, 0.8F, 0.2F)

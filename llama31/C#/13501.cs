@@ -1,1 +1,0 @@
-FileUpload1.InitialDirectory = @"C:\YourSpecificFolder";

@@ -1,0 +1,1 @@
+InvoiceList.Add(nUnallocated.ToString("C2"), oReferenceItem.URN.ToString)

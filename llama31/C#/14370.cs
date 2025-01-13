@@ -1,1 +1,0 @@
-var criteria = session.CreateCriteria(typeof(MyClass));\ncriteria.Add(Restriction.In("MyProperty", new object[] { 1, 2, 3 }));

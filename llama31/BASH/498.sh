@@ -1,1 +1,0 @@
-# Starting the PHP FastCGI server\nphp-cgi -b 127.0.0.1:9000

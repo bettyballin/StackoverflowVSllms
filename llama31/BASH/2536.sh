@@ -1,1 +1,0 @@
-bacula-console -c /etc/bacula/bacula.conf -p /var/lib/bacula/backup

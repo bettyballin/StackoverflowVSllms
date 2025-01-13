@@ -1,1 +1,0 @@
-NetworkCredential credential = new NetworkCredential("username", "password", "domain");\nDirectoryEntry entry = new DirectoryEntry("LDAP://DC=yourdomain,DC=com", credential.UserName, credential.Password);

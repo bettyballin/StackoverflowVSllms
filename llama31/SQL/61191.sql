@@ -1,0 +1,1 @@
+SELECT * \nFROM your_local_table \nINNER JOIN OPENQUERY(LinkedServer, 'SELECT * FROM your_remote_database.your_remote_table') \n    ON your_local_table.column = remote_table.colum

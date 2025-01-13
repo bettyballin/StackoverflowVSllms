@@ -1,0 +1,1 @@
+ALTER TABLE mytable ADD COLUMN mycolumn character varying(50);\nUPDATE mytable SET mycolumn = '';\nALTER TABLE mytable ALTER COLUMN mycolumn SET NOT NULL;

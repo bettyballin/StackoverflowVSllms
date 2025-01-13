@@ -1,1 +1,0 @@
-var hashtable = list.Cast<dynamic>().ToDictionary(obj => (string)obj.Description, obj => (int)obj.Id);

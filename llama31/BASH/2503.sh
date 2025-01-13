@@ -1,1 +1,0 @@
-pmap -d $(pgrep php)

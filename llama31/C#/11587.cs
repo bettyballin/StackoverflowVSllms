@@ -1,1 +1,0 @@
-public bool IsList(object value)\n{\n    return typeof(IList).IsAssignableFrom(value.GetType());\n}

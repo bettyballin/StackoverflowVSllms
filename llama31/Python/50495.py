@@ -1,0 +1,1 @@
+import inspect\nimport os\n\ndef get_modules():\n    modules = []\n    for filename in os.listdir(os.path.dirname(__file__)):\n        if filename.endswith('.py') and not filename.startswith('__'):\n            module_name = filename[:-3]\n            module = __import__(module_name)\n            modules.append(module)\n    return modules

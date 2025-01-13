@@ -1,0 +1,1 @@
+from bs4 import BeautifulSoup\n\nsoup = BeautifulSoup(html_string, 'html5lib')\nnode = soup.find('div', id='some_id')  # example CSS selector\n\nprint(node)

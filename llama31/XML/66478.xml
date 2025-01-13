@@ -1,0 +1,1 @@
+<location path="newapp">\n    <system.web>\n        <applicationPool name="NewAppPool" />\n    </system.web>\n</location>

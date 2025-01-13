@@ -1,0 +1,1 @@
+Imports System.Text\n\nDim testString As New StringBuilder("Hello,")\ntestString.Append(Chr(0))\ntestString.Append("World")\n\n' Now you can work with the StringBuilder instance

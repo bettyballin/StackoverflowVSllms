@@ -1,1 +1,0 @@
-// Replace staticforward\nstatic PyObject *func_name(PyObject *self, PyObject *args) {\n    // ...\n}

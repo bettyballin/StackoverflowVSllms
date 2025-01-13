@@ -1,0 +1,1 @@
+use Ramsey\Uuid\Uuid;\n\n$id = Uuid::uuid4()->toString();

@@ -1,1 +1,0 @@
-DataSet ds = new DataSet();\nds.ReadXml("countries.xml");\n\nDropDownList ddl = new DropDownList();\nddl.DataTextField = "Name";\nddl.DataValueField = "ID";\nddl.DataSource = ds.Tables["Country"];\nddl.DataBind();

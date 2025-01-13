@@ -1,0 +1,1 @@
+ob_start();\ninclude 'myfile2.php';\n$root_var = ob_get_clean();

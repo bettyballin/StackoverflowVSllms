@@ -1,0 +1,1 @@
+assert(2 > 1); // Asserts true\nassert(false); // Asserts false

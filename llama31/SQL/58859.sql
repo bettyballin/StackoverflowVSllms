@@ -1,0 +1,1 @@
+CREATE PROCEDURE MyProcedure\n    @MyValue decimal(10, 2)\nAS\nBEGIN\n    INSERT INTO MyTable (MyColumn)\n    VALUES (@MyValue)\nEND

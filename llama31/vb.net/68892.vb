@@ -1,0 +1,1 @@
+Imports System.ComponentModel\n\nPublic Class MyClass\n    <Browsable(False)> _\n    Public Sub MyHiddenMethod()\n        ' This method is not visible in IntelliSense, but can still be accessed by developers.\n    End Sub\nEnd Class

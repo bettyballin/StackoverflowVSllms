@@ -1,0 +1,1 @@
+BULK INSERT MyTable\nFROM 'C:\Path\To\File.csv'\nWITH (FORMATFILE = 'C:\Path\To\FormatFile.xml')\nOUTPUT inserted.*\nSELECT @@ROWCOUNT AS RowsAffected

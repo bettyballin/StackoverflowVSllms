@@ -1,0 +1,1 @@
+const script = document.createElement('script');\nscript.textContent = 'alert("hi");';\ndocument.body.appendChild(script);

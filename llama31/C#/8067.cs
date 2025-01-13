@@ -1,1 +1,0 @@
-using System.DirectoryServices;\n\n// ...\n\nstring userName = "username"; // from your loop\n\nDirectoryEntry userEntry = new DirectoryEntry("LDAP://CN=" + userName + ",DC=example,DC=com");\nif (userEntry.Properties["userAccountControl"].Value.ToString() == "512")\n{\n    // User is active\n}\nelse\n{\n    // User is not active\n}

@@ -1,0 +1,1 @@
+# db/migrate/20230220150322_add_default_themes.rb\nclass AddDefaultThemes < ActiveRecord::Migration[6.0]\n  def up\n    Theme.create(name: 'Default Theme', colors: [...])\n    Theme.create(name: 'Dark Theme', colors: [...])\n  end\n\n  def down\n    Theme.where(name: ['Default Theme', 'Dark Theme']).destroy_all\n  end\nend

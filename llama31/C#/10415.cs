@@ -1,1 +1,0 @@
-using (SerialPort port = new SerialPort("COM1", 9600, Parity.None, 8, StopBits.One))\n{\n    port.Open();\n    port.Write("Hello, world!");\n    string receivedData = port.ReadLine();\n}

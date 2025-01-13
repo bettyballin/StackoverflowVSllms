@@ -1,0 +1,1 @@
+SET STATISTICS PROFILE ON;\nGO\nSELECT \n    CustomerID, \n    Sum(InvoiceTotal) AS SumOfInvoiceTotal, \n    Sum(AmountPaid) AS SumOfAmountPaid \nFROM tblInvoices \nWHERE CustomerID = 2112 \nGROUP BY customerID;\nGO\nSET STATISTICS PROFILE OFF;\nGO

@@ -1,0 +1,1 @@
+$stmt = $mysqli->prepare("SELECT * FROM wiki_pages WHERE title = ?");\n$stmt->bind_param("s", $title);\n$stmt->execute();\n$result = $stmt->get_result();

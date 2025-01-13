@@ -1,1 +1,0 @@
-public class Product\n{\n  public virtual int Id { get; set; }\n  public virtual string Name { get; set; }\n  public virtual ICollection<ProductTranslation> Translations { get; set; }\n}\n\npublic class DALProduct\n{\n  public static Product GetByID(int id)\n  {\n    return NHibernateSession.Get<Product>(id);\n  }\n}

@@ -1,0 +1,1 @@
+function get_instances_of_class($className) {\n    $instances = [];\n    foreach (get_defined_vars() as $var => $value) {\n        if ($value instanceof $className) {\n            $instances[] = $value;\n        }\n    }\n    return $instances;\n}

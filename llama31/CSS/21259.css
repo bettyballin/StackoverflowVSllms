@@ -1,1 +1,0 @@
-.twoColHybLtHdr #container {\n  display: flex;\n  flex-direction: column;\n  min-height: 100vh;\n}\n\n.twoColHybLtHdr #sidebar1 {\n  flex-grow: 1;\n}\n\n.twoColHybLtHdr #mainContent {\n  flex-grow: 1;\n}\n\n.twoColHybLtHdr #footer {\n  margin-top: auto;\n}

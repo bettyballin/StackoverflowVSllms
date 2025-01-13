@@ -1,1 +1,0 @@
-using System.Linq;\n\nint[] list1 = { 1, 2, 3 };\nstring[] list2 = { "a", "b", "c" };\n\nvar zipped = list1.Zip(list2, (v1, v2) => v1 + " " + v2);\n\nforeach (var item in zipped)\n{\n    Console.WriteLine(item);\n}

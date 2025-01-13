@@ -1,0 +1,1 @@
+DELETE messages, usersmessages\nFROM messages\nJOIN usersmessages ON messages.messageid = usersmessages.messageid\nWHERE messages.messageid = '1';

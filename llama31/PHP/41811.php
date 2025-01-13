@@ -1,0 +1,1 @@
+ini_set('upload_tmp_dir', '/path/to/temp/directory');

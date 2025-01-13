@@ -1,1 +1,0 @@
-public class CustomerValidator : Validator<Customer>\n{\n    public CustomerValidator()\n    {\n        Validate(customer => customer.Name).IsNotEmpty();\n        Validate(customer => customer.Email).IsEmail();\n    }\n}

@@ -1,0 +1,1 @@
+<?php\nRewriteRule::init();\nRewriteRule::addRule('^posts/edit/([0-9]+)$', 'post_edit.php?id=$1');\n?>

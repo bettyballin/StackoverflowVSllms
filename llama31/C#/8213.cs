@@ -1,1 +1,0 @@
-public class UniqueIDGenerator\n{\n    private static int _counter = 0;\n\n    public static string GetNextID()\n    {\n        return $"component_{_counter++}";\n    }\n}

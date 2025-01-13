@@ -1,1 +1,0 @@
-private void Form1_Load(object sender, EventArgs e)\n{\n    listBox1.SelectedItem = listBox1.Items[0]; // Select the first item\n}

@@ -1,1 +1,0 @@
-# Add this line to your crontab file (e.g., crontab -e)\n*/5 * * * * /usr/bin/php /path/to/send_emails.php

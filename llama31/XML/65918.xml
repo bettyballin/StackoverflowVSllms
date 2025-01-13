@@ -1,0 +1,1 @@
+<class name="ScenarioSlave" table="SLAVE">\n    <composite-id name="keyId" class="ScenarioKeyId">\n        <key-property name="name" access="field" column="sName" type="string" length="20"/>\n        <key-property name="number" access="field" column="sNumber" type="long"/>\n    </composite-id>\n    <!-- other properties -->\n</class>

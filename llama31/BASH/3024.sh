@@ -1,1 +1,0 @@
-# Get the device path\ndev_path=$(udevadm info --query=path --name=/dev/sda)\n\n# Get the value of the MY_DEVICE_PROPERTY property\nproperty_value=$(udevadm info --query=property --name=$dev_path | grep MY_DEVICE_PROPERTY)\n\nif [ "$property_value" == "true" ]; then\n  echo "Device is marked"\nfi

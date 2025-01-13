@@ -1,1 +1,0 @@
-int[,] m = new int[,] { { 1, 2 }, { 3, 4 } };\n\nfor (int i = m.GetLowerBound(0); i <= m.GetUpperBound(0); i++)\n{\n    for (int j = m.GetLowerBound(1); j <= m.GetUpperBound(1); j++)\n    {\n        int e = m[i, j];\n        Console.WriteLine(e);\n    }\n}

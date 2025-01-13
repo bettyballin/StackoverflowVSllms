@@ -1,1 +1,0 @@
-$ sqlite3\nsqlite> .mode csv\nsqlite> .import yourfile.csv yourtable\nsqlite> SELECT * FROM yourtable WHERE ...;

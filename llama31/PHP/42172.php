@@ -1,0 +1,1 @@
+// example of secure usage of FFI\n$ffi = FFI::cdef("\n    int add(int a, int b);\n", "mydll.dll");\n\ntry {\n    $result = $ffi->add(1, 2);\n    if ($result === FALSE) {\n        throw new Exception("Failed to call function");\n    }\n    echo $result;\n} catch (Exception $e) {\n    // handle error\n}

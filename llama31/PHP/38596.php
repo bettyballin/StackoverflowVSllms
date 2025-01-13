@@ -1,0 +1,1 @@
+$field_value = $_POST['field_name'];\n$decoded_value = html_entity_decode($field_value, ENT_QUOTES, 'Windows-1251');\n$utf8_value = iconv('Windows-1251', 'UTF-8', $decoded_value);

@@ -1,1 +1,0 @@
-cscript iisvdir.vbs /s <remote_server> /query <virtual_directory>

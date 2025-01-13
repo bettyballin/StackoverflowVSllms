@@ -1,1 +1,0 @@
-SQLINTEGER nStrLen = 0;\n__int64 nInt64 = 99;\ndouble dValue = (double)nInt64;\nSQLBindParameter(hStatement, 1, SQL_PARAM_INPUT, \n    SQL_C_DOUBLE, SQL_DOUBLE, 20, 0, &dValue, 0, &nStrLen);

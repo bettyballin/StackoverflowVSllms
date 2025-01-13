@@ -1,0 +1,1 @@
+// a.js\nfunction a(callback) {\n  // Your code here\n  callback();\n}

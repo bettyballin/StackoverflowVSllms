@@ -1,1 +1,0 @@
-class A {\n  public:\n    OtherClass a_;\n    AnotherClass b_;\n\n    A(OtherClass o, string x, int y)\n      : a_(o) {\n      b_ = AnotherClass(a_, x, y);\n    }\n};

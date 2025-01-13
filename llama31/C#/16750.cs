@@ -1,1 +1,0 @@
-BasicHttpBinding binding = new BasicHttpBinding(BasicHttpSecurityMode.TransportCredentialOnly);\nbinding.Security.Message.ClientCredentialType = BasicHttpMessageCredentialType.UserName;\nbinding.Security.Message.AlgorithmSuite = SecurityAlgorithmSuite.Basic256;\nbinding.Security.Transport.ClientCredentialType = HttpClientCredentialType.None;

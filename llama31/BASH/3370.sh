@@ -1,1 +1,0 @@
-mkdir c:\svnrepos\project1\trunk

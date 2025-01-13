@@ -1,0 +1,1 @@
+-- Compare data between Table1Src and Table1Dest\nSELECT \n    s.ID, \n    s.Property1, \n    s.Property2, \n    s.Property3, \n    d.Property1, \n    d.Property5, \n    d.Property6\nFROM \n    Table1Src s\nINNER JOIN \n    Table1Dest d ON s.ID = d.ID\nWHERE \n    s.Property1 != d.Property1 OR \n    s.Property2 != d.Property5 OR \n    s.Property3 != d.Property6;

@@ -1,1 +1,0 @@
-void print_with_dots(char *tag, int data, int width) {\n    printf("%s", tag);\n    for (int i = strlen(tag); i < width; i++) {\n        printf(".");\n    }\n    printf("[%d]\n", data);\n}

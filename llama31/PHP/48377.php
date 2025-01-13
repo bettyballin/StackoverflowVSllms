@@ -1,0 +1,1 @@
+$url = 'https://example.com/data';\n$data = file_get_contents($url);

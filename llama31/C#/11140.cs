@@ -1,1 +1,0 @@
-string input = "hello world --foo=bar";\nstring[] args = CommandLine.Parse(input);

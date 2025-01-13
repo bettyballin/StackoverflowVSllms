@@ -1,0 +1,1 @@
+SELECT COUNT_BIG(*) \n...\nOPTION (OPTIMIZE FOR (@ContentTableID0 UNKNOWN));

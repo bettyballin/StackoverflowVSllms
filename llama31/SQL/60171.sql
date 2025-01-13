@@ -1,0 +1,1 @@
+SELECT t1.*\nFROM your_table t1\nJOIN your_table t2\n  ON t1.node1 = t2.node2 AND t1.node2 = t2.node1;

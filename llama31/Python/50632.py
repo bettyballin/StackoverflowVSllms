@@ -1,0 +1,1 @@
+import pandas as pd\n\ndf = pd.DataFrame({'Field 1': ['Field 1'], 'Field 2': ['Field 2 with \r\n encoded']})\ndf.to_csv('output.csv', index=False)

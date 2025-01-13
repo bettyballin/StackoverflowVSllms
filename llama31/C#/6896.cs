@@ -1,1 +1,0 @@
-[DllImport("user32.dll")]\npublic static extern int MessageBox(IntPtr hWnd, string text, string caption, uint type);

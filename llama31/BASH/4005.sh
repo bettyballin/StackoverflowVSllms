@@ -1,1 +1,0 @@
-tar -czf mysql_backup.tar.gz /var/lib/mysql --exclude='ib_logfile*'

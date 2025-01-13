@@ -1,0 +1,1 @@
+CREATE TABLE #temp (bank VARCHAR(50), account VARCHAR(50))\n\nINSERT INTO #temp (bank, account) VALUES\n    (@bank1, @account1),\n    (@bank2, @account2),\n    ...  -- list of bank-account pairs\n\nSELECT b.date, SUM(b.amount) AS amount\nFROM balances b\nJOIN #temp t ON b.bank = t.bank AND b.account = t.account\nGROUP BY b.date

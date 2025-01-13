@@ -1,0 +1,1 @@
+SET server_encoding TO 'UTF8';

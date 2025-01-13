@@ -1,1 +1,0 @@
-#google-map-container {\n  z-index: 0; /* or a low value, e.g. -1 */\n}\n\n#dropdown-menu {\n  z-index: 1000; /* or a high value, e.g. 9999 */\n}

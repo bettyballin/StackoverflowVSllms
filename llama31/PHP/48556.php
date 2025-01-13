@@ -1,0 +1,1 @@
+$expression = '10 + 20 * 3';\n$result = calculate($expression);\necho $result; // outputs 70

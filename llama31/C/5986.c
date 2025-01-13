@@ -1,1 +1,0 @@
-#include <windows.h>\n\nBOOL IsBufferEmpty(HANDLE hPipe) {\n    DWORD dwBytesAvailable = 0;\n    if (!PeekNamedPipe(hPipe, NULL, 0, NULL, &dwBytesAvailable, NULL)) {\n        // Handle error\n    }\n    return (dwBytesAvailable == 0);\n}

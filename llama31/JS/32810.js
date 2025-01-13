@@ -1,0 +1,1 @@
+function makeJsonpRequest(url, callback) {\n  var script = document.createElement('script');\n  script.src = url + '?callback=' + callback;\n  document.body.appendChild(script);\n}\n\nmakeJsonpRequest('https://example.com/api/data', 'handleData');\n\nfunction handleData(data) {\n  // Process the received data\n}

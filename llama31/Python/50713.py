@@ -1,0 +1,1 @@
+import a_ridiculously_long_module_name as short_name

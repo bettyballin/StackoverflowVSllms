@@ -1,1 +1,0 @@
-public class Person\n{\n    public string Name { get; set; }\n\n    public static implicit operator string(Person person)\n    {\n        return person.Name;\n    }\n}

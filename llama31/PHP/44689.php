@@ -1,0 +1,1 @@
+function loginHash($password) {\n    $salt = bcrypt($password, 12); // 12 is the work factor\n    return $salt;\n}\n\n// Verify a login\nfunction verifyLogin($password, $storedHash) {\n    return password_verify($password, $storedHash);\n}

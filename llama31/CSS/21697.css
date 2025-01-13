@@ -1,1 +1,0 @@
-#header {\n  height: 150px;\n  position: relative;\n}\n\n#header h1, #header span {\n  position: absolute;\n  bottom: 0;\n}

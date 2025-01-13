@@ -1,1 +1,0 @@
-string username = "username";\nstring password = "password";\n\nforeach (MembershipProvider provider in Membership.Providers)\n{\n    if (provider.ValidateUser(username, password))\n    {\n        // User is authenticated, redirect to protected area\n        FormsAuthentication.RedirectFromLoginPage(username, false);\n        break;\n    }\n}

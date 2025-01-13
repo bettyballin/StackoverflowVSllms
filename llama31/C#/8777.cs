@@ -1,1 +1,0 @@
-SPSecurity.RunWithElevatedPrivileges(delegate()\n{\n    using (StreamWriter writer = File.CreateText("\\servername\sharename\folder\file.txt"))\n    {\n        writer.WriteLine("Hello, world!");\n    }\n});

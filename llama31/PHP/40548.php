@@ -1,0 +1,1 @@
+$url = 'https://example.com';\n$outputFile = 'screenshot.png';\n\n$command = sprintf('wkhtmltoimage --quality 80 --width 1024 --height 768 %s %s', escapeshellarg($url), escapeshellarg($outputFile));\nexec($command);

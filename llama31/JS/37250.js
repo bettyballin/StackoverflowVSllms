@@ -1,0 +1,1 @@
+// Example using jQuery\n$.ajax({\n  url: 'new-page.html',\n  success(data) {\n    // Animate content using jQuery\n    $('#content').fadeOut(500, () => {\n      $('#content').html(data).fadeIn(500);\n    });\n  },\n});

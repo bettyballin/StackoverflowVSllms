@@ -1,0 +1,1 @@
+ALTER SYSTEM RESTART AGENT '<agent_name>';

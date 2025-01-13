@@ -1,1 +1,0 @@
-myisamchk -c -v /path/to/client.MYD

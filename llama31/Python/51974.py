@@ -1,0 +1,1 @@
+def explore_chatbot_training_data(data):\n    # Explore data using data exploration techniques\n    explored_data = explore_data(data)\n    return explored_data

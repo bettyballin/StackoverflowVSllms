@@ -1,0 +1,1 @@
+import gettext\n\n# Set the locale and language\nlocale = 'fr_FR'  # French, France\nlang = 'fr'\n\n# Initialize gettext\ntranslation = gettext.translation('myapp', languages=[lang])\n\n# Translate a string\nprint(translation.ugettext('Hello, world!'))  # Output: Bonjour, monde!

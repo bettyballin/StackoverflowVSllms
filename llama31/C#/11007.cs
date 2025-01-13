@@ -1,1 +1,0 @@
-using HtmlAgilityPack;\n\npublic bool IsValidHtml(string html)\n{\n    var doc = new HtmlDocument();\n    doc.LoadHtml(html);\n    return doc.ParseErrors.Count == 0;\n}

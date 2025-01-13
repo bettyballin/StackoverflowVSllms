@@ -1,1 +1,0 @@
-validator.ControlToValidate = control.ClientID;

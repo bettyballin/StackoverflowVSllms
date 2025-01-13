@@ -1,0 +1,1 @@
+var my_var = {"foo" : "bar"};\nvar json_string = JSON.stringify(my_var);

@@ -1,0 +1,1 @@
+$xml = file_get_contents($request);\n$doc = new DOMDocument();\n$doc->loadXML($xml);\necho $doc->saveHTML();

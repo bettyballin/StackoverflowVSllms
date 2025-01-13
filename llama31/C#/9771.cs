@@ -1,1 +1,0 @@
-var stringBuilder = new StringBuilder();\nstringBuilder.Append(strOutput);\n// ...\nusing (var textWriter = new StreamWriter("output.txt"))\n{\n    textWriter.Write(stringBuilder.ToString());\n}

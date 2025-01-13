@@ -1,1 +1,0 @@
-strace -e trace=system -p $(pgrep -v -u root)

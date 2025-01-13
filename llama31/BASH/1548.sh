@@ -1,1 +1,0 @@
-sudo mount -t ecryptfs ~/folder ~/folder

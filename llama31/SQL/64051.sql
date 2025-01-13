@@ -1,0 +1,1 @@
+ALTER TABLE child\nADD CONSTRAINT child_parent_deleted_at CHECK (\n    (parent_id IS NULL) OR\n    (EXISTS (SELECT 1 FROM parent WHERE id = child.parent_id AND deleted_at IS NULL))\n) DEFERRABLE INITIALLY DEFERRED;

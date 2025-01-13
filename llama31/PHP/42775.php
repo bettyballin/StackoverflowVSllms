@@ -1,0 +1,1 @@
+$licenseKey = hash('sha256', $machineId . 'your_secret_key');

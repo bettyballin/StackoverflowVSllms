@@ -1,1 +1,0 @@
-dig +short -t SRV _ldap._tcp.example.com

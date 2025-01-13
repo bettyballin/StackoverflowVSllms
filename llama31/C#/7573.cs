@@ -1,1 +1,0 @@
-public class CustomUserNamePasswordValidator : UserNamePasswordValidator\n{\n  public override void Validate(string userName, string password)\n  {\n    if (!Membership.ValidateUser(userName, password))\n    {\n      throw new FaultException("Invalid username or password");\n    }\n  }\n}

@@ -1,1 +1,0 @@
-mysqld --wsrep-new-cluster

@@ -1,0 +1,1 @@
+ALTER DATABASE [dbname] MODIFY FILE (\n    NAME = 'logfilename',\n    FILEGROWTH = 100MB\n);

@@ -1,1 +1,0 @@
-// Assert that the ViewState and EventValidation values were not validated\nAssert.AreEqual(viewState, request.Form["__VIEWSTATE"]);\nAssert.AreEqual(eventValidation, request.Form["__EVENTVALIDATION"]);

@@ -1,0 +1,1 @@
+$a = 17;\n$b = 5;\n\n$quotient = (int) ($a / $b);\n$remainder = $a % $b;\n\necho "Quotient: $quotient\n";\necho "Remainder: $remainder\n";

@@ -1,1 +1,0 @@
-mkdir /etc/bind/zones

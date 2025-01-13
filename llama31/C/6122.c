@@ -1,1 +1,0 @@
-// Example usage:\n#include <hxclient.h>\n\nint main() {\n    // Initialize Helix DNA\n    HXCLIENT *client = hxclient_create();\n\n    // Open an MP3 file\n    hxclient_open(client, "input.mp3", HX_MEDIA_AUDIO);\n\n    // Decode the audio\n    hxclient_play(client);\n\n    // ...\n}

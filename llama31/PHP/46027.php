@@ -1,0 +1,1 @@
+function get_header_image($post_id) {\n    $ancestors = get_ancestors($post_id, 'page');\n    foreach ($ancestors as $ancestor_id) {\n        $header_image = get_post_meta($ancestor_id, 'header_image', true);\n        if ($header_image) {\n            return $header_image;\n        }\n    }\n    return false;\n}

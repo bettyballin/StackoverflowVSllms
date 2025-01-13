@@ -1,0 +1,1 @@
+SELECT *\nFROM data\nJOIN lookup_dept ON data.dept = lookup_dept.value\nJOIN lookup_salary ON data.salary = lookup_salary.value;

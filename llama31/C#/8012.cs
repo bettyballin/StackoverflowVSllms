@@ -1,1 +1,0 @@
-var stringSet = new HashSet<string>(listOfStrings);\n\nbool ContainsAny(string myString)\n{\n    foreach (var substring in stringSet)\n    {\n        if (myString.Contains(substring))\n        {\n            return true;\n        }\n    }\n    return false;\n}

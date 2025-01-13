@@ -1,1 +1,0 @@
-protected void Save(..)\n{\n    // Do save stuff\n    DisplayAlertAndRedirect("The changes were saved Successfully", "Default.aspx");\n}

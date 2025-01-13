@@ -1,1 +1,0 @@
-string markdownText = "This would be *italicized* text and this would be **bold** text";\nstring htmlText = MarkdownConverter.ConvertMarkdownToHtml(markdownText);\nConsole.WriteLine(htmlText);\n// Output: "This would be <em>italicized</em> text and this would be <strong>bold</strong> text"

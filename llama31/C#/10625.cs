@@ -1,1 +1,0 @@
-string match = "src=\"(?<imgSrc>[^\"]+(?:jpg|png))\""

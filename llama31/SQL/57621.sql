@@ -1,0 +1,1 @@
+SELECT *\nFROM Table1 t1\nWHERE EXISTS (\n  SELECT 1\n  FROM Table2 t2\n  WHERE t1.column1 = t2.column1\n  AND t1.column2 = t2.column2\n  -- add more columns as needed\n);

@@ -1,0 +1,1 @@
+set_include_path(get_include_path() . PATH_SEPARATOR . 'C:\xampplite\php\pear');

@@ -1,1 +1,0 @@
-cdb.exe -p <process_id>

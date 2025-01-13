@@ -1,1 +1,0 @@
-7z a -t7z -m0=lzma2 -mx=9 backup_file.7z backup_file.bak

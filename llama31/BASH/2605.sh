@@ -1,1 +1,0 @@
-chmod +x /etc/cron.daily/apt-update\ncrontab -e

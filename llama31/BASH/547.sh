@@ -1,1 +1,0 @@
-# Client (Browser) Side\nopenssl s_client -connect example.com:443\n\n# Web Server Side\nopenssl s_server -cert example.com.crt -key example.com.key

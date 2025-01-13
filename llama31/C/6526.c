@@ -1,1 +1,0 @@
-#include <libwebsockets.h>\n\n// Example: Establish a WebSocket connection\nstruct lws *wsi;\nstruct lws_context *context;\ncontext = lws_create_context();\nwsi = lws_create_client(context, "ws://camera_ip:port");\nif (wsi) {\n    lws_callback_on_writable(wsi, on_writable_cb);\n    lws_callback_on_readable(wsi, on_readable_cb);\n}

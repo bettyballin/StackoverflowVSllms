@@ -1,1 +1,0 @@
-# Generate a certificate request\nopenssl req -new -key myprivatekey.pem -out mycertreq.pem\n\n# Get the certificate signed by a trusted CA\n# ...\n\n# Configure Oracle to use SSL/TLS\n# ...\n\n# Use the certificate to connect to the database\nsqlplus - SSLClientCertFile=mycert.pem -SSLClientPrivateKeyFile=myprivatekey.pem /@mydatabase

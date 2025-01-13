@@ -1,1 +1,0 @@
-sed -r '/marker1/,/marker2/{//!d}' input.txt > output.txt

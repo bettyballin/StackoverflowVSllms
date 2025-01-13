@@ -1,0 +1,1 @@
+Private Sub SomeFunction(ByVal PassedArray() As String)\n    For i As Integer = 0 To PassedArray.Count - 1\n        Debug.WriteLine(PassedArray(i))\n    Next\nEnd Sub\n\nPublic Sub Test()\n    SomeFunction(New String() {"some", "array", "members"})\nEnd Sub

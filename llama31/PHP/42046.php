@@ -1,0 +1,1 @@
+$header_reply .= "Content-Type: text/html; charset=UTF-8\r\n";

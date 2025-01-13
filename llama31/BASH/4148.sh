@@ -1,1 +1,0 @@
-php bin/console doctrine:generate:entities --force

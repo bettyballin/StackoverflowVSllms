@@ -1,1 +1,0 @@
-div.tabs {\n    padding: .5em;\n}\n\ndiv.tabs div.tabs {\n    padding: 0;\n}\n\ndiv.tabs div.tabs div:not(.graphTextItem, .graphImageItem) {\n    clear: left;\n    height: 4em;\n    padding: .5em;\n    border: 1px solid #003366;\n}

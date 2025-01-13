@@ -1,1 +1,0 @@
-@font-face {\n  font-family: 'MyCustomFont';\n  src: url('path/to/your/font.woff2') format('woff2'),\n       url('path/to/your/font.woff') format('woff'),\n       url('path/to/your/font.ttf') format('truetype');\n}\n\n.your-class {\n  font-family: 'MyCustomFont', sans-serif;\n}

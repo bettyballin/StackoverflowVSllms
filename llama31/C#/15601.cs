@@ -1,1 +1,0 @@
-sslStream.RequestClientCertificate = true;\nsslStream.BeginAuthenticateAsServer(serverCert, SslProtocols.Tls12, false, ValidateClientCertificate, null);

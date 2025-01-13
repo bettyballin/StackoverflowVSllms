@@ -1,0 +1,1 @@
+$revision = exec('svn info --show-item revision .');\necho '<!-- SVN Revision: ' . $revision . ' -->';

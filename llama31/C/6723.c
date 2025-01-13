@@ -1,1 +1,0 @@
-// Write a string value to the registry\nHKEY hKey;\nRegCreateKeyEx(HKEY_CURRENT_USER, L"SOFTWARE\\MyApp", 0, NULL, REG_OPTION_NON_VOLATILE, KEY_WRITE, NULL, &hKey, NULL);\nRegSetValueEx(hKey, L"MySetting", 0, REG_SZ, (LPBYTE)L"MyValue", (lstrlen(L"MyValue") + 1) * sizeof(TCHAR));\nRegCloseKey(hKey);

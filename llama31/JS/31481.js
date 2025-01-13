@@ -1,0 +1,1 @@
+const jsdom = require('jsdom');\nconst { JSDOM } = jsdom;\n\nconst dom = new JSDOM(`<!DOCTYPE html><html><body></body></html>`);\nconst window = dom.window;\nconst document = window.document;\n\n// Run your tests here

@@ -1,0 +1,1 @@
+$xml = new SimpleXMLElement('<rss/>');\n$xml->addChild('channel');\n$xml->channel->addChild('item');\n$xml->channel->item->addChild('description', $row['field']);\necho $xml->asXML();

@@ -1,1 +1,0 @@
-Py_SetProgramName("/path/to/your/executable");

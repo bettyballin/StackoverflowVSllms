@@ -1,1 +1,0 @@
-var managedObject = Marshal.GetObjectForIUnknown(result) as Array;\nif (managedObject != null)\n{\n    foreach (string element in managedObject)\n    {\n        Console.WriteLine(element);\n    }\n}

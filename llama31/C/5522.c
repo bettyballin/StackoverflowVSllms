@@ -1,1 +1,0 @@
-// C code to create the OpenSSL library binding\n#include <openssl/ssl.h>\n\nvoid* SSL_CTX_new() {\n  return SSL_CTX_new(NULL);\n}\n\nvoid SSL_CTX_free(void* ctx) {\n  SSL_CTX_free(ctx);\n}

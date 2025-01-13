@@ -1,0 +1,1 @@
+<?php\n$ports = parse_ini_file('ports.ini');\n\n$apachePort = $ports['apache'];\n$mysqlPort = $ports['mysql'];\n\n// Connect to Apache and MySQL using the dynamic port numbers\n?>

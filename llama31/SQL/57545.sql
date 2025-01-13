@@ -1,0 +1,1 @@
+BEGIN\n  DBMS_SCHEDULER.CREATE_JOB (\n    job_name        => 'MY_JOB',\n    job_type        => 'PLSQL_BLOCK',\n    job_action      => 'BEGIN DBMS_OUTPUT.PUT_LINE(''Hello World!''); END;',\n    start_date      => SYSTIMESTAMP,\n    repeat_interval => 'FREQ=MINUTELY; INTERVAL=1',\n    end_date        => SYSTIMESTAMP + INTERVAL '1' DAY,\n    enabled         => TRUE);\nEND;\n/

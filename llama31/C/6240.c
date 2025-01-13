@@ -1,1 +1,0 @@
-int foo(int x) __attribute__((pure)) {\n    // costly operation\n    return result;\n}

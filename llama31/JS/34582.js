@@ -1,0 +1,1 @@
+var source = new EventSource('progress.php');\n\nsource.onmessage = function(event) {\n    var percentage = event.data;\n    // Update the progress bar with the new percentage\n    document.getElementById('progress-bar').style.width = percentage + '%';\n};

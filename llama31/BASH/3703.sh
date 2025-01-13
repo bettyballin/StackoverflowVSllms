@@ -1,1 +1,0 @@
-chown -R apache:apache /path/to/your/project

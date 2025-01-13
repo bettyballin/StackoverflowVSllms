@@ -1,0 +1,1 @@
+class Sl_Dao_UserDB {}

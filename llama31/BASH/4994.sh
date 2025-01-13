@@ -1,1 +1,0 @@
-mkfifo /path/to/virtual_file

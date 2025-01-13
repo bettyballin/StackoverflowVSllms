@@ -1,0 +1,1 @@
+SELECT column\nFROM (\n  SELECT column\n  FROM table_name\n  WHERE userId=1\n  AND somethingelse=something else\n  LIMIT 3000\n) AS limited_results\nLIMIT 20, 20

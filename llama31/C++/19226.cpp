@@ -1,1 +1,0 @@
-#define MY_ASSERT(condition) \\n  if (!(condition)) { \\n    LOG(ERROR) << "Assertion failed: " << #condition; \\n    // Additional actions, such as aborting the program or throwing an exception \\n  }

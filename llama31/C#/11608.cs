@@ -1,1 +1,0 @@
-var loadOptions = new LoadOptions();\nloadOptions.LoadWith<Category>(c => c.Products);\n\nvar cat = db.Categories.LoadWithOptions(loadOptions).Where(c => c.ID == 1).SingleOrDefault();\nvar products = cat.Products.Skip(1).Take(1).ToList();

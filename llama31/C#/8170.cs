@@ -1,1 +1,0 @@
-public void main(string[] args)\n{\n    //do something\n}

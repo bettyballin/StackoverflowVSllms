@@ -1,0 +1,1 @@
+INSERT INTO your_table (ID, column1, column2, ...)\nSELECT 2, column1, column2, ...\nFROM your_csv_file;

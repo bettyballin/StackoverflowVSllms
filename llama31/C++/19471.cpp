@@ -1,1 +1,0 @@
-bool inBounds(Point * p)\n{\n  return p->x >= 0\n    && p->x <= (char)WIDTH\n    && p->y >= 0\n    && p->y <= (char)HEIGHT;\n}

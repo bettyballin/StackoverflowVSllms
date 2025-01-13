@@ -1,0 +1,1 @@
+$referer = $_SERVER['HTTP_REFERER'];\npreg_match('/^(https?:\/\/[^\/]+)/', $referer, $matches);\n$schemeAndHost = $matches[1];\n\n// $schemeAndHost now holds 'http://example.com'

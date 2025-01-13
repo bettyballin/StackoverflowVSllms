@@ -1,1 +1,0 @@
-protected override void OnPreRender(EventArgs e)\n{\n    if (!IsAuthorized(param1, param2, ...))\n    {\n        Response.Redirect("Unauthorized.aspx");\n        // or display an error message\n        Response.Write("Not authorized");\n        Response.End();\n    }\n    base.OnPreRender(e);\n}

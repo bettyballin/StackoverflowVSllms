@@ -1,1 +1,0 @@
-svn diff ^/trunk > codeplex.patch\nsvn patch codeplex.patch https://codeplex_repository_url

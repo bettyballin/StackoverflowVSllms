@@ -1,0 +1,1 @@
+if (isset($_GET['p']) && $_GET['p'] == 'view-member') {\n    $username = $_GET['username'];\n    // fetch member data from database using $username\n    // display member profile\n}

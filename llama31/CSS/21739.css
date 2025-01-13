@@ -1,1 +1,0 @@
-.rounded-corner-box {\n  border-radius: 1em;\n  -moz-border-radius: 1em;\n  -webkit-border-radius: 1em;\n  clip-path: inset(0 0 0 0 round 1em);\n}

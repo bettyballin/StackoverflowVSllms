@@ -1,1 +1,0 @@
-hour=$( /home/user/slow-hour )\nif [[ $hour =~ ^[0-9]+$ ]] && (( $hour >= 0 && $hour <= 23 )); then\n  crontab -l | sed -e "s/^\([^ ]*\) [0-9]* \(.*#change-enabled\)/\1$hour \2/" | crontab -\nelse\n  echo "Invalid hour returned by /home/user/slow-hour" >&2\n  exit 1\nfi

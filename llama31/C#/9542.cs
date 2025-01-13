@@ -1,1 +1,0 @@
-using System;\n\nclass HelloWorld \n{\n    static void Main(string[] args) \n    {\n        for (int i = 0; i <= 10; i++) \n        {\n            Console.WriteLine(Fibonacci(i));\n        }\n    }\n\n    static int Fibonacci(int n) \n    {\n        if (n <= 1) return n;\n        return Fibonacci(n - 1) + Fibonacci(n - 2);\n    }\n}

@@ -1,1 +1,0 @@
-using System;\nusing System.IO;\nusing System.Windows.Forms;\n\npublic class RtfConverter\n{\n    public static string ConvertRtfToText(byte[] rtfStream)\n    {\n        using (RichTextBox richTextBox = new RichTextBox())\n        {\n            richTextBox.Rtf = Encoding.ASCII.GetString(rtfStream);\n            return richTextBox.Text;\n        }\n    }\n}

@@ -1,0 +1,1 @@
+// upload.php\n$uploadDir = 'uploads/';\n$fileName = basename($_FILES['photo']['name']);\n$uploadFile = $uploadDir . $fileName;\n\nif (move_uploaded_file($_FILES['photo']['tmp_name'], $uploadFile)) {\n    echo 'Photo uploaded successfully!';\n} else {\n    echo 'Error uploading photo!';\n}

@@ -1,0 +1,1 @@
+<?php\nob_start();\nprint 'Hello';\n$output = ob_get_contents();\nob_end_clean();\necho trim($output, "\xef\xbb\xbf");\n?>

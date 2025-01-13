@@ -1,0 +1,1 @@
+// Server-side PHP (records.php)\n$query = $_POST['query'];\n// Validate and sanitize the query data\n// Use prepared statements to execute the query\n$stmt = $pdo->prepare($query);\n$stmt->execute();\n$records = $stmt->fetchAll();\n// Return the records data to the client\necho json_encode($records);

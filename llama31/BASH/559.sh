@@ -1,1 +1,0 @@
-# Open yast in console mode\nyast -i\n\n# Search for the PHP package\nyast -i php5\n\n# Upgrade the PHP package to the latest version (5.2)\nyast -i --update php5\n\n# Exit yast\nexit

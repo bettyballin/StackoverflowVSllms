@@ -1,0 +1,1 @@
+LOGGING = {\n    # ...\n    'loggers': {\n        'django.db.backends': {\n            'level': 'DEBUG',\n            'handlers': ['console'],\n        },\n    },\n}

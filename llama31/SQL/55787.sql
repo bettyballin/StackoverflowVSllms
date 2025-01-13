@@ -1,0 +1,1 @@
+CREATE TABLE Notes (\n  Id INT PRIMARY KEY,\n  Text VARCHAR(255),\n  CreatedAt TIMESTAMP,\n  UpdatedAt TIMESTAMP,\n  EntityId INT,\n  EntityType VARCHAR(50)\n);

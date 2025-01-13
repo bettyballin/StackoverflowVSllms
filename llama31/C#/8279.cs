@@ -1,1 +1,0 @@
-Person person = new Person { Name = "John" };\nstring name = person; // implicit conversion\nConsole.WriteLine(name); // outputs "John"

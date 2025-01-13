@@ -1,0 +1,1 @@
+const link = document.querySelector('a');\nconsole.log(link.dataset.tooltip); // "yes"\nconsole.log(link.dataset.tipcolour); // "yellow"

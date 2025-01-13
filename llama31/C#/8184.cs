@@ -1,1 +1,0 @@
-// Example of a recursive function that could benefit from TCO\npublic int factorial(int n) {\n    if (n == 0) {\n        return 1;\n    } else {\n        return n * factorial(n-1); // Tail call\n    }\n}

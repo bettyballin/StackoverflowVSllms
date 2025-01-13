@@ -1,1 +1,0 @@
-# Create a new file\ntouch file.txt\n\n# Set read-only permission for the owner\nchmod 400 file.txt\n\n# Try to view the file (this should work)\ncat file.txt

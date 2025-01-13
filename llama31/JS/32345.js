@@ -1,0 +1,1 @@
+function ArticleVote() {\n  // constructor code\n}\n\nArticleVote.prototype.submitVote = function(vote) {\n  // code to handle vote submission\n};\n\nvar articleVote = new ArticleVote();\narticleVote.submitVote('no');

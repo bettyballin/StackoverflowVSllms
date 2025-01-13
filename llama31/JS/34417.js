@@ -1,0 +1,1 @@
+<script src="http://api.flickr.com/services/rest/?method=flickr.photos.getInfo&photo_id=123456&format=json&jsoncallback=myCallback"></script>\n\nfunction myCallback(data) {\n  // Handle the response data\n}

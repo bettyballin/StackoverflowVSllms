@@ -1,1 +1,0 @@
-# mac_example.sh\nscreencapture -x -w -o browser_window.png

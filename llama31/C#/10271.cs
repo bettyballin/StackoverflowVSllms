@@ -1,1 +1,0 @@
-private void MyUserControl_Loaded(object sender, RoutedEventArgs e)\n{\n    var bindingExpression = GetBindingExpression(TextBox.TextProperty);\n    if (bindingExpression != null)\n    {\n        bindingExpression.UpdateSource();\n    }\n}

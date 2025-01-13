@@ -1,1 +1,0 @@
-var excludedStates = new[] { "CA", "IN", "MD" };\n\nvar authors = db.authors.Where(a => !excludedStates.Contains(a.state))\n                        .Select(a => new { a.au_lname, a.state });

@@ -1,1 +1,0 @@
-void Application_Error(object sender, EventArgs e)\n{\n    Exception ex = Server.GetLastError();\n    if (ex != null)\n    {\n        // Log the exception using ELMAH or another logging library\n        Elmah.ErrorLog.GetDefault(HttpContext.Current).Log(new Elmah.Error(ex));\n    }\n}

@@ -1,0 +1,1 @@
+CREATE TABLE messages_unread (\n  id INT PRIMARY KEY,\n  from_user_id INT,\n  to_user_id INT,\n  message TEXT,\n  created_at TIMESTAMP\n);\n\nCREATE TABLE messages_saved (\n  id INT PRIMARY KEY,\n  from_user_id INT,\n  to_user_id INT,\n  message TEXT,\n  created_at TIMESTAMP\n);

@@ -1,1 +1,0 @@
-// Create the secondary form\nSecondaryForm secondaryForm = new SecondaryForm();\n\n// Create a new thread for the secondary form\nThread secondaryThread = new Thread(() => {\n    Application.Run(secondaryForm);\n});\n\n// Start the secondary thread\nsecondaryThread.Start();

@@ -1,0 +1,1 @@
+$html = file_get_contents('https://example.com'); // Replace with your URL\n\n$dom = new DOMDocument();\n@$dom->loadHTML($html);\n$xpath = new DOMXPath($dom);\n\n$optionTexts = [];\n$optionElements = $xpath->query('//option');\nforeach ($optionElements as $option) {\n    $optionTexts[] = trim($option->nodeValue);\n}\n\nprint_r($optionTexts);

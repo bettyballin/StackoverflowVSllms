@@ -1,1 +1,0 @@
-[HttpPost]\npublic ActionResult Login(LoginViewModel model)\n{\n    if (ModelState.IsValid)\n    {\n        // Email address is valid and domain is registered\n    }\n    else\n    {\n        // Validation failed, return error messages\n    }\n}

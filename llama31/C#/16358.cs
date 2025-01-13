@@ -1,1 +1,0 @@
-using System.IO;\n\npublic bool IsFileFullyCopied(string filePath)\n{\n    try\n    {\n        using (FileStream fileStream = new FileStream(filePath, FileMode.Open, FileAccess.Read, FileShare.None))\n        {\n            return true;\n        }\n    }\n    catch (IOException)\n    {\n        return false;\n    }\n}

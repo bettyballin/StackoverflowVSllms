@@ -1,1 +1,0 @@
-#!/bin/bash\n\n# Weekly backup (Sunday)\nif [ $(date +%u) -eq 0 ]; then\n  mysqldump -u [username] -p[password] --lock-tables=false [database_name] > weekly_backup.sql\nelse\n  mysqldump -u [username] -p[password] [database_name] [table_name] > table_backup.sql\nfi

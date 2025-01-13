@@ -1,1 +1,0 @@
-using System.Messaging;\n\npublic class EmailSender\n{\n    public void SendEmail(Email email)\n    {\n        using (var queue = new MessageQueue("email_queue"))\n        {\n            var message = new Message(email);\n            queue.Send(message);\n        }\n    }\n}

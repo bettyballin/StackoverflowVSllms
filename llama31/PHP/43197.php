@@ -1,0 +1,1 @@
+// In your view template\n<h2><?= $this->ObjectName($this->object) ?></h2>

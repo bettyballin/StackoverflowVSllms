@@ -1,1 +1,0 @@
-openssl req -x509 -newkey rsa:2048 -nodes -keyout rootCA.key -out rootCA.crt -days 3650 -subj "/C=US/ST=State/L=Locality/O=Organization/CN=Root CA"

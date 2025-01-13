@@ -1,1 +1,0 @@
-git diff --stat old-version-branch..new-version-branch

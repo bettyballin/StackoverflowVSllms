@@ -1,1 +1,0 @@
-bundle exec cucumber-prof features/your_slow_feature.feature

@@ -1,0 +1,1 @@
+function myevalfunction() {\n    $backtrace = debug_backtrace();\n    echo "Eval'd code executed at " . $backtrace[0]['file'] . ":" . $backtrace[0]['line'] . "\n";\n}\n\neval('\n  function myevalfunction() {\n    echo "Test";\n  }\n  myevalfunction();\n');

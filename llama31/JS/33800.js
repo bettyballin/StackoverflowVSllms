@@ -1,0 +1,1 @@
+var val = decodeURIComponent(pair.split('=')[1]);

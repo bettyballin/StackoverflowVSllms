@@ -1,1 +1,0 @@
-setspn -s testuser@testdomain.com testuser

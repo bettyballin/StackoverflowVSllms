@@ -1,0 +1,1 @@
+public function getContents() {\n    return $this->contents;\n}

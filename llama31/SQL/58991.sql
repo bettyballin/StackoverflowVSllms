@@ -1,0 +1,1 @@
+CREATE TABLE Availability (\n    id INT,\n    date DATE DEFAULT '1900-01-01',\n    timeFrom TIME,\n    timeTo TIME\n)

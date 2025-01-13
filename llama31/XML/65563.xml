@@ -1,0 +1,1 @@
+<configuration>\n  <system.web>\n    <trace enabled="true" requestLimit="20" pageOutput="true" traceMode="SortByTime" localOnly="false" />\n  </system.web>\n  <system.webServer>\n    <handlers>\n      <add name="TraceHandler" path="trace.axd" verb="*" type="System.Web.Handlers.TraceHandler" />\n    </handlers>\n  </system.webServer>\n</configuration>

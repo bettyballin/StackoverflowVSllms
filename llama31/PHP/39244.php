@@ -1,0 +1,1 @@
+try {\n    $hostname = gethostname();\n    // or\n    $hostname = php_uname('n');\n    // Log or report the error with the hostname\n    // Make sure to sanitize and validate any user-input data\n    // Use prepared statements to prevent SQL injection\n} catch (Exception $e) {\n    // Log or report the exception securely\n    // Make sure not to expose sensitive information\n}

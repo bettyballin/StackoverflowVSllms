@@ -1,1 +1,0 @@
-template <class T>\nclass B : public A<T>{\n    T geti() { return A<T>::i; }\n};

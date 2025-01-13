@@ -1,0 +1,1 @@
+function html_encode($value) {\n    return htmlspecialchars($value, ENT_QUOTES, 'UTF-8');\n}

@@ -1,1 +1,0 @@
-sc.exe config Redmine start= auto

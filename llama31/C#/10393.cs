@@ -1,1 +1,0 @@
-// Before C# 4.0 (using reflection)\nobject obj = GetSomeObject();\nMethodInfo method = obj.GetType().GetMethod("SomeMethod");\nmethod.Invoke(obj, null);\n\n// C# 4.0 (using dynamic)\ndynamic obj = GetSomeObject();\nobj.SomeMethod();

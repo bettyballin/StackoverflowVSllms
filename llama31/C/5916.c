@@ -1,1 +1,0 @@
-BITMAPINFO bmi;\nbmi.bmiHeader.biSize = sizeof(BITMAPINFOHEADER);\nbmi.bmiHeader.biWidth = 1280;\nbmi.bmiHeader.biHeight = 800;\nbmi.bmiHeader.biPlanes = 1;\nbmi.bmiHeader.biBitCount = 24;\nbmi.bmiHeader.biCompression = BI_RGB;\n\nHBITMAP hbm = CreateDIBitmap(hdc, &bmi, CBM_INIT, your_memory_buffer, &bmi, DIB_RGB_COLORS);\nSelectObject(hdc, hbm);

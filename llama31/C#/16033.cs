@@ -1,1 +1,0 @@
-public class SessionFacade\n{\n    public static string GetUsername()\n    {\n        return HttpContext.Current.Session["username"].ToString();\n    }\n\n    public static void SetUsername(string username)\n    {\n        HttpContext.Current.Session["username"] = username;\n    }\n}

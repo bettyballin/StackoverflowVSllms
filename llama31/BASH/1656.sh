@@ -1,1 +1,0 @@
-# Example of HTTPS server using OpenSSL\nopenssl s_server -cert server.crt -key server.key -www

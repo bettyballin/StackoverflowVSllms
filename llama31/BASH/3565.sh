@@ -1,1 +1,0 @@
-sed -i.bakkk "/\./!d; s#/sa/#/he/#g" *

@@ -1,1 +1,0 @@
-cat /sys/class/gpio/gpio17/value

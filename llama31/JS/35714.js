@@ -1,0 +1,1 @@
+document.addEventListener('DOMContentLoaded', function() {\n  const resetButton = document.querySelector('[type="reset"]');\n  resetButton.addEventListener('click', function() {\n    document.querySelector('form').reset();\n  });\n});

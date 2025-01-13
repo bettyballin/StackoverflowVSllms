@@ -1,1 +1,0 @@
-.container {\n  display: flex;\n}\n\n#search {\n  width: 160px;\n  height: 25px;\n  background-color: #ffffff;\n}\n\n#navigation {\n  flex: 1; /* Fill the remaining space */\n  background-color: #A53030;\n}

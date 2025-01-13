@@ -1,1 +1,0 @@
-public class WebsiteListModel\n{\n    public List<Website> Websites { get; set; }\n}

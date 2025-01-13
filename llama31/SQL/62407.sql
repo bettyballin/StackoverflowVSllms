@@ -1,0 +1,1 @@
+-- Example of secure null handling in SQL\nSELECT * FROM users WHERE name IS NULL;

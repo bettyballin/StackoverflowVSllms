@@ -1,0 +1,1 @@
+$userData = GetUserData($userId);\n\n// Format the created date\n$formattedDate = date('Y-m-d', strtotime($userData['CreatedDate']));\n\n// Calculate foo*bar\n$foobar = $userData['foo'] * $userData['bar'];

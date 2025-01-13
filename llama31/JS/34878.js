@@ -1,0 +1,1 @@
+function rssToTarget(elem, data) {\n   // Process the data and append it to the elem\n}

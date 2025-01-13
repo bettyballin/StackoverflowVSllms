@@ -1,0 +1,1 @@
+$link = $_POST['link']; // assuming you're getting the link from a form submission\n\nif (strpos($link, 'http://') !== 0) {\n    $link = 'http://' . $link;\n}

@@ -1,0 +1,1 @@
+$string = "Porcupines\r\nare\r\n\r\n\r\nporcupiney.";\n\n// Normalize line breaks to \n\n$string = preg_replace('/\r\n|\r/', "\n", $string);\n\n// Replace 3 or more consecutive line breaks with 2 line breaks\n$string = preg_replace('/\n{3,}/', "\n\n", $string);\n\n// Convert line breaks to <br />\n$string = nl2br($string);\n\necho $string;

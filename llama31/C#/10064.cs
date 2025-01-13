@@ -1,1 +1,0 @@
-var repo = new YourRepository();\nrepo.IncludePrimaryKeyColumnsInInsert = false;

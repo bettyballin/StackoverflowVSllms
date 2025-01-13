@@ -1,1 +1,0 @@
-mysql -uroot -p<password> -e "CREATE KEYRING 'my_keyring' WITH MASTER KEY ('my_master_key');"

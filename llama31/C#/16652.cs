@@ -1,1 +1,0 @@
-SqlDataAdapter sqlDataAdapter = new SqlDataAdapter();\n// ...\n\nSqlCommand[] commands = SqlHelper.GetSqlCommands(sqlDataAdapter);\n\nTableAdaptor tableAdaptor = new TableAdaptor();\n// ...\n\nSqlCommand[] commands2 = SqlHelper.GetSqlCommands(tableAdaptor);

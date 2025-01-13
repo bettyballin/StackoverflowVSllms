@@ -1,1 +1,0 @@
-svnsync init https://your-repo.com/third-party-code \\n    https://third-party-repo.com/path/to/folder\n\nsvnsync sync --non-interactive \\n    https://your-repo.com/third-party-code \\n    https://third-party-repo.com/path/to/folder

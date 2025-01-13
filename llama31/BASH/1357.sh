@@ -1,1 +1,0 @@
-#!/bin/bash\n\n# Run the script 3 times with an hour apart\nfor i in {1..3}; do\n  # Your mail script code here\n  echo "Running mail script..."\n  # ...\n  sleep 1h\ndone

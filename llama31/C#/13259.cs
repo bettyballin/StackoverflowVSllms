@@ -1,1 +1,0 @@
-using System.Reflection;\n\nAssembly assembly = Assembly.LoadFrom(@"c:\some\path\to\a\file.dll");\nGuid guid = (Guid)assembly.GetCustomAttributes(typeof(GuidAttribute), false).GetValue(0);

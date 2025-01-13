@@ -1,0 +1,1 @@
+$(document).keypress(function(event) {\n    if (event.keyCode == 27) {\n        var a = document.getElementById('linkid');\n        var event = new Sys.UI.DomEvent();\n        Sys.Mvc.AsyncHyperlink.handleClick(a, event, {\n            insertionMode: Sys.Mvc.InsertionMode.replace,\n            updateTargetId: 'SomeDivId'\n        });\n    }\n});

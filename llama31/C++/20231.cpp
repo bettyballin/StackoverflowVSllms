@@ -1,1 +1,0 @@
-void\nCsvParser::run (void * null)\n{\n    // ...\n    this->fields = (Cell **)g_realloc(this->fields, maxOfFields * sizeof(Cell *));\n    // ...\n}

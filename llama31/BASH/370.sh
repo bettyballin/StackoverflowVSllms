@@ -1,1 +1,0 @@
-setfacl -m u:apache:rwx /path/to/directory

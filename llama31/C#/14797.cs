@@ -1,1 +1,0 @@
-using System.Security.Cryptography;\n\n// Store credentials\nvar cred = new NetworkCredential("username", "password");\nvar credMgr = new CredentialManager();\ncredMgr.WriteCredential("YourApp", cred);\n\n// Retrieve credentials\nvar retrievedCred = credMgr.ReadCredential("YourApp");\nvar password = retrievedCred.Password;

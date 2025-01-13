@@ -1,0 +1,1 @@
+SELECT * FROM person WHERE UPPER(last_name) LIKE 'P%';

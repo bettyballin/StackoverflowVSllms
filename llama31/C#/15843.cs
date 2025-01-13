@@ -1,1 +1,0 @@
-class MyScriptingEngine : ScriptingEngine {\n    override void eval(string code) {\n        // Implementation-specific eval logic\n    }\n\n    override string readFile(string filename) {\n        // Implementation-specific read file logic\n    }\n}

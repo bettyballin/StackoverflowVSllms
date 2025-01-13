@@ -1,1 +1,0 @@
-#!/bin/bash\n\ngcc helloworld.c -o helloworld 2>&1 | tee output.txt\n\nif [ $? -eq 0 ]; then\n    if grep -q "warning:" output.txt; then\n        echo "Compiled with warnings"\n    else\n        echo "Compiled successfully"\n    fi\nelse\n    echo "Compilation failed"\nfi\n\nrm output.txt

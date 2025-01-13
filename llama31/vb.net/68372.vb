@@ -1,0 +1,1 @@
+Public Class EmployeeRepository\n    Public Function GetEmployee(EmployeeID As Integer) As Employee\n        ' implementation to retrieve employee data from database\n    End Function\nEnd Class

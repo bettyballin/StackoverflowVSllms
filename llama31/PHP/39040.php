@@ -1,0 +1,1 @@
+$json = json_encode($response);\n$json = json_decode($json, true); // decode JSON to PHP array\n$json = mb_convert_encoding($json, "ISO-8859-9", "UTF-8"); // convert encoding\n$json = json_encode($json); // re-encode to JSON\nheader('Content-type: application/json; charset=ISO-8859-9');\necho $json;

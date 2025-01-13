@@ -1,1 +1,0 @@
-[HttpPost]\npublic ActionResult MyAction(MyModel model)\n{\n    if (TryValidateModel(model))\n    {\n        // Model is valid\n    }\n    else\n    {\n        // Model is not valid\n    }\n}

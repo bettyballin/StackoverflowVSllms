@@ -1,0 +1,1 @@
+$html = '<html>\n  <head></head>\n  <body>\n    <h2>Title1</h2>\n    <p>Paragraph1</p>\n    <p>Paragraph2</p>\n    <h2>Title2</h2>\n    <p>Paragraph3</p>\n  </body>\n</html>';\n\n$doc = new DOMDocument();\n$doc->loadHTML($html);\n$xpath = new DOMXPath($doc);\n\n$elements = $xpath->query('//h2 | //p');\n\nforeach ($elements as $element) {\n    echo $element->nodeValue . "\n";\n}

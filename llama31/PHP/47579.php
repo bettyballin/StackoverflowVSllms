@@ -1,0 +1,1 @@
+$dsn = 'mysql:host=localhost;dbname=example';\n$username = 'username';\n$password = 'password';\n\n$pdo = new PDO($dsn, $username, $password);\n\n$lastname = filter_input(INPUT_POST, 'lastname', FILTER_SANITIZE_STRING);\n\n$stmt = $pdo->prepare('SELECT * FROM users WHERE lastname = :lastname');\n$stmt->bindParam(':lastname', $lastname);\n$stmt->execute();

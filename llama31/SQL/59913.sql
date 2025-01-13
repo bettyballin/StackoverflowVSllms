@@ -1,0 +1,1 @@
+ALTER TABLE child_table\nADD CONSTRAINT fk_child_table_parent_table\nFOREIGN KEY (parent_id)\nREFERENCES parent_table (id)\nON DELETE CASCADE\nON UPDATE CASCADE;

@@ -1,1 +1,0 @@
-// Example of Sitecore's security features\npublic class SecureItem {\n  // Implement secure item handling using Sitecore's Security API\n  // ...\n}

@@ -1,1 +1,0 @@
-typedef struct {\n    unsigned char length;\n    char data[256]; // assuming the max length of the string is 255\n} ShortString;\n\ntypedef ShortString (*GETCPUID)(BYTE);\ntypedef ShortString (*GETPID)(PCHAR);

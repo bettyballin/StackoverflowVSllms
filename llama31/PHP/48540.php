@@ -1,0 +1,1 @@
+$data = array('foo' => 'bar', 'ninja' => 'pirate');\n$ch = curl_init();\ncurl_setopt($ch, CURLOPT_URL, 'https://example.com');\ncurl_setopt($ch, CURLOPT_POST, 1);\ncurl_setopt($ch, CURLOPT_POSTFIELDS, $data);\ncurl_exec($ch);\ncurl_close($ch);

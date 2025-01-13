@@ -1,0 +1,1 @@
+Function getPrice(itemPrice, quantity, clientAge, hourOfDay):\n  If hourOfDay > 18 Then\n    discount = calculateDiscount(5, itemPrice)\n  End If\n  ...\nEnd Functio

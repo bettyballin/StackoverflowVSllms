@@ -1,1 +1,0 @@
-div#paneMiddle > div {\n  /* All divs that are children of div#paneMiddle */\n  width: 590px;\n  margin: 5px 5px 5px 5px;\n  position: relative;\n  border-color: #FFCC33;\n  border-style: solid;\n  border-width: thin;\n  overflow: auto; /* Add this line */\n}

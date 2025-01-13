@@ -1,0 +1,1 @@
+require 'erb'\n\ntemplate = ERb.new(File.read('template.erb'))\nusername = 'John Doe'\nuser_logged_in = true\n\nputs template.result(binding)

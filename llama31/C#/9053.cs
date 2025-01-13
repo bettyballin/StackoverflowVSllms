@@ -1,1 +1,0 @@
-[WebMethod]\npublic static void MyMethod(HttpContext context)\n{\n    UserWebSession session = (UserWebSession)context.Session["UserWebSession"];\n    // Use the session data\n}

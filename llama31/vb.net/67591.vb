@@ -1,0 +1,1 @@
+Dim value As Byte() = ' your byte array here\nDim str As String = System.Text.Encoding.Unicode.GetString(value)

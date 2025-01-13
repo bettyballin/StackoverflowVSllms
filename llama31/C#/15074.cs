@@ -1,1 +1,0 @@
-public ActionResult ReturnToPreviousPage()\n{\n    return Redirect(Session["PreviousUrl"] as string);\n}

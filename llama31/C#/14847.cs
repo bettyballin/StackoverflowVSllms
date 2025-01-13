@@ -1,1 +1,0 @@
-// Example of a simple EF Core DbContext\nusing Microsoft.EntityFrameworkCore;\n\npublic class MyDbContext : DbContext\n{\n    public DbSet<MyEntity> MyEntities { get; set; }\n\n    protected override void OnModelCreating(ModelBuilder modelBuilder)\n    {\n        modelBuilder.Entity<MyEntity>().ToTable("MyEntities");\n    }\n}

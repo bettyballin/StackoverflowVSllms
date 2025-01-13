@@ -1,1 +1,0 @@
-sudo touch /tmp/php-fastcgi.socket\nsudo chmod 660 /tmp/php-fastcgi.socket

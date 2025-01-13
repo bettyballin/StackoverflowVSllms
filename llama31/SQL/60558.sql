@@ -1,0 +1,1 @@
+CREATE TRIGGER update_view_trigger\nAFTER UPDATE ON my_table\nFOR EACH ROW\nBEGIN\n  CALL update_view();\nEND;

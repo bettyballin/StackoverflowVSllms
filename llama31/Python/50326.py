@@ -1,0 +1,1 @@
+functions = {\n    'keyword1': (my_function, get_num_required_params(my_function)),\n    'keyword2': (my_function_with_args, get_num_required_params(my_function_with_args)),\n    # ...\n}

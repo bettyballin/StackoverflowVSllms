@@ -1,0 +1,1 @@
+<configuration>\n  <system.web>\n    <caching>\n      <outputCache enableOutputCache="false" />\n    </caching>\n  </system.web>\n</configuration>

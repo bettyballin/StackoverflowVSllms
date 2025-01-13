@@ -1,1 +1,0 @@
-chown www-data:www-data /usr/local/bin/convert

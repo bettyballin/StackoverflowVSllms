@@ -1,0 +1,1 @@
+$a = '42';\n$b = 42;\n\nvar_dump($a == $b); // bool(true)

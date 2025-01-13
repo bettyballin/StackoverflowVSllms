@@ -1,1 +1,0 @@
-git checkout main\n   git merge --squash feature/new-feature\n   git commit -m "Add new feature"

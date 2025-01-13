@@ -1,0 +1,1 @@
+$config->set('HTML.AllowedAttributes', 'a.href,a.title,a.rel,img.src,img.alt,div.class');

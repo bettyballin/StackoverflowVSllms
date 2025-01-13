@@ -1,1 +1,0 @@
-cat *.eml > concatenated_emails.txt

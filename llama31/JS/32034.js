@@ -1,0 +1,1 @@
+class StringWrapper {\n  constructor(str) {\n    this.str = str;\n  }\n\n  get(index) {\n    return this.str.charAt(index);\n  }\n}\n\nconst wrapper = new StringWrapper("Hello");\nconsole.log(wrapper[0]); // prints "H"

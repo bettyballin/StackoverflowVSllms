@@ -1,0 +1,1 @@
+Dim xs As New XmlReaderSettings()\nxs.IgnoreWhitespace = True\nxs.IgnoreComments = True\nxs.XmlResolver = Nothing\n\nDim xd As New XmlSerializer(GetType(cResponseMessage))\nUsing xr As XmlReader = XmlTextReader.Create(sr, xs)\n    resp = xd.Deserialize(xr)\nEnd Using

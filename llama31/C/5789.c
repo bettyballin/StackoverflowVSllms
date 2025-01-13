@@ -1,1 +1,0 @@
-for(i = 0; i < n; i++)\n{\n    char b[10];  // assuming i won't be more than 9 digits\n    sprintf(b, "%d", i);\n    // don't forget to use b before the next iteration, \n    // because its value will be overwritten\n}

@@ -1,1 +1,0 @@
-MessageBox.Show(str1 + common + "\n" + str2 + common, \n                "Test", MessageBoxButtons.OK, MessageBoxIcon.None, \n                MessageBoxDefaultButton.Button1, MessageBoxOptions.DefaultFont, \n                new Font("Consolas", 10));

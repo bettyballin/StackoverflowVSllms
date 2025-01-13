@@ -1,0 +1,1 @@
+SELECT \n    DATEADD(year, DATEDIFF(year, '2005-05-01', [date]), '2005-05-01') AS [start_date],\n    DATEADD(year, DATEDIFF(year, '2005-05-01', [date]) + 1, '2005-05-01') - 1 AS [end_date],\n    COUNT(*) AS cnt\nFROM logins\nGROUP BY DATEDIFF(year, '2005-05-01', [date])\nORDER BY [start_date]

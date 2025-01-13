@@ -1,1 +1,0 @@
-[WebMethod]\npublic string[] GetCompletionList(string prefixText, int count)\n{\n  string[] data = new string[] { "Mark Adams", "John Smith", "Jane Doe" };\n  var matches = data.Where(s => s.Contains(prefixText));\n  return matches.Take(count).ToArray();\n}

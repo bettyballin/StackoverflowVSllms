@@ -1,1 +1,0 @@
-mysql -u your_user -p your_password your_database --xml -e "SELECT HEX(blob_column) AS blob_data FROM your_table"

@@ -1,0 +1,1 @@
+const baseUrl = window.location.href.endsWith('/') ? window.location.href : window.location.href + '/';\ndocument.write('<base href="' + baseUrl + '">');

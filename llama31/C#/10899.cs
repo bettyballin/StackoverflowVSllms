@@ -1,1 +1,0 @@
-btnview.OnClientClick = "document.getElementById('hiddenButtonId').click(); return false;"

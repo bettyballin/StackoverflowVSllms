@@ -1,1 +1,0 @@
-public interface IClassA<T> { }\n\npublic class ClassB : IClassA<ClassB> { }\n\npublic class ClassC : ClassB, IClassA<ClassC> { }

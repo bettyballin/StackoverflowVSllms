@@ -1,1 +1,0 @@
-DateTime fileSavedDateTime = System.IO.File.GetLastWriteTime(filepath);\nTimeSpan gap = fileSavedDateTime - SavedLastAccessDateTime;\nif (gap.Duration() > TimeSpan.FromMilliseconds(1))\n{\n    // do something - new save\n}

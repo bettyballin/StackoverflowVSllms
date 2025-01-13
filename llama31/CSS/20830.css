@@ -1,1 +1,0 @@
-.container {\n  display: flex;\n  flex-direction: column;\n}\n\n.first-div {\n  order: 2;\n}\n\n.second-div {\n  order: 1;\n}

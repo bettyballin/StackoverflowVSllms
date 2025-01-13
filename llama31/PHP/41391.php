@@ -1,0 +1,1 @@
+$domain = "http://www.google.com/docs";\nif (preg_match('/google\.com$/', $domain)) {\n    echo "yes";\n} else {\n    echo "no";\n}

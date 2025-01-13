@@ -1,1 +1,0 @@
-find . | awk -F"/" '{ print $2 }' > file1\nfind ~/bin/FilesDvorak/.* -maxdepth 0 | awk -F"/" '{ print $6 }' > file2

@@ -1,0 +1,1 @@
+use Defuse\Crypto\Crypto;\nuse Defuse\Crypto\Key;\n\n// Generate a key\n$key = Key::createNewRandomKey();\n\n// Encrypt a message\n$message = 'your_id_here';\n$ciphertext = Crypto::encrypt($message, $key);\n\n// Decrypt the ciphertext\n$plaintext = Crypto::decrypt($ciphertext, $key);

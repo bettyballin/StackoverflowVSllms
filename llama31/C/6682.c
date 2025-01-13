@@ -1,1 +1,0 @@
-if (!DeleteFile(fileName)) {\n    DWORD errorCode = GetLastError();\n    // handle error\n}\n\nif (!CopyFile(sourceFile, destinationFile, FALSE)) {\n    DWORD errorCode = GetLastError();\n    // handle error\n}

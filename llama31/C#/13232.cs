@@ -1,1 +1,0 @@
-protected override void OnInit(EventArgs e)\n{\n    base.OnInit(e);\n    this.Load += new EventHandler(Page_Load);\n}\n\nprotected void Page_Load(object sender, EventArgs e)\n{\n    // Event handling code here\n}

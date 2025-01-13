@@ -1,1 +1,0 @@
-using System.Security.Principal;\n\n// ...\n\nWindowsIdentity identity = WindowsIdentity.GetCurrent();\nstring identityName = identity.Name;\nstring authenticationType = identity.AuthenticationType;\nbool isAuthenticated = identity.IsAuthenticated;

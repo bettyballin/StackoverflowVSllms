@@ -1,1 +1,0 @@
-routes.MapRoute(\n    name: "MyController",\n    template: "MyController/{id}",\n    defaults: new { controller = "MyController", action = "Index", id = UrlParameter.Optional }\n);

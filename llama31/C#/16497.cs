@@ -1,1 +1,0 @@
-var removedFromFoo = GetFoo().Except(intersection).ToList();\nvar removedFromBar = GetBar().Except(intersection).ToList();

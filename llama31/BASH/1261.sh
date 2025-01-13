@@ -1,1 +1,0 @@
-find /cygdrive/c/images -type f -name "*.jpg" -exec mkdir -p /cygdrive/d/media/{} \; -exec mv {} /cygdrive/d/media/{} \;

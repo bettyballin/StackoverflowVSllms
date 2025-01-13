@@ -1,1 +1,0 @@
-public static class HttpRequestBaseExtensions\n{\n    public static bool IsAjaxRequest(this HttpRequestBase request)\n    {\n        return request.Headers["X-Requested-With"] == "XMLHttpRequest";\n    }\n}

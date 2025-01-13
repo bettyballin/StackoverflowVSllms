@@ -1,0 +1,1 @@
+class Logger {\n    static public function log($msg) {\n        $bt = debug_backtrace(DEBUG_BACKTRACE_IGNORE_ARGS);\n        foreach ($bt as $caller) {\n            if ($caller['class'] !== 'Logger') {\n                echo "$msg (file: {$caller['file']}, line number: {$caller['line']})";\n                break;\n            }\n        }\n    }\n}

@@ -1,0 +1,1 @@
+CREATE FUNCTION dbo.RemoveApostrophes (@str nvarchar(255))\nRETURNS nvarchar(255)\nAS\nBEGIN\n    DECLARE @result nvarchar(255)\n    SET @result = REPLACE(REPLACE(REPLACE(@str, '&apos;', ''), '&#39;', ''), '''', '')\n    RETURN @result\nEND

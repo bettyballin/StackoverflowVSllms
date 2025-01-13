@@ -1,1 +1,0 @@
-wpa your_app.exe

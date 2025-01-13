@@ -1,0 +1,1 @@
+function remove_value($array, $value) {\n    return array_values(array_filter($array, function($v) use ($value) {\n        return $v !== $value;\n    }));\n}

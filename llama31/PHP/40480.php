@@ -1,0 +1,1 @@
+// profile.php\n$username = $_GET['user']; // or use a more secure way to retrieve the username\n// display the profile for the given username

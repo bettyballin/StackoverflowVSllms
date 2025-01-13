@@ -1,1 +1,0 @@
-public void GetRecordsByTableName(string tableName)\n{\n    string sql = "SELECT * FROM @tableName";\n    SqlParameter tableNameParam = new SqlParameter("@tableName", SqlDbType.NVarChar);\n    tableNameParam.Value = tableName;\n\n    var records = dataContext.ExecuteQuery<object>(sql, tableNameParam);\n\n    ViewData["recordsByTableName"] = records.ToList();\n}

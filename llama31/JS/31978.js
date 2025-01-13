@@ -1,0 +1,1 @@
+var chkResult = Validation();\nnew Promise(resolve => setTimeout(resolve, 10000)).then(() => {\n  document.getElementById('abc').innerHTML = chkResult;\n});

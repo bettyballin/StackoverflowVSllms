@@ -1,0 +1,1 @@
+SELECT j.email \nFROM jobseeker j\nWHERE NOT EXISTS (\n  SELECT 1 \n  FROM aspnet_Membership m \n  WHERE m.email = j.email\n)

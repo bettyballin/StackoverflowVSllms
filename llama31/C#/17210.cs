@@ -1,1 +1,0 @@
-using (var db = Database.Context)\n{\n    var root = (from post in db.Post\n                where post.Id == rootPostId\n                select post).Single();\n\n    root.LastActivityUtc = DateTime.UtcNow;\n\n    try\n    {\n        db.SubmitChanges();\n    }\n    catch (ChangeConflictException)\n    {\n        db.Refresh(RefreshMode.OverwriteCurrentValues, root);\n    }\n}

@@ -1,1 +1,0 @@
-if (dr.Table.Columns.Contains("column") && dr["column"] != DBNull.Value)\n{\n    // Proceed with caution\n}

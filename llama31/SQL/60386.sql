@@ -1,0 +1,1 @@
+MERGE INTO MyTable AS target\nUSING (SELECT @key, @datafield1, @datafield2) AS source (KEY, datafield1, datafield2)\nON target.KEY = source.KEY\nWHEN MATCHED THEN\n    UPDATE SET datafield1 = source.datafield1, datafield2 = source.datafield2\nWHEN NOT MATCHED THEN\n    INSERT (KEY, datafield1, datafield2)\n    VALUES (source.KEY, source.datafield1, source.datafield2);

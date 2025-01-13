@@ -1,1 +1,0 @@
-convert input.gif -coalesce -gravity bottom-right -draw "image over 0,0 0,0 watermark.png" output.gif\n\n# remove every 2nd frame\nconvert input.gif -coalesce -delete 2 output.gif

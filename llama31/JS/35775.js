@@ -1,0 +1,1 @@
+$.ajax({\n    type: 'GET',\n    url: '/some/url',\n    timeout: 5000, // abort after 5 seconds\n    success: function(data) {\n        // handle success\n    }\n});

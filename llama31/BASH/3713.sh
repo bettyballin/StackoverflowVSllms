@@ -1,1 +1,0 @@
-gcc -o read_pdf read_pdf.c -lpoppler

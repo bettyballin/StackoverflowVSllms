@@ -1,0 +1,1 @@
+function showSpinner() {\n  document.getElementById('spinner').style.display = 'block';\n}

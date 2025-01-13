@@ -1,1 +1,0 @@
-using System.Net;\nusing System.ServiceModel.Channels;\n\npublic class SocksProxyBinding : CustomBinding\n{\n    public SocksProxyBinding() : base()\n    {\n        var socksProxy = new SocksProxy("socks-proxy-host", 1080);\n        var tcpTransport = new TcpTransportBindingElement();\n        tcpTransport.Proxy = socksProxy;\n        Elements.Add(tcpTransport);\n    }\n}

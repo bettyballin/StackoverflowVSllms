@@ -1,0 +1,1 @@
+# Open the Rails console\nrails c\n\n# Run the following command to export a specific table to a YAML file\nFile.open('fixtures/your_table.yml', 'w') { |f| f.puts YourTable.all.to_yaml }

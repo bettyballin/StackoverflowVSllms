@@ -1,0 +1,1 @@
+# your script code here\n\nrequire 'irb'\nbinding.irb

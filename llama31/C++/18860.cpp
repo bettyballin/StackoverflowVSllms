@@ -1,1 +1,0 @@
-#include <Windows.h>\n#include <KnownFolders.h>\n\nint main() {\n    PWSTR path = NULL;\n    HRESULT hr = SHGetKnownFolderPath(FOLDERID_Programs, 0, NULL, &path);\n    if (SUCCEEDED(hr)) {\n        // Use the path\n        CoTaskMemFree(path);\n    }\n    return 0;\n}

@@ -1,0 +1,1 @@
+import psutil\n\ndef is_process_running(pid):\n    try:\n        process = psutil.Process(pid)\n        return process.is_running()\n    except psutil.NoSuchProcess:\n        return False\n\n# Example usage:\npid = int(sys.argv[1])\nif is_process_running(pid):\n    print("Running")\nelse:\n    print("Not running")

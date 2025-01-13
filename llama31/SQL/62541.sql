@@ -1,0 +1,1 @@
+CREATE TABLE images (\n  id INT PRIMARY KEY,\n  file_name VARCHAR(255),\n  description TEXT,\n  tags TEXT,\n  user_id INT\n);

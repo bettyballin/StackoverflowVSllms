@@ -1,1 +1,0 @@
-// Example T4 template code\n<#@ template debug="true" hostSpecific="true" language="C#" #>\n<#@ output extension=".cs" #>\n\n// Generate a simple class based on the DSL model\npublic class <%= this.Model.Name %>\n{\n    // Properties and methods go here\n}

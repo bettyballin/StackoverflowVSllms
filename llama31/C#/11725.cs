@@ -1,1 +1,0 @@
-DataSet ds = new DataSet();\n// ... populate the dataset ...\n\nusing (MemoryStream ms = new MemoryStream())\n{\n    ds.WriteXml(ms, XmlWriteMode.WriteSchema);\n    ms.Position = 0;\n\n    XmlDocument xmlDoc = new XmlDocument();\n    xmlDoc.Load(ms);\n}

@@ -1,1 +1,0 @@
-#video {\n  width: 320px;\n  height: 240px;\n}\n\n#video.enlarged {\n  width: 640px;\n  height: 480px;\n  position: fixed;\n  top: 50%;\n  left: 50%;\n  transform: translate(-50%, -50%);\n  z-index: 1000;\n}

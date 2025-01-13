@@ -1,1 +1,0 @@
-using System.IO;\n\nclass Program\n{\n    static void Main(string[] args)\n    {\n        string filePath = @"C:\path\to\your\file.txt";\n        DateTime newModifiedTime = DateTime.Now;\n\n        File.SetLastWriteTime(filePath, newModifiedTime);\n    }\n}

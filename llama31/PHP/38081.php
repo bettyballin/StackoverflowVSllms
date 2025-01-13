@@ -1,0 +1,1 @@
+$headers = get_headers($url, 1);\n$url = $headers['Location'];

@@ -1,0 +1,1 @@
+SELECT \n  NAME,\n  COUNT(IF(REF IS NULL, 1, NULL)) AS null_count,\n  COUNT(IF(REF IS NOT NULL, 1, NULL)) AS not_null_count\nFROM TABLE\nGROUP BY NAME;

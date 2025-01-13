@@ -1,1 +1,0 @@
-// Use Resharper's code analysis\nusing JetBrains.ReSharper.Daemon;\nusing JetBrains.ReSharper.Daemon.CSharp;\n\n// Create a new instance of the code analysis service\nvar service = new CSharpCodeAnalysisService();\n\n// Analyze your code\nvar results = service.Analyze("YourCode.cs");

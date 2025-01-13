@@ -1,0 +1,1 @@
+SELECT * FROM employees\nWHERE salary > (SELECT AVG(salary) FROM employees) AS avg_salary;

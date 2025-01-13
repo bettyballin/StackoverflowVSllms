@@ -1,1 +1,0 @@
-# Example usage\n$ javac -cp nestedvm.jar MyCFile.c\n$ java -cp nestedvm.jar MyCFile

@@ -1,1 +1,0 @@
-// plugin_manager.cpp\n#include "app_interface.h"\n#include "plugin.h"\n\nvoid PluginManager::loadPlugin(const QString& pluginName) {\n    // Load the plugin\n    Plugin* plugin = // ...\n\n    // Create an instance of the AppInterface\n    AppInterface* appInterface = new MyApp();\n\n    // Pass the AppInterface to the plugin's init() function\n    plugin->init(appInterface);\n}

@@ -1,1 +1,0 @@
-using (var reader = new LogReader("path/to/log/file"))\n{\n    var entries = reader.ReadEntries()\n        .Where(e => e.Date >= DateTime.Now.AddDays(-7))\n        .OrderBy(e => e.Date)\n        .Take(100);\n\n    foreach (var entry in entries)\n    {\n        Console.WriteLine($"{entry.IPAddress} {entry.Method} {entry.Uri}");\n    }\n}

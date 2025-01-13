@@ -1,0 +1,1 @@
+class MyController extends CI_Controller {\n    public function __construct() {\n        parent::__construct();\n        $this->load->model('my_model');\n    }\n}

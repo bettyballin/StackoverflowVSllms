@@ -1,1 +1,0 @@
-@using (Html.BeginForm("GraphDelete", "Graph", FormMethod.Delete)) {\n    // form fields\n}

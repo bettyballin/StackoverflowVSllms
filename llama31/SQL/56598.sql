@@ -1,0 +1,1 @@
+SELECT * \nFROM compliance_corner \nWHERE (body LIKE '%' + @query + '%') \nOR (title LIKE '%' + @query + '%')

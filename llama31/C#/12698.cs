@@ -1,1 +1,0 @@
-Hashtable myTable = new Hashtable();

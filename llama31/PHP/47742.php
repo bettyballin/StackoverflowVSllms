@@ -1,0 +1,1 @@
+$matrix = array(\n    array(1, 2, 3),\n    array(4, 5, 6),\n    array(7, 8, 9)\n);\n\n$svd = svd($matrix);\n\nprint_r($svd);

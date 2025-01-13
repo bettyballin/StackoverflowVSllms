@@ -1,1 +1,0 @@
-(csc /t:exe /out:a.exe SomeFile.cs) -and (a.exe)

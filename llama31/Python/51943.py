@@ -1,0 +1,1 @@
+from sklearn.ensemble import RandomForestClassifier\nfrom sklearn.feature_extraction.text import TfidfVectorizer\n\ndef train_model(X_train, y_train):\n    vectorizer = TfidfVectorizer()\n    X_train_tfidf = vectorizer.fit_transform(X_train)\n    model = RandomForestClassifier()\n    model.fit(X_train_tfidf, y_train)\n    return model

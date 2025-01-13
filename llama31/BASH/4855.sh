@@ -1,1 +1,0 @@
-#!/bin/bash\n\n# Define the PHP version and installation directory\nPHP_VERSION=5.2.5\nINSTALL_DIR=/usr/local/php5\n\n# Recompile PHP with Tidy support\n./configure --prefix=$INSTALL_DIR \\n            --with-apache=/usr/sbin/apache2 \\n            --with-tidy\nmake\nmake install

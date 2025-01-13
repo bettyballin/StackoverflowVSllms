@@ -1,0 +1,1 @@
+def derivative(arr)\n  arr.each_cons(2).map { |a, b| b - a }\nend

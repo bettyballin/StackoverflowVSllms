@@ -1,0 +1,1 @@
+fetch(url)\n  .then(response => response.json())\n  .then(data => console.log(data));

@@ -1,0 +1,1 @@
+while (div.firstChild) {\n  div.removeChild(div.firstChild);\n}

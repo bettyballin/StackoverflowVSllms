@@ -1,1 +1,0 @@
-var visitor = new SqlExpressionVisitor();\nvar expression = (Expression<Func<T, bool>>)(b => b.user == "joe" && b.domain == "bloggs.com");\nvar sql = visitor.GetSql(expression);\nConsole.WriteLine(sql); // Output: (user = 'joe' AND domain = 'bloggs.com')

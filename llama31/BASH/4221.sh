@@ -1,1 +1,0 @@
-cdb -z <crash_dump_file> -y <symbol_path> -v

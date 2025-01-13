@@ -1,1 +1,0 @@
-pdfjam --a4paper --landscape input.pdf output.pdf

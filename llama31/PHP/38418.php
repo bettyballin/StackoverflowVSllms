@@ -1,0 +1,1 @@
+// process_order.php\n$product_ids = $_POST['product_id'];\n$quantities = $_POST['quantity'];\n\nforeach ($product_ids as $index => $product_id) {\n    $quantity = $quantities[$index];\n    // Process the order for this product\n    echo "Product ID: $product_id, Quantity: $quantity\n";\n}

@@ -1,1 +1,0 @@
-public class Bookmarks\n{\n    public List<Bookmark> BookmarkList { get; set; }\n}\n\npublic Bookmarks CopyBookmarks(Bookmarks original)\n{\n    return new Bookmarks\n    {\n        BookmarkList = new List<Bookmark>(original.BookmarkList)\n    };\n}

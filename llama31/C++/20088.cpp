@@ -1,1 +1,0 @@
-template <typename T>\nT range(vector<T> &v)\n{\n   typename vector<T>::iterator i = v.begin();\n   // ...\n}

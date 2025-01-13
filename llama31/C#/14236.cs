@@ -1,1 +1,0 @@
-amespace MyProject.Data\n{\n    // typed dataset code here\n}

@@ -1,1 +1,0 @@
-SetProxySettings("127.0.0.1", 8080);\nProcess.Start("iexplore.exe", "https://www.example.com");

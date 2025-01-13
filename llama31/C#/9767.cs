@@ -1,1 +1,0 @@
-var query = linqDataSource.Select(new DataSourceSelectArguments());\nstring sqlQuery = query.ToString();

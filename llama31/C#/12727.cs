@@ -1,1 +1,0 @@
-private void button1_Click(object sender, EventArgs e)\n{\n    if (shadowForm.Visible) { shadowForm.Hide(); }\n    else\n    {\n        shadowForm.Size = Size; \n        shadowForm.Location = PointToScreen(new Point(0, 0)); // Convert location to screen coordinates\n        shadowForm.Show();\n    }\n}

@@ -1,0 +1,1 @@
+$query = "SELECT DATE_FORMAT(post_date, '%Y-%m-%d') AS post_date FROM your_table";\n$queryResult = mysql_query($query);\n$record = mysql_fetch_array($queryResult);\necho $record['post_date'];

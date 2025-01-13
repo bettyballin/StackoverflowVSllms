@@ -1,1 +1,0 @@
-// Server-side (ASP.NET Proxy)\n[WebMethod]\npublic string GetReviews()\n{\n    string originalUrl = "https://your-original-domain.com/GetReviews";\n    string reviewsHtml = new WebClient().DownloadString(originalUrl);\n    return reviewsHtml;\n}

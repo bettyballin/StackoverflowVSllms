@@ -1,1 +1,0 @@
-[assembly: PreApplicationStartMethod(typeof(MyApp), "Start")]\npublic class MyApp\n{\n    public static void Start()\n    {\n        // Code to run on application start\n    }\n}

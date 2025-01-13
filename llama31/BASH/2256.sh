@@ -1,1 +1,0 @@
-regsvr32.exe /s /i oraodbc11.dll

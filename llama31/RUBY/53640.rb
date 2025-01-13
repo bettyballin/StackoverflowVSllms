@@ -1,0 +1,1 @@
+def create\n  if verify_authenticity_token?\n    # process the request\n  else\n    # handle invalid token\n  end\nend

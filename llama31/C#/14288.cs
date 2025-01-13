@@ -1,1 +1,0 @@
-using FluentValidation;\n\npublic class CustomValidator : AbstractValidator<MyModel>\n{\n    public CustomValidator()\n    {\n        RuleFor(x => x.User.Email).Matches(EmailRegEx).WithMessage("Invalid e-mail address.");\n    }\n}

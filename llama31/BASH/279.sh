@@ -1,1 +1,0 @@
-# Compile with profiling enabled\ngcc -pg -o myapp myapp.c\n\n# Run the application and exercise different behaviors\n./myapp\n\n# Analyze the profiling data\ngprof myapp gmon.out > gprof.report

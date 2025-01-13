@@ -1,1 +1,0 @@
-try\n{\n    // code that may throw an exception\n}\ncatch (Exception ex)\n{\n    Console.WriteLine("An error occurred: " + ex.Message);\n}

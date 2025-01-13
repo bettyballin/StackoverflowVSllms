@@ -1,1 +1,0 @@
-// main.cpp\n#include "func.h"\n#include "template_func.h"\n\nint main() {\n    func();\n    template_func<int>(5);\n    return 0;\n}

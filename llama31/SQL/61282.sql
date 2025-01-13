@@ -1,0 +1,1 @@
+CREATE TABLE products (\n  origin VARCHAR2(10),\n  date_component DATE,\n  type VARCHAR2(10),\n  id NUMBER,\n  -- additional columns as needed\n);

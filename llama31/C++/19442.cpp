@@ -1,1 +1,0 @@
-void Foo() {\n  x_ = new HugeThingy();\n  x_->Bar("I. Need. Garbage. Collection. Now.");\n}

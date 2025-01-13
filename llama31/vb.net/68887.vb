@@ -1,0 +1,1 @@
+Public Function CompareTo(ByVal compObj As Object) As Integer Implements IDbId.CompareTo\n    Dim otherId As IDbId = TryCast(compObj, IDbId)\n    If otherId IsNot Nothing Then\n        ' Compare this instance to otherId\n    Else\n        Throw New ArgumentException("Object is not an IDbId instance", "compObj")\n    End If\nEnd Functio

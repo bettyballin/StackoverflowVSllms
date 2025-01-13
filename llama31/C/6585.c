@@ -1,1 +1,0 @@
-SetElement temp = (SetElement)my_var;\nyour_function(&temp);

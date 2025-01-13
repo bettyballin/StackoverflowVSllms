@@ -1,1 +1,0 @@
-find . -iname "*.dmg" -exec du -ch {} +

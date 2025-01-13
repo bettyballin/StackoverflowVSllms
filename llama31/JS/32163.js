@@ -1,0 +1,1 @@
+$('#myRow').data('myApp.listOfItems', listOfItems);

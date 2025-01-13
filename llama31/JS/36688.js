@@ -1,0 +1,1 @@
+window.onbeforeunload = function(e) {\n    var currentUrl = window.location.href;\n    var newUrl = window.location.href;\n    if (newUrl !== currentUrl) {\n        // Don't prompt the user\n        return null;\n    } else {\n        // Prompt the user\n        return 'Are you sure you want to leave this page?';\n    }\n};

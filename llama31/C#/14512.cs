@@ -1,1 +1,0 @@
-var creationDate = new DateTime(2022, 1, 1);\nvar score = 100;\nvar popularity = PopularityCalculator.CalculatePopularity(score, creationDate);\nConsole.WriteLine(popularity);

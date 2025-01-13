@@ -1,1 +1,0 @@
-[AuthorizeAjax]\npublic PartialViewResult MyPartialView()\n{\n    // ...\n}

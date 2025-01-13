@@ -1,1 +1,0 @@
-# Set up TeamViewer on your VMware server\nsudo apt-get install teamviewer\n\n# Set a strong password for TeamViewer\nteamviewer --password <your_password>\n\n# Limit access to your TeamViewer server\nsudo ufw allow teamviewer

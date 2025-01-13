@@ -1,1 +1,0 @@
-SqlCommand cmd = new SqlCommand("INSERT INTO YourTable (column1, column2) VALUES (@value1, @value2); SELECT SCOPE_IDENTITY()", connection);\ncmd.Parameters.AddWithValue("@value1", "value1");\ncmd.Parameters.AddWithValue("@value2", "value2");\n\nint newId = (int)cmd.ExecuteScalar();

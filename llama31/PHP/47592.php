@@ -1,0 +1,1 @@
+function smarty_modifier_gettext_default($value, $default) {\n    if (empty($value)) {\n        return gettext($default);\n    } else {\n        return $value;\n    }\n}

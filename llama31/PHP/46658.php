@@ -1,0 +1,1 @@
+foreach ($_GET as $field => $label) {\n    if (is_array($label)) {\n        foreach ($label as $value) {\n            echo "$value<br>";\n            $datarray[] = $value;\n        }\n    } else {\n        echo "$label<br>";\n        $datarray[] = $label;\n    }\n}\nprint_r($datarray);

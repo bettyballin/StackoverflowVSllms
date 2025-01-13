@@ -1,0 +1,1 @@
+DELIMITER //\n\nCREATE PROCEDURE nested_sp(OUT result TEXT)\nBEGIN\n  SET result = (SELECT * FROM your_complicated_select);\nEND //\n\nDELIMITER ;\n\nCALL nested_sp(@result);\n\nSELECT @result;

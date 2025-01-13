@@ -1,0 +1,1 @@
+Public ReadOnly Property Foo As String\n    Get\n        Return _foo\n    End Get\nPrivate Set(ByVal value As String)\n    _foo = value\nEnd Set\nPrivate _foo As String

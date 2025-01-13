@@ -1,1 +1,0 @@
-dumpbin /DEPENDENTS path/to/executable.exe

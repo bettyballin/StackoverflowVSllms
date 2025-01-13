@@ -1,0 +1,1 @@
+$file = '/path/to/local/file';\n$remoteServer = 'user@remote-server:/path/to/remote/directory/';\n$cmd = "rsync -avz --progress $file $remoteServer";\nexec($cmd, $output, $return);\nif ($return !== 0) {\n    // handle error\n}

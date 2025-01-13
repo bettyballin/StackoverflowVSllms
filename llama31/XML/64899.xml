@@ -1,0 +1,1 @@
+<component name="Coordinates" class="SpaceCoordinate">\n  <property name="x" type="int" column="x" />\n  <property name="y" type="int" column="y" />\n  <property name="z" type="int" column="z" />\n  <unique name="UC_SpaceCoordinate" columns="x, y, z" />\n</component>

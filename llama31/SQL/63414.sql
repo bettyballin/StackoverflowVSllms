@@ -1,0 +1,1 @@
+WITH subquery AS (\n  SELECT *\n  FROM your_table\n  WHERE your_condition\n)\nSELECT *\nFROM subquery s1\nJOIN subquery s2 ON s1.column = s2.column;

@@ -1,0 +1,1 @@
+import hashlib\n\ndef hash_title(title):\n    return int(hashlib.sha256(title.encode()).hexdigest(), 16)

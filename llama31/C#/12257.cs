@@ -1,1 +1,0 @@
-void methodName() {\n    int i = 7;\n    for (int j = 0; j < 10; j++) {\n        int innerI = j * 2;\n        // use innerI instead of i\n    }\n}

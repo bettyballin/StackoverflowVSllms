@@ -1,0 +1,1 @@
+CREATE PROCEDURE myproc (@date_string VARCHAR(20))\nAS\nBEGIN\n    SET @the_date = \n        CASE \n            WHEN PARSENAME(@date_string, 'DD-MON-YYYY') IS NOT NULL \n            THEN CAST(@date_string AS DATETIME)\n            ELSE GETDATE()\n        END\n    -- rest of your procedure\nEND

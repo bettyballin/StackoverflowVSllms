@@ -1,0 +1,1 @@
+Private Function FindControls(ByVal parent As Control) As List(Of Control)\n    Dim controls As New List(Of Control)\n    For Each ctl As Control In parent.Controls\n        controls.Add(ctl)\n        If ctl.HasControls Then\n            controls.AddRange(FindControls(ctl))\n        End If\n    Next\n    Return controls\nEnd Functio

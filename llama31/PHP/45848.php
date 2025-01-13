@@ -1,0 +1,1 @@
+$arr['f']['b']['g'] = array('a', 'b', 'c');\n$keys = array('f', 'b', 'g');\nif (hasDeepKey($arr, $keys)) {\n    echo "Key exists";\n} else {\n    echo "Key does not exist";\n}

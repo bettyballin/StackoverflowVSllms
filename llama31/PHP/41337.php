@@ -1,0 +1,1 @@
+use ParagonIE\Halite\Symmetric\Crypto;\n\n$crypto = new Crypto();\n$encryptedPhoneNumber = $crypto->encrypt('123-456-7890');

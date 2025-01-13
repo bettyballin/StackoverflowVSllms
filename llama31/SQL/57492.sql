@@ -1,0 +1,1 @@
+SELECT GROUP_CONCAT(CONCAT(FName, ' ', LName) SEPARATOR ', ') AS employee_list\nFROM Employees;

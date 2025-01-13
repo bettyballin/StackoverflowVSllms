@@ -1,1 +1,0 @@
-protected void Application_Start()\n{\n    // ...\n    var originalPrincipal = HttpContext.Current.User;\n    var customIdentity = new CustomIdentity(originalPrincipal.Identity, "desiredDomain\otherUserName");\n    var customPrincipal = new CustomPrincipal(originalPrincipal, customIdentity);\n    HttpContext.Current.User = customPrincipal;\n}

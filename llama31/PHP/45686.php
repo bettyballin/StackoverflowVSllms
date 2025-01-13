@@ -1,0 +1,1 @@
+$logPath = '/var/log/apache2/access.log'; // adjust to your log file location\n$logs = shell_exec("apachectl -f $logPath");\n$logEntries = explode("\n", $logs);

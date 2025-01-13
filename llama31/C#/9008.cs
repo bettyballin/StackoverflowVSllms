@@ -1,1 +1,0 @@
-public string GetCustomerNumber(Guid id)\n{\n    object accountNumber = DBSqlHelperFactory.ExecuteScalar(connectionStringSplendidCRM, \n                                CommandType.StoredProcedure, \n                                "spx_GetCustomerNumber", \n                                new SqlParameter("@id", id));\n\n    return Convert.ToString(accountNumber);\n}

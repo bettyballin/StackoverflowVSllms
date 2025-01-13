@@ -1,1 +1,0 @@
-using System.Web.Mvc;\n\npublic class MyController : Controller\n{\n    public ActionResult MyAction()\n    {\n        if (User.Identity.IsAuthenticated)\n        {\n            // User is logged in\n        }\n        else\n        {\n            // User is not logged in\n        }\n        return View();\n    }\n}

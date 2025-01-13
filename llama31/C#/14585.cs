@@ -1,1 +1,0 @@
-public FileContentResult GetFileContent()\n{\n    byte[] fileContents = GetFileContentsFromDatabase();\n    return File(fileContents, "application/octet-stream", "example.txt");\n}

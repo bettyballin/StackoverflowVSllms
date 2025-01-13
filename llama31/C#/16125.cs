@@ -1,1 +1,0 @@
-[WebMethod]\npublic static string SaveRecord(string jsonData)\n{\n    var items = JsonConvert.DeserializeObject<List<object>>(jsonData);\n    // ...\n}

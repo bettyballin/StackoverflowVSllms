@@ -1,1 +1,0 @@
-var provider = new VBCodeProvider();\nvar parameters = new CompilerParameters();\nparameters.CompilerOptions = "/optioninfer+";\nparameters.TreatWarningsAsErrors = true;

@@ -1,1 +1,0 @@
-ColorNumList = ColorNumList.Where(x => x.m_Color == "Red").Concat(ColorNumList.Where(x => x.m_Color != "Red")).ToList();

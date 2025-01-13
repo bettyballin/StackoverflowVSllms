@@ -1,0 +1,1 @@
+class Table {\n    private $rows;\n\n    public function __construct($rows) {\n        $this->rows = $rows;\n    }\n\n    public function table() {\n        ot();\n        for($x=0; $x<$this->rows; $x++) {  \n            table_row($x);\n        }\n        ct();\n    }\n}

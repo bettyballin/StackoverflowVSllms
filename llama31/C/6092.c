@@ -1,1 +1,0 @@
-#include <stdint.h>\n\nvoid function(MESSAGE_ID id, void* param)\n{\n    if(id == FOO) {\n        uintptr_t real_param = (uintptr_t)param;\n        // ...\n    }\n}

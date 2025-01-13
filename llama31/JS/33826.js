@@ -1,0 +1,1 @@
+const contrastModeToggle = document.getElementById('contrast-mode-toggle');\n\ncontrastModeToggle.addEventListener('click', () => {\n  document.body.classList.toggle('high-contrast-mode');\n});

@@ -1,0 +1,1 @@
+app.post('/form', (req, res) => {\n  if (req.body.honeypot !== '') {\n    return res.status(400).send('Invalid submission');\n  }\n\n  // Process form submission...\n});

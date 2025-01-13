@@ -1,1 +1,0 @@
-[Test]\npublic void MyMethod_Test() {\n    // create a mock configuration\n    var configuration = new Mock<IConfiguration>();\n    configuration.Setup(c => c.DBConnectionString).Returns("test_connection_string");\n\n    // create an instance of MyClass\n    var myClass = new MyClass(configuration.Object);\n\n    // call MyMethod and verify the result\n}

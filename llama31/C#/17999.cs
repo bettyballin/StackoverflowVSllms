@@ -1,1 +1,0 @@
-using System.Linq;\n\n// Get only the bananas\nvar bananas = fruits.OfType<Banana>();\n\nforeach (Banana banana in bananas)\n    Console.Write(banana.IsYellow);

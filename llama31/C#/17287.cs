@@ -1,1 +1,0 @@
-// MyApplication.dll\npublic class MyApi : IMyApi\n{\n    public void DoSomething(string param)\n    {\n        // implementation details\n    }\n}

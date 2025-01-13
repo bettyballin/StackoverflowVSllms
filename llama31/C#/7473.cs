@@ -1,1 +1,0 @@
-using BSB;\n\n// Load the RNC file\nBsbFile bsbFile = new BsbFile("path_to_rnc_file.bsb");

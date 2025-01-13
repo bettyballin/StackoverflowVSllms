@@ -1,1 +1,0 @@
-amespace MyProject {\n\n    class MyClass {\n        // ...\n    }\n\n}

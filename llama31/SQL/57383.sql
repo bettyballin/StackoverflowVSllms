@@ -1,0 +1,1 @@
+CREATE NONCLUSTERED INDEX idx_MemberType ON [MyTable] (MemberType);

@@ -1,0 +1,1 @@
+SELECT *\nFROM table1, table2\nWHERE table1.col1 = table2.col2 (+);

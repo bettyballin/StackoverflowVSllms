@@ -1,0 +1,1 @@
+// Secure coding guideline: Avoid using eval()\n// Instead of using eval(), use a more direct and secure method\n// Bad example:\neval('alert("Hello World!");');\n\n// Good example:\nalert('Hello World!');

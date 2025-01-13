@@ -1,0 +1,1 @@
+$dirCommand = createDir($somevariable);\nif (!empty($dirCommand)) {\n    $output = exec($dirCommand);\n    echo $output;\n} else {\n    echo "Invalid command";\n}

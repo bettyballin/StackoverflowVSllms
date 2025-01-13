@@ -1,1 +1,0 @@
-curl -v -k -H "Custom-Header: secret-data" https://example.com

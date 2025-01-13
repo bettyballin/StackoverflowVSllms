@@ -1,0 +1,1 @@
+# Model/db.py\nimport sqlite3\n\nclass Database:\n    def __init__(self):\n        self.conn = sqlite3.connect('example.db')\n\n    def query(self, query):\n        # Implement database query logic\n        pass

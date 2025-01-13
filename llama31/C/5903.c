@@ -1,1 +1,0 @@
-#include <linux/kernel.h>\n\n//...\n\nunsigned long result = mult_frac(a, b, c);

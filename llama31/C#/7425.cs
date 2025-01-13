@@ -1,1 +1,0 @@
-if (reader.HasRows)\n{\n    while (reader.Read())\n    {\n        // process results\n    }\n}

@@ -1,0 +1,1 @@
+while ($row = mysql_fetch_array($result, MYSQL_ASSOC)) {\n    foreach ($row as $key => $value) {\n        if ($key == 'email') {\n            $row[$key] .= '@gmail.com';\n        }\n        $row[$key] = str_replace("\n", " ", $row[$key]);\n        $row[$key] = str_replace("\r", " ", $row[$key]);\n    }\n}

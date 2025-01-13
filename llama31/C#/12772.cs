@@ -1,1 +1,0 @@
-using NLog;\n\npublic class MyClass\n{\n    private readonly Logger _logger = LogManager.GetCurrentClassLogger();\n\n    public void MyMethod()\n    {\n        _logger.Info("Hello from class library!");\n    }\n}

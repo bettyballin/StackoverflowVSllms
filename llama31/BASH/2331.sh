@@ -1,1 +1,0 @@
-gzip -dc SMS.tar.gz > SMS.tar

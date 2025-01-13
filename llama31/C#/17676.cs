@@ -1,1 +1,0 @@
-[DynamicAuthorize]\npublic ActionResult MyAction()\n{\n    // ...\n}

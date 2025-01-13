@@ -1,0 +1,1 @@
+WITH ngrams AS (\n  SELECT \n    value,\n    SUBSTRING(value, 1, 3) AS ngram1,\n    SUBSTRING(value, 2, 3) AS ngram2,\n    ...\n  FROM your_table\n)\nSELECT \n  a.value, \n  b.value, \n  COUNT(*) AS similarity\nFROM ngrams a\nJOIN ngrams b ON a.ngram1 = b.ngram1 OR a.ngram2 = b.ngram2 OR ...\nGROUP BY a.value, b.value\nHAVING COUNT(*) > 1;

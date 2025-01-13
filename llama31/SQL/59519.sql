@@ -1,0 +1,1 @@
+DOUBLE[(length, scale)] [UNSIGNED] [ZEROFILL]

@@ -1,0 +1,1 @@
+foreach ($query->result_array() as $row) {\n    echo $row['type_of_source_description'];\n    echo $row['media_type_description'];\n    echo $row['origin_description'];\n}

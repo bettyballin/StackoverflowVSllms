@@ -1,1 +1,0 @@
-HttpWebRequest myWebRequest = (HttpWebRequest)System.Net.WebRequest.Create("http://example.com");\nmyWebRequest.AutomaticDecompression = DecompressionMethods.GZip | DecompressionMethods.Deflate;

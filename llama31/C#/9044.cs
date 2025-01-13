@@ -1,1 +1,0 @@
-foreach (int[] perm in Permute(new int[] { 1, 2, 3 }))\n{\n    Console.WriteLine(string.Join(", ", perm));\n}

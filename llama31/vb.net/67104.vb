@@ -1,0 +1,1 @@
+Imports Microsoft.Win32\n\nModule Module1\n    Sub Main()\n        Dim regKey As RegistryKey\n        regKey = Registry.LocalMachine.CreateSubKey("SOFTWARE\Microsoft\Windows\CurrentVersion\App Paths\MyProgram")\n\n        regKey.SetValue("", "C:\Path\To\MyProgram.exe")\n        regKey.SetValue("Path", "C:\Path\To")\n    End Sub\nEnd Module

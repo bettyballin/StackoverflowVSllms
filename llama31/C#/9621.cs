@@ -1,1 +1,0 @@
-public class MyAspNetPage {\n    public void MyAspNetMethod() {\n        int result = MyWrapper::MyWrappedFunction();\n    }\n}

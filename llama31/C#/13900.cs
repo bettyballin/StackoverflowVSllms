@@ -1,1 +1,0 @@
-public class WriterLockDisposable : IDisposable\n{\n    private readonly ReaderWriterLockSlim _lock;\n\n    public WriterLockDisposable(ReaderWriterLockSlim @lock)\n    {\n        _lock = @lock;\n        _lock.EnterWriteLock();\n    }\n\n    public void Dispose()\n    {\n        _lock.ExitWriteLock();\n    }\n}

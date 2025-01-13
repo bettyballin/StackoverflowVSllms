@@ -1,1 +1,0 @@
-private void Form1_Paint(object sender, PaintEventArgs e)\n{\n    VisualStyleRenderer renderer = new VisualStyleRenderer(VisualStyleElement.StartPanel.UserPane.Normal);\n    renderer.DrawBackground(e.Graphics, this.ClientRectangle);\n}

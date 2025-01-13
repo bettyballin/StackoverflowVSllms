@@ -1,1 +1,0 @@
-.clearfix {\n  *zoom: 1;\n}\n\n.clearfix:after {\n  content: ".";\n  display: block;\n  height: 0;\n  clear: both;\n  visibility: hidden;\n}

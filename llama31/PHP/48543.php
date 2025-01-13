@@ -1,0 +1,1 @@
+$mysqli = new mysqli("localhost", "username", "password", "database");\n$query = "INSERT INTO table_name (column1, column2) VALUES ('value1', 'value2')";\n$mysqli->query($query);\n$new_id = $mysqli->insert_id;

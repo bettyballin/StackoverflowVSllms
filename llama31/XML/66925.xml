@@ -1,0 +1,1 @@
+<id name="Id" type="guid">\n  <column name="Id" sql-type="binary(16)" />\n  <generator class="guid" />\n</id>

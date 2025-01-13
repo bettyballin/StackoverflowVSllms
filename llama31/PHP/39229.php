@@ -1,0 +1,1 @@
+$start_time = microtime(true);\nmyFunc();\n$end_time = microtime(true);\n\necho sprintf("Elapsed:  %f", $end_time - $start_time);

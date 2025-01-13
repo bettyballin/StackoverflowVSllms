@@ -1,0 +1,1 @@
+echo "Virus Scan Results:";\n$scanme = exec('cd /var/www/upload/files; clamscan --remove=yes '.$furl, $output);\nprintf(implode("\n", $output));

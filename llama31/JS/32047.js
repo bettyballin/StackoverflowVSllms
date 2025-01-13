@@ -1,0 +1,1 @@
+function removeElement(element) {\n  delete idRegistry[element.id];\n  element.remove();\n}

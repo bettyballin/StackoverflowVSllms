@@ -1,0 +1,1 @@
+CREATE FUNCTION dbo.get_user (@user_pk INT)\nRETURNS TABLE\nAS\nRETURN\n(\n    SELECT id\n    FROM ice.dbo.[user]\n    WHERE user_pk = @user_pk\n)

@@ -1,0 +1,1 @@
+Array\n(\n    [name] => JOHN\n    [city] => NEW YORK\n)

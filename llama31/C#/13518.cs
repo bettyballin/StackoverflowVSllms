@@ -1,1 +1,0 @@
-using NHibernate.Mapping.ByCode;\n\npublic class EntityMapping : ClassMapping<Entity>\n{\n    public EntityMapping()\n    {\n        Id(x => x.Id, m => m.Generator(Generators.Guid));\n    }\n}

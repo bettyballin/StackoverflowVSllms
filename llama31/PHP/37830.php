@@ -1,0 +1,1 @@
+$credentials = [\n    "hostname" => getenv("DB_HOSTNAME"),\n    "username" => getenv("DB_USERNAME"),\n    "password" => getenv("DB_PASSWORD"),\n    "database" => getenv("DB_DATABASE"),\n];

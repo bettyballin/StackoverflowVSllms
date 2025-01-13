@@ -1,0 +1,1 @@
+<?php\nheader('Content-Type: text/event-stream');\nheader('Cache-Control: no-cache');\nheader('Connection: keep-alive');\n\n// Call the function that captures the shell output and sends it to the client\ncapture_shell_output();\n?>

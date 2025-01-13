@@ -1,0 +1,1 @@
+// Controller\n$data = $model->getData();\n$view = new View();\n$html = $view->renderDiv($data);\necho $html;

@@ -1,1 +1,0 @@
-private List<int> uncheckableIndices = new List<int> { 0, 2, 4 };\n\nprivate void checkedListBox1_ItemCheck(object sender, ItemCheckEventArgs e)\n{\n    if (uncheckableIndices.Contains(e.Index))\n    {\n        e.NewValue = CheckState.Unchecked;\n    }\n}

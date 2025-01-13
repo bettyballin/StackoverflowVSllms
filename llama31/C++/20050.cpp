@@ -1,1 +1,0 @@
-#include <ncurses.h>\n\nint main() {\n    initscr(); // initialize ncurses\n    noecho(); // don't echo input to the screen\n    int ch = getch(); // read a single character from the keyboard\n    endwin(); // clean up ncurses\n    std::cout << "You pressed: " << (char)ch << std::endl;\n    return 0;\n}

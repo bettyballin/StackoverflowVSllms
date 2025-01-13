@@ -1,1 +1,0 @@
-using System.Linq;\n\nList<T> list1 = ...;\nList<T> list2 = ...;\n\nbool areEqual = list1.SequenceEqual(list2);

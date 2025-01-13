@@ -1,1 +1,0 @@
-ldd /usr/local/bin/xinc

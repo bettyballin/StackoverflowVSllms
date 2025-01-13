@@ -1,0 +1,1 @@
+<!-- web.config -->\n<connectionStrings>\n    <add name="DbConnectionString" connectionString="..." providerName="..." />\n</connectionStrings>\n\n<!-- web.test.config (transform) -->\n<connectionStrings>\n    <add name="DbConnectionString" connectionString="..." providerName="..." xdt:Transform="Replace" xdt:Locator="Match(name)" />\n</connectionStrings>

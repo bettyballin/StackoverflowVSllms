@@ -1,0 +1,1 @@
+class Action {\n    public static function n() {\n        return get_called_class();\n    }\n}

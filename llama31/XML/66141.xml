@@ -1,0 +1,1 @@
+<system.data>\n    <DbProviderFactories>\n        <add name="Custom Oracle Provider" invariant="CustomOracleProviderFactory" type="CustomOracleProviderFactory, MyAssembly"/>\n    </DbProviderFactories>\n</system.data>

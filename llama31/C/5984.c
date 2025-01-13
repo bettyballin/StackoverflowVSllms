@@ -1,1 +1,0 @@
-BOOL IsBufferEmpty(HANDLE hPipe) {\n    DWORD dwBytesAvailable = 0;\n    if (!GetNamedPipeInfo(hPipe, NULL, &dwBytesAvailable, NULL, NULL)) {\n        // Handle error\n    }\n    return (dwBytesAvailable == 0);\n}

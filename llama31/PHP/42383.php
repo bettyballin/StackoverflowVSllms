@@ -1,0 +1,1 @@
+function isNotEmpty($input) \n{\n    if(!isset($input)) {\n        return false;\n    }\n    $strTemp = trim($input);\n    return !empty($strTemp);\n}

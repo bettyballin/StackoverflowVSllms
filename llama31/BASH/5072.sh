@@ -1,1 +1,0 @@
-@echo off\nset SVN_REPO_PATH=C:\Path\To\Your\Repository\nset BACKUP_PATH=C:\Path\To\Your\Backup\n\nsvnadmin hotcopy "%SVN_REPO_PATH%" "%BACKUP_PATH%"

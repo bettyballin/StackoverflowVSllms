@@ -1,1 +1,0 @@
-using System.IO;\n\npublic bool IsJpeg(string filePath)\n{\n    using (var fileStream = new FileStream(filePath, FileMode.Open, FileAccess.Read))\n    {\n        var header = new byte[2];\n        fileStream.Read(header, 0, 2);\n\n        // JPEG magic number: FF D8\n        return header[0] == 0xFF && header[1] == 0xD8;\n    }\n}

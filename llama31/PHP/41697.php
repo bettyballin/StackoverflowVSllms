@@ -1,0 +1,1 @@
+function strip_unwanted_chars($input) {\n    // Convert to HTML entities\n    $input = htmlspecialchars($input, ENT_QUOTES, 'UTF-8');\n    \n    // Remove non-ASCII characters\n    $input = preg_replace('/[^(\x20-\x7F)]*/','', $input);\n    \n    return $input;\n}\n\n// Test the function\n$input = 'Hello, Â world!';\necho strip_unwanted_chars($input);

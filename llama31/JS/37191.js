@@ -1,0 +1,1 @@
+$('<img src="loading.gif" style="display:none;">').appendTo('body');

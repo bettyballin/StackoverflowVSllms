@@ -1,0 +1,1 @@
+// Controller\n$obj = new MyObject();\n$data = $obj->getTableInfo();\n$smarty->assign('tableInfo', $data);\n\n// Template\n{$tableInfo}

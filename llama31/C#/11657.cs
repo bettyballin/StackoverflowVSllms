@@ -1,1 +1,0 @@
-[SecurityPermission(SecurityAction.Assert, UnmanagedCode = true)]\npublic class PeopleAdWebPart : WebPart\n{\n    // ...\n}

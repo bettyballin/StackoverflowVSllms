@@ -1,1 +1,0 @@
-import System.IO\n\n# assuming you have a list of FileInfo objects\nfile_infos = [...]  # list of FileInfo objects\n\n# sort the list by CreationTime in descending order\nfile_infos.Sort(key=lambda x: x.CreationTime, reverse=True)

@@ -1,0 +1,1 @@
+function session_cleanup() {\n   $session_path = '/path/to/sessions';\n   $session_time_limit = 3600; // 1 hour in seconds\n   $files = glob($session_path . '/sess_*');\n   foreach ($files as $file) {\n      if (filemtime($file) + $session_time_limit < time())\n         unlink($file);\n   }\n}

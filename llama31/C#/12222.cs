@@ -1,1 +1,0 @@
-var events = new SortedDictionary<DateTime, YourEventType>();\n\n// populate the events dictionary...\n\nvar start = DateTime.Parse("2022-01-01 12:00:00");\nvar end = DateTime.Parse("2022-01-01 14:00:00");\n\nvar subset = events.GetViewBetween(start, end);\n\nforeach (var e in subset)\n{\n    Console.WriteLine(e.Value);\n}

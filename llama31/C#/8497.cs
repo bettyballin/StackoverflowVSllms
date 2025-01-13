@@ -1,1 +1,0 @@
-int blocks = (plaintext.Length + 15) / 16;

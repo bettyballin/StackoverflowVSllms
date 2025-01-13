@@ -1,0 +1,1 @@
+ALTER TABLE MyTable\nADD CONSTRAINT CK_MyTable_MyColumn_Uniqueness CHECK (\n    NOT EXISTS (\n        SELECT 1\n        FROM MyTable AS t2\n        WHERE t2.MyColumn = MyTable.MyColumn AND t2.MyColumn IS NOT NULL AND t2.ID <> MyTable.ID\n    )\n);

@@ -1,0 +1,1 @@
+<?php\nheader('Content-Type: text/html; charset=UTF-8');\n\necho "\u4F60\u597D"; // Output: \n?>

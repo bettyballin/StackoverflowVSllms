@@ -1,1 +1,0 @@
-var ep = new EndpointAddress(new Uri("net.tcp://server1.testdomain.com:1111/ServiceTest"), EndpointIdentity.CreateSpnIdentity("net.tcp/server1.testdomain.com:1111"));

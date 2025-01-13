@@ -1,1 +1,0 @@
-# On the gateway machine (OS X)\nsudo pfctl -ef /etc/pf.conf

@@ -1,1 +1,0 @@
-.containsHorizontalElements {\n  display: flex;\n  flex-wrap: wrap;\n}\n\n.isHorizontal {\n  flex-basis: 50%;\n}

@@ -1,1 +1,0 @@
-log config --add /path/to/your/custom/log/file.log

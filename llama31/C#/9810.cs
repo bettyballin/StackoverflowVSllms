@@ -1,1 +1,0 @@
-public DateTime? _birthDate;\n\n_birthDate = null;\n\nif (datBirthDate.Text != string.Empty)\n    _birthDate = Convert.ToDateTime(datBirthDate.Text);\n\ndgvSearchResults.DataSource = ConnectBLL.BLL.Person.Search(_firstName, _middleName, _lastName, _sSN, _birthDate, _applicationID, _applicationPersonID, _fuzzy);

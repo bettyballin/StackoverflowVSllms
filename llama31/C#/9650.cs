@@ -1,1 +1,0 @@
-using (StreamWriter writer = new StreamWriter("output.txt", false, Encoding.UTF8))\n{\n    // write to the file\n}

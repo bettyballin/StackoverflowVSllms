@@ -1,1 +1,0 @@
-cat /proc/<pid>/cmdline | tr '\0' ' '

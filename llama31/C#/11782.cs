@@ -1,1 +1,0 @@
-List<string> strings = new List<string> { "one", "two", "three" };\nList<int> lengths = strings.ConvertAll(s => s.Length); // using Converter<TInput, TOutput>

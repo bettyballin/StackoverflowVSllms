@@ -1,0 +1,1 @@
+// index.php\n$content = 'Hello, World!';\ninclude 'template.php';

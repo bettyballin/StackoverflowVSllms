@@ -1,0 +1,1 @@
+-- Enable encryption for connections\nALTER SERVER CONFIGURATION SET FORCE_ENCRYPTION = ON\nGO

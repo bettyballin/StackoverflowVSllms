@@ -1,1 +1,0 @@
-split -l 1000 your_sql_file.sql

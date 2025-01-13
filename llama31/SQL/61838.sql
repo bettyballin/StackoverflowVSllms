@@ -1,0 +1,1 @@
+INSERT INTO members (name, `order`)\nVALUES ('new member', (SELECT MAX(`order`) + 1 FROM members));

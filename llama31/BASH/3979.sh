@@ -1,1 +1,0 @@
-rpm -i my-perl-package-1.0-1.aix6.1.ppc.rpm

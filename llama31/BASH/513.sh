@@ -1,1 +1,0 @@
-localedef -i en_EN -f UTF-8 en_EN.UTF-8

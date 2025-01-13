@@ -1,0 +1,1 @@
+if ($result && mysql_num_rows($result) > 30) {\n    mysql_data_seek($result, 30);\n    $row = mysql_fetch_assoc($result);\n    echo $row['views'] . '<br/>';\n} else {\n    echo "Invalid result or not enough rows";\n}

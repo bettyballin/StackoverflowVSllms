@@ -1,0 +1,1 @@
+// completion toggling\n$('.item input').click(function() {\n    var that = this;  // capture the context\n    $.post('complete.php', {item: this.id}, function() {\n        $(that).parent().fadeOut('slow');  // use the captured context\n    });\n});

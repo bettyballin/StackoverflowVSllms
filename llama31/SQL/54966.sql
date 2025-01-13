@@ -1,0 +1,1 @@
+RESTORE DATABASE [YourDatabaseName]\nFROM DISK = 'D:\FullBackup.bak'\nWITH NORECOVERY;\n\nRESTORE DATABASE [YourDatabaseName]\nFROM DISK = 'D:\DifferentialBackup.bak'\nWITH RECOVERY;

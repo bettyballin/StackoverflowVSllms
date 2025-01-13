@@ -1,1 +1,0 @@
-public class PluginController : Controller\n{\n    private MefContainer _mefContainer;\n\n    public PluginController(MefContainer mefContainer)\n    {\n        _mefContainer = mefContainer;\n    }\n\n    public ActionResult Index()\n    {\n        var plugins = _mefContainer.Container.GetExportedValues<IPlugin>();\n        return View(plugins);\n    }\n}

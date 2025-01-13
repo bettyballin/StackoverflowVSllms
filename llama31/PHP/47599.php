@@ -1,0 +1,1 @@
+function delimitKey($key) {\n    return preg_replace('/(\d{4})(?!$)/', '$1-', $key);\n}\n\n$key = '0123456789012345';\necho delimitKey($key); // Output: 0123-4567-8901-2345

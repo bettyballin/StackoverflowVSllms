@@ -1,0 +1,1 @@
+use Illuminate\Http\Request;\n\nRoute::post('/api/insert-sql-row', function (Request $request) {\n    // Process the request (e.g., insert SQL row)\n});

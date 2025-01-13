@@ -1,1 +1,0 @@
-av ul {\n  list-style: none;\n  margin: 0;\n  padding: 0;\n}\n\nnav ul li {\n  position: relative;\n}\n\nnav ul li a {\n  text-decoration: none;\n  color: #000;\n}\n\nnav ul li ul {\n  display: none;\n  position: absolute;\n  top: 0;\n  left: 100%;\n  background-color: #fff;\n  border: 1px solid #ddd;\n  padding: 10px;\n}\n\nnav ul li:hover ul {\n  display: block;\n}

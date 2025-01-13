@@ -1,0 +1,1 @@
+array (\n  'word1' => 'word1',\n  'word2' => 'word2',\n  'word3' => 'word3',\n  'word4' => 'word4',\n)

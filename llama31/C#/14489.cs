@@ -1,1 +1,0 @@
-if (!IsValidConnection(connection))\n{\n    connection.Close();\n    connection.Dispose();\n    connection = new OracleConnection(connectionString);\n}

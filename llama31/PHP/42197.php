@@ -1,0 +1,1 @@
+$ch = curl_init();\ncurl_setopt($ch, CURLOPT_URL, "http://www.example.com/");\ncurl_setopt($ch, CURLOPT_HEADER, 0);\ncurl_exec($ch);\ncurl_close($ch);

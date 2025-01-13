@@ -1,0 +1,1 @@
+function store($session_id, $ip, $browser) {\n    $session_ids[] = $session_id;\n    $ips[] = $ip;\n    $browsers[] = $browser;\n}

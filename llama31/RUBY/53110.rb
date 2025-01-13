@@ -1,0 +1,1 @@
+config.action_dispatch.default_headers = {\n  'X-Runtime' => nil\n}

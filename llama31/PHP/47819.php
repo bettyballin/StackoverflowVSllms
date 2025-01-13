@@ -1,0 +1,1 @@
+function callback($buffer)\n{\n    return preg_replace('/<!--(?!\[if).*?-->/', '', $buffer);\n}\n\nob_start("callback");\n?>\n... HTML source goes here ...\n<?php ob_end_flush(); ?>

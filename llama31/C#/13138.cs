@@ -1,1 +1,0 @@
-using System.Diagnostics;\n\npublic static void RecordToFile(string log)\n{\n    using (EventLog eventLog = new EventLog("YourLogSource"))\n    {\n        eventLog.WriteEntry(log.ToString());\n    }\n}

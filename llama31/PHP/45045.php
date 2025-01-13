@@ -1,0 +1,1 @@
+class Hotel extends CI_Controller {\n    public function index() {\n        $uri = $this->uri;\n        $hotel_id = $uri->segment(2);\n        $room_id = $uri->segment(4);\n        // Your logic here\n    }\n}

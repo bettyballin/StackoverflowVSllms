@@ -1,0 +1,1 @@
+Public Class MyClass\n    Private instance As Core.ObjectName\nEnd Class

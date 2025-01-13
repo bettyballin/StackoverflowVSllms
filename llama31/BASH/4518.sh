@@ -1,1 +1,0 @@
-strace -s 256 -o serial.log -e read,write -p $(pidof your_program)

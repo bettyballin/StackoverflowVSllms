@@ -1,1 +1,0 @@
-chmod +t /path/to/directory

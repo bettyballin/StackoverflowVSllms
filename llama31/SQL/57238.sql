@@ -1,0 +1,1 @@
+SELECT tag FROM tags WHERE imageID = ?;

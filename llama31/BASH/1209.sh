@@ -1,1 +1,0 @@
-grep "550 No such recipient" /path/to/smtp/log/file | awk '{print $4}' | grep -oE '[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}'

@@ -1,0 +1,1 @@
+SELECT \n  t.type,\n  COUNT(*) AS no_of_times_code1_occurs,\n  (COUNT(*) / t.no_of_times_type_occurs) * 100 AS percentage_type,\n  (COUNT(*) / c.no_of_times_code_occurs) * 100 AS percentage_code\nFROM \n  type_table t\n  JOIN code_table c ON t.type = c.code\nWHERE \n  c.code = 1\nGROUP BY \n  t.type, t.no_of_times_type_occurs, c.no_of_times_code_occurs

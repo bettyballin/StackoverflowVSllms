@@ -1,0 +1,1 @@
+jQuery('#myDialog').dialog();\njQuery('#myDraggable').draggable();

@@ -1,1 +1,0 @@
-using System.Security.Cryptography;\n\npublic static byte[] GenerateKey(int keySize)\n{\n    using (var aes = Aes.Create())\n    {\n        aes.KeySize = keySize;\n        aes.GenerateKey();\n        return aes.Key;\n    }\n}

@@ -1,1 +1,0 @@
-pear install com.example.pear/ExamplePackage

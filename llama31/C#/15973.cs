@@ -1,1 +1,0 @@
-using System.Runtime.InteropServices;\n\npublic class NativeWrapper\n{\n    [DllImport("NativeLib.dll")]\n    private static extern int NativeMethod1(int param1, int param2);\n\n    public int Method1(int param1, int param2)\n    {\n        return NativeMethod1(param1, param2);\n    }\n\n    // Repeat for each native method...\n}

@@ -1,0 +1,1 @@
+$clubElement = new ZendX_JQuery_Form_Element_AutoComplete('club');\n$clubElement->setUrl('/mywebsite/mycontroller/autocomplete');\n$clubElement->setExtraParams(array('country' => '$("#country").val()'));

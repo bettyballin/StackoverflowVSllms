@@ -1,1 +1,0 @@
-var orders = from o in db.Orders\n             select new TreeNode(o.OrderName) {\n                 Nodes = (from p in o.Products\n                          select new TreeNode(p.ProductName)).ToList()\n             };\n\nOrdersTreeView.Nodes.AddRange(orders.ToArray());

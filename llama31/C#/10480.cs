@@ -1,1 +1,0 @@
-string connectionString = "Provider=Microsoft.Jet.OLEDB.4.0;Data Source=" + \n                          Server.MapPath("~/App_Data/yourdatabase.mdb") + \n                          ";Mode=Share Deny None";

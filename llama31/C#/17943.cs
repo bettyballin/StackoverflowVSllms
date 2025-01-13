@@ -1,1 +1,0 @@
-ArrayList list = new ArrayList();\nint value = 42;\nlist.Add(value); // value is boxed to an object

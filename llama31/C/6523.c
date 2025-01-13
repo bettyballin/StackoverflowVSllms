@@ -1,1 +1,0 @@
-unsigned short new_value = (old_string[i+1] << 8) | old_string[i];\nnew_string[x] = new_value;

@@ -1,0 +1,1 @@
+$('#yourInputFieldId').val($('#yourInputFieldId').val() + ' appended text');

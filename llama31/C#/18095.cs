@@ -1,1 +1,0 @@
-using Dapper;\n\n// create a connection\nusing (IDbConnection connection = new SqlConnection(connectionString))\n{\n    // create a list of objects to insert\n    var objectsToInsert = new List<YourObject> { obj1, obj2, obj3, ... };\n\n    // execute the batch insert\n    connection.Execute("INSERT INTO YourTable (column1, column2) VALUES (@param1, @param2)", objectsToInsert);\n}

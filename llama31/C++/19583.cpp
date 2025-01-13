@@ -1,1 +1,0 @@
-// Example using Windows Security Auditing\n#include <Windows.h>\n#include <security.h>\n\nVOID CALLBACK AuditCallback(\n    _In_ DWORD dwAuditEvent\n)\n{\n    // Inspect the process creation request\n    // ...\n    // Allow or block the process creation\n}

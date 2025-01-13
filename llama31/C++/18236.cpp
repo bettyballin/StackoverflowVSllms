@@ -1,1 +1,0 @@
-std::vector<void (*)(SDL_Event*)> functions;

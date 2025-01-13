@@ -1,0 +1,1 @@
+Imports System.IO\n\nPublic Class FileSearch\n    Public Shared Sub SearchFiles(drive As String, extension As String)\n        Dim files As String() = Directory.GetFiles(drive, "*" & extension, SearchOption.AllDirectories)\n\n        For Each file As String In files\n            Console.WriteLine(file)\n        Next\n    End Sub\nEnd Class

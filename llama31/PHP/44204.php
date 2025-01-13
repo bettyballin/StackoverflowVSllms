@@ -1,0 +1,1 @@
+require_once 'tcpdf/tcpdf.php';\n\n$htmlTable = '<table>...</table>'; // your HTML table\n\n$pdf = new TCPDF();\n$pdf->AddPage();\n$pdf->writeHTML($htmlTable);\n$pdf->Output('table.pdf', 'D');

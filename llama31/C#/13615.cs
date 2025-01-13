@@ -1,1 +1,0 @@
-using System.IO;\n\npublic bool IsValidDirectory(string directoryPath)\n{\n    return Directory.Exists(directoryPath);\n}

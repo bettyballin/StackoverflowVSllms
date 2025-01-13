@@ -1,1 +1,0 @@
-#include <ncurses.h>\n\nint main() {\n    initscr(); // Initialize ncurses\n    printw("Old text");\n    refresh();\n    getch(); // Wait for a key press\n    move(0, 0); // Move the cursor to the beginning of the line\n    clrtoeol(); // Clear the line\n    printw("New text");\n    refresh();\n    getch();\n    endwin(); // Clean up\n    return 0;\n}

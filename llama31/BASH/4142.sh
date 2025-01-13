@@ -1,1 +1,0 @@
-echo "IRB.conf[:PROMPT_MODE] = :DEFAULT" > ~/.irbrc

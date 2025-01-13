@@ -1,1 +1,0 @@
-mv /usr/local/oracle/network/admin/TNSNAMES.ORA /usr/local/oracle/network/admin/tnsnames.ora

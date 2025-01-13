@@ -1,1 +1,0 @@
-myList.Sort(new RandomizeWhenEqualComparer<MyType>((x, y) => x.Score.CompareTo(y.Score)));

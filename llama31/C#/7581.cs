@@ -1,1 +1,0 @@
-<%@ Control Language="C#" AutoEventWireup="true" CodeBehind="MyControl.ascx.cs" Inherits="MyControl" %>\n\n<div>\n    <h1>My Control</h1>\n    <p>SomeProperty: <%# SomeProperty %></p>\n</div>

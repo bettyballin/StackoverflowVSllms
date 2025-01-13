@@ -1,1 +1,0 @@
-var years = Enumerable.Range(DateTime.Now.Year - 10, 12)\n    .Select(year => new SelectListItem { Value = year.ToString(), Text = year.ToString() })\n    .ToList();

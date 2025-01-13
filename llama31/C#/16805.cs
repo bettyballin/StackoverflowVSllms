@@ -1,1 +1,0 @@
-extern alias GAC_Publishing;\nusing GAC_Publishing::Microsoft.SharePoint.Publishing;\n\n// Use the GAC_Publishing alias to access the PublishingLayoutPage type\nGAC_Publishing.PublishingLayoutPage page = new GAC_Publishing.PublishingLayoutPage();

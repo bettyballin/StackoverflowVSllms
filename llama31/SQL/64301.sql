@@ -1,0 +1,1 @@
+CREATE PROCEDURE CheckForNewData\nAS\nBEGIN\n    DECLARE @count INT;\n\n    SELECT @count = COUNT(*) \n    FROM YourTableName \n    WHERE CreatedDate >= DATEADD(hour, -12, GETDATE());\n\n    IF @count = 0\n    BEGIN\n        -- Call your email sending procedure here\n        EXEC SendWarningEmail;\n    END\nEND;

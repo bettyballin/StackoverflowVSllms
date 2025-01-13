@@ -1,1 +1,0 @@
-icacls "path/to/file.txt" /grant:r "IIS_IUSRS":R

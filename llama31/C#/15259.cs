@@ -1,1 +1,0 @@
-// C#\nbutton1.Click += Button1_Click;\n\nprivate void Button1_Click(object sender, EventArgs e)\n{\n    // Handle the event\n}

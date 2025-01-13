@@ -1,1 +1,0 @@
-byte[] assemblyBytes = File.ReadAllBytes("path/to/external/assembly.dll");\nAssembly assembly = sandboxDomain.Load(assemblyBytes);

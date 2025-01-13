@@ -1,1 +1,0 @@
-public class Ticket\n{\n    public int Id { get; set; }\n    public string Content { get; set; }\n    public bool IsLocked { get; set; }\n}\n\n// When a user starts editing\nif (ticket.IsLocked)\n{\n    // Notify the user that the ticket is currently locked\n}\nelse\n{\n    ticket.IsLocked = true;\n}

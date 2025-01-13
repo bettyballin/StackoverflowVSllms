@@ -1,1 +1,0 @@
-docker run -it --rm python:latest python script.py

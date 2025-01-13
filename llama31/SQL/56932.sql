@@ -1,0 +1,1 @@
+CREATE INDEX IX_UserSettings_Set ON UserSettings (Set);\nCREATE INDEX IX_UserSettings_Key ON UserSettings (Key);

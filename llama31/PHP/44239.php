@@ -1,0 +1,1 @@
+// MyController.php\npublic function myAction()\n{\n    // ...\n    $ajaxContext = $this->_helper->getHelper('AjaxContext');\n    $ajaxContext->addActionContext('myAction', 'json')\n                 ->initContext('json');\n    return $this->getResponse()->setContent('Hello, World!');\n}

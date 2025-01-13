@@ -1,1 +1,0 @@
-usermod -aG <group_name> apache

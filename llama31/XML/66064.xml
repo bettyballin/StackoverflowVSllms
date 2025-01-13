@@ -1,0 +1,1 @@
+<property name="image" type="org.springframework.orm.hibernate3.support.BlobByteArrayType">\n    <column name="image_blob" />\n</property>

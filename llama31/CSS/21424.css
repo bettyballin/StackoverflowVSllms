@@ -1,1 +1,0 @@
-.image-container {\n  position: relative;\n}\n\n.image-container::after {\n  content: "";\n  position: absolute;\n  top: 0;\n  left: 0;\n  background-image: url("overlay-image.png");\n  background-size: cover;\n}

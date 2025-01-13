@@ -1,1 +1,0 @@
-java -Dorg.w3c.css.sac.parser=org.w3c.css.sac.impl.CSSOMParser DemoSAC

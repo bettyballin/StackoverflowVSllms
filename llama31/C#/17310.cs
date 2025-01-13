@@ -1,1 +1,0 @@
-using RTMFP;\n\n// Create a new RTMFP connection\nvar connection = new RTMFPConnection();\n\n// Set up the connection parameters\nconnection.NetConnectionUrl = "rtmfp://stratus.adobe.com/your-app-id";\nconnection.Credentials = "your-credentials";\n\n// Connect to the Stratus server\nconnection.Connect();

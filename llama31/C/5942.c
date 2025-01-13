@@ -1,1 +1,0 @@
-OCIConnection* conn;\n\nOCIConnectionCreate(&conn, OCI_DEFAULT, NULL, "(DESCRIPTION=(ADDRESS=(PROTOCOL=TCP)(HOST=myserver.com)(PORT=1521))(CONNECT_DATA=(SERVICE_NAME=myservicename)))", strlen("(DESCRIPTION=(ADDRESS=(PROTOCOL=TCP)(HOST=myserver.com)(PORT=1521))(CONNECT_DATA=(SERVICE_NAME=myservicename)))"), NULL, 0);

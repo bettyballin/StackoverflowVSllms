@@ -1,1 +1,0 @@
-uint16_t timestamp_16 = (uint16_t)(timestamp_64 & 0xFFFF);

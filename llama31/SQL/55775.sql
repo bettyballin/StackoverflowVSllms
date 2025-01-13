@@ -1,0 +1,1 @@
+EXPLAIN SELECT\n*\nFROM\ncontent_link link USE INDEX (content_id)\nSTRAIGHT_JOIN\ncontent\nON\nlink.content_id = content.id\nLIMIT 10;

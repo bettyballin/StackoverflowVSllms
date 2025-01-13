@@ -1,1 +1,0 @@
-using System.Web.Http;\nusing System.Web.Http.Authorize;\n\npublic class MyController : ApiController\n{\n    [Authorize]\n    [HttpGet]\n    public string GetMyData()\n    {\n        // Call your existing .NET library method here\n        return MyLibrary.GetData();\n    }\n}

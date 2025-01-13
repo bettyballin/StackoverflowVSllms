@@ -1,1 +1,0 @@
-#!/bin/bash\n\n# Set the remote host and username\nREMOTE_HOST="example.com"\nREMOTE_USER="username"\n\n# Set the password\nPASSWORD="your_password"\n\n# Use sshpass to handle the password prompt\nsshpass -p "${PASSWORD}" ssh "${REMOTE_USER}@${REMOTE_HOST}" "ls -l"

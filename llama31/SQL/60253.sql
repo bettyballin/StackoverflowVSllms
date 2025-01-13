@@ -1,0 +1,1 @@
+-- Example of setting a statement timeout in PostgreSQL\nSET statement_timeout = 30000;  -- 30 seconds\n\n-- Example of setting a query timeout in MySQL\nSET max_execution_time = 30000;  -- 30 seconds

@@ -1,1 +1,0 @@
-#include <sys/sysctl.h>\n\nint main() {\n    int cache_line_size;\n    size_t size = sizeof(cache_line_size);\n    sysctlbyname("hw.cachelinesize", &cache_line_size, &size, NULL, 0);\n    return 0;\n}

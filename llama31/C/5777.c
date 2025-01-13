@@ -1,1 +1,0 @@
-while (waitpid(-1, WNOHANG) > 0) {\n    # do nothing\n}

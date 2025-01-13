@@ -1,0 +1,1 @@
+// CLI\nphp -r 'phpinfo();'\n\n// mod_php (in a PHP file)\n<?php phpinfo(); ?>

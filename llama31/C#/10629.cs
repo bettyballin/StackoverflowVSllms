@@ -1,1 +1,0 @@
-SqlCommand command = new SqlCommand("SELECT * FROM Table1; SELECT * FROM Table2", connection);

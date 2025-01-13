@@ -1,1 +1,0 @@
-public enum UpsShippableStatus\n{\n    Yes = 'Y',\n    No = 'N',\n    Ground = 'G'\n}\n\n// Usage:\nUpsShippableStatus status = UpsShippableStatus.Yes;\nif (status == UpsShippableStatus.Yes || status == UpsShippableStatus.Ground)\n{\n    // Item can be shipped via UPS\n}

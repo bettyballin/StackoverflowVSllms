@@ -1,1 +1,0 @@
-export LD_LIBRARY_PATH=/usr/lib/php/modules:/usr/lib/php/extensions

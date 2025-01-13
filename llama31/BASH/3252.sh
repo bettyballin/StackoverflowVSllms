@@ -1,1 +1,0 @@
-sudo apt-get install rkhunter\n   sudo rkhunter -c

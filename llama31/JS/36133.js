@@ -1,0 +1,1 @@
+$.validator.addMethod('authenticate', function (value) {\n    var result = false;\n    $.ajax({\n        type: "GET",\n        url: "./json/authenticate.do",\n        data: { password: value },\n        dataType: "json",\n        async: false,\n        success: function (json) {\n            result = json.success;\n        }\n    });\n    return result;\n}, 'Wrong password');

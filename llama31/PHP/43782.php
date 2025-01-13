@@ -1,0 +1,1 @@
+$folderName = substr(bin2hex(openssl_random_pseudo_bytes(8)), 0, 12);

@@ -1,0 +1,1 @@
+function positionUpdate() {\n  var newX = 10; // replace with your new X value\n  var newY = 20; // replace with your new Y value\n  var url = "position_update.php?x=" + newX + "&y=" + newY;\n  // your AJAX request code here, using the updated URL\n}

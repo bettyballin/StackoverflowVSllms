@@ -1,1 +1,0 @@
-foreach (string name in nameList)\n{\n    ddl.Items.Add(new ListItem(name));\n}

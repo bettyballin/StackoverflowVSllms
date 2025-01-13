@@ -1,1 +1,0 @@
-mysqldump -u root -p root --single-transaction accounts > accounts.sql

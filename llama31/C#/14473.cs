@@ -1,1 +1,0 @@
-using Microsoft.Win32;\n\n// Merge the .reg file into the registry\nvar reg = Registry.CurrentUser.OpenSubKey("yourkey", true);\nreg.SetValue("yourvalue", "yourdata");\n\n// Remove the registry entries\nreg.DeleteValue("yourvalue");\nreg.Close();

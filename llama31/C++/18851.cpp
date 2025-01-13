@@ -1,1 +1,0 @@
-class MyClass {\npublic:\n    MyClass(){}\n\n    explicit operator std::list<unsigned char>() const { std::list<unsigned char> a; return a; }\n    operator unsigned char() const { unsigned char a; return a; }\n};

@@ -1,1 +1,0 @@
-export LDR_PRELOAD=/path/to/libtime_intercept.so

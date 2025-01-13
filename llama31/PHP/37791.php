@@ -1,0 +1,1 @@
+function VerifRegisterEmail(&$email) {\n  if (empty($email)) {\n    return false;\n  }\n  $pattern_email = '/^[[:alnum:]\.-_]+@[[:alnum:]\.-_]+\.[[:alpha:]]{2,3}$/';\n  if (!preg_match($pattern_email, $email)) {\n    echo "emaill";\n    return false;\n  }\n  return true;\n}

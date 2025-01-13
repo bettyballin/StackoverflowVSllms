@@ -1,0 +1,1 @@
+Catch ex As Exception\n    If ex.InnerException IsNot Nothing Then\n        Response.Write(ex.InnerException.ToString())\n    Else\n        Response.Write(ex.ToString())\n    End If\nEnd Try

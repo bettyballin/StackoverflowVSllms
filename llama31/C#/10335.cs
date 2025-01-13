@@ -1,1 +1,0 @@
-protected override void OnPreRender(EventArgs e)\n{\n    base.OnPreRender(e);\n\n    if (Required)\n    {\n        Page.Validators.Add(_validator);\n    }\n}

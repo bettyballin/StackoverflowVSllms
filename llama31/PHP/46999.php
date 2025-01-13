@@ -1,0 +1,1 @@
+/**\n * @return string\n */\nfunction foo() {\n    return 'bar';\n}

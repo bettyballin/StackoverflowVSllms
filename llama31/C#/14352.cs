@@ -1,1 +1,0 @@
-using (MyDBDataContext db = new MyDBDataContext())\n{\n    // Your Linq to SQL queries here\n}

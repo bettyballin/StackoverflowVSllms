@@ -1,1 +1,0 @@
-ul {\n  text-align: center;\n}\n\nli {\n  display: inline;\n  *display: inline; /* for IE7 and below */\n  *zoom: 1; /* for IE7 and below */\n}

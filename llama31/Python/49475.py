@@ -1,0 +1,1 @@
+obj = MyModel()\nobj.data = {'key': 'value'}\nobj.save()\n\nobj = MyModel.objects.get(id=obj.id)\nprint(obj.data)  # prints: {'key': 'value'}

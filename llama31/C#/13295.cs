@@ -1,1 +1,0 @@
-var filteredRows = myDS.myTable.AsEnumerable()\n    .Where(row => myDS.myOtherTable.AsEnumerable().Any(otherRow => otherRow.Field<int>("parentID") == row.Field<int>("id")))\n    .OrderBy(row => row.Field<string>("name"));

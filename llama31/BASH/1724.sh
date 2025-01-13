@@ -1,1 +1,0 @@
-Set-ReceiveConnector "Default <Your Exchange Server Name>" -PermissionGroups AnonymousUsers -RemoteIPRanges <IP address of your server>

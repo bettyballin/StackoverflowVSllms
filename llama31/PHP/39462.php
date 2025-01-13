@@ -1,0 +1,1 @@
+<?php\nfunction itstime() {\n    // your code here\n}\n\n// AWS Lambda handler\nfunction lambda_handler($event) {\n    itstime();\n    return 'OK';\n}

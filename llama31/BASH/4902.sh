@@ -1,1 +1,0 @@
-regsvr32 /u <filename>.ocx\nregsvr32 /i <filename>.ocx

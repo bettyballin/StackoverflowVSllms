@@ -1,1 +1,0 @@
-qemu -d your_program

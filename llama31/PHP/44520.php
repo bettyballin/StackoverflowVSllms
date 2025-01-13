@@ -1,0 +1,1 @@
+set_exception_handler('myExceptionHandler'); \nfunction myExceptionHandler(Exception $e) \n{ \n    // Log the exception to an error log file \n    // Display a user friendly error page \n}

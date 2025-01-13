@@ -1,0 +1,1 @@
+CREATE TABLE [dbo].[CopyOfOriginalTable] (\n    [Column1] [int] NULL,\n    [Column2] [varchar] (50) NULL,\n    [Column3] [datetime] NULL\n) ON [PRIMARY]

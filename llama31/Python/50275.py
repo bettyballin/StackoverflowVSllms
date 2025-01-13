@@ -1,0 +1,1 @@
+for product in products:\n    print(product.productrank.rank)

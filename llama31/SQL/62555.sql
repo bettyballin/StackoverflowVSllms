@@ -1,0 +1,1 @@
+CREATE TABLE formats (\n  id SERIAL PRIMARY KEY,\n  name VARCHAR(255) NOT NULL,\n  description TEXT,\n  subject_regex VARCHAR(255),\n  header_rules JSONB,\n  body_rules JSONB,\n  attachment_rules JSONB\n);

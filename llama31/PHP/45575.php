@@ -1,0 +1,1 @@
+global $dbHost, $dbPort, $dbName, $dbUser, $dbPassword, $conn, $dbconn, $username, $passhash_md5;

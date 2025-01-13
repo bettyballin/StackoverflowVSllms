@@ -1,1 +1,0 @@
-http PUT http://example.com/resource key=value

@@ -1,0 +1,1 @@
+const config = $.urlParam('config');\nalert(config); // should display "true"

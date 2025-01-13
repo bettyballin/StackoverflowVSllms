@@ -1,1 +1,0 @@
-using System.Net.Http;\nusing System.Threading.Tasks;\n\npublic class DotNetClient {\n    public async Task<string> GetDataAsync() {\n        using (var client = new HttpClient()) {\n            var response = await client.GetAsync("http://your-service-url.com/data");\n            return await response.Content.ReadAsStringAsync();\n        }\n    }\n}

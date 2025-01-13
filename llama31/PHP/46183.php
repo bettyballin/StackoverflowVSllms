@@ -1,0 +1,1 @@
+<?php\n$url = parse_url($_SERVER['REQUEST_URI']);\nif (isset($url['query']) && strpos($url['query'], 'module=MusicServer') !== false) {\n    $pageTitle = 'New Title for MusicServer Subpages';\n} else {\n    $pageTitle = 'Syrian Students ... Music Center';\n}\n?>\n<title><?php echo $pageTitle; ?></title>

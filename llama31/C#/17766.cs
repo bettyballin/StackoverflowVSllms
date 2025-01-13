@@ -1,1 +1,0 @@
-if (stream.CanRead)\n{\n    if (stream.Poll(1000, SelectMode.SelectRead))\n    {\n        // Data is available\n    }\n    else\n    {\n        // No data is available\n    }\n}

@@ -1,0 +1,1 @@
+def iterate(i):\n    yielded = False\n    for value in i:\n        yield value\n        yielded = True\n    if not yielded:\n        print('i is empty')

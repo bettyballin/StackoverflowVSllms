@@ -1,0 +1,1 @@
+-- Check for page splits and fragmentation\nDBCC CHECKDB ('YourDatabaseName') WITH TABLERESULTS\n\n-- Check for fragmentation\nDBCC SHOWCONTIG ('YourTableName') WITH TABLERESULTS

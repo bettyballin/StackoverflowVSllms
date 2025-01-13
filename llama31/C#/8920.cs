@@ -1,1 +1,0 @@
-try\n{\n    // .NET code here\n}\ncatch (Exception ex)\n{\n    // Pass error message back to Delphi code\n    // ...\n}

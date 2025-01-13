@@ -1,0 +1,1 @@
+function getStyle(className) {\n    var classes = document.styleSheets[0].rules || document.styleSheets[0].cssRules;\n    for (var x = 0; x < classes.length; x++) {\n        if (classes[x].selectorText == className) {\n            return classes[x].style.cssText;\n        }\n    }\n}\nconsole.log(getStyle('.test'));

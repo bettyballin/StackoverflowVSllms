@@ -1,0 +1,1 @@
+<web-app>\n  ...\n  <mime-mapping>\n    <extension>jsp</extension>\n    <mime-type>text/html</mime-type>\n  </mime-mapping>\n  ...\n</web-app>

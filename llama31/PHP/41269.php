@@ -1,0 +1,1 @@
+$stmt = $mysqli->prepare("INSERT INTO table (column) VALUES (?)");\n$stmt->bind_param("s", "value");\n$stmt->execute();\n\n// Get the ID of the last inserted row\n$id = $mysqli->insert_id;\n\necho "Last inserted ID: $id";

@@ -1,1 +1,0 @@
-public event EventHandler MyEvent {\n    add { /* custom add logic */ }\n    remove { /* custom remove logic */ }\n}

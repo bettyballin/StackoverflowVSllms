@@ -1,0 +1,1 @@
+DELIMITER //\nCREATE PROCEDURE GetImportantData(IN password VARCHAR(255))\nBEGIN\n  SELECT important_data \n  FROM users \n  WHERE password = PASSWORD(password);\nEND//\nDELIMITER ;

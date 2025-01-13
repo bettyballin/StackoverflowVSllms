@@ -1,1 +1,0 @@
-svn propset svn:externals https://svn.example.com/repo/versions file.txt

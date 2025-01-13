@@ -1,0 +1,1 @@
+var labelId = Label1.ClientID;

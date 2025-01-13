@@ -1,0 +1,1 @@
+<system.web>\n    <httpRuntime httpVersion="1.1" />\n</system.web>

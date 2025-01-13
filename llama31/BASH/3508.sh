@@ -1,1 +1,0 @@
-zap -openapi <website_url> -quick

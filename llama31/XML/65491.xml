@@ -1,0 +1,1 @@
+<system.webServer>\n    <handlers>\n        <!-- your handlers here -->\n    </handlers>\n    <validation validateIntegratedModeConfiguration="false" />\n</system.webServer>

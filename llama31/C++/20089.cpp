@@ -1,1 +1,0 @@
-#define DllExport   __declspec( dllexport )\nDllExport bool __cdecl DisplayScan(bool bShow, bool bAllPasses) { }

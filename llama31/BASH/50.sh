@@ -1,1 +1,0 @@
-java -Dnetbeans.lockfile=false -jar yourapp.jar

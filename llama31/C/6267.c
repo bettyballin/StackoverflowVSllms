@@ -1,1 +1,0 @@
-char dst[10];\nchar src[100];\n\n// Oops, mistake! We're copying 100 bytes into a 10-byte buffer\nmemcpy(dst, src, 100); // Buffer overflow!\n\n// With memcpy_s(), we catch the mistake\nif (memcpy_s(dst, 10, src, 100)) {\n    // Error: buffer overflow!\n}

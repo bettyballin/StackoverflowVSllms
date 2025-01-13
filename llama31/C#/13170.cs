@@ -1,1 +1,0 @@
-protected override void OnInit(EventArgs e)\n{\n    base.OnInit(e);\n    if (Session != null)\n    {\n        // Session is available\n        Session.Remove("foo");\n    }\n}

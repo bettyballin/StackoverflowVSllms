@@ -1,1 +1,0 @@
-#!/bin/bash\n\n# Run as postgres user\nPGUSER=postgres\nPGDUMP=/usr/bin/pg_dump\nVACUUMDB=/usr/bin/vacuumdb\n\n# Dump database\n$PGDUMP -Fc mydatabase > /opt/postgresql/prevac.gz\n$VACUUMDB --analyze mydatabase\n$PGDUMP -Fc mydatabase > /opt/postgresql/postvac.gz\n\n# Schema backup\nSCHEMA_BACKUP="/opt/postgresql/$(date +%w).db.schema"\n$PGDUMP -C -s mydatabase > $SCHEMA_BACKUP

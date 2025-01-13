@@ -1,1 +1,0 @@
-VHDTool /expand <path_to_vhd_file> <new_size_in_mb>

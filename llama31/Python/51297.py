@@ -1,0 +1,1 @@
+# Example of a simple smoke test in Python\nimport unittest\n\nclass TestSmokeTestExample(unittest.TestCase):\n    def test_smoke_test(self):\n        # Verify that the system doesn't crash when initialized\n        system_under_test = MySystem()\n        self.assertIsNotNone(system_under_test)\n\nif __name__ == '__main__':\n    unittest.main()

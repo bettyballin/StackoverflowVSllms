@@ -1,1 +1,0 @@
-#submenu {\n  position: relative;\n  z-index: 1000; /* set a high z-index to bring it to the front */\n}\n\n#overlapping-div {\n  position: relative;\n  z-index: 500; /* set a lower z-index to send it to the back */\n}

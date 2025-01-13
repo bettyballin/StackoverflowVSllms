@@ -1,1 +1,0 @@
-@media print {\n  html, body {\n    height: 100%;\n    margin: 0;\n    padding: 0;\n  }\n  /* Force the document to be one page long */\n  .one-page {\n    page-break-before: avoid;\n    page-break-after: avoid;\n    height: 100vh; /* or a fixed height, e.g. 1000px */\n    overflow: hidden;\n  }\n}

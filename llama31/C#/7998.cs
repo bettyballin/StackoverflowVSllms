@@ -1,1 +1,0 @@
-using System.Linq;\n\npublic static class MyExtensions\n{\n    public static string HelloWorld(this string s)\n    {\n        return s + " World!";\n    }\n}

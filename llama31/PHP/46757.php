@@ -1,0 +1,1 @@
+// In your index view\n<?= $this->Html->link('Edit', ['action' => 'edit', $item->id, 'page' => $this->Paginator->current()]) ?>

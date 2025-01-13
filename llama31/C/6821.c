@@ -1,1 +1,0 @@
-WIN32_FIND_DATA findData;\n// ... (populate findData)\n\nFILETIME utcFileTime;\nFileTimeToLocalFileTime(&findData.ftCreationTime, &utcFileTime);\nLocalFileTimeToFileTime(&utcFileTime, &utcFileTime);\n\nSYSTEMTIME utcSystemTime;\nFileTimeToSystemTime(&utcFileTime, &utcSystemTime);

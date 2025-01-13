@@ -1,1 +1,0 @@
-sed "1i $noftags" $taglistfiletemp > $taglistfile

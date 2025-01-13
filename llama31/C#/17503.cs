@@ -1,1 +1,0 @@
-int? nullableInt = null;\nint defaultValue = 0;\n\nint result = nullableInt ?? defaultValue; // Returns 0

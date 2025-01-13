@@ -1,1 +1,0 @@
-using System.Data.SqlServerCe;\n\n// Example usage:\nstring connectionString = "Data Source=your_database.sdf";\nusing (SqlCeConnection connection = new SqlCeConnection(connectionString))\n{\n    connection.Open();\n    // Perform database operations\n}

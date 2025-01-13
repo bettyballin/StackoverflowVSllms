@@ -1,1 +1,0 @@
-sudo service <service_name> stop\nsudo update-rc.d <service_name> remove

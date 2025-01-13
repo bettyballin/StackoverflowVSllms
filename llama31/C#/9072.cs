@@ -1,1 +1,0 @@
-string message = "Hello £ world!";\nbyte[] msgBytes = Encoding.GetEncoding("iso-8859-1").GetBytes(message);\n\nforeach (byte byt in msgBytes)\n{\n    if (byt == 0xA3) // £ symbol in ISO-8859-1\n    {\n        hexxedMsg += "01"; // £ symbol in GSM 03.38\n    }\n    else\n    {\n        hexxedMsg += byt.ToString("X2");\n    }\n}

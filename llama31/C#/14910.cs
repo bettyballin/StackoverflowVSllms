@@ -1,1 +1,0 @@
-var childType = typeof(Child);\nvar attributes = childType.GetCustomAttributes(typeof(Random), true);\nif (attributes.Length > 0)\n{\n    Console.WriteLine("Child has the Random attribute.");\n}

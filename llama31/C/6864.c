@@ -1,1 +1,0 @@
-int main() {\n    const char* filename = "image.jpg";\n    uint16_t width, height;\n\n    if (getJpegDimensions(filename, width, height)) {\n        printf("Width: %u, Height: %u\n", width, height);\n    } else {\n        printf("Failed to extract dimensions\n");\n    }\n\n    return 0;\n}

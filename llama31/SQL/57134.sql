@@ -1,0 +1,1 @@
+SET COMMAND TIMEOUT 60;  -- set timeout to 60 seconds\n\nBEGIN TRY\n    SELECT * FROM MyTable;\nEND TRY\nBEGIN CATCH\n    IF ERROR_NUMBER() = 1222  -- timeout error number\n        PRINT 'Statement timed out after 60 seconds';\n    ELSE\n        THROW;  -- re-throw the error if it's not a timeout\nEND CATCH;

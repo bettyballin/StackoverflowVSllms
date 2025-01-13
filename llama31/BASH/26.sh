@@ -1,1 +1,0 @@
-sudo dd if=/path/to/locked/file of=/path/to/destination bs=4k

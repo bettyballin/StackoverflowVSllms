@@ -1,0 +1,1 @@
+SELECT A.id, B.id\nFROM A\nJOIN B ON A.event_time >= B.start_time AND A.event_time < B.end_time

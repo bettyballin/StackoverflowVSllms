@@ -1,0 +1,1 @@
+gem 'ajaxful_rating'

@@ -1,1 +1,0 @@
-Regex r = new Regex(@"\\([^\\]+)", RegexOptions.IgnoreCase);

@@ -1,1 +1,0 @@
-xsd2db -f hmsdatablad.xsd -d mysql

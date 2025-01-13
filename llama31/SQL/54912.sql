@@ -1,0 +1,1 @@
+CREATE TRIGGER TR_Employee_UpdateCustomerEmployee\nON Employee\nAFTER INSERT, UPDATE\nAS\nBEGIN\n    INSERT INTO CustomerEmployee (CustomerId, EmployeeId)\n    SELECT i.CustomerId, i.EmployeeId\n    FROM inserted i\n    LEFT JOIN CustomerEmployee ce\n        ON i.CustomerId = ce.CustomerId AND i.EmployeeId = ce.EmployeeId\n    WHERE ce.CustomerId IS NULL;\nEND;

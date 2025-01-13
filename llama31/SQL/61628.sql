@@ -1,0 +1,1 @@
+WITH numbered AS (\n  SELECT timestamp, value,\n         ROW_NUMBER() OVER (PARTITION BY value ORDER BY timestamp) AS row_num\n  FROM your_table\n)\nSELECT timestamp, value\nFROM numbered\nWHERE row_num = 1;

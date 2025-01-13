@@ -1,1 +1,0 @@
-using HtmlSanitizer;\n\n// assume 'html' is the input HTML string\nvar sanitizer = new HtmlSanitizer();\nvar sanitizedHtml = sanitizer.Sanitize(html);\n\n// use the sanitizedHtml string

@@ -1,0 +1,1 @@
+Imports System.Linq\n\nDim randomizedList = list.OrderBy(Function(x) Guid.NewGuid()).ToList()

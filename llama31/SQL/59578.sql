@@ -1,0 +1,1 @@
+SELECT Date\nFROM logins\nGROUP BY Date\nHAVING COUNT(Date) < 3;

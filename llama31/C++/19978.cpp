@@ -1,1 +1,0 @@
-class Blah\n{\n    static unsigned int WINAPI Start(void*);\n};

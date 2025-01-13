@@ -1,1 +1,0 @@
-textBox1.TextChanged += textBox1_TextChanged;

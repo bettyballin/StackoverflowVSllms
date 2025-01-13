@@ -1,1 +1,0 @@
-rsync -avz -e 'ssh -i /path/to/ssh/key' /local/directory/ username@remote-server.com:/remote/directory/

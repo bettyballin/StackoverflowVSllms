@@ -1,1 +1,0 @@
-EnumerateFolders("My Mailbox");

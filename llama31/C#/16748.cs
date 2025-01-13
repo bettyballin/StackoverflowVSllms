@@ -1,1 +1,0 @@
-DbCommand getIDcmd = connection.CreateCommand();\ngetIDcmd.CommandText = "select LAST_ID from SEQUENCE_ID";\ngetIDcmd.Parameters.Add(null, DbType.Int64, ParameterDirection.ReturnValue);\nsequenceID = (Int64)getIDcmd.ExecuteScalar();

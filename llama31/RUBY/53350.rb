@@ -1,0 +1,1 @@
+require 'open3'\n\nOpen3.popen3(cmd) do |stdin, stdout, stderr, wait_thr|\n  while line = stdout.gets\n    puts line\n  end\nend

@@ -1,0 +1,1 @@
+SELECT \n    CASE \n        WHEN (SELECT COUNT(*) FROM mytable t2 WHERE t2.id <= t1.id) <= 4 \n        THEN CHAR(64 + (SELECT COUNT(*) FROM mytable t2 WHERE t2.id <= t1.id)) \n        ELSE '' \n    END AS seq_char,\n    id,\n    descr\nFROM mytable t1\nORDER BY id

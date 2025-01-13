@@ -1,0 +1,1 @@
+$.ajax({\n    type: 'POST',\n    url: 'yourAction.do',\n    data: $('#yourFormId').serialize(),\n    success: function(data) {\n        // handle the response\n    }\n});

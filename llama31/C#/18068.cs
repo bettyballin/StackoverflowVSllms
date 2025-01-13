@@ -1,1 +1,0 @@
-public static void PrintAllPilots(Type type, string pathToDb)\n{\n    IObjectContainer db = Db4oFactory.OpenFile(pathToDb);\n    IObjectSet result = db.QueryByExample(type);\n    db.Close();\n    ListResult(result);\n}

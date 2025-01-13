@@ -1,0 +1,1 @@
+<system.web>\n    <httpHandlers>\n        <add verb="*" path="DonationsService.asmx" type="JsonHandler, YourAssemblyName"/>\n    </httpHandlers>\n</system.web>

@@ -1,1 +1,0 @@
-class B : public A\n{\npublic:\n    using A::foo; // Add this line\n    int foo(int i){};\n};

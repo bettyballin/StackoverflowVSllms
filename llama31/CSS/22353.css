@@ -1,1 +1,0 @@
-.thumbnail-gallery {\n  overflow: hidden;\n}\n\n.thumbnail-gallery li {\n  float: left;\n  margin: 10px;\n}\n\n.thumbnail-gallery li img {\n  display: block;\n}\n\n.thumbnail-gallery li:after {\n  content: "";\n  clear: both;\n  display: block;\n}

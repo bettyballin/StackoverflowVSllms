@@ -1,1 +1,0 @@
-using MoreLinq;\n\nIList<T> items = GetItemsFromSomeWhere();\nvar sortedItems = items.Sort();\n\nT item = GetItemSomwHow();\nint index = sortedItems.IndexOf(item);

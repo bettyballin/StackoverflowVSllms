@@ -1,1 +1,0 @@
-for (i = 0; i < sizeOfPortRatesArray; i++) {\n    pIUnit->createPort(SysAllocString(rateMaterialTypeNames[i]));\n}

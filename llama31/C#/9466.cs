@@ -1,1 +1,0 @@
-// Copyright notice\nConsole.WriteLine("Oracle.DataAccess.dll Copyright (c) Oracle Corporation");

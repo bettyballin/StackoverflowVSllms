@@ -1,1 +1,0 @@
-wget http://pecl.php.net/get/memcached\ntar -xvzf memcached\ncd memcached\nphpize\n./configure --with-libmemcached-dir=/opt/local\nmake\nsudo make install

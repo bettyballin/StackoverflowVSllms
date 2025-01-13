@@ -1,1 +1,0 @@
-private void submitButton_Click(object sender, EventArgs e)\n{\n    if (this.ValidateChildren())\n    {\n        // All controls are valid, proceed with submission\n    }\n    else\n    {\n        // One or more controls are invalid, show error messages\n    }\n}

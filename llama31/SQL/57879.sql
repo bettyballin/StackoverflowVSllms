@@ -1,0 +1,1 @@
+ALTER TABLE tb_player\nADD COLUMN playvalue INTEGER;

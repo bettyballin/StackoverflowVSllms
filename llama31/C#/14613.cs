@@ -1,1 +1,0 @@
-public bool IsInIframe()\n{\n    var referrer = Request.UrlReferrer;\n    if (referrer != null && referrer.Host != Request.Url.Host)\n    {\n        return true; // likely within an iframe\n    }\n    return false;\n}

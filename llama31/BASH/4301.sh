@@ -1,1 +1,0 @@
-chcon -t httpd_sys_content_t /var/www/cgi-bin/script/config_file

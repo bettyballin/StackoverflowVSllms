@@ -1,0 +1,1 @@
+printJS({\n  printable: 'report-content',\n  type: 'html',\n  format: 'A4'\n});

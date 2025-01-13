@@ -1,0 +1,1 @@
+USE tempdb;\nGO\n\nSELECT * FROM #Return_Records;\nGO

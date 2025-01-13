@@ -1,0 +1,1 @@
+CREATE PROCEDURE sp_InsertUser\n    @Username nvarchar(50),\n    @Email nvarchar(100)\nAS\nBEGIN\n    IF NOT EXISTS (SELECT 1 FROM Users WHERE Username = @Username)\n    BEGIN\n        INSERT INTO Users (Username, Email)\n        VALUES (@Username, @Email)\n    END\nEND

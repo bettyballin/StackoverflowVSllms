@@ -1,0 +1,1 @@
+DECLARE @Param1 TABLE (id INT)\n\nINSERT INTO @Param1 (id)\nSELECT id FROM Table1\n\nEXEC dbo.MyClrProcedure @Param1

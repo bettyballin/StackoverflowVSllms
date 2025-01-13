@@ -1,1 +1,0 @@
-[HttpGet]\npublic ActionResult GetData(string filter, string sortColumn, string sortOrder)\n{\n    var data = YourDbContext.YourTable\n        .Where(filter)\n        .OrderBy(sortColumn + " " + sortOrder)\n        .ToList();\n\n    return Json(data, JsonRequestBehavior.AllowGet);\n}

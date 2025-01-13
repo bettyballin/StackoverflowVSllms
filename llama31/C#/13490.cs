@@ -1,1 +1,0 @@
-ServicePointManager.SecurityProtocol = SecurityProtocolType.Ssl2;\nHttpWebRequest request = (HttpWebRequest)WebRequest.Create("https://your-url.com");

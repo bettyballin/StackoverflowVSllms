@@ -1,1 +1,0 @@
-// Example of a workaround for IIS 6 using .mvc extension\npublic static void RegisterRoutes(RouteCollection routes)\n{\n    routes.MapRoute(\n        "Default",\n        "{controller}.mvc/{action}/{id}",\n        new { controller = "Home", action = "Index", id = "" }\n    );\n}

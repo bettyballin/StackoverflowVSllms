@@ -1,1 +1,0 @@
-tune2fs -l /dev/sda1 | grep acl

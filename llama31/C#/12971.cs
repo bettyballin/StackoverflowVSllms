@@ -1,1 +1,0 @@
-using Renci.SshNet;\n\nusing (var sftpClient = new SftpClient("sftp.example.com", 22, "username", "password"))\n{\n    sftpClient.Connect();\n    sftpClient.DeleteFile("/path/to/file.txt");\n    sftpClient.Disconnect();\n}

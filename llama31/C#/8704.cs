@@ -1,1 +1,0 @@
-public class MyService : IMyService\n{\n    public void MyMethod()\n    {\n        IPrincipal principal = OperationContext.Current.ServiceSecurityContext.WindowsIdentity;\n        // Use the principal as needed\n    }\n}

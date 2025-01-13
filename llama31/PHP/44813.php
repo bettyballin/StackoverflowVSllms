@@ -1,0 +1,1 @@
+$label = "This is a sigma character: \u03C3";

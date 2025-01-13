@@ -1,1 +1,0 @@
-openssl s_client -connect www.acpe.org:443 -showcerts

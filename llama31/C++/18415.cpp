@@ -1,1 +1,0 @@
-// myclass.h\nclass MyClass {\npublic:\n    MyClass();\n    ~MyClass();\n    void doSomething();\nprivate:\n    struct Impl;\n    Impl* pimpl;\n};

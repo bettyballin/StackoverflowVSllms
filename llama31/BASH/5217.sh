@@ -1,1 +1,0 @@
-dig <zone_name> @<new_server>

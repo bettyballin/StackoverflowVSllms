@@ -1,0 +1,1 @@
+require 'benchmark'\n\nBenchmark.bm do |x|\n  x.report('my_method') { my_method }\nend

@@ -1,0 +1,1 @@
+document.addEventListener('submit', function(event) {\n    var hiddenField = document.getElementById('hiddenField');\n    event.target.appendChild(hiddenField.cloneNode(true));\n}, false);

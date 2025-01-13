@@ -1,0 +1,1 @@
+// remove the option with value "option2"\n$('#selectBox option[value="option2"]').remove();\n\n// or, remove the second option\n$('#selectBox option:eq(1)').remove();

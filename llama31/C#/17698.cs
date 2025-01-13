@@ -1,1 +1,0 @@
-using AutoMapper;\n\npublic class Book\n{\n    private BookEntity book;\n\n    public Book(int Id)\n    {\n        book = new BookEntity(Id);\n    }\n\n    public BookType BookType\n    {\n        get { return Mapper.Map<BookType>(book.BookType); }\n        set { book.BookType = Mapper.Map<BookTypeEntity>(value); book.Save(); }\n    }\n}

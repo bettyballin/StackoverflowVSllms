@@ -1,0 +1,1 @@
+WITH OrderedTable AS (\n    SELECT \n        rowInt, \n        Value, \n        ROW_NUMBER() OVER (ORDER BY rowInt) AS RowNumber\n    FROM \n        myTable\n)\nSELECT \n    t1.rowInt, \n    t1.Value, \n    t1.Value - t2.Value AS Diff\nFROM \n    OrderedTable t1\nLEFT JOIN \n    OrderedTable t2 ON t1.RowNumber = t2.RowNumber + 1\nORDER BY \n    t1.rowInt;

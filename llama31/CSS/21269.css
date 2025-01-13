@@ -1,1 +1,0 @@
-div {\n  display: flex;\n  align-items: flex-start;\n}\n\ndiv img {\n  margin-right: 10px;\n  flex-shrink: 0;\n}\n\ndiv p {\n  flex-grow: 1;\n  flex-shrink: 1;\n  width: 100%;\n}

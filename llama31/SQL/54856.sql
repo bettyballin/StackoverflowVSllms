@@ -1,0 +1,1 @@
+INSERT INTO bug_group_map (group_id, bug_id, role) \nVALUES ((SELECT id FROM groups WHERE name = 'ProductXY'), \n        (SELECT id FROM bugs WHERE product_id = (SELECT id FROM products WHERE name = 'ProductXY')), \n        'cansee');

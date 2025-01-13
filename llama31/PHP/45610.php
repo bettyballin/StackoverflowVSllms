@@ -1,0 +1,1 @@
+function DoSomething1(&$connection) {\n    // use the connection\n}\n\n$connection = mysql_connect(...);\nDoSomething1($connection);

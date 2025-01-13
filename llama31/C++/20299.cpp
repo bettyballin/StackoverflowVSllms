@@ -1,1 +1,0 @@
-uint32_t fnv_hash(const vector<int>& v) {\n  uint32_t hash = 2166136261;\n  for (int x : v) {\n    hash = (hash ^ x) * 16777219;\n  }\n  return hash;\n}

@@ -1,0 +1,1 @@
+SELECT tblA.a, tblA.b, tblA.c, tblA.d\nFROM tblA\nLEFT OUTER JOIN tblB\nON tblA.a = tblB.a\nWHERE tblB.a IS NULL

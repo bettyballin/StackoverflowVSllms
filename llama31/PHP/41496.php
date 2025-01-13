@@ -1,0 +1,1 @@
+$query = "SELECT val FROM table WHERE id = 1";\n$stmt = $pdo->prepare($query);\n$stmt->execute();\n$value = $stmt->fetchColumn(0); // returns the first column of the first row

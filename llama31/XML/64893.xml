@@ -1,0 +1,1 @@
+<rule id="com.zend.phpmd.rules.strings.BadEscapeSequenceRule">\n    <setting name="severity" value="IGNORE"/>\n</rule>

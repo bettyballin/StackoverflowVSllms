@@ -1,1 +1,0 @@
-vtune -collect hotspots -knob sampling-mode=hw ./your_code\nvtune -report hotspots

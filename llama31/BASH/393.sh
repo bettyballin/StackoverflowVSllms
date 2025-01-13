@@ -1,1 +1,0 @@
-pip install csvkit\ncsvclean -i input.csv -o output.csv

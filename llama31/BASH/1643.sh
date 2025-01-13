@@ -1,1 +1,0 @@
-sudo chown mysql:mysql /var/log/mysql/general.log\nsudo chmod 640 /var/log/mysql/general.log

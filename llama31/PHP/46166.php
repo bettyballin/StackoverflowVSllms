@@ -1,0 +1,1 @@
+if(is_iphone())\n{\necho 'Welcome to the iPhone version of our site!';\n}

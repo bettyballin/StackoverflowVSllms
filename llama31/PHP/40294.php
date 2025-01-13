@@ -1,0 +1,1 @@
+$form->getElement('mySubmit')->setLabel('New Value');

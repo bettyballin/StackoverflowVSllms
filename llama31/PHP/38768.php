@@ -1,0 +1,1 @@
+$method = 'post';\n$method = strtoupper($method);\necho $method.'test1';\n\n$method = '_'.$method;\necho $method.'test2';\n\n// Access the $_POST superglobal array directly\necho $_POST.'test3';

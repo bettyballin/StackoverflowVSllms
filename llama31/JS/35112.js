@@ -1,0 +1,1 @@
+onchange="location.href='@Url.Action("Accounts", "Authorized", new { id = this.value }, Request.Url.Scheme)'"

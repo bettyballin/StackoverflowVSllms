@@ -1,1 +1,0 @@
-DirectoryEntry directoryEntry = new DirectoryEntry("LDAP://yourdomaincontroller.com/RootDSE");

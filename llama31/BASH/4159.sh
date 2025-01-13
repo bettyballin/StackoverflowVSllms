@@ -1,1 +1,0 @@
-composer require --dev felixfbecker/language-server

@@ -1,1 +1,0 @@
-Thread.CurrentThread.ApartmentState = ApartmentState.MTA;

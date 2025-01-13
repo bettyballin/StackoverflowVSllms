@@ -1,0 +1,1 @@
+use App\Auto;\n\n$auto = Auto::Create('Truck');

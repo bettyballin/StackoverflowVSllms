@@ -1,0 +1,1 @@
+header('TrySkipIisCustomErrors: true');\nheader('HTTP/1.1 404 Not Found');

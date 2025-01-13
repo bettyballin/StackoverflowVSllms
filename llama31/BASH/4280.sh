@@ -1,1 +1,0 @@
-install_name_tool -change @rpath/libclntsh.dylib.11.1 /opt/oracle/instantclient/libclntsh.dylib.11.1 /opt/oracle/instantclient/libclntsh.dylib.11.1

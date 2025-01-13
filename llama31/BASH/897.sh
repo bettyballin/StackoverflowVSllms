@@ -1,1 +1,0 @@
-g++ ReadClientFile.cpp -o myprogram

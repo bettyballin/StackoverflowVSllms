@@ -1,0 +1,1 @@
+$auth = new myAuthClass();\nif ($auth->login($username, $password)) {\n    $user = new myUserClass($auth->getUserId());\n}

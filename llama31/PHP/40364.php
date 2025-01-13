@@ -1,0 +1,1 @@
+$client = new SphinxClient();\n$client->SetServer('localhost', 9312);\n$client->SetMatchMode(SPH_MATCH_EXTENDED);\n$client->SetSelect('*, title');\n$client->SetQuery('search term', 'books');\n$results = $client->Query();

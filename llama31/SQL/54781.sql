@@ -1,0 +1,1 @@
+SELECT DISTINCT LOWCASE(country) AS country \nFROM companies;

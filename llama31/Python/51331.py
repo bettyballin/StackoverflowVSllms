@@ -1,0 +1,1 @@
+import somemodule\n\nfor item in dir(somemodule):\n    print(item)

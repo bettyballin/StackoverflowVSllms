@@ -1,1 +1,0 @@
-gtk_widget_set_hexpand(bottom_widget, TRUE);\ngtk_widget_set_vexpand(bottom_widget, TRUE);

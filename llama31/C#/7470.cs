@@ -1,1 +1,0 @@
-[ServiceContract]\npublic interface IMyService\n{\n    [OperationContract]\n    [Authorize(Roles = "Admin")]\n    string DoSomething();\n}\n\npublic class MyService : IMyService\n{\n    public string DoSomething()\n    {\n        // Code here\n    }\n}

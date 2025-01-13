@@ -1,1 +1,0 @@
-cscript adsutil.vbs SET_W3SVC_WebServiceExtensions_ASPNET_WebSvcExtRestrictionList 0

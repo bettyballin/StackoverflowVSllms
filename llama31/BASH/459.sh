@@ -1,1 +1,0 @@
-# Download data from live datastore\nappcfg.py download_data --application=s~your_app_id --url=http://your_app_id.appspot.com/_ah/remote_api/ --filename=datastore.dump\n\n# Upload data to local development datastore\nappcfg.py upload_data --application=dev~your_app_id --url=http://localhost:8080/_ah/remote_api/ --filename=datastore.dump

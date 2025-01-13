@@ -1,0 +1,1 @@
+ALTER TABLE item\n  DROP COLUMN rank,\n  ADD COLUMN rank_id INT,\n  ADD CONSTRAINT fk_item_rank FOREIGN KEY (rank_id) REFERENCES item_rank(id);

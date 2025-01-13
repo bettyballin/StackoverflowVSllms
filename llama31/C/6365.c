@@ -1,1 +1,0 @@
-#include <stdio.h>\n\nmain() {\n    printf("Hello, world!\n");\n    system("pause"); // pause the program before exiting\n}

@@ -1,0 +1,1 @@
+admin = false; // Assume this\n\nif (admin) {\n  function adminstuff() {\n    // admin-specific code here\n  }\n}\n\n$(".something").dblclick(function(){\n  if (admin) {\n    adminstuff();\n  } else {\n    userstuff();\n  }\n});

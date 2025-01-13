@@ -1,0 +1,1 @@
+$foo = $this->getFoo(PropelPDO::LOCK_EXCLUSIVE);

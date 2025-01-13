@@ -1,0 +1,1 @@
+BEGIN\n  ut.run('test_my_package');\nEND;

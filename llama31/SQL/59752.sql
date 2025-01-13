@@ -1,0 +1,1 @@
+IF TRY_CAST(@dateParam AS DATE) IS NULL\nBEGIN\n    RAISERROR ('Invalid date format.', 16, 1);\n    RETURN;\nEND;

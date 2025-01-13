@@ -1,0 +1,1 @@
+Public Enum CommandType\n    One\n    Two\n    Three\nEnd Enum

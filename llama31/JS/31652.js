@@ -1,0 +1,1 @@
+var sel = document.getElementById('sel1');\nvar observer = new MutationObserver(function(mutations) {\n  if (mutations.length > 0) {\n    myfunction();\n  }\n});\nobserver.observe(sel, {\n  attributes: true,\n  attributeFilter: ['selectedIndex']\n});

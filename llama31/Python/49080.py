@@ -1,0 +1,1 @@
+# forms.py\nfrom django import forms\nfrom .models import Customer\n\nclass CustomerForm(forms.ModelForm):\n    class Meta:\n        model = Customer\n        fields = ('active',)\n\nCustomerFormSet = forms.modelformset_factory(Customer, form=CustomerForm, extra=0)

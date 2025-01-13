@@ -1,0 +1,1 @@
+class Example < ApplicationRecord\n  self.primary_key = 'key_column'\nend

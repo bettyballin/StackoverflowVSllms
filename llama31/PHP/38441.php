@@ -1,0 +1,1 @@
+$container = new Container();\n$container->set('db', new DB($config));\n$container->set('login', new Login($container->get('db')));\n\n$login = $container->get('login');

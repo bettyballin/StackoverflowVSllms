@@ -1,0 +1,1 @@
+$url = (string)$attributes['url'];\n$height = (string)$attributes['height'];\n$width = (string)$attributes['width'];

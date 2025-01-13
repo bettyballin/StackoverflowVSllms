@@ -1,0 +1,1 @@
+if (isset($_COOKIE["selectedStyle"])) {\n    $style = $_COOKIE["selectedStyle"];\n} else {\n    $style = "spring";\n}\n\nif (isset($_POST["changeStyle"])) {\n    $style = $_POST["changeStyle"];\n}\n\nsetcookie("selectedStyle", $style, time() + 86400); // expire in 1 day (86400 seconds)

@@ -1,0 +1,1 @@
+-- Increase the connection timeout to 10 minutes\nSET COMMAND TIMEOUT 600;

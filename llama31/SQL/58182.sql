@@ -1,0 +1,1 @@
+SELECT *\nFROM YourTable\nWHERE CreateTime < DATEADD(mi, -1830, GETUTCDATE())

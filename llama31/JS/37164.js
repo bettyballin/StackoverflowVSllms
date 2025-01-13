@@ -1,0 +1,1 @@
+$('#input').focus(function() {\n  $(this).setCursorPosition(4);\n});

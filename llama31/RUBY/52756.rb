@@ -1,0 +1,1 @@
+# Copy the output of a command to the clipboard\nirb> puts "Hello, World!".clip\n\n# Paste the contents of the clipboard\nirb> gets.clip

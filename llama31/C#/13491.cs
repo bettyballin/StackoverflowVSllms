@@ -1,1 +1,0 @@
-using System;\n\npublic class Entity\n{\n    public Guid Id { get; set; }\n\n    public Entity()\n    {\n        Id = Guid.NewGuid();\n    }\n}

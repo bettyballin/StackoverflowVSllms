@@ -1,0 +1,1 @@
+<subsystem xmlns="urn:jboss:domain:web:2.2" default-virtual-server="default-host" native="false">\n    ...\n    <session-config>\n        <file-store relative-to="jboss.server.data.dir" path="sessions"/>\n    </session-config>\n    ...\n</subsystem>

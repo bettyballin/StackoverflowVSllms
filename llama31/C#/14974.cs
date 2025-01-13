@@ -1,1 +1,0 @@
-DataSet ds = ...; // your dataset\n\nvar customers = ds.Tables["tab_data"].AsEnumerable()\n    .Select(row => new Customer\n    {\n        Name = row.Field<string>("Name"),\n        FirstName = row.Field<string>("FirstName"),\n        Address = row.Field<string>("Address")\n    })\n    .ToList();

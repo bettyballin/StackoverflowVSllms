@@ -1,0 +1,1 @@
+CREATE TABLE your_table (\n  id char(36) primary key,\n  fieldA varChar(12) not null,\n  fieldB varChar(36) not null,\n  CONSTRAINT unique_fieldA_fieldB UNIQUE (fieldA, fieldB)\n);

@@ -1,0 +1,1 @@
+SELECT s.*\nFROM subscribers s\nWHERE s.season_id = 185181\nAND s.user_id NOT IN (\n  SELECT b.user_id\n  FROM bio b\n)\nUNION\nSELECT s.*\nFROM subscribers s\nWHERE s.season_id = 185181\nAND s.user_id IN (\n  SELECT b.user_id\n  FROM bio b\n  WHERE b.bio_id NOT IN (\n    SELECT ss.bio_id\n    FROM shirtsizes ss\n  )\n)

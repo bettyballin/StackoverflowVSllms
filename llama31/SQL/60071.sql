@@ -1,0 +1,1 @@
+-- MySQL (case insensitive)\nSELECT 'Hello' = 'hello';  // returns 1 (true)\n\n-- PostgreSQL (case sensitive)\nSELECT 'Hello' = 'hello';  // returns false

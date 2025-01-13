@@ -1,0 +1,1 @@
+-- Assign the role to a user\nINSERT INTO dbo.UserRoles (UserId, RoleId)\nVALUES ((SELECT Id FROM dbo.Users WHERE Username = 'username'), \n        (SELECT Id FROM dbo.Roles WHERE Name = 'Subscription Manager'));

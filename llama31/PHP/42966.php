@@ -1,0 +1,1 @@
+$templatePath = JPATH_BASE . '/templates/' . JFactory::getApplication()->getTemplate();

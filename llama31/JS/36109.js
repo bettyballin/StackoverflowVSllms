@@ -1,0 +1,1 @@
+Sys.WebForms.PageRequestManager.getInstance().add_endRequest(endRequestHandler);\n\nfunction endRequestHandler(sender, args) {\n  var senderControl = args.get_postBackElement();\n  if ($(senderControl).attr('data-save-message') === 'true') {\n    // display saved message with fadeout effect\n    $('#saved-message').fadeIn().delay(2000).fadeOut();\n  }\n}

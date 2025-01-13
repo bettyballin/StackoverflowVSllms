@@ -1,0 +1,1 @@
+// Example connection code\n$conn = pg_connect("host=localhost port=5432 dbname=mydb user=myuser password=mypassword");

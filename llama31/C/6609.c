@@ -1,1 +1,0 @@
-#include <stdatomic.h>\n\natomic_int lock = ATOMIC_VAR_INIT(0);\n\nvoid lock_mutex() {\n    while (atomic_exchange(&lock, 1) == 1) {\n        // spin until lock is acquired\n    }\n}\n\nvoid unlock_mutex() {\n    atomic_store(&lock, 0);\n}

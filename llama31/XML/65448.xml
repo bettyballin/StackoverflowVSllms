@@ -1,0 +1,1 @@
+<!-- Ribbon XML -->\n<customUI xmlns="http://schemas.microsoft.com/office/2006/01/customui">\n  <ribbon>\n    <tabs>\n      <tab id="MyTab" label="My Tab">\n        <group id="MyGroup" label="My Group">\n          <button id="MyButton" label="My Button" />\n        </group>\n      </tab>\n    </tabs>\n  </ribbon>\n</customUI>

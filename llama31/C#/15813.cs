@@ -1,1 +1,0 @@
-value = value.Replace("<br>", "\r\n").Trim();

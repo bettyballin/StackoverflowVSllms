@@ -1,0 +1,1 @@
+var modal = $find('modal1');

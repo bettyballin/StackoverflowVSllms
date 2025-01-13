@@ -1,0 +1,1 @@
+import dis\n\ndef pow1(x):\n    return x**2\n\ndef pow2(x):\n    return x*x\n\nprint(dis.dis(pow1))\nprint(dis.dis(pow2))

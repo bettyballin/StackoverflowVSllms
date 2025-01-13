@@ -1,1 +1,0 @@
-cl main.cpp /link mydll.lib

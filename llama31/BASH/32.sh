@@ -1,1 +1,0 @@
-dotnet new console -o MyProject\ndotnet build MyProject\ndotnet run MyProject

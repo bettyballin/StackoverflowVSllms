@@ -1,1 +1,0 @@
-beanstalkd -f -l hostip -p 11300

@@ -1,1 +1,0 @@
-using System.ServiceModel;\n\n[ServiceContract]\npublic interface ICustomerService\n{\n    [OperationContract]\n    Customer GetCustomer(int id);\n}\n\npublic class CustomerService : ICustomerService\n{\n    public Customer GetCustomer(int id)\n    {\n        // Implementation...\n    }\n}

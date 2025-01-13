@@ -1,1 +1,0 @@
-mysqldump -u root -pmy_password my_database > my_database_backup.sql

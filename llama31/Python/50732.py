@@ -1,0 +1,1 @@
+for file_path in file_paths:\n    if is_binary_file(file_path):\n        continue\n    # process text file

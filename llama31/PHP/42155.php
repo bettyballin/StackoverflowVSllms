@@ -1,0 +1,1 @@
+<?php\nif ( !defined('ABSPATH') ) {\n    define('ABSPATH', dirname(__FILE__) . '/');\n}\nrequire_once(ABSPATH . 'wp-settings.php');

@@ -1,1 +1,0 @@
-string[] myStrings = new string[] { "First", "Second", "Third" };\nstring output = string.Join(" ", myStrings);

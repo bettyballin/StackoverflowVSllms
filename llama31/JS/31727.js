@@ -1,0 +1,1 @@
+// load-banner.js\nconst bannerContainer = document.getElementById('banner-container');\nfetch('banner-content.html')\n  .then(response => response.text())\n  .then(html => {\n    bannerContainer.innerHTML = html;\n  });

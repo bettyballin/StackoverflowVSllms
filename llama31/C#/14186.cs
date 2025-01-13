@@ -1,1 +1,0 @@
-public static class Utilities\n{\n    public static void MyUtilityFunction() { /* implementation */ }\n}

@@ -1,0 +1,1 @@
+SELECT COMPANY_ID, array_to_string(array_agg(EMPLOYEE), ', ') AS EMPLOYEES\nFROM your_table\nGROUP BY COMPANY_ID;

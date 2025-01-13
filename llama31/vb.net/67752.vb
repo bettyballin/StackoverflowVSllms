@@ -1,0 +1,1 @@
+Private Sub Form1_Resize(sender As Object, e As EventArgs) Handles Me.Resize\n    If Me.WindowState = FormWindowState.Minimized Then\n        Me.SuspendLayout()\n        ' Minimize resources here\n    ElseIf Me.WindowState = FormWindowState.Normal Then\n        Me.ResumeLayout()\n        ' Restore resources here\n    End If\nEnd Sub

@@ -1,1 +1,0 @@
-string forwardedProto = Request.Headers["X-Forwarded-Proto"];\nif (forwardedProto == "https")\n{\n    // Request is secure\n}

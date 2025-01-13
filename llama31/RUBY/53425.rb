@@ -1,0 +1,1 @@
+gem install gprof2dot\nrake test:profile FORMAT=tree\ngprof2dot -f tree tmp/performance/tree.out | dot -Tpng -o profiling.png

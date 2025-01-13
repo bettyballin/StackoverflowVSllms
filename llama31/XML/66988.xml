@@ -1,0 +1,1 @@
+<system.web>\n    <httpModules>\n        <add name="ElmahRssAuthModule" type="YourNamespace.ElmahRssAuthModule, YourAssemblyName" />\n    </httpModules>\n</system.web>

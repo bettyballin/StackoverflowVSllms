@@ -1,1 +1,0 @@
-using System.Diagnostics;\n\nclass Program\n{\n    static void Main(string[] args)\n    {\n        try\n        {\n            // Your application code here\n        }\n        catch (System.IO.FileLoadException ex)\n        {\n            Debug.WriteLine(ex.Message);\n            Debug.WriteLine(ex.FusionLog);\n        }\n    }\n}

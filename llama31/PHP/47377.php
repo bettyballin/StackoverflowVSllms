@@ -1,0 +1,1 @@
+$unsignedValue = ip2long("192.168.1.1");\n$signedValue = unsignedToSigned($unsignedValue);

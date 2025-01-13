@@ -1,0 +1,1 @@
+$mysqli = new mysqli("localhost", "username", "password", "database");\n\n$q = "SELECT * FROM users WHERE username = 'doesnotexist'";\n$r = $mysqli->query($q);\n\nif (!$r) {\n    echo "<p>QUERY FAILED!</p>";\n} elseif ($r->num_rows == 0) {\n    echo "<p>NOT FOUND!</p>";\n} else {\n    echo "<p>FOUND!</p>";\n}\n\n$mysqli->close();

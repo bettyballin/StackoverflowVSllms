@@ -1,0 +1,1 @@
+SELECT @@DBTS AS CurrentTimestamp;

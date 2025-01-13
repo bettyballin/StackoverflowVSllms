@@ -1,0 +1,1 @@
+// Bind the click event to all links on the page\n$('a').bind("click", handleLinks);\n\n// Then, unbind the click event from the navbar links\n$('#navbar a').unbind("click", handleLinks);

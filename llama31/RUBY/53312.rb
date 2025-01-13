@@ -1,0 +1,1 @@
+<% albums_feature = Album.find_albums_with_feature(feature.id) %>

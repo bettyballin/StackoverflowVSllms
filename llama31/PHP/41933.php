@@ -1,0 +1,1 @@
+function index()\n{\n    die('Controller executed');\n    // ...\n}

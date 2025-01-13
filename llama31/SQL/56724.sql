@@ -1,0 +1,1 @@
+SELECT ... \nWHERE YEAR(posted) = 2009 \n  AND MONTH(posted) = 6;

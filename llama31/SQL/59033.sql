@@ -1,0 +1,1 @@
+CREATE VIEW MyView AS\nSELECT \n  Column1 AS c1,\n  ...\n  ColumnN AS cN\nFROM \n  dbo.Table1\nUNION\nSELECT \n  'Some String' as c1,\n  ...\n  NULL as cN\nFROM \n  dbo.Table2

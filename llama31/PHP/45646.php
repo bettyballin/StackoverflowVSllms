@@ -1,0 +1,1 @@
+$MyDB->prep("INSERT INTO `demo` (`id`, `name`, `score`, `dept`, `date`) VALUES (:id, :name, :score, :dept, :date)");\n$MyDB->bind(':id', 1);\n$MyDB->bind(':name', 'James Kablammo');\n$MyDB->bind(':score', 1205550);\n$MyDB->bind(':dept', 'Marketing');\n$MyDB->bind(':date', $date);\n$MyDB->run();

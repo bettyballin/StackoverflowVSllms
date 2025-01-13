@@ -1,1 +1,0 @@
-using System.Windows.Forms.VisualStyles;\n\nVisualStyleRenderer renderer = new VisualStyleRenderer(VisualStyleElement.Button.GroupBox.Normal);\nColor captionColor = renderer.GetColor(ColorProperty.TextColor);\n\nlabel1.ForeColor = captionColor;

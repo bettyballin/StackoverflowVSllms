@@ -1,0 +1,1 @@
+$originalTime = new DateTime('2022-01-01 12:00:00'); // Replace with your original time\n$interval = new DateInterval('PT5H');\n$originalTime->sub($interval);\n\necho $originalTime->format('Y-m-d H:i:s');

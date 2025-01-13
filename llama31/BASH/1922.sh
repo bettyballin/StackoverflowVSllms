@@ -1,1 +1,0 @@
-# Create a cpanfile with the required dependencies\necho "requires 'My::Module';" > cpanfile\n\n# Install the dependencies using carton\ncarton install\n\n# Bundle the dependencies with your application\ncarton bundle

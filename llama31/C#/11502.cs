@@ -1,1 +1,0 @@
-public static Func<MyDataContext, string, IQueryable<MyTable>> GetMyTableQuery =\n    CompiledQuery.Compile((MyDataContext context, string parameter) =>\n        from row in context.MyTable\n        where row.Column1 == parameter\n        select row);

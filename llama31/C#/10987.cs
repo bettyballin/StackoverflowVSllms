@@ -1,1 +1,0 @@
-DateTime birthday = (DateTime)data["Birth"];

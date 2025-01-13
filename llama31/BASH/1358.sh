@@ -1,1 +1,0 @@
-security find-certificate -c "iPhone Distribution" -k ~/Library/Keychains/login.keychai

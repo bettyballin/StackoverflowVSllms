@@ -1,1 +1,0 @@
-var usersWithoutTerritories = db.Users.Where(u => !db.User_x_Territories.Any(ut => ut.UserID == u.Id));

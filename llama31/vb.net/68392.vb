@@ -1,0 +1,1 @@
+Dim reader As New VCardReader()\nDim vCardData As Dictionary(Of String, String) = reader.ReadVCard("path_to_vcard.vcf")\nDim vCalendarData As Dictionary(Of String, String) = reader.ReadVCalendar("path_to_vcalendar.ics")

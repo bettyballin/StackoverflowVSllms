@@ -1,1 +1,0 @@
-*/15 * * * * php /path/to/your/app/cron/FinishOrdersCronJob.php

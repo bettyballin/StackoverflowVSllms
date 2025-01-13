@@ -1,0 +1,1 @@
+CREATE PROCEDURE MyProc\nAS\nBEGIN\n    CREATE TABLE #MyTempTable (id INT);\n    INSERT INTO #MyTempTable (id) VALUES (1);\n    SELECT * FROM #MyTempTable;\nEND;\nGO\n\n-- Session 1\nEXEC MyProc;  -- creates #MyTempTable instance 1\nGO\n\n-- Session 2 (from same user/connection string)\nEXEC MyProc;  -- creates #MyTempTable instance 2\nGO

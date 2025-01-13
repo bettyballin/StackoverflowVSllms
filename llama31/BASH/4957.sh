@@ -1,1 +1,0 @@
-sn -R MyAssembly.dll MyKeyPair.snk

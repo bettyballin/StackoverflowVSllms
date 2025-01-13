@@ -1,0 +1,1 @@
+<!-- web.xml (Grails 2.x) -->\n<filter>\n    <filter-name>fooFilter</filter-name>\n    <filter-class>com.example.FooFilter</filter-class>\n</filter>\n<filter-mapping>\n    <filter-name>fooFilter</filter-name>\n    <url-pattern>/*</url-pattern>\n</filter-mapping>

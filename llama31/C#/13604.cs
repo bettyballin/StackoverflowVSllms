@@ -1,1 +1,0 @@
-var configuration = new Configuration();\nconfiguration.DataBaseIntegration(db => db.ConnectionProvider<SQLiteConnectionProvider>());\n\n// ...\n\npublic class SQLiteConnectionProvider : DriverConnectionProvider\n{\n    public override IDbConnection GetConnection()\n    {\n        return new SQLiteConnection("Data Source=:memory:;Version=3;New=True;");\n    }\n}

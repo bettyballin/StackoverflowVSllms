@@ -1,0 +1,1 @@
+function check_visit_count($filename) {\n    $visit_count_file = 'visit_counts.txt';\n    $visit_count = 0;\n\n    if (file_exists($visit_count_file)) {\n        $visit_count = (int) file_get_contents($visit_count_file);\n    }\n\n    if ($visit_count >= 5) {\n        return false; // Link has expired\n    }\n\n    return true; // Link is still valid\n}

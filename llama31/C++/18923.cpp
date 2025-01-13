@@ -1,1 +1,0 @@
-class MyClass {\npublic:\n    int operator[](size_t i) {\n        return at(i);\n    }\n\nprivate:\n    int at(size_t i) {\n        // your logic here\n        return data[i];\n    }\n\n    int data[10]; // Example data\n};

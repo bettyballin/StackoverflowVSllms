@@ -1,0 +1,1 @@
+SELECT Name\nFROM your_table\nGROUP BY Name\nHAVING COUNT(Name) >= 2;

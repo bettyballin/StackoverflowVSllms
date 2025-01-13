@@ -1,0 +1,1 @@
+CREATE FULLTEXT INDEX ON Companies (CompanyName, Location)

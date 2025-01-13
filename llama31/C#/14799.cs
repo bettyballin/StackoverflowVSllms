@@ -1,1 +1,0 @@
-public class Mail\n{\n    public string Uri { get; set; }\n    public string From { get; set; }\n    public string Subject { get; set; }\n    public string Body { get; set; }\n}

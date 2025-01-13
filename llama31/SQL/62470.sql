@@ -1,0 +1,1 @@
+CREATE TABLE test_blob (\n  id INT PRIMARY KEY,\n  data BLOB\n);\n\nINSERT INTO test_blob (id, data) VALUES (1, 'Hello, World!');

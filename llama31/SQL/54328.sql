@@ -1,0 +1,1 @@
+INSERT IGNORE INTO categories (catName)\nVALUES ('each'), ('category'), ('name');

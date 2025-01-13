@@ -1,1 +1,0 @@
-g++ -o build/bin/myapp -Lbuild/bin -l:_mylib.so

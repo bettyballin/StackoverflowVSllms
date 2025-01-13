@@ -1,0 +1,1 @@
+let count = 0;\nconst maxCount = 3;\nconst intervalId = setInterval(() => {\n  // Your AJAX function here\n  console.log('Running AJAX function');\n  count++;\n  if (count >= maxCount) {\n    clearInterval(intervalId);\n  }\n}, 60000); // 60000 milliseconds = 1 minute

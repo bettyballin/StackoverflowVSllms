@@ -1,1 +1,0 @@
-# Example of setting up DFSR on Windows Server\nImport-Module DFSR\nNew-DfsReplicationGroup -GroupName "FileShare" -Description "Replicate file share"\nAdd-DfsReplicationGroupMember -GroupName "FileShare" -ComputerName "Server1", "Server2"

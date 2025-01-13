@@ -1,1 +1,0 @@
-// Example usage:\nDeepEarth.Map map = new DeepEarth.Map();\nmap.AddLayer(new DeepEarth.OpenStreetMapTileLayer());

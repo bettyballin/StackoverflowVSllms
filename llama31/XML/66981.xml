@@ -1,0 +1,1 @@
+<healthMonitoring enabled="true">\n  <providers>\n    <!-- ... -->\n  </providers>\n  <rules>\n    <add name="All errors from my site" eventName="All Errors" provider="MailWebEventProvider" profile="Critical"/>\n    <add name="AsyncPostBackErrors" eventName="WebBaseErrorEvent" provider="MailWebEventProvider" profile="Critical"/>\n  </rules>\n</healthMonitoring>

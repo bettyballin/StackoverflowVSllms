@@ -1,0 +1,1 @@
+<system.web>\n    <customErrors mode="On" defaultRedirect="~/ErrorPage.aspx">\n        <error statusCode="500" redirect="~/ErrorPage.aspx"/>\n    </customErrors>\n</system.web>

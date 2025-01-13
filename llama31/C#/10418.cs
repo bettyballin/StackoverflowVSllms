@@ -1,1 +1,0 @@
-using Microsoft.Win32;\n\n// Use the MenuFlags enum to access the MF_REMOVE constant\nMenuFlags.MF_REMOVE

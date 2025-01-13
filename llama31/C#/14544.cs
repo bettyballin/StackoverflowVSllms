@@ -1,1 +1,0 @@
-AppDomain.CurrentDomain.UnhandledException += (sender, args) =>\n{\n    // Log the exception\n    // Restart the service using the SCM\n    ConfigureServiceRestart();\n};

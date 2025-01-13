@@ -1,0 +1,1 @@
+SELECT col1, col2\nFROM table1\nWHERE person_uid IN (SELECT person_uid FROM table2 WHERE period = table1.period)\nUNION ALL\nSELECT col1, NULL\nFROM table1\nWHERE person_uid NOT IN (SELECT person_uid FROM table2 WHERE period = table1.period);

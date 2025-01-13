@@ -1,1 +1,0 @@
-git clone --filter=blob:none --sparse https://github.com/user/repo.git\ncd repo\ngit sparse-checkout set /static

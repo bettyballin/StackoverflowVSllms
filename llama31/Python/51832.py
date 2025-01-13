@@ -1,0 +1,1 @@
+from wsgi_profiler import profile_app\n\napplication = profile_app

@@ -1,1 +1,0 @@
-HtmlGenericControl radioButton = (HtmlGenericControl)Page.FindControl("radioButtonId");\nif (radioButton != null)\n{\n    radioButton.InnerText = "New Text";\n}

@@ -1,0 +1,1 @@
+// Example usage:\nconst viewer = new Viewer({\n  container: document.getElementById('pdf-container'),\n  url: 'path/to/example.pdf',\n});

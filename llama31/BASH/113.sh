@@ -1,1 +1,0 @@
-#!/bin/bash\n\nLOCK_FILE=/path/to/lock/file.lock\n\nif [ -f "$LOCK_FILE" ]; then\n  echo "Another instance is already running, exiting."\n  exit 1\nfi\n\ntouch "$LOCK_FILE"\n\n# your code here\n\nrm "$LOCK_FILE"

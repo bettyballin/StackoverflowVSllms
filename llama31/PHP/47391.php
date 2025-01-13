@@ -1,0 +1,1 @@
+$num = '1.67119535743E+33';\n.hex = bcdechex($num);\necho $hex;

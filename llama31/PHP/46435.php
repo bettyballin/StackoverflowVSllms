@@ -1,0 +1,1 @@
+use Facebook\Facebook;\n\n$fb = new Facebook([\n  'app_id' => '{app-id}',\n  'app_secret' => '{app-secret}',\n  'default_graph_version' => 'v2.10',\n]);\n\n$user = $fb->get('/me');

@@ -1,1 +1,0 @@
-gprof -x your_program gmon.out

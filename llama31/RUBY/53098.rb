@@ -1,0 +1,1 @@
+GET /stories => StoriesController#index\nGET /stories/:id => StoriesController#show\nGET /stories/new => StoriesController#new\nPOST /stories => StoriesController#create\nPUT /stories/:id => StoriesController#update\nDELETE /stories/:id => StoriesController#destroy

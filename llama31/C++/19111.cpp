@@ -1,1 +1,0 @@
-#include <log4cxx/logger.h>\n\nint main() {\n  log4cxx::LoggerPtr logger(log4cxx::Logger::getLogger("MyApp"));\n  LOG4CXX_INFO(logger, "Diagnostic information");\n  return 0;\n}

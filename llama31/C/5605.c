@@ -1,1 +1,0 @@
-int n = 42;\nif (n / 2 == (n + 1) / 2) {\n    printf("Even\n");\n}

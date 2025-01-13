@@ -1,1 +1,0 @@
-httrack http://example.com -A * -B -K -O output_dir

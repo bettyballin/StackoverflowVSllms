@@ -1,0 +1,1 @@
+form_tag({ controller: 'stories', action: 'create' }, method: 'post') do\n  # ...\nend

@@ -1,1 +1,0 @@
-[EditorBrowsable(EditorBrowsableState.Never)]\ninternal Class1(Wrapped.Class1 c) { }

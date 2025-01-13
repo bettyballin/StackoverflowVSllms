@@ -1,1 +1,0 @@
-var cmd = CreateStoredProcedureCommand("StoredProc", new SqlParameter("@p1", 1), new SqlParameter("@p2", 2));

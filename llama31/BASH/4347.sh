@@ -1,1 +1,0 @@
-dig +zone <zone_name> @localhost > <zone_name>.zone

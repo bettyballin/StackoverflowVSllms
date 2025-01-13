@@ -1,0 +1,1 @@
+exec('java -jar your_java_program.jar', $output, $return_var);

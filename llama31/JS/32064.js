@@ -1,0 +1,1 @@
+var values = {\n    "id": "200",\n    "FirstName": "Chris",\n    "DynamicItem1": "Some Value",\n    "DynamicItem2": "Some Other Value"\n};\n\n$.post("/Controller/AddItems", { values: JSON.stringify(values) }, function(data) { }, "json");

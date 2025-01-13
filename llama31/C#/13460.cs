@@ -1,1 +1,0 @@
-protected override void OnModelCreating(ModelBuilder modelBuilder)\n{\n    modelBuilder.Entity<MyEntity>()\n        .HasKey(e => new { e.Id1, e.Id2 });\n}

@@ -1,1 +1,0 @@
-protected void Wizard1_NextButtonClick(object sender, WizardNavigationEventArgs e)\n{\n    if (mustUploadAnImageValidator != null)\n    {\n        mustUploadAnImageValidator.Validate();\n        if (!mustUploadAnImageValidator.IsValid)\n        {\n            e.Cancel = true; // cancel the navigation to the next step\n        }\n    }\n}

@@ -1,0 +1,1 @@
+$posts = array();\nwhile ($row = $result->fetch(PDO::FETCH_ASSOC)) {\n    $posts[] = $row;\n}

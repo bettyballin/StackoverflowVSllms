@@ -1,1 +1,0 @@
-string logFilePath = Path.Combine(\n    Environment.GetFolderPath(Environment.SpecialFolder.LocalApplicationData),\n    "YourApplicationName",\n    "ErrorLog.txt"\n);\n\n// Write to the log file\nusing (StreamWriter writer = new StreamWriter(logFilePath, true))\n{\n    writer.WriteLine("Error message: " + errorMessage);\n}

@@ -1,0 +1,1 @@
+$doc->addField(Zend_Search_Lucene_Field::Stored('id', $m->id));

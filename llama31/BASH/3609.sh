@@ -1,1 +1,0 @@
-who am i | awk '{print $5}' | sed 's/(\(.*\))/\1/'

@@ -1,0 +1,1 @@
+// Example Python code using InfluxDB\nimport influxdb\n\n# Connect to InfluxDB\nclient = influxdb.InfluxDBClient(host='localhost', port=8086)\n\n# Insert data\nclient.write_points([\n    {'measurement': 'disk_usage', 'tags': {'user': 'john'}, 'fields': {'space': 100.0}},\n    {'measurement': 'memory_usage', 'tags': {'user': 'jane'}, 'fields': {'memory': 50.0}}\n])

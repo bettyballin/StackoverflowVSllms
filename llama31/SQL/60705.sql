@@ -1,0 +1,1 @@
+RESTORE DATABASE [YourDatabaseName]\nFROM DISK = 'C:\Path\To\BackupFile1.bak',\nDISK = 'C:\Path\To\BackupFile2.bak'\nWITH MOVE 'YourDatabaseName' TO 'C:\Path\To\RestoreFolder';

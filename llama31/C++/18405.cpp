@@ -1,1 +1,0 @@
-class ClassTest {\npublic:\n    ClassTest() {\n        // add a dummy variable to prevent inlining\n        volatile int dummy = 0;\n        // your constructor code here\n    }\n\n    void DoIt() {\n        // your DoIt code here\n    }\n};

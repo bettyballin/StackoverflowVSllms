@@ -1,0 +1,1 @@
+$.ajax({\n  type: "POST",\n  url: "/myService",\n  data: { param1: "value1", param2: "value2" },\n  dataType: "json",\n  success: function(data) {\n    // Handle successful response\n  },\n  error: function(xhr, status, error) {\n    // Handle error\n  }\n});

@@ -1,0 +1,1 @@
+function myCallback(arg) {\n    WebForm_DoCallback('myCallback', arg, myCallbackHandler, null, null, true);\n}\n\nfunction myCallbackHandler(result, context) {\n    // Handle the result (if any)\n}

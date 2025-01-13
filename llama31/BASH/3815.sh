@@ -1,1 +1,0 @@
-# Install ClamAV on Ubuntu/Debian\nsudo apt-get update\nsudo apt-get install clamav\n\n# Update ClamAV database\nsudo freshclam\n\n# Scan a file using ClamAV\nclamdscan --stdout -i /path/to/file

@@ -1,1 +1,0 @@
-UpdatePanel1.ChildrenAsTriggers = true;

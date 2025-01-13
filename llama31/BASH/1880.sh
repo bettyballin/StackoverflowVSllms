@@ -1,1 +1,0 @@
-// Rollback to previous migration\ndoctrine:migrations:execute --dow

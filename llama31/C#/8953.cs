@@ -1,1 +1,0 @@
-using (SqlConnection connection = new SqlConnection(connectionString))\n{\n    connection.Open();\n\n    string query = "INSERT INTO SurveyComments (Comments) VALUES (@Comments)";\n    SqlCommand command = new SqlCommand(query, connection);\n    command.Parameters.AddWithValue("@Comments", commentsTextBox.Text);\n\n    command.ExecuteNonQuery();\n}

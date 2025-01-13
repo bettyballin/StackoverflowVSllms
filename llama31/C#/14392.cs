@@ -1,1 +1,0 @@
-long originalNumber = 1234567890;\nstring encryptedString = NumberEncryptor.EncryptNumber(originalNumber);\nlong decryptedNumber = NumberEncryptor.DecryptNumber(encryptedString);\n\nConsole.WriteLine($"Original Number: {originalNumber}");\nConsole.WriteLine($"Encrypted String: {encryptedString}");\nConsole.WriteLine($"Decrypted Number: {decryptedNumber}");

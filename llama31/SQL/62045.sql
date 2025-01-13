@@ -1,0 +1,1 @@
+CREATE TABLE product_codes (\n  code CHAR(2) PRIMARY KEY,\n  name VARCHAR(50) NOT NULL\n);\n\nCREATE TABLE products (\n  id INT PRIMARY KEY,\n  code CHAR(2) NOT NULL,\n  FOREIGN KEY (code) REFERENCES product_codes(code)\n);

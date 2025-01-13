@@ -1,0 +1,1 @@
+$frontController->setDispatcher(new MyDispatcher());

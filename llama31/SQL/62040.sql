@@ -1,0 +1,1 @@
+SELECT Cast(Round(MyField, 2) AS Decimal(18, 2)) AS RoundedField\nFROM MyTable

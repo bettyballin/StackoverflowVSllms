@@ -1,1 +1,0 @@
-using System.Reflection;\n\n// Load the DLL from a specific path\nstring dllPath = @"C:\Path\To\Your\DLL.dll";\nAssembly assembly = Assembly.LoadFrom(dllPath);\n\n// Use the types from the loaded DLL\nType type = assembly.GetType("YourNamespace.YourType");

@@ -1,0 +1,1 @@
+var UI = {\n    Layouts: {\n        ShowLayoutSettings: function(pid, lid) {\n            My.PageServices.GetPageLayout(lid, pid, UI.Layouts._onShowLayoutSettings);\n        },\n        _onShowLayoutSettings: function(json) {\n            var obj = JSON.parse(json);\n            alert(obj.ID);\n        }\n    }\n}

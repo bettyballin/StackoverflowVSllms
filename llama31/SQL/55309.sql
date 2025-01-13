@@ -1,0 +1,1 @@
+SELECT *\nFROM your_table\nWHERE your_date_column >= DATE_TRUNC('month', DATE(your_year, your_month, 1))\n  AND your_date_column < DATE_TRUNC('month', DATE(your_year, your_month, 1)) + INTERVAL '1 month';

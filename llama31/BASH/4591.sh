@@ -1,1 +1,0 @@
-keytool -import -trustcacerts -alias tomcat -keystore keystore.jks -file cert.pem

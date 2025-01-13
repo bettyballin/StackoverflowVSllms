@@ -1,0 +1,1 @@
+foreach (Conf::get_array() as $reflection_class) {\n    $reflectionObject = new ReflectionClass($reflection_class);\n    $objects[] = $reflectionObject->newInstanceArgs(array($param_1, $param_2));\n}

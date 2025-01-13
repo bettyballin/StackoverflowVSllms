@@ -1,1 +1,0 @@
-#!/bin/bash\n\nfor file in "$PATH_TO_SOMEWHERE"; do\n    case "$file" in\n        *.txt)\n            # do something txt-ish\n            ;;\n        *)\n            # handle other file types or directories\n            ;;\n    esac\ndone

@@ -1,0 +1,1 @@
+from django.db.models import F, Q\n\nMyModel.objects.annotate(\n    myproperty_computed=Q(field1='value1') & Q(field2='value2')\n).filter(myproperty_computed=True)

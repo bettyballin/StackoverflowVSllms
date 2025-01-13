@@ -1,0 +1,1 @@
+$(".item").multiDraggable({\n  revert: "invalid"\n});

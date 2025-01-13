@@ -1,1 +1,0 @@
-label:not(:has(input[type="radio"], input[type="checkbox"])) {\n  font-weight: bold;\n}

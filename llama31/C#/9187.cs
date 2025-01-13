@@ -1,1 +1,0 @@
-using System.Transactions;\n\n[Test]\npublic void MyTest()\n{\n    using (var scope = new TransactionScope(TransactionScopeOption.Required))\n    {\n        // Perform database operations here\n        // ...\n        scope.Complete();\n    }\n}

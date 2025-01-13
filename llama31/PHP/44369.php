@@ -1,0 +1,1 @@
+$region = Mage::getModel('directory/region');\n$region->setName('England');\n$region->setCode('EN');\n$region->setCountryId('GB'); // GB is the country ID for the UK\n$region->save();

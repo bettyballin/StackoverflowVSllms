@@ -1,1 +1,0 @@
-%windir%\SysWOW64\regsvr32.exe yourcomdll.dll

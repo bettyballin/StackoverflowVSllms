@@ -1,0 +1,1 @@
+<Context>\n  <Realm className="org.apache.catalina.realm.DataSourceRealm"\n         dataSourceName="jdbc/mydatasource"\n         roleNameCol="role_name"\n         userCredCol="user_pass"\n         userNameCol="user_name"\n         userRoleTable="user_roles"\n         userTable="users"/>\n</Context>

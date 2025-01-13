@@ -1,0 +1,1 @@
+var $j = jQuery.noConflict();\nvar $p = $; // reference to prototype's $\n\n// Unified $ function\nvar $ = function(E, F) {\n  var isJQuery = (typeof E === 'string' && E.indexOf('#') === 0) || \n                 (typeof E === 'object' && E instanceof jQuery);\n  \n  if (isJQuery) {\n    return $j(E, F);\n  } else {\n    return $p(E);\n  }\n};

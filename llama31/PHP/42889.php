@@ -1,0 +1,1 @@
+$stmt = $mysqli->prepare("UPDATE accounts SET userpoints = ?");\n$stmt->bind_param("i", $points);\n$stmt->execute();

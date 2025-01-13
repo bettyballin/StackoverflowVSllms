@@ -1,0 +1,1 @@
+CREATE OR REPLACE PROCEDURE myProc(p_start NUMBER, p_end NUMBER)\nAS\n  PRAGMA AUTONOMOUS_TRANSACTION;\nBEGIN\n  -- Procedure code here\n  COMMIT;\nEND;

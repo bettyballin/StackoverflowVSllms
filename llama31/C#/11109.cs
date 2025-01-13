@@ -1,1 +1,0 @@
-public class FileSizeValidator : BaseValidator\n{\n    protected override bool EvaluateIsValid()\n    {\n        HttpPostedFile file = (HttpPostedFile)GetControlValidationValue(ControlToValidate);\n        int fileSize = file.ContentLength;\n\n        return fileSize <= 1024 * 1024; // 1 MB\n    }\n}

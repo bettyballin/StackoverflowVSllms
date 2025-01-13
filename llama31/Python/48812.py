@@ -1,0 +1,1 @@
+# Example of secure coding practice: validating user input\nimport re\n\ndef validate_input(input_data):\n    # Define a whitelist of allowed characters\n    allowed_chars = r'^[a-zA-Z0-9]+$'\n    \n    # Check if input matches the whitelist\n    if re.match(allowed_chars, input_data):\n        return True\n    else:\n        return False

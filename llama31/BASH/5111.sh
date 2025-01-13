@@ -1,1 +1,0 @@
-ss.exe Status $/ -R

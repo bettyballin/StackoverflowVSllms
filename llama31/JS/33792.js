@@ -1,0 +1,1 @@
+$('#dialog').dialog({\n  modal: true,\n  title: 'Please enter a value',\n  open: function() {\n    $('#dialog input').focus();\n  },\n  buttons: {\n    'OK': function() {\n      var value = $('#dialog input').val();\n      // do something with the value\n      $(this).dialog('close');\n    },\n    'Cancel': function() {\n      $(this).dialog('close');\n    }\n  }\n});

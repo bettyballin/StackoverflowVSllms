@@ -1,1 +1,0 @@
-strace -p <pid> -e trace=system

@@ -1,1 +1,0 @@
-var tableAdapter = new MyTableAdapter();\ntableAdapter.Connection = new SqlConnection(connectionString);

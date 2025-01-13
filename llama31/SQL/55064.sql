@@ -1,0 +1,1 @@
+WITH UniqueCoordinates AS (\n  SELECT \n    geoLng, \n    geoLat, \n    intid, \n    ROW_NUMBER() OVER (PARTITION BY geoLng, geoLat ORDER BY NEWID()) AS row_num\n  FROM \n    Documents\n)\nSELECT \n  TOP (@maxcount) intid\nFROM \n  UniqueCoordinates\nWHERE \n  row_num = 1

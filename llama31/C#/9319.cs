@@ -1,1 +1,0 @@
-var engine = new FileHelperEngine<HttpLogRecord>();\nvar records = engine.ReadFile("yourfile.csv");

@@ -1,1 +1,0 @@
-using System;\n\npublic class VersionExample\n{\n    public static void Main(string[] args)\n    {\n        Version oldVersion = new Version(1, 38, 0, 0);\n        Version newVersion = new Version(1, 4, 0, 0);\n\n        Console.WriteLine(oldVersion.CompareTo(newVersion)); // Output: 1 (oldVersion is greater than newVersion)\n    }\n}

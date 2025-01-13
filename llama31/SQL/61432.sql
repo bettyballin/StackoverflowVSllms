@@ -1,0 +1,1 @@
+SELECT IF(val >= (1 << 31), val - (1 << 32), val) AS signed_val\nFROM your_table;

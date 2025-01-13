@@ -1,1 +1,0 @@
-accesories = accesories.OrderBy(a => sortOrder.IndexOf(a.AccessoryId)).ToList();

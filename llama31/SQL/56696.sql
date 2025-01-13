@@ -1,0 +1,1 @@
+CREATE TABLE mytable (id NUMBER PRIMARY KEY, name VARCHAR2(20));\n\nINSERT INTO mytable (id, name) VALUES (1, 'John Doe');\nINSERT INTO mytable (id, name) VALUES (2, 'Jane Doe');\n\nCOMMIT;

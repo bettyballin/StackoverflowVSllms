@@ -1,1 +1,0 @@
-$path = "E:\Exchange\Databases\Mailbox Database.edb"\n$volume = Get-Volume -FilePath $path\necho $volume.DeviceId

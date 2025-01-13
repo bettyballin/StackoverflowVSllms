@@ -1,1 +1,0 @@
-setspn -s net.tcp/server01:8080 <account_name>

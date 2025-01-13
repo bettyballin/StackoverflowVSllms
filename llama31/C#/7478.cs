@@ -1,1 +1,0 @@
-int totalBytesReceived = 0;\nint bufferSize = 1024 * 1024; // adjust this to a suitable size\nbyte[] buffer = new byte[bufferSize];\n\nwhile (totalBytesReceived < bufferSize)\n{\n    int bytesReceived = client.Receive(buffer, totalBytesReceived, bufferSize - totalBytesReceived, SocketFlags.None);\n    totalBytesReceived += bytesReceived;\n}\n\n// now you have the complete buffer

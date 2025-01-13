@@ -1,1 +1,0 @@
-void add_arrays(float *a, float *b, float *c, int n) {\n    for (int i = 0; i < n; i++) {\n        c[i] = a[i] + b[i];\n    }\n}

@@ -1,1 +1,0 @@
-return Redirect(Server.UrlEncode(Session["PreviousUrl"] as string));

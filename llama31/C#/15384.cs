@@ -1,1 +1,0 @@
-Assembly assembly = Assembly.LoadFrom("C:\\test.dll");

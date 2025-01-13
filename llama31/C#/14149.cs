@@ -1,1 +1,0 @@
-using System.Diagnostics;\n\nclass MyWpfApp\n{\n    public MyWpfApp()\n    {\n        Trace.WriteLine("Hello, world!");\n    }\n}

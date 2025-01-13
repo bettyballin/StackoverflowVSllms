@@ -1,1 +1,0 @@
-export MYSQL_CONN="-u user -p -h hostname"

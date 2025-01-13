@@ -1,1 +1,0 @@
-string valueToConvertFrom = "123";\nType convertToType = typeof(int);\n\nobject convertedValue = Convert.ChangeType(valueToConvertFrom, convertToType, CultureInfo.InvariantCulture);

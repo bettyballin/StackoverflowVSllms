@@ -1,1 +1,0 @@
-/usr/local/gcc-4.1/bin/gcc -nostdinc -nostdlib -I/usr/local/gcc-4.1/include -L/usr/local/gcc-4.1/lib your_app.c -o your_app

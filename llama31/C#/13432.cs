@@ -1,1 +1,0 @@
-using System.Windows.Forms;\n\n// Get the virtual desktop size\nRectangle virtualDesktop = SystemInformation.VirtualScreen;\n\n// Get the width and height of the virtual desktop\nint width = virtualDesktop.Width;\nint height = virtualDesktop.Height;

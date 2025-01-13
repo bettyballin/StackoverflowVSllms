@@ -1,1 +1,0 @@
-public class MyController : Controller\n{\n    public ActionResult MyAction(MyModel model)\n    {\n        if (!ModelState.IsValid)\n        {\n            return View(model);\n        }\n\n        ((ModelStateWarningDictionary)ModelState).AddWarning("MyProperty", "This is a warning");\n\n        return View(model);\n    }\n}

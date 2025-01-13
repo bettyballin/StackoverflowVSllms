@@ -1,0 +1,1 @@
+SET GLOBAL max_allowed_packet = 1073741824;  // 1 GB\nSET GLOBAL innodb_log_file_size = 1073741824;  // 1 GB

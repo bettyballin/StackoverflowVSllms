@@ -1,0 +1,1 @@
+echo "<input type='button' value='send mails' onclick=\"sendmails('".$sendQuestion."')\">";

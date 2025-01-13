@@ -1,0 +1,1 @@
+BACKUP DATABASE [your_database_name] TO DISK = 'C:\backup\your_database_name_schema.bak'\nWITH FORMAT, COMPRESSION, COPY_ONLY, NO_LOG, COMPATIBILITY_LEVEL = 80;

@@ -1,1 +1,0 @@
-string encode = secretkey + email;\nbyte[] HashValue, MessageBytes = Encoding.UTF8.GetBytes(encode);\nSHA1Managed SHhash = new SHA1Managed();\nstring strHex = "";\n\nHashValue = SHhash.ComputeHash(MessageBytes);\nforeach(byte b in HashValue) {\n    strHex += String.Format("{0:x2}", b);\n}

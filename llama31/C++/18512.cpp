@@ -1,1 +1,0 @@
-// main.cpp\n#include "mydll.h"\n\nint main()\n{\n    int result = calculateSquare(5);\n    return 0;\n}

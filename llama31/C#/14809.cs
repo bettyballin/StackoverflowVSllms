@@ -1,1 +1,0 @@
-string[] args = File.ReadAllText(args[0]).Split(' ');

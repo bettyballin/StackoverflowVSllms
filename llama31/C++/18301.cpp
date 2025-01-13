@@ -1,1 +1,0 @@
-// myclass.h\nclass __declspec(dllexport) MyClass {\n    // ...\n};

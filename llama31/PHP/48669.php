@@ -1,0 +1,1 @@
+$config = new ArrayObject(array('adminEmail' => 'user@domain.tld'));\n\n// accessing the property\necho $config['adminEmail'];

@@ -1,0 +1,1 @@
+// Using XMLHttpRequest\nvar xhr = new XMLHttpRequest();\nxhr.open('GET', '/google-maps-page', true);\nxhr.send();\n\n// Using Fetch API\nfetch('/google-maps-page');

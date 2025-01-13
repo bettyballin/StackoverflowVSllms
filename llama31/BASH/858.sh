@@ -1,1 +1,0 @@
-tshark -i eth0 -Y "data" -w /path/to/output/%04d.pcap -b files:1

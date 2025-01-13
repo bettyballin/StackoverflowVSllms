@@ -1,0 +1,1 @@
+SELECT id FROM (SELECT * FROM table) AS subquery;

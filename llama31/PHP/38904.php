@@ -1,0 +1,1 @@
+$asd['a'] = 10;\n$asd['b'] = 1;\n$asd['c'] = 6;\n$asd['d'] = 3;\n\narsort($asd); // sort by value in descending order\n$firstFour = array_slice($asd, 0, 4); // get the first 4 elements\n\nprint_r($firstFour);

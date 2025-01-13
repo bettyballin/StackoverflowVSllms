@@ -1,1 +1,0 @@
-vault kv put secret/myapp/db-password value=mysecretpassword

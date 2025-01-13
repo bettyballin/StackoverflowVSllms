@@ -1,0 +1,1 @@
+<label for="Name">Name:</label>\n<%= Html.TextBox("Name") %>\n<%= Html.ValidationImage("Name") %>

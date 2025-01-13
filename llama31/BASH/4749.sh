@@ -1,1 +1,0 @@
-etsh interface ipv4 set interface "Your Network Interface Name" adminstate=enable

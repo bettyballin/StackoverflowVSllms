@@ -1,1 +1,0 @@
-free(str);\nfree(str1);

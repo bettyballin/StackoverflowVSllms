@@ -1,1 +1,0 @@
-vendor/bin/phpcs --standard=ruleset.xml /path/to/your/code

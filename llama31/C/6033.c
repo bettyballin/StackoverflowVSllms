@@ -1,1 +1,0 @@
-HKEY key;\nLONG lRes = RegOpenKeyEx(HKEY_LOCAL_MACHINE, "SOFTWARE\\MyApp", 0, KEY_READ, &key);\nif (lRes == ERROR_SUCCESS) {\n    // Read or write registry values here\n    RegCloseKey(key);\n}

@@ -1,0 +1,1 @@
+$sql = mysql_query("SELECT * FROM comments WHERE user = 1");\n$rows = array();\nwhile ($row = mysql_fetch_assoc($sql)) {\n    $rows[] = $row;\n}\n\nforeach ($rows as $i => $row) {\n    echo "<p>$i. " . $row['comment'] . "</p>";\n    if ($i < count($rows) - 1) {\n        echo "<div class='border'></div>";\n    }\n}

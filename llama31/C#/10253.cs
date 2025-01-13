@@ -1,1 +1,0 @@
-HtmlNode imageNode = linkNode.Descendants("img").FirstOrDefault(n => n.GetAttributeValue("alt", string.Empty) != string.Empty);

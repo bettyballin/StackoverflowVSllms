@@ -1,1 +1,0 @@
-:: On the old server\niisback.vbs /backup /b "C:\IISBackup"\n\n:: On the new server\niisback.vbs /restore /b "C:\IISBackup"

@@ -1,0 +1,1 @@
+// Example React component\nimport React from 'react';\n\nfunction Counter() {\n  const [count, setCount] = React.useState(0);\n\n  return (\n    <div>\n      <p>Count: {count}</p>\n      <button onClick={() => setCount(count + 1)}>Increment</button>\n    </div>\n  );\n}

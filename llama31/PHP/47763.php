@@ -1,0 +1,1 @@
+class Rectangle {\n    private $width;\n    private $height;\n\n    public function __construct($width, $height) {\n        $this->width = $width;\n        $this->height = $height;\n    }\n\n    public function calculateArea() {\n        return $this->width * $this->height;\n    }\n}\n\n$rectangle = new Rectangle(4, 5);\n$area = $rectangle->calculateArea();\necho $area;

@@ -1,0 +1,1 @@
+<property name="PdfFile" type="BinaryBlob" column="PdfFile" not-null="false" />

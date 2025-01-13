@@ -1,1 +1,0 @@
-$ csvsql -i yourfile.csv "SELECT * FROM yourtable WHERE ...;"

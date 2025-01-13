@@ -1,1 +1,0 @@
-var host = new CustomTextTemplatingSessionHost(myObjects);\nvar engine = new TextTemplatingEngine();\nvar session = new TextTemplatingSession(host);\n\nvar template = new Template1(); // your T4 template\nvar result = engine.ProcessTemplate(template, session);

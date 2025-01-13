@@ -1,0 +1,1 @@
+$app1Session = new SessionHandler('app1');\n$app1Session->set('user', 'john');\n\n$app2Session = new SessionHandler('app2');\n$app2Session->set('user', 'jane');

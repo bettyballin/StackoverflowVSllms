@@ -1,1 +1,0 @@
-image.Attributes.Add("onmouseover", "this.classList.add('large-image');")\nimage.Attributes.Add("onmouseout", "this.classList.remove('large-image');")

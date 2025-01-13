@@ -1,0 +1,1 @@
+ini_set('upload_max_filesize', '10M');\nini_set('max_file_uploads', 20);

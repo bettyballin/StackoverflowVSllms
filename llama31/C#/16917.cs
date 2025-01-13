@@ -1,1 +1,0 @@
-var intCollection = new MathCollection<int, IntMathOperations>(new IntMathOperations());\nvar doubleCollection = new MathCollection<double, DoubleMathOperations>(new DoubleMathOperations());

@@ -1,0 +1,1 @@
+$result = $s3->putObjectFile($uploadDIR, $bucket, $name, S3::ACL);\n\nif ($s3->getObjectUrl($bucket, $name)) {\n    // File exists on S3, proceed with the rest of the code\n    // Use cURL to call EC2 instance and perform action on file in S3\n}

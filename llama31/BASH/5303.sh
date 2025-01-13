@@ -1,1 +1,0 @@
-robocopy $(SolutionDir) C:\DestinationFolder\ /MIR

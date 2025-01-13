@@ -1,1 +1,0 @@
-#include <cstdio>\n#include <stdio.h>

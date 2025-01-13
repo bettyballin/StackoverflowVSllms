@@ -1,1 +1,0 @@
-void Application_BeginRequest(object sender, EventArgs e)\n{\n    var url = HttpContext.Current.Request.Url.AbsolutePath;\n    if (url.StartsWith("/images/"))\n    {\n        var newUrl = "http://static.yourwebsite.com" + url;\n        HttpContext.Current.Response.Redirect(newUrl);\n    }\n}

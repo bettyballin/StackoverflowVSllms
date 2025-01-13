@@ -1,1 +1,0 @@
-gcc -shared -o yourdll.dll yourcode.c -Wl,--add-stdcall-alias

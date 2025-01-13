@@ -1,0 +1,1 @@
+<?php\n// Define the page content based on the 'page' parameter\n$page = isset($_GET['page']) ? $_GET['page'] : 'races';\n\n// Load the corresponding PHP file\nrequire_once "$page.php";\n\n// Store the rendered content in a variable\n$content = ob_get_contents();\nob_end_clean();\n?>

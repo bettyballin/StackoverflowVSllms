@@ -1,0 +1,1 @@
+xml.onreadystatechange = function() {\n  if (xml.readyState === 4) {\n    alert('test');\n  }\n};

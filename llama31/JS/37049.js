@@ -1,0 +1,1 @@
+$.ajaxSetup({\n  concurrent: 2 // allow 2 concurrent requests\n});

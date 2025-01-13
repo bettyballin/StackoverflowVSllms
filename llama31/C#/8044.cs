@@ -1,1 +1,0 @@
-var webProxy = new WebProxy();\nwebProxy.UseDefaultCredentials = true;\nWebRequest.DefaultWebProxy = webProxy;

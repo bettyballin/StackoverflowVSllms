@@ -1,1 +1,0 @@
-FormsAuthenticationTicket ticket = new FormsAuthenticationTicket(1, // version\n    "username", // name\n    DateTime.Now, // issue date\n    DateTime.Now.AddMinutes(30), // expiration\n    false, // is persistent\n    "custom data" // user data\n);

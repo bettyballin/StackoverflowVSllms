@@ -1,0 +1,1 @@
+'modules' => [\n    'Model' => [\n        'autoload' => [\n            'psr-4' => [\n                'Model\\' => __DIR__ . '/../modules/Model/src/Model/',\n            ],\n        ],\n    ],\n],

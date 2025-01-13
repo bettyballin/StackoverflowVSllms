@@ -1,0 +1,1 @@
+if (count($array1) === count($array2)) {\n    $associativeArray = array_combine($array1, $array2);\n} else {\n    // handle the error\n}

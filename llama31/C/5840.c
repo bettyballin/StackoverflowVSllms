@@ -1,1 +1,0 @@
-#define __and __old_and\n#include <linux/cpumask.h>\n#undef __and\n#define and __and

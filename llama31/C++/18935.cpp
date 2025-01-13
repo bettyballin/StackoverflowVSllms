@@ -1,1 +1,0 @@
-class MyCWnd : public CWnd, public IKeyboardInputSite\n{\npublic:\n    // IKeyboardInputSite implementation\n    HRESULT STDMETHODCALLTYPE CanReceiveKeyboardInput(BOOL* pfCanReceive)\n    {\n        *pfCanReceive = TRUE;\n        return S_OK;\n    }\n};

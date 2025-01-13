@@ -1,1 +1,0 @@
-// In your content page's code-behind (e.g., Default.aspx.cs)\nprotected void Page_Load(object sender, EventArgs e)\n{\n    // Get a reference to the master page\n    SiteMaster master = (SiteMaster)Master;\n\n    // Change the text of the label\n    master.lblHeading.Text = "New Heading";\n}

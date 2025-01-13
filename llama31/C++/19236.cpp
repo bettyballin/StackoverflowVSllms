@@ -1,1 +1,0 @@
-#include <glog/logging.h>\n\nint main() {\n  google::InitGoogleLogging();\n  LOG(INFO) << "Diagnostic information";\n  return 0;\n}

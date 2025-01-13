@@ -1,1 +1,0 @@
-XDocument xmlDoc = XDocument.Load("scripts.xml");\nTreeNodeCollection nodes = treeView1.Nodes;\nforeach (XElement scriptElement in xmlDoc.Descendants("script"))\n{\n    TreeNode scriptNode = nodes.Add(scriptElement.Attribute("name").Value);\n    PopulateTreeView(scriptNode.Nodes, scriptElement);\n}

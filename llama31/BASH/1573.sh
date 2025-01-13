@@ -1,1 +1,0 @@
-phpcs --standard=PHPCompatibility your_php4_file.php

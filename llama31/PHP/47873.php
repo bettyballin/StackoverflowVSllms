@@ -1,0 +1,1 @@
+preg_match('/\[summary\]([\s\S]+)\[\/summary\]/i', $data['text'], $match);

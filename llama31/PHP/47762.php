@@ -1,0 +1,1 @@
+function calculateArea($width, $height) {\n    return $width * $height;\n}\n\n$area = calculateArea(4, 5);\necho $area;

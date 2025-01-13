@@ -1,1 +1,0 @@
-HKEY hKey;\nRegOpenKeyEx(HKEY_CLASSES_ROOT, "Wow6432Node\\CLSID", 0, KEY_READ, &hKey);

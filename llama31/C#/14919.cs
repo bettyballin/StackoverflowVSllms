@@ -1,1 +1,0 @@
-[DllImport("kernel32.dll")]\nstatic extern bool SetConsoleIcon(IntPtr hIcon);\n\n// Usage:\nIntPtr iconHandle = LoadIcon(IntPtr.Zero, "path/to/icon.ico");\nif (iconHandle != IntPtr.Zero)\n{\n    SetConsoleIcon(iconHandle);\n}

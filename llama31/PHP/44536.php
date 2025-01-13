@@ -1,0 +1,1 @@
+// Example of a version check\nif (PHP_VERSION < '5.0') {\n    // Your PHP version is outdated\n}

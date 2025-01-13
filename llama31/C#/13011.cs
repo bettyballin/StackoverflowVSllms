@@ -1,1 +1,0 @@
-Outlook.MAPIFolder targetFolder = oNS.GetFolderFromID(entryID, storeID);

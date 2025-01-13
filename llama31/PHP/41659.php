@@ -1,0 +1,1 @@
+use phpseclib3\Crypt\AES;\n\n$encryptedData = $_POST['encryptedData'];\n$aes = new AES();\n$aes->setKey('your_secret_key');\n$decryptedData = $aes->decrypt($encryptedData);

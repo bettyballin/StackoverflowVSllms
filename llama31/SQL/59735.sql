@@ -1,0 +1,1 @@
+CREATE SCHEMA [User1];\nCREATE TABLE [User1].[Table1] (\n    Column1 INT,\n    Column2 VARCHAR(50)\n);\nCREATE TABLE [User1].[Table2] (\n    Column3 INT,\n    Column4 VARCHAR(50)\n);\n\nCREATE SCHEMA [User2];\nCREATE TABLE [User2].[Table1] (\n    Column1 INT,\n    Column2 VARCHAR(50)\n);\nCREATE TABLE [User2].[Table2] (\n    Column3 INT,\n    Column4 VARCHAR(50)\n);

@@ -1,1 +1,0 @@
-public class MyValidator : BaseValidator\n{\n    protected override void CreateControl()\n    {\n        base.CreateControl();\n        this.ControlToValidate = ((WebControl)ControlToValidate).ID;\n    }\n}

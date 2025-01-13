@@ -1,1 +1,0 @@
-socat -v -x -b 115200 /dev/ttyUSB0,b115200,raw,echo=0 SYSTEM:'tee input.log | tee output.log'

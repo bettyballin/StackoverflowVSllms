@@ -1,0 +1,1 @@
+BEGIN TRANSACTION;\nBEGIN TRY\n    UPDATE your_table SET column1 = 'new_value' WHERE id = 1;\n    EXEC your_stored_proc 'parameter1', 'parameter2';\n    COMMIT TRANSACTION;\nEND TRY\nBEGIN CATCH\n    ROLLBACK TRANSACTION;\n    THROW;\nEND CATCH;

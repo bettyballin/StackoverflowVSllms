@@ -1,1 +1,0 @@
-var navigator = ColorTable.CreateNavigator();\nvar expression = navigator.Compile("//color[@index=$index]");\nvar variable = expression.CreateVariable("index", "", percentage.ToString());\nvar r = expression.Evaluate(navigator).ToString();

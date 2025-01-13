@@ -1,0 +1,1 @@
+SELECT user_id, SUM(value) as reputation_total\nFROM reputation\nWHERE created_at >= DATE_SUB(CURRENT_DATE, INTERVAL 7 DAY)\nGROUP BY user_id

@@ -1,0 +1,1 @@
+SELECT modelDescription, COUNT(*) as appearance\nFROM your_table\nGROUP BY modelDescription\nORDER BY appearance DESC\nFETCH FIRST 1 ROW ONLY;

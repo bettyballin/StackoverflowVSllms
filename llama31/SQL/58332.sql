@@ -1,0 +1,1 @@
+CREATE SEQUENCE my_seq START WITH 200;\n\n-- Get the next sequence value\nSELECT my_seq.nextval FROM dual;  -- returns 201\n\n-- Manually insert a row with ID 201 (don't do this!)\nINSERT INTO my_table (id, ...) VALUES (201, ...);\n\n-- Get the next sequence value again\nSELECT my_seq.nextval FROM dual;  -- returns 201 (conflict!)

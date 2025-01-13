@@ -1,1 +1,0 @@
-string[] tnsnames = TnsnamesParser.ParseTnsnames(@"C:\path\to\tnsnames.ora");\nforeach (string tnsname in tnsnames)\n{\n    Console.WriteLine(tnsname);\n}

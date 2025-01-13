@@ -1,1 +1,0 @@
-@foreach (var parent in Model)\n{\n    @parent.Name\n    <ul>\n        @foreach (var child in parent.Children)\n        {\n            <li>@child</li>\n        }\n    </ul>\n}

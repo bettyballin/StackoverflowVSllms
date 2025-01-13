@@ -1,0 +1,1 @@
+import pyitunes\n\n# Create an iTunes instance\nitunes = pyitunes.iTunes()\n\n# Get the iPhone device\ndevice = itunes.GetDeviceByName('iPhone')\n\n# Sync the device (just an example, you'll need to implement the actual sync logic)\ndevice.Sync()

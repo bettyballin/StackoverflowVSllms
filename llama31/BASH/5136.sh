@@ -1,1 +1,0 @@
-:: Set ORACLE_HOME for 11.1.0.6\nset ORACLE_HOME=C:\oracle\11.1.0.6\n\n:: Set ORACLE_HOME for 11.1.0.7\nset ORACLE_HOME=C:\oracle\11.1.0.7

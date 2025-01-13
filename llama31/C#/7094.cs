@@ -1,1 +1,0 @@
-public class RequireHttpsAttribute : ActionFilterAttribute\n{\n    public override void OnActionExecuting(ActionExecutingContext filterContext)\n    {\n        if (!filterContext.HttpContext.Request.IsSecureConnection)\n        {\n            filterContext.Result = new RedirectResult(filterContext.HttpContext.Request.Url.ToString().Replace("http", "https"));\n        }\n    }\n}

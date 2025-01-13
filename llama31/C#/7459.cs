@@ -1,1 +1,0 @@
-string formattedText = double.Parse(textBox.Text).ToString("P");

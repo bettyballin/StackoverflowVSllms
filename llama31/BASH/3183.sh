@@ -1,1 +1,0 @@
-sed -i.bak '1a\inserted text' *

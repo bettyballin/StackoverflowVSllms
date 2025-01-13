@@ -1,0 +1,1 @@
+WITH RankedRows AS (\n  SELECT id, clientid,\n    ROW_NUMBER() OVER (PARTITION BY clientid ORDER BY id) AS row_num\n  FROM tRealtyTrac\n)\nDELETE FROM RankedRows WHERE row_num > 1000

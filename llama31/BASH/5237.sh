@@ -1,1 +1,0 @@
-jstat -gcutil <PID> 1000 1

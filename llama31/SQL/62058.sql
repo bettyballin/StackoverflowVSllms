@@ -1,0 +1,1 @@
+CREATE TABLE MyTable (\n    Id INT PRIMARY KEY,\n    Name VARCHAR(50) NOT NULL,\n    UpperName AS UPPER(Name) PERSISTED\n);\n\nCREATE INDEX IX_UpperName ON MyTable (UpperName);

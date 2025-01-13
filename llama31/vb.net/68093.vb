@@ -1,0 +1,1 @@
+Function CalculatePi(n As Integer) As Double\n    Dim pi As Double = 0.0\n    For k As Integer = 0 To n\n        pi += (1 / (16 ^ k)) * ((4 / (8 * k + 1)) - (2 / (8 * k + 4)) - (1 / (8 * k + 5)) - (1 / (8 * k + 6)))\n    Next\n    Return pi\nEnd Functio

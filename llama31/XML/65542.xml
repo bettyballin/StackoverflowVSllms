@@ -1,0 +1,1 @@
+<Window xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"\n        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">\n    <Grid>\n        <Path Fill="Red" Data="{StaticResource IconGeometry}" />\n    </Grid>\n</Window>

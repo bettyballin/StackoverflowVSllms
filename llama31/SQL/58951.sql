@@ -1,0 +1,1 @@
+SELECT * FROM log l\nJOIN users u ON l.reference_id = u.id AND l.reference_type = 'user'\nUNION\nSELECT * FROM log l\nJOIN services s ON l.reference_id = s.id AND l.reference_type = 'service'

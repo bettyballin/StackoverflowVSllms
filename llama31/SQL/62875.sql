@@ -1,0 +1,1 @@
+UPDATE my_table\nSET count = CASE\n    WHEN count - 1 > 0 THEN count - 1\n    ELSE NULL\nEND\nWHERE token = my_token;\n\nDELETE FROM my_table\nWHERE count IS NULL;

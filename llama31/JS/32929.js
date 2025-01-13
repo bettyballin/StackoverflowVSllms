@@ -1,0 +1,1 @@
+// Get the DIV element\nconst clickableDiv = document.getElementById('clickableDiv');\n\n// Add an event listener to the DIV element\nclickableDiv.addEventListener('click', function() {\n  // Get the link element\n  const link = clickableDiv.querySelector('a');\n  // Simulate a click on the link\n  link.click();\n});

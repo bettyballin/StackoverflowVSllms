@@ -1,0 +1,1 @@
+myMethods &= CREATE COM OBJECT("MyAssembly.MyMethods")

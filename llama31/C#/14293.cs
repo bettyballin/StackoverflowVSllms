@@ -1,1 +1,0 @@
-public override void copy(FileItem destination)\n{\n    if (!IsDirectory)\n    {\n        string destinationFilePath = Path.Combine(destination.Path, Path.GetFileName(this.Path));\n        File.Copy(this.Path, destinationFilePath, true);\n    }\n    else\n    {\n        copyRecursive(destination);\n    }\n}

@@ -1,0 +1,1 @@
+window.addEventListener("popstate", function(event) {\n  var currentState = event.state;\n  updateUI(currentState);\n});

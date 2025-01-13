@@ -1,0 +1,1 @@
+// In controllers/home.php\nclass Controller_Home extends Controller {\n    public function action_index() {\n        // Handle non-AJAX request\n    }\n\n    public function action_login() {\n        if ($this->request->is_ajax()) {\n            // Handle AJAX request for login\n        } else {\n            // Handle non-AJAX request for login\n        }\n    }\n}

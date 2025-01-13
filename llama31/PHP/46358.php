@@ -1,0 +1,1 @@
+if (!preg_match('#^http://#', $link)) {\n    $link = 'http://' . $link;\n}

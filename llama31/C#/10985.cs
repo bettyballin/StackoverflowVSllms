@@ -1,1 +1,0 @@
-DateTime birthday = data.GetDateTime(data.GetOrdinal("Birth"));

@@ -1,1 +1,0 @@
-using System;\nusing System.Runtime.InteropServices;\n\n[ComVisible(true)]\npublic interface IMyInterface\n{\n    void MyMethod(string param);\n}\n\n[ComVisible(true)]\n[ClassInterface(ClassInterfaceType.AutoDispatch)]\npublic class MyComponent : IMyInterface\n{\n    public void MyMethod(string param)\n    {\n        // implementation here\n    }\n}

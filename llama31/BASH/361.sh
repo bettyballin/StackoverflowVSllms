@@ -1,1 +1,0 @@
-taskkill /im explorer.exe /f\n   start explorer.exe

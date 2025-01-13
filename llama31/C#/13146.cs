@@ -1,1 +1,0 @@
-using SP2003 = Microsoft.SharePoint; // 2003 namespace\nusing SP2007 = Microsoft.SharePoint; // 2007 namespace\n\n// Use the 2003 API for SP 2003\nSP2003.SPSite site2003 = new SP2003.SPSite("http://sp2003site");\n\n// Use the 2007 API for SP 2007\nSP2007.SPSite site2007 = new SP2007.SPSite("http://sp2007site");

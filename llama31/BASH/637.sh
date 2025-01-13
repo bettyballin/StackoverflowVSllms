@@ -1,1 +1,0 @@
-# Sample Thumbnailer script\n#!/bin/bash\n# Your thumbnailer script goes here

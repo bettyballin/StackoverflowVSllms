@@ -1,1 +1,0 @@
-#include <stdio.h>\n#include <stdlib.h>\n\nint main() {\n    const char *yytext = "0";\n    const float f = (float)atof(yytext);\n    size_t t = (size_t)f;\n    printf("t should be 0 and is %zu\n", t);\n    return 0;\n}

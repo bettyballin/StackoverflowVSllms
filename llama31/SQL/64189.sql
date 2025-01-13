@@ -1,0 +1,1 @@
+SELECT * FROM tblNames\nWHERE ID LIKE '_1' ESCAPE '_'

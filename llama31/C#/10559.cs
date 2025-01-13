@@ -1,1 +1,0 @@
-LoadDict(PhoneticType.phonSoundex, "myDict")

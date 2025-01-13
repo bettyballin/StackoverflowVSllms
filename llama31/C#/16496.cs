@@ -1,1 +1,0 @@
-using System.IO;\nusing System.Linq;\n\npublic static string GetMostRecentlyModifiedFile(string directoryPath)\n{\n    return Directory.GetFiles(directoryPath)\n        .OrderByDescending(File.GetLastWriteTime)\n        .FirstOrDefault();\n}

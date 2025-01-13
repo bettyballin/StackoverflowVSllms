@@ -1,1 +1,0 @@
-SubSonic.Log.DefaultLogLevel = SubSonic.Log.LogLevel.Debug;\nSubSonic.Log.DefaultLogger = new SubSonic.Log.ConsoleLogger();\n\nvar myObject = new MyActiveRecordObject();\n// ... set some properties ...\nmyObject.Save();

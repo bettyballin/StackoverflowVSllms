@@ -1,0 +1,1 @@
+CREATE TABLE Users (\n  uid INT(5) PRIMARY KEY,\n  username VARCHAR(128),\n  item_id INT(8),\n  item_hash VARCHAR(255)\n);\n\nCREATE TABLE Items (\n  item_id INT(5) PRIMARY KEY,\n  item_name VARCHAR(128)\n);

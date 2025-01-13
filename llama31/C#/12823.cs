@@ -1,1 +1,0 @@
-using Xunit;\n\npublic class CalculatorTests\n{\n    [Fact]\n    public void Add_TwoPlusTwo_ReturnsFour()\n    {\n        // Arrange\n        var calculator = new Calculator();\n\n        // Act\n        var result = calculator.Add(2, 2);\n\n        // Assert\n        Assert.Equal(4, result);\n    }\n}

@@ -1,1 +1,0 @@
-public static decimal RoundFractional(decimal number, int denominator)\n{\n    return Math.Round(number * denominator) / denominator;\n}

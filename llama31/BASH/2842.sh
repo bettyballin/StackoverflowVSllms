@@ -1,1 +1,0 @@
-pssh -h hosts.txt -l user "command"

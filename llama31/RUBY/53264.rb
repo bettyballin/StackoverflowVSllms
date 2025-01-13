@@ -1,0 +1,1 @@
+rails console -e test -r ./test/test_helper

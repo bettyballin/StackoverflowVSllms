@@ -1,1 +1,0 @@
-[WebMethod(ResponseEncoding = Encoding.UTF8)]\npublic string MyWebMethod(string input)\n{\n    // ...\n}

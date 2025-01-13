@@ -1,1 +1,0 @@
-_ie.Element(Find.ById("tabHeaderID")).Click();

@@ -1,0 +1,1 @@
+class SessionTimeoutMiddleware:\n    def process_response(self, request, response):\n        if request.session.get_expire_at_browser_close():\n            response['X-Session-Timeout'] = '1'\n        return response

@@ -1,0 +1,1 @@
+<module>\n  <!-- ... other configurations ... -->\n  <inherits name="com.google.gwt.user.User" />\n  <inherits name="javax.persistence.Persistence" />\n  <!-- ... other configurations ... -->\n</module>

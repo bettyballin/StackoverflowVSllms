@@ -1,0 +1,1 @@
+const iframe = document.getElementById('yourIframeId');\nconst iframeContent = iframe.contentDocument || iframe.contentWindow.document;\nconst submitButton = iframeContent.getElementById('submitButtonId');\n\nif (submitButton) {\n  submitButton.click();\n}

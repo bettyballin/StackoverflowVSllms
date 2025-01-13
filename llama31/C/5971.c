@@ -1,1 +1,0 @@
-int main() {\n    myFunction();  // no arguments, no return value\n    return 0;\n}

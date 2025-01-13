@@ -1,0 +1,1 @@
+Dim btnedit As New ImageButton\nDim rowValue As String = e.Row.Cells(0).Text\nAddHandler btnedit.Click, Sub(sender, e) btnedit_Click(sender, e, rowValue)

@@ -1,1 +1,0 @@
-export DISPLAY=<vpn_ip_address>:0

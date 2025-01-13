@@ -1,1 +1,0 @@
-git checkout -- path/to/your/file

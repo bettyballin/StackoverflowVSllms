@@ -1,0 +1,1 @@
+var editor = CodeMirror.fromTextArea(document.getElementById('editor'), {\n  mode: 'mixed',\n  lineNumbers: true,\n  indentUnit: 4,\n  indentWithTabs: true,\n});

@@ -1,0 +1,1 @@
+require_once 'XMPPHP/XMPP.php';\n\n$conn = new XMPPHP_XMPP('your_jabber_server', 5222, 'your_username', 'your_password', 'xmpphp', 'your_resource');\n\n$conn->connect();\n$conn->processUntil('message', 'your_message_handler');

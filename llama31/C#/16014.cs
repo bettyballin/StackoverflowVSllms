@@ -1,1 +1,0 @@
-public bool FindSpecificRowValue(DataTable table, out int rowNumber)\n{\n    rowNumber = -1; // Initialize to an invalid value\n    foreach (DataRow row in table.Rows)\n    {\n        if (/* your condition here */)\n        {\n            rowNumber = table.Rows.IndexOf(row);\n            return true;\n        }\n    }\n    return false;\n}

@@ -1,0 +1,1 @@
+# Assuming the input file is encoded in Windows-1252\nwith open('input.txt', 'r', encoding='windows-1252') as f:\n    text = f.read()\n\n# Convert the text to UTF-8 with the correct Unicode code points\ntext_utf8 = text.encode('utf-8')\n\nprint(text_utf8)  # Should print the correct UTF-8 encoded EM DASH (0xE28094)

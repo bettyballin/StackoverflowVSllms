@@ -1,1 +1,0 @@
-sudo auditctl -a always,exit -F arch=b64 -S execve -k SSH_LOGIN -F key=SSH_LOGIN /usr/local/bin/ssh_login_notify.sh

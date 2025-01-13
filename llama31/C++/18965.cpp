@@ -1,1 +1,0 @@
-double ObjFunction(unique_ptr<double[]> E_Array)\n{\n    double SumEnergy = 0;\n\n    int n = 10; // Is irrelivant\n\n    for (int i = 0; i < n; i++)\n    {\n        SumEnergy += E_Array[i];\n    }\n\n    return SumEnergy;\n}

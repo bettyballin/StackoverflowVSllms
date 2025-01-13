@@ -1,1 +1,0 @@
-ModelState.AddModelError("YourDateTimeProperty", "Your custom error message");

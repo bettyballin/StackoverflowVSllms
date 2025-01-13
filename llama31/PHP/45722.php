@@ -1,0 +1,1 @@
+$listOfIds = array(1, 2, 3, 4);\n$idsString = implode(',', $listOfIds);\n\n// Call the stored procedure\n$query = "CALL your_procedure('$idsString')";

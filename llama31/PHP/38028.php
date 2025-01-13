@@ -1,0 +1,1 @@
+$text = "(writer) &";\n$pattern = '/\((.*?)\)/';\npreg_match($pattern, $text, $match);\n\necho $match[1]; // outputs: writer\n\n// or\n$text = "with (additional dialogue)";\npreg_match($pattern, $text, $match);\n\necho $match[1]; // outputs: additional dialogue

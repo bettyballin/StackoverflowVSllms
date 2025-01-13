@@ -1,1 +1,0 @@
-CryptoConfig.AddAlgorithm(typeof(NewHighTechEncryptingAlgorithm), "NewHighTechEncryptingAlgorithm");

@@ -1,1 +1,0 @@
-usermod -a -G apache ftpuser

@@ -1,0 +1,1 @@
+usort($fileArray, function($a, $b) {\n    return $a->getMTime() - $b->getMTime();\n});

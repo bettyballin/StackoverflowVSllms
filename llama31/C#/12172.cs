@@ -1,1 +1,0 @@
-if (row["ParentCategoryID"] == DBNull.Value)\n{\n    parentCategoryId = null;\n}\nelse\n{\n    parentCategoryId = (Guid)row["ParentCategoryID"];\n}

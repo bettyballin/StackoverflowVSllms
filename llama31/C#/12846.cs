@@ -1,1 +1,0 @@
-// Export a component\n[Export(typeof(IMyService))]\npublic class MyService : IMyService\n{\n    // Implementation\n}\n\n// Import the component\n[Import]\npublic IMyService MyService { get; set; }

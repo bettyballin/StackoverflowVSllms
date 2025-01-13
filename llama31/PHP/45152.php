@@ -1,0 +1,1 @@
+// PHP Library\nnamespace MyApi\Client;\n\nclass Client\n{\n    private $baseUrl;\n\n    public function __construct($baseUrl)\n    {\n        $this->baseUrl = $baseUrl;\n    }\n\n    public function getUsers()\n    {\n        // implementation\n    }\n}

@@ -1,0 +1,1 @@
+CREATE UNIQUE INDEX unique_pair ON your_table (IF(TeamA < TeamB, TeamA, TeamB), IF(TeamA < TeamB, TeamB, TeamA));

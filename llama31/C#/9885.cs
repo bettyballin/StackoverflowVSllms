@@ -1,1 +1,0 @@
-protected void Page_Load(object sender, EventArgs e)\n{\n    string rootPath = Server.MapPath("~/Files");\n    fileExplorer.Configuration.ContentProvider = new CustomFileProvider(rootPath);\n    fileExplorer.Configuration.ViewPaths = new string[] { rootPath };\n}

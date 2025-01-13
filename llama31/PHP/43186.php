@@ -1,0 +1,1 @@
+$old_umask = umask(0);\nmkdir($new_dir, 0777);\numask($old_umask);

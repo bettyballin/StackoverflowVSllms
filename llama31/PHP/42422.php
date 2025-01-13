@@ -1,0 +1,1 @@
+class A {\n    public $b;\n}\n\nfunction set_b($obj) {\n    $obj->b = "after";\n}\n\n$a = new A();\n$a->b = "before";\n$c = clone $a; // Create a copy of $a\n\nset_b($a);\n\nprint $a->b; // Outputs: after\nprint $c->b; // Outputs: before

@@ -1,0 +1,1 @@
+x = companies JOIN users;\ny = x JOIN jobs;\nz = y JOIN useraccounts;

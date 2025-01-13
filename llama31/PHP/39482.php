@@ -1,0 +1,1 @@
+$rows = mysqli_fetch_all($doResults, MYSQLI_ASSOC);\nforeach ($rows as $row) {\n    // Process each row here\n    print_r($row);\n}

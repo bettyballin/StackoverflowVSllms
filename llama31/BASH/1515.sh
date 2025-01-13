@@ -1,1 +1,0 @@
-$ gdb --args php my_script.php\n(gdb) break zend_parse_parameters\n(gdb) ru

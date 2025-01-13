@@ -1,1 +1,0 @@
-LIBS += -L"$$PWD/libnewmat.a"

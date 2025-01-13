@@ -1,1 +1,0 @@
-QLabel label;\nlabel.setText("<pre>foo\tbar</pre>");\nlabel.setStyleSheet("pre { tab-size: 4; }");

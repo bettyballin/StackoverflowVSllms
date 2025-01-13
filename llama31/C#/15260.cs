@@ -1,1 +1,0 @@
-XmlDocument xmlDoc = new XmlDocument();\nxmlDoc.Load("Foo.exe.config");\nXmlNode baseAddress = xmlDoc.SelectSingleNode("//system.serviceModel/services/service/host/baseAddresses/add/@baseAddress");\nstring value = baseAddress.Value;\n\n// Update the value\nbaseAddress.Value = "http://localhost:9091/Foo";\nxmlDoc.Save("Foo.exe.config");

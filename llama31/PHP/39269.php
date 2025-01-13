@@ -1,0 +1,1 @@
+<?php\n// Load the corresponding PHP file based on the 'page' parameter\n$page = $_GET['page'];\nrequire_once "$page.php";\n\n// Render the content and return it as a response\nob_start();\nrequire_once "$page.php";\n$content = ob_get_contents();\nob_end_clean();\n\necho $content;\n?>

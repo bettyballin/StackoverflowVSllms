@@ -1,1 +1,0 @@
-int K::a = 0;\nint K::b = 0;

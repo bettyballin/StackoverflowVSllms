@@ -1,1 +1,0 @@
-bool isSubset = t2.All(t1.Contains);\n\nConsole.WriteLine(isSubset);  // prints: True

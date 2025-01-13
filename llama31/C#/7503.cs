@@ -1,1 +1,0 @@
-// Base template\n<#@ template language="C#" #>\n<#@ output extension=".cs" #>\npublic class <%= ClassName #>\n{\n    // Shared code\n}\n\n// Derived template\n<#@ template language="C#" inherits="BaseTemplate" #>\n<#@ output extension=".cs" #>\npublic class <%= ClassName #> : BaseClass\n{\n    // Specific code\n}

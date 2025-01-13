@@ -1,1 +1,0 @@
-gcc -Wall -O -I./include -c -o consoleio.o consoleio.c

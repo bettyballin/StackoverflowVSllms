@@ -1,0 +1,1 @@
+# Install Beaker\npip install Beaker\n\n# Example with Beaker\nfrom beaker.cache import CacheManager\n\ncache = CacheManager()\n\ndef app(environ, start_response):\n    cached_data = cache.get('key')\n    if cached_data is None:\n        # Compute and cache data\n        data = compute_data()\n        cache.set('key', data)\n    # Use cached data

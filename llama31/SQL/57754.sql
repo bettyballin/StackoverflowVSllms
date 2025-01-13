@@ -1,0 +1,1 @@
+CREATE PARTITION FUNCTION pf_DatePartition (datetime)\nAS\n    RANGE RIGHT FOR VALUES (DATEPART(year, '2022-01-01'));

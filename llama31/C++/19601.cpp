@@ -1,1 +1,0 @@
-extern "C" __declspec(dllexport) int __stdcall yourExportedFunction()\n{\n    // Function implementation\n}

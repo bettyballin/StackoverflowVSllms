@@ -1,0 +1,1 @@
+DELIMITER $$\n\nCREATE PROCEDURE myProc()\nBEGIN\n  DECLARE var_name INT;\n\n  SELECT id INTO var_name FROM table1 WHERE some_column='something' LIMIT 1;\n  INSERT INTO table2 (`number`) VALUES (var_name);\nEND$$\n\nDELIMITER ;

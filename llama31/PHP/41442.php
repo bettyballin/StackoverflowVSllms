@@ -1,0 +1,1 @@
+function uncompress($srcName, $dstName) {\n    $src = gzopen($srcName, 'rb');\n    $dst = fopen($dstName, 'wb');\n    while (!gzeof($src)) {\n        fwrite($dst, gzread($src, 4096));\n    }\n    gzclose($src);\n    fclose($dst);\n}

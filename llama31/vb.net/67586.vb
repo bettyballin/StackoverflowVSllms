@@ -1,0 +1,1 @@
+Dim feeList As List(Of AccessorialFee) = tenItem.Cast(Of AccessorialFee)().ToList()

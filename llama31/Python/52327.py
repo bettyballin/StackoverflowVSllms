@@ -1,0 +1,1 @@
+# Python Library\nimport requests\n\nclass Client:\n    def __init__(self, base_url):\n        self.base_url = base_url\n\n    def get_users(self):\n        # implementation\n        pass

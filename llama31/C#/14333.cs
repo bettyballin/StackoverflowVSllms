@@ -1,1 +1,0 @@
-// YourPage.aspx.cs\n[WebMethod]\npublic static void MethodName()\n{\n    // Your method implementation\n}

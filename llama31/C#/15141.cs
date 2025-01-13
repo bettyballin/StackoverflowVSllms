@@ -1,1 +1,0 @@
-byte[] keyBlob = ...; // your CryptoAPI key blob\nbyte[] netKey = TripleDESKeyConverter.ConvertCryptoAPIKeyBlobToNETKey(keyBlob);\n\nusing (TripleDESCryptoServiceProvider tdes = new TripleDESCryptoServiceProvider())\n{\n    tdes.Key = netKey;\n    // use tdes for encryption/decryption\n}

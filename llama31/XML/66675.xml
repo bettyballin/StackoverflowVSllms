@@ -1,0 +1,1 @@
+<system.webServer>\n    <security>\n        <requestFiltering allowDoubleEscaping="true" />\n    </security>\n</system.webServer>

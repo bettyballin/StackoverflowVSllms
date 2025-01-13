@@ -1,1 +1,0 @@
-SET ORACLE_HOME=C:\Oracle\9i

@@ -1,1 +1,0 @@
-rc = pthread_create(&thread_id, NULL, g_start_timer, (void *) g_data_struct);

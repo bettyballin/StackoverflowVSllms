@@ -1,0 +1,1 @@
+$("#fArea").html($("#fArea").load("friends_online.php?fo="+id+""));

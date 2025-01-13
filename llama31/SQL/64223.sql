@@ -1,0 +1,1 @@
+ALTER PROCEDURE Customer.InsertNewOrder\nWITH EXECUTE AS 'dbo'\nAS\nBEGIN\n    -- procedure code here\nEND;

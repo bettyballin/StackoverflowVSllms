@@ -1,0 +1,1 @@
+// When editing, add the TinyMCE control to the textarea\ntinyMCE.execCommand("mceAddControl", true, 'content');\n\n// When saving, remove the TinyMCE control\ntinyMCE.execCommand('mceRemoveControl', false, 'content');

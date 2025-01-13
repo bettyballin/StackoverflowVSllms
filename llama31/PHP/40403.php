@@ -1,0 +1,1 @@
+function bot_install() {\n    global $wpdb;\n    $table = $wpdb->prefix . "sh_gloss";\n    // ...\n    $wpdb->query($structure);\n    if ($wpdb->last_error) {\n        wp_die($wpdb->last_error);\n    }\n    // ...\n}

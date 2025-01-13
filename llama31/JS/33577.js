@@ -1,0 +1,1 @@
+// Client-side encryption\nconst encryptedData = encrypt(data, userPassword);\n\n// Send encrypted data to server\nsendToServer(encryptedData);\n\n// Zero-knowledge proof protocol\nconst proof = zkProof(userPassword, encryptedData);\n\n// Verify proof on server-side\nverifyProof(proof, encryptedData);

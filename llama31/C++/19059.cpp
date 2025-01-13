@@ -1,1 +1,0 @@
-template <typename T> class a : public std::allocator<T> {\npublic:\n    T* allocate(typename std::allocator<T>::size_type n) const {\n        cout << "yo!";\n        return 0;\n    }\n};

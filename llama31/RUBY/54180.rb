@@ -1,0 +1,1 @@
+def create\n  item = current_user.items.build(params[:item])\n  item.ratings.build(params[:rating])\n  item.save\n  redirect_to items_path\nend

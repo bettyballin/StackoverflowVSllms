@@ -1,1 +1,0 @@
-virt-top --log=/var/log/virt-top.log --since=yesterday

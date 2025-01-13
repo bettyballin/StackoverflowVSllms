@@ -1,1 +1,0 @@
-$ git add --patch --hunk-size=10 your_file.txt

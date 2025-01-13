@@ -1,1 +1,0 @@
-ssh -t server.com screen -dr foo

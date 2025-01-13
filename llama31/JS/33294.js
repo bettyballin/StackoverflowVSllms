@@ -1,0 +1,1 @@
+var xmlDoc = $.parseXML("<root><person><name>John</name></person></root>");

@@ -1,1 +1,0 @@
-svn commit -m "Moved file from dir1 to dir2"

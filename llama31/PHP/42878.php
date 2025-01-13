@@ -1,0 +1,1 @@
+$mysqli = new mysqli("your_host", "your_user", "your_pass", "your_db");\n$query = "SELECT * FROM info ORDER BY id DESC LIMIT 10";\n$result = $mysqli->query($query);\n\nwhile ($row = $result->fetch_assoc()) {\n    print_r($row);\n}

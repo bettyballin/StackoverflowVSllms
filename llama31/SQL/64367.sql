@@ -1,0 +1,1 @@
+CREATE TABLE mytable (\n    percentage DECIMAL(3, 2) CHECK (percentage BETWEEN 0 AND 100)\n);

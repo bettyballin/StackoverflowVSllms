@@ -1,1 +1,0 @@
-xcrun simctl create 'iPhone 12' 'com.apple.CoreSimulator.SimDeviceType.iPhone-12'\nxcrun simctl create 'iPad Pro' 'com.apple.CoreSimulator.SimDeviceType.iPad-Pro'

@@ -1,1 +1,0 @@
-XmlSerializer serializer = new XmlSerializer(typeof(DataSet));\nXmlSerializerNamespaces namespaces = new XmlSerializerNamespaces();\nnamespaces.Add("xsi", "http://www.w3.org/2001/XMLSchema-instance");\n\nusing (StringWriter writer = new StringWriter())\n{\n    serializer.Serialize(writer, dataset, namespaces);\n    string xml = writer.ToString();\n}

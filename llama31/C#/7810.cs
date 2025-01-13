@@ -1,1 +1,0 @@
-using (var dc = new DataContext("your_connection_string"))\n{\n    var query = dc.MyTable.Where(t => t.typeOfSelect == "your_type").Select(t => t.typeOfSelect).FirstOrDefault();\n    if (!string.IsNullOrEmpty(query))\n    {\n        var results = dc.ExecuteQuery<MyTable>(query);\n    }\n}

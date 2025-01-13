@@ -1,1 +1,0 @@
-@echo off\nsqlcmd -S your_server_name -d your_database_name -i createSP1.sql\nsqlcmd -S your_server_name -d your_database_name -i createSP2.sql\n...\nsqlcmd -S your_server_name -d your_database_name -i createSPn.sql

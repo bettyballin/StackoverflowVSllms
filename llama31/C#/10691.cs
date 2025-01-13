@@ -1,1 +1,0 @@
-public static class ListExtensions\n{\n    public static List<T> Initialize<T>(this List<T> list, int size, T defaultValue = default(T))\n    {\n        return Enumerable.Repeat(defaultValue, size).ToList();\n    }\n}

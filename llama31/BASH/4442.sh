@@ -1,1 +1,0 @@
-git notes --ref=manufacturing add -m "Release 1.0"\ngit notes --ref=production add -m "Release 1.0"

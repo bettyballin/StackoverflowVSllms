@@ -1,1 +1,0 @@
-protected void Application_Start()\n{\n    // Register the custom ViewEngine\n    ViewEngines.Engines.Add(new CustomViewEngine());\n}

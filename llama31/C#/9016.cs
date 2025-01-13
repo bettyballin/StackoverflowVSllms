@@ -1,1 +1,0 @@
-var proxy = new MyServiceClient();\nproxy.ClientCredentials.Windows.ClientCredential.UserName = "username";\nproxy.ClientCredentials.Windows.ClientCredential.Password = "password";

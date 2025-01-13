@@ -1,0 +1,1 @@
+import requests\n\napi_key = 'YOUR_API_KEY'\ncse_id = 'YOUR_CSE_ID'\nquery = 'YOUR_SEARCH_QUERY'\n\nurl = f'https://www.googleapis.com/customsearch/v1?key={api_key}&cx={cse_id}&q={query}'\n\nresponse = requests.get(url)\ndata = response.json()\n\nresults = data['items']\n# Process the results here\nprint(results)

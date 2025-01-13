@@ -1,0 +1,1 @@
+def test_the_truth\n  assert true\nend

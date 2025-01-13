@@ -1,1 +1,0 @@
-// Example of using async programming in ASP.NET\npublic async Task<IActionResult> GetUserDataAsync(int userId)\n{\n    using (var db = new MyDbContext())\n    {\n        var user = await db.Users.FindAsync(userId);\n        return Ok(user);\n    }\n}

@@ -1,1 +1,0 @@
-DWORD exitCode;\nif (GetExitCodeProcess(processHandle, &exitCode)) {\n    if (exitCode == STILL_ACTIVE) {\n        // Process is still active, wait and try again\n        Sleep(10); // a small delay to avoid busy-waiting\n    } else {\n        // Process has terminated, proceed with updating DLLs\n    }\n}

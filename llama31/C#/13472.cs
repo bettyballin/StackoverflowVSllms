@@ -1,1 +1,0 @@
-private void webBrowser1_NewWindow(object sender, CancelEventArgs e)\n{\n    // Cancel the default behavior of opening a new window\n    e.Cancel = true;\n\n    // Get the URL of the new window\n    string url = webBrowser1.Document.ActiveElement.GetAttribute("href");\n\n    // Open the URL in the same WebBrowser control\n    webBrowser1.Navigate(url);\n}

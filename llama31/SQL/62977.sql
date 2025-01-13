@@ -1,0 +1,1 @@
+CALL get_ancestors(123);

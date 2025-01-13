@@ -1,1 +1,0 @@
-gcc -msse -msse2 -msse3 your_code.cpp -o your_binary

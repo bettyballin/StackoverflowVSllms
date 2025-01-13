@@ -1,0 +1,1 @@
+$info = curl_getinfo($ch);

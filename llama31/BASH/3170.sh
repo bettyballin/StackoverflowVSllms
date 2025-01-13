@@ -1,1 +1,0 @@
-# Create a new JKS file with a self-signed certificate for the client\nkeytool -genkey -alias client -keyalg RSA -keystore client.jks -storepass changeit -keypass changeit -dname "CN=Client, OU=Your Organization, O=Your Company, L=Your City, ST=Your State, C=Your Country"

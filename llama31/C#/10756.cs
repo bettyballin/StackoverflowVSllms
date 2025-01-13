@@ -1,1 +1,0 @@
-FtpClient client = new FtpClient("ftp.example.com", "username", "password");\nclient.CreateFolder("newfolder");

@@ -1,0 +1,1 @@
+<?php\n// Retrieve data from MySQL database\n$data = array('name' => 'John', 'age' => 30);\n\n// Output JSON data wrapped in a callback function\necho $_GET['callback'] . '(' . json_encode($data) . ')';\n?>

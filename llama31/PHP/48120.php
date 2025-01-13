@@ -1,0 +1,1 @@
+$final = preg_replace_callback('/\{CONSTANT_(.*?)\}/', function ($match) {\n    return constant($match[1]);\n}, $final);

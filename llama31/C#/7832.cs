@@ -1,1 +1,0 @@
-public class SqlServerParameter : SqlParameter, IDataParameter\n{\n    // Implementation\n}\n\npublic class OracleParameter : OracleParameter, IDataParameter\n{\n    // Implementation\n}

@@ -1,1 +1,0 @@
-public MyForm()\n{\n    InitializeComponent();\n    ultraGrid1.AfterCheckStateChanged += ultraGrid1_AfterCheckStateChanged;\n}

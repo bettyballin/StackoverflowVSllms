@@ -1,1 +1,0 @@
-using System.Linq;\n\nIList<T> items = GetItemsFromSomeWhere();\nvar sortedItems = items.OrderBy(x => x).ToList();\n\nT item = GetItemSomwHow();\nint index = sortedItems.BinarySearch(item);

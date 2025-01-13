@@ -1,0 +1,1 @@
+// Find the file that generates the JavaScript tag\n// This might be in a file like lib/OX/View/JsTag.php\n\n// Look for the line that outputs the comment\n// It might look something like this:\n// echo '<!--/* OpenX Javascript Tag v2.8.1 */-->'\n\n// Remove or modify the comment to remove the OpenX branding\n// For example:\necho '<!--/* Custom Javascript Tag */-->';

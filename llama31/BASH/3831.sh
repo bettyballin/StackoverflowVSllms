@@ -1,1 +1,0 @@
-# Install Sophos Antivirus on Ubuntu/Debian\nsudo apt-get update\nsudo apt-get install sophos-av\n\n# Scan a file using Sophos Antivirus\nsavscan /path/to/file

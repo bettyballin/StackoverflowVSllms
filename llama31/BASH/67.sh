@@ -1,1 +1,0 @@
-sudo echo "-w /var/log/auth.log -k SSH_LOGIN" >> /etc/audit/rules.d/ssh_login.rules\nsudo echo "-a always,exit -F arch=b64 -S execve -k SSH_LOGIN -F key=SSH_LOGIN /usr/local/bin/ssh_login_notify.sh" >> /etc/audit/rules.d/ssh_login.rules

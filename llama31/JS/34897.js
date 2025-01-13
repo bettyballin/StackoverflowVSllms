@@ -1,0 +1,1 @@
+// bind example\n$("button").bind("click", function() {\n    alert("Button clicked!");\n});\n\n// live example\n$("button").live("click", function() {\n    alert("Button clicked!");\n});\n\n// dynamically add a new button\n$("body").append("<button>New Button</button>");

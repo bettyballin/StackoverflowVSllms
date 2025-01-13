@@ -1,0 +1,1 @@
+DECLARE @targetValue sql_variant;\nSET @targetValue = dbo.GetFoo();\nEXEC AssertEqual @targetValue, 'X', 'Check If X';

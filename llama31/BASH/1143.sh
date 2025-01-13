@@ -1,1 +1,0 @@
-7z x file.shar

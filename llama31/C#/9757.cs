@@ -1,1 +1,0 @@
-using Symbol.Device;\nusing Symbol.Telephony;\n\n// Get device serial number\nDevice device = new Device();\nstring deviceSerialNumber = device.SerialNumber;\n\n// Get SIM card serial number (ICCID)\nTelephony telephony = new Telephony();\nstring simSerialNumber = telephony.GetICCID();

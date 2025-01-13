@@ -1,0 +1,1 @@
+SELECT \n    AVG(lat) AS avg_latitude, \n    AVG(lon) AS avg_longitude, \n    state\nFROM \n    tRealtyTrac\nGROUP BY \n    state\nORDER BY \n    state;

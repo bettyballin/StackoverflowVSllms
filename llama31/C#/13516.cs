@@ -1,1 +1,0 @@
-using NDepend.Analysis;\nusing NDepend.Project;\n\n// Load the project\nvar project = new Project("YourProject.csproj");\n\n// Analyze the dependencies\nvar analysis = new DependencyAnalyzer(project);\nvar dependencies = analysis.AnalyzeDependencies();\n\n// Print the dependencies\nforeach (var dependency in dependencies)\n{\n    Console.WriteLine(dependency.ToString());\n}

@@ -1,1 +1,0 @@
-SmtpClient smtp = new SmtpClient(ConfigurationUtil.SMTPServer);\nsmtp.Port = 587;\nsmtp.EnableSsl = true;\nsmtp.UseDefaultCredentials = true;\nsmtp.Send(message);

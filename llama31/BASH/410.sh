@@ -1,1 +1,0 @@
-adsutil.vbs SET_W3SVC_PROPERTY W3SVC/1/ROOT/ServerBindings "www.dom1.com:80:123.123.10.1"\nadsutil.vbs SET_W3SVC_PROPERTY W3SVC/2/ROOT/ServerBindings "www.dom2.com:80:123.123.10.1"\nadsutil.vbs SET_W3SVC_PROPERTY W3SVC/3/ROOT/ServerBindings "www.dom3.com:80:123.123.10.1"

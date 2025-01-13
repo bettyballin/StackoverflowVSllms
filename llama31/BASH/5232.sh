@@ -1,1 +1,0 @@
-appcmd add apppool /name:MyAppPool\nappcmd add app /site.name:"Default Web Site" /path:/MyWebApp /physicalPath:"C:\Path\To\Web\App" /applicationPool:MyAppPool

@@ -1,1 +1,0 @@
-struct pseudo_header {\n    uint32_t src_ip;  // source IP address\n    uint32_t dst_ip;  // destination IP address\n    uint8_t zero;     // zero byte\n    uint8_t proto;    // protocol number (17 for UDP, 6 for TCP)\n    uint16_t length;  // length of the UDP datagram (or TCP segment)\n};

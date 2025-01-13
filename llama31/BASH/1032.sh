@@ -1,1 +1,0 @@
-php -i | grep error_log

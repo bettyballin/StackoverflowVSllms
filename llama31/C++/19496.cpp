@@ -1,1 +1,0 @@
-#include <sstream>\n#include <vector>\n\nstd::vector<std::string> columns = {"column1", "column2", "column3"};\nstd::stringstream selectSql;\nselectSql << "SELECT ";\nfor (const auto& column : columns) {\n    selectSql << column << ", ";\n}\nselectSql << " FROM some-table";\nstd::string sql = selectSql.str();\nsql.pop_back(); // remove trailing comma and space\nsql.pop_back();

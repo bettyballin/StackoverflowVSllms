@@ -1,0 +1,1 @@
+// script.js\nYUI().use('node', function(Y) {\n    var form = Y.one('form');\n    form.on('submit', function(e) {\n        e.preventDefault();\n        // Use YUI to enhance the form submission\n        Y.io('submit.php', {\n            method: 'POST',\n            data: form.get('name')\n        });\n    });\n});

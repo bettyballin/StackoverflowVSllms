@@ -1,0 +1,1 @@
+def mock_user(stubs={})\n  @mock_user ||= mock_model(User, stubs)\n  @mock_user.stub(:changed?).and_return(false)\n  @mock_user\nend

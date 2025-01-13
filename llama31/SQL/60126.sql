@@ -1,0 +1,1 @@
+-- Install log4PLSQL\n@log4plsql_install.sql\n\n-- Configure log4PLSQL to log changes to my_table\nBEGIN\n  log4plsql.configure(\n    p_logger_name => 'my_logger',\n    p_table_name  => 'my_table',\n    p_level       => 'INFO'\n  );\nEND;

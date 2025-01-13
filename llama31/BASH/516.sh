@@ -1,1 +1,0 @@
-mstest /testcontainer:"C:\Path\To\Test\Assemblies\*"

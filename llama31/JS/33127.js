@@ -1,0 +1,1 @@
+<script type="text/javascript">\n  $(document).ready(function(){\n    var attributeid = <?= json_encode($r['Attribute']['id']) ?>;\n    var fieldname = <?= json_encode($r['Attribute']['label']) ?>;\n\n    $("#"+attributeid).change(function () {\n      alert(fieldname);\n      alert(attributeid);\n    });\n  });\n</script>

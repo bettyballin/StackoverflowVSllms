@@ -1,1 +1,0 @@
-string script = "var newWindow = window.open('" + url + "','_blank','width=500,height=500'); newWindow.focus();";\nClientScript.RegisterStartupScript(this.GetType(), "openWindow", script, true);

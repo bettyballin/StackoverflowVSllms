@@ -1,1 +1,0 @@
-if (!Request.IsLocal && (Request.Url.Scheme != "https" || Request.Headers["X-Forwarded-Proto"] != "https"))\n{\n    Response.Redirect(Helper.GetInstance().SSLBaseURL() + ScriptName());\n}

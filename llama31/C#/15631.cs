@@ -1,1 +1,0 @@
-[AcceptVerbs(HttpVerbs.Post)]\npublic ActionResult AddCustomer(CustomersFormViewModel model)\n{\n    // validate data, save customer, handle validation errors...\n}

@@ -1,1 +1,0 @@
-// MyService.asmx\n[WebService]\npublic class MyService : System.Web.Services.WebService\n{\n    [WebMethod]\n    public string GetData(int id)\n    {\n        // Return JSON data\n        return "{\"name\":\"John\",\"age\":30}";\n    }\n}

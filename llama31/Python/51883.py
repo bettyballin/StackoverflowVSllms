@@ -1,0 +1,1 @@
+session = smtplib.SMTP("smtp-auth.ourhosting.com", 587, user=smtpuser, password=smtppass)

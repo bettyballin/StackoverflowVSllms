@@ -1,1 +1,0 @@
-void __attribute__((optimize("O0"))) your_function_here(void) {\n    /* function code here */\n}

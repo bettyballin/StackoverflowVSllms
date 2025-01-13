@@ -1,1 +1,0 @@
-oleview yourdll.dll

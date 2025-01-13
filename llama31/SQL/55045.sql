@@ -1,0 +1,1 @@
+SELECT\n    index_name = 'IX_Person_PersonTypeId',\n    index_size_mb = (index_size_in_kb / 1024.0)\nFROM\n    sys.dm_db_index_physical_stats(DB_ID(), OBJECT_ID('Person'), NULL, NULL, 'DETAILED');

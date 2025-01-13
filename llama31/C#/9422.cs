@@ -1,1 +1,0 @@
-public class CustomerValidator : AbstractValidator<Customer>\n{\n    public CustomerValidator()\n    {\n        RuleFor(customer => customer.Name).NotEmpty();\n        RuleFor(customer => customer.Email).EmailAddress();\n    }\n}

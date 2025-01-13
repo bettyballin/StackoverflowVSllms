@@ -1,1 +1,0 @@
-private:\n    std::shared_ptr<IRawPdu> getRawPdu();\n    // Returns the RawPdu interface pointer from the mRawPdu data member.\n    // mRawPdu is initialized, if necessary.\n\n    std::shared_ptr<IRawPdu> mRawPdu;\n    // Initialized to 0 in the ctor.  Uses lazy evaluation via getRawPdu().

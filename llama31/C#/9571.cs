@@ -1,1 +1,0 @@
-Uri assemblyUri = new Uri(System.Reflection.Assembly.GetExecutingAssembly().CodeBase);\nstring assemblyPath = assemblyUri.LocalPath;

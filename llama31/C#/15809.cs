@@ -1,1 +1,0 @@
-protected void CustomValidator1_ServerValidate(object source, ServerValidateEventArgs args)\n{\n    string fileExtension = System.IO.Path.GetExtension(FileUpload1.FileName);\n    args.IsValid = fileExtension.ToLower() == ".jpg" || fileExtension.ToLower() == ".gif" || fileExtension.ToLower() == ".png";\n}

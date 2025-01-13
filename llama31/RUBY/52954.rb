@@ -1,0 +1,1 @@
+require 'nokogiri'\nrequire 'open-uri'\n\nurl = 'http://weblog.rubyonrails.org/'\n\n# Parse as XML\ndoc_xml = Nokogiri::XML(open(url))\nputs doc_xml.class # => Nokogiri::XML::Document\n\n# Parse as HTML\ndoc_html = Nokogiri::HTML(open(url))\nputs doc_html.class # => Nokogiri::HTML::Document

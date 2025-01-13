@@ -1,1 +1,0 @@
-// MyDll.cpp\n#include <msclr/marshal_cppstd.h>\n\nusing namespace System;\n\nmodule MyDll\n{\n    // Module initializer\n    void init()\n    {\n        // Initialization code here\n        Console::WriteLine("MyDll initialized");\n    }\n}

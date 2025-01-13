@@ -1,1 +1,0 @@
-using GemBox.Document;\n\n// Load the Word document\nDocumentModel doc = DocumentModel.Load("input.docx");\n\n// Save the document as PDF\ndoc.Save("output.pdf", SaveOptions.PdfDefault);

@@ -1,0 +1,1 @@
+-- duplicate data 10 times\nSELECT *\nINTO #larger_cube\nFROM existing_cube\nCROSS JOIN (\n    SELECT TOP 10 1 AS multiplier\n    FROM sys.all_columns ac1\n    CROSS JOIN sys.all_columns ac2\n) AS duplicator;

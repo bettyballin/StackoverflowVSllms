@@ -1,1 +1,0 @@
-class MyClass { }\n\nMyClass obj = null;\nConsole.WriteLine(obj == null); // True\n\nobj = new MyClass();\nConsole.WriteLine(obj == null); // False

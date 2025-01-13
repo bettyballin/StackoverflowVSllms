@@ -1,0 +1,1 @@
+SELECT *\nFROM Call\nWHERE phone_number NOT IN (SELECT phone_number FROM Phone_book);

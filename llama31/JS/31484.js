@@ -1,0 +1,1 @@
+// Trigger a click event on an element\n$('element').trigger('click');\n\n// Trigger a hover event on an element\n$('element').trigger('mouseenter');

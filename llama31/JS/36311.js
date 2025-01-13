@@ -1,0 +1,1 @@
+// assume you have a div with class 'original-class' and you want to add 'new-class' on submit\n$("form").submit(function() {\n  // remove original class\n  $(this).parent("div").removeClass("original-class");\n  // add new class\n  $(this).parent("div").addClass("new-class");\n});

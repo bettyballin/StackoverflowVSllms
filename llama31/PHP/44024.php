@@ -1,0 +1,1 @@
+$mysqli = new mysqli("localhost", "username", "password", "database");\n\n$result = $mysqli->query($metQueryViews);\n\n$allViews = array();\nwhile ($resultV = $result->fetch_assoc()) {\n    $allViews[$resultV['date']] = $resultV['Count'];\n}

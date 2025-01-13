@@ -1,1 +1,0 @@
-var client = new ServiceClient(new InstanceContext(new CallbackHandler()));

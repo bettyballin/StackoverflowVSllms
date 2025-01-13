@@ -1,1 +1,0 @@
-// Run a system file check\nsfc /scannow\n\n// Run a memory test\nmdsched.exe

@@ -1,0 +1,1 @@
+CREATE OR REPLACE TRIGGER path_integrity_trigger\nBEFORE INSERT OR UPDATE ON nodes\nFOR EACH ROW\nBEGIN\n  IF :new.path NOT LIKE (:new.parent_id || '%') THEN\n    RAISE_APPLICATION_ERROR(-20001, 'Invalid path');\n  END IF;\nEND;

@@ -1,0 +1,1 @@
+const express = require('express');\nconst multer = require('multer');\nconst app = express();\n\nconst upload = multer({ dest: 'uploads/' });\n\napp.post('/uploadFile', upload.single('file'), (req, res) => {\n  // Send the email with the uploaded file\n  // ...\n  res.send('File uploaded and email sent successfully');\n});

@@ -1,1 +1,0 @@
-ldapsearch -x -b "ou=MyOU,dc=mytop,dc=mysuffix" "(&(objectClass=group))"

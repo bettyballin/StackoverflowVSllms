@@ -1,1 +1,0 @@
-class Console {\npublic:\n    static void Print(const char* message) {\n        std::cout << message;\n    }\n\n    static void Warning(const char* message) {\n        std::cout << "\033[33m" << message << "\033[0m";\n    }\n\n    static void Error(const char* message) {\n        std::cout << "\033[31m" << message << "\033[0m";\n    }\n};

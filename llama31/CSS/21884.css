@@ -1,1 +1,0 @@
-input#search_input {\n    border: none;\n    position: relative;\n    float: left;\n    height: 32px;\n    width: 335px;\n    font-size: 18px;\n    padding-top: 0; /* Remove top padding */\n    padding-left: 4px;\n    outline-style: none;\n    font-family: Helvetica, Arial, "MS Trebuchet", sans-serif;\n    color: #5a5a5a;\n    line-height: 32px; /* Add line-height property */\n}

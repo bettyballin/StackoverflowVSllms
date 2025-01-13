@@ -1,1 +1,0 @@
-# Download and install Veracrypt\n# Create a new volume (container)\nveracrypt -t -c C:\path\to\encrypted\container.tc -size 10G -password your_password\n# Mount the volume\nveracrypt -t C:\path\to\encrypted\container.tc -l X: -password your_password\n# Move your sensitive data to the mounted volume (X:)

@@ -1,0 +1,1 @@
+DELIMITER //\n\nCREATE PROCEDURE GetUsersByEmail(email VARCHAR(255))\nBEGIN\n    SELECT * FROM users WHERE email = email;\nEND //\n\nDELIMITER ;

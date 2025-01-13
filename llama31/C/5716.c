@@ -1,1 +1,0 @@
-#include <gtk/gtk.h>\n\nint main() {\n    // Create a GTK Tree View\n    GtkWidget *tree_view = gtk_tree_view_new();\n\n    // Get the header height\n    gint header_height;\n    gtk_tree_view_get_header_height(GTK_TREE_VIEW(tree_view), &header_height);\n\n    // Print the header height\n    g_print("Header height: %d\n", header_height);\n\n    return 0;\n}

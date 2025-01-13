@@ -1,0 +1,1 @@
+ALTER DATABASE [your_database_name] SET COMPATIBILITY_LEVEL = 100;\nGO\nALTER DATABASE [your_database_name] SET PAGE_COMPRESSION = ON;\nGO

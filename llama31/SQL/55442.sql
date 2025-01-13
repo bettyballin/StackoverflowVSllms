@@ -1,0 +1,1 @@
+UPDATE skills SET level = level + 1 WHERE id = $id;

@@ -1,1 +1,0 @@
-// lib1 namespace\nnamespace lib1 {\n    void encrypt() {\n        // implementation\n    }\n}\n\n// lib2 namespace\nnamespace lib2 {\n    void encrypt() {\n        // implementation\n    }\n}

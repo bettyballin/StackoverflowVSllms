@@ -1,1 +1,0 @@
-System.Net.WebProxy proxy = System.Net.WebRequest.GetSystemWebProxy();\nSystem.Net.WebRequest.DefaultWebProxy = proxy;

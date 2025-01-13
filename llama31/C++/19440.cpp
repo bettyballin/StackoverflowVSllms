@@ -1,1 +1,0 @@
-std::ignore = NSP::Admin();\nstd::ignore = NSP::Server();

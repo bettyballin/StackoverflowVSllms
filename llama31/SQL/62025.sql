@@ -1,0 +1,1 @@
+CREATE TABLE CUSTOMER(\n    ...\n    first_name VARCHAR(25) NOT NULL CHECK (first_name <> ''),\n    last_name VARCHAR(25) NOT NULL CHECK (last_name <> ''),\n    ...\n);

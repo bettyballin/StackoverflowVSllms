@@ -1,1 +1,0 @@
-gswin64c.exe -dBATCH -dNOPAUSE -sDEVICE=ljet4 -sOutputFile=output.pcl -c "<esc>E10<esc>!1B" input.pdf

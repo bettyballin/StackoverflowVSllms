@@ -1,0 +1,1 @@
+SELECT \n    v.venue_name, \n    COUNT(vol.venue_id) as volunteer_count\nFROM \n    venues v\nLEFT JOIN \n    volunteers vol ON vol.venue_id = v.id\nGROUP BY \n    v.venue_name;

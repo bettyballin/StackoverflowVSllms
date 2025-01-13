@@ -1,0 +1,1 @@
+DECLARE @sql nvarchar(max)\n\nSELECT @sql = COALESCE(@sql, '') + ', ' + QUOTENAME(name) + ' ' + system_type_name\nFROM sys.columns\nWHERE object_id = OBJECT_ID('People')\n\nSET @sql = 'CREATE TABLE People_Table (' + SUBSTRING(@sql, 3, LEN(@sql)) + ')'\n\nEXEC sp_executesql @sql

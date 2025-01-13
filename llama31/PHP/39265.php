@@ -1,0 +1,1 @@
+// Validate and sanitize the JSON data\n$json_data = filter_var($json_data, FILTER_VALIDATE_JSON);\nif ($json_data === false) {\n    // Handle invalid JSON data\n}\n\n// Sanitize the data (optional, but recommended)\n$json_data = htmlspecialchars($json_data, ENT_QUOTES, 'UTF-8');

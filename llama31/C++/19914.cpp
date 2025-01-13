@@ -1,1 +1,0 @@
-#include <Windows.h>\n\n#pragma comment(linker, "/SUBSYSTEM:windows /ENTRY:mainCRTStartup")\n\nint main() {\n    // rest of your code\n    return 0;\n}

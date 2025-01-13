@@ -1,0 +1,1 @@
+function foo() {\n  var iframe = document.createElement('iframe');\n  iframe.src = 'foo.html';\n  document.getElementById('content').appendChild(iframe);\n}\n\nfunction bar() {\n  var iframe = document.createElement('iframe');\n  iframe.src = 'bar.html';\n  document.getElementById('content').appendChild(iframe);\n}

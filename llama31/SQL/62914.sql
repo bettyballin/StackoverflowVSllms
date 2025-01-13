@@ -1,0 +1,1 @@
+-- Example query in SQLTools++\nSELECT * FROM my_table;

@@ -1,1 +1,0 @@
-public static readonly DateTime ADate = new DateTime(2004, 12, 31);

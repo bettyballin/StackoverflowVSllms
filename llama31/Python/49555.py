@@ -1,0 +1,1 @@
+# urls.py\nfrom django.urls import path\nfrom .views import ObjectViewDispatcher\n\nurlpatterns = [\n    path('objects/<pk>/', ObjectViewDispatcher.as_view(), name='object_view'),\n]

@@ -1,0 +1,1 @@
+CREATE TRIGGER t1_insert_trg ON t1 FOR INSERT AS\nBEGIN\n    DECLARE @t2_inserts TABLE (id INT, foo INT);\n\n    INSERT INTO t2 (foo)\n    OUTPUT inserted.id, inserted.foo INTO @t2_inserts\n    SELECT foo FROM inserted;\n\n    INSERT INTO t3 (t2_id)\n    SELECT id FROM @t2_inserts;\nEND

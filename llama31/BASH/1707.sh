@@ -1,1 +1,0 @@
-reg add "HKLM\SOFTWARE\Microsoft\InetStp" /v TraceLevel /t REG_DWORD /d 1

@@ -1,1 +1,0 @@
-// Form_Load :\nTimer timer = new Timer();\ntimer.Interval = 1000; // update every 1 second\ntimer.Tick += new EventHandler(timer_Tick);\ntimer.Start();\n\n// timer_Tick :\nvoid timer_Tick(object sender, EventArgs e)\n{\n    if (i >= 5)\n        i = 0;\n\n    label4.Text = textarray[i];\n    i++;\n}

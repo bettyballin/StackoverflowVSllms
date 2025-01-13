@@ -1,0 +1,1 @@
+// Set cookie\nsetcookie('mp3_cookie', bin2hex(random_bytes(16)), 0, '/');\n\n// Check cookie before serving data\nif (!isset($_COOKIE['mp3_cookie']) || $_COOKIE['mp3_cookie'] !== $expected_value) {\n    http_response_code(401);\n    die('Invalid cookie');\n}

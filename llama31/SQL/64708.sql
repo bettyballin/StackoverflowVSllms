@@ -1,0 +1,1 @@
+INSERT INTO table_name (guid_column) \nVALUES (UNHEX(REPLACE(UUID(),'-','')));

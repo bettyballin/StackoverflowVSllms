@@ -1,1 +1,0 @@
-// Example of a simple Win32 API program in native C++\n#include <Windows.h>\n\nint WINAPI WinMain(HINSTANCE hInstance, HINSTANCE hPrevInstance, LPSTR lpCmdLine, int nCmdShow) {\n    // Create a window or perform other tasks...\n    return 0;\n}

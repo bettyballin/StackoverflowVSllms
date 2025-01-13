@@ -1,1 +1,0 @@
-#include <Windows.h>\n\n// Assuming 'asciiData' is a char* containing your ASCII data\nBSTR bstrData = SysAllocString(asciiData);

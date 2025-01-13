@@ -1,0 +1,1 @@
+document.getElementById('favicon').href = 'new_favicon.ico';

@@ -1,1 +1,0 @@
-logparser -i:IISW3C -config:logparser.config "SELECT c-ip, s-ip FROM my.log"

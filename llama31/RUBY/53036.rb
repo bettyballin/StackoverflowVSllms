@@ -1,0 +1,1 @@
+# my_class.rb\nclass MyClass\n  def initialize\n    @my_variable = "Hello, World!"\n  end\n\n  def my_method\n    puts @my_variable\n  end\nend

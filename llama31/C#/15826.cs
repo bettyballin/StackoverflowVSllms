@@ -1,1 +1,0 @@
-public static T ToEnum<T>(this int value) where T : Enum\n{\n    return (T)Enum.ToObject(typeof(T), value);\n}

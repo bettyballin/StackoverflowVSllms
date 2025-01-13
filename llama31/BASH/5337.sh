@@ -1,1 +1,0 @@
-@echo off\nset IDL_FILE=myinterface.idl\nset TLB_FILE=myinterface.tlb\n\nmidl /I "%IDL_FILE%" /tlb "%TLB_FILE%" /h "myinterface.h"

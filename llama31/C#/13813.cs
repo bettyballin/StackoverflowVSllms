@@ -1,1 +1,0 @@
-using System.Reflection;\n\n// Load the DLL manually\nAssembly assembly = Assembly.LoadFrom("dtSearchNetApi.dll");

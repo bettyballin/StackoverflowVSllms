@@ -1,1 +1,0 @@
-XDocument doc = new XDocument();\n// ...\nusing (FileStream fs = new FileStream("path/to/file.xml", FileMode.Append, FileAccess.Write))\n{\n    doc.Save(fs);\n}

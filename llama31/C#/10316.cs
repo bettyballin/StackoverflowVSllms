@@ -1,1 +1,0 @@
-using (var context = new DataContext())\n{\n    var options = new DataLoadOptions();\n    options.LoadWith<Order>(o => o.OrderDetails);\n    context.LoadOptions = options;\n    var orders = context.Orders.ToList();\n}

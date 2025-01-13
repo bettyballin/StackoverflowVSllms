@@ -1,1 +1,0 @@
-for file in *.txt; do\n  awk '/^Release: / { $2++; print; next } { print }' "$file" > "$file.new"\n  mv "$file.new" "$file"\ndone

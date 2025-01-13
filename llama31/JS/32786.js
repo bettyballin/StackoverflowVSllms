@@ -1,0 +1,1 @@
+// Example JavaScript\nconsole.log('Inspecting the container element...');\nconst container = document.querySelector('.container');\nconsole.log(container);

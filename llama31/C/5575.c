@@ -1,1 +1,0 @@
-// Example of emulation-based detection using C\n#include <stdint.h>\n\n// Set up a virtual environment\nvoid *emulator = create_emulator();\n\n// Run the suspected code in the emulator\nrun_code(emulator, suspected_code);\n\n// Analyze the behavior of the code\nanalyze_behavior(emulator);

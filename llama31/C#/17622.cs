@@ -1,1 +1,0 @@
-public class DllWrapper : MarshalByRefObject\n{\n    private object _dll;\n\n    public DllWrapper(string dllPath)\n    {\n        _dll = AppDomain.CurrentDomain.CreateInstanceFrom(dllPath, typeof(EXAMPLEDLL1).FullName);\n    }\n\n    public void CallMethod()\n    {\n        _dll.GetType().GetMethod("MyMethod").Invoke(_dll, null);\n    }\n}

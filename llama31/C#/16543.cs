@@ -1,1 +1,0 @@
-[assembly: System.Xml.Serialization.XmlSerializerAssemblyAttribute("MyProjectName.XmlSerializers")]

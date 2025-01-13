@@ -1,1 +1,0 @@
-try\n{\n    // Some critical operation that may fail\n    PerformCriticalOperation();\n}\ncatch (Exception ex) when (IsFatalError(ex))\n{\n    Environment.FailFast("Fatal error encountered", ex);\n}\n\nbool IsFatalError(Exception ex)\n{\n    // Determine if the exception is fatal\n    // ...\n}

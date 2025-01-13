@@ -1,0 +1,1 @@
+$stmt = $mysqli->prepare("INSERT INTO main_table (name, values) VALUES (?, ?)");\n$stmt->bind_param("ss", $name, $values);\n$stmt->execute();

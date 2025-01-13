@@ -1,1 +1,0 @@
-// vs2002if9.h\n\n// Library built with Visual Studio 2002 (v7.0) and Intel Fortran 9.0.018\n// CRT library version: v7.0\n\n// Important: When linking this library with later versions of Visual Studio,\n// ensure that the CRT library version is compatible. You may need to rebuild\n// this library using the same version of Visual Studio as your application.

@@ -1,0 +1,1 @@
+$.ajax({\n    type: "GET",\n    url: "your_xml_url",\n    beforeSend: function(xhr) {\n        xhr.overrideMimeType("text/plain");\n    },\n    success: function(data) {\n        // data will be a string containing the XML\n    }\n});

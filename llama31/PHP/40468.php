@@ -1,0 +1,1 @@
+// Example of using a preprocess function to add a custom CSS class\nfunction mytheme_preprocess_node(&$variables) {\n  $variables['classes'][] = 'my-custom-class';\n}

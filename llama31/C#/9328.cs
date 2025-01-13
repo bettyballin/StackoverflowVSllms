@@ -1,1 +1,0 @@
-string duration = VideoFileInfo.GetVideoDuration("path/to/video.mp4");\nConsole.WriteLine(duration); // Output: 00:01:30

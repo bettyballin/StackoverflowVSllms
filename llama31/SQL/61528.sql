@@ -1,0 +1,1 @@
+CREATE TABLE mytable (\n  mydate DATE,\n  CONSTRAINT check_time CHECK (TO_CHAR(mydate, 'HH24') BETWEEN '09' AND '16')\n);

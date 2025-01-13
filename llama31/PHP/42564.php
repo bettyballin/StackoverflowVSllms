@@ -1,0 +1,1 @@
+$this->set('active_sites', $activeSites);

@@ -1,1 +1,0 @@
-[DllImport("advapi32.dll", SetLastError = true)]\nstatic extern IntPtr OpenEventLog(string UNCServerName, string sourceName);\n\n[DllImport("advapi32.dll", SetLastError = true)]\nstatic extern bool ReadEventLog(IntPtr hEventLog, int dwReadFlags, int dwRecordOffset, IntPtr lpBuffer, int nNumberOfBytesToRead, IntPtr pnBytesRead, IntPtr pnMinNumberOfBytesNeeded);

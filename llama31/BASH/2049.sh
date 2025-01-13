@@ -1,1 +1,0 @@
-php-cli script.php | wtee log.txt

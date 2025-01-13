@@ -1,1 +1,0 @@
-@echo off\n\n:: Read the last line from the log file\nfor /f "delims=" %%i in (log.txt) do set lastline=%%i\n\n:: Display the last recorded date/time\necho Last recorded date/time: %lastline%\n\n@pause\nexit

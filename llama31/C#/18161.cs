@@ -1,1 +1,0 @@
-// Assuming you have a DataSet object named 'myDataSet'\nmyDataSet.WriteXmlSchema("myDataSet.xsd");

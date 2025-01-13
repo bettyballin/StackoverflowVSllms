@@ -1,0 +1,1 @@
+// assuming 'element' is the table cell element\nelement.classList.toggle('sorted_asc');\nsetTimeout(function() {\n  // do nothing, just trigger a repaint\n}, 0);

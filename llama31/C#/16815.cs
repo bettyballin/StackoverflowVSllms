@@ -1,1 +1,0 @@
-using Nancy;\n\npublic class MyModule : NancyModule\n{\n    public MyModule()\n    {\n        Get["/"] = _ => View["index.html"];\n        Get["/values"] = _ => Response.AsJson(new[] { "value1", "value2" });\n        Get["/values/{id}"] = parameters => Response.AsJson("value");\n    }\n}

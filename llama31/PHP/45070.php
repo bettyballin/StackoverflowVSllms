@@ -1,0 +1,1 @@
+if ($_FILES['myfile']['error'] == UPLOAD_ERR_OK) {\n    // a file was uploaded, do your validation here\n} elseif ($_FILES['myfile']['error'] == UPLOAD_ERR_NO_FILE) {\n    // no file was uploaded, skip validation\n} else {\n    // handle other upload errors\n}

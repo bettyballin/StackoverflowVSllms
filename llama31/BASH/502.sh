@@ -1,1 +1,0 @@
-iostat -x -d -k 1

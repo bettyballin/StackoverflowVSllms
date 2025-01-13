@@ -1,0 +1,1 @@
+var clientId = getClientId();\n// Pass clientId in requests to .NET\nfunction getClientId() {\n    // Retrieve clientId from classic ASP or generate a new one\n}

@@ -1,0 +1,1 @@
+require_once 'php-exiflib/exiflib.php';\n\n$exif = new ExifLib();\n$result = $exif->readFile('image.jpg', array('ImageSize', 'FileType'));\n\necho $result['ImageSize']; // outputs "1024x768"\necho $result['FileType']; // outputs "JPEG"

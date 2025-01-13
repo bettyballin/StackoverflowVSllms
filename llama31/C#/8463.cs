@@ -1,1 +1,0 @@
-var averages = listA.SelectMany(a => a.BList.Select(b => new\n{\n    AverageAToB = (b.CompletedDate - a.CreatedDate).TotalMilliseconds,\n    AverageB = (b.CompletedDate - b.CreatedDate).TotalMilliseconds\n}))\n.Average(x => x.AverageAToB);\n\nvar averageB = listA.SelectMany(a => a.BList.Select(b => (b.CompletedDate - b.CreatedDate).TotalMilliseconds))\n.Average();

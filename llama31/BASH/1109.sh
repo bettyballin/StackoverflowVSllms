@@ -1,1 +1,0 @@
-gcc test.cpp -o test -lstdc++\n# Compiles correctly

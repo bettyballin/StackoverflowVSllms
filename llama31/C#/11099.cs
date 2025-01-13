@@ -1,1 +1,0 @@
-// Retrieve the HTML from the database\nstring encodedHtml = GetHtmlFromDatabase();\n\n// Decode the HTML\nstring decodedHtml = HttpUtility.HtmlDecode(encodedHtml);\n\n// Display the HTML on your web page\nyourHtmlElement.InnerHtml = decodedHtml;

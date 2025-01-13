@@ -1,0 +1,1 @@
+in_place_edit('model_name', 'column_name', :html => {:token => form_authenticity_token})

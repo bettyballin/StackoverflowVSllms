@@ -1,1 +1,0 @@
-private void OnApplicationExit(object sender, EventArgs e)\n{\n    UnhookWindowsHookEx(hookId);\n}

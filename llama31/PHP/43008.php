@@ -1,0 +1,1 @@
+$stmt->debugDumpParams();\n$output = ob_get_contents();\nob_end_clean();\n\n$rawSql = preg_replace('/^.*?:\s*/m', '', $output);\necho $rawSql;

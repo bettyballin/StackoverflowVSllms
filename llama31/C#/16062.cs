@@ -1,1 +1,0 @@
-Guid sessionId = Guid.NewGuid();\nstring sidString = $"{ClientContext.SID.ToString()}:{sessionId.ToString()}";\nIAzClientContext2 cctx = app.InitializeClientContext2("AppNameHere", null);\ncctx.AddStringSids(new object[] { (object)sidString } as object);

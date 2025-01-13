@@ -1,1 +1,0 @@
-# Create a new chroot environment\nmkdir /path/to/chroot\nchroot /path/to/chroot /bin/bash -c "java_or_cpp_command"

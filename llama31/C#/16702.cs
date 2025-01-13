@@ -1,1 +1,0 @@
-var myTableDataTable = new MyDataSet.MyTableDataTable();\nmyTableTableAdapter.Fill(myTableDataTable);\n\n// Later, when you need to refresh the data\nvar newDataTable = new MyDataSet.MyTableDataTable();\nmyTableTableAdapter.Fill(newDataTable);\nmyTableDataTable.Merge(newDataTable);

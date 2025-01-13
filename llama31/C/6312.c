@@ -1,1 +1,0 @@
-// Assume a 16x16 block of pixels\nint block[16][16];\n\n// Calculate the motion vector for this block\nint mv_x, mv_y;\ncalculate_motion_vector(block, &mv_x, &mv_y);\n\n// Compensate for the motion\nfor (int i = 0; i < 16; i++) {\n    for (int j = 0; j < 16; j++) {\n        block[i][j] = get_pixel_from_previous_frame(i + mv_x, j + mv_y);\n    }\n}

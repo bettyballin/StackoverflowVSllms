@@ -1,0 +1,1 @@
+$key = openssl_random_pseudo_bytes(16); // Generate a random 128-bit key\n$form_html = '<form>...</form>'; // Your HTML form\n$encrypted_form = openssl_encrypt($form_html, 'AES-128-CBC', $key, 0, 'your_iv'); // Encrypt the form\n\n// Send the encrypted form and key to the client\necho json_encode(array('encrypted_form' => $encrypted_form, 'key' => base64_encode($key)));

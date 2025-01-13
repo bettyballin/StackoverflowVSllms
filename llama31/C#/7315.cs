@@ -1,1 +1,0 @@
-string csvContent = File.ReadAllText("path/to/file.csv", Encoding.GetEncoding("iso-8859-15"));\nstring utf8Content = iso8859ToUnicode(csvContent);

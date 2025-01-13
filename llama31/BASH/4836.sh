@@ -1,1 +1,0 @@
-@echo off\n"C:\Windows\Microsoft.NET\Framework\v2.0.50727\CasPol.exe" -m -ag 1 -url "file://\\net_path\to\your\assembly.dll" FullTrust

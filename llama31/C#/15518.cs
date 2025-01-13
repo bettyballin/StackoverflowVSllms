@@ -1,1 +1,0 @@
-protected void Login1_LoggingIn(object sender, LoginCancelEventArgs e)\n{\n    // Redirect to a secure page for authentication\n    string secureUrl = "https://" + Request.Url.Host + "/SecureLogin.aspx";\n    Response.Redirect(secureUrl, false);\n}

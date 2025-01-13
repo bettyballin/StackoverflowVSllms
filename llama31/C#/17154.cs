@@ -1,1 +1,0 @@
-using System.Messaging;\n\n// Send message\nMessageQueue queue = new MessageQueue(".\\Private$\\myQueue");\nqueue.Send("Hello, World!", MessageQueueTransactionType.Single);\n\n// Receive message\nMessageQueue queue = new MessageQueue(".\\Private$\\myQueue");\nMessage message = queue.Receive(MessageQueueTransactionType.Single);\nstring messageBody = (string)message.Body;

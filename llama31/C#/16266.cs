@@ -1,1 +1,0 @@
-var contentType = new ContentType("application/vnd.ms-excel");\nmailMessage.Attachments.Add(new Attachment(attachment, contentType));

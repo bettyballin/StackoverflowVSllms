@@ -1,1 +1,0 @@
-string s = serializer.Serialize(p);\nstring encodedData = "data=" + System.Web.HttpUtility.UrlEncode(s);\nbyte[] byteArray = Encoding.UTF8.GetBytes(encodedData);

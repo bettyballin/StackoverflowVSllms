@@ -1,0 +1,1 @@
+SELECT COUNT(*) as total_users\nFROM (\n  SELECT user_id, SUM(value) as reputation_total\n  FROM reputation\n  WHERE created_at >= DATE_SUB(CURRENT_DATE, INTERVAL 7 DAY)\n  GROUP BY user_id\n) as subquery

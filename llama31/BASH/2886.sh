@@ -1,1 +1,0 @@
-SET JAVA_HOME=C:\\Program Files\\Java\\jdk1.6.0_05\nSET JRE_HOME=C:\\Program Files\\Java\\jre6

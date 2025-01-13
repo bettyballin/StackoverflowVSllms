@@ -1,0 +1,1 @@
+imap_socket($mbox, "X-GM-EXT-1 IDLE");

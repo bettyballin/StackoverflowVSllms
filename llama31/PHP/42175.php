@@ -1,0 +1,1 @@
+$nowPlaying = $track->getAttribute('nowplaying');

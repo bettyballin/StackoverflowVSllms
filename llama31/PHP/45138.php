@@ -1,0 +1,1 @@
+$controllers = App::objects('Controller');\n$controllerNames = array_keys($controllers);

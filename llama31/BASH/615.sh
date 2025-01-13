@@ -1,1 +1,0 @@
-./sed-bundle/sed-static 's/old/new/g' input.txt

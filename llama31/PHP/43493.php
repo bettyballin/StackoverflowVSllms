@@ -1,0 +1,1 @@
+<?php\n$file = 'example.txt';\n$fp = fopen($file, 'w');\nfwrite($fp, 'Hello, World!');\nfclose($fp);\n?>

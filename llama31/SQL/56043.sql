@@ -1,0 +1,1 @@
+SELECT DISTINCT Country, City\nFROM YourTable\nORDER BY Country, City;

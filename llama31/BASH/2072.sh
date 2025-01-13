@@ -1,1 +1,0 @@
-gcc -mno-sse -o asmtest asmtest.c

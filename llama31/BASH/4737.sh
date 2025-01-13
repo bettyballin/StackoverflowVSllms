@@ -1,1 +1,0 @@
-iisdiag.exe /u  /s:your_site_id

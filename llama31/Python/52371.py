@@ -1,0 +1,1 @@
+pivot = array[0]

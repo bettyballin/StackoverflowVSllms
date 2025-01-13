@@ -1,0 +1,1 @@
+import imaplib\n\n# Create an IMAP4_SSL object\nimap = imaplib.IMAP4_SSL('imap.gmail.com', 993)\n\n# Login using the LOGIN method\nimap.login('bobdole@gmail.com', 'your_password')\n\n# Select the mailbox you want to access\nimap.select('inbox')

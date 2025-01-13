@@ -1,0 +1,1 @@
+UPDATE wp_posts\nSET post_date = post_date + INTERVAL 1 SECOND\nWHERE post_date = 'YOUR_EXACT_DATE';

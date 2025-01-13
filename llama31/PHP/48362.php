@@ -1,0 +1,1 @@
+$selectStatement = filter_var($selectStatement, FILTER_SANITIZE_STRING);

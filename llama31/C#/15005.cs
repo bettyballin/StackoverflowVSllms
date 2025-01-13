@@ -1,1 +1,0 @@
-[ComVisible(true)]\npublic class MyClass : IMyClass\n{\n    public void MyMethod()\n    {\n        // implementation\n    }\n\n    public string MyProperty { get; set; }\n}

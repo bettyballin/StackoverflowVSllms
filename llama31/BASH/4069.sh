@@ -1,1 +1,0 @@
-echo "column1, column2, column3" > temp.csv\ncat testfile.csv >> temp.csv\nmv temp.csv testfile.csv

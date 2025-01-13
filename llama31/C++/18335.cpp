@@ -1,1 +1,0 @@
-// In .h file\nvoid MyFunc(int, FILEINFO*(BigClass::*)(FILEINFO*), FILEINFO*, int);\n\n// The definition in the .cpp file\nvoid MyFunc(int number, FILEINFO*(BigClass::*GetFiles)(FILEINFO*), FILEINFO* args, int type);\n\n// Then here is where I'm actually calling the function\nMyFuncClass->MyFunc(GetNumber(), &BigClass::PassThis, GetArgs(), TheType);

@@ -1,0 +1,1 @@
+# Create a Revo package\nrevo package my_script.rb --output my_script.exe

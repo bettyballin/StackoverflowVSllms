@@ -1,0 +1,1 @@
+$client = new SoapClient($wsdl, array(\n    'trace' => 1,\n    'connection_timeout' => 10, // Timeout in seconds\n    'stream_context' => $context, // Use the context created above\n));

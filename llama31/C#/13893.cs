@@ -1,1 +1,0 @@
-if (Monitor.TryEnter(syncRoot))\n{\n    try\n    {\n        // do something\n    }\n    finally\n    {\n        Monitor.Exit(syncRoot);\n    }\n}\nelse\n{\n    // do something else\n}

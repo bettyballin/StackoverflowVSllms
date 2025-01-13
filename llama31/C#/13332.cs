@@ -1,1 +1,0 @@
-public ActionResult MyAction()\n{\n    return Content("Hello, World!");\n}

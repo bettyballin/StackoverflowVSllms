@@ -1,0 +1,1 @@
+use phpseclib3\Net\SFTP;\n\n$sftp = new SFTP('sftp.example.com');\n\nif (!$sftp->login('username', 'password')) {\n    exit('Login failed');\n}\n\n$sftp->put('/remote/path', '/local/path');

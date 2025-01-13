@@ -1,0 +1,1 @@
+INSERT INTO Users (weight, desiredWeight)\nVALUES (160, 145);

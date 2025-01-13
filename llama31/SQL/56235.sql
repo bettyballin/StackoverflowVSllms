@@ -1,0 +1,1 @@
+UPDATE `messages`\nSET `new` = 'Y', `read` = 'N', `locked` = 'N'\nWHERE `recipient_id` = 1;

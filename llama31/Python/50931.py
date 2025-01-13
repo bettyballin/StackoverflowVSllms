@@ -1,0 +1,1 @@
+import re\n\nparagraphs = re.split(r'\n\s*\n', the_str)

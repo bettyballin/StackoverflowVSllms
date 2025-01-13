@@ -1,0 +1,1 @@
+<%= link_to 'Log out', {controller: 'sessions', action: 'destroy'}, method: :delete %>

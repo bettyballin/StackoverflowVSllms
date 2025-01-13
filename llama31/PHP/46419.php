@@ -1,0 +1,1 @@
+$sessionId = 'foo'; // Retrieve the session ID from the XML response\n\n// Check if a session with the given ID exists\nsession_id($sessionId);\nsession_start();\n\n// If the session is empty, try to reload the session data\nif (empty($_SESSION)) {\n    session_destroy();\n    session_id($sessionId);\n    session_start();\n}

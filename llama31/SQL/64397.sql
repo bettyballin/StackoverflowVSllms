@@ -1,0 +1,1 @@
+SELECT \n  news.id AS news_id, \n  users.id AS user_id \nFROM \n  news \nJOIN \n  users ON news.user = users.id

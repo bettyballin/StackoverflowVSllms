@@ -1,1 +1,0 @@
-#include <librsp.h>\n\n// Create an RSP client object\nrsp_client_t *client = rsp_client_new("localhost", 1234);\n\n// Send a command to gdbserver\nrsp_client_send_command(client, "qSupported");\n\n// Receive response from gdbserver\nrsp_response_t *response = rsp_client_recv_response(client);

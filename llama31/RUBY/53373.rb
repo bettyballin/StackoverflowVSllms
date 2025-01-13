@@ -1,0 +1,1 @@
+# Add yaml_db to your Gemfile\ngem 'yaml_db'\n\n# Run the following command in your terminal\nrake db:data:dump\n\n# This will create a db/data.yml file containing all data from your database

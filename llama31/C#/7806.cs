@@ -1,1 +1,0 @@
-public class MyPropId\n{\n    public int Id { get; set; }\n}\n\n// In your DbContext\npublic DbSet<MyPropId> MyPropIds { get; set; }\n\n// In your stored procedure call\nObjectResult<MyPropId> result = _container.MyStoredProcedure(uberParameter);

@@ -1,1 +1,0 @@
-g++ -pg your_code.cpp -o your_code\n./your_code\ngprof your_code gmon.out > profile.txt

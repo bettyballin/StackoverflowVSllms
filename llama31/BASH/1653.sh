@@ -1,1 +1,0 @@
-java MyJavaProgram param1 param2 ... param1500

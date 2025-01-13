@@ -1,1 +1,0 @@
-using System;\n\npublic class UrlValidator\n{\n    public bool IsValidUrl(string url)\n    {\n        Uri result;\n        return Uri.TryCreate(url, UriKind.Absolute, out result) && result != null && result.IsAbsoluteUri;\n    }\n}

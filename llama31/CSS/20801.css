@@ -1,1 +1,0 @@
-[dir="rtl"] {\n  direction: rtl;\n}\n\n[dir="rtl"]::-webkit-scrollbar {\n  left: 0;\n}\n\n[dir="rtl"] {\n  -ms-overflow-style: -ms-autohiding-scrollbar;\n}\n\n[dir="rtl"]::-moz-scrollbar {\n  left: 0;\n}

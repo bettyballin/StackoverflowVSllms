@@ -1,1 +1,0 @@
-#include <pthread.h>\nint main() {\n    pthread_t t;\n    pthread_create(&t, NULL, NULL, NULL);\n    return 0;\n}

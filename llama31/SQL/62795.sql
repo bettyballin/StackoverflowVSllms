@@ -1,0 +1,1 @@
+SELECT \n    ssp.Name AS SSP_Name, \n    ssp.DefaultContentAccessAccount AS Default_Crawling_Account\nFROM \n    SharedServiceProviders ssp\nINNER JOIN \n    SharedServiceProviderDB sspd ON ssp.Id = sspd.SharedServiceProviderId\nWHERE \n    sspd.Type = 'Search'

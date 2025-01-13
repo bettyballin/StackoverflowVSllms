@@ -1,1 +1,0 @@
-DWORD WINAPI HttpExtensionProc(EXTENSION_CONTROL_BLOCK* pECB)\n{\n    // Process the request\n    // ...\n    return HSE_STATUS_SUCCESS;\n}

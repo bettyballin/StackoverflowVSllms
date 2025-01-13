@@ -1,1 +1,0 @@
-#pragma GCC push_options\n#pragma GCC optimize ("O0")\nvoid your_function_here(void) {\n    /* function code here */\n}\n#pragma GCC pop_options

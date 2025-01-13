@@ -1,1 +1,0 @@
-// MemberService.cs (BLL)\npublic class MemberService\n{\n    public Member GetMember(int memberId)\n    {\n        // Call the DAL to retrieve the member data\n        Member member = MemberDAL.GetMember(memberId);\n        return member;\n    }\n}

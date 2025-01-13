@@ -1,0 +1,1 @@
+EXEC sp_addrolemember @rolename = 'db_owner', @membername = 'Domain\Username'

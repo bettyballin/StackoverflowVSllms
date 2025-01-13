@@ -1,1 +1,0 @@
-convert input.tiff -compress Flate output.pdf

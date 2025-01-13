@@ -1,1 +1,0 @@
-grep -r "extension=ldap" /etc/php.ini\ngrep -r "extension=mysql" /etc/php.ini

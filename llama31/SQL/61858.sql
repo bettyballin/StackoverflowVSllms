@@ -1,0 +1,1 @@
+DELETE FROM your_table_name a\nUSING your_table_name b\nWHERE a.ctid < b.ctid AND a.tickername = b.tickername AND a.tickerbbname = b.tickerbbname;

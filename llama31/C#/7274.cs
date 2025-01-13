@@ -1,1 +1,0 @@
-[Table(Name = "Courses")]\npublic class Course\n{\n    [Column(IsPrimaryKey = true)]\n    public int CourseID { get; set; }\n\n    // ...\n\n    [Association(ThisKey = "CourseID", OtherKey = "CourseID")]\n    public Category Category\n    {\n        get\n        {\n            return this.CourseCategories.FirstOrDefault().Category;\n        }\n    }\n}

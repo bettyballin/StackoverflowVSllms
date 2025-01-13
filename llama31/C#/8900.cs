@@ -1,1 +1,0 @@
-public static List<T> Clone<T>(List<T> list) where T : ICloneable\n{\n    List<T> clonedList = new List<T>();\n    foreach (T item in list)\n    {\n        clonedList.Add((T)item.Clone());\n    }\n    return clonedList;\n}

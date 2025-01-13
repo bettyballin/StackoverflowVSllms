@@ -1,0 +1,1 @@
+Dim obj As Object\nSet obj = CreateObject("YourAssembly.YourClass")

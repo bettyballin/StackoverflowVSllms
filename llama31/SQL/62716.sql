@@ -1,0 +1,1 @@
+BEGIN TRANSACTION;\n\nUPDATE A\nSET A.Sector = B.Sector\nFROM tbFoo A\nINNER JOIN (\n  SELECT SectorKey, Sector\n  FROM tbFoo\n  WHERE Sector IS NOT NULL\n) B\nON A.SectorKey = B.SectorKey\nWHERE A.Sector IS NULL;\n\nSELECT @@ROWCOUNT AS RowsAffected;\n\n-- COMMIT TRANSACTION; or ROLLBACK TRANSACTION;

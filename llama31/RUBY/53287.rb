@@ -1,0 +1,1 @@
+// okay\na + b\n\n// equivalent to\na.+(b)

@@ -1,0 +1,1 @@
+SELECT DISTINCT \n    DATEFROMPARTS(YEAR(datecol), MONTH(datecol), 1) AS dt1\nFROM \n    Table\nORDER BY \n    dt1

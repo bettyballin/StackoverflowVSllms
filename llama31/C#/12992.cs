@@ -1,1 +1,0 @@
-HttpCookie cookie = new HttpCookie("SessionData");\ncookie.Values["UserId"] = userId.ToString();\ncookie.Values["ChannelId"] = channelId.ToString();\nHttpContext.Current.Response.Cookies.Add(cookie);

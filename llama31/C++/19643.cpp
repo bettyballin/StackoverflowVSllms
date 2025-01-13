@@ -1,1 +1,0 @@
-HRESULT AddProperty(const wchar_t* pszName, const VARIANT* pVar)\n{\n    // ...\n    BSTR bstrCopy = SysAllocString(pVar->bstrVal);\n    if (bstrCopy == NULL)\n    {\n        // handle error\n    }\n    // store the copied string\n    // ...\n    return S_OK;\n}

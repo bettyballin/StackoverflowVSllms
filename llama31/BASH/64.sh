@@ -1,1 +1,0 @@
-#!/bin/bash\necho "SSH login detected!"\n# Add your notification code here (e.g., send an email or notify a user)

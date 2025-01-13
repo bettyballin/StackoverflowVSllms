@@ -1,0 +1,1 @@
+// Get the iframe element\nvar iframe = document.getElementById('hidden-upload-frame');\n\n// Add an event listener to the iframe's load event\niframe.addEventListener('load', function() {\n  // Call the remote function when the iframe loads\n  ${remoteFunction(action: 'list', controller: 'file', update: [success: 'fileDomain', failure: 'fileDomain'])}\n});

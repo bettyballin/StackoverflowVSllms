@@ -1,0 +1,1 @@
+const { Parser } = require('rss-parser');\n\nconst parser = new Parser();\nconst feed = await parser.parseURL(url);\nif (feed) {\n    // feed is the RSS feed associated with the URL\n}

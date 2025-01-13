@@ -1,0 +1,1 @@
+UPDATE foo\nSET time = CURRENT_TIMESTAMP + INTERVAL '1 day' * days;

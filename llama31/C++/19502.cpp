@@ -1,1 +1,0 @@
-#include <Windows.h>\n\nint main() {\n    // Specify the file path\n    const char* filePath = "C:\\path\\to\\your\\file.txt";\n\n    // Open the file with its associated application\n    ShellExecuteA(NULL, "open", filePath, NULL, NULL, SW_SHOWNORMAL);\n\n    return 0;\n}

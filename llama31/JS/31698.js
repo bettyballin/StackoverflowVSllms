@@ -1,0 +1,1 @@
+wmd_options = {\n  tags: {\n    span: ['style'],\n    validate: function(tag, attributes) {\n      if (tag === 'span' && attributes.style) {\n        // validate the style attribute here\n        // return false to reject the tag\n      }\n    }\n  }\n};

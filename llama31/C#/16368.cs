@@ -1,1 +1,0 @@
-public class DataNotFoundException : ApplicationException\n{\n    public DataNotFoundException(string message) : base(message) { }\n}\n\n// Usage:\nif (ds.Tables["table1"].Rows.Count == 0)\n{\n    throw new DataNotFoundException("Data not found for identifier " + identifier);\n}

@@ -1,0 +1,1 @@
+// Example of a very long array key\n$key = str_repeat('a', 2147483647);\n$array = array($key => 'value');

@@ -1,0 +1,1 @@
+class User < ActiveRecord::Base\n  # Your validations here...\n\n  def self.valid_attribute?(attribute, value)\n    instance = self.new(attribute => value)\n    instance.valid?\n    instance.errors[attribute].blank?\n  end\nend

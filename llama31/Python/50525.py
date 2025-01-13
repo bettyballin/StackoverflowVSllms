@@ -1,0 +1,1 @@
+patterns = [\n    r'<!--([^->]|(-+[^->])|(-?>))*-{2,}>',\n    r'\n+|\s{2}'\n]\n\ncompiled_patterns = [re.compile(pattern) for pattern in patterns]

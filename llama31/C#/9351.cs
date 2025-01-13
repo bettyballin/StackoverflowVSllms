@@ -1,1 +1,0 @@
-using System.Xml.Linq;\n\n// Load the settings file\nXDocument settingsDoc = XDocument.Load("settings.xml");\n\n// Modify the "homepagedesc" key\nsettingsDoc.Descendants("add").Where(e => e.Attribute("key").Value == "homepagedesc").FirstOrDefault().Attribute("value").Value = "New value";\n\n// Save the changes\nsettingsDoc.Save("settings.xml");

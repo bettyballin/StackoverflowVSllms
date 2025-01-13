@@ -1,0 +1,1 @@
+$url = urldecode($object_list_url);\n$opts = array(\n    'http' => array(\n        'method' => "GET",\n        'header' => "Accept: text/xml\r\n"\n    )\n);\n$context = stream_context_create($opts);\n$fp = fopen($url, 'r', false, $context);\n$xmlstr = stream_get_contents($fp);\nfclose($fp);\n$obj = new SimpleXMLElement($xmlstr, LIBXML_NOCDATA);

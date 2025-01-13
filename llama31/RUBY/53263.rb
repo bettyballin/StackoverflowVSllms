@@ -1,0 +1,1 @@
+<%# app/views/email/new.html.erb %>\n<%= form_remote_tag(:url => { :controller => "email", :action => "create" }, :html => { :id => "email_form" }) do %>\n  <%= label_tag(:email, "Email address") %>\n  <%= text_field_tag(:email) %>\n  <%= submit_tag("Submit") %>\n<% end %>

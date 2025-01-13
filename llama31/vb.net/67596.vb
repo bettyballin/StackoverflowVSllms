@@ -1,0 +1,1 @@
+Imports System.Threading\n\nModule Module1\n    Sub Main()\n        Thread.SetApartmentState(ApartmentState.STA)\n        ' Call your library code here\n    End Sub\nEnd Module

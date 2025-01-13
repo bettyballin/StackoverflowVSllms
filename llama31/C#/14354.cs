@@ -1,1 +1,0 @@
-public class SnapshotNotTakenException : InvalidOperationException\n{\n    public SnapshotNotTakenException() : base("Cannot analyze snapshot before taking it.") { }\n}

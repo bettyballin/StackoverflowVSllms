@@ -1,0 +1,1 @@
+class CreateNotes < ActiveRecord::Migration[6.0]\n  def change\n    create_table :notes do |t|\n      t.references :notable, polymorphic: true, null: false\n      # other columns...\n      t.timestamps\n    end\n  end\nend

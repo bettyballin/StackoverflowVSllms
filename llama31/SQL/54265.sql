@@ -1,0 +1,1 @@
+SELECT * FROM Routing \nWHERE dbo.RegexMatch(@Message, RouteRegex) = 1;

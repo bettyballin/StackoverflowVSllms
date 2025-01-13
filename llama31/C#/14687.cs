@@ -1,1 +1,0 @@
-MyAssemblyLoader.LoadEmbeddedAssembly("ThirdPartyDll.dll");

@@ -1,1 +1,0 @@
-etsh interface ipv4 delete address "Your Network Interface Name" addr=192.168.1.100

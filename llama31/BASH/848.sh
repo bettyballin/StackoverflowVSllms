@@ -1,1 +1,0 @@
-echo "Enter PID to search: "\nread PID\nif pgrep -f "$PID" > /dev/null; then\n  echo "Process found"\nelse\n  echo "Process not found"\nfi

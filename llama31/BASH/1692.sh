@@ -1,1 +1,0 @@
-icacls C:\Path\To\Bin\App_Licenses.dll /inheritance:r\nicacls C:\Path\To\Bin\App_Licenses.dll /grant:r "IIS APPPOOL\YourAppPoolIdentity":R

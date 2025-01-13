@@ -1,1 +1,0 @@
-// Instead of\nprivate const string LogCompleteFileName = "L:\\LOGS\\MyApp.log";\n\n// Use\nprivate static readonly string LogCompleteFileName = ConfigurationManager.AppSettings["LogCompleteFileName"];

@@ -1,1 +1,0 @@
-// Example key storage using Azure Key Vault\nusing Microsoft.Azure.KeyVault;\nusing Microsoft.IdentityModel.Clients.ActiveDirectory;\n\n// Load key from Key Vault\nvar keyVaultClient = new KeyVaultClient(new DefaultAzureCredential());\nvar key = keyVaultClient.GetSecretAsync("https://yourvault.vault.azure.net/secrets/yourkey").Result.Value;

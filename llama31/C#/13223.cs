@@ -1,1 +1,0 @@
-using System.Runtime.InteropServices;\n\npublic class MyWrapper\n{\n    [DllImport("MyCppDll.dll", CallingConvention = CallingConvention.StdCall)]\n    public static extern int MyFunction(int param);\n}

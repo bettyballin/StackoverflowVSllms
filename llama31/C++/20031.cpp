@@ -1,1 +1,0 @@
-// car.h\nclass __declspec(dllexport) Car {\npublic:\n    Car();\n    void drive(void);\n    typedef enum { None, Indented } Formatting;\n};\n\n// car.cpp\nCar::Car() {}\nvoid Car::drive(void) {}

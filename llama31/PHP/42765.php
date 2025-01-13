@@ -1,0 +1,1 @@
+$link2 = new mysqli($host, $user, $password, $database);\n\nif ($stmt = $link->prepare("SELECT item FROM data WHERE id = ?")) {\n    // ...\n    while ($stmt->fetch()) {\n        // ...\n        if ($stmt2 = $link2->prepare("INSERT INTO summaries (itemID, summary) VALUES (?, ?)")) {\n            // ...\n        }\n    }\n}

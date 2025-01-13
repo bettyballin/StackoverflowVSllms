@@ -1,1 +1,0 @@
-snprintf(xPosition, 19, "%.2f", xPositionValue);

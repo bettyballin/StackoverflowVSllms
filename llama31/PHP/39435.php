@@ -1,0 +1,1 @@
+$array = array('id' => 1, 'name' => 'John', 'age' => 30);\n\nforeach (array_diff_key($array, array('id' => '')) as $key => $value) {\n    // whatever\n    echo "$key: $value\n";\n}

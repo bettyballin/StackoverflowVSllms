@@ -1,1 +1,0 @@
-#include <utility>\n\nstd::pair<int, int> foo(int c) {\n    return std::make_pair(1, 2);\n}\n\nauto result = foo(c);\nint a = result.first;\nint b = result.second;

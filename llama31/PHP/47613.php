@@ -1,0 +1,1 @@
+$node = node_save($issue);\n$nid = $node->nid;\n\n// Print the node ID for verification\nprint_r($nid);

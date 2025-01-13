@@ -1,1 +1,0 @@
-// yourmain.cpp\n#include "yourlib.h"\n\nint main() {\n    yourFunction();\n    return 0;\n}

@@ -1,0 +1,1 @@
+<system.web>\n    <sessionState mode="InProc" cookieless="false" regenerateExpiredSessionId="true" \n                  cookieName="ASP.NET_SessionId" timeout="20" \n                  sessionIDManagerType="YourNamespace.CustomSessionIDManager"/>\n</system.web>

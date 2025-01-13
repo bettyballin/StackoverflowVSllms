@@ -1,1 +1,0 @@
-// Client process\nwhile (running) {\n    // Send heartbeat to core process\n    send_heartbeat(core_process_socket);\n    sleep(HEARTBEAT_INTERVAL);\n}

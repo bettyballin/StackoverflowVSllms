@@ -1,1 +1,0 @@
-ssh -o "StrictHostKeyChecking=no" -L 1234:localhost:1234 user@theserver

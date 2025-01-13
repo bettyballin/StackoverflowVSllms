@@ -1,0 +1,1 @@
+// Save the index\n$search_api_index_storage = \Drupal::entityTypeManager()->getStorage('search_api_index');\n$search_api_index_storage->save($index);\n\n// Run the indexer\n$search_api_indexer = \Drupal::getContainer()->get('search_api.indexer');\n$search_api_indexer->indexItems($index);

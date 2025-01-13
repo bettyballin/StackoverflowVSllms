@@ -1,1 +1,0 @@
-.radio-group input[type="radio"] {\n  display: none;\n}\n\n.radio-group label {\n  display: inline-block;\n  margin: 5px;\n  cursor: pointer;\n}\n\n.radio-group input[type="radio"]:checked + label {\n  background-color: #ccc;\n  border-radius: 5px;\n}

@@ -1,0 +1,1 @@
+$.validator.addMethod("validUserName",\n  function(value, element) {\n  return this.optional(element) || \n  /^[\w\-\s\d\u00C0-\u017F]+$/.test(value); },\n  "Can only contain A-Z, 0-9, spaces, and hyphens.");

@@ -1,1 +1,0 @@
-var numbers = new[] { 1, 2, 3, 4, 5, 6 };\nvar sum = numbers.Sum();

@@ -1,0 +1,1 @@
+// Enable Xdebug profiling\nxdebug_enable_profiling();\n\n// Run your PHP script...\n\n// Get the profiling data\n$data = xdebug_get_profiling_data();\n\n// Print the execution time metrics\nprint_r($data);

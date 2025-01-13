@@ -1,0 +1,1 @@
+$query = "SELECT * FROM `vocabulary` \n          WHERE MATCH (`translation`) AGAINST ('word' IN BOOLEAN MODE) \n          ORDER BY MATCH (`translation`) AGAINST ('word' IN BOOLEAN MODE) DESC";

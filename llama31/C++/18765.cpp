@@ -1,1 +1,0 @@
-class A\n{\npublic:\n    explicit A(int x) {}\n};\n\nclass B : public A\n{\npublic:\n    explicit B(int x) : A(x) {}  // Call A's constructor from B's constructor\n};\n\nint main(void)\n{\n    B *b = new B(5);\n    delete b;\n}

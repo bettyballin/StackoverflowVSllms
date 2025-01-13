@@ -1,1 +1,0 @@
-uint16_t generate_unique_id(uint16_t seed) {\n    uint16_t id;\n    uint16_t counter = 0;\n    do {\n        id = xorshift(seed) + counter;\n        // Scan the Flash device to check if the ID is already in use\n        if (!is_id_used(id)) {\n            return id;\n        }\n        counter++; // increment the counter for the next iteration\n    } while (1);\n}

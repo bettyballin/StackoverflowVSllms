@@ -1,1 +1,0 @@
-protected void SaveButton_Click(object sender, EventArgs e)\n{\n    List<int> selectedColumnIds = new List<int>();\n\n    foreach (ListItem item in CheckBoxList1.Items)\n    {\n        if (item.Selected)\n        {\n            selectedColumnIds.Add(int.Parse(item.Value));\n        }\n    }\n\n    SaveColumnPreferences(selectedColumnIds);\n}

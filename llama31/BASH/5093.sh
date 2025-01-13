@@ -1,1 +1,0 @@
-dllhost /x86 mycomcomponent.dll

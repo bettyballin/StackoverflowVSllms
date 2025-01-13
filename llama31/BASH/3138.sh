@@ -1,1 +1,0 @@
-pip install regex pcre

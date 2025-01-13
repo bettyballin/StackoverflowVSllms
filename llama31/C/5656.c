@@ -1,1 +1,0 @@
-int n = 42;\nif (n % 2 == 0) {\n    printf("Even\n");\n}

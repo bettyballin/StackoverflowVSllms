@@ -1,0 +1,1 @@
+if (!include_once('abc.php')) {\n    die("oops");\n}

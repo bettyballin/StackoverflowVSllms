@@ -1,0 +1,1 @@
+Dim v = From a In AppDomain.CurrentDomain.GetAssemblies(),\n        b In a.GetTypes()\n        Where b.IsPublic\n        Select b

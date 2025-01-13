@@ -1,1 +1,0 @@
-string searchString = txtSearch.Text;\nstring query = "SELECT * FROM your_table WHERE your_column LIKE @searchString + '%'";\nSqlCommand cmd = new SqlCommand(query, yourConnection);\ncmd.Parameters.AddWithValue("@searchString", searchString);

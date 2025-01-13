@@ -1,0 +1,1 @@
+if (!mysql_query($sql,$con))

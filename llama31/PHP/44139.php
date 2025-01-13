@@ -1,0 +1,1 @@
+// Example of vulnerable code\n$command = $_POST['command'];\nexec($command);

@@ -1,1 +1,0 @@
-IPHostEntry ipHostEntry = Dns.GetHostEntry(Dns.GetHostName());\nIPAddress[] addresses = ipHostEntry.AddressList;\n\nforeach (IPAddress address in addresses)\n{\n    if (address.AddressFamily == AddressFamily.InterNetwork)\n    {\n        // This is an IPv4 address\n        Console.WriteLine(address.ToString());\n    }\n}

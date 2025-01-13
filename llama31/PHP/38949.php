@@ -1,0 +1,1 @@
+$customPackage = array('A', 'B', 'C', 'D', 'E', 'F', 'G', 'H', 'I', 'J');\n$predefinedPackages = array(\n    array('A', 'B', 'C', 'D', 'E'), // Package 1\n    array('A', 'B', 'C'), // Package 2\n    array('D', 'E', 'F'), // Package 3\n    // ... more packages ...\n);

@@ -1,1 +1,0 @@
-# Scan a website\nsqlmap -u "http://example.com/index.php?id=1"

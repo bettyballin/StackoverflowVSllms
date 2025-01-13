@@ -1,1 +1,0 @@
-#pragma comment(lib, "psapi.lib")

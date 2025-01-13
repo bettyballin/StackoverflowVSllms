@@ -1,1 +1,0 @@
-int main() {\n    HANDLE hProcess = getProcessHandleByName("example.exe");\n    if (hProcess != NULL) {\n        TerminateProcess(hProcess, 0);\n        CloseHandle(hProcess);\n    }\n    return 0;\n}

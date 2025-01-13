@@ -1,1 +1,0 @@
-using System.Runtime.InteropServices;\n\n[ComImport]\n[Guid("your_COM_control_GUID")]\npublic class YourComControl\n{\n    // Define the COM interface methods and events\n}\n\n// In your Silverlight code\nYourComControl control = new YourComControl();\ncontrol.SetParameters(param1, param2);\ncontrol.Authenticate();

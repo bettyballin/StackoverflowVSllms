@@ -1,1 +1,0 @@
-@echo off\nsplit -b 100 C:\path\to\your\file.txt

@@ -1,0 +1,1 @@
+echo format_number(120000000); // outputs '120.0 Mil'\necho format_number(200400); // outputs '200.4 K'\necho format_number(143000000); // outputs '143.0 Mil'\necho format_number(52000000000); // outputs '52.0 Bil'

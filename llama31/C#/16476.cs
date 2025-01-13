@@ -1,1 +1,0 @@
-Directory.Delete(path, true);

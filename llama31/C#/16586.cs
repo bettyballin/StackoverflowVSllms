@@ -1,1 +1,0 @@
-public class MyContextFactory\n{\n    public static MyContext CreateContext(string connectionStringName)\n    {\n        return new MyContext(connectionStringName);\n    }\n}

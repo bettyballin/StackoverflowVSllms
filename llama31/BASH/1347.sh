@@ -1,1 +1,0 @@
-pear config-show

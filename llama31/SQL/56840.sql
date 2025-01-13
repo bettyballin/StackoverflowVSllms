@@ -1,0 +1,1 @@
+EXECUTE 'SELECT count(*) FROM ' || quote_ident('mytable');

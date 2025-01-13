@@ -1,1 +1,0 @@
-openssl req -new -key private.key -out csr.pem -subj "/C=US/ST=State/L=Locality/O=Organization/CN=example1.com" \\n-addext "subjectAltName=DNS:example2.com,DNS:example3.com"

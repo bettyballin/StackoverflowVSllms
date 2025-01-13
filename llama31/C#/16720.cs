@@ -1,1 +1,0 @@
-DataTable newTable = originalTable.Copy();

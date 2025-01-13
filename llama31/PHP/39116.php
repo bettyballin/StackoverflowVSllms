@@ -1,0 +1,1 @@
+$db = Zend_Db::factory('PDO_MYSQL', $config);\n$result = $db->query('SELECT * FROM table');\n$rowCount = count($result);

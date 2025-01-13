@@ -1,1 +1,0 @@
-int bytesRead = ns.Read(receiveBytes, 0, (int)client.ReceiveBufferSize);\nString returndata = Encoding.UTF8.GetString(receiveBytes, 0, bytesRead);

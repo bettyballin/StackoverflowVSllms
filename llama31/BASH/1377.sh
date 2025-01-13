@@ -1,1 +1,0 @@
-ar -x mylib.a\nobjdump -a *.o

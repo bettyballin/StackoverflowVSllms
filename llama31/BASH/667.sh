@@ -1,1 +1,0 @@
-# Example hostname breakdown\nhostname="rt-ge-01-ic-gw.example.net"\necho "$hostname" | cut -d '.' -f 1 | cut -d '-' -f 1 # Output: rt (router)\necho "$hostname" | cut -d '.' -f 1 | cut -d '-' -f 2 # Output: ge (Gigabit Ethernet)

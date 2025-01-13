@@ -1,1 +1,0 @@
-:root {\n  --body-margin: 1px; /* replace with the actual body margin */\n}\n\n.cover-div {\n  position: absolute;\n  top: calc(-1 * var(--body-margin));\n  left: calc(-1 * var(--body-margin));\n  width: calc(100% + 2 * var(--body-margin));\n  height: calc(100% + 2 * var(--body-margin));\n}

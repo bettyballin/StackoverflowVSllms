@@ -1,1 +1,0 @@
-// Server-side code (ASP.NET)\npublic partial class MyPage : Page\n{\n    protected void Button1_Click(object sender, EventArgs e)\n    {\n        // Set a flag in the session or a hidden field\n        Session["IsRedirecting"] = true;\n        Response.Redirect("newpage.aspx");\n    }\n}

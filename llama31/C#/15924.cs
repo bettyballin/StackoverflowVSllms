@@ -1,1 +1,0 @@
-using Ganss.XSS;\n\n   var sanitizer = new HtmlSanitizer();\n   var html = @"<script>alert('XSS')</script><p>Hello World!</p>";\n   var sanitized = sanitizer.Sanitize(html);\n   Console.WriteLine(sanitized); // Output: <p>Hello World!</p>

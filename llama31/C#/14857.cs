@@ -1,1 +1,0 @@
-using (var dbContext = new YourDbContext())\n{\n    var query = dbContext.Parents\n        .Include(p => p.Children)\n        .OrderBy(p => p.ParentID)\n        .Select(p => new ParentModel\n        {\n            Name = p.Name,\n            Children = p.Children.Select(c => c.Name).ToList()\n        });\n\n    var parentModels = query.ToList();\n}

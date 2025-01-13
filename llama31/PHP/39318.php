@@ -1,0 +1,1 @@
+$myOrder = 'burrito';\ncall_user_func(array($lunch, 'order_'.$myOrder));

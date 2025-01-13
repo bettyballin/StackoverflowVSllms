@@ -1,1 +1,0 @@
-cygstart my_playlist.m3u

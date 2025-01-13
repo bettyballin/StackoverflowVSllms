@@ -1,1 +1,0 @@
-public ActionResult Index()\n{\n    var files = db.Files.GroupBy(f => f.Group)\n                        .OrderBy(g => g.Key);\n\n    return View(files);\n}

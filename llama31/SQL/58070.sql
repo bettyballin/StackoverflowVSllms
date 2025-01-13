@@ -1,0 +1,1 @@
+CREATE USER 'repl_user'@'%' IDENTIFIED BY 'password';\nGRANT REPLICATION SLAVE ON *.* TO 'repl_user'@'%';

@@ -1,0 +1,1 @@
+window.addEventListener('resize', function() {\n  var mapContainer = document.getElementById('map-container');\n  var legend = document.getElementById('legend');\n  var mapRect = mapContainer.getBoundingClientRect();\n  legend.style.bottom = '0px';\n  legend.style.left = '0px';\n});

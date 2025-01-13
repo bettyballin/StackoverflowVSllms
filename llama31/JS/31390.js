@@ -1,0 +1,1 @@
+$('.rating-container').rating({\n  // plugin options\n});

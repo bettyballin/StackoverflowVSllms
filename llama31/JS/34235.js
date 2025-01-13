@@ -1,0 +1,1 @@
+function sub_d() {\n  const checkboxes = document.querySelectorAll('input[name="OGname"]');\n  checkboxes.forEach((checkbox) => {\n    if (checkbox.checked) {\n      checkbox.name = "newname";\n    }\n  });\n  document.checks.submit();\n}

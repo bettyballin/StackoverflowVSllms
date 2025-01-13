@@ -1,1 +1,0 @@
-FormsAuthentication.SignOut();\nResponse.Redirect(FormsAuthentication.LoginUrl);

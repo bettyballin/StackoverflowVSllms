@@ -1,1 +1,0 @@
-ldapsearch -H <ldap_url> -D <bind_dn> -w <bind_password> -b <search_base> \\n  -s sub -a always -J 1.2.840.113556.1.4.417:1 "(isDeleted=TRUE)"

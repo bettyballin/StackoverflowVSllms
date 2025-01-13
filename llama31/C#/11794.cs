@@ -1,1 +1,0 @@
-dependentService.WaitForStatus(ServiceControllerStatus.Running, Timeout.Infinite);

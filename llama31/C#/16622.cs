@@ -1,1 +1,0 @@
-using (var dbContext = new YourDataContext())\n{\n    var entity = new YourEntity\n    {\n        DateField = DateTime.Now\n    };\n\n    dbContext.YourEntities.InsertOnSubmit(entity);\n    dbContext.SubmitChanges();\n}

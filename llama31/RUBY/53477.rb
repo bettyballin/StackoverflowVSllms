@@ -1,0 +1,1 @@
+render :update do |page|\n  page.replace_html "chart-div", "<img src=\"#{image_path(chart.chart_file)}\"/>"\nend

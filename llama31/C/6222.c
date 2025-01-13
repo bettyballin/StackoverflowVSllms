@@ -1,1 +1,0 @@
-OSVERSIONINFO osvi;\nosvi.dwOSVersionInfoSize = sizeof(OSVERSIONINFO);\nGetVersionEx(&osvi);\n\nif (osvi.dwPlatformId == VER_PLATFORM_WIN32_NT) {\n    // Safe to call GetFileTime and SetFileTime\n} else {\n    // Handle error or provide alternative implementation\n}

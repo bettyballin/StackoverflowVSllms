@@ -1,0 +1,1 @@
+// At the end of your script\nsession_write_close();

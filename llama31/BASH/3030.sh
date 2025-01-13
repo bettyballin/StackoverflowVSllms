@@ -1,1 +1,0 @@
-mount -o ro /dev/vg_name/lv_name /mnt

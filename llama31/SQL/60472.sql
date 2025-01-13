@@ -1,0 +1,1 @@
+SELECT * FROM auctions\nWHERE start_date = CURDATE()\n  AND status = '0'\n  AND NOW() >= SUBTIME(TIMESTAMP(start_date, start_time), X, 'HOUR')

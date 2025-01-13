@@ -1,0 +1,1 @@
+$command = 'hg clone ... > output.log 2>&1 &';\nexec($command, $output, $return_value);

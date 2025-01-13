@@ -1,1 +1,0 @@
-using Telerik.WinControls.UI;\n\n// Create a new RadGridView\nRadGridView radGridView = new RadGridView();\n\n// Enable grouping\nradGridView.EnableGrouping = true;\n\n// Add columns\nradGridView.Columns.Add("Column1");\nradGridView.Columns.Add("Column2");\n\n// Set the data source\nradGridView.DataSource = yourDataTable;

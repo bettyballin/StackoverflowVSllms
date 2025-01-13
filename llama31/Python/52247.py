@@ -1,0 +1,1 @@
+# Load the extension module\n%load_ext my_extension\n\n# Now you can use the functions defined in the extension module\nmy_function()

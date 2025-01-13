@@ -1,1 +1,0 @@
-[WebMethod]\n[ScriptMethod(UseHttpGet = false, XmlSerializeString = true)]\npublic string GetPageLayout(string lid, int pid)\n{\n    if (!SystemModel.UserManager.HasLogin())\n        return null;\n    var o = SystemModel.Layouts.GetPageLayout(pid);\n    o.Tag = lid;\n    return JsonConvert.SerializeObject(o);\n}

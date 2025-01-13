@@ -1,0 +1,1 @@
+import nidaqmx\n\nwith nidaqmx.Task() as task:\n    # Create a CO (counter output) channel\n    co_channel = task.co_pulse_chan_create("Dev1/ctr0", "", 500000.0, 0.5)\n\n    # Start the task\n    task.start()\n\n    # Run your other code here...\n\n    # Stop the task\n    task.stop()

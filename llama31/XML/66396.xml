@@ -1,0 +1,1 @@
+<bindings>\n  <ws2007HttpBinding>\n    <binding name="SecureSessionBinding">\n      <security mode="TransportWithMessageCredential">\n        <transport clientCredentialType="Windows" />\n        <message clientCredentialType="Windows" />\n      </security>\n      <reliableSession enabled="true" />\n    </binding>\n  </ws2007HttpBinding>\n</bindings>

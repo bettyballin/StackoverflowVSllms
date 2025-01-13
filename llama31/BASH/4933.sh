@@ -1,1 +1,0 @@
-svn checkout svn+ssh://user@host/path/to/repo

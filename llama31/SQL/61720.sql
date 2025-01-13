@@ -1,0 +1,1 @@
+SELECT * \nFROM YourLargeTable T1\nWHERE EXISTS (SELECT 1 FROM @cities C WHERE T1.city = C.city)\nAND EXISTS (SELECT 1 FROM @states S WHERE T1.state = S.state);

@@ -1,0 +1,1 @@
+# domain_model/user.rb\nclass User\n  attr_accessor :name, :email\n\n  def initialize(name, email)\n    @name = name\n    @email = email\n  end\n\n  def save\n    # Use ActiveRecord to save the user data\n    UserRecord.create(name: @name, email: @email)\n  end\nend\n\n# activerecord/user_record.rb\nclass UserRecord < ApplicationRecord\n  # ActiveRecord stuff...\nend

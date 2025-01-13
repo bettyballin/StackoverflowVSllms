@@ -1,1 +1,0 @@
-using Library;\n\npublic class Xxx\n{\n    public void DoSomething()\n    {\n        SomeDllWrapper.DoSomething();\n    }\n}

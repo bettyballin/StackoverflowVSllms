@@ -1,0 +1,1 @@
+class Permission:\n    def is_allowed(self)  # present tense\n    def was_allowed(self)  # past tense\n    def will_be_allowed(self)  # future tense

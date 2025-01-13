@@ -1,0 +1,1 @@
+ame = ENV['QUERY_STRING'].split('=').last\nputs "Hello, #{name}!"

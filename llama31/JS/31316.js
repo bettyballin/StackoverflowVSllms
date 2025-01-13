@@ -1,0 +1,1 @@
+fetch('/your-endpoint', { keepalive: true })\n  .then(response => {\n    const reader = response.body.getReader();\n    while (true) {\n      const { done, value } = await reader.read();\n      if (done) break;\n      // Process the chunk here...\n    }\n  });

@@ -1,0 +1,1 @@
+if (!$result) {\n    die("Query failed: " . $mysqli->error);\n}

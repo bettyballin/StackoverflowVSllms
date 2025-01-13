@@ -1,0 +1,1 @@
+use Intl\Transliterator;\n\n$text = 'áéíóúàèìòùâêîôûäëïöüñç';\n\n$transliterator = Transliterator::createFromRules(':: Any-Latin; :: Latin-ASCII; :: NFD; :: [:Nonspacing Mark:] Remove; :: NFC;', Transliterator::FORWARD);\n$ transliteratedText = $transliterator->transliterate($text);\n\necho $transliteratedText; // outputs: aeiouaeiouaeiouaeiounc

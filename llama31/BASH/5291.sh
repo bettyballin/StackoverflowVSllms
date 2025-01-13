@@ -1,1 +1,0 @@
-@echo off\nset /p date=Enter date (YYYY-MM-DD): \nbcp "exec YourStoredProcedure '%date%'" queryout "C:\output.csv" -c -S YourServerName -U YourUsername -P YourPassword

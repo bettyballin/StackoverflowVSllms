@@ -1,0 +1,1 @@
+$array = array("key1" => "value1", "key2" => "value2", "key3" => "value3");\n\n$keys = array_keys($array);\n$values = array_values($array);\n\nprint_r($keys);\nprint_r($values);

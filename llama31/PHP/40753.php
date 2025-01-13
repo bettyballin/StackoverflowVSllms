@@ -1,0 +1,1 @@
+$movieFile = 'path/to/your/movie.mov';\n$thumbnailFile = 'path/to/your/thumbnail.jpg';\n\n$cmd = "ffmpeg -i $movieFile -ss 00:00:10 -vframes 1 -s 160x120 $thumbnailFile";\nexec($cmd);

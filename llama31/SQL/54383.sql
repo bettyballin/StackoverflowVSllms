@@ -1,0 +1,1 @@
+CREATE INDEX IX_FieldValues_GroupId ON FieldValues (GroupId) INCLUDE (Id, Value, Created)

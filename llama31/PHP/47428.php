@@ -1,0 +1,1 @@
+$arrayOne = array('0003', '0004', '0005');\n$arrayTwo = array(4, 5, 6);\n\n$arrayTwo = array_map(function($val) {\n    return sprintf('%04d', $val);\n}, $arrayTwo);\n$intersect = array_intersect($arrayOne, $arrayTwo);\n\n// $intersect will be array('0004', '0005')

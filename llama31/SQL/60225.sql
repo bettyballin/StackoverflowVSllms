@@ -1,0 +1,1 @@
+CREATE TABLE movie2person (\n  id INT AUTO_INCREMENT PRIMARY KEY,\n  movieID INT,\n  personID INT,\n  role VARCHAR(255)\n);

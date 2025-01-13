@@ -1,1 +1,0 @@
-table {\n  border-collapse: collapse;\n  width: 100%;\n}\n\nth {\n  position: sticky;\n  top: 0;\n  background-color: white;\n}\n\ntable tbody {\n  overflow-y: auto;\n  height: 200px; /* adjust the height to your needs */\n}

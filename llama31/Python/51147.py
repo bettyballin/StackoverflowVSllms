@@ -1,0 +1,1 @@
+tuples_list = [\n    ('a', 1),\n    ('a', 2),\n    ('a', 3),\n    ('b', 1),\n    ('b', 2),\n    ('c', 1),\n]\n\nresult = {}\nfor key, value in tuples_list:\n    if key not in result:\n        result[key] = []\n    result[key].append(value)\n\nfor key, values in result.items():\n    print(key, *values)

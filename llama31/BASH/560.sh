@@ -1,1 +1,0 @@
-killall -s 9 ProcA_my_collect

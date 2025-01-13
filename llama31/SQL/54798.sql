@@ -1,0 +1,1 @@
+SELECT \n  CASE \n    WHEN t1.Name IS NULL THEN 'Item Inexistent'\n    ELSE t1.Name\n  END AS Name,\n  t2.IntValue\nFROM \n  Table2 t2\n  LEFT JOIN Table1 t1 ON t1.Id = t2.Table1sID

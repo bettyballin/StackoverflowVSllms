@@ -1,1 +1,0 @@
-curl -X POST \\n  https://api.imgix.com/v1/images/upload \\n  -H 'Content-Type: application/json' \\n  -d '{"image": "input.jpg", "width": 800, "height": 600}'

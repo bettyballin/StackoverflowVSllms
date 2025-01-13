@@ -1,0 +1,1 @@
+SELECT p FROM Person p\nWHERE EXISTS (\n  SELECT 1 FROM (SELECT 'Joe' UNION SELECT 'Jane' UNION SELECT 'Bob' UNION SELECT 'Alice') AS names\n  WHERE names.value = p.name\n)

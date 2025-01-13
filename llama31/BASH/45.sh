@@ -1,1 +1,0 @@
-# cron job\n*/5 * * * * /path/to/queue_runner.sh

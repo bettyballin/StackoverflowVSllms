@@ -1,0 +1,1 @@
+ALTER TABLE YourTableName\nADD YourColumnName nvarchar(3000);

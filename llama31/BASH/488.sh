@@ -1,1 +1,0 @@
-mysql -uroot -p -e "SHOW ENGINE INNODB STATUS;"

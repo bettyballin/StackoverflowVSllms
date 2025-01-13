@@ -1,1 +1,0 @@
-var filters = new[] { "*.log", "*.txt", "*.dat" };\nvar files = new List<string>();\n\nforeach (var file in Directory.EnumerateFiles("C:\\", "*.*", SearchOption.AllDirectories))\n{\n    foreach (var filter in filters)\n    {\n        if (file.EndsWith(filter, StringComparison.OrdinalIgnoreCase))\n        {\n            files.Add(file);\n            break;\n        }\n    }\n}

@@ -1,0 +1,1 @@
+SELECT \n    CASE \n        WHEN DATEPART(hh, GETDATE()) > 12 THEN DATEPART(hh, GETDATE()) - 12 \n        WHEN DATEPART(hh, GETDATE()) = 0 THEN 12 \n        ELSE DATEPART(hh, GETDATE()) \n    END AS Hour, \n    CASE \n        WHEN DATEPART(hh, GETDATE()) >= 12 THEN 'PM' \n        ELSE 'AM' \n    END AS AM_PM

@@ -1,0 +1,1 @@
+use PHPUnit\Framework\TestCase;\n\nclass CreateFileLinkTest extends TestCase\n{\n    public function testCreateFileLink()\n    {\n        $result = CreateFileLink();\n        $this->assertRegExp('/\d{2}-\d{2}-\d{2}-\d{2}-\d{2}/', $result);\n    }\n}

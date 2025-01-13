@@ -1,0 +1,1 @@
+CREATE GLOBAL TEMPORARY TABLE temp_table (\n  column1 VARCHAR2(20),\n  column2 NUMBER\n) ON COMMIT DELETE ROWS;\n\nINSERT INTO temp_table (column1, column2)\nSELECT tab1.column1, tab2.column2\nFROM tab1, tab2\nWHERE tab1.key = tab2.fkey;\n\nSELECT * FROM temp_table\nWHERE column1 = 'value';

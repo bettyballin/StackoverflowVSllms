@@ -1,0 +1,1 @@
+SELECT sql_text FROM V$SQL WHERE users_executing > 0;

@@ -1,1 +1,0 @@
-.small-white a {\n    display:block;\n    background:url(images/small-white-left.png) no-repeat left;\n    background:url(images/small-white-sprite.png) right no-repeat; /* add this line */\n    padding:4px 10px 7px 9px;\n    color:#333;\n    text-decoration:none;\n    float:left;\n}

@@ -1,0 +1,1 @@
+SELECT \n    TheXML.TheCookie.query('data(./id)') AS CookieName,\n    SubCookie.SubCookieName\nFROM \n    @XMLData.nodes('//Cookie') AS TheXML(TheCookie)\nCROSS APPLY \n    TheXML.TheCookie.nodes('./*[not(self::id)]') AS SubCookie(SubCookieName)

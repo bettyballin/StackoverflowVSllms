@@ -1,1 +1,0 @@
-echo "define(`SMART_HOST', `localhost')dnl" >> /etc/mail/sendmail.mc\necho "define(`RELAY_MAILER_ARGS', `SMART_HOST')dnl" >> /etc/mail/sendmail.mc\necho "define(`ESMTP_MAILER_ARGS', `SMART_HOST')dnl" >> /etc/mail/sendmail.mc

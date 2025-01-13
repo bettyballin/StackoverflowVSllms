@@ -1,0 +1,1 @@
+$('#sendMessage').submit(function(event) {\n    event.preventDefault();\n    var message = $('#message').val();\n    $.ajax({\n        type: 'POST',\n        url: '/ChatServlet',\n        data: {\n            'message': message\n        },\n        success: function(data) {\n            // handle data\n        }\n    });\n});

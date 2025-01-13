@@ -1,1 +1,0 @@
-#Content {\n    width: 100%;\n    height: auto;\n    text-align: left;\n}\n\nasp:Silverlight {\n    width: 100%;\n    height: auto;\n    min-height: 100vh; /* add this line */\n}

@@ -1,1 +1,0 @@
-DateTime dateTime = new DateTime(2009, 4, 1, 8, 0, 0);\nDateTime dateOnly = dateTime.Date;\n\nConsole.WriteLine(dateOnly.ToString()); // prints 4/1/2009 12:00:00 AM

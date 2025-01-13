@@ -1,1 +1,0 @@
-var errorResponse = MyFunction();\nif (errorResponse != null)\n{\n    // Handle the error, e.g., display a messagebox\n    MessageBox.Show(errorResponse.ErrorMessage);\n}

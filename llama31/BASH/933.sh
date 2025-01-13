@@ -1,1 +1,0 @@
-hg commit -m "Resolved merge conflict"

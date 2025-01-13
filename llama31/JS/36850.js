@@ -1,0 +1,1 @@
+$("#aanmeldForm").submit(function(event){\n    if (!$(this).valid()) {\n        event.preventDefault();\n        return false;\n    }\n    //TODO: some data keeping jobs to be done\n    self.opener.location = 'http://ladosa.com';\n    self.close();\n});

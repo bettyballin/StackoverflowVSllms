@@ -1,0 +1,1 @@
+INSERT INTO timesheet (jobid, datebeginning, dateending)\nVALUES (:jobid, :datebeginning, :dateending)\nON DUPLICATE KEY UPDATE dateending = VALUES(dateending);

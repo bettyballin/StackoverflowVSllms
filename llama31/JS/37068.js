@@ -1,0 +1,1 @@
+const iframe = document.getElementById('yourIframeId');\nconst src = iframe.src;\niframe.src = '';\niframe.src = src;

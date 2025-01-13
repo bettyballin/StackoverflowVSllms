@@ -1,0 +1,1 @@
+var currency = '\u20AC'; // or var currency = '€';

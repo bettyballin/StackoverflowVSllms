@@ -1,0 +1,1 @@
+class Band < ApplicationRecord\n  validates_presence_of :genre\n\n  def validate\n    if genre.blank?\n      # Using errors.add\n      errors.add(:genre, "cannot be blank")\n    end\n\n    if songs.empty?\n      # Using errors.add_to_base\n      errors.add_to_base("Band must have at least one song")\n    end\n  end\nend

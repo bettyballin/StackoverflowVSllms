@@ -1,1 +1,0 @@
-# Compress JavaScript file using Yahoo Compressor\njava -jar yuicompressor-2.4.8.jar script.js -o script.min.js

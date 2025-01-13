@@ -1,0 +1,1 @@
+<?php\n// Turn off output buffering\nob_end_clean();\n\n// Your code here...\nfor ($i = 0; $i < 10; $i++) {\n    echo "Line $i\n";\n    flush(); // Flush the output buffer\n    ob_flush(); // Flush the output buffer (for good measure)\n    sleep(1); // Pause for 1 second\n}\n?>

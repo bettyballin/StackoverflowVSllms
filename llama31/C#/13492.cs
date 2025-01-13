@@ -1,1 +1,0 @@
-protected void Application_Start(object sender, EventArgs e)\n{\n    // Clear static class properties\n    UserInfo.ResetAll();\n}

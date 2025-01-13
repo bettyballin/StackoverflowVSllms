@@ -1,1 +1,0 @@
-schema.ConnectionSchema = "YourSchemaName";

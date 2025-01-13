@@ -1,1 +1,0 @@
-paste -d '\t' input.txt

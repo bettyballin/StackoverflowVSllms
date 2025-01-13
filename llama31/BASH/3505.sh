@@ -1,1 +1,0 @@
-# Compress a file using xz with indexing\nxz --index -c input.txt > compressed.xz\n\n# Extract the last 10 lines of the compressed file\nxz --index -d compressed.xz | tail -n 10

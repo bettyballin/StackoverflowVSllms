@@ -1,0 +1,1 @@
+ALTER TABLE `link_item_store`\n  ADD UNIQUE KEY `unique_item_store` (`fk_itemID`, `fk_storeID`);

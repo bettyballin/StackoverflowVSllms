@@ -1,0 +1,1 @@
+somelist = [1, 2, 3, 4, 5]\nindices_to_delete = [0, 2]\n\n# Remove elements at indices 0 and 2\nfor i in sorted(indices_to_delete, reverse=True):\n    somelist.pop(i)\n\nprint(somelist)  # [2, 4, 5]

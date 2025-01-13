@@ -1,0 +1,1 @@
+Public Enum PhoneticType\n    phonSoundex\n    phonDoubleMetaphone\n    noPhonetic\nEnd Enum

@@ -1,0 +1,1 @@
+function get_total_adults() {\n    $sql = "SELECT SUM(number_adults_attending) as number_of_adults FROM is_nfo_rsvp";\n    $result = mysqli_query($GLOBALS['db_connection'], $sql);\n    return mysqli_fetch_object($result)->number_of_adults;\n}

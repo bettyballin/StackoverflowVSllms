@@ -1,1 +1,0 @@
-using Microsoft.Security.Application;\n\n   string userInput = "Robert'); DROP TABLE Students; --";\n   string sanitizedInput = Encoder.Encode(userInput);\n   Console.WriteLine(sanitizedInput);

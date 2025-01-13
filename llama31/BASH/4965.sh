@@ -1,1 +1,0 @@
-cut -f 1-12 input.txt | paste -d '\t' -

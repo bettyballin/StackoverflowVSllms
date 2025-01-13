@@ -1,0 +1,1 @@
+$bashq = "select term_number from search_terms where term ='$sterm'";\n$bash = mysql_query($bashq);\n\nif (!$bash) {\n    echo mysql_error();\n    exit;\n}\n\nwhile ($brow = mysql_fetch_assoc($bash)) {\n    extract($brow);\n    //put results into array to sum\n    $termarray[] = $term_number;\n}

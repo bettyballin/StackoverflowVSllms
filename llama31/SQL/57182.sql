@@ -1,0 +1,1 @@
+SELECT t.TaskId, COUNT(n.TaskNoteId) AS 'Notes'\nFROM Task t\nLEFT JOIN TaskNote n ON t.TaskId = n.TaskId\nGROUP BY t.TaskId

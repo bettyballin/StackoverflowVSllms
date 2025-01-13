@@ -1,1 +1,0 @@
-public class ShellApplication\n{\n    public event EventHandler<EventArgs> LayoutChanged;\n\n    public void ChangeLayout()\n    {\n        // Raise the event\n        LayoutChanged?.Invoke(this, EventArgs.Empty);\n    }\n}

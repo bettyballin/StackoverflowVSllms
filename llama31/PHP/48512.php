@@ -1,0 +1,1 @@
+http_response_code(404); // or any other error code\nheader('Content-Length: 0');\nexit;

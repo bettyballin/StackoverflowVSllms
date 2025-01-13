@@ -1,1 +1,0 @@
-using System.IO;\n\nstring tempFilesPath = Path.Combine(RuntimeEnvironment.GetRuntimeDirectory(), "Temporary ASP.NET Files");\nDirectory.Delete(tempFilesPath, true);

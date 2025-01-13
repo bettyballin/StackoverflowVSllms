@@ -1,0 +1,1 @@
+$string = "O'Reilly";\n$escaped_string = mysql_real_escape_string($string);\necho $escaped_string; // Output: O\'Reilly (but also considers character set)

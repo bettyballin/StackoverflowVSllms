@@ -1,0 +1,1 @@
+CREATE TABLE events (\n  event_time TIMESTAMP(3)  -- 3 is the precision for milliseconds\n);\n\nINSERT INTO events (event_time) VALUES (SYSTIMESTAMP);

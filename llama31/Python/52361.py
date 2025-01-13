@@ -1,0 +1,1 @@
+import operator\n\nchars = #some list\n\nindx = operator.indexOf(chars, chars) if chars in chars else -1\n\nif indx == -1:\n    # doSomething\nelse:\n    # doSomethingElse

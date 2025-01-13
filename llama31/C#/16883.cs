@@ -1,1 +1,0 @@
-public partial class MyPage : Page\n{\n    [WebMethod]\n    public static string RedirectToNewPage()\n    {\n        return JsonConvert.SerializeObject(new { redirectUrl = "newpage.aspx" });\n    }\n}

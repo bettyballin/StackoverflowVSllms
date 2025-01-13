@@ -1,1 +1,0 @@
-QGLWidget* glWidget = new QGLWidget();\n// ... render something ...\nglWidget->swapBuffers();

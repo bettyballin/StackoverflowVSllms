@@ -1,0 +1,1 @@
+function post(div, url, formId) {\n  $('#' + formId).submit(function(e) {\n    e.preventDefault();\n    $.post(url, $(this).serialize(), function(data) {\n      $('#' + div).html(data);\n    });\n  });\n}

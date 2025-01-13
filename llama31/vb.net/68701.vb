@@ -1,0 +1,1 @@
+Private Sub btnBold_Click(sender As Object, e As EventArgs) Handles btnBold.Click\n    If richTextBox1.SelectionLength > 0 Then\n        Dim font As New Font(richTextBox1.SelectionFont, FontStyle.Bold)\n        richTextBox1.SelectionFont = font\n    End If\nEnd Sub

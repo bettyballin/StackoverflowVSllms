@@ -1,1 +1,0 @@
-$queueName = "MyQueue"\n$identity = "NETWORK SERVICE"\n\nGet-MsmqQueue -Name $queueName | Set-MsmqQueue -Permission $identity -Allow FullControl

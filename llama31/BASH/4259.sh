@@ -1,1 +1,0 @@
-#!/bin/bash\n\n# Pause VMs\nvmware-server -s "VM Name" pause\n\n# Backup images using robocopy or another tool\nrobocopy /source /destination\n\n# Resume VMs\nvmware-server -s "VM Name" resume

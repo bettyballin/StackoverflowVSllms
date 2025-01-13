@@ -1,1 +1,0 @@
-svnadmin dump /path/to/repo > backup.sv

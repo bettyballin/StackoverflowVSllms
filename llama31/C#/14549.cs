@@ -1,1 +1,0 @@
-protected void btnLogout_Click(object sender, EventArgs e)\n{\n    if (Session["LoggedIn"] != null && (bool)Session["LoggedIn"])\n    {\n        Session.Clear();\n        Session.Abandon();\n        Response.Redirect(Request.Url.AbsolutePath); // refresh the current page\n    }\n}

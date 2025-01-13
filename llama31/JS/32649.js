@@ -1,0 +1,1 @@
+var fileInput = document.getElementById("uploadFile");\nvar selected = fileInput.value !== "";

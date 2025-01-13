@@ -1,1 +1,0 @@
-ps -ef --sort=start_time | awk '$5 > 30'

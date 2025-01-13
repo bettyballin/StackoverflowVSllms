@@ -1,1 +1,0 @@
-CFReadStreamRef readStream = ...; // your CFReadStream instance\nSSLContextRef sslContext = NULL;\n\nCFTypeRef sslContextProperty = CFReadStreamCopyProperty(readStream, kCFStreamPropertySSLContext);\nif (sslContextProperty != NULL) {\n    sslContext = (SSLContextRef)sslContextProperty;\n    // Use the sslContext as needed\n    // ...\n    CFRelease(sslContextProperty);\n}

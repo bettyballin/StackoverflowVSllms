@@ -1,0 +1,1 @@
+$utcDate = '2009-06-21 18:21:13'; // Retrieved from database\nsetlocale(LC_ALL, 'en_US.UTF-8'); // Set local timezone to UTC+2\n$localDate = date('D, d M Y H:i:s', strtotime($utcDate));\necho $localDate; // Output: Sun, 21 Jun 2009 20:21:13

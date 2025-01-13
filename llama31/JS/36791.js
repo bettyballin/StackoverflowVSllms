@@ -1,0 +1,1 @@
+function OnSucceeded(result) {\n    tb_show('My Thickbox', '#TB_inline?height=200&width=300&inlineId=myThickboxContent', '');\n    $('#myThickboxContent').html(result);\n}

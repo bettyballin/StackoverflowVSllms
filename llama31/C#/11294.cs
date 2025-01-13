@@ -1,1 +1,0 @@
-public void AddTask(Task task)\n{\n    TaskListLinqDataContext db = new TaskListLinqDataContext();\n    task.EntryDate = DateTime.Now;\n    task.IsCompleted = false;\n    db.Tasks.InsertOnSubmit(task);\n    db.SubmitChanges();\n}

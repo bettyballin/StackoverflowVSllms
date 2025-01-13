@@ -1,0 +1,1 @@
+try {\n    $db->beginTransaction();\n    $albumId = createAlbum();\n    insertPhoto($albumId);\n    $db->commit();\n} catch (PDOException $e) {\n    $db->rollBack();\n    // handle error\n}

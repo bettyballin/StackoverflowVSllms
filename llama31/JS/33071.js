@@ -1,0 +1,1 @@
+var odv = $("<div style='display:none;'></div>");\nthis.OuterDiv = odv;\n\nvar t = $("<table cellspacing='0' class='text'></table>");\nodv.append(t);

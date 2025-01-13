@@ -1,0 +1,1 @@
+CREATE PROCEDURE `blah`(\n  myParam int\n)\nBEGIN\n  IF myParam IS NULL THEN\n    SET myParam = 0;\n  END IF;\n  -- Do something here\nEND

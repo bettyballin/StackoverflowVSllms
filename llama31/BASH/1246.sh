@@ -1,1 +1,0 @@
-# Install Xen on your system (e.g., Ubuntu)\nsudo apt-get install xen-hypervisor\n\n# Create a new VM\nsudo xen-create-image --hostname=myvm --size=10Gb --swap=1Gb --vcpus=2 --memory=2048Mb\n\n# Start the VM\nsudo xm create myvm

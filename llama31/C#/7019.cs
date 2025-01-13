@@ -1,1 +1,0 @@
-public static int SumOfDigits(int n)\n{\n    var sum = 0;\n    while (n > 0)\n    {\n        sum += n % 10;\n        n /= 10;\n    }\n    return sum;\n}

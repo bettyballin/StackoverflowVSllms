@@ -1,1 +1,0 @@
-protected void Page_Load(object sender, EventArgs e)\n{\n    string domainName = Request.QueryString["domain"];\n    string cssFile = GetCssFile(domainName);\n    Response.Write("<link rel='stylesheet' type='text/css' href='" + cssFile + "'>");\n}

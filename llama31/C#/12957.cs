@@ -1,1 +1,0 @@
-var htmlDoc = new HtmlDocument();\nhtmlDoc.LoadHtml(html);\n\nvar imgNode = htmlDoc.DocumentNode.SelectSingleNode("//div[@id='topslot']/a/img");\nvar srcValue = imgNode.GetAttributeValue("src", string.Empty);\n\nConsole.WriteLine(srcValue);

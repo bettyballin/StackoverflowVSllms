@@ -1,1 +1,0 @@
-using (var writer = new System.IO.StreamWriter(Application.StartupPath + @"\B323.txt"))\n{\n    writer.Write(Encoding.UTF8.GetString(data));\n}

@@ -1,1 +1,0 @@
-stunnel -d 443 -r 3000 -p stunnel.pem -c stunnel.conf

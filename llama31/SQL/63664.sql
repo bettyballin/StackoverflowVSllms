@@ -1,0 +1,1 @@
+ALTER AUTHORIZATION ON DATABASE::[database_name] TO sa;

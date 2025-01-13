@@ -1,0 +1,1 @@
+class DB {\n  private static $conn = 'Connection';\n\n  public static function getConnection() {\n    return self::$conn;\n  }\n}\n\nclass User {\n  function __construct() {\n    $dbConn = DB::getConnection(); // Securely accessing the static variable through a getter\n    // Use $dbConn as needed\n  }\n}

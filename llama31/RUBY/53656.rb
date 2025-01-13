@@ -1,0 +1,1 @@
+# config/initializers/default_region.rb\n\nmodule DefaultRegion\n  def self.get\n    @@default_region ||= Region.find_by_uri("whistler")\n  end\nend

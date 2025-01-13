@@ -1,0 +1,1 @@
+function secure_rand($min, $max) {\n    $range = $max - $min;\n    $bytes = random_bytes(4); // 4 bytes = 32 bits\n    $random_int = unpack('N', $bytes)[1];\n    return $min + ($random_int % ($range + 1));\n}

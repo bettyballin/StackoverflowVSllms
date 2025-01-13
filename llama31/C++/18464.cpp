@@ -1,1 +1,0 @@
-#include <iostream>\n\n// JVM class definition\nclass JVM {\npublic:\n    void executeBytecode() {\n        // Fetch, decode, and execute bytecode\n    }\n\n    void garbageCollect() {\n        // Reclaim memory occupied by unused objects\n    }\n};\n\nint main() {\n    JVM jvm;\n    jvm.executeBytecode();\n    jvm.garbageCollect();\n    return 0;\n}

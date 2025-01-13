@@ -1,0 +1,1 @@
+use Symfony\Component\Lock\LockFactory;\nuse Symfony\Component\Lock\LockInterface;\n\n$lockFactory = new LockFactory();\n$lock = $lockFactory->createLock('your-lock-name');\n\n$lock->acquire();\n\n// Perform your file write operations here\n\n$lock->release();

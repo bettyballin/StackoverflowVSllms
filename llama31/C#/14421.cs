@@ -1,1 +1,0 @@
-List<int> list = new List<int> { 1, 3, 5 };\nConsole.WriteLine(string.Join("\t", list));

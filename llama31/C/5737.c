@@ -1,1 +1,0 @@
-#include <stdio.h>\n#include <limits.h>\n\n#define DELTA 1e-8\n\nint main() {\n    double d = 0;\n    long i;\n\n    for (i = 0L; i < LONG_MAX; i++) {\n        d = (double)i; // Explicit cast for clarity\n        if (fabs(d - (double)i) > DELTA) {\n            printf("%f\n", d);\n            break;\n        }\n    }\n\n    return 0;\n}

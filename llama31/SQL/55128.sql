@@ -1,0 +1,1 @@
+-- Write unit tests for database code\nCREATE PROCEDURE test_get_customer\nAS\nBEGIN\n  DECLARE @customer_id INT = 1;\n  DECLARE @expected_name VARCHAR(255) = 'John Doe';\n  DECLARE @actual_name VARCHAR(255);\n  \n  EXEC get_customer @customer_id, @actual_name OUTPUT;\n  \n  IF @actual_name <> @expected_name\n    RAISERROR ('Test failed', 16, 1);\nEND;

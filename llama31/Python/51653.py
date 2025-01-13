@@ -1,0 +1,1 @@
+import time\n\ndef main():\n    # your irc bot code here\n\nmax_restarts = 5\nrestarts = 0\n\nwhile True:\n    try:\n        main()\n    except Exception as e:\n        print(f"Error: {e}")\n        restarts += 1\n        if restarts > max_restarts:\n            break\n        time.sleep(1)  # wait for 1 second before restarting

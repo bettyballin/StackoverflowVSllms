@@ -1,0 +1,1 @@
+CREATE PROCEDURE GetNonSystemDatabases\n    @servername nvarchar(128)\nAS\nBEGIN\n    DECLARE @sql nvarchar(MAX)\n    SET @sql = N'SELECT name FROM ' + QUOTENAME(@servername) + N'.master.sys.databases\n                 WHERE name NOT IN (''master'', ''tempdb'', ''msdb'', ''model'', ''Admin'')'\n\n    EXEC sp_executesql @sql\nEND

@@ -1,1 +1,0 @@
-StringBuilder sb = new StringBuilder();\nsb.Append(FirstName.PadRight(10));\nsb.Append(LastName.PadRight(10));\nsb.Append(Address.PadRight(20));\nsb.Append(City.PadRight(10));\nsb.Append(State.PadRight(2));\nsb.Append(Zip.PadRight(5));\n\nstring fixedLengthString = sb.ToString();

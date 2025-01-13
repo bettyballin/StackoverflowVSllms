@@ -1,0 +1,1 @@
+DECLARE\n  l_clob CLOB;\n  l_file UTL_FILE.FILE_TYPE;\nBEGIN\n  l_clob := DBMS_METADATA.GET_DDL('PACKAGE', 'YOUR_PACKAGE_NAME');\n  l_file := UTL_FILE.FOPEN('YOUR_DIRECTORY', 'YOUR_PACKAGE_NAME.sql', 'W');\n  UTL_FILE.PUT(l_file, l_clob);\n  UTL_FILE.FCLOSE(l_file);\nEND;

@@ -1,0 +1,1 @@
+products = Product.objects.filter(categories=cat).prefetch_related('productrank_set')

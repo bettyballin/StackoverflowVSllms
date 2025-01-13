@@ -1,1 +1,0 @@
-#contentBody {\n  width: N%; /* replace with your desired width */\n}\n\n#contentLeft {\n  width: 205px;\n  float: left;\n}\n\n#contentRight {\n  overflow: hidden;\n  float: none; /* cancel float */\n}

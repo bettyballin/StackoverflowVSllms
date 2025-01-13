@@ -1,0 +1,1 @@
+$sock = socket_create(AF_INET, SOCK_DGRAM, SOL_UDP);\nsocket_bind($sock, '0.0.0.0', $port);\nwhile (1) {\n    $buf = socket_recvfrom($sock, $data, 200, 0, $address, $port);\n    echo $data;\n}

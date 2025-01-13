@@ -1,0 +1,1 @@
+function sanitizeInput(input) {\n    return input.replace(/[^a-zA-Z0-9]/g, '');\n}\n\nvar userInput = 'example input';\nvar sanitizedInput = sanitizeInput(userInput);

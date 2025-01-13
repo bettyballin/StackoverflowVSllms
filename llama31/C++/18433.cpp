@@ -1,1 +1,0 @@
-IEnumUnkPtr pEnumUnk;\n// ...something that fills in pEnumUnk...\n\nComEnumIterator<IUnknown*> m(pEnumUnk);\nstd::for_each(m.begin(), m.end(), DoSomethingWithUnk);

@@ -1,1 +1,0 @@
-echo "Hello, World!" | sed 's/World/sed/'

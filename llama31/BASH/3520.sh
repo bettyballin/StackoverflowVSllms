@@ -1,1 +1,0 @@
-clamdscan --stdout --quiet file.pdf

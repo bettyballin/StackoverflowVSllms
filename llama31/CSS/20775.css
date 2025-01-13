@@ -1,1 +1,0 @@
-.cropped-image {\n  clip-path: inset(10% 10% 10% 10%);\n}\n\n/* Or for more precise control */\n.clip-path-absolute {\n  position: absolute;\n  clip-path: polygon(0 0, 100px 0, 100px 100px, 0 100px);\n}

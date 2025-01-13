@@ -1,1 +1,0 @@
-using System;\nusing System.Runtime.InteropServices;\n\nnamespace MyCSharpProject\n{\n    class Program\n    {\n        [DllImport("MyVCPPAssembly")]\n        public static extern void MyVCPPMethod();\n\n        static void Main(string[] args)\n        {\n            MyVCPPMethod();\n        }\n    }\n}

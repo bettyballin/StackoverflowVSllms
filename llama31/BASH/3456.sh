@@ -1,1 +1,0 @@
-# Set read-only permission for a user on a specific file\nsvn acl --set-user --username user1 --read-only /path/to/file.txt\n\n# Set read-write permission for a group on a specific directory\nsvn acl --set-group --group-name group1 --read-write /path/to/directory

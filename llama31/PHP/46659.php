@@ -1,0 +1,1 @@
+$dom = new DOMDocument();\n$dom->loadHTML(ob_get_contents());\n$dom->formatOutput = true;\necho $dom->saveHTML();

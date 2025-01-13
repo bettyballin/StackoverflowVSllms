@@ -1,1 +1,0 @@
-cdb -p <pid> -c "bp gdi32!CreateDCW; k"

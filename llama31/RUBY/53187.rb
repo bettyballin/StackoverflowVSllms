@@ -1,0 +1,1 @@
+article.created_at.strftime("%Y-%m-%d")  # Output: "2009-04-12"

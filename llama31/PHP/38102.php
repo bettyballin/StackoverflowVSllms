@@ -1,0 +1,1 @@
+setcookie('dbname', 'my_database', time() + 3600); // expires in 1 hour

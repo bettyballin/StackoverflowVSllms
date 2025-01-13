@@ -1,0 +1,1 @@
+$array = array(\n    1 => array("comment_id" => "1", "erasable" => "1", "comment" => "test 1"),\n    2 => array("comment_id" => "2", "erasable" => "1", "comment" => "test 1"),\n    3 => array("comment_id" => "3", "erasable" => "1", "comment" => "jhghjg"),\n);\n\n$array = array_values($array); // reset array keys\n$json = json_encode($array);\n\necho $json;

@@ -1,1 +1,0 @@
-doxygen -d WARN_IF_UNDOCUMENTED your_file.cpp

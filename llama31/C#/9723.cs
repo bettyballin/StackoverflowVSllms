@@ -1,1 +1,0 @@
-// Get the HtmlElement from the WebBrowser control\nHtmlElement htmlElement = webBrowser1.Document.Body;\n\n// Set the InnerHtml property of the HtmlElement to the OuterHtml property of the HtmlNode tree\nhtmlElement.InnerHtml = root.OuterHtml;

@@ -1,0 +1,1 @@
+var xhr = new XMLHttpRequest();\nxhr.open('GET', 'https://api.google.com/your-api-endpoint', true);\nxhr.onload = function() {\n  if (xhr.status === 200) {\n    alert(xhr.responseText);\n  }\n};\nxhr.send();

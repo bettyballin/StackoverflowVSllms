@@ -1,0 +1,1 @@
+AND LOWER(e.drivers) LIKE CONCAT('%', LOWER('jill'), '%');

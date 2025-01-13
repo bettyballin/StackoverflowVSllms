@@ -1,1 +1,0 @@
-ftp> unlink filename

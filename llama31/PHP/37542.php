@@ -1,0 +1,1 @@
+// index.php\nrequire_once './config.php';

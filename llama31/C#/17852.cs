@@ -1,1 +1,0 @@
-int startIndex = KMP(response, startMatchString);\nif (startIndex != -1)\n{\n    int endIndex = KMP(response.Substring(startIndex + startMatchString.Length), endMatchString);\n    if (endIndex != -1)\n    {\n        string result = response.Substring(startIndex + startMatchString.Length, endIndex);\n        // Process the result\n    }\n}

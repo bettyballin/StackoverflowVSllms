@@ -1,1 +1,0 @@
-ul {\n  display: flex;\n  flex-wrap: wrap;\n  justify-content: space-between;\n}\n\nli {\n  flex-basis: 0;\n  flex-grow: 1;\n  border: 1px solid #ccc;\n  margin: 10px;\n}

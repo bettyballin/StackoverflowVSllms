@@ -1,0 +1,1 @@
+public function output(array $vars = array())\n{\n    if (count($this->_vars)) {\n        extract($this->_vars, EXTR_REFS);\n    }\n    if (count($vars)) {\n        extract($vars, EXTR_REFS);\n    }\n    require($this->_file);\n    exit;\n}

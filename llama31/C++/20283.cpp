@@ -1,1 +1,0 @@
-// constants.h (C++17 or later)\n#ifndef CONSTANTS_H\n#define CONSTANTS_H\n\nconstexpr std::string_view str1 = "message1";\nconstexpr std::string_view str2 = "message2";\nconstexpr std::string_view str3 = "message3";\n\n#endif  // CONSTANTS_H

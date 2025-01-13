@@ -1,0 +1,1 @@
+// Define a validation rule\n$validator = new WASP_Validate_Rule('username', 'required', 'Invalid username');\n\n// Validate user input\nif ($validator->isValid($_POST['username'])) {\n    // Username is valid\n} else {\n    // Handle invalid input\n}

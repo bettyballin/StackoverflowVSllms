@@ -1,0 +1,1 @@
+require_once 'Zend/Dojo.php';\n\n$dojo = new Zend_Dojo();\n$dojo->enable();\n\n// use Dojo's loader to load dojo modules\n$dojo->requireModule('dojo.widget.*;\n\n// use Dojo's widgets\n$dojo->addWidget('Button', 'myButton', array('label' => 'Click me!'));

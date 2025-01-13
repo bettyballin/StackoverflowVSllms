@@ -1,0 +1,1 @@
+const socket = new WebSocket('ws://example.com');\n\nsocket.onmessage = (event) => {\n  console.log(`Received message: ${event.data}`);\n};\n\nsocket.onopen = () => {\n  socket.send('Hello, server!');\n};\n\nsocket.onclose = () => {\n  console.log('Connection closed');\n};\n\nsocket.onerror = (error) => {\n  console.log(`Error occurred: ${error}`);\n};

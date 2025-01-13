@@ -1,0 +1,1 @@
+from django.db.models import F\n\ncomments = django_comments.objects.annotate(\n    image_path=F('user__myapp_profile__image_path')\n).values('user_id', 'image_path', 'comment')

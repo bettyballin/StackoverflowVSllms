@@ -1,1 +1,0 @@
-string[] files = Directory.GetFiles(rootFolder, "*.xml");\n\nforeach (string file in files)\n{\n    string otherFile = Path.Combine(otherFolder, Path.GetFileName(file));\n    File.Copy(file, otherFile, true); // overwrite existing file if it exists\n}

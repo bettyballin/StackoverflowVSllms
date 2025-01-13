@@ -1,0 +1,1 @@
+guid = "{xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx}"\nprint(len(guid))  # Output: 38

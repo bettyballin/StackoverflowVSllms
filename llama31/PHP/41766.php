@@ -1,0 +1,1 @@
+$data = mysql_query("\n  SELECT t1.* \n  FROM tblpm t1 \n  JOIN (\n    SELECT thread_id, MAX(date_sent) as max_date_sent \n    FROM tblpm \n    GROUP BY thread_id\n  ) t2 \n  ON t1.thread_id = t2.thread_id AND t1.date_sent = t2.max_date_sent \n  WHERE t1.receiver_id = '$usrID' \n  ORDER BY t1.id DESC\n") or die(mysql_error());

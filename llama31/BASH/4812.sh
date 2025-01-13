@@ -1,1 +1,0 @@
-set TNS_ADMIN=C:\Oracle\product\10.2.0\client_2\network\admi

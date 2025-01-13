@@ -1,0 +1,1 @@
+var gmap = {\n    add: function(){\n        alert('add');\n        return this;\n    }\n}\n\nvar test = gmap.add();

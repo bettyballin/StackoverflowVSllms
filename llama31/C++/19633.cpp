@@ -1,1 +1,0 @@
-HRESULT hr = RegisterTypeLibraryForUser(\n    // Path to the type library file\n    L"C:\\Path\\To\\Your\\TypeLibrary.tlb",\n    // GUID of the type library\n    &guid,\n    // Major version number\n    1,\n    // Minor version number\n    0,\n    // Locale ID (LCID)\n    0x0409,\n    // Reserved, must be NULL\n    NULL\n);

@@ -1,0 +1,1 @@
+Public Class UtilityClass\n    Public Shared Sub Method1()\n        ' implementation\n    End Sub\n\n    Public Shared Sub Method2()\n        ' implementation\n    End Sub\n\n    Public Shared Sub Method3()\n        ' implementation\n    End Sub\nEnd Class

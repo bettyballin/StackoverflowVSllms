@@ -1,0 +1,1 @@
+<dependency>\n    <groupId>org.fusesource.jansi</groupId>\n    <artifactId>jansi</artifactId>\n    <version>1.18</version>\n</dependency>

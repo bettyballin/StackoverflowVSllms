@@ -1,0 +1,1 @@
+var flashContainer = document.getElementById('flash-container');\n\nflashContainer.addEventListener('wheel', function(event) {\n  event.stopPropagation();\n  event.preventDefault();\n}, false);

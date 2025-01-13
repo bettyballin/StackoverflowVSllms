@@ -1,0 +1,1 @@
+SELECT is_fixed_length\nFROM sys.types\nWHERE name = 'nvarchar';

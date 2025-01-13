@@ -1,1 +1,0 @@
-__kernel void mimd_kernel(__global float *data) {\n    int id = get_global_id(0);\n    if (id % 2 == 0) {\n        // Perform instruction 1 on data\n    } else {\n        // Perform instruction 2 on data\n    }\n}

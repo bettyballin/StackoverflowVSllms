@@ -1,0 +1,1 @@
+INSERT INTO your_table_name (lastModifiedTime)\nVALUES (NOW());

@@ -1,1 +1,0 @@
-ping -c 1 -w 1 <server_ip>

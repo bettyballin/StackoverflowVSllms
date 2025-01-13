@@ -1,0 +1,1 @@
+def distribute_votes(Ta, Tb, a):\n    # ... (rest of the code remains the same)\n    \n    # Filter out zero votes\n    b = [bi for bi in b if bi > 0]\n    \n    return b

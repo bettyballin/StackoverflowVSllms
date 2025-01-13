@@ -1,0 +1,1 @@
+CREATE NONCLUSTERED INDEX IX_types_typeName\nON types (typeName)\nINCLUDE (typeName);

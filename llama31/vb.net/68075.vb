@@ -1,0 +1,1 @@
+Dim parser\nSet parser = New CSVParser\nparser.Initialize "path\to\your\file.csv"\n\nDo While Not parser.inputFile.AtEndOfStream\n    Dim fields\n    fields = parser.ReadLine\n    ' Process fields here\nLoop\n\nparser.Close

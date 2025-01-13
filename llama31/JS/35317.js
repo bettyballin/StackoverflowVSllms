@@ -1,0 +1,1 @@
+// Add the DynaTrace AJAX Edition bookmarklet to your page\njavascript:(function(){var dt=new Date().getTime();var url='http://ajax.dynatrace.com/';var s=document.createElement('script');s.src=url+'dynaTrace AJAX Edition'+(dt?'?'+dt:'');void(document.body.appendChild(s));})();

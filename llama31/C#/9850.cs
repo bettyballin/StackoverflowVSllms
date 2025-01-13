@@ -1,1 +1,0 @@
-// Assume you have a strongly-typed dataset called MyDataset\nMyDataset ds = new MyDataset();\n\n// You can use the dataset without needing the XSD file\nds.Tables.Add("MyTable");\nds.Tables["MyTable"].Columns.Add("MyColumn");

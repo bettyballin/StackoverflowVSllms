@@ -1,1 +1,0 @@
-foreach (var group in PersonList.GroupBy(p => p.Employer))\n{\n    doSomething(); // called once per group\n    foreach (var person in group)\n    {\n        // more code\n    }\n}

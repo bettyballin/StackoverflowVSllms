@@ -1,1 +1,0 @@
-Excel.Application xlApp = new Excel.Application();\nxlApp.Visible = false;\nxlApp.ScreenUpdating = false;\nxlApp.DisplayAlerts = false;\nExcel.Worksheet worksheet;\n\n// ...\n\n// Use the AddPicture method instead of Pictures.Insert\nworksheet.Shapes.AddPicture(filename, Microsoft.Office.Core.MsoTriState.msoFalse, Microsoft.Office.Core.MsoTriState.msoTrue);

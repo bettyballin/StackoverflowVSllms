@@ -1,0 +1,1 @@
+-- Restore database\nSOURCE /path/to/backupfile.sql;

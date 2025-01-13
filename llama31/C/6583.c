@@ -1,1 +1,0 @@
-#include <stdio.h>\n#include <stdlib.h>\n\nint main() {\n    FILE *handle = fopen("test.txt", "w");\n    if (!handle) {\n        printf("Error opening file.\n");\n        return 1;\n    }\n\n    // Your code here...\n\n    fclose(handle);\n    return 0;\n}

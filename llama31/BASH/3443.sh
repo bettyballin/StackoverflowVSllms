@@ -1,1 +1,0 @@
-adsutil set SMTPSvc/1/SuppressBounceMessages TRUE

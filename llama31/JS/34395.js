@@ -1,0 +1,1 @@
+var obj = new Object();\nobj.a = 1;\nobj.b = 2;\nobj.c = 3;\n\nvar count = Object.entries(obj).length;\nconsole.log(count); // outputs 3

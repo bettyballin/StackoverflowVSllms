@@ -1,0 +1,1 @@
+function custom_preview_link($link, $post) {\n    // Check if the post is a page and has a specific ID (e.g. 2)\n    if ($post->post_type == 'page' && $post->ID == 2) {\n        // Return a custom preview link\n        return 'http://www.site.com/contact.php';\n    }\n    return $link;\n}\nadd_filter('preview_post_link', 'custom_preview_link', 10, 2);

@@ -1,1 +1,0 @@
-IPv4InterfaceProperties ipProps = nic.GetIPProperties();\nArpEntry[] arpEntries = ipProps.GetArpEntries();

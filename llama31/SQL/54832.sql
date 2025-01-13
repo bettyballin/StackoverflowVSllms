@@ -1,0 +1,1 @@
+regexp_replace(location,\n  '([,\s\.\-]*PCIA\. BS\. AS[,\s\.\-]*|\n   [,\s\.\-]*BUENOS\. AIRES[,\s\.\-]*$|\n   [,\s\.\-]*BS\. AS[,\s\.\-]*$|\n   [,\s\.\-]*P\.B\.A[,\s\.\-]*$)', '')

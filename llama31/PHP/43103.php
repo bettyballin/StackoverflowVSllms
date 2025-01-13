@@ -1,0 +1,1 @@
+function processArray($array) {\n    if (empty($array)) {\n        return;\n    }\n    $value = array_shift($array);\n    // do function with $value\n    processArray($array); // recursive call\n}\n$arrayOne = [...]; // your array\nprocessArray($arrayOne);

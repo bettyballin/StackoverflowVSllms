@@ -1,1 +1,0 @@
-protected void Login_Authenticate(object sender, AuthenticateEventArgs e)\n{\n    // Your authentication logic here\n    // ...\n\n    // Create an authentication cookie\n    FormsAuthentication.SetAuthCookie(username, true);\n\n    // Store the user's information in the cache\n    UserInfoCache.SetUserInfo(username, userID, email);\n}

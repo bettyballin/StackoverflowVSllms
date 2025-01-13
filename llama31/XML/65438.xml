@@ -1,0 +1,1 @@
+<action name="action1" class="com.example.Action1">\n    <result name="success" type="redirectAction">\n        <param name="actionName">action2</param>\n        <param name="param1">${param1}</param>\n    </result>\n</action>\n\n<action name="action2" class="com.example.Action2">\n    <!-- access param1 here -->\n</action>

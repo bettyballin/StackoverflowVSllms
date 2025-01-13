@@ -1,1 +1,0 @@
-#include <unistd.h>\n\n// ...\n\nif (strcmp(stored_hash, input_hash) == 0) {\n    // Correct password\n    return 0;\n} else {\n    // Incorrect password\n    usleep(100000); // 100ms delay\n    return -1;\n}

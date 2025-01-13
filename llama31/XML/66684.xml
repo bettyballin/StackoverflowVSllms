@@ -1,0 +1,1 @@
+<rewrite>\n  <rules>\n    <rule name="CustomDomainRewrite" stopProcessing="true">\n      <match url="(.*)" />\n      <conditions>\n        <add input="{HTTP_HOST}" pattern="^(.*)\.yourdomain\.com$" />\n      </conditions>\n      <action type="Rewrite" url="http://yourdomain.com/{R:1}" />\n    </rule>\n  </rules>\n</rewrite>

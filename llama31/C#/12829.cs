@@ -1,1 +1,0 @@
-using System.Text.RegularExpressions;\n\npublic bool IsValidVBString(string input)\n{\n    string pattern = "^\"(?:[^\"]|\"{2})*\"$";\n    return Regex.IsMatch(input, pattern);\n}

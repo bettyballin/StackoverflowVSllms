@@ -1,1 +1,0 @@
-#mainBody {\n  display: grid;\n  grid-template-columns: 150px 1fr;\n}\n\n#leftNav {\n  grid-column: 1;\n  height: 800px;\n  border: 2px solid #777;\n  background-color: #FF9;\n}\n\n#bodyContent {\n  grid-column: 2;\n  border: 2px solid #707;\n  background-color: #AAA;\n  overflow: hidden;\n}

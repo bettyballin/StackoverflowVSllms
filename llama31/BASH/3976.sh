@@ -1,1 +1,0 @@
-par2 create -r10 /path/to/file.txt

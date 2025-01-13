@@ -1,1 +1,0 @@
-gvcol.DisplayMemberBinding = new Binding(col.ColumnName) { StringFormat = "{0:d}" };

@@ -1,1 +1,0 @@
-public class FirstNameValidationRule : ValidationRule\n{\n    public override ValidationResult Validate(object value, CultureInfo cultureInfo)\n    {\n        if (string.IsNullOrEmpty(value as string))\n        {\n            return new ValidationResult(false, "FirstName cannot be null or empty!");\n        }\n        return ValidationResult.ValidResult;\n    }\n}

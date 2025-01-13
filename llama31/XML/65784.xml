@@ -1,0 +1,1 @@
+<Host name="localhost" appBase="webapps" unpackWARs="true" autoDeploy="true">\n    <Alias>www.example.com</Alias>\n    <Alias>192.168.1.100</Alias>\n    <Alias>10.0.0.100</Alias>\n</Host>

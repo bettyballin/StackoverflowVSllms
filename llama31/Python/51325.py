@@ -1,0 +1,1 @@
+def find_solution(A, B, max_length):\n    def concat(seq, idx):\n        return ''.join(seq[i] for i in idx)\n\n    for length in range(1, max_length + 1):\n        for idx in itertools.product(range(len(A)), repeat=length):\n            if concat(A, idx) == concat(B, idx):\n                return idx\n    return None

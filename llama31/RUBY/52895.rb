@@ -1,0 +1,1 @@
+render :partial => 'control', :locals => { :control => control }

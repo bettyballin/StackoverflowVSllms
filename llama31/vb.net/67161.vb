@@ -1,0 +1,1 @@
+Public Interface IErrorHandlingControl\n    Event CustomErrorOccurred As EventHandler(Of CustomErrorEventArgs)\nEnd Interface\n\nPublic Class CustomErrorEventArgs\n    Inherits EventArgs\n    Public ReadOnly Property Exception As Exception\n    Public Sub New(exception As Exception)\n        Me.Exception = exception\n    End Sub\nEnd Class

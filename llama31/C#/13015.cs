@@ -1,1 +1,0 @@
-using System.ComponentModel;\n\npublic enum EnumWithSpaces\n{\n    [Description("Constant Without Spaces")]\n    ConstantWithoutSpaces,\n\n    [Description("Constant With Spaces")]\n    ConstantWithSpaces\n}

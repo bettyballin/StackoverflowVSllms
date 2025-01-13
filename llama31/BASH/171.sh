@@ -1,1 +1,0 @@
-ilmerge /target:winexe /out:MergedAssembly.exe \n        YourAssembly.exe AxInterop.WMPLib.dll Interop.WMPLib.dll

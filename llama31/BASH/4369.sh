@@ -1,1 +1,0 @@
-pdfgrep -i keyword file.pdf

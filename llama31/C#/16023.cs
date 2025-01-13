@@ -1,1 +1,0 @@
-[Column(IsDbGenerated = true, IsPrimaryKey = false, AutoSync = AutoSync.OnInsert)]\npublic bool MyBitField { get; set; }\n\n[Column(IsDbGenerated = true, IsPrimaryKey = false, AutoSync = AutoSync.OnInsert)]\npublic DateTime MySmallDateTimeField { get; set; }

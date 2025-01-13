@@ -1,1 +1,0 @@
-public class CustomViewPage<TModel> : ViewPage<TModel>\n{\n    protected override void SetViewData(ViewDataDictionary viewData)\n    {\n        base.SetViewData(new CustomViewDataDictionary(viewData.Model));\n    }\n}

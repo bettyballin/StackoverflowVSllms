@@ -1,0 +1,1 @@
+class User < ApplicationRecord\n  has_many :messages\n\n  def message_count\n    Rails.cache.fetch("user_#{id}_message_count", expires_in: 1.hour) do\n      messages.count\n    end\n  end\nend

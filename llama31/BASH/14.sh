@@ -1,1 +1,0 @@
-systemctl list-units\nsystemctl enable <service>\nsystemctl disable <service>

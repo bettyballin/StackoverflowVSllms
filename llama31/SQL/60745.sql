@@ -1,0 +1,1 @@
+CREATE TABLE country_codes (\n  code CHAR(2) PRIMARY KEY,\n  country_name VARCHAR(50)\n);

@@ -1,1 +1,0 @@
-curl -s -H "Range: bytes=-1000" http://example.com

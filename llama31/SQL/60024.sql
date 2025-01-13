@@ -1,0 +1,1 @@
+CREATE UNIQUE INDEX UX_ColumnA_ColumnB ON MyTable (ColumnA, ColumnB);

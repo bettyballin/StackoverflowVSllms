@@ -1,0 +1,1 @@
+pg_prepare($pgconn, 'insert_null_val', "INSERT INTO my_table (col_a, col_b) VALUES ($1, $2)");\npg_execute($pgconn, 'insert_null_val', array('whatever', null));

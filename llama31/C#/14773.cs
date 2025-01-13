@@ -1,1 +1,0 @@
-ClientScript.RegisterStartupScript(typeof(Page), "defaultButton", "document.getElementById('" + SearchButton.ClientID + "').click();", true);

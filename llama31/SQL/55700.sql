@@ -1,0 +1,1 @@
+UPDATE key_value \nSET value = 'new_theme_name' \nWHERE collection = 'system.theme' \nAND name = 'default';

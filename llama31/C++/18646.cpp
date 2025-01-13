@@ -1,1 +1,0 @@
-for (iter = characters.begin(); iter != characters.end(); iter++) {\n    coords& first = iter->at(0);\n}

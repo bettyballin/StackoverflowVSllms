@@ -1,1 +1,0 @@
-# Example: mounting an NFS share with custom caching options\nmount -o actimeo=30,nocto=dir nfs_server:/share /mnt/nfs

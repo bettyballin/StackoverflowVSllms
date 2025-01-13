@@ -1,1 +1,0 @@
-int main(int argc, char *argv[])\n{\n    unique_ptr<MyClass> ptr(new MyClass());\n    cout << ptr->solution() << endl;\n    return 0;\n}

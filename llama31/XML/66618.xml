@@ -1,0 +1,1 @@
+<httpHandlers>\n    <add verb="*" path="*" type="RestHandler" />\n</httpHandlers>

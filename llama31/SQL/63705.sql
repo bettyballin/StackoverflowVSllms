@@ -1,0 +1,1 @@
+CREATE TABLE ItemType (\n    ItemTypeID INT,\n    ItemType VARCHAR(255),\n    GroupType VARCHAR(255)\n);\n\nCREATE TABLE ItemTable (\n    ItemID INT,\n    ItemTypeID INT,\n    Items INT\n);

@@ -1,0 +1,1 @@
+// Using jQuery UI Dialog\n$('#column-selector').dialog({\n    autoOpen: false,\n    buttons: {\n        "Show": function() {\n            // Code to update your gridview to show selected columns\n            $(this).dialog("close");\n        }\n    }\n});\n\nfunction showColumnSelector() {\n    $('#column-selector').dialog('open');\n}

@@ -1,0 +1,1 @@
+UPDATE people\nSET prize = IF(id = <id>, 'Gold', '')\nWHERE class = (SELECT class FROM people WHERE id = <id>) AND (prize = 'Gold' OR id = <id>);

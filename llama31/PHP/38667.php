@@ -1,0 +1,1 @@
+if(isset($_POST['envoyer'])) {\n    $cours = isset($_POST['cours']) ? $_POST['cours'] : array();\n    $cours = array_map('stripslashes', $cours);\n    $cours = implode(', ', $cours);\n    $msg = 'Cours : '.$cours."\r\n";\n}

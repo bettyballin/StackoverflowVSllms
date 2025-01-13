@@ -1,0 +1,1 @@
+INSERT INTO YourTable (ImageColumn)\nSELECT BulkColumn\nFROM Openrowset (Bulk 'C:\Path\To\Your\Image.jpg', Single_Blob) AS ImageFile

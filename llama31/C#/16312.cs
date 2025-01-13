@@ -1,1 +1,0 @@
-public string ReturnAsCSV(ContactList contactList)\n{\n    StringBuilder sb = new StringBuilder();\n    bool isFirst = true;\n    foreach (Contact c in contactList)\n    {\n        if (!isFirst)\n        {\n            sb.Append(",");\n        }\n        sb.Append(c.Name);\n        isFirst = false;\n    }\n    return sb.ToString();\n}

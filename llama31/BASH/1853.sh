@@ -1,1 +1,0 @@
-# Start a new tmux session\ntmux\n\n# Detach the session (e.g., when the network connection drops)\nCtrl + B, D\n\n# Reattach the session when the network connection is restored\ntmux attach

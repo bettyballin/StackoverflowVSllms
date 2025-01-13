@@ -1,1 +1,0 @@
-lblEmail.Text = Server.HtmlEncode(txtEmail.Text);

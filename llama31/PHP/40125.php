@@ -1,0 +1,1 @@
+use Joomla\CMS\Date\JDate;\n\n$date = new JDate($your_date_string);\n$formatted_date = $date->format(JText::_('DATE_FORMAT_LC1'));

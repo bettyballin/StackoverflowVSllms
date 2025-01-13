@@ -1,0 +1,1 @@
+// Example query using InfluxDB\nSELECT * FROM disk_usage WHERE user = 'john' AND timestamp > now() - 30d

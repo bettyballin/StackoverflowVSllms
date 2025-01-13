@@ -1,1 +1,0 @@
-openssl s_client -connect <server_ip>:<server_port>

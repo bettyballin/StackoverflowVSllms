@@ -1,1 +1,0 @@
-// Create a new Claims Principal\nClaimsPrincipal principal = new ClaimsPrincipal();\n\n// Add the userid claim\nprincipal.AddIdentity(new ClaimsIdentity(new[] { new Claim(ClaimTypes.NameIdentifier, userid) }));\n\n// Store the principal in the HttpContext\nHttpContext.Current.User = principal;

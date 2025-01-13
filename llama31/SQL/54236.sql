@@ -1,0 +1,1 @@
+SELECT ProductName \nFROM Products \nORDER BY COALESCE(Position, 99999999) ASC;

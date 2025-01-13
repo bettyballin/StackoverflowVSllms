@@ -1,0 +1,1 @@
+CREATE TABLE master_ids (id PRIMARY KEY);\n\nINSERT INTO master_ids (id)\nSELECT id FROM table1\nUNION\nSELECT id FROM table2\nUNION\nSELECT id FROM table3;

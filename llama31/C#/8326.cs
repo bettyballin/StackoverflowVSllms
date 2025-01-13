@@ -1,1 +1,0 @@
-Window dialog = new Window();\ndialog.ShowDialog(); // returns null if closed without setting DialogResult

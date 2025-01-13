@@ -1,0 +1,1 @@
+$array = [\n    'Foo' => 'Bar',\n    'Baz' => 'Qux',\n];

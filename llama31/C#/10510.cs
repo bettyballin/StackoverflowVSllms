@@ -1,1 +1,0 @@
-error CS1061: 'Employee' does not contain a definition for 'TotalSales'

@@ -1,1 +1,0 @@
-while inotifywait -r -e modify,create,delete /path/to/local/directory; do\n  rsync -avz /path/to/local/directory/ user@remote-server:/path/to/remote/directory/\ndone

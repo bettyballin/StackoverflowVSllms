@@ -1,0 +1,1 @@
+def thores_hammer(bling = {})\n  hammer_bling = bling\nend\n\nthores_hammer(:rubys => 5, :emeralds => 5, :souls => 333)

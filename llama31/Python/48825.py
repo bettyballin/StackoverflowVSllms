@@ -1,0 +1,1 @@
+class Echo(LineReceiver):\n    # ...\n\n    def rawDataReceived(self, data):\n        print "Received binary data:", data

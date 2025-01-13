@@ -1,1 +1,0 @@
-sqlcmd -S <server_name> -d <database_name> -f <file_name>.sql -C CHECKSYNTAX

@@ -1,0 +1,1 @@
+UPDATE t1\nINNER JOIN t2 ON t1.f1 = t2.f1\nSET t1.f2 = t2.f2

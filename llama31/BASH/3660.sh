@@ -1,1 +1,0 @@
-fsutil usn deletejournal /d c:

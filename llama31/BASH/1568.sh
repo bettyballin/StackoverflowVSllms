@@ -1,1 +1,0 @@
-svn ls https://your-server.com/svn/your-repo/trunk

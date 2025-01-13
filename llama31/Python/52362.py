@@ -1,0 +1,1 @@
+chars = #some list\n\nif chars in chars:\n    indx = chars.index(chars)\n    # doSomethingElse\nelse:\n    indx = -1\n    # doSomething

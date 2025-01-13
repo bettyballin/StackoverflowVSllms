@@ -1,1 +1,0 @@
-fsutil behavior set disablemetadatacaching 1

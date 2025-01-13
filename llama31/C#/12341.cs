@@ -1,1 +1,0 @@
-public class HttpContextCurrentUser : ICurrentUser\n{\n    private readonly IHttpContextAccessor _httpContextAccessor;\n\n    public HttpContextCurrentUser(IHttpContextAccessor httpContextAccessor)\n    {\n        _httpContextAccessor = httpContextAccessor;\n    }\n\n    public string Username => _httpContextAccessor.HttpContext?.User?.Identity?.Name;\n}

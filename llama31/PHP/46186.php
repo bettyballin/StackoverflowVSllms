@@ -1,0 +1,1 @@
+$counter = 0;\nforeach ($xml->post as $post) {\n    echo '...'; // your code here\n    $counter++;\n    if ($counter % 3 == 0) {\n        echo 'image file'; // echo image every 3rd post\n    }\n}

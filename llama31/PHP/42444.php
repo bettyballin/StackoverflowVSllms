@@ -1,0 +1,1 @@
+if (!empty($_POST['var'])) {\n    // var is set, not null, and not empty\n}

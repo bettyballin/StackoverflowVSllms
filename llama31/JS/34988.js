@@ -1,0 +1,1 @@
+/*global ActiveXObject, XMLHttpRequest, alert, handleAjaxResponse*/

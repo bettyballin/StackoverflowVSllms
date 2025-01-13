@@ -1,1 +1,0 @@
-#include <benchmark/benchmark.h>\n\nBENCHMARK_MAIN();

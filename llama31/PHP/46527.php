@@ -1,0 +1,1 @@
+use Symfony\Component\Form\FormFactory;\n\n$formFactory = new FormFactory();\n$form = $formFactory->createBuilder('form')\n    ->add('email', 'email')\n    ->add('name', 'text')\n    ->getForm();

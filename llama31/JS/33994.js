@@ -1,0 +1,1 @@
+$.post("/myajax.php",\n    { "param1": value1, "param2": value2 },\n    function(data, status) {\n        if (status == "success" && data != "") {\n            $("#someid").html(data);\n        }\n    }, "html");

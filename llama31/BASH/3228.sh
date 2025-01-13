@@ -1,1 +1,0 @@
-xperf -on SysProf -stackwalk64 profile

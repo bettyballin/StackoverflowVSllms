@@ -1,1 +1,0 @@
-using System.DirectoryServices;\n\n// Create a new DirectoryEntry object\nDirectoryEntry entry = new DirectoryEntry("LDAP://CN=<username>,DC=example,DC=com");\n\n// Retrieve the objectGUID attribute\nGuid objectGuid = new Guid((byte[])entry.Properties["objectGUID"].Value);

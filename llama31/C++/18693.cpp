@@ -1,1 +1,0 @@
-# In your Visual Studio project settings, not in the code\n/FI"stdafx.h"

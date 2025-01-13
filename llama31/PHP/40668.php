@@ -1,0 +1,1 @@
+<?php\n  $filePath = '/www/site' . $_SERVER['REQUEST_URI'];\n  $finfo = finfo_open(FILEINFO_MIME_TYPE);\n  $mimeType = finfo_file($finfo, $filePath);\n  finfo_close($finfo);\n\n  // Use the $mimeType variable to set the Content-Type header\n  header('Content-Type: ' . $mimeType);\n\n  // Include the requested file\n  include($filePath);\n?>

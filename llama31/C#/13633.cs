@@ -1,1 +1,0 @@
-public static bool IsAValidInteger(string strWholeNumber)\n{\n    int result;\n    return int.TryParse(strWholeNumber, out result);\n}

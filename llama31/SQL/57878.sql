@@ -1,0 +1,1 @@
+BACKUP DATABASE [database_name] TO DISK = 'backup_file_1.bak', DISK = 'backup_file_2.bak', ...;

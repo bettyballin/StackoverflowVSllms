@@ -1,0 +1,1 @@
+SELECT email, REPLACE(email, '@domain.xx', '@domain.yy') AS new_email\nFROM your_table\nWHERE email REGEXP '@domain\.xx$';

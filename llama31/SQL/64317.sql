@@ -1,0 +1,1 @@
+WITH grouped_data AS (\n  SELECT Name, \n         ROW_NUMBER() OVER (ORDER BY ID) - \n         ROW_NUMBER() OVER (PARTITION BY Name ORDER BY ID) AS group_id\n  FROM your_table\n)\nSELECT Name, COUNT(*) AS count\nFROM grouped_data\nGROUP BY Name, group_id\nORDER BY MIN(ID)

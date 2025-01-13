@@ -1,0 +1,1 @@
+$serialized = file_get_contents('cache.ser');\n$array = unserialize($serialized);

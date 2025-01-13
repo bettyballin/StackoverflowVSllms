@@ -1,0 +1,1 @@
+Dim pageSizeDropdown As New DropDownList()\npageSizeDropdown.ID = "pageSizeDropdown"\npageSizeDropdown.DataSource = countList\npageSizeDropdown.DataBind()\npageSizeDropdown.AutoPostBack = True ' Add this line

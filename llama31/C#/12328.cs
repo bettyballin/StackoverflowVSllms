@@ -1,1 +1,0 @@
-using System;\n\npublic class MyClass \n{\n    public DateTime MyTimestamp { get; set; }\n\n    public MyClass() \n    {\n        MyTimestamp = DateTime.Now; // or DateTime.UtcNow for UTC time\n    }\n}

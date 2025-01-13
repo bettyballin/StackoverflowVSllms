@@ -1,1 +1,0 @@
-using System;\n\nclass GuidExample\n{\n    static void Main(string[] args)\n    {\n        Guid guid = Guid.NewGuid();\n\n        Console.WriteLine("GUID with dashes: " + guid.ToString());\n        Console.WriteLine("GUID without dashes: " + guid.ToString("N"));\n    }\n}

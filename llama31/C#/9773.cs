@@ -1,1 +1,0 @@
-public static string EscapeLdapFilter(string value)\n{\n    return value.Replace("\\", "\\5C")\n                 .Replace("*", "\\2A")\n                 .Replace("(", "\\28")\n                 .Replace(")", "\\29")\n                 .Replace("\0", "\\00");\n}

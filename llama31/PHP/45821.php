@@ -1,0 +1,1 @@
+class LoginHandler {\n    public $dbHost, $dbPort, $dbName, $dbUser, $dbPassword, $conn, $dbconn, $username, $passhash_md5;\n\n    function __construct() {\n        // Initialize variables...\n    }\n\n    function login() {\n        // Login logic...\n    }\n}

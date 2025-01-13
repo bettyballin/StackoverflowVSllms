@@ -1,1 +1,0 @@
-sudo ausearch -f -k file_mod -ts recent

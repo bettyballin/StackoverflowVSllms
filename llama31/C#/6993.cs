@@ -1,1 +1,0 @@
-var sessionFactory = Fluently.Configure()\n    .Database(MsSqlConfiguration.MsSql2008.ConnectionString("..."))\n    .Mappings(m => m.FluentMappings.AddFromAssembly(typeof(MyEntity).Assembly))\n    .ExposeConfiguration(cfg => cfg.SetProperty("hibernate.hbm2ddl.auto", "update"))\n    .ExportToConsole();

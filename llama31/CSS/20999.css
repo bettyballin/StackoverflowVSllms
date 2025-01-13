@@ -1,1 +1,0 @@
-.image_block {\n    width: 175px;\n    height: 175px;\n    position: relative;\n    margin: 0 auto;\n}\n\n.image_block a img {\n    position: absolute;\n    bottom: 0;\n    left: 50%;\n    transform: translateX(-50%);\n}

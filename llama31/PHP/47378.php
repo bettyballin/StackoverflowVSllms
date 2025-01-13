@@ -1,0 +1,1 @@
+$dateString = $_POST['date'];\n$epoch = strtotime($dateString);

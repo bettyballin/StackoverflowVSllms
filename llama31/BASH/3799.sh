@@ -1,1 +1,0 @@
-gcc -shared -Wl,--no-as-needed -o libexample.so example.c

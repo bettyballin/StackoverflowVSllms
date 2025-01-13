@@ -1,0 +1,1 @@
+<script>\n    window.onload = function() {\n        var iframe = document.createElement('iframe');\n        iframe.src = '/path/to/your/pdf/generation/page';\n        iframe.onload = function() {\n            iframe.contentWindow.print();\n        };\n        document.body.appendChild(iframe);\n    };\n</script>

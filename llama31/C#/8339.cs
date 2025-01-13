@@ -1,1 +1,0 @@
-Thread thread = new Thread(() =>\n{\n    // Create COM component here\n});\nthread.SetApartmentState(ApartmentState.STA);\nthread.Start();

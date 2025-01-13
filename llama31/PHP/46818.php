@@ -1,0 +1,1 @@
+$sourceUrl = '/blah.html';\n$baseHost = 'http://www.example.com';\n\n$url = http_build_url($baseHost, array('path' => $sourceUrl), HTTP_URL_JOIN_PATH);\n\necho $url; // Outputs: http://www.example.com/blah.html

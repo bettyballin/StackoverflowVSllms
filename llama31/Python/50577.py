@@ -1,0 +1,1 @@
+from colorama import init, Fore, Style\ninit()\n\nprint("Hello, world!")\nprint("\r" + Fore.RED + "Overwritten text" + Style.RESET_ALL)

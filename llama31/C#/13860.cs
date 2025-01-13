@@ -1,1 +1,0 @@
-OdbcParameter param = new OdbcParameter("@XmlData", OdbcType.NVarChar, 4000, YourXmlString);

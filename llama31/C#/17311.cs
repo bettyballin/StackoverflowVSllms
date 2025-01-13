@@ -1,1 +1,0 @@
-using System.Windows.Threading;\n\n// Create a new dispatcher if none exists\nif (Dispatcher.CurrentDispatcher == null)\n{\n    Dispatcher.CurrentDispatcher = Dispatcher.CurrentDispatcher.CreateDispatcher();\n}\n\n// Create an instance of your window on the UI thread\nDispatcher.CurrentDispatcher.Invoke(() =>\n{\n    var window = new YourWindow();\n    window.ShowDialog();\n});

@@ -1,1 +1,0 @@
-bcp "SELECT * FROM mytable" queryout "C:\mytable.csv" -c -S mydevserver -U myusername -P mypassword

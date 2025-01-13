@@ -1,1 +1,0 @@
-string script = "window.showModalDialog('" + url + "','','dialogWidth:500px;dialogHeight:500px');";

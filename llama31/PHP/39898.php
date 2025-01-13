@@ -1,0 +1,1 @@
+<?php echo esc_html(get_post_meta($post->ID, "qanda", true)); ?>

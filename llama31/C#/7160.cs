@@ -1,1 +1,0 @@
-Thread thread = new Thread(MyFormThreadproc);\nthread.SetApartmentState(ApartmentState.STA);\nthread.Start();

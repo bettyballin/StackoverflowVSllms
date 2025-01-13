@@ -1,1 +1,0 @@
-tlbimp "C:\Path\To\Inventor.tlb" /out:Interop.Inventor.dll /namespace:Inventor

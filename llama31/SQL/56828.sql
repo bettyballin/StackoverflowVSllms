@@ -1,0 +1,1 @@
+-- Drop the primary key constraint\nALTER TABLE your_table_name\nDROP CONSTRAINT your_primary_key_constraint_name;\n\n-- Drop the identity\nALTER TABLE your_table_name\nALTER COLUMN your_column_name DROP IDENTITY;\n\n-- Re-add the primary key constraint\nALTER TABLE your_table_name\nADD CONSTRAINT your_primary_key_constraint_name PRIMARY KEY (your_column_name);

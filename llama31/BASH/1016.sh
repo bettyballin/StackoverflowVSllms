@@ -1,1 +1,0 @@
-mkfifo backpipe\nnc -l <someport> < backpipe | nc <isp-smtp> 26 | tee backpipe

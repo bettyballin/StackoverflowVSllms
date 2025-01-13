@@ -1,1 +1,0 @@
-idevicebackup2 backup /path/to/backup/folder

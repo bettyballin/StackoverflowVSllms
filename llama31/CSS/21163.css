@@ -1,1 +1,0 @@
-h1 {\n  font-family: 'Courier New', monospace; /* or any other monospaced font */\n  width: 800px; /* adjust to your desired width */\n  white-space: nowrap;\n  overflow: hidden;\n  text-overflow: ellipsis;\n}

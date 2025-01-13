@@ -1,0 +1,1 @@
+const encrypted = CryptoJS.AES.encrypt("message", "secret key");\nconst decrypted = CryptoJS.AES.decrypt(encrypted, "secret key").toString(CryptoJS.enc.Utf8);

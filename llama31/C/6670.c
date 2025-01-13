@@ -1,1 +1,0 @@
-InvalidateRect(parentHwnd, NULL, FALSE);

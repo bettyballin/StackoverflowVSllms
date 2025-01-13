@@ -1,0 +1,1 @@
+from distutils.core import setup, Extension\n\nmodule1 = Extension('greeter', sources=['greeter.d'], language='d')\n\nsetup(\n    name='greeter',\n    version='1.0',\n    description='A simple greeter module',\n    ext_modules=[module1]\n)

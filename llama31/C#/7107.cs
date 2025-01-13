@@ -1,1 +1,0 @@
-public class EndPoint {\n    public class InnerClass {\n        // ...\n    }\n}

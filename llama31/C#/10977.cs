@@ -1,1 +1,0 @@
-var query = session.Query<EmailAddress>().Where(e => e.CustomerAccountId == accountId);\nvar results = query.Future<EmailAddress>().ToList();

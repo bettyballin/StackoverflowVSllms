@@ -1,1 +1,0 @@
-cl.exe /MTd /EHsc /W4 /nologo /WX /O2 your_source_file.cpp

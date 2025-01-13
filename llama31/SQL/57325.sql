@@ -1,0 +1,1 @@
+SELECT teacher FROM classes WHERE LOWER(class) = 'math101'

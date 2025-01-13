@@ -1,0 +1,1 @@
+document.getElementById('your-input-field').addEventListener('keydown', function(event) {\n  if (event.key === 'ArrowUp') {\n    // Up arrow pressed\n  } else if (event.key === 'ArrowDown') {\n    // Down arrow pressed\n  }\n});

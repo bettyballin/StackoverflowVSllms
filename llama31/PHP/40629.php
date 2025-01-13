@@ -1,0 +1,1 @@
+if (!empty($subcat)) {\n    // show category\n} else {\n    // show form\n}

@@ -1,0 +1,1 @@
+spl_autoload_register(function ($class) {\n    $namespace = 'YourNamespace\\';\n    if (strpos($class, $namespace) === 0) {\n        $class = substr($class, strlen($namespace));\n        $file = __DIR__ . DIRECTORY_SEPARATOR . str_replace('\\', DIRECTORY_SEPARATOR, $class) . '.php';\n        if (is_readable($file)) {\n            require $file;\n        }\n    }\n});

@@ -1,0 +1,1 @@
+<system.serviceModel>\n  <services>\n    <service name="MyService">\n      <endpoint address="" binding="webHttpBinding" contract="IBookService" />\n      <endpoint address="" binding="webHttpBinding" contract="IAuthorService" />\n      <endpoint address="" binding="webHttpBinding" contract="IPublisherService" />\n    </service>\n  </services>\n</system.serviceModel>

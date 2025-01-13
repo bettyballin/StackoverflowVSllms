@@ -1,0 +1,1 @@
+CREATE TABLE orders (\n  id INT PRIMARY KEY,\n  customer_id INT NOT NULL,\n  FOREIGN KEY (customer_id) REFERENCES customers(id)\n);\n\nCREATE TABLE customers (\n  id INT PRIMARY KEY,\n  name VARCHAR(255) NOT NULL\n);

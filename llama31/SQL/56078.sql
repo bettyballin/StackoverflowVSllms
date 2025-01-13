@@ -1,0 +1,1 @@
+CREATE UNIQUE INDEX unique_ab ON your_table (a, b);

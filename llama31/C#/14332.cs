@@ -1,1 +1,0 @@
-public class HandleErrorAttribute : FilterAttribute, IExceptionFilter\n{\n    public void OnException(ExceptionContext filterContext)\n    {\n        // Handle errors here\n    }\n}

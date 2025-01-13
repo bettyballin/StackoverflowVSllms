@@ -1,0 +1,1 @@
+$queryResult = $xpathvar->query('//lemonade[@id="1"]/price');

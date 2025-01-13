@@ -1,0 +1,1 @@
+// Set the session lifetime to 5 minutes (300 seconds)\nini_set('session.gc_maxlifetime', 300);\n\n// Start the session\nsession_start();\n\n// Set the session cookie to expire when the browser is closed\nsession_set_cookie_params(0);\n\n// Your login code...\nif ($errors == 0) {\n    $_SESSION['logged'] = "1";\n}

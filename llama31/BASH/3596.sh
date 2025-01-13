@@ -1,1 +1,0 @@
-# Create a new namespace\nunshare -m --uts --ipc --pid --mount-proc \\n  -u underprivileged_user \\n  --cpu-quota 10000 \\n  --memory 512m \\n  /bin/bash -c "java_or_cpp_command"

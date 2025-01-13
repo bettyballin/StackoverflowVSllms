@@ -1,1 +1,0 @@
-using System.Reflection;\n\n[assembly: AssemblyKeyFile("YourKey.snk")]\n[assembly: AssemblyVersion("1.0.0.0")]\n[assembly: AssemblyFileVersion("1.0.0.0")]

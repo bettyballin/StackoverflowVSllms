@@ -1,0 +1,1 @@
+CREATE OR REPLACE PACKAGE my_package AS\n  my_var BOOLEAN;\nEND my_package;\n/\n\nCREATE OR REPLACE TRIGGER my_trigger\nBEFORE INSERT ON my_table\nFOR EACH ROW\nBEGIN\n  IF my_package.my_var IS NOT TRUE THEN\n    -- execute something\n  END IF;\nEND;\n/

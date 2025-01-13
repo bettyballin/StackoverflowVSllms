@@ -1,1 +1,0 @@
-.container {\n  display: flex;\n  align-items: center;\n}\n\n.image {\n  /* Optional: set a fixed width or height for the image */\n  width: 100px;\n  height: 100px;\n  margin-right: 10px;\n}\n\n.text {\n  /* Optional: set font size, family, etc. */\n  font-size: 16px;\n}

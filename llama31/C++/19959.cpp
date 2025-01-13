@@ -1,1 +1,0 @@
-IMyService* pMyService = ...; // Get the service interface\nHRESULT hr = pMyService->MyMethod();\nif (FAILED(hr))\n{\n    // Handle the error\n    // ...\n}

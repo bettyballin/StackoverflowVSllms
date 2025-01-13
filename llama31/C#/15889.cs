@@ -1,1 +1,0 @@
-using System;\nusing System.Runtime.InteropServices;\n\n[ComVisible(true)]\npublic interface IFooCom\n{\n    string Bar { get; }\n}\n\n[ComVisible(true)]\npublic class FooImpl : IFoo, IFooCom\n{\n    private string GetBar()\n    {\n        // implementation\n    }\n\n    public string Bar => GetBar();\n}

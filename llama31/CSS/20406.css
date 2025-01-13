@@ -1,1 +1,0 @@
-body {\n  margin: 0;\n  padding: 0;\n  height: 100vh;\n  display: flex;\n  flex-direction: column;\n}\n\nmain {\n  flex-grow: 1;\n}\n\nfooter {\n  margin-top: auto;\n}

@@ -1,0 +1,1 @@
+if (extension_loaded('openssl')) {\n    $url = 'https://example.com/pog.php';\n    $verify_result = ssl_verify($url);\n    if ($verify_result === true) {\n        echo 'HTTPS detected';\n    } else {\n        echo 'HTTP detected';\n    }\n}

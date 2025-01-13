@@ -1,1 +1,0 @@
-OCIStmt *stmt;\nOCIError *err;\nub4 row_count;\n\n// ... execute the statement using OCIStmtExecute ...\n\n// retrieve the row count\nOCIAttrGet(stmt, OCI_HTYPE_STMT, &row_count, 0, OCI_ATTR_ROW_COUNT, err);

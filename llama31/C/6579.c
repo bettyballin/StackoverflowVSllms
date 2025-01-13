@@ -1,1 +1,0 @@
-// Replace PyMember_Get\nPyObject *attr = PyObject_GetAttrString(obj, attr_name);\n\n// Replace PyMember_Set\nPyObject_SetAttrString(obj, attr_name, value);

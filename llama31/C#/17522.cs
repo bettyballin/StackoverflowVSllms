@@ -1,1 +1,0 @@
-[OperationContract]\n[WebInvoke(UriTemplate = "/foo/{foo_id}/bar", Method = "POST", ResponseFormat=WebMessageFormat.JSON, BodyStyle = WebMessageBodyStyle.Wrapped)]\nstring G(string foo_id, string content);

@@ -1,0 +1,1 @@
+-- Example usage of COALESCE function\nSELECT COALESCE(name, 'Unknown') AS name\nFROM customers;

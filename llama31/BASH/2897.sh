@@ -1,1 +1,0 @@
-swfdump -X yourfile.swf

@@ -1,0 +1,1 @@
+// Show a modal window\n$("#myModal").modal({\n    backdrop: "static",\n    keyboard: false\n});

@@ -1,1 +1,0 @@
-ps --no-truncate

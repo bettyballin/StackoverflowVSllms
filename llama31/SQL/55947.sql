@@ -1,0 +1,1 @@
+SELECT id FROM plants WHERE LOWER(Flower) REGEXP CONCAT('[[:<:]]', LOWER(?), '[[:>:]]')

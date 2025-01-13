@@ -1,1 +1,0 @@
-base64 input_binary_file > output_ascii_file

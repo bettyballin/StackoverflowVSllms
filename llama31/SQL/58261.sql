@@ -1,0 +1,1 @@
+SELECT * FROM MyTable\nWHERE REGEXP_LIKE(MyField, 'BobDillon', 'i');  -- case-insensitive\nSELECT * FROM MyTable\nWHERE REGEXP_LIKE(MyField, 'BobDillon', 'ia');  -- case-insensitive and accent-insensitive

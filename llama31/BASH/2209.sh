@@ -1,1 +1,0 @@
-aspnet_regiis -pe "system.web/membership" -site MySite -app /MyApp

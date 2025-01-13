@@ -1,1 +1,0 @@
-using System;\nusing System.Threading;\n\nclass MyService\n{\n    public void DoTask()\n    {\n        // Perform the task\n        // ...\n\n        // Signal the event\n        using (var evt = EventWaitHandle.OpenExisting("MyServiceEvent"))\n        {\n            evt.Set();\n        }\n    }\n}

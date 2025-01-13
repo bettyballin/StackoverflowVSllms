@@ -1,0 +1,1 @@
+SELECT UTL_RAW.CAST_TO_VARCHAR2(USER_GUID) FROM user WHERE email = 'user@example.com';

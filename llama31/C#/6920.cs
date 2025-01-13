@@ -1,1 +1,0 @@
-using System;\nusing System.IO;\nusing System.Windows.Forms;\n\n// ...\n\nstring csvData = "1,2,3,4\n5,6,7,8";\nbyte[] csvBytes = Encoding.UTF8.GetBytes(csvData);\n\nusing (MemoryStream ms = new MemoryStream(csvBytes))\n{\n    Clipboard.SetData(DataFormats.CommaSeparatedValue, ms);\n}

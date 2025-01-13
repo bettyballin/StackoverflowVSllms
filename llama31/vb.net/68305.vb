@@ -1,0 +1,1 @@
+Imports System.Runtime.InteropServices\n\n<ComVisible(True)> _\nPublic Class MyComClass\n    Implements IDisposable\n\n    ' Implement COM interfaces and methods here\nEnd Class

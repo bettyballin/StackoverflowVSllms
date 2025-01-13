@@ -1,0 +1,1 @@
+SELECT LEFT(your_column, 1) AS first_char\nFROM your_table;

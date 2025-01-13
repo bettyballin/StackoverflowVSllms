@@ -1,1 +1,0 @@
-SQLcommand.CommandText = "INSERT INTO main.entries VALUES (@app, @user, @pass)"\nSQLcommand.Parameters.AddWithValue("@app", appinput.Text)\nSQLcommand.Parameters.AddWithValue("@user", userinput.Text)\nSQLcommand.Parameters.AddWithValue("@pass", passinput.Text)

@@ -1,1 +1,0 @@
-using Outlook = Microsoft.Office.Interop.Outlook;\n\n// ...\n\nOutlook.Application app = new Outlook.Application();\n// Use the 'app' object...\n\n// Release the COM object when done\nMarshal.ReleaseComObject(app);

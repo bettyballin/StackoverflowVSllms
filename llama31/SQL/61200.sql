@@ -1,0 +1,1 @@
+CREATE OR REPLACE PROCEDURE get_lob_data(\n  p_id IN NUMBER,\n  p_lob_data OUT BLOB\n)\nAS\n  v_temp_lob BLOB;\nBEGIN\n  DBMS_LOB.CREATETEMPORARY(v_temp_lob, TRUE);\n\n  SELECT column_lob\n  INTO v_temp_lob\n  FROM data_user.sample_table@TEST_LINK\n  WHERE id = p_id;\n\n  p_lob_data := v_temp_lob;\n  DBMS_LOB.FREETEMPORARY(v_temp_lob);\nEND;\n/

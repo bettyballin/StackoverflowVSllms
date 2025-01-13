@@ -1,0 +1,1 @@
+$userId = filter_var($_POST['user_id'], FILTER_VALIDATE_INT);\nif ($userId === false) {\n    // handle invalid input\n}

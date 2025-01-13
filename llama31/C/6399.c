@@ -1,1 +1,0 @@
-#include <zip.h>\n\nint main() {\n    // Open the ZIP archive\n    zip *archive = zip_open("archive.zip", ZIP_RDONLY, NULL);\n    if (archive == NULL) {\n        // Handle error\n    }\n\n    // Remove a file from the archive\n    if (zip_delete(archive, "file.txt") == -1) {\n        // Handle error\n    }\n\n    // Close the archive\n    zip_close(archive);\n    return 0;\n}

@@ -1,0 +1,1 @@
+$selenium->waitForVisible('input[id="inputId"]', $timeout);

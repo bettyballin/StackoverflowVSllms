@@ -1,1 +1,0 @@
-std::list<Request> getAsRequestList() {\n    std::list<Request> requests;\n    // populate requests\n    return std::move(requests);\n}

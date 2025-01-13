@@ -1,0 +1,1 @@
+<bindings>\n  <basicHttpBinding>\n    <security mode="TransportWithMessageCredential">\n      <transport clientCredentialType="None" />\n      <message clientCredentialType="UserName" />\n    </security>\n  </basicHttpBinding>\n</bindings>

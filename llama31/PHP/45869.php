@@ -1,0 +1,1 @@
+<?php\n\necho 'a';\nprint 'b';\n\nob_start(); // start output buffering\n$buffer = ob_get_clean(); // get and discard the buffered output\n\necho 'c';\n\n// the final output will be 'c'

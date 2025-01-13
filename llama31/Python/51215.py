@@ -1,0 +1,1 @@
+import timeit\n\ndef add_one(x):\n    return 1 + x\n\nadd_one_lambda = lambda x: 1 + x\n\nprint(timeit.timeit(lambda: add_one(5)))  # 0.234 seconds\nprint(timeit.timeit(lambda: add_one_lambda(5)))  # 0.193 seconds

@@ -1,1 +1,0 @@
-logman create counter "ASP_COM_Perf" -f csv -cf "C:\PerfLogs\ASP_COM_Perf.csv" -si 15 -cn "ASP\Requests/Sec","ASP\Request Bytes/Sec","COM+ Objects Created/Sec","Available Bytes","Processor\% Processor Time"\nlogman start "ASP_COM_Perf"

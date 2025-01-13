@@ -1,0 +1,1 @@
+CREATE TABLE online_users (\n  id INT PRIMARY KEY,\n  user_id INT,\n  session_id VARCHAR(255),\n  login_time TIMESTAMP\n);

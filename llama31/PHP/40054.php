@@ -1,0 +1,1 @@
+// PHP4\nclass MyClass {\n    function MyClass() {\n        // constructor code\n    }\n}\n\n// PHP5\nclass MyClass {\n    function __construct() {\n        // constructor code\n    }\n}\n\n// PHP4\n$myObject = new MyClass();\n$myObject2 = $myObject; // passes by value\n\n// PHP5\n$myObject = new MyClass();\n$myObject2 = &$myObject; // passes by reference

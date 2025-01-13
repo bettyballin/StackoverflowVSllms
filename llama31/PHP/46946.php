@@ -1,0 +1,1 @@
+exec("/path/to/shell/script.sh > /dev/null 2>&1 &");

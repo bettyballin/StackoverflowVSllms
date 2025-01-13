@@ -1,1 +1,0 @@
-// mydll.cpp\n#include <Windows.h>\n\nextern "C" __declspec(dllexport) int add(int a, int b) {\n    return a + b;\n}

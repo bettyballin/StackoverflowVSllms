@@ -1,1 +1,0 @@
-using System.DirectoryServices;\n\nDirectoryEntry site = new DirectoryEntry("IIS://localhost/W3SVC/1/ROOT");\nPropertyValueCollection authMethods = site.Properties["AuthFlags"];\nforeach (PropertyValue authMethod in authMethods)\n{\n    Console.WriteLine(authMethod.Value);\n}

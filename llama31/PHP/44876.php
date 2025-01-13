@@ -1,0 +1,1 @@
+// In your CustomerQuery class\npublic function addNumberCompletedOrdersColumn()\n{\n    $this\n        ->addSelect(array('NumberCompletedOrders'))\n        ->addVirtualColumn('NumberCompletedOrders',\n            'COUNT(' . OrderPeer::TABLE_NAME . '.' . OrderPeer::ID . ')',\n            self::MODEL_ALIAS\n        )\n        ->leftJoinOrder();\n}

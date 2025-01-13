@@ -1,0 +1,1 @@
+Dim filePath As String = "C:\Path\To\File.txt"\nDim lockingProcess As String = FileLocker.GetLockingProcess(filePath)\nConsole.WriteLine(lockingProcess)

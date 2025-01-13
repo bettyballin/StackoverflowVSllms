@@ -1,1 +1,0 @@
-tickadj -s 100

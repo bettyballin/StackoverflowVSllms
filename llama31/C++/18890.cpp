@@ -1,1 +1,0 @@
-#include <windows.h>\n\nint main() {\n    ULARGE_INTEGER freeSpace;\n    ULARGE_INTEGER totalSpace;\n    ULARGE_INTEGER usedSpace;\n\n    if (GetDiskFreeSpaceEx(L"E:\\", &freeSpace, &totalSpace, &usedSpace)) {\n        // Use the freeSpace and totalSpace values\n    }\n\n    return 0;\n}

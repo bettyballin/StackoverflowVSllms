@@ -1,1 +1,0 @@
-NeutralSharedPtr ptr = myClass->getSharedPtr();

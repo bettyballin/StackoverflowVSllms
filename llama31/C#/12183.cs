@@ -1,1 +1,0 @@
-string url = "http://example.com/file.txt";\nif (CheckFileExists(url))\n{\n    Console.WriteLine("File exists!");\n    long fileSize = GetFileSize(url);\n    Console.WriteLine($"File size: {fileSize} bytes");\n}\nelse\n{\n    Console.WriteLine("File does not exist!");\n}

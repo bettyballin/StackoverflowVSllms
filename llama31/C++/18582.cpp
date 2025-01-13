@@ -1,1 +1,0 @@
-#include <daz3d/daz3d.h>\n\n// Load a 3D model using Daz3D\nDzScene scene;\nscene.load("model.duf");

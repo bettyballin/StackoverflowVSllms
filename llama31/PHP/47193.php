@@ -1,0 +1,1 @@
+$text = '<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed sit amet nulla auctor, vestibulum magna sed, convallis ex.</p>';\n$excerpt = create_excerpt($text);\necho $excerpt; // Output: "Lorem ipsum dolor sit amet, consectetur adipiscing elit."

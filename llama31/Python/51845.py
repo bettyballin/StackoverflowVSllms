@@ -1,0 +1,1 @@
+import myObject\n\nmyObject.MyMethod()

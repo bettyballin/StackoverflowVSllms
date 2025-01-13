@@ -1,1 +1,0 @@
-// Retrieve the function from the registry\nlua_rawgeti(L, LUA_REGISTRYINDEX, ref);\n\n// Call the function\nlua_call(L, 0, 0); // assuming no arguments or return values

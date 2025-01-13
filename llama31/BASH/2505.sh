@@ -1,1 +1,0 @@
-php -f /home/domain.com/public_html/cron/script.php

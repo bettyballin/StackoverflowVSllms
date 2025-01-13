@@ -1,0 +1,1 @@
+use Casbin\Enforcer;\n\n$enforcer = new Enforcer();\n$enforcer->addRoleForUser('user1', 'admin');

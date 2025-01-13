@@ -1,1 +1,0 @@
-public class YourControllerNameController : Controller\n{\n    public JsonResult Move()\n    {\n        // Your code here\n        return Json("Success");\n    }\n}

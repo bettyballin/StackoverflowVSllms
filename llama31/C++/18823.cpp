@@ -1,1 +1,0 @@
-MyObject obj;\nstd::cout << obj.getName() << std::endl;

@@ -1,1 +1,0 @@
-std::map<Foo, YourValueType, CompareFoo> yourMap;

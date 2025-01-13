@@ -1,0 +1,1 @@
+import numpy as np\nfrom skimage.feature import local_binary_pattern\n\ndef fitness(image1, image2):\n    lbp1 = local_binary_pattern(image1, 8, 3, method='uniform')\n    lbp2 = local_binary_pattern(image2, 8, 3, method='uniform')\n    return np.histogram(lbp1, bins=256)[0].dot(np.histogram(lbp2, bins=256)[0])

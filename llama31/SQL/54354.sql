@@ -1,0 +1,1 @@
+CREATE TABLE IF NOT EXISTS your_table (\n  id INT PRIMARY KEY,\n  -- your columns here\n);\n\nINSERT INTO your_table (id, -- your columns here)\nSELECT 1, -- your default values here\nFROM dual\nWHERE NOT EXISTS (SELECT 1 FROM your_table);

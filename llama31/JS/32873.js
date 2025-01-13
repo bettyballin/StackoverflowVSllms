@@ -1,0 +1,1 @@
+describe('Test without JavaScript', () => {\n  it('should load the page', () => {\n    cy.request('http://example.com')\n      .its('status')\n      .should('eq', 200);\n  });\n});

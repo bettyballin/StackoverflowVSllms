@@ -1,1 +1,0 @@
-// C#\nstring myString = "Hello, World!";

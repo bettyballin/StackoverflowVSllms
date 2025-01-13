@@ -1,0 +1,1 @@
+import pyPdf\n\npdf = pyPdf.PdfFileReader(open("pdffile.pdf"))\nobj = pdf.getObject(584)\nprint obj.getData()  # prints the string "1_22_4_1"

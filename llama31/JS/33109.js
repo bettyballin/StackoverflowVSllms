@@ -1,0 +1,1 @@
+chrome.network.getNetworkState((network) => {\n  console.log(network.ssid);\n});

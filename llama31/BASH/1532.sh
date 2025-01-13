@@ -1,1 +1,0 @@
-./configure --prefix=/usr/local/ruby-1.8.7\nmake\nmake install

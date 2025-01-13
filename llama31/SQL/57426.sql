@@ -1,0 +1,1 @@
+SELECT COUNT(*) \nFROM syscacheobjects \nWHERE objid = OBJECT_ID('your_stored_procedure_name');

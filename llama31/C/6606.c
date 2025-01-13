@@ -1,1 +1,0 @@
-enum { Val1, Val2, Val3, } someEnum;

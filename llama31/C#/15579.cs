@@ -1,1 +1,0 @@
-CommentTable.ReadXml(fs, XmlReadMode.InferSchema);

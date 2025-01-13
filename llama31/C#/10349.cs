@@ -1,1 +1,0 @@
-using System.Linq;\n\nvar numbers = Enumerable.Range(1, 10);

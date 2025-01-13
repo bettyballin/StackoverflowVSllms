@@ -1,1 +1,0 @@
-# Add the following line to your Apache configuration file\nHeader always set X-Frame-Options "SAMEORIGIN"

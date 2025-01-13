@@ -1,0 +1,1 @@
+header('P3P: CP="IDC DSP COR ADM DEVi TAIi PSA PSD IVAi IVDi CONi HIS OUR IND CNT"');\nsession_start();\n$_SESSION["current_page"] = 'special1';

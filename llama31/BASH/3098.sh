@@ -1,1 +1,0 @@
-InstallUtil /u MyService.exe

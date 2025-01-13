@@ -1,0 +1,1 @@
+DECLARE @sql nvarchar(max) = '\n    CREATE FUNCTION #myLocalFunction (@param int)\n    RETURNS int\n    AS\n    BEGIN\n        -- function logic here\n        RETURN @param * 2\n    END\n';\n\nEXEC sp_executesql @sql;\n\n-- now you can use the function\nSELECT #myLocalFunction(5) AS result;\n\n-- don't forget to drop the function when you're done\nDROP FUNCTION #myLocalFunction;

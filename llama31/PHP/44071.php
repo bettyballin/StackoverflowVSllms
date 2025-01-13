@@ -1,0 +1,1 @@
+$token = $_GET['token'];\n\nif (!validateToken($token)) {\n    header('HTTP/1.0 403 Forbidden');\n    exit;\n}\n\n// Serve the content\n\nfunction validateToken($token) {\n    // Implement token validation logic here\n    // For example, you can use a shared secret key to sign the token\n}

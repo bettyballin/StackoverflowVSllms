@@ -1,0 +1,1 @@
+Dim lLocation1 As New objLocation\nDim lLocation2 As New objLocation\n\nFor i As LocationField = LocationField.SysLocationId To LocationField.Active\n    If lLocation1.Item(i) IsNot lLocation2.Item(i) Then\n        ' fields are different\n    End If\nNext

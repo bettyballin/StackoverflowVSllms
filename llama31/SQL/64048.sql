@@ -1,0 +1,1 @@
+CREATE TABLE example (\n    id INT PRIMARY KEY,\n    text_column nvarchar(255) NOT NULL\n);

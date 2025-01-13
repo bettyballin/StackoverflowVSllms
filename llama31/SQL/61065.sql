@@ -1,0 +1,1 @@
+SELECT *\nFROM YourTable\nFOR XML AUTO, ROOT('YourRoot'), XMLSCHEMA('http://www.w3.org/2001/XMLSchema-instance')

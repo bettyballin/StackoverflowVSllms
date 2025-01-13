@@ -1,1 +1,0 @@
-protected void submitbutton_click(object sender, EventArgs e)\n{\n    try\n    {\n        mybusinessobject.savetodatabase();\n    }\n    catch (Exception ex)\n    {\n        Response.Redirect("Error.aspx");\n    }\n}

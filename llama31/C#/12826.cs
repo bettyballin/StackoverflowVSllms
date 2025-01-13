@@ -1,1 +1,0 @@
-using System.IO;\n\n// Get the file path\nstring filePath = @"C:\path\to\your\file.txt";\n\n// Get the current file attributes\nFileAttributes currentAttributes = File.GetAttributes(filePath);\n\n// Remove the ReadOnly attribute\nFileAttributes newAttributes = currentAttributes & ~FileAttributes.ReadOnly;\n\n// Set the new attributes\nFile.SetAttributes(filePath, newAttributes);

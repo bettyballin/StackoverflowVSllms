@@ -1,0 +1,1 @@
+// Define the template\n$template = $twig->load('example.html.twig');\n\n// Define the data\n$data = ['title' => 'Example', 'items' => ['Item 1', 'Item 2', 'Item 3']];\n\n// Render the template\necho $template->render($data);

@@ -1,1 +1,0 @@
-Console.OutputEncoding = Encoding.UTF8;

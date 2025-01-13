@@ -1,0 +1,1 @@
+If Request.QueryString("sessionTransfer") = "true" Then\n  Session.Abandon\n  Session.SessionID = Request.Cookies("ASPSESSIONID")\nEnd If

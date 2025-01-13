@@ -1,1 +1,0 @@
-awk -v start="May  3 13:21:12" -v end="May  3 14:00:00" '\n  $0 >= start && $0 <= end { print }\n' mail.log*

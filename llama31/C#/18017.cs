@@ -1,1 +1,0 @@
-using Oracle.ManagedDataAccess.Client;\n\n// Create a new OracleConfiguration instance\nOracleConfiguration configuration = new OracleConfiguration();\n\n// Enable encryption\nconfiguration.SqlNetEncryption = OracleConfiguration.SqlNetEncryptionRequired;\n\n// Specify the encryption types\nconfiguration.SqlNetEncryptionTypes = new string[] { "AES256", "AES192", "AES128" };

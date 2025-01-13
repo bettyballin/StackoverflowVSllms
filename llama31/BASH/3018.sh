@@ -1,1 +1,0 @@
-gunzip your_database.sql.gz

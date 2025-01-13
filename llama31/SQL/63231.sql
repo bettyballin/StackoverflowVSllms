@@ -1,0 +1,1 @@
+CREATE FUNCTION extract_email(p_friendly_email VARCHAR2) RETURN VARCHAR2\nIS\n  v_email VARCHAR2(255);\nBEGIN\n  v_email := REGEXP_SUBSTR(p_friendly_email, '\b[A-Za-z0-9._%+-]+@[A-Za-z0-9.-]+\.[A-Z|a-z]{2,}\b');\n  RETURN v_email;\nEND;

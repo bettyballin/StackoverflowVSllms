@@ -1,0 +1,1 @@
+require_once 'PhpHighlight/Autoloader.php';\n\n$highlighter = new PhpHighlight\Highlighter();\n$highlighter->setLexer(new PhpHighlight\Lexer\Php());\n$highlighter->setFormatter(new PhpHighlight\Formatter\Html());\n\n$code = '<?php echo "Hello World"; ?>';\n$highlightedCode = $highlighter->highlight($code);\n\necho $highlightedCode;

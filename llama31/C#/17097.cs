@@ -1,1 +1,0 @@
-public class MyDbContext : DbContext\n{\n    public DbSet<MyEntity> MyEntities { get; set; }\n\n    protected override void OnModelCreating(ModelBuilder modelBuilder)\n    {\n        modelBuilder.Entity<MyEntity>()\n            .HasQueryFilter(e => !e.IsDeleted);\n    }\n}\n\npublic class MyEntity\n{\n    public int Id { get; set; }\n    public bool IsDeleted { get; set; }\n}

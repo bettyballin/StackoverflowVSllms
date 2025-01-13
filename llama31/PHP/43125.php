@@ -1,0 +1,1 @@
+$opts = array(\n    'http' => array(\n        'proxy' => 'your_proxy_server:port',\n    ),\n);\n$context = stream_context_create($opts);\n$contents = file_get_contents("http://google.com", false, $context);

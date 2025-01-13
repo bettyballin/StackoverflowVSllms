@@ -1,1 +1,0 @@
-PLUGIN_SOURCE = my_plugin.c\nPLUGIN_OBJECT = $(PLUGIN_SOURCE:.c=.o)\nPLUGIN_SO = my_plugin.so\n\n$(PLUGIN_SO): $(PLUGIN_OBJECT)\n    $(GCC) -shared -o $@ $^ -lgcc\n\n$(PLUGIN_OBJECT): $(PLUGIN_SOURCE)\n    $(GCC) -c -fPIC -o $@ $^ -lgcc

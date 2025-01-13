@@ -1,0 +1,1 @@
+function rewriteRelativeUrls($html, $basePath) {\n    $pattern = '/href=["\'](?!https?:\/\/)([^"\']+)["\']/';\n    $replacement = 'href="' . $basePath . '/$1"';\n    return preg_replace($pattern, $replacement, $html);\n}

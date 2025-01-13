@@ -1,1 +1,0 @@
-// Car.cs\npublic class Car\n{\n    // ...\n}\n\n// Door.cs\npublic class Door\n{\n    // ...\n}

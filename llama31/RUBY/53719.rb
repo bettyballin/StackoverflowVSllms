@@ -1,0 +1,1 @@
+ewest_shipments = Shipment.where(id: Shipment.group(:order_id).maximum(:id))\n                           .where(created_at: 1.hour.ago..Time.current)\n                           .pluck(:order_id)\n\nOrder.where(id: newest_shipments)

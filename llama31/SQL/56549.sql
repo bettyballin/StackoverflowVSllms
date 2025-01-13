@@ -1,0 +1,1 @@
+SELECT TOP n UserId, Points\nFROM Users\nORDER BY Points DESC;

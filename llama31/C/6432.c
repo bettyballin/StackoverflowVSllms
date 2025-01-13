@@ -1,1 +1,0 @@
-#include <stdint.h>\n\nint main() {\n    uint64_t timestamp_64 = 0x1234567890abcdef; // 64-bit timestamp value\n    uint16_t timestamp_16 = (uint16_t)timestamp_64; // Cast to 16-bit\n\n    return 0;\n}

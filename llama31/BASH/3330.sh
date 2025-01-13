@@ -1,1 +1,0 @@
-grep "sendmail" /var/log/maillog

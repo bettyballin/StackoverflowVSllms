@@ -1,1 +1,0 @@
-#left, #right {\n  display: flex;\n  align-items: flex-start; /* Optional */\n}\n\n#left {\n  background: red;\n  width: 20%;\n  height: 100%;\n}\n\n#right {\n  background: green;\n  width: 80%;\n  height: 100%;\n}

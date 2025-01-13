@@ -1,1 +1,0 @@
-// Example of parameterized query using LINQ to SQL\nvar homes = from h in db.Homes\n            where h.Description.Contains("private") && h.Available == 1 && h.Price >= 200000 && h.Price <= 750000\n            orderby h.Price descending\n            select h;

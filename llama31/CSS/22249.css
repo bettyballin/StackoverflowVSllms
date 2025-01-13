@@ -1,1 +1,0 @@
-table {\n  table-layout: fixed;\n}\n\nth, td {\n  padding: 10px;\n  border: 1px solid #ddd;\n}\n\nth:nth-child(1), td:nth-child(1) {\n  width: 100px;\n}\n\nth:nth-child(2), td:nth-child(2) {\n  max-width: 200px;\n  overflow: hidden;\n  text-overflow: ellipsis;\n}

@@ -1,0 +1,1 @@
+SELECT \n  categories.catName,\n  COUNT(map.itemId) AS item_count,\n  SUM(IF(items.ownerId = @ownerId, 1, 0)) AS owner_item_count\nFROM categories\nLEFT JOIN map\n  ON categories.catId = map.catId\nLEFT JOIN items\n  ON items.itemId = map.itemId\nGROUP BY categories.catName\nHAVING item_count > 0 OR owner_item_count > 0

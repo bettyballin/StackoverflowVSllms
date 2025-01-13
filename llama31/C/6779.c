@@ -1,1 +1,0 @@
-#include <cstdio>\n\nint main() {\n    int c;\n    printf("Press a key: ");\n    c = getchar();\n    printf("\nYou pressed: %c\n", c);\n    return 0;\n}

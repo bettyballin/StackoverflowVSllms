@@ -1,1 +1,0 @@
-uncrustify -c gedit.cfg your_code.c

@@ -1,1 +1,0 @@
-IEnumerable<string> days = new string[] { "monday", "tuesday", "wednesday", "wednesday" };\nforeach (string day in Distinct(days))\n{\n    Console.WriteLine(day);\n}

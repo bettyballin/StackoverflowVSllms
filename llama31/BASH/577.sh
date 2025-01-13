@@ -1,1 +1,0 @@
-ld -o main --exclude-libs libclntsh.so main.o A.so B.so libldap_r.so

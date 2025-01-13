@@ -1,0 +1,1 @@
+CREATE FUNCTION People.ufnContactInformation\nRETURNS TABLE\nAS\nRETURN\n(\n    SELECT ...\n    FROM People.vtPersons\n    JOIN People.vtPhoneNumbers ON ...\n);

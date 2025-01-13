@@ -1,0 +1,1 @@
+import os\n\n# Generate redirect file content\nredirect_content = "HTTP/1.1 301 Moved Permanently\nLocation: /new-location\n"\n\n# Write redirect file to designated directory\nwith open("/var/www/redirects/redirect-file.txt", "w") as f:\n    f.write(redirect_content)

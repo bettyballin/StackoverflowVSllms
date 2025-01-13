@@ -1,1 +1,0 @@
-sqlplus xxx/yyy@zzz

@@ -1,1 +1,0 @@
-$source = "C:\Data\"\n$destination = "E:\Backup\Data\"\nGet-ChildItem -Path $source -Recurse | Copy-Item -Destination $destinatio

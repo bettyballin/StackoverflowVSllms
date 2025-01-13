@@ -1,1 +1,0 @@
-#include <dirent.h>\n#include <stdio.h>\n\nint main() {\n    DIR *dir;\n    struct dirent *ent;\n\n    dir = opendir(".");\n    if (dir == NULL) {\n        perror("opendir");\n        return 1;\n    }\n\n    while ((ent = readdir(dir)) != NULL) {\n        printf("%s\n", ent->d_name);\n    }\n\n    closedir(dir);\n    return 0;\n}

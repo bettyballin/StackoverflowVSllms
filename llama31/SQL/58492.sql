@@ -1,0 +1,1 @@
+-- Create a symmetric key\nEXEC sp_addextendedproc 'xp_crypt', 'C:\Path\To\xp_crypt.dll'\n\n-- Encrypt data\nDECLARE @plaintext VARCHAR(50) = 'Sensitive Data'\nDECLARE @encrypted VARBINARY(255)\nEXEC xp_crypt @plaintext, @encrypted OUTPUT\n\n-- Decrypt data\nDECLARE @decrypted VARCHAR(50)\nEXEC xp_crypt @encrypted, @decrypted OUTPUT\n\nPRINT @decrypted

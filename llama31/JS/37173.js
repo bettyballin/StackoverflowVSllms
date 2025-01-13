@@ -1,0 +1,1 @@
+function refreshPage() {\n  $.ajax({\n    // your ajax settings here\n  }).done(function() {\n    // call the function again after a delay\n    setTimeout(refreshPage, 5000); // 5 seconds\n  });\n}\nrefreshPage(); // initial call

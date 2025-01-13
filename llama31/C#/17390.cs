@@ -1,1 +1,0 @@
-[HubName("fileSaveHub")]\npublic class FileSaveHub : Hub\n{\n    public void UpdateStatus(string fileToSave)\n    {\n        Clients.All.updateStatus(fileToSave);\n    }\n}

@@ -1,0 +1,1 @@
+import cypress from 'cypress';\n\ndescribe('Example Test', () => {\n  it('Visits the example website', () => {\n    cy.visit('https://www.example.com');\n    // Perform actions on the web app\n  });\n});

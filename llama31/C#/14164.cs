@@ -1,1 +1,0 @@
-var converter = new G729ToWavConverter();\nconverter.ConvertG729ToWav("input.g729", "output.wav");

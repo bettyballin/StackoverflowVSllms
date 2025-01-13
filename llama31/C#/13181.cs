@@ -1,1 +1,0 @@
-IQuery query = session.CreateQuery("FROM MyClass");\nquery.SetMaxResults(15);

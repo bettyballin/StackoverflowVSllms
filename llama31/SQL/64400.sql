@@ -1,0 +1,1 @@
+INSERT INTO tblTable1 (\n  [Week],\n  [20001],\n  [20002],\n  [20003],\n  [20004],\n  [20006],\n  [20005],\n  [W/c]\n)\nSELECT \n  [Week],\n  [20001],\n  [20002],\n  [20003],\n  [20004],\n  [20006],\n  [20005],\n  [W/c]\nFROM tblTable1_link

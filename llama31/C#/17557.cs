@@ -1,1 +1,0 @@
-int trueIndex = Array.IndexOf(ba.Cast<bool>().ToArray(), true);\nint falseIndex = Array.IndexOf(ba.Cast<bool>().ToArray(), false);\n\nbool hasTrue = trueIndex != -1;\nbool hasFalse = falseIndex != -1;

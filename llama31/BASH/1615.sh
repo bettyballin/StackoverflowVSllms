@@ -1,1 +1,0 @@
-ps -eo pid,comm,etimes --sort=etimes | awk '$3 > 30'

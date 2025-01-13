@@ -1,0 +1,1 @@
+function is_truly_empty($var) {\n    if (is_int($var) && $var === 0) {\n        return false;\n    }\n    if (is_string($var) && $var === "0") {\n        return false;\n    }\n    return empty($var);\n}

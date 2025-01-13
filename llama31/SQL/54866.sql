@@ -1,0 +1,1 @@
+SELECT *\nFROM [dbo].[RealTime]\nUNION ALL\nSELECT *\nFROM [dbo].[Query]\nEXCEPT\nSELECT *\nFROM [dbo].[RealTime]\nINTERSECT\nSELECT *\nFROM [dbo].[Query]

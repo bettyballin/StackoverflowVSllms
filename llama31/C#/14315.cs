@@ -1,1 +1,0 @@
-// Set the Cache-Control header to no-cache and no-store\nResponse.Cache.SetCacheability(HttpCacheability.NoCache);\nResponse.Cache.SetNoStore(true);\n\n// Set the Pragma header to no-cache\nResponse.Headers.Add("Pragma", "no-cache");\n\n// Set the Expires header to a date in the past\nResponse.Headers.Add("Expires", "-1");

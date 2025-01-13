@@ -1,0 +1,1 @@
+amed_scope :has_young_wives_named, lambda { |names, max_age|\n  { :conditions => ["EXISTS (SELECT 1 FROM wives WHERE wives.name IN (?) AND wives.age <= ?) AND EXISTS (SELECT 1 FROM wives WHERE wives.name IN (?) AND wives.age <= ?) AND EXISTS (SELECT 1 FROM wives WHERE wives.name IN (?) AND wives.age <= ?)", names, max_age, names, max_age, names, max_age] }\n}

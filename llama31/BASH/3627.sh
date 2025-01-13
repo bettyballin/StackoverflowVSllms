@@ -1,1 +1,0 @@
-sudo vmware-config.pl --add-bridge=eth1 --bridge-name=dmz-br

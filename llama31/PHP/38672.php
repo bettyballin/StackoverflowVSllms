@@ -1,0 +1,1 @@
+// Database 1 connection\n$dbh1 = new mysqli($hostname1, $username1, $password1, $database1);\n\n// Database 2 connection\n$dbh2 = new mysqli($hostname2, $username2, $password2, $database2);\n\n// Query database 1\n$result1 = $dbh1->query($query1);\n\n// Query database 2\n$result2 = $dbh2->query($query2);

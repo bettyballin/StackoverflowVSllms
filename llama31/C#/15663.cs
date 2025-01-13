@@ -1,1 +1,0 @@
-MySqlCommand cmd = new MySqlCommand();\ncmd.BatchSize = 100;

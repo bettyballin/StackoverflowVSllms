@@ -1,1 +1,0 @@
-IClearCase cc = new ApplicationClass();\nCCVOB vob = cc.get_VOB("\\VOB-name");\nCCView view = cc.get_View("ViewTag");\n\nstring directoryPath = "path/to/directory";\nCCVersion[] versions = cc.get_Versions(directoryPath);\n\nforeach (CCVersion version in versions)\n{\n    Console.WriteLine(version.Path);\n}

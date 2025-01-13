@@ -1,1 +1,0 @@
-git commit -m "Updated binary files"

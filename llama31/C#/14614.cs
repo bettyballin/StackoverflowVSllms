@@ -1,1 +1,0 @@
-// Use a secure storage mechanism, such as a secure cookie or a token store\nSecureTokenStore store = new SecureTokenStore();\nstring authToken = store.GenerateToken();

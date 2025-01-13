@@ -1,1 +1,0 @@
-InitFoo();\nInitializeFooIfNeeded();

@@ -1,1 +1,0 @@
-using (var myObject = new MyDisposableObject())\n{\n    // Use the object\n}\n\n// No need to set myObject to null here

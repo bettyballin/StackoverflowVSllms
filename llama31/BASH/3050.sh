@@ -1,1 +1,0 @@
-xsd.exe /c /nologo your_schema.xsd

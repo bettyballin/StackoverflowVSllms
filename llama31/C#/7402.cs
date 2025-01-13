@@ -1,1 +1,0 @@
-var groupedKeys = keys.GroupBy(k => k.Split(':').Last())\n                      .Select(g => g.ToList())\n                      .ToList();

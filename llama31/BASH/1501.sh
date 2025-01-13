@@ -1,1 +1,0 @@
-$ jattach 12345 load /usr/lib/jvm/java-8-openjdk-amd64/lib/amd64/libjdwp.so

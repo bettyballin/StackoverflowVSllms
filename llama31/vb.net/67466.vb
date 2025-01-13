@@ -1,0 +1,1 @@
+Dim siteComparer = New SiteComparer()\nDim List2 = (From i In db.Sites _\n             Where (i.StatusID = pending) _\n             Select i.SiteID, _\n                    i.SiteName).Except(List1, siteComparer)

@@ -1,0 +1,1 @@
+// Server-side (PHP)\n$data = array('name' => 'John', 'age' => 30);\n$html = '<div>Name: ' . $data['name'] . '</div><div>Age: ' . $data['age'] . '</div>';\necho $html;

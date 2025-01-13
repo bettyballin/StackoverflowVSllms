@@ -1,0 +1,1 @@
+import requests\n\nproxy_url = 'http://proxy.example.com:8080'\ntarget_url = 'http://example.com'\n\nproxies = {\n    'http': proxy_url,\n    'https': proxy_url\n}\n\nheaders = {\n    'Host': 'example.com'\n}\n\nresponse = requests.get(target_url, proxies=proxies, headers=headers)

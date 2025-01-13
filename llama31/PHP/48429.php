@@ -1,0 +1,1 @@
+echo '<li><a href="#" id="link1">Link 1</a></li>' . "\n";

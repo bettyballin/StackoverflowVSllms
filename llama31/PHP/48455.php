@@ -1,0 +1,1 @@
+$manager->setAttribute('model_loading', 'aggressive');

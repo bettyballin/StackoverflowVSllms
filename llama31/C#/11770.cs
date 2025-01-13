@@ -1,1 +1,0 @@
-Random rand = new Random(42); // use a fixed seed

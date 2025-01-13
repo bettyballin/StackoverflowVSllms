@@ -1,1 +1,0 @@
-// mydll.cpp\nint MyFunction(int x) { return x * 2; }

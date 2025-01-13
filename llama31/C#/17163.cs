@@ -1,1 +1,0 @@
-[XmlSerializerFormat]\npublic interface IYourServiceContract\n{\n    // ...\n}

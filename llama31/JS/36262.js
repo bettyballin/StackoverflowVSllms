@@ -1,0 +1,1 @@
+$(document).ready(function() {\n    $('#topleft').hide(); // Hide the #topleft div initially\n\n    $('#nav div').click(function() {\n        var targetDiv = $(this).data('target');\n        if (targetDiv === '#topleft') {\n            $(targetDiv).show();\n        } else {\n            $('#topleft').hide();\n        }\n    });\n});

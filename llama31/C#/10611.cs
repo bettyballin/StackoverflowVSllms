@@ -1,1 +1,0 @@
-public class Container : IDisposable\n{\n    private readonly DisposableObject _child;\n\n    public Container()\n    {\n        _child = new DisposableObject();\n    }\n\n    public void Dispose()\n    {\n        _child.Dispose();\n    }\n}\n\npublic class DisposableObject : IDisposable\n{\n    public void Dispose()\n    {\n        // Dispose of resources\n    }\n}

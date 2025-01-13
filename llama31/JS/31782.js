@@ -1,0 +1,1 @@
+function getElementAtPosition(x, y) {\n  const scrollX = window.pageXOffset;\n  const scrollY = window.pageYOffset;\n  return document.elementFromPoint(x + scrollX, y + scrollY);\n}

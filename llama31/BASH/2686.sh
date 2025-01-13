@@ -1,1 +1,0 @@
-"C:\Program Files\Microsoft Visual Studio 9.0\VB\Snippets\1033\snippets.exe" /reset

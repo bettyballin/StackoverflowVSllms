@@ -1,0 +1,1 @@
+<?xml version="1.0" encoding="utf-8"?>\n<configuration>\n  <system.diagnostics>\n    <switches>\n      <add name="Assembly" value="4"/>\n    </switches>\n  </system.diagnostics>\n</configuration>

@@ -1,1 +1,0 @@
-#include "gtest/gtest.h"\n\nTEST(MyTest, MyTest) {\n    int result = myFunction();\n    ASSERT_EQ(result, 1);\n}

@@ -1,0 +1,1 @@
+function foo() {\n    global $fu;\n    global $bah;\n    if (something()) {\n        $fu->doSomething();\n    } else {\n        $bah->doSomething();\n    }\n}

@@ -1,1 +1,0 @@
-var text = "<UL>\n<LI class=\"test\">This is the first ListItem Text. \n<LI>This is the second ListItem Test. </LI></UL>";\nvar regex = new Regex(@"<li[^>]*>(.*?)(?=</li>|<li>)", RegexOptions.IgnoreCase | RegexOptions.Singleline);\nvar matches = regex.Matches(text);\n\nforeach (Match match in matches)\n{\n    Console.WriteLine(match.Groups[1].Value);\n}

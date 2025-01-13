@@ -1,0 +1,1 @@
+require 'vendor/autoload.php';\n\nuse NewRelic\Agent\Agent;\n\n$agent = new Agent();\n$agent->startTransaction('my_app');\n// Run your PHP script...\n$agent->endTransaction();

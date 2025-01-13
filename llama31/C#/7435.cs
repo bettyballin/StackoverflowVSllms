@@ -1,1 +1,0 @@
-[AzManAuthorize("ViewReports")]\npublic partial class ReportsPage : Page\n{\n    // Page code here\n}

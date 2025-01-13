@@ -1,0 +1,1 @@
+// error.js.erb\nalert('An error occurred: <%= @exception.message %>');

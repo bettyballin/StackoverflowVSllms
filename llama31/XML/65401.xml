@@ -1,0 +1,1 @@
+<typedef name="pg-uuid" class="org.hibernate.type.PostgresUUIDType"/>

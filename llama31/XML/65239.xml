@@ -1,0 +1,1 @@
+<message name='genericArray'>\n    <part name='Result' type='xsd:sequence'>\n        <element name='item' type='xsd:string' minOccurs='0' maxOccurs='unbounded'/>\n    </part>\n</message>

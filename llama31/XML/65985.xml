@@ -1,0 +1,1 @@
+<Server>\n    <Service>\n        <Engine>\n            <Host>\n                <Context>\n                    <Manager className="com.example.CustomManager" />\n                </Context>\n            </Host>\n        </Engine>\n    </Service>\n</Server>

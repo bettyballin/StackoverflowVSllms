@@ -1,0 +1,1 @@
+Class Window1\n    Private obj As New MyListObject\n\n    Public Sub New()\n        InitializeComponent()\n        ComboBox1.ItemsSource = obj.MyList\n    End Sub\n\n    Private Sub btn_AddName_Click(ByVal sender As System.Object, ByVal e As System.Windows.RoutedEventArgs) _\n    Handles btn_AddName.Click\n        obj.AddName(TextBox1.Text)\n    End Sub\nEnd Class

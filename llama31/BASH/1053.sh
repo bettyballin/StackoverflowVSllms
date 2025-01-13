@@ -1,1 +1,0 @@
-chown apache:apache /etc/svn-access-file

@@ -1,1 +1,0 @@
-// Example code to demonstrate the difference in pointer size\n#include <stdio.h>\n\nint main() {\n    printf("Size of pointer on 32-bit system: %zu bytes\n", sizeof(void*));\n    printf("Size of pointer on 64-bit system: %zu bytes\n", sizeof(void*));\n    return 0;\n}

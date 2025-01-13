@@ -1,0 +1,1 @@
+<?php\ninclude_once 'db_config.php';\n// Rest of your code...\n?>

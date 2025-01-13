@@ -1,1 +1,0 @@
-tar --snapshot --exclude-vcs -cf archive.tar directory

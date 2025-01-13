@@ -1,0 +1,1 @@
+// Create a new element with the tag name 'N'\nvar nElement = document.createElement('N');\n\n// Add the element to the DOM\ndocument.body.appendChild(nElement);\n\n// Now, you can style the element using CSS\nnElement.style.display = 'block';

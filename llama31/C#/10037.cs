@@ -1,1 +1,0 @@
-byte[] rtfStream = ...; // your RTF stream\nstring plainText = RtfConverter.ConvertRtfToText(rtfStream);

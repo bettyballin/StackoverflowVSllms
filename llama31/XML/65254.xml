@@ -1,0 +1,1 @@
+<application name="adminconsole">\n  <jvm>\n    <heap size="1024" />\n  </jvm>\n</application>

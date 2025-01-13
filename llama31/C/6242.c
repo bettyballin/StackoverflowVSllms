@@ -1,1 +1,0 @@
-int x = -5;\nint absolute_value = (x ^ (x >> 31)) - (x >> 31);

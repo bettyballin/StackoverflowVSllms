@@ -1,0 +1,1 @@
+INSERT INTO PlayerRelations (Id, PlayerId, RelatedPlayerId) VALUES\n(1, 1, 2),\n(2, 1, 3);

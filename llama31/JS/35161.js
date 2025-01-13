@@ -1,0 +1,1 @@
+serverURLS = "https://abc.my.domain.com:55555/update";

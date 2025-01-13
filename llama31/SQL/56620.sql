@@ -1,0 +1,1 @@
+CREATE TABLE myuser.mytable (id NUMBER, name VARCHAR2(20));

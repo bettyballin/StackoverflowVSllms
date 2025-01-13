@@ -1,1 +1,0 @@
-SmtpClient sm = new SmtpClient();\nsm.DeliveryMethod = SmtpDeliveryMethod.Network;\nsm.Credentials = new NetworkCredential(tbUsername.Text, tbPassword.Text);\nsm.Host = host;\nsm.Port = port;\nsm.EnableSsl = true; // Set to true if the destination server requires SSL\nsm.Send(msg);

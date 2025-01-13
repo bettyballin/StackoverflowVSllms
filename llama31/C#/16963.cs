@@ -1,1 +1,0 @@
-Session.Remove("foo");

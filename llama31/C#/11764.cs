@@ -1,1 +1,0 @@
-StringCollection stringCollection = ...;\nList<string> list = new List<string>();\nforeach (string str in stringCollection)\n{\n    list.Add(str);\n}

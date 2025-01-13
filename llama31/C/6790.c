@@ -1,1 +1,0 @@
-GtkWidget *menu_item = gtk_menu_item_new_with_label("SomeText");\nGtkWidget *label = gtk_bin_get_child(GTK_BIN(menu_item));\ngtk_label_set_markup(GTK_LABEL(label), "<span foreground=\"red\">SomeText</span>");

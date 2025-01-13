@@ -1,0 +1,1 @@
+$dsn = 'sqlite:mydatabase.db';\n$pdo = new PDO($dsn);

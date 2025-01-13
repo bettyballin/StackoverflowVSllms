@@ -1,0 +1,1 @@
+import sys\nimport pkgutil\n\ndef check_module(module_name):\n    if module_name in sys.modules:\n        return True\n    elif pkgutil.find_loader(module_name):\n        return True\n    else:\n        return False\n\nprint(check_module("some_module"))

@@ -1,0 +1,1 @@
+function is_host_alive($host, $port = 80, $timeout = 3) {\n    $cmd = "nc -w $timeout -z $host $port";\n    exec($cmd, $output, $return_var);\n    return $return_var === 0;\n}\n\n$host = 'example.com';\nif (is_host_alive($host)) {\n    echo "$host is alive\n";\n} else {\n    echo "$host is not alive\n";\n}

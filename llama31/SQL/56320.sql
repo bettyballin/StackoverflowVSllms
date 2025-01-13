@@ -1,0 +1,1 @@
+DECLARE\n  batch_size NUMBER := 10000; -- adjust batch size as needed\nBEGIN\n  LOOP\n    UPDATE j_test\n    SET C3 = 1,\n        C1 = 'NEU'\n    WHERE C3 <> 1 OR C1 <> 'NEU'\n    AND ROWNUM <= batch_size;\n\n    EXIT WHEN SQL%ROWCOUNT = 0;\n    COMMIT;\n  END LOOP;\nEND;

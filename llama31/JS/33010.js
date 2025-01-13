@@ -1,0 +1,1 @@
+fetch('/api/data')\n  .then(response => response.json())\n  .then(data => {\n    console.log(data);\n    // Update the web page with the received data\n  })\n  .catch(error => console.error(error));

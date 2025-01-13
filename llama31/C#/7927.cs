@@ -1,1 +1,0 @@
-AppDomain.CurrentDomain.AssemblyResolve += (sender, args) =>\n{\n    var assemblyName = new AssemblyName(args.Name);\n    var container = // get your MEF CompositionContainer instance\n    var assembly = container.GetExports<Assembly>().FirstOrDefault(a => a.Metadata.Name == assemblyName.Name);\n    return assembly;\n};

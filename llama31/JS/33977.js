@@ -1,0 +1,1 @@
+// Example of caching using Redis\nconst redis = require('redis');\n\nconst cache = redis.createClient();\n\ncache.set('key', 'value', (err) => {\n    if (err) {\n        console.error(err);\n    }\n});

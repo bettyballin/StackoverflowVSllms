@@ -1,1 +1,0 @@
-string path = @"C:\Test\foo.txt";\nFileAttributes attr = File.GetAttributes(path);\n\nbool isFile = !attr.HasFlag(FileAttributes.Directory);

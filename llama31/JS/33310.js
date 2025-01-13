@@ -1,0 +1,1 @@
+$('#search-form').submit(function(event) {\n  event.preventDefault();\n  var searchKeyword = $('#search-input').val();\n  var targetUrl = 'https://domain.com/search?term=' + encodeURIComponent(searchKeyword);\n  window.open(targetUrl, '_blank');\n});

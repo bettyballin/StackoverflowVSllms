@@ -1,1 +1,0 @@
-class MyClass {\nprivate:\n    MyClass(int data); // private constructor\npublic:\n    friend MyClass createMyClass(int data);\n};\n\nMyClass createMyClass(int data) {\n    return MyClass(data);\n}

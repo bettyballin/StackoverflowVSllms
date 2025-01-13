@@ -1,0 +1,1 @@
+require 'date'\n\nstart_time = DateTime.parse("Mon Jul 20 18:25:17 -0400 2009")\nend_time = DateTime.parse("Mon Jul 20 18:49:43 -0400 2009")\n\nduration = end_time - start_time\n\nhours = (duration / 3600).to_i\nminutes = ((duration % 3600) / 60).to_i\nseconds = (duration % 60).to_i\n\nputs "Duration: #{hours} hours, #{minutes} minutes, #{seconds} seconds"

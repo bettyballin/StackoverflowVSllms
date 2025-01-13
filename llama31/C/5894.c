@@ -1,1 +1,0 @@
-#include <stdlib.h>\n\nint main() {\n    system("pon ppp0");\n    return 0;\n}

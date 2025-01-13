@@ -1,1 +1,0 @@
-List<SelectListItem> myList = db.Values.Select(v => new SelectListItem { Text = v.Text, Value = v.Value }).ToList();\nmyList.Insert(0, new SelectListItem { Text = "", Value = "" });\nSelectList selectList = new SelectList(myList, "Value", "Text");\n\n@Html.DropDownList("myList", selectList)

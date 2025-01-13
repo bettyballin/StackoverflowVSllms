@@ -1,1 +1,0 @@
-typedef struct {\n    PyObject_HEAD           // Python object header\n    Py_ssize_t ob_size;     // number of items in the list\n    PyObject **ob_item;     // pointer to the array of list elements\n    Py_ssize_t allocated;   // total allocated size of the array\n} PyListObject;

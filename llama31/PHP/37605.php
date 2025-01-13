@@ -1,0 +1,1 @@
+// deprecated code\nif (ereg('^\.+$', $filename)) {\n  // do something\n}\n\n// secure replacement\nif (preg_match('/^\.+$/', $filename)) {\n  // do something\n}

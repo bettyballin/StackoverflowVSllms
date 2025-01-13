@@ -1,0 +1,1 @@
+$thisXml = 'xml declaration stuff';\n\nfunction getThisXML($thisXML){\n  for($i=1; $i<5; $i++){\n    $query = "has the 5 in it";\n    while ($mysqlQuery = mysql_fetch_array($theQuery)) {\n      $thisXml .= 'add the xml';\n    }\n    $thisXml .= 'close the last element';\n  }\n  return $thisXml;\n}\n\n$thisXml = getThisXML($thisXml);\necho $thisXml;

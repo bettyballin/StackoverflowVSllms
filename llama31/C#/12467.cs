@@ -1,1 +1,0 @@
-// assume you have a DataGridView named 'dataGridView1' and a DataSet named 'ds'\n\n// bind the DataGridView to the DataSet\ndataGridView1.DataSource = ds;\ndataGridView1.DataMember = "YourTable";

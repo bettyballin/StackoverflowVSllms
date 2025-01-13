@@ -1,1 +1,0 @@
-html, body {\n  height: 100%;\n}\n\nbody {\n  display: flex;\n  flex-direction: column;\n}\n\n.footer {\n  background: #055830 url('/images/footer_tile.gif') repeat-x top left;\n  color: #fff;\n  font-size: 12px;\n  height: 70px;\n  margin-top: auto; /* Changed from 10px to auto */\n  font-family: Arial, Verdana, sans-serif;\n  width: 100%;\n}

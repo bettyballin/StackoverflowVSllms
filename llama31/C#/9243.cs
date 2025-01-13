@@ -1,1 +1,0 @@
-[WebMethod]\npublic static string TestMethod(string name)\n{\n    return "{\"result\":\"The value submitted was " + name + "\"}";\n}

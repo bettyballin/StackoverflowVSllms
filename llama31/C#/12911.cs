@@ -1,1 +1,0 @@
-using System;\nusing System.Text.RegularExpressions;\n\npublic static bool IsValidFilename(string filename)\n{\n    string regex = @"^(?!(?:CON|PRN|AUX|NUL|COM[0-9]|LPT[0-9])(?:\..*)?$)[^<>:""/\\|?*\t\r\n]+$";\n    return Regex.IsMatch(filename, regex);\n}

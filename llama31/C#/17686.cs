@@ -1,1 +1,0 @@
-public class UpdateStats : HttpTaskAsyncHandler\n{\n    public override async Task ProcessRequestAsync(HttpContext context)\n    {\n        // Process the request asynchronously\n    }\n}

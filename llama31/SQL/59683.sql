@@ -1,0 +1,1 @@
+CREATE TRIGGER t1_insert_trg ON t1 FOR INSERT AS\nBEGIN\n    MERGE INTO t2 AS target\n    USING inserted AS source\n    ON 1 = 0  -- always insert\n    WHEN NOT MATCHED THEN\n        INSERT (foo)\n        VALUES (source.foo)\n    OUTPUT inserted.id INTO @t2_inserts;\n\n    INSERT INTO t3 (t2_id)\n    SELECT id FROM @t2_inserts;\nEND

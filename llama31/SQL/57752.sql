@@ -1,0 +1,1 @@
+BEGIN\n  DBMS_SCHEDULER.CREATE_JOB (\n    job_name        => 'MY_SINGLETON_JOB',\n    job_type        => 'PLSQL_BLOCK',\n    job_action      => 'BEGIN MY_PROCEDURE; END;',\n    start_date      => SYSTIMESTAMP,\n    repeat_interval => 'FREQ=MINUTELY; INTERVAL=5',\n    end_date        => NULL,\n    enabled         => TRUE,\n    max_runs        => 1);\nEND;

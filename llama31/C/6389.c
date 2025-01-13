@@ -1,1 +1,0 @@
-// Example using sqlite-crypt\nsqlite3* db;\nchar* password = "my_secret_password";\nint rc = sqlite3_open("my_database.db", &db);\nif (rc == SQLITE_OK) {\n    sqlite3_key(db, password, strlen(password));\n    // ...\n}

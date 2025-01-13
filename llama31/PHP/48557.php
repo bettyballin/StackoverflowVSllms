@@ -1,0 +1,1 @@
+$username = $_GET['username'];\n// fetch user data from database using $username\n// display user profile

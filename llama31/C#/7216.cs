@@ -1,1 +1,0 @@
-public class ValidationResult\n{\n    public string ErrorMessage { get; set; }\n    public Severity Severity { get; set; }\n    public Uri MoreInfoLink { get; set; }\n}\n\npublic class MyValidator\n{\n    public ValidationResult Validate(MyDataObject data)\n    {\n        // Your validation logic here\n        // Return a ValidationResult object\n    }\n}

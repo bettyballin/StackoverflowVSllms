@@ -1,0 +1,1 @@
+// Using Puppeteer (Headless Chrome)\nconst puppeteer = require('puppeteer');\n\n(async () => {\n  const browser = await puppeteer.launch();\n  const page = await browser.newPage();\n  await page.goto('https://example.com/products');\n  const html = await page.content();\n  await browser.close();\n  // Save the static HTML content to a file or database\n})();

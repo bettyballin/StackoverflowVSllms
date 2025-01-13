@@ -1,1 +1,0 @@
-string JoinStrings(IEnumerable<string> list, string delimiter)\n{\n    if (!list.Any()) return "";\n    var first = list.First();\n    var rest = list.Skip(1);\n    return rest.Any() ? first + delimiter + JoinStrings(rest, delimiter) : first;\n}

@@ -1,1 +1,0 @@
-curl -X GET \\n  'https://www.alphavantage.co/query?function=GLOBAL_QUOTE&symbol=MSFT&apikey=YOUR_API_KEY'

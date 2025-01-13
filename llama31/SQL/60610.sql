@@ -1,0 +1,1 @@
+DECLARE @sql NVARCHAR(MAX) = '';\n\nSELECT @sql += 'ALTER TABLE ' + QUOTENAME(s.name) + '.' + QUOTENAME(t.name) + ' WITH CHECK CHECK CONSTRAINT ALL; '\nFROM sys.tables t\nINNER JOIN sys.schemas s ON t.schema_id = s.schema_id;\n\nEXEC sp_executesql @sql;

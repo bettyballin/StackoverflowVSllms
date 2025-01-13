@@ -1,0 +1,1 @@
+CREATE TABLE mytable (\n  mydate DATE CHECK (TRUNC(mydate, 'IW') + 1 != mydate)\n);

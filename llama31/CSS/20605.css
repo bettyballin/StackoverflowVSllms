@@ -1,1 +1,0 @@
-table tr.strike {\n  position: relative;\n}\n\ntable tr.strike:before {\n  content: "";\n  position: absolute;\n  top: 0;\n  left: 0;\n  width: 100%;\n  height: 100%;\n  border-bottom: 1px solid red;\n  transform: rotate(45deg);\n}

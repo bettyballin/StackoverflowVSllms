@@ -1,1 +1,0 @@
-# Backup the app directory\ntar -cvzf app.tgz app\n\n# If using SQLite3, backup the database file\ntar -cvzf db.tgz db/production.sqlite3\n\n# If using a database server (e.g., PostgreSQL, MySQL), use the database's backup tool\n# For example, with PostgreSQL:\npg_dump -U username database_name > backup.sql

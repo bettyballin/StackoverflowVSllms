@@ -1,0 +1,1 @@
+// Set a value\nwindow.sessionStorage.setItem('key', 'value');\n\n// Get a value\nvar value = window.sessionStorage.getItem('key');

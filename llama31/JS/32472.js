@@ -1,0 +1,1 @@
+function swapNameOrder(nameString) {\n  return nameString.replace(/([^,]+),\s*(.*)/, '$2 $1');\n}

@@ -1,0 +1,1 @@
+myHappyFunction($someBogusVar); // no error

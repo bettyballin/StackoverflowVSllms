@@ -1,0 +1,1 @@
+SELECT \n    CASEID,\n    GetNoteText(CASEID)\nFROM \n( \n    SELECT \n        CASEID \n    FROM \n        ATTACHMENTS \n    GROUP BY \n        CASEID \n) AS case_ids

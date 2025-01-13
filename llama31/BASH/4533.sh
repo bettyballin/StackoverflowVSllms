@@ -1,1 +1,0 @@
-gcov -b -c -f source_file.cpp

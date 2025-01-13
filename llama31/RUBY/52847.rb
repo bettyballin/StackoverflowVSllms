@@ -1,0 +1,1 @@
+# lib/ssl_requirement.rb\nmodule SslRequirement\n  # ...\n  def ssl_required?\n    return false if Rails.env.development? || Rails.env.test?\n    # ... rest of the code\n  end\nend

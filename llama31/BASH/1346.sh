@@ -1,1 +1,0 @@
-if [ -n "$INSIDE_EMACS" ]; then\n  export TERM=xterm\n  alias ls='ls --color=never'\nfi

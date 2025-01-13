@@ -1,0 +1,1 @@
+try {\n    xmlHttp.send(params);\n} catch (e) {\n    console.error(e);\n}

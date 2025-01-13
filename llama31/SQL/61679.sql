@@ -1,0 +1,1 @@
+SET foreign_key_checks = 0;\nALTER TABLE table_name DROP FOREIGN KEY constraint_name;

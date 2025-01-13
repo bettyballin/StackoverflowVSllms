@@ -1,1 +1,0 @@
-table {\n  border-collapse: collapse;\n  border-spacing: 0;\n  border-radius: 10px;\n  overflow: hidden;\n}\n\ntable th, table td {\n  border: 1px solid #ccc;\n}

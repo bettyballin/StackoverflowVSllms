@@ -1,1 +1,0 @@
-using (var cmd = GetCommand(sql))\n{\n    using (var reader = cmd.ExecuteReader())\n    {\n        dt1.Load(reader);\n        reader.NextResult();\n        dt2.Load(reader);\n        reader.NextResult();\n        dt3.Load(reader);\n    }\n}

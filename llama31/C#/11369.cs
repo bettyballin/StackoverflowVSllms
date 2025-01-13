@@ -1,1 +1,0 @@
-if (object1.CollidesWith(object2.GetBoundingBox()))\n{\n    // Handle collision\n}

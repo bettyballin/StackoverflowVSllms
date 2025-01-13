@@ -1,0 +1,1 @@
+mid = len(array) // 2\npivot = sorted([array[0], array[mid], array[-1]])[1]

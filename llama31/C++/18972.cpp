@@ -1,1 +1,0 @@
-QSqlQuery query;\nquery.prepare("INSERT INTO mytable (column) VALUES (:value)");\nquery.bindValue(":value", QVariant::null());\nquery.exec();

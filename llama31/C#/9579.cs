@@ -1,1 +1,0 @@
-using Costura;\n\n// ...\n\n[STAThread]\nstatic void Main()\n{\n    string[] args = new string[0];\n    if (AppDomain.CurrentDomain.SetupInformation.ActivationArguments != null)\n    {\n        args = AppDomain.CurrentDomain.SetupInformation.ActivationArguments.ActivationData;\n    }\n\n    AssemblyLoader.Attach();\n    // ...\n}

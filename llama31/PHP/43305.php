@@ -1,0 +1,1 @@
+$serverName = php_uname('n');\necho $serverName;

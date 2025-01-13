@@ -1,1 +1,0 @@
-AppDomain.CurrentDomain.AssemblyResolve += (sender, args) =>\n{\n    string assemblyName = args.Name.Split(',')[0];\n    string assemblyPath = Path.Combine("path/to/dependent/dlls", assemblyName + ".dll");\n\n    if (File.Exists(assemblyPath))\n    {\n        return Assembly.LoadFrom(assemblyPath);\n    }\n\n    return null;\n};

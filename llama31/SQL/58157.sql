@@ -1,0 +1,1 @@
+UPDATE your_table\nSET address = REPLACE(address, CHAR(13), '')

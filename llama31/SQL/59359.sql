@@ -1,0 +1,1 @@
+WHILE unprocessedRecordsLeft\nBEGIN\n    SELECT top 1 record from updateTable where Processed = 0\n    EXEC [dbo].[insertSomeDataWrapper] @param = record_From_UpdateTable\nEND

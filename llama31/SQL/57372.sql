@@ -1,0 +1,1 @@
+SELECT EmployeeId \nFROM dbo.EmpDept \nWHERE DeptId = 2\nINTERSECT\nSELECT EmployeeId \nFROM dbo.EmpDept \nWHERE DeptId = 3

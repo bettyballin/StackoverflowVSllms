@@ -1,0 +1,1 @@
+-- Disable the foreign key constraint\nALTER TABLE your_table_name DISABLE CONSTRAINT your_foreign_key_constraint_name;\n\n-- Alter the column\nALTER TABLE your_table_name MODIFY (your_column_name VARCHAR2(20));\n\n-- Re-enable the foreign key constraint\nALTER TABLE your_table_name ENABLE CONSTRAINT your_foreign_key_constraint_name;

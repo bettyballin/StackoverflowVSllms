@@ -1,0 +1,1 @@
+UPDATE tablename\nSET fieldname = UPDATETEXT(fieldname, NULL, NULL, 'appended string')

@@ -1,0 +1,1 @@
+# Store user agent in database\nuser_agent = request.user_agent\n\n# Verify user agent on each request\nif user_agent != request.user_agent:\n    # Invalidate token and log out user\n    pass

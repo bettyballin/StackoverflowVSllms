@@ -1,1 +1,0 @@
-.myLabel {\n  color: blue;\n}\n\n.myLabel:hover {\n  color: red;\n}\n\n.myLabel:hover ~ img {\n  background-image: url('new-image.png');\n}

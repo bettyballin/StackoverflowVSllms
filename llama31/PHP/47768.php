@@ -1,0 +1,1 @@
+$dateString = '02/31/2018';\n$dateParts = explode('/', $dateString);\nif (!checkdate($dateParts[0], $dateParts[1], $dateParts[2])) {\n    echo 'Invalid date';\n} else {\n    $date = new DateTime($dateString);\n    $formattedDate = $date->format('Y-m-d');\n}

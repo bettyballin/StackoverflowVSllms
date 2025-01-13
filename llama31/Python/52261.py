@@ -1,0 +1,1 @@
+ascii_str = '\\u003cfoo\\u003e'\nunicode_str = ascii_str.encode('utf-8').decode('unicode-escape')\nprint(unicode_str)  # prints '<foo/>'

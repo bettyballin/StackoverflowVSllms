@@ -1,0 +1,1 @@
+Imports System.Text.RegularExpressions\n\nDim mystring As String = "test, 7535, '1,830,000', '5,000,000'"\nDim pattern As String = ",(?=(?:[^']*'[^']*')*[^']*$)"\nDim S() As String = Regex.Split(mystring, pattern)\n\nFor Each item As String In S\n    Console.WriteLine(item)\nNext

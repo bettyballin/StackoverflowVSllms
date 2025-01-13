@@ -1,0 +1,1 @@
+SELECT \n  s.student_name, \n  GROUP_CONCAT(c.course_name SEPARATOR ', ') AS courses\nFROM \n  student s\n  JOIN courses c ON s.student_id = c.student_id\nGROUP BY \n  s.student_name

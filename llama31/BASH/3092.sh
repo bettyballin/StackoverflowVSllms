@@ -1,1 +1,0 @@
-java -Xmx10m HelloWorld

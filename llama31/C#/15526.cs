@@ -1,1 +1,0 @@
-string tempFilename = Server.MapPath(Guid.NewGuid().ToString() + ".png");\nchart.SaveImage(tempFilename, ChartImageFormat.Png);\nSystem.IO.File.Move(tempFilename, Server.MapPath(imageFilename), true);

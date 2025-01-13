@@ -1,0 +1,1 @@
+$stmt = $db->prepare("SELECT * FROM users WHERE id = ?");\n$stmt->bind_param("i", $_GET['id']);\n$stmt->execute();\n$user_res = $stmt->get_result();\n$user = $user_res->fetch_assoc();

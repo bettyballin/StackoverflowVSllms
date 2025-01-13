@@ -1,1 +1,0 @@
-// VSTS Profiling API\nusing Microsoft.VisualStudio.Profiler;\n\n// ANTS Profiling API\nusing RedGate.ANTS.Profiler;\n\n// dotTrace Profiling API\nusing JetBrains.dotTrace.Profiler;

@@ -1,0 +1,1 @@
+Dim dsNewFiles = From l1 In list1 _\n                  Where Not (From l2 In list2 _\n                             Select New With {Key l2.id, Key l2.timestamp}).Contains(New With {Key l1.id, Key l1.timestamp})

@@ -1,1 +1,0 @@
-using Microsoft.Web.Administration;\n\nServerManager serverManager = new ServerManager();\nserverManager.ApplicationPools["DefaultAppPool"].Recycle();

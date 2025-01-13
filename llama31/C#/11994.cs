@@ -1,1 +1,0 @@
-public ActionResult Index()\n{\n    var viewModel = new MyViewModel();\n    var gridModel = new GridModel(viewModel.MyData);\n\n    // Set the default sort order\n    gridModel.Sort(new[] { "ColumnName" }, new[] { SortDirection.Ascending });\n\n    return View(gridModel);\n}

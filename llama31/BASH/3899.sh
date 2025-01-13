@@ -1,1 +1,0 @@
-#!/bin/bash\n\n# Checkout the latest code from Git\ngit checkout master\ngit pull origin master\n\n# Run database migrations\nphp bin/console doctrine:migrations:migrate\n\n# Update environment-specific settings\ncp env.prod .env\n\n# Clear cache and restart services\nphp bin/console cache:clear\nsudo service php-fpm restart

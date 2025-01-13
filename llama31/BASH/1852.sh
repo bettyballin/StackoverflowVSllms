@@ -1,1 +1,0 @@
--- Convert SQL Server schema to MySQL using sql2mysql\nsql2mysql -f sqlserver.sql -o mysql.sql

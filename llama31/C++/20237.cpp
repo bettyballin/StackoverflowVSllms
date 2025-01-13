@@ -1,1 +1,0 @@
-// header.h\n#if !defined(HEADER_RANDOM_H)\n#define HEADER_RANDOM_H\nvoid foo(); // declaration only\n#endif\n\n// header.cpp\n#include "header.h"\nvoid foo() { // definition\n    // something\n}

@@ -1,1 +1,0 @@
-// SocketServer.h\n#ifndef SOCKETSERVER_H\n#define SOCKETSERVER_H\n\nclass CSocketServer\n{\npublic:\n    CSocketServer();\n    ~CSocketServer();\n\n    void SendCommand(const char* command);\n    void GetData(char* data);\n};\n\n#endif // SOCKETSERVER_H

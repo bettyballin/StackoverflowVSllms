@@ -1,0 +1,1 @@
+const element = document.querySelector('.element');\nconst text = 'Dynamic Text'; // Replace with your dynamic text\n\nelement.style.setProperty('--background-text', `"${text}"`);

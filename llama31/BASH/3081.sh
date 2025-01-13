@@ -1,1 +1,0 @@
-gcc -Wl,--verbose -o output_file source_file.c

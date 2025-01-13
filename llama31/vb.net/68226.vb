@@ -1,0 +1,1 @@
+Public Overrides Function GetHashCode() As Integer\n    Dim hash As Integer = 17\n    hash = hash * 23 + Me.First.GetHashCode()\n    hash = hash * 23 + Me.Second.GetHashCode()\n    hash = hash * 23 + Me.Third.GetHashCode()\n    hash = hash * 23 + Me.Fourth.GetHashCode()\n    Return hash\nEnd Functio

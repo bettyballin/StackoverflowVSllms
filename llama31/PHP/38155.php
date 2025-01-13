@@ -1,0 +1,1 @@
+$array = array("apple", "banana", "cap", "dog", ...);\n$str = "abc";\n\nif (in_array($str, $array)) {\n    echo "It exists";\n} else {\n    echo "It does not exist";\n}

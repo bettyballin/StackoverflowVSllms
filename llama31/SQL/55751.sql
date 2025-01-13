@@ -1,0 +1,1 @@
+CREATE TEMPORARY TABLE aggregated_votes (\n  site VARCHAR(255),\n  total_votes_up INT\n);

@@ -1,0 +1,1 @@
+<configuration>\n  <system.webServer>\n    <httpRedirect enabled="true" exactDestination="true" httpResponseStatus="Permanent">\n      <add wildcard="*" destination="http://www.mydomain.com$S$Q" />\n    </httpRedirect>\n  </system.webServer>\n</configuration>

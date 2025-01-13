@@ -1,1 +1,0 @@
-echo "rdr pass on em0 from any to xx.xx.xx.xx -> zz.zz.zz.zz" | pfctl -ef -

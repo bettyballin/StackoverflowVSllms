@@ -1,1 +1,0 @@
-[ServiceContract]\npublic interface IServiceContract\n{\n    [OperationContract]\n    [WebInvoke(Method = "PUT", ResponseFormat = WebMessageFormat.Http)]\n    void PutMethod(RequestData requestData, out HttpStatusCode statusCode);\n}

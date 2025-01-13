@@ -1,0 +1,1 @@
+$string = 'your_url_here';\n$hash = hash('sha256', $string);\n// or for a longer hash\n$hash = hash('sha512', $string);

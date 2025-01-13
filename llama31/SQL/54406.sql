@@ -1,0 +1,1 @@
+SELECT * \nFROM sometable \nAS OF TIMESTAMP sysdate-1 \nWHERE some_condition \nAND ora_rowscn BETWEEN \n    (SELECT ora_rowscn \n     FROM sometable \n     AS OF TIMESTAMP sysdate-2 \n     WHERE some_condition) \n    AND \n    (SELECT ora_rowscn \n     FROM sometable \n     AS OF TIMESTAMP sysdate-0.5 \n     WHERE some_condition)

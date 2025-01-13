@@ -1,1 +1,0 @@
-#include <stdint.h>\n\nint8_t   // 8-bit signed integer\nuint8_t  // 8-bit unsigned integer\nint16_t  // 16-bit signed integer\nuint16_t // 16-bit unsigned integer\nint32_t  // 32-bit signed integer\nuint32_t // 32-bit unsigned integer\nint64_t  // 64-bit signed integer\nuint64_t // 64-bit unsigned integer

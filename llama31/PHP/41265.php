@@ -1,0 +1,1 @@
+$m = new Memcached();\n$m->setOption(Memcached::OPT_DISTRIBUTION, Memcached::DISTRIBUTION_CONSISTENT);\n$m->setOption(Memcached::OPT_LIBKETAMA_COMPATIBLE, true);

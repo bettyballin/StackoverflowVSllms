@@ -1,1 +1,0 @@
-[AttributeUsage(AttributeTargets.Method)]\npublic sealed class AuthorizeAttribute : Attribute\n{\n    public Roles[] Roles { get; set; }\n}\n\n[Authorize(Roles = Roles.Admin)]\npublic void DeleteOrder(int orderId)\n{\n    // Delete order logic\n}

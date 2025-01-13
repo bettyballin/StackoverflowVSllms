@@ -1,0 +1,1 @@
+$selectedColors = $_POST['colors'];\n\nforeach ($selectedColors as $color) {\n    echo $color . "\n";\n}

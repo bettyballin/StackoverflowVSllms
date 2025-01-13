@@ -1,1 +1,0 @@
-[DllImport("YourCppDll.dll", CallingConvention = CallingConvention.Cdecl)]\nextern static int YourCppFunction(int param1, int param2);

@@ -1,0 +1,1 @@
+CREATE TABLE t (x int, y int);\nINSERT INTO t (x, y) VALUES (7, 2), (3, 0), (4, 1);\n\nSELECT x, y, x / y AS quot FROM t;\n-- returns an error\n\nSELECT x, y, x / y AS quot FROM t WHERE y != 0;\n-- returns the filtered rows\n\nSELECT x, y, x / y AS quot FROM t WHERE x % 2 = 0;\n-- returns the filtered rows

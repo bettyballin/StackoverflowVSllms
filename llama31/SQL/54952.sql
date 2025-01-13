@@ -1,0 +1,1 @@
+BEGIN\n    INSERT INTO my_table (column) VALUES ('value1');\n    INSERT INTO my_table (column) VALUES ('value2');\nEND;

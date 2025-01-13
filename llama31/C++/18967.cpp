@@ -1,1 +1,0 @@
-m_pLabel->SetText(description);\nm_pStatusBar->RecalcLayout();

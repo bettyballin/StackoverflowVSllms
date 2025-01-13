@@ -1,1 +1,0 @@
-SqlCommand command = new SqlCommand("SELECT * FROM Table1 WHERE Id = @Id", connection);\ncommand.Parameters.AddWithValue("@Id", 123);

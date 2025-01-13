@@ -1,0 +1,1 @@
+# please ensure proper  input validation and output encoding \n# to prevent security issues like SQL injection, cross site scripting (XSS)

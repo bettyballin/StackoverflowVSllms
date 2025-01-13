@@ -1,0 +1,1 @@
+from setuptools import setup\n\nsetup(\n    name='foo',\n    version='1.0',\n    packages=['foo'],\n    package_data={'foo': ['resources/*']},\n    # or\n    # data_files=[('share/foo', ['foo/resources/*'])],\n)

@@ -1,1 +1,0 @@
-Entity e = new Entity();\ne.MoveTo(Foo);\n\n// Later on...\ne.MoveTo(Bar);

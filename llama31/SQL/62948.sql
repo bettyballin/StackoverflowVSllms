@@ -1,0 +1,1 @@
+-- original query\nSELECT TOP(X) [colnames]\nFROM [tables with joins]\nWHERE [constraints]\nGROUP BY [cols]\nORDER BY [cols]\n\n-- transformed query\nSELECT COUNT(*)\nFROM (\n  SELECT [colnames]\n  FROM [tables with joins]\n  WHERE [constraints]\n  GROUP BY [cols]\n) t

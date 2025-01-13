@@ -1,0 +1,1 @@
+,String\match($string1, $string2);

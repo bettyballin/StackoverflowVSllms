@@ -1,0 +1,1 @@
+SELECT * FROM query1\nUNION ALL\nSELECT * FROM query2;

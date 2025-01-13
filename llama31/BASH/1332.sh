@@ -1,1 +1,0 @@
-sed -i 's/\/files\//\/sites\/default\/files\//g' database_dump.sql

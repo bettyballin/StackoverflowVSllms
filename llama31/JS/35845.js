@@ -1,0 +1,1 @@
+xmlHttp.onreadystatechange = function() \n{\n    alert("entered call back function. readstate value is: "+xmlHttp.readyState+". Response Text is: "+xmlHttp.responseText);\n    // ...\n}

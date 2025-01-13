@@ -1,1 +1,0 @@
-public class SearchController : Controller\n{\n    [HttpPost]\n    public JsonResult Search(string query)\n    {\n        // Validate and sanitize query parameter\n        query = HtmlEncode(query);\n        // ...\n    }\n}

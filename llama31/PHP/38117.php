@@ -1,0 +1,1 @@
+var_dump(False == 0); // bool(true)\nvar_dump(False == Null); // bool(true)

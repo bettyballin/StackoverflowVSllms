@@ -1,1 +1,0 @@
-function test {\n  1..3 | % {\n    echo "args inside pipeline: $($PSBoundParameters.Values)"\n  }\n  echo "args outside pipeline: $args"\n}

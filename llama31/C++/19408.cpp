@@ -1,1 +1,0 @@
-void Camera::getCameraValuesFromMatrix(float m[16]) {\n    // Extract the camera values from the modelview matrix\n    eye.x = -m[12];\n    eye.y = -m[13];\n    eye.z = -m[14];\n\n    up.x = m[4];\n    up.y = m[5];\n    up.z = m[6];\n\n    lookAt.x = eye.x + m[0];\n    lookAt.y = eye.y + m[1];\n    lookAt.z = eye.z + m[2];\n}

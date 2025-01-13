@@ -1,0 +1,1 @@
+ON trn.train_tpps_id||trn.mine_code = td.train_id||td.mine_code

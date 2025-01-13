@@ -1,1 +1,0 @@
-myProcess.Exited += (sender, e) => {\n    Console.WriteLine(myProcess.Id);\n    Console.WriteLine(myProcess.ProcessName);\n};\nmyProcess.Start();

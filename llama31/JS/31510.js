@@ -1,0 +1,1 @@
+var regex = /^\+?\d*\.{0,1}\d+$/;\nvar inputValue = "+23"; // Example input\n\nif (regex.test(inputValue)) {\n    console.log("Valid positive number");\n} else {\n    console.log("Invalid input");\n}

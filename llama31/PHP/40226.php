@@ -1,0 +1,1 @@
+$some_json_value = file_get_contents("some_html_doc.html");\n$some_json_value = str_replace(["\r\n", "\r", "\n"], "", $some_json_value); // Removes line breaks\n$some_json_value = json_encode($some_json_value); // Then encode it\n\necho "{";\necho "\"foo\":$some_json_value";\necho "}";

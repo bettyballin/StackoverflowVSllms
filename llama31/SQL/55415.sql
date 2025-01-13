@@ -1,0 +1,1 @@
+SELECT a.foo, b.foo\nFROM a\nINNER JOIN b ON a.x = b.x;

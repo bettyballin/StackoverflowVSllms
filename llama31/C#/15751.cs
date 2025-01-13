@@ -1,1 +1,0 @@
-using System.IO;\n\npublic Shared IEnumerable<string> allFiles()\n{\n    return Directory.EnumerateFiles(<ServerLocation>, "*.*", SearchOption.AllDirectories);\n}

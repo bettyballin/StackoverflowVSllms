@@ -1,0 +1,1 @@
+function renderPhpToString($templateFile, $variables) {\n    ob_start();\n    extract($variables);\n    include $templateFile;\n    $output = ob_get_clean();\n    return $output;\n}\n\n$text = renderPhpToString('hello.php', array('foo'=>'World'));\necho $text; // outputs "Hello, World!"

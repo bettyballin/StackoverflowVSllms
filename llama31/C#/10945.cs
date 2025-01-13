@@ -1,1 +1,0 @@
-TextWriter originalOut = Interlocked.Exchange(ref Console.Out, new MyTextWriterClass(Console.Out));

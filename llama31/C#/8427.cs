@@ -1,1 +1,0 @@
-public class MyClass<T>\n{\n    public MyClass()\n    {\n        if (!typeof(T).IsSerializable)\n        {\n            throw new ArgumentException("Type is not serializable");\n        }\n    }\n}

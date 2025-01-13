@@ -1,0 +1,1 @@
+$presignedUrl = $s3->getObjectUrl('your-bucket-name', 'file-name', '+1 hours');

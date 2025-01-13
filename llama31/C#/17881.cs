@@ -1,1 +1,0 @@
-// Example usage of null-conditional operator in C#\nstring name = customer.Name ?? "Unknown";

@@ -1,1 +1,0 @@
-Dictionary<Node, List<Node>> nodePairs = new Dictionary<Node, List<Node>>();

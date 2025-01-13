@@ -1,0 +1,1 @@
+$str = preg_replace('/(https?:\/\/[^\s]+|www\.[^\s]+)/', '<a href="$1">$1</a>', $str);

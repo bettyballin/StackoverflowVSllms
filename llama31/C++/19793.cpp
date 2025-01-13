@@ -1,1 +1,0 @@
-#include <set>\n\nint main() {\n    std::set<int> mySet = {1, 2, 3, 4, 5};\n\n    // Using member find method (binary search)\n    auto it1 = mySet.find(3); // O(log n)\n\n    // Using static find method (linear search)\n    auto it2 = std::find(mySet.begin(), mySet.end(), 3); // O(n)\n\n    return 0;\n}

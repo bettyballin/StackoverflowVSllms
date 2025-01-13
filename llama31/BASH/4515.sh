@@ -1,1 +1,0 @@
-gcc -nostdinc -I/path/to/new/header -include new/header.h your_file.c

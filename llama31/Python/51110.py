@@ -1,0 +1,1 @@
+import os\nimport mymodule\n\nmodule_dir = os.path.dirname(mymodule.__file__)\nprint(module_dir)

@@ -1,1 +1,0 @@
-mysqldump -u USER --password=MYPASSWORD DATABASE_TO_DUMP -h HOST > backup.sql

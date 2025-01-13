@@ -1,0 +1,1 @@
+ALTER TABLE your_table_name\nALTER COLUMN your_column_name DROP IDENTITY;

@@ -1,0 +1,1 @@
+$_SESSION['login']['email'] = "ntohuh";\nprint_r($_SESSION); // print the session variable immediately after setting the value

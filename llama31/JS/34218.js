@@ -1,0 +1,1 @@
+const arr1 = [1, 2, 3];\nconst arr2 = [2, 4, 5];\n\nconsole.log(arr1.includes(arr2[0])); // true\nconsole.log(arr1.includes(arr2[1])); // false

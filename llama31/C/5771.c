@@ -1,1 +1,0 @@
-freeMultiArray(multi, 10);

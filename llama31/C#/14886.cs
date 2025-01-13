@@ -1,1 +1,0 @@
-Uri uri = new Uri(Request.Url.AbsoluteUri);\nstring result = uri.GetLeftPart(UriPartial.Authority);

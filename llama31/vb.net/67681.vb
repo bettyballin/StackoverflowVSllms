@@ -1,0 +1,1 @@
+' Add your DLL to the COM+ application\nDim components As COMAdmin.COMAdminCatalogCollection\nSet components = app.GetCollection("Components")\nDim component As COMAdmin.COMAdminCatalogObject\nSet component = components.Add()\ncomponent.Value("Name") = "MyDLL"\ncomponent.Value("Description") = "My DLL"\ncomponent.Value("ProgID") = "MyDLL.MyClass"\ncomponents.SaveChanges()

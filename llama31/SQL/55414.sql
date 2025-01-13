@@ -1,0 +1,1 @@
+SELECT \n  FLOOR(seconds / 3600) AS hours,\n  FLOOR((seconds % 3600) / 60) AS minutes,\n  seconds % 60 AS seconds\nFROM your_table;

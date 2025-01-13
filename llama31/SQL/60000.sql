@@ -1,0 +1,1 @@
+CREATE PROCEDURE UpdateMultipleTables\n    @new_value INT,\n    @table1_id INT,\n    @table2_id INT,\n    @table3_id INT\nAS\nBEGIN\n    UPDATE Table1 SET field1 = @new_value WHERE id = @table1_id;\n    UPDATE Table2 SET field2 = @new_value WHERE id = @table2_id;\n    UPDATE Table3 SET field3 = @new_value WHERE id = @table3_id;\nEND;

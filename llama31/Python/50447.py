@@ -1,0 +1,1 @@
+text = "Hello, World!"\ntext = text.replace("World", "Python")\nprint(text)

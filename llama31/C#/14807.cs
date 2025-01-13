@@ -1,1 +1,0 @@
-string[] args = Environment.GetEnvironmentVariable("ARGS").Split(' ');

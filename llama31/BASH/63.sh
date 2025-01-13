@@ -1,1 +1,0 @@
-inliner -i yourpage.html -o yourpage_inlined.html

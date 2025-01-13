@@ -1,0 +1,1 @@
+Private Sub Label1_MouseMove(sender As Object, e As MouseEventArgs) Handles Label1.MouseMove\n    If isDragging Then\n        Dim cursorPosition = Cursor.Position\n        Dim clientPosition = Label1.PointToClient(cursorPosition)\n        Dim deltaY = clientPosition.Y - initialMousePosition.Y\n        ' Update the knob's value based on deltaY\n        ' ...\n    End If\nEnd Sub

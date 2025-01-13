@@ -1,0 +1,1 @@
+import cProfile\n\ndef performProfile(self):\n    cProfile.runctx("self.profileCommand(1000000)", globals(), locals())\n\ndef profileCommand(self, a):\n    for i in a:\n        pass

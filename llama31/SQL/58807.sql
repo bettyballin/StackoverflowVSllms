@@ -1,0 +1,1 @@
+SELECT m1.*\nFROM mytable m1\nJOIN (\n  SELECT ticket_id\n  FROM mytable\n  WHERE COMPLETIONDATE >= TO_DATE('29/06/08','DD/MM/YY')\n  AND COMPLETIONDATE <= TO_DATE('29/06/09','DD/MM/YY')\n) m2\nON m1.ticket_id = m2.ticket_id;

@@ -1,1 +1,0 @@
-bool ContainsAny(string myString) => listOfStrings.Any(s => myString.Contains(s));

@@ -1,0 +1,1 @@
+// In the iframe\n$.ajax({\n  url: 'https://example.com/ad-data.json',\n  dataType: 'jsonp',\n  success: function(data) {\n    // Process the ad data\n  }\n});

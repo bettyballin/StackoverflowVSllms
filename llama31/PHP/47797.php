@@ -1,0 +1,1 @@
+$conn = mysql_connect('localhost', 'mysql_user', 'mysql_password');\nmysql_set_charset('utf8', $conn);

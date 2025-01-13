@@ -1,0 +1,1 @@
+$id = $_GET['id'];\n$email = $_GET['email'];\n$post_data = $_POST;

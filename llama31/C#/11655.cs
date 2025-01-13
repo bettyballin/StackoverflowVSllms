@@ -1,1 +1,0 @@
-if (!Convert.IsDBNull(myDataRow["MyBooleanColumn"]))\n{\n    bool myBoolean = (bool)myDataRow["MyBooleanColumn"];\n    // myBoolean is not null, you can use its value\n}\nelse\n{\n    // myBoolean is null, handle accordingly\n}

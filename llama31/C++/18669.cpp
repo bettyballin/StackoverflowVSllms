@@ -1,1 +1,0 @@
-std::thread t1([]() { /* do work */ });\nstd::thread t2([]() { /* do work */ });

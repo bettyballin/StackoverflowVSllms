@@ -1,1 +1,0 @@
-lockfile -r 0 /path/to/nfs/mounted/lockfile

@@ -1,0 +1,1 @@
+if (Login::isAuthenticated()) {\n    echo '<a href="/sign-out/">Sign Out</a>';\n}

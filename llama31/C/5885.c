@@ -1,1 +1,0 @@
-enum input_values {\n    GET = 'g',\n    QUIT = KEY_F(9),\n    // ...\n};\n\nenum input_values ch;

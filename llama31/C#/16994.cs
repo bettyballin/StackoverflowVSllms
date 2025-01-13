@@ -1,1 +1,0 @@
-var excludedStates = new[] { "CA", "IN", "MD" };\n\nvar authors = from a in db.authors\n              where !excludedStates.Contains(a.state)\n              select new { a.au_lname, a.state };

@@ -1,0 +1,1 @@
+# script/performance/sessions/login_and_dashboard.rb\nrequire 'performance/session'\n\nsession = Performance::Session.new\nsession.login('username', 'password')\nsession.get('/dashboard')\nsession.close

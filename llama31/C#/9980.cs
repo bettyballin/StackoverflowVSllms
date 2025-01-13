@@ -1,1 +1,0 @@
-using DocumentFormat.OpenXml;\nusing DocumentFormat.OpenXml.Packaging;\nusing DocumentFormat.OpenXml.Spreadsheet;\n\n// Load the .xlsx file\nusing (SpreadsheetDocument doc = SpreadsheetDocument.Open("file.xlsx", true))\n{\n    // Read the file content\n    Sheet sheet = doc.WorkbookPart.Workbook.GetFirstChild<Sheet>();\n    // ...\n}

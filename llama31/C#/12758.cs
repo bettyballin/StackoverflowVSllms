@@ -1,1 +1,0 @@
-Type oClassType = Type.GetTypeFromProgID("YourCOMLibraryProgID");

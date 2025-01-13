@@ -1,0 +1,1 @@
+$conn = new mysqli($servername, $username, $password, $dbname);\n\nif (count($_POST)) {\n\n  $username = $_POST['username'];\n  $passwd = $_POST['passwd'];\n\n  $stmt = $conn->prepare("INSERT INTO users (username, password) VALUES (?, ?)");\n  $stmt->bind_param("ss", $username, $passwd);\n  $stmt->execute();\n\n}

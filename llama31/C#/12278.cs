@@ -1,1 +1,0 @@
-Process P1 = new Process();\nP1.FileName = "myexe.exe";\n// ...\n\n// In the cancel button's event:\nP1.Kill();

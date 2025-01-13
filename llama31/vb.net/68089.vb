@@ -1,0 +1,1 @@
+Dim db As DAO.Database\nDim qdf As DAO.QueryDef\nDim strSQL As String\n\nSet db = CurrentDb()\n\nstrSQL = "SELECT * FROM db WHERE col1 = [p1] AND col2 = [p2] AND col3 = [p3]"\n\nSet qdf = db.CreateQueryDef("", strSQL)\nqdf.Parameters("p1").Value = 5\nqdf.Parameters("p2").Value = 123\nqdf.Parameters("p3").Value = 42\n\nqdf.Execute

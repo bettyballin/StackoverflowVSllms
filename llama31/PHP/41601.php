@@ -1,0 +1,1 @@
+$list = array(1, 2, 3, 4); // Example IDs\n$placeholders = implode(',', array_fill(0, count($list), '?'));\n\n$query = "UPDATE foo SET flag = true WHERE id IN ($placeholders)";\n\n// Assuming you're using PDO for database interaction\n$stmt = $pdo->prepare($query);\n$stmt->execute($list);

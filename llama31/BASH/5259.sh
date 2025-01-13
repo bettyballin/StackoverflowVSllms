@@ -1,1 +1,0 @@
-msiexec /i FoxitReader.msi /silent /norestart /reg

@@ -1,0 +1,1 @@
+$dbname = getenv('DB_NAME');

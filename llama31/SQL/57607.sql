@@ -1,0 +1,1 @@
+SELECT DISTINCT t1.UserId\nFROM Table1 t1\nWHERE t1.UserId != 1  -- exclude the current user\nAND NOT EXISTS (\n  SELECT 1\n  FROM Table1 t2\n  WHERE t2.UserId = t1.UserId\n  AND t2.EntityId NOT IN (\n    SELECT EntityId\n    FROM Table1\n    WHERE UserId = 1  -- get entities for the current user\n  )\n)

@@ -1,0 +1,1 @@
+<!-- home.ctp -->\n<?= $this->extend('default') ?>\n\n<?= $this->section('header') ?>\n    <!-- custom header code for home page -->\n<?= $this->endSection() ?>

@@ -1,1 +1,0 @@
-chmod 755 MyApp/bin/wrapper

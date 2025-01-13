@@ -1,1 +1,0 @@
-public ActionResult MyAction()\n{\n    TempData["Message"] = "Your message here";\n    return RedirectToAction("Index");\n}

@@ -1,1 +1,0 @@
-# Install Hugo\nbrew install hugo\n\n# Create a new site\nhugo new site myblog\n\n# Configure FTP/SFTP deployment\nhugo deploy --ftp-url ftp://example.com --ftp-username user --ftp-password pass

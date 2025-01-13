@@ -1,0 +1,1 @@
+try {\n    $mailer = new Swift_Mailer($transport);\n    // ...\n} catch (Swift_TransportException $e) {\n    // Handle exception, e.g., log error, display user message\n}

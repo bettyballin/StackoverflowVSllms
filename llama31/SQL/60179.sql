@@ -1,0 +1,1 @@
+SELECT name, value FROM v$parameter WHERE name = 'log_switch_interval';

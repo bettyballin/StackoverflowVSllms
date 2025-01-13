@@ -1,0 +1,1 @@
+$i = 5;\np($i); // outputs: $i is 5\n\np(1 + 2); // outputs: 1 + 2 is 3\n\np($i * 2); // outputs: $i * 2 is 10

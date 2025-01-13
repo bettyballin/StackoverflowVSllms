@@ -1,0 +1,1 @@
+ALTER TABLE Orders\nADD COLUMN CloseReasonID (FK referencing OrderCloseReasons);

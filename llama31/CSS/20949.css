@@ -1,1 +1,0 @@
-/* For IE6 */\n.table-background {\n  background-image: url('your-image.png');\n  background-repeat: no-repeat;\n  _background-image: none;\n  _filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='your-image.png', sizingMethod='scale');\n}

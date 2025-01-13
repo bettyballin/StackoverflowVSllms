@@ -1,0 +1,1 @@
+function getProject(id) {\n    $(document).ready(function() {\n        $.getJSON("/Portfolio/DisplayProjectAjax/" + id,\n          {},\n          function(data) {\n              $("#Title").text(data.Title);\n          });\n    }); \n}

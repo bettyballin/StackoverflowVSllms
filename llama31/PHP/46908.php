@@ -1,0 +1,1 @@
+// autoload.php\nfunction autoload($class) {\n    $file = __DIR__ . '/' . $class . '.php';\n    if (file_exists($file)) {\n        require_once $file;\n    }\n}\n\n// page.php\nrequire_once 'autoload.php';\n\n// Only load the library when needed\nif (isset($_POST['edit'])) {\n    $editor = new Editor();\n    // Use the editor library\n}

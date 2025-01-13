@@ -1,0 +1,1 @@
+$options = getopt(null, array('a:', 'b:', 'c'));\nprint_r($options);

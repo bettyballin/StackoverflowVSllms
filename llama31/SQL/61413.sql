@@ -1,0 +1,1 @@
+-- MySQL example\nSET GLOBAL read_only = 1;

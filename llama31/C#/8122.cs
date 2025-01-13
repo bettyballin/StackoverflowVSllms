@@ -1,1 +1,0 @@
-// Create a client instance\nDeviceServiceClient client = new DeviceServiceClient();\n\n// Send configuration\nDeviceConfig config = new DeviceConfig();\nclient.SendConfiguration(config);\n\n// Retrieve data\nDeviceData data = client.RetrieveData();

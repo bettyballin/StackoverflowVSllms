@@ -1,1 +1,0 @@
-LD_PRELOAD=/path/to/libredirect.so ./applicatio

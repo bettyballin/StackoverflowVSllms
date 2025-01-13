@@ -1,1 +1,0 @@
-// Process A (server)\nusing System.Runtime.Remoting.Channels.Ipc;\n\nvar channel = new IpcChannel("myChannel");\nChannelServices.RegisterChannel(channel, true);\n\n// Process B (client)\nusing System.Runtime.Remoting.Channels.Ipc;\n\nvar channel = new IpcChannel("myChannel");\nChannelServices.RegisterChannel(channel, true);

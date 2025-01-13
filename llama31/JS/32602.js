@@ -1,0 +1,1 @@
+$("#myDOMObject").append("some text");

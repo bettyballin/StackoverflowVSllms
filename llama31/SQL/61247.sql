@@ -1,0 +1,1 @@
+SELECT d.date, o.option, COUNT(*)\nFROM (\n  SELECT *\n  FROM TABLE(DATE_RANGE(TRUNC(SYSDATE, 'MM'), SYSDATE))\n) d\nLEFT JOIN your_table o\n  ON d.date BETWEEN o.start_date AND o.end_date\nGROUP BY d.date, o.option\nORDER BY d.date, o.option;

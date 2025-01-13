@@ -1,1 +1,0 @@
-var sale = db.Sales.Single(s => s.ID == 1);\ndb.LoadOptions.LoadWith<Sale>(s => s.User);\nstring username = sale.User.Name;

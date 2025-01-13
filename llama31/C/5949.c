@@ -1,1 +1,0 @@
-int foo() {\n    return 0;\n}\n\nvoid bar() {\n    foo();\n}

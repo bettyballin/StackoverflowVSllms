@@ -1,1 +1,0 @@
-public interface ICloneable<T> : System.ICloneable where T : class\n{\n    new T Clone();\n}

@@ -1,1 +1,0 @@
-.window-manager {\n  display: grid;\n  grid-template-rows: repeat(3, 1fr);\n  grid-template-columns: repeat(3, 1fr);\n  grid-gap: 10px;\n}\n\n.widget {\n  background-color: #f0f0f0;\n  padding: 10px;\n  border: 1px solid #ccc;\n}

@@ -1,1 +1,0 @@
-private void dataGridView1_CurrentCellChanged(object sender, EventArgs e)\n{\n    dataGridView1.Invalidate();\n}

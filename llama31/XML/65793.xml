@@ -1,0 +1,1 @@
+<system.web>\n    <httpHandlers>\n        <add path="*.sourceC" verb="*" type="MyHandler" />\n    </httpHandlers>\n</system.web>

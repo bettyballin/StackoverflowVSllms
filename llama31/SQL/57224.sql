@@ -1,0 +1,1 @@
+SELECT column_name\nFROM information_schema.columns\nWHERE table_name = 'your_table_name'\nORDER BY ordinal_position\nLIMIT 1;

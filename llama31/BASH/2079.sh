@@ -1,1 +1,0 @@
-# Folder-based URL\n$ time curl -I http://example.com/login/\nHTTP/1.1 200 OK\n...\n\nreal    0m0.001s\nuser    0m0.000s\nsys     0m0.000s\n\n# Rewrite rule\n$ time curl -I http://example.com/login/\nHTTP/1.1 200 OK\n...\n\nreal    0m0.002s\nuser    0m0.000s\nsys     0m0.001s

@@ -1,0 +1,1 @@
+<xsl:for-each select="/books/book[. = '1112']">\n    Success\n</xsl:for-each>

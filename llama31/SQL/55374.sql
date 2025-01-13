@@ -1,0 +1,1 @@
+SELECT \n  TRUNC(start_date) AS start_date,\n  TRUNC(end_date) AS end_date\nFROM \n  your_table;

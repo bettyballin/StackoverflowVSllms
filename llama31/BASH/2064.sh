@@ -1,1 +1,0 @@
-svn propset svn:owner www-data pages\nsvn propset svn:group www-data pages

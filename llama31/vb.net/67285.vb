@@ -1,0 +1,1 @@
+Dim text As String = "Check out this site: <a href=""http://www.stackoverflow.com"">stackoverflow</a>"\nDim filteredText As String = RemoveAnchorTags(text)\nConsole.WriteLine(filteredText) ' Output: Check out this site: http://www.stackoverflow.com

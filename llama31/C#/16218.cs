@@ -1,1 +1,0 @@
-string originalString = "Hello,\nWorld!";\nstring encodedString = originalString.Replace("\n", "\r\n");\n\n// Write encodedString to the output stream

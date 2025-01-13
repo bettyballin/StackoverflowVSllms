@@ -1,0 +1,1 @@
+SELECT i.*\nFROM items i\nJOIN orders o ON i.order_id = o.id\nWHERE o.customer_id = 1 AND i.name LIKE 'La%';

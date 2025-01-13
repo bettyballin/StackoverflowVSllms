@@ -1,1 +1,0 @@
-throw new ArgumentException("Cannot pass null to this method.", nameof(param));

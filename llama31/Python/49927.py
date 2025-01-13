@@ -1,0 +1,1 @@
+def logging_decorator(func):\n    def wrapper(*args, **kwargs):\n        print(f"{func.__name__} was called with arguments {args} {kwargs}")\n        return func(*args, **kwargs)\n    wrapper.__name__ = func.__name__\n    wrapper.__doc__ = func.__doc__\n    return wrapper\n\n@logging_decorator\ndef add(a, b):\n    return a + b

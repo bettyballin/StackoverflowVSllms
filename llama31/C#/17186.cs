@@ -1,1 +1,0 @@
-using System.Reflection;\n\n// Get the Outlook application object\nobject outlookApp = Activator.CreateInstance(Type.GetTypeFromProgID("Outlook.Application"));\n\n// Get the MAPI namespace\nobject mapiNamespace = outlookApp.GetType().InvokeMember("GetNamespace", BindingFlags.InvokeMethod, null, outlookApp, new object[] { "MAPI" });

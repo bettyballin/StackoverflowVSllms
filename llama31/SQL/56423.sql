@@ -1,0 +1,1 @@
+CREATE TRIGGER trg_Audit_MyTable ON MyTable\nFOR UPDATE\nAS\nBEGIN\n    IF UPDATE(MyColumn1)\n    BEGIN\n        -- Handle update of MyColumn1\n    END\n\n    IF UPDATE(MyColumn2)\n    BEGIN\n        -- Handle update of MyColumn2\n    END\nEND

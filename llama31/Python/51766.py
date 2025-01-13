@@ -1,0 +1,1 @@
+class CPerson:\n    def __init__(self, FirstName, SecondName, Gender, Id, Room):\n        self.Room = Room\n        self.FirstName = FirstName\n        self.SecondName = SecondName\n        self.Gender = Gender\n        self.Id = Id\n\n    def Leave(self):\n        self.Room.FindDoorAndLeave(self.Id)

@@ -1,0 +1,1 @@
+$date = '2009-04-13'; // retrieved from database\n$displayDate = date('d F, Y', strtotime($date));\necho $displayDate; // outputs: 13 April, 2009

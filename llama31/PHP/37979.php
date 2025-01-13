@@ -1,0 +1,1 @@
+$file_type = exec('file -b --mime-type ' . escapeshellarg($nomeFile));\n\nif (in_array($file_type, array('image/jpeg', 'image/png', 'application/pdf', ...))) {\n    // File type is acceptable\n} else {\n    // File type is not acceptable\n}

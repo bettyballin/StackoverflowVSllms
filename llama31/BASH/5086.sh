@@ -1,1 +1,0 @@
-reg delete /f yourkey

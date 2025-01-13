@@ -1,1 +1,0 @@
-string name = "Ann";\nint age = 26;\n\nstring text = $"{name}\t{age}";\n\ntextBox.Text = text;

@@ -1,1 +1,0 @@
-slookup recpushdata.cyndigo.com

@@ -1,0 +1,1 @@
+// bar.php\necho $x;

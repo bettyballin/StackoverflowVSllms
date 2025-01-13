@@ -1,0 +1,1 @@
+document.querySelector('.vote-link').addEventListener('click', function(event) {\n  event.preventDefault();\n  // Send form data using XMLHttpRequest or fetch API\n});

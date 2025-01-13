@@ -1,1 +1,0 @@
-UrlHelper urlHelper = new UrlHelper(Request.RequestContext);\nstring url = urlHelper.Action("Login", "Home", null, "https");\nResponse.Redirect(url);

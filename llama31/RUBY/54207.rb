@@ -1,0 +1,1 @@
+# config/environments/production.rb\nRails.application.configure do\n  config.force_ssl = true\n  config.ssl_options = {\n    key: 'path/to/your/ssl/key',\n    cert: 'path/to/your/ssl/cert',\n    ca_file: 'path/to/your/ssl/ca_bundle'\n  }\nend

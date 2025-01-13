@@ -1,1 +1,0 @@
-cmd->CommandType = ADODB::adCmdBatch;

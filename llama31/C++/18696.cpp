@@ -1,1 +1,0 @@
-d <vtable_address>

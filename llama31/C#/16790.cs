@@ -1,1 +1,0 @@
-[DllImport("kernel32.dll")]\nstatic extern bool AttachConsole(int dwProcessId);\n\n[STAThread]\nstatic void Main(string[] args)\n{\n    AttachConsole(-1); // Attach to the parent process's console\n    // Your code here...\n}

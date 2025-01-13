@@ -1,0 +1,1 @@
+<fo:block-container absolute-position="fixed" top="1in" left="1in" width="2in" height="1in">\n  <fo:block>Return Address</fo:block>\n</fo:block-container>\n\n<fo:block-container absolute-position="fixed" top="3in" left="3in" width="2in" height="1in">\n  <fo:block>Recipient Address</fo:block>\n</fo:block-container>

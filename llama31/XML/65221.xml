@@ -1,0 +1,1 @@
+<Component Id="MyComExposedLibrary.tlb" Guid="YOUR_GUID_HERE">\n  <File Id="MyComExposedLibrary.tlb" Name="MyComExposedLibrary.tlb" KeyPath="yes" />\n  <TypeLib Id="MyComExposedLibrary.tlb" Language="0" Description="MyComExposedLibrary typelib">\n    <Interface Id="MyInterface" Name="MyInterface" />\n  </TypeLib>\n</Component>

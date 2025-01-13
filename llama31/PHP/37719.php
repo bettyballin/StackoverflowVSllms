@@ -1,0 +1,1 @@
+$receivers = array_filter($receivers, function($value) use ($usrID) {\n    return $value != $usrID;\n});

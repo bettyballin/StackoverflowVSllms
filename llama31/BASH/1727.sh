@@ -1,1 +1,0 @@
-# Example PowerShell command to verify group membership\nGet-ADGroupMember -Identity IIS_WPG -Recursive | Where-Object {$_.Name -eq "YourDomainAccountName"}\n\n# Example command to check the application pool recycling settings\nC:\Windows\System32\inetsrv\appcmd.exe list apppool "YourAppPoolName" /text:recycling

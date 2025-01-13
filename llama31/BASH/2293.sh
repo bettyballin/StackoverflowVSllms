@@ -1,1 +1,0 @@
-# Export MySQL Workbench data model to a SQL file\nmysql-workbench --export --export-type=sql --output-file=model.sql your_database_name\n\n# Generate Propel schema YML from the SQL file\npropel-schema-reverse --input=model.sql --output=schema.yml

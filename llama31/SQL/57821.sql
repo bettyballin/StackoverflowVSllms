@@ -1,0 +1,1 @@
+SELECT * FROM database_name.table_name;

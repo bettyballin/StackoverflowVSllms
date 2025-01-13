@@ -1,0 +1,1 @@
+require 'blog/entry'\n@blog_entries = Blog::Entry.find(:all)

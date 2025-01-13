@@ -1,1 +1,0 @@
-using System.Web;\n\n// ...\n\n// Get the current session ID\nstring sessionId = HttpContext.Current.Session.SessionID;\n\n// ...\n\n// In the new browser instance, you'll see a different session ID\nstring newSessionId = HttpContext.Current.Session.SessionID;

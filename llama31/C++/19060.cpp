@@ -1,1 +1,0 @@
-class F1 {\nprivate:\n    static void f1_private() {}\n\npublic:\n    static void f1() {\n        f1_private();\n    }\n};\n\nvoid f2() {\n    // F1::f1_private(); // Error: inaccessible\n    F1::f1(); // OK\n}

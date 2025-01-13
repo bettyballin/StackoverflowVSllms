@@ -1,1 +1,0 @@
-returndata = returndata.TrimStart("""c)

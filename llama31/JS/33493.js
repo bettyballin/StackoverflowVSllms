@@ -1,0 +1,1 @@
+$('#answers li div').on('click', function() {\n    $(this).find('input[type="radio"]').prop('checked', true);\n});

@@ -1,1 +1,0 @@
-using System.Text.RegularExpressions;\n\n// ...\n\nstring code = "string var1 = (string)1; string var2 = (string)intVar;";\nstring pattern = @"\((string\))(.*)";\nstring replacement = "$2.ToString()";\n\ncode = Regex.Replace(code, pattern, replacement);\n\nConsole.WriteLine(code);

@@ -1,1 +1,0 @@
-IAudioSessionControl2* pSessionControl = NULL;\nhr = pManager->GetAudioSessionControl(NULL, 0, &pSessionControl);\nif (SUCCEEDED(hr)) {\n    hr = pSessionControl->SetDisplayName(L""); // Set display name to empty string\n    pSessionControl->Release();\n}

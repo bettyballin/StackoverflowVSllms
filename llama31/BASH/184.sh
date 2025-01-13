@@ -1,1 +1,0 @@
-ssh -t user@host 'cd /path/to/somewhere; exec $SHELL -l'

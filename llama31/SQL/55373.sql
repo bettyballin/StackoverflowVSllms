@@ -1,0 +1,1 @@
+-- Use row-level locking\nALTER TABLE mytable SET LOCK_MODE ROW;\n\n-- Use SELECT FOR UPDATE SKIP LOCKED to avoid read locks\nSELECT * FROM mytable FOR UPDATE SKIP LOCKED;

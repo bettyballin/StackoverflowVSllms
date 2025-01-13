@@ -1,1 +1,0 @@
-.dynamicElement {\n      float: left; /* or right */\n      min-width: 100px; /* Minimum width to ensure readability or layout consistency */\n      max-width: 300px; /* Maximum width to prevent breaking the layout */\n    }

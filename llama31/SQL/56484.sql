@@ -1,0 +1,1 @@
+CREATE TABLE customers (\n  id INT PRIMARY KEY,\n  name VARCHAR(255),\n  email VARCHAR(255),\n  country VARCHAR(255)\n);\n\nCREATE INDEX idx_name_email ON customers (name, email);

@@ -1,1 +1,0 @@
-echo in > /sys/class/gpio/gpio17/directio

@@ -1,0 +1,1 @@
+function session_writer($id, $vars) {\n  global $g1; // this won't work in PHP5\n  // use $GLOBALS instead\n  $g1 = $GLOBALS['g1'];\n  echo "g1 is now defined here: ".is_object($g1);\n}\n\nglobal $g1;\n$g1 = SomeObject(); // which is the DB connection for the session writer\n\nsession_set_save_handler($o, $c, $r, "session_writer", $d, $g);\nsession_start();

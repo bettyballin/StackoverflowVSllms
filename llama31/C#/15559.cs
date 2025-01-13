@@ -1,1 +1,0 @@
-protected void Login1_Authenticate(object sender, AuthenticateEventArgs e)\n{\n    // Authenticate the user\n    if (Membership.ValidateUser(Login1.UserName, Login1.Password))\n    {\n        // Log the user in\n        FormsAuthentication.SetAuthCookie(Login1.UserName, Login1.RememberMeSet);\n        Response.Redirect(Request.UrlReferrer.AbsoluteUri, false);\n    }\n}

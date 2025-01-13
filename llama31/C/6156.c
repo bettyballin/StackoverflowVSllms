@@ -1,1 +1,0 @@
-#include <stdio.h>\n\nint main() {\n    char *tag = "Number of cards";\n    int data = 500;\n    int width = 40;\n\n    printf("%s", tag);\n    for (int i = strlen(tag); i < width; i++) {\n        printf(".");\n    }\n    printf("[%d]\n", data);\n\n    return 0;\n}

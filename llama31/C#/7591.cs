@@ -1,1 +1,0 @@
-List<int> numbers = sNumbers.Split(',').Select(int.Parse).ToList();

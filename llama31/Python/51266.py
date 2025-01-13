@@ -1,0 +1,1 @@
+def diff_lists(A, B):\n    A_set = set(A)\n    B_set = set(B)\n    added = B_set - A_set\n    removed = A_set - B_set\n    return added, removed\n\n# Example usage\nA = [1, 2, 3, 4]\nB = [3, 4, 5, 6]\nadded, removed = diff_lists(A, B)\nprint("Added:", added)\nprint("Removed:", removed)

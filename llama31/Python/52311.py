@@ -1,0 +1,1 @@
+import chardet\n\nreceived_string = b'temperature: 25\xB0C'\nencoding = chardet.detect(received_string)['encoding']\ndecoded_string = received_string.decode(encoding, errors='replace')\ntext_ctrl.AppendText(decoded_string)

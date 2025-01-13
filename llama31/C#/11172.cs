@@ -1,1 +1,0 @@
-protected void Page_Load(object sender, EventArgs e)\n{\n    if (Request.QueryString["QS"] != null)\n    {\n        // Remove the query string parameter\n        UriBuilder uriBuilder = new UriBuilder(Request.Url);\n        uriBuilder.Query = string.Empty;\n        Page.Form.Action = uriBuilder.Uri.AbsoluteUri;\n    }\n}

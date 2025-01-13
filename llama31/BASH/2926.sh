@@ -1,1 +1,0 @@
-jar -cvf mypackage.jar .

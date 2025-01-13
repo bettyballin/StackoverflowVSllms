@@ -1,0 +1,1 @@
+# main.py\nfrom models import MyModel

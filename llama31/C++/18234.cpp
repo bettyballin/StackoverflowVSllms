@@ -1,1 +1,0 @@
-#include <list>\n#include <vector>\n#include <algorithm>\n\nint main() {\n    std::list<int> the_list = {4, 2, 7, 1, 3};\n    std::vector<int> temp(the_list.begin(), the_list.end());\n    std::stable_sort(temp.begin(), temp.end());\n    the_list.assign(temp.begin(), temp.end());\n    // the_list is now sorted\n    return 0;\n}

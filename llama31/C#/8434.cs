@@ -1,1 +1,0 @@
-sanitizer.AllowedAttributes.Add("a", "href");

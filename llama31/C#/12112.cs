@@ -1,1 +1,0 @@
-[HttpPost]\npublic ActionResult Save([Bind(Prefix = "items")] IList<Item> items)\n{\n    // ...\n}

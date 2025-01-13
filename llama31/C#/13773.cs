@@ -1,1 +1,0 @@
-var customers = context.linq_schema.customers.ToList();

@@ -1,0 +1,1 @@
+$ids = $id_array;\n$placeholders = implode(',', array_fill(0, count($ids), '?'));\n\n$sql = "SELECT * FROM myTbl WHERE category_id IN ($placeholders)";\n$stmt = $pdo->prepare($sql);\n$stmt->execute($ids);\n$results = $stmt->fetchAll();

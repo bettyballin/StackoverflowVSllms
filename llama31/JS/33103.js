@@ -1,0 +1,1 @@
+const locale = Intl.DateTimeFormat().resolvedOptions().locale;\nconsole.log(locale); // outputs "en-US" or similar

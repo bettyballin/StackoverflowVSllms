@@ -1,0 +1,1 @@
+# File descriptor remains open\nfd = open(ver_local_zip, "w+")\nfd.write(open(remote_zip, :proxy=>ftp_proxy).read)\n# fd is still open, locking the file\n\n# File descriptor is properly closed\nopen(ver_local_zip, "w+") { |f| \n  f.write(open(remote_zip, :proxy=>ftp_proxy).read)\n  # f is automatically closed here, releasing the lock\n}

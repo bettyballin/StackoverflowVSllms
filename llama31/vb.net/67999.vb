@@ -1,0 +1,1 @@
+field.SetValue(result, XmlDeserialize(field.FieldType), BindingFlags.SetField, Nothing, Nothing)

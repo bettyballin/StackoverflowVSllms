@@ -1,1 +1,0 @@
-__attribute__((fastcall)) void my_function(int arg1, int arg2) {\n    // function body\n}

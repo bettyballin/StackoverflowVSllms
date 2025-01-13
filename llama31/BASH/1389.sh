@@ -1,1 +1,0 @@
-chmod +x automount_sourcecode.sh

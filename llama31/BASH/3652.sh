@@ -1,1 +1,0 @@
-sudo systemctl start my-php-service

@@ -1,1 +1,0 @@
-tlbexp.exe LogParser.dll /out:LogParser.tlb

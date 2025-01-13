@@ -1,0 +1,1 @@
+from flask import Flask, jsonify\n\napp = Flask(__name__)\n\n@app.route('/hello', methods=['GET'])\ndef hello():\n    return jsonify({'message': 'Hello, World!'})\n\nif __name__ == '__main__':\n    app.run(debug=True)

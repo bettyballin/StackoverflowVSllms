@@ -1,1 +1,0 @@
-using Npgsql;\n\n// Assume you have a NpgsqlConnection instance named 'connection'\nusing (var command = new NpgsqlCommand("SELECT * FROM get_user(@id)", connection))\n{\n    command.Parameters.AddWithValue("@id", 1);\n\n    using (var reader = command.ExecuteReader())\n    {\n        while (reader.Read())\n        {\n            // Process the user data\n        }\n    }\n}

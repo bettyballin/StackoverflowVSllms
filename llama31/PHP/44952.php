@@ -1,0 +1,1 @@
+fwrite ($fp, "<item>\n");\nfwrite ($fp, " <title>$title</title>\n");\nfwrite ($fp, " <link>$comments</link>\n");\nfwrite ($fp, "<guid>$comments</guid>\n");\nfwrite ($fp, "</item>\n");

@@ -1,1 +1,0 @@
-svn add path/to/binary/file\nsvn commit -m "Added binary file"

@@ -1,0 +1,1 @@
+CREATE INDEX idx_from_node ON edge (from_node);\nCREATE INDEX idx_to_node ON edge (to_node);

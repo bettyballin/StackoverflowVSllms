@@ -1,0 +1,1 @@
+formatItem: function(row) {\n    return row.Description || "";\n}

@@ -1,1 +1,0 @@
-pt-query-digest --explain <query_log_file>

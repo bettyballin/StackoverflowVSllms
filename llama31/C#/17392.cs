@@ -1,1 +1,0 @@
-Control myControl = specialTextBox as Control;\nif (myControl != null && myControl is ISomething)\n{\n    // myControl is a Control that implements ISomething\n}

@@ -1,1 +1,0 @@
-using System.Runtime.InteropServices;\n\n[ComVisible(true)]\n[ClassInterface(ClassInterfaceType.AutoDispatch)]\npublic class TreeViewAdv : IUnknown, IDispatch\n{\n    // ...\n}

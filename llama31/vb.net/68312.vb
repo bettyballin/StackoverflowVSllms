@@ -1,0 +1,1 @@
+Imports System.Data\nImports System.Linq\n\nDim dataSet As DataSet = ' your dataset here\n\nDim results = From row In dataSet.Tables("YourTableName").AsEnumerable()\n              Where row.Field(Of String)("YourColumnName") = "YourValue"\n              Select row\n\nFor Each row In results\n    ' do something with the row\nNext

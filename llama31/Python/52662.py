@@ -1,0 +1,1 @@
+# example_integration_test.py\nimport pytest\n\ndef test_integration_example():\n    # Simulate an integration scenario\n    assert 1 + 1 == 2

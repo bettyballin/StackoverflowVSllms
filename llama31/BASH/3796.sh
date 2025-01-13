@@ -1,1 +1,0 @@
-chmod 755 /usr/local/php/lib/php/extensions/no-debug-non-zts-20060613/gd.so

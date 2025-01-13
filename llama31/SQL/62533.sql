@@ -1,0 +1,1 @@
+CREATE TABLE questions (\n  id INT PRIMARY KEY,\n  title VARCHAR(255),\n  content TEXT\n);\n\nCREATE TABLE tags (\n  id INT PRIMARY KEY,\n  name VARCHAR(255) UNIQUE\n);\n\nCREATE TABLE question_tags (\n  question_id INT,\n  tag_id INT,\n  PRIMARY KEY (question_id, tag_id),\n  FOREIGN KEY (question_id) REFERENCES questions(id),\n  FOREIGN KEY (tag_id) REFERENCES tags(id)\n);

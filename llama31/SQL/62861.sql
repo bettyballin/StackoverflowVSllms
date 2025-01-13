@@ -1,0 +1,1 @@
+CREATE TABLE TableName (\n    Id INT IDENTITY(1,1) PRIMARY KEY,\n    Column1 VARCHAR(50),\n    Column2 INT\n)\n\nINSERT INTO TableName DEFAULT VALUES ('Value1', 123)

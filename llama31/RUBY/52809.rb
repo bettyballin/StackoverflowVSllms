@@ -1,0 +1,1 @@
+require 'open3'\n\npdfs = Dir["[0-9][0-9]_*"].sort.join(" ")\nOpen3.capture3("pdftk #{pdfs} output combined.pdf")

@@ -1,0 +1,1 @@
+SELECT cs-uri-stem, cs-method, sc-status, MAX(time-taken) AS MaxTime\nFROM [LOGFILE]\nGROUP BY cs-uri-stem, cs-method, sc-status\nORDER BY MaxTime DESC

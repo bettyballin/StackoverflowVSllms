@@ -1,1 +1,0 @@
-public class View1Controller : BaseController\n{\n    public ActionResult Index()\n    {\n        SomeDataClass viewData = new SomeDataClass();\n        //populate data class (doesn't matter how)\n        PopulateDataClass(viewData);\n\n        return ViewWithMasterModel(viewData);\n    }\n}

@@ -1,1 +1,0 @@
-using Microsoft.Web.Administration;\n\npublic string GetSiteId()\n{\n    var serverManager = new ServerManager();\n    var site = serverManager.Sites.Where(s => s.Name == HttpContext.Current.Request.Url.Host).FirstOrDefault();\n    return site.Id.ToString();\n}

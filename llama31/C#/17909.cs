@@ -1,1 +1,0 @@
-string connectionString = "Data Source=(DESCRIPTION=(ADDRESS=(PROTOCOL=TCP)(HOST=myhost)(PORT=1521))(CONNECT_DATA=(SERVICE_NAME=my_service)));User Id=myuser;Password=mypassword;Validate Connection=true;";

@@ -1,1 +1,0 @@
-#logindiv {\n    position: fixed;\n    top: 50%;\n    left: 50%;\n    transform: translate(-50%, -50%);\n    background-color: #fff;\n    padding: 20px;\n    border: 1px solid #ddd;\n    border-radius: 10px;\n    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);\n    display: none;\n}\n\n#logindiv.show {\n    display: block;\n}

@@ -1,0 +1,1 @@
+$dir = '/path/to/vacation/pictures';\n$array = dirToArray($dir);\nprint_r($array);

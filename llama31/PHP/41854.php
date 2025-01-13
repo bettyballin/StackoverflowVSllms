@@ -1,0 +1,1 @@
+ob_start();\ninclude 'site_nav.php';\nob_get_clean();\n\n// Now you can access the $list variable\n$list = $list;

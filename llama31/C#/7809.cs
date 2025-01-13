@@ -1,1 +1,0 @@
-RegisterGlobalHotKey(key, modifiers);

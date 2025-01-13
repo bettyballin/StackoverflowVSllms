@@ -1,1 +1,0 @@
-#include <stdio.h>\n\nint main() {\n    FILE *fp;\n\n    // Call awk\n    fp = popen("awk '{print $1}' input.txt", "r");\n    if (fp != NULL) {\n        char buffer[128];\n        while (fgets(buffer, 128, fp) != NULL) {\n            printf("%s", buffer);\n        }\n        pclose(fp);\n    }\n\n    return 0;\n}

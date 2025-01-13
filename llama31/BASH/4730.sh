@@ -1,1 +1,0 @@
-sed -e '/regexp/{x;p;x;}' -e 'x;p;x' file.txt

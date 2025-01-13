@@ -1,1 +1,0 @@
-$ echo -n test | sha512sum

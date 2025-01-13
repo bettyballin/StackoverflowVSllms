@@ -1,0 +1,1 @@
+WITH fruit_list AS (\n       SELECT 'apples' AS fruit UNION\n       SELECT 'pairs' UNION\n       SELECT 'pomegranites'\n   )\n   SELECT fl.fruit\n   FROM fruit_list fl\n   WHERE NOT EXISTS (\n       SELECT 1\n       FROM your_table yt\n       WHERE yt.fruit = fl.fruit\n   );

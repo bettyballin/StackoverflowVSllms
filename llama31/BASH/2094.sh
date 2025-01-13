@@ -1,1 +1,0 @@
-rsync --delete --exclude-from=list_files -d --delete-excluded ./ /dev/null

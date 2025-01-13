@@ -1,0 +1,1 @@
+SELECT COUNT(*) as same_direction_votes\nFROM votes v1\nJOIN votes v2 ON v1.itemID = v2.itemID AND v1.userID = 'A' AND v2.userID = 'B' AND v1.direction = v2.directio

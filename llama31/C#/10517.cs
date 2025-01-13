@@ -1,1 +1,0 @@
-SendInput(2, inputs(0), Marshal.SizeOf(GetType(INPUT)))

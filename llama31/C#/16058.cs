@@ -1,1 +1,0 @@
-string escapedUserName = System.Security.SecurityElement.Escape(inputUserName);\nstring escapedEmail = System.Security.SecurityElement.Escape(inputEmail);\n\nwriter.WriteElementString("Username", escapedUserName);\nwriter.WriteElementString("Email", escapedEmail);

@@ -1,0 +1,1 @@
+var validator = document.getElementById('validatorId');\nvalidator.enabled = false;

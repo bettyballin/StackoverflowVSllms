@@ -1,0 +1,1 @@
+from rest_framework import routers\nfrom . import views\n\nrouter = routers.DefaultRouter()\nrouter.register(r'users/(?P<user_id>\d+)', views.UserViewSet, basename='user')\n\nurlpatterns = [\n    path('', include(router.urls)),\n]

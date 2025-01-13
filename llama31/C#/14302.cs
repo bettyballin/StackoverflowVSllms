@@ -1,1 +1,0 @@
-dataGrid.Sorting += DataGrid_Sorting;

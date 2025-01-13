@@ -1,1 +1,0 @@
-using System.Collections.Generic;\nusing System.Linq;\n\n// ...\n\nIList<string> names = "Tom,Scott,Bob".Split(',').Select(s => s.Trim()).ToList();\nnames = names.Reverse().ToList();

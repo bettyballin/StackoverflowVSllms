@@ -1,0 +1,1 @@
+SELECT \n    AVG(DATEDIFF(second, '1899-12-30 00:00:00', your_datetime_column)) \n    AS average_datetime\nFROM \n    your_table;

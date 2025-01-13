@@ -1,1 +1,0 @@
-// In your DLL project\npublic class MyDllClass\n{\n    public void MyMethod()\n    {\n        // Method implementation\n    }\n\n    public int MyOtherMethod(int param)\n    {\n        // Method implementation\n        return 0;\n    }\n}

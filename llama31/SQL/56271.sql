@@ -1,0 +1,1 @@
+INSERT INTO images (entry_data, entry_order_no)\nVALUES ('new data', (SELECT MAX(entry_order_no) + 1 FROM images));

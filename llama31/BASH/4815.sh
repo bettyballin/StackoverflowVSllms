@@ -1,1 +1,0 @@
-icacls "C:\Path\To\Folder" /grant:r "Network Service":R\nicacls "C:\Path\To\Folder" /setowner "Network Service"\nicacls "C:\Path\To\Folder" /default:r "Network Service":R

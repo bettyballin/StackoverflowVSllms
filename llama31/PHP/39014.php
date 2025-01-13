@@ -1,0 +1,1 @@
+$token = uniqid();\n$_SESSION['download_token'] = $token;\n$link = "download.php?file=file_reference_here&token=$token";

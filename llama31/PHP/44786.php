@@ -1,0 +1,1 @@
+Array\n(\n    [0] => info:oclcnum/1903126\n    [1] => http://www.biodiversitylibrary.org/bibliography/4323\n)

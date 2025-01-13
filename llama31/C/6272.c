@@ -1,1 +1,0 @@
-if (fclose(file) != 0) {\n    // handle error\n}

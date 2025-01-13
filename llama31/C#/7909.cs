@@ -1,1 +1,0 @@
-Cat cat = new Cat();\nAbstractValidator<Cat> validator = ValidatorFactory.getValidator(cat);

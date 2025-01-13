@@ -1,0 +1,1 @@
+$.ajax({\n  // your AJAX settings here\n  success: function() {\n    // reapply styles\n    $('your-selector').css('your-property', 'your-value');\n  }\n});

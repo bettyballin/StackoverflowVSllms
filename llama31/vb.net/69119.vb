@@ -1,0 +1,1 @@
+Dim myCollection As New Microsoft.VisualBasic.Collection()\n\n' Add items to the collection\nmyCollection.Add("Item 1", "Key 1")\nmyCollection.Add("Item 2", "Key 2")\n\n' Access the first item in the collection\nDim firstItem As String = myCollection.Item(0)

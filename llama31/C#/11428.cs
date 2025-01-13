@@ -1,1 +1,0 @@
-using System.Runtime.CompilerServices;\n\n[MethodImpl(MethodImplOptions.NoInlining | MethodImplOptions.NoOptimization)]\npublic void MyFunction()\n{\n    // Code referencing the missing assembly\n}

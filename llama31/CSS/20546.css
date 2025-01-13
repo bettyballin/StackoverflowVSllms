@@ -1,1 +1,0 @@
-div.header {\n  width: 100%;\n  height: 80px;\n  white-space: nowrap; /* add this */\n}\n\nspan.left {\n  height: 80px;\n  width: 50%;\n  display: inline-block;\n  background-color: pink;\n}\n\nspan.right {\n  vertical-align: top;\n  display: inline-block;\n  text-align: right;\n  height: 80px;\n  width: 50%;\n  background-color: red;\n  *width: 100%; /* add this for IE6 */\n}

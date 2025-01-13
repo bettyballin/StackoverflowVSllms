@@ -1,1 +1,0 @@
-public abstract class BaseController<T> : Controller where T : SomeType\n{\n    // common code here\n}\n\npublic class MyController : BaseController<MyType>\n{\n    // specific code here\n}

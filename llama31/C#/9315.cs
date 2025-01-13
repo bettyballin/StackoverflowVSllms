@@ -1,1 +1,0 @@
-// Instead of this:\npublic void GetPerson(ref string name, ref int age)\n{\n    name = "John Doe";\n    age = 30;\n}\n\n// Use this:\npublic Person GetPerson()\n{\n    return new Person { Name = "John Doe", Age = 30 };\n}\n\npublic class Person\n{\n    public string Name { get; set; }\n    public int Age { get; set; }\n}

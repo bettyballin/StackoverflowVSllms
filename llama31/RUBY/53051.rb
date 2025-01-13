@@ -1,0 +1,1 @@
+gem 'rails_ad_server'

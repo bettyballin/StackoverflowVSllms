@@ -1,1 +1,0 @@
-yum install glibc-langpack-e

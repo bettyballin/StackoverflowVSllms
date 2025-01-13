@@ -1,1 +1,0 @@
-RouteDebugger.RewriteRoutesForTesting(RouteTable.Routes);

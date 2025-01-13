@@ -1,1 +1,0 @@
-protected override void Update(GameTime gameTime)\n{\n    KeyboardState keyboardState = Keyboard.GetState();\n\n    if (keyboardState.IsKeyDown(Keys.Escape))\n    {\n        Exit();\n    }\n\n    if (keyboardState.IsKeyDown(Keys.W))\n    {\n        // Move forward\n    }\n\n    base.Update(gameTime);\n}

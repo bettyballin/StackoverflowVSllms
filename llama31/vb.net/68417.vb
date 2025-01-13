@@ -1,0 +1,1 @@
+Partial Public Class MyClass\n    Implements Interfaces.IAsset\n\n    Public Property ID1AsIAsset() As Integer Implements Interfaces.IAsset.ID\n        Get\n            Return Me.ID1\n        End Get\n        Set(value As Integer)\n            Me.ID1 = value\n        End Set\n    End Property\nEnd Class

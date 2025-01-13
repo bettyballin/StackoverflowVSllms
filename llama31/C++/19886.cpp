@@ -1,1 +1,0 @@
-HWND hWnd = FindWindow(NULL, "Window Title");\nif (hWnd != NULL) {\n    if (isWindowVisible(hWnd)) {\n        // The window is visible\n    }\n}

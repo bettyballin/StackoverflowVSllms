@@ -1,1 +1,0 @@
-if (this.Request.UrlReferrer.IsWellFormedOriginalString() &&\n    this.Request.UrlReferrer.Host.Equals(this.Request.Url.Host) &&\n    !Regex.IsMatch(HttpUtility.UrlDecode(this.Request.UrlReferrer.ToString()),\n                   @"<|>|%3C|%3E|script|iframe|object|embed|applet",\n                   RegexOptions.IgnoreCase))\n{\n    // Referrer is valid\n}

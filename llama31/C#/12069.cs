@@ -1,1 +1,0 @@
-using System.Runtime.InteropServices;\n\n// ...\n\n[DllImport("user32.dll")]\nstatic extern IntPtr GetForegroundWindow();\n\n// ...\n\nIntPtr foregroundWindowHandle = GetForegroundWindow();\nIntPtr excelWindowHandle = excelApp.Hwnd;\n\nbool isExcelWindowActive = (foregroundWindowHandle == excelWindowHandle);

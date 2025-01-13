@@ -1,0 +1,1 @@
+SELECT *\nFROM (\n    SELECT *, ROW_NUMBER() OVER (PARTITION BY ColumnA, ColumnB ORDER BY CreatedDate DESC) AS rn\n    FROM TestTable\n) AS subquery\nWHERE rn = 1;

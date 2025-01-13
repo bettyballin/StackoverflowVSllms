@@ -1,1 +1,0 @@
-// Your IDL file (e.g., MyComponent.idl)\n[\n  uuid(Your-GUID-Here),\n  version(1.0)\n]\ninterface IMyInterface : IUnknown\n{\n  HRESULT MyMethod();\n}\n\n// Compile the IDL file to generate the type library\nmidl /tlb MyComponent.tlb MyComponent.idl

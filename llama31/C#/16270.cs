@@ -1,1 +1,0 @@
-using System.Data.Entity;\nusing System.Threading.Tasks;\n\n// Assuming a DbContext named 'MyContext' and a DbSet named 'MyTable'\npublic async Task<MyResult> GetResultsAsync(MyContext context)\n{\n    return await context.MyTable\n        .Where(m => m.MyCondition == true)\n        .ToListAsync();\n}

@@ -1,1 +1,0 @@
-.container {\n  display: flex;\n  flex-direction: column;\n  align-items: center;\n}\n\n.button-container {\n  margin-top: 10px; /* add some space between table and buttons */\n}

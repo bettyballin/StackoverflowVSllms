@@ -1,1 +1,0 @@
-$OutputWidth = 200\nout.exe > $file

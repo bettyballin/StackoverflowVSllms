@@ -1,0 +1,1 @@
+document.querySelector('button').addEventListener('click', function() {\n  window.open('/something', '_blank');\n});

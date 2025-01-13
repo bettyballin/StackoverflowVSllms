@@ -1,0 +1,1 @@
+function startsWith($haystack, $needle) {\n    return strncmp($haystack, $needle, strlen($needle)) === 0;\n}\n\nfunction endsWith($haystack, $needle) {\n    return $needle === '' || substr_compare($haystack, $needle, -strlen($needle)) === 0;\n}

@@ -1,1 +1,0 @@
-.row {\n  display: flex;\n}\n\n.left {\n  font-size: 20pt;\n  flex: 1;\n}\n\n.rightfloat {\n  color: red;\n  background-color: #BBBBBB;\n  width: 200px;\n  margin-left: auto;\n}\n\n.separator {\n  width: 100%;\n  border-top: 1px solid black;\n}

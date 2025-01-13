@@ -1,1 +1,0 @@
-itemToAdd.Attributes.Add("style", "padding-left: 20px; background-image: url(" + image + ".gif); background-repeat: no-repeat; background-position: left center;");

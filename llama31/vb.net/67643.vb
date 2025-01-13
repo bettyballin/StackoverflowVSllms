@@ -1,0 +1,1 @@
+Dim item As Ptr To ISimpleMember

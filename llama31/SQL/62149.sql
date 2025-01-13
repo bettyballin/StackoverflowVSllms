@@ -1,0 +1,1 @@
+SELECT * FROM table1 WHERE id = 'a'\nUNION ALL\nSELECT * FROM table1 WHERE id = 'b'\nLIMIT 1;

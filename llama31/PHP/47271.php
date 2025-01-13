@@ -1,0 +1,1 @@
+// Example of setting timezone in PHP for MySQL connection\n$mysqli = new mysqli($host, $user, $password, $database);\n$mysqli->query("SET time_zone = '+00:00'");

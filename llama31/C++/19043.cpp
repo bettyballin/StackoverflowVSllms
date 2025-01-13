@@ -1,1 +1,0 @@
-int arr[] = {1, 2, 3, 4, 5};\nfor (int i = 0; i < 5; ++i) {\n    std::cout << arr[i] << " ";\n}\nstd::cout << std::endl;

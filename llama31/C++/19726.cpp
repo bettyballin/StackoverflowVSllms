@@ -1,1 +1,0 @@
-#include <benchmark/benchmark.h>\n\nvoid myFunction() {\n    // Code to be profiled\n}\n\nBENCHMARK(myFunction);\nBENCHMARK_MAIN();

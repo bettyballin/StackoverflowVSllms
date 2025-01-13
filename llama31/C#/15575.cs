@@ -1,1 +1,0 @@
-@model string[,] // assuming your model is a 2D array of strings\n\n@for (int i = 0; i < Model.GetLength(0); i++)\n{\n    for (int j = 0; j < Model.GetLength(1); j++)\n    {\n        @Model[i, j] // display each item\n    }\n}

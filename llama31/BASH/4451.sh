@@ -1,1 +1,0 @@
-bcp "EasyCash.dbo.user" out "[EasyCash].[dbo].[user].dat" -q -c -t "<EOFD>"\n         -r "<EORD>" -Usa -P123456 -S192.168.1.5

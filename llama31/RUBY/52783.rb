@@ -1,0 +1,1 @@
+map.resources :users do |user|\n  user.connect 'events/:month', :controller => 'users', :action => 'events'\nend

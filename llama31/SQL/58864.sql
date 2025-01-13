@@ -1,0 +1,1 @@
+WHERE @key IS NULL OR (@key IS NOT NULL AND @key = t.Key)

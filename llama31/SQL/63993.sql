@@ -1,0 +1,1 @@
+CREATE TABLE items (\n  itemid VARCHAR(32) PRIMARY KEY,\n  -- other columns...\n);\n\nCREATE TABLE item_attributes (\n  attribute_id INT PRIMARY KEY,\n  itemid VARCHAR(32) NOT NULL,\n  attribute_name VARCHAR(32) NOT NULL,\n  attribute_value VARCHAR(32) NOT NULL,\n  FOREIGN KEY (itemid) REFERENCES items(itemid)\n);

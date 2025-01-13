@@ -1,0 +1,1 @@
+select "cube_name", @cube_names, {:selected => @cube_name}

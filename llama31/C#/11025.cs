@@ -1,1 +1,0 @@
-public class MyController : Controller\n{\n    public ActionResult MyAction()\n    {\n        MyHelper helper = new MyHelper();\n        string resetPasswordUrl = helper.GetResetPasswordUrl(this.ControllerContext);\n        // use the resetPasswordUrl variable as needed\n    }\n}

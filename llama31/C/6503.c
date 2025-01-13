@@ -1,1 +1,0 @@
-shutdown(mySocket, SHUT_RDWR); // stop send and receive operations\nclose(mySocket); // release the socket

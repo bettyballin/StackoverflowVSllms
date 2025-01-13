@@ -1,0 +1,1 @@
+CREATE OR REPLACE procedure some_procedure is\n    v_procedure_name varchar2(32);\nbegin\n    v_procedure_name := $$PLSQL_UNIT;\n    DBMS_OUTPUT.PUT_LINE(v_procedure_name);\nend;

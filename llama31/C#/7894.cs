@@ -1,1 +1,0 @@
-ewVDir.Properties["MSManagedRuntimeVersion"][0] = "v2.0";\nnewVDir.Properties["ManagedPipelineMode"][0] = "Integrated";

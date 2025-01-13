@@ -1,0 +1,1 @@
+import nltk\nfrom nltk.sentiment.vader import SentimentIntensityAnalyzer\n\ntext = "I'm really excited about this new project!"\nsia = SentimentIntensityAnalyzer()\nsentiment = sia.polarity_scores(text)\nprint(sentiment)

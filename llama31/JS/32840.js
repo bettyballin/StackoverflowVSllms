@@ -1,0 +1,1 @@
+$('#email').on('keyup', function() {\n  $.ajax({\n    type: 'POST',\n    url: 'check_email_dns.php',\n    data: {email: $(this).val()},\n    success: function(response) {\n      if (response === 'valid') {\n        $(this).next('.error').text('');\n      } else {\n        $(this).next('.error').text('Email DNS not found');\n      }\n    }\n  });\n});

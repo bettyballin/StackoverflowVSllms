@@ -1,1 +1,0 @@
-var user = HttpContext.Current.User;\nvar userIdentity = HttpContext.Current.User.Identity;

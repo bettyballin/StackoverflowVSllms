@@ -1,0 +1,1 @@
+WITH UnionQuery AS (\n  SELECT field1, field2, field3\n  FROM Query1\n  UNION ALL\n  SELECT field1, field2, field3\n  FROM Query2\n  UNION ALL\n  SELECT field1, field2, field3\n  FROM Query3\n)\nSELECT *\nFROM (\n  SELECT field1, field2, field3\n  FROM UnionQuery\n) AS SourceTable\nPIVOT (\n  MAX(field3)\n  FOR field2 IN ([value1], [value2], [value3])\n) AS PivotTable;

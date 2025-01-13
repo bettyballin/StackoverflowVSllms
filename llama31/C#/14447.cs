@@ -1,1 +1,0 @@
-[WebMethod]\npublic static string MyWebMethod()\n{\n    return "Hello, World!";\n}

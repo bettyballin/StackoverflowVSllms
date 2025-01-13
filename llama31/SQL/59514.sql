@@ -1,0 +1,1 @@
+SELECT \n  CASE \n    WHEN is_absent THEN 0 \n    ELSE TIMESTAMPDIFF(MINUTE, arrived_at, left_at) \n  END AS duration\nFROM attendance;

@@ -1,1 +1,0 @@
-RaiseException(STATUS_BREAKPOINT, 0, 0, NULL);

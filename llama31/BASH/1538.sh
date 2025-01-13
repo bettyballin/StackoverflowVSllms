@@ -1,1 +1,0 @@
-#!/bin/bash\n\nIP=xxx.xxx.xxx.xx\nREMOTE_EXEC="ssh $IP -l root"\n\nPID=`$REMOTE_EXEC 'vmstat 1 1000 > vmstat.log & echo $!'`\n\n# Launch apache benchmark\nab -n 10 http://$IP/\n\n$REMOTE_EXEC "kill $PID"

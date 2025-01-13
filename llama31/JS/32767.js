@@ -1,0 +1,1 @@
+$.ajax({\n    url: 'your_url',\n    success: function(data) {\n        // your code here\n    },\n    complete: function(xhr, status) {\n        // Abort the request\n        xhr.abort();\n    }\n});

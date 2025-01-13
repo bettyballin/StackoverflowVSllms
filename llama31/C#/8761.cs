@@ -1,1 +1,0 @@
-System.Security.Principal.WindowsIdentity identity = System.Security.Principal.WindowsIdentity.GetCurrent();\nforeach (string group in rowGroups)\n{\n    if (identity.Groups.Contains(group))\n    {\n        found = true;\n        break;\n    }\n}

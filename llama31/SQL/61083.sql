@@ -1,0 +1,1 @@
+ALTER TABLE mytable \nADD COLUMN mycolumn character varying(50) NOT NULL DEFAULT '';

@@ -1,0 +1,1 @@
+CREATE TRIGGER trg_MyTable_MyColumn_Uniqueness\nON MyTable\nAFTER INSERT, UPDATE\nAS\nBEGIN\n    IF EXISTS (\n        SELECT 1\n        FROM MyTable\n        WHERE MyColumn IS NOT NULL\n        GROUP BY MyColumn\n        HAVING COUNT(*) > 1\n    )\n    BEGIN\n        RAISERROR ('Duplicate value in MyColumn', 16, 1);\n        ROLLBACK TRANSACTION;\n    END\nEND;

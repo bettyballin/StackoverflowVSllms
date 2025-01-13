@@ -1,1 +1,0 @@
-bcp "SELECT Data FROM tblData" queryout "C:\output.txt" -c -S <server_name> -T -q -C 65001

@@ -1,0 +1,1 @@
+INSERT INTO my_table (id, name) \nVALUES (my_sequence.NEXTVAL, 'John Doe');\n\nSELECT my_sequence.CURRVAL FROM DUAL;

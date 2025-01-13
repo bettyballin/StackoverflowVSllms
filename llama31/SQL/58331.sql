@@ -1,0 +1,1 @@
+SELECT query_text, COUNT(*) AS frequency\nFROM search_queries\nLEFT JOIN search_results ON search_queries.id = search_results.search_query_id\nWHERE search_results.id IS NULL\nGROUP BY query_text\nORDER BY frequency DESC;

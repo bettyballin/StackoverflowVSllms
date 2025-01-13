@@ -1,1 +1,0 @@
-openssl s_client -connect <database_server>:1433 -showcerts

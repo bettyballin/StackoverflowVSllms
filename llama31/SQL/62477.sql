@@ -1,0 +1,1 @@
+CREATE TABLE post_reads (\n  id INT PRIMARY KEY AUTO_INCREMENT,\n  user_id INT NOT NULL,\n  post_id INT NOT NULL,\n  read_datetime DATETIME NOT NULL DEFAULT CURRENT_TIMESTAMP,\n  FOREIGN KEY (user_id) REFERENCES users(id),\n  FOREIGN KEY (post_id) REFERENCES posts(PostID)\n);

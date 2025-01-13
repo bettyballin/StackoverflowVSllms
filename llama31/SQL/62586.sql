@@ -1,0 +1,1 @@
+BEGIN TRANSACTION\n\nUPDATE your_table\nSET column1 = 'new_value'\nWHERE condition = 'true'\n\n-- if you want to rollback the update\nROLLBACK TRANSACTION\n\n-- if you want to commit the update\nCOMMIT TRANSACTION

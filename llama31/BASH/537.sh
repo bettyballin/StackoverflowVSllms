@@ -1,1 +1,0 @@
-perfmon /s /c ".NET CLR Data" /c "SQLServer:Connections"

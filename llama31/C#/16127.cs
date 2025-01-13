@@ -1,1 +1,0 @@
-var cs = ConfigurationManager.ConnectionStrings["PrimaryConnectionString"];\nif (cs?.ConnectionString != null) {\n    // ...\n}

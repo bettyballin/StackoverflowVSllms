@@ -1,1 +1,0 @@
-reg add "HKU\S-1-5-20\Software\Microsoft\Wisp\Pen\SysEventParameters" /t REG_SZ /v "NT AUTHORITY\NETWORK SERVICE" /f

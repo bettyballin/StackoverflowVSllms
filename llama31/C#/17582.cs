@@ -1,1 +1,0 @@
-public void MyMethod(out int myValue)\n{\n    myValue = 10;\n}\n\npublic void Main()\n{\n    int value;\n    MyMethod(out value);\n    Console.WriteLine(value); // Outputs: 10\n}

@@ -1,1 +1,0 @@
-if (User.Identity.IsAuthenticated)\n{\n    string Username = User.Identity.Name;\n    // ...\n}

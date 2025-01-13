@@ -1,0 +1,1 @@
+CREATE TABLE TestTable (\n    Id INT PRIMARY KEY,\n    ShortString nvarchar(100)\n);\n\nINSERT INTO TestTable (Id, ShortString)\nVALUES (1, 'Hello');

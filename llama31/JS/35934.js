@@ -1,0 +1,1 @@
+// Assuming the iframe is named "SpControlFrame1"\nvar iframe = document.getElementsByName('SpControlFrame1')[0];\niframe.src = 'index.php?cmd=YYY'; // or whatever URL you want to load

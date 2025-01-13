@@ -1,0 +1,1 @@
+SELECT pg_stat_statements_reset();\n-- Run your queries here\nSELECT * FROM pg_stat_statements();

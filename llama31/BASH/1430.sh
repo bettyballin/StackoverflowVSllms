@@ -1,1 +1,0 @@
-lftp -u [ftp_username],[ftp_password] [ftp_host] << EOF\nput backup.sql\nput backup.tar.gz\nEOF

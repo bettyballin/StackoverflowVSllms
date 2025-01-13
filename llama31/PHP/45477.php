@@ -1,0 +1,1 @@
+$query = "SELECT * FROM users WHERE username = @username";\n$stmt = mssql_init($query);\nmssql_bind($stmt, "@username", $username, SQLVARCHAR, false, false, 50);\nmssql_execute($stmt);

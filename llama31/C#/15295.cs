@@ -1,1 +1,0 @@
-private List<ZipCode> selectedZipCodes = new List<ZipCode>();

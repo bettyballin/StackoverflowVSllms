@@ -1,1 +1,0 @@
-pm install -g http-server

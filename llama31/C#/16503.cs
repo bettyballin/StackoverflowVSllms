@@ -1,1 +1,0 @@
-deleteButton.OnClientClick = string.Format("deleteRow({0})", e.Row.RowIndex);

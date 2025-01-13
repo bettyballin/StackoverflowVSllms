@@ -1,0 +1,1 @@
+Dim message As String = ""\nDim char As Integer\n\nWhile (char = sr.Read()) <> -1\n    If char = vbCR Or char = vbLF Then\n        Exit While\n    End If\n    message &= ChrW(char)\nEnd While\n\nConsole.WriteLine(message)

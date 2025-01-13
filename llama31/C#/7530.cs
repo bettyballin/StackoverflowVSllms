@@ -1,1 +1,0 @@
-using System.Drawing;\n\npublic Color GetPixelColor(int x, int y)\n{\n    using (Bitmap bitmap = new Bitmap(1, 1))\n    {\n        using (Graphics graphics = Graphics.FromImage(bitmap))\n        {\n            graphics.CopyFromScreen(new Point(x, y), new Point(0, 0), new Size(1, 1));\n        }\n        return bitmap.GetPixel(0, 0);\n    }\n}

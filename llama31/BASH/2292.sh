@@ -1,1 +1,0 @@
-#!/bin/bash\n\nwhile true\ndo\n  pgrep -f "/path/to/your/executable" > /dev/null\n  if [ $? -ne 0 ]; then\n    # Process not running, restart it\n    launchctl start com.example.yourprocess\n  fi\n  sleep 1\ndone

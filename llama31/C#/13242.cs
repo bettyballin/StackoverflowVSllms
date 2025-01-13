@@ -1,1 +1,0 @@
-bool result = ServiceHelper.SetCanStop("YourServiceName", true);

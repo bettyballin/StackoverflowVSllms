@@ -1,1 +1,0 @@
-public class TokenAuthenticationAttribute : AuthorizeAttribute\n{\n    protected override bool AuthorizeCore(HttpContextBase httpContext)\n    {\n        var token = httpContext.Request.Headers["Authorization"];\n        if (token != null)\n        {\n            // Validate the token and retrieve the associated session data\n        }\n        return false;\n    }\n}

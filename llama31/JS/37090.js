@@ -1,0 +1,1 @@
+function md5(string) {\n    var hash = CryptoJS.MD5(string);\n    return hash.toString();\n}

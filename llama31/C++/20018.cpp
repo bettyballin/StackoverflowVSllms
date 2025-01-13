@@ -1,1 +1,0 @@
-// Example WWS code\n#include <windows.h>\n#include <WebServices.h>\n\nint main() {\n    // Initialize WWS\n    WSInitialize();\n    // Create a service host\n    WServiceHost* host = WServiceHostCreate(...);\n    // Register COM DLL\n    WServiceHostRegisterCOMDLL(host, L"YourCOMDLL");\n    // Start the service\n    WServiceHostStart(host);\n    // ...\n}

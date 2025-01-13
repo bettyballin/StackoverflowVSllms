@@ -1,0 +1,1 @@
+BACKUP LOG [database_name] TO DISK = 'backup_location'\nGO\nDBCC SHRINKFILE ('database_name_log', 1)\nGO

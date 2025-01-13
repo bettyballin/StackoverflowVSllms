@@ -1,0 +1,1 @@
+EXEC GetNonSystemDatabases 'your_server_name'

@@ -1,0 +1,1 @@
+$filePath = '/document_root/myfile.pdf';\n   $realPath = realpath($filePath);\n   if ($realPath !== false) {\n       echo filemtime($realPath);\n   } else {\n       echo "File not found.";\n   }

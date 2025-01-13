@@ -1,0 +1,1 @@
+if (!$form->isValid($_POST)) {\n    // CSRF attack detected!\n}

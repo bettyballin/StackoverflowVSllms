@@ -1,0 +1,1 @@
+# In your controller\nsession[:words] = ["word1", "word2", ...]\n\n# To retrieve the words\nwords = session[:words]

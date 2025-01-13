@@ -1,0 +1,1 @@
+Imports Acrobat\n\nSub PrintToPdf(ByVal filePath As String, ByVal outputFilePath As String)\n    Dim acroPdf As New AcroPDF\n    acroPdf.CreatePDF(filePath, outputFilePath)\nEnd Sub

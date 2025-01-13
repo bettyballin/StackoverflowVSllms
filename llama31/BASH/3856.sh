@@ -1,1 +1,0 @@
-gcc -Wno-pragmas -Wno-deprecated your_file.c

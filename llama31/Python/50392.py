@@ -1,0 +1,1 @@
+import ctypes\nimport struct\nimport socket\n\nip = "192.168.1.1"\nip_netFrmt = socket.inet_aton(ip)\nip_packed = struct.unpack("!L", ip_netFrmt)[0]  # unpack as unsigned long\nip_c = ctypes.c_ulong(ip_packed)\n\nthisdll = ctypes.cdll['aDLL']\nthisdll.functionThatExpectsAnIP(ip_c)

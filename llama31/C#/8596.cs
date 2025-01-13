@@ -1,1 +1,0 @@
-int[] b = ...;\nMarshal.SafeArrayCreateVector(typeof(int), b.Length, b);\nGetFoo(b);

@@ -1,1 +1,0 @@
-using (var client = new HttpClient())\n{\n    var response = client.GetAsync("http://www.mydomain.com/announcements/list/10").Result;\n    var announcements = response.Content.ReadAsAsync<Announcement[]>().Result;\n    // process the announcements\n}

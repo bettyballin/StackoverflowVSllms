@@ -1,0 +1,1 @@
+ALTER TABLE table_name ADD CONSTRAINT constraint_name FOREIGN KEY (column_name) REFERENCES t21_turma (A21_ID);

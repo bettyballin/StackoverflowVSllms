@@ -1,0 +1,1 @@
+SELECT *\nFROM your_table\nWHERE MY_DATE >= DATEADD(month, -12, GETDATE())

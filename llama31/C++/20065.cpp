@@ -1,1 +1,0 @@
-[object, uuid(...)]\ninterface IFoo : IUnknown\n{\n    HRESULT Foo([in, out] SAFEARRAY(CLSID) *items);\n}

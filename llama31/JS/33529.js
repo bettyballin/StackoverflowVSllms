@@ -1,0 +1,1 @@
+$.ajax({\n    type: 'GET',\n    url: '/api/data',\n    dataType: 'json',\n    success: function(data) {\n        // Process data\n    }\n});

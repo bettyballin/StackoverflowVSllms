@@ -1,0 +1,1 @@
+$route = new Zend_Controller_Router_Route(\n    ":module/:controller/:action/:id",\n    array(\n        "controller" => "index",\n        "action" => "index"\n    ),\n    array(\n        "id" => "\d+",\n        "controller" => "[a-zA-Z0-9_-]+",\n        "action" => "[a-zA-Z0-9_-]+"\n    )\n);\nself::$frontController->getRouter()->addRoute('shortcut', $route);

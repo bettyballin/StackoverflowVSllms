@@ -1,0 +1,1 @@
+$test = array(\n    0=>'zero', \n    1=>'one', \n    2=>'two',\n    3=>'three', \n);\n\nfunction works($array, $something){\n    echo "My favorite number is " . $array[$something]; \n}\n\nworks($test, 1); // outputs "My favorite number is one"

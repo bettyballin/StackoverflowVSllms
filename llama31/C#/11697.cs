@@ -1,1 +1,0 @@
-using System.Web.Hosting;\n\n// ...\n\nstring physicalPath = HostingEnvironment.MapPath("/somelocation");

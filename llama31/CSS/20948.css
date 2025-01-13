@@ -1,1 +1,0 @@
-table td {\n  border: 1px solid black;\n}\n\ntable tr td:last-child {\n  border: none;\n}

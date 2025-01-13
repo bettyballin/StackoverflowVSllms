@@ -1,1 +1,0 @@
-private byte[] AlignByteArray(byte[] content, int alignto)\n{\n    int remainder = content.Length % alignto;\n    if (remainder == 0)\n    {\n        return content;\n    }\n\n    int newLength = content.Length + (alignto - remainder);\n    byte[] paddedContent = new byte[newLength];\n    content.CopyTo(paddedContent, 0);\n    return paddedContent;\n}

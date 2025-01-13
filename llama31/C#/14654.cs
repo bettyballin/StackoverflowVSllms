@@ -1,1 +1,0 @@
-// example usage:\nusing JetBrains.dotTrace;\nusing NUnit.Framework;\n\n[TestFixture]\npublic class PerformanceTests\n{\n    [Test]\n    public void TestPerformance()\n    {\n        // ...\n    }\n}

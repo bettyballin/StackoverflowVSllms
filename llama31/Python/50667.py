@@ -1,0 +1,1 @@
+messages = Message.all().fetch(100)\nfor message in messages:\n    user = message.user\n    print(user.name, message.text)

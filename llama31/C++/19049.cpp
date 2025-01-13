@@ -1,1 +1,0 @@
-template<typename T, typename U> void f(T, U); // primary template\n\ntemplate<> void f<int, double>(int, double); // specialization for int and double

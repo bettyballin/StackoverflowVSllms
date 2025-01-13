@@ -1,1 +1,0 @@
-ChannelFactory<IServiceContract> factory = new ChannelFactory<IServiceContract>(new BasicHttpBinding(), new EndpointAddress("https://your-service-url.com"));\nfactory.Credentials.UserName.UserName = "test";\nfactory.Credentials.UserName.Password = "pass";\n\nIServiceContract channel = factory.CreateChannel();

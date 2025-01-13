@@ -1,1 +1,0 @@
-List<int> list = new List<int> { 1, 2, 3, 4, 5 };\nint index = list.BinarySearch(x => x > 3 ? 1 : x < 3 ? -1 : 0);\nif (index != -1)\n{\n    Console.WriteLine(list[index]); // prints 3\n}

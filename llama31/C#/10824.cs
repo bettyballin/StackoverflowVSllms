@@ -1,1 +1,0 @@
-using (ISession session = SessionFactory.GetCurrentSession())\n{\n    session.CreateSQLQuery("your_sql_statement_here")\n        .ExecuteUpdate();\n}

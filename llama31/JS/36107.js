@@ -1,0 +1,1 @@
+var html = document.body.innerHTML;\nconsole.log(html);

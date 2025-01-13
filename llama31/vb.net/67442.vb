@@ -1,0 +1,1 @@
+If obj Is DBNull.Value The

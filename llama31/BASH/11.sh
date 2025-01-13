@@ -1,1 +1,0 @@
-for file in *.html; do\n       html2text -o "${file%.html}.txt" "$file"\n   done

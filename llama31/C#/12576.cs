@@ -1,1 +1,0 @@
-public class VendorApplicationBatch\n{\n    // ...\n\n    public IList<VendorApplication> GetApplications()\n    {\n        return AppRepo.GetByBatchId(this.Id);\n    }\n\n    public decimal CalculateBatchTotal()\n    {\n        var applications = GetApplications();\n        // ...\n    }\n}

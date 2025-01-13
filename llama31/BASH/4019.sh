@@ -1,1 +1,0 @@
-ffmpeg -i input.mp4 -c:v libx264 -c:a aac -hls_segment_filename "segment%03d.ts" -hls_key_info_file key.info output.m3u8

@@ -1,0 +1,1 @@
+class CustomSessionHandler implements SessionHandlerInterface {\n    // implement read, write, close, destroy, and gc methods\n}\n\nsession_save_handler(new CustomSessionHandler());

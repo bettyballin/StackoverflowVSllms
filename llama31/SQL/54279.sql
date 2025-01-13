@@ -1,0 +1,1 @@
+CREATE PROCEDURE CreateBackupDir\n    @DirPath nvarchar(255)\nAS\nBEGIN\n    DECLARE @cmd nvarchar(255);\n    SET @cmd = 'mkdir ' + @DirPath;\n    EXEC xp_cmdshell @cmd;\nEND;

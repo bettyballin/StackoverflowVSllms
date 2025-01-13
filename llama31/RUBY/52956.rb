@@ -1,0 +1,1 @@
+class DataType1 < ActiveRecord::Base\n  has_many :data_type_2s\n  accepts_nested_attributes_for :data_type_2s\nend

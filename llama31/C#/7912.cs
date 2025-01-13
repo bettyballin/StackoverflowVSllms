@@ -1,1 +1,0 @@
-using System.Memory;\n\n// ...\n\nvar lineSpan = line.AsSpan();\nvar delimiterSpan = delimiter.AsSpan();\n\nvar values = lineSpan.Split(delimiterSpan);\n\n// Use values as ReadOnlySpan<string>

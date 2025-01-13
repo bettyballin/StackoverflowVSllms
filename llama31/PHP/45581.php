@@ -1,0 +1,1 @@
+$data = array(\n    'date_last_active'  => new Zend_Db_Expr('UTC_TIMESTAMP()')\n);

@@ -1,1 +1,0 @@
-using NUnit.Framework;\n\nnamespace MyTests\n{\n    [TestFixture]\n    public class MyTest\n    {\n        [Test]\n        public void MyTestMethod()\n        {\n            Assert.IsTrue(true);\n        }\n    }\n}

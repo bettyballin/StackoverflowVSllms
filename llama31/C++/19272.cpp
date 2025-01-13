@@ -1,1 +1,0 @@
-__declspec(dllexport) void MyDLLFunction()\n{\n    // ... your code here ...\n\n    DebugBreak(); // This will break into the debugger\n}

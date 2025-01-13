@@ -1,1 +1,0 @@
-class Program\n{\n    static void Main(string[] args)\n    {\n        var uploader = new FileUploader();\n        uploader.UploadFile("path/to/your/file.txt");\n    }\n}

@@ -1,1 +1,0 @@
-perl -ne 'END {print $.}' your_large_file.xml

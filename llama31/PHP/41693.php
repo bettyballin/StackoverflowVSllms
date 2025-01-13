@@ -1,0 +1,1 @@
+$groupedPosts = array_group_by($posts, 'category');

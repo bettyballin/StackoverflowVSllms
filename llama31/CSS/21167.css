@@ -1,1 +1,0 @@
-div {\n  position: relative; /* Make the DIV a relative container */\n}\n\nul {\n  position: absolute; /* Absolutely position the UL */\n  right: 100%; /* Move UL to the left by 100% of its width */\n  width: 200px; /* Example width for the UL */\n}

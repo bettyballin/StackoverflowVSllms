@@ -1,1 +1,0 @@
-var param1 = new SqlParameter("@param1", value1);\nvar param2 = new SqlParameter("@param2", value2);\n\nvar objects = context.YourBusinessObjects\n                      .FromSqlRaw("EXEC YourSprocName @param1, @param2", param1, param2)\n                      .ToList();

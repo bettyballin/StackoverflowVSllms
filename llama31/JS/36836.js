@@ -1,0 +1,1 @@
+const fileInput = document.getElementById('fileInput');\nconst file = fileInput.files[0];\nconst xhr = new XMLHttpRequest();\n\nxhr.open('POST', '/upload', true);\nxhr.setRequestHeader('Content-Type', 'application/octet-stream');\nxhr.send(file);

@@ -1,1 +1,0 @@
-#container {\n  width: 800px;\n  margin: 0 auto;\n  *width: 800px; /* IE8 hack */\n  *margin: 0 auto; /* IE8 hack */\n}

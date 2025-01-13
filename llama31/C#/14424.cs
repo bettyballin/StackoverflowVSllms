@@ -1,1 +1,0 @@
-using (var dbContext = new MyDbContext())\n{\n    var blob = dbContext.MyTable\n        .Where(t => t.Id == 1)\n        .Select(t => t.BlobColumn)\n        .FirstOrDefault();\n\n    // 'blob' is now a byte[]\n}

@@ -1,0 +1,1 @@
+Protected Overrides Function ProcessCmdKey(ByRef msg As Message, keyData As Keys) As Boolean\n    If keyData = Keys.Enter AndAlso Me.ActiveControl Is RichTextBox1 Then\n        RichTextBox1.AppendText(Environment.NewLine)\n        Return True\n    End If\n    Return MyBase.ProcessCmdKey(msg, keyData)\nEnd Functio

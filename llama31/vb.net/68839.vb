@@ -1,0 +1,1 @@
+Imports System.Windows\n\nNamespace WpfMigrationExample\n    Public Class MainWindow\n        Inherits Window\n\n        Public Sub New()\n            InitializeComponent()\n        End Sub\n\n        Private Sub Button_Click(sender As Object, e As RoutedEventArgs)\n            MessageBox.Show("Button clicked!")\n        End Sub\n    End Class\nEnd Namespace

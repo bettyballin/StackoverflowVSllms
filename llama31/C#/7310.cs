@@ -1,1 +1,0 @@
-string result = DateTime.ParseExact("24/5/2009 14:00", \n                                    "d/M/yyyy H:mm", \n                                    CultureInfo.InvariantCulture)\n                        .ToString("M/d/yyyy h:mm tt");

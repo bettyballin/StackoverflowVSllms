@@ -1,1 +1,0 @@
-enum pointer_type { TYPE1, TYPE2, /* ... */ };\n\nstruct my_struct {\n    enum pointer_type type;\n    /* ... */\n};

@@ -1,0 +1,1 @@
+class Session {\n    private $auth;\n\n    public function __construct(Authentication $auth) {\n        $this->auth = $auth;\n    }\n\n    function startSession() {\n        // Use $this->auth instead of $auth\n        $this->auth->checkLogin();\n    }\n}

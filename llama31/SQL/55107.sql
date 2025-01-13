@@ -1,0 +1,1 @@
+SELECT ... WHERE ss.user_id = 1 OR 1=1;

@@ -1,1 +1,0 @@
-NetTcpBinding binding = new NetTcpBinding();\nbinding.Security.Mode = SecurityMode.Transport;\nbinding.Security.Transport.ClientCredentialType = TcpClientCredentialType.Windows;

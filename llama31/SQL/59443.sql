@@ -1,0 +1,1 @@
+CREATE TABLE #temp_table AS\nSELECT *\nFROM large_table\nWHERE simple_condition;\n\nSELECT *\nFROM #temp_table\nWHERE complex_condition;

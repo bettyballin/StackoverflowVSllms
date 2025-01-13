@@ -1,0 +1,1 @@
+<?php\n  // Render some basic HTML content\n  echo '<html><head><title>Example PHP Page</title></head><body>Hello, World!</body></html>';\n?>

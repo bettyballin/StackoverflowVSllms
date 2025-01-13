@@ -1,0 +1,1 @@
+SELECT CustomerNumber, CustomerName\nFROM (\n  SELECT CustomerNumber, CustomerName,\n         CASE\n           WHEN REGEXP_LIKE(CustomerNumber, '^[0-9]+$') THEN TO_NUMBER(CustomerNumber)\n           ELSE NULL\n         END AS numeric_value\n  FROM Customer\n  WHERE User = ?\n)\nORDER BY numeric_value NULLS LAST, CustomerNumber;

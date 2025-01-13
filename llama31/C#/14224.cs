@@ -1,1 +1,0 @@
-byte[] bytes = Encoding.GetEncoding("iso-8859-1").GetBytes(your_string);\nConsole.WriteLine(BitConverter.ToString(bytes));

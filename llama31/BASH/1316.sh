@@ -1,1 +1,0 @@
-# Run the following command to create a customized Qt Lite build\nqt lite --module-subset=QtCore,QtGui,QtNetwork --no-widgets

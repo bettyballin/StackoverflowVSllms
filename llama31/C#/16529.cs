@@ -1,1 +1,0 @@
-protected void Page_Load(object sender, EventArgs e)\n{\n    string pdfPath = Request.QueryString["file"];\n    Response.ContentType = "application/pdf";\n    Response.AppendHeader("Content-Disposition", "attachment; filename=yourfile.pdf");\n    Response.TransmitFile(pdfPath);\n    Response.End();\n}

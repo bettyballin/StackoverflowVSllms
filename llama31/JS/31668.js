@@ -1,0 +1,1 @@
+var url = new URL('/some/subdir/file.php', window.location.href);\n$.post(url.href, ...);

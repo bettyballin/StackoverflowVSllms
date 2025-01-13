@@ -1,0 +1,1 @@
+$string = "Hello World";\n\n$url_encoded = urlencode($string);\n$raw_url_encoded = rawurlencode($string);\n\necho $url_encoded; // Output: "Hello+World"\necho $raw_url_encoded; // Output: "Hello%20World"

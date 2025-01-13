@@ -1,0 +1,1 @@
+$stmt = $db->prepare("EXEC sp_user_getDetails :userid");\n$stmt->bindParam(':userid', $userid);\n$stmt->execute();\n$results = $stmt->fetchAll();\nif ($results) {\n    // Do something\n}

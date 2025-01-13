@@ -1,0 +1,1 @@
+$posts = get_posts(array('numberposts' => $limit));\n\nforeach ($posts as $post) {\n    $title = get_the_title($post->ID);\n    $permalink = get_permalink($post->ID);\n    $content = get_the_content($post->ID);\n\n    // Do something with the data\n    print "<a href='$permalink'>$title</a><br>";\n    print htmlentities($content, ENT_COMPAT, "UTF-8"). "<br>";\n}

@@ -1,1 +1,0 @@
-public sealed class Storage\n{\n    private static readonly Lazy<Storage> _instance = new Lazy<Storage>(() => new Storage());\n    private string _filePath;\n\n    public static Storage Instance => _instance.Value;\n\n    public string FilePath\n    {\n        get { return _filePath; }\n        set { _filePath = value; }\n    }\n}

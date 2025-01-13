@@ -1,0 +1,1 @@
+Sub Command_Click()\n    Dim result As Variant\n    result = pptCreator(arg1, arg2, ...)\nEnd Sub

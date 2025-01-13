@@ -1,0 +1,1 @@
+function join_strings($glue) {\n    $args = func_get_args();\n    array_shift($args); // Remove the glue string from the arguments\n    return implode($glue, $args);\n}\n\n$title = "Mr.";\n$fname = "Jonathan";\n$lname = "Sampson";\n\nprint join_strings(" ", $title, $fname, $lname); // Mr. Jonathan Sampso

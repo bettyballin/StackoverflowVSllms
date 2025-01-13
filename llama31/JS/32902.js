@@ -1,0 +1,1 @@
+// Set the variable\nvar formAction = "something.html";\n\n// Get all form elements with the class "myForm"\nvar forms = document.getElementsByClassName("myForm");\n\n// Loop through the forms and set the action\nfor (var i = 0; i < forms.length; i++) {\n  forms[i].action = formAction;\n}

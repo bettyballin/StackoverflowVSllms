@@ -1,1 +1,0 @@
-var store = new X509Store(StoreName.My, StoreLocation.CurrentUser);\nstore.Open(OpenFlags.ReadWrite);\nvar certificate = new X509Certificate2("path/to/certificate");\nstore.Add(certificate);\nstore.Close();

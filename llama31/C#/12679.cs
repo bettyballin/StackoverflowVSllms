@@ -1,1 +1,0 @@
-string confirmationLink = "https://yourwebsite.com/ConfirmEmail.aspx?username=" + username + "&token=" + Guid.NewGuid().ToString();\nstring emailBody = string.Format(mailDefinition.Body, confirmationLink);\nmailDefinition.Body = emailBody;

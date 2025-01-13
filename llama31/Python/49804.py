@@ -1,0 +1,1 @@
+import dns.resolver\n\nhostname = 'example.com'\ntry:\n    answers = dns.resolver.query(hostname, 'A')\n    for rdata in answers:\n        print("IP Address:", rdata.address)\nexcept dns.resolver.NoAnswer:\n    print("No DNS record found.")

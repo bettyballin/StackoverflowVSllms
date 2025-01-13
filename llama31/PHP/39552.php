@@ -1,0 +1,1 @@
+$session = new Zend_Session_Namespace('store');\n$session->store = $store;

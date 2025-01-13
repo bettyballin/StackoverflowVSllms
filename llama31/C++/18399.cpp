@@ -1,1 +1,0 @@
-// main.cpp (in another project)\n#include "mytemplate.h"\n__declspec(dllimport) template class MyTemplate<int>; // explicit instantiatio

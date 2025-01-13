@@ -1,1 +1,0 @@
-sed '3s/$/, extra information/' file.txt

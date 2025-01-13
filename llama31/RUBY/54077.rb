@@ -1,0 +1,1 @@
+class Employee < ActiveRecord::Base\n  include ResourceSerializer\n  belongs_to :employer\nend\n\nclass Employer < ActiveRecord::Base\n  include ResourceSerializer\n  has_many :employees\nend

@@ -1,1 +1,0 @@
-// Profile a specific function\nProfiler.Start();\nyour_function();\nProfiler.Stop();

@@ -1,1 +1,0 @@
-patch -p0 -i input.patch -o output.patch

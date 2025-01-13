@@ -1,1 +1,0 @@
-string selectCommand = @"\n    SET ARITHABORT ON;\n    EXEC sp_Stat\n        @DepartmentID = NULL";

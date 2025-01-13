@@ -1,0 +1,1 @@
+SELECT SQL_CALC_FOUND_ROWS\n    t.id, t.name, \n    (SELECT MAX(date) FROM wp_pod_tbl_forum r WHERE r.topic_id = t.id) AS date,\n    (SELECT COUNT(id) FROM wp_pod_tbl_forum r WHERE r.topic_id = t.id) AS replies\nFROM \n    wp_pod_tbl_forum t\nWHERE \n    t.topic_id = 0\nORDER BY \n    date DESC LIMIT 0,20;

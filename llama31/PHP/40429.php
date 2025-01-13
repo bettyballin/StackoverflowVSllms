@@ -1,0 +1,1 @@
+$file = new SplFileObject('path/to/file.log');\n$file->setFlags(SplFileObject::READ_AHEAD | SplFileObject::SKIP_EMPTY);\n\nwhile (!$file->eof()) {\n    echo $file->fgets();\n    sleep(1); // wait 1 second before checking again\n}

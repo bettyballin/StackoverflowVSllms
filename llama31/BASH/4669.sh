@@ -1,1 +1,0 @@
-# Set up OpenVPN on a node\nsudo apt-get install openvpn\n\n# Configure the OpenVPN server\nsudo nano /etc/openvpn/server.conf

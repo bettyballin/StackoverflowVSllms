@@ -1,0 +1,1 @@
+if (hasValidationErrors()) {\n    // validation has errors\n}

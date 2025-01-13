@@ -1,0 +1,1 @@
+declare @checkvar  varchar(10)\ndeclare @tbl TABLE( colx varchar(10) )\nset @checkvar ='a'\n\nINSERT  INTO @tbl (colx) VALUES('a')\nINSERT  INTO @tbl (colx) VALUES('b')\nINSERT  INTO @tbl (colx) VALUES('c')\nINSERT  INTO @tbl (colx) VALUES('d')\n\nSELECT colx INTO #temp1 \nFROM @tbl \nWHERE (@checkvar IS NULL) OR (colx = @checkvar)

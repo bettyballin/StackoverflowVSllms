@@ -1,1 +1,0 @@
-@Html.Grid(Model).Sort(new[] { "ColumnName" }, new[] { SortDirection.Ascending })

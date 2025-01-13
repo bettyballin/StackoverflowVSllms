@@ -1,1 +1,0 @@
-llvm-objdump -d -r opcodes.o > opcodes.ll

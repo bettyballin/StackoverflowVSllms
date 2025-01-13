@@ -1,1 +1,0 @@
-[ServiceContract]\npublic interface IImage\n{\n    [OperationContract]\n    [WebInvoke(\n        Method = "POST",\n        UriTemplate = "/images")]\n    void StoreImage(Stream imageData);\n}

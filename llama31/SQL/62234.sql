@@ -1,0 +1,1 @@
+ALTER SYSTEM SET primary_conninfo = 'host=primary_server port=5432 user=replication_user';

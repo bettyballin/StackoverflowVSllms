@@ -1,1 +1,0 @@
-// Set compression quality (0-100) before saving\ncvSetCaptureProperty(image, CV_CAP_PROP_JPEG_QUALITY, 90);\n\n// Save image as JPEG\ncvSaveImage("image.jpg", image);

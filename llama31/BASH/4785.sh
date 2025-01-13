@@ -1,1 +1,0 @@
-rsync -avz --delete --filter="+ *.txt" --filter="+ *.html" C:\Local\Path/ user@virtual_machine:/path/to/destination/

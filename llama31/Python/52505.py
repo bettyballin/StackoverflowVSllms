@@ -1,0 +1,1 @@
+import numpy as np\n\nx = np.asarray([5, 4, 3])\ny = np.asarray([33, 44, 55])\n\n# Combine the two arrays into a single array of tuples\nvalues = np.array(list(zip(x, y)), dtype=[('alpha', float), ('beta', float)])\n\n# Sort the array\nsorted_values = np.sort(values, order='alpha')\n\nprint(sorted_values)

@@ -1,0 +1,1 @@
+' Create a new section for the second dataset\nDim section As New CrystalDecisions.CrystalReports.Engine.Section()\nsection.ReportObjects.Add(New CrystalDecisions.CrystalReports.Engine.TextObject())\nsection.Dataset = Me.Dataset2 ' Replace with your dataset name\n\n' Add the section to the report\nMe.Sections.Add(section)

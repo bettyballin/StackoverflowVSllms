@@ -1,1 +1,0 @@
-// CommonLib\npublic class MyHelper\n{\n    public void MyMethod()\n    {\n        // 35 lines of code here\n        DataAccessLayer.MyDataAccessMethod();\n    }\n}

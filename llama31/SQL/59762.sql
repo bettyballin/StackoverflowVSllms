@@ -1,0 +1,1 @@
+-- Check if the 'sa' account is disabled\nSELECT is_disabled \nFROM sys.server_principals \nWHERE name = 'sa';\n\n-- Check if the SQL Server instance is set to Windows Authentication mode\nSELECT CASE \n       WHEN SERVERPROPERTY('IsIntegratedSecurityOnly') = 1 THEN 'Windows Authentication'\n       ELSE 'SQL Server and Windows Authentication'\n       END AS AuthenticationMode;

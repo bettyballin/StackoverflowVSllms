@@ -1,1 +1,0 @@
-# Basic example to send a packet\nmz eth0 -c 0 -d 1-2 -A 192.168.1.1

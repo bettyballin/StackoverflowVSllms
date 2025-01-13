@@ -1,0 +1,1 @@
+<taglib>\n    <uri>http://example.com/custom-functions</uri>\n    <function>\n        <name>getClassName</name>\n        <function-class>com.example.CustomELFunctions</function-class>\n        <function-signature>java.lang.String getClassName(java.lang.Object)</function-signature>\n    </function>\n</taglib>

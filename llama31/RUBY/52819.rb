@@ -1,0 +1,1 @@
+# Server-side template (ERb)\n<%= render :template => 'my_template', :locals => { :data => @data } %>\n\n# Client-side template (Mustache.js)\nvar template = $('#my-template').html();\nvar renderedHtml = Mustache.render(template, data);\n$('#my-container').html(renderedHtml);

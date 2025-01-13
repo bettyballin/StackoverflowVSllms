@@ -1,0 +1,1 @@
+from odfpy import Document\n\n# Create a new document\ndoc = Document()\n\n# Create a new sheet\nsheet = doc.addSheet('Sheet1')\n\n# Write data to a cell\nsheet.getCell(0, 0).setString('Hello, World!')\n\n# Save the document to a file\ndoc.save('example.ods')

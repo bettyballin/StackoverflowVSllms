@@ -1,0 +1,1 @@
+CREATE OR REPLACE PACKAGE our_tool_package\nIS\n  PROCEDURE enable_role;\nEND our_tool_package;\n\nCREATE OR REPLACE PACKAGE BODY our_tool_package\nIS\n  PROCEDURE enable_role\n  IS\n  BEGIN\n    DBMS_SESSION.SET_ROLE('our_tool_role');\n  END enable_role;\nEND our_tool_package;

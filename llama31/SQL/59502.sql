@@ -1,0 +1,1 @@
+SMALLINT[(length)] [UNSIGNED] [ZEROFILL]

@@ -1,0 +1,1 @@
+var xhr = new XMLHttpRequest();\nxhr.open('GET', 'https://example.com', true);\nxhr.onreadystatechange = function() {\n  if (xhr.readyState === 4) {\n    console.log(xhr.getAllResponseHeaders());\n  }\n};\nxhr.send();

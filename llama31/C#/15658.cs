@@ -1,1 +1,0 @@
-string csvString = "value1,value2,value3";\nstring[] values = csvString.Split(new char[] { ',' }, StringSplitOptions.RemoveEmptyEntries);

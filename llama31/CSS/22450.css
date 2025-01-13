@@ -1,1 +1,0 @@
-table {\n  width: 100%;\n  border-collapse: collapse;\n}\n\nth {\n  border: 1px solid #ddd;\n}\n\nth:nth-child(1), th:nth-child(3) {\n  width: 15%;\n}\n\nth:nth-child(2) {\n  width: 70%;\n}

@@ -1,1 +1,0 @@
-public bool Equals<U>(Collection<T> other, EqualityComparer<U> eq) \n    where U : T // Note the change here!\n{\n    // code using eq delegate to test equality between\n    // members of this and other collection\n}

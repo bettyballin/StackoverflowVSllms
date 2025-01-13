@@ -1,1 +1,0 @@
-[Test]\npublic void AnotherTest()\n{\n    var mock = new Mock<IMyInterface>();\n    mock.Setup(m => m.Print("hello world")).Returns(true);\n\n    var myClass = new MyClass(mock.Object);\n    bool result = myClass.Print();\n\n    mock.Verify(m => m.Print("hello world"), Times.Exactly(1));\n    Assert.IsTrue(result);\n}

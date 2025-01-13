@@ -1,1 +1,0 @@
-class DLLAPI Derived : public Base\n{\n    // ...\n};

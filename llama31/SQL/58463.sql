@@ -1,0 +1,1 @@
+SELECT * INTO bar.dbo.tblFoobar\nFROM foo.dbo.tblFoobar

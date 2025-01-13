@@ -1,1 +1,0 @@
-var ids = new int[] { 1, 2, 3 };\nforeach (var id in ids)\n{\n    var file = new FileEntity { ID = id };\n    db.FileEntities.Attach(file);\n    file.DateDeleted = DateTime.Now;\n}\ndb.SubmitChanges();

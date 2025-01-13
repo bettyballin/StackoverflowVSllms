@@ -1,0 +1,1 @@
+# app/controllers/concerns/login_concern.rb\nmodule LoginConcern\n  extend ActiveSupport::Concern\n\n  included do\n    # Your login system code goes here\n  end\nend

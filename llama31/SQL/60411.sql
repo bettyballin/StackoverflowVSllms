@@ -1,0 +1,1 @@
+SELECT \n    o.ID, \n    (SELECT TOP 1 ID \n     FROM ValueSet \n     WHERE OriginatingObjectID = o.ID \n     ORDER BY DateStamp DESC) AS LatestValueSetID\nFROM \n    OriginatingObject o

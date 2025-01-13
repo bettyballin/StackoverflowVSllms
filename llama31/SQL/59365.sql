@@ -1,0 +1,1 @@
+SELECT * \nFROM comments \nWHERE comments.id = ANY(ARRAY[1,3,2,4])\nORDER BY array_position(ARRAY[1,3,2,4], comments.id);

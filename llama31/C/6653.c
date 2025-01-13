@@ -1,1 +1,0 @@
-ub4 new_length = 0;\nOCILobTrim(env, err, lob, &new_length, OCI_DEFAULT);

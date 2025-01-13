@@ -1,0 +1,1 @@
+$array = array("apple", "banana", "cap", "dog", ...);\n$stringsToFind = array("abc", "def", "ghi");\n\n$commonElements = array_intersect($array, $stringsToFind);\n\nif (!empty($commonElements)) {\n    echo "The following strings exist: " . implode(", ", $commonElements);\n} else {\n    echo "None of the strings exist";\n}

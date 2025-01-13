@@ -1,0 +1,1 @@
+use Zend_Markup;\nuse Michelf\Markdown;\n\n// Initialize Zend_Markup\n$markup = new Zend_Markup('markdown', Markdown::defaultTransform());\n\n// Parse Markdown text\n$markdownText = '**Bold text** and [link](http://example.com)';\n$html = $markup->parse($markdownText);\n\necho $html;

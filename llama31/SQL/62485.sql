@@ -1,0 +1,1 @@
+UPDATE threads \nSET LastPostDateTime = NOW() \nWHERE ThreadID = '$thread_id';

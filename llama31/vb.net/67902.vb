@@ -1,0 +1,1 @@
+Sub LoadDLL()\n    Dim dllPath As String\n    dllPath = ThisWorkbook.Path & "\Fcall.dll"\n    LoadLibrary dllPath\nEnd Sub

@@ -1,0 +1,1 @@
+$("[id$=" + endOfIdToMatch + "]").each(function () {\n    var elementType = $(this).prop('tagName').toLowerCase();\n    if (elementType === 'input') {\n        // it's a textbox, use val()\n        var value = $(this).val();\n    } else if (elementType === 'label') {\n        // it's a label, use html()\n        var value = $(this).html();\n    }\n});

@@ -1,0 +1,1 @@
+function errorHandler($errno, $errstr, $errfile, $errline) {\n    // Log the error\n    file_put_contents('logs/exceptions.log', "$errstr in $errfile on line $errline\n", FILE_APPEND);\n}\n\nset_error_handler('errorHandler');

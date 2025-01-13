@@ -1,1 +1,0 @@
-0 0 * * * /etc/cron.daily/apt-update

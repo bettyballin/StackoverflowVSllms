@@ -1,1 +1,0 @@
-protected void Page_Load(object sender, EventArgs e)\n{\n    DataAccessLayer dal = new DataAccessLayer();\n    List<MyEntity> entities = dal.ReadAll<MyEntity>();\n\n    myGridView.DataSource = entities;\n    myGridView.DataBind();\n}

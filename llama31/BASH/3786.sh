@@ -1,1 +1,0 @@
-grep --mmap -F "search_string" file.txt

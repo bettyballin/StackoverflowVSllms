@@ -1,1 +1,0 @@
-auto myVar = 5; // myVar is an int\nauto myPtr = &myVar; // myPtr is an int*

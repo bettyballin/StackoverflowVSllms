@@ -1,0 +1,1 @@
+var sessionId = document.referrer.match(/JSESSIONID=[^&]+/)[0].split('=')[1];

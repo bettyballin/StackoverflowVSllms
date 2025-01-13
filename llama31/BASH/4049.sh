@@ -1,1 +1,0 @@
-export C_INCLUDE_PATH=$C_INCLUDE_PATH:/home/me/development/skia

@@ -1,0 +1,1 @@
+SELECT \n    percent_complete, \n    estimated_completion_time, \n    cpu_usage, \n    memory_usage\nFROM \n    sys.dm_exec_requests\nWHERE \n    session_id = <your_session_id>;

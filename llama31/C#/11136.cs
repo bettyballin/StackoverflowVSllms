@@ -1,1 +1,0 @@
-public ActionResult DoSearch([BindModel(RequestType = RequestType.Get)] SearchParameters searchParameters)

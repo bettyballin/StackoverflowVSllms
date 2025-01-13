@@ -1,1 +1,0 @@
-var n = new { p.Name, p.Age, ShoeSize = 10 };

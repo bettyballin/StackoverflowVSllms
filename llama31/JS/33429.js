@@ -1,0 +1,1 @@
+var formData = $('#myForm').serializeArray();

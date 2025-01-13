@@ -1,1 +1,0 @@
-public static bool IsFile(string path)\n{\n    return File.Exists(path);\n}\n\npublic static bool IsDirectory(string path)\n{\n    return Directory.Exists(path);\n}

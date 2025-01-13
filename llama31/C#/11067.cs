@@ -1,1 +1,0 @@
-using System.Management;\n\nclass ServiceController\n{\n    public static void ChangeStartupType(string serviceName, string startupType)\n    {\n        ManagementObject service = new ManagementObject("Win32_Service.Name='" + serviceName + "'");\n        service.InvokeMethod("ChangeStartMode", new object[] { startupType });\n    }\n}

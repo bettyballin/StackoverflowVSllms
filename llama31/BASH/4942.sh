@@ -1,1 +1,0 @@
-ps2pdf input.ps output.pdf

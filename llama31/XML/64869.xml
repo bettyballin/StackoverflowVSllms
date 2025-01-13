@@ -1,0 +1,1 @@
+<behavior name="ReceivingServiceBehavior">\n    <!-- Other behaviors -->\n    <serviceAuthorization impersonateCallerForAllOperations="true" impersonationLevel="Identification" />\n</behavior>

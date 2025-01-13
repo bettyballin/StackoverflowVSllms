@@ -1,1 +1,0 @@
-export ORACLE_HOME=/cygdrive/c/oracle/product/10.2.0/client_1

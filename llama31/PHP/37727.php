@@ -1,0 +1,1 @@
+$params = array();\n$params[] = 's'; // type for string parameter\n$params[] = 'hello'; // string parameter\n$params[] = 'd'; // type for integer parameter\n$params[] = 42; // integer parameter\n\n$stmt = $mysqli->prepare("SELECT * FROM table WHERE name = ? AND id = ?");\ncall_user_func_array(array(&$stmt, 'bind_param'), $params);\n$stmt->execute();

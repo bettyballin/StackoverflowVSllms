@@ -1,1 +1,0 @@
-chgrp -R www public_html/*

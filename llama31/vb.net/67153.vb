@@ -1,0 +1,1 @@
+Private menuStripLock As New Object()\n\nPrivate Sub UpdateMenuStrip()\n    SyncLock menuStripLock\n        ' Update MenuStrip here\n    End SyncLock\nEnd Sub

@@ -1,0 +1,1 @@
+BACKUP DATABASE [your_database_name] TO URL = 'https://your-cloud-storage.com/your_backup_file.bak'

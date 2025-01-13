@@ -1,0 +1,1 @@
+CREATE OR REPLACE FUNCTION call_dotnet_function()\nRETURNS void AS 'dotnet_wrapper.so', 'call_dotnet_function'\nLANGUAGE C STRICT;

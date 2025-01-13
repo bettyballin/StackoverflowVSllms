@@ -1,1 +1,0 @@
-[HttpPost]\npublic ActionResult MyAction(FormCollection form)\n{\n    var listBox1All = form.GetValues("ListBox1_All");\n    foreach (var item in listBox1All)\n    {\n        // Process each item\n    }\n    // ...\n}

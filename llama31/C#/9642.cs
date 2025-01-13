@@ -1,1 +1,0 @@
-// ASP.Net Web Forms code-behind example\nprotected void btnSubmit_Click(object sender, EventArgs e)\n{\n    string name = txtName.Text;\n    // Process the input...\n}

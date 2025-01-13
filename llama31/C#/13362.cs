@@ -1,1 +1,0 @@
-var session = Session["variable"]?.ToString() ?? "set this";\nSession["variable"] = session;

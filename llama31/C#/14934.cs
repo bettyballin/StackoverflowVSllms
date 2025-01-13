@@ -1,1 +1,0 @@
-// Controller\npublic class UsersController : Controller {\n    public ActionResult Index() {\n        var users = new UserService().GetUsers();\n        return View(users);\n    }\n}\n\n// View\n@model IEnumerable<MvcApplication1.Models.User>\n\n@foreach (var user in Model) {\n    @user.Name\n}

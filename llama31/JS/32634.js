@@ -1,0 +1,1 @@
+var radios = document.getElementsByTagName('input');\nfor (var i = 0; i < radios.length; i++) {\n  if (radios[i].type === 'radio') {\n    radios[i].style.display = 'none';\n  }\n}

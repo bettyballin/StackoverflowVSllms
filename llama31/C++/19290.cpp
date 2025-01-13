@@ -1,1 +1,0 @@
-std::string line;\nwhile (std::getline(std::ifstream(f), line)) {\n    // process the line\n}

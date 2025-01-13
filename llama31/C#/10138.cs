@@ -1,1 +1,0 @@
-CodeDomProvider provider = CodeDomProvider.CreateProvider("CSharp", "v3.5");

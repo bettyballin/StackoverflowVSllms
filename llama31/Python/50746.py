@@ -1,0 +1,1 @@
+def count_set_bits(n):\n    return bin(n).count('1')

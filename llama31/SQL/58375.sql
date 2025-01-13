@@ -1,0 +1,1 @@
+SELECT Item.Id\nFROM Item\nJOIN Event\nON Event.Id = Item.EventId\nJOIN Seat\nUSING (VenueId, Configuration)\nJOIN (\n  SELECT 1 AS Home_team UNION\n  SELECT 2 UNION\n  SELECT 3 UNION\n  SELECT 4 UNION\n  SELECT 5\n) AS Home_teams\nON Event.Home_team = Home_teams.Home_team\nWHERE Seat.Section = Item.Section\nAND Seat.exclude = 0;

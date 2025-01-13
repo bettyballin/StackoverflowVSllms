@@ -1,1 +1,0 @@
-using StackExchange.Redis;\n\n// Set up Redis connection\nConnectionMultiplexer redisConnection = ConnectionMultiplexer.Connect("localhost");\n\n// Store data in Redis\nIDatabase redisDb = redisConnection.GetDatabase();\nredisDb.StringSet("key", "value");

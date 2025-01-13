@@ -1,1 +1,0 @@
-// Configure the pipe connection on the client\nRpcBindingSetAuthInfo(hBinding, RPC_C_AUTHN_WINNT, RPC_C_AUTHZ_NONE, 0, NULL, 0, NULL);\nRpcBindingSetEndpoint(hBinding, (RPC_WSTR)"ncacn_ip_tcp", (RPC_WSTR)"\\pipe\\my_pipe");

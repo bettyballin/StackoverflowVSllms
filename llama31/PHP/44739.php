@@ -1,0 +1,1 @@
+$testPics = takeFiles($picsDir, "/\.(jpe?g|png|gif)$/i");

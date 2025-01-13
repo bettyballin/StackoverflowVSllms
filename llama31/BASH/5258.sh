@@ -1,1 +1,0 @@
-wmic logicaldisk get deviceid, volumename | findstr /i "USB"

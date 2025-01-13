@@ -1,0 +1,1 @@
+SELECT DISTINCT name \nFROM log \nWHERE name IS NOT NULL \nAND name LIKE '%.EDIT%';

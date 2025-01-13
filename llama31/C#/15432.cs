@@ -1,1 +1,0 @@
-protected void Form_addRoom_ItemInserting(object sender, FormViewInsertEventArgs e)\n{\n    // Query DB for some values...\n    if (enteredMaxPeople > queryMaxPeople)\n    {\n        e.Cancel = true; // Cancel the insert operation\n        statusLabel.Text = "Value entered not valid";\n    }\n}

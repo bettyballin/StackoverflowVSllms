@@ -1,1 +1,0 @@
-// Array\nMyClass[] array;\n\n// List<T>\nList<MyClass> list;

@@ -1,1 +1,0 @@
-public class KeepSessionAlive : IHttpHandler\n{\n  public void ProcessRequest(HttpContext context)\n  {\n    context.Response.StatusCode = 200;\n    context.Response.StatusDescription = "OK";\n    context.Response.End();\n  }\n\n  public bool IsReusable\n  {\n    get { return true; }\n  }\n}

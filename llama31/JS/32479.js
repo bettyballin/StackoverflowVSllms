@@ -1,0 +1,1 @@
+if (ValidatorValidate("validationGroup")) {\n    // Validation group is valid\n} else {\n    // Validation group is not valid\n}

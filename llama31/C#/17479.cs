@@ -1,1 +1,0 @@
-validationRule.FindText = {{ UsersDataSource.Users#csv.?UserName }};

@@ -1,0 +1,1 @@
+function getDivHeight(objName) {\n  const element = document.getElementById(objName);\n  const originalDisplay = element.style.display;\n  element.style.display = 'block';\n  const height = element.clientHeight;\n  element.style.display = originalDisplay;\n  return height;\n}

@@ -1,0 +1,1 @@
+$alphabeticChars = array_merge(range('A', 'Z'), range('a', 'z'));

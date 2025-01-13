@@ -1,1 +1,0 @@
-// Example using wkhtmltopdf\nusing System.Diagnostics;\n\n// ...\n\nProcess process = new Process();\nprocess.StartInfo.FileName = "wkhtmltopdf.exe";\nprocess.StartInfo.Arguments = $"--page-size A4 --margin-top 0 --margin-bottom 0 --margin-left 0 --margin-right 0 {url} {outputPdfPath}";\nprocess.Start();\nprocess.WaitForExit();

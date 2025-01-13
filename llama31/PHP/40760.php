@@ -1,0 +1,1 @@
+$template->display(array('user_input' => $_GET['name']));

@@ -1,1 +1,0 @@
-#include <regex>\n\n     bool isValidHostname(const CString& hostname) {\n       std::regex pattern("^[a-zA-Z0-9.-]+$"); // Simple validation, might not cover all valid hostnames\n       return std::regex_match(hostname.GetString(), pattern);\n     }

@@ -1,1 +1,0 @@
-// Release the IUnknown interface\n    pUnknown->Release();\n\n    // Uninitialize COM\n    CoUninitialize();\n\n    return 0;\n}

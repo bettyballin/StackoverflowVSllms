@@ -1,1 +1,0 @@
-public partial class ReportPage : System.Web.UI.Page\n{\n    protected DataSet MyDataSet { get; set; }\n\n    protected void Page_Load(object sender, EventArgs e)\n    {\n        MyDataSet = new DataSet();\n        // populate the dataset here\n    }\n}

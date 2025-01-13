@@ -1,1 +1,0 @@
-SomeClass someObject = new SomeClass();

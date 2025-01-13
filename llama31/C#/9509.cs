@@ -1,1 +1,0 @@
-using System.Runtime.InteropServices;\nusing mshtml;\n\n// assuming webBrowser is a valid instance of the WebBrowser control\nIHTMLDocument2 doc = webBrowser.Document as IHTMLDocument2;\nif (doc != null)\n{\n    string file = "C:\\example.mht";\n    doc.execCommand("SaveAs", true, file);\n}

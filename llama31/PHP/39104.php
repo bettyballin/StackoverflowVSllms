@@ -1,0 +1,1 @@
+ini_set('magic_quotes_gpc', 'off');

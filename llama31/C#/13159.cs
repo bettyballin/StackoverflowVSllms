@@ -1,1 +1,0 @@
-protected void Page_Load(object sender, EventArgs e)\n{\n    RequiredFieldValidator rfv = (RequiredFieldValidator)FindControl("rfvMyDropDownList");\n    rfv.ControlToValidate = MyUserControl1.FindControl("MyDropDownList").ID;\n}

@@ -1,1 +1,0 @@
-ooinstall.exe /silent /install /component <component_name>

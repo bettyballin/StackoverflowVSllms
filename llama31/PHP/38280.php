@@ -1,0 +1,1 @@
+$xls->writeDateTime($row, $col, $date_value); // Write date value to cell

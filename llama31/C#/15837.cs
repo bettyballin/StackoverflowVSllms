@@ -1,1 +1,0 @@
-currentReport.Element("recomendations").ReplaceNodes(new XCData(myCallreports.Comments));\ncurrentReport.Element("reactions").ReplaceNodes(new XCData(myCallreports.Ownerreaction));

@@ -1,1 +1,0 @@
-reg import "\\remote_server_name\test.reg"

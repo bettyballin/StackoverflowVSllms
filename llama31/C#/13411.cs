@@ -1,1 +1,0 @@
-public static SizeF GetAvgCharSizeF(Graphics g, Font font)\n{\n    String s = "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz";\n\n    SizeF textSize = g.MeasureString(s, font);\n\n    float baseUnitX = (textSize.Width / s.Length);\n    float baseUnitY = font.GetHeight(g);\n\n    return new SizeF(baseUnitX, baseUnitY);\n}

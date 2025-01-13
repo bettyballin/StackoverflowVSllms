@@ -1,1 +1,0 @@
-// Non-prime modulus (e.g., 65520)\nuint16_t checksum = (a + b) % 65520;\n// Prime modulus (e.g., 65521)\nuint16_t checksum = (a + b) % 65521;

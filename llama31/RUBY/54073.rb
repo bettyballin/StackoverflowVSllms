@@ -1,0 +1,1 @@
+class UserTest < ActiveSupport::TestCase\n  def test_calculate_hashed_password_method_exists\n    assert User.respond_to?(:calculate_hashed_password)\n  end\nend

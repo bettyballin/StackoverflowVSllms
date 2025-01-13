@@ -1,0 +1,1 @@
+CREATE TABLE #temptable ( /* define columns */ );\n\nEXECUTE (N'MyDynamicallyGeneratedStoredProcedure');\n\nSELECT @errCode = @@ERROR;\n\nIF (@errCode = 0)\nBEGIN\n    EXEC 'A Sql Statement using #temptable created from first', @returnValue;\nEND

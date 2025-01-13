@@ -1,1 +1,0 @@
-sudo ln -s /Developer/usr/bin/gcc-4.2 /usr/bin/gcc

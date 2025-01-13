@@ -1,0 +1,1 @@
+// index.php\nvar_dump($_GET);

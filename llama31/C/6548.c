@@ -1,1 +1,0 @@
-const char *sql = "SELECT COUNT(*) FROM tasks WHERE completed > ?";

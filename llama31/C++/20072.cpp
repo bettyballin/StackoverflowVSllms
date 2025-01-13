@@ -1,1 +1,0 @@
-#include <atomic>\n\nint main()\n{\n  std::atomic<int> i(3);\n  int j = i.fetch_add(1);\n  return 0;\n}

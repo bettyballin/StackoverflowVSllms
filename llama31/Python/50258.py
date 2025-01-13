@@ -1,0 +1,1 @@
+import socket\n\n# Sender code\nsock = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)\nsock.sendto(b'2+3', ('example.com', 1234))\n\n# Receiver code\nsock = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)\nsock.bind(('example.com', 1234))\ndata, addr = sock.recvfrom(1024)\nprint(eval(data.decode()))  # prints 5

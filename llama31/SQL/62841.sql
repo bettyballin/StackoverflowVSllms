@@ -1,0 +1,1 @@
+CREATE TYPE TagTableType AS TABLE (Name nvarchar(50));\nGO\n\nCREATE PROCEDURE GetTags\n    @TagTable TagTableType READONLY\nAS\nBEGIN\n    SELECT * FROM Tags\n    WHERE Name IN (SELECT Name FROM @TagTable)\n    ORDER BY Count DESC;\nEND;\nGO

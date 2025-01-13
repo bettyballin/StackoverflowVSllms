@@ -1,0 +1,1 @@
+$.extend({\n    formsAuth: {\n        extendTimeout: function() {\n            $.ajax({\n                type: "POST",\n                url: "/ExtendFormsAuthTimeout.ashx",\n                data: "{}",\n                contentType: "application/json; charset=utf-8",\n                dataType: "json",\n                success: function() {}\n            });\n        }\n    }\n});

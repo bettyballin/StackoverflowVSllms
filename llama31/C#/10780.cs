@@ -1,1 +1,0 @@
-protected void Page_PreRender(object sender, EventArgs e)\n{\n    if (Request.Browser.Type == "IE6")\n    {\n        Response.Filter = null; // Disable compression\n    }\n}

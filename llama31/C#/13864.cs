@@ -1,1 +1,0 @@
-Rectangle r = rects[1];\nr.Inflate(100, 100);\nrects[1] = r;

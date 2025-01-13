@@ -1,1 +1,0 @@
-if (Console.IsOutputRedirected)\n{\n    // Output is being redirected, skip word-wrapping\n}\nelse\n{\n    // Output is being sent to the console, perform word-wrapping\n}

@@ -1,0 +1,1 @@
+$client = new GuzzleHttp\Client();\n$response = $client->get('https://api.ipify.org');\n$ip = $response->getBody()->getContents();\necho $ip;

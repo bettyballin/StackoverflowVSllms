@@ -1,1 +1,0 @@
-using System;\n\nclass MyClass\n{\n    public static void Main()\n    {\n        using (var obj = new DisposableObject())\n        {\n            // Use the object\n        }\n    }\n}\n\nclass DisposableObject : IDisposable\n{\n    public void Dispose()\n    {\n        // Free up resources\n    }\n}

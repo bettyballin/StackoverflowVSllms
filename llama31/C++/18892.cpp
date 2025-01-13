@@ -1,1 +1,0 @@
-void MyClass::anotherFunction() {\n    int value = at(5); // Instead of (*this)[5]\n}

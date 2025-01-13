@@ -1,0 +1,1 @@
+SELECT * \nFROM DatabaseName.SchemaName.TableName \nWHERE ServerName = 'RemoteServer1'\nUNION ALL\nSELECT * \nFROM DatabaseName.SchemaName.TableName \nWHERE ServerName = 'RemoteServer2';

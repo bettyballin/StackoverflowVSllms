@@ -1,0 +1,1 @@
+<?php\n// PHP_Beautifier configuration file\n$options = array(\n    'indent' => '    ', // 4 spaces for indentation\n    'brace_style' => 'K&R', // K&R style for braces\n    // Add more options as needed\n);\n?>

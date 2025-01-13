@@ -1,0 +1,1 @@
+UPDATE STATISTICS your_table_name WITH FULLSCAN

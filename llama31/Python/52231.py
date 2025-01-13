@@ -1,0 +1,1 @@
+import inspect\nimport types\n\ndef get_local_functions(func):\n    local_funcs = []\n    for c in func.__code__.co_consts:\n        if inspect.iscode(c):\n            local_func = types.FunctionType(c, func.__globals__)\n            local_funcs.append(local_func)\n    return local_funcs

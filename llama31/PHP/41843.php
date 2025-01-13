@@ -1,0 +1,1 @@
+session_start();\nsession_destroy();

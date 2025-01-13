@@ -1,1 +1,0 @@
-curl --interface eth0:0 http://example.com/api

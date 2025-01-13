@@ -1,0 +1,1 @@
+SELECT \n    'Test Name', \n    CASE WHEN foo = 'Result' THEN 1 ELSE 0 END AS Result\nFROM \n    bar\nWHERE \n    baz = (some criteria)

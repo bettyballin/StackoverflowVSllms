@@ -1,1 +1,0 @@
-label {\n  display: block;\n  margin-bottom: 0.5em; /* Optional, for spacing */\n}\n\nlabel input[type="radio"],\nlabel input[type="checkbox"] {\n  vertical-align: middle;\n  margin: 0 0.5em 0 0; /* Optional, for spacing */\n}

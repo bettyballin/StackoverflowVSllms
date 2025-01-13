@@ -1,1 +1,0 @@
-gsk8capicmd -cert -create -db <kdb_file_path> -pw <kdb_password> -label <cert_label> -dn <cert_dn> -size 2048 -expire <new_validity_date>

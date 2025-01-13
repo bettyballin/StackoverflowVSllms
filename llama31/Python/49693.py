@@ -1,0 +1,1 @@
+print(classification_report(test_y, y_pred))\n\nprint(accuracy_score(test_y, y_pred))

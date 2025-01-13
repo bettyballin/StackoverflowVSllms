@@ -1,1 +1,0 @@
-public interface IValidatableControl\n{\n    bool IsValid(out string errorMessage);\n    void SaveSettings();\n    void LoadSettings();\n}

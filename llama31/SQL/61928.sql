@@ -1,0 +1,1 @@
+IF EXISTS (SELECT 1 FROM sys.server_principals WHERE name = 'loginname')\nBEGIN\n    -- login exists\nEND

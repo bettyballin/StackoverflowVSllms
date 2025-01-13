@@ -1,0 +1,1 @@
+// Initialize Silverlight\nSilverlight.createObjectEx({\n  source: "MyAssembly.xap",\n  initParams: {},\n  context: null,\n  enableHtmlAccess: true,\n  id: "mySilverlightApp"\n});

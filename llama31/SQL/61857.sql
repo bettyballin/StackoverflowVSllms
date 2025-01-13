@@ -1,0 +1,1 @@
+SELECT A.*\nFROM Author A\nWHERE NOT EXISTS (\n  SELECT 1\n  FROM AuthorOfTitle AT\n  WHERE AT.AID = A.AID\n);

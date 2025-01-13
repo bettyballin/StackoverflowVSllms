@@ -1,0 +1,1 @@
+CREATE PROCEDURE sp_SimilarArticles\n    @input nvarchar(255)\nAS\nBEGIN\n    SELECT a.*\n    FROM Articles a\n    INNER JOIN CONTAINSTABLE(Articles, (ArticleTitle, ArticleContent), @input) AS c\n        ON a.ArticleID = c.[KEY]\n    ORDER BY c.RANK DESC;\nEND;

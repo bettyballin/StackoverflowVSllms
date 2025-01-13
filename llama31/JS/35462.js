@@ -1,0 +1,1 @@
+document.getElementById('yourInputId').addEventListener('keypress', function(event) {\n  if (event.key === 'Enter') {\n    event.preventDefault();\n  }\n});

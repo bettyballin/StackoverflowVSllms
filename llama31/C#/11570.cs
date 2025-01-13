@@ -1,1 +1,0 @@
-int hr = SomeCOMFunction();\nif (Marshal.ThrowExceptionForHR(hr)) {\n    // handle error\n}

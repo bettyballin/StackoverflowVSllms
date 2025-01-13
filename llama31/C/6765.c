@@ -1,1 +1,0 @@
-GdkColor color;\ngdk_color_parse("red", &color);\nGdkColormap *colormap = gdk_colormap_get_system();\nGdkColor allocated_color;\nif (gdk_colormap_alloc_color(colormap, &color, FALSE, TRUE, &allocated_color)) {\n    // Use allocated_color\n} else {\n    // Handle color allocation failure\n}

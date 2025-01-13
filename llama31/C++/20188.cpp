@@ -1,1 +1,0 @@
-// Get the current thread's apartment state\nHRESULT hr = CoGetApartmentState(&apartmentState);\n\n// If we're not on the UI thread, marshal the call\nif (apartmentState != APTTYPE_MAINSTA) {\n    hr = CoMarshalInterface(punk, IID_IUnknown, (LPSTREAM)&pStream, 0, NULL);\n    // ...\n}

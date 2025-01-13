@@ -1,1 +1,0 @@
-Command = new OracleCommand();\nCommand.CommandText = "FII_DBO.CLEAR_UNIT_TEST_PRODUCT";\nCommand.CommandType = CommandType.StoredProcedure;\nCommand.Connection = connection;\nCommand.ExecuteNonQuery();

@@ -1,1 +1,0 @@
-diff -q A.txt.gz B.txt.gz

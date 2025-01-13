@@ -1,0 +1,1 @@
+SELECT TO_DATE('01/05/81', 'dd/mm/yy') FROM DUAL;  -- returns May 1, 2081\nSELECT TO_DATE('01/05/81', 'dd/mm/rr') FROM DUAL;  -- returns May 1, 1981

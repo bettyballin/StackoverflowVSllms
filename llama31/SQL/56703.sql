@@ -1,0 +1,1 @@
+SELECT \n  id, \n  name, \n  @row_num := @row_num + 1 AS row_num\nFROM \n  people, \n  (SELECT @row_num := 0) AS init\nWHERE \n  name = 'Spiewak'\nORDER BY \n  id;

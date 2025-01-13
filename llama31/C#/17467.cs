@@ -1,1 +1,0 @@
-using System.Diagnostics;\n\n// ...\n\nStopwatch stopwatch = new Stopwatch();\nstopwatch.Start();\n\n// Code to measure\n\nstopwatch.Stop();\nConsole.WriteLine("Execution time: {0}ms", stopwatch.ElapsedMilliseconds);

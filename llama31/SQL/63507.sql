@@ -1,0 +1,1 @@
+-- Example of a set-based operation in SQL Server\nUPDATE orders\nSET status = 'shipped'\nWHERE order_date < '2022-01-01';\n\n-- Example of an implicit Cursor in Oracle\nUPDATE orders\nSET status = 'shipped'\nWHERE order_date < '2022-01-01';

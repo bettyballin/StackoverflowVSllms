@@ -1,0 +1,1 @@
+SELECT * FROM your_table\nWHERE FIND_IN_SET('2', column2) > 0;

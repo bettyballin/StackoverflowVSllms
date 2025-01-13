@@ -1,1 +1,0 @@
-using System.Configuration;\n\n// Retrieving the value\nstring adminPassword = ConfigurationManager.AppSettings["AdminPassword"];

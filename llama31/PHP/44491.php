@@ -1,0 +1,1 @@
+// Set session variable\n$_SESSION['form_data'] = $_POST;\n\n// Retrieve session variable on the confirmation page\n$form_data = $_SESSION['form_data'];

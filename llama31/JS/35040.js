@@ -1,0 +1,1 @@
+var navDiv = $('<div id="nav"></div>');\n$('#s4').before(navDiv);\n$('#s4').cycle({\n    fx:     'turnDown',\n    speed:  'fast',\n    timeout: 3000,\n    pager:  '#nav'\n});

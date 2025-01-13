@@ -1,1 +1,0 @@
-[TestMethod]\npublic void TestLogCompleteFileName_Changed_Value_Is_Used()\n{\n    // Arrange\n    ConfigurationManager.AppSettings["LogCompleteFileName"] = "\\Traces\App208.txt";\n\n    // Act\n    var logger = new Logger();\n\n    // Assert\n    Assert.AreEqual("\\Traces\App208.txt", logger.LogCompleteFileName);\n}

@@ -1,0 +1,1 @@
+var result = document.evaluate("//a/img", document.documentElement, null, XPathResult.ORDERED_NODE_SNAPSHOT_TYPE, null);

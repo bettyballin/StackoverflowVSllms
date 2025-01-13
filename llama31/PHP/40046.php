@@ -1,0 +1,1 @@
+$redir = $_GET['redir'];\n// validate $redir to prevent XSS and ensure it's a valid URL\nif (isset($redir) && preg_match('#^/[a-zA-Z0-9/_-]+$#', $redir)) {\n    $redirectUrl = $redir;\n} else {\n    $redirectUrl = '/'; // default redirect URL\n}\n\n// after successful login, redirect to $redirectUrl\nheader('Location: ' . $redirectUrl);\nexit;

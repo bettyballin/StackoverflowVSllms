@@ -1,1 +1,0 @@
-using System;\nusing System.Linq;\n\npublic class Program\n{\n    private static Random rng = new Random();\n\n    public static void Main()\n    {\n        string[] array = { "apple", "banana", "cherry", "date", "elderberry" }; // your array\n        string[] randomizedArray = array.OrderBy(x => rng.Next()).ToArray();\n    }\n}

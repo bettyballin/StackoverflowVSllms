@@ -1,1 +1,0 @@
-public decimal CalculateEcpm(decimal dailyBudget, int impressions)\n{\n    return dailyBudget / impressions * 1000;\n}

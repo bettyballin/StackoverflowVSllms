@@ -1,1 +1,0 @@
-readelf -d executable | grep symbol_name

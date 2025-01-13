@@ -1,1 +1,0 @@
-var cacheKeys = HttpContext.Current.Cache.Cast<DictionaryEntry>()\n    .Select(de => de.Key.ToString())\n    .ToList();\nforeach (var key in cacheKeys)\n{\n    object value = HttpContext.Current.Cache[key];\n    // do something with the key and value\n}

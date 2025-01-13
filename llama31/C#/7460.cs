@@ -1,1 +1,0 @@
-double number;\nif (double.TryParse(textBox.Text, out number))\n{\n    string formattedText = number.ToString("P");\n    // Use formattedText\n}\nelse\n{\n    // Handle invalid input\n}

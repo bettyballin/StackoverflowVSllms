@@ -1,0 +1,1 @@
+html2canvas(document.body, {\n  onrendered: function(canvas) {\n    var img = canvas.toDataURL();\n    // send the image data to your server\n  }\n});

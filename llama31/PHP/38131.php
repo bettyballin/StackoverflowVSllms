@@ -1,0 +1,1 @@
+use MatthiasMullie\Minify;\n\n$minifier = new Minify\JS();\n$minifier->add('file1.js');\n$minifier->add('file2.js');\n$minifiedJs = $minifier->minify();\n\n$minifier = new Minify\CSS();\n$minifier->add('file1.css');\n$minifier->add('file2.css');\n$minifiedCss = $minifier->minify();

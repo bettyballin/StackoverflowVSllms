@@ -1,1 +1,0 @@
-fsutil.exe behavior set memoryusage 2

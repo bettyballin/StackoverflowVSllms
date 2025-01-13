@@ -1,0 +1,1 @@
+SELECT \n  LEFT(fullname, INSTR(fullname, ' ') - 1) AS first_name,\n  SUBSTR(fullname, INSTR(fullname, ' ') + 1, \n         LENGTH(fullname) - INSTR(fullname, ' ') - (LENGTH(fullname) - INSTR(fullname, ' ', -1))) AS middle_name,\n  SUBSTR(fullname, INSTR(fullname, ' ', -1) + 1) AS last_name\nFROM your_table;

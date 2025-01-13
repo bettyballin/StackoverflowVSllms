@@ -1,1 +1,0 @@
-protected void Page_Load(object sender, EventArgs e)\n{\n    Table1.Rows.Add(new TableRow());\n    Table1.Rows[0].Cells.Add(new TableCell());\n    Table1.Rows[0].Cells[0].Text = "New Cell";\n}

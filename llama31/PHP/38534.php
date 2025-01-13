@@ -1,0 +1,1 @@
+Zend_Session::setOptions(array(\n    'cache_limiter' => 'public',\n    'cache_expire' => 3600\n));

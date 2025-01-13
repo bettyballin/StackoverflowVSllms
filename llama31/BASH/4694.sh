@@ -1,1 +1,0 @@
-# Run Java Mission Control from the command line\njmc -f /path/to/tomcat/bin/bootstrap.jar

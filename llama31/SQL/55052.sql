@@ -1,0 +1,1 @@
+SET result = CONCAT(result,'<comment><body><![CDATA[',body,']]></body>','<replier>',COALESCE(screen_name, ''),'</replier>','<created>',created,'</created></comment>');

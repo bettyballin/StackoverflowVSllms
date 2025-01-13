@@ -1,0 +1,1 @@
+function getFormData() {\n  $form_fields = array_keys($_POST);\n  $formData = array();\n\n  foreach ($form_fields as $field) {\n    $value = $_POST[$field];\n    $key = end(explode("_", $field));\n\n    if (is_array($value)) {\n      $formData[$key] = implode(",", $value);\n    } else {\n      $formData[$key] = $value;\n    }\n  }\n\n  return $formData;\n}

@@ -1,1 +1,0 @@
-int matrix1[4][512] = {...};\nint matrix2[4][512] = {...};\nint mismatchRow, mismatchCol;\n\nif (!areMatricesEqual(matrix1, matrix2, 4, 512, &mismatchRow, &mismatchCol)) {\n    printf("Matrices are not equal. Mismatch at row %d, col %d\n", mismatchRow, mismatchCol);\n}

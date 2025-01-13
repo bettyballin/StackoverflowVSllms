@@ -1,1 +1,0 @@
-div {\n  width: 500px; /* fixed width */\n  overflow-x: auto; /* use auto instead of scroll */\n  white-space: nowrap; /* prevent wrapping of content */\n}

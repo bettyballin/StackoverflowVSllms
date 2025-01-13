@@ -1,0 +1,1 @@
+// example: @Component({ selector: 'app-root', template: '<div>Hello World!</div>' })

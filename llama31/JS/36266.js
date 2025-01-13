@@ -1,0 +1,1 @@
+$.ajax({\n  // ...\n  dataType: 'html',\n  script: true,\n  success: function(data) {\n    $('#myDiv').html(data);\n  }\n});

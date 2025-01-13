@@ -1,0 +1,1 @@
+$today = date("Y-m-d");\n$specificDate = "2008-06-26";\n$diff = strtotime($today) - strtotime($specificDate);\necho $diff; // outputs the difference in seconds

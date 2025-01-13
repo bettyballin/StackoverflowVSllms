@@ -1,1 +1,0 @@
-printf("%f\n", closestPowerOf2(3.5)); // Output: 4.000000\nprintf("%f\n", closestPowerOf10(3.5)); // Output: 1.000000\n\nprintf("%f\n", closestPowerOf2(123)); // Output: 128.000000\nprintf("%f\n", closestPowerOf10(123)); // Output: 100.000000\n\nprintf("%f\n", closestPowerOf2(0.24)); // Output: 0.250000\nprintf("%f\n", closestPowerOf10(0.24)); // Output: 0.100000

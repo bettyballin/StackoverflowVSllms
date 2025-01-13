@@ -1,1 +1,0 @@
-#!/bin/bash\ntar cvzf yourfile.tar yourfile

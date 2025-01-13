@@ -1,0 +1,1 @@
+CREATE NONCLUSTERED INDEX ix_table1 ON table 1 (column1, column2, ...)

@@ -1,0 +1,1 @@
+CREATE VIEW ActiveSurveyAnswers\nWITH SCHEMABINDING\nAS\nSELECT sa.SurveyDomainId, sa.Answer\nFROM dbo.Survey s\nJOIN dbo.SurveyAnswer sa ON s.SurveyId = sa.SurveyId\nWHERE s.Active = 1\n\nCREATE UNIQUE CLUSTERED INDEX IX_ActiveSurveyAnswers\nON ActiveSurveyAnswers (SurveyDomainId, Answer)

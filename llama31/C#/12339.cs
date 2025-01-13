@@ -1,1 +1,0 @@
-public class MyModel\n{\n    private readonly ICurrentUser _currentUser;\n\n    public MyModel(ICurrentUser currentUser)\n    {\n        _currentUser = currentUser;\n    }\n\n    // Use _currentUser.Username to access the current user's name\n}

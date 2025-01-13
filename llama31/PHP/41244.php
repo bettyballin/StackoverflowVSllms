@@ -1,0 +1,1 @@
+header('Cache-Control: private');\nheader('Pragma: public');

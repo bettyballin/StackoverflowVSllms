@@ -1,1 +1,0 @@
-protected void Mag_Button_Load_Click(object sender, EventArgs e)\n{\n    // ...\n    DataLoaded?.Invoke(this, EventArgs.Empty);\n}

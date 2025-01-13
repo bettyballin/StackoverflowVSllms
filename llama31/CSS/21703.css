@@ -1,1 +1,0 @@
-.element {\n  width: 50%; /* dynamically resize with browser window */\n  min-width: 200px; /* minimum width of 200px */\n  height: 50%; /* dynamically resize with browser window */\n  min-height: 300px; /* minimum height of 300px */\n}

@@ -1,0 +1,1 @@
+-- Using SET ROWCOUNT\nSET ROWCOUNT 10;\nSELECT * FROM large_table;\nSET ROWCOUNT 0;  -- Don't forget to reset!\n\n-- Using TOP\nSELECT TOP 10 * FROM large_table;

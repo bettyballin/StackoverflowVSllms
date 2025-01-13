@@ -1,0 +1,1 @@
+$contents = str_replace("\xef\xbb\xbf", '', $contents);

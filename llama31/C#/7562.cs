@@ -1,1 +1,0 @@
-public partial class MainWindow : Window\n{\n    private YourDataContext _dataContext;\n\n    public MainWindow()\n    {\n        InitializeComponent();\n\n        _dataContext = new YourDataContext();\n        DataContext = _dataContext;\n    }\n}

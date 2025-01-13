@@ -1,0 +1,1 @@
+import csv\n\nHEADERS = ["name", "label", "value"]\nfileH = open('configFile')\nreader = csv.DictReader(fileH, HEADERS)\n\nfor row in reader:\n    missing_fields = [field for field in HEADERS if not row[field]]\n    if missing_fields:\n        raise ValueError("Missing fields in row: {}".format(missing_fields))\n\nfileH.close()

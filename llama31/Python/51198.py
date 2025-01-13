@@ -1,0 +1,1 @@
+obj = MyModel.objects.get(id=1)\nprint(obj.is_dirty())  # False\n\nobj.name = "New Name"\nprint(obj.is_dirty())  # True

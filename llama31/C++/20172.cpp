@@ -1,1 +1,0 @@
-#include <Windows.h>\n\nint main() {\n    // Check if running on 64-bit OS\n    SYSTEM_INFO si;\n    GetSystemInfo(&si);\n    if (si.wProcessorArchitecture == PROCESSOR_ARCHITECTURE_AMD64) {\n        // Set LARGEADDRESSAWARE flag\n        HANDLE hProcess = GetCurrentProcess();\n        SetProcessWorkingSetSizeEx(hProcess, 4 * 1024 * 1024, NULL);\n    }\n    return 0;\n}

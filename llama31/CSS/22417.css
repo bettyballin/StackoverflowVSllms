@@ -1,1 +1,0 @@
-#left {\n  float: left;\n  height: 100%;\n  width: 100px;\n  overflow: hidden;\n  background-color: Blue;\n  margin-right: -3px; /* Add this line to remove the gap */\n}

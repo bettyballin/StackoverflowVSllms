@@ -1,1 +1,0 @@
-using Dbml2Sql;\n\nclass Program\n{\n    static void Main(string[] args)\n    {\n        var dbmlFile = "your_database.dbml";\n        var sqlFile = "output.sql";\n\n        var converter = new Dbml2SqlConverter();\n        converter.Convert(dbmlFile, sqlFile);\n    }\n}

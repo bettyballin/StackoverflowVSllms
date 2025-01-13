@@ -1,0 +1,1 @@
+function greet(callable $callback, $name) {\n    $callback($name);\n}

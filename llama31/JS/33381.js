@@ -1,0 +1,1 @@
+function toggleShowPassword() {\n    var button = document.getElementById('PASSWORD_TEXTBOX_ID');\n    if (button) {\n        var password = button.value;\n        alert(password);\n    }\n}

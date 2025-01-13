@@ -1,0 +1,1 @@
+<a href="'.$productLink.'" alt="'.$productName.'">\n    <img src="/images/'.$productImg1URL.'" alt="'.$productName.' '.$productType.' ">\n</a>

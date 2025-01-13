@@ -1,0 +1,1 @@
+class MyForm(forms.ModelForm):\n    title = forms.SlugField()

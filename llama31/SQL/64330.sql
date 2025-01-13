@@ -1,0 +1,1 @@
+CREATE TABLE my_tree (\n    id GUID PRIMARY KEY,\n    left_bound INTEGER NOT NULL,\n    right_bound INTEGER NOT NULL,\n    parent_id GUID NULL,\n    data VARCHAR(255)\n);\n\nCREATE INDEX idx_left_bound ON my_tree (left_bound);\nCREATE INDEX idx_right_bound ON my_tree (right_bound);

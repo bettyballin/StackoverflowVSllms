@@ -1,0 +1,1 @@
+SELECT \n  approved_flag, \n  COUNT(*) as count\nFROM (\n  SELECT \n    user_id, \n    approved_flag, \n    ROW_NUMBER() OVER (PARTITION BY user_id ORDER BY submitted_date DESC) as row_num\n  FROM \n    reports\n) AS subquery\nWHERE \n  row_num = 1\nGROUP BY \n  approved_flag

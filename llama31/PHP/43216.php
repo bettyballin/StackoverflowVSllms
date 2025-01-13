@@ -1,0 +1,1 @@
+// Write data to session\n$this->Session->write('User.UserId', $userId);\n\n// Read data from session\n$userId = $this->Session->read('User.UserId');

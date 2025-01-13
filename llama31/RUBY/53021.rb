@@ -1,0 +1,1 @@
+gem 'docrpt'\n\n# Example usage\nrequire 'docrpt'\n\ndoc = DocRPT.new\ndoc.add_table do |t|\n  t.add_row ['Cell 1', 'Cell 2']\n  t.add_row ['Cell 3', 'Cell 4']\nend\ndoc.save('example.pdf')

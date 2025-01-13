@@ -1,1 +1,0 @@
-0 2 * * * /path/to/your/script/clean_tmp.php

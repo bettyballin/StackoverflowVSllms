@@ -1,1 +1,0 @@
-Mutex mutex = new Mutex(false, "MyMutex");\nstring ownerName = MutexOwner.GetMutexOwner(mutex.Handle);\nConsole.WriteLine(ownerName);

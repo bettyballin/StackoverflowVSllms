@@ -1,1 +1,0 @@
-#include <fcntl.h>\n#include <unistd.h>\n\nint fd = open("/dev/cdrom", O_RDONLY);\nif (fd == -1) {\n    perror("open");\n    return 1;\n}\n\n// Use read() and write() to access the device

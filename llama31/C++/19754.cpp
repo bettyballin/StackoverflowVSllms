@@ -1,1 +1,0 @@
-class ITest {\npublic:\n    virtual void doSomething() = 0;\n\nprotected:\n    ~ITest() {}\n};\n\nclass Test : public ITest {\npublic:\n    void doSomething() override {}\n};\n\nint main() {\n    ITest* test = new Test();\n    delete test; // undefined behavior\n    return 0;\n}

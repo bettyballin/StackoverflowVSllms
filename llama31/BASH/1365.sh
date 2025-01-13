@@ -1,1 +1,0 @@
-hdiutil create -size 10g -fs HFS+ -volname "Source Code" -encryption AES-256 -stdinpass /path/to/sourcecode.dmg

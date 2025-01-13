@@ -1,0 +1,1 @@
+Dim guids As List(Of Guid) = dtData.Rows.Cast(Of DataRow)().Select(Function(row) row("SomeField")).ToList()\nDim rows = dtSubData.Rows.Cast(Of DataRow)().Where(Function(row) guids.Contains(row("SomeField")))\n\ngvDataView.DataSource = rows

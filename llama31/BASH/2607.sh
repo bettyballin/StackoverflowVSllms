@@ -1,1 +1,0 @@
-gcc -o your_binary your_source.c -Wl,--debug

@@ -1,1 +1,0 @@
-// 'concept' is a keyword and reserved word\nconcept MyConcept = requires(int a) { a > 0; };\n\n// 'static' is a reserved word, but not a keyword in this context\nint static = 5; // error: 'static' is a reserved word\n\n// 'foo' is neither a keyword nor a reserved word\nint foo = 5; // okay

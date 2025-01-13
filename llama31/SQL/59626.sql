@@ -1,0 +1,1 @@
+CREATE TABLE UserPermissions (\n  UserID INT,\n  ClientID INT,\n  RoleID INT,\n  Permissions VARCHAR(MAX)\n);

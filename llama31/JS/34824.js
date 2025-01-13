@@ -1,0 +1,1 @@
+window.setInterval(checkUpdates, 5 * 1000);

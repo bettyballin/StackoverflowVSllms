@@ -1,1 +1,0 @@
-objcopy --change-section-address .text=0xc:e1a00000 your_binary

@@ -1,0 +1,1 @@
+-- Create a new full backup\nBACKUP DATABASE Test TO DISK = 'C:\Backups\Test1.bak'\n\n-- Delete old backup files, including .trn files\n-- (assuming you're using a maintenance plan or a script to delete old backups)\n\n-- Restore the database from the new full backup\nRESTORE DATABASE Test FROM DISK = 'C:\Backups\Test1.bak'

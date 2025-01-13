@@ -1,0 +1,1 @@
+Dim folderPath As String = "C:\Program Files\Any Name Here"\nIf CreateFolderIfNotExists(folderPath) Then\n    ' Folder created or already exists\nElse\n    ' Folder creation failed\nEnd If

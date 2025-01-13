@@ -1,1 +1,0 @@
-#include <string>\n#include <vector>\n\nstd::vector<std::string> columns = {"column1", "column2", "column3"};\nstd::string selectSql = "SELECT ";\nselectSql += std::string.Join(columns, ", ");\nselectSql += " FROM some-table";

@@ -1,0 +1,1 @@
+$str   = "My name is jingle \n\r";\n$str2  = "I am a boy";\n\necho nl2br($str . $str2);

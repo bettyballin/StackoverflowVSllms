@@ -1,1 +1,0 @@
-class __declspec(dllexport) MyClass {\npublic:\n    MyClass();\n    ~MyClass();\n    void myMethod();\n};

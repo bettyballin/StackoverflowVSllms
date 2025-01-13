@@ -1,0 +1,1 @@
+def split_polynomial(a):\n    n = len(a)\n    A0 = [a[i] for i in range(0, n, 2)]  # even-indexed terms\n    A1 = [a[i] for i in range(1, n, 2)]  # odd-indexed terms\n    return A0, A1\n\n# Example usage:\na = [1, 2, 3, 4, 5, 6]  # polynomial coefficients\nA0, A1 = split_polynomial(a)\nprint(A0)  # [1, 3, 5]\nprint(A1)  # [2, 4, 6]

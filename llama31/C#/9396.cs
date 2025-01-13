@@ -1,1 +1,0 @@
-Session["X"] = null;\nSession["X"] = TextBox1.Text;

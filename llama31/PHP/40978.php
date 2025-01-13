@@ -1,0 +1,1 @@
+<?php\n// Simple PHP script to test performance\n\n$start = microtime(true);\n\n// Simulate some work\nfor ($i = 0; $i < 100000; $i++) {\n    $result = md5(rand());\n}\n\n$end = microtime(true);\n\necho "Time taken: " . ($end - $start) . " seconds\n";

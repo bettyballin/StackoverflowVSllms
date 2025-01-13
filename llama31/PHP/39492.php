@@ -1,0 +1,1 @@
+$fileContent = file_get_contents('http://domain.com/folder/file.php');\nfile_put_contents('local_file.php', $fileContent);\ninclude 'local_file.php';

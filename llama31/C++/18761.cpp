@@ -1,1 +1,0 @@
-int main() {\n    std::vector<int> v = {1, 2, 3, 4, 5};\n    int r = 3;\n    std::sort(v.begin(), v.end());\n    do {\n        for (int i = 0; i < r; ++i) {\n            std::cout << v[i] << " ";\n        }\n        std::cout << std::endl;\n    } while (next_partial_permutation(v.begin(), v.begin() + r, v.end()));\n    return 0;\n}

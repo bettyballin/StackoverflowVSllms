@@ -1,1 +1,0 @@
-public class FormatFilter : ActionFilterAttribute\n{\n    public override void OnActionExecuted(ActionExecutedContext filterContext)\n    {\n        var format = filterContext.HttpContext.Request.QueryString["format"];\n        \n        if (format == "xml")\n        {\n            filterContext.Result = new XmlResult(filterContext.Result);\n        }\n    }\n}

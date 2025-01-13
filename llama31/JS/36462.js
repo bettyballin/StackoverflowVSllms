@@ -1,0 +1,1 @@
+const links = document.querySelectorAll('a[href="#"]');\nlinks.forEach((link) => {\n  link.href = window.location.href + '#';\n});

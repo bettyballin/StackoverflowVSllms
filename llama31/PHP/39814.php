@@ -1,0 +1,1 @@
+$xmlString = file_get_contents('http://your-other-domain.com/your-file.xml');\n$xml = simplexml_load_string($xmlString);

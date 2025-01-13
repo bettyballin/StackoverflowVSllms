@@ -1,1 +1,0 @@
-public class SpaceLocationMap : ClassMapWithGenerator<SpaceLocation>\n{\n    public SpaceLocationMap()\n    {\n        Component<SpaceCoordinate>(x => x.Coordinates, m =>\n        {\n            m.Map(x => x.x);\n            m.Map(x => x.y);\n            m.Map(x => x.z);\n        }).UniqueConstraint("UC_SpaceCoordinate");\n    }\n}

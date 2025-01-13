@@ -1,1 +1,0 @@
-using Microsoft.SharePoint;\nusing Microsoft.SharePoint.Administration;\n\n// Get the local farm\nSPFarm farm = SPFarm.Local;\n\n// Get the site collection\nSPSite site = new SPSite(farm, new Uri("http://mysite"));

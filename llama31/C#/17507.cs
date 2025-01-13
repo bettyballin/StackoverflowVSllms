@@ -1,1 +1,0 @@
-bindingSource1.Filter = "ID = '" + comboBox1.SelectedValue + "' AND TagID = '" + treeNode.Tag + "'";

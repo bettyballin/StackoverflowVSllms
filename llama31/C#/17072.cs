@@ -1,1 +1,0 @@
-XPathDocument doc = new XPathDocument("your_xml_file.xml");\nXPathNavigator nav = doc.CreateNavigator();\nXPathNodeIterator nodes = nav.Select("//Item[@Type='Book' and Param[2]/@Value='John']");

@@ -1,0 +1,1 @@
+$contents = curl_exec($curl);\n$contents = iconv('UTF-8', 'ISO-8859-1', $contents); // Convert UTF-8 to ISO-8859-1\npreg_match_all('/(?:\$|\xA3)[0-9]+(?:\.[0-9]{2})?/', $contents, $matches);

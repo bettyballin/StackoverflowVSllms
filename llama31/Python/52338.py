@@ -1,0 +1,1 @@
+import os\nimport random\n\nwith open('image.jpg', 'ab') as f:\n    padding = bytes([0x00] * random.randint(1, 7))\n    f.write(padding)

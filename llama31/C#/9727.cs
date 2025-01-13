@@ -1,1 +1,0 @@
-string password = "suckit";\nstring salt = "$1$ls3xPLpO$Wu/FQ.PtP2XBCqrM.w847/";\n\nstring hash = Md5Crypt.Md5Crypt(password, salt);\nConsole.WriteLine(hash);

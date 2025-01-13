@@ -1,1 +1,0 @@
-# Establish an SSH connection to the server\nssh -L 2323:/dev/ttyUSB0 user@server\n\n# Establish a PPP connection over the SSH tunnel\npppd /dev/ttyUSB0 115200 noauth local

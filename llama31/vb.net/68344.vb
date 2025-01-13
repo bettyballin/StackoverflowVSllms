@@ -1,0 +1,1 @@
+Function MyFunction() As Integer\n    Return 5\nEnd Functio

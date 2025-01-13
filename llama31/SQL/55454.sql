@@ -1,0 +1,1 @@
+SELECT * \nFROM sometable \nVERSIONS BETWEEN sysdate-2 AND sysdate-0.5 \nWHERE some_conditio

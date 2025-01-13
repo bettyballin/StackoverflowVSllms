@@ -1,1 +1,0 @@
-var db = new DataContext();\nvar author = db.Authors.FirstOrDefault(a => a.Id == 1);\nvar revisions = author.Revisions.ToList();\nforeach (var revision in revisions)\n{\n    Console.WriteLine(revision.RevisionNumber + ": " + revision.Data);\n}

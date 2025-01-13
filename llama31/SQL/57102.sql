@@ -1,0 +1,1 @@
+SELECT * FROM (\n  SELECT * FROM your_table\n  EXCEPT SELECT your_excluded_column FROM your_table\n) AS subquery;

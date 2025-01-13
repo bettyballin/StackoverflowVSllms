@@ -1,0 +1,1 @@
+CREATE TABLE example (\n    id SERIAL PRIMARY KEY,\n    -- other columns...\n);\n\nCREATE TABLE example_text (\n    id SERIAL PRIMARY KEY,\n    example_id INTEGER REFERENCES example(id),\n    text_column TEXT\n);

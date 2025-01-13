@@ -1,1 +1,0 @@
-var a = query\n    .Where(some foreign key is null)\n    .Select(x => new { x.Column1, x.Column2, ... });\n\nvar b = query\n    .Where(some foreign key is not null)\n    .Where(and that foreign key has a property which is what I want)\n    .Select(x => new { x.Column1, x.Column2, ... });\n\nquery = a.Union(b);

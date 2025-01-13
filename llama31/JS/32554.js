@@ -1,0 +1,1 @@
+$.ajax({\n    type: "POST",\n    url: "proxy.php",\n    data: theData,\n    success: function() {\n        $('div#success').fadeIn('fast');\n    }\n});

@@ -1,0 +1,1 @@
+const code = document.querySelector('code');\nhljs.highlightBlock(code);

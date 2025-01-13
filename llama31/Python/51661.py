@@ -1,0 +1,1 @@
+def encrypt_chatbot_training_data(data):\n    # Encrypt data using encryption algorithms\n    encrypted_data = encrypt_data(data)\n    return encrypted_data

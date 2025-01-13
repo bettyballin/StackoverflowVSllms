@@ -1,1 +1,0 @@
-string st = tt.PostedFile.FileName;\nInt32 a = st.LastIndexOf("\\");\nstring fn = st.Substring(a + 1);\nstring fp = Server.MapPath("~/Uploads/"); // assuming you want to save the file to an "Uploads" folder\nfp = Path.Combine(fp, fn);\ntt.PostedFile.SaveAs(fp);

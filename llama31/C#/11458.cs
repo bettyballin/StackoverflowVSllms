@@ -1,1 +1,0 @@
-Settings.Default["SettingName"] = "value";\nSettings.Default.Save();

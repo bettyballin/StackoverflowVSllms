@@ -1,1 +1,0 @@
-ol {\n  counter-reset: item 4; /* start from index 5 */\n}\n\nol li {\n  counter-increment: item;\n}\n\nol li:before {\n  content: counter(item) ". ";\n}

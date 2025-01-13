@@ -1,1 +1,0 @@
-using DiffPlex.DiffBuilder;\nusing DiffPlex.DiffBuilder.Model;\n\n// Compare two strings\nvar diff = new InlineDiffBuilder(new Differ())\n    .BuildDiffModel("old text", "new text");\n\n// Render the diff as HTML\nvar html = diff.OldText + "<br>" + diff.NewText;

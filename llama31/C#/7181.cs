@@ -1,1 +1,0 @@
-foreach (var factory in PanelFactories)\n{\n    var panel = factory.CreateExport().Value;\n    // use the panel instance\n}

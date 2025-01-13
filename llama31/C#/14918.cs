@@ -1,1 +1,0 @@
-using ConsoleUI;\n\n// Usage:\nConsoleEx.SetIcon("path/to/icon.ico");

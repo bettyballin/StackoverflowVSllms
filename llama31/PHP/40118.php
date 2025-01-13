@@ -1,0 +1,1 @@
+$path = arg();\n$alias = url($path, array('absolute' => TRUE));

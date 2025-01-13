@@ -1,0 +1,1 @@
+DECLARE @xml_text varbinary(max)\nSET @xml_text = CONVERT(varbinary(max), 'your large xml string here')\nEXEC sp_xml_preparedocument @xmlhandle OUTPUT, @xml_text

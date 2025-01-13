@@ -1,1 +1,0 @@
-openssl pkcs12 -in input.p12 -out public_key.pem -nokeys

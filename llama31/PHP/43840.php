@@ -1,0 +1,1 @@
+function all_images(&$post){\n    $content = $post->post_content;\n    if(preg_match_all('/<img[^>]+src="(.*?)"[^>]*>/', $content, $results)){\n        return $results[1];\n    }\n    return array(); // or throw an exception, depending on your error handling strategy\n}

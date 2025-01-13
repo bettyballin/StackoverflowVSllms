@@ -1,0 +1,1 @@
+const userInput = 'Some user-input data with <script>alert("XSS")</script>';\nconst sanitizedInput = DOMPurify.sanitize(userInput);\n\n// Now it's safe to add sanitizedInput to the DOM\ndocument.getElementById('some-element').innerHTML = sanitizedInput;

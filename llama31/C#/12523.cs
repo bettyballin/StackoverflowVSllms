@@ -1,1 +1,0 @@
-DataTable schema = connection.GetSchema("Columns", new[] { "YourTableName" });

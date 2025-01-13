@@ -1,1 +1,0 @@
-// call the C++ DLL functions\n[DllImport("mycppdll")]\nprivate static extern int MyCSharpFunction(int arg);\n\nclass MyWrapper\n{\n    public int CallMyCSharpFunction(int arg)\n    {\n        return MyCSharpFunction(arg);\n    }\n}

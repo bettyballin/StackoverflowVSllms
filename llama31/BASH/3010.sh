@@ -1,1 +1,0 @@
-*/5 * * * * /path/to/your/process.sh

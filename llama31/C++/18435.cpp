@@ -1,1 +1,0 @@
-// myclass.cpp\n#include "myclass.h"\n\nMyClass::MyClass() {}\nMyClass::~MyClass() {}\nvoid MyClass::myMethod() {}

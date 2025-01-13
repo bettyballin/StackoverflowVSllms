@@ -1,0 +1,1 @@
+$result = Set::contains($usergrouppermissions, function($value) use ($searchme) {\n    return $value['UserGroupPermission'] == $searchme['UserGroupPermission'];\n});

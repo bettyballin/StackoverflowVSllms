@@ -1,0 +1,1 @@
+SELECT * FROM a_view WHERE cIndexed = 0;

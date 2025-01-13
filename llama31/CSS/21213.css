@@ -1,1 +1,0 @@
-@page {\n  @top-right {\n    content: "Page " var(--pageNumber) " of " counter(pages);\n  }\n}

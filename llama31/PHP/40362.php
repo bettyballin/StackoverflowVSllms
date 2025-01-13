@@ -1,0 +1,1 @@
+// error_handler.php\n<?php\nfunction error_handler($errno, $errstr, $errfile, $errline) {\n    // log error\n    $log = 'errors.log';\n    file_put_contents($log, date('Y-m-d H:i:s') . ' ' . $errno . ' ' . $errstr . PHP_EOL, FILE_APPEND);\n}\nset_error_handler('error_handler');\n?>

@@ -1,1 +1,0 @@
-using Microsoft.SharePoint;\n\nnamespace ProtectedMySite\n{\n    class Program\n    {\n        static void Main(string[] args)\n        {\n            using (SPSite site = new SPSite("https://your-sharepoint-site.com/personal/user"))\n            {\n                site.RootWeb.AllowDelete = false;\n                site.RootWeb.Update();\n            }\n        }\n    }\n}

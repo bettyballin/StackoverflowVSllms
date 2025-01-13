@@ -1,0 +1,1 @@
+<system.webServer>\n       <handlers>\n           <add name="ImageHandler" verb="GET" path="ImageHandler.ashx" type="YourNamespace.ImageHandler" preCondition="integratedMode"/>\n       </handlers>\n   </system.webServer>

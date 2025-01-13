@@ -1,0 +1,1 @@
+<?php\n// Your PHP code to get the character info and build the table data\n$data = array(\n    'table_data' => '<table>...</table>' // Your table data here\n);\necho json_encode($data);\n?>

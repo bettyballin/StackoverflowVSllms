@@ -1,1 +1,0 @@
-svnadmin upgrade /path/to/repo

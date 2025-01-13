@@ -1,0 +1,1 @@
+function test_tree(opt) {\n    val = opt;\n    fetch('your_php_file.php', {\n        method: 'POST',\n        headers: {\n            'Content-Type': 'application/x-www-form-urlencoded'\n        },\n        body: 'val=' + val\n    })\n    .then(response => response.text())\n    .then(data => console.log(data));\n}

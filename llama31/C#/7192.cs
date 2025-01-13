@@ -1,1 +1,0 @@
-DateTime now = DateTime.Now;\nDateTime rounded = new DateTime(now.Ticks - (now.Ticks % TimeSpan.TicksPerSecond) + \n                                TimeSpan.TicksPerSecond * (int)Math.Round((double)(now.Ticks % TimeSpan.TicksPerSecond * 5) / TimeSpan.TicksPerSecond) / 5);

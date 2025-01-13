@@ -1,0 +1,1 @@
+CREATE NONCLUSTERED INDEX IX_id ON your_table (id)

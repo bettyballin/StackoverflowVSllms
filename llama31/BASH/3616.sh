@@ -1,1 +1,0 @@
-# Update PHP on Ubuntu-based systems\nsudo apt-get update\nsudo apt-get install php7.4

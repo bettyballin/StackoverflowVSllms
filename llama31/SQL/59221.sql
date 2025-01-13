@@ -1,0 +1,1 @@
+CREATE TRIGGER after_update_items\nAFTER UPDATE ON items\nFOR EACH ROW\nBEGIN\n  IF NEW.tot != OLD.tot THEN\n    INSERT INTO update_queue (num)\n    SELECT orig FROM tree WHERE term = NEW.num;\n  END IF;\nEND;

@@ -1,0 +1,1 @@
+UPDATE STATISTICS Department;

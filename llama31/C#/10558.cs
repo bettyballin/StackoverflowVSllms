@@ -1,1 +1,0 @@
-System.Net.ServicePointManager.DefaultConnectionLimit = 10

@@ -1,1 +1,0 @@
-using System.Diagnostics.Contracts;\n\npublic class Calculator\n{\n    public int Add(int a, int b)\n    {\n        Contract.Requires(a >= 0);\n        Contract.Requires(b >= 0);\n        Contract.Ensures(Contract.Result<int>() >= 0);\n\n        return a + b;\n    }\n}

@@ -1,0 +1,1 @@
+INSERT INTO [YourTable] ([Column1], [Column2]) VALUES (@Column1, @Column2)\n\nUPDATE [YourTable] SET [Column1] = @Column1, [Column2] = @Column2 WHERE [PrimaryKeyColumn] = @PrimaryKeyValue\n\nSELECT [Column1], [Column2] FROM [YourTable] WHERE [PrimaryKeyColumn] = @PrimaryKeyValue

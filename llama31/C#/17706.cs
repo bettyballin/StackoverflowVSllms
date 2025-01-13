@@ -1,1 +1,0 @@
-DataSet1.DataTable1Row row = ds.DataTable1.Select($"Id = {dr.Id}").FirstOrDefault();\nif (row != dr)\n    Console.Write(dr.Id);

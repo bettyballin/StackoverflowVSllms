@@ -1,0 +1,1 @@
+SELECT gp_id\nFROM gp.keywords k\nWHERE keyword_id = 15\nAND EXISTS (\n  SELECT 1\n  FROM gp.practices p\n  WHERE p.id = k.gp_id AND p.practice_link IS NOT NULL\n);

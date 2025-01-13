@@ -1,1 +1,0 @@
-int rowNumber;\nif (FindSpecificRowValue(table, out rowNumber))\n{\n    Console.WriteLine($"Row found at index {rowNumber}");\n}\nelse\n{\n    Console.WriteLine("Row not found");\n}

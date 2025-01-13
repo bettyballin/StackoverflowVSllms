@@ -1,1 +1,0 @@
-// Set cookie example (using libcurl)\ncurl_easy_setopt(curl, CURLOPT_COOKIE, "offset=100; Secure; HttpOnly");

@@ -1,1 +1,0 @@
-hprof -b java.hprof.txt

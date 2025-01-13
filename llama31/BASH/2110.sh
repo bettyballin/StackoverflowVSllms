@@ -1,1 +1,0 @@
-ant -lib /path/to/ivy-<version>.jar

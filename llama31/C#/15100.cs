@@ -1,1 +1,0 @@
-protected void Page_Load(object sender, EventArgs e)\n{\n    Page.Title = HttpUtility.HtmlEncode(Resources.YourResourceFile.YourTitleKey);\n    Response.Charset = "utf-8";\n}

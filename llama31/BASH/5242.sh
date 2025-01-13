@@ -1,1 +1,0 @@
-certadm -import -f <certificate_file>.cer -t <store_name>

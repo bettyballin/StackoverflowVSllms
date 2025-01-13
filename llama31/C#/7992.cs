@@ -1,1 +1,0 @@
-if (Environment.UserInteractive)\n{\n    // Running in a console application\n    Console.WriteLine(message);\n}\nelse\n{\n    // Not running in a console application, log to Event Log\n    // ...\n}

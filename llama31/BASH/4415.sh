@@ -1,1 +1,0 @@
-sudo -u nobody /path/to/nobody_prog

@@ -1,1 +1,0 @@
-private void OKButton_Click(object sender, RoutedEventArgs e)\n{\n    if (DialogBindingGroup.CommitEdit())\n    {\n        // All validation rules passed, close the dialog\n        DialogResult = true;\n    }\n    else\n    {\n        // Some validation rules failed, don't close the dialog\n        // You can also display an error message here\n    }\n}

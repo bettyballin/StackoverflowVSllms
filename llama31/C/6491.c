@@ -1,1 +1,0 @@
-HKEY keyHandle;\nif (RegOpenKeyEx(HKEY_LOCAL_MACHINE, TEXT("\\SOFTWARE\\Mozilla\\Mozilla Firefox 3.0.10\\bin"), 0, KEY_READ, &keyHandle) == ERROR_SUCCESS) {\n    // Read the registry value\n    RegCloseKey(keyHandle);\n}

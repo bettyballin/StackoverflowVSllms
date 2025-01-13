@@ -1,1 +1,0 @@
-.container {\n  display: flex;\n  flex-direction: column;\n  align-items: center;\n  padding: 20px;\n}\n\n.item {\n  margin-bottom: 20px;\n}\n\n.item:last-child {\n  margin-bottom: 0;\n}

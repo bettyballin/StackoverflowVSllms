@@ -1,1 +1,0 @@
-/* Make the navigation bars sticky */\n#top-nav, #bottom-nav {\n  position: fixed;\n  background-color: #333;\n  color: #fff;\n  padding: 10px;\n}\n\n#top-nav {\n  top: 0;\n  left: 0;\n  width: 100%;\n}\n\n#bottom-nav {\n  bottom: 0;\n  left: 0;\n  width: 100%;\n}

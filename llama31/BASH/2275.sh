@@ -1,1 +1,0 @@
-ffmpeg -i input.mp3 -af "volumedetect" -f null -

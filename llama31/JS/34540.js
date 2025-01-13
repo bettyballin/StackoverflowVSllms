@@ -1,0 +1,1 @@
+var myArray = ['element1', 'element2'];\nmyArray.shift(); // remove the first element

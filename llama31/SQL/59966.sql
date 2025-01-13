@@ -1,0 +1,1 @@
+SELECT CONCAT(FLOOR(your_duration_in_seconds / 86400), ':', \n               FORMAT(FLOOR((your_duration_in_seconds % 86400) / 3600), 'D2')) AS duration;

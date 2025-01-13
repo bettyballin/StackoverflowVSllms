@@ -1,1 +1,0 @@
-public ActionResult Index(string[] languages)\n{\n    // Process the languages array\n    return View();\n}

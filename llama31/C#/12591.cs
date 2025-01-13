@@ -1,1 +1,0 @@
-string connectionString = "Provider=Microsoft.Jet.OLEDB.4.0;Data Source=output.csv;Extended Properties='Text;HDR=YES;FMT=Delimited';Pooling=False";

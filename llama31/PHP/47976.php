@@ -1,0 +1,1 @@
+// file1.php\nif (isset($_POST['button1'])) {\n    $result = processInformation();\n    include 'file2.php';\n}\n\n// file2.php\necho $result;

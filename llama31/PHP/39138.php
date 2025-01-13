@@ -1,0 +1,1 @@
+$form->populate($data);\n$dateElement->setValue(Zend_Date::now()->setFormat('dd/mm/yyyy')->setDate($data['date']));

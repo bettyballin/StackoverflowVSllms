@@ -1,0 +1,1 @@
+function processPlugin($plgFile, $db) {\n    require_once($plgFile);\n    $className = basename($plgFile, '.php');\n    $namespace = 'Plugin\\' . $className;\n    $plgin = new $namespace\PlginImpl();\n    $plgin->setDb($db);\n    $ret = $plgin->process();\n    return $ret;\n}

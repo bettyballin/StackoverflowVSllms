@@ -1,1 +1,0 @@
-EnterCriticalSection(&cs);\nvalue1++;\nvalue2++;\noldValue = newValue;\nLeaveCriticalSection(&cs);

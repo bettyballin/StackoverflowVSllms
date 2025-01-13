@@ -1,0 +1,1 @@
+$articleName = $this->uri->segment('articles');\n\n$article = new Articles_Model();\n\n$data = $article->getArticleUsingSlug($articleName);\n\nif (!$data) {\n    throw new Kohana_Exception('Page not found', NULL, 404);\n}

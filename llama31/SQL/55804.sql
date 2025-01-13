@@ -1,0 +1,1 @@
+DECLARE @xml_text nvarchar(max)\nSET @xml_text = 'your large xml string here'\nEXEC sp_xml_preparedocument @xmlhandle OUTPUT, @xml_text

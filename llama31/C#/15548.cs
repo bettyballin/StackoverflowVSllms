@@ -1,1 +1,0 @@
-var config = Configurations.Find(c => c.Name == "myConfig");

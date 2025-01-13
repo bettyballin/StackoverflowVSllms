@@ -1,1 +1,0 @@
-// Use DispatcherTimer instead of System.Timers.Timer to avoid unnecessary thread switching\nDispatcherTimer timer = new DispatcherTimer();\ntimer.Interval = TimeSpan.FromMilliseconds(1000); // 1 second\ntimer.Tick += (sender, e) => { /* your code here */ };\ntimer.Start();

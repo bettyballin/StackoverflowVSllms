@@ -1,0 +1,1 @@
+# example deploy.rb for Capistrano\nset :application, 'myproject'\nset :repository, 'svn://myrepo.com/myproject'\nset :deploy_to, '/var/www/myproject'\n\nnamespace :deploy do\n    task :update do\n        run "svn update #{current_path} -r #{revision}"\n        run "php #{current_path}/vendor/bin/phinx migrate"\n    end\nend

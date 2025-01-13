@@ -1,0 +1,1 @@
+<?php\n    $_product = $this->getProduct();\n    $creationDate = $_product->getData('creation_date');\n    $lastEditDate = $_product->getData('last_edit_date');\n?>\n\n<p>Creation Date: <?php echo $this->helper('core')->formatDate($creationDate, 'long'); ?></p>\n<p>Last Edit Date: <?php echo $this->helper('core')->formatDate($lastEditDate, 'long'); ?></p>

@@ -1,0 +1,1 @@
+from lxml import etree\n\n# Create a new comment element\ncomment = etree.Comment("This is a custom comment")\n\n# Create a new HTML document\nhtml = etree.HTML("<html><body></body></html>")\n\n# Add the comment to the HTML document\nhtml.xpath("//body")[0].append(comment)\n\n# Print the resulting HTML\nprint(etree.tostring(html, encoding="unicode"))

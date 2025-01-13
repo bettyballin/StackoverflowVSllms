@@ -1,1 +1,0 @@
-ol li {\n  background-color: #f0f0f0; /* or any other color you want */\n}\n\nol li::marker {\n  background-color: inherit; /* inherits the background-color from the li element */\n}

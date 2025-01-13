@@ -1,0 +1,1 @@
+SELECT \n  id,\n  value,\n  ROW_NUMBER() OVER (ORDER BY value DESC) AS row_num,\n  LAG(value) OVER (ORDER BY value DESC) AS prev_value,\n  SUM(value) OVER (PARTITION BY category) AS total_value\nFROM \n  my_table;

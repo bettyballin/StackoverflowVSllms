@@ -1,1 +1,0 @@
-cl /LD mydll.cpp

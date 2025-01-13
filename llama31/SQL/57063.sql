@@ -1,0 +1,1 @@
+UPDATE your_table\nSET filename = filename + '.jpg'\nWHERE id IN (list_of_known_id_values);

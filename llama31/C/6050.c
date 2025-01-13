@@ -1,1 +1,0 @@
-#include <signal.h>\n#include <unistd.h>\n\n// ...\n\n// Get the process group ID (PGID) of the parent process\npid_t pgid = getpgid(0);\n\n// Send a SIGKILL signal to the process group\nkill(-pgid, SIGKILL);

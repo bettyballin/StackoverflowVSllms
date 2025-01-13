@@ -1,1 +1,0 @@
-Return mainString.ToLower().IndexOf(subString.ToLower())

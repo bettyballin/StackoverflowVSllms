@@ -1,1 +1,0 @@
-int static = 5; // error: 'static' is a reserved word

@@ -1,0 +1,1 @@
+$xml = $response->body;\n$array = json_decode(json_encode($xml), true);

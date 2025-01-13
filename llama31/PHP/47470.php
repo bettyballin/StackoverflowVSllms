@@ -1,0 +1,1 @@
+// In your view\nif ($this->form->getElement('file_path')->getValue()) {\n    echo 'You have already uploaded a file: ' . $this->form->getElement('file_path')->getValue();\n}

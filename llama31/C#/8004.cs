@@ -1,1 +1,0 @@
-// Example of a custom role/permission check\npublic class CustomAuthorization\n{\n    public bool HasPermission(string roleName, string permissionName)\n    {\n        // Query your custom database to check if the user has the required permission\n        // ...\n    }\n}

@@ -1,1 +1,0 @@
-lftp -u username,password sftp://remote-server.com << EOF\nmirror -R /local/directory /remote/directory\nEOF

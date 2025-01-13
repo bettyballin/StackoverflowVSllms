@@ -1,0 +1,1 @@
+function validateDateTimeRange(sender, args) {\n    var startTime = new Date('01/01/2008 00:00');\n    var endTime = new Date('01/01/2008 23:59');\n    var inputDate = new Date(args.Value);\n    if (inputDate >= startTime && inputDate <= endTime) {\n        args.IsValid = true;\n    } else {\n        args.IsValid = false;\n    }\n}

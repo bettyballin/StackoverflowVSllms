@@ -1,1 +1,0 @@
-public abstract class LayoutPage<TModel> : WebViewPage<TModel>\n{\n    public new TModel Model\n    {\n        get { return (TModel)base.Model; }\n    }\n}

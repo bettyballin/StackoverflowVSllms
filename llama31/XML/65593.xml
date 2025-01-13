@@ -1,0 +1,1 @@
+<configuration>\n  <system.web>\n    <aspnet:VirtualPath>\n      <virtualPath path="/userid/websitename" />\n    </aspnet:VirtualPath>\n  </system.web>\n</configuration>

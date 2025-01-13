@@ -1,0 +1,1 @@
+function pageLoad(sender, args) {\n    if (args.get_isPartialLoad()) {\n        $find('ModalPopupExtender1').show();\n    }\n}

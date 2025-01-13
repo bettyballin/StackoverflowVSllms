@@ -1,1 +1,0 @@
-adsutil CREATE_SITE "YourWebSiteName" "C:\inetpub\wwwroot"\nadsutil SET_SITE_PROPERTY "YourWebSiteName" ASPNET_VERSION "2.0.50727"\nadsutil SET_SITE_PROPERTY "YourWebSiteName" DEFAULT_DOC "Default.aspx"

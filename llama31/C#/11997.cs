@@ -1,1 +1,0 @@
-ame = reader[0].ToString();\ncity = reader[1].ToString();\ncountry = reader[2].ToString();

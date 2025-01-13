@@ -1,0 +1,1 @@
+// Form 1\nconst userData = { /* user data */ };\nconst token = GenerateJWT(userData);\n\n// Form 2\nconst token = Request.QueryString["token"];\nconst userData = VerifyAndExtractJWT(token);

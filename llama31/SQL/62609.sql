@@ -1,0 +1,1 @@
+UPDATE object_ordering\nSET order_index = order_index + 1\nWHERE order_index >= :new_order_index AND object_id != :object_id;\n\nINSERT INTO object_ordering (object_id, order_index)\nVALUES (:object_id, :new_order_index);

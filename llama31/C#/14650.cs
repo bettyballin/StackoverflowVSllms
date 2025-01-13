@@ -1,1 +1,0 @@
-CodeAccessPermission.Assert(new FileIOPermission(FileIOPermissionAccess.Read, @"file:///H:/boo-svn/bin/boo.exe"));

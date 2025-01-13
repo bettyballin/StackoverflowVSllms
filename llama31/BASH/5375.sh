@@ -1,1 +1,0 @@
-@echo off\n\nREM Set the paths to the project file and the merge tool\nset PROJECT_FILE=%1\nset MERGE_TOOL="C:\Program Files\VisualSVN\bin\svnmerge.exe"\n\nREM Set the revisions to merge\nset REVISION1=%2\nset REVISION2=%3\n\nREM Merge the changes using svnmerge\n%MERGE_TOOL% merge --reintegrate %PROJECT_FILE% -r %REVISION1%:%REVISION2%

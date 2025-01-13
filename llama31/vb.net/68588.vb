@@ -1,0 +1,1 @@
+Dim reader As SqlDataReader = command.ExecuteReader()\nWhile reader.Read()\n    ' Process the results here\nEnd While\nreader.Close()

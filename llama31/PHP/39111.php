@@ -1,0 +1,1 @@
+$privateKey = openssl_pkey_get_private(file_get_contents('your_private_key.pem'));\n$data = 'Hello, World!';\n$signature = openssl_sign($data, $privateKey, OPENSSL_ALGO_SHA256);\necho base64_encode($signature);

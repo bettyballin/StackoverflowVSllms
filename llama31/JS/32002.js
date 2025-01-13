@@ -1,0 +1,1 @@
+user_pref("toolkit.cosmeticAnimations.enabled", false);

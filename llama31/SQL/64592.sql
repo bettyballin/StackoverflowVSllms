@@ -1,0 +1,1 @@
+SELECT 'ALTER SEQUENCE ' || sequence_name || ' RESTART WITH ' || \n       (SELECT MAX(column_name) + 1 FROM table_name) || ';' AS sql_command\nFROM user_sequences\nWHERE sequence_name = 'your_sequence_name';

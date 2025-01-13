@@ -1,0 +1,1 @@
+SELECT * FROM addenda.users \nWHERE users.username ~ '.*_$'

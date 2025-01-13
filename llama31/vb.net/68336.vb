@@ -1,0 +1,1 @@
+Try\n    Dim myInteger As Integer = Integer.Parse(myString)\n    ' Success!\nCatch ex As FormatException\n    ' Handle invalid input\nEnd Try

@@ -1,0 +1,1 @@
+<?php\n// Assuming you have the user ID or username stored in $userId\n$userId = 'some_user_id';\n\n// Set a custom HTTP header\nheader('X-BUGZILLA-AUTOLOGIN: ' . $userId);\n\n// Now, you can redirect to your Bugzilla page or include it in an iframe\n// Ensure that the Bugzilla page is configured to read and use this header for autologin\n?>

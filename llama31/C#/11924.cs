@@ -1,1 +1,0 @@
-string connectionString = "Data Source=myClusterDNSAlias;Initial Catalog=myDatabase;Integrated Security=True;FailoverPartner=mySecondaryNode";

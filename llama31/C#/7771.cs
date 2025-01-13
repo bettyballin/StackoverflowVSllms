@@ -1,1 +1,0 @@
-using System;\n\nclass Program\n{\n    static void Main()\n    {\n        if (Environment.OSVersion.Platform == PlatformID.Win32NT)\n        {\n            Console.WriteLine("Running on Windows.");\n        }\n        else\n        {\n            Console.WriteLine("Not running on Windows.");\n        }\n    }\n}

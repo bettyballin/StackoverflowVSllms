@@ -1,1 +1,0 @@
-using System;\nusing System.Runtime.InteropServices;\n\n// assume 'result' is the ComObject\nvar managedObject = result as IManagedObject;\nif (managedObject != null)\n{\n    var array = managedObject.GetObject() as Array;\n    if (array != null)\n    {\n        foreach (string element in array)\n        {\n            Console.WriteLine(element);\n        }\n    }\n}

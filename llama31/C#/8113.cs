@@ -1,1 +1,0 @@
-[ActiveRecord("YourTableName")]\npublic class YourEntity\n{\n    [Validate(typeof(MultiTableExistenceValidator), "Table1", "Table2", "FieldName")]\n    public string FieldName { get; set; }\n}

@@ -1,1 +1,0 @@
-public class SecurityRepositoryNhImpl : ISecurityRepository\n{\n    private readonly IUnitOfWork _unitOfWork;\n\n    public SecurityRepositoryNhImpl(IUnitOfWork unitOfWork)\n    {\n        _unitOfWork = unitOfWork;\n    }\n\n    public Entities.User GetUser(Guid uuid)\n    {\n        return _unitOfWork.Session.Get<Entities.User>(uuid);\n    }\n}

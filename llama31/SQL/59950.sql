@@ -1,0 +1,1 @@
+DECLARE @signal_data INT = 12345\n\n-- Convert integer to hex\nDECLARE @hex VARCHAR(8) = CONVERT(VARCHAR(8), CONVERT(VARBINARY(4), @signal_data), 2)\n\n-- Convert hex to integer\nDECLARE @signal INT = CONVERT(INT, CONVERT(VARBINARY(4), @hex, 2))\n\nSELECT @signal

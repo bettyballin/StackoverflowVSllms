@@ -1,1 +1,0 @@
-var intersection = foo.Intersect(bar, StringComparer.InvariantCultureIgnoreCase).ToList();\nfoo = intersection;\nbar = intersection;

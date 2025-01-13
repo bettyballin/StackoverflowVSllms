@@ -1,0 +1,1 @@
+$("#compensation").bind("keyup", CalculateTotalOnKeyUpEvent);\n\nfunction CalculateTotalOnKeyUpEvent(event) {\n  var keyCode = event.keyCode;\n  if (KeyStrokeAllowdToCalculateRefund(keyCode)) {\n    CalculateTotalRefund();\n  }\n};

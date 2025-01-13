@@ -1,1 +1,0 @@
-# MSDeploy command to sync a website\nmsdeploy -verb:sync -source:package="C:\YourPackageTmp" -dest:auto,ComputerName="https://{yourServer}/MsDeploy.axd?site={yourSiteName}"

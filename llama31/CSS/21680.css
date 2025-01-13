@@ -1,1 +1,0 @@
-.currentDesignDiv {\n  background-color: #e7e7e7;\n  border: 1px solid #9c9c9c;\n  padding: 5px;\n  width: 100%;\n  min-width: 860px;\n  overflow: auto; /* add this line */\n}

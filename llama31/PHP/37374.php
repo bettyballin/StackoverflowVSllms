@@ -1,0 +1,1 @@
+$events = array(\n    array(\n        'title' => 'Event 1',\n        'start' => '2023-03-01',\n        'end' => '2023-03-01'\n    ),\n    array(\n        'title' => 'Event 2',\n        'start' => '2023-03-02',\n        'end' => '2023-03-02'\n    )\n);\n\n$output = json_encode($events);\n\necho $output;

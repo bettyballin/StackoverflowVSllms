@@ -1,1 +1,0 @@
-struct node {\n    item data;\n    node* next;\n    node* back;\n\n    node(item c) : data(c), next(nullptr), back(nullptr) {}\n};

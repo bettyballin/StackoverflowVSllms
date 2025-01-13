@@ -1,1 +1,0 @@
-# Create a read-only user for the slave repository\nsvnserve -R --config-file=/path/to/svnserve.conf --read-only-user=slaveuser\n\n# Create a hook script to allow the slave to sync\n# File: /path/to/master/repo/hooks/pre-revprop-change\n#!/bin/sh\nif [ "$3" = "svn:log" ]; then\n  exit 0\nfi

@@ -1,0 +1,1 @@
+$user_results = array_values($user_results);

@@ -1,1 +1,0 @@
-class CDBSerialize : public CObject\n{\npublic:\n    void Serialize(CDBArchive& ar)\n    {\n        // Call the Serialize method on the object being serialized\n        // For example:\n        ar.Write(this, sizeof(*this));\n    }\n};

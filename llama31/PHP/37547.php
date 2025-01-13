@@ -1,0 +1,1 @@
+$body = imap_fetchbody($conn, $latest, "1", FT_PEEK);

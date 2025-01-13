@@ -1,1 +1,0 @@
-using System.Net;\n\nWebClient client = new WebClient();\nstring response = client.DownloadString("https://api.example.com/data");

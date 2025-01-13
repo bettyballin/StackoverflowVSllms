@@ -1,0 +1,1 @@
+$result = pg_query($dbconn, "SELECT create_user('John Doe', 'john@example.com', 'password123')");

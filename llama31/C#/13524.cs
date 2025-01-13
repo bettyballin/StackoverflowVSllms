@@ -1,1 +1,0 @@
-ClientScript.RegisterStartupScript(this.GetType(), "PopupScript",\n    "window.open('Popup.aspx', '', 'height=650, width=800, location=no, toolbar=no, status=no, scrollbars=yes, resizable=yes'); return false",\n    true);

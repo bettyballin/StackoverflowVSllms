@@ -1,0 +1,1 @@
+SELECT *\nFROM tab1\nJOIN tab2 ON tab1.id = tab2.id\nWHERE tab2.condition = 'your_condition';

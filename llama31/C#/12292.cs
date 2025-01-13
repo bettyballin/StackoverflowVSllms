@@ -1,1 +1,0 @@
-using ExpressionEqualityComparer;\n\n// ...\n\nAssert.IsTrue(ExpressionEqualityComparer.AreEqual(expected, actual));

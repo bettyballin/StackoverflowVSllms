@@ -1,0 +1,1 @@
+function openWindow(id) {\n    window.open('display_data.php?id=' + id, '_blank', 'width=800,height=600');\n}

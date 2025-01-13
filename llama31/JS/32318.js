@@ -1,0 +1,1 @@
+const iframe = document.getElementById('yourIframeId');\nconst iframeDoc = iframe.contentDocument || iframe.contentWindow.document;\nconst form = iframeDoc.getElementById('searchForm');\nconst inputField = iframeDoc.getElementsByName('searchTerm')[0];\n\ninputField.value = 'yourSearchTerm';\nform.submit();

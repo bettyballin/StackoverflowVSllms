@@ -1,0 +1,1 @@
+// User clicks on an article link\nfunction articleLinkClicked(articleId) {\n  // Update the URL using pushState\n  window.history.pushState({ articleId: articleId }, "", "/article/" + articleId);\n\n  // Send an AJAX request to retrieve the article data\n  fetch("/api/article/" + articleId)\n    .then(response => response.json())\n    .then(data => updateUI(data));\n}

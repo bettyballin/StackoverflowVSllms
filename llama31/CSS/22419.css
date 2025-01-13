@@ -1,1 +1,0 @@
-/* Set z-index and position for ModalPopupExtender */\n.ajax__modalpopupextender_popup {\n    z-index: 1000; /* higher than menu's z-index */\n    position: absolute; /* creates a new stacking context */\n}\n\n/* Your menu's CSS class */\n.menu {\n    z-index: 100; /* lower than ModalPopupExtender's z-index */\n}

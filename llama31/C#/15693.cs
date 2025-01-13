@@ -1,1 +1,0 @@
-try\n{\n    // Code that throws an exception\n}\ncatch (Exception ex)\n{\n    string safeMessage = ex.Message.Replace("%", "%25");\n    throw new Exception(safeMessage);\n}

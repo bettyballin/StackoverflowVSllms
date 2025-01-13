@@ -1,0 +1,1 @@
+-- Create a login for the IIS APPPOOL\DefaultAppPool account\nCREATE LOGIN [IIS APPPOOL\DefaultAppPool] FROM WINDOWS;

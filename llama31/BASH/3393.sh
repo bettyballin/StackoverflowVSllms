@@ -1,1 +1,0 @@
-systemctl start my_service

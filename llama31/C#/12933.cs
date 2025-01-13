@@ -1,1 +1,0 @@
-using Castle.ActiveRecord;\n\n// create an Active Record instance\nvar ar = new ActiveRecord();\n\n// create a REST service instance\nvar restService = new RestService(ar);\n\n// start the REST service\nrestService.Start();

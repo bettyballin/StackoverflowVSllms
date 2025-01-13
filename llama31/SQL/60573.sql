@@ -1,0 +1,1 @@
+SELECT * FROM article_versions \nWHERE article_id = :article_id AND version = :version;

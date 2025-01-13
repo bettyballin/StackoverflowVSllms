@@ -1,0 +1,1 @@
+CREATE TRIGGER trg_avoid_multiples_of_13\nBEFORE INSERT ON Comments\nFOR EACH ROW\nBEGIN\n    IF NEW.ID MOD 13 = 0 THEN\n        SIGNAL SQLSTATE '45000' SET MESSAGE_TEXT = 'Cannot insert multiple of 13';\n    END IF;\nEND;

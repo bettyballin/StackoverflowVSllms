@@ -1,0 +1,1 @@
+<!ELEMENT name (#PCDATA)>  <!-- parsed character data -->\n<!ELEMENT code (#CDATA)>   <!-- character data -->

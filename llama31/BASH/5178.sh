@@ -1,1 +1,0 @@
-hashcat -m 0 -a 0 -o output.txt input.hash /usr/share/wordlists/rockyou.txt

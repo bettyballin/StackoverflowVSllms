@@ -1,0 +1,1 @@
+$stmt = $mysqli->prepare("INSERT INTO images (filename, hash, uploaded_at) VALUES (?, ?, NOW())");\n$stmt->bind_param("ss", $uniqueFilename, $imageHash);\n$stmt->execute();

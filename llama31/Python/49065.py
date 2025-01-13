@@ -1,0 +1,1 @@
+def decimal_to_regex(decimal_value):\n    decimal_str = str(decimal_value)\n    pattern = ""\n    for i, digit in enumerate(decimal_str):\n        if i == 0:\n            pattern += digit\n        else:\n            pattern += "[" + digit + "-9]"\n    return "^" + pattern + "$"\n\n# Example usage:\nprint(decimal_to_regex(123))  # Output: ^1[2-9][3-9]$

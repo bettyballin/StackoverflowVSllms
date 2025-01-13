@@ -1,0 +1,1 @@
+<Costura>\n  <IncludeAssemblies>\n    AxInterop.WMPLib\n    Interop.WMPLib\n  </IncludeAssemblies>\n</Costura>

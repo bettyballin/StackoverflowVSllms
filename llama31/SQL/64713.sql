@@ -1,0 +1,1 @@
+ALTER TABLE dbo.MyTable\nALTER COLUMN myColumn int NOT NULL\nWITH (ONLINE = ON)

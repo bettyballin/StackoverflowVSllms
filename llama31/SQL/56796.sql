@@ -1,0 +1,1 @@
+SELECT p.*, pt.Name, pt.Description\nFROM Products p\nJOIN ProductTranslations pt ON p.ProductID = pt.ProductID\nWHERE pt.LanguageCode = 'en';

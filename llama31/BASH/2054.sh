@@ -1,1 +1,0 @@
-gcc -Werror=old-style-operators your_file.cpp

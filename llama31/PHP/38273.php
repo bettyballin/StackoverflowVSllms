@@ -1,0 +1,1 @@
+use Monolog\Logger;\nuse Monolog\Handler\StreamHandler;\n\n$logger = new Logger('my_app');\n$logger->pushHandler(new StreamHandler('logs/app.log', Logger::DEBUG));\n\n// Log something\n$logger->info('User logged in', ['username' => 'john_doe']);

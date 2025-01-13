@@ -1,1 +1,0 @@
-# Inspect the current setting\nsysctl net.ipv4.tcp_fin_timeout\n\n# Set the timeout to 30 seconds\nsysctl -w net.ipv4.tcp_fin_timeout=30

@@ -1,0 +1,1 @@
+Declare Function YourFunction Lib "YourDll" Alias "YourFunction" () As Long

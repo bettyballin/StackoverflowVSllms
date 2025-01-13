@@ -1,1 +1,0 @@
-regasm /codebase "C:\Program Files\AppName\Control.dll" /tlb:"C:\Program Files\AppName\Control.tlb"

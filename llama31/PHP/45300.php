@@ -1,0 +1,1 @@
+$client = new GuzzleHttp\Client();\n$response = $client->get('http://www.test.com/foo.xml', ['allow_redirects' => true]);\n$xml = $response->getBody()->getContents();

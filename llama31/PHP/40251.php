@@ -1,0 +1,1 @@
+$hostnames = array('google.com', 'yahoo.com', 'amazon.com');\n\nforeach ($hostnames as $hostname) {\n    $ip = gethostbyname($hostname);\n    if ($ip !== $hostname) {\n        echo "Lookup of $hostname successful ($ip)\n";\n    } else {\n        echo "Lookup of $hostname failed\n";\n    }\n}

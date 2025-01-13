@@ -1,1 +1,0 @@
-string myString = "Hello, world!";\nif (ContainsHtml(myString))\n{\n    // myString contains HTML\n}\nelse\n{\n    // myString does not contain HTML\n}

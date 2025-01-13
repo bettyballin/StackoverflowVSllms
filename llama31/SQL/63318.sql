@@ -1,0 +1,1 @@
+WITH RECURSIVE tree_sum AS (\n  SELECT id, parentid, value, 0 AS level\n  FROM example\n  WHERE parentid = ?  -- start with the given parentid\n  UNION ALL\n  SELECT e.id, e.parentid, e.value, level + 1\n  FROM example e\n  JOIN tree_sum p ON e.parentid = p.id\n)\nSELECT SUM(value) AS total_value\nFROM tree_sum;

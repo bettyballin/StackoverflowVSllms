@@ -1,1 +1,0 @@
-robocopy \\server\share\source C:\destination /mov

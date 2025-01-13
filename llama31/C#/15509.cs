@@ -1,1 +1,0 @@
-if (srRow.Closed_Date is DBNull)\n{\n    // Handle the null value\n    Console.WriteLine("Closed Date is null");\n}\nelse\n{\n    // Handle the DateTime value\n    DateTime closedDate = (DateTime)srRow.Closed_Date;\n    Console.WriteLine(closedDate);\n}

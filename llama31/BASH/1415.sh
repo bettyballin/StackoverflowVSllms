@@ -1,1 +1,0 @@
-g++ -Wall -g client.cpp -ldl

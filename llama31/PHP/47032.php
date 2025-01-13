@@ -1,0 +1,1 @@
+$form->addElement('textarea', 'content', array(\n    'decorators' => array('RichTextArea'),\n));

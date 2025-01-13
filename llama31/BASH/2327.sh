@@ -1,1 +1,0 @@
-set http_proxy=http://localhost:8080\nset https_proxy=http://localhost:8080

@@ -1,1 +1,0 @@
-#!/bin/bash\n\n# Daily full backup\nmysqldump -h <host> -u <user> -p<password> --all-databases > /backup/full_backup.sql\n\n# Hourly incremental backup\nmysqlpump -h <host> -u <user> -p<password> --incremental --all-databases > /backup/inc_backup.sql

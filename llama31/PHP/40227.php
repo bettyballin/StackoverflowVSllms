@@ -1,0 +1,1 @@
+$num = 15/4;\n$int = (int)$num;\n$dec = round(($num - $int) * 100);

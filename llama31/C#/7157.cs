@@ -1,1 +1,0 @@
-using System.Security.Principal;\nusing System.Diagnostics;\n\n// ...\n\nWindowsIdentity identity = WindowsIdentity.GetCurrent();\nidentity.RunImpersonated(() =>\n{\n    if (PerformanceCounterCategory.Exists(PerfmonCategory))\n    {\n        PerformanceCounterCategory.Delete(PerfmonCategory);\n    }\n});

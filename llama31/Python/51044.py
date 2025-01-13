@@ -1,0 +1,1 @@
+def greet(name, age):\n    print(f"Hello, {name}! You are {age} years old.")\n\nargs = ["John", 30]\ngreet(*args)  # Output: Hello, John! You are 30 years old.

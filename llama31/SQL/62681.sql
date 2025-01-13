@@ -1,0 +1,1 @@
+SELECT LISTAGG(country_name, ', ') WITHIN GROUP (ORDER BY country_name) AS country_list\nFROM countries;

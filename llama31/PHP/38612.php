@@ -1,0 +1,1 @@
+$guid = generate_guid();\necho $guid;

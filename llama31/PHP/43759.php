@@ -1,0 +1,1 @@
+$file = 'your_script.php';\necho "Current user: " . get_current_user() . "\n";\necho "Is writable: " . (is_writable($file) ? 'yes' : 'no') . "\n";

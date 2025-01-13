@@ -1,0 +1,1 @@
+from PIL import Image, ImageDraw\n\n# Open the image file\nimg = Image.open('input.jpg')\n\n# Create a new image with a white border\nbordered_img = Image.new('RGB', (img.width + 10, img.height + 10), (255, 255, 255))\nbordered_img.paste(img, (5, 5))\n\n# Save the bordered image\nbordered_img.save('output.jpg')

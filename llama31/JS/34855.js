@@ -1,0 +1,1 @@
+var saveStateInterval = 10000; // 10 seconds\nsetInterval(function() {\n    var state = Ext.getCmp('your-grid-id').getState();\n    Ext.Ajax.request({\n        url: '/save-state',\n        method: 'POST',\n        params: {\n            state: Ext.encode(state)\n        }\n    });\n}, saveStateInterval);

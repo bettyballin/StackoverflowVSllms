@@ -1,0 +1,1 @@
+const PDFDocument = require('pdfkit');\n\n// Create a PDF document\nconst pdf = new PDFDocument();\n\n// Set the font and add text\npdf.fontSize(15).text('Hello, World!', 100, 100);\n\n// Add an image\npdf.image('path/to/image.png', 100, 200);\n\n// Write the PDF to a file\npdf.write('output.pdf', (err) => {\n  if (err) {\n    console.error(err);\n  }\n});

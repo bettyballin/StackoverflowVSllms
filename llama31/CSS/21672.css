@@ -1,1 +1,0 @@
-#container {\n  position: relative;\n  text-align: center;\n}\n\n#container img {\n  position: absolute;\n  left: 50%;\n  top: 50%;\n  transform: translate(-50%, -50%);\n  z-index: -1;\n}

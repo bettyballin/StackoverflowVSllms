@@ -1,1 +1,0 @@
-int base64Length = (ciphertextBytes + 2) / 3 * 4;

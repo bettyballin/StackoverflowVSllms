@@ -1,0 +1,1 @@
+<%= error_messages_for(@foobar, message: 'is required') %>

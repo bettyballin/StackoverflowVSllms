@@ -1,1 +1,0 @@
-// Implement the IRibbonExtensibility interface\n[ComVisible(true)]\npublic class RibbonExtensibility : IRibbonExtensibility\n{\n    public string GetCustomUI(string RibbonID)\n    {\n        // Return the XML for the custom Ribbon UI\n        return GetRibbonXML();\n    }\n}

@@ -1,1 +1,0 @@
-string input = "Hello, World!";\nbyte[] bytes = Encoding.UTF8.GetBytes(input);\nstring encoded = Convert.ToBase64String(bytes);\nConsole.WriteLine(encoded);

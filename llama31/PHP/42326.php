@@ -1,0 +1,1 @@
+use PhpMimeMailParser\PhpMimeMailParser;\n\n$email = '...'; // your email string\n\n$parser = new PhpMimeMailParser();\n$parser->setText($email);\n\n$attachments = $parser->getAttachments();\n\n// $attachments now holds an array of attachments with filename and data

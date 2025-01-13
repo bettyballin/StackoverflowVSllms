@@ -1,1 +1,0 @@
-curl -v https://www.acpe.org/MyACPE/Activity/MyActivity.aspx

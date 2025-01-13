@@ -1,0 +1,1 @@
+CREATE OR REPLACE FUNCTION get_user(p_id INTEGER)\nRETURNS users AS\n$$\n    SELECT *\n    FROM users\n    WHERE id = p_id\n$$\nLANGUAGE sql;

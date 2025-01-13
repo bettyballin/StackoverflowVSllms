@@ -1,0 +1,1 @@
+if (!function_exists('connectSugarCRM')) {\n    function connectSugarCRM() {\n        $connectorSugarCRM = mysql_connect("localhost", "123", "123")\n            or die("Connection failed");\n        mysql_select_db("sugar5") or die("Failed attempt to connect to database");\n        return $connectorSugarCRM;\n    }\n}

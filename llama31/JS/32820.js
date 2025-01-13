@@ -1,0 +1,1 @@
+const myElement = document.getElementById('myElement');\nif (isElementInFrame(myElement)) {\n  console.log('My element is inside a frame');\n}

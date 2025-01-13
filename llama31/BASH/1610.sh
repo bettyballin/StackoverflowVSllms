@@ -1,1 +1,0 @@
-pt-query-digest --limit 10 /var/log/mysql/general.log

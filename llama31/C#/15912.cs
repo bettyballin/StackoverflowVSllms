@@ -1,1 +1,0 @@
-string repeatedCharsString = new string(repeatedChars);

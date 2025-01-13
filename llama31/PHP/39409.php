@@ -1,0 +1,1 @@
+<?php\nheader('Location: new-page.html', true, 301);\nexit;\n?>

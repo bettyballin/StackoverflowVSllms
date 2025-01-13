@@ -1,0 +1,1 @@
+WITH paginated AS (\n  SELECT *, ROW_NUMBER() OVER (ORDER BY your_column) AS row_num\n  FROM your_table\n)\nSELECT * FROM paginated\nWHERE row_num BETWEEN 11 AND 20;

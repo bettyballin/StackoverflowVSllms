@@ -1,1 +1,0 @@
-using Progress.DataDirect.OracleClient;\n\nstring connectionString = "HostName=your_host;PortNumber=your_port;ServiceName=your_service_name;UserId=your_username;Password=your_password;";\nusing (OracleConnection connection = new OracleConnection(connectionString))\n{\n    connection.Open();\n    // execute queries\n}

@@ -1,0 +1,1 @@
+<?xml version="1.0" encoding="UTF-8"?>\n<setup>\n  <table name="my_table">\n    <column name="id" type="int" generator="IncrementGenerator"/>\n    <column name="name" type="varchar" generator="NameGenerator"/>\n    <column name="email" type="varchar" generator="EmailGenerator"/>\n  </table>\n</setup>

@@ -1,1 +1,0 @@
-.wrapper {\n  position: relative;\n  height: 100%;\n}\n\n#left {\n  position: absolute;\n  top: 0;\n  left: 0;\n  width: 100px;\n  height: 100%;\n  background-color: Blue;\n}\n\n#right {\n  position: absolute;\n  top: 0;\n  left: 100px;\n  width: calc(100% - 100px);\n  height: 100%;\n  background-color: Red;\n}

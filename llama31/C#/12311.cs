@@ -1,1 +1,0 @@
-protected void Button1_Click(object sender, EventArgs e)\n{\n    Table1.Style["display"] = "none";\n    Table2.Style["display"] = "";\n}

@@ -1,0 +1,1 @@
+// Before submitting the form\n$(document).on('submit', 'form', function() {\n  localStorage.setItem('scrollPosition', $(window).scrollTop());\n});\n\n// On page load\n$(document).ready(function() {\n  var scrollPosition = localStorage.getItem('scrollPosition');\n  if (scrollPosition) {\n    $(window).scrollTop(scrollPosition);\n  }\n});

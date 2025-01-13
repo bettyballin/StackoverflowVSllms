@@ -1,1 +1,0 @@
-sudo apt-get install antiword docx2txt poppler-utils

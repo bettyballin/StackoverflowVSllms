@@ -1,0 +1,1 @@
+SELECT count(*) FROM tbl WHERE col1 > 10 ORDER BY col1;

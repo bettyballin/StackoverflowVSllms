@@ -1,1 +1,0 @@
-inkscape -d 300 -o output.pdf input.svg

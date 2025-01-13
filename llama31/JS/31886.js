@@ -1,0 +1,1 @@
+// Assuming you have an XmlHttpRequest object named 'xhr'\nconsole.log(xhr.responseText); // prints the response text\nconsole.log(xhr.status); // prints the HTTP status code\nconsole.log(xhr.getResponseHeader('Content-Type')); // prints the Content-Type header

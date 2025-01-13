@@ -1,0 +1,1 @@
+$website = preg_replace('#^https?://#', '', $_POST['website']);

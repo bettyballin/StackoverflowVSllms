@@ -1,0 +1,1 @@
+ALTER TABLE `link_item_store`\n  ADD CONSTRAINT `link_item_store_ibfk_2` FOREIGN KEY (`fk_itemID`) REFERENCES `item` (`id`) ON DELETE CASCADE,\n  ADD CONSTRAINT `link_item_store_ibfk_1` FOREIGN KEY (`fk_storeID`) REFERENCES `store` (`id`) ON DELETE CASCADE;

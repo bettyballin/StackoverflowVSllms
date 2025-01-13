@@ -1,0 +1,1 @@
+$.each(values, function(y) {\n    table.append($('<th>').html(values[y]));\n});

@@ -1,0 +1,1 @@
+-- Enable pg_stat_statements\nALTER SYSTEM SET shared_preload_libraries = 'pg_stat_statements';\nALTER SYSTEM SET pg_stat_statements.max = 10000;\nALTER SYSTEM SET pg_stat_statements.track = all;\n\n-- Get query execution statistics\nSELECT query, calls, total_time, rows\nFROM pg_stat_statements\nORDER BY total_time DESC;

@@ -1,0 +1,1 @@
+$("#displayPanel #labelstr" + div_id + " .req").remove();

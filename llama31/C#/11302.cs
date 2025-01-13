@@ -1,1 +1,0 @@
-var users = from u in db.DataContext\n            where u.SignUpTime.Date == new DateTime(2009, 5, 5)\n            select u;

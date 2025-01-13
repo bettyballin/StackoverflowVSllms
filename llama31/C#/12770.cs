@@ -1,1 +1,0 @@
-using NPoco;\n\nvar db = new Database("YourConnectionString");\n\nvar query = db.Query<int>("SELECT * FROM YourTable WHERE YourColumn > @0", 1);\n\nforeach (var item in query)\n{\n    Console.WriteLine(item);\n}

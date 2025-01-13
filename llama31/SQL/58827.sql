@@ -1,0 +1,1 @@
+SELECT call_dotnet_function('path/to/mydotnetdll.dll', 'MyFunction');

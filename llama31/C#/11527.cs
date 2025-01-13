@@ -1,1 +1,0 @@
-HttpWebRequest request = (HttpWebRequest)WebRequest.Create("http://www.test1.com/");\nHttpWebResponse response = (HttpWebResponse)request.GetResponse();\n\nstring statusDescription = response.GetResponseHeader("Status");\nConsole.WriteLine(statusDescription);

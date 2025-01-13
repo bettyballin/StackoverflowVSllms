@@ -1,0 +1,1 @@
+// js/page-config.js (optional)\n// Page-specific configuration\nwindow.pageConfig = {\n  // ...\n};

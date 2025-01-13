@@ -1,0 +1,1 @@
+$fp = gzopen('output.gz', 'wb');\n$data = 'Your data here...';\n$compressed = gzdeflate($data, 6, ZLIB_ENCODING_RAW);\nfwrite($fp, "\x78\x01" . $compressed . pack('V', crc32($data)));\ngzclose($fp);

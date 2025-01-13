@@ -1,1 +1,0 @@
-# Example Git commit message\ngit commit -m "Updated database schema to v2.1"

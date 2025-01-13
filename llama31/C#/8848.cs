@@ -1,1 +1,0 @@
-private readonly object _lock = new object();\nprivate readonly DbConnection _connection;\n\npublic void ExecuteQuery(string query)\n{\n    lock (_lock)\n    {\n        using (var command = _connection.CreateCommand())\n        {\n            command.CommandText = query;\n            command.ExecuteNonQuery();\n        }\n    }\n}

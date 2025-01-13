@@ -1,0 +1,1 @@
+foreach ($receiverID as $id) {\n    $stmt = $pdo->prepare("INSERT INTO table (column) VALUES (:id)");\n    $stmt->execute(['id' => $id]);\n}

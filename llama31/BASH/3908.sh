@@ -1,1 +1,0 @@
-C:\>cd C:\wamp\www\cake\console\nC:\wamp\www\cake\console>php bake.php

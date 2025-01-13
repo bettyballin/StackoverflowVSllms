@@ -1,1 +1,0 @@
-@echo off\nsetlocal\n\n:: Localize the working copy where IIS points)\npushd E:\wwwroot\yourapp\trunk\n\n:: Update your working copy\nsvn export --force --quiet ..\trunk ./\n\nif %errorlevel% neq 0 (\n    echo Error updating working copy\n    exit /b 1\n)\n\nendlocal\nexit

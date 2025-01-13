@@ -1,1 +1,0 @@
-#include <benchmark/benchmark.h>\n\nstatic void BM_LoopIterations(benchmark::State& state) {\n  for (auto _ : state) {\n    for (int i = 0; i < 1000000; i++) {\n      // do nothing\n    }\n  }\n}\nBENCHMARK(BM_LoopIterations);\n\nBENCHMARK_MAIN();

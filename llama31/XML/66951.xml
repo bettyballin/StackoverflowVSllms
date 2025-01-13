@@ -1,0 +1,1 @@
+<membership defaultProvider="CustomMembershipProvider">\n  <providers>\n    <clear />\n    <add name="CustomMembershipProvider" type="YourNamespace.CustomMembershipProvider" />\n  </providers>\n</membership>

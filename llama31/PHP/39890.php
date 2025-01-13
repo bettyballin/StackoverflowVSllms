@@ -1,0 +1,1 @@
+public function exportTableAction()\n{\n    $response = $this->getResponse();\n    $response->setHeader('Content-type', 'application/octet-stream');\n    $response->setHeader('Content-Disposition', 'attachment; filename="'.$fileName.'"');\n    $response->setBody($this->getCsv($tableName, $fileName));\n    $response->sendResponse();\n    exit;\n}

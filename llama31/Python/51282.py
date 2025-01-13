@@ -1,0 +1,1 @@
+import html\n\n# cgi.escape has been deprecated since Python 3.2 and removed in Python 3.8\n# Use html.escape instead\n\nuntrusted_input = "<script>alert('XSS')</script>"\nescaped_input = html.escape(untrusted_input)\n\nprint(escaped_input)

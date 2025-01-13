@@ -1,1 +1,0 @@
-CopyDirectory(@"C:\Source\Folder", @"C:\Destination\Folder");

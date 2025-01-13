@@ -1,0 +1,1 @@
+const timeElements = document.querySelectorAll('time[datetime]');\n\ntimeElements.forEach((timeElement) => {\n  const date = new Date(timeElement.getAttribute('datetime'));\n  timeElement.textContent = date.toLocaleString();\n});

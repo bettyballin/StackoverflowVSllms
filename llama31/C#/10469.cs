@@ -1,1 +1,0 @@
-CultureInfo culture = new CultureInfo("en-US");\nstring formattedAmount = amount.ToString("C2", culture);

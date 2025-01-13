@@ -1,0 +1,1 @@
+// assuming 'mySelect' is the ID of your select tag\ndocument.getElementById('mySelect').addEventListener('change', function(event) {\n  event.target.selectedIndex = 0; // or whatever index you want to enforce\n});

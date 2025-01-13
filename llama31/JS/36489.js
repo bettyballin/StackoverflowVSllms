@@ -1,0 +1,1 @@
+$(document).ready(function () {\n    $("a").click(function () {\n        $("a.last-clicked").removeClass("last-clicked");\n        $(this).addClass("last-clicked");\n    });\n});

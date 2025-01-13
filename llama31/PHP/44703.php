@@ -1,0 +1,1 @@
+// In your amfphp.module file, update the require_once statement to use the correct path\nrequire_once DRUPAL_ROOT . '/modules/amfphp/amfphp/globals.php';

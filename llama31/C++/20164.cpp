@@ -1,1 +1,0 @@
-extern "C" {\n    __declspec(dllimport) void OpenApiA(void);\n    __declspec(dllimport) void OtherFunctionA(void);\n}\n\nextern "C" {\n    __declspec(dllimport) void OpenApi(void);\n    __declspec(dllimport) void OtherFunction(void);\n}

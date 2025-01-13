@@ -1,1 +1,0 @@
-using System.Text;\n\n// ...\n\nvar writer = new System.IO.StreamWriter(Application.StartupPath + @"\B323.txt");\nwriter.Write(Encoding.UTF8.GetString(data));\nwriter.Close();\nwriter.Dispose();

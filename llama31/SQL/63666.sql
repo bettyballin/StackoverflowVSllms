@@ -1,0 +1,1 @@
+UPDATE Orders\nSET Ordernumber = REPLICATE('0', 6 - LEN(Ordernumber)) + Ordernumber

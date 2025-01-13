@@ -1,1 +1,0 @@
-using FluentNHibernate.Cfg;\nusing FluentNHibernate.Cfg.Db;\n\nvar sessionFactory = Fluently.Configure()\n    .Database(OracleConfiguration.Standard\n        .ConnectionString("Data Source=your_data_source;User ID=your_user_id;Password=your_password"))\n    .Mappings(m => m.FluentMappings.AddFromAssemblyOf<YourEntity>())\n    .BuildSessionFactory();

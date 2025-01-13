@@ -1,1 +1,0 @@
-System.Net.ServicePointManager.ServerCertificateValidationCallback += \n    (sender, certificate, chain, sslPolicyErrors) => true;\n\nSystem.Net.ServicePointManager.SecurityProtocol = SecurityProtocolType.Tls12;\n\nWebRequest req = WebRequest.Create("https://servicios.mensario.com/enviomasivo/apip/");\nWebResponse resp = req.GetResponse();

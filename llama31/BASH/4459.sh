@@ -1,1 +1,0 @@
-java -Xmx1024m -Xms512m -XX:+UseConcMarkSweepGC -XX:+CMSIncrementalMode -XX:NewRatio=2 -jar yourapplication.jar

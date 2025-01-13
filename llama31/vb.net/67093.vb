@@ -1,0 +1,1 @@
+Dim request As HttpWebRequest = DirectCast(WebRequest.Create("URL Here"), HttpWebRequest)\nrequest.Timeout = 30000\nrequest.AllowAutoRedirect = True\n\nDim response As HttpWebResponse = DirectCast(request.GetResponse(), HttpWebResponse)\nDim reader As StreamReader = New StreamReader(response.GetResponseStream())\nDim data As String = reader.ReadToEnd()\n\nReturn data

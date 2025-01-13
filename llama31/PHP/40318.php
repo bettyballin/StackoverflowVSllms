@@ -1,0 +1,1 @@
+$friends2 = unserialize($friends['friends']);\nif ($friends2 === false) {\n    $friends2 = array();\n}

@@ -1,0 +1,1 @@
+def remove_non_printable_chars(s):\n    return ''.join(c for c in s if 32 <= ord(c) <= 126)\n\n# Test the function\ns = "Hello,\nWorld!\x00\x01\x02"\nprint(remove_non_printable_chars(s))

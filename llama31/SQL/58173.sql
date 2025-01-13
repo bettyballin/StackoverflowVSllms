@@ -1,0 +1,1 @@
+CREATE INDEX idx_name_age ON customers (name, age);

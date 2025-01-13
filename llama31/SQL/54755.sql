@@ -1,0 +1,1 @@
+INSERT INTO CarList (CarColour, CarName, CarCompany)\nSELECT n.CarColour, n.CarName, n.CarCompany\nFROM NewCars n\nLEFT JOIN CarList c\n    ON c.CarColour = n.CarColour\n    AND c.CarName = n.CarName\n    AND c.CarCompany = n.CarCompany\nWHERE c.myID IS NULL

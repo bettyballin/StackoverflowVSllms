@@ -1,1 +1,0 @@
-return Factory<MC, MT>::template Register<MC>(Type);

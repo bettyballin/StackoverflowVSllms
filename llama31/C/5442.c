@@ -1,1 +1,0 @@
-#include <signal.h>\n#include <stdio.h>\n\nvoid cleanup() {\n    // Deallocate resources here\n    printf("Cleaning up...\n");\n}\n\nvoid sig_handler(int sig) {\n    cleanup();\n    exit(0);\n}\n\nint main() {\n    signal(SIGTERM, sig_handler);\n    signal(SIGINT, sig_handler);\n\n    // Your process code here...\n}

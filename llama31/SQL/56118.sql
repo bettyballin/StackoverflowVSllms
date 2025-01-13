@@ -1,0 +1,1 @@
+SET @sql = NULL;\n\nSELECT \n  GROUP_CONCAT(\n    CONCAT('`', table_name, '`.`', column_name, '`')\n  ) INTO @sql\nFROM \n  information_schema.columns\nWHERE \n  table_name IN ('table1', 'table2');\n\nSET @sql = CONCAT('SELECT ', @sql, ' FROM table1 LEFT JOIN table2 ON table1.f_ID = table2.ID');\n\nPREPARE stmt FROM @sql;\nEXECUTE stmt;\nDEALLOCATE PREPARE stmt;

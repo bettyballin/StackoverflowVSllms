@@ -1,1 +1,0 @@
-public class PermissionEnumType : EnumStringType<Permission>\n{\n    public PermissionEnumType() : base(sizeof(int)) { }\n}

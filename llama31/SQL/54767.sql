@@ -1,0 +1,1 @@
+SELECT col2\nFROM your_table\nGROUP BY col2\nHAVING COUNT(DISTINCT col1) > 1

@@ -1,1 +1,0 @@
-#include <filesystem>\n\nbool fileExists(const std::string& filePath) {\n    return std::filesystem::exists(filePath);\n}

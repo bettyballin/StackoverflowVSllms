@@ -1,1 +1,0 @@
-public ActionResult MyAction(MyModel model)\n{\n    // Clear the ModelState\n    ModelState.Clear();\n\n    // Return the new view\n    return PartialView("_MyView", model);\n}

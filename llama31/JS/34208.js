@@ -1,0 +1,1 @@
+const text = document.getElementById('UnitCost5').textContent;\nconst regex = /\$([\d,\.]+)/g;\nconst matches = text.match(regex);\n\nif (matches) {\n  const numbers = matches.map(match => match.slice(1)); // remove the dollar sign\n  console.log(numbers); // Output: ["3,079.95", "3,479.95"]\n}

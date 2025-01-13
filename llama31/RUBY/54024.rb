@@ -1,0 +1,1 @@
+<td><%= link_to_remote 'remove', :url => { :action => :destroy, :ride_id => ride.id }, :html => {:onclick => "Effect.Fade('ride_" + ride.id.to_s + "')"} %></td>

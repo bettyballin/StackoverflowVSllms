@@ -1,0 +1,1 @@
+$keys = array_keys(array_map('strtolower', $list[0]), strtolower("2009-09-09"));

@@ -1,0 +1,1 @@
+function getLink($sa){\n    $sa = (int)$sa; // convert to integer\n    if($sa === 1){\n        $sa = 'qp_bbl';\n    } else {\n        $sa = 'qp_sbl';\n    }   \n    return $sa;\n}

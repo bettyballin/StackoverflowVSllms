@@ -1,0 +1,1 @@
+var oldMessage = 'old message here';\nvar newMessage = 'new message starts here\n\n--------------\n' + oldMessage;\ndocument.getElementById('textareaId').value = newMessage;

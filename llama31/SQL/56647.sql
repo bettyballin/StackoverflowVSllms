@@ -1,0 +1,1 @@
+CREATE TABLE nodes (\n  id INT PRIMARY KEY,\n  path VARCHAR(255) NOT NULL,\n  parent_id INT REFERENCES nodes(id)\n);

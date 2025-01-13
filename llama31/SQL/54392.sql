@@ -1,0 +1,1 @@
+SELECT *\nFROM table\nWHERE userid IN (\n  SELECT userid\n  FROM (\n    SELECT userid, SUM(size) OVER (ORDER BY size) AS running_sum\n    FROM table\n  ) AS subquery\n  WHERE running_sum <= 150\n)

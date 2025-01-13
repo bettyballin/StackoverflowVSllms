@@ -1,1 +1,0 @@
-using System.Text.RegularExpressions;\n\npublic static string FilterIllegalXmlCharacters(string input)\n{\n    string pattern = @"[\x00-\x08\x0B\x0C\x0E-\x1F\uD800-\uDFFF\uFFFE\uFFFF]";\n    return Regex.Replace(input, pattern, "");\n}

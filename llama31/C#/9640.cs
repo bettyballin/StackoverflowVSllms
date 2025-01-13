@@ -1,1 +1,0 @@
-// Instead of this:\nvar query = from row in context.Table\n            where row.Name.ToLower() == "test"\n            select row;\n\n// Use this:\nvar query = from row in context.Table\n            where row.Name.ToUpper() == "TEST"\n            select row;

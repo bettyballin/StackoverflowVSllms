@@ -1,1 +1,0 @@
-.grid {\n  display: grid;\n  grid-template-columns: 100px 200px;\n  gap: 1px;\n}\n\n.grid > div {\n  padding: 1px 2px;\n  overflow: hidden;\n  white-space: nowrap;\n}

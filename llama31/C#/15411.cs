@@ -1,1 +1,0 @@
-XElement xml = new XElement("XML");\nxml.Add(new XElement("SomeConfigValue", new XAttribute("xs:nil", "true")));

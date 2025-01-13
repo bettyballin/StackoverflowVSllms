@@ -1,1 +1,0 @@
-string input = "O'Brian"; // with special apostrophe\n\nstring normalizedString = input.Normalize(NormalizationForm.FormD);\nstring cleanString = Regex.Replace(normalizedString, @"[\u0300-\u036f]", "");\n\nConsole.WriteLine(cleanString); // outputs "OBrian"

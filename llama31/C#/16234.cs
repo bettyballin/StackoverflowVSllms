@@ -1,1 +1,0 @@
-@{\n    var hostHeader = HttpContext.Current.Request.Url.Host;\n    // ...\n}

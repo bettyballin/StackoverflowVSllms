@@ -1,1 +1,0 @@
-gcc -arch i386 -isysroot /Developer/SDKs/MacOSX10.5.sdk

@@ -1,1 +1,0 @@
-while ((inStream >> line) && (line != "antonyms")) {\n    stringstream ss(line);\n    string id;\n    while (ss >> id) {\n        aword.pushSynonyms(id, wordTree);\n    }\n}

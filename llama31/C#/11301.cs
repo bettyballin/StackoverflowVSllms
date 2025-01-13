@@ -1,1 +1,0 @@
-var users = from u in db.DataContext\n            where DbFunctions.TruncateTime(u.SignUpTime) == new DateTime(2009, 5, 5)\n            select u;

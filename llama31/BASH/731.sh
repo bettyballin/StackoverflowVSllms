@@ -1,1 +1,0 @@
-java -cp .;path/to/napkinlaf-swingset2.jar;path/to/napkinlaf.jar YourJavaProgram

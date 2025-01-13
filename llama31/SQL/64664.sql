@@ -1,0 +1,1 @@
+SELECT \n    ID,\n    REF,\n    AVG(Days_Diff) AS Avg_Days\nFROM \n(\n    SELECT \n        ID,\n        REF,\n        Date - LAG(Date) OVER (PARTITION BY ID, REF ORDER BY Date) AS Days_Diff\n    FROM \n        YourTable\n) AS t\nWHERE \n    Days_Diff IS NOT NULL\nGROUP BY \n    ID, REF\nORDER BY \n    ID, REF;

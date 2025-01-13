@@ -1,0 +1,1 @@
+CREATE TABLE favorites (\n  id INT PRIMARY KEY,\n  user_id INT,\n  message_id INT,\n  FOREIGN KEY (user_id) REFERENCES users(id),\n  FOREIGN KEY (message_id) REFERENCES messages(id)\n)

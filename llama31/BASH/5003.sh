@@ -1,1 +1,0 @@
-repoquery -l --installed httpd-2.4.6-90.el7

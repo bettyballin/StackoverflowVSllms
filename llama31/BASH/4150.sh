@@ -1,1 +1,0 @@
-#!/bin/bash\n\n# Create a GUI with buttons and a progress bar\nyad --title="My Script" --text="Working..." --button="Start" --button="Stop" --progress\n\n# Update the progress bar\nfor i in {1..100}; do\n  yad --progress --percentage=$i\n  sleep 0.1\ndone

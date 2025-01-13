@@ -1,1 +1,0 @@
-[System.Web.Services.WebMethod]\npublic string[] GetSuggestions(string prefixText, int count)\n{\n    // Your logic to retrieve suggestions goes here\n    string[] suggestions = new string[] { "Suggestion1", "Suggestion2", "Suggestion3" };\n    return suggestions;\n}

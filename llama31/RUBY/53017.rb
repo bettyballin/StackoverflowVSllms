@@ -1,0 +1,1 @@
+format.xml { render nothing: true, status: :ok }

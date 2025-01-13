@@ -1,1 +1,0 @@
-div#myId {\n    background-color: #3070cf;\n    position: absolute;\n    top: 0px;\n    left: 0px;\n    width: expression(document.body.offsetWidth + 'px');\n    height: 100%;\n}

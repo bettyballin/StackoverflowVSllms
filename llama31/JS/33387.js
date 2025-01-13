@@ -1,0 +1,1 @@
+function CheckKey(event) {\n    if (event.which === 113) {\n        // ...\n    }\n}

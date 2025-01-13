@@ -1,0 +1,1 @@
+session_id($_POST['PHPSESSID']);\nsession_start();

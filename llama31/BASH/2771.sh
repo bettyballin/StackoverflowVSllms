@@ -1,1 +1,0 @@
-sed -i 's%<iframe[^>]*>%%g' file

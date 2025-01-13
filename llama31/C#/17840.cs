@@ -1,1 +1,0 @@
-using Microsoft.EntityFrameworkCore;\n\nclass EntityFrameworkConfig\n{\n    public static DbContextOptions<MyDbContext> CreateDbContextOptions(string connectionString)\n    {\n        return new DbContextOptionsBuilder<MyDbContext>()\n            .UseSqlServer(connectionString)\n            .Options;\n    }\n}

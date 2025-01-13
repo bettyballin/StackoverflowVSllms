@@ -1,0 +1,1 @@
+CREATE OR REPLACE PROCEDURE my_procedure(p_cursor OUT SYS_REFCURSOR) AS\nBEGIN\n  OPEN p_cursor FOR SELECT * FROM my_table;\nEND;

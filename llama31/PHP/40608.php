@@ -1,0 +1,1 @@
+$sourceString = '<span lang="en">English Content</span><span lang="fr">French content</span>';\n$lang = 'en'; // change to 'fr' for French content\n\n$pattern = '/<span lang="' . preg_quote($lang) . '">([^<]+)<\/span>/';\npreg_match($pattern, $sourceString, $match);\n\nif ($match) {\n    $content = $match[1];\n    echo $content; // outputs: English Content\n}

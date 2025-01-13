@@ -1,0 +1,1 @@
+def __str__(self):\n    return f"{self.name}: {self.description}"

@@ -1,1 +1,0 @@
-XmlNamespaceManager namespaceManager = new XmlNamespaceManager(navigator.NameTable);\nnamespaceManager.AddNamespace("ns", namespaceUri);

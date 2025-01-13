@@ -1,0 +1,1 @@
+with open('output.bin', 'wb') as f:\n    while True:\n        next = sys.stdin.buffer.read(4096)\n        if not next:\n            break\n        f.write(next)

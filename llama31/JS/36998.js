@@ -1,0 +1,1 @@
+function escapeRegExp(str) {\n    return str.replace(/[.*+?^${}()|[\]\\]/g, '\\$&');\n}\n\n// ...\n\nvar regex = new RegExp(escapeRegExp(ctag), 'i');

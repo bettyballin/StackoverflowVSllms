@@ -1,1 +1,0 @@
-public partial class Index : System.Web.Mvc.ViewPage<List<Task>>\n{\n}

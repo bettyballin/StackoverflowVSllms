@@ -1,0 +1,1 @@
+Dim localBytes As Byte() = item.Bytes\nDim mismatch As Boolean = False\n\nFor i As Integer = 0 To _Bytes.Length - 1\n    If _Bytes(i) <> localBytes(i) Then\n        mismatch = True\n        Exit For\n    End If\nNext

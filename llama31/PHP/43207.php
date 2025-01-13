@@ -1,0 +1,1 @@
+// After successful login\nif ($loginSuccessful) {\n  session_start();\n  $_SESSION['username'] = $username;\n  // ...\n}

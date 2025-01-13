@@ -1,0 +1,1 @@
+SELECT * FROM V$LOCK WHERE TYPE = 'TM' AND ID1 = OBJECT_ID('your_table_name');

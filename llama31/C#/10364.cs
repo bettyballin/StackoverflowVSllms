@@ -1,1 +1,0 @@
-var query = from c in Customers\n            from o in Orders.Where(o => o.CustomerID == c.CustomerID)\n            select new { c.CustomerName, o.OrderID };

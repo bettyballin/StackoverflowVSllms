@@ -1,1 +1,0 @@
-// Example RBAC using ASP.NET Core\nusing Microsoft.AspNetCore.Authorization;\n\n[Authorize(Roles = "Admin")]\npublic IActionResult ViewSensitiveData()\n{\n    // Only allow authorized users to view sensitive data\n}

@@ -1,1 +1,0 @@
-var startSeed = new DateTime(2022, 1, 1, 8, 0, 0); // January 1, 2022, 8:00 AM\nvar frequency = TimeSpan.FromDays(3); // every 3 days\n\nvar nextRunTime = TaskScheduler.CalculateNextRunTime(startSeed, frequency);\nConsole.WriteLine(nextRunTime); // Output: January 4, 2022, 8:00 AM

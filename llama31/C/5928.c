@@ -1,1 +1,0 @@
-mid = low + ((high - low) >> 1);

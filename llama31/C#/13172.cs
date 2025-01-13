@@ -1,1 +1,0 @@
-protected void btnLogout_Click(object sender, EventArgs e)\n{\n    // Clear session\n    Session.Clear();\n    Session.Abandon();\n\n    // Expire authentication cookie\n    FormsAuthentication.SignOut();\n\n    // Redirect to login page\n    Response.Redirect("login.aspx");\n}

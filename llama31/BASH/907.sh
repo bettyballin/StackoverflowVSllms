@@ -1,1 +1,0 @@
-tcpdump -n -vv -s 0 -c 1 -W 100 'tcp'

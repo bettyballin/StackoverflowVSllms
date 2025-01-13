@@ -1,1 +1,0 @@
-public partial class Form1 : Form\n{\n    public Form1()\n    {\n        InitializeComponent();\n\n        MulticolorLabel label = new MulticolorLabel();\n        label.SetText("Value1,Value2,Value3", new Color[] { Color.Red, Color.Green, Color.Blue });\n        this.Controls.Add(label);\n    }\n}

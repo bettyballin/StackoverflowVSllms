@@ -1,0 +1,1 @@
+const div = document.querySelector('div');\nconst checkbox = document.getElementById('cb');\n\ndiv.addEventListener('click', (e) => {\n  if (!div.contains(e.target)) return;\n  checkbox.checked = !checkbox.checked;\n});

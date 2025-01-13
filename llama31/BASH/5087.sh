@@ -1,1 +1,0 @@
-@echo off\n\nreg add "HKCR\xmlfile\shell\open\command" /ve /d "\"C:\Program Files\OpenOffice.org 3\program\soffice.exe\" \"%1\"" /f\nreg add "HKCR\.xml" /ve /d "xmlfile" /f

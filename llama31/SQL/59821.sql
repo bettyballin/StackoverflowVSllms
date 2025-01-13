@@ -1,0 +1,1 @@
+RENAME old_name TO new_name;

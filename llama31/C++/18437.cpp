@@ -1,1 +1,0 @@
-// resource.h\n#define IDD_MYDIALOG  101\n#define IDC_MYBUTTON  1001

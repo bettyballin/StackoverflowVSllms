@@ -1,0 +1,1 @@
+arr = [1, 2, 4, 7, 11]\nputs derivative(arr).inspect  # Output: [1, 2, 3, 4]

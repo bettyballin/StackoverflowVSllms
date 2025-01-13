@@ -1,1 +1,0 @@
-protected void fvUser_ItemUpdating(object sender, FormViewUpdateEventArgs e)\n{\n    var userService = new UserService(new DbContext());\n    var user = userService.GetCurrentUser();\n    TryUpdateModel(user);\n    userService.UpdateUser(user);\n}

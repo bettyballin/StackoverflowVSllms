@@ -1,1 +1,0 @@
-Variant excelActiveSheetIndex;\n\nexcelActiveSheetIndex = excelActiveSheet.OlePropertyGet("Index");

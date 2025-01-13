@@ -1,1 +1,0 @@
-#include <iostream>\n#include <ctime>\n\nint main() {\n    time_t seconds;\n    time(&seconds);\n    struct tm* tm = localtime(&seconds);\n\n    char str[32];\n    strftime(str, sizeof(str), "%Y-%m-%d %H:%M:%S", tm);\n\n    std::cout << str << std::endl;\n\n    return 0;\n}

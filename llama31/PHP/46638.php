@@ -1,0 +1,1 @@
+// application/bootstrap.php\n\nKohana::init(array(\n    'base_url' => '/',\n    'route_class' => 'Route',\n));

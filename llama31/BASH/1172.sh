@@ -1,1 +1,0 @@
-for file in *; do if ! grep -q -E "word1|word2|word3" "$file"; then rm "$file"; fi; done

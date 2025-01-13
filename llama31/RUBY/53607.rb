@@ -1,0 +1,1 @@
+obj = "Hello"\nputs obj.class  # Output: String

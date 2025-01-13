@@ -1,1 +1,0 @@
-// Preferred usage\nList<string> myList = new List<string>();\n\n// Avoid using ArrayList unless necessary\nArrayList myArrayList = new ArrayList();

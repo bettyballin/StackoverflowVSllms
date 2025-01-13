@@ -1,1 +1,0 @@
-string plainText = message.GetBody("text/plain");

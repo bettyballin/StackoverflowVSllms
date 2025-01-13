@@ -1,0 +1,1 @@
+$output = new DOMDocument();\n$output->formatOutput = true;\n// ...\n$output->saveXML('output.xml');

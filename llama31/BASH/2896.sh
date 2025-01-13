@@ -1,1 +1,0 @@
-svn propset svn:externals "Lib1 https://svn.example.com/repos/Libs/Lib1/trunk\nLib2 https://svn.example.com/repos/Libs/Lib2/trunk\nExtLib1 https://svn.example.com/repos/External/ExtLib1/trunk\nExtLib2 https://svn.example.com/repos/External/ExtLib2/trunk" ProjectA/trunk/Lib

@@ -1,1 +1,0 @@
-if (HttpContext.Current.Session != null)\n{\n    // Session is available\n    Session.Remove("foo");\n}

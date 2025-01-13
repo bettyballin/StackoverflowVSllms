@@ -1,0 +1,1 @@
+Dim PropChildInfo As PropertyInfo() = ResponseObject.GetType().GetProperties()\nFor Each PropItem As PropertyInfo In PropChildInfo\n    PropItem.SetValue(ResponseObject, CType(ResponseChildren, Object()), BindingFlags.SetProperty, Nothing, Nothing, Nothing)\nNext

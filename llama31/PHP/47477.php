@@ -1,0 +1,1 @@
+<{if $name == 'John'}>\n  Hello, John!\n<{else}>\n  Hello, stranger!\n<{/if}>

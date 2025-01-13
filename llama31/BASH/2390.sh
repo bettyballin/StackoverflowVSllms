@@ -1,1 +1,0 @@
-msbuild /t:Rebuild /p:Configuration=Release YourVbProject.vbproj

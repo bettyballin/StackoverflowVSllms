@@ -1,1 +1,0 @@
-convert -list delegate | grep -i "ps\|pdf"

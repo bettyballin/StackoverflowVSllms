@@ -1,0 +1,1 @@
+Zend_Date::setDefaultTimezone('Australia/ACT');\n\n$date = new Zend_Date('2009-01-01 10:30:00', Zend_Date::ISO_8601);\necho $date->get(Zend_Date::TIME_MEDIUM); //21:30:00

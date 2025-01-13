@@ -1,1 +1,0 @@
-sqlcmd -S <server_name> -d <database_name> -Q "SELECT * FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_NAME IN ('table1', 'table2', 'table3')" -o script.sql

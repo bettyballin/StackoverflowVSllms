@@ -1,1 +1,0 @@
-MergeColumns("{0} {1}", "name", dataTable, "firstname", "lastname");

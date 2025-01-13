@@ -1,1 +1,0 @@
-// Sample C# code for Icon Handler\nusing System;\nusing System.IO;\nusing System.Runtime.InteropServices;\n\n[ComVisible(true)]\n[ClassInterface(ClassInterfaceType.None)]\npublic class YourIconHandler : IExtractIcon, IPersistFile\n{\n    // Implement IExtractIcon and IPersistFile interfaces\n}

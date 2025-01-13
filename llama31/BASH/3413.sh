@@ -1,1 +1,0 @@
-etsh advfirewall firewall add rule name="Teredo" dir=in action=allow protocol=udp localport=3544

@@ -1,1 +1,0 @@
-pm install -g selenium-side-runner

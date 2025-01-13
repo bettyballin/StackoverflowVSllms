@@ -1,0 +1,1 @@
+SELECT * FROM MyTable \nWHERE FREETEXT ((Column1, Column2, ...), 'search_term')

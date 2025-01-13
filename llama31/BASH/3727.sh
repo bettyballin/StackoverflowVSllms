@@ -1,1 +1,0 @@
-icacls <file> /grant:r <user>:<permission>

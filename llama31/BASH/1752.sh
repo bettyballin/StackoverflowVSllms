@@ -1,1 +1,0 @@
-# Open the Delegation of Control Wizard\ndsacls "OU=Users,DC=example,DC=com" /G "LDAP Query Account:RP" "directory"\ndsacls "OU=Users,DC=example,DC=com" /G "LDAP Query Account:RP" "user"\ndsacls "OU=Users,DC=example,DC=com" /G "LDAP Query Account:RP" "group"\ndsacls "OU=Users,DC=example,DC=com" /G "LDAP Query Account:RP" "memberOf"

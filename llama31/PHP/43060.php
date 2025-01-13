@@ -1,0 +1,1 @@
+function getLatestID() {\n    $query = "SELECT max(member_id) as max_id FROM members WHERE member_id IS NOT NULL";\n    $result = @mysql_query($query) or showError("unable to query database for user information");\n    if (!($record = mysql_fetch_array($result))) return null;\n    return $record['max_id'];\n}

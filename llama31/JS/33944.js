@@ -1,0 +1,1 @@
+// Example of a plugin creating a new tab\nconst plugin = {\n  name: 'My Plugin',\n  description: 'Creates a new tab',\n  run: function() {\n    chrome.tabs.create({\n      url: 'https://example.com',\n      active: true\n    });\n  }\n};

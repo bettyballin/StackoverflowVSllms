@@ -1,0 +1,1 @@
+import spacy\n\n# Load the spaCy English model\nnlp = spacy.load("en_core_web_sm")\n\n# Process the text\ntext = "Last year, I was in London where I saw Barack Obama."\ndoc = nlp(text)\n\n# Extract named entities\nentities = [(ent.text, ent.label_) for ent in doc.ents]\n\nprint(entities)  # Output: [("London", "GPE"), ("Barack Obama", "PERSON")]

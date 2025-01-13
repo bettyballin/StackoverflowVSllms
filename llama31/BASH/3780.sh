@@ -1,1 +1,0 @@
-mft2csv.exe -f c: -d -z

@@ -1,0 +1,1 @@
+SELECT * FROM sys.dm_os_waiting_tasks\nWHERE wait_duration_ms > 0;

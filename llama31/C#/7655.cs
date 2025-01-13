@@ -1,1 +1,0 @@
-import System;\nimport System.Web;\nimport System.Web.Security;\n\npublic void DecryptAuthenticationTicket() {\n    string cookieName = FormsAuthentication.FormsCookieName;\n    HttpCookie cookie = Request.Cookies[cookieName];\n    FormsAuthenticationTicket ticket = FormsAuthentication.Decrypt(cookie.Value);\n}

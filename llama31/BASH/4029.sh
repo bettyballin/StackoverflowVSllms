@@ -1,1 +1,0 @@
-rsync -avz -e ssh /path/to/main/database/ user@branch-location:/path/to/branch/database/

@@ -1,1 +1,0 @@
-DataSet myDataSet = new DataSet();\n// ... use the DataSet ...\nmyDataSet = null; // help the garbage collector reclaim memory

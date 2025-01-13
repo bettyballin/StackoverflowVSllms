@@ -1,1 +1,0 @@
-#include <glib.h>\n\n// ...\n\nvoid my_callback(GtkWidget *widget, gpointer user_data) {\n    // callback implementation\n}\n\n// ...\n\ng_signal_connect(widget, "signal-name", G_CALLBACK(my_callback), user_data);\ng_assert(my_callback != NULL); // ensure my_callback is not NULL

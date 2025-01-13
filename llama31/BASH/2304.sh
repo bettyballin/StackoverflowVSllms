@@ -1,1 +1,0 @@
-xz -9 file.txt

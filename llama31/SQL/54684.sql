@@ -1,0 +1,1 @@
+CREATE TABLE wedding_dates (\n  id INT PRIMARY KEY,\n  day INT,\n  month INT,\n  year INT,\n  date_range DATE RANGE\n);

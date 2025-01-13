@@ -1,1 +1,0 @@
-g++ -Wall -Wextra -Wno-long-long -Wno-unused-parameter -pedantic --pedantic-errors\n-O3 -D_FILE_OFFSET_BITS=64 -DMINGW -isystem "freetype/include" -isystem "jpeg" -isystem "lpng128" -isystem "zlib"\n-isystem "mysql/include" -isystem "ffmpeg/libswscale" -isystem "ffmpeg/libavformat" -isystem "ffmpeg/libavcodec"\n-isystem "ffmpeg/libavutil" -o omingwd/kguimovie.o -c kguimovie.cpp

@@ -1,0 +1,1 @@
+UPDATE your_table SET abbreviation = TRIM(abbreviation);

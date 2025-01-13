@@ -1,1 +1,0 @@
-/* Example: Fade-in transition */\nbody {\n  transition: opacity 0.5s;\n}\n\n/* On page load */\nbody.loaded {\n  opacity: 1;\n}

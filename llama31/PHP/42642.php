@@ -1,0 +1,1 @@
+$items  = "word1 word2 word3 word4";\n$items = explode(" ", $items);\n$result = array();\nforeach ($items as $item) {\n    $result[$item] = $item;\n}

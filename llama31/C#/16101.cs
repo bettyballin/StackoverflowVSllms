@@ -1,1 +1,0 @@
-// embed the C++ DLL as a resource\nusing System.Reflection;\n\n[assembly: EmbeddedResource("mycppdll.dll", "mycppdll.dll")]

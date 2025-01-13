@@ -1,0 +1,1 @@
+BEGIN TRY\n    INSERT INTO CommReceipt (CR_Key, ...)\n    SELECT CR_Key, ...\n    FROM StagingTable\nEND TRY\nBEGIN CATCH\n    IF ERROR_NUMBER() = 2601  -- Primary key violation error number\n        PRINT 'Primary key violation error: ' + ERROR_MESSAGE()\nEND CATCH

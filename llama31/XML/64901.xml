@@ -1,0 +1,1 @@
+<system.web>\n    <pageParserFilters>\n        <add path="*.xml" type="YourNamespace.XmlParserFilter, YourAssemblyName" />\n    </pageParserFilters>\n</system.web>

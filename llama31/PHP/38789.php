@@ -1,0 +1,1 @@
+// Local server ( encryption )\n$data = 'Hello, World!';\n$public_key = 'your_public_key_here';\n$encrypted_data = openssl_encrypt($data, 'RSA', $public_key);\n\n// Remote server ( decryption )\n$private_key = 'your_private_key_here';\n$decrypted_data = openssl_decrypt($encrypted_data, 'RSA', $private_key);\necho $decrypted_data; // outputs "Hello, World!"

@@ -1,1 +1,0 @@
-wget --recursive --level=0 --html-extension --convert-links --no-parent http://example.com

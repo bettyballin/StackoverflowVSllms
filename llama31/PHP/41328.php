@@ -1,0 +1,1 @@
+$text = $db->query('SELECT text FROM content WHERE id = 1')->fetchColumn();\n$parser = new Parsedown();\n$html = $parser->text($text);\necho $html;

@@ -1,1 +1,0 @@
-using Newtonsoft.Json;\n\npublic class MyData\n{\n    public string Name { get; set; }\n    public int Age { get; set; }\n}\n\n// Serialize data\nMyData data = new MyData { Name = "John", Age = 30 };\nstring json = JsonConvert.SerializeObject(data);\n\n// Deserialize data\nMyData deserializedData = JsonConvert.DeserializeObject<MyData>(json);

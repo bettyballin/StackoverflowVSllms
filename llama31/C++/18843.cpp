@@ -1,1 +1,0 @@
-DWORD totalSize, freeSpace;\nif (GetMMCInfo("E:\\", totalSize, freeSpace)) {\n    std::cout << "Total Size: " << totalSize << std::endl;\n    std::cout << "Free Space: " << freeSpace << std::endl;\n}

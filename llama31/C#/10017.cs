@@ -1,1 +1,0 @@
-Assembly assembly = Assembly.LoadFrom(@"\\fileshare\path\to\your\assembly.dll", true);

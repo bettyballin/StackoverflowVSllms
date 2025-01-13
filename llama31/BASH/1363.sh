@@ -1,1 +1,0 @@
-# Create a text file with a newline at the end\necho "Hello, World!" > file.txt\necho "" >> file.txt

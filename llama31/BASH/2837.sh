@@ -1,1 +1,0 @@
-arm-wince-cegcc hello.cpp -o hello.exe

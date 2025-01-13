@@ -1,1 +1,0 @@
-*/5 * * * * /path/to/monitor_process.sh

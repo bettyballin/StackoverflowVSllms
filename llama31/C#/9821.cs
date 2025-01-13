@@ -1,1 +1,0 @@
-AutomationElement root = AutomationElement.RootElement;

@@ -1,0 +1,1 @@
+class Foo {\n  private static $initialized = false;\n  public static function foo($param_1) {\n    if (!self::$initialized) {\n      self::doExpensiveStuff($param_1);\n      self::$initialized = true;\n    }\n    echo '<b>'.$param_1.'</b>';\n  }\n  private static function doExpensiveStuff($param_1) {\n    // expensive operations here\n  }\n}

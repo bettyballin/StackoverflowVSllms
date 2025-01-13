@@ -1,0 +1,1 @@
+$.ajax({\n  url: 'https://www.google.com/ api/v1/data',\n  dataType: 'jsonp',\n  success: function(data) {\n    console.log(data);\n  }\n});

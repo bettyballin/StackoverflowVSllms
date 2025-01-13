@@ -1,0 +1,1 @@
+var tr = document.getElementsByTagName('tr')[0];\ntr.className = 'red';

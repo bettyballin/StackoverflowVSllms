@@ -1,1 +1,0 @@
-#include "shared.h"\n\ntemplate <class Type> void myclass<Type>::setx(Type y) { x = y; }\ntemplate <class Type> Type myclass<Type>::getx() { return x; }\n\ntemplate class myclass<int>;

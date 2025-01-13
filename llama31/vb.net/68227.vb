@@ -1,0 +1,1 @@
+AddHandler timReminder.Tick, Sub(sender As Object, e As EventArgs)\n                                 ' Code to handle the tick event\n                             End Sub

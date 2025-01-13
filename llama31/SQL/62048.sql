@@ -1,0 +1,1 @@
+SELECT Format(MyField, "0.00") AS RoundedField\nFROM MyTable

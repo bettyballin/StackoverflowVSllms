@@ -1,1 +1,0 @@
-public class BypassCertificatePolicy : ICertificatePolicy\n{\n    public bool CheckValidationResult(\n        ServicePoint srvPoint, \n        X509Certificate certificate, \n        WebRequest request, \n        int certificateProblem)\n    {\n        return true; // always return true to bypass validation\n    }\n}

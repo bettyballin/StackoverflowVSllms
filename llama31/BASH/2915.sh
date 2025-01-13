@@ -1,1 +1,0 @@
-tmux new-session 'tail -f file1' \; new-window 'tail -f file2' \; new-window 'tail -f file3'

@@ -1,1 +1,0 @@
-// Add the JProfiler agent to your Tomcat startup script\njava -agentpath:/path/to/jprofiler/lib/jprofiler.jar -jar /path/to/tomcat/bin/bootstrap.jar

@@ -1,0 +1,1 @@
+$go = new Zend_Form_Element_Submit('gogogo');\n$go->setDecorators(array(array('ViewHelper')))\n   ->setIgnore(true)\n   ->setName(null); // Set the name attribute to null\n$form->addElement($go);
